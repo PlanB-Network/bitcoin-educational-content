@@ -1,0 +1,12 @@
+question: Jaka była przewaga monet metalowych nad pieniądzem towarowym?
+answer: Był bardziej wytrzymały
+wrong_answers:
+  - Miał wyższą wartość wewnętrzną
+  - Był łatwiejszy w transporcie
+  - Nie był podatny na podrabianie
+explanation: |
+   Pieniądz metaliczny, w szczególności złoto i srebro, był trwalszy niż pieniądz towarowy.
+   Metale szlachetne są mniej podatne na zniszczenie w czasie, co czyni je idealnymi do
+   długoterminowego przechowywania wartości. Ta trwałość przyczyniła się również do ich użyteczności jako
+   jako środek Exchange, jednostka rozliczeniowa i środek przechowywania wartości.
+reviewed: true

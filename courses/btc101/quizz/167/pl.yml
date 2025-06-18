@@ -1,0 +1,13 @@
+question: Jaki jest główny problem obecnego systemu finansowego w odniesieniu do środowiska?
+answer: Zachęca do nadmiernej konsumpcji i zadłużenia.
+wrong_answers:
+  - Promuje wykorzystanie paliw kopalnych.
+  - Nie inwestuje w energię odnawialną.
+  - Nie reguluje produkcji towarów.
+explanation: |
+  Obecny system finansowy jest krytykowany za zachęcanie do
+  nadmiernej konsumpcji i zadłużenia, co stwarza poważne
+  problemy środowiskowe. Wynika to z łatwego dostępu do
+  kredytów, emisji pieniądza przez banki i korzystania z bankowości rezerwy
+  bankowości opartej na rezerwie cząstkowej.
+reviewed: true

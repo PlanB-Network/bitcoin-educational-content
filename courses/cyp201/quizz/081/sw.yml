@@ -1,0 +1,8 @@
+question: Je, ni riwaya gani kuu ya hati za P2WPKH ikilinganishwa na P2PKH?
+answer: Sahihi huhamishiwa kwenye shamba la Mashahidi.
+wrong_answers:
+  - Anwani zimesimbwa katika base58check.
+  - ScriptPubKey inajumuisha Hash ya ufunguo wa faragha.
+  - P2WPKH haioani na SegWit.
+explanation: |
+  P2WPKH, iliyoletwa kwa SegWit, husogeza saini katika sehemu tofauti inayoitwa Shahidi ili kuzuia kuharibika kwa shughuli.

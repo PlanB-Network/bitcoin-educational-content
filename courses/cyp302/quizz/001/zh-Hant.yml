@@ -1,0 +1,9 @@
+question: 交給 Robert Morriss 的鐵盒中裝的是什麼？
+answer: 三個加密文字和一張便條
+wrong_answers:
+  - 地圖和線索
+  - 獨特的加密金鑰
+  - 單一名單
+explanation: |
+  盒子裡有三個加密的文本和一張紙條，說明發現了寶藏，並提供了如何取回寶藏內容的指示。
+reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Cuál es el principal beneficio de usar un administrador de contraseñas según el capítulo?
-answer: Te ayuda a nunca usar la misma contraseña dos veces
+question: ¿Qué sistema permite transacciones rápidas y baratas en Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Te ayuda a recordar tus nombres de usuario
-  - Protege tu computadora de virus
-  - Genera contraseñas aleatorias
+  - SegWit
+  - Red Ripple
+  - RGB
 explanation: |
-  Según el capítulo, un administrador de contraseñas te ayuda a nunca usar la misma contraseña dos veces, elegir contraseñas complejas y seguras, y facilita la gestión de tu seguridad en línea.
+  La Lightning Network es una segunda solución de Layer que permite una liquidación rápida y reduce el coste de las transacciones de BTC.
 reviewed: false

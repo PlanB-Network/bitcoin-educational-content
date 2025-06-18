@@ -1,0 +1,8 @@
+question: Kulingana na Bastiat, ni nini sifa kuu ya mshikamano wa kweli?
+answer: Ni kwa hiari na si kulazimishwa na sheria
+wrong_answers:
+  - Inafadhiliwa na ushuru
+  - Imewekwa ili kukidhi mahitaji ya pamoja
+  - Inadhibitiwa na serikali ili kuzuia unyanyasaji
+explanation: |
+  Kwa Bastiat, mshikamano wa kweli unaweza tu kutoka kwa Commitment ya hiari, bila wajibu wowote wa kisheria.

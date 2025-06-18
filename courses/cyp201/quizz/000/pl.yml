@@ -1,0 +1,9 @@
+question: Jaka jest główna funkcja funkcji Hash?
+answer: Konwertuje informacje o dowolnej długości na odcisk palca o stałym rozmiarze
+wrong_answers:
+  - Szyfruje wiadomości, uniemożliwiając ich odczytanie
+  - Służy wyłącznie do weryfikacji integralności oprogramowania Bitcoin
+  - Generuje klucze prywatne dla portfeli Bitcoin
+explanation: |
+  Funkcja Hash przekształca dane o dowolnym rozmiarze w Hash o stałym rozmiarze, co ma kluczowe znaczenie dla wielu aplikacji w Bitcoin.
+reviewed: false

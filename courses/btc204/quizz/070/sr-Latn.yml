@@ -1,0 +1,9 @@
+question: Koji su rizici povezani sa korišćenjem čvora treće strane?
+answer: Cenzura i nadzor aktivnosti.
+wrong_answers:
+  - Gubitak bitkoina.
+  - Povećanje naknada za transakcije.
+  - Krađa bitkoina i praćenje.
+explanation: |
+  Ako koristite čvor koji vam ne pripada, rizikujete da vaša emitovanja transakcija budu blokirana i da vas operater nadzire.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kakvu vrstu likvidnosti prodavac na Lightning Network prvenstveno mora upravljati da bi prihvatio uplate?
+answer: Dolazna likvidnost
+wrong_answers:
+  - Odliv likvidnosti
+  - Visok ukupni kapacitet kanala
+  - Visok On-Chain saldo
+explanation: |
+  Da bi primio uplate, prodavac treba da ima dolaznu likvidnost, što znači da sredstva moraju biti dostupna na suprotnoj strani kanala kako bi mogao da prihvati uplate.
+reviewed: false

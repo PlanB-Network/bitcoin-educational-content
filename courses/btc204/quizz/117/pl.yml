@@ -1,0 +1,10 @@
+question: Ile kolejnych transakcji zazwyczaj wykonuje klasyczny rykoszet?
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  Metoda rykoszetu polega zazwyczaj na dokonaniu 4 transakcji na swoją rzecz i ostatniej w celu wysłania środków do ostatecznego odbiorcy.
+  
+reviewed: false

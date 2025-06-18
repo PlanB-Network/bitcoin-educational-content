@@ -1,0 +1,8 @@
+question: Koja je jedna od glavnih posledica Bitcoin na bankarski sistem?
+answer: Omogućava emancipaciju od bankarskog sistema.
+wrong_answers:
+  - Omogućava kontrolu bankarskog sistema.
+  - Omogućava eliminaciju bankarskog sistema.
+  - Omogućava korupciju bankarskog sistema.
+explanation: >-
+reviewed: true

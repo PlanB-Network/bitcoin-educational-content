@@ -1,0 +1,13 @@
+question: Ni nini hufanyika kwa zawadi ya Mining katika mtandao wa Bitcoin takriban kila baada ya miaka minne?
+answer: Inapitia Halving
+wrong_answers:
+  - Inaongezeka maradufu
+  - Inaongezeka mara tatu
+  - Inabakia sawa
+explanation: |
+  Zawadi ya Mining katika mtandao wa Bitcoin inapitia a
+  Halving kila vitalu 210,000, takriban kila nne
+  miaka. Malipo haya hutumika kama motisha yenye nguvu kwa
+  kuhamasisha wachimbaji madini kushiriki katika mchakato wa Mining
+  licha ya gharama yake ya nishati.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je glavna teza Hajeka u Putu u ropstvo?
+answer: Državni intervencionizam neizbežno vodi ka ropstvu.
+wrong_answers:
+  - Socijalizam i nacizam su fundamentalno različite ideologije.
+  - Privatna svojina je pravedna ako je ograničena.
+  - Ograničenje brzine na putu ka kmetstvu je 80 km/h.
+explanation: |
+  U knjizi Put u ropstvo, Hajek tvrdi da državna intervencija u ekonomiji postepeno vodi ka gubitku slobode, jer centralno planiranje neizbežno rezultira ograničenjima individualne slobode.
+reviewed: false

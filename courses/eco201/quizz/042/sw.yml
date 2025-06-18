@@ -1,0 +1,12 @@
+question: Ni tofauti gani kuu kati ya uchanganuzi wa Austria na ule wa wafadhili na Wakenesia?
+answer: Uchanganuzi wa Austria unatilia maanani hasa hatua mbalimbali za uzalishaji na muundo wa bei husika, ilhali wafadhili na Wakenesia huacha katika viwango vilivyojumlishwa kama vile viwango vya ajira, Pato la Taifa, au faharasa ya bei ya watumiaji.
+wrong_answers:
+  - Uchanganuzi wa Austria unasimama katika viwango vilivyojumlishwa kama vile viwango vya ajira, Pato la Taifa, au faharasa ya bei ya watumiaji, ilhali wenye pesa na Wahinesia huzingatia hasa hatua mbalimbali za uzalishaji na muundo wa bei linganishi.
+  - Mchanganuo wa Waaustria na wa wafadhili na Wakenesia kimsingi ni sawa.
+  - Uchanganuzi wa Austria unaangazia matukio ya nje na roho za wanyama, ilhali wenye fedha na Wakenesia wanazingatia mienendo ya asili ya mfumo wa benki ya hifadhi ya sehemu.
+explanation: |
+  Tofauti kuu kati ya uchanganuzi wa Austria na ule wa wafadhili
+  na Wakenesia ni kwamba wa kwanza hulipa kipaumbele maalum kwa hatua mbalimbali
+  ya uzalishaji na muundo wa bei jamaa, ambapo mwisho huacha
+  vigezo vilivyojumlishwa kama vile viwango vya ajira, Pato la Taifa, au faharasa ya bei ya watumiaji.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Šta je bankarstvo sa delimičnim rezervama?
+answer: Frakciono rezervno bankarstvo je bankarska praksa gde banke nisu obavezne da drže onoliko rezervi koliko primaju u depozitima, što im omogućava da stvore novu kupovnu moć prilikom odobravanja kredita.
+wrong_answers:
+  - Frakciono rezervno bankarstvo je bankarska praksa gde banke moraju držati više rezervi nego što primaju u depozitima.
+  - Frakciono rezervno bankarstvo je bankarska praksa gde banke nisu dozvoljene da odobravaju kredite.
+  - Frakciono rezervno bankarstvo je bankarska praksa gde banke moraju držati tačno istu količinu rezervi kao što primaju u depozitima.
+explanation: |
+  Frakciono bankarstvo je sistem u kojem banke drže
+  samo deo sredstava svojih deponenata u rezervi,
+  pozajmljujući ostatak. Ovaj sistem omogućava bankama da kreiraju
+  novac u obliku kredita, što povećava ukupnu
+  količinu novca Supply u ekonomiji.
+reviewed: true

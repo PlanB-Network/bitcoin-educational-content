@@ -1,0 +1,9 @@
+question: Jaki jest warunek, aby liczba całkowita a miała odwrotność modulo N?
+answer: a i N muszą być całkowite
+wrong_answers:
+  - N musi być parzyste
+  - a musi być nieparzyste
+  - a musi być liczbą pierwszą
+explanation: |
+  Liczba całkowita a ma odwrotność modulo N wtedy i tylko wtedy, gdy są one współpierwiastkowe, co oznacza, że ich największy wspólny dzielnik wynosi 1.
+reviewed: false

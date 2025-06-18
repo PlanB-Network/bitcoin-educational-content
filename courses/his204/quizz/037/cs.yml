@@ -1,0 +1,8 @@
+question: Který z těchto autorů nepatří do Gournayova okruhu?
+answer: Dupont de Nemours
+wrong_answers:
+  - Véron de Forbonnais
+  - Turgot
+  - Adam Smith
+explanation: |
+  Dupont de Nemours byl fyziokrat, nikoli člen Gournayova kruhu. Fyziokraté měli myšlenky blízké myšlenkám Gournayova kruhu, ale tvořili samostatnou skupinu.

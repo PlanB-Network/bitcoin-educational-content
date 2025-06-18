@@ -1,9 +1,9 @@
-question: Nella maggior parte delle giurisdizioni, cosa determina un evento imponibile quando si tratta di Bitcoin?
-answer: La vendita, la negoziazione o l'utilizzo di Bitcoin come pagamento spesso determina un evento imponibile.
+question: Nella maggior parte delle giurisdizioni, cosa determina un evento imponibile quando si tratta dei bitcoin?
+answer: La vendita, la negoziazione o l'utilizzo dei bitcoin come pagamento spesso determina un evento imponibile.
 wrong_answers:
-  - Semplicemente detenendo Bitcoin a tempo indeterminato senza effettuare alcuna transazione.
+  - Semplicemente detenendo dei bitcoin a tempo indeterminato senza effettuare alcuna transazione.
   - Backup del portafoglio o delle chiavi Bitcoin.
-  - Visualizzazione del prezzo del Bitcoin online.
+  - Visualizzazione del prezzo dei bitcoin online.
 explanation: |
-  In genere, un evento imponibile si verifica quando un'azienda cede o utilizza i suoi Bitcoin, non semplicemente detenendoli. Ogni vendita o scambio di Bitcoin con beni, servizi o valuta fiat può generare guadagni o perdite imponibili.
+  In genere, un evento imponibile si verifica quando un'azienda cede o utilizza i suoi bitcoin, non semplicemente detenendoli. Ogni vendita o scambio dei bitcoin con beni, servizi o valuta fiat può generare guadagni o perdite imponibili.
 reviewed: false

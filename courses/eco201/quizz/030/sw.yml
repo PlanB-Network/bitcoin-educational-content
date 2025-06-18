@@ -1,0 +1,18 @@
+question: Je, ni nini maana ya asili ya mfuatano wa hatua za binadamu kwenye shughuli za uzalishaji?
+answer: Mchepuko wowote wa uzalishaji, yaani, upanuzi wowote wa muundo wa uzalishaji, unahitaji kuokoa kabla.
+wrong_answers:
+  - Asili ya mfuatano wa hatua ya mwanadamu haina maana kwenye shughuli za uzalishaji.
+  - Asili ya mfuatano wa hatua ya mwanadamu inamaanisha kuwa shughuli za uzalishaji lazima zifanywe kwa mpangilio maalum.
+  - Asili ya mfuatano wa hatua ya mwanadamu inamaanisha kuwa shughuli za uzalishaji lazima zifanyike kwa wakati mmoja.
+explanation: |
+  Kwa sababu ya asili ya mlolongo wa hatua za kibinadamu, watu binafsi
+  lazima kufanya uchaguzi kati ya wakati-maamuzi kusawazisha
+  mahitaji ya haraka na malengo ya baadaye. Chaguzi hizi zinaathiri
+  mlolongo wa hatua mtu anaweza kuchukua, kama ya muda mfupi
+  maamuzi ni chini ya malengo ya muda mrefu. Kwa upande
+  ya uzalishaji, hii ina maana kwamba detour yoyote katika uzalishaji
+  mchakato, i.e. kupanua muundo wa uzalishaji;
+  inahitaji kuokoa kabla. Rasilimali lazima zitengwe sasa ili
+  kumudumisha mtu kwa muda unaohitajika
+  njia ndefu, yenye tija zaidi.
+reviewed: true

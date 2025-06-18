@@ -1,0 +1,9 @@
+question: Koji Elements su potrebni za kreiranje Lightning kanala koji prenosi RGB sredstva?
+answer: Finansiranje u bitkoinima i finansiranje u RGB sredstvima
+wrong_answers:
+  - Bitcoin-samo finansiranje za početak
+  - RGB-samo finansiranje za početak
+  - Nije potrebno finansiranje
+explanation: |
+  Kanal zahteva i Bitcoin finansiranje na 2/2 Multisig, kao i RGB finansiranje sredstava za alokaciju sredstava na istom kanalu.
+reviewed: false

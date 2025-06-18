@@ -1,10 +1,9 @@
-question: Quelle est une caractéristique commune des escroqueries dans le domaine des cryptomonnaies ?
-answer: Des promesses de rendements irréalistes.
+question: Quel est le mécanisme principal d'un système de Ponzi ?
+answer: Les premiers investisseurs sont payés avec l'argent des nouveaux
 wrong_answers:
-  - Des promesses de biens physiques.
-  - Des promesses de produits logiciels.
-  - Des promesses de monnaie fiduciaire.
+  - Les rendements proviennent d'un produit réel sur le marché
+  - Les investisseurs reçoivent des dividendes d'entreprises
+  - Les gains sont générés par des contrats intelligents sur la blockchain
 explanation: |
-  Les escroqueries dans le domaine des cryptomonnaies font souvent des promesses de rendements irréalistes.
-  Il est crucial de ne pas faire confiance aveuglément, surtout lorsqu'il s'agit d'une bannière internet.
+  Dans un système de Ponzi, aucun produit réel n'est créé et les paiements dépendent uniquement de l'arrivée de nouveaux participants.
 reviewed: false

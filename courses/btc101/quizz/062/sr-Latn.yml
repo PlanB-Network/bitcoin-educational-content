@@ -1,0 +1,12 @@
+question: Koji je mehanizam koji osigurava da se novi blok dodaje u Blockchain svakih deset minuta?
+answer: Podešavanje težine.
+wrong_answers:
+  - Podešavanje brzine.
+  - Podešavanje vremena.
+  - Podešavanje bloka.
+explanation: |
+  Mehanizam koji osigurava da se novi blok doda na
+  Blockchain svakih deset minuta je prilagođavanje težine.
+  Ovo prilagođavanje se dešava svakih 2016 blokova, ili otprilike
+  svake dve nedelje.
+reviewed: true

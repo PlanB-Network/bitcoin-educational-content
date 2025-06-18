@@ -1,0 +1,10 @@
+question: Ni kwa jinsi gani muamala wa PayJoin unaweza kuchukuliwa kuwa shughuli ya steganographic?
+answer: Inaficha kiasi halisi cha malipo kutoka kwa waangalizi wa nje.
+wrong_answers:
+  - Husimba kwa njia fiche kiasi halisi cha malipo kwa waangalizi wa nje.
+  - Huficha kiasi halisi cha malipo kutoka kwa mpokeaji.
+  - Husimba kwa njia fiche kiasi halisi cha malipo kwa mpokeaji.
+explanation: |
+  Muamala wa PayJoin uko chini ya kikoa cha steganografia kwa sababu huficha kiasi halisi cha muamala ndani ya shughuli ya uwongo ambayo hufanya kama udanganyifu kwa waangalizi wa nje.
+  
+reviewed: false

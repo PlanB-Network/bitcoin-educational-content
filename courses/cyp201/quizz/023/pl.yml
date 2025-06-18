@@ -1,0 +1,9 @@
+question: Jaki jest wspólny punkt używany przez wszystkich uczestników do obliczania klucza publicznego w Bitcoin?
+answer: Punkt generatora G
+wrong_answers:
+  - SHA256 Hash
+  - Zwrot Mnemonic
+  - Skompresowany klucz publiczny
+explanation: |
+  Punkt generatora G krzywej eliptycznej secp256k1 jest używany do obliczania kluczy publicznych z kluczy prywatnych.
+reviewed: false

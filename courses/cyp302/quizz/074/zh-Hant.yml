@@ -1,0 +1,9 @@
+question: 如果使用密鑰 7 來加密 CAT，會發生什麼情況？
+answer: 字變成 JHA
+wrong_answers:
+  - 字變成 JBA
+  - 字變成 JHB
+  - 字變成 ZHA
+explanation: |
+  使用 7 的金鑰，CAT 的每個字母在字母表中移位 7 個位置，產生加密字 JHA。
+reviewed: false

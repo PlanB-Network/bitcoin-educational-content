@@ -1,0 +1,9 @@
+question: 與傳統的 Blockchain 相比，RGB 如何改善可擴充性？
+answer: 將儲存和驗證限制在相關的狀態轉換上
+wrong_answers:
+  - 透過無形中增加 Bitcoin 區塊的大小
+  - 透過將每個 Contract 直接連結至所有 UTXO
+  - 將 Contract 資料集中在幾台中央伺服器上
+explanation: |
+  RGB 只保留與每位參與者相關的資料，因此可降低儲存與驗證需求。
+reviewed: false

@@ -1,0 +1,10 @@
+question: DigiCash 是什麼專案？
+answer: David Chaum 嘗試創造匿名電子貨幣。
+wrong_answers:
+  - 為 Bitcoin 建立數位 Wallet 的專案。
+  - 聯邦儲備局試圖將所有實體現金數位化。
+  - 一個以 Bitcoin 為基礎創建加密貨幣的專案。
+explanation: |
+  David Chaum 在 1980 年的 DigiCash 項目中提出了匿名電子貨幣的概念。
+  在 1980 年代透過其專案 DigiCash 提出匿名電子貨幣的概念。
+reviewed: true

@@ -1,0 +1,10 @@
+question: Co oznacza entropia w kontekście analizy łańcucha na Bitcoin?
+answer: Brak wiedzy analityków na temat dokładnej konfiguracji transakcji.
+wrong_answers:
+  - Szybkość, z jaką informacje o transakcji rozprzestrzeniają się w sieci.
+  - Poziom bezpieczeństwa kryptograficznego podpisów cyfrowych używanych w transakcji.
+  - Rozmiar grupy identycznych UTXO, w których ukryta jest moneta.
+explanation: |
+  Entropia służy do pomiaru braku wiedzy analityków na temat dokładnej konfiguracji transakcji. Innymi słowy, im wyższa entropia, tym trudniej jest analitykom zidentyfikować przepływy bitcoinów między wejściami i wyjściami.
+  
+reviewed: false

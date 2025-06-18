@@ -1,11 +1,9 @@
-question: What is a wallet in the context of Bitcoin?
-answer: A digital safe for your bitcoins
+question: What device is recommended to secure long-term accumulated funds?
+answer: Hardware wallet
 wrong_answers:
-  - A physical device for storing bitcoins
-  - A software for mining bitcoins
-  - A platform for buying and selling bitcoins
+  - Hot wallet
+  - Lightning wallet
+  - Exchange platform
 explanation: |
-  The chapter content explains that bitcoins are stored in what is called
-  a wallet, which is a digital safe for your money. Only the key holder can access
-  it.
+  A hardware wallet stores private keys offline, providing enhanced security for significant amounts over the long term.
 reviewed: false

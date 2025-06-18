@@ -1,0 +1,9 @@
+question: Dlaczego kryptografia jest kluczowa w otwartym środowisku komunikacyjnym?
+answer: Zabezpiecza dane, nawet jeśli kanał komunikacyjny zostanie przechwycony.
+wrong_answers:
+  - Sprawia, że komunikacja jest niewidoczna dla wszystkich sieci.
+  - Zapobiega atakom na sieci lokalne.
+  - Zastępuje fizyczne kable bezpieczną komunikacją.
+explanation: |
+  W otwartym środowisku komunikacyjnym, w którym kanały mogą być monitorowane, kryptografia zapewnia bezpieczeństwo poprzez ochronę wymienianych danych, nawet w obecności potencjalnych ataków.
+reviewed: false

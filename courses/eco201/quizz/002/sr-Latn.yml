@@ -1,0 +1,11 @@
+question: Ko je instruktor kursa?
+answer: Théo Mogenet
+wrong_answers:
+  - Théo Boloré
+  - Descoupes Bitcoin
+  - Nijedno od navedenog
+explanation: |
+  Poglavlje pominje da je instruktor kursa
+  Théo Mogenet, strastven i kompetentan profesor
+  austrijske ekonomije.
+reviewed: true

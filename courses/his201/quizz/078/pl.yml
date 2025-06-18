@@ -1,0 +1,9 @@
+question: Komu Satoshi Nakamoto przekazał kontrolę nad stroną internetową (która obejmuje również forum i wiki) po swoim odejściu?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Nie miał czasu na zarządzanie nim i szybko oddelegował to zadanie. Stronę i forum przejęli Theymos i Cøbra.
+reviewed: false

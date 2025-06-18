@@ -1,0 +1,10 @@
+question: JoinMarket 使用的特定使用者配對模式是什麼？
+answer: 莊家與莊家之間的 P2P 市場。
+wrong_answers:
+  - 隨機指派參與者的伺服器。
+  - 以荷蘭式拍賣為基礎的交換。
+  - 手動選擇參與者的調解服務。
+explanation: |
+  JoinMarket 在 P2P Exchange 市場上運作，有些使用者，也就是製造者，提供他們的比特幣來進行混合，而其他人，也就是接受者，則使用這些資金在 Exchange 中進行幣兌換，並收取費用。
+  
+reviewed: false

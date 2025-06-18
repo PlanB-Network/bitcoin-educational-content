@@ -1,0 +1,9 @@
+question: Kwa nini seti ya nambari zilizo na nyongeza ni kikundi, ilhali haiko na kuzidisha?
+answer: Seti haikidhi hali ya ubadilishaji chini ya kuzidisha
+wrong_answers:
+  - Seti haijafungwa chini ya kuzidisha
+  - Kuzidisha si shirikishi juu ya nambari kamili
+  - Hakuna kipengele cha upande wowote cha kuzidisha
+explanation: |
+  Seti ya nambari kamili haikidhi hali ya ubadilishaji chini ya kuzidisha kwa sababu hakuna kinyume kwa kila nambari kamili ambayo inaweza kuzidisha kutoa 1. Ni Elements 1 na -1 pekee zinazotimiza hali hii.
+reviewed: false

@@ -1,11 +1,9 @@
-question: What does it mean to say that Bitcoin is like a black hole?
-answer: It will not disappear and will absorb everything in its path over time.
+question: Which service lists merchants accepting bitcoin worldwide?
+answer: BTC Map
 wrong_answers:
-  - It will eventually collapse under its own weight.
-  - It is a threat to the global financial system.
-  - It is a mystery that scientists are still trying to understand.
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Swiss Bitcoin Pay
 explanation: |
-  The statement that Bitcoin is like a black hole refers to its resilience
-  and its potential to become the dominant financial system, absorbing all other systems
-  in its path.
+  BTC Map is a dedicated platform that locates merchants accepting bitcoin around the world.
 reviewed: false

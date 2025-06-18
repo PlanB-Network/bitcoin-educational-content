@@ -1,0 +1,13 @@
+question: Jukwaa la DCA ni nini?
+answer: Huduma inayowawezesha watumiaji kuwekeza kiasi fulani cha pesa katika mali mara kwa mara.
+wrong_answers:
+  - Aina ya cryptocurrency Exchange ambayo inaruhusu biashara ya Bitcoin pekee.
+  - Huduma ya kifedha ambayo hutoa mikopo kwa wawekezaji kwa biashara ya pembezoni.
+  - Zana ya programu inayofuatilia bei za hisa katika muda halisi bila vipengele vyovyote vya uwekezaji.
+explanation: |
+  Jukwaa la DCA linarejelea jukwaa linalowezesha
+  Dollar-Cost Aveging (DCA), mkakati wa uwekezaji ambapo
+  mtu binafsi huwekeza kiasi fulani cha pesa katika a
+  mali fulani kwa vipindi vya kawaida, bila kujali
+  bei ya mali.
+reviewed: true

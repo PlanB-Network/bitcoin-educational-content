@@ -1,0 +1,14 @@
+question: Je, ni faida gani za kutumia DOH (DNS juu ya HTTPS) na DOT (DNS juu ya TLS)?
+answer: Wanasimba muunganisho wa DNS kwa njia fiche, kutoa faragha na usalama zaidi, na huepuka mtu katika mashambulizi ya kati.
+wrong_answers:
+  - Wanaharakisha uunganisho wa mtandao.
+  - Wanazuia matangazo yote.
+  - Wanaruhusu ufikiaji wa tovuti zilizozuiwa.
+explanation: |
+  DOH (DNS juu ya HTTPS) na DOT (DNS juu ya TLS) husimba kwa njia fiche DNS
+  uhusiano, kutoa faragha zaidi na usalama. Haya
+  itifaki hutumiwa sana katika makampuni ya biashara kutokana na wao
+  usalama ulioimarishwa na asili yake inaungwa mkono na Windows,
+  Android, na iPhone. Wanaboresha faragha na usalama kwa
+  kuepuka mtu katika mashambulizi ya kati.
+reviewed: true

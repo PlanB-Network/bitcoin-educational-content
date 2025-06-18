@@ -1,0 +1,12 @@
+question: W jakich dziedzinach Bitcoin budzi wątpliwości?
+answer: Kryptografia, teoria gier, ekonomia i polityka monetarna, informatyka, filozofia, energia, prawo i regulacje.
+wrong_answers:
+  - Tylko informatyka i ekonomia
+  - Tylko kryptografia i teoria gier.
+  - Tylko filozofia i energia.
+explanation: |
+  Bitcoin to multidyscyplinarny temat, który rodzi pytania
+  pytania związane z różnymi dziedzinami, w tym
+  kryptografia, teoria gier, ekonomia i polityka pieniężna,
+  informatyki, filozofii, energetyki, prawa i regulacji.
+reviewed: true

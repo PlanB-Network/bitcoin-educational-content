@@ -1,0 +1,9 @@
+question: 在發現 Bitcoin 之前，Google 工程師 Mike Hearn 對哪一種數位貨幣系統感興趣？
+answer: 漣漪
+wrong_answers:
+  - 自由儲備
+  - eLD
+  - RPOW
+explanation: |
+  2009 年 4 月，他在 Ryan Fugger 的專案 Google 群組中第一次聽到 Bitcoin。他立即聯絡 Satoshi 詢問問題。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka była definicja własności w języku łacińskim według Rzymian?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  W prawie rzymskim jus utendi et abutendi definiuje własność jako prawo do używania i nadużywania, kładąc nacisk na używanie bez zagłębiania się w jego przyczyny.
+reviewed: false

@@ -21,12 +21,13 @@ See kursus keskendub muidugi Satoshi Nakamoto figuurile, kelle sõnu ja tegusid 
 
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Sissejuhatus Bitcoini loomise ajalukku
+## Kursuse ülevaade
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Tere tulemast kursusele HIS201!
 See kursus eesmärk on jutustada teile Bitcoini loomise lugu viisil, nagu te pole seda kunagi varem lugenud. See on sageli tähelepanuta jäetud, hoolimata sellest, et see on täis põnevaid detaile. Püüame seda kirjeldada kogu selle keerukuses, alates selle kontseptsiooni loomisest Satoshi Nakamoto poolt kuni tema varajase kadumiseni ja üleandmiseni kogukonnale.
 
-### Lühike ülevaade
+**Lühike ülevaade**
 
 Bitcoin kujundati üksikisiku (või grupi) poolt, kes kasutas pseudonüümi Satoshi Nakamoto. 31. oktoobril 2008 jagas ta oma mudelit kirjeldavat valget raamatut läbi Internetis asuva tundmatu e-posti meilinglisti. 8. jaanuaril 2008 rakendas ta oma kontseptsiooni, avaldades tarkvara lähtekoodi ja käivitades võrgu, kaevandades esimesi plokke ahelas. Ta soovis meelitada ligi kriitilise hulga kasutajaid, reklaamides oma loomingu erinevates suhtluskanalites.
 
@@ -48,7 +49,7 @@ Bitcoin'i loomine oli ka eraõiguslike valuutasüsteemide, nagu e-gold ja Libert
 
 Lõpuks on Bitcoin'i projekt krüptopunkide liikumise eetose pärija, 90ndate mässumeelsete krüptograafide liikumine, kes püüdsid säilitada inimeste privaatsust ja vabadust Internetis läbi krüptograafia proaktiivse kasutamise. Bitcoin on kooskõlas projektidega nagu b-money, bit gold või RPOW, mida need isikud kujutasid ette 90ndate lõpus ja 2000ndate alguses. Satoshi Nakamoto mainis neid, kuigi ta ei olnud neist enne Bitcoin'i kujundamist teadlik ja tõenäoliselt ei olnud ta algse liikumise osa.
 
-### Kursuse Ülesehitus
+**Kursuse Ülesehitus**
 
 See kursus jaguneb neljaks osaks, mis keskenduvad vastavalt Bitcoin'i päritolule (3 peatükki), selle aeglasele esilekerkimisele (3 peatükki), esialgsele tõusule (3 peatükki) ja selle kogukonna kujunemisele (4 peatükki). Kokku sisaldab see 12 peatükki, mis on järgmised (samuti on märgitud asjaomane periood):
 
@@ -66,7 +67,7 @@ See kursus jaguneb neljaks osaks, mis keskenduvad vastavalt Bitcoin'i päritolul
 - Satoshi Kadumine (detsember 2010–aprill 2011)
 - Kogukond Võtab Üle (aprill 2011–september 2011)
 
-### Üksikasjad
+**Üksikasjad**
 
 Kõik kuupäevad ja kellaajad on antud vastavalt UTC ajavööndile (mis vastab Greenwichi meridiaanile) ja võivad seetõttu erineda Ameerika kuupäevadest. On tõenäoline, et Satoshi Nakamoto viibis oma projekti kallal töötades Ameerika Ühendriikides. Siiski on Bitcoin rahvusvaheline projekt, mis hõlmas märkimisväärselt ka Soome arendaja Martti Malmi panust (Ida-Euroopa aeg, UTC+2 / UTC+3), ja seetõttu viitame me universaalsele ajavööndile. Seega ütleme, et peamise võrgustiku tegelik käivitamine toimus 9. jaanuaril kell 2:54 hommikul, mitte 8. jaanuaril kell 6:54 õhtul, mis vastab Ida-ranniku ajavööndile (Vaikse ookeani aeg, UTC-8 / UTC-7).
 
@@ -80,6 +81,7 @@ Sisu on osaliselt kohandatud prantsuse raamatust [_L'Élégance de Bitcoin_](htt
 
 Pange tähele, et selle kursuse mitteingliskeelse versiooni puhul on enamik tsitaate pärit Ameerika inglise keelest ja on selleks puhuks tõlgitud. Terminit _coin_ tõlgitakse üldiselt kui "ühik" (mitte "tükk"), kui see viitab arvestusühikule.
 
+Oled valmis uurima Bitcoini uskumatu loomise lugu? Siis sukeldume koos sellesse erakordsesse ajalukku!
 # Bitcoini Algus
 
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
@@ -373,7 +375,7 @@ Ripple'i kontseptsioon põhines ideel, et raha koosnes sisuliselt IOU-dest, st k
 
 Siin on Ripple'i tutvustav video aastast 2011:
 
-![Video (Youtube) Ripple'i esitlusest 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Hoolimata oma kogukonna entusiasmist ja mõnest tuhandest kasutajast, oli Ripple'il suuri puudusi, mis takistasid selle edukust. Eriti [kannatas](https://fiatjaf.com/3cb7c325.html) see "detsentraliseeritud kohustuse probleemi" all: makse sooritamisel ei suutnud osalejad turvalisel viisil kohustuda, et tagada laenukett, probleem, mis hiljem lahendati Lightninguga. (_originaal: "the problem of the decentralized commit"_)
 
@@ -1149,7 +1151,7 @@ Kaks nädalat hiljem, vastuse puudumisel, tuli talle appi teine foorumi liige. S
 EFF võttis avalike annetuste vastuvõtmise alustamiseks aega. Pärast läbirääkimisi veenis kogukond neid avaldama oma veebilehel annetuse aadressi. 9. novembril ilmus aadress [annetuste lehele](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Bitcoin'i kasutajad [hakkasid](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) vahendeid üle kandma.
 Mõni päev hiljem kirjutas blogger jimbobway teemal [postituse](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html), mis tõmbas tähelepanu Bitcoin'ile. See artikkel jagati [HackerNews'is](https://news.ycombinator.com/item?id=1905522). Samuti transkribeeriti see videoformaati BitcoinMedia poolt, kasutades Xtranormali:
 
-![Video "Bitcoin ja EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 See on väga hea uudis Bitcoin'ile, kuna mõlemad algatused jagavad ühiseid väärtusi. Lisaks on EFF tuntud õiguskaitse pakkumise poolest privaatsuse säilitamise ja andmejagamise projektidele nagu Tor ja BitTorrent. Satoshi Nakamoto ise on sellest teadlik ja toetab eriti organisatsiooni tegevust, nagu nähtub tema [kommentaarist](https://mmalmi.github.io/satoshi/#email-254), mille ta tegi ühes oma e-kirjas Gavin Andresenile 6. jaanuaril 2011:
 
@@ -1345,7 +1347,7 @@ Kolmas element on Bitcoin foorum. Seda administreerib Martti, kuid ta värbab ki
 See pole ainult tehniline külg, mis on mõjutatud asutaja lahkumisest ja koostöö vajadusest: on ka sotsiaalne aspekt, mis aitab tugevdada kogukonda, luues liikmete vahel sidemeid. Seetõttu korraldatakse "päriselus" kohtumisi ja konverentse. Neil üritustel on ka eelis tutvustada Bitcoini inimestele, kes võivad olla veebisisule vastumeelsemad.
 Esimesed Bitcoin'i kasutajate kohtumised algatas Bruce Wagner, New Yorgis baseeruv [YouTube kanali](https://www.youtube.com/@vlogwrap) peremees, mis käsitles tehnilistel teemadel peetavaid teledebate, kus ta lõi saate nimega _Bitcoin Show_ aprillis 2011. Esimene kohtumine [toimus](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174) New Yorgis 11. detsembril 2010 (UTC). Järgnevalt toimus samatüüpi koosolek [Washington D.C.-s](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/). Kohtumine korraldati ka [Zürichis, Šveitsis](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886) 5. veebruaril 2011, mille viis läbi Mike Hearn, Christian Deckeri ja Stefan Thomase (justmoon) osavõtul. Veebruaris toimus ka [esimene filmitud esitlus](https://www.youtube.com/watch?v=koIq58UoNfE) Bitcoinist, mida juhtis Gavin Andresen 8. veebruaril üritusel, mis oli korraldatud tema kodulinnas Amherstis, Massachusettsis. Esitluse pealkiri oli "Making Money" ja uue projekti peahooldaja esitlus sisaldas arvukalt keeleelemente, mis iseloomustaksid järgnevatel aastatel krüptoraha esitlust.
 
-![Video (Youtube) Gavin'i kõnest Amherstis veebruaris 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Kuigi esimesed sündmused toimusid Ameerika Ühendriikides, ei jäänud Prantsuse kogukond kõrvale. 25. mail, et tähistada Gavin Andreseni külastust Pariisis, korraldati lõuna La Défense'i piirkonnas, millest võtsid osa tuntud isikud nagu Lucien Grondin, David François ja Jon Matonis (kes samuti külastas).
 
@@ -1359,7 +1361,7 @@ Bitcoin'i esitlus Renaud Lifchitzi poolt 15. juunil 2011 (allikas: [foorumi arhi
 
 Selle kogemuse järel [korraldas](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) Pariisi kogukond sotsiaalse koosviibimise, mis toimus 11. juulil. Sellel üritusel kohtusid isikud nagu Pierre Noizat või Émilien Dutang.
 Rahvusvahelisel areenil toimus esimene ühine konverents Bitcoini teemal 19. kuni 21. augustil New Yorgis. Selle kohtumise, mille korraldas Bruce Wagner, tõid kokku sellised isiksused nagu Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès ja Charlie Lee. Kuigi Wagner lubas kolmepäevast üritust, toimusid ainult neli esitlust: tema enda oma ning Gavin Andreseni, Jeff Garziku ja Stefan Thomase omad.
-![Video (Youtube) Gavin'i sekkumisest 20. augustil 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Aasta hiljem, novembris, toimub Euroopa konverents [Praghas](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901). Märkimisväärsete esinejate hulka kuuluvad arendaja Amir Taaki, Rootsi Piraadipartei asutaja Rick Falkvinge ja esitaja Max Keiser. Järgmisel aastal korraldatakse sarnane üritus [Londonis](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1369,7 +1371,7 @@ Aasta 2011 oli samuti aasta, kus meediakajastus märkimisväärselt laienes. Wik
 
 Esiteks hakkasid Youtube'is levima videod antud teemal. 22. märtsil ilmus esimene kõrgekvaliteediline video Bitcoini kohta. See video, lihtsalt pealkirjaga "Mis on Bitcoin?", valmis Stefan Thomase (justmoon) poolt tänu [kogukonna rahastamisele](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001). See avaldati WeUseCoins portaalis, mis on pühendatud krüptoraha haridusele ja populariseerimisele. Järgnesid teised sõltumatult toodetud tutvustusvideod, nagu [howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) aprillis, [Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY) või [Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) juunis.
 
-![Mis on Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 Aprillis käsitlesid digitaalvaluuta teemat peamised peavoolumeedia väljaanded nagu [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), ja [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). Mais sai liikumine hoogu juurde ja Bitcoinist räägiti peaaegu kõikjal, eriti [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency)'s, [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html)'il, [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124)'s ja [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/)'is.
 ![Gavin Andresen Forbes'is aprillis 2011](assets/en/68.webp)
 Gavin Andresen Forbes'is aprillis 2011 (allikas: [Forbesi arhiiv](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
@@ -1403,7 +1405,7 @@ Teiseks, Bitcoini ei ehitatud ühe päevaga. Isegi pärast tarkvara versiooni 0.
 Kolmandaks, Bitcoin kasvas orgaaniliselt. See suutis areneda diskreetselt, meelitades järk-järgult inimesi. Peaaegu poolteist aastat oli see väga konfidentsiaalne projekt, mida tundsid entusiastid ja uudishimulikud. Alles pärast juuli 2010. aasta slashdottingut hakkas see plahvatuslikult kasvama. Spekulatiivne hullus selle ümber ei hakanud tegelikult peale enne 2011. aastat, kui hind tõusis eksponentsiaalselt 32 dollarini.
 Neljandaks oli Bitcoin altruistlik loomine. Satoshi Nakamoto pakkus Bitcoini maailmale. Ta vabastas programmi vaba litsentsi all. Ta ei otsinud ei kuulsust, kasumit ega võimu. Ta tagas võrgu kaevandamise turvalisuse enam kui aasta vältel, küsimata selle eest mingit kompensatsiooni. Kuigi ta kogus kokku rohkem kui miljon bitcoini, ei kulutanud ta neid kunagi. Lõpuks kadus ta peamiselt seetõttu, et kartis WikiLeaks'i juhtumiga seotud tähelepanu, jättes projekti toetuma kogukonnale, ilma ühe valitseva figuurita. 2011. aastal Satoshi kadus, kuid Bitcoin jäi ellu. Krüptoraha isegi kindlalt hakkas tõusma, nii meedia kui ka majanduslikust vaatenurgast. Masin oli käivitatud ja keegi ei suutnud seda peatada.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

@@ -1,0 +1,11 @@
+question: Zašto je privatnost važna u kontekstu Bitcoin?
+answer: Da biste minimizirali rizik od praćenja vaših sredstava.
+wrong_answers:
+  - Da smanjite vrednost vaših bitkoina.
+  - Da sprečite krađu vaših bitkoina.
+  - Da platite porez na vaše bitkoine.
+explanation: |
+  Privatnost je važna u kontekstu Bitcoin kako bi se smanjili
+  rizici da vaša sredstva budu praćena, što može olakšati
+  vaše nadgledanje.
+reviewed: true

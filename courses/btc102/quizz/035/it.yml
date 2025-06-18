@@ -1,9 +1,9 @@
-question: Chi ha descritto Bitcoin come una banca svizzera nel tuo taschino?
-answer: Barack Obama
+question: Quale soluzione di stoccaggio è consigliata per un hodler?
+answer: A Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - Un servizio di custodia
+  - Una carta Wallet
 explanation: |
-  Il capitolo menziona che Barack Obama una volta ha descritto Bitcoin come una banca svizzera nel tuo taschino.
+  Un hodler, che detiene bitcoin a lungo termine, dovrebbe utilizzare un Hardware Wallet per massimizzare la sicurezza.
 reviewed: false

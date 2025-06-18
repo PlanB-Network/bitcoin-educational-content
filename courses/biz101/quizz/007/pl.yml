@@ -1,0 +1,9 @@
+question: Które z poniższych najlepiej opisuje sposób, w jaki transakcje Bitcoin osiągają ostateczność?
+answer: Po zarejestrowaniu w Blockchain transakcje są niezmienne i nie można ich zmienić.
+wrong_answers:
+  - Transakcje mogą zostać cofnięte przez banki w przypadku sporu.
+  - Użytkownicy muszą uzyskać zgodę wielu podmiotów rządowych, aby sfinalizować transakcję.
+  - Każdy uczestnik może dowolnie edytować wcześniejsze transakcje, jeśli posiada specjalny kod.
+explanation: |
+  Bitcoin s Blockchain jest odporny na manipulacje Ledger. Gdy transakcja zostanie potwierdzona i włączona do bloku, staje się częścią stałego zapisu, zapewniając ostateczność.
+reviewed: false

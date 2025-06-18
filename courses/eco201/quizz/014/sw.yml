@@ -1,0 +1,13 @@
+question: Kuna tofauti gani ya kimsingi kati ya nadharia ya kando ya thamani ya Carl Menger na ile ya Leon Walras na William Stanley Jevons?
+answer: Nadharia ya Menger kimsingi ni ya kidhamira, huku Walras na Jevons wakichukulia thamani kuwa jambo linalolengwa na linaloweza kupimika.
+wrong_answers:
+  - Nadharia ya Menger kimsingi ina lengo, huku Walras na Jevons wakichukulia thamani kuwa jambo linaloweza kupimika na lisiloweza kupimika.
+  - Nadharia ya Menger inatokana na nadharia ya kazi ya thamani, huku Walras na Jevons wakizingatia thamani kuwa kulingana na kiasi cha ardhi kinachotumika katika uzalishaji.
+  - Nadharia ya Menger inatokana na nadharia ya fizikia ya thamani ya ardhi, huku Walras na Jevons wakizingatia thamani kuwa kulingana na kazi inayotumika katika uzalishaji.
+explanation: |
+  Kulingana na sura, nadharia ya ukingo ya Menger ya thamani
+  ni subjective, maana yake ni msingi wa mtu binafsi
+  mtazamo wa matumizi wanaweza kupata kutoka nzuri au
+  huduma. Kwa upande mwingine, Walras na Jevons wanazingatia
+  thamani kuwa jambo linalolengwa na linaloweza kupimika.
+reviewed: true

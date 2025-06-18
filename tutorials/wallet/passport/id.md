@@ -1,5 +1,5 @@
 ---
-name: Paspor - Yayasan
+name: Passport Core
 description: Mengonfigurasi dan menggunakan dompet perangkat keras Passport dalam mode manual
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Mengonfigurasi dan menggunakan dompet perangkat keras Passport dala
 Passport adalah dompet perangkat keras khusus Bitcoin, yang dirancang oleh Foundation Devices, sebuah perusahaan Amerika yang didirikan pada bulan April 2020 di Boston.
 
 Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode "*Air-Gap*", memastikan kunci pribadi dompet Anda tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
+
+💡 **Pembaruan:** Sejak Maret 2025, nama dompet perangkat keras ini bukan lagi "Passport" atau "Passport V2", melainkan "Passport Core".
 
 Sedangkan untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
 
@@ -295,6 +297,7 @@ Sebelum mengonfigurasi opsi ini pada Passport Anda, sangat disarankan agar Anda 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
+
 Untuk mengaktifkannya, buka menu "*Lainnya*" dan klik "*Masukkan Kata Sandi*".
 
 ![Image](assets/fr/50.webp)
@@ -312,13 +315,14 @@ Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat di suatu 
 
 Setiap kali Anda membuka kunci Passport, Anda harus kembali ke menu ini untuk memasukkan kata sandi dan menerapkannya ke dompet. Passport tidak menyimpan kata sandi.
 
- fix-nakamochi-elysium-tutos
+
 Setiap kali Anda membuka kunci, setelah menuliskan kata sandi, periksa pada layar konfirmasi bahwa sidik jari yang diberikan sama dengan yang Anda tuliskan selama konfigurasi. Jika ya, kata sandi Anda sudah benar dan Anda mengakses dompet Bitcoin yang benar. Jika tidak, Anda menggunakan dompet yang salah dan perlu mencoba lagi, berhati-hatilah agar tidak melakukan kesalahan input.
 
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di Passport saat masih kosong (`Pengaturan -> Lanjutan -> Hapus Passport`). Kemudian coba pulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik dan kata sandi apa pun. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tulis sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut tentang cara melakukan pemulihan tes, silakan baca tutorial lainnya:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 
 ![Image](assets/fr/53.webp)
 
@@ -487,3 +491,4 @@ Selamat, Anda sekarang tahu cara mengonfigurasi dan menggunakan Passport. Jika A
 Untuk informasi lebih lanjut, lihat tutorial kami tentang perangkat lunak Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

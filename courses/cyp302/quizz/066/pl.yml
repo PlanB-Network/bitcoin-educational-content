@@ -1,0 +1,9 @@
+question: Jaka jest funkcja algorytmu generowania klucza w schemacie szyfrowania symetrycznego?
+answer: Generuje on klucz prywatny
+wrong_answers:
+  - Generuje on klucz publiczny
+  - Hashuje wiadomość
+  - Szyfruje wiadomość
+explanation: |
+  W schemacie szyfrowania symetrycznego algorytm generowania klucza tworzy klucz prywatny, który będzie następnie używany do szyfrowania i odszyfrowywania wiadomości.
+reviewed: false

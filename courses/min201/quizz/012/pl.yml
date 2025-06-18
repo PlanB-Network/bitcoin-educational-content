@@ -1,0 +1,14 @@
+question: Jak działa Mining pool i dlaczego jest potrzebny?
+answer: Mining pool to grupa górników, którzy łączą swoje zasoby obliczeniowe, aby zwiększyć swoje szanse na Mining. Współpraca ta jest konieczna, ponieważ odizolowana mała maszyna Mining konkuruje z gigantami branży, zmniejszając swoje szanse na sukces do znikomego poziomu. Łącząc się, górnicy mogą łączyć swoją moc obliczeniową, częściej znajdować bloki, a następnie rozdzielać nagrody proporcjonalnie do wkładu każdego Miner do puli.
+wrong_answers:
+  - Mining pool to grupa górników, którzy dzielą tę samą maszynę Mining, aby zwiększyć swoje szanse na Mining. Taka współpraca jest konieczna, ponieważ pojedyncza maszyna Mining może wydobywać tylko ograniczoną ilość Bitcoin.
+  - Mining pool to grupa górników, którzy korzystają z tego samego oprogramowania Mining, aby zwiększyć swoje szanse na Mining. Taka współpraca jest konieczna, ponieważ różne oprogramowania Mining mają różną wydajność.
+  - Mining pool to grupa górników, którzy dzielą tę samą lokalizację Mining, aby zwiększyć swoje szanse na Mining. Współpraca ta jest konieczna, ponieważ lokalizacja operacji Mining może mieć wpływ na wydajność Mining.
+explanation: |
+  W rozdziale tym wyjaśniono, że Mining pool to grupa
+  górników, którzy łączą swoje zasoby obliczeniowe, aby zwiększyć
+  swoje szanse na Mining. Ta współpraca jest konieczna
+  ponieważ odizolowana mała maszyna Mining konkuruje
+  z gigantami branży, zmniejszając swoje szanse na sukces do
+  do znikomego poziomu.
+reviewed: true

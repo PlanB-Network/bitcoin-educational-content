@@ -1,0 +1,9 @@
+question: Jaki numer wersji oprogramowania pojawił się w serwisie Slashdot w lipcu 2010 roku?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Wydanie tej wersji, długo przygotowywanej przez Satoshi i Marttiego, oznaczało nowy wysiłek w komunikacji.
+reviewed: false

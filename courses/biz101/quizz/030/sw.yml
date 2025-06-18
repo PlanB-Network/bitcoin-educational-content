@@ -1,0 +1,9 @@
+question: Je, kukubali malipo ya Bitcoin kunaweza kusaidiaje kuongeza mwonekano wa biashara?
+answer: Kwa kuorodhesha biashara kwenye majukwaa kama BTCmap.org na kukata rufaa kwa neno la kinywa la jumuiya ya Bitcoin.
+wrong_answers:
+  - Kwa kupiga marufuku njia nyingine zote za malipo na kuwalazimisha wateja wote kutumia Bitcoin.
+  - Kwa kuhakikisha kuwa serikali itatangaza biashara hiyo bila malipo.
+  - Kwa kuwataka wateja wajisajili kwa akaunti nyingi za mtandaoni kabla ya kulipa.
+explanation: |
+  Kukubali Bitcoin bado si jambo la kawaida, jambo ambalo linaweza kuvutia watu wa Bitcoin. Kuorodhesha duka lako kwenye saraka maalum na kunufaika kutokana na matangazo yanayoendeshwa na jumuiya kunaweza kukusaidia kujitofautisha na kuvutia wateja wapya.
+reviewed: false

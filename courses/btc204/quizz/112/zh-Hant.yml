@@ -1,0 +1,10 @@
+question: 在 Stonewall x2 交易中，合作者扮演什麼角色？
+answer: 提供比特幣以增加疑慮
+wrong_answers:
+  - 擔任交易協調員
+  - 收到付款金額
+  - 傳送付款金額
+explanation: |
+  石牆 x2 交易中的合作者提供比特幣來增加交易分析的疑點，同時在最後完全收回他們的資金 (對他們來說是中性的行為，減去 Mining 的費用)。
+  
+reviewed: false

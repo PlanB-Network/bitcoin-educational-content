@@ -1,0 +1,11 @@
+question: 在 Exchange 平台上購買 Bitcoin 後該怎麼做？
+answer: 提取比特幣並將其發送至您的 Wallet。
+wrong_answers:
+  - 將比特幣留在平台上。
+  - 立即出售比特幣。
+  - 將 bitcoins 轉移到另一個 Exchange 平台。
+explanation: |
+  課程內容建議在購買 Bitcoin 之後，必須立即從 Exchange 平台撤銷 UTXOs。
+  必須立即將 UTXOs 從 Exchange 平台撤回
+  以降低黑客入侵和資金凍結的風險。
+reviewed: true

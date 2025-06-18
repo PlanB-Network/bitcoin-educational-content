@@ -1,0 +1,9 @@
+question: Kakvu ulogu ima Schema u RGB?
+answer: Definiši Contract varijable, pravila i Business Logic
+wrong_answers:
+  - Skladištite pošiljke razmenjene između učesnika
+  - Validacija Pedersen obaveza na Bitcoin transakcijama
+  - Izvinjavam se, ali potrebne su mi dodatne informacije kako bih mogao da vam pomognem. Molim vas da pružite više detalja ili konteksta.
+explanation: |
+  Schema strukturira stanje Contract i određuje dozvoljene tranzicije i uslove validacije.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 什麼是 KYC？
+answer: 驗證和記錄客戶身份的程序。
+wrong_answers:
+  - 確保金融交易安全的加密系統。
+  - 金融交易的驗證方法。
+  - 分析客戶行為的行銷技巧。
+explanation: |
+  KYC 代表「認識您的客戶」。這其實是一種驗證客戶身份的監管程序。
+reviewed: false

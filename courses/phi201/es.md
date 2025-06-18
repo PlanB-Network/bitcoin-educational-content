@@ -17,11 +17,43 @@ Desde el Renacimiento hasta la Ilustración, el curso examina el auge de la libe
 
 +++
 
+# Introducción
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Resumen del curso
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+¡Bienvenido al curso PHI201!
+
+Este curso te invita a explorar la evolución de la libertad a lo largo de la historia analizando las grandes corrientes de pensamiento que la han moldeado. Descubrirás cómo se ha construido la noción de libertad a lo largo de los siglos, ya sea en oposición o en colaboración con el poder, a través de un recorrido histórico que va desde la Antigüedad hasta los debates contemporáneos.
+
+**Sección 1: La libertad o el poder**  
+Comenzaremos con una visión general de las dos grandes filosofías políticas que han marcado la historia: la libertad y el poder. Esta sección examinará las visiones de pensadores como Frédéric Bastiat sobre la producción versus la expoliación, Lord Acton que ve la libertad como motor de la historia, Karl Marx con su teoría de la lucha de clases, y Murray Rothbard que opone al Estado con la sociedad. Esta introducción conceptual proporcionará un marco de análisis para los períodos históricos.
+
+**Sección 2: Los orígenes de la libertad: la Antigüedad**  
+Aquí, regresaremos a las raíces del pensamiento filosófico con los griegos, que inventaron la racionalidad crítica, y los romanos, que establecieron las bases del derecho moderno. También examinaremos la caída de Roma como un momento clave que redefinió la organización política y social en torno a la noción de libertad.
+
+**Sección 3: Los orígenes de la libertad: la Edad Media**  
+La Edad Media se percibe a menudo como un período oscuro, pero descubriremos que en realidad sentó las bases de la libertad moderna. Estudiaremos la afirmación de la libertad humana, los debates entre razón y fe, el nacimiento del estado soberano, la ética bíblica que valora al individuo y las primeras manifestaciones del capitalismo que aparecen en esta época.
+
+**Sección 4: El auge de la libertad: del Renacimiento a la Ilustración**  
+Esta sección se centrará en el surgimiento de la tolerancia religiosa y la libertad económica, que cobraron impulso durante el Renacimiento y la Ilustración. También analizaremos la importancia del año 1776, que marcó un punto de inflexión clave con eventos fundamentales para el mundo libre, antes de sumergirnos en la era de las revoluciones que redefinieron el concepto mismo de libertad.
+
+**Sección 5: Apogeo y declive: del siglo XIX al siglo XX**  
+Continuaremos con el estudio de los trastornos de los siglos XIX y XX, destacando las fortalezas y debilidades de la democracia, las críticas marxistas al capitalismo y la respuesta austriaca a esas críticas. También exploraremos las advertencias sobre los peligros del colectivismo a través de obras importantes como "El camino de servidumbre".
+
+**Sección 6: El auge del Estado de bienestar en el siglo XX**  
+Finalmente, esta sección examinará cómo el Estado de bienestar fue ganando terreno sobre las ideas de libertad económica, especialmente a través del triunfo de Keynes y el abandono del patrón oro. Concluiremos subrayando la importancia de las ideas para influir en el curso de la historia y el lugar que la libertad aún ocupa en nuestras sociedades modernas.
+
+¿Listo para embarcarte en este viaje filosófico único en la búsqueda de la libertad? ¡Vamos allá!
+
 # Libertad o Poder
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introducción: Solo hay dos filosofías políticas
+## Solo existen dos filosofías políticas
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1432,7 +1464,7 @@ En cierto sentido, nuestra situación es mejor que en el pasado. Después de los
 Todo lo que sucede en la sociedad global en la que vivimos es el resultado de ideas. Lo bueno y lo malo. Lo necesario es combatir las ideas falsas. (...) Nuestra civilización puede sobrevivir, y debe hacerlo. Y sobrevivirá gracias a ideas mejores que aquellas que gobiernan el mundo hoy; y estas mejores ideas serán desarrolladas por la generación emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Conclusión
+# Sección final
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

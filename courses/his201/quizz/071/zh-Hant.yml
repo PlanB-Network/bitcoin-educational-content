@@ -1,0 +1,9 @@
+question: 是什麼導致 Satoshi Nakamoto 在 2010 年 12 月突然離開？
+answer: 發表一篇文章，將 Bitcoin 和 WikiLeaks 聯繫起來
+wrong_answers:
+  - 維基解密接受 Bitcoin
+  - Gavin Andresen 控制程式碼
+  - Bitcoin 單價的增加
+explanation: |
+  這篇[文章](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)的標題是 「維基解密醜聞會導致新的虛擬貨幣嗎？」，發表在美國最大的計算機網站之一 PC World 上。
+reviewed: false

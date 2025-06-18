@@ -1,0 +1,9 @@
+question: Šta Bob može da uradi ako otkrije pokušaj od strane Alise da vara tokom zatvaranja kanala?
+answer: Koristite ključ za opoziv da povratite sva sredstva
+wrong_answers:
+  - Otkaži Alice-in Commitment Transaction
+  - Trajno zatvori kanal bez mogućnosti ponovnog otvaranja.
+  - Zatraži samo polovinu dostupnih sredstava
+explanation: |
+  U slučaju varanja, Bob može koristiti ključ za opoziv da povrati sva sredstva iz kanala, čime kažnjava Alice za njen pokušaj.
+reviewed: false

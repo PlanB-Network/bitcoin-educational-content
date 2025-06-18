@@ -1,12 +1,9 @@
-question: Mida tähendab, kui teil ei ole oma Bitcoini rahakoti privaatvõtit?
-answer: Kolmas osapool vastutab teie bitcoinide turvalisuse eest
+question: Millist Cold salvestuslahendust soovitatakse paranoilisele kasutajale?
+answer: Õhuga kinnitatud või DIY Hardware Wallet
 wrong_answers:
-  - Olete kaotanud kõik oma bitcoinid
-  - Te ei saa enam oma bitcoinidega tehinguid teha
-  - Teie bitcoinid konverteeritakse automaatselt teise krüptorahasse
+  - Mobiilne Hot Wallet
+  - Hooldusteenus Exchange platvormil
+  - Üldotstarbeline suletud lähtekoodiga Hardware Wallet
 explanation: |
-  Kui teil ei ole oma Bitcoini rahakoti privaatvõtit, tähendab see,
-  et kolmas osapool vastutab teie bitcoinide turvalisuse eest. Nad on allutatud
-  samadele riskidele nagu vahetusplatvormid, sealhulgas häkkimine, konfiskeerimine, regulatsioonid või
-  pankrot.
+  Paranoiline kasutaja eelistab avatud lähtekoodiga lahendustega offline-salvestust, et minimeerida kokkupuuteohtu.
 reviewed: false

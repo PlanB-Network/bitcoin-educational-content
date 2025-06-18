@@ -1,0 +1,9 @@
+question: Je! jina la itifaki ya mkopo iliyosambazwa iliyoundwa na Ryan Fugger mnamo 2004 na kutajwa mara kadhaa na Satoshi Nakamoto katika maandishi yake?
+answer: Ripple
+wrong_answers:
+  - Mawimbi
+  - Tsunami
+  - Kuvimba
+explanation: |
+  Mnamo mwaka wa 2009, Satoshi [iliandika](https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-Februari \/001362) ambayo inaenea kwa kipekee \/001362.html kukizingatia.
+reviewed: false

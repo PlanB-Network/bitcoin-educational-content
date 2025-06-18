@@ -1,0 +1,15 @@
+question: Jaka jest podstawowa przyczyna hiperinflacji, której redenominacja nie Address?
+answer: Ekspansja pieniędzy Supply.
+wrong_answers:
+  - Spadek wartości pieniądza Supply.
+  - Wzrost popytu na towary i usługi.
+  - Spadek popytu na towary i usługi.
+explanation: |
+  Główną przyczyną hiperinflacji jest ekspansja pieniądza Supply.
+  
+  Redenominacja jest powszechnym środkiem podejmowanym przez rządy w okresach inflacji,
+  
+  ale nie rozwiązuje tego podstawowego problemu. Jest to jedynie sposób na zmianę nazwy waluty
+  
+  i usunięcia zer"
+reviewed: false

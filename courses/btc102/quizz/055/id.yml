@@ -1,11 +1,9 @@
-question: Apa itu Lightning Network?
-answer: Ini adalah lapisan kedua dari Bitcoin.
+question: Media apa yang direkomendasikan untuk mencadangkan frasa Mnemonic Anda dengan aman?
+answer: Cadangan logam dengan amplop buram yang disegel
 wrong_answers:
-  - Ini adalah pertukaran mata uang kripto.
-  - Ini adalah jenis dompet Bitcoin.
-  - Ini adalah kolam penambangan Bitcoin.
+  - Penyimpanan drive USB terenkripsi
+  - Cadangan kertas dengan selongsong transparan
+  - Mencadangkan di cloud yang aman
 explanation: |
-  Lightning Network adalah teknologi lapisan kedua yang diterapkan pada bitcoin
-  yang menggunakan saluran mikropembayaran untuk meningkatkan kemampuan blockchain-nya dalam melakukan
-  transaksi.
+  Cadangan logam yang tahan bencana menawarkan perlindungan yang tahan lama terhadap kerusakan dan akses yang tidak sah. Amplop buram yang disegel memungkinkan Anda memverifikasi apakah ada orang yang mengakses frasa Mnemonic.
 reviewed: false

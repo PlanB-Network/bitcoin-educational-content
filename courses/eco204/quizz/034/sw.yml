@@ -1,0 +1,12 @@
+question: Kampuni ya zombie ni nini?
+answer: Kampuni ambayo, chini ya hali ya kawaida ya soko, inaweza kuwa mfilisi au karibu na kufilisika, lakini inaendelea kufanya kazi hasa kwa kukopa kwa gharama nafuu.
+wrong_answers:
+  - Kampuni ambayo imekuwa katika biashara kwa zaidi ya miaka 100.
+  - Kampuni inayofanya kazi katika sekta ya teknolojia.
+  - Kampuni ambayo imepewa dhamana na serikali.
+explanation: |
+  Kampuni ya zombie ni kampuni ambayo, chini ya hali ya kawaida ya soko, ingefanya
+  kuwa mfilisi au karibu na kufilisika, lakini inaendelea kufanya kazi hasa kwa gharama ya chini
+  kukopa. Kampuni hizi hupata pesa za kutosha kufidia deni zao lakini haziwezi
+  kukua kwa kiasi kikubwa.
+reviewed: false

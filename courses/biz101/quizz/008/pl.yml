@@ -1,0 +1,9 @@
+question: Które stwierdzenie najlepiej oddaje rolę Bitcoin jako sieci i zasobu dla firm?
+answer: Może działać zarówno jako magazyn wartości, jak i medium Exchange w globalnym, zdecentralizowanym systemie.
+wrong_answers:
+  - Może działać tylko jako lokalny system kart podarunkowych.
+  - Jest to wyłącznie spekulacyjne narzędzie handlowe bez rzeczywistej użyteczności.
+  - Aby mógł działać, musi być powiązany z polityką pieniężną jednego kraju.
+explanation: |
+  Globalny, natywny dla Internetu projekt Bitcoin pozwala mu służyć nie tylko jako środek przechowywania wartości, ale także jako medium Exchange, zapewniając firmom szybkie, bezprowizyjne i ostateczne rozliczanie transakcji na całym świecie.
+reviewed: false

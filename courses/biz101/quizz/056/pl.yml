@@ -1,0 +1,9 @@
+question: W jaki sposób Wallet bez opieki różni się funkcjonalnością dla użytkowników Starter?
+answer: Daje to właścicielowi firmy pełną kontrolę nad kluczami prywatnymi
+wrong_answers:
+  - Może automatycznie konwertować bitcoiny na walutę fiducjarną
+  - Nie wymaga procedur tworzenia kopii zapasowych ani środków bezpieczeństwa
+  - Zarządza wszystkimi transakcjami za pośrednictwem usługi innej firmy
+explanation: |
+  Portfele typu non-custodial oddają kontrolę nad kluczami prywatnymi i transakcjami całkowicie w ręce użytkownika.
+reviewed: false

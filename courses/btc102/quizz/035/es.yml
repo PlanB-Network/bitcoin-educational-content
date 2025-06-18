@@ -1,9 +1,9 @@
-question: ¿Quién describió a Bitcoin como un banco suizo en tu bolsillo?
-answer: Barack Obama
+question: ¿Qué solución de almacenamiento se recomienda para un hodler?
+answer: A Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - Un servicio de custodia
+  - Un papel Wallet
 explanation: |
-  El capítulo menciona que Barack Obama alguna vez describió a Bitcoin como un banco suizo en tu bolsillo.
+  Un hodler, que posee bitcoins a largo plazo, debería utilizar una Hardware Wallet para maximizar la seguridad.
 reviewed: false

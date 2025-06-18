@@ -35,7 +35,7 @@ Juga penting untuk menyimpan passphrase ini dengan benar, sama seperti frasa mne
 
 Untuk mengatur passphrase pada perangkat Ledger (Stax, Flex, atau Nano), Anda dapat berkonsultasi dengan tutorial ini:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Pada COLDCARD:
 
@@ -48,4 +48,8 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 Pada Passport (batch-2):
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
+Pada perangkat Trezor (Safe 3, Safe 5, atau Model One):
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 

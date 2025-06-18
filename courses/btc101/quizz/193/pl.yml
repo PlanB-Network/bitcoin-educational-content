@@ -1,0 +1,8 @@
+question: Jaka jest jedna z inicjatyw, które przyczyniają się do uczynienia gospodarki Bitcoin bardziej dostępną i wygodną dla wszystkich?
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: >-
+reviewed: true

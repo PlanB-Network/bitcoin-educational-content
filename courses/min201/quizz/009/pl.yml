@@ -1,0 +1,13 @@
+question: Jaka jest rola oprogramowania w Bitcoin Mining i w jaki sposób przyczynia się ono do wydajności?
+answer: Oprogramowanie w Bitcoin Mining, takie jak BrainsOS Plus, zastępuje oryginalny system operacyjny maszyny Mining, umożliwiając bardziej wydajne wykonywanie tych samych operacji. Może zwiększyć wydajność maszyny o 25%, co oznacza, że za równoważną ilość energii elektrycznej maszyna może wyprodukować dodatkowe 25% Hashrate, zwiększając w ten sposób nagrody otrzymywane przez Miner.
+wrong_answers:
+  - Oprogramowanie w Bitcoin Mining służy do śledzenia ilości wydobytego Bitcoin i nie przyczynia się do wydajności.
+  - Oprogramowanie w Bitcoin Mining tylko zapewnia lepsze połączenie internetowe dla maszyny Mining, może zwiększyć wydajność takiej maszyny o 14%, jeśli używany jest jeden z najnowszych protokołów.
+  - Oprogramowanie w Bitcoin Mining jest używane do chłodzenia maszyny Mining i nie przyczynia się do wydajności.
+explanation: |
+  Rozdział ten wyjaśnia, że oprogramowanie takie jak BrainsOS Plus może
+  zastąpić oryginalny system operacyjny maszyny Mining,
+  umożliwiając wykonywanie tych samych operacji
+  wydajniej. Ta optymalizacja oprogramowania jest istotnym
+  elementem konkurencyjności w Bitcoin Mining.
+reviewed: true

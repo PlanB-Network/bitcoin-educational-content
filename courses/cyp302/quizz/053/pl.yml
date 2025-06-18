@@ -1,0 +1,9 @@
+question: Jak nazywa się pole ze skończoną liczbą Elements?
+answer: Pole Galois
+wrong_answers:
+  - Pole multiplikatywne
+  - Pole symetryczne
+  - Pole wektorowe
+explanation: |
+  Skończone pole jest również znane jako pole Galois, nazwane na cześć matematyka Évariste'a Galois, i jest niezbędne we współczesnej kryptografii.
+reviewed: false

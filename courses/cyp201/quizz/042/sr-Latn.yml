@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između PRNG i TRNG?
+answer: PRNG je deterministički, dok TRNG generiše istinski nasumične brojeve.
+wrong_answers:
+  - PRNG je brži od TRNG za velike brojeve.
+  - PRNG se koristi samo za šifrovanje, ne TRNG.
+  - PRNG koristi privatne ključeve, TRNG koristi javne ključeve.
+explanation: |
+  PRNG-ovi su deterministički, što znači da mogu reproducirati sekvence iz početnog stanja, za razliku od TRNG-ova.
+reviewed: false

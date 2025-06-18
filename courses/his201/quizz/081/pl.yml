@@ -1,0 +1,9 @@
+question: Kto wyprodukował pierwszy wysokiej jakości film o Bitcoin w marcu 2011 roku?
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  Film, zatytułowany po prostu "Czym jest Bitcoin?", został wyprodukowany dzięki finansowaniu społecznościowemu.
+reviewed: false

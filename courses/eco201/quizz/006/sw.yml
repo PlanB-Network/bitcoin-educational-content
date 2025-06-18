@@ -1,0 +1,10 @@
+question: Lengo kuu la kozi ni nini?
+answer: Kozi hiyo inalenga kuchunguza dhana za kimsingi za uchumi wa Austria.
+wrong_answers:
+  - Kozi hiyo inalenga kukuza mafundisho ya Kenesia.
+  - Kozi hiyo inalenga kueleza utendaji kazi wa benki kuu.
+  - Kozi hiyo inalenga kukuza ujumuishaji wa nguvu za kifedha.
+explanation: |
+  Sura inataja kuwa kozi inalenga kuchunguza
+  dhana za kimsingi za uchumi wa Austria.
+reviewed: true

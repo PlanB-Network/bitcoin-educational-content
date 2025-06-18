@@ -1,0 +1,9 @@
+question: Jaka jest rola klucza w symetrycznych procesach szyfrowania i deszyfrowania?
+answer: Służy do szyfrowania i odszyfrowywania wiadomości
+wrong_answers:
+  - Jest on używany tylko do odszyfrowania wiadomości
+  - Służy do tworzenia kodu weryfikacji integralności wiadomości
+  - Jest on udostępniany publicznie w celu generate innych kluczy
+explanation: |
+  W symetrycznych schematach szyfrowania ten sam klucz prywatny jest używany zarówno do szyfrowania wiadomości podczas wysyłania, jak i do odszyfrowywania jej po otrzymaniu.
+reviewed: false

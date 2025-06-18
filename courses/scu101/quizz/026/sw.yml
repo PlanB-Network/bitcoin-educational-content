@@ -1,0 +1,10 @@
+question: Linux na Mac mara nyingi zinahitaji antivirus?
+answer: Hii ni uongo
+wrong_answers:
+  - Hii ni kweli
+  - Linux pekee inahitaji antivirus.
+  - Mac pekee inahitaji antivirus.
+explanation: |
+  Linux na Mac, shukrani kwa mgawanyo wao wa haki za mtumiaji
+  mfumo, mara nyingi hauitaji antivirus.
+reviewed: true

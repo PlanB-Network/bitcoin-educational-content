@@ -1,0 +1,11 @@
+question: Madhumuni ya Bitcoin Wallet ni nini?
+answer: Kuhifadhi funguo za kibinafsi ili kubadilisha bitcoins.
+wrong_answers:
+  - Kutumia rasilimali za kifaa kuchimba bitcoins.
+  - Ili kununua bitcoins kupitia ufunguo wa umma.
+  - Ili kuhifadhi bitcoins kwenye kifaa.
+explanation: |
+  Pochi za Bitcoin ni aina ya programu ambayo hutumiwa
+  kuhifadhi funguo binafsi kwamba kuruhusu transact yako
+  bitcoins.
+reviewed: true

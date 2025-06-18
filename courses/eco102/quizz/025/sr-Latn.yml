@@ -1,0 +1,9 @@
+question: Koji je bio glavni cilj Engleske lige 1838. godine?
+answer: Protiv zakona o kukuruzu
+wrong_answers:
+  - Protiv velikih zemljoposednika
+  - Za promociju poljoprivrednih radnika
+  - Protiv stranih trgovaca
+explanation: |
+  Engleska liga, inspirisana Ričardom Kobdenom, imala je za cilj ukidanje protekcionističkih zakona o žitu kako bi se promovisala slobodna trgovina i smanjilo siromaštvo.
+reviewed: false

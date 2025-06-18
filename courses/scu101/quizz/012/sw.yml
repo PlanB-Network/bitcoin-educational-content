@@ -1,0 +1,12 @@
+question: Kwa nini ni muhimu kuthibitisha ufunguo wa umma wa tovuti kwa kutumia mfumo wa cheti?
+answer: Ili kuthibitisha ukweli wa tovuti.
+wrong_answers:
+  - Ili kuhakikisha kuwa hakuna ulaghai unaoweza kutokea, lakini tu wakati umeunganishwa kupitia mtandao wa umma wa Wi-Fi.
+  - Ili kuzuia matangazo ya mtandaoni kwa kiasi.
+  - Ili kuhakikisha kuwa hakuna huluki hasidi inayoiga tovuti.
+explanation: |
+  Kuthibitisha ufunguo wa umma wa tovuti kwa kutumia mfumo wa cheti
+  ni muhimu kuthibitisha ukweli wa tovuti. Hii
+  husaidia kulinda dhidi ya watu wenye nia mbaya wanaoiga
+  tovuti na kuhamisha data kwa maandishi wazi.
+reviewed: true

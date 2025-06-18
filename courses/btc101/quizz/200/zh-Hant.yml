@@ -1,0 +1,12 @@
+question: 何謂自發性購買？
+answer: 立即購買 Bitcoin 以獲得曝光率。
+wrong_answers:
+  - 定期購買 Bitcoin。
+  - 降價時才購買 Bitcoin。
+  - 只有在價格上升時才購買 Bitcoin。
+explanation: |
+  課程內容說明，自發購買是
+  用來立即接觸 Bitcoin。例如
+  它可能是指在暴跌時購買或利用
+  紅利。
+reviewed: true

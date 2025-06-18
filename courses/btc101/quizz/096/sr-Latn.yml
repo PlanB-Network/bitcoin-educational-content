@@ -1,0 +1,11 @@
+question: Koji je privatni ključ često predstavljen u Bitcoin Wallet?
+answer: Lista od 12 ili 24 reči.
+wrong_answers:
+  - Lista od 12 ili 48 reči.
+  - Lista od 32 reči.
+  - Lista od 64 reči.
+explanation: |
+  U Bitcoin Wallet, privatni ključ je često predstavljen
+  listom od 12 ili 24 reči, takođe poznat kao seed fraza
+  ili Mnemonic fraza.
+reviewed: true

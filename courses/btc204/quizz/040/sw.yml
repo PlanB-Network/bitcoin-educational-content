@@ -1,0 +1,9 @@
+question: Kwa nini bitcoins hununuliwa kupitia kubadilishana kwa P2P mara nyingi ni ghali zaidi kuliko zile zinazonunuliwa kwenye majukwaa yaliyodhibitiwa?
+answer: Hatari za ziada, ada za muamala na malipo ya faragha.
+wrong_answers:
+  - Kuyumba kwa soko, hatari za matumizi maradufu, na kufuata sheria.
+  - Ada za usajili, chaguo chache na muda mrefu wa uthibitishaji.
+  - Ada za usajili, kanuni kali, na usalama mdogo.
+explanation: |
+  Bitcoins zinazouzwa kwenye majukwaa ya P2P kwa ujumla ni ghali zaidi kuliko zile za majukwaa yaliyodhibitiwa. Markup hii inatokana na mambo kadhaa: muuzaji huchukua hatari zaidi, pia wanapaswa kulipa gharama za ziada, na Exchange inampa mnunuzi kiwango cha juu cha faragha.
+reviewed: false

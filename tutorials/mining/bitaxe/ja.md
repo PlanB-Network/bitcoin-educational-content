@@ -1,6 +1,6 @@
 ---
 name: BitAxeの設定
-Description: BitAxeの設定方法とは？
+description: BitAxeの設定方法とは？
 ---
 
 ### はじめに

@@ -1,0 +1,9 @@
+question: Co pociąga za sobą Common Input Ownership Heuristic (CIOH)?
+answer: Gdy transakcja obejmuje wiele danych wejściowych, prawdopodobnie wszystkie one pochodzą od jednego podmiotu.
+wrong_answers:
+  - Gdy transakcja obejmuje wiele danych wejściowych, prawdopodobnie pochodzą one od różnych podmiotów.
+  - Gdy transakcja obejmuje wiele danych wyjściowych, prawdopodobnie wszystkie one trafiają do jednego podmiotu.
+  - Gdy transakcja obejmuje wiele danych wyjściowych, prawdopodobnie wszystkie one trafiają do różnych podmiotów.
+explanation: |
+  CIOH to heurystyka sugerująca, że gdy transakcja zawiera wiele danych wejściowych, wszystkie te dane prawdopodobnie pochodzą od jednego podmiotu. W związku z tym ich Ownership jest wspólny.
+reviewed: false

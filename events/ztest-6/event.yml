@@ -1,0 +1,26 @@
+id: 65bf44e7-dcf9-4629-ad44-dc3c15f773a9
+test_only: true
+start_date: 2027-01-06 12:00:00
+end_date: 2027-01-07
+timezone: Europe/Prague
+address_city_country: Prague, Czech Republic
+name: TEST - Charged online
+type: workshop
+book_online: true
+book_in_person: false
+price_dollars: 5
+is_gdpr_compliance: true
+custom_tc_disclaimer: 
+description: .
+language:
+  - en
+  - fr
+links:
+  website: https://www.planbtest.network
+  replay_url:
+  live_url:
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+tags:
+  - lightning
+  - node
+  - protocols

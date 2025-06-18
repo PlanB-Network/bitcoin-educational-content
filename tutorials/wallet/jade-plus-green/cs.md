@@ -207,7 +207,7 @@ Chcete-li vytvořit klasické portfolio s jedním signálem, vyberte možnost "*
 
 Další informace o možnosti "*2FA*" naleznete v tomto dalším návodu:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Váš účet byl vytvořen.
 

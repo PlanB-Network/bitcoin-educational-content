@@ -1,0 +1,9 @@
+question: Jaka jest konstrukcja używana przez SHA256 do przetwarzania wiadomości o dowolnej długości?
+answer: Konstrukcja Merkle-Damgård
+wrong_answers:
+  - Konstrukcja euklidesowa
+  - Konstrukcja Rivest-Shamir-Adleman
+  - Konstrukcja Knuth-Morris-Pratt
+explanation: |
+  Konstrukcja Merkle-Damgård umożliwia przekształcenie funkcji kompresji w funkcję Hash dla wiadomości o zmiennej długości.
+reviewed: false

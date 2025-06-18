@@ -1,0 +1,12 @@
+question: Jaka jest historyczna ścieżka, którą podążały instytucje przy wprowadzaniu walut fiducjarnych?
+answer: Przywódcy centralizują złoto i wprowadzają nową walutę równoważną wartości złota, która jest następnie stopniowo dewaluowana.
+wrong_answers:
+  - Przywódcy wprowadzają nową walutę opartą na złocie, której wartość jest następnie stopniowo zwiększana.
+  - Przywódcy wprowadzają nową walutę bez wartości wewnętrznej, której wartość jest następnie stopniowo zwiększana.
+  - Przywódcy wprowadzają nową walutę opartą na koszyku towarów, która następnie utrzymuje stabilną wartość.
+explanation: |
+  W przeszłości przywódcy centralizowali złoto i wprowadzali
+  nową walutę równoważną wartości złota. Ta nowa
+  waluta jest następnie stopniowo dewaluowana, często pod przykrywką
+  często pod pozorem działania w interesie ludzi.
+reviewed: true

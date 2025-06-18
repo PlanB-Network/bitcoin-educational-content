@@ -1,0 +1,10 @@
+question: Je! ni neno gani la pesa za dharura zilizotumika Ujerumani wakati wa mzozo wa kiuchumi?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Wakati wa mgogoro wa kiuchumi nchini Ujerumani, Notgeld (fedha za dharura) alikuwa
+  kutumika kwa Address uhaba wa sarafu ya kawaida.
+reviewed: false

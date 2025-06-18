@@ -1,0 +1,11 @@
+question: Ni vekta gani ya kwanza ya shambulio la wadukuzi?
+answer: Barua pepe
+wrong_answers:
+  - Mitandao ya kijamii
+  - Tovuti za ununuzi mtandaoni
+  - Tovuti za benki
+explanation: |
+  Barua pepe ni vekta ya kwanza ya mashambulizi kwa wadukuzi. Wanatumia
+  hadaa hujaribu kutoa taarifa nyeti kama vile
+  vitambulisho na nywila zako.
+reviewed: false

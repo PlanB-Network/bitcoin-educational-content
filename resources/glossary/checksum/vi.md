@@ -1,9 +1,11 @@
 ---
-term: CHECKSUM
-
+term: KIỂM TRA TỔNG
 ---
-A checksum is a calculated value from a set of data, used to verify the integrity and validity of that data during its transmission or storage. Checksum algorithms are designed to detect accidental errors or unintended alterations of data, such as transmission errors or file corruptions. Various types of checksum algorithms exist, such as parity checks, modular checksums, cryptographic hash functions, or BCH codes (*Bose, Ray-Chaudhuri, and Hocquenghem*).
 
-In Bitcoin, checksums are used at the application level to ensure the integrity of receiving addresses. A checksum is calculated from the payload of a user's address, then added to this address to detect possible errors during its entry. A checksum is also present in recovery phrases (mnemonic).
+Tổng kiểm tra là giá trị được tính toán từ một tập dữ liệu, được sử dụng để xác minh tính toàn vẹn và tính hợp lệ của dữ liệu đó trong quá trình truyền hoặc lưu trữ. Các thuật toán tổng kiểm tra được thiết kế để phát hiện các lỗi ngẫu nhiên hoặc các thay đổi không chủ ý đối với dữ liệu, chẳng hạn như lỗi truyền hoặc hỏng tệp. Có nhiều loại thuật toán tổng kiểm tra khác nhau, chẳng hạn như kiểm tra chẵn lẻ, tổng kiểm tra mô-đun, hàm Hash mật mã hoặc mã BCH (*Bose, Ray-Chaudhuri và Hocquenghem*).
 
-> ► *The English translation of "somme de contrôle" is "checksum". It is generally accepted to directly use the term "checksum" in French.*
+
+Trên Bitcoin, tổng kiểm tra được sử dụng ở cấp ứng dụng để đảm bảo tính toàn vẹn của các địa chỉ nhận. Tổng kiểm tra được tính toán từ tải trọng của Address của người dùng, sau đó được thêm vào Address đó để phát hiện bất kỳ lỗi nào trong đầu vào của nó. Tổng kiểm tra cũng có trong các cụm từ khôi phục (mnemonics).
+
+
+> ► *Người ta thường chấp nhận sử dụng thuật ngữ tiếng Anh "checksum" trực tiếp trong tiếng Pháp.*

@@ -1,0 +1,9 @@
+question: 在 AES 加密的哪個階段使用 Galois Fields？
+answer: 在位元組取代和 MixColumns 作業中
+wrong_answers:
+  - 在產生私人密碼匙時
+  - 將文字分割成 128 位元區塊時
+  - 在 XOR 運算的每個階段
+explanation: |
+  Galois Fields 用於位元組置換，以計算乘法逆，並用於 MixColumns 運算，以執行模化不可還原多項式的乘法。
+reviewed: false

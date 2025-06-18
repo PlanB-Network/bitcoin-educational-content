@@ -1,10 +1,10 @@
 question: Qual è la domanda centrale da porsi quando si sceglie un portafoglio Bitcoin, in termini di auto custodia?
-answer: Sei il proprietario dei fondi o lasci il controllo del tuo denaro a un terzo?
+answer: Siamo i proprietari dei fondi o lasciamo il controllo del denaro a un terzo?
 wrong_answers:
-  - Il portafoglio è protetto con una passphrase?
-  - Il portafoglio permette di ricevere e inviare bitcoin?
-  - Posso condividere il mio portafoglio con un'altra persona?
+  - Il wallet è protetto con una passphrase?
+  - Il wallet permette di ricevere e inviare bitcoin?
+  - È possibile condividere il wallet con un'altra persona?
 explanation: |
   Quando si sceglie un portafoglio Bitcoin, la domanda centrale è:
-  sei il proprietario dei fondi o lasci il controllo del tuo denaro a un terzo? Questo perché il detentore della chiave privata è il proprietario dei Bitcoin.
+  siamo i proprietari dei fondi o lasciamo il controllo del denaro a un terzo? Questo perché chi possiede la chiave privata è il proprietario dei Bitcoin.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Šta su virgin bitcoini?
+answer: Sveže iskopani bitkoini koji nikada nisu potrošeni i nemaju istoriju vezanu za njih.
+wrong_answers:
+  - Bitcoini koji su korišćeni u ilegalnim aktivnostima.
+  - Bitcoini koji su izgubljeni ili zaboravljeni.
+  - Bitcoini koji su dugo bili uskladišteni u Wallet.
+explanation: |
+  Virgin bitcoini su sveže iskopani bitcoini koji nikada nisu bili potrošeni i nemaju istoriju vezanu za njih. Ovi bitcoini se često smatraju vrednijim jer nikada nisu bili "zagađeni", pružajući određenu garanciju protiv odbijanja od strane regulatora ili velikih Exchange platformi.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Je! Bitcoin mpya huundwaje na kuletwa kwenye mzunguko?
+answer: Kupitia Mining kama zawadi ya kuongeza miamala mipya kwenye Blockchain
+wrong_answers:
+  - Kupitia utoaji wa mamlaka kuu
+  - Kwa kuzinunua kutoka kwa kubadilishana za Bitcoin
+  - Kwa kuzipokea kama ada za muamala
+explanation: |
+  Bitcoin mpya huletwa katika mzunguko kupitia mchakato unaoitwa Mining.
+  Wachimbaji madini hushindana wao kwa wao ili kuongeza miamala mipya kwenye Blockchain.
+  Katika Exchange kwa kazi yao, wachimbaji migodi wanatuzwa Bitcoin mpya iliyoundwa.
+  Utaratibu huu pia huthibitisha na kulinda miamala kwenye mtandao wa Bitcoin.
+reviewed: true

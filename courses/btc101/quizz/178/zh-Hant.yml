@@ -1,0 +1,8 @@
+question: 考慮到其有限的 Supply 和 Halving 流程，Bitcoin 的整體趨勢如何？
+answer: 整體呈現上升趨勢。
+wrong_answers:
+  - 整體呈現下降趨勢。
+  - 完全沒有趨勢。
+  - 沒有明顯模式的大起大落趨勢。
+explanation: >-
+reviewed: true

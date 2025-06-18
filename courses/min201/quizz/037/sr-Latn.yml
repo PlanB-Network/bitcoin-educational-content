@@ -1,0 +1,9 @@
+question: Koji je potencijalni nedostatak Mining za profit?
+answer: To može dovesti do centralizacije snage heširanja i takođe može imati značajan uticaj na životnu sredinu.
+wrong_answers:
+  - To može dovesti do smanjenja cene Bitcoin
+  - To može dovesti do smanjenja Hashrate mreže.
+  - To može dovesti do smanjenja broja aktivnih čvorova u mreži
+explanation: |
+  Mining za profit može dovesti do centralizacije snage heširanja ako samo nekoliko velikih kompanija može priuštiti ulaganje u vrhunsku Mining opremu. Pored toga, potrošnja energije Mining za profit mogla bi imati značajan uticaj na životnu sredinu u zavisnosti od izvora energije.
+reviewed: true

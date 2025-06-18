@@ -1,0 +1,9 @@
+question: Bitcoin 與其他代幣的主要區別是什麼？
+answer: 權力下放
+wrong_answers:
+  - 流動性
+  - 信譽
+  - 隱私權
+explanation: |
+  Bitcoin 以其分散性而聞名，不像大多數其他代幣或多或少都是集中式的。
+reviewed: false

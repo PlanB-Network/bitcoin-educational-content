@@ -1,0 +1,9 @@
+question: 什麼是非正交群？
+answer: 運算是互換的群組
+wrong_answers:
+  - 具有唯一產生器的群組
+  - 僅限於整數的群組
+  - 沒有中性元素的群組
+explanation: |
+  非等邊群是指運算中 Elements 的順序不會影響結果的群，也就是說它遵守換向性。
+reviewed: false

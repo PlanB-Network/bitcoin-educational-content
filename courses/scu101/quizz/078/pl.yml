@@ -1,0 +1,9 @@
+question: Jakie jest podstawowe kryterium podczas tworzenia nowego konta e-mail?
+answer: Używaj unikalnego i silnego hasła.
+wrong_answers:
+  - Ponowne użycie hasła z innych kont.
+  - Wybierz proste hasło, które będzie łatwe do zapamiętania.
+  - Wybierz hasło z imieniem swojego zwierzaka.
+explanation: |
+  Unikalne i silne hasło jest niezbędne, aby uniemożliwić hakerom dostęp do konta e-mail.
+reviewed: false

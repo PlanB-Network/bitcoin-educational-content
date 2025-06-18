@@ -1,0 +1,10 @@
+question: Lightning Network क्या है?
+answer: एक तुरंत Bitcoin भुगतान नेटवर्क जो Bitcoin Blockchain पर आधारित है।
+wrong_answers:
+  - एक अलग Blockchain नेटवर्क Bitcoin Blockchain से।
+  - Bitcoin माइनर्स का एक नेटवर्क।
+  - Bitcoin एक्सचेंजों का एक नेटवर्क।
+explanation: |
+  जीडब्ल्यू-7 एक तुरंत जीडब्ल्यू-8 पेमेंट नेटवर्क है
+  यह Bitcoin Blockchain पर आधारित है।
+reviewed: true

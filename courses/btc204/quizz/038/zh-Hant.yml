@@ -1,0 +1,9 @@
+question: 哪種交易模式會使 CIOH 的使用無效？
+answer: 合作交易。
+wrong_answers:
+  - 簡單付款。
+  - 鞏固。
+  - 清掃。
+explanation: |
+  CIOH 不適用於採用合作模式的交易，因為在此特定情況下，輸入必然來自不同的實體。
+reviewed: false

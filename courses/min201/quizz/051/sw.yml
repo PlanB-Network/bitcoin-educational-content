@@ -1,0 +1,14 @@
+question: Ni faida gani kuu ya bitcoins za bikira za Mining?
+answer: Hazijawahi kutumiwa na hazina historia iliyoambatanishwa nazo.
+wrong_answers:
+  - Wanaweza kuuzwa kwa bei ya juu.
+  - Wanaweza kutumika kwa shughuli haramu.
+  - Wanaweza kuhifadhiwa kwa muda mrefu bila kupoteza thamani.
+explanation: |
+  Faida kuu ya bitcoins za bikira za Mining ni kwamba wao
+  hazijawahi kutumika na hazina historia iliyoambatanishwa nazo.
+  Bitcoins hizi mara nyingi huchukuliwa kuwa muhimu zaidi kwa sababu
+  hawajawahi kuchafuliwa, na kutoa dhamana fulani
+  dhidi ya kukataliwa na wasimamizi au Exchange kuu
+  majukwaa.
+reviewed: true

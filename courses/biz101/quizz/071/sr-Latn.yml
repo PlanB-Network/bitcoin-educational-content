@@ -1,0 +1,9 @@
+question: Koju ulogu ima LSP u Enterprise Bitcoin plaćanjima?
+answer: Upravljajte transakcijama velikog obima na Lightning-u
+wrong_answers:
+  - Čuvaj privatne ključeve Lightning Wallet
+  - Štampaj Lightning fakture
+  - Obradite povraćaje ručno na Lightning-u
+explanation: |
+  LSP-ovi upravljaju složenim i velikim operacijama na Lightningu.
+reviewed: false

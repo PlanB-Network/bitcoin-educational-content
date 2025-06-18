@@ -1,0 +1,9 @@
+question: Ni nini nafasi ya mzozo katika mbinu ya kielimu?
+answer: Inakuza ukuzaji wa fikra muhimu na ustadi wa mabishano.
+wrong_answers:
+  - Inawaruhusu wanafunzi kukariri mafundisho ya imani bila kuyahoji.
+  - Inatumika kutatua mijadala ya kitheolojia kwa uhakika na kufikia ukweli wa kipekee.
+  - Inatumika kutayarisha uhusiano kati ya mabwana na wanafunzi na kusisitiza mamlaka ya Kanisa.
+explanation: |
+  Mzozo ni zoezi kuu katika mbinu ya kielimu, inayohimiza wanafunzi kukuza fikra zao za kina na kubishana kwa ukali, ikichangia kutafakari kwa kina maswali ya kifalsafa na kitheolojia.
+reviewed: false

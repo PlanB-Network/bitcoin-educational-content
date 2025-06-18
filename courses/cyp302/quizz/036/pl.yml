@@ -1,0 +1,9 @@
+question: Co to znaczy, że dwie liczby są sobie równe?
+answer: Ich największy wspólny dzielnik jest równy 1
+wrong_answers:
+  - Ich suma jest liczbą parzystą
+  - Oba są nawet
+  - Nie mają one wspólnych dzielników innych niż 1 i one same
+explanation: |
+  Dwie liczby są parzyste, jeśli ich największy wspólny dzielnik wynosi 1, co oznacza, że nie mają one wspólnych czynników pierwszych, co jest ważną właściwością w kryptografii.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 根據孔德和 Dunoyer 的觀點，哪些是衝突中的階級？
+answer: 納稅的人和靠納稅過活的人
+wrong_answers:
+  - 工人和雇主
+  - 資產階級與無產階級
+  - 商人和工匠
+explanation: |
+  孔德 (Comte) 和杜諾耶 (Dunoyer) 認為，透過稅收融資的生產者與從中獲益的非生產者之間存在階級衝突。
+reviewed: false

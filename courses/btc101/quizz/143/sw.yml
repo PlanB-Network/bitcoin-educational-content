@@ -1,0 +1,11 @@
+question: Nini kitatokea ikiwa mtumiaji wa nodi atachagua kufuata sheria tofauti ambazo zinakinzana na sheria zilizopo za makubaliano?
+answer: Nodi haitakuwa tena sehemu ya mtandao wa Bitcoin.
+wrong_answers:
+  - Nodi itakuwa sehemu ya mtandao tofauti wa Bitcoin.
+  - Node itaadhibiwa na mtandao wa Bitcoin.
+  - Node italipwa na mtandao wa Bitcoin.
+explanation: |
+  Ikiwa mtumiaji wa nodi aliamua kufuata sheria zingine
+  kubatilisha sheria za makubaliano ya sasa, basi nodi hii
+  haitakuwa tena sehemu ya mtandao wa Bitcoin.
+reviewed: true

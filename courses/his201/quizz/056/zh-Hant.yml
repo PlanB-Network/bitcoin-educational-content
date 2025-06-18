@@ -1,0 +1,9 @@
+question: 2010 年 9 月軟件識別的標準腳本輸出模式是什麼？
+answer: 由公開金鑰接收 (P2PK) 和由 Address 接收 (P2PKH)
+wrong_answers:
+  - 由 Address (P2PKH) 接收和由多重簽名簽章腳本 (P2MS) 接收
+  - 由 Address (P2PKH) 接收和由腳本 (P2SH) 接收
+  - 由公開金鑰 (P2PK) 接收和由腳本 (P2SH) 接收
+explanation: |
+  這是自 Bitcoin 開始使用的兩種類型。P2MS 類型於 2012 年 3 月成為標準。P2SH 類型於 2012 年 4 月加入協定。
+reviewed: false

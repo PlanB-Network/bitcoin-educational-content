@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta korzystania z menedżera haseł?
+answer: Zapamiętywanie tylko jednego hasła głównego.
+wrong_answers:
+  - Koniec z tworzeniem nowych haseł.
+  - Pomoc w zapamiętywaniu wszystkich haseł przy użyciu technik Mnemonic.
+  - Eliminacja konieczności posiadania kont online.
+explanation: |
+  Użytkownik musi pamiętać tylko jedno hasło, aby uzyskać dostęp do wszystkich pozostałych.
+reviewed: false

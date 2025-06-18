@@ -1,0 +1,12 @@
+question: 什麼是魏岱的B錢？
+answer: 匿名數位貨幣的構想，由評估者社群而非中央機關執行詐騙偵測。
+wrong_answers:
+  - 在 Bitcoin 之前被廣泛使用的數位貨幣，由一群 cypherpunks 所控制。
+  - 一種由 CIA 創造並供軍方使用的數位貨幣。
+  - Wei Dai 創造的數位貨幣，作為 Bitcoin 的競爭對手，更具擴展性。
+explanation: |
+  Wei Dai 的 b-money 是一種匿名的數位貨幣，沒有中央實體。
+  沒有中央實體的匿名數位貨幣，這高度啟發了
+  Bitcoin 的創建。事實上，在 Bitcoin
+  白皮書中引用。
+reviewed: true

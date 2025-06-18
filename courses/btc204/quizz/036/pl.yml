@@ -1,0 +1,9 @@
+question: Dlaczego rzadziej używane typy skryptów mogą być łatwiejsze do zidentyfikowania niż powszechnie używane skrypty?
+answer: Ponieważ grupa transakcji z tym samym typem skryptu jest mniejsza.
+wrong_answers:
+  - Ponieważ wymagają więcej weryfikacji przez górników.
+  - Ponieważ używają słabszych algorytmów szyfrowania.
+  - Ponieważ są one częściej odrzucane przez węzły sieci Bitcoin.
+explanation: |
+  Jeśli całkowita grupa transakcji z tym samym typem skryptu, w którym się ukrywamy, jest niewielka, łatwiej nas zidentyfikować niż w bardzo dużej grupie transakcji.
+reviewed: false

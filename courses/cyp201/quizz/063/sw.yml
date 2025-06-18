@@ -1,0 +1,9 @@
+question: Ni habari gani ambayo haijajumuishwa kwenye ufunguo uliopanuliwa?
+answer: Historia ya shughuli ya ufunguo
+wrong_answers:
+  - Nambari ya index ya ufunguo
+  - Ufunguo (wa kibinafsi au wa umma)
+  - Kanuni ya mnyororo
+explanation: |
+  Ufunguo uliopanuliwa una maelezo muhimu pekee ili kupata funguo za watoto, si taarifa zinazohusiana na miamala.
+reviewed: false

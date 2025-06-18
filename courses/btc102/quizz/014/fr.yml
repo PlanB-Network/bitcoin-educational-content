@@ -1,9 +1,9 @@
-question: Quel est le principal objectif d'utiliser des outils tels que Signal, Tor et ProtonMail?
-answer: Pour valoriser et protéger votre vie privée
+question: Pourquoi est-il conseillé d'investir uniquement ce que vous pouvez vous permettre de perdre ?
+answer: Pour préserver sa sécurité financière en cas de perte
 wrong_answers:
-  - Pour accélérer votre connexion internet
-  - Pour protéger votre ordinateur contre les virus
-  - Pour fournir un accès gratuit à des services payants
+  - Pour maximiser ses profits rapidement en marché baissier
+  - Pour diversifier ses investissements massivement
+  - Pour emprunter afin d'investir davantage
 explanation: |
-  Des outils tels que Signal, Tor et ProtonMail sont utilisés pour valoriser et protéger votre vie privée. Ils font partie des mesures visant à améliorer les habitudes de sécurité en ligne.
+  Investir au-delà de ses moyens (c'est-à-dire au-delà de sa marge d'épargne) expose à des risques financiers trop élevés.
 reviewed: false

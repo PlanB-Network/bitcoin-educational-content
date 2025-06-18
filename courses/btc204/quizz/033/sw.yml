@@ -1,0 +1,9 @@
+question: Ikiwa tutaona katika shughuli rahisi ya malipo kwamba pato lina kiasi cha mzunguko, ni tafsiri gani ya uwezekano tunaweza kupata kutoka kwayo?
+answer: Pato la pande zote haliko tena kwa mtumiaji wa ingizo.
+wrong_answers:
+  - Pato la pande zote linakusudiwa kwa ada za muamala.
+  - Pato la pande zote bado ni la mtumiaji wa ingizo.
+  - Pato la pande zote ni hifadhi ya Address.
+explanation: |
+  Unapokabiliwa na muundo rahisi wa malipo (ingizo 1 na matokeo 2), ikiwa moja ya matokeo yanatumia kiasi cha mzunguko, basi inawakilisha malipo. Kwa hivyo huacha umiliki wa mtumiaji wa pembejeo.
+reviewed: false

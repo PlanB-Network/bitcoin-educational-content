@@ -1,0 +1,9 @@
+question: 對於 Starter 使用者而言，非監護型 Wallet 在功能上有何不同？
+answer: 它賦予企業所有者對私密金鑰的完全控制權
+wrong_answers:
+  - 它可以自動將比特幣兌換成法定貨幣
+  - 不需要備份程序或安全措施
+  - 它透過第三方服務管理所有交易
+explanation: |
+  非保管式錢包將私密金鑰和交易的控制權完全交給使用者。
+reviewed: false

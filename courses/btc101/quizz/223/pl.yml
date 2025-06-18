@@ -1,0 +1,11 @@
+question: Czym jest trylemat Blockchain?
+answer: Protokół oparty na Blockchain może spełnić tylko dwa z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
+wrong_answers:
+  - Protokół oparty na Blockchain może spełnić tylko jedno z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
+  - Protokół oparty na Blockchain może spełnić wszystkie kryteria decentralizacji, bezpieczeństwa i skalowalności.
+  - Protokół oparty na Blockchain nie może spełnić żadnego z kryteriów decentralizacji, bezpieczeństwa i skalowalności.
+explanation: |
+  Trylemat Blockchain odnosi się do wyzwania polegającego na tym, że
+  protokół oparty na Blockchain może spełnić tylko dwa kryteria spośród
+  decentralizacji, bezpieczeństwa i skalowalności.
+reviewed: true

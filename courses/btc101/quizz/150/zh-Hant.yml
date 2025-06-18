@@ -1,0 +1,8 @@
+question: 礦工在 Bitcoin 網路中扮演什麼角色？
+answer: 礦工保護網路安全，並將交易加入區塊中。
+wrong_answers:
+  - 礦工創造新的 bitcoins。
+  - 礦工驗證 Bitcoin 使用者的身份。
+  - 礦工設定 Bitcoin 的價格。
+explanation: >-
+reviewed: true

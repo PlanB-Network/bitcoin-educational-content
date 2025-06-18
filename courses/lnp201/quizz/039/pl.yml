@@ -1,0 +1,9 @@
+question: Co się stanie, jeśli kanał z aktywnym HTLC zostanie przymusowo zamknięty?
+answer: HTLC jest dołączany do transakcji Commitment jako dane wyjściowe.
+wrong_answers:
+  - HTLC zostanie automatycznie anulowany.
+  - Środki są redystrybuowane do poprzednich węzłów.
+  - Kanał nie może zostać zamknięty przed upływem HTLC.
+explanation: |
+  Podczas wymuszonego zamknięcia, oczekujące HTLC są reprezentowane jako wyjścia w transakcjach Commitment, zapewniając w ten sposób ich wykonanie lub zwrot zgodnie ze zdefiniowanymi warunkami.
+reviewed: false

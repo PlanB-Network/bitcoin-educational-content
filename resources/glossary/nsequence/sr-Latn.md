@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+---
+
+Polje `nSequence` u unosu transakcije Bitcoin koristi se za označavanje kako je ovaj unos vremenski zaključan. Prvobitno je bilo namenjeno da omogući dinamičku zamenu transakcija u mempool-ovima kako bi se omogućio sloj platnog sistema sličan Lightning-u. Međutim, njegova upotreba se razvila uvođenjem relativnog vremenskog zaključavanja kroz BIP68. Polje `nSequence` sada može da specificira relativno kašnjenje pre nego što transakcija može biti uključena u blok. Ovo kašnjenje može biti definisano u smislu broja blokova, ili kao višekratnik od 512 sekundi (tj. stvarno vreme). Važno je napomenuti da je ova nova interpretacija polja `nSequence` važeća samo ako je polje `nVersion` veće ili jednako `2`. Ova interpretacija polja `nSequence` je na nivou konsenzus pravila Bitcoin. Štaviše, na nivou standardizacionih pravila, ovo polje se takođe koristi za signalizaciju RBF (Replace-by-fee). Ako transakcija uključuje `nSequence` manji od `0xfffffffe`, onda se može zameniti putem RBF na čvorovima koji prate ovu politiku.

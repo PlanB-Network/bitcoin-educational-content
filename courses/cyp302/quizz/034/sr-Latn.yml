@@ -1,0 +1,9 @@
+question: Šta je pseudonasumični niz?
+answer: Niska koja izgleda kao da dolazi iz uniformne promenljive, ali je proizvedena algoritmom ekspanzije
+wrong_answers:
+  - Niska generisana sa identičnom verovatnoćom za svaki karakter
+  - Niska fiksne dužine iz prirodnog nasumičnog događaja
+  - Nasumičan niz odabran samo iz binarnih vrednosti 0 i 1
+explanation: |
+  Pseudonasumičan niz se proizvodi pomoću algoritma ekspanzije iz manjeg seed, na način koji oponaša uniformni odabir među svim nizovima iste dužine.
+reviewed: false

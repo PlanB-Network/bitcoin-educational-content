@@ -1,0 +1,9 @@
+question: Dlaczego zmienność jest uważana za naturalny aspekt Bitcoin jako aktywa wschodzącego?
+answer: Ponieważ Bitcoin jest wciąż stosunkowo młody, przyciąga spekulantów i reaguje na wiadomości rynkowe, powodując wahania cen przed ustabilizowaniem się w dłuższych okresach.
+wrong_answers:
+  - Ponieważ jest centralnie kontrolowany, a ceny są ustalane przez jeden organ.
+  - Ponieważ Bitcoin nie ma żadnych użytkowników, którzy trzymaliby go długoterminowo.
+  - Ponieważ sprzedawcy muszą ustalać ceny nieprzewidywalnie co godzinę.
+explanation: |
+  Jako aktywo rozwijające się, na cenę Bitcoin wpływają spekulacje, nastroje i różne wskaźniki adopcji. Z biegiem czasu, w miarę udziału bardziej stabilnych, długoterminowych posiadaczy, zmienność może się zmniejszyć, ale pozostaje cechą wczesnego etapu wzrostu.
+reviewed: false

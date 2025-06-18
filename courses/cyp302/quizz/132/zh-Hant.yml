@@ -1,0 +1,9 @@
+question: 在 Bitcoin 交易中，一般使用哪種技術透過解鎖腳本來證明資金的 Ownership？
+answer: 數位簽章
+wrong_answers:
+  - 數位憑證
+  - 對稱加密
+  - 訊息驗證碼 (MAC)
+explanation: |
+  Bitcoin 中的數位簽章透過使用私人金鑰簽署交易來證明資金的擁有權，以便解鎖保護 UTXO 的腳本。
+reviewed: false

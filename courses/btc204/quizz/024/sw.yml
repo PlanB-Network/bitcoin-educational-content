@@ -1,0 +1,9 @@
+question: Ikiwa tutaona muamala na 1 UTXO katika pembejeo na UTXO 43 katika matokeo, ni muundo gani tunaweza kutambua?
+answer: Matumizi kwa makundi
+wrong_answers:
+  - Uimarishaji
+  - Malipo rahisi
+  - Muamala shirikishi
+explanation: |
+  Tafsiri ya muundo huu ni kwamba tunashughulika na matumizi yaliyopangwa. Muundo huu huruhusu huluki kama vile mifumo ya Exchange kuokoa ada kwa kuweka gharama zao katika shughuli moja.
+reviewed: false

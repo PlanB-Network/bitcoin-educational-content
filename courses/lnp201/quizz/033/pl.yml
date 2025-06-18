@@ -1,0 +1,9 @@
+question: Na czym polega routing cebulowy w Lightning Network?
+answer: Oznacza to, że każdy węzeł pośredni zna tylko swoich bezpośrednich sąsiadów na ścieżce.
+wrong_answers:
+  - Bezpośrednie przesyłanie środków od węzła do węzła, znając ostatecznego odbiorcę
+  - Aby obliczyć opłaty dla każdego węzła pośredniego niezależnie
+  - Aby wysłać środki do wszystkich węzłów na ścieżce jednocześnie
+explanation: |
+  Trasowanie cebulowe oznacza, że każdy węzeł pośredni zna tylko poprzedni i następny węzeł, zachowując w ten sposób poufność odbiorcy końcowego.
+reviewed: false

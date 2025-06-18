@@ -1,0 +1,11 @@
+question: Jaka jest zalecana alternatywa dla używania papieru do przechowywania frazy Mnemonic?
+answer: Grawerowanie na metalowej płytce.
+wrong_answers:
+  - Przechowywanie go w pliku cyfrowym.
+  - Napisanie tego na tablicy.
+  - Zapisanie go jako kontaktu w telefonie.
+explanation: |
+  Jedną z zalecanych alternatyw dla papieru do przechowywania
+  gW-1 jest wygrawerowanie go na metalowej płytce. To
+  rozwiązanie jest bardziej wytrzymałe i długotrwałe.
+reviewed: true

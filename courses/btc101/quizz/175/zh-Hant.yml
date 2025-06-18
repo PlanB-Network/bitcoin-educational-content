@@ -1,0 +1,8 @@
+question: 減緩 Bitcoin 波動性的一種方法是什麼？
+answer: 金融對沖（穩定幣）。
+wrong_answers:
+  - 將所有資金投資在 Bitcoin。
+  - 忽略市場趨勢。
+  - 當價格下降時，購買更多 Bitcoin。
+explanation: >-
+reviewed: true

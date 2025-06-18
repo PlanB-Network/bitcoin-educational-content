@@ -1,0 +1,8 @@
+question: Kakav je opšti trend Bitcoin, s obzirom na njegov ograničeni Supply i proces Halving?
+answer: Opšti trend rasta.
+wrong_answers:
+  - Opšti trend opadanja.
+  - Nema trenda uopšte.
+  - Trend koji divlja bez prepoznatljivog obrasca.
+explanation: >-
+reviewed: true

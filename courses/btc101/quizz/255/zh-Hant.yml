@@ -1,0 +1,10 @@
+question: 創建 Bitcoin 的主要原因之一是什麼？
+answer: 提出金融體系的變革。
+wrong_answers:
+  - 建議取消金錢。
+  - 提出創造新形式的 AI 技術。
+  - 建議控制世界人口。
+explanation: |
+  文中提到 Satoshi Nakamoto 在 2008 年創造了 Bitcoin。
+  2008 年創建 Bitcoin，提出金融體系的變革。
+reviewed: true

@@ -1,0 +1,14 @@
+question: 目前 Bitcoin 網路中的 Mining 獎勵是多少？
+answer: 新比特幣的產生與交易費用
+wrong_answers:
+  - 創造新的比特幣僅
+  - 僅交易費用
+  - 新比特幣的產生、交易費用，以及最快 Miner 的獎金
+explanation: |
+  目前 Bitcoin 網路中的 Mining 獎勵為
+  兩方面。它包括創造新的比特幣，其中
+  已經從最初的每十分鐘 50 比特幣
+  到今天（2023 年）的 6.25 比特幣。它還包括交易
+  費，或 Mining 費，來自 Miner 的交易。
+  選擇包含在他們的區塊中。
+reviewed: true

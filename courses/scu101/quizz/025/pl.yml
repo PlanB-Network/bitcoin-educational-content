@@ -1,0 +1,11 @@
+question: Jaka jest zalecana praktyka przechowywania hasła do szyfrowania danych?
+answer: Zapisz hasło na kartce, którą należy przechowywać w bezpiecznym miejscu.
+wrong_answers:
+  - Hasło należy zapisać w pliku tekstowym na komputerze.
+  - Udostępnij hasło zaufanym znajomym.
+  - Używaj wspólnego hasła, które jest łatwe do zapamiętania.
+explanation: |
+  Zaleca się zapisanie hasła do szyfrowania danych na papierze
+  na papierze i przechowywanie go w bezpiecznym miejscu. Ma to na celu
+  aby zapobiec utracie dostępu do zaszyfrowanych danych.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaka jest druga faza zjawiska hiperinflacji?
+answer: Upadek waluty i wzrost cen.
+wrong_answers:
+  - Utrata zaufania.
+  - Błędne koło drukowania pieniędzy.
+  - Pojawia się nowa waluta.
+explanation: |
+  Drugą fazą hiperinflacji jest upadek waluty i wzrost cen
+  wzrost cen, tuż po fazie utraty zaufania.
+reviewed: true

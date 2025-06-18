@@ -1,0 +1,9 @@
+question: Je, utendakazi na kasi iliyoboreshwa ya Lightning Network inalinganishwa vipi na mbinu za kawaida za malipo?
+answer: Ni haraka sana, mara nyingi hutatua miamala chini ya sekunde moja, na ada za chini na hakuna utegemezi wa wapatanishi wengi.
+wrong_answers:
+  - Inafanana na nyakati za benki za jadi, mara nyingi huchukua siku 2-5 kutatua.
+  - Ni polepole kuliko malipo ya kawaida ya kadi na ina ada za juu.
+  - Inahitaji huluki nyingi zinazoidhinisha, kama vile uhamishaji wa sasa wa benki.
+explanation: |
+  Kwa kuwezesha miamala ya off-chain na kukamilisha malipo karibu papo hapo, Umeme hutoa faida ya kasi na ufanisi kuliko mbinu za jadi zinazotegemea wasuluhishi kadhaa.
+reviewed: false

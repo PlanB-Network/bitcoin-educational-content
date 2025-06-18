@@ -1,0 +1,11 @@
+question: Jaki jest główny powód krótkoterminowej zmienności cen stablecoinów?
+answer: Niski poziom płynności na giełdach
+wrong_answers:
+  - Brak rezerw do spełnienia żądań wycofania
+  - Hakerzy narażający stablecoina
+  - Depegging stablecoinów
+explanation: |
+  Krótkoterminowa zmienność cen stablecoinów jest często wynikiem
+  płynności, gdzie mniejsze giełdy mogą nie być w stanie
+  sprostać wymaganiom klientów, powodując tymczasowe wahania cen.
+reviewed: true

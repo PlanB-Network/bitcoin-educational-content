@@ -1,0 +1,9 @@
+question: Na co pozwala użytkownikom funkcja LNURL-withdraw?
+answer: Wypłata środków z usługi poprzez zeskanowanie kodu QR
+wrong_answers:
+  - Dokonaj płatności bezpośredniej bez opłat za przekierowanie
+  - Podłącz swój Lightning Wallet bez hasła
+  - Wysyłanie środków bez potwierdzenia odbiorcy
+explanation: |
+  LNURL-withdraw pozwala użytkownikom na wypłatę środków z usługi poprzez zeskanowanie kodu QR, upraszczając w ten sposób proces wypłaty.
+reviewed: false

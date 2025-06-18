@@ -1,0 +1,8 @@
+question: Je, haki ya kitu kwa mtu mmoja inawezaje kuingia kwenye mgongano na haki ya mali ya mtu mwingine?
+answer: Kwa sababu inahitaji kuchukua kutoka kwa mtu mmoja kumpa mwingine, na hivyo kuunda mgongano wa haki.
+wrong_answers:
+  - Kwa sababu kwa kupokea haki yake, mtu anaweza kuwatia moyo wengine kufanya vivyo hivyo.
+  - Kwa sababu mtu anaweza kusababisha migogoro ikiwa hatapata kile anachotaka.
+  - Kwa sababu haki hizi zinahusu tu haki za kimsingi na sio mali.
+explanation: |
+  Bastiat anaangazia haki hizo za kulazimisha kuchukua rasilimali kutoka kwa wengine, na hivyo kuathiri haki za mali moja kwa moja.

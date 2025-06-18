@@ -1,0 +1,9 @@
+question: Według Bastiata, kto utrzymuje państwo?
+answer: To obywatele utrzymują państwo
+wrong_answers:
+  - To obywatele żyją z państwa
+  - To państwo utrzymuje naród
+  - To grupy interesu utrzymują państwo
+explanation: |
+  Bastiat twierdzi, że to obywatele wspierają państwo poprzez tworzenie bogactwa, a nie odwrotnie.
+reviewed: false

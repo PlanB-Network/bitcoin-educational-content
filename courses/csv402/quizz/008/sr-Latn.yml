@@ -1,0 +1,9 @@
+question: Koja je glavna svrha determinističkih Bitcoin obaveza?
+answer: Osigurajte da je jedan Commitment umetnut u transakciju
+wrong_answers:
+  - Pojednostavljivanje strukture Bitcoin transakcija
+  - Smanjite troškove transakcije RGB
+  - Optimizacija generisanja multisignature RGB
+explanation: |
+  Bitcoin determinističke obaveze garantuju da je jedan Commitment umetnut u transakciju, kako bi se izbegle skrivene konkurentske obaveze.
+reviewed: false

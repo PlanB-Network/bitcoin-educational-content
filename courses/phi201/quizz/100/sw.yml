@@ -1,0 +1,9 @@
+question: Ni upi ukosoaji mkuu wa Waaustria kuhusu nadharia ya Umaksi ya mapambano ya kitabaka?
+answer: Wanapinga wazo kwamba jamii imegawanywa katika matabaka mawili ya kinzani.
+wrong_answers:
+  - Wanadai kuwa uchumi ndio chanzo kikuu cha migogoro ya kijamii, sio mapambano ya kitabaka.
+  - Wanakataa wazo kwamba mfanyakazi analipwa kidogo.
+  - Majibu mengine yote ni sahihi.
+explanation: |
+  Waaustria wanakataa maoni ya Umaksi kuhusu jamii iliyogawanyika katika tabaka mbili za kinzani, wakiamini kwamba mwingiliano wa kiuchumi unatokana na ushirikiano wa hiari badala ya migogoro ya kimuundo kati ya matabaka.
+reviewed: false

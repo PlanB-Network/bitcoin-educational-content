@@ -1,0 +1,13 @@
+question: Według austriackich ekonomistów, co wynika z tego, że jednostki specjalizują się w swojej pracy i angażują się w wymianę?
+answer: Jednostki są zawsze w lepszej sytuacji.
+wrong_answers:
+  - Jednostki są zawsze w gorszej sytuacji.
+  - Sytuacja poszczególnych osób nie uległa zmianie.
+  - Wynik różni się w zależności od osoby.
+explanation: |
+  Według austriackich ekonomistów, rezultatem tego, że jednostki
+  specjalizujących się w swojej pracy i angażujących się w wymianę jest to, że
+  że zawsze jest im lepiej. Dzieje się tak, ponieważ
+  specjalizacja i Exchange pozwalają jednostkom maksymalizować
+  ich subiektywną użyteczność.
+reviewed: true

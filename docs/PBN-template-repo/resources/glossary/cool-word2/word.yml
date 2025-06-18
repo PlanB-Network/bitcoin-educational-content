@@ -1,4 +1,6 @@
+# generate a random uuid v4
 id: 00d87c5e-4344-4722-969e-34054c76f64b
+
 # Characteristic of a glossary word
 # Each word is contained in a folder named after it. E.g.: if the word is "account" there will be a folder named "account"
 # with related files inside such folder.
@@ -15,9 +17,9 @@ en_word: COOL WORD 2
 related_words:
 - COOL WORD
 
-# tags
-# List the associated tags to the word
-# The list of tags is composed of 21 items that can be found here (list not yet available)
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
 - ''
 
@@ -28,7 +30,7 @@ original_language: en
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading
 # Any further data will be automatically added after each proofreading
-# 
+#
 # This information are provided by PBN team, no need to specify if you are a contributor.
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review

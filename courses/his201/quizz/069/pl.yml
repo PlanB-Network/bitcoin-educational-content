@@ -1,0 +1,9 @@
+question: Gdzie deweloperzy Bitcoin spotykają się, by prowadzić bardziej nieformalne dyskusje techniczne?
+answer: Na kanale IRC \#Bitcoin-dev
+wrong_answers:
+  - W specjalnej sekcji forum
+  - Na liście mailingowej Bitcoin-development
+  - Na subreddicie r/Bitcoin
+explanation: |
+  Został on [stworzony](https: //mmalmi.github.io/Satoshi/#email-27) w sierpniu 2009 roku przez Marttiego Malmi. Zyskał pewną popularność po slashdottingu w lipcu 2010 roku.
+reviewed: false

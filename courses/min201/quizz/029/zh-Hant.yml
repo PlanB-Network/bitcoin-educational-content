@@ -1,0 +1,12 @@
+question: 礦工在 Bitcoin 網路中扮演什麼角色？
+answer: 礦工在驗證和創建區塊方面扮演著重要的角色。
+wrong_answers:
+  - 礦工只會驗證交易。
+  - 礦工控制 Bitcoin 的價格。
+  - 礦工在 Bitcoin 網路中沒有任何角色。
+explanation: |
+  礦工在 Bitcoin 網路中扮演著不可或缺的角色，其作用為
+  驗證和建立區塊。它們強化了網路
+  用電力來計算
+  Proof of Work 為 Bitcoin。
+reviewed: true

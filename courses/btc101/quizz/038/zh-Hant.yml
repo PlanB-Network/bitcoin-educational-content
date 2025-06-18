@@ -1,0 +1,12 @@
+question: Bitcoin 裝置的最大數量是多少？
+answer: 2,100 萬。
+wrong_answers:
+  - 3 兆元。
+  - 一億
+  - 沒有限制。
+explanation: |
+  Bitcoin 的 Supply 總量上限為 2,100 萬台。
+  這是 Bitcoin 的主要特徵，使其有別於
+  的關鍵特點。
+  中央銀行可以無限量印刷。
+reviewed: true

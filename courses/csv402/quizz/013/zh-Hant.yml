@@ -1,0 +1,9 @@
+question: RGB Contract 的主要操作是什麼？
+answer: State Transition、Genesis 和 State Extension
+wrong_answers:
+  - Seal Definition、Commitment 和驗證
+  - Anchor 建立、DAG 更新和交易簽署
+  - Genesis 區塊、UTXO 分配和腳本驗證
+explanation: |
+  這些作業會根據 Schema 來修改或完成 Contract 的狀態。
+reviewed: false

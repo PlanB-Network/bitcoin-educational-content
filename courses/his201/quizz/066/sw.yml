@@ -1,0 +1,9 @@
+question: Jina la blogu inayoendeshwa na Jon Matonis ambayo inashughulikia sarafu za kidijitali (ikiwa ni pamoja na Bitcoin kuanzia Machi 2010) ilikuwa nini?
+answer: Mustakabali wa Kifedha
+wrong_answers:
+  - Mafunzo ya Kiuchumi ya Kawaida
+  - Rudi kwa Pesa
+  - Taasisi ya Nakamoto
+explanation: |
+  Alichapisha [makala yake ya kwanza kwenye Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/Bitcoin-peer-to-peer-electronic-cash.html) mnamo Machi 13, 2010, baada ya kubadilishana barua pepe na Satoshi.
+reviewed: false

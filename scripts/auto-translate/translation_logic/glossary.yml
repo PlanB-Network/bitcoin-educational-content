@@ -1,5 +1,6 @@
 non_translatable:
   #  - second layer
+  - Alice
   - ASIC
   - Address
   - off chain
@@ -12,15 +13,19 @@ non_translatable:
   - Attacco Sybil # ?
   - B-CERT
   - BDK
+  - Bob
   - BUIDL
   - Bitcoin
   - Bitcoin Dev Kit
+  - Blinding key
+  - Blinded ranges
   - Block explorer
   - Block reward
   - Blockchain
   - Blockstream Green
   - Bolt
   - Business Logic
+  - chain code
   - CLI
   - CPFP
   - Child pay for parent
@@ -32,6 +37,7 @@ non_translatable:
   - Commitment
   - Commitment Transaction
   - Confidential Transactions
+  - Confidential Address
   - Consignment
   - Consignment Endpoint
   - Contract
@@ -71,8 +77,10 @@ non_translatable:
   - Interface Implementation
   - Invoice
   - Issued Assets
+  - Keysend
   - LN
   - LND
+  - LNURL-Withdraw
   - Layer
   - Ledger
   - Liana
@@ -130,6 +138,8 @@ non_translatable:
   - Sidechain
   - Single-Use Seal
   - Smart contract
+  - Sparrow
+  - Sparrow wallet
   - Soft
   - Software Wallet
   - Stash
@@ -143,6 +153,7 @@ non_translatable:
   - Timestamp
   - Transition Bundle
   - Trustless
+  - Unconfidential address
   - UTXO
   - Valency
   - Wallet
@@ -177,6 +188,7 @@ non_translatable:
   - dynafed
   - elements-cli
   - elementsd
+  - federated peg
   - federated peg script
   - fork
   - full node
@@ -209,6 +221,7 @@ non_translatable:
   - reissueasset
   - satoshi
   - sats
+  - script reedem
   - seed
   - seedphrase
   - sendtoaddress
@@ -216,6 +229,7 @@ non_translatable:
   - signblock
   - signblockscript
   - submitblock
+  - token
   - transaction ID
   - txid
   - unblinded

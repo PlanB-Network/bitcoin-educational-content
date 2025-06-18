@@ -1,9 +1,9 @@
-question: Mikä on pääasiallinen ero Bitcoinin ja muiden kryptovaluuttojen välillä hajautuksen suhteen?
-answer: Bitcoin on hajautettu, kun taas useimmat muut kryptovaluutat eivät ole
+question: Mikä psykologinen ominaisuus on välttämätön hodlerille?
+answer: Emotionaalinen joustavuus
 wrong_answers:
-  - Sekä Bitcoin että muut kryptovaluutat ovat hajautettuja
-  - Sekä Bitcoin että muut kryptovaluutat eivät ole hajautettuja
-  - Muut kryptovaluutat ovat hajautettuja, kun taas Bitcoin ei ole
+  - Emotionaalinen impulsiivisuus
+  - Emotionaalinen aggressiivisuus
+  - Emotionaalinen spekulointi
 explanation: |
-  Luvun sisältö selvästi toteaa, että Bitcoin on hajautettu, kun taas useimmat muut kryptovaluutat eivät ole. Tämä on keskeinen ominaisuus, joka erottaa Bitcoinin muista kryptovaluutoista.
+  Emotionaalinen joustavuus antaa mahdollisuuden kestää markkinoiden heilahtelut ilman paniikkia.
 reviewed: false

@@ -1,0 +1,11 @@
+question: Jakie jest rozwiązanie problemu bezpośredniego Exchange w podziale pracy?
+answer: Pośredni Exchange ułatwiony przez pieniądze.
+wrong_answers:
+  - Bezpośredni Exchange ułatwiony przez barter.
+  - Pośredni Exchange ułatwiony przez barter.
+  - Bezpośrednie Exchange ułatwione przez pieniądze.
+explanation: |
+  Pieniądze pozwalają na pośrednie Exchange, gdzie jednostka może
+  kupić od innej osoby, a sprzedawca może użyć tej jednostki monetarnej
+  gdzie indziej, w innym czasie i z kimś innym.
+reviewed: true

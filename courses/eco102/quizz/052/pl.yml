@@ -1,0 +1,9 @@
+question: Jaki wniosek Bastiat wyciąga z wpływu destrukcji na gospodarkę?
+answer: Jest to szkodliwe dla gospodarki
+wrong_answers:
+  - Jest to korzystne dla gospodarki
+  - Jest to neutralne dla gospodarki
+  - To zależy od sytuacji gospodarczej
+explanation: |
+  Bastiat pokazuje, że destrukcja jest obciążeniem ekonomicznym, ponieważ przekierowuje cenne zasoby i nie tworzy żadnej wartości dodanej.
+reviewed: false

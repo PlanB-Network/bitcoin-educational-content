@@ -1,0 +1,10 @@
+question: Uimarishaji unahusisha nini?
+answer: Kuunganisha pembejeo kadhaa ili kuunda moja kubwa zaidi.
+wrong_answers:
+  - Kugawanya pembejeo kubwa katika ndogo kadhaa.
+  - Kuhamisha pembejeo kutoka kwa pochi nyingi hadi moja.
+  - Kukabidhi upya pembejeo ambazo hazijatumika kwa anwani mpya.
+explanation: |
+  Kanuni ya ujumuishaji ni kuchukua fursa ya vipindi wakati ada ni ya chini kwa Bitcoin ili kuunganisha UTXO ndogo hadi moja kubwa.
+  
+reviewed: false

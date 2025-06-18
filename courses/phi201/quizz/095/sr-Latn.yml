@@ -1,0 +1,9 @@
+question: Prema Marksu, koje je glavno ograničenje ljudskih prava?
+answer: Oni štite samo formalnu i apstraktnu slobodu.
+wrong_answers:
+  - Oni su prirodna prava.
+  - Oni su opcionalna prava.
+  - Oni sprečavaju revoluciju.
+explanation: |
+  Marx kritikuje ljudska prava nazivajući ih formalnim jer garantuju apstraktnu individualnu slobodu, bez stvarne transformacije materijalnih uslova eksploatacije u kapitalističkom društvu.
+reviewed: false

@@ -1,0 +1,20 @@
+id: f2c46cda-f534-492f-83e4-db333f78f124
+name: BitDevs Cotonou
+category: education
+links:
+  website: https://bitdevscotonou.org/fr/
+  twitter: https://twitter.com/bitdevscotonou
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-22
+    urgency: 1
+    contributor_names:
+        - AlphonseMehounme
+    reward: 0.15
+tags:
+  - development
+  - software
+  - case-studies
+contributor_names:
+  - AlphonseMehounme

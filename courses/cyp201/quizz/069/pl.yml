@@ -1,0 +1,9 @@
+question: Jaka jest główna rola kodu łańcucha w wyprowadzaniu kluczy podrzędnych?
+answer: Wprowadzenie dodatkowego źródła entropii
+wrong_answers:
+  - Identyfikacja głębokości hierarchicznej
+  - Przechowuje indeksy kluczy podrzędnych
+  - Zapewnienie zgodności z protokołem Bitcoin
+explanation: |
+  Kod łańcuchowy służy do wprowadzenia dodatkowego i unikalnego źródła entropii dla każdego klucza pochodnego.
+reviewed: false

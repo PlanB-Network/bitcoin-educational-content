@@ -1,0 +1,10 @@
+question: Jaki jest oficjalny próg, przy którym kraj może zostać uznany za hiperinflacyjny?
+answer: 50% miesięcznie
+wrong_answers:
+  - 10% miesięcznie
+  - 25% miesięcznie
+  - 75% miesięcznie
+explanation: |
+  W 2007 r. stopa inflacji w Zimbabwe osiągnęła próg 50% miesięcznie,
+  oficjalnie oznaczając kraj jako hiperinflację.
+reviewed: false

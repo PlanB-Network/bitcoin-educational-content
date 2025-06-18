@@ -1,0 +1,9 @@
+question: Kakva je bila percepcija nemačkog stanovništva tokom perioda hiperinflacije u Vajmarskoj Republici?
+answer: Pripisali su inflaciju rastu dolara, a ne intrinzičnoj devalvaciji sopstvene valute.
+wrong_answers:
+  - Bili su potpuno svesni osnovnog uzroka hiperinflacije koju su doživljavali.
+  - Oni su okrivili vladu za svoje ekonomske poteškoće.
+  - Verovali su da je hiperinflacija rezultat ratnih reparacija.
+explanation: |
+  Nemačko stanovništvo tokom Vajmarske Republike pripisivalo je inflaciju koju su doživljavali porastu dolara, odbacujući bilo kakvo priznanje veze između svojih ekonomskih poteškoća i monetarne devalvacije, uglavnom izazvane prekomernim stvaranjem novca.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Kakva je priroda usvajanja Bitcoin kako je opisano u ovom kursu?
+answer: Viralno.
+wrong_answers:
+  - Polako i postojano.
+  - Brzo i nekontrolisano.
+  - Sporadično i nepredvidivo.
+explanation: |
+  Tekst kursa opisuje usvajanje Bitcoin kao viralno,
+  sugerišući da se širi brzo i široko sa jedne
+  osobe na drugu, slično kao virus, ali dobar.
+reviewed: true

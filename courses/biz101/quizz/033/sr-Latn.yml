@@ -1,0 +1,9 @@
+question: Kako se Lightning Network razvijao kako bi poboljšao korisničko iskustvo od svog nastanka?
+answer: Uveo je funkcije kao što su spajanje, statički Bolt12 računi i bolje upravljanje likvidnošću, čineći transakcije glatkijim i pouzdanijim.
+wrong_answers:
+  - Uklonio je sve sigurnosne funkcije kako bi ubrzao transakcije.
+  - Sada je potrebna vladina dozvola za svaku uplatu.
+  - Prestao je raditi na novim funkcijama, oslanjajući se samo na originalni dizajn.
+explanation: |
+  Vremenom, Lightning Network je doživeo tehnička unapređenja koja smanjuju trenje za korisnike. Nove funkcije i bolji alati za upravljanje čvorovima doprineli su besprekornijem i korisnički prijatnijem iskustvu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dlaczego deskryptory są szczególnie przydatne w przypadku portfeli z wieloma podpisami?
+answer: Obejmują one xpub każdego czynnika i opisują strukturę wielu cech
+wrong_answers:
+  - Eliminują one potrzebę stosowania frazy Mnemonic
+  - Upraszczają one generowanie kluczy hartowanych
+  - Sprawiają one, że wielopodpisy są kompatybilne ze wszystkimi skryptami
+explanation: |
+  Deskryptory zawierają rozszerzone klucze publiczne wszystkich uczestników, co ułatwia przywracanie konfiguracji wielopodpisowych i zarządzanie nimi.
+reviewed: false

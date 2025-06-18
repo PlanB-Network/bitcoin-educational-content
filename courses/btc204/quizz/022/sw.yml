@@ -1,0 +1,9 @@
+question: Jina la muundo unaojumuisha UTXO moja katika ingizo na UTXO moja katika pato ni nini?
+answer: Kufagia
+wrong_answers:
+  - Kuunganisha
+  - CoinJoin
+  - Matumizi ya kundi
+explanation: |
+  Ufafanuzi wa muundo huu ni kwamba tuko mbele ya kufagia, maana ya uhamishaji wa kibinafsi wa bitcoins.
+reviewed: false

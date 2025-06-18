@@ -1,0 +1,9 @@
+question: 將一束 On-Chain 活動與某種形式的真實身分連結起來的資訊是什麼？
+answer: 一個切入點。
+wrong_answers:
+  - 一把連結鑰匙。
+  - 指紋連結。
+  - 分析標記。
+explanation: |
+  可將真實身分與 On-Chain 活動連結的行為和資訊稱為「入口點」。
+reviewed: false

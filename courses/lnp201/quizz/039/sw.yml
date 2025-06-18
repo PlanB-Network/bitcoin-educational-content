@@ -1,0 +1,9 @@
+question: Nini kitatokea ikiwa chaneli iliyo na HTLC inayotumika itafungwa kwa lazima?
+answer: HTLC imejumuishwa katika shughuli za Commitment kama pato.
+wrong_answers:
+  - HTLC inaghairiwa kiotomatiki.
+  - Fedha hizo zinagawanywa tena kwa nodi zilizopita.
+  - Kituo hakiwezi kufungwa hadi muda wa HTLC uishe.
+explanation: |
+  Wakati wa kufungwa kwa lazima, HTLC zinazosubiri huwakilishwa kama matokeo katika miamala ya Commitment, hivyo basi kuhakikisha kwamba zinatekelezwa au kurudishwa kulingana na masharti yaliyobainishwa.
+reviewed: false

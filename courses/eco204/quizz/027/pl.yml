@@ -1,0 +1,11 @@
+question: Jaka była powszechna metoda stosowana przez rządy w celu utrzymania pozorów normalności podczas załamania gospodarczego?
+answer: Zmuszanie kupców do utrzymywania otwartych sklepów.
+wrong_answers:
+  - Zachęcanie do inwestycji zagranicznych.
+  - Obniżenie podatków.
+  - Zwiększenie wydatków publicznych.
+explanation: |
+  Kiedy gospodarka się załamuje, a waluta traci na wartości, rządy mogą
+  mogą uciekać się do drastycznych środków, aby zachować pozory normalności. Jednym z takich środków
+  jest zmuszanie kupców do utrzymywania otwartych sklepów.
+reviewed: false

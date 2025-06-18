@@ -1,0 +1,9 @@
+question: Koja je jedna od definisućih karakteristika Bitcoin kao valutne mreže?
+answer: To je kao gotovina i ne zahteva centralni autoritet ili posrednika za transakcije.
+wrong_answers:
+  - Može funkcionisati samo kada je ovlašćena od strane vladine agencije.
+  - Izdaje nove jedinice valute na zahtev bilo kog korisnika.
+  - Potrebne su banke da verifikuju i izvrše svaku transakciju.
+explanation: |
+  Bitcoin funkcioniše kao decentralizovana mreža, omogućavajući svakome da učestvuje bez dozvole. Transakcije validiraju čvorovi i rudari, a ne centralni autoritet.
+reviewed: false

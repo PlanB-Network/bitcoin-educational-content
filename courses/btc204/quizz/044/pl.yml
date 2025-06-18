@@ -1,0 +1,9 @@
+question: Jaki mechanizm jest wykorzystywany przez internetowe platformy kojarzeniowe peer-to-peer (P2P) w celu zmniejszenia ryzyka kradzieży?
+answer: Mechanizm depozytowy.
+wrong_answers:
+  - Bezpieczny algorytm dopasowywania.
+  - Mechanizm weryfikacji wiadomości e-mail.
+  - Mechanizm weryfikacji tożsamości.
+explanation: |
+  Platformy te zazwyczaj wykorzystują mechanizm ochronny, w którym bitcoiny są przechowywane do momentu potwierdzenia przez sprzedawcę płatności w walucie fiducjarnej. Ten mechanizm przechowywania przez stronę trzecią reprezentuje to, co jest znane jako escrow.
+reviewed: false

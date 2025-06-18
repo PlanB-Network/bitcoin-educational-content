@@ -1,0 +1,5 @@
+---
+term: TUMBLEBIT
+---
+
+TumbleBit ni dhana ya kitovu cha malipo kisichojulikana kinachooana na Bitcoin, kilichopendekezwa mwaka wa 2016 na Ethan Heilman, Leen AlShenibr, Foteini Baldimtsi, Alessandra Scafuro na Sharon Goldberg. TumbleBit ni mfumo wa kuchanganya wa Bitcoin ambao hauhitaji uaminifu kwa mpatanishi. Huruhusu watumiaji kufanya malipo ya haraka, bila majina, na off-chain kupitia mratibu anayeitwa Tumbler. TumbleBit huhakikisha kutokujulikana kwa kuhakikisha kwamba hata Binadamu haiwezi kuunganisha malipo ya mlipaji kwa mpokeaji wake. Itifaki ya TumbleBit inahakikisha kwamba Tumbler haiwezi kuiba bitcoins wala kutoa bitcoins bandia kwa kufanya malipo yenyewe. Hali ya kutokujulikana inayotolewa na TumbleBit inalinganishwa na ile ya mfumo wa Chaum eCash. Hata hivyo, dhana hii haijawahi kupitishwa sana, huku mbinu za faragha kama vile Chaumian CoinJoin zikipendelewa.

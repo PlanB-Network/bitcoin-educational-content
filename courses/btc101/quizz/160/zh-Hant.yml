@@ -1,0 +1,13 @@
+question: 在 51% 攻擊 Bitcoin 網路時會發生什麼情況？
+answer: 代理人擁有一半以上的 Hashrate，並可嘗試修改 Blockchain。
+wrong_answers:
+  - 代理可控制流通中一半以上的 bitcoins。
+  - 一個代理可控制 Bitcoin 網路中一半以上的節點。
+  - 代理商在 Bitcoin 中獲得超過半數 Mining 池的控制權
+explanation: |
+  在 51% 攻擊中，擁有一半以上網路的代理程式 Hashrate
+  網路 Hashrate 有可能透過建立替代區塊鏈來操控
+  Blockchain 建立另一個區塊鏈。
+  然而，這樣的攻擊成本極高，而且不太可能獲利，因此不太可能發生。
+  且不太可能獲利，因此不太可能發生。
+reviewed: true

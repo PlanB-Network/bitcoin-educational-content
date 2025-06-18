@@ -1,0 +1,8 @@
+question: Jaki jest jeden z powodów, dla których Bitcoin doświadcza tak wielu baniek spekulacyjnych?
+answer: Ze względu na ograniczony Supply w połączeniu z wysokim popytem.
+wrong_answers:
+  - Ponieważ Bitcoin nie jest nigdzie używany.
+  - Ponieważ Bitcoin to bańka, która zniknie.
+  - Ponieważ Bitcoin nie podlega cyklom gospodarczym.
+explanation: >-
+reviewed: true

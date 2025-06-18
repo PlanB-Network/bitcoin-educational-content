@@ -1,0 +1,10 @@
+question: Koji je glavni cilj kursa?
+answer: Kurs ima za cilj istražiti osnovne pojmove austrijske ekonomije.
+wrong_answers:
+  - Kurs ima za cilj promovisanje kejnzijanske doktrine.
+  - Kurs ima za cilj da objasni funkcionisanje centralnih banaka.
+  - Kurs ima za cilj promovisanje centralizacije monetarne moći.
+explanation: |
+  Poglavlje pominje da kurs ima za cilj istraživanje
+  osnovnih pojmova austrijske ekonomije.
+reviewed: true

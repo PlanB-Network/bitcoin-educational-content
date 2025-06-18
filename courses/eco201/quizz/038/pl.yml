@@ -1,0 +1,11 @@
+question: Jaka jest rola cen względnych w austriackiej teorii cyklu koniunkturalnego?
+answer: Względne ceny są ważne dla koordynacji podmiotów gospodarczych.
+wrong_answers:
+  - Ceny względne są nieistotne w austriackiej teorii cyklu koniunkturalnego.
+  - Względne ceny są ważne dla określenia poziomu zatrudnienia.
+  - Ceny względne są ważne dla określenia poziomu PKB.
+explanation: |
+  Szkoła austriacka kładzie nacisk na znaczenie cen względnych dla
+  koordynacji podmiotów gospodarczych. Względne ceny odzwierciedlają rzeczywisty niedobór
+  czynników produkcji i pozwalają podmiotom gospodarczym racjonalizować swoje decyzje.
+reviewed: true

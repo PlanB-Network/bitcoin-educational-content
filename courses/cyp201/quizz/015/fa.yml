@@ -1,0 +1,9 @@
+question: برای قفل کردن UTXOها در Bitcoin از چه نوع کلیدی استفاده می‌شود؟
+answer: کلید عمومی
+wrong_answers:
+  - کلید خصوصی
+  - seed Hash
+  - عبارت Mnemonic
+explanation: |
+  UTXOs با یک کلید عمومی یا Hash آن قفل می‌شوند و با کلید خصوصی مربوطه باز می‌شوند.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在 RLN 上，複製儲存庫後，哪個指令會安裝「RGB-lightning-node」二進位檔？
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  cargo install --locked --debug --path . "指令會編譯並安裝「RGB-lightning-node」二進位檔。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在 Bitcoin 的情況下，什麼是 UTXO？
+answer: 與腳本相關的一塊未使用的 bitcoins
+wrong_answers:
+  - 在 Blockchain 上完全確認的交易
+  - 產生 Bitcoin 位址的公開金鑰
+  - 分成多個部分的 Bitcoin 數量
+explanation: |
+  UTXO 或未用完的交易輸出，是未用完的交易輸出，代表持有者可以使用的一定數量的比特幣。
+reviewed: false

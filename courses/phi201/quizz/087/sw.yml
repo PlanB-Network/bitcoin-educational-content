@@ -1,0 +1,9 @@
+question: Kulingana na Constant, ni maeneo gani ambayo mamlaka ya kisiasa hayana ushawishi?
+answer: Vikoa vyote vilivyotajwa hapo juu (dini, sayansi, tasnia).
+wrong_answers:
+  - Dini
+  - Sayansi
+  - Viwanda
+explanation: |
+  Constant anaamini kwamba mamlaka ya kisiasa haipaswi kuingilia kati maeneo kama vile dini, sayansi, na tasnia, ili kuhifadhi uhuru wa mtu binafsi na uhuru wa shughuli za kibinadamu ambazo ziko ndani ya nyanja ya kibinafsi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Która funkcja jest używana do wyprowadzenia seed z wyrażenia Mnemonic?
+answer: PBKDF2 z HMAC-SHA512
+wrong_answers:
+  - Sam SHA256
+  - Podwójny SHA256
+  - AES-256
+explanation: |
+  seed jest generowany przy użyciu funkcji PBKDF2 z HMAC-SHA512 i 2048 iteracjami, z frazy Mnemonic i passphrase.
+reviewed: false

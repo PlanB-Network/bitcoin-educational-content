@@ -1,0 +1,9 @@
+question: Šta znači prefiks `wpkh` u deskriptoru?
+answer: Plati-za-Svedoka-JavniKljuc-Hash
+wrong_answers:
+  - Plati-na-PubKey
+  - Pay-to-Script-Hash
+  - Svedok Skripta Hash
+explanation: |
+  Prefiks `wpkh` označava SegWit v0 skriptu koristeći Pay-to-Witness-Public-Key-Hash adrese.
+reviewed: false

@@ -24,42 +24,31 @@ Wenn Sie Hilfe bei Ihrem Vorhaben benötigen, wurde ein Telegram für die Studie
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Willkommen!
+## Kursübersicht
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Willkommen bei MINING 201: Eine Einführung ins Mining. Ajelex, Jim & Rogzy freuen sich, Sie bei Ihren ersten konkreten Schritten in dieser neuen Industrie zu begleiten. Wir hoffen, dass Ihnen der Kurs gefällt und dass Sie sich dem Abenteuer des Home-Minings anschließen!
+Willkommen zum Kurs MIN201: Eine Einführung ins Mining. Ajelex, Jim & Rogzy freuen sich darauf, Sie bei Ihren ersten Schritten in dieser Branche zu begleiten. Wir hoffen, dass Ihnen der Kurs gefällt und Sie das Abenteuer des Home-Minings beginnen!
 
-### Kursüberblick
+Dieser Kurs führt Sie in die Welt des Bitcoin-Minings ein, indem er Ihnen theoretische und praktische Aspekte vermittelt. Ob Sie Anfänger sind oder bereits mit dem Thema vertraut sind, dieser Kurs wird Ihnen helfen, die wirtschaftlichen und technischen Herausforderungen des Minings zu verstehen und ein praktisches Projekt zur Wiederverwendung eines ASICs für die Heimheizung durchzuführen.
 
-Im ersten Abschnitt dieses Kurses widmen wir uns der Theorie des Minings mit Ajelex. Wir werden ausführlich über viele Themen rund um das Mining diskutieren, was uns ein besseres Verständnis dieser Industrie sowie der damit verbundenen wirtschaftlichen und geopolitischen Herausforderungen ermöglicht.
+**Abschnitt 2: Alles über Mining**  
+In diesem Abschnitt erhalten Sie ein tiefes Verständnis des Bitcoin-Minings. Wir behandeln die technische Funktionsweise des Minings, seine Rolle im Bitcoin-Protokoll sowie seine wirtschaftlichen und geopolitischen Implikationen. Sie werden auch die komplexe Beziehung zwischen dem Bitcoin-Preis und der Hashrate sowie die Herausforderungen im Zusammenhang mit der Souveränität und Regulierung dieser Branche kennenlernen.
 
-Im zweiten Abschnitt werden wir uns einem faszinierenden praktischen Fall zuwenden, indem wir lernen, wie man einen gebrauchten S9-Miner in eine zusätzliche Heizung für zu Hause umwandelt. Dank schriftlicher und Videoanleitungen werden alle notwendigen Schritte sorgfältig erklärt, um sicherzustellen, dass Sie in diesem innovativen Projekt erfolgreich sind.
+**Abschnitt 3: Home-Mining und Wärmeverwertung**  
+Anschließend tauchen wir in die praktische Anwendung mit dem Konzept Attakai ein, das darauf abzielt, Home-Mining zu demokratisieren, indem gebrauchte S9-Miner in Heizgeräte für den Hausgebrauch umgewandelt werden. Sie lernen, wie Sie einen gebrauchten ASIC kaufen und modifizieren, sowie die notwendigen Geräte für die Hardwaremodifikationen vorbereiten.
 
-Diese Lernreise wird Ihnen zeigen, dass die Mining-Industrie komplexer ist, als sie erscheint, und bietet eine ausgewogene Perspektive auf die damit verbundene ökologische Debatte. Kontinuierliche Unterstützung wird über eine dedizierte Telegram-Gruppe für Studierende verfügbar sein, und alle notwendigen Teile werden leicht auf unserer E-Commerce-Plattform zugänglich sein.
+**Abschnitt 4: Attakai - Software-Modifikation eines Antminer S9**  
+Hier lernen Sie, wie Sie Ihren Antminer S9 für den Hausgebrauch konfigurieren. Wir führen Sie durch die Schritte zur Konfiguration einer Wi-Fi/Ethernet-Bridge, zum Zurücksetzen Ihres Geräts, zur Installation von BraiinsOS+ und zur optimalen Konfiguration für das Mining.
 
-### Lehrplan:
+**Abschnitt 5: Attakai - Ventilator-Modifikationen**  
+Um Ihren Antminer S9 für den Einsatz als Zusatzheizung zu optimieren, lernen Sie in diesem Abschnitt, wie Sie die Netzteilventilatoren und die Hauptventilatoren austauschen. Diese Modifikationen sind unerlässlich, um Lärm zu reduzieren und die thermische Effizienz des Geräts zu verbessern.
 
-Theoretischer Abschnitt:
+**Abschnitt 6: Attakai - Einstellungen**  
+Zum Abschluss lernen Sie, wie Sie sich einem Mining-Pool anschließen und die Leistung Ihres Antminer S9 optimieren. Sie werden herausfinden, wie Sie eine optimale Energieeffizienz erreichen und Ihre ersten Satoshis effektiv minen.
 
-- Erklärung des Minings.
-- Die Mining-Industrie.
-- Die Feinheiten der Mining-Industrie.
-- Mining im Bitcoin-Protokoll.
-- Bitcoin-Preis und Hashrate, eine Korrelation?
-- Souveränität und Regulierung
-- Interview mit einem Fachmann aus der Mining-Industrie
+Bereit, die Welt des Bitcoin-Minings zu entdecken und die praktische Herausforderung von Attakai zu meistern? Los geht's!
 
-Praktischer Abschnitt: Attakai
-
-- Einführung in Attakai.
-- Einkaufsführer.
-- Modifikation der Software eines Antminer S9.
-- Austausch der Lüfter zur Reduzierung der Lärmbelästigung
-- Konfiguration eines Pools.
-- Konfigurieren Ihres Antminer S9 mit Braiins OS+.
-
-Bereit, dieses faszinierende Abenteuer zu beginnen? Lassen Sie uns gemeinsam in die faszinierende Welt des Home-Minings eintauchen!
 
 # Alles über das Mining wissen
 
@@ -69,7 +58,7 @@ Bereit, dieses faszinierende Abenteuer zu beginnen? Lassen Sie uns gemeinsam in 
 
 <chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
-![Was ist Bitcoin-Mining?](https://www.youtube.com/watch?v=neEQzEQzmPQ)
+:::video id=1f60c1c6-726e-4ac5-bf1d-9655e7b1ba39:::
 
 ### Mining erklärt: Die Puzzle-Analogie
 
@@ -114,7 +103,7 @@ Zusammenfassend lässt sich sagen, dass sich die Bitcoin-Mining-Industrie weiter
 
 <chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
-![Ist das Bitcoin-Mining zu zentralisiert? Risiken und Lösungen](https://www.youtube.com/watch?v=xkiY8DgkcLQ)
+:::video id=2635c965-8d2a-42e2-83df-517bcea25c86:::
 
 ### Mining-Pools
 
@@ -166,7 +155,7 @@ Die allgemeine Schlussfolgerung ist, dass die Dezentralisierung für die Sicherh
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-![Heizen Sie Ihr Zuhause, indem Sie Bitcoins minen?](https://www.youtube.com/watch?v=SQaK4_8M0kA)
+:::video id=8a16aa8a-1434-4d3a-8435-dabc62d00efa:::
 
 ### Das Prinzip von Attakai
 
@@ -205,7 +194,7 @@ Die Spekulation um die zukünftige Nutzung des Blockraums ist weit verbreitet, d
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Wer hat die Macht? Bitcoin, Energie und Hersteller](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 Die Rolle der Miner im Bitcoin-Netzwerk war ein intensiv diskutiertes Thema während des Blockkriegs. Obwohl sie für die Sicherheit und Funktionalität des Netzwerks unerlässlich sind, halten die Miner nicht notwendigerweise die ultimative Macht im Bitcoin-Ökosystem. Das Gleichgewicht zwischen den Minern, den Knoten und den Endbenutzern gewährleistet die Integrität und Verteilung des Netzwerks.
 
@@ -244,7 +233,7 @@ Zusammenfassend stärken die Miner das Bitcoin-Netzwerk gegen Zensur, indem sie 
 ## Bitcoin-Preis und Hashrate, eine Korrelation?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
-![Wie erhält man einen sauberen und unbenutzten Bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, Preis und Rentabilität
 
@@ -311,7 +300,7 @@ Zusammenfassend lässt sich sagen, dass trotz des regulatorischen Risikos und de
 
 ### Hinter den Kulissen des industriellen Minings - Sebastien Gouspillou
 
-![Hinter den Kulissen des industriellen Minings - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Home-Mining und Wärmerückgewinnung
 

@@ -1,0 +1,9 @@
+question: Je! ni tofauti gani kuu kati ya passphrase na nambari ya siri ya Bitcoin Wallet?
+answer: passphrase hurekebisha msimbo wa ufunguo, si msimbo wa PIN
+wrong_answers:
+  - Msimbo wa PIN umeunganishwa na maneno ya Mnemonic
+  - Msimbo wa PIN hutumiwa kusimba miamala kwa njia fiche lakini si passphrase
+  - Msimbo wa PIN hutoa anwani za Bitcoin
+explanation: |
+  Tofauti na msimbo wa PIN, passphrase inahusika moja kwa moja katika mchakato wa utokaji muhimu na inabadilisha funguo za Wallet.
+reviewed: false

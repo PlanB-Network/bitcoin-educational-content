@@ -1,0 +1,9 @@
+question: Je, ni kazi gani kuu ya seed katika muktadha wa minyororo ya pseudorandom?
+answer: Kutumika kama kianzio cha kutengeneza mnyororo mrefu
+wrong_answers:
+  - Ili kufafanua urefu uliowekwa wa mnyororo wa uwongo
+  - Ili kuthibitisha uadilifu wa msururu wa uwongo
+  - Ili kuongeza usambazaji sawa kwa maadili ya mnyororo
+explanation: |
+  seed ni mfuatano mfupi unaotumiwa kama sehemu ya kuanzia na algoriti ya upanuzi hadi generate mnyororo mrefu wa uwongo.
+reviewed: false

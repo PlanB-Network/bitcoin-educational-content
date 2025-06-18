@@ -1,12 +1,9 @@
-question: Apa perbedaan antara trading, investasi, dan holding dalam konteks Bitcoin?
-answer: Trading melibatkan kontrak jangka pendek dengan risiko tinggi, investasi melibatkan pembelian BTC untuk jangka pendek hingga menengah dengan risiko terbatas, dan holding melibatkan penyimpanan BTC untuk jangka waktu sangat panjang dengan risiko terbatas.
+question: Pada tahun berapa blok Bitcoin Genesis dibuat?
+answer: 2009
 wrong_answers:
-  - Trading melibatkan pembelian BTC untuk jangka panjang, investasi melibatkan kontrak jangka pendek dengan risiko tinggi, dan holding melibatkan penyimpanan BTC untuk jangka pendek hingga menengah dengan risiko terbatas.
-  - Trading melibatkan pembelian BTC untuk jangka pendek hingga menengah, investasi melibatkan kontrak jangka pendek dengan risiko tinggi, dan holding melibatkan penyimpanan BTC untuk jangka waktu sangat panjang dengan risiko tinggi.
-  - Trading melibatkan pembelian BTC untuk jangka pendek hingga menengah, investasi melibatkan kontrak jangka pendek dengan risiko tinggi, dan holding melibatkan penyimpanan BTC untuk jangka waktu sangat panjang dengan risiko terbatas.
+  - 2008
+  - 2010
+  - 2011
 explanation: |
-  Trading, investasi, dan holding adalah tiga strategi berbeda yang digunakan di
-  pasar Bitcoin. Trading melibatkan kontrak jangka pendek dengan risiko tinggi, investasi
-  melibatkan pembelian BTC untuk jangka pendek hingga menengah dengan risiko terbatas, dan holding melibatkan
-  penyimpanan BTC untuk jangka waktu sangat panjang dengan risiko terbatas.
+  Blok Genesis, blok pertama dari Blockchain, ditambang pada bulan Januari 2009.
 reviewed: false

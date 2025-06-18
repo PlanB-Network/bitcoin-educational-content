@@ -1,0 +1,8 @@
+question: 有什麼方法可以親自測試 Lightning Network？
+answer: 透過嘗試稱為 Fountain 的 Podcast 應用程式。
+wrong_answers:
+  - 由 Mining Bitcoin 使用個人電腦。
+  - 從銀行購買 Bitcoin。
+  - 透過創造新的加密貨幣。
+explanation: >-
+reviewed: true

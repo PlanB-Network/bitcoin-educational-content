@@ -1,0 +1,9 @@
+question: 具有二元運算的集合 S 必須滿足什麼基本條件才能成為群組？
+answer: 關閉條件
+wrong_answers:
+  - 換向條件
+  - 對稱條件
+  - 分佈性條件
+explanation: |
+  具有二元運算的集合 S 必須滿足幾個條件才能組成群組，第一個條件是封閉條件：S 的兩個 Elements 之間的運算必須產生 S 的一個元素。
+reviewed: false

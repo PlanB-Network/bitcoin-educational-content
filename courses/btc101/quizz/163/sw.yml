@@ -1,0 +1,8 @@
+question: Je, ni muda gani wa wastani kati ya kuundwa kwa vitalu viwili katika itifaki ya Bitcoin?
+answer: Dakika 10.
+wrong_answers:
+  - Dakika 5.
+  - Dakika 15.
+  - Dakika 20.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kuunda barua pepe mbili tofauti?
+answer: Kutenganisha mawasiliano ya jumla na urejeshaji akaunti.
+wrong_answers:
+  - Kutenganisha mawasiliano ya kitaalam na ya kibinafsi.
+  - Ili kuunda akaunti nyingi na kuongeza mwonekano mtandaoni.
+  - Ili kupokea barua taka zaidi.
+explanation: |
+  Kutenganisha anwani za barua pepe husaidia kupunguza hatari na kulinda vyema ufikiaji wa akaunti muhimu.
+reviewed: false

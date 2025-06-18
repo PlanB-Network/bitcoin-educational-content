@@ -1,9 +1,9 @@
-question: Quel est le principal avantage d'utiliser un VPN?
-answer: Il protège votre vie privée en masquant votre adresse IP.
+question: Pourquoi est-il important de protéger sa phrase mnémonique ?
+answer: Parce que sa perte entraîne la perte définitive des bitcoins
 wrong_answers:
-  - Il accélère votre connexion internet
-  - Il permet un accès gratuit aux services payants
-  - Il protège votre ordinateur contre les virus
+  - Parce que la blockchain est très longue pour la regénérer 
+  - Parce que sa perte entraîne une fuite de données personnelles
+  - Parce que les plateformes d'échange demandent énormément de documents pour la regénérer 
 explanation: |
-  Un VPN, ou Réseau Privé Virtuel, protège votre vie privée en masquant votre adresse IP. Bien qu'il ne vous rende pas complètement anonyme, c'est une étape simple et efficace pour améliorer votre vie privée en ligne.
+  La phrase mnémonique permet de récupérer l'accès aux fonds. En cas de perte, si le portefeuille n'est plus accessible sur son support, les bitcoins sont définitivement perdus.
 reviewed: false

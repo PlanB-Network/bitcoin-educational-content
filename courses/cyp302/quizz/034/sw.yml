@@ -1,0 +1,9 @@
+question: Kamba ya uwongo ni nini?
+answer: Kamba inayoonekana kutoka kwa kigezo kimoja lakini hutolewa na kanuni ya upanuzi
+wrong_answers:
+  - Mfuatano uliotengenezwa kwa uwezekano sawa kwa kila herufi
+  - Mfuatano wa urefu usiobadilika kutoka kwa tukio la asili la nasibu
+  - Mfuatano wa nasibu uliochaguliwa pekee kutoka kwa thamani za binary 0 na 1
+explanation: |
+  Kamba ya pseudorandom inatolewa na algorithm ya upanuzi kutoka kwa seed ndogo, kwa njia ambayo inaiga uteuzi sare kati ya nyuzi zote za urefu sawa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Który algorytm podpisu cyfrowego został użyty podczas uruchomienia Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin początkowo korzystał z ECDSA, protokołu podpisu opartego na krzywych eliptycznych, przed wprowadzeniem podpisów Schnorra w 2021 roku.
+reviewed: false

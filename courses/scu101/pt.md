@@ -26,11 +26,11 @@ Théo; Contribuição
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Introdução ao curso
+## Visão geral do curso
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Objetivo: atualização!
+**Objetivo: atualização!**
 
 Bem-vindos a todos a este programa de ensino dedicado à segurança digital. Este treinamento foi projetado para ser acessível a todos, portanto, nenhum conhecimento prévio em informática é necessário. Nosso objetivo principal é fornecer a você o conhecimento e as habilidades necessárias para navegar de forma mais segura e privada no mundo digital.
 
@@ -40,13 +40,13 @@ Este treinamento é um esforço conjunto de três de nossos professores:
 
 - Renaud Lifchitz, especialista em cibersegurança
 - Théo Pantamis, doutor em matemática aplicada
-- Rogzy, CEO da DécouvreBitcoin
+- Rogzy, Co-fundador da Plan ₿ Network
 
 Sua higiene digital é crucial em um mundo cada vez mais digital. Apesar do aumento constante no número de ataques cibernéticos e vigilância em massa, ainda não é tarde demais para dar o primeiro passo e se proteger.
 'Dans esta formação, não estamos buscando torná-lo um especialista, anônimo ou inatacável, isso é impossível. Em vez disso, oferecemos algumas soluções simples e acessíveis a todos para começar a transformar seus hábitos online e retomar o controle de sua soberania digital.
 Se você estiver procurando por habilidades mais avançadas sobre o assunto, nossos recursos, tutoriais ou outros cursos sobre cibersegurança estão disponíveis para você. Enquanto isso, aqui está uma breve visão geral do nosso programa nas próximas horas juntos.
 
-### Seção 1: Tudo sobre navegação online
+**Seção 1: Tudo sobre navegação online**
 
 - Capítulo 1 - Navegação online
 - Capítulo 2 - Usar a internet com segurança
@@ -54,7 +54,7 @@ Se você estiver procurando por habilidades mais avançadas sobre o assunto, nos
 Para começar, discutiremos a importância da escolha de um navegador da web e suas implicações em termos de segurança. Em seguida, exploraremos as especificidades dos navegadores, especialmente no que diz respeito à gestão de cookies. Também veremos como garantir uma navegação mais segura e anônima, usando ferramentas como o TOR. Em seguida, daremos ênfase ao uso de VPNs para fortalecer a proteção de seus dados. Por fim, terminaremos com recomendações sobre o uso seguro de conexões WiFi.
 ![](assets/pt/1.webp)
 
-### Seção 2: Boas práticas de uso do computador
+**Seção 2: Boas práticas de uso do computador**
 
 - Capítulo 3 - Uso do computador
 - Capítulo 4 - Hack e gerenciamento de backup
@@ -62,7 +62,7 @@ Para começar, discutiremos a importância da escolha de um navegador da web e s
 Nesta seção, abordaremos três áreas-chave da segurança da informática. Primeiro, exploraremos os diferentes sistemas operacionais: Mac, PC e Linux, destacando suas especificidades e pontos fortes. Em seguida, abordaremos métodos para se proteger efetivamente contra tentativas de hacking e fortalecer a segurança de seus dispositivos. Por fim, daremos ênfase à importância de proteger e fazer backup regularmente de seus dados para evitar perdas ou ransomware.
 ![](assets/pt/2.webp)
 
-### Seção 3: Implementação das soluções.
+**Seção 3: Implementação das soluções.**
 
 - Capítulo 6 - Gerenciamento de e-mails
 - Capítulo 7 - Gerenciador de senhas
@@ -73,6 +73,7 @@ Nesta terceira seção prática, vamos colocar em prática suas soluções concr
 Primeiro, veremos como proteger sua caixa de e-mails, essencial para suas comunicações e frequentemente alvo de hackers. Em seguida, apresentaremos o que é um gerenciador de senhas: uma solução prática para não esquecer ou misturar suas senhas, mantendo-as seguras. Por fim, abordaremos uma medida de segurança adicional, a autenticação de dois fatores, que adiciona uma camada de proteção às suas contas. Tudo será explicado de forma clara e acessível.
 ![](assets/pt/3.webp)
 
+Pronto para fortalecer sua segurança digital e retomar o controle de seus dados? Vamos lá!
 # Tudo sobre navegação online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -410,18 +411,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Configuração de Backup
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Proteger seus arquivos pessoais também é um ponto essencial. Este tutorial mostra como implementar uma estratégia de backup eficaz usando o Proton Drive. Descubra como usar esta solução de nuvem segura para aplicar o método 3-2-1: três cópias dos seus dados em dois suportes diferentes, sendo uma cópia fora do local. Assim, você garante a acessibilidade e a segurança dos seus arquivos sensíveis:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-E para proteger seus arquivos armazenados em mídias removíveis como um pendrive USB ou um disco rígido externo, também mostro como criptografar e descriptografar essas mídias facilmente usando o VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Mudança de navegador & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -437,6 +426,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Além disso, descubra como usar o Tor Browser, um navegador especificamente projetado para proteger sua privacidade online:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Configuração de Backup
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Proteger seus arquivos pessoais também é um ponto essencial. Este tutorial mostra como implementar uma estratégia de backup eficaz usando o Proton Drive. Descubra como usar esta solução de nuvem segura para aplicar o método 3-2-1: três cópias dos seus dados em dois suportes diferentes, sendo uma cópia fora do local. Assim, você garante a acessibilidade e a segurança dos seus arquivos sensíveis:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+E para proteger seus arquivos armazenados em mídias removíveis como um pendrive USB ou um disco rígido externo, também mostro como criptografar e descriptografar essas mídias facilmente usando o VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Vá além
 
@@ -483,7 +484,7 @@ Dominando essas habilidades e ferramentas, você estará bem equipado para naveg
 
 ### Gestão eficaz de senhas e fortalecimento da autenticação: uma abordagem acadêmica
 
-No módulo de treinamento "Segurança 101" oferecido pela Descubra Bitcoin na Academia, discutimos a importância dos gerenciadores de senhas. Três dimensões são essenciais a serem consideradas: criação, atualização e implementação de senhas em sites.
+Existem três dimensões-chave a considerar ao falar sobre gerenciadores de senhas: criação, atualização e implementação de senhas em sites.
 
 Geralmente, não é recomendado usar extensões de navegador para preenchimento automático de senhas. Essas ferramentas podem tornar o usuário mais vulnerável a ataques de phishing. Renaud, um especialista reconhecido em cibersegurança, prefere uma gestão manual usando o KeePass, o que envolve copiar e colar manualmente a senha. As extensões tendem a aumentar a superfície de ataque, podem diminuir o desempenho do navegador e, portanto, apresentam um risco significativo. Assim, o uso mínimo de extensões no navegador é uma prática recomendada.
 
@@ -504,11 +505,11 @@ A autenticação direta no serviço em questão é uma opção interessante para
 A segurança da informação pode ser comprometida por práticas simples e pelo uso de senhas padrão, como "admin". Ataques sofisticados nem sempre são necessários para colocar em risco a segurança da informação. Por exemplo, as senhas de administrador de um canal do YouTube estavam escritas no código-fonte privado de uma empresa. As vulnerabilidades de segurança são frequentemente resultado da negligência humana.
 
 Também é importante observar que a Internet é altamente centralizada e amplamente controlada pelos Estados Unidos. O servidor DNS pode estar sujeito à censura e frequentemente usa DNS falsos para bloquear o acesso a determinados sites. O DNS é um protocolo antigo e insuficientemente seguro, o que pode levar a problemas de segurança. Novos protocolos, como o DNSsec, surgiram, mas ainda são pouco utilizados. Para contornar a censura e o bloqueio de anúncios, é possível escolher provedores DNS alternativos.
-Des alternativas aos anúncios intrusivos incluem o Google DNS, OpenDNS e outros serviços independentes. O protocolo DNS padrão deixa as solicitações DNS visíveis para o provedor de serviços de Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) permitem criptografar a conexão DNS, oferecendo maior privacidade e segurança. Esses protocolos são amplamente utilizados em empresas devido à sua segurança reforçada e são nativamente suportados pelo Windows, Android e iPhone. Para usar DOH e DOT, um nome de host TLS deve ser inserido em vez de um endereço IP. Provedores gratuitos de DOH e DOT estão disponíveis online. DOH e DOT melhoram a privacidade e a segurança, evitando ataques do tipo "man in the middle". Outras considerações importantes
+Des alternativas aos anúncios intrusivos incluem o Google DNS, OpenDNS e outros serviços independentes. O protocolo DNS padrão deixa as solicitações DNS visíveis para o provedor de serviços de Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) permitem criptografar a conexão DNS, oferecendo maior privacidade e segurança. Esses protocolos são amplamente utilizados em empresas devido à sua segurança reforçada e são nativamente suportados pelo Windows, Android e iPhone. Para usar DOH e DOT, um nome de host TLS deve ser inserido em vez de um endereço IP. Provedores gratuitos de DOH e DOT estão disponíveis online. DOH e DOT melhoram a privacidade e a segurança, evitando ataques do tipo "man in the middle".
 
-No módulo de treinamento "Segurança 101" do Descubra Bitcoin na Academia, também discutimos a autenticação do Lightning. Esse sistema gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais. É possível ter identidades descentralizadas controladas pelo usuário, mas falta padronização e normalização nos projetos de identidade descentralizada. Gerenciadores de pacotes como Nuget e Chocolaté, que permitem baixar software de código aberto fora da Microsoft Store, são recomendados para evitar ataques maliciosos. Em resumo, o DNS é crucial para a segurança online, mas é necessário permanecer vigilante contra possíveis ataques aos servidores DNS.
+Também vale a pena mencionar o sistema chamado "Lightning authentication". Esse sistema gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais. É possível ter identidades descentralizadas controladas pelo usuário, mas falta padronização e normalização nos projetos de identidade descentralizada. Gerenciadores de pacotes como Nuget e Chocolaté, que permitem baixar software de código aberto fora da Microsoft Store, são recomendados para evitar ataques maliciosos. Em resumo, o DNS é crucial para a segurança online, mas é necessário permanecer vigilante contra possíveis ataques aos servidores DNS.
 
-# Conclusão
+# Seção final
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

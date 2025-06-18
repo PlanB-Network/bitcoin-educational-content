@@ -1,0 +1,10 @@
+question: CoinJoin 交易的主要目標是什麼？
+answer: 打破硬幣的歷史。
+wrong_answers:
+  - 減少交易費用。
+  - 讓比特幣不易被察覺。
+  - 要提高確認速度。
+explanation: |
+  CoinJoin 交易的目的是打破比特幣的歷史。這種技術不會提供永久的匿名性，也不會完全阻止比特幣的追蹤，這與人們可能的想法剛好相反。CoinJoin 的目的只是在進行 CoinJoin 交易時打破歷史記錄。
+  
+reviewed: false

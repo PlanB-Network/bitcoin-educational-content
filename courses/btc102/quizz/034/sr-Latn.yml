@@ -1,0 +1,11 @@
+question: Koji je limit bitkoina koji će ikada postojati?
+answer: 21 miliona
+wrong_answers:
+  - 100 miliona
+  - 1 milijarda
+  - Bez ograničenja
+explanation: |
+  Poglavlje navodi da nikada neće biti više od 21 milion bitkoina.
+  Ovo ograničenje je uspostavljeno u Bitcoin protokolu od strane Satoshi i ne može se promeniti
+  danas.
+reviewed: false

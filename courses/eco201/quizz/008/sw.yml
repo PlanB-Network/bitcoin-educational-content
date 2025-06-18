@@ -1,0 +1,15 @@
+question: Athari ya Cantillon ni nini?
+answer: Athari ya Cantillon inarejelea kanuni ya kiuchumi kwamba pesa mpya zinapoundwa, hapo awali huwanufaisha walio karibu zaidi na chanzo cha pesa, kwa gharama ya walio mbali zaidi.
+wrong_answers:
+  - Athari ya Cantillon inarejelea kanuni ya kiuchumi kwamba pesa mpya zinapoundwa, zinafaidi kwa usawa kila mtu katika uchumi.
+  - Athari ya Cantillon inarejelea kanuni ya kiuchumi kwamba pesa mpya zinapoundwa, hapo awali huwanufaisha walio mbali zaidi na chanzo cha pesa, kwa gharama ya walio karibu zaidi.
+  - Athari ya Cantillon inarejelea kanuni ya kiuchumi kwamba pesa mpya zinapoundwa, hazina athari katika mgawanyo wa mali katika uchumi.
+explanation: |
+  Athari ya Cantillon, iliyopewa jina la mwanauchumi wa karne ya 18
+  Richard Cantillon, anaelezea jinsi usambazaji wa mpya
+  pesa katika uchumi inaweza kusababisha tofauti za mali. Wale
+  karibu na chanzo cha pesa mpya (kama vile mabenki na
+  wamiliki wa mali) wananufaika kwanza na zaidi, wakati
+  walio mbali zaidi (kama vile wafanyikazi wa kawaida na waokoaji) ona
+  manufaa kidogo au hata madhara hasi kutokana na mfumuko wa bei.
+reviewed: true

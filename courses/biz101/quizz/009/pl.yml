@@ -1,0 +1,9 @@
+question: Jaki jest główny cel Lightning Network zbudowanego na Bitcoin?
+answer: Aby umożliwić szybsze, niemal natychmiastowe płatności przy minimalnej interakcji On-Chain.
+wrong_answers:
+  - Całkowite zastąpienie Bitcoin przez Blockchain i przechowywanie wszystkich transakcji lokalnie.
+  - Zapewnienie sieci kontrolowanej przez pojedynczy podmiot.
+  - Spowolnienie transakcji w celu zapewnienia ich pełnej identyfikowalności przez rządy.
+explanation: |
+  Lightning Network to protokół "drugiego Layer", który umożliwia uczestnikom tworzenie kanałów płatności, dokonywanie transakcji off-chain i rozliczanie końcowego salda netto tylko na Bitcoin Blockchain. Taka konstrukcja zapewnia większą szybkość i niższe koszty.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Mikä on yleinen piirre huijauksissa kryptovaluutta-alalla?
-answer: Epärealististen tuottojen lupaaminen.
+question: Mikä on Ponzi-huijauksen päämekanismi?
+answer: Varhaissijoittajille maksetaan uusien sijoittajien rahoilla
 wrong_answers:
-  - Fyysisten tuotteiden lupaaminen.
-  - Ohjelmistotuotteiden lupaaminen.
-  - Perinteisen valuutan lupaaminen.
+  - Tuotot tulevat todellisesta tuotteesta markkinoilla
+  - Sijoittajat saavat osinkoja yrityksiltä
+  - Voitot syntyvät Blockchain:n älykkäiden sopimusten avulla
 explanation: |
-  Huijaukset kryptovaluutta-alalla lupaavat usein epärealistisia tuottoja.
-  On ratkaisevan tärkeää olla sokeasti luottamatta, erityisesti internetin mainosbannerien kohdalla.
+  Ponzi-huijauksessa ei luoda mitään todellista tuotetta, ja maksut riippuvat yksinomaan uusien osallistujien saapumisesta.
 reviewed: false

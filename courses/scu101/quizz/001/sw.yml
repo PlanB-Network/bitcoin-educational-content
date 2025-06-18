@@ -1,0 +1,13 @@
+question: Kwa nini inashauriwa kupunguza idadi ya viendelezi vilivyosakinishwa kwenye kivinjari chako?
+answer: Ili kuepuka masuala ya usalama na utendaji yanayoweza kutokea.
+wrong_answers:
+  - Ili kuhifadhi nafasi kwenye kifaa chako.
+  - Ili kuzuia kivinjari kuharibika.
+  - Ili kuepuka kufuatiliwa na tovuti za watu wengine.
+explanation: |
+  Ingawa viendelezi vya kivinjari vinaweza kutoa manufaa
+  utendakazi, wanaweza pia kuleta hatari za usalama kama wao
+  inaweza kufikia data yako na shughuli za kuvinjari. Aidha,
+  kuwa na viendelezi vingi kunaweza kupunguza kasi ya kivinjari chako na
+  kuathiri utendaji wake.
+reviewed: true

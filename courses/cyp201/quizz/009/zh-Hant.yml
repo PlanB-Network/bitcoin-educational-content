@@ -1,0 +1,9 @@
+question: SHA256 用來處理任意長度訊息的結構是什麼？
+answer: Merkle-Damgård 建築
+wrong_answers:
+  - 歐氏結構
+  - Rivest-Shamir-Adleman 結構
+  - Knuth-Morris-Pratt 結構
+explanation: |
+  Merkle-Damgård 結構可將壓縮函數轉換成 Hash 函數，用於變長訊息。
+reviewed: false

@@ -1,0 +1,13 @@
+question: Jaka jest zasada Attakai w kontekście Bitcoin Mining?
+answer: Zasada Attakai odnosi się do produktywnego wykorzystania ciepła generowanego z Bitcoin Mining.
+wrong_answers:
+  - Zasada Attakai odnosi się do wykorzystania odnawialnych źródeł energii dla Bitcoin Mining.
+  - Zasada Attakai odnosi się do wykorzystania zaawansowanych systemów chłodzenia w Bitcoin Mining.
+  - Zasada Attakai odnosi się do wykorzystania sprzętu o niskim zużyciu energii w Bitcoin Mining.
+explanation: |
+  Zasada Attakai odnosi się do idei
+  decentralizacji Mining poprzez produktywne wykorzystanie
+  generowanego ciepła. Koncepcja ta sugeruje, że energochłonne
+  zakłady mogą korzystać z ciepła wytwarzanego przez
+  górników do ogrzewania swoich obiektów.
+reviewed: true

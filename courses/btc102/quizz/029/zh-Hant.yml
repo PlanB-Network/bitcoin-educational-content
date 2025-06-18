@@ -1,0 +1,9 @@
+question: 哪個主要廠商為 Bitcoin Mining 設計 ASIC？
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - 代工美國
+explanation: |
+  Bitmain 是 Bitcoin Mining 專用硬體的領先製造商之一。
+reviewed: false

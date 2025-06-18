@@ -1,0 +1,9 @@
+question: 建議使用何種媒體來安全備份您的 Mnemonic 詞組？
+answer: 金屬備份與密封不透明信封
+wrong_answers:
+  - 加密的 USB 磁碟機儲存
+  - 紙質備份，附透明套管
+  - 在安全雲端備份
+explanation: |
+  抗災金屬備份可提供長效保護，防止損壞和未經授權的存取。密封的不透明信封可讓您確認是否有人存取過 Mnemonic 短語。
+reviewed: false

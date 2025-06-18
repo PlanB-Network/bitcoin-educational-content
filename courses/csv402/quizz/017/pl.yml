@@ -1,0 +1,9 @@
+question: Jaka struktura gwarantuje czasową spójność przejść w RGB?
+answer: A DAG (Directed Acyclic Graph)
+wrong_answers:
+  - Prosty łańcuch liniowy
+  - Dynamiczna sieć peer-to-peer
+  - Drzewo binarne dla UTXO
+explanation: |
+  DAG umożliwia ustrukturyzowanie przejść stanów, jednocześnie umożliwiając równoległe ewolucje bez niespójności.
+reviewed: false

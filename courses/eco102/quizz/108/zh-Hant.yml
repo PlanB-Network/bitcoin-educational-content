@@ -1,0 +1,9 @@
+question: Bastiat 批判了什麼經濟幻象，而這種幻象在 20 世紀再度出現？
+answer: 國家可以創造就業機會
+wrong_answers:
+  - 市場需要國家
+  - 市場可以自我調節
+  - 公司可以在不受監管的情況下創造財富
+explanation: |
+  Bastiat 批評國家可以在不傷害其他工作的情況下創造工作機會的想法，因為這些創造所需的稅收會造成影響。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Co jest wyjątkowego w remiksach w Whirlpool w porównaniu do innych implementacji CoinJoin?
+answer: Są one całkowicie bezpłatne.
+wrong_answers:
+  - Wymagają one jedynie uiszczenia opłat Mining.
+  - Są one ograniczone do jednego na użytkownika.
+  - Wymagają one jedynie uiszczenia opłat za usługę.
+explanation: |
+  Remiksy Whirlpool są w 100% darmowe: nie są wymagane żadne dodatkowe opłaty za usługę ani opłaty Mining.
+  
+reviewed: false

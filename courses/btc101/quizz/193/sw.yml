@@ -1,0 +1,8 @@
+question: Ni ipi mojawapo ya mipango inayochangia kufanya uchumi wa Bitcoin kufikiwa zaidi na kufaa kila mtu?
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTLottery.
+explanation: >-
+reviewed: true

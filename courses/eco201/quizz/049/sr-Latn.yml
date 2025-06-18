@@ -1,0 +1,11 @@
+question: Koja je uloga cena u austrijskoj školi ekonomije?
+answer: Cene igraju ključnu ulogu u racionalnoj organizaciji pojedinaca sa delimičnim informacijama.
+wrong_answers:
+  - Cene su irelevantne u austrijskoj školi ekonomije.
+  - Cene određuje vlada u austrijskoj školi ekonomije.
+  - Cene su fiksne i ne menjaju se u austrijskoj školi ekonomije.
+explanation: |
+  U austrijskoj školi ekonomije, cene igraju ključnu ulogu u
+  racionalnoj organizaciji pojedinaca sa delimičnim informacijama. One pomažu u balansiranju
+  Supply i potražnje za kapitalom na tržištu, čime se podstiče ekonomija.
+reviewed: true

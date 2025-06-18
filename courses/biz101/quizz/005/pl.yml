@@ -1,0 +1,9 @@
+question: Jaka jest jedna cecha charakterystyczna Bitcoin jako sieci walutowej?
+answer: Jest jak gotówka i nie wymaga centralnego organu ani pośrednika w transakcjach.
+wrong_answers:
+  - Może działać tylko wtedy, gdy jest autoryzowany przez agencję rządową.
+  - Wydaje nowe jednostki waluty na każde żądanie użytkownika.
+  - Potrzebuje banków do weryfikacji i rozliczenia każdej transakcji.
+explanation: |
+  Bitcoin działa jako sieć zdecentralizowana, umożliwiając każdemu uczestnictwo bez pozwolenia. Transakcje są zatwierdzane przez węzły i górników, a nie przez centralny organ.
+reviewed: false

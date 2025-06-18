@@ -1,0 +1,9 @@
+question: 擴張性貨幣政策對法定貨幣有何影響？
+answer: 它們會稀釋儲蓄的價值
+wrong_answers:
+  - 增加購買力
+  - 穩定利率
+  - 保證經濟成長
+explanation: |
+  大量印鈔會導致購買力貶值，逐漸侵蝕儲蓄者的購買力。
+reviewed: false

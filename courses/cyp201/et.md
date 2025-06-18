@@ -86,7 +86,7 @@ Need krüptograafilised hash-funktsioonid omavad mitmeid olulisi omadusi, mis mu
 
 #### 1. Pöördumatuse (eelkujutise vastupanu):
 
-Pöördumatuse all mõeldakse, et hashi on lihtne arvutada sisendinformatsioonist, kuid vastupidine arvutus, st sisendi leidmine hashi põhjal, on praktiliselt võimatu. See omadus muudab hash-funktsioonid ideaalseks unikaalsete digitaalsete sõrmejälgede loomiseks ilma algse informatsiooni ohustamata. Seda omadust nimetatakse sageli ühesuunaliseks funktsiooniks või "_lõksuukse funktsiooniks_".
+Pöördumatus tähendab, et on lihtne arvutada räsi sisendandmetest, kuid vastupidine arvutus, st sisendi leidmine räsi põhjal, on praktiliselt võimatu. See omadus teeb räsi funktsioonid ideaalseks unikaalsete digitaalsõrmejälgede loomiseks ilma algset teavet ohustamata.
 
 Antud näites on hashi `24f1b9…` saamine teades sisendit "_PlanB_" lihtne ja kiire. Kuid sõnumi "_PlanB_" leidmine teades ainult `24f1b9…` on võimatu.
 
@@ -2254,7 +2254,7 @@ Seejärel jätkub aadressi genereerimine sama protsessiga, kasutades toorandmete
 
 Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku olevat, oleksin väga tänulik, kui võtaksite hetke, et anda sellele järgnevas hinnangupeatükis hea hinnang. Julgustan teid jagama seda ka oma lähedastega või sotsiaalvõrgustikes. Lõpuks, kui soovite saada selle kursuse diplomit, saate lõpueksamit teha kohe pärast hinnangupeatükki.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

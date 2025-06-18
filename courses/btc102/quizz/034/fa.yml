@@ -1,0 +1,9 @@
+question: کدام پروتکل second-Layer پرداخت‌های تقریباً فوری را امکان‌پذیر می‌کند؟
+answer: Lightning Network
+wrong_answers:
+  - زنجیره‌های جانبی
+  - RGB
+  - Bitcoin Core
+explanation: |
+  Lightning Network تراکنش‌های سریع و کم‌هزینه را از طریق عملیات off-chain خارج از Bitcoin Blockchain امکان‌پذیر می‌سازد.
+reviewed: false

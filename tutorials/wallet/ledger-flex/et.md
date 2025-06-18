@@ -162,6 +162,11 @@ Fraasiparooli ei tohiks segi ajada PIN-koodiga. See mängib rolli teie krüptogr
 Fraasiparool on väga võimas vahend oma bitcoinide turvalisuse suurendamiseks. Siiski on väga oluline mõista, kuidas see töötab enne selle rakendamist, et vältida juurdepääsu kaotamist oma rahakotile. Ma selgitan, kuidas fraasiparooli kasutada teises pühendatud õpetuses.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+Paroolifraas on väga võimas tööriist teie bitcoinide turvalisuse suurendamiseks. Siiski on ülioluline enne selle kasutuselevõttu mõista, kuidas see töötab, et vältida rahakoti ligipääsu kaotust. Sellepärast selgitan kõike eraldi juhendis:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Lõpuks võimaldab viimane seadete leht teie Ledgeri lähtestada. Jätkake selle lähtestamisega ainult siis, kui olete kindel, et see ei sisalda ühtegi teie bitcoinide turvamiseks vajalikku võtit, kuna võite alaliselt kaotada juurdepääsu oma vahenditele.
 ![LEDGER FLEX](assets/notext/30.webp)
 

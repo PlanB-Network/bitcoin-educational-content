@@ -1,0 +1,9 @@
+question: W jaki sposób usługa online weryfikuje hasło bez przechowywania go bezpośrednio?
+answer: Porównując Hash wprowadzonego hasła z tym w bazie danych
+wrong_answers:
+  - Odszyfrowując zapisane hasło w celu jego weryfikacji
+  - Używając klucza publicznego do weryfikacji tożsamości
+  - Porównując hasło bezpośrednio z hasłami innych użytkowników
+explanation: |
+  Usługa generuje Hash wprowadzonego hasła i porównuje je z przechowywanym, bez bezpośredniego przechowywania hasła, zapewniając w ten sposób większe bezpieczeństwo.
+reviewed: false

@@ -50,7 +50,7 @@ class GlossaryManager:
         working_text = text
         local_replacements = {}
         
-        # Sort glossary terms by length (longest first) to handle nested terms
+        
         sorted_terms = sorted(self.glossary_terms, key=len, reverse=True)
         
         for term in sorted_terms:
@@ -211,13 +211,13 @@ class GoogleTranslator(BaseTranslator):
         if not credentials_path:
             raise ValueError("GOOGLE_APPLICATION_CREDENTIALS not found in environment variables")
         
-        # Load credentials explicitly
+        
         credentials = service_account.Credentials.from_service_account_file(
             credentials_path,
             scopes=['https://www.googleapis.com/auth/cloud-platform']
         )
         
-        # Initialize the client with credentials
+        
         self.client = translate.TranslationServiceClient(credentials=credentials)
         self.location = "global"
         self.parent = f"projects/{self.project_id}/locations/{self.location}"
@@ -274,12 +274,12 @@ class FileTranslator:
         if not lang:
             raise ValueError(f"Unsupported target language: {config.target_lang}")
         
-        # Create base translator based on type
+        
         translator_type = lang['translator']
         custom_prompt = lang.get('custom_prompt')
         base_translator = self._create_base_translator(translator_type, custom_prompt)
         
-        # Wrap the base translator with the translation processor
+        
         self.translator = TranslationProcessor(base_translator)
 
     def _create_base_translator(self, translator_type: str, custom_prompt: Optional[str] = None) -> BaseTranslator:
@@ -312,32 +312,49 @@ class FileTranslator:
         """Translate an object based on its type and translation flag"""
         if not obj.get('translate', True):
             return obj.copy()
-            
+
         new_obj = obj.copy()
         obj_type = obj.get('type')
-        
+
         if obj_type == 'yml_property':
             if obj.get('is_list', False):
+                
+                original_content = obj.get('content', [])
+                if original_content is None: original_content = [] 
                 new_obj['content'] = [
                     self.translator.process_text(str(item))
-                    for item in obj['content']
+                    for item in original_content
                 ]
+            
             elif obj.get('is_multiline', False):
-                new_obj['content'] = [
-                    self.translator.process_text(str(line))
-                    for line in obj['content']
-                ]
-            else:
+                
+                multiline_content_string = obj.get('content')
+                if multiline_content_string is not None:
+                    
+                    translated_multiline_string = self.translator.process_text(str(multiline_content_string))
+                    
+                    new_obj['content'] = translated_multiline_string
+                else:
+                    
+                    new_obj['content'] = None
+            
+            else: 
                 content = obj.get('content')
                 if content is not None:
                     new_obj['content'] = self.translator.process_text(str(content))
-                    
-        elif obj_type in ['list', 'paragraph', 'markdown_header', 'quote']:
-            content = obj.get('content')
-            if content:
-                new_obj['content'] = self.translator.process_text(str(content))
                 
+
+        elif obj_type in ['list', 'paragraph', 'markdown_header', 'quote']: 
+            content = obj.get('content')
+            if content: 
+                new_obj['content'] = self.translator.process_text(str(content))
+            
+
+        
+        
+
         return new_obj
+
 
     def translate_file(self, input_path: Union[str, Path], output_path: Union[str, Path]) -> None:
         try:

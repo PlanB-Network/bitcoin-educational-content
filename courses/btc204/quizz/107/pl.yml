@@ -1,0 +1,10 @@
+question: W jaki sposób transakcja PayJoin może zostać uznana za transakcję steganograficzną?
+answer: Ukrywa rzeczywistą kwotę płatności przed zewnętrznymi obserwatorami.
+wrong_answers:
+  - Szyfruje rzeczywistą kwotę płatności dla zewnętrznych obserwatorów.
+  - Ukrywa rzeczywistą kwotę płatności przed odbiorcą.
+  - Szyfruje rzeczywistą kwotę płatności dla odbiorcy.
+explanation: |
+  Transakcja PayJoin wchodzi w zakres steganografii, ponieważ ukrywa prawdziwą kwotę transakcji w fałszywej transakcji, która działa jako wabik dla zewnętrznych obserwatorów.
+  
+reviewed: false

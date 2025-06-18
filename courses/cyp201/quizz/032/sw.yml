@@ -1,0 +1,9 @@
+question: Ni bendera gani ya sighash inaruhusu ufadhili wa watu wengi kwa kufunika ingizo moja na matokeo yote?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGASH_ALL
+explanation: |
+  SIGHASH_ALL pamoja na SIGHASH_ANYONECANPAY inaruhusu kuongeza pembejeo bila kurekebisha matokeo.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Šta je Cypherpunk Manifest?
+answer: Tekst koji je napisao Erik Hjuz tvrdeći da je privatnost osnovno pravo.
+wrong_answers:
+  - Knjiga koju je napisao Julian Assange o budućnosti tehnologije.
+  - Dokument koji opisuje principe Bitcoin.
+  - Manifest Davida Chauma o važnosti digitalne valute.
+explanation: |
+  Cypherpunk Manifest je napisao Erik Hjuz 1993. godine
+  i tvrdi da je privatnost osnovno pravo.
+reviewed: true

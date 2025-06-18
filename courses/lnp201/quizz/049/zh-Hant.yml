@@ -1,0 +1,9 @@
+question: Lightning Invoice 的主要功能是什麼？
+answer: 要求發送節點付款
+wrong_answers:
+  - 在沒有 On-Chain 交易的情況下發送資金
+  - 在通道上啟動 HTLC
+  - 開啟新的 Lightning 通道
+explanation: |
+  閃電 Invoice 是付款請求，由接收節點傳送至發送節點，以啟動 Lightning Network 上的付款。
+reviewed: false

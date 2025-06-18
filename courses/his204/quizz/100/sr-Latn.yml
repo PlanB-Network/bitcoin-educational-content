@@ -1,0 +1,8 @@
+question: Koja banka je krajnja posledica izbora napravljenih 1789. godine, protiv kojih je Dupont de Nemours govorio?
+answer: Banque de France
+wrong_answers:
+  - Štedionica
+  - Crédit Agricole
+  - Evropska centralna banka
+explanation: |
+  Banque de France je posledica izbora napravljenih 1789. godine, koje je Dupont de Nemours kritikovao zbog vođenja ka prekomernoj centralizaciji finansijske moći i prekomernoj državnoj intervenciji u ekonomiji.

@@ -1,0 +1,9 @@
+question: Je, ni matokeo gani ya kupoteza Stash katika itifaki ya RGB?
+answer: Historia ya Contract na data husika haiwezi kurejeshwa
+wrong_answers:
+  - Data inaweza kujengwa upya kutoka kwa Blockchain ikiwa unayo seed
+  - Nakala ya data inapatikana kwenye seva za RGB nchini Uswizi
+  - Data inanakiliwa kiotomatiki kwa washiriki wote
+explanation: |
+  Katika Client-side Validation, kila mtumiaji anajibika kwa Stash yake, ambayo haijaigwa mahali pengine, na kufanya hasara yake kuwa ya uhakika.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je primarna uloga PBKDF2 u Bitcoin?
+answer: generate the seed of an HD Wallet
+wrong_answers:
+  - Autentifikuj transakcije
+  - Šifrujte privatne ključeve
+  - Kreiraj Bitcoin adrese
+explanation: |
+  PBKDF2 se koristi za izvođenje seed iz Mnemonic fraze i opcionalnog passphrase.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Starter profile 接受 Bitcoin 付款的主要硬體需求是什麼？
+answer: 智慧型手機
+wrong_answers:
+  - A Bitcoin Miner ASIC
+  - An Hardware Wallet
+  - 自行託管的伺服器
+explanation: |
+  Starter profile 只需要配備 Lightning Wallet 的智慧型手機或平板電腦，是輕巧的解決方案。
+reviewed: false

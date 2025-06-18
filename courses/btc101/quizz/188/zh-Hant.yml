@@ -1,0 +1,8 @@
+question: 什麼是 BTCMap？
+answer: 一個列出所有接受 Bitcoin 的商家的平台。
+wrong_answers:
+  - 全球所有 Bitcoin 礦山的地圖。
+  - 全球所有 Bitcoin 交易所的地圖。
+  - 全球所有 Bitcoin 使用者的地圖。
+explanation: >-
+reviewed: true

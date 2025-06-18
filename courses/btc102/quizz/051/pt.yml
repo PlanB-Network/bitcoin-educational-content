@@ -1,9 +1,9 @@
-question: Qual é a função da Lightning Network no ecossistema do Bitcoin?
-answer: Ela permite que o Bitcoin se expanda e obtenha mais recursos ao atuar como uma segunda camada.
+question: Que método lhe permite compensar os bitcoins gastos, preservando as suas poupanças?
+answer: Gastar e substituir
 wrong_answers:
-  - É uma criptomoeda separada que compete com o Bitcoin.
-  - É uma ferramenta para minerar Bitcoin.
-  - É uma plataforma para negociar Bitcoin.
+  - HODLing e Substituir
+  - Gastos e HODLing
+  - Negociação e despesas
 explanation: |
-  A Lightning Network é uma tecnologia de segunda camada aplicada ao Bitcoin que utiliza canais de micropagamento para aumentar a capacidade de sua blockchain de realizar transações de forma mais eficiente.
+  O método Spend and Replace (Gastar e Substituir) envolve gastar bitcoins e depois recomprar a mesma quantidade para manter as suas participações.
 reviewed: false

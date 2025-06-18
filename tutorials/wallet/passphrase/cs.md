@@ -35,7 +35,7 @@ Je také důležité toto heslo správně uložit, stejně jako mnemonickou frá
 
 Pro nastavení hesla na zařízení Ledger (Stax, Flex, nebo Nano) můžete konzultovat tento tutoriál:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Na COLDCARD:
 
@@ -48,4 +48,8 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 Na Passport (batch-2):
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
+Na zařízení Trezor (Safe 3, Safe 5 nebo Model One):
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 

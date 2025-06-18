@@ -1,0 +1,9 @@
+question: Jaka jest specyfika trzech zaszyfrowanych tekstów zawartych w pudełku?
+answer: Zawierają one liczby oddzielone przecinkami
+wrong_answers:
+  - Wszystkie są napisane zwykłymi literami
+  - Używają nieznanych symboli
+  - Są one napisane w wielu językach
+explanation: |
+  Trzy zaszyfrowane teksty składają się z serii liczb oddzielonych przecinkami, wymagających klucza do odszyfrowania.
+reviewed: false

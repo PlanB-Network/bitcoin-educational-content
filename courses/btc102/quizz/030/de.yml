@@ -1,10 +1,9 @@
-question: Was ist die Bitcoin-Blockchain?
-answer: Eine Datenbank, die alle Bitcoin-Transaktionen aufzeichnet.
+question: Welchen großen Vorteil bietet der mehrschichtige Ansatz für Bitcoin?
+answer: Aufrechterhaltung der Sicherheit des Basisprotokolls
 wrong_answers:
-  - Eine Art digitaler Währung
-  - Ein Netzwerk von Bitcoin-Benutzern
-  - Eine Methode zum Mining von Bitcoins
+  - Zunehmende Zentralisierung des Hauptnetzes
+  - Schnelle Innovation beim Basisprotokoll
+  - Die Schichten haben die gleichen Merkmale wie das Basisprotokoll
 explanation: |
-  Die Bitcoin-Blockchain ist eine Datenbank, die alle Bitcoin-Transaktionen aufzeichnet.
-  Sie wird von Minern gewartet, die neue Transaktionen zur Blockchain hinzufügen.
+  Der mehrschichtige Ansatz ermöglicht das Hinzufügen von Funktionalitäten, ohne die Sicherheit und Einfachheit des Basisprotokolls zu beeinträchtigen.
 reviewed: false

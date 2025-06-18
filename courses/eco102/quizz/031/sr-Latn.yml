@@ -1,0 +1,9 @@
+question: Šta Ruso kaže o transformaciji pojedinca u građanina?
+answer: Tek počinjemo postajati muškarci nakon što postanemo građani
+wrong_answers:
+  - Građani postajemo tek sa Contract
+  - Postajemo građani tek nakon što smo bili jednaki
+  - Postati građanin prethodi državljanstvu
+explanation: |
+  Rousseau tvrdi da pojedinac postaje potpuno ljudsko biće prolazeći kroz fazu građanina, čime povezuje lično ispunjenje sa socijalnom integracijom.
+reviewed: false

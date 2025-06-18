@@ -1,0 +1,9 @@
+question: Zašto je prisilno zatvaranje manje poželjno?
+answer: To je sporije i naknade mogu biti neprimerene.
+wrong_answers:
+  - To zahteva autorizaciju od Satoshi Nakamoto
+  - To primorava ponovno kreiranje kanala kasnije
+  - Sprečava upotrebu ključa za opoziv
+explanation: |
+  Prinudno zatvaranje je manje poželjno jer uključuje vremensko zaključavanje, što usporava proces, a naknade mogu biti neodgovarajuće jer su postavljene u vreme kreiranja kanala.
+reviewed: false

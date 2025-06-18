@@ -1,0 +1,9 @@
+question: 在 HD 錢包的層級結構中，深度 0 代表什麼？
+answer: 主鑰匙和主鏈碼
+wrong_answers:
+  - 外部位址鏈
+  - 預設帳戶
+  - 貨幣種類
+explanation: |
+  深度 0 對應於主密鑰和主鏈碼，它們是 HD Wallet 中所有衍生的起點。
+reviewed: false

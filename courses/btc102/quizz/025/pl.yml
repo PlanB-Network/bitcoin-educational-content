@@ -1,0 +1,9 @@
+question: Jaka cecha przede wszystkim odróżnia Bitcoin od altcoinów?
+answer: Decentralizacja
+wrong_answers:
+  - Płynność
+  - Reputacja
+  - Prywatność
+explanation: |
+  Bitcoin słynie ze swojej decentralizacji, w przeciwieństwie do większości altcoinów, które są mniej lub bardziej scentralizowane.
+reviewed: false

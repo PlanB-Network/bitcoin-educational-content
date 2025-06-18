@@ -1,11 +1,9 @@
-question: 比特币世界中的两种对立意识形态是什么？
-answer: 将无银行账户者纳入银行系统，以及将已在银行系统中的人带出银行系统
+question: 谁是 Lightning Network 的发明者？
+answer: Thaddeus Dryja 和 Joseph Poon
 wrong_answers:
-  - 使每个人都变富有和使每个人都变贫穷
-  - 集中权力和分散权力
-  - 促进隐私和促进透明度
+  - 安德烈亚斯-安东纳普洛斯和亚当-巴克
+  - 彼得-乌耶和格雷戈里-马克斯韦尔
+  - Satoshi 中本聪和哈尔-芬尼
 explanation: |
-  本章提到了比特币世界中的两种对立意识形态。
-  一种是将数十亿没有银行账户的人纳入银行系统。
-  另一种则是将数十亿已经在银行系统中的人带出银行系统。
+  Thaddeus Dryja 和 Joseph Poon 于 2016 年发明了 Lightning Network，以提高 Bitcoin 的可扩展性。
 reviewed: false

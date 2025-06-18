@@ -1,0 +1,8 @@
+question: Šta je koncept strimovanja novca u kontekstu Lightning Network?
+answer: Neprekidno vršenje mikroplaćanja u realnom vremenu.
+wrong_answers:
+  - Pretvaranje Bitcoin u gotovinu na fizičkoj lokaciji koristeći bankomat.
+  - Prenos audio ili video sadržaja za Bitcoin.
+  - Kreiranje novih bitkoina kroz Mining operacije koje se odvijaju u realnom vremenu.
+explanation: >-
+reviewed: true

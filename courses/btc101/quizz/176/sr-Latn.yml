@@ -1,0 +1,8 @@
+question: Koja je jedinstvena karakteristika Bitcoin protokola?
+answer: Radi na globalnom nivou, 24 sata dnevno, 7 dana u nedelji.
+wrong_answers:
+  - Radi samo tokom radnog vremena.
+  - Kontroliše ga centralna vlast.
+  - Može se lako hakovati.
+explanation: >-
+reviewed: true

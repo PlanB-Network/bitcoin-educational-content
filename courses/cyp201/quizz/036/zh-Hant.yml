@@ -1,0 +1,9 @@
+question: 與 JBOK Wallet 相比，HD Wallet 能讓您做什麼？
+answer: generate 來自單一 seed 的所有私密金鑰
+wrong_answers:
+  - 提高數位簽章的安全性
+  - 在多個交易中重複使用相同的 Address
+  - 完全避免使用公開金鑰
+explanation: |
+  HD 電子錢包的所有私密金鑰都來自唯一的 seed，這簡化了備份工作，間接提高了隱私性。
+reviewed: false

@@ -1,0 +1,12 @@
+question: Šta je Milton Friedman predvideo 1999?
+answer: Razvoj pouzdanog e-novca.
+wrong_answers:
+  - Propast fizičkog novca.
+  - Uspon Bitcoin.
+  - Kraj kontrole vlade nad novcem.
+explanation: |
+  Milton Friedman, poznati ekonomista, predvideo je 1999.
+  da će pouzdan e-novac uskoro biti razvijen, metod
+  preko kojeg na Internetu možete preneti sredstva sa A na B,
+  bez da A zna B ili obrnuto.
+reviewed: true

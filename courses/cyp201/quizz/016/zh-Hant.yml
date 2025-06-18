@@ -1,0 +1,9 @@
+question: Bitcoin 與 Taproot 引入了哪種簽章演算法？
+answer: Schnorr 簽署方案
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorr 簽署方案於 2021 年 11 月隨 Taproot 更新推出。
+reviewed: false

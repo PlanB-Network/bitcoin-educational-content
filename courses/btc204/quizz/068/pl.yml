@@ -1,0 +1,10 @@
+question: Jak możemy zminimalizować wpływ COIH podczas konsolidacji UTXO?
+answer: Konsolidując tylko UTXO z tego samego źródła.
+wrong_answers:
+  - Wysyłając UTXO na adresy stron trzecich.
+  - Losowo wybierając UTXO, aby uniknąć rozpoznawalnych wzorców.
+  - Poprzez konsolidację UTXO w okresach niskiej aktywności.
+explanation: |
+  Jeśli musisz skonsolidować swoje bitcoiny, w pierwszej kolejności skonsoliduj UTXO z tego samego źródła.
+  
+reviewed: false

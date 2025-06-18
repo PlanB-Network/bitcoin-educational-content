@@ -1,0 +1,12 @@
+question: Co przewidział Milton Friedman w 1999 roku?
+answer: Rozwój niezawodnej e-gotówki.
+wrong_answers:
+  - Upadek fizycznych pieniędzy.
+  - Powstanie Bitcoin.
+  - Koniec rządowej kontroli nad pieniędzmi.
+explanation: |
+  Milton Friedman, znany ekonomista, przewidział w 1999 roku
+  że wkrótce zostanie opracowana niezawodna e-gotówka, metoda
+  dzięki której w Internecie można przesyłać środki od A do B,
+  bez wiedzy A o B lub odwrotnie.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Ni nini nodi iliyokatwa katika muktadha wa Bitcoin?
+answer: Njia ambayo huweka tu vitalu vya N mwisho kwenye kumbukumbu.
+wrong_answers:
+  - Njia ambayo inathibitisha shughuli pekee.
+  - Nodi ambayo hupeleka habari kwa nodi zingine tu.
+  - Nodi ambayo inatekeleza tu sheria za itifaki ya Bitcoin.
+explanation: >-
+reviewed: true

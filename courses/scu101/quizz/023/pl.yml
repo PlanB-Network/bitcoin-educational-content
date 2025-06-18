@@ -1,0 +1,10 @@
+question: Jakie znaczenie dla bezpieczeństwa komputera ma używanie silnego hasła?
+answer: Aby zapobiec nieautoryzowanemu dostępowi do systemu.
+wrong_answers:
+  - Aby system działał szybciej.
+  - Aby zwiększyć pojemność pamięci.
+  - Aby poprawić Interface użytkownika.
+explanation: |
+  Silne hasło ma kluczowe znaczenie dla bezpieczeństwa
+  zapobiec nieautoryzowanemu dostępowi do systemu.
+reviewed: true

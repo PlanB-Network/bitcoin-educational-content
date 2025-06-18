@@ -1,0 +1,9 @@
+question: Na którym etapie szyfrowania AES używane są pola Galois?
+answer: W podstawianiu bajtów i operacji MixColumns
+wrong_answers:
+  - Podczas generowania klucza prywatnego
+  - Podczas dzielenia tekstu na 128-bitowe bloki
+  - Na każdym etapie operacji XOR
+explanation: |
+  Pola Galois są używane w podstawianiu bajtów do obliczania odwrotności mnożenia oraz w operacji MixColumns do wykonywania mnożeń modulo nieredukowalnego wielomianu.
+reviewed: false

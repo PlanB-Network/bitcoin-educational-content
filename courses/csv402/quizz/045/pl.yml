@@ -1,0 +1,9 @@
+question: Który standard RGB jest używany do definiowania tokenów zamiennych?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 jest standardem używanym do tworzenia tokenów zamiennych i zarządzania nimi za pośrednictwem protokołu RGB.
+reviewed: false

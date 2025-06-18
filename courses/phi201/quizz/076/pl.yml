@@ -1,0 +1,9 @@
+question: Jaka jest zasadnicza różnica między teoriami Turgota i Adama Smitha na temat wartości?
+answer: Turgot uważał, że wartość jest określana przez pracę, podczas gdy Smith uważał, że jest ona określana przez użyteczność.
+wrong_answers:
+  - Turgot wierzył, że wolny handel jest najlepszą polityką gospodarczą, podczas gdy Smith wierzył w protekcjonizm.
+  - Turgot wierzył, że rolą państwa jest pozostawienie wolnego rynku, podczas gdy Smith uważał, że rząd powinien interweniować w gospodarkę.
+  - Nie ma zasadniczej różnicy między teoriami Turgota i Smitha na temat wartości.
+explanation: |
+  Turgot uważał pracę za główny wyznacznik wartości, podczas gdy Adam Smith wprowadził pojęcie wartości pod wpływem użyteczności i popytu, zapowiadając subiektywną ekonomię.
+reviewed: false

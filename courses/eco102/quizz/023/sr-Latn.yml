@@ -1,0 +1,9 @@
+question: Koje su klase u sukobu prema Comteu i Dunoyeru?
+answer: Oni koji plaćaju poreze i oni koji žive od njih
+wrong_answers:
+  - Radnici i poslodavci
+  - Buržoazija i proletarijat
+  - Trgovci i zanatlije
+explanation: |
+  Comte i Dunoyer vide klasni sukob između proizvođača, koji finansiraju putem poreza, i neproizvođača, koji od njih imaju koristi.
+reviewed: false

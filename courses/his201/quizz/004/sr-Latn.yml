@@ -1,0 +1,9 @@
+question: U kojoj godini je implementiran koncept eCash-a Davida Chauma?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Prvi put su ga implementirali cypherpunks u februaru, pre nego što ga je DigiCash isprobao izdavanjem CyberBucks-a u oktobru.
+reviewed: false

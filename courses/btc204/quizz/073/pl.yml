@@ -1,0 +1,10 @@
+question: Spośród poniższych odpowiedzi, która nie pozwala oszukać heurystyki analizy łańcuchowej?
+answer: Zawsze przy użyciu tego samego odbiornika Address.
+wrong_answers:
+  - Tworzenie zmiany, której wartość jest zbliżona do płatności.
+  - Tworzenie nieregularnych, nieokrągłych danych wyjściowych.
+  - Rozkład transakcji w ciągu dnia.
+explanation: |
+  W szczególności nie należy używać wielokrotnie Address. Wszystkie pozostałe odpowiedzi pozwalają uniknąć heurystyki analizy łańcucha.
+  
+reviewed: false

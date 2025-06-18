@@ -1,0 +1,12 @@
+question: Bitcoin 節點的地理分佈有何重要性？
+answer: 這使得實際上不可能銷毀 Blockchain 的所有複本。
+wrong_answers:
+  - 它決定了 Bitcoin 在不同地區的價格。
+  - 它會影響 Bitcoin 交易的速度。
+  - 它決定了一個區域內可挖出的 bitcoins 數量。
+explanation: |
+  Bitcoin 節點的地理分佈使得
+  幾乎不可能銷毀所有
+  Blockchain。由於節點分散，因此難以
+  實體扣押所有節點。
+reviewed: true

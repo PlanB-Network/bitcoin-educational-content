@@ -1,0 +1,10 @@
+question: 如何使用位址來鎖定 UTXO？
+answer: 它們被整合到 ScriptPubKey 中。
+wrong_answers:
+  - 它們被整合到 ScriptSig
+  - 它們已整合至 coinbase。
+  - 它們無處整合。
+explanation: |
+  當進行付款時，交易會從作為輸入消耗的 UTXOs 創建一個新的 UTXO 作為輸出。在此輸出上，會放置一個腳本，定義此 UTXO 日後可如何使用。這個腳本稱為 ScriptPubKey。接收的 Address 集成到此腳本中。
+  
+reviewed: false

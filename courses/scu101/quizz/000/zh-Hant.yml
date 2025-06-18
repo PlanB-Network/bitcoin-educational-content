@@ -1,0 +1,15 @@
+question: 私人瀏覽和使用 TOR 網路的主要差異是什麼？
+answer: Tor 會遮蔽使用者的 IP Address，而私人瀏覽則不會。
+wrong_answers:
+  - 私人瀏覽和 TOR 是一回事。
+  - 私人瀏覽會隱藏使用者的 IP Address，而 TOR 則不會。
+  - TOR 會在您的電腦上留下本機蹤跡，而私人瀏覽則不會。
+explanation: |
+  隱私瀏覽是一種可防止網際網路
+  瀏覽器不會儲存瀏覽記錄、暫時網際網路
+  檔案、表單資料、cookie 以及使用者名稱和密碼。
+  不過，它不會隱藏瀏覽內容，讓您無法上網。
+  服務提供商。另一方面，TOR 網路提供
+  透過遮蔽使用者的 IP Address 來實現匿名性，並允許
+  存取暗網。
+reviewed: true

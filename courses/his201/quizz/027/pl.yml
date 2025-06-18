@@ -1,0 +1,9 @@
+question: Nagłówek której brytyjskiej gazety znalazł się w bloku Bitcoin Genesis w styczniu 2009 roku?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  Dokładny napis brzmiał The Times 03/Jan/2009 Kanclerz na krawędzi drugiego ratunku dla banków.
+reviewed: false

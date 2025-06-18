@@ -1,0 +1,9 @@
+question: Jaki jest główny cel paranoicznego bitcoinera?
+answer: Aby chronić ich prywatność
+wrong_answers:
+  - Aby szybko zgromadzić satoshis
+  - Aby zmaksymalizować zyski handlowe
+  - Długoterminowe przechowywanie bitcoinów
+explanation: |
+  Paranoiczny bitcoiner stara się przede wszystkim uniknąć możliwości śledzenia swoich transakcji i tożsamości.
+reviewed: false

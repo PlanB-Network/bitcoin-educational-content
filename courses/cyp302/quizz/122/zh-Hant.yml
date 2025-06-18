@@ -1,0 +1,9 @@
+question: 什麼是金鑰分發問題？
+answer: 在沒有實體 Exchange 的情況下安全傳送金鑰的挑戰
+wrong_answers:
+  - 每個用戶端必須使用 generate 多個金鑰對
+  - 確保鑰匙實體儲存的難度
+  - 每次通訊都必須更換鑰匙
+explanation: |
+  金鑰分發問題關係到以安全的方式傳送金鑰的挑戰，在數位通訊中，物理 Exchange 並不實際，因此金鑰分發變得非常重要。
+reviewed: false

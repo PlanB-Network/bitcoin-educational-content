@@ -16,28 +16,37 @@ Tato škola myšlení má za sebou již několik století a za sebou celou panor
 
 +++
 
-# Úvod do EKON
+# Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Úvod
+## Přehled kurzu
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Vítejte všichni a vítejte v Econ 201: Úvod do rakouské ekonomie.
+Vítejte ve školení ECO201!
 
-V tomto kurzu nabízeném Théo Mogenetem objevíte tuto větev ekonomie, která se značně liší od Keynesiánské doktríny. Dosud jste se možná učili, že produkce a správa peněz jsou odpovědností centrálních bank, s myšlenkou, že tisk peněz a výdaje podporují růst. Existuje však jiná škola ekonomického myšlení: rakouská ekonomie. S více než 200 lety výzkumu a vývoje, filozofických úvah a spisů renomovaných autorů, tento přístup zdůrazňuje střídmější vizi růstu a lidské racionality v naší ekonomice.
+V tomto kurzu, který nabízí Théo Mogenet, objevíte ekonomickou školu myšlení, která se zásadně liší od převládající keynesiánské doktríny. Možná jste se dosud učili, že správa peněz a hospodářská politika jsou převážně záležitostí centrálních bank, s myšlenkou, že tisk peněz a veřejné výdaje podporují ekonomický růst. Existuje však soudržnější alternativní přístup: **rakouská ekonomie**.
 
-Ve skutečnosti je ekonomie extrémně sociální a složité pole, skládající se z množství vzájemně propojených malých aktérů, kteří společně přispívají k vytvoření koherentního celku. Spíše než přístup k této disciplíně prostřednictvím matematických rovnic, musíme ji chápat z pohledu lidské logiky a sociologie. V tomto kurzu prozkoumáme základní koncepty rakouské ekonomie. Váš instruktor, Théo Mogenet, je vášnivým a kompetentním profesorem rakouské ekonomie.
+Tato škola myšlení, s více než dvěma stoletími výzkumu, filozofických úvah a spisů renomovaných autorů jako Carl Menger, Ludwig von Mises a Friedrich Hayek, přijímá odlišnou perspektivu, upřednostňující decentralizovaný pohled na ekonomii, založený na jednotlivci a lidské racionalitě.
 
-Na začátek vám nabízíme bonusové video, které vám vysvětlí, jak naše současný finanční systém funguje. Objevíte, jak komerční banky a centrální banky interagují a pohánějí ekonomiku. Budeme se zabývat hlavními hráči v našem finančním světě a jak tato centralizace moci mezi určitými ekonomickými institucemi může vést k zneužívání a finančním krizím.
+Ekonomie je ve skutečnosti hluboce sociální a složitá oblast, tvořená množstvím nezávislých aktérů, kteří volně interagují, aby vytvořili koherentní celek. Pro pochopení tohoto dynamického systému rakouská ekonomie upřednostňuje kvalitativní analýzu založenou na lidské logice, sociologii a studiu tržních procesů, spíše než na rigidních matematických rovnicích.
 
-Ve druhé části kurzu prozkoumáme rozdíl mezi Keynesiánstvím a rakouskou ekonomií, prozkoumáme jejich příslušné školy myšlení, metody úvah a nástroje, které používají k stanovení ekonomické pravdy. Také se budeme zabývat vznikem ekonomických krizí. Je to kvůli lidské neschopnosti, manipulaci trhu, nebo kolektivní euforii lidí? Prozkoumáme, jak jsou naše cykly růstu, poklesu, recese a zlatého věku vytvářeny lidskými emocemi.
+V tomto kurzu prozkoumáte základní principy této školy myšlení. Théo Mogenet, váš instruktor, je vášnivým zastáncem tohoto ekonomického přístupu a provede vás s pedagogikou klíčovými koncepty rakouské ekonomie, přičemž vám ukáže, jak se tyto myšlenky obzvláště dobře aplikují na svět Bitcoinu.
 
-Tento kurz bude kombinací ekonomie a filozofie, s otevřenou diskusí mezi Théo a mnou. Pokud máte během tohoto kurzu jakékoli otázky, neváhejte je položit v našem Discordu, jehož odkaz najdete v popisu.
-Srděčně děkuji Théovi za vytvoření tohoto kurzu a doufám, že pro vás bude vynikajícím učitelem. Při tvorbě tohoto obsahu jsme se skvěle bavili. Tento kurz je přístupný všem a myslím si, že bude nezbytný pro sledování našich budoucích, podrobnějších kurzů o ekonomii. Kurz položí nezbytné základy pro podrobnější prozkoumání určitých ekonomických teorií, na které se zde jen stručně dotkneme.
+**Sekce 1: Úvod do ECON**  
+Začneme obecným úvodem do rakouské ekonomie, kde prozkoumáme její historické kořeny a základy jejího myšlení. Tato sekce se také zabývá základními pojmy, jako jsou peníze, úvěr, banky a centrální banky. Pochopíte, proč tyto instituce hrají klíčovou roli v rakouském myšlení, zejména v jejich kritice měnových intervencí.
 
-Pokud jste připraveni vydat se na tuto dobrodružnou cestu, zvu vás, abyste klikli na následující video a začali s bonusem videem o našem současném finančním systému. Nyní předávám slovo Théovi. Děkuji mu za spolupráci s Descoupes Bitcoin na realizaci tohoto videa. Brzy se uvidíme. Nashledanou!
+**Sekce 2: Teoretické základy**  
+Tato část se bude podrobně zabývat základními koncepty rakouské ekonomie, jako je teorie subjektivní hodnoty, která vysvětluje, proč hodnota zboží není objektivní, ale závisí na vnímané užitečnosti každého jednotlivce. Také se dozvíte, jak peníze přirozeně vznikají jako sociální fenomén, stejně jako pojmy časová preference, úrok a kapitál, které jsou jádrem rakouské teorie volného trhu.
+
+**Sekce 3: Rakouské ekonomické perspektivy**  
+Zde prozkoumáme praktické aplikace rakouské teorie. Podrobně se seznámíte s rakouskou teorií hospodářského cyklu, která vysvětluje, jak měnové manipulace vyvolávají umělé boomy následované recesemi. Také uvidíme, proč je ekonomický kalkul nemožný v socialistickém systému a jak metodologie rakouské ekonomie, založená na praxeologii (studium lidského jednání), představuje jedinečný a soudržný přístup k pochopení ekonomických jevů.
+
+Tento kurz je spojením ekonomie a filozofie, vedeným otevřenou diskusí mezi Théo a mnou (Rogzy). Rád bych srdečně poděkoval Théo Mogenetovi za vytvoření tohoto kurzu. S velkým potěšením jsme vytvořili tento obsah, který je navržen tak, aby byl přístupný všem. Tento kurz tvoří základní úvod a položení základů pro naše budoucí pokročilejší moduly o ekonomii.
+
+A co když klíčem k pochopení současné ekonomiky je teorie stará několik století? Pojďme to objevit společně!
+
 
 ## Peníze, úvěry, banky a centrální banky
 
@@ -514,7 +523,7 @@ Příkladem metodologického rozdílu je postoj zastánců Moderní monetární 
 Je důležité si uvědomit, že cherry-picking, což znamená selektivní výběr dat pro stanovení vztahů mezi proměnnými, je v ekonomii nevědecká a nedůkladná metoda. Například tvorba peněz nutně nezpůsobuje inflaci, a je nutný nuancovanější přístup k pochopení složitých ekonomických mechanismů. Axiomy hrají klíčovou roli v úvahách rakouské ekonomie. Jsou to základní prvky, z nichž lze činit logické dedukce. Je však důležité si uvědomit, že přesné předpovídání budoucnosti v ekonomii je často obtížné kvůli složitosti ekonomických jevů a vrozené nejistotě.
 Metodologie je zásadním aspektem v ekonomii a obecně ve společenských vědách. Ovlivňuje, jak jsou kladeny otázky, formulovány hypotézy a interpretována data. Porozumění metodologickým rozdílům mezi ekonomickými školami myšlení nám může pomoci ocenit rozmanité perspektivy a rozvíjet vlastní názory na témata diskutovaná v předchozích epizodách.
 
-# Závěr
+# Sekce finále
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

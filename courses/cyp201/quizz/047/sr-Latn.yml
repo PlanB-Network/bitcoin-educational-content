@@ -1,0 +1,9 @@
+question: Kolika je veličina u bitovima binarnog segmenta korišćenog za kreiranje svake Mnemonic reči?
+answer: 11 bita
+wrong_answers:
+  - 8 bita
+  - 16 bita
+  - 10 bita
+explanation: |
+  Svaki segment od 11 bita odgovara reči iz standardizovane liste od 2048 reči u BIP39.
+reviewed: false

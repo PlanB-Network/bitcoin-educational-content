@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya shughuli za ShR na RotR?
+answer: ShR hubadilisha biti kwa kuongeza sufuri, RotR huingiza tena biti zilizohamishwa
+wrong_answers:
+  - ShR huondoa biti zilizobadilishwa, RotR huzidisha thamani yao
+  - ShR huhama kwenda kushoto, RotR hubadilika kwenda kulia
+  - ShR ni operesheni ya kimantiki, RotR ni hesabu
+explanation: |
+  ShR huhamisha bits kwenda kulia kwa kuongeza sufuri, wakati RotR hufanya mzunguko wa mviringo wa biti.
+reviewed: false

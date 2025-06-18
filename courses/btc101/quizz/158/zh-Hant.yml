@@ -1,0 +1,8 @@
+question: Bitcoin 網路中的 Proof of Work 有何用途？
+answer: Proof of Work 可確保資訊的真實性，而無需信任第三方。
+wrong_answers:
+  - Proof of Work 用於透過信任第三方來創造新的 bitcoins。
+  - Proof of Work 透過信任第三方來驗證 Bitcoin 交易。
+  - Proof of Work 用於變更 Bitcoin 通訊協定，而不需信任第三方。
+explanation: >-
+reviewed: true

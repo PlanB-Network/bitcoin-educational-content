@@ -1,0 +1,9 @@
+question: Jaka jest definicja zmiennej losowej w kontekście kryptografii?
+answer: Zmienna, która może przyjmować kilka możliwych wartości z dodatnim prawdopodobieństwem
+wrong_answers:
+  - Zmienna, która zmienia wartość w każdym momencie
+  - Zmienna, której wartości są stałe i predefiniowane
+  - Zmienna zawsze definiowana w kontekście konkretnego eksperymentu fizycznego
+explanation: |
+  Zmienna losowa może przyjmować dwie lub więcej wartości, każda z dodatnim prawdopodobieństwem, i jest często definiowana abstrakcyjnie w kontekście kryptografii.
+reviewed: false

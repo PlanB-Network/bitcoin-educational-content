@@ -33,13 +33,13 @@ Não precisa de ser um especialista em GitHub para rever conteúdos. Embora seja
 
 No entanto, se não estiver familiarizado com o Git e o GitHub e quiser saber mais, pode consultar o nosso artigo introdutório sobre estas ferramentas:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Criar uma conta
 
 
 - Crie uma conta no [GitHub] (https://github.com/) para começar a contribuir. Se pretender obter orientação sobre como criar a sua conta GitHub, também temos um tutorial detalhado:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - É também necessária uma conta na aplicação de mensagens [Telegram] (https://telegram.org/).
 
@@ -162,3 +162,4 @@ NB. Recomenda-se a revisão na janela de código, com o conteúdo original apres
 
 
 - Se tiver quaisquer observações, perguntas ou comentários sobre este projeto, não hesite em enviar um DM [para o grupo de Telegrama dos contribuidores] (https://t.me/PlanBNetwork_ContentBuilder).
+

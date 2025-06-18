@@ -1,0 +1,12 @@
+question: Je, ni ipi mojawapo ya faida kuu za Bitcoin kwa watu wasio na akaunti ya benki?
+answer: Bitcoin inaruhusu usawa katika miamala, bila kujali hali yako ya kijamii au nafasi ya kisiasa.
+wrong_answers:
+  - Bitcoin inaruhusu ukosefu wa usawa katika miamala, kwa kuwazawadia watumiaji matajiri zaidi.
+  - Bitcoin inanufaisha watu walio na akaunti ya benki na nafasi ya kisiasa ya mrengo wa kushoto pekee.
+  - Bitcoin inanufaisha watu walio na hadhi ya juu ya kijamii pekee.
+explanation: |
+  Nakala hiyo inataja kuwa kuna watu bilioni 2.4 katika
+  dunia bila akaunti ya benki, na Bitcoin inaruhusu
+  usawa katika shughuli, bila kujali hali zao za kijamii
+  au msimamo wa kisiasa.
+reviewed: true

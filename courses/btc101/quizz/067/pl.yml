@@ -1,0 +1,12 @@
+question: Jaka jest częstotliwość regulacji trudności?
+answer: Co 2016 bloków.
+wrong_answers:
+  - Co 1048 bloków.
+  - Co 512 bloków.
+  - Co 4032 bloki.
+explanation: |
+  Dostosowanie trudności to mechanizm, który ma miejsce
+  co 2016 bloków lub około dwóch tygodni, aby zapewnić, że nowy blok
+  nowy blok jest dodawany do Blockchain średnio co dziesięć minut
+  średnio co dziesięć minut, niezależnie od globalnego Hashrate.
+reviewed: true

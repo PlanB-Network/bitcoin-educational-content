@@ -1,0 +1,14 @@
+question: 為什麼 Proof of Work 在 Bitcoin 網路中是不可或缺的？
+answer: 它代表現實世界與 Bitcoin 之間的實體連結，需要有形的能量來生產和驗證比特幣與區塊。
+wrong_answers:
+  - 它允許小規模的礦工參與，特別是那些在高審查地點的礦工。
+  - 它保證了對集中化的保護。
+  - 它反映了社會中現有的權力不平等。
+explanation: |
+  Proof of Work 在 Bitcoin 網路中至關重要，因為
+  它代表了現實世界與
+  Bitcoin.比特幣的生產和驗證以及
+  塊需要有形的能量，錨定 Bitcoin
+  網路，並防止其完全
+  被強大的實體支配。
+reviewed: true

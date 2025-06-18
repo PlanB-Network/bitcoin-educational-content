@@ -1,0 +1,9 @@
+question: Koji algoritam potpisa je uveden u Bitcoin sa Taproot?
+answer: Schnorr signature scheme
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Šema Schnorr potpisa uvedena je u novembru 2021. sa Taproot ažuriranjem.
+reviewed: false

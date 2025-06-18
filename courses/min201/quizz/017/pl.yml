@@ -1,0 +1,13 @@
+question: Jaki jest potencjalny wpływ regulacji na Bitcoin Mining?
+answer: Jeśli kraj taki jak Stany Zjednoczone zdecydowałby się uregulować lub zakazać niektórych transakcji Bitcoin, mogłoby to mieć znaczący wpływ na sieć, zwłaszcza jeśli duża część mocy mieszania jest scentralizowana w tym kraju.
+wrong_answers:
+  - Gdyby kraj taki jak Stany Zjednoczone zdecydował się uregulować lub zakazać Bitcoin Mining, mogłoby to doprowadzić do wzrostu wartości Bitcoin.
+  - Gdyby kraj taki jak Stany Zjednoczone zdecydował się uregulować lub zakazać Bitcoin Mining, mogłoby to doprowadzić do wzrostu Block reward.
+  - Gdyby kraj taki jak Stany Zjednoczone zdecydował się uregulować lub zakazać Bitcoin Mining, mogłoby to doprowadzić do zwiększenia szybkości transakcji.
+explanation: |
+  Rozdział wyjaśnia, że gdyby kraj taki jak Stany Zjednoczone
+  Stany Zjednoczone zdecydowałyby się uregulować lub zakazać niektórych transakcji Bitcoin
+  gW-10, mogłoby to mieć znaczący wpływ na sieć
+  sieć, zwłaszcza jeśli duża część mocy obliczeniowej
+  jest scentralizowana w tym kraju.
+reviewed: true

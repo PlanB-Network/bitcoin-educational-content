@@ -1,0 +1,12 @@
+question: Ni ipi kati ya chaguo hizi ambayo ni ya uwongo kuhusu kupoteza kifaa ambacho una Bitcoin Wallet yako?
+answer: Unaweza kuunda upya Wallet yako na kutumia Bitcoin yako kwa kuweka upya nenosiri lako.
+wrong_answers:
+  - Unapoteza Bitcoins zako zote ikiwa huna maneno ya Mnemonic.
+  - Unaweza kuthibitisha kwa funguo zako za umma kuwa bitcoins zako hazijatumika.
+  - Unaweza kuunda upya Wallet yako na kutumia Bitcoin yako kwa kutumia maneno ya Mnemonic.
+explanation: |
+  Kupoteza kifaa ambacho una Wallet yako haifanyi
+  lazima inamaanisha upotezaji wa Bitcoins zako. Ni nini kinakuruhusu
+  kuunda upya Wallet yako na kutumia Bitcoin yako ndio
+  Maneno ya Mnemonic.
+reviewed: true

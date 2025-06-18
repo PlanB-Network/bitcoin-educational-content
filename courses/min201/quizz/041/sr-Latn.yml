@@ -1,0 +1,13 @@
+question: Kakva je debata unutar Bitcoin zajednice u vezi sa Mining?
+answer: Ravnoteža između traženja profita i doprinosa sigurnosti i distribuciji Bitcoin mreže
+wrong_answers:
+  - Ravnoteža između povećanja Hashrate i smanjenja broja aktivnih čvorova
+  - Ravnoteža između povećanja cene i smanjenja troškova
+  - Ravnoteža između povećanja broja transakcija i smanjenja potrošnje energije
+explanation: |
+  Debata unutar Bitcoin zajednice u vezi sa Mining
+  vrti se oko ravnoteže između traženja profita i
+  doprinosa sigurnosti i distribuciji
+  Bitcoin mreže. Postoje snažni argumenti na obe strane
+  debate.
+reviewed: true

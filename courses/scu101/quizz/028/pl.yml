@@ -1,0 +1,11 @@
+question: Jaki jest pierwszy wektor ataku hakerów?
+answer: E-maile
+wrong_answers:
+  - Media społecznościowe
+  - Strony internetowe z zakupami online
+  - Bankowe strony internetowe
+explanation: |
+  E-maile są pierwszym wektorem ataku dla hakerów. Wykorzystują oni
+  próby wyłudzenia poufnych informacji, takich jak
+  dane uwierzytelniające i hasła.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 為什麼必須保護您的電子郵件？
+answer: 因為它可以讓您重新設定密碼
+wrong_answers:
+- 因為它是用來接收電子報的
+- 因為它包含您所有的密碼
+- 因為它包含您的銀行資訊
+explanation: 信箱是擷取密碼和
+reviewed: false

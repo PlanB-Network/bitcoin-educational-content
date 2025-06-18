@@ -1,0 +1,9 @@
+question: Je, ni jina gani la utekelezaji wa programu iliyotolewa na Mike Hearn Machi 2011, ambayo ilitekeleza Uthibitishaji wa Malipo Rahisishwa (SPV)?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  [Alichapisha](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) chini ya leseni ya programu huria (Apache 2.0), ambayo aliihusisha na Google (mwajiri wake wakati huo). Utekelezaji huu ulifanya iwezekane kuzindua Wallet ya kwanza nyepesi inayofanya kazi kwenye Android.
+reviewed: false

@@ -1,0 +1,11 @@
+question: 2017 年的區塊戰爭是怎麼一回事？
+answer: 關於是否增加區塊大小以擴大交易容量的衝突。
+wrong_answers:
+  - 關於是否減少區塊大小以降低交易容量的衝突。
+  - 關於是否提高 Block reward 以激勵礦工的衝突。
+  - 關於是否降低 Block reward 以抑制礦工的衝突。
+explanation: |
+  2017 年的區塊戰爭是關於是否
+  修改 Bitcoin，增加區塊大小以擴大
+  交易容量。
+reviewed: true

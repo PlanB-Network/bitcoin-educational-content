@@ -1,0 +1,8 @@
+question: Jaka jest unikalna cecha protokołu Bitcoin?
+answer: Działa na skalę globalną, 24 godziny na dobę, 7 dni w tygodniu.
+wrong_answers:
+  - Działa tylko w godzinach pracy.
+  - Jest on kontrolowany przez organ centralny.
+  - Można go łatwo zhakować.
+explanation: >-
+reviewed: true

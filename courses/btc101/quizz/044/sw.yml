@@ -1,0 +1,12 @@
+question: Je, ni matokeo gani yanayowezekana ya kushuka kwa thamani kwa ghafla au kupoteza imani katika sarafu ya uaminifu?
+answer: Mfumuko wa bei.
+wrong_answers:
+  - Deflation.
+  - Uchumi thabiti.
+  - Kuongezeka kwa thamani ya sarafu.
+explanation: |
+  Kushuka kwa thamani kwa ghafla au kupoteza imani kwa mwaminifu
+  sarafu inaweza kusababisha mfumuko wa bei. Hii ni hali
+  ambapo bei za bidhaa na huduma huongezeka kwa
+  kiwango cha juu sana, mara nyingi husababisha kuyumba kwa uchumi.
+reviewed: true

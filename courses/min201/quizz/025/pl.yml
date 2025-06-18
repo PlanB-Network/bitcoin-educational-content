@@ -1,0 +1,11 @@
+question: Jak często określa się bazowy Layer sieci Bitcoin?
+answer: Rozliczenie Layer
+wrong_answers:
+  - Transakcja Layer
+  - Bezpieczeństwo Layer
+  - Konsensus Layer
+explanation: |
+  Podstawowy Layer sieci Bitcoin, na którym opiera się Lightning
+  Network opiera się na otwieraniu i zamykaniu kanałów płatności,
+  jest często określany jako rozliczeniowy Layer.
+reviewed: true

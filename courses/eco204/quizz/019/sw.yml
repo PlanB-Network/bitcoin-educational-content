@@ -1,0 +1,11 @@
+question: Je, ni vipindi vingapi vya mfumuko wa bei vilivyoandikwa kwenye jedwali la Hanke-Krus?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Jedwali la Hanke-Krus linaandika matukio 56 ya mfumuko wa bei. Hata hivyo,
+  haiangazii vipindi vyote, kama vile ile ya Venezuela mnamo 2016, ikileta
+  jumla ya 57.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka metoda jest używana do ochrony identyfikowalności transakcji On-Chain?
+answer: Korzystanie z technik CoinJoin i PayJoin
+wrong_answers:
+  - Ponowne użycie tego samego odbiornika Address
+  - Częsta konsolidacja UTXO
+  - Wpłata na rachunek powierniczy Wallet
+explanation: |
+  Coinjoins i payjoins pomagają zwiększyć prywatność aktywności On-Chain.
+reviewed: false

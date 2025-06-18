@@ -1,0 +1,9 @@
+question: تعهدات رمزنگاری (از طریق Taproot یا OP_RETURN) چگونه در RGB استفاده می‌شوند؟
+answer: آن‌ها انتقالات حالت Anchor در Blockchain
+wrong_answers:
+  - آن‌ها داده‌های Contract را بر روی Blockchain ذخیره می‌کنند.
+  - آنها Client-side Validation را با اجرای Smart contract On-Chain جایگزین می‌کنند.
+  - آن‌ها گره‌هایی برای تأیید تراکنش ایجاد می‌کنند
+explanation: |
+  تعهدات به‌روزرسانی‌های وضعیت را قادر می‌سازند تا به‌طور ایمن به یک UTXO متصل شوند، به‌منظور اثبات وجود یک قطعه خاص از اطلاعات در یک زمان معین، بدون افشای خود اطلاعات.
+reviewed: false

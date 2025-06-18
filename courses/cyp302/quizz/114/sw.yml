@@ -1,0 +1,9 @@
+question: Ni nini kinachotofautisha mtiririko wa ufunguo wa RC4 wa urefu wa kawaida kutoka kwa toleo lililorahisishwa lililowasilishwa kwenye mfano?
+answer: Urefu wa safu ya S katika RC4 ya kawaida ni baiti 256
+wrong_answers:
+  - Safu ya S ina mipaka ya baiti 128
+  - Ufunguo unaotumiwa lazima uwe zaidi ya baiti 8
+  - Hakuna urefu maalum wa S katika RC4 ya kawaida
+explanation: |
+  Katika RC4 ya kawaida, safu ya S ina baiti 256, ambayo huongeza kwa kiasi kikubwa utata wa hesabu na kuimarisha usalama ikilinganishwa na toleo lililorahisishwa lenye baiti 8 pekee.
+reviewed: false

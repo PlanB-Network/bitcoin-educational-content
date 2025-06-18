@@ -1,0 +1,8 @@
+question: Koji je problem skalabilnosti Bitcoin?
+answer: Izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kako se usvaja.
+wrong_answers:
+  - Težina Mining novih Bitcoina sa sve većom vrednošću tokom vremena.
+  - Volatilnost cene Bitcoin koja će se povećati nakon svakog Halving.
+  - Nedostatak regulative za Bitcoin što će učiniti transakcije ilegalnim.
+explanation: >-
+reviewed: true

@@ -1,0 +1,13 @@
+question: Jakie są konsekwencje dodruku pieniądza?
+answer: Prowadzi to do inflacji, stopniowo zubożając ludność.
+wrong_answers:
+  - Prowadzi to do deflacji, stopniowo wzbogacając populację.
+  - Prowadzi to do stabilnej gospodarki bez inflacji lub deflacji.
+  - Prowadzi to do spadku wartości pieniądza Supply.
+explanation: |
+  Drukowanie pieniądza lub tworzenie nowych pieniędzy przez banki centralne prowadzi do inflacji
+  banki centralne, prowadzi do inflacji. Dzieje się tak, ponieważ wzrost
+  gW-1 zmniejsza siłę nabywczą pieniądza,
+  prowadząc do wyższych cen i spadku wartości oszczędności
+  oszczędności.
+reviewed: true

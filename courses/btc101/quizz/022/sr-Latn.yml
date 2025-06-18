@@ -1,0 +1,13 @@
+question: Zašto je zlato postalo standardno sredstvo Exchange?
+answer: Zbog svoje retkosti, trajnosti i deljivosti.
+wrong_answers:
+  - Zbog svoje obilnosti, trajnosti i nedeljivosti.
+  - Zbog svoje retkosti, kvarljivosti i deljivosti.
+  - Zbog svoje obilnosti, kvarljivosti i nedeljivosti.
+explanation: |
+  Zlato je postalo standardno sredstvo Exchange zbog svoje
+  retkosti, izdržljivosti i deljivosti: njegova retkost je sprečila
+  devalvaciju uzrokovanu proizvodnjom; njegova izdržljivost
+  je osigurala da se neće vremenom istrošiti, a njegova deljivost
+  je omogućila upotrebu u transakcijama različitih veličina.
+reviewed: true

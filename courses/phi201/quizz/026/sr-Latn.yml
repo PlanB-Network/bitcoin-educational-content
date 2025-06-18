@@ -1,0 +1,9 @@
+question: Šta je grčka polis?
+answer: Tržnica
+wrong_answers:
+  - Zakon prirode
+  - Ljudski zakon
+  - Hram posvećen bogovima
+explanation: |
+  Grčki polis se odnosi na grad-državu, političku i društvenu organizaciju gde građani učestvuju u javnom životu i donose kolektivne odluke. On predstavlja okvir demokratije i građanstva u staroj Grčkoj.
+reviewed: false

@@ -1,0 +1,12 @@
+question: W jaki sposób różne stablecoiny Tether przyczyniają się do wolności finansowej osób w niestabilnych gospodarkach?
+answer: Zapewniając dostęp do walut o stabilnych kursach Exchange
+wrong_answers:
+  - Eliminując potrzebę posiadania fizycznej gotówki
+  - Oferując wyższe oprocentowanie oszczędności
+  - Umożliwiając natychmiastowe transakcje globalne
+explanation: |
+  Różne stablecoiny Tether są powiązane ze stabilnymi aktywami, takimi jak dolar amerykański czy złoto
+  dolar amerykański lub złoto. Ta stabilność pozwala osobom w niestabilnych gospodarkach
+  przenieść swoje pieniądze do waluty, która nie podlega tym samym
+  stopy inflacji, pomagając im utrzymać wartość ich oszczędności.
+reviewed: true

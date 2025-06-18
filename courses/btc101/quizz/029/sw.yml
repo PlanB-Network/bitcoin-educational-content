@@ -1,0 +1,9 @@
+question: Kwa nini dhahabu si nyenzo ya kubebeka?
+answer: Kwa sababu ni mnene na nzito, na kuifanya iwe ngumu kubeba kwa idadi kubwa.
+wrong_answers:
+  - Kwa sababu ni ya thamani sana kuhamishwa.
+  - Kwa sababu haiwezi kutengenezwa kwa urahisi katika maumbo madogo.
+  - Kwa sababu ni Liquid kwenye joto la kawaida.
+explanation: |
+  Dhahabu ni mnene na nzito, ambayo ina maana kwamba kubeba kiasi kikubwa inaweza kuwa changamoto kimwili. Uzito huu hufanya iwe rahisi kwa usafiri ikilinganishwa na nyenzo nyepesi.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jakie Elements są potrzebne do utworzenia kanału Lightning przenoszącego zasoby RGB?
+answer: Finansowanie w bitcoinach i finansowanie w aktywach RGB
+wrong_answers:
+  - Na początek tylko finansowanie Bitcoin
+  - Na początek finansowanie wyłącznie z RGB
+  - Finansowanie nie jest wymagane
+explanation: |
+  Kanał wymaga zarówno finansowania Bitcoin na Multisig 2/2, jak i finansowania aktywów RGB w celu przydzielenia aktywów na tym samym kanale.
+reviewed: false

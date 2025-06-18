@@ -1,0 +1,10 @@
+question: 靜音付款中標籤的目的是什麼？
+answer: 使用多個不同的靜態位址，而不會不合理地增加掃描工作量。
+wrong_answers:
+  - 加密 Silent Payments 交易以隱藏交易的真正收款人。
+  - 要使用多個不同的靜態位址，而這些位址無法由外部觀察者連結。
+  - 在 Blockchain 上貼上可見標籤，以付款參考的方式識別無聲付款。
+explanation: |
+  標籤用於從主靜態 Address 中 generate 多個靜態位址，這有助於 Wallet 的組織。然而，外部觀察者可以輕易地在這些標籤靜態位址之間建立連結，因為所有的掃描公開金鑰都是相同的。
+  
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Noeud Bitcoin Core  (linux)
+name: Bitcoin Core (Linux)
 description: Faire tourner son propre nœud avec Bitcoin Core
 ---
 
@@ -132,3 +132,4 @@ Pour consulter les logs de votre nœud Bitcoin en ce qui à trait plus spécifiq
 > - Guide de configuration Tor par Jon Atack
 
 Comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
+

@@ -1,0 +1,9 @@
+question: Šta je prosečna cena dolara?
+answer: Kupovina malih količina Bitcoin u redovnim intervalima.
+wrong_answers:
+  - Kupovina velike količine Bitcoin odjednom.
+  - Kupovina Bitcoin samo kada cena padne.
+  - Kupovina Bitcoin samo kada cena poraste.
+explanation: |
+  Tekst kursa objašnjava da tehnika prosečne cene dolara uključuje kupovinu malih količina Bitcoin u redovnim intervalima. Ova metoda izravnava fluktuacije cena tokom vremena i osigurava kontinuirani rast količine Bitcoin u vlasništvu.
+reviewed: true

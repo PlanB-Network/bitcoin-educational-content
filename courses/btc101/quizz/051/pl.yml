@@ -1,0 +1,10 @@
+question: Jaki jest wpływ 2% inflacji na siłę nabywczą w ciągu 5 lat?
+answer: Tracisz 10% swojej siły nabywczej.
+wrong_answers:
+  - Tracisz 2% swojej siły nabywczej.
+  - Tracisz 5% swojej siły nabywczej.
+  - Tracisz 20% swojej siły nabywczej.
+explanation: |
+  Przy 2% inflacji, tracisz 2% swojej siły nabywczej
+  rocznie, co daje 10% w ciągu 5 lat.
+reviewed: true

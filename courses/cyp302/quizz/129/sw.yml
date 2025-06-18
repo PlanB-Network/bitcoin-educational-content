@@ -1,0 +1,9 @@
+question: Ni ugunduzi gani mwingine wa Uingereza na watafiti katika GCHQ uliotangulia ule wa Diffie na Hellman, lakini ulibaki kuwa siri?
+answer: Dhana za kriptografia ya asymmetric na ufunguo wa Exchange
+wrong_answers:
+  - Itifaki ya usimbaji linganifu imeendelezwa bila kuhitaji ufunguo
+  - Mbinu mpya ya hashing ya kriptografia isiyolinganishwa
+  - Njia ya kuunda pesa za elektroniki
+explanation: |
+  Waandishi wa maandishi wa Uingereza, wanaofanya kazi kwa GCHQ, walitengeneza mawazo sawa na yale ya Diffie na Hellman, lakini maendeleo haya yalisalia kuwa siri hadi yalipofichuliwa mwaka wa 1997.
+reviewed: false

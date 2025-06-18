@@ -1,0 +1,9 @@
+question: Jaki był wpływ otwartości gospodarczej, zgodnie z koncepcjami Cobdena, na globalne ubóstwo w ciągu ostatnich 20 lat?
+answer: Ubóstwo zostało zmniejszone o połowę
+wrong_answers:
+  - Ubóstwo wzrosło o 10%
+  - Ubóstwo pozostało stabilne
+  - Ubóstwo zostało zmniejszone o 20%
+explanation: |
+  Cobden opowiadał się za otwartością gospodarczą jako sposobem na zmniejszenie ubóstwa, a współczesne wyniki pokazują jego znaczną redukcję, zwłaszcza w krajach otwartych na handel.
+reviewed: false

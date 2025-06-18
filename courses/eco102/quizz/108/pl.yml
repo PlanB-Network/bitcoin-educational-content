@@ -1,0 +1,9 @@
+question: Jaką iluzję ekonomiczną krytykował Bastiat, która pojawiła się ponownie w XX wieku?
+answer: Że państwo może tworzyć miejsca pracy
+wrong_answers:
+  - Że rynek potrzebuje państwa
+  - Że rynek może się samoregulować
+  - Że firmy mogą tworzyć bogactwo bez regulacji
+explanation: |
+  Bastiat skrytykował pomysł, że państwo może tworzyć miejsca pracy bez szkody dla innych miejsc pracy ze względu na wpływ podatków potrzebnych do sfinansowania tych kreacji.
+reviewed: false

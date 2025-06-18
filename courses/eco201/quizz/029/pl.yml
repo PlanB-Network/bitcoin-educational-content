@@ -1,0 +1,17 @@
+question: Czym jest pojęcie preferencji czasowej?
+answer: Preferencja czasowa to subiektywna ocena wartości dóbr przyszłych w porównaniu do dóbr teraźniejszych. Przy założeniu, że wszystko inne jest równe, dobra teraźniejsze są z natury preferowane w stosunku do dóbr przyszłych.
+wrong_answers:
+  - Preferencja czasowa to obiektywna ocena wartości dóbr przyszłych w porównaniu do dóbr teraźniejszych.
+  - Preferencja czasowa to nieodłączna preferencja dóbr przyszłych w stosunku do dóbr teraźniejszych.
+  - Preferencja czasowa to subiektywna ocena wartości dóbr teraźniejszych w porównaniu do dóbr przyszłych.
+explanation: |
+  Preferencja czasowa to subiektywna ocena wartości
+  przyszłych dóbr w porównaniu do dóbr teraźniejszych. Ponieważ jesteśmy
+  śmiertelni, a przyszłość jest zawsze niepewna, w naturalny sposób
+  wolimy mieć dostęp do danego dobra teraz niż później.
+  Podczas gdy preferencje czasowe mogą różnić się między jednostkami, ze względu na niezliczone czynniki, takie jak
+  niezliczoną liczbą czynników, takich jak kultura, zamożność, wykształcenie itp,
+  fizjologia itp., preferencje czasowe są zawsze pozytywne,
+  co oznacza, że zawsze cenimy dobra teraźniejsze bardziej niż przyszłe
+  dobra bardziej niż dobra przyszłe.
+reviewed: true

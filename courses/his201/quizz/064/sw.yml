@@ -1,0 +1,9 @@
+question: Ni nani alikuwa mwandishi wa makala ya kwanza ya kutambulisha Bitcoin iliyochapishwa kwa Kifaransa?
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation: |
+  Yalikuwa ni [maandishi](https: //linuxfr.org/news/connaissez-vous-les-bitcoins) iliyochapishwa mnamo Septemba 30, 2010, kwenye LinuxFr.org yenye kichwa Je, unajua kuhusu bitcoins?.
+reviewed: false

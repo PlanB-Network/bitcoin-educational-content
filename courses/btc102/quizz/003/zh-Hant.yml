@@ -1,0 +1,9 @@
+question: 在加密貨幣領域，Pump and Dump 包含什麼？
+answer: 透過活動操控資產在高峰時出售
+wrong_answers:
+  - 大量購入資產以支持其價格，但從不出售
+  - 透過對立交易長期穩定市場
+  - 進行經常性購買，以獲取資產的長期風險
+explanation: |
+  這種詐騙手法是人為抬高價格，在關鍵時刻出售，造成價值崩盤。
+reviewed: false

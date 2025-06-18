@@ -1,0 +1,13 @@
+question: bitcoins za bikira ni nini?
+answer: Bitcoins zilizochimbwa hivi karibuni ambazo hazijawahi kutumika na hazina historia iliyounganishwa nazo.
+wrong_answers:
+  - Bitcoins ambazo zimetumika katika shughuli haramu.
+  - Bitcoins ambazo zimepotea au kusahaulika.
+  - Bitcoins ambazo zimehifadhiwa kwenye Wallet kwa muda mrefu.
+explanation: |
+  Virgin bitcoins ni bitcoins zilizochimbwa hivi karibuni ambazo hazijawahi
+  zimetumika na hazina historia iliyoambatanishwa nazo. Haya
+  bitcoins mara nyingi huchukuliwa kuwa ya thamani zaidi kwa sababu wao
+  hawajawahi kuchafuliwa, kutoa dhamana fulani dhidi ya
+  kukataliwa na vidhibiti au majukwaa makubwa ya Exchange.
+reviewed: true

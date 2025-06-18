@@ -1,0 +1,8 @@
+question: Jaki jest średni czas między utworzeniem dwóch bloków w protokole Bitcoin?
+answer: 10 minut.
+wrong_answers:
+  - 5 minut.
+  - 15 minut.
+  - 20 minut.
+explanation: >-
+reviewed: true

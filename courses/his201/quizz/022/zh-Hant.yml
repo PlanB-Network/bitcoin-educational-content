@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 在 2008 年 8 月聯絡的第一個人是誰？
+answer: Adam Back
+wrong_answers:
+  - 戴偉
+  - Hal Finney
+  - James A. Donald
+explanation: |
+  他在 8 月 20 日聯絡他，詢問如何在白皮書中引用他有關 Hashcash 的論文。Adam Back 回覆後，將他引導到 Wei Dai (因為他的 b-money 概念)，2 天後 Satoshi 與他溝通。
+reviewed: false

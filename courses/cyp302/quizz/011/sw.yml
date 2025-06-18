@@ -1,0 +1,9 @@
+question: Ni nini huwezesha udukuzi wa mawasiliano ya ndani na washambuliaji wasio na vifaa vizuri?
+answer: Matumizi ya mawimbi ya redio kwa miunganisho isiyo na waya
+wrong_answers:
+  - Kusambaza data zote kupitia satelaiti
+  - Kutumia nyaya za koaxial pekee kwa upitishaji wa data
+  - Inatuma data kupitia nyuzi za macho pekee
+explanation: |
+  Miunganisho isiyo na waya, ambayo husambaza data kupitia mawimbi ya redio, hurahisisha utekaji nyara kwa washambuliaji, kwani hauitaji ufikiaji wa mtandao kwa mtandao.
+reviewed: false

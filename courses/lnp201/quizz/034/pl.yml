@@ -1,0 +1,9 @@
+question: Jakie informacje musi znać węzeł wysyłający, aby wykonać płatność w ramach routingu cebulowego?
+answer: Topologia sieci i kompletna trasa do odbiorcy
+wrong_answers:
+  - Tylko następny węzeł pośredni
+  - Przepustowość każdego kanału
+  - Podpis kryptograficzny każdego węzła na ścieżce
+explanation: |
+  Węzeł wysyłający musi znać topologię sieci, aby obliczyć trasę do odbiorcy, umożliwiając mu wybór najlepszej ścieżki.
+reviewed: false

@@ -1,0 +1,25 @@
+id: b0e3193c-2129-4f1b-9013-c211210724c3
+
+project_id: ed6fd6e2-0b96-4ee7-9d19-19ff37f4aceb
+
+tags:
+  - privacy
+  - personal-security
+  - software
+
+category: communication
+
+level: intermediate
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-02
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 1.39

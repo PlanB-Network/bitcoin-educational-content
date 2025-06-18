@@ -1,0 +1,9 @@
+question: Koji su istraživači citirani od strane Satoshi Nakamoto u Bitcoin beloj knjizi za njihov rad na sertifikovanom vremenskom pečatiranju?
+answer: Stuart Haber i Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak, i Marshall Pease
+  - Cynthia Dwork i Moni Naor
+  - Ronald Rivest i Adi Shamir
+explanation: |
+  Tri rada Habera i Stornette iz 90-ih citirana su u beloj knjizi. Oni su poznati po kreiranju [prvog vremenski označenog Blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain), objavljenog u New York Times-u počevši od 1992. godine.
+reviewed: false

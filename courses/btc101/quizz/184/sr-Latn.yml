@@ -1,0 +1,8 @@
+question: Koji je jedan od razloga zašto Bitcoin nije balon koji će nestati?
+answer: Zato što je to valuta koja se zapravo koristi svuda u svetu.
+wrong_answers:
+  - Zato što se zapravo nigde ne koristi.
+  - Zato što je kontrolisan od strane centralnog autoriteta.
+  - Zato što je lako falsifikovati.
+explanation: >-
+reviewed: true

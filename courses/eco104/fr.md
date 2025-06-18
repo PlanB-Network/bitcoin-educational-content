@@ -39,11 +39,12 @@ Ce cours a été sponsorisé par TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introduction
+## Aperçu du cours
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Bienvenue dans le cours ECO104 !
 
-### Nous vivons dans un monde où :
+**Nous vivons dans un monde où :**
 
 ● Seulement [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) des personnes résident dans des sociétés considérées comme "libres démocratiquement". Pourtant, même au sein de cette fraction privilégiée, les violations des droits humains sont de plus en plus courantes - des comptes bancaires gelés à la censure. Les 80% restants se débattent avec l'avancée du règne autoritaire. Il y a juste deux décennies, près de la moitié de la population mondiale jouissait des libertés les plus fondamentales.
 
@@ -62,7 +63,7 @@ Cela dit, ce cours n'est pas uniquement destiné à ceux qui font face à une in
 
 Dans cet esprit, notre mission est de vous amener à l'avant-garde du changement dans notre paysage financier actuel, de remettre en question les normes existantes et d'offrir des solutions alternatives. En plongeant dans l'histoire de l'argent, en démystifiant Bitcoin et en explorant Tether et le monde des stablecoins, nous visons à inspirer les individus à réimaginer leur avenir financier.
 
-### À quoi s'attendre :
+**À quoi s'attendre :**
 
 **Module 1 : Le Prix du Progrès - Un Regard Approfondi sur Notre Système Financier**
 Nous commençons notre exploration en jetant un coup d'œil derrière les rideaux de notre système financier actuel, où la censure financière, l'inégalité de richesse et l'inflation affligent notre quotidien. À travers une brève histoire de l'argent, nous examinerons comment nous nous sommes retrouvés là où nous sommes, en mettant en lumière certains des principaux points douloureux que nous vivons tous.
@@ -1623,7 +1624,7 @@ En concluant ce cours, nous espérons que vous appliquerez les connaissances acq
 Puisse cette nouvelle compréhension vous permettre de naviguer dans le monde évolutif de la finance avec confiance et objectif. Bonne chance sur votre chemin de croissance et de découverte !
 L'avenir est radieux !
 
-# Conclusion
+# Section finale
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

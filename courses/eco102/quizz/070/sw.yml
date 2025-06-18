@@ -1,0 +1,9 @@
+question: Ni nini nguvu ya kuendesha shirika la kijamii kulingana na Bastiat?
+answer: Soko
+wrong_answers:
+  - Jimbo
+  - Dini
+  - Mapokeo
+explanation: |
+  Bastiat anaamini kuwa soko huria ndilo tegemeo la kweli la shirika la kijamii kwa sababu linaruhusu uratibu wa moja kwa moja na wa ufanisi miongoni mwa watu binafsi.
+reviewed: false

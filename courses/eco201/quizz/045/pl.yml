@@ -1,0 +1,11 @@
+question: Jaki jest główny powód, dla którego gospodarka centralnie planowana nieuchronnie doświadcza błędnej alokacji kapitału?
+answer: Nie ma cen rynkowych ani bankructw, które mogłyby ujawnić i skorygować błędne alokacje.
+wrong_answers:
+  - Centralni planiści nie są wydajni.
+  - Centralni planiści nie mają wystarczających informacji.
+  - Centralni planiści nie są zmotywowani do efektywnej alokacji zasobów.
+explanation: |
+  W gospodarce centralnie planowanej nie ma cen rynkowych ani bankructw
+  aby ujawnić i skorygować błędne alokacje. W rezultacie błędy będą się kumulować, aż
+  marnotrawstwo stanie się widoczne poprzez znaczny spadek warunków życia.
+reviewed: true

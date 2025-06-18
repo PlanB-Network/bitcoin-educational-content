@@ -207,7 +207,7 @@ Elija "*Estándar*" si desea crear una cartera clásica de una sola firma.
 
 Para más información sobre la opción "*2FA*", puedes seguir este otro tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Su cuenta ha sido creada.
 

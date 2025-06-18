@@ -1,0 +1,9 @@
+question: Jaki problem pojawia się, gdy Jim's Sporting Goods używa tej samej pary kluczy dla wszystkich klientów?
+answer: Każdy klient może uzyskać dostęp do komunikacji innych osób
+wrong_answers:
+  - Klucz stałby się zbyt duży
+  - Komunikacja zostałaby spowolniona
+  - Klienci musieliby zmieniać klucze przy każdym zakupie
+explanation: |
+  Używając tego samego klucza dla wszystkich, Jim's Sporting Goods naruszyłby poufność i integralność, ponieważ każdy klient mógłby potencjalnie uzyskać dostęp do danych innych klientów.
+reviewed: false

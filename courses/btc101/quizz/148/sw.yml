@@ -1,0 +1,8 @@
+question: Ni nini matokeo ya vita vya kuzuia mnamo 2017?
+answer: Watumiaji na nodi walikataa mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kizuizi, na kuamilisha sasisho linaloitwa SegWit.
+wrong_answers:
+  - Watumiaji na nodi walikubali mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kizuizi, na kuamilisha sasisho linaloitwa SegWit.
+  - Watumiaji na nodi walikataa mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kuzuia, na hawakuwasha sasisho zozote.
+  - Watumiaji na nodi walikubali mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kuzuia, na hawakuwasha masasisho yoyote.
+explanation: >-
+reviewed: true

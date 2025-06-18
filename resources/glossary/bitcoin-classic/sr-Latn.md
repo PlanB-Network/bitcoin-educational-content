@@ -1,0 +1,5 @@
+---
+term: Bitcoin CLASSIC
+---
+
+Predlog za protokol Fork pokrenut je u januaru 2016. nakon napuštanja Bitcoin XT. Cilj mu je bio povećati ograničenje veličine bloka sa 1 MB na 2 MB sa BIP109, pristupom koji se smatrao umerenijim u poređenju sa Bitcoin XT, koji je predložio mnogo veće povećanje (8 MB + udvostručavanje svake dve godine). Ovu inicijativu su predvodili programeri Gavin Andresen i Jeff Garzik, a podržale su je velike kompanije u ekosistemu poput Coinbase-a. Bitcoin Classic se pojavio u kontekstu intenzivne eskalacije Rata veličine blokova i bio je klasifikovan među taborom velikih blokera. Iako je Bitcoin Classic privukao pažnju i podršku mnogih aktera u sektoru, njegov mehanizam aktivacije, koji je zahtevao 75% podrške od rudara, bio je kontroverzan i na kraju je doprineo njegovom neuspehu.

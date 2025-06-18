@@ -1,0 +1,9 @@
+question: Šta karakteriše složenost današnjeg procesa plaćanja karticama na maloprodajnom mestu prodaje?
+answer: To uključuje više posrednika, nekoliko koraka i može potrajati danima da se sredstva u potpunosti poravnaju.
+wrong_answers:
+  - Potreban je samo jedan trenutni korak i sredstva se odmah poravnavaju.
+  - Oslanja se isključivo na fizički novac i nema posrednika.
+  - To osigurava da kada se kartica provuče, trgovac ima sredstva trenutno i neopozivo.
+explanation: |
+  Kartična plaćanja često uključuju lanac posrednika (sticaoci, izdavaoci, kartične mreže), zahtevaju korake autorizacije i poravnanja, i mogu trajati od 48 sati do nekoliko dana pre nego što trgovac primi neto sredstva.
+reviewed: false

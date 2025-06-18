@@ -1,0 +1,9 @@
+question: Kako Bitcoin koristi pojedincima u ratom pogođenim ili nestabilnim zemljama?
+answer: Omogućava čuvanje vrednosti na decentralizovan i siguran način koji ima veću otpornost na krađu.
+wrong_answers:
+  - Omogućava pristup tradicionalnim bankarskim uslugama
+  - Pruža fizičku imovinu koja može povećati svoju vrednost
+  - Nudi zaštitu protiv deflacije
+explanation: |
+  U ratom razorenim ili nestabilnim zemljama, pojedinci se mogu suočiti sa poteškoćama u pristupu tradicionalnim bankarskim uslugama ili rizikom od krađe ili konfiskacije fizičkih sredstava. Bitcoin omogućava pojedincima da čuvaju vrednost na decentralizovan i siguran način bez potrebe za posrednicima ili fizičkim sredstvima koja su podložna rizicima kao što su inflacija, krađa ili konfiskacija.
+reviewed: true

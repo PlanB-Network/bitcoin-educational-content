@@ -1,0 +1,9 @@
+question: Co oznacza skrót UTXO w języku angielskim?
+answer: Niewydane dane wyjściowe transakcji
+wrong_answers:
+  - Zunifikowane wyjście transakcji
+  - Tylko transakcje użytkownika
+  - Opcja tokena użytkowego Exchange
+explanation: |
+  UTXO to wynik transakcji, który nie został jeszcze wydany.
+reviewed: false

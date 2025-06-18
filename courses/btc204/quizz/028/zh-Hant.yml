@@ -1,0 +1,9 @@
+question: 什麼是鑰匙識別？
+answer: 將使用者身份的某個方面與 onchain 活動相關聯的能力。
+wrong_answers:
+  - 將公開金鑰指派給每筆新的 onchain 交易的過程。
+  - 透過通用的 Ownership 啟發式輸入追蹤鏈上交易的能力。
+  - 從私人密碼匙衍生出公開密碼匙的過程。
+explanation: |
+  鑰匙識別涉及將使用者身份的某個方面與 onchain 活動聯繫起來的可能性。
+reviewed: false

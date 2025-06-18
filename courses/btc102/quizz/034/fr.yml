@@ -1,10 +1,9 @@
-question: Quelle est la limite de bitcoins qui existeront jamais ?
-answer: 21 millions
+question: Quel protocole de seconde couche permet d'effectuer des paiements quasi instantanés ?
+answer: Lightning Network
 wrong_answers:
-  - 100 millions
-  - 1 milliard
-  - Pas de limite
+  - Sidechains
+  - RGB
+  - Bitcoin Core
 explanation: |
-  Le chapitre indique qu'il n'y aura jamais plus de 21 millions de bitcoins.
-  Cette limite a été établie dans le protocole Bitcoin par Satoshi et ne peut pas être modifiée aujourd'hui.
+  Le Lightning Network permet des transactions rapides et à faible coût grâce à des transactions en dehors de la blockchain Bitcoin.
 reviewed: false

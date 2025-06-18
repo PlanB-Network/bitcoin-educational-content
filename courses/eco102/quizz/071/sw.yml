@@ -1,0 +1,9 @@
+question: Je, ni mkono gani usioonekana kulingana na Adam Smith?
+answer: Utaratibu ambao maslahi ya mtu binafsi hutumikia maslahi ya jumla
+wrong_answers:
+  - Nguvu isiyo ya kawaida inayoongoza uchumi
+  - Njama ya matajiri kuwanyonya masikini
+  - Sitiari kuelezea nafasi ya serikali katika uchumi
+explanation: |
+  Mkono usioonekana unaelezea jinsi ufuatiliaji wa maslahi ya kibinafsi katika soko huria unachangia maslahi ya jumla bila kukusudia.
+reviewed: false

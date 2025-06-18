@@ -1,0 +1,11 @@
+question: Je, kanuni ya dhahabu ya usalama wa mtandao ni ipi?
+answer: Cybersecurity ni lengo linalosonga ambalo litaendana na safari yako ya kujifunza.
+wrong_answers:
+  - Cybersecurity ni usanidi wa mara moja
+  - Usalama wa mtandao sio lazima kwa akaunti za kibinafsi
+  - Usalama wa mtandao ni kwa watu wenye ujuzi wa teknolojia pekee
+explanation: |
+  Cybersecurity ni lengo la kusonga mbele kwa sababu vitisho na
+  hatua za usalama zinaendelea kubadilika. Ni muhimu
+  kuendelea kujifunza na kurekebisha mazoea yako.
+reviewed: true

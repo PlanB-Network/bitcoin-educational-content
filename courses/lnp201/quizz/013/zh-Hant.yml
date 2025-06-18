@@ -1,0 +1,9 @@
+question: 如果 Alice 未取得 Bob 對提款交易的簽名，會發生什麼情況？
+answer: 她有可能無法存取存入多重簽章 Address 的資金。
+wrong_answers:
+  - 她無法再透過 Lightning Network 與 Bob 溝通
+  - 航道開放容量有限
+  - Bob 自動接收通道中的資金
+explanation: |
+  如果沒有 Bob 在提款交易上的簽名，Alice 就無法確保在發生問題時能收回資金，造成損失的風險。
+reviewed: false

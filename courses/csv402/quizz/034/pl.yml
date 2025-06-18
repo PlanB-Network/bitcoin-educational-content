@@ -1,0 +1,9 @@
+question: Jaką czynność wykonuje Bob (odbiorca) po otrzymaniu Terminal Consignment od Alice (płatnika)?
+answer: Sprawdź ważność State Transition i podpisz
+wrong_answers:
+  - Zmodyfikuj Contract Schema i wyślij go do Alice
+  - Utwórz Invoice dla nowej operacji
+  - Podpisz PSBT Alice i rozpowszechniaj go w łańcuchu
+explanation: |
+  Bob sprawdza Consignment, upewnia się, że przejście jest zgodne z zasadami i podpisuje się, aby potwierdzić swoją zgodę.
+reviewed: false

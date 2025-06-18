@@ -1,0 +1,8 @@
+question: 在 Bitcoin 通訊協定中，建立兩個區塊之間的平均時間是多少？
+answer: 10 分鐘
+wrong_answers:
+  - 5 分鐘
+  - 15 分鐘
+  - 20分鐘
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Među sledećim odgovorima, koji nije deo 3 glavne kategorije heuristika i karakteristika korišćenih u analizi lanca?
+answer: Modeli kriptografije.
+wrong_answers:
+  - Modeli transakcija.
+  - Interna heuristika transakcija.
+  - Heuristika eksternih transakcija.
+explanation: |
+  Heuristike korišćene u analizi lanca mogu se grupisati u tri kategorije; obrasci transakcija (ili modeli transakcija), interne heuristike transakcija i eksterne heuristike transakcija.
+reviewed: false

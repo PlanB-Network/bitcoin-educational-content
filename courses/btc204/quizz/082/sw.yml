@@ -1,0 +1,10 @@
+question: Ni hatua gani ya mchakato wa Chaumian CoinJoin inahusisha kubadilisha utambulisho kwenye Tor ili kuhakikisha kutokujulikana?
+answer: Usajili wa matokeo.
+wrong_answers:
+  - Usajili wa pembejeo.
+  - Kusainiwa kwa shughuli hiyo.
+  - Utangazaji wa shughuli hiyo.
+explanation: |
+  Ili kuzuia mratibu asiweze kuunganisha towe mahususi na ingizo, watumiaji hubadilisha utambulisho wao wa Tor kabla ya kutuma anwani zao za kupokea maandishi wazi kwa mratibu.
+  
+reviewed: false

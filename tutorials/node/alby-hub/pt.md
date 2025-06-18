@@ -4,15 +4,16 @@ description: Como lançar facilmente o seu próprio nó Lightning?
 ---
 ![cover](assets/cover.webp)
 
-O Alby Hub é o software mais recente da Alby, a empresa por detrás da popular extensão Web Lightning. O Alby Hub é uma interface fácil de utilizar para gerir os nós do Lightning.
+Alby Hub é o mais recente software de código aberto da Alby, a empresa por trás da popular extensão web Lightning. Alby Hub é uma carteira auto-custodiada com o nó Lightning mais fácil de usar, acessível de qualquer lugar para integrar com dezenas de aplicativos. Alby Hub é uma interface fácil de usar para gerenciar nós Lightning.
 
-Neste tutorial, vamos analisar diferentes formas de utilizar o Alby Hub para gerir o seu próprio nó Lightning e como ligá-lo ao Alby Go, a aplicação móvel da Alby. Isto permitir-lhe-á passar as suas sats em movimento, sendo autónomo na gestão do seu nó.
+Neste tutorial, vamos explorar diferentes maneiras de usar o Alby Hub e como conectá-lo ao Alby Go, o aplicativo móvel da Alby, ou à extensão do navegador Alby. Isso permitirá que você gaste seus sats em movimento enquanto mantém autonomia na gestão do seu nó.
+
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## O que é o Alby Hub?
 
-Em 2024, Alby marcou uma mudança estratégica. Durante anos, eles ofereceram uma variedade de ferramentas associadas ao Bitcoin e à Lightning Network, incluindo a icônica extensão Alby, que permite operar uma carteira Lightning, custodial ou não. No entanto, em 2025, eles planejam descontinuar seu serviço de carteira de custódia compartilhada e se concentrar exclusivamente em soluções de autocustódia. O Alby Hub está definido para ser a nova ferramenta principal no ecossistema Alby. Este software permite aos utilizadores gerir facilmente o seu próprio nó Lightning, mantendo a propriedade das suas chaves (auto-custódia).
+Alby Hub está configurado para ser a nova ferramenta principal no ecossistema Alby. Este software permite aos usuários gerenciar facilmente sua própria carteira auto-custodial com um nó Lightning integrado, mantendo a propriedade de suas chaves (auto-custódia).
 
 O Alby Hub é uma ferramenta altamente adaptável. Pode satisfazer as necessidades tanto de principiantes como de utilizadores avançados. Os principiantes utilizá-lo-ão para operar facilmente um nó Lightning real por conta própria, sem terem de lidar com a complexidade subjacente. Para os utilizadores mais experientes, o Alby Hub pode ser utilizado como uma interface completa para a gestão avançada de um nó Lightning existente.
 
@@ -21,11 +22,11 @@ Em função das suas necessidades, o Alby Hub está disponível em 4 configuraç
 
 - Alby Hub Cloud :**
 
-Ideal para os principiantes, esta primeira opção é a opção nuvem Alby. Permite-lhe implementar um nó Lightning diretamente num servidor gerido pela Alby, acessível através da sua interface Alby Hub. Apesar de a Alby gerir o servidor, o utilizador mantém a soberania sobre os seus fundos, uma vez que as suas chaves são encriptadas através de uma palavra-passe conhecida apenas por si. No entanto, as suas chaves devem permanecer desencriptadas na RAM para que o nó funcione, o que teoricamente as expõe a riscos se alguém aceder fisicamente ao servidor. É um compromisso interessante para iniciantes, mas é importante estar ciente dos riscos.
+Ideal para iniciantes, esta primeira opção é a opção em nuvem da Alby. Ela permite implantar um Hub diretamente em um servidor gerido pela Alby, acessível através da sua interface Alby Hub. Embora a Alby gerencie o servidor, você mantém a soberania sobre seus fundos, pois suas chaves são criptografadas com uma senha conhecida apenas por você. No entanto, suas chaves devem permanecer descriptografadas na RAM para que o nó funcione, o que teoricamente as expõe a riscos se alguém acessar fisicamente o servidor. É um compromisso interessante para iniciantes, mas é importante estar ciente dos riscos.
 
 A principal vantagem dessa opção é que você obtém um nó do Lightning em funcionamento 24 horas por dia, 7 dias por semana, sem precisar gerenciar a hospedagem por conta própria. Além disso, as cópias de segurança do seu Lightning node são simplificadas e automatizadas, em comparação com as opções auto-hospedadas em que tem de gerir as cópias de segurança do canal.
 
-A Alby oferece este serviço por 21 000 sats por mês (tarifa de dezembro de 2024, sujeita a alterações, [consulte os preços](https://albyhub.com/#pricing)). A taxa é automaticamente deduzida do seu nó através de uma fatura Lightning emitida pela Alby. Isto é feito através de uma ligação NWC que configura o seu nó para pagar automaticamente as facturas Alby relacionadas com a sua assinatura.
+Alby Cloud é um serviço pago [Verifique os preços](https://albyhub.com/#pricing) para mais detalhes. A taxa é deduzida automaticamente da sua carteira por meio de uma fatura Lightning emitida pela Alby. Isso é feito através de uma conexão NWC que configura seu nó para pagar automaticamente as faturas da Alby relacionadas à sua assinatura.
 
 
 - Alby Hub com um nó existente :**
@@ -35,12 +36,12 @@ Se já tiver um nó alojado, por exemplo, na Umbrel ou na Start9, o Alby Hub pod
 
 - Alby Hub local :**
 
-Também é possível instalar o Alby Hub e o nó diretamente no PC, embora essa opção seja menos prática, pois o PC deve permanecer ativo o tempo todo para acessar remotamente o nó do Lightning. No entanto, essa alternativa pode ser adequada às suas necessidades específicas.
+Também é possível instalar o Alby Hub diretamente no seu PC, embora essa opção seja menos prática, pois o seu PC precisa permanecer ativo o tempo todo para acessar o nó Lightning remotamente. No entanto, essa alternativa pode ser adequada para suas necessidades específicas.
 
 
 - Alby Hub num servidor pessoal :**
 
-Para utilizadores avançados, o Alby Hub pode ser implementado num servidor pessoal com um simples comando. Esta opção não é abordada neste tutorial, mas pode encontrar instruções dedicadas [no GitHub do Alby] (https://github.com/getAlby/hub?tab=readme-ov-file#docker).
+Para utilizadores avançados, o Alby Hub pode ser implementado num servidor pessoal com um simples comando. Esta opção não é abordada neste tutorial, mas pode encontrar instruções dedicadas [no GitHub do Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
 Este tutorial centra-se principalmente na interface, que será a mesma independentemente da opção escolhida. Veremos também como implementar o Alby Hub com a opção de nuvem paga e depois com a opção node-in-box (Umbrel ou Start9).
 
@@ -76,7 +77,7 @@ Clique novamente em "*Continuar*".
 
 ## A opção de alojamento na nuvem
 
-Terá então de escolher entre uma opção auto-hospedada, onde aloja um nó Lightning no seu próprio hardware, ou a opção paga utilizando a nuvem da Alby. Vou começar por explicar como proceder com a opção Cloud (note que esta é uma opção paga, veja os detalhes na secção anterior).
+Você terá então que escolher entre uma opção autogerida, onde você instala o Alby Hub em seu próprio dispositivo, ou opções premium. Vou começar explicando como proceder com a opção Pro Cloud (note que esta é uma opção paga, veja os detalhes na seção anterior).
 
 Clique em "*Upgrade*".
 
@@ -94,7 +95,8 @@ Aguarde alguns momentos enquanto o seu nó é criado.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-E pronto, o seu Alby Hub está agora configurado. Na próxima secção, mostrar-lhe-ei como instalar o Alby Hub num nó existente. Se não precisar de o fazer, pode passar à secção seguinte para configurar o seu nó.
+E é isso, seu Alby Hub está agora configurado. Na próxima seção, vou mostrar como instalar o Alby Hub em um nó existente. Se você ainda não tiver um nó Lightning, pode pular para a próxima seção para configurar o Alby Hub na Alby Cloud.
+
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +130,7 @@ Clique no botão "*Iniciar*".
 
 O Alby Hub pedir-lhe-á então que escolha uma palavra-passe. Esta palavra-passe é muito importante, pois será utilizada para encriptar a sua carteira. Na versão paga da nuvem, as suas chaves são armazenadas no servidor Alby, encriptadas com esta palavra-passe que só você conhece, depois desencriptadas e armazenadas apenas na RAM para assinar transacções quando necessário.
 
-Por isso, é essencial escolher uma palavra-passe forte. Qualquer pessoa com esta palavra-passe pode potencialmente obter acesso ao seu nó. Certifique-se também de que faz uma ou mais cópias de segurança físicas desta palavra-passe num pedaço de papel, ou melhor ainda, num pedaço de metal para maior segurança. **Se perder esta palavra-passe, será impossível recuperar o acesso aos seus bitcoins**, uma vez que Alby não tem forma de a repor. A perda desta palavra-passe significa a perda dos seus bitcoins.
+Portanto, é essencial escolher uma senha forte. Qualquer pessoa com essa senha pode potencialmente obter acesso ao seu nó. Certifique-se também de fazer um ou mais backups físicos dessa senha em um pedaço de papel, ou melhor ainda, em um pedaço de metal para maior segurança.
 
 Depois de ter escolhido e guardado cuidadosamente a sua palavra-passe, clique em "*Criar palavra-passe*".
 
@@ -138,7 +140,7 @@ Agora você tem acesso ao seu Lightning node.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-A primeira ação a ser tomada é salvar sua frase de recuperação, da qual suas chaves são derivadas. Esta frase permite-lhe recuperar o acesso à sua carteira onchain e, com o estado mais recente dos seus canais, aos seus sats no Lightning. Para isso, clique em "*Configurações*".
+A primeira ação a realizar é salvar sua frase de recuperação, da qual suas chaves são derivadas. Para fazer isso, clique em "Configurações". Essa frase permite que você recupere o acesso à sua carteira se você ativou os backups automáticos.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +158,18 @@ Depois de ter guardado a frase, assinale a caixa para confirmar que a guardou e 
 
 ## Como posso recuperar o acesso aos meus bitcoins?
 
-Antes de enviar fundos para o seu nó, é importante compreender como recuperá-los em caso de problema, bem como quais as informações necessárias para essa recuperação. O processo varia consoante a natureza dos fundos a recuperar e o modo de alojamento do seu nó.
+Antes de enviar fundos para o seu Alby Hub, é importante entender como recuperá-los em caso de problema, bem como quais informações são necessárias para essa recuperação. O processo varia de acordo com a natureza dos fundos a serem recuperados e o modo de hospedagem do seu nó.
 
-Para os utilizadores pagos da nuvem, a recuperação completa dos seus bitcoins requer três elementos essenciais:
+Para os usuários de nuvem paga, a recuperação completa de seus bitcoins requer três elementos essenciais:
 
+- Sua frase de recuperação;
+- Acesso à sua conta Alby, para recuperar os backups automáticos.
 
-- A sua frase de recuperação;
-- A sua palavra-passe (a que foi utilizada para o seu nó) ;
-- Acesso à sua conta Alby, para consultar o estado atual dos seus canais Lightning.
+A ausência de qualquer uma dessas duas informações tornaria impossível recuperar completamente seus bitcoins.
 
-A ausência de qualquer uma destas 3 informações tornaria impossível a recuperação total dos seus bitcoins.
+Para aqueles que executam o Alby Hub em seu próprio dispositivo, o processo de recuperação está documentado [aqui](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-Para quem aloja o seu próprio nó, o processo de recuperação é idêntico ao de qualquer nó Lightning. Você precisará de :
-
-
-- A sua frase de recuperação;
-- O estado mais recente dos seus canais Lightning. Para proteger estas informações, a Umbrel oferece [uma opção] (https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) para as encriptar e guardar de forma dinâmica e anónima através do Tor.
+Se você instalou o Alby Hub em um nó existente, será necessário seguir o processo de recuperação do sistema operacional específico desse nó. Por exemplo: O Umbrel oferece [uma opção](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) para criptografar o estado mais recente de seus canais Lightning e salvá-lo de maneira dinâmica e anônima através do Tor. Observe que apenas os backups automáticos do Alby permitem que você recupere seu Hub completamente sem fechar nenhum canal.
 
 ## Compre seu primeiro canal Lightning
 
@@ -255,6 +253,13 @@ O seu novo canal aparecerá agora no separador "*Nó*".
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Gerenciamento de Nós
+
+Gerenciar seus canais Lightning é mais fácil do que você pensa. O Alby Hub permite transferir sats entre o seu saldo de gastos e o seu saldo on-chain. É assim que você pode aumentar sua capacidade de envio ou recebimento.
+
+![ALBY HUB](assets/fr/66.webp)
+
+
 ## Ligar uma aplicação de despesas
 
 Agora que tem um nó Lightning a funcionar, pode utilizá-lo para receber e gastar sats diariamente. Embora a interface Web do Alby Hub seja útil para gerir o seu nó, não é ideal para efetuar transacções rápidas em movimento. Para isso, vamos utilizar uma aplicação de carteira Lightning instalada no nosso smartphone.
@@ -279,15 +284,14 @@ Quando a aplicação for lançada, clique em "*Connect Wallet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-No seu Alby Hub, no separador "*Conexões*", clique em "*Adicionar ligação*".
+No seu Alby Hub, na seção App Store, encontre “Alby Go” e clique em “Connect”  
+![ALBY HUB](assets/fr/47.webp)  
+Clique em “Connect with One-Tab Connections”. Isso permitirá que você conecte seu Alby Hub com um clique a outros aplicativos usando Alby Go.  
 
-![ALBY HUB](assets/fr/47.webp)
+![ALBY HUB](assets/fr/48.webp)  
 
-Dê um nome a esta ligação para a identificar facilmente no seu Hub e selecione as permissões que pretende conceder à aplicação. No meu caso, escolhi "*Acesso total*" para ter acesso total aos fundos do meu nó Lightning a partir do meu smartphone, mas também pode limitar o acesso a um orçamento máximo, selecionar as funcionalidades permitidas ou definir uma data de expiração para estas permissões. Uma vez configurado, clique em "*Próximo*".
+O Alby Hub então gerará um segredo para estabelecer a conexão com o Alby Go.
 
-![ALBY HUB](assets/fr/48.webp)
-
-O Alby Hub gera então um segredo para estabelecer a ligação.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +303,8 @@ Clique em "Concluir*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Agora tem acesso remoto ao seu nó Lightning a partir do seu smartphone, tornando mais fácil gastar e receber sats em movimento todos os dias.
+Agora você tem acesso remoto ao seu nó Lightning alimentado pelo Alby Hub a partir do seu smartphone, facilitando o envio e recebimento de sats em movimento todos os dias.
+
 
 ![ALBY HUB](assets/fr/52.webp)
 

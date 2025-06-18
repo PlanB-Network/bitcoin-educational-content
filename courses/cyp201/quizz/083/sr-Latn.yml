@@ -1,0 +1,9 @@
+question: Koji tip Address počinje sa `1` i pripada Legacy standardu?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  P2PKH adrese, kodirane u base58check, potiču iz Legacy standarda i počinju cifrom `1`.
+reviewed: false

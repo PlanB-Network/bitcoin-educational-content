@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta internetowej wymiany P2P w porównaniu z fizycznymi transakcjami gotówkowymi?
+answer: Mniejsze ryzyko dla bezpieczeństwa osobistego.
+wrong_answers:
+  - Mniejsze ryzyko kradzieży.
+  - Więcej prywatności dla kupującego.
+  - Niższe opłaty transakcyjne.
+explanation: |
+  Wymiana P2P online pozostawia więcej śladów i jest bardziej narażona na ryzyko kradzieży niż wymiana P2P w gotówce. Jeśli chodzi o opłaty transakcyjne, są one zazwyczaj równoważne lub nawet wyższe, zwłaszcza jeśli proces wymaga wielu kroków. Główną zaletą internetowej wymiany P2P jest jednak zmniejszenie ryzyka dla bezpieczeństwa osobistego użytkowników w porównaniu z transakcjami gotówkowymi.
+reviewed: false

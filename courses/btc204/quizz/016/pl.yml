@@ -1,0 +1,9 @@
+question: Spośród podanych odpowiedzi, która reprezentuje jeden z głównych celów analizy łańcuchowej?
+answer: Grupowanie różnych działań na Bitcoin w celu określenia wyjątkowości użytkownika.
+wrong_answers:
+  - Optymalizacja wydajności Mining w sieci.
+  - Wymierzanie sprawiedliwości na podstawie protokołu w celu egzekwowania prawa zgodnie z jurysdykcją.
+  - Zwiększenie poufności transakcji Bitcoin.
+explanation: |
+  Jednym z celów analizy łańcucha jest pogrupowanie różnych działań na Bitcoin w celu określenia unikalności użytkownika, który je wykonał. Następnie możliwe będzie podjęcie próby powiązania tej wiązki działań z rzeczywistą tożsamością.
+reviewed: false

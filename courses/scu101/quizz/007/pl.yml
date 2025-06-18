@@ -1,0 +1,14 @@
+question: Czym jest przeglądanie prywatne?
+answer: Funkcja, która uniemożliwia przeglądarkom internetowym przechowywanie historii przeglądania, tymczasowych plików internetowych, danych formularzy, plików cookie oraz nazw użytkowników i haseł.
+wrong_answers:
+  - Funkcja ukrywająca aktywność użytkownika w sieci przed dostawcą usług internetowych.
+  - Funkcja umożliwiająca anonimowe przeglądanie Internetu.
+  - Funkcja chroniąca urządzenie przed wirusami i innym złośliwym oprogramowaniem.
+explanation: |
+  Przeglądanie prywatne to funkcja, która uniemożliwia
+  przeglądarkom internetowym przechowywanie historii przeglądania, tymczasowych plików
+  plików, danych formularzy, plików cookie oraz nazw użytkowników i haseł.
+  Nie ukrywa ona jednak aktywności użytkownika w Internecie przed dostawcą usług
+  przed dostawcą usług internetowych ani nie pozwala na
+  przeglądanie Internetu anonimowo.
+reviewed: true

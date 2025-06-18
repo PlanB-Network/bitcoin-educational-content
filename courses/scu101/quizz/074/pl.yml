@@ -1,0 +1,9 @@
+question: Jakie są główne cechy menedżera haseł?
+answer: Przechowywanie, generate i porządkowanie haseł.
+wrong_answers:
+  - Analizuj i usuwaj wirusy.
+  - Tworzenie kopii zapasowych i porządkowanie dokumentów osobistych.
+  - Optymalizacja prędkości połączenia.
+explanation: |
+  Podstawowe funkcje obejmują przechowywanie, generowanie i organizowanie haseł.
+reviewed: false

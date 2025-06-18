@@ -1,0 +1,13 @@
+question: Jakie są potencjalne wady tworzenia kopii zapasowych w chmurze przy użyciu usług takich jak ProtonMail Drive, Sync lub Dysk Google?
+answer: Dane użytkownika znajdują się potencjalnie w Internecie i są przechowywane przez zaufaną stronę trzecią.
+wrong_answers:
+  - Usługi te potencjalnie nie są niezawodne w przypadku tworzenia kopii zapasowych danych.
+  - Usługi te czasami tracą dane użytkowników, a przeniesienie ich do innego dostawcy usług w chmurze może być trudne.
+  - Usługi te zwykle nie zapewniają wystarczającej przestrzeni dyskowej i cierpią z powodu niskiej prędkości połączenia.
+explanation: |
+  Podczas gdy usługi tworzenia kopii zapasowych w chmurze zapewniają wygodny sposób
+  tworzenia kopii zapasowych danych, oznaczają one również, że dane są
+  potencjalnie w Internecie i są przechowywane przez zaufaną stronę trzecią
+  stronę trzecią. Może to potencjalnie narazić dane na
+  dodatkowe ryzyko.
+reviewed: true

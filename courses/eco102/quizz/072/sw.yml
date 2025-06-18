@@ -1,0 +1,9 @@
+question: Ni mfano gani uliotumiwa na Leonard Read kuonyesha ushirikiano usioonekana?
+answer: Uundaji wa penseli
+wrong_answers:
+  - Ujenzi wa nyumba
+  - Uzalishaji wa gari
+  - Shirika la jiji
+explanation: |
+  Leonard Read anatumia mfano wa penseli kuonyesha jinsi watu wengi hushirikiana bila kujuana ili kutoa kitu rahisi.
+reviewed: false

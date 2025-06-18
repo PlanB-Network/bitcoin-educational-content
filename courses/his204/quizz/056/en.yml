@@ -1,0 +1,8 @@
+question: For the Physiocrats, what is the difference between production and profit?
+answer: The industrialist and the trader can win, but only the farmer produces, because production is the creation of useful matter
+wrong_answers:
+  - Manufacturers and traders may not make a profit. Only agriculture necessarily brings in profits.
+  - The farmer can earn, but it's only the industrialist and the trader who produce, because to produce is to provide a service
+  - Production and profit are the same thing
+explanation: |
+  The Physiocrats believed that only agriculture was productive, as it created new matter. Industry and commerce were seen as sterile activities, since they merely transformed or displaced existing wealth.

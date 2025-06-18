@@ -1,6 +1,6 @@
 ---
 name: Mengatur BitAxe
-Description: Bagaimana cara mengatur BitAxe?
+description: Bagaimana cara mengatur BitAxe?
 ---
 
 ### Pendahuluan

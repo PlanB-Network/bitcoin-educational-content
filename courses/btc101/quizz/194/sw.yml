@@ -1,0 +1,12 @@
+question: Ni zana gani moja ya kukubali Bitcoin kwa mashirika makubwa au wapenda Bitcoin wenye shauku?
+answer: Seva ya BTCpay.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  Seva ya BTCpay ni zana ya kukubali Bitcoin kwa kubwa
+  miundo au bitcoiners wenye shauku. Suluhu zingine
+  ni pamoja na OpenNode kwa biashara rahisi za mtandaoni na Uswisi
+  Bitcoin Lipa kwa wauzaji mahiri.
+reviewed: true

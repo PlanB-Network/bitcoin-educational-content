@@ -1,0 +1,9 @@
+question: 希臘的 Polis 是什麼？
+answer: 市場
+wrong_answers:
+  - 自然法則
+  - 人權法
+  - 供奉眾神的神殿
+explanation: |
+  希臘的 Polis 指的是城邦，是公民參與公共生活並參與集體決策的政治和社會組織。它構成了古希臘民主和公民權的框架。
+reviewed: false

@@ -1,0 +1,12 @@
+question: Kwa nini data ya kibayometriki inachukuliwa kuwa salama kuliko mchanganyiko wa maarifa na umiliki wa 2FA?
+answer: Data ya kibayometriki inapaswa kubaki kwenye kifaa cha uthibitishaji na isifichuliwe mtandaoni.
+wrong_answers:
+  - Data ya kibayometriki ni rahisi kutoa hata ikiwa imewekwa nje ya mtandao kwenye kifaa cha uthibitishaji.
+  - Data ya kibayometriki ni ngumu zaidi kukumbuka na kutumia unapotumia kifaa cha uthibitishaji.
+  - Zana za data za kibayometriki ni ghali zaidi kutekeleza na kwa hivyo hazina gharama ikilinganishwa na suluhisho zingine.
+explanation: |
+  Data ya kibayometriki si salama kwa sababu inapaswa kuwashwa
+  kifaa cha uthibitishaji na kisifichuliwe mtandaoni. Kama
+  inafichuliwa mtandaoni, inaweza kuibiwa na kutumika
+  ufikiaji usioidhinishwa.
+reviewed: true

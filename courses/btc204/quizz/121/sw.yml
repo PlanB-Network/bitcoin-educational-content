@@ -1,0 +1,10 @@
+question: Je, awamu ya shina inafanya kazi gani katika itifaki ya Dandelion?
+answer: Shughuli inatumwa kupitia njia ya nasibu ya nodi
+wrong_answers:
+  - Muamala huo unatangazwa mara moja kwa wenzao wote wa nodi ya chanzo
+  - Muamala huhifadhiwa kwa muda katika nodi ya kati kabla ya kutangazwa
+  - Muamala husimbwa kwa njia fiche kwa kuongezeka kwa kila hatua ya utangazaji
+explanation: |
+  Dandelion kwanza hutumia awamu ya shina ambapo shughuli hutumwa kupitia njia ya nasibu ya nodi. Kisha shughuli hiyo inatangazwa kwa mtandao mzima katika awamu ya fluff.
+  
+reviewed: false

@@ -1,0 +1,12 @@
+question: 對於沒有銀行帳戶的人來說，Bitcoin 的主要好處之一是什麼？
+answer: Bitcoin 允許交易平等，不論您的社會地位或政治立場如何。
+wrong_answers:
+  - Bitcoin 允許交易中的不平等，獎勵最富有的使用者。
+  - Bitcoin 只會讓擁有銀行帳戶和左派政治立場的人受惠。
+  - Bitcoin 只會讓社會地位高的人受惠。
+explanation: |
+  文中提到世界上有 24 億人沒有銀行帳戶。
+  世界上有 24 億人沒有銀行帳戶。
+  平等的交易，不論他們的社會地位
+  或政治立場。
+reviewed: true

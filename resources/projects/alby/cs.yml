@@ -1,4 +1,2 @@
 description: |
-  Alby je univerzální rozšíření prohlížeče, které má za cíl zjednodušit Bitcoinové transakce a interakce na Lightning Network. Díky uživatelsky přívětivému rozhraní poskytuje bezpečnou platformu pro správu peněženek, umožňuje provádění transakcí a prozkoumávání nově se objevujících technologií jako je Nostr.
-
-  Alby zjednodušuje monetizaci obsahu a poskytuje plynulý zážitek pro vývojáře, čímž se stává všestranným řešením pro různé potřeby spojené s Bitcoinem.
+  Alby poskytuje spotřebitelům a vývojářům snadno použitelné nástroje pro bitcoinové platby pomocí lightning networku všude: na webu, v mobilních aplikacích a ve skutečném světě. S Alby Hub získávají uživatelé výkonnou, samosprávnou lightning peněženku, která se bezproblémově připojuje k různým aplikacím. Rozšíření Alby Browser umožňuje hladkou interakci s webovými stránkami, usnadňuje platby a ověřování identity přímo v prohlížeči. Pro mobilní uživatele nabízí Alby Go uživatelsky přívětivou peněženku pro správu transakcí na cestách. Navíc Alby poskytuje API pro integraci bitcoinových plateb do jakékoli aplikace a programovou interakci s bitcoinovými lightning peněženkami.

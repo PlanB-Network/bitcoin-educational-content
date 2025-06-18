@@ -1,0 +1,13 @@
+question: Jakie jest ryzyko nadmiernego komplikowania bezpieczeństwa i dostępności bitcoinów?
+answer: Niewłaściwe obchodzenie się z portfelami kopii zapasowych może spowodować obrażenia.
+wrong_answers:
+  - Nieumiejętne obchodzenie się z fizycznymi portfelami może spowodować obrażenia.
+  - Nieumiejętne obchodzenie się z portfelami cyfrowymi może wyrządzić krzywdę.
+  - Nieumiejętne obchodzenie się z portfelami Multisig może spowodować obrażenia.
+explanation: |
+  Nadmierne komplikowanie bezpieczeństwa i dostępności swoich
+  bitcoinów może zaszkodzić, jeśli, na przykład, źle zarządzasz
+  kopiami zapasowymi portfeli. Dzieje się tak, ponieważ proste
+  mają kluczowe znaczenie dla odzyskania dostępu do środków
+  w przypadku utraty telefonu lub komputera.
+reviewed: true

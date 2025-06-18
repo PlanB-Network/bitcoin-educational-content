@@ -2,11 +2,11 @@ question: Qual è la strategia utilizzata dalle entità centrali per svalutare u
 answer: Aumentano la massa monetaria di qualche percento ogni anno.
 wrong_answers:
   - Diminuiscono la massa monetaria di qualche percento ogni anno.
-  - Mantengono costante la sua massa monetaria rispetto alla massa iniziale.
-  - Fanno fluttuare casualmente la sua massa monetaria in confronto alla massa iniziale.
+  - Mantengono costante la sua massa monetaria rispetto alla quantità iniziale.
+  - Fanno fluttuare casualmente la sua massa monetaria in confronto alla quantità iniziale.
 explanation: |
   Le entità centrali spesso svalutano una valuta aumentando la sua
-  massa monetaria rispetto a quella iniziale di qualche percento
-  ogni anno. Questa svalutazione silenziosa è spesso giustificata come
-  essendo nell'interesse del popolo.
+  massa monetaria rispetto alla quantità iniziale di qualche percento
+  ogni anno. Questa svalutazione silenziosa è spesso giustificata
+  nell'interesse del popolo.
 reviewed: true

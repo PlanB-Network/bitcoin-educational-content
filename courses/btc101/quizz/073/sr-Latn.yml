@@ -1,0 +1,8 @@
+question: Šta je privatni ključ u Bitcoin Wallet?
+answer: Tajni ključ koji vam omogućava da potpišete svoje transakcije.
+wrong_answers:
+  - Javni ključ korišćen za generate Bitcoin adrese.
+  - Tajna lista reči za uništenje Wallet u slučaju potrebe.
+  - Tajni ključ za šifrovanje Bitcoin transakcija.
+explanation: >-
+reviewed: true

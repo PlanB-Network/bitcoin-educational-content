@@ -1,0 +1,9 @@
+question: Kwa nini wazo la utaratibu wa hiari ni muhimu kwa mawazo huria?
+answer: Inaonyesha kwamba watu binafsi, kwa kufuata maslahi yao wenyewe, wanaweza kukuza ustawi wa jamii kwa ujumla.
+wrong_answers:
+  - Inahalalisha jukumu muhimu la serikali katika uchumi.
+  - Inasisitiza umuhimu wa hisia za pamoja.
+  - Majibu yote hapo juu ni sahihi.
+explanation: |
+  Wazo la utaratibu wa hiari ni kitovu cha fikra huria kwa sababu linapendekeza kwamba, bila serikali kuingilia kati, vitendo vya mtu binafsi vinavyoongozwa na ubinafsi kwa kawaida hupelekea usawa wa manufaa kwa jamii nzima.
+reviewed: false

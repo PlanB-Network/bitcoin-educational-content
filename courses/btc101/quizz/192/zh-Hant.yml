@@ -1,0 +1,8 @@
+question: 什麼是 OpenNode？
+answer: 企業接受 Bitcoin 的簡單線上解決方案。
+wrong_answers:
+  - 一種由許多使用者同時使用的 Bitcoin 節點。
+  - 一個開放原始碼的 Bitcoin Mining 軟體。
+  - 一個 Bitcoin Exchange 平台。
+explanation: >-
+reviewed: true

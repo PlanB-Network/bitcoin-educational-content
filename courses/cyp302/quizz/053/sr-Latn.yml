@@ -1,0 +1,9 @@
+question: Šta je polje sa konačnim brojem Elements?
+answer: Galoisovo polje
+wrong_answers:
+  - Multiplikativno polje
+  - Simetrično polje
+  - Vektorsko polje
+explanation: |
+  Konačno polje je takođe poznato kao Galoisovo polje, nazvano po matematičaru Évariste Galoisu, i ono je ključno u modernoj kriptografiji.
+reviewed: false

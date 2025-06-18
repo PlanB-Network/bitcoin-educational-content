@@ -1,0 +1,9 @@
+question: Koji je jedan razlog zbog kojeg su institucionalni investitori i velike kompanije postali zainteresovani za Bitcoin?
+answer: Usvajanje Bitcoin od strane velikih finansijskih igrača, kao što je BlackRock, i uspeh Spot Bitcoin ETF-ova, legitimizovali su ga kao sredstvo za čuvanje vrednosti.
+wrong_answers:
+  - Cena Bitcoin je određena i garantovana od strane vladinih agencija.
+  - Bitcoin transakcije su u potpunosti osigurane od strane centralnih banaka.
+  - To ne zahteva razumevanje digitalnih sredstava ili finansijskih propisa.
+explanation: |
+  Kada glavne institucije prepoznaju Bitcoin kao validnu investiciju, to signalizira tržištu da je sazreo izvan spekulacija. Proizvodi poput Spot Bitcoin ETF-ova olakšavaju poslovanjima sticanje izloženosti, dodatno podstičući prihvatanje u glavnim tokovima.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Bitcoin 社群中關於 Mining 的爭論是什麼？
+answer: 在追求利潤與貢獻 Bitcoin 網路的安全與分配之間取得平衡
+wrong_answers:
+  - 增加 Hashrate 與減少作用中節點數量之間的平衡
+  - 提高價格與降低成本之間的平衡
+  - 增加交易數量與減少能源消耗之間的平衡
+explanation: |
+  Bitcoin 社群內關於 Mining 的爭論
+  圍繞著追求利潤與
+  的安全和分配做出貢獻
+  Bitcoin 網路。雙方都有強烈的論據
+  的辯論。
+reviewed: true

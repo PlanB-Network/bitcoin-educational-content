@@ -1,0 +1,12 @@
+question: Jakie jest główne pytanie, które należy sobie zadać przy wyborze Bitcoin Wallet, jeśli chodzi o samoopiekę?
+answer: Czy jesteś właścicielem środków, czy też pozostawiasz kontrolę nad swoimi pieniędzmi stronie trzeciej?
+wrong_answers:
+  - Czy Wallet jest zabezpieczony passphrase?
+  - Czy Wallet umożliwia odbieranie i wysyłanie bitcoinów?
+  - Czy mogę udostępnić Wallet innej osobie?
+explanation: |
+  Przy wyborze Bitcoin Wallet głównym pytaniem jest:
+  czy jesteś właścicielem środków, czy też pozostawiasz kontrolę nad nimi osobie trzeciej?
+  swoje pieniądze stronie trzeciej? Dzieje się tak, ponieważ posiadacz
+  klucza prywatnego jest właścicielem Bitcoinów.
+reviewed: true

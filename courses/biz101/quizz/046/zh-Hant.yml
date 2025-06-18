@@ -1,0 +1,9 @@
+question: 貨幣的主要功能是什麼？
+answer: 作為中介，簡化 Exchange 的價值
+wrong_answers:
+  - 以實物形式儲存內在價值
+  - 以直接貨物對貨物的方式完全取代易貨交易 Exchange
+  - 透過單一機構集中所有經濟交易
+explanation: |
+  貨幣可簡化貿易，因為貨幣可作為共同媒介，減少以物易物系統中所需的複雜 Exchange 匯率，從而使交易更容易進行。
+reviewed: false

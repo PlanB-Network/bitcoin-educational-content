@@ -1,0 +1,8 @@
+question: Je! ni sababu gani moja ya Bitcoin inavutia kwa vikundi fulani?
+answer: Uwezo wake wa kutoa suluhu kama vile pesa taslimu za kielektroniki za Trustless, upinzani dhidi ya udhibiti, au sera ya fedha ya uwazi na isiyobadilika.
+wrong_answers:
+  - Ni rahisi kughushi, na inaweza kuunda suluhu za kupokea pesa zaidi kwa kubofya rahisi.
+  - Inadhibitiwa na mamlaka kuu ambayo inasambaza kwa uhuru mtaji kwa watumiaji.
+  - Sio jina bandia, kwa hivyo kila mtumiaji anajulikana na anaaminika.
+explanation: >-
+reviewed: true

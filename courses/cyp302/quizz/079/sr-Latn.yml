@@ -1,0 +1,9 @@
+question: Zašto je šifrovanje pomakom ranjivo na napade grubom silom?
+answer: Zato što ima samo 26 mogućih ključeva
+wrong_answers:
+  - Zato što koristi javni ključ
+  - Jer je zasnovan na simetričnoj enkripciji
+  - Zato što koristi nasumične brojeve
+explanation: |
+  Šifrovanje pomakom je lako podložno napadima grube sile jer ima samo 26 mogućih ključeva, od 0 do 25, zbog korišćenja modulo 26 koji zavisi od veličine alfabeta. Ne možete koristiti veće važeće ključeve, jer bi oni u svakom slučaju bili ekvivalentni ključu između 0 i 25. Stoga je dovoljno testirati svaki od njih da biste pronašli poruku.
+reviewed: false

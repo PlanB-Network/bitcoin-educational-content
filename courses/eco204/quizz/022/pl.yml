@@ -1,0 +1,10 @@
+question: Jaka jest główna cecha hiperinflacji według definicji Cagana?
+answer: Niezwykle wysoka miesięczna stopa inflacji
+wrong_answers:
+  - Niezwykle wysoka roczna stopa inflacji
+  - Niezwykle wysoka tygodniowa stopa inflacji
+  - Niezwykle wysoka dzienna stopa inflacji
+explanation: |
+  Zgodnie z definicją Cagana, hiperinflacja charakteryzuje się
+  niezwykle wysoką miesięczną stopą inflacji, która przekracza 50%.
+reviewed: false

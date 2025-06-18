@@ -1,0 +1,9 @@
+question: Među odgovorima, koji predstavlja jedan od glavnih ciljeva analize lanca?
+answer: Grupisanje različitih aktivnosti na Bitcoin-u kako bi se utvrdila jedinstvenost korisnika.
+wrong_answers:
+  - Optimizovanje performansi rudarenja na mreži.
+  - Upravljanje pravdom prema protokolu za sprovođenje zakona u skladu sa jurisdikcijama.
+  - Povećanje poverljivost Bitcoin transakcija.
+explanation: |
+  Jedan od ciljeva analize lanca je grupisanje različitih aktivnosti na Bitcoin-u kako bi se utvrdila jedinstvenost korisnika koji ih je izvršio. Nakon toga, biće moguće pokušati povezati ovaj skup aktivnosti sa stvarnim identitetom.
+reviewed: false

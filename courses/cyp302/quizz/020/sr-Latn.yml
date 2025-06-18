@@ -1,0 +1,9 @@
+question: Šta predstavlja operacija modulo u matematici?
+answer: Ostatak deljenja
+wrong_answers:
+  - Kvocijent deljenja
+  - Dvaput početni broj
+  - Broj koji deli bez ostatka
+explanation: |
+  Operacija modulo uključuje određivanje ostatka pri deljenju, na primer, 25 mod 4 jednako je 1 jer je ostatak deljenja 1.
+reviewed: false

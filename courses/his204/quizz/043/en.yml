@@ -1,0 +1,8 @@
+question: What book was Mirabeau imprisoned for?
+answer: The Theory of Taxation
+wrong_answers:
+  - L'Ami des Hommes
+  - Essay on the nature of commerce in general
+  - The Social Contract
+explanation: |
+  Mirabeau was imprisoned for "La Théorie de l'Impôt", a work in which he criticized the French tax system.

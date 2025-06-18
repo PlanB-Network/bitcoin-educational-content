@@ -1,0 +1,12 @@
+question: Je, ni ujumbe gani uliomo kwenye block ya kwanza ya Bitcoin Blockchain?
+answer: 03/jan/2009 Chansela akikaribia kupata dhamana ya pili kwa benki.
+wrong_answers:
+  - Tunaweza kushinda vita kuu katika mbio za silaha na kupata eneo jipya la uhuru kwa miaka kadhaa.
+  - Serikali ni nzuri katika kukata vichwa vya mitandao inayodhibitiwa na serikali kuu kama Napster, lakini mitandao safi ya P2P kama Gnutella na Tor inaonekana kushikilia yao wenyewe.
+  - Hakuna kati ya zilizo hapo juu.
+explanation: |
+  Kizuizi cha kwanza cha Bitcoin Blockchain, pia inajulikana kama
+  block ya Genesis, ina ujumbe 03/jan/2009
+  Kansela ukingoni mwa dhamana ya pili kwa benki, ambayo ni
+  jina la Wakati siku hiyo hadi Timestamp kizuizi cha Genesis.
+reviewed: true

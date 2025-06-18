@@ -1,0 +1,8 @@
+question: "Bitcoin Blockchain क्या है?"
+answer: सभी Bitcoin लेन-देनों का एक सार्वजनिक और अपरिवर्तनीय Ledger।
+wrong_answers:
+  - एक निजी और बदलने योग्य Ledger जिसमें सभी Bitcoin लेन-देन शामिल हैं।
+  - एक सार्वजनिक और परिवर्तनशील Ledger जिसमें सभी Bitcoin लेन-देन शामिल हैं।
+  - एक निजी और अपरिवर्तनीय Ledger जिसमें सभी Bitcoin लेन-देन शामिल हैं।
+explanation: >-
+reviewed: true

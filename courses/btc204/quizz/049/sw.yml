@@ -1,0 +1,10 @@
+question: Kwa nini opereta wa XOR anatumiwa katika BIP47?
+answer: Ili kusimba kwa njia fiche upakiaji wa malipo ya msimbo wa malipo wa mtumaji.
+wrong_answers:
+  - Ili kusimba kwa njia fiche mzigo wa malipo wa msimbo wa malipo wa mtumaji.
+  - Ili kusimba kwa njia fiche metadata ya msimbo wa malipo wa mtumaji.
+  - Ili kusimba kwa njia fiche metadata ya msimbo wa malipo wa mtumaji.
+explanation: |
+  Opereta wa XOR hutumika kusimba kwa ulinganifu upakiaji wa malipo ya msimbo wa malipo wa mtumaji katika BIP47.
+  
+reviewed: false

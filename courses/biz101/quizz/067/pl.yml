@@ -1,0 +1,9 @@
+question: Jaką rolę odgrywają narzędzia takie jak Zaprite i Musqet w profesjonalnym rozwiązaniu płatniczym?
+answer: Usprawniają one proces realizacji transakcji
+wrong_answers:
+  - Obsługują konwersję wielowalutową i wypłaty fiat
+  - Koncentrują się one na szyfrowaniu danych transakcji i zarządzaniu kluczami prywatnymi
+  - Służą one jako podstawowe systemy POS
+explanation: |
+  Zaprite i Musqet dodają ulepszenia w zakresie dostosowywania i raportowania do procesu płatności, uzupełniając podstawową infrastrukturę płatności.
+reviewed: false

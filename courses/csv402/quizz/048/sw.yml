@@ -1,0 +1,9 @@
+question: Je, ni dhana gani ya msingi nyuma ya itifaki ya RGB?
+answer: Uthibitishaji wa upande wa mteja kupitia ahadi za kriptografia za On-Chain
+wrong_answers:
+  - Uthibitishaji wa On-Chain na Turing-kamilisha kandarasi mahiri
+  - Matumizi ya kipekee ya miamala ambayo haijasimbwa kwa njia fiche ya Bitcoin
+  - Utekelezaji wa Contract kwenye Blockchain inayotolewa kwa kandarasi mahiri
+explanation: |
+  RGB inategemea muundo wa Client-side Validation ambapo ahadi (kupitia Taproot au OP_RETURN) huingizwa On-Chain, huku mantiki na data nyingi zikiwekwa off-chain.
+reviewed: false

@@ -1,0 +1,9 @@
+question: W jaki sposób Lightning Network pomaga obniżyć opłaty za transakcje Bitcoin?
+answer: Przeprowadzając większość transakcji off-chain i publikując tylko transakcje rozliczenia kanału na głównym Blockchain.
+wrong_answers:
+  - Usuwając wszelką weryfikację kryptograficzną z płatności.
+  - Poprzez scentralizowanie kontroli w jednym dużym centrum płatności.
+  - Wymagając od sprzedawców opłacenia wszystkich kosztów sieci z góry.
+explanation: |
+  Ponieważ transakcje Lightning odbywają się na off-chain, tylko końcowe stany kanału są rozliczane na Bitcoin Blockchain. Zmniejsza to zatory, a tym samym obniża opłaty, unikając dokonywania wielu transakcji On-Chain.
+reviewed: false

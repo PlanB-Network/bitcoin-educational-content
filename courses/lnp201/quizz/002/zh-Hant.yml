@@ -1,0 +1,9 @@
+question: 如果 Alice 從付款管道傳送 40,000 薩托希給 Bob，她最初有 100,000 薩托希，交易後她還剩多少資金？
+answer: 60,000 薩托希
+wrong_answers:
+  - 30,000 薩托希
+  - 40,000 薩托希
+  - 140,000 薩托希
+explanation: |
+  傳送 40,000 Satoshis 之後，Alice 在通道中的餘額是 60,000 Satoshis。
+reviewed: false

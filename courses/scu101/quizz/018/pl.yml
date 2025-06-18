@@ -1,0 +1,12 @@
+question: Jaka jest zalecana praktyka korzystania z konta administratora w systemie Windows?
+answer: Utwórz dwa oddzielne konta konto administratora i konto do codziennego użytku.
+wrong_answers:
+  - Używaj konta administratora do codziennego użytku, jeśli komputer nie jest podłączony do Internetu.
+  - Utwórz dwa oddzielne konta administratora; jedno do codziennego użytku i jedno do administrowania systemem operacyjnym.
+  - Nie należy tworzyć konta administratora.
+explanation: |
+  Używanie konta administratora do codziennego użytku w systemie Windows może
+  narazić system na większe ryzyko związane z bezpieczeństwem. Zaleca się
+  utworzenie dwóch oddzielnych kont; jednego do
+  zadań administracyjnych i drugiego do codziennego użytku.
+reviewed: true

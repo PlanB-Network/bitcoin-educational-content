@@ -1,0 +1,8 @@
+question: Je, ni takriban idadi gani ya nodi zilizosambazwa kote ulimwenguni kufikia Septemba 2023?
+answer: nodi 45,000.
+wrong_answers:
+  - Nodi 10,000.
+  - Nodi 100,000.
+  - nodi 500,000.
+explanation: >-
+reviewed: true

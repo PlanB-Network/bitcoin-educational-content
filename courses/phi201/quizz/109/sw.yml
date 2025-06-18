@@ -1,0 +1,9 @@
+question: Ni suluhisho gani lililopendekezwa na Hayek ili kuzuia utumwa?
+answer: Tetea mali ya kibinafsi na utaratibu wa hiari wa soko kama ngome dhidi ya udhalimu.
+wrong_answers:
+  - Anatetea ongezeko la ushuru ili kuwasaidia maskini.
+  - Anatoa wito wa kurudi kwa mfumo wa kiuchumi wa aina ya feudal.
+  - Kuelimisha umma juu ya sheria za barabara.
+explanation: |
+  Hayek anaamini kuwa uhuru wa mtu binafsi unalindwa kwa kulinda mali ya kibinafsi na kuruhusu soko kujisimamia, hivyo basi kuzuia mielekeo ya kimabavu na uwekaji mamlaka kati.
+reviewed: false

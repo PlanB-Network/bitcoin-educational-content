@@ -1,0 +1,9 @@
+question: Co w Lightning Invoice oznacza przedrostek lnbc w części czytelnej dla człowieka?
+answer: Wskazuje transakcję Lightning na Bitcoin Blockchain
+wrong_answers:
+  - Invoice jest ważny tylko na Bitcoin Testnet
+  - Invoice jest zakodowany w bech32
+  - Że jest to transakcja On-Chain
+explanation: |
+  Prefiks lnbc oznacza, że Invoice dotyczy transakcji Lightning w sieci Bitcoin, a nie w innej sieci.
+reviewed: false

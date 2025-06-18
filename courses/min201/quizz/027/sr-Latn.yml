@@ -1,0 +1,9 @@
+question: Zašto je Proof of Work esencijalan u Bitcoin mreži?
+answer: Predstavlja fizičku vezu između stvarnog sveta i Bitcoin, zahtevajući opipljivu energiju za proizvodnju i validaciju bitkoina i blokova.
+wrong_answers:
+  - Omogućava učešće malih razmera za rudare, posebno za one na lokacijama sa visokim stepenom cenzure.
+  - To garantuje zaštitu protiv centralizacije.
+  - Ona odražava postojeće nejednakosti moći u društvu.
+explanation: |
+  Proof of Work je ključan u mreži Bitcoin jer predstavlja fizičku vezu između stvarnog sveta i Bitcoin. Proizvodnja i validacija bitkoina i blokova zahtevaju opipljivu energiju, što usidruje mrežu Bitcoin u fizičku stvarnost i sprečava njenu potpunu dominaciju od strane moćnih entiteta.
+reviewed: true

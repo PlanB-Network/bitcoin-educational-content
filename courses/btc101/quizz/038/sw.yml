@@ -1,0 +1,12 @@
+question: Je, ni idadi gani ya juu zaidi ya vitengo vya Bitcoin vinavyoweza kuwepo?
+answer: milioni 21.
+wrong_answers:
+  - 3 trilioni.
+  - milioni 100.
+  - Hakuna kikomo.
+explanation: |
+  Jumla ya Supply ya Bitcoin imefikia vitengo milioni 21.
+  Hiki ni kipengele muhimu cha Bitcoin kinachoitofautisha
+  kutoka kwa sarafu za uaminifu, ambazo zinaweza kuchapishwa
+  kiasi cha ukomo na benki kuu.
+reviewed: true

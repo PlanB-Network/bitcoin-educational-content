@@ -1,7 +1,7 @@
 question: Qual è l'importanza della distribuzione geografica dei nodi Bitcoin?
 answer: Rende praticamente impossibile distruggere tutte le copie della blockchain.
 wrong_answers:
-  - Determina il prezzo del Bitcoin in diverse regioni.
+  - Determina il prezzo di Bitcoin in diverse regioni.
   - Influenza la velocità delle transazioni Bitcoin.
   - Determina il numero di bitcoin che possono essere minati in una regione.
 explanation: |

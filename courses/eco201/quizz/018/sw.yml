@@ -1,0 +1,14 @@
+question: Je, ni dhana gani ya faida kamili katika muktadha wa mgawanyo wa kazi?
+answer: Mtu ana uwezo wa juu wa kufanya kazi fulani kuliko wenzake.
+wrong_answers:
+  - Mtu ana uwezo wa juu wa kufanya kazi zote kuliko wenzake.
+  - Mtu ana uwezo sawa wa kufanya kazi fulani kama wenzake.
+  - Mtu binafsi ana uwezo duni wa kufanya kazi fulani kuliko yake
+explanation: |
+  Katika muktadha wa mgawanyiko wa kazi, faida kamili
+  inahusu hali ambapo mtu ana mkuu
+  uwezo wa kufanya kazi fulani kuliko wenzake. Hii
+  mtu binafsi basi ana nia ya utaalam katika
+  uzalishaji wa hicho kizuri na kisha kubadilishana ziada
+  kupatikana kwa bidhaa wanazotaka.
+reviewed: true

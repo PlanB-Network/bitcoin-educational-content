@@ -1,0 +1,9 @@
+question: 如果我們觀察一個輸入有 1 個 UTXO 而輸出有 43 個 UTXO 的交易，我們可以識別出什麼模式？
+answer: 分批支出
+wrong_answers:
+  - 鞏固
+  - 簡化的付款方式
+  - 合作交易
+explanation: |
+  這種模式的解釋是，我們正在處理的是分批支出。這種結構允許 Exchange 平台等實體將支出歸類為單一交易，從而節省費用。
+reviewed: false

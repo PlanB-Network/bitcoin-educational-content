@@ -1,0 +1,9 @@
+question: Bitcoin को कितने दशमलव स्थानों तक विभाजित किया जा सकता है?
+answer: आठ
+wrong_answers:
+  - छह
+  - बारह
+  - सात
+explanation: |
+  एक Bitcoin को आठ दशमलव स्थान तक बाँटा जा सकता है, जिसमें एक इकाई को Satoshi या सैट कहा जाता है।
+reviewed: false

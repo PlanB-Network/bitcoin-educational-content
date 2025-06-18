@@ -1,0 +1,8 @@
+question: چه ثابتی برای استخراج کلید خصوصی اصلی از seed استفاده می‌شود؟
+answer: Bitcoin seed
+wrong_answers:
+  - کلید اصلی
+  - HD Wallet seed
+  - Blockchain Root
+explanation: |
+  ثابت Bitcoin seed به عنوان یک کلید در تابع HMAC-SHA512 استفاده می‌شود تا کلید خصوصی اصلی و chain code اصلی را استخراج کند.

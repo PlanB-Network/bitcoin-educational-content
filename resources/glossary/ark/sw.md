@@ -1,0 +1,5 @@
+---
+term: SAFU
+---
+
+Itifaki mpya ya pili ya Layer ilizinduliwa na Burak mnamo Mei 2023. Kama Lightning Network, Ark ni mfumo unaofanya kazi juu ya Bitcoin Blockchain kuu. Itawezesha malipo katika bitcoins off-chain kwa njia ya haraka, isiyojulikana, na ya gharama nafuu. Ikilinganishwa na Umeme, Ark haihitaji ukwasi unaoingia ili kupokea malipo, ambayo huboresha sana matumizi ya mtumiaji. Zaidi ya hayo, inatoa faragha sawa na miamala ya CoinJoin, ilhali Umeme ni mfano duni wa kulinda faragha. Hatimaye, Ark inaweza pia kuwa isiyoingiliana ikiwa maagano yataongezwa kwa Bitcoin. Burak mara nyingi anakosoa kuongezeka kwa umeme kwa sababu ya utegemezi wake kwa mnyororo mkuu na anapendekeza kwamba Ark inaweza kinadharia kuchukua idadi ya watu ulimwenguni katika kujilinda. Ingawa Ark inaweza kuonekana kama itifaki shindani kwa Lightning Network, zote mbili zinaweza kuishi pamoja. Wanaweza hata kuwa nyongeza. Hata hivyo, ni muhimu kutambua kwamba, kwa sasa, Safina ni dhana tu. Burak bado hajafichua kanuni za uvumbuzi wake.

@@ -1,0 +1,9 @@
+question: Kada je Lightning kanal zvanično otvoren?
+answer: Kada je transakcija depozita potvrđena na Bitcoin Blockchain
+wrong_answers:
+  - Čim se javni ključevi razmene između učesnika
+  - Kada transakciju povlačenja potpišu obe strane
+  - Čim se kreira 2/2 multisignature Address
+explanation: |
+  Kanal se smatra otvorenim kada je transakcija depozita uključena u Bitcoin blok i dostigne određeni broj potvrda.
+reviewed: false

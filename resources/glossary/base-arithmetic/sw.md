@@ -1,0 +1,5 @@
+---
+term: BASE (ARITHMETIC)
+---
+
+Msingi ni mfumo wa kuhesabu ambao hutumia idadi isiyobadilika ya wahusika kuwakilisha nambari zote zinazowezekana. Msingi huamua idadi ya alama tofauti zinazopatikana ili kuwakilisha tarakimu katika mfumo huu. Kwa mfano, mfumo unaojulikana zaidi katika maisha yetu ya kila siku ni msingi wa 10, unaoitwa pia mfumo wa decimal. Inatumia alama kumi tofauti `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` kuwakilisha nambari zote. Mifumo mingine ya kuhesabu ambayo hutumiwa kwa kawaida katika nyanja za kompyuta na hisabati ni pamoja na mfumo wa jozi (msingi 2), wenye alama mbili `(0, 1)`, na mfumo wa heksadesimali (msingi wa 16), wenye alama kumi na sita `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, D, E, C). Katika muktadha wa Bitcoin, wakati mwingine unaweza kukutana na usimbaji katika base 58 au katika msingi uliorekebishwa 32 (unaoitwa `Bech32`).

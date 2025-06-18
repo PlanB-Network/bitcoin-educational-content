@@ -1,11 +1,9 @@
-question: Mis on kaks vastandlikku ideoloogiat Bitcoini maailmas?
-answer: Tuua pangandussüsteemist välja jäänud inimesed pangandussüsteemi ja viia need, kes on pangandussüsteemis, sellest välja
+question: Kes on Lightning Network leiutajad?
+answer: Thaddeus Dryja ja Joseph Poon
 wrong_answers:
-  - Teha kõik rikkaks ja teha kõik vaeseks
-  - Koondada võim ja hajutada võim
-  - Edendada privaatsust ja edendada läbipaistvust
+  - Andreas Antonopoulos ja Adam Back
+  - Pieter Wuille ja Gregory Maxwell
+  - Satoshi Nakamoto ja Hal Finney
 explanation: |
-  Peatükk mainib kahte vastandlikku ideoloogiat Bitcoini maailmas.
-  Üks on tuua miljardid inimesed, kes ei ole pangandussüsteemis, sellesse.
-  Teine on viia miljardid inimesed, kes on pangandussüsteemis, sellest välja.
+  Thaddeus Dryja ja Joseph Poon leiutasid 2016. aastal Lightning Network, et parandada Bitcoin skaleeritavust.
 reviewed: false

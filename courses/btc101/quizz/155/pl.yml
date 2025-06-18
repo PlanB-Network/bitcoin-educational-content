@@ -1,0 +1,8 @@
+question: Czym jest Coinbase Transaction?
+answer: Pierwsza transakcja bloku zawierającego nagrodę Miner.
+wrong_answers:
+  - Transakcja przeprowadzona na Exchange Coinbase.
+  - Druga transakcja w bloku, która zawiera najwyższe opłaty.
+  - Transakcja przeprowadzona przez Miner po otrzymaniu nagrody.
+explanation: >-
+reviewed: true

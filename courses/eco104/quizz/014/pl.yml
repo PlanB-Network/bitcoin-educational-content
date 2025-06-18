@@ -1,0 +1,11 @@
+question: Jaka jest rola kluczy prywatnych w transakcjach Bitcoin?
+answer: Służą one do podpisywania i autoryzacji transakcji.
+wrong_answers:
+  - Służą one do weryfikacji autentyczności transakcji.
+  - Służą one do szyfrowania danych transakcji.
+  - Są one udostępniane publicznie w celu zapewnienia przejrzystości.
+explanation: |
+  Klucze prywatne są istotnym elementem transakcji Bitcoin.
+  Są one używane do podpisywania i autoryzowania transakcji, zapewniając dowód
+  gW-1 i zapewnienia, że tylko właściciel może wydać swoje Bitcoin.
+reviewed: true

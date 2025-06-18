@@ -1,0 +1,10 @@
+question: Ile wynosi nagroda BTC po czwartym Halving?
+answer: 3.125 BTC.
+wrong_answers:
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Po czwartym Halving, który ma miejsce na wysokości bloku
+  840 000, nagroda w BTC za Mining wynosi 3,125 BTC.
+reviewed: true

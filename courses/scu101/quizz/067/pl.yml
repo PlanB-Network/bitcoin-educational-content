@@ -1,0 +1,13 @@
+question: Jakie są główne obawy związane z pojedynczym logowaniem (SSO) oferowanym przez internetowych gigantów?
+answer: Stwarza to problemy pod względem dostępności i ryzyka cenzury.
+wrong_answers:
+  - Jest trudny w użyciu.
+  - Wymaga dużo miejsca do przechowywania.
+  - Nie jest kompatybilny ze wszystkimi stronami internetowymi.
+explanation: |
+  Pojedyncze logowanie (SSO) oferowane przez gigantów internetowych stwarza
+  problemy pod względem dostępności i ryzyka cenzury.
+  Dzieje się tak, ponieważ jeśli dostawca SSO doświadczy awarii
+  lub zdecyduje się zablokować użytkownika, może on utracić dostęp do
+  wszystkich usług, które używają tego SSO do uwierzytelniania.
+reviewed: true

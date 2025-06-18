@@ -1,0 +1,9 @@
+question: RGB 適用於數位世界的歷史概念是什麼？
+answer: 不記名票據
+wrong_answers:
+  - 集中式資料庫
+  - 未經驗證的對等網路
+  - 所有人都可存取的開放式登錄器
+explanation: |
+  RGB 將承載工具的概念轉換為數位。
+reviewed: false

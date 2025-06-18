@@ -1,0 +1,9 @@
+question: Jaki jest całkowity rozmiar klucza rozszerzonego z sumą kontrolną?
+answer: 82 bajty
+wrong_answers:
+  - 78 bajtów
+  - 64 bajty
+  - 128 bajtów
+explanation: |
+  Klucz rozszerzony składa się z 78 bajtów bez sumy kontrolnej i 82 bajtów z sumą kontrolną.
+reviewed: false

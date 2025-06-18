@@ -1,0 +1,9 @@
+question: Koji sighash flag omogućava crowdfunding pokrivanjem jednog ulaza i svih izlaza?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL kombinovano sa SIGHASH_ANYONECANPAY omogućava dodavanje ulaza bez modifikovanja izlaza.
+reviewed: false

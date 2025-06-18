@@ -1,0 +1,9 @@
+question: 發送節點在 Lightning Network 上的路由中主要扮演什麼角色？
+answer: 計算到收件人的完整路線
+wrong_answers:
+  - 儲存所有網路頻道的流動性資訊
+  - 確定每個中介節點的交易費用
+  - 直接與所有中介節點通訊
+explanation: |
+  由於中間節點只知道自己的近鄰，因此發送節點負責計算到接收者的整個路徑。
+reviewed: false

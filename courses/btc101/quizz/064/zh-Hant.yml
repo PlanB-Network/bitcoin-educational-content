@@ -1,0 +1,12 @@
+question: 驗證 Bitcoin 節點上流通的 bitcoins 數量的指令是什麼？
+answer: bitcoin-cli gettxoutsetinfo。
+wrong_answers:
+  - bitcoin-cli getblockchaininfo。
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo。
+explanation: |
+  在 Bitcoin 節點上驗證流通中的 bitcoins 數量的指令是 bitcoin-cli
+  在 Bitcoin 節點上流通的比特幣數量的命令是 bitcoin-cli
+  gettxoutsetinfo.這個命令提供了透明度和
+  可驗證，加強了對 Bitcoin 系統的信任。
+reviewed: true

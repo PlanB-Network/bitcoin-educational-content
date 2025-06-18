@@ -1,0 +1,9 @@
+question: Ni kazi gani ya Hash inayotumiwa na HMAC katika muktadha wa Bitcoin?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC hutumia SHA512 kutoa Hash salama ya 512-bit.
+reviewed: false

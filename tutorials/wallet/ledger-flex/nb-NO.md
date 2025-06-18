@@ -176,6 +176,10 @@ Passordfrasen er et veldig kraftig verktøy for å øke sikkerheten til bitcoins
 
 ![LEDGER FLEX](assets/notext/29.webp)
 
+Passfrasen er et svært kraftig verktøy for å styrke sikkerheten til dine bitcoins. Det er imidlertid veldig viktig å forstå hvordan den fungerer før du implementerer den, for å unngå å miste tilgang til lommeboken din. Derfor forklarer jeg alt i en egen veiledning:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Til slutt, på den siste innstillingssiden, kan du tilbakestille hovedboken din. Du bør kun tilbakestille hovedboken hvis du er sikker på at den ikke inneholder noen nøkler som sikrer bitcoins, da du kan miste tilgangen til pengene dine permanent.
 
 ![LEDGER FLEX](assets/notext/30.webp)

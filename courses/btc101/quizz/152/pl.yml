@@ -1,0 +1,8 @@
+question: Czym jest Hashrate?
+answer: Liczba obliczeń Hash, które urządzenie Mining może wykonać na sekundę w celu rozwiązania Proof of Work.
+wrong_answers:
+  - Szybkość, z jaką urządzenie Mining może rozwiązać Proof of Work.
+  - Całkowita liczba górników w sieci Bitcoin.
+  - Całkowita ilość bitcoinów wydobytych poprzez wykonanie określonej liczby prób na sekundę w celu rozwiązania Proof of Work.
+explanation: >-
+reviewed: true

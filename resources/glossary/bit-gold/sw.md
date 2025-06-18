@@ -1,0 +1,5 @@
+---
+term: DHAHABU KIDOGO
+---
+
+Bit Gold ni mfumo wa sarafu ya dijiti uliogatuliwa uliopitishwa na Nick Szabo mnamo 1998 na kuelezewa hadharani mnamo 2005. Dhahabu kidogo iliundwa kwa generate na Exchange rasilimali pepe inayoitwa dhahabu kidogo. Mfumo huu haukutegemea wema wowote wa kimwili bali ulilenga kuunda aina ya uhaba usioweza kusahaulika. Itifaki ya dhahabu kidogo ilitegemea uundaji wa sarafu kupitia Proof of Work, ambapo vipande vya dhahabu kidogo viliundwa kwa kutumia uwezo wa kukokotoa wa kompyuta, na hivyo kutengeneza msururu wa Proof of Work. Kila Proof of Work iliwekwa muhuri wa nyakati na kisha kuongezwa kwenye sajili ya mali. Uthibitishaji na uhamisho wa bit gold Ownership ulifanyika kupitia rejista ya umma, ambapo watumiaji walitambuliwa na funguo za umma. Dhahabu kidogo ilibaki katika hatua ya dhana na haikutekelezwa kamwe. Mfumo huu ni mojawapo ya watangulizi wa Bitcoin, pamoja na b-pesa na RPoW, lakini Satoshi haikuonekana kuwa na ufahamu wa kuwepo kwake kabla ya kuundwa kwa Bitcoin. Ilitajwa baadaye kwenye tovuti na jukwaa la Bitcoin.

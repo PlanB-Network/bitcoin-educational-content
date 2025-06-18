@@ -1,0 +1,13 @@
+question: Šta je preporučena upotreba Multisig Wallet?
+answer: Skladištenje velikih količina za korporativnu upotrebu.
+wrong_answers:
+  - Skladištenje malih količina za ličnu upotrebu.
+  - Skladištenje srednjih količina za neprofitnu upotrebu.
+  - Čuvanje dnevnih troškova za ličnu upotrebu.
+explanation: |
+  Preporučuje se Multisig Wallet za skladištenje velikih količina
+  i za korporativnu upotrebu jer zahteva više
+  potpisa za obavljanje transakcije. Ovaj proces dodaje dodatni
+  Layer sigurnosti, jer jedna osoba ne može
+  izvršiti transakciju bez odobrenja drugih.
+reviewed: true

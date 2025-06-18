@@ -1,0 +1,9 @@
+question: 如果我們觀察到一筆交易有 6 個 UTXO 作為輸入，而只有一個 UTXO 作為輸出，我們可以得出什麼樣的解釋？
+answer: 所有輸入的 UTXO 都屬於同一個使用者，而這個使用者仍擁有輸出的 UTXO。
+wrong_answers:
+  - 輸入中的 UTXOs 來自合作進行單一交易的不同使用者。
+  - 所有輸入中的 UTXO 都屬於同一個使用者，而輸出中的 UTXO 現在則屬於另一個使用者。
+  - 輸入中的 UTXOs 來自 2 個不同的使用者，而輸出中的 UTXOs 仍然屬於這 2 個使用者。
+explanation: |
+  我們很可能是在合併的情況下。因此，輸入和輸出有一個共同的 Ownership。
+reviewed: false

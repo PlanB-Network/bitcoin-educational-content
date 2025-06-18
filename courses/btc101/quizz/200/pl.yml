@@ -1,0 +1,12 @@
+question: Czym jest spontaniczny zakup?
+answer: Natychmiastowy zakup Bitcoin w celu uzyskania ekspozycji.
+wrong_answers:
+  - Kupowanie Bitcoin w regularnych odstępach czasu.
+  - Kupię Bitcoin tylko wtedy, gdy cena spadnie.
+  - Kupowanie Bitcoin tylko wtedy, gdy cena wzrośnie.
+explanation: |
+  Tekst kursu wyjaśnia, że spontaniczny zakup jest
+  służy do natychmiastowego uzyskania ekspozycji na Bitcoin. Na przykład,
+  może oznaczać zakup podczas krachu lub skorzystanie z
+  bonusu.
+reviewed: true

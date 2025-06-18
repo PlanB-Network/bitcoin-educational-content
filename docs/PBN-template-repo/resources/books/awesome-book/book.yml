@@ -1,5 +1,6 @@
+# UUID of the project
+# generate a random uuid v4
 id: 8ed68077-fb71-4611-b3f4-b9d051c19e7c
-## Book's characteristics
 
 # author
 # Cite who's the author
@@ -7,12 +8,28 @@ author: DerGigi
 
 # level
 # Define the difficulty of the book
-# Choose between beginner, intermediate, expert, wizard
+# Choose between beginner, intermediate, advanced, expert
 level: intermediate
 
-# tags
-# List the associated tags to the author
-# The list of tags is composed of 21 items that can be found here (list not yet available) 
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: YYYY-MM-DD
+    urgency: # leave as empty
+    contributor_names:
+      - author_github_username #insert your github username
+    reward: # leave as empty
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
   - bitcoin
-  - technology
+  - finance
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
+contributor_names:
+  - author1_github_username #insert your github username

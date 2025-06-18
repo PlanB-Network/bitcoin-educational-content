@@ -1,0 +1,8 @@
+question: 考慮到每 10 分鐘 1 個 1MB 的區塊，執行 Bitcoin 節點的頻寬需求是多少？
+answer: 每月約 5GB。
+wrong_answers:
+  - 每月約 1GB。
+  - 每月約 10GB。
+  - 每月約 20GB。
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni aina gani ya mashambulizi ambayo nambari ya mfuatano inaweza kuzuia katika kipindi cha mawasiliano salama?
+answer: Cheza tena na upange upya mashambulizi
+wrong_answers:
+  - Mashambulizi ya kuingilia tu
+  - Kunyimwa mashambulizi ya huduma
+  - Mashambulizi muhimu ya kudanganya
+explanation: |
+  Nambari ya mfuatano katika kila ujumbe huzuia uchezaji tena na kupanga upya mashambulizi, kwani inaruhusu uthibitishaji wa mpangilio na upekee wa ujumbe.
+reviewed: false

@@ -33,7 +33,7 @@ As mentioned earlier, the most well-known structure of a collaborative transacti
 ![Diagram of a Coinjoin transaction on Whirlpool](assets/1.webp)
 
 An external observer of this transaction will be unable to know which output belongs to which user as input. If we take the example of user #4 (purple), we can recognize their input UTXO, but we will not know which of the 5 outputs is actually theirs. The initial information is not hidden, but rather confused within a group.
-The user is able to deny the possession of a certain UTXO as output. This phenomenon is called "plausible deniability", and it allows for confidentiality in a transparent Bitcoin transaction.
+The user is able to deny the possession of a certain UTXO as output. This phenomenon is called "plausible deniability", and it allows for privacy in a transparent Bitcoin transaction.
 
 To learn more about Coinjoin, I explain EVERYTHING in this long article: Understanding and using CoinJoin on Bitcoin.
 
@@ -41,7 +41,7 @@ Although very effective in breaking the tracing of a UTXO, Coinjoin is not suita
 
 ## The StonewallX2 transaction
 
-Among the myriad of spending tools offered on Samourai Wallet, there is the collaborative transaction StonewallX2. It is a mini Coinjoin between two users designed for payment. From the outside, this transaction can lead to several possible interpretations. It thus provides plausible deniability and consequently, confidentiality for the user.
+Among the myriad of spending tools offered on Samourai Wallet, there is the collaborative transaction StonewallX2. It is a mini Coinjoin between two users designed for payment. From the outside, this transaction can lead to several possible interpretations. It thus provides plausible deniability and consequently, privacy for the user.
 
 This StonewallX2 collaborative transaction setup is available on Samourai Wallet and Sparrow Wallet. This tool is interoperable between the two software.
 

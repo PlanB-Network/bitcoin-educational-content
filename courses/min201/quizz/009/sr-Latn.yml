@@ -1,0 +1,13 @@
+question: Koja je uloga softvera u Bitcoin Mining i kako doprinosi efikasnosti?
+answer: Softver u Bitcoin Mining, kao što je BrainsOS Plus, zamenjuje originalni operativni sistem mašine Mining, omogućavajući da se iste operacije izvode efikasnije. Može povećati efikasnost mašine za 25%, što znači da za ekvivalentnu količinu električne energije, mašina može proizvesti dodatnih 25% Hashrate, čime se povećavaju nagrade koje prima Miner.
+wrong_answers:
+  - Softver u Bitcoin Mining se koristi za praćenje količine iskopanog Bitcoin i ne doprinosi efikasnosti.
+  - Softver u Bitcoin Mining samo obezbeđuje bolju internet konekciju za Mining mašinu, može povećati efikasnost takve mašine za 14%, ako se koristi jedan od najnovijih protokola.
+  - Softver u Bitcoin Mining se koristi za hlađenje mašine Mining i ne doprinosi efikasnosti.
+explanation: |
+  Poglavlje objašnjava da softver poput BrainsOS Plus može
+  zameniti originalni operativni sistem mašine Mining,
+  omogućavajući da se iste operacije obavljaju efikasnije.
+  Ova optimizacija softvera je ključni element konkurentnosti
+  u Bitcoin Mining.
+reviewed: true

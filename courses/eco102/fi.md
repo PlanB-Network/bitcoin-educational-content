@@ -26,7 +26,32 @@ Liity Damien Theillierin mukaan tähän rikastavaan tutkimusmatkaan Frédéric B
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Kurssin esittely
+## Kurssin yleiskatsaus
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Tämän koulutuksen tavoitteena on tarjota sinulle syvällinen ymmärrys Frédéric Bastiat'n elämästä, älyllisistä vaikutteista, ideologisista vastustajista ja talousteorioista. Tämän jäsennellyn oppimismatkan avulla huomaat, kuinka hänen ajatuksensa ovat muokanneet taloudellista ajattelua ja vaikuttavat edelleen nykyisiin keskusteluihin.
+
+**Osa 1: Johdanto**  
+Aloitamme yleiskatsauksella Frédéric Bastiat'sta, taloustieteen unohdetusta nerosta. Opit tuntemaan hänen elämänsä, älyllisen kehityksensä ja historiallisen kontekstin, jossa hän kehitti ajatuksiaan. Tämän viitekehyksen ymmärtäminen on olennaista, jotta voisit täysin ymmärtää hänen kirjoitustensa ja teorioidensa merkityksen.
+
+**Osa 2: Vaikutteet**  
+Jatkamme analyysillä ajattelijoista, jotka muokkasivat Frédéric Bastiat'n taloudellista ajattelua. Saat tietää, kuinka merkittävät henkilöt, kuten Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer ja Richard Cobden vaikuttivat hänen älylliseen kehitykseensä ja loivat perustan hänen pohdinnoilleen vapaakaupasta ja markkinataloudesta.
+
+**Osa 3: Vastustajat**  
+Seuraavaksi tutkimme Bastiat'n kritiikkiä hänen ideologisia vastustajiaan kohtaan. Olipa kyseessä Rousseau, klassinen koulutus, protektionismi, sosialismi tai Proudhon, ymmärrät, miksi Bastiat piti näitä oppeja esteinä taloudelliselle ja sosiaaliselle edistykselle ja kuinka hän vastasi heidän argumentteihinsa terävällä logiikalla.
+
+**Osa 4: Taloudelliset Sofismit**  
+Tämä osa on omistettu Bastiat'n paljastamille taloudellisille sofismeille, kuten kuuluisat "*Mitä nähdään ja mitä ei nähdä*" ja "*Kynttiläntekijöiden vetoomus*". Tarkastelemme, kuinka hän satiirin ja tarkan analyysin avulla osoitti aikansa yleiset taloudelliset virheet, jotka ovat yhä ajankohtaisia.
+
+**Osa 5: Taloudelliset Harmoniat**  
+Tässä osiossa tutustut Bastiat'n positiiviseen näkemykseen taloudesta. Käymme läpi käsitteitä, kuten markkinoiden ihme, yksilön vastuun voima ja oikean ja väärän solidaarisuuden ero. Bastiat näki talouden johdonmukaisena järjestelmänä, jossa hyvin ymmärretty henkilökohtainen etu hyödyttää yhteistä hyvää. Tarkastelemme, miksi näin on.
+
+**Osa 6: Laki**  
+Kurssin lopuksi sukellamme Bastiat'n pääteokseen "*Laki*", jossa hän esittää näkemyksensä omaisuudensuojasta, laillisesta ryöstöstä ja valtion rajallisesta roolista. Ymmärrät, miksi tätä esseetä pidetään yhtenä vaikuttavimmista manifesteista yksilönvapauden ja markkinatalouden puolesta.
+
+Oletko valmis selvittämään, kuinka Frédéric Bastiat'n ajatukset voivat edelleen resonoida nykypäivänä? Liity mukaan tälle älylliselle matkalle, joka saattaa haastaa käsityksesi taloustieteestä!
+
+## Bastiat: Tuntematon nero
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -126,6 +151,14 @@ Mitä Adam Smith osoittaa, on että voi palvella omaa etuaan vain palvelemalla m
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Jokaisen yksilön luonnollinen pyrkimys parantaa omaa tilaansa... on niin voimakas, että se yksin, ilman minkäänlaista apua, pystyy paitsi viemään yhteiskunnan varallisuuteen ja vaurauteen, myös voittamaan sata turhaa estettä, joilla inhimillisten lakien typeryys usein haittaa sen toimintaa.“  
+>_Kansojen varallisuus_  
+>_Kirja IV, Luku V_
+
+---
+
 Vaihto on positiivinen summapeli. Mitä toinen voittaa, toinenkin voittaa. Se eroaa näin poliittisesta uudelleenjaosta, jossa on aina voittaja ja häviäjä. Jos tarkastelemme englantilaista koulukuntaa, Smithille, Ricardolle ja heitä ennen Lockelle, arvo liittyy työhön. Marxille se on sama.
 
 ![image](assets/en/018.webp)
@@ -138,6 +171,12 @@ Mutta Bastiat myös tarkensi Sayn näkemystä tässä asiassa. Kyse ei ole asioi
 Talous noudattaa joukkoa yksinkertaisia lakeja, jotka juontuvat ihmiskäyttäytymisestä. Yksi niistä, kutsuttu "Sayn laki", kuuluu seuraavasti: "Tuotteet ja palvelut vaihdetaan tuotteisiin ja palveluihin." Hänen ideansa on, että kansakunnat ja yksilöt hyötyvät tuotannon tason kasvusta, koska se tarjoaa lisääntyneitä mahdollisuuksia molemminpuolisesti hyödyllisiin vaihtoihin.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Yksilönvapaus = Sosiaalinen harmonia
+
+---
 
 Todellakin, tuotteita ostetaan vain odotuksessa palveluista, joita ostaja odottaa: Ostan levyn kuunnellakseni sen musiikkia, ostan elokuvalipun nähdäkseni elokuvan. Ja vaihdossa kumpikin osapuoli päättää, koska se katsoo, että se voi saada enemmän palveluksia siitä, mitä se hankkii, kuin mitä se luopuu. Tässä kontekstissa raha on vain välituote, se korvaa suoritetun palveluksen ja avaa muita palveluksia.
 
@@ -316,9 +355,14 @@ Bastiat pitää todellakin Rousseauta sosialismin ja kollektivismin todellisena 
 
 Alun perin ihminen on vain porvari. Mutta porvari on laskelmoija; hän haluaa välittömän nautintonsa, hän on orjuutettu aisteilleen, toiveilleen, omalle erityiselle edulleen. Lyhyesti sanottuna, hän ei ole rationaalinen, siksi hän ei ole vapaa. Hänen täytyy oppia ymmärtämään, että hänen todellinen etunsa on yleinen etu. Tämän vuoksi Rousseau kirjoitti Sosiaalisopimuksessa:
 
-> Kuka tahansa, joka kieltäytyy tottelemasta yleistä tahtoa, pakotetaan koko yhteisön toimesta: tämä tarkoittaa muuta kuin että heidät pakotetaan olemaan vapaita.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Jokainen, joka kieltäytyy tottelemasta yleistä tahtoa, pakotetaan siihen koko yhteisön toimesta: mikä ei tarkoita muuta kuin että hänet pakotetaan olemaan vapaa.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Tämän opin mukaan ihmisellä on sisällään kaksi tahtoa: tahto, joka pyrkii henkilökohtaiseen etuun, porvarin tahto, ja tahto, joka pyrkii yleiseen etuun, kansalaisen tahto. Johtamaan ihmisiä, vaikka väkisin, haluamaan rationaalista päämäärää, yleistä etua, on johtamista ihmisiä tulemaan vapaiksi. Mitä he todella haluavat, on rationaalinen päämäärä, vaikka he eivät sitä tiedä.
 Rousseau'n mukaan on siis täysin oikeutettua pakottaa ihmisiä nimissä päämäärän, jonka he itse, jos olisivat olleet valistuneempia, olisivat tavoitelleet, mutta jota he eivät tavoittele, koska ovat sokeita, tietämättömiä tai korruptoituneita. Yhteiskunta on perustettu pakottamaan heidät tekemään sen, mitä heidän spontaanisti pitäisi haluta, jos he olisivat valistuneita. Ja näin tehdessään ei tehdä heille väkivaltaa, koska johdatetaan heidät olemaan "vapaita", eli tekemään oikeita valintoja, valintoja, jotka ovat linjassa heidän todellisen minänsä kanssa.
@@ -527,6 +571,12 @@ Vuonna 1840 edustajainhuone äänesti lain puolesta, joka kasvatti tuontiveroja 
 Bastiat kirjoitti tuolloin satiirisen tekstin, josta myöhemmin tuli yksi hänen tunnetuimmista teoksistaan: "kynttiläntekijöiden vetoomus". Se havainnollistaa, kuinka tietyt hyvin järjestäytyneet tuottajien painostusryhmät saavat valtiolta kohtuuttomia etuoikeuksia kansalaisten kustannuksella. Samalla se osoittaa protektionistisen lainsäädännön absurdiuden ja tuhoisuuden.
 
 ![image](assets/en/079.webp)
+
+---
+
+>SUOJELKAA KYNTTILÖITÄMME!
+
+---
 
 Tässä vetoomuksessa kynttiläntekijät pyytävät edustajilta laillista suojelua vaarallista kilpailijaa vastaan:
 
@@ -792,6 +842,12 @@ Se, että ihminen riskeeraa tekevänsä virheitä tai toimivansa väärin ja kä
 
 ![kuva](assets/en/110.webp)
 
+---
+
+>Virhe on inhimillinen.
+
+---
+
 Näin on selvää, että Bastiat ei ole sokea. Hän ei kiellä pahan olemassaoloa. Ihminen on heikko, altis virheille ja vioille. Missään ei näe Bastiatin kieltävän sitä tosiasiaa, että yksilön vapauden harjoittaminen liittyy virheen mahdollisuuteen, järjettömän tai mielettömän valinnan mahdollisuuteen.
 
 Hän yksinkertaisesti väittää, että jos pahan lähde on vapauden puutteessa, ratkaisu on vapaudessa itsessään, ja tarkemmin sanottuna henkilökohtaisen vastuun täydessä ja kokonaisvaltaisessa harjoittamisessa.
@@ -831,6 +887,15 @@ Ja jälleen:
 
 ![image](assets/en/116.webp)
 
+---
+
+>GUISYn  
+>Keskinäisen avun  
+>yhdistys  
+>1899
+
+---
+
 Bastiatin mukaan on kuitenkin vaihtoehto valtion pakolliselle solidaarisuudelle: "keskinäinen avunantoyhteisö"
 
 miesten keskinäinen ja spontaani avunanto keskenään kiitos keskinäisen avun yhteisöjen. Mutta hän ennusti myös, että valtio lopulta kaappaisi nämä keskinäiset yhteisöt tehdäkseen niistä yksittäisen ja keskitetyn elimen, kannustaen kulutukseen ja tuhlaukseen.
@@ -840,6 +905,16 @@ miesten keskinäinen ja spontaani avunanto keskenään kiitos keskinäisen avun 
 Pamfletissa nimeltä "Oikeus ja Veljeys", Bastiat tutkii myös yksinkertaistetun ja oikeudenmukaisen verotusjärjestelmän ideaa kollektiivisten tarpeiden (poliisi, oikeuslaitos, armeija) rahoittamiseksi: tulot ja voitot olisivat alaisia yhdelle ja suhteelliselle verokannalle. Tätä kutsutaan nykyään "Flat Tax" -veroksi.
 
 ![image](assets/en/118.webp)
+
+---
+
+>Säätiöt –  
+>**lisäarvo**  
+>yhteiskunnalle  
+>
+>SwissFoundations
+
+---
 
 Todellakin, perheen sisäinen solidaarisuus, paikallinen solidaarisuus tai järjestäytynyt filantropia ovat paljon kehittyneempiä maissa, joilla on kevyt verotusjärjestelmä ja suhteellisen korkea taloudellisen vapauden aste, kuten Sveitsissä ja Yhdysvalloissa, kun taas se on suurelta osin tukahdutettu maissa, joissa valtio on suurelta osin korvannut yksilön vastuun, kuten Ranskassa tai Saksassa.
 Usein on muodikasta valittaa "itsekkyydestä", joka vallitsee liberaaleissa yhteiskunnissa. Mutta todellisuudessa asia on täysin päinvastainen. Kun yhteiskuntaa rasittavat verot ja yksilöt eivät enää omista omaisuuttaan, heitä ei kannusteta antamaan, vaan pikemminkin vetäytymään itseensä.
@@ -1025,7 +1100,7 @@ Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekij
 ![kuva](assets/test/143.webp)
 Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteiskunta- ja ihmiskuvan osalta: siviiliyhteiskunnan ensisijaisuus valtioon nähden, valinnan ja yksilöllisen vastuun arvo, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen lainsäädännön tärkeys, mikä mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vauraus on luotava ennen kuin sitä voidaan jakaa, halu antaa jokaiselle mahdollisuus kilpailullisilla markkinoilla…
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

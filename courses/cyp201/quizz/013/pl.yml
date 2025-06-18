@@ -1,0 +1,9 @@
+question: Jaka jest główna rola PBKDF2 w Bitcoin?
+answer: generate seed HD Wallet
+wrong_answers:
+  - Uwierzytelnianie transakcji
+  - Szyfrowanie kluczy prywatnych
+  - Tworzenie adresów Bitcoin
+explanation: |
+  PBKDF2 jest używany do wyprowadzenia seed z frazy Mnemonic i opcjonalnego passphrase.
+reviewed: false

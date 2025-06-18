@@ -1,11 +1,9 @@
-question: What is one of the common mistakes beginner investors make when entering the world of Bitcoin?
-answer: Overinvestment
+question: What is Bitcoin's major political implication?
+answer: Reducing state control over money
 wrong_answers:
-  - Underinvestment
-  - Investing in Bitcoin only
-  - Not investing in Bitcoin at all
+  - Increasing banking centralization
+  - Promoting inflation
+  - Strengthening financial regulations
 explanation: |
-  One of the common mistakes beginner investors make when entering the
-  world of Bitcoin is overinvestment, which means investing more money than they can
-  afford to lose. This can lead to financial problems if the value of Bitcoin decreases.
+  Bitcoin is an alternative that weakens the power of state institutions over money through seigniorage and transaction censorship.
 reviewed: false

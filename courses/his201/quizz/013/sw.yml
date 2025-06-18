@@ -1,0 +1,9 @@
+question: Ni watafiti gani waliotajwa na Satoshi Nakamoto kwenye karatasi nyeupe ya Bitcoin kwa kazi yao ya uwekaji alama wa nyakati ulioidhinishwa?
+answer: Stuart Haber na Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak, na Marshall Pease
+  - Cynthia Dwork na Moni Naor
+  - Ronald Rivest na Adi Shamir
+explanation: |
+  Karatasi tatu za Haber na Stornetta kutoka miaka ya 90 zilitajwa kwenye karatasi nyeupe. Zinajulikana kwa kuunda [Blockchain iliyotiwa muhuri ya kwanza](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain), iliyochapishwa katika New York Times kuanzia 1992.
+reviewed: false

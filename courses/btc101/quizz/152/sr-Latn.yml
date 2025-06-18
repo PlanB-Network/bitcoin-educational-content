@@ -1,0 +1,8 @@
+question: Šta je Hashrate?
+answer: Broj Hash proračuna koje uređaj Mining može izvršiti po sekundi da bi rešio Proof of Work.
+wrong_answers:
+  - Brzina kojom uređaj Mining može rešiti Proof of Work.
+  - Ukupan broj rudara u Bitcoin mreži.
+  - Ukupna količina bitkoina iskopanih izvođenjem određenog broja pokušaja u sekundi za rešavanje Proof of Work.
+explanation: >-
+reviewed: true

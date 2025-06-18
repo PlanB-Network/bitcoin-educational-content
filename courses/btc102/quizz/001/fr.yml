@@ -1,9 +1,9 @@
-question: Quelle est une arnaque courante liée aux concours en ligne ou aux dons dans le secteur de la crypto-monnaie ?
-answer: Les publicités promettant des bitcoins gratuits.
+question: Que faire pour identifier une tentative de phishing dans le secteur crypto ?
+answer: Vérifier l'identité de l'expéditeur
 wrong_answers:
-  - Les publicités promettant des biens physiques.
-  - Les publicités promettant une monnaie fiduciaire gratuite.
-  - Les publicités promettant un logiciel gratuit.
+  - Cliquer uniquement sur les liens reçus dans l'email
+  - Partager ses clés privées pour confirmer l'authenticité
+  - Se fier uniquement aux logos et images dans les emails
 explanation: |
-  Les arnaques liées aux concours en ligne ou aux dons sont très courantes dans le secteur de la crypto-monnaie. Les publicités promettant des bitcoins gratuits sont souvent utilisées pour tromper les utilisateurs inexpérimentés.
+  Il faut toujours s'assurer que l'on interagit avec la bonne personne, et ne jamais utiliser les liens présentés par email. Rendez vous directement sur le site manuellement, depuis vos favoris sur un navigateur.
 reviewed: false

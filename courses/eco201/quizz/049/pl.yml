@@ -1,0 +1,11 @@
+question: Jaka jest rola cen w austriackiej szkole ekonomii?
+answer: Ceny odgrywają kluczową rolę w racjonalnej organizacji jednostek posiadających częściowe informacje.
+wrong_answers:
+  - Ceny są nieistotne w austriackiej szkole ekonomii.
+  - Ceny są ustalane przez rząd w austriackiej szkole ekonomii.
+  - Ceny są stałe i nie zmieniają się w austriackiej szkole ekonomii.
+explanation: |
+  W austriackiej szkole ekonomii ceny odgrywają kluczową rolę w racjonalnej organizacji
+  racjonalnej organizacji jednostek posiadających częściowe informacje. Pomagają zrównoważyć
+  gW-0 i popyt na kapitał na rynku, promując w ten sposób gospodarkę.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ile bitcoinów (w przybliżeniu) wydobył Satoshi Nakamoto?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1 122 693 bitcoinów według badania Whale Alert opublikowanego w 2020 roku. Satoshi zaprzestał działalności Mining w maju 2010 roku.
+reviewed: false

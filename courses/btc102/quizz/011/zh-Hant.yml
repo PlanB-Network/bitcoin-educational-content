@@ -1,0 +1,9 @@
+question: 為何要保護您的 Mnemonic 詞組？
+answer: 因為失去它會導致比特幣的永久損失
+wrong_answers:
+  - 因為 Blockchain 的再生時間太長了
+  - 因為遺失會導致個人資料外洩
+  - 因為 Exchange 平台需要大量的文件來再生它
+explanation: |
+  Mnemonic 短語允許恢復存取。如果丟失，Wallet 在其裝置上無法再存取，比特幣就會永久遺失。
+reviewed: false

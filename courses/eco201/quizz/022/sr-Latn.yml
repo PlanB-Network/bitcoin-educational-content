@@ -1,0 +1,13 @@
+question: Šta je zatvorenikova dilema u kontekstu podele rada?
+answer: To je situacija u kojoj međusobna saradnja rezultira suboptimalnim dobicima za pojedince, ali maksimalnim dobicima za grupu.
+wrong_answers:
+  - To je situacija u kojoj pojedinci odbijaju da sarađuju, što dovodi do maksimalnih dobitaka za grupu.
+  - To je situacija u kojoj pojedinci sarađuju, što dovodi do maksimalnih dobitaka za njih same, ali suboptimalnih dobitaka za grupu.
+  - To je situacija u kojoj pojedinci odbijaju da sarađuju, što dovodi do suboptimalnih dobitaka za njih same i grupu.
+explanation: |
+  Dilema zatvorenika je koncept u teoriji igara gde
+  pojedinci imaju podsticaj da biraju strategije koje
+  maksimiziraju njihov individualni dobitak, bez obzira na
+  strategije koje biraju drugi, čak i kada je moguće postići
+  poželjniju ravnotežu kroz koordinaciju/saradnju.
+reviewed: true

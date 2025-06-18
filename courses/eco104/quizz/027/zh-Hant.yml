@@ -1,0 +1,10 @@
+question: Bitcoin 總交易量中有多少百分比被用於非法活動？
+answer: 少於 1%
+wrong_answers:
+  - 2-4%
+  - 超過 5%
+  - 未知
+explanation: |
+  根據 Chainalysis 在 2020 年的一份報告，非法活動只有
+  約佔所有 Bitcoin 交易的 0.34%。
+reviewed: true

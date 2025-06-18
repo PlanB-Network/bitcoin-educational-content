@@ -1,0 +1,9 @@
+question: Jakie jest główne ograniczenie portfeli JBOK?
+answer: Wymagają one niezależnej kopii zapasowej dla każdego klucza prywatnego
+wrong_answers:
+  - Nie pozwalają one na generowanie nowych adresów
+  - Są one niekompatybilne z podpisami cyfrowymi
+  - Używają nieskompresowanych kluczy publicznych
+explanation: |
+  Portfele JBOK zmuszają użytkownika do tworzenia kopii zapasowych każdego klucza prywatnego z osobna, co komplikuje zarządzanie nimi.
+reviewed: false

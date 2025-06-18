@@ -1,0 +1,9 @@
+question: Zašto je preporučljivo izbegavati ostavljanje svojih Bitcoina na Exchange platformama?
+answer: Oni mogu biti podložni hakerskim napadima.
+wrong_answers:
+  - Exchange platforme naplaćuju nasumične naknade.
+  - Bitcoin gubi vrednost na Exchange platformama.
+  - Exchange platforme nisu regulisana institucija.
+explanation: |
+  Preporučuje se da izbegavate ostavljanje svojih Bitcoina na Exchange platformama jer mogu biti podložne hakerskim napadima.
+reviewed: true

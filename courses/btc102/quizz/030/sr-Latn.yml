@@ -1,0 +1,10 @@
+question: Šta je Bitcoin Blockchain?
+answer: Baza podataka koja beleži sve Bitcoin transakcije
+wrong_answers:
+  - Vrsta digitalne valute
+  - Mreža korisnika Bitcoin
+  - Metod Mining bitkoina
+explanation: |
+  Bitcoin Blockchain je baza podataka koja beleži sve Bitcoin transakcije.
+  Održavaju je rudari koji dodaju nove transakcije u Blockchain.
+reviewed: false

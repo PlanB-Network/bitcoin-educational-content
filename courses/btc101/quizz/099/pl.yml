@@ -1,0 +1,12 @@
+question: Co powinieneś zrobić po napisaniu słów swojej frazy Mnemonic?
+answer: Utwórz drugą kopię i przechowuj ją w osobnym miejscu.
+wrong_answers:
+  - Podziel się nim z zaufanym przyjacielem.
+  - Wyślij go do siebie e-mailem.
+  - Przechowuj go w telefonie.
+explanation: |
+  Gdy słowa frazy Mnemonic zostaną zapisane, zaleca się
+  zaleca się wykonanie drugiej kopii i przechowywanie jej w
+  oddzielnej lokalizacji niż pierwsza. Zapewni to kopię zapasową na wypadek
+  w przypadku utraty lub wypadku z pierwszą kopią.
+reviewed: true

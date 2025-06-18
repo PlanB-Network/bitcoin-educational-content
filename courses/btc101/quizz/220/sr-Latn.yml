@@ -1,0 +1,10 @@
+question: Šta ovaj kurs sugeriše o tempu učenja o Bitcoin?
+answer: Komplikovano je asimilovati sve odjednom, zato uzmi svoje vreme.
+wrong_answers:
+  - Lako je naučiti sve odjednom.
+  - Nemoguće je naučiti sve o Bitcoin.
+  - Nije neophodno naučiti sve o Bitcoin.
+explanation: |
+  Kurs sugeriše da postoji mnogo toga za istraživanje sa
+  Bitcoin i da je komplikovano asimilirati sve odjednom, tako da bi trebalo uzeti vremena.
+reviewed: true

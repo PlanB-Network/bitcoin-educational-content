@@ -1,0 +1,8 @@
+question: Koje od sledećih akcija mogu pomoći onima koji žele da koriste Bitcoin u svakodnevnom životu?
+answer: Imate listu svih trgovaca koji prihvataju Bitcoin.
+wrong_answers:
+  - Povećaj cenu Bitcoin.
+  - Smanji broj Bitcoina.
+  - Ograniči upotrebu Bitcoin.
+explanation: >-
+reviewed: true

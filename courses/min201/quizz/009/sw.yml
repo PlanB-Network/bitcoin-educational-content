@@ -1,0 +1,13 @@
+question: Je! ni jukumu gani la programu katika Bitcoin Mining na inachangiaje ufanisi?
+answer: Programu katika Bitcoin Mining, kama vile BrainsOS Plus, inachukua nafasi ya mfumo wa awali wa uendeshaji wa mashine ya Mining, na hivyo kuruhusu utendakazi sawa na utekelezwe kwa ufanisi zaidi. Inaweza kuongeza ufanisi wa mashine kwa 25%, ikimaanisha kuwa kwa kiwango sawa cha umeme, mashine inaweza kutoa 25% ya ziada ya Hashrate, na hivyo kuongeza thawabu zilizopokelewa na Miner.
+wrong_answers:
+  - Programu katika Bitcoin Mining inatumika kufuatilia kiasi cha Bitcoin inayochimbwa na haichangii ufanisi.
+  - Programu katika Bitcoin Mining hutoa tu muunganisho bora wa mtandao kwa mashine ya Mining, inaweza kuongeza ufanisi wa mashine hiyo kwa 14%, ikiwa mojawapo ya itifaki mpya zaidi inatumiwa.
+  - Programu katika Bitcoin Mining inatumika kupoza mashine ya Mining na haichangii ufanisi.
+explanation: |
+  Sura hiyo inaelezea kuwa programu kama BrainsOS Plus inaweza
+  badala ya mfumo wa uendeshaji wa awali wa mashine ya Mining,
+  kuruhusu shughuli sawa kufanywa zaidi
+  kwa ufanisi. Uboreshaji wa programu hii ni muhimu
+  kipengele cha ushindani katika Bitcoin Mining.
+reviewed: true

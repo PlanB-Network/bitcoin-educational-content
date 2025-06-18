@@ -1,0 +1,9 @@
+question: Czym jest szyfr blokowy w kryptografii?
+answer: Algorytm, który przekształca ciąg znaków o stałej długości w inny ciąg o tej samej długości
+wrong_answers:
+  - Szyfrowanie asymetryczne oparte na tajnym kluczu publicznym i prywatnym
+  - System szyfrujący dane o zmiennej długości za pomocą strumienia
+  - Szyfrowanie, które nie wymaga tajnego klucza
+explanation: |
+  Szyfr blokowy to algorytm, który stosuje transformację ciągu bitów o stałej długości z kluczem w celu uzyskania innego ciągu o tej samej długości.
+reviewed: false

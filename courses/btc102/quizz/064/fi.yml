@@ -1,11 +1,9 @@
-question: Mikä on ehdotettu ratkaisu toistuviin Bitcoin-ostoksiin ilman stressiä?
-answer: Käytä DCA-ratkaisua
+question: Mitä toimia on välttämätöntä, jotta perillisesi voivat palauttaa bitcoinisi virheettömästi?
+answer: Selkeiden ohjeiden antaminen
 wrong_answers:
-  - Käytä hot walletia
-  - Käytä cold walletia
-  - Käytä ei-KYC ratkaisua
+  - Kaikkien yksityisten avainten luovuttaminen
+  - Salasanojen vaihtaminen usein
+  - KYC Exchange -alustan käyttäminen
 explanation: |
-  Ehdotettu ratkaisu toistuviin Bitcoin-ostoksiin ilman stressiä
-  on DCA (Dollar Cost Averaging) ratkaisun käyttö. Tämä strategia käsittää
-  sijoitettavan kokonaissumman jakamisen periodisiin ostoksiin volatiliteetin vaikutuksen vähentämiseksi.
+  Yksityiskohtaiset ja ymmärrettävät ohjeet varmistavat, että läheisesi voivat käyttää varoja asianmukaisesti.
 reviewed: false

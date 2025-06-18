@@ -1,0 +1,9 @@
+question: Na co pozwala protokół Exchange z kluczem Diffiego-Hellmana?
+answer: Umożliwia on dwóm stronom utworzenie wspólnego tajnego klucza poprzez udostępnianie informacji publicznych.
+wrong_answers:
+  - Pozwala to na osobisty tajny klucz Exchange dla każdej sesji.
+  - Pozwala on na użycie klucza publicznego do szyfrowania i klucza prywatnego do deszyfrowania.
+  - Pozwala to na Exchange waluty elektronicznej.
+explanation: |
+  Protokół Diffiego-Hellmana umożliwia dwóm stronom publiczne udostępnianie informacji, zapewniając jednocześnie, że tylko one mogą generate wspólny klucz do zabezpieczenia ich przyszłej wymiany.
+reviewed: false

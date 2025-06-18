@@ -1,0 +1,9 @@
+question: Koji scenario najbolje ilustruje upotrebu Essential profila za Bitcoin plaćanja?
+answer: Restoran koji prihvata nekoliko Bitcoin uplata mesečno
+wrong_answers:
+  - Multinacionalna korporacija koja obrađuje hiljade transakcija dnevno
+  - Nezavisni freelancer koji prihvata plaćanje za svoje fakture u bitkoinima
+  - Visokofrekventni Bitcoin trgovački desk
+explanation: |
+  Osnovni profil cilja mala do srednja preduzeća sa malo Bitcoin transakcija, kao što je restoran.
+reviewed: false

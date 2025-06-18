@@ -1,4 +1,6 @@
+# generate a random uuid v4
 id: 0f36318f-42c1-437d-ac90-46f4fc9eef60
+
 # Characteristic of a glossary word
 # Each word is contained in a folder named after it. E.g.: if the word is "account" there will be a folder named "account"
 # with related files inside such folder.
@@ -11,15 +13,15 @@ en_word: COOL WORD
 # If there are existing words in glossary which are related to this word, it's possible to write them here, one per line.
 # Feel free to add as many related words as possible to enrich the glossary experience.
 # You have to use the en_word name of the words you want to relate.
-# E.g.: if you wan to relate the words https://planb.network/en/resources/word/yprv and https://planb.network/en/resources/word/extended-key 
+# E.g.: if you wan to relate the words https://planb.network/en/resources/word/yprv and https://planb.network/en/resources/word/extended-key
 # you should use the following
 related_words:
 - XPRV
 - EXTENDED KEY
 
-# tags
-# List the associated tags to the word
-# The list of tags is composed of 21 items that can be found here (list not yet available)
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
 - ''
 
@@ -30,7 +32,7 @@ original_language: fr
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading
 # Any further data will be automatically added after each proofreading
-# 
+#
 # This information are provided by PBN team, no need to specify if you are a contributor.
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review
@@ -44,5 +46,5 @@ proofreading:
     last_contribution_date: YYYY-MM-DD
     urgency: # leave as empty
     contributor_names:
-    - author_github_id #insert your github ID
+    - author_github_username #insert your github username
     reward: # leave as empty

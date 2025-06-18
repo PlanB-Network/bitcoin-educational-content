@@ -1,0 +1,8 @@
+---
+term: SegWit
+---
+
+SegWit, skrót od "Segregated Witness", to aktualizacja protokołu Bitcoin wprowadzona w sierpniu 2017 roku. Ma ona na celu rozwiązanie kilku kwestii technicznych, w tym problemu z przepustowością transakcji w sieci, kwestii podatności transakcji na manipulacje oraz ułatwienie przyszłych modyfikacji protokołu.
+
+
+Soft Fork modyfikuje strukturę transakcji poprzez przeniesienie danych podpisu do oddzielnego katalogu. W szczególności, w SegWit podpisy są usuwane z głównego bloku i wstawiane do oddzielnej struktury danych na końcu bloku, znanej jako świadkowie. Separacja ta pozwala na zwiększenie pojemności każdego bloku bez zmiany samego maksymalnego rozmiaru bloku, który w Bitcoin wynosi 1 MB. Zmiana ta rozwiązuje również problem podatności transakcji na fałszowanie. Przed SegWit podpisy mogły być zmieniane przed potwierdzeniem transakcji, co zmieniało identyfikator transakcji. Utrudniało to tworzenie złożonych transakcji, ponieważ niepotwierdzona transakcja mogła mieć zmieniony identyfikator. Oddzielając podpisy, SegWit sprawia, że transakcje są nieciągliwe, ponieważ każda zmiana w podpisach wpływa teraz tylko na identyfikator świadka (WTXID), a nie na identyfikator transakcji (txid). Rozwiązując problem podatności na zmiany, SegWit utorował drogę dla dalszych zmian w systemie Bitcoin, w szczególności Lightning Network, który umożliwia szybkie i tanie transakcje.

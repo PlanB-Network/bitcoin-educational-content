@@ -1,0 +1,9 @@
+question: Co charakteryzuje złożoność dzisiejszego procesu płatności kartą w punkcie sprzedaży detalicznej?
+answer: Wiąże się to z wieloma pośrednikami, kilkoma krokami, a pełne rozliczenie środków może zająć kilka dni.
+wrong_answers:
+  - Wymaga to tylko jednego natychmiastowego kroku, a środki są rozliczane natychmiast.
+  - Opiera się wyłącznie na fizycznej gotówce i bez pośredników.
+  - Gwarantuje to, że po przeciągnięciu karty sprzedawca otrzyma środki natychmiast i nieodwracalnie.
+explanation: |
+  Płatności kartą często wiążą się z łańcuchem pośredników (agentów rozliczeniowych, wydawców, sieci kart), wymagają etapów autoryzacji i rozliczenia, a zanim sprzedawca otrzyma środki netto, może minąć od 48 godzin do kilku dni.
+reviewed: false

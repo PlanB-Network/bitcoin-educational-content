@@ -1,0 +1,9 @@
+question: 在 Lightning Network 上開啟頻道的最後一個步驟是什麼？
+answer: 在 Bitcoin Blockchain 上公佈存款交易
+wrong_answers:
+  - 簽署提款交易以收回資金
+  - 將開啟確認訊息傳送給對方
+  - 核實每位參與者的資金餘額
+explanation: |
+  打開通道的最後一個步驟是在 Blockchain 上公佈存款交易，正式打開通道。
+reviewed: false

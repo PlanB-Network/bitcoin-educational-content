@@ -16,27 +16,37 @@ Sellel mõttekoolil on juba mitu sajandit selja taga ja sellel on terve autorite
 
 +++
 
-# Sissejuhatus MAJANDUSSE
+# Sissejuhatus
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Sissejuhatus
+## Kursuse ülevaade
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Tere kõigile ja tere tulemast kursusele Econ 201: Sissejuhatus Austria majandusteadusesse.
+Tere tulemast kursusele ECO201!
 
-Sellel Théo Mogeneti pakutaval kursusel avastate majanduse haru, mis erineb suuresti Keynesi doktriinist. Seni võite olla õppinud, et raha tootmine ja haldamine on keskpankade vastutus, ideega, et rahatrükk ja kulutamine soodustavad kasvu. Siiski on olemas teine majandusmõtte kool: Austria majandus. Üle 200 aasta uurimis- ja arendustöö, filosoofiliste mõtiskluste ja tuntud autorite kirjutistega rõhutab see lähenemine kasvu ja inimliku ratsionaalsuse tagasihoidlikumat visiooni meie majanduses.
+Selles kursuses, mida pakub Théo Mogenet, avastate majandusteooria koolkonna, mis erineb põhimõtteliselt valitsevast keynesiaanlikust doktriinist. Seni on teile võib-olla õpetatud, et rahahaldus ja majanduspoliitika on peamiselt keskpankade pädevuses, kusjuures arvatakse, et rahatrükk ja avalikud kulutused stimuleerivad majanduskasvu. Kuid on olemas sidusam alternatiivne lähenemisviis: **Austria majandusteooria**.
 
-Tegelikult on majandus äärmiselt sotsiaalne ja keeruline valdkond, mis koosneb paljudest omavahel seotud väikestest tegutsejatest, kes koos moodustavad koherentse terviku. Selle distsipliini lähenemisel matemaatiliste võrrandite kaudu peame me seda mõistma inimloogika ja sotsioloogia vaatenurgast. Sellel kursusel uurime Austria majanduse põhimõisteid. Teie õppejõud, Théo Mogenet, on kirglik ja pädev Austria majanduse professor.
+Rohkem kui kahe sajandi pikkuse uurimistöö, filosoofiliste mõtiskluste ja selliste tuntud autorite nagu Carl Menger, Ludwig von Mises ja Friedrich Hayek kirjutistega põhineb see koolkond teistsugusel vaatenurgal, eelistades detsentraliseeritud vaadet majandusele, mis põhineb individuaalsusel ja inimratsionaalsusel.
 
-Alustuseks pakume teile boonusvideot, mis selgitab, kuidas meie praegune finantssüsteem toimib. Avastate, kuidas kommertspangad ja keskpangad suhtlevad ja majandust edendavad. Käsitleme meie finantsmaailma peamisi tegijaid ja kuidas selline majandusasutuste võimu tsentraliseerimine võib viia kuritarvituste ja finantskriisideni.
+Majandus on tegelikult sügavalt sotsiaalne ja keeruline valdkond, mis koosneb paljudest sõltumatutest osalejatest, kes suhtlevad vabalt, moodustades ühtse terviku. Selle dünaamilise süsteemi mõistmiseks eelistab Austria majandusteooria kvalitatiivset analüüsi, mis põhineb inimloogikal, sotsioloogial ja turuprotsesside uurimisel, mitte jäikadel matemaatilistel võrranditel.
 
-Selle kursuse teises osas uurime Keynesianismi ja Austria majanduse erinevusi, uurides nende vastavaid mõttekoole, mõtlemismeetodeid ja tööriistu, mida nad kasutavad majandustõe kehtestamiseks. Samuti uurime majanduskriiside teket. Kas see on tingitud inimlikust ebakompetentsusest, turumanipulatsioonidest või inimeste kollektiivsest eufooriast? Uurime, kuidas inimemotsioonid loovad meie kasvu, languse, retsessiooni ja kuldajastu tsüklid.
+Selles kursuses uurite selle koolkonna põhialuseid. Théo Mogenet, teie juhendaja, on selle majandusliku lähenemisviisi kirglik pooldaja ja juhendab teid pedagoogiliselt läbi Austria majandusteooria põhikontseptsioonide, näidates, kuidas need ideed kehtivad eriti hästi Bitcoini maailmas.
 
-See kursus on majanduse ja filosoofia kombinatsioon, avatud aruteluga Théo ja minu vahel. Kui teil on selle kursuse jooksul küsimusi, ärge kartke neid küsida meie Discordis, mille lingi leiate kirjeldusest.
-Soojad tänud Théole selle kursuse loomise eest ja ma loodan, et ta saab teile suurepäraseks õpetajaks. Meil oli selle sisu loomisel palju lõbu. See kursus on kõigile kättesaadav ja ma arvan, et see saab olema hädavajalik meie tulevaste süvitsi minevate majanduskursuste jälgimiseks. See kursus loob vajalikud alused, et uurida teatud majandusteooriaid üksikasjalikumalt, mida me siin vaid lühidalt käsitleme.
-Kui olete valmis sellele seiklusele asuma, kutsun teid klõpsama järgneval videol ja alustama boonusvideoga meie praegusest finantssüsteemist. Ma annan nüüd sõna Théole. Tänan teda koostöö eest Descoupes Bitcoiniga selle video teostamisel. Näeme varsti. Head aega!
+**Osa 1: ECONi sissejuhatus**  
+Alustame üldise sissejuhatusega Austria majandusteooriasse, uurides selle ajaloolisi juuri ja mõtlemise aluseid. See osa hõlmab ka olulisi mõisteid nagu raha, krediit, pangad ja keskpangad. Saate aru, miks need institutsioonid mängivad Austria majandusteoorias keskset rolli, eriti oma kriitikas rahalise sekkumise suhtes.
+
+**Osa 2: Teoreetilised alused**  
+See osa süveneb Austria majandusteooria põhimõistetesse, nagu subjektiivse väärtuse teooria, mis selgitab, miks kauba väärtus ei ole objektiivne, vaid sõltub iga inimese tajutud kasulikkusest. Samuti avastate, kuidas raha loomulikult tekib sotsiaalse nähtusena, samuti ajapreferentsi, intressi ja kapitali mõisteid, mis on vaba turu teooria keskmes.
+
+**Osa 3: Austria majandusperspektiivid**  
+Siin uurime Austria teooria praktilisi rakendusi. Õpid põhjalikult Austria majandustsükli teooriat, mis selgitab, kuidas rahalised manipulatsioonid loovad kunstlikke buume, millele järgneb langus. Näeme ka, miks majanduslik kalkulatsioon sotsialistliku süsteemi raames on võimatu ja kuidas Austria majandusteooria metodoloogia, mis põhineb prakseoloogial (inimtegevuse uurimine), pakub ainulaadset ja sidusat lähenemist majandusnähtuste mõistmiseks.
+
+See kursus on majanduse ja filosoofia segu, mida juhib avatud arutelu Théo ja minu (Rogzy) vahel. Soovin siiralt tänada Théo Mogeneti selle kursuse loomise eest. Selle sisu loomine oli meile suur rõõm ja see on mõeldud kõigile arusaadavaks. See kursus on oluline sissejuhatus ja loob aluse meie tulevastele, keerulisematele majandusmoodulitele.
+
+Mis siis, kui tänapäeva majanduse mõistmise võti peitub sajanditevanuses teoorias? Avastame selle koos!
+
 
 ## Raha, Krediit, Pangad ja Keskpankad
 
@@ -516,7 +526,7 @@ Austria majandusteadlased kohtavad sageli raskusi aruteludes teiste mõttekoolid
 Oluline on märkida, et valikuline andmete valimine, et luua seoseid muutujate vahel, on majandusteaduses mitteteaduslik ja ebakorrektne meetod. Näiteks rahaloomine ei põhjusta tingimata inflatsiooni, ja keerukate majandusmehhanismide mõistmiseks on vajalik peenem lähenemine. Aksiioomid mängivad Austria majandusteoorias olulist rolli. Need on fundamentaalsed elemendid, millest saab teha loogilisi järeldusi. Siiski on oluline tunnistada, et majanduse tuleviku täpne ennustamine on sageli keeruline majandusnähtuste keerukuse ja sisemise ebakindluse tõttu.
 Metoodika on majandusteaduses ja üldiselt sotsiaalteadustes oluline aspekt. See mõjutab, kuidas küsimusi esitatakse, hüpoteese sõnastatakse ja andmeid tõlgendatakse. Majanduskoolkondade metoodiliste erinevuste mõistmine võib aidata meil hinnata erinevaid perspektiive ja arendada oma arvamusi eelnevalt arutatud teemadel.
 
-# Järeldus
+# Lõpusektsioon
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

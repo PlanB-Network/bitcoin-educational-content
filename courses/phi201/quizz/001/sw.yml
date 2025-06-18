@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya historia na falsafa?
+answer: Majibu mengine yote
+wrong_answers:
+  - Historia inaeleza yaliyopita huku falsafa inayahukumu
+  - Historia ni ya ukweli wakati falsafa ni ya kawaida
+  - Historia inazingatia matukio wakati falsafa inazingatia dhana
+explanation: |
+  Tofauti kati ya historia na falsafa iko katika mikabala yao husika: historia hujikita katika kueleza na kuchanganua matukio ya zamani, huku falsafa inatafuta kuhukumu, kufasiri na kuanzisha kanuni zinazozingatia dhana dhahania.
+reviewed: false

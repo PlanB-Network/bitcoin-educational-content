@@ -1,0 +1,9 @@
+question: RGB 如何確保數位資產管理的機密性？
+answer: 透過在 Blockchain 上僅註冊加密承諾
+wrong_answers:
+  - 透過在 Blockchain 上加密所有端對端交易
+  - 透過分散式混合器隱藏使用者身分
+  - 每次傳輸只使用臨時 Bitcoin 位址
+explanation: |
+  透過只儲存 On-Chain 密碼證據，RGB 可將敏感的 Contract 和傳輸資訊保密。
+reviewed: false

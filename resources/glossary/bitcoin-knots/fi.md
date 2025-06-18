@@ -1,7 +1,5 @@
 ---
-term: BITCOIN KNOTS
-
+term: Bitcoin KNOTSIT
 ---
-Bitcoin-protokollan toteutus. Bitcoin Knots on vaihtoehto viiteohjelmistolle Bitcoin Core, joka tarjoaa joitakin erilaisia sääntöjä ja ominaisuuksia ja on samalla yhteensopiva muiden solmujen kanssa. Knotsia kehittää ja ylläpitää Luke Dashjr.
 
-![](../../dictionnaire/assets/51.webp)
+Bitcoin-protokollan vähemmistötoteutus. Bitcoin Knots on vaihtoehto Bitcoin Core -referenssiohjelmistolle, joka tarjoaa muutamia erilaisia sääntöjä ja ominaisuuksia, mutta on silti yhteensopiva muiden solmujen kanssa. Knotsia kehittää ja ylläpitää Luke Dashjr.

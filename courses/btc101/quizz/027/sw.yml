@@ -1,0 +1,12 @@
+question: Kwa nini Bitcoin haikubaliki sana katika biashara leo?
+answer: Kwa sababu haijapitishwa sana na watu binafsi.
+wrong_answers:
+  - Kwa sababu haiwezi kusafirishwa.
+  - Kwa sababu haiwezi kugawanywa katika vitengo vidogo.
+  - Kwa sababu sio Liquid.
+explanation: |
+  Licha ya mali yake, kama vile mdogo wake madhubuti
+  Supply, Bitcoin bado haikubaliki sana katika biashara
+  leo, kutokana na ukosefu wa kupitishwa na watu binafsi, hivyo
+  wafanyabiashara hawahimizwa kuikubali.
+reviewed: true

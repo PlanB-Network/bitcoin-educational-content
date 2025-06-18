@@ -1,0 +1,9 @@
+question: RGB में क्रिप्टोग्राफ़िक कमिटमेंट्स (Taproot या OP_RETURN के ज़रिए) का इस्तेमाल कैसे होता है?
+answer: वो Anchor राज्य Blockchain में बदलाव करते हैं
+wrong_answers:
+  - वे Contract का डेटा Blockchain पर स्टोर करते हैं
+  - वे Client-side Validation को On-Chain और Smart contract के साथ बदल देते हैं
+  - वे लेन-देन की पुष्टि के लिए नोड बनाते हैं
+explanation: |
+  कमिटमेंट्स की मदद से स्टेटस अपडेट्स को सुरक्षित तरीके से UTXO से जोड़ा जा सकता है, ताकि यह साबित किया जा सके कि कोई खास जानकारी किसी खास समय पर मौजूद थी, बिना उस जानकारी को खुद बताए।
+reviewed: false

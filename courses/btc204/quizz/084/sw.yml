@@ -1,0 +1,10 @@
+question: Je! ni jukumu gani la Wallet baada ya mchanganyiko katika itifaki ya Zerolink?
+answer: Kuhifadhi UTXOs baada ya kuchanganya.
+wrong_answers:
+  - Kuhifadhi UTXO kabla ya kuchanganya.
+  - Ili kuhifadhi mabadiliko ya UTXOs.
+  - Ili kuhifadhi UTXO za ujumuishaji.
+explanation: |
+  Wallet ya baada ya mchanganyiko imehifadhiwa kwa sarafu ambazo zimechanganywa.
+  
+reviewed: false

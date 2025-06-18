@@ -1,0 +1,12 @@
+question: Dlaczego tokeny sprzętowe, takie jak klucze USB lub karty inteligentne, są uważane za zapewniające optymalne bezpieczeństwo dla 2FA?
+answer: generate posiada unikalny klucz prywatny dla każdej witryny i weryfikuje adres URL przed zezwoleniem na połączenie.
+wrong_answers:
+  - Są one fizycznie trudniejsze do kradzieży, ale jeśli złodziejom się to uda, z łatwością wydobędą sekrety z urządzenia.
+  - generate tylko jedno hasło, które będzie używane dla każdej witryny i weryfikuje adres URL przed zezwoleniem na połączenie.
+  - Są nowsze technologicznie i droższe, więc muszą być lepsze.
+explanation: |
+  Tokeny sprzętowe zapewniają optymalne bezpieczeństwo, ponieważ
+  generate unikalny klucz prywatny dla każdej witryny i weryfikują
+  URL przed zezwoleniem na połączenie. To znacznie utrudnia
+  hakerowi uzyskanie nieautoryzowanego dostępu.
+reviewed: true

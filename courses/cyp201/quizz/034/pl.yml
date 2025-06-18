@@ -1,0 +1,9 @@
+question: Która flaga sighash jest najczęściej używana w transakcjach Bitcoin?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL jest domyślną flagą sighash, obejmującą wszystkie wejścia i wyjścia transakcji, zapobiegając jakimkolwiek modyfikacjom.
+reviewed: false

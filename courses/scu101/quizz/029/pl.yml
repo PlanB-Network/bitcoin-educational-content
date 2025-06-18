@@ -1,0 +1,11 @@
+question: Jakie jest proste rozwiązanie chroniące dane przed atakami ransomware?
+answer: Regularnie twórz kopie zapasowe ważnych danych na zewnętrznym urządzeniu pamięci masowej lub w bezpiecznej usłudze przechowywania danych online.
+wrong_answers:
+  - Zainstaluj na komputerze wiele programów antywirusowych i wykonuj okresowe skanowanie.
+  - Regularnie zmieniaj komputer lub ponownie instaluj system operacyjny.
+  - Możesz korzystać z publicznych sieci Wi-Fi, jeśli nie masz nic do ukrycia na swoim urządzeniu.
+explanation: |
+  Regularne tworzenie kopii zapasowych danych umożliwia ich odzyskanie
+  danych w przypadku cyberataku lub awarii sprzętu
+  bez utraty kluczowych informacji.
+reviewed: true

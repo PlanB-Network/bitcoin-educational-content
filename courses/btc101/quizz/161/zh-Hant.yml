@@ -1,0 +1,8 @@
+question: 對於 Bitcoin Mining 的環境成本，主要的顧慮是什麼？
+answer: 能源消耗。
+wrong_answers:
+  - ASIC 的生產。
+  - ASIC 的回收。
+  - 電力成本。
+explanation: >-
+reviewed: true

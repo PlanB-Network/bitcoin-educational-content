@@ -1,0 +1,9 @@
+question: Które z poniższych nie jest cechą Bitcoin?
+answer: Łatwo ją ocenzurować.
+wrong_answers:
+  - Można go natychmiast przetransportować.
+  - Ma znikome koszty weryfikacji.
+  - Prowadzi stałą politykę pieniężną.
+explanation: |
+  Bitcoin ma wszystkie niezbędne cechy, aby być wydajną i zdrową walutą: podzielną, natychmiast transportowalną, nieocenzurowaną, o znikomym koszcie weryfikacji i z polityką pieniężną już ustaloną na wieki z 21 milionami jednostek.
+reviewed: true

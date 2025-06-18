@@ -1,0 +1,8 @@
+question: Zašto se AES enkripcija u ECB modu ne preporučuje za sigurnu upotrebu?
+answer: To rezultira determinističkim šifrovanjem
+wrong_answers:
+  - Zahteva ključ duži od 128 bita
+  - Previše je spor za većinu modernih aplikacija.
+  - Ne dozvoljava deljenje teksta na blokove od 128 bita
+explanation: |
+  ECB režim se ne preporučuje jer proizvodi determinističku enkripciju, što znači da će identični blokovi otvorenog teksta dati identične blokove šifrovanog teksta, što se može iskoristiti za pogađanje informacija o otvorenom tekstu.

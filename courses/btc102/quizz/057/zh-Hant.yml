@@ -1,0 +1,9 @@
+question: 偏執的使用者會避免使用哪種取得方式？
+answer: 具有 KYC 的集中式平台
+wrong_answers:
+  - P2P 對戰平台
+  - Bitcoin ATM
+  - 在聚會中直接以現金購買
+explanation: |
+  為了保持匿名性，偏執的使用者會避開需要驗證身分的平台。
+reviewed: false

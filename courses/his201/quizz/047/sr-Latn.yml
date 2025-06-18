@@ -1,0 +1,9 @@
+question: Koji aspekt Bitcoin je Satoshi želeo da umanji u svojoj komunikaciji u julu 2010?
+answer: Anonimnost transakcija
+wrong_answers:
+  - Monetarna politika
+  - E-trgovina
+  - Programabilnost
+explanation: |
+  Što se tiče nacrta prezentacije za Slashdot, izjavio je da ne želi staviti anonimni aspekt u prvi plan. Svoja objašnjenja je dao Marttiju Malmiju [u privatnom](https: //mmalmi.github.io/Satoshi/#email-197).
+reviewed: false

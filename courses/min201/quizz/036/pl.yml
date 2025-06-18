@@ -1,0 +1,13 @@
+question: Jaki jest związek między kosztem produkcji Bitcoin a jego ceną rynkową?
+answer: Koszt Bitcoin może być ogólnie proporcjonalny do jego ceny
+wrong_answers:
+  - Koszt Bitcoin jest odwrotnie proporcjonalny do jego ceny
+  - Koszt Bitcoin jest stały, w określonym stosunku do jego ceny
+  - Koszt Bitcoin jest zawsze wyższy niż jego cena
+explanation: |
+  Koszt Bitcoin, który jest związany z energią elektryczną
+  potrzebną do obsługi maszyn Mining, może być ogólnie
+  proporcjonalny do jego ceny. Ta zależność zapewnia
+  lepsze zrozumienie wahań cen i przyszłych
+  perspektywy.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Jakiej analogii użyto w tym kursie, aby wyjaśnić, w jaki sposób można otrzymywać bitcoiny, nie pozwalając nadawcy na kradzież środków?
+answer: Skrzynka pocztowa.
+wrong_answers:
+  - Konto bankowe.
+  - Sejf.
+  - Dom.
+explanation: |
+  Analogia używana do wyjaśnienia, w jaki sposób można otrzymywać Bitcoiny
+  nie pozwalając nadawcy na kradzież środków, jest skrzynka pocztowa
+  skrzynka pocztowa. Ludzie wpłacają do niej pieniądze, ale tylko ty możesz ją otworzyć
+  jedynym, który może ją otworzyć.
+reviewed: true

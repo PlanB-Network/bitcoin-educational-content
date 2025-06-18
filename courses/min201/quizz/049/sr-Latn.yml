@@ -1,0 +1,14 @@
+question: Zašto velike institucionalne igrače posebno zanimaju virgin bitcoini?
+answer: Oni mogu garantovati legitimnost svojih digitalnih sredstava regulatornim vlastima.
+wrong_answers:
+  - Oni ih mogu prodati po višoj ceni.
+  - Oni ih mogu koristiti za ilegalne aktivnosti.
+  - Oni mogu izbeći plaćanje poreza na njih.
+explanation: |
+  Virgin bitcoini su posebno traženi od strane velikih
+  institucionalnih igrača jer mogu garantovati
+  legitimnost svojih digitalnih sredstava regulatornim
+  vlastima. Ovi bitcoini nikada nisu bili okaljani,
+  pružajući neku garanciju protiv odbijanja od strane regulatora ili
+  velikih Exchange platformi.
+reviewed: true

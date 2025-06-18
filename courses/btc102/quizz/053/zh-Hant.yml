@@ -1,0 +1,9 @@
+question: 哪項服務會列出全球接受 Bitcoin 的商家？
+answer: BTC 地圖
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin 談話
+  - 瑞士 Bitcoin 薪資
+explanation: |
+  BTC Map 是一個專用平台，可定位世界各地接受 Bitcoin 的商家。
+reviewed: false

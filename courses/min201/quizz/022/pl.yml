@@ -1,0 +1,11 @@
+question: Na czym będą polegać górnicy w celu uzyskania rekompensaty po utworzeniu wszystkich 21 milionów bitcoinów?
+answer: Górnicy będą polegać wyłącznie na opłatach transakcyjnych.
+wrong_answers:
+  - Górnicy będą polegać wyłącznie na nagrodach za bloki.
+  - Górnicy będą polegać wyłącznie na potwierdzeniach transakcji w celu uzyskania rekompensaty.
+  - Górnicy będą polegać wyłącznie na opłatach sieciowych.
+explanation: |
+  Do 2140 r. nie będą już tworzone żadne nowe bitcoiny. W tym momencie
+  górnicy będą polegać wyłącznie na opłatach transakcyjnych za
+  rekompensaty.
+reviewed: true

@@ -1,0 +1,9 @@
+question: curl -X POST /issueassetnia می‌تواند در RLN چه کاری انجام دهد؟
+answer: ایجاد یک دارایی RGB قابل تعویض و غیر تورمی
+wrong_answers:
+  - ایجاد یک دارایی غیرقابل تعویض RGB جدید
+  - ایجاد یک دارایی جدید RGB تورمی قابل تعویض
+  - ایجاد یک دارایی نیمه قابل تعویض RGB جدید
+explanation: |
+  دستور "/issueassetnia" برای صدور یک دارایی جدید RGB NIA ("دارایی غیرقابل تورم") token استفاده می‌شود.
+reviewed: false

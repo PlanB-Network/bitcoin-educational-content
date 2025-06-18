@@ -1,0 +1,9 @@
+question: 使用何種方法保護交易的 On-Chain 可追蹤性？
+answer: 使用 CoinJoin 和 PayJoin 技術
+wrong_answers:
+  - 重複使用相同的接收 Address
+  - UTXO 經常合併
+  - 存入保管 Wallet
+explanation: |
+  Coinjoins 和 payjoins 有助於改善 On-Chain 活動的隱私性。
+reviewed: false

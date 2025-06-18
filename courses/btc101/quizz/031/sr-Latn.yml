@@ -1,0 +1,13 @@
+question: Koja od sledećih opcija nije prednost Bitcoin kao valute?
+answer: Koristi se za plaćanje poreza.
+wrong_answers:
+  - To je deljivo.
+  - To je prenosivo.
+  - To je bez dozvole.
+explanation: |
+  Bitcoin, zbog svojih svojstava kao što su deljivost,
+  proverljivost, aspekt bez dozvola i prenosivost,
+  nudi odličnu vrednost za čuvanje. Štaviše, kao neutralna
+  internet valuta, predstavlja dobro sredstvo Exchange
+  koje ne poznaje granice.
+reviewed: true

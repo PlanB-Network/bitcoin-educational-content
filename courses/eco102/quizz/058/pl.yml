@@ -1,0 +1,9 @@
+question: Jaki jest punkt widzenia Bastiata na popyt producentów świec?
+answer: Odrzuca ją, ponieważ jest sprzeczna z interesem ogólnym
+wrong_answers:
+  - Popiera ją, ponieważ ważna jest ochrona miejsc pracy
+  - Jest neutralny w tej kwestii
+  - Uważa on, że producenci świec mają rację
+explanation: |
+  Bastiat krytykuje żądania producentów świec, podkreślając, że protekcjonizm służy specjalnym interesom kosztem interesu ogólnego.
+reviewed: false

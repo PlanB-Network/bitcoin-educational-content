@@ -1,0 +1,12 @@
+question: 確保每隔十分鐘就有新區塊加入 Blockchain 的機制是什麼？
+answer: 難度調整。
+wrong_answers:
+  - 速度調整。
+  - 時間調整。
+  - 區塊調整。
+explanation: |
+  確保每十分鐘就有一個新區塊加入
+  Blockchain 每十分鐘新增一個區塊的機制是難度調整。
+  這一調整每 2016 個區塊進行一次，也就是大約
+  兩個星期。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Na RGB, zašto se preporučuje korišćenje Tapret umesto Opret za obaveze?
+answer: Da bi se smanjila vidljivost i izbegla cenzura
+wrong_answers:
+  - Da se smanje troškovi transakcije
+  - Zato što OP_RETURN nije kompatibilan sa Lightning-om
+  - Da maksimizirate veličinu obaveza
+explanation: |
+  Tapret vam omogućava da diskretno integrišete obaveze, za razliku od OP_RETURN, koji ih čini odmah vidljivim i podložnim cenzuri.
+reviewed: false

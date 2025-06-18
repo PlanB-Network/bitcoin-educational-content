@@ -1,0 +1,8 @@
+question: Jakie jest zapotrzebowanie na przepustowość dla uruchomienia węzła Bitcoin, biorąc pod uwagę 1 blok 1 MB co 10 minut?
+answer: Około 5 GB miesięcznie.
+wrong_answers:
+  - Około 1 GB miesięcznie.
+  - Około 10 GB miesięcznie.
+  - Około 20 GB miesięcznie.
+explanation: >-
+reviewed: true

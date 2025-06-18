@@ -1,0 +1,8 @@
+question: Je, ni ipi mojawapo ya matumizi yanayowezekana ya Lightning Network katika maisha ya kila siku?
+answer: Malipo ya papo hapo katika biashara.
+wrong_answers:
+  - Mining Bitcoins mpya.
+  - Kuunda sarafu mpya za siri.
+  - Kuongeza thamani ya Bitcoin.
+explanation: >-
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: DERIVATION YA KAWAIDA
+---
+
+Mchakato wa kutengeneza funguo za watoto katika pochi za HD. Unyambulishaji wa kawaida hutumia ufunguo mzazi wa umma kama ingizo la chaguo za kukokotoa za `HMAC-SHA512`, kuwezesha utengenezaji wa funguo za umma za watoto kutoka kwa ufunguo wa umma wa mzazi na msimbo wa mnyororo wa mzazi. Mchakato unahusisha kuambatanisha ufunguo wa umma wa mzazi na faharasa chini ya $2^{31}$, ikifuatiwa na utumiaji wa `HMAC-SHA512` pamoja na msimbo wa mnyororo mzazi. Matokeo yake yamegawanywa katika sehemu mbili: biti 256 za kwanza huongezwa kwa ufunguo wa faragha wa mzazi ili kupata ufunguo wa faragha wa mtoto, wakati biti 256 zilizobaki huunda msimbo wa mnyororo wa mtoto. Mbinu hii inahakikisha kwamba ufunguo wa umma uliopanuliwa unaweza kutumika kupata funguo za umma za watoto. Katika utokaji wa kawaida, utokaji wa kawaida hutumiwa katika viwango vyote vya utokaji kutoka kwa kina cha akaunti. Katika nukuu ya njia za utokaji, uasili wa kawaida hutambuliwa wakati kuna faharasa tu bila kiapostrofi `'`.

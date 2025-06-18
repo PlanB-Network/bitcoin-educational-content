@@ -1,0 +1,9 @@
+question: Który dekret podpisany przez Franklina D. Roosevelta zakazywał posiadania złota osobom fizycznym w Stanach Zjednoczonych w latach 1933-1975?
+answer: Rozporządzenie wykonawcze 6102
+wrong_answers:
+  - Ustawa o Rezerwie Federalnej
+  - Ustawa Glass-Steagall
+  - Zarządzenie wykonawcze 9066
+explanation: |
+  To zarządzenie wykonawcze, podpisane 5 kwietnia 1933 r., zostało uchwalone przez Roosevelta w ramach Nowego Ładu. Został on wzmocniony przez Ustawę o Rezerwie Złota w 1934 roku.
+reviewed: false

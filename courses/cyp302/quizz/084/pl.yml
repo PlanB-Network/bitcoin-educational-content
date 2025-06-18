@@ -1,0 +1,9 @@
+question: Jakie jest główne praktyczne ograniczenie jednorazowego pada?
+answer: Klucz musi być tak długi jak wiadomość i nigdy nie może być ponownie użyty
+wrong_answers:
+  - Klucz należy wymieniać codziennie
+  - Klucz musi być trzy razy dłuższy niż wiadomość
+  - Klucz musi być koniecznie przechowywany na francuskim urządzeniu Minitel
+explanation: |
+  Klucz w padzie jednorazowym musi być tak długi jak wiadomość i nigdy nie może być ponownie użyty, co znacznie komplikuje jego użycie w praktycznych kontekstach. Wynika to z faktu, że jeśli ktoś jest w stanie przesyłać dane tak długo, jak wiadomość w bezpieczny sposób, bardziej sensowne byłoby bezpośrednie przesyłanie wiadomości, a nie klucza.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co oznacza notacja /<0;1>/* w deskryptorze?
+answer: Do zewnętrznego i wewnętrznego łańcucha z pochodną sekwencyjną
+wrong_answers:
+  - Do posortowanego wielopodpisu Address
+  - Do sumy kontrolnej dla ścieżek pochodnych
+  - Do wzmocnionej ścieżki derywacji
+explanation: |
+  Notacja /<0;1>/* wskazuje, że deskryptor może generate adresy dla zewnętrznego (0) i wewnętrznego (1) łańcucha, z sekwencyjnym wyprowadzeniem dzięki symbolowi wieloznacznemu (*).
+reviewed: false

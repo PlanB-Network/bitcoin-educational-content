@@ -1,0 +1,9 @@
+question: Ni aina gani ya biashara ina uwezekano mkubwa wa kupata faili rahisi ya csv ya kutosha kwa uhasibu?
+answer: Biashara ndogo ndogo
+wrong_answers:
+  - Mashirika makubwa ya kimataifa
+  - Taasisi kuu za kifedha
+  - Majukwaa ya biashara ya masafa ya juu
+explanation: |
+  Biashara nyingi ndogo hunufaika kutokana na urahisi na maelezo ya kutosha yanayotolewa na usafirishaji wa csv.
+reviewed: false

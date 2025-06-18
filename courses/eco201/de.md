@@ -16,29 +16,36 @@ Diese Denkschule hat bereits mehrere Jahrhunderte hinter sich und eine ganze Rei
 
 +++
 
-# Einführung in die Wirtschaftswissenschaften
+# Einführung
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Einführung
+## Kursübersicht
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Hallo zusammen und herzlich willkommen zu Econ 201: Einführung in die österreichische Wirtschaftswissenschaft.
+Willkommen zum Kurs ECO201!
 
-In diesem Kurs, der von Théo Mogenet angeboten wird, werden Sie diese Richtung der Wirtschaftswissenschaft entdecken, die sich stark von der keynesianischen Lehre unterscheidet. Bislang haben Sie möglicherweise gelernt, dass die Produktion und Verwaltung von Geld in der Verantwortung der Zentralbanken liegen, mit der Idee, dass Geldschöpfung und Ausgaben das Wachstum fördern. Es gibt jedoch eine andere wirtschaftswissenschaftliche Denkschule: die österreichische Wirtschaftswissenschaft. Mit über 200 Jahren Forschung und Entwicklung, philosophischen Reflexionen und Schriften renommierter Autoren betont dieser Ansatz eine nüchterne Vision des Wachstums und der menschlichen Rationalität in unserer Wirtschaft.
+In diesem Kurs, angeboten von Théo Mogenet, lernen Sie eine Wirtschaftsschule kennen, die sich grundlegend von der vorherrschenden keynesianischen Doktrin unterscheidet. Bisher wurde Ihnen vielleicht beigebracht, dass die Verwaltung des Geldes und die Wirtschaftspolitik hauptsächlich in den Händen der Zentralbanken liegen, mit der Vorstellung, dass Geldschöpfung und öffentliche Ausgaben das Wirtschaftswachstum fördern. Doch es gibt einen kohärenteren alternativen Ansatz: **die Österreichische Schule der Nationalökonomie**.
 
-In Wirklichkeit ist die Wirtschaftswissenschaft ein äußerst soziales und komplexes Feld, das aus einer Vielzahl von miteinander verbundenen kleinen Akteuren besteht, die zusammen dazu beitragen, ein kohärentes Ganzes zu bilden. Anstatt sich dieser Disziplin durch mathematische Gleichungen zu nähern, müssen wir sie aus der Perspektive der menschlichen Logik und Soziologie verstehen. In diesem Kurs werden wir die grundlegenden Konzepte der österreichischen Wirtschaftswissenschaft erkunden. Ihr Dozent, Théo Mogenet, ist ein leidenschaftlicher und kompetenter Professor für österreichische Wirtschaftswissenschaft.
+Diese Denkrichtung, die auf über zwei Jahrhunderten von Forschung, philosophischen Überlegungen und Schriften angesehener Autoren wie Carl Menger, Ludwig von Mises und Friedrich Hayek basiert, verfolgt eine andere Perspektive, die eine dezentrale Sicht auf die Wirtschaft bevorzugt, die auf dem Individuum und menschlicher Rationalität beruht.
 
-Zum Einstieg bieten wir Ihnen ein Bonusvideo an, das erklärt, wie unser derzeitiges Finanzsystem funktioniert. Sie werden erfahren, wie Geschäftsbanken und Zentralbanken interagieren und die Wirtschaft antreiben. Wir werden uns mit den Hauptakteuren unserer Finanzwelt befassen und wie diese Zentralisierung der Macht bei bestimmten wirtschaftlichen Institutionen zu Missbräuchen und Finanzkrisen führen kann.
+Die Wirtschaft ist in Wirklichkeit ein zutiefst soziales und komplexes Feld, bestehend aus einer Vielzahl von unabhängigen Akteuren, die frei interagieren, um ein kohärentes Ganzes zu bilden. Um dieses dynamische System zu verstehen, bevorzugt die Österreichische Schule der Nationalökonomie eine qualitative Analyse, die auf menschlicher Logik, Soziologie und der Untersuchung von Marktprozessen basiert, anstatt auf starren mathematischen Gleichungen.
 
-Im zweiten Teil dieses Kurses werden wir den Unterschied zwischen Keynesianismus und österreichischer Wirtschaftswissenschaft untersuchen und ihre jeweiligen Denkschulen, Reflexionsmethoden und Werkzeuge zur Festlegung wirtschaftlicher Wahrheiten erforschen. Wir werden uns auch mit der Entstehung von Wirtschaftskrisen befassen. Liegt es an menschlicher Inkompetenz, Marktmanipulation oder kollektiver Euphorie der Menschen? Wir werden untersuchen, wie unsere Wachstums-, Rückgangs-, Rezessions- und Goldenen Zeitalter-Zyklen durch menschliche Emotionen entstehen.
+In diesem Kurs werden Sie die grundlegenden Prinzipien dieser Denkrichtung erforschen. Théo Mogenet, Ihr Ausbilder, ist ein leidenschaftlicher Verfechter dieses wirtschaftlichen Ansatzes und wird Sie mit pädagogischem Geschick durch die wichtigsten Konzepte der Österreichischen Schule der Nationalökonomie führen und Ihnen zeigen, wie sich diese Ideen besonders gut auf die Welt von Bitcoin anwenden lassen.
 
-Dieser Kurs wird eine Kombination aus Wirtschaftswissenschaften und Philosophie sein, mit einer offenen Diskussion zwischen Théo und mir. Wenn Sie während dieses Kurses Fragen haben, zögern Sie nicht, sie in unserem Discord zu stellen, den Sie im Beschreibungstext finden.
+**Abschnitt 1: Einführung in ECON**  
+Wir beginnen mit einer allgemeinen Einführung in die Österreichische Schule der Nationalökonomie, indem wir ihre historischen Ursprünge und die Grundlagen ihres Denkens erkunden. Dieser Abschnitt behandelt auch grundlegende Konzepte wie Geld, Kredit, Banken und Zentralbanken. Sie werden verstehen, warum diese Institutionen in der Österreichischen Schule eine zentrale Rolle spielen, insbesondere in ihrer Kritik an monetären Interventionen.
 
-Ich danke Théo herzlich für die Erstellung dieses Kurses und hoffe, dass er ein ausgezeichneter Lehrer für Sie sein wird. Wir hatten viel Spaß beim Erstellen dieses Inhalts. Dieser Kurs ist für alle zugänglich und wird, denke ich, unerlässlich sein, um unseren zukünftigen vertiefenden Kursen zur Wirtschaftswissenschaft zu folgen. Dieser Kurs wird die notwendigen Grundlagen legen, um bestimmte wirtschaftliche Theorien genauer zu erforschen, die wir hier nur kurz behandeln werden.
+**Abschnitt 2: Theoretische Grundlagen**  
+Dieser Abschnitt vertieft die grundlegenden Konzepte der Österreichischen Schule, wie die subjektive Werttheorie, die erklärt, warum der Wert eines Gutes nicht objektiv ist, sondern von der wahrgenommenen Nützlichkeit jedes Einzelnen abhängt. Sie werden auch erfahren, wie Geld natürlich als soziales Phänomen entsteht, sowie Konzepte wie Zeitpräferenz, Zins und Kapital, die im Zentrum der Freimarkttheorie der Österreichischen Schule stehen.
 
-Wenn Sie bereit sind, sich auf dieses Abenteuer einzulassen, lade ich Sie ein, auf das folgende Video zu klicken und mit dem Bonusvideo über unser derzeitiges Finanzsystem zu beginnen. Ich übergebe jetzt das Wort an Théo. Vielen Dank an ihn für die Zusammenarbeit mit Descoupes Bitcoin bei der Realisierung dieses Videos. Ich werde euch bald wiedersehen. Auf Wiedersehen!
+**Abschnitt 3: Österreichische Wirtschaftsperspektiven**  
+Hier werden wir die praktischen Anwendungen der österreichischen Theorie untersuchen. Sie werden im Detail die Österreichische Konjunkturtheorie kennenlernen, die erklärt, wie monetäre Manipulationen künstliche Booms auslösen, die von Rezessionen gefolgt werden. Wir werden auch sehen, warum wirtschaftliche Berechnungen im Sozialismus unmöglich sind und wie die Methode der Österreichischen Schule, basierend auf Praxeologie (dem Studium menschlichen Handelns), einen einzigartigen und kohärenten Ansatz zur Erklärung wirtschaftlicher Phänomene darstellt.
+
+Dieser Kurs ist eine Verbindung von Wirtschaft und Philosophie, geleitet von einer offenen Diskussion zwischen Théo und mir (Rogzy). Ich möchte Théo Mogenet herzlich für die Erstellung dieses Kurses danken. Es hat uns viel Freude bereitet, diesen Inhalt zu entwickeln, der so gestaltet ist, dass er für jeden zugänglich ist. Dieser Kurs bildet eine grundlegende Einführung und legt den Grundstein für unsere zukünftigen, fortgeschritteneren Module über Wirtschaft.
+
+Und was, wenn der Schlüssel zum Verständnis der heutigen Wirtschaft in einer Theorie liegt, die mehrere Jahrhunderte alt ist? Entdecken wir es gemeinsam!
 
 ## Geld, Kredit, Banken und Zentralbanken
 
@@ -528,7 +535,7 @@ Es ist wichtig zu beachten, dass das Cherry-Picking, bei dem selektiv Daten ausg
 
 Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissenschaften im Allgemeinen. Sie beeinflusst, wie Fragen gestellt, Hypothesen formuliert und Daten interpretiert werden. Das Verständnis der methodologischen Unterschiede zwischen ökonomischen Denkschulen kann uns helfen, vielfältige Perspektiven zu schätzen und unsere eigenen Meinungen zu den in früheren Episoden diskutierten Themen zu entwickeln.
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

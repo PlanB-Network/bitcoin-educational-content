@@ -1,0 +1,12 @@
+question: Dlaczego nie zaleca się używania rozszerzeń przeglądarki do automatycznego wypełniania haseł?
+answer: Mogą one uczynić użytkownika bardziej podatnym na ataki phishingowe, zwiększyć powierzchnię ataku i spowolnić działanie przeglądarki.
+wrong_answers:
+  - Są one trudne w użyciu.
+  - Nie są one kompatybilne ze wszystkimi przeglądarkami.
+  - Wymagają dużo miejsca do przechowywania.
+explanation: |
+  Rozszerzenia przeglądarki do automatycznego wypełniania haseł mogą sprawić, że
+  użytkownika na ataki phishingowe. Rozszerzenia te również
+  mają tendencję do zwiększania powierzchni ataku i mogą spowalniać
+  wydajność przeglądarki, stwarzając tym samym znaczne ryzyko.
+reviewed: true

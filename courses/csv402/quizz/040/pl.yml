@@ -1,0 +1,9 @@
+question: Jaki jest główny cel integracji RGB z Lightning Network?
+answer: Transfer aktywów RGB przez kanały off-chain
+wrong_answers:
+  - Wykonywanie umów RGB bezpośrednio na Bitcoin Blockchain
+  - Zastąpienie konwencjonalnych transakcji Lightning inteligentnymi kontraktami RGB
+  - Zwiększenie przepustowości kanału poprzez dodanie nowych UTXO
+explanation: |
+  RGB zintegrowany z Lightning Network umożliwia przenoszenie zasobów RGB za pomocą przejść stanu osadzonych w transakcjach Commitment, pozostając off-chain.
+reviewed: false

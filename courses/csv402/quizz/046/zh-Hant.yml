@@ -1,0 +1,9 @@
+question: 哪種 RGB 標準允許您建立獨特的資產或「NFT」？
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  RGB21 標準旨在管理獨特的資產，使私人元資料能夠與 NFT 相關聯。
+reviewed: false

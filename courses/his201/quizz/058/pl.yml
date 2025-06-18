@@ -1,0 +1,9 @@
+question: W jakiej jednostce mierzony jest wskaźnik Hash sieci w drugiej połowie 2010 r.?
+answer: W GH/s
+wrong_answers:
+  - W MH/s
+  - W TH/s
+  - W PH/s
+explanation: |
+  Wskaźnik Hash wzrósł z 1,35 GH/s w dniu 13 lipca do 120 GH/s w dniu 31 grudnia 2010 roku.
+reviewed: false

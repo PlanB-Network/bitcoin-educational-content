@@ -1,0 +1,9 @@
+question: RGB inahakikishaje usiri katika usimamizi wa mali dijitali?
+answer: Kwa kusajili ahadi za kriptografia pekee kwenye Blockchain
+wrong_answers:
+  - Kwa kusimba shughuli zote za mwisho hadi mwisho kwenye Blockchain
+  - Kwa kuficha utambulisho wa watumiaji kupitia vichanganyaji vilivyogatuliwa
+  - Kwa kutumia anwani za muda za Bitcoin pekee kwa kila uhamishaji
+explanation: |
+  Kwa kuhifadhi ushahidi wa kriptografia wa On-Chain pekee, RGB huweka Contract nyeti na uhamishaji wa taarifa kuwa siri.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između teorija Loka i Rusoa o suverenitetu?
+answer: Lok je verovao da je suverenitet ograničen prirodnim pravima, dok je Ruso verovao da je neograničen.
+wrong_answers:
+  - Lok je verovao da suverenitet pripada monarhu, dok je Ruso verovao da pripada narodu.
+  - Lok je verovao da je najbolji oblik vlasti demokratija, dok je Ruso verovao da je najbolji oblik vlasti republika.
+  - Svi ostali odgovori su tačni.
+explanation: |
+  Locke je tvrdio da je suverenitet države ograničen prirodnim pravima pojedinaca, dok je Rousseau smatrao da se opšti suverenitet može sprovoditi bez ograničenja u ime kolektivne volje.
+reviewed: false

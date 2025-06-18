@@ -1,0 +1,9 @@
+question: Jakim typem szyfrowania jest szyfrowanie shift?
+answer: Monoalfabetyczny szyfr podstawieniowy
+wrong_answers:
+  - Szyfr permutacji słów
+  - Polialfabetyczny szyfr podstawieniowy
+  - Szyfr asymetryczny
+explanation: |
+  Szyfrowanie z przesunięciem jest przykładem monoalfabetycznego szyfru podstawieniowego, w którym każda litera w wiadomości jest przesunięta o stałą liczbę pozycji w alfabecie.
+reviewed: false

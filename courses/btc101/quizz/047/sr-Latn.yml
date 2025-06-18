@@ -1,0 +1,12 @@
+question: Šta je hiperinflacija?
+answer: Drastično povećanje monetarne mase.
+wrong_answers:
+  - Malo povećanje monetarne mase.
+  - Drastično smanjenje monetarne mase.
+  - Malo smanjenje monetarne mase.
+explanation: |
+  Hiperinflacija je monetarni fenomen karakterisan
+  drastičnim povećanjem inflacije kroz monetarno štampanje
+  od strane vlasti, što dovodi do potpunog gubitka
+  poverenja u valutu.
+reviewed: true

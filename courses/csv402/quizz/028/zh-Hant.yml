@@ -1,0 +1,9 @@
+question: 在 RGB Contract 中，Interface 的功能是什麼？
+answer: 使 Contract 資料易於讀取和操作
+wrong_answers:
+  - 在 Blockchain 上執行驗證指令碼
+  - 在客戶端儲存 Genesis 資料
+  - 為報表定義嚴格的類型系統
+explanation: |
+  Interface 的目的是在不影響 Business Logic 的情況下，以使用者和軟體都能清楚瞭解的方式呈現 Contract 資訊。
+reviewed: false

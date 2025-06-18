@@ -1,0 +1,12 @@
+question: Kuna hatari gani ya kushiriki ufunguo wa umma wa Bitcoin Wallet?
+answer: Kupoteza faragha.
+wrong_answers:
+  - Kuharibu Bitcoin Wallet.
+  - Kupoteza Bitcoins.
+  - Kudukuliwa kwa Bitcoin Wallet.
+explanation: |
+  Kushiriki ufunguo wa umma kunahusisha hatari kwa faragha, lakini sivyo
+  kwa usalama. Hii ni kwa sababu ufunguo wa umma hutumiwa
+  generate Bitcoin anwani na hivyo kupokea fedha, lakini ni
+  haiwakilishi Ownership ya Bitcoins.
+reviewed: true

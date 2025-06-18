@@ -39,11 +39,12 @@ Este curso ha sido patrocinado por TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introducción
+## Descripción del curso
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+¡Bienvenido al curso ECO104!
 
-### Vivimos en un mundo donde:
+**Vivimos en un mundo donde:**
 
 ● Solo un [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) de las personas residen en sociedades consideradas "libres democráticamente". Sin embargo, incluso dentro de esta fracción privilegiada, las violaciones a los derechos humanos son cada vez más comunes, desde cuentas bancarias congeladas hasta censura. El 80% restante se encuentra luchando contra el avance del gobierno autoritario. Hace apenas dos décadas, casi la mitad de la población mundial disfrutaba de las libertades más básicas.
 
@@ -62,7 +63,7 @@ Dicho esto, este curso no es únicamente para aquellos que enfrentan una inflaci
 
 Con esto en mente, nuestra misión es llevarte al frente del cambio en nuestro panorama financiero actual, desafiar las normas existentes y ofrecer soluciones alternativas. Al adentrarnos en la historia del dinero, desmitificar Bitcoin y explorar Tether y el mundo de las stablecoins, nuestro objetivo es inspirar a las personas a reimaginar su futuro financiero.
 
-### Qué esperar:
+**Qué esperar:**
 
 **Módulo 1: El Precio del Progreso - Una Mirada Cercana a Nuestro Sistema Financiero**
 Comenzamos nuestra exploración echando un vistazo detrás de las cortinas de nuestro sistema financiero actual, donde la censura financiera, la desigualdad de riqueza y la inflación azotan nuestra vida diaria. A través de una breve historia del dinero, veremos cómo llegamos a donde estamos, arrojando luz sobre algunos de los principales puntos de dolor que todos estamos experimentando.
@@ -1623,7 +1624,7 @@ Al concluir este curso, esperamos que apliques el conocimiento adquirido aquí e
 ¡Que este nuevo entendimiento te empodere para navegar el mundo evolutivo de las finanzas con confianza y propósito! ¡La mejor de las suertes en tu camino de crecimiento y descubrimiento!
 ¡El Futuro es Brillante!
 
-# Conclusión
+# Sección final
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

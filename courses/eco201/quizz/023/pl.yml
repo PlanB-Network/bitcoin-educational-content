@@ -1,0 +1,14 @@
+question: Dlaczego problem koordynacji w podziale pracy powraca w większych społecznościach?
+answer: Ponieważ ludzie są ograniczeni swoimi możliwościami poznawczymi, a społecznie akceptowany pomiar wartości wkładów w Exchange jest nietrywialnym problemem.
+wrong_answers:
+  - Ponieważ ludzie nie są zainteresowani współpracą z większymi grupami i wolą mniejsze społeczności.
+  - Ponieważ większe społeczności mają więcej zasobów, co prowadzi do mniejszej potrzeby podziału pracy.
+  - Ponieważ większe społeczności mają więcej konfliktów, co utrudnia koordynację.
+explanation: |
+  W większych społecznościach niemożliwe jest, aby dana osoba
+  utrzymać i zapamiętać stabilne relacje społeczne z więcej niż
+  ponad 150 osobami, co sprawia, że system reputacji
+  niewystarczający do przezwyciężenia dylematu więźnia na dużą skalę.
+  Ponadto ocena wartości wkładu w Exchange jest złożonym problemem w większych społecznościach
+  złożonym problemem w większych społecznościach.
+reviewed: true

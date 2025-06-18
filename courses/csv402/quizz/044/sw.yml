@@ -1,0 +1,9 @@
+question: Je, usalama wa mpito wa RGB katika chaneli ya Umeme unahakikishwa vipi ikiwa hali ya kizamani itatangazwa?
+answer: Kupitia mitambo ya kuadhibu ya Idhaa ya Umeme
+wrong_answers:
+  - Kwa kughairi shughuli zote za awali kiotomatiki
+  - Kupitia mechanics ya adhabu ya itifaki ya RGB
+  - Kupitia uingiliaji kati wa mtoaji wa mali wa RGB kupitia saini yake inayohusishwa na Genesis
+explanation: |
+  Utaratibu wa kawaida wa adhabu wa Lightning Network unahakikisha kwamba uenezaji wa hali ya zamani unaweza kuadhibiwa kwa kurejesha fedha zote zinazohusika, ikiwa ni pamoja na mali ya RGB.
+reviewed: false

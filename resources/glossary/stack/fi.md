@@ -1,11 +1,11 @@
 ---
-term: STACK
-
+term: AKKU
 ---
-Bitcoin UTXO:n käyttöehtojen soveltamiseen käytettävän komentosarjakielen yhteydessä pino on "LIFO"-tietorakenne (*Last In, First Out*), jota käytetään väliaikaisten elementtien tallentamiseen komentosarjan suorittamisen aikana. Skriptin jokainen operaatio manipuloi näitä pinoja, joihin voidaan lisätä (*push*) tai poistaa (*pop*) elementtejä. Skriptit käyttävät pinoja lausekkeiden arviointiin, väliaikaisten muuttujien tallentamiseen ja ehtojen hallintaan.
 
-Bitcoin-skriptin suorittamisen aikana voidaan käyttää kahta pinoa: pääpinoa ja alt-pinoa (vaihtoehtoista pinoa). Pääpinoa käytetään suurimpaan osaan skriptin toiminnoista. Tässä pinossa komentosarjatoiminnot lisäävät, poistavat tai käsittelevät tietoja. Vaihtoehtoisessa pinossa puolestaan säilytetään väliaikaisesti tietoja komentosarjan suorituksen aikana. Erityiset op-koodit, kuten `OP_TOALTSTACK` ja `OP_FROMALTSTACK`, mahdollistavat elementtien siirtämisen pääpinosta vaihtoehtoiseen pinoon ja päinvastoin.
+Komentosarjakielessä, jota käytetään Bitcoin UTXO:n käyttöehtojen liittämiseen, pino on LIFO (*Last In, First Out*) -tietorakenne, jota käytetään tilapäisen Elements:n tallentamiseen komentosarjan suorittamisen aikana. Skriptin jokainen operaatio käsittelee näitä pinoja, joihin voidaan lisätä (*push*) tai poistaa (*pop*) Elements:ta. Skriptit käyttävät pinoja lausekkeiden arviointiin, väliaikaisten muuttujien tallentamiseen ja ehtojen hallintaan.
 
-Esimerkiksi tapahtuman validoinnin aikana allekirjoitukset ja julkiset avaimet työnnetään pääpinoon ja niitä käsitellään peräkkäisillä opcodeilla sen tarkistamiseksi, että allekirjoitukset vastaavat avaimia ja tapahtumatietoja.
 
-> ► *Englanniksi "pile" tarkoittaa "pino". Englanninkielistä termiä käytetään yleensä myös ranskaksi teknisissä keskusteluissa.*
+Bitcoin-skriptiä suoritettaessa voidaan käyttää kahta pinoa: pääpinoa ja alt-pinoa (vaihtoehtoista pinoa). Pääpinoa käytetään suurimpaan osaan komentosarjan toiminnoista. Tässä pinossa komentosarjatoiminnot lisäävät, poistavat tai käsittelevät tietoja. Vaihtoehtoista pinoa taas käytetään tietojen väliaikaiseen säilyttämiseen komentosarjan suorituksen aikana. Erityiset op-koodit, kuten `OP_TOALTSTACK` ja `OP_FROMALTSTACK`, mahdollistavat Elements:n siirtämisen pääpinosta vaihtoehtoiseen pinoon ja päinvastoin.
+
+
+Kun esimerkiksi tapahtuma validoidaan, allekirjoitukset ja julkiset avaimet työnnetään pääpinoon ja käsitellään peräkkäisillä opcodeilla sen tarkistamiseksi, että allekirjoitukset vastaavat tapahtuman avaimia ja tietoja.

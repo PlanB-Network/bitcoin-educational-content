@@ -1,0 +1,12 @@
+question: Jaka jest jedna z głównych korzyści Bitcoin dla osób nieposiadających konta bankowego?
+answer: Bitcoin pozwala na równość w transakcjach, niezależnie od statusu społecznego czy pozycji politycznej.
+wrong_answers:
+  - Bitcoin pozwala na nierówność w transakcjach, nagradzając najbogatszych użytkowników.
+  - Bitcoin przynosi korzyści tylko ludziom z kontem bankowym i lewicową pozycją polityczną.
+  - Bitcoin przynosi korzyści tylko osobom o wysokim statusie społecznym.
+explanation: |
+  Tekst wspomina, że na świecie jest 2,4 miliarda ludzi bez konta bankowego
+  na świecie bez konta bankowego, a Bitcoin pozwala na
+  równość w transakcjach, niezależnie od ich statusu społecznego
+  lub pozycji politycznej.
+reviewed: true

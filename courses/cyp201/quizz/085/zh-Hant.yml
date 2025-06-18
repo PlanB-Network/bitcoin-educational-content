@@ -1,0 +1,9 @@
+question: 計算 Taproot 公開金鑰 Q 需要哪些操作？
+answer: 將變更 tG 加入公開金鑰 P
+wrong_answers:
+  - 將私人密碼匙 p 乘以調整值
+  - Hash 使用 SHA256 的公開金鑰 P
+  - 串接調整 t 和公開金鑰 P
+explanation: |
+  Taproot 公開金鑰 Q 是將產生器 G 的調整 t 與公開金鑰 P 的標量積相加而得到的。
+reviewed: false

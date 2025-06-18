@@ -1,0 +1,9 @@
+question: Kakvo je Bastiatovo gledište na zahtev proizvođača sveća?
+answer: On to odbacuje jer ide protiv opšteg interesa
+wrong_answers:
+  - Podržava to jer je važno zaštititi radna mesta
+  - On je neutralan po ovom pitanju
+  - Veruje da su proizvođači sveća u pravu
+explanation: |
+  Bastiat kritikuje zahtev proizvođača sveća, ističući da protekcionizam služi posebnim interesima na račun opšteg interesa.
+reviewed: false

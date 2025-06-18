@@ -1,0 +1,9 @@
+question: Która metoda zamykania kanałów jest najbardziej ekonomiczna i szybka?
+answer: Zamknięcie współpracy
+wrong_answers:
+  - Wymuszone zamknięcie
+  - Zamknięcie z oszukiwaniem
+  - Żaden nie jest bardziej ekonomiczny i szybki
+explanation: |
+  Wspólne zamknięcie jest najszybszą i najbardziej ekonomiczną metodą, ponieważ obie strony zgadzają się na zamknięcie kanału, dostosowując opłaty do warunków rynkowych.
+reviewed: false

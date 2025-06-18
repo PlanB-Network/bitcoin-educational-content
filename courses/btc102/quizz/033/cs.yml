@@ -1,11 +1,9 @@
-question: Jaké jsou dvě protichůdné ideologie ve světě Bitcoinu?
-answer: Začlenit nebankovní do bankovního systému a vyjmout ty v bankovním systému z něj
+question: Kdo jsou vynálezci Lightning Network?
+answer: Thaddeus Dryja a Joseph Poon
 wrong_answers:
-  - Zbohatnout každého a zchudnout každého
-  - Centralizovat moc a decentralizovat moc
-  - Podporovat soukromí a podporovat transparentnost
+  - Andreas Antonopoulos a Adam Back
+  - Pieter Wuille a Gregory Maxwell
+  - Satoshi Nakamoto a Hal Finney
 explanation: |
-  Kapitola zmiňuje dvě protichůdné ideologie ve světě Bitcoinu.
-  Jedna je začlenit miliardy lidí, kteří nejsou v bankovním systému, do něj.
-  Druhá je vyjmout miliardy lidí, kteří jsou v bankovním systému, z něj.
+  Thaddeus Dryja a Joseph Poon v roce 2016 vynalezli Lightning Network, aby zlepšili škálovatelnost Bitcoin.
 reviewed: false

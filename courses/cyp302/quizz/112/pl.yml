@@ -1,0 +1,9 @@
+question: Dlaczego RC4 jest klasyfikowany jako synchroniczny szyfr strumieniowy?
+answer: Strumień klucza jest niezależny od tekstu jawnego i szyfrogramu
+wrong_answers:
+  - Strumień klucza zależy od wartości poprzedniego szyfrogramu
+  - Tekst jawny musi być zintegrowany ze strumieniem klucza
+  - Używa strumienia kluczy opartego wyłącznie na zwykłym tekście
+explanation: |
+  RC4 jest synchronicznym szyfrem strumieniowym, ponieważ jego strumień klucza zależy tylko od klucza początkowego, a nie od tekstu jawnego lub szyfrogramu, zapewniając niezależność tego strumienia od wiadomości.
+reviewed: false

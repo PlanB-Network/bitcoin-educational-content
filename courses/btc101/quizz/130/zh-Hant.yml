@@ -1,0 +1,8 @@
+question: 為什麼 Bitcoin 交易中的確認次數很重要？
+answer: 交易的確認次數越多，就越不可變更。
+wrong_answers:
+  - 交易的確認次數越多，價值就越高。
+  - 交易的確認次數越多，處理速度就越快。
+  - 交易的確認次數越多，安全性就越低。
+explanation: >-
+reviewed: true

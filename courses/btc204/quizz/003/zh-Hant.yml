@@ -1,0 +1,9 @@
+question: Bitcoin 交易對輸出中的 UTXO 有何影響？
+answer: 它會使用輸入消耗的 UTXOs 來建立它們。
+wrong_answers:
+  - 它消耗它們來滿足輸入。
+  - 它會加密這些資料，使收件人匿名。
+  - 它會暫時分割它們以進行驗證。
+explanation: |
+  交易輸出中的 UTXOs 是透過消耗輸入中的 UTXOs 而產生的。在某種程度上，這是金錢的目的地。
+reviewed: false

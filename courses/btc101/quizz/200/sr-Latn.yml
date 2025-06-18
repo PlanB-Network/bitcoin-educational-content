@@ -1,0 +1,9 @@
+question: Šta je spontana kupovina?
+answer: Kupovina Bitcoin odmah radi sticanja izloženosti.
+wrong_answers:
+  - Kupovina Bitcoin u redovnim intervalima.
+  - Kupovina Bitcoin samo kada cena padne.
+  - Kupovina Bitcoin samo kada cena poraste.
+explanation: |
+  Tekst kursa objašnjava da se spontana kupovina koristi za trenutno sticanje izloženosti Bitcoin. Na primer, to može značiti kupovinu tokom pada ili iskorišćavanje bonusa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ulinzi ni nini kwa mujibu wa Bastiat?
+answer: Aina ya utaifa wa kiuchumi unaolenga kupunguza ushindani wa nje
+wrong_answers:
+  - Sera ya kiuchumi inayolenga kukuza biashara ya kimataifa
+  - Mkakati wa kuongeza uwezo wa ununuzi wa watumiaji
+  - Hatua ya kusaidia biashara ndogo za ndani
+explanation: |
+  Bastiat anaelezea ulinzi kama utaifa wa kiuchumi ambao unalenga kulinda maslahi ya taifa kwa kuzuia ushindani wa kigeni.
+reviewed: false

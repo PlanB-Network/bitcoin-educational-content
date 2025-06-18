@@ -1,0 +1,13 @@
+question: Vidakuzi ni nini katika muktadha wa kuvinjari mtandaoni?
+answer: Faili zilizoundwa na tovuti ili kuhifadhi maelezo kwenye kifaa chako.
+wrong_answers:
+  - Vipande vidogo vya data vilivyotumwa kutoka kwa tovuti na kuhifadhiwa kwenye kompyuta ya mtumiaji na kivinjari cha mtumiaji.
+  - Programu zinazofuatilia shughuli zako mtandaoni.
+  - Virusi vinavyoweza kudhuru kifaa chako.
+explanation: |
+  Katika muktadha wa kuvinjari mtandaoni, vidakuzi ni faili
+  iliyoundwa na tovuti kuhifadhi habari kwenye kifaa chako.
+  Zinatumika kukumbuka mapendeleo yako, ingia
+  habari, na data nyingine ili kuboresha kuvinjari kwako
+  uzoefu.
+reviewed: true

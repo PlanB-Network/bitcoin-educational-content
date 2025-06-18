@@ -1,0 +1,12 @@
+question: Lightning Network का महत्व Bitcoin और Mining के संदर्भ में क्या है?
+answer: जीडब्ल्यू-3 ट्रांजैक्शन फीस को काफी कम कर सकता है, जिससे माइनर्स की आमदनी पर असर पड़ सकता है।
+wrong_answers:
+  - Lightning Network ब्लॉक साइज़ को बढ़ाता है, जिससे माइनर्स की इनकम बढ़ती है।
+  - Lightning Network, Bitcoin और Mining की ऊर्जा खपत को कम करता है।
+  - Lightning Network, Bitcoin और Mining की स्पीड बढ़ा देता है।
+explanation: |
+  Lightning Network तेज़ और कम लागत वाला है
+  मुख्य Bitcoin चेन के बाहर के लेन-देन। इससे
+  लेन-देन की फीस को काफी कम करने की संभावना,
+  जो माइनर्स की कमाई पर असर डाल सकता है।
+reviewed: true

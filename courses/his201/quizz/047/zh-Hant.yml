@@ -1,0 +1,9 @@
+question: 在 2010 年 7 月的來文中，Satoshi 希望淡化 Bitcoin 的哪一方面？
+answer: 交易的匿名性
+wrong_answers:
+  - 貨幣政策
+  - 電子商務
+  - 可程式化
+explanation: |
+  關於 Slashdot 的簡報草稿，他表示不想將匿名性放在最前面。他向 Martti Malmi [私下] 解釋了他的理由 (https：//mmalmi.github.io/Satoshi/#email-197)。
+reviewed: false

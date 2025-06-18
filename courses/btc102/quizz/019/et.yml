@@ -1,10 +1,9 @@
-question: Mis riskid kaasnevad Bitcoinide hoidmisega vahetusplatvormil?
-answer: Platvorm võib pankrotti minna, teie Bitcoinid võivad olla konfiskeeritud või platvormi võidakse häkkida.
+question: Kes avaldas Bitcoin valge raamatu?
+answer: Satoshi Nakamoto
 wrong_answers:
-  - Platvorm võib suurendada oma tasusid, teie Bitcoinid võivad väärtust kaotada või platvormi võidakse häkkida.
-  - Platvorm võib pankrotti minna, teie Bitcoinid võivad väärtust suurendada või platvormi võidakse häkkida.
-  - Platvorm võib pankrotti minna, teie Bitcoinid võivad olla konfiskeeritud või platvorm võib suurendada oma tasusid.
+  - David Chaum
+  - Tim May
+  - Eric Hughes
 explanation: |
-  Bitcoinide hoidmine vahetusplatvormil kannab endas riske nagu platvormi pankrotti minek, teie Bitcoinide konfiskeerimine või platvormi häkkimine.
-  Seetõttu on oluline omada kontrolli oma privaatvõtme üle.
+  Valge raamatu avaldas 2008. aasta lõpus Satoshi Nakamoto (pseudonüüm).
 reviewed: false

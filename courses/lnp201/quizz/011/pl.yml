@@ -1,0 +1,9 @@
+question: Dlaczego Alice tworzy transakcję wypłaty przed opublikowaniem transakcji wpłaty?
+answer: Aby odzyskać swoje środki w przypadku problemów z Bobem
+wrong_answers:
+  - Aby zwiększyć przepustowość kanału przy każdej transakcji
+  - Aby wykonać transakcję Lightning natychmiast po otwarciu
+  - Aby umożliwić Bobowi bezpośrednie wydawanie środków
+explanation: |
+  Alice tworzy transakcję wypłaty, aby odzyskać swoje środki, jeśli wystąpi problem z Bobem, zapewniając w ten sposób bezpieczeństwo swojego depozytu.
+reviewed: false

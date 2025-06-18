@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+---
+
+Samodzielne oprogramowanie mobilne Wallet zaprojektowane w celu uproszczenia i zwiększenia dostępności transakcji w protokole Lightning. Pozwala użytkownikom zarządzać swoimi środkami bezpośrednio z urządzeń mobilnych bez konieczności łączenia się z oddzielnym węzłem Lightning. Phoenix faktycznie działa jako pełnoprawny samodzielny węzeł Lightning w telefonie (implementacja Lightning). Obsługuje transakcje Bitcoin i Lightning oraz oferuje funkcje ułatwiające zarządzanie węzłami, takie jak automatyczne zarządzanie kanałami z węzłem Acinq. W przeciwieństwie do innych aplikacji Lightning Wallet, które są głównie powiernicze, Phoenix oferuje interesujący kompromis, łącząc wykorzystanie węzła Lightning z wygodą aplikacji na smartfony. Jest to jedno z najlepszych prostych rozwiązań dla początkujących, którzy chcą korzystać z Lightning, zachowując pełne Ownership swoich bitcoinów (self-custody). Phoenix to projekt rozwijany i utrzymywany przez francuską firmę Acinq.

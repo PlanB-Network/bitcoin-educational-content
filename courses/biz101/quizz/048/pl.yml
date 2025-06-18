@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa funkcja tradycyjnych systemów płatności?
+answer: Umożliwienie transferu środków między dwiema stronami
+wrong_answers:
+  - Stworzenie jednej globalnej waluty regulowanej przez organ centralny
+  - Ułatwienie handlu międzynarodowego
+  - Ograniczenie przelewów środków wyłącznie do osobistej wymiany gotówki
+explanation: |
+  Tradycyjne systemy płatności zapewniają mechanizmy i infrastrukturę do przesyłania środków między płatnikami i odbiorcami zarówno w kontekście lokalnym, jak i międzynarodowym.
+reviewed: false

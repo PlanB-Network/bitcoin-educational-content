@@ -1,0 +1,17 @@
+question: Je, ni nini matokeo ya Sera za Viwango Sifuri vya Riba (ZIRP)?
+answer: ZIRP inamomonyoa pembezoni za benki, inakatisha tamaa kutoa mikopo kwa wajasiriamali na waweka hatari, na inahimiza serikali kujihusisha na matumizi makubwa ya fedha, na hivyo kusababisha kuongezeka kwa deni la umma.
+wrong_answers:
+  - ZIRP huongeza faida za mabenki, inahimiza mikopo kwa wafanyabiashara na watu wanaoweka hatari, na inakatisha tamaa matumizi ya serikali.
+  - ZIRP haina athari kubwa kwa benki, mbinu za ukopeshaji, au matumizi ya serikali.
+  - ZIRP inapunguza deni la umma, inahimiza mikopo kwa wafanyabiashara na watu wanaochukua hatari, na inakatisha tamaa matumizi ya serikali.
+explanation: |
+  Sera za Kiwango cha Riba Sifuri (ZIRP) zinaweza kuwa na kadhaa
+  matokeo yasiyotarajiwa. Benki zina fursa ndogo
+  kujenga upya usawa wao kwa sababu pembezoni zao zimemomonyoka.
+  Pia hawana motisha ndogo ya kukopesha, haswa
+  wafanyabiashara na wahatarishi wengine. Badala yake, wanatenga
+  rasilimali zao ili kupata mtaji uliopo au kutoa
+  mikopo dhidi ya dhamana. Zaidi ya hayo, ZIRP inahimiza
+  serikali kujihusisha na matumizi makubwa ya fedha, hivyo kupelekea a
+  ongezeko kubwa la viwango vya deni la umma.
+reviewed: true

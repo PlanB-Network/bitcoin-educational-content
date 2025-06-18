@@ -1,0 +1,13 @@
+question: Je, ni hoja gani kuu ya Ludwig von Mises katika makala yake ya Uhesabuji Uchumi katika Jumuiya ya Madola ya Kisoshalisti?
+answer: Shirika la kiuchumi la busara haliwezekani bila bei kwa sababu za kati za uzalishaji.
+wrong_answers:
+  - Ujamaa ni bora kimaadili kuliko ubepari.
+  - Ubepari ndio mfumo pekee wa kiuchumi unaowezekana.
+  - Ujamaa unaweza kuzalisha watu binafsi wasio na silika za kibepari.
+explanation: |
+  Mises alisema kuwa bila soko kuamua bei za kati
+  sababu za uzalishaji, inakuwa vigumu kurekebisha matumizi ya rasilimali
+  katika viwanda. Hii ina maana kwamba hata kama kuna shirika kamilifu ndani
+  kila kampuni au sehemu ndogo ya uchumi, uchumi mzima hauwezi kurekebisha kwa ufanisi
+  mabadiliko katika upatikanaji wa rasilimali, hali ya uzalishaji na mapendeleo ya watumiaji.
+reviewed: true

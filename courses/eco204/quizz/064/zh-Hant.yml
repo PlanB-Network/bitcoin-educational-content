@@ -1,0 +1,11 @@
+question: 金匠在 13 世紀的義大利扮演什麼角色？
+answer: 他們以 Exchange 發行 Exchange 鈔票，以支付已存入的弗羅林。
+wrong_answers:
+  - 他們創造了第一個股票市場
+  - 他們引入了貨幣時間價值的概念
+  - 他們封鎖了通往斯海爾德河的通道
+explanation: |
+  在 13 世紀的義大利，金匠以 Exchange 發行 Exchange 鈔票。
+  以換取存入的弗羅林。這些弗羅林被小心翼翼地保存在保險庫裡，形成了
+  第一個 Layer 的貨幣，而 Exchange 的票據則形成第二個 Layer。
+reviewed: false

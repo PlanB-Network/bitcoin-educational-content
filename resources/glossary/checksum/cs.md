@@ -1,9 +1,11 @@
 ---
 term: CHECKSUM
-
 ---
-Kontrolní součet je hodnota vypočtená ze souboru dat, která se používá k ověření integrity a platnosti těchto dat během jejich přenosu nebo ukládání. Algoritmy kontrolních součtů jsou určeny k odhalování náhodných chyb nebo neúmyslných změn dat, jako jsou chyby při přenosu nebo poškození souboru. Existují různé typy algoritmů kontrolních součtů, například kontroly parity, modulární kontrolní součty, kryptografické hashovací funkce nebo kódy BCH (*Bose, Ray-Chaudhuri a Hocquenghem*).
 
-V Bitcoinu se kontrolní součty používají na úrovni aplikace k zajištění integrity přijímajících adres. Kontrolní součet se vypočítá z užitečného zatížení adresy uživatele a poté se k této adrese přidá, aby se odhalily případné chyby při jejím zadávání. Kontrolní součet je přítomen také ve frázích pro obnovení (mnemotechnice).
+Kontrolní součet je hodnota vypočtená ze souboru dat, která se používá k ověření integrity a platnosti těchto dat při přenosu nebo ukládání. Algoritmy kontrolních součtů jsou určeny k odhalování náhodných chyb nebo neúmyslných změn dat, jako jsou chyby při přenosu nebo poškození souboru. Existují různé typy algoritmů kontrolních součtů, například paritní kontroly, modulární kontrolní součty, kryptografické funkce Hash nebo kódy BCH (*Bose, Ray-Chaudhuri a Hocquenghem*).
 
-> ► Český překlad výrazu "somme de contrôle" je "kontrolní součet". Obecně je přijato používat ve francouzštině přímo termín "kontrolní součet".*
+
+V systému Bitcoin se kontrolní součty používají na úrovni aplikace k zajištění integrity přijímacích adres. Kontrolní součet se vypočítá z užitečného zatížení uživatelské adresy Address a poté se přidá k této adrese Address, aby se zjistily případné chyby na vstupu. Kontrolní součet je také přítomen ve frázích pro obnovení (mnemotechnice).
+
+
+> ►Všeobecně je přijato používat anglický termín "checksum" přímo ve francouzštině.*

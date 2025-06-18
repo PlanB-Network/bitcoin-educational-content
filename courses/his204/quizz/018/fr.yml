@@ -1,0 +1,8 @@
+question: Que sont les effets Cantillon ?
+answer: L’augmentation de la quantité de monnaie dans un pays a des effets sur la distribution des revenus
+wrong_answers:
+  - L’augmentation de la quantité de monnaie a des effets sur le comportement des habitants
+  - L’augmentation de la quantité de monnaie a des effets sur le montant de la dette publique
+  - L'augmentation de la quantité de monnaie n'a aucun effet significatif
+explanation: |
+  Les effets Cantillon décrivent comment une augmentation de la masse monétaire affecte différemment les prix et les revenus selon les secteurs de l'économie. L'injection de nouvelle monnaie ne se diffuse pas uniformément, ce qui crée des distorsions et des inégalités.

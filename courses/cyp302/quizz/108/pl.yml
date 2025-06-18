@@ -1,0 +1,9 @@
+question: Dlaczego sam uwierzytelniony schemat szyfrowania jest niewystarczający w sesji komunikacyjnej?
+answer: Nie gwarantuje to, że wiadomość została wysłana przez nadawcę w czasie sesji.
+wrong_answers:
+  - Używa zbyt krótkich klawiszy.
+  - Nie szyfruje wiadomości wysyłanych w czasie sesji.
+  - Nie pozwala na uwierzytelnienie nadawcy w czasie sesji.
+explanation: |
+  Uwierzytelniony schemat szyfrowania nie chroni przed atakami takimi jak powtórzenie, zmiana kolejności i odbicie bez dodania wskaźników, takich jak identyfikatory i numery sekwencji.
+reviewed: false

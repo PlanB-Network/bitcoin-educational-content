@@ -1,0 +1,9 @@
+question: 根據盧梭的說法，社會中的惡從何而來？
+answer: 來自物業
+wrong_answers:
+  - 來自不平等
+  - 從奴役
+  - 從個人主義
+explanation: |
+  盧梭認為財產是社會禍害的根源，因為它引進了不平等和統治的慾望。
+reviewed: false

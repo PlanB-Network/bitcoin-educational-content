@@ -1,0 +1,9 @@
+question: Je, lengo kuu la kuunganisha RGB kwenye Lightning Network ni lipi?
+answer: Hamisha mali ya RGB kupitia chaneli za off-chain
+wrong_answers:
+  - Utekelezaji wa mikataba ya RGB moja kwa moja kwenye Bitcoin Blockchain
+  - Badilisha miamala ya kawaida ya Umeme na mikataba mahiri ya RGB
+  - Ongeza uwezo wa kituo kwa kuongeza UTXO mpya
+explanation: |
+  RGB iliyojumuishwa kwenye Lightning Network inaruhusu vipengee vya RGB kuhamishwa kupitia mabadiliko ya serikali yaliyopachikwa katika miamala ya Commitment, huku ikisalia off-chain.
+reviewed: false

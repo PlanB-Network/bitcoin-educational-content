@@ -1,0 +1,9 @@
+question: Ni algorithm gani ya sahihi iliyoletwa katika Bitcoin na Taproot?
+answer: Mpango wa saini wa Schnorr
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Mpango wa sahihi wa Schnorr ulianzishwa mnamo Novemba 2021 na sasisho la Taproot.
+reviewed: false

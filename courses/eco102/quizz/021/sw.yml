@@ -1,0 +1,9 @@
+question: Je, kauli mbiu ya jarida Le Censeur iliyoanzishwa na Comte na Dunoyer ilikuwa ipi?
+answer: Amani na uhuru
+wrong_answers:
+  - Mali na uhuru
+  - Agizo na maendeleo
+  - Uhuru na usawa
+explanation: |
+  Jarida la Le Censeur, lililoanzishwa na Comte na Dunoyer, lilibeba kauli mbiu ya Amani na uhuru, ikiashiria upinzani wao dhidi ya uholela wa madaraka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest główna cecha kryptograficznej funkcji Hash?
+answer: Tworzy on wyjście o stałej długości dla dowolnego wejścia, niezależnie od jego rozmiaru.
+wrong_answers:
+  - Szyfruje dane przy użyciu klucza symetrycznego.
+  - Generuje zmienną wartość wyjściową w zależności od długości wejścia.
+  - Odszyfrowuje wiadomości przy użyciu klucza publicznego.
+explanation: |
+  Funkcja Hash generuje Hash o stałej długości, bez względu na rozmiar danych wejściowych.
+reviewed: false

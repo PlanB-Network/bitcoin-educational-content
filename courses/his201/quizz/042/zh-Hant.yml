@@ -1,0 +1,9 @@
+question: Gavin Andresen 於 2010 年 6 月創造了第一個 Bitcoin Faucet，並協助 Satoshi 開發軟體，他的原籍是哪個國家？
+answer: 澳洲
+wrong_answers:
+  - 美國
+  - 法國
+  - 荷蘭
+explanation: |
+  他 [出生](https：//gavinthink.blogspot.com/2007/06/seven-ears-ago-today.html) 於澳洲，但在 2004 年取得美國公民身份。
+reviewed: false

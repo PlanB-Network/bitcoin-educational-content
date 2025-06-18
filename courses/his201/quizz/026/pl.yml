@@ -1,0 +1,9 @@
+question: Jakiego elementu brakowało w projekcie Bitcoin w dniu 31 października 2008 r.?
+answer: Skończona ilość jednostek
+wrong_answers:
+  - Proof of Work
+  - Uproszczona weryfikacja płatności
+  - Blockchain
+explanation: |
+  Początkowa polityka pieniężna odpowiadała stałej emisji (X BTC/blok), jak wskazano w pierwszej wersji białej księgi i [wymiany] Satoshi (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) z Rayem Dillingerem.
+reviewed: false

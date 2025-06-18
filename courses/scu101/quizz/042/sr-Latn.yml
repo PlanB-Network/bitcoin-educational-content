@@ -1,0 +1,12 @@
+question: Zašto je važno koristiti nasumično generisane lozinke?
+answer: Oni su otporniji na napade grubom silom od lozinki iste dužine koje sadrže reči iz rečnika.
+wrong_answers:
+  - Oni su lakši za pamćenje, ali sporiji za kucanje.
+  - Oni su uvek sigurni jer prelaze 20 nasumičnih karaktera.
+  - Većina onlajn usluga traži samo minimalnu dužinu i skup karaktera, ispunjavanje ovih kriterijuma znači da su lozinke dovoljno jake.
+explanation: |
+  Nasumično generisane lozinke nude viši nivo
+  sigurnosti jer su otpornije na brute force
+  napade, koji pokušavaju da pogode lozinke isprobavanjem svih
+  mogućih kombinacija karaktera.
+reviewed: true

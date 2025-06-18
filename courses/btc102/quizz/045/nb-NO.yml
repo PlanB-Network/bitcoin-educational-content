@@ -1,11 +1,9 @@
-question: Hva er hovedrollen til Bitcoin Core-utviklere?
-answer: De er ansvarlige for hovedutviklingen av Bitcoin-protokollen og dens kjernefunksjoner
+question: Hvorfor anbefales det å regelmessig overføre midler fra en Hot Wallet til en Hardware Wallet?
+answer: For å redusere risikoen for hacking
 wrong_answers:
-  - De kontrollerer Bitcoin-nettverket
-  - De skaper nye bitcoins
-  - De regulerer prisen på Bitcoin
+  - For å øke Wallet-likviditeten
+  - For å redusere transaksjonsgebyrene
+  - For å optimalisere UTXO-personvernet
 explanation: |
-  Kapittelinnholdet forklarer at Bitcoin Core-utviklere er ansvarlige
-  for hovedutviklingen av Bitcoin-protokollen og dens kjernefunksjoner. De
-  kontrollerer ikke Bitcoin-nettverket, skaper ikke nye bitcoins, eller regulerer prisen på Bitcoin.
+  Overføring til en Hardware Wallet sikrer midlene ved å lagre private nøkler offline.
 reviewed: false

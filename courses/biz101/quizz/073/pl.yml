@@ -1,0 +1,9 @@
+question: Co umożliwia synchronizację danych w czasie rzeczywistym między systemami Enterprise Bitcoin i oprogramowaniem ERP?
+answer: Interfejsy API
+wrong_answers:
+  - Pliki CSV
+  - Przesyłanie wsadowe
+  - Raporty e-mail
+explanation: |
+  Interfejsy API umożliwiają ciągłą integrację w czasie rzeczywistym.
+reviewed: false

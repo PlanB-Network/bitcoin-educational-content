@@ -1,0 +1,10 @@
+question: Takriban ni kiwango gani cha jumla cha matumizi ya Address kwenye Bitcoin?
+answer: Takriban 50%
+wrong_answers:
+  - Takriban 5%
+  - Takriban 15%
+  - Takriban 40%
+explanation: |
+  Tangu miaka ya mapema ya 2010, kiwango cha jumla cha matumizi ya Address kwenye Bitcoin kimebadilika karibu 50%.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je glavni cilj asimetrične kriptografije u kontekstu komunikacije između Alise i Boba?
+answer: Da bi Bob mogao da prenese tajnu poruku Alisi koristeći njen javni ključ
+wrong_answers:
+  - Da bi Bob mogao da šifruje i dešifruje poruke bez javnog ključa
+  - Da sprečiš Alisu da dešifruje Bobove poruke
+  - Da bi se omogućilo Alisi da šifruje poruku radi provere njene celovitosti
+explanation: |
+  U asimetričnoj kriptografiji, Alisin javni ključ omogućava Bobu da pošalje šifrovanu poruku koju samo ona može dešifrovati, čime se osigurava poverljivost poruke.
+reviewed: false

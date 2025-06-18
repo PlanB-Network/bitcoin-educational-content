@@ -1,0 +1,9 @@
+question: Jak nazywał się blog prowadzony przez Jona Matonisa, który zajmował się walutami cyfrowymi (w tym Bitcoin od marca 2010 r.)?
+answer: Przyszłość monetarna
+wrong_answers:
+  - Klasyczne studia ekonomiczne
+  - Powrót do gotówki
+  - Instytut Nakamoto
+explanation: |
+  Opublikował swój [pierwszy artykuł na temat Bitcoin] (https: //themonetaryfuture.blogspot.com/2010/03/Bitcoin-peer-to-peer-electronic-cash.html) 13 marca 2010 r., po wymianie e-maili z Satoshi.
+reviewed: false

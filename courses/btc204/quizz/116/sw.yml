@@ -1,0 +1,10 @@
+question: Lengo kuu la mbinu ya ricochet ni nini?
+answer: Ili kutia ukungu athari za zamani za sarafu
+wrong_answers:
+  - Ili kuongeza uwezekano wa kutoweka upya kwa miamala
+  - Kuongeza entropy ya shughuli
+  - Ili kulipa kidogo katika ada za muamala katika siku zijazo
+explanation: |
+  Lengo la ricochet ni kuiga mabadiliko ya Ownership ya sarafu ya Bitcoin ili kurejesha uwezekano wake wa kuchanganyika kwa kutia ukungu alama zake zilizopita.
+  
+reviewed: false

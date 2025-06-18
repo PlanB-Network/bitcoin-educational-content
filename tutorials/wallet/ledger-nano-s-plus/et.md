@@ -121,7 +121,7 @@ Salasõna ei tohiks segi ajada PIN-koodiga. See mängib rolli teie krüptograafi
 
 Salasõna on väga võimas vahend oma bitcoiinide turvalisuse suurendamiseks. Siiski on väga oluline mõista, kuidas see töötab enne selle rakendamist, et vältida juurdepääsu kaotamist oma rahakotile. Seetõttu soovitan teil konsulteerida selle teise õpetusega, kui soovite oma Ledgeril salasõna seadistada:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 "*PIN-luku*" menüü võimaldab teil seadistada ja aktiveerida oma Ledgeri automaatse lukustamise pärast kindlaksmääratud tegevusetuse perioodi.
 
@@ -309,3 +309,4 @@ Kui leidsite selle õpetuse kasuliku, oleksin tänulik, kui jätaksite allapoole
 Soovitan teil samuti tutvuda selle täieliku õpetusega Ledger Flex kohta:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

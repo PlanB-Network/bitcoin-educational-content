@@ -1,0 +1,9 @@
+question: Kolika je veličina kompresovanog javnog ključa koristeći Schnorr protokol?
+answer: 32 bajta
+wrong_answers:
+  - 33 bajta
+  - 64 bajta
+  - 128 bita
+explanation: |
+  Javni ključ Schnorr predstavljen je samo x-koordinatom tačke na eliptičnoj krivi, što smanjuje njegovu veličinu na 32 bajta.
+reviewed: false

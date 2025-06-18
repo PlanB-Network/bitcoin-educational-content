@@ -1,0 +1,8 @@
+question: Condorcet'n mukaan miksi vapaus pelottaa ihmisiä?
+answer: Koska hän on liian tottunut siihen, että hallitus puuttuu kaikkiin asioihin -
+wrong_answers:
+  - Koska sitä ei ole koskaan kokeiltu Ranskassa
+  - Koska se edellyttää väkivaltaista vallankumousta
+  - Koska se on kaaoksen synonyymi
+explanation: |
+  Condorcet uskoi, että ihmiset olivat tottuneet valtion väliintuloon ja pelkäsivät vapautta, koska he eivät tienneet, miten sitä käytetään.

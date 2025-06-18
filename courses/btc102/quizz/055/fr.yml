@@ -1,11 +1,9 @@
-question: Qu'est-ce que le Lightning Network ?
-answer: C'est la deuxième couche du Bitcoin.
+question: Quel support est préconisé pour sauvegarder sa phrase mnémonique en toute sécurité ?
+answer: Support en métal avec enveloppe opaque scellée
 wrong_answers:
-  - C'est une plateforme d'échange de cryptomonnaies.
-  - C'est un type de portefeuille Bitcoin.
-  - C'est un pool de minage Bitcoin.
+  - Stockage sur une clé USB chiffrée
+  - Support en papier avec pochette transparente
+  - Sauvegarde sur un cloud sécurisé
 explanation: |
-  Le Lightning Network est une technologie de deuxième couche appliquée au bitcoin
-  qui utilise des canaux de micropaiement pour augmenter la capacité de sa blockchain à effectuer
-  des transactions.
+  Un support en métal résistant aux catastrophes offre une protection durable contre les dégradations et les accès non autorisés. L'enveloppe opaque scellée permet de vérifier que personne n'a eu accès à la phrase mnémonique.
 reviewed: false

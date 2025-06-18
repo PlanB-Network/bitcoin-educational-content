@@ -1,0 +1,9 @@
+question: Kwa nini Waroma waliona mali kuwa ya kawaida tu?
+answer: Kwa sababu walikuwa na watumwa
+wrong_answers:
+  - Kwa sababu walikuwa wanashika sheria
+  - Kwa sababu walilima ardhi
+  - Kwa sababu walitanguliza uongozi wa kijamii
+explanation: |
+  Warumi, waliokuwa wakiishi katika jamii iliyomilikiwa na watumwa, waliona mali kuwa kitu cha kisheria, kwa kuwa misingi yao ilitegemea uporaji na unyonyaji wa wengine.
+reviewed: false

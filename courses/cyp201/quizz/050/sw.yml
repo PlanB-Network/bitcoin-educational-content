@@ -1,0 +1,9 @@
+question: Ni mazoezi gani mazuri ya kupata passphrase?
+answer: Ihifadhi kwa njia tofauti ya kimwili kutoka kwa maneno ya Mnemonic
+wrong_answers:
+  - Ikariri kwa moyo tu bila kuiandika
+  - Ihifadhi kwenye nyenzo sawa na maneno ya Mnemonic
+  - Irekodi kwa njia ya dijitali kama Hifadhi ya Google
+explanation: |
+  passphrase lazima ihifadhiwe kimwili na kutengwa na maneno ya Mnemonic ili kuzuia wizi wa wakati mmoja wa zote mbili.
+reviewed: false

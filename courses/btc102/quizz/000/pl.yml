@@ -1,0 +1,9 @@
+question: Jakie są typowe cechy schematu Ponziego w ekosystemie kryptowalut?
+answer: Gwarantowane zwroty, trudne wypłaty i polecenia
+wrong_answers:
+  - Niskie zwroty, trudne wypłaty i pełna przejrzystość
+  - Gwarantowane zwroty, trudne wypłaty i brak systemu poleceń
+  - Gwarantowane zwroty, łatwe wypłaty i brak systemu poleceń
+explanation: |
+  Cechy te mogą wskazywać na piramidę finansową. Jeśli zaobserwujesz je w projekcie, zachowaj szczególną ostrożność.
+reviewed: false

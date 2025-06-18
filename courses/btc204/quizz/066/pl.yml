@@ -1,0 +1,10 @@
+question: Na czym polega konsolidacja?
+answer: Łączenie kilku danych wejściowych w celu utworzenia jednego większego.
+wrong_answers:
+  - Dzielenie dużego wejścia na kilka mniejszych.
+  - Przesyłanie danych wejściowych z wielu portfeli do jednego.
+  - Ponowne przypisanie nieużywanych wejść do nowych adresów.
+explanation: |
+  Zasada konsolidacji polega na wykorzystaniu okresów, w których opłaty za Bitcoin są niskie, w celu połączenia mniejszych UTXO w jedno większe.
+  
+reviewed: false

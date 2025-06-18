@@ -1,0 +1,13 @@
+question: Zašto se SMS ne smatra najboljom opcijom za 2FA?
+answer: Ovaj metod je podložan različitim napadima, kao što je SIM swap prevara.
+wrong_answers:
+  - Previše je sporo i skupo, telefonski poziv će biti efikasniji.
+  - To samo pruža dokaz o posedovanju broja telefona.
+  - Previše je komplikovano postaviti na tehničkom nivou.
+explanation: |
+  SMS se ne smatra najboljom opcijom za 2FA jer je to
+  2FA metoda podložna različitim napadima, kao što je SIM
+  swap prevara. Kada se uspešno iskoriste, ove
+  ranjivosti potpuno uništavaju svaku zaštitu koju pruža
+  dodatni Layer 2FA autentifikacije.
+reviewed: true

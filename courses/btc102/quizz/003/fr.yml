@@ -1,9 +1,9 @@
-question: Quelle est une tactique courante utilisée par les influenceurs ou gourous de la crypto ?
-answer: Promouvoir des cryptomonnaies peu fiables.
+question: En quoi consiste le Pump and Dump dans le domaine des cryptomonnaies ?
+answer: Manipuler un actif par une campagne pour vendre au pic
 wrong_answers:
-  - Promouvoir des actifs physiques.
-  - Promouvoir des monnaies fiduciaires.
-  - Promouvoir des produits logiciels.
+  - Acheter massivement un actif pour soutenir son prix sans jamais vendre
+  - Stabiliser le marché sur le long terme par des trades oppposés
+  - Effectuer des achats récurents pour s'exposer à l'actif sur le long terme
 explanation: |
-  Les influenceurs ou gourous de la crypto ont souvent des agendas personnels et peuvent être impliqués dans de nombreux projets qu'ils cherchent à promouvoir, même s'ils ne sont pas toujours dans le meilleur intérêt des investisseurs. Ces influenceurs peuvent tenter de promouvoir des cryptomonnaies peu fiables, ou shitcoins.
+  Cette technique frauduleuse consiste à créer artificiellement une hausse de prix pour vendre à un moment critique et faire chuter la valeur.
 reviewed: false

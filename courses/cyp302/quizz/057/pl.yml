@@ -1,0 +1,9 @@
+question: Co to jest grupa abelowa?
+answer: Grupa, w której operacja jest przemienna
+wrong_answers:
+  - Grupa, która ma unikalny generator
+  - Grupa ograniczona do liczb całkowitych
+  - Grupa bez elementu neutralnego
+explanation: |
+  Grupa abelowa to grupa, w której kolejność Elements w operacji nie ma wpływu na wynik, co oznacza, że jest zgodna z zasadą przemienności.
+reviewed: false

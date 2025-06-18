@@ -1,0 +1,9 @@
+question: 以下哪個軟體不是 Bitcoin 會計解決方案？
+answer: 麻雀
+wrong_answers:
+  - 硬幣追蹤器
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow 並非 Bitcoin 會計解決方案，而其他解決方案則是 (它是 Bitcoin Wallet 軟體)。
+reviewed: false

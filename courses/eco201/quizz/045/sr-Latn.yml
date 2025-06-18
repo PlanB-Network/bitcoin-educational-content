@@ -1,0 +1,9 @@
+question: Koji je glavni razlog zašto će centralno planirana ekonomija neizbežno doživeti pogrešnu alokaciju kapitala?
+answer: Ne postoje tržišne cene ili bankroti koji bi otkrili i ispravili pogrešne alokacije.
+wrong_answers:
+  - Centralni planeri nisu efikasni.
+  - Centralni planeri nemaju dovoljno informacija.
+  - Centralni planeri nisu motivisani da efikasno raspoređuju resurse.
+explanation: |
+  U centralno planiranoj ekonomiji, ne postoje tržišne cene ili bankroti koji bi otkrili i ispravili pogrešne alokacije. Kao rezultat toga, greške će se akumulirati sve dok rasipnost ne postane očigledna kroz značajan pad životnog standarda.
+reviewed: true

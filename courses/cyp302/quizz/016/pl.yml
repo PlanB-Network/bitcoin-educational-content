@@ -1,0 +1,9 @@
+question: Czym charakteryzuje się zmienna jednolita?
+answer: Prawdopodobieństwo wystąpienia wszystkich możliwych wartości jest równe
+wrong_answers:
+  - Wartości te mają rozkład asymetryczny
+  - Prawdopodobieństwo każdej wartości zależy od eksperymentu
+  - Tylko dwie wartości mogą wystąpić z równym prawdopodobieństwem
+explanation: |
+  Zmienna jednorodna to zmienna losowa, w której wszystkie możliwe wartości mają jednakowe prawdopodobieństwo wystąpienia.
+reviewed: false

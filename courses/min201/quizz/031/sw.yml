@@ -1,0 +1,13 @@
+question: Dhamira ya kimsingi ya Bitcoin ni ipi?
+answer: Ili kuwa mtandao wa Exchange unaostahimili udhibiti.
+wrong_answers:
+  - Ili kuchukua nafasi ya sarafu za jadi.
+  - Kufanya miamala isijulikane.
+  - Ili kuunda aina mpya ya uwekezaji.
+explanation: |
+  Dhamira ya msingi ya Bitcoin ni kuwa a
+  mtandao wa Exchange unaostahimili udhibiti. Sehemu ya Bitcoin
+  jamii inajitahidi kila wakati kuimarisha
+  usambazaji, upinzani wa udhibiti, na kupambana na udhaifu
+  ya mtandao.
+reviewed: true

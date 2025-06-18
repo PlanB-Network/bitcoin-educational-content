@@ -1,0 +1,12 @@
+question: Jakie są trzy kanoniczne funkcje pieniądza?
+answer: Środek przechowywania wartości, środek Exchange, jednostka rozliczeniowa.
+wrong_answers:
+  - Magazyn wartości, środek Exchange, środek produkcji.
+  - Magazyn wartości, środek produkcji, jednostka rozliczeniowa.
+  - Medium Exchange, Środki produkcji, Jednostka rozliczeniowa.
+explanation: |
+  Według Arystotelesa pieniądz pełni trzy funkcje: jest
+  magazynem wartości, środkiem Exchange i jednostką rozliczeniową
+  jednostką rozliczeniową. W dzisiejszych czasach funkcja nośnika Exchange jest
+  powszechnie uznawana za główną, przed dwiema pozostałymi.
+reviewed: true

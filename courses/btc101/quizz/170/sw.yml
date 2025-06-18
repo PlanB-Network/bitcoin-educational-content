@@ -1,0 +1,8 @@
+question: Ni faida gani kuu ya mashine maalum za SHA256, au ASICS, katika Bitcoin Mining?
+answer: Wanaongeza kiwango cha Hash kwa joule.
+wrong_answers:
+  - Wanapunguza matumizi ya nishati.
+  - Wanaongeza kasi ya shughuli.
+  - Wanaongeza usalama wa mtandao.
+explanation: >-
+reviewed: true

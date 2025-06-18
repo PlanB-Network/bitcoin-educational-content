@@ -1,0 +1,11 @@
+question: Ni nini sababu moja ya sarafu ya fiat inaongoza kwa udhibiti wa kati?
+answer: Inaruhusu serikali kudhibiti pesa za Supply na viwango vya riba.
+wrong_answers:
+  - Inasaidiwa na bidhaa za kimwili kama dhahabu na fedha.
+  - Ni sugu kwa mfumuko wa bei.
+  - Inahimiza mifumo ya kifedha iliyogatuliwa.
+explanation: |
+  Fedha ya Fiat inatoa serikali mamlaka ya kudhibiti fedha Supply na
+  viwango vya riba, kuwaruhusu kuathiri shughuli za kiuchumi na matokeo
+  katika udhibiti wa kati.
+reviewed: true

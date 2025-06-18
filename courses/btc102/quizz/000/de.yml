@@ -1,9 +1,9 @@
-question: Was ist eine gemeinsame Eigenschaft von Ponzi-Systemen im Bereich der Kryptowährung?
-answer: Sie verwenden das Geld neuer Investoren, um ältere Teilnehmer auszuzahlen.
+question: Was sind die typischen Merkmale eines Schneeballsystems im Krypto-Ökosystem?
+answer: Garantierte Renditen, schwierige Abhebungen und Weiterempfehlungen
 wrong_answers:
-  - Sie beinhalten immer Bitcoin.
-  - Sie sind immer legal und reguliert.
-  - Sie beinhalten immer physische Vermögenswerte.
+  - Niedrige Renditen, schwierige Abhebungen und volle Transparenz
+  - Garantierte Renditen, schwierige Abhebungen und kein Empfehlungssystem
+  - Garantierte Renditen, einfache Abhebungen und kein Empfehlungssystem
 explanation: |
-  Ponzi-Systeme im Bereich der Kryptowährung arbeiten oft, indem sie das Geld neuer Investoren verwenden, um ältere Teilnehmer auszuzahlen. Diese nicht nachhaltige Natur und Abhängigkeit von neuen Teilnehmern machen es wahrscheinlich, dass sie letztendlich zusammenbrechen.
+  Diese Merkmale können auf ein Schneeballsystem hinweisen. Wenn Sie sie bei einem Projekt beobachten, sollten Sie sehr vorsichtig sein.
 reviewed: false

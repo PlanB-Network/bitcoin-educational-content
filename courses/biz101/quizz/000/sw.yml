@@ -1,0 +1,9 @@
+question: Malipo ya reli kujengwa juu ya mifumo ya jadi ya fedha ni ?
+answer: Hulipiwa na wafanyabiashara kupitia ada za wachakataji malipo
+wrong_answers:
+  - Bila malipo kwa sababu mteja hulipa bei inayoonyeshwa na mfanyabiashara
+  - Imelipiwa na mteja juu ya bei ya kuuliza ya mfanyabiashara
+  - Imelipiwa na makampuni ya kadi ambayo huuza data ya mteja
+explanation: |
+  Hakuna kitu cha bure. Njia za malipo zilizojengwa katika mifumo ya jadi ya sarafu huendeshwa na wachuuzi mbalimbali kama vile kampuni za kadi na benki zinazonunua ambazo hutoza ada maalum na/au ada ya awali kwa kila shughuli.
+reviewed: false

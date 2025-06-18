@@ -1,0 +1,11 @@
+question: Koja je svrha Bitcoin Wallet?
+answer: Da biste sačuvali privatne ključeve radi transakcija bitkoinima.
+wrong_answers:
+  - Da koristite resurse uređaja za rudarenje bitkoina.
+  - Da kupite bitkoine putem javnog ključa.
+  - Da se bitkoini čuvaju na uređaju.
+explanation: |
+  Bitcoin novčanici su vrsta softvera koji se koristi za
+  čuvanje privatnih ključeva koji vam omogućavaju da
+  obavljate transakcije sa vašim bitcoinima.
+reviewed: true

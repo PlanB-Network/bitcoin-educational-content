@@ -1,0 +1,9 @@
+question: W jakim przypadku możemy powiedzieć, że dwa zdarzenia są niezależne?
+answer: Prawdopodobieństwo jednego nie wpływa na prawdopodobieństwo drugiego
+wrong_answers:
+  - Te dwa zdarzenia zawsze występują jednocześnie
+  - Są one wzajemnie wykluczające się
+  - Ich łączne prawdopodobieństwo jest równe najwyższemu prawdopodobieństwu z tych dwóch
+explanation: |
+  Dwa zdarzenia są niezależne, jeśli prawdopodobieństwo jednego z nich nie zmienia prawdopodobieństwa drugiego, np. losowanie loterii nie ma wpływu na pogodę następnego dnia.
+reviewed: false

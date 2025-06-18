@@ -1,0 +1,12 @@
+question: Je, mtandao wa Bitcoin hutoa faida gani juu ya mifumo ya jadi ya kifedha?
+answer: Ugatuaji na usalama
+wrong_answers:
+  - Kuongezeka kwa viwango vya mfumuko wa bei
+  - Kutegemea waamuzi
+  - Udhibiti wa kati juu ya shughuli
+explanation: |
+  Mtandao uliogatuliwa wa Bitcoin hutoa njia salama na bora ya
+  kufanya shughuli bila hitaji la waamuzi au wahusika wengine. Hii
+  hupunguza hatari ya udhibiti na mabadiliko yasiyoidhinishwa kwa shughuli,
+  pamoja na kuongeza faragha.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između primitivnog strujnog šifranta i blokovskog strujnog šifranta?
+answer: Primitivna strim šifra nije izgrađena od blok šifre.
+wrong_answers:
+  - Primitivna strim šifra zahteva dodavanje punjenja porukama.
+  - Blok šifra strim šifra koristi blokove promenljive veličine.
+  - Blok šifra strim šifra ne može se koristiti za velike podatke.
+explanation: |
+  Primitivna strim šifra, kao što je Salsa20, dizajnirana je nezavisno od blok šifre, dok strim šifra blok šifre koristi blok šifru kao osnovu, modifikovanu da proizvodi strim enkripcije.
+reviewed: false

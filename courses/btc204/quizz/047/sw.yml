@@ -1,0 +1,10 @@
+question: Je, ni jukumu gani la shughuli ya arifa katika BIP47?
+answer: Ili kusambaza nambari ya malipo kwa mpokeaji na kuashiria kuwa malipo yanakuja.
+wrong_answers:
+  - Thibitisha Bitcoin inayopokea Address kwa miamala ya siku zijazo kupitia misimbo ya malipo.
+  - Thibitisha upokeaji wa bitcoins na mpokeaji kwa BIP47.
+  - Tuma funguo za faragha za muda mfupi za mtumaji kwa mpokeaji ili atumie bitcoins.
+explanation: |
+  Shughuli ya arifa inaruhusu uwasilishaji wa msimbo wa malipo kutoka kwa mtumaji hadi kwa mpokeaji, ili wa mwisho aweze kuijua na kuipata baadaye tu kutoka kwa seed yao katika kesi ya kurejesha Wallet. Kama jina lake linavyopendekeza, pia ina jukumu la arifa.
+  
+reviewed: false

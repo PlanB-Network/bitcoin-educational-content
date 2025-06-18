@@ -1,0 +1,12 @@
+question: Koja je uloga rudara u Bitcoin protokolu?
+answer: Oni osiguravaju trenutnu i istorijsku mrežu.
+wrong_answers:
+  - Oni regulišu cenu Bitcoin.
+  - Oni kontrolišu Supply od Bitcoin.
+  - Oni upravljaju transakcijama između korisnika.
+explanation: |
+  Rudari u protokolu Bitcoin osiguravaju i trenutnu i
+  istorijsku mrežu. Oni ne regulišu cenu
+  Bitcoin, ne kontrolišu njegov Supply, niti upravljaju transakcijama
+  između korisnika.
+reviewed: true

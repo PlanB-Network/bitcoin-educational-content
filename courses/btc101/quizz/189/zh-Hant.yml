@@ -1,0 +1,8 @@
+question: Bitcoin 如何解決拜占庭將軍問題？
+answer: 通過使用基於 Proof of Work 的 Blockchain，具有浮動難度。
+wrong_answers:
+  - 透過使用數位簽章。
+  - 透過使用公共 Ledger。
+  - 透過使用 Proof of Stake 演算法。
+explanation: >-
+reviewed: true

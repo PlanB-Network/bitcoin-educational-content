@@ -1,0 +1,10 @@
+question: W jaki sposób adresy są używane do blokowania UTXO?
+answer: Są one zintegrowane z kluczem ScriptPubKey
+wrong_answers:
+  - Są one zintegrowane z ScriptSig
+  - Są one zintegrowane z coinbase.
+  - Nigdzie nie są zintegrowane.
+explanation: |
+  Gdy dokonywana jest płatność, transakcja tworzy nowy UTXO jako dane wyjściowe z UTXO zużytych jako dane wejściowe. Na tym wyjściu umieszczany jest skrypt określający, w jaki sposób ten UTXO może zostać wydany później. Skrypt ten jest znany jako ScriptPubKey. Odbierający Address jest zintegrowany z tym skryptem.
+  
+reviewed: false

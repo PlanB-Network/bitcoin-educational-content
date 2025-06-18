@@ -1,0 +1,9 @@
+question: Ni nini umuhimu wa vikundi vya mzunguko katika cryptography?
+answer: Wanaruhusu kuundwa kwa mifumo ya cryptographic kulingana na jenereta
+wrong_answers:
+  - Wanarahisisha kuzidisha funguo za usimbuaji
+  - Wanaongeza usalama wa njia za mawasiliano ya umma
+  - Zinatumika kwa jumbe za Hash moja kwa moja ili kuhifadhi uadilifu wao
+explanation: |
+  Katika cryptography, vikundi vya mzunguko, vina jenereta, ni muhimu kwa kuanzisha misingi ya funguo za usimbuaji, haswa katika mifumo muhimu ya umma.
+reviewed: false

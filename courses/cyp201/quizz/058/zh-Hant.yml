@@ -1,0 +1,9 @@
+question: 使用哪個函數從 Mnemonic 詞組推導出 seed？
+answer: PBKDF2 與 HMAC-SHA512
+wrong_answers:
+  - 僅 SHA256
+  - 雙 SHA256
+  - AES-256
+explanation: |
+  seed 是使用 PBKDF2 函式與 HMAC-SHA512 及 2048 次迭代，從 Mnemonic 詞組和 passphrase 產生的。
+reviewed: false

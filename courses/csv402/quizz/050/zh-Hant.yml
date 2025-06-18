@@ -1,0 +1,9 @@
+question: 如何在 RGB 中使用加密承諾（透過 Taproot 或 OP_RETURN）？
+answer: 他們在 Blockchain 中的 Anchor 狀態轉換
+wrong_answers:
+  - 他們在 Blockchain 上儲存 Contract 資料
+  - 他們以 On-Chain Smart contract 執行取代 Client-side Validation
+  - 他們建立交易驗證的節點
+explanation: |
+  承諾可讓狀態更新安全地連結到 UTXO，以證明特定時間某項資訊的存在，而不會洩露資訊本身。
+reviewed: false

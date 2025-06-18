@@ -1,0 +1,9 @@
+question: Koju glavnu zabludu Bastiat osuđuje u delu Šta se vidi i šta se ne vidi?
+answer: Uništenje stimuliše ekonomiju
+wrong_answers:
+  - Uništenje je nesreća
+  - Samo stakloresci imaju koristi od polomljenih prozora
+  - Nesreće treba izbegavati
+explanation: |
+  Bastiat kritikuje zabludu da bi uništenje imalo korisne ekonomske efekte stimulisanjem ekonomije, pokazujući umesto toga da ono rezultira neto gubitkom bogatstva.
+reviewed: false

@@ -20,42 +20,24 @@ Aquí destacaremos las tendencias y patrones comunes en los episodios de hiperin
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introducción
+## Visión general del curso
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Este programa tiene como objetivo ofrecer una comprensión profunda de la aparición de las hiperinflaciones en un mundo dominado por la moneda Fiat y examinar sus considerables consecuencias. Los participantes explorarán en detalle los ciclos hiperinflacionarios, analizando las causas, los desencadenantes y los ejemplos históricos y contemporáneos. También se examinará el impacto tangible de las hiperinflaciones en la economía y la vida cotidiana, estudiando las repercusiones en el valor de la moneda, el poder adquisitivo y el ahorro individual y colectivo.
+¡Bienvenido al curso ECO204!
 
-Aquí destacaremos las tendencias y patrones comunes en los episodios de hiperinflación a lo largo de la historia, al tiempo que proporcionamos estrategias efectivas y concretas para protegerse durante períodos de hiperinflación. Los participantes tendrán la oportunidad de explorar diversas opciones de inversión y mecanismos de defensa financiera, adquiriendo herramientas prácticas y conocimientos esenciales para navegar con tranquilidad en un clima económico inestable.
+El objetivo de este curso es ayudarte a comprender las causas profundas, los mecanismos y las consecuencias de las hiperinflaciones en el contexto de un sistema monetario fiat. A través de ejemplos concretos y análisis históricos, aprenderás a reconocer los patrones recurrentes que preceden a los períodos de hiperinflación y a identificar las medidas que puedes tomar para protegerte.
 
-### Plan de estudios
+**Sección 2: ¿Qué es la inflación?**  
+Antes de adentrarnos en el tema principal, revisaremos los conceptos básicos: ¿qué es la inflación? Esta sección presentará sus orígenes monetarios, los diferentes tipos de inflación existentes y cómo se integran en una dinámica económica más amplia. Este es un paso esencial para comprender cómo la inflación ordinaria puede degenerar en hiperinflación.
 
-Sección 1 - Introducción
+**Sección 3: ¿Qué es la hiperinflación?**  
+En esta sección, estudiarás las definiciones precisas de hiperinflación y varios episodios históricos importantes, como la Alemania de Weimar y Zimbabue. Analizaremos sus puntos en común, sus diferencias y los paralelismos contemporáneos. También descubrirás casos menos conocidos, como las sucesivas redenominaciones en América Latina, así como las soluciones que algunos países han adoptado para salir de la crisis.
 
-- Introducción al curso por Rogzy & David
+**Sección 4: ¿Cómo hemos llegado hasta aquí?**  
+Esta parte tiene como objetivo comprender los mecanismos estructurales que hacen posibles las hiperinflaciones, especialmente a través del desarrollo de la "segunda capa" monetaria y el papel de los bancos centrales. Se proporcionarán recursos complementarios y sugerencias de lecturas enriquecedoras para profundizar en el tema.
 
-Sección 2 - ¿Qué es la inflación?
-
-- Un fenómeno monetario
-- Tipos de inflación
-- La deflación
-
-Sección 3 - ¿QUÉ ES LA HIPERINFLACIÓN?
-
-- Definiciones De La Hiperinflación
-- Similitudes Entre Weimar Y Zimbabwe
-- Diferencias Entre Weimar Y Zimbabwe Y Paralelismos Contemporáneos
-- Las Redenominaciones En América Latina
-- Cómo Salir De La Hiperinflación
-- Conclusión
-- Presentación De La Colección De Billetes De Hiperinflación
-
-Sección 4 - ¿CÓMO LLEGAMOS AQUÍ?
-
-- La Aparición De La Segunda Capa De La Moneda Y Los Bancos Centrales
-- Libros Y Recursos
-
-Buenas suerte !
+¿Y si la historia monetaria se estuviera repitiendo ante nuestros ojos? ¡Descúbrelo en los capítulos que siguen!
 
 # ¿Qué es la inflación?
 
@@ -484,7 +466,7 @@ Cuando la moneda pierde rápidamente su valor, incluso las transacciones más si
 
 > Zimbabwe: "También se permitía a los encargados de las tiendas contratar a un trabajador ocasional para reemplazar al miembro del personal que contaba dinero todo el día. Por supuesto, contar el dinero en la tienda para la administración y el depósito en el banco era una cosa, pero todo el proceso tenía que repetirse en el banco al hacer el depósito".
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Técnica de conteo de dinero de Uzbekistán
 
@@ -923,7 +905,7 @@ La hiperinflación es un tema fascinante que se ha estudiado a través de divers
 
 - "Juntas monetarias para países en desarrollo: Un manual" por Steve Hanke y Kurt Schuler. Aunque se centra en las juntas de emisión, este libro ofrece una perspectiva sobre cómo evitar situaciones de hiperinflación.
 
-# Conclusión
+# Sección final
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

@@ -1,0 +1,9 @@
+question: Co stanowi fizyczną podstawę większości komunikacji w krajach rozwiniętych?
+answer: Sieci kabli światłowodowych
+wrong_answers:
+  - Satelity dla każdego połączenia
+  - Tylko kable koncentryczne
+  - Tylko przewody miedziane
+explanation: |
+  Większość nowoczesnej komunikacji opiera się na sieciach kabli światłowodowych, które zapewniają szybką wymianę danych, chociaż niektóre zastosowania satelitów i kabli koncentrycznych pozostają.
+reviewed: false

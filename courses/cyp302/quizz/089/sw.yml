@@ -1,0 +1,9 @@
+question: Kuna umuhimu gani wa kutumia Nonce nasibu katika mbinu za CBC na OFB?
+answer: Inahakikisha kwamba kila kipindi cha usimbaji fiche ni cha kipekee, hata kwa data inayofanana.
+wrong_answers:
+  - Inapunguza urefu wa ufunguo katika mchakato wa usimbaji fiche.
+  - Hufanya usimbaji fiche haraka.
+  - Inafanya msimbo wa algoriti kuwa mzuri zaidi kwa wanadamu.
+explanation: |
+  Kwa kutumia Nonce nasibu kwa kila kipindi, mbinu za CBC na OFB huhakikisha kwamba kila usimbaji fiche ni wa kipekee, jambo ambalo huzuia mashambulizi ambayo yanatumia data inayofanana.
+reviewed: false

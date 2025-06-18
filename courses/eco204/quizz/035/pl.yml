@@ -1,0 +1,11 @@
+question: Jaki jest wpływ hiperinflacji na oszczędności?
+answer: Powoduje erozję wartości kapitału i dochodu, utrudniając długoterminowe planowanie.
+wrong_answers:
+  - Zwiększa to wartość oszczędności.
+  - Nie ma to wpływu na oszczędności.
+  - Zachęca to ludzi do większego oszczędzania.
+explanation: |
+  W okresie hiperinflacji oszczędzanie staje się wyzwaniem. Pieniądze szybko
+  szybko tracą na wartości, utrudniając długoterminowe planowanie. Ta niestabilność finansowa
+  może powodować stres i niepokój.
+reviewed: false

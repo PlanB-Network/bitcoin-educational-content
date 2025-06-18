@@ -1,0 +1,9 @@
+question: Jaki jest jeden z powodów, dla których inwestorzy instytucjonalni i duże firmy zainteresowały się Bitcoin?
+answer: Przyjęcie Bitcoin przez głównych graczy finansowych, takich jak BlackRock i sukces funduszy ETF Spot Bitcoin, usankcjonowało go jako aktywa przechowujące wartość.
+wrong_answers:
+  - Cena Bitcoin jest ustalana i gwarantowana przez agencje rządowe.
+  - Transakcje Bitcoin są w pełni ubezpieczone przez banki centralne.
+  - Nie wymaga zrozumienia zasobów cyfrowych ani przepisów finansowych.
+explanation: |
+  Kiedy główne instytucje uznają Bitcoin za ważną inwestycję, sygnalizuje to rynkowi, że dojrzał on poza spekulacje. Produkty takie jak fundusze ETF Spot Bitcoin ułatwiają firmom uzyskanie ekspozycji, dodatkowo zwiększając akceptację głównego nurtu.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Jaka jest główna przewaga Bitcoin nad innymi formami waluty?
+answer: Oferuje doskonały magazyn wartości ze względu na ściśle ograniczone Supply i neutralność.
+wrong_answers:
+  - Jest niepodzielny i nieprzenośny.
+  - Jest to świetny przykład waluty, która cierpi z powodu inflacji monetarnej.
+  - Jest on powszechnie akceptowany w handlu przez wszystkich kupców na świecie.
+explanation: |
+  Główną zaletą Bitcoin w porównaniu z innymi formami waluty
+  jest to, że oferuje doskonały magazyn wartości ze względu na jego
+  ściśle ograniczony Supply i brak zaufanej strony. To
+  sprawia, że jest to dobry wybór dla długoterminowych oszczędności.
+reviewed: true

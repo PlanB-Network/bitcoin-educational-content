@@ -1,0 +1,9 @@
+question: Ni kauli gani inayonasa vyema jukumu la Bitcoin kama mtandao na rasilimali ya biashara?
+answer: Inaweza kufanya kazi kama hifadhi ya thamani na kati ya Exchange katika mfumo wa kimataifa, uliogatuliwa.
+wrong_answers:
+  - Inaweza tu kufanya kazi kama mfumo wa kadi ya zawadi ya ndani.
+  - Ni zana ya kubahatisha tu ya biashara isiyo na matumizi halisi.
+  - Lazima iambatane na sera za fedha za nchi moja ili kufanya kazi.
+explanation: |
+  Muundo wa kimataifa wa mtandao wa Bitcoin huiruhusu kutumika sio tu kama ghala la thamani bali pia kama njia ya Exchange, ikitoa biashara kwa usuluhishi wa haraka, usio na ruhusa na wa mwisho wa miamala duniani kote.
+reviewed: false

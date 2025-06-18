@@ -1,0 +1,9 @@
+question: Bitcoin 有普遍上升的趨勢，這代表什麼？
+answer: Bitcoin 的整體上漲趨勢意味著，整體而言，Bitcoin 的價格一直在上漲。
+wrong_answers:
+  - Bitcoin 的整體上漲趨勢意味著價格保證無限期上漲，不會有任何波動。
+  - Bitcoin 的整體上升趨勢意味著 Bitcoin 的價值正在降低，並正在失去其市場吸引力。
+  - Bitcoin 的整體上漲趨勢意味著它只受一小部分投資者歡迎，對整體市場沒有影響。
+explanation: |
+  Bitcoin 的一般上升趨勢是指其價格在某段時間內持續上漲。值得注意的是，雖然上升趨勢顯示出積極的發展軌跡，但並不保證價格會持續上漲而不出現任何波動。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Które z poniższych programów nie jest rozwiązaniem księgowym Bitcoin?
+answer: Wróbel
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow nie jest rozwiązaniem księgowym Bitcoin, podczas gdy inne są (jest to oprogramowanie Bitcoin Wallet).
+reviewed: false

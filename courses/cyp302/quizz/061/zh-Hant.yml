@@ -1,0 +1,9 @@
+question: 哪種加密方式使用固定的資料區塊？
+answer: 區塊加密
+wrong_answers:
+  - 串流加密
+  - 訊息驗證碼
+  - 公開金鑰
+explanation: |
+  區塊加密將資料分割成固定大小的區塊，並獨立進行加密。
+reviewed: false

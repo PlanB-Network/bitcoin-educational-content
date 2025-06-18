@@ -1,0 +1,14 @@
+question: Czym jest pojęcie przewagi absolutnej w kontekście podziału pracy?
+answer: Jednostka posiada wyższą zdolność do wykonywania pewnych zadań niż jej rówieśnicy.
+wrong_answers:
+  - Jednostka posiada wyższą zdolność do wykonywania wszystkich zadań niż jej rówieśnicy.
+  - Jednostka posiada taką samą zdolność do wykonywania określonych zadań jak jej rówieśnicy.
+  - Dana osoba posiada gorszą zdolność do wykonywania pewnych zadań niż jej
+explanation: |
+  W kontekście podziału pracy, absolutna przewaga
+  odnosi się do sytuacji, w której dana osoba ma lepsze
+  zdolność do wykonywania określonych zadań niż jego rówieśnicy. Ta
+  ma wówczas interes w wyspecjalizowaniu się w
+  produkcji tego dobra, a następnie wymienia nadwyżkę
+  uzyskaną za dobra, których pragnie.
+reviewed: true

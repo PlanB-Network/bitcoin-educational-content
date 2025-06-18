@@ -1,0 +1,9 @@
+question: Je, kazi ya msingi ya mifumo ya malipo ya jadi ni ipi?
+answer: Ili kuwezesha uhamishaji wa fedha kati ya pande mbili
+wrong_answers:
+  - Kuunda sarafu moja ya kimataifa inayodhibitiwa na mamlaka kuu
+  - Ili kuwezesha biashara ya kimataifa
+  - Ili kuzuia uhamishaji wa fedha kwa ubadilishanaji wa fedha za ana kwa ana pekee
+explanation: |
+  Mifumo ya kawaida ya malipo hutoa njia na miundombinu ya kuhamisha fedha kati ya walipaji na wanaolipwa katika miktadha ya ndani na kimataifa.
+reviewed: false

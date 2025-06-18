@@ -1,0 +1,9 @@
+question: एक्सटेंडेड की (extended key) का चेकसम (checksum) सहित कुल साइज़ क्या होता है?
+answer: 82 बाइट्स
+wrong_answers:
+  - 78 बाइट्स
+  - 64 बाइट्स
+  - 128 बाइट्स
+explanation: |
+  एक्सटेंडेड की (extended key) बिना चेकसम (checksum) के 78 बाइट्स होती है और चेकसम समेत 82 बाइट्स होती है।
+reviewed: false

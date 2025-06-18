@@ -1,0 +1,13 @@
+question: Kakva je bila uloga zlatara u Italiji 13. veka?
+answer: Izdali su račune Exchange u Exchange za deponovane florine
+wrong_answers:
+  - Oni su stvorili prvo tržište akcija
+  - Uveli su koncept vremenske vrednosti novca
+  - Blokirali su pristup reci Šelda.
+explanation: |
+  U Italiji 13. veka, zlatari su izdavali račune Exchange u Exchange
+  
+  za deponovane florine. Ovi florini su pažljivo čuvani u njihovim trezorima, formirajući
+  
+  prvi Layer novca, dok su računi Exchange formirali drugi Layer.
+reviewed: false

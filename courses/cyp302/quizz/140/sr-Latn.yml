@@ -1,0 +1,9 @@
+question: Kakva je priroda problema faktorizacije koji je osnova sigurnosti asimetričnih kriptosistema kao što je RSA?
+answer: Faktorisanje broja na dva veoma velika prosta faktora
+wrong_answers:
+  - Razlaganje broja na uzastopne faktore broja 2
+  - Smanjenje broja na njegove najmanje delioce
+  - Množenje dva velika prosta broja da bi se dobio proizvod
+explanation: |
+  Bezbednost RSA algoritma zasniva se na teškoći faktorizacije velikog broja (proizvoda dva velika prosta broja) na njegova dva prosta faktora, zadatak koji je gotovo nemoguć bez privatnog ključa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakie korzyści oferuje bezpieczny dostawca poczty e-mail, taki jak ProtonMail?
+answer: Ochrona prywatności i zwiększone bezpieczeństwo.
+wrong_answers:
+  - Prostsze Interface dla początkujących.
+  - Redukcja funkcji w celu zminimalizowania powierzchni ataku.
+  - Integracja algorytmu do automatycznego generate wiadomości e-mail.
+explanation: |
+  ProtonMail wyróżnia się polityką prywatności i wzmocnionymi środkami bezpieczeństwa.
+reviewed: false

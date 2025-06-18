@@ -1,0 +1,10 @@
+question: Jak nazywa się wydarzenie, w którym nagroda za transakcje Mining Bitcoin zostaje zmniejszona o połowę?
+answer: Halving
+wrong_answers:
+  - Podwojenie
+  - Ćwiartowanie
+  - Potrojenie
+explanation: |
+  Zaprogramowana redukcja nagród Mining, Halving co cztery lata, jest wydarzeniem znanym jako Halving
+  cztery lata, jest wydarzeniem znanym jako Halving.
+reviewed: true

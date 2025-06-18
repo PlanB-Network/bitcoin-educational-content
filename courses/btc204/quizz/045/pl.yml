@@ -1,0 +1,10 @@
+question: Jaki jest główny cel BIP47?
+answer: Aby mieć unikalny identyfikator do otrzymywania BTC bez ponownego wykorzystywania adresów.
+wrong_answers:
+  - Zwiększenie rozmiaru bloków w celu przyspieszenia transakcji.
+  - Zezwolenie na transakcje bez opłat w sieci Bitcoin.
+  - Całkowicie anonimowe transakcje w Bitcoin.
+explanation: |
+  Celem BIP47 jest zapewnienie unikalnego identyfikatora, który umożliwia otrzymywanie bitcoinów wielokrotnie i od wielu osób, ale bez ponownego wykorzystywania adresów, ponieważ jest to bardzo zła praktyka dla prywatności użytkownika.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji osnovni uslov mora da zadovolji skup S sa binarnom operacijom da bi bio grupa?
+answer: Uslov zatvaranja
+wrong_answers:
+  - Uslov komutativnosti
+  - Uslov simetrije
+  - Distributivni uslov
+explanation: |
+  Skup S sa binarnom operacijom mora zadovoljiti nekoliko uslova da bi formirao grupu, a prvi je uslov zatvorenosti: operacija između dva Elements iz S mora dati element iz S.
+reviewed: false

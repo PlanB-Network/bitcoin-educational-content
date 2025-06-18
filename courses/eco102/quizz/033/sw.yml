@@ -1,0 +1,9 @@
+question: Kulingana na Rousseau, uovu katika jamii hutoka wapi?
+answer: Kutoka kwa mali
+wrong_answers:
+  - Kutoka kwa usawa
+  - Kutoka kwa utumwa
+  - Kutoka kwa ubinafsi
+explanation: |
+  Rousseau anaona mali kama chanzo cha uovu wa kijamii kwa sababu inaleta ukosefu wa usawa na hamu ya kutawala.
+reviewed: false

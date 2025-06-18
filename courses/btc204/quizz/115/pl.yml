@@ -1,0 +1,10 @@
+question: Czym jest rykoszet w kontekście Bitcoin?
+answer: Technika polegająca na dokonywaniu wielu transakcji na własną rzecz
+wrong_answers:
+  - Transakcja oparta na współpracy z wieloma uczestnikami
+  - Metoda mieszania bitcoinów w celu zwiększenia potencjalnej anonimowości
+  - Typ CoinJoin specyficzny dla niektórych platform Exchange
+explanation: |
+  Rykoszet to technika polegająca na dokonywaniu kilku fikcyjnych transakcji na swoją rzecz (zamiatanie).
+  
+reviewed: false

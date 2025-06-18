@@ -1,0 +1,12 @@
+question: Ni kizuizi gani kikubwa ambacho watu binafsi walikabili wakati wa mzozo wa kufilisika wa serikali ya Ugiriki wa 2015?
+answer: Mageuzi ya benki yaliyokithiri yaliyowekwa na serikali.
+wrong_answers:
+  - Ufikiaji mdogo wa huduma za benki za kidijitali
+  - Kubadilikabadilika kwa sarafu za kidijitali kama vile Bitcoin
+  - Upungufu wa fedha za kimwili (fedha)
+explanation: |
+  Wakati wa mgogoro wa kufilisika wa serikali ya Ugiriki 2015, benki zilifungwa,
+  Utoaji wa ATM ulikuwa mdogo, na sehemu kubwa ya watu binafsi
+  amana za benki zilitolewa na serikali ili kufadhili kutowajibika kwa fedha.
+  Tukio hili liliangazia hatari zinazohusiana na kuwa na pesa ndani ya mfumo wa kawaida wa benki.
+reviewed: true

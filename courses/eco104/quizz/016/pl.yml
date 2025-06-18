@@ -1,0 +1,14 @@
+question: Jaka jest pierwsza rzecz, którą należy zrobić, aby zminimalizować ryzyko strat w przypadku samodzielnego przechowywania?
+answer: Utwórz kopię zapasową frazy seed odzyskiwania Wallet
+wrong_answers:
+  - Udostępnianie kluczy prywatnych zaufanym osobom
+  - Zanotuj swoją frazę odzyskiwania seed i zapisz ją na komputerze
+  - Wyłącz uwierzytelnianie dwuskładnikowe (2FA)
+explanation: |
+  Przede wszystkim należy wykonać kopię zapasową Wallet podczas samodzielnego przechowywania.
+  Portfele sprzętowe są dostarczane z frazą odzyskiwania seed, zestawem słów, które
+  może być użyty do odzyskania kluczy prywatnych w przypadku utraty lub uszkodzenia urządzenia.
+  Utwórz fizyczną kopię tej frazy seed, taką jak metalowa [płytka seed] (https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) i przechowuj ją w bezpiecznym miejscu
+  przechowywać ją w bezpiecznym miejscu. Ważne jest, aby zachować tę frazę seed w bezpiecznym miejscu.
+  NIGDY nikomu jej nie udostępniaj.
+reviewed: true

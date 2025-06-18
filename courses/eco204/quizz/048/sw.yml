@@ -1,0 +1,12 @@
+question: Ni nini matokeo ya madhehebu mengi kwa idadi ya watu?
+answer: Kupoteza akiba na matatizo ya chakula.
+wrong_answers:
+  - Kuongezeka kwa utajiri na wingi wa chakula.
+  - Kuongezeka kwa akiba na uhaba wa chakula.
+  - Kupungua kwa mali na wingi wa chakula.
+explanation: |
+  Kuweka upya jina mara nyingi, kuondoa sufuri, au kubadilisha jina
+  ya
+  sarafu ina athari za moja kwa moja kwa idadi ya watu, kuanzia upotezaji wa
+  msaada kwa matatizo ya chakula.'
+reviewed: false

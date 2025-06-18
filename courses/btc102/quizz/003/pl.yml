@@ -1,0 +1,9 @@
+question: Na czym polega Pump and Dump w przestrzeni kryptowalutowej?
+answer: Manipulowanie aktywami poprzez kampanię sprzedaży w szczytowym momencie
+wrong_answers:
+  - Masowe kupowanie aktywów w celu podtrzymania ich ceny bez sprzedaży
+  - Stabilizacja rynku w długim okresie poprzez transakcje przeciwstawne
+  - Dokonywanie powtarzających się zakupów w celu uzyskania długoterminowej ekspozycji na aktywa
+explanation: |
+  Ta oszukańcza technika polega na sztucznym zawyżaniu ceny w celu sprzedaży w krytycznym momencie i spowodowania krachu wartości.
+reviewed: false

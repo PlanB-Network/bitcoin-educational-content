@@ -1,0 +1,9 @@
+question: Tunapotafuta muundo, tutasoma sehemu gani ya muamala?
+answer: Muundo wake
+wrong_answers:
+  - Metadata yake
+  - Maandishi yake
+  - Saini yake
+explanation: |
+  Mchoro wa muamala ni kielelezo au muundo wa jumla wa shughuli ya kawaida ambayo inaweza kupatikana kwenye Blockchain, ambayo uwezekano wa tafsiri yake inajulikana.
+reviewed: false

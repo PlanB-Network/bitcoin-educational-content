@@ -1,12 +1,9 @@
-question: Hva er hovedfunksjonen til en passordbehandler?
-answer: Å lagre og håndtere passordene dine
+question: Hvorfor er nettsikkerhet avgjørende for Bitcoin-brukere?
+answer: Fordi hacking resulterer i irreversibelt tap av bitcoins
 wrong_answers:
-  - Å generere tilfeldige passord
-  - Å huske brukernavnene dine
-  - Å beskytte datamaskinen din mot virus
+  - Fordi bankene forsikrer midler i tilfelle totaltap av Bitcoin
+  - Fordi man kan havne i fengsel for å miste bitcoins
+  - Fordi angrep fører til svært store administrative byrder
 explanation: |
-  En passordbehandler er en programvare som lagrer og håndterer passordene dine.
-
-  Den hjelper deg med å aldri bruke samme passord to ganger, velge komplekse og sikre passord,
-
-  og letter håndteringen av din online sikkerhet.
+  Uten mellomledd betyr et hack et definitivt tap av bitcoins.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nini lengo kuu la watetezi wa kurudi kwa mfumo wa fedha wa msingi wa chuma?
+answer: Kupunguza uwezo wa benki kuu
+wrong_answers:
+  - Kuongeza mfumuko wa bei
+  - Kukuza biashara ya kimataifa
+  - Kudhibiti masoko ya fedha
+explanation: |
+  Watetezi wa mfumo unaozingatia chuma cha thamani wanalenga kupunguza nguvu za benki kuu kwa kuzuia uwezo wa kuunda pesa bila hifadhi inayoonekana, ambayo inapunguza hatari za mfumuko wa bei na uendeshaji wa fedha.
+reviewed: false

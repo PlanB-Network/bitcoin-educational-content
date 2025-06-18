@@ -1,0 +1,9 @@
+question: Washiriki wanawezaje kuhakikisha mpangilio sahihi wa ujumbe katika kikao salama?
+answer: Kwa kutumia nambari za mfuatano katika kila ujumbe
+wrong_answers:
+  - Kwa kubadilishana vitufe kwa kila ujumbe
+  - Kwa kuongeza ucheleweshaji kati ya ujumbe
+  - Kwa kusimba ujumbe kwa kutumia algoriti tofauti
+explanation: |
+  Nambari za mfuatano huhakikisha kuwa ujumbe unapokelewa kwa mpangilio sahihi na kuzuia upangaji wao upya.
+reviewed: false

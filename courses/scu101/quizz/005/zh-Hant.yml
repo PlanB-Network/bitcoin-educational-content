@@ -1,0 +1,11 @@
+question: 為什麼建議避免使用 Google Chrome 瀏覽器？
+answer: 由於其追蹤器。
+wrong_answers:
+  - 因為它不安全。
+  - 因為它對使用者不友善。
+  - 因為它不支援延伸功能。
+explanation: |
+  Google Chrome 瀏覽器以追蹤器著稱，它可以
+  收集您的線上活動資料。這可以是
+  有些使用者會擔心隱私權問題。
+reviewed: true

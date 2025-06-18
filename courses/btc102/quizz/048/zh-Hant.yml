@@ -1,0 +1,9 @@
+question: 堆高機主要使用何種投資策略？
+answer: 美元成本平均法
+wrong_answers:
+  - 日間交易
+  - 套利
+  - 一次付清
+explanation: |
+  DCA 涉及定期投資固定金額，以減少市場波動對投資組合的影響。
+reviewed: false

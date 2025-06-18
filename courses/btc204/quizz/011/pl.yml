@@ -1,0 +1,9 @@
+question: Jaka jest najtrudniejsza cecha do osiągnięcia w przypadku waluty cyfrowej takiej jak Bitcoin?
+answer: Brak podwójnych wydatków
+wrong_answers:
+  - Integralność
+  - Autentyczność
+  - Prawdziwość
+explanation: |
+  W przypadku walut cyfrowych zapewnienie braku podwójnych wydatków jest bardziej złożone, ponieważ każde dobro cyfrowe jest zasadniczo informacją. W przeciwieństwie do dóbr fizycznych, informacje nie dzielą się podczas wymiany, ale rozprzestrzeniają się poprzez mnożenie.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaką historyczną koncepcję RGB stosuje się do świata cyfrowego?
+answer: Instrumenty na okaziciela
+wrong_answers:
+  - Scentralizowane bazy danych
+  - Sieci peer-to-peer bez walidacji
+  - Otwarte rejestry dostępne dla wszystkich
+explanation: |
+  RGB przenosi ideę instrumentów na okaziciela do postaci cyfrowej.
+reviewed: false

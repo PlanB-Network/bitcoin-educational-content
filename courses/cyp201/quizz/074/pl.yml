@@ -1,0 +1,9 @@
+question: Co oznacza indeks /84'/ na głębokości 1 ścieżki pochodnej?
+answer: Standard P2WPKH (SegWit v0)
+wrong_answers:
+  - Standard P2TR (SegWit v1)
+  - A Bitcoin Testnet waluta
+  - A Bitcoin Mainnet waluta
+explanation: |
+  Indeks /84'/ jest zdefiniowany w BIP84 w celu wskazania użycia standardu SegWit v0 z adresami P2WPKH na głębokości 1 (adres docelowy pochodnej).
+reviewed: false

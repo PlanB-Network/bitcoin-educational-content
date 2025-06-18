@@ -1,0 +1,9 @@
+question: Ni aina gani ya muundo wa aljebra ambayo ni msingi wa aljebra abstract?
+answer: Kikundi
+wrong_answers:
+  - Shamba
+  - Pete
+  - Matrix
+explanation: |
+  Kundi hili ni muundo msingi wa aljebra ambao msingi wa aljebra dhahania, unaofafanuliwa na seti ya Elements na operesheni ya jozi ambayo inaheshimu sifa fulani.
+reviewed: false

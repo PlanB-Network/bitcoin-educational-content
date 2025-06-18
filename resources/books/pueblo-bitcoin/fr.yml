@@ -4,9 +4,3 @@ cover: cover_en.webp
 original: true
 description: |
   Avec Le Village du Bitcoin, l'auteur nous emmène dans un voyage instructif à travers cette technologie, explorant les origines de l'argent jusqu'au cœur du protocole informatique. Il propose également des réflexions sur les impacts sociaux et politiques, définissant les bases que Bitcoin pose pour une société plus juste et plus consciente.
-original_language: en
-proofreading:
-  - language: en
-    urgency: 1
-    contributor_names:
-      - davidecoltro

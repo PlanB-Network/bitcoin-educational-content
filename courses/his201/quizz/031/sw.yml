@@ -1,0 +1,9 @@
+question: Je, mhandisi wa Google Mike Hearn alivutiwa na mfumo gani wa sarafu ya kidijitali kabla ya kugundua Bitcoin?
+answer: Ripple
+wrong_answers:
+  - Hifadhi ya Uhuru
+  - eLD
+  - RPOW
+explanation: |
+  Ilikuwa kwenye mradi wa Ryan Fugger wa Google Group ambapo alisikia kwa mara ya kwanza kuhusu Bitcoin mnamo Aprili 2009. Mara moja aliwasiliana na Satoshi ili kuuliza maswali.
+reviewed: false

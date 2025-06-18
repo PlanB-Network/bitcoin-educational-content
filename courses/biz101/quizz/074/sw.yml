@@ -1,0 +1,9 @@
+question: Ni vipengele vipi vya usalama vya hali ya juu ambavyo kwa kawaida hutekelezwa katika kiwango cha Biashara kwa bitcoins?
+answer: Sahihi nyingi zilizo na vifunga saa
+wrong_answers:
+  - Ulinzi wa nenosiri kwa kifaa cha mkononi cha Lightning Wallet
+  - Sigi moja yenye ulinzi wa BIP39 passphrase
+  - Sigi moja yenye maneno 24 ya maneno ya seed
+explanation: |
+  Hatua za usalama wa juu kama vile usanidi wa saini nyingi zilizo na vifunga saa ni muhimu kwa kudhibiti kiasi kikubwa.
+reviewed: false

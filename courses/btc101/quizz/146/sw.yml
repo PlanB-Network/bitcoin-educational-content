@@ -1,0 +1,11 @@
+question: Kwa nini ni muhimu kwamba nodi ya Bitcoin ibaki kuwa nafuu na kupatikana kwa watumiaji wote wanaowezekana?
+answer: Kwa sababu inawezesha ugatuaji wa mtandao.
+wrong_answers:
+  - Kwa sababu huongeza uwezo wa muamala wa mtandao.
+  - Kwa sababu inapunguza uwezo wa muamala wa mtandao.
+  - Kwa sababu inaongeza Block reward kwa wachimbaji.
+explanation: |
+  Gharama nafuu na upatikanaji wa node ya Bitcoin ni
+  muhimu kwa sababu hurahisisha ugatuaji wa madaraka
+  mtandao.
+reviewed: true

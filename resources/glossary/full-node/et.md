@@ -1,5 +1,5 @@
 ---
-term: FULL NODE
-
+term: TÄIELIK SÕLME
 ---
-Täissõlm ehk inglise keeles "Full Node" viitab arvutile, mis käitab Bitcoini protokolli klienti ning laeb alla, kontrollib ja salvestab kogu plokiahelat, mis on täielik tehingute ajalugu alates Genesis'i plokist. Täissõlm kontrollib iseseisvalt kõiki tehinguid ja plokke vastavalt Bitcoini konsensusreeglitele. Seetõttu pakub seda tüüpi sõlme kasutajale kõige kõrgemat verifitseerimistaset ja vähendab vajadust usaldada kolmandat osapoolt. Täissõlm nõuab rohkem salvestusressursse, arvutusvõimsust, RAM-i ja ribalaiust kui kergsõlm (SPV).
+
+Bitcoin protokolli klienti kasutav arvuti, mis laeb alla, kontrollib ja salvestab kogu Blockchain, st kogu tehinguloo alates Genesis plokist. Täielik sõlmpunkt kontrollib iseseisvalt kõiki tehinguid ja plokke vastavalt Bitcoin konsensusreeglitele. Seda tüüpi sõlmed tagavad seega oma kasutajale kõrgeima kontrollitaseme ja vähendavad miinimumini vajadust toetuda kolmandale osapoolele. Full node nõuab rohkem salvestusressursse, arvutusvõimsust, RAM-i ja ribalaiust kui kergsõlm (SPV).

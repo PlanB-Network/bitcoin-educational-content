@@ -1,0 +1,10 @@
+question: Jaki był kurs Exchange cyfrowego boliwara w Wenezueli w 2021 roku?
+answer: Milion do jednego.
+wrong_answers:
+  - Tysiąc do jednego.
+  - Dziesięć tysięcy do jednego.
+  - Sto tysięcy do jednego.
+explanation: |
+  W 2021 r. cyfrowy bolivar w Wenezueli został zastąpiony nową
+  redenominacją wynoszącą milion do jednego.
+reviewed: false

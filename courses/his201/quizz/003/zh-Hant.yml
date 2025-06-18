@@ -1,0 +1,9 @@
+question: David Chaum 實施數位貨幣概念的公司名稱是什麼？
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  DigiCash B.V. 成立於 1990 年，總部設在荷蘭阿姆斯特丹，擁有 David Chaum 發明 eCash 的專利。
+reviewed: false

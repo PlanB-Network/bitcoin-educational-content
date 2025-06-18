@@ -4,9 +4,9 @@ description: Come verificare l'integrità e l'autenticità del software?
 ---
 ![cover](assets/cover.webp)
 
-Quando si scarica un software, è molto importante assicurarsi che non sia stato alterato e che provenga effettivamente dalla fonte ufficiale. Questo è particolarmente vero per il software relativo a Bitcoin, come i software di portafoglio, che ti permettono di proteggere le chiavi che danno accesso ai tuoi fondi. In questo tutorial, vedremo come verificare l'integrità e l'autenticità di un software prima di installarlo. Useremo come esempio Sparrow Wallet, un software di portafoglio molto apprezzato tra gli utenti Bitcoin, ma la procedura sarà la stessa per qualsiasi altro software.
+Quando si scarica un software, è molto importante assicurarsi che non sia stato alterato e che provenga effettivamente dalla fonte ufficiale. Questo è particolarmente vero per il software relativo a Bitcoin, come i software dei wallet, che ti permettono di proteggere le chiavi che danno accesso ai tuoi fondi. In questo tutorial, vedremo come verificare l'integrità e l'autenticità di un software prima di installarlo. Useremo come esempio Sparrow Wallet, un software di portafoglio molto apprezzato tra gli utenti Bitcoin, ma la procedura sarà la stessa per qualsiasi altro software.
 
-Verificare l'integrità comporta assicurarsi che il file scaricato non sia stato modificato confrontando la sua impronta digitale (ovvero il suo hash) con quella fornita dallo sviluppatore ufficiale. Se corrispondono, significa che il file è identico all'originale e non è stato corrotto o modificato da un attaccante.
+Verificare l'integrità comporta di assicurarsi che il file scaricato non sia stato modificato confrontando la sua impronta digitale (ovvero il suo hash) con quella fornita dallo sviluppatore ufficiale. Se corrispondono, significa che il file è identico all'originale e non è stato corrotto o modificato da un attaccante.
 
 Verificare l'autenticità, invece, assicura che il file provenga effettivamente dallo sviluppatore ufficiale e non da un impostore. Questo si fa verificando una firma digitale. Questa firma prova che il software è stato firmato con la chiave privata legittima dello sviluppatore.
 
@@ -101,7 +101,7 @@ Se la firma è valida, GPG te lo indicherà. Puoi quindi passare al passaggio su
 ![GnuPG](assets/notext/10.webp)
 
 ## Verifica dell'Hash
-Ora che l'autenticità del software è stata confermata, è necessario anche verificare la sua integrità. Confronteremo l'hash del software con l'hash fornito dallo sviluppatore. Se i due corrispondono, garantisce che il codice del software non sia stato alterato.
+Ora che l'autenticità del software è stata confermata, è necessario anche verificare la sua integrità. Confronteremo l'hash del software con l'hash fornito dallo sviluppatore. Se i due corrispondono, ciò garantisce che il codice del software non sia stato alterato.
 
 Su **Windows**, apri un terminale ed esegui il seguente comando:
 

@@ -1,0 +1,9 @@
+question: Koja komanda instalira binarni fajl "RGB-lightning-node" nakon kloniranja repozitorijuma na RLN?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  Komanda "cargo install --locked --debug --path ." kompajlira i instalira binarni fajl "RGB-lightning-node".
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ako bi korisnik čvora odlučio da prati drugačija pravila koja su u suprotnosti sa postojećim pravilima konsenzusa, njihov čvor bi se odvojio od glavnog lanca i formirao sopstveni "fork". Taj čvor bi bio nespojiv sa ostatkom mreže koja prati originalna pravila konsenzusa, što znači da transakcije i blokovi koje taj čvor verifikuje ne bi bili priznati od strane većine mreže. To bi moglo dovesti do izolacije tog čvora i potencijalnog gubitka mogućnosti interakcije sa većom mrežom.
+answer: Čvor više neće biti deo Bitcoin mreže.
+wrong_answers:
+  - Čvor će postati deo druge Bitcoin mreže.
+  - Čvor će biti kažnjen od strane Bitcoin mreže.
+  - Čvor će biti nagrađen od strane Bitcoin mreže.
+explanation: |
+  Ako korisnik čvora odluči da prati druga pravila koja
+  poništavaju trenutna pravila konsenzusa, onda taj čvor
+  više ne bi bio deo Bitcoin mreže.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 衍生路徑中的撇號 (') 或 h 代表什麼意思？
+answer: 堅硬的衍生
+wrong_answers:
+  - 正常推導
+  - 外部推導
+  - 非標準推導
+explanation: |
+  撇號表示派生是強化的，需要父密鑰來 generate 子密鑰。
+reviewed: false

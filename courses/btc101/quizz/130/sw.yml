@@ -1,0 +1,8 @@
+question: Kwa nini idadi ya uthibitishaji katika shughuli ya Bitcoin ni muhimu?
+answer: Kadiri shughuli inavyokuwa na uthibitisho zaidi, ndivyo inavyozidi kuwa isiyobadilika.
+wrong_answers:
+  - Kadiri shughuli inavyokuwa na uthibitisho zaidi, ndivyo inavyokuwa na thamani zaidi.
+  - Kadiri shughuli inavyokuwa na uthibitisho zaidi, ndivyo inavyochakatwa haraka.
+  - Kadiri muamala unavyokuwa na uthibitisho mwingi, ndivyo usalama wake unavyopungua.
+explanation: >-
+reviewed: true

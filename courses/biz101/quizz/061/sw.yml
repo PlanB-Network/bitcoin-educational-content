@@ -1,0 +1,9 @@
+question: Wasifu Muhimu hutumia nini kusaidia wafanyikazi kushughulikia malipo katika PoS?
+answer: Uundaji wa menyu yenye bei za bidhaa kwenye programu ya PoS
+wrong_answers:
+  - Kitabu cha mwongozo cha Ledger cha kurekodi mauzo
+  - Mfumo wa karatasi wa Invoice kwa kila shughuli
+  - Mfumo wa rekodi ya uhasibu otomatiki kwa miamala kutoka kwa PoS
+explanation: |
+  Programu ya PoS katika Wasifu Muhimu huwezesha wafanyikazi kuchagua bidhaa kutoka kwa menyu iliyowekwa mapema, kurahisisha mchakato wa utozaji.
+reviewed: false

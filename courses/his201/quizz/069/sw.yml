@@ -1,0 +1,9 @@
+question: Watengenezaji wa Bitcoin hukutana wapi ili kuwa na mijadala isiyo rasmi ya kiufundi?
+answer: Kwenye kituo cha IRC \#Bitcoin-dev
+wrong_answers:
+  - Kwenye sehemu maalum ya kongamano
+  - Kwenye orodha ya barua ya maendeleo ya Bitcoin
+  - Kwenye subreddit r/Bitcoin
+explanation: |
+  Hii [iliundwa](https: //mmalmi.github.io/Satoshi/#email-27) mnamo Agosti 2009 na Martti Malmi. Ilipata umaarufu baada ya kufyeka mnamo Julai 2010.
+reviewed: false

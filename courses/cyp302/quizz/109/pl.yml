@@ -1,0 +1,9 @@
+question: Jakiemu rodzajowi ataku może zapobiec numer sekwencyjny w bezpiecznej sesji komunikacyjnej?
+answer: Ataki polegające na odtwarzaniu i zmianie kolejności
+wrong_answers:
+  - Pasywne ataki przechwytujące
+  - Ataki typu odmowa usługi
+  - Ataki typu key spoofing
+explanation: |
+  Numer sekwencyjny w każdej wiadomości zapobiega atakom typu replay i reordering, ponieważ pozwala na weryfikację kolejności i unikalności wiadomości.
+reviewed: false

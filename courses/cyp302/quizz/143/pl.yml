@@ -1,0 +1,9 @@
+question: Jaki jest szacowany czas faktoryzacji 2048-bitowej liczby całkowitej przy użyciu wszystkich obecnych zasobów obliczeniowych?
+answer: Znacznie powyżej wieku wszechświata
+wrong_answers:
+  - Kilka miesięcy z klasycznymi komputerami
+  - Kilka minut z superkomputerami
+  - Kilka dekad dla farmy Bitcoin Mining
+explanation: |
+  Złożoność faktoryzacji 2048-bitowych liczb jest taka, że byłoby to praktycznie niemożliwe do rozwiązania, nawet przy użyciu wszystkich istniejących zasobów obliczeniowych przez okres przekraczający wiek wszechświata.
+reviewed: false

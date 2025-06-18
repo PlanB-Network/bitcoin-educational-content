@@ -1,10 +1,9 @@
-question: Mikä on pääasiallinen syy käyttää työkaluja kuten Signal, Tor ja ProtonMail?
-answer: Arvostaa ja suojata yksityisyyttäsi
+question: Miksi on suositeltavaa sijoittaa vain se, mitä on varaa menettää?
+answer: Taloudellisen turvan säilyttäminen menetyksen sattuessa
 wrong_answers:
-  - Nopeuttaa internet-yhteyttäsi
-  - Suojata tietokoneesi viruksilta
-  - Tarjota ilmaista pääsyä maksullisiin palveluihin
+  - Maksimoida voitot nopeasti karhumarkkinoilla
+  - Monipuolistaa sijoituksiasi massiivisesti
+  - Lainan ottaminen, jotta voidaan investoida enemmän
 explanation: |
-  Työkaluja kuten Signal, Tor ja ProtonMail käytetään arvostamaan ja suojaamaan
-  
-  yksityisyyttäsi. Ne ovat osa toimenpiteitä parantaa verkkoelämän turvallisuustapoja.
+  Sijoittaminen yli varojen (eli yli säästökapasiteettisi) altistaa sinut liian suurille taloudellisille riskeille.
+reviewed: false

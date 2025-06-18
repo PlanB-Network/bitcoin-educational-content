@@ -1,0 +1,11 @@
+question: Koliko često se nagrada za Mining prepolovi?
+answer: Svakih 210.000 blokova.
+wrong_answers:
+  - Svakih 120.000 blokova.
+  - Svakih 540.000 blokova.
+  - Svakih 2.100.000 blokova.
+explanation: |
+  Nagrada za Mining je programirana da se prepolovi svakih 210.000
+  blokova, što je otprilike svake četiri godine: događaj
+  poznat kao Halving.
+reviewed: true

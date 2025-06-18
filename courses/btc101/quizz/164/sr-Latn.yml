@@ -1,0 +1,8 @@
+question: Koja je glavna prednost Bitcoin za pojedince koji žive pod finansijskom represijom ili diktatorskim režimima?
+answer: Imati priliku da izbegneš cenzuru i bankarska ograničenja.
+wrong_answers:
+  - Korišćenje stabilne valute koja ima fiksnu vrednost.
+  - Dozvoljavanje anonimnih transakcija.
+  - Dobijanje visokih prinosa na investicije.
+explanation: >-
+reviewed: true

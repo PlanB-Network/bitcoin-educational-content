@@ -1,0 +1,9 @@
+question: Jaka jest różnica między skompresowanym i nieskompresowanym kluczem publicznym?
+answer: Skompresowany klucz publiczny wykorzystuje tylko współrzędną x i parzystość y
+wrong_answers:
+  - Skompresowany klucz publiczny jest bezpieczniejszy
+  - Skompresowany klucz publiczny wykorzystuje tylko współrzędną y i parzystość x
+  - Skompresowany klucz publiczny wymaga większego klucza prywatnego
+explanation: |
+  Skompresowany klucz publiczny zachowuje tylko współrzędną x i bit parzystości y, zmniejszając w ten sposób swój rozmiar do 33 bajtów.
+reviewed: false

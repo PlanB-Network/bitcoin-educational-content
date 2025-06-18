@@ -1,0 +1,11 @@
+question: Co stało się z dolarem Zimbabwe w kwietniu 2009 roku?
+answer: Minister finansów ogłosił zawieszenie dolara zimbabweńskiego i zezwolił na używanie różnych walut obcych w handlu.
+wrong_answers:
+  - Dolar Zimbabwe załamał się o ponad 72%.
+  - Rząd zgodził się wypłacić weteranom wojennym odszkodowanie w wysokości 450 milionów dolarów.
+  - Rząd musiał uciec się do uruchomienia prasy drukarskiej.
+explanation: |
+  W kwietniu 2009 r. minister finansów ogłosił zawieszenie
+  zawieszenie dolara zimbabweńskiego i zezwolił na używanie
+  różnych walut obcych w handlu.
+reviewed: true

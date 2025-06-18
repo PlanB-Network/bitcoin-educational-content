@@ -1,0 +1,8 @@
+question: Jakie jest znaczenie wydatków energetycznych w Bitcoin Mining?
+answer: Wydatek energetyczny jest niezbędny do wytworzenia informacji, ale weryfikacja informacji ma znikomy koszt. Ta asymetria gwarantuje bezpieczeństwo sieci.
+wrong_answers:
+  - Koszt energii jest niezbędny do zasilania maszyn ASIC używanych w Mining, a weryfikacja informacji wiąże się z wysokimi kosztami.
+  - Wydatek energetyczny jest niezbędny do utrzymania sieci Bitcoin, a weryfikacja informacji wiąże się z kosztami zmiennymi.
+  - Koszt energii nie jest konieczny do tworzenia nowych bitcoinów.
+explanation: >-
+reviewed: false

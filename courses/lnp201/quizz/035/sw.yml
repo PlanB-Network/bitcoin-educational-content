@@ -1,0 +1,9 @@
+question: Je, lengo kuu la HTLCs katika Lightning Network ni lipi?
+answer: Ili kuwezesha uhamishaji wa malipo salama kupitia nodi za kati bila kuhitaji uaminifu kwao
+wrong_answers:
+  - Ili kupunguza ada za ununuzi kwa kila malipo kupitia nodi za kati
+  - Kuongeza uwezo wa kila kituo cha malipo
+  - Kuanzisha miunganisho ya moja kwa moja kati ya nodi zote za mtandao na uaminifu wao
+explanation: |
+  HTLCs (Mikataba ya Hashed Time-Locked) huhakikisha kwamba kila nodi ya mpatanishi itahamisha malipo bila kuhifadhi pesa, kwani inaweza tu kuzifungua kwa kukamilisha muamala hadi kwa mpokeaji wa mwisho.
+reviewed: false

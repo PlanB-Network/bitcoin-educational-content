@@ -1,0 +1,14 @@
+question: Jaki jest cel mechanizmu dostosowywania trudności w sieci Bitcoin?
+answer: Aby zapewnić, że bloki są wydobywane średnio co 10 minut
+wrong_answers:
+  - Aby z czasem zwiększyć trudność Mining
+  - Aby z czasem zmniejszyć trudność Mining
+  - Aby upewnić się, że ten sam Miner nie wydobywa kolejnych bloków
+explanation: |
+  Dostosowanie trudności jest kluczowym mechanizmem w
+  działania sieci Bitcoin, zapewniając, że bloki są wydobywane
+  wydobywane średnio co 10 minut. Ten mechanizm regulacji
+  zapewnia, że czas Mining dla nowych bloków
+  pozostaje stały w czasie, niezależnie od liczby
+  górników lub ogólnej mocy obliczeniowej sieci.
+reviewed: true

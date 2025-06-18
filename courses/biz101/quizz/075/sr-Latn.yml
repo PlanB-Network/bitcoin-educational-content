@@ -1,0 +1,9 @@
+question: Koji je glavni cilj implementacija plaćanja na nivou preduzeća Bitcoin?
+answer: Da bi se Bitcoin plaćanja u potpunosti integrisala u osnovne procese organizacije
+wrong_answers:
+  - Da eksperimentišete sa Bitcoin u malom obimu
+  - Da biste koristili Bitcoin u marketinške svrhe
+  - Prihvatiti Bitcoin bez integracije u druge sisteme
+explanation: |
+  Rešenja za preduzeća imaju za cilj da usklade Bitcoin plaćanja sa osnovnim poslovnim tokovima i sistemima.
+reviewed: false

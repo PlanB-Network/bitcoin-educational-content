@@ -1,0 +1,9 @@
+question: Dlaczego odradza się publikowanie adresów odbiorczych w mediach społecznościowych?
+answer: Ponieważ można je wykorzystać do powiązania działań onchain z prawdziwą tożsamością.
+wrong_answers:
+  - Ponieważ mogą one zostać łatwo zhakowane przez złośliwych hakerów.
+  - Ponieważ mogą one przyciągać nieuczciwe oferty i narażać użytkownika na kampanie phishingowe.
+  - Ponieważ mogą one pozwolić na zastosowanie wspólnej heurystyki Ownership.
+explanation: |
+  Udostępnianie adresów odbiorczych Bitcoin w Internecie może być wykorzystane jako punkt wejścia do analizy łańcucha poprzez powiązanie tożsamości (prawdziwej lub pseudonimowej) z aktywnością w łańcuchu.
+reviewed: false

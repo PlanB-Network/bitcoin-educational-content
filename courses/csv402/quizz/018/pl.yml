@@ -1,0 +1,9 @@
+question: Jakie operacje definiują ewolucję Smart contract w RGB?
+answer: State Transition, Genesis i State Extension
+wrong_answers:
+  - Utworzenie Seal, przestrzeganie Contract i ostateczne zatwierdzenie
+  - UTXO Transfer, generowanie dowodu i Hash Commitment
+  - Pakiety przejściowe, uszczelnienia jednorazowe i tworzenie Valency
+explanation: |
+  Operacje te tworzą lub modyfikują stan Contract, jednocześnie gwarantując jego ważność poprzez kotwice Bitcoin.
+reviewed: false

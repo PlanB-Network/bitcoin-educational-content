@@ -1,0 +1,9 @@
+question: U RSA kriptosistemu, teško je pronaći vrednost d zbog faktorizacije velikih brojeva. RSA se oslanja na činjenicu da je množenje dva velika prosta broja jednostavno, ali je izuzetno teško obrnuti proces, tj. faktorisati njihov proizvod. Privatni ključ d se izračunava koristeći inverz modulo funkciju, koja zahteva poznavanje faktora velikog broja n (proizvoda dva prosta broja p i q). Bez poznavanja p i q, praktično je nemoguće efikasno izračunati d, što čini RSA sigurnim.
+answer: Jer zahteva poznavanje φ(N), što zavisi od prostih faktora broja N
+wrong_answers:
+  - Zato što je d nasumičan broj
+  - Zato što je d veće od N
+  - Zato što se d izračunava nezavisno od φ(N)
+explanation: |
+  Pronalaženje d je teško jer se oslanja na poznavanje φ(N), što zavisi od vrednosti p i q, prostih faktora N.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Je, lengo kuu la shughuli za kiuchumi kulingana na Carl Menger ni lipi?
+answer: Madhumuni ya mwisho ya shughuli za kiuchumi ni matumizi.
+wrong_answers:
+  - Madhumuni ya mwisho ya shughuli za kiuchumi ni uzalishaji.
+  - Kusudi kuu la shughuli za kiuchumi ni kuweka akiba.
+  - Madhumuni ya mwisho ya shughuli za kiuchumi ni uwekezaji.
+explanation: |
+  Kulingana na Carl Menger, bidhaa zinazingatiwa tu
+  bidhaa za kiuchumi (zinazothaminiwa) kwa sababu zinatumika kama njia ya kufikia malengo
+  kuchaguliwa na kuthaminiwa na watu binafsi. Kwa hivyo, kwa Menger,
+  hatua ya kuanzia ya uchambuzi wa kiuchumi ni bidhaa za walaji,
+  au bidhaa za mwisho, kwani zinawakilisha kusudi kuu la
+  shughuli za kiuchumi.
+reviewed: true

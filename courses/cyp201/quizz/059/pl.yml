@@ -1,0 +1,9 @@
+question: Jaka jest rola seed w Bitcoin HD Wallet?
+answer: Służy jako punkt wyjścia do wyprowadzenia wszystkich kluczy
+wrong_answers:
+  - Przechowywanie transakcji Wallet
+  - Bezpośrednio generate główny klucz publiczny
+  - Zapewnienie poufności transakcji
+explanation: |
+  seed to 512-bitowa sekwencja wywodząca się z frazy Mnemonic i passphrase. Stanowi on podstawę wszystkich kluczy w Wallet.
+reviewed: false

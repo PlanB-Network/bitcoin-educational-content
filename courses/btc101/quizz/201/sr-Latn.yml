@@ -1,0 +1,9 @@
+question: Koja je svrha KYC propisa?
+answer: Da bi se suzbilo finansiranje terorizma, utaja poreza i pranje novca.
+wrong_answers:
+  - Da se poveća cena Bitcoin i da korisnik plati više poreza.
+  - Da kontrolišeš Supply od Bitcoin.
+  - Da bi se sprečilo da ljudi kupuju Bitcoin.
+explanation: |
+  Tekst kursa objašnjava da propisi Poznaj Svojeg Kupca (KYC) zahtevaju od korisnika da pruže identifikaciju kako bi se borili protiv finansiranja terorizma, utaje poreza i pranja novca.
+reviewed: true

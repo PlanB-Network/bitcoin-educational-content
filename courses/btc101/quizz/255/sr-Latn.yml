@@ -1,0 +1,9 @@
+question: Koji je jedan od glavnih razloga zašto je Bitcoin stvoren?
+answer: Da predloži promenu finansijskog sistema.
+wrong_answers:
+  - Da se predloži ukidanje novca.
+  - Da predložim stvaranje novog oblika AI tehnologije.
+  - Da predloži kontrolu svetske populacije.
+explanation: |
+  Tekst pominje da je Satoshi Nakamoto kreirao Bitcoin 2008. godine kako bi predložio promenu finansijskog sistema.
+reviewed: true

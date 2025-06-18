@@ -1,0 +1,13 @@
+question: Koja je ključna karakteristika Bitcoin koja ga razlikuje od fiat valuta?
+answer: Njenu monetarnu politiku sprovodi opšti konsenzus.
+wrong_answers:
+  - Može se štampati u neograničenim količinama od strane centralnih banaka.
+  - Podržana je fizičkom robom poput zlata ili srebra.
+  - Reguliše ga centralna banka.
+explanation: |
+  Zbog svoje decentralizovane i kriptografske prirode,
+  Bitcoin ne može biti falsifikovan i ograničen je na 21 milion
+  jedinica. Ovo je ključna karakteristika koja ga razlikuje od
+  fiat valuta, koje prate monetarnu politiku koju mogu
+  menjati centralne banke.
+reviewed: true

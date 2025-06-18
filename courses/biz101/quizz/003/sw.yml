@@ -1,0 +1,9 @@
+question: Ni nini kikwazo kimoja cha mifumo ya kisasa ya sarafu ya kati?
+answer: Mara nyingi hukosa uwazi na uwezo wa kukaguliwa katika kusimamia pesa Supply.
+wrong_answers:
+  - Wanatoa thamani thabiti, isiyobadilika kwa kila kitengo cha sarafu.
+  - Wanaondoa wapatanishi wote na kuharakisha makazi kwa milliseconds.
+  - Wanahakikisha kuwa utoaji wa pesa umegawanywa kikamilifu na uthibitisho wa mfumuko wa bei.
+explanation: |
+  Mifumo ya serikali kuu inaweza kutoa pesa kwa mapenzi, mara nyingi bila uangalizi wa uwazi. Hii inaweza kuondoa uaminifu kutokana na mfumuko wa bei, makazi tata baina ya benki, na uwezekano wa usimamizi mbaya.
+reviewed: false

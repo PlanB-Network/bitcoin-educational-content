@@ -1,0 +1,9 @@
+question: Je! ni tatizo gani linalotokea ikiwa Bidhaa za Michezo za Jim zitatumia jozi sawa za funguo kwa wateja wote?
+answer: Mteja yeyote angeweza kupata mawasiliano ya wengine
+wrong_answers:
+  - Ufunguo ungekuwa mkubwa sana
+  - Mawasiliano yangepunguzwa kasi
+  - Wateja watalazimika kubadilisha funguo kwa kila ununuzi
+explanation: |
+  Kwa kutumia ufunguo sawa kwa kila mtu, Bidhaa za Michezo za Jim zinaweza kuhatarisha usiri na uadilifu, kwa kuwa kila mteja anaweza kufikia data ya wateja wengine.
+reviewed: false

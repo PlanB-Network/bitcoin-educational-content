@@ -1,0 +1,9 @@
+question: Je, lengo kuu la mpango wa usimbaji ulioidhinishwa ni upi?
+answer: Hakikisha usiri na uhalisi wa mawasiliano
+wrong_answers:
+  - Vifunguo vya generate kwa njia salama
+  - Badilisha MAC katika ubadilishanaji wa kriptografia
+  - Simbua barua pepe zilizonaswa kiotomatiki
+explanation: |
+  Mpango wa usimbaji ulioidhinishwa unachanganya usimbaji fiche na msimbo wa uthibitishaji (MAC) ili kuhakikisha usiri wa ujumbe na uhalisi wake.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Ko su cypherpunks?
+answer: Grupa ljudi koja je počela duboko preispitivati ulogu privatnosti i slobode u digitalnom dobu.
+wrong_answers:
+  - Grupa hakera koja je ukrala informacije od vlada.
+  - Grupa ljudi koja je izumila Bitcoin i druge kriptovalute.
+  - Grupa ljudi koja se protivila upotrebi tehnologije.
+explanation: |
+  Cypherpunks su grupa pojedinaca koji su verovali
+  da kriptografija može služiti kao alat za zaštitu
+  pojedinačnih prava protiv mešanja vlada
+  i velikih korporacija.
+reviewed: true

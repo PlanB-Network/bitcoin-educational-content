@@ -1,0 +1,9 @@
+question: Prema dobitniku Nobelove nagrade F.A. Hayeku, šta se mora desiti da bismo ponovo imali dobar novac?
+answer: Mi uzimamo stvar iz ruku vlade.
+wrong_answers:
+  - Dajemo stvar boljoj vladi.
+  - Dajemo stvar autoritarnom režimu.
+  - Mi uzimamo stvar iz ruku ljudi.
+explanation: |
+  Hayek kaže: "Ne verujem da ćemo ikada ponovo imati dobar novac, pre nego što stvar izvadimo iz ruku vlade. Ako ih ne možemo nasilno izvaditi iz ruku vlade, sve što možemo učiniti je da na neki lukav ili zaobilazan način uvedemo nešto što ne mogu zaustaviti."
+reviewed: true

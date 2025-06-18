@@ -4,8 +4,6 @@ description: Hvordan enkelt akseptere Bitcoin-betalinger?
 ---
 ![cover](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 I dag finnes det mange løsninger for handlende som ønsker å akseptere Bitcoin som betalingsmetode. For små enheter som ser etter en uformell oppsett, holder det å installere en hot wallet, eller til og med en Lightning wallet, for å motta betalinger direkte til den. Større bedrifter, som trenger å opprettholde regnskapsfører, bør heller velge et spesialisert betalingsbehandlingssystem. Flere alternativer er også tilgjengelige på dette området.
 
 For de som foretrekker å ikke bry seg og motta midler i fiat-valuta direkte til bankkontoen sin, er forvaringsløsninger som Open Node tilgjengelige:

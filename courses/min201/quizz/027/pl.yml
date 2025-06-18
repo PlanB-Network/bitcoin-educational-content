@@ -1,0 +1,14 @@
+question: Dlaczego Proof of Work jest niezbędny w sieci Bitcoin?
+answer: Stanowi on fizyczne połączenie między światem rzeczywistym a Bitcoin, wymagając namacalnej energii do produkcji i walidacji bitcoinów i bloków.
+wrong_answers:
+  - Pozwala to na uczestnictwo górników na małą skalę, zwłaszcza w miejscach o wysokim stopniu cenzury.
+  - Gwarantuje to ochronę przed centralizacją.
+  - Odzwierciedla istniejące nierówności władzy w społeczeństwie.
+explanation: |
+  Proof of Work jest niezbędny w sieci Bitcoin, ponieważ
+  reprezentuje fizyczne połączenie między światem rzeczywistym a
+  Bitcoin. Produkcja i walidacja bitcoinów i bloków
+  i bloków wymagają namacalnej energii, zakotwiczając sieć Bitcoin
+  sieć Bitcoin w fizycznej rzeczywistości i zapobiega jej całkowitej
+  dominacji przez potężne podmioty.
+reviewed: true

@@ -1,0 +1,9 @@
+question: W jaki sposób systemy Enterprise automatycznie aktualizują stany magazynowe?
+answer: Poprzez wyzwalacze przepływu pracy
+wrong_answers:
+  - Aktualizacje ręczne
+  - Przesyłanie na koniec dnia
+  - Zaplanowane raporty
+explanation: |
+  Wyzwalacze przepływu pracy aktualizują systemy w czasie rzeczywistym.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kakvo je Bastiatovo mišljenje o prirodi čoveka pri rođenju?
+answer: Vlasnik
+wrong_answers:
+  - Rob
+  - Dobro
+  - Submisivno
+explanation: |
+  Bastiat tvrdi da je čovek rođen kao vlasnik jer u sebi poseduje pravo da koristi svoje sposobnosti kako bi zadovoljio svoje potrebe.
+reviewed: false

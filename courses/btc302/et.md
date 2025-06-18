@@ -29,9 +29,10 @@ Lõpuks arutletakse põhjalikumalt kogukondade **evolutsiooni üle riiklikust va
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Rekonekstualiseerimine
+## Kursuse ülevaade
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Tere tulemast kursusele BTC302!
 
 Alates 2009. aastast on Bitcoini areng jätkunud. See hõlmab uute Bitcoini parendusettepanekute (BIP) rakendamist, uute kihtide loomist võrgu skaleerimiseks (muu hulgas Lightning Network) ning mitmete ettevõtete ja idufirmade arengut.
 
@@ -60,6 +61,34 @@ Teisest küljest, kuidas me võiksime julgustada uusi inimesi, kes saabuvad "kr�
 ####
 
 Nende kahe probleemi puhul on parim lahendus olla kohapeal ja harida.
+
+Selle koolituse eesmärk on pakkuda teile kõiki vajalikke võtmeid, et luua ja korraldada tõhusalt Bitcoin'i kogukonda või meet-up'i. Olenemata sellest, kas soovite luua kohaliku algatuse või arendada veebipõhist gruppi, juhendab see kursus teid konkreetselt igas etapis, alates visuaalse identiteedi loomisest kuni regulaarsete ürituste korraldamiseni, sealhulgas teie suhtluskanalite haldamine.
+
+**Jaotis 1 : Sissejuhatus**  
+Alustame sellest, et kontekstualiseerime vajaduse koguda inimesi Bitcoin'i ümber, olgu see siis veebikogukondades või kohalikel meet-up'idel. Saate teada, miks ja kus oma kogukonda alustada ning kuidas seada selgeid eesmärke, et tagada selle kasv ja jätkusuutlikkus.
+
+**Jaotis 2 : Oma Bitcoin'i kogukonna identiteedi kujundamine**  
+Uute liikmete ligimeelitamiseks ja kuuluvustunde loomiseks on oluline luua ainulaadne identiteet. Selles jaotises õpite, kuidas kujundada logo, plakat või bänner, mis peegeldab teie Bitcoin'i kogukonna vaimu.
+
+**Jaotis 3 : Suhtluskanalite loomine oma Bitcoin'i kogukonnale**  
+Suhtlus on iga kogukonna süda. Siin käsitleme erinevaid eelistatavaid suhtluskanaleid ning meetodeid Telegrami grupi või Discord serveri tõhusaks seadistamiseks. Räägime ka multifunktsionaalsete botide integreerimisest, et hõlbustada teie kogukonna haldamist.
+
+**Jaotis 4 : Sotsiaalvõrgustike käivitamine**  
+Nähtavus on teie kogukonna arendamisel oluline. Õpite, kuidas luua spetsiaalne Twitteri profiil, luua ühendusi teiste lähedal asuvate meet-up'idega ja kasutada selliseid platvorme nagu btcmap.org, et suurendada oma nähtavust ja meelitada uusi liikmeid.
+
+**Jaotis 5 : Bitcoin'i meet-up'i korraldamine**  
+See jaotis keskendub meet-up'ide korraldamisele, alates sobiva koha leidmisest kuni ürituse enda korraldamiseni. Uurime ka osalejate pühendumise säilitamise viise, et tagada teie kogukonna jätkusuutlik areng.
+
+**Jaotis 6 : Projektide ja algatuste näited**  
+Et minna kaugemale lihtsalt kohtumistest, pakume selles jaotises konkreetseid ja originaalseid projektinäiteid: temaatilised üritused, töötoad, haridusmaterjalide loomine, kohalikud koostööd ja palju muud. Õpite ka, kuidas luua oma kogukonna reklaamimiseks füüsilisi ja digitaalseid materjale.
+
+**Jaotis 7 : Tuleviku ettevalmistamine**  
+Lõpuks käsitleme teie kogukonna loomulikku arengut. Mida teha, kui teie grupp kasvab liiga kiiresti? Kuidas detsentraliseerida korraldamine? Ja kuidas reageerida, kui regulatiivne keskkond muutub vaenulikuks? See jaotis aitab teil tulevasi väljakutseid ette näha.
+
+**Jaotis 8 : Bitcoin'i entusiastide ühendamine**  
+Viimane jaotis keskendub teie projekti põhiolemusele: Bitcoin'i entusiastide ühendamine ühise visiooni ümber. Õpite, kuidas oma lähenemist struktureerida, et meelitada ja säilitada uusi liikmeid, kuidas oma grupis ülesandeid delegeerida ja kuidas oma kogukonda jätkusuutlikult kasvatada.
+
+Oled valmis avastama, kuidas luua tugev ja dünaamiline Bitcoin'i kogukond? Alustame!
 
 ## Miks luua bitcoin kogukond või kohtumine?
 
@@ -333,7 +362,7 @@ Lõpuks võite ka otsida kodulehelt **YouTube'i miniatuuri või eelnevalt kujund
 
 Et teid üksikasjalikumalt juhendada, pakume allpool mittetäielikku videoõpetust, mis tutvustab mõningaid võimalusi:
 
-![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
+:::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 ####
 
@@ -480,7 +509,7 @@ Vaatame hiljem, kuid **suurelt soovitatav on luua "Telegram grupp "** (või, sõ
 
 Järgnevates õpetustes kasutame rakendust "Telegram+" APK; rakendus, mis võimaldab Telegrami edasijõudnumat konfigureerimist. See ei ole aga vajalik, sest grupi või supergrupi loomist Telegramis saab nüüd väga lihtsalt teha ka telefonis:
 
-![Tutorial Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
+:::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 ### Telegrami kanali loomine
 
@@ -498,7 +527,7 @@ Siiski on võimalik lisada kanaliliikmete võimalus kommenteerida iga administra
 
 Telegrami kanali loomise õpetus:
 
-![Tutorial Canale Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
+:::video id=98be4709-d221-4030-8c31-e10113482515:::
 
 ### Loo Telegram grupp
 
@@ -522,7 +551,7 @@ Selle kanali administraatorid saavad seejärel:
 
 Telegrami grupi loomise õpetus:
 
-![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
+:::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 Märkus: nagu eelnevalt mainitud, on ülaltoodud õpetus tehtud arvutis, kus on kasutusel "Telegram+" APK. Nüüd on aga väga lihtne luua Telegram gruppi ka telefonis.
 
@@ -562,7 +591,7 @@ Siiski on oluline märkida, et **Telegrami supergrupi kasutamine võib olla mõn
 
 Telegrami supergrupi loomise õpetus:
 
-![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
+:::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 Märkus: Nagu eespool mainitud, on ülaltoodud õpetus tehtud arvutis "Telegram+" APK-ga. Nüüd on aga väga lihtne luua Telegrami supergrupp ka telefonis.
 
@@ -640,7 +669,7 @@ Samuti on teile kättesaadavad arvukad lisavõimalused. Siiski üks nõuanne: **
 
 Tutorial multifunktsionaalse roboti lisamiseks Telegrami gruppi või supergruppi:
 
-![Tutorial bot Telegram multifunzione](https://www.youtube.com/watch?v=l72GZcEFDtU)
+:::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 Väike märkus: nagu eespool mainitud, saab nüüd kogu seda protseduuri teha telefoni teel.
 
@@ -658,7 +687,7 @@ Ilmselt nõuab see lisaks Telegramile ja Twitterile veel rohkem aega haldamiseks
 
 Et asju lihtsamaks teha, **jagame [eelnevalt valmistatud, paljundatavat ja muudetavat Discord-serverit](https://discord.com/template/bDY4eXXJk2C8), mida saate kohandada nii, nagu soovite**:
 
-![Tutorial server Discord duplicabile](https://www.youtube.com/watch?v=i3V6_359Ajw)
+:::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 ####
 
@@ -670,7 +699,7 @@ Siiski on oluline märkida, et selle paigaldamine ei ole väga lihtne, et **see 
 
 Eesmärgiga säästa teie aega, siin on õpetus, kuidas lisada multifunktsionaalne bot Telegrami gruppi või supergruppi:
 
-![Tutorial bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
+:::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 ## Kaaluge muid, privaatseid ja turvalisemaid sidekanaleid
 
@@ -784,7 +813,7 @@ Lõpuks, kuigi teie "@Bitcoin[CITY]" kasutajanimi on ainulaadne ja kuulub nüüd
 
 Twitteri konto loomise õpetus:
 
-![Tutorial account Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
+:::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 ## Ühendamine lähedalasuvate kohtumistega
 
@@ -1412,7 +1441,7 @@ Et lihtsustada seda loomise ülesannet, näitab alljärgnev õpetus teile poole 
 
 Hiljem saate osta oma domeeni ja soovi korral isegi oma serveris majutada.
 
-![Tutorial per creare un sito web WordPress gratuito](https://www.youtube.com/watch?v=cZzH4gj_kZY)
+:::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 ####
 
@@ -1482,7 +1511,7 @@ Kui soovite **salvestada oma arvutiga, töötab väga hästi selline tasuta tark
 
 Siin on lühike õpetus, mis tutvustab 10 minutiga peamisi funktsioone, mida pead teadma podcasti tegemisest Audacityga.
 
-![Tutorial per creare un podcast con Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
+:::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 Märkus: Nagu varem mainitud, võib olla asjakohane **sellest, et ühel päeval keelatakse või tsenseeritakse Bitcoin, **sellest, mida te avaldate, on alati olemas kohalik koopia kõvakettal**.
 
@@ -1749,7 +1778,7 @@ Loomulikult ei tohiks me langeda mingisse konspiratiivsesse mõtlemisse. Kuid **
 
 ![image](assets/fr/59.webp)
 
-# Kokkuvõte
+# Koguda kokku Bitcoineri
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1813,7 +1842,7 @@ Lõpuks:
 
 Veidi vähem üksikasjalikult, 21-minutilises videos, näeb see välja nii:
 
-![Tutorial Comunità Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
+:::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 Igal juhul **seadke meeles, et te ei ole üksi ja et olemasolevad kogukonnad on olemas, et teid aidata**.
 
@@ -1846,7 +1875,7 @@ Selle saavutamiseks alustame mitmete Prantsuse kogukondade kogemustest, kes on j
 
 Loomulikult on **muudes riikides seadusandlus ja ühenduste toimimine erinev**. Mitmed punktid on siiski väga kasulikud ühingu loomisel või tähtsa ürituse korraldamisel; ja **toovime, et teised bitcoin'id tulevad ja integreerivad selle koolituse spetsiaalselt oma riigi jaoks**.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

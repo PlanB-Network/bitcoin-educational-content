@@ -1,0 +1,12 @@
+question: Jaką przewagę oferuje sieć Bitcoin nad tradycyjnymi systemami finansowymi?
+answer: Decentralizacja i bezpieczeństwo
+wrong_answers:
+  - Zwiększone stopy inflacji
+  - Zależność od pośredników
+  - Scentralizowana kontrola nad transakcjami
+explanation: |
+  Zdecentralizowana sieć Bitcoin zapewnia bezpieczny i wydajny sposób
+  transakcji bez potrzeby korzystania z pośredników lub stron trzecich. To
+  zmniejsza ryzyko cenzury i nieautoryzowanych zmian w transakcjach,
+  a także zwiększa prywatność.
+reviewed: true

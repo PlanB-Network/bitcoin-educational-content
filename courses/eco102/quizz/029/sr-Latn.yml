@@ -1,0 +1,9 @@
+question: Kakav je bio uticaj ekonomske otvorenosti, prema idejama Koben, na globalno siromaštvo u poslednjih 20 godina?
+answer: Siromaštvo je smanjeno za polovinu
+wrong_answers:
+  - Siromaštvo je poraslo za 10%
+  - Siromaštvo je ostalo stabilno
+  - Siromaštvo je smanjeno za 20%
+explanation: |
+  Cobden je zagovarao ekonomsku otvorenost kao sredstvo za smanjenje siromaštva, a savremeni rezultati pokazuju značajno smanjenje siromaštva, posebno u zemljama koje su otvorene za trgovinu.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Christian Decker
 explanation: |
   This block, exploiting a flaw, created over 184 billion bitcoins.
-reviewed: false
+reviewed: true

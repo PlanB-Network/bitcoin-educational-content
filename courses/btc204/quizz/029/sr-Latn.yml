@@ -1,0 +1,9 @@
+question: Među ove 4 metode sticanja bitkoina, koja vas najmanje izlaže riziku identifikacije ključa?
+answer: Kupovina u P2P za gotovinu
+wrong_answers:
+  - Kupovina putem regulisane platforme bez KYC-a
+  - Kupovina putem regulisane platforme sa KYC
+  - Kupovina putem PayPal-a preko P2P platforme za povezivanje
+explanation: |
+  Kupovina bitkoina od osobe do osobe za gotovinu je metoda koja vas najmanje izlaže rizicima identifikacije ključeva jer ne zahteva prolazak kroz regulisanu kompaniju i ne ostavlja trag u bankarskom sistemu. Štaviše, ova metoda obično ne zahteva otkrivanje ličnih informacija.
+reviewed: false

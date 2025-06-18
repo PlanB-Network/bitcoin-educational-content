@@ -28,7 +28,7 @@ For å sjekke om språket ditt allerede er blant dem vi jobber med.
 
 Hvis språket ditt finnes i denne listen, trenger du ikke å legge det til på nytt. Hvis du vil bidra ved å korrekturlese weblate, kan du se følgende veiledning:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Hvis språket ditt ikke finnes der, kan du følge veiledningen nedenfor for å legge det til.
 
 ## Legge til et nytt språk i Plan ₿ Network
@@ -64,7 +64,7 @@ Hvis språket ditt ikke finnes der, kan du følge veiledningen nedenfor for å l
 
 For å få veiledning gjennom oversettelsesprosessen, se vår egen veiledning her nedenfor:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Gratulerer, du har startet prosessen med å oversette de statiske elementene på Plan ₿ Network nettsted!
 
 De inkluderer alle strengene på nettstedet, bortsett fra det pedagogiske innholdet (kurs, opplæringsprogrammer ...) som vi bruker en annen halvautomatisk metode for (AI-oversettelse + korrekturlesing av bidragsytere).

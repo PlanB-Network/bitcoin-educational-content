@@ -1,0 +1,13 @@
+question: Czym jest Deklaracja Niepodległości Cyberprzestrzeni?
+answer: Tekst twierdzący, że cyberprzestrzeń jest odrębną sferą od sfery fizycznej i nie powinna podlegać tym samym prawom.
+wrong_answers:
+  - Deklaracja stwierdzająca niezależność Bitcoin od tradycyjnych systemów finansowych.
+  - Tekst twierdzący, że cyberprzestrzeń powinna być kontrolowana przez rząd.
+  - Deklaracja, która gwarantuje niezależność ruchu pirackiego od jakichkolwiek regulacji.
+explanation: |
+  Deklaracja Niepodległości Cyberprzestrzeni została
+  napisana przez Johna Perry'ego Barlowa w 1996 roku. Dokument ten stwierdza
+  że cyberprzestrzeń jest sferą odrębną od sfery fizycznej
+  sfery, więc rządy przemysłowe nie mogą egzekwować w niej
+  władzy.
+reviewed: true

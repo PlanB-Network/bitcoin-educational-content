@@ -1,9 +1,9 @@
-question: A cosa è nativo Bitcoin?
-answer: Internet
+question: Qual è il massimo Supply approssimativo di bitcoin in circolazione?
+answer: 21 milioni di euro
 wrong_answers:
-  - La blockchain
-  - Il sistema bancario
-  - Il mercato azionario
+  - 10 milioni di euro
+  - 47 milioni di euro
+  - 150 milioni di euro
 explanation: |
-  Il capitolo afferma che Bitcoin è nativo di Internet, rendendolo accessibile a chiunque abbia accesso a Internet.
+  Il Bitcoin è programmato per avere un Supply limitato a circa 21 milioni di bitcoin.
 reviewed: false

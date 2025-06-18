@@ -1,0 +1,9 @@
+question: Która z tych odpowiedzi nie jest jednym z 3 głównych zagrożeń dla użytkownika poddawanego KYC?
+answer: Niezamienialność zakupionych bitcoinów
+wrong_answers:
+  - Narażenie na nadzór państwa
+  - Ułatwienie śledzenia onchain
+  - Ryzyko wycieku danych
+explanation: |
+  KYC wiąże się z ryzykiem wycieku danych, ponieważ informacje są przechowywane, ryzykiem narażenia na nadzór państwa, ponieważ informacje mogą być przekazywane lub przejmowane, oraz ryzykiem śledzenia, ponieważ KYC może służyć jako punkt wejścia. KYC nie zmniejsza jednak zamienności zakupionych bitcoinów.
+reviewed: false

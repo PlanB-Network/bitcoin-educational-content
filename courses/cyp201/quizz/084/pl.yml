@@ -1,0 +1,9 @@
+question: Jaka jest główna rola Bitcoin Address w transakcji?
+answer: Blokada UTXO w skrypciePubKey
+wrong_answers:
+  - Odblokowanie UTXO w skrypcieSig
+  - Sygnalizacja zakończenia transakcji
+  - Zidentyfikuj blok potwierdzenia
+explanation: |
+  Klucz Bitcoin Address jest osadzony w kluczu scriptPubKey w celu zablokowania UTXO. Określa warunki niezbędne do odblokowania środków.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co składa się na Anchor w RGB?
+answer: transaction ID, MPC, DBC i dodatkowy dowód transakcji
+wrong_answers:
+  - Genesis, Seal Definition i Transition Bundle
+  - Contract Schema, Business Logic i Owned State
+  - Podpis, transakcja Hash i Pedersen commitment
+explanation: |
+  Anchor zawiera dane potrzebne do udowodnienia włączenia unikalnego Commitment do transakcji Bitcoin.
+reviewed: false

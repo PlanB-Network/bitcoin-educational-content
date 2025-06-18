@@ -1,0 +1,9 @@
+question: Jaka jest wada współczesnych scentralizowanych systemów walutowych?
+answer: Często brakuje im przejrzystości i możliwości audytu w zarządzaniu pieniędzmi Supply.
+wrong_answers:
+  - Zapewniają one stabilną, niezmienną wartość dla każdej jednostki walutowej.
+  - Usuwają one wszystkich pośredników i przyspieszają rozliczenia do milisekund.
+  - Zapewniają one, że emisja pieniądza jest w pełni zdecentralizowana i odporna na inflację.
+explanation: |
+  Scentralizowane systemy mogą emitować pieniądze do woli, często bez przejrzystego nadzoru. Może to podważyć zaufanie z powodu inflacji, złożonych rozliczeń międzybankowych i potencjalnego złego zarządzania.
+reviewed: false

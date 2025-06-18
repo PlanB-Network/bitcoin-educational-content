@@ -1,0 +1,9 @@
+question: 為什麼手動將 generate 熵轉換為 HD Wallet 會有風險？
+answer: 它可以引入人類的弱點或可預見的偏見
+wrong_answers:
+  - 它會導致無效的公開金鑰
+  - 它會阻止私密金鑰的衍生
+  - 它限制了生成的 Mnemonic 短語的大小
+explanation: |
+  手動產生的熵可能會帶來偏差或錯誤，使得金鑰更容易受到攻擊。
+reviewed: false

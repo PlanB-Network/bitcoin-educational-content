@@ -1,0 +1,11 @@
+question: Dlaczego prywatność jest ważna w kontekście Bitcoin?
+answer: Aby zminimalizować ryzyko śledzenia środków.
+wrong_answers:
+  - Aby zmniejszyć wartość swoich bitcoinów.
+  - Aby zapobiec kradzieży bitcoinów.
+  - Aby płacić podatki od bitcoinów.
+explanation: |
+  Prywatność jest ważna w kontekście Bitcoin, aby zminimalizować
+  ryzyko śledzenia środków, co może ułatwić inwigilację użytkownika
+  inwigilację.
+reviewed: true

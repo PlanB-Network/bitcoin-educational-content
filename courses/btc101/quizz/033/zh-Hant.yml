@@ -1,0 +1,10 @@
+question: 為什麼 Bitcoin 會被視為一種新的貨幣形式？
+answer: 因為它是一種沒有中央實體的數位貨幣。
+wrong_answers:
+  - 因為它是由黃金支持的數位貨幣。
+  - 因為它是一種需要銀行 Blockchain 的貨幣。
+  - 因為美聯儲是這麼說的。
+explanation: |
+  Bitcoin 可被視為一種新的貨幣形式，因為它來自沒有中央實體的點對點網路。
+  來自沒有中央實體的點對點網路。
+reviewed: true

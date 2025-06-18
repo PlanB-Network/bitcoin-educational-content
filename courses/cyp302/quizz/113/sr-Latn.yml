@@ -1,0 +1,9 @@
+question: Koja je uloga K niza u RC4 enkripciji?
+answer: Inicijalizuje i transformiše S niz u generate keystream
+wrong_answers:
+  - Direktno šifrira otvoreni tekst
+  - Čuva šifrovani tekst
+  - Služi samo kao privremena memorija za podatke do kraja procesa.
+explanation: |
+  K niz se koristi za transformaciju S niza u procesu raspoređivanja ključeva, što omogućava generisanje pseudonasumičnog toka ključeva za šifrovanje otvorenog teksta.
+reviewed: false

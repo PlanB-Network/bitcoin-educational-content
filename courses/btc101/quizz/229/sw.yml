@@ -1,0 +1,8 @@
+question: Je, miamala kwenye Lightning Network inalindwa vipi?
+answer: Kupitia cryptography na kwa njia isiyo ya moja kwa moja kupitia nishati inayotumiwa na wachimbaji kwenye Bitcoin.
+wrong_answers:
+  - Kupitia matumizi ya funguo za kibinafsi tu.
+  - Kupitia matumizi ya funguo za umma pekee.
+  - Kupitia matumizi ya funguo za kibinafsi na za umma pekee.
+explanation: >-
+reviewed: true

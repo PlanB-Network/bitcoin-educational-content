@@ -1,0 +1,8 @@
+question: 在 Lightning Network 的背景下，資金流的概念是什麼？
+answer: 進行連續、即時的微額付款。
+wrong_answers:
+  - 在實體地點使用自動提款機將 Bitcoin 兌換成現金。
+  - Bitcoin 的串流音訊或視訊內容。
+  - 透過即時發生的 Mining 作業創造新的 bitcoins。
+explanation: >-
+reviewed: true

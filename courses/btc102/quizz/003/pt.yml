@@ -1,9 +1,9 @@
-question: Qual é uma tática comum usada por influenciadores ou gurus de criptomoedas?
-answer: Promover criptomoedas não confiáveis.
+question: Em que consiste o Pump and Dump no espaço das criptomoedas?
+answer: Manipular um ativo através de uma campanha para vender no pico
 wrong_answers:
-  - Promover ativos físicos.
-  - Promover moedas fiduciárias.
-  - Promover produtos de software.
+  - Comprar maciçamente um ativo para manter o seu preço sem nunca o vender
+  - Estabilizar o mercado a longo prazo através de transacções opostas
+  - Fazer compras recorrentes para ganhar exposição a longo prazo ao ativo
 explanation: |
-  Influenciadores ou gurus de criptomoedas frequentemente têm agendas pessoais e podem estar envolvidos em vários projetos que eles buscam promover, mesmo que nem sempre seja do melhor interesse dos investidores. Esses influenciadores podem tentar promover criptomoedas não confiáveis, ou shitcoins.
+  Esta técnica fraudulenta consiste em inflacionar artificialmente o preço para vender num momento crítico e provocar a queda do valor.
 reviewed: false

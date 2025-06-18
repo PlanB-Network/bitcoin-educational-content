@@ -1,0 +1,9 @@
+question: Lightning Network inaruhusu nini, ikilinganishwa na miamala ya jadi kwenye Bitcoin Blockchain?
+answer: Shughuli za haraka na ada ndogo
+wrong_answers:
+  - Miamala isiyojulikana na isiyoweza kupatikana
+  - Shughuli kwa kiasi kikubwa bila mipaka ya kiasi
+  - Shughuli kati ya blockchains tofauti
+explanation: |
+  Lightning Network huwezesha miamala ya haraka na ya gharama nafuu kupitia njia za malipo za off-chain, ambazo ni tofauti na miamala ya kawaida kwenye Blockchain.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Jakie były pierwsze formy waluty?
+answer: Towary takie jak zboże i żywy inwentarz.
+wrong_answers:
+  - Złoto i srebro.
+  - Notatki na papierze.
+  - Zasoby cyfrowe.
+explanation: |
+  Pierwsze formy waluty były często powiązane z podstawowymi
+  towarami, takimi jak zboże, żywy inwentarz i inne towary.
+  Towary te miały jednak poważne wady, takie jak
+  nietrwałość, co utrudniało wykorzystanie ich jako
+  długoterminowego środka oszczędnościowego.
+reviewed: true

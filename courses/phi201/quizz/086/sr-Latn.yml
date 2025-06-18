@@ -1,0 +1,9 @@
+question: Kakva je Constantova kritika Rousseaua i njegovog koncepta slobode?
+answer: Constant kritikuje Rousseaua zbog mešanja slobode Starih sa slobodom Modernih.
+wrong_answers:
+  - Konstant kritikuje Rusoa zbog zagovaranja demokratije.
+  - Konstant kritikuje Rusoa zbog negiranja važnosti izbora.
+  - Konstant kritikuje Rusoa zbog podrške revolucionarnom nasilju.
+explanation: |
+  Konstant prebacuje Rusu što ceni koncept slobode inspirisan Starima, fokusiran na kolektivno učešće, na račun individualne slobode karakteristične za moderna društva, gde privatna sfera mora biti zaštićena.
+reviewed: false

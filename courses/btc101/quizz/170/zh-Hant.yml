@@ -1,0 +1,8 @@
+question: 在 Bitcoin Mining 中，專用 SHA256 機器或 ASICS 的主要優勢是什麼？
+answer: 它們會增加每焦耳的 Hash 率。
+wrong_answers:
+  - 它們可減少能源消耗。
+  - 它們提高了交易速度。
+  - 它們可增加網路的安全性。
+explanation: >-
+reviewed: true

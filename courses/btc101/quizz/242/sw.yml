@@ -1,0 +1,8 @@
+question: Je, Lightning Network inawezaje kutumika kwa kukodisha bidhaa?
+answer: Watumiaji wanaweza kutozwa kwa dakika, au hata kwa sekunde, kwa muda wanaotumia bidhaa.
+wrong_answers:
+  - Watumiaji wanaweza kutozwa ada ya juu kwa kukodisha bidhaa.
+  - Watumiaji wanaweza kutozwa kulingana na thamani ya bidhaa.
+  - Watumiaji wanaweza kutozwa kulingana na hali ya bidhaa.
+explanation: >-
+reviewed: true

@@ -39,11 +39,12 @@ Este curso foi patrocinado por TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introdução
+## Visão geral do curso
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Bem-vindo ao curso ECO104!
 
-### Vivemos em um mundo onde:
+**Vivemos em um mundo onde:**
 
 ● Apenas [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) das pessoas residem em sociedades consideradas "livres democraticamente". No entanto, mesmo dentro dessa fração privilegiada, violações dos direitos humanos são cada vez mais comuns - de contas bancárias congeladas a censura. Os 80% restantes se veem lutando contra o avanço do governo autoritário. Apenas duas décadas atrás, quase metade da população mundial desfrutava das liberdades mais básicas.
 
@@ -62,7 +63,7 @@ Dito isso, este curso não é apenas para aqueles que enfrentam inflação desen
 
 Com isso em mente, nossa missão é trazê-lo para a vanguarda da mudança em nossa paisagem financeira atual, desafiar as normas existentes e oferecer soluções alternativas. Ao mergulhar na história do dinheiro, desmistificar o Bitcoin e explorar o Tether e o mundo das stablecoins, pretendemos inspirar indivíduos a reimaginar seu futuro financeiro.
 
-### O que esperar:
+**O que esperar:**
 
 **Módulo 1: O Preço do Progresso - Um Olhar Mais Atento ao Nosso Sistema Financeiro**
 Começamos nossa exploração espiando por trás das cortinas do nosso sistema financeiro atual, onde a censura financeira, a desigualdade de riqueza e a inflação assolam nosso cotidiano. Por meio de uma breve história do dinheiro, veremos como chegamos onde estamos, lançando luz sobre alguns dos principais pontos de dor que todos estamos vivenciando.
@@ -1614,7 +1615,7 @@ Ao concluirmos este curso, esperamos que você aplique o conhecimento adquirido 
 Que este novo entendimento o empodere para navegar pelo mundo em evolução das finanças com confiança e propósito. Boa sorte em seu caminho de crescimento e descoberta!
 O Futuro é Brilhante!
 
-# Conclusão
+# Seção final
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

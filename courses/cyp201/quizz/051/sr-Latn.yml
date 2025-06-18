@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između passphrase i PIN koda za Bitcoin Wallet?
+answer: passphrase modifikuje derivaciju ključa, ne PIN kod
+wrong_answers:
+  - PIN kod je povezan sa Mnemonic frazom
+  - PIN kod se koristi za šifrovanje transakcija, ali ne i passphrase
+  - PIN kod generiše Bitcoin adrese
+explanation: |
+  Za razliku od PIN koda, passphrase je direktno uključen u proces derivacije ključa i menja Wallet ključeve.
+reviewed: false

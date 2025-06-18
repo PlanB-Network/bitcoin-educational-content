@@ -1,9 +1,9 @@
-question: Was ist eine Non-KYC-Lösung im Zusammenhang mit Bitcoin?
-answer: Eine Lösung, die anonyme Bitcoin-Transaktionen ermöglicht.
+question: Warum ist es empfehlenswert, den Erbschaftsbrief mit Tinte auf Papier zu schreiben?
+answer: Um die mit kompromittierten digitalen Dokumenten verbundenen Risiken zu vermeiden
 wrong_answers:
-  - Eine Lösung, die Bitcoin-Transaktionen ohne Internet ermöglicht.
-  - Eine Lösung, die Bitcoin-Transaktionen ohne Wallet ermöglicht.
-  - Eine Lösung, die Bitcoin-Transaktionen ohne Gebühren ermöglicht.
+  - Druckkosten senken
+  - Um eine rechtlich anerkannte Unterschrift zu erhalten
+  - Erhöhung des rechtlichen Wertes des Dokuments
 explanation: |
-  Eine Non-KYC (Know Your Customer)-Lösung ist eine Lösung, die anonyme Bitcoin-Transaktionen ermöglicht. Sie erfordert nicht, dass der Benutzer persönliche Identifikationsinformationen bereitstellt.
+  Ein handgeschriebener Brief ist weniger anfällig für Cyberangriffe und gewährleistet die Vertraulichkeit der Anweisungen.
 reviewed: false

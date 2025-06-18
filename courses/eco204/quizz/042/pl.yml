@@ -1,0 +1,11 @@
+question: Jaka była waluta Argentyny przed 1826 rokiem?
+answer: Dolar hiszpański.
+wrong_answers:
+  - Argentyńskie peso.
+  - Peso moneda nacional.
+  - Realne peso.
+explanation: |
+  Przed 1826 r. Argentyna używała dolara hiszpańskiego. Po uzyskaniu niepodległości
+  w 1816 r. wprowadziła własną walutę opartą na hiszpańskim realu, co doprowadziło do
+  stworzenie podobnej waluty.
+reviewed: false

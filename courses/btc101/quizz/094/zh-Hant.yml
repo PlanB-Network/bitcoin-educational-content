@@ -1,0 +1,14 @@
+question: 使用 Multisig Wallet 的風險為何？
+answer: 無法存取足夠的個人私密金鑰或備份元件。
+wrong_answers:
+  - 可存取足夠的個人私密金鑰或備份元件。
+  - 與其他方分享您的私人密碼匙。
+  - 與其他方共用您的公開金鑰。
+explanation: |
+  當您使用 Multisig Wallet 時，每個 Multisig 的私密金鑰都應該儲存在不同的位置。
+  Multisig 應儲存在不同的位置。這是
+  因為 Multisig 需要多個簽章才能執行交易。
+  所以需要一定數量的錢包。
+  需要。因此，將每個部分儲存在不同的位置
+  增加了額外的 Layer 安全性。
+reviewed: true

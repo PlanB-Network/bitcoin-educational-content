@@ -1,0 +1,15 @@
+question: Jaka jest główna zaleta posiadania własnego sprzętu Mining?
+answer: Pozyskiwanie dziewiczych bitcoinów.
+wrong_answers:
+  - Uniknięcie konieczności bezpośredniego zakupu Bitcoin.
+  - Osiągnięcie zysku ze sprzedaży sprzętu w późniejszym terminie.
+  - Unikanie konieczności ufania innym górnikom.
+explanation: |
+  Posiadanie własnego sprzętu Mining oferuje znaczne
+  korzyści. Oprócz osobistej satysfakcji z
+  aktywnego przyczyniania się do bezpieczeństwa sieci Bitcoin
+  i obserwowania, jak nagrody wpadają do Wallet, istnieje atrakcyjny aspekt
+  jest atrakcyjny aspekt dziewiczych bitcoinów. Są to
+  świeżo wydobyte bitcoiny, które nigdy nie zostały wydane i nie mają
+  nie mają żadnej historii.
+reviewed: true

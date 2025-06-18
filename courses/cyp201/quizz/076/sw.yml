@@ -1,0 +1,9 @@
+question: Je! nukuu /<0;1>/* katika kifafanuzi inalingana na nini?
+answer: Kwa mnyororo wa nje na wa ndani wenye derivation ya mtiririko
+wrong_answers:
+  - Kwa Address iliyopangwa ya saini nyingi
+  - Kwa hundi ya njia za utokaji
+  - Kwa njia ngumu ya utokaji
+explanation: |
+  Nukuu /<0;1>/* inaonyesha kuwa kifafanuzi kinaweza anwani za generate za mnyororo wa nje (0) na wa ndani (1), pamoja na upataji wa shukrani unaofuata kwa kadi-mwitu (*).
+reviewed: false

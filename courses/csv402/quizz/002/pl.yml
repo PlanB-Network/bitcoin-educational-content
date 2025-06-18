@@ -1,0 +1,9 @@
+question: Jaki jest kompromis między walidacją po stronie klienta a dostępnością w przypadku dylematu CAP?
+answer: Każdy uczestnik musi przechowywać odpowiednie dane lokalnie
+wrong_answers:
+  - Dane są publiczne i automatycznie replikowane globalnie
+  - Spójność poświęcona na rzecz dostępności
+  - Przejścia stanów są zawsze publikowane na Lightning
+explanation: |
+  W Client-side Validation globalna dostępność nie jest gwarantowana, ponieważ uczestnicy muszą zarządzać własnymi danymi.
+reviewed: false

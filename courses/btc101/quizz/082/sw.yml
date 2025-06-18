@@ -1,0 +1,11 @@
+question: Je, ni teknolojia gani inayotumika kutumia pesa kwa usalama kwa kutumia Bitcoin Wallet?
+answer: Usimbaji fiche wa mviringo wa mviringo.
+wrong_answers:
+  - Siri linganifu.
+  - Quantum cryptography.
+  - kriptografia ya RSA.
+explanation: |
+  Kutumia Bitcoins kunahitaji mmiliki kutumia Elliptic Curve
+  Algorithm ya Sahihi Dijiti (ECDSA) ili kuunda saini
+  kwa ajili ya kueneza muamala wa Bitcoin.
+reviewed: true

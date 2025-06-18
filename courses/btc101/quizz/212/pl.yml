@@ -1,0 +1,12 @@
+question: Jak ten kurs opisuje Bitcoin?
+answer: Temat interdyscyplinarny.
+wrong_answers:
+  - Prosty temat.
+  - Przedmiot fizyczny.
+  - Przedmiot jednodyscyplinarny.
+explanation: |
+  Bitcoin jest opisywany jako temat multidyscyplinarny, ponieważ
+  porusza kwestie związane z różnymi dziedzinami, w tym
+  kryptografia, teoria gier, ekonomia i polityka pieniężna,
+  informatyki, filozofii, energetyki, prawa i regulacji.
+reviewed: true

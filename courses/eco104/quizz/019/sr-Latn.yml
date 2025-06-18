@@ -1,0 +1,9 @@
+question: Kako stabilni novčići, kao što je USDt, postižu relativnu stabilnost u vrednosti?
+answer: Oni su vezani za stabilnu imovinu ili valutu.
+wrong_answers:
+  - Podržavaju ih centralna vlast ili vlada.
+  - Oni se oslanjaju na Blockchain tehnologiju za sigurne transakcije.
+  - Podložni su fluktuacijama sličnim drugim kriptovalutama.
+explanation: |
+  Stablecoins održavaju relativnu stabilnost vrednosti tako što su vezani za stabilniju imovinu ili valutu, kao što su američki dolar ili zlato. Ovo vezivanje pomaže u ublažavanju volatilnosti koja se često povezuje sa drugim digitalnim sredstvima kao što je Bitcoin.
+reviewed: true

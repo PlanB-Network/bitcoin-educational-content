@@ -1,0 +1,12 @@
+question: Koja je uloga rudara u Bitcoin mreži?
+answer: Rudari igraju ključnu ulogu u validaciji i kreiranju blokova.
+wrong_answers:
+  - Rudari samo potvrđuju transakcije.
+  - Rudari kontrolišu cenu Bitcoin.
+  - Rudari nemaju ulogu u Bitcoin mreži.
+explanation: |
+  Rudari igraju ključnu ulogu u Bitcoin mreži tako što
+  validiraju i kreiraju blokove. Oni jačaju mrežu
+  protiv cenzure koristeći električnu energiju za izračunavanje
+  Proof of Work za Bitcoin.
+reviewed: true

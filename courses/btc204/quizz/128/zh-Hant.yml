@@ -1,0 +1,10 @@
+question: 秘密財產 Exchange 中的 Smart contract 有什麼效用？
+answer: 同時有系統地揭露資訊，讓雙方都能取回對方的資金。
+wrong_answers:
+  - 透過加密財產資訊來確保機密性，只有合法的接收者才能解密。
+  - 將傳輸程序自動化，以盡量減少人為互動並降低錯誤。
+  - 透過持有雙方的比特幣，以防詐騙企圖，方便解決爭議。
+explanation: |
+  為了讓互不信任的雙方能進行交換，我們使用 Smart contract 系統。Smart contract 是一種在符合預先定義條件時自動執行的程式，在我們的案例中，它可以確保 Exchange 的屬性自動執行，而不需要相互信任。Smart contract 允許參與者之間同時揭露兩項敏感資訊。要麼正常執行，各方取回對方的資金；要麼失敗，每個人都保留原有資金。
+  
+reviewed: false

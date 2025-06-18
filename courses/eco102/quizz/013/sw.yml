@@ -1,0 +1,9 @@
+question: Ni nini msingi wa thamani kulingana na Frédéric Bastiat?
+answer: Huduma
+wrong_answers:
+  - Kazi
+  - Uhaba
+  - Mahitaji
+explanation: |
+  Bastiat anakubali wazo la Say kwamba matumizi ndiyo msingi wa thamani, kinyume na nadharia zinazotegemea kazi au uhaba.
+reviewed: false

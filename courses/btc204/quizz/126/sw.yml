@@ -1,0 +1,10 @@
+question: Ni njia gani ya kriptografia inayoweza kutumika katika kubadilisha fedha ili kuhakikisha usalama wa Exchange bila hitaji la uaminifu?
+answer: Sahihi za Adapta
+wrong_answers:
+  - Usimbaji fiche linganifu
+  - ECDH
+  - Usimbaji fiche usiolinganishwa
+explanation: |
+  Ili kufanya ubadilishanaji wa sarafu, mtu anaweza kutumia HTLC au PTLC. Itifaki hizi mbili hufanya kazi kwa njia sawa kwa kutumia mfumo wa kufunga muda unaohakikisha kwamba Exchange inakamilika kwa mafanikio au kughairiwa kikamilifu, ambayo inalinda uadilifu wa fedha kutoka kwa pande zote mbili. Tofauti kuu kati ya HTLC na PTLC ni kwamba HTLC hutumia heshi na picha za awali ili kulinda muamala, huku PTLC zikitumia Sahihi za Adapta.
+  
+reviewed: false

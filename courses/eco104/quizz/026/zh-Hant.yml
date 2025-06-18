@@ -1,0 +1,12 @@
+question: 什麼是加密貨幣領域中的 Blockchain 三難困境？
+answer: 加密貨幣中可擴展性、安全性和分散性之間的權衡
+wrong_answers:
+  - Bitcoin 的特點是分散性和安全性優先於擴充性
+  - 難以判斷加密貨幣的發展軌跡和價值
+  - 與其他加密貨幣相比，Bitcoin 技術的局限性
+explanation: |
+  Blockchain 三難的概念是指加密貨幣
+  必須優先考量三個重要特性中的兩個；可擴充性、
+  安全和分散化。Bitcoin 將分散化和安全性放在優先地位、
+  這會影響它的可擴展性，但它仍可透過其他方式達成。
+reviewed: true

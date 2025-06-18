@@ -1,0 +1,8 @@
+question: 在 Bitcoin 網路中，難度調整的功能是什麼？
+answer: 它可確保大約每十分鐘就有一個區塊加入 Blockchain。
+wrong_answers:
+  - 它決定了 Bitcoin 的價格。
+  - 它規範了 Blockchain 中可以開採的比特幣數量。
+  - 它決定區塊的大小。
+explanation: >-
+reviewed: true

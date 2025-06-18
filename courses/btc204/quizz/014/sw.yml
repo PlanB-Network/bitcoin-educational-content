@@ -1,0 +1,9 @@
+question: Je! ni mtindo gani wa faragha wa mfumo wa Bitcoin?
+answer: Shughuli za malipo ni za umma, lakini utambulisho wa watumiaji haujulikani.
+wrong_answers:
+  - Satoshi Nakamoto pekee ndiyo inaweza kufikia maelezo ya muamala.
+  - Shughuli zimesimbwa kwa njia fiche na hazionekani kwenye mtandao.
+  - Serikali pekee ndizo zinazoweza kufikia maelezo ya muamala.
+explanation: |
+  Kwa upande wa Bitcoin, kwa kuwa mtiririko wa taarifa hauwezi kuvunjika kati ya shughuli na kikoa cha umma, mtindo wa faragha unategemea utengano kati ya utambulisho wa mtumiaji na shughuli.
+reviewed: false

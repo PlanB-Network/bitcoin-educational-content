@@ -1,0 +1,10 @@
+question: Dlaczego Bitcoin jest uważany za nową formę pieniądza?
+answer: Ponieważ jest to pieniądz cyfrowy bez podmiotu centralnego.
+wrong_answers:
+  - Ponieważ jest to waluta cyfrowa wspierana przez złoto.
+  - Ponieważ jest to waluta, która wymaga banku Blockchain.
+  - Ponieważ Rezerwa Federalna tak twierdzi.
+explanation: |
+  Bitcoin może być postrzegany jako nowa forma pieniądza, ponieważ wyłania się
+  z sieci peer-to-peer bez centralnego podmiotu.
+reviewed: true

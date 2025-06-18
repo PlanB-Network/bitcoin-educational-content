@@ -1,0 +1,9 @@
+question: K 陣列在 RC4 加密中扮演什麼角色？
+answer: 它初始化並變換 S 陣列，以 generate 鍵流
+wrong_answers:
+  - 它直接加密明文
+  - 它會儲存加密的文字
+  - 它只作為資料的暫存空間，直到程序結束為止。
+explanation: |
+  K 陣列用於在金鑰排程過程中轉換 S 陣列，這樣就可以產生偽隨機金鑰流對明文進行加密。
+reviewed: false

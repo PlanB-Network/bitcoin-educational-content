@@ -6,8 +6,6 @@ Vaikeuden säätö on jaksottainen prosessi, jossa määritellään uudelleen Bi
 
 $$N = A \cdot \left(\frac{T}{1,209,600}\right)$$$
 
-&nbsp;
-
 Missä:
 
 

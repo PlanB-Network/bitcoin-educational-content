@@ -1,0 +1,9 @@
+question: Uhakiki wa Austria wa nadharia ya Marx ya faida ni nini?
+answer: Faida ni malipo ya lazima kwa wajasiriamali wanaojihatarisha na kuwekeza.
+wrong_answers:
+  - Waaustria wanasema kuwa faida ni aina ya unyonyaji wa wafanyikazi.
+  - Waaustria wanaikosoa nadharia ya Marx kwa sababu haizingatii jukumu la sifa.
+  - Nadharia ya Marx ya faida hutumikia masilahi ya tabaka.
+explanation: |
+  Kwa wanauchumi wa Austria, faida inawakilisha fidia kwa wajasiriamali kwa hatari zilizochukuliwa na uwekezaji unaofanywa, kinyume na mtazamo wa Umaksi ambao unauona kama unyonyaji wa wafanyikazi.
+reviewed: false

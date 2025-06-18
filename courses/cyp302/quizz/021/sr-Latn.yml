@@ -1,0 +1,9 @@
+question: Koji je matematički termin za proračune koji uključuju modulo operacije?
+answer: Modularna aritmetika
+wrong_answers:
+  - Linearna algebra
+  - Trigonometrija
+  - Diskretna geometrija
+explanation: |
+  Modularna aritmetika je grana matematike koja se bavi operacijama na brojevima unutar konačnog okvira, koristeći modulo operaciju.
+reviewed: false

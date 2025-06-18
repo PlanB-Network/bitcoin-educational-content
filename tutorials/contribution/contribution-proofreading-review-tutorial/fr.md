@@ -35,13 +35,13 @@ Bien qu'il soit toujours mieux de comprendre ce que vous faites (et pourquoi), v
 
 Toutefois, si vous ne connaissez pas du tout le fonctionnement de Git et de GitHub et que vous souhaitez en savoir plus, vous pouvez découvrir notre article d'introduction sur ces outils.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Créer un compte
 
 * Créez un compte sur [GitHub](https://github.com/) pour commencer à contribuer. Si vous souhaitez être guidé dans la manière de créer votre compte sur GitHub, nous avons également un tutoriel détaillé.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Vous aurez également besoin d'un compte sur l'application de messagerie [Telegram](https://telegram.org/).
 
@@ -145,3 +145,4 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 ![REVIEW](assets/fr/16.webp)
 
 * Si vous avez des remarques, des questions ou des commentaires sur ce projet, vous pouvez envoyer un DM [sur le groupe Telegram des contributeurs](https://t.me/PlanBNetwork_ContentBuilder).
+

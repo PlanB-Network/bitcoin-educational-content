@@ -1,0 +1,9 @@
+question: Dlaczego zaleca się utworzenie dwóch oddzielnych adresów e-mail?
+answer: Oddzielenie komunikacji ogólnej od odzyskiwania konta.
+wrong_answers:
+  - Oddzielenie komunikacji zawodowej od osobistej.
+  - Tworzenie wielu kont i zwiększanie widoczności online.
+  - Aby otrzymywać więcej spamu.
+explanation: |
+  Oddzielenie adresów e-mail pomaga ograniczyć ryzyko i lepiej chronić dostęp do krytycznych kont.
+reviewed: false

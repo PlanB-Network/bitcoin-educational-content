@@ -1,0 +1,10 @@
+question: Który z tych 3 protokołów nie jest implementacją CoinJoin?
+answer: Analiza łańcuchowa.
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+explanation: |
+  Chainalysis nie jest w ogóle implementacją CoinJoin, ponieważ jest to firma zajmująca się analizą Blockchain.
+  
+reviewed: false

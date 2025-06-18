@@ -1,0 +1,15 @@
+question: Koja je glavna razlika između privatnog pretraživanja i korišćenja TOR mreže?
+answer: Tor maskira IP korisnika Address, dok Privatno pretraživanje to ne čini.
+wrong_answers:
+  - Privatno pretraživanje i TOR su ista stvar.
+  - Privatno pregledanje maskira korisnikov IP Address, dok TOR to ne čini.
+  - TOR ostavlja lokalne tragove na vašem računaru, dok privatno pretraživanje ne ostavlja.
+explanation: |
+  Privatno pregledanje je funkcija koja sprečava internet
+  pregledače da čuvaju istoriju pregledanja, privremene internet
+  datoteke, podatke iz obrazaca, kolačiće, kao i korisnička imena i lozinke.
+  Međutim, ne skriva pregledanje od vašeg internet
+  provajdera. S druge strane, TOR mreža nudi
+  anonimnost maskiranjem korisnikovog IP Address i omogućava
+  pristup Darknetu.
+reviewed: true

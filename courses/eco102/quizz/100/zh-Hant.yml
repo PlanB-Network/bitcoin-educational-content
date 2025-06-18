@@ -1,0 +1,9 @@
+question: 根據 Bastiat 的看法，誰來維持國家的生計？
+answer: 維持國家的是公民
+wrong_answers:
+  - 依靠國家生活的公民
+  - 維持國家的是國家
+  - 是利益團體在維持國家
+explanation: |
+  Bastiat 斷言，是公民透過創造財富來支持國家，而不是相反。
+reviewed: false

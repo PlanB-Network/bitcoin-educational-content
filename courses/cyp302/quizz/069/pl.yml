@@ -1,0 +1,9 @@
+question: Jaka jest różnica między używaniem algorytmu Salsa20 z kluczem 128-bitowym a kluczem 256-bitowym?
+answer: Długość klucza wpływa na liczbę rund w algorytmie.
+wrong_answers:
+  - Długość klucza zmienia typ szyfrowania.
+  - Klucz 128-bitowy jest używany do szyfrowania strumieniowego, a klucz 256-bitowy do szyfrowania blokowego.
+  - Długość klucza nie ma wpływu w Salsa20.
+explanation: |
+  W symetrycznym schemacie szyfrowania Salsa20 długość klucza (128 lub 256 bitów) wpływa na liczbę rund w algorytmie, bez zmiany samego rdzenia algorytmu.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Zašto Bitcoin danas nije široko prihvaćen u trgovini?
+answer: Zato što nije široko prihvaćen od strane pojedinaca.
+wrong_answers:
+  - Zato što nije prenosivo.
+  - Zato što nije deljiv na male jedinice.
+  - Zato što nije Liquid.
+explanation: |
+  Uprkos svojim svojstvima, kao što je strogo ograničen
+  Supply, Bitcoin još uvek nije široko prihvaćen u trgovini
+  danas, zbog nedostatka usvajanja od strane pojedinaca, pa
+  trgovci nisu podstaknuti da ga prihvate.
+reviewed: true

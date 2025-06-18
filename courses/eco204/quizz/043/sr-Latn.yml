@@ -1,0 +1,11 @@
+question: Pre nego što je izvršena poslednja redenominacija 1994. godine, najviša denominacija novčanice u Brazilu bila je 500.000 cruzeiros reais.
+answer: 500,000
+wrong_answers:
+  - 1.000.000
+  - 250.000
+  - 100,000
+explanation: |
+  Najviša novčanica u Brazilu dostigla je 500.000, a poslednja
+  
+  redenominacija 1994. godine izvršena je po kursu od 2.750 prema 1.'
+reviewed: false

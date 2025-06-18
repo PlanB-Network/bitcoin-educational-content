@@ -39,11 +39,12 @@ This course has been sponsored by TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introduction
+## Course overview
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Welcome to the ECO104 course!
 
-### We live in a world where:
+**We live in a world where:**
 
 ● A mere [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) of people reside in societies deemed "democratically free." Yet, even within this privileged fraction, human rights violations are increasingly commonplace— from frozen bank accounts to censorship. The remaining 80% find themselves grappling with the encroachment of authoritarian rule. Just two decades ago, nearly half of the world's population enjoyed the most basic freedoms.
 
@@ -63,7 +64,7 @@ That said, this course isn't solely for those facing rampant inflation or limite
 
 With this in mind, our mission is to bring you up to the forefront of change in our current financial landscape, challenge the existing norms and offer alternative solutions. By delving into the history of money, demystifying Bitcoin, and exploring Tether and the world of stablecoins, we aim to inspire individuals to reimagine their financial future.
 
-### What to expect:
+**What to expect:**
 
 **Module 1: The Price of Progress - A Closer Look at Our Financial System**
 We begin our exploration by peering behind the curtains of our current financial system, where financial censorship, wealth inequality and inflation plague our daily lives. Through a brief history of money, we will look at how we found ourselves where we are, shedding light on some of the primary pain points we're all experiencing.
@@ -1720,7 +1721,7 @@ May this newfound understanding empower you to navigate the evolving world of fi
 
 The Future is Bright!
 
-# Conclusion
+# Final Section
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

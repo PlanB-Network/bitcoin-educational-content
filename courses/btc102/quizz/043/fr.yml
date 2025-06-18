@@ -1,9 +1,9 @@
-question: Quelle est la principale raison pour laquelle les gouvernements et les banques centrales envisagent la possibilité de créer une version numérique de leur monnaie fiduciaire ?
-answer: Assurer le contrôle et se conformer aux réglementations locales
+question: Quel est l'objectif principal d'un hodler ?
+answer: Conserver ses bitcoins sur le long terme
 wrong_answers:
-  - Pour concurrencer Bitcoin
-  - Pour garantir la protection de la vie privée
-  - Pour accroître la surveillance de masse
+  - Spéculer à court terme
+  - Effectuer des transactions fréquentes en bitcoins
+  - Maximiser la confidentialité de ses transactions Bitcoin
 explanation: |
-  Le contenu du chapitre explique que bien que ces projets prétendent concurrencer Bitcoin, ils restent centralisés afin d'assurer le contrôle et de se conformer aux réglementations locales.
+  Un hodler vise à détenir ses bitcoins pendant de nombreuses années pour bénéficier de la croissance supposée de l'actif.
 reviewed: false

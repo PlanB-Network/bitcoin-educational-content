@@ -1,0 +1,11 @@
+question: Jaki jest związek między ekspansją monetarną a inflacją według Miltona Friedmana?
+answer: Inflacja jest zawsze i wszędzie zjawiskiem pieniężnym.
+wrong_answers:
+  - Inflacja jest zawsze i wszędzie zjawiskiem fiskalnym.
+  - Inflacja jest zawsze i wszędzie zjawiskiem politycznym.
+  - Inflacja jest zawsze i wszędzie zjawiskiem społecznym.
+explanation: |
+  Milton Friedman, znany ekonomista, stwierdził, że inflacja
+  jest zawsze i wszędzie zjawiskiem pieniężnym. Stwierdzenie to podkreśla nieodłączny
+  związek między ekspansją monetarną a inflacją.
+reviewed: false

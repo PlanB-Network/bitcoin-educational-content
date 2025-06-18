@@ -1,0 +1,9 @@
+question: Šta je Bitcoin prema sajberpank pokretu?
+answer: Elektronski ekvivalent gotovine
+wrong_answers:
+  - Oblik digitalnog zlata
+  - Novi oblik kreditne kartice
+  - Vrsta kriptovalute
+explanation: |
+  Poglavlje pominje da iz sajberpank perspektive, Bitcoin se protivi društvu bez gotovine. Omogućava kreiranje potpuno privatnih i posrednički slobodnih digitalnih finansijskih transakcija. Za sajberpank pokret, Bitcoin je elektronski ekvivalent gotovine.
+reviewed: false

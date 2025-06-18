@@ -1,9 +1,9 @@
-question: ¿Qué significa la inmutabilidad de la cadena de bloques de Bitcoin?
-answer: No puede ser cambiada con el tiempo
+question: ¿Cuántos mantenedores habrá en Bitcoin Core en 2025?
+answer: 5
 wrong_answers:
-  - No puede ser hackeada
-  - No puede ser copiada
-  - No puede ser borrada
+  - 7
+  - 12
+  - 23
 explanation: |
-  La inmutabilidad de la cadena de bloques de Bitcoin significa que una vez que una transacción ha sido registrada, no puede ser cambiada ni borrada. Esto garantiza la integridad y confiabilidad de la cadena de bloques.
+  En 2025, hay cinco mantenedores: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao y Ryan Ofsky.
 reviewed: false

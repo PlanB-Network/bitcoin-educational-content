@@ -1,0 +1,9 @@
+question: Do jakiej domeny forum Bitcoin zostało przeniesione 1 sierpnia 2011 roku?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Po przeniesieniu na forum.Bitcoin.org 17 maja, od 1 sierpnia został on przeniesiony na adres URL bitcointalk.org. Z biegiem lat stał się on znany jako BitcoinTalk.
+reviewed: false

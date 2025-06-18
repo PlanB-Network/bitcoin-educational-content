@@ -1,0 +1,10 @@
+question: Jaki jest cel opcji kontroli monet w oprogramowaniu Bitcoin Wallet?
+answer: Aby wybrać, które UTXO mają być używane jako dane wejściowe dla transakcji.
+wrong_answers:
+  - Szyfrowanie UTXO w celu zwiększenia bezpieczeństwa Wallet.
+  - Wykrywanie i blokowanie UTXO z podejrzanych źródeł.
+  - Aby oznaczyć każdy UTXO w Wallet.
+explanation: |
+  Kontrola monet to funkcja dostępna w dobrym oprogramowaniu Bitcoin Wallet, która daje możliwość ręcznego wyboru określonych UTXO do użycia jako dane wejściowe podczas dokonywania transakcji.
+  
+reviewed: false

@@ -1,11 +1,9 @@
-question: Jaká je funkce Lightning Network v ekosystému Bitcoinu?
-answer: Umožňuje Bitcoinu rozšířit se a získat další funkce tím, že působí jako druhá vrstva.
+question: Která metoda vám umožní kompenzovat utracené bitcoiny a zároveň zachovat vaše úspory?
+answer: Utratit a nahradit
 wrong_answers:
-  - Jedná se o samostatnou kryptoměnu, která konkuruje Bitcoinu.
-  - Je to nástroj pro těžbu Bitcoinu.
-  - Je to platforma pro obchodování s Bitcoinem.
+  - HODLing a nahrazení
+  - Utrácení a HODLing
+  - Obchodování a utrácení
 explanation: |
-  Lightning Network je technologie druhé vrstvy aplikovaná na bitcoin,
-  která využívá kanály mikroplateb k rozšíření schopnosti jeho blockchainu provádět
-  transakce efektivněji.
+  Metoda Spend and Replace spočívá v utrácení bitcoinů a následném odkupu stejného množství, abyste si udrželi svůj majetek.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Jakie jest jedno z głównych pytań dotyczących przyszłości finansów?
+answer: Kto powinien przechowywać, autoryzować i śledzić pieniądze, których używamy?
+wrong_answers:
+  - Jak możemy całkowicie wyeliminować pieniądze?
+  - Jak możemy zagwarantować, że każdy będzie miał tyle samo pieniędzy?
+  - Jak możemy sprawić, że pieniądze staną się przestarzałe?
+explanation: >-
+reviewed: true

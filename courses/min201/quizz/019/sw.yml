@@ -1,0 +1,12 @@
+question: Je! ni umuhimu gani wa Lightning Network katika muktadha wa Bitcoin Mining?
+answer: Lightning Network ina uwezo wa kupunguza kwa kiasi kikubwa ada za miamala, na hivyo kuathiri mapato ya wachimbaji.
+wrong_answers:
+  - Lightning Network huongeza ukubwa wa vitalu, na hivyo kuongeza mapato ya wachimbaji.
+  - Lightning Network inapunguza matumizi ya nishati ya Bitcoin Mining.
+  - Lightning Network huongeza kasi ya Bitcoin Mining.
+explanation: |
+  Lightning Network inaruhusu kwa haraka na kwa gharama nafuu
+  miamala nje ya msururu mkuu wa Bitcoin. Hii ina
+  uwezekano wa kupunguza kwa kiasi kikubwa ada za ununuzi,
+  ambayo inaweza kuathiri mapato ya wachimbaji.
+reviewed: true

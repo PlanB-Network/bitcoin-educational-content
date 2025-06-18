@@ -1,0 +1,9 @@
+question: 為什麼強制關閉較不可取？
+answer: 速度較慢，費用也可能不適當
+wrong_answers:
+  - 它需要 Satoshi Nakamoto 的授權
+  - 它會在稍後強制重新建立通道
+  - 它可以防止使用撤銷金鑰
+explanation: |
+  強制關閉不太可取，因為它包含時間鎖，會減慢處理速度，而且費用可能不適當，因為它們是在通道建立時設定的。
+reviewed: false

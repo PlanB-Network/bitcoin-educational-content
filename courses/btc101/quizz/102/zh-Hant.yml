@@ -1,0 +1,12 @@
+question: 有什麼方法可以長期保護您的比特幣？
+answer: 在鋼材等耐磨材質上雕刻您的 Mnemonic 詞句。
+wrong_answers:
+  - 存放在 Hot Wallet 中。
+  - 將他們留在 Exchange 平台上。
+  - 與同事分享您的 Mnemonic 詞組。
+explanation: |
+  將您的 Mnemonic 詞句鐫刻在耐磨材質上，例如
+  鋼材質上鐫刻您的 Mnemonic 字樣，可為您的鑰匙建立實體備份，既可防水，又可防火。
+  鐫刻您的 Mnemonic 詞彙在像鋼這樣的耐蝕材料上
+  比特幣。
+reviewed: true

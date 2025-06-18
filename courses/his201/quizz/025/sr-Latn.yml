@@ -1,0 +1,9 @@
+question: Kada je bilo stvarno lansiranje Bitcoin prototip mreže 2009. godine?
+answer: 9. januar 2009. u 02; 54; 25 UTC
+wrong_answers:
+  - 3. januar 2009. u 18:15; 05 UTC
+  - 8. januar 2009. u 19:27:40 UTC
+  - 12. januar 2009. u 03:30:25 UTC
+explanation: |
+  Ovo je Timestamp bloka 1 od Blockchain, iskopan od strane Satoshi Nakamoto nakon što je objavio softverski kod na mailing listi nekoliko sati ranije. Genesis blok (0) je kreiran između 3. i 8. januara, ali nije postojala stvarna mreža kao takva.
+reviewed: false

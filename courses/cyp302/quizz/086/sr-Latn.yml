@@ -1,0 +1,9 @@
+question: Koja je glavna mana ECB metode sa blok šifrom?
+answer: To je deterministično i može otkriti obrasce u podacima
+wrong_answers:
+  - Zahteva ključeve promenljive dužine
+  - Ne radi sa porukama preko 128 bita
+  - Ne radi sa porukama preko 256 bita
+explanation: |
+  ECB metoda (Electronic Code Book) je deterministička: identični blokovi podataka se šifruju na isti način, što omogućava otkrivanje obrazaca u šifrovanom tekstu.
+reviewed: false

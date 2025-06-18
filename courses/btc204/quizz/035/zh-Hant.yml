@@ -1,0 +1,9 @@
+question: 誰發現了 Address 重複使用的啟發式？
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  第一個討論這個概念的人是 Satoshi Nakamoto，在 Bitcoin 白皮書的第 10 部分。
+reviewed: false

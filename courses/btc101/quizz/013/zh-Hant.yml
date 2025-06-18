@@ -1,0 +1,10 @@
+question: 什麼是 Cypherpunk 宣言？
+answer: Eric Hughes 寫的一篇文章，主張隱私權是一項基本權利。
+wrong_answers:
+  - Julian Assange 寫的一本關於未來科技的書。
+  - 概述 Bitcoin 原則的文件。
+  - David Chaum 撰寫的宣言，講述數位貨幣的重要性。
+explanation: |
+  Cypherpunk 宣言由 Eric Hughes 於 1993 年撰寫。
+  宣稱隱私權是一項基本權利。
+reviewed: true

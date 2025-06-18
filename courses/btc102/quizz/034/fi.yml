@@ -1,10 +1,9 @@
-question: Mikä on bitcoinien enimmäismäärä, joka tullaan koskaan luomaan?
-answer: 21 miljoonaa
+question: Mikä toinen Layer-protokolla mahdollistaa lähes välittömät maksut?
+answer: Lightning Network
 wrong_answers:
-  - 100 miljoonaa
-  - 1 miljardi
-  - Ei rajaa
+  - Sivuketjut
+  - RGB
+  - Bitcoin ydin
 explanation: |
-  Luvussa todetaan, että bitcoineja ei tule koskaan olemaan enempää kuin 21 miljoonaa.
-  Tämä raja on asetettu Bitcoin-protokollassa Satoshi Nakamoton toimesta, eikä sitä voi muuttaa
-  nykyään.
+  Lightning Network mahdollistaa nopeat ja edulliset transaktiot off-chain-toiminnoilla Bitcoin Blockchain:n ulkopuolella.
+reviewed: false

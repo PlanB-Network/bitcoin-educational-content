@@ -1,0 +1,12 @@
+question: Koja je analogija korišćena u ovom kursu da objasni kako možete primiti bitkoine bez omogućavanja pošiljaocu da ukrade vaša sredstva?
+answer: Poštansko sanduče.
+wrong_answers:
+  - Bankovni račun.
+  - Sigurno.
+  - Kuća.
+explanation: |
+  Analogija korišćena da objasni kako možete primiti Bitcoine
+  bez omogućavanja pošiljaocu da ukrade vaša sredstva je
+  poštansko sanduče. Ljudi u njega ubacuju novac, ali samo vi
+  možete da ga otvorite.
+reviewed: true

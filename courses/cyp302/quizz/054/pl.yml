@@ -1,0 +1,9 @@
+question: Jaki jest główny typ struktury algebraicznej używanej w polach skończonych do kryptografii?
+answer: Wielomiany nieredukowalne
+wrong_answers:
+  - Macierze kwadratowe
+  - Losowe wektory
+  - Korzenie sześcienne
+explanation: |
+  W kryptografii, skończone pola rzędu 2^m często wykorzystują nieredukowalne wielomiany, aby zapewnić, że pole jest dobrze zdefiniowane i że wszystkie operacje są możliwe.
+reviewed: false

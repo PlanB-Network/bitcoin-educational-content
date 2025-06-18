@@ -1,0 +1,9 @@
+question: Która odpowiedź reprezentuje jedną z dwóch głównych gałęzi kryptografii?
+answer: Kryptografia symetryczna
+wrong_answers:
+  - Kryptologia
+  - Szyfrowanie homomorficzne
+  - Kryptoanaliza
+explanation: |
+  Kryptografia symetryczna to główna gałąź kryptografii, obejmująca schematy szyfrowania, w których do szyfrowania i odszyfrowywania wiadomości używany jest pojedynczy klucz.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dlaczego Lightning Network można porównać do "e-maila do płatności"?
+answer: Ponieważ umożliwia bezproblemowe, globalne i niewymagające uprawnień wartości Exchange tak łatwo, jak wysyłanie wiadomości.
+wrong_answers:
+  - Ponieważ wysyła płatności za pośrednictwem tradycyjnych dostawców poczty e-mail.
+  - Ponieważ działa tylko wtedy, gdy jest dołączony do zwykłych wiadomości e-mail.
+  - Ponieważ przechowuje dane użytkownika w treści wiadomości e-mail.
+explanation: |
+  Podobnie jak poczta elektroniczna zrewolucjonizowała komunikację, eliminując pośredników i umożliwiając każdemu wysyłanie wiadomości na całym świecie, Lightning Network upraszcza i przyspiesza transakcje, czyniąc transfer wartości tak płynnym i dostępnym jak poczta elektroniczna.
+reviewed: false

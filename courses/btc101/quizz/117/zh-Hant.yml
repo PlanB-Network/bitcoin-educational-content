@@ -1,0 +1,10 @@
+question: Satoshi Nakamoto 何時消失？
+answer: 2010 年
+wrong_answers:
+  - 2008 年
+  - 2009 年
+  - 2023 年
+explanation: |
+  Satoshi Nakamoto 於 2010 年失蹤，將他的創造交到社群手中。
+  交到了社區手中。
+reviewed: true

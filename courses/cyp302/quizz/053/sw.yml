@@ -1,0 +1,9 @@
+question: Sehemu iliyo na nambari ya kikomo ya Elements inaitwaje?
+answer: Uwanja wa Galois
+wrong_answers:
+  - Uga wa kuzidisha
+  - Sehemu ya ulinganifu
+  - Sehemu ya vekta
+explanation: |
+  Sehemu yenye kikomo pia inajulikana kama sehemu ya Galois, iliyopewa jina la mwanahisabati Évariste Galois, na ni muhimu katika usimbaji fiche wa kisasa.
+reviewed: false

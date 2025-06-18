@@ -1,0 +1,9 @@
+question: Która metoda pozwala zrównoważyć wydane bitcoiny przy jednoczesnym zachowaniu oszczędności?
+answer: Wydać i zastąpić
+wrong_answers:
+  - HODLing i wymiana
+  - Wydatki i HODLing
+  - Handel i wydatki
+explanation: |
+  Metoda Spend and Replace polega na wydawaniu bitcoinów, a następnie odkupieniu tej samej kwoty w celu utrzymania posiadanych środków.
+reviewed: false

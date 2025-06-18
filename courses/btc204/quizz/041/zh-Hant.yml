@@ -1,0 +1,9 @@
+question: 自動櫃員機 (ATM) 的主要缺點是什麼？
+answer: 通常收費非常高。
+wrong_answers:
+  - 需要快速的網際網路連線。
+  - 缺乏對當地貨幣的支援。
+  - 不保證交易安全性。
+explanation: |
+  透過 ATM 購買 bitcoins 對於使用者隱私而言是個有趣的解決方案，但它們的主要缺點是經常會收取高昂的費用。
+reviewed: false

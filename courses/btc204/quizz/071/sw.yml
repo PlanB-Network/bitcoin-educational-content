@@ -1,0 +1,10 @@
+question: Ni hatua gani ya kati inaweza kuchukuliwa kuficha miunganisho wakati hutumii nodi yako ya Bitcoin?
+answer: Matumizi ya Tor.
+wrong_answers:
+  - Matumizi ya firewall.
+  - Matumizi ya Wallet iliyosimbwa kwa njia fiche.
+  - Matumizi ya Wallet mara mbili.
+explanation: |
+  Ili kupunguza hatari ya kuzingatiwa, suluhisho la kati ni kutumia programu ya Wallet ambayo hukuruhusu kuficha miunganisho yako kupitia Tor.
+  
+reviewed: false

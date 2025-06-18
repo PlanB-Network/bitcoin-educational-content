@@ -1,0 +1,9 @@
+question: Który prezydent Stanów Zjednoczonych w młodości rozpowszechniał idee Bastiata podczas seminariów korporacyjnych?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, zanim został prezydentem, rozpowszechniał liberalne idee Bastiata i innych ekonomistów na seminariach dla General Electric.
+reviewed: false

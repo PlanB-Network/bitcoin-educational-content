@@ -1,0 +1,10 @@
+question: Jaka jest główna wada coinswapów i atomswapów pod względem prywatności?
+answer: Nie łamią one historii wymienianych monet
+wrong_answers:
+  - Są one bardzo kosztowne pod względem opłat transakcyjnych
+  - Wymagają one Exchange danych osobowych między stronami
+  - Mogą one zostać poddane analizie przez platformy Exchange
+explanation: |
+  Główną wadą tych metod jest to, że są one bardzo ryzykowne bez użycia dodatkowej techniki łamania historii monety.
+  
+reviewed: false

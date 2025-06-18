@@ -1,0 +1,9 @@
+question: Šta bi se moglo dogoditi tradicionalnim uslugama za transfer novca kao što su Western Union, centralne banke, Visa i Mastercard ako ne usvoje Lightning Network?
+answer: Oni bi mogli nestati.
+wrong_answers:
+  - Oni bi mogli postati popularniji.
+  - Oni bi mogli postati sigurniji.
+  - Oni bi mogli postati decentralizovaniji.
+explanation: |
+  Tradicionalne usluge prenosa novca kao što su Western Union, centralne banke, Visa i Mastercard mogle bi nestati ako ne usvoje Lightning Network tehnologiju.
+reviewed: true

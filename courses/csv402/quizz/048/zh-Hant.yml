@@ -1,0 +1,9 @@
+question: RGB 協定背後的基本概念是什麼？
+answer: 透過 On-Chain 加密承諾進行客戶端驗證
+wrong_answers:
+  - 圖靈完備的智慧型契約進行 On-Chain 驗證
+  - 獨家使用未加密的 Bitcoin 交易
+  - 在專用於智慧型契約的 Blockchain 上執行 Contract
+explanation: |
+  RGB 基於 Client-side Validation 模型，其中承諾 (透過 Taproot 或 OP_RETURN) 輸入 On-Chain，而大部分邏輯和資料則保留在 off-chain。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Lightning Network 能實現什麼？
+answer: 在沒有直接渠道連接的個人之間進行交易。
+wrong_answers:
+  - 僅與集中式交易所建立直接的通道連線。
+  - 建立需要對任何交易進行多次確認的通道連線。
+  - 建立僅限於大型交易的直接通道連線。
+explanation: |
+  Lightning Network 可讓沒有直接頻道連接的個人之間進行交易。
+  的交易。
+reviewed: true

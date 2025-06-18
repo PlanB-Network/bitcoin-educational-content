@@ -1,0 +1,9 @@
+question: Dlaczego pseudolosowe szyfry strumieniowe są częściej stosowane w praktyce niż szyfry jednorazowe?
+answer: Pozwalają one na użycie krótszego klucza podczas generowania dłuższego strumienia kluczy
+wrong_answers:
+  - Nie wymagają one tajnego klucza
+  - Wykorzystują one kombinację szyfrowania symetrycznego i asymetrycznego
+  - Nie wymagają aktualizacji kluczy
+explanation: |
+  Pseudolosowe szyfry strumieniowe są bardziej praktyczne, ponieważ pozwalają na rozszerzenie krótkiego klucza w dłuższy strumień klucza, unikając konieczności przechowywania klucza tak długiego, jak sama wiadomość.
+reviewed: false

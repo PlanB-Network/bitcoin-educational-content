@@ -1,0 +1,9 @@
+question: 哪位密碼學家在 1978 年創造了 RSA 密碼系統？
+answer: Ronald Rivest、Adi Shamir 和 Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie、Martin Hellman 和 Ralph Merkle
+  - Marc Girault、Guillaume Poupard 和 Jacques Stern
+  - Alfred Menezes、Minghua Qu 和 Scott Vanstone
+explanation: |
+  Rivest、Shamir 和 Adleman 用他們三個人名字的縮寫來命名 RSA 演算法。
+reviewed: false

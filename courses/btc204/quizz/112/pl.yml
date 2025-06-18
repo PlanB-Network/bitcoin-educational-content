@@ -1,0 +1,10 @@
+question: Jaka jest rola współpracownika w transakcji Stonewall x2?
+answer: Podaj bitcoiny, aby dodać wątpliwości
+wrong_answers:
+  - Pełnienie roli koordynatora transakcji
+  - Otrzymanie kwoty płatności
+  - Wyślij kwotę płatności
+explanation: |
+  Współpracownik w transakcji Stonewall x2 dostarcza bitcoiny, aby dodać wątpliwości do analizy transakcji, jednocześnie w pełni odzyskując swoje środki na koniec (działanie neutralne dla niego, pomniejszone o opłaty Mining).
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kufuatia tukio la kufurika kwa thamani, ni utaratibu gani ulioongezwa kwenye programu na Satoshi ili kupunguza athari za uwezekano wa udhaifu kwenye mfumo?
+answer: Mfumo wa tahadhari
+wrong_answers:
+  - Hali ya kawaida ya miamala
+  - Kikomo cha ukubwa wa block
+  - Misimbo ya op OP_NOP
+explanation: |
+  Mfumo huu mzuri wa tahadhari ulimruhusu, kwa kutumia ufunguo wa faragha, kuonya nodi za mtandao ikiwa kuna tatizo la kiufundi na kusimamisha baadhi ya amri za API.
+reviewed: false

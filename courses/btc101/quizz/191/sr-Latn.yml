@@ -1,0 +1,8 @@
+question: Koji je jedan faktor koji treba uzeti u obzir prilikom odabira rešenja za prihvatanje Bitcoin za vaše poslovanje?
+answer: Očekivani obim transakcija.
+wrong_answers:
+  - Boja vašeg logotipa.
+  - Broj zaposlenih.
+  - Lokacija vašeg sedišta.
+explanation: >-
+reviewed: true

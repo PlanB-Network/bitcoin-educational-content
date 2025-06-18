@@ -1,0 +1,9 @@
+question: کدام استاندارد Bitcoin کیف پول‌های سلسله مراتبی قطعی را معرفی می‌کند؟
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 عملیات کیف پول‌های HD را تعریف می‌کند و امکان استخراج سلسله مراتبی کلیدهای خصوصی از یک seed را فراهم می‌سازد.
+reviewed: false

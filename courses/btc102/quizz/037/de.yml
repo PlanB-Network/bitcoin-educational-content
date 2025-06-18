@@ -1,9 +1,9 @@
-question: Was ist Bitcoin nach der Cyberpunk-Bewegung?
-answer: Das elektronische Äquivalent von Bargeld
+question: Was sollte unbedingt vermieden werden, um die Sicherheit Ihrer Bitcoins zu gewährleisten?
+answer: Aufbewahrung Ihrer Bitcoins auf einer Exchange-Plattform
 wrong_answers:
-  - Eine Form von digitalem Gold
-  - Eine neue Form der Kreditkarte
-  - Eine Art von Kryptowährung
+  - Verwendung eines quelloffenen Hardware Wallet
+  - Verwendung eines Hot Wallet für tägliche Transaktionen
+  - Diversifizierung der Speichermethoden
 explanation: |
-  Im Kapitel wird erwähnt, dass Bitcoin aus der Perspektive des Cyberpunk eine bargeldlose Gesellschaft ablehnt. Es ermöglicht die Schaffung von vollständig privaten und intermediärfreien digitalen Finanztransaktionen. Für die Cyberpunk-Bewegung ist Bitcoin das elektronische Äquivalent von Bargeld.
+  Der Grundsatz "Nicht Ihre Schlüssel, nicht Ihre Bitcoins" unterstreicht die Bedeutung des Besitzes Ihrer eigenen privaten Schlüssel. Auf einer Exchange-Plattform sind Ihre Bitcoins unnötigen Risiken ausgesetzt.
 reviewed: false

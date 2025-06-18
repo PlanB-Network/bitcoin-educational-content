@@ -1,0 +1,9 @@
+question: Dlaczego niedobór jest istotną cechą dobrej waluty?
+answer: Zachowuje wartość
+wrong_answers:
+  - Gwarantuje to, że tylko aktywa fizyczne mogą być używane jako waluta
+  - Zapewnia to, że waluta jest szeroko dostępna dla każdej osoby
+  - Gwarantuje to, że waluta musi być zawsze zabezpieczona towarem takim jak złoto
+explanation: |
+  Niedobór zapobiega nadmiernej kreacji waluty, utrzymując w ten sposób jej wartość i siłę nabywczą w czasie.
+reviewed: false

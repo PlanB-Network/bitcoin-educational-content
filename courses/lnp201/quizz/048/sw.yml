@@ -1,0 +1,9 @@
+question: Je, teknolojia ya Keysend inawezeshaje uhamishaji wa hazina bila Invoice?
+answer: Mtumaji hutoa siri katika HTLC ili kufungua pesa
+wrong_answers:
+  - Mpokeaji hutoa Hash ili kuthibitisha uhamisho
+  - Malipo yanathibitishwa kupitia njia ya moja kwa moja kati ya mtumaji na mpokeaji
+  - Fedha hizo huwekwa moja kwa moja bila usalama wa ziada
+explanation: |
+  Keysend humruhusu mtumaji kwa generate siri iliyopachikwa katika HTLC, na kumwezesha mpokeaji kufungua pesa bila kutoa Invoice.
+reviewed: false

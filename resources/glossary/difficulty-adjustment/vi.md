@@ -6,8 +6,6 @@ Difficulty adjustment is a periodic process that redefines the difficulty target
 
 $$N = A \cdot \left(\frac{T}{1,209,600}\right)$$
 
-&nbsp;
-
 Where:
 
 

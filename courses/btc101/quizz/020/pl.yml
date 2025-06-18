@@ -1,0 +1,12 @@
+question: Jakie są główne cechy skutecznej waluty?
+answer: Fungible, Divisible, Liquid.
+wrong_answers:
+  - Wymienialne, podzielne, nietrwałe.
+  - Fungible, Indivisible, Liquid.
+  - Niegrywalny, Podzielny, Liquid.
+explanation: |
+  Skuteczna waluta musi być zamienna (wymienialna
+  bez utraty wartości), podzielna (podzielna na małe
+  części, aby ułatwić transakcje o różnych wolumenach) oraz
+  Liquid (łatwo wymienialna na towary lub usługi).
+reviewed: true

@@ -1,0 +1,9 @@
+question: Šta se dešava ako uplata putem HTLC nije završena u predviđenom roku?
+answer: Plaćanje je otkazano i sredstva se vraćaju pošiljaocu.
+wrong_answers:
+  - Plaćanje zadržava poslednji posrednički čvor.
+  - Sredstva su raspoređena svim čvorovima na putu
+  - Sredstva su trajno blokirana
+explanation: |
+  Ako HTLC istekne bez otkrivanja tajne, uplata se otkazuje i sredstva se vraćaju pošiljaocu, čime se sprečava bilo koji posrednički čvor da zadrži sredstva.
+reviewed: false

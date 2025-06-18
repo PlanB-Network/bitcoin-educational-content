@@ -1,0 +1,9 @@
+question: SegWit 修正了哪些 ECDSA 簽署漏洞？
+answer: 可塑性
+wrong_answers:
+  - 批次驗證
+  - 缺乏聚集
+  - 簽名尺寸過大
+explanation: |
+  SegWit 修正了 ECDSA 簽署的延展性，使 Lightning Network 等用途成為可能。
+reviewed: false

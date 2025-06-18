@@ -1,0 +1,9 @@
+question: Common Input Ownership Heuristic (CIOH) 是什麼意思？
+answer: 當交易包含多項輸入時，這些輸入可能都來自單一實體。
+wrong_answers:
+  - 當交易包含多項輸入時，這些輸入可能都來自不同的實體。
+  - 當交易包含多個輸出時，這些輸出可能都會流向單一實體。
+  - 當交易包含多個輸出時，這些輸出可能都會流向不同的實體。
+explanation: |
+  CIOH 是一種啟發式方法，它指出當一筆交易包含多個輸入時，這些輸入可能都來自單一實體。因此，它們的 Ownership 是共通的。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je primarni razlog za kratkoročnu volatilnost cena kod stabilnih kriptovaluta?
+answer: Nizak nivo likvidnosti na berzama
+wrong_answers:
+  - Nedostatak rezervi za ispunjavanje zahteva za povlačenje
+  - Hakovi koji kompromituju stablecoin
+  - Depegging stabilnih kovanica
+explanation: |
+  Kratkoročna cenovna volatilnost kod stablecoina često je rezultat problema sa likvidnošću, gde manjim berzama može nedostajati sposobnost da ispune zahteve kupaca, što uzrokuje privremene cenovne fluktuacije.
+reviewed: true

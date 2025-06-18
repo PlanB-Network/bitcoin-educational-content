@@ -1,0 +1,10 @@
+question: Je! ni malipo gani ya BTC baada ya Halving ya nne?
+answer: 3.125 BTC.
+wrong_answers:
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Baada ya Halving ya nne, ambayo hutokea kwa urefu wa kuzuia
+  840,000, malipo ya BTC kwa Mining ni 3.125 BTC.
+reviewed: true

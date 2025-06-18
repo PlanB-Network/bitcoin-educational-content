@@ -1,0 +1,9 @@
+question: RGB-umeme-nodi katika mfumo wa ikolojia wa RGB ni nini?
+answer: daemon ya kudhibiti chaneli za Umeme zinazooana na RGB
+wrong_answers:
+  - Wallet ya rununu ya kudhibiti vipengee vya RGB
+  - Seva ya proksi kwa kumbukumbu za Exchange RGB
+  - Zana ya Mining ya vipengee vya RGB kwenye Bitcoin
+explanation: |
+  RGB-lightning-nodi ni Rust daemon iliyoundwa ili kuunganisha mali ya RGB kwenye chaneli za Umeme kwa kuongeza mabadiliko ya hali ya RGB kwa miamala ya ushiriki.
+reviewed: false

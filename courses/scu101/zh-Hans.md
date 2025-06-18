@@ -26,11 +26,11 @@ Théo；贡献
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## 课程介绍
+## 课程概述
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### 目标：改善您的安全技能！
+**目标：改善您的安全技能！**
 
 欢迎大家参加这个专门讲解数字安全的教育项目。所有人都可以参加这个培训课程并不需要拥有计算机科学的先验知识。我们的主要目标在于为您提供必要的知识和技能，以便您能够更安全且更隐私地探索数字的世界。
 
@@ -40,13 +40,13 @@ Théo；贡献
 
 - Renaud Lifchitz，网络安全专家
 - Théo Pantamis，应用数学博士
-- Rogzy，DécouvreBitcoin的CEO
+- Rogzy，Plan ₿ Network的联合创始人
 
 在日益数字化的世界中，您的“数字卫生”至关重要。尽管黑客攻击和大规模监控不断增加，但采取第一步保护自己还为时不晚。
 在这个培训中，我们的目标不是使您成为一名专家、匿名者或不可侵犯者，因为这是一个不可做到的事情。相反，我们为您提供一些简单且易于实施的解决方案，以转变您的在线操作习惯并重新掌控您的数字主权。
 如果您正在寻找与该主题相关的更高级技能，您可以访问我们的资料、教程或其他数字安全培训项目。同时，以下是我们接下来几小时将一起探索的项目简要概述。
 
-### 第1节：您需要理解的在线浏览的一切
+**第1节：您需要理解的在线浏览的一切**
 
 - 第1章 - 在线浏览
 - 第2章 - 安全使用互联网
@@ -55,13 +55,13 @@ Théo；贡献
 
 ![](assets/en/1.webp)
 
-### 第2节：计算机使用的最佳实践
+**第2节：计算机使用的最佳实践**
 
 - 第3章 - 计算机使用
 - 第4章 - 黑客攻击与备份管理
   在本节中，我们将涵盖计算机安全的三个关键领域。首先，我们将探索不同的操作系统：Mac、PC 和 Linux，强调它们的特点和优势。然后，我们将深入研究有效防御黑客攻击并加强设备安全的方法。最后，我们将强调定期保护和备份数据的重要性，以防止任何数据丢失或勒索软件的威胁。![](assets/en/2.webp)
 
-### 第3节：解决方案的实施
+**第3节：解决方案的实施**
 
 - 第6章 - 电子邮件管理
 - 第7章 - 密码管理器
@@ -72,6 +72,7 @@ Théo；贡献
 首先，我们将理解如何保护您的电子邮件收件箱，其对您的通信方面至关重要，而且经常是黑客攻击的目标。然后，我们将向您介绍密码管理器：一个实用的解决方案，可以让您不再忘记或混淆密码，同时保持密码的安全。最后，我们将讨论一个额外的安全措施，即双因素认证，它为您的账户作为额外的保护层。一切都将被清晰和易于理解地描述。
 ![](assets/en/3.webp)
 
+准备好加强您的数字安全并重新掌控您的数据了吗？让我们开始吧！
 # 您需要理解的在线浏览的一切
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -398,18 +399,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## 备份设置
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-保护您的个人文件也是一个关键点。本教程将向您展示如何通过 Proton Drive 实施有效的备份策略。了解如何使用这个安全的云解决方案来应用 3-2-1 方法：将您的数据复制三份，存储在两种不同的媒介上，其中一份存储在不同的位置。这样的做法可以确保您的敏感文件的可访问性和安全性：
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## 更换浏览器和VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -425,6 +414,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 另外，了解如何使用Tor Browser，这是一款专门设计用于保护您在线隐私的浏览器：
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## 备份设置
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+保护您的个人文件也是一个关键点。本教程将向您展示如何通过 Proton Drive 实施有效的备份策略。了解如何使用这个安全的云解决方案来应用 3-2-1 方法：将您的数据复制三份，存储在两种不同的媒介上，其中一份存储在不同的位置。这样的做法可以确保您的敏感文件的可访问性和安全性：
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 进一步了解
 
@@ -473,7 +474,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 ### 高效的密码管理和认证加强：一个学术方法
 
-在Découvre Bitcoin学院提供的培训模块“安全101”中，我们讨论了密码管理器的重要性。需要考虑三个重要维度：密码的创建、更新和在网站上的实施。
+在谈论密码管理器时，有三个关键维度需要考虑：密码的创建、更新和在网站上的实施。
 通常不建议使用浏览器扩展自动填充密码。这些工具可能使用户更容易受到网络钓鱼攻击的威胁。被公认的网络安全专家Renaud更喜欢使用KeePass进行手动管理，这涉及到手动复制和粘贴密码。扩展程序倾向于增加攻击面，可能会减慢浏览器性能，因此存在显著风险。因此，建议在浏览器上尽量少使用扩展程序。
 
 密码管理器通常鼓励使用额外的认证因素，如双因素认证。为了获得最佳安全性，建议在移动设备上保留一次性密码（One Time Password，OTP）。AndoTP提供了一个开源解决方案，用于在手机上生成和存储OTP代码。虽然Google Authenticator允许导出认证码种子，但对Google账户的备份信任度有限。因此，推荐使用OTI和AndoTP应用程序进行独立的OTP管理。
@@ -495,9 +496,9 @@ Passkiz是另一种可行且安全的密码管理替代方案。然而，一个�
 计算机安全可能因简单的实践和使用默认密码（如“admin”）而受到威胁。危及计算机安全不总是需要复杂的攻击。例如，一个YouTube频道的管理员密码被写在公司的私有源代码中。安全漏洞往往是人为疏忽的结果。
 也应该注意到，互联网高度集中化，且在很大程度上受到美国的控制。DNS服务器可能会受到审查，并且经常采用欺骗性DNS来阻止访问某些网站。DNS是一个旧的且安全性不足的协议，可能带来安全问题。新的协议，如DNSsec已经出现，但仍然未被广泛使用。为了绕过审查和广告屏蔽，您可以选择替代的DNS提供商。
 
-侵入式广告的替代方案包括Google DNS、OpenDNS和其他独立服务。标准DNS协议使DNS查询对互联网服务提供商可见。DOH（DNS over HTTPS）和DOT（DNS over TLS）加密DNS连接，提供更大的隐私和安全性。这些协议因其增强的安全性在企业中被广泛使用，并且得到了Windows、Android和iPhone的原生支持。要使用DOH和DOT，必须输入TLS主机名而不是IP地址。在线提供免费的DOH和DOT提供商。DOH和DOT通过避免“中间人”攻击来提高隐私和安全性。其他关键考虑因素
+侵入式广告的替代方案包括Google DNS、OpenDNS和其他独立服务。标准DNS协议使DNS查询对互联网服务提供商可见。DOH（DNS over HTTPS）和DOT（DNS over TLS）加密DNS连接，提供更大的隐私和安全性。这些协议因其增强的安全性在企业中被广泛使用，并且得到了Windows、Android和iPhone的原生支持。要使用DOH和DOT，必须输入TLS主机名而不是IP地址。在线提供免费的DOH和DOT提供商。DOH和DOT通过避免“中间人”攻击来提高隐私和安全性。
 
-作为“安全101”培训模块的一部分，在Découvre Bitcoin Academy上，我们还讨论了闪电网络认证。该系统为每项服务生成不同的标识符，无需提供电子邮件地址或个人信息。可以拥有用户控制的去中心化身份，但在去中心化身份项目中缺乏标准化和规范化。建议使用诸如Nuget和Chocolaté之类的包管理器，这些管理器允许在微软商店之外下载开源软件，以避免恶意攻击。总之，DNS对于在线安全至关重要，但必须保持警惕，防范对DNS服务器的潜在攻击。
+还值得提到一个名为“Lightning authentication”的系统。该系统为每项服务生成不同的标识符，无需提供电子邮件地址或个人信息。可以拥有用户控制的去中心化身份，但在去中心化身份项目中缺乏标准化和规范化。建议使用诸如Nuget和Chocolaté之类的包管理器，这些管理器允许在微软商店之外下载开源软件，以避免恶意攻击。总之，DNS对于在线安全至关重要，但必须保持警惕，防范对DNS服务器的潜在攻击。
 
 # 总结
 

@@ -1,0 +1,9 @@
+question: Šta je koncept komparativne prednosti u kontekstu podele rada?
+answer: Pojedinac ima superiornu sposobnost da obavlja određene zadatke bolje od drugih.
+wrong_answers:
+  - Pojedinac ima jednaku sposobnost da obavlja sve zadatke kao i drugi.
+  - Pojedinac ima inferiornu sposobnost da obavlja određene zadatke u poređenju sa drugim.
+  - Pojedinac ima superiornu sposobnost da obavlja sve zadatke bolje od drugih.
+explanation: |
+  U kontekstu podele rada, komparativna prednost odnosi se na situaciju u kojoj pojedinac ima superiornu sposobnost da obavlja određene zadatke u odnosu na druge. Čak i ako pojedinac nema apsolutnu prednost u proizvodnji bilo kog dobra, i dalje će postojati vrste proizvodnje u kojima je pojedinac bolji nego u drugima, i iz tog razloga, i dalje ima interes da se specijalizuje.
+reviewed: true

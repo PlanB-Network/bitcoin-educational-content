@@ -1,0 +1,9 @@
+question: W którym roku wdrożono koncepcję eCash Davida Chauma?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Został on po raz pierwszy wdrożony przez cypherpunks w lutym, a następnie wypróbowany przez DigiCash poprzez emisję CyberBucks w październiku.
+reviewed: false

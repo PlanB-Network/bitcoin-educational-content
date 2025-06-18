@@ -1,0 +1,13 @@
+question: 薩爾瓦多 Bitcoin 的狀況如何？
+answer: 法定貨幣。
+wrong_answers:
+  - 被定罪。
+  - 未知。
+  - 不受管制。
+explanation: |
+  課程內容提到有些國家已禁止
+  並將使用 Bitcoin 列為犯罪，這增加了根據不同文化、時代和國家採用 Bitcoin 的複雜性。
+  的複雜性。
+  國家。然而，薩爾瓦多勇敢地將其
+  作為法定貨幣。
+reviewed: true

@@ -1,0 +1,9 @@
+question: 為什麼我們要在 Bitcoin 付費？
+answer: 創造一個包括區塊交易的自由市場。
+wrong_answers:
+  - 介紹如何開採 Bitcoin。
+  - 讓有錢人付更多錢。
+  - 將政府排除在網路之外。
+explanation: |
+  收費對於創造一個在區塊中包含交易的自由市場是必不可少的。事實上，一個區塊的大小為 1MB（SegWit 更新後擴大為 4MB），因此每個區塊可 「插入 」的交易數量僅限於幾千筆。
+reviewed: true

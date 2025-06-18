@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 在其著作中明確提到哪種私人貨幣系統？
+answer: 自由儲備
+wrong_answers:
+  - 電子黃金
+  - 自由幣
+  - e-Bullion
+explanation: |
+  這個在 Bitcoin 時確實還是活躍的，不像 e-gold 和 Liberty Dollar。Satoshi 也 [提到](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix，2002 年創造的數位黃金貨幣。
+reviewed: false

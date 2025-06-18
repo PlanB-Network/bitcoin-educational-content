@@ -1,0 +1,9 @@
+question: Je, ni dhana gani ya hisabati inayoweka msingi wa kitufe cha Diffie-Hellman Exchange?
+answer: Kazi ya njia moja iliyo na mlango wa nyuma
+wrong_answers:
+  - Kitendaji cha kielelezo kinyume
+  - Algorithm ya kriptografia ya Hash
+  - Mgawanyiko wa msimu uliorahisishwa
+explanation: |
+  Diffie-Hellman hutegemea utendakazi wa njia moja ambayo ni rahisi kukokotoa katika mwelekeo mmoja lakini kwa kweli haiwezekani kugeuza bila taarifa ya siri, inayoitwa backdoor.
+reviewed: false

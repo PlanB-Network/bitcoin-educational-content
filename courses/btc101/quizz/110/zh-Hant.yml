@@ -1,0 +1,11 @@
+question: 在 Bitcoin 安全性的背景下，什麼是 Blockmit？
+answer: 在鋼片上雕刻 Mnemonic 詞句的低成本解決方案。
+wrong_answers:
+  - Bitcoin Wallet 的一種，可一次簽署多筆交易。
+  - 在家挖比特幣的低成本解決方案。
+  - Bitcoin Wallet 的一種，需要多個簽章才能花費 UTXO。
+explanation: |
+  Blockmit 是一種低成本的解決方案，可將您的
+  Mnemonic詞組刻在鋼鐵等耐磨材料上，從而
+  長期保護您的比特幣。
+reviewed: true

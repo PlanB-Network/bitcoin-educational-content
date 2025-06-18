@@ -1,0 +1,12 @@
+question: Jakie jest obecnie główne narzędzie wykorzystywane przez górników w sieci Bitcoin?
+answer: Układy ASIC
+wrong_answers:
+  - Procesory
+  - Procesory graficzne
+  - Układy FPGA
+explanation: |
+  Obecnie górnicy używają wyłącznie układów ASIC dedykowanych do tej operacji
+  zoptymalizowane pod kątem testowania maksymalnej liczby
+  kombinacji przy jak najmniejszym zużyciu energii
+  i tak szybko, jak to możliwe.
+reviewed: true

@@ -1,0 +1,9 @@
+question: कौन सी बड़ी कंपनी Bitcoin और Mining के लिए ASICs डिज़ाइन करती है?
+answer: बिटमेन (Bitmain)
+wrong_answers:
+  - ट्रेज़र
+  - जीडब्ल्यू-२
+  - फाउंड्री यूएसए
+explanation: |
+  बिटमेन Bitcoin और Mining के लिए विशेष हार्डवेयर बनाने वाली प्रमुख कंपनियों में से एक है।
+reviewed: false

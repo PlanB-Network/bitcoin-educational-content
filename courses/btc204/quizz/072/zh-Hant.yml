@@ -1,0 +1,10 @@
+question: 2024 年最推薦使用哪種腳本模式來增強 Bitcoin 上的隱私權？
+answer: P2TR
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+explanation: |
+  為了盡可能融入最龐大的人群，建議使用最廣泛採用的腳本模型。P2TR 腳本目前在 Bitcoin 交易中使用最多。
+  
+reviewed: false

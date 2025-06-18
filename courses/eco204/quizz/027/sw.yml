@@ -1,0 +1,11 @@
+question: Ni njia gani ya kawaida iliyotumiwa na serikali kudumisha mwonekano wa hali ya kawaida wakati wa kuporomoka kwa uchumi?
+answer: Kuwalazimisha wafanyabiashara kuweka maduka yao wazi.
+wrong_answers:
+  - Kuhimiza uwekezaji kutoka nje.
+  - Kupunguza ushuru.
+  - Kuongeza matumizi ya umma.
+explanation: |
+  Uchumi unapoporomoka na sarafu inapoteza thamani yake, serikali
+  wanaweza kuamua kuchukua hatua kali ili kudumisha mwonekano wa hali ya kawaida. Kipimo kimoja kama hicho
+  inawalazimisha wafanyabiashara kuweka maduka yao wazi.
+reviewed: false

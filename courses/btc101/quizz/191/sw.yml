@@ -1,0 +1,8 @@
+question: Ni jambo gani moja la kuzingatia unapochagua suluhu la kukubali Bitcoin kwa ajili ya biashara yako?
+answer: Kiasi cha muamala kinachotarajiwa.
+wrong_answers:
+  - Rangi ya nembo yako.
+  - Idadi ya wafanyikazi.
+  - Mahali pa makao makuu yako.
+explanation: >-
+reviewed: true

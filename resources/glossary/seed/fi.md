@@ -1,11 +1,14 @@
 ---
-term: SEED
-
+term: VILJA
 ---
-Hierarkkisen deterministisen Bitcoin-lompakon yhteydessä siemen on 512-bittinen satunnaisuudesta johdettu tieto. Sitä käytetään deterministisesti ja hierarkkisesti luomaan joukko yksityisiä avaimia ja niitä vastaavia julkisia avaimia Bitcoin-lompakkoa varten. Siemen sekoitetaan usein itse palautuslausekkeeseen. Se on kuitenkin eri tietoa. Siemen saadaan soveltamalla `PBKDF2`-funktiota muistilausekkeeseen ja mahdolliseen salasanaan.
 
-Siemen keksittiin BIP32:n käyttöönoton yhteydessä, ja siinä määritellään hierarkkisen deterministisen lompakon perusteet. Tässä standardissa siemen oli 128 bittiä. Tämä mahdollistaa kaikkien lompakon avainten johtamisen yhdestä ainoasta tiedosta, toisin kuin JBOK-lompakoissa (*Just a Bunch Of Keys*), jotka vaativat uusia varmuuskopioita jokaista luotua avainta varten. BIP39 otti myöhemmin käyttöön tämän siemenen koodauksen, jotta se olisi helpommin ihmisten luettavissa. Tämä koodaus tehdään lauseen muodossa, jota kutsutaan yleisesti muistilausekkeeksi tai palautuslausekkeeksi. Tämä standardi auttaa välttämään virheitä siemenen varmuuskopioinnissa erityisesti tarkistussumman avulla.
+Bitcoin-hierarkkisen deterministisen portfolion yhteydessä seed on 512-bittinen tieto, joka on johdettu satunnaistapahtumasta. Sitä käytetään deterministisesti ja hierarkkisesti generate yksityisten avainten ja niitä vastaavien julkisten avainten joukkoon Bitcoin-salkkua varten. seed sekoitetaan usein itse palautuslausekkeeseen. Se ei kuitenkaan ole sama asia. seed saadaan soveltamalla `PBKDF2`-funktiota Mnemonic-lauseeseen ja mihin tahansa passphrase-lauseeseen.
 
-Yleisemmin kryptografiassa siemen on satunnainen tieto, jota käytetään lähtökohtana kryptografisten avainten, salausten tai pseudosattumanvaraisten sekvenssien luomisessa. Monien kryptografisten prosessien laatu ja turvallisuus riippuvat siemenen satunnaisuudesta ja luottamuksellisuudesta.
 
-> ► *Englanninkielinen käännös sanalle "graine" on "siemen". Ranskaksi monet käyttävät suoraan englanninkielistä sanaa viittaamaan siemeniin.*
+seed keksittiin yhdessä BIP32:n kanssa, joka määritteli hierarkkisen deterministisen portfolion perustan. Tässä standardissa seed:n mitat olivat 128 bittiä. Tämän ansiosta kaikki salkun avaimet voidaan johtaa yhdestä ainoasta tiedosta, toisin kuin JBOK-salkuissa (*Just a Bunch Of Keys*), jotka vaativat uusia varmuuskopioita jokaista luotua avainta varten. BIP39 ehdotti tämän jälkeen seed:n koodausta, jotta ihmisten olisi helpompi lukea sitä. Tämä koodaus tapahtuu lauseen muodossa, jota kutsutaan yleisesti Mnemonic-lauseeksi tai palautuslauseeksi. Tällä standardilla vältetään virheet seed:n tallentamisessa erityisesti tarkistussumman käytön ansiosta.
+
+
+Bitcoin-kontekstin ulkopuolella seed on kryptografiassa yleisesti generate-kryptografisten avainten tai laajemmin minkä tahansa pseudosattumanumerogeneraattorin tuottaman datan alkuarvo. Tämän alkuarvon on oltava satunnainen ja arvaamaton, jotta salausjärjestelmän turvallisuus voidaan taata. seed tuo järjestelmään entropiaa, mutta sitä seuraava generointiprosessi on deterministinen.
+
+
+> ► *Yleiskielessä suurin osa bitcoin-käyttäjistä viittaa Mnemonic-lauseeseen puhuessaan "seed:stä", eikä välitilaan, joka on Mnemonic-lauseen ja pääavaimen välissä.*

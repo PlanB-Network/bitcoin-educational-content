@@ -1,0 +1,9 @@
+question: Lightning 在支付終局性方面為商戶提供了什麼優勢？
+answer: Lightning 付款幾乎是即時完成，降低了逆轉或欺詐的風險。
+wrong_answers:
+  - 它需要等待 24 小時才可動用資金。
+  - 它允許客戶隨時取回付款。
+  - 它使交易完全可逆轉長達 90 天。
+explanation: |
+  有了 Lightning，付款一旦通過網路進行路由和結算，即為最終結算。這消除了傳統支付系統中的退款情況。
+reviewed: false

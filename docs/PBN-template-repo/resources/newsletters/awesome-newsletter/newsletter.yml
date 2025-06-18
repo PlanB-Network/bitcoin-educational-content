@@ -1,0 +1,40 @@
+# generate a random uuid v4
+id: ef222a06-cd58-454a-8982-3d8d809aca0a
+
+# complete title of the content, don't forget the ".."
+title: "Satoshi's First News"
+
+# write the full name of (all) the author(s)
+author: John Doe
+
+# Define the difficulty of the newsletter
+# Choose between beginner, intermediate, advanced, expert
+level: intermediate
+
+# when the newsletter has started
+publication_date: YYYY-MM-DD
+
+link:
+  - website: https://newsletter_link_here.com
+
+# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+language: en
+
+description: |
+  Write like
+  this the
+  description
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
+contributor_names:
+  - author1_github_username #insert your github username
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - market-trends
+  - onchain
+  - investment

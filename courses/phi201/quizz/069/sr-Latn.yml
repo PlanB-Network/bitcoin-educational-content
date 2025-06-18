@@ -1,0 +1,9 @@
+question: Kakav je bio Turgotov stav prema verskoj istini?
+answer: Religiozna istina je stvar lične savesti i ne može biti nametnuta od strane bilo kojeg autoriteta.
+wrong_answers:
+  - Religiozna istina je relativna i zavisi od kulture i ere u kojoj neko živi.
+  - Religiozna istina je nedostupna čoveku i ne može biti predmet bilo kakve sigurnosti.
+  - Religiozna istina mora biti određena političkom moći i nametnuta svim građanima.
+explanation: |
+  Turgot je smatrao da je religijska istina lična stvar koja se tiče individualne savesti, tvrdeći da vlast nema pravo da nameće religijska uverenja pojedincima.
+reviewed: false

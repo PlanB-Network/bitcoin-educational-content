@@ -1,9 +1,9 @@
-question: Chi ha introdotto l'idea della Bitcoin highway?
-answer: Andreas Antonopoulos
+question: Qual è l'obiettivo principale dell'utente attivo?
+answer: Per utilizzare il Bitcoin come metodo di pagamento giornaliero
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - Investire nel Bitcoin a lungo termine
+  - Accumulare gradualmente satoshi
+  - Speculare sul mercato
 explanation: |
-  Andreas Antonopoulos, un noto sostenitore ed educatore di Bitcoin, ha introdotto l'idea della Bitcoin highway.
+  L'utente attivo incorpora il Bitcoin nella propria vita quotidiana per effettuare transazioni e sostenerne l'adozione.
 reviewed: false

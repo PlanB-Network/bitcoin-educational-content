@@ -1,0 +1,12 @@
+question: Koji su entiteti zaduženi za izdavanje fiducijarnih valuta?
+answer: Centralne banke.
+wrong_answers:
+  - Komercijalne banke.
+  - Vlade.
+  - Privatne institucije.
+explanation: |
+  Centralne banke su entiteti zaduženi za izdavanje
+  fiducijarne valute. One odlučuju o monetarnoj politici i
+  određuju koliko novca treba pustiti u opticaj ili
+  odštampati.
+reviewed: true

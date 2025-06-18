@@ -1,0 +1,10 @@
+question: Koji je maksimalan broj bitkoina koji ikada može biti stvoren?
+answer: oko 21 milion jedinica
+wrong_answers:
+  - više ili manje 18 miliona jedinica
+  - oko 25 miliona jedinica
+  - oko 30 miliona jedinica
+explanation: |
+  Kreiranje Bitcoin karakteriše fiksna granica od
+  21 milion jedinica.
+reviewed: true

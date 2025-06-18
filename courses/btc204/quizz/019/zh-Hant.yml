@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 在 Bitcoin 白皮書中提到的連鎖分析啟發式方法是什麼？ (只可能有一個答案)
+answer: CIOH 和 Address 重複使用。
+wrong_answers:
+  - 以簽章和時間相關性進行聚類。
+  - 四捨五入的數額支付和大量的輸出。
+  - 音量分析與腳本相似。
+explanation: |
+  在 Bitcoin 白皮書的第 10 部分，Satoshi Nakamoto 警告使用者 CIOH (Common Input Ownership Heuristic) 和重複使用相同的一對金鑰。
+reviewed: false

@@ -1,0 +1,14 @@
+question: Ni hatua gani nzuri ya kuanzia kwa taaluma ya usalama wa mtandao kutoka kwa mtazamo wa kitaaluma?
+answer: Elimu dhabiti katika sayansi ya kompyuta, mifumo ya habari, au uwanja unaohusiana
+wrong_answers:
+  - Shahada ya sanaa na ubinadamu
+  - Shahada ya usimamizi wa biashara
+  - Shahada ya elimu ya mwili
+explanation: |
+  Sura inataja kwamba elimu thabiti katika kompyuta
+  sayansi, mifumo ya habari, au uwanja unaohusiana ni mara nyingi
+  mahali pazuri pa kuanzia taaluma ya usalama wa mtandao kutoka
+  mtazamo wa kitaaluma. mifumo, au uwanja unaohusiana ni
+  mara nyingi mahali pazuri pa kuanzia taaluma
+  usalama wa mtandao.
+reviewed: true

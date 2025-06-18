@@ -1,0 +1,12 @@
+question: Jaka jest komenda weryfikująca ilość bitcoinów w obiegu na węźle Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
+explanation: |
+  Polecenie weryfikujące ilość bitcoinów w
+  w obiegu na węźle Bitcoin jest bitcoin-cli
+  gettxoutsetinfo. Polecenie to zapewnia przejrzystość i
+  weryfikowalność, wzmacniając zaufanie do systemu Bitcoin.
+reviewed: true

@@ -1,0 +1,163 @@
+---
+name: Nakamochi
+description: Pokretanje čvora postalo je lako - Kako postaviti i koristiti Nakamochi Bitcoin i Lightning čvor.
+---
+
+Pokretanje sopstvenog Bitcoin i Lightning Full node više ne mora biti složen zadatak ograničen na tehničke stručnjake. Tradicionalno, postavljanje i upravljanje čvorovima zahtevalo je duboko poznavanje kriptografije, umrežavanja i razvoja softvera. Nakamochi to menja tako što čini čvorove dostupnim svima, bez obzira na tehničku pozadinu.
+
+
+Sa Nakamochijem, svako može postaviti i upravljati čvorom od kuće, omogućavajući potpunu privatnost i finansijsku nezavisnost. Pokretanje Full node ne samo da osigurava vaše sopstvene transakcije već i doprinosi snazi Bitcoin mreže. Decentralizovana i otporna Bitcoin mreža oslanja se na široku distribuciju čvorova kako bi osigurala svoju sigurnost i nezavisnost.
+
+
+### Sadržaj
+
+
+
+- Šta je Nakamochi i kako funkcioniše?
+- Postavljanje Nakamochi
+- O Lightning Network
+- Otvaranje kanala i obavljanje transakcija u Lightning Network
+
+
+
+## Šta je Nakamochi i kako funkcioniše?
+
+
+Nakamochi je Bitcoin-samo Full node koji podržava obe Bitcoin i Lightning mreže. Uključuje integrisani Bitcoin i Lightning Wallet, omogućavajući korisnicima da pokreću siguran, samostalni Bitcoin čvor dok imaju koristi od brzine i niskih troškova transakcija Lightning Network.
+
+
+Vaš Nakamochi čvor se upravlja putem mobilne aplikacije, [BitBanana (Android)](https://bitbanana.app) i [Zeus (iOS)](https://bitbanana.app), omogućavajući vam da ga kontrolišete praktično sa bilo kog mesta. Ove aplikacije deluju kao daljinski upravljač za vaš čvor, omogućavajući vam da plaćate direktno sa Bitcoin ili Lightning, upravljate transakcijama, otvarate ili zatvarate kanale, proveravate stanja i pratite performanse vašeg čvora, sve sa lakoćom.
+
+
+
+## Postavljanje Nakamochi-ja traje samo 5 minuta
+
+
+### Korak 1: Priključite i počnite
+
+
+1. Povežite Nakamochi na struju i Wi-Fi.
+
+2. Kliknite na **"Setup New Wallet"** i sigurno sačuvajte svoju frazu za oporavak od 24 reči.
+
+3. Koristite aplikaciju za upravljanje čvorovima (Zeus ili BitBanana) da se povežete sa svojim Nakamochijem:
+
+4. Otvorite aplikaciju i skenirajte QR kod prikazan na vašem Nakamochi-ju.
+
+5. Za dodatnu sigurnost, postavite PIN kod na svoj uređaj.
+
+
+![image](assets/en/01.webp)
+
+_Povežite se na napajanje i zapišite svoju seed frazu od 24 reči_
+
+
+![image](assets/en/02.webp)
+
+_Sačekaj dok Blockchain ne sustigne_
+
+
+![image](assets/en/03.webp)
+
+_Postavite novi Wallet u Lightning Tab_
+
+
+![image](assets/en/04.webp)
+
+_Skeniraj QR kod pomoću aplikacije za upravljanje čvorovima_
+
+
+![image](assets/en/05.webp)
+
+_Za dodatnu sigurnost postavite PIN kod_
+
+
+**Napomena:** _Dozvolite da se vaš Nakamochi čvor sinhronizuje sa Blockchain. Ovaj proces može potrajati u zavisnosti od vaše internet konekcije._
+
+
+
+## O Lightning Network
+
+
+Bitcoin Lightning Network revolucioniše Bitcoin transakcije čineći ih bržim, jeftinijim i efikasnijim. Savršen je za svakodnevnu upotrebu, omogućavajući skoro trenutna plaćanja sa minimalnim naknadama, idealan za mikrotransakcije poput kupovine kafe ili obavljanja čestih malih kupovina.
+
+Rukovanjem off-chain, Lightning je dizajniran da se skalira, podržavajući hiljade transakcija u sekundi bez preopterećenja glavnog Bitcoin Blockchain. Ovo ga čini ključnim igračem u evoluciji Bitcoin u praktičan, globalni platni sistem.
+
+Privatnost je još jedna prednost, jer se transakcije na Lightning-u usmeravaju kroz privatne kanale plaćanja umesto da budu direktno zabeležene na Blockchain. Ovo obezbeđuje diskretniji način transakcije uz održavanje robusne sigurnosti Bitcoin.
+
+
+
+#### Kanali Plaćanja Objašnjeni
+
+
+Lightning Network radi kroz kanale plaćanja, koji su veze između dve strane koje omogućavaju više transakcija bez direktne interakcije sa Blockchain. Kada je kanal otvoren, saldo između dve strane se ažurira na ovom drugom-Layer Lightning rešenju za svaku transakciju, osiguravajući brza, niskotroškovna plaćanja. Samo otvaranje i zatvaranje kanala se beleži On-Chain, smanjujući zagušenje na Bitcoin Blockchain. Ovaj dizajn osigurava skalabilnost i privatnost, jer pojedinačne transakcije ostaju nezabeležene na javnom Ledger.
+
+
+**Primer:** Alisa i Bob otvaraju kanal tako što mu pridružuju Bitcoin. Alisa šalje bitkoine Bobu, i njihovi off-chain saldi se ažuriraju trenutno bez On-Chain zapisa. Ako Alisa zatim plati Čarliju, a Alisa nema direktan kanal do Čarlija, uplata se može usmeriti kroz Bobov kanal da bi stigla do Čarlija. Usmeravanje kroz posredničke čvorove omogućava plaćanja čak i bez direktnih veza, čineći mrežu veoma efikasnom.
+
+
+
+## Otvaranje kanala i obavljanje transakcija u Lightning Network
+
+
+Kada je vaš Nakamochi postavljen i povezan sa aplikacijom za upravljanje čvorovima, možete početi koristiti Lightning Network otvaranjem kanala i obavljanjem transakcija.
+
+
+### Otvaranje kanala na Zeus (iOS):
+
+
+1. Idite na karticu **„Kanali“** (donji meni).
+
+2. Kliknite na **„+“** da otvorite novi kanal.
+
+3. Skenirajte ili unesite javni ključ čvora sa kojim želite da se povežete.
+
+4. Unesite zaključani iznos (dogovorite se sa svojim partnerom ili koristite minimalni fiksni iznos za poznate čvorove).
+
+5. Kliknite na **„Open Channel“**.
+
+
+![image](assets/en/06.webp)
+
+_ZEUS Screenshot_
+
+
+Za više informacija: [Channels | Zeus Documentation](https://docs.zeusln.app/)
+
+
+### Otvaranje kanala na BitBanana (Android):
+
+
+1. Otvorite meni (levo).
+
+2. Idite na **„Channels“**.
+
+3. Kliknite na **“+”** da dodate/otvorite novi kanal.
+
+4. Skenirajte ili nalepite javni ključ.
+
+5. Unesite zaključani iznos (dogovorite se sa svojim partnerom ili koristite minimalni fiksni iznos za poznate čvorove).
+
+
+![image](assets/en/07.webp)
+
+_Snimak ekrana Bitbanana_
+
+
+Za više informacija: [BitBanana](https://bitbanana.com)
+
+
+Kada je vaš kanal otvoren, plaćanja se mogu usmeravati kroz njega ka drugim učesnicima u mreži. Stanja se prilagođavaju off-chain, osiguravajući da su transakcije gotovo trenutne i da imaju minimalne naknade.
+
+Ako vam kanal više nije potreban, možete ga zatvoriti. Ova akcija rešava konačno stanje između vas i vašeg partnera i beleži ga On-Chain. Idealno je da se obe strane slože i budu online za „kooperativno zatvaranje“ (brže i sa manje naknada u odnosu na „prisilno zatvaranje“ sa nereagujućim/van mreže partnerom).
+
+Generalno, preporučujemo ostavljanje kanala otvorenim kako biste smanjili troškove i povećali pouzdanost i efikasnost mreže. Držanjem kanala otvorenim, minimizirate On-Chain naknade za transakcije, izbegavate zastoje zbog ponovnog povezivanja kanala i održavate stabilan kapacitet rutiranja za nesmetanu obradu plaćanja. Ovaj pristup podstiče robusnu i otpornu mrežu dok poboljšava ukupno korisničko iskustvo i smanjuje operativne troškove.
+
+
+
+### Korisni linkovi
+
+
+
+- [O Nakamochi](https://nakamochi.io/)
+- [Pretplatite se na Nakamochijev bilten](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

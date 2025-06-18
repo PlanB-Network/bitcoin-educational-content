@@ -14,7 +14,7 @@ I denne veiledningen viser vi deg hvordan du enkelt kan bidra til oversettelsen 
 
 For å oversette det pedagogiske innholdet bruker vi [kunstig intelligens] (https://github.com/Asi0Flammeus/LLM-Translator). For å rette opp eventuelle feil i disse filene inviterer vi korrekturlesere til å bidra. Hvis du ønsker å korrekturlese noe av innholdet, kan du se følgende veiledning:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Hvis du derimot er interessert i å oversette de statiske elementene på nettstedet (unntatt pedagogisk innhold), har du kommet til rett sted! For å oversette frontend på en effektiv måte bruker vi Weblate-verktøyet, som er veldig enkelt å bruke og gjør det lettere å oversette.
 
 Hvis du ønsker å legge til et helt nytt språk i Plan ₿ Network, må du kontakte Plan ₿ Network-teamet via vår [Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har telegram, kan du sende en e-post til mari@planb.network. Husk å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
@@ -23,7 +23,7 @@ Teammedlemmene våre vil gi deg spesifikke instruksjoner og åpne relaterte "iss
 
 Før du følger denne spesifikke veiledningen for å legge til et nytt språk i Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiledningen og gå gjennom følgende punkter.
 
 ## Registrer deg på Weblate

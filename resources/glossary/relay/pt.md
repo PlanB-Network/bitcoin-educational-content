@@ -1,0 +1,5 @@
+---
+term: RELAIS
+---
+
+No contexto do Proof-of-Work na rede Bitcoin, significa uma ferramenta cuja principal função é transmitir novos blocos válidos que tenham sido encontrados. É por vezes feita uma distinção entre o papel do Miner, que intervém em todo o processo Proof-of-Work, desde a construção do bloco candidato até à difusão do bloco validado, e o papel do chopper, que se limita a participar no hashing de um bloco sem intervir na sua seleção ou difusão. O papel de retransmissor, por outro lado, consiste em distribuir os novos blocos encontrados por um chopper. No caso dos pools Mining, este papel de retransmissor é desempenhado pelo próprio pool. É este papel que confere ao pool um grande poder sobre os choppers individuais. O termo "relayer" também pode se referir à pessoa ou entidade que opera um relay.

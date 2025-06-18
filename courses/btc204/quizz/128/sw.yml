@@ -1,0 +1,10 @@
+question: Je, ni matumizi gani ya Smart contract katika mali ya siri Exchange?
+answer: Kufichua habari kwa wakati mmoja na kwa utaratibu kuruhusu pande zote mbili kupata pesa za wengine.
+wrong_answers:
+  - Hakikisha usiri kwa kusimba maelezo ya mali ili ni mpokeaji halali pekee anayeweza kusimbua.
+  - Amilisha mchakato wa uhamishaji ili kupunguza mwingiliano wa wanadamu na kupunguza makosa.
+  - Kuwezesha utatuzi wa migogoro kwa kushikilia bitcoins za pande zote mbili katika kesi ya majaribio ya kudanganya.
+explanation: |
+  Ili kuwezesha kubadilishana kati ya vyama ambavyo haviaminiani, mifumo ya Smart contract hutumiwa. Smart contract ni programu ambayo hutekeleza kiotomati wakati hali zilizoainishwa zinatimizwa, ambayo, kwa upande wetu, inahakikisha kuwa mali ya Exchange inafanywa kiotomatiki bila kuhitaji uaminifu wa pande zote. Smart contract inaruhusu ufunuo wa wakati mmoja wa vipande viwili vya habari nyeti kati ya washiriki. Labda itatekelezwa kama kawaida, na kila mhusika huchukua pesa za mwingine, au itashindikana, na kila mtu atahifadhi pesa zake asili.
+  
+reviewed: false

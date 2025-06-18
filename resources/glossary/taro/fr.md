@@ -2,6 +2,4 @@
 term: TARO
 ---
 
-Ancien nom du protocole Taproot Assets Protocol. 
-
-
+Ancien nom du protocole Taproot Assets Protocol.

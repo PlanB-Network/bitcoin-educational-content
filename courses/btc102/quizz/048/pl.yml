@@ -1,0 +1,9 @@
+question: Jaka strategia inwestycyjna jest głównie wykorzystywana przez układacza?
+answer: Uśrednianie kosztów w dolarach
+wrong_answers:
+  - Handel dzienny
+  - Arbitraż
+  - Ryczałt
+explanation: |
+  DCA obejmuje regularne inwestowanie stałej kwoty w celu zmniejszenia wpływu zmienności rynku na portfel.
+reviewed: false

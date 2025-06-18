@@ -1,0 +1,13 @@
+question: تراکنش Bitcoin چیست؟
+answer: انتقال Ownership بیت‌کوین‌ها، با استفاده از رمزنگاری.
+wrong_answers:
+  - یک Exchange فیزیکی از بیت‌کوین‌ها، با استفاده از یک دفتر اسناد رسمی.
+  - انتقال Ownership بیت‌کوین‌ها، با استفاده از یک Address فیزیکی.
+  - انتقال Ownership بیت‌کوین‌ها، با استفاده از ایمیل Address.
+explanation: |
+  یک تراکنش Bitcoin انتقال دیجیتالی
+  Ownership بیت‌کوین‌ها است، از طریق استفاده از یک Bitcoin Address
+  که به لطف رمزنگاری منحنی بیضوی به دست آمده است.
+  این Address منحصر به Wallet شخص دریافت‌کننده
+  بیت‌کوین‌ها است.
+reviewed: true

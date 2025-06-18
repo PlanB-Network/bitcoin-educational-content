@@ -1,0 +1,9 @@
+question: जून 2011 में Bitcoin का सबसे ऊँचा भाव क्या था?
+answer: 32 डॉलर
+wrong_answers:
+  - ₹1
+  - ३ डॉलर
+  - ८ डॉलर
+explanation: |
+  8 जून को, Mt. Gox पर Bitcoin की कीमत $32 के ऐतिहासिक उच्च स्तर पर पहुँच गई। हालाँकि, उसके बाद यह तेजी से गिर गई।
+reviewed: false

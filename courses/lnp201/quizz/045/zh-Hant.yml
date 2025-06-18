@@ -1,0 +1,9 @@
+question: LNURL-withdraw 功能可讓使用者做什麼？
+answer: 透過掃描 QR 代碼從服務提取資金
+wrong_answers:
+  - 直接付款無須路由費
+  - 無需密碼即可連接他們的 Lightning Wallet
+  - 未經收款人確認即發送資金
+explanation: |
+  LNURL-withdraw 可讓使用者透過掃描 QR 代碼從服務中提款，從而簡化提款程序。
+reviewed: false

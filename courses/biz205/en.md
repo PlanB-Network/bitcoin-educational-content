@@ -31,7 +31,7 @@ Note: this course is no longer available for purchase, and the 2025 BizSchool ed
 <chapterId>c4fa94b9-b7e9-4186-8ed4-0db329d7afd1</chapterId>
 
 
-![Video](https://youtu.be/8OrIOik0rjM)
+:::video id=d4f63391-3df7-472d-a3fa-083647d323c9:::
 
 Welcome to this introductory lecture on the Plan ₿ Biz School. In this session, Giacomo walks us through their journey from a traditional fiat job to becoming a leader in the Bitcoin space, and the exciting educational initiatives we will explore throughout this course.
 
@@ -64,9 +64,9 @@ This lecture sets the stage for a deeper dive into Bitcoin's transformative pote
 ## Discovery Of Money
 <chapterId>a0332295-e5e3-4b98-b68c-2ab193e9d0c4</chapterId>
 
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/CnSwXsNO-kE)
+:::video id=14ac3978-1796-4bb3-9a5a-315cfe7ab844:::
 
 ### Understanding money and Bitcoin: principles and perspectives
 
@@ -155,9 +155,9 @@ In this chapter, we have explored the evolution of money, from its classical fun
 ## Corruption Of Money
 <chapterId>06c2ceba-5e5f-47d4-b8b5-fe5880309caa</chapterId>
 
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/EZEHfr_1-qA)
+:::video id=a21dbb01-01be-492f-a076-dd53e3d9e000:::
 
 ### Introduction to the corruption of money
 
@@ -223,9 +223,9 @@ The corruption of money through inflation, seigniorage, and fractional reserve b
 ## Before Satoshi
 <chapterId>d63c2767-f695-42fd-b543-0a9570ac36ea</chapterId>
 
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/GhDAOEZn3s0)
+:::video id=876655e3-a88f-4721-8401-dba913c720d8:::
 
 ### The evolution of cryptography and its role in Bitcoin
 
@@ -288,9 +288,9 @@ Before Satoshi Nakamoto, technologies like cryptographic signatures, proof-of-wo
 ## After Satoshi
 <chapterId>2df55019-e885-40d3-8d68-f90cf8fb96f8</chapterId>
 
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/83k4E-NnCb4)
+:::video id=9a8dcd11-1ca1-4980-a571-5adf9a40d5ed:::
 
 ### The impact of Bitcoin post Satoshi
 
@@ -360,9 +360,9 @@ The period after Satoshi Nakamoto’s disappearance saw rapid developments in th
 ## Basic
 <chapterId>e05c3cb9-bb26-42d5-8869-09a1704f9494</chapterId>
 
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
-![video replay](https://youtu.be/bsBE-EweqT0)
+:::video id=0ec9c975-3d44-4d08-a1f0-18dcc5ff45f3:::
 
 Let’s begin this session by exploring the foundational aspects of Bitcoin.
 
@@ -433,9 +433,9 @@ This concludes the lecture on Bitcoin’s essential knowledge, key management, w
 ## Intermediate
 <chapterId>d7443eed-a7f6-49e7-a325-88b49301feb8</chapterId>
 
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
-![video replay](https://youtu.be/mnDRVQ8hcUU)
+:::video id=13490b9a-f4a0-4f38-bb18-78db480e6a2a:::
 
 ### Lecture on Bitcoin node setup and multisig configuration
 
@@ -519,9 +519,9 @@ This session is designed to be both instructional and interactive, with ample op
 
 
 <releasePlace>Lugano, Switzerland</releasePlace>
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/P2-7cDNrq9Q)
+:::video id=3a775e45-6325-45bb-8e56-ba25b625b345:::
 
 ### Introduction to Bitcoin maximalism
 
@@ -572,9 +572,9 @@ Bitcoin Maximalism is based on the belief that Bitcoin, with its decentralized, 
 ## Bitcoin Criticisms
 <chapterId>d7b07f7e-c11a-4df0-95a2-b01a9af59203</chapterId>
 
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/TKW7GeJg4lY)
+:::video id=c2d5d713-944b-4c85-9776-1f2abd21ce11:::
 
 ### Introduction to the criticism of Bitcoin
 
@@ -633,9 +633,9 @@ Bitcoin faces a broad range of criticism, but many of them are based on misunder
 ## Bitcoin Business Models
 <chapterId>d9cb5bb0-0dd0-46cf-87ba-f48be4cd6543</chapterId>
 
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/vCcnpe5FWNk)
+:::video id=b0fdbdbc-55a7-4ca2-a6c2-443c82663e7a:::
 
 The course began with a focus on the foundational concepts of Bitcoin through the modules "Why Bitcoin," "How Bitcoin," and "Bitcoin Myth Debunked." These modules provided a strong theoretical and practical understanding of Bitcoin, exploring the key mechanisms that make it function and debunking common misconceptions about the technology.
 
@@ -687,9 +687,9 @@ As we move forward, it’s important for students to critically assess the use o
 ## Business Projects Assignment
 <chapterId>430067ff-f833-48bb-9598-b2b57a1e0e1b</chapterId>
 
-<professor>old-uncle</professor>
+<professorId>dac3b166-31ef-41f3-bfef-6e9d3855c12c</professorId>
 
-![video replay](https://youtu.be/8KmhuHqbreo)
+:::video id=ba5f2686-02b9-4a0f-bdc4-677fe6e70e4a:::
 
 Welcome, to this comprehensive lecture for Business Projects Module. Today, we will delve into three primary themes: assignment Guidelines and Group Formation, Case Studies and Company Involvement, and Sustainable Energy and Bitcoin Mining. These sections are designed to provide essential insights to guide you through your assignments and projects.
 
@@ -709,9 +709,9 @@ These themes were part of the nominations for Biz School 2024, and while we enco
 ## Mining And Energy
 <chapterId>5249658c-4449-4e91-9d2f-7f64b75b1c6d</chapterId>
 
-<professor>melody-spark</professor>
+<professorId>7f947a09-128b-43bb-8964-87d082955f9d</professorId>
 
-![video replay](https://youtu.be/BDeWbWJp5Dw)
+:::video id=c320e9bb-ecf5-4fdd-895d-21ff080c1a98:::
 
 The Bitcoin ecosystem operates at the intersection of mining, energy consumption, and economic models, creating a dynamic and evolving landscape. As Bitcoin has grown in prominence, so too has the scrutiny on the environmental and economic implications of its mining process. The following discussion delves into the key aspects of Bitcoin mining, from the energy demands and technological advancements, to the business models that sustain it, offering a comprehensive look at the factors that shape its role in the global economy.
 
@@ -766,7 +766,7 @@ The Bitcoin ecosystem is deeply intertwined with mining, energy, and economics: 
 <chapterId>b1c9e58e-3d1c-42c5-bcdc-ba62ce462795</chapterId>
 
 
-![video replay](https://youtu.be/gRFiMrOeG5U)
+:::video id=20fc8bc3-2455-4c55-9a85-120ba7a5fd00:::
 
 ### The Lightning network: enhancing Bitcoin's scalability
 
@@ -828,9 +828,9 @@ Bitcoin, as both a protocol and an asset, continues to evolve within the framewo
 ## Bitcoin Market Cycles
 <chapterId>76cfdee0-9968-48d0-9301-6fd6c33bc68a</chapterId>
 
-<professor>crystal-blade</professor>
+<professorId>72192d93-c570-4e0e-a3a4-5db6afde73ea</professorId>
 
-![video replay](https://youtu.be/OD0__M63Ccw)
+:::video id=64790418-6667-4807-be54-a690ad564584:::
 
 ### Introduction to Bitcoin's investment dynamics
 
@@ -885,9 +885,9 @@ In summary, understanding Bitcoin's investment dynamics, market influences, and 
 ## Bitcoin Legal Frameworks
 <chapterId>8ff9c748-c12d-434d-99d8-c98715e9d160</chapterId>
 
-<professor>soldier-attitude</professor>
+<professorId>3e7b3804-cd43-4a65-a280-b1030c023358</professorId>
 
-![video replay](https://youtu.be/Bf05Nw89qtM)
+:::video id=395e024b-5a17-4b02-9f6a-b9e7a20a4010:::
 
 ### Introduction to Bitcoin legal frameworks
 
@@ -952,9 +952,9 @@ The legal status of Bitcoin remains fluid, with evolving interpretations and reg
 ## Bitcoin Entrepreneurship
 <chapterId>8fac3c37-6215-40e0-9920-6698e0981898</chapterId>
 
-<professor>rabbit-hole</professor>
+<professorId>2e1b5182-567e-453a-af29-36009340ff02</professorId>
 
-![video replay](https://youtu.be/ePhqCCWfoGE)
+:::video id=6156f0be-54da-4c4b-bb50-b6e3899f8f09:::
 
 ### Introduction
 
@@ -1055,10 +1055,10 @@ Bitcoin entrepreneurship is about more than creating a profitable business; it's
 ## Cybersecurity And FLOSS Practices
 <chapterId>ef9b48f5-9609-4865-8669-723868c7006d</chapterId>
 
-<professor>quick-shade</professor>
-<professor>iron-dream</professor>
+<professorId>9599c4e8-91af-405d-9798-bb46357fc548</professorId>
+<professorId>d097844f-d3a8-4b8b-9fe9-7de4f70ad6b7</professorId>
 
-![video replay](https://youtu.be/OZHCjky5f2w)
+:::video id=a4fc6a92-464f-4864-9a15-6992c2ecc3b1:::
 
 ### Introduction
 
@@ -1154,7 +1154,7 @@ Stay tuned—more details coming soon!
 
 https://planb.network/en/courses/c762773a-9017-4129-bc0e-06adf86050ef
 
-# Conclusion
+# Final Section
 <partId>891d2578-3bba-4be4-9ace-e480265a0800</partId>
 
 ## Evaluate this course

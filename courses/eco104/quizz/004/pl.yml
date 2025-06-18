@@ -1,0 +1,11 @@
+question: Jaki jest jeden z powodów, dla których waluta fiducjarna prowadzi do scentralizowanej kontroli?
+answer: Pozwala rządom kontrolować Supply i stopy procentowe.
+wrong_answers:
+  - Jest on zabezpieczony fizycznymi towarami, takimi jak złoto i srebro.
+  - Jest odporny na inflację.
+  - Zachęca do zdecentralizowanych systemów finansowych.
+explanation: |
+  Waluta fiat daje rządom prawo do kontrolowania Supply i stóp procentowych
+  stopy procentowe, pozwalając im wpływać na działalność gospodarczą i skutkując scentralizowaną kontrolą
+  w scentralizowanej kontroli.
+reviewed: true

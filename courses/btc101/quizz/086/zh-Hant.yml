@@ -1,0 +1,13 @@
+question: 什麼是 Cold Wallet？
+answer: Wallet 是一個實體裝置，用來儲存您的鑰匙，而且不連線至網際網路。
+wrong_answers:
+  - 可觸摸的 Wallet 是物理上的 Cold。
+  - 不受 Bitcoin 使用者歡迎的 Wallet。
+  - 建議用來儲存少量比特幣的 Wallet。
+explanation: |
+  Cold Wallet 是用來描述 Bitcoin Wallet 的術語。
+  儲存在未連接網際網路的裝置上。
+  網路。這使其不易受到線上威脅、
+  但這也意味著 Wallet 在日常交易中較難存取。
+  日常交易。
+reviewed: true

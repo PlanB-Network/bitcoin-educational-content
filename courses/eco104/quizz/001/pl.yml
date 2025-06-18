@@ -1,0 +1,11 @@
+question: Które z poniższych są niezbędne do udanej transakcji w systemie barterowym?
+answer: Podwójna zbieżność pragnień
+wrong_answers:
+  - Wspólna jednostka rozliczeniowa
+  - Centralny organ bankowy
+  - Wymóg minimalnego salda
+explanation: |
+  W systemie barterowym transakcje odbywają się bezpośrednio między dwiema stronami wymieniającymi towary lub
+  usługi bez użycia pieniędzy. Udana transakcja wymaga podwójnego zbiegu
+  pragnień, co oznacza, że obie strony muszą mieć coś, co druga strona chce wymienić.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Który indeks reprezentuje zewnętrzny łańcuch konta w ścieżce derywacji?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Łańcuch zewnętrzny jest identyfikowany przez indeks /0/ na głębokości 4 ścieżki wyprowadzania.
+reviewed: false

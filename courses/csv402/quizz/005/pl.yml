@@ -1,0 +1,9 @@
+question: Jaka metoda jest używana w RGB do definiowania Single-Use Seal?
+answer: Określony punkt wyjścia
+wrong_answers:
+  - Określony klucz publiczny
+  - Określony Bitcoin Address
+  - Połączenie kilku UTXO
+explanation: |
+  RGB definiuje Single-Use Seal jako określony punkt wyjścia, który może być następnie zamknięty przez wydatek tego punktu wyjścia (txid + numer wyjścia).
+reviewed: false

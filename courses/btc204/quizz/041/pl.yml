@@ -1,0 +1,9 @@
+question: Jaka jest główna wada bankomatów (ATM)?
+answer: Często bardzo wysokie opłaty.
+wrong_answers:
+  - Potrzeba szybkiego połączenia internetowego.
+  - Brak wsparcia dla walut lokalnych.
+  - Bezpieczeństwo transakcji nie jest gwarantowane.
+explanation: |
+  Kupowanie bitcoinów za pośrednictwem bankomatów jest interesującym rozwiązaniem dla prywatności użytkowników, ale ich główną wadą jest to, że często pobierają wygórowane opłaty.
+reviewed: false

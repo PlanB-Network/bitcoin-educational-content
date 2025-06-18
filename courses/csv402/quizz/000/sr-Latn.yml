@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija Blockchain u Client-side Validation paradigmi koju koristi RGB?
+answer: Obezbedite vremensko označavanje i sprečite dvostruko trošenje
+wrong_answers:
+  - Skladišti sve tranzicije stanja
+  - Replikacija Smart contract podataka
+  - Garantovati globalnu dostupnost podataka
+explanation: |
+  Bitcoin Blockchain se koristi u RGB za vremensko označavanje obaveza i sprečavanje Double-spending, bez čuvanja svih prelaza stanja.
+reviewed: false

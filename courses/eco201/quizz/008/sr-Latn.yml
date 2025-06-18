@@ -1,0 +1,9 @@
+question: Šta je Kantijonov efekat?
+answer: Cantillonov efekat odnosi se na ekonomski princip da kada se stvara novi novac, on u početku koristi onima koji su najbliži izvoru novca, na štetu onih koji su dalje.
+wrong_answers:
+  - Cantillonov efekat odnosi se na ekonomski princip da kada se stvara novi novac, on jednako koristi svima u ekonomiji.
+  - Cantillonov efekat odnosi se na ekonomski princip da kada se stvara novi novac, on u početku koristi onima koji su najudaljeniji od izvora novca, na štetu onih koji su bliže.
+  - Cantillonov efekat odnosi se na ekonomski princip da kada se stvori novi novac, on nema uticaja na raspodelu bogatstva u ekonomiji.
+explanation: |
+  Cantillonov efekat, nazvan po ekonomisti iz 18. veka Richardu Cantillonu, opisuje kako distribucija novog novca u ekonomiji može dovesti do nejednakosti u bogatstvu. Oni koji su najbliži izvoru novog novca (kao što su bankari i vlasnici imovine) imaju koristi prvi i najznačajnije, dok oni koji su dalje (kao što su prosečni radnici i štediše) vide manje koristi ili čak negativne efekte zbog inflacije.
+reviewed: true

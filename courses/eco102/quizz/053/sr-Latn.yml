@@ -1,0 +1,9 @@
+question: Koji ekonomski koncept Bastiat ističe u svojoj analizi troškova uništenja?
+answer: Trošak propuštene prilike
+wrong_answers:
+  - Granični trošak
+  - Marginalna produktivnost
+  - Troškovi proizvodnje
+explanation: |
+  Bastiat naglašava važnost oportunitetnog troška, ilustrujući da su resursi korišćeni za popravku uništenja mogli biti iskorišćeni za stvaranje bogatstva negde drugde.
+reviewed: false

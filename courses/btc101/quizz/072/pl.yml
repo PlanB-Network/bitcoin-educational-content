@@ -1,0 +1,12 @@
+question: Jakie są trzy główne funkcje Bitcoin Wallet?
+answer: Odbieranie bitcoinów, wysyłanie bitcoinów, zabezpieczanie ich przed próbami włamania i kradzieży.
+wrong_answers:
+  - Przechowywanie bitcoinów, wysyłanie bitcoinów, zabezpieczanie ich przed próbami włamania i kradzieży.
+  - Zezwalaj na otrzymywanie bitcoinów, przechowuj bitcoiny, zabezpieczaj je przed próbami włamania i kradzieży.
+  - Zezwalaj na otrzymywanie bitcoinów, zezwalaj na wysyłanie bitcoinów, sprzedawaj bitcoiny.
+explanation: |
+  Bitcoin Wallet jest używany do interakcji z siecią Bitcoin
+  sieć. Jego trzy główne funkcje to umożliwienie odbierania
+  bitcoinów, wysyłanie bitcoinów i zabezpieczanie ich przed
+  próbami włamań i kradzieży.
+reviewed: true

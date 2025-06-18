@@ -1,0 +1,9 @@
+question: Co należy wziąć pod uwagę przy wyborze platformy lub brokera do zakupu Bitcoin dla firmy?
+answer: Reputacja dostawcy, środki bezpieczeństwa i możliwość eksportowania historii transakcji do celów księgowych.
+wrong_answers:
+  - Zapewnienie, że platforma obsługuje tylko niejasne kryptowaluty.
+  - Znalezienie dostawcy, który odmawia jakiejkolwiek obsługi klienta.
+  - Korzystanie z usługi, która zabrania wycofywania Bitcoin do Wallet z własnym depozytem.
+explanation: |
+  Niezawodna platforma powinna mieć solidną reputację, dobre zabezpieczenia i narzędzia do prowadzenia dokumentacji. Zdolność do wycofania Bitcoin i integracji z oprogramowaniem księgowym jest również kluczowa dla operacji biznesowych.
+reviewed: false

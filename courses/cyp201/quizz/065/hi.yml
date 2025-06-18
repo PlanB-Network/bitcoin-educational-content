@@ -1,0 +1,9 @@
+question: एक नॉर्मल चाइल्ड की और एक हार्डेंड चाइल्ड की में क्या अंतर है?
+answer: एक कठोर (hardened) चाइल्ड की (child key) को उसके डेरिवेशन (derivation) के लिए पैरेंट प्राइवेट की (parent private key) की जरूरत होती है।
+wrong_answers:
+  - एक सामान्य चाइल्ड की (child key) पब्लिक कीज़ (public keys) से नहीं बन सकती।
+  - एक कठोर बच्चे की कुंजी एक विषम सूचकांक का उपयोग करती है।
+  - एक सामान्य चाइल्ड की (child key) ज्यादा सुरक्षित होती है बजाय एक हार्डन्ड चाइल्ड की (hardened child key) के।
+explanation: |
+  एक साधारण चाइल्ड की (child key) को पैरेंट पब्लिक की (parent public key) से निकाला जा सकता है, जबकि हार्डेंड चाइल्ड की (hardened child key) के लिए पैरेंट प्राइवेट की (parent private key) की जरूरत पड़ती है।
+reviewed: false

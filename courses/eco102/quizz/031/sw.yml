@@ -1,0 +1,9 @@
+question: Je, Rousseau anasema nini kuhusu mabadiliko ya mtu binafsi kuwa raia?
+answer: Tunaanza tu kuwa wanaume baada ya kuwa raia
+wrong_answers:
+  - Tunaanza tu kuwa raia na Contract
+  - Tunakuwa raia tu baada ya kuwa sawa
+  - Kuwa raia hutangulia uraia
+explanation: |
+  Rousseau anadai kwamba mtu anakuwa binadamu kamili kwa kupitia hatua ya kuwa raia, hivyo kuunganisha utimilifu wa kibinafsi na ushirikiano wa kijamii.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je glavna prednost korišćenja softvera otvorenog koda?
+answer: Omogućava proveru da nema skrivenog pristupa za krađu vaših ličnih podataka.
+wrong_answers:
+  - Uvek je besplatno.
+  - Uvek je bezbedniji od softvera zatvorenog koda.
+  - Uvek je više prilagođen korisniku nego softver zatvorenog koda.
+explanation: |
+  Softver otvorenog koda je softver čiji je kod poznat i dostupan svima. Ovo omogućava, između ostalog, proveru da nema skrivenog pristupa za krađu vaših ličnih podataka. Međutim, nije uvek besplatan, sigurniji ili korisnički prijatniji od softvera zatvorenog koda.
+reviewed: true

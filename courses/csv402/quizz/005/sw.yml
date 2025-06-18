@@ -1,0 +1,9 @@
+question: Ni njia gani inatumika katika RGB kufafanua Single-Use Seal?
+answer: Mtazamo maalum
+wrong_answers:
+  - Ufunguo maalum wa umma
+  - Bitcoin Address maalum
+  - Mchanganyiko wa UTXO kadhaa
+explanation: |
+  RGB inafafanua Single-Use Seal kama njia maalum, ambayo inaweza kufungwa na matumizi ya sehemu hii (txid + nambari ya pato).
+reviewed: false

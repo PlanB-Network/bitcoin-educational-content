@@ -1,0 +1,13 @@
+question: Kwa nini ni salama zaidi kutumia watoa huduma za sehemu za kufikia za Wi-Fi za Ulaya, kama vile SNCF?
+answer: Hawafai kuuza tena data ya muunganisho wa mtumiaji, kutokana na kanuni za GDPR.
+wrong_answers:
+  - Wanatoa kasi ya kasi ya mtandao ikilinganishwa na watoa huduma wa Marekani.
+  - Mara nyingi huruhusu watumiaji kupita vikwazo vya kijiografia.
+  - Wanazuia matangazo ya mtandaoni ikiwa umetambuliwa kama raia wa Uropa.
+explanation: |
+  Katika Umoja wa Ulaya, ulinzi wa data unadhibitiwa na
+  Udhibiti wa Jumla wa Ulinzi wa Data (GDPR). Kwa hiyo,
+  Watoa huduma za sehemu za kufikia za Wi-Fi za Ulaya, kama vile SNCF, hawafanyi hivyo
+  kuuza tena data ya muunganisho wa mtumiaji, na kuifanya kuwa salama zaidi kutumia kutoka
+  mtazamo wa faragha wa kibinafsi.
+reviewed: true

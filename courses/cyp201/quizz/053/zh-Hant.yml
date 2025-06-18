@@ -1,0 +1,9 @@
+question: 如果您遺失了與 HD Wallet 相關聯的 passphrase，會發生什麼情況？
+answer: 您會失去存取連結至 Wallet 的 bitcoins 的權限
+wrong_answers:
+  - 您仍可單獨使用 Mnemonic 語句存取 Wallet
+  - 您可以聯絡 Bitcoin 支援人員重設 passphrase
+  - 您只會損失未確認的交易
+explanation: |
+  passphrase 是鑰匙推導過程中的重要組成部分。沒有它，就無法重新製造金鑰，也就無法存取比特幣。
+reviewed: false

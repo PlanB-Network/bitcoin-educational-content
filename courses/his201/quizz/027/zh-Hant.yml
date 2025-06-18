@@ -1,0 +1,9 @@
+question: 2009 年 1 月，哪份英國報紙的標題被列入 Bitcoin Genesis 區塊？
+answer: 泰晤士報
+wrong_answers:
+  - 衛報
+  - 獨立報
+  - 每日電訊報
+explanation: |
+  準確的標題是 The Times 03/Jan/2009 Chancellor on brink of second bailout for banks。
+reviewed: false

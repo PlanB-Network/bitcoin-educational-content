@@ -1,0 +1,8 @@
+question: 根據 Bastiat，真正團結的主要特徵是什麼？
+answer: 這是自願的，並非法律強制
+wrong_answers:
+  - 經費來自稅收
+  - 這是為了滿足集體需求而強加的
+  - 由國家監管以防止濫用
+explanation: |
+  對 Bastiat 來說，真正的團結只能來自自願的 Commitment，不受任何法律義務的約束。

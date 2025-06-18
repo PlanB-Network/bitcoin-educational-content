@@ -1,0 +1,49 @@
+# generate a random uuid v4
+id: 5dba9b01-7c15-40cb-a470-06baa228ac64
+
+# Complete name of the content
+# with year to avoid duplication
+name: Adopting Bitcoin 2021
+
+# Year-Month
+# Define when was the conference
+# format: YYYY-MM
+year: 2021-11
+
+# Associate to a project
+# copy here the id of the project that organizes this conference
+project_id: ccaacfff-12c3-4b5c-80f8-0f077422d62b
+
+# Conference Location
+# format: Town, Country
+location: San Salvador, El Salvador
+
+# Conference Language
+# the main language(s) spoken during the conference
+# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+language:
+  - en
+  - es
+
+# links
+# list releated online presence like twitter and/or website
+links:
+  website: https://adoptingbitcoin.org
+  twitter: https://twitter.com/AdoptingBTC
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: YYYY-MM-DD
+    urgency: # leave as empty
+    contributor_names:
+      - author_github_username #insert your github username
+    reward: # leave as empty
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - adoption
+  - lightning

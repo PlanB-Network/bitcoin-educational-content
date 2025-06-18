@@ -1,0 +1,12 @@
+question: 強大驗證的最佳安全性有哪些建議作法？
+answer: 使用安全的電子郵件 Address、安全的密碼管理器，並使用 YubiKeys 採用 2FA。
+wrong_answers:
+  - 所有帳號使用共通密碼，並避免使用 2FA
+  - 使用簡單的密碼，並依賴生物特徵資料進行 2FA
+  - 使用安全的電子郵件 Address，但避免使用密碼管理器和 2FA
+explanation: |
+  為了獲得最佳的安全性，建議使用安全的
+  電子郵件 Address、安全密碼管理器，並採用 2FA
+  使用 YubiKeys。此外，建議您購買兩個
+  YubiKeys 可預防遺失或遭竊。
+reviewed: true

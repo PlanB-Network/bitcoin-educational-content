@@ -1,0 +1,10 @@
+question: Co to jest Bitcoin otrzymujący Address?
+answer: Ciąg znaków używany do odbierania bitcoinów.
+wrong_answers:
+  - Kod używany do wysyłania bitcoinów.
+  - Algorytm dla bitcoinów Mining.
+  - Smart contract.
+explanation: |
+  Odbierający Address służy do odbierania bitcoinów do Wallet.
+  
+reviewed: false

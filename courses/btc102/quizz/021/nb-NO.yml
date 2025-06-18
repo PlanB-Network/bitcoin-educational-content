@@ -1,11 +1,9 @@
-question: Hva er en av de vanlige feilene nybegynnere gjør når de går inn i verdenen av Bitcoin?
-answer: Overinvestering
+question: Hva er Bitcoins viktigste politiske implikasjoner?
+answer: Redusere statens kontroll over pengene
 wrong_answers:
-  - Underinvestering
-  - Å investere kun i Bitcoin
-  - Å ikke investere i Bitcoin i det hele tatt
+  - Økende sentralisering av bankvesenet
+  - Fremme inflasjon
+  - Styrking av finansregelverket
 explanation: |
-  En av de vanlige feilene nybegynnere gjør når de går inn i
-  verdenen av Bitcoin er overinvestering, som betyr å investere mer penger enn de har
-  råd til å tape. Dette kan føre til økonomiske problemer hvis verdien av Bitcoin synker.
+  Bitcoin er et alternativ som svekker statsinstitusjonenes makt over pengene gjennom seigniorage og transaksjonssensur.
 reviewed: false

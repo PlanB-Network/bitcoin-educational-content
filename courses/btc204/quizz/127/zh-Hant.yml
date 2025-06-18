@@ -1,0 +1,10 @@
+question: 在隱私權方面，貨幣交換和原子交換的主要缺點是什麼？
+answer: 他們不會破壞所交換錢幣的歷史
+wrong_answers:
+  - 交易費用非常昂貴
+  - 它們要求各方之間的個人資訊為 Exchange
+  - 它們可以接受 Exchange 平台的分析
+explanation: |
+  這些方法的主要缺點是，如果不使用額外的技術來破壞硬幣的歷史，風險非常大。
+  
+reviewed: false

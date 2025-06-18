@@ -4,8 +4,7 @@ category: on-chain
 
 level: advanced
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 # Proofreading metadata
 project_id: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
 original_language: fr
@@ -81,13 +80,36 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.78
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 3.85
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.66
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.85
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.85
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.85
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.78
 tags:
   - privacy
   - wallets

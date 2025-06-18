@@ -1,0 +1,12 @@
+question: Koji je jedan metod za dugoročno osiguranje vaših bitkoina?
+answer: Ugravirajte vašu Mnemonic frazu na otporan materijal poput čelika.
+wrong_answers:
+  - Skladištenje u Hot Wallet.
+  - Čuvajući ih na Exchange platformi.
+  - Deljenje vaše Mnemonic fraze sa kolegom.
+explanation: |
+  Urezivanje vaše Mnemonic fraze na otporan materijal kao što je
+  čelik stvara fizičku rezervnu kopiju vaših ključeva koja je
+  otporna na oštećenja od vode i vatru, čime dugoročno
+  osiguravate vaše bitkoine.
+reviewed: true

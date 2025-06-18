@@ -1,0 +1,9 @@
+question: Ni nyongeza gani katika msimu wa joto wa 2010 iliruhusu uma za Soft katika Bitcoin baadaye?
+answer: Misimbo ya uendeshaji ya OP_NOP
+wrong_answers:
+  - Mfumo wa tahadhari
+  - Kikomo cha ukubwa wa block
+  - Umbizo la kawaida la muamala
+explanation: |
+  Haya yalikuwa maagizo ya no-op ambayo hayakubatilisha hati ikiwa yatatekelezwa. Wamewezesha kuongezwa kwa OP_CHECKLOCKTIMEVERIFY na OP_CHECKSEQUENCEVERIFY kwenye itifaki mwaka wa 2015/2016.
+reviewed: false

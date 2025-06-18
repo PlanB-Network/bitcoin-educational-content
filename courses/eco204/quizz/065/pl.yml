@@ -1,0 +1,11 @@
+question: Jaka jest główna idea stojąca za koncepcją wartości pieniądza w czasie?
+answer: Czas ma wartość
+wrong_answers:
+  - Pieniądze z czasem tracą na wartości
+  - Pieniądze można wymienić na czas
+  - Czas można wymienić na pieniądze
+explanation: |
+  Głównym założeniem koncepcji wartości pieniądza w czasie jest to, że
+  czas ma wartość. Jeśli ktoś zdecyduje się zapłacić weksel o wartości 100 USD z miesięcznym wyprzedzeniem,
+  może uzyskać go za, na przykład, 98 USD i otrzymać 100 USD w terminie płatności.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Ni nini motisha mojawapo nyuma ya matumizi ya nishati ya Bitcoin kupitia Mining?
+answer: Kutoa utaratibu wenye nguvu wa ulinzi dhidi ya serikali kuu
+wrong_answers:
+  - Kufanya Bitcoin kuwa ghali zaidi kutumia
+  - Kupunguza thamani yake kwa kuongeza gharama za nishati
+  - Ili kuwakatisha tamaa watumiaji wapya kujiunga na mtandao
+explanation: |
+  Moja ya sababu Bitcoin hutumia nishati kupitia Mining ni
+  kutoa utaratibu wenye nguvu wa ulinzi dhidi ya serikali kuu na
+  ghiliba isivyostahili. Mtandao uliosambazwa wa wachimbaji husaidia kuzuia
+  huluki zilizowekwa kati kutokana na kushirikisha mtandao au kudhibiti sheria kwa niaba yao.
+reviewed: true

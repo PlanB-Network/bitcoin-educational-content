@@ -1,0 +1,12 @@
+question: W jaki sposób stablecoiny, takie jak USDt, osiągają względną stabilność wartości?
+answer: Są one powiązane ze stabilnym aktywem lub walutą.
+wrong_answers:
+  - Są one wspierane przez władze centralne lub rząd.
+  - Polegają one na technologii Blockchain dla bezpiecznych transakcji.
+  - Podlegają one wahaniom podobnym do innych kryptowalut.
+explanation: |
+  Stablecoiny utrzymują względną stabilność wartości dzięki powiązaniu
+  z bardziej stabilnym aktywem lub walutą, taką jak dolar amerykański lub złoto.
+  To powiązanie pomaga złagodzić zmienność często związaną z innymi aktywami cyfrowymi, takimi jak
+  aktywami cyfrowymi, takimi jak Bitcoin.
+reviewed: true

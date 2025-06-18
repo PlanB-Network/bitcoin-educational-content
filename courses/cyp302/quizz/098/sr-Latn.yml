@@ -1,0 +1,9 @@
+question: Kako MAC pomaže u sprečavanju manipulacije porukom od strane napadača?
+answer: Omogućavajući proveru da primljena poruka nije izmenjena
+wrong_answers:
+  - Sprečavanjem napada tipa brute-force
+  - Sakrivanjem sadržaja poruke
+  - Automatskim blokiranjem sumnjivih poruka
+explanation: |
+  MAC omogućava primaocu da verifikuje da poruka nije izmenjena putem oznake generisane sa deljenim tajnim ključem, što ograničava mogućnosti manipulacije.
+reviewed: false

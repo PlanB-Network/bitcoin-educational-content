@@ -1,0 +1,10 @@
+question: Koja je uloga javnog ključa u Bitcoin Wallet?
+answer: Koristi se za generate Bitcoin adrese i tako prima novac.
+wrong_answers:
+  - Koristi se za šifrovanje Bitcoin transakcija.
+  - Koristi se za pristup Bitcoin Wallet.
+  - Koristi se za pravljenje rezervne kopije Bitcoin Wallet.
+explanation: |
+  Javni ključ se izvodi iz privatnog ključa i koristi se
+  za generate Bitcoin adrese kako bi se primio novac.
+reviewed: true

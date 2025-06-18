@@ -1,0 +1,12 @@
+question: Koji je jedan alat za prihvatanje Bitcoin za velike organizacije ili strastvene entuzijaste Bitcoin?
+answer: BTCpay Server.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server je alat za prihvatanje Bitcoin za velike
+  strukture ili strastvene bitkoinere. Druga rešenja
+  uključuju OpenNode za jednostavne online biznise i Swiss
+  Bitcoin Pay za amaterske trgovce.
+reviewed: true

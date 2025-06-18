@@ -1,0 +1,13 @@
+question: Je, ni shida gani ya mfungwa katika muktadha wa mgawanyo wa kazi?
+answer: Ni hali ambapo ushirikiano wa pande zote husababisha faida ndogo kwa watu binafsi lakini faida kubwa zaidi kwa kikundi.
+wrong_answers:
+  - Ni hali ambapo watu binafsi hukataa kushirikiana, na kusababisha faida kubwa kwa kikundi.
+  - Ni hali ambapo watu binafsi hushirikiana, na hivyo kusababisha faida kubwa kwao wenyewe lakini faida ndogo kwa kikundi.
+  - Ni hali ambapo watu binafsi hukataa kushirikiana, na hivyo kusababisha faida ndogo kwao na kwa kikundi.
+explanation: |
+  Mtanziko wa mfungwa ni dhana katika nadharia ya mchezo ambapo
+  watu binafsi wana motisha ya kuchagua mikakati hiyo
+  kuongeza faida yao binafsi, bila kujali
+  mikakati iliyochaguliwa na wengine, hata kama inafaa zaidi
+  usawa kupitia uratibu/ushirikiano unawezekana.
+reviewed: true

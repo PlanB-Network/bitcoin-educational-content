@@ -1,0 +1,12 @@
+question: Jaka jest główna zaleta walut fiducjarnych?
+answer: Są one łatwo podzielne.
+wrong_answers:
+  - Są one kontrolowane przez partię centralną.
+  - Nie są one łatwe w transporcie.
+  - Są one skuteczne w utrzymywaniu wartości w czasie.
+explanation: |
+  Waluty fiducjarne, takie jak dolar i euro, są bardzo
+  Liquid i łatwe w transporcie, ponieważ są teraz w większości
+  cyfrowe. Jednak ich wartość jest stale obniżana przez inflację monetarną
+  inflację monetarną.
+reviewed: true

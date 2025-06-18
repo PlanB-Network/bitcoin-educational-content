@@ -1,0 +1,11 @@
+question: Ko je bila prva osoba koja se pridružila Bitcoin mreži nakon Satoshi Nakamoto?
+answer: Hal Finney.
+wrong_answers:
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
+explanation: |
+  Hal Finney je bio prva osoba koja se pridružila Bitcoin mreži
+  nakon Satoshi Nakamota samog. Čak je tvitovao Running
+  Bitcoin kako bi obeležio tu priliku.
+reviewed: true

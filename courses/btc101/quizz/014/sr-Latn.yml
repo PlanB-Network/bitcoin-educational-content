@@ -1,0 +1,9 @@
+question: Šta je bio projekat DigiCash?
+answer: Pokušaj kreiranja anonimnog elektronskog novca od strane Davida Chauma.
+wrong_answers:
+  - Projekat za kreiranje digitalnog Wallet za Bitcoin.
+  - Pokušaj digitalizacije sve fizičke gotovine od strane Federalnih rezervi.
+  - Projekat za kreiranje kriptovalute zasnovane na Bitcoin.
+explanation: |
+  David Chaum je uveo koncept anonimnog elektronskog novca sa svojim projektom DigiCash 1980-ih.
+reviewed: true

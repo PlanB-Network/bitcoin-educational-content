@@ -1,0 +1,9 @@
+question: Je, ni matokeo gani ya moja kwa moja ya sera ya kiwango cha chini cha riba inayofanywa na benki kuu kulingana na Bastiat?
+answer: Kuongezeka kwa uwekezaji hatari na ukosefu wa utulivu wa kifedha
+wrong_answers:
+  - Kuongezeka kwa uwezo wa ununuzi wa madarasa ya kazi
+  - Kupungua kwa gharama ya bidhaa za walaji
+  - Kupungua kwa usawa wa kijamii
+explanation: |
+  Bastiat anakosoa sera ya kiwango cha chini cha riba kutokana na athari zake mbaya kwa uthabiti wa kifedha, ambayo inahimiza uwekezaji hatari na uvumi, kwa madhara kwa uchumi mzuri.
+reviewed: false

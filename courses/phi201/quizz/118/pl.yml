@@ -1,0 +1,9 @@
+question: Kto zaproponował ideę konkurencji między prywatnymi walutami?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek zaproponował ideę konkurencji między prywatnymi walutami, aby zmniejszyć wpływ rządów na walutę i zachęcić do stabilności monetarnej opartej na rynku, a nie na scentralizowanej polityce.
+reviewed: false

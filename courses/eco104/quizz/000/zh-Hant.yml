@@ -1,0 +1,10 @@
+question: 以下哪項不是貨幣的三個基本功能之一？
+answer: 能量來源
+wrong_answers:
+  - 價值儲存
+  - Exchange 的介質
+  - 會計單位
+explanation: |
+  貨幣的三個基本功能是儲值、Exchange 媒介、
+  和記帳單位。能量來源不是金錢的功能。
+reviewed: true

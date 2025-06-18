@@ -1,0 +1,9 @@
+question: Jaką postawę powinni przyjąć użytkownicy w odniesieniu do prywatności ich komunikacji w nowoczesnym środowisku?
+answer: Załóżmy, że ktoś zawsze słucha
+wrong_answers:
+  - Poleganie wyłącznie na Wi-Fi
+  - Przekonanie, że dane mobilne są całkowicie bezpieczne
+  - Używaj tylko połączeń przewodowych
+explanation: |
+  W świecie, w którym wiele kanałów komunikacji jest podatnych na przechwycenie, rozsądnie jest założyć, że strona trzecia może podsłuchiwać, co czyni kryptografię niezbędną.
+reviewed: false

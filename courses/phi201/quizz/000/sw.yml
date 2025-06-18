@@ -1,0 +1,9 @@
+question: Ni nini madhumuni ya kozi hii?
+answer: Yote ya hapo juu
+wrong_answers:
+  - Jifunze matukio ya kihistoria ambayo yameashiria mapambano ya uhuru
+  - Elewa uhusiano kati ya mawazo na matukio ili kutenda vyema leo
+  - Fafanua dhana za kifalsafa zinazohusiana na uhuru
+explanation: |
+  Madhumuni ya kozi hii ni mengi: inalenga kusoma matukio ya kihistoria yenye ushawishi katika mapambano ya uhuru, kuchambua uhusiano kati ya mawazo na matukio ili kuangaza matendo yetu ya sasa, na kufafanua dhana za kifalsafa zinazohusiana na uhuru.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co robi węzeł wysyłający, gdy trasa płatności nie powiedzie się z powodu niewystarczającej płynności?
+answer: Próbuje innej trasy, dopóki nie znajdzie funkcjonalnej
+wrong_answers:
+  - Automatycznie wysyła żądanie zwrotu pieniędzy do odbiorcy
+  - Zamyka kanał i tworzy nowy kanał bezpośredni
+  - Prosi węzły pośredniczące o zwiększenie płynności
+explanation: |
+  Gdy trasa nie powiedzie się, węzeł wysyłający próbuje innych alternatywnych tras, aż do znalezienia funkcjonalnej ścieżki lub wyczerpania wszystkich opcji.
+reviewed: false

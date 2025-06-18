@@ -1,0 +1,9 @@
+question: Koje komponente sadrži RGB Consignment koje Bob (primalac) dobija za Contract?
+answer: Genesis, Schema, Interface i Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Tranzicija i Ekstenzija
+  - Schema, Interface, Signature and PSBT
+  - Genesis, Interface, PSBT i History
+explanation: |
+  Consignment od RGB Contract uključuje Genesis, Schema, Interface i Interface Implementation, koji pružaju sve potrebne podatke za validaciju Contract.
+reviewed: false

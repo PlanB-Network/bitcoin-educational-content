@@ -1,0 +1,8 @@
+question: 在 Bitcoin Mining 中，能量消耗的意義何在？
+answer: 產生資訊必須耗費能源，但驗證資訊的成本卻微乎其微。這種不對稱性保證了網路的安全性。
+wrong_answers:
+  - 在 Mining 中使用的 ASIC 機器的能源成本是必要的，而且資訊的驗證也有很高的成本。
+  - 能源支出是維護 Bitcoin 網路所必須的，而資訊的驗證也有可變成本。
+  - 創造新的 bitcoins 不需要能源成本。
+explanation: >-
+reviewed: false

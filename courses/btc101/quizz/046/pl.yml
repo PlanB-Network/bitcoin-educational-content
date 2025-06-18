@@ -1,0 +1,13 @@
+question: Jaki jest potencjalny wpływ obecnego systemu finansowego na aktorów politycznych?
+answer: Nie są oni zachęcani do wprowadzania radykalnych zmian, co pozwala systemowi kontynuować swój bieg aż do możliwej implozji.
+wrong_answers:
+  - Są zachęcani do wprowadzania radykalnych zmian, aby zapobiec możliwej implozji.
+  - Nie mają oni motywacji do utrzymywania status quo w celu zapewnienia sobie bogactwa.
+  - Są zachęcani do myślenia długoterminowego.
+explanation: |
+  Ponieważ podmioty polityczne czerpią korzyści z obecnego
+  nie mają motywacji do wprowadzania radykalnych zmian.
+  Pozwala to systemowi kontynuować swój kurs aż do możliwej implozji
+  możliwej implozji, ponieważ system jest regulowany i
+  regulowany i ograniczany, aby uniknąć własnego upadku.
+reviewed: true

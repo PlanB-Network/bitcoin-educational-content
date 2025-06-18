@@ -1,0 +1,10 @@
+question: Co duży anonset wskazuje na prywatność UTXO?
+answer: Zwiększona prywatność.
+wrong_answers:
+  - Ograniczona prywatność.
+  - Lepsza identyfikowalność.
+  - Większa szybkość transakcji CoinJoin.
+explanation: |
+  Duży anonset wskazuje na wysoki poziom anonimowości, ponieważ trudno jest odróżnić konkretny UTXO w jednorodnym zbiorze.
+  
+reviewed: false

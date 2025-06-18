@@ -1,0 +1,9 @@
+question: Jaki jest według Keynesa główny problem ze standardem złota?
+answer: Ogranicza zdolność rządu do finansowania swoich wydatków
+wrong_answers:
+  - Promuje inflację
+  - Utrudnia to handel międzynarodowy
+  - Wszystkie pozostałe odpowiedzi są poprawne.
+explanation: |
+  Keynes uważał, że standard złota ograniczał zdolność rządu do dostosowywania Supply, uniemożliwiając mu łatwe finansowanie wydatków, zwłaszcza podczas kryzysów gospodarczych.
+reviewed: false

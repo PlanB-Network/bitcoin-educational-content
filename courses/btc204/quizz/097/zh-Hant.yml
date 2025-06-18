@@ -1,0 +1,10 @@
+question: 大的 anonset 對 UTXO 的隱私有什麼影響？
+answer: 改善隱私。
+wrong_answers:
+  - 減少隱私。
+  - 改善可追蹤性。
+  - 更快的 CoinJoin 交易速度。
+explanation: |
+  大的 anonset 表示匿名程度很高，因為很難在同質集合中區分出特定的 UTXO。
+  
+reviewed: false

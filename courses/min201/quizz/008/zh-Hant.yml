@@ -1,0 +1,13 @@
+question: 就 Bitcoin Mining 而言，ASIC 的主要優勢是什麼？
+answer: 它們可以非常有效率地執行一種特定類型的計算
+wrong_answers:
+  - 它們可以執行多種不同類型的計算
+  - 耗電量比 CPU 少
+  - 它們比 CPU 更便宜
+explanation: |
+  ASIC 是一種晶片，可與 CPU 晶片媲美，但它們
+  是為了執行一種特定類型的
+  以最有效率的方式進行計算。在這種情況下
+  的 Bitcoin ASIC，它們是專為計算
+  SHA256 演算法。
+reviewed: true

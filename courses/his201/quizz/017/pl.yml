@@ -1,0 +1,9 @@
+question: Gdzie Nick Szabo po raz pierwszy zaprezentował swoją koncepcję bit gold w 1998 roku?
+answer: Lista mailingowa libtech-l
+wrong_answers:
+  - Lista mailingowa cypherpunks
+  - Lista mailingowa Cryptography
+  - Lista mailingowa extropians
+explanation: |
+  Była to jego prywatna lista mailingowa, na której znajdowali się cypherpunks tacy jak Wei Dai i Hal Finney oraz ekonomiści tacy jak Larry White i George Selgin.
+reviewed: false

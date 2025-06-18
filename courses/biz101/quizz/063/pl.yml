@@ -1,0 +1,9 @@
+question: Który scenariusz najlepiej ilustruje wykorzystanie profilu Essential dla płatności Bitcoin?
+answer: Restauracja akceptująca kilka płatności Bitcoin miesięcznie
+wrong_answers:
+  - Międzynarodowa korporacja przetwarzająca tysiące transakcji dziennie
+  - Niezależny freelancer, który akceptuje płatności za swoje faktury w bitcoinach
+  - Dział transakcji wysokiej częstotliwości Bitcoin
+explanation: |
+  Profil Essential jest przeznaczony dla małych i średnich firm z niewielką liczbą transakcji Bitcoin, takich jak restauracje.
+reviewed: false

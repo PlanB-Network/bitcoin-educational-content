@@ -1,0 +1,9 @@
+question: Tangu kuundwa kwake, ni asilimia ngapi ya muda mtandao wa Bitcoin umekuwa ukifanya kazi?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  Upatikanaji mtandaoni wa Bitcoin ni 99.988% tangu 2009.
+reviewed: true

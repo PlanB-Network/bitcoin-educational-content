@@ -1,0 +1,9 @@
+question: Który model transakcji unieważnia użycie CIOH?
+answer: Transakcja oparta na współpracy.
+wrong_answers:
+  - Prosta płatność.
+  - Konsolidacja.
+  - Zamiatanie.
+explanation: |
+  CIOH nie ma zastosowania do transakcji, które przyjmują model współpracy, ponieważ w tym konkretnym przypadku dane wejściowe muszą pochodzić od różnych podmiotów.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki jest główny cel teorii liczb?
+answer: Badanie właściwości liczb całkowitych i funkcji, które na nich działają
+wrong_answers:
+  - Analiza przekształceń geometrycznych
+  - Badanie struktury losowych figur geometrycznych w grupie skończonej
+  - Opracowanie algorytmów szyfrowania symetrycznego
+explanation: |
+  Teoria liczb skupia się na właściwościach liczb całkowitych i funkcjach stosowanych do liczb całkowitych, często do zastosowań w kryptografii, zwłaszcza w kontekście kryptografii klucza publicznego.
+reviewed: false

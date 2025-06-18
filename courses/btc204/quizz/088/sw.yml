@@ -1,0 +1,10 @@
+question: Je, Wabisabi anatumia mkakati gani kuongeza hali ya kutoelewana kwa washiriki?
+answer: Pamoja na shughuli chache kubwa sana.
+wrong_answers:
+  - Pamoja na shughuli nyingi ndogo sana.
+  - Pamoja na shughuli moja ndogo.
+  - Bila miamala.
+explanation: |
+  Ili kuongeza arifa za washiriki, Wabisabi hutumia miamala mikubwa sana ya CoinJoin inayokusanya pamoja makumi ya washiriki.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Šta se dešava ako napadač presretne šifrovanu poruku u dobrom simetričnom šifarskom sistemu?
+answer: Oni ne bi trebalo da saznaju ništa značajno o originalnoj poruci.
+wrong_answers:
+  - Oni uvek mogu dešifrovati poruku bez ključa
+  - Oni bi trebalo da budu u mogućnosti da dešifruju to javnim ključem
+  - Oni bi trebalo da mogu da pogode sadržaj poruke
+explanation: |
+  U dobro dizajniranom simetričnom šifarskom sistemu, napadač koji presretne šifrovanu poruku ne bi trebalo da bude u mogućnosti da zaključi relevantne informacije o sadržaju poruke bez ključa za dešifrovanje.
+reviewed: false

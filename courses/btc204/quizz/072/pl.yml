@@ -1,0 +1,10 @@
+question: Który model skryptu jest najbardziej zalecany w 2024 r. w celu zwiększenia prywatności w Bitcoin?
+answer: P2TR
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+explanation: |
+  Aby wtopić się w jak największy tłum, zaleca się korzystanie z najbardziej rozpowszechnionego modelu skryptu. Skrypty P2TR są obecnie najczęściej używane w transakcjach Bitcoin.
+  
+reviewed: false

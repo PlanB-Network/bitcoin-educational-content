@@ -1,0 +1,9 @@
+question: Koja je zajednička tačka koju koriste svi učesnici za izračunavanje javnog ključa u Bitcoin?
+answer: Generator tačka G
+wrong_answers:
+  - SHA256 Hash
+  - Mnemonic fraza
+  - Kompresovani javni ključ
+explanation: |
+  Tačka generatora G eliptičke krive secp256k1 koristi se za izračunavanje javnih ključeva iz privatnih ključeva.
+reviewed: false

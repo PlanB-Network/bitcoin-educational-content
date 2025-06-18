@@ -1,0 +1,9 @@
+question: Ni suluhu gani mbadala linalotajwa kwa biashara zinazopendelea mazingira ya rejareja ya mtandaoni kwa kila mtu?
+answer: Kuwa-BOP
+wrong_answers:
+  - Phoenix
+  - Fungua Node
+  - Uswisi Bitcoin Pay
+explanation: |
+  Be-BOP ni chaguo kwa wale wanaotaka duka la mtandaoni lililojumuishwa ambalo hurahisisha malipo ya Bitcoin.
+reviewed: false

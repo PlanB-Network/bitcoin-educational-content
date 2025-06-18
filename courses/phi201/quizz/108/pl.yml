@@ -1,0 +1,9 @@
+question: Jaki jest według Hayeka związek między socjalizmem a nazizmem?
+answer: Wszystkie pozostałe odpowiedzi (podzielają odrzucenie indywidualizmu, priorytetowo traktują dobro grupy, używają przymusu).
+wrong_answers:
+  - Te dwie ideologie są nie do pogodzenia.
+  - Socjalizm i nazizm są przeciwstawne w kwestiach gospodarczych.
+  - Socjalizm i nazizm nie mają ze sobą żadnego związku.
+explanation: |
+  Hayek argumentował, że socjalizm i nazizm mają wspólne cechy, takie jak odrzucenie indywidualizmu na rzecz kolektywu i stosowanie przymusu, co czyni je podobnymi w ich autorytarnych skutkach.
+reviewed: false

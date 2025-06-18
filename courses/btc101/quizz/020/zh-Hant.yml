@@ -1,0 +1,12 @@
+question: 有效貨幣的主要特徵是什麼？
+answer: Fungible, Divisible, Liquid.
+wrong_answers:
+  - 可風化、可分割、易腐敗。
+  - Fungible, Indivisible, Liquid.
+  - 不可風化、可分割、Liquid。
+explanation: |
+  一種有效的貨幣必須是可替代的（可互換而不損失價值
+  不失其價值）、可分割（可分為小部份，方便不同數量的交易
+  可分割（可分為小部分，以方便不同數量的交易），以及
+  Liquid（易於轉換成商品或服務）。
+reviewed: true

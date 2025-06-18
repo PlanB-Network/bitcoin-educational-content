@@ -1,0 +1,9 @@
+question: 透過部分 Proof of Work 來估計合作成員的 Hash 比率涉及什麼？
+answer: 擷取比散列器產生的網路難度更低的工作證明
+wrong_answers:
+  - 擷取印章的印記，包括散列器產生的每個區塊 Hash 的第一個位元組
+  - 每月檢索齋主的電費帳單
+  - 擷取在低難度網路（如 BitDNS）上產生的工作證明
+explanation: |
+  這個簡單的方法是由 ribuck、Nils Schneider 和 Gavin Andresen [在論壇上](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) 在 2010 年 10 月 14 日提出的。()
+reviewed: false

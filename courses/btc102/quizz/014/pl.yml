@@ -1,0 +1,9 @@
+question: Dlaczego zaleca się inwestowanie tylko tyle, ile można stracić?
+answer: Aby zachować bezpieczeństwo finansowe w przypadku straty
+wrong_answers:
+  - Aby szybko zmaksymalizować zyski na rynku niedźwiedzia
+  - Aby znacznie zdywersyfikować swoje inwestycje
+  - Pożyczanie w celu zwiększenia inwestycji
+explanation: |
+  Inwestowanie ponad posiadane środki (tj. ponad możliwości oszczędzania) naraża na zbyt wysokie ryzyko finansowe.
+reviewed: false

@@ -1,0 +1,10 @@
+question: 使用第三方節點有什麼風險？
+answer: 審查和監控活動。
+wrong_answers:
+  - 比特幣的損失。
+  - 交易費用增加。
+  - 竊取比特幣和追蹤。
+explanation: |
+  如果您使用不屬於您的節點，您的交易廣播就有可能被封鎖，並受到營運者的監控。
+  
+reviewed: false

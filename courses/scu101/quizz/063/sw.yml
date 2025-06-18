@@ -1,0 +1,11 @@
+question: Je, ni baadhi ya vipengele vipi vya usimbaji fiche vinavyotumika katika usalama wa mtandao?
+answer: SSL/TLS, usimbaji linganifu/asymmetric
+wrong_answers:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+explanation: |
+  Sura hiyo inaorodhesha SSL/TLS na ulinganifu/asymmetric
+  usimbaji fiche kama baadhi ya vipengele vya usimbaji fiche vinavyotumika katika
+  usalama wa mtandao.
+reviewed: true

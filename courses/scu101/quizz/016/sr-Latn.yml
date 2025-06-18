@@ -1,0 +1,11 @@
+question: Jedna od prednosti korišćenja VPN-a za pretraživanje interneta kod kuće je povećana privatnost i sigurnost.
+answer: Poboljšava bezbednost za onlajn saobraćaj smanjujući pretnju koju predstavljaju treće strane.
+wrong_answers:
+  - Može povećati osnovnu brzinu vaše internet veze.
+  - Uvek omogućava pristup većem broju veb-sajtova.
+  - Štedi potrošnju mobilnih podataka u poređenju sa situacijom kada VPN veza nije uspostavljena.
+explanation: |
+  Korišćenje VPN-a kod kuće može poboljšati sigurnost podataka
+  koje Exchange online. To je zato što VPN-ovi šifruju podatke,
+  što otežava trećim stranama da ih presretnu.
+reviewed: true

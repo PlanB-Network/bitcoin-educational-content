@@ -1,0 +1,12 @@
+question: Która z poniższych metod jest dobra i bezpieczna w uwierzytelnianiu 2FA?
+answer: Kod wygenerowany przez aplikację taką jak Google Authenticator lub Authy.
+wrong_answers:
+  - Połączenie telefoniczne lub kod SMS do posiadacza konta
+  - Wiadomość e-mail z 10-minutowym wygasającym kodem do posiadacza konta
+  - List wysłany na adres domowy posiadacza konta Address
+explanation: |
+  Drugim krokiem w 2FA może być tymczasowy kod wysłany przez
+  SMS, e-mail, kod wygenerowany przez aplikację lub
+  fizyczny klucz bezpieczeństwa. Jednak nie wszystkie z tych metod
+  pozwalają nam zachować ten sam poziom bezpieczeństwa.
+reviewed: true

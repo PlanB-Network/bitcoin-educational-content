@@ -6,6 +6,6 @@ wrong_answers:
   - È l'algoritmo utilizzato per minare i bitcoin.
 explanation: >-
   La Proof of Work è un algoritmo di consenso utilizzato nella rete Bitcoin
-  per validare le transazioni e creare nuovi blocchi. Richiede ai minatori di risolvere problemi
+  per validare le transazioni e creare nuovi blocchi. Richiede ai miner di risolvere problemi
   matematici complessi, garantendo la sicurezza e l'integrità della rete.
 reviewed: true

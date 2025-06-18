@@ -1,0 +1,10 @@
+question: Jaki jest wpływ 20% inflacji na siłę nabywczą w ciągu 3 lat?
+answer: Tracisz 50% swojej siły nabywczej.
+wrong_answers:
+  - Tracisz 100% swojej siły nabywczej.
+  - Tracisz 60% swojej siły nabywczej.
+  - Tracisz 30% swojej siły nabywczej.
+explanation: |
+  Przy 20% inflacji tracisz prawie połowę swojej siły nabywczej w ciągu 3 lat
+  w ciągu 3 lat.
+reviewed: true

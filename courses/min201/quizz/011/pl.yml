@@ -1,0 +1,12 @@
+question: Jakie są omówione strategie zwalczania centralizacji Mining w Bitcoin?
+answer: Strategie omówione w celu zwalczania centralizacji Mining w Bitcoin obejmują Home Mining, protokół Stratum V2, oprogramowanie Mining typu open-sourcing oraz dywersyfikację podmiotów i geografii.
+wrong_answers:
+  - Strategie omówione w celu zwalczania centralizacji Mining w Bitcoin obejmują zwiększenie rozmiaru bloku, wdrożenie dowodu stawki i utworzenie centralnego organu nadzorującego Mining.
+  - Strategie omówione w celu zwalczania centralizacji Mining w Bitcoin obejmują zmniejszenie Block reward, wdrożenie opłaty transakcyjnej i utworzenie podatku od Mining.
+  - Strategie omówione w celu zwalczania centralizacji Mining w Bitcoin obejmują zwiększenie trudności Mining, wdrożenie limitu Mining i utworzenie loterii Mining.
+explanation: |
+  W rozdziale omówiono kilka strategii zwalczania centralizacji Mining
+  w Bitcoin, w tym Home Mining, protokół
+  Protokół Stratum V2, oprogramowanie Mining typu open-sourcing oraz
+  dywersyfikacja podmiotów i geografii.
+reviewed: true

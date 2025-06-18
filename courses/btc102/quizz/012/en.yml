@@ -1,11 +1,9 @@
-question: What is the main reason for losing bitcoins according to the chapter?
-answer: Poor online security management
+question: What does the notion of self-custody mean in the Bitcoin world?
+answer: Keeping your private keys yourself
 wrong_answers:
-  - Cryptocurrency scams
-  - Financial scams
-  - Computer failure
+  - Entrusting your keys to a specialized exchange platform
+  - Entrusting your keys to an investment bank
+  - Keeping your public keys yourself
 explanation: |
-  The chapter mentions that in addition to cryptocurrency scams and financial
-
-  scams, the main reason for losing bitcoins is related to poor online security management.'
+  Self-custody ensures that the user maintains full control of their bitcoins through their own private keys.
 reviewed: false

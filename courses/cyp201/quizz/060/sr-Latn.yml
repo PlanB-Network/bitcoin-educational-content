@@ -1,0 +1,9 @@
+question: Kakav tip ključa je povezan sa zpub prefiksom?
+answer: Prošireni javni ključ za SegWit V0 na Mainnet
+wrong_answers:
+  - Prošireni privatni ključ za SegWit V1 na Mainnet
+  - Prošireni javni ključ za Legacy na Testnet
+  - Prošireni javni ključ za SegWit V2 na Testnet
+explanation: |
+  Prefiks zpub označava prošireni javni ključ za SegWit V0 skripte na Mainnet.
+reviewed: false

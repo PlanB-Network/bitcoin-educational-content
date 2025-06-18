@@ -1,0 +1,9 @@
+question: Czym jest podpis cyfrowy w kontekście kryptografii asymetrycznej?
+answer: Mechanizm weryfikacji autentyczności wiadomości przy użyciu klucza prywatnego
+wrong_answers:
+  - Proces silniejszego szyfrowania wiadomości
+  - Dodatkowy klucz publiczny do weryfikacji zaszyfrowanej wiadomości
+  - Cyfrowa kopia odręcznego podpisu
+explanation: |
+  Podpis cyfrowy to technika kryptograficzna, która dowodzi, że wiadomość została rzeczywiście utworzona przez właściciela odpowiedniego klucza prywatnego, zapewniając w ten sposób jej autentyczność.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Lightning Network 會建立什麼樣的網路？
+answer: 付款管道網路。
+wrong_answers:
+  - 由 Mining 節點組成的網路。
+  - 由 Blockchain 節點組成的網路。
+  - 加密貨幣交易所網絡。
+explanation: >-
+reviewed: true

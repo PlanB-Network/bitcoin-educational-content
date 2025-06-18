@@ -1,0 +1,15 @@
+question: Czym jest efekt Cantillona?
+answer: Efekt Cantillona odnosi się do zasady ekonomicznej, zgodnie z którą gdy tworzone są nowe pieniądze, początkowo przynoszą one korzyści tym, którzy znajdują się najbliżej ich źródła, kosztem tych, którzy znajdują się dalej.
+wrong_answers:
+  - Efekt Cantillona odnosi się do zasady ekonomicznej, zgodnie z którą gdy tworzone są nowe pieniądze, przynoszą one równe korzyści wszystkim w gospodarce.
+  - Efekt Cantillona odnosi się do zasady ekonomicznej, zgodnie z którą gdy tworzone są nowe pieniądze, początkowo przynoszą one korzyści tym, którzy znajdują się najdalej od źródła pieniądza, kosztem tych, którzy znajdują się bliżej.
+  - Efekt Cantillona odnosi się do zasady ekonomicznej, zgodnie z którą tworzenie nowych pieniędzy nie ma wpływu na dystrybucję bogactwa w gospodarce.
+explanation: |
+  Efekt Cantillona, nazwany na cześć XVIII-wiecznego ekonomisty
+  Richarda Cantillona, opisuje, w jaki sposób dystrybucja nowych
+  pieniędzy w gospodarce może prowadzić do nierówności majątkowych. Ci, którzy
+  najbliżej źródła nowych pieniędzy (takich jak bankierzy i właściciele aktywów)
+  właściciele aktywów) odnoszą największe i największe korzyści, podczas gdy
+  bardziej oddaleni (tacy jak przeciętni pracownicy i oszczędzający) widzą
+  mniejsze korzyści lub nawet negatywne skutki inflacji.
+reviewed: true

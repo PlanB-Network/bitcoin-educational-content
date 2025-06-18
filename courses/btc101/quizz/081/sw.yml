@@ -1,0 +1,12 @@
+question: Ni swali gani kuu la kujiuliza wakati wa kuchagua Bitcoin Wallet, katika suala la ulinzi wa kibinafsi?
+answer: Je, wewe ni mmiliki wa fedha hizo au unamwachia mtu mwingine udhibiti wa pesa zako?
+wrong_answers:
+  - Je, Wallet imelindwa na passphrase?
+  - Je, Wallet inaruhusu kupokea na kutuma bitcoins?
+  - Je, ninaweza kushiriki Wallet yangu na mtu mwingine?
+explanation: |
+  Wakati wa kuchagua Bitcoin Wallet, swali kuu ni:
+  wewe ni mmiliki wa fedha au unaacha udhibiti wa
+  pesa zako kwa mtu wa tatu? Hii ni kwa sababu mmiliki wa
+  ufunguo wa kibinafsi ni mmiliki wa Bitcoins.
+reviewed: true

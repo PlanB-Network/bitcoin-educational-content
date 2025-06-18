@@ -1,0 +1,9 @@
+question: Ikiwa muamala una UTXO 2 za 5,000 Sats kama pembejeo na UTXO 3 za 3,000 Sats kama matokeo, ni ada gani za muamala?
+answer: 1,000 Sats
+wrong_answers:
+  - 1,500 Sats
+  - 2,500 Sats
+  - 3,000 Sats
+explanation: |
+  Ada za muamala zinawakilisha tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Ni kile kinachobaki baada ya kuteketeza pembejeo zote na kuunda matokeo yote. Kwa hiyo hesabu ni; ada = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

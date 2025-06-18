@@ -1,0 +1,9 @@
+question: Je, ni mifumo gani ya kawaida ya kutoa hati iliyotambuliwa na programu mnamo Septemba 2010?
+answer: Kupokea kwa ufunguo wa umma (P2PK) na kupokelewa kwa Address (P2PKH)
+wrong_answers:
+  - Kupokea kwa Address (P2PKH) na kupokelewa kwa hati ya saini nyingi (P2MS)
+  - Kupokea kwa Address (P2PKH) na risiti kwa hati (P2SH)
+  - Kupokea kwa ufunguo wa umma (P2PK) na risiti kwa hati (P2SH)
+explanation: |
+  Hizi ndizo aina mbili zilizotumiwa tangu mwanzo wa Bitcoin. Aina ya P2MS ilifanywa kuwa ya kawaida mnamo Machi 2012. Aina ya P2SH iliongezwa kwenye itifaki mnamo Aprili 2012.
+reviewed: false

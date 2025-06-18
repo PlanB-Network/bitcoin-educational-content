@@ -1,0 +1,13 @@
+question: Jaka była rola złotników w XIII-wiecznych Włoszech?
+answer: Wystawili weksle Exchange w Exchange za zdeponowane floreny
+wrong_answers:
+  - Stworzyli pierwszą giełdę papierów wartościowych
+  - Wprowadzili koncepcję wartości pieniądza w czasie
+  - Zablokowali oni dostęp do rzeki Scheldt
+explanation: |
+  W XIII-wiecznych Włoszech złotnicy wystawiali weksle Exchange w Exchange
+  
+  za zdeponowane floreny. Floreny te były starannie przechowywane w skarbcach, tworząc
+  
+  pierwszy Layer pieniądza, podczas gdy weksle Exchange tworzyły drugi Layer"
+reviewed: false

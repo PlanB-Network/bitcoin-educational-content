@@ -1,0 +1,12 @@
+question: Je, itifaki ya Bitcoin inamzawadia vipi Miner ambaye anapata Hash halali kwa kizuizi kinachofuata?
+answer: Kwa zawadi iliyofafanuliwa na sheria za makubaliano, na pamoja na ada kutoka kwa shughuli zote zilizojumuishwa kwenye kizuizi halali.
+wrong_answers:
+  - Kwa kiasi fulani cha bitcoins ambacho hakijafafanuliwa na sheria za makubaliano.
+  - Kwa asilimia ya jumla ya Bitcoin Supply na ada kutoka kwa miamala yote iliyojumuishwa kwenye vizuizi vilivyotangulia.
+  - Pamoja na ada kutoka kwa shughuli zote zilizojumuishwa kwenye kizuizi halali.
+explanation: |
+  Itifaki ya Bitcoin humtuza Miner ambaye atapata halali
+  Hash kwa block inayofuata yenye zawadi ambayo kiasi chake ni
+  inavyofafanuliwa na sheria za makubaliano, pamoja na ada kutoka
+  shughuli zote zilizojumuishwa kwenye kizuizi halali.
+reviewed: true

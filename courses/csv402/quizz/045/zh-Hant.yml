@@ -1,0 +1,9 @@
+question: 哪個 RGB 標準用於定義可替代代幣？
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 是用來透過 RGB 通訊協定建立和管理可替代代幣的標準。
+reviewed: false

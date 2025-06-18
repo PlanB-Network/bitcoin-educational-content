@@ -1,0 +1,9 @@
+question: Diffie-Hellman key exchange का mathematical concept **discrete logarithm problem** पर आधारित है। यह एक ऐसी mathematical समस्या है जहाँ किसी finite cyclic group में, दिए गए base और result से exponent निकालना computationally मुश्किल होता है।
+answer: एक तरफ़ा फंक्शन जिसमें बैकडोर हो
+wrong_answers:
+  - एक उलटा घातांकीय फंक्शन
+  - एक क्रिप्टोग्राफिक Hash एल्गोरिदम
+  - एक सरल मॉड्यूलर डिवीजन
+explanation: |
+  डिफी-हेलमैन एक वन-वे फंक्शन पर निर्भर करता है जिसे एक दिशा में तो आसानी से कैलकुलेट किया जा सकता है, लेकिन बिना बैकडोर नामक गुप्त जानकारी के इसे उल्टा करना लगभग नामुमकिन होता है।
+reviewed: false

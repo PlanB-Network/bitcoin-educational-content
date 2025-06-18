@@ -1,0 +1,9 @@
+question: 誰在 2010 年率先使用圖形處理單元 (GPU) 實作 Mining？
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation: |
+  2010 年 4 月，他使用 OpenCL 環境讓 GPU 參與 Bitcoin Mining。5 月 10 日，他在論壇上 [發表](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) 他的執行檔。
+reviewed: false

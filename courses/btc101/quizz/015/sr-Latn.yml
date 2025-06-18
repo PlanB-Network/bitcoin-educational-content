@@ -1,0 +1,13 @@
+question: Šta je Deklaracija o nezavisnosti sajber prostora?
+answer: Tekst koji tvrdi da je sajberprostor poseban domen od fizičke sfere i da ne bi trebalo da bude podložan istim zakonima.
+wrong_answers:
+  - Izjava o nezavisnosti Bitcoin od tradicionalnih finansijskih sistema.
+  - Tekst koji tvrdi da sajber prostor treba da bude kontrolisan državnom regulativom.
+  - Izjava koja garantuje nezavisnost piratskog pokreta od bilo kakve regulative.
+explanation: |
+  Deklaracija o nezavisnosti sajberprostora je
+  napisana od strane Džona Perija Barloua 1996. godine. Ovaj dokument tvrdi
+  da je sajberprostor zasebna oblast od fizičke
+  sfere, tako da industrijske vlade ne mogu nametnuti svoju
+  vlast tamo.
+reviewed: true

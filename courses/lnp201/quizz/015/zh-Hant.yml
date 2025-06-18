@@ -1,0 +1,9 @@
+question: 閃電通道中的 Commitment Transaction 反映了什麼？
+answer: 雙方之間新的資金分配
+wrong_answers:
+  - 進行的交易總數
+  - 交易需支付的費用金額
+  - 開闢新的付款管道
+explanation: |
+  Commitment Transaction 代表每次 Lightning 交易後通道中資金的當前分佈情況，但只要通道保持開放，就不會在 Blockchain 上公佈。
+reviewed: false

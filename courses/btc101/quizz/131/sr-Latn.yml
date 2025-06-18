@@ -1,0 +1,12 @@
+question: Koja je uloga Bitcoin čvora u Bitcoin mreži?
+answer: Ona potvrđuje nove blokove i uključene transakcije.
+wrong_answers:
+  - Stvara nove Bitcoine i stavlja ih u blokove.
+  - Reguliše cenu Bitcoin.
+  - Upravlja mrežom Bitcoin.
+explanation: |
+  Čvor Bitcoin u mreži Bitcoin rukuje
+  validacijom novih blokova i uključenih transakcija. Upravo
+  ova mreža čvorova Bitcoin čini je istinski
+  decentralizovanom.
+reviewed: true

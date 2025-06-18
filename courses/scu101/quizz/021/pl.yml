@@ -1,0 +1,12 @@
+question: Jakie jest potencjalne zagrożenie związane z korzystaniem ze złamanego oprogramowania, którego nie można zaktualizować?
+answer: Pojawienie się wirusa podczas jego nielegalnego pobierania i niezabezpieczone użycie przed nowymi formami ataku.
+wrong_answers:
+  - Oprogramowanie przestanie działać po pewnym czasie.
+  - Oprogramowanie nie będzie miało żadnych nowych funkcji.
+  - Oprogramowanie będzie zużywać więcej zasobów systemowych.
+explanation: |
+  Pęknięte oprogramowanie, którego nie można zaktualizować, stanowi podwójne potencjalne zagrożenie
+  potencjalne zagrożenie. Może przenosić wirusy podczas nielegalnego
+  pobrania z podejrzanej strony internetowej i może być niezabezpieczone
+  przed nowymi formami ataku.
+reviewed: true

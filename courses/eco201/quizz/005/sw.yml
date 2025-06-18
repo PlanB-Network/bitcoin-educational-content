@@ -1,0 +1,11 @@
+question: Je, ni jukumu gani kuu la benki kuu kulingana na mafundisho ya Keynesian?
+answer: Uzalishaji na usimamizi wa pesa
+wrong_answers:
+  - Ugatuaji wa nguvu za kifedha
+  - Ukuzaji wa maono mazuri ya ukuaji na busara ya kibinadamu
+  - Hakuna kati ya zilizo hapo juu
+explanation: |
+  Sura hiyo inataja kwamba kulingana na mafundisho ya Keynesian,
+  uzalishaji na usimamizi wa fedha ni
+  wajibu wa benki kuu.
+reviewed: true

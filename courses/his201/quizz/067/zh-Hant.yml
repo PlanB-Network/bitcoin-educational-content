@@ -1,0 +1,9 @@
+question: 在社區的游說下，哪個組織於 2010 年 11 月開始接受 Bitcoin？
+answer: 電子前線基金會
+wrong_answers:
+  - 維基解密
+  - 紅十字會
+  - 國際特赦組織
+explanation: |
+  該組織於 1900 年由 Mitch Kapor、John Gilmore 和 John Perry Barlow 共同創立，旨在保護網際網路自由。它於 11 月 9 日開始接受 Bitcoin。
+reviewed: false

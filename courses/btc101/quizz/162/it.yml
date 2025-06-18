@@ -1,9 +1,9 @@
-question: Qual è il ruolo dei minatori nel protocollo Bitcoin?
-answer: Assicurano la sicurezza della rete attuale e storica.
+question: Qual è il ruolo dei miner nel protocollo Bitcoin?
+answer: Garantiscono la sicurezza della rete attuale e storica.
 wrong_answers:
-  - Regolano il prezzo del Bitcoin.
+  - Regolano il prezzo di Bitcoin.
   - Controllano l'offerta di Bitcoin.
   - Gestiscono le transazioni tra utenti.
 explanation: |
-  I minatori nel protocollo Bitcoin assicurano la sicurezza sia della rete attuale che di quella storica. Non regolano il prezzo del Bitcoin, non controllano la sua offerta, né gestiscono le transazioni tra utenti.
+  Nel protocollo Bitcoin, i miner garantiscono la sicurezza sia della rete attuale che di quella storica. Non regolano il prezzo di Bitcoin, non controllano la sua offerta, né gestiscono le transazioni tra utenti.
 reviewed: true

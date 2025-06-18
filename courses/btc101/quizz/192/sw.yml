@@ -1,0 +1,8 @@
+question: OpenNode ni nini?
+answer: Suluhisho rahisi la mtandaoni kwa biashara kukubali Bitcoin.
+wrong_answers:
+  - Aina ya nodi ya Bitcoin ambayo hutumiwa wakati huo huo na watumiaji wengi.
+  - Programu ya Bitcoin Mining ambayo ni chanzo huria.
+  - Jukwaa la Bitcoin Exchange.
+explanation: >-
+reviewed: true

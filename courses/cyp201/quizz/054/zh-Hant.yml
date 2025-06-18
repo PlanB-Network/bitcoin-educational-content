@@ -1,0 +1,9 @@
+question: passphrase 在 Bitcoin HD Wallet 中的主要作用是什麼？
+answer: 修改金鑰衍生以加強安全性
+wrong_answers:
+  - 解密待處理交易
+  - generate 和 Wallet 的 UTXOs
+  - 使用臉部 ID 保護 Wallet 存取
+explanation: |
+  passphrase 作為第二個安全因素，可更改金鑰衍生 seed，以防止在 Mnemonic 詞組被洩露時存取 Wallet。
+reviewed: false

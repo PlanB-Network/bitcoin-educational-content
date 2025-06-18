@@ -1,0 +1,9 @@
+question: 在 RGB Assignment 的情況下，何謂「Seal Definition」？
+answer: 參考 UTXO 建立 Owned State 的 Ownership
+wrong_answers:
+  - 各方之間交換的資料的組合，受 Client-side Validation 的限制
+  - 在 off-chain 可執行代碼中編譯合約
+  - State Transition 歷史的 DAG 分支
+explanation: |
+  Seal Definition" 將 UTXO 連結至 Contract State 的特定部分，保證權利或資產的正確分配。
+reviewed: false

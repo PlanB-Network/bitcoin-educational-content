@@ -1,0 +1,9 @@
+question: Jak nazywa się strona internetowa, która znacząco przyczyniła się do rozsławienia Bitcoin w lipcu 2010 roku?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  W dniu 11 lipca 2010 r. prezentacja Bitcoin napisana przez Teppy została opublikowana na tej popularnej stronie, co doprowadziło do masowego napływu użytkowników.
+reviewed: false

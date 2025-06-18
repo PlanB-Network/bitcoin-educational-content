@@ -1,0 +1,9 @@
+question: Koje alternativno rešenje za Swiss Bitcoin Pay za prihvatanje Bitcoin uplata za Essential profil je 100% skrbničko?
+answer: Otvoreni čvor
+wrong_answers:
+  - BTCPay Server
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node je karakterisan kao potpuno kustodijalno rešenje, razlikujući se od hibridne prirode Swiss Bitcoin Pay.
+reviewed: false

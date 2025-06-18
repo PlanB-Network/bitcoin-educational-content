@@ -1,0 +1,11 @@
+question: Koji je broj bloka prve Bitcoin transakcije?
+answer: Blok 170.
+wrong_answers:
+  - Blok 1.
+  - Blok 17.
+  - Blok 1700.
+explanation: |
+  Prva Bitcoin transakcija, koja je bila transakcija od
+  10 BTC između Satoshi Nakamoto i Hal Finney, zabeležena je
+  u bloku 170.
+reviewed: true

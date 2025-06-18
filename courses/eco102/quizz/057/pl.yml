@@ -1,0 +1,9 @@
+question: Jaki jest główny argument przedstawiony przez producentów świec na poparcie ich wniosku?
+answer: Potrzeba wsparcia krajowego przemysłu
+wrong_answers:
+  - Ochrona oczu
+  - Najwyższa jakość świec w porównaniu do słońca
+  - Wysoki koszt produkcji świec
+explanation: |
+  Producenci świec twierdzą, że ich żądanie jest uzasadnione potrzebą ochrony przemysłu krajowego, argumentem, którego Bastiat używa do potępienia protekcjonizmu.
+reviewed: false

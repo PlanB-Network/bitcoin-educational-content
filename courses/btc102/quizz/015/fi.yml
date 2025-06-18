@@ -1,12 +1,9 @@
-question: Mikä on salasananhallintaohjelman käytön päähyöty luvun mukaan?
-answer: Se auttaa sinua olemaan käyttämättä samaa salasanaa kahdesti
+question: Mikä järjestelmä mahdollistaa nopeat ja edulliset liiketoimet Bitcoin:lla?
+answer: Lightning Network
 wrong_answers:
-  - Se auttaa sinua muistamaan käyttäjätunnuksesi
-  - Se suojaa tietokoneesi viruksilta
-  - Se luo satunnaisia salasanoja
+  - SegWit
+  - Ripple Network
+  - RGB
 explanation: |
-  Luvun mukaan salasananhallintaohjelma auttaa sinua olemaan käyttämättä
-
-  samaa salasanaa kahdesti, valitsemaan monimutkaisia ja turvallisia salasanoja sekä helpottaa
-
-  online-turvallisuuden hallintaasi.
+  Lightning Network on toinen Layer-ratkaisu, joka mahdollistaa nopean selvityksen ja vähentää BTC-tapahtumien kustannuksia.
+reviewed: false

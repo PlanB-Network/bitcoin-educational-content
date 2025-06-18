@@ -1,0 +1,8 @@
+question: Šta je Proof of Work (POW)?
+answer: To je bezbednosni konsenzus protokola Bitcoin.
+wrong_answers:
+  - To je proces stvaranja novih bitkoina.
+  - To je metoda verifikacije Bitcoin transakcija.
+  - To je algoritam koji se koristi za rudarenje bitkoina.
+explanation: >-
+reviewed: true

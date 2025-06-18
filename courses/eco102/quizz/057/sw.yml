@@ -1,0 +1,9 @@
+question: Ni hoja gani kuu inayotolewa na watengenezaji mishumaa kuunga mkono ombi lao?
+answer: Haja ya kusaidia tasnia ya kitaifa
+wrong_answers:
+  - Kinga ya macho
+  - Ubora wa juu wa mishumaa ikilinganishwa na jua
+  - Gharama kubwa ya uzalishaji wa mishumaa
+explanation: |
+  Watengenezaji mishumaa wanadai kuwa ombi lao linahalalishwa na hitaji la kulinda tasnia ya kitaifa, hoja ambayo Bastiat hutumia kushutumu ulinzi.
+reviewed: false

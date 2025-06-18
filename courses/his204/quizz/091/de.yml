@@ -1,0 +1,8 @@
+question: Welchen berühmten Sträfling hat Condorcet verteidigt?
+answer: Der Rittmeister von Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - Der Graf von Lally
+explanation: |
+  Condorcet verteidigte den Chevalier de la Barre, einen wegen Gotteslästerung zum Tode verurteilten jungen Mann.

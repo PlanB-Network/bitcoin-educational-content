@@ -1,0 +1,9 @@
+question: 如何確保 Bitcoin 上的 UTXOs 安全？
+answer: 透過定義支出條件的腳本。
+wrong_answers:
+  - 透過礦工的定期驗證。
+  - 透過中央資料庫。
+  - 透過使用者身分驗證。
+explanation: |
+  Bitcoin 交易的輸出是UTXO，這些UTXO是用腳本來保護的。此腳本要求符合預先定義的花費條件，才能花費 UTXO。
+reviewed: false

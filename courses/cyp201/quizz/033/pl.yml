@@ -1,0 +1,9 @@
+question: Na co pozwala flaga sighash SIGHASH_NONE?
+answer: Modyfikowanie danych wyjściowych po podpisaniu
+wrong_answers:
+  - Modyfikowanie danych wejściowych po podpisaniu
+  - Obejmuje wszystkie wejścia i wyjścia
+  - Ograniczenie modyfikacji tylko do jednego wyjścia
+explanation: |
+  SIGHASH_NONE obejmuje tylko wejścia, pozostawiając wyjścia modyfikowalne po podpisaniu.
+reviewed: false

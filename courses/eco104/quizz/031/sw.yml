@@ -1,0 +1,11 @@
+question: Ni sababu gani ya msingi ya tete ya bei ya muda mfupi katika stablecoins?
+answer: Viwango vya chini vya ukwasi kwenye ubadilishaji
+wrong_answers:
+  - Ukosefu wa akiba ili kukidhi mahitaji ya uondoaji
+  - Udukuzi unaohatarisha stablecoin
+  - Kupungua kwa stablecoins
+explanation: |
+  Tete ya bei ya muda mfupi katika stablecoins mara nyingi ni matokeo
+  ya masuala ya ukwasi, ambapo ubadilishanaji mdogo unaweza kukosa uwezo
+  kukidhi mahitaji ya wateja, na kusababisha kushuka kwa bei kwa muda.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Who described Bitcoin as a Swiss bank in your pocket?
-answer: Barack Obama
+question: What storage solution is recommended for a hodler?
+answer: A hardware wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A hot wallet
+  - A custodial service
+  - A paper wallet
 explanation: |
-  The chapter mentions that Barack Obama once described Bitcoin as a Swiss
-  bank in your pocket.
+  A hodler, who holds bitcoins for the long term, should use a hardware wallet to maximize security.
 reviewed: false

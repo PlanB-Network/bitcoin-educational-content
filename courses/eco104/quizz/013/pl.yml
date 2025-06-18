@@ -1,0 +1,13 @@
+question: W jaki sposób Bitcoin przynosi korzyści osobom w krajach ogarniętych wojną lub niestabilnych?
+answer: Umożliwia przechowywanie wartości w zdecentralizowany i bezpieczny sposób, który ma większą odporność na kradzież
+wrong_answers:
+  - Umożliwia dostęp do tradycyjnych usług bankowych
+  - Zapewnia fizyczne aktywa, których wartość może wzrosnąć
+  - Zapewnia ochronę przed deflacją
+explanation: |
+  W krajach ogarniętych wojną lub niestabilnych osoby fizyczne mogą mieć trudności z
+  dostęp do tradycyjnych usług bankowych lub mogą być narażone na ryzyko kradzieży lub
+  konfiskaty aktywów fizycznych. Bitcoin umożliwia osobom fizycznym przechowywanie wartości
+  w zdecentralizowany i bezpieczny sposób bez potrzeby korzystania z pośredników
+  lub aktywów fizycznych narażonych na ryzyko, takie jak inflacja, kradzież lub konfiskata.
+reviewed: true

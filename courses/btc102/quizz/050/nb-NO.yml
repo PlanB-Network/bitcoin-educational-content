@@ -1,12 +1,9 @@
-question: Hva er hovedkarakteristikken til Bitcoin som skiller den fra andre kryptovalutaer?
-answer: Bitcoin er den eneste virkelig desentraliserte, sensurresistente, frie og seriøse kryptovalutaen
+question: Hvilken løsning anbefales for å foreta rimelige Bitcoin-betalinger?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin er den eneste kryptovalutaen som kan utvinnes
-  - Bitcoin er den eneste kryptovalutaen som kan kjøpes eller selges på børsplattformer
-  - Bitcoin er den eneste kryptovalutaen som kan lagres i en lommebok
+  - Hardware Wallet
+  - Bankkonto
+  - RGB Layer
 explanation: |
-  Kapittelinnholdet fastslår at Bitcoin er den eneste virkelig desentraliserte,
-  sensurresistente, frie og seriøse kryptovalutaen som rettferdiggjør tusenvis
-  av arbeidstimer. Dette er en nøkkelkarakteristikk som skiller Bitcoin fra andre
-  kryptovalutaer.
+  Lightning muliggjør raske og rimelige transaksjoner for daglige kjøp. Det er det ideelle verktøyet for den aktive brukeren.
 reviewed: false

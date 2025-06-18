@@ -1,0 +1,9 @@
+question: Je, mtazamo wa Bastiat ni upi kuhusu mahitaji ya watengeneza mishumaa?
+answer: Anaikataa kwa sababu inakwenda kinyume na maslahi ya jumla
+wrong_answers:
+  - Anaiunga mkono kwa sababu ni muhimu kulinda kazi
+  - Yeye hana upande wowote katika suala hili
+  - Anaamini kwamba wazalishaji wa mishumaa ni sahihi
+explanation: |
+  Bastiat anakosoa matakwa ya watengenezaji mishumaa, akisisitiza kwamba ulinzi hutumikia maslahi maalum kwa gharama ya maslahi ya jumla.
+reviewed: false

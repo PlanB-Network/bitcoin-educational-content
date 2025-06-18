@@ -1,0 +1,9 @@
+question: Je, ni ukubwa gani wa vipande vya sehemu ya binary inayotumika kuunda kila neno la Mnemonic?
+answer: 11 bits
+wrong_answers:
+  - 8 biti
+  - 16 bits
+  - 10 bits
+explanation: |
+  Kila sehemu ya biti-11 inalingana na neno kutoka kwa orodha sanifu ya maneno 2048 katika BIP39.
+reviewed: false

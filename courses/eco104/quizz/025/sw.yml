@@ -1,0 +1,13 @@
+question: Kwa nini hoja ya kwamba Bitcoin haina thamani kwa sababu haijaungwa mkono na kitu chochote na dosari?
+answer: Thamani ni ya kibinafsi na inategemea imani na uzoefu wa watu.
+wrong_answers:
+  - Bitcoin inaungwa mkono na dhahabu, ambayo inatoa thamani ya asili.
+  - Thamani ya Bitcoin inabainishwa na uhaba wake na vipengele vya usalama.
+  - Thamani ya Bitcoin inategemea kukubalika kwake na serikali na benki.
+explanation: |
+  Thamani ni ya kibinafsi na katika jicho la mtazamaji. Bitcoin ni ya thamani
+  kwa sababu watu wanaamini kuwa hivyo, kama vile sanaa inaweza kuwa ya thamani licha ya
+  ikitengenezwa kwa turubai na rangi. Hoja kwamba sarafu lazima iungwe mkono
+  kitu cha thamani si sahihi, kama thamani ya sarafu za kivita kama vile Marekani
+  dola inategemea imani na imani pia.
+reviewed: true

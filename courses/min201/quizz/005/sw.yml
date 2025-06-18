@@ -1,0 +1,14 @@
+question: Ni changamoto gani kuu kwa wataalamu katika tasnia ya Bitcoin Mining?
+answer: Kutarajia kupungua kwa ufanisi wa ufanisi katika siku zijazo na kurekebisha mikakati yao ipasavyo
+wrong_answers:
+  - Tafuta umeme wa bei nafuu
+  - Kutafuta eneo linalofaa kwa shughuli za Mining
+  - Kupata wawekezaji tayari kufadhili shughuli zao
+explanation: |
+  Inakabiliwa na maendeleo ya mara kwa mara ya kiteknolojia katika
+  Mining shamba, wataalamu lazima kimkakati nafasi
+  wenyewe. Sekta ya Mining inakabiliwa na kuendelea
+  ubunifu, na wachezaji wa tasnia lazima watarajie
+  kupungua kwa ufanisi wa faida katika siku zijazo na kurekebisha yao
+  mikakati ipasavyo.
+reviewed: true

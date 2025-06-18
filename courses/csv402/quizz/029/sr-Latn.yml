@@ -1,0 +1,9 @@
+question: Koja je glavna uloga Schema u RGB Contract?
+answer: Opišite Business Logic i strukturu podataka Contract
+wrong_answers:
+  - Definisanje Interface za RGB novčanike
+  - Upravljanje kompilacijom skripti na Blockchain
+  - Kriptografska validacija On-Chain
+explanation: |
+  Schema definiše deklarativnu strukturu, tipove podataka i pravila validacije Contract, omogućavajući vam upravljanje Business Logic na strani korisnika.
+reviewed: false

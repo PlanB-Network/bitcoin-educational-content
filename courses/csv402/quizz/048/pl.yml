@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa koncepcja stojąca za protokołem RGB?
+answer: Weryfikacja po stronie klienta za pomocą zobowiązań kryptograficznych On-Chain
+wrong_answers:
+  - Walidacja On-Chain za pomocą inteligentnych kontraktów Turing-complete
+  - Wyłączne korzystanie z niezaszyfrowanych transakcji Bitcoin
+  - Wykonanie Contract na Blockchain dedykowanym inteligentnym kontraktom
+explanation: |
+  RGB opiera się na modelu Client-side Validation, w którym zobowiązania (za pośrednictwem Taproot lub OP_RETURN) są wprowadzane On-Chain, podczas gdy większość logiki i danych jest przechowywana off-chain.
+reviewed: false

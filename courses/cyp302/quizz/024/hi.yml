@@ -1,0 +1,9 @@
+question: 42 mod 2 का मान क्या है?
+answer: ०
+wrong_answers:
+  - 1
+  - २
+  - 42
+explanation: |
+  42 को 2 से भाग देने पर शेषफल शून्य आता है, इसलिए 42 मॉड 2 बराबर है 0।
+reviewed: false

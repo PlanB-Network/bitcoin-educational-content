@@ -1,0 +1,11 @@
+question: Je, ni suluhisho gani la tatizo la Exchange moja kwa moja katika mgawanyo wa kazi?
+answer: Exchange isiyo ya moja kwa moja inayowezeshwa na pesa.
+wrong_answers:
+  - Exchange ya moja kwa moja inayowezeshwa na kubadilishana.
+  - Exchange isiyo ya moja kwa moja iliyowezeshwa na kubadilishana.
+  - Exchange ya moja kwa moja inayowezeshwa na pesa.
+explanation: |
+  Pesa inaruhusu Exchange isiyo ya moja kwa moja, ambapo mtu anaweza
+  nunua kutoka kwa mwingine, na muuzaji anaweza kutumia kitengo hicho cha fedha
+  mahali pengine, wakati mwingine, na na mtu mwingine.
+reviewed: true

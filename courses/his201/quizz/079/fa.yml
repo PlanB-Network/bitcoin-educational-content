@@ -1,0 +1,9 @@
+question: چه کسی ویکی Bitcoin.it را در دسامبر 2010 ایجاد کرد؟
+answer: مارک کارپلس (MagicalTux)
+wrong_answers:
+  - مایکل مارکوارت (Theymos)
+  - مارتتی مالمی (sirius-m)
+  - امیر تاکی (genjix)
+explanation: |
+  ایده [این بود](https: //buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) که یک ویکی کمتر رسمی و بیشتر جامعه‌محور توسعه یابد.
+reviewed: false

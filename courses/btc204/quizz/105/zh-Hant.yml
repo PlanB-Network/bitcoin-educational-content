@@ -1,0 +1,8 @@
+question: 與傳統支付交易相比，PayJoin 交易的主要優勢是什麼？
+answer: 可改善隱私
+wrong_answers:
+  - 可提高確認速度
+  - 可降低交易費用
+  - 它會誤導收件人
+explanation: |
+  PayJoin 交易透過誤導鏈分析提升利害關係人的隱私權。

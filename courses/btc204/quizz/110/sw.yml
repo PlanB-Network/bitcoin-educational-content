@@ -1,0 +1,10 @@
+question: Muamala wa Stonewall ni nini?
+answer: Muamala unaoiga mini-CoinJoin bila kuwa mmoja
+wrong_answers:
+  - Muamala wa malipo kwa njia ya mini-CoinJoin
+  - Muamala shirikishi unaohusisha washiriki watatu
+  - Muamala unaohusisha mpokeaji katika pembejeo
+explanation: |
+  Stonewall ni aina mahususi ya shughuli ya Bitcoin inayolenga kuongeza faragha ya mtumiaji wakati wa matumizi kwa kuiga mini-CoinJoin kati ya watu wawili, bila kuwa mmoja.
+  
+reviewed: false

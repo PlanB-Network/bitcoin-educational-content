@@ -1,0 +1,9 @@
+question: Koja je razlika između prirodnog prava i pozitivnog prava prema rimskom mišljenju?
+answer: Prirodni zakon je univerzalan i nepromenljiv, dok je pozitivni zakon promenljiv i zavisi od ljudskih zakona.
+wrong_answers:
+  - Prirodni zakon je zakon moćnih dok je pozitivni zakon zakon slabih.
+  - Prirodno pravo je zasnovano na religiji, dok je pozitivno pravo zasnovano na razumu.
+  - Prirodno pravo se primenjuje samo na rimske građane dok se pozitivno pravo primenjuje na sve stanovnike Carstva.
+explanation: |
+  U rimskom mišljenju, prirodni zakon se smatra univerzalnim i nepromenljivim, proističući iz nepromenljivih principa, dok je pozitivni zakon skup pravila koje su ustanovili ljudi i podložan je promenama u skladu sa društvenim i političkim kontekstima.
+reviewed: false

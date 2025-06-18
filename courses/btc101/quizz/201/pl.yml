@@ -1,0 +1,12 @@
+question: Jaki jest cel przepisów KYC?
+answer: Zwalczanie finansowania terroryzmu, uchylania się od opodatkowania i prania pieniędzy.
+wrong_answers:
+  - Aby podnieść cenę Bitcoin i zmusić użytkownika do płacenia wyższych podatków.
+  - Aby kontrolować Supply z Bitcoin.
+  - Aby uniemożliwić ludziom zakup Bitcoin.
+explanation: |
+  Tekst kursu wyjaśnia, że przepisy Know Your Customer (KYC)
+  wymagają od użytkowników podania tożsamości w celu
+  w celu zwalczania finansowania terroryzmu, uchylania się od opodatkowania i prania pieniędzy
+  prania pieniędzy.
+reviewed: true

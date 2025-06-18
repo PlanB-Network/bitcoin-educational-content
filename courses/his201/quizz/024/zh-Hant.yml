@@ -1,0 +1,9 @@
+question: 對 2008 年 11 月白皮書的發表有正面反應的個人是誰？
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  11 月 7 日，他寫信給名單，表示 Bitcoin [似乎] 是一個非常有前途的想法。其他人則持懷疑態度。(https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

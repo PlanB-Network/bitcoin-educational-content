@@ -1,0 +1,9 @@
+question: Dlaczego szyfrowanie z przesunięciem jest uważane za szyfrowanie symetryczne?
+answer: Ponieważ ten sam klucz jest używany zarówno do szyfrowania, jak i deszyfrowania
+wrong_answers:
+  - Ponieważ używa dwóch kluczy, publicznego i prywatnego
+  - Ponieważ odszyfrowuje bez użycia klucza
+  - Ponieważ klucz różni się w zależności od szyfrowania
+explanation: |
+  Szyfrowanie z przesunięciem jest uważane za szyfrowanie symetryczne, ponieważ wykorzystuje ten sam klucz do szyfrowania i odszyfrowywania wiadomości, zapewniając w ten sposób poufność między stronami dzielącymi ten klucz.
+reviewed: false

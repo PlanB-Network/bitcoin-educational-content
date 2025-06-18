@@ -1,0 +1,9 @@
+question: 瑞士 Bitcoin Pay 解決方案的哪項功能特別適合 Essential profile 中的小型企業？
+answer: 易於使用的 PoS 應用程式
+wrong_answers:
+  - 先進的多貨幣交易功能
+  - 多重簽章 Wallet 管理
+  - 完整的 Blockchain 分析整合
+explanation: |
+  Swiss Bitcoin Pay 採用簡單直接的 PoS Interface 設計，可簡化日常作業。
+reviewed: false

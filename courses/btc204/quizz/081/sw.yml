@@ -1,0 +1,10 @@
+question: Ni mbinu gani ya kriptografia inatumika kuzuia mratibu kuunganisha pembejeo na matokeo katika CoinJoin?
+answer: Chaum blind sahihi.
+wrong_answers:
+  - Saini za Schnorr.
+  - Anwani za P2SH.
+  - Anwani za P2TR.
+explanation: |
+  Katika kinachojulikana kama coinjoins za Chaumian, utumiaji wa sahihi za vipofu za Tor na David Chaum huunganishwa ili kuhakikisha kwamba mratibu hawezi kujua ni pato gani ni la mtumiaji gani.
+  
+reviewed: false

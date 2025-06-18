@@ -1,0 +1,9 @@
+question: Kako regulacija i tarife za električnu energiju utiču na Bitcoin Mining?
+answer: Regulacija i tarife za električnu energiju imaju značajan uticaj na Bitcoin Mining. Rudari stalno traže jeftinu električnu energiju kako bi maksimizirali svoj profit. Stoga, visoka cena električne energije u određenim regionima ne privlači rudare u te regione. Rudari obično gravitiraju ka regionima sa niskim tarifama za električnu energiju, često u zemljama u razvoju ili zemljama sa viškom energije.
+wrong_answers:
+  - Regulacija i tarife za električnu energiju utiču na Bitcoin Mining određivanjem tipa Mining mašina koje se mogu koristiti.
+  - Regulacija i tarife za električnu energiju utiču na Bitcoin Mining određivanjem tipa Mining softvera koji se može koristiti.
+  - Regulacija i tarife za električnu energiju utiču na Bitcoin Mining određivanjem veličine Mining pool koja se može formirati.
+explanation: |
+  Poglavlje objašnjava da regulacija i tarife za električnu energiju imaju značajan uticaj na Bitcoin Mining. Rudari stalno traže jeftinu električnu energiju kako bi maksimizirali svoj profit, i stoga imaju tendenciju da gravitiraju ka regionima sa niskim tarifama za električnu energiju.
+reviewed: true

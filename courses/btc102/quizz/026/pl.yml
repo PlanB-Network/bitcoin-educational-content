@@ -1,0 +1,9 @@
+question: Co użytkownicy muszą przechowywać, aby naprawdę posiadać swoje bitcoiny?
+answer: Klucze prywatne
+wrong_answers:
+  - Adresy odbioru
+  - Hasła platformy Exchange
+  - Bloki Blockchain
+explanation: |
+  Bez posiadania kluczy prywatnych nie jesteś właścicielem swoich bitcoinów.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koje je primarno rešenje za plaćanje preporučeno za preduzeća sa Essential profilom?
+answer: Swiss Bitcoin Pay
+wrong_answers:
+  - Otvoreni čvor
+  - BTCPay Server
+  - Bitcoinize PoS
+explanation: |
+  Ističemo Swiss Bitcoin Pay kao preporučeno rešenje za Essential profil, balansirajući jednostavnost i sigurnost.
+reviewed: false

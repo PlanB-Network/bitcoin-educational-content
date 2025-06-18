@@ -1,0 +1,9 @@
+question: Je, kiambishi awali `wpkh` kinamaanisha nini katika kifafanuzi?
+answer: Pay-to-Witness-PubKey-Hash
+wrong_answers:
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Hati ya Shahidi Hash
+explanation: |
+  Kiambishi awali `wpkh` kinaonyesha hati ya SegWit v0 kwa kutumia anwani za Pay-to-Witness-Public-Key-Hash.
+reviewed: false

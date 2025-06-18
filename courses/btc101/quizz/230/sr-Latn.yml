@@ -1,0 +1,10 @@
+question: Šta omogućava Lightning Network?
+answer: Da se obavi transakcija između pojedinaca koji nemaju direktnu kanalnu vezu.
+wrong_answers:
+  - Da kreirate direktne kanalske veze samo sa centralizovanim berzama.
+  - Da biste kreirali veze kanala koje zahtevaju višestruke potvrde za bilo koju transakciju.
+  - Da se uspostave direktne kanalske veze koje su ograničene samo na velike transakcije.
+explanation: |
+  Lightning Network omogućava transakcije između
+  pojedinaca koji nemaju direktnu kanalnu vezu.
+reviewed: true

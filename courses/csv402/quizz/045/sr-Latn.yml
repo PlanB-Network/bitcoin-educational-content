@@ -1,0 +1,9 @@
+question: Koji RGB standard se koristi za definisanje fungibilnih tokena?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 je standard koji se koristi za kreiranje i upravljanje fungibilnim tokenima preko RGB protokola.
+reviewed: false

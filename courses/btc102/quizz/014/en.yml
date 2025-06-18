@@ -1,11 +1,9 @@
-question: What is the main purpose of using tools like Signal, Tor, and ProtonMail?
-answer: To value and protect your privacy
+question: Why is it advised to invest only what you can afford to lose?
+answer: To preserve your financial security in case of loss
 wrong_answers:
-  - To speed up your internet connection
-  - To protect your computer from viruses
-  - To provide free access to paid services
+  - To maximize profits quickly in a bear market
+  - To massively diversify your investments
+  - To borrow in order to invest more
 explanation: |
-  Tools like Signal, Tor, and ProtonMail are used to value and protect
-
-  your privacy. They are part of the measures to improve online security habits.'
+  Investing beyond your means (i.e., beyond your savings capacity) exposes you to excessively high financial risks.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le but des portefeuilles Bitcoin ?
-answer: Pour envoyer et recevoir des bitcoins
+question: Lesquelles sont des sidechains de Bitcoin ?
+answer: Liquid et Rootstock
 wrong_answers:
-  - Pour miner des bitcoins
-  - Pour stocker des bitcoins physiques
-  - Pour convertir des bitcoins en d'autres devises
+  - Polygon et Arbitrum
+  - Jupiter et Fantom
+  - Bitcoin Cash et Bitcoin Satoshi Vision
 explanation: |
-  Les portefeuilles Bitcoin sont utilisés pour envoyer et recevoir des bitcoins. Ce sont des portefeuilles numériques qui stockent les informations d'identification numériques nécessaires pour accéder à une adresse Bitcoin et dépenser les bitcoins.
+  Liquid et RSK sont des sidechains qui ont un 2-way peg avec Bitcoin. Les autres propositions ne sont pas des sidechains, ou bien n'ont pas de 2WP avec la blockchain Bitcoin.
 reviewed: false

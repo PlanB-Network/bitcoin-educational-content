@@ -1,0 +1,12 @@
+question: 在 Bitcoin 網路中，Proof of Stake 的潛在威脅是什麼？
+answer: 那些已經持有大量貨幣的人擁有不成比例的權力，反映出現有的權力不平等。
+wrong_answers:
+  - 對於持有大量貨幣的驗證者來說，這將是一個很大的障礙。
+  - 它不允許小規模的參與。
+  - 它不需要有形的資源。
+explanation: |
+  在 Proof of Stake 網路中，那些已經持有大量的
+  量的貨幣擁有不成比例的權力。這
+  這種動態可能會使集中化和
+  權力集中在少數人手中。
+reviewed: true

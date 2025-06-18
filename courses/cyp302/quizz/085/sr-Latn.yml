@@ -1,0 +1,9 @@
+question: Šta je blok šifra u kriptografiji?
+answer: Algoritam koji transformiše string fiksne dužine u drugi string iste dužine
+wrong_answers:
+  - Asimetrično šifrovanje zasnovano na javnim i privatnim tajnim ključevima
+  - Sistem koji šifruje podatke promenljive dužine putem strima
+  - Enkripcija koja ne zahteva tajni ključ
+explanation: |
+  Blok šifra je algoritam koji primenjuje transformaciju na bitni niz fiksne dužine sa ključem kako bi proizveo drugi niz iste dužine.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, bendera ya sighash SIGHASH_NONE inaruhusu nini?
+answer: Kurekebisha matokeo baada ya kusaini
+wrong_answers:
+  - Kurekebisha pembejeo baada ya kusaini
+  - Kufunika pembejeo na matokeo yote
+  - Kuzuia marekebisho kwa pato moja tu
+explanation: |
+  SIGHASH_NONE inashughulikia ingizo pekee, na kuacha matokeo yaweze kurekebishwa baada ya kutia sahihi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je glavni cilj HTLC-ova u Lightning Network?
+answer: Da bi se omogućili sigurni transferi plaćanja putem posredničkih čvorova bez potrebe za poverenjem u njih
+wrong_answers:
+  - Da se smanje naknade za transakcije za svaku uplatu putem posredničkih čvorova
+  - Da se poveća kapacitet svakog platnog kanala
+  - Da se uspostave direktne veze između svih mrežnih čvorova sa njihovim poverenjem
+explanation: |
+  HTLCs (Hashed Time-Locked Contracts) osiguravaju da će svaki posrednički čvor preneti uplatu bez zadržavanja sredstava, jer ih može otključati samo dovršavanjem transakcije do krajnjeg primaoca.
+reviewed: false

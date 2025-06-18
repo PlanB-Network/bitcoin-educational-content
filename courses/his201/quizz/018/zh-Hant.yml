@@ -1,0 +1,9 @@
+question: 與 eCash、b-money 和 bit gold 等其他數位貨幣概念相比，RPOW 的獨特之處何在？
+answer: 它以透明伺服器為基礎
+wrong_answers:
+  - 它使用 Proof of Work
+  - 其計算單位沒有任何支持
+  - 使用者持有特定面額的數位紙幣，而非帳戶
+explanation: |
+  它使用 Proof of Work，就像 b-money 和 bit gold。與 bit gold 不同的是，它沒有後盾。與 eCash（以及後來的 Bitcoin）一樣，RPOW 允許持有個別數位鈔票，而非帳戶，在這方面相對保密。
+reviewed: false

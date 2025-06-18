@@ -1,0 +1,9 @@
+question: Jaką rolę pełni LSP w płatnościach Enterprise Bitcoin?
+answer: Zarządzanie dużymi transakcjami na platformie Lightning
+wrong_answers:
+  - Przechowywanie kluczy prywatnych Lightning Wallet
+  - Drukowanie faktur Lightning
+  - Ręczne przetwarzanie zwrotów w usłudze Lightning
+explanation: |
+  LSP obsługują złożone i wysokonakładowe operacje na Lightning.
+reviewed: false

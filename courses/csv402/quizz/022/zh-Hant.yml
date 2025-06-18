@@ -1,0 +1,9 @@
+question: 哪個 RGB Contract Operation 在沒有關閉 Seal 的情況下建立新的狀態？
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency 啟動
+explanation: |
+  State Extension 允許您建立新的狀態或權限 (Valencies)，而不會立即關閉 Seal。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Jaki jest jeden z aspektów cyberbezpieczeństwa, który wymaga regularnego monitorowania?
+answer: Ciągła ewolucja zagrożeń
+wrong_answers:
+  - Rynek akcji
+  - Pogoda
+  - Wiadomości
+explanation: |
+  W rozdziale wspomniano, że ciągła ewolucja zagrożeń
+  w cyberbezpieczeństwie wymaga regularnego monitorowania.
+reviewed: true

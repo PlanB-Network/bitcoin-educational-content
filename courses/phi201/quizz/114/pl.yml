@@ -1,0 +1,9 @@
+question: Jaki jest główny argument Jacques'a Rueffa dotyczący waluty?
+answer: Papierowe pieniądze są niebezpieczne i prowadzą do dyktatury
+wrong_answers:
+  - Pieniądz papierowy jest stabilny i przewidywalny
+  - Papierowy pieniądz jest niezbędny dla rozwoju gospodarczego
+  - Pieniądz papierowy musi być zabezpieczony aktywami fizycznymi
+explanation: |
+  Jacques Rueff uważał, że pieniądz papierowy, ułatwiając kontrolowanie gospodarki przez władze, sprzyjał dirigisme i stanowił zagrożenie dla stabilności monetarnej.
+reviewed: false

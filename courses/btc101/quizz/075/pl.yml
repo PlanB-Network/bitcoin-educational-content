@@ -1,0 +1,13 @@
+question: Czym jest fraza Mnemonic w Bitcoin Wallet?
+answer: Lista 12 lub 24 słów, które umożliwiają dostęp do bitcoinów.
+wrong_answers:
+  - Wybrane hasło dostępu do Bitcoin Wallet.
+  - Kod do szyfrowania transakcji Bitcoin.
+  - Tajna fraza odzyskiwania, która niszczy Bitcoin Wallet w razie potrzeby.
+explanation: |
+  Od 2017 r. klucz prywatny może być zakodowany na prostej liście
+  składającej się z 12 lub 24 słów, zwanej frazą Mnemonic. Ta fraza
+  jest kopią zapasową Bitcoin Wallet, więc pozwala na
+  dostęp do bitcoinów za pomocą dowolnego oprogramowania/aplikacji Bitcoin Wallet
+  oprogramowania/aplikacji.
+reviewed: true

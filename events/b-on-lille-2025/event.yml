@@ -1,0 +1,21 @@
+id: be270cf1-8e09-47ea-8181-7fd38bf5a6cd
+start_date: 2025-09-26 08:00:00
+end_date: 2025-09-28 15:30:00
+timezone: Europe/Paris
+address_city_country: Lile, France
+name: ₿ on Lille
+type: conference
+description: "Dans une ambiance conviviale et dynamique, vous rencontrerez
+  d’autres bitcoiners, échangerez avec des experts et découvrirez les dernières
+  avancées du secteur. En somme, le ₿ on Lille est bien plus qu’un simple
+  rassemblement: c’est une porte d’entrée vers une compréhension plus profonde
+  de Bitcoin et de son rôle dans le monde d’aujourd’hui et de demain."
+language:
+  - fr
+links:
+  website: https://bitcoinlille.fr/b-on-lille/
+project_id: fc3b87d8-3340-4669-b524-cc10c7a6a70e
+tags:
+  - adoption
+  - market-trends
+  - education

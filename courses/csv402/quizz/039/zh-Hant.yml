@@ -1,0 +1,9 @@
+question: 哪一條指令可以將 Contract 從 Stash 匯出到外部檔案？
+answer: RGB 匯出 '<ContractId>' myContractPBN.RGB
+wrong_answers:
+  - RGB 下載 '<ContractId>' myContractPBN.RGB
+  - RGB dump '<ContractId>' myContractPBN.RGB
+  - RGB 問題 '<ContractId>' myContractPBN.RGB
+explanation: |
+  RGB export」指令用來從 Stash 中抽出 Contract，並將其儲存為檔案，方便分享。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani kuu la Schema katika RGB Contract?
+answer: Eleza Business Logic na muundo wa data wa Contract
+wrong_answers:
+  - Kufafanua Interface kwa pochi za RGB
+  - Kusimamia utungaji wa hati kwenye Blockchain
+  - On-Chain uthibitishaji wa kriptografia
+explanation: |
+  Schema inafafanua muundo wa kutangaza, aina za data na sheria za uthibitishaji za Contract, kukuwezesha kudhibiti Business Logic kwa upande wa mteja.
+reviewed: false

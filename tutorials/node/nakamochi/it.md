@@ -50,7 +50,7 @@ imposta un nuovo portafoglio nella scheda Lightning
 
 scansione del codice QR con l'app di gestione dei nodi
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 per una maggiore sicurezza, impostare un codice PIN
 
@@ -86,7 +86,7 @@ Una volta che il vostro Nakamochi è stato configurato e collegato a un'app di g
 
 5. Fare clic su **"Aprire un canale "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 schermata ZEUS
 
@@ -104,7 +104,7 @@ Per maggiori informazioni: [Canali | Documentazione Zeus](https://docs.zeusln.ap
 
 5. Immettere l'importo bloccato (scegliere con il peer o utilizzare l'importo minimo fisso per i nodi noti).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 schermata di Bitbanana
 

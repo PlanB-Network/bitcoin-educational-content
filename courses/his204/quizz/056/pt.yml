@@ -1,0 +1,8 @@
+question: Para os fisiocratas, qual é a diferença entre produção e lucro?
+answer: O industrial e o comerciante podem ganhar, mas só o agricultor produz, porque a produção é a criação de matéria útil
+wrong_answers:
+  - Os fabricantes e os comerciantes podem não ter lucro. Apenas a agricultura é necessariamente lucrativa.
+  - O agricultor pode ganhar, mas só o industrial e o comerciante é que produzem, porque produzir é prestar um serviço
+  - Produção e lucro são a mesma coisa
+explanation: |
+  Os fisiocratas acreditavam que só a agricultura era produtiva, uma vez que criava nova matéria. A indústria e o comércio eram vistos como actividades estéreis, uma vez que se limitavam a transformar ou a deslocar a riqueza existente.

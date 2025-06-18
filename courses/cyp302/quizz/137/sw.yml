@@ -1,0 +1,9 @@
+question: Kwa nini manenosiri mara nyingi huhifadhiwa kama heshi kwenye seva salama?
+answer: Ili kuzuia nenosiri kutoka kwa kurejeshwa kwa urahisi katika tukio la uvujaji
+wrong_answers:
+  - Ili kuongeza ukubwa wa hifadhi ya data ya mtumiaji
+  - Kusimba kwa njia fiche manenosiri katika muda halisi kwa njia ya ulinganifu
+  - Ili kuruhusu watumiaji kuingia bila nenosiri
+explanation: |
+  Kwa kuhifadhi heshi za nenosiri, hata katika tukio la uvunjaji wa data, nywila halisi haziwezi kusoma moja kwa moja, na hivyo kuongeza usalama.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jaka jest jedna z głównych kwestii związanych z cenzurą?
+answer: Może zniszczyć wolność słowa i prawo do zgromadzeń.
+wrong_answers:
+  - Może to prowadzić do egzekwowania wolności słowa.
+  - Może to prowadzić do zwiększenia poparcia dla prawa do zgromadzeń.
+  - Może to prowadzić do spadku innowacyjności.
+explanation: >-
+reviewed: true

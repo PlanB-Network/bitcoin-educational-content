@@ -1,0 +1,11 @@
+question: Je, kuna uhusiano gani wa kihistoria kati ya fedha na bidhaa kama dhahabu?
+answer: Dhahabu ni adimu na inakubalika sana kama hifadhi ya thamani
+wrong_answers:
+  - Dhahabu hufanya pesa kuonekana kuvutia zaidi
+  - Dhahabu inaweza kugawanywa kwa urahisi
+  - Dhahabu ni ya kipekee
+explanation: |
+  Kwa kuzingatia uhaba wa utandawazi wa dhahabu katika asili na uwekezaji muhimu unaohitajika
+  kuchimba, kusafisha na kuhifadhi, dhahabu imekuwa ikiuzwa kwa bei iliyo hapo juu
+  aina nyingine za fedha.
+reviewed: true

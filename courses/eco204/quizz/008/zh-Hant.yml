@@ -1,0 +1,13 @@
+question: 在固定貨幣 Supply 系統中，貨幣 Supply 的增加對通貨膨脹和通貨緊縮有何影響？
+answer: 貨幣 Supply 的增加抵銷了產量增加可能造成的通縮。
+wrong_answers:
+  - 貨幣 Supply 的增加會導致通貨緊縮。
+  - 貨幣 Supply 的增加對通貨膨脹或通貨緊縮沒有影響。
+  - 貨幣 Supply 的增加會導致生產減少。
+explanation: |
+  本章說明在固定貨幣 Supply 系統中，增加
+  理論上，生產應該會導致通貨緊縮，也就是價格下降、
+  因為會有更多的商品和服務可用。然而，在目前的法定貨幣
+  在貨幣體系中，貨幣 Supply 的增加抵消了潛在的通縮。
+  產量增加所導致。
+reviewed: false

@@ -1,0 +1,11 @@
+question: 什麼是 AMF？
+answer: Autorité des Marchés Financiers。
+wrong_answers:
+  - 美國貨幣基金組織。
+  - Mining 設施協會。
+  - 自動化資金流。
+explanation: |
+  AMF 或 Autorité des Marchés Financiers 是一個法國組織，負責監管比特幣交易平台。
+  監管比特幣購買平台的機構。
+  購買的平台。
+reviewed: true

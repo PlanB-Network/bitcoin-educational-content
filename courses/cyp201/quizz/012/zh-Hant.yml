@@ -1,0 +1,9 @@
+question: SHA512 在 HMAC 中使用的區塊大小是多少？
+answer: 128 位元組
+wrong_answers:
+  - 64 位元組
+  - 256 位元組
+  - 1024 位元組
+explanation: |
+  SHA512 使用 128 位元組區塊進行計算，相當於 1024 位元。
+reviewed: false

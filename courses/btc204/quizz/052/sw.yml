@@ -1,0 +1,10 @@
+question: Ni aina gani ya hati inayotumiwa na Malipo ya Kimya pekee?
+answer: P2TR
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+explanation: |
+  Ili kuwezesha utekelezaji wa itifaki hii na kuboresha seti ya kutokujulikana kwa watumiaji wake, Malipo ya Kimya yanategemea hati za P2TR (Pay to Taproot).
+  
+reviewed: false

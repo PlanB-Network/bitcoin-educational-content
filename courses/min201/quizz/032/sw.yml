@@ -1,0 +1,11 @@
+question: Je, ni malipo gani kwa wachimbaji madini katika mtandao wa Bitcoin?
+answer: bitcoins mpya na ada za ununuzi.
+wrong_answers:
+  - bitcoins mpya tu.
+  - Ada za muamala pekee.
+  - Hakuna malipo kwa wachimbaji.
+explanation: |
+  Wachimbaji madini katika mtandao wa Bitcoin wanatuzwa wapya
+  bitcoins na ada za manunuzi kwa kazi yao katika kuhalalisha
+  na kuunda vitalu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 誰在 2010 年 2 月設計了第一個真正的 Bitcoin 標誌（一個金色的大寫 B，由兩條垂直橫條交叉）？
+answer: Satoshi Nakamoto
+wrong_answers:
+  - 新自由標準
+  - Martti Malmi
+  - 黑鬼
+explanation: |
+  他採用 NewLibertyStandard 的建議，使用泰銖符號 (฿)。橙色的標誌是後來由一個叫做 bitboy 的人創造的。
+reviewed: false

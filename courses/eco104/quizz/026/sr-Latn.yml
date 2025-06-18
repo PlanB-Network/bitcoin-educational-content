@@ -1,0 +1,9 @@
+question: Šta je Blockchain trilema u oblasti kriptovaluta?
+answer: Kompromis između skalabilnosti, sigurnosti i decentralizacije u kriptovalutama
+wrong_answers:
+  - Karakteristika Bitcoin koja daje prednost decentralizaciji i sigurnosti nad skalabilnošću
+  - Teškoća u određivanju putanje i vrednosti kriptovaluta
+  - Ograničenje tehnologije Bitcoin u poređenju sa drugim kriptovalutama
+explanation: |
+  Koncept Blockchain trileme je ideja da kriptovalute moraju prioritizovati dve od tri važne karakteristike; skalabilnost, sigurnost i decentralizaciju. Bitcoin prioritizuje decentralizaciju i sigurnost, što utiče na njegovu skalabilnost, ali je i dalje postiže kroz alternativne metode.
+reviewed: true

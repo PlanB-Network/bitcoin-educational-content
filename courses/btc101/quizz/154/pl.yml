@@ -1,0 +1,13 @@
+question: Jaka jest rola układów ASIC w Bitcoin Mining?
+answer: Układy ASIC to maszyny zaprojektowane wyłącznie do stosowania algorytmu SHA256 w procesie Mining.
+wrong_answers:
+  - Układy ASIC są wykorzystywane do weryfikacji transakcji Bitcoin poprzez zastosowanie algorytmu SHA256 w procesie weryfikacji.
+  - Układy ASIC są wykorzystywane do arbitralnego tworzenia nowych bitcoinów.
+  - Układy ASIC są wykorzystywane do zabezpieczenia sieci Bitcoin.
+explanation: |
+  Układy ASIC (Application-Specific Integrated Circuits) są
+  specjalistyczny sprzęt zaprojektowany specjalnie dla Bitcoin
+  Mining. Są one zoptymalizowane do wykonywania funkcji haszującej SHA256
+  która jest problemem matematycznym, który górnicy
+  muszą rozwiązać w procesie Proof of Work.
+reviewed: true

@@ -1,0 +1,9 @@
+question: W jaki sposób RGB toruje drogę dla DEX Layer-2?
+answer: Umożliwiając Exchange aktywów off-chain za pośrednictwem kanałów Lightning i swapów atomowych
+wrong_answers:
+  - Umożliwiając korzystanie ze scentralizowanego Exchange dla wszystkich transakcji RGB
+  - Umożliwiając Exchange aktywów za pośrednictwem inteligentnych kontraktów On-Chain
+  - Umożliwiając wymianę aktywów Blockchain między Exchange za pomocą atomic swapów
+explanation: |
+  Możliwość przeprowadzania atomowych swapów i wymian za pośrednictwem kanałów Lightning oferuje możliwość tworzenia zdecentralizowanych DEX-ów, bez wad giełd On-Chain.
+reviewed: false

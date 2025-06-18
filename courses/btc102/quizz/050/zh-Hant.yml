@@ -1,0 +1,9 @@
+question: 建議使用何種解決方案進行低成本的 Bitcoin 付款？
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - 銀行帳戶
+  - RGB Layer
+explanation: |
+  Lightning 可實現快速、低成本的日常購物交易。它是活躍用戶的理想工具。
+reviewed: false

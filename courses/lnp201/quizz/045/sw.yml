@@ -1,0 +1,9 @@
+question: Je, kipengele cha kuondoa LNURL kinaruhusu watumiaji kufanya nini?
+answer: Toa pesa kwenye huduma kwa kuchanganua msimbo wa QR
+wrong_answers:
+  - Fanya malipo ya moja kwa moja bila ada za uelekezaji
+  - Unganisha umeme wao wa Wallet bila nenosiri
+  - Tuma pesa bila uthibitisho wa mpokeaji
+explanation: |
+  Utoaji wa LNURL huruhusu watumiaji kutoa pesa kutoka kwa huduma kwa kuchanganua msimbo wa QR, na hivyo kurahisisha mchakato wa uondoaji.
+reviewed: false

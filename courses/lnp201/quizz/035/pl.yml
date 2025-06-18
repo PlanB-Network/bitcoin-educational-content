@@ -1,0 +1,9 @@
+question: Jaki jest główny cel HTLC w Lightning Network?
+answer: Umożliwienie bezpiecznych transferów płatności za pośrednictwem węzłów pośredniczących bez wymogu zaufania do nich
+wrong_answers:
+  - Zmniejszenie opłat transakcyjnych za każdą płatność za pośrednictwem węzłów pośredniczących
+  - Zwiększenie przepustowości każdego kanału płatności
+  - Ustanowienie bezpośrednich połączeń między wszystkimi węzłami sieci z ich zaufaniem
+explanation: |
+  HTLC (Hashed Time-Locked Contracts) zapewniają, że każdy węzeł pośredniczący przekaże płatność bez zatrzymywania środków, ponieważ może je odblokować tylko poprzez zakończenie transakcji aż do ostatecznego odbiorcy.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Mikä on non-KYC ratkaisu Bitcoinin kontekstissa?
-answer: Ratkaisu, joka mahdollistaa nimettömät Bitcoin-siirrot
+question: Miksi on suositeltavaa kirjoittaa perintökirje musteella paperille?
+answer: Välttääksesi vaarantuneisiin digitaalisiin asiakirjoihin liittyvät riskit
 wrong_answers:
-  - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman internetiä
-  - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman lompakkoa
-  - Ratkaisu, joka mahdollistaa Bitcoin-siirrot ilman maksuja
+  - Tulostuskustannusten vähentäminen
+  - Laillisesti tunnustetun allekirjoituksen saaminen
+  - Asiakirjan oikeudellisen arvon lisääminen
 explanation: |
-  Non-KYC (Know Your Customer) ratkaisu on ratkaisu, joka mahdollistaa
-  nimettömät Bitcoin-siirrot. Se ei vaadi käyttäjältä henkilökohtaisten
-  tunnistetietojen antamista.
+  Käsin kirjoitettu kirje on vähemmän altis verkkohyökkäyksille ja takaa ohjeiden luottamuksellisuuden.
 reviewed: false

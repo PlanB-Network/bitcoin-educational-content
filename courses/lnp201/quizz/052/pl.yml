@@ -1,0 +1,9 @@
+question: Która usługa umożliwia przenoszenie płynności na przeciwną stronę kanału przy jednoczesnym odzyskiwaniu środków On-Chain?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Usługa Loop Out od Lightning Labs umożliwia transfer środków z kanału Lightning do On-Chain Blockchain, optymalizując w ten sposób pojemność odbiorczą podczas pobierania bitcoinów w głównym łańcuchu.
+reviewed: false

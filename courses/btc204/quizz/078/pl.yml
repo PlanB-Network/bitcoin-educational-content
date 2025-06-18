@@ -1,0 +1,10 @@
+question: Jaki termin opisuje ochronę oferowaną przez CoinJoin przed analizą przeszłych transakcji monety?
+answer: Anons retrospektywny.
+wrong_answers:
+  - Potencjalny anonset.
+  - Odporność na śledzenie.
+  - Prywatność czasowa.
+explanation: |
+  Ochrona przed analizą z teraźniejszości do przeszłości jest tym, co nazywa się anonsetem retrospektywnym.
+  
+reviewed: false

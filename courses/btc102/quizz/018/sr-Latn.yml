@@ -1,0 +1,12 @@
+question: Koja je razlika između trgovanja, investiranja i držanja u kontekstu Bitcoin?
+answer: Trgovanje uključuje kratkoročne ugovore sa visokim rizikom, investiranje uključuje kupovinu BTC za kratkoročni do srednjoročni period sa ograničenim rizikom, a držanje uključuje čuvanje BTC na veoma dug period sa ograničenim rizikom.
+wrong_answers:
+  - Trgovanje podrazumeva kupovinu BTC za dugoročno, investiranje podrazumeva kratkoročne ugovore sa visokim rizikom, a držanje podrazumeva čuvanje BTC za kratkoročno do srednjoročno sa ograničenim rizikom.
+  - Trgovanje podrazumeva kupovinu BTC-a na kratak do srednji rok, investiranje podrazumeva kratkoročne ugovore sa visokim rizikom, a držanje podrazumeva čuvanje BTC-a na veoma dug rok sa visokim rizikom.
+  - Trgovanje podrazumeva kupovinu BTC-a na kratak do srednji rok, investiranje podrazumeva kratkoročne ugovore sa visokim rizikom, a držanje podrazumeva čuvanje BTC-a na veoma dug rok sa ograničenim rizikom.
+explanation: |
+  Trgovanje, investiranje i držanje su tri različite strategije korišćene na
+  tržištu Bitcoin. Trgovanje uključuje kratkoročne ugovore sa visokim rizikom, investiranje
+  uključuje kupovinu BTC za kratkoročni do srednjoročni period sa ograničenim rizikom, a držanje uključuje
+  čuvanje BTC na veoma dug rok sa ograničenim rizikom.
+reviewed: false

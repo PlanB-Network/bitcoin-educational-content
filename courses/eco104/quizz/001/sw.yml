@@ -1,0 +1,11 @@
+question: Ni ipi kati ya zifuatazo ni muhimu kwa shughuli iliyofanikiwa katika mfumo wa kubadilishana vitu?
+answer: Sadfa mbili za kutaka
+wrong_answers:
+  - Kitengo cha kawaida cha hesabu
+  - Mamlaka ya benki kuu
+  - Mahitaji ya kiwango cha chini cha usawa
+explanation: |
+  Katika mfumo wa kubadilishana vitu, miamala hufanyika moja kwa moja kati ya pande mbili zinazobadilishana bidhaa au
+  huduma bila matumizi ya fedha. Muamala uliofanikiwa unahitaji sadfa mbili za
+  anataka, ikimaanisha kuwa pande zote mbili lazima ziwe na kitu ambacho mwingine anataka kufanya biashara.
+reviewed: true

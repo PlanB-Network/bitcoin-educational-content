@@ -1,0 +1,11 @@
+question: Jaka jest główna odpowiedzialność banków centralnych zgodnie z doktryną Keynesa?
+answer: Produkcja i zarządzanie pieniędzmi
+wrong_answers:
+  - Decentralizacja władzy monetarnej
+  - Promowanie trzeźwej wizji wzrostu i ludzkiej racjonalności
+  - Żadne z powyższych
+explanation: |
+  Rozdział ten wspomina, że zgodnie z doktryną Keynesa,
+  produkcja i zarządzanie pieniądzem są
+  odpowiedzialnością banków centralnych.
+reviewed: true

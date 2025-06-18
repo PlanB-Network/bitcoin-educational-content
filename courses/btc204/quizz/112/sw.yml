@@ -1,0 +1,10 @@
+question: Je, ni jukumu gani la mshiriki katika shughuli ya Stonewall x2?
+answer: Toa bitcoins ili kuongeza shaka
+wrong_answers:
+  - Tenda kama mratibu wa shughuli
+  - Pokea kiasi cha malipo
+  - Tuma kiasi cha malipo
+explanation: |
+  Mshiriki katika muamala wa Stonewall x2 hutoa bitcoins ili kuongeza shaka kwenye uchanganuzi wa ununuzi, huku akirejesha pesa zao kikamilifu mwishoni (hatua ya kutoegemea upande wowote kwao, ukiondoa ada za Mining).
+  
+reviewed: false

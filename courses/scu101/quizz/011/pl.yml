@@ -1,0 +1,12 @@
+question: Jaki jest cel protokołu HTTPS?
+answer: Szyfruje dane na stronach internetowych, aby zapewnić bezpieczne Exchange między użytkownikiem a witryną.
+wrong_answers:
+  - Pozwala to użytkownikom ominąć ograniczenia geograficzne, jeśli chodzi o płatności kartą debetową lub kredytową.
+  - Pozwala ona użytkownikom na częściowe blokowanie reklam online.
+  - Umożliwia użytkownikom dostęp do Internetu bez korzystania z prywatnych danych uwierzytelniających.
+explanation: |
+  Protokół HTTPS służy do szyfrowania danych na stronach internetowych,
+  zapewniając, że dane wymieniane między użytkownikiem a
+  są bezpieczne. Pomaga to chronić przed osobami trzecimi
+  przechwytywaniem danych przez osoby trzecie.
+reviewed: true

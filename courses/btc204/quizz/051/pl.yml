@@ -1,0 +1,10 @@
+question: Jaka jest wada Silent Payments w porównaniu do BIP47?
+answer: Odbiornik musi przeskanować prawie cały Blockchain.
+wrong_answers:
+  - generate wyższe opłaty transakcyjne dla nadawcy.
+  - Ograniczają one liczbę możliwych transakcji.
+  - Są one mniej anonimowe.
+explanation: |
+  W Exchange, aby zrezygnować z transakcji powiadomienia, odbiorca musi przeskanować wszystkie transakcje Bitcoin, które są zgodne ze standardem, próbując znaleźć skierowane do niego płatności.
+  
+reviewed: false

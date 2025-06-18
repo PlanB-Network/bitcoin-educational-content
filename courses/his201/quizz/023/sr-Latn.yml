@@ -1,0 +1,9 @@
+question: Gde je Satoshi Nakamoto objavio Bitcoin beli papir 31. oktobra 2008?
+answer: Lista za kriptografiju
+wrong_answers:
+  - Reddit
+  - Tviter
+  - Hackernews
+explanation: |
+  Kao naslednik cypherpunks mailing liste, ovu email mailing listu je vodio developer Perry Metzger od 1996. godine.
+reviewed: false

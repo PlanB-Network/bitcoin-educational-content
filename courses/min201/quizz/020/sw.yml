@@ -1,0 +1,14 @@
+question: Je, ni wasiwasi gani wa siku zijazo kuhusu matumizi ya nafasi ya kuzuia Bitcoin?
+answer: Wasiwasi wa siku zijazo ni kwamba kwa ukuaji unaotarajiwa wa Lightning Network na kuongezeka kwa njia ya kufungua na kufungwa kwa njia, nafasi katika vitalu vya Bitcoin itazidi kuwa ya thamani.
+wrong_answers:
+  - Wasiwasi wa siku zijazo ni kwamba saizi ya vitalu vya Bitcoin itakuwa kubwa sana kudhibiti.
+  - Wasiwasi wa baadaye ni kwamba idadi ya vitalu vya Bitcoin itazidi uwezo wa mtandao.
+  - Wasiwasi wa baadaye ni kwamba utata wa vitalu vya Bitcoin utaongezeka, na kuwafanya kuwa vigumu kusindika.
+explanation: |
+  Pamoja na ukuaji unaotarajiwa wa Lightning Network na
+  kuongezeka kwa njia ya fursa na kufungwa kwa njia, nafasi
+  katika vitalu vya Bitcoin vitazidi kuwa vya thamani. Hii
+  imesababisha majadiliano kuhusu matumizi halali ya block
+  nafasi, na wasiwasi kuhusu barua taka kwenye Blockchain kutoka
+  miamala inayochukuliwa kuwa sio muhimu.
+reviewed: true

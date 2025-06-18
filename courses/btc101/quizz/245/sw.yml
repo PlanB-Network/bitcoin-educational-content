@@ -1,0 +1,8 @@
+question: Ni nini athari moja inayowezekana ya maendeleo ya teknolojia ya AI?
+answer: Teknolojia za AI zitasababisha kutoweka kwa zaidi ya 80% ya kazi za leo.
+wrong_answers:
+  - Teknolojia za AI zitaharibu kompyuta zote.
+  - Teknolojia za AI zitasababisha kupungua kwa akili ya mwanadamu.
+  - Teknolojia za AI zitasababisha kuporomoka kwa uchumi wa dunia.
+explanation: >-
+reviewed: true

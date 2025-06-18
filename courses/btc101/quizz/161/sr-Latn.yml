@@ -1,0 +1,8 @@
+question: Koja je glavna zabrinutost u vezi sa ekološkim troškovima Bitcoin Mining?
+answer: Potrošnja energije.
+wrong_answers:
+  - Proizvodnja ASIC-ova.
+  - Reciklaža ASIC-ova.
+  - Cena električne energije.
+explanation: >-
+reviewed: true

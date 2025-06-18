@@ -1,0 +1,12 @@
+question: Je! ni nini jukumu la sekta ya benki katika kusababisha mdororo wa uchumi kulingana na Nadharia ya Austria ya Mzunguko wa Biashara?
+answer: Sekta ya benki husababisha mdororo wa kiuchumi inapoamua kupunguza hatari yake na hivyo kupunguza mtiririko wa mikopo.
+wrong_answers:
+  - Sekta ya benki inasababisha mdororo wa kiuchumi inapoamua kuongeza hatari yake na hivyo kuongeza mtiririko wa mikopo.
+  - Sekta ya benki inasababisha mdororo wa kiuchumi inapoamua kudumisha hatari yake na hivyo kudumisha mtiririko wa mikopo.
+  - Sekta ya benki haina jukumu la kusababisha mdororo wa uchumi kulingana na Nadharia ya Austria ya Mzunguko wa Biashara.
+explanation: |
+  Kulingana na Nadharia ya Austria ya Mzunguko wa Biashara, sekta ya benki
+  huchochea mdororo wa uchumi inapoamua kupunguza hatari yake na hivyo kupungua
+  mtiririko wa mikopo. Hii inasababisha kufilisika nyingi, kukaza mikopo, kupungua
+  katika uwezo wa kununua unaopatikana, na kuyumba kwa kifedha.
+reviewed: true

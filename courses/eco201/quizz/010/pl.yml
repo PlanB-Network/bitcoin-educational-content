@@ -1,0 +1,13 @@
+question: Czym jest bankowość oparta na rezerwie cząstkowej?
+answer: Bankowość oparta na rezerwie cząstkowej to praktyka bankowa, w której banki nie muszą utrzymywać tylu rezerw, ile otrzymują w depozytach, co pozwala im tworzyć nową siłę nabywczą przy udzielaniu pożyczek.
+wrong_answers:
+  - Bankowość oparta na rezerwie cząstkowej to praktyka bankowa, w której banki muszą utrzymywać więcej rezerw niż otrzymują w depozytach.
+  - Bankowość oparta na rezerwie cząstkowej to praktyka bankowa, w której banki nie mogą udzielać pożyczek.
+  - Bankowość oparta na rezerwie cząstkowej to praktyka bankowa, w której banki są zobowiązane do utrzymywania dokładnie takiej samej ilości rezerw, jaką otrzymują w depozytach.
+explanation: |
+  Bankowość oparta na rezerwie cząstkowej to system, w którym banki
+  tylko część środków swoich deponentów w rezerwie,
+  pożyczając resztę. System ten pozwala bankom tworzyć
+  nowych pieniędzy w formie pożyczek, co zwiększa ogólną ilość pieniądza w gospodarce
+  pieniądza Supply w gospodarce.
+reviewed: true

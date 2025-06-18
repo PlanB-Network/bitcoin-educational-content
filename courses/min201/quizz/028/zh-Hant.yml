@@ -1,0 +1,13 @@
+question: Mining 硬體生產集中在中國的潛在風險是什麼？
+answer: 拒絕輸出 Mining 機器或累積 Hashrate 的潛在 51% 攻擊。
+wrong_answers:
+  - 中國可以壟斷 Bitcoin 網路。
+  - 中國可以控制 Bitcoin 的價格。
+  - 中國可以禁止 Bitcoin Mining。
+explanation: |
+  中國 Mining 硬體生產的集中化
+  對 Bitcoin 網絡構成風險。如果中國拒絕
+  導出 Mining 機器或累積 Hashrate 為
+  潛在的 51% 攻擊，可能會威脅安全和
+  網路的分散性。
+reviewed: true

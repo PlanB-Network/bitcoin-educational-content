@@ -1,0 +1,11 @@
+question: Koji je značaj individualne odgovornosti u Bitcoin?
+answer: To je ključno jer ste vi zaduženi za rezervne kopije.
+wrong_answers:
+  - To je neophodno jer morate da kopate bitkoine.
+  - Važno je kupiti bitkoine.
+  - To je ključno jer ste zaduženi za temu Wallet.
+explanation: |
+  U Bitcoin, finansijski suverenitet ide ruku pod ruku sa
+  individualnom odgovornošću, jer morate sami čuvati
+  svoja sredstva prateći preporučene procedure za pravljenje rezervnih kopija.
+reviewed: true

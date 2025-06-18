@@ -1,0 +1,8 @@
+question: Jakie jest jedno z potencjalnych zagrożeń związanych z pozostawieniem Bitcoin na platformie Exchange?
+answer: Ryzyko hakowania i blokowania funduszy.
+wrong_answers:
+  - Ryzyko wzrostu ceny Bitcoin przez platformę.
+  - Ryzyko platformy kontrolującej Supply z Bitcoin.
+  - Ryzyko prześcignięcia Bitcoin pod względem ceny przez kryptowalutę.
+explanation: >-
+reviewed: true

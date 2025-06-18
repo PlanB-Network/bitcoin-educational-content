@@ -1,0 +1,8 @@
+question: یکی از راه‌های آزمایش Lightning Network برای خودتان چیست؟
+answer: با امتحان کردن برنامه پادکست به نام Fountain.
+wrong_answers:
+  - با استفاده از یک رایانه شخصی Bitcoin Mining.
+  - با خرید Bitcoin از بانک.
+  - با ایجاد یک ارز دیجیتال جدید.
+explanation: >-
+reviewed: true

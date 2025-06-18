@@ -1,0 +1,10 @@
+question: Dlaczego korzystanie z PayJoin do płatności jest często skomplikowane?
+answer: Wymaga to aktywnej współpracy odbiorcy w zakresie budowy
+wrong_answers:
+  - Wymaga stałych kwot dla każdej transakcji
+  - Zmusza obie strony do korzystania z tego samego typu oprogramowania
+  - Wymaga to od płatnika posiadania co najmniej 2 UTXO większych niż wartość płatności
+explanation: |
+  Trudność w korzystaniu z PayJoin polega na jego zależności od udziału sprzedawcy. Dla klienta korzystanie z PayJoin jest niemożliwe, jeśli sprzedawca go nie obsługuje.
+  
+reviewed: false

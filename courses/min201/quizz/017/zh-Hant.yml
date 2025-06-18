@@ -1,0 +1,13 @@
+question: 監管對 Bitcoin Mining 的潛在影響是什麼？
+answer: 如果像美國這樣的國家決定管制或禁止某些 Bitcoin 交易，可能會對網路造成重大影響，尤其是當大部分的散列能力都集中在該國的時候。
+wrong_answers:
+  - 如果像美國這樣的國家決定管制或禁止 Bitcoin Mining，可能會導致 Bitcoin 價值上升。
+  - 如果像美國這樣的國家決定管制或禁止 Bitcoin Mining，可能會導致 Block reward 的增加。
+  - 如果像美國這樣的國家決定管制或禁止 Bitcoin Mining，可能會導致交易速度加快。
+explanation: |
+  本章說明，如果像美國這樣的國家
+  由各州決定管制或禁止某些 Bitcoin
+  交易，可能會對本公司造成重大影響。
+  網路，尤其是當大部分的散列能力
+  集中在該國。
+reviewed: true

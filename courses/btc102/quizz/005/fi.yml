@@ -1,9 +1,9 @@
-question: Mikä on tämän yliopiston kurssin painopiste?
-answer: Bitcoin-universumi.
+question: Miksi kaksitekijätodennusta suositellaan?
+answer: Se lisää turvallisuutta Layer:lla
 wrong_answers:
-  - Globaali kryptovaluuttateollisuus.
-  - Fintech-teollisuus.
-  - Lohkoketjuteollisuus.
+  - Se yksinkertaistaa pääsyä vähentämällä koodien määrää
+  - Se mahdollistaa kirjautumisen ilman salasanaa
+  - Se korvaa salasanahallinnan käytön
 explanation: |
-  Tämän yliopiston koko painopiste on Bitcoin-universumissa, ei kryptovaluutoissa yleisesti.
+  2FA edellyttää salasanan lisäksi väliaikaista koodia, joka vahvistaa huomattavasti verkkotilin suojausta.
 reviewed: false

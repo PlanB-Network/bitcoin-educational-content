@@ -1,12 +1,9 @@
-question: Hva står 2FA for?
-answer: To-Faktor Autentisering
+question: Hvorfor anbefales det å være diskret om Bitcoin-beholdningene dine?
+answer: For å unngå å tiltrekke seg oppmerksomhet fra kriminelle og myndigheter
 wrong_answers:
-  - To-Faktor Autorisasjon
-  - To-Funksjon Autentisering
-  - To-Egenskap Autentisering
+  - For å dra nytte av bedre Exchange-priser i visse land
+  - For å unngå å tiltrekke seg oppmerksomhet fra entreprenører som søker finansiering
+  - Å forbedre lånekapasiteten
 explanation: |
-  2FA står for To-Faktor Autentisering. Det gir et ekstra
-
-  lag
-
-  med sikkerhet til dine mest sensitive kontoer.
+  Diskresjon beskytter mot risikoen for å bli utsatt for svindlere, sjalu personer eller tyver.
+reviewed: false

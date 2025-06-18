@@ -115,76 +115,94 @@ Empecemos con el archivo YAML. En la casilla para crear un nuevo archivo, introd
 
 Rellene el archivo `tutorial.yml` copiando la siguiente plantilla:
 
+
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Estos son los campos obligatorios:
+Aquí están los campos obligatorios:
 
+- **id** : Un UUID (_Identificador Universalmente Único_) que permite identificar de manera única el tutorial. Puede generarlo con [una herramienta en línea](https://www.uuidgenerator.net/version4). El único requisito es que este UUID sea aleatorio para evitar conflictos con otro UUID en la plataforma;
 
-- id**: Un UUID (_Universally Unique Identifier_) para identificar de forma única el tutorial. Puede generarlo con [una herramienta en línea](https://www.uuidgenerator.net/version4). La única restricción es que este UUID debe ser aleatorio, para no entrar en conflicto con otro UUID de la plataforma;
-- project_id** : El UUID de la empresa u organización que está detrás de la herramienta presentada en el tutorial [de la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si estás haciendo un tutorial sobre el software Green Wallet, puedes encontrar este `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta información se añade en el archivo YAML de su tutorial porque Plan ₿ Network mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al añadir el `project_id` de la entidad vinculada a su tutorial, se crea un vínculo entre los dos elementos;
-- etiquetas**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- categoría** : La subcategoría correspondiente al contenido del tutorial, según la estructura del Plan ₿ Red (por ejemplo, para carteras: `desktop`, `hardware`, `mobile`, `backup`) ;
-- nivel** : Nivel de dificultad del tutorial, de :
-    - principiante
-    - `intermedio`
-    - `avanzado`
-    - `experto`
-- profesor**: Su `contributor_id` (palabras BIP39) tal y como aparece en [su perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- idioma_original** : El idioma original del tutorial (por ejemplo, `fr`, `en`, etc.) ;
-- corrección de pruebas**: Información sobre el proceso de corrección. Rellene la primera parte, porque la corrección de su propio tutorial cuenta como primera validación:
-    - idioma**: Corrección del código de idioma (por ejemplo, `fr`, `en`, etc.).
-    - fecha_última_contribución**: La fecha de hoy.
-    - urgencia** : Dejar en blanco.
-    - contributors_id** : Tu ID de GitHub.
-    - recompensa** : Dejar en blanco.
+- **project_id** : El UUID de la empresa u organización detrás de la herramienta presentada en el tutorial [desde la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si está creando un tutorial sobre el software Green Wallet, puede encontrar el `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta información se agrega al archivo YAML de su tutorial porque Plan ₿ Network mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al agregar el `project_id` de la entidad relacionada con su tutorial, crea un vínculo entre ambos elementos;
+
+- **tags** : 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : La subcategoría correspondiente al contenido del tutorial, según la estructura del sitio web de Plan ₿ Network (por ejemplo, para monederos: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : El nivel de dificultad del tutorial, elegido entre:
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : Su `professor_id` (UUID) tal como aparece en [su perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : El idioma original del tutorial (por ejemplo, `fr`, `en`, etc.);
+
+- **proofreading** : Información sobre el proceso de revisión. Complete la primera parte, ya que la revisión de su propio tutorial cuenta como una primera validación:
+    - **language** : Código de idioma de la revisión (por ejemplo, `fr`, `en`, etc.).
+    - **last_contribution_date** : Fecha del día.
+    - **urgency** : 1
+    - **contributor_names** : Su ID de GitHub.
+    - **reward** : 0
 
 Para más detalles sobre su ID de profesor, consulte el tutorial correspondiente :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Este es un ejemplo de un archivo `tutorial.yml` completado para un tutorial sobre el monedero Blockstream Green:
-
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency:
-contributors_id:
-- LoicPandul
-reward:
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
+
 
 Una vez que haya terminado de modificar su archivo `tutorial.yml`, guarde su documento haciendo clic en el botón "*Commit changes...*":
 

@@ -1,5 +1,8 @@
 ---
-term: MINER
-
+term: MINOR
 ---
-Im Zusammenhang mit Mining-Pools werden die Teilnehmer oft als "Miner" bezeichnet Diese einzelnen Miner haben in erster Linie die Aufgabe, die vom Pool-Server bereitgestellten Blockvorlagen zu hacken und dabei nach Hashes zu suchen, die der für die Anteile festgelegten Zielschwierigkeit entsprechen, und nicht der für Bitcoin. Der Rest des Mining-Prozesses, d. h. die eigentliche Erstellung von Blöcken, die Auswahl von Transaktionen oder die Suche nach Arbeitsnachweisen gemäß der Bitcoin-eigenen Schwierigkeit, wird direkt von den Pools durchgeführt.
+
+Im Zusammenhang mit Bitcoin bezieht sich ein Miner auf eine Person, die eine Mine verwaltet, d. h. einen Computer, der am Mining-Prozess beteiligt ist, der aus der Teilnahme am Proof-of-Work (*Proof-of-Work*) besteht. Der Miner fasst die ausstehenden Transaktionen in seinem Mempool zu einem Kandidatenblock zusammen. Er sucht dann nach einem gültigen Hash, der kleiner oder gleich dem Zielwert ist, für den Kopf dieses Blocks, indem er die verschiedenen Nonces ändert. Findet er eine gültige Hash, sendet er seinen Block an das Bitcoin-Netzwerk und kassiert die damit verbundene finanzielle Belohnung, die sich aus der Blocksubvention (Schaffung neuer Bitcoins ex nihilo) und den Transaktionsgebühren zusammensetzt.
+
+
+> ► *Im spezifischen Kontext von Mining-Pools wird die Rolle von Miner manchmal von der Rolle des Zerkleinerers unterschieden, da die einzelnen am Pooling beteiligten Zerkleinerer nur hacken müssen und nicht am gesamten Mining-Prozess beteiligt sind

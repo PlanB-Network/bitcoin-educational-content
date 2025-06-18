@@ -1,0 +1,9 @@
+question: Które z tych zagrożeń nie jest związane z wymianą gotówki P2P?
+answer: Ryzyko wycieku danych.
+wrong_answers:
+  - Zagrożenie dla bezpieczeństwa osobistego.
+  - Ryzyko kradzieży.
+  - Ryzyko prawne.
+explanation: |
+  Giełdy Cash P2P wiążą się z wieloma zagrożeniami, ale nie wymagają przeprowadzania KYC. W związku z tym nie ma ryzyka wycieku danych.
+reviewed: false

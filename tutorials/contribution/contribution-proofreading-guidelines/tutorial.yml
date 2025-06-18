@@ -1,0 +1,23 @@
+id: 10b631bc-45dc-11f0-a6bf-971c5f988db2
+
+category: resource
+
+level: beginner
+
+professor_id: aa19b8be-5958-4c45-8be8-a1582dd5a90b
+
+# Proofreading metadata
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 1.22
+tags:
+  - guides
+  - user-friendly
+  - easy-explain
+

@@ -1,0 +1,8 @@
+question: Lightning Network inaunda mtandao wa aina gani?
+answer: Mtandao wa njia za malipo.
+wrong_answers:
+  - Mtandao wa nodi za Mining.
+  - Mtandao wa nodi za Blockchain.
+  - Mtandao wa kubadilishana fedha za cryptocurrency.
+explanation: >-
+reviewed: true

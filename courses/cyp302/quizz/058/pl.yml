@@ -1,0 +1,9 @@
+question: Dlaczego chemicy używają teorii grup?
+answer: Klasyfikowanie kształtów cząsteczek
+wrong_answers:
+  - Analiza wiązań chemicznych
+  - Aby obliczyć masę cząsteczkową
+  - Przewidywanie reakcji chemicznych
+explanation: |
+  Teoria grup pozwala chemikom klasyfikować kształty molekularne na podstawie ich symetrii, co pomaga w zrozumieniu ich właściwości strukturalnych.
+reviewed: false

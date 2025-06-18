@@ -1,0 +1,15 @@
+question: Jaka jest główna różnica między przeglądaniem prywatnym a korzystaniem z sieci TOR?
+answer: Tor maskuje adres IP Address użytkownika, podczas gdy przeglądanie prywatne nie.
+wrong_answers:
+  - Przeglądanie prywatne i TOR to to samo.
+  - Przeglądanie prywatne maskuje adres IP użytkownika Address, podczas gdy TOR tego nie robi.
+  - TOR pozostawia lokalne ślady na komputerze, podczas gdy przeglądanie prywatne nie.
+explanation: |
+  Przeglądanie prywatne to funkcja, która uniemożliwia
+  przeglądarkom internetowym przechowywanie historii przeglądania, tymczasowych plików
+  plików, danych formularzy, plików cookie oraz nazw użytkowników i haseł.
+  Nie ukrywa jednak przeglądania przed dostawcą usług internetowych
+  usługodawcy internetowego. Z drugiej strony, sieć TOR oferuje
+  anonimowość, maskując adres IP użytkownika Address i umożliwiając dostęp do Darknetu
+  dostęp do Darknetu.
+reviewed: true

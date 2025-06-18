@@ -1,0 +1,9 @@
+question: Ni mali gani inahakikisha kuwa haiwezekani kwa hesabu kupata tena ingizo la Hash?
+answer: Upinzani wa picha
+wrong_answers:
+  - Upinzani wa mgongano
+  - Athari ya Banguko
+  - Upinzani wa pili wa picha
+explanation: |
+  Upinzani wa uhakiki huhakikisha kuwa haiwezekani kupata ujumbe asili kutoka kwa Hash yake.
+reviewed: false

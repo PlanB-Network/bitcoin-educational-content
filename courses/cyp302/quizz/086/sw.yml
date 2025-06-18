@@ -1,0 +1,9 @@
+question: Je, ni dosari gani kuu ya njia ya ECB na block cipher?
+answer: Ni ya kubainisha na inaweza kufichua ruwaza katika data
+wrong_answers:
+  - Inahitaji funguo za urefu tofauti
+  - Haifanyi kazi na ujumbe zaidi ya biti 128
+  - Haifanyi kazi na ujumbe zaidi ya biti 256
+explanation: |
+  Njia ya ECB (Kitabu cha Msimbo wa Kielektroniki) ni ya kuamua: vizuizi vinavyofanana vya data vimesimbwa kwa njia ile ile, ambayo inaruhusu muundo kugunduliwa katika maandishi yaliyosimbwa.
+reviewed: false

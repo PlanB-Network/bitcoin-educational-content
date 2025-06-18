@@ -1,0 +1,10 @@
+question: 整合涉及什麼？
+answer: 合併數個輸入以建立一個較大的輸入。
+wrong_answers:
+  - 將一個大輸入分割成幾個小輸入。
+  - 將多個錢包的輸入轉移到單一錢包。
+  - 將未使用的輸入重新指定到新的位址。
+explanation: |
+  合併的原則是利用 Bitcoin 費用低廉的時期，將較小的 UTXO 合併成一個較大的 UTXO。
+  
+reviewed: false

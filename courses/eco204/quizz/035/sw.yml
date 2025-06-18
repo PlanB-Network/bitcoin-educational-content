@@ -1,0 +1,11 @@
+question: Je, ni nini athari za mfumuko wa bei kwenye akiba?
+answer: Inapunguza thamani ya mtaji na mapato, na kufanya mipango ya muda mrefu kuwa ngumu.
+wrong_answers:
+  - Inaongeza thamani ya akiba.
+  - Haina athari kwa akiba.
+  - Inahimiza watu kuokoa zaidi.
+explanation: |
+  Katika kipindi cha mfumuko wa bei, kuokoa inakuwa changamoto. Pesa haraka
+  inapoteza thamani yake, na kufanya upangaji wa muda mrefu kuwa mgumu. Ukosefu huu wa kifedha
+  inaweza kusababisha mafadhaiko na wasiwasi.
+reviewed: false

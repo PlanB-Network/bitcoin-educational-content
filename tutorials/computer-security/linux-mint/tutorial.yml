@@ -4,9 +4,8 @@ level: advanced
 
 category: operating system
 
-credits:
-  professor: rebuild-kiss
-  link: https://armantheparman.com/mint/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/mint/
 
 # Proofreading metadata
 project_id: d0112afe-ce46-4ef2-9cca-f352ea9c46cf
@@ -83,13 +82,36 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 10.31
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 8.26
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.39
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.26
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.26
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.26
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.31
 tags:
   - guides
   - software

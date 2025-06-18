@@ -1,0 +1,13 @@
+question: Kuna hatari gani ya kutatiza usalama na ufikiaji wa bitcoins zako?
+answer: Unaweza kujidhuru ikiwa utashughulikia vibaya pochi za chelezo.
+wrong_answers:
+  - Unaweza kujidhuru ikiwa utatumia vibaya pochi za mwili.
+  - Unaweza kujidhuru ikiwa utatumia vibaya pochi za kidijitali.
+  - Unaweza kujidhuru ikiwa utatumia vibaya pochi za Multisig.
+explanation: |
+  Kuzidisha usalama na ufikiaji wa yako
+  bitcoins zinaweza kukudhuru ikiwa, kwa mfano, utashughulikia vibaya
+  chelezo za pochi zako. Hii ni kwa sababu chelezo rahisi
+  taratibu ni muhimu kwa kurejesha ufikiaji wa pesa zako
+  katika kesi ya kupoteza simu au kompyuta yako.
+reviewed: true

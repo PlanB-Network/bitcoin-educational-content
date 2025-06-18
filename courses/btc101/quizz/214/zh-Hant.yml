@@ -1,0 +1,12 @@
+question: Milton Friedman 在 1999 年預測了什麼？
+answer: 開發可靠的電子現金。
+wrong_answers:
+  - 實體貨幣的消亡。
+  - Bitcoin 的崛起。
+  - 政府對貨幣控制的終結。
+explanation: |
+  著名經濟學家 Milton Friedman 在 1999 年預言
+  可靠的電子現金將很快被開發出來，這種方法
+  在網際網路上，您可以將資金從 A 轉帳到 B、
+  A 不知道 B，反之亦然。
+reviewed: true

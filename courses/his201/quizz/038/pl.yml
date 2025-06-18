@@ -1,0 +1,9 @@
+question: Jak nazywała się pierwsza aplikacja umożliwiająca proste korzystanie z Bitcoin na urządzeniach mobilnych stworzona w kwietniu 2010 roku?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Rekin prywatności
+explanation: |
+  Został on [promowany](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) na forum 30 kwietnia 2010 roku przez niejakiego komoto.
+reviewed: false

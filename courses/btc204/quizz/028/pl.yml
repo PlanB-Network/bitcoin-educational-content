@@ -1,0 +1,9 @@
+question: Czym jest identyfikacja klucza?
+answer: Możliwość powiązania aspektu tożsamości użytkownika z aktywnością onchain.
+wrong_answers:
+  - Proces przypisywania klucza publicznego do każdej nowej transakcji onchain.
+  - Możliwość śledzenia transakcji onchain za pomocą wspólnej heurystyki Ownership danych wejściowych.
+  - Proces, w którym klucz publiczny jest wyprowadzany z klucza prywatnego.
+explanation: |
+  Identyfikacja klucza obejmuje możliwość powiązania aspektu tożsamości użytkownika z aktywnością onchain.
+reviewed: false

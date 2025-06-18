@@ -1,0 +1,11 @@
+question: 在不同的作業系統上，有哪些資料加密的解決方案？
+answer: Windows 的 BitLocker、Linux 的 LUKS 以及 Mac 的內建選項。
+wrong_answers:
+  - Linux 的 BitLocker、Mac 的 LUKS 以及 Windows 的內建選項。
+  - Mac 的 BitLocker、Windows 的 LUKS 以及 Linux 的內建選項。
+  - 適用於所有作業系統的 LUKS。
+explanation: |
+  不同的作業系統有不同的解決方案
+  資料加密。BitLocker 適用於 Windows，LUKS 適用於
+  Linux 和 Mac 有內建的資料加密選項。
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: SHULE YA AUSTRIAN
+---
+
+Mawazo ya kiuchumi ambayo yanatoa nadharia ya soko kama mkusanyiko wa mwingiliano wa hiari wa watu binafsi, inasisitiza ubinafsi wa mpangilio wa kiuchumi, na kukosoa uingiliaji kati wa serikali. Shule ya Austrian inatetea jukumu la mali ya kibinafsi, uhuru wa kimkataba na biashara huria, huku ikikosoa athari za kutatiza za uundaji wa pesa kwenye uchumi. Wachangiaji wake, kama vile Carl Menger, Ludwig von Mises, na Friedrich Hayek, wamebuni dhana kama vile uundaji wa bei, kazi ya pesa, mienendo ya mtaji, na nadharia dhamira ya thamani. Shule ya Austria inakosoa ujamaa kwa kutokuwa na uwezo wa kufanya mahesabu ya kiuchumi na kupendelea mbinu huria. Inathamini soko huria na inaona uingiliaji kati wa serikali kama chanzo cha kukosekana kwa usawa wa kiuchumi. Wapenzi wengi wa Bitcoin hufuata mawazo haya, wakiamini kwamba Bitcoin inawakilisha chombo kinachopatana na falsafa hii kutokana na hali yake ya kusambazwa, kizuizi cha uundaji wake wa fedha, na uwezo wake wa kufanya kazi bila uingiliaji kati wa serikali.

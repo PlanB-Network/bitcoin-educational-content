@@ -1,0 +1,9 @@
+question: Ni kiambishi awali gani kinatumika kuashiria kitufe cha umma kilichobanwa na kuratibu y isiyo ya kawaida?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Kiambishi awali 0x03 kinaonyesha ufunguo wa umma uliobanwa na kuratibu y isiyo ya kawaida.
+reviewed: false

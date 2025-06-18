@@ -1,0 +1,9 @@
+question: Dlaczego kryptografia asymetryczna jest rzadziej używana niż kryptografia symetryczna w dużych wymianach danych?
+answer: Jest mniej wydajny przy równoważnym poziomie bezpieczeństwa
+wrong_answers:
+  - Nie zapewnia autentyczności wiadomości
+  - Wymaga to wielu kluczy publicznych dla każdego Exchange
+  - Nie jest kompatybilny z nowoczesnymi protokołami komunikacyjnymi
+explanation: |
+  Kryptografia asymetryczna, choć skuteczna do uwierzytelniania i wstępnego szyfrowania, wymaga więcej zasobów, przez co jej użycie jest nieefektywne w przypadku dużych transferów danych.
+reviewed: false

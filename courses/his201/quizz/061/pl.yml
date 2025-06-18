@@ -1,0 +1,9 @@
+question: Która funkcja, zaprojektowana w październiku 2010 r. przez Miner m0mchil, umożliwiała węzłom klienckim pobieranie bloku kandydującego i zwracanie Proof of Work, jeśli znaleziono rozwiązanie?
+answer: getwork
+wrong_answers:
+  - warstwa
+  - gethash
+  - getcredit
+explanation: |
+  Została ona opublikowana 1 października. Satoshi włączył zmodyfikowaną wersję tej funkcji do głównego oprogramowania 23 listopada.
+reviewed: false

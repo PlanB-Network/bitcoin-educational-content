@@ -1,0 +1,8 @@
+question: Madhumuni ya kurekebisha ugumu katika Bitcoin Mining ni nini?
+answer: Husawazisha mchezo wa kimataifa wa Mining kulingana na idadi ya washiriki.
+wrong_answers:
+  - Inaongeza malipo kwa Mining.
+  - Inapunguza idadi ya bitcoins katika mzunguko.
+  - Inaongeza usalama wa mtandao wa Bitcoin.
+explanation: >-
+reviewed: true

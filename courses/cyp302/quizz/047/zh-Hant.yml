@@ -1,0 +1,9 @@
+question: 根據 Euler 定理，對於兩個共素整數 a 和 N，指數 a^j(N) mod N 的結果是什麼？
+answer: 1 mod N
+wrong_answers:
+  - 0 模 N
+  - N mod a
+  - a mod N
+explanation: |
+  Euler 定理指出，對於兩個共素的整數 a 和 N，指數 a^j(N) mod N 總是等於 1 mod N，這個特性用於密碼學。
+reviewed: false

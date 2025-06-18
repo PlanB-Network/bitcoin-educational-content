@@ -1,0 +1,14 @@
+question: Šta treba da bekapujete kada koristite Wallet sa passphrase?
+answer: Morate napraviti rezervnu kopiju i liste od 12 ili 24 reči i vašeg passphrase.
+wrong_answers:
+  - Morate napraviti rezervnu kopiju liste od 12 ili 24 reči.
+  - Treba da napravite rezervnu kopiju samo vašeg passphrase.
+  - Ne treba da pravite rezervnu kopiju liste od 12 ili 24 reči niti vašeg passphrase.
+explanation: |
+  Kada koristite Wallet sa passphrase, potrebno je da napravite rezervnu kopiju
+  i liste od 12 ili 24 reči i vašeg passphrase,
+  jer su lista reči i passphrase oba
+  neophodni za ponovno dobijanje pristupa vašim sredstvima u slučaju
+  gubitka telefona ili računara. Bez jednog ili drugog,
+  sredstva su nedostupna.
+reviewed: true

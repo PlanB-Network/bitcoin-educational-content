@@ -1,0 +1,9 @@
+question: Je, ni hatari gani kuu ya manenosiri dhaifu yanapoharakishwa?
+answer: Wanakabiliwa na mashambulizi ya kamusi
+wrong_answers:
+  - Haziwezi kuthibitishwa na hashing
+  - Daima generate migongano
+  - Zinahitaji hashing ndefu kwa usalama zaidi
+explanation: |
+  Manenosiri dhaifu yanaweza kupatikana kwa urahisi kutoka kwa Hash yao kwa kutumia mashambulizi ya kamusi, na kufanya uteuzi wao kuwa muhimu ili kuhakikisha usalama.
+reviewed: false

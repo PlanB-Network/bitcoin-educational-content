@@ -1,0 +1,9 @@
+question: W prostej transakcji płatniczej, w której wkład w wysokości 500 000 Sats jest podzielony na jeden wkład w wysokości 47 500 Sats i drugi w wysokości 451 000 Sats, który UTXO jest prawdopodobnie zmianą?
+answer: Ten z 451 000 Sats.
+wrong_answers:
+  - Ten z 500 000 Sats.
+  - Ten z 47 500 Sats.
+  - Żaden z nich.
+explanation: |
+  Gdy istnieje wystarczająco duża różnica między dwoma wyjściami w transakcji na prostym modelu płatności, można oszacować, że większe wyjście jest prawdopodobnie zmianą.
+reviewed: false

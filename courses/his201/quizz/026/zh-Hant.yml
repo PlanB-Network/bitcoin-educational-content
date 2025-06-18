@@ -1,0 +1,9 @@
+question: 2008 年 10 月 31 日，Bitcoin 的設計中缺少了什麼元素？
+answer: 單位的有限數量
+wrong_answers:
+  - Proof of Work
+  - 簡化付款驗證
+  - Blockchain
+explanation: |
+  如第一版白皮書和 Satoshi 與 Ray Dillinger 的 [交流](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)所示，最初的貨幣政策對應於恆定發行量 (X BTC/block)。
+reviewed: false

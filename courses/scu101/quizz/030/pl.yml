@@ -1,0 +1,11 @@
+question: Jaka jest złota zasada ochrony przed fałszywymi wiadomościami e-mail?
+answer: Dokładnie sprawdź pełną nazwę nadawcy, a także pochodzenie wiadomości e-mail.
+wrong_answers:
+  - Zawsze odpowiadaj na podejrzane wiadomości e-mail.
+  - Otwórz wszystkie załączniki wiadomości e-mail, aby sprawdzić ich zawartość.
+  - Udostępniaj swoje dane osobowe tylko znanym nadawcom.
+explanation: |
+  Złotą zasadą ochrony przed fałszywymi wiadomościami e-mail
+  jest dokładne sprawdzenie pełnej nazwy nadawcy, jak również
+  a także pochodzenie wiadomości e-mail. W razie wątpliwości, należy ją usunąć!
+reviewed: true

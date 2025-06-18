@@ -1,0 +1,9 @@
+question: Je, "RGB State Transition" inawakilisha nini katika muktadha wa Lightning Network?
+answer: Imesasisha ugawaji wa mali ya RGB iliyojumuishwa katika miamala ya Commitment
+wrong_answers:
+  - Hali mpya ya Multisig 2/2 onchain
+  - Imesasisha ugawaji wa mali ya RGB iliyojumuishwa katika shughuli ya ufadhili
+  - Hati ya uthibitishaji ya On-Chain ilibadilishwa na HTLC
+explanation: |
+  RGB State Transition inasasisha usambazaji wa mali ya RGB katika chaneli kwa kutumia miamala ya Commitment.
+reviewed: false

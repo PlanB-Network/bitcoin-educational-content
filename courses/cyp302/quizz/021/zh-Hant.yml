@@ -1,0 +1,9 @@
+question: 涉及模運算的計算的數學術語是什麼？
+answer: 模組運算
+wrong_answers:
+  - 線性代數
+  - 三角法
+  - 離散幾何
+explanation: |
+  模運算是數學的一門分支，在有限的框架內使用模運算處理數的運算。
+reviewed: false

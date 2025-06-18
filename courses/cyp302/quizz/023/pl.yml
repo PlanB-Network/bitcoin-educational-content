@@ -1,0 +1,9 @@
+question: Jaka jest rola operacji modulo w szyfrowaniu z przesunięciem?
+answer: Gwarantuje to, że litery powrócą na początek alfabetu po przekroczeniu 26
+wrong_answers:
+  - Mnoży wartości liter przez klucz
+  - Odwraca litery alfabetu
+  - Usuwa litery po literze Z
+explanation: |
+  Operacja modulo 26 pozwala literom na powrót do pętli po Z, aby zapewnić, że każda zaszyfrowana litera pozostaje w obrębie 26 liter alfabetu.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Šta odsustvo fraze Mnemonic u Wallet ukazuje?
+answer: To ukazuje da Wallet nije siguran za dugotrajno skladištenje Bitcoin.
+wrong_answers:
+  - To ukazuje da je Wallet potpuno siguran i da ne zahteva nikakvu rezervnu kopiju.
+  - To znači da Wallet može držati mnoge različite veze.
+  - Predlaže da je Wallet automatski podržan od strane vašeg uređaja.
+explanation: |
+  Odsustvo liste od 12 ili 24 reči, to jest
+  Mnemonic fraze, u Wallet treba da vas upozori da
+  Wallet nije siguran jer ne prati standardne procedure
+  bekapa.
+reviewed: true

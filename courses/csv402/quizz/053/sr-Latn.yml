@@ -1,0 +1,9 @@
+question: Kako RGB utire put za DEX Layer-2?
+answer: Omogućavanjem Exchange od off-chain sredstava putem Lightning kanala i atomskih zamena
+wrong_answers:
+  - Omogućavanjem korišćenja centralizovanog Exchange za sve RGB transakcije
+  - Omogućavanjem Exchange sredstava putem On-Chain pametnih ugovora
+  - Omogućavanjem inter-Blockchain sredstva Exchange putem atomskih zamena
+explanation: |
+  Mogućnost obavljanja atomskih zamena i razmena putem Lightning kanala nudi mogućnost kreiranja decentralizovanih DEX-ova, bez nedostataka On-Chain razmena.
+reviewed: false

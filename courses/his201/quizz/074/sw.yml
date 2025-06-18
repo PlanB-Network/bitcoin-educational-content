@@ -1,0 +1,9 @@
+question: Je, jina la kwanza la mhandisi wa mawasiliano kutoka Temple City ambaye alitambuliwa kimakosa na mwandishi wa habari wa Newsweek kama Satoshi Nakamoto Machi 2014 lilikuwa nani?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  Jina lake kamili lilikuwa Dorian Prentice Satoshi Nakamoto. Alikuwa wa asili ya Kijapani. Tazama [makala ya Newsweek](https: //www.newsweek.com/2014/03/14/face-behind-Bitcoin-247957.html).
+reviewed: false

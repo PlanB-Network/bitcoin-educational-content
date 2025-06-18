@@ -1,0 +1,9 @@
+question: Jaki dodatek w lecie 2010 r. umożliwił późniejsze rozwidlenie Soft w Bitcoin?
+answer: Kody operacji OP_NOP
+wrong_answers:
+  - System ostrzegania
+  - Limit rozmiaru bloku
+  - Standardowy format transakcji
+explanation: |
+  Były to instrukcje typu no-op, które nie unieważniały skryptu w przypadku jego wykonania. Umożliwiły one dodanie OP_CHECKLOCKTIMEVERIFY i OP_CHECKSEQUENCEVERIFY do protokołu w 2015/2016 roku.
+reviewed: false

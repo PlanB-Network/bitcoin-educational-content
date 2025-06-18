@@ -1,0 +1,9 @@
+question: 哪些是 Bitcoin 側鏈？
+answer: Liquid 和根莖
+wrong_answers:
+  - 多邊形和 Arbitrum
+  - Jupiter 和 Fantom
+  - Bitcoin 現金和 Bitcoin Satoshi 遠景
+explanation: |
+  Liquid 和 RSK 是側鏈，與 Bitcoin 有 2WP 掛勾。其他選項不是側鏈，或是與 Bitcoin Blockchain 沒有 2WP 的關係。
+reviewed: false

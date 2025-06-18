@@ -1,0 +1,13 @@
+question: Šta je Hot Wallet?
+answer: A Bitcoin Wallet na vašem telefonu ili računaru povezanom na internet.
+wrong_answers:
+  - Wallet koji je fizički Hot na dodir.
+  - Wallet koji je popularan među korisnicima Bitcoin.
+  - Wallet koji se preporučuje za čuvanje velike količine bitkoina.
+explanation: |
+  Hot Wallet je termin koji se koristi za opisivanje Bitcoin Wallet
+  koji je uskladišten na uređaju sa pristupom internetu, kao što je
+  telefon ili računar. Na ovaj način, lako je obavljati
+  transakcije, ali to takođe znači da je Wallet
+  potencijalno ranjiv na online pretnje.
+reviewed: true

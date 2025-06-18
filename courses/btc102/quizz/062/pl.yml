@@ -1,0 +1,9 @@
+question: Czego NIE zaleca się podczas przekazywania dostępu do swoich bitcoinów?
+answer: Przekazanie frazy Mnemonic jednej osobie
+wrong_answers:
+  - Dzielenie informacji między wiele osób
+  - Używanie zapieczętowanych nieprzezroczystych kopert
+  - Pisanie listu wyjaśniającego
+explanation: |
+  Powierzenie frazy Mnemonic jednej osobie bez dodatkowych zabezpieczeń znacznie zwiększa ryzyko kradzieży w ciągu całego życia.
+reviewed: false

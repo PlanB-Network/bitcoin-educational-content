@@ -1,0 +1,9 @@
+question: 使用什麼前綴來表示具有奇數 Y 坐標的壓縮公開金鑰呢？
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  前綴 0x03 表示具有奇數 Y 坐標的壓縮公開金鑰。
+reviewed: false

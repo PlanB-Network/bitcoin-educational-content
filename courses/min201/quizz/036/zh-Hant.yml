@@ -1,0 +1,13 @@
+question: Bitcoin 的生產成本與市場價格之間的關係是什麼？
+answer: Bitcoin 的成本一般可與其價格成正比
+wrong_answers:
+  - Bitcoin 的成本與其價格成反比
+  - Bitcoin 的成本與其價格在一定比例內是固定的
+  - Bitcoin 的成本總是高於其價格
+explanation: |
+  與電力有關的 Bitcoin 成本
+  操作 Mining 機器所需的一般可
+  與其價格成正比。此關係提供了
+  更好地瞭解價格波動和未來
+  前景。
+reviewed: true

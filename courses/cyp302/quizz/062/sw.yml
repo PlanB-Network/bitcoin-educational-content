@@ -1,0 +1,9 @@
+question: Ni aina gani ya usimbaji fiche wa ulinganifu unaotumiwa kimsingi kwa mawasiliano yanayoendelea, kama vile mitiririko ya sauti au video?
+answer: Usimbaji fiche wa mtiririko
+wrong_answers:
+  - Zuia usimbaji fiche
+  - Nambari ya uthibitishaji
+  - Ujumbe hashing
+explanation: |
+  Usimbaji fiche wa mtiririko unafaa hasa kwa mawasiliano endelevu kwa sababu husimba data kwa mfululizo, tofauti na usimbaji fiche wa kuzuia, ambao huwagawanya katika vizuizi.
+reviewed: false

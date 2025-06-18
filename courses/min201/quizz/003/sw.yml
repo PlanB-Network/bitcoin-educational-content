@@ -1,0 +1,13 @@
+question: Je, ni kichocheo gani kikuu cha kifedha kwa wachimbaji madini kushiriki katika mchakato wa Bitcoin Mining?
+answer: Zawadi ya Mining
+wrong_answers:
+  - Uwezo wa kudhibiti mtandao wa Bitcoin
+  - Uwezo wa kuunda bitcoins mpya kwa mapenzi
+  - Uwezo wa kuendesha bei ya Bitcoin
+explanation: |
+  Motisha kuu ya kifedha kwa wachimbaji kushiriki
+  mchakato wa Bitcoin Mining ni malipo ya Mining. Hii
+  malipo hutumika kama motisha yenye nguvu ya kuwatia moyo wachimbaji
+  kushiriki katika mchakato wa Mining licha ya nishati yake
+  gharama.
+reviewed: true

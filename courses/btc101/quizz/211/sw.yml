@@ -1,0 +1,8 @@
+question: Je, Bitcoin inalazimisha makampuni, vyuo vikuu, wadhibiti na watu binafsi kufanya nini?
+answer: Ili kuzingatia.
+wrong_answers:
+  - Ili kupuuza.
+  - Ili kuipiga marufuku.
+  - Ili kuitia hatiani.
+explanation: >-
+reviewed: true

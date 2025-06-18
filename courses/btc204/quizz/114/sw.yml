@@ -1,0 +1,10 @@
+question: Kwa nini mchambuzi hatatumia CoinJoin kwenye shughuli ya aina ya Stonewall?
+answer: Kwa sababu kuna matokeo 2 ya kiasi sawa
+wrong_answers:
+  - Kwa sababu kuna pembejeo 2 tu
+  - Kwa sababu hawafahamu muundo huu
+  - Kwa sababu kuna matokeo zaidi ya pembejeo
+explanation: |
+  Kuchambua muamala wa Stonewall kutoka nje haileti matumizi ya CoinJoin, kwa sababu kuwepo kwa matokeo mawili ya kiasi sawa kunapendekeza muundo wa CoinJoin. Kwa mtazamo wa nje, CoinJoin kwa hivyo haitumiki katika kesi hii maalum.
+  
+reviewed: false

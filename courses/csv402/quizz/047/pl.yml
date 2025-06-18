@@ -1,0 +1,9 @@
+question: Jakiej technologii można użyć do połączenia różnych wersji Stash w przypadku rozbieżności?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - Replikacja oparta na dzienniku
+explanation: |
+  CRDT zapewniają spójność danych, umożliwiając łączenie wielu wersji Stash bez konfliktów po stronie klienta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki jest cel frazy Mnemonic w Bitcoin HD Wallet?
+answer: Aby deterministycznie wyprowadzić wszystkie klucze
+wrong_answers:
+  - Bezpośrednie podpisywanie transakcji
+  - Aby zaszyfrować adresy Bitcoin
+  - Do generate i Hash dla UTXO
+explanation: |
+  Fraza Mnemonic umożliwia wyprowadzenie wszystkich kluczy prywatnych i publicznych w Wallet, ułatwiając w ten sposób tworzenie kopii zapasowych i odzyskiwanie danych.
+reviewed: false

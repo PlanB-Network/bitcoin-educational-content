@@ -1,0 +1,9 @@
+question: Jaka jest rola twierdzenia Bayesa w rachunku prawdopodobieństwa?
+answer: Pozwala to na obliczenie prawdopodobieństwa warunkowego poprzez odwrócenie zdarzeń.
+wrong_answers:
+  - Zapewnia prawdopodobieństwo wystąpienia pojedynczego zdarzenia.
+  - Określa całkowite prawdopodobieństwo wszystkich możliwych zdarzeń.
+  - Dotyczy to tylko zmiennych ciągłych.
+explanation: |
+  Twierdzenie Bayesa umożliwia obliczenie prawdopodobieństwa zdarzenia A przy danym B poprzez odwrócenie prawdopodobieństw i jest niezbędne w teorii prawdopodobieństwa.
+reviewed: false

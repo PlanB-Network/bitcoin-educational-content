@@ -1,0 +1,9 @@
+question: Ufunguo wa kubatilisha unaruhusu kufanya nini katika kesi ya kudanganya?
+answer: Rejesha pesa zote kwa kumwadhibu mdanganyifu
+wrong_answers:
+  - Ghairi Commitment Transaction
+  - Uwezo wa kituo mara mbili
+  - Zuia shughuli zozote zaidi kwenye kituo
+explanation: |
+  Ufunguo wa kubatilisha humruhusu mhusika kurejesha pesa zote iwapo mhusika mwingine alijaribu kulaghai.
+reviewed: false

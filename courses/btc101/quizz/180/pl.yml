@@ -1,0 +1,8 @@
+question: Jaki jest jeden czynnik, który utrudnia organom finansowym regulację Bitcoin?
+answer: Działa na skalę globalną, 24 godziny na dobę, 7 dni w tygodniu.
+wrong_answers:
+  - Jest on kontrolowany przez organ centralny.
+  - Nie jest używany nigdzie na świecie.
+  - Jest łatwy do podrobienia.
+explanation: >-
+reviewed: true

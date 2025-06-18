@@ -1,0 +1,9 @@
+question: 在 RGB 上下文中，Schema 元件等同於什麼物件導向程式設計 (OOP)？
+answer: 類別定義
+wrong_answers:
+  - 類別建構器
+  - 實施 Interface
+  - 方法原型
+explanation: |
+  Schema 對應於 OOP 中類的定義，它描述了 Business Logic 的屬性、方法和規則。
+reviewed: false

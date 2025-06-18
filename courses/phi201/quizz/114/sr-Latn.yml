@@ -1,0 +1,9 @@
+question: Koji je glavni argument Žaka Rifa u vezi sa valutom?
+answer: Papirni novac je opasan i vodi ka dirigizmu
+wrong_answers:
+  - Papirni novac je stabilan i predvidljiv
+  - Papirni novac je neophodan za ekonomski razvoj
+  - Papirni novac mora biti podržan fizičkom imovinom
+explanation: |
+  Jacques Rueff je verovao da papirni novac, olakšavajući kontrolu ekonomije od strane vlasti, favorizuje dirigizam i predstavlja rizike za monetarnu stabilnost.
+reviewed: false

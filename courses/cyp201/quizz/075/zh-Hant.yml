@@ -1,0 +1,9 @@
+question: 標準描述符中的 SegWit v0 帳戶使用何種衍生路徑？
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  BIP84 中定義了路徑 84h/0h/0h，用於從 P2WPKH 獲取 SegWit v0 位址的帳戶。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Co Mining ustanawia dla Bitcoin?
+answer: Cena minimalna
+wrong_answers:
+  - Cena maksymalna
+  - Stała cena
+  - Zmienna cena
+explanation: |
+  Mining ustanawia cenę minimalną dla Bitcoin, poniżej której
+  górnicy sprzedawaliby ze stratą. Koszt Mining
+  znacząco wpływa na cenę Bitcoin.
+reviewed: true

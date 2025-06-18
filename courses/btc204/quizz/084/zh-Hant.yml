@@ -1,0 +1,10 @@
+question: 混合後的 Wallet 在 Zerolink 通訊協定中扮演什麼角色？
+answer: 要在混合後儲存 UTXO。
+wrong_answers:
+  - 要在混合前儲存 UTXO。
+  - 儲存變更的 UTXOs。
+  - 儲存整合的 UTXO。
+explanation: |
+  混合後的 Wallet 保留給已混合的硬幣。
+  
+reviewed: false

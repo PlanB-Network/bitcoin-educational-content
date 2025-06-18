@@ -1,0 +1,9 @@
+question: Jaka koncepcja matematyczna leży u podstaw klucza Exchange Diffiego-Hellmana?
+answer: Funkcja jednokierunkowa z tylnym wejściem
+wrong_answers:
+  - Odwrotność funkcji wykładniczej
+  - Kryptograficzny algorytm Hash
+  - Uproszczony podział modułowy
+explanation: |
+  Diffie-Hellman opiera się na funkcji jednokierunkowej, która jest łatwa do obliczenia w jednym kierunku, ale praktycznie niemożliwa do odwrócenia bez tajnej informacji, zwanej backdoorem.
+reviewed: false

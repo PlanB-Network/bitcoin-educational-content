@@ -1,0 +1,10 @@
+question: Jakie umiejętności są potrzebne w cyberbezpieczeństwie?
+answer: Analiza logów, reagowanie na incydenty
+wrong_answers:
+  - Projektowanie graficzne, montaż wideo
+  - Sprzedaż, marketing
+  - Gotowanie, pieczenie
+explanation: |
+  Rozdział wymienia analizę logów i reagowanie na incydenty jako
+  niektóre z umiejętności potrzebnych w cyberbezpieczeństwie.
+reviewed: true

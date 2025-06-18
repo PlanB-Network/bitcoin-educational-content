@@ -1,0 +1,10 @@
+question: 使用何種加密方法來防止協調器連結 CoinJoin 中的輸入和輸出？
+answer: Chaum 盲簽名。
+wrong_answers:
+  - Schnorr 簽名。
+  - P2SH 地址。
+  - P2TR 地址。
+explanation: |
+  在所謂的 Chaumian Coojoins 中，Tor 的使用和 David Chaum 的盲簽名結合起來，以確保協調者無法知道哪個輸出是屬於哪個使用者的。
+  
+reviewed: false

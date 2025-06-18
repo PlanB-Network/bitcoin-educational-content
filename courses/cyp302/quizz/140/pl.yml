@@ -1,0 +1,9 @@
+question: Jaka jest natura problemu faktoryzacji, który leży u podstaw bezpieczeństwa kryptosystemów asymetrycznych, takich jak RSA?
+answer: Rozkład liczby na dwa bardzo duże czynniki pierwsze
+wrong_answers:
+  - Rozkład liczby na kolejne czynniki równe 2
+  - Redukcja liczby do jej najmniejszych dzielników
+  - Mnożenie dwóch dużych liczb pierwszych w celu uzyskania iloczynu
+explanation: |
+  Bezpieczeństwo RSA opiera się na trudności rozłożenia dużej liczby (iloczynu dwóch dużych liczb pierwszych) na dwa czynniki pierwsze, co jest zadaniem prawie niemożliwym bez klucza prywatnego.
+reviewed: false

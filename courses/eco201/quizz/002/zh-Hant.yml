@@ -1,0 +1,11 @@
+question: 課程的講師是誰？
+answer: Théo Mogenet
+wrong_answers:
+  - Théo Boloré
+  - Descoupes Bitcoin
+  - 以上皆非
+explanation: |
+  本章提到課程的導師是
+  Théo Mogenet，一位熱情又能幹的教授。
+  奧地利經濟學。
+reviewed: true

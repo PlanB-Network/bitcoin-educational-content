@@ -1,0 +1,10 @@
+question: Jaki jest główny cel techniki rykoszetu?
+answer: Aby zatrzeć ślady przeszłości monety
+wrong_answers:
+  - Aby zwiększyć potencjalny czas trwania transakcji
+  - Aby zwiększyć entropię transakcji
+  - Mniejsze opłaty transakcyjne w przyszłości
+explanation: |
+  Celem rykoszetu jest symulacja zmiany Ownership monety Bitcoin w celu przywrócenia jej zamienności poprzez zatarcie jej wcześniejszych śladów.
+  
+reviewed: false

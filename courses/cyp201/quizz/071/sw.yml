@@ -1,0 +1,9 @@
+question: Je, ni kina kipi katika njia ya utokezi kinabainisha aina ya sarafu?
+answer: Kina 2
+wrong_answers:
+  - Kina 1
+  - Kina 3
+  - Kina 4
+explanation: |
+  Kina 2 kinatumika kutambua sarafu katika pochi za sarafu nyingi, kama vile Bitcoin (index 0') au Litecoin (index 2').
+reviewed: false

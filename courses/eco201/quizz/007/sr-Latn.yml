@@ -1,0 +1,9 @@
+question: Ko je zahvaljen za produkciju kursa?
+answer: Théo Mogenet
+wrong_answers:
+  - Descoupes Bitcoin
+  - Théo Boloré
+  - Ništa od navedenog
+explanation: |
+  Poglavlje pominje da je Théo zahvaljen za produkciju kursa.
+reviewed: true

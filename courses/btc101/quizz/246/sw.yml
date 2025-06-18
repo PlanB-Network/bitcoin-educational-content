@@ -1,0 +1,13 @@
+question: Je, Bitcoin ina uhusiano gani na mustakabali wa teknolojia na jamii?
+answer: Bitcoin ni mapinduzi ya kiteknolojia ambayo inaruhusu Exchange kuwa ya thamani bila wahusika wengine wanaoaminika.
+wrong_answers:
+  - Bitcoin ni aina ya teknolojia ya AI inayoruhusu watu kupata taarifa za Exchange kupitia seva kuu.
+  - Bitcoin ni chombo cha kudhibiti idadi ya watu duniani, kuruhusu uondoaji wa umaskini.
+  - Bitcoin ni njia ya serikali kufuatilia miamala ya fedha ya raia wao.
+explanation: |
+  Maandishi yanaeleza kuwa Bitcoin, kama mtandao wa njia
+  ya mawasiliano, ni mapinduzi ya kiteknolojia ambayo
+  huunda nafasi kwa aina mpya za kiwango kikubwa
+  shirika, kutuletea uwezekano wa kubadilishana
+  thamani bila mtu wa tatu anayeaminika.
+reviewed: true

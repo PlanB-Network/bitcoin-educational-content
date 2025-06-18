@@ -1,0 +1,26 @@
+id: 47ebede0-74e9-497f-8f91-d122b2d30aa9
+name: Blitz Wallet
+
+links:
+  website: https://blitz-wallet.com/
+  twitter: https://x.com/blitzwalletapp
+
+category: wallet
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - wallets
+  - lightning
+  - sidechains
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-16
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

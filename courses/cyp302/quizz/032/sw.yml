@@ -1,0 +1,9 @@
+question: Kwa nini kamba ya uwongo inasemwa kuwa haiwezi kutofautishwa na mfuatano wa nasibu kweli?
+answer: Kwa sababu karibu haiwezekani kuamua asili yake bila habari ya ziada
+wrong_answers:
+  - Kwa sababu ina sehemu za kuamua zinazofanana na mfuatano wa nasibu
+  - Kwa sababu hutumia nambari zinazoelea katika ujenzi wake
+  - Kwa sababu hutolewa tu kutoka kwa matukio ya asili
+explanation: |
+  Mfuatano wa uwongo umeundwa ili kufanana kwa karibu na mfuatano wa nasibu wa kweli, na kufanya tofauti isiwezekane bila ufikiaji wa seed au algoriti iliyotumika.
+reviewed: false

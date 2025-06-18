@@ -1,0 +1,9 @@
+question: RGB 生態系統中的 RGB-lightning-node 是什麼？
+answer: 用於管理 RGB 相容 Lightning 通道的 daemon
+wrong_answers:
+  - 管理 RGB 資產的移動式 Wallet
+  - Exchange RGB 日誌的代理伺服器
+  - 用於 Bitcoin 上 RGB 資產的 Mining 工具
+explanation: |
+  RGB-lightning-node 是 Rust daemon，旨在透過在 engagement 交易中加入 RGB 狀態轉換，將 RGB 資產整合至 Lightning 通道。
+reviewed: false

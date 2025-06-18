@@ -1,0 +1,10 @@
+question: Której heurystyki można użyć do połączenia wszystkich wejść konsolidacji?
+answer: CIOH.
+wrong_answers:
+  - Ponowne użycie Address.
+  - Największa wydajność.
+  - Okrągła płatność.
+explanation: |
+  Zewnętrzny obserwator może zastosować CIOH, aby postawić hipotezę, że wszystkie wejścia konsolidacji należą do tego samego podmiotu.
+  
+reviewed: false

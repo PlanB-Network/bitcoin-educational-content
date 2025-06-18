@@ -1,0 +1,9 @@
+question: UTXO kwenye Bitcoin ni nini?
+answer: Kipande cha Bitcoin ambacho bado hakijatumika.
+wrong_answers:
+  - Bitcoin Address kupokea fedha.
+  - Aina maalum ya Bitcoin Wallet.
+  - Kanuni ya usimbaji fiche ya Bitcoin.
+explanation: |
+  UTXO ni pato la muamala ambalo halijatumika, kwa hivyo kimsingi ni "kipande cha Bitcoin".
+reviewed: false

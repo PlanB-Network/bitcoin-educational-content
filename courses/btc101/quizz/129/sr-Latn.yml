@@ -1,0 +1,8 @@
+question: Šta je Bitcoin Blockchain?
+answer: Javni i nepromenljivi Ledger svih Bitcoin transakcija.
+wrong_answers:
+  - Privatni i promenljivi Ledger svih Bitcoin transakcija.
+  - Javni i promenljivi Ledger svih Bitcoin transakcija.
+  - Privatni i nepromenljivi Ledger svih Bitcoin transakcija.
+explanation: >-
+reviewed: true

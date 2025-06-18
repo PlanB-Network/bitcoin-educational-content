@@ -1,0 +1,9 @@
+question: Je, ni awamu gani ya kwanza inayotokea katika uzushi wa mfumuko wa bei?
+answer: Kupoteza imani katika sarafu.
+wrong_answers:
+  - Kuporomoka kwa sarafu na ongezeko la bei.
+  - Mzunguko mbaya wa uchapishaji wa pesa.
+  - Sarafu mpya inaibuka.
+explanation: |
+  Awamu ya kwanza ya mfumuko wa bei ni kupoteza imani katika sarafu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je glavni rizik povezan sa ponovnom upotrebom adrese?
+answer: Omogućava uspostavljanje determinističkih veza između različitih transakcija i zajedničkog vlasništva nad dotičnim UTXO-vima.
+wrong_answers:
+  - Izlaže IP korisnika adrese drugim učesnicima mreže tokom validacije transakcije.
+  - Smanjuje efikasnost mehanizama digitalnog potpisa, što oslabljuje sigurnost transakcija.
+  - To dovodi do povećanja naknada za transakcije zbog zagušenja uzrokovanog ponovnom upotrebom adrese.
+explanation: |
+  Ako se ista adresa koristi za više transakcija, postaje moguće zaključiti da svi bitkoini povezani sa tim adresom pripadaju istoj osobi.
+reviewed: false

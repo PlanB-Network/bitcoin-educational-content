@@ -1,0 +1,9 @@
+question: Dlaczego zaleca się regularne przenoszenie środków z Hot Wallet do Hardware Wallet?
+answer: Aby zmniejszyć ryzyko włamania
+wrong_answers:
+  - Aby zwiększyć płynność Wallet
+  - Aby zmniejszyć opłaty transakcyjne
+  - Aby zoptymalizować prywatność UTXO
+explanation: |
+  Transfer do Hardware Wallet zabezpiecza środki poprzez przechowywanie kluczy prywatnych w trybie offline.
+reviewed: false

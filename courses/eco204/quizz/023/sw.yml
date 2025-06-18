@@ -1,0 +1,12 @@
+question: Je! ni nini umuhimu wa neno Burner-preneurs katika muktadha wa mfumuko mkubwa wa bei?
+answer: Inarejelea wajasiriamali wanaostawi kwa kukopa sarafu iliyopunguzwa thamani ili kuwekeza katika mali inayoonekana, na kisha kulipa madeni yao kwa sarafu iliyopunguzwa thamani zaidi.
+wrong_answers:
+  - Inarejelea watu ambao huchoma sarafu iliyopunguzwa thamani kwa madhumuni ya kuongeza joto.
+  - Inarejelea watu wanaoanzisha biashara zinazohusiana na utengenezaji wa noti.
+  - Inarejelea watu binafsi wanaofanya biashara kinyume cha sheria kwa fedha za kigeni.
+explanation: |
+  Katika kipindi cha mfumuko mkubwa wa bei, thamani ya sarafu inamomonyoka haraka.
+  Hii inaunda fursa kwa wajasiriamali, ambao mara nyingi huitwa Burner-preneurs, ambao
+  kukopa sarafu iliyopunguzwa thamani ili kuwekeza katika mali inayoonekana, na kisha kulipa yao
+  madeni yenye sarafu iliyopunguzwa thamani zaidi.
+reviewed: false

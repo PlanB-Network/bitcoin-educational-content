@@ -1,0 +1,9 @@
+question: Katika RGB Contract, kazi ya Interface ni nini?
+answer: Fanya data ya Contract iwe rahisi kusoma na kudhibiti
+wrong_answers:
+  - Inaendesha hati za uthibitishaji kwenye Blockchain
+  - Hifadhi data ya Genesis kwa upande wa mteja
+  - Bainisha aina kali za mfumo wa ripoti
+explanation: |
+  Lengo la Interface ni kuwasilisha taarifa za Contract kwa njia ambayo ni wazi kwa watumiaji na programu, bila kuathiri Business Logic.
+reviewed: false

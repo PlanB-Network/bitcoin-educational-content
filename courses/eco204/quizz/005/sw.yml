@@ -1,0 +1,12 @@
+question: Je, ni mkakati gani uliotumiwa na Uhispania kupunguza thamani ya sarafu yake bila kuathiri nafasi yake katika biashara ya kimataifa?
+answer: Uhispania kwa kuchagua ilishusha thamani ya Maravedi, sarafu ya ndani, huku ikihifadhi thamani ya dola ya Uhispania katika kiwango cha kimataifa.
+wrong_answers:
+  - Uhispania kwa kuchagua ilishusha thamani ya dola ya Uhispania, fedha ya ndani, huku ikihifadhi thamani ya Maravedi kwenye jukwaa la kimataifa.
+  - Uhispania kwa kuchagua iliongeza thamani ya Maravedi, sarafu ya ndani, huku ikihifadhi thamani ya dola ya Uhispania kwenye jukwaa la kimataifa.
+  - Uhispania kwa kuchagua iliongeza thamani ya dola ya Uhispania, fedha ya ndani, huku ikihifadhi thamani ya Maravedi kwenye jukwaa la kimataifa.
+explanation: |
+  Uhispania ilijikuta katika hali tete. Kupunguza dola ya Uhispania
+  ingeweza kuathiri nafasi yake katika biashara ya kimataifa. Ili kuondokana na shida hii,
+  Uhispania iligeukia Maravedi, sarafu ya shaba inayotumiwa sana na wenyeji.
+  Sarafu hii ililengwa kushushwa thamani.
+reviewed: false

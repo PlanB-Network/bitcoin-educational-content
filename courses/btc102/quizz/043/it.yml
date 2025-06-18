@@ -1,9 +1,9 @@
-question: Qual è il motivo principale per cui i governi e le banche centrali stanno esplorando la possibilità di creare una versione digitale della propria valuta fiat?
-answer: Per garantire il controllo e rispettare le normative locali
+question: Qual è l'obiettivo principale di un hodler?
+answer: Per conservare i propri bitcoin a lungo termine
 wrong_answers:
-  - Per competere con Bitcoin
-  - Per fornire protezione della privacy
-  - Per aumentare la sorveglianza di massa
+  - Speculare a breve termine
+  - Per effettuare frequenti transazioni Bitcoin
+  - Per massimizzare la privacy delle loro transazioni Bitcoin
 explanation: |
-  Il contenuto del capitolo spiega che, sebbene questi progetti sostengano di competere con Bitcoin, rimangono centralizzati al fine di garantire il controllo e rispettare le normative locali.
+  Un hodler mira a conservare i propri bitcoin per molti anni, al fine di beneficiare della presunta crescita dell'asset.
 reviewed: false

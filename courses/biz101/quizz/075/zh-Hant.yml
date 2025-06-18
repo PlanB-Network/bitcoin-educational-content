@@ -1,0 +1,9 @@
+question: 企業級 Bitcoin 支付實施的主要目標是什麼？
+answer: 將 Bitcoin 付款完全整合到組織的核心流程中
+wrong_answers:
+  - 小規模實驗 Bitcoin
+  - 將 Bitcoin 用於行銷目的
+  - 接受 Bitcoin，無需整合至其他系統
+explanation: |
+  企業解決方案旨在使 Bitcoin 付款與核心業務工作流程和系統保持一致。
+reviewed: false

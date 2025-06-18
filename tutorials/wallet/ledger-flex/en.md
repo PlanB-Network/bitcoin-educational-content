@@ -4,6 +4,8 @@ description: Setting up and using the Ledger Flex
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/V3wnS9_Ieyc)
+
 A hardware wallet is an electronic device dedicated to managing and securing the private keys of a Bitcoin wallet. Unlike software wallets (or hot wallets) installed on general-purpose machines often connected to the Internet, hardware wallets allow for the physical isolation of private keys, reducing the risks of hacking and theft.
 
 The main goal of a hardware wallet is to minimize the device's functionalities to reduce its attack surface. Less attack surface also means fewer potential attack vectors, i.e., fewer weak points in the system that attackers could exploit to access bitcoins.
@@ -168,6 +170,11 @@ The passphrase should not be confused with the PIN code. It plays a role in the 
 The passphrase is a very powerful tool for enhancing the security of your bitcoins. However, it is very important to understand how it works before implementing it, to avoid losing access to your wallet. I will explain how to use the passphrase in another dedicated tutorial.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+The passphrase is a very powerful tool to strengthen the security of your bitcoins. However, it's crucial to understand how it works before implementing it, to avoid losing access to your wallet. That's why I explain everything in a dedicated tutorial:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Finally, the last settings page allows you to reset your Ledger. Only proceed with this reset if you are certain it does not contain any keys securing bitcoins, as you could permanently lose access to your funds.
 ![LEDGER FLEX](assets/notext/30.webp)
 

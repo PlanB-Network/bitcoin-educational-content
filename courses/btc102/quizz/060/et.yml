@@ -1,9 +1,9 @@
-question: Mis on hot wallet Bitcoin'i kontekstis?
-answer: Rahakott väikeste Bitcoin'i summade hoidmiseks veebis
+question: Milline on Bitcoin pärimiskirja roll pärandvara plaanis?
+answer: Juhendada pärijaid fondidele juurdepääsul
 wrong_answers:
-  - Rahakott, mida kasutatakse tehinguteks kuumas kliimas
-  - Rahakott, mida kasutatakse suurte Bitcoin'i summade hoidmiseks
-  - Rahakott, mida kasutatakse Bitcoin'i hoidmiseks pikka aega
+  - Tegemist on Contract-ga bitcoinide üleandmiseks pärijatele
+  - Varade maksustamise jaotuse kindlaksmääramiseks
+  - Rahakottide vaheliste ülekandetasude optimeerimiseks
 explanation: |
-  Hot wallet on rahakott väikeste Bitcoin'i summade hoidmiseks veebis.
-  See peetakse vähem turvaliseks kui cold wallet, kuna see on rohkem avatud häkkimisele.
+  Pärimiskirjas on esitatud selged ja täpsed juhised, et lähedased saaksid bitcoinid tagasi saada.
+reviewed: false

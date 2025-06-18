@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa funkcja Lightning Invoice?
+answer: Żądanie płatności od węzła wysyłającego
+wrong_answers:
+  - Wysyłanie środków bez transakcji On-Chain
+  - Aktywacja HTLC na kanale
+  - Otwórz nowy kanał Lightning
+explanation: |
+  Błyskawica Invoice jest żądaniem płatności, przesyłanym przez węzeł odbierający do węzła wysyłającego w celu zainicjowania płatności na Lightning Network.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Mining pool inafanyaje kazi na kwa nini inahitajika?
+answer: Mining pool ni kundi la wachimba migodi ambao huchanganya rasilimali zao za kompyuta ili kuongeza nafasi zao za Mining. Ushirikiano huu ni muhimu kwa sababu mashine ndogo ya Mining iliyotengwa inashindana dhidi ya makampuni makubwa ya sekta, na hivyo kupunguza nafasi zake za kufaulu hadi kiwango kidogo. Kwa kuunganisha pamoja, wachimbaji wanaweza kuchanganya nguvu zao za kompyuta, kutafuta vizuizi mara kwa mara, na kisha kusambaza zawadi sawia na mchango wa kila Miner kwenye bwawa.
+wrong_answers:
+  - Mining pool ni kundi la wachimba migodi wanaotumia mashine sawa ya Mining ili kuongeza nafasi zao za Mining. Ushirikiano huu ni muhimu kwa sababu mashine moja ya Mining inaweza tu kuchimba kiasi kidogo cha Bitcoin.
+  - Mining pool ni kundi la wachimba migodi wanaoshiriki programu sawa ya Mining ili kuongeza nafasi zao za Mining. Ushirikiano huu ni muhimu kwa sababu programu tofauti za Mining zina utendakazi tofauti.
+  - Mining pool ni kundi la wachimba migodi wanaoshiriki eneo moja la Mining ili kuongeza nafasi zao za Mining. Ushirikiano huu ni muhimu kwa sababu eneo la uendeshaji wa Mining linaweza kuathiri ufanisi wa Mining.
+explanation: |
+  Sura hiyo inaeleza kuwa Mining pool ni kundi la
+  wachimbaji wanaochanganya rasilimali zao za kompyuta ili kuongeza
+  nafasi zao za Mining. Ushirikiano huu ni muhimu
+  kwa sababu mashine ndogo ya Mining iliyotengwa inashindana
+  dhidi ya makubwa ya sekta, kupunguza nafasi yake ya mafanikio kwa
+  kiwango kisicho na maana.
+reviewed: true

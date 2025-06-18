@@ -1,0 +1,10 @@
+question: Dlaczego analityk nie zastosuje CoinJoin do transakcji typu Stonewall?
+answer: Ponieważ istnieją 2 wyjścia o tej samej wartości
+wrong_answers:
+  - Ponieważ są tylko 2 wejścia
+  - Ponieważ nie są zaznajomieni z tym wzorem
+  - Ponieważ jest więcej wyjść niż wejść
+explanation: |
+  Analiza transakcji Stonewall z zewnątrz nie prowadzi do zastosowania CoinJoin, ponieważ obecność dwóch wyjść o tej samej kwocie sugeruje wzorzec CoinJoin. Z zewnętrznego punktu widzenia CoinJoin nie ma zatem zastosowania w tym konkretnym przypadku.
+  
+reviewed: false

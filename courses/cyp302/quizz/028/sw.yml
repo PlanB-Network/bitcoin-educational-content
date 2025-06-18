@@ -1,0 +1,9 @@
+question: Je, matokeo ya 0 XOR 1 ni nini?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  Na XOR, 0 XOR 1 hutoa 1 kwa sababu biti ni tofauti.
+reviewed: false

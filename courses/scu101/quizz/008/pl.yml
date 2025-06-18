@@ -1,0 +1,13 @@
+question: Czym jest sieć TOR?
+answer: Sieć oferująca anonimowość poprzez maskowanie adresu IP Address użytkownika i umożliwiająca dostęp do Darknetu.
+wrong_answers:
+  - Sieć, która chroni urządzenie przed wirusami i innym złośliwym oprogramowaniem.
+  - Sieć, która ukrywa aktywność online użytkownika przed dostawcą usług internetowych.
+  - Sieć, która umożliwia szybsze przeglądanie Internetu.
+explanation: |
+  Sieć TOR (The Onion Router) to sieć, która oferuje
+  anonimowość, maskując adres IP użytkownika Address i umożliwiając dostęp do Darknetu
+  dostęp do Darknetu. Jest używana przez dziennikarzy, działaczy na rzecz
+  wolności i innych, którzy chcą uniknąć cenzury w krajach autorytarnych
+  cenzury w krajach autorytarnych.
+reviewed: true

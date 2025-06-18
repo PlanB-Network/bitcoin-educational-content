@@ -1,9 +1,9 @@
-question: O que significa 2FA?
-answer: Autenticação de Dois Fatores
+question: Por que razão é recomendável manter a discrição sobre as suas participações no Bitcoin?
+answer: Para evitar atrair a atenção dos criminosos e dos governos
 wrong_answers:
-  - Autorização de Dois Fatores
-  - Autenticação de Duas Características
-  - Autenticação de Duas Funções
+  - Beneficiar de melhores taxas Exchange em certos países
+  - Para não atrair a atenção dos empresários que procuram financiamento
+  - Melhorar a capacidade de contração de empréstimos
 explanation: |
-  2FA significa Autenticação de Dois Fatores. Ela fornece uma camada adicional de segurança para suas contas mais sensíveis.
+  A discrição protege contra o risco de ser alvo de burlões, pessoas invejosas ou ladrões.
 reviewed: false

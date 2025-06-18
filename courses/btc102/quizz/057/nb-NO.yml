@@ -1,10 +1,9 @@
-question: Hva står DCA for i sammenheng med Bitcoin-investering?
-answer: Dollar Cost Averaging
+question: Hvilken anskaffelsesmetode unngår den paranoide brukeren?
+answer: Sentraliserte plattformer med KYC
 wrong_answers:
-  - Direkte Valutaanskaffelse
-  - Digital Myntallokering
-  - Desentralisert Kryptovaluta
+  - P2P matchmaking-plattformer
+  - Bitcoin minibanker
+  - Direkte kontantkjøp på meetups
 explanation: |
-  Dollar Cost Averaging (DCA) er en strategi hvor du deler det totale
-  beløpet du ønsker å investere over periodiske kjøp for å redusere innvirkningen av volatilitet.
+  For å bevare anonymiteten unngår den paranoide brukeren plattformer som krever identitetsbekreftelse.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Kwa nini ni vigumu kuunda usimbaji wa hali ya kuzuia kutoka kwa msimbo wa mtiririko?
+answer: Kwa sababu misimbo ya mtiririko huchakata data mfululizo
+wrong_answers:
+  - Kwa sababu misimbo ya mtiririko haitumii funguo za faragha
+  - Kwa sababu njia za kuzuia zinahitaji funguo ndefu zaidi
+  - Kwa sababu misimbo ya mtiririko huwa polepole kila wakati
+explanation: |
+  Nambari za utiririshaji zimeundwa ili kusimba data kwa njia fiche kila mara (kidogo kidogo au baiti kwa baiti), jambo ambalo linatatiza matumizi yao katika hali ya kuzuia ambayo inahitaji kuchakatwa katika vizuizi vya ukubwa usiobadilika.
+reviewed: false

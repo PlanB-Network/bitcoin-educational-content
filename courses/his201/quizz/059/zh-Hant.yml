@@ -1,0 +1,9 @@
+question: 在 2010 年 9 月 18 日 Jeff Garzik 慷慨捐款後，哪位論壇會員公開了他們的 Mining 演算法？
+answer: 布丁
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  在此之前，他們一直從使用其軟體的佣金中獲利。他們 [出版](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) 了免費授權。
+reviewed: false

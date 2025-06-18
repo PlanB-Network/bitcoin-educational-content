@@ -1,0 +1,9 @@
+question: گیرنده (Bob) چه اقدامی انجام می‌دهد وقتی که Terminal Consignment را از پرداخت‌کننده (Alice) دریافت می‌کند؟
+answer: اعتبار State Transition را بررسی کرده و امضا کنید
+wrong_answers:
+  - اصلاح Contract Schema و ارسال به Alice
+  - ایجاد یک Invoice برای عملیات جدید
+  - Alice را امضا کنید، PSBT را امضا کنید و آن را در زنجیره توزیع کنید.
+explanation: |
+  Bob، Consignment را بررسی می‌کند، اطمینان حاصل می‌کند که انتقال با قوانین مطابقت دارد و با امضا موافقت خود را تأیید می‌کند.
+reviewed: false

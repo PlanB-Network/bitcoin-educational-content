@@ -1,0 +1,9 @@
+question: Jaką rolę odgrywa Schema w RGB?
+answer: Definiowanie zmiennych Contract, reguł i Business Logic
+wrong_answers:
+  - Przesyłki sklepowe wymieniane między uczestnikami
+  - Weryfikacja zobowiązań Pedersena w transakcjach Bitcoin
+  - Utwórz definicje Seal dla każdego UTXO
+explanation: |
+  Schema strukturyzuje stan Contract i określa dozwolone przejścia i warunki walidacji.
+reviewed: false

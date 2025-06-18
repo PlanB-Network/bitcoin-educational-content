@@ -1,0 +1,10 @@
+question: Dust ni nini katika muktadha wa UTXO?
+answer: UTXO ambazo thamani yake ni ya chini sana kulipia ada zinazohitajika kuzitumia.
+wrong_answers:
+  - UTXO zinazotokana na makosa ya muamala na ambayo hayawezi kuthibitishwa kwenye Blockchain.
+  - UTXO ambazo zimetiwa alama kuwa za kutiliwa shaka au kuhusishwa na shughuli haramu kwenye mtandao.
+  - UTXO ambazo zimehifadhiwa katika anwani ambazo hazijatumiwa kwa muda mrefu na kuchukuliwa kuwa zimepotea.
+explanation: |
+  Dust inarejelea UTXO ambazo thamani yake katika Sats ni ya chini sana kwamba haitoshi kulipia ada za muamala zinazohitajika kuzitumia.
+  
+reviewed: false

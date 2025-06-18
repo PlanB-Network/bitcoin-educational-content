@@ -1,0 +1,11 @@
+question: Jak wzmocnić domyślne zabezpieczenia Bitcoin Wallet?
+answer: Dodając passphrase do Bitcoin Wallet.
+wrong_answers:
+  - Dodając drugi klucz prywatny do Bitcoin Wallet.
+  - Dodając drugi klucz publiczny do Bitcoin Wallet.
+  - Dodając drugą frazę Mnemonic do Bitcoin Wallet.
+explanation: |
+  Jeśli nie jesteś zadowolony z domyślnego zabezpieczenia swojego
+  Bitcoin Wallet, zawsze można je wzmocnić, dodając moduł
+  passphrase do Bitcoin Wallet.
+reviewed: true

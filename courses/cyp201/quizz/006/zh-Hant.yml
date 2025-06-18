@@ -1,0 +1,9 @@
+question: 在 SHA256 中，每輪壓縮期間會發生什麼事？
+answer: 狀態變數由訊息字和常數更新。
+wrong_answers:
+  - 最終的 Hash 在每一輪後逐步產生
+  - 訊息位元重新排列
+  - 變數的初始值保持不變
+explanation: |
+  每輪使用字元、常數和邏輯運算修改狀態變數，以傳播資訊。
+reviewed: false

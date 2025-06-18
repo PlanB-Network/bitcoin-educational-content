@@ -1,0 +1,10 @@
+question: Zašto se Bitcoin smatra novim oblikom novca?
+answer: Jer je to digitalni novac bez centralnog entiteta.
+wrong_answers:
+  - Zato što je digitalna valuta podržana zlatom.
+  - Zato što je to valuta koja zahteva banku Blockchain.
+  - Jer zato kaže Federalne rezerve.
+explanation: |
+  Bitcoin se može posmatrati kao novi oblik novca, jer proizlazi
+  iz peer-to-peer mreže bez centralnog entiteta.
+reviewed: true

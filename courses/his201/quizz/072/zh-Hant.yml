@@ -1,0 +1,9 @@
+question: Satoshi 離開時將軟體開發的責任交給了誰？
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin 之前 [表示](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651)，他會更積極地管理 Bitcoin 專案，並於 2010 年 12 月開放 GitHub 儲存庫。
+reviewed: false

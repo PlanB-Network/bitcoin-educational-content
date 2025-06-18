@@ -1,0 +1,11 @@
+question: 與 Bitcoin Mining 相關的主要挑戰是什麼？
+answer: Mining 產業競爭激烈且變化多端，不可預見的事故可能會擾亂 Mining 的營運。
+wrong_answers:
+  - 主要的挑戰是找到可靠的電力來源。
+  - 主要的挑戰是找到一個安全的地方來儲存挖出來的 bitcoins。
+  - 主要的挑戰是為挖出的 bitcoins 找到買家。
+explanation: |
+  與 Bitcoin Mining 相關的主要挑戰是
+  Mining 產業競爭激烈且不穩定、
+  和不可預見的事故可能會中斷 Mining 的作業。
+reviewed: true

@@ -1,12 +1,9 @@
-question: Mitä tarkoittaa, jos sinulla ei ole yksityistä avainta Bitcoin-lompakkoosi?
-answer: Kolmas osapuoli vastaa bitcoinejesi turvallisuudesta
+question: Mitä Cold-tallennusratkaisua suositellaan vainoharhaiselle käyttäjälle?
+answer: Ilmaläpivienti tai DIY Hardware Wallet
 wrong_answers:
-  - Olet menettänyt kaikki bitcoinit
-  - Et voi enää tehdä transaktioita bitcoineillasi
-  - Bitcoinisi muunnetaan automaattisesti toiseen kryptovaluuttaan
+  - Liikkuva Hot Wallet
+  - Exchange-alustan huoltopalvelut
+  - Yleiskäyttöinen suljetun lähdekoodin Hardware Wallet
 explanation: |
-  Jos sinulla ei ole yksityistä avainta Bitcoin-lompakkoosi, se tarkoittaa,
-  että kolmas osapuoli vastaa bitcoinejesi turvallisuudesta. Ne ovat alttiina
-  samoille riskeille kuin vaihtoalustat, kuten hakkerointi, takavarikointi, säätely tai
-  konkurssi.
+  Vainoharhainen käyttäjä suosii offline-tallennusta avoimen lähdekoodin ratkaisuilla altistumisriskin minimoimiseksi.
 reviewed: false

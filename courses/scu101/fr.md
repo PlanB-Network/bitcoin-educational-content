@@ -26,13 +26,13 @@ Théo; Contribution
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Introduction du cours
+## Aperçu du cours
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-![introduction](https://youtu.be/DqLf72XBJUg)
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
 
-### Objectif : remise à jour !
+**Objectif : remise à jour !**
 
 Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, aucun prérequis en informatique n'est donc nécessaire. Notre objectif principal est de vous fournir les connaissances et les compétences nécessaires pour naviguer de manière plus sûre et plus privée dans le monde numérique.
 
@@ -42,7 +42,7 @@ Cette formation est un effort commun de trois de nos professeurs :
 
 - Renaud Lifchitz, expert en cybersécurité
 - Théo Pantamis, docteur en mathématique appliquée
-- Rogzy, PDG de DécouvreBitcoin
+- Rogzy, Co-fondateur du Plan ₿ Network
 
 Votre hygiène numérique est cruciale dans un monde de plus en plus numérique. Malgré une constante augmentation du nombre de piratages informatiques et de la surveillance de masse, il n'est pas trop tard pour faire le premier pas et se protéger.
 
@@ -50,7 +50,7 @@ Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou in
 
 Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, tutoriels ou autres formations sur la cybersécurité sont là pour vous. En attendant, voici un petit aperçu de notre programme lors de ces prochaines heures ensemble.
 
-### Section 1: Tout savoir sur la navigation en ligne
+**Section 1: Tout savoir sur la navigation en ligne**
 
 - Chapitre 1 - Navigation en ligne
 - Chapitre 2 - Utiliser internet en sécurité
@@ -58,7 +58,7 @@ Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, t
 Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et de ses implications en matière de sécurité. Nous explorerons ensuite les spécificités des navigateurs, notamment en ce qui concerne la gestion des cookies. Nous verrons également comment garantir une navigation plus sécurisée et anonyme, grâce à des outils tels que TOR. Par la suite, nous mettrons l'accent sur l'utilisation des VPN pour renforcer la protection de vos données. Enfin, nous terminerons par des recommandations concernant l'utilisation sécurisée des connexions WiFi.
 ![navigation en ligne](assets/fr/1.webp)
 
-### Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
+**Section 2: Les bonnes pratiques d'utilisation de l'ordinateur**
 
 - Chapitre 3 - Utilisation de l’ordinateur
 - Chapitre 4 - Hack & gestion de back-up
@@ -66,7 +66,7 @@ Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et
 Dans cette section, nous aborderons trois domaines clés de la sécurité informatique. Premièrement, nous explorerons les différents systèmes d'exploitation : Mac, PC et Linux, en soulignant leurs spécificités et leurs points forts. Ensuite, nous nous pencherons sur les méthodes pour se protéger efficacement des tentatives de piratage et renforcer la sécurité de vos appareils. Enfin, nous mettrons l'accent sur l'importance de protéger et de sauvegarder régulièrement vos données pour prévenir toute perte ou ransomware.
 ![utilisation PC](assets/fr/2.webp)
 
-### Section 3: Mise en place des solutions.
+**Section 3: Mise en place des solutions.**
 
 - Chapitre 6 - Gestion de la boîte mail
 - Chapitre 7 - Gestionnaire de mots de passe
@@ -77,12 +77,13 @@ Dans cette troisième section pratique, nous allons passer à la pratique avec l
 D'abord, nous verrons comment protéger votre boîte mail, essentielle pour vos communications et souvent ciblée par les pirates. Ensuite, nous vous présenterons ce qu'est un gestionnaire de mots de passe : une solution pratique pour ne plus oublier ou mélanger vos mots de passe tout en les gardant sécurisés. Enfin, nous évoquerons une mesure de sécurité supplémentaire, l'authentification à deux facteurs, qui ajoute une couche de protection à vos comptes. Tout sera expliqué de manière claire et accessible.
 ![solutions](assets/fr/3.webp)
 
-### Section Bonus: Interview avec Pantamis et Renaud
+**Section Bonus: Interview avec Pantamis et Renaud**
 
 En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. l'idée est d'en apprendre davantage auprès de ces professionnels expérimentés.
 
 Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement.
 
+Prêt à renforcer votre sécurité numérique et reprendre le contrôle de vos données ? Allons-y !
 # Tout savoir sur la navigation en ligne
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -91,7 +92,7 @@ Ce programme de formation est offert gratuitement sous une licence redistribuabl
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
-![navigation en ligne](https://youtu.be/BEK7vGnkO64)
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
 
 Lors de la navigation sur internet, il est important d'éviter certaines erreurs courantes pour préserver sa sécurité en ligne. Voici quelques conseils pour les éviter :
 
@@ -134,7 +135,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
-![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### les VPN
 
@@ -171,7 +172,7 @@ En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en li
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
-![utilisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique actuel. Aujourd'hui, nous allons aborder trois points clés :
 
@@ -219,7 +220,7 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
-![hack et gestion de back-up](https://youtu.be/CJDjWPV3PeU)
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 ### Comment les hackers attaquent-ils ?
 
@@ -268,7 +269,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
-![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 Nous entamons désormais la section 2 du cours. Dans cette section, nous aborderons trois sujets essentiels pour assurer la sécurité des accès en ligne : la gestion des mails, l'utilisation d'un gestionnaire de mots de passe et l'authentification à deux facteurs (2FA).
 
@@ -302,7 +303,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
-![gestionnaire de mots de passe](https://youtu.be/HzLuZ6noePY)
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Qu'est-ce qu'un gestionnaire de mots de passe ?
 
@@ -348,7 +349,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
-![les 2FA](https://youtu.be/863n4N1XNjk)
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Pourquoi mettre en place le 2FA
 
@@ -403,7 +404,7 @@ Protéger sa boîte mail est une étape importante pour sécuriser ses activité
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-![video](https://youtu.be/vpYJYWhmEZg)
+:::video id=a3a6d421-e4a3-4b80-834e-18c10a37b9b3:::
 
 ## Sécurisation en 2FA
 
@@ -417,7 +418,7 @@ Une autre option est d'utiliser une clé de sécurité physique. Cet autre tutor
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-![video](https://youtu.be/mNcAKRDmz5o)
+:::video id=9bd62d39-0e1d-4608-9204-c48c4477e0fc:::
 
 ## Création d'un gestionaire de mot de passe
 
@@ -433,7 +434,7 @@ Pour les utilisateurs plus confirmés, je vous propose également un tutoriel su
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-![video](https://youtu.be/y7Xkv4E5YmU)
+:::video id=dcb9da2a-6910-46db-90f6-d9ce52450a39:::
 
 ## Sécurisation de vos comptes
 
@@ -445,21 +446,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-![video](https://youtu.be/0JHZRALmGY0)
-
-## Mise en place de Back-up
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
-![video](https://youtu.be/wTJnlSUkDRI)
+:::video id=ba8f85df-d77c-4425-b3ff-7bb543811190:::
 
 ## Changement de navigateur & VPN
 
@@ -477,7 +464,21 @@ Découvrez également comment utiliser Tor Browser, un navigateur spécifiquemen
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-![video](https://youtu.be/vc6-Ouca09g)
+:::video id=175fcd63-d6fd-42a7-983a-83e91a13ba31:::
+
+## Mise en place de Back-up
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
+:::video id=5213b709-be9b-4dea-a35d-08b7ecfdd5f1:::
 
 # Allez plus loins
 
@@ -487,7 +488,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
-![conclusion et travailler dans l'industrie](https://youtu.be/YZ2EKaPvoZU)
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 La cybersécurité, un domaine en plein essor, offre une multitude d'opportunités pour ceux passionnés par la protection des systèmes et des données. Si cette industrie vous intrigue, voici quelques étapes clés pour vous orienter.
 
@@ -524,11 +525,11 @@ En maîtrisant ces compétences et outils, vous serez bien équipé pour navigue
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
-![Interview](https://youtu.be/RVjE-KOSKDs)
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Gestion efficace des mots de passe et renforcement de l'authentification: une approche académique
 
-Dans le module de formation "Sécurité 101" proposé par Découvre Bitcoin au sein de l'Académie, nous avons abordé l'importance des gestionnaires de mots de passe. Trois dimensions sont essentielles à considérer : la création, l'actualisation et l'implémentation des mots de passe sur les sites web.
+Il y a trois dimensions clés à considérer lorsque l'on parle des gestionnaires de mots de passe : la création, l'actualisation et l'implémentation des mots de passe sur les sites web.
 
 Il est généralement déconseillé de recourir à des extensions de navigateur pour le remplissage automatique des mots de passe. Ces outils sont susceptibles de rendre l'utilisateur plus vulnérable face aux attaques de type phishing. Renaud, expert reconnu en cybersécurité, privilégie une gestion manuelle via KeePass, ce qui implique un copier-coller manuel du mot de passe. Les extensions tendent à augmenter la surface d'attaque, peuvent ralentir les performances du navigateur et présentent par conséquent un risque non négligeable. Ainsi, l'usage minimal d'extensions sur le navigateur est une pratique recommandée.
 
@@ -555,9 +556,9 @@ Il est également à noter que l'Internet est très centralisé et largement sou
 Des alternatives aux publicités intrusives incluent Google DNS, OpenDNS et d'autres services indépendants. Le protocole DNS standard laisse les requêtes DNS visibles pour le fournisseur d'accès à Internet. DOH (DNS over HTTPS) et DOT (DNS over TLS) permettent de chiffrer la connexion DNS, offrant une plus grande confidentialité et sécurité. Ces protocoles sont largement utilisés en entreprise en raison de leur sécurité renforcée et sont nativement supportés par Windows, Android et iPhone. Pour utiliser DOH et DOT, un nom d'hôte TLS doit être saisi à la place d'une adresse IP. Les fournisseurs gratuits de DOH et DOT sont disponibles en ligne. DOH et DOT améliorent la confidentialité et la sécurité en évitant les attaques de type "man in the middle".
 Autres considérations clés
 
-Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
+Il convient également de mentionner le système appelé "l'authentification Lightning". Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
-# Conclusion
+# Section finale
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

@@ -1,0 +1,9 @@
+question: Jaka ścieżka derywacji jest używana dla konta SegWit v0 w standardowym deskryptorze?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Ścieżka 84h/0h/0h jest zdefiniowana w BIP84 dla konta wyprowadzającego adresy SegWit v0 z P2WPKH.
+reviewed: false

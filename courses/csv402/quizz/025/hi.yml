@@ -1,0 +1,9 @@
+question: RGB और Contract को परिभाषित करने वाले चार मुख्य घटक क्या हैं?
+answer: जीडब्ल्यू-4, जीडब्ल्यू-5, जीडब्ल्यू-3 और जीडब्ल्यू-2
+wrong_answers:
+  - जीडब्ल्यू-7, जीडब्ल्यू-8, ट्रांजिशन और जीडब्ल्यू-6
+  - जीडब्ल्यू-10, जीडब्ल्यू-9, ट्रांजिशन और एक्सटेंशन
+  - जीडब्ल्यू-13, जीडब्ल्यू-12, जीडब्ल्यू-11 और एक्सटेंशन
+explanation: |
+  एक RGB Contract चार अलग-अलग Elements से बना होता है; Genesis, Schema, Interface और Interface Implementation।
+reviewed: false

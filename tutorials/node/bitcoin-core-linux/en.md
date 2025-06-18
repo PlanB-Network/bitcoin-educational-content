@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core Node (linux)
+name: Bitcoin Core (Linux)
 description: Running your own node with Bitcoin Core
 ---
 
@@ -124,3 +124,4 @@ To view the logs of your Bitcoin node specifically related to its interaction wi
 - Tor configuration guide by Jon Atack
 
 As always, if you have any questions, feel free to share them with the Agora256 community. We learn together to be better tomorrow than we are today!
+

@@ -1,0 +1,9 @@
+question: 在作弊的情況下，撤銷金鑰允許做什麼？
+answer: 透過懲罰作弊者追回所有資金
+wrong_answers:
+  - 取消 Commitment Transaction
+  - 通道容量加倍
+  - 阻止通道中的任何進一步交易
+explanation: |
+  撤銷鑰匙可讓受害方在對方試圖詐騙時收回所有資金。
+reviewed: false

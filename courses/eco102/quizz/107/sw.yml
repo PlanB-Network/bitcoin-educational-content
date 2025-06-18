@@ -1,0 +1,9 @@
+question: Ni Rais gani wa Marekani, wakati wa ujana wake, alisambaza mawazo ya Bastiat katika semina za ushirika?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, kabla ya kuwa rais, alisambaza mawazo huria ya Bastiat na wanauchumi wengine katika semina za General Electric.
+reviewed: false

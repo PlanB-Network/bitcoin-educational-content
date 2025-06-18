@@ -1,0 +1,9 @@
+question: Je, Bastiat ana maoni gani kuhusu asili ya mwanadamu wakati wa kuzaliwa?
+answer: Mmiliki
+wrong_answers:
+  - Mtumwa
+  - Nzuri
+  - Kunyenyekea
+explanation: |
+  Bastiat anadai kuwa mwanadamu huzaliwa na mmiliki kwa sababu anayo ndani yake haki ya kutumia uwezo wake kukidhi mahitaji yake.
+reviewed: false

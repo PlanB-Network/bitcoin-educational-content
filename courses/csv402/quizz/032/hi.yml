@@ -1,0 +1,9 @@
+question: ऐलिस (भेजने वाले) को बॉब का Invoice मिलने के बाद क्या करना चाहिए?
+answer: PSBT को उसके UTXO और generate के साथ बनाओ, ट्रांसफर Consignment टर्मिनल
+wrong_answers:
+  - Bitcoin लेनदेन पर हस्ताक्षर करें जो अपने UTXO को खर्च करता है जिसमें Single-Use Seal शामिल है
+  - अपने Wallet में Consignment को Contract की डिटेल्स के लिए इम्पोर्ट करें
+  - एक एसेट इश्यू के लिए नया Invoice जारी करें
+explanation: |
+  ऐलिस को PSBT बनाना होगा ताकि वह एसेट से जुड़े UTXO को खर्च कर सके, फिर generate एक Terminal Consignment जिसमें बॉब के लिए नया ट्रांज़िशन शामिल हो।
+reviewed: false

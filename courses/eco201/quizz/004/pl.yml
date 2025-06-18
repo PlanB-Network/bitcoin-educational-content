@@ -1,0 +1,12 @@
+question: Jakie jest główne podejście ekonomii austriackiej do zrozumienia ekonomii?
+answer: Ekonomia austriacka rozumie ekonomię z perspektywy ludzkiej logiki i socjologii.
+wrong_answers:
+  - Ekonomia austriacka rozumie ekonomię poprzez równania matematyczne.
+  - Ekonomia austriacka rozumie ekonomię z perspektywy drukowania i wydawania pieniędzy.
+  - Ekonomia austriacka rozumie ekonomię z perspektywy banków centralnych.
+explanation: |
+  Rozdział ten wyjaśnia, że ekonomia austriacka rozumie
+  ekonomię z perspektywy ludzkiej logiki i
+  i socjologii, zamiast podchodzić do tej dyscypliny poprzez
+  równań matematycznych.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Dlaczego uwierzytelnione szyfrowanie jest odporne na ataki z użyciem wybranego szyfrogramu?
+answer: Ponieważ jakakolwiek modyfikacja szyfrogramu przez atakującego powoduje, że znacznik staje się nieważny
+wrong_answers:
+  - Ponieważ wykorzystuje pojedynczy algorytm szyfrowania
+  - Ponieważ jakakolwiek modyfikacja szyfrogramu przez atakującego powoduje, że klucz staje się nieważny
+  - Ponieważ szyfruje tylko wiadomość bez znacznika
+explanation: |
+  Uwierzytelniony schemat szyfrowania został zaprojektowany w celu wykrywania modyfikacji szyfrogramu, co unieważnia znacznik w przypadku prób manipulacji i zapewnia odporność na ataki z użyciem wybranego szyfrogramu.
+reviewed: false

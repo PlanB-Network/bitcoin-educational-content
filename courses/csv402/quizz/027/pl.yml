@@ -1,0 +1,9 @@
+question: Jaki jest odpowiednik programowania obiektowego (OOP) komponentu Schema w kontekście RGB?
+answer: Definicja klasy
+wrong_answers:
+  - Konstruktor klasy
+  - Wdrażanie Interface
+  - Prototypowanie metod
+explanation: |
+  Schema odpowiada definicji klasy w OOP, która opisuje właściwości, metody i reguły Business Logic.
+reviewed: false

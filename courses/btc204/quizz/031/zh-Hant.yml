@@ -1,0 +1,9 @@
+question: 如果在簡單的付款交易中，輸入和 2 個輸出之一使用相同的 Address，哪個輸出可能代表變更？
+answer: 與輸入相同的 Address。
+wrong_answers:
+  - 有最新 Address 的那個。
+  - 與輸入不同的 Address。
+  - 有未知 Address 的那個。
+explanation: |
+  如果 Address 重複使用發生在同一筆交易中，則有理由假設使用者仍擁有相關的 UTXO。因此，與輸入相同 Address 的輸出很可能就是變更。
+reviewed: false

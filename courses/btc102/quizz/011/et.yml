@@ -1,13 +1,9 @@
-question: Mis on peamine kasu VPN-i kasutamisest?
-answer: See kaitseb teie privaatsust, maskeerides teie IP-aadressi
+question: Miks on oluline kaitsta oma Mnemonic fraasi?
+answer: Sest selle kaotamine toob kaasa bitcoinide püsiva kaotuse
 wrong_answers:
-  - See kiirendab teie internetiühendust
-  - See pakub tasuta juurdepääsu tasulistele teenustele
-  - See kaitseb teie arvutit viiruste eest
+  - Kuna Blockchain on liiga pikk, et seda regenereerida
+  - Sest selle kaotamine toob kaasa isikuandmete lekke
+  - Kuna Exchange platvormid nõuavad palju dokumente, et seda taastada
 explanation: |
-  VPN ehk Virtuaalne Privaatvõrk kaitseb teie privaatsust, maskeerides
-  teie
-
-  IP-aadressi. Kuigi see ei muuda teid täielikult anonüümseks, on see siiski lihtne
-
-  ja tõhus samm teie veebipõhise privaatsuse parandamiseks.
+  Mnemonic fraas võimaldab juurdepääsu taastada. Kui see kaob ja Wallet ei ole enam oma seadmes kättesaadav, on bitcoinid jäädavalt kadunud.
+reviewed: false

@@ -1,0 +1,9 @@
+question: PBKDF2 產生的 seed 大小是多少？
+answer: 512 位元
+wrong_answers:
+  - 128 位元
+  - 256 位元
+  - 根據 Mnemonic 語句的長度而有所不同
+explanation: |
+  無論 Mnemonic 詞組的長度為何，PBKDF2 總是會產生 512 位元的 seed。
+reviewed: false

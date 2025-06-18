@@ -1,0 +1,8 @@
+question: Jakie mogą być główne obawy dotyczące systemu bankowego?
+answer: Zasady gry bankowej nie są przejrzyste i zrozumiałe dla wszystkich.
+wrong_answers:
+  - System bankowy jest zbyt łatwy do zrozumienia.
+  - System bankowy jest zbyt przejrzysty.
+  - System bankowy jest zbyt zdecentralizowany.
+explanation: >-
+reviewed: true

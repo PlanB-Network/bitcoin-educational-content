@@ -1,0 +1,10 @@
+question: 追溯性不發作說明了什麼？
+answer: 週期結束時，UTXO 的可能來源數量。
+wrong_answers:
+  - 週期結束時，無法區分的 UTXOs 群組的大小。
+  - 週期開始時 UTXO 的可能來源數量。
+  - 完成 CoinJoin 所需的時間。
+explanation: |
+  考慮到週期結束時的 UTXO，回溯anonset 表示特定硬幣的可能來源數量。
+  
+reviewed: false

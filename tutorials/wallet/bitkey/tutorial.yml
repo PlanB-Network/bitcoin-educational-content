@@ -1,0 +1,23 @@
+id: 02110256-e1b7-40f6-b292-e816375e2618
+
+project_id: 057cc891-0163-47eb-acf1-1f1d755b730e
+
+tags:
+  - hardware
+  - wallets
+  - keys
+
+category: hardware
+
+level: intermediate
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-02
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

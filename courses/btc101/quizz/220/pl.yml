@@ -1,0 +1,11 @@
+question: Co ten kurs sugeruje na temat tempa nauki o Bitcoin?
+answer: Trudno jest przyswoić wszystko na raz, więc nie spiesz się.
+wrong_answers:
+  - Łatwo jest nauczyć się wszystkiego na raz.
+  - Nie sposób dowiedzieć się wszystkiego o Bitcoin.
+  - Nie trzeba uczyć się wszystkiego o Bitcoin.
+explanation: |
+  Kurs sugeruje, że jest tak wiele do zbadania z
+  Bitcoin, że przyswojenie wszystkiego naraz jest skomplikowane
+  więc nie należy się spieszyć.
+reviewed: true

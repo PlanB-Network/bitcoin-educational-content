@@ -1,0 +1,11 @@
+question: Kwa nini faragha ni muhimu katika muktadha wa Bitcoin?
+answer: Ili kupunguza hatari ya pesa zako kufuatiliwa.
+wrong_answers:
+  - Ili kupunguza thamani ya bitcoins zako.
+  - Ili kuzuia bitcoins zako zisiibiwe.
+  - Ili kulipa ushuru kwenye bitcoins zako.
+explanation: |
+  Faragha ni muhimu katika muktadha wa Bitcoin ili kupunguza
+  hatari za fedha zako kufuatiliwa, ambazo zinaweza kuwezesha
+  ufuatiliaji wako.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koje je ključno pitanje upravljanja?
+answer: Složenost osiguravanja i čuvanja para ključeva za svakog klijenta
+wrong_answers:
+  - Nemogućnost obnavljanja ključeva izgubljenih od strane klijenata
+  - Potrebno je dešifrovati svaki ključ pre upotrebe od strane klijenta.
+  - Potrebnost prenosa ključeva za svaku komunikaciju
+explanation: |
+  Ključni problem upravljanja leži u poteškoći skladištenja i osiguravanja para ključeva za svakog korisnika, posebno kada broj klijenata dostigne milione.
+reviewed: false

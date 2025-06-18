@@ -1,0 +1,10 @@
+question: Alama ya Boltzmann inawakilisha nini katika muktadha wa miamala ya Bitcoin?
+answer: Uwezekano wa masharti kwamba ingizo limeunganishwa na matokeo fulani.
+wrong_answers:
+  - Jumla ya bitcoins zilizohamishwa.
+  - Idadi ya ingizo katika muamala.
+  - Entropy inayohusiana na kila ingizo au pato.
+explanation: |
+  Alama ya Boltzmann inaonyesha uwezekano wa masharti kwamba ingizo mahususi limeunganishwa na matokeo fulani. Kwa hivyo ni kipimo cha kiasi cha uwezekano wa masharti kwamba ushirikiano kati ya ingizo na pato katika shughuli hutokea, iliyoanzishwa kwa uwiano wa idadi ya matukio mazuri ya tukio hili ikilinganishwa na idadi ya jumla ya matukio iwezekanavyo, katika seti ya tafsiri.
+  
+reviewed: false

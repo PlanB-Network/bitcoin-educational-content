@@ -1,0 +1,9 @@
+question: Jaka jest wizja historii zaproponowana przez Marksa?
+answer: Historia jest wynikiem walki między klasami społecznymi
+wrong_answers:
+  - Historia to liniowy postęp w kierunku społeczeństwa burżuazyjnego
+  - Historia to powtarzający się cykl z okresami wolności, po których następują okresy tyranii
+  - Historia jest zdeterminowana przez czynniki klimatyczne
+explanation: |
+  Marks postrzega historię jako produkt konfliktów między klasami społecznymi, twierdząc, że napięcia między klasami uciskającymi i uciskanymi są siłą napędową zmian społecznych i gospodarczych na przestrzeni wieków.
+reviewed: false

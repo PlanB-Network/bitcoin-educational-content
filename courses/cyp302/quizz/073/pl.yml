@@ -1,0 +1,9 @@
+question: Jak można zdefiniować klucz w szyfrowaniu z przesunięciem?
+answer: Liczba od 0 do 25
+wrong_answers:
+  - Losowe słowo
+  - Dowolna liczba losowa bez ograniczeń
+  - Liczba od 1 do 26
+explanation: |
+  W szyfrowaniu z przesunięciem kluczem jest liczba z przedziału od 0 do 25, która odpowiada liczbie przesunięć zastosowanych do każdej litery wiadomości w 26-literowym alfabecie.
+reviewed: false

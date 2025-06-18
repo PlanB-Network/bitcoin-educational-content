@@ -1,0 +1,12 @@
+question: Je, ni faida gani moja ya sarafu za kati licha ya uwezo wao wa kufungia fedha?
+answer: Wanaweza kujibu kwa haraka ili kulinda watumiaji katika hali fulani
+wrong_answers:
+  - Wanatoa ugatuaji kamili na usalama
+  - Wao si chini ya kanuni yoyote au kuingilia kati
+  - Wanafanya kazi kwa kujitegemea kutoka kwa utekelezaji wa sheria
+explanation: |
+  Stablecoins ya kati ina uwezo wa kuingilia kati
+  wakati ni kwa manufaa ya watumiaji na uthabiti wa jumla
+  ya mfumo, kama inavyoonyeshwa na mifano ambapo fedha zilizohifadhiwa
+  kutumika kuwalinda watumiaji na kuzuia wadukuzi kupata faida.
+reviewed: true

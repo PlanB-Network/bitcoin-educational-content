@@ -1,0 +1,9 @@
+question: 使用密碼管理器的主要好處是什麼？
+answer: 只記住一個主密碼。
+wrong_answers:
+  - 不再建立新密碼。
+  - 使用 Mnemonic 技術協助記憶所有密碼。
+  - 不需要線上帳戶。
+explanation: |
+  使用者只需記住一個密碼，即可存取所有其他密碼。
+reviewed: false

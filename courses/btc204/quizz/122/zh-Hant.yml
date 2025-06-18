@@ -1,0 +1,10 @@
+question: P2P 傳輸 V2 如何改善節點間通訊的隱私和安全性？
+answer: 透過整合機會性加密
+wrong_answers:
+  - 透過整合認證
+  - 透過使用額外的繼電器
+  - 透過使用 Tor
+explanation: |
+  P2P 傳輸 V2 結合了機會性加密的 Layer，以增強節點間通訊的隱私性和安全性。
+  
+reviewed: false

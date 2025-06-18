@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto ilipata msukumo gani mkuu wakati wa muundo wa awali wa Bitcoin?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-pesa (Wei Dai)
+  - dhahabu kidogo (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Licha ya kufanana kwao, mifano ya b-pesa, dhahabu kidogo, na RPOW haikuwa msukumo mkuu wa Satoshi, kwa sababu hakuwa na ufahamu juu yao kabla ya Agosti 2008.
+reviewed: false

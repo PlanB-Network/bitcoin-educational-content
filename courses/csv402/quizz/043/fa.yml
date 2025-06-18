@@ -1,0 +1,9 @@
+question: RGB State Transition در زمینه Lightning Network به چه معناست؟
+answer: به‌روزرسانی تخصیص دارایی RGB در معاملات Commitment ادغام شد
+wrong_answers:
+  - یک وضعیت جدید از Multisig 2/2 بر روی زنجیره
+  - به‌روزرسانی تخصیص دارایی RGB در معامله تأمین مالی ادغام شد
+  - اسکریپت اعتبارسنجی On-Chain با HTLC جایگزین شد.
+explanation: |
+  به‌روزرسانی‌های RGB State Transition توزیع دارایی‌های RGB را در کانال با استفاده از تراکنش‌های Commitment به‌روزرسانی می‌کند.
+reviewed: false

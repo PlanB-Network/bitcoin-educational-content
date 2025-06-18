@@ -1,0 +1,9 @@
+question: Ni operesheni gani inahitajika ili kukokotoa ufunguo wa umma wa Taproot Q?
+answer: Ongeza tweak tG kwa ufunguo wa umma P
+wrong_answers:
+  - Zidisha kitufe cha faragha p kwa kubofya
+  - Hash ufunguo wa umma P na SHA256
+  - Unganisha tweak t na ufunguo wa umma P
+explanation: |
+  Ufunguo wa umma wa Taproot Q hupatikana kwa kuongeza bidhaa ya scalar ya tweak t na jenereta G kwa ufunguo wa umma P.
+reviewed: false

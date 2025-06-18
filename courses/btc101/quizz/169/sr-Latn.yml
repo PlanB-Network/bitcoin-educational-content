@@ -1,0 +1,9 @@
+question: Kako Bitcoin protokol nagrađuje Miner koji pronađe važeći Hash za naredni blok?
+answer: Sa nagradom definisanom pravilima konsenzusa, i sa naknadama od svih transakcija uključenih u važeći blok.
+wrong_answers:
+  - Sa fiksnim brojem bitkoina koji nije definisan pravilima konsenzusa.
+  - Sa procentom od ukupnog Bitcoin Supply i naknadama od svih transakcija uključenih u prethodne blokove.
+  - Sa naknadama od svih transakcija uključenih u važeći blok.
+explanation: |
+  Bitcoin protokol nagrađuje Miner koji pronađe važeći Hash za naredni blok nagradom čiji iznos je definisan pravilima konsenzusa, zajedno sa naknadama od svih transakcija uključenih u važeći blok.
+reviewed: true

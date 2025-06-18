@@ -1,0 +1,9 @@
+question: Zašto plaćamo naknade u Bitcoin?
+answer: Da se stvori slobodno tržište za uključivanje transakcija u blokove.
+wrong_answers:
+  - Da uvedemo kako da se kopa Bitcoin.
+  - Da bogati ljudi plaćaju više.
+  - Da isključe vlade iz mreže.
+explanation: |
+  Naknade su ključne za stvaranje slobodnog tržišta za uključivanje transakcija u blokove. Zapravo, blok ima veličinu od 1 MB (što je prošireno na 4 MB nakon SegWit ažuriranja), tako da je broj transakcija koje mogu biti "ubacene" u blok ograničen na nekoliko hiljada transakcija po bloku.
+reviewed: true

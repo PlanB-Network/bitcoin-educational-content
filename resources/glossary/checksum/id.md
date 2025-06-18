@@ -1,9 +1,11 @@
 ---
-term: CEKUM
-
+term: CHECKSUM
 ---
-Checksum adalah nilai yang dihitung dari sekumpulan data, yang digunakan untuk memverifikasi integritas dan keabsahan data tersebut selama transmisi atau penyimpanan. Algoritme checksum dirancang untuk mendeteksi kesalahan yang tidak disengaja atau perubahan data yang tidak diinginkan, seperti kesalahan transmisi atau kerusakan file. Berbagai jenis algoritma checksum tersedia, seperti pemeriksaan paritas, checksum modular, fungsi hash kriptografi, atau kode BCH (*Bose, Ray-Chaudhuri, dan Hocquenghem*).
 
-Dalam Bitcoin, checksum digunakan pada tingkat aplikasi untuk memastikan integritas alamat penerima. Checksum dihitung dari muatan alamat pengguna, kemudian ditambahkan ke alamat ini untuk mendeteksi kemungkinan kesalahan selama pemasukan. Checksum juga terdapat pada frasa pemulihan (mnemonic).
+Checksum adalah nilai yang dihitung dari sekumpulan data, yang digunakan untuk memverifikasi integritas dan keabsahan data tersebut selama transmisi atau penyimpanan. Algoritme checksum dirancang untuk mendeteksi kesalahan yang tidak disengaja atau perubahan yang tidak disengaja pada data, seperti kesalahan transmisi atau kerusakan file. Terdapat berbagai jenis algoritma checksum, seperti pemeriksaan paritas, checksum modular, fungsi kriptografi Hash, atau kode BCH (*Bose, Ray-Chaudhuri, dan Hocquenghem*).
 
-> ► * Terjemahan bahasa Inggris untuk "somme de contrôle" adalah "checksum". Secara umum, istilah "checksum" dalam bahasa Prancis diterima secara umum untuk digunakan secara langsung
+
+Pada Bitcoin, checksum digunakan pada tingkat aplikasi untuk memastikan integritas alamat yang diterima. Checksum dihitung dari muatan Address pengguna, kemudian ditambahkan ke Address tersebut untuk mendeteksi kesalahan pada masukannya. Checksum juga ada dalam frasa pemulihan (mnemonik).
+
+
+> ► *Secara umum diterima untuk menggunakan istilah bahasa Inggris "checksum" secara langsung dalam bahasa Prancis.*

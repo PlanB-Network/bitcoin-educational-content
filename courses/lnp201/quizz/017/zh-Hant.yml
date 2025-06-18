@@ -1,0 +1,9 @@
+question: 如果 Bob 向 Alice 傳送價值 30,000 薩托希的 Invoice 會如何？
+answer: Alice 建立一個 Commitment Transaction，在通道中傳送 30,000 Satoshis 給 Bob。
+wrong_answers:
+  - Alice 必須開啟新頻道才能進行此轉移。
+  - Bob 會自動收到 Wallet 中的 30,000 薩托希。
+  - Invoice 透過 Bitcoin 上的 On-Chain 交易支付。
+explanation: |
+  當 Bob 傳送一個 Invoice 給 Alice 時，她會建立並簽署一個新的 Commitment Transaction 來調整資金的分配，從而在通道中轉移 30,000 Satoshis。
+reviewed: false

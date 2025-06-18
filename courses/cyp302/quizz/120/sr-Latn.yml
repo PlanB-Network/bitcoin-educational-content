@@ -1,0 +1,9 @@
+question: Kakav je bio uticaj problema distribucije i upravljanja ključevima pre 1970-ih?
+answer: Oni su ograničili sigurnost i efikasnost komunikacija velikih razmera.
+wrong_answers:
+  - Sprečili su prenos šifrovanih poruka na javnim mrežama
+  - Za svaku poruku su zahtevali javne ključeve.
+  - Naredili su upotrebu homomorfne kriptografije
+explanation: |
+  Pre sedamdesetih godina, problemi sa distribucijom i upravljanjem ključeva otežavali su obezbeđivanje komunikacija na velikoj skali, čime je bio otežan razvoj modernih aplikacija kao što je online kupovina.
+reviewed: false

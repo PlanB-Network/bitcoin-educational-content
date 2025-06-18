@@ -1,0 +1,9 @@
+question: Dlaczego SHA256 stosuje wstępne przetwarzanie do wiadomości wejściowej?
+answer: Aby zapewnić wielokrotność długości 512 bitów
+wrong_answers:
+  - Aby zweryfikować integralność wiadomości
+  - Aby zaszyfrować dane przed haszowaniem
+  - Aby zwiększyć rozmiar generowanych skrótów
+explanation: |
+  Przetwarzanie wstępne dostosowuje długość wiadomości, dodając bity wypełniające i binarną reprezentację jej długości.
+reviewed: false

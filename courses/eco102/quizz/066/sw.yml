@@ -1,0 +1,9 @@
+question: Je, ni njia zipi mbili za kuangaza hukumu ya raia kwa mujibu wa Bastiat?
+answer: Maadili ya kifalsafa na maadili ya kiuchumi
+wrong_answers:
+  - Sheria na elimu
+  - Dini na sayansi
+  - Uzoefu wa kibinafsi na vitabu
+explanation: |
+  Bastiat anatofautisha kati ya maadili ya kifalsafa, ambayo yanagusa moyo, na maadili ya kiuchumi, ambayo huangaza akili kwa kuonyesha matokeo ya matendo.
+reviewed: false

@@ -1,0 +1,11 @@
+question: 第一筆 Bitcoin 交易的區塊號碼是多少？
+answer: 區塊 170.
+wrong_answers:
+  - 區塊 1.
+  - 區塊 17.
+  - 區塊 1700.
+explanation: |
+  第一筆 Bitcoin 交易，也就是
+  是 Satoshi Nakamoto 和 Hal Finney 之間的 10 BTC 交易，記錄在
+  在區塊 170 中。
+reviewed: true

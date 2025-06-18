@@ -1,10 +1,9 @@
-question: Apa aturan emas dari investasi Bitcoin?
-answer: Bukan kunci Anda, bukan Bitcoin Anda.
+question: Istilah apa yang merujuk pada pembagian subsidi Mining yang terprogram?
+answer: Halving
 wrong_answers:
-  - Jangan pernah berinvestasi lebih dari yang Anda mampu untuk kehilangan.
-  - Hindari apa yang sedang tren.
-  - Perencanaan dan memiliki visi jangka panjang sangat penting untuk sukses dalam keuangan.
+  - Fork
+  - Pembelahan
+  - Coinbase
 explanation: |
-  Aturan emas dari investasi Bitcoin adalah Bukan kunci Anda, bukan Bitcoin Anda.
-  Ini berarti jika Anda tidak memiliki kontrol atas kunci privat Anda, Anda tidak benar-benar
-  memiliki Bitcoin Anda.
+  Halving mengacu pada Halving dari subsidi Mining setiap 210.000 blok.
+reviewed: false

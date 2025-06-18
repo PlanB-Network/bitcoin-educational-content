@@ -1,0 +1,9 @@
+question: کدام الگوریتم امضا در Bitcoin با Taproot معرفی شد؟
+answer: طرح امضای اشنور
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  طرح طرح امضای اشنور در نوامبر 2021 با به‌روزرسانی Taproot معرفی شد.
+reviewed: false

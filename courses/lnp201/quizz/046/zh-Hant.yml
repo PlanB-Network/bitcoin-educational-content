@@ -1,0 +1,9 @@
+question: 在 Lightning Invoice 中，人可讀部分的前綴 lnbc 是什麼意思？
+answer: 它表示在 Bitcoin Blockchain 上有一個 Lightning 交易。
+wrong_answers:
+  - Invoice 僅對 Bitcoin Testnet 有效
+  - Invoice 以 bech32 編碼
+  - 這是一項 On-Chain 交易
+explanation: |
+  前綴 lnbc 表示 Invoice 是用於 Bitcoin 網路上的 Lightning 交易，而非其他網路。
+reviewed: false

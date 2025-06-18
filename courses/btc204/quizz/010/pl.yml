@@ -1,0 +1,9 @@
+question: Jakie są 3 podstawowe kryteria, które pozwalają danej osobie upewnić się, że będzie mogła wydać monetę później?
+answer: Moneta musi być nienaruszona, autentyczna i nie może być podwójnie wydana.
+wrong_answers:
+  - Moneta musi być starożytna, rzadka i w dobrym stanie.
+  - Moneta musi być powszechnie akceptowana, legalna i przechowywana w banku.
+  - Moneta musi być zatwierdzona przez państwo, zarejestrowana i trwała.
+explanation: |
+  Każda racjonalna osoba, która chce zaakceptować monetę, czy to cyfrową, czy fizyczną, upewnia się, że nie została ona zmieniona, że jest rzeczywiście prawdziwą monetą i że nie może być ponownie wykorzystana przez emitenta.
+reviewed: false

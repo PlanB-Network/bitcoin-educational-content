@@ -1,0 +1,9 @@
+question: Kada je Bitcoin prvi put predstavljen svetu?
+answer: 31. oktobar 2008.
+wrong_answers:
+  - 3. januar 2009.
+  - 22. novembar 2009.
+  - 12. decembar 2010.
+explanation: |
+  Bitcoin je prvi put predstavljen svetu 31. oktobra 2008. godine, kada je Satoshi Nakamoto poslao email na Cypherpunk mailing listu koji je sadržao Bitcoin White Paper.
+reviewed: true

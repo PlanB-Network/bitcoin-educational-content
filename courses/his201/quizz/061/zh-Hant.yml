@@ -1,0 +1,9 @@
+question: Miner m0mchil 於 2010 年 10 月設計的哪個函式允許用戶端節點擷取候選區塊，並在找到解決方案時返回 Proof of Work？
+answer: 工作
+wrong_answers:
+  - 層子
+  - 獲取哈希
+  - 獲得信貸
+explanation: |
+  它於 10 月 1 日發佈。11 月 23 日，Satoshi 在主軟體中加入了此功能的修改版本。
+reviewed: false

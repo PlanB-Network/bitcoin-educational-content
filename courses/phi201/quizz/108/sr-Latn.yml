@@ -1,0 +1,9 @@
+question: Prema Hajeku, koja je veza između socijalizma i nacizma?
+answer: Svi ostali odgovori (oni dele odbacivanje individualizma, daju prioritet dobrobiti grupe, koriste prinudu).
+wrong_answers:
+  - Dve ideologije su nekompatibilne.
+  - Socijalizam i nacizam su suprotstavljeni po ekonomskim pitanjima.
+  - Socijalizam i nacizam nemaju nikakvu vezu.
+explanation: |
+  Hayek je tvrdio da socijalizam i nacizam dele zajedničke osobine, kao što su odbacivanje individualizma u korist kolektiva i upotreba prinude, što ih čini sličnim u njihovim autoritarnim efektima.
+reviewed: false

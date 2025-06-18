@@ -1,0 +1,9 @@
+question: Je, pato la kitendakazi cha HMAC-SHA512 linatumika kwa sehemu ngapi kwa seed imegawanywa katika?
+answer: Sehemu mbili za bits 256
+wrong_answers:
+  - Sehemu moja ya biti 512
+  - Sehemu tatu za bits 170
+  - Sehemu nne za bits 128
+explanation: |
+  Matokeo ya HMAC-SHA512 imegawanywa katika sehemu mbili: ufunguo wa kibinafsi wa bwana (256 bits) na msimbo wa mnyororo mkuu (256 bits).
+reviewed: false

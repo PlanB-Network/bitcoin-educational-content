@@ -1,0 +1,9 @@
+question: Która technika pomaga chronić przed ryzykiem śledzenia wywołanym przez KYC?
+answer: Transakcje CoinJoin
+wrong_answers:
+  - Korzystanie z VPN
+  - Korzystanie z Full node
+  - Walidacja przez Proof of Work
+explanation: |
+  Coinjoiny powodują przerwanie historii monety, co pomaga przeciwdziałać ryzyku śledzenia związanego z KYC.
+reviewed: false

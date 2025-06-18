@@ -1,0 +1,12 @@
+question: 以人類理性為基礎、用於 Bitcoin 的數學概念是什麼？
+answer: 博弈論。
+wrong_answers:
+  - 概率理論。
+  - 數學理論。
+  - 集合理論。
+explanation: |
+  博弈論是一個數學概念，它是基於
+  人類的理性。在 Bitcoin 中，協定變更由使用者
+  在 Bitcoin 中，通訊協定的變更是由使用者強制執行的，這使得任何對 Bitcoin
+  協定的任何修改都非常複雜。
+reviewed: true

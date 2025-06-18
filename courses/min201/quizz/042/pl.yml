@@ -1,0 +1,11 @@
+question: Jaki jest potencjalny wpływ zakazu Mining w danym regionie?
+answer: Może to doprowadzić do znacznego spadku Hashrate i ceny Bitcoin
+wrong_answers:
+  - Może to prowadzić do wzrostu ceny Bitcoin
+  - Może to prowadzić do zwiększenia Hashrate sieci
+  - Może to prowadzić do zwiększenia liczby aktywnych węzłów w sieci
+explanation: |
+  Zakaz stosowania Mining w danym regionie, jak to miało miejsce w Chinach,
+  może doprowadzić do znacznego spadku cen Hashrate i Bitcoin
+  Bitcoin. Mogą one jednak szybko powrócić do poprzedniego poziomu.
+reviewed: true

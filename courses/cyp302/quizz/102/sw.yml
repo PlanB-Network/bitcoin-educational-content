@@ -1,0 +1,9 @@
+question: Je, ni mpangilio gani sahihi wa utendakazi katika usimbaji fiche ulioidhinishwa?
+answer: Kwanza simbua, kisha uunde lebo kwenye maandishi yaliyosimbwa
+wrong_answers:
+  - Kwanza unda lebo, kisha usimba ujumbe na lebo
+  - Changanya maandishi wazi na lebo, kisha usimbaji fiche
+  - Unda lebo, kisha utumie ufunguo wa umma ili kusimba kwa njia fiche
+explanation: |
+  Ili kuhakikisha usalama, usimbaji fiche ulioidhinishwa lazima kwanza usimbe ujumbe kwa njia fiche, kisha generate lebo kwenye maandishi yaliyosimbwa. Maagizo mengine yanaweza kuwa hatarini.
+reviewed: false

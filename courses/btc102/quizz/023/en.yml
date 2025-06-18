@@ -1,11 +1,9 @@
-question: What is FOMO in the context of Bitcoin investment?
-answer: Fear Of Missing Out, which can lead to impulsive investments.
+question: What is Bitcoin's main advantage in the face of monetary crises?
+answer: Preserving savings against inflation
 wrong_answers:
-  - Fear Of Making Offers, which can lead to hesitation in investing.
-  - Fear Of Market Oscillations, which can lead to anxiety about market volatility.
-  - Fear Of Monetary Overload, which can lead to overinvestment.
+  - Increasing interest rates
+  - Guaranteeing fixed returns
+  - Providing banking insurance
 explanation: |
-  In the context of Bitcoin investment, FOMO stands for Fear Of Missing
-  Out. This can lead to impulsive investments as investors rush to buy Bitcoin out
-  of fear of missing out on potential profits.
+  Bitcoin offers protection against currency devaluation thanks to its predictable issuance policy.
 reviewed: false

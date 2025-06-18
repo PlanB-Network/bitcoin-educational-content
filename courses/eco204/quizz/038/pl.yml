@@ -1,0 +1,11 @@
+question: Jak określa się firmę, która kontynuuje działalność głównie dzięki tanim pożyczkom, mimo że jest niewypłacalna lub bliska bankructwa w normalnych warunkach rynkowych?
+answer: Firma zombie
+wrong_answers:
+  - Ghost company
+  - Firma wampirów
+  - Firma Phantom
+explanation: |
+  Spółka zombie to spółka, która w normalnych warunkach rynkowych byłaby niewypłacalna lub bliska bankructwa
+  niewypłacalna lub bliska bankructwa, ale kontynuuje działalność głównie dzięki tanim pożyczkom
+  pożyczki.
+reviewed: false

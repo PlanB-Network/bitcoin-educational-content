@@ -1,0 +1,11 @@
+question: Kada kreirate plan nasledstva, šta nije neophodno uključiti?
+answer: Ime Bitcoin Wallet koje obično koristite.
+wrong_answers:
+  - Ručno pisano pismo sa spiskom vaše imovine.
+  - Opis kako pristupiti svojim sredstvima.
+  - Kontakt informacije pouzdanih osoba.
+explanation: |
+  kreiranje plana nasledstva je ključni korak kako biste osigurali da će vaši bitkoini biti pravilno upravljani nakon vaše smrti. 
+  Ovaj plan može uključivati ručno pisano pismo koje navodi vašu imovinu, 
+  načine pristupa njima i kontakt informacije pouzdanih osoba koje treba kontaktirati.
+reviewed: true

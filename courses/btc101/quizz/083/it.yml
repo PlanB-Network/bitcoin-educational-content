@@ -1,4 +1,4 @@
-question: Qual è l'analogia utilizzata in questo corso per spiegare come si possono ricevere bitcoin senza permettere al mittente di rubare i tuoi fondi?
+question: Qual è l'analogia utilizzata in questo corso per spiegare come si possono ricevere bitcoin senza permettere al mittente di rubare i fondi?
 answer: Una cassetta postale.
 wrong_answers:
   - Un conto bancario.
@@ -6,6 +6,6 @@ wrong_answers:
   - Una casa.
 explanation: |
   L'analogia utilizzata per spiegare come si possono ricevere Bitcoin
-  senza permettere al mittente di rubare i tuoi fondi è una
-  cassetta postale. Le persone depositano denaro al suo interno, ma solo tu hai la chiave per aprirla.
+  senza permettere al mittente di rubare i fondi è una
+  cassetta postale. Le persone depositano denaro al suo interno, ma solo chi ne ha la chiave può aprirla.
 reviewed: vero

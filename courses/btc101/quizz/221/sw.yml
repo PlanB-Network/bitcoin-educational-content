@@ -1,0 +1,11 @@
+question: Lightning Network ni nini?
+answer: Mtandao wa malipo unaotumia itifaki ya Bitcoin kuwezesha miamala ya haraka.
+wrong_answers:
+  - Aina mpya ya cryptocurrency.
+  - Teknolojia mpya ya Blockchain ambayo itachukua nafasi ya Bitcoin katika siku zijazo.
+  - Njia ya Mining Bitcoin.
+explanation: |
+  Lightning Network ni mtandao wa malipo unaotumia
+  Itifaki ya Bitcoin ili kuwezesha shughuli za haraka. Sio a
+  tofauti cryptocurrency, wala mbinu kwa ajili ya Mining Bitcoin.
+reviewed: true

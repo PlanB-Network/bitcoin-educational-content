@@ -1,0 +1,9 @@
+question: Koji je jedan razlog zbog kojeg fiat valuta dovodi do centralizovane kontrole?
+answer: Omogućava vladama da kontrolišu novac Supply i kamatne stope.
+wrong_answers:
+  - Podržan je fizičkim robama poput zlata i srebra.
+  - Otporan je na inflaciju.
+  - Podstiče decentralizovane finansijske sisteme.
+explanation: |
+  Fiat valuta daje vladama moć da kontrolišu novac Supply i kamatne stope, omogućavajući im da utiču na ekonomsku aktivnost i rezultirajući centralizovanom kontrolom.
+reviewed: true

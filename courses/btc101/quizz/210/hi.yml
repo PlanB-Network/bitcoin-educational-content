@@ -1,0 +1,8 @@
+question: किस देश ने Bitcoin को कानूनी मुद्रा घोषित किया है?
+answer: एल साल्वाडोर।
+wrong_answers:
+  - अमेरिका
+  - चीन।
+  - भारत।
+explanation: >-
+reviewed: true

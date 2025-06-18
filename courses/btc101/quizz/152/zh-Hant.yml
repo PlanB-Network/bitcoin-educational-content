@@ -1,0 +1,8 @@
+question: 什麼是 Hashrate？
+answer: Mining 裝置每秒可執行的 Hash 計算次數，以解決 Proof of Work。
+wrong_answers:
+  - Mining 裝置解決 Proof of Work 的速度。
+  - Bitcoin 網路中的礦工總數。
+  - 每秒執行一定次數的嘗試解決 Proof of Work 所挖出的比特幣總數。
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji RGB standard vam omogućava kreiranje jedinstvenih sredstava ili "NFT-ova"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  RGB21 standard je dizajniran za upravljanje jedinstvenim sredstvima, omogućavajući privatnim metapodacima da budu povezani sa NFT-ovima.
+reviewed: false

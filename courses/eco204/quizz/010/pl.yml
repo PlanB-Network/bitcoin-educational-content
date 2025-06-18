@@ -1,0 +1,12 @@
+question: Jaki jest wpływ wskaźnika cen towarów i usług konsumpcyjnych (CPI) na pomiar inflacji?
+answer: Wskaźnik CPI może zaniżać rzeczywistą inflację, ponieważ nie uwzględnia on w pełni zmian cen nieruchomości i może kompensować lub maskować rzeczywisty wzrost cen.
+wrong_answers:
+  - Wskaźnik CPI zawsze dokładnie mierzy inflację.
+  - Wskaźnik CPI zawyża rzeczywistą inflację.
+  - Wskaźnik CPI nie ma wpływu na pomiar inflacji.
+explanation: |
+  Rozdział wyjaśnia, że CPI, używany jako główny wskaźnik inflacji,
+  ma pewne ograniczenia. Na przykład, nie uwzględnia on w sposób kompleksowy
+  ewolucji cen nieruchomości. Ponadto obliczanie wskaźnika CPI obejmuje pewne
+  metodologie, które mogą kompensować lub maskować rzeczywisty wzrost cen.
+reviewed: false

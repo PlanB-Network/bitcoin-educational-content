@@ -145,7 +145,7 @@ La frase de paso no debe confundirse con el código PIN. Juega un papel en la de
 
 La frase de paso es una herramienta muy poderosa para mejorar la seguridad de tus bitcoins. Sin embargo, es muy importante entender cómo funciona antes de implementarla, para evitar perder acceso a tu billetera. Es por esto que te aconsejo consultar este otro tutorial dedicado si deseas configurar una frase de paso en tu Ledger:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 El menú "*Bloqueo PIN*" te permite configurar y activar el bloqueo automático de tu Ledger después de un período determinado de inactividad.
 
@@ -333,3 +333,4 @@ Si encontraste este tutorial útil, te agradecería mucho si pudieras dejar un p
 También te recomiendo que revises este tutorial completo sobre el Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

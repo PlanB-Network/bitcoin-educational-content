@@ -1,0 +1,9 @@
+question: Kada je prvi put Bitcoin korišćen za kupovinu fizičkih dobara?
+answer: Kada je Laszlo Hanyecz kupio 2 pice za 10.000 BTC.
+wrong_answers:
+  - Kada je Hal Finney kupio automobil za 100.000 BTC.
+  - Kada je Satoshi Nakamoto kupio kuću za 1,000,000,000 BTC.
+  - Nijedna od drugih opcija.
+explanation: |
+  Prvi put kada je Bitcoin korišćen za kupovinu fizičkih dobara bilo je kada je Laszlo Hanyecz kupio 2 pice za 10,000 BTC, dana 2010/05/22 što je sada poznato kao Dan pice.
+reviewed: true

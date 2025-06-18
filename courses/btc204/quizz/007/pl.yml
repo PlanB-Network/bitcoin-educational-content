@@ -1,0 +1,9 @@
+question: Czym jest połączenie w transakcji?
+answer: Jest to działanie polegające na wykorzystaniu wielu UTXO jako danych wejściowych.
+wrong_answers:
+  - Jest to działanie polegające na tworzeniu wielu UTXO jako wyjść.
+  - Jest to czynność polegająca na połączeniu wielu adresów w jeden.
+  - Jest to czynność polegająca na łączeniu wielu bloków w Blockchain.
+explanation: |
+  Gdy użytkownik nie ma żadnego UTXO większego lub równego ilości, którą chce wysłać, musi użyć kilku swoich UTXO, aby zaspokoić wyjścia. Praktyka ta nazywana jest łączeniem.
+reviewed: false

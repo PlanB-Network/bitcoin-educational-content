@@ -1,0 +1,12 @@
+question: Bitcoin 通訊協定如何獎勵為後續區塊找到有效 Hash 的 Miner？
+answer: 以共識規則定義的獎勵，以及有效區塊中包含的所有交易的費用。
+wrong_answers:
+  - 具有不受共識規則定義的固定比特幣數量。
+  - 與 Bitcoin Supply 總額的百分比，以及前幾個區塊中包含的所有交易的費用。
+  - 有效區塊中包含所有交易的費用。
+explanation: |
+  Bitcoin 協定會獎勵為後續區塊找到有效 Hash 的 Miner
+  為後續區塊找到有效 Hash 的 Miner 獎勵，獎勵金額由共
+  其金額由共識規則定義，並連同來自
+  包含在有效區塊中的所有交易的費用。
+reviewed: true

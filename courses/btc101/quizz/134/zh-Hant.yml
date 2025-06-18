@@ -1,0 +1,12 @@
+question: 在 Bitcoin 網路中區塊 Mining 的情況下，何謂有效的 Hash？
+answer: 與區塊相關的唯一指紋，由 256 個字元組成。
+wrong_answers:
+  - 用於存取區塊的唯一代碼。
+  - 開採區塊所需的唯一密碼。
+  - 挖出區塊的 Miner 的唯一識別碼。
+explanation: |
+  就 Bitcoin 網路中的區塊 Mining 而言，有效的 Hash 是與 Bitcoin 網路相關的唯一指紋。
+  有效的 Hash 是與該區塊相關的唯一指紋，由 256 個字元組成。
+  區塊相關的唯一指紋，由 256 個字元組成。此
+  Hash 的有效性取決於 Bitcoin 網路的難度。
+reviewed: true

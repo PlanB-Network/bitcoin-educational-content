@@ -1,0 +1,10 @@
+question: Silent Payments 專用的腳本類型是什麼？
+answer: P2TR
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+explanation: |
+  為了便利此協定的執行，並改善其使用者的匿名集，Silent Payments 完全依賴 P2TR (Pay to Taproot) 腳本。
+  
+reviewed: false

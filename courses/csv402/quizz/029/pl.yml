@@ -1,0 +1,9 @@
+question: Jaka jest główna rola Schema w RGB Contract?
+answer: Opisać Business Logic i strukturę danych Contract
+wrong_answers:
+  - Definiowanie portfeli Interface dla RGB
+  - Zarządzanie kompilacją skryptów na Blockchain
+  - Walidacja kryptograficzna On-Chain
+explanation: |
+  Schema definiuje deklaratywną strukturę, typy danych i reguły walidacji Contract, umożliwiając zarządzanie Business Logic po stronie klienta.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Je, ni mjadala gani ndani ya jumuiya ya Bitcoin kuhusu Mining?
+answer: Usawa kati ya kutafuta faida na kuchangia usalama na usambazaji wa mtandao wa Bitcoin
+wrong_answers:
+  - Usawa kati ya kuongeza Hashrate na kupunguza idadi ya nodi amilifu
+  - Usawa kati ya kuongeza bei na kupunguza gharama
+  - Usawa kati ya kuongeza idadi ya miamala na kupunguza matumizi ya nishati
+explanation: |
+  Mjadala ndani ya jumuiya ya Bitcoin kuhusu Mining
+  inahusu usawa kati ya kutafuta faida na
+  kuchangia usalama na usambazaji wa
+  Mtandao wa Bitcoin. Kuna hoja zenye nguvu kwa pande zote mbili
+  ya mjadala.
+reviewed: true

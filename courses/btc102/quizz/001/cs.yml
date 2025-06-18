@@ -1,9 +1,9 @@
-question: Jaký je běžný podvod související s online soutěžemi nebo darováním v kryptoměnovém sektoru?
-answer: Reklamy slibující zdarma bitcoiny.
+question: Co byste měli udělat, abyste rozpoznali pokus o phishing v kryptografickém sektoru?
+answer: Ověření totožnosti odesílatele
 wrong_answers:
-  - Reklamy slibující fyzické zboží.
-  - Reklamy slibující zdarma fiat měnu.
-  - Reklamy slibující zdarma software.
+  - Klikejte pouze na odkazy obdržené v e-mailu
+  - Sdílení soukromých klíčů pro potvrzení pravosti
+  - Spoléhat se v e-mailech pouze na loga a obrázky
 explanation: |
-  Podvody související s online soutěžemi nebo darováním jsou velmi běžné v kryptoměnovém sektoru. Reklamy slibující zdarma bitcoiny jsou často používány k oklamání nezkušených uživatelů.
+  Vždy byste se měli ujistit, že komunikujete se správnou osobou, a nikdy nepoužívat odkazy uvedené v e-mailech. Místo toho přejděte na stránky přímo ručně pomocí záložek v prohlížeči.
 reviewed: false

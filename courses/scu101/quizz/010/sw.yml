@@ -1,0 +1,13 @@
+question: Kuna tofauti gani kati ya VPN za biashara na VPN za watumiaji?
+answer: VPN za Biashara ni ghali na ngumu zaidi, wakati VPN za watumiaji zinapatikana zaidi na ni rahisi kwa watumiaji.
+wrong_answers:
+  - VPN za Biashara kawaida huwa salama zaidi kuliko VPN za watumiaji, kwani huwa ghali zaidi kila wakati.
+  - VPN za watumiaji daima ni ghali zaidi kuliko VPN za biashara kutokana na kiwango cha kiuchumi ambacho watumiaji wanaweza kufikia.
+  - Kwa sababu ya mahitaji yao ya hadhira inayolengwa zaidi, VPN za biashara kila wakati husimba data kwa njia fiche, huku VPN za watumiaji hazifanyi hivyo.
+explanation: |
+  VPN za Biashara zimeundwa kwa ajili ya biashara na ziko
+  kawaida ni ghali zaidi na ngumu kuanzisha na kusimamia.
+  Kwa upande mwingine, VPN za watumiaji zimeundwa kwa ajili ya
+  watumiaji binafsi na kwa ujumla ni zaidi kupatikana na
+  kirafiki.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Koji je jedan način da potvrdite da ste na sajtu koji nameravate da posetite?
+answer: Proverite URL-ove i mali katanac u Address traci.
+wrong_answers:
+  - Proverite broj oglasa na sajtu.
+  - Proverite brzinu sajta.
+  - Proverite šemu boja sajta.
+explanation: |
+  Provera URL-ova i malog katanca u Address traci
+  je jedan od načina da potvrdite da ste na sajtu koji želite
+  da posetite. Katanac označava da sajt koristi
+  HTTPS protokol, koji šifrira podatke za sigurnu Exchange.
+reviewed: true

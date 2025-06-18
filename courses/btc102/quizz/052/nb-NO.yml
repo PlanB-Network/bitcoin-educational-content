@@ -1,10 +1,9 @@
-question: Hva er rollen til selskaper som OpenNode, Swiss Bitcoin Pay og BTCPay i Bitcoin-økosystemet?
-answer: De tilbyr verktøy som gjør det enkelt for bedrifter å akseptere Bitcoin.
+question: Hvilke fordeler gir det å drive din egen Bitcoin-node?
+answer: Uavhengighet
 wrong_answers:
-  - De miner Bitcoin.
-  - De regulerer Bitcoin.
-  - De utsteder Bitcoin.
+  - Likviditet
+  - Sentralisering
+  - Hastighet
 explanation: |
-  Selskaper som OpenNode, Swiss Bitcoin Pay og BTCPay tilbyr verktøy
-  som gjør det enkelt for bedrifter å akseptere Bitcoin, noe som bidrar til dets adopsjon
-  og bruk i daglige transaksjoner.
+  Å drive din egen node sikrer uavhengighet fra tredjeparter og beskytter personvernet til transaksjonene dine.
+reviewed: false

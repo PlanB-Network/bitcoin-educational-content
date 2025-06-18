@@ -1,0 +1,13 @@
+question: 今日貨幣的演變路徑是什麼？
+answer: 原石 -> 硬幣 -> 鈔票 -> 銀行卡 -> Blockchain -> Lightning Network
+wrong_answers:
+  - 原石 -> 硬幣 -> 紙幣 -> Blockchain -> Lightning Network
+  - 原石 -> 硬幣 -> 鈔票 -> 銀行卡 -> Lightning Network
+  - 原石 -> 硬幣 -> 銀行卡 -> 鈔票 -> Blockchain -> Lightning Network
+explanation: |
+  貨幣是一種隨著時間演變的技術、
+  從最初的石頭到金屬硬幣
+  金屬硬幣，然後變成紙幣、銀行卡，最後變成點對點網路。
+  最後變成點對點網路，使用
+  Bitcoin Blockchain 和 Lightning Network。
+reviewed: true

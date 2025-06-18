@@ -1,0 +1,12 @@
+question: Jaka jest rola sektora bankowego w wywoływaniu recesji zgodnie z austriacką teorią cyklu koniunkturalnego?
+answer: Sektor bankowy wywołuje recesję, gdy decyduje się na ograniczenie ryzyka, a tym samym zmniejsza przepływ kredytów.
+wrong_answers:
+  - Sektor bankowy wywołuje recesję, gdy decyduje się na zwiększenie ryzyka, a tym samym zwiększa przepływ kredytów.
+  - Sektor bankowy wywołuje recesję, gdy decyduje się na utrzymanie ryzyka, a tym samym utrzymuje przepływ kredytów.
+  - Zgodnie z austriacką teorią cyklu koniunkturalnego, sektor bankowy nie odgrywa żadnej roli w wywoływaniu recesji.
+explanation: |
+  Zgodnie z austriacką teorią cyklu koniunkturalnego, sektor bankowy
+  wywołuje recesję, gdy decyduje się zmniejszyć swoje ryzyko, a tym samym zmniejsza
+  przepływ kredytów. Prowadzi to do wielu bankructw, zaostrzenia polityki kredytowej, spadku
+  w dostępnej sile nabywczej i krachów finansowych.
+reviewed: true

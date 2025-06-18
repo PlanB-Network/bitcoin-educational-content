@@ -1,0 +1,9 @@
+question: Hash 函式必須具備哪些屬性，才能在軟體驗證過程中確保安全性？
+answer: 抗撞性
+wrong_answers:
+  - 可逆性
+  - 非對稱金鑰的可操作性
+  - 即時生成性
+explanation: |
+  抗碰撞性可確保幾乎不可能發現兩個不同的輸入產生相同的 Hash，這對於驗證軟體未被篡改非常重要。
+reviewed: false

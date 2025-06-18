@@ -1,0 +1,9 @@
+question: Jakie jest główne ryzyko użycia źle zaprojektowanego PRNG do entropii generate?
+answer: Klucze prywatne mogą zostać odgadnięte przez atakującego
+wrong_answers:
+  - Fraza Mnemonic może zawierać nieprawidłowe słowa
+  - Podpisy cyfrowe stałyby się nieważne
+  - Adresy Bitcoin byłyby niekompatybilne z siecią
+explanation: |
+  Źle zaprojektowany PRNG może generować przewidywalne sekwencje, czyniąc klucze bardziej podatnymi na ataki.
+reviewed: false

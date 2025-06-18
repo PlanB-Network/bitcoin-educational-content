@@ -1,0 +1,9 @@
+question: 什麼是交易中的輸入？
+answer: 參考先前未使用的 UTXO。
+wrong_answers:
+  - 來自礦工的確認信號。
+  - Blockchain 中新增了一個區塊。
+  - 確保交易安全的驗證碼。
+explanation: |
+  每個交易輸入都是對 UTXO 的參考，也就是先前交易的輸出。
+reviewed: false

@@ -1,11 +1,14 @@
 ---
-term: SEED
-
+term: GRAIN
 ---
-Ve specifickém kontextu hierarchické deterministické peněženky Bitcoin je seed 512bitová informace odvozená z náhodnosti. Používá se k deterministickému a hierarchickému generování sady soukromých klíčů a jim odpovídajících veřejných klíčů pro peněženku Bitcoin. Semínko se často zaměňuje se samotnou frází pro obnovení. Jedná se však o odlišnou informaci. Semínko se získá použitím funkce `PBKDF2` na mnemotechnickou frázi a jakoukoli potenciální frázi.
 
-Se zavedením BIP32 byl vynalezen seed, který definuje základy hierarchické deterministické peněženky. V tomto standardu byl seed 128 bitů. To umožňuje odvodit všechny klíče v peněžence z jediné informace, na rozdíl od peněženek JBOK (*Just a Bunch Of Keys*), které vyžadují nové zálohy pro každý generovaný klíč. BIP39 později zavedl kódování tohoto seedu, aby se zjednodušila jeho čitelnost pro člověka. Toto kódování je provedeno ve formě fráze, běžně označované jako mnemotechnická fráze nebo fráze pro obnovu. Tento standard pomáhá zabránit chybám při zálohování seedu, zejména použitím kontrolního součtu.
+Ve specifickém kontextu hierarchického deterministického portfolia Bitcoin je seed 512bitová informace odvozená z náhodné události. Používá se k deterministickému a hierarchickému generate souboru soukromých klíčů a jim odpovídajících veřejných klíčů pro portfolio Bitcoin. seed je často zaměňován se samotnou frází pro obnovu. Není to však totéž. Frázi seed získáme aplikací funkce `PBKDF2` na frázi Mnemonic a libovolnou frázi passphrase.
 
-Obecněji řečeno, v kryptografii je semeno část náhodných dat, která se používá jako výchozí bod pro generování kryptografických klíčů, šifrování nebo pseudonáhodných posloupností. Kvalita a bezpečnost mnoha kryptografických procesů závisí na náhodnosti a důvěrnosti seedu.
 
-> ► Český překlad slova "graine" je "semeno". Ve francouzštině se pro označení semene často používá přímo anglické slovo *
+seed byl vynalezen společně s BIP32, který definoval základy hierarchického deterministického portfolia. V tomto standardu měřil seed 128 bitů. To umožnilo odvodit všechny klíče v portfoliu z jediné informace, na rozdíl od portfolií JBOK (*Just a Bunch Of Keys*), která vyžadují nové zálohy pro každý generovaný klíč. BIP39 pak navrhl kódování tohoto kódu seed, aby se zjednodušilo jeho čtení lidmi. Toto kódování má podobu fráze, obecně označované jako fráze Mnemonic nebo fráze pro obnovu. Tento standard zabraňuje chybám při ukládání seed, zejména díky použití kontrolního součtu.
+
+
+Mimo kontext Bitcoin je v kryptografii obecně seed počáteční hodnota používaná pro kryptografické klíče generate nebo obecněji pro jakýkoli typ dat vytvořených generátorem pseudonáhodných čísel. Tato počáteční hodnota musí být náhodná a nepředvídatelná, aby byla zaručena bezpečnost kryptografického systému. seed skutečně vnáší do systému entropii, ale následný proces generování je deterministický.
+
+
+> ► *V běžném jazyce většina bitcoinářů mluví o frázi Mnemonic, když hovoří o "seed", a nikoli o mezistavu derivace, který leží mezi frází Mnemonic a hlavním klíčem.*

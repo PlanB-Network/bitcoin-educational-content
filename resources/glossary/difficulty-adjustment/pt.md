@@ -6,8 +6,6 @@ O ajuste de dificuldade é um processo periódico que redefine o objetivo de dif
 
 $$N = A \cdot \left(\frac{T}{1,209,600}\right)$$
 
-&nbsp;
-
 Onde:
 
 

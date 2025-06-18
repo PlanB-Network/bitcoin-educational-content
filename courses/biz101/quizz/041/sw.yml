@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kuwa na usafirishaji wa CSV wa miamala yote ya Bitcoin?
+answer: Inatoa rekodi iliyo wazi, iliyopangwa kwa kila shughuli, na kuwarahisishia wahasibu kujumuisha hizi katika ripoti za fedha na majalada ya kodi.
+wrong_answers:
+  - Kwa sababu risiti za karatasi ndizo hati pekee za uhasibu zinazokubalika kisheria.
+  - Kwa sababu kuhamisha data kunakamilisha urejeshaji wako wa kodi kiotomatiki bila ukaguzi.
+  - Kwa sababu faili za CSV huondoa hitaji la kufuatilia msingi wa gharama.
+explanation: |
+  Kuwa na rekodi ya kidijitali katika umbizo la kawaida huruhusu kuunganishwa kwa urahisi katika mifumo ya uhasibu, husaidia kudumisha njia za ukaguzi, na kuauni ripoti sahihi ya kodi na utiifu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakie są dwie formy grabieży opisane przez Bastiata?
+answer: Legalna i nielegalna grabież
+wrong_answers:
+  - Moralna grabież i niemoralna grabież
+  - Grabież wewnętrzna i zewnętrzna
+  - Grabież towarów i usług
+explanation: |
+  Bastiat rozróżnia między legalną grabieżą, która jest określona przez prawo i często wykonywana przez państwo (np. podatki), a nielegalną grabieżą, która ma miejsce poza ramami prawnymi, takimi jak kradzież lub napaść.
+reviewed: false

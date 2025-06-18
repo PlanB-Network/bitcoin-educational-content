@@ -1,0 +1,10 @@
+question: Jaki jest jeden ze sposobów nabycia bitcoinów bez KYC?
+answer: Bankomaty Bitcoin.
+wrong_answers:
+  - Platformy brokerskie.
+  - Platformy DCA.
+  - Przelewy bankowe.
+explanation: |
+  Tekst kursu wspomina, że istnieje kilka sposobów na
+  nabyć Bitcoiny bez KYC, z których jednym są bankomaty Bitcoin.
+reviewed: true

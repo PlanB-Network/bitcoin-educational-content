@@ -1,0 +1,9 @@
+question: Które oprogramowanie open-source jest przystosowane do profesjonalnego systemu płatności Bitcoin?
+answer: Serwer płatności BTC
+wrong_answers:
+  - Swiss Bitcoin Pay
+  - Węzeł otwarty
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server jest wyróżniony w kursie jako podstawowe rozwiązanie open-source dla profesjonalnych konfiguracji ze względu na szerokie możliwości integracji i kontroli.
+reviewed: false

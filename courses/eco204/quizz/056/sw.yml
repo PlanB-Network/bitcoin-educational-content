@@ -1,0 +1,10 @@
+question: Kiwango cha awali cha Exchange cha dola ya Zimbabwe kilipoanzishwa mwaka wa 1980 kilikuwa kipi?
+answer: Dola mbili za Zimbabwe zilikuwa na thamani ya takriban dola za Kimarekani 1.60
+wrong_answers:
+  - Dola moja ya Zimbabwe ilikuwa na thamani ya takriban dola 1 ya Marekani
+  - Dola moja ya Zimbabwe ilikuwa na thamani ya takriban dola 2 za Marekani
+  - Dola mbili za Zimbabwe zilikuwa na thamani ya takriban dola 2 za Kimarekani
+explanation: |
+  Zimbabwe ilipata uhuru mwaka 1980 na kuanzisha dola ya Zimbabwe.
+  Hapo awali, dola mbili za Zimbabwe zilikuwa na thamani ya takriban dola za Kimarekani 1.60.
+reviewed: false

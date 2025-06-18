@@ -1,0 +1,9 @@
+question: 哪種類型的企業最有可能認為簡單的 csv 檔案就足以做會計？
+answer: 小型企業
+wrong_answers:
+  - 大型跨國企業
+  - 主要金融機構
+  - 高頻交易平台
+explanation: |
+  大多數小型企業都能從 csv 匯出提供的簡單性及足夠細節中獲益。
+reviewed: false

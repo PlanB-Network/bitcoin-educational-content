@@ -1,11 +1,9 @@
-question: What is the role of miners in the Bitcoin network?
-answer: To record the propagated transactions in the Bitcoin blockchain
+question: What characteristic primarily distinguishes Bitcoin from altcoins?
+answer: Decentralization
 wrong_answers:
-  - To create new bitcoins
-  - To regulate the value of bitcoins
-  - To verify the identity of Bitcoin users
+  - Liquidity
+  - Reputation
+  - Privacy
 explanation: |
-  Miners in the Bitcoin network are responsible for recording the transactions
-  that have been propagated across the network into the Bitcoin blockchain. This ensures
-  the finality of transactions.
+  Bitcoin is renowned for its decentralization, unlike most altcoins which are more or less centralized.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Kakva je iluzija u vezi sa sigurnošću komunikacionih kanala u modernom svetu?
+answer: Verujući da fizička zaštita kanala sprečava presretanje
+wrong_answers:
+  - Misliti da su bežične mreže neefikasne
+  - Verovanje da kriptografija nije neophodna za lokalne komunikacije
+  - S obzirom na to da samo nacionalne agencije mogu presretati podatke
+explanation: |
+  Iluzija je misliti da je samo fizičko osiguranje kanala dovoljno za obezbeđivanje poverljivosti, jer mnoge tačke presretanja ostaju dostupne, posebno za bežične komunikacije.
+reviewed: false

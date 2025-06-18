@@ -1,0 +1,11 @@
+question: Jaka technologia jest używana do bezpiecznego wydawania środków za pomocą Bitcoin Wallet?
+answer: Kryptografia krzywych eliptycznych.
+wrong_answers:
+  - Kryptografia symetryczna.
+  - Kryptografia kwantowa.
+  - Kryptografia RSA.
+explanation: |
+  Wydawanie Bitcoinów wymaga od właściciela użycia algorytmu krzywej eliptycznej
+  Algorytmu podpisu cyfrowego (ECDSA) do sfałszowania podpisu
+  w celu propagacji transakcji Bitcoin.
+reviewed: true

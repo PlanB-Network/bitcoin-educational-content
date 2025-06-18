@@ -1,0 +1,9 @@
+question: Który algorytm derywacji jest używany do obliczania kodu uwierzytelniającego na podstawie tajnego klucza?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 to algorytm, który łączy funkcję Hash i tajny klucz w celu obliczenia kodu uwierzytelniającego.
+reviewed: false

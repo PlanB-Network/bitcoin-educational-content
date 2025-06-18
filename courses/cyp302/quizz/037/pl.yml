@@ -1,0 +1,9 @@
+question: Czym jest struktura algebraiczna w algebrze abstrakcyjnej?
+answer: Zestaw Elements z jedną lub więcej operacjami zgodnymi z pewnymi aksjomatami
+wrong_answers:
+  - Zbiór liczb pierwszych uporządkowanych w rzędach zgodnie z pewnymi aksjomatami
+  - Seria algorytmów do rozwiązywania równań liniowych
+  - Grupa losowych przekształceń geometrycznych ułożonych zgodnie z pewnymi aksjomatami
+explanation: |
+  Struktura algebraiczna jest zbiorem zdefiniowanych Elements z jedną lub więcej operacjami, takimi jak dodawanie lub mnożenie, zgodnymi z pewnymi aksjomatami i jest niezbędna do strukturyzacji pojęć w teorii liczb.
+reviewed: false

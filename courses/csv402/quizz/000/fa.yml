@@ -1,0 +1,9 @@
+question: عملکرد اصلی Blockchain در پارادایم Client-side Validation که توسط RGB استفاده می‌شود چیست؟
+answer: ارائه زمان‌بندی و جلوگیری از دوبار خرج کردن
+wrong_answers:
+  - ذخیره تمام انتقالات حالت
+  - تکثیر داده‌های Smart contract
+  - تضمین دسترسی جهانی به داده‌ها
+explanation: |
+  Bitcoin Blockchain در RGB برای زمان‌سنجی تعهدات و جلوگیری از Double-spending استفاده می‌شود، بدون اینکه تمام انتقالات حالت را ذخیره کند.
+reviewed: false

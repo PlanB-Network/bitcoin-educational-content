@@ -1,0 +1,9 @@
+question: چه عنصری در طراحی Bitcoin در تاریخ 31 اکتبر 2008 وجود نداشت؟
+answer: مقدار محدود واحدها
+wrong_answers:
+  - Proof of Work
+  - تأیید ساده پرداخت
+  - Blockchain
+explanation: |
+  سیاست پولی اولیه با انتشار ثابت (X BTC/block) مطابقت داشت همانطور که در نسخه اول وایت پیپر و [مکاتبات](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) Satoshi با ری دیلینگر نشان داده شده است.
+reviewed: false

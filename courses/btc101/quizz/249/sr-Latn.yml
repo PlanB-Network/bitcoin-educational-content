@@ -1,0 +1,8 @@
+question: Koja je jedna od potencijalnih prednosti prihvatanja novih tehnologija kao što je Bitcoin?
+answer: To bi moglo generate masivne ekonomije obima širom sveta.
+wrong_answers:
+  - To bi moglo dovesti do globalnog ekonomskog kolapsa.
+  - To bi moglo izazvati smanjenje ljudske inteligencije.
+  - To bi moglo dovesti do eliminacije svih poslova.
+explanation: >-
+reviewed: true

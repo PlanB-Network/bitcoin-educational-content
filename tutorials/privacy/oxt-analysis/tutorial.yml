@@ -4,9 +4,8 @@ category: analysis
 
 level: advanced
 
-credits:
-  professor: pretty-private
-  link: https://www.pandul.fr/post/analyse-de-chaine-bitcoin
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+credit_link: https://www.pandul.fr/post/analyse-de-chaine-bitcoin
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
@@ -84,13 +83,36 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 37.04
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 29.66
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.82
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.66
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.66
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.66
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 37.04
 tags:
   - onchain
   - deep-dive

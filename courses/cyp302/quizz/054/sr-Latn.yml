@@ -1,0 +1,9 @@
+question: Koje je glavni tip algebarske strukture korišćen u konačnim poljima za kriptografiju?
+answer: Nesvodivi polinomi
+wrong_answers:
+  - Kvadratne matrice
+  - Nasumični vektori
+  - Kubni koreni
+explanation: |
+  U kriptografiji, konačna polja reda 2^m često koriste ireducibilne polinome kako bi se osiguralo da je polje dobro definisano i da su sve operacije moguće.
+reviewed: false

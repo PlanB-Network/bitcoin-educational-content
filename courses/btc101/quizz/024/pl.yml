@@ -1,0 +1,13 @@
+question: Jaka jest główna wada walut fiducjarnych?
+answer: Ich wartość jest stale obniżana przez inflację monetarną.
+wrong_answers:
+  - Nie są one łatwe w transporcie.
+  - Ich wartość jest stale zwiększana przez inflację monetarną.
+  - Nie są one podzielne.
+explanation: |
+  Główną wadą walut fiducjarnych, takich jak
+  dolar i euro, jest to, że ich wartość jest stale
+  stale obniżana przez inflację monetarną. Jest to spowodowane
+  dewaluacji spowodowanej przez podmioty, które je kontrolują (król,
+  bank centralny, cesarz, dyktator).
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kolika je verovatnoća da neko slučajno pogodi vašu listu od 12 ili 24 reči u Bitcoin Wallet?
+answer: Astronomski nisko.
+wrong_answers:
+  - Visoko.
+  - Umereno.
+  - Snažan.
+explanation: |
+  Zahvaljujući kriptografiji korišćenoj za kreiranje Wallet, verovatnoća da neko slučajno pogodi vašu listu od 12 ili 24 reči je astronomski niska. To je kao da pronađete pravi broj između 1 i $2^256$, što je gotovo ekvivalentno pronalaženju određenog atoma u Univerzumu.
+reviewed: true

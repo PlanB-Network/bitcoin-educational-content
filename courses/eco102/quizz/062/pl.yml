@@ -1,0 +1,9 @@
+question: Według Laffera, co dzieje się z przychodami podatkowymi, gdy stawki podatkowe są nadmiernie zwiększane?
+answer: Zmniejszają się
+wrong_answers:
+  - Zwiększają
+  - Pozostają one stabilne
+  - Wahają się w nieprzewidywalny sposób
+explanation: |
+  Zgodnie z krzywą Laffera, nadmierny wzrost stawek podatkowych prowadzi do spadku wpływów podatkowych, ponieważ zniechęca do pracy, inwestycji i produkcji.
+reviewed: false

@@ -1,0 +1,10 @@
+question: 比特幣的最大數量是多少？
+answer: 約 2,100 萬台
+wrong_answers:
+  - 約 1800 萬台
+  - 約 2,500 萬台
+  - 約 3,000 萬台
+explanation: |
+  創建 Bitcoin 的特點是固定上限為
+  2100 萬台。
+reviewed: true

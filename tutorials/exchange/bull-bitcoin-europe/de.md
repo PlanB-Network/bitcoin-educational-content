@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Europa
+name: Bull Bitcoin
 description: Kaufen und verkaufen Sie Bitcoins auf Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin ist eine reine Bitcoin-Austauschplattform, die 2013 in Kanada von Francis Pouliot, einer Ikone des Bitcoin-Ökosystems, gegründet wurde. Die Philosophie von Bull Bitcoin ist es, den Nutzern Werkzeuge für finanzielle Souveränität und Emanzipation anzubieten. Die Tauschplattform ist nicht verpfändet, was bedeutet, dass Sie immer die Hoheit über Ihre Bitcoins behalten.
 
-Ursprünglich nur in Kanada verfügbar, ist die Plattform nun auch in Europa mit einer brandneuen, optimierten Schnittstelle verfügbar. Diese neue Version von Bull Bitcoin ist derzeit nur in Europa verfügbar. Sie ermöglicht es Ihnen, Bitcoins schnell und einfach zu kaufen und zu verkaufen, dank der Verwendung von Lightning und sofortigen SEPA-Überweisungen. Letztendlich wird die Plattform auch Optionen für DCA, automatische Käufe, Limit-Orders und Rechnungszahlungen in Bitcoins enthalten.
+Ursprünglich nur in Kanada verfügbar, ist die Plattform nun in Europa und vielen weiteren Ländern mit einer völlig neuen, optimierten Benutzeroberfläche verfügbar. Diese neue Version von Bull Bitcoin ermöglicht es Ihnen, Bitcoins einfach und schnell zu kaufen und zu verkaufen, dank der Nutzung von Lightning und sofortigen SEPA-Überweisungen. Sie integriert auch die Bezahlung von Rechnungen in Bitcoins. Zukünftig wird die Plattform auch DCA-Optionen, automatische Käufe und Limit-Orders integrieren.
 
-Bull Bitcoin legt großen Wert auf einen transparenten Service ohne versteckte Gebühren. Wie alle anderen Börsenplattformen in Europa erfordert auch die Nutzung von Bull Bitcoin ein KYC-Verfahren (Kundenidentifikationsverfahren).
+Bull Bitcoin legt großen Wert darauf, einen transparenten Service ohne versteckte Gebühren anzubieten. Beachten Sie, dass wie bei den meisten Börsen die Nutzung von Bull Bitcoin die Durchführung eines KYC (Know Your Customer) erfordert.
 
 ## Registrierung bei Bull Bitcoin
 

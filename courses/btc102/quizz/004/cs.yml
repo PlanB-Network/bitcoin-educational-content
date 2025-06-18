@@ -1,10 +1,9 @@
-question: Jaký je běžný znak podvodů v oblasti kryptoměn?
-answer: Sliby nerealistických výnosů.
+question: Jaký je hlavní mechanismus Ponziho schématu?
+answer: První investoři jsou placeni z peněz nových investorů
 wrong_answers:
-  - Sliby fyzických produktů.
-  - Sliby softwarových produktů.
-  - Sliby fiat měn.
+  - Návratnost pochází ze skutečného produktu na trhu
+  - Investoři dostávají od společností dividendy
+  - Zisky jsou generovány chytrými smlouvami na Blockchain
 explanation: |
-  Podvody v oblasti kryptoměn často slibují nerealistické výnosy.
-  Je zásadní nevěřit slepě, obzvláště pokud jde o internetový banner.
+  V Ponziho schématu se nevytváří žádný skutečný produkt a výplaty závisí pouze na příchodu nových účastníků.
 reviewed: false

@@ -1,10 +1,9 @@
-question: Was ist die goldene Regel für Bitcoin-Investitionen?
-answer: Nicht dein Schlüssel, nicht deine Bitcoins.
+question: Welcher Begriff bezieht sich auf die programmierte Aufteilung des Mining-Zuschusses?
+answer: Halving
 wrong_answers:
-  - Investiere niemals mehr, als du dir leisten kannst zu verlieren.
-  - Meide, was gerade im Trend liegt.
-  - Planung und eine langfristige Vision sind entscheidend für den Erfolg in der Finanzwelt.
+  - Fork
+  - Bisektion
+  - Coinbase
 explanation: |
-  Die goldene Regel für Bitcoin-Investitionen lautet Nicht dein Schlüssel, nicht deine Bitcoins.
-  Das bedeutet, dass du deine Bitcoins nicht wirklich besitzt, wenn du keine Kontrolle über deinen privaten Schlüssel hast.
+  Halving bezieht sich auf die Halving der Mining Subvention alle 210.000 Blöcke.
 reviewed: false

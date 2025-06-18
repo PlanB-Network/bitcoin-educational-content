@@ -162,6 +162,11 @@ Cụm mật khẩu không nên bị nhầm lẫn với mã PIN. Nó đóng vai t
 Cụm mật khẩu là một công cụ rất mạnh mẽ để tăng cường bảo mật cho bitcoin của bạn. Tuy nhiên, rất quan trọng là phải hiểu cách nó hoạt động trước khi triển khai nó, để tránh mất quyền truy cập vào ví của bạn. Tôi sẽ giải thích cách sử dụng cụm mật khẩu trong một hướng dẫn chuyên dụng khác.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+Passphrase là một công cụ cực kỳ mạnh mẽ để tăng cường bảo mật cho bitcoin của bạn. Tuy nhiên, điều rất quan trọng là phải hiểu rõ cách hoạt động của nó trước khi triển khai, để tránh mất quyền truy cập vào ví. Đó là lý do tại sao tôi giải thích tất cả trong một hướng dẫn riêng:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Cuối cùng, trang cài đặt cuối cùng cho phép bạn đặt lại Ledger của bạn. Chỉ tiến hành đặt lại này nếu bạn chắc chắn rằng nó không chứa bất kỳ khóa nào bảo vệ bitcoin, vì bạn có thể mất vĩnh viễn quyền truy cập vào quỹ của mình.
 ![LEDGER FLEX](assets/notext/30.webp)
 

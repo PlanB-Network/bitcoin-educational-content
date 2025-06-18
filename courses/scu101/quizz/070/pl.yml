@@ -1,0 +1,13 @@
+question: Jaki jest cel uwierzytelniania Lightning?
+answer: Generuje ona inny identyfikator dla każdej usługi, bez konieczności
+wrong_answers:
+  - Pozwala każdemu, nawet bez Lightning Wallet, uwierzytelnić się bez e-maila Address, jeśli zostanie pokazany prawidłowy identyfikator.
+  - Pozwala to na używanie tego samego hasła dla wszystkich usług.
+  - Co miesiąc wysyła przypomnienia o zmianie haseł.
+explanation: |
+  Uwierzytelnianie Lightning generuje inny identyfikator
+  dla każdej usługi, bez konieczności podawania adresu e-mail
+  Address lub danych osobowych. Może to zwiększyć prywatność
+  i bezpieczeństwo poprzez zmniejszenie ilości danych osobowych
+  które są udostępniane każdej usłudze.
+reviewed: true

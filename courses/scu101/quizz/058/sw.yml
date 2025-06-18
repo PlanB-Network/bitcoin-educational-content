@@ -1,0 +1,10 @@
+question: Je, ni baadhi ya zana gani zinazotumika katika usalama wa mtandao?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Neno
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  Sura hiyo inaorodhesha Wireshark, Metasploit, na Nmap kama baadhi
+  ya zana zinazotumika katika usalama wa mtandao.
+reviewed: true

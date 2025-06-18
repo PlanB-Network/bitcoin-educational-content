@@ -1,0 +1,9 @@
+question: 在 RSA 密碼系統中，如何選擇指數 e？
+answer: 它必須是大於 2 的整數，與 φ(N) 同素
+wrong_answers:
+  - 它必須是小於 N 的素數
+  - 不受限制地隨機選擇
+  - 它必須等於φ(N)
+explanation: |
+  在 RSA 中，選取的指數 e 大於 2 且與φ(N) 同素，以確保運算的安全性。
+reviewed: false

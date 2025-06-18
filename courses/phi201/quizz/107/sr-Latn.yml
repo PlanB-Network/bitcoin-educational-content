@@ -1,0 +1,9 @@
+question: Kakva je Hayekova kritika socijalizma?
+answer: On kritikuje sredstva koja socijalizam koristi za postizanje svojih ciljeva, kao što su centralno planiranje i eliminacija privatne svojine.
+wrong_answers:
+  - On odbacuje ciljeve socijalizma kao što su pravda i jednakost.
+  - On misli da je socijalizam previše drevna doktrina.
+  - Nijedno od navedenog.
+explanation: |
+  Hayek kritikuje socijalizam ne zbog njegovih ciljeva, već zbog njegovih metoda, kao što su centralno planiranje i ukidanje privatne svojine, koje smatra opasnim za individualnu slobodu i ekonomsku efikasnost.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Hva betyr det at Bitcoin er åpen kildekode?
-answer: Alle kan se hvordan Bitcoin fungerer, det er gjennomsiktig og derfor reviderbart
+question: Hvilke plattformer anbefales for å unngå KYC ved kjøp av bitcoins?
+answer: Peer-to-peer Exchange-plattformer
 wrong_answers:
-  - Alle kan lage sin egen versjon av Bitcoin
-  - Bitcoin er gratis å bruke
-  - Bitcoins kode er offentlig tilgjengelig for modifikasjon
+  - Exchange-plattformer for generelle formål
+  - Kun Bitcoin Exchange-plattformer
+  - Handelsfokuserte Exchange-plattformer
 explanation: |
-  Å være åpen kildekode betyr at Bitcoins kode er offentlig tilgjengelig for
-  hvem som helst å gjennomgå. Dette gjør det gjennomsiktig og reviderbart, og sikrer at protokollen
-  er lik for alle.
+  P2P-plattformer gjør det mulig for brukere å kjøpe bitcoins direkte fra hverandre uten å kreve KYC.
+reviewed: false

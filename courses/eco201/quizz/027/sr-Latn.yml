@@ -1,0 +1,9 @@
+question: Kakvu ulogu novac ima u međuvremenskoj koordinaciji ljudskih akcija?
+answer: Omogućava skladištenje vrednosti u sadašnjosti i njen prenos budućem sebi.
+wrong_answers:
+  - Omogućava skladištenje vrednosti u budućnosti i njen prenos na sadašnje ja.
+  - Omogućava skladištenje vrednosti u sadašnjosti i njen prenos drugim ljudima.
+  - Omogućava skladištenje vrednosti u budućnosti i njen prenos drugim ljudima.
+explanation: |
+  Čuvanjem novca, tj. štednjom, pojedinci se štite od buduće neizvesnosti i tako omogućavaju sebi da usmere svoje akcije ka dužim vremenskim horizontima. Međutim, to mogu postići samo ako novac koji koriste predstavlja čuvara vrednosti.
+reviewed: true

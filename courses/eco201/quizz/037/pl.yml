@@ -1,0 +1,13 @@
+question: Jakie są natychmiastowe skutki spadku stóp procentowych spowodowanego wzrostem akcji kredytowej zgodnie z austriacką teorią cyklu koniunkturalnego?
+answer: Przedsiębiorcy mogą pożyczać więcej zasobów i w ten sposób tworzyć etapy produkcji wyższego rzędu. Rozszerzenie struktury produkcji nie spowoduje spadku konsumpcji, ponieważ konsumenci nie odkładają obecnej konsumpcji na później. Innymi słowy, PKB rośnie.
+wrong_answers:
+  - Przedsiębiorcy mogą pożyczać mniej zasobów, a tym samym tworzyć etapy produkcji niższego rzędu. To rozszerzenie struktury produkcji spowoduje wzrost konsumpcji, ponieważ konsumenci odłożyli obecną konsumpcję. Innymi słowy, PKB kurczy się.
+  - Przedsiębiorcy mogą pożyczać więcej zasobów i w ten sposób tworzyć etapy produkcji niższego rzędu. To rozszerzenie struktury produkcji spowoduje spadek konsumpcji, ponieważ konsumenci nie odłożyli obecnej konsumpcji na później. Innymi słowy, PKB kurczy się.
+  - Przedsiębiorcy mogą pożyczać mniej zasobów, a tym samym tworzyć etapy produkcji wyższego rzędu. To rozszerzenie struktury produkcji spowoduje wzrost konsumpcji, ponieważ konsumenci odłożyli obecną konsumpcję. Innymi słowy, PKB rośnie.
+explanation: |
+  Zgodnie z austriacką teorią cyklu koniunkturalnego, gdy następuje
+  spadek stóp procentowych spowodowany wzrostem akcji kredytowej, przedsiębiorcy mogą pożyczyć
+  więcej zasobów, a tym samym tworzyć etapy produkcji wyższego rzędu. To rozszerzenie struktury
+  struktury produkcji nie spowoduje spadku konsumpcji, ponieważ nie nastąpiło odroczenie
+  nie nastąpiło odroczenie obecnej konsumpcji przez konsumentów. Innymi słowy, PKB rośnie.
+reviewed: true

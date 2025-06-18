@@ -1,0 +1,9 @@
+question: 對於您的繼承人來說，什麼行動是無誤地收回您的 bitcoins 必須的？
+answer: 提供清楚的指示
+wrong_answers:
+  - 託管所有私人金鑰
+  - 經常變更密碼
+  - 使用 KYC Exchange 平台
+explanation: |
+  詳細且易懂的指示可確保您的親人能夠正確地使用資金。
+reviewed: false

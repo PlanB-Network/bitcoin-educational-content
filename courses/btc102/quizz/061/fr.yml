@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'une solution non-KYC dans le contexte de Bitcoin ?
-answer: Une solution qui permet des transactions Bitcoin anonymes.
+question: Pourquoi est-il recommandé de rédiger la lettre d'héritage à l'encre sur papier ?
+answer: Pour éviter les risques liés aux documents numériques compromis
 wrong_answers:
-  - Une solution qui permet des transactions Bitcoin sans internet.
-  - Une solution qui permet des transactions Bitcoin sans portefeuille.
-  - Une solution qui permet des transactions Bitcoin sans frais.
+  - Pour réduire les coûts d'impression
+  - Pour obtenir une signature reconnue juridiquement
+  - Pour augmenter la valeur légale du document
 explanation: |
-  Une solution non-KYC (Know Your Customer) est une solution qui permet des transactions Bitcoin anonymes. Elle ne nécessite pas de la part de l'utilisateur de fournir des informations d'identification personnelles.
+  La lettre manuscrite est moins vulnérable aux cyberattaques et garantit la confidentialité des instructions.
 reviewed: false

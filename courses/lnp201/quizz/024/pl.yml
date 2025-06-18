@@ -1,0 +1,9 @@
+question: Jaki jest łączny wpływ blokady czasowej i klucza odwołania na transakcje Commitment?
+answer: Zniechęcają one uczestników do oszukiwania, oferując natychmiastową karę
+wrong_answers:
+  - Zmniejszają przepustowość kanału w przypadku oszustwa
+  - Automatycznie blokują fundusze winnego
+  - Wymuszają one otwarcie nowego kanału, jeśli transakcja jest nieprawidłowa
+explanation: |
+  Blokada czasowa i klucz unieważniający zniechęcają uczestników do oszukiwania, zapewniając, że każda próba oszustwa skutkuje natychmiastową utratą środków przez winowajcę.
+reviewed: false

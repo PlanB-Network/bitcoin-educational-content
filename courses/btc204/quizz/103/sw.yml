@@ -1,0 +1,10 @@
+question: Je, ufanisi wa muamala wa Bitcoin unakokotolewa vipi katika suala la faragha?
+answer: Kwa kulinganisha entropy halisi ya shughuli na kiwango cha juu iwezekanavyo entropy.
+wrong_answers:
+  - Kwa kuzidisha idadi ya pembejeo kwa idadi ya matokeo.
+  - Kwa kuzidisha entropy halisi ya shughuli kwa idadi ya pembejeo na matokeo.
+  - Kwa kulinganisha idadi ya pembejeo na idadi ya matokeo.
+explanation: |
+  Ufanisi wa shughuli huhesabiwa kwa kuondoa entropy ya juu kutoka kwa entropy halisi ya shughuli iliyochambuliwa.
+  
+reviewed: false

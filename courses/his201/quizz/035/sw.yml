@@ -1,0 +1,9 @@
+question: Exchange ya kwanza kati ya Bitcoin na dola ilifanyika lini?
+answer: Oktoba 12, 2009
+wrong_answers:
+  - Mei 8, 2009
+  - Desemba 30, 2009
+  - Machi 11, 2010
+explanation: |
+  Martti alihamisha bitcoins 5,050 kwa NLS, ambaye kisha alihamisha $ 5.02 kwa akaunti yake ya PayPal. Hii ililingana na bei ya kitengo cha takriban $0.001.
+reviewed: false

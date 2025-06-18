@@ -1,0 +1,9 @@
+question: Za Bastijata, šta je politička ekonomija?
+answer: Teorija Exchange
+wrong_answers:
+  - Teorija vrednosti
+  - Teorija bogatstva
+  - Teorija kupovne moći
+explanation: |
+  Bastiat definiše političku ekonomiju kao teoriju Exchange.
+reviewed: false

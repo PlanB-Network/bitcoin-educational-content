@@ -4,41 +4,42 @@ description: How do you easily launch your own Lightning node?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub is the latest software from Alby, the company behind the popular Lightning web extension. Alby Hub is an easy-to-use interface for managing Lightning nodes.
+Alby Hub is the latest open-source software from Alby, the company behind the popular Lightning web extension. Alby Hub is a self-custodial wallet with the easiest to use Lightning node, accessible from anywhere to integrate with dozens of apps. Alby Hub is an easy-to-use interface for managing Lightning nodes.
 
-In this tutorial, we'll look at different ways of using Alby Hub to manage your own Lightning node, and how to connect it to Alby Go, Alby's mobile app. This will enable you to spend your sats on the move while being autonomous in the management of your node.
+In this tutorial, we'll look at different ways of using Alby Hub how to connect it to Alby Go, Alby's mobile app or the Alby Browser Extension. This will enable you to spend your sats on the move while being autonomous in the management of your node.
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## What is Alby Hub?
 
-In 2024, Alby marked a strategic shift. For years, they've offered a variety of tools associated with Bitcoin and the Lightning Network, including the iconic Alby extension, which allows you to operate a Lightning wallet, custodial or otherwise. However, in 2025, they plan to discontinue their shared custodial wallet service and focus exclusively on self-custody solutions. Alby Hub is set to be the new flagship tool in the Alby ecosystem. This software enables users to easily manage their own Lightning node, while retaining ownership of their keys (self-custody).
+Alby Hub is set to be the new flagship tool in the Alby ecosystem. This software enables users to easily manage their own self-custodial wallet with an integrated Lightning node, while retaining ownership of their keys (self-custody).
 
 Alby Hub is a highly adaptable tool. It can meet the needs of both beginners and advanced users. Novices will use it to easily operate a real Lightning node on their own, without having to deal with the underlying complexity. For more experienced users, Alby Hub can be used as a complete interface for advanced management of an existing Lightning node.
 
 Depending on your needs, Alby Hub is available in 4 configurations:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud :**
 
-Ideal for novices, this first option is the Alby cloud option. It allows you to deploy a Lightning node directly on an Alby-managed server, accessible via your Alby Hub interface. Although Alby manages the server, you retain sovereignty over your funds, as your keys are encrypted using a password known only to you. However, your keys must remain decrypted in RAM for the node to operate, which theoretically exposes them to risk if someone physically accesses the server. It's an interesting compromise for beginners, but it's important to be aware of the risks.
+Ideal for novices, this first option is the Alby cloud option. It allows you to deploy a Hub directly on an Alby-managed server, accessible via your Alby Hub interface. Although Alby manages the server, you retain sovereignty over your funds, as your keys are encrypted using a password known only to you. However, your keys must remain decrypted in RAM for the node to operate, which theoretically exposes them to risk if someone physically accesses the server. It's an interesting compromise for beginners, but it's important to be aware of the risks.
 
 The major advantage of this option is that you get a Lightning node up and running 24/7, without having to manage the hosting yourself. What's more, backups of your Lightning node are simplified and automated, compared with self-hosted options where you have to manage channel backups yourself.
 
-Alby offers this service for 21,000 sats per month (December 2024 rate, subject to change, [check their pricing](https://albyhub.com/#pricing)). The fee is automatically deducted from your node via a Lightning invoice issued by Alby. This is done via a NWC connection that configures your node to automatically pay Alby invoices related to your subscription.
+Alby Cloud is a paid service [Check their pricing](https://albyhub.com/#pricing) for more details. The fee is automatically deducted from your wallet via a Lightning invoice issued by Alby. This is done via a NWC connection that configures your node to automatically pay Alby invoices related to your subscription.
 
 
-- Alby Hub with an existing node :**
+
+- **Alby Hub with an existing node :**
 
 If you already have a node hosted, for example on Umbrel or Start9, Alby Hub can be used as an advanced management interface, in the same way as ThunderHub or RTL.
 
 
-- Alby Hub local :**
+- **Alby Hub local :**
 
-It's also possible to install Alby Hub and your node directly on your PC, although this option is less practical, as your PC must remain active at all times to remotely access the Lightning node. However, this alternative may be suitable for your specific needs.
+It's also possible to install Alby Hub directly on your PC, although this option is less practical, as your PC must remain active at all times to remotely access the Lightning node. However, this alternative may be suitable for your specific needs.
 
 
-- Alby Hub on a personal server :**
+- **Alby Hub on a personal server :**
 
 For advanced users, Alby Hub can be deployed on a personal server with a simple command. This option is not covered in this tutorial, but you can find dedicated instructions [on Alby's GitHub](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
@@ -76,7 +77,7 @@ Click "*Continue*" again.
 
 ## The cloud hosting option
 
-You'll then have to choose between a self-hosted option, where you host a Lightning node on your own hardware, or the paid option using Alby's cloud. I'll start by explaining how to proceed with the Cloud option (note that this is a paid option, see details in the previous section).
+You'll then have to choose between a self-hosted option, where you install Alby Hub on your own device, or premium options. I'll start by explaining how to proceed with the Pro Cloud option (note that this is a paid option, see details in the previous section).
 
 Click on "*Upgrade*".
 
@@ -94,7 +95,7 @@ Wait a few moments while your node is created.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-And that's it, your Alby Hub is now configured. In the next section, I'll show you how to install Alby Hub on an existing node. If you don't need to, you can skip ahead to the next section to configure your node.
+And that's it, your Alby Hub is now configured. In the next section, I'll show you how to install Alby Hub on an existing node. If you don't have a lightning node already, you can skip ahead to the next section to configure Alby Hub  on Alby Cloud.
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +129,7 @@ Click on the "*Get Started*" button.
 
 Alby Hub will then prompt you to choose a password. This password is very important, as it will be used to encrypt your wallet. In the paid cloud version, your keys are stored on the Alby server, encrypted with this password that only you know, then decrypted and stored only in RAM to sign transactions when necessary.
 
-It is therefore essential to choose a strong password. Anyone with this password could potentially gain access to your node. Make sure you also make one or more physical backups of this password on a piece of paper, or better still, on a piece of metal for added security. **If you lose this password, it will be impossible to recover access to your bitcoins**, as Alby has no way of resetting it. The loss of this password means the loss of your bitcoins.
+It is therefore essential to choose a strong password. Anyone with this password could potentially gain access to your node. Make sure you also make one or more physical backups of this password on a piece of paper, or better still, on a piece of metal for added security.
 
 Once you have carefully chosen and saved your password, click on "*Create Password*".
 
@@ -138,7 +139,7 @@ You now have access to your Lightning node.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-The first action to take is to save your recovery phrase, from which your keys are derived. This phrase allows you to recover access to your onchain wallet and, with the latest state of your channels, your sats on Lightning. To do this, click on "*Settings*".
+The first action to take is to save your recovery phrase, from which your keys are derived. To do this, click on "Settings". This phrase allows you to recover access to your wallet if you enabled automated backups.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +157,18 @@ Once you've saved the phrase, check the box to confirm that you've saved it and 
 
 ## How can I recover access to my bitcoins?
 
-Before sending funds to your node, it's important to understand how to recover them in the event of a problem, as well as what information is required for this recovery. The process varies according to the nature of the funds to be recovered and the hosting mode of your node.
+Before sending funds to your Alby Hub, it's important to understand how to recover them in the event of a problem, as well as what information is required for this recovery. The process varies according to the nature of the funds to be recovered and the hosting mode of your node.
 
 For paid cloud users, complete recovery of your bitcoins requires three essential elements:
 
-
 - Your recovery phrase;
-- Your password (the one used for your node) ;
-- Access to your Alby account, to retrieve the latest status of your Lightning channels.
+- Access to your Alby account, to retrieve the automated backups.
 
-The absence of any of these 3 pieces of information would make it impossible to recover your bitcoins in full.
+The absence of any of these 2 pieces of information would make it impossible to recover your bitcoins in full.
 
-For those hosting their own node, the recovery process is identical to that for any Lightning node. You'll need :
+For those running Alby Hub on their own device, the recovery process is documented [here](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-
-- Your recovery phrase;
-- The latest status of your Lightning channels. To secure this information, Umbrel offers [an option](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) to encrypt it and save it dynamically and anonymously via Tor.
+If you installed Alby Hub on an existing node, you’ll need to follow the recovery process of that specific node operating system. For example: Umbrel offers [an option](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) to encrypt the latest status of your Lightning channels and save it dynamically and anonymously via Tor. Be aware only the automated backups from Alby let you recover your Hub completely without closing any channels.
 
 ## Buy your first Lightning channel
 
@@ -255,6 +252,12 @@ Your new channel will now appear in the "*Node*" tab.
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Node management
+
+Managing your Lightning channels is easier than you think. Alby Hub allows you to transfer sats between your spending balance and your on-chain balance. That’s how you can increase spending or receiving capacity.
+
+![ALBY HUB](assets/fr/66.webp)
+
 ## Connect an expense application
 
 Now that you have a working Lightning node, you can use it to receive and spend sats on a daily basis. While Alby Hub's web interface is handy for managing your node, it's not ideal for making quick transactions on the move. For this, we're going to use a Lightning wallet app installed on our smartphone.
@@ -279,15 +282,13 @@ When the application is launched, click on "*Connect Wallet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-In your Alby Hub, under the "*Connections*" tab, click on "*Add Connection*".
-
+In your Alby Hub, under the App Store, find “Alby Go” and click on “Connect”
 ![ALBY HUB](assets/fr/47.webp)
-
-Name this connection to identify it easily in your Hub, and select the permissions you wish to grant to the application. In my case, I choose "*Full Access*" to have full access to my Lightning node's funds from my smartphone, but you can also limit access by a maximum budget, select the features allowed, or set an expiry date for these permissions. Once configured, click on "*Next*".
+Click on “Connect with One-Tab Connections”. This will allow you to link your Alby Hub with one click to other apps using Alby Go.
 
 ![ALBY HUB](assets/fr/48.webp)
 
-Alby Hub will then generate a secret to establish the connection.
+Alby Hub will then generate a secret to establish the connection to Alby Go.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +300,7 @@ Click on "Finish*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-You now have remote access to your Lightning node from your smartphone, making it easy to spend and receive sats on the move every day.
+You now have remote access to your Lightning node powered Alby Hub from your smartphone, making it easy to spend and receive sats on the move every day.
 
 ![ALBY HUB](assets/fr/52.webp)
 

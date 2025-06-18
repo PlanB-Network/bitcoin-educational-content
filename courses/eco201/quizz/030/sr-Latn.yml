@@ -1,0 +1,9 @@
+question: Kakva je implikacija sekvencijalne prirode ljudske akcije na proizvodne aktivnosti?
+answer: Svako skretanje u proizvodnji, tj. svako produženje proizvodne strukture, zahteva prethodnu štednju.
+wrong_answers:
+  - Sekvencijalna priroda ljudske akcije nema implikaciju na proizvodne aktivnosti.
+  - Sekvencijalna priroda ljudske akcije implicira da proizvodne aktivnosti moraju biti izvedene određenim redosledom.
+  - Sekvencijalna priroda ljudske akcije implicira da proizvodne aktivnosti moraju biti sprovedene istovremeno.
+explanation: |
+  Zbog sekvencijalne prirode ljudske akcije, pojedinci moraju donositi međuvremenske izbore—odluke koje balansiraju trenutne potrebe sa budućim ciljevima. Ovi izbori utiču na sekvencu akcija koje neko može preduzeti, jer su kratkoročne odluke podređene dugoročnim ciljevima. U smislu proizvodnje, to znači da bilo kakvo skretanje u procesu proizvodnje, tj. produženje strukture proizvodnje, zahteva prethodnu štednju. Resursi moraju biti izdvojeni sada kako bi se pojedinac održao tokom vremena potrebnog za duži, produktivniji put.
+reviewed: true

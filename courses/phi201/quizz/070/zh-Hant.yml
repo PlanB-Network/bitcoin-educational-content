@@ -1,0 +1,9 @@
+question: 根據文中所述，Contract 理論與市場理論的根本差異為何？
+answer: Contract 理論透過國家強制尋求社會和諧，而市場理論則讓個人利益自行和諧。
+wrong_answers:
+  - Contract 理論適用於原始社會，而市場理論則適用於現代社會。
+  - Contract 理論關注財富的分配，而市場理論則關注商品和服務的生產。
+  - Contract 理論是由生理學家所捍衛，而市場理論則是由重商主義者所捍衛。
+explanation: |
+  Contract 理論認為社會和諧是由國家強加的，而市場理論則認為個人利益透過自由互動，自發地創造出社會均衡。
+reviewed: false

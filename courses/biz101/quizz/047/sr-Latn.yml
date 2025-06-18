@@ -1,0 +1,9 @@
+question: Zašto je oskudica suštinsko svojstvo dobre valute?
+answer: Očuva vrednost
+wrong_answers:
+  - To garantuje da se samo fizička sredstva mogu koristiti kao valuta
+  - Osigurava da je valuta široko dostupna svakom pojedincu
+  - Osigurava da valuta uvek mora biti podržana robom poput zlata
+explanation: |
+  Oškudica sprečava prekomerno stvaranje valute, čime se održava njena vrednost i kupovna moć tokom vremena.
+reviewed: false

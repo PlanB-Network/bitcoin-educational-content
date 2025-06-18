@@ -1,0 +1,8 @@
+question: Jakie jest główne ryzyko związane z korzystaniem z usługi powierniczej do przechowywania bitcoinów?
+answer: Zaufana strona trzecia może w dowolnym momencie ograniczyć dostęp użytkownika do jego środków.
+wrong_answers:
+  - Zaufana strona trzecia może zwiększyć wartość bitcoinów w dowolnym momencie.
+  - Zaufana strona trzecia może obniżyć wartość bitcoinów w dowolnym momencie.
+  - Zaufana strona trzecia nie może w żadnym momencie powielić twoich bitcoinów.
+explanation: >-
+reviewed: true

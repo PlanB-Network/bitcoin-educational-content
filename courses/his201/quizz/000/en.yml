@@ -5,5 +5,5 @@ wrong_answers:
   - 1776
   - 1876
 explanation: |
-  It was introduced by Whitfield Diffie and Martin Hellman, two cryptographers from Stanford University, in a paper published in November 1976.
-reviewed: false
+  Whitfield Diffie and Martin Hellman, two Stanford University cryptographers, introduced it in a paper published in November 1976.
+reviewed: true

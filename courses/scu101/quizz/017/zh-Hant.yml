@@ -1,0 +1,12 @@
+question: 有什麼方法可以確認您已進入您打算造訪的網站？
+answer: 檢查 URL 和 Address 欄中的小掛鎖。
+wrong_answers:
+  - 檢查網站上的廣告數量。
+  - 檢查網站的速度。
+  - 檢查網站的配色方案。
+explanation: |
+  檢查 URL 和 Address 欄中的小掛鎖
+  是確認您是否在您想要的網站上的方法之一。
+  訪問。掛鎖表示網站使用了
+  HTTPS 通訊協定，可加密資料以確保 Exchange 的安全性。
+reviewed: true

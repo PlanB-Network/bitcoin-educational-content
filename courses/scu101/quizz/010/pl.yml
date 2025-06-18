@@ -1,0 +1,13 @@
+question: Jaka jest różnica między VPN dla przedsiębiorstw a VPN dla klientów indywidualnych?
+answer: Sieci VPN dla przedsiębiorstw są droższe i bardziej złożone, podczas gdy konsumenckie sieci VPN są bardziej dostępne i przyjazne dla użytkownika.
+wrong_answers:
+  - Sieci VPN dla przedsiębiorstw są zazwyczaj bezpieczniejsze niż konsumenckie sieci VPN, ponieważ są one zawsze droższe.
+  - Konsumenckie sieci VPN są zawsze droższe niż korporacyjne sieci VPN ze względu na skalę ekonomiczną, do której te ostatnie mają dostęp.
+  - Ze względu na bardziej wymagającą grupę docelową, korporacyjne sieci VPN zawsze szyfrują dane, podczas gdy konsumenckie sieci VPN tego nie robią.
+explanation: |
+  Sieci VPN dla przedsiębiorstw są przeznaczone dla firm i są
+  zazwyczaj droższe i bardziej skomplikowane w konfiguracji i zarządzaniu.
+  Z drugiej strony, konsumenckie sieci VPN są przeznaczone dla
+  indywidualnych użytkowników i są generalnie bardziej dostępne i
+  przyjazne dla użytkownika.
+reviewed: true

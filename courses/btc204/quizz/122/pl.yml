@@ -1,0 +1,10 @@
+question: W jaki sposób transport P2P V2 poprawia prywatność i bezpieczeństwo komunikacji między węzłami?
+answer: Poprzez integrację szyfrowania oportunistycznego
+wrong_answers:
+  - Poprzez integrację uwierzytelniania
+  - Dzięki zastosowaniu dodatkowych przekaźników
+  - Używając Tor
+explanation: |
+  Transport P2P V2 zawiera Layer oportunistycznego szyfrowania w celu zwiększenia prywatności i bezpieczeństwa komunikacji między węzłami.
+  
+reviewed: false

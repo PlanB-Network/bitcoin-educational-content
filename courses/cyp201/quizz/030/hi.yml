@@ -1,0 +1,11 @@
+question: SIGHASH_SINGLE का उद्देश्य क्या है?  
+
+(Note: SIGHASH_SINGLE is a technical term in Bitcoin scripting, so it's kept as-is in the translation since it doesn't have a direct Hindi equivalent. The rest is translated naturally.)
+answer: एक इनपुट और उसके संबंधित आउटपुट को कवर करने के लिए
+wrong_answers:
+  - सभी इनपुट और आउटपुट को कवर करने के लिए
+  - इनपुट्स को सिर्फ कवर करने के लिए
+  - एक को छोड़कर सभी आउटपुट को कवर करने के लिए
+explanation: |
+  SIGHASH_SINGLE एक सिंगल इनपुट और उसी इंडेक्स वाले सिंगल आउटपुट को कवर करता है जिस पर साइन किया गया है, बाकी सब को मॉडिफायबल छोड़ देता है।
+reviewed: false

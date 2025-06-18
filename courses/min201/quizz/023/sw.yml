@@ -1,0 +1,10 @@
+question: Je, ni idadi gani ya juu zaidi ya bitcoins zinazoweza kuundwa?
+answer: karibu vitengo milioni 21
+wrong_answers:
+  - zaidi au chini ya vitengo milioni 18
+  - karibu vitengo milioni 25
+  - karibu vitengo milioni 30
+explanation: |
+  Uundaji wa Bitcoin una sifa ya kofia ya kudumu ya
+  milioni 21.
+reviewed: true

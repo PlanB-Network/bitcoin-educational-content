@@ -1,0 +1,5 @@
+---
+term: FENIKS
+---
+
+Mobilni Wallet softver za samostalno čuvanje dizajniran da pojednostavi i učini transakcije na Lightning protokolu pristupačnijim. Omogućava korisnicima da upravljaju svojim sredstvima direktno sa svojih mobilnih uređaja bez potrebe za povezivanjem na zaseban Lightning čvor. Phoenix zapravo funkcioniše kao potpuno samostalni Lightning čvor na telefonu (lightning implementacija). Podržava Bitcoin i Lightning transakcije i nudi funkcije za olakšavanje upravljanja čvorom, kao što je automatsko upravljanje kanalima sa Acinq čvorom. Za razliku od drugih Lightning Wallet aplikacija, koje su uglavnom kustodijalne, Phoenix nudi zanimljiv kompromis kombinovanjem korišćenja Lightning čvora sa praktičnošću aplikacije za pametne telefone. To je jedno od najboljih jednostavnih rešenja za početnike koji žele da koriste Lightning dok zadržavaju punu Ownership svojih bitkoina (samostalno čuvanje). Phoenix je projekat koji razvija i održava francuska kompanija Acinq.

@@ -1,0 +1,9 @@
+question: Jaka jest główna funkcja klucza rozszerzonego w HD Wallet?
+answer: Aby umożliwić wyprowadzanie kluczy podrzędnych
+wrong_answers:
+  - Przechowywanie transakcji Wallet
+  - Bezpośrednio generate UTXO
+  - Szyfrowanie kluczy publicznych
+explanation: |
+  Klucz rozszerzony łączy klucz (prywatny lub publiczny) z powiązanym kodem łańcucha, tj. dwoma Elements niezbędnymi do wyprowadzenia kluczy potomnych.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Koji je put evolucije današnje valute?
+answer: Sirov kamen -> Novčić -> Novčanica -> Bankovna kartica -> Blockchain -> Lightning Network
+wrong_answers:
+  - Sirov kamen -> Novčić -> Novčanica -> Blockchain -> Lightning Network
+  - Sirov kamen -> Novčić -> Novčanica -> Bankovna kartica -> Lightning Network
+  - Neobrađeni kamen -> Novčić -> Bankovna kartica -> Novčanica -> Blockchain -> Lightning Network
+explanation: |
+  Valuta je tehnologija koja se razvijala tokom vremena,
+  počela je kao sirovo kamenje, zatim se promenila u
+  metalne kovanice, pa u novčanice, bankovne kartice, i
+  na kraju u peer-to-peer mreže uz korišćenje
+  Bitcoin Blockchain i Lightning Network.
+reviewed: true

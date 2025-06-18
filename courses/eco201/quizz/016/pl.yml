@@ -1,0 +1,13 @@
+question: Czym jest koncepcja malejącej użyteczności krańcowej?
+answer: Każda dodatkowa jednostka dobra jest mniej pożądana niż poprzednia.
+wrong_answers:
+  - Każda dodatkowa jednostka towaru jest bardziej pożądana niż poprzednia.
+  - Każda dodatkowa jednostka towaru jest tak samo pożądana jak poprzednia.
+  - Pożądanie każdej dodatkowej jednostki towaru zmienia się w sposób nieprzewidywalny.
+explanation: |
+  Koncepcja malejącej użyteczności krańcowej mówi, że każda dodatkowa jednostka dobra jest
+  dodatkowa jednostka dobra jest mniej pożądana niż
+  niż poprzednia. Dzieje się tak dlatego, że gdy dana osoba nabywa więcej
+  dobra, tym mniejszą użyteczność zapewnia każda dodatkowa jednostka tego dobra
+  dobra.
+reviewed: true

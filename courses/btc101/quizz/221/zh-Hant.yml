@@ -1,0 +1,11 @@
+question: 什麼是 Lightning Network？
+answer: 一個使用 Bitcoin 通訊協定的支付網路，可實現快如閃電的交易。
+wrong_answers:
+  - 一種新型的加密貨幣。
+  - 未來將取代 Bitcoin 的全新 Blockchain 技術。
+  - Mining Bitcoin 的方法。
+explanation: |
+  Lightning Network 是一個支付網路，使用
+  Bitcoin 協定來實現快速交易。它不是一種
+  獨立的加密貨幣，也不是 Mining Bitcoin 的方法。
+reviewed: true

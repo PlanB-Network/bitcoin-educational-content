@@ -1,0 +1,9 @@
+question: 我可以用 RGB 轉移中的 Invoice 做什麼？
+answer: 註明交易類型、所需資產的數量以及收件人的 Seal Definition
+wrong_answers:
+  - 為資產建立新的 Genesis
+  - generate 一個新的 Schema 以修改資產的 Business Logic
+  - 建立 PSBT 以取代 Bitcoin 交易
+explanation: |
+  Invoice 用於通知交易簽發人作業類型、資產轉移數量及目的地 (Seal Definition)。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Jakie jest główne zagrożenie związane z ponownym użyciem Address?
+answer: Pozwala to na ustanowienie deterministycznych powiązań między różnymi transakcjami a wspólnym Ownership danych UTXO.
+wrong_answers:
+  - Ujawnia on adres IP użytkownika Address innym uczestnikom sieci podczas walidacji transakcji.
+  - Zmniejsza to skuteczność mechanizmów podpisu cyfrowego, co osłabia bezpieczeństwo transakcji.
+  - Prowadzi to do wzrostu opłat transakcyjnych z powodu zatorów spowodowanych ponownym użyciem Address.
+explanation: |
+  Jeśli ten sam Address jest używany do wielu transakcji, możliwe staje się wywnioskowanie, że wszystkie bitcoiny powiązane z tym Address należą do tej samej osoby.
+  
+reviewed: false

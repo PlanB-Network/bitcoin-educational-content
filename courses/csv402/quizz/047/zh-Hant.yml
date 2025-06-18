@@ -1,0 +1,9 @@
+question: 在 Stash 出現差異時，可以使用什麼技術來合併不同版本的 Stash？
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - 基於日誌的複製
+explanation: |
+  CRDT 可使 Stash 的多個版本合併，而不會發生用戶端衝突，從而確保資料的一致性。
+reviewed: false

@@ -1,0 +1,8 @@
+question: W jaki sposób górnicy walidują transakcje i włączają je do bloku?
+answer: Poprzez proces Proof of Work.
+wrong_answers:
+  - Poprzez proces Proof of stake.
+  - Poprzez proces dowodu władzy.
+  - Poprzez proces Proof of burn.
+explanation: >-
+reviewed: true

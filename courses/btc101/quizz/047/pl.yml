@@ -1,0 +1,12 @@
+question: Czym jest hiperinflacja?
+answer: Drastyczny wzrost masy pieniężnej.
+wrong_answers:
+  - Niewielki wzrost masy pieniężnej.
+  - Drastyczny spadek masy pieniężnej.
+  - Niewielki spadek masy pieniężnej.
+explanation: |
+  Hiperinflacja to zjawisko monetarne charakteryzujące się
+  drastycznym wzrostem inflacji poprzez dodruk pieniądza
+  przez władze, co prowadzi do całkowitej utraty
+  zaufania do waluty.
+reviewed: true

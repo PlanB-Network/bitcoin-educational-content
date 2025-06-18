@@ -1,0 +1,9 @@
+question: Zašto hemičari koriste teoriju grupa?
+answer: Da klasifikujemo oblike molekula
+wrong_answers:
+  - Da analizirate hemijske veze
+  - Da se izračuna molekulska masa
+  - Da predvidite hemijske reakcije
+explanation: |
+  Teorija grupa omogućava hemičarima da klasifikuju molekulske oblike na osnovu njihovih simetrija, što pomaže u razumevanju njihovih strukturnih svojstava.
+reviewed: false

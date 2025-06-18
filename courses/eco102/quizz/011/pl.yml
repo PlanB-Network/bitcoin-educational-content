@@ -1,0 +1,9 @@
+question: Według Adama Smitha, dlaczego rynek funkcjonuje?
+answer: Ponieważ opiera się na własnym interesie
+wrong_answers:
+  - Ponieważ jest to regulowane
+  - Ponieważ jest cnotliwy
+  - Ponieważ jest monitorowany przez państwo
+explanation: |
+  Dla Adama Smitha rynek funkcjonuje, ponieważ każda jednostka działa we własnym interesie, co naturalnie generuje zbiorowy dobrobyt.
+reviewed: false

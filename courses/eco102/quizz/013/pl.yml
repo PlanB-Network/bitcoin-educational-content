@@ -1,0 +1,9 @@
+question: Jaka jest podstawa wartości według Frédérica Bastiata?
+answer: Użyteczność
+wrong_answers:
+  - Praca
+  - Niedobór
+  - Zapotrzebowanie
+explanation: |
+  Bastiat przyjmuje ideę Saya, że użyteczność jest podstawą wartości, w przeciwieństwie do teorii opartych na pracy lub niedoborze.
+reviewed: false

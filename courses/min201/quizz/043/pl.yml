@@ -1,0 +1,14 @@
+question: Jakie znaczenie ma powiedzenie Nie twój Hashrate, nie twoja nagroda w kontekście Bitcoin Mining?
+answer: Jeśli nie kontrolujesz Hashrate, nie kontrolujesz nagród Mining.
+wrong_answers:
+  - Jeśli nie masz wysokiego Hashrate, nie otrzymasz żadnych nagród.
+  - Jeśli nie posiadasz Bitcoin, nie otrzymasz żadnych nagród.
+  - Jeśli nie posiadasz maszyny Mining, nie otrzymasz żadnych nagród.
+explanation: |
+  Powiedzenie Nie twój Hashrate, nie twoja nagroda jest podobne do
+  do dobrze znanego porzekadła w świecie kryptowalut,
+  Nie twoje klucze, nie twoje Bitcoiny. Oznacza to, że jeśli
+  nie kontrolujesz Hashrate, nie kontrolujesz nagród Mining
+  nagród. Dzieje się tak, ponieważ nagrody z Mining są
+  wprost proporcjonalne do Hashrate.
+reviewed: true

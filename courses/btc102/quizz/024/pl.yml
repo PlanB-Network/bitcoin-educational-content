@@ -1,0 +1,9 @@
+question: Jak Barack Obama opisał Bitcoin?
+answer: Szwajcarski bank w kieszeni
+wrong_answers:
+  - Cyfrowe złoto
+  - Aktywa o charakterze wysoce spekulacyjnym
+  - Zdecentralizowana waluta
+explanation: |
+  Barack Obama określił kiedyś Bitcoin jako "szwajcarski bank w kieszeni" Rzeczywiście, Bitcoin oferuje takie same możliwości każdemu, niezależnie od statusu, i pozwala na Confidential Transactions.
+reviewed: false

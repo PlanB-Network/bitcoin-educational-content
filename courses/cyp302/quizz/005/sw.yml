@@ -1,0 +1,9 @@
+question: Je, ni lengo gani kuu la kriptografia ya kitambo ambayo bado iko katika kriptografia ya kisasa?
+answer: Usiri wa ujumbe
+wrong_answers:
+  - Urahisishaji wa ujumbe
+  - Kurudiwa kwa ujumbe
+  - Utumaji otomatiki wa kutuma ujumbe
+explanation: |
+  Usimbaji fiche wa asili ulilenga hasa usiri, na lengo hili linasalia kuwa muhimu katika usimbaji fiche wa kisasa, ingawa mandhari mengine, kama vile uadilifu na uhalisi, yameongezwa.
+reviewed: false

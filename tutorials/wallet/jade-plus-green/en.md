@@ -4,6 +4,8 @@ description: Easily configure Jade Plus with Green
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/rv_cN7F7-TM)
+
 Jade Plus is a Bitcoin-only hardware wallet designed by Blockstream. It is the successor to the classic Jade, with software enhancements, more options and redesigned ergonomics for more intuitive use. This new version boasts a magnificent 1.9-inch LCD screen, with a wider color gamut than its predecessor. Buttons and menu navigation have also been optimized.
 
 The Jade Plus can be used in a number of ways: via a USB-C wired connection, in "*Air-Gap*" mode with a micro SD card (adapter required), via Bluetooth or even by exchanging QR codes thanks to the integrated camera. This hardware wallet is battery-powered.
@@ -14,25 +16,16 @@ It is available from $149.99 in the basic black version, and the price can rise 
 
 Jade Plus is compatible with most wallet management software. Here is a summary of compatibility at the time of writing (January 2025):
 
-| Desktop | Mobile | USB | Bluetooth | QR | JadeLink | Management software
-
-| ------------------- | ------- | ------ | --- | ----------- | --- | -------- |
-
-| Blockstream Green | 🟢 | 🟢 | 🟢 (Mobile) | 🟢 | 🔴 |
-
-| Liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 |
-
-| Sparrow | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 |
-
-| Nunchuk | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| Specter | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| BlueWallet | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| Electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 |
-
-| Keeper | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
+| Management Software  | Desktop | Mobile | USB | Bluetooth   | QR  | JadeLink |
+| -------------------- | ------- | ------ | --- | ----------- | --- | -------- |
+| Blockstream Green    | 🟢      | 🟢     | 🟢  | 🟢 (Mobile) | 🟢  | 🔴       |
+| Liana                | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Sparrow              | 🟢      | 🔴     | 🟢  | 🔴          | 🟢  | 🟢       |
+| Nunchuk              | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Specter              | 🟢      | 🔴     | 🔴  | 🔴          | 🟢  | 🟢       |
+| BlueWallet           | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Electrum             | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Keeper               | 🔴      | 🟢     | 🔴  | 🔴          | 🟢  | 🔴       |
 
 In this tutorial, we'll set up and use the Jade Plus with Blockstream's Green Wallet mobile app via a Bluetooth connection. This setup is ideal for beginners. If you're looking for a more advanced approach, I recommend you take a look at this tutorial where we use the Jade Plus with Sparrow Wallet in QR codes mode:
 
@@ -207,7 +200,7 @@ Choose "*Standard*" if you wish to create a classic single-sig wallet.
 
 For more information on the "*2FA*" option, you can follow this other tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Your account has been created.
 

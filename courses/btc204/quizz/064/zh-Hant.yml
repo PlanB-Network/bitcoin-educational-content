@@ -1,0 +1,10 @@
+question: 如何儲存與 Bitcoin Wallet 相關的標籤？
+answer: 在本地的 Wallet 軟體上。
+wrong_answers:
+  - 在開發人員控制的集中式資料庫中。
+  - 在 Bitcoin Blockchain 至 OP_RETURN 上。
+  - 僅在軟體執行期間在 RAM 中。
+explanation: |
+  標籤由 Wallet 軟體本機儲存，絕不會透過 Bitcoin 網路傳輸。因此，標籤是一種個人管理工具。
+  
+reviewed: false

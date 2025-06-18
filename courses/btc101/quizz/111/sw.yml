@@ -1,0 +1,13 @@
+question: KYC inasimamia nini?
+answer: Mjue Mteja wako.
+wrong_answers:
+  - Weka Pesa Yako.
+  - Weka Misimbo Yako.
+  - Fahamu Uzingatiaji wa Mazao.
+explanation: |
+  KYC au Mjue Mteja Wako inarejelea utaratibu ambao
+  biashara kupitisha ili kuthibitisha utambulisho wa wateja wao.
+  Hii kawaida hufanywa ili kuhakikisha kufuata
+  kanuni na kuzuia shughuli haramu kama vile pesa
+  utapeli au udanganyifu.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Apa tujuan utama menggunakan alat seperti Signal, Tor, dan ProtonMail?
-answer: Untuk menghargai dan melindungi privasi Anda
+question: Mengapa disarankan untuk berinvestasi hanya pada jumlah yang Anda sanggup menanggung kerugian?
+answer: Untuk menjaga keamanan finansial Anda jika terjadi kerugian
 wrong_answers:
-  - Untuk mempercepat koneksi internet Anda
-  - Untuk melindungi komputer Anda dari virus
-  - Untuk memberikan akses gratis ke layanan berbayar
+  - Memaksimalkan profit dengan cepat di pasar bearish
+  - Untuk mendiversifikasi investasi Anda secara besar-besaran
+  - Meminjam untuk berinvestasi lebih banyak
 explanation: |
-  Alat seperti Signal, Tor, dan ProtonMail digunakan untuk menghargai dan melindungi
-  
-  privasi Anda. Mereka merupakan bagian dari langkah-langkah untuk meningkatkan kebiasaan keamanan online.
+  Berinvestasi di luar kemampuan Anda (yaitu di luar kapasitas tabungan Anda) membuat Anda terpapar pada risiko keuangan yang terlalu tinggi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Na koji privatni valutni sistem je Satoshi Nakamoto eksplicitno referisao u svojim spisima?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - Liberty Dollar
+  - e-Bullion
+explanation: |
+  Ovaj je zaista još uvek bio aktivan u vreme Bitcoin, za razliku od e-golda i Liberty Dollar-a. Satoshi je takođe [pomenut](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix, digitalna valuta zasnovana na zlatu kreirana 2002. godine.
+reviewed: false

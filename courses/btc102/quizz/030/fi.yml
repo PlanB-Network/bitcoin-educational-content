@@ -1,10 +1,9 @@
-question: Mikä on Bitcoin-lohkoketju?
-answer: Tietokanta, joka tallentaa kaikki Bitcoin-siirrot
+question: Mitä etuja kerroksittainen lähestymistapa tarjoaa Bitcoin:lle?
+answer: Perusprotokollan turvallisuuden ylläpitäminen
 wrong_answers:
-  - Digitaalisen valuutan tyyppi
-  - Bitcoin-käyttäjien verkosto
-  - Menetelmä bitcoinien louhimiseen
+  - Pääverkon lisääntyvä keskittäminen
+  - Nopea innovointi perusprotokollaan
+  - Kerroksissa on samat ominaisuudet kuin peruspöytäkirjassa
 explanation: |
-  Bitcoin-lohkoketju on tietokanta, joka tallentaa kaikki Bitcoin-siirrot.
-  Sen ylläpitävät louhijat, jotka lisäävät uusia siirtoja lohkoketjuun.
+  Kerroksittainen lähestymistapa mahdollistaa toimintojen lisäämisen tinkimättä perusprotokollan turvallisuudesta ja yksinkertaisuudesta.
 reviewed: false

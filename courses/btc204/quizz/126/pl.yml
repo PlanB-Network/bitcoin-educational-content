@@ -1,0 +1,10 @@
+question: Jaką metodę kryptograficzną można zastosować w wymianie monet, aby zapewnić bezpieczeństwo Exchange bez potrzeby zaufania?
+answer: Podpisy adapterów
+wrong_answers:
+  - Szyfrowanie symetryczne
+  - ECDH
+  - Szyfrowanie asymetryczne
+explanation: |
+  Aby przeprowadzić wymianę monet, można użyć HTLC lub PTLC. Te dwa protokoły działają w podobny sposób, wykorzystując system blokady czasowej, który zapewnia, że Exchange zostanie pomyślnie zakończony lub całkowicie anulowany, co chroni integralność środków obu stron. Główna różnica między HTLC i PTLC polega na tym, że HTLC używają hashy i obrazów wstępnych do zabezpieczenia transakcji, podczas gdy PTLC używają podpisów adaptera.
+  
+reviewed: false

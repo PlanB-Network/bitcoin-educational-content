@@ -1,0 +1,9 @@
+question: W jakim kontekście religijnym narodził się kapitalizm?
+answer: W kontekście chrześcijaństwa.
+wrong_answers:
+  - W kontekście islamu.
+  - W kontekście judaizmu.
+  - W kontekście pogaństwa.
+explanation: |
+  Kapitalizm powstał w kontekście średniowiecznego chrześcijaństwa w Europie, gdzie miasta kupieckie i praktyki gospodarcze ewoluowały pomimo religijnych ograniczeń dotyczących oprocentowanych pożyczek i lichwy.
+reviewed: false

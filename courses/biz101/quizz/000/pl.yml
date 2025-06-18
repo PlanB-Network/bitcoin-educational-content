@@ -1,0 +1,9 @@
+question: Szyny płatności zbudowane na tradycyjnych systemach walutowych to ?
+answer: Zasadniczo są one opłacane przez sprzedawców za pośrednictwem opłat pobieranych przez podmioty przetwarzające płatności
+wrong_answers:
+  - Zasadniczo za darmo, ponieważ klient płaci cenę wyświetlaną przez sprzedawcę
+  - Płacone przez klienta oprócz ceny wywoławczej sprzedawcy
+  - Opłacane przez firmy obsługujące karty, które odsprzedają dane klientów
+explanation: |
+  Nic nie jest darmowe. Szyny płatności wbudowane w tradycyjne systemy walutowe są obsługiwane przez różnych dostawców, takich jak firmy obsługujące karty i banki przejmujące, które pobierają stałą opłatę i/lub opłatę procentową za każdą transakcję
+reviewed: false

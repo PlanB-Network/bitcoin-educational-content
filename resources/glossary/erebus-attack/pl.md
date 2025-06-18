@@ -1,0 +1,5 @@
+---
+term: EREBUS (ATAK)
+---
+
+Wysoce wyrafinowana forma ataku na sieć Bitcoin, która umożliwia złośliwemu dostawcy usług internetowych izolowanie określonych węzłów Bitcoin. Jest to zatem forma ataku Eclipse. Atak Erebus wykorzystuje strukturę sieci internetowej, w szczególności obowiązkowe punkty przejścia (lub "wąskie gardła") w routingu między systemami autonomicznymi (AS). Atakujący, kontrolując system autonomiczny, może manipulować ruchem sieciowym w celu odizolowania węzła Bitcoin od reszty sieci, tym samym sprawiając, że wierzy on w fałszywy stan Blockchain (bloki lub transakcje nieznane przez węzeł). Izolacja ta może prowadzić do podwójnych wydatków lub cenzury przeciwko odizolowanemu węzłowi. Atak ten stał się znacznie trudniejszy od czasu wydania Bitcoin Core w wersji 0.20.0 i wprowadzenia Asmap.

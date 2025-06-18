@@ -1,0 +1,13 @@
+question: W jaki sposób protokół Bitcoin zapewnia odporność na cenzurę i odporność?
+answer: Każdy element protokołu jest geograficznie rozmieszczony na całym świecie.
+wrong_answers:
+  - Wykorzystuje ona lokalną sieć węzłów rozmieszczonych w Europie.
+  - Wykorzystuje on złożony algorytm do weryfikacji transakcji.
+  - Wykorzystuje wysoki poziom szyfrowania.
+explanation: |
+  Protokół Bitcoin zapewnia swoją odporność na cenzurę i
+  odporność, ponieważ każdy składnik protokołu jest
+  rozproszony geograficznie na całym świecie. Na przykład,
+  jest około 40 000 węzłów Bitcoin na wszystkich kontynentach
+  kontynentach.
+reviewed: true

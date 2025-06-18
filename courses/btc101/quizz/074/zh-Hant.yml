@@ -1,0 +1,12 @@
+question: 比特幣存放在哪裡？
+answer: 在 Bitcoin Blockchain 中。
+wrong_answers:
+  - 在 Bitcoin Wallet 中。
+  - 在安裝 Wallet 的裝置上。
+  - 在聯邦儲備金庫裡
+explanation: |
+  雖然您的私人密碼匙儲存在 Wallet 中，但比特幣本身實際上儲存在 Bitcoin 中。
+  比特幣本身實際上存放在 Bitcoin
+  Blockchain 中，Blockchain 是 Bitcoin 對等網路中的公共分散式 Ledger
+  Bitcoin 點對點網路。
+reviewed: true

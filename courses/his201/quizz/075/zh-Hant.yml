@@ -1,0 +1,9 @@
+question: Mike Hearn 於 2011 年 3 月發表的軟體實作名稱是什麼，該軟體實作執行簡化付款驗證 (SPV)？
+answer: 比特幣J
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  他 [發表](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438)它在開放源碼授權 (Apache 2.0) 之下，他歸功於 Google (他當時的雇主)。這個實作讓第一個在 Android 上運作的輕量級 Wallet 得以推出。
+reviewed: false

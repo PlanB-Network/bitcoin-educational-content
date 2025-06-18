@@ -1,0 +1,5 @@
+---
+term: KUSHAMBULIA USO
+---
+
+Inarejelea jumla ya idadi ya sehemu zinazowezekana za kuingia ambazo mshambuliaji anaweza kutumia ili kupata ufikiaji wa mfumo. Sehemu ya mashambulizi inajumuisha violesura vyote, huduma, bandari, itifaki, na vekta nyingine za mawasiliano zinazoweza kufichuliwa. Sehemu ya mashambulizi iliyopanuliwa huongeza udhaifu, na hivyo kufanya mfumo kuwa rahisi kushambuliwa. Kupunguza eneo la mashambulizi ni mazoezi mazuri ya usalama ambayo yanahusisha kuzima huduma zisizo za lazima. Kwa mfano, katika muktadha wa Bitcoin, pochi za vifaa zina uso mdogo wa kushambulia kuliko pochi za programu. Hakika, hutenga funguo kwenye kifaa ambacho hakijaunganishwa kwenye mtandao, kuwa na miingiliano na huduma chache sana. Kinyume chake, pochi za programu husakinishwa kwenye Kompyuta nyingi, ambazo zina eneo kubwa zaidi la kushambulia kutokana na utendaji kazi mwingi na miunganisho ya mtandao inayotumia.

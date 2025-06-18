@@ -1,0 +1,9 @@
+question: Kakav je efekat Bitcoin transakcije na UTXO-e u izlazima?
+answer: Stvara ih korišćenjem UTXO-a potrošenih u ulazima.
+wrong_answers:
+  - Troši ih da zadovolji ulaze.
+  - Šifruje ih kako bi anonimizovao primaoca.
+  - Privremeno ih deli radi verifikacije.
+explanation: |
+  UTXO-i u izlazima transakcije se kreiraju trošenjem UTXO-a u ulazima. To je, na neki način, odredište novca.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nini ufafanuzi wa nambari kamili kuwa coprime kwa heshima na nambari nyingine kamili?
+answer: Nambari kamili ambayo ina kigawanyo kikuu cha kawaida cha 1 na nambari hiyo nyingine kamili
+wrong_answers:
+  - Nambari kamili ambayo inaweza kugawanywa na nambari kamili nyingine bila salio
+  - Nambari kamili ambayo ni kuu
+  - Nambari kamili ambayo ni kubwa kuliko nyingine
+explanation: |
+  Nambari kamili ni coprime na nyingine ikiwa kigawanyiko chao kikubwa zaidi ni 1, kumaanisha kuwa hawashiriki kipengele kingine chochote cha kawaida.
+reviewed: false

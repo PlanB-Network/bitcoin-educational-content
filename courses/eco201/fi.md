@@ -16,28 +16,37 @@ Tällä ajattelukoulukunnalla on jo useita vuosisatoja takanaan, ja sen taustall
 
 +++
 
-# Johdatus ECONiin
+# Johdanto
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Hei kaikki ja tervetuloa Econ 201: Johdatus itävaltalaiseen taloustieteeseen.
+Tervetuloa ECO201-kurssille!
 
-Tällä Théo Mogenetin tarjoamalla kurssilla tutustut taloustieteen haaraan, joka eroaa suuresti keynesiläisestä oppisuunnasta. Tähän asti saatat olla oppinut, että rahan tuotanto ja hallinta ovat keskuspankkien vastuulla, ajatuksella, että rahan painaminen ja kuluttaminen edistävät kasvua. Kuitenkin on olemassa toinen taloustieteen koulukunta: itävaltalainen taloustiede. Yli 200 vuoden tutkimuksen ja kehityksen, filosofisten pohdintojen ja tunnettujen kirjoittajien teosten myötä tämä lähestymistapa korostaa kasvun ja ihmisen rationaalisuuden maltillisempaa näkemystä taloudessamme.
+Tällä kurssilla, jonka tarjoaa Théo Mogenet, tutustut talousteorian koulukuntaan, joka eroaa perusteellisesti vallitsevasta keynesiläisestä doktriinista. Sinulle on ehkä tähän mennessä opetettu, että rahan hallinta ja talouspolitiikka kuuluvat pääasiassa keskuspankkien toimialaan, ja että rahan painaminen ja julkiset menot edistävät talouskasvua. On kuitenkin olemassa johdonmukaisempi vaihtoehtoinen lähestymistapa: **Itävaltalainen taloustiede**.
 
-Todellisuudessa taloustiede on erittäin sosiaalinen ja monimutkainen ala, joka koostuu lukemattomista toisiinsa kytkeytyvistä pienistä toimijoista, jotka yhdessä muodostavat johdonmukaisen kokonaisuuden. Emme lähesty tätä tieteenalaa matemaattisten yhtälöiden kautta, vaan meidän on ymmärrettävä se ihmisen logiikan ja sosiologian näkökulmasta. Tällä kurssilla tutkimme itävaltalaisen taloustieteen peruskäsitteitä. Kouluttajasi, Théo Mogenet, on intohimoinen ja pätevä itävaltalaisen taloustieteen professori.
+Yli kahden vuosisadan tutkimuksen, filosofisten pohdintojen ja tunnettujen kirjoittajien, kuten Carl Mengerin, Ludwig von Misesin ja Friedrich Hayekin kirjoitusten perusteella tämä koulukunta omaksuu erilaisen näkökulman, suosien hajautettua näkemystä taloudesta, joka perustuu yksilöön ja inhimilliseen rationaalisuuteen.
 
-Aloitamme tarjoamalla sinulle bonuksena videon, joka selittää nykyisen rahoitusjärjestelmämme toimintaa. Saat selville, miten kaupalliset pankit ja keskuspankit vuorovaikuttavat ja ajavat taloutta eteenpäin. Käsittelemme talousmaailmamme merkittäviä toimijoita ja sitä, miten tiettyjen talousinstituutioiden keskittynyt valta voi johtaa väärinkäytöksiin ja talouskriiseihin.
+Talous on todellisuudessa syvästi sosiaalinen ja monimutkainen ala, joka koostuu monista itsenäisistä toimijoista, jotka ovat vuorovaikutuksessa vapaasti muodostaen johdonmukaisen kokonaisuuden. Tämän dynaamisen järjestelmän ymmärtämiseksi itävaltalainen taloustiede suosii laadullista analyysia, joka perustuu inhimilliseen logiikkaan, sosiologiaan ja markkinaprosessien tutkimukseen, eikä jäykkiin matemaattisiin yhtälöihin.
 
-Kurssin toisessa osassa tarkastelemme keynesiläisyyden ja itävaltalaisen taloustieteen eroja, tutkimme niiden vastaavia koulukuntia, pohdintatapoja ja työkaluja, joita ne käyttävät taloudellisen totuuden perustamiseen. Tutkimme myös talouskriisien muodostumista. Johtuuko se ihmisen epäpätevyydestä, markkinamanipulaatiosta vai ihmisten kollektiivisesta euporiasta? Tutkimme, miten kasvun, laskun, taantuman ja kulta-ajan syklit luodaan ihmisten tunteiden kautta.
+Tällä kurssilla tutustut tämän koulukunnan perusperiaatteisiin. Théo Mogenet, kurssisi ohjaaja, on tämän taloudellisen lähestymistavan innokas puolestapuhuja ja opastaa sinua pedagogisesti itävaltalaisen taloustieteen keskeisten käsitteiden kautta, osoittaen, kuinka nämä ideat soveltuvat erityisen hyvin Bitcoinin maailmaan.
 
-Tämä kurssi on yhdistelmä taloustiedettä ja filosofiaa, avoimena keskusteluna Théon ja minun välillä. Jos sinulla on kysyttävää tämän kurssin aikana, älä epäröi kysyä niitä Discordissamme, jonka linkin löydät kuvauksesta.
-Lämpimät kiitokset Théolle tämän kurssin tuottamisesta, ja toivon, että hänestä tulee erinomainen opettaja sinulle. Meillä oli paljon hauskaa luodessamme tätä sisältöä. Tämä kurssi on kaikkien saavutettavissa ja uskon, että se on olennainen seurataksesi tulevia syvällisempiä kurssejamme taloustieteestä. Tämä kurssi luo tarvittavat perustukset tiettyjen talousteorioiden tarkempaan tutkimiseen, joita tässä vain sivuamme.
+**Osa 1: Johdatus ECONiin**  
+Aloitamme yleisellä johdannolla itävaltalaiseen taloustieteeseen, tutkimalla sen historiallisia juuria ja ajattelun perusteita. Tämä osio kattaa myös olennaisia käsitteitä, kuten raha, luotto, pankit ja keskuspankit. Ymmärrät, miksi nämä instituutiot ovat keskeisessä asemassa itävaltalaisessa ajattelussa, erityisesti niiden kritiikissä rahapoliittisia interventioita kohtaan.
 
-Jos olet valmis lähtemään tälle seikkailulle, kutsun sinut klikkaamaan seuraavaa videota ja aloittamaan bonusvideolla nykyisestä rahoitusjärjestelmästämme. Annan nyt puheenvuoron Théolle. Kiitos hänelle yhteistyöstä Descoupes Bitcoinin kanssa tämän videon toteuttamisessa. Nähdään hyvin pian. Näkemiin!
+**Osa 2: Teoreettiset perusteet**  
+Tässä osiossa syvennytään itävaltalaisen taloustieteen keskeisiin käsitteisiin, kuten subjektiivisen arvon teoriaan, joka selittää, miksi hyödykkeen arvo ei ole objektiivinen, vaan riippuu jokaisen yksilön havaitsemasta hyödyllisyydestä. Saat myös tietää, kuinka raha syntyy luonnollisesti sosiaalisena ilmiönä, sekä ajallisen preferenssin, koron ja pääoman käsitteet, jotka ovat itävaltalaisen vapaan markkinan teorian ytimessä.
+
+**Osa 3: Itävaltalaiset taloudelliset näkökulmat**  
+Tässä osiossa tutkitaan itävaltalaisen teorian käytännön sovelluksia. Opit yksityiskohtaisesti itävaltalaisen taloussyklin teorian, joka selittää, kuinka rahapoliittiset manipulaatiot luovat keinotekoisia nousukausia, joita seuraa laskusuhdanteet. Näemme myös, miksi taloudellinen laskenta on mahdotonta sosialistisessa järjestelmässä ja kuinka itävaltalaisen taloustieteen metodologia, joka perustuu prakseologiaan (ihmisen toiminnan tutkimus), tarjoaa ainutlaatuisen ja johdonmukaisen lähestymistavan taloudellisten ilmiöiden ymmärtämiseen.
+
+Tämä kurssi on yhdistelmä taloustiedettä ja filosofiaa, jota ohjaa avoin keskustelu Théon ja minun (Rogzy) välillä. Haluaisin kiittää lämpimästi Théo Mogenetia tämän kurssin luomisesta. Sisällön kehittäminen oli meille suuri ilo, ja se on suunniteltu kaikkien saataville. Tämä kurssi toimii perustavanlaatuisena johdatuksena ja luo pohjan tuleville, edistyneemmille talousmoduuleillemme.
+
+Entä jos nykyisen talouden ymmärtämisen avain piilee vuosisatoja vanhassa teoriassa? Selvitetään se yhdessä!
+
 
 ## Raha, Luotto, Pankit ja Keskuspankit
 

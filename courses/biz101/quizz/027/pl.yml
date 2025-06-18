@@ -1,0 +1,9 @@
+question: Jaka jest jedna sugerowana praktyka dotycząca opieki podczas nabywania Bitcoin?
+answer: Po początkowych zakupach warto rozważyć rozwiązania do samodzielnego przechowywania, aby firma naprawdę kontrolowała swoje aktywa.
+wrong_answers:
+  - Pod żadnym pozorem nie wolno odłączać Bitcoin od Exchange.
+  - Zawsze ufaj jednemu powiernikowi bez sprawdzania środków bezpieczeństwa.
+  - Przechowywanie wszystkich Bitcoin na publicznej stronie internetowej z prostym hasłem
+explanation: |
+  Po zakupie Bitcoin, przeniesienie go do samodzielnego powiernika Wallet zapewnia firmie bezpośrednią kontrolę nad jej środkami. Podczas gdy powiernicy zewnętrzni mogą być wygodni, powiernictwo własne jest zgodne z zasadą suwerenności finansowej Bitcoin.
+reviewed: false

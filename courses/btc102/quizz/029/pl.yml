@@ -1,0 +1,9 @@
+question: Który główny gracz projektuje układy ASIC dla Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain jest jednym z wiodących producentów specjalistycznego sprzętu dla Bitcoin Mining.
+reviewed: false

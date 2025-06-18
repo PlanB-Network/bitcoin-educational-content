@@ -1,0 +1,12 @@
+question: Jaki jest cel prób phishingu?
+answer: Aby wyodrębnić poufne informacje, takie jak dane uwierzytelniające i hasła.
+wrong_answers:
+  - Wysyłanie spamu.
+  - Aby sprzedawać użytkownikowi produkty lub usługi.
+  - Zapraszanie na wydarzenia lub webinaria.
+explanation: |
+  Próby phishingu mają na celu wyłudzenie poufnych
+  informacji, takich jak dane uwierzytelniające i hasła. Hakerzy
+  wykorzystują różne taktyki, takie jak fałszywe wiadomości e-mail, aby nakłonić użytkownika do
+  do ujawnienia swoich informacji.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 什麼是溝通會議中的反射攻擊？
+answer: 攻擊者將攔截到的 Alice 與 Bob 之間的訊息傳送回 Alice
+wrong_answers:
+  - 攻擊者顛倒通訊中的訊息順序
+  - 攻擊者傳送修改過的訊息，但沒有標籤
+  - 攻擊者使用舊的訊息來製造新的訊息
+explanation: |
+  在反射攻擊中，攻擊者攔截 Alice 傳送給 Bob 的訊息，然後將相同的訊息傳回 Alice，造成會話混亂。
+reviewed: false

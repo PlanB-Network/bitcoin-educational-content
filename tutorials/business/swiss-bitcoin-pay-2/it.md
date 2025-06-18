@@ -4,8 +4,6 @@ description: Come accettare facilmente pagamenti in Bitcoin?
 ---
 ![cover](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Oggi, esistono numerose soluzioni per i commercianti che desiderano accettare Bitcoin come metodo di pagamento. Per le piccole entità alla ricerca di una configurazione informale, installare un hot wallet, o addirittura un Lightning wallet, è sufficiente per ricevere pagamenti direttamente su di esso. Le aziende più grandi, che necessitano di mantenere registrazioni contabili, dovrebbero invece optare per un sistema di elaborazione dei pagamenti specializzato. Anche in questo ambito sono disponibili diverse opzioni.
 
 Per coloro che preferiscono non avere pensieri e ricevere fondi in valuta fiat direttamente sul proprio conto bancario, sono disponibili soluzioni custodial come Open Node:

@@ -1,0 +1,13 @@
+question: Koja je svrha Lightning autentifikacije?
+answer: Generiše drugačiji identifikator za svaku uslugu, bez potrebe da
+wrong_answers:
+  - Omogućava svakome, čak i bez Lightning Wallet, da se autentifikuje bez email Address, ako je prikazana važeća lična karta.
+  - Omogućava vam da koristite istu lozinku za sve usluge.
+  - Šalje podsetnike za promenu lozinki svakog meseca.
+explanation: |
+  Autentifikacija munjom generiše različit identifikator
+  za svaku uslugu, bez potrebe za pružanjem emaila
+  Address ili ličnih informacija. Ovo može poboljšati privatnost
+  i sigurnost smanjenjem količine ličnih informacija
+  koje se dele sa svakom uslugom.
+reviewed: true

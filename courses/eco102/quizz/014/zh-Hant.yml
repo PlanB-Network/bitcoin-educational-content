@@ -1,0 +1,9 @@
+question: Jean-Baptiste Say 和 Bastiat 是如何闡述 Say's Law 的？
+answer: 商品和服務交換為商品和服務
+wrong_answers:
+  - Supply 創造自己的需求
+  - 生產的商品越多，消耗的商品也越多
+  - 需求決定 Supply
+explanation: |
+  Say's Law（Say定律）指出，商品的生產能夠實現相互交換，因此市場經濟具有價值。
+reviewed: false

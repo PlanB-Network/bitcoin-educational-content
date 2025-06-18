@@ -1,0 +1,13 @@
+question: Je, ni madhara gani ya mara moja ya kupungua kwa viwango vya riba kutokana na ongezeko la mikopo kulingana na Nadharia ya Austria ya Mzunguko wa Biashara?
+answer: Wajasiriamali wanaweza kukopa rasilimali zaidi na hivyo kuunda hatua za juu za uzalishaji. Upanuzi huu wa muundo wa uzalishaji hautasababisha kupungua kwa matumizi kwa sababu kumekuwa hakuna kuahirishwa kwa matumizi ya sasa ya matumizi. Kwa maneno mengine, Pato la Taifa linakua.
+wrong_answers:
+  - Wajasiriamali wanaweza kukopa rasilimali kidogo na hivyo kuunda hatua za chini za uzalishaji. Upanuzi huu wa muundo wa uzalishaji utasababisha kuongezeka kwa matumizi kwa sababu kumekuwa na kuahirishwa kwa matumizi ya sasa. Kwa maneno mengine, Pato la Taifa linapungua.
+  - Wajasiriamali wanaweza kukopa rasilimali zaidi na hivyo kuunda hatua za chini za uzalishaji. Upanuzi huu wa muundo wa uzalishaji utasababisha kupungua kwa matumizi kwa sababu kumekuwa hakuna kuahirishwa kwa matumizi ya sasa ya matumizi. Kwa maneno mengine, Pato la Taifa linapungua.
+  - Wajasiriamali wanaweza kukopa rasilimali kidogo na hivyo kuunda hatua za juu za uzalishaji. Upanuzi huu wa muundo wa uzalishaji utasababisha kuongezeka kwa matumizi kwa sababu kumekuwa na kuahirishwa kwa matumizi ya sasa. Kwa maneno mengine, Pato la Taifa linakua.
+explanation: |
+  Kulingana na Nadharia ya Austria ya Mzunguko wa Biashara, wakati kuna
+  kupungua kwa viwango vya riba kutokana na ongezeko la mikopo, wajasiriamali wanaweza kukopa
+  rasilimali zaidi na hivyo kuunda hatua za juu za uzalishaji. Ugani huu wa
+  muundo wa uzalishaji hautasababisha kupungua kwa matumizi kwa sababu huko
+  imekuwa hakuna matumizi ya kuahirishwa kwa matumizi ya sasa. Kwa maneno mengine, Pato la Taifa linakua.
+reviewed: true

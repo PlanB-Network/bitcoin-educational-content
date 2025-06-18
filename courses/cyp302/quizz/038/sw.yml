@@ -1,0 +1,9 @@
+question: Ni uwanja gani wa hisabati hutoa zana za kisasa za nadharia ya nambari?
+answer: Muhtasari wa algebra
+wrong_answers:
+  - Jiometri
+  - Takwimu
+  - Uchambuzi tata
+explanation: |
+  Aljebra ya Kikemikali, kama taaluma ndogo ya hisabati, hutoa miundo ya hisabati inayowezesha uchanganuzi na uelewa wa sifa za nambari zinazotumika katika nadharia ya nambari.
+reviewed: false

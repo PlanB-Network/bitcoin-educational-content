@@ -1,0 +1,9 @@
+question: Kako se bira eksponent e u RSA kriptosistemu?
+answer: Mora biti ceo broj veći od 2, relativno prost sa φ(N)
+wrong_answers:
+  - Mora biti prost broj manji od N
+  - Nasumično je odabrano bez ograničenja.
+  - Mora biti jednako φ(N)
+explanation: |
+  U RSA, eksponent e se bira tako da je veći od 2 i relativno prost sa φ(N), što osigurava bezbednost operacija.
+reviewed: false

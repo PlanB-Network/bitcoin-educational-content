@@ -26,11 +26,11 @@ Théo; bidrag
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kursintroduksjon
+## Kursoversikt
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Mål: Oppdater dine sikkerhetsferdigheter!
+**Mål: Oppdater dine sikkerhetsferdigheter!**
 
 Velkommen alle sammen til dette opplæringsprogrammet dedikert til digital sikkerhet. Denne opplæringen er designet for å være tilgjengelig for alle, så ingen forkunnskaper i datavitenskap er nødvendig. Vårt hovedmål er å gi dere kunnskapen og ferdighetene som er nødvendige for å navigere i den digitale verden på en tryggere og mer privat måte.
 
@@ -40,13 +40,13 @@ Denne opplæringen er et samarbeid mellom tre av våre professorer:
 
 - Renaud Lifchitz, ekspert på cybersikkerhet
 - Théo Pantamis, PhD i anvendt matematikk
-- Rogzy, CEO av DécouvreBitcoin
+- Rogzy, Medgründer av Plan ₿ Network
 
 Din digitale hygiene er avgjørende i en stadig mer digital verden. Til tross for den konstante økningen i hacking og masseovervåkning, er det ikke for sent å ta det første steget og beskytte deg selv.
 I denne opplæringen prøver vi ikke å gjøre deg til en ekspert, anonym eller usårbar, da dette er umulig. I stedet tilbyr vi deg noen enkle og tilgjengelige løsninger for alle for å starte transformasjonen av dine nettvaner og gjenvinne kontrollen over din digitale suverenitet.
 Hvis du ser etter mer avanserte ferdigheter om emnet, er våre ressurser, opplæringsprogrammer eller annen cybersikkerhetsopplæring her for deg. I mellomtiden, her er en kort oversikt over vårt program for de neste timene sammen.
 
-### Seksjon 1: Alt du trenger å vite om nettlesing
+**Seksjon 1: Alt du trenger å vite om nettlesing**
 
 - Kapittel 1 - Nettlesing
 - Kapittel 2 - Sikker bruk av internett
@@ -55,13 +55,13 @@ For å starte, vil vi diskutere viktigheten av å velge en nettleser og dens imp
 
 ![](assets/en/1.webp)
 
-### Seksjon 2: Beste praksiser for bruk av datamaskin
+**Seksjon 2: Beste praksiser for bruk av datamaskin**
 
 - Kapittel 3 - Bruk av datamaskin
 - Kapittel 4 - Hacking & håndtering av sikkerhetskopier
   I denne seksjonen vil vi dekke tre nøkkelområder innen datamaskinsikkerhet. Først vil vi utforske ulike operativsystemer: Mac, PC og Linux, og fremheve deres spesifikasjoner og styrker. Deretter vil vi dykke ned i metoder for å effektivt beskytte mot hackingforsøk og styrke sikkerheten til enhetene dine. Til slutt vil vi understreke viktigheten av regelmessig å beskytte og sikkerhetskopiere dataene dine for å forhindre tap eller ransomware. ![](assets/en/2.webp)
 
-### Seksjon 3: Implementering av løsninger
+**Seksjon 3: Implementering av løsninger**
 
 - Kapittel 6 - E-posthåndtering
 - Kapittel 7 - Passordbehandler
@@ -71,6 +71,7 @@ I denne praktiske tredje seksjonen vil vi gå videre til implementeringen av din
 
 Først vil vi se på hvordan du beskytter innboksen din, som er essensiell for kommunikasjonen din og ofte målrettet av hackere. Deretter vil vi introdusere deg for en passordbehandler: en praktisk løsning for å ikke lenger glemme eller blande sammen passordene dine samtidig som du holder dem sikre. Til slutt vil vi diskutere et ekstra sikkerhetstiltak, to-faktor autentisering, som legger til et ekstra lag med beskyttelse for kontoene dine. Alt vil bli forklart klart og tilgjengelig. ![](assets/en/3.webp)
 
+Klar til å styrke din digitale sikkerhet og ta tilbake kontrollen over dine data? La oss starte!
 # Alt du trenger å vite om nettlesing
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -398,18 +399,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Oppsett av sikkerhetskopi
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Å beskytte dine personlige filer er også et kritisk punkt. Denne tutorialen viser deg hvordan du implementerer en effektiv backup-strategi ved bruk av Proton Drive. Oppdag hvordan du bruker denne sikre sky-løsningen for å anvende 3-2-1 metoden: tre kopier av dataene dine på to forskjellige medier, med en kopi offsite. Dette sikrer tilgjengeligheten og sikkerheten til dine sensitive filer:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Og for å sikre filene dine lagret på flyttbare medier som en USB-stasjon eller ekstern harddisk, viser jeg deg også hvordan du enkelt kan kryptere og dekryptere disse mediene ved bruk av VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Bytte av nettleser & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -425,6 +414,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Lær også hvordan du bruker Tor Browser, en nettleser spesielt designet for å beskytte ditt online privatliv:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Oppsett av sikkerhetskopi
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Å beskytte dine personlige filer er også et kritisk punkt. Denne tutorialen viser deg hvordan du implementerer en effektiv backup-strategi ved bruk av Proton Drive. Oppdag hvordan du bruker denne sikre sky-løsningen for å anvende 3-2-1 metoden: tre kopier av dataene dine på to forskjellige medier, med en kopi offsite. Dette sikrer tilgjengeligheten og sikkerheten til dine sensitive filer:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Og for å sikre filene dine lagret på flyttbare medier som en USB-stasjon eller ekstern harddisk, viser jeg deg også hvordan du enkelt kan kryptere og dekryptere disse mediene ved bruk av VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Gå videre
 
@@ -473,7 +474,7 @@ Ved å mestre disse ferdighetene og verktøyene, vil du være godt utrustet til 
 
 ### Effektiv Passordhåndtering og Styrking av Autentisering: En Akademisk Tilnærming
 
-I opplæringsmodulen "Security 101" tilbudt av Découvre Bitcoin innenfor Akademiet, diskuterte vi viktigheten av passordadministratorer. Tre dimensjoner er essensielle å vurdere: opprettelse, oppdatering, og implementering av passord på nettsteder.
+Det er tre viktige dimensjoner å vurdere når man snakker om passordbehandlere: opprettelse, oppdatering, og implementering av passord på nettsteder.
 
 Det er generelt ikke anbefalt å bruke nettleserutvidelser for automatisk utfylling av passord. Disse verktøyene kan gjøre brukeren mer sårbar for phishing-angrep. Renaud, en anerkjent ekspert i cybersikkerhet, foretrekker manuell håndtering ved bruk av KeePass, som innebærer manuelt å kopiere og lime inn passordet. Utvidelser har en tendens til å øke angrepsflaten, kan senke nettleserens ytelse, og derfor utgjør en betydelig risiko. Dermed er minimal bruk av utvidelser på nettleseren en anbefalt praksis.
 
@@ -497,10 +498,10 @@ Datamaskinsikkerhet kan kompromitteres av enkle praksiser og bruk av standardpas
 
 Det bør også bemerkes at internett er sterkt sentralisert og i stor grad under amerikansk kontroll. DNS-serveren kan være gjenstand for sensur og bruker ofte bedragersk DNS for å blokkere tilgang til visse nettsteder. DNS er en gammel og utilstrekkelig sikker protokoll, som kan føre til sikkerhetsproblemer. Nye protokoller, som DNSsec, har dukket opp, men er fortsatt ikke mye brukt. For å omgå sensur og annonseblokkering, er det mulig å velge alternative DNS-leverandører.
 
-Alternativer til påtrengende annonser inkluderer Google DNS, OpenDNS og andre uavhengige tjenester. Standard DNS-protokollen lar DNS-forespørsler være synlige for internettleverandøren. DOH (DNS over HTTPS) og DOT (DNS over TLS) krypterer DNS-forbindelsen, og gir større personvern og sikkerhet. Disse protokollene brukes mye i bedrifter på grunn av deres forbedrede sikkerhet og støttes nativt av Windows, Android og iPhone. For å bruke DOH og DOT, må et TLS-vertsnavn angis i stedet for en IP-adresse. Gratis DOH- og DOT-leverandører er tilgjengelige på nettet. DOH og DOT forbedrer personvern og sikkerhet ved å unngå "man in the middle"-angrep. Andre nøkkelhensyn
-Som en del av "Security 101" treningsmodulen på Découvre Bitcoin Academy, diskuterte vi også Lightning-autentisering. Dette systemet genererer en forskjellig identifikator for hver tjeneste, uten behov for å oppgi en e-postadresse eller personlig informasjon. Det er mulig å ha brukerkontrollerte desentraliserte identiteter, men det er en mangel på standardisering og normalisering i prosjekter for desentralisert identitet. Pakkebehandlere som Nuget og Chocolaté, som tillater nedlasting av åpen kildekode-programvare utenfor Microsoft Store, anbefales for å unngå ondsinnede angrep. Sammenfattet er DNS avgjørende for online sikkerhet, men det er nødvendig å være årvåken mot potensielle angrep på DNS-servere.
+Alternativer til påtrengende annonser inkluderer Google DNS, OpenDNS og andre uavhengige tjenester. Standard DNS-protokollen lar DNS-forespørsler være synlige for internettleverandøren. DOH (DNS over HTTPS) og DOT (DNS over TLS) krypterer DNS-forbindelsen, og gir større personvern og sikkerhet. Disse protokollene brukes mye i bedrifter på grunn av deres forbedrede sikkerhet og støttes nativt av Windows, Android og iPhone. For å bruke DOH og DOT, må et TLS-vertsnavn angis i stedet for en IP-adresse. Gratis DOH- og DOT-leverandører er tilgjengelige på nettet. DOH og DOT forbedrer personvern og sikkerhet ved å unngå "man in the middle"-angrep.
+Det er også verdt å nevne systemet kalt "Lightning authentication". Dette systemet genererer en forskjellig identifikator for hver tjeneste, uten behov for å oppgi en e-postadresse eller personlig informasjon. Det er mulig å ha brukerkontrollerte desentraliserte identiteter, men det er en mangel på standardisering og normalisering i prosjekter for desentralisert identitet. Pakkebehandlere som Nuget og Chocolaté, som tillater nedlasting av åpen kildekode-programvare utenfor Microsoft Store, anbefales for å unngå ondsinnede angrep. Sammenfattet er DNS avgjørende for online sikkerhet, men det er nødvendig å være årvåken mot potensielle angrep på DNS-servere.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

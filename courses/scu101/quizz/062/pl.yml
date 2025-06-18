@@ -1,0 +1,11 @@
+question: Jakie są niektóre z aspektów wiedzy sieciowej potrzebnej w cyberbezpieczeństwie?
+answer: TCP/IP, VPN, zapora sieciowa
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Rozdział wspomina o TCP/IP, VPN i firewallu jako o niektórych
+  aspekty wiedzy sieciowej potrzebnej w
+  cyberbezpieczeństwie.
+reviewed: true

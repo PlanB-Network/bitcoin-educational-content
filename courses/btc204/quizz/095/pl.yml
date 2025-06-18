@@ -1,0 +1,10 @@
+question: Na co wskazuje potencjalny brak aktywności?
+answer: Rozmiar grupy nierozróżnialnych UTXO na wyjściu cykli.
+wrong_answers:
+  - Rozmiar grupy nierozróżnialnych UTXO na wejściu cykli.
+  - Rozmiar grupy nierozróżnialnych UTXO w puli.
+  - Liczba transakcji wymaganych do osiągnięcia anonimowości.
+explanation: |
+  Perspektywiczny anonset wskazuje rozmiar grupy, wśród której ukrywa się badany UTXO na wyjściu cyklu, znając UTXO na wejściu, czyli liczbę nierozróżnialnych monet obecnych w tej grupie.
+  
+reviewed: false

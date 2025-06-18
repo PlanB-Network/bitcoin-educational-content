@@ -1,0 +1,9 @@
+question: Jeśli w prostej transakcji płatniczej zaobserwowano, że ten sam typ skryptu jest używany na wejściu i tylko na jednym z dwóch wyjść, które wyjście prawdopodobnie reprezentuje zmianę?
+answer: Ten z tym samym typem skryptu, co dane wejściowe.
+wrong_answers:
+  - Ten z najnowszym typem skryptu.
+  - Ten z innym typem skryptu niż wejściowy.
+  - Ten z niestandardowym typem skryptu.
+explanation: |
+  Jeśli ponowne użycie wersji występuje w ramach transakcji, rozsądne jest założenie, że użytkownik nadal posiada powiązany UTXO. Dlatego wyjście z tą samą wersją skryptu co wejście jest prawdopodobnie zmianą.
+reviewed: false

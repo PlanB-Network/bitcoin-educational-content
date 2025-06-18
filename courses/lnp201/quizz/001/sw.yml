@@ -1,0 +1,9 @@
+question: Katika njia ya malipo, uwezo wa kituo ni upi?
+answer: Jumla ya kiasi cha fedha ambacho washiriki wawili wanaweza Exchange
+wrong_answers:
+  - Kikomo cha muda ambacho kituo kinaweza kubaki wazi
+  - Kiasi cha juu ambacho mshiriki mmoja anaweza kutuma katika muamala mmoja
+  - Idadi ya miamala ambayo kituo kinaweza kutumia kwa siku
+explanation: |
+  Uwezo wa kituo unafanana na jumla ya fedha za washiriki wawili na inabakia fasta ili kuamua kubadilishana iwezekanavyo.
+reviewed: false

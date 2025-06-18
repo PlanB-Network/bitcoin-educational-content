@@ -1,0 +1,13 @@
+question: Je, ni hasara gani inayoweza kutokea ya kuunda hifadhi rudufu ya wingu kwa kutumia huduma kama vile Hifadhi ya ProtonMail, Usawazishaji, au Hifadhi ya Google?
+answer: Data yako inawezekana iko kwenye mtandao na inashikiliwa na mtu mwingine anayeaminika.
+wrong_answers:
+  - Huduma hizi huenda si za kuaminika kwa hifadhi rudufu ya data.
+  - Huduma hizi wakati mwingine hupoteza data ya mtumiaji na inaweza kuwa vigumu kuihamisha kwa mtoa huduma mwingine wa wingu.
+  - Huduma hizi kwa kawaida hazitoi nafasi ya kutosha ya kuhifadhi na zinakabiliwa na kasi ya chini ya uunganisho.
+explanation: |
+  Wakati huduma za chelezo za wingu hutoa njia rahisi ya
+  Hifadhi nakala ya data yako, pia inamaanisha kuwa data yako ni
+  uwezekano kwenye mtandao na kushikiliwa na mtu wa tatu anayeaminika
+  chama. Hii inaweza kufichua data yako
+  hatari za ziada.
+reviewed: true

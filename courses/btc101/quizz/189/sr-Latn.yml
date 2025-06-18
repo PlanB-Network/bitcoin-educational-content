@@ -1,0 +1,8 @@
+question: kako Bitcoin rešava problem Vizantijskih generala?
+answer: Kroz korišćenje Blockchain zasnovanog na Proof of Work sa plutajućom težinom.
+wrong_answers:
+  - Kroz korišćenje digitalnih potpisa.
+  - Kroz upotrebu javnog Ledger.
+  - Kroz korišćenje algoritma Dokaza o Ulogu.
+explanation: >-
+reviewed: true

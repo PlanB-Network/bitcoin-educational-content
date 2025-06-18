@@ -1,0 +1,9 @@
+question: 由輸入中的單個 UTXO 和輸出中的單個 UTXO 組成的模式名稱是什麼？
+answer: 清掃
+wrong_answers:
+  - 整合
+  - CoinJoin
+  - 分批支出
+explanation: |
+  這個結構的詮釋是我們正處於掃描的狀態，也就是比特幣的自我轉移。
+reviewed: false

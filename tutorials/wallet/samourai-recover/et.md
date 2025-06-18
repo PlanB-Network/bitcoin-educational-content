@@ -145,7 +145,7 @@ Kui kasutate Samourai rahakoti taastamiseks Sparrow'ist erinevat tarkvara, nagu 
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate abi Sparrow Wallet'i kasutamisel, võite vaadata ka [meie pühendatud õpetust](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate abi Sparrow Wallet'i kasutamisel, võite vaadata ka [meie pühendatud õpetust](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Soovitan samuti käsitsi importida sildid, mille olite seostanud oma UTXO-dega Samourais. See võimaldab teil hiljem Sparrow's tõhusat mündikontrolli teostada.
 
@@ -201,7 +201,7 @@ Kui kasutate oma Samourai rahakoti taastamiseks mõnda muud tarkvara nagu Electr
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate Sparrow Walleti kasutamisel abi, võite konsulteerida ka [meie pühendatud õpetusega](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Nüüd on teil juurdepääs oma bitcoinidele Sparrow's. Kui vajate Sparrow Walleti kasutamisel abi, võite konsulteerida ka [meie pühendatud õpetusega](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Soovitan samuti käsitsi importida sildid, mille olite seostanud oma UTXO-dega Samourai's. See võimaldab teil Sparrow's hiljem tõhusat müntide kontrolli teostada.
 

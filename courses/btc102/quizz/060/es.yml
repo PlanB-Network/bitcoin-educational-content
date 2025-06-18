@@ -1,10 +1,9 @@
-question: ¿Qué es una billetera caliente en el contexto de Bitcoin?
-answer: Una billetera para almacenar pequeñas cantidades de Bitcoin en línea.
+question: ¿Cuál es el papel de la carta de herencia Bitcoin en un plan sucesorio?
+answer: Orientar a los herederos en el acceso a los fondos
 wrong_answers:
-  - Una billetera que se utiliza para transacciones en climas cálidos.
-  - Una billetera que se utiliza para almacenar grandes cantidades de Bitcoin.
-  - Una billetera que se utiliza para almacenar Bitcoin durante un largo período de tiempo.
+  - Servir de Contract para transferir bitcoins a los herederos
+  - Para determinar la distribución fiscal de los activos
+  - Para optimizar las tasas de transferencia entre monederos
 explanation: |
-  Una billetera caliente es una billetera para almacenar pequeñas cantidades de Bitcoin en línea.
-  Se considera menos segura que una billetera fría, ya que es más vulnerable a los ataques de hackers.
+  La carta de herencia proporciona instrucciones claras y precisas para que los seres queridos puedan recuperar los bitcoins.
 reviewed: false

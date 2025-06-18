@@ -1,0 +1,8 @@
+question: What idea has been called Montaigne's sophism?
+answer: Exchange is a zero-sum game
+wrong_answers:
+  - Exchange is a positive-sum game
+  - Depending on time and place, exchange is sometimes a zero-sum game, sometimes a positive-sum game
+  - Exchange is always unfavorable to the weaker party
+explanation: |
+  Montaigne's fallacy is the idea that exchange is a zero-sum game, i.e. what one gains, the other loses. This idea is false, because voluntary exchange is mutually beneficial.

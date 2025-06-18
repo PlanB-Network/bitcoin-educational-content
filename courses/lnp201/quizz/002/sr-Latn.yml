@@ -1,0 +1,9 @@
+question: Ako Alisa pošalje 40.000 satoshija Bobu iz platnog kanala gde je inicijalno imala 100.000 satoshija, koliko sredstava joj ostaje nakon transakcije?
+answer: 60,000 satoshija
+wrong_answers:
+  - 30.000 satoshija
+  - 40,000 satoshija
+  - 140.000 satoshija
+explanation: |
+  Nakon slanja 40.000 satoshija, Alisin saldo u kanalu je 60.000 satoshija.
+reviewed: false

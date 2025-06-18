@@ -1,0 +1,11 @@
+question: 恢復 Wallet 的標準方法是什麼？
+answer: 在任何 Wallet 軟體中輸入您的 Mnemonic 詞組。
+wrong_answers:
+  - 將您的 Mnemonic 詞組儲存為數位檔案。
+  - 在白板上寫下您的 Mnemonic 詞組。
+  - 與信任的朋友分享您的 Mnemonic 詞組。
+explanation: |
+  備份 Bitcoin Wallet 中私人金鑰的標準方法是在任何 Bitcoin Wallet 中輸入您的 Mnemonic 詞組。
+  Bitcoin Wallet 中備份私密金鑰的標準方法是在任何
+  Wallet 軟體。這可讓您還原 Wallet。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Je, ni katika hali gani ambapo stablecoin inaweza kufanya biashara juu ya bei yake ya msingi?
+answer: Wakati mahitaji ya stablecoins yanazidi uwezo wa Exchange
+wrong_answers:
+  - Wakati mtoaji wa stablecoin anafungia fedha
+  - Wakati stablecoin inasaidiwa kikamilifu na akiba ya fedha
+  - Wakati kuna shinikizo kubwa la kuuza kutoka kwa watumiaji
+explanation: |
+  Stablecoins wanaweza kufanya biashara juu ya bei yao pegged wakati
+  mahitaji ya stablecoins yanazidi uwezo wa Exchange wa
+  kukidhi mahitaji ya wateja, kwa kawaida kwenye ubadilishanaji mdogo.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Dlaczego firma może zdecydować się na przyjmowanie płatności Bitcoin od klientów?
+answer: Aby wykorzystać rosnącą bazę użytkowników, potencjalnie obniżyć opłaty transakcyjne i posiadać cenne aktywa w swoim skarbcu.
+wrong_answers:
+  - Aby zagwarantować, że wszyscy klienci zapłacą więcej niż podana cena.
+  - Aby upewnić się, że żadne podatki ani wymogi regulacyjne nie mają zastosowania.
+  - Aby proces płatności był wolniejszy i bardziej skomplikowany.
+explanation: |
+  Akceptowanie Bitcoin może przyciągnąć nową grupę demograficzną kupujących, zmniejszyć opłaty za przetwarzanie płatności i zbudować magazyn wartości. Może również zwiększyć globalny zasięg, ponieważ Bitcoin nie ma granic i działa przez całą dobę.
+reviewed: false

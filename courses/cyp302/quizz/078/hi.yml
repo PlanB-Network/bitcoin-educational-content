@@ -1,0 +1,9 @@
+question: एक "ब्रूट फोर्स अटैक" का मतलब क्या होता है?
+answer: सही चाबी मिलने तक सारे संभव चाबियाँ आज़माना
+wrong_answers:
+  - टेक्स्ट को ऐसे बदलना कि समझ में ही न आए
+  - एक पब्लिक की का इस्तेमाल करके मैसेज को डिक्रिप्ट करना
+  - कंप्यूटर को जोर-जोर से Hard मारकर उससे सीक्रेट की छोड़वाने की कोशिश करना
+explanation: |
+  एक brute force attack में, encrypted message को decrypt करने के लिए सभी possible keys को systematically test किया जाता है।
+reviewed: false

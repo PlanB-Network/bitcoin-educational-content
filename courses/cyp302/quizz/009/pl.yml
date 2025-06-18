@@ -1,0 +1,9 @@
+question: Który krok nie jest zawarty w dowodzie bezpieczeństwa nowoczesnego schematu kryptograficznego?
+answer: Konfigurowanie użytkownika Interface
+wrong_answers:
+  - Określanie definicji zabezpieczeń
+  - Założenia dotyczące złożoności matematycznej
+  - Matematyczna demonstracja bezpieczeństwa
+explanation: |
+  Dowód bezpieczeństwa w nowoczesnej kryptografii koncentruje się na celach i założeniach matematycznych, z wyłączeniem aspektów takich jak użytkownik Interface, który nie jest istotny dla bezpieczeństwa kryptograficznego.
+reviewed: false

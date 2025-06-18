@@ -1,0 +1,13 @@
+question: ASIC 在 Bitcoin Mining 中扮演什麼角色？
+answer: ASIC 是專為在 Mining 程序中應用 SHA256 演算法而設計的機器。
+wrong_answers:
+  - ASIC 用於驗證 Bitcoin 交易，在驗證過程中應用 SHA256 演算法。
+  - ASIC 用來任意創造新的比特幣。
+  - ASIC 用於保護 Bitcoin 網路的安全。
+explanation: |
+  ASIC (特定應用集成電路) 是專為 Bitcoin 設計的特殊硬體。
+  專為 Bitcoin
+  Mining 的專用硬體。它們經過最佳化，可執行 SHA256 散列
+  函數，這是礦工
+  必須在 Proof of Work 程序中解決的數學問題。
+reviewed: true

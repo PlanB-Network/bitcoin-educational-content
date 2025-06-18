@@ -1,0 +1,13 @@
+question: Koja je preporučena upotreba offline, ili Cold, fizičkog Wallet?
+answer: Skladištenje velikih količina.
+wrong_answers:
+  - Čuvanje dnevnih troškova.
+  - Skladištenje malih količina.
+  - Čuvanje kratkoročnih ušteda.
+explanation: |
+  Preporučuje se offline, ili Cold, fizički Wallet za
+  skladištenje velikih količina jer je manje podložan
+  online pretnjama nego Hot novčanici. Međutim, nije
+  preporučljiv za dnevne troškove jer je manje
+  dostupan za dnevne transakcije.
+reviewed: true

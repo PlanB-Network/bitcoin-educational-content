@@ -1,0 +1,9 @@
+question: Tatizo kuu la usambazaji ni nini?
+answer: Changamoto ya kutuma funguo kwa usalama bila Exchange halisi
+wrong_answers:
+  - Umuhimu wa generate jozi nyingi za funguo kwa kila mteja
+  - Ugumu wa kupata hifadhi ya kimwili ya funguo
+  - Wajibu wa kubadilisha funguo na kila mawasiliano
+explanation: |
+  Tatizo kuu la usambazaji linahusu changamoto ya kutuma funguo kwa njia salama, hitaji ambalo limekuwa muhimu katika mawasiliano ya kidijitali ambapo Exchange halisi haiwezi kutumika.
+reviewed: false

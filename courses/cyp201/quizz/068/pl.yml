@@ -1,0 +1,9 @@
+question: Jakie jest ograniczenie dotyczące wyprowadzania podrzędnego klucza publicznego z nadrzędnego klucza publicznego?
+answer: Klucz podrzędny musi być normalny
+wrong_answers:
+  - Klucz podrzędny musi być hartowany
+  - Kod łańcucha musi być identyczny z kodem klucza nadrzędnego
+  - Proces musi zawierać nadrzędny klucz prywatny
+explanation: |
+  Podrzędny klucz publiczny może być wyprowadzony z nadrzędnego klucza publicznego tylko wtedy, gdy jest on normalny, a nie wzmocniony.
+reviewed: false

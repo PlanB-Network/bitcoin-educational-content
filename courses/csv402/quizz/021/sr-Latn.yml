@@ -1,0 +1,9 @@
+question: Šta sadrži Consignment u RGB?
+answer: Podaci sa strane korisnika potrebni za validaciju tranzicije
+wrong_answers:
+  - Potpuna kopija Bitcoin Blockchain
+  - Lista javnih obaveza Bitcoin
+  - Javni ključevi učesnika State Transition
+explanation: |
+  Consignment uključuje informacije iz RGB omogućavajući primaocu da validira State Transition prema pravilima Contract.
+reviewed: false

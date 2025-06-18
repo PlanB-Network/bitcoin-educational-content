@@ -1,0 +1,9 @@
+question: Šta znači da Bitcoin bude neutralna valuta?
+answer: Nije kontrolisano od strane bilo kog entiteta ili institucije.
+wrong_answers:
+  - Kontroliše ga jedan entitet ili institucija.
+  - To je regulisano od strane vlade.
+  - Koristi se samo za velike transakcije.
+explanation: |
+  Bitcoin je neutralna valuta, što znači da njome ne upravlja nijedan entitet ili institucija, tako da svaki korisnik ima ista prava. Ovo je ključni aspekt njene decentralizacije.
+reviewed: true

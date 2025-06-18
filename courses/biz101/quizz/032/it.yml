@@ -3,7 +3,7 @@ answer: Permette all'azienda di imparare da alcune transazioni iniziali e di pas
 wrong_answers:
   - Costringe l'azienda a utilizzare immediatamente solo soluzioni di autocustodia.
   - Questo impedisce all'azienda di aggiornare o cambiare fornitore in un secondo momento.
-  - Richiede che un'azienda accetti Bitcoin da ogni cliente prima di capire il processo.
+  - Richiede che un'azienda accetti dei bitcoin da ogni cliente prima di capire il processo.
 explanation: |
   Iniziare con un approccio semplice e iniziale consente all'azienda di acquisire esperienza pratica senza rischi significativi. Se l'interesse per i pagamenti in Bitcoin si rivelerà proficuo, l'azienda potrà aggiornare la propria infrastruttura e integrare strumenti più avanzati.
 reviewed: false

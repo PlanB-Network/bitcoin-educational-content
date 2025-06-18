@@ -1,0 +1,13 @@
+question: Które z poniższych nie jest zaletą Bitcoin jako waluty?
+answer: Służy do płacenia podatków.
+wrong_answers:
+  - Jest on podzielny.
+  - Jest przenośny.
+  - Nie wymaga pozwolenia.
+explanation: |
+  Bitcoin, ze względu na swoje właściwości, takie jak podzielność,
+  weryfikowalność, bezwarunkowość i możliwość transportu,
+  oferuje doskonały magazyn wartości. Ponadto, jako neutralna
+  waluta internetowa, stanowi dobry nośnik Exchange
+  który nie zna granic.
+reviewed: true

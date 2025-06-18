@@ -1,0 +1,13 @@
+question: Ni nini dhana ya kupunguza matumizi ya kando?
+answer: Kila sehemu ya ziada ya nzuri haitakiwi kidogo kuliko iliyotangulia.
+wrong_answers:
+  - Kila kitengo cha ziada cha nzuri kinatamaniwa zaidi kuliko kilichotangulia.
+  - Kila sehemu ya ziada ya nzuri inatakwa sawa na iliyotangulia.
+  - Tamaa ya kila kitengo cha ziada cha nzuri hubadilika bila kutabirika.
+explanation: |
+  Wazo la kupunguza matumizi ya kando linasema kuwa kila moja
+  sehemu ya ziada ya nzuri ni chini ya taka kuliko
+  iliyotangulia. Hii ni kwa sababu kama mtu binafsi hupata zaidi
+  ya nzuri, matumizi kidogo kila kitengo cha ziada cha hiyo
+  nzuri hutoa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: W grupie cyklicznej, jak nazywa się element, który może generate wszystkie inne Elements poprzez potęgowanie?
+answer: Generator
+wrong_answers:
+  - Mnożnik
+  - A coprime
+  - Odwrotność
+explanation: |
+  Generator to element grupy cyklicznej, który poprzez potęgowanie może utworzyć wszystkie inne Elements tej grupy.
+reviewed: false

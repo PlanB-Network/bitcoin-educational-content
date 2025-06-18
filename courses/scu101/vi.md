@@ -26,11 +26,11 @@ Théo; đóng góp
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Giới thiệu khóa học
+## Tổng quan về khóa học
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!
+**Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!**
 
 Chào mừng mọi người đến với chương trình đào tạo được thiết kế riêng cho bảo mật số. Khóa học này được thiết kế để ai cũng có thể tiếp cận được, vì vậy không yêu phải có kiến thức về khoa học máy tính để tham gia. Mục tiêu chính của chúng tôi là cung cấp cho bạn những kiến thức và kỹ năng cần thiết để khám phá thế giới số một cách an toàn và riêng tư hơn.
 
@@ -40,13 +40,13 @@ Khóa học này là nỗ lực hợp tác từ ba giáo sư của chúng tôi:
 
 - Renaud Lifchitz, chuyên gia bảo mật mạng
 - Théo Pantamis, Tiến sĩ toán ứng dụng
-- Rogzy, CEO của DécouvreBitcoin
+- Rogzy, Người đồng sáng lập Plan ₿ Network
 
 Sức khoẻ số của bạn rất quan trọng trong một thế giới ngày càng số hóa. Mặc dù số lượng các vụ hack và giám sát hàng loạt không ngừng tăng lên, không bao giờ là quá muộn để bắt đầu bảo vệ bản thân.
 Trong khóa học này, chúng tôi không có mục tiêu biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận để bạn bắt đầu thay đổi thói quen trực tuyến của bản thân và lấy lại quyền kiểm soát chủ quyền số của mình.
 Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, các tài nguyên, các hướng dẫn hoặc các khóa học về an ninh mạng khác của chúng tôi đều sẵn sàng phục vụ bạn. Trong khi chờ đợi, dưới đây là một cái nhìn tổng quan về chương trình của chúng ta trong vài giờ tới cùng nhau.
 
-### Phần 1: Tất cả những gì bạn cần biết về duyệt web trực tuyến
+**Phần 1: Tất cả những gì bạn cần biết về duyệt web trực tuyến**
 
 - Chương 1 - Duyệt web trực tuyến
 - Chương 2 - Sử dụng internet một cách an toàn
@@ -55,13 +55,13 @@ Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, c
 
 ![](assets/en/1.webp)
 
-### Phần 2: Các thói quen tốt nhất cho việc sử dụng máy tính
+**Phần 2: Các thói quen tốt nhất cho việc sử dụng máy tính**
 
 - Chương 3 - Sử dụng máy tính
 - Chương 4 - Hacking & quản lý sao lưu
   ![](assets/en/1.webp)
 
-### Phần 3: Triển khai giải pháp
+**Phần 3: Triển khai giải pháp**
 
 - Chương 6 - Quản lý email
 - Chương 7 - Trình quản lý mật khẩu
@@ -72,6 +72,7 @@ Trong phần thứ ba này, chúng ta sẽ chuyển sang triển khai các giả
 Đầu tiên, chúng ta sẽ xem cách bảo vệ hộp thư email của bạn, điều này rất quan trọng cho giao tiếp của bạn và đây là nơi thường xuyên bị hacker nhắm đến. Sau đó, chúng ta sẽ giới thiệu bạn với một trình quản lý mật khẩu: một giải pháp thực tế để không còn bị quên hoặc lẫn lộn mật khẩu của bạn trong khi vẫn giữ chúng an toàn. Cuối cùng, chúng ta sẽ thảo luận về một biện pháp bảo mật bổ sung, xác thực hai yếu tố, nó cung cấp thêm một lớp bảo vệ nữa cho tài khoản của bạn. Mọi thứ sẽ được giải thích một cách rõ ràng và dễ tiếp cận.
 ![](assets/en/1.webp)
 
+Sẵn sàng tăng cường bảo mật số của bạn và giành lại quyền kiểm soát dữ liệu của mình chưa? Hãy bắt đầu nào!
 # Tất cả những gì bạn cần biết về duyệt web trực tuyến
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -408,18 +409,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Thiết lập sao lưu
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Bảo vệ các tệp cá nhân của bạn cũng là một điểm quan trọng. Hướng dẫn này chỉ cho bạn cách triển khai một chiến lược sao lưu hiệu quả nhờ Proton Drive. Tìm hiểu cách sử dụng giải pháp đám mây an toàn này để áp dụng phương pháp 3-2-1: ba bản sao dữ liệu của bạn trên hai phương tiện khác nhau, trong đó một bản sao nằm ngoài địa điểm. Như vậy, bạn đảm bảo khả năng truy cập và an ninh cho các tệp nhạy cảm của mình:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Và để bảo mật các tệp của bạn lưu trữ trên các phương tiện di động như ổ USB hoặc ổ cứng di động, tôi cũng sẽ chỉ cho bạn cách mã hóa và giải mã các phương tiện này dễ dàng bằng VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Thay đổi trình duyệt & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -435,6 +424,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Ngoài ra, hãy tìm hiểu cách sử dụng Tor Browser, một trình duyệt được thiết kế đặc biệt để bảo vệ quyền riêng tư trực tuyến của bạn:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Thiết lập sao lưu
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Bảo vệ các tệp cá nhân của bạn cũng là một điểm quan trọng. Hướng dẫn này chỉ cho bạn cách triển khai một chiến lược sao lưu hiệu quả nhờ Proton Drive. Tìm hiểu cách sử dụng giải pháp đám mây an toàn này để áp dụng phương pháp 3-2-1: ba bản sao dữ liệu của bạn trên hai phương tiện khác nhau, trong đó một bản sao nằm ngoài địa điểm. Như vậy, bạn đảm bảo khả năng truy cập và an ninh cho các tệp nhạy cảm của mình:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Và để bảo mật các tệp của bạn lưu trữ trên các phương tiện di động như ổ USB hoặc ổ cứng di động, tôi cũng sẽ chỉ cho bạn cách mã hóa và giải mã các phương tiện này dễ dàng bằng VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Đi sâu hơn
 
@@ -483,7 +484,7 @@ Khi thành thạo những kỹ năng và các công cụ này, bạn sẽ đư�
 
 ### Quản lý mật khẩu hiệu quả và xác thực tăng cường: Tiếp cận ở góc độ học thuật
 
-Trong mô-đun đào tạo "An ninh mạng 101" do Découvre Bitcoin cung cấp tại Học viện, chúng tôi đã thảo luận về tầm quan trọng của trình quản lý mật khẩu. Ba khía cạnh cần xem xét bao gồm: tạo, cập nhật và sử dụng mật khẩu trên các trang web.
+Có ba khía cạnh chính cần xem xét khi nói về trình quản lý mật khẩu: tạo, cập nhật và sử dụng mật khẩu trên các trang web.
 Thông thường việc sử dụng tiện ích mở rộng trên trình duyệt để tự động điền mật khẩu không được khuyến khích. Những công cụ này có thể làm cho người dùng dễ bị tấn công giả mạo hơn. Renaud, một chuyên gia được công nhận trong lĩnh vực an ninh mạng, ưa thích quản lý thủ công bằng cách sử dụng KeePass, điều này đòi hỏi phải sao chép và dán mật khẩu một cách thủ công. Các tiện ích mở rộng có xu hướng tăng bề mặt tấn công, có thể làm chậm hiệu suất trình duyệt và do đó mang đến một rủi ro đáng kể. Bởi vậy, tốt nhất là chỉ nên sử dụng một số rất ít các tiện ích mở rộng cần thiết trên trình duyệt.
 
 Các trình quản lý mật khẩu thường khuyến khích sử dụng các yếu tố xác thực bổ sung, như xác thực hai yếu tố. Để đảm bảo an ninh tối ưu, nên giữ OTPs (Mật khẩu dùng một lần) trên thiết bị di động của bạn. AndoTP cung cấp một giải pháp mã nguồn mở để tạo và lưu trữ mã OTP trên điện thoại của bạn. Trong khi Google Authenticator cho phép xuất mã gieo xác thực, mức độ tin tưởng vào việc sao lưu trên tài khoản Google vẫn hạn chế. Do đó, các ứng dụng OTI và AndoTP được khuyến nghị cho việc quản lý OTP một cách tự chủ.
@@ -506,9 +507,9 @@ Bảo mật máy tính có thể bị xâm phạm bởi những hành vi đơn g
 Cũng cần lưu ý rằng Internet có tính tập trung cao và phần lớn nằm dưới sự kiểm soát của Mỹ. Máy chủ DNS có thể bị kiểm duyệt và thường sử dụng DNS lừa đảo để chặn quyền truy cập vào một số trang web. DNS là một giao thức cũ và không đủ an toàn, có thể dẫn đến các vấn đề về bảo mật. Các giao thức mới, như DNSsec, đã xuất hiện nhưng vẫn chưa được sử dụng rộng rãi. Để vượt qua kiểm duyệt và chặn quảng cáo, có thể chọn các nhà cung cấp DNS thay thế.
 Các phương án thay thế để chống lại quảng cáo xâm nhập bao gồm Google DNS, OpenDNS và các dịch vụ độc lập khác. Giao thức DNS tiêu chuẩn để lộ truy vấn DNS cho nhà cung cấp dịch vụ internet. DOH (DNS qua HTTPS) và DOT (DNS qua TLS) mã hóa kết nối DNS, cung cấp sự riêng tư và bảo mật cao hơn. Các giao thức này được sử dụng rộng rãi trong doanh nghiệp do bảo mật tăng cường và được tự động hỗ trợ bởi Windows, Android và iPhone. Để sử dụng DOH và DOT, cần nhập tên máy chủ TLS thay vì địa chỉ IP. Các nhà cung cấp DOH và DOT miễn phí có sẵn trực tuyến. DOH và DOT cải thiện sự riêng tư và bảo mật bằng cách tránh các cuộc tấn công "người đứng giữa".
 
-Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bitcoin Academy, chúng ta cũng đã thảo luận về xác thực Lightning. Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.
+Cũng đáng để đề cập đến hệ thống được gọi là "Lightning authentication". Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.
 
-# Kết luận
+# Phần cuối
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

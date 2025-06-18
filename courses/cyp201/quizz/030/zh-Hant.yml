@@ -1,0 +1,9 @@
+question: SIGHASH_SINGLE 的目的是什麼？
+answer: 涵蓋一個輸入及其對應的輸出
+wrong_answers:
+  - 涵蓋所有輸入和輸出
+  - 僅涵蓋輸入
+  - 涵蓋除一個輸出之外的所有輸出
+explanation: |
+  SIGHASH_SINGLE 涵蓋了單一輸入和單一輸出，對應於有符號輸入的索引，其他部分則可修改。
+reviewed: false

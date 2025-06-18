@@ -1,0 +1,12 @@
+question: Bitcoin Wallet 的三個主要功能是什麼？
+answer: 接收比特幣、傳送比特幣、保護比特幣免受駭客入侵和盜竊企圖。
+wrong_answers:
+  - 儲存比特幣、傳送比特幣、保護比特幣免受駭客入侵和盜竊企圖。
+  - 允許接收 bitcoins、儲存 bitcoins、保護 bitcoins 免遭駭客入侵和竊取。
+  - 允許接收 bitcoins、允許傳送 bitcoins、出售 bitcoins。
+explanation: |
+  Bitcoin Wallet 用於與 Bitcoin
+  網路互動。它的三個主要功能是允許接收
+  比特幣、允許發送比特幣，以及保護比特幣免受
+  黑客入侵和盜竊。
+reviewed: true

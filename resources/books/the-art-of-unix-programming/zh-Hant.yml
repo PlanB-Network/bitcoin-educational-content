@@ -1,0 +1,6 @@
+title: 「Unix程式設計的藝術」
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  Eric S. Raymond所著的《The Art of Unix Programming》是一本中級指南，探討Unix程式設計的哲學、設計原則和實際層面。它涵蓋了 Unix 程式設計環境、shell scripting、系統呼叫和進程間通訊等主題。通過清晰的解釋和示例，本書展示了 Unix 作為編程平台的強大功能和靈活性，同時強調簡單性和模塊化設計。本書也討論了 Unix 開發的歷史和協作本質。總而言之，本書為希望增進 Unix 程式設計技能的開發人員提供了寶貴的見解。

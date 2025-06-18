@@ -1,12 +1,9 @@
-question: Hva er de to motstridende ideologiene i Bitcoin-verdenen?
-answer: Å bringe de ubankede inn i banksystemet og å ta de som er i banksystemet ut av det
+question: Hvem er oppfinnerne av Lightning Network?
+answer: Thaddeus Dryja og Joseph Poon
 wrong_answers:
-  - Å gjøre alle rike og å gjøre alle fattige
-  - Å sentralisere makt og å desentralisere makt
-  - Å fremme personvern og å fremme gjennomsiktighet
+  - Andreas Antonopoulos og Adam Back
+  - Pieter Wuille og Gregory Maxwell
+  - Satoshi Nakamoto og Hal Finney
 explanation: |
-  Kapittelet nevner to motstridende ideologier i Bitcoin-verdenen.
-  Den ene er å bringe milliarder av mennesker som ikke er i banksystemet inn i det.
-  Den andre er å ta milliarder av mennesker som er i banksystemet ut av
-  det.
+  Thaddeus Dryja og Joseph Poon oppfant Lightning Network i 2016 for å forbedre Bitcoins skalerbarhet.
 reviewed: false

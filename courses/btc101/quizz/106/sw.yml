@@ -1,0 +1,11 @@
+question: Kwa nini ni vyema kuepuka kuacha Bitcoins zako kwenye majukwaa ya Exchange?
+answer: Wanaweza kushambuliwa na wadukuzi.
+wrong_answers:
+  - Mifumo ya Exchange hutoza ada nasibu.
+  - Bitcoin inapoteza thamani kwenye majukwaa ya Exchange.
+  - Majukwaa ya Exchange si taasisi inayodhibitiwa.
+explanation: |
+  Inashauriwa kuzuia kuacha Bitcoins zako kwenye Exchange
+  majukwaa kwa sababu yanaweza kushambuliwa na wadukuzi
+  mashambulizi.
+reviewed: true

@@ -1,0 +1,14 @@
+question: Šta je problem vizantijskih generala?
+answer: To je problem koordinacije informacija u sistemu gde se raznim akterima ne može verovati.
+wrong_answers:
+  - To je problem verifikacije transakcija u decentralizovanoj mreži.
+  - To je problem sprečavanja dvostrukog trošenja u digitalnoj valuti.
+  - To je problem održavanja konsenzusa u centralizovanoj mreži.
+explanation: |
+  Problem Vizantijskih generala je klasičan problem u
+  distribuiranom računarstvu, koji uključuje postizanje konsenzusa
+  u mreži gde neki od čvorova mogu biti neispravni ili
+  zlonamerni. Bitcoin rešava ovaj problem korišćenjem
+  Blockchain zasnovanog na Proof of Work, što osigurava da svi
+  čvorovi postignu saglasnost o stanju istorije transakcija.
+reviewed: true

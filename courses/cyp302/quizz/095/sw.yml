@@ -1,0 +1,9 @@
+question: Je, MAC humruhusuje Alice kuthibitisha kuwa ujumbe unatoka kwa Bob?
+answer: Kwa kuangalia kwamba lebo inayozalishwa inalingana na ile iliyotumwa na Bob
+wrong_answers:
+  - Kwa kusimbua ujumbe ili kuona kama unasomeka
+  - Kwa kulinganisha saizi ya ujumbe na ile ya lebo
+  - Kwa kuthibitisha IP ya mtumaji Address
+explanation: |
+  Alice anatumia ufunguo wa siri ulioshirikiwa kwa generate tagi kutoka kwa ujumbe uliopokelewa. Ikiwa lebo hii inalingana na ile iliyotumwa na Bob, anajua kwamba ujumbe huo ni halisi na ni mzima.
+reviewed: false

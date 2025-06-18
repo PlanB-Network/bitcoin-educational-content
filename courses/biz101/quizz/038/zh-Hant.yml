@@ -1,0 +1,9 @@
+question: 在處理公司會計中的 Bitcoin 時，為什麼必須仔細保存記錄？
+answer: 因為每筆 Bitcoin 交易都可能產生應課稅事件，而計算收益、虧損和稅務負擔都需要準確的記錄。
+wrong_answers:
+  - 因為 Blockchain 會自動代表公司報稅。
+  - 因為沒有任何會計準則適用於 Bitcoin 交易。
+  - 因為 Bitcoin 交易一經記錄就無法追蹤。
+explanation: |
+  Bitcoin 中的每次購買、銷售或付款都可能涉及稅務問題。保存成本基礎、銷售價格和時間的詳細記錄可確保正確且合規的報稅。
+reviewed: false

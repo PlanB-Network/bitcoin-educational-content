@@ -1,0 +1,9 @@
+question: Jaka jest główna różnica między PRNG a TRNG?
+answer: PRNG jest deterministyczny, podczas gdy TRNG generuje prawdziwe liczby losowe.
+wrong_answers:
+  - PRNG jest szybszy niż TRNG dla dużych liczb.
+  - PRNG jest używany tylko do szyfrowania, a nie TRNG.
+  - PRNG używa kluczy prywatnych, TRNG używa kluczy publicznych.
+explanation: |
+  PRNG są deterministyczne, co oznacza, że mogą odtwarzać sekwencje ze stanu początkowego, w przeciwieństwie do TRNG.
+reviewed: false

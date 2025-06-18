@@ -1,0 +1,9 @@
+question: Jaki jest główny wpływ protekcjonizmu na konsumentów?
+answer: Zwiększa to cenę kupowanych przez nich produktów
+wrong_answers:
+  - Pozwala im to kupować produkty wyższej jakości
+  - Oferuje im szerszy wybór produktów
+  - Nie ma to wpływu na ich siłę nabywczą
+explanation: |
+  Protekcjonizm nakłada podatki na import, co sprawia, że produkty są droższe dla konsumentów.
+reviewed: false

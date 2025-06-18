@@ -1,0 +1,9 @@
+question: passphrase 和 Bitcoin Wallet 的 PIN 碼的主要差異是什麼？
+answer: passphrase 修改的是金鑰衍生，而非 PIN 碼
+wrong_answers:
+  - PIN 碼與 Mnemonic 短語相關聯
+  - PIN 碼用於加密交易，但不包括 passphrase
+  - PIN 碼會產生 Bitcoin 位址
+explanation: |
+  與 PIN 碼不同的是，passphrase 直接參與金鑰製作過程，並更換 Wallet 金鑰。
+reviewed: false

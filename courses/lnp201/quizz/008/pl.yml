@@ -1,0 +1,9 @@
+question: W jaki sposób Address z wieloma podpisami 2/2 działa w Bitcoin?
+answer: Odblokowanie i wydanie środków wymaga dwóch podpisów.
+wrong_answers:
+  - Umożliwia wydawanie środków za pomocą tylko jednego z dwóch kluczy.
+  - Autoryzuje transakcje tylko w określonych przypadkach blokowania.
+  - Służy wyłącznie do wysyłania środków na adresy publiczne.
+explanation: |
+  Address z wieloma podpisami 2/2 wymaga podpisów obu zaangażowanych stron w celu wydania środków, co jest wykorzystywane do zabezpieczenia kanałów Lightning.
+reviewed: false

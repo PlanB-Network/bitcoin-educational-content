@@ -1,0 +1,9 @@
+question: 什麼名詞指的是 Mining 資助的程式化分割？
+answer: Halving
+wrong_answers:
+  - Fork
+  - 分割
+  - Coinbase
+explanation: |
+  Halving 是指每 210,000 個區塊中 Mining 補貼的 Halving。
+reviewed: false

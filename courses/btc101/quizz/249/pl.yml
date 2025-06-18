@@ -1,0 +1,8 @@
+question: Jaka jest jedna z potencjalnych korzyści wynikających z przyjęcia nowych technologii, takich jak Bitcoin?
+answer: Może to przynieść generate ogromne korzyści skali na całym świecie.
+wrong_answers:
+  - Może to doprowadzić do globalnego załamania gospodarczego.
+  - Może to spowodować spadek ludzkiej inteligencji.
+  - Może to doprowadzić do likwidacji wszystkich miejsc pracy.
+explanation: >-
+reviewed: true

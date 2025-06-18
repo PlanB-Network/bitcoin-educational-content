@@ -1,0 +1,9 @@
+question: Ni nini hulinda UTXO kwenye Bitcoin?
+answer: Kupitia maandishi ambayo yanafafanua hali ya matumizi.
+wrong_answers:
+  - Kupitia uhakiki wa mara kwa mara na wachimbaji.
+  - Kupitia hifadhidata ya kati.
+  - Kupitia uthibitishaji wa kitambulisho cha mtumiaji.
+explanation: |
+  Matokeo ya muamala wa Bitcoin ni UTXO ambazo zimelindwa kwa hati. Hati hii inahitaji masharti ya matumizi yaliyofafanuliwa awali yatimizwe ili kutumia UTXO.
+reviewed: false

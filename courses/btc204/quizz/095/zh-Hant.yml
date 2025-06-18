@@ -1,0 +1,10 @@
+question: 預期的不發作表示什麼？
+answer: 週期輸出時，無法區分的 UTXO 群組的大小。
+wrong_answers:
+  - 週期輸入時，無法區分的 UTXO 群組的大小。
+  - 池中不可區分的 UTXO 群組的大小。
+  - 實現匿名所需的交易次數。
+explanation: |
+  前瞻性 anonset 表示所研究的 UTXO 在一個週期的輸出端所隱藏的群體大小，知道輸入端的 UTXO，也就是在這個群體中存在的無法區分的硬幣數量。
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koju ulogu imaju sertifikaciona tela u procesu distribucije javnih ključeva?
+answer: Oni izdaju sertifikate koji garantuju autentičnost javnih ključeva.
+wrong_answers:
+  - Oni generate privatni ključevi za korisnike
+  - Čuvaju javne ključeve za sve korisnike
+  - Oni osiguravaju šifrovanje poruka između korisnika
+explanation: |
+  Certifikaciona tela izda certifikate koji povezuju javni ključ sa njegovim vlasnikom, omogućavajući korisnicima da verifikuju autentičnost javnih ključeva koje koriste.
+reviewed: false

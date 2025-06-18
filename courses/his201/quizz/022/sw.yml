@@ -1,0 +1,9 @@
+question: Nani alikuwa mtu wa kwanza kuwasiliana na Satoshi Nakamoto mnamo Agosti 2008?
+answer: Adam Nyuma
+wrong_answers:
+  - Wei Dai
+  - Hal Finney
+  - James A. Donald
+explanation: |
+  Alimfikia tarehe 20 Agosti, akiuliza jinsi ya kunukuu karatasi yake kwenye Hashcash kwenye karatasi nyeupe. Baada ya kujibu, Adam Back alimwelekeza kwa Wei Dai (kwa dhana yake ya b-pesa), ambaye Satoshi iliwasiliana naye siku 2 baadaye.
+reviewed: false

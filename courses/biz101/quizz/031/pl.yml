@@ -1,0 +1,9 @@
+question: Jak firma powinna wybrać rozwiązanie płatnicze Bitcoin, które odpowiada jej potrzebom?
+answer: Biorąc pod uwagę takie czynniki, jak częstotliwość transakcji, średnia wielkość płatności oraz to, czy jest to płatność online czy osobista, a następnie wybierając rozwiązanie dostosowane do tej kategorii.
+wrong_answers:
+  - Wybierając zawsze najprostsze rozwiązanie, niezależnie od wolumenu lub złożoności transakcji.
+  - Używając tylko największego i najdroższego dostępnego rozwiązania, niezależnie od wielkości firmy.
+  - Polegając wyłącznie na domysłach bez uwzględnienia specyficznych wymagań firmy.
+explanation: |
+  Różne firmy mają różne potrzeby. Ocena czynników takich jak wolumen transakcji, metody płatności (online vs. fizyczne) i skalowalność pomaga firmie wybrać odpowiednie rozwiązanie płatnicze Bitcoin.
+reviewed: false

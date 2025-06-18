@@ -1,0 +1,9 @@
+question: Alice (寄件者) 收到 Bob 的 Invoice 後應該怎麼做？
+answer: 建立 PSBT 與其 UTXO 和 generate 轉移 Consignment 端子
+wrong_answers:
+  - 簽署花費其 UTXO 包含 Single-Use Seal 的 Bitcoin 交易
+  - 將 Consignment 匯入您自己的 Wallet，以取得 Contract 的詳細資訊
+  - 針對資產發行發行新的 Invoice
+explanation: |
+  Alice 必須建立一個 PSBT 來花費與資產相關的 UTXO，然後再 generate 一個 Terminal Consignment，其中包含給 Bob 的新轉換。
+reviewed: false

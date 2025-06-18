@@ -1,0 +1,9 @@
+question: Smart contract 在 RGB 中的演變是由哪些作業所定義的？
+answer: State Transition、Genesis 和 State Extension
+wrong_answers:
+  - Seal 建立、Contract 遵循及最終驗證
+  - UTXO 轉移、證明產生和 Hash Commitment
+  - 過渡包裝、一次性使用密封件和 Valency 製作
+explanation: |
+  這些作業會建立或修改 Contract 的狀態，同時透過 Bitcoin 錨點保證其有效性。
+reviewed: false

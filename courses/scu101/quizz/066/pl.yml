@@ -1,0 +1,14 @@
+question: Jakie są zalety korzystania z kluczy Passkeys jako alternatywy dla tradycyjnych haseł?
+answer: Oferują one zaszyfrowane losowe klucze połączone z lokalnym czynnikiem, które są hostowane przez dostawcę, ale pozostają poza jego zasięgiem.
+wrong_answers:
+  - Są one łatwiejsze do zapamiętania niż tradycyjne hasła.
+  - Nie wymagają one żadnych dodatkowych czynników uwierzytelniających.
+  - Mogą być używane na wszystkich stronach internetowych bez żadnych aktualizacji.
+explanation: |
+  Passkeys oferują zaszyfrowane klucze losowe w połączeniu z lokalnym
+  (danymi biometrycznymi lub kodem PIN), które są hostowane przez dostawcę
+  ale pozostają poza ich zasięgiem. Takie podejście eliminuje
+  eliminuje potrzebę stosowania haseł, zapewniając w ten sposób wysoki poziom bezpieczeństwa
+  bez ograniczeń związanych z tradycyjnymi
+  hasłami.
+reviewed: true

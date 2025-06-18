@@ -1,0 +1,11 @@
+question: Je, ni jukumu gani la mthibitishaji katika muktadha wa urithi wa Bitcoin?
+answer: Wanahakikisha kufuata kodi.
+wrong_answers:
+  - Wanasimamia bitcoins zako baada ya kifo chako.
+  - Wanarekebisha mpango wako wa urithi.
+  - Wanalinda bitcoins zako kwenye salama.
+explanation: |
+  Katika muktadha wa urithi wa Bitcoin, ni muhimu
+  kujadili urithi wa bitcoins na mthibitishaji ili kuhakikisha
+  kufuata kodi.
+reviewed: false

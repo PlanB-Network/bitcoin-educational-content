@@ -1,0 +1,13 @@
+question: 什麼是部分儲備金制度？
+answer: 部分儲備金制度 (Fractional Reserve Banking) 是一種銀行實務，在這種制度下，銀行不需要持有與其所收到的存款一樣多的儲備金，這使得銀行在發放貸款時可以創造新的購買力。
+wrong_answers:
+  - 部分儲備金制度 (Fractional Reserve Banking) 是要求銀行持有比存款多的儲備金的銀行制度。
+  - 部分儲備金制度 (Fractional Reserve Banking) 是一種不允許銀行提供貸款的銀行制度。
+  - 部分儲備金制度 (Fractional Reserve Banking) 是要求銀行持有與存款金額完全相同的儲備金的銀行制度。
+explanation: |
+  部分儲備金制度是一種銀行持有
+  他們的儲備只佔存戶資金的一小部分、
+  將餘額借出。這個系統允許銀行創造
+  以貸款形式提供的新資金，增加了總體
+  經濟中的資金 Supply。
+reviewed: true

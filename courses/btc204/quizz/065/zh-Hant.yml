@@ -1,0 +1,10 @@
+question: 在 UTXOs 的背景下，什麼是 Dust？
+answer: 價值太低的 UTXO 無法支付花費所需的費用。
+wrong_answers:
+  - 由交易錯誤產生且無法在 Blockchain 上確認的 UTXO。
+  - 標示為可疑或與網路非法活動有關的 UTXO。
+  - 儲存於長時間未使用的位址並視為遺失的 UTXO。
+explanation: |
+  Dust 指的是在 Sats 中價值低到不足以支付花費所需交易費用的 UTXO。
+  
+reviewed: false

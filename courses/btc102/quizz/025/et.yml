@@ -1,9 +1,9 @@
-question: Mis on kaevurite roll Bitcoin'i võrgustikus?
-answer: Levitatud tehingute salvestamine Bitcoin'i plokiahelasse
+question: Milline omadus eristab Bitcoin peamiselt altcoinidest?
+answer: Detsentraliseerimine
 wrong_answers:
-  - Uute bitcoinide loomine
-  - Bitcoinide väärtuse reguleerimine
-  - Bitcoin'i kasutajate identiteedi kontrollimine
+  - Likviidsus
+  - Maine
+  - Privaatsus
 explanation: |
-  Kaevurid Bitcoin'i võrgustikus vastutavad võrgus levitatud tehingute
-  salvestamise eest Bitcoin'i plokiahelasse. See tagab tehingute lõplikkuse.
+  Bitcoin on tuntud oma detsentraliseerituse poolest, erinevalt enamikust altcoinidest, mis on enam-vähem tsentraliseeritud.
+reviewed: false

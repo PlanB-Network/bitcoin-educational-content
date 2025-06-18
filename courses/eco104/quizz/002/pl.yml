@@ -1,0 +1,11 @@
+question: Jaki jest historyczny związek między pieniądzem a towarami takimi jak złoto?
+answer: Złoto jest rzadkie i powszechnie akceptowane jako środek przechowywania wartości
+wrong_answers:
+  - Złoto sprawia, że pieniądze wyglądają bardziej atrakcyjnie
+  - Złoto jest łatwo podzielne
+  - Złoto jest wyjątkowe
+explanation: |
+  Biorąc pod uwagę globalny niedobór złota w przyrodzie i znaczne inwestycje wymagane do jego wydobycia
+  do wydobycia, rafinacji i przechowywania, złoto konsekwentnie sprzedawano z premią powyżej
+  inne formy pieniądza.
+reviewed: true

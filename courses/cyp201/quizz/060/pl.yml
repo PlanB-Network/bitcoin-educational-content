@@ -1,0 +1,9 @@
+question: Jaki typ klucza jest powiązany z prefiksem zpub?
+answer: Rozszerzony klucz publiczny dla SegWit V0 na Mainnet
+wrong_answers:
+  - Rozszerzony klucz prywatny dla SegWit V1 na Mainnet
+  - Rozszerzony klucz publiczny dla Legacy na Testnet
+  - Rozszerzony klucz publiczny dla SegWit V2 na Testnet
+explanation: |
+  Prefiks zpub oznacza rozszerzony klucz publiczny dla skryptów SegWit V0 na Mainnet.
+reviewed: false

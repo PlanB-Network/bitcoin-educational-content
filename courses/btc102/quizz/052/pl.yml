@@ -1,0 +1,9 @@
+question: Jakie korzyści zapewnia uruchomienie własnego węzła Bitcoin?
+answer: Niezależność
+wrong_answers:
+  - Płynność
+  - Centralizacja
+  - Prędkość
+explanation: |
+  Prowadzenie własnego węzła zapewnia niezależność od stron trzecich i chroni prywatność transakcji.
+reviewed: false

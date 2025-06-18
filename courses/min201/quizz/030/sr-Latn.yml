@@ -1,0 +1,12 @@
+question: Kakva je potencijalna pretnja Proof of Stake u Bitcoin mreži?
+answer: Oni koji već poseduju veliku količinu valute imaju nesrazmernu moć, što odražava postojeće nejednakosti u moći.
+wrong_answers:
+  - To bi predstavljalo značajnu prepreku za validatore koji drže veliku količinu valute.
+  - Ne omogućava učešće malog obima.
+  - Ne zahteva opipljive resurse.
+explanation: |
+  U mreži sa dokazom o ulogu, oni koji već poseduju veliku
+  količinu valute imaju nesrazmernu moć. Ova dinamika bi
+  potencijalno mogla da perpetuira centralizaciju i
+  koncentraciju moći u rukama nekolicine.
+reviewed: true

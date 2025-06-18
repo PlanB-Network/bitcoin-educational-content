@@ -1,10 +1,9 @@
-question: Apa risiko jika Anda tidak memiliki kunci privat dari dompet Bitcoin Anda?
-answer: Bitcoin Anda berisiko terhadap peretasan, penyitaan, regulasi, atau kebangkrutan
+question: Risiko besar apa yang ditimbulkan dengan mengungkapkan terlalu banyak informasi dalam rencana warisan?
+answer: Risiko pencurian
 wrong_answers:
-  - Bitcoin Anda akan secara otomatis dikonversi ke cryptocurrency lain
-  - Bitcoin Anda akan kehilangan nilainya
-  - Bitcoin Anda akan ditransfer ke dompet lain
+  - Risiko kerugian
+  - Risiko devaluasi
+  - Risiko regulasi
 explanation: |
-  Jika Anda tidak memiliki kunci privat dari dompet Bitcoin Anda, Bitcoin Anda
-  berisiko terhadap peretasan, penyitaan, regulasi, atau kebangkrutan.
+  Terlalu banyak informasi dapat memudahkan orang yang berniat jahat untuk bertindak jika mereka mendapatkan akses ke rencana warisan Anda.
 reviewed: false

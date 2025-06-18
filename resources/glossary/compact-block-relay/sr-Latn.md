@@ -1,0 +1,5 @@
+---
+term: KOMPAKTNI BLOK RELEJ
+---
+
+Protokol uveden u Bitcoin Core 2016. godine kroz BIP152, koji predlaže metodu uštede propusnog opsega za mrežne čvorove. Compact Block Relay omogućava komunikaciju informacija o blokovima na kompaktan način, zasnovan na pretpostavci da čvorovi već imaju većinu transakcija nedavnog bloka u svom Mempool. Umesto prenosa svake transakcije u celosti, što bi rezultiralo duplikacijom, Compact Block Relay predlaže slanje samo kratkih identifikatora za transakcije koje su već poznate vršnjacima, uz nekoliko odabranih transakcija (posebno Coinbase Transaction i onih za koje čvor verovatno ne zna). Čvor zatim može zatražiti sve nedostajuće transakcije od svojih vršnjaka. Compact Block Relay tako smanjuje količinu podataka razmenjenih tokom propagacije blokova, što zauzvrat smanjuje skokove u propusnom opsegu i poboljšava ukupnu efikasnost mreže.

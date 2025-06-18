@@ -1,0 +1,9 @@
+question: Koja je definicija hiperinflacije prema Bernholzu?
+answer: Hiperinflacija je produžetak visoke inflacije, karakterizovana velikim budžetskim deficitima finansiranim stvaranjem novca.
+wrong_answers:
+  - Hiperinflacija je smanjenje novca Supply.
+  - Hiperinflacija je umereno povećanje novčane mase Supply.
+  - Hiperinflacija je smanjenje proizvodnje.
+explanation: |
+  Poglavlje objašnjava da je prema Bernholzu, hiperinflacija produžetak visoke inflacije, karakterizovan velikim budžetskim deficitima finansiranim stvaranjem novca.
+reviewed: false

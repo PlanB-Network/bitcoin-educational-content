@@ -1,0 +1,14 @@
+question: Co należy zarchiwizować podczas korzystania z Wallet z passphrase?
+answer: Należy utworzyć kopię zapasową zarówno listy 12 lub 24 słów, jak i passphrase.
+wrong_answers:
+  - Wystarczy utworzyć kopię zapasową listy 12 lub 24 słów.
+  - Wystarczy wykonać kopię zapasową passphrase.
+  - Nie musisz tworzyć kopii zapasowej listy 12 lub 24 słów ani passphrase.
+explanation: |
+  W przypadku korzystania z Wallet z passphrase należy wykonać kopię zapasową
+  zarówno listy 12 lub 24 słów, jak i passphrase,
+  ponieważ zarówno lista słów, jak i passphrase są
+  niezbędne do odzyskania dostępu do środków w przypadku
+  utraty telefonu lub komputera. Bez jednego lub drugiego,
+  środki są niedostępne.
+reviewed: true

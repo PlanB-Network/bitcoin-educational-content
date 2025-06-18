@@ -1,0 +1,13 @@
+question: Jaka jest rola górników Bitcoin w świecie energii?
+answer: Górnicy Bitcoin nieustannie poszukują źródeł taniej energii elektrycznej, często tych, które są marnowane lub niewykorzystywane. Mogą działać jako elastyczne źródło popytu, gotowe do konsumpcji tej osieroconej energii elektrycznej, pomagając w ten sposób zrównoważyć koszty infrastruktury.
+wrong_answers:
+  - Górnicy Bitcoin stale poszukują źródeł energii odnawialnej, aby zmniejszyć swój ślad węglowy.
+  - Górnicy Bitcoin nieustannie poszukują źródeł energii jądrowej do zasilania swoich operacji Mining, ponieważ jest to jedyny czysty i odnawialny sposób produkcji energii.
+  - Górnicy Bitcoin nieustannie poszukują źródeł energii słonecznej do zasilania swoich operacji Mining.
+explanation: |
+  Rozdział wyjaśnia, że górnicy Bitcoin nieustannie
+  poszukują źródeł taniej energii elektrycznej, często tych, które są
+  zmarnowane lub niewykorzystane. Mogą działać jako elastyczne źródło
+  elastyczne źródło popytu, gotowe do konsumpcji osieroconej energii elektrycznej, tym samym
+  pomagając w ten sposób zrównoważyć koszty infrastruktury.
+reviewed: true

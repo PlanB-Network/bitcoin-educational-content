@@ -1,0 +1,14 @@
+question: Czym jest inicjatywa Attakai w kontekście Bitcoin Mining?
+answer: Inicjatywa, która ma na celu uczynienie Mining bardziej dostępnym i mniej szkodliwym, jednocześnie przyczyniając się do rozwoju sieci
+wrong_answers:
+  - Inicjatywa mająca na celu podniesienie ceny Bitcoin
+  - Inicjatywa mająca na celu zmniejszenie Hashrate sieci
+  - Inicjatywa, która ma na celu scentralizowanie mocy hashowania
+explanation: |
+  Inicjatywa Attakai ma na celu uczynienie Bitcoin Mining bardziej
+  dostępne i mniej szkodliwe. Zachęca ludzi do wydobywania
+  w domu dzięki bardziej przystępnemu sprzętowi i rozwiązaniom
+  zmniejszyć zanieczyszczenie hałasem. Inicjatywa podkreśla również
+  znaczenie przyczyniania się do bezpieczeństwa i
+  i decentralizacji sieci Bitcoin.
+reviewed: true

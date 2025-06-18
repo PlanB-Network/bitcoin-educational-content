@@ -1,0 +1,10 @@
+question: Kati ya majibu yafuatayo, ni ipi ambayo haipendekezi mazoezi ya kudhibiti mabadiliko ya mtu?
+answer: Kuunganisha UTXO za doxxic pamoja.
+wrong_answers:
+  - Kuchanganya UTXO za doxxic kwenye bwawa ndogo.
+  - Kuchangia UTXO za doxxic za mtu.
+  - Kuashiria UTXOs za doxxic za mtu kama zisizoweza kutumika.
+explanation: |
+  Inashauriwa dhidi ya kuunganisha UTXO za doxxic pamoja kwa sababu inaruhusu muunganisho kufanywa kati ya maingizo tofauti ya mtumiaji katika Whirlpool.
+  
+reviewed: false

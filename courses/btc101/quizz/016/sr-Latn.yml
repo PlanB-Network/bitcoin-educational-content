@@ -1,0 +1,9 @@
+question: Šta je b-money Wei Daija?
+answer: Ideja o anonimnoj digitalnoj valuti gde bi otkrivanje prevara obavljala zajednica ocenjivača umesto centralnog autoriteta.
+wrong_answers:
+  - Digitalna valuta koja je bila široko korišćena pre Bitcoin i bila je kontrolisana od strane grupe cypherpunks.
+  - Oblik digitalnog novca koji je kreirala CIA i koji je koristila vojska.
+  - Digitalna valuta koju je kreirao Wei Dai kao konkurenta Bitcoin kako bi bila skalabilnija.
+explanation: |
+  Ideja anonimne digitalne valute bez centralnog entiteta Wei Daijevog b-money-ja je u velikoj meri inspirisala kreiranje Bitcoin. Zapravo, ona se navodi u beloj knjizi Bitcoin.
+reviewed: true

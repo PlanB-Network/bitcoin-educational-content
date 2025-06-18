@@ -1,13 +1,9 @@
-question: What is one of the measures to keep your computer in optimal working condition?
-answer: Regularly back up your data
+question: Up to how many decimal places can a bitcoin be divided?
+answer: Eight
 wrong_answers:
-  - Share your passwords
-  - Use the same password for all accounts
-  - Neglect to update your computer
+  - Six
+  - Twelve
+  - Seven
 explanation: |
-  Regularly backing up your data is one of the measures to keep your computer
-
-  in optimal working condition. It is also a basic measure to improve online security
-
-  habits.'
+  A bitcoin can be divided down to the eighth decimal place, with one unit called a satoshi or sat.
 reviewed: false

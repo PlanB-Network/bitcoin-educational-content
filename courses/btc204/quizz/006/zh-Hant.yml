@@ -1,0 +1,9 @@
+question: 變更在交易中代表什麼？
+answer: 返回交易原始寄件者的輸出。
+wrong_answers:
+  - Bitcoin 網路收取的費用。
+  - 轉移給交易接收者的輸出。
+  - 因快速交易而授予寄件者的獎金。
+explanation: |
+  變更是一種輸出，代表未用於履行付款的那部分輸入，因此會返回交易的原始寄件者。
+reviewed: false

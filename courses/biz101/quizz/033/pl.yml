@@ -1,0 +1,9 @@
+question: W jaki sposób Lightning Network ewoluował, aby poprawić wrażenia użytkownika od czasu jego powstania?
+answer: Wprowadzono funkcje takie jak splicing, statyczne faktury Bolt12 i lepsze zarządzanie płynnością, dzięki czemu transakcje są płynniejsze i bardziej niezawodne.
+wrong_answers:
+  - Usunięto wszystkie zabezpieczenia, aby przyspieszyć transakcje.
+  - Obecnie każda płatność wymaga zatwierdzenia przez rząd.
+  - Przestała pracować nad nowymi funkcjami, polegając wyłącznie na oryginalnym projekcie.
+explanation: |
+  Z biegiem czasu Lightning Network doczekał się ulepszeń technicznych, które zmniejszają tarcia dla użytkowników. Nowe funkcje i lepsze narzędzia do zarządzania węzłami przyczyniły się do bardziej płynnego i przyjaznego dla użytkownika doświadczenia.
+reviewed: false

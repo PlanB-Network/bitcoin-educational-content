@@ -1,0 +1,9 @@
+question: Zašto je nepovratnost osigurana u SHA256?
+answer: Operacije koje se koriste uklanjaju informacije i jednosmerne su
+wrong_answers:
+  - Poruke su šifrovane pre heširanja
+  - Bitovi su nasumično preuređeni
+  - Svaki Hash je sačuvan u bazi podataka
+explanation: |
+  Operacije kao što su ShR i XOR onemogućavaju povratak u početno stanje, osiguravajući nepovratnost.
+reviewed: false

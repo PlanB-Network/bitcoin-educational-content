@@ -1,0 +1,9 @@
+question: Dlaczego 21-milionowy limit emisji Bitcoin jest istotny?
+answer: Tworzy aktywa deflacyjne, chroniąc ich wartość przed arbitralną inflacją.
+wrong_answers:
+  - Dzięki temu rządy mogą wydrukować tyle bitcoinów, ile potrzeba.
+  - Zapobiega to wysyłaniu transakcji po osiągnięciu limitu.
+  - Eliminuje to wszelką zmienność ceny Bitcoin.
+explanation: |
+  Mając maksymalny Supply wynoszący 21 milionów, niedobór Bitcoin jest zakodowany w Hard, co zasadniczo różni go od walut inflacyjnych, w których Supply można dowolnie zwiększać.
+reviewed: false

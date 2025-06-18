@@ -24,14 +24,8 @@ hours: 2
 # List who is/are the professor(s)
 # They are identified by their UUID
 # See /professors folder for examples
-professors:
-  - another-satoshi
-
-# contributors
-# List who is/are the contributors who help format, review,
-# translate the course.
-# They are identified by their UUID
-# Currently, there are no shared record of these UUIDs
+professors_id:
+  - 17f8bc5b-7034-4ff6-96e0-11484a133642
 contributor_names:
   - Asi0Flammeus
 

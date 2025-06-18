@@ -1,0 +1,9 @@
+question: Kako se transakcija kreditnom karticom obično razlikuje od jednostavne gotovinske transakcije?
+answer: To uključuje više posrednika
+wrong_answers:
+  - Dešava se trenutno bez posredničkog učešća
+  - To zahteva fizički Exchange valute samo
+  - To nalaže da obe strane proizvode identičnu robu
+explanation: |
+  Za razliku od gotovine, koja se razmenjuje odmah, transakcije kreditnim karticama prolaze kroz niz koraka koji uključuju banke, kartične mreže i procese kliringa, što rezultira kašnjenjima i dodatnim troškovima.
+reviewed: false

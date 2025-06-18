@@ -1,0 +1,9 @@
+question: Ni saizi gani ya kawaida ya nambari kuu zinazotumiwa katika uainishaji wa mifumo ya kisasa ya kificho kama RSA?
+answer: Biti 1024 kwa kila kipengele
+wrong_answers:
+  - Biti 1024 kwa jumla
+  - Biti 256 kwa kila kipengele
+  - Biti 256 kwa jumla
+explanation: |
+  Katika mifumo ya kisasa ya kificho kama vile RSA, nambari kuu zilizochaguliwa kwa kawaida ni biti 1024 kila moja, hivyo kufanya uainishaji kuwa mgumu sana na kuimarisha usalama.
+reviewed: false

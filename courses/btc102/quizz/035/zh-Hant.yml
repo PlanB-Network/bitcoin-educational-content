@@ -1,0 +1,9 @@
+question: 建議為 hodler 採用何種儲存解決方案？
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - 託管服務
+  - 紙張 Wallet
+explanation: |
+  長期持有比特幣的 Hodler 應該使用 Hardware Wallet 來最大化安全性。
+reviewed: false

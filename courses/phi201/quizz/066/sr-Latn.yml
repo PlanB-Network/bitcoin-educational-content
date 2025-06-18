@@ -1,0 +1,9 @@
+question: Koja je Voltairova glavna teza o vezi između trgovine i verske tolerancije?
+answer: Trgovina podstiče ljude da sarađuju i poštuju mišljenja jedni drugih, uključujući njihova verska uverenja, kroz zajedničku potragu za profitom.
+wrong_answers:
+  - Trgovina ujedinjuje ljude kroz zajednički pogled na svet zasnovan na naučnom metodu.
+  - Trgovina promoviše luksuz i lenjost.
+  - Svi ostali odgovori su tačni.
+explanation: |
+  Voltaire tvrdi da trgovina podstiče versku toleranciju tako što podstiče pojedince različitih uverenja da sarađuju i međusobno poštuju svoja mišljenja u potrazi za zajedničkim ekonomskim interesima.
+reviewed: false

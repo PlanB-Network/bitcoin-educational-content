@@ -1,0 +1,9 @@
+question: Je, ni kikomo gani cha mamlaka ya serikali kulingana na John Stuart Mill?
+answer: Serikali inaweza tu kuingilia kati wakati matendo ya mtu binafsi yanadhuru wengine.
+wrong_answers:
+  - Nchi ni huru chini ya hali zote na haiwezi kuzuiwa na mtu yeyote au kikundi cha watu binafsi.
+  - Ukuu wa serikali ni mdogo kwa njia za kiuchumi.
+  - Ukuu wa serikali ni mdogo na sheria za asili.
+explanation: |
+  John Stuart Mill anasema kuwa uingiliaji kati wa serikali ni halali pale tu vitendo vya mtu binafsi vinaposababisha madhara kwa wengine, ili kulinda uhuru wa kibinafsi katika maeneo ambayo hayadhuru wengine.
+reviewed: false

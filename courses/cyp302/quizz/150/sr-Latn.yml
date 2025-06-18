@@ -1,0 +1,9 @@
+question: U kontekstu RSA kriptosistema, proizvod dva prosta broja p i q odgovara modulu n.
+answer: To čini ceo broj N koji se koristi kao modul za operacije
+wrong_answers:
+  - To čini javni ključ
+  - To služi kao ključ za dešifrovanje
+  - Koristi se samo za generate eksponent e
+explanation: |
+  U RSA, ceo broj N je proizvod dva velika prosta broja p i q, i koristi se kao modul za operacije šifrovanja i dešifrovanja.
+reviewed: false

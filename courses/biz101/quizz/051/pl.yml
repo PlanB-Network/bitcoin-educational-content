@@ -1,0 +1,9 @@
+question: Jaki typ firmy najprawdopodobniej uzna prosty plik csv za wystarczający do prowadzenia księgowości?
+answer: Małe firmy
+wrong_answers:
+  - Duże międzynarodowe korporacje
+  - Główne instytucje finansowe
+  - Platformy transakcyjne wysokiej częstotliwości
+explanation: |
+  Większość małych firm korzysta z prostoty i wystarczającej szczegółowości eksportu csv.
+reviewed: false

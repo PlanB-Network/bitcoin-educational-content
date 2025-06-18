@@ -1,0 +1,12 @@
+question: 在 Bitcoin 的上下文中，什麼不是 Mnemonic 詞組？
+answer: 您的 Bitcoin Wallet 的密碼。
+wrong_answers:
+  - 特定字典中的 12 個單字清單。
+  - 特定字典中的 24 個單字清單。
+  - 存取 Bitcoin 基金的秘訣。
+explanation: |
+  在 Bitcoin 的情況下，Mnemonic 詞組是由 12 或 24 個字組成的清單。
+  或 24 個單詞，可讓您在任何 Wallet
+  Bitcoin Wallet 應用程式。任何可以存取此清單的人
+  也可以存取您的 bitcoins。
+reviewed: true

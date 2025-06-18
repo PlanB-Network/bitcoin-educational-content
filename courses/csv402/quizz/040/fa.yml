@@ -1,0 +1,9 @@
+question: هدف اصلی از ادغام RGB با Lightning Network چیست؟
+answer: انتقال دارایی‌های RGB از طریق کانال‌های off-chain
+wrong_answers:
+  - اجرای قراردادهای RGB به‌طور مستقیم بر روی Bitcoin Blockchain
+  - جایگزینی تراکنش‌های معمولی Lightning با قراردادهای هوشمند RGB
+  - ظرفیت کانال را با افزودن UTXOهای جدید افزایش دهید
+explanation: |
+  ادغام RGB در Lightning Network اجازه می‌دهد تا دارایی‌های RGB از طریق انتقالات حالت که در تراکنش‌های Commitment تعبیه شده‌اند، جابجا شوند، در حالی که همچنان off-chain باقی می‌مانند.
+reviewed: false

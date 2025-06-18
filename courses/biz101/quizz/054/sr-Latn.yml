@@ -1,0 +1,9 @@
+question: Koji od sledećih softvera nije Bitcoin računovodstveno rešenje?
+answer: Vrabac
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow nije Bitcoin računovodstveno rešenje, dok ostali jesu (to je Bitcoin Wallet softver).
+reviewed: false

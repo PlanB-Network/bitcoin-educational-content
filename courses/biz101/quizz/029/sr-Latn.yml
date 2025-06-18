@@ -1,0 +1,9 @@
+question: Koja je prednost Lightning Network plaćanja za trgovce na prodajnom mestu?
+answer: Lightning plaćanja se izvršavaju gotovo trenutno i ne zahtevaju više posrednika, smanjujući naknade i kašnjenja u poravnanju.
+wrong_answers:
+  - Munje plaćanja trebaju nedelje da se potvrde i zahtevaju obimnu papirologiju.
+  - Plaćanja putem Lightning mreže se dešavaju samo ako ih odobri autoritet centralne banke.
+  - Kupac može po volji poništiti Lightning uplate nakon prodaje.
+explanation: |
+  Lightning Network čini transakcije bržim i jeftinijim omogućavajući off-chain poravnanje. Trgovci mogu primiti sredstva gotovo trenutno, uz minimalne naknade, i bez oslanjanja na tradicionalne posrednike u plaćanju.
+reviewed: false

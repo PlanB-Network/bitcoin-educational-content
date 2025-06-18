@@ -1,0 +1,9 @@
+question: Dlaczego pad jednorazowy jest uważany za bezpieczną metodę szyfrowania?
+answer: Ponieważ każdy bit klucza jest losowy i żadna jego część nie jest ponownie wykorzystywana
+wrong_answers:
+  - Ponieważ używa losowego klucza publicznego i prywatnego
+  - Ponieważ opiera się na liczbach pierwszych
+  - Ponieważ szyfruje tylko małe wiadomości
+explanation: |
+  Jednorazowa podkładka jest bezpieczna, ponieważ każdy bit klucza jest losowy i nigdy nie jest ponownie używany, zapewniając, że nie pozostawia żadnych śladów możliwych do wykorzystania przez atakującego.
+reviewed: false

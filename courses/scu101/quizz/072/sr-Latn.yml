@@ -1,0 +1,9 @@
+question: Šta je menadžer lozinki?
+answer: Alat koji čuva, generiše i upravlja lozinkama.
+wrong_answers:
+  - Antivirus softver protiv hakerskih napada.
+  - Sigurna usluga e-pošte.
+  - Alat za pravljenje rezervnih kopija ličnih identifikacionih podataka.
+explanation: |
+  Menadžer lozinki centralizuje skladištenje i kreiranje lozinki.
+reviewed: false

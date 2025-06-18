@@ -1,0 +1,9 @@
+question: Kwa nini curve elliptical secp256r1 haikutumika katika Bitcoin?
+answer: Uwezekano wa kuzuia mlango wa nyuma
+wrong_answers:
+  - Kwa sababu ni polepole sana
+  - Kwa sababu si sanifu
+  - Kwa sababu inahitaji vifaa maalum
+explanation: |
+  Satoshi Nakamoto huenda alipendelea mkunjo wa secp256k1, kwa vile vigezo vya secp256r1 vinaweza kuwa na athari iliyofichwa.
+reviewed: false

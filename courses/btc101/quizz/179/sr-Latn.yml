@@ -1,0 +1,8 @@
+question: Koji je jedan od razloga zašto Bitcoin doživljava toliko spekulativnih balona?
+answer: Zbog njegove ograničene Supply u kombinaciji sa visokom potražnjom.
+wrong_answers:
+  - Zato što se Bitcoin zapravo nigde ne koristi.
+  - Jer Bitcoin je balon koji će nestati.
+  - Jer Bitcoin nije podložan ekonomskim ciklusima.
+explanation: >-
+reviewed: true

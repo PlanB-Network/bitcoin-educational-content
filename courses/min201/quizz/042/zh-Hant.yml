@@ -1,0 +1,11 @@
+question: 禁止 Mining 對一個地區有什麼潛在影響？
+answer: 可導致 Hashrate 和 Bitcoin 價格大幅下降
+wrong_answers:
+  - 可能導致 Bitcoin 價格上漲
+  - 可導致網路的 Hashrate 增加
+  - 它會導致網路中活動節點的數量增加
+explanation: |
+  在某個地區禁止使用 Mining，就像在中國發生的事情一樣、
+  可導致 Hashrate 和價格大幅下降。
+  Bitcoin.不過，這些都可以很快恢復。
+reviewed: true

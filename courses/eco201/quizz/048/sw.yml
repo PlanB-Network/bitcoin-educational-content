@@ -1,0 +1,12 @@
+question: Je, ni njia gani ya kutoa axiomatic iliyopendekezwa na Ludwig von Mises katika utafiti wa sayansi ya kijamii?
+answer: Mbinu hii inategemea mapendekezo ya kimsingi yanayoitwa axioms, sawa na yale yanayotumiwa katika hisabati.
+wrong_answers:
+  - Mbinu hii inategemea data ya majaribio na uchunguzi.
+  - Mbinu hii inategemea majaribio ya muda na hypotheses.
+  - Mbinu hii inatokana na mkabala wa uchanya unaotumiwa mara nyingi katika sayansi ya kijamii.
+explanation: |
+  Majaribio ya kiuchumi hayawezi kuzalishwa katika maabara, na ni muhimu
+  kumbuka kuwa kutazama uunganisho kati ya vijiti viwili hakuthibitishi sababu
+  uhusiano kati yao. Hii ndiyo sababu Ludwig von Mises alipendekeza
+  njia ya axiomatic-deductive.
+reviewed: true

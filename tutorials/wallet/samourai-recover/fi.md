@@ -146,7 +146,7 @@ Jos käytät eri ohjelmistoa kuin Sparrow, kuten Electrum, Samourai-lompakkosi p
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nyt sinulla on pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käyttöön, voit myös tutustua [omistettuun opastukseemme](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Nyt sinulla on pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käyttöön, voit myös tutustua [omistettuun opastukseemme](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Suosittelen myös manuaalisesti tuomaan Samouraissa UTXO:ihisi liitetyt nimikkeet. Tämä mahdollistaa tehokkaan kolikoiden hallinnan Sparrow'ssa myöhemmin.
 
@@ -202,7 +202,7 @@ Jos käytät toista ohjelmistoa, kuten Electrumia, palauttaaksesi Samourai-lompa
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Sinulla on nyt pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käytössä, voit myös konsultoida [omistettua opastamme](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Sinulla on nyt pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käytössä, voit myös konsultoida [omistettua opastamme](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Suosittelen myös manuaalisesti tuomaan Samouraissa UTXO:ihisi liittyneet etiketit. Tämä mahdollistaa tehokkaan kolikoiden hallinnan Sparrow'ssa myöhemmin.
 

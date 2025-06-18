@@ -39,11 +39,12 @@ Kursus ini telah disponsori oleh TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Pengantar
+## Ikhtisar Kursus
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Selamat datang di kursus ECO104!
 
-### Kita hidup di dunia di mana:
+**Kita hidup di dunia di mana:**
 
 ● Hanya [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) orang yang tinggal di masyarakat yang dianggap "bebas secara demokratis." Namun, bahkan di dalam fraksi istimewa ini, pelanggaran hak asasi manusia semakin umum—dari pembekuan rekening bank hingga sensor. 80% sisanya menemukan diri mereka berjuang dengan penjajahan aturan otoriter. Hanya dua dekade yang lalu, hampir setengah populasi dunia menikmati kebebasan dasar.
 
@@ -62,7 +63,7 @@ Dengan demikian, kursus ini tidak hanya untuk mereka yang menghadapi inflasi yan
 
 Dengan pemikiran ini, misi kami adalah membawa Anda ke garis depan perubahan dalam lanskap keuangan kita saat ini, menantang norma yang ada dan menawarkan solusi alternatif. Dengan menggali sejarah uang, memecahkan misteri Bitcoin, dan menjelajahi Tether dan dunia stablecoin, kami bertujuan untuk menginspirasi individu untuk membayangkan kembali masa depan keuangan mereka.
 
-### Apa yang diharapkan:
+**Apa yang diharapkan:**
 
 **Modul 1: Harga Kemajuan - Tinjauan Lebih Dekat pada Sistem Keuangan Kita**
 Kami memulai eksplorasi kami dengan mengintip di balik tirai sistem keuangan kita saat ini, di mana sensor keuangan, ketidaksetaraan kekayaan, dan inflasi mengganggu kehidupan sehari-hari kita. Melalui sejarah singkat uang, kami akan melihat bagaimana kita menemukan diri kita di posisi saat ini, menerangi beberapa titik nyeri utama yang kita semua alami.
@@ -1642,7 +1643,7 @@ Semoga pemahaman baru ini memberdayakan Anda untuk menavigasi dunia keuangan yan
 
 Masa Depan Cerah!
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

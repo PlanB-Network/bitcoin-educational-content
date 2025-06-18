@@ -1,0 +1,12 @@
+question: Dlaczego zaleca się pobieranie oprogramowania z oficjalnej strony wydawcy, a nie z ogólnych witryn?
+answer: Aby upewnić się, że oprogramowanie jest wolne od złośliwego oprogramowania.
+wrong_answers:
+  - Wsparcie finansowe dla wydawcy.
+  - Ponieważ oprogramowanie jest zwykle tańsze na oficjalnej stronie internetowej.
+  - Ponieważ oprogramowanie na stronach generycznych jest zazwyczaj przestarzałe.
+explanation: |
+  Pobieranie oprogramowania z oficjalnej strony
+  wydawcy zapewnia, że otrzymujesz legalną
+  wersję oprogramowania, która jest wolna od jakiegokolwiek złośliwego oprogramowania, które mogłoby
+  oprogramowania, które mogłoby uszkodzić urządzenie lub wykraść dane.
+reviewed: true

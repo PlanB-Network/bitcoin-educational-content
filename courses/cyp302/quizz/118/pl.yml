@@ -1,0 +1,9 @@
+question: Jaką rolę odgrywa operacja zastępowania bajtów (S-Box) w szyfrowaniu AES?
+answer: Wprowadza to zamieszanie, zastępując każdy bajt innym
+wrong_answers:
+  - Zapewnia integralność poprzez sprawdzanie bajtów wiadomości
+  - Tasuje kolumny, aby zwiększyć dyfuzję
+  - Dzieli on tekst jawny na 128-bitowe bloki
+explanation: |
+  Operacja zastępowania bajtów (S-Box) w AES wprowadza zamieszanie, zastępując każdy bajt inną wartością zgodnie z tabelą, co utrudnia analizę zaszyfrowanego tekstu.
+reviewed: false

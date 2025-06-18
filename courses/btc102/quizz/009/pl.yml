@@ -1,0 +1,9 @@
+question: Dlaczego bezpieczeństwo online jest kluczowe dla użytkowników Bitcoin?
+answer: Ponieważ hakowanie skutkuje nieodwracalną utratą bitcoinów
+wrong_answers:
+  - Ponieważ banki ubezpieczają środki na wypadek całkowitej utraty Bitcoin
+  - Ponieważ za utratę bitcoinów można pójść do więzienia
+  - Ponieważ ataki prowadzą do bardzo dużych obciążeń administracyjnych
+explanation: |
+  Bez pośredników włamanie oznacza definitywną utratę bitcoinów.
+reviewed: false

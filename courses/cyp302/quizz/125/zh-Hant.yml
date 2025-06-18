@@ -1,0 +1,9 @@
+question: 密碼學家 Diffie、Hellman 和 Merkle 在 1970 年代尋求解決的主要問題是什麼？
+answer: 金鑰分發與管理的問題
+wrong_answers:
+  - 後量子加密技術的發展
+  - 保障軍事通訊安全
+  - 改善對稱加密技術
+explanation: |
+  Diffie、Hellman 和 Merkle 的動機來自於金鑰分發和管理以確保通訊安全的實際困難，這些都是世界朝向數位通訊過渡的重要挑戰。
+reviewed: false

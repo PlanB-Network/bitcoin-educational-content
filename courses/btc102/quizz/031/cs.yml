@@ -1,11 +1,9 @@
-question: Jaký je účel Bitcoinových peněženek?
-answer: Posílat a přijímat bitcoiny
+question: Které z nich jsou boční řetězce Bitcoin?
+answer: Liquid a podnož
 wrong_answers:
-  - Těžit bitcoiny
-  - Skladovat fyzické bitcoiny
-  - Převádět bitcoiny na jiné měny
+  - Polygon a Arbitrum
+  - Jupiter a Fantom
+  - Bitcoin Cash a Bitcoin Satoshi Vision
 explanation: |
-  Bitcoinové peněženky slouží k posílání a přijímání bitcoinů. Jsou to digitální
-  peněženky, které uchovávají digitální přihlašovací údaje potřebné pro přístup k bitcoinové adrese
-  a utrácení bitcoinů.
+  Liquid a RSK jsou postranní řetězce, které mají dvoucestný kolík s Bitcoin. Ostatní možnosti nejsou boční řetězce nebo nemají 2WP s Bitcoin Blockchain.
 reviewed: false

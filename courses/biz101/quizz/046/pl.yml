@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa funkcja waluty?
+answer: Działanie jako pośrednik, który upraszcza Exchange wartości
+wrong_answers:
+  - Przechowywanie wartości wewnętrznej w formie fizycznej
+  - Całkowite zastąpienie barteru bezpośrednią wymianą towar za towar Exchange
+  - Centralizacja wszystkich transakcji gospodarczych przez jeden organ
+explanation: |
+  Waluta upraszcza handel, służąc jako wspólny środek, który redukuje złożoną sieć kursów Exchange potrzebnych w systemie barterowym, ułatwiając tym samym transakcje.
+reviewed: false

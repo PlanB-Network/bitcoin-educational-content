@@ -1,0 +1,11 @@
+question: Je, funguo za kibinafsi zina jukumu gani katika shughuli za Bitcoin?
+answer: Zinatumika kutia saini na kuidhinisha shughuli.
+wrong_answers:
+  - Zinatumika kuthibitisha uhalisi wa miamala.
+  - Zinatumika kusimba data ya muamala kwa njia fiche.
+  - Zinashirikiwa hadharani kwa uwazi.
+explanation: |
+  Funguo za kibinafsi ni sehemu muhimu ya shughuli za Bitcoin.
+  Zinatumika kutia saini na kuidhinisha shughuli, kutoa uthibitisho
+  ya Ownership na kuhakikisha kuwa ni mmiliki pekee anayeweza kutumia Bitcoin yao.
+reviewed: true

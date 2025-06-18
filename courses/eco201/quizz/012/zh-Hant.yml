@@ -1,0 +1,13 @@
+question: 本章提到的 Bitcoin 課程的主要目標是什麼？
+answer: 課程的主要目的是教育新的 Bitcoin 愛好者正確的經濟原則。
+wrong_answers:
+  - 課程的主要目的是教導新的 Bitcoin 愛好者如何開採 Bitcoin。
+  - 課程的主要目的是教導新的 Bitcoin 愛好者如何投資 Bitcoin。
+  - 課程的主要目的是教導新的 Bitcoin 愛好者如何建立自己的加密貨幣。
+explanation: |
+  課程的目的是讓新的 Bitcoin 愛好者了解
+  經濟學的基本原則，特別是那些
+  的奧地利經濟學派。這些知識是
+  對於瞭解
+  Bitcoin 作為傳統貨幣系統的替代方案。
+reviewed: true

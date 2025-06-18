@@ -20,11 +20,12 @@ Kursus ini, tentu saja, berpusat pada sosok Satoshi Nakamoto, di mana Anda akan 
 # Pendahuluan
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Pengantar Sejarah Penciptaan Bitcoin
+## Ikhtisar Kursus
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Selamat datang di kursus HIS201!
 Kursus ini bertujuan untuk menceritakan kisah penciptaan Bitcoin dengan cara yang belum pernah Anda baca sebelumnya. Seringkali diabaikan, meskipun dipenuhi dengan detail yang menarik. Kami akan berusaha menggambarkannya dalam semua kompleksitasnya, dari konsepsinya oleh Satoshi Nakamoto hingga kepergiannya yang awal dan penyerahan kepada komunitas.
 
-### Ikhtisar Singkat
+**Ikhtisar Singkat**
 
 Bitcoin dirancang oleh seorang individu (atau kelompok) yang menggunakan pseudonim Satoshi Nakamoto. Pada tanggal 31 Oktober 2008, ia membagikan sebuah makalah putih yang mendeskripsikan modelnya melalui sebuah daftar surat elektronik yang tersembunyi di Internet. Pada tanggal 8 Januari 2008, ia mengimplementasikan konsepnya dengan mempublikasikan kode sumber perangkat lunak dan meluncurkan jaringan dengan menambang blok-blok pertama dari rantai tersebut. Dengan bersemangat untuk menarik jumlah pengguna kritis, ia mempromosikan ciptaannya melalui berbagai saluran komunikasi.
 
@@ -46,7 +47,7 @@ Penciptaan Bitcoin juga dalam konteks penutupan sistem mata uang pribadi seperti
 
 Akhirnya, proyek Bitcoin adalah pewaris dari etos gerakan cypherpunk, sebuah gerakan kriptografer pemberontak dari tahun 90-an, yang berusaha untuk menjaga privasi dan kebebasan orang di Internet melalui penggunaan proaktif kriptografi. Bitcoin sejalan dengan proyek-proyek seperti b-money, bit gold, atau RPOW yang dibayangkan oleh individu-individu ini pada akhir tahun 90-an dan awal tahun 2000-an. Satoshi Nakamoto menyebutkan mereka, meskipun ia tidak mengetahui mereka sebelum merancang Bitcoin dan mungkin tidak menjadi bagian dari gerakan asli.
 
-### Garis Besar Kursus
+**Garis Besar Kursus**
 
 Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada asal-usul Bitcoin (3 bab), kemunculan perlahannya (3 bab), kenaikan awalnya (3 bab), dan pembentukan komunitasnya (4 bab). Secara total, kursus ini mencakup 12 bab yang adalah sebagai berikut (periode yang bersangkutan juga ditentukan):
 
@@ -64,7 +65,7 @@ Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada asal-us
 - Menghilangnya Satoshi (Des. 2010–Apr. 2011)
 - Komunitas Mengambil Alih (Apr. 2011–Sept. 2011)
 
-### Detail
+**Detail**
 
 Semua tanggal dan waktu diberikan menurut zona waktu UTC (sesuai dengan Meridian Greenwich) dan oleh karena itu mungkin berbeda dari tanggal Amerika. Kemungkinan besar Satoshi Nakamoto berada di Amerika Serikat saat mengerjakan proyeknya. Namun, Bitcoin adalah proyek internasional, yang secara khusus mencakup kontribusi dari pengembang Finlandia Martti Malmi (Waktu Eropa Timur, UTC+2 / UTC+3), dan oleh karena itu kami akan merujuk ke zona waktu universal. Dengan demikian, kami mengatakan bahwa peluncuran jaringan utama secara efektif terjadi pada 9 Januari pukul 2:54 pagi, daripada 8 Januari pukul 6:54 sore, yang sesuai dengan zona waktu Pantai Timur (Waktu Pasifik, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ Konten ini sebagian diadaptasi dari buku Prancis [*L'Élégance de Bitcoin*](htt
 
 Perhatikan bahwa untuk versi non-Inggris dari kursus ini, sebagian besar kutipan berasal dari Bahasa Inggris Amerika dan telah diterjemahkan untuk kesempatan ini. Istilah *coin* umumnya diterjemahkan sebagai "unit" (dan bukan "potongan") ketika merujuk pada unit akun.
 
+Siap menjelajahi kisah luar biasa di balik penciptaan Bitcoin? Ayo kita menyelami kisah yang tak biasa ini bersama-sama!
 # Asal-usul Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -357,7 +359,7 @@ Konsep Ripple didasarkan pada ide bahwa uang pada dasarnya terdiri dari IOU, yai
 
 Berikut ini adalah video pengenalan Ripple yang dibuat pada tahun 2011:
 
-![Video (Youtube) presentasi Ripple pada tahun 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Meskipun antusiasme komunitasnya dan beberapa ribu pengguna, Ripple memiliki kekurangan besar yang mencegahnya dari kesuksesan. Khususnya, itu [menderita](https://fiatjaf.com/3cb7c325.html) dari "masalah komitmen terdesentralisasi": selama pembayaran, peserta tidak dapat berkomitmen dengan cara yang aman untuk memastikan rantai pinjaman, masalah yang akan dipecahkan nanti oleh Lightning. (*asli: "the problem of the decentralized commit"*)
 
@@ -1104,7 +1106,7 @@ EFF membutuhkan waktu untuk mulai menerima donasi publik. Setelah negosiasi, kom
 
 Beberapa hari kemudian, sebuah [postingan](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) ditulis oleh blogger jimbobway mengenai topik ini, yang menarik perhatian terhadap Bitcoin. Artikel ini [dibagikan](https://news.ycombinator.com/item?id=1905522) di HackerNews. Artikel tersebut juga ditranskripsikan menjadi video oleh BitcoinMedia menggunakan Xtranormal:
 
-![Video "Bitcoin dan EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Ini adalah kabar baik untuk Bitcoin karena kedua inisiatif tersebut memiliki nilai-nilai yang sama. Lebih lanjut, EFF terkenal karena memberikan perlindungan hukum untuk pelestarian privasi dan proyek berbagi data seperti Tor dan BitTorrent. Satoshi Nakamoto sendiri menyadari hal ini dan sangat mendukung aksi organisasi tersebut, seperti yang ditunjukkan dalam [komentarnya](https://mmalmi.github.io/satoshi/#email-254) yang dibuat dalam salah satu emailnya yang ditujukan kepada Gavin Andresen pada 6 Januari 2011:
 > "EFF itu sangat penting. &nbsp;Kami ingin menjaga hubungan baik dengan mereka. &nbsp;Kami adalah jenis proyek yang mereka hargai; mereka telah membantu proyek TOR dan telah melakukan banyak hal untuk melindungi berbagi file P2P."
@@ -1293,7 +1295,7 @@ Dengan meningkatnya nilai selama musim panas 2011, Martti Malmi [menjual](https:
 Bukan hanya sisi teknis yang terpengaruh oleh kepergian pendiri dan kebutuhan untuk bekerja sama: ada juga aspek sosial, yang membantu memperkuat komunitas dengan menciptakan tautan antar anggota. Itulah mengapa pertemuan dan konferensi diadakan "dalam kehidupan nyata". Acara-acara ini juga memiliki keuntungan dalam memperkenalkan Bitcoin kepada orang-orang yang mungkin lebih resisten terhadap konten online.
 Pertemuan pengguna Bitcoin pertama kali diinisiasi oleh Bruce Wagner, pembawa acara berbasis di New York dari sebuah [saluran YouTube](https://www.youtube.com/@vlogwrap) yang menampilkan debat televisi tentang subjek teknis, di mana ia menciptakan sebuah acara yang disebut *Bitcoin Show* pada April 2011. Pertemuan pertama [berlangsung](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174) di New York pada 11 Desember 2010 (UTC). Selanjutnya, pertemuan dengan jenis yang sama [terjadi](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/) di Washington D.C. Sebuah pertemuan juga [diorganisir](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886) pada 5 Februari 2011, di Zurich, Swiss oleh Mike Hearn, dengan Christian Decker dan Stefan Thomas (justmoon) bergabung. Februari juga menandai [presentasi pertama yang difilmkan](https://www.youtube.com/watch?v=koIq58UoNfE) tentang Bitcoin, yang dilakukan oleh Gavin Andresen pada tanggal 8 selama sebuah acara yang diorganisir di kota asalnya, Amherst, Massachusetts. Berjudul "Making Money," presentasi oleh pemelihara utama baru proyek ini mencakup banyak elemen bahasa yang akan menggambarkan cara cryptocurrency disajikan dalam tahun-tahun berikutnya.
 
-![Video (Youtube) pidato Gavin di Amherst pada Februari 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Meskipun acara pertama berlangsung di Amerika Serikat, komunitas Prancis tidak tertinggal. Pada 25 Mei, untuk menandai kunjungan Gavin Andresen ke Paris, sebuah makan siang diorganisir di distrik La Défense, dihadiri oleh tokoh-tokoh terkenal seperti Lucien Grondin, David François, dan Jon Matonis (yang juga sedang berkunjung).
 
@@ -1307,7 +1309,7 @@ Presentasi Bitcoin oleh Renaud Lifchitz pada 15 Juni 2011 (sumber: [arsip forum]
 
 Menyusul pengalaman ini, komunitas Paris [mengorganisir](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) sebuah pertemuan sosial, yang berlangsung pada 11 Juli. Acara ini mengumpulkan individu seperti Pierre Noizat atau Émilien Dutang.
 Di panggung internasional, konferensi kolektif pertama tentang Bitcoin berlangsung dari 19 hingga 21 Agustus di New York. Pertemuan ini, yang diselenggarakan oleh Bruce Wagner, mengumpulkan tokoh-tokoh seperti Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès, dan Charlie Lee. Meskipun Wagner menjanjikan tiga hari acara, hanya empat presentasi yang terjadi: miliknya sendiri dan oleh Gavin Andresen, Jeff Garzik, dan Stefan Thomas.
-![Video (Youtube) dari intervensi Gavin pada 20 Agustus 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Kemudian dalam tahun itu, pada bulan November, sebuah konferensi Eropa [akan berlangsung](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) di Praha. Pembicara terkemuka akan termasuk pengembang Amir Taaki, pendiri Partai Bajak Laut Swedia Rick Falkvinge, dan presenter Max Keiser. Tahun berikutnya, sebuah acara serupa akan [diselenggarakan di London](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1317,7 +1319,7 @@ Tahun 2011 juga merupakan tahun di mana liputan media secara signifikan berkemba
 
 Pertama-tama, video tentang subjek ini mulai berkembang di Youtube. Pada 22 Maret, video berkualitas tinggi pertama tentang Bitcoin muncul. Video ini, yang berjudul sederhana "What is Bitcoin?", diproduksi oleh Stefan Thomas (justmoon) berkat [crowdfunding](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) dari komunitas. Video ini dipublikasikan di portal WeUseCoins yang didedikasikan untuk pendidikan dan popularisasi cryptocurrency. Video pengenalan yang diproduksi secara independen lainnya mengikuti, seperti [yang dari howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) pada bulan April, [yang dari Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY), atau [yang dari Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) pada bulan Juni.
 
-![What is Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 Pada bulan April, topik mata uang digital mendapat liputan luas dari outlet pers utama seperti [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), dan [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). Pada bulan Mei, gerakan ini mendapatkan momentum, dan Bitcoin disebutkan hampir di mana-mana, terutama di [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), di [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), di [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), dan di [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 ![Gavin Andresen di Forbes pada April 2011](assets/en/68.webp)
 Gavin Andresen di Forbes pada April 2011 (sumber: [Arsip Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
@@ -1350,7 +1352,7 @@ Ketiga, Bitcoin tumbuh secara organik. Ini mampu berkembang secara diam-diam, me
 Keempat, Bitcoin adalah ciptaan yang altruistik. Satoshi Nakamoto menawarkan Bitcoin kepada dunia. Dia merilis program tersebut di bawah lisensi gratis. Dia tidak mencari ketenaran, keuntungan, ataupun kekuasaan. Dia memastikan keamanan penambangan jaringan lebih dari setahun, tanpa meminta kompensasi apapun. Meskipun dia mengumpulkan lebih dari satu juta bitcoin, dia tidak pernah menghabiskannya. Dia akhirnya menghilang, terutama karena kekhawatiran terkait perhatian yang diciptakan oleh kasus WikiLeaks, meninggalkan proyek tersebut untuk bertumpu pada komunitas, tanpa satu figur dominan pun.
 
 Pada tahun 2011, Satoshi menghilang, tetapi Bitcoin bertahan. Mata uang kripto bahkan secara definitif lepas landas, baik dari sudut pandang media maupun ekonomi. Mesin telah diluncurkan dan tidak ada yang bisa menghentikannya.
-# Kesimpulan
+# Bagian Akhir
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Ulasan & Penilaian
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

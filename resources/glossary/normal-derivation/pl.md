@@ -1,0 +1,5 @@
+---
+term: NORMALNA POCHODNA
+---
+
+Proces generowania kluczy podrzędnych w portfelach HD. Normalna derywacja wykorzystuje nadrzędny klucz publiczny jako dane wejściowe dla funkcji `HMAC-SHA512`, umożliwiając generowanie podrzędnych kluczy publicznych z nadrzędnego klucza publicznego i nadrzędnego kodu łańcucha. Proces ten obejmuje konkatenację nadrzędnego klucza publicznego i indeksu mniejszego niż $2^{31}$, a następnie zastosowanie `HMAC-SHA512` z nadrzędnym kodem łańcucha. Wynik jest dzielony na dwie części: pierwsze 256 bitów jest dodawane do klucza prywatnego rodzica w celu uzyskania klucza prywatnego dziecka, podczas gdy pozostałe 256 bitów tworzy kod łańcucha dziecka. Metoda ta zapewnia, że rozszerzony klucz publiczny może być użyty do wyprowadzenia podrzędnych kluczy publicznych. W standardowej derywacji normalna derywacja jest stosowana na wszystkich poziomach derywacji od głębokości konta. W notacji ścieżek derywacji, normalna derywacja jest identyfikowana, gdy istnieje tylko indeks bez apostrofu `'`.

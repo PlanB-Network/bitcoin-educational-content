@@ -1,0 +1,9 @@
+question: Co dzieje się podczas każdej rundy kompresji w SHA256?
+answer: Zmienne stanu są aktualizowane na podstawie słów komunikatów i stałych
+wrong_answers:
+  - Ostateczny Hash jest generowany stopniowo po każdej rundzie
+  - Bity wiadomości są przestawiane
+  - Początkowe wartości zmiennych pozostają niezmienione
+explanation: |
+  Każda runda modyfikuje zmienne stanu przy użyciu słów, stałych i operacji logicznych w celu rozpowszechnienia informacji.
+reviewed: false

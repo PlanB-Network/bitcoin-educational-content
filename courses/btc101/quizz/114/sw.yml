@@ -1,0 +1,11 @@
+question: Bitcoin iliwasilishwa kwa mara ya kwanza lini ulimwenguni?
+answer: Oktoba 31, 2008.
+wrong_answers:
+  - Januari 3, 2009.
+  - Novemba 22, 2009.
+  - Desemba 12, 2010.
+explanation: |
+  Bitcoin iliwasilishwa kwa mara ya kwanza kwa ulimwengu mnamo Oktoba 31,
+  2008, wakati Satoshi Nakamoto ilituma barua pepe kwa Cypherpunk
+  orodha ya barua iliyo na Karatasi Nyeupe ya Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Šta čvor koji šalje radi kada putanja plaćanja ne uspe zbog nedovoljne likvidnosti?
+answer: Pokušava drugu rutu dok ne pronađe funkcionalnu.
+wrong_answers:
+  - Automatski šalje zahtev za povraćaj novca primaocu.
+  - Zatvara kanal i kreira novi direktni kanal
+  - Traži od posredničkih čvorova da povećaju svoju likvidnost
+explanation: |
+  Kada ruta ne uspe, čvor koji šalje pokušava druge alternativne rute dok se ne pronađe funkcionalna putanja ili dok se ne iscrpe sve opcije.
+reviewed: false

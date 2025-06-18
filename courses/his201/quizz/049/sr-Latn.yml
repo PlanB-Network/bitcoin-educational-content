@@ -1,0 +1,9 @@
+question: Kakva je bila varijacija cene Bitcoin tokom nedelje nakon njegovog predstavljanja na Slashdot-u?
+answer: Od $0.008 do $0.08
+wrong_answers:
+  - Od $0.001 do $0.008
+  - Od $0.08 do $0.50
+  - Od $0.50 do $1
+explanation: |
+  Ova varijacija odgovarala je desetostrukom povećanju! Stopa Hash doživela je sličan porast.
+reviewed: false

@@ -1,0 +1,15 @@
+question: Ni ipi kati ya zifuatazo sio sifa kuu ya shughuli ndogo kwenye Lightning Network?
+answer: Muda mrefu wa malipo.
+wrong_answers:
+  - Ada za Chini.
+  - Malipo ya Papo hapo.
+  - Scalability.
+explanation: |
+  Kwa miamala midogo ya Lightning Network, watumiaji wanaweza
+  kuwa na ada ya chini ya muamala, na kuifanya kuwa ya kiuchumi kutuma
+  kiasi kidogo sana cha Bitcoin. Wanaweza pia kuwa na papo hapo
+  malipo, kuruhusu miamala ya wakati halisi. Hatimaye wao
+  inaweza kupata scalability, kuwezesha utunzaji wa kubwa
+  idadi ya miamala kwa wakati mmoja. Hivyo, makosa
+  jibu ni muda mrefu wa malipo.
+reviewed: true

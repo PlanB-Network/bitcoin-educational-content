@@ -1,0 +1,9 @@
+question: Który członek forum upublicznił swój algorytm Mining po hojnej darowiźnie od Jeffa Garzika 18 września 2010 roku?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Do tego czasu czerpali oni zyski z prowizji za korzystanie z ich oprogramowania. Opublikowali je [https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135] na wolnej licencji.
+reviewed: false

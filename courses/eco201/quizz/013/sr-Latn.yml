@@ -1,0 +1,9 @@
+question: Koji je glavni problem sa sistemom frakcionalnih rezervi?
+answer: Glavni problem sa sistemom frakcionalnih rezervi je da značajna povlačenja iz određene banke mogu potencijalno dovesti do njenog bankrota.
+wrong_answers:
+  - Glavni problem sa sistemom frakcionalnih rezervi je što sprečava banke da pozajmljuju novac.
+  - Glavni problem sa sistemom frakcionalnih rezervi je što zahteva da banke drže više rezervi nego što primaju u depozitima.
+  - Glavni problem sa sistemom frakcionalnih rezervi je što sprečava banke da kreiraju novi novac.
+explanation: |
+  U frakcionom rezervnom sistemu, banke drže samo deo sredstava svojih deponenata u rezervi, dok ostatak pozajmljuju. Ako mnogi klijenti istovremeno pohrle da povuku svoja sredstva, banka možda neće imati dovoljno rezervi da ispuni te zahteve, što potencijalno može dovesti do bankrota.
+reviewed: true

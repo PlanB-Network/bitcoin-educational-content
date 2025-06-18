@@ -9,6 +9,6 @@ explanation: |
   calcolo distribuito, che coinvolge il raggiungimento del consenso
   in una rete dove alcuni dei nodi possono essere difettosi o
   malevoli. Bitcoin risolve questo problema attraverso l'uso di una
-  blockchain basata sul Proof of Work, che assicura che tutti i
+  blockchain basata sull'algoritmo Proof of Work, che assicura che tutti i
   nodi concordino sullo stato della cronologia delle transazioni.
 reviewed: true

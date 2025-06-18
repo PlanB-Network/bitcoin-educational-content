@@ -1,0 +1,9 @@
+question: Jaki jest typowy rozmiar bloku dla szyfrowania blokowego?
+answer: 64, 128, 192 lub 256 bitów
+wrong_answers:
+  - 8, 16, 32 lub 64 bity
+  - 4, 8, 16 lub 32 bity
+  - 256, 512, 1024 lub 2048 bitów
+explanation: |
+  Szyfry blokowe przetwarzają dane w blokach o stałym rozmiarze, zazwyczaj 64, 128, 192 lub 256 bitów, aby zapewnić optymalne bezpieczeństwo i integralność szyfrowania.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 用什麼常數從 seed 推導出主私密金鑰？
+answer: Bitcoin seed
+wrong_answers:
+  - 主鑰匙
+  - HD Wallet seed
+  - Blockchain 根
+explanation: |
+  Bitcoin seed 常數在 HMAC-SHA512 函式中作為金鑰使用，以推導出主私密金鑰和主鏈碼。

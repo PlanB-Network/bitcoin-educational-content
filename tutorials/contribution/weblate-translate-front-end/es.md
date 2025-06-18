@@ -14,7 +14,7 @@ En este tutorial, le mostraremos cómo contribuir fácilmente a la traducción d
 
 Para traducir los contenidos educativos, utilizamos [inteligencia artificial](https://github.com/Asi0Flammeus/LLM-Translator). Luego, para corregir los eventuales errores de estos archivos, invitamos a los correctores a contribuir. Si desea corregir algún contenido, consulte el siguiente tutorial:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Por otro lado, si está interesado en traducir los elementos estáticos del sitio web (excluidos los contenidos educativos), ¡está en el lugar adecuado! Para traducir eficazmente el frontend, utilizamos la herramienta Weblate, que es muy sencilla de utilizar y facilita el planteamiento de la traducción.
 
 Si deseas añadir un idioma completamente nuevo a Plan ₿ Network, asegúrate de ponerte en contacto con el equipo de Plan ₿ Network a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
@@ -23,7 +23,7 @@ Los miembros de nuestro equipo le darán instrucciones específicas y abrirán l
 
 Antes de seguir este tutorial específico para añadir un nuevo idioma al Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los siguientes puntos.
 
 ## Registrarse en Weblate

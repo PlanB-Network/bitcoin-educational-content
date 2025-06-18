@@ -1,0 +1,9 @@
+question: Je! ni njia gani tatu za kufunga chaneli kwenye Lightning Network?
+answer: Kufungwa kwa ushirika, kufungwa kwa kulazimishwa, kufungwa kwa kudanganya
+wrong_answers:
+  - Kufungwa kwa haraka, kufungwa polepole, kufungwa kwa saini mbili
+  - Kufungwa kwa usalama, kufungwa kwa kiotomatiki, kufungwa na upotezaji wa pesa
+  - Kufungwa kwa moja kwa moja, kufungwa kwa njia isiyo ya moja kwa moja, kufungwa kwa dai
+explanation: |
+  Kuna njia tatu: kufungwa kwa vyama vya ushirika ambapo wahusika wanakubali, kufungwa kwa lazima bila jibu kutoka kwa upande mmoja, na kufungwa kwa kudanganya pale mhusika anapojaribu kuchapisha muamala wa zamani.
+reviewed: false

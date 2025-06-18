@@ -1,0 +1,11 @@
+question: AMF ni nini?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
+  - Mfuko wa Fedha wa Marekani.
+  - Muungano wa Vifaa vya Mining.
+  - Mtiririko wa Pesa Kiotomatiki.
+explanation: |
+  AMF, au Autorité des Marchés Financiers, ni Mfaransa
+  shirika ambalo linasimamia majukwaa ambapo bitcoins zinaweza kuwa
+  kununuliwa.
+reviewed: true

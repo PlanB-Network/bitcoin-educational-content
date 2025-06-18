@@ -1,0 +1,9 @@
+question: Koja je osnovna razlika između povećanja cena i inflacije?
+answer: Povećanje cena može biti specifično za određeni sektor i izazvano različitim faktorima, dok je inflacija definisana kao opšte povećanje cena u okviru niza dobara i usluga.
+wrong_answers:
+  - Povećanje cena je generalizovano povećanje cena u okviru niza dobara i usluga, dok je inflacija specifična za sektor i izazvana različitim faktorima.
+  - Povećanje cena i inflacija su isto, oba se odnose na opšti porast cena u okviru niza dobara i usluga.
+  - Povećanje cena odnosi se na smanjenje cena, dok se inflacija odnosi na povećanje cena.
+explanation: |
+  Poglavlje objašnjava da povećanje cena može biti specifično za sektor i izazvano raznim faktorima kao što su smanjenje proizvodnje OPEC-a za naftu ili nepovoljni vremenski uslovi za pšenicu. Inflacija, s druge strane, je definisana kao opšte povećanje cena u širokom spektru roba i usluga, a ne samo u određenom sektoru.
+reviewed: false

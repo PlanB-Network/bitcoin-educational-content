@@ -1,0 +1,13 @@
+question: Jaki jest status Bitcoin w Salwadorze?
+answer: Prawny środek płatniczy.
+wrong_answers:
+  - Kryminalizacja.
+  - Nieznany.
+  - Nieuregulowane.
+explanation: |
+  W tekście kursu wspomniano, że niektóre kraje zakazały
+  i kryminalizowały użycie Bitcoin, dodając do tego
+  złożoność przyjęcia Bitcoin w oparciu o kultury, epoki i narody
+  narodów. Jednak Salwador był na tyle odważny, by przyjąć Bitcoin jako
+  jako legalny środek płatniczy.
+reviewed: true

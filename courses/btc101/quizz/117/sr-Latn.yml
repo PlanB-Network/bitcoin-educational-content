@@ -1,0 +1,9 @@
+question: Kada je Satoshi Nakamoto nestao?
+answer: U 2010
+wrong_answers:
+  - 2008. godine
+  - 2009. godine
+  - U 2023
+explanation: |
+  Satoshi Nakamoto je nestao 2010. godine, ostavljajući svoje stvaranje u rukama zajednice.
+reviewed: true

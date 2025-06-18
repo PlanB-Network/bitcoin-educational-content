@@ -1,0 +1,9 @@
+question: Co się stanie w przypadku utraty passphrase powiązanego z HD Wallet?
+answer: Utrata dostępu do bitcoinów powiązanych z Wallet
+wrong_answers:
+  - Nadal można uzyskać dostęp do Wallet za pomocą samej frazy Mnemonic
+  - Urządzenie passphrase można zresetować, kontaktując się z pomocą techniczną Bitcoin
+  - Tracisz tylko niepotwierdzone transakcje
+explanation: |
+  passphrase jest niezbędnym komponentem do wyprowadzania kluczy. Bez niego niemożliwe jest odtworzenie kluczy, a tym samym uzyskanie dostępu do bitcoinów.
+reviewed: false

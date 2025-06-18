@@ -1,0 +1,9 @@
+question: Czego używa profil Essential, aby pomóc pracownikom w przetwarzaniu płatności w punktach sprzedaży?
+answer: Tworzenie menu z cenami artykułów w aplikacji PoS
+wrong_answers:
+  - Ręczna książka Ledger do rejestrowania sprzedaży
+  - Papierowy system Invoice dla każdej transakcji
+  - Automatyczny system ewidencji księgowej dla transakcji z PoS
+explanation: |
+  Aplikacja PoS w profilu Essential umożliwia pracownikom wybieranie pozycji z wcześniej ustawionego menu, usprawniając proces rozliczeń.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin 的 Genesis 區塊是在哪一年建立的？
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Genesis 區塊於 2009 年 1 月開採。
+reviewed: false

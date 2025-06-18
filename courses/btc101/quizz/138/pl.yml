@@ -1,0 +1,8 @@
+question: Jaka jest podstawowa funkcja węzłów w sieci Bitcoin?
+answer: Utrzymywanie kopii Bitcoin Blockchain, zatwierdzanie transakcji, przekazywanie informacji do innych węzłów i egzekwowanie zasad protokołu Bitcoin.
+wrong_answers:
+  - Utrzymywanie kopii Bitcoin Blockchain, zatwierdzanie transakcji, przekazywanie informacji do rządu i zmiana zasad protokołu Bitcoin.
+  - Utrzymywanie wyłącznie kopii Bitcoin Blockchain.
+  - Tylko przesyłanie informacji do innych węzłów.
+explanation: >-
+reviewed: true

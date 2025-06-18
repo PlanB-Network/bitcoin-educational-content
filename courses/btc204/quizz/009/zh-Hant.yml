@@ -1,0 +1,9 @@
+question: 組成 Coinbase Transaction 中 Block reward 的 2 個 Elements 是什麼？
+answer: 區塊補貼和交易費用。
+wrong_answers:
+  - 區塊補貼和速度獎金。
+  - 排放權和保證金。
+  - Mining 紅利和網路稅。
+explanation: |
+  當 Miner 發現一個有效的區塊時，他們有權獲得獎勵，一方面是區塊補貼，另一方面是他們包含在區塊中的交易費用。
+reviewed: false

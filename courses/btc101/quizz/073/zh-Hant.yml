@@ -1,0 +1,8 @@
+question: Bitcoin Wallet 中的私密金鑰是什麼？
+answer: 可讓您簽署交易的秘密金鑰。
+wrong_answers:
+  - 用於 generate Bitcoin 位址的公開金鑰。
+  - 在有需要時可以摧毀 Wallet 的秘密字單。
+  - 加密 Bitcoin 交易的秘密金鑰。
+explanation: >-
+reviewed: true

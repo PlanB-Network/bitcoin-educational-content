@@ -1,0 +1,9 @@
+question: Co należy zrobić, aby zidentyfikować próbę phishingu w sektorze kryptowalut?
+answer: Weryfikacja tożsamości nadawcy
+wrong_answers:
+  - Klikaj tylko linki otrzymane w wiadomości e-mail
+  - Udostępnianie kluczy prywatnych w celu potwierdzenia autentyczności
+  - Poleganie wyłącznie na logo i obrazach w wiadomościach e-mail
+explanation: |
+  Zawsze powinieneś upewnić się, że kontaktujesz się z właściwą osobą i nigdy nie korzystaj z linków podanych w wiadomościach e-mail. Zamiast tego należy przejść bezpośrednio do strony ręcznie, korzystając z zakładek przeglądarki.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Je, Wabisabi inasimamiaje mabadiliko ikilinganishwa na Wasabi 1.0?
+answer: Inaigawanya katika kiasi kidogo kidogo kilichogawanywa katika madhehebu sawa.
+wrong_answers:
+  - Inaziunganisha ili kuzizuia kuwa Dust.
+  - Haijumuishi kabla ya shughuli ya CoinJoin kwa kusawazisha pembejeo.
+  - Inahamisha moja kwa moja kwenye hifadhi ya Wallet.
+explanation: |
+  Tofauti na Wasabi 1.0, ambapo mabadiliko yalihusishwa moja kwa moja na pembejeo za watumiaji, Wabisabi inalenga kugawanya mabadiliko hayo katika viwango vidogo kadhaa, vinavyosambazwa kwa madhehebu sawa kwa washiriki wote.
+  
+reviewed: false

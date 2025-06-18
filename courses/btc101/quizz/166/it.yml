@@ -1,11 +1,11 @@
-question: Cosa possono fare i minatori per quelle centrali elettriche che non sono ancora collegate alla rete?
+question: Cosa possono fare i miner per quelle centrali elettriche che non sono ancora collegate alla rete?
 answer: Possono agire come acquirenti di ultima istanza.
 wrong_answers:
   - Possono fornire elettricità alle centrali elettriche.
   - Possono collegare le centrali elettriche alla rete.
   - Possono regolare il prezzo dell'elettricità.
 explanation: |
-  I minatori possono agire come acquirenti di ultima istanza per le centrali elettriche che
+  I miner possono agire come acquirenti di ultima istanza per le centrali elettriche che
   non sono ancora collegate alla rete. Questo permette alle centrali
   di assicurarsi finanziamenti anche prima di essere collegate alla
   rete elettrica.

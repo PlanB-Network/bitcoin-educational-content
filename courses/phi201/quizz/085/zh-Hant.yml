@@ -1,0 +1,9 @@
+question: John Stuart Mill 認為國家主權的極限是什麼？
+answer: 只有當個人的行為傷害他人時，國家才能介入。
+wrong_answers:
+  - 國家在任何情況下都擁有主權，不受任何個人或團體的限制。
+  - 國家主權受到經濟手段的限制。
+  - 國家主權受到自然法則的限制。
+explanation: |
+  約翰‧斯圖亞特‧密爾 (John Stuart Mill) 認為，只有當個人行為對他人造成傷害時，國家干預才是合法的，以便在不傷害他人的領域保護個人自由。
+reviewed: false

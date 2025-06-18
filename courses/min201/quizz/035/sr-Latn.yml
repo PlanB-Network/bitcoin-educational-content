@@ -1,0 +1,11 @@
+question: Šta meri Hashrate u mreži Bitcoin?
+answer: Izračuni po sekundi
+wrong_answers:
+  - Broj transakcija po sekundi
+  - Broj aktivnih čvorova
+  - Količina električne energije koju troši mreža
+explanation: |
+  Hashrate u Bitcoin mreži meri broj
+  proračuna koji se mogu izvršiti po sekundi. To je ključni
+  pokazatelj zdravlja i sigurnosti mreže.
+reviewed: true

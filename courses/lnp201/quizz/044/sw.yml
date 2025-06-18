@@ -1,0 +1,9 @@
+question: Njia ya kutuma hufanya nini wakati njia ya malipo itashindwa kwa sababu ya ukosefu wa ukwasi wa kutosha?
+answer: Inajaribu njia nyingine hadi ipate inayofanya kazi
+wrong_answers:
+  - Inatuma ombi la kurejesha pesa kiotomatiki kwa mpokeaji
+  - Inafunga kituo na kuunda kituo kipya cha moja kwa moja
+  - Inauliza nodi za mpatanishi kuongeza ukwasi wao
+explanation: |
+  Wakati njia inashindwa, nodi ya kutuma inajaribu njia nyingine mbadala mpaka njia ya kazi inapatikana, au chaguzi zote zimechoka.
+reviewed: false

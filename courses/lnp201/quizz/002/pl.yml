@@ -1,0 +1,9 @@
+question: Jeśli Alicja wyśle 40 000 satoshi do Boba z kanału płatności, w którym początkowo miała 100 000 satoshi, ile środków pozostanie jej po transakcji?
+answer: 60 000 satoshi
+wrong_answers:
+  - 30 000 satoshi
+  - 40 000 satoshi
+  - 140 000 satoshi
+explanation: |
+  Po wysłaniu 40 000 satoshi saldo Alicji na kanale wynosi 60 000 satoshi.
+reviewed: false

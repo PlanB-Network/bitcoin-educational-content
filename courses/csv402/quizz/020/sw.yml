@@ -1,0 +1,9 @@
+question: Ni kipengele gani muhimu kinachohakikisha Bob anapokea kipengee wakati wa State Transition katika RGB?
+answer: Seal Definition mpya inayoelekeza kwenye UTXO ya Bob
+wrong_answers:
+  - Muamala wa kudhibiti bila kurejelea UTXO
+  - Taarifa kwa umma kutoka kwa Alice
+  - Sahihi mbili zilizoshirikiwa na Alice na Bob
+explanation: |
+  Seal Definition inaunganisha kwa njia fiche kipengee hicho na UTXO ya Bob, na kuhakikisha kwamba anaimiliki.
+reviewed: false

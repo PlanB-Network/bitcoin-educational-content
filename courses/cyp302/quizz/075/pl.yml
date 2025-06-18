@@ -1,0 +1,9 @@
+question: W jaki sposób zasada Kerckhoffa ułatwia bezpieczeństwo otwartych systemów, takich jak Linux?
+answer: Pozwala to na publiczną weryfikację potencjalnych luk w zabezpieczeniach
+wrong_answers:
+  - Sprawia, że algorytmy szyfrowania są niewidoczne
+  - Ogranicza to liczbę potencjalnych użytkowników
+  - Zapewnia to użycie unikalnych kluczy
+explanation: |
+  Zasada Kerckhoffa umożliwia publiczną weryfikację błędów bezpieczeństwa, podobnie jak w systemach open-source, co sprawia, że systemy są bardziej niezawodne dzięki przejrzystości. Bezpieczeństwo zapewnia wyłącznie klucz, a nie sam proces szyfrowania.
+reviewed: false

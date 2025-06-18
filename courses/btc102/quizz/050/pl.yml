@@ -1,0 +1,9 @@
+question: Jakie rozwiązanie jest zalecane do dokonywania tanich płatności Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Konto bankowe
+  - RGB Layer
+explanation: |
+  Lightning umożliwia szybkie i tanie transakcje codziennych zakupów. To idealne narzędzie dla aktywnych użytkowników.
+reviewed: false

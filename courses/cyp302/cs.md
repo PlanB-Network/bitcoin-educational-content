@@ -1,7 +1,7 @@
 ---
 name: Úvod do formální kryptografie
 goal: Hloubkový úvod do vědy a praxe kryptografie.
-objectives: 
+objectives:
 
   - Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
   - Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
@@ -22,14 +22,17 @@ Tento úvod do kryptografie se snaží zachytit střední cestu. Ačkoli by měl
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Krátký popis
+## Přehled kurzu
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Vítejte v kurzu CYP302!
 
 Tato kniha nabízí hluboký úvod do vědy a praxe kryptografie. Tam, kde je to možné, se zaměřuje spíše na koncepční než formální výklad látky.
 
-> Tento kurz je založen na [JWBurgers's repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Všichni mají pravdu. Obsah ještě není dokončen a je zde pouze pro ukázku, jak bychom jej mohli integrovat, pokud s tím JWburger's bude souhlasit.
-### Motivace a cíle
+
+Tento vzdělávací obsah je adaptován z knihy a repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Přestože autor laskavě povolil jeho vzdělávací využití, veškerá práva duševního vlastnictví zůstávají původnímu tvůrci.
+
+**Motivace a cíle**
 
 Je obtížné najít mnoho materiálů, které by ve výuce kryptografie nabízely dobrou střední cestu.
 
@@ -37,11 +40,11 @@ Na jedné straně existují dlouhá, formální pojednání, která jsou příst
 
 Tento úvod do kryptografie se snaží zachytit střední cestu. Ačkoli by měl být pro každého, kdo se s kryptografií teprve seznamuje, poměrně náročný a podrobný, není to králičí nora typického základního pojednání.
 
-### Cílová skupina
+**Cílová skupina**
 
 Tato kniha je užitečná pro všechny, kteří chtějí kryptografii porozumět více než jen povrchně, a to od vývojářů až po intelektuály. Pokud je vaším cílem ovládnout oblast kryptografie, pak je tato kniha také dobrým výchozím bodem.
 
-### Pokyny pro čtení
+**Pokyny pro čtení**
 
 Kniha v současné době obsahuje sedm kapitol: "Co je kryptografie?" (kapitola 1), "Matematické základy kryptografie I" (kapitola 2), "Matematické základy kryptografie II" (kapitola 3), "Symetrická kryptografie" (kapitola 4), "RC4 a AES" (kapitola 5), "Asymetrická kryptografie" (kapitola 6) a "Kryptosystém RSA" (kapitola 7). Závěrečná kapitola "Kryptografie v praxi" bude ještě doplněna. Zaměřuje se na různé kryptografické aplikace, včetně zabezpečení transportní vrstvy, cibulového směrování a systému výměny hodnot Bitcoin.
 
@@ -49,7 +52,7 @@ Pokud nemáte silné matematické vzdělání, je teorie čísel pravděpodobně
 
 Pokud máte s formálními detaily v těchto částech knihy opravdu potíže, doporučuji vám, abyste se napoprvé spokojili s jejich přečtením na vysoké úrovni.
 
-### Poděkování
+**Poděkování**
 
 Nejvlivnější knihou, která se podílela na formování tohoto tématu, byla kniha Jonathana Katze a Yehudy Lindella _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Na serveru Coursera je k dispozici doprovodný kurz s názvem "Cryptography"
 
@@ -59,11 +62,11 @@ Z těchto zdrojů budu citovat pouze velmi konkrétní informace a výsledky, kt
 
 Těm čtenářům, kteří chtějí po tomto úvodu hledat pokročilejší znalosti o kryptografii, vřele doporučuji knihu Katze a Lindella. Katzův kurz na Coursera je o něco přístupnější než kniha.
 
-### Příspěvky
+**Příspěvky**
 
 Podívejte se prosím na [soubor s příspěvky v úložišti](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md), kde najdete pokyny, jak projekt podpořit.
 
-### Notový zápis
+**Notový zápis**
 
 **Klíčové pojmy:**
 
@@ -85,6 +88,8 @@ Formální zápis se týká především proměnných, náhodných veličin a mn
 - Proměnné: Obvykle se označují pouze malým písmenem (např. "x" nebo "y"). Někdy se pro přehlednost píší velkými písmeny (např. "M" nebo "K").
 - Náhodné proměnné: Jsou vždy označeny velkým písmenem (např. "X" nebo "Y")
 - Sady: Jsou vždy označeny tučnými velkými písmeny (např. **S**)
+
+Připraveni prozkoumat fascinující svět kryptografie? Jdeme na to!
 
 # Co je to kryptografie?
 
@@ -243,7 +248,7 @@ Jediné, co náhodná veličina vyžaduje, je množina výsledků se dvěma nebo
 
 Výše uvedená proměnná $X$ byla definována abstraktně. Výše uvedený výběr proměnné $X$ si tedy můžete představit jako hod spravedlivou mincí a přiřazení hodnoty "2" v případě hlavy a "1" v případě ořechu. Pro každý vzorek $X$ si hodíte mincí znovu.
 
-Alternativně si můžete výběr vzorku $X$ představit také jako hod spravedlivou kostkou a přiřazení hodnoty "2" v případě, že kostka padne na 1$, 3$ nebo 4$, a přiřazení hodnoty "1" v případě, že kostka padne na 2$, 5$ nebo 6$. Pokaždé, když vyberete vzorek $X$, hodíte kostkou znovu.
+Alternativně si můžete výběr vzorku $X$ představit také jako hod spravedlivou kostkou a přiřazení hodnoty "2" v případě, že kostka padne na 1, 3 nebo 4, a přiřazení hodnoty "1" v případě, že kostka padne na 2, 5 nebo 6. Pokaždé, když vyberete vzorek $X$, hodíte kostkou znovu.
 
 Skutečně si lze představit jakýkoli přirozený experiment, který by umožnil definovat pravděpodobnosti výše uvedených možných hodnot $X$ s ohledem na kresbu.
 
@@ -291,7 +296,7 @@ Ve výrazu "náhodná veličina" znamená výraz "náhodný" pouze "pravděpodob
 
 **Jednotná proměnná** je speciálním případem náhodné proměnné. Může nabývat dvou nebo více hodnot se stejnou pravděpodobností. Náhodná veličina $X$ zobrazená na *obrázku 1* je jednoznačně rovnoměrná veličina, protože oba možné výsledky se vyskytují s pravděpodobností $0,5$. Existuje však mnoho náhodných veličin, které nejsou případy rovnoměrných veličin.
 
-Uvažujme například náhodnou veličinu $Y$. Má množinu výsledků ${1, 2, 3, 8, 10\}$ a následující rozdělení pravděpodobnosti:
+Uvažujme například náhodnou veličinu $Y$. Má množinu výsledků ${1, 2, 3, 8, 10}$ a následující rozdělení pravděpodobnosti:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -458,7 +463,7 @@ Nejprve si ji definujme. Předpokládejme slovník *D*, který přirovnává vš
 
 
 - Z prostoru klíčů **K** vyberte rovnoměrně klíč $k$, kde **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
-- Zašifrujte zprávu $m \v \mathbf{M}$ takto:
+- Zašifrujte zprávu $m \in \mathbf{M}$ takto:
     - Rozdělte $m$ na jednotlivá písmena $m_0, m_1, \ldots, m_i, \ldots, m_l$
     - Převeďte každé $m_i$ na číslo podle *D*
     - Pro každé $m_i$ platí $c_i = [(m_i + k) \mod 26]$
@@ -636,7 +641,7 @@ Prozkoumejme skupiny trochu podrobněji. Množinu všech celých čísel označm
 
 2. Pro libovolné $x$, $y$ a $z$, které jsou prvky $\mathbb{Z}$, platí $(x + y) + z = x + (y + z)$. Takže $\langle \mathbb{Z}, + \rangle$ splňuje podmínku asociativity.
 
-3. V $\langlu \mathbb{Z}, + \rangle$ existuje prvek identity, a to 0. Pro libovolné $x$ v $\mathbb{Z}$ totiž platí, že: $0 + x = x + 0 = x$. Takže $\langle \mathbb{Z}, + \rangle$ splňuje podmínku identity.
+3. V $\langle \mathbb{Z}, + \rangle$ existuje prvek identity, a to 0. Pro libovolné $x$ v $\mathbb{Z}$ totiž platí, že: $0 + x = x + 0 = x$. Takže $\langle \mathbb{Z}, + \rangle$ splňuje podmínku identity.
 
 4. Konečně pro každý prvek $x$ v $\mathbb{Z}$ existuje $y$ tak, že $x + y = y + x = 0$. Pokud by například $x$ bylo 10, $y$ by bylo $-10$ (v případě, že $x$ je 0, $y$ je také 0). Takže $\langle \mathbb{Z}, + \rangle$ splňuje inverzní podmínku.
 
@@ -709,7 +714,7 @@ Prozkoumejme exponenciální prvek 2 z této skupiny. Výpočty až do $2^{12}$ 
 - $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
 - $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
-Pokud se pozorně podíváte, zjistíte, že při exponenciování prvku 2 procházíme všechny prvky $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ v následujícím pořadí: po $2^{10}$ pokračujeme v exponenciování prvku 2 opět přes všechny prvky a ve stejném pořadí: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Proto je prvek 2 generátorem v $\anglu \mathbb{Z}^* \mod 11, \cdot \rangle$.
+Pokud se pozorně podíváte, zjistíte, že při exponenciování prvku 2 procházíme všechny prvky $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ v následujícím pořadí: po $2^{10}$ pokračujeme v exponenciování prvku 2 opět přes všechny prvky a ve stejném pořadí: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Proto je prvek 2 generátorem v $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
 Ačkoli $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ má více generátorů, ne všechny prvky této grupy jsou generátory. Vezměme si například prvek 3. Projdeme-li prvních 10 exponenciál, aniž bychom ukazovali těžkopádné výpočty, získáme následující výsledky:
 
@@ -748,7 +753,7 @@ Dále funkce $\phi(N)$ vypočítává počet koprimátů až do čísla $N$ a je
 
 To má důležitý důsledek pro třídu grup $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, kde $N$ je prvočíslo. Pro tyto grupy představuje exponencializace prvků grupy aritmetickou exponencializaci. To znamená, že $a^{\phi(N)} \mod N$ představuje aritmetickou operaci $a^{\phi(N)} \mod N$. Protože každý prvek $a$ v těchto multiplikativních grupách je koprimovaný s $N$, znamená to, že $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
 
-Eulerova věta je opravdu důležitý výsledek. Na začátek z ní vyplývá, že všechny prvky v $\anglu \mathbb{Z}^* \mod N, \cdot \rangle$ mohou procházet pouze takovým počtem hodnot exponenciálním dělením, které se dělí na $N - 1$. V případě $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ to znamená, že každý prvek může procházet pouze 2, 5 nebo 10 prvky. Hodnoty skupiny, kterými každý prvek prochází při exponenciální exponenciále, se nazývají **pořadí prvku**. Prvek s pořadím odpovídajícím pořadí grupy je generátor.
+Eulerova věta je opravdu důležitý výsledek. Na začátek z ní vyplývá, že všechny prvky v $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ mohou procházet pouze takovým počtem hodnot exponenciálním dělením, které se dělí na $N - 1$. V případě $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ to znamená, že každý prvek může procházet pouze 2, 5 nebo 10 prvky. Hodnoty skupiny, kterými každý prvek prochází při exponenciální exponenciále, se nazývají **pořadí prvku**. Prvek s pořadím odpovídajícím pořadí grupy je generátor.
 
 Z Eulerovy věty navíc vyplývá, že vždy můžeme znát výsledek $a^{N - 1} \mod N$ pro libovolnou skupinu $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, kde $N$ je prvočíslo. To platí bez ohledu na to, jak složité mohou být skutečné výpočty.
 
@@ -774,7 +779,7 @@ Pole je odvozeno od pojmu grupy. Konkrétně **pole** je množina prvků **S** v
 
 1. Množina **S** vybavená $\circ$ je abelovská grupa.
 
-2. Množina **S** vybavená $\diamantem$ je abelovskou grupou pro "nenulové" prvky.
+2. Množina **S** vybavená $\diamond$ je abelovskou grupou pro "nenulové" prvky.
 
 3. Množina **S** vybavená těmito dvěma operátory splňuje tzv. distributivní podmínku: Předpokládejme, že $a$, $b$ a $c$ jsou prvky **S**. Pak množina **S** vybavená těmito dvěma operátory splňuje distributivní vlastnost, když $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
@@ -794,7 +799,7 @@ Nejprve prozkoumejme, zda $\mathbb{Z} \mod 7$ vybavený sčítáním je abelovsk
 
 3. **Podmínka identity**: Vezměme jako hodnotu 5. V tom případě platí $[5 + 0] \mod 7 = [0 + 5] \mod 7 = 5$. Zdá se tedy, že 0 je identitní prvek pro sčítání.
 
-4. **Inverzní stav**: Uvažujme inverzní hodnotu 5. Musí platit, že $[5 + d] \mod 7 = 0$ pro nějakou hodnotu $d$. V tomto případě je jedinečná hodnota z $\mathbb{Z} \7$, která tuto podmínku splňuje, je 2.
+4. **Inverzní stav**: Uvažujme inverzní hodnotu 5. Musí platit, že $[5 + d] \mod 7 = 0$ pro nějakou hodnotu $d$. V tomto případě je jedinečná hodnota z $\mathbb{Z}_7$, která tuto podmínku splňuje, je 2.
 
 5. **Podmínka komutativity**: Vezměme si za hodnoty 5 a 3. V tom případě platí $[5 + 3] \mod 7 = [3 + 5] \mod 7 = 1$. To je v souladu s podmínkou komutativity.
 
@@ -806,7 +811,7 @@ Množina $\mathbb{Z} \mod 7$ vybavená sčítáním se zjevně jeví jako abelov
 
 3. **Podmínka identity**: Vezměme jako hodnotu 5. V tomto případě platí $[5 \cdot 1] \mod 7 = [1 \cdot 5] \mod 7 = 5$. Zdá se tedy, že 1 je identitní prvek pro násobení.
 
-4. **Inverzní stav**: Uvažujme inverzní hodnotu 5. Musí platit, že $[5 \cdot d] \mod 7 = 1$ pro nějakou hodnotu $d$. Jedinečná hodnota z $\mathbb{Z} \7$, která tuto podmínku splňuje, je 3. To je v souladu s inverzní podmínkou.
+4. **Inverzní stav**: Uvažujme inverzní hodnotu 5. Musí platit, že $[5 \cdot d] \mod 7 = 1$ pro nějakou hodnotu $d$. Jedinečná hodnota z $\mathbb{Z}_7$, která tuto podmínku splňuje, je 3. To je v souladu s inverzní podmínkou.
 
 5. **Podmínka komutativity**: Vezměme si za hodnoty 5 a 3. V tom případě platí $[5 \cdot 3] \mod 7 = [3 \cdot 5] \mod 7 = 15 \mod 7 = 1$. To je v souladu s podmínkou komutativity.
 
@@ -824,7 +829,7 @@ V kryptografii nás zajímají především konečná pole. Obecně lze ukázat,
 
 Má-li nějaké konečné pole prvočíselný počet prvků, pak se nazývá **prvočíselné pole**. Pokud je počet prvků v konečném poli prvočíselný, pak se pole nazývá **rozšířené pole**. V kryptografii nás zajímají jak prvočíselná, tak rozšiřující pole. [2]
 
-V kryptografii jsou zajímavá především pole prvočísel, kde je množina všech celých čísel modulována nějakým prvočíslem a operátory jsou standardní sčítání a násobení. Do této třídy konečných polí patří $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \\mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$ a tak dále. Pro libovolné prvočíselné pole $\mathbb{Z}modmodmod \mod p$ je množina celých čísel tohoto pole následující: $\{0, 1, \ldots, p - 2, p - 1\}$.
+V kryptografii jsou zajímavá především pole prvočísel, kde je množina všech celých čísel modulována nějakým prvočíslem a operátory jsou standardní sčítání a násobení. Do této třídy konečných polí patří $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$ a tak dále. Pro libovolné prvočíselné pole $\mathbb{Z} \mod p$ je množina celých čísel tohoto pole následující: $\{0, 1, \ldots, p - 2, p - 1\}$.
 
 V kryptografii nás také zajímají rozšiřující pole, zejména pole s $2^m$ prvky, kde $m > 1$. Taková konečná pole se používají například v šifře Rijndael, která tvoří základ šifrovacího standardu Advanced Encryption Standard. Zatímco pole prvočísel jsou poměrně intuitivní, tato rozšiřující pole báze 2 pravděpodobně nejsou pro nikoho, kdo nezná abstraktní algebru.
 
@@ -907,7 +912,7 @@ $$
 
 Možná vás zajímá, proč se $(x^3) - (x^3 + x + 1)$ vyhodnotí jako $x + 1$ a ne jako $-x - 1$. Nezapomeňte, že první operace našeho pole je definována modulo 2. Proto odčítání dvou vektorů dává přesně stejný výsledek jako sčítání dvou vektorů.
 
-Součet násobení $x^2 + 1$ a $x^2 + x$: Po vynásobení těchto dvou členů dostaneme polynom 4. stupně $x^4 + x^3 + x^2 + x$, který je třeba redukovat modulo $x^3 + x + 1$. Polynom 4. stupně je dělitelný $x^3 + x + 1$ přesně $x + 1$ krát. Zbytek po dělení $x^4 + x^3 + x^2 + x$ prvkem $x^3 + x + 1$ přesně $x + 1$ krát je $x + 1$. To je skutečně prvek naší množiny ${0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
+Součet násobení $x^2 + 1$ a $x^2 + x$: Po vynásobení těchto dvou členů dostaneme polynom 4. stupně $x^4 + x^3 + x^2 + x$, který je třeba redukovat modulo $x^3 + x + 1$. Polynom 4. stupně je dělitelný $x^3 + x + 1$ přesně $x + 1$ krát. Zbytek po dělení $x^4 + x^3 + x^2 + x$ prvkem $x^3 + x + 1$ přesně $x + 1$ krát je $x + 1$. To je skutečně prvek naší množiny ${0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1}$.
 
 Proč by měla být rozšiřující pole se základem 2 nad množinami polynomů, jako ve výše uvedeném příkladu, užitečná pro kryptografii? Důvodem je to, že na koeficienty v polynomech takových množin, buď 0, nebo 1, lze pohlížet jako na prvky binárních řetězců o určité délce. Na množinu **S** z našeho příkladu výše lze například místo toho pohlížet jako na množinu **S**, která obsahuje všechny binární řetězce délky 3 (000 až 111). Operace nad množinou **S** pak lze použít i k provádění operací nad těmito binárními řetězci a k vytvoření binárního řetězce stejné délky.
 
@@ -1019,10 +1024,10 @@ Bob zašifruje zprávu $M$ v čase $T_0$ klíčem $K$ a získá šifrový text $
 
 V kapitole 2 jsme se setkali s posunovací šifrou, která je příkladem velmi jednoduchého symetrického šifrovacího schématu. Podívejme se na ni znovu zde.
 
-Předpokládejme slovník *D*, který přirovnává všechna písmena anglické abecedy v pořadí k množině čísel $\{0,1,2,\tečky,25\}$. Předpokládejme množinu možných zpráv **M**. Posunovací šifra je tedy šifrovací schéma definované takto:
+Předpokládejme slovník *D*, který přirovnává všechna písmena anglické abecedy v pořadí k množině čísel $\{0,1,2,\dots,25\}$. Předpokládejme množinu možných zpráv **M**. Posunovací šifra je tedy šifrovací schéma definované takto:
 
 
-- Náhodně vyberte klíč $k$ z množiny možných klíčů **K**, kde **K** = $\{0,1,2,\bodky,25\}$
+- Náhodně vyberte klíč $k$ z množiny možných klíčů **K**, kde **K** = $\{0,1,2,\dots,25\}$
 - Zašifrujte zprávu $m \v$ **M** takto:
     - Rozdělte $m$ na jednotlivá písmena $m_0, m_1,\dots, m_i, \dots, m_l$
     - Převeďte každé $m_i$ na číslo podle *D*
@@ -1059,7 +1064,7 @@ Aby šifrovací schéma splňovalo minimální představu o bezpečnosti, musí 
 
 Pro představu o obrovské velikosti prostoru pro klíč v moderních šifrovacích schématech předpokládejme, že soubor byl zašifrován 128bitovým klíčem pomocí pokročilého šifrovacího standardu. To znamená, že útočník má k dispozici sadu $2^{128}$ klíčů, které musí projít při útoku hrubou silou. Při 0,78% šanci na úspěch s touto strategií by útočník musel projít zhruba 2,65 \krát 10^{36}$ klíčů.
 
-Předpokládejme optimisticky, že útočník se může pokusit o 10^{16}$ klíčů za sekundu (tj. 10 kvadrilionů klíčů za sekundu). Aby otestoval 0,78 % všech klíčů v prostoru klíčů, musel by jeho útok trvat 2,65 \krát 10^{20}$ sekund. To je přibližně 8,4 bilionu let. Takže ani útok hrubou silou absurdně silného protivníka není u moderního 128bitového šifrovacího schématu reálný. To je princip dostatečného klíčového prostoru.
+Předpokládejme optimisticky, že útočník se může pokusit o $10^{16}$ klíčů za sekundu (tj. 10 kvadrilionů klíčů za sekundu). Aby otestoval 0,78 % všech klíčů v prostoru klíčů, musel by jeho útok trvat $2,65 \times 10^{20}$ sekund. To je přibližně 8,4 bilionu let. Takže ani útok hrubou silou absurdně silného protivníka není u moderního 128bitového šifrovacího schématu reálný. To je princip dostatečného klíčového prostoru.
 
 Je posunovací šifra bezpečnější, pokud útočník nezná šifrovací algoritmus? Možná ano, ale ne o mnoho.
 
@@ -1448,29 +1453,19 @@ V tomto postupu pokračujeme, dokud nevytvoříme poslední řádek na konci pol
 
 *Tabulka 1: Tabulka klíčových plánů*
 
-| Round | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| Počáteční | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Krok 4
 
@@ -1499,21 +1494,16 @@ Co by se stalo, kdyby slovo k zašifrování bylo delší než pole **S**? V tak
 
 *Tabulka 2: Generování klíčového proudu*
 
-| i | j | t | Klíčový proud | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
 
 Příklad, který jsme právě probrali, je pouze oslabenou verzí proudové šifry **RC4**. Skutečná proudová šifra RC4 má pole **S** o délce 256 bajtů, nikoli 8 bajtů, a klíč může mít délku 1 až 256 bajtů, nikoli 1 až 8 bajtů. Pole klíčů a proudy klíčů se pak vytvářejí s ohledem na délku 256 bajtů pole **S**. Výpočty se stávají nesmírně složitějšími, ale principy zůstávají stejné. Při použití stejného klíče [14,48,9] se standardní šifrou RC4 se zpráva s otevřeným textem "SOUP" zašifruje jako 67 02 ed df v šestnáctkovém formátu.
 
@@ -1589,41 +1579,26 @@ Zadruhé se provede operace **záměna bajtů** na aktuálním stavu $S$. Funguj
 
 *Obrázek 3: Rijndaelův S-Box*
 
-| | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 Tento S-Box je jedním z míst, kde v šifře Rijndael vstupuje do hry abstraktní algebra, konkrétně **Galoisova pole**.
 
@@ -1637,39 +1612,31 @@ Po sestavení matice **S** se posunou čtyři řádky. První řádek zůstává
 
 *Obrázek 4: Operace posunutí řádků*
 
-| F1 | A0 | B1 | 23 |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 Ve čtvrtém kroku se opět objeví **Galoisova pole**. Na začátku se každý sloupec matice **S** vynásobí sloupcem matice 4 x 4, která je vidět na *obrázku 5*. Místo běžného násobení matic se však jedná o násobení vektorů **modulo neredukovatelného polynomu**, $x^8 + x^4 + x^3 + x + 1$. Výsledné koeficienty vektoru představují jednotlivé bity bajtu.
 
 *Obrázek 5: Matice sloupců směsi*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 Vynásobením prvního sloupce matice **S** s výše uvedenou maticí 4 x 4 získáme výsledek na *obrázku 6*.
 
@@ -1773,6 +1740,7 @@ V 70. letech 20. století upoutala pozornost skupiny amerických akademických k
 Přinejmenším jednou z hlavních motivací pro jejich podnikání byla předvídavost, že otevřená počítačová komunikace zásadně ovlivní náš svět. Diffie a Helmann v roce 1976 poznamenávají,
 
 > Rozvoj počítačem řízených komunikačních sítí slibuje snadný a levný kontakt mezi lidmi nebo počítači na opačných koncích světa, který nahradí většinu pošty a mnoho výletů telekomunikací. Pro mnoho aplikací musí být tyto kontakty zabezpečeny jak proti odposlechu, tak proti vnášení nelegitimních zpráv. V současné době však řešení bezpečnostních problémů značně zaostává za jinými oblastmi komunikačních technologií. *Současná kryptografie není schopna splnit požadavky v tom smyslu, že její použití by pro uživatele systému znamenalo tak závažné nepříjemnosti, že by eliminovalo mnohé výhody teleprocesingu* [1]
+
 Vytrvalost Diffieho, Hellmana a Merkleho se vyplatila. První publikací jejich výsledků byl článek Diffieho a Helmanna z roku 1976 s názvem "Nové směry v kryptografii" V něm představili dva originální způsoby řešení problémů distribuce a správy klíčů.
 
 Prvním řešením, které nabídli, byl vzdálený protokol *výměny klíčů*, tj. soubor pravidel pro výměnu jednoho nebo více symetrických klíčů přes nezabezpečený komunikační kanál. Tento protokol je nyní znám jako *Diffie-Helmannova výměna klíčů* nebo *Diffie-Helmann-Merkleova výměna klíčů*. [2]
@@ -2029,18 +1997,18 @@ Předpokládejme nyní, že $N$ je velmi velké. Jak obtížné by bylo redukova
 To skutečně závisí na $N$. Předpokládejme například, že $N$ je 50 450 400. I když toto číslo vypadá hrozivě, výpočty nejsou tak složité a lze je snadno provést ručně. Stejně jako výše stačí začít od čísla 2 a postupovat dále. Níže si můžete prohlédnout výsledek tohoto postupu podobným způsobem jako výše.
 
 
-- 2: 25 225 200 (50 450 400 USD = 2 \cdot 25 225 200 USD)
-- 2: 12 612 600$ (50 450 400$ = 2^2 \cdot 12 612 600$)
-- 2: 6 306 300 $ (50 450 400 $ = 2^3 \cdot 6 306 300 $)
-- 2: 3 153 150$ (50 450 400$ = 2^4 \cdot 3 153 150$)
-- 2: 1 576 575 (50 450 400 USD = 2^5 \cdot 1 576 575$)
-- 3: 525 525 (50 450 400 USD = 2^5 \cdot 3 \cdot 525 525$)
-- 3: 175 175 (50 450 400 USD = 2^5 \cdot 3^2 \cdot 175 175$)
-- 5: 35 035 (50 450 400 USD = 2^5 \cdot 3^2 \cdot 5 \cdot 35 035$)
-- 5: 7 007 (50 450 400 USD = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 007$)
-- 7: 1 001 (50 450 400 USD = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)
-- 7: 143 (50 450 400 USD = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11: 13 (50 450 400 USD = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+- 2: $25,225,200$ (50,450,400  = $2 \cdot 25,225,200$ USD)
+- 2: $12,612,600$ (50,450,400  = $2^2 \cdot 12,612,600$)
+- 2: $6,306,300$ (50,450,400  = $2^3 \cdot 6,306,300$)
+- 2: $3,153,150$ (50,450,400  = $2^4 \cdot 3,153,150$)
+- 2: $1,576,575$ (50,450,400  = $2^5 \cdot 1,576,575$)
+- 3: $525,525$ (50,450,400  = $2^5 \cdot 3 \cdot 525,525$)
+- 3: $175,175$ (50,450,400  = $2^5 \cdot 3^2 \cdot 175,175$)
+- 5: $35,035$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
+- 5: $7,007$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
+- 7: $1,001$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
+- 7: $143$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+- 11: $13$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Protože 13 je prvočíslo, výsledek je $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
 Ruční řešení tohoto problému zabere nějaký čas. Počítač to samozřejmě zvládne za zlomek sekundy. Ve skutečnosti počítač často dokáže faktorizovat i extrémně velká celá čísla za zlomek sekundy.
@@ -2132,7 +2100,7 @@ Jinými slovy, celé číslo 119 má 96 koprimů vrozsahu od 1 do 119. Ve skute�
 
 Od této chvíle označujme množinu koprimů, která určuje pořadí $N$, jako $C_N$. Pro náš příklad, kdy $N = 119$, je množina $C_{119}$ příliš velká na to, abychom ji mohli kompletně vypsat. Některé prvky jsou však následující:
 
-$$C_{119} = \{1, 2, \tečky 6, 8 \tečky 13, 15, 16, 18, \tečky 33, 35 \tečky 96\}$$
+$$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
 
 ### Invertibilita modulo N
 
@@ -2146,7 +2114,7 @@ Předpokládejme například, že $a = 5$ a $N = 11$. Existuje mnoho celých č�
 
 Zatímco číslo 5 má mnoho inverzí redukujících modulo 11, můžete ukázat, že existuje pouze jediná kladná inverze čísla 5, která je menší než 11. Ve skutečnosti se nejedná o jedinečný příklad, ale o obecný výsledek.
 
-**Návrh 3**. Je-li celé číslo $a$ inverzní modulo $N$, musí platit, že přesně jedna kladná inverze $a$ je menší než $N$. (Tato jedinečná inverze $a$ tedy musí pocházet z množiny ${1, \dots, N - 1\}$).
+**Návrh 3**. Je-li celé číslo $a$ inverzní modulo $N$, musí platit, že přesně jedna kladná inverze $a$ je menší než $N$. (Tato jedinečná inverze $a$ tedy musí pocházet z množiny $\{1, \dots, N - 1\}$).
 
 Označme jedinečnou inverzní hodnotu $a$ z **Výroku 3** jako $a^{-1}$. Pro případ, kdy $a = 5$ a $N = 11$, vidíme, že $a^{-1} = 9$, protože $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$.
 
@@ -2287,14 +2255,14 @@ Nicméně s přidáním trochu chytré složitosti lze problém RSA použít k v
 
 [4] Viz například Jonathan Katz a Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), str. 410-32 o šifrování RSA a str. 444-41 o digitálních podpisech RSA.
 
-# Závěr
+# Sekce finále
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
 ## Hodnocení & Recenze
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Závěrečná Zkouška
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

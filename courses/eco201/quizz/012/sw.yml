@@ -1,0 +1,13 @@
+question: Je, lengo kuu la kozi ya Bitcoin iliyotajwa katika sura ni lipi?
+answer: Lengo kuu la kozi hii ni kuelimisha wapenda Bitcoin wapya katika kanuni bora za kiuchumi.
+wrong_answers:
+  - Lengo kuu la kozi hiyo ni kuwafundisha wapenzi wapya wa Bitcoin jinsi ya kuchimba Bitcoin.
+  - Madhumuni ya kimsingi ya kozi hiyo ni kufundisha wapendaji wapya wa Bitcoin jinsi ya kuwekeza katika Bitcoin.
+  - Lengo kuu la kozi hii ni kuwafundisha wapenzi wapya wa Bitcoin jinsi ya kuunda sarafu zao za siri.
+explanation: |
+  Kozi hiyo inalenga kuelimisha wapenzi wapya wa Bitcoin kuhusu
+  kanuni za msingi za uchumi, hasa zile
+  wa Shule ya Uchumi ya Austria. Maarifa haya ni
+  muhimu kwa kuelewa thamani na uwezo wa
+  Bitcoin kama mbadala kwa mifumo ya jadi ya fedha.
+reviewed: true

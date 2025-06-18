@@ -1,0 +1,9 @@
+question: Je, ni vipengele vipi vinne vinavyofafanua RGB Contract?
+answer: Genesis, Schema, Interface na Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Mpito na Interface Implementation
+  - Genesis, Interface, Mpito na Upanuzi
+  - Genesis, Interface, Interface Implementation na Ugani
+explanation: |
+  RGB Contract inaundwa na Elements nne tofauti; Genesis, Schema, Interface na Interface Implementation.
+reviewed: false

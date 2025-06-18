@@ -1,0 +1,9 @@
+question: Co technika otwierania trójkąta pozwala osiągnąć uczestniczącym węzłom?
+answer: Płynność przychodząca i wychodząca w każdym kanale
+wrong_answers:
+  - Obniżone opłaty za routing
+  - Nieograniczona liczba transakcji bez potwierdzenia
+  - Bezpośrednie połączenie z każdym innym węzłem sieci
+explanation: |
+  Technika otwierania trójkąta pozwala każdemu węzłowi osiągnąć zrównoważoną płynność, zarówno przychodzącą, jak i wychodzącą, poprzez utworzenie pętli kanałów między kilkoma uczestnikami.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki jest cel heurystyki transakcji wewnętrznych?
+answer: Aby zidentyfikować Exchange.
+wrong_answers:
+  - Identyfikacja nieuczciwych transakcji w czasie rzeczywistym.
+  - Identyfikacja wzorców transakcji.
+  - Aby zidentyfikować klaster należący do tego samego podmiotu.
+explanation: |
+  Wewnętrzna heurystyka pozwala nam zidentyfikować Exchange w celu obserwacji użytkownika w kolejnych transakcjach.
+reviewed: false

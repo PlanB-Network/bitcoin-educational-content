@@ -4,8 +4,6 @@ description: Jak snadno přijímat platby v Bitcoinu?
 ---
 ![obálka](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Dnes existuje mnoho řešení pro obchodníky, kteří chtějí přijímat Bitcoin jako platební metodu. Pro malé subjekty hledající neformální nastavení postačí instalace hot peněženky nebo dokonce Lightning peněženky, aby mohli přímo přijímat platby. Větší podniky, které potřebují udržovat účetní záznamy, by se spíše měly rozhodnout pro specializovaný platební zpracovatelský systém. I v této oblasti jsou k dispozici různé možnosti.
 
 Pro ty, kteří dávají přednost tomu, aby se nezabývali a přijímali prostředky přímo ve fiat měně na svůj bankovní účet, jsou k dispozici poručnická řešení jako Open Node:

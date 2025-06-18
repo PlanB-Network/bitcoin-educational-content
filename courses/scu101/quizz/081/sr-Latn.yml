@@ -1,0 +1,9 @@
+question: Šta vam omogućava vebsajt Have I Been Pwned?
+answer: Proveri da li je email Address kompromitovan.
+wrong_answers:
+  - generate nove jake i nasumične lozinke.
+  - Kreirajte siguran email inbox.
+  - Sinhronizujte email naloge za lakše korišćenje.
+explanation: |
+  Ovaj sajt pomaže u otkrivanju povreda podataka i verifikaciji sigurnosti emaila Address.
+reviewed: false

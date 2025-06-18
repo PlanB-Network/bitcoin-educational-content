@@ -1,0 +1,14 @@
+question: 在 Bitcoin Mining 的背景下，Not your Hashrate, not your reward 這句格言的意義是什麼？
+answer: 如果您不控制 Hashrate，就無法控制 Mining 獎勵。
+wrong_answers:
+  - 如果您的 Hashrate 不高，您將不會獲得任何獎勵。
+  - 如果您未擁有 Bitcoin，您將無法獲得任何獎勵。
+  - 如果您沒有 Mining 機器，您將無法獲得任何獎勵。
+explanation: |
+  Not your Hashrate, not your reward 這句格言與此類似
+  到加密貨幣世界中著名的格言、
+  不是您的鑰匙，也不是您的比特幣。這意味著如果您
+  不控制 Hashrate，也不控制 Mining
+  獎勵。這是因為 Mining 的獎勵是
+  與 Hashrate 成正比。
+reviewed: true

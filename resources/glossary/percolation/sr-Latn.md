@@ -1,0 +1,5 @@
+---
+term: PERCOLACIJA
+---
+
+Odnosi se na model koji pomaže u razumevanju širenja informacija (transakcija i blokova) kroz Bitcoin mrežu čvorova. Teorija perkolacije je izvorno matematički i fizički model koji proučava kretanje i filtraciju fluida kroz porozne materijale. Analizira kako, iznad određenog praga, povezana mreža omogućava fluidu da kontinuirano teče kroz materijal. Ovo se može primeniti na računarske mreže kako bi se videlo kako se informacije šire, posmatrajući čvorove kao mesta koja mogu biti aktivna ili neaktivna. U Bitcoin, čvorovi tako igraju ulogu pora u teoriji perkolacije. Svaki aktivni čvor prima i prenosi informacije drugim čvorovima, koji će ili nastaviti prenos ili ga blokirati. Širenje određenih tipova transakcija može se analizirati u smislu perkolacionih pragova, gde je potreban određeni procenat aktivnih čvorova da bi se došlo do Miner koji će ga uključiti u blok. Ova teorija pruža okvir za procenu kako promene u mreži, kao što je modifikacija pravila standardizacije od strane nekih čvorova, utiču na kaskadni mehanizam propagacije transakcija kako bi se došlo do Miner.

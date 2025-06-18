@@ -1,9 +1,9 @@
-question: Qual é um dos erros comuns que investidores iniciantes cometem ao entrar no mundo do Bitcoin?
-answer: Superinvestimento
+question: Qual é a principal implicação política do Bitcoin?
+answer: Reduzir o controlo do Estado sobre o dinheiro
 wrong_answers:
-  - Subinvestimento
-  - Investir apenas em Bitcoin
-  - Não investir em Bitcoin de forma alguma
+  - Aumento da centralização bancária
+  - Promover a inflação
+  - Reforço da regulamentação financeira
 explanation: |
-  Um dos erros comuns que investidores iniciantes cometem ao entrar no mundo do Bitcoin é o superinvestimento, o que significa investir mais dinheiro do que eles podem se dar ao luxo de perder. Isso pode levar a problemas financeiros se o valor do Bitcoin diminuir.
+  O Bitcoin é uma alternativa que enfraquece o poder das instituições estatais sobre o dinheiro através da senhoriagem e da censura das transacções.
 reviewed: false

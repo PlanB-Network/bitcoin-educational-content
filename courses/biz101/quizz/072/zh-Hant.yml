@@ -1,0 +1,9 @@
+question: 企業系統如何自動更新庫存？
+answer: 透過工作流程觸發器
+wrong_answers:
+  - 手動更新
+  - 日終上傳
+  - 排程報告
+explanation: |
+  工作流程觸發器可即時更新系統。
+reviewed: false

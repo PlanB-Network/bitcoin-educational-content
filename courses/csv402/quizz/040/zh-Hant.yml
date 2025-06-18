@@ -1,0 +1,9 @@
+question: 將 RGB 整合到 Lightning Network 的主要目的是什麼？
+answer: 透過 off-chain 頻道轉移 RGB 資產
+wrong_answers:
+  - 直接在 Bitcoin Blockchain 上執行 RGB 合約
+  - 以 RGB 智慧合約取代傳統 Lightning 交易
+  - 透過增加新的 UTXO 來增加通道容量
+explanation: |
+  整合到 Lightning Network 中的 RGB 可讓 RGB 資產透過嵌入在 Commitment 交易中的狀態轉換進行移動，同時保持 off-chain。
+reviewed: false

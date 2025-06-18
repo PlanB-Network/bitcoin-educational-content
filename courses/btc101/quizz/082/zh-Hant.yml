@@ -1,0 +1,11 @@
+question: 使用 Bitcoin Wallet 安全花費資金的技術是什麼？
+answer: 橢圓曲線密碼學。
+wrong_answers:
+  - 對稱密碼學。
+  - 量子密碼學。
+  - RSA 加密技術。
+explanation: |
+  使用比特幣需要擁有者使用橢圓曲線
+  數位簽章演算法 (ECDSA) 來偽造簽章
+  以傳播 Bitcoin 交易。
+reviewed: true

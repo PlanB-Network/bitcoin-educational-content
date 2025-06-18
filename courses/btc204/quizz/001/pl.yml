@@ -1,0 +1,9 @@
+question: Co to jest UTXO na Bitcoin?
+answer: Kawałek Bitcoin, który nie został jeszcze wydany.
+wrong_answers:
+  - Bitcoin Address, aby otrzymać fundusze.
+  - Specjalny typ Bitcoin Wallet.
+  - Algorytm szyfrowania dla Bitcoin.
+explanation: |
+  UTXO jest niewydaną transakcją wyjściową, więc zasadniczo jest to "kawałek Bitcoin".
+reviewed: false

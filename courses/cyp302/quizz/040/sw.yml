@@ -1,0 +1,9 @@
+question: Je, ni sharti gani la msingi ambalo seti ya S yenye utendakazi wa mfumo wa jozi inakidhi ili kuwa kikundi?
+answer: Hali ya kufungwa
+wrong_answers:
+  - Hali ya mawasiliano
+  - Hali ya ulinganifu
+  - Hali ya usambazaji
+explanation: |
+  Seti ya S yenye operesheni ya binary lazima ikidhi masharti kadhaa ili kuunda kikundi, na ya kwanza ni hali ya kufungwa: operesheni kati ya Elements mbili za S lazima itoe kipengele cha S.
+reviewed: false

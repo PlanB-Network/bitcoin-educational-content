@@ -1,0 +1,9 @@
+question: Jaki był wpływ dystrybucji i kluczowych kwestii związanych z zarządzaniem przed latami 70-tymi?
+answer: Ograniczały one bezpieczeństwo i wydajność komunikacji na dużą skalę
+wrong_answers:
+  - Uniemożliwiały one przesyłanie zaszyfrowanych wiadomości w sieciach publicznych
+  - Wymagały one kluczy publicznych dla każdej wiadomości
+  - Nakazały one stosowanie kryptografii homomorficznej
+explanation: |
+  Przed latami 70. problemy z dystrybucją kluczy i zarządzaniem nimi utrudniały zabezpieczenie komunikacji na dużą skalę, hamując tym samym rozwój nowoczesnych aplikacji, takich jak zakupy online.
+reviewed: false

@@ -17,11 +17,43 @@ Von der Renaissance bis zur Aufklärung untersucht der Kurs den Aufstieg der Fre
 
 +++
 
+# Einführung
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Kursübersicht
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Willkommen im Kurs PHI201!
+
+Diese Ausbildung lädt Sie ein, die Entwicklung der Freiheit im Laufe der Geschichte zu erkunden, indem Sie die großen Denkrichtungen analysieren, die sie geprägt haben. Sie werden entdecken, wie sich der Begriff der Freiheit im Laufe der Jahrhunderte entwickelt hat, entweder im Widerstand gegen oder in Zusammenarbeit mit der Macht, auf einer historischen Reise von der Antike bis zu zeitgenössischen Debatten.
+
+**Abschnitt 1: Freiheit oder Macht**  
+Wir beginnen mit einem Überblick über die beiden großen politischen Philosophien, die die Geschichte geprägt haben: Freiheit und Macht. Dieser Abschnitt untersucht die Sichtweisen von Denkern wie Frédéric Bastiat über Produktion versus Plünderung, Lord Acton, der die Freiheit als treibende Kraft der Geschichte sieht, Karl Marx mit seiner Theorie des Klassenkampfes und Murray Rothbard, der den Staat der Gesellschaft gegenüberstellt. Diese konzeptionelle Einführung wird einen analytischen Rahmen für die historischen Epochen bieten.
+
+**Abschnitt 2: Die Ursprünge der Freiheit: Die Antike**  
+Hier kehren wir zu den Wurzeln des philosophischen Denkens mit den Griechen zurück, die die kritische Rationalität erfanden, und den Römern, die die Grundlagen des modernen Rechts schufen. Wir werden auch den Untergang Roms als Wendepunkt betrachten, der die politische und soziale Organisation um den Begriff der Freiheit neu definierte.
+
+**Abschnitt 3: Die Ursprünge der Freiheit: Das Mittelalter**  
+Das Mittelalter wird oft als dunkle Zeit betrachtet, aber wir werden entdecken, dass es tatsächlich die Grundlagen für die moderne Freiheit gelegt hat. Wir werden die Bestätigung der menschlichen Freiheit, die Debatten zwischen Vernunft und Glauben, die Geburt des souveränen Staates, die biblische Ethik, die das Individuum betont, und die ersten Ansätze des Kapitalismus, die in dieser Zeit auftauchen, untersuchen.
+
+**Abschnitt 4: Der Aufstieg der Freiheit: Von der Renaissance bis zur Aufklärung**  
+Dieser Abschnitt befasst sich mit dem Aufkommen religiöser Toleranz und wirtschaftlicher Freiheit, die während der Renaissance und der Aufklärung aufblühten. Wir werden auch die Bedeutung des Jahres 1776 analysieren, das mit Schlüsselereignissen für die freie Welt einen Wendepunkt markierte, bevor wir in das Zeitalter der Revolutionen eintauchen, die den Begriff der Freiheit neu definierten.
+
+**Abschnitt 5: Höhepunkt und Niedergang: Vom 19. bis zum 20. Jahrhundert**  
+Wir setzen mit der Untersuchung der Umwälzungen des 19. und 20. Jahrhunderts fort, wobei wir die Stärken und Schwächen der Demokratie, die marxistische Kritik am Kapitalismus und die österreichische Antwort auf diese Kritik betrachten. Wir werden auch vor den Gefahren des Kollektivismus warnen, indem wir wichtige Werke wie "Der Weg zur Knechtschaft" analysieren.
+
+**Abschnitt 6: Der Aufstieg des Wohlfahrtsstaates im 20. Jahrhundert**  
+Abschließend wird in diesem Abschnitt untersucht, wie der Wohlfahrtsstaat allmählich die Ideen der wirtschaftlichen Freiheit verdrängt hat, insbesondere durch die Analyse von Keynes' Triumph und dem Verzicht auf den Goldstandard. Wir werden mit einem Hinweis auf die Bedeutung von Ideen enden, um den Lauf der Geschichte zu beeinflussen, und auf die Rolle, die Freiheit noch immer in unseren modernen Gesellschaften spielt.
+
+Bereit, in diese einzigartige philosophische Reise auf der Suche nach Freiheit einzutauchen? Los geht's!
+
 # Freiheit oder Macht
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Einführung: Es gibt nur zwei politische Philosophien
+## Es gibt nur zwei politische Philosophien
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

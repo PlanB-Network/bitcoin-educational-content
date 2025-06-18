@@ -1,7 +1,6 @@
 id: e320ccda-be59-492b-a81b-243d9acb592f
 name: Ajelex
 
-contributor_id: diamond-jar
 
 links:
   twitter: https://twitter.com/ajelexBTC
@@ -12,7 +11,7 @@ tips:
 company: DecouvreBitcoin
 
 affiliations:
-  - DécouvreBitcoin
+  - 77f56919-1875-45ab-8c4c-b8fb26b021de
 tags:
   - mining
   - DIY

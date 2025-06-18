@@ -1,0 +1,10 @@
+question: Ni nini kiwango cha juu cha entropy cha muamala?
+answer: Entropy ya juu zaidi ambayo muundo wa shughuli unaweza kufikia.
+wrong_answers:
+  - Entropy ya chini kabisa ambayo muundo wa muamala unaweza kufikia.
+  - Entropy halisi ya shughuli.
+  - Ufanisi wa shughuli.
+explanation: |
+  Upeo wa entropy unarejelea entropy ya juu zaidi ambayo muundo maalum wa muamala unaweza kufikia kinadharia.
+  
+reviewed: false

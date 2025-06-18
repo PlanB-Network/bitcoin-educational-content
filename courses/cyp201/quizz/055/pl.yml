@@ -1,0 +1,9 @@
+question: Na ile części podzielone jest wyjście funkcji HMAC-SHA512 zastosowanej do seed?
+answer: Dwie części po 256 bitów
+wrong_answers:
+  - Pojedyncza część 512 bitów
+  - Trzy części po 170 bitów
+  - Cztery części po 128 bitów
+explanation: |
+  Dane wyjściowe HMAC-SHA512 są podzielone na dwie części: główny klucz prywatny (256 bitów) i główny kod łańcucha (256 bitów).
+reviewed: false

@@ -1,10 +1,9 @@
-question: Hva er formålet med Bitcoin-lommebøker?
-answer: Å sende og motta bitcoins
+question: Hvilke er Bitcoin sidekjeder?
+answer: Liquid og rotstamme
 wrong_answers:
-  - Å utvinne bitcoins
-  - Å lagre fysiske bitcoins
-  - Å konvertere bitcoins til andre valutaer
+  - Polygon og Arbitrum
+  - Jupiter og Fantomet
+  - Bitcoin Cash og Bitcoin Satoshi Vision
 explanation: |
-  Bitcoin-lommebøker brukes til å sende og motta bitcoins. De er digitale
-  lommebøker som lagrer de digitale legitimasjonene som er nødvendige for å få tilgang til en bitcoin-adresse
-  og bruke bitcoins.
+  Liquid og RSK er sidekjeder som har en 2-veis peg med Bitcoin. De andre alternativene er ikke sidekjeder, eller har ikke en 2WP med Bitcoin Blockchain.
+reviewed: false

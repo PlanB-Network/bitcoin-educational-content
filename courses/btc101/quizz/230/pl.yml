@@ -1,0 +1,10 @@
+question: Co umożliwia Lightning Network?
+answer: Transakcje między osobami, które nie mają bezpośredniego połączenia kanałowego.
+wrong_answers:
+  - Tworzenie bezpośrednich połączeń kanałowych tylko ze scentralizowanymi centralami.
+  - Aby utworzyć połączenia kanałów, które wymagają wielu potwierdzeń dla dowolnej transakcji.
+  - Aby ustanowić bezpośrednie połączenia kanałowe, które są ograniczone tylko do dużych transakcji.
+explanation: |
+  Lightning Network umożliwia dokonywanie transakcji między
+  osobami, które nie mają bezpośredniego połączenia kanałowego.
+reviewed: true

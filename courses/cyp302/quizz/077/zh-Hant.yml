@@ -1,0 +1,9 @@
+question: Kerckhoff 原理在密碼學中扮演什麼角色？
+answer: 為了確保安全性依賴於秘密金鑰，而非方案的保密性
+wrong_answers:
+  - 為了確保安全性依賴於方案的保密性，而非密碼鑰匙
+  - 需要非常長的加密金鑰
+  - 為了保證每個訊息都有唯一的金鑰
+explanation: |
+  根據 Kerckhoff 的原則，密碼系統的安全性應該完全依賴秘密金鑰，而非演算法本身的保密性。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Katika muktadha wa mfumo wa siri wa RSA, bidhaa ya nambari kuu mbili p na q inalingana na nini?
+answer: Inajumuisha nambari kamili N inayotumika kama moduli ya utendakazi
+wrong_answers:
+  - Inajumuisha ufunguo wa umma
+  - Inatumika kama ufunguo wa kusimbua
+  - Inatumika tu kwa generate kipeo e
+explanation: |
+  Katika RSA, nambari kamili N ni zao la nambari kuu mbili kuu p na q, na inatumika kama moduli ya utendakazi wa usimbaji fiche na usimbuaji.
+reviewed: false

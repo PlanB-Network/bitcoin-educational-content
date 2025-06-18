@@ -1,0 +1,9 @@
+question: Dlaczego mówi się, że ciąg pseudolosowy jest nieodróżnialny od ciągu prawdziwie losowego?
+answer: Ponieważ prawie niemożliwe jest określenie jego pochodzenia bez dodatkowych informacji
+wrong_answers:
+  - Ponieważ zawiera deterministyczne segmenty identyczne z prawdziwie losowym ciągiem znaków
+  - Ponieważ w swojej konstrukcji wykorzystuje liczby zmiennoprzecinkowe
+  - Ponieważ jest on generowany wyłącznie przez zdarzenia naturalne
+explanation: |
+  Ciąg pseudolosowy jest zaprojektowany tak, aby bardzo przypominał prawdziwy ciąg losowy, uniemożliwiając rozróżnienie bez dostępu do seed lub zastosowanego algorytmu.
+reviewed: false

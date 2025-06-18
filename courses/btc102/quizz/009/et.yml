@@ -1,12 +1,9 @@
-question: Mis on paroolihalduri peamine funktsioon?
-answer: Salvestada ja hallata sinu paroole
+question: Miks on veebiturvalisus Bitcoin kasutajate jaoks ülioluline?
+answer: Kuna häkkimise tulemuseks on bitcoinide pöördumatu kaotus
 wrong_answers:
-  - Genereerida juhuslikke paroole
-  - Meeles pidada sinu kasutajatunnuseid
-  - Kaitsta sinu arvutit viiruste eest
+  - Kuna pangad kindlustavad vahendeid Bitcoin kogukahju korral
+  - Sest bitcoinide kaotamise eest võib sattuda vangi
+  - Kuna rünnakud toovad kaasa väga suure halduskoormuse
 explanation: |
-  Paroolihaldur on tarkvara, mis salvestab ja haldab sinu paroole.
-
-  See aitab sul mitte kunagi kasutada sama parooli kaks korda, valida keerukaid ja turvalisi paroole,
-
-  ning lihtsustab sinu veebiturvalisuse haldamist.
+  Ilma vahendajateta tähendab häkkimine bitcoinide lõplikku kaotust.
+reviewed: false

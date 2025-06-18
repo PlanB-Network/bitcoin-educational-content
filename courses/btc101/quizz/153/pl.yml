@@ -1,0 +1,8 @@
+question: Jaki jest cel dostosowania poziomu trudności w Bitcoin Mining?
+answer: Przywraca równowagę globalnej gry Mining w oparciu o liczbę uczestników.
+wrong_answers:
+  - Zwiększa to nagrodę za Mining.
+  - Zmniejsza to liczbę bitcoinów w obiegu.
+  - Zwiększa to bezpieczeństwo sieci Bitcoin.
+explanation: >-
+reviewed: true

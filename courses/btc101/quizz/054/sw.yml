@@ -1,0 +1,10 @@
+question: Je! ni awamu gani ya pili ya uzushi wa mfumuko wa bei?
+answer: Kuporomoka kwa sarafu na ongezeko la bei.
+wrong_answers:
+  - Kupoteza Kujiamini.
+  - Mzunguko mbaya wa uchapishaji wa pesa.
+  - Sarafu mpya inaibuka.
+explanation: |
+  Awamu ya pili ya mfumuko wa bei ni kuporomoka kwa sarafu na
+  ongezeko la bei, baada tu ya Awamu ya Kupoteza Imani.
+reviewed: true

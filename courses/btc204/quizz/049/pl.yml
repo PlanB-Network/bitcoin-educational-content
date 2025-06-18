@@ -1,0 +1,10 @@
+question: Dlaczego operator XOR jest używany w BIP47?
+answer: Aby symetrycznie zaszyfrować ładunek kodu płatności nadawcy.
+wrong_answers:
+  - Aby asymetrycznie zaszyfrować ładunek kodu płatności nadawcy.
+  - Symetryczne szyfrowanie metadanych kodu płatności nadawcy.
+  - Asymetryczne szyfrowanie metadanych kodu płatności nadawcy.
+explanation: |
+  Operator XOR jest używany do symetrycznego szyfrowania ładunku kodu płatności nadawcy w BIP47.
+  
+reviewed: false

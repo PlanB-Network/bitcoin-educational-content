@@ -207,7 +207,7 @@ Choose "*Standard*" if you wish to create a classic single-sig portfolio.
 
 For more information on the "*2FA*" option, you can follow this other tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Your account has been created.
 

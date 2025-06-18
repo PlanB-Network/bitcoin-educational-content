@@ -1,0 +1,9 @@
+question: هدف اصلی یک coinswap چیست؟
+answer: برای انتقال مخفیانه Ownership بیت‌کوین‌ها
+wrong_answers:
+  - سرعت تراکنش‌ها را افزایش دهید
+  - مخلوط کردن بیت‌کوین‌ها
+  - مخفیانه Exchange و Altcoin برای Bitcoin
+explanation: |
+  کوین‌سواپ از قراردادهای هوشمند برای انتقال Bitcoin Ownership بین دو کاربر استفاده می‌کند، بدون نیاز به اعتماد و بدون اینکه این انتقال به‌طور صریح بر روی Blockchain قابل مشاهده باشد.
+reviewed: false

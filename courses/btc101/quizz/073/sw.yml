@@ -1,0 +1,8 @@
+question: Ufunguo wa kibinafsi katika Bitcoin Wallet ni nini?
+answer: Ufunguo wa siri unaokuruhusu kusaini miamala yako.
+wrong_answers:
+  - Ufunguo wa umma unaotumiwa kwa anwani za generate Bitcoin.
+  - Orodha ya siri ya maneno ya kuharibu Wallet ikiwa ni lazima.
+  - Ufunguo wa siri wa kusimba miamala ya Bitcoin kwa njia fiche.
+explanation: >-
+reviewed: true

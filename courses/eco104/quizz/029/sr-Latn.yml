@@ -1,0 +1,12 @@
+question: Koja je jedna od motivacija iza toga što Bitcoin troši energiju preko Mining?
+answer: Da obezbedi moćan mehanizam odbrane protiv centralizacije
+wrong_answers:
+  - Da bi se Bitcoin učinio skupljim za korišćenje
+  - Da se smanji njegova vrednost povećanjem troškova energije
+  - Da obeshrabre nove korisnike da se pridruže mreži
+explanation: |
+  Jedan od razloga zašto Bitcoin troši energiju putem Mining je da 
+  obezbedi moćan mehanizam odbrane protiv centralizacije i 
+  neprimerene manipulacije. Distribuirana mreža rudara pomaže u sprečavanju 
+  centralizovanih entiteta da kooptiraju mrežu ili manipulišu pravilima u svoju korist.
+reviewed: true

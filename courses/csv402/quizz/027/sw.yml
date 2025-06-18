@@ -1,0 +1,9 @@
+question: Je, utayarishaji unaolenga kitu (OOP) ni nini sawa na kijenzi cha Schema katika muktadha wa RGB?
+answer: Ufafanuzi wa darasa
+wrong_answers:
+  - Mjenzi wa darasa
+  - Utekelezaji wa Interface
+  - Mbinu ya protoksi
+explanation: |
+  Schema inalingana na ufafanuzi wa darasa katika OOP, ambayo inaelezea mali, mbinu na sheria za Business Logic.
+reviewed: false

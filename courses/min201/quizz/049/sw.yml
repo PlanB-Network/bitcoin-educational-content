@@ -1,0 +1,14 @@
+question: Kwa nini bitcoins za bikira hutafutwa hasa na wachezaji wa taasisi kubwa?
+answer: Wanaweza kuhakikisha uhalali wa mali zao za kidijitali kwa mamlaka za udhibiti.
+wrong_answers:
+  - Wanaweza kuziuza kwa bei ya juu.
+  - Wanaweza kuzitumia kwa shughuli haramu.
+  - Wanaweza kuepuka kulipa kodi juu yao.
+explanation: |
+  Bikira bitcoins hutafutwa hasa kwa kiasi kikubwa
+  wachezaji wa taasisi kwa sababu wanaweza kuhakikisha
+  uhalali wa mali zao za kidijitali kwa udhibiti
+  mamlaka. Bitcoins hizi hazijawahi kuchafuliwa,
+  kutoa dhamana fulani dhidi ya kukataliwa na wasimamizi au
+  majukwaa makubwa ya Exchange.
+reviewed: true

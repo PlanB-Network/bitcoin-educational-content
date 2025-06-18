@@ -1,0 +1,9 @@
+question: Koji open-source softver je prilagođen za profesionalni Bitcoin sistem plaćanja?
+answer: BTC Pay Server
+wrong_answers:
+  - Swiss Bitcoin Pay
+  - Otvoreni Čvor
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server je istaknut u kursu kao osnovno rešenje otvorenog koda za profesionalna podešavanja zbog svojih opsežnih opcija integracije i kontrole.
+reviewed: false

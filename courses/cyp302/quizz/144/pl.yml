@@ -1,0 +1,9 @@
+question: Jaki jest typowy rozmiar liczb pierwszych używanych do faktoryzacji w nowoczesnych kryptosystemach, takich jak RSA?
+answer: 1024 bity dla każdego czynnika
+wrong_answers:
+  - łącznie 1024 bity
+  - 256 bitów dla każdego czynnika
+  - łącznie 256 bitów
+explanation: |
+  W nowoczesnych kryptosystemach, takich jak RSA, wybrane liczby pierwsze mają zazwyczaj po 1024 bity, co sprawia, że faktoryzacja jest niezwykle trudna i zwiększa bezpieczeństwo.
+reviewed: false

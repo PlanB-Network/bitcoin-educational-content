@@ -1,0 +1,9 @@
+question: Jaki typ klucza jest używany do blokowania UTXO na Bitcoin?
+answer: Klucz publiczny
+wrong_answers:
+  - Klucz prywatny
+  - seed Hash
+  - Zwrot Mnemonic
+explanation: |
+  UTXO są blokowane za pomocą klucza publicznego lub jego Hash i odblokowywane za pomocą odpowiedniego klucza prywatnego.
+reviewed: false

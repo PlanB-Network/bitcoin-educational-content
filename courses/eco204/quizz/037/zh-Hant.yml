@@ -1,0 +1,10 @@
+question: 德國在經濟危機期間使用的緊急資金是指什麼？
+answer: 諾格爾德
+wrong_answers:
+  - 德國馬克
+  - 歐元
+  - 德國馬克
+explanation: |
+  在德國經濟危機期間，Notgeld (緊急資金)
+  用於 Address 共同貨幣短缺。
+reviewed: false

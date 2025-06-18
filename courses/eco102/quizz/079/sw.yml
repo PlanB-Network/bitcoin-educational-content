@@ -1,0 +1,9 @@
+question: Kulingana na Bastiat, uingiliaji kati wa serikali kupita kiasi unaleta hatari gani kwa jamii?
+answer: Inaharibu uwajibikaji wa mtu binafsi na kuzuia mpango wa kibinafsi
+wrong_answers:
+  - Inakuza ukuaji wa uchumi na uvumbuzi
+  - Inahakikisha fursa sawa kwa kila mtu
+  - Inalinda watu binafsi kutokana na matokeo ya matendo yao
+explanation: |
+  Kwa Bastiat, kuingilia serikali kupita kiasi kunapunguza uhuru wa watu binafsi na kuzuia uwezo wao wa kuchukua hatua, na hivyo kudhoofisha uwajibikaji na ubunifu wa mtu binafsi.
+reviewed: false

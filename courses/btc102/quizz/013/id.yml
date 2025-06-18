@@ -1,13 +1,9 @@
-question: Apa salah satu langkah dasar untuk meningkatkan kebiasaan keamanan online?
-answer: Mengaktifkan otentikasi dua faktor (2FA)
+question: Apa perbedaan utama antara trading dan investasi?
+answer: Trading bersifat jangka pendek dan spekulatif, sedangkan investasi bersifat jangka panjang dan strategis
 wrong_answers:
-  - Menggunakan kata sandi yang sama untuk semua akun
-  - Mengabaikan untuk secara rutin membackup data
-  - Membagi kata sandi Anda
+  - Perdagangan melibatkan biaya tetap, investasi melibatkan biaya variabel
+  - Perdagangan didasarkan pada analisis fundamental, berinvestasi pada tren makro
+  - Trading lebih kecil risikonya daripada investasi
 explanation: |
-  Mengaktifkan otentikasi dua faktor (2FA) adalah salah satu langkah dasar
-
-  untuk meningkatkan kebiasaan keamanan online. Ini memberikan lapisan keamanan tambahan untuk
-
-  akun-akun yang paling sensitif.
-  diulas: false
+  Trading membutuhkan pemantauan konstan dan keterampilan teknis, sementara investasi mengandalkan visi jangka panjang.
+reviewed: false

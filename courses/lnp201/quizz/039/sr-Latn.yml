@@ -1,0 +1,9 @@
+question: Šta se dešava ako se kanal sa aktivnim HTLC nasilno zatvori?
+answer: HTLC je uključen u Commitment transakcije kao izlaz.
+wrong_answers:
+  - HTLC se automatski otkazuje.
+  - Sredstva se preraspodeljuju prethodnim čvorovima.
+  - Kanal se ne može zatvoriti dok HTLC ne istekne.
+explanation: |
+  Tokom prinudnog zatvaranja, HTLC-ovi na čekanju predstavljeni su kao izlazi u Commitment transakcijama, čime se osigurava njihovo izvršenje ili povratak prema definisanim uslovima.
+reviewed: false

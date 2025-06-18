@@ -24,41 +24,31 @@ Pokud potřebujete pomoc se svým nastavením, pro studenty byla vytvořena skup
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Vítejte!
+## Přehled kurzu
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Vítejte na MINING 201: úvod do těžby. Ajelex, Jim & Rogzy se těší, že vás budou doprovázet ve vašich prvních konkrétních krocích v tomto novém průmyslu. Doufáme, že si kurz užijete a připojíte se k dobrodružství domácí těžby!
+Vítejte v kurzu MIN201: Úvod do těžby. Ajelex, Jim & Rogzy vás rádi provedou vašimi prvními kroky v tomto odvětví. Doufáme, že si kurz užijete a že se vydáte na dobrodružství s home miningem!
 
-### Přehled kurzu
+Tento kurz vás zavede do světa těžby Bitcoinu, kde se seznámíte s teoretickými i praktickými aspekty. Ať už jste nováček nebo máte s těžbou již nějaké zkušenosti, tento kurz vám pomůže pochopit ekonomické a technické výzvy spojené s těžbou, a zároveň se naučíte, jak přeměnit ASIC na zařízení pro domácí vytápění.
 
-V první části kurzu se zaměříme na teorii těžby s Ajelexem. Budeme mít podrobné diskuse na různá témata související s těžbou, což nám pomůže lépe porozumět tomuto průmyslu a ekonomickým a geopolitickým otázkám s ním spojeným.
+**Sekce 2: Vše o těžbě**  
+V této části získáte hluboké porozumění těžbě Bitcoinu. Probereme technické fungování těžby, její roli v Bitcoinovém protokolu a ekonomické a geopolitické důsledky. Také se dozvíte o složitém vztahu mezi cenou bitcoinu a hashrate a o otázkách spojených se suverenitou a regulací tohoto odvětví.
 
-Ve druhé části se pustíme do fascinujícího praktického případu, kdy se naučíme, jak přeměnit použitý těžař S9 na domácí topení. Prostřednictvím psaných průvodců a videí budou všechny nezbytné kroky pečlivě vysvětleny, což zajistí váš úspěch v tomto inovativním projektu.
+**Sekce 3: Home-mining a opětovné využití tepla**  
+Následně se zaměříme na praktickou aplikaci konceptu Attakai, který se snaží demokratizovat home-mining tím, že staré těžaře S9 přeměňuje na zařízení pro domácí vytápění. Naučíte se, jak koupit a upravit použitý ASIC a připravit potřebné vybavení pro hardwarové úpravy.
 
-Tato vzdělávací cesta vám ukáže, že těžební průmysl je složitější, než se zdá, a nabídne vyvážený pohled na ekologickou debatu s ním spojenou. Během kurzu bude k dispozici pokračující pomoc prostřednictvím věnované skupiny na Telegramu pro studenty, a všechny potřebné komponenty budou snadno dostupné na naší e-commerce platformě.
+**Sekce 4: Attakai - úprava softwaru Antmineru S9**  
+Zde se naučíte, jak nakonfigurovat svůj Antminer S9 pro domácí použití. Provedeme vás kroky nastavení Wi-Fi/Ethernet bridge, resetováním zařízení, instalací BraiinsOS+ a optimální konfigurací pro těžbu.
 
-### Učební plán:
+**Sekce 5: Attakai - úprava ventilátorů**  
+Pro optimalizaci vašeho Antmineru S9 pro použití jako doplňkové topení vás tato část naučí, jak vyměnit napájecí ventilátory a hlavní ventilátory. Tyto úpravy jsou nezbytné pro snížení hluku a zlepšení tepelné účinnosti zařízení.
 
-Teoretická část:
+**Sekce 6: Attakai - nastavení**  
+Na závěr se naučíte, jak se připojit k těžebnímu poolu a optimalizovat výkon vašeho Antmineru S9. Objevíte, jak dosáhnout optimální energetické účinnosti a efektivně těžit své první satoshi.
 
-- Vysvětlení těžby.
-- Těžební průmysl.
-- Nuance těžebního průmyslu.
-- Těžba v protokolu Bitcoinu.
-- Cena Bitcoinu a Hashrate, korelace? Suverenita a regulace
-- Rozhovor s profesionálem z těžebního průmyslu
+Tak co, jste připraveni objevit svět těžby Bitcoinu a zvládnout praktický úkol Attakai? Pojďme na to!
 
-Praktická část: Attakai
-
-- Úvod do Attakai.
-- Nákupní průvodce.
-- Úprava softwaru Antmineru S9.
-- Výměna ventilátorů pro snížení hluku.
-- Konfigurace poolu.
-- Konfigurace Antmineru S9 s Braiins OS+.
-
-Jste připraveni vstoupit do této poutavé dobrodružství? Pojďme se společně ponořit do fascinujícího světa domácí těžby!
 
 # Vše, co potřebujete vědět o těžbě
 
@@ -201,7 +191,7 @@ Spekulace obklopují budoucí využití prostoru v blocích, ale obecně je při
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kdo má moc? Bitcoin, energie a výrobci](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Role těžařů v síti Bitcoin byla předmětem intenzivní debaty během tzv. "válek o velikost bloku". Ačkoliv jsou pro bezpečnost a funkčnost sítě nezbytní, těžaři nutně nevlastní konečnou moc v ekosystému Bitcoinu. Rovnováha mezi těžaři, uzly a koncovými uživateli zajišťuje integritu a distribuci sítě.
 
 ### Války o velikost bloku
@@ -242,7 +232,7 @@ Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektr
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Jak získat čistý a nedotčený bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, cena a ziskovost
 
@@ -306,7 +296,7 @@ Závěrem, navzdory regulačnímu riziku a možnosti zákazu těžby v Evropě, 
 
 ### Za scénou průmyslové těžby - Sebastien Gouspillou
 
-![Za kulisami průmyslového těžení - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Domácí těžba a opětovné využití tepla
 
@@ -764,7 +754,7 @@ Dnes existuje nový pokrok v softwaru a firmwaru pro těžbu nazvaný autotuning
 Toto stanovuje horní limit pro hash rate, kterého může stroj dosáhnout. Autotuning je proces, při kterém algoritmy vyhodnocují optimální frekvence pro hashování jednotlivých čipů, místo aby byl celý stroj považován za jednotnou jednotku. To znamená, že čip vyšší kvality, který dokáže provést více hashů za sekundu, dostane vyšší frekvenci, a čip nižší kvality, který dokáže provést relativně méně hashů, dostane nižší frekvenci. Autotuning na úrovni čipů je v podstatě způsob, jak optimalizovat výkon ASIC prostřednictvím softwaru a firmware, který na něm běží.
 Výsledkem je vyšší hash rate na watt elektrické energie, což znamená větší ziskové marže pro těžaře. Důvodem, proč stroje nejsou distribuovány s tímto typem softwaru, je to, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, takže je špatný nápad, aby výrobci prodávali produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají mnoho zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
-# Závěr
+# Sekce finále
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

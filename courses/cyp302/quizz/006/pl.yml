@@ -1,0 +1,9 @@
+question: Które pojęcie nie jest związane wyłącznie z symetrycznymi lub asymetrycznymi schematami kryptograficznymi?
+answer: Funkcje Hash
+wrong_answers:
+  - Pary kluczy publicznych i prywatnych
+  - Kryptografia asymetryczna
+  - Kryptografia symetryczna
+explanation: |
+  Funkcje Hash są kluczowym elementem nowoczesnej kryptografii, ale nie są one specjalnie powiązane z symetrycznymi lub asymetrycznymi schematami, w przeciwieństwie do kluczy publicznych i prywatnych.
+reviewed: false

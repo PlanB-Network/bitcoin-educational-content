@@ -1,0 +1,9 @@
+question: एक Commitment Transaction (Zero Base Fee) लाइटनिंग चैनल में क्या दर्शाता है?
+answer: दोनों पक्षों के बीच धन का नया वितरण
+wrong_answers:
+  - कुल लेन-देन की संख्या
+  - लेन-देन के लिए भुगतान की जाने वाली फीस की राशि
+  - एक नए भुगतान चैनल का उद्घाटन
+explanation: |
+  Commitment Transaction चैनल में हर Lightning ट्रांज़ैक्शन के बाद फंड के मौजूदा बँटवारे को दिखाता है, लेकिन जब तक चैनल खुला रहता है, तब तक इसे Blockchain पर पब्लिश नहीं किया जाता।
+reviewed: false

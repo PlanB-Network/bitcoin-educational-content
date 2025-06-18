@@ -1,0 +1,9 @@
+question: 什麼是 Bitcoin 上的 UTXO？
+answer: 一片尚未花費的 Bitcoin。
+wrong_answers:
+  - A Bitcoin Address 接受資金。
+  - Bitcoin Wallet 的特殊類型。
+  - Bitcoin 的加密演算法。
+explanation: |
+  UTXO 是未使用的交易輸出，因此基本上是「一片 Bitcoin」。
+reviewed: false

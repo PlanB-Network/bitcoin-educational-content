@@ -1,0 +1,9 @@
+question: 在偽隨機鏈中，seed 的主要功能是什麼？
+answer: 作為產生更長鏈的起點
+wrong_answers:
+  - 要定義一個偽隨機鏈的固定長度
+  - 驗證偽隨機鏈的完整性
+  - 將均勻分佈加入鏈的值中
+explanation: |
+  seed 是一個較短的字串，用來作為擴充演算法的起點，以 generate 一個較長的偽隨機鏈。
+reviewed: false

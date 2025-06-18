@@ -1,0 +1,13 @@
+question: Cold Wallet ni nini?
+answer: Wallet katika kifaa halisi ambacho huhifadhi funguo zako na hakijaunganishwa kwenye mtandao.
+wrong_answers:
+  - Wallet ambayo ni Cold ya kugusa.
+  - Wallet ambayo haipendezwi na watumiaji wa Bitcoin.
+  - Wallet ambayo inapendekezwa kwa kuhifadhi kiasi kidogo cha bitcoins.
+explanation: |
+  Cold Wallet ni neno linalotumiwa kuelezea Bitcoin Wallet
+  ambayo imehifadhiwa kwenye kifaa ambacho hakijaunganishwa na
+  mtandao. Hii inaifanya iwe chini ya hatari ya vitisho vya mtandaoni,
+  lakini pia inamaanisha kuwa Wallet haipatikani kwa urahisi
+  shughuli za kila siku.
+reviewed: true

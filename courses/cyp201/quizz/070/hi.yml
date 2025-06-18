@@ -1,0 +1,9 @@
+question: HD वॉलेट्स के hierarchy में depth 0 क्या represent करता है?
+answer: मास्टर कुंजी और मास्टर चेन कोड
+wrong_answers:
+  - बाहरी पते की श्रृंखला
+  - डिफ़ॉल्ट अकाउंट
+  - मुद्रा का प्रकार
+explanation: |
+  Depth 0 मास्टर की और मास्टर चेन कोड से मेल खाता है, जो HD Wallet में सभी डेरिवेशन के शुरुआती बिंदु होते हैं।
+reviewed: false

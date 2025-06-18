@@ -1,10 +1,9 @@
-question: What is the risk of not owning the private key to your Bitcoin wallet?
-answer: Your bitcoins are subject to risks such as hacking, seizure, regulation, or bankruptcy
+question: What major risk is incurred by disclosing too much information in the inheritance plan?
+answer: Risk of theft
 wrong_answers:
-  - Your bitcoins will be automatically converted to another cryptocurrency
-  - Your bitcoins will lose their value
-  - Your bitcoins will be transferred to another wallet
+  - Risk of loss
+  - Risk of devaluation
+  - Risk of regulation
 explanation: |
-  If you do not own the private key to your Bitcoin wallet, your bitcoins
-  are subject to risks such as hacking, seizure, regulation, or bankruptcy.
+  Too much information can make it easier for malicious individuals to act if they gain access to your inheritance plan.
 reviewed: false

@@ -26,7 +26,32 @@ Připojte se k Damienovi Theillierovi v této obohacující exploraci myšlení 
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Úvod do kurzu
+## Přehled kurzu
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Cílem tohoto kurzu je poskytnout vám hluboké pochopení života, intelektuálních vlivů, ideologických protivníků a ekonomických teorií Frédérica Bastiata. Prostřednictvím této strukturované cesty zjistíte, jak jeho myšlenky ovlivnily ekonomické myšlení a nadále ovlivňují současné debaty.
+
+**Sekce 1: Úvod**  
+Začneme obecným přehledem Frédérica Bastiata, neznámého génia ekonomie. Seznámíte se s jeho životem, intelektuálním vývojem a historickým kontextem, ve kterém rozvíjel své myšlení. Pochopení tohoto rámce je klíčové pro plné pochopení rozsahu jeho spisů a teorií.
+
+**Sekce 2: Vlivy**  
+Budeme pokračovat analýzou myslitelů, kteří ovlivnili ekonomické myšlení Frédérica Bastiata. Dozvíte se, jak významné osobnosti jako Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer nebo Richard Cobden přispěly k jeho intelektuálnímu rozvoji a položily základy jeho úvah o volném obchodu a tržní ekonomice.
+
+**Sekce 3: Protivníci**  
+Poté se budeme věnovat Bastiatovým kritikám jeho ideologických protivníků. Ať už se jednalo o Rousseaua, klasické vzdělávání, protekcionismus, socialismus nebo Proudhona, pochopíte, proč Bastiat považoval tyto doktríny za překážky ekonomického a sociálního pokroku a jak na jejich argumenty reagoval přesvědčivou logikou.
+
+**Sekce 4: Ekonomické Sofismy**  
+Tato část je věnována ekonomickým sofismům, které Bastiat kritizoval, včetně známých "*To, co je vidět a co není vidět*" a "*Žádost výrobců svíček*". Prozkoumáme, jak Bastiat pomocí satiry a důkladné analýzy dokázal odhalit ekonomické omyly své doby, které jsou aktuální i dnes.
+
+**Sekce 5: Ekonomické Harmonie**  
+Zde se seznámíte s Bastiatovou pozitivní vizí ekonomie. Zaměříme se na koncepty jako zázrak trhu, sílu individuální odpovědnosti a rozlišení mezi pravou a falešnou solidaritou. Bastiat viděl ekonomii jako soudržný systém, kde správně chápaný osobní zájem přináší užitek celku. Dozvíte se proč.
+
+**Sekce 6: Zákon**  
+Na závěr tohoto kurzu se ponoříme do Bastiatova hlavního díla, "*Zákon*", kde vysvětluje své úvahy o právu na majetek, zákonné loupeži a omezené roli státu. Pochopíte, proč je tento esej považován za jeden z nejpřesvědčivějších manifestů ve prospěch individuální svobody a tržní ekonomiky.
+
+Připraveni zjistit, jak Bastiatovy myšlenky mohou i dnes rezonovat? Připojte se k nám na této intelektuální cestě, která může změnit vaše chápání ekonomie!
+
+## Bastiat: neznámý génius
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -117,6 +142,14 @@ Adam Smith ukazuje, že sloužit vlastnímu zájmu může člověk pouze tím, �
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Přirozené úsilí každého jednotlivce o zlepšení vlastních podmínek... je natolik silné, že samo, bez jakékoli pomoci, je nejen schopné dovést společnost k bohatství a prosperitě, ale také překonat stovky nepříhodných překážek, jimiž její činnost často zatěžuje pošetilost lidských zákonů.“  
+>_Bohatství národů_  
+>_Kniha IV, Kapitola V_
+
+---
+
 Výměna je hra s kladným součtem. Co jeden získá, získá i druhý. Líší se tedy od politického přerozdělování, kde je vždy vítěz a poražený. Pokud uvažujeme o anglické škole, pro Smitha, pro Ricarda a pro Locka před nimi, je hodnota spojena s prací. Pro Marxe je to stejné.
 
 ![image](assets/en/018.webp)
@@ -130,6 +163,12 @@ Ekonomie se řídí několika jednoduchými zákony odvozenými z lidského chov
 
 ![image](assets/en/019.webp)
 
+---
+
+>Individuální svoboda = Sociální harmonie
+
+---
+
 Skutečně, produkty se kupují v očekávání služeb, které si kupující slibuje: Kupuji disk kvůli hudbě, kterou si poslechnu, kupuji vstupenku do kina kvůli filmu, který uvidím. A při výměně každá strana rozhoduje, protože soudí, že z toho, co získá, může odvodit více služeb, než co vzdá. V tomto kontextu je peníze jen prostředníkem, kompenzují za poskytnutou službu a otevírají další služby.
 
 Pro Bastiata ekonomika výměn, tj. vzájemných služeb svobodně nabízených a přijímaných, je tím, co podporuje mír a prosperitu, umožňuje harmonii zájmů.
@@ -137,8 +176,10 @@ Pro Bastiata ekonomika výměn, tj. vzájemných služeb svobodně nabízených 
 Ale od Jean-Baptiste Saya, Frédéric Bastiat také zdědil klíčový koncept, ten o loupeži. Neboť, jak říká, ozvěnou slov Saya:
 
 > Existují pouze dva způsoby, jak získat věci nezbytné pro zachování, zkrášlení a zlepšení života: produkce a loupež.
-> Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco lupiči využívají sílu a podvod. Proto je na zákonu, aby potlačil loupení a zajistil ochranu práce i majetku. Jak již Adam Smith uvedl, zajištění bezpečnosti občanů je hlavním posláním veřejné autority a právě to legitimizuje vybírání daní.
-> ![image](assets/en/020.webp)
+
+Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco lupiči využívají sílu a podvod. Proto je na zákonu, aby potlačil loupení a zajistil ochranu práce i majetku. Jak již Adam Smith uvedl, zajištění bezpečnosti občanů je hlavním posláním veřejné autority a právě to legitimizuje vybírání daní.
+
+![image](assets/en/020.webp)
 
 ## Antoine Destutt de Tracy
 
@@ -296,9 +337,14 @@ Bastiat skutečně považuje Rousseaua za pravého předchůdce socialismu a kol
 
 Původně je člověk pouze měšťanem. Ale měšťan je kalkulátor; chce své okamžité potěšení, je otrokem svých smyslů, svých touh, svého zvláštního zájmu. Stručně řečeno, není racionální, a proto není svobodný. Musí být vzdělán, aby pochopil, že jeho pravým zájmem je obecný zájem. To je důvod, proč Rousseau napsal ve Společenské smlouvě:
 
-> Kdo odmítne poslouchat všeobecnou vůli, bude celým tělesem donucen: to znamená nic jiného, než že budou nuceni být svobodní.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Kdokoli odmítne uposlechnout obecnou vůli, bude k tomu donucen celým tělem: což neznamená nic jiného, než že bude donucen být svobodný.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Podle této doktríny má člověk v sobě dvě vůle: vůli směřující k osobnímu zájmu, toho měšťana, a vůli směřující k obecnému zájmu, toho občana. Vést lidi, i násilím, k chtění racionálního cíle, obecného zájmu, znamená vést lidi k tomu, aby se stali svobodnými. To, co ve skutečnosti chtějí, je racionální cíl, i když to nevědí.
 Je tedy podle Rousseaua zcela legitimní omezovat lidi ve jménu cíle, který by si sami, kdyby byli více osvíceni, vytyčili, ale který nesledují, protože jsou slepí, nevědomí nebo zk corruptní. Společnost je založena, aby je donutila dělat to, co by měli spontánně chtít, kdyby byli osvíceni. A tímto jednáním jim není činěno násilí, protože jsou vedeni k tomu, aby byli "svobodní", to znamená, aby dělali správná rozhodnutí, rozhodnutí, která jsou v souladu s jejich pravým já.
@@ -401,6 +447,14 @@ A nadále by analyzoval jeho zvrácené účinky. Zde je jeden příklad, citova
 - 3° Bastiat dodává, že podle jeho názoru byl protekcionismus prvním projevem tohoto nepořádku. Kapitalisté začali požadovat zásah zákona, aby zvýšili svůj podíl na bohatství. Nevyhnutelně, dělníci chtěli udělat totéž.
 
 ![image](assets/en/063.webp)
+
+---
+
+>PRO ÚSPĚCH  
+>HLAŇTE PRO SOCIALISTICKOU SFIO
+
+---
+
 Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to, co hledají od zákona, není zajistit každému svobodné uplatnění jeho schopností a spravedlivou odměnu za jeho úsilí, ale spíše upřednostnit více či méně úplné využívání jedné třídy občanů druhou. S protekcionismem je to menšina, která využívá většinu. Se socialismem je to většina, která využívá menšinu. V obou případech je porušena spravedlnost a ohrožen veřejný zájem. Bastiat je staví proti sobě.
 
 > Stát je velká fikce, díky které se každý snaží žít na úkor všech ostatních.
@@ -509,6 +563,12 @@ V roce 1840 hlasovala Sněmovna poslanců pro zákon zvyšující dovozní cla z
 Bastiat tehdy složil satirický text, který se později stal jedním z jeho nejslavnějších děl: "petice svíčkářů". Ilustruje, jak určité dobře organizované tlakové skupiny výrobců získávají od státu neoprávněné výhody na úkor občanů. Zároveň ukazuje absurdní a destruktivní povahu protekcionistické legislativy.
 
 ![image](assets/en/079.webp)
+
+---
+
+>CHRAŇTE NAŠE SVÍČKY!
+
+---
 
 V této petici svíčkáři žádají poslance o právní ochranu proti nebezpečnému konkurentovi:
 
@@ -780,6 +840,12 @@ Je to proto, že člověk riskuje, že udělá chybu nebo jedná špatně a pone
 
 ![image](assets/en/110.webp)
 
+---
+
+>Mýlit se je lidské.
+
+---
+
 Je tedy jasné, že Bastiat není slepý. Nezapírá existenci zla. Člověk je slabý, náchylný k chybám a vině. Nikde neuvidíte Bastiata popírat fakt, že cvičení individuální svobody je spojeno s možností chyby, možností neracionální nebo nesmyslné volby.
 
 Jednoduše tvrdí, že pokud zdroj zla leží v absenci svobody, lék je ve svobodě samotné, a konkrétněji v plném a celkovém cvičení osobní odpovědnosti.
@@ -819,6 +885,15 @@ A znovu:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Společnost  
+>vzájemné pomoci  
+>v GUISY  
+>1899
+
+---
+
 Podle Bastiata však existuje alternativa k povinné státní solidaritě: "vzájemná pomocná společnost"
 
 vzájemná a spontánní pomoc lidí mezi sebou díky vzájemným pomocným společnostem. Ale také předvídal, že stát tyto vzájemné společnosti nakonec převezme a promění je v jedinečné a centralizované těleso, podporující výdaje a plýtvání.
@@ -828,6 +903,16 @@ vzájemná a spontánní pomoc lidí mezi sebou díky vzájemným pomocným spol
 V pamfletu nazvaném "Spravedlnost a bratrství" Bastiat také zkoumá myšlenku zjednodušeného a spravedlivého daňového systému pro financování kolektivních potřeb (policie, spravedlnost, armáda): příjmy a zisky by podléhaly jednotné a proporcionální daňové sazbě. To je to, co je dnes známé jako "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Nadace –  
+>**přidaná hodnota**  
+>pro **společnost**  
+>
+>SwissFoundations
+
+---
 
 Skutečně, solidarita v rámci rodiny, místní solidarita nebo organizovaná filantropie jsou mnohem více rozvinuté v zemích, které mají lehký daňový systém a relativně vysoký stupeň ekonomické svobody, jako je Švýcarsko a Spojené státy, zatímco je výrazně potlačena v zemích, kde stát do značné míry nahradil individuální odpovědnost, jako je Francie nebo Německo.
 Často je módní naříkat nad "sobeckostí", která by měla převládat v liberálních společnostech. Ale pravda je přesně opačná. Když je společnost zatížena daněmi a jednotlivci již nevlastní svůj majetek, nejsou povzbuzováni k dávání, ale spíše k uzavírání se do sebe.
@@ -1023,7 +1108,7 @@ Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům 
 ![obrázek](assets/test/143.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
 
-# Závěr
+# Sekce finále
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

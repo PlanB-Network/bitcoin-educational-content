@@ -1,0 +1,10 @@
+question: Jak Wabisabi radzi sobie ze zmianami w porównaniu do Wasabi 1.0?
+answer: Dzieli ją na kilka małych kwot dystrybuowanych w równych nominałach.
+wrong_answers:
+  - Konsoliduje je, aby zapobiec ich przekształceniu w Dust.
+  - Wyklucza je przed transakcją CoinJoin poprzez wyrównanie wejść.
+  - Automatycznie przeniesie go do rezerwowego Wallet.
+explanation: |
+  W przeciwieństwie do Wasabi 1.0, gdzie zmiana była bezpośrednio powiązana z wkładem użytkowników, Wabisabi ma na celu podzielenie zmiany na kilka małych kwot, dystrybuowanych w równych nominałach do wszystkich uczestników.
+  
+reviewed: false

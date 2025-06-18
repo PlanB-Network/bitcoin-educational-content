@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa różnica między merkantylizmem a wolnym handlem według fizjokratów?
+answer: Merkantylizm wzbogaca jeden naród kosztem innych, podczas gdy wolny handel wzbogaca wszystkie narody.
+wrong_answers:
+  - Merkantylizm jest grą o sumie dodatniej, podczas gdy wolny handel jest grą o sumie zerowej.
+  - Merkantylizm promuje konkurencję.
+  - Wolny handel promuje wymianę.
+explanation: |
+  Dla fizjokratów merkantylizm opiera się na założeniu, że naród wzbogaca się kosztem innych, podczas gdy wolny handel pozwala na wzajemne korzyści, wzbogacając wszystkie narody poprzez wzajemnie korzystną wymianę.
+reviewed: false

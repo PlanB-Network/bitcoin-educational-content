@@ -1,0 +1,9 @@
+question: Assignment, RGB प्रोटोकॉल में क्या है?
+answer: एक आउटपुट जो Contract की स्टेट में प्रॉपर्टीज़ को मॉडिफाई, अपडेट या क्रिएट करता है
+wrong_answers:
+  - एक अनोखा क्रिप्टोग्राफ़िक Commitment जो Bitcoin ट्रांजैक्शन में स्टोर है
+  - एक जीडब्ल्यू-5 लेनदेन जिस पर अंतिम सत्यापन से पहले आंशिक रूप से हस्ताक्षर किए गए हैं
+  - Global State का पब्लिक अपडेट
+explanation: |
+  एक Assignment, Seal Definition और Owned State को मिलाकर बनता है जो राज्य के आवंटित हिस्से को दर्शाता है।
+reviewed: false

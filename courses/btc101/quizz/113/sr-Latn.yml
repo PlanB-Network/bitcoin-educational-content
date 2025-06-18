@@ -1,0 +1,9 @@
+question: Šta sprečava sve da koriste isti Bitcoin Wallet?
+answer: Različitim pojedincima su potrebni različiti slučajevi upotrebe.
+wrong_answers:
+  - Skupo je koristiti Bitcoin Wallet.
+  - Nezakonito je koristiti Bitcoin Wallet.
+  - Ljudi se nikada neće složiti oko imena takvog Wallet.
+explanation: |
+  Dok jedna osoba može da daje prioritet bezbednosti, druga može da ceni jednostavnost korišćenja ili specifične funkcije. Stoga, jedan Bitcoin Wallet možda neće zadovoljiti zahteve svih, što čini neophodnim postojanje više opcija Wallet.
+reviewed: true

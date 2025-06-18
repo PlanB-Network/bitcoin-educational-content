@@ -1,0 +1,9 @@
+question: Koja je karakteristika uniformne promenljive?
+answer: Sve moguće vrednosti imaju jednaku verovatnoću pojavljivanja
+wrong_answers:
+  - Vrednosti prate asimetričnu distribuciju
+  - Verovatnoća svake vrednosti zavisi od eksperimenta
+  - Samo dve vrednosti mogu se pojaviti sa jednakim verovatnoćama
+explanation: |
+  Uniformna promenljiva je slučajna promenljiva kod koje sve moguće vrednosti imaju jednaku verovatnoću pojavljivanja.
+reviewed: false

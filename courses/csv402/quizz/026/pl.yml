@@ -1,0 +1,9 @@
+question: Jaki jest cel Interface Implementation w architekturze RGB?
+answer: Mapowanie pól Schema do nazw zdefiniowanych w Interface
+wrong_answers:
+  - Kompilacja skryptów AluVM do walidacji
+  - Aby zdefiniować stany globalne i stany własne Contract
+  - Aby przechowywać dowody kryptograficzne po stronie klienta
+explanation: |
+  Interface Implementation ustanawia połączenie między Business Logic Schema a prezentacją odczytywaną przez Interface.
+reviewed: false

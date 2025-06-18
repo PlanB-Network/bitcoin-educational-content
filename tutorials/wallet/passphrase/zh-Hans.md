@@ -35,7 +35,7 @@ HD 钱包通常由包含 12 个或 24 个单词的助记词短语生成。这个
 
 要在 Ledger 设备（Stax、Flex 或 Nano）上设置密语，您可以参考此教程：
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 在 COLDCARD 上：
 
@@ -48,4 +48,8 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 在 Passport (batch-2) 上：
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
+在 Trezor 设备上（Safe 3、Safe 5 或 Model One）：
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 

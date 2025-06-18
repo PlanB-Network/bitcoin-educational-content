@@ -1,0 +1,9 @@
+question: Jakie są 3 główne etapy analizy Blockchain?
+answer: Obserwacja Blockchain, identyfikacja cech i wnioskowanie hipotez.
+wrong_answers:
+  - Gromadzenie danych, bezpieczne przechowywanie i raportowanie.
+  - Identyfikacja użytkowników, regulacja wymiany i ochrona przed oszustwami.
+  - Zbieranie danych, wybór losowy i donos.
+explanation: |
+  Analiza Blockchain obejmuje najpierw dostęp do danych Bitcoin Blockchain, następnie próbę zidentyfikowania cech w tych danych, a na koniec dokonanie wiarygodnych interpretacji.
+reviewed: false

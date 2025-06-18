@@ -1,0 +1,9 @@
+question: W jaki sposób technologia Keysend umożliwia transfer środków bez Invoice?
+answer: Nadawca generuje sekret w HTLC, aby odblokować środki
+wrong_answers:
+  - Odbiorca generuje Hash w celu zatwierdzenia przelewu
+  - Płatność jest zatwierdzana za pośrednictwem bezpośredniego kanału między nadawcą a odbiorcą
+  - Środki są zasilane bezpośrednio bez dodatkowych zabezpieczeń
+explanation: |
+  Keysend pozwala nadawcy na generate sekretu osadzonego w HTLC, umożliwiając odbiorcy odblokowanie środków bez wydawania Invoice.
+reviewed: false

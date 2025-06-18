@@ -1,0 +1,9 @@
+question: Jukumu la Stash ni nini?
+answer: Weka data zote za upande wa mteja ndani ya nchi
+wrong_answers:
+  - Chapisha shughuli kiotomatiki kwenye Blockchain
+  - Kusanya na kuhifadhi ankara zote zinazozalishwa
+  - Kusimamia funguo za kibinafsi za Bitcoin
+explanation: |
+  Stash ni seti ya data ya upande wa mteja ambayo mtumiaji huhifadhi ndani kwa kandarasi moja au zaidi za RGB, ili kutekeleza Client-side Validation.
+reviewed: false

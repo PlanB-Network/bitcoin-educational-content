@@ -1,0 +1,9 @@
+question: Dlaczego szyfrowanie Shift jest podatne na ataki brute force?
+answer: Ponieważ ma tylko 26 możliwych kluczy
+wrong_answers:
+  - Ponieważ używa klucza publicznego
+  - Ponieważ opiera się na szyfrowaniu symetrycznym
+  - Ponieważ używa liczb losowych
+explanation: |
+  Szyfrowanie Shift jest łatwo podatne na ataki brute force, ponieważ ma tylko 26 możliwych kluczy, od 0 do 25, ze względu na użycie modulo 26, które samo w sobie zależy od rozmiaru alfabetu. Nie można użyć większych prawidłowych kluczy, ponieważ w każdym przypadku byłyby one równoważne kluczowi od 0 do 25. Dlatego wystarczy przetestować każdy z nich, aby znaleźć wiadomość.
+reviewed: false

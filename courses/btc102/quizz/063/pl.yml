@@ -1,0 +1,9 @@
+question: Jakie główne ryzyko wiąże się z ujawnieniem zbyt wielu informacji w planie spadkowym?
+answer: Ryzyko kradzieży
+wrong_answers:
+  - Ryzyko straty
+  - Ryzyko dewaluacji
+  - Ryzyko regulacji
+explanation: |
+  Zbyt duża ilość informacji może ułatwić działanie złośliwym osobom, które uzyskają dostęp do planu spadkowego.
+reviewed: false

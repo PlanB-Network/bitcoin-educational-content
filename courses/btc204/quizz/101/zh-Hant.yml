@@ -1,0 +1,10 @@
+question: 在 Bitcoin 的連鎖分析中，如何計算熵？
+answer: 藉由求解釋數量的二進位對數。
+wrong_answers:
+  - 將輸入的數目乘以輸出的數目。
+  - 透過增加輸入和輸出的數量。
+  - 通過對輸入和輸出的數量進行二進制對數。
+explanation: |
+  Entropy 定義為可能組合數的二進位對數。
+  
+reviewed: false

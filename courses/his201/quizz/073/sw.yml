@@ -1,0 +1,9 @@
+question: Ni huduma gani ya kijasusi ya shirikisho la Marekani ilimwalika Gavin Andresen mnamo Aprili 2011 kuwasilisha Bitcoin miezi michache baadaye?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  Hasa zaidi, ilikuwa In-Q-Tel, mfuko wa mtaji wa ubia wa Marekani unaosimamiwa na CIA, lakini ziara hiyo kweli ilifanyika katika makao makuu ya CIA.
+reviewed: false

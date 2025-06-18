@@ -1,0 +1,10 @@
+question: Je, ni nchi ngapi duniani zinawazuia wanawake kufungua akaunti za benki kwa majina yao wenyewe?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  Katika nchi 72 duniani kote, wanawake hawaruhusiwi kufungua
+  akaunti za benki kwa majina yao wenyewe.
+reviewed: true

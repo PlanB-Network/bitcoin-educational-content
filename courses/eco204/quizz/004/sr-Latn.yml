@@ -1,0 +1,10 @@
+question: Ko Larousse-u, inflacija je definisana kao "stalni porast opšteg nivoa cena robe i usluga u ekonomiji tokom određenog vremenskog perioda".
+answer: Inflacija je fenomen koji karakteriše opšti i kontinuirani rast nivoa cena.
+wrong_answers:
+  - Inflacija je fenomen koji karakteriše opšti i kontinuirani pad nivoa cena.
+  - Inflacija je fenomen koji karakteriše specifičan i kontinuiran rast nivoa cena.
+  - Inflacija je fenomen koji karakteriše generalizovani i povremeni rast nivoa cena.
+explanation: |
+  Prema Larousse-u, inflacija se definiše kao fenomen koji karakteriše
+  opšti i kontinuirani porast nivoa cena.
+reviewed: false

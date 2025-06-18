@@ -1,0 +1,11 @@
+question: Koja je bila svrha Notgelda tokom ekonomske krize u Nemačkoj?
+answer: Dizajniran je da Address nedostatak zajedničke valute.
+wrong_answers:
+  - Korišćeno je za plaćanje ratnih reparacija.
+  - To je bio oblik protesta protiv vlade.
+  - Bio je to način da se stimuliše ekonomija.
+explanation: |
+  Suočena sa monetarnom i ekonomskom krizom, Nemačka je pribegla Notgeldu
+  (hitnom novcu). Ove novčanice, koje su štampali gradovi ili određene kompanije, bile su dizajnirane
+  da Address nedostatak uobičajene valute.
+reviewed: false

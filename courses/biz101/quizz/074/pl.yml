@@ -1,0 +1,9 @@
+question: Jakie zaawansowane funkcje bezpieczeństwa są zazwyczaj wdrażane na poziomie przedsiębiorstwa dla bitcoinów?
+answer: Wielokrotny podpis z zegarami
+wrong_answers:
+  - Ochrona hasłem dla mobilnego Lightning Wallet
+  - Single-sig z zabezpieczeniem BIP39 passphrase
+  - Single-sig z 24 słowami frazy seed
+explanation: |
+  Wysokie środki bezpieczeństwa, takie jak konfiguracje z wieloma podpisami i blokadami czasowymi, mają kluczowe znaczenie dla zarządzania dużymi kwotami.
+reviewed: false

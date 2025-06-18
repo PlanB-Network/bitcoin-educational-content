@@ -1,0 +1,8 @@
+question: Coinbase Transaction क्या है?
+answer: ब्लॉक का पहला लेन-देन जिसमें Miner का इनाम शामिल है।
+wrong_answers:
+  - Exchange कॉइनबेस पर किया गया एक लेन-देन।
+  - ब्लॉक का दूसरा लेन-देन जिसमें सबसे ज़्यादा फीस शामिल हो।
+  - Miner द्वारा इनाम मिलने के बाद किया गया एक लेन-देन।
+explanation: >
+reviewed: true

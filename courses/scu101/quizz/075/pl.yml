@@ -1,0 +1,9 @@
+question: Jakie cechy definiują dobre hasło?
+answer: Długi, złożony i wyjątkowy.
+wrong_answers:
+  - Krótkie, proste i łatwe do zapamiętania.
+  - Na podstawie danych osobowych.
+  - Identyczne dla wszystkich kont.
+explanation: |
+  Dobre hasło powinno być wystarczająco długie, złożone i nie powinno być ponownie używane.
+reviewed: false

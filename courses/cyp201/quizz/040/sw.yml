@@ -1,0 +1,9 @@
+question: Kwa nini ni hatari kwa manually generate entropy kwa HD Wallet?
+answer: Inaweza kuanzisha udhaifu wa kibinadamu au upendeleo unaotabirika
+wrong_answers:
+  - Husababisha funguo za umma zisizo sahihi
+  - Inazuia kupatikana kwa funguo za kibinafsi
+  - Inaweka mipaka ya saizi ya misemo ya Mnemonic inayozalishwa
+explanation: |
+  Kuzalisha entropy kwa mikono kunaweza kuanzisha upendeleo au makosa, na kufanya funguo kuwa hatarini zaidi kwa mashambulizi.
+reviewed: false

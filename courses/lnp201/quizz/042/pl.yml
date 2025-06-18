@@ -1,0 +1,9 @@
+question: Jakie kryterium może pomóc węzłowi wybrać efektywną ścieżkę płatności?
+answer: Prawdopodobieństwo sukcesu w oparciu o całkowitą przepustowość kanałów
+wrong_answers:
+  - Odległość geograficzna między węzłami
+  - Obecność węzłów o niskim poziomie opłat
+  - Liczba płatności dokonanych przez węzeł docelowy
+explanation: |
+  Całkowita przepustowość kanałów może wskazywać na większe prawdopodobieństwo sukcesu, ponieważ sugeruje większą dostępność płynności dla transakcji.
+reviewed: false

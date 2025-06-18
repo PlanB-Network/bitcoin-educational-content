@@ -1,0 +1,8 @@
+question: Ni nini sababu moja ya Bitcoin sio Bubble ambayo itatoweka?
+answer: Kwa sababu ni sarafu ambayo inatumika kila mahali ulimwenguni.
+wrong_answers:
+  - Kwa sababu haitumiki popote.
+  - Kwa sababu inadhibitiwa na mamlaka kuu.
+  - Kwa sababu ni rahisi kughushi.
+explanation: >-
+reviewed: true

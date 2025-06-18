@@ -1,0 +1,9 @@
+question: Je, ujumbe wa pili wa Beale unaonyesha nini ukishasimbwa?
+answer: Orodha ya hazina zilizozikwa (dhahabu, fedha na vito)
+wrong_answers:
+  - Mahali halisi ambapo hazina imezikwa
+  - Tarehe ya kurudi kwa Beale
+  - Saini ya Beale na ya washirika wake
+explanation: |
+  Baada ya kusimbwa, ujumbe wa pili unaelezea yaliyomo kwenye hazina, inayojumuisha dhahabu, fedha na vito.
+reviewed: false

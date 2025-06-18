@@ -1,0 +1,9 @@
+question: 具有校驗和的擴充金鑰的總大小是多少？
+answer: 82 位元組
+wrong_answers:
+  - 78 位元組
+  - 64 位元組
+  - 128 位元組
+explanation: |
+  擴充金鑰不包含校驗和時為 78 位元組，包含校驗和時為 82 位元組。
+reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Qué es una solución sin KYC en el contexto de Bitcoin?
-answer: Una solución que permite transacciones de Bitcoin anónimas.
+question: ¿Por qué se recomienda escribir la carta de herencia con tinta sobre papel?
+answer: Para evitar los riesgos asociados a los documentos digitales comprometidos
 wrong_answers:
-  - Una solución que permite transacciones de Bitcoin sin internet.
-  - Una solución que permite transacciones de Bitcoin sin una billetera.
-  - Una solución que permite transacciones de Bitcoin sin comisiones.
+  - Para reducir los costes de impresión
+  - Para obtener una firma legalmente reconocida
+  - Aumentar el valor jurídico del documento
 explanation: |
-  Una solución sin KYC (Conoce a tu Cliente) es una solución que permite transacciones de Bitcoin anónimas. No requiere que el usuario proporcione información de identificación personal.
+  Una carta manuscrita es menos vulnerable a los ciberataques y garantiza la confidencialidad de las instrucciones.
 reviewed: false

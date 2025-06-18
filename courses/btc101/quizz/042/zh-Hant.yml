@@ -1,0 +1,13 @@
+question: 央行數位貨幣 (CBDC) 的潛在缺點是什麼？
+answer: 它們會妨礙個人的財務自由，並助長專制濫用。
+wrong_answers:
+  - 它們可能會導致 Supply 的資金減少。
+  - 它們可能會導致 Bitcoin 值下降。
+  - 它們可能會導致黃金價值下降。
+explanation: |
+  中央銀行數位貨幣 (CBDC) 可能會
+  妨礙個人財務自由，並助长
+  專制濫用。這是因為它們會提供一個
+  中央計劃經濟，中央銀行
+  對貨幣 Supply 有更大的控制權。
+reviewed: true

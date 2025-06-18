@@ -1,10 +1,9 @@
-question: Wie hoch ist die Obergrenze für Bitcoins, die jemals existieren werden?
-answer: 21 Millionen
+question: Welches zweite Layer-Protokoll ermöglicht nahezu sofortige Zahlungen?
+answer: Lightning Network
 wrong_answers:
-  - 100 Millionen
-  - 1 Milliarde
-  - Keine Obergrenze
+  - Seitenketten
+  - RGB
+  - Bitcoin Kern
 explanation: |
-  Das Kapitel besagt, dass es niemals mehr als 21 Millionen Bitcoins geben wird.
-  Diese Obergrenze wurde im Bitcoin-Protokoll von Satoshi festgelegt und kann heute nicht geändert werden.
+  Der Lightning Network ermöglicht schnelle und kostengünstige Transaktionen durch off-chain Operationen außerhalb des Bitcoin Blockchain.
 reviewed: false

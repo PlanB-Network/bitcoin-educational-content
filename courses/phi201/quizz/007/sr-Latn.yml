@@ -1,0 +1,9 @@
+question: Koja su dva oblika pljačke koje opisuje Bastiat?
+answer: Legalna pljačka i nelegalna pljačka
+wrong_answers:
+  - Moralna pljačka i nemoralna pljačka
+  - Unutrašnja pljačka i spoljašnja pljačka
+  - Pljačka robe i pljačka usluga
+explanation: |
+  Bastiat razlikuje između legalne pljačke, koja je definisana zakonom i često je sprovodi država (kao što su porezi), i nelegalne pljačke, koja se dešava van zakonskog okvira, poput krađe ili napada.
+reviewed: false

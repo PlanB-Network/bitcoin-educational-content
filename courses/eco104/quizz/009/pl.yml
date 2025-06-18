@@ -1,0 +1,11 @@
+question: Jakie znaczenie ma cytat z The Times 03/Jan/2009 Kanclerz na krawędzi drugiego bailoutu dla banków w pierwszym bloku Bitcoin?
+answer: Podkreśla to zdolność naszego systemu finansowego do uspołeczniania strat
+wrong_answers:
+  - Oznacza to uznanie Satoshi dla gazety The Times
+  - Daje świetny przykład tego, w jaki sposób bailouty przyniosły korzyści naszemu społeczeństwu
+  - Pokazuje nam zdolność Bitcoin do przechowywania wiadomości w Blockchain
+explanation: |
+  Jest to odniesienie do artykułu w gazecie Times (https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) odzwierciedlającego obawy Satoshi, że banki angażują się w ryzykowne zachowania przy niewielkiej
+  obawy, że banki angażowały się w ryzykowne zachowania, z niewielkimi konsekwencjami dla nich
+  konsekwencje dla nich i że straty zostaną podzielone między posiadaczy waluty.
+reviewed: true

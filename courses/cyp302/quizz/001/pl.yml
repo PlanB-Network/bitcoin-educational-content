@@ -1,0 +1,9 @@
+question: Co znajdowało się w żelaznej skrzyni przekazanej Robertowi Morrissowi?
+answer: Trzy zaszyfrowane teksty i notatka
+wrong_answers:
+  - Mapa i wskazówki
+  - Unikalny klucz szyfrowania
+  - Pojedyncza lista nazwisk
+explanation: |
+  Pudełko zawierało trzy zaszyfrowane teksty i notatkę wyjaśniającą odkrycie skarbu i zawierającą instrukcje, jak odzyskać jego zawartość.
+reviewed: false

@@ -162,6 +162,11 @@ La frase de paso no debe confundirse con el código PIN. Juega un papel en la de
 La frase de paso es una herramienta muy poderosa para mejorar la seguridad de tus bitcoins. Sin embargo, es muy importante entender cómo funciona antes de implementarla, para evitar perder acceso a tu billetera. Explicaré cómo usar la frase de paso en otro tutorial dedicado.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+La frase de paso es una herramienta muy poderosa para reforzar la seguridad de tus bitcoins. Sin embargo, es muy importante entender cómo funciona antes de implementarla, para evitar perder el acceso a tu monedero. Por eso te lo explico todo en un tutorial dedicado:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Finalmente, la última página de ajustes te permite restablecer tu Ledger. Solo procede con este restablecimiento si estás seguro de que no contiene ninguna clave que asegure bitcoins, ya que podrías perder permanentemente el acceso a tus fondos.
 ![LEDGER FLEX](assets/notext/30.webp)
 

@@ -1,0 +1,14 @@
+question: Jaka jest rola banku centralnego jako pożyczkodawcy ostatniej instancji?
+answer: Bank centralny pożycza fundusze bankom znajdującym się w trudnej sytuacji podczas kryzysów, aby zapobiec efektowi domina, który mógłby sparaliżować cały system finansowy.
+wrong_answers:
+  - Bank centralny pożycza fundusze bankom znajdującym się w trudnej sytuacji podczas kryzysów, aby zwiększyć własne zyski.
+  - Bank centralny pożycza fundusze bankom znajdującym się w trudnej sytuacji podczas kryzysów, aby przejąć ich działalność.
+  - Bank centralny pożycza fundusze bankom znajdującym się w trudnej sytuacji podczas kryzysów, aby zwiększyć dług publiczny.
+explanation: |
+  Koncepcja banku centralnego jako pożyczkodawcy ostatniej instancji
+  pojawiła się w XIX wieku w Anglii w odpowiedzi na
+  powtarzające się upadki banków, które zagrażały stabilności finansowej. Poprzez
+  pożyczając bankom w trudnej sytuacji, bank centralny może zapobiec
+  efektowi domina upadłości banków, który mógłby doprowadzić do recesji lub depresji
+  recesji lub depresji.
+reviewed: true

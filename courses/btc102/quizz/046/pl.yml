@@ -1,0 +1,9 @@
+question: Jakie narzędzie umożliwia monitorowanie Wallet bez ujawniania kluczy prywatnych?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Lightning Wallet
+  - Custodial Wallet
+explanation: |
+  Watch-only wallet wykorzystuje tylko klucze publiczne do wyświetlania sald i transakcji, bez ryzyka ujawnienia kluczy prywatnych.
+reviewed: false

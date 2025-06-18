@@ -1,0 +1,11 @@
+question: Jaka jest nagroda dla górników w sieci Bitcoin?
+answer: Nowe bitcoiny i opłaty transakcyjne.
+wrong_answers:
+  - Tylko nowe bitcoiny.
+  - Tylko opłaty transakcyjne.
+  - Nie ma nagrody dla górników.
+explanation: |
+  Górnicy w sieci Bitcoin są nagradzani nowymi
+  bitcoinami i opłatami transakcyjnymi za ich pracę przy walidacji
+  i tworzeniu bloków.
+reviewed: true

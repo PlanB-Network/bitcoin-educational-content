@@ -1,0 +1,21 @@
+id: dfaac882-0423-4d29-bf55-674a6eafcd13
+name: Silent Link
+category: service
+
+links:
+  website: https://silent.link/
+  twitter: https://x.com/silentlink1
+
+tags:
+  - business
+  - use-case
+  - adoption
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-05-11
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

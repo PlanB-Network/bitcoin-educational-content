@@ -1,0 +1,9 @@
+question: Kulingana na Bastiat, ni nini matokeo ya uingiliaji kati wa serikali juu ya jukumu la mtu binafsi?
+answer: Inaharibu uwajibikaji kwa kuwakinga watu binafsi kutokana na matokeo ya matendo yao
+wrong_answers:
+  - Inaimarisha wajibu wa mtu binafsi kwa kuanzisha sheria zaidi
+  - Inahimiza wananchi kushiriki kikamilifu katika maisha ya umma
+  - Inahakikisha haki ya usawa zaidi ya kijamii
+explanation: |
+  Bastiat anaamini kwamba kuingilia kupita kiasi kwa serikali kunaondoa kutoka kwa watu binafsi uwezekano wa kuchukua kikamilifu matokeo ya matendo yao, ambayo hudhoofisha hisia zao za uwajibikaji.
+reviewed: false

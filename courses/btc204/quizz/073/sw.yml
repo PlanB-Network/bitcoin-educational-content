@@ -1,0 +1,10 @@
+question: Kati ya majibu yafuatayo, ni ipi ambayo hairuhusu kudanganya heuristics ya uchambuzi wa mnyororo?
+answer: Kila wakati unatumia kupokea sawa kwa Address.
+wrong_answers:
+  - Kuunda mabadiliko ambayo thamani yake iko karibu na malipo.
+  - Kutoa matokeo ya kiasi kisicho cha kawaida, kisicho cha pande zote.
+  - Kusambaza kuenea kwa shughuli kwa siku nzima.
+explanation: |
+  Mtu haipaswi kutumia Address ya kupokea mara nyingi. Majibu mengine yote yanaruhusu kuzuia heuristics ya uchanganuzi wa mnyororo.
+  
+reviewed: false

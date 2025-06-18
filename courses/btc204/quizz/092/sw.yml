@@ -1,0 +1,10 @@
+question: Je! ni jina gani la akaunti inayotumika kwa UTXO ambazo haziwezi kuingia kwenye bwawa la Whirlpool CoinJoin?
+answer: Akaunti ya kubadilisha Doxxic.
+wrong_answers:
+  - Akaunti ya Postmix.
+  - Akaunti ya Premix.
+  - Akaunti ya amana.
+explanation: |
+  Mabadiliko ambayo hayakuweza kujiunga na bwawa yametengwa katika "akaunti ya mabadiliko ya doxxic, ili kuhakikisha utengano mkali kutoka kwa UTXO zingine katika Wallet.
+  
+reviewed: false

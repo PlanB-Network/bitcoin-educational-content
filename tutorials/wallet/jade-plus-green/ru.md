@@ -207,7 +207,7 @@ PIN-код разблокирует ваш нефрит. Таким образо
 
 Для получения дополнительной информации об опции "*2FA*" вы можете прочесть это руководство:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Ваша учетная запись создана.
 

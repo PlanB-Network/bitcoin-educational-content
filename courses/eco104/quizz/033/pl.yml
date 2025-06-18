@@ -1,0 +1,12 @@
+question: Jaka jest jedna zaleta scentralizowanych stablecoinów pomimo ich zdolności do zamrażania środków?
+answer: Mogą szybko reagować, aby chronić użytkowników w określonych scenariuszach
+wrong_answers:
+  - Oferują one pełną decentralizację i bezpieczeństwo
+  - Nie podlegają one żadnym regulacjom ani interwencjom
+  - Działają niezależnie od organów ścigania
+explanation: |
+  Scentralizowane stablecoiny mają możliwość interwencji
+  gdy leży to w najlepszym interesie użytkowników i ogólnej stabilności systemu
+  systemu, o czym świadczą przykłady, w których zamrożone środki zostały
+  w celu ochrony konsumentów i uniemożliwienia hakerom czerpania zysków.
+reviewed: true

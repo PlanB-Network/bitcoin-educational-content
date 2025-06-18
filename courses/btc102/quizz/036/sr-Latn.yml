@@ -1,0 +1,11 @@
+question: Fraza Not your keys, not your Bitcoins naglašava važnost kontrole privatnih ključeva za kriptovalute.
+answer: Važnost posedovanja privatnog ključa za Bitcoin Wallet
+wrong_answers:
+  - Važnost posedovanja fizičkog ključa za pristup vašim Bitcoinima
+  - Važnost čuvanja vaših Bitcoina na sigurnom mestu
+  - Važnost ne deljenja podataka vašeg Bitcoin naloga
+explanation: |
+  Poglavlje objašnjava da fraza Not your keys, not your Bitcoins
+  naglašava važnost posedovanja privatnog ključa za Bitcoin Wallet. Posedovanjem
+  privatnog ključa, imate potpunu kontrolu nad Bitcoinima koje sadrži.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Jakie jest jedno narzędzie do akceptacji Bitcoin dla dużych organizacji lub pasjonatów Bitcoin?
+answer: Serwer BTCpay.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server to narzędzie do akceptowania Bitcoin dla dużych
+  struktur lub pasjonatów bitcoinów. Inne rozwiązania
+  obejmują OpenNode dla prostych firm internetowych i Swiss
+  Bitcoin Pay dla amatorskich sprzedawców.
+reviewed: true

@@ -1,0 +1,10 @@
+question: 使用 Tor 作為 Bitcoin 節點的主要缺點是什麼？
+answer: 通訊速度降低
+wrong_answers:
+  - 交易費用增加
+  - 交易審查風險
+  - 節點遭受 Eclipse 攻擊的風險
+explanation: |
+  Tor 上的通訊速度較慢。這種延遲在節點初始啟動時尤其麻煩，因為 IBD（初始區塊下載）需要大量通訊。
+  
+reviewed: false

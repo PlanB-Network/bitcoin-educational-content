@@ -1,0 +1,8 @@
+question: Lightning Network क्या करने की अनुमति देता है?
+answer: फटाफट, सस्ते Bitcoin लेन-देन।
+wrong_answers:
+  - तुरंत, महंगे Bitcoin लेन-देन।
+  - विलंबित, कम लागत वाले Bitcoin लेन-देन।
+  - विलंबित, महंगी जीडब्ल्यू-4 लेनदेन।
+explanation: >-
+reviewed: true

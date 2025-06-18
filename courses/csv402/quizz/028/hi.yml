@@ -1,0 +1,9 @@
+question: RGB Contract में, Interface का क्या काम है?
+answer: Contract डेटा को आसानी से पढ़ने और इस्तेमाल करने लायक बनाएं
+wrong_answers:
+  - Blockchain पर वैलिडेशन स्क्रिप्ट्स चला रहे हैं।
+  - ग्राहक की तरफ Genesis डेटा स्टोर करें
+  - रिपोर्ट्स के लिए सख्त टाइप सिस्टम को परिभाषित करें
+explanation: |
+  Interface का उद्देश्य Contract की जानकारी को उपयोगकर्ताओं और सॉफ्टवेयर के लिए स्पष्ट तरीके से प्रस्तुत करना है, बिना Business Logic को प्रभावित किए।
+reviewed: false

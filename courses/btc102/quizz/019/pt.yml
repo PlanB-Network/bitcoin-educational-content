@@ -1,10 +1,9 @@
-question: Qual é o risco associado ao armazenamento de Bitcoins em uma plataforma de câmbio?
-answer: A plataforma pode falir, seus Bitcoins podem ser confiscados ou a plataforma pode ser hackeada.
+question: Quem publicou o Livro Branco Bitcoin?
+answer: Satoshi Nakamoto
 wrong_answers:
-  - A plataforma pode aumentar suas taxas, seus Bitcoins podem perder valor ou a plataforma pode ser hackeada.
-  - A plataforma pode falir, seus Bitcoins podem valorizar ou a plataforma pode ser hackeada.
-  - A plataforma pode falir, seus Bitcoins podem ser confiscados ou a plataforma pode aumentar suas taxas.
+  - David Chaum
+  - Tim May
+  - Eric Hughes
 explanation: |
-  Armazenar Bitcoins em uma plataforma de câmbio apresenta riscos, como a falência da plataforma, a confiscação de seus Bitcoins ou o hackeamento da plataforma.
-  Por isso, é importante ter controle sobre sua chave privada.
+  O Livro Branco foi publicado no final de 2008 por Satoshi Nakamoto (um pseudónimo).
 reviewed: false

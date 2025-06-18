@@ -207,7 +207,7 @@ Valige "*Standard*", kui soovite luua klassikalise ühe sümboliga portfelli.
 
 Lisateavet "*2FA*" valiku kohta saate sellest juhendmaterjalist:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Teie konto on loodud.
 

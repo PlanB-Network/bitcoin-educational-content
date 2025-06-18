@@ -1,0 +1,9 @@
+question: Kati ya hatari hizi, ni ipi ambayo haihusiani na ubadilishanaji wa pesa wa P2P?
+answer: Hatari ya kuvuja kwa data.
+wrong_answers:
+  - Hatari kwa usalama wa kibinafsi.
+  - Hatari ya wizi.
+  - Hatari ya kisheria.
+explanation: |
+  Mabadilishano ya pesa ya P2P yana hatari nyingi, lakini hayahitaji kutekeleza KYC. Kwa hiyo, hakuna hatari ya kuvuja data.
+reviewed: false

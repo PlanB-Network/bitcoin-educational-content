@@ -1,0 +1,9 @@
+question: Koja je primarna funkcija Lightning Invoice?
+answer: Zatraži uplatu od čvora pošiljaoca
+wrong_answers:
+  - Pošalji sredstva bez On-Chain transakcije
+  - Aktiviraj HTLC-ove na kanalu
+  - Otvorite novi Lightning kanal
+explanation: |
+  Lightning Invoice je zahtev za plaćanje, koji prenosi čvor primalac čvoru pošiljaocu kako bi pokrenuo plaćanje na Lightning Network.
+reviewed: false

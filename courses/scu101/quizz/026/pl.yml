@@ -1,0 +1,10 @@
+question: Czy Linux i Mac często potrzebują antywirusa?
+answer: To nieprawda
+wrong_answers:
+  - To prawda
+  - Tylko Linux potrzebuje programu antywirusowego.
+  - Tylko Mac potrzebuje programu antywirusowego.
+explanation: |
+  Linux i Mac, dzięki systemowi separacji praw użytkownika
+  często nie potrzebują programów antywirusowych.
+reviewed: true

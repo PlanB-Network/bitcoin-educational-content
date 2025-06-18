@@ -1,0 +1,8 @@
+question: Bitcoin और Mining के पर्यावरणीय खर्च को लेकर मुख्य चिंता क्या है?
+answer: ऊर्जा की खपत।
+wrong_answers:
+  - ASICs का उत्पादन।
+  - ASICs का रीसाइक्लिंग।
+  - बिजली की कीमत।
+explanation: >-
+reviewed: true

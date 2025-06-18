@@ -1,0 +1,9 @@
+question: Koja je posledica hiperinflacije?
+answer: Drastično smanjenje vrednosti valute.
+wrong_answers:
+  - Malo smanjenje vrednosti valute.
+  - Drastično povećanje vrednosti valute.
+  - Malo povećanje vrednosti valute.
+explanation: |
+  Zbog hiperinflacije, pojedinci brzo gube potpuno poverenje u valutu, što dovodi do drastičnog smanjenja njene vrednosti u kratkom vremenskom periodu.
+reviewed: true

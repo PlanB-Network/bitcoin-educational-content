@@ -1,0 +1,9 @@
+question: Koja je poslednja faza koja se javlja u fenomenu hiperinflacije?
+answer: Nova valuta se pojavljuje.
+wrong_answers:
+  - Gubitak poverenja u valutu.
+  - Kolaps valute & povećanje cena.
+  - Zaoštreni krug štampanja novca.
+explanation: |
+  Završna faza hiperinflacije nastupa kada se uvede nova valuta koja zamenjuje staru.
+reviewed: true

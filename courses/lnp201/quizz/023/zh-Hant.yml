@@ -1,0 +1,9 @@
+question: 為什麼 Alice 和 Bob 會 Exchange 他們先前 Commitment 交易的秘密？
+answer: 如果對方公佈舊的交易，允許各自保護自己
+wrong_answers:
+  - 增加通道的容量
+  - 阻止對方取得資金
+  - 平均分配資金
+explanation: |
+  交換先前交易的機密，可讓每位參與者在對方企圖作弊時，藉由公佈舊交易來懲罰對方。
+reviewed: false

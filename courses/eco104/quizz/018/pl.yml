@@ -1,0 +1,12 @@
+question: Co było istotnym ograniczeniem dla osób fizycznych podczas kryzysu upadłościowego greckiego rządu w 2015 roku?
+answer: Nadmierna reforma bankowa narzucona przez rząd.
+wrong_answers:
+  - Ograniczony dostęp do cyfrowych usług bankowych
+  - Zmienność walut cyfrowych, takich jak Bitcoin
+  - Niedobór fizycznej waluty (gotówki)
+explanation: |
+  Podczas kryzysu bankructwa greckiego rządu w 2015 r. banki zostały zamknięte,
+  Wypłaty z bankomatów zostały ograniczone, a znaczna część depozytów bankowych osób fizycznych została
+  depozytów bankowych osób fizycznych została wycofana przez rząd w celu sfinansowania nieodpowiedzialności fiskalnej.
+  Wydarzenie to uwypukliło ryzyko związane z posiadaniem pieniędzy w tradycyjnym systemie bankowym.
+reviewed: true

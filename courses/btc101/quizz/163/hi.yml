@@ -1,0 +1,8 @@
+question: Bitcoin प्रोटोकॉल में दो ब्लॉक्स के बनने के बीच औसत समय क्या है?
+answer: 10 मिनट।
+wrong_answers:
+  - 5 मिनट।
+  - 15 मिनट।
+  - 20 मिनट।
+explanation: >-
+reviewed: true

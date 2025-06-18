@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa dhidi ya kutuma anwani za kupokea kwenye mitandao ya kijamii?
+answer: Kwa sababu zinaweza kutumika kuunganisha shughuli za onchain na utambulisho halisi.
+wrong_answers:
+  - Kwa sababu wanaweza kudukuliwa kwa urahisi na wadukuzi wabaya.
+  - Kwa sababu zinaweza kuvutia ofa za ulaghai na kukuweka wazi kwenye kampeni za kuhadaa ili kupata maelezo ya kibinafsi.
+  - Kwa sababu wanaweza kuruhusu matumizi ya pembejeo ya kawaida ya Ownership heuristic.
+explanation: |
+  Kushiriki anwani za kupokea za Bitcoin kwenye mtandao kunaweza kutumika kama mahali pa kuingilia kwa uchanganuzi wa misururu kwa kuunganisha utambulisho (halisi au jina bandia) na shughuli za onchain.
+reviewed: false

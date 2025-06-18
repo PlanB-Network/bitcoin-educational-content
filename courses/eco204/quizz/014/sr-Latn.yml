@@ -1,0 +1,9 @@
+question: Koja je razlika između inflacije potražnje i inflacije troškova?
+answer: Inflacija potražnje je situacija u kojoj potražnja u privredi premašuje dostupnu proizvodnju, dok se inflacija troškova pripisuje povećanju troškova proizvodnje.
+wrong_answers:
+  - Inflacija potražnje se pripisuje povećanju troškova proizvodnje, dok je inflacija troškova situacija u kojoj potražnja u ekonomiji premašuje raspoloživu proizvodnju.
+  - Inflacija potražnje i inflacija troškova su iste, obe se odnose na situaciju kada potražnja u ekonomiji premašuje dostupnu proizvodnju.
+  - Inflacija potražnje i inflacija troškova su iste, obe se odnose na povećanje troškova proizvodnje.
+explanation: |
+  Poglavlje objašnjava da se inflacija potražnje često opisuje kao situacija u kojoj potražnja u ekonomiji premašuje dostupnu proizvodnju. S druge strane, inflacija troškova se pripisuje povećanju troškova proizvodnje.
+reviewed: false

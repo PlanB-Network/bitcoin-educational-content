@@ -1,0 +1,9 @@
+question: Šta odražava Commitment Transaction u Lightning kanalu?
+answer: Nova raspodela sredstava između dve strane
+wrong_answers:
+  - Ukupan broj izvršenih transakcija
+  - Iznos naknada koje treba platiti za transakciju
+  - Otvaranje novog kanala plaćanja
+explanation: |
+  Commitment Transaction predstavlja trenutnu raspodelu sredstava u kanalu nakon svake Lightning transakcije, ali nije objavljen na Blockchain sve dok kanal ostaje otvoren.
+reviewed: false

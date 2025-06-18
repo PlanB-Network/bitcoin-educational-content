@@ -1,0 +1,11 @@
+question: Koja je glavna karakteristika Blockchain bez Proof of Work?
+answer: Nema pravu vrednost
+wrong_answers:
+  - To je sigurnije
+  - Brže je
+  - To je više decentralizovano
+explanation: |
+  Sadržaj poglavlja navodi da bez Proof of Work, Blockchain
+  nema pravu vrednost. Ovo je ključna karakteristika koja izdvaja Bitcoin od ostalih
+  kriptovaluta.
+reviewed: false

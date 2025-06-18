@@ -1,0 +1,9 @@
+question: 哪項屬性可確保在計算上不可能擷取 Hash 的輸入？
+answer: 預成像阻抗
+wrong_answers:
+  - 抗撞性
+  - 雪崩效應
+  - 第二預成像阻抗
+explanation: |
+  預影像抗性可確保幾乎不可能從其 Hash 中找到原始訊息。
+reviewed: false

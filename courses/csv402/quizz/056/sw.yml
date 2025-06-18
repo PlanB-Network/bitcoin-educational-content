@@ -1,0 +1,9 @@
+question: Je, ni sehemu gani kuu zinazohitajika ili kuendesha nodi ya Umeme inayoendana na RGB?
+answer: bitcoind, faharasa na seva mbadala ya RGB
+wrong_answers:
+  - Nodi ya umeme, indexer na seva ya IPFS
+  - RGB ya rununu ya Wallet, seva ya proksi ya RGB na bitcoind
+  - Mteja wa wavuti, faharasa na seva mbadala ya RGB
+explanation: |
+  Ili kuendesha nodi ya Umeme iliyowezeshwa na RGB, unahitaji nodi ya bitcoind ili kuingiliana na Bitcoin Blockchain, faharasa ya kuchimba miamala ya On-Chain, na seva ya proksi ya RGB ili kuwezesha Exchange ya shehena kati ya programu zingine.
+reviewed: false

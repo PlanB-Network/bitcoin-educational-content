@@ -1,0 +1,12 @@
+question: Dlaczego ważna jest weryfikacja klucza publicznego witryny za pomocą systemu certyfikatów?
+answer: Aby potwierdzić autentyczność strony.
+wrong_answers:
+  - Aby upewnić się, że nie dojdzie do oszustwa, ale tylko w przypadku połączenia za pośrednictwem publicznej sieci Wi-Fi.
+  - Częściowe blokowanie reklam online.
+  - Aby upewnić się, że żaden złośliwy podmiot nie podszywa się pod stronę internetową.
+explanation: |
+  Weryfikacja klucza publicznego witryny za pomocą systemu certyfikatów
+  jest ważne, aby potwierdzić autentyczność witryny. To
+  pomaga chronić przed złośliwymi osobami podszywającymi się pod
+  podszywającymi się pod witrynę i przesyłającymi dane w postaci zwykłego tekstu.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Noeud Bitcoin Core (mac & windows)
+name: Bitcoin Core (macOS & Windows)
 description: MacまたはWindowsにBitcoin Coreをインストールしよう
 ---
 
@@ -147,3 +147,4 @@ Bitcoin Coreがロードされ、いくつかのオプションが表示され�
 ![image](assets/15.webp)
 
 ダウンロードを一時停止してコンピューターをシャットダウンし、後で戻ってダウンロードを続けたい場合は、それも可能です。何の損害もありません。
+

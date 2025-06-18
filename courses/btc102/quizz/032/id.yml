@@ -1,10 +1,9 @@
-question: Apa arti penting Bitcoin sebagai inovasi 0 ke 1?
-answer: Ini mengganggu norma dan kebiasaan kita
+question: Mekanisme RGB apa yang memastikan ketahanan terhadap pengeluaran ganda?
+answer: Single-Use Seal
 wrong_answers:
-  - Ini adalah mata uang digital pertama
-  - Nilainya telah meningkat dari 0 menjadi 1
-  - Ini adalah langkah pertama menuju masyarakat tanpa uang tunai
+  - Seal multi guna
+  - Tanda tangan ganda
+  - Bukti Kepemilikan
 explanation: |
-  Istilah 0 ke 1 merujuk pada inovasi besar yang mengganggu norma dan kebiasaan yang ada. Bitcoin dianggap sebagai inovasi seperti itu karena karakteristik uniknya
-  dan dampak potensial terhadap masyarakat.
+  Single-Use Seal memanfaatkan fakta bahwa UTXO hanya dapat dibelanjakan satu kali, memastikan resistensi terhadap pembelanjaan ganda dalam kontrak pintar RGB.
 reviewed: false

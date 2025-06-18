@@ -1,0 +1,13 @@
+question: Czym jest dylemat więźnia w kontekście podziału pracy?
+answer: Jest to sytuacja, w której wzajemna współpraca skutkuje nieoptymalnymi korzyściami dla jednostek, ale maksymalnymi korzyściami dla grupy.
+wrong_answers:
+  - Jest to sytuacja, w której jednostki odmawiają współpracy, co prowadzi do maksymalnych korzyści dla grupy.
+  - Jest to sytuacja, w której jednostki współpracują, co prowadzi do maksymalnych korzyści dla nich samych, ale nieoptymalnych korzyści dla grupy.
+  - Jest to sytuacja, w której jednostki odmawiają współpracy, co prowadzi do nieoptymalnych korzyści dla nich samych i grupy.
+explanation: |
+  Dylemat więźnia to koncepcja w teorii gier, w której
+  jednostki mają motywację do wyboru strategii, które
+  maksymalizują swój indywidualny zysk, niezależnie od
+  strategie wybrane przez innych, nawet jeśli możliwy jest bardziej pożądany
+  równowaga poprzez koordynację/współpracę jest możliwa.
+reviewed: true

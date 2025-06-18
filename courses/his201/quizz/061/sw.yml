@@ -1,0 +1,9 @@
+question: Ni kazi gani, iliyoundwa mnamo Oktoba 2010 na Miner m0mchil, iliruhusu nodi za mteja kupata kizuizi cha mgombea na kurudisha Proof of Work ikiwa suluhisho lilipatikana?
+answer: pata kazi
+wrong_answers:
+  - tabaka
+  - getash
+  - pata mikopo
+explanation: |
+  Ilichapishwa mnamo Oktoba 1. Satoshi ilijumuisha toleo lililobadilishwa la kazi hii katika programu kuu mnamo Novemba 23.
+reviewed: false

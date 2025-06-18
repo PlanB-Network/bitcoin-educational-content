@@ -1,7 +1,7 @@
 question: Quel type de structure algébrique est la base de l'algèbre abstraite ?
 answer: Le groupe
 wrong_answers:
-  - Le champ
+  - Le corps
   - L'anneau
   - La matrice
 explanation: |

@@ -1,0 +1,8 @@
+question: Lightning Network 上的交易費用極低，通常低於...？
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

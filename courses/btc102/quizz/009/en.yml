@@ -1,13 +1,9 @@
-question: What is the main function of a password manager?
-answer: To store and manage your passwords
+question: Why is online security crucial for Bitcoin users?
+answer: Because hacking results in the irreversible loss of bitcoins
 wrong_answers:
-  - To generate random passwords
-  - To remember your usernames
-  - To protect your computer from viruses
+  - Because banks insure funds in case of total bitcoin loss
+  - Because one can go to jail for losing bitcoins
+  - Because attacks lead to very heavy administrative burdens
 explanation: |
-  A password manager is a software that stores and manages your passwords.
-
-  It helps you never use the same password twice, choose complex and secure passwords,
-
-  and facilitates your online security management.'
+  Without intermediaries, a hack means a definitive loss of bitcoins.
 reviewed: false

@@ -1,0 +1,5 @@
+---
+term: MASF
+---
+
+Akronim za "*Miner-Activated Soft Fork*". Opisuje Soft Fork u Bitcoin kada njegova aktivacija dolazi iz akcije rudara. MASF su porodica metoda aktivacije Soft Fork na Bitcoin. U ovim pristupima, rudari signaliziraju svoj pristanak i spremnost za ažuriranje protokola putem Mining blokova koji podržavaju zaključavanje Soft Fork. Ako značajna većina rudara glasa u korist Soft Fork, ažuriranje se smatra prihvaćenim i aktivira se kasnije. Ovaj proces pomaže da se izbegne podela Blockchain i održava jedinstvo mreže. MASF je preferiran zbog svog blažeg, konsenzusnog pristupa, smanjujući rizik od podele Blockchain dok osigurava da većina računarske snage podržava novo ažuriranje. Metode aktivacije kao što su BIP34, BIP9, BIP8 (ako je `LOT=false` ili ako je dostignut prag glasanja), ili Speedy Trial su primeri MASF.

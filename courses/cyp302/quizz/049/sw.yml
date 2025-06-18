@@ -1,0 +1,9 @@
+question: Ni aina gani ya kikundi ni muhimu sana kwa ufunguo wa ufunguo wa umma kwa sababu ya uwezo wake wa generate yote ya Elements kupitia udhihirisho?
+answer: Vikundi vya baiskeli
+wrong_answers:
+  - Vikundi visivyo vya abelian
+  - Vikundi visivyo na mwisho
+  - Vikundi vya nambari ngumu
+explanation: |
+  Katika kriptografia, vikundi vya mzunguko ni muhimu kwa sababu vinaruhusu kizazi cha Elements yote ya kikundi kwa kutumia ufafanuzi wa kipengele kimoja, kinachoitwa jenereta.
+reviewed: false

@@ -28,7 +28,7 @@ description: Как добавить новый язык в Plan ₿ Network?
 
 Если ваш язык есть в этом списке, вам не нужно добавлять его снова. Чтобы внести свой вклад в вычитку weblate, ознакомьтесь со следующим руководством:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Если вашего языка там нет, следуйте приведенному ниже руководству, чтобы добавить его.
 
 ## Добавление нового языка в Plan ₿ Network
@@ -64,7 +64,7 @@ https://planb.network/tutorials/others/contribution/translate-front-weblate-8213
 
 Чтобы узнать, как переводить, ознакомьтесь с нашим специальным руководством ниже:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Поздравляем, вы начали процесс перевода статических элементов на сайте Plan ₿ Network!
 
 Они включают в себя все строки на сайте, за исключением образовательного контента (курсы, учебники...), для которого мы используем другой полуавтоматический метод (AI-перевод + контрибьюторская вычитка).

@@ -1,0 +1,9 @@
+question: Koji uslov mora biti ispunjen da primalac HTLC dobije sredstva?
+answer: Moraju obezbediti tajnu (preimage) da otključaju plaćanje.
+wrong_answers:
+  - Moraju prihvatiti naknade za usmeravanje svakog posredničkog čvora.
+  - Moraju potpisati novi Commitment Transaction.
+  - Moraju sačekati da istekne vremenska brava pre nego što preuzmu sredstva.
+explanation: |
+  Da bi primio sredstva u HTLC, primalac mora obezbediti određenu tajnu koja omogućava otključavanje uplate osigurane Hash.
+reviewed: false

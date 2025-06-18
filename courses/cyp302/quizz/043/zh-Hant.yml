@@ -1,0 +1,9 @@
+question: 哪種群組主要使用密碼學？
+answer: 定義在整數上的群或由整數描述的 Elements
+wrong_answers:
+  - 複數群或以複數描述的 Elements
+  - 幾何變換群或由幾何變換描述的 Elements
+  - 有理數群或有理數描述的 Elements
+explanation: |
+  密碼學使用基於整數的群組，或由整數描述的 Elements，例如橢圓曲線上的點來進行加密和簽章作業。
+reviewed: false

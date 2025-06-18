@@ -1,0 +1,9 @@
+question: Je, ni uvumbuzi gani mkuu ulioletwa na wanauchumi wa kisasa kulingana na Bastiat?
+answer: Wanataka kurejesha uwezo wa mtu binafsi wa kuchukua hatua
+wrong_answers:
+  - Wanataka kutajirisha Jimbo
+  - Wanataka kusawazisha usawa wa biashara
+  - Wanataka kudhibiti soko
+explanation: |
+  Wanauchumi wa kisasa wanatafuta kurejesha uwezo wa mtu binafsi wa kuchukua hatua na kukuza uhuru wa kiuchumi.
+reviewed: false

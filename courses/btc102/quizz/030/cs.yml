@@ -1,10 +1,9 @@
-question: Co je Bitcoin blockchain?
-answer: Databáze, která zaznamenává všechny transakce s Bitcoinem
+question: Jakou hlavní výhodu nabízí vrstvený přístup pro Bitcoin?
+answer: Zachování bezpečnosti základního protokolu
 wrong_answers:
-  - Typ digitální měny
-  - Síť uživatelů Bitcoinu
-  - Metoda těžby bitcoinů
+  - Rostoucí centralizace hlavní sítě
+  - Rychlá inovace základního protokolu
+  - Stejné funkce ve vrstvách jako v základním protokolu
 explanation: |
-  Bitcoin blockchain je databáze, která zaznamenává všechny transakce s Bitcoinem.
-  Je udržována těžaři, kteří přidávají nové transakce do blockchainu.
+  Vrstvený přístup umožňuje přidávat funkce, aniž by byla ohrožena bezpečnost a jednoduchost základního protokolu.
 reviewed: false

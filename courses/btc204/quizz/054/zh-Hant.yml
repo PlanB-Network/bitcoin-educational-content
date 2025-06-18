@@ -1,0 +1,10 @@
+question: Silent Payments 中用於在收款人和付款人之間建立共享秘密的加密算法的名稱是什麼？
+answer: ECDH
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+explanation: |
+  ECDH (Elliptic-Curve Diffie-Hellman) 演算法用於 Silent Payments 中接收者的掃描金鑰對與寄件者的金鑰對總和之間，以建立共享秘密，從而推導出唯一的付款 Address。
+  
+reviewed: false

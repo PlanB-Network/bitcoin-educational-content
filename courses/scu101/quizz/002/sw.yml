@@ -1,0 +1,12 @@
+question: Kwa nini inashauriwa kupakua programu kutoka kwa tovuti rasmi ya mchapishaji badala ya tovuti za kawaida?
+answer: Ili kuhakikisha programu haina programu hasidi.
+wrong_answers:
+  - Ili kusaidia mchapishaji kifedha.
+  - Kwa sababu programu kawaida ni nafuu kwenye tovuti rasmi.
+  - Kwa sababu programu kwenye tovuti za kawaida huwa imepitwa na wakati.
+explanation: |
+  Inapakua programu kutoka kwa tovuti rasmi ya
+  mchapishaji huhakikisha kuwa unapata uhalali
+  toleo la programu, ambalo halina ubaya wowote
+  programu ambayo inaweza kudhuru kifaa chako au kuiba data yako.
+reviewed: true

@@ -1,0 +1,21 @@
+id: f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+project_id: d1918770-fe6a-44aa-b639-977e9ece2450
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+level: beginner
+tags:
+  - privacy
+  - technical-analysis
+  - onchain
+
+category: analysis
+
+# proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-06
+    urgency: 1
+    contributors_names:
+      - heyolaniran
+    reward: 0

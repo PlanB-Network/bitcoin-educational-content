@@ -1,0 +1,8 @@
+question: Koji je jedan način da se ublaži volatilnost Bitcoin?
+answer: Finansijski hedžovi (stablecoins).
+wrong_answers:
+  - Ulaganje celog vašeg novca u Bitcoin.
+  - Ignorisanje tržišnih trendova.
+  - Kupujem više Bitcoin kada cena padne.
+explanation: >-
+reviewed: true

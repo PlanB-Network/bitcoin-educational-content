@@ -1,0 +1,9 @@
+question: Kada kupujete Bitcoin, jedan od preporučenih pristupa za upravljanje volatilnošću cene je korišćenje strategije prosečnog troška dolara (DCA).
+answer: Postepeno akumulirajte Bitcoin u redovnim intervalima i održavajte dugoročnu perspektivu.
+wrong_answers:
+  - Pokušajte predvideti kratkoročne vrhove tržišta i odmah prodati.
+  - Idite na sve sa celokupnom blagajnom kompanije odjednom.
+  - Kupujte Bitcoin samo onim danima kada je njegova cena naglo porasla.
+explanation: |
+  Redovne kupovine tokom vremena (prosečno ulaganje dolara) pomažu u izravnavanju volatilnosti. Dugoročniji horizont (npr., 4 godine) smanjuje uticaj kratkoročnih oscilacija cena.
+reviewed: false

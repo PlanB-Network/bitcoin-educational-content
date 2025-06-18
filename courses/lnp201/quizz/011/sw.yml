@@ -1,0 +1,9 @@
+question: Kwa nini Alice huunda muamala wa uondoaji kabla ya kuchapisha muamala wa amana?
+answer: Ili kupata pesa zake ikiwa kuna shida na Bob
+wrong_answers:
+  - Kuongeza uwezo wa kituo kwa kila muamala
+  - Kufanya shughuli ya Umeme mara baada ya kufungua
+  - Ili kuruhusu Bob kutumia pesa moja kwa moja
+explanation: |
+  Alice hutengeneza muamala wa uondoaji ili kurejesha pesa zake ikiwa tatizo litatokea kwa Bob, hivyo basi kuhakikisha usalama wa amana yake.
+reviewed: false

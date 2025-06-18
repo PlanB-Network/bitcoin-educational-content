@@ -1,0 +1,12 @@
+question: Koja je svrha transakcijskih naknada u Bitcoin transakcijama?
+answer: Oni su podsticaj za rudare da uključe transakciju u sledeći blok.
+wrong_answers:
+  - Oni su porez koji nameće vlada.
+  - Oni su naknada koju naplaćuje Bitcoin mreža za korišćenje njenih usluga.
+  - Oni su naknada koju naplaćuje Wallet provajder.
+explanation: |
+  Naknade za transakcije u Bitcoin transakcijama služe kao
+  podsticaj za rudare da uključe transakciju u sledeći
+  blok. Naknade stvaraju slobodno tržište za uključivanje
+  transakcija u blokove.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, lengo kuu la Lightning Network ni nini?
+answer: Ili kuboresha uwezo wa Bitcoin ili kuwezesha malipo ya haraka na ya gharama nafuu
+wrong_answers:
+  - Ondoa ada za ununuzi kwenye Bitcoin Blockchain
+  - Unda njia mbadala ya Bitcoin kwa malipo ya thamani ya juu
+  - Rahisisha ubadilishanaji kati ya sarafu tofauti tofauti
+explanation: |
+  Lightning Network inalenga kuimarisha uimara wa Bitcoin kwa kuwezesha miamala ya haraka na ya bei nafuu kupitia njia za malipo za off-chain.
+reviewed: false

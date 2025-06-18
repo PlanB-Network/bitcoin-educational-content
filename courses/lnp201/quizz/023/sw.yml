@@ -1,0 +1,9 @@
+question: Kwa nini Alice na Bob Exchange hufanya siri zao kwa shughuli za awali za Commitment?
+answer: Kuruhusu kila mmoja kujilinda ikiwa mwingine atachapisha muamala wa zamani
+wrong_answers:
+  - Ili kuongeza uwezo wa kituo
+  - Ili kuzuia ufikiaji wa kila mmoja kwa pesa
+  - Ili kugawanya fedha kwa usawa
+explanation: |
+  Kubadilishana siri kwa miamala ya awali huruhusu kila mshiriki kumwadhibu mwenzake iwapo atajaribu kudanganya kwa kuchapisha muamala wa zamani.
+reviewed: false

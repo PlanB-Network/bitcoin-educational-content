@@ -1,0 +1,8 @@
+question: Quale di questi autori non appartiene al circolo di Gournay?
+answer: Dupont de Nemours
+wrong_answers:
+  - Véron de Forbonnais
+  - Turgot
+  - Adam Smith
+explanation: |
+  Dupont de Nemours era un fisiocrate, non un membro del circolo di Gournay. I fisiocrati avevano idee vicine a quelle del circolo di Gournay, ma costituivano un gruppo distinto.

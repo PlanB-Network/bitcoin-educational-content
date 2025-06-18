@@ -1,0 +1,9 @@
+question: Koja je glavna karakteristika skalarne multiplikacije na eliptičkim krivama?
+answer: Jednosmerna funkcija
+wrong_answers:
+  - Lako reverzibilno
+  - Na osnovu faktorizacije prostih brojeva
+  - Veoma dugo za izračunavanje
+explanation: |
+  Skalarno množenje na eliptičkim krivama je jednosmerna funkcija, što onemogućava dobijanje privatnog ključa iz javnog ključa.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Je, ni jukumu gani la wachimbaji wa Bitcoin katika ulimwengu wa nishati?
+answer: Wachimbaji wa Bitcoin wanatafuta mara kwa mara vyanzo vya umeme wa bei nafuu, mara nyingi wale ambao hupotea au kutotumiwa. Wanaweza kufanya kama chanzo rahisi cha mahitaji, tayari kutumia umeme huu wa yatima, na hivyo kusaidia kufidia gharama za miundombinu.
+wrong_answers:
+  - Wachimbaji wa Bitcoin wanatafuta kila mara vyanzo vya nishati mbadala ili kupunguza kiwango chao cha kaboni.
+  - Wachimbaji wa Bitcoin wanatafuta mara kwa mara vyanzo vya nishati ya nyuklia ili kuendesha shughuli zao za Mining, kwa kuwa hii ndiyo njia pekee safi na inayoweza kufanywa upya ya kuzalisha nishati.
+  - Wachimbaji madini wa Bitcoin wanatafuta kila mara vyanzo vya nishati ya jua ili kuendesha shughuli zao za Mining.
+explanation: |
+  Sura hiyo inaeleza kuwa wachimbaji wa Bitcoin ni daima
+  kutafuta vyanzo vya umeme wa bei nafuu, mara nyingi wale ambao ni
+  kupotezwa au kutotumiwa. Wanaweza kufanya kama mahitaji rahisi
+  chanzo, tayari kutumia umeme huu yatima, hivyo
+  kusaidia kufidia gharama za miundombinu.
+reviewed: true

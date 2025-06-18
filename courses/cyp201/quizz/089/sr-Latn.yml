@@ -1,0 +1,9 @@
+question: Koji korak prethodi primeni HASH160 u generisanju SegWit v0 Address?
+answer: Kompresija javnog ključa
+wrong_answers:
+  - Dodavanje kontrolnog zbira
+  - Konverzija u bech32 format
+  - Kodiranje u base58check
+explanation: |
+  Javni ključ mora biti komprimovan da bi se smanjila njegova veličina pre nego što prođe kroz funkciju HASH160 Hash.
+reviewed: false

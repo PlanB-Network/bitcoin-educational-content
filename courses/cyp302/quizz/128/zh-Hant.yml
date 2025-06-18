@@ -1,0 +1,9 @@
+question: 與 RSA 等非對稱系統相關的計算難題是什麼？
+answer: 質數因式分解
+wrong_answers:
+  - 整數的指數乘法
+  - 長隨機數的建立
+  - 安全金鑰 Exchange
+explanation: |
+  RSA 以質數因數化的難度為基礎，這項計算上困難的任務使得密碼系統能安全地對抗攻擊。
+reviewed: false

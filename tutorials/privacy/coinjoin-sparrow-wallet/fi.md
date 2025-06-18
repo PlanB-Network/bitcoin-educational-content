@@ -173,7 +173,7 @@ Sparrow'n käytön etuna on sen helppous aloittaa, nopea asennus ja tarve vain t
 ### Asenna Sparrow Wallet
 Aloittaaksesi tarvitset tietenkin Sparrow Wallet -ohjelmiston. Voit ladata sen suoraan [virallisilta verkkosivuilta](https://sparrowwallet.com/download/) tai [heidän GitHubistaan](https://github.com/sparrowwallet/sparrow/releases).
 
-Ennen ohjelmiston asentamista on tärkeää varmistaa ladatun suoritettavan tiedoston allekirjoitus ja eheys. Jos haluat lisätietoja Sparrow-ohjelmiston asennusprosessista ja varmennuksesta, suosittelen lukemaan tämän toisen oppaan: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+Ennen ohjelmiston asentamista on tärkeää varmistaa ladatun suoritettavan tiedoston allekirjoitus ja eheys. Jos haluat lisätietoja Sparrow-ohjelmiston asennusprosessista ja varmennuksesta, suosittelen lukemaan tämän toisen oppaan: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Luo ohjelmistolompakko
 Ohjelmiston asentamisen jälkeen sinun tulee jatkaa Bitcoin-lompakon luomisella. On tärkeää huomata, että coinjoineihin osallistuminen edellyttää ohjelmistolompakon (myös kutsuttu "kuumaksi lompakoksi") käyttöä. Siksi **coinjoineja ei ole mahdollista suorittaa lompakolla, joka on suojattu laitteistolompakolla**.
@@ -327,7 +327,7 @@ Seuraavaksi sinun tulee olla varovainen doxxic-muutoksen hallinnassa, muutoksen,
 Yksityiskohtaisia ohjeita näiden eri tekniikoiden toteuttamiseen tarjotaan pian PlanB Networkissa.
 
 **Lisäresurssit:**
-[Sparrow Wallet Video-opas](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Sparrow Wallet Video-opas](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Samourai Wallet Video-opas](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Dokumentaatio - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-ketju CoinJoineista](https://twitter.com/SamouraiWallet/status/1489220847336308739);

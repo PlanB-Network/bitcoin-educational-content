@@ -1,9 +1,9 @@
-question: D'où est originaire Bitcoin ?
-answer: L'internet
+question: Quel est environ le plafond maximum de bitcoins en circulation ?
+answer: 21 millions
 wrong_answers:
-  - La blockchain
-  - Le système bancaire
-  - Le marché boursier
+  - 10 millions
+  - 47 millions
+  - 150 millions
 explanation: |
-  Le chapitre indique que Bitcoin est originaire de l'internet, ce qui le rend accessible à toute personne disposant d'un accès à internet.
+  Bitcoin est programmé pour avoir une émission limitée à environ 21 millions de bitcoins.
 reviewed: false

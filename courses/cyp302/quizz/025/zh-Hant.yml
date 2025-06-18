@@ -1,0 +1,9 @@
+question: 操作 0110 XOR 1101 的結果是什麼？
+answer: 1011
+wrong_answers:
+  - 0111
+  - 0000
+  - 1101
+explanation: |
+  透過逐位應用 XOR：0 XOR 1 = 1、1 XOR 1 = 0、1 XOR 0 = 1、0 XOR 1 = 1，因此結果為 1011。
+reviewed: false

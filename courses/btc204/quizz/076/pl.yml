@@ -1,0 +1,10 @@
+question: Czym jest transakcja CoinJoin?
+answer: Transakcja oparta na współpracy, w której wielu użytkowników łączy swoje UTXO.
+wrong_answers:
+  - Transakcja oparta na współpracy między tylko dwoma użytkownikami.
+  - Transakcja, w której jeden użytkownik wysyła środki na wiele adresów.
+  - Transakcja, w której podmiot centralny miesza bitcoiny swoich klientów.
+explanation: |
+  Transakcja CoinJoin jest transakcją opartą na współpracy, w której wielu użytkowników miesza swoje monety.
+  
+reviewed: false

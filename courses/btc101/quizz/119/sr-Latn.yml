@@ -1,0 +1,9 @@
+question: Šta je BitcoinTalk?
+answer: Mesto za diskusiju za korisnike Bitcoin.
+wrong_answers:
+  - A Bitcoin Mining softver.
+  - A Bitcoin Wallet.
+  - Bitcoin Konferencija.
+explanation: |
+  BitcoinTalk forum je mesto za diskusiju za Bitcoin korisnike. Kreirao ga je Satoshi Nakamoto 22. novembra 2009.
+reviewed: true

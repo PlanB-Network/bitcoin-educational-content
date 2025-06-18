@@ -1,6 +1,6 @@
 ---
 name: BitAxen asennus
-Description: Kuinka asentaa BitAxe?
+description: Kuinka asentaa BitAxe?
 ---
 
 ### Johdanto

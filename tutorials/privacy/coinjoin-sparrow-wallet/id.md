@@ -173,7 +173,7 @@ Menggunakan Sparrow memiliki keuntungan karena cukup mudah untuk memulai, cepat 
 ### Instal Sparrow Wallet
 Untuk memulai, Anda tentu saja akan memerlukan perangkat lunak Sparrow Wallet. Anda dapat langsung mengunduhnya dari [situs resmi](https://sparrowwallet.com/download/) atau di [GitHub mereka](https://github.com/sparrowwallet/sparrow/releases).
 
-Sebelum menginstal perangkat lunak, akan penting untuk memverifikasi tanda tangan dan integritas dari eksekutabel yang baru saja Anda unduh. Jika Anda ingin lebih banyak detail tentang proses instalasi dan verifikasi perangkat lunak Sparrow, saya menyarankan Anda untuk membaca tutorial lain ini: *[Panduan Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*.
+Sebelum menginstal perangkat lunak, akan penting untuk memverifikasi tanda tangan dan integritas dari eksekutabel yang baru saja Anda unduh. Jika Anda ingin lebih banyak detail tentang proses instalasi dan verifikasi perangkat lunak Sparrow, saya menyarankan Anda untuk membaca tutorial lain ini: *[Panduan Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*.
 
 ### Membuat Dompet Perangkat Lunak
 Setelah menginstal perangkat lunak, Anda perlu melanjutkan dengan membuat dompet Bitcoin. Penting untuk dicatat bahwa untuk berpartisipasi dalam coinjoin, penggunaan dompet perangkat lunak (juga disebut "hot wallet") adalah esensial. Oleh karena itu, **tidak akan mungkin untuk melakukan coinjoin dengan dompet yang diamankan oleh dompet perangkat keras**.
@@ -342,7 +342,7 @@ Selanjutnya, Anda perlu berhati-hati dalam mengelola perubahan doxxic, perubahan
 Tutorial terperinci tentang implementasi teknik-teknik berbeda ini akan segera ditawarkan di PlanB Network.
 
 **Sumber Daya Tambahan:**
-- [Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607);
+- [Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d);
 - [Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Dokumentasi Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread Twitter tentang CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);

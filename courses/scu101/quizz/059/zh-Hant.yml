@@ -1,0 +1,10 @@
+question: 網路安全需要哪些技能？
+answer: 日誌分析、事件回應
+wrong_answers:
+  - 平面設計、視訊編輯
+  - 銷售、行銷
+  - 烹飪、烘焙
+explanation: |
+  本章提到日誌分析和事件回應為
+  網路安全所需的一些技能。
+reviewed: true

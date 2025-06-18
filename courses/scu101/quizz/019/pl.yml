@@ -1,0 +1,11 @@
+question: Dlaczego tak ważne jest regularne aktualizowanie systemu operacyjnego i aplikacji?
+answer: Ochrona przed nowymi zagrożeniami i lukami w zabezpieczeniach.
+wrong_answers:
+  - Aby uczynić maszynę przestarzałą.
+  - Aby spowolnić działanie urządzenia.
+  - Aby zmienić użytkownika Interface.
+explanation: |
+  Regularne aktualizacje są niezbędne do ochrony systemu przed
+  nowymi zagrożeniami i lukami w zabezpieczeniach. Nie mają one na celu
+  sprawić, że urządzenie stanie się przestarzałe lub powolne.
+reviewed: true

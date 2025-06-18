@@ -1,0 +1,10 @@
+question: Je, madhumuni ya Lebo katika Malipo ya Kimya ni nini?
+answer: Kutumia anwani nyingi tofauti tuli bila kuongeza mzigo wa kazi wa kuchanganua isivyofaa.
+wrong_answers:
+  - Ili kusimba kwa njia fiche miamala ya Malipo ya Kimya ili kuficha mpokeaji halisi wa muamala.
+  - Kutumia anwani nyingi tofauti tuli ambazo haziwezi kuunganishwa na mwangalizi wa nje.
+  - Kuweka lebo inayoonekana kwenye Blockchain ili kutambua Malipo ya Kimya kwa njia ya marejeleo ya malipo.
+explanation: |
+  Lebo hutumiwa kwa generate anwani nyingi tuli kutoka kwa Address kuu tuli, ambayo hurahisisha shirika la Wallet. Hata hivyo, mwangalizi wa nje anaweza kwa urahisi kuanzisha kiungo kati ya anwani hizi tuli, kwa kuwa ufunguo wa kuchanganua wa umma ni sawa kwa wote.
+  
+reviewed: false

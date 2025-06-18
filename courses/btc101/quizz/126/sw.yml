@@ -1,0 +1,13 @@
+question: Muamala wa Bitcoin ni nini?
+answer: Uhamisho wa Ownership ya bitcoins, kwa kutumia cryptography.
+wrong_answers:
+  - Exchange ya kimwili ya bitcoins, kwa kutumia mthibitishaji.
+  - Uhamisho wa Ownership ya bitcoins, kwa kutumia Address ya kimwili.
+  - Uhamisho wa Ownership ya bitcoins, kwa kutumia barua pepe Address.
+explanation: |
+  Muamala wa Bitcoin ni uhamisho wa kidijitali wa
+  Ownership ya bitcoins, kupitia matumizi ya Bitcoin Address
+  inayotokana na kriptografia ya Elliptic Curve. Hii
+  Address ni ya kipekee kwa Wallet ya mtu anayepokea
+  bitcoins.
+reviewed: true

@@ -1,0 +1,25 @@
+id: 9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
+project_id: 7cdd3e66-000f-4a31-85b8-e63e893a2169
+
+tags:
+  - guides
+  - user-friendly
+  - privacy
+
+category: communication
+
+level: intermediate
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-10
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

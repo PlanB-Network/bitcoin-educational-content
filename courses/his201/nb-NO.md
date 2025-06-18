@@ -21,12 +21,13 @@ Dette kurset er selvfølgelig sentrert rundt figuren Satoshi Nakamoto, hvis ord 
 
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Introduksjon til Historien om Bitcoins Skapelse
+## Kursoversikt
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Velkommen til HIS201-kurset!
 Dette kurset har som mål å fortelle deg historien om skapelsen av Bitcoin på en måte du aldri har lest før. Den er ofte oversett, til tross for å være fylt med fascinerende detaljer. Vi vil bestrebe oss på å beskrive den i all sin kompleksitet, fra dens konsepsjon av Satoshi Nakamoto til hans tidlige forsvinning og overleveringen til samfunnet.
 
-### Kort Oversikt
+**Kort Oversikt**
 
 Bitcoin ble designet av en person (eller en gruppe) som brukte pseudonymet Satoshi Nakamoto. Den 31. oktober 2008 delte han et hvitt papir som beskrev modellen hans via en obskur e-postliste på Internett. Den 8. januar 2008 implementerte han konseptet sitt ved å publisere programvarens kildekode og lansere nettverket ved å utvinne de første blokkene i kjeden. Ivrig etter å tiltrekke seg et kritisk antall brukere, promoterte han sin skapelse på ulike kommunikasjonskanaler.
 
@@ -48,7 +49,7 @@ Skapelsen av Bitcoin var også i konteksten av statens lukning av private valuta
 
 Til slutt er Bitcoin-prosjektet arvingen til ethoset til cypherpunk-bevegelsen, en bevegelse av opprørske kryptografer fra 90-tallet, som søkte å bevare personvernet og friheten til mennesker på Internett gjennom proaktiv bruk av kryptografi. Bitcoin er i tråd med prosjekter som b-money, bit gold, eller RPOW forestilt av disse individene på slutten av 90-tallet og begynnelsen av 2000-tallet. Satoshi Nakamoto nevnte dem, selv om han ikke var klar over dem før han designet Bitcoin og sannsynligvis ikke var en del av den opprinnelige bevegelsen.
 
-### Kursomriss
+**Kursomriss**
 
 Dette kurset er delt inn i fire deler, som henholdsvis fokuserer på Bitcoins opprinnelse (3 kapitler), dens langsomme fremvekst (3 kapitler), dens første oppgang (3 kapitler), og dannelsen av dets fellesskap (4 kapitler). Totalt inkluderer det 12 kapitler som er som følger (den angitte perioden er også spesifisert):
 
@@ -66,7 +67,7 @@ Dette kurset er delt inn i fire deler, som henholdsvis fokuserer på Bitcoins op
 - Satoshi Forsvinner (Des. 2010–Apr. 2011)
 - Fellesskapet Tar Over (Apr. 2011–Sept. 2011)
 
-### Detaljer
+**Detaljer**
 
 Alle datoer og tider er gitt i henhold til UTC-tidssonen (som tilsvarer Greenwich-meridianen) og kan derfor avvike fra amerikanske datoer. Det er sannsynlig at Satoshi Nakamoto befant seg i USA da han jobbet med prosjektet sitt. Bitcoin er imidlertid et internasjonalt prosjekt, som blant annet inkluderte bidrag fra den finske utvikleren Martti Malmi (Østeuropeisk tid, UTC+2 / UTC+3), og vi vil derfor referere til den universelle tidssonen. Dermed sier vi at den effektive lanseringen av hovednettverket fant sted 9. januar kl. 02:54, i stedet for 8. januar kl. 18:54, som tilsvarer østkystens tidssone (Stillehavstid, UTC-8 / UTC-7).
 
@@ -80,6 +81,7 @@ Innholdet er delvis tilpasset fra den franske boken [_L'Élégance de Bitcoin_](
 
 Merk at for ikke-engelske versjoner av dette kurset, kommer de fleste sitatene fra amerikansk engelsk og har blitt oversatt for anledningen. Termen _coin_ er generelt oversatt som "enhet" (og ikke "stykke") når den refererer til regnskapsenheten.
 
+Klar for å utforske den utrolige historien om hvordan Bitcoin ble til? Da dykker vi sammen inn i denne helt spesielle fortellingen!
 # Bitcoins Opprinnelse
 
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
@@ -371,7 +373,7 @@ Konseptet med Ripple var basert på ideen om at penger i hovedsak besto av IOU-e
 
 Her er en introduksjonsvideo av Ripple laget i 2011:
 
-![Video (Youtube) av Ripples presentasjon i 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Til tross for entusiasmen fra sitt samfunn og noen tusen brukere, hadde Ripple store mangler som forhindret det fra å bli vellykket. Spesielt [led](https://fiatjaf.com/3cb7c325.html) det av "problemet med desentralisert forpliktelse": under en betaling kunne deltakerne ikke forplikte seg på en sikker måte for å sikre lånekjeden, et problem som senere ville bli løst av Lightning. (_original: "the problem of the decentralized commit"_)
 
@@ -1149,7 +1151,7 @@ To uker senere, i fravær av et svar, kom et annet forummedlem til hans hjelp. D
 EFF tok seg tid før de begynte å akseptere offentlige donasjoner. Etter forhandlinger overbeviste samfunnet dem om å publisere en donasjonsadresse på nettsiden deres. Den 9. november dukket adressen opp på [donasjonssiden](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Bitcoin-brukere [begynte](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) å overføre midler.
 Noen dager senere ble det skrevet et [innlegg](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) om emnet av bloggeren jimbobway, som trakk oppmerksomhet til Bitcoin. Denne artikkelen ble [delt](https://news.ycombinator.com/item?id=1905522) på HackerNews. Den ble også transkribert til video av BitcoinMedia ved bruk av Xtranormal:
 
-![Video "Bitcoin og EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Dette er veldig gode nyheter for Bitcoin ettersom begge initiativene deler felles verdier. Dessuten er EFF kjent for å gi juridisk beskyttelse til prosjekter for bevaring av personvern og deling av data som Tor og BitTorrent. Satoshi Nakamoto selv er klar over dette og er spesielt støttende til organisasjonens handlinger, som vist i hans [kommentar](https://mmalmi.github.io/satoshi/#email-254) gjort i en av hans e-poster adressert til Gavin Andresen den 6. januar 2011:
 
@@ -1346,7 +1348,7 @@ Med verdiøkningen i løpet av sommeren 2011, [solgte](https://twitter.com/martt
 Det er ikke bare den tekniske siden som påvirkes av grunnleggerens avgang og behovet for å samarbeide: det er også den sosiale aspekten, som bidrar til å styrke fellesskapet ved å skape bånd mellom medlemmene. Det er derfor meet-ups og konferanser organiseres "i det virkelige liv". Disse hendelsene har også fordelen av å introdusere Bitcoin til folk som kanskje er mer motstandsdyktige mot online innhold.
 De første Bitcoin-brukermøtene ble initiert av Bruce Wagner, den New York-baserte verten for en [YouTube-kanal](https://www.youtube.com/@vlogwrap) som viste TV-debatter om tekniske emner, der han skapte et show kalt _Bitcoin Show_ i april 2011. Det aller første møtet [fant sted](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174) i New York den 11. desember 2010 (UTC). Etter dette ble et møte av samme type [arrangert](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/) i Washington D.C. Et møte ble også [organisert](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886) den 5. februar 2011 i Zürich, Sveits av Mike Hearn, med Christian Decker og Stefan Thomas (justmoon) som deltok. Februar markerer også den [første filmete presentasjonen](https://www.youtube.com/watch?v=koIq58UoNfE) av Bitcoin, utført av Gavin Andresen den 8. under et arrangement organisert i hans hjemby Amherst, Massachusetts. Tittelen "Making Money," presentasjonen av den nye hovedvedlikeholderen av prosjektet inkluderer mange språkelementer som ville karakterisere måten kryptovaluta blir presentert på i de følgende årene.
 
-![Video (Youtube) av Gavins tale i Amherst i februar 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Selv om de første hendelsene fant sted i USA, ble ikke det franske samfunnet liggende bak. Den 25. mai, for å markere Gavin Andresens besøk i Paris, ble en lunsj organisert i La Défense-distriktet, besøkt av bemerkelsesverdige figurer som Lucien Grondin, David François, og Jon Matonis (som også var på besøk).
 
@@ -1360,7 +1362,7 @@ Bitcoin-presentasjon av Renaud Lifchitz den 15. juni 2011 (kilde: [forumarkiv](h
 
 Etter denne opplevelsen [organiserte](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) det parisiske samfunnet et sosialt samvær, som fant sted den 11. juli. Dette arrangementet samlet individer som Pierre Noizat eller Émilien Dutang.
 På den internasjonale fronten fant den første kollektive konferansen om Bitcoin sted fra 19. til 21. august i New York. Dette møtet, organisert av Bruce Wagner, samlet personligheter som Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès og Charlie Lee. Selv om Wagner lovet tre dager med arrangementer, fant bare fire presentasjoner sted: hans egen og de av Gavin Andresen, Jeff Garzik og Stefan Thomas.
-![Video (Youtube) av Gavins intervensjon 20. august 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Senere samme år, i november, vil en europeisk konferanse [finne sted](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) i Praha. Fremtredende talere vil inkludere utvikler Amir Taaki, grunnleggeren av det svenske Piratpartiet Rick Falkvinge, og presentatør Max Keiser. Året etter vil et lignende arrangement bli [organisert i London](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1370,7 +1372,7 @@ Senere samme år, i november, vil en europeisk konferanse [finne sted](https://b
 
 For det første begynte videoer om emnet å proliferere på Youtube. Den 22. mars dukket den første høykvalitetsvideoen om Bitcoin opp. Denne videoen, enkelt titulert "Hva er Bitcoin?", ble produsert av Stefan Thomas (justmoon) takket være [folkefinansiering](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) fra samfunnet. Den ble publisert på WeUseCoins-portalen dedikert til utdanning og popularisering av kryptovaluta. Andre uavhengig produserte introduksjonsvideoer fulgte, som [den fra howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) i april, [den fra Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY), eller [den fra Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) i juni.
 
-![Hva er Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 I april ble temaet digital valuta dekket av store hovedstrøms mediekanaler som [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), og [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). I mai fikk bevegelsen fart, og Bitcoin ble nevnt nesten overalt, spesielt i [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), på [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), på [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), og på [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 ![Gavin Andresen i Forbes i april 2011](assets/en/68.webp)
 Gavin Andresen i Forbes i april 2011 (kilde: [Forbes-arkivet](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
@@ -1405,7 +1407,7 @@ For det tredje, Bitcoin vokste organisk. Det var i stand til å utvikle seg disk
 For det fjerde var Bitcoin en altruistisk skapelse. Satoshi Nakamoto tilbød Bitcoin til verden. Han utga programmet under en fri lisens. Han søkte verken berømmelse, profitt eller makt. Han sikret nettverkets mining-sikkerhet i mer enn et år, uten å be om noen form for kompensasjon. Selv om han akkumulerte mer enn en million bitcoins, brukte han dem aldri. Han forsvant til slutt, hovedsakelig på grunn av frykt relatert til oppmerksomheten skapt av WikiLeaks-saken, og overlot prosjektet til et fellesskap, uten en enkelt dominerende figur.
 I 2011 forsvant Satoshi, men Bitcoin overlevde. Kryptovalutaen tok definitivt av, både fra et medie- og økonomisk synspunkt. Maskinen var i gang, og ingen kunne stoppe den.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

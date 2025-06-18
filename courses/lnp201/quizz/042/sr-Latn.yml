@@ -1,0 +1,9 @@
+question: Koji kriterijum može pomoći čvoru da izabere efikasan put plaćanja?
+answer: Verovatnoća uspeha na osnovu ukupnog kapaciteta kanala
+wrong_answers:
+  - Geografska udaljenost između čvorova
+  - Prisustvo čvorova sa niskim nivoom naknade
+  - Broj uplata koje je izvršio ciljni čvor
+explanation: |
+  Ukupni kapacitet kanala može ukazivati na veću verovatnoću uspeha, jer sugeriše veću dostupnost likvidnosti za transakcije.
+reviewed: false

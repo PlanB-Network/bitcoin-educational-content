@@ -1,0 +1,10 @@
+question: Ni shughuli gani ya kwanza ya Bitcoin iliyorekodiwa?
+answer: Muamala wa 10 BTC kati ya Satoshi Nakamoto na Hal Finney.
+wrong_answers:
+  - Muamala wa 10,000 BTC kwa pizza 2.
+  - Muamala wa 1 BTC kati ya Satoshi Nakamoto na Hal Finney.
+  - Muamala wa 10,000 BTC kati ya Laszlo Hanyecz na Hal Finney.
+explanation: |
+  Shughuli ya kwanza ya Bitcoin iliyorekodiwa ilikuwa ni shughuli ya
+  10 BTC kati ya Satoshi Nakamoto na Hal Finney.
+reviewed: true

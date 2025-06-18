@@ -1,0 +1,9 @@
+question: Šta je validan Hash u kontekstu bloka Mining u Bitcoin mreži?
+answer: Jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera.
+wrong_answers:
+  - Jedinstveni kod koji se koristi za pristup bloku.
+  - Jedinstvena lozinka potrebna za rudarenje bloka.
+  - Jedinstveni identifikator za Miner koji je iskopao blok.
+explanation: |
+  U kontekstu bloka Mining u mreži Bitcoin, važeći Hash je jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash zavisi od težine mreže Bitcoin.
+reviewed: true

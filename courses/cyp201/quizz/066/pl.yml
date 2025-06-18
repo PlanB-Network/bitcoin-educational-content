@@ -1,0 +1,9 @@
+question: Która część danych wyjściowych HMAC-SHA512 jest używana jako kod łańcucha podrzędnego?
+answer: Ostatnie 32 bajty
+wrong_answers:
+  - Pierwsze 32 bajty
+  - Całe 64 bajty
+  - SHA256 Hash środkowych 32 bajtów
+explanation: |
+  Ostatnie 32 bajty wyjścia HMAC-SHA512 służą jako kod łańcucha dla klucza podrzędnego.
+reviewed: false

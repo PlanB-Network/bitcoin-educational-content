@@ -1,0 +1,9 @@
+question: Jaka jest austriacka krytyka marksistowskiej teorii zysku?
+answer: Zysk jest niezbędną nagrodą dla przedsiębiorców, którzy podejmują ryzyko i inwestują.
+wrong_answers:
+  - Austriacy twierdzą, że zysk jest formą wyzysku pracowników.
+  - Austriacy krytykują teorię Marksa, ponieważ nie uwzględnia ona roli zasług.
+  - Marksistowska teoria zysku służy interesom klasy.
+explanation: |
+  Dla austriackich ekonomistów zysk stanowi rekompensatę dla przedsiębiorców za podjęte ryzyko i dokonane inwestycje, w przeciwieństwie do marksistowskiego poglądu, który postrzega go jako wyzysk pracowników.
+reviewed: false

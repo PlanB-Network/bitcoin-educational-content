@@ -1,12 +1,9 @@
-question: Mikä on VPN; n käytön päähyöty?
-answer: Se suojaa yksityisyyttäsi peittämällä IP-osoitteesi
+question: Miksi on tärkeää suojata Mnemonic-lauseesi?
+answer: Koska sen menettäminen johtaa bitcoinien pysyvään menettämiseen
 wrong_answers:
-  - Se nopeuttaa internet-yhteyttäsi
-  - Se tarjoaa ilmaisen pääsyn maksullisiin palveluihin
-  - Se suojaa tietokonettasi viruksilta
+  - Koska Blockchain on liian pitkä regeneroitavaksi, se
+  - Koska sen menettäminen johtaa henkilötietojen vuotamiseen
+  - Koska Exchange-alustat vaativat paljon asiakirjoja sen uudistamiseen
 explanation: |
-  VPN eli Virtuaalinen Erillisverkko suojaa yksityisyyttäsi peittämällä
-  
-  IP-osoitteesi. Vaikka se ei tee sinusta täysin nimetöntä, on se silti yksinkertainen
-  
-  ja tehokas askel parantamaan online-yksityisyyttäsi.
+  Mnemonic-lauseen avulla pääsy voidaan palauttaa. Jos se katoaa, eikä Wallet-lausekkeeseen pääse enää käsiksi laitteella, bitcoinit menetetään pysyvästi.
+reviewed: false

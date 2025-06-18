@@ -1,0 +1,8 @@
+question: Dlaczego liczba potwierdzeń w transakcji Bitcoin jest ważna?
+answer: Im więcej potwierdzeń ma transakcja, tym bardziej staje się ona niezmienna.
+wrong_answers:
+  - Im więcej potwierdzeń ma transakcja, tym bardziej staje się wartościowa.
+  - Im więcej potwierdzeń ma transakcja, tym szybciej jest przetwarzana.
+  - Im więcej potwierdzeń ma transakcja, tym mniej jest ona bezpieczna.
+explanation: >-
+reviewed: true

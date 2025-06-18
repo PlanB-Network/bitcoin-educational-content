@@ -1,0 +1,10 @@
+question: Jaki termin opisuje ochronę oferowaną przez CoinJoin przed analizą przyszłych transakcji monety?
+answer: Potencjalny anonset.
+wrong_answers:
+  - Anons retrospektywny.
+  - Odporność na śledzenie.
+  - Prywatność czasowa.
+explanation: |
+  Ochrona przed analizą przeszłości do teraźniejszości jest tym, co nazywa się anonsetem prospektywnym.
+  
+reviewed: false

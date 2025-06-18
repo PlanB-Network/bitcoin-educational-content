@@ -1,0 +1,13 @@
+question: Zašto je važno dati prednost pouzdanosti i tehničkim karakteristikama nad popularnošću prilikom odabira VPN-a?
+answer: VPN provajderi koji prikupljaju najmanje ličnih informacija su generalno najsigurniji.
+wrong_answers:
+  - Popularni VPN provajderi su verovatnije mete hakera.
+  - Popularni VPN provajderi verovatno imaju sporije brzine interneta.
+  - Popularni VPN provajderi verovatnije imaju geografska ograničenja.
+explanation: |
+  Kada birate VPN, važno je da prioritizujete
+  pouzdanost i tehničke karakteristike nad popularnošću. Ovo je
+  zato što su VPN provajderi koji prikupljaju najmanje ličnih
+  informacija generalno najsigurniji, pružajući bolju
+  zaštitu za vašu online bezbednost.
+reviewed: true

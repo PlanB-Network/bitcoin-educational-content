@@ -1,0 +1,9 @@
+question: Koji je rizik od neposedovanja privatnog ključa za vaš Bitcoin Wallet?
+answer: Vaši bitkoini su podložni rizicima kao što su hakovanje, zaplena, regulacija ili bankrotstvo.
+wrong_answers:
+  - Vaši bitkoini će biti automatski konvertovani u drugu kriptovalutu
+  - Vaši bitkoini će izgubiti svoju vrednost
+  - Vaši bitkoini će biti prebačeni na drugi Wallet
+explanation: |
+  Ako ne posedujete privatni ključ za vaš Bitcoin Wallet, vaši bitkoini su podložni rizicima kao što su hakovanje, zaplena, regulacija ili bankrot.
+reviewed: false

@@ -1,12 +1,9 @@
-question: What is the suggested solution for recurring Bitcoin purchases without stress?
-answer: Use a DCA solution
+question: What action is essential for your heirs to recover your bitcoins without error?
+answer: Providing clear instructions
 wrong_answers:
-  - Use a hot wallet
-  - Use a cold wallet
-  - Use a non-KYC solution
+  - Entrusting all private keys
+  - Frequently changing passwords
+  - Using a KYC exchange platform
 explanation: |
-  The suggested solution for recurring Bitcoin purchases without stress
-  is to use a DCA (Dollar Cost Averaging) solution. This strategy involves dividing
-  the total amount you want to invest across periodic purchases to reduce the impact
-  of volatility.
+  Detailed and understandable instructions ensure that your loved ones can properly access the funds.
 reviewed: false

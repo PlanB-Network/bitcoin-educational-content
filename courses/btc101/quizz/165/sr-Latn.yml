@@ -1,0 +1,13 @@
+question: Kako Bitcoin protokol održava konzistentno prosečno vreme između kreiranja dva bloka?
+answer: Težina pronalaženja važećeg Hash prilagođava se svakih 2016 blokova.
+wrong_answers:
+  - Broj rudara je ograničen na fiksan broj.
+  - Veličina blokova je prilagođena na 10 megabajta.
+  - Nagrada za pronalaženje važećeg Hash je povećana.
+explanation: |
+  Bitcoin protokol osigurava da prosečno vreme između
+  dva bloka ostane konstantno podešavanjem težine
+  pronalaženja važećeg Hash na svakih 2016 blokova. Ovaj događaj se dešava
+  bez obzira na broj rudara i njihovu računarsku
+  snagu.
+reviewed: true

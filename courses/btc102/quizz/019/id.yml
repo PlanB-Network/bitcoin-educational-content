@@ -1,11 +1,9 @@
-question: Apa risiko yang terkait dengan penyimpanan Bitcoin di platform pertukaran?
-answer: Platform tersebut bisa bangkrut, Bitcoin Anda bisa disita, atau platform tersebut bisa diretas.
+question: Siapa yang menerbitkan Buku Putih Bitcoin?
+answer: Satoshi Nakamoto
 wrong_answers:
-  - Platform tersebut bisa meningkatkan biayanya, Bitcoin Anda bisa kehilangan nilai, atau platform tersebut bisa diretas.
-  - Platform tersebut bisa bangkrut, Bitcoin Anda bisa meningkat nilainya, atau platform tersebut bisa diretas.
-  - Platform tersebut bisa bangkrut, Bitcoin Anda bisa disita, atau platform tersebut bisa meningkatkan biayanya.
+  - David Chaum
+  - Tim May
+  - Eric Hughes
 explanation: |
-  Menyimpan Bitcoin di platform pertukaran membawa risiko seperti platform tersebut
-  bangkrut, penyitaan Bitcoin Anda, atau peretasan platform.
-  Inilah mengapa penting untuk memiliki kontrol atas kunci privat Anda.
+  Buku Putih ini diterbitkan pada akhir tahun 2008 oleh Satoshi Nakamoto (nama samaran).
 reviewed: false

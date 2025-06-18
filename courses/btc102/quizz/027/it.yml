@@ -1,9 +1,9 @@
-question: Cosa significa l'immutabilità della blockchain di Bitcoin?
-answer: Non può essere modificata nel tempo
+question: Quanti manutentori ci saranno su Bitcoin Core nel 2025?
+answer: 5
 wrong_answers:
-  - Non può essere hackerata
-  - Non può essere copiata
-  - Non può essere cancellata
+  - 7
+  - 12
+  - 23
 explanation: |
-  L'immutabilità della blockchain di Bitcoin significa che una volta che una transazione è stata registrata, non può essere modificata o cancellata. Questo garantisce l'integrità e l'affidabilità della blockchain.
+  Nel 2025, ci sono cinque manutentori: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao e Ryan Ofsky.
 reviewed: false

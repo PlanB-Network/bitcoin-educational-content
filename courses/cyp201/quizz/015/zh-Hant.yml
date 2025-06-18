@@ -1,0 +1,9 @@
+question: 什麼類型的鑰匙用於鎖定 Bitcoin 上的 UTXO？
+answer: 公開金鑰
+wrong_answers:
+  - 私密金鑰
+  - seed Hash
+  - Mnemonic 詞組
+explanation: |
+  UTXO 使用公開金鑰或其 Hash 鎖定，並使用對應的私人金鑰解鎖。
+reviewed: false

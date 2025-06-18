@@ -1,0 +1,9 @@
+question: Jaka jest pierwsza faza zjawiska hiperinflacji?
+answer: Utrata zaufania do waluty.
+wrong_answers:
+  - Upadek waluty i wzrost cen.
+  - Błędne koło drukowania pieniędzy.
+  - Pojawia się nowa waluta.
+explanation: |
+  Pierwszą fazą hiperinflacji jest utrata zaufania do waluty.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 在 State Transition 期間，RGB 如何防止 Double-spending？
+answer: 關閉現有的 Seal 並建立新的 Seal
+wrong_answers:
+  - 藉由驗證 Blockchain 上的所有交易
+  - 透過對每個作業強制執行 multi-sig 簽章
+  - 驗證 Global State 資料
+explanation: |
+  以用完的 UTXO 結束 Seal 證明轉換是獨一無二且不可撤銷的。
+reviewed: false

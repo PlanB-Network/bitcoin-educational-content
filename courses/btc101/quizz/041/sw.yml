@@ -1,0 +1,13 @@
+question: Ni nini matokeo ya uchapishaji wa pesa?
+answer: Inasababisha mfumuko wa bei, hatua kwa hatua kudhoofisha idadi ya watu.
+wrong_answers:
+  - Inasababisha deflation, hatua kwa hatua kuimarisha idadi ya watu.
+  - Inaongoza kwa uchumi imara na hakuna mfumuko wa bei au deflation.
+  - Inasababisha kupungua kwa pesa Supply.
+explanation: |
+  Uchapishaji wa fedha, au uundaji wa pesa mpya na kati
+  benki, husababisha mfumuko wa bei. Hii ni kwa sababu ya kuongezeka kwa
+  pesa Supply inapunguza uwezo wa ununuzi wa pesa,
+  kupelekea bei ya juu na kupungua kwa thamani ya
+  akiba.
+reviewed: true

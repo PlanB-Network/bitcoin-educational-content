@@ -17,11 +17,43 @@ Da Renascença ao Iluminismo, o curso examina o surgimento da liberdade, marcado
 
 +++
 
+# Introdução
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Visão Geral do Curso
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Bem-vindo ao curso PHI201!
+
+Este curso convida você a explorar a evolução da liberdade ao longo da história, analisando as principais correntes de pensamento que a moldaram. Você descobrirá como o conceito de liberdade foi construído ao longo dos séculos, seja em oposição ou em colaboração com o poder, através de uma jornada histórica que vai da Antiguidade aos debates contemporâneos.
+
+**Seção 1: Liberdade ou Poder**  
+Começaremos com uma visão geral das duas grandes filosofias políticas que marcaram a história: liberdade e poder. Esta seção examinará as visões de pensadores como Frédéric Bastiat sobre produção versus espoliação, Lord Acton que vê a liberdade como o motor da história, Karl Marx com sua teoria da luta de classes, e Murray Rothbard que opõe o Estado à sociedade. Esta introdução conceitual fornecerá uma estrutura de análise para os períodos históricos.
+
+**Seção 2: As Origens da Liberdade: A Antiguidade**  
+Aqui, retornaremos às raízes do pensamento filosófico com os gregos, que inventaram a racionalidade crítica, e os romanos, que estabeleceram as bases do direito moderno. Também examinaremos a queda de Roma como um momento decisivo que redefiniu a organização política e social em torno da noção de liberdade.
+
+**Seção 3: As Origens da Liberdade: A Idade Média**  
+A Idade Média é frequentemente vista como um período sombrio, mas descobriremos que, na verdade, lançou as bases da liberdade moderna. Estudaremos a afirmação da liberdade humana, os debates entre razão e fé, o nascimento do estado soberano, a ética bíblica que valoriza o indivíduo e os primeiros esboços do capitalismo que aparecem nesse período.
+
+**Seção 4: O Crescimento da Liberdade: Do Renascimento ao Iluminismo**  
+Esta seção se concentrará no surgimento da tolerância religiosa e da liberdade econômica, que ganharam força durante o Renascimento e o Iluminismo. Também analisaremos a importância do ano de 1776, que marcou um ponto de inflexão importante com eventos fundamentais para o mundo livre, antes de mergulharmos na era das revoluções que redefiniram o próprio conceito de liberdade.
+
+**Seção 5: Apogeu e Declínio: Do Século XIX ao Século XX**  
+Prosseguiremos estudando as transformações dos séculos XIX e XX, destacando as forças e fraquezas da democracia, as críticas marxistas ao capitalismo e a resposta austríaca a essas críticas. Também exploraremos os avisos sobre os perigos do coletivismo através de obras importantes como "O Caminho da Servidão".
+
+**Seção 6: A Ascensão do Estado de Bem-Estar no Século XX**  
+Por fim, esta seção examinará como o Estado de Bem-Estar progressivamente sobrepôs-se às ideias de liberdade econômica, especialmente através do triunfo de Keynes e do abandono do padrão-ouro. Concluiremos enfatizando a importância das ideias na influência do curso da história e o papel que a liberdade ainda desempenha em nossas sociedades modernas.
+
+Pronto para embarcar nesta jornada filosófica única em busca da liberdade? Vamos lá!
+
 # Liberdade ou Poder
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introdução: Existem apenas duas filosofias políticas
+## Só existem duas filosofias políticas
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1433,7 +1465,7 @@ Agora experimentamos todas as variantes do estatismo, e todas falharam. Em todo 
 Em certo sentido, nossa situação é melhor do que no passado. Após os sucessivos fracassos de vários experimentos socialistas, comunistas e social-democratas, sabemos hoje como distinguir, melhor do que ontem, ideias verdadeiras de falsas. E ideias falsas podem ser refutadas e substituídas por verdadeiras. Como Mises disse:
 Tudo o que acontece na sociedade global em que vivemos é resultado de ideias. As boas e as ruins. O que é necessário é combater as ideias falsas. (...) Nossa civilização pode sobreviver, e deve. E sobreviverá graças a ideias melhores do que aquelas que governam o mundo hoje; e essas ideias melhores serão desenvolvidas pela geração emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
-# Conclusão
+# Seção final
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 ## Avaliações & Notas
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>

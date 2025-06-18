@@ -1,0 +1,13 @@
+question: Je, jukumu la ASICs katika Bitcoin Mining ni nini?
+answer: ASIC ni mashine iliyoundwa kwa ajili ya kutumia algoriti ya SHA256 katika mchakato wa Mining.
+wrong_answers:
+  - ASICs hutumika kuthibitisha miamala ya Bitcoin kwa kutumia algoriti ya SHA256 katika mchakato wa uthibitishaji.
+  - ASICs hutumiwa kuunda bitcoins mpya kiholela.
+  - ASICs hutumiwa kulinda mtandao wa Bitcoin.
+explanation: |
+  ASIC (Application-Specific Integrated Circuits) ni
+  maunzi maalum iliyoundwa mahsusi kwa Bitcoin
+  Mining. Zimeboreshwa kutekeleza SHA256 hashing
+  kazi, ambalo ni tatizo la hisabati ambalo wachimbaji
+  lazima kutatua katika mchakato wa Proof of Work.
+reviewed: true

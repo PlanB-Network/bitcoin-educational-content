@@ -1,0 +1,9 @@
+question: Który profil preferuje pozyskiwanie bez KYC i korzystanie z wysoce bezpiecznych portfeli?
+answer: Paranoik
+wrong_answers:
+  - Hodler
+  - Układarka
+  - Aktywny użytkownik
+explanation: |
+  Paranoik priorytetowo traktuje prywatność i bezpieczeństwo, korzystając z wysoce bezpiecznych metod pozyskiwania i przechowywania danych.
+reviewed: false

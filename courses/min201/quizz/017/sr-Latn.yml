@@ -1,0 +1,9 @@
+question: Kakav je potencijalni uticaj regulative na Bitcoin Mining?
+answer: Ako bi zemlja poput Sjedinjenih Američkih Država odlučila da reguliše ili zabrani određene Bitcoin transakcije, to bi moglo imati značajan uticaj na mrežu, posebno ako je veliki deo snage za rudarenje centralizovan u toj zemlji.
+wrong_answers:
+  - Ako bi zemlja poput Sjedinjenih Država odlučila da reguliše ili zabrani Bitcoin Mining, to bi moglo dovesti do povećanja vrednosti Bitcoin.
+  - Ako bi zemlja poput Sjedinjenih Američkih Država odlučila da reguliše ili zabrani Bitcoin Mining, to bi moglo dovesti do povećanja Block reward.
+  - Ako bi zemlja poput Sjedinjenih Država odlučila da reguliše ili zabrani Bitcoin Mining, to bi moglo dovesti do povećanja brzine transakcija.
+explanation: |
+  Poglavlje objašnjava da ako bi zemlja poput Sjedinjenih Država odlučila da reguliše ili zabrani određene Bitcoin transakcije, to bi moglo imati značajan uticaj na mrežu, posebno ako je veliki deo snage za rudarenje centralizovan u toj zemlji.
+reviewed: true

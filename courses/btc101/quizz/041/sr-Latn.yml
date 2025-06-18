@@ -1,0 +1,13 @@
+question: Koja je posledica štampanja novca?
+answer: To vodi do inflacije, postepeno osiromašujući stanovništvo.
+wrong_answers:
+  - To dovodi do deflacije, postepeno obogaćujući stanovništvo.
+  - To vodi ka stabilnoj ekonomiji bez inflacije ili deflacije.
+  - To dovodi do smanjenja novca Supply.
+explanation: |
+  Monetary printing, or the creation of new money by central
+  banks, leads to inflation. This is because the increase in
+  the money Supply reduces the purchasing power of money,
+  leading to higher prices and a decrease in the value of
+  savings.
+reviewed: true

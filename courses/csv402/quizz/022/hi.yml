@@ -1,0 +1,9 @@
+question: कौन सा RGB Contract Operation बिना Seal को बंद किए एक नई स्थिति बनाता है?
+answer: जीडब्ल्यू-3
+wrong_answers:
+  - जीडब्ल्यू-4
+  - जीडब्ल्यू-5
+  - जीडब्ल्यू-6 एक्टिवेशन
+explanation: |
+  State Extension आपको एक नया राज्य या अधिकार (वैलेंसीज़) बनाने की अनुमति देता है, भले ही Seal तुरंत बंद न हो।
+reviewed: false

@@ -1,0 +1,13 @@
+question: 什麼是 Hot Wallet？
+answer: 連接至網際網路的手機或電腦上的 Bitcoin Wallet。
+wrong_answers:
+  - 可觸摸的 Wallet 是物理上的 Hot。
+  - 深受 Bitcoin 使用者歡迎的 Wallet。
+  - 建議用來儲存大量比特幣的 Wallet。
+explanation: |
+  Hot Wallet 是用來描述 Bitcoin Wallet 的術語。
+  儲存在可存取網際網路的裝置上，例如電話或電腦。
+  電話或電腦。這樣就可以輕鬆進行
+  交易，但這也意味著 Wallet
+  可能會受到線上威脅。
+reviewed: true

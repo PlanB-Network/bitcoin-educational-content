@@ -1,0 +1,10 @@
+question: Co oznacza anonimowość?
+answer: Opór prywatności przed analizą od przeszłości do teraźniejszości.
+wrong_answers:
+  - Opór prywatności przed analizą teraźniejszości do przeszłości.
+  - Opór prywatności przed analizą przyszłości do teraźniejszości.
+  - Opór prywatności przed analizą przyszłości do przeszłości.
+explanation: |
+  Anonimowość w przód mierzy odporność prywatności monety na analizę od przeszłości do teraźniejszości (od wejścia do wyjścia).
+  
+reviewed: false

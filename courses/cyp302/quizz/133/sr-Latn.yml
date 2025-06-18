@@ -1,0 +1,9 @@
+question: Šta je digitalni potpis u kontekstu asimetrične kriptografije?
+answer: Mehanizam za verifikaciju autentičnosti poruke korišćenjem privatnog ključa
+wrong_answers:
+  - Proces za jače šifrovanje poruke
+  - Dodatni javni ključ za validaciju šifrovane poruke
+  - Digitalna kopija ručnog potpisa
+explanation: |
+  Digitalni potpis je kriptografska tehnika koja dokazuje da je poruku zaista kreirao vlasnik odgovarajućeg privatnog ključa, čime se osigurava njena autentičnost.
+reviewed: false

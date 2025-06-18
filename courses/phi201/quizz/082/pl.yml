@@ -1,0 +1,9 @@
+question: Jaka jest główna różnica między rewolucją amerykańską a rewolucją francuską?
+answer: Rewolucja amerykańska doprowadziła do powstania zdecentralizowanego państwa prawa, podczas gdy rewolucja francuska doprowadziła do okresu terroru i dyktatury.
+wrong_answers:
+  - Rewolucja amerykańska była inspirowana ideami oświeceniowymi, podczas gdy rewolucja francuska była inspirowana ideami religijnymi.
+  - Rewolucja amerykańska była prowadzona przez kolonistów, podczas gdy rewolucja francuska była prowadzona przez szlachtę.
+  - Rewolucja amerykańska była długa, podczas gdy rewolucja francuska była krótka.
+explanation: |
+  Rewolucja amerykańska zaowocowała zdecentralizowanym i stabilnym systemem opartym na rządach prawa, podczas gdy rewolucja francuska szybko przerodziła się w terror i dyktaturę z powodu wewnętrznych podziałów i centralizacji władzy.
+reviewed: false

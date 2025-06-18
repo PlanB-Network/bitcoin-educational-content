@@ -1,0 +1,13 @@
+question: Dlaczego zaleca się ograniczenie liczby rozszerzeń zainstalowanych w przeglądarce?
+answer: Aby uniknąć potencjalnych problemów z bezpieczeństwem i wydajnością.
+wrong_answers:
+  - Aby zaoszczędzić miejsce na urządzeniu.
+  - Aby zapobiec zawieszaniu się przeglądarki.
+  - Aby uniknąć śledzenia przez witryny innych firm.
+explanation: |
+  Podczas gdy rozszerzenia przeglądarki mogą zapewniać przydatne
+  funkcjonalności, mogą one również stanowić zagrożenie dla bezpieczeństwa, ponieważ
+  mogą uzyskać dostęp do danych i aktywności przeglądania. Dodatkowo,
+  posiadanie zbyt wielu rozszerzeń może spowolnić przeglądarkę i
+  wpływać na jej wydajność.
+reviewed: true

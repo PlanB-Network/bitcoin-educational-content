@@ -1,0 +1,9 @@
+question: Dlaczego trudno jest skonstruować szyfr blokowy z szyfru strumieniowego?
+answer: Ponieważ szyfry strumieniowe przetwarzają dane w sposób ciągły
+wrong_answers:
+  - Ponieważ szyfry strumieniowe nie używają kluczy prywatnych
+  - Ponieważ tryby blokowe wymagają dłuższych kluczy
+  - Ponieważ szyfry strumieniowe są zawsze wolniejsze
+explanation: |
+  Szyfry strumieniowe są zaprojektowane do szyfrowania danych w sposób ciągły (bit po bicie lub bajt po bajcie), co komplikuje ich użycie w trybie blokowym, który wymaga przetwarzania w blokach o stałym rozmiarze.
+reviewed: false

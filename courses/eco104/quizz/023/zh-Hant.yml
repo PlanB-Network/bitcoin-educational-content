@@ -1,0 +1,10 @@
+question: 全世界有多少國家限制女性以自己的名義開立銀行帳戶？
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  在全世界 72 個國家中，婦女不得開啟
+  銀行帳戶。
+reviewed: true

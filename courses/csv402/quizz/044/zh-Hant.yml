@@ -1,0 +1,9 @@
+question: 如果廣播過時的狀態，如何確保 Lightning 通道中 RGB 轉換的安全性？
+answer: 透過「閃電通道」的懲罰機制
+wrong_answers:
+  - 自動取消之前的所有交易
+  - 透過 RGB 協議的懲罰性機制
+  - 透過與 Genesis 相關聯的 RGB 資產發行人簽名的干預
+explanation: |
+  Lightning Network 的經典懲罰機制可確保散播舊有狀況的行為可受到懲罰，收回所有相關資金，包括 RGB 資產。
+reviewed: false

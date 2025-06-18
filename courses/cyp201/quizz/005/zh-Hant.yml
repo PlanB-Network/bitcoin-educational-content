@@ -1,0 +1,9 @@
+question: 為什麼 SHA256 能夠確保不可逆性？
+answer: 使用的操作會移除資訊，而且是單向的
+wrong_answers:
+  - 訊息在散列之前已加密
+  - 位元隨機重新排列
+  - 每個 Hash 都儲存在資料庫中
+explanation: |
+  ShR 和 XOR 等操作使其不可能回到初始狀態，確保了不可逆性。
+reviewed: false

@@ -1,0 +1,10 @@
+question: 跳彈技術的主要目標是什麼？
+answer: 模糊硬幣過去的痕跡
+wrong_answers:
+  - 增加交易的預期中止時間
+  - 要增加交易的熵
+  - 未來支付較少的交易費用
+explanation: |
+  回彈的目的是模擬 Bitcoin 硬幣的 Ownership 變化，藉由模糊其過去的印記來恢復其可替代性。
+  
+reviewed: false

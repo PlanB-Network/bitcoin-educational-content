@@ -1,0 +1,9 @@
+question: Koje je glavno pravilo u vezi sa sredstvima koja učesnik može poslati u platnom kanalu?
+answer: Oni mogu poslati sredstva samo sa svoje strane kanala.
+wrong_answers:
+  - Oni mogu poslati do polovine ukupnog kapaciteta kanala.
+  - Mogu poslati bilo koji iznos, sve dok postoji prethodni dogovor.
+  - Oni mogu pozajmiti sredstva sa strane drugog učesnika ako je potrebno.
+explanation: |
+  Svaki učesnik je ograničen količinom satoshija koje drži u kanalu za svoje transakcije, osiguravajući da su sredstva uvek pokrivena.
+reviewed: false

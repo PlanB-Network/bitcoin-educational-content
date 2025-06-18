@@ -1,0 +1,9 @@
+question: Koliko je procenjeno vreme za faktorizaciju 2048-bitnog celog broja koristeći sve trenutne računarske resurse?
+answer: Daleko izvan starosti univerzuma
+wrong_answers:
+  - Nekoliko meseci sa klasičnim računarima
+  - Nekoliko minuta sa superkompjuterima
+  - Nekoliko decenija za Bitcoin Mining farmu
+explanation: |
+  Složenost faktorizacije brojeva od 2048 bita je takva da bi bilo praktično nemoguće rešiti, čak i koristeći sve postojeće računske resurse tokom perioda dužeg od starosti univerzuma.
+reviewed: false

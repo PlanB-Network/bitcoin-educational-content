@@ -1,11 +1,9 @@
-question: ¿Cuál es una de las medidas básicas para mejorar los hábitos de seguridad en línea?
-answer: Habilitar la autenticación de dos factores (2FA)
+question: ¿Cuál es la principal diferencia entre comerciar e invertir?
+answer: El trading es a corto plazo y especulativo, la inversión es a largo plazo y estratégica
 wrong_answers:
-  - Usar la misma contraseña para todas las cuentas
-  - Descuidar hacer copias de seguridad regularmente
-  - Compartir tus contraseñas
+  - La negociación conlleva comisiones fijas, la inversión conlleva comisiones variables
+  - La negociación se basa en el análisis fundamental, la inversión en las macrotendencias
+  - Operar es menos arriesgado que invertir
 explanation: |
-  Habilitar la autenticación de dos factores (2FA) es una de las medidas básicas
-  para mejorar los hábitos de seguridad en línea. Proporciona una capa adicional de seguridad a
-  tus cuentas más sensibles.
+  El trading requiere una supervisión constante y conocimientos técnicos, mientras que la inversión se basa en una visión a largo plazo.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je glavni nedostatak bankomata (ATM)?
+answer: Često veoma visoke naknade.
+wrong_answers:
+  - Potreba za brzom internet vezom.
+  - Nedostatak podrške za lokalne valute.
+  - Bezbednost transakcije nije zagarantovana.
+explanation: |
+  Kupovina bitkoina putem bankomata je zanimljivo rešenje za privatnost korisnika, ali njihov glavni nedostatak je što često naplaćuju enormne naknade.
+reviewed: false

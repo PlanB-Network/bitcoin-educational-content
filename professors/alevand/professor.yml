@@ -1,14 +1,9 @@
 id: f11a148f-63d8-4b02-8fb4-ac6130c41cb1
 name: alevand
 
-contributor_id: green-day
-
 links:
-  twitter: https://https://x.com/AlevandX
+  twitter: https://x.com/alevandx
   nostr: alevand@nostr.red
-
-affiliations:
-  - BitPolito
 
 tips:
   lightning_address: alevand@getalby.com

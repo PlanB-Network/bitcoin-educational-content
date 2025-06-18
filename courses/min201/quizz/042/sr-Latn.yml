@@ -1,0 +1,9 @@
+question: Kakav je potencijalni uticaj zabrane Mining u regionu?
+answer: To može dovesti do značajnog pada Hashrate i cene Bitcoin
+wrong_answers:
+  - To može dovesti do povećanja cene Bitcoin
+  - To može dovesti do povećanja Hashrate mreže.
+  - To može dovesti do povećanja broja aktivnih čvorova u mreži
+explanation: |
+  Zabrana na Mining u nekoj regiji, kao što se desilo u Kini, može dovesti do značajnog pada Hashrate i cene Bitcoin. Međutim, ovi se mogu brzo oporaviti.
+reviewed: true

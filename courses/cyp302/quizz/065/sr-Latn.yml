@@ -1,0 +1,9 @@
+question: Koje su tri osnovna komponente simetrične šeme šifrovanja?
+answer: Algoritam za generisanje ključeva, algoritam za šifrovanje i algoritam za dešifrovanje
+wrong_answers:
+  - Algoritam heširanja, javni ključ i algoritam verifikacije
+  - Javni ključ, privatni ključ i algoritam za dešifrovanje
+  - Algoritam za šifrovanje, javni ključ i privatni ključ
+explanation: |
+  Šema simetričnog šifrovanja sastoji se od tri Elements: algoritma za generisanje ključa, algoritma za šifrovanje i algoritma za dešifrovanje. Svi koriste isti ključ.
+reviewed: false

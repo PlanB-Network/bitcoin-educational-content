@@ -1,0 +1,9 @@
+question: Jakie jest pochodzenie terminu hodler?
+answer: Błędna pisownia słowa "hold"
+wrong_answers:
+  - Skrót od "hold"
+  - Skrót od "Hot Wallet"
+  - Skrócenie "łańcucha HODL"
+explanation: |
+  Termin "hodler" pochodzi z literówki w Bitcoin Talk, gdzie "hold" zostało błędnie napisane jako "HODL", aby wyrazić długoterminowe trzymanie.
+reviewed: false

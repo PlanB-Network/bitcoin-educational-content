@@ -1,0 +1,9 @@
+question: Jina la ombi la kwanza la uhifadhi lililoruhusu matumizi rahisi ya Bitcoin kwenye simu iliyoundwa mnamo Aprili 2010 lilikuwa nini?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Shark ya Faragha
+explanation: |
+  [Ilikuzwa](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) kwenye kongamano la tarehe 30 Aprili 2010, na mtu anayeitwa komoto.
+reviewed: false

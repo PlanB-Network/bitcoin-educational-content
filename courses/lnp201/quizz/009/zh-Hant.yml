@@ -1,0 +1,9 @@
+question: 在 Bitcoin 交易中，鎖定腳本會做什麼？
+answer: 它規定了使用相關資金的特定條件
+wrong_answers:
+  - 它會自動將資金傳送到多個地址
+  - 它決定要建立的 UTXO 值
+  - 它暫時鎖定資金以防止過度花費
+explanation: |
+  鎖定腳本會強加條件，例如使用私人金鑰簽署，以解鎖和使用交易中的資金。
+reviewed: false

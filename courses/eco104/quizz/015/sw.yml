@@ -1,0 +1,12 @@
+question: Je! ni faida gani kuu ya kutumia pochi zisizo za uhifadhi kwa uhifadhi wa Bitcoin?
+answer: Kuongezeka kwa usalama na faragha
+wrong_answers:
+  - Ufikiaji rahisi wa Bitcoin
+  - Ada za chini za muamala
+  - Hakuna haja ya nenosiri
+explanation: |
+  Pochi zisizo na dhamana ni mahali ambapo wewe ndiwe mlinzi pekee wa pesa zako,
+  kumaanisha kuwa una udhibiti kamili juu ya funguo zako za faragha. Kwa hiyo,
+  pochi zisizo na dhamana hutoa kiwango cha juu cha usalama na faragha
+  juu ya pochi za ulezi kwa kuwa ni wewe pekee unayewajibika kwa usalama wa pesa zako.
+reviewed: true

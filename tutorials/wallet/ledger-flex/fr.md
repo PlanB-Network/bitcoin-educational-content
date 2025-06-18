@@ -180,7 +180,7 @@ La passphrase ne doit pas être confondue avec le code PIN. Elle joue un rôle d
 
 La passphrase est un outil très puissant pour renforcer la sécurité de vos bitcoins. Toutefois, il est très important de comprendre son fonctionnement avant de l'implémenter, afin d'éviter de perdre l'accès à votre portefeuille. C'est pour cela que je vous explique tout dans un autre tutoriel dédié :
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Enfin, la dernière page de paramètres vous permet de réinitialiser votre Ledger. Ne procédez à cette réinitialisation que si vous êtes certain qu'il ne contient aucune clé sécurisant des bitcoins, car vous risqueriez de perdre définitivement l'accès à vos fonds.
 
@@ -395,3 +395,4 @@ Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 Félicitations, vous êtes maintenant au point sur l'utilisation de base de la Ledger Flex avec Sparrow Wallet ! Dans un prochain tutoriel, nous verrons comment utiliser la Ledger Flex avec Liana pour tirer parti de Miniscript.
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !
+

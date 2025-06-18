@@ -1,0 +1,9 @@
+question: Šta znači da Bitcoin ima opšti trend rasta?
+answer: Opšti trend rasta u Bitcoin znači da je, u celini, cena Bitcoin bila u porastu.
+wrong_answers:
+  - Opšti trend rasta u Bitcoin znači da je cena zagarantovano da će rasti neograničeno bez ikakvih fluktuacija.
+  - Opšti trend rasta u Bitcoin znači da Bitcoin postaje manje vredan i gubi svoju privlačnost na tržištu.
+  - Opšti trend rasta u Bitcoin znači da je popularan samo među malom grupom investitora i nema uticaja na celokupno tržište.
+explanation: |
+  Opšti trend rasta u Bitcoin odnosi se na dosledno povećanje njegove cene tokom određenog vremenskog perioda.Važno je napomenuti da, iako trend rasta sugeriše pozitivan pravac, to ne garantuje da će cena nastaviti da raste bez ikakvih fluktuacija.
+reviewed: true

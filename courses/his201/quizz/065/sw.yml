@@ -1,0 +1,9 @@
+question: Nani aliunda Block explorer ya kwanza mnamo Novemba 2010?
+answer: Michael Marquardt (Theymos)
+wrong_answers:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explanation: |
+  Bitcoin Block explorer hii iliwaruhusu watumiaji kutazama maelezo ya kina kuhusu vizuizi, anwani, na miamala kupitia kivinjari.
+reviewed: false

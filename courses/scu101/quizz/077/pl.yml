@@ -1,0 +1,9 @@
+question: Dlaczego zabezpieczenie swojego adresu e-mail jest istotne?
+answer: Ponieważ pozwala na resetowanie haseł
+wrong_answers:
+  - Ponieważ służy do otrzymywania newsletterów
+  - Ponieważ zawiera wszystkie twoje hasła
+  - Ponieważ zawiera twoje dane bankowe
+explanation: Skrzynka mailowa to centralny punkt dostępu do odzyskiwania haseł i
+  może prowadzić do przejęcia wielu kont w przypadku naruszenia bezpieczeństwa.
+reviewed: false

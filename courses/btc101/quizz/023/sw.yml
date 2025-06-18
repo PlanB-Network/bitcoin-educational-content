@@ -1,0 +1,14 @@
+question: Je, pesa ina jukumu gani kama chombo cha mawasiliano?
+answer: Inaruhusu mawasiliano ya thamani katika nafasi na wakati na bila hitaji la kumwamini mwenza.
+wrong_answers:
+  - Inaruhusu mawasiliano ya thamani kwenye nafasi pekee na bila hitaji la kumwamini mwenza.
+  - Huruhusu mawasiliano ya thamani kwa muda wote pekee na bila hitaji la kumwamini mwenza.
+  - Inaruhusu mawasiliano ya thamani katika nafasi na wakati na kwa hitaji la kumwamini mwenza.
+explanation: |
+  Pesa kama chombo cha mawasiliano huruhusu mawasiliano kote
+  nafasi na wakati, tunapobadilisha wakati na nguvu zetu kuwa a
+  mali ambayo inaweza kutumika tena katika siku zijazo bila hatari ya
+  kushuka kwa thamani. Pia inaruhusu mawasiliano katika ulimwengu wote
+  lugha ya kawaida, kuwezesha wageni wawili kwa Exchange, biashara,
+  na kukubaliana juu ya thamani ya vitu.
+reviewed: true

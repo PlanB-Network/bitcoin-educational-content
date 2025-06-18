@@ -1,0 +1,9 @@
+question: Jaka jest główna idea Margaret Thatcher dotycząca krzywej Laffera?
+answer: Podatki powinny zostać obniżone, aby pobudzić gospodarkę
+wrong_answers:
+  - Podatki od bogatych powinny zostać zwiększone
+  - Wysokie stawki podatkowe powinny zostać utrzymane w celu finansowania usług publicznych
+  - Wszystkie podatki powinny zostać utrzymane
+explanation: |
+  Zainspirowana krzywą Laffera, Margaret Thatcher opowiadała się za obniżeniem podatków w celu pobudzenia wzrostu gospodarczego.
+reviewed: false

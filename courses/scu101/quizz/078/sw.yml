@@ -1,0 +1,9 @@
+question: Je, ni kigezo gani cha msingi wakati wa kuunda akaunti mpya ya barua pepe?
+answer: Tumia nenosiri la kipekee na dhabiti.
+wrong_answers:
+  - Tumia tena nenosiri kutoka kwa akaunti zingine.
+  - Chagua nenosiri rahisi kwa kukariri kwa urahisi.
+  - Chagua nenosiri na jina la mnyama wako.
+explanation: |
+  Nenosiri la kipekee na dhabiti ni muhimu ili kuzuia wadukuzi kufikia akaunti ya barua pepe.
+reviewed: false

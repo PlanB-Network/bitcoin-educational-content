@@ -1,0 +1,9 @@
+question: 根據羅馬哲學家 Seneca 的說法，幸福包含什麼？
+answer: 美德的實踐
+wrong_answers:
+  - 財富
+  - 快樂
+  - 以上皆是
+explanation: |
+  對塞內卡來說，真正的幸福在於美德的實踐，它能讓個人按照理性生活，並獲得內心的持久安寧，而不受享樂或財富的影響。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Malengo makuu ya Serikali kulingana na Locke yalikuwa yapi?
+answer: Kulinda maisha, uhuru na mali ya watu binafsi.
+wrong_answers:
+  - Kusimamia sheria na kudumisha utulivu.
+  - Kukuza ustawi wa pamoja na haki ya kijamii.
+  - Kutetea dini na maadili.
+explanation: |
+  Kwa Locke, dhamira kuu ya Serikali ni kuhakikisha usalama wa haki za asili, hasa maisha, uhuru, na mali, ili kuruhusu watu binafsi kuishi kwa amani na mafanikio.
+reviewed: false

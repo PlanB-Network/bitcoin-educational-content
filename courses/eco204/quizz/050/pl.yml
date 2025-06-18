@@ -1,0 +1,11 @@
+question: Jakie było rozwiązanie przyjęte przez Zimbabwe w celu przeciwdziałania inflacji?
+answer: Dolaryzacja
+wrong_answers:
+  - Drukowanie większej ilości pieniędzy
+  - Wprowadzenie nowej waluty
+  - Zmniejszenie pieniędzy Supply
+explanation: |
+  Zimbabwe przyjęło dolaryzację, aby przeciwdziałać inflacji. Oznacza to, że
+  dolara amerykańskiego lub inne waluty z krajów sąsiednich, co zapobiega
+  rządowi drukowanie pieniędzy do woli.
+reviewed: false

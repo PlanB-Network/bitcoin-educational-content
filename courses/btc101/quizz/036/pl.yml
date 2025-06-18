@@ -1,0 +1,12 @@
+question: Co oznacza termin powiernik w kontekście walut?
+answer: Odnosi się do walut, które są wartościowe tylko ze względu na zaufanie do instytucji centralnej, która je reguluje.
+wrong_answers:
+  - Odnosi się do walut, które są zabezpieczone złotem i są emitowane przez małe banki komercyjne.
+  - Odnosi się do walut, które są wartościowe tylko w transakcjach powierniczych.
+  - Odnosi się do walut, które są używane tylko w określonej instytucji.
+explanation: |
+  Waluty fiducjarne nie są zabezpieczone fizycznym towarem
+  jak złoto czy srebro. Ich wartość wynika z zaufania
+  i zaufania ludzi do instytucji, które je emitują
+  które je emitują i regulują.
+reviewed: true

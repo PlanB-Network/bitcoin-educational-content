@@ -1,0 +1,9 @@
+question: Koju radnju Bob (primalac) preduzima kada primi Terminal Consignment od Alice (platioca)?
+answer: Proveri validnost State Transition i potpiši
+wrong_answers:
+  - Izmeni Contract Schema i pošalji to Alice.
+  - Kreirajte Invoice za novu operaciju
+  - Potpiši Alice-in PSBT i distribuiraj ga na lancu
+explanation: |
+  Bob ispituje Consignment, uverava se da tranzicija ispunjava pravila, i potpisuje se kako bi potvrdio svoj pristanak.
+reviewed: false

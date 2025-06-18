@@ -1,12 +1,14 @@
 ---
-term: PAYLOAD
-
+term: TẢI HỮU ÍCH
 ---
-In the general context of computing, a payload refers to the essential data carried within a larger data packet. For example, in a SegWit V0 address on Bitcoin, the payload corresponds to the hash of the public key, excluding various metadata (the HRP, the separator, the SegWit version, and the checksum). For instance, in the address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, we have:
+
+Trong bối cảnh chung của máy tính, một tải trọng là dữ liệu thiết yếu được mang trong một gói dữ liệu lớn hơn. Ví dụ, trong SegWit V0 trên Bitcoin Address, tải trọng tương ứng với Hash của khóa công khai, không có siêu dữ liệu khác nhau (HRP, bộ phân tách, phiên bản SegWit và tổng kiểm tra). Ví dụ, tại Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, chúng ta có:
 
 
-- `bc` : the human-readable part (HRP);
-- `1` : the separator;
-- `q` : the SegWit version. Here, it is version 0;
-- `c2eukw7reasfcmrafevp5dhv8635yuqa` : the payload, here, the hash of the public key;
-- `ys50gj` : the checksum.
+
+
+- `bc`: phần mà con người có thể đọc được (HRP);
+- `1`: dấu phân cách;
+- `q`: Phiên bản SegWit. Đây là phiên bản 0;
+- `c2eukw7reasfcmrafevp5dhv8635yuqa`: dữ liệu, trong trường hợp này là Hash của khóa công khai;
+- `ys50gj`: tổng kiểm tra.

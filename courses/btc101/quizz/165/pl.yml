@@ -1,0 +1,13 @@
+question: W jaki sposób protokół Bitcoin utrzymuje stały średni czas między utworzeniem dwóch bloków?
+answer: Trudność w znalezieniu ważnego Hash zmienia się co 2016 bloków.
+wrong_answers:
+  - Liczba górników jest regulowana do stałej liczby.
+  - Rozmiar bloków jest ustawiony na 10 megabajtów.
+  - Zwiększono nagrodę za znalezienie ważnego Hash.
+explanation: |
+  Protokół Bitcoin zapewnia, że średni czas pomiędzy
+  dwoma blokami pozostaje stały poprzez dostosowanie trudności
+  znalezienia ważnego Hash co 2016 bloków. Zdarzenie to ma miejsce
+  niezależnie od liczby górników i ich mocy obliczeniowej
+  mocy obliczeniowej.
+reviewed: true

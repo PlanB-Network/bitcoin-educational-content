@@ -1,0 +1,9 @@
+question: 亞當‧斯密的書名是什麼？
+answer: An Inquiry into the Nature and Causes of the Wealth of Nations.《國富的性質與原因探討》。
+wrong_answers:
+  - An Inquiry into the Nature and Spirit of the Wealth of Nations. 《國富的本質與精神探討》。
+  - An Inquiry into the Nature and Origins of the Wealth of Nations.《國富的性質與起源探討》。
+  - An Inquiry into the Cause and Origins of the Wealth of Nations.《國富的成因與起源探討》。
+explanation: |
+  亞當‧斯密這本書的全名是《國富的性質與原因探討》（An Inquiry into the Nature and Causes of the Wealth of Nations），突出了他對經濟繁榮因素的分析，探討了財富生產和分配的機制。
+reviewed: false

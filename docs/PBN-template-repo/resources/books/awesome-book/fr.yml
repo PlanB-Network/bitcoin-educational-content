@@ -9,7 +9,7 @@ title: "Ceci est un titre génial"
 publication_year: 2009
 
 # couverture
-# Attribuez le fichier de couverture correspondant. Ceci est pour la couverture traduite
+# Attribuez le fichier de couverture correspondant à la langue. Ceci est pour la couverture traduite
 cover: cover_fr.webp
 
 # original
@@ -22,11 +22,3 @@ description: |
   Voici une description de ce faux livre génial. La description peut être aussi longue que vous le souhaitez.
   Elle peut également être sur plusieurs lignes, comme je le fais en ce moment.
   Génial, n'est-ce pas ?
-
-# contributeurs
-# Liste des contributeurs qui aident à formater, réviser,
-# traduire le cours.
-# Ils sont identifiés par leur UUID
-# Actuellement, il n'y a pas d'enregistrement partagé de ces UUIDs
-contributor_names:
-  - Asi0Flammeus

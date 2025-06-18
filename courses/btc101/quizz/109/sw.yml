@@ -1,0 +1,11 @@
+question: Je, kuna umuhimu gani wa wajibu wa mtu binafsi katika Bitcoin?
+answer: Ni muhimu kwa sababu unasimamia chelezo.
+wrong_answers:
+  - Ni muhimu kwa sababu unapaswa kuchimba bitcoins.
+  - Ni muhimu kununua bitcoins.
+  - Ni muhimu kwa sababu unasimamia mandhari ya Wallet.
+explanation: |
+  Katika Bitcoin, uhuru wa kifedha unaambatana na
+  jukumu la mtu binafsi, kwa sababu lazima uwe chini ya ulinzi
+  pesa zako kwa kufuata taratibu zilizopendekezwa za kuhifadhi nakala.
+reviewed: true

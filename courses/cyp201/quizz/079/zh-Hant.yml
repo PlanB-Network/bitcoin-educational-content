@@ -1,0 +1,8 @@
+question: 輸出腳本描述符的主要功能是什麼？
+answer: 要完整描述輸出腳本，並提供還原 Wallet 所需的資訊
+wrong_answers:
+  - 自動 generate 多重簽章地址
+  - 在 Wallet 備份中取代 Mnemonic 語句
+  - 簡化數位簽章的計算方式
+explanation: |
+  描述符封裝了追蹤特定腳本的所有必要資訊，包括衍生路徑和使用的金鑰，但不包括復原詞組。

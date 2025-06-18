@@ -1,0 +1,9 @@
+question: Koji je modifikator koji se može kombinovati sa osnovnim sighash zastavicama?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY modifikuje sighash zastavice da pokrije samo jedan ulaz dok ostavlja ostatak promenljivim.
+reviewed: false

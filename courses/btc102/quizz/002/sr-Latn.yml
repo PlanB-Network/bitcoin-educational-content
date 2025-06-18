@@ -1,0 +1,9 @@
+question: Šta je značajan primer Bitcoin Hard Fork?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Bitcoin je prošao kroz nekoliko viljuški Hard tokom vremena, što je dovelo do različitih alternativnih verzija originalne valute. Značajni primeri ovih odstupanja uključuju Bitcoin Cash (BCH) i Bitcoin Satoshi Vision (BSV).
+reviewed: false

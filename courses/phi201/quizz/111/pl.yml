@@ -1,0 +1,9 @@
+question: Jaka jest rola pieniądza w gospodarce według Keynesa?
+answer: Instrument polityki gospodarczej
+wrong_answers:
+  - Zwykły środek Exchange
+  - Hamulec wzrostu
+  - Narzędzie do spekulacji
+explanation: |
+  Dla Keynesa pieniądz jest dźwignią polityki gospodarczej, która pozwala rządom regulować gospodarkę poprzez wpływanie na inwestycje, zatrudnienie i ogólny popyt.
+reviewed: false

@@ -1,0 +1,41 @@
+# generate a random uuid v4
+id: d2bd90b2-929a-4b1e-9bfb-359863cc08f0
+
+# complete title of the content, don't forget the ".."
+title: "title_of_the_movie"
+
+# write the full name of (all) the author(s)
+author: Jane Doe
+
+publication_year: 2009
+
+# duration is expressed in minutes
+duration: 60
+
+# language of original audio of the content
+# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+language: en
+
+# all the movies posted here must be legit, most of them will be published on hosted services like YouTube, but this is not a rule
+links:
+  platform: https://youtu.be/AxbZq8Zmd88
+  trailer: https://youtu.be/AxbZq8Zmd88
+
+description: |
+  Write like
+  this the
+  description
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
+contributor_names:
+  - author1_github_username #insert your github username
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - cypherpunk
+  - future-outlook
+  - high-level

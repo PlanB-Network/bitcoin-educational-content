@@ -1,366 +1,369 @@
 ---
-name: Alby Hub
-description: How do you easily launch your own Lightning node?
+name: Trung tâm Alby
+description: Làm thế nào để dễ dàng khởi chạy nút Lightning của riêng bạn?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub is the latest software from Alby, the company behind the popular Lightning web extension. Alby Hub is an easy-to-use interface for managing Lightning nodes.
+Alby Hub là phần mềm mã nguồn mở mới nhất của Alby, công ty đứng sau tiện ích mở rộng web Lightning phổ biến. Alby Hub là Wallet tự quản lý với nút Lightning dễ sử dụng nhất, có thể truy cập từ mọi nơi để tích hợp với hàng chục ứng dụng. Alby Hub là Interface dễ sử dụng để quản lý các nút Lightning.
 
-In this tutorial, we'll look at different ways of using Alby Hub to manage your own Lightning node, and how to connect it to Alby Go, Alby's mobile app. This will enable you to spend your sats on the move while being autonomous in the management of your node.
+Trong hướng dẫn này, chúng ta sẽ xem xét các cách khác nhau để sử dụng Alby Hub, cách kết nối nó với Alby Go, ứng dụng di động của Alby hoặc Tiện ích mở rộng trình duyệt Alby. Điều này sẽ cho phép bạn sử dụng Sats khi di chuyển trong khi vẫn tự chủ trong việc quản lý nút của mình.
 
 ![ALBY HUB](assets/fr/01.webp)
 
-## What is Alby Hub?
+## Alby Hub là gì?
 
-In 2024, Alby marked a strategic shift. For years, they've offered a variety of tools associated with Bitcoin and the Lightning Network, including the iconic Alby extension, which allows you to operate a Lightning wallet, custodial or otherwise. However, in 2025, they plan to discontinue their shared custodial wallet service and focus exclusively on self-custody solutions. Alby Hub is set to be the new flagship tool in the Alby ecosystem. This software enables users to easily manage their own Lightning node, while retaining ownership of their keys (self-custody).
+Alby Hub được thiết lập để trở thành công cụ chủ lực mới trong hệ sinh thái Alby. Phần mềm này cho phép người dùng dễ dàng quản lý Wallet tự lưu giữ của riêng họ bằng một nút Lightning tích hợp, trong khi vẫn giữ lại Ownership của khóa của họ (tự lưu giữ).
 
-Alby Hub is a highly adaptable tool. It can meet the needs of both beginners and advanced users. Novices will use it to easily operate a real Lightning node on their own, without having to deal with the underlying complexity. For more experienced users, Alby Hub can be used as a complete interface for advanced management of an existing Lightning node.
+Alby Hub là một công cụ có khả năng thích ứng cao. Nó có thể đáp ứng nhu cầu của cả người mới bắt đầu và người dùng nâng cao. Người mới sẽ sử dụng nó để dễ dàng vận hành một nút Lightning thực sự của riêng họ, mà không phải giải quyết sự phức tạp cơ bản. Đối với những người dùng có kinh nghiệm hơn, Alby Hub có thể được sử dụng như một Interface hoàn chỉnh để quản lý nâng cao một nút Lightning hiện có.
 
-Depending on your needs, Alby Hub is available in 4 configurations:
-
-
-- Alby Hub Cloud :**
-
-Ideal for novices, this first option is the Alby cloud option. It allows you to deploy a Lightning node directly on an Alby-managed server, accessible via your Alby Hub interface. Although Alby manages the server, you retain sovereignty over your funds, as your keys are encrypted using a password known only to you. However, your keys must remain decrypted in RAM for the node to operate, which theoretically exposes them to risk if someone physically accesses the server. It's an interesting compromise for beginners, but it's important to be aware of the risks.
-
-The major advantage of this option is that you get a Lightning node up and running 24/7, without having to manage the hosting yourself. What's more, backups of your Lightning node are simplified and automated, compared with self-hosted options where you have to manage channel backups yourself.
-
-Alby offers this service for 21,000 sats per month (December 2024 rate, subject to change, [check their pricing](https://albyhub.com/#pricing)). The fee is automatically deducted from your node via a Lightning invoice issued by Alby. This is done via a NWC connection that configures your node to automatically pay Alby invoices related to your subscription.
+Tùy thuộc vào nhu cầu của bạn, Alby Hub có 4 cấu hình:
 
 
-- Alby Hub with an existing node :**
+- Alby Hub Đám mây :**
 
-If you already have a node hosted, for example on Umbrel or Start9, Alby Hub can be used as an advanced management interface, in the same way as ThunderHub or RTL.
+Lý tưởng cho người mới bắt đầu, tùy chọn đầu tiên này là tùy chọn đám mây Alby. Nó cho phép bạn triển khai Hub trực tiếp trên máy chủ do Alby quản lý, có thể truy cập thông qua Alby Hub Interface của bạn. Mặc dù Alby quản lý máy chủ, nhưng bạn vẫn giữ được quyền tối cao đối với tiền của mình vì khóa của bạn được mã hóa bằng mật khẩu chỉ bạn biết. Tuy nhiên, khóa của bạn phải được giải mã trong RAM để nút hoạt động, về mặt lý thuyết, điều này sẽ khiến chúng gặp rủi ro nếu ai đó truy cập vật lý vào máy chủ. Đây là một sự thỏa hiệp thú vị cho người mới bắt đầu, nhưng điều quan trọng là phải nhận thức được những rủi ro.
+
+Ưu điểm chính của tùy chọn này là bạn có thể thiết lập và chạy một nút Lightning 24/7 mà không cần phải tự quản lý lưu trữ. Hơn nữa, việc sao lưu nút Lightning của bạn được đơn giản hóa và tự động hóa, so với các tùy chọn tự lưu trữ mà bạn phải tự quản lý sao lưu kênh.
+
+Alby Cloud là dịch vụ trả phí [Kiểm tra giá của họ](https://albyhub.com/#pricing) để biết thêm chi tiết. Phí được tự động khấu trừ từ Wallet của bạn thông qua Lightning Invoice do Alby phát hành. Điều này được thực hiện thông qua kết nối NWC cấu hình nút của bạn để tự động thanh toán hóa đơn Alby liên quan đến đăng ký của bạn.
 
 
-- Alby Hub local :**
+- Alby Hub có một nút hiện có :**
 
-It's also possible to install Alby Hub and your node directly on your PC, although this option is less practical, as your PC must remain active at all times to remotely access the Lightning node. However, this alternative may be suitable for your specific needs.
+Nếu bạn đã có một nút được lưu trữ, ví dụ trên Umbrel hoặc Start9, Alby Hub có thể được sử dụng làm Interface quản lý nâng cao, tương tự như ThunderHub hoặc RTL.
 
 
-- Alby Hub on a personal server :**
+- Alby Hub địa phương :**
 
-For advanced users, Alby Hub can be deployed on a personal server with a simple command. This option is not covered in this tutorial, but you can find dedicated instructions [on Alby's GitHub](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
+Bạn cũng có thể cài đặt Alby Hub trực tiếp trên PC của mình, mặc dù tùy chọn này ít thực tế hơn vì PC của bạn phải luôn hoạt động để truy cập từ xa vào nút Lightning. Tuy nhiên, giải pháp thay thế này có thể phù hợp với nhu cầu cụ thể của bạn.
 
-This tutorial focuses mainly on the interface, which will be the same regardless of the option chosen. We'll also look at how to deploy Alby Hub with the paid cloud option, then with the node-in-box option (Umbrel or Start9).
+
+- Alby Hub trên máy chủ cá nhân :**
+
+Đối với người dùng nâng cao, Alby Hub có thể được triển khai trên máy chủ cá nhân chỉ bằng một lệnh đơn giản. Tùy chọn này không được đề cập trong hướng dẫn này, nhưng bạn có thể tìm thấy hướng dẫn chuyên dụng [trên GitHub của Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
+
+Hướng dẫn này tập trung chủ yếu vào Interface, sẽ giống nhau bất kể tùy chọn nào được chọn. Chúng tôi cũng sẽ xem cách triển khai Alby Hub với tùy chọn đám mây trả phí, sau đó với tùy chọn node-in-box (Umbrel hoặc Start9).
 
 ![ALBY HUB](assets/fr/02.webp)
 
-For local installation on your PC, [download and install the software according to your operating system](https://github.com/getAlby/hub/releases), then follow the same instructions on the interface.
+Để cài đặt cục bộ trên PC của bạn, hãy [tải xuống và cài đặt phần mềm theo hệ điều hành của bạn](https://github.com/getAlby/hub/releases), sau đó làm theo các hướng dẫn tương tự trên Interface.
 
 ![ALBY HUB](assets/fr/03.webp)
 
-## Create an Alby account
+## Tạo tài khoản Alby
 
-The first step is to create an Alby account. Although this is not essential for using Alby Hub, it does allow you to take full advantage of the options available, including the possibility of obtaining a Lightning address.
+Bước đầu tiên là tạo một tài khoản Alby. Mặc dù điều này không cần thiết để sử dụng Alby Hub, nhưng nó cho phép bạn tận dụng tối đa các tùy chọn có sẵn, bao gồm khả năng có được Lightning Address.
 
-Go to [the official Alby website](https://getalby.com/) and click on the "*Create Account*" button.
+Truy cập [trang web chính thức của Alby](https://getalby.com/) và nhấp vào nút "*Tạo tài khoản*".
 
 ![ALBY HUB](assets/fr/04.webp)
 
-Enter a nickname and an email address, then click on "*Sign up*". This email address will be used to log in to your account later.
+Nhập biệt danh và email Address, sau đó nhấp vào "*Đăng ký*". Email Address này sẽ được sử dụng để đăng nhập vào tài khoản của bạn sau này.
 
 ![ALBY HUB](assets/fr/05.webp)
 
-Enter the verification code you received by email.
+Nhập mã xác minh bạn nhận được qua email.
 
 ![ALBY HUB](assets/fr/06.webp)
 
-Once logged into your online account, click on the "*Continue*" button.
+Sau khi đăng nhập vào tài khoản trực tuyến của bạn, hãy nhấp vào nút "*Tiếp tục*".
 
 ![ALBY HUB](assets/fr/07.webp)
 
-Click "*Continue*" again.
+Nhấp vào "*Tiếp tục*" một lần nữa.
 
 ![ALBY HUB](assets/fr/08.webp)
 
-## The cloud hosting option
+## Tùy chọn lưu trữ đám mây
 
-You'll then have to choose between a self-hosted option, where you host a Lightning node on your own hardware, or the paid option using Alby's cloud. I'll start by explaining how to proceed with the Cloud option (note that this is a paid option, see details in the previous section).
+Sau đó, bạn sẽ phải chọn giữa tùy chọn tự lưu trữ, nơi bạn cài đặt Alby Hub trên thiết bị của mình hoặc tùy chọn cao cấp. Tôi sẽ bắt đầu bằng cách giải thích cách tiến hành với tùy chọn Pro Cloud (lưu ý rằng đây là tùy chọn trả phí, hãy xem chi tiết ở phần trước).
 
-Click on "*Upgrade*".
+Nhấp vào "*Nâng cấp*".
 
 ![ALBY HUB](assets/fr/09.webp)
 
-Confirm by clicking on "*Subscribe Now*".
+Xác nhận bằng cách nhấp vào "*Đăng ký ngay*".
 
 ![ALBY HUB](assets/fr/10.webp)
 
-Click on "*Launch Alby Hub*".
+Nhấp vào "*Khởi chạy Alby Hub*".
 
 ![ALBY HUB](assets/fr/11.webp)
 
-Wait a few moments while your node is created.
+Chờ một vài phút để nút của bạn được tạo.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-And that's it, your Alby Hub is now configured. In the next section, I'll show you how to install Alby Hub on an existing node. If you don't need to, you can skip ahead to the next section to configure your node.
+Và thế là xong, Alby Hub của bạn đã được cấu hình. Trong phần tiếp theo, tôi sẽ chỉ cho bạn cách cài đặt Alby Hub trên một node hiện có. Nếu bạn chưa có node lightning, bạn có thể bỏ qua phần tiếp theo để cấu hình Alby Hub trên Alby Cloud.
 
 ![ALBY HUB](assets/fr/13.webp)
 
-## The self-hosting option
+## Tùy chọn tự lưu trữ
 
-If you prefer to use Alby Hub as an interface for your existing Lightning node, you have several options: install it on a server, locally on your computer, or via a node-in-box (Umbrel or Start9). Using Alby Hub in these configurations is free of charge. We're going to concentrate on the node-in-box option, as I find that the server option, without physical access, presents similar risks to the cloud version, and local installation on a PC is often unsuitable.
+Nếu bạn muốn sử dụng Alby Hub như một Interface cho nút Lightning hiện tại của mình, bạn có một số tùy chọn: cài đặt trên máy chủ, cục bộ trên máy tính của bạn hoặc thông qua một nút trong hộp (Umbrel hoặc Start9). Sử dụng Alby Hub trong các cấu hình này là miễn phí. Chúng ta sẽ tập trung vào tùy chọn nút trong hộp, vì tôi thấy rằng tùy chọn máy chủ, không có quyền truy cập vật lý, có những rủi ro tương tự như phiên bản đám mây và cài đặt cục bộ trên PC thường không phù hợp.
 
-To set this up on Umbrel (the steps for Start9 are identical), you must first have an LND node already configured.
+Để thiết lập trên Umbrel (các bước thực hiện trên Start9 giống hệt), trước tiên bạn phải cấu hình sẵn một nút LND.
 
-Log in to your Umbrel interface and go to the application store.
+Đăng nhập vào Umbrel Interface của bạn và vào cửa hàng ứng dụng.
 
 ![ALBY HUB](assets/fr/14.webp)
 
-Look for the "*Alby Hub*" application.
+Tìm ứng dụng "*Alby Hub*".
 
 ![ALBY HUB](assets/fr/15.webp)
 
-Install it on your node.
+Cài đặt nó trên nút của bạn.
 
 ![ALBY HUB](assets/fr/16.webp)
 
-Your Alby Hub interface is now ready. You can follow the rest of the tutorial as if you were using the cloud interface, but without the options of the paid version. What's more, unlike the cloud version, your keys are stored locally on your node, not on Alby's servers.
+Alby Hub Interface của bạn hiện đã sẵn sàng. Bạn có thể làm theo phần còn lại của hướng dẫn như thể bạn đang sử dụng đám mây Interface, nhưng không có các tùy chọn của phiên bản trả phí. Hơn nữa, không giống như phiên bản đám mây, khóa của bạn được lưu trữ cục bộ trên nút của bạn, không phải trên máy chủ của Alby.
 
 ![ALBY HUB](assets/fr/17.webp)
 
-## Launch Alby Hub
+## Ra mắt Alby Hub
 
-Click on the "*Get Started*" button.
+Nhấp vào nút "*Bắt đầu*".
 
 ![ALBY HUB](assets/fr/18.webp)
 
-Alby Hub will then prompt you to choose a password. This password is very important, as it will be used to encrypt your wallet. In the paid cloud version, your keys are stored on the Alby server, encrypted with this password that only you know, then decrypted and stored only in RAM to sign transactions when necessary.
+Alby Hub sau đó sẽ nhắc bạn chọn mật khẩu. Mật khẩu này rất quan trọng vì nó sẽ được sử dụng để mã hóa Wallet của bạn. Trong phiên bản đám mây trả phí, khóa của bạn được lưu trữ trên máy chủ Alby, được mã hóa bằng mật khẩu này mà chỉ bạn biết, sau đó được giải mã và chỉ lưu trữ trong RAM để ký giao dịch khi cần thiết.
 
-It is therefore essential to choose a strong password. Anyone with this password could potentially gain access to your node. Make sure you also make one or more physical backups of this password on a piece of paper, or better still, on a piece of metal for added security. **If you lose this password, it will be impossible to recover access to your bitcoins**, as Alby has no way of resetting it. The loss of this password means the loss of your bitcoins.
+Do đó, điều cần thiết là phải chọn một mật khẩu mạnh. Bất kỳ ai có mật khẩu này đều có khả năng truy cập vào nút của bạn. Đảm bảo bạn cũng tạo một hoặc nhiều bản sao lưu vật lý của mật khẩu này trên một tờ giấy hoặc tốt hơn nữa là trên một miếng kim loại để tăng thêm tính bảo mật.
 
-Once you have carefully chosen and saved your password, click on "*Create Password*".
+Sau khi bạn đã chọn và lưu mật khẩu cẩn thận, hãy nhấp vào "*Tạo mật khẩu*".
 
 ![ALBY HUB](assets/fr/19.webp)
 
-You now have access to your Lightning node.
+Bây giờ bạn có thể truy cập vào nút Lightning của mình.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-The first action to take is to save your recovery phrase, from which your keys are derived. This phrase allows you to recover access to your onchain wallet and, with the latest state of your channels, your sats on Lightning. To do this, click on "*Settings*".
+Hành động đầu tiên cần thực hiện là lưu cụm từ khôi phục của bạn, từ đó các khóa của bạn được lấy ra. Để thực hiện việc này, hãy nhấp vào "Cài đặt". Cụm từ này cho phép bạn khôi phục quyền truy cập vào Wallet của mình nếu bạn đã bật sao lưu tự động.
 
 ![ALBY HUB](assets/fr/21.webp)
 
-Then go to the "*Backup*" tab. Enter your password to access it.
+Sau đó, hãy chuyển đến tab "*Sao lưu*". Nhập mật khẩu của bạn để truy cập.
 
 ![ALBY HUB](assets/fr/22.webp)
 
-You will then have access to your 12-word recovery phrase. Make one or more physical back-ups of this phrase on paper or metal, and store it in a safe place.
+Sau đó, bạn sẽ có quyền truy cập vào cụm từ khôi phục gồm 12 từ của mình. Tạo một hoặc nhiều bản sao lưu vật lý của cụm từ này trên giấy hoặc kim loại và lưu trữ ở nơi an toàn.
 
 ![ALBY HUB](assets/fr/23.webp)
 
-Once you've saved the phrase, check the box to confirm that you've saved it and click "*Continue*".
+Sau khi lưu cụm từ, hãy đánh dấu vào ô để xác nhận rằng bạn đã lưu cụm từ đó và nhấp vào "*Tiếp tục*".
 
 ![ALBY HUB](assets/fr/24.webp)
 
-## How can I recover access to my bitcoins?
+## Làm thế nào tôi có thể khôi phục quyền truy cập vào bitcoin của mình?
 
-Before sending funds to your node, it's important to understand how to recover them in the event of a problem, as well as what information is required for this recovery. The process varies according to the nature of the funds to be recovered and the hosting mode of your node.
+Trước khi gửi tiền đến Alby Hub của bạn, điều quan trọng là phải hiểu cách khôi phục tiền trong trường hợp có sự cố, cũng như thông tin nào là cần thiết cho quá trình khôi phục này. Quy trình thay đổi tùy theo bản chất của số tiền cần khôi phục và chế độ lưu trữ của nút của bạn.
 
-For paid cloud users, complete recovery of your bitcoins requires three essential elements:
-
-
-- Your recovery phrase;
-- Your password (the one used for your node) ;
-- Access to your Alby account, to retrieve the latest status of your Lightning channels.
-
-The absence of any of these 3 pieces of information would make it impossible to recover your bitcoins in full.
-
-For those hosting their own node, the recovery process is identical to that for any Lightning node. You'll need :
+Đối với người dùng đám mây trả phí, việc khôi phục hoàn toàn số bitcoin của bạn cần có ba Elements thiết yếu:
 
 
-- Your recovery phrase;
-- The latest status of your Lightning channels. To secure this information, Umbrel offers [an option](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) to encrypt it and save it dynamically and anonymously via Tor.
+- Cụm từ phục hồi của bạn;
+- Truy cập vào tài khoản Alby của bạn để lấy bản sao lưu tự động.
 
-## Buy your first Lightning channel
+Việc thiếu bất kỳ thông tin nào trong 2 thông tin này sẽ khiến bạn không thể khôi phục toàn bộ số bitcoin của mình.
 
-You can now follow the instructions provided by Alby Hub. Click on the button to open your first channel for incoming cash.
+Đối với những người chạy Alby Hub trên thiết bị của riêng họ, quy trình khôi phục được ghi lại [tại đây](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
+
+Nếu bạn đã cài đặt Alby Hub trên một nút hiện có, bạn sẽ cần phải làm theo quy trình khôi phục của hệ điều hành nút cụ thể đó. Ví dụ: Umbrel cung cấp [một tùy chọn](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) để mã hóa trạng thái mới nhất của các kênh Lightning của bạn và lưu nó một cách động và ẩn danh qua Tor. Hãy lưu ý rằng chỉ các bản sao lưu tự động từ Alby mới cho phép bạn khôi phục hoàn toàn Hub của mình mà không cần đóng bất kỳ kênh nào.
+
+## Mua kênh Lightning đầu tiên của bạn
+
+Bây giờ bạn có thể làm theo hướng dẫn do Alby Hub cung cấp. Nhấp vào nút để mở kênh đầu tiên của bạn để nhận tiền mặt.
 
 ![ALBY HUB](assets/fr/25.webp)
 
-Select "*Open Channel*". If you don't intend to become a routing node and don't specifically need one, I recommend you opt for private channels.
+Chọn "*Mở kênh*". Nếu bạn không có ý định trở thành nút định tuyến và không thực sự cần nút này, tôi khuyên bạn nên chọn kênh riêng.
 
 ![ALBY HUB](assets/fr/26.webp)
 
-Alby Hub will generate an invoice for you to pay. This payment covers the transaction fees needed to open your channel, as well as the service fees of the LSP (*Lightning Service Provider*) who will open a channel to your node, allowing you to receive payments immediately.
+Alby Hub sẽ generate và Invoice để bạn thanh toán. Khoản thanh toán này bao gồm phí giao dịch cần thiết để mở kênh của bạn, cũng như phí dịch vụ của LSP (*Nhà cung cấp dịch vụ Lightning*) sẽ mở kênh đến nút của bạn, cho phép bạn nhận thanh toán ngay lập tức.
 
 ![ALBY HUB](assets/fr/27.webp)
 
-Once the invoice has been paid and the transaction confirmed, your first Lightning channel is established.
+Sau khi Invoice được thanh toán và giao dịch được xác nhận, kênh Lightning đầu tiên của bạn sẽ được thiết lập.
 
 ![ALBY HUB](assets/fr/28.webp)
 
-In the "*Node*" tab, you can see that you now have incoming cash, enabling you to receive payments via Lightning.
+Trong tab "*Node*", bạn có thể thấy rằng hiện tại bạn đã có tiền mặt đến, cho phép bạn nhận thanh toán qua Lightning.
 
 ![ALBY HUB](assets/fr/29.webp)
 
-To receive payment, click on the "*Wallet*" tab and then on "*Receive*".
+Để nhận thanh toán, hãy nhấp vào tab "*Wallet*" rồi nhấp vào "*Nhận*".
 
 ![ALBY HUB](assets/fr/30.webp)
 
-Enter an amount and add a description if necessary, then click on "*Create Invoice*".
+Nhập số tiền và thêm mô tả nếu cần, sau đó nhấp vào "*Tạo Invoice*".
 
 ![ALBY HUB](assets/fr/31.webp)
 
-I received my first payment of 120,000 sats.
+Tôi đã nhận được khoản thanh toán đầu tiên là 120.000 Sats.
 
 ![ALBY HUB](assets/fr/32.webp)
 
-By returning to the "*Wallet*" tab, you can check your wallet balance. Note that Alby Hub automatically sets aside 354 sats when you make your first payment. For each Lightning channel you open thereafter, Alby Hub will automatically set aside a reserve equivalent to 1% of the channel's capacity. This reserve is a security measure that enables your node to recover the channel's funds in the event of attempted fraud by your peer. That's why, although I've sent 120,000 sats, only 119,646 sats are shown on my balance.
+Bằng cách quay lại tab "*Wallet*", bạn có thể kiểm tra số dư Wallet của mình. Lưu ý rằng Alby Hub tự động dành riêng 354 Sats khi bạn thực hiện khoản thanh toán đầu tiên. Đối với mỗi kênh Lightning bạn mở sau đó, Alby Hub sẽ tự động dành riêng một khoản dự trữ tương đương với 1% dung lượng của kênh. Khoản dự trữ này là biện pháp bảo mật cho phép nút của bạn khôi phục tiền của kênh trong trường hợp có hành vi gian lận của đối tác. Đó là lý do tại sao, mặc dù tôi đã gửi 120.000 Sats, nhưng chỉ có 119.646 Sats được hiển thị trên số dư của tôi.
 
 ![ALBY HUB](assets/fr/33.webp)
 
-## Depositing bitcoins onchain
+## Gửi bitcoin trên chuỗi
 
-If you want to have outgoing cash to make payments, you can also open a channel yourself. To do this, you'll need onchain bitcoins in your wallet.
+Nếu bạn muốn có tiền mặt để thanh toán, bạn cũng có thể tự mở kênh. Để làm như vậy, bạn sẽ cần bitcoin onchain trong Wallet của mình.
 
-From the "*Node*" tab, click on "*Deposit*".
+Từ tab "*Node*", nhấp vào "*Deposit*".
 
 ![ALBY HUB](assets/fr/34.webp)
 
-Send bitcoins to the address displayed. This address is derived from your previously saved recovery phrase.
+Gửi bitcoin đến Address được hiển thị. Address này được lấy từ cụm từ khôi phục đã lưu trước đó của bạn.
 
 ![ALBY HUB](assets/fr/35.webp)
 
-I sent 72,000 sats. They are now visible in "*Savings Balance*", which includes all the funds I own onchain, and not on Lightning.
+Tôi đã gửi 72.000 Sats. Bây giờ chúng có thể nhìn thấy trong "*Số dư tiết kiệm*", bao gồm tất cả các khoản tiền tôi sở hữu trên blockchain, chứ không phải trên Lightning.
 
 ![ALBY HUB](assets/fr/36.webp)
 
-## Open a Lightning channel
+## Mở kênh Lightning
 
-Now that you have onchain funds, you can open a new Lightning channel. It's advisable to open several channels, with sufficient amounts to ensure that you can always make payments without constraint. Most LSPs (*Lightning Service Providers*) require a minimum of 150,000 sats to open a channel with you.
+Bây giờ bạn đã có tiền trên chuỗi, bạn có thể mở một kênh Lightning mới. Nên mở nhiều kênh, với số tiền đủ để đảm bảo bạn luôn có thể thanh toán mà không bị ràng buộc. Hầu hết các LSP (*Nhà cung cấp dịch vụ Lightning*) yêu cầu tối thiểu 150.000 Sats để mở một kênh với bạn.
 
-In the "*Node*" tab, click on "*Open Channel*".
+Trong tab "*Node*", nhấp vào "*Open Channel*".
 
 ![ALBY HUB](assets/fr/37.webp)
 
-Select the size of your channel. I recommend that you don't open channels that are too small, bearing in mind that this is a Lightning node and the machine hosting your keys doesn't offer the same level of security as a hardware wallet. So be careful with the amounts you choose to block.
+Chọn kích thước kênh của bạn. Tôi khuyên bạn không nên mở các kênh quá nhỏ, lưu ý rằng đây là nút Lightning và máy lưu trữ khóa của bạn không cung cấp cùng mức độ bảo mật như Hardware Wallet. Vì vậy, hãy cẩn thận với số lượng bạn chọn chặn.
 
 ![ALBY HUB](assets/fr/38.webp)
 
-In the "*Advanced Options*" menu, you can choose which LSP to open your channel with, or manually enter another Lightning node.
+Trong menu "*Tùy chọn nâng cao*", bạn có thể chọn LSP để mở kênh của mình hoặc nhập thủ công một nút Lightning khác.
 
 ![ALBY HUB](assets/fr/39.webp)
 
-Then click on "*Open Channel*".
+Sau đó nhấp vào "*Mở kênh*".
 
 ![ALBY HUB](assets/fr/40.webp)
 
-Wait while your channel is confirmed onchain.
+Chờ cho kênh của bạn được xác nhận trên chuỗi.
 
 ![ALBY HUB](assets/fr/41.webp)
 
-Your new channel will now appear in the "*Node*" tab.
+Kênh mới của bạn bây giờ sẽ xuất hiện trong tab "*Node*".
 
 ![ALBY HUB](assets/fr/42.webp)
 
-## Connect an expense application
+## Quản lý nút
 
-Now that you have a working Lightning node, you can use it to receive and spend sats on a daily basis. While Alby Hub's web interface is handy for managing your node, it's not ideal for making quick transactions on the move. For this, we're going to use a Lightning wallet app installed on our smartphone.
+Quản lý các kênh Lightning của bạn dễ hơn bạn nghĩ. Alby Hub cho phép bạn chuyển Sats giữa số dư chi tiêu và số dư On-Chain của bạn. Đó là cách bạn có thể tăng khả năng chi tiêu hoặc nhận.
 
-In this tutorial, I recommend you opt for Alby Go, which is very easy to use, but you can also use other compatible applications such as Zeus.
+![ALBY HUB](assets/fr/66.webp)
+
+## Kết nối một ứng dụng chi phí
+
+Bây giờ bạn đã có một nút Lightning đang hoạt động, bạn có thể sử dụng nó để nhận và chi tiêu Sats hàng ngày. Mặc dù web Interface của Alby Hub rất tiện lợi để quản lý nút của bạn, nhưng nó không lý tưởng để thực hiện các giao dịch nhanh khi đang di chuyển. Đối với điều này, chúng ta sẽ sử dụng ứng dụng Lightning Wallet được cài đặt trên điện thoại thông minh của mình.
+
+Trong hướng dẫn này, tôi khuyên bạn nên chọn Alby Go, một ứng dụng rất dễ sử dụng, nhưng bạn cũng có thể sử dụng các ứng dụng tương thích khác như Zeus.
 
 ![ALBY HUB](assets/fr/43.webp)
 
-To install Alby Go, go to your device's application store:
+Để cài đặt Alby Go, hãy vào cửa hàng ứng dụng trên thiết bị của bạn:
 
 
-- [For Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [For Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
+- [Dành cho Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Dành cho Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
 ![ALBY HUB](assets/fr/44.webp)
 
-Android users can also install the app via the `.apk` file [available on Alby's GitHub](https://github.com/getAlby/go/releases).
+Người dùng Android cũng có thể cài đặt ứng dụng thông qua tệp `.apk` [có trên GitHub của Alby](https://github.com/getAlby/go/releases).
 
 ![ALBY HUB](assets/fr/45.webp)
 
-When the application is launched, click on "*Connect Wallet*".
+Khi ứng dụng được khởi chạy, hãy nhấp vào "*Kết nối Wallet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-In your Alby Hub, under the "*Connections*" tab, click on "*Add Connection*".
+Trong Alby Hub của bạn, bên dưới App Store, tìm “Alby Go” và nhấp vào “Kết nối”
 
 ![ALBY HUB](assets/fr/47.webp)
 
-Name this connection to identify it easily in your Hub, and select the permissions you wish to grant to the application. In my case, I choose "*Full Access*" to have full access to my Lightning node's funds from my smartphone, but you can also limit access by a maximum budget, select the features allowed, or set an expiry date for these permissions. Once configured, click on "*Next*".
+Nhấp vào “Kết nối với One-Tab Connections”. Thao tác này sẽ cho phép bạn liên kết Alby Hub của mình chỉ bằng một cú nhấp chuột với các ứng dụng khác bằng Alby Go.
 
 ![ALBY HUB](assets/fr/48.webp)
 
-Alby Hub will then generate a secret to establish the connection.
+Alby Hub sau đó sẽ sử dụng generate để thiết lập kết nối tới Alby Go.
 
 ![ALBY HUB](assets/fr/49.webp)
 
-Go back to the Alby Go application, scan the QR code or paste the secret.
+Quay lại ứng dụng Alby Go, quét mã QR hoặc dán bí mật.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Click on "Finish*".
+Nhấp vào "Hoàn tất*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-You now have remote access to your Lightning node from your smartphone, making it easy to spend and receive sats on the move every day.
+Bây giờ bạn có thể truy cập từ xa vào Alby Hub chạy bằng nút Lightning từ điện thoại thông minh của mình, giúp bạn dễ dàng chi tiêu và nhận Sats khi di chuyển mỗi ngày.
 
 ![ALBY HUB](assets/fr/52.webp)
 
-If necessary, you can manage the permissions for this connection directly on Alby Hub by clicking on it.
+Nếu cần, bạn có thể quản lý quyền cho kết nối này trực tiếp trên Alby Hub bằng cách nhấp vào kết nối đó.
 
 ![ALBY HUB](assets/fr/53.webp)
 
-To receive sats, simply click on "*Receive*".
+Để nhận Sats, chỉ cần nhấp vào "*Nhận*".
 
 ![ALBY HUB](assets/fr/54.webp)
 
-Modify the invoice amount and description by clicking on "*Invoice*".
+Sửa đổi số lượng và mô tả Invoice bằng cách nhấp vào "*Invoice*".
 
 ![ALBY HUB](assets/fr/55.webp)
 
-Charge the invoice to receive sats.
+Sạc Invoice để nhận Sats.
 
 ![ALBY HUB](assets/fr/56.webp)
 
-To send sats, click on "*Send*".
+Để gửi Sats, hãy nhấp vào "*Gửi*".
 
 ![ALBY HUB](assets/fr/57.webp)
 
-Scan the invoice you wish to pay.
+Quét mã Invoice mà bạn muốn thanh toán.
 
 ![ALBY HUB](assets/fr/58.webp)
 
-Then click on "*Pay*".
+Sau đó nhấp vào "*Thanh toán*".
 
 ![ALBY HUB](assets/fr/59.webp)
 
-Your transaction is confirmed.
+Giao dịch của bạn đã được xác nhận.
 
 ![ALBY HUB](assets/fr/60.webp)
 
-By clicking on the small arrow, you can access your transaction history.
+Bằng cách nhấp vào mũi tên nhỏ, bạn có thể truy cập lịch sử giao dịch của mình.
 
 ![ALBY HUB](assets/fr/61.webp)
 
-These transactions are also visible on your Alby Hub.
+Các giao dịch này cũng có thể được nhìn thấy trên Alby Hub của bạn.
 
 ![ALBY HUB](assets/fr/62.webp)
 
-## Customize your Lightning address
+## Tùy chỉnh Lightning Address của bạn
 
-Alby offers you the option of a Lightning address. This allows you to receive payments on your node without having to manually generate an invoice each time. By default, Alby assigns you a Lightning address, but you can customize it. Log in to your Alby online account, click on your name in the top right-hand corner, then select "*Settings*".
+Alby cung cấp cho bạn tùy chọn Lightning Address. Điều này cho phép bạn nhận thanh toán trên nút của mình mà không cần phải generate thủ công một Invoice mỗi lần. Theo mặc định, Alby chỉ định cho bạn một Lightning Address, nhưng bạn có thể tùy chỉnh nó. Đăng nhập vào tài khoản trực tuyến Alby của bạn, nhấp vào tên của bạn ở góc trên bên phải, sau đó chọn "*Cài đặt*".
 
 ![ALBY HUB](assets/fr/63.webp)
 
-Navigate to the "*Lightning Address*" menu.
+Điều hướng đến menu "*Lightning Address*".
 
 ![ALBY HUB](assets/fr/64.webp)
 
-Modify your address, then confirm by clicking on "*Update your lightning address*".
+Sửa đổi Address của bạn, sau đó xác nhận bằng cách nhấp vào "*Cập nhật Lightning Address*".
 
 ![ALBY HUB](assets/fr/65.webp)
 
-Please note that once your address has been changed, it no longer belongs to you. So make sure you never send sats to it again.
+Xin lưu ý rằng sau khi Address của bạn đã được thay đổi, nó không còn thuộc về bạn nữa. Vì vậy, hãy đảm bảo rằng bạn không bao giờ gửi Sats cho nó nữa.
 
-And that's it, you now know how to use Lightning with your own node using the Alby Hub tool. If you found this tutorial useful, I'd be very grateful if you put a green thumb below. Please feel free to share this article on your social networks. Thank you very much!
+Và thế là xong, giờ bạn đã biết cách sử dụng Lightning với node của riêng mình bằng công cụ Alby Hub. Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn nếu bạn để lại một ngón tay cái Green bên dưới. Vui lòng chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn bạn rất nhiều!
 
-To understand in detail all the Lightning mechanisms that we have manipulated in this tutorial, I strongly advise you to discover our free training on the subject :
+Để hiểu chi tiết tất cả các cơ chế Lightning mà chúng tôi đã xử lý trong hướng dẫn này, tôi thực sự khuyên bạn nên khám phá khóa đào tạo miễn phí của chúng tôi về chủ đề này:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,9 @@
+question: Która z poniższych odpowiedzi nie należy do 3 głównych kategorii heurystyk i cech wykorzystywanych w analizie łańcuchowej?
+answer: Modele kryptograficzne.
+wrong_answers:
+  - Modele transakcji.
+  - Heurystyka transakcji wewnętrznych.
+  - Heurystyka transakcji zewnętrznych.
+explanation: |
+  Heurystyki stosowane w analizie łańcucha można podzielić na trzy kategorie: wzorce transakcji (lub modele transakcji), heurystyki transakcji wewnętrznych i heurystyki transakcji zewnętrznych.
+reviewed: false

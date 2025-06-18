@@ -1,0 +1,12 @@
+question: Koje su karakteristike dobre lozinke?
+answer: Dugačka, složena, jedinstvena i ne zasnovana na ličnim informacijama.
+wrong_answers:
+  - Kratko, jednostavno i lako za pamćenje.
+  - Na osnovu ličnih informacija kao što su datumi rođenja i imena.
+  - Ista lozinka za sve naloge.
+explanation: |
+  Dobra lozinka je dugačka (najmanje 12 karaktera), složena
+  (mešavina velikih i malih slova, brojeva i
+  simbola), jedinstvena (ne koristi se ponovo za različite naloge) i
+  nije zasnovana na ličnim informacijama.
+reviewed: true

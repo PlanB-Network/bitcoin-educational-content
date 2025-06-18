@@ -1,0 +1,10 @@
+question: Na co wskazuje retrospektywny anonset?
+answer: Liczba prawdopodobnych źródeł dla UTXO na koniec cykli.
+wrong_answers:
+  - Rozmiar grupy nierozróżnialnych UTXO na koniec cykli.
+  - Liczba prawdopodobnych źródeł dla UTXO na początku cykli.
+  - Czas wymagany do ukończenia CoinJoin.
+explanation: |
+  Anons retrospektywny wskazuje liczbę możliwych źródeł dla danej monety, biorąc pod uwagę UTXO na koniec cyklu.
+  
+reviewed: false

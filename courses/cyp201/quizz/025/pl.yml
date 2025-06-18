@@ -1,0 +1,9 @@
+question: Jaka właściwość Schnorra pozwala na połączenie wielu kluczy publicznych w jeden?
+answer: Agregacja kluczy
+wrong_answers:
+  - Weryfikacja partii
+  - Plastyczność
+  - Zagęszczanie podpisu
+explanation: |
+  Schnorr pozwala na agregację wielu kluczy publicznych w jeden klucz.
+reviewed: false

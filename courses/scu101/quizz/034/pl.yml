@@ -1,0 +1,11 @@
+question: Jaką złośliwą zawartość mogą zawierać załączniki do wiadomości e-mail i obrazy?
+answer: Złośliwe oprogramowanie
+wrong_answers:
+  - Spam
+  - Reklamy
+  - Treści promocyjne
+explanation: |
+  Załączniki wiadomości e-mail i obrazy mogą zawierać złośliwe oprogramowanie.
+  Dlatego nie należy pobierać ani otwierać załączników od
+  nieznanych lub podejrzanych nadawców.
+reviewed: true

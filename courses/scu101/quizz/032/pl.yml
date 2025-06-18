@@ -1,0 +1,12 @@
+question: Czym jest oprogramowanie ransomware?
+answer: Rodzaj złośliwego oprogramowania, które szyfruje dane użytkownika i żąda okupu za ich odszyfrowanie.
+wrong_answers:
+  - Rodzaj oprogramowania antywirusowego, które jest w stanie wyczyścić pamięć podręczną komputera i pliki cookie po uiszczeniu jednorazowej opłaty.
+  - Jest to rodzaj oprogramowania używanego do odzyskiwania danych, który staje się obecnie dość powszechny w Europie.
+  - Rodzaj oprogramowania używanego do tworzenia kopii zapasowych danych, zwykle wykonuje jedną kopię zapasową co 7 dni.
+explanation: |
+  Ransomware to rodzaj złośliwego oprogramowania, które szyfruje
+  dane użytkownika i żąda okupu za ich odszyfrowanie. Staje się ono
+  staje się coraz bardziej powszechne i może być bardzo kłopotliwe
+  dla firmy lub osoby prywatnej.
+reviewed: true

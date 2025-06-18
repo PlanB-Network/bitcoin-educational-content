@@ -1,0 +1,9 @@
+question: چه کسی روش اکتشافی استفاده مجدد از Address را کشف کرد؟
+answer: Satoshi ناکاموتو
+wrong_answers:
+  - ویتالیک بوترین
+  - هال فینی
+  - گوین آندرسن
+explanation: |
+  اولین کسی که این مفهوم را مورد بحث قرار داد، Satoshi ناکاموتو در بخش 10 از مقاله سفید Bitcoin بود.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Bitcoin 與未來科技和社會有何關聯？
+answer: Bitcoin 是一場技術革命，讓價值的 Exchange 不需要任何可信賴的第三方。
+wrong_answers:
+  - Bitcoin 是一種人工智慧技術，可讓人們透過中央伺服器取得 Exchange 資訊。
+  - Bitcoin 是控制世界人口、消除貧困的工具。
+  - Bitcoin 是政府追蹤公民財務交易的一種方法。
+explanation: |
+  文中解釋，Bitcoin 就像通訊工具的網際網路一樣
+  是一場技術革命，它
+  為新的大規模組織模式創造了機會，為我們帶來了交流的可能性。
+  組織的機會，為我們帶來了在沒有任何可信賴的第三方的情況下交換價值的可能性。
+  價值交換的可能性。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kako inflacija utiče na kupovnu moć zaposlenih tokom vremena?
+answer: Inflacija nagriza kupovnu moć jer plate često zaostaju za pravom stopom inflacije.
+wrong_answers:
+  - Inflacija povećava kupovnu moć jer plate rastu brže od cena.
+  - Inflacija nema uticaja na kupovnu moć.
+  - Inflacija utiče samo na kupovnu moć onih koji ulažu na finansijskim tržištima.
+explanation: |
+  Inflacija dovodi do stalnog povećanja potrošačkih cena, narušavajući kupovnu moć zaposlenih jer njihove plate obično zaostaju za pravom stopom inflacije. Ovo otežava zaposlenima da ostvare svoje dugoročne ciljeve štednje i održe svoj životni standard.
+reviewed: true

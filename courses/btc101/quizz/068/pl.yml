@@ -1,0 +1,11 @@
+question: Jak często nagroda za Mining jest zmniejszana o połowę?
+answer: Co 210 000 bloków.
+wrong_answers:
+  - Co 120 000 bloków.
+  - Co 540 000 bloków.
+  - Co 2 100 000 bloków.
+explanation: |
+  Nagroda za Mining jest zaprogramowana tak, aby zmniejszać się o połowę co 210 000 bloków, czyli mniej więcej co cztery lata
+  bloków, czyli mniej więcej co cztery lata: wydarzenie
+  znane jako Halving.
+reviewed: true

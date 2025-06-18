@@ -1,0 +1,9 @@
+question: Kwa nini cryptography ni muhimu katika mazingira ya wazi ya mawasiliano?
+answer: Inalinda data, hata kama njia ya mawasiliano imezuiwa.
+wrong_answers:
+  - Inafanya mawasiliano kutoonekana kwa mitandao yote.
+  - Inazuia mashambulizi kwenye mitandao ya ndani.
+  - Inabadilisha nyaya za kimwili na mawasiliano salama.
+explanation: |
+  Katika mazingira ya mawasiliano ya wazi, ambapo njia zinaweza kufuatiliwa, cryptography inahakikisha usalama kwa kulinda data iliyobadilishwa, hata mbele ya mashambulizi ya uwezekano.
+reviewed: false

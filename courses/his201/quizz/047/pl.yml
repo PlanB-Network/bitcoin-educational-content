@@ -1,0 +1,9 @@
+question: Jaki aspekt Bitcoin Satoshi chciał zbagatelizować w swoim komunikacie z lipca 2010 r.?
+answer: Anonimowość transakcji
+wrong_answers:
+  - Polityka pieniężna
+  - Handel elektroniczny
+  - Programowalność
+explanation: |
+  Jeśli chodzi o szkic prezentacji dla Slashdota, stwierdził, że nie chce wysuwać anonimowego aspektu na pierwszy plan. Wyjaśnił swoje powody Marttiemu Malmi [prywatnie] (https: //mmalmi.github.io/Satoshi/#email-197).
+reviewed: false

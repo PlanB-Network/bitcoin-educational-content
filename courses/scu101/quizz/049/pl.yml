@@ -1,0 +1,13 @@
+question: Dlaczego SMS nie jest uważany za najlepszą opcję dla 2FA?
+answer: Ta metoda jest podatna na różne ataki, takie jak oszustwo związane z wymianą karty SIM.
+wrong_answers:
+  - Jest to zbyt powolne i kosztowne, rozmowa telefoniczna będzie bardziej skuteczna.
+  - Stanowi jedynie dowód posiadania numeru telefonu.
+  - Konfiguracja na poziomie technicznym jest zbyt skomplikowana.
+explanation: |
+  SMS nie jest uważany za najlepszą opcję dla 2FA, ponieważ jest to
+  metoda 2FA podatna na różne ataki, takie jak oszustwo
+  oszustwo związane z wymianą karty SIM. Po pomyślnym wykorzystaniu te
+  podatności całkowicie niszczą wszelką ochronę zapewnianą przez
+  dodatkowe Layer uwierzytelniania 2FA.
+reviewed: true

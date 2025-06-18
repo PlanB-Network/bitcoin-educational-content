@@ -1,0 +1,9 @@
+question: 從父公開金鑰衍生子公開金鑰的限制條件是什麼？
+answer: 子密鑰必須是正常的
+wrong_answers:
+  - 子密鑰必須硬化
+  - 鏈代碼必須與父密鑰的鏈代碼相同
+  - 過程必須包含父 private key
+explanation: |
+  子公開金鑰只有在父公開金鑰正常而非硬化的情況下，才能從父公開金鑰衍生出來。
+reviewed: false

@@ -1,0 +1,11 @@
+question: 如何解決分工中直接 Exchange 的問題？
+answer: 由金錢促成的間接 Exchange。
+wrong_answers:
+  - 以物易物的方式促進直接 Exchange。
+  - 透過易貨交易促成間接 Exchange。
+  - 直接 Exchange 由金錢促成。
+explanation: |
+  金錢允許間接的 Exchange，個人可以
+  從他人處購買，而賣方可以使用該貨幣單位
+  在別的地方、別的時間和別的人。
+reviewed: true

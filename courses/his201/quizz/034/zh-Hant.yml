@@ -1,0 +1,9 @@
+question: 誰於 2009 年 10 月在 Bitcoin 與美元之間建立了第一個 Exchange 服務？
+answer: 新自由標準
+wrong_answers:
+  - sirius-m
+  - 美元
+  - SmokeTooMuch
+explanation: |
+  這項服務非常簡陋：通過電子郵件協商交換，並透過 PayPal 付款。Exchange 的費率是根據 NewLibertyStandard 本人的 Mining 費用計算出來的。
+reviewed: false

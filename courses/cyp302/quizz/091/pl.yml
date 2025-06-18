@@ -1,0 +1,9 @@
+question: Jaka jest główna różnica między prymitywnym szyfrem strumieniowym a szyfrem blokowym?
+answer: Prymitywny szyfr strumieniowy nie jest zbudowany z szyfru blokowego.
+wrong_answers:
+  - Prymitywny szyfr strumieniowy wymaga wypełniania wiadomości.
+  - Szyfr blokowy strumieniowy wykorzystuje bloki o zmiennym rozmiarze.
+  - Szyfr blokowy szyfru strumieniowego nie może być używany do dużych danych.
+explanation: |
+  Prymitywny szyfr strumieniowy, taki jak Salsa20, jest zaprojektowany niezależnie od szyfru blokowego, podczas gdy szyfr strumieniowy szyfru blokowego wykorzystuje szyfr blokowy jako podstawę, zmodyfikowaną w celu wytworzenia strumienia szyfrowania.
+reviewed: false

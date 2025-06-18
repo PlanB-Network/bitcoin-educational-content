@@ -1,0 +1,10 @@
+question: Kakav je bio uticaj revalorizacije dugova u Vajmarskoj?
+answer: Deoničari su dobili 2.5 procenata svoje početne investicije pod uslovom da su sve reparacije bile isplaćene.
+wrong_answers:
+  - To je dovelo do daljeg devalviranja valute.
+  - To je izazvalo porast nezaposlenosti.
+  - To je rezultiralo smanjenjem stranih investicija.
+explanation: |
+  U Vajmaru su neki dugovi revalorizovani kako bi se nadoknadio uticaj inflacije.  
+  Odluka o revalorizaciji državnih zajmova postala je zakon 1925. godine, što je rezultiralo time da su akcionari dobijali 2,5 procenata svoje početne investicije pod uslovom da su sve reparacije bile plaćene.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mis teemal Condorcet ei kirjutanud?
+answer: Pangad
+wrong_answers:
+  - Teraviljakaubanduse vabadus
+  - Tööülesanded
+  - Orjandus
+explanation: |
+  Condorcet kirjutas teraviljakaubanduse vabadusest, corvée'st ja orjusest, kuid ta ei kirjutanud pankadest.

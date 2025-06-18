@@ -1,0 +1,11 @@
+question: Jakie jest jedno z zagrożeń związanych z zakupem Bitcoin?
+answer: Jego cena może spaść do 0.
+wrong_answers:
+  - Można go łatwo ukraść.
+  - Może być powielany.
+  - Może zostać fizycznie utracony.
+explanation: |
+  W tekście kursu wspomniano, że Bitcoin jest wysoce niestabilnym
+  a jego cena może spaść do 0, co jest jednym z ryzyk związanych z zakupem Bitcoin
+  ryzyko związane z zakupem Bitcoin.
+reviewed: true

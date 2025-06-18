@@ -1,0 +1,9 @@
+question: 根據 Tracy 的說法，社會的原動力是什麼？
+answer: 商務
+wrong_answers:
+  - 家庭
+  - 政治
+  - 教育
+explanation: |
+  對 Destutt de Tracy 來說，商業是文明與和平的力量，是社會的原動力。
+reviewed: false

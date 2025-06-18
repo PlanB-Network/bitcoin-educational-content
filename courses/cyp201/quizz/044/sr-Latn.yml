@@ -1,0 +1,9 @@
+question: Šta je entropija u kontekstu kriptografije?
+answer: Mera nepredvidivosti povezane sa slučajnim procesom
+wrong_answers:
+  - Metod za šifrovanje osetljivih podataka
+  - Algoritam za izračunavanje javnih ključeva
+  - Tehnika kompresije podataka
+explanation: |
+  U kriptografiji, entropija kvantifikuje nivo nesigurnosti ili haosa u slučajnom izvoru, što je ključno za generisanje sigurnih ključeva.
+reviewed: false

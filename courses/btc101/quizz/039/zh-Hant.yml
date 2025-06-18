@@ -1,0 +1,13 @@
+question: 創造 Bitcoin 背後的主要目的是什麼？
+answer: 將國家與金錢分離。
+wrong_answers:
+  - 取消金本位。
+  - 讓交易更快速、更便宜。
+  - 讓每個人都富裕起來。
+explanation: |
+  Bitcoin 旨在將國家與金錢分離。
+  與金錢分離。它是對當前金融體系的系統性挑戰的回應。
+  在當前的金融體系中，國家完全控制了貨幣 Supply
+  控制貨幣 Supply，並可以為了自己的利益而操控貨幣。
+  自己的利益。
+reviewed: true

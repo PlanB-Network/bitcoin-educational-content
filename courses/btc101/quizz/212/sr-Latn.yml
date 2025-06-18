@@ -1,0 +1,9 @@
+question: Kako ovaj kurs opisuje Bitcoin?
+answer: Multidisciplinarna tema.
+wrong_answers:
+  - Jednostavan subjekat.
+  - Fizički predmet.
+  - Jednodisciplinarna tema.
+explanation: |
+  Bitcoin je opisan kao multidisciplinarna tema jer postavlja pitanja vezana za različite oblasti, uključujući kriptografiju, teoriju igara, ekonomiju i monetarnu politiku, računarstvo, filozofiju, energiju, zakone i regulative.
+reviewed: true

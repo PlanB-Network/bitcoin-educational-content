@@ -1,0 +1,9 @@
+question: Ni saizi gani muhimu inachukuliwa kuwa salama dhidi ya mashambulio ya nguvu ya kikatili kwa usimbaji fiche wa kisasa?
+answer: 128 bits
+wrong_answers:
+  - 16 bits
+  - 64 bits
+  - Biti 100
+explanation: |
+  Ukiwa na ufunguo wa angalau biti 128, usimbaji fiche wa kisasa kwa sasa unachukuliwa kuwa salama dhidi ya mashambulizi ya kinyama, kwani idadi ya majaribio haitakuwa ya kweli.
+reviewed: false

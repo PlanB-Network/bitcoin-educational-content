@@ -1,0 +1,9 @@
+question: Jeśli obserwujemy transakcję z 1 UTXO na wejściu i 43 UTXO na wyjściu, jaki wzór możemy rozpoznać?
+answer: Wydatki łączone
+wrong_answers:
+  - Konsolidacja
+  - Uproszczona płatność
+  - Transakcja oparta na współpracy
+explanation: |
+  Interpretacja tego wzorca jest taka, że mamy do czynienia z wydatkami grupowymi. Struktura ta pozwala podmiotom takim jak platformy Exchange zaoszczędzić na opłatach, grupując swoje wydatki w jedną transakcję.
+reviewed: false

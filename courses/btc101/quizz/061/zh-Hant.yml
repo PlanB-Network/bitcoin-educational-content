@@ -1,0 +1,11 @@
+question: Mining 獎勵減半的事件名稱是什麼？
+answer: Halving
+wrong_answers:
+  - 加倍
+  - 四分法
+  - 三倍
+explanation: |
+  Mining 獎勵減半的事件稱為
+  Halving。此事件使貨幣發行曲線呈現
+  階梯狀。
+reviewed: true

@@ -1,0 +1,12 @@
+question: 關於遺失 Bitcoin Wallet 上的裝置，下列哪個選項是錯誤的?
+answer: 您可以透過重設密碼來重新建立您的 Wallet，並花費您的 Bitcoin。
+wrong_answers:
+  - 如果您沒有 Mnemonic 詞組，您就會失去所有的 Bitcoins。
+  - 您可以用公開金鑰驗證您的 bitcoin 未被花掉。
+  - 您可以使用 Mnemonic 短語重新創建您的 Wallet，並花費您的 Bitcoin。
+explanation: |
+  丟失您的 Wallet 裝置並
+  不一定代表您的 Bitcoins 也會遺失。讓您
+  重新創建您的 Wallet 和花費您的 Bitcoin 的是
+  Mnemonic 短語。
+reviewed: true

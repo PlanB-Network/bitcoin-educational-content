@@ -1,0 +1,9 @@
+question: Je, LSP ina jukumu gani katika malipo ya Enterprise Bitcoin?
+answer: Dhibiti miamala ya kiwango cha juu kwenye Umeme
+wrong_answers:
+  - Hifadhi funguo za kibinafsi za Umeme Wallet
+  - Chapisha ankara za umeme
+  - Mchakato wa kurejesha pesa mwenyewe kwenye Umeme
+explanation: |
+  LSP hushughulikia utendakazi changamano na wa kiwango cha juu kwenye Umeme.
+reviewed: false

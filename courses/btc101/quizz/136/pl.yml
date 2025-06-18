@@ -1,0 +1,8 @@
+question: W jaki sposób sieć Bitcoin zapewnia, że złośliwe działanie w ramach protokołu Bitcoin jest zbyt kosztowne?
+answer: Poprzez zasady protokołu i zachęty ekonomiczne.
+wrong_answers:
+  - Poprzez ścisłą regulację i nadzór.
+  - Dzięki zastosowaniu zaawansowanych środków bezpieczeństwa.
+  - Poprzez groźbę podjęcia kroków prawnych.
+explanation: >-
+reviewed: true

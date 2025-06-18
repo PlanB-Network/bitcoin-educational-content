@@ -1,0 +1,9 @@
+question: Dlaczego złoto nie jest materiałem przenośnym?
+answer: Ponieważ jest gęsty i ciężki, co sprawia, że przenoszenie go w dużych ilościach jest uciążliwe.
+wrong_answers:
+  - Ponieważ jest zbyt cenny, aby go przenieść.
+  - Ponieważ nie można go łatwo uformować w mniejsze formy.
+  - Ponieważ jest to Liquid w temperaturze pokojowej.
+explanation: |
+  Złoto jest gęste i ciężkie, co oznacza, że przenoszenie jego dużych ilości może być fizycznym wyzwaniem. Waga złota sprawia, że jest ono mniej wygodne w transporcie w porównaniu z lżejszymi materiałami.
+reviewed: true

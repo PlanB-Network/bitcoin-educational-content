@@ -26,7 +26,32 @@ Bergabunglah dengan Damien Theillier dalam eksplorasi memperkaya pemikiran Fréd
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Pengantar Kursus
+## Ikhtisar Kursus
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Tujuan dari pelatihan ini adalah untuk memberi Anda pemahaman yang mendalam tentang kehidupan, pengaruh intelektual, lawan ideologis, dan teori ekonomi dari Frédéric Bastiat. Melalui perjalanan terstruktur ini, Anda akan menemukan bagaimana ide-idenya membentuk pemikiran ekonomi dan terus memengaruhi perdebatan saat ini.
+
+**Bagian 1: Pengantar**  
+Kita akan mulai dengan gambaran umum tentang Frédéric Bastiat, seorang jenius yang kurang dikenal di bidang ekonomi. Anda akan mempelajari tentang kehidupannya, perjalanan intelektualnya, serta konteks sejarah di mana ia mengembangkan pemikirannya. Memahami konteks ini sangat penting untuk sepenuhnya memahami cakupan tulisannya dan teorinya.
+
+**Bagian 2: Pengaruh**  
+Kita akan melanjutkan dengan menganalisis para pemikir yang membentuk pemikiran ekonomi Frédéric Bastiat. Anda akan mempelajari bagaimana tokoh-tokoh besar seperti Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, dan Richard Cobden berkontribusi pada perkembangan intelektualnya, meletakkan dasar bagi refleksinya tentang perdagangan bebas dan ekonomi pasar.
+
+**Bagian 3: Para Penentang**  
+Selanjutnya, kita akan mengeksplorasi kritik Bastiat terhadap lawan ideologisnya. Baik itu Rousseau, pendidikan klasik, proteksionisme, sosialisme, atau Proudhon, Anda akan memahami mengapa Bastiat menganggap doktrin-doktrin ini sebagai penghalang bagi kemajuan ekonomi dan sosial, dan bagaimana dia menanggapi argumen mereka dengan logika yang tajam.
+
+**Bagian 4: Kekeliruan Ekonomi**  
+Bagian ini didedikasikan untuk kekeliruan ekonomi yang diungkapkan oleh Bastiat, termasuk "*Apa yang Dilihat dan Apa yang Tidak Dilihat*" dan "*Petisi dari Pembuat Lilin*". Kita akan memeriksa bagaimana dia dengan cermat menunjukkan, melalui satire dan analisis yang ketat, kesalahan ekonomi umum di masanya, yang tetap relevan hingga saat ini.
+
+**Bagian 5: Harmoni Ekonomi**  
+Di sini, Anda akan menemukan visi positif Bastiat tentang ekonomi. Kita akan membahas konsep-konsep seperti keajaiban pasar, kekuatan tanggung jawab individu, dan perbedaan antara solidaritas yang benar dan yang salah. Bastiat memandang ekonomi sebagai sistem yang koheren di mana kepentingan pribadi yang dipahami dengan baik bermanfaat bagi kepentingan umum. Kita akan mengeksplorasi mengapa demikian.
+
+**Bagian 6: Hukum**  
+Untuk menyelesaikan kursus ini, kita akan menyelami karya utama Bastiat, "*Hukum*", di mana ia menguraikan pemikirannya tentang hak milik, perampokan yang dilegalkan, dan peran negara yang terbatas. Anda akan memahami mengapa esai ini dianggap sebagai salah satu manifesto paling meyakinkan yang mendukung kebebasan individu dan ekonomi pasar.
+
+Siap untuk menemukan bagaimana ide-ide Frédéric Bastiat masih relevan hingga hari ini? Bergabunglah dengan kami dalam perjalanan intelektual ini yang dapat menantang pemahaman Anda tentang ekonomi!
+
+## Bastiat: Seorang Jenius yang Tidak Dikenal
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -125,6 +150,14 @@ Apa yang ditunjukkan oleh Adam Smith adalah bahwa seseorang hanya dapat melayani
 
 ![image](assets/en/017.webp)
 
+---
+
+>“Upaya alami setiap individu untuk memperbaiki kondisinya sendiri... begitu kuat, sehingga dengan sendirinya, tanpa bantuan apa pun, tidak hanya mampu membawa masyarakat menuju kekayaan dan kemakmuran, tetapi juga mengatasi ratusan hambatan tidak masuk akal yang seringkali mengganggu operasinya akibat kebodohan hukum manusia.”  
+>_Kekayaan Bangsa-bangsa_  
+>_Buku IV, Bab V_
+
+---
+
 Pertukaran adalah permainan yang menguntungkan kedua belah pihak. Apa yang satu dapatkan, yang lain juga mendapatkan. Hal ini berbeda dari redistribusi politik di mana selalu ada pemenang dan pecundang. Jika kita mempertimbangkan sekolah Inggris, bagi Smith, bagi Ricardo, dan bagi Locke sebelum mereka, nilai terkait dengan tenaga kerja. Bagi Marx, hal itu sama.
 
 ![image](assets/en/018.webp)
@@ -137,6 +170,12 @@ Tetapi Bastiat juga menambahkan nuansa pada Say dalam hal ini. Ini bukan tentang
 Ekonomi tunduk pada sejumlah hukum sederhana yang berasal dari perilaku manusia. Salah satunya, yang disebut "Hukum Say," adalah sebagai berikut: "Produk dan layanan ditukar dengan produk dan layanan." Ideanya adalah bahwa bangsa dan individu mendapat manfaat dari peningkatan tingkat produksi karena menawarkan peluang yang lebih besar untuk pertukaran yang saling menguntungkan.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Kebebasan individu = Harmoni sosial
+
+---
 
 Memang, produk hanya dibeli dengan antisipasi layanan yang diharapkan pembeli: Saya membeli disk untuk musik yang akan saya dengarkan, saya membeli tiket bioskop untuk film yang akan saya lihat. Dan dalam pertukaran, setiap pihak memutuskan karena menilai bahwa dapat memperoleh lebih banyak layanan dari apa yang diperolehnya daripada apa yang dilepaskannya. Dalam konteks ini, uang hanyalah komoditas perantara, itu menggantikan layanan yang diberikan dan membuka layanan lain.
 
@@ -301,9 +340,14 @@ Bastiat memang menganggap Rousseau sebagai pendahulu sejati dari sosialisme dan 
 
 Pada awalnya, manusia hanyalah seorang borjuis. Namun, borjuis adalah seorang penghitung; dia menginginkan kesenangan segera, dia diperbudak oleh indranya, oleh keinginannya, oleh kepentingan khususnya. Singkatnya, dia tidak rasional, oleh karena itu dia tidak bebas. Dia perlu dididik, untuk memahami bahwa kepentingan sejatinya adalah kepentingan umum. Inilah mengapa Rousseau menulis dalam The Social Contract:
 
-> Siapa pun yang menolak untuk mematuhi kehendak umum harus dipaksa oleh seluruh tubuh: ini tidak berarti apa-apa selain mereka akan dipaksa untuk bebas.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Siapa pun yang menolak untuk menaati kehendak umum akan dipaksa oleh seluruh badan: yang tidak berarti lain selain memaksanya untuk menjadi bebas.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Menurut doktrin ini, manusia memiliki dua kehendak di dalam dirinya: kehendak yang cenderung ke arah kepentingan pribadi, itu dari borjuis, dan kehendak yang cenderung ke arah kepentingan umum, itu dari warga negara. Memimpin manusia, bahkan dengan paksa, untuk menginginkan tujuan rasional, kepentingan umum, adalah memimpin manusia menjadi bebas. Apa yang mereka benar-benar inginkan adalah tujuan rasional, meskipun mereka tidak mengetahuinya.
 
@@ -372,6 +416,15 @@ Seperti yang telah kita lihat, pertama-tama adalah perjuangan Cobden melawan pro
 Proteksionisme, pada kenyataannya, adalah bentuk nasionalisme ekonomi. Tujuannya adalah untuk mengeliminasi kompetisi asing sambil berpura-pura "membela kepentingan nasional." Mereka kemudian mencoba membuat otoritas publik menerima serangkaian kebohongan demagogis yang disajikan sebagai kebajikan: pertahanan pekerjaan, daya saing, dll. Tentu saja, pejabat terpilih menyerah pada tekanan produsen, karena ini bagi mereka adalah kesempatan emas untuk mengkonsolidasikan klien mereka dan memperluas kekuasaan mereka.
 
 ![image](assets/en/058.webp)
+
+---
+
+>Pertemuan kami dengan Arnaud Montebourg  
+>Made in France,  
+>dia percaya akan hal itu, kami telah mengujinya
+
+---
+
 Argumen untuk perlindungan pekerjaan adalah apa yang disebut Bastiat sebagai kesesatan. Karena pada kenyataannya, hal itu setara dengan pajak. Ini berdampak pada mahalnya produk. Mari kita ambil contoh yang diberikan oleh Bastiat sendiri.
 Bayangkan sebuah pisau Inggris yang dijual di negara kita seharga 2 euro, dan pisau buatan Prancis berharga 3. Jika kita membiarkan konsumen bebas membeli pisau yang dia inginkan, dia menghemat satu franc, yang bisa dia investasikan di tempat lain (dalam sebuah buku, atau pensil).
 
@@ -399,8 +452,17 @@ Dan dia akan terus menganalisis efek perversenya setelah itu. Berikut adalah sat
 > Berdasarkan kecenderungan alami hati manusia, setiap orang mulai menuntut dari negara, untuk diri mereka sendiri, bagian yang lebih besar dari kesejahteraan. Artinya, negara atau kas negara diletakkan untuk dijarah. Semua kelas menuntut dari negara, seolah-olah dengan hak, sarana keberadaan. Upaya yang dilakukan dalam arah ini oleh negara hanya mengarah pada pajak dan hambatan, dan pada peningkatan kemiskinan.
 
 - 3° Bastiat menambahkan bahwa menurut pandangannya, proteksionisme adalah manifestasi pertama dari gangguan ini. Para kapitalis mulai meminta intervensi hukum untuk meningkatkan bagian kekayaan mereka. Tak terelakkan, para pekerja ingin melakukan hal yang sama.
-  ![image](assets/en/063.webp)
-  Untuk menyimpulkan, menurut Bastiat, proteksionis dan sosialis memiliki titik persamaan: apa yang mereka cari dari hukum bukan untuk memastikan setiap orang bebas menggunakan kemampuan mereka dan mendapatkan imbalan yang adil atas usaha mereka, melainkan untuk memihak eksploitasi yang lebih atau kurang lengkap dari satu kelas warga negara oleh kelas lain. Dengan proteksionisme, adalah minoritas yang mengeksploitasi mayoritas. Dengan sosialisme, adalah mayoritas yang mengeksploitasi minoritas. Dalam kedua kasus, keadilan dilanggar dan kepentingan umum terkompromi. Bastiat menentang keduanya.
+
+![image](assets/en/063.webp)
+
+---
+
+>UNTUK BERHASIL  
+>PILIH SOSIALIS SFIO
+
+---
+
+Untuk menyimpulkan, menurut Bastiat, proteksionis dan sosialis memiliki titik persamaan: apa yang mereka cari dari hukum bukan untuk memastikan setiap orang bebas menggunakan kemampuan mereka dan mendapatkan imbalan yang adil atas usaha mereka, melainkan untuk memihak eksploitasi yang lebih atau kurang lengkap dari satu kelas warga negara oleh kelas lain. Dengan proteksionisme, adalah minoritas yang mengeksploitasi mayoritas. Dengan sosialisme, adalah mayoritas yang mengeksploitasi minoritas. Dalam kedua kasus, keadilan dilanggar dan kepentingan umum terkompromi. Bastiat menentang keduanya.
 
 > Negara adalah fiksi besar di mana setiap orang berusaha hidup atas biaya orang lain.
 
@@ -509,10 +571,17 @@ Bastiat kemudian menyusun teks satir yang kemudian menjadi salah satu karya pali
 
 ![image](assets/en/079.webp)
 
+---
+
+>LINDUNGI LILIN KAMI!
+
+---
+
 Dalam petisi ini, para pembuat lilin meminta para deputi untuk perlindungan hukum terhadap saingan asing yang berbahaya:
 
 > Kami menderita karena kompetisi yang tidak tertahankan dari saingan asing yang, tampaknya, berada dalam kondisi yang sangat superior untuk memproduksi cahaya sehingga ia membanjiri pasar nasional kita dengan harga yang sangat murah.
-> Jadi, siapakah pesaing asing yang tidak adil ini? Tidak lain adalah matahari. Para produsen kemudian menyoroti peluang yang akan ada dalam "memperuntukkan pasar nasional untuk tenaga kerja nasional", dengan memerintahkan melalui sebuah undang-undang untuk menutup "semua jendela, atap kaca, tirai, penutup jendela, tirai, gorden, ventilasi atas, dalam satu kata semua bukaan, lubang, celah, dan retakan yang biasa dilalui sinar matahari masuk ke dalam rumah".
+
+Jadi, siapakah pesaing asing yang tidak adil ini? Tidak lain adalah matahari. Para produsen kemudian menyoroti peluang yang akan ada dalam "memperuntukkan pasar nasional untuk tenaga kerja nasional", dengan memerintahkan melalui sebuah undang-undang untuk menutup "semua jendela, atap kaca, tirai, penutup jendela, tirai, gorden, ventilasi atas, dalam satu kata semua bukaan, lubang, celah, dan retakan yang biasa dilalui sinar matahari masuk ke dalam rumah".
 
 Dengan kata lain, para pembuat lilin mencoba menunjukkan efek buruk dari "pesaing asing" (matahari) terhadap ekonomi Prancis. Karena tidak hanya matahari dapat menyediakan "produk" yang sama seperti lilin, tetapi ia melakukannya secara gratis. Dua ratus tahun kemudian, cerita ini tetap sangat relevan. Pertimbangkan para sopir taksi yang meminta undang-undang untuk melarang VTC dan Uber. Pikirkan tentang toko buku yang ingin melarang Amazon.
 
@@ -778,6 +847,12 @@ Karena manusia berisiko membuat kesalahan atau bertindak salah dan menderita kon
 
 ![image](assets/en/110.webp)
 
+---
+
+>Kesalahan adalah manusiawi.
+
+---
+
 Dengan demikian, jelas bahwa Bastiat jauh dari buta. Dia tidak menyangkal keberadaan kejahatan. Manusia lemah, cenderung salah dan bersalah. Tidak di mana pun akan seseorang melihat Bastiat menyangkal fakta bahwa pelaksanaan kebebasan individu dikaitkan dengan kemungkinan kesalahan, kemungkinan pilihan yang tidak masuk akal atau tidak masuk akal.
 Dia hanya menegaskan bahwa jika sumber kejahatan terletak pada ketiadaan kebebasan, maka obatnya adalah kebebasan itu sendiri, dan lebih spesifik lagi dalam pelaksanaan tanggung jawab pribadi secara penuh dan menyeluruh.
 
@@ -816,6 +891,15 @@ Dan lagi:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Perkumpulan  
+>Bantuan Timbal Balik  
+>GUISY  
+>1899
+
+---
+
 Namun, menurut Bastiat, ada alternatif untuk solidaritas negara wajib: "masyarakat bantuan timbal balik"
 bantuan timbal balik dan spontan antara manusia berkat perkumpulan bantuan timbal balik. Namun, ia juga memprediksi bahwa Negara pada akhirnya akan mengambil alih perkumpulan ini untuk menjadikannya sebuah badan yang unik dan terpusat, mendorong pengeluaran dan pemborosan.
 
@@ -824,6 +908,16 @@ bantuan timbal balik dan spontan antara manusia berkat perkumpulan bantuan timba
 Dalam sebuah pamflet yang berjudul "Keadilan dan Persaudaraan", Bastiat juga mengeksplorasi ide tentang sistem pajak yang disederhanakan dan adil untuk membiayai kebutuhan kolektif (polisi, keadilan, tentara): pendapatan dan keuntungan akan dikenakan tarif pajak tunggal dan proporsional. Inilah yang saat ini dikenal sebagai "Pajak Tunggal".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Yayasan –  
+>**nilai tambah**  
+>bagi **masyarakat**  
+>
+>SwissFoundations
+
+---
 
 Memang, solidaritas intra-keluarga, solidaritas lokal, atau filantropi terorganisir jauh lebih berkembang di negara-negara yang memiliki sistem pajak ringan dan tingkat kebebasan ekonomi yang relatif tinggi, seperti Swiss dan Amerika Serikat, sedangkan hal ini sebagian besar terhambat di negara-negara di mana Negara telah sebagian besar menggantikan tanggung jawab individu, seperti Prancis atau Jerman.
 
@@ -1018,7 +1112,7 @@ Jika kita melihat hal-hal dari sudut pandang ini, Reagan menjelaskan kepada kary
 
 Pada intinya, Reagan mengambil dari Bastiat beberapa elemen kunci dari visi liberal masyarakat dan manusia: supremasi masyarakat sipil atas Negara, nilai pilihan dan tanggung jawab individu, pentingnya pengusaha dalam penciptaan kekayaan, pentingnya kerangka hukum yang fleksibel dan minimal, yang memungkinkan kepercayaan dan penghormatan terhadap kontrak, hukum fundamental bahwa kekayaan harus diciptakan sebelum dapat didistribusikan, keinginan untuk memberikan kesempatan kepada semua orang di pasar yang kompetitif…
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

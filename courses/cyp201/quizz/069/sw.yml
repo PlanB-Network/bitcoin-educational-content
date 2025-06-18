@@ -1,0 +1,9 @@
+question: Je! ni jukumu gani kuu la msimbo wa mnyororo katika kupata funguo za watoto?
+answer: Tambulisha chanzo cha ziada cha entropy
+wrong_answers:
+  - Tambua kina cha daraja
+  - Hifadhi fahirisi za funguo za watoto
+  - Hakikisha upatanifu na itifaki ya Bitcoin
+explanation: |
+  Msimbo wa mnyororo hutumika kutambulisha chanzo cha ziada na cha kipekee cha entropy kwa kila ufunguo unaotolewa.
+reviewed: false

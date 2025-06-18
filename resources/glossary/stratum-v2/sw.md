@@ -1,0 +1,5 @@
+---
+term: STRATUM V2
+---
+
+Evolution of Stratum, itifaki mashuhuri ya mtandao wa kuwekelea kwa Bitcoin iliyoundwa kwa ajili ya Mining. Aina hii ya itifaki imeundwa ili kuboresha mawasiliano kati ya wachimba migodi binafsi na seva za Mining pool ili kuongeza faida yao. Iliyoundwa na bwawa la Braiins (zamani "Slush Pool"), Stratum V2 inaleta maboresho kadhaa, ikiwa ni pamoja na mawasiliano bora zaidi kati ya wachimbaji madini na bwawa la Mining, na hivyo kupunguza kipimo data kinachohitajika. Pia inapunguza mahitaji ya miundombinu kwa mabwawa. Kwa upande wa usalama, inaongeza uthibitishaji wa siri ili kuzuia mashambulizi mbalimbali ya mtu katikati, ikiwa ni pamoja na usikilizaji na uelekezaji upya hasidi wa Hashrate. Kipengele muhimu cha Stratum V2 ni kwamba inajumuisha itifaki ndogo zinazoruhusu wachimbaji binafsi kuchagua seti zao za miamala za kujumuisha katika vitalu wanavyofanyia kazi. Kipengele hiki huwapa nguvu zaidi wachimbaji binafsi, tofauti na itifaki ya awali ambapo bwawa lilikuwa na udhibiti kamili wa kiolezo cha kuzuia. Kwa hivyo njia hii inaweza kuimarisha ugatuaji wa mchakato wa Mining kwa mabwawa.

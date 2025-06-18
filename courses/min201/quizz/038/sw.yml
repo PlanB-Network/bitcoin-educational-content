@@ -1,0 +1,14 @@
+question: Je, ni mpango gani wa Attakai katika muktadha wa Bitcoin Mining?
+answer: Mpango ambao unalenga kufanya Mining ifikike zaidi na isiwe na madhara wakati wa kuchangia mtandao
+wrong_answers:
+  - Mpango ambao unalenga kuongeza bei ya Bitcoin
+  - Mpango ambao unalenga kupunguza Hashrate ya mtandao
+  - Mpango ambao unalenga kuweka kati nguvu ya hashing
+explanation: |
+  Mpango wa Attakai unalenga kufanya Bitcoin Mining zaidi
+  kupatikana na yenye madhara kidogo. Inahimiza watu kuchimba madini
+  nyumbani na vifaa vya bei nafuu zaidi na suluhisho
+  kupunguza uchafuzi wa kelele. Mpango huo pia unasisitiza
+  umuhimu wa kuchangia usalama na
+  ugatuaji wa mtandao wa Bitcoin.
+reviewed: true

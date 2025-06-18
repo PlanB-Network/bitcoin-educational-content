@@ -1,0 +1,5 @@
+---
+term: BITVM
+---
+
+Protokol koji je uveo Robin Linus 2023. godine, usmeren na proširenje mogućnosti razvoja aplikacija Bitcoin. BitVM omogućava da se bilo koja računarska operacija izvrši proizvoljno i koristi ovu računsku operaciju za usmeravanje angažovanih bitkoina. Protokol uključuje premeštanje svih računskih operacija off-chain, dok omogućava da se računska operacija ospori On-Chain ako druga strana tvrdi da je rezultat prevaran. Tako BitVM pruža Bitcoin gotovo Turing-kompletnu računarsku sposobnost, bez potrebe za bilo kakvim izmenama na nivou konsenzusa. BitVM replicira ponašanje `NAND` logičkog kola kroz kombinovanu upotrebu opkodova `OP_BOOLAND` (koji sam po sebi replicira ponašanje `AND` logičkog kola) i `OP_NOT` (koji replicira ponašanje `NOT` logičkog kola). Zaista, ovo `NAND` logičko kolo može se koristiti u lancu za repliciranje ponašanja svih drugih postojećih logičkih kola. Ovo se naziva "univerzalno kolo". Po ekstenziji, niz `NAND` logičkih kola može tako replicirati bilo koji računarski sklop. Ideja sa BitVM je da se ove `NAND` sekvence računanja skladište kao listovi u MAST-u Taproot transakcije.

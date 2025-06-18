@@ -1,0 +1,9 @@
+question: Jakie są heurystyki analizy łańcucha wspomniane przez Satoshi Nakamoto w białej księdze Bitcoin? (możliwa tylko jedna odpowiedź)
+answer: Ponowne wykorzystanie CIOH i Address.
+wrong_answers:
+  - Klastrowanie według sygnatury i korelacji czasowej.
+  - Okrągłe liczby płatności i duża wydajność.
+  - Analiza wolumenu i podobieństwa skryptów.
+explanation: |
+  W części 10 Bitcoin White Paper, Satoshi Nakamoto ostrzega użytkowników przed CIOH (Common Input Ownership Heuristic) i ponownym użyciem tej samej pary kluczy.
+reviewed: false

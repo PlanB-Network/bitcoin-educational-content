@@ -1,0 +1,9 @@
+question: Koja je zajednička tačka između protekcionista i socijalista prema Bastijatu?
+answer: Oboje žele da favorizuju eksploataciju dela populacije
+wrong_answers:
+  - Oboje brane ekonomsku slobodu
+  - Oboje žele veću društvenu jednakost
+  - Oboje se protive državnoj intervenciji u ekonomiji.
+explanation: |
+  Bastiat kritikuje obe ideologije zbog njihove sklonosti da favorizuju eksploataciju jedne klase od strane druge, na štetu opšteg interesa.
+reviewed: false

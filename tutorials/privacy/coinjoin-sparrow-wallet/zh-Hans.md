@@ -172,7 +172,7 @@ Whirlpool的设计考虑了两个重要要求：
 ### 安装Sparrow Wallet
 首先，您显然需要Sparrow Wallet软件。您可以直接从[官方网站](https://sparrowwallet.com/download/)或在[他们的GitHub](https://github.com/sparrowwallet/sparrow/releases)上下载。
 
-在安装软件之前，验证您刚下载的可执行文件的签名和完整性将是重要的。如果您想了解有关Sparrow软件安装过程和验证的更多细节，我建议您阅读这个其他教程：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*。
+在安装软件之前，验证您刚下载的可执行文件的签名和完整性将是重要的。如果您想了解有关Sparrow软件安装过程和验证的更多细节，我建议您阅读这个其他教程：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*。
 
 ### 创建软件钱包
 安装软件后，您需要继续创建一个比特币钱包。重要的是要注意，要参与coinjoins，使用软件钱包（也称为"热钱包"）是必不可少的。因此，**使用硬件钱包保护的钱包将无法进行coinjoins**。
@@ -339,7 +339,7 @@ Sparrow邀请您为您的钱包创建一个密码。通过Sparrow Wallet软件�
 关于实施这些不同技术的详细教程将很快在PlanB Network上提供。
 
 **额外资源：**
-- [Sparrow Wallet视频教程](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607);
+- [Sparrow Wallet视频教程](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d);
 - [Samourai Wallet视频教程](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Samourai Wallet文档 - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [关于CoinJoins的Twitter讨论串](https://twitter.com/SamouraiWallet/status/1489220847336308739);

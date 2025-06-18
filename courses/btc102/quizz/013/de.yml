@@ -1,9 +1,9 @@
-question: Was ist eine der grundlegenden Maßnahmen zur Verbesserung der Online-Sicherheitsgewohnheiten?
-answer: Aktivieren Sie die Zwei-Faktor-Authentifizierung (2FA).
+question: Was ist der Hauptunterschied zwischen Handel und Investitionen?
+answer: Handel ist kurzfristig und spekulativ, Investitionen sind langfristig und strategisch
 wrong_answers:
-  - Verwenden Sie dasselbe Passwort für alle Konten
-  - Vernachlässigen Sie regelmäßige Datensicherungen
-  - Teilen Sie Ihre Passwörter
+  - Der Handel ist mit festen Gebühren verbunden, die Investition mit variablen Gebühren
+  - Der Handel basiert auf der Fundamentalanalyse, die Investition auf makroökonomischen Trends
+  - Handeln ist weniger riskant als Investieren
 explanation: |
-  Die Aktivierung der Zwei-Faktor-Authentifizierung (2FA) ist eine der grundlegenden Maßnahmen zur Verbesserung der Online-Sicherheitsgewohnheiten. Sie bietet eine zusätzliche Sicherheitsebene für Ihre sensibelsten Konten.
+  Der Handel erfordert eine ständige Überwachung und technische Fähigkeiten, während Investitionen eine langfristige Vision voraussetzen.
 reviewed: false

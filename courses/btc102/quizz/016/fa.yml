@@ -1,0 +1,9 @@
+question: تا چند رقم اعشار می‌توان یک Bitcoin را تقسیم کرد؟
+answer: هشت
+wrong_answers:
+  - شش
+  - دوازده
+  - هفت
+explanation: |
+  یک Bitcoin می‌تواند تا هشتمین رقم اعشار تقسیم شود، که یک واحد آن Satoshi یا sat نامیده می‌شود.
+reviewed: false

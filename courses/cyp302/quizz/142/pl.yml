@@ -1,0 +1,9 @@
+question: Jak nazywa się problem, w którym łatwo jest obliczyć wynik w jednym kierunku, ale prawie niemożliwe jest jego odwrócenie?
+answer: Funkcja jednokierunkowa
+wrong_answers:
+  - Funkcja liniowa
+  - Funkcja wykładnicza
+  - Funkcja odwracalna
+explanation: |
+  Funkcje jednokierunkowe pozwalają na szybkie obliczenia w jednym kierunku, ale sprawiają, że rozwiązanie odwrotne jest praktycznie niemożliwe, stąd ich użyteczność w kryptografii.
+reviewed: false

@@ -29,9 +29,10 @@ Til slutt vil det bli gjennomført en dypere refleksjon om **utviklingen av loka
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Rekontekstualisering
+## Kursoversikt
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Velkommen til BTC302-kurset!
 
 Siden 2009 har Bitcoin fortsatt å utvikle seg. Dette inkluderer implementeringen av nye Bitcoin Improvement Proposals (BIPs), opprettelsen av nye lag for å skalere nettverket (blant annet Lightning Network), og utviklingen av flere selskaper og oppstartsbedrifter.
 
@@ -60,6 +61,34 @@ På den annen side, hvordan kan vi oppmuntre nye mennesker som kommer tiltrukket
 ####
 
 For disse to problemene er den beste løsningen å være ute i felten og drive opplæring.
+
+Målet med denne opplæringen er å gi deg alle nødvendige verktøy for å effektivt opprette og organisere et Bitcoin-fellesskap eller en meet-up. Enten du ønsker å bygge en lokal initiativ eller utvikle en nettbasert gruppe, vil dette kurset veilede deg konkret gjennom hvert trinn i prosessen, fra å lage din visuelle identitet til å arrangere regelmessige arrangementer, inkludert administrasjon av dine kommunikasjonskanaler.
+
+**Seksjon 1 : Introduksjon**  
+Vi starter med å sette i kontekst viktigheten av å samle mennesker rundt Bitcoin, enten det er gjennom nettbaserte fellesskap eller lokale meet-ups. Du vil oppdage hvorfor og hvor du bør starte ditt fellesskap, samt hvordan du definerer klare mål for å sikre vekst og bærekraft.
+
+**Seksjon 2 : Designe en unik identitet for ditt Bitcoin-fellesskap**  
+For å tiltrekke nye medlemmer og etablere en følelse av tilhørighet, er det viktig å skape en unik identitet. Denne seksjonen vil lære deg hvordan du designer en logo, en plakat eller et banner som trofast reflekterer ånden til ditt Bitcoin-fellesskap.
+
+**Seksjon 3 : Opprette kommunikasjonskanaler for ditt Bitcoin-fellesskap**  
+Kommunikasjon er kjernen i hvert fellesskap. Vi vil her diskutere de forskjellige kommunikasjonskanalene som bør prioriteres, samt metodene for å konfigurere en Telegram-gruppe eller en Discord-server effektivt. Vi vil også diskutere integrering av multifunksjonelle bots for å lette administrasjonen av ditt fellesskap.
+
+**Seksjon 4 : Starte sosiale nettverk**  
+Synlighet er avgjørende for utviklingen av ditt fellesskap. Du vil lære hvordan du oppretter en dedikert Twitter-profil, etablerer forbindelser med andre meet-ups i nærheten av deg, og bruker plattformer som btcmap.org for å øke din synlighet og tiltrekke nye medlemmer.
+
+**Seksjon 5 : Organisere en Bitcoin meet-up**  
+Denne seksjonen fokuserer på organisering av meet-ups, fra å finne et passende sted til å organisere selve arrangementet. Vi vil også se på måter å beholde deltakernes engasjement for å sikre en bærekraftig utvikling av ditt fellesskap.
+
+**Seksjon 6 : Eksempler på prosjekter og initiativer**  
+For å gå utover enkle møter, vil vi i denne seksjonen tilby konkrete og originale eksempler på prosjekter: temabaserte arrangementer, workshops, opprettelse av utdanningsinnhold, lokale samarbeid og mye mer. Du vil også lære å utforme fysiske og digitale materialer for å promotere ditt fellesskap.
+
+**Seksjon 7 : Forutse fremtiden**  
+Til slutt vil vi ta opp den naturlige utviklingen av ditt fellesskap. Hva gjør du hvis gruppen din vokser for raskt? Hvordan desentralisere organisasjonen? Og hvordan reagere hvis det regulatoriske miljøet blir fiendtlig? Denne seksjonen vil hjelpe deg med å forutse kommende utfordringer.
+
+**Seksjon 8 : Samle Bitcoiners**  
+Denne siste seksjonen handler om essensen av prosjektet ditt: å samle Bitcoin-entusiaster rundt en felles visjon. Du vil lære hvordan du strukturerer tilnærmingen din for å tiltrekke og beholde nye medlemmer, hvordan delegere oppgaver innen gruppen din, og hvordan få ditt fellesskap til å vokse på en bærekraftig måte.
+
+Klar til å finne ut hvordan du bygger et sterkt og dynamisk Bitcoin-fellesskap? La oss starte!
 
 ## Hvorfor opprette et bitcoin-fellesskap eller møteplass?
 
@@ -333,7 +362,7 @@ Kort sagt, **mulighetene er uendelige og avhenger av dine behov, men også av gr
 
 For å veilede deg mer detaljert, tilbyr vi nedenfor en ikke-uttømmende videoopplæring som presenterer noen muligheter:
 
-![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
+:::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 ####
 
@@ -480,7 +509,7 @@ Vi får se senere, men **det anbefales på det sterkeste at du velger "Telegram-
 
 For veiledningene som følger, vil vi bruke "Telegram +" APK-applikasjonen; et program som tillater mer avansert konfigurasjon av Telegram. Dette er imidlertid ikke nødvendig, ettersom det nå kan gjøres veldig enkelt å opprette en gruppe eller supergruppe på Telegram på en telefon:
 
-![Tutorial Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
+:::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 ### Opprette en Telegram-kanal
 
@@ -498,7 +527,7 @@ Det er imidlertid mulig å legge til muligheten for kanalmedlemmer til å kommen
 
 Veiledning for å opprette en Telegram-kanal:
 
-![Tutorial Canale Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
+:::video id=98be4709-d221-4030-8c31-e10113482515:::
 
 ### Opprett en Telegram-gruppe
 
@@ -522,7 +551,7 @@ Administratorer av denne kanalen vil da kunne:
 
 Veiledning for å opprette en Telegram-gruppe:
 
-![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
+:::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 En merknad: som nevnt tidligere, ble opplæringen ovenfor laget på en datamaskin med "Telegram +" APK. Imidlertid er det nå veldig enkelt å opprette en Telegram-gruppe på en telefon.
 
@@ -562,7 +591,7 @@ Generelt er det ikke noe spesifikt antall medlemmer som gjør det relevant å br
 
 Veiledning for å opprette en Telegram-supergruppe:
 
-![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
+:::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 Merk: Som nevnt ovenfor ble opplæringen ovenfor laget på en datamaskin med "Telegram +" APK. Nå er det imidlertid veldig enkelt å opprette en Telegram-supergruppe på en telefon.
 
@@ -640,7 +669,7 @@ Du har også mange andre muligheter. Men et godt råd: **ikke prøv å begrense 
 
 Veiledning for å legge til en multifunksjonell bot i en gruppe eller supergruppe på Telegram:
 
-![Tutorial bot Telegram multifunzione](https://www.youtube.com/watch?v=l72GZcEFDtU)
+:::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 En liten merknad: Som nevnt tidligere, kan all denne prosedyren nå gjøres på telefonen.
 
@@ -658,7 +687,7 @@ I tillegg til Telegram og Twitter krever dette åpenbart enda mer tid i administ
 
 For å gjøre ting enklere for deg, **deler vi en [ferdiglaget, dupliserbar og redigerbar Discord-server] (https://discord.com/template/bDY4eXXJk2C8) som du kan tilpasse etter eget ønske**:
 
-![Tutorial server Discord duplicabile](https://www.youtube.com/watch?v=i3V6_359Ajw)
+:::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 ####
 
@@ -670,7 +699,7 @@ Det er imidlertid viktig å merke seg at installasjonen ikke er veldig enkel, at
 
 For å spare deg for tid, får du her en veiledning i hvordan du legger til en multifunksjonell bot i en Telegram-gruppe eller supergruppe:
 
-![Tutorial bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
+:::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 ## Vurder andre, private og sikrere kommunikasjonskanaler
 
@@ -784,7 +813,7 @@ Til slutt, selv om ditt "@Bitcoin[CITY]"-brukernavn er unikt og nå tilhører de
 
 Veiledning i hvordan du oppretter en Twitter-konto:
 
-![Tutorial account Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
+:::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 ## Få kontakt med møteplasser i nærheten
 
@@ -1412,7 +1441,7 @@ For å forenkle denne oppgaven, viser veiledningen nedenfor deg på en halv time
 
 Senere vil du kunne kjøpe ditt eget domene og til og med hoste det på din egen server hvis du ønsker det.
 
-![Tutorial per creare un sito web WordPress gratuito](https://www.youtube.com/watch?v=cZzH4gj_kZY)
+:::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 ####
 
@@ -1482,7 +1511,7 @@ Hvis du ønsker å **ta opp på datamaskinen din, fungerer gratis programvare so
 
 Her er en kort veiledning som på 10 minutter presenterer de viktigste funksjonene du trenger å vite om hvordan du lager en podkast med Audacity.
 
-![Tutorial per creare un podcast con Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
+:::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 Merk: Som nevnt tidligere kan det være relevant å **alltid oppbevare en lokal kopi på en harddisk av podkastene** du publiserer, i tilfelle Bitcoin en dag blir forbudt eller sensurert.
 
@@ -1749,7 +1778,7 @@ Vi skal selvfølgelig ikke henfalle til en form for konspiratorisk tenkning. Men
 
 ![image](assets/fr/59.webp)
 
-# Konklusjon
+# Samle Bitcoinere
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1813,7 +1842,7 @@ Endelig:
 
 I litt mindre detalj, i en 21 minutter lang video, ser det slik ut:
 
-![Tutorial Comunità Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
+:::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 Husk uansett at du ikke er alene, og at de eksisterende miljøene er der for å hjelpe deg**.
 
@@ -1846,7 +1875,7 @@ For å oppnå dette vil vi ta utgangspunkt i erfaringene fra flere franske lokal
 
 Selvfølgelig er ** i andre land lovgivningen og driften av foreninger annerledes **. Imidlertid vil flere punkter være veldig nyttige for å opprette en forening eller organisere et viktig arrangement; og ** vi håper at andre bitcoinere vil komme og integrere denne opplæringen spesielt for deres land **.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

@@ -1,0 +1,10 @@
+question: Która z poniższych funkcji NIE jest jedną z trzech podstawowych funkcji pieniądza?
+answer: Źródło energii
+wrong_answers:
+  - Przechowywanie wartości
+  - Medium Exchange
+  - Jednostka rozliczeniowa
+explanation: |
+  Trzy podstawowe funkcje pieniądza to przechowywanie wartości, środek Exchange,
+  i jednostka rozliczeniowa. Źródło energii nie jest funkcją pieniądza.
+reviewed: true

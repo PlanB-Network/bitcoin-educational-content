@@ -1,0 +1,9 @@
+question: RGB 中使用什麼方法定義 Single-Use Seal？
+answer: 特定的外點
+wrong_answers:
+  - 特定的公開金鑰
+  - A 特定 Bitcoin Address
+  - 多個 UTXO 的組合
+explanation: |
+  RGB 將 Single-Use Seal 定義為特定輸出點，然後可以透過此輸出點的支出（txid + 輸出號碼）來關閉。
+reviewed: false

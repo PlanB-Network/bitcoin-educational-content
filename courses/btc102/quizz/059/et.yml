@@ -1,9 +1,9 @@
-question: Mis on külm rahakott Bitcoin'i kontekstis?
-answer: Rahakott suurte Bitcoin'i summade hoidmiseks võrguühenduseta
+question: Mis on paranoilise bitcoineri peamine eesmärk?
+answer: Nende privaatsuse kaitsmiseks
 wrong_answers:
-  - Rahakott, mida kasutatakse tehinguteks külmas kliimas
-  - Rahakott, mida kasutatakse väikeste Bitcoin'i summade hoidmiseks
-  - Rahakott, mida kasutatakse Bitcoin'i hoidmiseks lühiajaliselt
+  - Satoshide kiireks kogumiseks
+  - Kauplemiskasumi maksimeerimiseks
+  - Et hoida oma bitcoine pikaajaliselt
 explanation: |
-  Külm rahakott on rahakott suurte Bitcoin'i summade hoidmiseks võrguühenduseta.
-  See peetakse turvalisemaks kui kuum rahakott, kuna see on vähem haavatav häkkimisele.
+  Paranoiline bitcoiner püüab eelkõige vältida oma tehingute ja identiteedi jälgitavust.
+reviewed: false

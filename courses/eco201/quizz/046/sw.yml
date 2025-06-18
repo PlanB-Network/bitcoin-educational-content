@@ -1,0 +1,12 @@
+question: Je, Nadharia ya Austria ya Mzunguko wa Biashara inahusiana vipi na kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa?
+answer: Inaweza kutazamwa kama kesi maalum ya kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa, inayotumika kwa ulimwengu wa masoko ya pesa.
+wrong_answers:
+  - Ni uhakiki wa kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa.
+  - Ni suluhisho la kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa.
+  - Haihusiani na kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa.
+explanation: |
+  Nadharia ya Austria ya Mzunguko wa Biashara inaeleza mienendo ya
+  uwekezaji kupita kiasi na mgao mbaya wa mtaji unaotokana na udanganyifu wa viwango vya riba
+  na benki kuu na kwa hivyo inaweza kutazamwa kama kesi maalum ya kutowezekana kwa
+  hesabu ya kiuchumi chini ya ujamaa, kutumika kwa nyanja ya masoko ya fedha.
+reviewed: true

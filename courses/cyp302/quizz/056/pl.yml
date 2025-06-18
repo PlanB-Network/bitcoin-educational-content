@@ -1,0 +1,9 @@
+question: Jaki rodzaj struktury algebraicznej jest podstawą algebry abstrakcyjnej?
+answer: Grupa
+wrong_answers:
+  - Pole
+  - Pierścień
+  - Matryca
+explanation: |
+  Grupa jest podstawową strukturą algebraiczną, na której opiera się algebra abstrakcyjna, zdefiniowana przez zbiór Elements i operację binarną, która respektuje pewne właściwości.
+reviewed: false

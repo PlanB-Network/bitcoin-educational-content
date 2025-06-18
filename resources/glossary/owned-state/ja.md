@@ -1,0 +1,5 @@
+---
+term: Owned State
+---
+
+RGBプロトコルの文脈では、Owned StateはAssignmentにカプセル化されたContract Stateの一部を指し、UTXOを指すSingle-Use Sealを介して特定の保有者に明示的に関連付けられる。このコンポーネントは、例えばデジタル資産や個人に割り当てられた特定の契約上の権利を表す。各保有者にリンクされた状態を分離することで、Owned StateはRGBスマートコントラクト内での正確で安全なプロパティ管理を保証する。

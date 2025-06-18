@@ -1,0 +1,9 @@
+question: Satoshi ناکاموتو در چه سالی شروع به کار بر روی Bitcoin کرد؟
+answer: ۲۰۰۷
+wrong_answers:
+  - ۲۰۰۸
+  - ۲۰۰۹
+  - ۲۰۱۰
+explanation: |
+  او چندین بار در نوشته‌هایش به آن اشاره کرده است. (https: //bitcointalk.org/index.php?topic=13.msg46#msg46)
+reviewed: false

@@ -1,0 +1,9 @@
+question: 流通中的比特幣最大 Supply 大概是多少？
+answer: 2,100 萬
+wrong_answers:
+  - 一千萬
+  - 4,700 萬
+  - 一億五千萬
+explanation: |
+  Bitcoin 被編排為有限的 Supply，約有 2100 萬個比特幣。
+reviewed: false

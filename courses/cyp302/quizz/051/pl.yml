@@ -1,0 +1,9 @@
+question: Co oznacza termin champ premier lub corps premier?
+answer: Pole z liczbą pierwszą Elements
+wrong_answers:
+  - Pole zawierające tylko liczby pierwsze
+  - Pole zdefiniowane wyłącznie przez dodawanie liczb pierwszych
+  - Pole wykorzystujące losowe wektory
+explanation: |
+  Pole pierwsze zawiera liczbę Elements równą liczbie pierwszej, co czyni je podstawowym polem dla operacji kryptograficznych.
+reviewed: false

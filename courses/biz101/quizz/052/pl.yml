@@ -1,0 +1,9 @@
+question: Który szczegół NIE jest wyraźnie udokumentowany w typowym pliku csv transakcji Bitcoin, jak opisano w kursie?
+answer: Używany typ skryptu
+wrong_answers:
+  - Data transakcji
+  - Równoważna wartość fiat
+  - Adresy Bitcoin obejmowały
+explanation: |
+  Typowy plik csv transakcji Bitcoin zwykle zawiera datę, kwotę, ekwiwalent fiat i adresy Bitcoin, ale nie typ użytego skryptu.
+reviewed: false

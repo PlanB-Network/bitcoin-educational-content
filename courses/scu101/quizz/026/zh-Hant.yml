@@ -1,0 +1,10 @@
+question: Linux 和 Mac 經常需要防毒軟體嗎？
+answer: 這是錯誤的
+wrong_answers:
+  - 這是真的
+  - 只有 Linux 需要防毒軟體。
+  - 只有 Mac 需要防毒軟體。
+explanation: |
+  Linux 和 Mac，由於其使用者權限分離
+  系統，通常不需要防毒軟體。
+reviewed: true

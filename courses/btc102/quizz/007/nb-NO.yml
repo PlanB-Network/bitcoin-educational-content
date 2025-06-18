@@ -1,10 +1,9 @@
-question: Hva er et vanlig svindelforsøk relatert til online donasjoner i kryptosektoren?
-answer: Tilbud som hevder å doble eller multiplisere bitcoinene du sender.
+question: Hva betyr 3-2-1-regelen når det gjelder sikkerhetskopiering av data?
+answer: 3 kopier på 2 forskjellige medier, hvorav 1 lagres eksternt
 wrong_answers:
-  - Tilbud som hevder å doble eller multiplisere dine fysiske varer.
-  - Tilbud som hevder å doble eller multiplisere din fiat-valuta.
-  - Tilbud som hevder å doble eller multiplisere dine programvareprodukter.
+  - 3 eksemplarer på 2 nettmedier og 1 fysisk enhet
+  - 3 medier med 2 kopier, hvorav den ene er ekstern
+  - 3 kopier, hvorav 2 er krypterte og 1 er lagret eksternt
 explanation: |
-  Et klassisk eksempel på denne typen svindel er et tilbud som hevder å doble
-  eller multiplisere bitcoinene du sender. Det er viktig å forstå at det ikke finnes
-  noen magisk løsning for å bli øyeblikkelig rik.
+  Denne regelen anbefaler at man har tre kopier av data på to forskjellige typer medier, hvorav én kopi lagres eksternt for å øke robustheten.
+reviewed: false

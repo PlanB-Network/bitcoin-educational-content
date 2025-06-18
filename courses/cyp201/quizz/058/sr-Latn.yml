@@ -1,0 +1,9 @@
+question: Koja funkcija se koristi za izvođenje seed iz fraze Mnemonic?
+answer: PBKDF2 sa HMAC-SHA512
+wrong_answers:
+  - SHA256 sam
+  - Dvostruki SHA256
+  - AES-256
+explanation: |
+  seed se generiše korišćenjem PBKDF2 funkcije sa HMAC-SHA512 i 2048 iteracija, iz Mnemonic fraze i passphrase.
+reviewed: false

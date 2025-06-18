@@ -1,0 +1,8 @@
+question: 什麼是 Stonewall x2 交易？
+answer: 迷你 CoinJoin 形式的付款交易
+wrong_answers:
+  - 可模仿迷你 CoinJoin 但又不是迷你 CoinJoin 的交易
+  - 簡單的付款交易
+  - 收件人參與輸入的交易
+explanation: |
+  石牆 x2 是一種特殊形式的 Bitcoin 交易，目的是在消費期間增加使用者隱私，但這次是透過與不參與消費的第三方合作。此方法的功能類似兩個參與者之間的迷你 CoinJoin，同時向第三者付款。

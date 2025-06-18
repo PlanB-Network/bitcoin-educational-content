@@ -1,0 +1,9 @@
+question: Jaki jest główny cel wyspecjalizowanych narzędzi księgowych Bitcoin?
+answer: Uproszczenie automatycznego gromadzenia i przetwarzania danych związanych z Bitcoin
+wrong_answers:
+  - Aby zwiększyć bezpieczeństwo kluczy prywatnych Bitcoin
+  - Aby ułatwić bezpośredni handel Bitcoin na zdecentralizowanych giełdach dla firm
+  - Aby skonfigurować system PoS do przyjmowania płatności Bitcoin
+explanation: |
+  Narzędzia te zostały zaprojektowane w celu automatyzacji gromadzenia danych, konwersji formatu, obliczania podatku i kategoryzacji transakcji.
+reviewed: false

@@ -1,0 +1,16 @@
+question: Je, ni nini nafasi ya bidhaa za mtaji katika uchumi?
+answer: Bidhaa za mtaji hutumiwa katika uzalishaji wa bidhaa zingine. Wanawezesha watu binafsi kupata bidhaa za matumizi.
+wrong_answers:
+  - Bidhaa za mtaji hutumiwa kwa matumizi.
+  - Bidhaa za mtaji hazina nafasi katika uchumi.
+  - Bidhaa za mtaji hutumiwa kuzalisha bidhaa nyingine za mtaji.
+explanation: |
+  Ili kuzalisha bidhaa za walaji, wajasiriamali huchanganya mbalimbali
+  bidhaa za kati na sababu asili za uzalishaji
+  (kazi, ardhi, na mtaji) kulingana na muundo huo
+  huongeza uzalishaji unaosababishwa. Bidhaa nyingine zote katika
+  uchumi, ambayo tunaweza kuiita bidhaa za kati, tu kuwa nazo
+  thamani kwa sababu zinawezesha watu binafsi kupata hizi
+  bidhaa za walaji; ni bidhaa zinazotumika katika uzalishaji wa
+  bidhaa nyingine.
+reviewed: true

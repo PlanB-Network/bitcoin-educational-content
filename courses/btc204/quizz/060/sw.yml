@@ -1,0 +1,10 @@
+question: Ni habari gani inapaswa kuonyeshwa kwenye lebo?
+answer: Asili ya UTXO.
+wrong_answers:
+  - Tarehe ya utengenezaji wa UTXO.
+  - Ukubwa wa UTXO.
+  - Kiasi cha ada zinazohusiana na uundaji wa UTXO.
+explanation: |
+  Kuweka lebo ni mazoezi mazuri ambayo husaidia kukumbuka asili ya UTXO.
+  
+reviewed: false

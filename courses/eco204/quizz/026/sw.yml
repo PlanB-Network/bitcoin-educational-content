@@ -1,0 +1,12 @@
+question: Je! ni jukumu gani la benki za dunia wakati wa mfumuko wa bei nchini Zimbabwe na Jamhuri ya Weimar?
+answer: Walitoa kimbilio kwa wale wanaotaka kulinda mali zao dhidi ya kushuka kwa thamani.
+wrong_answers:
+  - Walichapisha noti mpya ili kufurika sokoni.
+  - Walidhibiti kiwango cha Exchange cha sarafu ya taifa.
+  - Walitoa mikopo kwa serikali.
+explanation: |
+  Katika hali ya mfumuko wa bei au mgogoro wa fedha, sambamba na zisizo na udhibiti
+  masoko ya fedha za kigeni yanaelekea kuongezeka. Benki hizi zisizo rasmi, mara nyingi
+  kwa ucheshi inajulikana kama benki za dunia au kwa majina mengine ya ndani, kutoa kimbilio
+  kwa wale wanaotaka kulinda mali zao dhidi ya kushuka kwa thamani.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni nini kazi ya msingi ya nodi katika mtandao wa Bitcoin?
+answer: Kudumisha nakala ya Bitcoin Blockchain, kuthibitisha shughuli, kupeleka habari kwa nodes nyingine, na kutekeleza sheria za itifaki ya Bitcoin.
+wrong_answers:
+  - Kudumisha nakala ya Bitcoin Blockchain, kuthibitisha shughuli, kupeleka taarifa kwa serikali, na kubadilisha sheria za itifaki ya Bitcoin.
+  - Kudumisha nakala ya Bitcoin Blockchain pekee.
+  - Kusambaza habari tu kwa nodi zingine.
+explanation: >-
+reviewed: true

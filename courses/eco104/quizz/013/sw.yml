@@ -1,0 +1,13 @@
+question: Bitcoin inawanufaisha vipi watu binafsi katika nchi zilizokumbwa na vita au zisizo na utulivu?
+answer: Huwezesha uhifadhi wa thamani kwa njia iliyogatuliwa na salama ambayo ina upinzani mkubwa dhidi ya wizi
+wrong_answers:
+  - Inaruhusu upatikanaji wa huduma za benki za jadi
+  - Inatoa mali halisi ambayo inaweza kuongezeka kwa thamani
+  - Inatoa ulinzi dhidi ya deflation
+explanation: |
+  Katika nchi zenye vita au zisizo imara, watu binafsi wanaweza kuhangaika
+  kupata huduma za benki za jadi au kukabili hatari ya wizi au
+  kunyang'anywa mali. Bitcoin inaruhusu watu binafsi kuhifadhi thamani
+  kwa njia ya ugatuzi na salama bila hitaji la wasuluhishi
+  au mali ambazo zinaweza kuathiriwa na hatari kama vile mfumuko wa bei, wizi au kutaifishwa.
+reviewed: true

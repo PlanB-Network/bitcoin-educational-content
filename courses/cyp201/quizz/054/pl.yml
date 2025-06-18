@@ -1,0 +1,9 @@
+question: Jaka jest główna rola passphrase w Bitcoin HD Wallet?
+answer: Modyfikacja wyprowadzania klucza w celu zwiększenia bezpieczeństwa
+wrong_answers:
+  - Odszyfrowywanie oczekujących transakcji
+  - UTXO generate i Wallet
+  - Ochrona dostępu do Wallet za pomocą Face ID
+explanation: |
+  passphrase działa jako drugi czynnik bezpieczeństwa, zmieniając klucz derywacyjny seed, aby uniemożliwić dostęp do Wallet w przypadku naruszenia frazy Mnemonic.
+reviewed: false

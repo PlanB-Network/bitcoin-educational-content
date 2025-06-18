@@ -1,0 +1,9 @@
+question: Šta se dešava ako vaš privatni ključ bude otkriven trećoj strani?
+answer: Treća strana može potrošiti vaše bitkoine.
+wrong_answers:
+  - Treća strana može samo da pregleda vašu istoriju transakcija.
+  - Treća strana može promeniti vaš privatni ključ.
+  - Treća strana može pristupiti vašim ličnim informacijama.
+explanation: |
+  Ako vaš privatni ključ bude otkriven trećoj strani, povezani fondovi više nisu sigurni, jer privatni ključ omogućava pristup vašim fondovima.
+reviewed: true

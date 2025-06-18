@@ -1,0 +1,9 @@
+question: W jaki sposób ulepszona wydajność i szybkość Lightning Network wypada w porównaniu z tradycyjnymi metodami płatności?
+answer: Jest znacznie szybszy, często rozliczając transakcje w mniej niż sekundę, z niższymi opłatami i bez polegania na wielu pośrednikach.
+wrong_answers:
+  - Odpowiada to tradycyjnym czasom bankowym, często zajmując 2-5 dni na rozliczenie.
+  - Jest wolniejszy niż tradycyjne płatności kartą i wiąże się z wyższymi opłatami.
+  - Wymaga to wielu zatwierdzających podmiotów, podobnie jak obecne przelewy bankowe.
+explanation: |
+  Umożliwiając transakcje off-chain i finalizując płatności niemal natychmiast, Lightning oferuje przewagę szybkości i wydajności nad tradycyjnymi metodami, które opierają się na kilku pośrednikach.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Co to znaczy, że towar ma wysoką zbywalność?
+answer: Powinien być pożądany przez jak największą liczbę osób, przez większość czasu.
+wrong_answers:
+  - Powinien być pożądany przez kilka osób, przez większość czasu.
+  - Powinien być pożądany przez jak największą liczbę osób, przez pewien czas.
+  - Powinien być pożądany przez kilka osób, przez pewien czas.
+explanation: |
+  Towar o wysokiej zbywalności to taki, który jest powszechnie pożądany
+  i może być łatwo wymienione na inne towary lub usługi.
+  To sprawia, że nadaje się do wykorzystania jako pieniądz.
+reviewed: true

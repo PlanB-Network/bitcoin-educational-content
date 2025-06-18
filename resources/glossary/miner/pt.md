@@ -1,5 +1,8 @@
 ---
-term: MINEIRO
-
+term: MENOR
 ---
-No contexto dos pools de mineração, os participantes são frequentemente referidos como "mineiros" Estes mineiros individuais têm a tarefa principal de fazer o hashing de modelos de blocos fornecidos pelo servidor do pool, procurando hashes que satisfaçam a dificuldade alvo definida para as acções, e não a do Bitcoin. O resto do processo de mineração, que inclui a construção real de blocos, a seleção de transacções, ou a procura de provas de trabalho de acordo com a própria dificuldade da Bitcoin, é realizado diretamente pelos pools.
+
+No contexto do Bitcoin, um Miner refere-se a uma pessoa que gere uma mina, ou seja, um computador envolvido no processo Mining, que consiste em participar no Proof-of-Work (*Proof-of-Work*). O Miner agrupa as transacções pendentes no seu Mempool para formar um bloco candidato. Procura então um Hash válido, menor ou igual ao objetivo, para o cabeçalho deste bloco, modificando os vários nonces. Se encontrar um Hash válido, transmite o seu bloco à rede Bitcoin e recebe a recompensa pecuniária associada, composta pelo subsídio do bloco (criação de novas bitcoins ex-nihilo) e pelas taxas de transação.
+
+
+> ► *No contexto específico dos agrupamentos Mining, o papel do Miner é por vezes diferenciado do papel do chopper, uma vez que os choppers individuais que participam no agrupamento apenas têm de cortar e não participam no processo Mining completo.*

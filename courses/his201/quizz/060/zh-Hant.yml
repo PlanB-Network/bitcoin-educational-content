@@ -1,0 +1,9 @@
+question: 誰成立了第一個在 Bitcoin 上生產區塊的 Mining 合作夥伴？
+answer: doublec
+wrong_answers:
+  - 雪泥
+  - 布丁
+  - m0mchil
+explanation: |
+  他在 12 月 1 日宣傳。該區塊於 2010 年 12 月 4 日 [找到](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 。Slush 的合作則是在 12 月 16 日推出。
+reviewed: false

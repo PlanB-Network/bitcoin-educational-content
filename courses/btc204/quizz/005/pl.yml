@@ -1,0 +1,9 @@
+question: Czym jest wejście w transakcji?
+answer: Odniesienie do poprzedniego niewydanego UTXO.
+wrong_answers:
+  - Sygnał potwierdzający od górników.
+  - Nowy blok dodany do Blockchain.
+  - Kod weryfikacyjny zabezpieczający transakcję.
+explanation: |
+  Każde wejście transakcji jest odniesieniem do UTXO, co oznacza wynik poprzedniej transakcji.
+reviewed: false

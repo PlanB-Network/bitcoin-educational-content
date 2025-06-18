@@ -1,0 +1,9 @@
+question: 在移位加密中，密鑰為 17 的單字 DOG 的結果為何？
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  字母表移位 17 後，D 變成 U，O 變成 F，G 變成 X。
+reviewed: false

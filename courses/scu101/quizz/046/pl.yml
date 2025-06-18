@@ -1,0 +1,11 @@
+question: Jaka jest główna wada korzystania z samoobsługowego menedżera haseł?
+answer: Korzystanie z niego wymaga większej wiedzy technicznej.
+wrong_answers:
+  - Jest ona droższa niż usługi innych firm.
+  - Nie oferuje tak wielu funkcji, jak usługi innych firm.
+  - Nie jest ona tak bezpieczna jak usługi innych firm.
+explanation: |
+  Samoobsługowy menedżer haseł wymaga większej wiedzy technicznej
+  wiedzy technicznej, ponieważ trzeba skonfigurować i zarządzać własnym serwerem
+  serwerem. Zapewnia on jednak większą kontrolę i bezpieczeństwo.
+reviewed: true

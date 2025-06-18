@@ -1,0 +1,9 @@
+question: Je, mtoa huduma salama wa barua pepe kama ProtonMail hutoa faida gani?
+answer: Ulinzi wa faragha na usalama ulioimarishwa.
+wrong_answers:
+  - Rahisi Interface kwa Kompyuta.
+  - Kupunguza vipengele ili kupunguza uso wa mashambulizi.
+  - Ujumuishaji wa algoriti kwa generate kiotomatiki barua pepe zako.
+explanation: |
+  ProtonMail inajitokeza kwa sera yake ya faragha na hatua za usalama zilizoimarishwa.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Lightning Network 如何可能用於租賃貨物？
+answer: 使用者使用貨品的時間可按分鐘甚至按秒收費。
+wrong_answers:
+  - 使用者可因租用商品而被收取高額費用。
+  - 可以根據貨品的價值向使用者收取費用。
+  - 可以根據貨物的狀況向使用者收取費用。
+explanation: >-
+reviewed: true

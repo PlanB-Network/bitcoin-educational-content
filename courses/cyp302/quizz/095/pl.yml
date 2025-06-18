@@ -1,0 +1,9 @@
+question: W jaki sposób MAC pozwala Alice zweryfikować, czy wiadomość rzeczywiście pochodzi od Boba?
+answer: Sprawdzając, czy wygenerowany tag pasuje do tego wysłanego przez Boba
+wrong_answers:
+  - Odszyfrowując wiadomość, aby sprawdzić, czy można ją odczytać
+  - Porównując rozmiar wiadomości i tagu
+  - Weryfikując adres IP nadawcy Address
+explanation: |
+  Alice używa współdzielonego tajnego klucza do generate znacznika z otrzymanej wiadomości. Jeśli ten znacznik pasuje do tego wysłanego przez Boba, wie, że wiadomość jest autentyczna i nienaruszona.
+reviewed: false

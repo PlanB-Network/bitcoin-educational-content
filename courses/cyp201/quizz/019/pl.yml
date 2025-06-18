@@ -1,0 +1,9 @@
+question: Jaka operacja matematyczna jest podstawą bezpieczeństwa kryptografii krzywej eliptycznej?
+answer: Problem logarytmu dyskretnego
+wrong_answers:
+  - Faktoryzacja liczb pierwszych
+  - Obliczanie reszt kwadratowych
+  - Dyskretny problem sześcianu
+explanation: |
+  Bezpieczeństwo kryptografii krzywych eliptycznych opiera się na trudności rozwiązania problemu logarytmu dyskretnego na tych krzywych.
+reviewed: false

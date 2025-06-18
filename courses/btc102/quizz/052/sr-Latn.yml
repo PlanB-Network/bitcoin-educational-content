@@ -1,0 +1,11 @@
+question: Koja je uloga kompanija kao što su OpenNode, Swiss Bitcoin Pay i BTCPay u ekosistemu Bitcoin?
+answer: Oni pružaju alate koji olakšavaju preduzećima prihvatanje Bitcoin.
+wrong_answers:
+  - Oni kopaju Bitcoin.
+  - Oni regulišu Bitcoin.
+  - Oni izdaju Bitcoin.
+explanation: |
+  Kompanije kao što su OpenNode, Swiss Bitcoin Pay i BTCPay pružaju alate
+  koji olakšavaju poslovanjima prihvatanje Bitcoin, doprinoseći njegovom usvajanju
+  i korišćenju u svakodnevnim transakcijama.
+reviewed: false

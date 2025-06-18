@@ -1,0 +1,9 @@
+question: Bastiat 是哪個二十世紀思想流派的先驅？
+answer: 公共選擇理論
+wrong_answers:
+  - 內生成長理論
+  - 失衡理論
+  - 新古典經濟學派
+explanation: |
+  Bastiat 預見了 Public Choice 的想法，說明利益團體如何影響國家，以犧牲他人的利益來取得特權。
+reviewed: false

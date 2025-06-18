@@ -1,0 +1,9 @@
+question: Šta je polilogizam prema Ludvigu fon Mizesu?
+answer: Polilogizam osporava jedinstvenost i univerzalnost razuma.
+wrong_answers:
+  - Polilogizam je teorija koja objašnjava raznolikost jezika i kultura.
+  - Austrijanci ga koriste da pokažu da je marksistička logika kontradiktorna.
+  - Polilogizam je metoda analize teksta koja omogućava otkrivanje sofizama.
+explanation: |
+  Za Ludwiga von Misesa, polilogizam je ideja da se strukture mišljenja razlikuju između klasa ili grupa, što izaziva pojam da je razum univerzalan i primenljiv na sve na isti način.
+reviewed: false

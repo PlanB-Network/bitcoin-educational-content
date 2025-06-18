@@ -1,0 +1,9 @@
+question: Zašto biste trebali kupiti bitkoine bez KYC-a?
+answer: Da biste osigurali svoju privatnost.
+wrong_answers:
+  - Da se obezbedi registracija svih Bitcoin korisnika.
+  - Kupiti po niskoj ceni.
+  - Prodati po niskoj ceni.
+explanation: |
+  Kupovina bitkoina bez KYC znači nabavku bitkoina bez prolaska kroz standardne procedure verifikacije "Upoznaj svog kupca" koje mnoge berze i platforme zahtevaju. Jedan od glavnih razloga zbog kojih pojedinci mogu izabrati ovaj put je očuvanje privatnosti, osiguravajući da njihovi lični podaci i finansijske aktivnosti ostanu neotkriveni.
+reviewed: true

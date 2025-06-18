@@ -1,0 +1,12 @@
+question: Jaki jest główny cel rewolucji Bitcoin według tego kursu?
+answer: Stworzenie świata, w którym ludzka suwerenność jest prawem, prywatność jest domyślnie szanowana, a pieniądze nie są manipulowane.
+wrong_answers:
+  - Stworzenie świata, w którym prywatność nie jest prawem człowieka, a banki manipulują pieniędzmi.
+  - Stworzenie świata, w którym rządy nie mają władzy, a społeczeństwo jest chaotyczne.
+  - Tworzenie świata, w którym fizyczne pieniądze są przestarzałe.
+explanation: |
+  Tekst tego kursu sugeruje, że głównym celem rewolucji Bitcoin
+  jest stworzenie świata, w którym ludzka suwerenność jest prawem
+  prawem, prywatność jest domyślnie szanowana, a pieniądze nie są
+  manipulowane.
+reviewed: true

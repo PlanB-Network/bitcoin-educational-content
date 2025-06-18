@@ -1,0 +1,9 @@
+question: Co mogę zrobić z Invoice w transferze RGB?
+answer: Wskazać rodzaj transakcji, wymaganą ilość aktywów i Seal Definition odbiorcy
+wrong_answers:
+  - Utwórz nowy Genesis dla zasobu
+  - generate nowy Schema modyfikujący Business Logic zasobu
+  - Budowa PSBT w celu zastąpienia transakcji Bitcoin
+explanation: |
+  Invoice służy do poinformowania wystawcy transakcji o rodzaju operacji, ilości aktywów, które mają zostać przeniesione oraz miejscu przeznaczenia (Seal Definition).
+reviewed: false

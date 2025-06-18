@@ -1,0 +1,13 @@
+question: Jakie jest główne ryzyko związane z inwestowaniem w firmy, które sprzedają sprzęt Mining i zarządzają maszynami w lokalizacjach o niskich kosztach energii?
+answer: Problemy z zasilaniem Supply i awarie maszyn mogą sprawić, że inwestorzy będą bezsilni, z drogim sprzętem, którego nie kontrolują.
+wrong_answers:
+  - Spółki mogą zbankrutować, a inwestorzy stracić swoje pieniądze.
+  - Firmy mogą być oszustami, a inwestorzy mogą stracić swoje pieniądze.
+  - Firmy mogą nie być w stanie sprzedać wydobytych bitcoinów, a inwestorzy mogą stracić swoje pieniądze.
+explanation: |
+  Główne ryzyko związane z inwestowaniem w spółki, które
+  sprzedają sprzęt Mining i zarządzają maszynami w lokalizacjach o niskich kosztach
+  energii jest to, że problemy z zasilaniem Supply i awarie maszyn
+  i awarie maszyn mogą sprawić, że inwestorzy pozostaną bez
+  sprzętem, którego nie kontrolują.
+reviewed: true

@@ -1,0 +1,12 @@
+question: 預測比特幣的創造將在哪一年停止？
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  由於 Halving 機制，在數學上可
+  比特幣的創造將在 2140 年停止、
+  當比特幣的總數達到上限 21
+  萬。
+reviewed: true

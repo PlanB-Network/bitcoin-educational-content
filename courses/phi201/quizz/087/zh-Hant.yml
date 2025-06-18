@@ -1,0 +1,9 @@
+question: Constant 認為，哪些領域的政治權力沒有影響力？
+answer: 上述所有領域（宗教、科學、工業）。
+wrong_answers:
+  - 宗教信仰
+  - 科學
+  - 產業
+explanation: |
+  Constant 認為政治權力不應該介入宗教、科學和工業等領域，以維護屬於私人領域的個人自由和人類活動的自主性。
+reviewed: false

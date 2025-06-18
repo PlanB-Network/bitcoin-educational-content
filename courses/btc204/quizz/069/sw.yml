@@ -1,0 +1,10 @@
+question: Ni nini kinachoathiri uzito wa shughuli ya Bitcoin?
+answer: Idadi ya pembejeo na matokeo.
+wrong_answers:
+  - Ukubwa wa Blockchain.
+  - Kiasi cha pembejeo na matokeo.
+  - Umri wa UTXOs kutumika.
+explanation: |
+  Kadiri muamala wa Bitcoin unavyokuwa na pembejeo na matokeo zaidi, ndivyo itakavyokuwa nzito katika vB.
+  
+reviewed: false

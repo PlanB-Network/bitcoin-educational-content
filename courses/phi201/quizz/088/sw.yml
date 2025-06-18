@@ -1,0 +1,9 @@
+question: Kuna uhusiano gani kati ya uhuru wa kisiasa na uhuru wa kiuchumi kulingana na Constant?
+answer: Uhuru mbili zinategemeana.
+wrong_answers:
+  - Uhuru wa kisiasa ni sharti la lazima kwa uhuru wa kiuchumi.
+  - Uhuru wa kiuchumi ni sharti la lazima kwa uhuru wa kisiasa.
+  - Uhuru mbili haziendani na kila mmoja.
+explanation: |
+  Kwa Benjamin Constant, uhuru wa kisiasa na uhuru wa kiuchumi una uhusiano wa karibu, kwani uhuru wa mtu binafsi unategemea sana uwezo wa kushiriki katika masuala ya umma na uhuru wa kufanya shughuli za kiuchumi bila kizuizi.
+reviewed: false

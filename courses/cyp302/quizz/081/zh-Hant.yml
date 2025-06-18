@@ -1,0 +1,9 @@
+question: 在串流密碼中，哪一種操作通常用來結合密碼流和訊息？
+answer: XOR
+wrong_answers:
+  - 乘法
+  - 模組化移位
+  - 取代每個字母
+explanation: |
+  在串流密碼中，通常使用 XOR 運算來結合密碼流與訊息，因為它既簡單又可逆轉。
+reviewed: false

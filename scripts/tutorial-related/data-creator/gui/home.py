@@ -5,6 +5,8 @@ from gui.tutorial_page import TutorialPage
 from gui.professor_page import ProfessorPage
 from gui.project_page import ProjectPage
 from utils.constants import MAIN_LANGUAGE_OPTIONS, OTHER_LANGUAGE_OPTIONS
+from utils.data_loader import load_all_professors
+
 
 class HomePage(ctk.CTkFrame):
     def __init__(self, parent, settings):
@@ -13,7 +15,7 @@ class HomePage(ctk.CTkFrame):
         self.settings = settings
 
         # Distribute space across rows/columns for a modern layout
-        for i in range(6):
+        for i in range(7):
             self.grid_rowconfigure(i, weight=1)
         for j in range(3):
             self.grid_columnconfigure(j, weight=1)
@@ -105,30 +107,66 @@ class HomePage(ctk.CTkFrame):
         )
         self.contributor_entry.grid(row=3, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
 
-        # Row 4: PBN Professor's ID
-        self.professor_id_var = ctk.StringVar(value=self.settings.get("professor_id", ""))
+        # Row 4 : Professor Name
+        self.professor_search_var = ctk.StringVar(
+            value=self.settings.get("professor_name", "")
+        )
+
         ctk.CTkLabel(
             self,
-            text="PBN Professor's ID:",
+            text="Professor Name:",
             font=("Arial", 14)
         ).grid(row=4, column=0, padx=10, pady=5, sticky="w")
 
-        self.professor_entry = ctk.CTkEntry(
+        self.professor_search_entry = ctk.CTkEntry(
+            self,
+            textvariable=self.professor_search_var,
+            width=100,
+            font=("Arial", 14, "bold"),
+            placeholder_text="Search by name"
+        )
+        self.professor_search_entry.grid(row=4, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        self.professor_search_entry.bind("<KeyRelease>", self.update_professor_suggestions)
+
+        ctk.CTkLabel(
+            self,
+            text="Prof. Suggestions:",
+            font=("Arial", 14)
+        ).grid(row=5, column=0, padx=10, pady=5, sticky="w")
+
+        self.professor_suggestions_menu = ctk.CTkOptionMenu(
+            self,
+            values=[],
+            command=self.on_professor_selected,
+            width=180,
+            font=("Arial", 14, "bold")
+        )
+        self.professor_suggestions_menu.grid(row=5, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        self.update_professor_suggestions()
+        # Row 5 : Professor’s UUID
+        self.professor_id_var = ctk.StringVar(value=self.settings.get("professor_id", ""))
+
+        ctk.CTkLabel(
+            self,
+            text="Professor's UUID:",
+            font=("Arial", 14)
+        ).grid(row=6, column=0, padx=10, pady=5, sticky="w")
+
+        self.professor_id_entry = ctk.CTkEntry(
             self,
             textvariable=self.professor_id_var,
             width=320,
             font=("Arial", 14, "bold")
         )
-        self.professor_entry.grid(row=4, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        self.professor_id_entry.grid(row=6, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
 
-        # Row 5: Control buttons for resource creation (Tutorial, Professor, Project)
+        # Row 6: Control buttons for resource creation (Tutorial, Professor, Project)
         button_frame = ctk.CTkFrame(self)
-        button_frame.grid(row=5, column=0, columnspan=3, padx=10, pady=20, sticky="nsew")
+        button_frame.grid(row=7, column=0, columnspan=3, padx=10, pady=20, sticky="nsew")
         button_frame.grid_rowconfigure(0, weight=1)
         for j in range(3):
             button_frame.grid_columnconfigure(j, weight=1)
 
-        # Reduce button height by about 40% (from 70 to ~42)
         self.tutorial_button = ctk.CTkButton(
             button_frame,
             text="New Tutorial",
@@ -187,6 +225,8 @@ class HomePage(ctk.CTkFrame):
         self.settings["language"] = self.language_var.get()
         self.settings["contributor_id"] = self.contributor_id_var.get()
         self.settings["professor_id"] = self.professor_id_var.get()
+        self.settings["professor_name"] = self.professor_search_var.get()
+
 
     def open_tutorial_page(self):
         self.update_settings()
@@ -210,3 +250,26 @@ class HomePage(ctk.CTkFrame):
         project_page = ProjectPage(self.parent, self.settings)
         project_page.pack(fill="both", expand=True)
         self.master.active_page = project_page
+
+    def update_professor_suggestions(self, event=None):
+        search_text = self.professor_search_var.get().lower()
+        professors_mapping = load_all_professors(self.base_path_var.get())
+        
+        if not search_text:
+            suggestions = list(professors_mapping.keys())
+        else:
+            suggestions = [name for name in professors_mapping.keys() if search_text in name.lower()]
+        
+        if suggestions:
+            self.professor_suggestions_menu.configure(values=suggestions)
+            self.professor_suggestions_menu.set(suggestions[0])
+        else:
+            self.professor_suggestions_menu.configure(values=["No match"])
+            self.professor_suggestions_menu.set("No match")
+
+
+    def on_professor_selected(self, selected_name):
+        professors_mapping = load_all_professors(self.base_path_var.get())
+        if selected_name in professors_mapping:
+            self.professor_id_var.set(professors_mapping[selected_name])
+            self.professor_search_var.set(selected_name)

@@ -1,0 +1,13 @@
+question: Czym są dziewicze bitcoiny?
+answer: Świeżo wydobyte bitcoiny, które nigdy nie zostały wydane i nie mają żadnej historii.
+wrong_answers:
+  - Bitcoiny, które zostały wykorzystane do nielegalnych działań.
+  - Bitcoiny, które zostały utracone lub zapomniane.
+  - Bitcoiny, które były przechowywane w Wallet przez długi czas.
+explanation: |
+  Bitcoiny dziewicze to świeżo wydobyte bitcoiny, które nigdy nie zostały
+  nie zostały wydane i nie są powiązane z żadną historią. Te
+  bitcoiny są często uważane za bardziej wartościowe, ponieważ
+  nigdy nie zostały skażone, zapewniając pewną gwarancję przed
+  odrzuceniem przez organy regulacyjne lub główne platformy Exchange.
+reviewed: true

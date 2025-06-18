@@ -1,0 +1,9 @@
+question: 哪種開放原始碼軟體適用於專業 Bitcoin 付款系統？
+answer: BTC 付款伺服器
+wrong_answers:
+  - 瑞士 Bitcoin 薪資
+  - 開放式節點
+  - 比特幣化 PoS
+explanation: |
+  BTC Pay Server 因其廣泛的整合選項和控制功能，在課程中被強調為專業設定的核心開源解決方案。
+reviewed: false

@@ -20,41 +20,24 @@ Here, we will highlight trends and common patterns in episodes of hyperinflation
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introduction
+## Course Overview
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-This program aims to provide a deep understanding of the emergence of hyperinflations in a world dominated by Fiat currency and to examine their significant consequences. Participants will explore hyperinflation cycles in detail, analyzing the causes, triggers, and historical and contemporary examples. They will also examine the tangible impact of hyperinflations on the economy and daily life, studying the repercussions on currency value, purchasing power, and individual and collective savings.
+Welcome to the ECO204 course!
 
-Here, we will highlight trends and common patterns in episodes of hyperinflation throughout history, while providing effective and concrete strategies to protect oneself during hyperinflation periods. Participants will have the opportunity to explore various investment options and financial defense mechanisms, acquiring practical tools and essential knowledge to navigate calmly in an unstable economic climate.
+The goal of this course is to help you understand the root causes, mechanisms, and consequences of hyperinflation within the context of a fiat monetary system. Through concrete examples and historical analysis, you will learn to recognize recurring patterns that precede periods of hyperinflation and identify action levers to protect yourself.
 
-### Curriculum
+**Section 2: What is Inflation?**  
+Before diving into the heart of the topic, we will revisit the basics: what is inflation? This section will present its monetary origins, the different types of inflation, and how they fit into a broader economic dynamic. This is an essential step in understanding how regular inflation can evolve into hyperinflation.
 
-Section 1 - Introduction
+**Section 3: What is Hyperinflation?**  
+In this section, you will study precise definitions of hyperinflation and several major historical episodes, including Weimar Germany and Zimbabwe. We will analyze their commonalities, differences, and contemporary parallels. You will also discover lesser-known cases, such as successive redenominations in Latin America, and exit strategies observed in certain countries.
 
-- 1.1 - Course Introduction by Rogzy & David
+**Section 4: How Did We Get Here?**  
+This part aims to understand the structural mechanisms that make hyperinflation possible, notably through the development of the monetary "second layer" and the role of central banks. Additional resources and reading suggestions will be provided for further exploration.
 
-Section 2 - What is inflation?
-
-- 2.1 - A monetary phenomenon
-- 2.2 - Types of inflation
-- 2.3 - Deflation
-
-Section 3 - What is hyperinflation?
-
-- 3.1 - Definitions
-- 3.2 - Weimar vs Zimbabwe similarities
-- 3.3 - Weimar vs Zimbabwe differences and contemporary parallel
-- 3.4 - Redenominations in Latin America
-- 3.5 - How to get out of hyperinflation
-- 3.6 - Presentation of the hyperinflation banknote collection
-
-Section 4 - How did we get here?
-
-- 4.1 - The emergence of the second layer of money and central banks
-- 4.2 - Books and resources
-
-Good luck!
+What if monetary history were repeating itself before our very eyes? You be the judge in the chapters that follow!
 
 # What is inflation?
 
@@ -526,7 +509,7 @@ When currency rapidly loses its value, even the simplest transactions can become
 
 > Zimbabwe: "Store managers were also allowed to hire a temporary worker to replace the staff member who counted money all day. Of course, counting money in-store for administration and bank deposit was one thing, but the whole process had to be repeated at the bank during the deposit."
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Money counting technique from Uzbekistan
 
@@ -971,7 +954,7 @@ Hyperinflation is a fascinating subject that has been studied through various hi
 
 - "Currency Boards for Developing Countries: A Handbook" by Steve Hanke and Kurt Schuler. Although the focus is on currency boards, this book offers a perspective on how to avoid hyperinflation situations.
 
-# Conclusion
+# Final Section
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

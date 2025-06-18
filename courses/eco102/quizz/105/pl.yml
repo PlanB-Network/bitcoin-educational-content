@@ -1,0 +1,9 @@
+question: Kto jest autorem I, Pencil i kto również przetłumaczył The Law Bastiata na język angielski?
+answer: Leonard Read
+wrong_answers:
+  - Leonard Nimoy
+  - Leonard Cohen
+  - Milton Friedman
+explanation: |
+  Leonard Read jest znany z przetłumaczenia "The Law" Bastiata na język angielski i popularyzacji jego twórczości za pośrednictwem Foundation for Economic Education.
+reviewed: false

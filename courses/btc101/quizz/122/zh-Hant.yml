@@ -1,0 +1,9 @@
+question: 自 2009 年以來，Bitcoin 的線上可用性如何？
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  自 2009 年起，Bitcoin 的線上可用性為 99.988%。
+reviewed: true

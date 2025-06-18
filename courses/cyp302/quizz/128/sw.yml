@@ -1,0 +1,9 @@
+question: Ni shida gani ngumu ya hesabu inayohusishwa na mifumo ya ulinganifu kama RSA?
+answer: Uainishaji wa nambari kuu
+wrong_answers:
+  - Kuzidisha kwa kielelezo kwa nambari kamili
+  - Uundaji wa nambari ndefu za nasibu
+  - Ufunguo salama wa Exchange
+explanation: |
+  RSA inategemea ugumu wa uwekaji nambari kuu, kazi ngumu ya kimahesabu ambayo hufanya mfumo wa siri kuwa salama dhidi ya mashambulizi.
+reviewed: false

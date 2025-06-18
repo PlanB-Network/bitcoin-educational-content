@@ -17,11 +17,43 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 
 +++
 
+# Introduction
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Aperçu du cours
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Bienvenu dans le cours PHI201 !
+
+Cette formation vous invite à explorer l’évolution de la liberté à travers l’histoire en analysant les grands courants de pensée qui l’ont façonnée. Vous découvrirez comment la notion de liberté s’est construite au fil des siècles, en opposition ou en collaboration avec le pouvoir, à travers un parcours historique allant de l’Antiquité aux débats contemporains.
+
+**Section 1 : La liberté ou le pouvoir**  
+Nous débuterons par un panorama des deux grandes philosophies politiques qui ont marqué l’histoire : la liberté et le pouvoir. Cette section examinera les visions de penseurs tels que Frédéric Bastiat sur la production versus la spoliation, Lord Acton qui voit la liberté comme moteur de l’histoire, Karl Marx avec sa théorie de la lutte des classes, ou encore Murray Rothbard qui oppose l’État à la société. Cette introduction conceptuelle permettra de poser un cadre d’analyse pour les périodes historiques.
+
+**Section 2 : Les origines de la liberté : l’Antiquité**  
+Ici, nous remonterons aux racines de la pensée philosophique avec les Grecs, qui ont inventé la rationalité critique, et les Romains, qui ont établi les bases du droit moderne. Nous examinerons également la chute de Rome comme un moment charnière qui redéfinit l’organisation politique et sociale autour de la notion de liberté.
+
+**Section 3 : Les origines de la liberté : le Moyen-Âge**  
+Le Moyen-Âge est souvent perçu comme une période obscure, mais nous découvrirons qu’il a en réalité jeté les bases de la liberté moderne. Nous étudierons l’affirmation de la liberté humaine, les débats entre raison et foi, la naissance de l’État souverain, l’éthique biblique valorisant l’individu, ainsi que les premières ébauches du capitalisme qui apparaissent à cette époque.
+
+**Section 4 : L’essor de la liberté : de la Renaissance aux Lumières**  
+Cette section portera sur l’émergence de la tolérance religieuse et de la liberté économique, qui prendront leur essor lors de la Renaissance et des Lumières. Nous analyserons aussi l’importance de l’année 1776, qui marque un tournant majeur avec des événements clés pour le monde libre, avant de plonger dans l’ère des révolutions qui redéfiniront la notion même de liberté.
+
+**Section 5 : Apogée et déclin : du XIXe au XXe siècle**  
+Nous poursuivrons par l’étude des bouleversements des XIXe et XXe siècles, en mettant en perspective les forces et faiblesses de la démocratie, les critiques marxistes du capitalisme et la réponse autrichienne à ces critiques. Nous explorerons aussi les avertissements sur les dangers du collectivisme à travers des œuvres majeures telles que "La route de la servitude".
+
+**Section 6 : L’essor de l’État providence au XXe siècle**  
+Enfin, cette section examinera comment l’État providence a progressivement pris le pas sur les idées de liberté économique, en analysant notamment le triomphe de Keynes et l’abandon de l’étalon-or. Nous conclurons sur l’importance des idées pour influer sur le cours de l’histoire et la place que la liberté occupe encore dans nos sociétés modernes.
+
+Prêt à plonger dans ce parcours philosophique unique sur la quête de la liberté ? Allons-y !
+
 # La liberté ou le pouvoir
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introduction: Il n’y a que deux philosophies politiques
+## Il n’y a que deux philosophies politiques
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -67,7 +99,7 @@ De ce point de vue, il n’existe deux sortes de philosophies politiques et deux
 
 L’antagonisme entre ces deux philosophies existe à toutes les époques. Mais nous pouvons l’illustrer avec la philosophie des Lumières. On voit clairement une ligne de partage entre deux types de penseurs.
 
-Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat,
+Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment Physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat,
 
 > Ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois. (_Propriété et Loi_).
 
@@ -931,7 +963,7 @@ On associe souvent le « libéralisme économique » à une tradition anglo-saxo
 
 ![image](assets/4/img-069.webp)
 
-C’est en réaction au mercantilisme et plus généralement aux idées de l’Ancien Régime qu’est née la science économique en France. Avec les Lumières s’ouvre une période dans laquelle des philosophes se font appeler « économistes », ce sont les physiocrates.
+C’est en réaction au mercantilisme et plus généralement aux idées de l’Ancien Régime qu’est née la science économique en France. Avec les Lumières s’ouvre une période dans laquelle des philosophes se font appeler « économistes », ce sont les Physiocrates.
 
 C’est eux qui ont jeté les bases de l'économie libérale. Les principaux représentants de l’école physiocratique sont François Quesnay, le marquis de Mirabeau, Lemercier de la Rivière, l'abbé Nicolas Baudeau, Louis-Paul Abeille et Pierre-Samuel Dupont de Nemours.
 
@@ -952,13 +984,13 @@ Cette formule est apparue lorsque Jean-Baptiste Colbert, principal conseiller de
 
 La formule fut reprise par les Physiocrates, François Quesnay, le marquis d’Argenson, puis par Vincent de Gournay : « Laissez-faire, laissez passer ». C’est devenu leur devise.
 
-En référence au droit naturel (le terme vient _phusis_, la nature et _cratos_ le pouvoir ou la règle), les physiocrates estiment qu’il existe des lois économiques, qui ne dépendent pas du pouvoir politique ou religieux mais de la nature même de l’homme et des sociétés. L’ordre économique est l’ordre naturel des sociétés. Le pouvoir politique doit s’y soumettre.
+En référence au droit naturel (le terme vient _phusis_, la nature et _cratos_ le pouvoir ou la règle), les Physiocrates estiment qu’il existe des lois économiques, qui ne dépendent pas du pouvoir politique ou religieux mais de la nature même de l’homme et des sociétés. L’ordre économique est l’ordre naturel des sociétés. Le pouvoir politique doit s’y soumettre.
 
 Les physiocrates vont donc s’employer à démontrer que le mercantilisme, la politique économique en France comme en Angleterre, est non seulement inefficace mais aussi immorale. Colbert fut un des premiers étatistes modernes. Il était convaincu que la régulation gouvernementale pouvait engendrer la prospérité nationale. L’État est à la fois banquier, commerçant et nourricier. Il contrôle la monnaie, il dirige le commerce, il redistribue les richesses.
 
 Selon Colbert, il faut rechercher « une augmentation de la richesse en encourageant l’industrie ». Et il ajoutait également : « La France ne peut s’enrichir que par la ruine de l’Angleterre et de la Hollande ».
 
-Au contraire, pour les physiocrates, le libre-échange est la seule bonne politique économique car elle est un jeu à somme positive et l'économie est régie par des lois naturelles qu’il faut se garder de troubler par des lois arbitraires.
+Au contraire, pour les Physiocrates, le libre-échange est la seule bonne politique économique car elle est un jeu à somme positive et l'économie est régie par des lois naturelles qu’il faut se garder de troubler par des lois arbitraires.
 
 ### Les bienfaits du marché libre
 
@@ -974,11 +1006,11 @@ En effet, l’homme veut naturellement améliorer son sort et celui de ses proch
 
 ![image](assets/4/img-060.webp)
 
-Pour les physiocrates, la liberté ne divise pas. Combattre les privilèges politiques et lutter contre les rentes économiques ne font qu'un. La grande nouveauté des économistes modernes, à l’aube du XVIIIe siècle, est qu’ils s’intéressent à chaque individu avec la volonté de lui rendre sa capacité d’action tout en réfléchissant à la manière de contenir les passions et les intérêts par le marché libre.
+Pour les Physiocrates, la liberté ne divise pas. Combattre les privilèges politiques et lutter contre les rentes économiques ne font qu'un. La grande nouveauté des économistes modernes, à l’aube du XVIIIe siècle, est qu’ils s’intéressent à chaque individu avec la volonté de lui rendre sa capacité d’action tout en réfléchissant à la manière de contenir les passions et les intérêts par le marché libre.
 
 En effet, comment faire coexister des hommes aux intérêts divergents ? Comment faire si les hommes entrent en conflit, s’ils se trompent, s’ils sont cupides et égoïstes ?
 
-Les physiocrates répondent en trois temps :
+Les Physiocrates répondent en trois temps :
 
 1. C’est la liberté des contrats qui permet de résoudre les conflits d’intérêts et non le contrat social qui est un pseudo-contrat puisqu’on ne peut pas le rompre. Les analyses du problème social en termes de marché et d’échange permettent d’envisager les rapports entre individus et entre nations comme un jeu à somme positive et règlent à la fois les problèmes de l’institution et de la régulation du social en affirmant que le besoin et l’intérêt régissent à eux seuls les rapports entre les hommes.
 
@@ -986,7 +1018,7 @@ Les physiocrates répondent en trois temps :
 
 3. Le rôle de l’État est de faire respecter les contrats et de garantir la sécurité des personnes et des biens. C’est le fameux « Laissez faire », la devise des physiocrates. L’État gouverne mieux quand il gouverne moins et qu’il laisse aux individus la liberté de prendre des initiatives et d’assumer leur responsabilité.
 
-En bref, si chacun peut poursuivre librement son intérêt privé dans le respect de la loi naturelle, la paix et la prospérité de tous seront mieux assurées que par une organisation politique qui définirait d’en haut l’intérêt général et l’imposerait par la contrainte de la loi. La liberté politique est une chose utile mais elle ne suffit pas à donner aux individus l’autonomie de décision et d’action dont ils ont besoin. Telle est la leçon des physiocrates. L’école libérale française du XIXe siècle, avec Say, Constant, Dunoyer, Bastiat et Molinari, s’en souviendra et défendra brillamment cet héritage contre le socialisme naissant.
+En bref, si chacun peut poursuivre librement son intérêt privé dans le respect de la loi naturelle, la paix et la prospérité de tous seront mieux assurées que par une organisation politique qui définirait d’en haut l’intérêt général et l’imposerait par la contrainte de la loi. La liberté politique est une chose utile mais elle ne suffit pas à donner aux individus l’autonomie de décision et d’action dont ils ont besoin. Telle est la leçon des Physiocrates. L’école libérale française du XIXe siècle, avec Say, Constant, Dunoyer, Bastiat et Molinari, s’en souviendra et défendra brillamment cet héritage contre le socialisme naissant.
 
 ## Une année-clé pour le monde libre : 1776
 
@@ -996,7 +1028,7 @@ En bref, si chacun peut poursuivre librement son intérêt privé dans le respec
 
 ### La disgrâce de Turgot
 
-Lors de son court passage au ministère des finances (Contrôleur général), d’août 1774 à mai 1776, Ann-Robert Jacques Turgot tenta des réformes majeures pour mettre un terme aux dépenses somptuaires, aux nombreux monopoles locaux et pour revenir au libre-échange. En Il ira même jusqu’à sermonner le roi Louis XVI en ces termes :
+Lors de son court passage au ministère des finances (Contrôleur général), d’août 1774 à mai 1776, Ann-Robert Jacques Turgot tenta des réformes majeures pour mettre un terme aux dépenses somptuaires, aux nombreux monopoles locaux et pour revenir au libre-échange. Il ira même jusqu’à sermonner le roi Louis XVI en ces termes :
 
 > Il faut, Sire, vous armer contre votre bonté, de votre bonté même, considérer d’où vous vient cet argent que vous pouvez distribuer à vos courtisans.
 
@@ -1633,7 +1665,7 @@ En un certain sens, notre situation est meilleure que par le passé. Après les 
 >
 > (_Politique économique. Réflexions pour aujourd’hui et pour demain_, 1979).
 
-# Conclusion
+# Section finale
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

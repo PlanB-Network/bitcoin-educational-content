@@ -1,0 +1,9 @@
+question: Bitcoin में Taproot के साथ कौन सा सिग्नेचर एल्गोरिदम पेश किया गया था?
+answer: स्नोर सिग्नेचर स्कीम
+wrong_answers:
+  - ईसीडीएसए (ECDSA)
+  - एसएचए256 (SHA256)
+  - PBKDF2 (Password-Based Key Derivation Function 2)
+explanation: |
+  स्क्नोर सिग्नेचर स्कीम को नवंबर 2021 में Taproot अपडेट के साथ पेश किया गया था।
+reviewed: false

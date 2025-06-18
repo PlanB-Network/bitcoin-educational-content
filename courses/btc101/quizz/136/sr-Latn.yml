@@ -1,0 +1,8 @@
+question: Kako Bitcoin mreža osigurava da je previše skupo ponašati se zlonamerno unutar Bitcoin protokola?
+answer: Kroz pravila protokola i ekonomske podsticaje.
+wrong_answers:
+  - Kroz strogu regulaciju i nadzor.
+  - Kroz korišćenje naprednih mera bezbednosti.
+  - Kroz pretnju pravnim postupkom.
+explanation: >-
+reviewed: true

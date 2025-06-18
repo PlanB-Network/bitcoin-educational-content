@@ -1,0 +1,10 @@
+question: Jakie narzędzia są wykorzystywane w cyberbezpieczeństwie?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  W rozdziale wymieniono Wireshark, Metasploit i Nmap jako niektóre z narzędzi
+  narzędzi wykorzystywanych w cyberbezpieczeństwie.
+reviewed: true

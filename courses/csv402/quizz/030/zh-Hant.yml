@@ -1,0 +1,9 @@
+question: Bob (收件人) 收到的 Contract RGB Consignment 包含哪些元件？
+answer: Genesis、Schema、Interface 和 Interface Implementation
+wrong_answers:
+  - Genesis、Schema、過渡與延伸
+  - Schema、Interface、Signature 和 PSBT
+  - Genesis、Interface、PSBT 和歷史
+explanation: |
+  RGB Contract 的 Consignment 包括 Genesis、Schema、Interface 和 Interface Implementation，它們提供驗證 Contract 所需的所有資料。
+reviewed: false

@@ -1,9 +1,9 @@
 question: Cos'è la transazione coinbase?
-answer: La prima transazione del blocco che include la ricompensa del minatore.
+answer: La prima transazione del blocco che include la ricompensa del miner.
 wrong_answers:
   - Una transazione effettuata sull'exchange Coinbase.
   - La seconda transazione del blocco che include le commissioni più alte.
-  - Una transazione effettuata dal minatore dopo aver ricevuto la ricompensa.
+  - Una transazione effettuata dal miner dopo aver ricevuto la ricompensa.
 explanation: >-
-  La transazione coinbase è sempre la prima transazione di un blocco. Include la ricompensa del minatore per aver eseguito il lavoro del validatore.
+  La transazione coinbase è sempre la prima transazione di un blocco. Include la ricompensa del miner per aver eseguito il lavoro di validazione.
 reviewed: vero

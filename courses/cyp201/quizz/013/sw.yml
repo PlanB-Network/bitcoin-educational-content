@@ -1,0 +1,9 @@
+question: Je, jukumu kuu la PBKDF2 katika Bitcoin ni lipi?
+answer: generate seed ya HD Wallet
+wrong_answers:
+  - Thibitisha shughuli
+  - Simba funguo za faragha
+  - Unda anwani za Bitcoin
+explanation: |
+  PBKDF2 inatumika kupata seed kutoka kwa maneno ya Mnemonic na passphrase ya hiari.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Która właściwość funkcji Hash jest demonstrowana przez całkowitą zmianę w Hash, gdy wiadomość zmienia się nieznacznie?
+answer: Efekt lawiny
+wrong_answers:
+  - Odporność na kolizje
+  - Druga odporność na obraz wstępny
+  - Długość
+explanation: |
+  Niewielka zmiana sygnału wejściowego powoduje radykalną zmianę Hash, co nazywane jest efektem lawiny.
+reviewed: false

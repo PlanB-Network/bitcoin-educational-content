@@ -1,0 +1,9 @@
+question: 在 Alice 和 Bob 之間的通訊中，非對稱密碼學的主要目標是什麼？
+answer: 要允許 Bob 使用 Alice 的公開金鑰傳送秘密訊息給她
+wrong_answers:
+  - 允許 Bob 在沒有公開金鑰的情況下加密和解密訊息
+  - 為了防止 Alice 解密 Bob 的訊息
+  - 允許 Alice 加密訊息以驗證其完整性
+explanation: |
+  在非對稱加密法中，Alice 的公開密碼匙可讓 Bob 傳送只有她能解密的加密訊息，從而確保訊息的機密性。
+reviewed: false

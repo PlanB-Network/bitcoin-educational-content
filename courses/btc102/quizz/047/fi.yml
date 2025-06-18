@@ -1,11 +1,9 @@
-question: Mikä on lompakko Bitcoinin kontekstissa?
-answer: Digitaalinen tallelokero bitcoineillesi
+question: Mitä laitetta suositellaan pitkäaikaisten kerättyjen varojen turvaamiseksi?
+answer: Hardware Wallet
 wrong_answers:
-  - Fyysinen laite bitcoinien säilyttämiseen
-  - Ohjelmisto bitcoinien louhimiseen
-  - Alusta bitcoinien ostamiseen ja myymiseen
+  - Hot Wallet
+  - Salama Wallet
+  - Exchange-alusta
 explanation: |
-  Luvun sisältö selittää, että bitcoinit säilytetään niin kutsutussa
-  lompakossa, joka on digitaalinen tallelokero rahoillesi. Vain avaimen haltija voi
-  päästä siihen käsiksi.
+  Hardware Wallet tallentaa yksityiset avaimet offline-tilassa, mikä tarjoaa paremman turvallisuuden merkittäville summille pitkällä aikavälillä.
 reviewed: false

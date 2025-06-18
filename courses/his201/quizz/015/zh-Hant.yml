@@ -1,0 +1,9 @@
+question: Adam Back 設計 Hashcash Proof of Work 演算法的最初目標是什麼？
+answer: 為了對抗垃圾郵件
+wrong_answers:
+  - 保證帳戶單位的價值
+  - 在對等網路中達成共識
+  - 讓海洋沸騰
+explanation: |
+  Hashcash 要求收到的每封电子邮件都要填写 Proof of Work，这应该是为了限制垃圾邮件。
+reviewed: false

@@ -1,0 +1,9 @@
+question: नेटवर्क का Hash रेट साल 2010 की दूसरी छमाही में किस यूनिट में मापा गया था?
+answer: GH/s में
+wrong_answers:
+  - MH/s में
+  - TH/s में
+  - PH/s में
+explanation: |
+  Hash की रेट 1.35 GH/s से बढ़कर 120 GH/s हो गई, 13 जुलाई से 31 दिसंबर 2010 के बीच।
+reviewed: false

@@ -1,0 +1,12 @@
+question: Je, neno mwaminifu linamaanisha nini katika muktadha wa sarafu?
+answer: Inarejelea sarafu ambazo ni za thamani tu kwa sababu ya uaminifu katika taasisi kuu inayosimamia.
+wrong_answers:
+  - Inahusu sarafu ambazo zinaungwa mkono na dhahabu na hutolewa na benki ndogo za biashara.
+  - Inarejelea sarafu ambazo ni muhimu tu kwa miamala ya uaminifu.
+  - Inarejelea sarafu zinazotumika tu ndani ya taasisi mahususi.
+explanation: |
+  Sarafu za uaminifu haziungwi mkono na bidhaa halisi
+  kama dhahabu au fedha. Thamani yao inatokana na uaminifu
+  na watu wana imani na taasisi zinazohusika
+  na kuzidhibiti.
+reviewed: true

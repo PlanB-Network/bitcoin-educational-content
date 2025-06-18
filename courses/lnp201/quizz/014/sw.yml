@@ -1,0 +1,9 @@
+question: Je, ni hatua gani ya mwisho ya kufungua chaneli kwenye Lightning Network?
+answer: Chapisha muamala wa amana kwenye Bitcoin Blockchain
+wrong_answers:
+  - Saini muamala wa uondoaji ili kurejesha pesa
+  - Tuma ujumbe wa uthibitisho wa ufunguzi kwa mhusika mwingine
+  - Thibitisha salio la fedha za kila mshiriki
+explanation: |
+  Hatua ya mwisho ya kufungua chaneli ni kuchapisha shughuli ya amana kwenye Blockchain, ambayo inafungua rasmi chaneli.
+reviewed: false

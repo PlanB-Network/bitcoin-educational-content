@@ -1,0 +1,9 @@
+question: Je, ni sifa gani kuu ya mfumo wa kitheolojia-kisiasa ambao ulitawala jamii za zama za kati?
+answer: Nguvu za kisiasa na nguvu za kidini zilifungamana kwa karibu, na kiongozi wa kisiasa pia alikuwa kiongozi wa kidini.
+wrong_answers:
+  - Mgawanyo wa mamlaka kati ya Kanisa na Serikali ulifafanuliwa wazi na kuheshimiwa.
+  - Uvumilivu wa kidini ulienea sana, na watu wa dini ndogo walifurahia haki sawa na walio wengi.
+  - Majibu mengine yote ni sahihi.
+explanation: |
+  Katika jamii za zama za kati, mfumo wa kitheolojia-kisiasa ulikuwa na sifa ya kuunganisha nguvu za kisiasa na kidini, na viongozi mara nyingi walipewa mamlaka ya kiroho pamoja na nguvu zao za muda.
+reviewed: false

@@ -1,8 +1,7 @@
 id: 902db648-8b03-4561-966f-6ff5f88072aa
 
-credits:
-  professor: valley-egg
-  link: https://grunch.dev/guides/lapp/
+professor_id: 32334703-651c-4f2c-b835-71a3e19e2f01
+credit_link: https://grunch.dev/guides/lapp/
 
 level: advanced
 
@@ -48,10 +47,11 @@ proofreading:
     contributor_names:
     reward: 5.97
   - language: ja
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 11.83
+      - yutaro21jp
+    reward: 5.92
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -82,13 +82,36 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 9.88
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 7.92
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.79
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.92
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.92
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.92
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.88
 tags:
   - development
   - lightning

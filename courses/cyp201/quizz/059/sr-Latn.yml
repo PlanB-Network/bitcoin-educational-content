@@ -1,0 +1,9 @@
+question: Koja je uloga seed u Bitcoin HD Wallet?
+answer: Da služi kao početna tačka za izvođenje svih ključeva
+wrong_answers:
+  - Skladišti transakcije Wallet
+  - Direktno generate glavni javni ključ
+  - Osigurajte poverljivost transakcije
+explanation: |
+  seed je 512-bitni niz izveden iz fraze Mnemonic i passphrase. On čini osnovu svih ključeva u Wallet.
+reviewed: false

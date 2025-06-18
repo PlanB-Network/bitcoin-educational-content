@@ -1,0 +1,9 @@
+question: 為什麼建議使用雙因素驗證？
+answer: 它增加了額外的 Layer 安全性
+wrong_answers:
+  - 它減少了代碼的數量，簡化了存取方式
+  - 它允許在沒有密碼的情況下登入
+  - 它取代了密碼管理器的使用
+explanation: |
+  2FA 除了密碼之外，還需要一個臨時代碼，這大大加強了線上帳戶的保護。
+reviewed: false

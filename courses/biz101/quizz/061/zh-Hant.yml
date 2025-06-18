@@ -1,0 +1,9 @@
+question: Essential profile 用什麼來幫助員工在 PoS 處理付款？
+answer: 在 PoS 應用程式上建立包含商品價格的菜單
+wrong_answers:
+  - 用於記錄銷售的 Ledger 手冊
+  - 每筆交易的紙本 Invoice 系統
+  - PoS 交易的自動會計記錄系統
+explanation: |
+  Essential profile 中的 PoS 應用程式可讓員工從預先設定的選單中選擇項目，簡化帳單處理程序。
+reviewed: false

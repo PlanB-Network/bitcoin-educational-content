@@ -1,0 +1,9 @@
+question: Je, ni jina gani linalopewa tatizo la makubaliano ndani ya mtandao unaosambazwa?
+answer: Tatizo la Majenerali wa Byzantine
+wrong_answers:
+  - Tatizo la Maafisa wa Kirumi
+  - Tatizo la Wakoloni wa Albania
+  - Tatizo la Taisho la Kijapani
+explanation: |
+  Jina la tatizo hili (lililorasimishwa na Lamport, Shostak, na Pease mwaka wa 1982) lilichaguliwa ili kuepuka kuudhi msomaji, kwa kuwa hakuna mtu aliyewahi kujitambulisha kama Byzantine.
+reviewed: false

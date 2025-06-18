@@ -1,0 +1,9 @@
+question: Jaka jest główna luka w zabezpieczeniach słabych haseł, gdy są one zaszyfrowane?
+answer: Są one podatne na ataki słownikowe
+wrong_answers:
+  - Nie można ich zweryfikować za pomocą haszowania
+  - Zawsze są to kolizje generate
+  - Wymagają dłuższego haszowania dla większego bezpieczeństwa
+explanation: |
+  Słabe hasła można łatwo odzyskać z Hash za pomocą ataków słownikowych, co sprawia, że ich wybór jest ważny dla zapewnienia bezpieczeństwa.
+reviewed: false

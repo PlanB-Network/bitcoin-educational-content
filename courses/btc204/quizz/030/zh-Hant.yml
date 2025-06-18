@@ -1,0 +1,9 @@
+question: 內部交易啟發式的目標是什麼？
+answer: 識別 Exchange。
+wrong_answers:
+  - 即時辨識詐騙交易。
+  - 識別交易模式。
+  - 識別屬於同一個實體的群組。
+explanation: |
+  內部啟發式方法可讓我們識別 Exchange，目的是在後續交易中觀察使用者。
+reviewed: false

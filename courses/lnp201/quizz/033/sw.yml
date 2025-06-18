@@ -1,0 +1,9 @@
+question: Je, uelekezaji wa kitunguu kwenye Lightning Network unahusisha nini?
+answer: Ina maana kwamba kila nodi ya kati inajua tu majirani zake wa karibu kwenye njia.
+wrong_answers:
+  - Kusambaza pesa moja kwa moja kutoka nodi hadi nodi kujua mpokeaji wa mwisho
+  - Kukokotoa ada kwa kila nodi ya kati kwa kujitegemea
+  - Kutuma pesa kwa nodi zote kwenye njia wakati huo huo
+explanation: |
+  Uelekezaji wa kitunguu unamaanisha kwamba kila kifundo cha kati kinajua tu nodi ya awali na inayofuata, hivyo basi kuhifadhi usiri wa mpokeaji wa mwisho.
+reviewed: false

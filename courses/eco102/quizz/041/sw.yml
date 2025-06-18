@@ -1,0 +1,9 @@
+question: Bastiat anatambua tatizo gani na hoja ya ulinzi wa kazi?
+answer: Majibu haya yote ni sahihi
+wrong_answers:
+  - Ni rahisi sana na haizingatii matokeo ya muda mrefu
+  - Inatokana na wazo potofu la ushindani wa kiuchumi
+  - Inatumika kuhalalisha hatua za ulinzi zinazodhuru watumiaji
+explanation: |
+  Majibu yote ni sahihi. Bastiat anaamini kwamba hoja ya ulinzi wa kazi ni rahisi, kulingana na maono ya uongo ya ushindani, na kwamba inahalalisha hatua za ulinzi kwa madhara ya watumiaji.
+reviewed: false

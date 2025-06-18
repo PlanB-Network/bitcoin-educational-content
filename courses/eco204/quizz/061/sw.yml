@@ -1,0 +1,12 @@
+question: Je, kulikuwa na matokeo gani ya Benki Kuu ya Uingereza kuzishusha benki za kibinafsi kwenye nafasi ya pili katika mfumo wa fedha?
+answer: Layer ya tatu ya sarafu iliundwa
+wrong_answers:
+  - Benki ya Uingereza ilifilisika
+  - Thamani ya dhahabu iliongezeka
+  - Benki ya Amsterdam ikawa kituo cha uchumi wa kimataifa
+explanation: |
+  Wakati Benki Kuu ya Uingereza ilishusha benki za kibinafsi kwenye nafasi ya upili
+  katika mfumo wa fedha, Layer ya tatu ya fedha iliundwa. Vidokezo vilivyotolewa
+  na benki za kibinafsi hazikubadilishwa tena kuwa dhahabu lakini katika sarafu ya karatasi kutoka
+  Benki ya Uingereza, ambayo yenyewe ilibadilishwa kuwa dhahabu.
+reviewed: false

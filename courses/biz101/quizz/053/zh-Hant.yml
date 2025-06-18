@@ -1,0 +1,9 @@
+question: 每筆 Bitcoin 交易必須記錄哪些關鍵付款細節？
+answer: 日期、金額、等值法定貨幣和相關地址
+wrong_answers:
+  - transaction ID、網路費用和商家的 Address
+  - 日期、Exchange 比率、Wallet 類型和地理位置
+  - 使用的 Bitcoin 區塊編號、Timestamp 和腳本
+explanation: |
+  記錄這些細節可確保清晰度，並協助會計師區分流入和流出。
+reviewed: false

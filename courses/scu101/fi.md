@@ -26,11 +26,11 @@ Théo; panos
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kurssin esittely
+## Kurssin yleiskatsaus
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Tavoite: Päivitä turvallisuustaitosi!
+**Tavoite: Päivitä turvallisuustaitosi!**
 
 Tervetuloa kaikille tähän digitaalisen turvallisuuden koulutusohjelmaan. Tämä koulutus on suunniteltu kaikille saavutettavaksi, joten aiempaa tietotekniikan osaamista ei vaadita. Päätavoitteenamme on tarjota teille tietoa ja taitoja, jotka ovat tarpeen digitaalisessa maailmassa turvallisemmin ja yksityisemmin liikkumiseen.
 
@@ -40,13 +40,13 @@ Tämä koulutus on kolmen professorimme yhteistyö:
 
 - Renaud Lifchitz, kyberturvallisuuden asiantuntija
 - Théo Pantamis, sovelletun matematiikan tohtori
-- Rogzy, DécouvreBitcoinin toimitusjohtaja
+- Rogzy, Plan ₿ Networkin perustaja
 
 Digitaalinen hygienia on ratkaisevan tärkeää yhä digitaalisemmassa maailmassa. Hakkeroinnin ja massavalvonnan jatkuvasta kasvusta huolimatta ei ole liian myöhäistä ottaa ensimmäistä askelta ja suojata itseäsi.
 Tässä koulutuksessa emme yritä tehdä sinusta asiantuntijaa, anonyymiä tai haavoittumatonta, sillä se on mahdotonta. Sen sijaan tarjoamme sinulle joitakin yksinkertaisia ja saavutettavia ratkaisuja kaikille aloittamaan online-tapojen muuttamisen ja digitaalisen suvereniteettisi takaisin saamisen.
 Jos etsit aiheesta edistyneempiä taitoja, resurssimme, tutoriaalimme tai muut kyberturvallisuuskoulutuksemme ovat käytettävissäsi. Sillä välin tässä on lyhyt yleiskatsaus ohjelmastamme seuraavien yhdessä vietettyjen tuntien aikana.
 
-### Osa 1: Kaikki mitä sinun tarvitsee tietää online-selailusta
+**Osa 1: Kaikki mitä sinun tarvitsee tietää online-selailusta**
 
 - Luku 1 - Online-selailu
 - Luku 2 - Internetin turvallinen käyttö
@@ -55,13 +55,13 @@ Aloitamme keskustelemalla web-selaimen valinnan tärkeydestä ja sen merkitykses
 
 ![](assets/en/1.webp)
 
-### Osa 2: Parhaat käytännöt tietokoneen käytössä
+**Osa 2: Parhaat käytännöt tietokoneen käytössä**
 
 - Luku 3 - Tietokoneen käyttö
 - Luku 4 - Hakkerointi & varmuuskopioiden hallinta
   Tässä osiossa käsittelemme kolmea tietoturvan keskeistä aluetta. Ensiksi tutustumme eri käyttöjärjestelmiin: Mac, PC ja Linux, korostaen niiden erityispiirteitä ja vahvuuksia. Sen jälkeen syvennymme menetelmiin, joilla voidaan tehokkaasti suojautua hakkerointiyrityksiltä ja vahvistaa laitteidesi turvallisuutta. Lopuksi korostamme säännöllisen suojauksen ja datan varmuuskopioinnin tärkeyttä, jotta voit välttää tietojen menetyksen tai kiristyshaittaohjelmat.![](assets/en/2.webp)
 
-### Osa 3: Ratkaisujen toteuttaminen
+**Osa 3: Ratkaisujen toteuttaminen**
 
 - Luku 6 - Sähköpostinhallinta
 - Luku 7 - Salasananhallinta
@@ -72,6 +72,7 @@ Tässä käytännönläheisessä kolmannessa osassa siirrymme konkreettisten rat
 Ensin näemme, miten suojata sähköpostilaatikkosi, joka on olennainen viestintävälineesi ja usein hakkerien kohteena. Sen jälkeen esittelemme sinulle salasananhallinnan: käytännöllisen ratkaisun, jolla et enää unohda tai sekoita salasanojasi samalla kun pidät ne turvassa. Lopuksi keskustelemme lisäturvatoimesta, kahden tekijän tunnistautumisesta, joka lisää ylimääräisen suojakerroksen tileillesi. Kaikki selitetään selkeästi ja ymmärrettävästi.
 ![](assets/en/3.webp)
 
+Oletko valmis vahvistamaan digitaalista turvallisuuttasi ja ottamaan hallinnan takaisin tietoihisi? Mennään!
 # Kaikki mitä sinun tarvitsee tietää online-selailusta
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -236,7 +237,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 # Ratkaisujen toteuttaminen.
 
-<partId>15ec9022-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Sähköpostitilien hallinta
 
@@ -401,18 +402,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Varmuuskopiointiasetukset
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Henkilökohtaisten tiedostojen suojaaminen on myös olennaista. Tämä opas näyttää, kuinka ottaa käyttöön tehokas varmuuskopiointistrategia Proton Drive'n avulla. Opi käyttämään tätä turvallista pilvipalveluratkaisua 3-2-1-menetelmän soveltamiseen: kolme kopiota tiedoistasi kahdessa eri tallennusvälineessä, joista yksi kopio on sivuston ulkopuolella. Näin varmistat arkaluonteisten tiedostojesi saatavuuden ja turvallisuuden:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Ja suojataksesi USB-tikulla tai ulkoisella kovalevyllä tallennettuja tiedostoja, näytän myös, miten voit helposti salata ja purkaa näitä tallennusvälineitä VeraCryptin avulla:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Selaimen vaihto & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -428,6 +417,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Lisäksi opi käyttämään Tor Browseria, selainta, joka on erityisesti suunniteltu suojaamaan online-p私siuttasi:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Varmuuskopiointiasetukset
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Henkilökohtaisten tiedostojen suojaaminen on myös olennaista. Tämä opas näyttää, kuinka ottaa käyttöön tehokas varmuuskopiointistrategia Proton Drive'n avulla. Opi käyttämään tätä turvallista pilvipalveluratkaisua 3-2-1-menetelmän soveltamiseen: kolme kopiota tiedoistasi kahdessa eri tallennusvälineessä, joista yksi kopio on sivuston ulkopuolella. Näin varmistat arkaluonteisten tiedostojesi saatavuuden ja turvallisuuden:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Ja suojataksesi USB-tikulla tai ulkoisella kovalevyllä tallennettuja tiedostoja, näytän myös, miten voit helposti salata ja purkaa näitä tallennusvälineitä VeraCryptin avulla:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Syvennä osaamistasi
 
@@ -476,7 +477,7 @@ Hallitsemalla näitä taitoja ja työkaluja, olet hyvin varustautunut navigoimaa
 
 ### Tehokas salasanojen hallinta ja autentikoinnin vahvistaminen: Akateeminen lähestymistapa
 
-Koulutusmoduulissa "Security 101", jonka Découvre Bitcoin tarjoaa Akatemiassaan, keskustelimme salasanojen hallintajärjestelmien tärkeydestä. Kolme ulottuvuutta ovat olennaisia: salasanojen luominen, päivittäminen ja käyttöönotto verkkosivustoilla.
+Kolme keskeistä ulottuvuutta, jotka on otettava huomioon puhuessasi salasanojen hallinnasta:: salasanojen luominen, päivittäminen ja käyttöönotto verkkosivustoilla.
 Yleensä ei suositella selainlaajennusten käyttöä automaattiseen salasanojen täyttöön. Nämä työkalut voivat tehdä käyttäjästä haavoittuvaisemman phishing-hyökkäyksille. Renaud, tunnustettu kyberturvallisuuden asiantuntija, suosii manuaalista hallintaa käyttäen KeePassia, joka sisältää salasanan manuaalisen kopioimisen ja liittämisen. Laajennukset voivat lisätä hyökkäyspintaa, hidastaa selaimen suorituskykyä ja siten muodostaa merkittävän riskin. Näin ollen selainlaajennusten minimaalinen käyttö on suositeltavaa.
 
 Salasanojen hallintajärjestelmät yleensä kannustavat käyttämään lisäautentikointitekijöitä, kuten kaksivaiheista tunnistautumista. Optimaalisen turvallisuuden takaamiseksi on suositeltavaa säilyttää OTP:t (kertakäyttöiset salasanat) mobiililaitteessasi. AndoTP tarjoaa avoimen lähdekoodin ratkaisun OTP-koodien luomiseen ja säilyttämiseen puhelimessasi. Vaikka Google Authenticator mahdollistaa autentikointikoodien siementen viemisen, varmuuskopion luottamus Google-tilille on rajallinen. Siksi OTI- ja AndoTP-sovellukset ovat suositeltavia itsenäiseen OTP-hallintaan.
@@ -496,11 +497,11 @@ Suora autentikointi asiaankuuluvaan palveluun on mielenkiintoinen vaihtoehto rii
 ### Tietokoneturvallisuus: turvallisten käytäntöjen imperatiivit ja ihmisen huolimattomuuteen liittyvät riskit
 
 Tietokoneturvallisuus voi vaarantua yksinkertaisilla käytännöillä ja oletussalasanojen, kuten "admin", käytöllä. Monimutkaiset hyökkäykset eivät aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi. Esimerkiksi erään YouTube-kanavan ylläpitäjän salasanat oli kirjoitettu yrityksen yksityiseen lähdekoodiin. Turvallisuusaukot ovat usein ihmisen huolimattomuuden tulosta.
-On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset. Muita keskeisiä huomioita
+On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset.
 
-Osana "Security 101" -koulutusmoduulia Découvre Bitcoin Academyssa keskustelimme myös Lightning-autentikoinnista. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
+On myös syytä mainita järjestelmä nimeltä "Lightning authentication".. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

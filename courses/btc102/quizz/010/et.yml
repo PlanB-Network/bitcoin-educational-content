@@ -1,11 +1,9 @@
-question: Mille lühend on 2FA?
-answer: Kahefaktoriline autentimine
+question: Miks on soovitatav jääda oma Bitcoin osaluste suhtes diskreetseks?
+answer: Et vältida kurjategijate ja valitsuste tähelepanu äratamist
 wrong_answers:
-  - Kahefaktoriline autoriseerimine
-  - Kaheomaduseline autentimine
-  - Kahefunktsiooniline autentimine
+  - Et saada kasu parematest Exchange määradest teatavates riikides
+  - Et vältida rahastamist taotlevate ettevõtjate tähelepanu äratamist
+  - Parandada laenuvõimet
 explanation: |
-  2FA tähistab kahefaktorilist autentimist. See pakub lisakihti
-  
-  turvalisust sinu kõige tundlikumatele kontodele.
+  Diskreetsus kaitseb petturite, armukadedate isikute või varaste rünnakuohu eest.
 reviewed: false

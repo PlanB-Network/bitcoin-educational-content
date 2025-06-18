@@ -1,0 +1,9 @@
+question: Koju prednost nudi siguran provajder e-pošte kao što je ProtonMail?
+answer: Zaštita privatnosti i poboljšana sigurnost.
+wrong_answers:
+  - Jednostavniji Interface za početnike.
+  - Smanjenje funkcija radi minimizacije površine napada.
+  - Integracija algoritma za automatsko generate vaših e-mailova.
+explanation: |
+  ProtonMail se ističe svojom politikom privatnosti i pojačanim merama bezbednosti.
+reviewed: false

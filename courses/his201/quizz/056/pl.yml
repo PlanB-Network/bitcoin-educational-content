@@ -1,0 +1,9 @@
+question: Jakie były standardowe wzorce wyjścia skryptu rozpoznawane przez oprogramowanie we wrześniu 2010 roku?
+answer: Odbiór przez klucz publiczny (P2PK) i odbiór przez Address (P2PKH)
+wrong_answers:
+  - Odbiór przez Address (P2PKH) i odbiór przez skrypt podpisu wielopodpisowego (P2MS)
+  - Odbiór przez Address (P2PKH) i odbiór przez skrypt (P2SH)
+  - Odbiór przez klucz publiczny (P2PK) i odbiór przez skrypt (P2SH)
+explanation: |
+  Były to dwa typy używane od początku Bitcoin. Typ P2MS stał się standardem w marcu 2012 roku. Typ P2SH został dodany do protokołu w kwietniu 2012 roku.
+reviewed: false

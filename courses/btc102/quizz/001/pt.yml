@@ -1,9 +1,9 @@
-question: Qual é um golpe comum relacionado a concursos online ou doações no setor de criptomoedas?
-answer: Anúncios prometendo bitcoins gratuitos.
+question: O que deve fazer para identificar uma tentativa de phishing no sector das criptomoedas?
+answer: Verificar a identidade do remetente
 wrong_answers:
-  - Anúncios prometendo bens físicos.
-  - Anúncios prometendo moeda fiduciária gratuita.
-  - Anúncios prometendo software gratuito.
+  - Clicar apenas nas ligações recebidas na mensagem de correio eletrónico
+  - Partilhe as suas chaves privadas para confirmar a autenticidade
+  - Confiar apenas em logótipos e imagens nas mensagens de correio eletrónico
 explanation: |
-  Golpes relacionados a concursos online ou doações são muito comuns no setor de criptomoedas. Anúncios prometendo bitcoins gratuitos são frequentemente usados para enganar usuários inexperientes.
+  Deve certificar-se sempre de que está a interagir com a pessoa correta e nunca utilizar ligações fornecidas em mensagens de correio eletrónico. Em vez disso, vá diretamente ao sítio manualmente, utilizando os marcadores do seu browser.
 reviewed: false

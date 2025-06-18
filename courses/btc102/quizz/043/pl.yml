@@ -1,0 +1,9 @@
+question: Jaki jest główny cel hodlera?
+answer: Aby utrzymać swoje bitcoiny przez długi czas
+wrong_answers:
+  - Spekulować w krótkim okresie
+  - Aby dokonywać częstych transakcji Bitcoin
+  - Aby zmaksymalizować prywatność transakcji Bitcoin
+explanation: |
+  Hodler zamierza przechowywać swoje bitcoiny przez wiele lat, aby czerpać korzyści z przypuszczalnego wzrostu aktywów.
+reviewed: false

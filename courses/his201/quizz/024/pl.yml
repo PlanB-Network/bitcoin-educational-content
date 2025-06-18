@@ -1,0 +1,9 @@
+question: Kim jest osoba, która pozytywnie zareagowała na publikację białej księgi w listopadzie 2008 roku?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  7 listopada napisał do listy, że Bitcoin [wydaje się] być bardzo obiecującym pomysłem. Inni byli bardziej sceptyczni. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

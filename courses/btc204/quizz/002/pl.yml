@@ -1,0 +1,9 @@
+question: Jakie jest działanie transakcji Bitcoin na wejściowych UTXO?
+answer: Zużywa je, aby zaspokoić potrzeby wyjściowe.
+wrong_answers:
+  - Archiwizuje je w Blockchain do wykorzystania w przyszłości.
+  - Szyfruje je, aby zabezpieczyć transakcję.
+  - Duplikuje je w celu utworzenia nowych UTXO.
+explanation: |
+  Wejściowe UTXO w transakcji są zużywane w celu sfinansowania wyjść. Jest to w pewnym sensie źródło pieniędzy.
+reviewed: false

@@ -4,8 +4,7 @@ category: others
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: a4a8ecb4-5e17-47f1-b609-b526023fe4b6
@@ -82,13 +81,36 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.17
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.17
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.72
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.17
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.17
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.17
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.68
 tags:
   - guides
   - user-friendly

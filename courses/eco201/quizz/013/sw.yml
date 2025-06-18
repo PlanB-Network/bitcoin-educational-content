@@ -1,0 +1,13 @@
+question: Je, tatizo kuu la mfumo wa hifadhi ya sehemu ni nini?
+answer: Suala kuu la mfumo wa hifadhi ya sehemu ni kwamba uondoaji mkubwa kutoka kwa benki fulani unaweza kusababisha kufilisika kwake.
+wrong_answers:
+  - Suala kuu la mfumo wa hifadhi ya sehemu ni kwamba inazuia benki kukopesha pesa.
+  - Suala kuu la mfumo wa hifadhi ya sehemu ni kwamba inahitaji benki kushikilia akiba zaidi ya wanazopokea katika amana.
+  - Suala kuu la mfumo wa hifadhi ya sehemu ni kwamba inazuia benki kuunda pesa mpya.
+explanation: |
+  Katika mfumo wa hifadhi ya sehemu, benki zinashikilia sehemu tu
+  wa fedha zilizowekwa akiba za wawekaji wao, kukopesha
+  pumzika. Ikiwa wateja wengi wakati huo huo wanakimbilia kujiondoa
+  fedha zao, benki inaweza kuwa na akiba ya kutosha kukutana
+  mahitaji haya, ambayo yanaweza kusababisha kufilisika.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je uloga ASIC-ova u Bitcoin Mining?
+answer: ASIC-ovi su mašine dizajnirane isključivo za primenu SHA256 algoritma u Mining procesu.
+wrong_answers:
+  - ASIC-ovi se koriste za verifikaciju Bitcoin transakcija primenom SHA256 algoritma u procesu verifikacije.
+  - ASIC-ovi se koriste za proizvoljno kreiranje novih bitkoina.
+  - ASIC-ovi se koriste za osiguranje Bitcoin mreže.
+explanation: |
+  ASIC-i (Application-Specific Integrated Circuits) su specijalizovani hardver dizajniran posebno za Bitcoin Mining. Oni su optimizovani za obavljanje SHA256 heš funkcije, što je matematički problem koji rudari moraju rešiti u procesu Proof of Work.
+reviewed: true

@@ -15,7 +15,7 @@ Ciò si tradurrà nell'implementazione di diversi strumenti come una casella di 
 
 In questa formazione, non cerchiamo di renderti un esperto, anonimo o invulnerabile, poiché ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili a tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
 
-Team dei contributori:
+Team dei collaboratori:
 Muriel; design
 Rogzy Noury & Fabian; produzione
 Théo; contributo
@@ -26,11 +26,11 @@ Théo; contributo
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Introduzione al corso
+## Panoramica del corso
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Obiettivo: aggiornamento!
+**Obiettivo: aggiornamento!**
 
 Benvenuti a tutti in questo programma di insegnamento dedicato alla sicurezza informatica. Questa formazione è progettata per essere accessibile a tutti, quindi non sono necessari prerequisiti informatici. Il nostro obiettivo principale è fornire le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale.
 
@@ -40,13 +40,13 @@ Questa formazione è uno sforzo congiunto di tre dei nostri professori:
 
 - Renaud Lifchitz, esperto in sicurezza informatica
 - Théo Pantamis, dottore in matematica applicata
-- Rogzy, CEO di DécouvreBitcoin
+- Rogzy, Co-fondatore di Plan ₿ Network
 
 La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante il costante aumento di casi di hacking e sorveglianza di massa, non è mai troppo tardi per fare il primo passo e proteggerti.
-Con questo percorso di formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile, ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
+Con questo percorso di formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile: ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
 Se stai cercando competenze più avanzate sull'argomento, le nostre risorse, tutorial o altri corsi sulla sicurezza informatica sono qui per te. Nel frattempo, ecco una breve panoramica del nostro programma per le prossime ore insieme.
 
-### Sezione 1: Tutto ciò che devi sapere sulla navigazione online
+**Sezione 1: Tutto ciò che devi sapere sulla navigazione online**
 
 - Capitolo 1 - Navigazione online
 - Capitolo 2 - Utilizzare Internet in sicurezza
@@ -54,7 +54,7 @@ Se stai cercando competenze più avanzate sull'argomento, le nostre risorse, tut
 Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle sue implicazioni in termini di sicurezza. Esploreremo poi le specificità dei browser, in particolare per quanto riguarda la gestione dei cookie. Vedremo anche come garantire una navigazione più sicura e anonima, utilizzando strumenti come TOR. Successivamente, metteremo l'accento sull'uso delle VPN per rafforzare la protezione dei tuoi dati. Infine, concluderemo con alcune raccomandazioni sull'uso sicuro delle connessioni WiFi.
 ![](assets/it/1.webp)
 
-### Sezione 2: Buone pratiche nell'uso del computer
+**Sezione 2: Buone pratiche nell'uso del computer**
 
 - Capitolo 3 - Utilizzo del computer
 - Capitolo 4 - Hack e gestione del backup
@@ -62,7 +62,7 @@ Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle
 In questa sezione, affronteremo tre aree chiave della sicurezza informatica. Innanzitutto, esploreremo i diversi sistemi operativi: Mac, PC e Linux, evidenziandone le specificità e i punti di forza. Successivamente, ci concentreremo sui metodi per proteggerti efficacemente dai tentativi di hacking e per rafforzare la sicurezza dei tuoi dispositivi. Infine, metteremo l'accento sull'importanza di proteggere e fare regolarmente il backup dei tuoi dati per prevenire perdite o ransomware.
 ![](assets/it/2.webp)
 
-### Sezione 3: Implementazione delle soluzioni
+**Sezione 3: Implementazione delle soluzioni**
 
 - Capitolo 6 - Gestione della casella di posta
 - Capitolo 7 - Gestore di password
@@ -73,12 +73,13 @@ In questa terza sezione pratica, passeremo alla pratica con l'implementazione de
 Prima di tutto, vedremo come proteggere la tua casella di posta, essenziale per le tue comunicazioni e spesso presa di mira dai pirati informatici. Successivamente, ti presenteremo cos'è un gestore di password: una soluzione pratica per non dimenticare o confondere le tue password, mantenendole comunque sicure. Infine, parleremo di una misura di sicurezza aggiuntiva, l'autenticazione a due fattori, che aggiunge un ulteriore livello di protezione ai tuoi account. Tutto sarà spiegato in modo chiaro e accessibile.
 ![](assets/it/3.webp)
 
-### Sezione Bonus: Intervista con Pantamis e Renaud
+**Sezione Bonus: Intervista con Pantamis e Renaud**
 
 Come bonus, vi proponiamo un'intervista esclusiva con Pantamis e Renaud, i nostri esperti di sicurezza informatica. Condivideranno le loro conoscenze approfondite e consigli aggiuntivi per rafforzare la vostra igiene digitale. L'idea è imparare di più da questi professionisti esperti.
 
 Questo programma di formazione è offerto gratuitamente con una licenza redistribuibile CC BY SA. Desideriamo esprimere la nostra gratitudine ai nostri Patreons e al nostro team di ripresa per il loro indispensabile supporto nella realizzazione di questa formazione. Ringraziamo anche tutti i nostri donatori e sostenitori che ci permettono di continuare a produrre contenuti educativi gratuiti a livello mondiale.
 
+Pronto a rafforzare la tua sicurezza digitale e riprendere il controllo dei tuoi dati? Iniziamo!
 # Tutto quello che c'è da sapere sulla navigazione online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -138,7 +139,7 @@ Le VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo c
 
 Ci sono due tipi principali di VPN: le VPN aziendali e le VPN per il grande pubblico, come NordVPN. Le VPN aziendali tendono ad essere più costose e complesse, mentre le VPN per il grande pubblico sono generalmente più accessibili e facili da usare. NordVPN, ad esempio, consente agli utenti di connettersi a Internet passando attraverso un server situato in un altro paese, il che può consentire di aggirare le restrizioni geografiche.
 
-Tuttavia, l'uso di una VPN per il grande pubblico non garantisce un anonimato completo. Molti fornitori di VPN conservano informazioni sui propri utenti, il che potrebbe compromettere potenzialmente la loro anonimato. Sebbene le VPN possano essere utili per migliorare la sicurezza online, non sono una soluzione universale. Sono efficaci per alcuni utilizzi specifici, come l'accesso a servizi geograficamente limitati o il miglioramento della sicurezza in movimento, ma non garantiscono una sicurezza totale. Quando si sceglie una VPN, è essenziale privilegiare l'affidabilità e la tecnicalità piuttosto che la popolarità. I fornitori di VPN che raccolgono meno informazioni personali sono generalmente i più sicuri. Servizi come iVPN e Mullvad non raccolgono informazioni personali e consentono persino pagamenti in Bitcoin per una maggiore privacy.
+Tuttavia, l'uso di una VPN per il grande pubblico non garantisce un anonimato completo. Molti fornitori di VPN conservano informazioni sui propri utenti, il che potrebbe compromettere potenzialmente la loro anonimato. Sebbene le VPN possano essere utili per migliorare la sicurezza online, non sono una soluzione universale. Sono efficaci per alcuni utilizzi specifici, come l'accesso a servizi geograficamente limitati o il miglioramento della sicurezza in movimento, ma non garantiscono una sicurezza totale. Quando si sceglie una VPN, è essenziale privilegiare l'affidabilità e la parte tecnica piuttosto che la popolarità. I fornitori di VPN che raccolgono meno informazioni personali sono generalmente i più sicuri. Servizi come iVPN e Mullvad non raccolgono informazioni personali e consentono persino pagamenti in Bitcoin per una maggiore privacy.
 ![](assets/notext/9.webp)
 Infine, una VPN può anche essere utilizzata per bloccare la pubblicità online, offrendo così un'esperienza di navigazione più piacevole e sicura. Tuttavia, è importante fare le proprie ricerche per trovare la VPN più adatta alle proprie esigenze specifiche. L'uso di una VPN è consigliato per rafforzare la sicurezza, anche quando si naviga su Internet da casa. Ciò contribuisce a garantire un livello più elevato di sicurezza per i dati scambiati online. Infine, assicurati di verificare gli URL e il lucchetto nella barra degli indirizzi per confermare di essere sul sito che pensi di visitare.
 
@@ -271,6 +272,7 @@ Nonostante tutti abbiamo già una casella di posta, è importante considerare la
 
 La corretta gestione dei nostri indirizzi email è cruciale per garantire la sicurezza dei nostri accessi online. È importante scegliere un provider di posta sicuro e rispettoso della privacy. Ad esempio, ProtonMail è un servizio di posta sicuro e rispettoso della privacy.
 ![](assets/notext/15.webp)
+
 Nella scelta di un provider di posta e nella creazione di una password, è essenziale non riutilizzare mai la stessa password per diversi servizi online. È consigliabile creare nuovi indirizzi email regolarmente e separare gli utilizzi utilizzando indirizzi email diversi. È meglio optare per un servizio di posta sicuro per gli account critici. È importante anche notare che alcuni servizi limitano la lunghezza delle password, quindi è importante fare attenzione a questa limitazione. Sono disponibili anche servizi per la creazione di indirizzi email temporanei, che possono essere utilizzati per account a durata limitata.
 
 È importante considerare che vecchi provider di posta come La Poste, Arobase, Wig, Hotmail, sono ancora utilizzati, ma le loro pratiche di sicurezza potrebbero essere meno buone rispetto a quelle di Gmail. Pertanto, è consigliabile avere due indirizzi email separati, uno per le comunicazioni generali e l'altro per il recupero dell'account, quest'ultimo deve essere meglio protetto. È meglio evitare di mescolare l'indirizzo email con il proprio operatore telefonico o provider di accesso a Internet, poiché potrebbe costituire un vettore di attacco.
@@ -280,8 +282,8 @@ Nella scelta di un provider di posta e nella creazione di una password, è essen
 Si consiglia di utilizzare il sito Have I Been Pwned (Sono stato violato) - https://haveibeenpwned.com/ - per verificare se il tuo indirizzo email è stato compromesso e per essere avvisati di future violazioni dei dati. Un database violato potrebbe essere sfruttato da hacker per inviare email di phishing o riutilizzare password compromesse.
 ![](assets/notext/16.webp)
 
-In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro non è una pratica sbagliata e addirittura necessaria se si desidera ripartire da basi sane.
-Bonus Bitcoin: Può essere consigliabile creare un indirizzo email appositamente per le nostre attività Bitcoin (creazione di account di scambio) al fine di separare realmente i centri di attività nelle nostre vite.
+In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro è una pratica giusta, e addirittura necessaria se si desidera ripartire da basi sane.
+Bonus Bitcoin: può essere consigliabile creare un indirizzo email appositamente per le nostre attività Bitcoin (creazione di account di scambio) al fine di separare realmente i punti di attività nelle nostre vite.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
@@ -422,18 +424,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Configurazione del backup
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Proteggere i tuoi file personali è anche un punto essenziale. Questo tutorial ti mostra come implementare una strategia di backup efficace grazie a Proton Drive. Scopri come utilizzare questa soluzione cloud sicura per applicare il metodo 3-2-1: tre copie dei tuoi dati su due supporti diversi, di cui una copia fuori sede. In questo modo garantisci l'accessibilità e la sicurezza dei tuoi file sensibili:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-E per proteggere i tuoi file archiviati su supporti rimovibili come una chiavetta USB o un disco rigido esterno, ti mostro anche come crittografare e decrittografare facilmente questi supporti grazie a VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Cambio di browser e VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -449,6 +439,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Scopri inoltre come utilizzare Tor Browser, un browser specificamente progettato per proteggere la tua privacy online:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Configurazione del backup
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Proteggere i tuoi file personali è anche un punto essenziale. Questo tutorial ti mostra come implementare una strategia di backup efficace grazie a Proton Drive. Scopri come utilizzare questa soluzione cloud sicura per applicare il metodo 3-2-1: tre copie dei tuoi dati su due supporti diversi, di cui una copia fuori sede. In questo modo garantisci l'accessibilità e la sicurezza dei tuoi file sensibili:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+E per proteggere i tuoi file archiviati su supporti rimovibili come una chiavetta USB o un disco rigido esterno, ti mostro anche come crittografare e decrittografare facilmente questi supporti grazie a VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Andare oltre
 
@@ -495,7 +497,7 @@ Padroneggiando queste competenze e strumenti, sarai ben attrezzato per navigare 
 
 ### Gestione efficace delle password e rafforzamento dell'autenticazione: un approccio accademico
 
-Nel modulo di formazione "Sicurezza 101" offerto da Découvre Bitcoin all'interno dell'Accademia, abbiamo affrontato l'importanza dei gestori di password. Tre dimensioni sono fondamentali da considerare: la creazione, l'aggiornamento e l'implementazione delle password sui siti web.
+Tre dimensioni sono fondamentali da considerare nel gestire le password: la creazione, l'aggiornamento e l'implementazione delle password sui siti web.
 
 In generale, è sconsigliato utilizzare estensioni del browser per il riempimento automatico delle password. Questi strumenti possono rendere l'utente più vulnerabile agli attacchi di phishing. Renaud, un esperto riconosciuto in materia di sicurezza informatica, preferisce una gestione manuale tramite KeePass, che implica una copia e incolla manuale della password. Le estensioni tendono ad aumentare la superficie di attacco, possono rallentare le prestazioni del browser e quindi presentano un rischio non trascurabile. Pertanto, l'uso minimo di estensioni sul browser è una pratica consigliata.
 
@@ -516,11 +518,11 @@ L'autenticazione diretta sul servizio in questione rappresenta un'opzione intere
 La sicurezza informatica può essere compromessa da pratiche semplici e dall'uso di password predefinite, come "admin". Non sempre sono necessari attacchi sofisticati per mettere a rischio la sicurezza informatica. Ad esempio, le password degli amministratori di un canale YouTube erano scritte nel codice sorgente privato di un'azienda. Le vulnerabilità di sicurezza sono spesso il risultato della negligenza umana.
 
 È importante notare anche che Internet è molto centralizzato e ampiamente controllato dagli Stati Uniti. Il server DNS può essere soggetto a censura e spesso utilizza DNS falsi per bloccare l'accesso a determinati siti. Il DNS è un protocollo vecchio e insufficientemente sicuro, il che può causare problemi di sicurezza. Nuovi protocolli, come DNSsec, sono emersi ma sono ancora poco utilizzati. Per aggirare la censura e il blocco degli annunci, è possibile scegliere fornitori DNS alternativi.
-Alcune alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la migliore sicurezza e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle". Altre considerazioni chiave
+Alcune alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la migliore sicurezza e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle".
 
-Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'Accademia, abbiamo anche discusso dell'autenticazione Lightning. Questo sistema genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.
+Esiste anche il sistema di autenticazione Lightning, che genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.
 
-# Conclusione
+# Sezione finale
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

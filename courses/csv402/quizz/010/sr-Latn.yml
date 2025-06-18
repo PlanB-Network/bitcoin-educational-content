@@ -1,0 +1,9 @@
+question: Koja je glavna uloga AluVM u RGB protokolu?
+answer: Izvršite skripte i Contract operacije u okruženju virtuelne mašine
+wrong_answers:
+  - Analizirajte Bitcoin On-Chain transakcije u okruženju virtuelne mašine
+  - generate javni ključevi za RGB korisnike u virtuelnom mašinskom okruženju
+  - Optimizacija javne Blockchain validacije u okruženju virtuelne mašine
+explanation: |
+  AluVM je dizajniran za validaciju Smart contract i distribuirano računarstvo unutar RGB okvira.
+reviewed: false

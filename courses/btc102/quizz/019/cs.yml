@@ -1,10 +1,9 @@
-question: Jaké riziko je spojeno s ukládáním Bitcoinů na burzovní platformě?
-answer: Platforma může zbankrotovat, vaše Bitcoiny mohou být zabaveny, nebo může dojít k hacknutí platformy.
+question: Kdo vydal bílou knihu Bitcoin?
+answer: Satoshi Nakamoto
 wrong_answers:
-  - Platforma může zvýšit své poplatky, vaše Bitcoiny mohou ztratit na hodnotě, nebo může dojít k hacknutí platformy.
-  - Platforma může zbankrotovat, vaše Bitcoiny mohou vzrůst na hodnotě, nebo může dojít k hacknutí platformy.
-  - Platforma může zbankrotovat, vaše Bitcoiny mohou být zabaveny, nebo může dojít ke zvýšení poplatků platformy.
+  - David Chaum
+  - Tim May
+  - Eric Hughes
 explanation: |
-  Ukládání Bitcoinů na burzovní platformě nese rizika, jako je bankrot platformy, zabavení vašich Bitcoinů, nebo hacknutí platformy.
-  Proto je důležité mít kontrolu nad vaším soukromým klíčem.
+  Bílou knihu zveřejnil koncem roku 2008 Satoshi Nakamoto (pseudonym).
 reviewed: false

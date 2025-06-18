@@ -4,8 +4,6 @@ description: Wie man einfach Bitcoin-Zahlungen akzeptiert?
 ---
 ![cover](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Heutzutage existieren zahlreiche Lösungen für Händler, die Bitcoin als Zahlungsmethode akzeptieren möchten. Für kleinere Einheiten, die eine informelle Einrichtung suchen, reicht die Installation einer Hot Wallet oder sogar einer Lightning Wallet, um Zahlungen direkt darin zu empfangen. Größere Unternehmen, die Buchhaltungsunterlagen führen müssen, sollten eher ein spezialisiertes Zahlungsabwicklungssystem wählen. Auch in diesem Bereich gibt es mehrere Optionen.
 
 Für diejenigen, die sich nicht darum kümmern möchten und Gelder direkt in Fiat-Währung auf ihr Bankkonto erhalten möchten, stehen treuhänderische Lösungen wie Open Node zur Verfügung:

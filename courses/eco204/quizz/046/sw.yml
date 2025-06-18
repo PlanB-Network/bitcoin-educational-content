@@ -1,0 +1,10 @@
+question: Je, thamani ya juu zaidi ya Cordoba ya kwanza huko Nikaragua ilikuwa kiasi gani?
+answer: milioni 1.
+wrong_answers:
+  - 500,000
+  - milioni 10
+  - milioni 100
+explanation: |
+  Huko Nikaragua, Cordoba ya kwanza ilifikia thamani ya milioni 1. Ya pili
+  Cordoba ilifikia milioni 10.
+reviewed: false

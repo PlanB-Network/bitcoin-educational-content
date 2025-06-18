@@ -1,0 +1,11 @@
+question: W jakim scenariuszu stablecoin może handlować powyżej swojej ustalonej ceny?
+answer: Gdy popyt na stablecoiny przekracza możliwości Exchange
+wrong_answers:
+  - Gdy emitent stablecoinów zamraża środki
+  - Gdy stablecoin jest w pełni zabezpieczony rezerwami gotówkowymi
+  - W przypadku silnej presji sprzedażowej ze strony użytkowników
+explanation: |
+  Stablecoiny mogą być sprzedawane powyżej ich ustalonej ceny, gdy
+  popyt na stablecoiny przekracza zdolność Exchange do
+  sprostać wymaganiom klientów, zazwyczaj na mniejszych giełdach.
+reviewed: true

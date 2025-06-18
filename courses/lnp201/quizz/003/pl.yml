@@ -1,0 +1,9 @@
+question: Jaka jest główna zasada dotycząca środków, które uczestnik może wysłać w kanale płatności?
+answer: Mogą wysyłać środki tylko z własnej strony kanału.
+wrong_answers:
+  - Mogą one wysyłać do połowy całkowitej przepustowości kanału.
+  - Mogą wysłać dowolną kwotę, o ile istnieje wcześniejsze porozumienie.
+  - W razie potrzeby mogą pożyczyć środki od drugiego uczestnika.
+explanation: |
+  Każdy uczestnik jest ograniczony ilością satoshis, które posiada w kanale dla swoich transakcji, zapewniając, że fundusze są zawsze pokryte.
+reviewed: false

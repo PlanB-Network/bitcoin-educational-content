@@ -1,0 +1,9 @@
+question: Nonce 在認證加密方案中扮演什麼角色？
+answer: 確保每則訊息都有唯一的標籤，以防止重複
+wrong_answers:
+  - 識別訊息的寄件者
+  - 建立臨時解密金鑰
+  - 增加額外的加密 Layer
+explanation: |
+  在認證加密方案中，Nonce 用於確保每個訊息都有唯一的標籤，從而防止重複，提高安全性。
+reviewed: false

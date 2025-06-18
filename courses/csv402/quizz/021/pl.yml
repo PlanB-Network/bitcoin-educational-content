@@ -1,0 +1,9 @@
+question: Co zawiera Consignment w RGB?
+answer: Dane po stronie klienta potrzebne do zatwierdzenia przejścia
+wrong_answers:
+  - Kompletna kopia Bitcoin Blockchain
+  - Lista publicznych zobowiązań Bitcoin
+  - Klucze publiczne uczestników State Transition
+explanation: |
+  Consignment zawiera informacje RGB umożliwiające odbiornikowi sprawdzenie poprawności State Transition zgodnie z zasadami Contract.
+reviewed: false

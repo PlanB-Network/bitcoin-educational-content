@@ -1,0 +1,9 @@
+question: Bastiat 認為社會組織的動力是什麼？
+answer: 市場
+wrong_answers:
+  - 國家
+  - 宗教信仰
+  - 傳統
+explanation: |
+  Bastiat 認為自由市場是社會組織的真正動力，因為它能讓個人之間進行自發且有效率的協調。
+reviewed: false

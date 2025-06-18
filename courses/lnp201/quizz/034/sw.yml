@@ -1,0 +1,9 @@
+question: Ni taarifa gani ambayo nodi ya utumaji inapaswa kujua ili kufanya malipo ya njia ya vitunguu?
+answer: Topolojia ya mtandao na njia kamili ya kwenda kwa mpokeaji
+wrong_answers:
+  - Nodi inayofuata ya kati tu
+  - Uwezo wa kila chaneli
+  - Sahihi ya kriptografia ya kila nodi kwenye njia
+explanation: |
+  Nodi ya kutuma lazima ijue topolojia ya mtandao ili kukokotoa njia kwa mpokeaji, ikiruhusu kuchagua njia bora zaidi.
+reviewed: false

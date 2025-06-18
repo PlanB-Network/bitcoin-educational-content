@@ -1,0 +1,13 @@
+question: Multisig Wallet 的建議用途是什麼？
+answer: 儲存大量資料供公司使用。
+wrong_answers:
+  - 儲存少量供個人使用。
+  - 儲存中等數量供非營利使用。
+  - 儲存個人使用的日常開支。
+explanation: |
+  建議使用 Multisig Wallet 儲存大量資料和供公司使用。
+  和企業使用，因為它需要多個
+  簽名才能執行交易。此過程會增加
+  額外的 Layer 安全性，因為一個人不能在沒有其他人同意的情況下進行交易。
+  進行交易。
+reviewed: true

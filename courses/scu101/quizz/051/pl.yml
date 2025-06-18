@@ -1,0 +1,11 @@
+question: Jaka jest złota zasada cyberbezpieczeństwa?
+answer: Cyberbezpieczeństwo to ruchomy cel, który dostosowuje się do Twojej podróży edukacyjnej.
+wrong_answers:
+  - Cyberbezpieczeństwo to jednorazowa konfiguracja
+  - Cyberbezpieczeństwo nie jest konieczne w przypadku kont osobistych
+  - Cyberbezpieczeństwo jest tylko dla osób obeznanych z technologią
+explanation: |
+  Cyberbezpieczeństwo jest ruchomym celem, ponieważ zagrożenia i środki
+  środki bezpieczeństwa stale ewoluują. Ważne jest
+  aby stale się uczyć i dostosowywać swoje praktyki.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 2010 年下半年網路的 Hash 率是以哪個單位測量的？
+answer: 以 GH/s 為單位
+wrong_answers:
+  - 以 MH/s 為單位
+  - 以 TH/s 為單位
+  - 以 PH/s 為單位
+explanation: |
+  Hash 的速率從 2010 年 7 月 13 日的 1.35 GH/秒增加到 12 月 31 日的 120 GH/秒。
+reviewed: false

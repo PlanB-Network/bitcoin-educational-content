@@ -1,0 +1,9 @@
+question: Je! mpaka mkali kati ya nyanja ya umma na nyanja ya kibinafsi inayotetewa na Constant inajumuisha nini?
+answer: Mpaka huu unamaanisha kuwa Serikali haipaswi kuingilia maisha ya kibinafsi ya watu binafsi.
+wrong_answers:
+  - Mpaka huu unamaanisha kuwa watu binafsi hawapaswi kujihusisha na masuala ya umma.
+  - Mpaka huu unamaanisha utengano kamili kati ya Kanisa na Serikali.
+  - Mpaka huu unamaanisha kuwa watu binafsi lazima wawe na uhuru sawa katika nyanja za umma na za kibinafsi.
+explanation: |
+  Kwa Benjamin Constant, mpaka mkali kati ya nyanja za umma na za kibinafsi unamaanisha kuwa Serikali lazima iheshimu ufaragha wa watu binafsi na iepuke kuingilia kati chaguzi za kibinafsi ambazo hazihusu umiliki wa umma.
+reviewed: false

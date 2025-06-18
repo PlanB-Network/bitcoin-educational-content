@@ -1,0 +1,13 @@
+question: Jaka jest podstawowa różnica między marginalną teorią wartości Carla Mengera a teorią Leona Walrasa i Williama Stanleya Jevonsa?
+answer: Teoria Mengera jest przede wszystkim subiektywna, podczas gdy Walras i Jevons uważają wartość za zjawisko obiektywne i mierzalne.
+wrong_answers:
+  - Teoria Mengera jest przede wszystkim obiektywna, podczas gdy Walras i Jevons uważają wartość za zjawisko subiektywne i niemierzalne.
+  - Teoria Mengera opiera się na teorii wartości pracy, podczas gdy Walras i Jevons uważają, że wartość opiera się na ilości ziemi wykorzystywanej w produkcji.
+  - Teoria Mengera opiera się na teorii wartości ziemi fizjokratów, podczas gdy Walras i Jevons uważają, że wartość opiera się na pracy wykorzystanej w produkcji.
+explanation: |
+  Zgodnie z tym rozdziałem, marginalna teoria wartości Mengera
+  jest subiektywna, co oznacza, że opiera się na indywidualnym
+  percepcji użyteczności, jaką mogą czerpać z dobra lub usługi
+  usługi. Z drugiej strony Walras i Jevons uważają wartość za obiektywną i mierzalną
+  wartość za zjawisko obiektywne i mierzalne.
+reviewed: true

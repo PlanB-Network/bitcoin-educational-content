@@ -1,11 +1,9 @@
-question: Was sind die beiden gegensätzlichen Ideologien in der Welt von Bitcoin?
-answer: Die einen wollen die Unbanked in das Bankensystem integrieren, während die anderen diejenigen, die bereits im Bankensystem sind, daraus herausnehmen möchten.
+question: Wer sind die Erfinder des Lightning Network?
+answer: Thaddeus Dryja und Joseph Poon
 wrong_answers:
-  - Alle reich machen und alle arm machen
-  - Zentralisierung von Macht und Dezentralisierung von Macht
-  - Förderung von Privatsphäre und Förderung von Transparenz
+  - Andreas Antonopoulos und Adam Back
+  - Pieter Wuille und Gregory Maxwell
+  - Satoshi Nakamoto und Hal Finney
 explanation: |
-  Im Kapitel werden zwei gegensätzliche Ideologien in der Welt von Bitcoin erwähnt.
-  Die eine besteht darin, die Milliarden von Menschen, die nicht im Bankensystem sind, in dieses zu integrieren.
-  Die andere besteht darin, die Milliarden von Menschen, die bereits im Bankensystem sind, daraus herauszunehmen.
+  Thaddeus Dryja und Joseph Poon erfanden den Lightning Network im Jahr 2016, um die Skalierbarkeit des Bitcoin zu verbessern.
 reviewed: false

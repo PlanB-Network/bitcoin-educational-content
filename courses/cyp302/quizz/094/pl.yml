@@ -1,0 +1,9 @@
+question: Co jest głównym źródłem nieporozumień między terminami szyfr blokowy i szyfr strumieniowy?
+answer: Szyfry blokowe są czasami rozumiane wyłącznie jako algorytmy wykorzystujące tryby blokowe, takie jak ECB lub CBC.
+wrong_answers:
+  - Szyfry strumieniowe są zawsze mniej bezpieczne niż szyfry blokowe.
+  - Szyfry blokowe działają na jednym bicie na raz.
+  - Szyfry strumieniowe zawsze wymagają wypełnienia.
+explanation: |
+  Zamieszanie wynika z faktu, że niektórzy uważają szyfry blokowe tylko za algorytmy wykorzystujące określone tryby blokowania, podczas gdy w rzeczywistości mogą one obejmować schematy szyfrowania, takie jak tryb OFB.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kiedy szukamy wzorca, którą część transakcji będziemy badać?
+answer: Jego struktura
+wrong_answers:
+  - Jego metadane
+  - Jego skrypty
+  - Jego podpis
+explanation: |
+  Wzorzec transakcji to po prostu model lub ogólna struktura typowej transakcji, którą można znaleźć w Blockchain i której prawdopodobna interpretacja jest znana.
+reviewed: false

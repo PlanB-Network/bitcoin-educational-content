@@ -1,0 +1,9 @@
+question: Zašto se asimetrična kriptografija manje koristi od simetrične kriptografije u razmeni velikih količina podataka?
+answer: To je manje efikasno za ekvivalentan nivo sigurnosti.
+wrong_answers:
+  - Ne osigurava autentičnost poruka
+  - Potrebno je više javnih ključeva za svaki Exchange
+  - Nije kompatibilno sa modernim komunikacionim protokolima.
+explanation: |
+  Asimetrična kriptografija, iako moćna za autentifikaciju i početno šifrovanje, zahteva više resursa, što njenu upotrebu čini neefikasnom za značajne prenose podataka.
+reviewed: false

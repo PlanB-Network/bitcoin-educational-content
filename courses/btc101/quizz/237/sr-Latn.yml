@@ -1,0 +1,8 @@
+question: Kako Lightning Network potencijalno transformiše postojeće poslovne modele u industriji video igara?
+answer: Omogućava igračima da se klade sa veoma malim iznosima novca prilikom igranja igara.
+wrong_answers:
+  - Omogućava igračima da kopaju Bitcoin dok igraju igre.
+  - Omogućava programerima igara da prihvate Bitcoin kao plaćanje za njihove igre.
+  - Omogućava igračima da kupuju predmete u igri sa Bitcoin.
+explanation: >-
+reviewed: true

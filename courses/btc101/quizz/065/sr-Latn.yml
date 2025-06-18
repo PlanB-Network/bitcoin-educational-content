@@ -1,0 +1,9 @@
+question: Koji ekonomski principi se slažu sa Bitcoin?
+answer: Principi austrijske ekonomije.
+wrong_answers:
+  - Principi kejnzijanske ekonomije.
+  - Principi marksističke ekonomije.
+  - Principi neoklasične ekonomije.
+explanation: |
+  Bitcoin je u skladu sa principima austrijske ekonomije. Njegova ograničena količina i nedostatak centralnog entiteta štite ga od inherentnih rizika inflacije koji se vide kod tradicionalnih valuta.
+reviewed: true

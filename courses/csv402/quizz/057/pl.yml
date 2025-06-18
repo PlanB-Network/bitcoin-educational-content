@@ -1,0 +1,9 @@
+question: Które polecenie w RLN instaluje plik binarny "RGB-lightning-node" po sklonowaniu repozytorium?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  Polecenie "cargo install --locked --debug --path ." kompiluje i instaluje plik binarny "RGB-lightning-node".
+reviewed: false

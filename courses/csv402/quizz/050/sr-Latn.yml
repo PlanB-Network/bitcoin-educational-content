@@ -1,0 +1,9 @@
+question: Kako se kriptografske obaveze (putem Taproot ili OP_RETURN) koriste u RGB?
+answer: Oni Anchor prelazi stanja u Blockchain
+wrong_answers:
+  - Oni skladište Contract podatke na Blockchain
+  - Oni zamenjuju Client-side Validation sa On-Chain Smart contract izvršenjem
+  - Oni kreiraju čvorove za verifikaciju transakcija
+explanation: |
+  Obaveze omogućavaju da se ažuriranja statusa sigurno povežu sa UTXO, kako bi se dokazalo postojanje određenog dela informacija u datom trenutku, bez otkrivanja same informacije.
+reviewed: false

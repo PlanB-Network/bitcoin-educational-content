@@ -1,0 +1,9 @@
+question: Jaki jest główny wymóg sprzętowy dla profilu Starter, aby akceptować płatności Bitcoin?
+answer: Smartfon
+wrong_answers:
+  - A Bitcoin Miner ASIC
+  - Hardware Wallet
+  - Serwer hostowany samodzielnie
+explanation: |
+  Profil Starter wymaga jedynie smartfona lub tabletu ze złączem Lightning Wallet, co czyni go lekkim rozwiązaniem.
+reviewed: false

@@ -28,7 +28,7 @@ Chcete-li zjistit, zda váš jazyk již patří mezi jazyky, na kterých pracuje
 
 Pokud je váš jazyk v tomto seznamu, nemusíte jej znovu přidávat. Chcete-li přispět korekturou weblate, objevte následující návod:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Pokud tam váš jazyk není, přidejte ho podle níže uvedeného návodu.
 
 ## Přidání nového jazyka do sítě plánu ₿
@@ -64,9 +64,10 @@ Pokud tam váš jazyk není, přidejte ho podle níže uvedeného návodu.
 
 Chcete-li se nechat provést procesem překladu, podívejte se na náš specializovaný návod zde:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Gratulujeme, zahájili jste proces překladu statických prvků na webových stránkách sítě Plan ₿!
 
 Zahrnují všechny řetězce na webu, kromě vzdělávacího obsahu (kurzy, výukové programy...), pro který používáme jinou poloautomatickou metodu (překlad umělou inteligencí + korektury přispěvatelů).
 
 Velké poděkování za váš cenný příspěvek!
+

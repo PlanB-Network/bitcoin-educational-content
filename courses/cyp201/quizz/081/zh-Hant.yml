@@ -1,0 +1,8 @@
+question: 與 P2PKH 相比，P2WPKH 腳本的主要新意是什麼？
+answer: 簽名會移至見證欄位。
+wrong_answers:
+  - 位址以 base58check 編碼。
+  - scriptPubKey 包括私密金鑰的 Hash。
+  - P2WPKH 與 SegWit 不相容。
+explanation: |
+  與 SegWit 一同推出的 P2WPKH，將簽名移到稱為 Witness 的單獨部分，以防止交易的可篡改性。

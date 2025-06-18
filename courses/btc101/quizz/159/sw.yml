@@ -1,0 +1,8 @@
+question: Je, kuna umuhimu gani wa matumizi ya nishati katika Bitcoin Mining?
+answer: Matumizi ya nishati ni muhimu ili kutoa habari, lakini uthibitishaji wa habari una gharama kidogo. Asymmetry hii inahakikisha usalama wa mtandao.
+wrong_answers:
+  - Gharama ya nishati ni muhimu ili kuimarisha mashine za ASIC zinazotumiwa katika Mining, na uthibitishaji wa habari una gharama kubwa.
+  - Matumizi ya nishati ni muhimu ili kudumisha mtandao wa Bitcoin, na uthibitishaji wa habari una gharama tofauti.
+  - Gharama ya nishati sio lazima kuunda bitcoins mpya.
+explanation: >-
+reviewed: false

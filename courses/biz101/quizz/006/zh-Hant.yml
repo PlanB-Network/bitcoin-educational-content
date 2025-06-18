@@ -1,0 +1,9 @@
+question: 為什麼 Bitcoin 發行的 2,100 萬上限意義重大？
+answer: 它創造了一種通縮資產，保護其價值不受任意通貨膨脹的影響。
+wrong_answers:
+  - 它可以確保政府可以根據需要印製盡可能多的 bitcoins。
+  - 它可以防止任何人在達到上限後發送交易。
+  - 它消除了 Bitcoin 價格的所有波動。
+explanation: |
+  Bitcoin 的 Supply 上限為 2,100 萬，因此 Bitcoin 的稀缺性是以 Hard 編碼的，這使得它與通貨膨脹貨幣有根本的不同，通貨膨脹貨幣的 Supply 可以隨意增加。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Koja je svrha postavljanja četiri pitanja pre nego što izaberete Bitcoin investicioni plan?
+answer: Da izabereš put koji ti najbolje odgovara
+wrong_answers:
+  - Da biste odredili količinu Bitcoin koju treba da kupite
+  - Da biste odredili tip Bitcoin Wallet koji treba da koristite
+  - Da biste odredili trajanje vaše Bitcoin investicije
+explanation: |
+  Svrha postavljanja četiri pitanja pre nego što odaberete Bitcoin
+  investicioni plan je da izaberete put koji vam najbolje odgovara. Pitanja vam pomažu da razumete
+  vaše investicione ciljeve i preferencije.
+reviewed: false

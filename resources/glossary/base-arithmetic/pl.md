@@ -1,0 +1,5 @@
+---
+term: PODSTAWA (ARYTMETYCZNA)
+---
+
+Podstawa to system numeracji, który wykorzystuje stałą liczbę znaków do reprezentowania wszystkich możliwych liczb. Podstawa określa liczbę różnych symboli dostępnych do reprezentowania cyfr w tym systemie. Na przykład, najbardziej znanym systemem w naszym codziennym życiu jest system o podstawie 10, zwany również systemem dziesiętnym. Wykorzystuje on dziesięć różnych symboli `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` do reprezentowania wszystkich liczb. Inne systemy numeracji powszechnie używane w dziedzinie informatyki i matematyki obejmują system binarny (podstawa 2), z dwoma symbolami `(0, 1)` i system szesnastkowy (podstawa 16), z szesnastoma symbolami `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. W kontekście Bitcoin, można czasem napotkać kodowanie w bazie 58 lub w zmodyfikowanej bazie 32 (nazwanej `Bech32`).

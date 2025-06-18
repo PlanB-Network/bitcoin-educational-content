@@ -1,0 +1,9 @@
+question: Ni aina gani ya usimbaji fiche hutumia vizuizi vya data vilivyowekwa?
+answer: Zuia usimbaji fiche
+wrong_answers:
+  - Usimbaji fiche wa mtiririko
+  - Msimbo wa uthibitishaji wa ujumbe
+  - Ufunguo wa umma
+explanation: |
+  Usimbaji fiche wa kuzuia hugawanya data katika vizuizi vya ukubwa usiobadilika na kusimba kwa njia fiche kwa kujitegemea.
+reviewed: false

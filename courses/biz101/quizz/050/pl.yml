@@ -1,0 +1,9 @@
+question: Czym zazwyczaj różni się transakcja kartą kredytową od zwykłej transakcji gotówkowej?
+answer: Wiąże się to z wieloma pośrednikami
+wrong_answers:
+  - Dzieje się to natychmiastowo, bez udziału pośredników
+  - Wymaga tylko fizycznego Exchange waluty
+  - Nakazuje ona obu stronom produkować identyczne towary
+explanation: |
+  W przeciwieństwie do gotówki, która jest wymieniana natychmiast, transakcje kartą kredytową przechodzą przez szereg etapów obejmujących banki, sieci kart i procesy rozliczeniowe, co powoduje opóźnienia i dodatkowe koszty.
+reviewed: false

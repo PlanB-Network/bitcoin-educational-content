@@ -1,0 +1,11 @@
+question: 在 Bitcoin Wallet 中，私密金鑰通常代表什麼？
+answer: 包含 12 或 24 個單字的清單。
+wrong_answers:
+  - 包含 12 或 48 個單字的清單。
+  - 32 個單字的清單。
+  - 包含 64 個單字的清單。
+explanation: |
+  在 Bitcoin Wallet 中，私人密碼匙通常以 12 或 24 個字來表示。
+  在 Bitcoin Wallet 中，私密金鑰通常由 12 或 24 個字組成，也稱為 seed 短語
+  或 Mnemonic 詞組。
+reviewed: true

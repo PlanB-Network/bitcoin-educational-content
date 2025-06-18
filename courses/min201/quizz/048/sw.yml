@@ -1,0 +1,12 @@
+question: Ni njia gani ya kipekee ya kujihusisha katika mfumo ikolojia wa Bitcoin kupitia Mining?
+answer: Mining Bitcoin wakati wa majira ya baridi inaweza kuwa njia ya busara ya kupasha joto nyumba yako huku ikizalisha mapato katika Bitcoin.
+wrong_answers:
+  - Mining Bitcoin inaweza kuwa njia ya kupata umeme bure.
+  - Mining Bitcoin inaweza kuwa njia ya kupata intaneti bila malipo.
+  - Mining Bitcoin inaweza kuwa njia ya kupata maunzi bila malipo.
+explanation: |
+  Njia moja ya kipekee ya kujihusisha katika mfumo ikolojia wa Bitcoin
+  kupitia Mining ni kwa Mining Bitcoin wakati wa baridi. Hii inaweza
+  kuwa njia ya busara ya kupasha joto nyumba yako huku ukiingiza mapato
+  katika Bitcoin.
+reviewed: true

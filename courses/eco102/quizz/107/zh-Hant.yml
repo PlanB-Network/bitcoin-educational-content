@@ -1,0 +1,9 @@
+question: 哪位美國總統在青年時期曾在企業研討會上傳播巴斯蒂亞的思想？
+answer: 羅納德-里根
+wrong_answers:
+  - 富蘭克林-羅斯福
+  - 喬治布殊
+  - Dwight D. Eisenhower
+explanation: |
+  羅納德‧雷根 (Ronald Reagan) 在成為總統之前，曾在通用電氣 (General Electric) 的研討會上散播巴斯蒂亞 (Bastiat) 和其他經濟學家的自由主義思想。
+reviewed: false

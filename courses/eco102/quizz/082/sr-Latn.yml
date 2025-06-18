@@ -1,0 +1,9 @@
+question: Za Bastijata, koji je lek za zlo u društvu?
+answer: U samoj slobodi
+wrong_answers:
+  - U volji za moć
+  - U kazni od strane represivnog i nepopustljivog pravosudnog sistema
+  - U potrazi za savršenom jednakošću
+explanation: |
+  Bastiat veruje da je sloboda, u kombinaciji sa punom i potpunom individualnom odgovornošću, sredstvo za suzbijanje zla i podsticanje odgovornijih i pravednijih postupaka.
+reviewed: false

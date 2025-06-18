@@ -1,0 +1,11 @@
+question: Je, ni suluhisho gani rahisi kulinda data yako dhidi ya mashambulizi ya ransomware?
+answer: Hifadhi nakala ya data yako muhimu mara kwa mara kwenye kifaa cha hifadhi ya nje au huduma salama ya kuhifadhi mtandaoni.
+wrong_answers:
+  - Sakinisha programu nyingi za kingavirusi kwenye kompyuta yako na uchunguze mara kwa mara.
+  - Badilisha kompyuta yako mara kwa mara au sakinisha upya mfumo wako wa uendeshaji (OS).
+  - Unaweza kutumia mtandao wa Wi-Fi wa umma ikiwa huna chochote cha kuficha kwenye kifaa chako.
+explanation: |
+  Kucheleza data yako mara kwa mara hukuruhusu kurejesha yako
+  data katika tukio la mashambulizi ya mtandao au kushindwa kwa maunzi
+  bila kupoteza habari muhimu.
+reviewed: true

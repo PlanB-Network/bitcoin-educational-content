@@ -1,0 +1,11 @@
+question: Jaki jest cel Bitcoin Wallet?
+answer: Do przechowywania kluczy prywatnych w celu dokonywania transakcji bitcoinami.
+wrong_answers:
+  - Wykorzystanie zasobów urządzenia do wydobywania bitcoinów.
+  - Aby kupić bitcoiny za pomocą klucza publicznego.
+  - Przechowywanie bitcoinów na urządzeniu.
+explanation: |
+  Portfele Bitcoin to rodzaj oprogramowania, które służy do
+  przechowywania kluczy prywatnych, które umożliwiają dokonywanie transakcji
+  bitcoinami.
+reviewed: true

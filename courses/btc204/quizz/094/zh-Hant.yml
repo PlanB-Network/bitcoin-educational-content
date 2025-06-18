@@ -1,0 +1,10 @@
+question: 在下列答案中，哪一項不是管理個人哆嗦變化的建議做法？
+answer: 將有毒的 UTXO 合併在一起。
+wrong_answers:
+  - 在較小的水池中混合有毒的 UTXO。
+  - 捐出自己的毒性 UTXO。
+  - 將一個人的有毒 UTXOs 標記為不可花費。
+explanation: |
+  建議不要將有毒性的 UTXO 合併在一起，因為這會允許在 Whirlpool 中使用者的不同條目之間建立連線。
+  
+reviewed: false

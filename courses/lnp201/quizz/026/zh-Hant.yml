@@ -1,0 +1,9 @@
+question: 哪種通道關閉方法最經濟、快速？
+answer: 合作關閉
+wrong_answers:
+  - 強制關閉
+  - 以作弊方式結案
+  - 最經濟、最快速
+explanation: |
+  合作關閉是最快、最經濟的方法，因為雙方同意關閉通道，並根據市場情況調整費用。
+reviewed: false

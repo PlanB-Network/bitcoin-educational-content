@@ -1,0 +1,11 @@
+question: Milton Friedman 所說的貨幣擴張與通貨膨脹之間的本質關係是什麼？
+answer: 通貨膨脹始終是一種貨幣現象。
+wrong_answers:
+  - 通貨膨脹無論何時何地都是一種財政現象。
+  - 通貨膨脹始終是一種政治現象。
+  - 通貨膨脹始終是一種社會現象。
+explanation: |
+  著名經濟學家 Milton Friedman 曾有一句名言：通貨膨脹
+  始終是一種貨幣現象。這句話突顯了
+  貨幣擴張與通貨膨脹之間的關係。
+reviewed: false

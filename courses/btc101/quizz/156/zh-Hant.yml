@@ -1,0 +1,8 @@
+question: Mining 池的目的是什麼？
+answer: Mining 池可讓礦工集中運算資源，獲得較小但較定期的回報。
+wrong_answers:
+  - Mining 池用於增加整體 Bitcoin 網路的 Hashrate。
+  - Mining 水池用來降低 Mining 的難度。
+  - Mining 池是用來增加 Mining 的獎勵。
+explanation: >-
+reviewed: true

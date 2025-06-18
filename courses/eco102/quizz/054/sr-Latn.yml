@@ -1,0 +1,9 @@
+question: Kakav je efekat javne potrošnje za Bastijata kada se finansira dugom ili porezima?
+answer: Oduzima resurse iz privatnog sektora
+wrong_answers:
+  - Podstiče potražnju bez nuspojava
+  - Povećava kupovnu moć potrošača
+  - Od suštinskog je značaja održati ekonomiju na površini.
+explanation: |
+  Bastiat tvrdi da javna potrošnja, finansirana putem poreza ili duga, preusmerava sredstva iz privatnog sektora, čime ograničava stvaranje bogatstva na drugim mestima u ekonomiji.
+reviewed: false

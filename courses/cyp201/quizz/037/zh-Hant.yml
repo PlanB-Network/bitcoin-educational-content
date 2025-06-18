@@ -1,0 +1,9 @@
+question: JBOK 錢包的主要限制是什麼？
+answer: 它們要求每個私人密碼匙都有獨立的備份
+wrong_answers:
+  - 它們不允許生成新地址
+  - 它們與數位簽章不相容
+  - 它們使用未經壓縮的公開金鑰
+explanation: |
+  JBOK 錢包會強迫使用者逐一備份每一個私人密碼匙，使其管理變得複雜。
+reviewed: false

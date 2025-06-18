@@ -1,0 +1,9 @@
+question: Który standard RGB umożliwia tworzenie unikalnych zasobów lub "NFT"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  Standard RGB21 został zaprojektowany do zarządzania unikalnymi zasobami, umożliwiając powiązanie prywatnych metadanych z NFT.
+reviewed: false

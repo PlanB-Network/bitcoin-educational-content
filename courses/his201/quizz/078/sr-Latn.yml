@@ -1,0 +1,9 @@
+question: Kome je Satoshi Nakamoto preneo kontrolu nad vebsajtom (koji takođe uključuje forum i viki) po svom odlasku?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Nije imao vremena da to upravlja i brzo je delegirao zadatak. Sajt i forum su preuzeli Theymos i Cøbra.
+reviewed: false

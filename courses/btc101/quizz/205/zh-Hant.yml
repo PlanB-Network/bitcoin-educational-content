@@ -1,0 +1,8 @@
+question: 您應該不時整合您錢包中的 UTXOs 的原因之一是什麼？
+answer: 避免交易時產生不必要的費用。
+wrong_answers:
+  - 增加您的比特幣價值。
+  - 防止您的 bitcoins 被盜。
+  - 確保您的 bitcoins 隨時可用。
+explanation: >-
+reviewed: true

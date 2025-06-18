@@ -1,0 +1,9 @@
+question: Koji je jedan od rizika povezanih sa kupovinom Bitcoin?
+answer: Njegova cena može pasti na 0.
+wrong_answers:
+  - Može se lako ukrasti.
+  - Može se duplicirati.
+  - Može se fizički izgubiti.
+explanation: |
+  Tekst kursa pominje da je Bitcoin visoko volatilna finansijska imovina, i da njena cena može pasti na 0, što je jedan od rizika povezanih sa kupovinom Bitcoin.
+reviewed: true

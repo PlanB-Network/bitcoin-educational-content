@@ -1,0 +1,8 @@
+question: Koje od sledećih karakteristika su doprinele širenju upotrebe Bitcoin na tržištima mračnog veba kao što je Silk Road?
+answer: Njegova nekontrolisana i pseudonimna priroda.
+wrong_answers:
+  - Njegova centralizovana kontrola.
+  - Njegova sledljivost i kontrolisana priroda.
+  - Njegov nedostatak pseudonimnosti.
+explanation: >-
+reviewed: true

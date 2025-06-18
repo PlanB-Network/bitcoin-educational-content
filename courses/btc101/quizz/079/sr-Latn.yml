@@ -1,0 +1,11 @@
+question: Kako možete ojačati podrazumevanu sigurnost vašeg Bitcoin Wallet?
+answer: Dodavanjem passphrase vašem Bitcoin Wallet.
+wrong_answers:
+  - Dodavanjem drugog privatnog ključa vašem Bitcoin Wallet.
+  - Dodavanjem drugog javnog ključa vašem Bitcoin Wallet.
+  - Dodavanjem druge Mnemonic fraze vašem Bitcoin Wallet.
+explanation: |
+  Ako niste zadovoljni podrazumevanom sigurnošću vašeg
+  Bitcoin Wallet, uvek je možete pojačati dodavanjem
+  passphrase vašem Bitcoin Wallet.
+reviewed: true

@@ -1,0 +1,9 @@
+question: RGB inafunguaje njia ya DEX Layer-2?
+answer: Kwa kuwezesha Exchange ya mali ya off-chain kupitia njia za Umeme na ubadilishaji wa atomiki
+wrong_answers:
+  - Kwa kuwezesha matumizi ya Exchange ya kati kwa shughuli zote za RGB
+  - Kwa kuwezesha Exchange ya mali kupitia mikataba mahiri ya On-Chain
+  - Kwa kuwezesha kipengee cha Blockchain Exchange kupitia ubadilishaji wa atomiki
+explanation: |
+  Uwezo wa kufanya ubadilishaji wa atomiki na ubadilishanaji kupitia chaneli za Umeme hutoa uwezekano wa kuunda DEX zilizowekwa madarakani, bila ubaya wa ubadilishanaji wa On-Chain.
+reviewed: false

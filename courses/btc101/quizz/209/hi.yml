@@ -1,0 +1,8 @@
+question: Bitcoin का एडॉप्शन कर्व किसके जैसा है?
+answer: एक एस-कर्व।
+wrong_answers:
+  - एक यू-कर्व।
+  - एक वी-कर्व।
+  - एक डब्ल्यू-कर्व।
+explanation: >-
+reviewed: true

@@ -1,0 +1,11 @@
+question: Kakva je pozicija zagovornika Moderne monetarne teorije (MMT) u vezi sa štampanjem novca?
+answer: MMT zagovornici podržavaju štampanje novca kako bi postigli političke ciljeve.
+wrong_answers:
+  - MMT zagovornici su protiv štampanja novca pod bilo kojim okolnostima.
+  - MMT zagovornici veruju da štampanje novca treba da kontroliše centralna banka.
+  - Zagovornici MMT-a veruju da treba izbegavati štampanje novca zbog rizika od inflacije.
+explanation: |
+  Teorija modernog novca (MMT) zagovara podršku štampanju novca
+  kako bi se postigli politički ciljevi, koristeći odsustvo inflacije između 2008. i 2019.
+  kao argument.
+reviewed: true

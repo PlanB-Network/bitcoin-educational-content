@@ -1,0 +1,9 @@
+question: Co oznacza apostrof (') lub h w ścieżce pochodnej?
+answer: Wzmocniona pochodna
+wrong_answers:
+  - Normalna pochodna
+  - Zewnętrzna pochodna
+  - Niestandardowa pochodna
+explanation: |
+  Apostrof wskazuje, że derywacja jest wzmocniona, wymagając nadrzędnego klucza prywatnego do generate klucza podrzędnego.
+reviewed: false

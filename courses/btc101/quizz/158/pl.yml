@@ -1,0 +1,8 @@
+question: Jaki jest cel Proof of Work w sieci Bitcoin?
+answer: Proof of Work zapewnia prawdziwość informacji bez ufania stronie trzeciej.
+wrong_answers:
+  - Proof of Work służy do tworzenia nowych bitcoinów poprzez zaufanie stronie trzeciej.
+  - Proof of Work służy do weryfikacji transakcji Bitcoin poprzez zaufanie stronie trzeciej.
+  - Proof of Work jest używany do zmiany protokołu Bitcoin bez ufania stronie trzeciej.
+explanation: >-
+reviewed: true

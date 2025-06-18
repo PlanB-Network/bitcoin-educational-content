@@ -1,0 +1,9 @@
+question: Który niemiecki Miner utrzymywał 20% wskaźnika Hash sieci Bitcoin przez kilka miesięcy w 2010 roku?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Latem 2010 roku założył farmę Mining składającą się z kart graficznych (zwaną ArtFarm), dzięki czemu jesienią zyskał znaczną przewagę nad konkurencją.
+reviewed: false

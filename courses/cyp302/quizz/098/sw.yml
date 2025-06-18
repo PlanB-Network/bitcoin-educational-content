@@ -1,0 +1,9 @@
+question: Je, MAC inasaidia vipi kuzuia kuchezewa kwa ujumbe na mshambulizi?
+answer: Kwa kuruhusu kuthibitisha kuwa ujumbe uliopokelewa haujabadilishwa
+wrong_answers:
+  - Kwa kuzuia mashambulizi ya aina ya brute-force
+  - Kwa kuficha yaliyomo kwenye ujumbe
+  - Kwa kuzuia kiotomatiki ujumbe wa kutiliwa shaka
+explanation: |
+  MAC humwezesha mpokeaji kuthibitisha kuwa ujumbe haujarekebishwa kupitia lebo iliyotengenezwa kwa ufunguo wa siri ulioshirikiwa, ambao unazuia uwezekano wa kudanganywa.
+reviewed: false

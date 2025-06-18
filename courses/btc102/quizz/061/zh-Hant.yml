@@ -1,0 +1,9 @@
+question: 為什麼建議在紙上用墨水寫繼承書？
+answer: 為了避免數位文件外洩所造成的風險
+wrong_answers:
+  - 降低印刷成本
+  - 要取得法律承認的簽名
+  - 增加文件的法律價值
+explanation: |
+  手寫信件較不易受到網路攻擊，並可確保指示的機密性。
+reviewed: false

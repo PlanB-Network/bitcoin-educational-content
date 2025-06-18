@@ -1,10 +1,10 @@
-question: Qual è una delle cose che dovresti avere prima di acquistare Bitcoin?
-answer: Un portafoglio sicuro.
+question: Qual è una delle cose da avere prima di acquistare Bitcoin?
+answer: Un wallet sicuro.
 wrong_answers:
   - Una cassaforte fisica.
   - Un conto in banca.
   - Una carta di credito.
 explanation: |
   Il testo del corso menziona che prima di acquistare Bitcoin,
-  dovresti avere un portafoglio sicuro dove conserverai le tue chiavi.
+  è bene avere avere un wallet sicuro dove conservare le chiavi.
 reviewed: vero

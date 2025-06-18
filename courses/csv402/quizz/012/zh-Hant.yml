@@ -1,0 +1,9 @@
+question: 什麼是 RGB 通訊協定中的 Assignment？
+answer: 在 Contract 狀態中修改、更新或建立屬性的輸出
+wrong_answers:
+  - 儲存於 Bitcoin 交易中的唯一加密 Commitment
+  - 在最終驗證前已部分簽署的 Bitcoin 交易
+  - Global State 的公開更新
+explanation: |
+  Assignment 結合了 Seal Definition 和 Owned State，代表國家分配的部分。
+reviewed: false

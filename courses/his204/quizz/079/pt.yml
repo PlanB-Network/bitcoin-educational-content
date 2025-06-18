@@ -1,0 +1,8 @@
+question: Na sua carta sobre a marca das moedas, Turgot exprime a ideia de que é impossível saber mais do que o mercado. Que economista austríaco desenvolveu esta ideia no século XX?
+answer: Friedrich Hayek
+wrong_answers:
+  - Carl Menger
+  - Murray Rothbard
+  - Ludwig von Mises
+explanation: |
+  Hayek desenvolveu a ideia de "descoberta de preços" pelo mercado, segundo a qual o mercado é um processo de descoberta de informação e os preços são o resultado da interação entre o Supply e a procura.

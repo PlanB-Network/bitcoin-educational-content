@@ -1,0 +1,10 @@
+question: Co reprezentuje wynik Boltzmanna w kontekście transakcji Bitcoin?
+answer: Warunkowe prawdopodobieństwo, że wejście jest powiązane z danym wyjściem.
+wrong_answers:
+  - Całkowita kwota przelanych bitcoinów.
+  - Liczba wejść w transakcji.
+  - Entropia związana z każdym wejściem lub wyjściem.
+explanation: |
+  Wynik Boltzmanna wskazuje warunkowe prawdopodobieństwo, że określone wejście jest powiązane z danym wyjściem. Jest to zatem ilościowa miara warunkowego prawdopodobieństwa wystąpienia powiązania między wejściem a wyjściem w transakcji, ustalona na podstawie stosunku liczby korzystnych wystąpień tego zdarzenia do całkowitej liczby możliwych wystąpień w zbiorze interpretacji.
+  
+reviewed: false

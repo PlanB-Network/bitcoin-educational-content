@@ -1,9 +1,9 @@
-question: Jaký význam má omezenost Bitcoinu?
-answer: Na světě bude pouze 21 milionů bitcoinů a nikdy více
+question: Který významný hráč navrhuje ASIC pro Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - Hodnota Bitcoinu bude vždy růst
-  - Těžba Bitcoinu je obtížná
-  - Počet transakcí s Bitcoinem je omezený
+  - Trezor
+  - Ledger
+  - Slévárna USA
 explanation: |
-  Omezenost Bitcoinu odkazuje na skutečnost, že na světě bude pouze 21 milionů bitcoinů. Tato vlastnost, podobně jako u zlata, brání znehodnocení hodnoty Bitcoinu prostřednictvím nadměrného tisku peněz.
+  Společnost Bitmain je jedním z předních výrobců specializovaného hardwaru pro Bitcoin Mining.
 reviewed: false

@@ -1,12 +1,12 @@
-question: Cosa impedisce a tutti di utilizzare lo stesso portafoglio Bitcoin?
+question: Cosa impedisce a tutti di utilizzare lo stesso wallet Bitcoin?
 answer: Diversi individui hanno esigenze diverse.
 wrong_answers:
-  - È costoso utilizzare un Portafoglio Bitcoin.
-  - È illegale utilizzare un Portafoglio Bitcoin.
-  - Le persone non si metteranno mai d'accordo sul nome di un tale portafoglio.
+  - Utilizzare un wallet Bitcoin è costoso.
+  - Utilizzare un wallet Bitcoin è illegale.
+  - Le persone non si metteranno mai d'accordo sul nome di un wallet.
 explanation: |
   Mentre una persona potrebbe dare priorità alla sicurezza, un'altra potrebbe
   valutare la facilità d'uso o caratteristiche specifiche. Pertanto, un
-  singolo Portafoglio Bitcoin potrebbe non soddisfare le esigenze di tutti,
-  rendendo necessaria l'esistenza di molteplici opzioni di portafoglio.
+  singolo wallet Bitcoin potrebbe non soddisfare le esigenze di tutti,
+  rendendo necessaria l'esistenza di molteplici opzioni.
 reviewed: true

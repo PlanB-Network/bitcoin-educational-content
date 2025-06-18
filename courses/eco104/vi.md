@@ -39,11 +39,12 @@ Khóa học này được tài trợ bởi TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Giới thiệu
+## Tổng quan về khóa học
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Chào mừng bạn đến với khóa học ECO104!
 
-### Chúng ta sống trong một thế giới mà:
+**Chúng ta sống trong một thế giới mà:**
 
 ● Chỉ có [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) người dân được sống trong các xã hội được coi là "tự do dân chủ." Tuy nhiên, ngay cả trong phần nhỏ có đặc quyền này, sự vi phạm quyền con người ngày càng trở nên phổ biến - từ việc đóng băng tài khoản ngân hàng đến kiểm duyệt. 80% còn lại đang bị mắc kẹt bởi sự xâm phạm của các chế độ chuyên quyền. Chỉ mới hai thập kỷ trước thôi, gần một nửa dân số thế giới được hưởng những quyền tự do cơ bản nhất.
 
@@ -62,7 +63,7 @@ Mặc dù triển vọng của chúng ta có vẻ ảm đạm, mục tiêu của
 
 Với ý nghĩ này, sứ mệnh của chúng tôi là đưa bạn lên tiền tuyến của sự thay đổi cho lĩnh vực tài chính hiện tại của chúng ta, thách thức các quy chuẩn hiện hữu và đề xuất các giải pháp thay thế. Thông qua việc khám phá lịch sử phát triển của tiền tệ, làm sáng tỏ bản chất của Bitcoin, và khám phá Tether và thế giới của các đồng stablecoin, chúng tôi mong muốn truyền cảm hứng cho mọi cá nhân để họ làm mới lại tương lai tài chính của bản thân.
 
-### Điều bạn có thể mong đợi:
+**Điều bạn có thể mong đợi:**
 
 **Mô-đun 1: Cái giá của sự tiến bộ - Một cái nhìn chi tiết hơn về hệ thống tài chính của chúng ta**
 Chúng ta bắt đầu khám phá của mình bằng cách nhìn vào phía sau bức màn của hệ thống tài chính hiện tại, nơi kiểm duyệt tài chính, bất bình đẳng về tài sản và lạm phát đang huỷ hoại cuộc sống hàng ngày của chúng ta. Thông qua một lịch sử ngắn gọn về sự phát triển của tiền tệ, chúng ta sẽ xem xét cách xác định vị trí hiện tại của mình, làm sáng tỏ một số điểm đau chính yếu mà chúng ta đều đang trải qua.
@@ -1662,7 +1663,7 @@ Hy vọng rằng sự hiểu biết mới mẻ này sẽ trao quyền cho bạn 
 
 Tương lai tươi sáng!
 
-# Kết luận
+# Phần cuối
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

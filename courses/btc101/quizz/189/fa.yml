@@ -1,0 +1,8 @@
+question: Bitcoin چگونه مسئله ژنرال‌های بیزانسی را حل می‌کند؟
+answer: از طریق استفاده از Blockchain بر اساس Proof of Work با سختی شناور.
+wrong_answers:
+  - از طریق استفاده از امضاهای دیجیتال.
+  - از طریق استفاده از یک Ledger عمومی.
+  - از طریق استفاده از الگوریتم اثبات سهام.
+explanation: >-
+reviewed: true

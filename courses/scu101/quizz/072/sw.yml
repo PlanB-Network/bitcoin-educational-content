@@ -1,0 +1,9 @@
+question: Kidhibiti cha nenosiri ni nini?
+answer: Zana inayohifadhi, kuzalisha na kudhibiti manenosiri.
+wrong_answers:
+  - Programu ya kingavirusi dhidi ya mashambulizi ya udukuzi.
+  - Huduma salama ya barua pepe.
+  - Chombo chelezo cha data ya utambulisho wa kibinafsi.
+explanation: |
+  Kidhibiti cha nenosiri huweka kati uhifadhi na uundaji wa manenosiri.
+reviewed: false

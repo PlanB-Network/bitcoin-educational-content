@@ -1,0 +1,9 @@
+question: 2009 年 Bitcoin 原型網路的實際發射時間是何時？
+answer: 2009 年 1 月 9 日，02；54；25 UTC
+wrong_answers:
+  - 2009 年 1 月 3 日，世界標準時間 18：15；05
+  - 2009年1月8日，19: 27; 40 UTC
+  - 2009 年 1 月 12 日 03: 30; 25 UTC
+explanation: |
+  這是 Blockchain 區塊 1 的 Timestamp，由 Satoshi Nakamoto 在幾小時前在郵件列表上公佈軟體程式碼後挖出。Genesis 區塊 (0) 是在 1 月 3 日至 8 日之間建立的，但本身並沒有實際的網路。
+reviewed: false

@@ -1,0 +1,9 @@
+question: W większości jurysdykcji, co wywołuje zdarzenie podlegające opodatkowaniu w przypadku Bitcoin?
+answer: Sprzedaż, obrót lub wykorzystanie Bitcoin jako płatności często wywołuje zdarzenie podlegające opodatkowaniu.
+wrong_answers:
+  - Po prostu trzymanie Bitcoin w nieskończoność bez żadnych transakcji.
+  - Tworzenie kopii zapasowej Bitcoin Wallet lub kluczy.
+  - Wyświetlanie ceny Bitcoin online.
+explanation: |
+  Zazwyczaj zdarzenie podlegające opodatkowaniu ma miejsce, gdy firma zbywa lub wykorzystuje Bitcoin, a nie tylko go posiada. Każda sprzedaż lub Exchange Bitcoin w zamian za towary, usługi lub walutę fiducjarną może spowodować generate podlegające opodatkowaniu zyski lub straty.
+reviewed: false

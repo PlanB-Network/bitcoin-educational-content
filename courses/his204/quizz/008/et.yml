@@ -1,0 +1,8 @@
+question: Millist liiki maksu propageeris Vauban oma kirjutistes?
+answer: Proportsionaalne maks Igaüks peab andma riigile sama protsendi oma sissetulekust
+wrong_answers:
+  - Progressiivne maksustamine - rikaste maksumäär peab olema kõrgem kui vaeste maksumäär
+  - Kindlasummaline maks, sõltumata teie sissetulekust, maksate igal aastal valitsusele sama summa
+  - Regressiivne maksustamine vaeste maksumäärad peavad olema kõrgemad kui rikaste maksumäärad
+explanation: |
+  Vauban propageeris proportsionaalset maksu, nn kuninglikku kümnist, mis seisnes selles, et kõigi prantslaste sissetulekust koguti kümnendik (10%), sõltumata nende sotsiaalsest staatusest. Ta uskus, et see maks oleks õiglasem ja tõhusam kui olemasolev maksusüsteem.

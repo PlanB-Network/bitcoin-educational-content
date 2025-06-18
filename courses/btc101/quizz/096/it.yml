@@ -1,10 +1,10 @@
-question: Da cosa è spesso rappresentata la chiave privata in un portafoglio Bitcoin?
+question: Da cosa è spesso rappresentata la chiave privata in un wallet Bitcoin?
 answer: Una lista di 12 o 24 parole.
 wrong_answers:
   - Una lista di 12 o 48 parole.
   - Una lista di 32 parole.
   - Una lista di 64 parole.
 explanation: |
-  In un portafoglio Bitcoin, la chiave privata è spesso rappresentata
-  da una lista di 12 o 24 parole, nota anche come frase seed
+  In un wallet Bitcoin, la chiave privata è spesso rappresentata
+  da una lista di 12 o 24 parole, nota anche come seed phrase
   o frase mnemonica.

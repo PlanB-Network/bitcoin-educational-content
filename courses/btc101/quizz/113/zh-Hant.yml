@@ -1,0 +1,13 @@
+question: 是什麼阻止大家使用相同的 Bitcoin Wallet？
+answer: 不同的個人需要不同的使用情況。
+wrong_answers:
+  - 使用 Bitcoin Wallet 的成本較高。
+  - 使用 Bitcoin Wallet 是非法的。
+  - 人們永遠不會同意這種 Wallet 的名稱。
+explanation: |
+  一個人可能會以安全性為優先，而另一個人可能會
+  則可能重視使用者友善性或特定功能。因此，單一的
+  因此，單一的 Bitcoin Wallet 可能無法滿足每個人的需求。
+  需求，因此有必要提供多種 Wallet
+  選項。
+reviewed: true

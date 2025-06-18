@@ -1,0 +1,8 @@
+question: Koja je jedna od inicijativa koja doprinosi tome da Bitcoin ekonomija bude pristupačnija i pogodnija za sve?
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: >-
+reviewed: true

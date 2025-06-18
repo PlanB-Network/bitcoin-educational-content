@@ -1,0 +1,5 @@
+---
+term: STRATUM V2
+---
+
+Evolucija Stratum-a, renomiranog protokola mrežnog sloja za Bitcoin dizajniranog za Mining. Ovaj tip protokola je dizajniran da optimizuje komunikaciju između pojedinačnih rudara i Mining pool servera kako bi povećao njihovu profitabilnost. Razvijen od strane Braiins pool-a (ranije "Slush Pool"), Stratum V2 uvodi nekoliko poboljšanja, uključujući efikasniju komunikaciju između rudara i Mining pool-ova, čime se smanjuje potrebna širina pojasa. Takođe smanjuje infrastrukturne potrebe za pool-ove. U smislu bezbednosti, dodaje kriptografsku autentifikaciju kako bi se sprečili razni napadi čovek-u-sredini, uključujući prisluškivanje i zlonamerno preusmeravanje Hashrate. Važan aspekt Stratum V2 je da uključuje podprotokole koji omogućavaju pojedinačnim rudarima da biraju sopstvene skupove transakcija koje će uključiti u blokove na kojima rade. Ova funkcija daje više moći pojedinačnim rudarima, za razliku od originalnog protokola gde su pool-ovi imali potpunu kontrolu nad šablonom bloka. Ovaj metod bi tako mogao ojačati decentralizaciju Mining procesa od strane pool-ova.

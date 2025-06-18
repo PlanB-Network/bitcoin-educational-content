@@ -1,0 +1,9 @@
+question: Je, ni mchango gani unaojulikana zaidi wa Adam Smith katika uchumi?
+answer: Aliendeleza nadharia ya mkono usioonekana.
+wrong_answers:
+  - Aliendeleza nadharia ya kidole kinachoonekana.
+  - Aliendeleza nadharia ya kidole kisichoonekana.
+  - Aliendeleza nadharia ya mkono unaoonekana.
+explanation: |
+  Adam Smith anajulikana kwa nadharia yake ya mkono usioonekana, ambayo inasisitiza kwamba vitendo vya mtu binafsi vinavyochochewa na ubinafsi bila kukusudia huchangia ustawi wa kiuchumi wa jamii kwa ujumla.
+reviewed: false

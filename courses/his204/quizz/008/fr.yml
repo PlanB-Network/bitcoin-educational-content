@@ -1,0 +1,8 @@
+question: Quel type d’impôt Vauban a-t-il défendu dans ses écrits ?
+answer: L’impôt proportionnel, chacun doit céder à l’Etat le même pourcentage de ses revenus
+wrong_answers:
+  - L’impôt progressif, le taux de l’impôt des riches doit être plus élevé que celui des pauvres
+  - L’impôt forfaitaire, quel que soit votre revenu, vous devrez payer une même somme chaque année à l’Etat
+  - L'impôt régressif, le taux de l'impôt des pauvres doit être plus élevé que celui des riches
+explanation: |
+  Vauban a plaidé pour un impôt proportionnel, la "dîme royale", qui consistait à prélever un dixième (10%) des revenus de tous les Français, quel que soit leur statut social. Il pensait que cet impôt serait plus juste et plus efficace que le système fiscal existant.

@@ -1,0 +1,13 @@
+question: Lightning 認證的目的是什麼？
+answer: 它會為每個服務產生不同的識別碼，而不需要
+wrong_answers:
+  - 允許任何人，即使沒有 Lightning Wallet，只要顯示有效的 ID，就可以在沒有電子郵件 Address 的情況下進行驗證。
+  - 它允許您在所有服務中使用相同的密碼。
+  - 它每個月都會傳送更改密碼的提醒。
+explanation: |
+  Lightning 認證會產生不同的識別碼
+  每項服務，而無需提供電子郵件
+  Address 或個人資訊。這可以提高隱私權
+  透過減少個人資訊的數量來提高安全性
+  與每個服務共用。
+reviewed: true

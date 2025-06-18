@@ -1,0 +1,12 @@
+question: Je, kukosekana kwa maneno ya Mnemonic katika Wallet kunaonyesha nini?
+answer: Inaonyesha kuwa Wallet si salama kwa uhifadhi wa muda mrefu wa Bitcoin.
+wrong_answers:
+  - Inaonyesha kuwa Wallet ni salama kabisa na hauhitaji chelezo yoyote.
+  - Ina maana kwamba Wallet inaweza kushikilia vifungo vingi tofauti.
+  - Inapendekeza kwamba Wallet inachelezwa kiotomatiki na kifaa chako.
+explanation: |
+  Kutokuwepo kwa orodha ya maneno 12 au 24, hiyo ni
+  Mnemonic maneno, katika Wallet inapaswa kukuarifu kwamba
+  Wallet si salama kwani haifuati hifadhi rudufu ya kawaida
+  taratibu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bitcoin 的主要政治含意是什麼？
+answer: 減少國家對金錢的控制
+wrong_answers:
+  - 銀行業務日益集中
+  - 促進通貨膨脹
+  - 加強金融法規
+explanation: |
+  Bitcoin 是一種替代方案，它透過seigniorage 和交易審查來削弱國家機構對貨幣的權力。
+reviewed: false

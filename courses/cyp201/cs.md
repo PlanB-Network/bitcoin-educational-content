@@ -85,7 +85,7 @@ Tyto kryptografické hašovací funkce mají několik zásadních charakteristik
 
 #### 1. Nezvratnost (odolnost proti zpětnému zjištění):
 
-Nezvratnost znamená, že je snadné vypočítat hash z vstupních informací, ale opačný výpočet, tj. nalezení vstupu z hash, je prakticky nemožné. Tato vlastnost činí hašovací funkce dokonalými pro vytváření unikátních digitálních otisků bez ohrožení původních informací. Tato charakteristika je často označována jako jednosměrná funkce nebo "_pastová funkce_".
+Nezvratnost znamená, že je snadné vypočítat hash z vstupní informace, ale opačný výpočet, tedy nalezení vstupu z hashe, je prakticky nemožný. Tato vlastnost činí hashovací funkce ideálními pro vytváření jedinečných digitálních otisků, aniž by byla ohrožena původní informace.
 
 V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_PlanB_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_PlanB_" pouze znalostí `24f1b9…` je nemožné.
 
@@ -2178,7 +2178,7 @@ Generování adresy pak pokračuje stejným procesem, přičemž surový veřejn
 
 A to je vše! Dospěli jsme ke konci tohoto kurzu CYP201. Pokud jste tento kurz považovali za užitečný, byl bych velmi vděčný, pokud byste si našli chvilku na to, abyste mu dali dobré hodnocení v následující kapitole hodnocení. Neváhejte jej také sdílet s vašimi blízkými nebo na sociálních sítích. Nakonec, pokud si přejete získat diplom za tento kurz, můžete po kapitole hodnocení absolvovat závěrečnou zkoušku.
 
-# Závěr
+# Sekce finále
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

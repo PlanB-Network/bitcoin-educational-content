@@ -1,0 +1,9 @@
+question: Kwa nini sehemu za upanuzi zilizo na msingi wa 2 ni muhimu katika kriptografia?
+answer: Zinaruhusu utumiaji salama wa kamba za binary.
+wrong_answers:
+  - Wanarahisisha mahesabu kwa kupunguza idadi ya shughuli.
+  - Wanazuia makosa ya hesabu kwa kuongeza upungufu.
+  - Wanaweka mipaka ya anuwai ya uwezekano kwa kupunguza idadi ya Elements.
+explanation: |
+  Sehemu za upanuzi zilizo na msingi wa 2 zinafaa kwa sababu Elements yao inaweza kutazamwa kama minyororo ya jozi, na kuifanya iwe rahisi kufanya shughuli kwenye data ya dijiti katika kiwango cha binary katika mifumo.
+reviewed: false

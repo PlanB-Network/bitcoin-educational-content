@@ -1,0 +1,10 @@
+question: Jaka jest główna zaleta Silent Payments w porównaniu do BIP47?
+answer: Nie wymagają one transakcji powiadomienia.
+wrong_answers:
+  - Oferują one pełną prywatność transakcji.
+  - Umożliwiają one zwrot pieniędzy od odbiorcy.
+  - Zapewniają one kompatybilność ze wszystkimi portfelami.
+explanation: |
+  Ciche płatności działają bez powiadamiania o transakcji, co pozwala zaoszczędzić na opłatach transakcyjnych i uniknąć przeciążenia Blockchain.
+  
+reviewed: false

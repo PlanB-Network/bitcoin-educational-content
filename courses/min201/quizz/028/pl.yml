@@ -1,0 +1,13 @@
+question: Jakie jest potencjalne ryzyko centralizacji produkcji sprzętu Mining w Chinach?
+answer: Odmowa eksportu maszyn Mining lub akumulacja Hashrate dla potencjalnego ataku 51%.
+wrong_answers:
+  - Chiny mogłyby zmonopolizować sieć Bitcoin.
+  - Chiny mogą kontrolować cenę Bitcoin.
+  - Chiny mogą zakazać Bitcoin Mining.
+explanation: |
+  Centralizacja produkcji sprzętu Mining w Chinach
+  stanowi zagrożenie dla sieci Bitcoin. Jeśli Chiny odmówią
+  eksportu maszyn Mining lub zgromadzą Hashrate na potrzeby potencjalnego ataku 51%
+  ataku 51%, może to zagrozić bezpieczeństwu i decentralizacji sieci
+  bezpieczeństwu i decentralizacji sieci.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bastiat 在分析破壞成本時強調了什麼經濟概念？
+answer: 機會成本
+wrong_answers:
+  - 邊際成本
+  - 邊際生產力
+  - 生產成本
+explanation: |
+  Bastiat 強調機會成本的重要性，說明用來修復破壞的資源原本可以用來在其他地方創造財富。
+reviewed: false

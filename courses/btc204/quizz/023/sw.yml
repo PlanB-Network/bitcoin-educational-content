@@ -1,0 +1,9 @@
+question: Ikiwa tutazingatia shughuli iliyo na UTXO 6 kama pembejeo na UTXO moja tu kama pato, ni tafsiri gani ya uwezekano tunaweza kuchora?
+answer: UTXO zote katika pembejeo zilikuwa za mtumiaji mmoja, na mtumiaji huyu bado anamiliki UTXO katika pato.
+wrong_answers:
+  - UTXO katika pembejeo zilitoka kwa watumiaji tofauti wanaoshirikiana kwa shughuli moja.
+  - UTXO zote katika pembejeo zilikuwa za mtumiaji yule yule, na ile inayotolewa sasa ni ya mtumiaji mwingine.
+  - UTXO katika pembejeo zilitoka kwa watumiaji 2 tofauti, na ile inayotolewa bado ni ya watumiaji hawa 2.
+explanation: |
+  Tuna uwezekano wa kuwepo kwa ujumuishaji. Kwa hiyo, kuna Ownership ya kawaida ya pembejeo na pato.
+reviewed: false

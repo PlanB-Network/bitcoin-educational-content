@@ -1,0 +1,9 @@
+question: 什麼是交易中的合併？
+answer: 這是消耗多個 UTXO 作為輸入的動作。
+wrong_answers:
+  - 這是建立多個 UTXO 作為輸出的動作。
+  - 這是將多個位址合併為一個位址的行為。
+  - 這是在 Blockchain 中結合多個區塊的行為。
+explanation: |
+  當使用者沒有任何 UTXO 大於或等於他們想要傳送的數量時，他們必須使用數個 UTXO 來滿足輸出。這種做法稱為合併。
+reviewed: false

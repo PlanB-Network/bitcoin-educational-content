@@ -1,0 +1,8 @@
+question: Je, madhumuni ya Proof of Work katika mtandao wa Bitcoin ni nini?
+answer: Proof of Work inahakikisha ukweli wa habari bila kuamini mtu wa tatu.
+wrong_answers:
+  - Proof of Work hutumiwa kuunda bitcoins mpya kwa kuamini mtu wa tatu.
+  - Proof of Work inatumika kuthibitisha miamala ya Bitcoin kwa kuamini mtu mwingine.
+  - Proof of Work inatumika kubadilisha itifaki ya Bitcoin bila kumwamini mtu wa tatu.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: 2/2 多重簽章 Address 在 Bitcoin 中如何運作？
+answer: 它需要兩個簽名才能解鎖和使用資金。
+wrong_answers:
+  - 它允許使用兩個按鍵中的一個來花費資金。
+  - 它只在鎖定的特定情況下授權交易。
+  - 它僅用於向公共地址發送資金。
+explanation: |
+  2/2 多重簽名 Address 需要參與的雙方簽名才能使用資金，用於確保 Lightning 通道的安全性。
+reviewed: false

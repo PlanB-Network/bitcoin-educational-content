@@ -1,0 +1,9 @@
+question: Kulingana na Hayek, kuna uhusiano gani kati ya ujamaa na Unazi?
+answer: Majibu mengine yote (wanashiriki kukataa ubinafsi, kuweka kipaumbele kwa ustawi wa kikundi, kutumia kulazimisha).
+wrong_answers:
+  - Itikadi hizo mbili hazipatani.
+  - Ujamaa na Unazi ni kinyume katika masuala ya kiuchumi.
+  - Ujamaa na Unazi hazina uhusiano.
+explanation: |
+  Hayek alidai kuwa ujamaa na Unazi hushiriki sifa zinazofanana, kama vile kukataa ubinafsi kwa niaba ya pamoja na matumizi ya kulazimisha, na kuzifanya zifanane katika athari zao za kimamlaka.
+reviewed: false

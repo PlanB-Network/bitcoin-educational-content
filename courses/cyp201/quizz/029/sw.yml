@@ -1,0 +1,9 @@
+question: Ni algoriti gani ya sahihi ya dijiti ilitumika wakati wa uzinduzi wa Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin hapo awali ilitumia ECDSA, itifaki ya sahihi kulingana na mikondo ya mviringo, kabla ya kuanzishwa kwa sahihi za Schnorr mnamo 2021.
+reviewed: false

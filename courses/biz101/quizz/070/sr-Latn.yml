@@ -1,0 +1,9 @@
+question: Koje napredne funkcije obično zahtevaju preduzeća sa profesionalnim profilom?
+answer: Napredne kontrolne table za izveštavanje i više administrativnih uloga
+wrong_answers:
+  - Osnovno evidentiranje transakcija i standardni računi
+  - Jednostavna integracija Wallet i generisanje QR koda
+  - Automatska konverzija u fiat bez opcija izveštavanja
+explanation: |
+  Profesionalnim preduzećima su potrebni prilagodljivi računi, sofisticirano izveštavanje i upravljanje ulogama kako bi odgovarali njihovim složenim tokovima rada.
+reviewed: false

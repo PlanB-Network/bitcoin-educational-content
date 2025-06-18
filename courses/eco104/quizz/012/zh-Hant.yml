@@ -1,0 +1,12 @@
+question: 與傳統金融系統相比，Bitcoin 的網路有何優勢？
+answer: 權力下放與安全
+wrong_answers:
+  - 通貨膨脹率提高
+  - 依賴中介
+  - 集中控制交易
+explanation: |
+  Bitcoin 的分散式網路提供安全且有效率的方式來
+  無需中介或第三方即可進行交易。這
+  減少審查和未經授權更改交易的風險、
+  以及增加隱私。
+reviewed: true

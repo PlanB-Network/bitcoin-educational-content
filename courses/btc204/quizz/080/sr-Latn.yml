@@ -1,0 +1,9 @@
+question: Koja je uloga CoinJoin koordinatora?
+answer: Povezivanje učesnika i konstruiranje transakciju.
+wrong_answers:
+  - Šifrovanje podataka učesnika radi poverljivosti transakcije.
+  - Vođenje evidenciju prethodnih coinjoin-a za bezbednosne revizije.
+  - Primanje bitkoina od učesnika radi mešanja.
+explanation: |
+  Uloga koordinatora je da povežu različite korisnike i da konstruiraju, a zatim emituju kolaborativnu transakciju.
+reviewed: false

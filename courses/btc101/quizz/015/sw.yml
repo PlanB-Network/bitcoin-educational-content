@@ -1,0 +1,13 @@
+question: Azimio la Uhuru wa Mtandao wa Mtandao ni nini?
+answer: Maandishi yanayodai kuwa mtandao ni eneo tofauti na nyanja halisi na haipaswi kuwa chini ya sheria sawa.
+wrong_answers:
+  - Tamko linalosema uhuru wa Bitcoin kutoka kwa mifumo ya jadi ya kifedha.
+  - Maandishi yanayodai kwamba mtandao unapaswa kudhibitiwa na udhibiti wa serikali.
+  - Tamko ambalo linathibitisha uhuru wa harakati ya maharamia kutoka kwa kanuni yoyote.
+explanation: |
+  Azimio la Uhuru wa Cyberspace ilikuwa
+  iliyoandikwa na John Perry Barlow mwaka 1996. Hati hii inadai
+  kwamba mtandao ni eneo tofauti na la kimwili
+  nyanja, hivyo serikali za viwanda haziwezi kutekeleza yao
+  mamlaka hapo.
+reviewed: true

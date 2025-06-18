@@ -1,0 +1,12 @@
+question: Kakvo je značenje termina Burner-preneurs u kontekstu hiperinflacije?
+answer: Odnosi se na preduzetnike koji napreduju pozajmljivanjem devalvirane valute kako bi ulagali u materijalnu imovinu, a zatim vraćaju svoje dugove još više devalviranom valutom.
+wrong_answers:
+  - Odnosi se na pojedince koji spaljuju obezvređenu valutu za grejanje.
+  - Odnosi se na pojedince koji pokreću poslove povezane s proizvodnjom novčanica.
+  - Odnosi se na pojedince koji ilegalno trguju stranim valutama.
+explanation: |
+  Tokom perioda hiperinflacije, vrednost valute brzo erodira.
+  Ovo stvara prilike za preduzetnike, često nazvane Burner-preneurs, koji
+  pozajmljuju devalviranu valutu da bi investirali u opipljivu imovinu, a zatim
+  otplaćuju svoje dugove još više devalviranom valutom.
+reviewed: false

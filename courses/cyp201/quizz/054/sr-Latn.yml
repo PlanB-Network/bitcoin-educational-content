@@ -1,0 +1,9 @@
+question: Koja je glavna uloga passphrase u Bitcoin HD Wallet?
+answer: Da modifikujete izvođenje ključa radi poboljšanja bezbednosti
+wrong_answers:
+  - Dešifruj čekajuće transakcije
+  - generate UTXO-ove Wallet
+  - Zaštiti pristup Wallet pomoću prepoznavanja lica
+explanation: |
+  passphrase deluje kao drugi faktor bezbednosti, menjajući derivaciju ključa seed kako bi se sprečio pristup Wallet u slučaju da je Mnemonic fraza kompromitovana.
+reviewed: false

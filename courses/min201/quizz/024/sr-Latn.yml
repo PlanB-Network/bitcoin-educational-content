@@ -1,0 +1,10 @@
+question: Kako se zove događaj kada se nagrada za Mining Bitcoin transakcije prepolovi?
+answer: Halving
+wrong_answers:
+  - Udvostručavanje
+  - Četvrtinjenje
+  - Utrostručavanje
+explanation: |
+  Programirano smanjenje Mining nagrada, Halving svake
+  četiri godine, je događaj poznat kao Halving.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaka jest unikalna cecha adresów SegWit v1 (P2TR) w porównaniu do adresów SegWit v0?
+answer: Wykorzystują one bezpośrednio nieprzetworzony klucz publiczny w Address.
+wrong_answers:
+  - Są one zakodowane w base58check.
+  - Wymagają one dwóch podpisów, aby były ważne.
+  - Używają klucza publicznego Hash w Address.
+explanation: |
+  Adresy SegWit v1 (P2TR) nie używają Hash klucza publicznego, ale bezpośrednio klucz publiczny Taproot.
+reviewed: false

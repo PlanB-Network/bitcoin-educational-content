@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto ilichapisha wapi karatasi nyeupe ya Bitcoin mnamo Oktoba 31, 2008?
+answer: Orodha ya barua pepe ya Cryptography
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Kama mrithi wa orodha ya wanaopokea barua pepe ya cypherpunks, orodha hii ya barua pepe ilisimamiwa na msanidi programu Perry Metzger tangu 1996.
+reviewed: false

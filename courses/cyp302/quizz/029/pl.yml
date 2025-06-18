@@ -1,0 +1,9 @@
+question: Co oznacza operacja XOR zastosowana między dwoma bitami?
+answer: Zwraca 1, jeśli bity są różne, w przeciwnym razie zwraca 0
+wrong_answers:
+  - Zwraca 1 tylko wtedy, gdy oba bity mają wartość 1
+  - Dodaje bity i zwraca sumę
+  - Zawsze zwraca 0, niezależnie od wyniku
+explanation: |
+  Operacja XOR (lub wyłączne lub) daje 1, jeśli dwa bity są różne (0 i 1 lub 1 i 0) i 0, jeśli są takie same.
+reviewed: false

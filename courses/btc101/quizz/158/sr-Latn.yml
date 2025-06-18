@@ -1,0 +1,8 @@
+question: Koja je svrha Proof of Work u Bitcoin mreži?
+answer: Proof of Work osigurava verodostojnost informacija bez poverenja trećoj strani.
+wrong_answers:
+  - Proof of Work se koristi za kreiranje novih bitkoina poveravanjem trećoj strani.
+  - Proof of Work se koristi za verifikaciju Bitcoin transakcija poveravanjem trećoj strani.
+  - Proof of Work se koristi za promenu Bitcoin protokola bez poverenja trećoj strani.
+explanation: >-
+reviewed: true

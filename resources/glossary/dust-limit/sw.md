@@ -1,0 +1,5 @@
+---
+term: Dust LIMIT
+---
+
+Inarejelea kiwango cha juu katika Sats ambacho chini yake UTXO inachukuliwa kuwa "Dust" na nodi ya mtandao. Kizingiti hiki ni sehemu ya sheria za viwango ambazo zinaweza kurekebishwa kwa kujitegemea na kila nodi. Katika Bitcoin Core, kikomo hiki kinabainishwa na kiwango maalum cha ada, kilichowekwa kwa chaguo-msingi kuwa 3,000 Sats kwa kila kilobaiti pepe (Sats/kvB). Kikomo hiki kinalenga kuzuia kuenea kwa shughuli zilizo na kiasi kidogo sana cha bitcoins. Hakika, UTXO iliyohitimu kama Dust inamaanisha kuwa matumizi yake si ya kimantiki kiuchumi: kutumia UTXO hii kungegharimu zaidi ya kuiacha tu. Ikiwa matumizi ya Dust si ya kimantiki, inapendekeza kwamba matumizi kama hayo yanaweza tu kuchochewa na motisha za nje, mara nyingi ni mbaya. Hili linaweza kuwa tatizo ikiwa mwigizaji hasidi atatafuta kujaza mtandao kwa miamala iliyo na kiasi kidogo, kwa lengo la kuongeza mzigo wa uendeshaji kwenye nodi na uwezekano wa kuzizuia kuchakata miamala mingine halali. Ili kutoa mlinganisho (ingawa ni ngumu kidogo, ninakubali), ni kama mtu anayejaribu kulipia kikapu cha ununuzi cha 100€ kwa sarafu ya senti 1 ili kuzuia wateja wengine kwenye malipo.

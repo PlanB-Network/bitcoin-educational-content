@@ -1,9 +1,9 @@
-question: Qual é o objetivo de fazer as quatro perguntas antes de escolher um plano de investimento em Bitcoin?
-answer: Para escolher o caminho que mais se adequa a você
+question: O que NÃO é recomendado quando se transmite o acesso aos bitcoins?
+answer: Dar a frase Mnemonic a uma pessoa
 wrong_answers:
-  - Para determinar a quantidade de Bitcoin que você deve comprar
-  - Para determinar o tipo de carteira de Bitcoin que você deve usar
-  - Para determinar a duração do seu investimento em Bitcoin
+  - Dividir a informação entre várias pessoas
+  - Utilização de envelopes opacos selados
+  - Redigir uma carta explicativa
 explanation: |
-  O objetivo de fazer as quatro perguntas antes de escolher um plano de investimento em Bitcoin é escolher o caminho que mais se adequa a você. As perguntas ajudam a entender seus objetivos e preferências de investimento.
+  Confiar a frase Mnemonic a uma única pessoa sem segurança adicional aumenta muito o risco de roubo durante a sua vida.
 reviewed: false

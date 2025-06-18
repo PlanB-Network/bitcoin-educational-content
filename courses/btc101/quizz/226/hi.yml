@@ -1,0 +1,8 @@
+question: Lightning Network किस तरह का नेटवर्क बनाता है?
+answer: भुगतान चैनलों का एक नेटवर्क।
+wrong_answers:
+  - Mining नोड्स का एक नेटवर्क।
+  - Blockchain नोड्स का एक नेटवर्क।
+  - एक क्रिप्टोकरेंसी एक्सचेंजों का नेटवर्क।
+explanation: >-
+reviewed: true

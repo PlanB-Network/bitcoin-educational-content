@@ -1,0 +1,10 @@
+question: Kati ya itifaki hizi 3, ni ipi ambayo sio utekelezaji wa CoinJoin?
+answer: Chainalysis.
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+explanation: |
+  Chainalysis sio utekelezaji wa CoinJoin hata kidogo, kwani ni kampuni ya uchanganuzi ya Blockchain.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je uloga novca kao sredstva komunikacije?
+answer: Omogućava komunikaciju vrednosti kroz prostor i vreme i bez potrebe za poverenjem u drugu stranu.
+wrong_answers:
+  - Omogućava komunikaciju vrednosti samo kroz prostor i bez potrebe za poverenjem u drugu stranu.
+  - Omogućava komunikaciju vrednosti kroz vreme samo i bez potrebe za poverenjem u drugu stranu.
+  - Omogućava komunikaciju vrednosti kroz prostor i vreme i bez potrebe za poverenjem u drugu stranu.
+explanation: |
+  Novac kao alat za komunikaciju omogućava komunikaciju kroz prostor i vreme, dok transformišemo naše vreme i energiju u sredstvo koje se može ponovo koristiti u budućnosti bez rizika od devalvacije. Takođe omogućava komunikaciju na univerzalnom zajedničkom jeziku, omogućavajući dvojici stranaca da Exchange, trguju i dogovore se o vrednosti stvari.
+reviewed: true

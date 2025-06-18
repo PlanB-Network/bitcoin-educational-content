@@ -1,0 +1,9 @@
+question: Jak nazywa się gałąź kryptografii wykorzystująca parę kluczy publicznych i prywatnych?
+answer: Kryptografia asymetryczna
+wrong_answers:
+  - Kryptografia symetryczna
+  - Kryptografia monoalgorytmiczna
+  - Kryptografia integracyjna
+explanation: |
+  Kryptografia asymetryczna opiera się na wykorzystaniu pary kluczy, publicznego i prywatnego, umożliwiając szyfrowanie bez udostępniania tajnego klucza.
+reviewed: false

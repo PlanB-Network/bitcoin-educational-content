@@ -1,0 +1,10 @@
+question: Ni chaguo gani huruhusu kuwezesha au kuzima usafiri wa P2P V2 katika faili ya usanidi ya Bitcoin Core?
+answer: v2usafiri=
+wrong_answers:
+  - p2 inayowezekana=
+  - mtandaov2=
+  - wezeshav2=
+explanation: |
+  Usafiri wa P2P V2 unaweza kurekebishwa kwa chaguo la v2transport= katika faili ya usanidi ya nodi ya Core.
+  
+reviewed: false

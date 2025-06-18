@@ -1,0 +1,14 @@
+question: Kwa nini Proof of Work ni muhimu katika mtandao wa Bitcoin?
+answer: Inawakilisha kiungo cha kimwili kati ya ulimwengu wa kweli na Bitcoin, inayohitaji nishati inayoonekana kwa ajili ya uzalishaji na uthibitishaji wa bitcoins na vitalu.
+wrong_answers:
+  - Inaruhusu ushiriki mdogo wa wachimbaji madini, haswa kwa wale walio katika maeneo yaliyodhibitiwa sana.
+  - Inahakikisha ulinzi dhidi ya serikali kuu.
+  - Inaonyesha ukosefu wa usawa wa nguvu uliopo katika jamii.
+explanation: |
+  Proof of Work ni muhimu katika mtandao wa Bitcoin kwa sababu
+  inawakilisha kiungo cha kimwili kati ya ulimwengu wa kweli na
+  Bitcoin. Uzalishaji na uthibitishaji wa bitcoins na
+  vitalu vinahitaji nishati inayoonekana, kuimarisha Bitcoin
+  mtandao katika ukweli wa kimwili na kuzuia kamili yake
+  kutawaliwa na vyombo vyenye nguvu.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Unapounda mpango wa urithi, ni nini ambacho sio lazima kujumuisha?
+answer: Jina la Bitcoin Wallet unalotumia kawaida.
+wrong_answers:
+  - Barua iliyoandikwa kwa mkono inayoorodhesha mali yako.
+  - Maelezo ya jinsi ya kupata pesa zako.
+  - Maelezo ya mawasiliano ya watu wanaoaminika.
+explanation: |
+  kuunda mpango wa urithi ni hatua muhimu ili kuhakikisha kuwa bitcoins zako zitasimamiwa ipasavyo baada ya kifo chako.
+  Mpango huu unaweza kujumuisha barua iliyoandikwa kwa mkono inayoorodhesha mali yako,
+  njia zao za kufikia, na maelezo ya mawasiliano ya watu wanaoaminika wa kuwasiliana nao
+reviewed: true

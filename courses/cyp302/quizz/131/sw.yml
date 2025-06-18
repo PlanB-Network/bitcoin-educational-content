@@ -1,0 +1,9 @@
+question: Kwa nini kriptografia isiyolinganishwa haitumiki sana kuliko kriptografia linganifu katika ubadilishanaji mkubwa wa data?
+answer: Haifai kwa kiwango sawa cha usalama
+wrong_answers:
+  - Haihakikishi uhalisi wa ujumbe
+  - Inahitaji funguo nyingi za umma kwa kila Exchange
+  - Haiendani na itifaki za kisasa za mawasiliano
+explanation: |
+  Usimbaji fiche usiolinganishwa, ingawa una nguvu kwa uthibitishaji na usimbaji fiche wa awali, unahitaji rasilimali zaidi, na kufanya matumizi yake kutofaa kwa uhamishaji mkubwa wa data.
+reviewed: false

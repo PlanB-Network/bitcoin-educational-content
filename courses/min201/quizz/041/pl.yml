@@ -1,0 +1,13 @@
+question: Jak wygląda debata w społeczności Bitcoin na temat Mining?
+answer: Równowaga między dążeniem do zysku a przyczynianiem się do bezpieczeństwa i dystrybucji sieci Bitcoin
+wrong_answers:
+  - Równowaga między zwiększeniem Hashrate a zmniejszeniem liczby aktywnych węzłów
+  - Równowaga między wzrostem ceny a spadkiem kosztów
+  - Równowaga między zwiększeniem liczby transakcji a zmniejszeniem zużycia energii
+explanation: |
+  Debata w społeczności Bitcoin dotycząca Mining
+  obraca się wokół równowagi między poszukiwaniem zysku a
+  a przyczynianiem się do bezpieczeństwa i dystrybucji sieci
+  Sieci Bitcoin. Istnieją silne argumenty po obu stronach
+  debaty.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Jakie są główne obawy dotyczące kosztów środowiskowych Bitcoin Mining?
+answer: Zużycie energii.
+wrong_answers:
+  - Produkcja układów ASIC.
+  - Recykling układów ASIC.
+  - Koszt energii elektrycznej.
+explanation: >-
+reviewed: true

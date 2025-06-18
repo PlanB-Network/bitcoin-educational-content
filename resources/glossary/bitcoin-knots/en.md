@@ -1,7 +1,5 @@
 ---
-term: BITCOIN KNOTS
+term: Bitcoin KNOTS
 ---
 
-Implementation of the Bitcoin protocol. Bitcoin Knots is an alternative to the reference software Bitcoin Core, offering some different rules and features, while being compatible with other nodes. Knots is developed and maintained by Luke Dashjr.
-
-![](../../dictionnaire/assets/51.webp)
+Minority implementation of the Bitcoin protocol. Bitcoin Knots is an alternative to the Bitcoin Core reference software, offering a few different rules and features, while still being compatible with other nodes. Knots is developed and maintained by Luke Dashjr.

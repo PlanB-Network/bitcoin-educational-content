@@ -1,0 +1,9 @@
+question: Koje je glavno ograničenje JBOK novčanika?
+answer: Oni zahtevaju nezavisnu rezervnu kopiju za svaki privatni ključ
+wrong_answers:
+  - Oni ne dozvoljavaju generisanje novih adresa
+  - Oni su nekompatibilni sa digitalnim potpisima
+  - Oni koriste nekompresovane javne ključeve
+explanation: |
+  JBOK novčanici primoravaju korisnika da pojedinačno pravi rezervne kopije svakog privatnog ključa, što komplikuje njihovo upravljanje.
+reviewed: false

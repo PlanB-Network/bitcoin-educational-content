@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između ShR i RotR operacija?
+answer: ShR pomera bitove dodavanjem nula, RotR ponovo umeće pomerene bitove
+wrong_answers:
+  - ShR uklanja pomerene bitove, RotR množi njihovu vrednost
+  - ShR pomera ulevo, RotR pomera udesno
+  - ShR je logička operacija, RotR je aritmetička
+explanation: |
+  ShR pomera bitove udesno dodajući nule, dok RotR izvodi kružnu rotaciju bitova.
+reviewed: false

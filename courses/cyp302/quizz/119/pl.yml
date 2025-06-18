@@ -1,0 +1,8 @@
+question: Dlaczego szyfrowanie AES w trybie ECB nie jest zalecane do bezpiecznego użytkowania?
+answer: Skutkuje to deterministycznym szyfrowaniem
+wrong_answers:
+  - Wymaga klucza o długości ponad 128 bitów
+  - Jest zbyt wolny dla większości nowoczesnych aplikacji
+  - Nie pozwala na dzielenie tekstu na 128-bitowe bloki
+explanation: |
+  Tryb ECB nie jest zalecany, ponieważ zapewnia deterministyczne szyfrowanie, co oznacza, że identyczne bloki tekstu jawnego dadzą identyczne bloki szyfrogramu, które można wykorzystać do odgadnięcia informacji o tekście jawnym.

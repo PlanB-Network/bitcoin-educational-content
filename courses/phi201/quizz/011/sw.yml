@@ -1,0 +1,9 @@
+question: Je, nadharia kuu ya Lord Acton kuhusu historia ni ipi?
+answer: Mgogoro kati ya uhuru na mamlaka ndio nguvu inayosukuma maendeleo na mageuzi ya jamii.
+wrong_answers:
+  - Maendeleo ni ya mstari na hayaepukiki, na kusababisha jamii yenye uhuru na usawa.
+  - Historia ni mzunguko wa marudio na vipindi vya uhuru vinavyofuatiwa na vipindi vya dhuluma.
+  - Mambo ya kiuchumi ni viambishi vikuu vya mwendo wa historia.
+explanation: |
+  Lord Acton anasema kuwa historia kimsingi ina alama ya mzozo kati ya uhuru na mamlaka, kwa kuzingatia mapambano haya muhimu kwa maendeleo na mageuzi ya jamii kuelekea uhuru zaidi wa mtu binafsi.
+reviewed: false

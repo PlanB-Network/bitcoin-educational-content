@@ -4,9 +4,8 @@ category: operating system
 
 level: advanced
 
-credits:
-  professor: cover-brother
-  link: https://bitcoiner.guide/grapheneos/
+professor_id: 5f130a99-fac9-4ab0-85e1-573c6d38dbb9
+credit_link: https://bitcoiner.guide/grapheneos/
 
 # Proofreading metadata
 project_id: ce82f356-4662-4dad-ba0c-a0ec4f56cf2a
@@ -83,13 +82,36 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 24.2
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 19.38
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 33.84
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.38
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.38
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.38
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 24.2
 tags:
   - guides
   - personal-security

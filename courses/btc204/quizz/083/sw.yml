@@ -1,0 +1,10 @@
+question: Kwa nini mratibu hawezi kurekebisha shughuli ya CoinJoin baada ya kukusanya sahihi kutoka kwa washiriki wote?
+answer: Kuirekebisha kutabatilisha muamala.
+wrong_answers:
+  - Hawana ufikiaji wa anwani za kupokea za washiriki.
+  - Sahihi zimesimbwa kwa njia fiche.
+  - Muamala tayari umetangazwa kwenye mtandao wa Bitcoin.
+explanation: |
+  Mara tu washiriki wametia saini shughuli ya jumla, baada ya kuhakikisha kuwa kila kitu ni sahihi, mratibu hawezi tena kurekebisha shughuli hii, ikiwa ni pamoja na matokeo, bila kuibatilisha, kwa sababu saini inashughulikia shughuli nzima.
+  
+reviewed: false

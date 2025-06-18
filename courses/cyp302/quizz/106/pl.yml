@@ -1,0 +1,9 @@
+question: Jaki mechanizm zapobiega atakom odbicia w bezpiecznej komunikacji?
+answer: Dodanie unikalnego identyfikatora dla każdego uczestnika
+wrong_answers:
+  - Zwiększenie długości klucza
+  - Używanie wielu kluczy dla każdej wiadomości
+  - Dodawanie dodatkowego klucza w każdej wiadomości
+explanation: |
+  Dodanie unikalnego identyfikatora dla każdego uczestnika zaszyfrowanej wiadomości zapobiega atakom odbicia, ponieważ pozwala odróżnić pochodzenie wiadomości.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani la msingi la ufunguo wa kibinafsi katika mfumo wa Bitcoin?
+answer: Saini shughuli ili kukidhi hati
+wrong_answers:
+  - Tumia kama kitambulisho ili kupokea bitcoins
+  - Hifadhi pesa kwa usalama kwenye Blockchain
+  - Unda maandishi ya kufunga ili kulinda bitcoins
+explanation: |
+  Ufunguo wa faragha hutumiwa kutia saini shughuli ili kukidhi hati na kufungua bitcoins.
+reviewed: false

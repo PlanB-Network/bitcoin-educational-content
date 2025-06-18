@@ -1,0 +1,9 @@
+question: Co się stanie, jeśli atakujący przechwyci zaszyfrowaną wiadomość w dobrym schemacie szyfrowania symetrycznego?
+answer: Nie powinni dowiedzieć się niczego istotnego o oryginalnej wiadomości
+wrong_answers:
+  - Zawsze mogą odszyfrować wiadomość bez klucza
+  - Powinni być w stanie odszyfrować go za pomocą klucza publicznego
+  - Powinni być w stanie odgadnąć treść wiadomości
+explanation: |
+  W dobrze zaprojektowanym schemacie szyfrowania symetrycznego atakujący przechwytujący zaszyfrowaną wiadomość nie powinien być w stanie wydedukować istotnych informacji o treści wiadomości bez klucza deszyfrującego.
+reviewed: false

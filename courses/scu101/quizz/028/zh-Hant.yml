@@ -1,0 +1,11 @@
+question: 黑客的第一個攻擊媒介是什麼？
+answer: 電子郵件
+wrong_answers:
+  - 社交媒體
+  - 線上購物網站
+  - 銀行網站
+explanation: |
+  電子郵件是駭客的第一個攻擊媒介。他們使用
+  網路釣魚嘗試擷取敏感資訊，例如
+  您的憑證和密碼。
+reviewed: false

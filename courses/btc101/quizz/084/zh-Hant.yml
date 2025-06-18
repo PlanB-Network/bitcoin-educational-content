@@ -1,0 +1,11 @@
+question: 當您擁有 Bitcoin 時，應該主要關注什麼？
+answer: 您資金的安全性。
+wrong_answers:
+  - 以美元計算的 Bitcoin 值。
+  - 擁有 bitcoins 的合法性。
+  - 使用您資金的許可。
+explanation: |
+  當您擁有比特幣時，首要關注的是您的資金安全。
+  您的資金安全。這是因為 Bitcoin 和其他任何形式的
+  貨幣一樣，如果沒有妥善保管，可能會被盜或丟失。
+reviewed: true

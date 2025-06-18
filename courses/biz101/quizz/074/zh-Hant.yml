@@ -1,0 +1,9 @@
+question: 比特幣通常在企業層面上實施哪些先進的安全功能？
+answer: 多重簽名與時鐘
+wrong_answers:
+  - 行動 Lightning Wallet 的密碼保護
+  - 具有 BIP39 passphrase 保護的單一配接
+  - 單一密碼與 24 個字的 seed 詞組
+explanation: |
+  高安全性的措施，例如多重簽名配置與時間鎖對於管理大筆資金是非常重要的。
+reviewed: false

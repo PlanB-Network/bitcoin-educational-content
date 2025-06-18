@@ -1,0 +1,9 @@
+question: Ni somo gani kuu la kujifunza kutoka kwa mfano wa penseli?
+answer: Jukumu la uratibu wa hiari katika uchumi
+wrong_answers:
+  - Ugumu wa uzalishaji wa viwandani
+  - Umuhimu wa kujua jinsi ya kuandika
+  - Umuhimu wa mipango ya kati
+explanation: |
+  Mfano wa penseli unaonyesha kuwa uratibu wa soko wa moja kwa moja unaruhusu uzalishaji wa bidhaa ngumu bila mipango kuu.
+reviewed: false

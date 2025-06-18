@@ -4,9 +4,8 @@ category: operating system
 
 level: advanced
 
-credits:
-  professor: dance-attack
-  link: https://agora256.com/installer-tails-usb/
+professor_id: ba061ee9-ef85-40a9-aa0b-a46cff642ca7
+credit_link: https://agora256.com/installer-tails-usb/
 
 # Proofreading metadata
 project_id: 9e7a387c-0583-4c05-83ff-8b5c5a48bdf8
@@ -83,13 +82,36 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.78
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 4.64
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.05
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.64
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.64
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.64
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.78
 tags:
   - guides
   - personal-security

@@ -1,0 +1,9 @@
+question: Koji mehanizam koriste online peer-to-peer (P2P) matchmaking platforme za smanjenje rizika od krađe?
+answer: Mehanizam eskroua.
+wrong_answers:
+  - Siguran algoritam za uparivanje.
+  - Mehanizam za verifikaciju e-pošte.
+  - Mehanizam za verifikaciju identiteta.
+explanation: |
+  Ove platforme obično koriste mehanizam zaštite gde se bitkoini drže dok prodavac ne potvrdi uplatu u fiat valuti. Ovaj mehanizam držanja od strane treće strane predstavlja ono što je poznato kao eskrou.
+reviewed: false

@@ -1,0 +1,9 @@
+question: HMAC-SHA512 輸出的哪一部分會用作子鏈代碼？
+answer: 最後的 32 位元組
+wrong_answers:
+  - 前 32 位元組
+  - 整個 64 位元組
+  - 中間 32 位元組的 SHA256 Hash
+explanation: |
+  HMAC-SHA512 輸出的最後 32 位元組用作子金鑰的鏈碼。
+reviewed: false

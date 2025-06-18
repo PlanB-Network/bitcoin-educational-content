@@ -1,0 +1,12 @@
+question: 在第一次 Halving 之後，流通中的比特幣估計有多少？
+answer: 10,500,000 btc。
+wrong_answers:
+  - 5,250,000 BTC。
+  - 15,750,000 btc。
+  - 21,000,000 btc。
+explanation: |
+  在第一次 Halving 發生在區塊高度
+  210,000 後，估計流通中的比特幣數量為
+  為 10,500,000 BTC，是將要流通的比特幣總數的一半。
+  比特幣將會流通。
+reviewed: true

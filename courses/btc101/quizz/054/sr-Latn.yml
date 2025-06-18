@@ -1,0 +1,10 @@
+question: Koja je druga faza fenomena hiperinflacije?
+answer: Kolaps valute & povećanje cena.
+wrong_answers:
+  - Gubitak poverenja.
+  - Zaoštreni krug štampanja novca.
+  - Pojavljuje se nova valuta.
+explanation: |
+  Druga faza hiperinflacije je kolaps valute &
+  povećanje cena, odmah nakon faze gubitka poverenja.
+reviewed: true

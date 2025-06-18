@@ -1,0 +1,10 @@
+question: Kwa nini mara nyingi ni ngumu kutumia PayJoin kwa malipo?
+answer: Inahitaji ushirikiano hai wa mpokeaji katika ujenzi
+wrong_answers:
+  - Inahitaji kiasi maalum kwa kila shughuli
+  - Inalazimisha pande zote mbili kutumia aina moja ya programu
+  - Inahitaji mlipaji kuwa na angalau UTXO 2 zaidi ya thamani ya malipo
+explanation: |
+  Ugumu wa kutumia PayJoin unatokana na utegemezi wake juu ya ushiriki wa mfanyabiashara. Kama mteja, kutumia PayJoin haiwezekani ikiwa mfanyabiashara haauni.
+  
+reviewed: false

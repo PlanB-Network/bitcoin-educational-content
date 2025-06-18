@@ -1,11 +1,9 @@
-question: What is a common scam in the field of financial investment?
-answer: Pyramid selling systems.
+question: What is the main advantage of using a password manager?
+answer: It stores and generates complex passwords
 wrong_answers:
-  - Selling physical goods.
-  - Selling software products.
-  - Selling fiat currency.
+  - It provides hints to remember your passwords
+  - It reuses the same passwords across different online accounts
+  - It replaces the need for antivirus software
 explanation: |
-  In the field of financial investment, pyramid selling systems and Ponzi
-  schemes stand out as illegal models. They operate by using new investors' money
-  to pay older participants.
+  The password manager creates strong passwords and stores them securely, allowing easy retrieval without the need to memorize them.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Zašto se jednokratni blok smatra sigurnom metodom šifrovanja?
+answer: Zato što je svaki bit ključa nasumičan i nijedan deo se ne koristi ponovo
+wrong_answers:
+  - Zato što koristi nasumični javni i privatni ključ
+  - Jer se oslanja na proste brojeve
+  - Zato što šifrira samo male poruke
+explanation: |
+  One-time pad je siguran jer je svaki bit ključa nasumičan i nikada se ne koristi ponovo, osiguravajući da ne ostavlja tragove koje napadač može iskoristiti.
+reviewed: false

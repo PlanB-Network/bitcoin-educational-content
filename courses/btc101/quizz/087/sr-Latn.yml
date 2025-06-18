@@ -1,0 +1,12 @@
+question: Šta je Multisig Wallet?
+answer: Skup novčanika koji zahteva više potpisa za obavljanje transakcije.
+wrong_answers:
+  - Wallet koji zahteva jedan potpis za obavljanje transakcije.
+  - Wallet koji ne zahteva potpise za obavljanje transakcije.
+  - Wallet koji zahteva fizički potpis za obavljanje transakcije.
+explanation: |
+  Multisig Wallet je tip Bitcoin Wallet koji zahteva
+  višestruke potpise za obavljanje transakcije. Ovo dodaje
+  dodatni Layer sigurnosti, jer znači da jedna osoba
+  ne može obaviti transakciju bez odobrenja drugih.
+reviewed: true

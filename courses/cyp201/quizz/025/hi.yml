@@ -1,0 +1,9 @@
+question: Schnorr signature की कौन सी खासियत है जो multiple public keys को एक में combine करने की अनुमति देती है?
+answer: मुख्य समूहीकरण
+wrong_answers:
+  - बैच सत्यापन (Batch Verification)
+  - लचीलापन
+  - हस्ताक्षर संक्षेपण
+explanation: |
+  स्नोर (Schnorr) कई सारे पब्लिक कीज़ (public keys) को एक ही की में जोड़ने की सुविधा देता है।
+reviewed: false

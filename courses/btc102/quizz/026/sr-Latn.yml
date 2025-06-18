@@ -1,0 +1,9 @@
+question: Koje dve karakteristike čine Bitcoin onim što je danas?
+answer: Njegov otvoreni izvorni kod i njegova oskudica
+wrong_answers:
+  - Njegova anonimnost i decentralizacija
+  - Njegova visoka vrednost i njegova volatilnost
+  - Njegova jednostavnost korišćenja i globalno prihvatanje
+explanation: |
+  Dve glavne karakteristike koje definišu Bitcoin su njegov open-source kod, koji ga čini transparentnim, proverljivim i dostupnim za korišćenje svima, i njegova oskudica, što znači da će u svetu ikada postojati samo 21 milion bitkoina.
+reviewed: false

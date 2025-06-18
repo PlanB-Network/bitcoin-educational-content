@@ -1,0 +1,8 @@
+question: Bitcoin 協定的主要特性之一是什麼？
+answer: 它對所有使用者都是中立的。
+wrong_answers:
+  - 它偏袒某些使用者而非其他使用者。
+  - 它偏向於某些使用者。
+  - 它只會讓特定的使用者受惠。
+explanation: >-
+reviewed: true

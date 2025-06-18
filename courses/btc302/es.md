@@ -29,9 +29,10 @@ Por último, se llevará a cabo una reflexión más profunda sobre la **evoluci�
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Recontextualización
+## Descripción del curso
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+¡Bienvenido al curso BTC302!
 
 Desde 2009, Bitcoin ha seguido desarrollándose. Esto incluye la implementación de nuevas Propuestas de Mejora de Bitcoin (BIP), la creación de nuevas capas para escalar la red (entre otras, Lightning Network) y el desarrollo de múltiples empresas y startups.
 
@@ -60,6 +61,34 @@ Por otro lado, ¿cómo podríamos animar a la gente nueva que llega atraída por
 ####
 
 Para estos dos problemas, la mejor solución es estar sobre el terreno y educar.
+
+El objetivo de este curso es proporcionarte todas las herramientas necesarias para crear y organizar eficazmente una comunidad o meet-up de Bitcoin. Ya sea que desees construir una iniciativa local o desarrollar un grupo en línea, este curso te guiará concretamente en cada etapa del proceso, desde la creación de tu identidad visual hasta la organización de eventos regulares, pasando por la gestión de tus canales de comunicación.
+
+**Sección 1 : Introducción**  
+Comenzaremos contextualizando la importancia de reunir a personas en torno a Bitcoin, ya sea en comunidades en línea o en meet-ups locales. Descubrirás por qué y dónde iniciar tu comunidad, así como la definición de objetivos claros para garantizar su crecimiento y sostenibilidad.
+
+**Sección 2 : Diseñar una identidad propia para tu comunidad de Bitcoin**  
+Para atraer nuevos miembros y establecer un sentido de pertenencia, es importante crear una identidad única. En esta sección aprenderás cómo diseñar un logotipo, un cartel o un banner que reflejen fielmente el espíritu de tu comunidad de Bitcoin.
+
+**Sección 3 : Crear canales de comunicación para tu comunidad de Bitcoin**  
+La comunicación es el corazón de toda comunidad. Aquí abordaremos los diferentes canales de comunicación a priorizar, así como los métodos para configurar eficazmente un grupo de Telegram o un servidor de Discord. También discutiremos la integración de bots multifuncionales para facilitar la administración de tu comunidad.
+
+**Sección 4 : Lanzar tus redes sociales**  
+La visibilidad es esencial para el desarrollo de tu comunidad. Aprenderás cómo crear un perfil dedicado en Twitter, establecer conexiones con otros meet-ups cercanos a ti, y utilizar plataformas como btcmap.org para aumentar tu visibilidad y atraer nuevos miembros.
+
+**Sección 5 : Organizar un meet-up de Bitcoin**  
+Esta sección se centra en la organización de meet-ups, desde la búsqueda de un lugar adecuado hasta la organización del evento en sí. También estudiaremos las formas de fidelizar a los participantes para garantizar un desarrollo sostenible de tu comunidad.
+
+**Sección 6 : Ejemplos de proyectos e iniciativas**  
+Para ir más allá de los simples encuentros, te ofreceremos en esta sección ejemplos de proyectos concretos y originales: eventos temáticos, talleres, creación de contenidos educativos, colaboraciones locales, y mucho más. También aprenderás a diseñar materiales físicos y digitales para promocionar tu comunidad.
+
+**Sección 7 : Anticipar el futuro**  
+Finalmente, abordaremos la evolución natural de tu comunidad. ¿Qué hacer si tu grupo crece demasiado rápido? ¿Cómo descentralizar la organización? ¿Y cómo reaccionar si el entorno regulatorio se vuelve hostil? Esta sección te ayudará a anticipar los desafíos futuros.
+
+**Sección 8 : Reunir a los Bitcoiners**  
+Esta última sección trata sobre la esencia misma de tu proyecto: federar a los entusiastas de Bitcoin en torno a una visión común. Aprenderás cómo estructurar tu enfoque para atraer y fidelizar nuevos miembros, cómo delegar tareas dentro de tu grupo, y cómo hacer crecer tu comunidad de manera sostenible.
+
+¿Listo para descubrir cómo construir una comunidad de Bitcoin sólida y dinámica? ¡Vamos allá!
 
 ## ¿Por qué crear una comunidad o meet-up bitcoin?
 
@@ -333,7 +362,7 @@ En resumen, **las posibilidades son infinitas y dependen de sus necesidades, per
 
 Para guiarle con más detalle, le ofrecemos a continuación un videotutorial no exhaustivo que presenta algunas posibilidades:
 
-![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
+:::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 ####
 
@@ -480,7 +509,7 @@ Luego lo veremos, pero **es muy recomendable que elijas "grupo de Telegram" a la
 
 Para los tutoriales que siguen, utilizaremos la aplicación APK "Telegram+"; una aplicación que permite una configuración más avanzada de Telegram. Sin embargo, esto no es necesario, ya que crear un grupo o supergrupo en Telegram ahora se puede hacer muy fácilmente en un teléfono:
 
-![Tutorial Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
+:::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 ### Crear un canal de Telegram
 
@@ -498,7 +527,7 @@ Sin embargo, es posible añadir la posibilidad de que los miembros del canal com
 
 Tutorial para crear un canal de Telegram:
 
-![Tutorial Canale Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
+:::video id=98be4709-d221-4030-8c31-e10113482515:::
 
 ### Crear un grupo de Telegram
 
@@ -522,7 +551,7 @@ Los administradores de este canal podrán entonces:
 
 Tutorial para crear un grupo de Telegram:
 
-![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
+:::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 Una nota: como se mencionó antes, el tutorial anterior se hizo en un ordenador con el APK de "Telegram+". Sin embargo, ahora es muy fácil crear un grupo de Telegram en un teléfono.
 
@@ -562,7 +591,7 @@ En general, no hay un número específico de miembros a partir del cual sea rele
 
 Tutorial para crear un supergrupo de Telegram:
 
-![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
+:::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 Nota: Como se mencionó anteriormente, el tutorial anterior se hizo en un ordenador con el APK de "Telegram+". Sin embargo, ahora es muy fácil crear un supergrupo de Telegram en un teléfono.
 
@@ -640,7 +669,7 @@ También tiene a su disposición numerosas opciones adicionales. No obstante, un
 
 Tutorial para añadir un bot multifuncional a un grupo o supergrupo en Telegram:
 
-![Tutorial bot Telegram multifunzione](https://www.youtube.com/watch?v=l72GZcEFDtU)
+:::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 Pequeña nota: como se mencionó anteriormente, ahora todo este procedimiento se puede hacer en el teléfono.
 
@@ -658,7 +687,7 @@ Obviamente, además de Telegram y Twitter, esto requiere aún más tiempo de ges
 
 Para facilitarte las cosas, **compartimos un [servidor Discord prediseñado, duplicable y editable](https://discord.com/template/bDY4eXXJk2C8) que puedes personalizar a tu gusto**:
 
-![Tutorial server Discord duplicabile](https://www.youtube.com/watch?v=i3V6_359Ajw)
+:::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 ####
 
@@ -670,7 +699,7 @@ Sin embargo, es importante tener en cuenta que su instalación no es muy fácil,
 
 Con el objetivo de ahorrarte tiempo, aquí tienes un tutorial sobre cómo añadir un bot multifuncional a un grupo o supergrupo de Telegram:
 
-![Tutorial bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
+:::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 ## Considerar otros canales de comunicación más privados y seguros
 
@@ -784,7 +813,7 @@ Por último, aunque su nombre de usuario "@Bitcoin[CIUDAD]" es único y ahora le
 
 Tutorial para crear una cuenta de Twitter:
 
-![Tutorial account Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
+:::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 ## Conexión con encuentros cercanos
 
@@ -1412,7 +1441,7 @@ Para simplificar esta tarea de creación, el siguiente tutorial le muestra en me
 
 Más adelante, podrá adquirir su propio dominio e incluso alojarlo en su propio servidor si lo desea.
 
-![Tutorial per creare un sito web WordPress gratuito](https://www.youtube.com/watch?v=cZzH4gj_kZY)
+:::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 ####
 
@@ -1482,7 +1511,7 @@ En caso de que quieras **grabar en tu ordenador, un programa gratuito como ["Aud
 
 He aquí un breve tutorial que presenta, en 10 minutos, las principales características que debe conocer para hacer un podcast con Audacity.
 
-![Tutorial per creare un podcast con Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
+:::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 Nota: Como se ha mencionado anteriormente, en el caso de que, algún día, Bitcoin sea prohibido o censurado, puede ser relevante **conservar siempre una copia local en un disco duro de los podcasts** que publique.
 
@@ -1749,7 +1778,7 @@ Por supuesto, no debemos caer en una forma de pensamiento conspirativo. Pero **n
 
 ![image](assets/fr/59.webp)
 
-# Conclusión
+# Reunir a los Bitcoiners
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1813,7 +1842,7 @@ Por fin:
 
 Con algo menos de detalle, en un vídeo de 21 minutos, se ve así:
 
-![Tutorial Comunità Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
+:::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 En cualquier caso, **recuerda que no estás solo y que las comunidades existentes están ahí para ayudarte**.
 
@@ -1846,7 +1875,7 @@ Para ello, partiremos de la experiencia de varias comunidades francesas que ya h
 
 Por supuesto, **en otros países, la legislación y el funcionamiento de las asociaciones son diferentes**. Sin embargo, varios puntos serán muy útiles para crear una asociación u organizar un evento importante; y **esperamos que otros bitcoiners vengan e integren esta formación específica para su país**.
 
-# Conclusión
+# Sección final
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 
@@ -1854,10 +1883,10 @@ Por supuesto, **en otros países, la legislación y el funcionamiento de las aso
 
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Conclusión
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-<isConclusionCurso>true</isConclusionCurso>
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,10 +1,9 @@
-question: Apa yang menjadi asal usul Bitcoin?
-answer: Internet
+question: Berapa perkiraan Supply maksimum bitcoin yang beredar?
+answer: 21 juta
 wrong_answers:
-  - Blockchain
-  - Sistem perbankan
-  - Pasar saham
+  - 10 juta
+  - 47 juta
+  - 150 juta
 explanation: |
-  Bab tersebut menyatakan bahwa Bitcoin berasal dari internet, membuatnya
-  dapat diakses oleh siapa saja yang memiliki akses internet.
+  Bitcoin diprogram untuk memiliki Supply yang terbatas, yaitu sekitar 21 juta bitcoin.
 reviewed: false

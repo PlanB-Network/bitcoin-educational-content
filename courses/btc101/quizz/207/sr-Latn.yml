@@ -1,0 +1,8 @@
+question: Koji je jedan od potencijalnih rizika ostavljanja vašeg Bitcoin na Exchange platformi?
+answer: Rizici hakovanja i blokiranja sredstava.
+wrong_answers:
+  - Rizik da platforma poveća cenu Bitcoin.
+  - Rizik od platforme koja kontroliše Supply od Bitcoin.
+  - Rizik da Bitcoin bude premašen u ceni od strane kriptovalute.
+explanation: >-
+reviewed: true

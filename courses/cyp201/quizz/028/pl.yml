@@ -1,0 +1,9 @@
+question: Jaki jest rozmiar skompresowanego klucza publicznego przy użyciu protokołu Schnorra?
+answer: 32 bajty
+wrong_answers:
+  - 33 bajty
+  - 64 bajty
+  - 128 bitów
+explanation: |
+  Klucz publiczny Schnorra jest reprezentowany tylko przez współrzędną x punktu na krzywej eliptycznej, co zmniejsza jego rozmiar do 32 bajtów.
+reviewed: false

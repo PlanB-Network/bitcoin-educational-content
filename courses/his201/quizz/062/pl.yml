@@ -1,0 +1,9 @@
+question: Na czym polega szacowanie wskaźnika Hash członka spółdzielni za pomocą częściowego Proof of Work?
+answer: Pobieranie dowodów pracy niższego stopnia niż trudność sieci generowana przez haszer
+wrong_answers:
+  - Pobieranie odcisku stempla zawierającego pierwszy bajt każdego bloku Hash wytworzonego przez hasher
+  - Comiesięczne pobieranie rachunku za energię elektryczną od użytkownika
+  - Pobieranie dowodów pracy utworzonych w sieci o niższym poziomie trudności, takiej jak BitDNS
+explanation: |
+  Ta prosta metoda została zaproponowana przez ribucka, Nilsa Schneidera i Gavina Andresena [na forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) 14 października 2010 roku. ()
+reviewed: false

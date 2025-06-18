@@ -1,13 +1,13 @@
-question: Cos'è un portafoglio multisig?
-answer: Un insieme di portafogli che richiede più firme per eseguire una transazione.
+question: Cos'è un wallet multisig?
+answer: Un insieme di wallet che richiede più firme per autorizzare una transazione.
 wrong_answers:
-  - Un portafoglio che richiede una singola firma per eseguire una transazione.
-  - Un portafoglio che non richiede firme per eseguire una transazione.
-  - Un portafoglio che richiede una firma fisica per eseguire una transazione.
+  - Un wallet che richiede una singola firma per autorizzare una transazione.
+  - Un wallet che non richiede firme per autorizzare una transazione.
+  - Un wallet che richiede una firma fisica per autorizzare una transazione.
 explanation: |
-  Un portafoglio multisig è un tipo di portafoglio Bitcoin che richiede
-  più firme per eseguire una transazione. Questo aggiunge un
+  Un wallet multisig è un tipo di wallet Bitcoin che richiede
+  più firme per autorizzare una transazione. Questo aggiunge un
   ulteriore livello di sicurezza, in quanto significa che una singola persona
-  non può eseguire una transazione senza l'approvazione di
+  non può eseguire disporre dei fondi senza l'approvazione di
   altri.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni mwaka gani kriptografia isiyolinganishwa iligunduliwa rasmi?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  Ilianzishwa na Whitfield Diffie na Martin Hellman, waandishi wawili wa maandishi kutoka Chuo Kikuu cha Stanford, katika karatasi iliyochapishwa mnamo Novemba 1976.
+reviewed: false

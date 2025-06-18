@@ -1,0 +1,9 @@
+question: Šta bi Alisa (pošiljalac) trebalo da uradi nakon što primi Bobov Invoice?
+answer: Izgradite PSBT sa njegovim UTXO i generate, zatim prenesite Consignment terminal.
+wrong_answers:
+  - Potpiši transakciju Bitcoin koja troši svoj UTXO koji sadrži Single-Use Seal
+  - Uvezite Consignment u svoj Wallet za detalje Contract
+  - Izdajte novi Invoice za problem sa sredstvom
+explanation: |
+  Alisa mora kreirati PSBT da bi potrošila UTXO povezan sa sredstvom, zatim generate Terminal Consignment koji uključuje novi prelaz ka Bobu.
+reviewed: false

@@ -1,0 +1,13 @@
+question: 軟體在 Bitcoin Mining 中扮演什麼角色，對效率有何貢獻？
+answer: Bitcoin Mining 中的軟體，如 BrainsOS Plus，可取代 Mining 機器原本的作業系統，讓相同的操作更有效率。它可以將機器的效率提高 25%，也就是說，在使用等量電力的情況下，機器可以多產生 25% 的 Hashrate，進而增加 Miner 所獲得的報酬。
+wrong_answers:
+  - Bitcoin Mining 中的軟體用於追蹤 Bitcoin 的開採數量，對效率沒有貢獻。
+  - Bitcoin Mining 中的軟體僅能為 Mining 機器提供更好的網際網路連線，若使用最新的通訊協定，則可將此類機器的效率提高 14%。
+  - Bitcoin Mining 中的軟體用於冷卻 Mining 機器，對效率沒有貢獻。
+explanation: |
+  本章說明了 BrainsOS Plus 等軟體可以
+  取代 Mining 機器的原始作業系統、
+  允許執行相同的操作
+  高效。此軟體最佳化是
+  Bitcoin Mining 的競爭力要素。
+reviewed: true

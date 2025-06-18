@@ -1,0 +1,10 @@
+question: Kiedy Lightning Network został po raz pierwszy zatwierdzony i wdrożony?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: |
+  Lightning Network został po raz pierwszy zweryfikowany i wdrożony
+  w 2017 roku.
+reviewed: true

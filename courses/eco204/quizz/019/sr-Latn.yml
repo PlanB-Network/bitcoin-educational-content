@@ -1,0 +1,9 @@
+question: Koliko epizoda hiperinflacije je dokumentovano u Hanke-Krus tabeli?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Tabela Hanke-Krus dokumentuje 56 epizoda hiperinflacije. Međutim, ne pokriva sve epizode, kao što je ona u Venecueli 2016. godine, čime se ukupan broj povećava na 57.
+reviewed: false

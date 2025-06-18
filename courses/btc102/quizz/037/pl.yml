@@ -1,0 +1,9 @@
+question: Czego należy bezwzględnie unikać, aby zapewnić bezpieczeństwo swoich bitcoinów?
+answer: Przechowywanie bitcoinów na platformie Exchange
+wrong_answers:
+  - Korzystanie z Hardware Wallet o otwartym kodzie źródłowym
+  - Korzystanie z Hot Wallet do codziennych transakcji
+  - Dywersyfikacja metod przechowywania
+explanation: |
+  Zasada "Nie twoje klucze, nie twoje bitcoiny" podkreśla znaczenie posiadania własnych kluczy prywatnych. Na platformie Exchange bitcoiny są narażone na niepotrzebne ryzyko.
+reviewed: false

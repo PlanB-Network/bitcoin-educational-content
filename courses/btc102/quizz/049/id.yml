@@ -1,11 +1,9 @@
-question: Apa karakteristik utama dari dompet DIY (Do It Yourself)?
-answer: Ini adalah solusi 100% open source yang dapat dibuat di rumah untuk mengurangi risiko kepercayaan terhadap aktor lain dalam rantai produksi atau penciptaan
+question: Apa tujuan utama dari penumpukan?
+answer: Secara bertahap mengumpulkan satoshi
 wrong_answers:
-  - Ini adalah perangkat keras untuk menyimpan bitcoin
-  - Ini adalah perangkat lunak untuk menambang bitcoin
-  - Ini adalah platform untuk membeli dan menjual bitcoin
+  - Spekulasi jangka pendek
+  - Membeli satoshi dalam jumlah besar sekaligus
+  - Menggunakan Bitcoin untuk pembayaran harian
 explanation: |
-  Konten bab menjelaskan bahwa dompet DIY (Do It Yourself) adalah solusi 100%
-  open source yang dapat dibuat di rumah untuk mengurangi risiko kepercayaan terhadap
-  aktor lain dalam rantai produksi atau penciptaan.
+  Stacker menginvestasikan sejumlah kecil uang secara berkala untuk meratakan harga pembelian dari waktu ke waktu.
 reviewed: false

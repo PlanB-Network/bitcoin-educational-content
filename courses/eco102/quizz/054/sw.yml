@@ -1,0 +1,9 @@
+question: Ni nini athari ya matumizi ya umma kwa Bastiat wakati yanafadhiliwa na deni au kodi?
+answer: Inaelekeza rasilimali kutoka kwa sekta binafsi
+wrong_answers:
+  - Inachochea mahitaji bila madhara
+  - Inaongeza uwezo wa ununuzi wa watumiaji
+  - Ni muhimu kuweka uchumi sawa
+explanation: |
+  Bastiat anasema kuwa matumizi ya umma, yanayofadhiliwa kupitia kodi au madeni, yanaelekeza fedha kutoka kwa sekta ya kibinafsi, na hivyo kupunguza uzalishaji wa mali mahali pengine katika uchumi.
+reviewed: false

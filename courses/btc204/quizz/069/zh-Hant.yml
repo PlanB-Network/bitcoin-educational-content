@@ -1,0 +1,10 @@
+question: 什麼會影響 Bitcoin 交易的權重？
+answer: 輸入和輸出的數量。
+wrong_answers:
+  - Blockchain 的尺寸。
+  - 輸入和輸出的數量。
+  - 使用的 UTXOs 年齡。
+explanation: |
+  Bitcoin 交易的輸入和輸出越多，在 vB 中就越重。
+  
+reviewed: false

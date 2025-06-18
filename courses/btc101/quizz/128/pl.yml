@@ -1,0 +1,11 @@
+question: Czego nie trzeba uwzględniać podczas tworzenia planu spadkowego?
+answer: Nazwa zwykle używanego urządzenia Bitcoin Wallet.
+wrong_answers:
+  - Odręcznie napisany list z listą aktywów.
+  - Opis sposobu uzyskania dostępu do środków.
+  - Dane kontaktowe zaufanych osób.
+explanation: |
+  stworzenie planu spadkowego jest kluczowym krokiem do zapewnienia, że bitcoiny będą odpowiednio zarządzane po śmierci.
+  Plan ten może obejmować odręczny list z listą aktywów,
+  metody dostępu do nich oraz dane kontaktowe zaufanych osób, z którymi należy się skontaktować
+reviewed: true

@@ -1,0 +1,11 @@
+question: Ni nini kuokota cherry katika muktadha wa uchumi?
+answer: Kuchuna Cherry kunahusisha kuchagua data kwa kuchagua ili kuanzisha uhusiano kati ya vigezo.
+wrong_answers:
+  - Kuchuna Cherry kunahusisha kupuuza data zote na kutegemea nadharia dhahania pekee.
+  - Kuchuna Cherry kunahusisha kutumia data zote zinazopatikana bila uteuzi wowote.
+  - Uchumaji wa Cherry unahusisha kutumia data inayounga mkono sera za serikali pekee.
+explanation: |
+  Katika uchumi, kuokota cherry kunahusisha kuchagua data ya kuanzisha
+  mahusiano kati ya vigezo. Inachukuliwa kuwa isiyo ya kisayansi na isiyo na ukali
+  mbinu.
+reviewed: true

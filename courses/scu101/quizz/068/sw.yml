@@ -1,0 +1,12 @@
+question: Ni nini sababu ya kawaida ya udhaifu wa usalama?
+answer: Uzembe wa kibinadamu.
+wrong_answers:
+  - Kukatika kwa umeme.
+  - Kasi ya polepole ya mtandao.
+  - Vifaa vilivyopitwa na wakati.
+explanation: |
+  Udhaifu wa usalama mara nyingi ni matokeo ya wanadamu
+  uzembe, kama vile kutumia nenosiri chaguo-msingi au kuandika
+  nywila katika sehemu zisizo salama. Mashambulizi ya kisasa sio
+  daima ni muhimu kuhatarisha usalama wa kompyuta.
+reviewed: true

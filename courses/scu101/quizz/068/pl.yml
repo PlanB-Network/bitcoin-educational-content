@@ -1,0 +1,12 @@
+question: Co jest częstą przyczyną luk w zabezpieczeniach?
+answer: Ludzkie zaniedbanie.
+wrong_answers:
+  - Przerwy w dostawie prądu.
+  - Niska prędkość Internetu.
+  - Przestarzały sprzęt.
+explanation: |
+  Luki w zabezpieczeniach są często wynikiem
+  zaniedbań, takich jak używanie domyślnych haseł lub zapisywanie
+  haseł w niezabezpieczonych miejscach. Wyrafinowane ataki nie zawsze są
+  zawsze konieczne, aby zagrozić bezpieczeństwu komputera.
+reviewed: true

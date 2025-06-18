@@ -1,0 +1,9 @@
+question: Kto odkrył heurystykę ponownego użycia Address?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Pierwszą osobą, która omówiła tę koncepcję był Satoshi Nakamoto w części 10 Białej Księgi Bitcoin.
+reviewed: false

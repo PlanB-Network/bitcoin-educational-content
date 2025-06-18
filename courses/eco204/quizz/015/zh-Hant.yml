@@ -1,0 +1,11 @@
+question: 根據 Bernholz 的說法，惡性通貨膨脹的定義是什麼？
+answer: 惡性通貨膨脹是高通貨膨脹的延伸，其特點是透過製造貨幣來融資的龐大預算赤字。
+wrong_answers:
+  - 惡性通貨膨脹是指貨幣 Supply 的減少。
+  - 惡性通貨膨脹是指貨幣 Supply 的適度增加。
+  - 惡性通貨膨脹是指生產減少。
+explanation: |
+  本章說明，根據 Bernholz 的看法，惡性通貨膨脹是一種
+  高通脹的延續，其特點是大量的預算赤字由
+  貨幣創造。
+reviewed: false

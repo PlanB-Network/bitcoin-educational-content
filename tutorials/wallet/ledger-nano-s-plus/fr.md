@@ -158,7 +158,7 @@ La passphrase ne doit pas être confondue avec le code PIN. Elle joue un rôle d
 
 La passphrase est un outil très puissant pour renforcer la sécurité de vos bitcoins. Toutefois, il est très important de comprendre son fonctionnement avant de l'implémenter, afin d'éviter de perdre l'accès à votre portefeuille. C'est pourquoi je vous conseille de consulter cet autre tutoriel dédié si vous souhaitez mettre en place une passphrase sur votre Ledger :
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Le menu "*PIN lock*" vous permet de configurer et d'activer le verrouillage automatique de votre Ledger après une période d'inactivité déterminée.
 
@@ -359,4 +359,5 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 Je vous conseille également de découvrir cet autre tutoriel complet sur la Ledger Flex :
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 

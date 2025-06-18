@@ -1,0 +1,10 @@
+question: Jak wynagradzani są twórcy w JoinMarket?
+answer: Poprzez opłaty uiszczane przez biorców.
+wrong_answers:
+  - Poprzez opłaty Mining.
+  - Dzięki dobrowolnym darowiznom od biorców.
+  - Dzięki dotacjom od społeczności Bitcoin.
+explanation: |
+  Twórcy pozostawiają swoje bitcoiny dostępne dla biorców i otrzymują opłaty w zamian za swoje usługi. Biorcy z kolei płacą za korzystanie z bitcoinów twórców w celu przeprowadzania własnych transakcji CoinJoin.
+  
+reviewed: false

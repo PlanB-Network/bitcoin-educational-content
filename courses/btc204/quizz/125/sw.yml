@@ -1,0 +1,10 @@
+question: Ni nini lengo kuu la ubadilishaji wa sarafu?
+answer: Ili kuhamisha kwa siri Ownership ya bitcoins
+wrong_answers:
+  - Ongeza kasi ya miamala
+  - Changanya bitcoins
+  - Kwa siri Exchange na Altcoin kwa Bitcoin
+explanation: |
+  Coinswap hutumia mikataba mahiri ili kuwezesha uhamishaji wa Bitcoin Ownership kati ya watumiaji wawili, bila hitaji la uaminifu na bila uhamishaji huu kuonekana wazi kwenye Blockchain.
+  
+reviewed: false

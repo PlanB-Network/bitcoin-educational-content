@@ -1,0 +1,9 @@
+question: Mifumo ya Biashara husasishaje orodha kiotomatiki?
+answer: Kupitia vichochezi vya mtiririko wa kazi
+wrong_answers:
+  - Sasisho za mikono
+  - Upakiaji wa mwisho wa siku
+  - Ripoti zilizopangwa
+explanation: |
+  Mtiririko wa kazi huchochea kusasisha mifumo kwa wakati halisi.
+reviewed: false

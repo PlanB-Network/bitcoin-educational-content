@@ -1,0 +1,8 @@
+question: Miksi Vaubanin mukaan on oikein ja luonnollista, että kaikki maksavat veroja?
+answer: Koska valtio tarjoaa palvelujaan kaikille, on vain oikeudenmukaista, että jokainen osallistuu niiden maksamiseen
+wrong_answers:
+  - Koska valtio voi kerätä enemmän veroja verottamalla koko väestöä kerralla
+  - Koska kaikki ovat elämänsä aikana joskus rikkaita ja joskus köyhiä, on parempi verottaa kaikkia yhdenmukaisesti
+  - Koska se auttaa rahoittamaan sotia ja varmistamaan valtakunnan suuruuden -
+explanation: |
+  Vauban uskoi, että verotuksen tulisi olla yleistä, koska kaikki kansalaiset hyötyivät valtion palveluista, kuten turvallisuudesta, oikeudesta ja infrastruktuurista. Siksi hän piti oikeudenmukaisena, että jokainen osallistuisi niiden rahoittamiseen varojensa mukaan.

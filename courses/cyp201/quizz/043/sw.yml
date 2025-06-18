@@ -1,0 +1,9 @@
+question: Je, ni biti ngapi za entropy zinazotumika kwa maneno 24 ya Mnemonic?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - Biti 512
+  - 64 bits
+explanation: |
+  Neno la maneno 24 la Mnemonic linatokana na bits 256 za entropy, kuhakikisha usalama wa juu sana.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 與法定貨幣相比，Bitcoin 的觀感如何？
+answer: 作為平行經濟。
+wrong_answers:
+  - 作為替代經濟。
+  - 作為一個工業經濟體。
+  - 作為第三級經濟體。
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co oznacza zmiana w transakcji?
+answer: Wyjście, które powraca do pierwotnego nadawcy transakcji.
+wrong_answers:
+  - Opłata pobierana przez sieć Bitcoin.
+  - Dane wyjściowe przekazywane do odbiorcy transakcji.
+  - Premia przyznawana nadawcy za szybkie transakcje.
+explanation: |
+  Change to wynik, który reprezentuje część danych wejściowych niewykorzystanych do realizacji płatności, a tym samym powraca do pierwotnego nadawcy transakcji.
+reviewed: false

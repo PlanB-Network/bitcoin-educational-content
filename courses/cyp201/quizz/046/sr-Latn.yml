@@ -1,0 +1,9 @@
+question: Koliko bitova ima kontrolni zbir za entropiju od 128 bitova?
+answer: 4 bita
+wrong_answers:
+  - 8 bita
+  - 16 bita
+  - 6 bita
+explanation: |
+  Dužina kontrolnog zbira se izračunava pomoću formule CS = ENT / 32, što iznosi 4 bita za entropiju od 128 bita.
+reviewed: false

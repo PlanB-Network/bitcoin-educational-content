@@ -1,0 +1,10 @@
+question: Kati ya chaguzi hizi, ni ipi ambayo sio njia ya uteuzi wa sehemu otomatiki?
+answer: Malipo ya Kimya
+wrong_answers:
+  - Tawi-na-Limefungwa
+  - FIFO
+  - Knapsack Solver
+explanation: |
+  Tofauti na chaguzi zingine tatu, Malipo ya Kimya sio njia ya kuchagua sehemu, lakini itifaki ya kutumia anwani tuli.
+  
+reviewed: false

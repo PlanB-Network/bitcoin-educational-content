@@ -1,11 +1,9 @@
-question: Jaká je role těžařů v síti Bitcoin?
-answer: Zaznamenávat šířené transakce do blockchainu Bitcoinu
+question: Jaká vlastnost především odlišuje Bitcoin od altcoinů?
+answer: Decentralizace
 wrong_answers:
-  - Vytvářet nové bitcoiny
-  - Regulovat hodnotu bitcoinů
-  - Ověřovat identitu uživatelů Bitcoinu
+  - Likvidita
+  - Reputace
+  - Ochrana osobních údajů
 explanation: |
-  Těžaři v síti Bitcoin jsou zodpovědní za zaznamenávání transakcí,
-  které byly šířeny po síti do blockchainu Bitcoinu. To zajišťuje
-  konečnost transakcí.
+  Bitcoin je známý svou decentralizací, na rozdíl od většiny altcoinů, které jsou více či méně centralizované.
 reviewed: false

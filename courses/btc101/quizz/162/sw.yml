@@ -1,0 +1,12 @@
+question: Je, ni nini nafasi ya wachimbaji katika itifaki ya Bitcoin?
+answer: Wanalinda mtandao wa sasa na wa kihistoria.
+wrong_answers:
+  - Wanadhibiti bei ya Bitcoin.
+  - Wanadhibiti Supply ya Bitcoin.
+  - Wanasimamia shughuli kati ya watumiaji.
+explanation: |
+  Wachimbaji katika itifaki ya Bitcoin wanalinda wote wa sasa na
+  mtandao wa kihistoria. Hawasimamii bei ya
+  Bitcoin, dhibiti Supply yake, wala usisimamie miamala
+  kati ya watumiaji.
+reviewed: true

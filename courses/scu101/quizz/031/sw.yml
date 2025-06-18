@@ -1,0 +1,12 @@
+question: Unapaswa kufanya nini ukigundua virusi kwenye kompyuta yako?
+answer: Tenganisha kutoka kwa mtandao, tafuta kingavirusi kamili na ufute faili zilizoambukizwa.
+wrong_answers:
+  - Endelea kutumia kompyuta kama kawaida.
+  - Zima kompyuta na uiache kwa saa chache.
+  - Futa faili zote kwenye kompyuta.
+explanation: |
+  Ukigundua virusi kwenye kompyuta yako, unapaswa
+  iondoe kwenye mtandao ili kuzuia virusi kutoka
+  kueneza au kuwasiliana na mdukuzi. Kisha, fanya a
+  Scan kamili ya antivirus na ufute faili zilizoambukizwa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Tawi la kriptografia linalotumia jozi ya funguo za umma na za kibinafsi linaitwaje?
+answer: Kriptografia isiyolinganishwa
+wrong_answers:
+  - Siri linganifu
+  - Fiche ya mono-algorithmic
+  - Kriptografia jumuishi
+explanation: |
+  Usimbaji fiche usiolinganishwa unatokana na matumizi ya jozi ya funguo, za umma na za faragha, zinazoruhusu usimbaji fiche bila kushiriki ufunguo wa siri.
+reviewed: false

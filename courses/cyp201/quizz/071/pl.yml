@@ -1,0 +1,9 @@
+question: Jaka głębokość ścieżki derywacji określa typ waluty?
+answer: Głębokość 2
+wrong_answers:
+  - Głębokość 1
+  - Głębokość 3
+  - Głębokość 4
+explanation: |
+  Głębokość 2 jest używana do identyfikacji waluty w portfelach wielowalutowych, takich jak Bitcoin (indeks 0') lub Litecoin (indeks 2').
+reviewed: false

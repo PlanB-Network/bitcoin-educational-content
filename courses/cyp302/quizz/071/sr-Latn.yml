@@ -1,0 +1,8 @@
+question: Kako dešifrovanje funkcioniše u šifru pomaka?
+answer: Oduzimanjem ključa od svakog šifrovanog slova i primenom modulo 26
+wrong_answers:
+  - Oduzimanjem ključa od svakog šifrovanog slova i primenom modulo 20
+  - Množenjem ključa sa svakim šifrovanim slovom
+  - Deljenjem ključa od svakog šifrovanog slova i primenom modulo 27
+explanation: |
+  U šifri pomaka, dešifrovanje se vrši oduzimanjem ključa od svakog šifrovanog slova, zatim primenom modulo 26 da bi se vratilo na originalni tekst. Modulo 26 omogućava povratak na početak abecede nakon slova Z.

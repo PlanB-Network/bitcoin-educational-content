@@ -1,0 +1,13 @@
+---
+term: BLOCKSIZE WAR
+---
+
+Odnosi się do okresu intensywnej debaty i konfliktu w społeczności Bitcoin w latach 2015-2017. Konflikt ten koncentrował się na tym, czy rozmiar bloku, który został ograniczony do 1 megabajta od 2010 roku przez Satoshi Nakamoto, powinien zostać zwiększony, aby umożliwić Bitcoin przetwarzanie większej liczby transakcji na blok, poprawiając w ten sposób skalowalność.
+
+
+Zwolennicy zwiększenia rozmiaru bloku (znani jako "*big blockers*"), na czele z wczesnymi deweloperami, takimi jak Jeff Garzik, Gavin Andresen i Mike Hearn, wpływowymi postaciami w ekosystemie, takimi jak Roger Ver, a także znaczną częścią głównych firm Mining, argumentowali, że zwiększenie to było konieczne w celu zmniejszenia opłat transakcyjnych i zwiększenia skalowalności Bitcoin. Uważali oni, że zmianę tę można wprowadzić bez narażania bezpieczeństwa systemu. Z drugiej strony, przeciwnicy zwiększenia rozmiaru bloku (określani jako "*small blockers*"), głównie deweloperzy Bitcoin Core (Pieter Wuille, Peter Todd, Gregory Maxwell, Wladimir van der Laan, Luke Dashjr...) i część społeczności technicznej, twierdzili, że ta modyfikacja scentralizuje system ze względu na zwiększone obciążenie operacyjne węzłów. Zwrócili uwagę na rozwiązania skalowalności drugiego Layer, takie jak Lightning Network, które obsługiwałyby dużą liczbę transakcji bez konieczności zmiany protokołu bazowego.
+
+
+Debata nad skalowalnością Bitcoin trwa od co najmniej 2010 roku, a pierwsza próba zwiększenia rozmiaru bloku miała miejsce w październiku tego samego roku za sprawą [poprawki zaproponowanej przez Jeffa Garzika](https://bitcointalk.org/index.php?topic=1347.0). Jednak to w okresie Blocksize War w latach 2015-2017 konflikty były najbardziej zacięte, z kilkoma próbami forków (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, SegWit, SegWit2X i Bitcoin Cash), strategiami propagandy i wpływów, a także osobistymi atakami. Porzucenie Hard Fork SegWit2X w dniu 8 listopada 2017 r., po masowym sprzeciwie ze strony społeczności ("NO2X"), jest często postrzegane jako wydarzenie oznaczające koniec wojny o rozmiar bloków, podczas gdy casus belli jest czasami uważany za aktualizację 0.11A klienta Bitcoin XT, która wdrożyła BIP101 w dniu 15 sierpnia 2015 roku. Można również argumentować, że Blocksize War zakończyła się 24 sierpnia 2017 r., w dniu, w którym Soft Fork SegWit został aktywowany po kampanii na rzecz "UASF".
+
+W języku angielskim zazwyczaj odnosimy się do "wojny blokowej" jako rzeczownika własnego. Niektórzy mogą czasami tłumaczyć ten termin jako "wojna blokowa" lub "block size war"

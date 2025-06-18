@@ -1,0 +1,10 @@
+question: Koje je zlatno pravilo Bitcoin investicije?
+answer: Nije tvoj ključ, nisu tvoji Bitcoini.
+wrong_answers:
+  - Nikada ne ulaži više nego što možeš priuštiti da izgubiš.
+  - Izbegavaj šta je trendi.
+  - Planiranje i dugoročna vizija su ključni za uspeh u finansijama.
+explanation: |
+  Zlatno pravilo Bitcoin investicije je Nije tvoj ključ, nisu tvoji Bitcoini.
+  To znači da ako nemaš kontrolu nad svojim privatnim ključem, zapravo ne poseduješ svoje Bitcoine.
+reviewed: false

@@ -1,7 +1,7 @@
 id: a1588109-ecc7-46cf-a067-08bca5d16f2d
 title: "Bitcoin Core Security Advisories"
 author: Bitcoin Core Team
-level: wizard
+level: expert
 publication_date: 2018-09-20
 link:
   - website: https://bitcoincore.org/en/security-advisories/

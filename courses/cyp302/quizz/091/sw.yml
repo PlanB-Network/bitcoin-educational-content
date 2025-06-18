@@ -1,0 +1,9 @@
+question: Je, kuna tofauti gani kuu kati ya kisifa ya mkondo wa awali na msimbo wa mkondo wa kisifa wa msimbo?
+answer: Sifa ya awali ya mkondo haijajengwa kutoka kwa block cipher.
+wrong_answers:
+  - Sifa ya awali ya mtiririko inahitaji uwekaji wa ujumbe.
+  - Cipher block mkondo wa cipher hutumia vizuizi vya ukubwa tofauti.
+  - Cipher ya mtiririko wa block cipher haiwezi kutumika kwa data kubwa.
+explanation: |
+  Cipher ya mtiririko wa awali, kama Salsa20, imeundwa bila ya msimbo wa kuzuia, wakati mkondo wa cipher cipher hutumia block cipher kama msingi wake, iliyorekebishwa ili kutoa mtiririko wa usimbaji fiche.
+reviewed: false

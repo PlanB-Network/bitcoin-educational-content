@@ -1,0 +1,9 @@
+question: Je, mtaji ulioundwa kiholela kutoka kwa pesa zinazotokana na deni unatofautiana vipi na mtaji wa mtindo wa Austria?
+answer: Mtaji wa mtindo wa Austria unatokana na akiba na dhabihu halisi, huku mtaji unaotegemea deni huundwa papo hapo kutoka kwa mkopo na unaweza kupotosha ishara za kiuchumi.
+wrong_answers:
+  - Mji mkuu wa mtindo wa Austria hutolewa kwa uchapishaji wa pesa zaidi wakati wowote unapohitajika.
+  - Mtaji unaotegemea deni kamwe hauhitaji ulipaji na ni sawa na akiba halisi.
+  - Hakuna tofauti; aina zote mbili za mtaji zinafanana kwa asili na athari.
+explanation: |
+  Mji mkuu wa Austria unatokana na matumizi halisi ya awali na uwekezaji makini. Mtaji unaotokana na deni, unaoundwa kwa urahisi kupitia mikopo, unaweza kuwapotosha wafanyabiashara na kusababisha uwekezaji usiofaa, kwani hauonyeshi akiba ya kweli au mapendeleo ya watumiaji.
+reviewed: false

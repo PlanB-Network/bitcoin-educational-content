@@ -1,0 +1,23 @@
+id: 6bec9f86-93f6-4d7e-8887-7de11916bc57
+start_date: 2025-04-24 18:00:00
+end_date: 2025-04-24 20:00:00
+timezone: America/Mexico_City
+address_city_country: Mexico City, Mexico
+name: Privacidad y Ciberseguridad Bitdevs CDMX
+type: meetup
+description: "En esta versión de Bitdevs CDMX, tenemos a dos invitados que son
+  unos auténticos cracks en el espacio bitcoin y tecnología de la libertad.
+  Santiago Fuentes, cofundador de Delta Protect, nos acompañará por primera
+  ocasión cómo speaker en La Casa de Satoshi. Delta Protect es una empresa de
+  ciberseguridad para empresas y sus clientes incluyen empresas de la industria
+  bitcoin. Nuestro querido cofundador de La CdS y CEO de Swapido, Gustavo
+  Flores, nos acompañará de nuevo. "
+language:
+  - es
+links:
+  website: https://lu.ma/2jclwk8d
+project_id: af197ba8-460b-4523-80f4-36b5fe3d54b9
+tags:
+  - privacy
+  - adoption
+  - software

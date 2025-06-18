@@ -1,0 +1,8 @@
+question: Madhumuni ya mabwawa ya Mining ni nini?
+answer: Mabwawa ya Mining huruhusu wachimbaji kukusanya rasilimali zao za kompyuta na kupokea zawadi ndogo lakini za kawaida zaidi.
+wrong_answers:
+  - Mabwawa ya Mining hutumiwa kuongeza Hashrate ya mtandao wa jumla wa Bitcoin.
+  - Mabwawa ya Mining hutumiwa kupunguza ugumu wa Mining.
+  - Madimbwi ya maji ya Mining hutumika kuongeza thawabu kwa Mining.
+explanation: >-
+reviewed: true

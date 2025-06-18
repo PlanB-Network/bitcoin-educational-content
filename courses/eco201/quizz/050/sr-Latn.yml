@@ -1,0 +1,12 @@
+question: Kakvo je mišljenje austrijskih ekonomista o određivanju kamatnih stopa?
+answer: Austrijski ekonomisti naglašavaju da proizvoljno postavljanje kamatne stope može dovesti do ekonomskih kriza.
+wrong_answers:
+  - Austrijski ekonomisti veruju da vlada treba da postavlja kamatne stope.
+  - Austrijski ekonomisti veruju da kamatne stope treba da budu fiksne i nepromenljive.
+  - Austrijski ekonomisti veruju da kamatne stope treba da određuje centralna banka.
+explanation: |
+  Austrijski ekonomisti naglašavaju da proizvoljno postavljanje kamatne stope
+  može dovesti do ekonomskih kriza i učiniti kalkulaciju nemogućom u socijalističkom režimu.
+  Oni tvrde da su odnosi vrednovanja subjektivni, pa kamatne stope mogu varirati
+  u zavisnosti od pojedinaca i okolnosti.
+reviewed: true

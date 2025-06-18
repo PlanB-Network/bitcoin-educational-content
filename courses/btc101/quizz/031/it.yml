@@ -3,11 +3,11 @@ answer: Viene utilizzato per pagare le tasse.
 wrong_answers:
   - È divisibile.
   - È trasportabile.
-  - È senza permessi.
+  - È permissionless.
 explanation: |
   Bitcoin, grazie alle sue proprietà come la divisibilità,
-  verificabilità, l'aspetto senza permessi e la trasportabilità,
-  offre un eccellente deposito di valore. Inoltre, come valuta neutrale
-  di internet, rappresenta un buon mezzo di scambio
+  verificabilità, l'aspetto permissionless e la trasportabilità,
+  è un'eccellente riserva di valore. Come valuta neutrale
+  di internet, inoltre, rappresenta un buon mezzo di scambio
   che non conosce confini.
 reviewed: true

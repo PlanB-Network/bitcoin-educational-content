@@ -1,0 +1,9 @@
+question: Która z poniższych metod NIE jest jedną z trzech głównych metod pozyskiwania Bitcoin?
+answer: Otrzymanie Bitcoin jako dotacji rządowej na rozwój biznesu.
+wrong_answers:
+  - Uzyskanie Bitcoin w Exchange za towary lub usługi.
+  - Mining Bitcoin poprzez specjalistyczny sprzęt i zużycie energii.
+  - Zakup Bitcoin od platformy lub brokera.
+explanation: |
+  Rozdział wspomina o trzech głównych sposobach pozyskania Bitcoin: zaakceptowanie go jako zapłaty, wydobycie lub zakup. Otrzymanie Bitcoin jako dotacji rządowej nie jest uznaną standardową metodą pozyskiwania.
+reviewed: false

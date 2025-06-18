@@ -1,0 +1,9 @@
+question: Co odróżnia nowoczesny schemat kryptograficzny od prostego schematu szyfrowania?
+answer: Zapewnienie integralności i autentyczności wiadomości
+wrong_answers:
+  - Użycie pojedynczego tajnego klucza
+  - Decentralizacja kluczowych
+  - Anonimizacja wiadomości
+explanation: |
+  Nowoczesna kryptografia obejmuje schematy, które wykraczają poza poufność, zapewniając integralność i autentyczność, a także niezaprzeczalność, w przeciwieństwie do prostych schematów szyfrowania.
+reviewed: false

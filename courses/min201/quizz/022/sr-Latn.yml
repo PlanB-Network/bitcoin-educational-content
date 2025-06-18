@@ -1,0 +1,11 @@
+question: Na čemu će rudari računati za kompenzaciju nakon što svih 21 milion bitkoina bude stvoreno?
+answer: Rudari će se oslanjati isključivo na naknade za transakcije za kompenzaciju.
+wrong_answers:
+  - Rudari će se oslanjati isključivo na nagrade za blokove za kompenzaciju.
+  - Rudari će se oslanjati isključivo na potvrde transakcija za nadoknadu.
+  - Rudari će se oslanjati isključivo na naknade mreže za kompenzaciju.
+explanation: |
+  Do 2140. godine, neće biti kreirano novih bitkoina. U tom trenutku,
+  rudari će se oslanjati isključivo na naknade za transakcije za
+  kompenzaciju.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Je, ni awamu gani ya mwisho inayotokea katika hali ya mfumuko wa bei?
+answer: Sarafu mpya inaibuka.
+wrong_answers:
+  - Kupoteza imani katika sarafu.
+  - Kuporomoka kwa sarafu na ongezeko la bei.
+  - Mzunguko mbaya wa uchapishaji wa pesa.
+explanation: |
+  Awamu ya mwisho ya mfumuko wa bei hutokea wakati mpya
+  sarafu inaletwa kuchukua nafasi ya ile ya zamani.
+reviewed: true

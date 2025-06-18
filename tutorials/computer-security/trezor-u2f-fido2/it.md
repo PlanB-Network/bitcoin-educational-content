@@ -1,16 +1,16 @@
 ---
 name: Trezor U2F e FIDO2
-description: Rafforzate la vostra sicurezza online con Trezor
+description: Rafforza la tua sicurezza online con Trezor
 ---
 ![cover](assets/cover.webp)
 
 
 
-I dispositivi Trezor sono portafogli hardware originariamente progettati per proteggere un Bitcoin Wallet, ma sono anche dotati di opzioni avanzate per un'autenticazione forte sul web. Grazie alla compatibilità con i protocolli **U2F** e **FIDO2**, consentono di proteggere l'accesso ai propri account online senza affidarsi esclusivamente alle password.
+I dispositivi Trezor sono hardware wallet originariamente progettati per proteggere un wallet bitcoin, ma sono anche dotati di opzioni avanzate per un'autenticazione forte sul web. Grazie alla compatibilità con i protocolli **U2F** e **FIDO2**, consentono di proteggere l'accesso ai propri account online senza affidarsi esclusivamente alle password.
 
 
 
-Il protocollo U2F (*Universal 2nd Factor*) è stato introdotto da Google e Yubico nel 2014 e poi standardizzato dalla FIDO Alliance. Consente di aggiungere un secondo fattore di autenticazione fisica (2FA) al momento dell'accesso. Una volta attivato, oltre alla classica password, gli utenti devono approvare ogni tentativo di connessione al proprio account premendo un pulsante sul proprio Trezor. In questo contesto, il Trezor funziona in modo simile a uno Yubikey.
+Il protocollo U2F (*Universal 2nd Factor*) è stato introdotto da Google e Yubico nel 2014 e poi standardizzato dalla FIDO Alliance. Consente di aggiungere un secondo fattore di autenticazione fisico (2FA) al momento dell'accesso. Una volta attivato, oltre alla classica password, gli utenti devono approvare ogni tentativo di connessione al proprio account premendo un pulsante sul proprio Trezor. In questo contesto, Trezor funziona in modo simile a uno Yubikey.
 
 
 
@@ -26,11 +26,11 @@ Oltre alla funzionalità "senza password*", FIDO2 consente anche l'autenticazion
 
 
 
-FIDO2 introduce anche la nozione di credenziali residenti, ossia identificativi memorizzati direttamente nel Trezor, che comprendono sia la chiave privata che consente la connessione sia le informazioni di identificazione dell'utente. Questo meccanismo consente un'autenticazione realmente priva di password: è sufficiente collegare il Trezor e confermare l'accesso, senza inserire né ID né password. Al contrario, le credenziali non residenti, più convenzionali, memorizzano solo la chiave privata nel dispositivo; l'ID utente rimane memorizzato sul lato server e deve quindi essere inserito a ogni connessione. Vedremo più avanti come salvarle con Trezor.
+FIDO2 introduce anche la nozione di credenziali residenti, ossia identificativi memorizzati direttamente nel Trezor, che comprendono sia la chiave privata che consente la connessione sia le informazioni di identificazione dell'utente. Questo meccanismo consente un'autenticazione realmente priva di password: è sufficiente collegare Trezor e confermare l'accesso, senza inserire né ID né password. Al contrario, le credenziali non residenti, più convenzionali, memorizzano solo la chiave privata nel dispositivo; l'ID utente rimane memorizzato sul lato server e deve quindi essere inserito a ogni connessione. Vedremo più avanti come salvarle con Trezor.
 
 
 
-In questo tutorial scopriremo come attivare U2F o FIDO2 per l'autenticazione a due fattori e come configurare FIDO2 per accedere ai vostri account senza password, direttamente con il vostro Trezor.
+In questo tutorial scopriremo come attivare U2F o FIDO2 per l'autenticazione a due fattori e come configurare FIDO2 per accedere ai tuoi account senza password, direttamente con il tuo Trezor.
 
 
 
@@ -42,11 +42,11 @@ In questo tutorial scopriremo come attivare U2F o FIDO2 per l'autenticazione a d
 
 
 
-Prima di iniziare, assicurarsi di aver impostato il Bitcoin Wallet sul proprio Trezor. È importante salvare correttamente il Mnemonic, poiché le chiavi utilizzate per U2F e FIDO2 nell'autenticazione a due fattori derivano da questo Mnemonic. Se il Trezor viene smarrito o danneggiato, è possibile recuperare l'accesso alle chiavi inserendo la frase Mnemonic su un altro dispositivo Trezor (si noti che per le credenziali FIDO2 in modalità "*passwordless*", il solo seed non è sufficiente, come vedremo nelle prossime sezioni).
+Prima di iniziare, assicurati di aver impostato il wallet bitcoin sul tuo Trezor. È importante salvare correttamente la Mnemonic, poiché le chiavi utilizzate per U2F e FIDO2 nell'autenticazione a due fattori derivano da questa Mnemonic. Se il tuo Trezor viene smarrito o danneggiato, puoi recuperare l'accesso alle chiavi inserendo la frase Mnemonic su un altro dispositivo Trezor (nota che per le credenziali FIDO2 in modalità "*passwordless*", il solo seed non è sufficiente, come vedremo nelle prossime sezioni).
 
 
 
-Collegare il Trezor al computer e sbloccarlo.
+Collega Trezor al computer e sbloccalo.
 
 
 
@@ -54,7 +54,7 @@ Collegare il Trezor al computer e sbloccarlo.
 
 
 
-Accedere all'account che si desidera proteggere con l'autenticazione a due fattori. Ad esempio, utilizzerò un account Bitwarden. Di solito l'opzione 2FA si trova nelle impostazioni del servizio, sotto le schede "*autenticazione*", "*sicurezza*", "*login*" o "*password*".
+Accedi all'account che desideri proteggere con l'autenticazione a due fattori. Ad esempio, utilizzerò un account Bitwarden. Di solito l'opzione 2FA si trova nelle impostazioni del servizio, sotto le schede "*authentication*", "*security*", "*login*" o "*password*".
 
 
 
@@ -62,7 +62,7 @@ Accedere all'account che si desidera proteggere con l'autenticazione a due fatto
 
 
 
-Nella sezione dedicata all'autenticazione a due fattori, selezionare l'opzione "*Passkey*" (il termine può variare a seconda del sito utilizzato).
+Nella sezione dedicata all'autenticazione a due fattori, seleziona l'opzione "*Passkey*" (il termine può variare a seconda del sito utilizzato).
 
 
 
@@ -70,7 +70,7 @@ Nella sezione dedicata all'autenticazione a due fattori, selezionare l'opzione "
 
 
 
-Spesso vi verrà chiesto di confermare la vostra password attuale.
+Probabilmente ti verrà chiesto di confermare la tua password attuale.
 
 
 
@@ -78,7 +78,7 @@ Spesso vi verrà chiesto di confermare la vostra password attuale.
 
 
 
-Assegnare un nome alla chiave di sicurezza per facilitarne il riconoscimento, quindi fare clic su "*Leggi chiave*".
+Assegna un nome alla chiave di sicurezza per facilitarne il riconoscimento, quindi clicca su "*Read Key*".
 
 
 
@@ -86,7 +86,7 @@ Assegnare un nome alla chiave di sicurezza per facilitarne il riconoscimento, qu
 
 
 
-I dettagli dell'account appariranno sullo schermo di Trezor. Toccare lo schermo o premere il pulsante per confermare. Verrà inoltre richiesto di confermare il codice PIN.
+I dettagli dell'account appariranno sullo schermo del Trezor. Tocca lo schermo o premi il pulsante per confermare. Verrà inoltre richiesto di confermare il codice PIN.
 
 
 
@@ -94,7 +94,7 @@ I dettagli dell'account appariranno sullo schermo di Trezor. Toccare lo schermo 
 
 
 
-Registrare questa chiave di sicurezza.
+Registra questa chiave di sicurezza.
 
 
 
@@ -102,7 +102,7 @@ Registrare questa chiave di sicurezza.
 
 
 
-D'ora in poi, quando vorrete collegarvi al vostro account, oltre alla solita password, vi verrà chiesto di collegare il vostro Trezor.
+D'ora in poi, quando vorrai collegarti al tuo account, oltre alla solita password, ti verrà chiesto di collegare il tuo Trezor.
 
 
 
@@ -110,7 +110,7 @@ D'ora in poi, quando vorrete collegarvi al vostro account, oltre alla solita pas
 
 
 
-È quindi possibile premere lo schermo del Trezor per confermare l'autenticazione.
+È quindi possibile premere lo schermo su Trezor per confermare l'autenticazione.
 
 
 
@@ -118,11 +118,11 @@ D'ora in poi, quando vorrete collegarvi al vostro account, oltre alla solita pas
 
 
 
-Il vantaggio di utilizzare un Trezor Hardware Wallet per l'autenticazione a due fattori è che è possibile recuperare facilmente le chiavi grazie alla frase Mnemonic. Oltre a questo backup di base, è possibile utilizzare un codice di emergenza fornito da ogni servizio in cui è stata attivata la 2FA. Questo codice di emergenza consente di collegarsi al proprio account in caso di smarrimento della chiave di sicurezza. Sostituisce quindi il 2FA per una connessione, se necessario.
+Il vantaggio di utilizzare l'hardware wallet Trezor per l'autenticazione a due fattori è che è possibile recuperare facilmente le chiavi grazie alla frase Mnemonic. Oltre a questo backup di base, puoi utilizzare un codice di emergenza fornito da ogni servizio in cui è stata attivata la 2FA. Questo codice di emergenza consente di collegarsi al proprio account in caso di smarrimento della chiave di sicurezza. Sostituisce quindi il 2FA per una connessione, se necessario.
 
 
 
-Su Bitwarden, ad esempio, è possibile accedere a questo codice facendo clic su "*Vedi codice di recupero*".
+Su Bitwarden, ad esempio, è possibile accedere a questo codice cliccando su "*View recovery code*".
 
 
 
@@ -130,16 +130,16 @@ Su Bitwarden, ad esempio, è possibile accedere a questo codice facendo clic su 
 
 
 
-Vi consiglio di conservare questo codice in un luogo diverso da quello in cui conservate la password principale, per evitare che vengano rubati insieme. Ad esempio, se la vostra password è salvata in un password manager, conservate il codice di emergenza 2FA su carta, separatamente.
+Ti consiglio di conservare questo codice in un luogo diverso da quello in cui conservi la password principale, per evitare che vengano rubati insieme. Ad esempio, se la tua password è salvata in un password manager, conserva il codice di emergenza 2FA su carta, separatamente.
 
 
 
-Questo approccio offre due livelli di backup in caso di smarrimento del Trezor per l'autenticazione 2FA: un primo backup che utilizza la frase Mnemonic per tutti gli account e un secondo specifico per ogni account con i codici di emergenza. Tuttavia, è importante **non confondere il ruolo del Mnemonic con quello del codice di emergenza** :
+Questo approccio offre due livelli di backup in caso di smarrimento del Trezor per l'autenticazione 2FA: un primo backup che utilizza la frase Mnemonic per tutti gli account e un secondo specifico per ogni account con i codici di emergenza. Tuttavia, è importante **non confondere il ruolo della Mnemonic con quello del codice di emergenza** :
 
 
 
 
-- La frase Mnemonic, composta da 12 o 24 parole, consente di accedere non solo alle chiavi utilizzate per la 2FA su tutti gli account, ma anche ai bitcoin protetti con il Trezor;
+- La frase Mnemonic, composta da 12 o 24 parole, consente di accedere non solo alle chiavi utilizzate per il 2FA su tutti gli account, ma anche ai bitcoin protetti con Trezor;
 - Il codice di emergenza consente di bypassare temporaneamente la richiesta di 2FA solo sull'account interessato (in questo esempio, solo su Bitwarden).
 
 
@@ -148,15 +148,15 @@ Questo approccio offre due livelli di backup in caso di smarrimento del Trezor p
 
 
 
-Oltre all'autenticazione a due fattori, FIDO2 consente anche l'autenticazione "senza password", cioè senza dover inserire una password quando si accede a un sito. È sufficiente collegare il Trezor al computer per accedere al proprio account protetto. Ecco come configurare questa funzione.
+Oltre all'autenticazione a due fattori, FIDO2 consente anche l'autenticazione "senza password", cioè senza dover inserire una password quando accedi a un sito. È sufficiente collegare Trezor al computer per accedere al proprio account protetto. Ecco come configurare questa funzione.
 
 
 
-Prima di iniziare, assicurarsi di aver impostato il Bitcoin Wallet sul proprio Trezor. È importante salvare il Mnemonic, poiché gli identificatori FIDO2 "*senza password*" sono criptati con il seed (scopriremo come salvare correttamente questi identificatori nella prossima sezione).
+Prima di iniziare, assicurati di aver impostato il wallet bitcoin sul tuo Trezor. È importante salvare la Mnemonic, poiché gli identificatori FIDO2 "*senza password*" sono criptati con il seed (scopriremo come salvare correttamente questi identificatori nella prossima sezione).
 
 
 
-Collegare il Trezor al computer e sbloccarlo.
+Collega Trezor al computer e sbloccalo.
 
 
 
@@ -164,11 +164,11 @@ Collegare il Trezor al computer e sbloccarlo.
 
 
 
-Accedere all'account che si desidera proteggere in modalità "*senza password*". Utilizzerò un account Bitwarden come esempio. Questa opzione si trova solitamente nelle impostazioni del servizio, spesso sotto la scheda "*autenticazione*", "*sicurezza*" o "*password*".
+Accedi all'account che desideri proteggere in modalità "*passwordless*". Utilizzerò un account Bitwarden come esempio. Questa opzione si trova solitamente nelle impostazioni del servizio, spesso sotto la scheda "*authentication*", "*security*" o "*password*".
 
 
 
-Su Bitwarden, ad esempio, l'opzione si trova nella scheda "*Password principale*". Fare clic su "*Attiva*" per attivare l'autenticazione tramite FIDO2.
+Su Bitwarden, ad esempio, l'opzione si trova nella scheda "*Master Password*". Clicca su "*Turn on"*" per attivare l'autenticazione tramite FIDO2.
 
 
 
@@ -176,7 +176,7 @@ Su Bitwarden, ad esempio, l'opzione si trova nella scheda "*Password principale*
 
 
 
-Spesso vi verrà chiesto di confermare la password.
+Probabilmente ti verrà chiesto di confermare la password.
 
 
 
@@ -184,7 +184,7 @@ Spesso vi verrà chiesto di confermare la password.
 
 
 
-I dettagli dell'account appariranno sullo schermo di Trezor. Toccare lo schermo o premere il pulsante per confermare. È necessario confermare anche il codice PIN.
+I dettagli dell'account appariranno sullo schermo del Trezor. Tocca lo schermo o premi il pulsante per confermare. È necessario confermare anche il codice PIN.
 
 
 
@@ -192,7 +192,7 @@ I dettagli dell'account appariranno sullo schermo di Trezor. Toccare lo schermo 
 
 
 
-Sul sito, aggiungere un nome per ricordare la chiave di sicurezza, quindi fare clic su "*Accensione*".
+Sul sito, aggiungi un nome per ricordare la chiave di sicurezza, quindi clicca su "*Turn on*".
 
 
 
@@ -200,7 +200,7 @@ Sul sito, aggiungere un nome per ricordare la chiave di sicurezza, quindi fare c
 
 
 
-Vi verrà chiesto di identificarvi per verificare il corretto funzionamento della chiave.
+Ti verrà chiesto di identificarti per verificare il corretto funzionamento della chiave.
 
 
 
@@ -208,7 +208,7 @@ Vi verrà chiesto di identificarvi per verificare il corretto funzionamento dell
 
 
 
-D'ora in poi, quando si accede al proprio account, non sarà più necessario inserire l'e-mail Address o il login. È sufficiente fare clic sul pulsante per autenticarsi con una chiave fisica nel modulo di accesso.
+D'ora in poi, quando accedi al tuo account, non sarà più necessario inserire l'indirizzo e-mail o fare il login. È sufficiente cliccare sul pulsante per autenticarti con una chiave fisica nel modulo di accesso.
 
 
 
@@ -216,7 +216,7 @@ D'ora in poi, quando si accede al proprio account, non sarà più necessario ins
 
 
 
-Confermare la connessione al Trezor immettendo il PIN Hardware Wallet.
+Conferma la connessione a Trezor immettendo il PIN dell'hardware wallet.
 
 
 
@@ -224,7 +224,7 @@ Confermare la connessione al Trezor immettendo il PIN Hardware Wallet.
 
 
 
-Sarete collegati al vostro account senza dover inserire la password.
+Sarai collegato al tuo account senza dover inserire la password.
 
 
 
@@ -232,7 +232,7 @@ Sarete collegati al vostro account senza dover inserire la password.
 
 
 
-**Si prega di notare che anche se si attiva l'autenticazione "*senza password*" tramite FIDO2 sul proprio Trezor, la password principale del proprio account online sarà ancora valida ai fini del login**
+**Nota che anche se attivi l'autenticazione "*senza password*" tramite FIDO2 sul tuo Trezor, la password principale del tuo account online sarà ancora valida ai fini del login**
 
 
 
@@ -240,11 +240,11 @@ Sarete collegati al vostro account senza dover inserire la password.
 
 
 
-Se si utilizza FIDO2 o U2F per l'autenticazione a due fattori, ovvero per accedere ad account che richiedono una password oltre alla convalida 2FA tramite Trezor, la frase Mnemonic da sola recupererà l'accesso alle chiavi. Tuttavia, se si utilizza FIDO2 in modalità "*senza password*" come descritto nella sezione precedente, sarà necessario fare una copia delle credenziali FIDO oltre a eseguire il backup della frase Mnemonic che cripta tali credenziali.
+Se utilizzi FIDO2 o U2F per l'autenticazione a due fattori, ovvero per accedere ad account che richiedono una password oltre alla convalida 2FA tramite Trezor, la frase Mnemonic da sola recupererà l'accesso alle chiavi. Tuttavia, se utilizzi FIDO2 in modalità "*passwordless*" come descritto nella sezione precedente, sarà necessario fare una copia delle credenziali FIDO oltre a eseguire il backup della frase Mnemonic che cripta tali credenziali.
 
 
 
-Per farlo, è necessario un computer con Python installato. Aprite un terminale ed eseguite il seguente comando per installare il software Trezor necessario:
+Per farlo, è necessario un computer con Python installato. Apri un terminale ed esegui il seguente comando per installare il software Trezor necessario:
 
 
 
@@ -254,7 +254,7 @@ pip3 install --upgrade trezor
 
 
 
-Collegare il Trezor al computer tramite USB e sbloccarlo utilizzando il codice PIN.
+Collega Trezor al computer tramite USB e sbloccalo utilizzando il codice PIN.
 
 
 
@@ -262,7 +262,7 @@ Collegare il Trezor al computer tramite USB e sbloccarlo utilizzando il codice P
 
 
 
-Per recuperare l'elenco degli identificatori FIDO2 memorizzati su Trezor, eseguire il seguente comando:
+Per recuperare l'elenco degli identificatori FIDO2 memorizzati su Trezor, esegui il seguente comando:
 
 
 
@@ -272,7 +272,7 @@ trezorctl fido credentials list
 
 
 
-Confermare l'esportazione sul Trezor.
+Conferma l'esportazione su Trezor.
 
 
 
@@ -301,19 +301,19 @@ Credential ID:          f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b620bbbbfc7
 
 
 
-Copiate e salvate tutte queste informazioni in un file di testo. Non ci sono rischi significativi associati a questo backup, se non quello di rivelare che state utilizzando questi servizi con FIDO2. Il "*Credential ID*" è crittografato utilizzando il seed del Wallet, il che significa che un utente malintenzionato che ottenesse questo backup non sarebbe in grado di connettersi ai vostri account, ma solo di notare che li state utilizzando. Per decifrare questi ID, è necessario il seed del Wallet.
+Copia e salva tutte queste informazioni in un file di testo. Non ci sono rischi significativi associati a questo backup, se non quello di rivelare che stai utilizzando questi servizi con FIDO2. Il "*Credential ID*" è crittografato utilizzando il seed del wallet, il che significa che un utente malintenzionato che ottenesse questo backup non sarebbe in grado di connettersi ai tuoi account, ma solo di notare che li stai utilizzando. Per decifrare questi ID, è necessario il seed del wallet.
 
 
 
-È quindi possibile creare diverse copie di questo file di testo e conservarle in luoghi diversi, ad esempio localmente sul computer, su un servizio di file-hosting e su supporti esterni come una chiavetta USB. Tuttavia, si tenga presente che questo backup non viene aggiornato automaticamente, quindi è necessario rinnovarlo ogni volta che si imposta una nuova connessione "*senza password*" con il Trezor.
+È quindi possibile creare diverse copie di questo file di testo e conservarle in luoghi diversi, ad esempio localmente sul computer, su un servizio di file-hosting e su supporti esterni come una chiavetta USB. Tuttavia, tieni presente che questo backup non viene aggiornato automaticamente, quindi è necessario rinnovarlo ogni volta che imposti una nuova connessione "*passwordless*" con Trezor.
 
 
 
-Immaginiamo ora che si sia rotto il Trezor. Per recuperare le credenziali FIDO2, dovrete prima recuperare il vostro Wallet utilizzando la frase Mnemonic su un nuovo dispositivo Trezor compatibile con FIDO2.
+Immaginiamo ora che si sia rotto il tuo Trezor. Per recuperare le credenziali FIDO2, devi prima recuperare il tuo wallet utilizzando la frase Mnemonic su un nuovo dispositivo Trezor compatibile con FIDO2.
 
 
 
-Una volta completato il ripristino, per importare gli identificatori FIDO2 sul nuovo dispositivo, eseguire il seguente comando nel terminale:
+Una volta completato il ripristino, per importare gli identificatori FIDO2 sul nuovo dispositivo, esegui il seguente comando nel terminale:
 
 
 
@@ -333,7 +333,7 @@ trezorctl fido credentials add f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b62
 
 
 
-Il Trezor chiederà di importare il proprio identificativo FIDO2. Confermare premendo sullo schermo.
+Trezor chiederà di importare il tuo identificativo FIDO2. Conferma premendo sullo schermo.
 
 
 
@@ -341,15 +341,15 @@ Il Trezor chiederà di importare il proprio identificativo FIDO2. Confermare pre
 
 
 
-Il login FIDO2 è ora operativo su Trezor. Ripetere questa procedura per ogni identificatore.
+Il login FIDO2 è ora operativo su Trezor. Ripeti questa procedura per ogni identificatore.
 
 
 
-Congratulazioni, ora siete in grado di utilizzare il vostro Trezor con U2F e FIDO2! Se hai trovato utile questo tutorial, ti sarei molto grato se lasciassi un pollice Green qui sotto. Sentitevi liberi di condividere questo tutorial sui vostri social network. Grazie mille!
+Congratulazioni, ora sei in grado di utilizzare Trezor con U2F e FIDO2! Se hai trovato utile questo tutorial, ti sarei molto grato se lasciassi un pollice verde qui sotto. Sentiti libero di condividere questo tutorial sui tuoi social network. Grazie mille!
 
 
 
-Vi consiglio anche quest'altro tutorial, in cui esaminiamo un'altra soluzione per l'autenticazione U2F e FIDO2:
+Ti consiglio anche quest'altro tutorial, in cui esaminiamo un'altra soluzione per l'autenticazione U2F e FIDO2:
 
 
 

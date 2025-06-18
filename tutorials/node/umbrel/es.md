@@ -21,10 +21,10 @@ Un nodo Bitcoin es un ordenador que participa en la red Bitcoin ejecutando el so
 
 
 
-- Almacenamiento de Blockchain**: Mantiene una copia completa y actualizada del Blockchain Bitcoin
-- Verificación de transacciones**: valida cada transacción y bloque de acuerdo con las normas del protocolo
-- Difusión de la información**: Comparte nuevas transacciones y bloques con otros nodos
-- Creación de consenso**: Contribuye a la aplicación de las normas de la red
+- **Almacenamiento de Blockchain**: Mantiene una copia completa y actualizada del Blockchain Bitcoin
+- **Verificación de transacciones**: valida cada transacción y bloque de acuerdo con las normas del protocolo
+- **Difusión de la información**: Comparte nuevas transacciones y bloques con otros nodos
+- **Creación de consenso**: Contribuye a la aplicación de las normas de la red
 
 
 
@@ -34,11 +34,11 @@ Gestionar tu propio nodo Bitcoin es un paso crucial hacia la soberanía financie
 
 
 
-- Confidencialidad**: Comparte tus transacciones sin revelar tu información a terceros
-- Resistencia a la censura**: Nadie puede impedirte usar Bitcoin
-- Verificación independiente**: No necesitas confiar en nodos ajenos para verificar tus transacciones
-- Creación de consenso**: Contribuir a la aplicación de las normas de la red Bitcoin
-- Apoyo a la red**: Participe activamente en la distribución y descentralización de la red
+- **Confidencialidad**: Comparte tus transacciones sin revelar tu información a terceros
+- **Resistencia a la censura**: Nadie puede impedirte usar Bitcoin
+- **Verificación independiente**: No necesitas confiar en nodos ajenos para verificar tus transacciones
+- **Creación de consenso**: Contribuir a la aplicación de las normas de la red Bitcoin
+- **Apoyo a la red**: Participe activamente en la distribución y descentralización de la red
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS es la versión gratuita y de código abierto del sistema operativo Umbr
 
 
 
-**Limitaciones
+**Limitaciones**
 
 
 
@@ -238,7 +238,7 @@ Para esta instalación necesitarás :
 
 
 
-**Preparación de la tarjeta microSD
+**Preparación de la tarjeta microSD**
 
 
 
@@ -268,7 +268,7 @@ Para esta instalación necesitarás :
 
 
 
-**instalación de tarjeta microSD
+**instalación de tarjeta microSD**
 
 
 
@@ -295,7 +295,7 @@ Para esta instalación necesitarás :
 
 
 
-**Encendido
+**Encendido**
 
 
 
@@ -365,7 +365,7 @@ Una vez que tu Umbrel esté iniciado y accesible a través de tu navegador, sigu
 
 
 
-**Confirmación de la cuenta
+**Confirmación de la cuenta**
 
 
 
@@ -581,7 +581,7 @@ Con esta aplicación, puedes supervisar eficazmente tus transacciones, entender 
 
 
 
-**Conexión local
+**Conexión local**
 
 
 
@@ -613,7 +613,7 @@ Con esta aplicación, puedes supervisar eficazmente tus transacciones, entender 
 
 
 
-**Acceso a los parámetros
+**Acceso a los parámetros**
 
 
 
@@ -628,7 +628,7 @@ Con esta aplicación, puedes supervisar eficazmente tus transacciones, entender 
 
 
 
-**Elección del tipo de conexión
+**Elección del tipo de conexión**
 
 
 
@@ -666,7 +666,7 @@ Sparrow ofrece tres modos de conexión:
 
 
 
-*configuración *Electrs**
+***configuración Electrs***
 
 
 
@@ -678,7 +678,7 @@ En ambos casos, deja sin marcar las opciones "Usar SSL" y "Usar proxy".
 
 
 
-**Conexión local
+**Conexión local**
 
 
 Host: umbrel.local

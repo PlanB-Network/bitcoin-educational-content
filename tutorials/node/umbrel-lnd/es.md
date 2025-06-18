@@ -154,7 +154,7 @@ Puedes elegir entre crear un nodo nuevo o restaurar uno a partir de una copia de
 
 
 
-**Nota: En versiones recientes de Umbrel, la instalación de la aplicación Lightning proporciona este seed de 24 palabras (no así el propio nodo Bitcoin de Umbrel).
+**Nota:** En versiones recientes de Umbrel, la instalación de la aplicación Lightning proporciona este seed de 24 palabras (no así el propio nodo Bitcoin de Umbrel).
 
 
 
@@ -190,7 +190,7 @@ Estas opciones son esenciales para la seguridad y la gestión de tu nodo Lightni
 
 
 
-**Recursos útiles
+**Recursos útiles**
 
 
 

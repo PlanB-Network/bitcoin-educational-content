@@ -10,7 +10,7 @@ Muun (https://muun.com/) es una billetera auto custodiada para bitcoin y lightni
 
 ## tutorial en video
 
-![tutorial en video](https://youtu.be/uOl3_vjZKOA)
+![tutorial en video](https://youtu.be/t1rxp8InZW8)
 
 ## Billetera Muun - Guía de uso completa
 

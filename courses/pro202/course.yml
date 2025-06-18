@@ -1,0 +1,27 @@
+id: 63b2ff1c-4be5-11f0-9024-97513e9d2cf5
+
+topic: protocol
+subtopic: protocol
+level: intermediate
+hours: 8
+
+professors_id:
+  - 
+published_at: 2025-06-21
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-20
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 1
+tags:
+  - lightning
+  - layers
+  - technical-analysis

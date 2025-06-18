@@ -695,7 +695,7 @@ Exempel är Kraken, Coinbase eller Binance, som historiskt använts av många pr
 
 Till exempel i Frankrike är plattformar som Paymium (börs) eller BullBitcoin (mäklare) kända för att ha äkta Bitcoin-entusiaster vid rodret och har byggt en stark meritlista. I USA har du tjänsteleverantörer som River eller Swann. I allmänhet är det viktigt att undersöka leverantörens bakgrund: deras rykte, meritlista, popularitet inom Bitcoin-samhället och om deras ledarskap är i linje med Bitcoins kärnvärderingar.
 
-- **Börs vs Mäklare:**
+**Börs vs Mäklare:**
 
 - Med en **börs** kan du lägga en köporder till det pris du väljer, men du måste vänta på genomförande tills marknadspriset och säljarna stämmer överens.
 - En **mäklare** erbjuder dig ett fast pris och kan genomföra transaktionen snabbare.

@@ -896,20 +896,6 @@ Mike Caldwell en 2013 (source : [IMDb](https://www.imdb.com/fr/name/nm5669287/)
 
 Il s'intéresse particulièrement à la conservation des bitcoins, et donc aux portefeuilles. Il met au point un [utilitaire](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005) permettant de convertir une clé privée en adresse Bitcoin, de générer des clés personnalisées et de créer une graine de dérivation. Mais surtout, il s'attache, comme il [l'explique](https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), à « fabriquer un bitcoin tangible qui transporte réellement des BTC » (original: "Making a real tangible bitcoin that actually conveys BTC"). C'est ainsi qu'il [vend](https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) des portefeuilles papier dès le mois de juin sur son site personnel.
 
-
-
-En janvier 2011, il [cherche
-
-Vente de bitcoins-papier : "Finally, a Paper Bitcoin Wallet" [24/6
-
-Continuer à lire.... https://bitcointalk.org/index.php?action=profile;u=2676;sa=showPosts;start=3680
-
-Casascius Bitcoin Address Utility [1/7](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005)
-
-[énigme](https://bitcointalk.org/index.php?topic=28877.msg363418#msg363418)
-
-Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https://www.casascius.com/ "Deterministic Paper Wallet Generator & Bitcoin Utility for Windows (SOURCE)" [3/8](https://bitcointalk.org/index.php?topic=34163.msg425990#msg425990)
-
 Le 19 août, il [partage](https://bitcointalk.org/index.php?topic=38048.msg467209#msg467209) publiquement son projet de fabriquer des « vrais bitcoins physiques ». Le 6 septembre, il commence à en fabriquer. Le 6 septembre, il [annonce](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883) mettre en vente les « bitcoins physiques de Casascius » (original: "Casascius Physical Bitcoins"), qu'on connaitre plus communément sous le nom de « Casascius coins ». La clé privée est recouverte d'un hologramme personnalisé, si bien qu'on ne peut pas la récupérer sans endommager la pièce. Les 8 premiers caractères de l'adresse publique de Bitcoin sont visibles à l'extérieur et pré-imprimés sur l'hologramme par le fabricant. Détail surprenant : les premières pièces présentent une faute typographique ; Casascius est orthographié Casacius.
 
 ![Les premiers bitcoins de Casascius en 2011](assets/en/casasciusphysicalbitcoins-2011.webp)

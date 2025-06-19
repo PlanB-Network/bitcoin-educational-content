@@ -28,9 +28,36 @@ The book was commissioned and funded by [Chaincode Labs](https://learning.chainc
 
 +++
 
+
+
+# Introduction
+<partId>58c48e9b-e285-4dc6-8952-6cc5140b1313</partId>
+
+## Course overview
+<chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
+
+Welcome to this course PHI 301 about Bitcoin development philosophy.
+
+Bitcoin is more than just a cryptocurrency, it embodies a philosophical vision about decentralization, privacy, trustlessness, and resilience. This course is designed specifically for developers already familiar with Bitcoin’s technical foundations who now seek to deepen their understanding of the principles underpinning Bitcoin’s design and governance.
+
+Throughout this course, you'll gain clarity on the essential values and strategies that have guided Bitcoin’s evolution for over a decade. By exploring these themes in depth, you'll develop the critical perspective needed to evaluate and contribute to future developments with confidence.
+
+### Bitcoin’s Central Values
+
+What makes Bitcoin unique? This section reveals the foundational values at the heart of Bitcoin’s design. You'll explore **decentralization**, the cornerstone ensuring no single entity controls the network; **trustlessness**, the key to removing third-party reliance; **privacy**, essential for both individual freedom and system integrity; and **finite supply**, the coded guarantee of scarcity that shapes Bitcoin’s economic identity. Mastering these concepts will allow you to fully grasp Bitcoin's strengths and vulnerabilities.
+
+### Bitcoin Governance
+
+Navigating the complex governance landscape of Bitcoin requires more than technical expertise, it demands an understanding of Bitcoin’s unique approach to consensus and decision-making. In this section, you’ll dive into the mechanisms and philosophies behind critical processes like protocol upgrades, the necessity of adversarial thinking, the strength of open-source collaboration, the ongoing challenges of scaling, and the nuanced strategies required when things inevitably go wrong. Equipped with this knowledge, you'll be prepared not just to participate but to shape Bitcoin's future effectively and responsibly.
+
+Ready to take the next step in your Bitcoin journey? Let's begin!
+
+***N.B.**: If you encounter any unfamiliar terms related to Bitcoin during the course, please refer to the [glossary](https://planb.network/resources/glossary) to find definitions.*
+
+
+
 # Bitcoin Central Values
 <partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
-
 
 ## Decentralization
 <chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
@@ -1554,3 +1581,19 @@ You can test the depth of your understanding by writing [mini-essay](https://www
 - We don't seem to be anywhere near having consensus on how we could onboard the entire world onto Bitcoin. Shouldn't Satoshi have at least thought of a path of getting there, before mining the first block in 2009?
 - How would you classify (vertical, horizontal, inward, or not a scaling technique) each of the following: sharding, blocksize increase, SegWit, SPV nodes, centralized exchanges, Lightning Network, block interval decrease, Taproot, sidechains
 
+
+# Final Section
+
+<partId>4b6ff4ef-b9ea-4c48-b05f-62d41a38fbbb</partId>
+
+## Reviews & Ratings
+
+<chapterId>d334a837-df46-4989-9cad-8d8779147dbe</chapterId>
+
+<isCourseReview>true</isCourseReview>
+
+## Conclusion
+
+<chapterId>b77ed55c-b13a-430b-a212-37aab527b9e7</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>

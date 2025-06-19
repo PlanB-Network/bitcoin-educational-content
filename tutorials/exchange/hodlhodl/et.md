@@ -8,7 +8,7 @@ description: Samm-sammult juhend HODLHODL-i kasutamiseks
 
 Hodl Hodl on detsentraliseeritud Bitcoin vahetusplatvorm, mis eelistab kasutaja kontrolli ja turvalisust. Erinevalt traditsioonilistest vahetusplatvormidest toimib see peer-to-peer mudelil, võimaldades otsest kauplemist kasutajate vahel. Oma mitme allkirjaga deposiitsüsteemiga tagab Hodl Hodl vahendite turvalisuse tehingute ajal. Platvorm toetab ka erinevaid makseviise ja pakub kauplemisvõimalusi nagu erinevuslepingud (CFD-d).
 
-![HodlHodl - Osta ja müü Bitcoin NO KYC](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

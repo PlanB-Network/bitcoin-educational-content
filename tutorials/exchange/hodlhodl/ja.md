@@ -8,7 +8,7 @@ description: HODLHODLの使い方ガイド
 
 Hodl Hodlは、ユーザー自身による管理とセキュリティを優先する分散型ビットコイン取引所です。従来の取引所とは異なり、ピアツーピア（P2P）モデルを採用し、ユーザー間での直接取引を可能にします。マルチシグネチャー（マルチシグ）エスクローシステムを用いることで、取引中の資金を安全に確保します。このプラットフォームは様々な支払い方法をサポートしており、差金決済取引（CFD）などの取引オプションを提供しています。
 
-![HodlHodl - Buy and Sell Bitcoin NO KYC](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

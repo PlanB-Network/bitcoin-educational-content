@@ -326,15 +326,19 @@ Kalau hardware wallet kamu mendukung, aku saranin pakai Taproot (P2TR) — ini s
 
 ![Image](assets/fr/34.webp)
 
-Selanjutnya, prosedurnya berbeda menurut metode koneksi Anda. Jika Anda menggunakan metode Celah Udara, pilih "*Airgapped Hardware Wallet*". Kemudian ikuti petunjuk khusus untuk perangkat Anda.
+Selanjutnya, langkahnya bakal sedikit beda tergantung kamu pakai metode koneksi yang mana.
+Kalau kamu pakai mode Air-Gap (nggak nyambung langsung ke komputer), pilih opsi “Airgapped Hardware Wallet” di Sparrow.
+Setelah itu, ikuti petunjuk sesuai dengan jenis perangkat yang kamu pakai — biasanya ada langkah scan QR, file PSBT, atau microSD, tergantung hardware wallet-nya.
 
 ![Image](assets/fr/35.webp)
 
-Jika Anda menggunakan koneksi kabel, seperti dalam kasus saya, pilih "*Connected Hardware Wallet*".
+Kalau kamu pakai koneksi kabel (seperti yang aku lakukan di tutorial ini), pilih opsi “Connected Hardware Wallet” di Sparrow.
 
 ![Image](assets/fr/36.webp)
 
-Klik "*Scan*" untuk meminta Sparrow mendeteksi perangkat Anda. Pastikan perangkat sudah dicolokkan dan tidak terkunci. Untuk beberapa model, seperti Ledger, Anda harus membuka aplikasi "*Bitcoin*" untuk mengaktifkan pendeteksian.
+Klik tombol "Scan" supaya Sparrow bisa mendeteksi hardware wallet kamu.
+Pastikan perangkat udah dicolokkan dan nggak terkunci.
+Untuk beberapa model kayak Ledger, kamu juga perlu buka dulu aplikasi Bitcoin di perangkatnya biar bisa terdeteksi dengan benar.
 
 ![Image](assets/fr/37.webp)
 
@@ -346,17 +350,21 @@ Klik "*Apply*" untuk menyelesaikan pembuatan portofolio.
 
 ![Image](assets/fr/39.webp)
 
-Tetapkan kata sandi yang kuat untuk mengamankan akses ke Sparrow Wallet Anda. Kata sandi ini akan melindungi kunci publik, alamat, dan riwayat transaksi Anda. Kami sarankan anda menyimpannya dalam sebuah pengelola kata sandi. Perhatikan bahwa kata sandi ini tidak berperan dalam penurunan kunci Anda. Bahkan tanpa kata sandi ini, Anda dapat memulihkan akses ke bitcoin Anda dengan Mnemonic melalui perangkat lunak yang kompatibel dengan BIP39.
+Sekarang, buat password yang kuat buat ngamanin akses ke Sparrow Wallet kamu.
+Password ini bakal ngelindungin data seperti alamat, riwayat transaksi, dan kunci publik.
+Biar nggak lupa, sebaiknya simpan di password manager yang aman.
+Tapi perlu diingat: password ini nggak dipakai buat akses ke Bitcoin kamu secara langsung.
+Bahkan tanpa password ini, kamu masih bisa pulihin wallet-mu pakai frasa Mnemonic lewat aplikasi lain yang support BIP39.
 
 ![Image](assets/fr/40.webp)
 
-Portofolio manajemen Anda sekarang dikonfigurasikan di Sparrow.
+Sekarang portofolio kamu udah berhasil dikonfigurasi di Sparrow! 
 
 ![Image](assets/fr/41.webp)
 
 ## Menerima bitcoin
 
-Setelah Wallet Anda diatur di Sparrow, Anda bisa menerima bitcoin. Cukup akses menu "*Terima*".
+Setelah Wallet diatur di Sparrow, kamu bisa menerima bitcoin. Cukup akses menu "*Terima*".
 
 ![Image](assets/fr/42.webp)
 
@@ -364,41 +372,62 @@ Sparrow akan menampilkan Address pertama yang tidak terpakai dalam Wallet Anda. 
 
 ![Image](assets/fr/43.webp)
 
-Jika Anda menggunakan Hot Wallet, Address yang ditampilkan dapat langsung digunakan, baik dengan menyalinnya atau dengan memindai kode QR terkait.
+Kalau kamu pakai Hot Wallet, alamat Bitcoin yang ditampilkan bisa langsung dipakai — tinggal salin atau scan kode QR-nya.
+Kamu bisa kirim Bitcoin ke alamat ini tanpa perlu langkah tambahan.
 
-Jika Anda menggunakan Hardware Wallet, sangat penting untuk memeriksa Address pada layar perangkat sebelum menggunakannya. Untuk perangkat berkabel, hubungkan dan buka kunci Hardware Wallet Anda, kemudian di Sparrow, klik "*Display Address*". Pastikan Address yang ditampilkan pada Hardware Wallet Anda sesuai dengan yang ditampilkan pada Sparrow.
+Kalau kamu pakai Hardware Wallet, penting banget buat selalu cek alamatnya langsung di layar perangkat sebelum dipakai.
+Kalau pakai koneksi kabel, sambungkan dan buka kunci hardware wallet kamu dulu.
+Lalu, di Sparrow, klik tombol “Display Address”.
+Pastikan alamat yang muncul di perangkat sama persis dengan yang ditampilkan di Sparrow. Ini buat mastiin kamu nggak kena tipu atau dialihkan ke alamat palsu.
 
 ![Image](assets/fr/44.webp)
 
-Untuk pengguna Hardware Wallet Air-Gap, verifikasi Address bervariasi menurut model perangkat. Lihat tutorial khusus Plan ₿ Network untuk mendapatkan instruksi yang tepat.
+Kalau kamu pakai Hardware Wallet yang air-gap (nggak nyambung langsung ke komputer), cara verifikasi alamatnya bisa beda-beda tergantung jenis perangkat.
+Untuk langkah-langkah pastinya, kamu bisa cek tutorial khusus dari Plan ₿ Network yang sesuai dengan model hardware wallet kamu.
 
-Setelah transaksi disiarkan oleh pembayar, Anda akan melihatnya muncul di tab "*Transaksi*". Anda dapat mengkliknya untuk detail lebih lanjut, seperti txid.
+Begitu pengirim udah menyelesaikan transaksinya, kamu bakal lihat transaksinya muncul di tab "Transaksi".
+Kamu bisa klik transaksi itu buat lihat detail lengkapnya — kayak jumlah, status konfirmasi, dan juga TXID (ID transaksinya).
+
 
 ![Image](assets/fr/45.webp)
 
-Pada tab "*Alamat*", Anda akan menemukan daftar semua alamat kotak masuk Anda. Anda dapat melihat apakah alamat-alamat tersebut telah digunakan dan apakah label telah ditambahkan. *Alamat "*Terima*" adalah alamat yang ditampilkan Sparrow ketika Anda mengklik "*Terima*" dan ditujukan untuk pembayaran yang masuk. Alamat "*Change*" digunakan untuk Exchange dalam transaksi Anda, yaitu untuk mengembalikan bagian yang tidak terpakai dari UTXO Anda yang masuk.
+Di tab "Alamat", kamu bisa lihat daftar semua alamat wallet kamu.
+Di situ kelihatan mana aja yang udah pernah dipakai, dan apakah udah kamu kasih label atau belum.
+Alamat "Terima" adalah alamat yang ditampilkan waktu kamu klik tombol "Terima". Ini dipakai buat nerima pembayaran masuk.
+Alamat "Change" dipakai secara otomatis waktu kamu kirim Bitcoin. Ini buat nyimpen “kembalian” dari UTXO yang nggak kepakai semua — semacam sisa saldo dari transaksi kamu.
 
 ![Image](assets/fr/46.webp)
 
-Tab "*UTXOs*" menunjukkan kepada Anda semua UTXO Anda, yaitu fragmen Bitcoin yang Anda pegang. Anda dapat melihat jumlah setiap UTXO dan label yang terkait.
+Tab "UTXOs" nunjukin semua potongan Bitcoin (UTXO) yang kamu punya.
+Setiap UTXO itu semacam fragmen saldo dari transaksi sebelumnya, dan bisa kamu lihat jumlahnya satu per satu.
+Kamu juga bisa lihat label yang udah kamu kasih buat tiap UTXO — ini ngebantu banget buat ngelacak asal-usul dana atau tujuan penggunaannya.
 
 ![Image](assets/fr/47.webp)
 
 ## Kirim bitcoin
 
-Sekarang setelah Anda memiliki beberapa satoshi di Wallet Anda, Anda juga memiliki opsi untuk mengirim beberapa. Meskipun ada beberapa cara untuk melakukan ini, saya sarankan Anda menggunakan menu "*UTXOs*" untuk kontrol yang lebih tepat terhadap koin yang Anda belanjakan (*kontrol koin*), daripada langsung ke menu "*Kirim*" (meskipun menu yang terakhir ini mungkin sudah cukup untuk Anda jika Anda seorang pemula).
+Sekarang kamu udah punya beberapa satoshi di wallet, kamu juga bisa coba kirim sebagian.
+Memang ada beberapa cara buat kirim Bitcoin, tapi aku saranin pakai menu "UTXOs" biar kamu punya kontrol penuh atas koin mana yang mau dipakai (ini yang disebut coin control).
+Kalau kamu masih pemula dan pengen yang simpel, pakai menu "Kirim" juga nggak masalah — tinggal masukin alamat tujuan dan jumlahnya aja.
 
 ![Image](assets/fr/48.webp)
 
-Pilih UTXO yang ingin Anda gunakan sebagai input untuk transaksi ini, lalu klik "*Kirim Terpilih*". Pendekatan ini memungkinkan Anda untuk memilih sumber yang paling tepat di antara UTXO Anda, sesuai dengan pengeluaran Anda dan label yang diterapkan saat diterima, untuk mengoptimalkan kerahasiaan pembayaran Anda. Pastikan jumlah UTXO yang dipilih lebih besar dari jumlah yang ingin Anda kirim.
+Pilih UTXO yang mau kamu pakai buat transaksi, lalu klik "Kirim Terpilih".
+Cara ini bikin kamu bisa milih sumber dana paling pas dari saldo-saldo kecil (UTXO) yang kamu punya — bisa disesuaiin sama tujuan pengeluaran dan label yang udah kamu kasih sebelumnya. Ini juga bantu ningkatin privasi saat bayar.
+Cuma pastikan ya, jumlah UTXO yang kamu pilih harus lebih besar dari jumlah yang mau kamu kirim.
 
 ![Image](assets/fr/49.webp)
 
-Masukkan Address penerima di kolom "*Bayar ke*". Anda juga dapat memindai Address dengan webcam dengan mengklik ikon kamera. Tombol "*+Tambah*" memungkinkan Anda membayar ke beberapa alamat dalam satu transaksi.
+Masukkan alamat tujuan di kolom "Bayar ke".
+Kalau kamu punya QR code, bisa juga langsung scan pakai webcam — tinggal klik ikon kamera di samping kolom itu.
+Mau kirim ke lebih dari satu alamat dalam satu transaksi? Tinggal klik tombol “+Tambah” buat nambah baris penerima lainnya.
 
 ![Image](assets/fr/50.webp)
 
-Tambahkan label pada transaksi Anda untuk mengingatkan Anda tentang tujuannya. Label ini juga akan dikaitkan dengan Exchange Anda nantinya.
+Tambahin label di transaksimu biar kamu ingat ini transaksi buat apa.
+Misalnya: “Kirim ke wallet cold storage” atau “Bayar kopi via Lightning”.
+Label ini juga bakal otomatis nempel ke UTXO hasil transaksinya, jadi bakal kebaca terus ke depannya.
+Kalau ini transaksi ke atau dari exchange, kasih label nama exchangenya juga ya — ini bantu banget buat tracking portofolio nanti.
 
 ![Image](assets/fr/51.webp)
 
@@ -406,21 +435,31 @@ Masukkan jumlah yang akan dikirim ke Address ini.
 
 ![Image](assets/fr/52.webp)
 
-Sesuaikan tingkat biaya sesuai dengan kondisi pasar saat ini. Anda dapat melakukannya dengan memasukkan nilai biaya absolut atau dengan menyesuaikan tarif biaya dengan penggeser.
+Sesuaikan tingkat biaya sesuai dengan kondisi pasar saat ini. Kamu dapat melakukannya dengan memasukkan nilai biaya yang pasti atau dengan menyesuaikan tarif biaya dengan penggeser.
 
 ![Image](assets/fr/53.webp)
 
-Pada bagian bawah Interface, Anda dapat memilih antara "*Efficiency*" dan "*Privacy*". Dalam kasus saya, opsi "*Privacy*" tidak tersedia, karena saya hanya memiliki satu UTXO dalam portofolio ini. "*Efficiency*" berhubungan dengan transaksi klasik, sedangkan "*Privacy*" adalah transaksi tipe Stonewall, struktur transaksi yang memperkuat kerahasiaan Anda dengan mensimulasikan mini-CoinJoin, yang membuat analisis rantai menjadi lebih kompleks.
+Di bagian bawah tampilan, kamu bisa pilih antara mode “Efficiency” atau “Privacy” buat transaksi kamu.
+Efficiency cocok buat transaksi biasa — hemat ruang, cepat, dan biaya rendah.
+Privacy (kalau tersedia) bakal bikin struktur transaksi kamu jadi mirip CoinJoin kecil — disebut Stonewall. Ini bantu banget ningkatin privasi karena bikin analisis blockchain jadi lebih ribet.
+Tapi di contoh ini, karena aku cuma punya satu UTXO, opsi Privacy nggak muncul.
+Kalau kamu punya lebih banyak UTXO, fitur ini bisa kamu manfaatin.
 
 ![Image](assets/fr/54.webp)
 
-Sparrow menampilkan diagram ringkasan yang menunjukkan input, output, dan biaya transaksi Anda (perhatikan bahwa biaya sebenarnya bukanlah output, berlawanan dengan apa yang ditunjukkan oleh diagram ini). Jika Anda puas dengan semuanya, klik "*Buat Transaksi*".
+Sparrow bakal nampilin diagram ringkasan transaksi — di situ kamu bisa lihat input, output, dan fee-nya.
+Perlu dicatat: biaya transaksi itu bukan bagian dari output, walaupun di diagram keliatannya begitu. Itu cuma visual bantu aja.
+Kalau semuanya udah sesuai dan kamu puas, tinggal klik tombol “Buat Transaksi” buat lanjut ke langkah berikutnya.
 
 ![Image](assets/fr/55.webp)
 
-Anda akan dibawa ke halaman yang merinci Elements dari transaksi Anda. Periksa apakah semua informasi sudah benar, lalu klik "*Finalisasi Transaksi untuk Penandatanganan*".
+Setelah itu, kamu bakal dibawa ke halaman yang nunjukin detail lengkap dari transaksi kamu.
+Luangkan waktu sebentar buat periksa semua elemennya — mulai dari alamat tujuan, jumlah, sampai fee-nya.
+Kalau semuanya udah oke, klik tombol “Finalisasi Transaksi untuk Penandatanganan” buat masuk ke tahap tanda tangan.
 
 ![Image](assets/fr/56.webp)
+
+(BESOK LANJUT DISINI_62MAXIMALIST)
 
 Sangat penting untuk mempertahankan Sighash default. Untuk memahami alasannya, lihatlah kursus pelatihan ini, di mana saya menjelaskan semua yang perlu Anda ketahui tentang Sighash:
 

@@ -698,7 +698,7 @@ Au début de l'année 2011, l'utilisation de Bitcoin se fait de deux manières p
 
 Mike Hearn, Andreas Schildbach, Thomas Voegtlin, Andreas Antonopoulos, Luke-Jr, Amir Taaki
 
-- Portefeuilles : Gavin Andresen, [chiffrement du portefeuille, "Why aren't bitcoin wallets encrypted?", 2011-06-24](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) ; ["Worth more than the computer they are stored on...", 2011-06-27](https://gavinthink.blogspot.com/2011/06/worth-more-than-computer-they-are.html) ; [Satoshi, "later a good feature for a client version is to keep your private keys encrypted and you give your password each time you send"](https://plan99.net/~mike/satoshi-emails/thread3.html)
+- Portefeuilles : Gavin Andresen, [chiffrement du portefeuille, "Why aren't bitcoin wallets encrypted?", 2011-06-24](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) ; ["Worth more than the computer they are stored on...", 2011-06-27](https://gavinthink.blogspot.com/2011/06/worth-more-than-computer-they-are.html) ; [Satoshi, "later a good feature for a client version is to keep your private keys encrypted and you give your password each time you send"](https://plan99.net/~mike/satoshi-emails/thread3.html) ; jgarzik ["[PATCH] wallet private key encryption"](https://bitcointalk.org/index.php?topic=4983.msg73052#msg73052)
 
 - Vitalik Buterin, "Bitcoin Wallet Reviews – Ease Of Use And Security", [2012](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/)
 
@@ -783,7 +783,7 @@ Les portefeuille déterministes sont largement issus des réflexions du dévelop
 
 Gregory Maxwell en 2006 (source : [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))
 
-Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation de Bitcoin, et la dérivation des clés en fait partie. Le 18 juin, à la suite de [discussions](https://buildingbitcoin.org/bitcoin-dev/log-2011-06-08.html#l-1089) sur IRC, il rédige une description sur le forum. Il [écrit](https://bitcointalk.org/index.php?topic=19137.msg239768#msg239768) :
+Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation de Bitcoin, et la dérivation des clés en fait partie. Il n'est pas le premier à avoir cette idée (Casascius [en a eu](https://bitcointalk.org/index.php?topic=6897.msg100975#msg100975) l'idée en avril), mais il est le premier à la formaliser. Le 18 juin, à la suite de [discussions](https://buildingbitcoin.org/bitcoin-dev/log-2011-06-08.html#l-1089) sur IRC, il rédige une description sur le forum. Il [écrit](https://bitcointalk.org/index.php?topic=19137.msg239768#msg239768) :
 
 > « Bitcoin devrait vraiment permettre et recommander par défaut l'utilisation de portefeuilles déterministes.   La sécurité supplémentaire apportée par les portefeuilles pré-générés actuels est relativement faible compte tenu de la manière dont la plupart des gens utilisent bitcoin. Et le fardeau des pertes dues à des sauvegardes incomplètes et à la pression accrue pour maintenir un seul portefeuille opérationnel est énorme. »
 >
@@ -857,13 +857,20 @@ Portefeuille papier généré avec BitAddress en septembre 2011 (source : [captu
 
 Un autre outil qui apparait à ce moment-là est VanityGen, [créé](https://web.archive.org/web/20111104120932/https://bitcointalk.org/index.php?topic=25804.0) par Samr7 en juillet 2011. Il s'agit d'un logiciel permettant de créer une adresse personnalisée (*vanity address*), commençant par des caractères spécifiques, en testant un grand nombre de clés privées. Cela est utile pour identifier les adresses de donation des individus. Par exemple, l'adresse de Pointbiz pour sa maintenance de BitAdress est `1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN`.
 
-Enfin, la méthode la plus efficace pour se protéger contre le vol est celle du « portefeuille mental » (original: "brain wallet"), qui consiste à mémoriser une phrase secrète donnant accès aux bitcoins stockés à l'adresse qui correpond. Par exemple, la phrase secrète peut être hachés par SHA-256 pour obtenir la clé privée, donnant accès aux fonds. Cette méthode est [proposée](https://en.bitcoin.it/w/index.php?title=Brainwallet&oldid=23015) par Mike Caldwell (Casascius) et [mise en avant](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) par Jon Matonis en mars 2012. Elle est néanmoins très peu sûre si l'entropie n'est pas suffisante. C'est plus une démonstration pratique de la puissance de Bitcoin qu'une application pérenne.
+Enfin, la méthode la plus efficace pour se protéger contre le vol est celle du « portefeuille mental » (original: "brain wallet"), qui consiste à mémoriser une phrase secrète donnant accès aux bitcoins stockés à l'adresse qui correpond. Par exemple, la phrase secrète peut être hachés par SHA-256 pour obtenir la clé privée, donnant accès aux fonds. Cette méthode est [proposée](https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) par Mike Caldwell (Casascius) en août 2011 et [mise en avant](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) dans Forbes par Jon Matonis en mars 2012. Elle est néanmoins très peu sûre si l'entropie n'est pas suffisante. Et elle est évidemment sujette aux aléas de la mémoire humaine ; il s'agit davantage d'une démonstration pratique de la puissance de Bitcoin qu'une application pérenne.
 
 https://en.bitcoin.it/w/index.php?title=Brainwallet&oldid=23015 https://bitcoinmagazine.com/technical/brain-wallets-the-what-and-the-how-1333845334 https://bitcointalk.org/index.php?topic=51397.msg846234#msg846234 https://web.archive.org/web/20120413041417/http://brainwallet.org/
 
 ### Les bitcoins physiques (Bitbills, Casascius coins)
 
-[BitBills](https://en.bitcoin.it/wiki/Bitbills) (mai 2011–mai 2012)
+Il est aussi possible de placer la clé privée dans un objet physique. Idée bitcoin physique : [bitcoins imprimés échangeables](https://bitcointalk.org/index.php?topic=737.msg7990#msg7990) (2010) de Gavin Andresen
+
+Les premiers objets de ce type sont les Bitbills, [lancés](https://bitcointalk.org/index.php?topic=7724.msg112655#msg112655) par Doug Feigelson (connu sous le pseudonyme Llama) en mai 2011, qui sont des cartes plastifiées sur lesquelles se trouvent des codes QR représentant respectivement l'adresse et la clé privée. La clé privée est recouverte d'un autocollant, de sorte qu'elle ne peut être lue sans présenter des signes de falsification. La carte est munie d'hologrammes pour éviter la contrefaçon. Les Bitbills sont, d'après leur concepteur, « la première incarnation physique des bitcoins » (original: "Bitbills are the first physical incarnation of bitcoins"). Ils [forment](https://web.archive.org/web/20110511215306/http://bitbills.com/) une bonne manière de « transférer des bitcoins en personne, exactement comme avec de l'argent liquide ! » (original: "With Bitbills you can transfer bitcoins in person, just like cash!")
+
+
+
+
+[Bitbills](https://en.bitcoin.it/wiki/Bitbills) (mai 2011–mai 2012)
 
 "What are they? Bitbills are the first and only bitcoins in physical form.
 
@@ -871,41 +878,55 @@ Why are they useful? Bitbills let you store and transfer bitcoins in person, jus
 
 How do they work? Each Bitbill securely locks bitcoin data between layers of the card. If you would like to get non-physical bitcoins again, you can easily convert your Bitbill or trade them for digital bitcoins. Read more about how Bitbills work." https://web.archive.org/web/20111202011459/http://www.bitbills.com/
 
-![BitBills mis aux enchères par Charlie Lee en avril 2013](assets/en/bitbills-auctioned-by-coblee-april-2013.webp)
+![Bitbills mis aux enchères par Charlie Lee en avril 2013](assets/en/bitbills-auctioned-by-coblee-april-2013.webp)
 
-BitBills [mis aux enchères](https://bitcointalk.org/index.php?topic=191292.msg1980753#msg1980753) par Charlie Lee en avril 2013 (source : Inversor Inteligente sur [Substack](https://inversorinteligente.substack.com/p/casascius-monedas-fisicas-de-bitcoin))
+Bitbills [mis aux enchères](https://bitcointalk.org/index.php?topic=191292.msg1980753#msg1980753) par Charlie Lee en avril 2013 (source : Inversor Inteligente sur [Substack](https://inversorinteligente.substack.com/p/casascius-monedas-fisicas-de-bitcoin))
 
-First Bitcoin ATM, Todd Bethell, [7/9/2011](https://www.youtube.com/watch?v=Lnq2I-N-xYQ)
+Le premier distributeur automatique de bitcoins (*Bitcoin ATM*), [conçu](https://bitcointalk.org/index.php?topic=5122.msg461848#msg461848) par l'entrepreneur Todd Bethell, inclut une fonctionnalité pour que les fonds soient envoyés sur une carte Bitbills imprimée spécialement pour l'occasion. Il est [testé](https://web.archive.org/web/20110827115138/http://bitcoinatm.com/) pour la première fois en public à San Diego en Californie le 17 août 2013. Une vidéo de présentation est publiée en septembre :
 
-Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https://www.casascius.com/ https://bitcointalk.org/index.php?topic=34163.msg425990#msg425990
+![Vidéo de présentation du premier distributeur de BitcoinATM.com](https://www.youtube.com/watch?v=Lnq2I-N-xYQ)
 
-Mike Caldwell (Casascius), habite dans l'Utah, [Swipeclock](https://www.linkedin.com/company/swipeclock/), Casascius = "call a spade a spade" + cius (nom romain)
+Les Bitbills rencontrent un certain succès, mais Doug Feigelson peine à répondre à la demande. En mai 2012, la production de Bitbills est définitivement [interrompue](https://web.archive.org/web/20120508074832/http://bitbills.com/order). Mais un concurrent existe : les Casascius Coins, fabriqués par un certain Mike Caldwell.
+
+Mike Caldwell est un développeur américain de 33 ans, qui habite dans la banlieue de Salt Lake City dans l'Utah et dirige une société automatisant la gestion d'entreprise appelée [Swipeclock](https://www.linkedin.com/company/swipeclock/). Il utilise le pseudonyme Casascius sur le forum, forme latinisée des initiales du dicton *call a spade a spade* (« appeler un chat un chat » en français). Rationaliste, il est fasciné par la cryptographie et est attiré par le côté technique de Bitcoin. Il mine pendant quelque temps.
 
 ![Mike Caldwell en 2013](assets/en/mike-caldwell-casascius-2013-imdb.webp)
 
 Mike Caldwell en 2013 (source : [IMDb](https://www.imdb.com/fr/name/nm5669287/))
 
-Il est fasciné par la cryptographie.
+Il s'intéresse particulièrement à la conservation des bitcoins, et donc aux portefeuilles. Il met au point un [utilitaire](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005) permettant de convertir une clé privée en adresse Bitcoin, de générer des clés personnalisées et de créer une graine de dérivation. Mais surtout, il s'attache, comme il [l'explique](https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), à « fabriquer un bitcoin tangible qui transporte réellement des BTC » (original: "Making a real tangible bitcoin that actually conveys BTC"). C'est ainsi qu'il [vend](https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) des portefeuilles papier dès le mois de juin sur son site personnel.
 
-« bitcoins de Casascius » ("Casascius coins") [6 sept. 2011](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883)–[27 nov. 2013](https://web.archive.org/web/20131203002016/https://www.casascius.com/)
 
-Objectif d'éducation : expliquer la cryptographie aux gens, Comme il l'[expliquera](https://bitcointalk.org/index.php?topic=41892.msg3727984#msg3727984) en 2013 (26/11) :
 
-> « Mon objectif, en introduisant les Casascius Coins, était de les utiliser comme outil pédagogique afin d'aider le grand public à visualiser une pièce de monnaie virtuelle avec un objet fonctionnel tangible. »
->
-> original: "My purpose in introducing Casascius Coins was as a teaching tool, to help the world at large visualize a virtual coin with a tactile functional object"
+En janvier 2011, il [cherche
 
-[Vendus](https://web.archive.org/web/20111107191637/https://www.casascius.com/) sur le site Casascius. Aussi [vendus](https://web.archive.org/web/20111028171555/http://www.memorydealers.com/bieq.html) sur MemoryDealers à partir d'octobre
+Vente de bitcoins-papier : "Finally, a Paper Bitcoin Wallet" [24/6
+
+Continuer à lire.... https://bitcointalk.org/index.php?action=profile;u=2676;sa=showPosts;start=3680
+
+Casascius Bitcoin Address Utility [1/7](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005)
+
+[énigme](https://bitcointalk.org/index.php?topic=28877.msg363418#msg363418)
+
+Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https://www.casascius.com/ "Deterministic Paper Wallet Generator & Bitcoin Utility for Windows (SOURCE)" [3/8](https://bitcointalk.org/index.php?topic=34163.msg425990#msg425990)
+
+Le 19 août, il [partage](https://bitcointalk.org/index.php?topic=38048.msg467209#msg467209) publiquement son projet de fabriquer des « vrais bitcoins physiques ». Le 6 septembre, il commence à en fabriquer. Le 6 septembre, il [annonce](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883) mettre en vente les « bitcoins physiques de Casascius » (original: "Casascius Physical Bitcoins"), qu'on connaitre plus communément sous le nom de « Casascius coins ». La clé privée est recouverte d'un hologramme personnalisé, si bien qu'on ne peut pas la récupérer sans endommager la pièce. Les 8 premiers caractères de l'adresse publique de Bitcoin sont visibles à l'extérieur et pré-imprimés sur l'hologramme par le fabricant. Détail surprenant : les premières pièces présentent une faute typographique ; Casascius est orthographié Casacius.
 
 ![Les premiers bitcoins de Casascius en 2011](assets/en/casasciusphysicalbitcoins-2011.webp)
 
 Les premiers bitcoins de Casascius en 2011 (source : [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))
 
-Vente de bitcoin de Casascius dans un distributeur automatique au PorcFest 2012 : https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9 (Adam Kokesh : https://web.archive.org/web/20120621190100/https://www.youtube.com/watch?v=F2K6nNj_LEE)
+Initialement disponibles sous formes de pièces de 1 et de 25 BTC, les bitcoins de Casascius rapidement déclinés en des pièces d'autres valeur et en lingots, allant jusqu'à 1000 BTC ! Les bitcoins de Casasicius sont [vendus](https://web.archive.org/web/20111107191637/https://www.casascius.com/) sur le site personnel de Casascius, mais [aussi](https://web.archive.org/web/20111028171555/http://www.memorydealers.com/bieq.html) sur MemoryDealers (le commerce de Roger Ver) à partir d'octobre. Ils se [retrouveront](https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9) également dans un distributeur automatique présent au PorcFest de l'année suivante en juin 2012. Ils ont ainsi un but pédagogique. Comme l'[expliquera](https://bitcointalk.org/index.php?topic=41892.msg3727984#msg3727984) Mike Caldwell en 2013 :
 
-Statistiques : https://casascius.uberbills.com/
+> « Mon objectif, en introduisant les Casascius Coins, était de les utiliser comme outil pédagogique afin d'aider le grand public à visualiser une pièce de monnaie virtuelle avec un objet fonctionnel tangible. »
+>
+> original: "My purpose in introducing Casascius Coins was as a teaching tool, to help the world at large visualize a virtual coin with a tactile functional object"
 
 De quoi attirer les amateurs de numismatique...
+
+Les bitcoins de Casascius auront un succès énorme au cours des deux années où ils seront produits. D'après [Uberbills](https://casascius.uberbills.com/), 97 905 pièces et lingots seront produits pour un montant total de 97 783,9 stockés sur ces supports.
+
+« bitcoins de Casascius » ("Casascius coins") [6 sept. 2011](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883)–[27 nov. 2013](https://web.archive.org/web/20131203002016/https://www.casascius.com/)
 
 ### Les premiers mélangeurs (confidentialité)
 

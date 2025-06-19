@@ -12,6 +12,9 @@ Olvid je francuska aplikacija za instant poruke pokrenuta 2019. godine, dizajnir
 
 Sve poruke su šifrovane od kraja do kraja koristeći originalni kriptografski protokol, dizajniran da zaštiti i metapodatke: niko ne zna s kim razgovarate, niti kada. Klijentski kod je otvorenog koda, ali centralni server koji se koristi za usmeravanje šifrovanih poruka ostaje vlasnički i hostovan na AWS-u.
 
+Bezbednosni model Olvida zasniva se na važnom principu: potpunom odsustvu poverenja u treću stranu pri uspostavljanju digitalnih identiteta. Za razliku od većine aplikacija za šifrovanu komunikaciju koje koriste centralizovani imenik za upravljanje identitetima korisnika, Olvid ne zavisi ni od jedne centralne infrastrukture kako bi obezbedio integritet komunikacije. Ova arhitektura eliminiše rizike povezane sa kompromitacijom imenika.
+
+Ipak, Olvid koristi centralni server za distribuciju poruka, ali on je strogo ograničen na logističku ulogu: obezbeđuje asinhrono slanje šifrovanih poruka. Ovaj server ne učestvuje u šifrovanju, ne zna stvarne identitete korisnika, niti sadržaj ili metapodatke poruka (osim javnog ključa primaoca, koji je neophodan za rutiranje). Stoga se može smatrati neprijateljskim po definiciji, bez ugrožavanja celokupne bezbednosti. Čak i ako bi bio kompromitovan, ne bi omogućio pristup sadržaju komunikacije. Olvid prihvata centralizaciju isporuke poruka (iz razloga efikasnosti i kvaliteta usluge), uz garanciju bezbednosti nezavisne od te infrastrukture.
 
 
 Olvid nudi besplatnu verziju i verziju sa pretplatom po ceni od €4.99 mesečno. Besplatna verzija nudi punu funkcionalnost, osim mogućnosti upućivanja audio i video poziva (iako je moguće primati ih), i ne dozvoljava sinhronizaciju naloga na više uređaja. Dakle, ako planirate da koristite isključivo svoj pametni telefon i ne trebate da upućujete pozive, Olvid je odlično rešenje.
@@ -21,26 +24,25 @@ Olvid nudi besplatnu verziju i verziju sa pretplatom po ceni od €4.99 mesečno
 Olvid je sertifikovan od strane ANSSI (francuske agencije za sajber bezbednost). Ova aplikacija je odlična alternativa tradicionalnim servisima za razmenu poruka (WhatsApp, Facebook Messenger, WeChat...) za one koji traže privatnost uz zadržavanje jednostavnosti korišćenja.
 
 
-
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Aplikacija           | E2EE 1:1        | E2EE grupe      | Anonimna registracija | Licenca klijenta open-source | Licenca servera open-source | Decentralizovani server | Godina kreiranja |
+| -------------------- | --------------- | --------------- | --------------------- | ---------------------------- | --------------------------- | ----------------------- | ---------------- |
+| WhatsApp             | ✅               | ✅               | ❌                     | ❌                            | ❌                           | ❌                       | 2009             |
+| WeChat               | ❌               | ❌               | ❌                     | ❌                            | ❌                           | ❌                       | 2011             |
+| Facebook Messenger   | ✅               | 🟡 (opcionalno) | ❌                     | ❌                            | ❌                           | ❌                       | 2011             |
+| Telegram             | 🟡 (opcionalno) | ❌               | 🟡                    | ✅                            | ❌                           | ❌                       | 2013             |
+| LINE                 | ✅               | ✅               | ❌                     | ❌                            | ❌                           | ❌                       | 2011             |
+| Signal               | ✅               | ✅               | ❌                     | ✅                            | ✅                           | ❌                       | 2014             |
+| Threema              | ✅               | ✅               | ✅                     | ✅                            | ❌                           | ❌                       | 2012             |
+| Element (Matrix)     | ✅               | ✅               | ✅                     | ✅                            | ✅                           | 🟡 (federativni)        | 2016             |
+| Delta Chat           | ✅               | ✅               | ✅                     | ✅                            | N/A                         | 🟡 (preko email-a)      | 2017             |
+| Conversations (XMPP) | ✅               | ✅               | ✅                     | ✅                            | ✅                           | 🟡 (federativni)        | 2014             |
+| Session              | ✅               | ✅               | ✅                     | ✅                            | ✅                           | ✅                       | 2020             |
+| SimpleX              | ✅               | ✅               | ✅                     | ✅                            | ✅                           | ✅                       | 2021             |
+| **Olvid**            | **✅**           | **✅**           | **✅**                 | **✅**                        | **❌**                       | 🟡(nema direktorijuma)  | **2019**         |
+| Keet                 | ✅               | ✅               | ✅                     | ❌                            | N/A                         | ✅                       | 2022             |
+| Jami                 | ✅               | ✅               | ✅                     | ✅                            | N/A                         | ✅                       | 2005             |
+| Briar                | ✅               | ✅               | ✅                     | ✅                            | N/A                         | ✅                       | 2018             |
+| Tox                  | ✅               | ✅               | ✅                     | ✅                            | N/A                         | ✅                       | 2013             |
 
 *E2EE = Šifrovanje od kraja do kraja*
 
@@ -110,7 +112,7 @@ Vaš nalog je sada kreiran.
 
 Da biste sprečili gubitak pristupa vašem Olvid nalogu, preporučujemo podešavanje automatskih rezervnih kopija. Da biste to uradili, otvorite podešavanja klikom na tri tačke u gornjem desnom uglu Interface, zatim izaberite "*Settings*".
 
-
+⚠️ **Pažnja**: od verzije 3.7 Olvid-a, procedura za čuvanje rezervnih kopija vaših profila i kontakata je zamenjena novom. Ovaj tutorijal još uvek prikazuje staru verziju. Možete da otkrijete novu verziju u njihovim FAQ: [💾 Čuvanje rezervnih kopija vaših profila](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 

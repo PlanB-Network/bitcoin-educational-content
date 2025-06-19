@@ -8,7 +8,7 @@ description: Vaiheittainen opas HODLHODLille
 
 Hodl Hodl on hajautettu Bitcoin-vaihtoalusta, joka priorisoi käyttäjän hallinnan ja turvallisuuden. Toisin kuin perinteiset vaihtoalustat, se toimii vertaisverkkomallilla, mahdollistaen suorat kaupat käyttäjien välillä. Moniallekirjoitus-escrow-järjestelmänsä avulla Hodl Hodl varmistaa varojen turvallisuuden transaktioiden aikana. Alusta tukee myös erilaisia maksutapoja ja tarjoaa kaupankäyntivaihtoehtoja, kuten eron sopimukset (CFD:t).
 
-![HodlHodl - Osta ja myy Bitcoinia ilman KYC:tä](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

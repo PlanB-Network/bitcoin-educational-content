@@ -1,9 +1,8 @@
 question: Kích thước của một khối trong giao thức Bitcoin là bao nhiêu?
-answer: 1MB.
+answer: 4MB.
 wrong_answers:
-  - 0.5MB.
+  - 1MB.
   - 2MB.
   - 3MB.
 explanation: >-
   Kích thước của một khối trong giao thức Bitcoin là 1MB.
-  đã được xem xét: true

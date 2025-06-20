@@ -459,88 +459,87 @@ Kalau semuanya udah oke, klik tombol “Finalisasi Transaksi untuk Penandatangan
 
 ![Image](assets/fr/56.webp)
 
-(BESOK LANJUT DISINI_62MAXIMALIST)
-
-Sangat penting untuk mempertahankan Sighash default. Untuk memahami alasannya, lihatlah kursus pelatihan ini, di mana saya menjelaskan semua yang perlu Anda ketahui tentang Sighash:
+Sangat penting untuk mempertahankan Sighash default.
+Untuk tahu kenapa ini penting, kamu bisa cek kursus pelatihan ini — di situ aku jelasin semua yang perlu kamu tahu soal Sighash:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-Pada layar berikutnya, opsi bervariasi menurut tipe Wallet yang Anda gunakan:
+Di layar berikutnya, opsi yang muncul bisa beda-beda tergantung jenis Wallet yang kamu pakai:
 
 
-- Untuk Hardware Wallet Air-Gap, klik "*Show QR*" untuk menampilkan PSBT yang dapat Anda tandatangani dengan perangkat Anda, lalu muat PSBT yang telah ditandatangani ke dalam Sparrow menggunakan "*Scan QR*". Opsi "*Save Transaction*" bekerja dengan cara yang sama, tetapi dengan penukaran pada microSD;
-- Untuk Hot Wallet, cukup klik "*Sign*" dan masukkan kata sandi Wallet untuk menandatangani;
-- Untuk Hardware Wallet berkabel, klik juga "*Sign*" untuk mengirim transaksi yang belum ditandatangani ke perangkat Anda.
+- Untuk Hardware Wallet Air-Gap, klik "Show QR" untuk menampilkan PSBT yang dapat kamu tandatangani dengan perangkatmu, lalu muat PSBT yang telah ditandatangani ke dalam Sparrow menggunakan "Scan QR". Opsi "Save Transaction" bekerja dengan cara yang sama, tetapi dengan penukaran pada microSD;
+- Kalau pakai Hot Wallet, kamu tinggal klik "Sign" lalu masukin kata sandi Wallet kamu buat tandatangan.
+- Kalau pakai Hardware Wallet yang pakai kabel, klik juga "*Sign*" buat ngirim transaksi yang belum ditandatangani ke perangkat kamu.
 
 ![Image](assets/fr/57.webp)
 
-Pada Hardware Wallet Anda, periksa Address penerima, jumlah yang dikirim, dan biaya. Jika semuanya sudah benar, lanjutkan dengan tanda tangan.
+Di Hardware Wallet kamu, cek dulu alamat penerima, jumlah yang mau dikirim, dan biayanya. Kalau semuanya udah oke, tinggal lanjut tanda tangan.
 
-Setelah transaksi ditandatangani, transaksi tersebut akan muncul kembali di Sparrow, siap untuk disiarkan di jaringan Bitcoin untuk dimasukkan ke dalam blok berikutnya. Jika semuanya sudah benar, klik "*Broadcast Transaction*".
+Setelah transaksi ditandatangani, nanti bakal muncul lagi di Sparrow, siap buat dikirim ke jaringan Bitcoin dan masuk ke blok berikutnya. Kalau semuanya udah bener, tinggal klik "Broadcast Transaction".
 
 ![Image](assets/fr/58.webp)
 
-Transaksi Anda sekarang disiarkan dan menunggu konfirmasi.
+Transaksi kamu sekarang udah dikirim dan lagi menunggu konfirmasi.
 
 ![Image](assets/fr/59.webp)
 
 ## Mengelola dan mengonfigurasi portofolio di Sparrow
 
-Pada tab "*Settings*", Anda akan menemukan informasi rinci mengenai portofolio Anda, misalnya, :
+Pada tab "*Settings*", kamu akan menemukan informasi rinci mengenai portofoliomu, misalnya, :
 
 
 - Jenis portofolio (single-sig atau multi-sig);
 - Jenis skrip yang digunakan ;
-- Nama yang sudah Anda tetapkan ke portofolio ;
+- Nama yang sudah kamu tetapkan ke portofolio ;
 - Jejak kunci utama;
 - Jalur pintas ;
 - Kunci publik akun yang diperpanjang.
 
 ![Image](assets/fr/60.webp)
 
-Tombol "*Export*" memungkinkan Anda untuk mengekspor informasi portofolio Anda sehingga Anda dapat menggunakannya di perangkat lunak lain sambil mempertahankan informasi yang telah diatur di Sparrow.
+Tombol "Export" bisa kamu pakai buat nyimpen info portofolio, jadi nanti bisa dipakai di software lain tanpa kehilangan pengaturan yang udah kamu atur di Sparrow.
 
-Tombol "*Tambah Akun*" memungkinkan Anda menambahkan akun tambahan ke portofolio Anda. Sebuah akun berhubungan dengan seperangkat alamat kotak masuk yang terpisah. Fitur ini dapat berguna, misalnya, jika Anda ingin memisahkan akun pribadi dan akun bisnis, dengan satu frasa Mnemonic.
+Tombol "Tambah Akun" memungkinkan kamu nambahin akun baru ke portofolio. Tiap akun punya set alamatnya sendiri. Fitur ini berguna banget misalnya kalau kamu mau pisahin akun pribadi dan bisnis, tapi tetap pakai satu frasa Mnemonic.
 
-Tombol "*Advanced*" memberikan akses ke pengaturan lanjutan, seperti menyesuaikan pencarian Address Sparrow dan mengubah kata sandi portofolio.
+Tombol "Advanced" ngasih kamu akses ke pengaturan lanjutan, kayak ngatur cara Sparrow nyari alamat atau ganti kata sandi portofolio.
 
 ![Image](assets/fr/61.webp)
 
-Ketika Anda menutup Sparrow Wallet, Wallet Anda akan terkunci secara otomatis. Saat berikutnya Anda membuka perangkat lunak, sebuah jendela akan meminta Anda untuk membuka kunci Wallet dengan kata sandinya.
+Waktu kamu nutup Sparrow Wallet, dompetnya bakal ngunci otomatis. Pas kamu buka lagi, bakal muncul jendela yang minta kamu masukin kata sandi buat buka kuncinya.
 
 ![Image](assets/fr/62.webp)
 
-Jika jendela ini tidak terbuka, atau jika Anda ingin membuka portofolio lain di Sparrow, klik tab "*File*" dan pilih "*Open Wallet*".
+Kalau jendela itu nggak muncul, atau kamu mau buka portofolio lain di Sparrow, klik tab "File" lalu pilih "Open Wallet".
 
 ![Image](assets/fr/63.webp)
 
-Ini akan membuka File Manager Anda ke folder tempat Sparrow menyimpan dompet Anda. Cukup pilih Wallet yang ingin Anda buka dan masukkan kata sandi untuk membukanya.
+Ini bakal ngebuka File Manager ke folder tempat Sparrow nyimpen dompet-dompet kamu. Tinggal pilih Wallet yang mau dibuka, lalu masukin kata sandinya.
 
 ![Image](assets/fr/64.webp)
 
-Pada menu "*File*" di bawah "*Settings*", Anda akan menemukan parameter koneksi jaringan Bitcoin yang telah dieksplorasi pada bagian sebelumnya. Anda juga dapat menyesuaikan berbagai parameter seperti unit yang digunakan, mata uang fiat untuk konversi, dan sumber informasi.
+Di menu "File" bagian "Settings", kamu bisa nemuin pengaturan koneksi jaringan Bitcoin yang udah dibahas sebelumnya. Di situ juga kamu bisa ngatur hal-hal lain kayak satuan yang dipakai, mata uang fiat buat konversi, dan sumber data yang dipakai.
 
 ![Image](assets/fr/65.webp)
 
-Tab "*Lihat*" menawarkan opsi kustomisasi dan akses ke beberapa perintah yang berguna, seperti "*Refresh Wallet*", yang menyegarkan pencarian transaksi untuk portofolio Anda.
+Tab "Lihat" nyediain opsi buat kustomisasi tampilan dan akses ke beberapa perintah penting, kayak "Refresh Wallet" yang bisa nyegerin pencarian transaksi di portofolio kamu.
 
 ![Image](assets/fr/66.webp)
 
-Tab "*Tools*" mengelompokkan beberapa alat bantu canggih, termasuk :
+Tab "Tools" ngumpulin beberapa alat bantu canggih, di antaranya:
 
 
-- "*Tanda Tangan/Verifikasi Pesan*" memungkinkan Anda untuk membuktikan kepemilikan Address yang diterima atau memverifikasi tanda tangan.
+- "*Tanda Tangan/Verifikasi Pesan*" memungkinkanmu untuk membuktikan kepemilikan Address yang diterima atau memverifikasi tanda tangan.
 - "*Kirim Ke Banyak*" menawarkan Interface yang disederhanakan untuk melakukan transaksi ke beberapa alamat penerima sekaligus, yang nyaman untuk pengeluaran batch.
-- "*Sweep Private Key*" memungkinkan Anda untuk mengambil bitcoin yang diamankan dengan private key sederhana dan mentransfernya ke Sparrow Wallet Anda. Ini bisa sangat berguna bagi mereka yang memiliki bitcoin yang berasal dari awal tahun 2010, sebelum era dompet HD.
-- "Verifikasi Unduhan" memverifikasi integritas dan keaslian perangkat lunak yang diunduh sebelum menginstalnya pada perangkat Anda.
-- "*Restart In*" memungkinkan Anda untuk beralih ke dompet Anda di jaringan Testnet atau Signet. Ini dapat berguna jika Anda ingin mengakses jaringan uji coba dengan koin yang tidak memiliki nilai.
+- "*Sweep Private Key*" memungkinkanmu untuk mengambil bitcoin yang diamankan dengan private key sederhana dan mentransfernya ke Sparrow Wallet. Ini bisa sangat berguna bagi mereka yang memiliki bitcoin yang berasal dari awal tahun 2010, sebelum era dompet HD.
+- "Verifikasi Unduhan" memverifikasi integritas dan keaslian perangkat lunak yang diunduh sebelum menginstalnya pada perangkatmu.
+- "*Restart In*" memungkinkanmu untuk beralih ke dompetmu di jaringan Testnet atau Signet. Ini dapat berguna jika kamu ingin mengakses jaringan uji coba dengan koin yang tidak memiliki nilai.
 
 ![Image](assets/fr/67.webp)
 
-Sekarang Anda sudah mengetahui semua tentang perangkat lunak Sparrow Wallet, alat yang sangat baik untuk mengelola portofolio Bitcoin Anda setiap hari.
+Sekarang Kamu sudah mengetahui semua tentang perangkat lunak Sparrow Wallet, alat yang sangat baik untuk mengelola portofolio Bitcoin milikmu setiap hari.
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol Green di bawah ini. Jangan ragu untuk membagikannya di jejaring sosial Anda. Terima kasih banyak!
+Jika kamu merasa tutorial ini bermanfaat, kami akan sangat berterima kasih jika kamu memberikan jempol Green di bawah ini. Jangan ragu untuk membagikannya di media sosial. Terima kasih banyak!
 
-Saya juga merekomendasikan tutorial lain yang menjelaskan cara mengonfigurasi Hardware Wallet COLDCARD Q dengan Sparrow Wallet:
+Kami juga merekomendasikan tutorial lain yang menjelaskan cara mengonfigurasi Hardware Wallet COLDCARD Q dengan Sparrow Wallet:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

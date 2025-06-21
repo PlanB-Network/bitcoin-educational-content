@@ -6,10 +6,9 @@ level: intermediate
 hours: 8
 
 professors_id:
-  - 
+  - 736e2e8e-4e62-11f0-b62a-0f5712b72cd7
 published_at: 2025-06-21
 contributor_names:
-  - Rogzy-DB
   - Asi0Flammeus
 
 # Proofreading metadata
@@ -22,6 +21,6 @@ proofreading:
       - Asi0Flammeus
     reward: 1
 tags:
-  - lightning
-  - layers
-  - technical-analysis
+  - proof-of-work
+  - onchain
+  - smart-contracts

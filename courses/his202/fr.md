@@ -706,6 +706,8 @@ Mike Hearn, Andreas Schildbach, Thomas Voegtlin, Andreas Antonopoulos, Luke-Jr, 
 
 - `wallet.dat`
 
+- Problème d'entropie, 2013 : https://bitcoinmagazine.com/technical/critical-vulnerability-found-in-android-wallets-1376273924
+
 ### Les applications dépositaires
 
 L'application la plus populaire, après la tristement célèbre MyBitcoin, est Instawallet. C'est une application web simple d'utilisation [lancée](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) le 29 avril 2011 par Jan Vornberger (Jav), un jeune développeur allemand. C'est un service dépositaire : les fonds sont conservés « côté serveur », ce qui signifie que c'est Jan qui en a la garde. Elle ne nécessite pas d'inscription ; l'accès se fait par le biais d'une URL, comme `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, qui est générée au cours de la première interaction avec le service et qui est sauvegardée dans le navigateur. Les utilisateurs ont une adresse Bitcoin attribuée qui leur permet de recevoir et d'envoyer des fonds. Les transferts internes (entre utilisateurs d'Instawallet) sont traités en interne et donc instantanés. De plus, à partir de la fin du mois de juillet, Instawallet [intègre](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) un procédé de certification (appelé « green address ») permettant de prouver aux autres acteurs du marché qu'une transaction émise provient du service de sorte à ce que son traitement soit plus rapide, dans le cadre d'une relation de confiance.
@@ -724,7 +726,7 @@ Au début de l'année 2012, Paymium développe sa propre application dépositair
 
 Interface (en français) de l'application Paytunia en novembre 2012 (source : [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-wallet/))
 
-### Les implémentations logicielles alternatives (mars–juillet 2011)
+### Les implémentations logicielles alternatives
 
 La période est propice à la réécriture de l'implémentation. Le logiciel, qui s'appelle alors « Bitcoin » à l'époque, est en effet la seule qui existe. Satoshi est essentiellement opposé à la réécriture de l'implémentation, notamment pour ne pas compromettre le fonctionnement du minage. Dans un [message](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) publié en juin 2010 sur le forum, il écrivait déjà :
 
@@ -791,7 +793,13 @@ Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation d
 
 Il envisage deux types de dérivation. L'une (type 1) est simple et génère les clés privées directement à partir de la graine. L'autre (type 2) est plus complexe, mais permet de dériver les adresses d'une clé publique maitresse obtenue depuis la graine, sans accéder à la graine en question. Cela d'avoir un logiciel de traitement de paiements qui puisse générer une adresse à chaque transaction, sans que les clés privées ne soient exposées.
 
-Au cours de l'été, un développeur danois du nom de Jan Møller met au point une interface en Java appelée BCCAPI (pour *BitCoin Client API*). Celle-ci est [annoncée](https://bitcointalk.org/index.php?topic=36892.msg453652#msg453652) le 23 août. C'est une interface logicielle permettant de connecter un client fonctionnant sur téléphone Android à un serveur. Côté client, elle met en application la génération déterministe des clés privées, ne nécessitant pas de faire des sauvegardes régulières.
+Plus tard, au début de l'année 2012, une tentative de standardisation [aura lieu](https://github.com/bitcoin/bips/commit/be1741786684bb3a9f828b2f190ad3a0269c7ec3) avec le BIP 32. Celui-ci décrit la structure générale des « portefeuilles déterministes hiérarchiques » (*Hierarchical Deterministic Wallets*, HD Wallets), où les dérivations
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
+### BitcoinSpinner, Electrum et Armory
+
+Au cours de l'été 2011, un développeur danois du nom de Jan Møller met au point une interface en Java appelée BCCAPI (pour *BitCoin Client API*). Celle-ci est [annoncée](https://bitcointalk.org/index.php?topic=36892.msg453652#msg453652) le 23 août. C'est une interface logicielle permettant de connecter un client fonctionnant sur téléphone Android à un serveur. Côté client, elle met en application la génération déterministe des clés privées, ne nécessitant pas de faire des sauvegardes régulières.
 
 Cette interface est utilisée en novembre quelques mois plus tard pour mettre en place un portefeuille léger appelé BitcoinSpinner, disponible sur Google Play. Celui-ci est [annoncé](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527) par Jan le 23 novembre. Il est officiellement géré par la société danoise Miracle A/S, que Jan [rejoint](https://bitcointalk.org/index.php?topic=53353.msg672264#msg672264) à la fin du mois de décembre.
 
@@ -809,13 +817,19 @@ Le résultat est Electrum, qui [sort](https://bitcointalk.org/index.php?topic=50
 
 Thomas Voegtlin en 2006 (source : [archive](https://web.archive.org/web/20060516200739/http://www.loria.fr/%7Evoegtlin/) de sa page personnelle)
 
-Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. Les serveurs fonctionnent avec le logiciel (bitcoind) et indexent toutes les transactions grâce au code de l'explorateur de blocs ABE. Dans ce portefeuille, la graine se présente sous la forme d'une chaine de caractères hexadécimaux. À partir du 10 novembre, elle [est](https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) également représentée sous la forme d'une phrase mnémotechnique de 12 mots. Chaque mot est choisi dans une liste prédéfinie ce qui permet de représenter les bits d'information.
+Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. Les serveurs fonctionnent avec le logiciel (bitcoind) et indexent toutes les transactions grâce au code de l'explorateur de blocs ABE. Dans ce portefeuille, la graine se présente sous la forme d'une chaine de caractères hexadécimaux. À partir du 10 novembre, elle [est](https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) également représentée sous la forme d'une phrase mnémotechnique de 12 mots. Chaque mot est choisi dans une liste prédéfinie ce qui permet de représenter les bits d'information. Ce type de phrase sera standardisé par le BIP 39, ébauché le 10 septembre 2013.
 
 ![Graine et phrase mnémotechnique d'Electrum en 2012](assets/en/electrum-seed-mnemonic-2012.webp)
 
 Graine et phrase mnémotechnique d'Electrum en 2012 (source : [archive](https://web.archive.org/web/20120826021721/http://electrum-desktop.com:80/seed.html) du site d'Electrum)
 
 Le 16 décembre, Electrum [intègre](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) la dérivation de type 2, de sorte à ce que les adresses puissent être générées, sans accès à la graine. En octobre 2012, Thomas Voegtlin [ajoute](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) également la vérification de paiement simplifiée à Electrum, ce qui en fait l'un des meilleurs portefeuilles légers de l'écosystème.
+
+Portefeuille Armory, se voulant extrêmement sécurisé, stockage à froid (https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory), il intégrera bien plus tard le multisig (https://en.bitcoin.it/wiki/Armory) ; dépôt créé le 19/11/2011 : https://api.github.com/repos/etotheipi/BitcoinArmory ; forked by goatpig in February 2016 : https://github.com/goatpig/BitcoinArmory ; annonce par Alan Reiner (etotheipi), 3/1/2012 : https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650 https://web.archive.org/web/20120113202143/https://www.bitcoinarmory.com/ ; crowdfunding, 18/2 : https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0
+
+Pieter Wuille, BIP 32 https://github.com/bitcoin/bips/commit/be1741786684bb3a9f828b2f190ad3a0269c7ec3 https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198
+
+"Acknowledgements: Gregory Maxwell for the original idea of type-2 deterministic wallets, and many discussions about it. Alan Reiner for the implementation of this scheme in Armory, and the suggestions that followed from that."
 
 ### Les portefeuilles web
 
@@ -845,7 +859,7 @@ Cadres de Blockchain.info, date indéterminée. De gauche à droite : Peter Smit
 
 ### Le stockage à froid et les portefeuilles papier
 
-Détenir du bitcoin consiste simplement à garder une information à l'abri des menaces, qu'il s'agisse des aléas de la vie (perte) ou de la curiosité des autres personnes (vol). Cette information – la clé privée – peut être générée par des appareils n'étant jamais connectés à Internet. C'est ce qu'on appelle, [dès 2011](https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769), le stockage à froid (*cold storage*).
+Détenir du bitcoin consiste simplement à garder une information à l'abri des menaces, qu'il s'agisse des aléas de la vie (perte) ou de la curiosité des autres personnes (vol). Cette information – la clé privée – peut être [générée](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) par des appareils n'étant jamais connectés à Internet. C'est ce qu'on appelle, [dès 2011](https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769), le stockage à froid (*cold storage*).
 
 Le stockage à froid peut être réalisé en stockant ses clés privées sur un support de sauvegarde numérique, comme une clé USB. Mais une méthode beaucoup plus pratique est le portefeuille papier, qui est simplement une feuille de papier où se trouvent la clé privée et l'adresse publique. La clé peut être générée par n'importe quel portefeuille logiciel, à condition que l'appareil sur lequel il se trouve reste hors ligne.
 
@@ -867,16 +881,7 @@ Il est aussi possible de placer la clé privée dans un objet physique. Idée bi
 
 Les premiers objets de ce type sont les Bitbills, [lancés](https://bitcointalk.org/index.php?topic=7724.msg112655#msg112655) par Doug Feigelson (connu sous le pseudonyme Llama) en mai 2011, qui sont des cartes plastifiées sur lesquelles se trouvent des codes QR représentant respectivement l'adresse et la clé privée. La clé privée est recouverte d'un autocollant, de sorte qu'elle ne peut être lue sans présenter des signes de falsification. La carte est munie d'hologrammes pour éviter la contrefaçon. Les Bitbills sont, d'après leur concepteur, « la première incarnation physique des bitcoins » (original: "Bitbills are the first physical incarnation of bitcoins"). Ils [forment](https://web.archive.org/web/20110511215306/http://bitbills.com/) une bonne manière de « transférer des bitcoins en personne, exactement comme avec de l'argent liquide ! » (original: "With Bitbills you can transfer bitcoins in person, just like cash!")
 
-
-
-
-[Bitbills](https://en.bitcoin.it/wiki/Bitbills) (mai 2011–mai 2012)
-
-"What are they? Bitbills are the first and only bitcoins in physical form.
-
-Why are they useful? Bitbills let you store and transfer bitcoins in person, just like cash. Also, Bitbills aren't vulnerable to digital attacks, making them the safest way to hold and use bitcoins.
-
-How do they work? Each Bitbill securely locks bitcoin data between layers of the card. If you would like to get non-physical bitcoins again, you can easily convert your Bitbill or trade them for digital bitcoins. Read more about how Bitbills work." https://web.archive.org/web/20111202011459/http://www.bitbills.com/
+https://web.archive.org/web/20111202011459/http://www.bitbills.com/
 
 ![Bitbills mis aux enchères par Charlie Lee en avril 2013](assets/en/bitbills-auctioned-by-coblee-april-2013.webp)
 
@@ -910,89 +915,32 @@ Initialement disponibles sous formes de pièces de 1 et de 25 BTC, les bitcoins
 
 De quoi attirer les amateurs de numismatique...
 
-Les bitcoins de Casascius auront un succès énorme au cours des deux années où ils seront produits. D'après [Uberbills](https://casascius.uberbills.com/), 97 905 pièces et lingots seront produits pour un montant total de 97 783,9 stockés sur ces supports.
+Les bitcoins de Casascius auront un succès énorme au cours des deux années où ils seront distribués. D'après [Uberbills](https://casascius.uberbills.com/), 97 905 pièces et lingots seront produits pour un montant total de 97 783,9 stockés sur ces supports.
 
-« bitcoins de Casascius » ("Casascius coins") [6 sept. 2011](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883)–[27 nov. 2013](https://web.archive.org/web/20131203002016/https://www.casascius.com/)
+### Les premiers services de mélange de pièces
 
-### Les premiers mélangeurs (confidentialité)
+Cette période est également une période où on se pose des questions. Bitcoin étant au départ présenté comme « anonyme » (original: "anonymous"), beaucoup de gens pensent qu'ils n'ont rien à craindre. En revanche, le registre étant public, il est possible de tracer les fonds et de les associer à une identité.
 
-- Bitcoin n'est pas aussi anonyme qu'on ne le pense. Martin Harrigan, 24/7/2011 : https://www.dw.com/en/bitcoin-not-so-anonymous-irish-researcher-says/a-15276051
+Avec la popularisation de Silk Road et l'adoption par WikiLeaks, la question de l'anonymat [se pose](https://bitcointalk.org/index.php?topic=175.msg57305#msg57305) de [plus en plus](https://web.archive.org/web/20110610205500/http://bitcoinweekly.com/articles/the-battle-is-on-silk-road-vs-government-and-bitcoin-anonymity). Le 24 juillet, Martin Harrigan et Fergal Reid, deux chercheurs irlandais de l'University College de Dublin, [prépublient](https://web.archive.org/web/20110725131444/https://anonymity-in-bitcoin.blogspot.com/2011/07/bitcoin-is-not-anonymous.html) une étude qui montre que Bitcoin n'est pas aussi anonyme que la plupart des gens se l'imaginent. La possibilité d'avoir une activité confidentielle n'est pas invalidée ; elle est seulement plus compliquée à mettre en place que ce à quoi on s'attend à première vue.
 
-"An Analysis of Anonymity in the Bitcoin System", Fergal Reid, Martin Harrigan (University College Dublin), submitted 22/7 : https://arxiv.org/PS_cache/arxiv/pdf/1107/1107.4524v1.pdf
+Pour résoudre ce problème, pour casser la provenance et des fonds, la solution est le mélange des pièces (*coin mixing*) qui permet de brouiller les pistes. Ce type de mélange est mis en place par des mélangeurs centralisés, appelés des *mixers* ou *tumblers*. Il y en a deux qui sortent du lot et s'avèrent ne pas être une arnaque.
 
-- Mixers, BitLaundry (la « blanchisserie de bitcoins ») : [créée](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) en sept. 2010 par Peter Vessenes, [cédé](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) à Mike Gogulski en mai 2011 (a renoncé à sa citoyenneté étasunienne vers 2008–2011, le rendant apatride) : https://twitter.com/lugaxker/status/1668371550242848768
+Le premier est BitLaundry (la « blanchisserie de bitcoins »). Ce service est [lancé](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) en septembre 2010 par Peter Vessenes (Vess), un entrepreneur diplomé en cryptographie qui a découvert l'existence de Bitcoin au moment du slashdotting. \[Description du service.\] En mai 2011, sentant les complications légales qui peuvent découlé de cette activité, il [cède](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) le service à l'activiste Mike Gogulski, qui a la particularité d'avoir renoncé à sa citoyenneté étasunienne sans en posséder une autre, le rendant apatride.
 
-- Vitalik Buterin, "The Battle Is On - Silk Road vs Government, and Bitcoin Anonymity", [2011-06-07 11:00:56 UTC](https://web.archive.org/web/20110610205500/http://bitcoinweekly.com/articles/the-battle-is-on-silk-road-vs-government-and-bitcoin-anonymity)
+Le second est Bitcoin Fog (le « brouilleur de bitcoins »), [créé](https://web.archive.org/web/20121102102447/https://bitcointalk.org/index.php?topic=50037.0) par Roman Sterlingov, un homme russo-suédois de 23 ans. \[Description du service.\] Les frais se situent entre 1 et 3 %.
 
-- The Bitcoin Washing Machine, Tor, mai 2011 https://bitcointalk.org/index.php?topic=9512.msg137243#msg137243
+Spécificités : voir ["An Inquiry into Money Laundering Tools in the Bitcoin Ecosystem"](https://maltemoeser.de/paper/money-laundering.pdf)
 
-- OnionBC
+C'est aussi la période où la réflexion autour des manières décentralisées de faire s'intensifie. Deux idées émergent : les certificats aveugles en surcouche de Bitcoin (Open Transactions, [proposé](https://bitcointalk.org/index.php?topic=847.msg9976#msg9976) par fellowtraveller en août 2010, eCash basé sur Bitcoin) ; les services de mélange décentralisés, publiant des transactions brisant les liens entre les entrées et les sorties (idée [proposée](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) par Hashcoin en juillet 2011). Cette dernière piste conduira à la [formalisation](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) de CoinJoin par Gregory Maxwell en 2013. Mais c'est une toute autre histoire...
 
-- Bitcoin Fog, Roman Sterlingov (Akemashite Omedetou), 27 octobre 2011 : https://bitcointalk.org/index.php?topic=50037.msg596034#msg596034 https://web.archive.org/web/20121102102447/https://bitcointalk.org/index.php?topic=50037.0 https://twitter.com/BitcoinFog/status/129629806181613568
+### Une période de progrès pour les portefeuilles
 
-- Tumbler de Silk Road ? https://bitcointalk.org/index.php?topic=3984.msg128554#msg128554
+Ouverture sur la standardisation, les portefeuilles mutli-monnaies et les portefeuilles matériel. Trezor.
+Marek Palatinus (Slush), Pavol Rusnak (Stick).
 
-- fellowtraveller, Open Transactions, août 2010 : https://bitcointalk.org/index.php?topic=847.msg9976#msg9976 (eCash basé sur Bitcoin)
+BIP 39 : phrase mnémotechnique [10 septembre 2013](https://gnusha.org/pi/bitcoindev/CAJna-HgXPNa2UCO_edBzK=oY5-F=6LQVHap1Vk9XtGr09chy9Q@mail.gmail.com/) https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
 
-- anonameous : "We really need a bitcoin mix or blind digital certificates on top of bitcoin to prevent financial network analysis though, Bitcoin is not an ideal solution by itself." https://bitcointalk.org/index.php?topic=175.msg57305#msg57305
-
-- Duncan Townsend (duncant), Blind Bitcoin Transfers, juin 2011 : https://bitcointalk.org/index.php?topic=12751.msg176590#msg176590 (eCash basé sur Bitcoin)
-
-- Réponse de hashcoin : https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793
-
-- Casascius, nov. 2011 : https://bitcointalk.org/index.php?topic=50037.msg609100#msg609100
-
-- Meni Rosenfeld, déc. 2011 : https://bitcointalk.org/index.php?topic=54266.msg646916#msg646916
-
-- https://bitcointalk.org/index.php?topic=106373.msg1256767#msg1256767
-
-- killerstorm, 2012 ? https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry
-
-- CoinJoin, août 2013, Gregory Maxwell : https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902
-
-### Les HD Wallets
-
-*Hierarchical Deterministic Wallets*
-
-Portefeuille Armory, se voulant extrêmement sécurisé, stockage à froid (https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory), il intégrera bien plus tard le multisig (https://en.bitcoin.it/wiki/Armory) ; dépôt créé le 19/11/2011 : https://api.github.com/repos/etotheipi/BitcoinArmory ; forked by goatpig in February 2016 : https://github.com/goatpig/BitcoinArmory ; annonce par Alan Reiner (etotheipi), 3/1/2012 : https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650 https://web.archive.org/web/20120113202143/https://www.bitcoinarmory.com/ ; crowdfunding, 18/2 : https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0
-
-BIP 32 : dérivation
-
-Pieter Wuille, BIP 32 https://github.com/bitcoin/bips/commit/be1741786684bb3a9f828b2f190ad3a0269c7ec3 https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198
-
-"Acknowledgements: Gregory Maxwell for the original idea of type-2 deterministic wallets, and many discussions about it. Alan Reiner for the implementation of this scheme in Armory, and the suggestions that followed from that."
-
-alternative par Mike Koss, [3/12/2012](https://gist.github.com/mckoss/4211704)
-
-https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki https://bitcoinism.blogspot.com/2013/07/reclaiming-financial-privacy-with-hd.html
-
-Marek Palatinus, Pavol Rusnak
-
-HD Wallets (BIP 32/39/44)
-
-BIP 39 : phrase mnémotechnique
-
-BIP 44 : structure hiérarchique https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
-
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-Jan Møller, Mycelium, [13/9/2013](https://bitcointalk.org/index.php?topic=293472.msg3143493#msg3143493) ; création du dépôt Github [13/6/2013](https://api.github.com/repos/mycelium-com/wallet-android) ; HD support, [7/10/2014](https://bitcointalk.org/index.php?topic=814907.msg9116818#msg9116818) ; [screenshots](https://download.cnet.com/mycelium-bitcoin-wallet/3000-2057_4-75959638.html)
-
-### Premiers portefeuilles matériels
-
-premières puces matérielles
-
-- "offline key generation": [29/10/2010](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131)
-
-Les portefeuilles matériels nécessitent la dérivation des clés pour être utilisés de manière pratique : il faut une sauvegarde papier en cas de dysfonctionnement...
-
-- Trezor, 2012/2013 : https://web.archive.org/web/20130403104530/https://www.bitcointrezor.com/ https://web.archive.org/web/20130306144216/https://bitcointalk.org/index.php?topic=122438.0 ; Vitalik, "Slush Operator Announces USB Wallet Project" https://bitcoinmagazine.com/technical/slush-operator-announces-usb-wallet-project-1352395157
-
-Ledger, nov. 2014 : https://web.archive.org/web/20141121093353/https://www.ledgerwallet.com/
-
----
-
-- Problème d'entropie, 2013 : https://bitcoinmagazine.com/technical/critical-vulnerability-found-in-android-wallets-1376273924
+BIP 43 et 44 : structure hiérarchique [24 avril 2014](https://github.com/bitcoin/bips/commit/39b441f2ff18e7dcf71f357e43e4dd78a1b198b1) https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
 
 # 2012
 

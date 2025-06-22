@@ -15,6 +15,7 @@ contributor_names:
   - LoicPandul
 
 published_at: 2025-06-10
+test_only: true
 
 tags:
   - personal-security

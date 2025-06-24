@@ -138,15 +138,7 @@ Nota: Se recomienda revisar en la ventana de código, con el contenido original 
 
 ## 6. Reglas a seguir al corregir contenido
 
-- Antes de comenzar una nueva corrección, anúncialo en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Network. Ellos abrirán un [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), donde puedes comentar que estás comenzando el trabajo.
-- Es importante verificar siempre la versión original en inglés (o francés) del curso/tutorial al corregir. Siéntete libre de hacer ajustes para mejorar la fluidez, pero no cambies el significado original general.
-- Las herramientas LLM pueden traducir literalmente algunas palabras relacionadas con Bitcoin, como Lightning Network, que se convertiría en "Red de Rayos" en español. En casos como este, se aconsejable usar la palabra original en inglés para mayor claridad, a menos que las reglas de tu idioma te obliguen a traducir cada palabra.
-- Si encuentras citas, asegúrate de investigar en línea para encontrar la traducción correcta en tu idioma.
-- NO traduzcas las palabras estáticas al inicio del texto, que se utilizan para describir su contenido: "name", "description", "objectives".
-- Si encuentras "Plan ₿ Network" en el texto, déjalo en esta forma original. No traduzcas la palabra "plan" ni la palabra "network". Además, NO utilices el artículo "El" al introducir Plan ₿ Network, y considéralo como una marca. Lo mismo se aplica a "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", que también deben mantenerse en la forma original.
-- Presta atención a puntuaciones extrañas como `\*\*\`, que podría representar una mala representación del símbolo de negrita **. Siempre verifica el texto original en inglés para ver si se supone que debe haber un texto en negrita. Puedes encontrar más información sobre el lenguaje markdown [aquí](https://www.markdownguide.org/basic-syntax/).
-- Cuando termines tu corrección, puedes volver al issue inicial abierto por el coordinador, comentar con "Proofreading done" e insertar el enlace de tu PR allí.
-
+Para obtener más información sobre las pautas a seguir al corregir en Plan ₿ Network en términos de reglas de lenguaje o formato, consulte el tutorial "contribution-proofreading-guidelines" en esta misma sección.
 
 ## 7. Espera la revisión
 

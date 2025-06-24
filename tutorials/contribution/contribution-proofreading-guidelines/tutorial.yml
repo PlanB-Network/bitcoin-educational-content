@@ -1,23 +1,25 @@
-id: 10b631bc-45dc-11f0-a6bf-971c5f988db2
+id: 07d4653b-c0ef-45d2-bc96-96332f6d3cb7
 
-category: resource
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+tags:
+  - guides
+  - good-practice
+  - evaluation
+
+category: contribution
 
 level: beginner
 
-professor_id: aa19b8be-5958-4c45-8be8-a1582dd5a90b
+professor_id: ee75acb2-110d-45bd-b476-dca07781a24d
 
 # Proofreading metadata
-project_id: cd62a137-baad-4133-b90d-711963e510c7
+
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-06-06
     urgency: 1
     contributor_names:
-      - Asi0Flammeus
-    reward: 1.22
-tags:
-  - guides
-  - user-friendly
-  - easy-explain
-
+      - MariJJhodl
+    reward:

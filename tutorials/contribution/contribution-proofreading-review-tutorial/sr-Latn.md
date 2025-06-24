@@ -196,24 +196,7 @@ NB. Preporučuje se pregled u prozoru za kod, sa originalnim sadržajem prikazan
 
 ## 6. Pravila koja treba pratiti prilikom lekture sadržaja
 
-
-
-- Pre nego što započnete novu korekturu, najavite to u [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) ili obavestite svog Plan ₿ Network koordinatora. Oni će otvoriti [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), gde možete komentarisati da započinjete rad.
-- Važno je uvek proveriti originalnu verziju kursa/tutorijala na engleskom (ili francuskom) jeziku prilikom lekture. Slobodno napravite prilagođavanja kako biste poboljšali tečnost, ali nemojte menjati celokupno originalno značenje.
-- LLM alati mogu doslovno prevesti neke reči povezane sa Bitcoin, kao što je Lightning Network, što bi na italijanskom postalo "Rete Fulmine". U ovakvim slučajevima, preporučljivo je koristiti originalnu englesku reč radi bolje jasnoće, osim ako pravila vašeg jezika ne nalažu da prevedete svaku reč.
-- Ako pronađete citate, obavezno istražite na internetu kako biste pronašli pravi prevod na vašem jeziku.
-- name: "Planiranje Projekta"
-
-description: "Ovaj dokument pruža detaljan pregled koraka potrebnih za uspešno planiranje projekta. Uključuje definisanje ciljeva, identifikaciju resursa, i procenu rizika."
-
-objectives: 
-- "Definisati jasne i merljive ciljeve projekta."
-- "Identifikovati sve potrebne resurse i alokacije."
-- "Procena potencijalnih rizika i razvoj strategija za njihovo ublažavanje."
-- Ako pronađete "Plan ₿ Network" u tekstu, ostavite ga u ovom originalnom obliku. Nemojte prevoditi reč "plan" ili reč "network". Takođe, nemojte koristiti član "The" kada predstavljate Plan ₿ Network, i tretirajte ga kao brend. Isto važi za "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", koji takođe treba da ostanu u originalnom obliku.
-- Obratite pažnju na čudne interpunkcije kao što je `\*\*\` koje mogu predstavljati loše prikazivanje simbola za podebljavanje **. Uvek proverite originalni engleski tekst da vidite da li je tekst trebalo da bude podebljan. Generalno, da biste prikazali podebljan tekst, umetnite dve zvezdice ** i pre i posle reči/rečenice. Više informacija o markdown jeziku možete pronaći [ovde](https://www.markdownguide.org/basic-syntax/).
-- Kada završite lekturu, možete se vratiti na originalni problem koji je otvorio koordinator, komentarisati sa "Lektura završena" i tamo ubaciti link vašeg PR-a.
-
+Da biste saznali više o smernicama koje treba pratiti prilikom lekture u Plan ₿ Network u vezi sa jezičkim ili formatnim pravilima, molimo vas da se obratite tutorijalu "contribution-proofreading-guidelines" u ovom istom odeljku!
 
 ## 7. Sačekajte pregled
 

@@ -138,14 +138,7 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 
 ## 6. Aturan yang harus diikuti saat melakukan proofreading konten
 
-- Sebelum memulai proofreading baru, umumkan di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beri tahu koordinator Plan ₿ Network Anda. Mereka akan membuka [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), di mana Anda dapat mengomentari bahwa Anda mulai bekerja.
-- Penting untuk selalu memeriksa versi asli dalam bahasa Inggris (atau Prancis) dari kursus/tutorial saat melakukan proofreading. Jangan ragu untuk melakukan penyesuaian untuk meningkatkan kelancaran, tetapi jangan mengubah makna asli secara keseluruhan.
-- Alat LLM mungkin menerjemahkan beberapa kata yang terkait dengan Bitcoin secara harfiah, seperti Lightning Network, yang akan menjadi "Jaringan Petir" dalam bahasa Indonesia. Dalam kasus seperti ini, disarankan untuk menggunakan kata asli dalam bahasa Inggris untuk kejelasan yang lebih baik, kecuali aturan bahasa Anda mengharuskan Anda untuk menerjemahkan setiap kata.
-- Jika Anda menemukan kutipan, pastikan untuk melakukan penelitian online untuk menemukan terjemahan yang tepat dalam bahasa Anda.
-- JANGAN menerjemahkan kata-kata statis di awal teks, yang digunakan untuk menggambarkan isinya: "name", "description", "objectives".
-- Jika Anda menemukan "Plan ₿ Network" dalam teks, biarkan dalam bentuk aslinya. Jangan terjemahkan kata "plan" atau kata "network". Selain itu, JANGAN gunakan artikel saat memperkenalkan Plan ₿ Network, dan anggap itu sebagai merek. Hal yang sama berlaku untuk "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", yang juga harus tetap dalam bentuk aslinya.
-- Perhatikan tanda baca aneh seperti '\*\*\', yang mungkin mewakili rendering yang buruk dari simbol tebal **. Selalu periksa teks asli dalam bahasa Inggris untuk melihat apakah ada teks tebal yang seharusnya ada. Secara umum, untuk merender teks tebal, silakan masukkan dua asterisk ** baik sebelum maupun setelah kata/kalimat. Anda dapat menemukan informasi lebih lanjut tentang bahasa markdown [di sini](https://www.markdownguide.org/basic-syntax/).
-- Setelah Anda menyelesaikan proofreading, Anda dapat kembali ke issue awal yang dibuka oleh koordinator, mengomentari "Proofreading done" dan menyisipkan tautan PR Anda di sana.
+Untuk mengetahui lebih lanjut tentang pedoman yang harus diikuti saat melakukan proofreading di Plan ₿ Network terkait dengan aturan bahasa atau format, silakan merujuk ke tutorial "contribution-proofreading-guidelines" di bagian yang sama ini!
 
 ## 7. Tunggu ulasan
 

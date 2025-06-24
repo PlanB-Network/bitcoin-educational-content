@@ -1,4 +1,4 @@
----
+y---
 name: Safari ya Bitcoin
 goal: Gundua misingi ya Bitcoin, ikijumuisha pendekezo lake la thamani ya fedha, wachimbaji, miamala na pochi.
 objectives: 
@@ -21,17 +21,17 @@ Hauhitaji maarifa yoyote maalum ili kuanza. Kwa hakika, maudhui yafuatayo yanawe
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Kuruka kwenye Yasiyojulikana
+## Muhtasari wa kozi
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Karibu kwenye dhana mpya ya kifedha na kiteknolojia.
+### Karibu kwenye kozi ya BTC101!
 
 Bitcoin ni mapinduzi ya kiteknolojia na ya fedha, yenye uwezo wa kutufanya tutilie shaka uhusiano wetu kwa pesa na jamii. Kwa hakika, Bitcoin (inayojulikana kama BTC) ni sarafu **isiyofungamana** na **iliyogatuliwa**, ambayo ina maana kwamba haidhibitiwi na huluki au taasisi yoyote. Ni uvumbuzi ambao unapita zaidi ya "sarafu ya mtandao" tu: ni itifaki ya kompyuta (Bitcoin) na kitengo cha fedha (Bitcoin).
 
 Itifaki hutumia teknolojia za msingi kama vile kriptografia, mawasiliano ya mtandao, na "Blockchain" maarufu, wakati kitengo cha Bitcoin hutumika kama sarafu inayohitajika kwa utendakazi mzuri wa itifaki hii. Katika maisha ya kila siku, watu wa Salvadorian na bitcoiners kote ulimwenguni hutumia sarafu ya Bitcoin kununua, kuuza bidhaa na huduma, wakitegemea teknolojia hii kufanya maisha yao kuwa bora.
 
-### Mtaala mpana lakini unaoweza kufikiwa
+### Mtaala wa kina lakini unaoweza kufikiwa
 
 Katika kozi hii, tutajadili baadhi ya vipengele vya fedha vya Bitcoin, ikiwa ni pamoja na jinsi ya kununua na kuuza bitcoins, kuzihifadhi kwa usalama katika pochi za kidijitali, na kuzitumia kwa miamala. Pia tutachunguza jukumu la wachimbaji, ambao ni muhimu kwa kuunda bitcoins mpya na kupata mtandao wa Bitcoin. Hatimaye, tutachunguza mustakabali wa Bitcoin na jinsi teknolojia ya Lightning Network inavyoweza kuboresha miamala ya Bitcoin.
 
@@ -136,7 +136,7 @@ Walakini, Bitcoin ilikuwa zaidi ya hiyo tu: iliwakilisha kufikiwa kwa maadili ya
 
 ### Hitimisho
 
-Historia ya awali ya Bitcoin imekita mizizi katika harakati za Cypherpunk na jitihada za pamoja za kupata uhuru zaidi katika enzi za kidijitali. Kwa kuchanganya kanuni za usimbaji fiche, ugatuaji na uadilifu, Bitcoin imekuwa zaidi ya sarafu. Kwa hakika, ni zao la mapinduzi ya kifalsafa na kiteknolojia yanayoendelea kutengeneza upya ulimwengu wetu.
+Historia ya awali ya Bitcoin imekita mizizi katika harakati za Cypherpunk na jitihada za pamoja za kupata uhuru zaidi katika enzi za kidijitali. Kwa kuchanganya kanuni za usimbaji fiche (cryptography), ugatuaji na uadilifu, Bitcoin imekuwa zaidi ya sarafu. Kwa hakika, ni zao la mapinduzi ya kifalsafa na kiteknolojia yanayoendelea kutengeneza upya ulimwengu wetu.
 
 Kwa hivyo, Bitcoin ni itifaki inayoenea kwa muda mrefu, na inatuhimiza kuhoji uhusiano wetu na nishati, wakati na pesa.
 

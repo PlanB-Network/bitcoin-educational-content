@@ -1,5 +1,5 @@
 ---
-name: Ihre ersten Bitcoins bekommen TEST
+name: Ihre ersten Bitcoins bekommen test
 goal: Lernen Sie, wie Sie Ihre ersten Bitcoins selbständig kaufen, sichern und verwalten können.
 objectives: 
 

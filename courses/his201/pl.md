@@ -171,16 +171,16 @@ Oto zdjęcie z 1977 roku, wykonane przez Chucka Paintera dla Stanford News Servi
 ![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
 
 
-Artykuł Diffiego i Hellmana utorował drogę wielu innowacjom. Jedną z nich był [kryptosystem RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), który został zaprojektowany w 1977 roku przez kryptografów Ronalda Rivesta, Adiego Shamira i Leonarda Adlemana (którzy nadali mu swoje nazwiska) i opatentowany przez MIT w 1983 roku. System ten umożliwia zarówno szyfrowanie, jak i podpisywanie wiadomości, dzięki zamianie ról kluczy. RSA został po raz pierwszy zaprezentowany publicznie w [artykule Martina Gardnera](https://simson.net/ref/1977/Gardner_RSA.pdf) opublikowanym w czasopiśmie *Scientific American* w sierpniu 1977 roku, który nosił tytuł "Gry matematyczne: Nowy rodzaj szyfru, którego złamanie zajęłoby miliony lat"
+Artykuł Diffiego i Hellmana utorował drogę wielu innowacjom. Jedną z nich był [kryptosystem RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), który został zaprojektowany w 1977 roku przez kryptografów Ronalda Rivesta, Adiego Shamira i Leonarda Adlemana (którzy nadali mu swoje nazwiska) i opatentowany przez MIT w 1983 roku. System ten umożliwia zarówno szyfrowanie, jak i podpisywanie wiadomości, dzięki zamianie ról kluczy. RSA został po raz pierwszy zaprezentowany publicznie w [artykule Martina Gardnera](https://simson.net/ref/1977/Gardner_RSA.pdf) opublikowanym w czasopiśmie *Scientific American* w sierpniu 1977 roku, który nosił tytuł „Gry matematyczne: Nowy rodzaj szyfru, którego złamanie zajęłoby miliony lat”
 
 
-Odkrycie kryptografii asymetrycznej zmotywowało również do stworzenia funkcji jednokierunkowych, charakteryzujących się tym, że obliczenie obrazu (kierunek do przodu) jest bardzo łatwe, a uzyskanie obrazu wstępnego (kierunek wsteczny) bardzo trudne. Doprowadziło to do opracowania pierwszych kryptograficznych funkcji Hash, które przekształcały wiadomość o zmiennym rozmiarze w skrót o stałym rozmiarze. W latach 1989-1991 kilka algorytmów haszujących (MD2, MD4 i MD5) zostało zaprojektowanych przez Ronalda Rivesta dla MIT.
+Odkrycie kryptografii asymetrycznej było również motywacją do stworzenia funkcji jednokierunkowych, charakteryzujących się tym, że obliczenie obrazu (kierunek do przodu) jest bardzo łatwe, a uzyskanie obrazu wstępnego (kierunek wsteczny) bardzo trudne. Doprowadziło to do opracowania pierwszych kryptograficznych funkcji Hash, które przekształcały wiadomość o zmiennym rozmiarze w skrót o stałym rozmiarze. W latach 1989-1991 kilka algorytmów haszujących (MD2, MD4 i MD5) zostało zaprojektowanych przez Ronalda Rivesta dla MIT.
 
 
 Podstawowe elementy kryptograficzne Bitcoina wywodzą się z tych badań. Schemat podpisu ECDSA, umożliwiający autoryzację wydatków tradycyjnej transakcji, został stworzony w 1992 roku dla NIST. Funkcja SHA-256 Hash, używana w wielu miejscach protokołu, została opublikowana w 2001 roku jako część pakietu algorytmów SHA-2 upublicznionego przez NSA. Więcej informacji na ten temat można znaleźć na kursie [Crypto 301] (../crypto301/fr.md) prowadzonym przez Loïca Morela.
 
 
-### Protokół slepych podpisów i gotówka elektroniczna
+### Protokół ślepych podpisów i gotówka elektroniczna
 
 
 Ta rewolucja w dziedzinie kryptografii zainspirowała również młodego Davida Chauma, informatyka z Zachodniego Wybrzeża, a następnie doktoranta na Uniwersytecie w Berkeley. Szybko stał się pasjonatem ochrony prywatności. Był bardzo zaniepokojony przyszłością wolności i poufności w społeczeństwie, które stawało się coraz bardziej skomputeryzowane.
@@ -193,7 +193,7 @@ David Chaum w latach 90-tych (źródło: [Elixxir](https://www.youtube.com/watch
 
 W [artykule przedstawiającym fundamenty jego pracy](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), „Bezpieczeństwo bez identyfikacji: systemy transakcyjne sprawiające, że Wielki Brat nie jest już potrzebny” opublikowanym w 1985 roku w *Communications of the ACM*, napisał on:
 
-> „Kładzie się podwaliny pod społeczeństwo z teczką na każdego obywatela, w którym komputery mogą być wykorzystywane do wnioskowania o stylu życia, nawykach, miejscu pobytu i skojarzeniach poszczególnych osób na podstawie danych zebranych podczas zwykłych transakcji konsumenckich. Niepewność co do tego, czy dane pozostaną bezpieczne przed nadużyciami ze strony tych, którzy je przechowują lub podsłuchują, może spowolnić troche ten proces, powodując, że ludzie zmieniają swoje obserwowalne działania. W miarę jak komputeryzacja staje się coraz bardziej powszechna, waga tych problemów będzie dramatycznie wzrastać”
+> „Kładzie się podwaliny pod społeczeństwo z teczką na każdego obywatela, w którym komputery mogą być wykorzystywane do wnioskowania o stylu życia, nawykach, miejscu pobytu i skojarzeniach poszczególnych osób na podstawie danych zebranych podczas zwykłych transakcji konsumenckich. Niepewność co do tego, czy dane pozostaną bezpieczne przed nadużyciami ze strony tych, którzy je przechowują lub podsłuchują, może spowolnić trochę ten proces, powodując, że ludzie zmieniają swoje obserwowalne działania. W miarę jak komputeryzacja staje się coraz bardziej powszechna, waga tych problemów będzie dramatycznie wzrastać”
 
 Ta obsesja na punkcie ochrony prywatności wyjaśnia jego zainteresowanie dziedziną kryptografii, do której rozwoju przyczynił się już w 1979 roku. W 1981 roku opisał podstawy anonimowej komunikacji za pośrednictwem sieci mieszanych, które służyły w szczególności usługom przekazywania poczty elektronicznej (Mixmaster) i anonimowej sieci Tor. W 1982 roku uczestniczył w założeniu Międzynarodowego Stowarzyszenia Badań Kryptologicznych (IACR) na corocznej konferencji CRYPTO '82. W tym samym roku (i to jest to, co nas tutaj interesuje), w [artykule](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF) zatytułowanym „Protokół ślepych podpisów w prywatnych płatnościach” opublikował proces zastosowania ślepego podpisu, który jest sercem jego szanującego prywatność modelu waluty cyfrowej: eCash.
 
@@ -209,7 +209,7 @@ Model eCash to koncepcja waluty cyfrowej, która umożliwia klientom dokonywanie
 Banknoty cyfrowe mogą być emitowane bez gwarancji lub mogą być zabezpieczone. W pierwszym przypadku stanowią one walutę bazową, która sama w sobie musi nabrać wartości. W drugim przypadku są one zabezpieczone inną walutą (zazwyczaj dolarem), a użytkownik może w dowolnym momencie zwrócić swoje banknoty do banku, aby odzyskać odpowiednią kwotę.
 
 
-W swoim działaniu technicznym model eCash opiera się na protokole ślepego podpisu, który pozwala podpisującemu podpisać coś, nie widząc tego, co podpisuje. Każdy banknot jest generowany przez użytkownika, a następnie podpisywany przez bank w celu zapewnienia jego autentyczności, bez możliwości identyfikacji banknotu przez bank. Każdy banknot reprezentuje określoną ilość jednostek pieniężnych (nominał), a każdy bank w systemie ma klucz prywatny do podpisywania każdego rodzaju nominału. Zastosowana procedura matematyczna (której nie będziemy tutaj opisywać) jest analogiczna do podpisywania fizycznego banknotu umieszczonego w zapieczętowanej kopercie przez [kalkę](https://fr.wikipedia.org/wiki/Papier_carbone).
+W swoim działaniu technicznym model eCash opiera się na protokole ślepego podpisu, który pozwala podpisującemu podpisać coś, nie widząc tego, co podpisuje. Każdy banknot jest generowany przez użytkownika, a następnie podpisywany przez bank w celu zapewnienia jego autentyczności bez możliwości identyfikacji banknotu przez bank. Każdy banknot reprezentuje określoną ilość jednostek pieniężnych (nominał), a każdy bank w systemie ma klucz prywatny do podpisywania każdego rodzaju nominału. Zastosowana procedura matematyczna (której nie będziemy tutaj opisywać) jest analogiczna do podpisywania fizycznego banknotu umieszczonego w zapieczętowanej kopercie przez [kalkę](https://fr.wikipedia.org/wiki/Papier_carbone).
 
 
 Oto ilustracja różnych etapów tworzenia i wymiany waluty Chaumian (z *L'Élégance de Bitcoin*):
@@ -245,13 +245,13 @@ Przeniesienie podpisanej notatki odbywa się poprzez przekazanie jej innemu uży
 - Bank Boba sprawdza, czy weksel nie został już wykorzystany i jeśli wszystko się zgadza, wystawia nowy weksel lub uznaje środki na koncie Boba (jeśli jest na nie pokrycie).
 
 
-Wszystko to oznacza, że żaden bank w systemie nie może powiązać płatności z tożsamością Alicji, co wyjaśnia, dlaczego mówimy o poufności klienta. Sprzedawca (tutaj Bob) jest jednak zobowiązany do przejścia przez bank w celu potwierdzenia płatności, a zatem jego bank może sprawdzić, jaki kwoty otrzymuje Bob. Co więcej, system zależy od zaufanej strony trzeciej - centralnego organu, który wyznacza uczestniczące banki - co z założenia czyni system kruchym.
+Wszystko to oznacza, że żaden bank w systemie nie może powiązać płatności z tożsamością Alicji, co wyjaśnia, dlaczego mówimy o poufności klienta. Sprzedawca (tutaj Bob) jest jednak zobowiązany do przejścia przez bank w celu potwierdzenia płatności, a zatem jego bank może sprawdzić, jakie kwoty otrzymuje Bob. Co więcej, system zależy od zaufanej strony trzeciej - centralnego organu, który wyznacza uczestniczące banki - co z założenia czyni system kruchym.
 
 
 ### Wdrożenia eCash
 
 
-W 1990 roku David Chaum założył własną firmę, DigiCash B.V., aby wdrożyć swój pomysł na elektroniczną gotówkę. Firma ta miała siedzibę w Amsterdamie w Holandii i posiadała patenty na jego wynalazek. W tamtym czasie Internet był jeszcze w powijakach (sieć dopiero się rozwijała), a handel elektroniczny nie istniał, dlatego model eCash miał przed sobą ogromne możliwości.
+W 1990 roku David Chaum założył własną firmę, DigiCash B.V., aby wdrożyć swój pomysł na gotówkę elektroniczną. Firma ta miała siedzibę w Amsterdamie w Holandii i posiadała patenty na jego wynalazek. W tamtym czasie Internet był jeszcze w powijakach (sieć dopiero się rozwijała), a handel elektroniczny nie istniał, dlatego model eCash miał przed sobą ogromne możliwości.
 
 
 ![DigiCash Logo](assets/en/06.webp)
@@ -289,7 +289,7 @@ Następnie eCash zainspirował cypherpunków, którzy opracowali własne modele,
 Wreszcie, model Davida Chauma znacząco wpłynął na Satoshiego Nakamoto, gdy ten rozwijał swoją koncepcję waluty. Świadczą o tym liczne odniesienia w [białej księdze](assets/pdf/Bitcoin-20090324.pdf) (tytuł, opis problemu w sekcji 2, nazwa pliku PDF [wysłanego](https://gwern.net/doc/Bitcoin/2008-nakamoto) do Wei Dai w sierpniu 2008 r.), a także jego prywatne i publiczne interwencje. W tym sensie eCash jest głównym poprzednikiem Bitcoina, nawet jeśli nie jedynym.
 
 
-Dzięki Bitcoinowi, Satoshi Nakamoto stworzył solidną i poufną walutę cyfrową, prawdziwą gotówkę elektroniczną. W ten sposób zrealizował [przewidywania](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) Miltona Friedmana, laureata Nagrody Nobla w dziedzinie ekonomii i założyciela Szkoły Chicagowskiej, który powiedział w wywiadzie dla National Taxpayers Union Foundation w 1999 roku:
+Dzięki Bitcoinowi Satoshi Nakamoto stworzył solidną i poufną walutę cyfrową, prawdziwą gotówkę elektroniczną. W ten sposób zrealizował [przewidywania](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) Miltona Friedmana, laureata Nagrody Nobla w dziedzinie ekonomii i założyciela Szkoły Chicagowskiej, który powiedział w wywiadzie dla National Taxpayers Union Foundation w 1999 roku:
 
 
 > „Myślę, że Internet będzie jedną z głównych sił zmniejszających rolę rządu. Jedyną rzeczą, której brakuje, ale która wkrótce zostanie opracowana, jest niezawodna e-gotówka, metoda, dzięki której w Internecie można przesyłać środki od A do B bez wiedzy A o B lub B o A”

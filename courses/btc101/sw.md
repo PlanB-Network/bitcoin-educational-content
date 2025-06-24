@@ -179,8 +179,8 @@ Kwa sababu hizi, dhahabu kama pesa ni matokeo ya miaka 4,000 ya imani ya Darwin 
 
 
 - **Hifadhi ya thamani**: pesa inaweza kutumika kuhamisha nguvu za ununuzi katika siku zijazo, kwa hiyo inahitaji kuwa nyenzo ya kudumu;
-- **Kati ya kubadilishana**: pesa inaweza kutumika kubadilishana kwa bidhaa na huduma,badala ya kubadilishana bidhaa kwa bidhaa, hivyo kuepuka sadfa ya kutaka ya wafanyabiashara;
-- **Kitengo cha akaunti**: pesa pia huturuhusu kulinganisha thamani za bidhaa mbalimbali ili kuelewa vyema manufaa yake.
+- **Njia ya kubadilishana thamani**: pesa inaweza kutumika kubadilishana kwa bidhaa na huduma,badala ya kubadilishana bidhaa kwa bidhaa, hivyo kuepuka sadfa ya kutaka ya wafanyabiashara;
+- **Kipimo cha thamani**: pesa pia huturuhusu kulinganisha thamani za bidhaa mbalimbali ili kuelewa vyema manufaa yake.
 
 ![image](assets/en/08.webp)
 
@@ -199,9 +199,9 @@ Ili kuelezea dhana hii vyema, tutachunguza sifa za sarafu inayofaa:
 ![image](assets/en/11.webp)
 
 
-- **Fungibility**, ikimaanisha kuwa inaweza kubadilishana na kitengo kingine cha aina sawa bila upotezaji wa thamani;
+- **Fungibility (Ubadilishaji sawia) **, ikimaanisha kuwa inaweza kubadilishana na kitengo kingine cha aina sawa bila upotezaji wa thamani;
 - **Mgawanyiko**, kwani inaweza kugawanywa katika vitengo vidogo ili kuwezesha shughuli za viwango tofauti;
-- **Liquidity**, ambayo ina maana kwamba inaweza kubadilishwa kwa urahisi kuwa bidhaa au huduma.
+- **Ukwasi**, yaani uwezo wa kubadilishwa kwa urahisi kuwa bidhaa au huduma
 
 Ili kufikia vigezo hivi, sarafu imebadilika kihistoria kwa kuchukua hatua tofauti:
 
@@ -212,13 +212,15 @@ Ili kufikia vigezo hivi, sarafu imebadilika kihistoria kwa kuchukua hatua tofaut
 
 Sarafu bado zinaendelea kubadilika hadi leo, kurekebisha fomu zao ili kukidhi hali tofauti za utumiaji. Kama tulivyosema, wakati dhahabu ni ghala bora la thamani, haifai tena kwa uchumi wa sasa wa utandawazi. Vile vile, sarafu aminifu kama vile dola na euro ni Liquid sana na zinaweza kusafirishwa kwa urahisi kwa sababu nyingi ni za kidijitali, lakini thamani yake hupunguzwa kila mara na mfumuko wa bei wa fedha.
 
-Kwa upande mwingine, Bitcoin inatoa uwezekano mpya. Sifa zake, kama vile usambazaji wenye kikomo, huifanya kuwa duka bora la thamani. Zaidi ya hayo, kama sarafu isiyoegemea upande wowote ya mtandao, inatumika kama **kati ya Exchange** inayoweza kutumika inayovuka mipaka. Hata hivyo, bado haikubaliwi sana katika biashara leo, licha ya [kupitishwa mara kwa mara](https://btcmap.org/map).
+Kwa upande mwingine, Bitcoin inatoa uwezekano mpya. Sifa zake, kama vile usambazaji wenye kikomo, huifanya kuwa duka bora la thamani. Zaidi ya hayo, kama sarafu isiyoegemea upande wowote ya mtandao, inatumika kama *Medium of exchange** inayoweza kutumika inayovuka mipaka. Hata hivyo, bado haikubaliwi sana katika biashara leo, licha ya [kupitishwa mara kwa mara](https://btcmap.org/map).
 
-## Fiduciary sarafu
+## Sarafu za imani (fiduciary currencies)
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 > "Wale ambao hawawezi kukumbuka yaliyopita wanahukumiwa kurudia" alisema George Santayana.
+
+
 Ukweli ambao unasikika vyema linapokuja suala la mfumo wa kisasa wa fedha.
 
 ### Fiduciary = Kuaminiana

@@ -10,7 +10,7 @@ description: HODLHODL 分步指南
 HODL HODL 是一個分散式的 Bitcoin Exchange，以使用者控制和安全性為優先。與傳統交易所不同，它以點對點模式運作，允許用戶之間直接交易。憑藉其多重簽名託管系統，HODL HODL 可確保交易過程中的資金安全。該平台還支援各種付款方式，並提供差價合約 (CFD) 等交易選項。
 
 
-![ HodlHodl - Buy and Sell Bitcoin NO KYC ](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 
 https://hodlhodl.com/pages/faq_help

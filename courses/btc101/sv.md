@@ -74,6 +74,7 @@ Det är viktigt att förstå att Bitcoin är ett nytt monetärt system som helt 
 
 **Avsnitt 6 - Framtiden för Bitcoin: Lightning Network**
 
+
     Kapitel 20 - En Kort Introduktion till Lightning Network
     Kapitel 21 - Användningsfall för Lightning Network
     Kapitel 22 - Röd Piller eller Blå Piller?
@@ -584,7 +585,7 @@ Här nedan kommer vi att definiera flera säkerhetsnivåer:
 
 Du kan till exempel använda Sparrow Wallet som en varm plånbok:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Nivå 2**, du använder en fysisk digital plånbok och du har säkrat din lista med 12/24 ord. Det kallas ofta för "kall plånbok" eftersom dina nycklar lagras på en enhet som inte är ansluten till internet. I det här fallet måste du alltid signera varje transaktion med din enhet, vilket gör dina pengar mindre tillgängliga på daglig basis.
 
@@ -1084,7 +1085,9 @@ Idag fortsätter Bitcoin att överleva och växa ännu mer genom att integreras 
 
 Bitcoin kan ses som ett verktyg för att skapa en parallell ekonomi till fiatvalutor, eftersom det är möjligt att sälja varor eller tjänster och få betalt i bitcoin. Transaktioner kan göras direkt i Bitcoin, utan att behöva gå via en växlingsplattform, utan helt enkelt gå från en Bitcoin-plånbok till en annan.
 
-Bitcoin-ekonomin finns och utvecklas i vissa regioner i världen, som i El Salvador, där Bitcoin har varit ett lagligt betalningsmedel sedan 2021. Runt omkring oss finns det vissa individer, företag och organisationer som redan accepterar Bitcoin som betalningsmedel för sina produkter eller tjänster.
+Bitcoin-ekonomin existerar och utvecklas i vissa regioner av världen, som i El Salvador, där Bitcoin blev ett lagligt betalningsmedel 2021. Tyvärr, i januari 2025, antog församlingen en ny lag som berövade Bitcoin titeln "lagligt betalningsmedel", påstått efter att ha mottagit press från Internationella valutafonden. Enligt den nya lagen är människor inte längre skyldiga att acceptera Bitcoin i sina företag och kan inte längre betala skatter med det. Acceptans förblir frivillig.
+
+Trots detta finns det i El Salvador och i andra delar av världen allt fler individer, företag och organisationer som accepterar Bitcoin som betalningsmedel för sina produkter eller tjänster.
 
 ![image](assets/en/72.webp)
 
@@ -1107,11 +1110,11 @@ Vi kommer att behandla detta ämne i detalj i en annan kurs, men för att hålla
 
 - Enkel lösning online: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lösning för amatörhandlare: Schweiziska Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lösning för stora strukturer eller passionerade bitcoiners: BTCpay Server
 
@@ -1414,3 +1417,4 @@ Satoshi skapade Bitcoin 2008 för att föreslå en förändring av det finansiel
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

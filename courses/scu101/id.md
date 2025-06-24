@@ -403,18 +403,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Pengaturan Cadangan
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Melindungi file pribadi Anda juga merupakan poin penting dari keamanan siber Anda. Tutorial ini akan menunjukkan kepada Anda bagaimana cara menerapkan strategi pencadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di tempat lain. Dengan demikian, Anda memastikan akses dan keamanan file sensitif Anda:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau *hard drive* eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi hal tersebut dengan mudah menggunakan VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Menggunakan browser berbeda & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -430,6 +418,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Pelajarilah juga cara menggunakan Tor Browser, peramban yang dirancang khusus untuk melindungi privasi online Anda:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Pengaturan Cadangan
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Melindungi file pribadi Anda juga merupakan poin penting dari keamanan siber Anda. Tutorial ini akan menunjukkan kepada Anda bagaimana cara menerapkan strategi pencadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di tempat lain. Dengan demikian, Anda memastikan akses dan keamanan file sensitif Anda:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau *hard drive* eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi hal tersebut dengan mudah menggunakan VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Belajarlah Lebih Jauh
 

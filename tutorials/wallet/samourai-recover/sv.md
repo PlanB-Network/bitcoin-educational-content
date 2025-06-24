@@ -29,7 +29,7 @@ Med tanke på att Samourai Wallet-sidan inte längre finns tillgänglig i Google
 
 Om Samourai Wallet redan är installerat på din smartphone bör du fortfarande kunna komma åt appen. För att använda Wallet-funktionaliteten i Samourai är det viktigt att ansluta en Dojo. Tidigare var användare utan en personlig Dojo beroende av Samourais servrar för att få tillgång till Bitcoin Blockchain-information och för att sända transaktioner. I och med att dessa servrar har beslagtagits kan appen inte längre komma åt dessa data.
 
-Om du inte hade en ansluten Dojo tidigare men har en nu kan du ställa in den så att den använder din Samourai-app igen. Detta innebär att du kontrollerar dina säkerhetskopior, raderar Wallet (Wallet, inte applikationen) och återställer Wallet genom att ansluta din Dojo till applikationen. För mer information om dessa steg kan du läsa [denna handledning, i avsnittet "_Förbereda din Samourai-plånbok_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Om du inte hade en ansluten Dojo tidigare men har en nu kan du ställa in den så att den använder din Samourai-app igen. Detta innebär att du kontrollerar dina säkerhetskopior, raderar Wallet (Wallet, inte applikationen) och återställer Wallet genom att ansluta din Dojo till applikationen. För mer information om dessa steg kan du läsa [denna handledning, i avsnittet "_Förbereda din Samourai-plånbok_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 
 Om din Samourai-app redan var ansluten till din egen Dojo fungerar Wallet-delen perfekt för dig. Du kan fortfarande se ditt saldo och sända transaktioner. Trots allt som händer tycker jag att Samourai Wallet fortfarande är den bästa mobila Wallet-programvaran för tillfället. Personligen planerar jag att fortsätta använda den.
 
@@ -48,12 +48,12 @@ När det gäller enskilda utgiftsverktyg fungerar allt normalt förutsatt, natur
 
 Kommentarer på Twitter har lyft fram att den integritet som en Stonewall-transaktion erbjuder nu kan komma att minska. Mervärdet av en Stonewall-transaktion ligger i det faktum att den inte går att skilja från en Stonewall x2-transaktion när det gäller struktur. När en analytiker stöter på detta specifika mönster kan han eller hon inte avgöra om det rör sig om en vanlig Stonewall med en enda användare eller en Stonewall x2 med två användare. Som vi kommer att se i de följande styckena har det dock blivit mer komplicerat att genomföra Stonewall x2-transaktioner på grund av att Soroban inte längre är tillgängligt. Vissa anser därför att en analytiker nu kan anta att alla transaktioner med denna struktur är en normal Stonewall. Personligen delar jag inte detta antagande. Även om Stonewall x2-transaktioner kan vara mindre frekventa (och jag tror att de var det redan före denna incident), kan det faktum att de fortfarande är möjliga ogiltigförklara en hel analys baserad på antagandet att de inte är det.
 
-**[-> Läs mer om Stonewall-transaktioner](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Läs mer om Stonewall-transaktioner](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 När det gäller Ricochet har jag inte kunnat verifiera om tjänsten fortfarande är i drift, på grund av att jag inte äger en Dojo på Testnet, och jag föredrar att inte riskera att spendera 100 000 Sats` på en Wallet som kan kontrolleras av myndigheterna. Om du har haft möjlighet att testa det här verktyget nyligen, inbjuder jag dig att kontakta mig så att vi kan uppdatera den här artikeln.
 
 
-Om du behöver använda Ricochet ska du vara medveten om att du alltid kan utföra denna operation manuellt med vilken Wallet-programvara som helst. För att lära dig hur du manuellt utför de olika hoppen korrekt rekommenderar jag att du konsulterar den här andra artikeln: [**RICOCHET**](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+Om du behöver använda Ricochet ska du vara medveten om att du alltid kan utföra denna operation manuellt med vilken Wallet-programvara som helst. För att lära dig hur du manuellt utför de olika hoppen korrekt rekommenderar jag att du konsulterar den här andra artikeln: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 JoinBot-verktyget är inte längre i drift, eftersom det var helt beroende av att ett Wallet som administrerades av Samourai deltog.
@@ -75,10 +75,10 @@ Efter flera tester verkar det som om Soroban inte längre fungerar. För att utf
 - Om du befinner dig långt från din medarbetare kan du Exchange PSBT:erna via en extern kommunikationskanal till applikationen. Var dock försiktig eftersom uppgifterna i dessa PSBT:er är känsliga ur integritetssynpunkt. Jag rekommenderar att du använder en krypterad meddelandetjänst för att säkerställa sekretessen för Exchange.
 
 
-**[-> Läs mer om Stonewall x2 transaktioner.](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Läs mer om Stonewall x2 transaktioner.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> Läs mer om Stowaway-transaktioner](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Läs mer om Stowaway-transaktioner](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 När det gäller Whirlpool verkar protokollet inte längre fungera, inte ens för användare som har sin egen Dojo. Jag har övervakat min RoninDojo de senaste dagarna och försökt med några grundläggande manipuleringar, men Whirlpool CLI har inte kunnat ansluta sedan servern stängdes av.
@@ -240,7 +240,7 @@ Om du använder en annan programvara än Sparrow, som Electrum, för att återst
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow Wallet kan du också kolla in [vår dedikerade handledning] (https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow Wallet kan du också kolla in [vår dedikerade handledning] (https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Jag rekommenderar också att du manuellt importerar de etiketter som du hade associerade med dina UTXO:er på Samourai. Detta kommer att göra det möjligt för dig att utföra effektiv myntkontroll på Sparrow därefter.
@@ -329,7 +329,7 @@ Om du använder en annan programvara som Electrum för att återställa din Samo
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow Wallet kan du också läsa [vår dedikerade handledning] (https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow Wallet kan du också läsa [vår dedikerade handledning] (https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Jag rekommenderar också att du manuellt importerar de etiketter som du hade associerade med dina UTXO:er på Samourai. Detta kommer att göra det möjligt för dig att utföra effektiv myntkontroll på Sparrow därefter.

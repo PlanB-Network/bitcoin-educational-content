@@ -115,7 +115,7 @@ Klik pada tombol "*Terima*".
 
 ![Image](assets/fr/18.webp)
 
-Geser kode QR ke kanan untuk menampilkan alamat penerima Bitcoin. Kirimkan jumlah yang ingin Anda setorkan ke Phoenix.
+Geser kode QR ke kiri untuk menampilkan alamat penerimaan Bitcoin. Kirim jumlah yang ingin Anda depositkan ke Phoenix ke alamat tersebut.
 
 ![Image](assets/fr/19.webp)
 

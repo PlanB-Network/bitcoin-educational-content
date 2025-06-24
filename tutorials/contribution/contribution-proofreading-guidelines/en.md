@@ -17,7 +17,6 @@ Before diving into the specifics, the first thing to do is read this tutorial on
 
 https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
-
 ## What is proofreading?
 
 Proofreading is the final review process of a written text, to identify and correct errors in grammar, spelling, punctuation, and formatting. It ensures the text is clear, coherent, and free of mistakes before publication or submission.

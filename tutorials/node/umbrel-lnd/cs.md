@@ -57,7 +57,7 @@ Pro kompletní teoretické seznámení s Lightning Network doporučujeme absolvo
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 V tomto kurzu se důkladně seznámíte se základními koncepty Lightning Network a poté přejdete k praxi s uzlem LND.
 

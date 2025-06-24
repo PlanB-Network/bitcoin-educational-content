@@ -170,7 +170,7 @@ Klicka på knappen "*Receive*".
 ![Image](assets/fr/18.webp)
 
 
-Svep QR-koden till höger för att avslöja en Bitcoin som tar emot Address. Skicka det belopp som du vill sätta in på Phoenix.
+Svep QR-koden åt vänster för att visa en Bitcoin-mottagningsadress. Skicka det belopp du vill sätta in på Phoenix till den adressen.
 
 
 ![Image](assets/fr/19.webp)

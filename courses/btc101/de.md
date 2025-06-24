@@ -1061,7 +1061,9 @@ Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den tr
 
 Bitcoin kann als Instrument zur Schaffung einer Parallelwirtschaft zu Fiat-Währungen angesehen werden, da es möglich ist, Waren oder Dienstleistungen zu verkaufen und in Bitcoin bezahlt zu werden. Transaktionen können direkt in Bitcoin getätigt werden, ohne dass der Weg über eine Tauschplattform notwendig ist, sondern einfach von einer Bitcoin-Wallet zu einer anderen.
 
-Die Bitcoin-Wirtschaft existiert und entwickelt sich in bestimmten Regionen der Welt, wie in El Salvador, wo Bitcoin seit 2021 ein gesetzliches Zahlungsmittel ist. Überall um uns herum gibt es einige Einzelpersonen, Unternehmen und Organisationen, die Bitcoin bereits als Zahlungsmittel für ihre Produkte oder Dienstleistungen akzeptieren.
+Die Bitcoin-Ökonomie existiert und entwickelt sich in bestimmten Regionen der Welt, wie zum Beispiel in El Salvador, wo Bitcoin 2021 gesetzliches Zahlungsmittel wurde. Leider verabschiedete die Versammlung im Januar 2025 ein neues Gesetz, das Bitcoin den Titel "gesetzliches Zahlungsmittel" entzieht, angeblich nach Druck des Internationalen Währungsfonds. Nach dem neuen Gesetz sind die Menschen nicht mehr verpflichtet, Bitcoin in ihren Geschäften zu akzeptieren, und können damit auch keine Steuern mehr zahlen. Die Akzeptanz bleibt freiwillig.
+
+Dennoch gibt es in El Salvador und in anderen Teilen der Welt immer mehr Einzelpersonen, Unternehmen und Organisationen, die Bitcoin als Zahlungsmittel für ihre Produkte oder Dienstleistungen akzeptieren.
 
 ![image](assets/en/72.webp)
 

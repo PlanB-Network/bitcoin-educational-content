@@ -1062,7 +1062,9 @@ Tänapäeval jätkab Bitcoin ellujäämist ja kasvamist veelgi enam, integreerud
 
 Bitcoini võib vaadelda kui vahendit, millega luua paralleelmajandus fiat-valuutadele, sest on võimalik müüa kaupu või teenuseid ja saada tasu bitcoin'idega. Tehinguid saab teha otse Bitcoinis, ilma et oleks vaja läbida vahetusplatvormi, vaid lihtsalt minna Bitcoini rahakotist teise.
 
-Bitcoini majandus on olemas ja areneb teatavates maailma piirkondades, näiteks El Salvadoris, kus Bitcoin on alates 2021. aastast seaduslik maksevahend. Kõikjal meie ümber on mõned üksikisikud, ettevõtted ja organisatsioonid, kes juba aktsepteerivad Bitcoini kui maksevahendit oma toodete või teenuste eest.
+Bitcoini majandus eksisteerib ja areneb teatud piirkondades maailmas, nagu El Salvador, kus Bitcoinist sai 2021. aastal seaduslik maksevahend. Kahjuks kiitis assamblee 2025. aasta jaanuaris heaks uue seaduse, mis võttis Bitcoinilt "seadusliku maksevahendi" tiitli, väidetavalt pärast rahvusvahelise Valuutafondi survet. Uue seaduse kohaselt ei ole inimesed enam kohustatud Bitcoin'i oma äriühingutes aktsepteerima ning nad ei saa enam makse selle abil tasuda. Vastuvõtt jääb vabatahtlikuks.
+
+Siiski on El Salvadoris ja teistes maailma osades üha rohkem üksikisikuid, ettevõtteid ja organisatsioone, kes aktsepteerivad Bitcoin'i oma toodete või teenuste maksevahendina.
 
 ![image](assets/en/72.webp)
 

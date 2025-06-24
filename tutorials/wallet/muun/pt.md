@@ -10,7 +10,7 @@ Muun (https://muun.com/) é uma carteira auto custodiante para bitcoin e lightni
 
 ## tutorial em vídeo
 
-![tutorial em vídeo](https://youtu.be/uOl3_vjZKOA)
+![tutorial em vídeo](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Guia completo de uso
 

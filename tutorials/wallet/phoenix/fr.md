@@ -111,7 +111,7 @@ Cliquez sur le bouton "*Receive*".
 
 ![Image](assets/fr/18.webp)
 
-Faites glisser le QR code vers la droite pour révéler une adresse de réception Bitcoin. Envoyez-y le montant que vous souhaitez déposer sur Phoenix.
+Faites glisser le QR code vers la gauche pour révéler une adresse de réception Bitcoin. Envoyez-y le montant que vous souhaitez déposer sur Phoenix.
 
 ![Image](assets/fr/19.webp)
 

@@ -1,0 +1,25 @@
+id: 072b5f7c-303d-4e3f-b7dd-573d389c5af1
+
+project_id: fee1f524-e4aa-4c8a-95ae-fc401a8746f7
+
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+
+category: mobile
+
+level: beginner
+
+tags:
+  - wallets
+  - user-friendly
+  - software
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+ - language: fr
+   last_contribution_date: 2025-06-09
+   urgency: 1
+   contributor_names:
+      - heyolaniran
+   reward: 0

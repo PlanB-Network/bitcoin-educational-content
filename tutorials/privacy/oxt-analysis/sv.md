@@ -102,7 +102,7 @@ Den praktiska verkligheten är dock mycket mer komplex. Det finns en mängd olik
 Dessa ingångspunkter är nästan oundvikliga när man använder Bitcoin. Även om man kan försöka begränsa deras omfattning kommer de att finnas kvar. Det är därför det är viktigt att kombinera metoder som syftar till att bevara din integritet. Att upprätthålla en acceptabel åtskillnad mellan din verkliga identitet och dina transaktioner är ett lovvärt tillvägagångssätt, men det är fortfarande otillräckligt. Om alla dina On-Chain-aktiviteter kan grupperas tillsammans kan till och med den minsta ingångspunkten äventyra den enda Layer av integritet som du har upprättat.
 
 
-Därför är det också nödvändigt att hantera kedjeanalys i vår användning av Bitcoin. Genom att göra det kan vi minimera aggregeringen av våra aktiviteter och begränsa effekterna av en ingångspunkt på vår integritet. Exakt, för att bättre motverka kedjeanalys, vilket bättre tillvägagångssätt än att bekanta sig med de metoder som används i kedjeanalys? Om du vill veta hur du kan förbättra din integritet på Bitcoin måste du förstå dessa metoder. Detta gör att du bättre kan förstå tekniker som [CoinJoin](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef) eller [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) och minska de misstag du kan göra.
+Därför är det också nödvändigt att hantera kedjeanalys i vår användning av Bitcoin. Genom att göra det kan vi minimera aggregeringen av våra aktiviteter och begränsa effekterna av en ingångspunkt på vår integritet. Exakt, för att bättre motverka kedjeanalys, vilket bättre tillvägagångssätt än att bekanta sig med de metoder som används i kedjeanalys? Om du vill veta hur du kan förbättra din integritet på Bitcoin måste du förstå dessa metoder. Detta gör att du bättre kan förstå tekniker som [CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) eller [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f) och minska de misstag du kan göra.
 
 
 I detta kan vi dra en analogi med kryptografi och kryptoanalys. En duktig kryptograf är först och främst en duktig kryptoanalytiker. För att kunna föreställa sig en ny krypteringsalgoritm måste man veta vilka attacker den kommer att utsättas för, och även studera varför tidigare algoritmer bröts. Samma princip gäller för sekretess på Bitcoin. Att förstå metoderna för kedjeanalys är nyckeln till att skydda sig mot den. Det är därför jag erbjuder dig den här artikeln.
@@ -453,7 +453,7 @@ Först och främst, innan vi överväger mer radikala metoder, är det lämpligt
 
 Den grundläggande principen för att säkerställa din integritet på Bitcoin ligger i att använda en ny, ren Address för varje inkommande transaktion till din Wallet. Återanvändning av Address är verkligen det största hotet mot sekretessen på Bitcoin.
 
-För en enskild användare är det mycket enkelt att generera en ny Address för varje inkommande betalning. Moderna plånböcker gör detta automatiskt så snart du klickar på "Ta emot". Så om du lägger minsta vikt vid integriteten i dina transaktioner är det absolut nödvändigt att använda nya adresser. Om du någonsin behöver en statisk kontaktpunkt på internet, istället för att sätta en mottagande Address, kan du använda lösningar [som PayNym som implementerar BIP47] (https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
+För en enskild användare är det mycket enkelt att generera en ny Address för varje inkommande betalning. Moderna plånböcker gör detta automatiskt så snart du klickar på "Ta emot". Så om du lägger minsta vikt vid integriteten i dina transaktioner är det absolut nödvändigt att använda nya adresser. Om du någonsin behöver en statisk kontaktpunkt på internet, istället för att sätta en mottagande Address, kan du använda lösningar [som PayNym som implementerar BIP47] (https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 
 Om du vill motverka kedjeanalys ska du undvika att slå samman UTXO:er vid inmatningen av en transaktion. Om du verkligen behöver slå samman, föredra åtminstone UTXO:er som har samma källa. Denna rekommendation innebär att du har god hantering av dina UTXO:er. När du köper dina bitcoins, föredra överföringar som involverar stora belopp för att maximera antalet betalningar du kan göra utan att behöva slå samman. Jag råder dig också att märka dina UTXO:er i din programvara för att identifiera deras ursprung och undvika sammanslagningar från olika källor.
 
@@ -477,8 +477,8 @@ Du kan också vända dig till metoder som gör din användning av Bitcoin tvetyd
 Den mest populära tekniken är säkert CoinJoin, en samarbetsbaserad transaktionsstruktur som mobiliserar flera UTXO:er med samma belopp. Målet här är att bryta deterministiska länkar och därmed förhindra analyser från nutid till dåtid och från dåtid till nutid. CoinJoin möjliggör trovärdig förnekelse genom att gömma dina mynt i en stor grupp av oskiljbara mynt. Om du vill lära dig mer om CoinJoin, både tekniskt och praktiskt, föreslår jag att du läser dessa andra artiklar och handledningar:
 
 
-- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef);
-- [CoinJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [CoinJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
 - [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 ![analysis](assets/en/13.webp)
@@ -490,7 +490,7 @@ CoinJoin är ett utmärkt verktyg för att skapa trovärdig förnekelse för myn
 Föreställ dig till exempel att jag vill betala för min baguette i bitcoins samtidigt som jag optimerar min integritet. Eftersom det är omöjligt att välja beloppet för den resulterande UTXO från CoinJoin, skulle jag inte kunna anpassa beloppet för min utgift till det pris som bagaren har fastställt. Därför visar sig CoinJoin vara otillräcklig för betalningstransaktioner.
 
 
-Andra verktyg har tagits fram för att tillgodose integritetsbehoven i mer specifika användningsfall. Vi har till exempel [PayJoin] (https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), ett slags mini-CoinJoin, som bara involverar två deltagare och bygger på en struktur som möjliggör betalning.
+Andra verktyg har tagits fram för att tillgodose integritetsbehoven i mer specifika användningsfall. Vi har till exempel [PayJoin] (https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), ett slags mini-CoinJoin, som bara involverar två deltagare och bygger på en struktur som möjliggör betalning.
 
 
 Det unika med PayJoin ligger i dess förmåga att producera en transaktion som ser vanlig ut, men som i själva verket är en mini-CoinJoin mellan två användare. I denna struktur deltar mottagaren av transaktionen bland inmatningarna vid sidan av den faktiska avsändaren. Mottagaren lägger alltså in en betalning till sig själv i transaktionen som underlättar den faktiska betalningen.
@@ -513,18 +513,18 @@ Det andra målet med PayJoin är att lura analytikern om det faktiska transaktio
 Om vi återgår till vårt exempel med att använda PayJoin för att köpa en baguette kan en extern observatör tro att vi har att göra med en betalning på 4 000 Sats eller 21 000 Sats. I själva verket är betalningen för baguetten 6 000 Sats: 21 000 - 15 000 = 6 000. Betalningens verkliga värde är därför dolt i en falsk betalning som fungerar som ett lockbete för kedjeanalysen.
 
 
-Utöver PayJoin och CoinJoin finns det många andra Bitcoin-transaktionsstrukturer som antingen blockerar kedjeanalys eller lurar den. Bland dessa kan jag nämna transaktionerna [Stonewall] (https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) och [StonewallX2] (https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b), som gör det möjligt att antingen skapa en flexibel mini CoinJoin eller att imitera en flexibel mini CoinJoin. Det finns också [Ricochet](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transaktioner som simulerar en förändring av Ownership av bitcoins genom att göra en mängd falska överföringar till sig själv.
+Utöver PayJoin och CoinJoin finns det många andra Bitcoin-transaktionsstrukturer som antingen blockerar kedjeanalys eller lurar den. Bland dessa kan jag nämna transaktionerna [Stonewall] (https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) och [StonewallX2] (https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b), som gör det möjligt att antingen skapa en flexibel mini CoinJoin eller att imitera en flexibel mini CoinJoin. Det finns också [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transaktioner som simulerar en förändring av Ownership av bitcoins genom att göra en mängd falska överföringar till sig själv.
 
 
 Alla dessa verktyg finns tillgängliga på Samourai Wallet på mobil och Sparrow Wallet på PC. Om du vill lära dig mer om dessa specifika transaktionsstrukturer rekommenderar jag att du upptäcker mina självstudier:
 
 
-- [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
-- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab);
-- [PayJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-sparrow-Wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
-- [STONEWALL](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
-- [STONEWALL X2](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
-- [RICOCHET] (https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+- [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PayJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET] (https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 
 ## Slutsats

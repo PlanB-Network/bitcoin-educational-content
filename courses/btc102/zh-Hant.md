@@ -2686,7 +2686,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 這樣分開您的資金有助於降低風險，以防用於日常支付的 Wallet 遭到洩密。
 
@@ -3617,3 +3617,4 @@ Bitcoin 不只是一個財務工具，更是一個運動。根據您的技能和
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

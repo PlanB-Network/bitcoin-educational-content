@@ -1,0 +1,21 @@
+name: Bitsacco
+
+address_line_1: Nairobi, Kenya
+address_line_2:
+address_line_3: 
+
+language:
+  - en
+
+links:
+  website: https://bitsacco.com/
+  twitter: https://x.com/bitsacco
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - investment
+
+category: service

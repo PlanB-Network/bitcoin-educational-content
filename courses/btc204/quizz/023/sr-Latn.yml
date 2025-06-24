@@ -5,5 +5,5 @@ wrong_answers:
   - Svi UTXO-i u ulazima pripadali su istom korisniku, a onaj u izlazu sada pripada drugom korisniku.
   - UTXO-i u ulazima su došli od 2 različita korisnika, a onaj u izlazu i dalje pripada ovim korisnicima.
 explanation: |
-  Verovatno smo u prisustvu konsolidacije. Stoga, postoji zajednički Ownership ulaza i izlaza.
+  Verovatno smo u prisustvu konsolidacije. Stoga, postoji zajedničko vlasništvo nad ulazima i izlazima.
 reviewed: false

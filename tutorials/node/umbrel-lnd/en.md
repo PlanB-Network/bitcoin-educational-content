@@ -44,7 +44,7 @@ To operate, a Lightning node must be permanently connected to the network and in
 For a complete theoretical introduction to Lightning Network, we recommend that you take our dedicated course :
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 This course will give you a thorough grounding in the fundamental concepts of Lightning Network, before moving on to practice with your LND node.
 
@@ -64,10 +64,10 @@ Operating your own Lightning node (LND) on Umbrel gives you total sovereignty ov
 - Your Lightning bitcoins are managed by a trusted third party
 - Easy to use, no technical complexity
 - The operator holds your funds and can trace your transactions
-- You sacrifice control and confidentiality
+- You sacrifice control and privacy
 
 
-**Non-commodity consumer portfolios (e.g. Phoenix, Breez)** :
+**Non-commodity consumer wallets (e.g. Phoenix, Breez)** :
 
 
 - Users retain their private keys and thus ownership of their BTC
@@ -82,7 +82,7 @@ Operating your own Lightning node (LND) on Umbrel gives you total sovereignty ov
 
 - Maximum sovereignty: your On-Chain and off-chain BTCs are entirely under your control
 - No third parties are involved in opening channels or managing your payments
-- Increased confidentiality (your channels and transactions are known only to you and your direct peers)
+- Increased privacy (your channels and transactions are known only to you and your direct peers)
 - Freedom of use: connect to your own services and wallets
 - Possibility of routing transactions for others (micro-fee remuneration)
 - Increased technical responsibilities (maintenance, liquidity management, backups)
@@ -541,7 +541,7 @@ These tools can be installed in just a few clicks via the Umbrel App Store, with
 ## Conclusion
 
 
-Running your own LND node on Umbrel is an important step towards financial sovereignty. Although it requires more technical involvement than a custodial solution, the benefits in terms of control, confidentiality and active participation in the Lightning network are considerable.
+Running your own LND node on Umbrel is an important step towards financial sovereignty. Although it requires more technical involvement than a custodial solution, the benefits in terms of control, privacy and active participation in the Lightning network are considerable.
 
 
 By following this guide, you should now be able to install LND, open channels, manage your liquidity and access your node remotely. Feel free to gradually explore advanced features and additional tools as you become more familiar with the ecosystem.

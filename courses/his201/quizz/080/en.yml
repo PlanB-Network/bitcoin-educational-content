@@ -5,5 +5,5 @@ wrong_answers:
   - bitcoinforum.org
   - bitco.in/forum
 explanation: |
-  After being moved to forum.bitcoin.org on May 17, it switched to the URL bitcointalk.org starting from August 1. Over the years, it would come to be known as BitcoinTalk.
-reviewed: false
+  After moving to forum.bitcoin.org on May 17, it switched to the URL bitcointalk.org starting August 1. Over the years, it would come to be known as BitcoinTalk.
+reviewed: true

@@ -488,7 +488,7 @@ Sparrow offers three connection modes:
 
 
 - Connect to your Electrs server
-- Combines confidentiality and performance
+- Combines privacy and performance
 
 
 **Electrs** configuration

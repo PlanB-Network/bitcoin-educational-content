@@ -487,7 +487,7 @@ När "Tx0" har bekräftats kommer dina UTXO:er automatiskt att registreras hos k
 ![samourai](assets/notext/34.webp)
 
 
-Genom att kontrollera fliken `Remixing`, som motsvarar **Postmix**-kontot, kommer du att observera UTXO: erna som härrör från de första mixarna. Dessa mynt kommer att förbli redo för efterföljande remixing, vilket inte medför några extra avgifter. Jag rekommenderar att du läser den här andra artikeln för att lära dig mer om remixprocessen och effektiviteten i en CoinJoin-cykel: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Genom att kontrollera fliken `Remixing`, som motsvarar **Postmix**-kontot, kommer du att observera UTXO: erna som härrör från de första mixarna. Dessa mynt kommer att förbli redo för efterföljande remixing, vilket inte medför några extra avgifter. Jag rekommenderar att du läser den här andra artikeln för att lära dig mer om remixprocessen och effektiviteten i en CoinJoin-cykel: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Ange nödvändig information för din utgiftstransaktion och klicka sedan på de
 I nästa steg har du möjlighet att ändra den avgiftssats som är kopplad till din transaktion. Du kan också aktivera Stonewall-alternativet genom att markera motsvarande ruta. Om Stonewall-alternativet inte kan väljas betyder det att ditt **Postmix**-konto inte innehåller en UTXO av tillräcklig storlek för att stödja denna särskilda transaktionsstruktur.
 
 
-[-> Läs mer om Stonewall-transaktioner] (https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Läs mer om Stonewall-transaktioner] (https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Om allt är till din belåtenhet klickar du på Green `SEND ... BTC`-knappen.
@@ -645,7 +645,7 @@ Detaljerade handledningar om hur man implementerar dessa olika tekniker kommer s
 
 **Ytterligare resurser:**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

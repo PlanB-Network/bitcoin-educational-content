@@ -1,5 +1,5 @@
 ---
-name: Ihre ersten Bitcoins bekommen test
+name: Ihre ersten Bitcoins bekommen 
 goal: Lernen Sie, wie Sie Ihre ersten Bitcoins selbständig kaufen, sichern und verwalten können.
 objectives: 
 
@@ -17,10 +17,10 @@ objectives:
 Das Bitcoin-Ökosystem erfährt ein spektakuläres und nie dagewesenes Wachstum. Die technologischen, wirtschaftlichen und sozialen Veränderungen, die durch die Erfindung von Satoshi Nakamoto vorangetrieben werden, intensivieren sich von Tag zu Tag und öffnen allmählich die Türen zu einer neuen Welt, von der Sie jetzt in vollem Umfang profitieren können.
 
 
-Das Eintauchen in das Bitcoin Kaninchenloch ist ein spannendes intellektuelles Abenteuer, das Ihr kritisches Denken anregen und viele Ihrer Überzeugungen in Frage stellen wird. Diese Erkundung wird Ihnen nicht nur ein tiefes Verständnis dafür vermitteln, wie Bitcoin funktioniert, sondern auch eine echte Chance, Ihre persönliche Freiheit zurückzugewinnen, Ihre Privatsphäre zu schützen und wahre finanzielle Souveränität zu erlangen.
+Das Eintauchen in das Bitcoin-Kaninchenloch ist ein spannendes intellektuelles Abenteuer, das Ihr kritisches Denken anregen und viele Ihrer Überzeugungen in Frage stellen wird. Diese Erkundung wird Ihnen nicht nur ein tiefes Verständnis dafür vermitteln, wie Bitcoin funktioniert, sondern auch eine echte Chance, Ihre persönliche Freiheit zurückzugewinnen, Ihre Privatsphäre zu schützen und wahre finanzielle Souveränität zu erlangen.
 
 
-Um Sie auf dieser Reise effektiv zu begleiten, habe ich diesen völlig kostenlosen Kurs erstellt. Hier liegt der Fokus ausschließlich auf Bitcoin. Keine irrelevanten Diskussionen, keine Erwähnung anderer Kryptowährungen, nur klare, präzise und geradlinige Inhalte.
+Um Sie auf dieser Reise effektiv zu begleiten, habe ich diesen kostenlosen Kurs erstellt. Hier liegt der Fokus ausschließlich auf Bitcoin. Es gibt keine irrelevanten Diskussionen, keine Erwähnung anderer Kryptowährungen, nur klare, präzise und geradlinige Inhalte.
 
 
 Dieser Kurs ist so konzipiert, dass Sie die volle Kontrolle darüber haben, wie Sie lernen. Sie können Bitcoin in Ihrem eigenen Tempo erkunden und den Weg einschlagen, der Ihren Interessen und Zielen am besten entspricht.
@@ -39,7 +39,7 @@ Dieser Kurs ist so konzipiert, dass Sie die volle Kontrolle darüber haben, wie 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 
-Willkommen bei BTC102! Wenn Sie bereits BTC101 abgeschlossen haben, haben Sie die wichtigsten theoretischen Konzepte erforscht, die erklären, warum Bitcoin eine so revolutionäre Technologie ist. Jetzt, mit BTC102, ist es an der Zeit, dieses Wissen in die Tat umzusetzen. Dieser Kurs soll Ihnen helfen, Schritt für Schritt Ihren persönlichen Bitcoin-Plan zu erstellen.
+Willkommen bei BTC102! Haben Sie bereits BTC101 abgeschlossen? In diesem Fall haben Sie die wichtigsten theoretischen Konzepte erforscht, die erklären, warum Bitcoin eine so revolutionäre Technologie ist. Jetzt, mit BTC102, ist es an der Zeit, dieses Wissen in die Tat umzusetzen. Dieser Kurs soll Ihnen helfen, Schritt für Schritt Ihren persönlichen Bitcoin-Plan zu erstellen.
 
 
 In den folgenden Kapiteln führen wir Sie durch die praktischen Schritte, um **ihre ersten Bitcoins** zu bekommen, **sie richtig zu sichern** und selbstbewusst Ihre ersten Schritte in diesem schnell wachsenden Ökosystem zu machen.
@@ -47,12 +47,12 @@ In den folgenden Kapiteln führen wir Sie durch die praktischen Schritte, um **i
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-Obwohl Bitcoin bereits seit über 16 Jahren existiert, ist die Branche noch jung, dynamisch und tief in der Freiheit verwurzelt. Das zugrundeliegende Protokoll ist vollständig dezentralisiert und widersteht der Kontrolle durch eine zentrale Behörde, sodass das Ökosystem auf natürliche und organische Weise wachsen kann.
+Obwohl Bitcoin bereits seit über 16 Jahren existiert, ist die Branche noch jung, dynamisch und zudem tief in der Freiheit verwurzelt. Das zugrundeliegende Protokoll ist vollständig dezentralisiert und widersteht der Kontrolle durch eine zentrale Behörde. Dadurch kann das Ökosystem auf natürliche und organische Weise wachsen.
 
-Diese Freiheit bringt eine unglaubliche Welle von Innovationen und Möglichkeiten mit sich, birgt aber auch gewisse Risiken, darunter Betrug, häufige Fehler und Fallstricke, die oft aus mangelndem Wissen resultieren. Das Hauptziel dieses Kurses ist es, Ihnen zu helfen, sich in diesem neuen Ökosystem mit Vertrauen und Sicherheit zu bewegen.
+Diese Freiheit bringt eine unglaubliche Welle von Innovationen und Möglichkeiten mit sich, birgt aber auch gewisse Risiken, darunter Betrug, häufige Fehler und Fallstricke, die oft aus mangelndem Wissen resultieren. Das Hauptziel dieses Kurses ist es, Ihnen zu helfen, sich in diesem neuen Ökosystem sicher zu bewegen.
 
 
-Um dies zu erreichen, ist der Kurs BTC102 in mehrere Abschnitte unterteilt, die sich jeweils auf einen wichtigen Aspekt Ihrer Reise mit Bitcoin konzentrieren:
+Der Kurs BTC102 ist in mehrere Abschnitte unterteilt, die sich jeweils auf einen wichtigen Aspekt Ihrer Reise mit Bitcoin konzentrieren:
 
 
 Der erste Abschnitt, "Voraussetzungen für das Verständnis von Bitcoin", bereitet Sie effektiv auf den bevorstehenden Weg vor. Sie werden lernen, die wichtigsten Fallstricke im Zusammenhang mit Betrug und Finanzbetrug zu erkennen, die im Bitcoin-Ökosystem existieren können. Dann werden wir die wesentlichen Grundlagen der Online-Sicherheit behandeln.
@@ -65,7 +65,7 @@ Zum Schluss gebe ich Ihnen noch ein paar praktische Tipps, die speziell für Anf
 
 Der zweite Abschnitt, "Verstehen, worauf Sie sich einlassen", wird Ihr Gesamtverständnis von Bitcoin vertiefen. Wir werden mit einem Überblick beginnen, um sicherzustellen, dass Sie die wesentlichen Konzepte vollständig verstehen.
 
-Dann werden wir Ihnen erklären, warum Bitcoin aus technologischer, wirtschaftlicher und sozialer Sicht von grundlegender Bedeutung ist und Sie in Ihrem Glauben an seinen Wert bestärken. Sie werden auch die Bitcoin-Industrie als Ganzes untersuchen: ihre Hauptakteure, ihre Organisation und ihre Entwicklung im Laufe der Jahre. Schließlich werden wir die Schichtenarchitektur des Bitcoin-Ökosystems behandeln, ein entscheidendes Konzept, um zu verstehen, wie dieses System weiterhin Innovationen hervorbringt, ohne die Integrität seines Kernprotokolls zu gefährden.
+Dann werden wir Ihnen erklären, warum Bitcoin aus technologischer, wirtschaftlicher und sozialer Sicht von grundlegender Bedeutung ist und Sie in Ihrem Glauben an seinen Wert bestärken. Sie werden auch die Bitcoin-Industrie als Ganzes untersuchen: ihre Hauptakteure, ihre Organisation und ihre Entwicklung im Laufe der Jahre. Schließlich werden wir die Schichtenarchitektur des Bitcoin-Ökosystems behandeln. Die Schichtenarchitektur ist ein entscheidendes Konzept, um zu verstehen, wie Innovationen weiterhin möglich sind, ohne die Integrität des Kernprotokolls zu gefährden.
 
 
 ![BTC102-Bitcoin](assets/fr/027.webp)
@@ -75,9 +75,9 @@ Der dritte Abschnitt, "Einrichten Ihres Plans", befasst sich mit Ihrem persönli
 
 
 
-- der hodler*, der sich darauf konzentriert, Bitcoin langfristig zu halten;
-- der Stapler*, der regelmäßig und systematisch einkauft;
-- der Nutzer*, der Bitcoin vorrangig täglich nutzt;
+- der Hodler konzentriert sich darauf, Bitcoin langfristig zu halten;
+- der Stapler, der regelmäßig und systematisch einkauft;
+- der Nutzer, der Bitcoin vorrangig täglich nutzt;
 - und schließlich *der Paranoiker*, der maximale Sicherheit wünscht, um sein Vermögen und seine Privatsphäre wirksam zu schützen.
 
 

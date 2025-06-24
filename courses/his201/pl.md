@@ -84,7 +84,7 @@ Kurs ten podzielony jest na cztery części, które koncentrują się kolejno na
 - Modele zdecentralizowane przed Nakamoto (1982-2012)
 - Narodziny Bitcoina (sierpień 2008 - styczeń 2009)
 - Prezentacja projektu (styczeń 2009 - październik 2009)
-- Bootstrapping kryptowaluty (październik 2009-kwiecień 2010)
+- Inicjalizacja kryptowaluty (październik 2009-kwiecień 2010)
 - Karty graficzne, pizza i darmowe bitcoiny (kwiecień 2010 - czerwiec 2010)
 - Wielki Slashdotting (czerwiec 2010-lipiec 2010)
 - Pierwsze problemy techniczne (lipiec 2010-wrzesień 2010)
@@ -104,17 +104,17 @@ Treść została częściowo zaadaptowana z francuskiej książki [*L'Élégance
 
 
 
-- [*The Genesis Book*](https://store.bitcoinmagazine.com/products/the-Genesis-book) autorstwa Aarona van Wirduma, opublikowany w 2024 roku;
-- [*Digital Gold*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) autorstwa Nathaniela Poppera, opublikowany w 2014 roku;
-- [*The Book of Satoshi*](https://www.bookofsatoshi.com/) autorstwa Phila Champagne'a, opublikowany w 2014 roku;
-- [*Digital Cash*](https://press.princeton.edu/books/hardcover/9780691179490/digital-cash) autorstwa Finn Brunton, opublikowany w 2019 roku;
-- [*This Machine Kills Secrets*](https://penguinrandomhouselibrary.com/book/?isbn=9780142180495) autorstwa Andy'ego Greenberga, opublikowany w 2012 roku.
+- [*The Genesis Book*](https://store.bitcoinmagazine.com/products/the-Genesis-book) autorstwa Aarona van Wirduma, opublikowana w 2024 roku;
+- [*Digital Gold*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) autorstwa Nathaniela Poppera, opublikowana w 2014 roku;
+- [*The Book of Satoshi*](https://www.bookofsatoshi.com/) autorstwa Phila Champagne'a, opublikowana w 2014 roku;
+- [*Digital Cash*](https://press.princeton.edu/books/hardcover/9780691179490/digital-cash) autorstwa Finn Brunton, opublikowana w 2019 roku;
+- [*This Machine Kills Secrets*](https://penguinrandomhouselibrary.com/book/?isbn=9780142180495) autorstwa Andy'ego Greenberga, opublikowana w 2012 roku.
 
 
 Należy pamiętać, że w przypadku nieanglojęzycznej wersji tego kursu większość cytatów pochodzi z amerykańskiego angielskiego i została przetłumaczona na potrzeby tego kursu. Termin *coin* jest zwykle tłumaczony jako „jednostka” (a nie „kawałek”), gdy odnosi się do jednostki rozliczeniowej.
 
 
-Gotowy na poznanie niesamowitej sagi o stworzeniu Bitcoina? Zacznijmy razem tę niezwykłą opowieść!
+Gotowy na poznanie niesamowitej sagi o stworzeniu Bitcoina? Zacznijmy tę niezwykłą opowieść razem!
 
 # Początki Bitcoina
 

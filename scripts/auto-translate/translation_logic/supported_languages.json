@@ -109,6 +109,12 @@
       "code_translator": "si"
     },
     {
+      "code": "sl",
+      "name": "Slovenian",
+      "translator": "deepl",
+      "code_translator": "SL"
+    },
+    {
       "code": "sr-Latn",
       "name": "Serbian",
       "translator": "openai",

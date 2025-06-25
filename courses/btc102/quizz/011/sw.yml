@@ -1,0 +1,9 @@
+question: Kwa nini ni muhimu kulinda maneno yako ya Mnemonic?
+answer: Kwa sababu kupoteza husababisha hasara ya kudumu ya bitcoins
+wrong_answers:
+  - Kwa sababu Blockchain ni ndefu sana kuifanya upya
+  - Kwa sababu kuipoteza husababisha kuvuja kwa data ya kibinafsi
+  - Kwa sababu majukwaa ya Exchange yanahitaji hati nyingi ili kuirejesha
+explanation: |
+  Kifungu cha maneno cha Mnemonic kinaruhusu ufikiaji kurejeshwa. Ikiwa imepotea na Wallet haipatikani tena kwenye kifaa chake, bitcoins hupotea kabisa.
+reviewed: false

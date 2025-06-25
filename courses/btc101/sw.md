@@ -308,7 +308,7 @@ Awamu ya 2 - Kuporomoka kwa sarafu na ongezeko la bei
 
 - Huku serikali zikipoteza udhibiti wa uaminifu, watu binafsi huanza kutumia ubadilishanaji wa sarafu yao kwa sarafu iliyo imara zaidi, kama ilivyotokea Venezuela na dola ya Marekani. Hali hii husababisha kupanda kwa bei, na hivyo kutengeneza mduara mbaya ambapo bidhaa na huduma zinazidi kuwa ghali. Ili kukidhi mahitaji haya na kusahihisha sera za fedha, serikali huchapisha pesa zaidi, na hivyo kusababisha mfumuko mkubwa wa bei.
 
-Awamu ya 3 - Mduara mbaya wa uchapishaji wa pesa
+Awamu ya 3 - Mzunguko Katili wa Uchapishaji wa Pesa
 
 
 - Kwa hivyo, bili zaidi na zaidi zinahitajika kununua bidhaa, ambayo husababisha uhaba wa pesa za karatasi. Kwa kujibu, serikali zinaamua kuchapisha bili zaidi, ambayo inachochea mfumuko wa bei hata zaidi.

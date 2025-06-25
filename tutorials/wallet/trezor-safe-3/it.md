@@ -10,29 +10,19 @@ description: Configurazione e utilizzo dell'hardware wallet Safe 3
 
 
 
-Trezor Safe 3 è un hardware wallet progettato da SatoshiLabs e creato nel 2023. È un modello molto compatto e leggero (14 grammi) progettato sia per i principianti che per gli utenti intermedi. È il successore del famoso Model One, con aggiunte significative, pur mantenendo l'approccio open-source del marchio che lo distingue dal suo principale concorrente, il Ledger. Il Safe 3 ha un prezzo di 79 euro. Si posiziona quindi nel segmento medio degli hardware wallet, in diretta concorrenza con il Ledger Nano S Plus.
+Trezor Safe 3 è un hardware wallet progettato da SatoshiLabs e creato nel 2023. È un modello molto compatto e leggero (14 grammi) ideato sia per i principianti che per gli utenti intermedi. È il successore del famoso Model One, con aggiunte significative, pur mantenendo l'approccio open-source del marchio che lo distingue dal suo principale concorrente, il Ledger. Il Safe 3 ha un prezzo di 79 euro. Si posiziona quindi nel segmento medio degli hardware wallet, in diretta concorrenza con il Ledger Nano S Plus.
 
 
 
-Il Safe 3 non ha una batteria e funziona esclusivamente tramite una connessione USB-C, utilizzata sia per l'alimentazione che per la comunicazione. È dotato di un piccolo display OLED monocromatico da 0,96 pollici e di due pulsanti fisici.
-
-
+Il Safe 3 non ha una batteria e funziona esclusivamente tramite una connessione USB-C, utilizzata sia per l'alimentazione che per la trasmissione di dati. È dotato di un piccolo display OLED monocromatico da 0,96 pollici e di due pulsanti.
 
 ![Image](assets/fr/01.webp)
 
-
-
 Il Safe 3 offre tutte le caratteristiche essenziali che ci si aspetta da un buon hardware wallet, compresa un'eccellente integrazione della [passphrase BIP39](https://planb.network/resources/glossary/passphrase-bip39). Tuttavia, non supporta ancora [Miniscript](https://planb.network/resources/glossary/miniscript).
-
-
 
 Questo modello è particolarmente adatto ai principianti e potrebbe addirittura essere l'hardware wallet che consiglierei a un nuovo utente. È adatto anche agli utenti intermedi. D'altra parte, potrebbe non soddisfare tutte le aspettative degli utenti avanzati che cercano funzioni più specifiche, disponibili su dispositivi come Coldcard. Tuttavia, se non hai bisogno di queste opzioni avanzate, Trezor Safe 3 può essere una scelta eccellente.
 
-
-
 ## Il modello di sicurezza di Trezor Safe 3
-
-
 
 Trezor Safe 3 è ora dotato di un **Secure Element** certificato EAL6+, un progresso significativo rispetto ai modelli precedenti come il Model One e il Model T. Si tratta del chip OPTIGA Trust M V3, che non memorizza direttamente il seed, ma agisce come componente crittografico per proteggerne l'accesso. Il Secure Element conserva un segreto a cui si può accedere solo dopo che l'utente ha inserito correttamente il PIN. Questo segreto viene quindi utilizzato per decifrare il seed, che viene memorizzato in modo criptato nella memoria principale del dispositivo.
 

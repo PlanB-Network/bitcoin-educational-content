@@ -1,0 +1,9 @@
+question: Người dùng phải lưu trữ những gì để thực sự sở hữu bitcoin của mình?
+answer: Khóa riêng tư
+wrong_answers:
+  - Địa chỉ nhận
+  - Mật khẩu nền tảng Exchange
+  - Khối Blockchain
+explanation: |
+  Nếu không giữ khóa riêng tư, bạn không thực sự sở hữu bitcoin của mình.
+reviewed: false

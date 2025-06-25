@@ -1,0 +1,9 @@
+question: Ni itifaki gani ya pili ya Layer inayowezesha malipo ya karibu ya papo hapo?
+answer: Lightning Network
+wrong_answers:
+  - Minyororo ya pembeni
+  - RGB
+  - Msingi wa Bitcoin
+explanation: |
+  Lightning Network huwezesha miamala ya haraka na ya gharama nafuu kupitia utendakazi wa off-chain nje ya Bitcoin Blockchain.
+reviewed: false

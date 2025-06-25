@@ -196,17 +196,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 6.校對內容時需遵循的規則
 
-
-
-- 在開始新的校對工作之前，請在 [Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder) 中宣佈或告訴您的 Plan ₿ Network 協調員。他們會開啟一個 [問題](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)，您可以在其中註明您開始了這項工作。
-- 校對時一定要檢查課程/教程的英文（或法文）原文。請隨意進行調整以增強流暢程度，但請勿改變整體原意。
-- LLM 工具可能會從字面上翻譯一些與 Bitcoin 相關的字詞，例如 Lightning Network，在義大利語中會變成「Rete Fulmine」。在這種情況下，除非您的語言規則強制您翻譯每個單字，否則建議您使用原始英文字詞，這樣會更清楚。
-- 如果您找到引文，請務必在網上做一些研究，以找到適合您語言的翻譯。
-- 請勿翻譯文字開頭的靜態字詞，這些字詞用來描述文字內容：「名稱」、「說明」、「目標」。
-- 如果您在文中找到 "Plan ₿ Network"，請保留其原始形式。請勿翻譯「計畫」或「網路」。此外，在介紹 Plan ₿ Network 時，請勿使用「The」一詞，並將其視為一個品牌。同理，"₿-CERT"、"BIZ SCHOOL"、"TECH SCHOOL "也應保持原樣。
-- 注意像 `\*\*\` 這樣奇怪的標點符號，它可能代表粗體符號 ** 的不良渲染。請務必檢查英文原文，看看是否應該有粗體文字。一般來說，要顯示粗體，請在單字/句子之前和之後插入兩個星號 **。您可以在 [這裡](https://www.markdownguide.org/basic-syntax/) 找到更多關於 markdown 語言的資訊。
-- 當您完成校對後，您可以回到協調員開啟的原始問題，註解「校對完成」，並在那裡插入您的 PR 連結。
-
+要了解在 Plan ₿ Network 上進行校對時需要遵循的語言或格式規則的指南，請參閱本節中的“contribution-proofreading-guidelines”教程！
 
 ## 7.等待審核
 

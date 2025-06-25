@@ -138,14 +138,7 @@ NB. Recomenda-se a revisão na janela de código, com o conteúdo original apres
 
 ## 6. Regras a seguir ao revisar conteúdo
 
-- Antes de começar uma nova revisão, anuncie-a no [grupo do Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou informe o seu coordenador do Plan ₿ Network. Eles abrirão um [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), onde você pode comentar que está começando o trabalho.
-- É importante sempre verificar a versão original em inglês (ou francês) do curso/tutorial ao revisar. Sinta-se à vontade para fazer ajustes para melhorar a fluidez, mas não mude o significado original geral.
-- Ferramentas LLM podem traduzir literalmente algumas palavras relacionadas ao Bitcoin, como Lightning Network, que se tornaria "Rede Relâmpago" em português. Em casos como este, é aconselhável usar a palavra original em inglês para maior clareza, a menos que as regras do seu idioma exijam que você traduza cada palavra.
-- Se você encontrar citações, certifique-se de fazer alguma pesquisa online para encontrar a tradução correta em seu idioma.
-- NÃO traduza as palavras estáticas no início do texto, que são usadas para descrever seu conteúdo: "name", "description", "objectives".
-- Se você encontrar "Plan ₿ Network" no texto, deixe-o nesta forma original. Não traduza a palavra "plan" ou a palavra "network". Além disso, NÃO use o artigo ao apresentar o Plan ₿ Network, e considere-o como uma marca. O mesmo se aplica a "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", que também devem ser mantidos na forma original.
-- Preste atenção à pontuação estranha, como '\*\*\', que pode representar uma má renderização do símbolo em negrito **. Sempre verifique o texto original em inglês para ver se deve haver um texto em negrito. Em geral, para renderizar o texto em negrito, insira dois asteriscos ** tanto antes quanto depois da palavra/frase. Você pode encontrar mais informações sobre a linguagem markdown [aqui](https://www.markdownguide.org/basic-syntax/).
-- Quando terminar sua revisão, você pode voltar ao issue inicial aberto pelo coordenador, comentar com "Proofreading done" e inserir seu link PR lá.
+Para saber mais sobre as diretrizes a serem seguidas ao revisar no Plan ₿ Network em termos de regras de linguagem ou formato, consulte o tutorial "contribution-proofreading-guidelines" nesta mesma seção!
 
 ## 7. Aguardar a revisão
 

@@ -196,17 +196,7 @@ OBS! Vi rekommenderar att du granskar i kodfönstret, med originalinnehållet i 
 
 ## 6. Regler att följa vid korrekturläsning av innehåll
 
-
-
-- Innan du påbörjar en ny korrekturläsning ska du meddela det i [Telegramgruppen](https://t.me/PlanBNetwork_ContentBuilder) eller berätta för din Plan ₿ Network-samordnare. De kommer att öppna en [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), där du kan kommentera att du påbörjar arbetet.
-- Det är viktigt att alltid kontrollera den engelska (eller franska) originalversionen av kursen/handledningen när du korrekturläser. Gör gärna justeringar för att förbättra flytet, men ändra inte den övergripande ursprungliga betydelsen.
-- LLM-verktyg kan bokstavligen översätta vissa ord relaterade till Bitcoin, till exempel Lightning Network, som skulle bli "Rete Fulmine" på italienska. I fall som detta är det lämpligt att använda det engelska originalordet för bättre tydlighet, såvida inte dina språkregler tvingar dig att översätta varje enskilt ord.
-- Om du hittar citat, se till att göra lite efterforskningar på nätet för att hitta rätt översättning till ditt språk.
-- Översätt INTE de statiska orden i början av texten, som används för att beskriva innehållet: "namn", "beskrivning", "mål".
-- Om du hittar "Plan ₿ Network" i texten, lämna det i denna ursprungliga form. Översätt inte ordet "plan" eller ordet "nätverk". Dessutom ska du INTE använda artikeln "The" när du introducerar Plan ₿ Network, utan betrakta det som ett varumärke. Detsamma gäller för "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", som också bör hållas i originalform.
-- Var uppmärksam på konstiga skiljetecken som "*", som kan vara en dålig återgivning av den feta symbolen **. Kontrollera alltid den engelska originaltexten för att se om det är meningen att en fet text ska finnas där. För att återge fet stil ska du i allmänhet infoga två asterisker ** både före och efter ordet/meningen. Mer information om språket markdown finns [här] (https://www.markdownguide.org/basic-syntax/).
-- När du är klar med korrekturläsningen kan du gå tillbaka till det ursprungliga ärendet som öppnades av koordinatorn, kommentera med "Korrekturläsning klar" och infoga din PR-länk där.
-
+För att få mer information om riktlinjerna som ska följas vid korrekturläsning på Plan ₿ Network när det gäller språk- eller formatregler, vänligen hänvisa till handledningen "contribution-proofreading-guidelines" i denna samma sektion!
 
 ## 7. Vänta på recension
 

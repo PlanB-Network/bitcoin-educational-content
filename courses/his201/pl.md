@@ -576,7 +576,7 @@ Tak więc faktyczne wykorzystanie RPOW nie było konsekwentne, ale Hal Finney za
 ### Ripple: Decentralizacja kredytu
 
 
-Innym mniej znanym poprzednikiem Bitcoin, niemniej jednak istotnym w tym przypadku, jest rozproszony protokół kredytowy Ripple, zaprojektowany przez kanadyjskiego dewelopera Ryana Fuggera w 2004 roku. Młody Kanadyjczyk zainspirował się koncepcją [lokalnego systemu handlu Exchange](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), czego doświadczył w Vancouver przed zaprojektowaniem swojego protokołu. Opublikował on [białą księgę] Ripple (https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) 14 kwietnia 2004 r., a następnie wdrożył ją za pomocą weryfikacji koncepcji o nazwie RipplePay, która działała na centralnym serwerze i umożliwiała użytkownikom łączenie się za pomocą samego e-maila Address.
+Innym mniej znanym poprzednikiem Bitcoina, niemniej jednak istotnym w tym przypadku, jest rozproszony protokół kredytowy Ripple, zaprojektowany przez kanadyjskiego dewelopera Ryana Fuggera w 2004 roku. Młody Kanadyjczyk zainspirował się koncepcją [lokalnego systemu handlowego](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), który poznał w Vancouver przed zaprojektowaniem swojego protokołu. 14 kwietnia 2004 r. opublikował [białą księgę] Ripple (https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf), a następnie wdrożył ją za pomocą dowodu koncepcji o nazwie RipplePay, która działała na centralnym serwerze i umożliwiała użytkownikom łączenie się za pomocą samego adresu e-mail.
 
 
 ![Ryan Fugger circa 2010](assets/en/19.webp)
@@ -584,7 +584,7 @@ Innym mniej znanym poprzednikiem Bitcoin, niemniej jednak istotnym w tym przypad
 Ryan Fugger około 2010 roku (źródło: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
 
-Koncepcja Ripple opierała się na założeniu, że pieniądze zasadniczo składają się z IOU, czyli kredytów. Chodziło o ustanowienie sieci peer-to-peer, której łączami byłyby relacje kredytowe między ludźmi. Płatności były następnie dokonywane poprzez kierowanie serii pożyczek, przy czym wszyscy uczestnicy działali jako bankierzy pożyczający sobie nawzajem pieniądze. Alice mogła zapłacić Davidowi 10 USD, pożyczając 10 USD Bobowi i prosząc Boba o zrobienie tego samego Carole, a następnie Carole o zrobienie tego samego Davidowi: konto Davida zostało następnie zasilone kwotą 10 USD z utworzonych przez Alice pieniędzy. System działał nieco na zasadzie fal, co wyjaśnia nazwę projektu.
+Koncepcja Ripple opierała się na założeniu, że pieniądze zasadniczo składają się z IOU, czyli kredytów. Chodziło o ustanowienie sieci peer-to-peer, której łączami byłyby relacje kredytowe między ludźmi. Płatności były następnie dokonywane poprzez kierowanie serii pożyczek, przy czym wszyscy uczestnicy działali jako bankierzy pożyczający sobie nawzajem pieniądze. Alice mogła zapłacić Davidowi 10 USD, pożyczając 10 USD Bobowi i prosząc Boba o zrobienie tego samego z Carole, a następnie Carole o zrobienie tego samego z Davidem: konto Davida zostało następnie zasilone kwotą 10 USD z utworzonych przez Alice pieniędzy. System działał nieco jak domino, co wyjaśnia nazwę projektu (od ang. słowa ripple, falować, przyp. korekt.).
 
 
 Oto film wprowadzający do Ripple nakręcony w 2011 roku:
@@ -593,48 +593,48 @@ Oto film wprowadzający do Ripple nakręcony w 2011 roku:
 :::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 
-Pomimo entuzjazmu społeczności i kilku tysięcy użytkowników, Ripple miał poważne wady, które uniemożliwiły mu odniesienie sukcesu. W szczególności [cierpiał](https://fiatjaf.com/3cb7c325.html) z powodu "problemu zdecentralizowanego Commitment": podczas płatności uczestnicy nie mogli w bezpieczny sposób zapewnić łańcucha pożyczek, który to problem został później rozwiązany przez Lightning. (*oryginał: "the problem of the decentralized commit "*)
+Pomimo entuzjazmu społeczności i kilku tysięcy użytkowników, Ripple miał poważne wady, które uniemożliwiły mu odniesienie sukcesu. W szczególności [cierpiał](https://fiatjaf.com/3cb7c325.html) z powodu „problemu zdecentralizowanego zatwierdzania”: podczas wymiany uczestnicy nie mogli w bezpieczny sposób dołączyć płatności do łańcucha pożyczek, problem został później rozwiązany przez sieć Lightning. (*oryginał: „the problem of the decentralized commit”*)
 
 
-Widząc, że jego projekt zmierza donikąd, Ryan Fugger przekazał stery Ripple liderom firmy OpenCoin Inc, Chrisowi Larsenowi i Jedowi McCalebowi, w listopadzie 2012 roku. W 2013 roku firma została przemianowana na Ripple Labs. Stworzyli oni protokół znacznie różniący się od początkowej koncepcji, oparty na algorytmie konsensusu i natywnej jednostce rozliczeniowej, XRP. Ryan Fugger ostatecznie zmienił nazwę swojego proof of concept na [Rumplepay](https://rumplepay.com/) w 2020 roku, aby uniknąć nieporozumień.
+Widząc, że jego projekt zmierza donikąd, Ryan Fugger przekazał stery Ripple liderom firmy OpenCoin Inc, Chrisowi Larsenowi i Jedowi McCalebowi, w listopadzie 2012 roku. W 2013 roku firma została przemianowana na Ripple Labs. Stworzyli oni protokół znacznie różniący się od początkowej koncepcji, oparty na algorytmie konsensusu i natywnej jednostce rozliczeniowej, XRP. Ryan Fugger ostatecznie zmienił nazwę swojego dowodu koncepcji na [Rumplepay](https://rumplepay.com/) w 2020 roku, aby uniknąć nieporozumień.
 
 
-Ripple był, że tak powiem, współczesny Bitcoin i okazuje się, że wiele osób zainteresowanych tym drugim było również zainteresowanych tym pierwszym. Rzeczywiście, Ripple stanowił innowacyjny model oparty na architekturze rozproszonej, cechę wspólną z Bitcoin. Na ten temat Satoshi Nakamoto [napisał](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz), że "Ripple jest wyjątkowy, ponieważ raczej rozprzestrzenia zaufanie niż je koncentruje"
+Ripple był, można powiedzieć, współczesny Bitcoinowi i okazuje się, że wiele osób zainteresowanych tym drugim było również zainteresowanych tym pierwszym. Faktycznie Ripple był innowacyjnym modelem opartym na architekturze rozproszonej, co jest jego cechą wspólną z Bitcoinem. Na ten temat Satoshi Nakamoto [napisał](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz), że „Ripple jest wyjątkowy, ponieważ raczej rozprzestrzenia zaufanie niż je koncentruje”.
 
 
 ### Bitcoin, kulminacja poszukiwań
 
-Tak więc do końca 2000 roku wszystkie składowe Elements Bitcoin były znane i podjęto kilka prób ich połączenia. Jednak proponowane złożenia nie były przekonujące. W szczególności cypherpunks stopniowo tracili zainteresowanie tą kwestią, wierząc, że zaprojektowanie prawdziwie zdecentralizowanej waluty cyfrowej jest niemożliwe. Satoshi Nakamoto udowodnił, że się mylili.
+Tak więc do końca 2000 roku wszystkie elementy składowe Bitcoina były znane i podjęto kilka prób ich połączenia. Jednak proponowane złożenia nie były przekonujące. W szczególności cypherpunks stopniowo tracili zainteresowanie tą kwestią, wierząc, że zaprojektowanie prawdziwie zdecentralizowanej waluty cyfrowej jest niemożliwe. Satoshi Nakamoto udowodnił, że się mylili.
 
 
-Bitcoin rzeczywiście stanowi genialne połączenie wszystkich tych koncepcji. Opiera się na podpisie cyfrowym, wywodzącym się z asymetrycznej kryptografii zaproponowanej przez Diffiego i Hellmanna w 1976 roku. Jest to "elektroniczna gotówka" zgodnie z założeniami modelu eCash Davida Chauma wdrożonego w latach 90-tych. Dzięki innowacyjnemu algorytmowi konsensusu solidnie rozwiązuje bizantyjski problem generałów, stwierdzony przez Lamporta, Shostaka i Pease'a w 1982 roku. Dzięki zarządzaniu Blockchain w sieci peer-to-peer jest formą "rozproszonego serwera Timestamp", powracając do koncepcji Habera i Stornetty z 1991 roku. Do wyboru bloków transakcyjnych i produkcji jednostek wykorzystuje Proof of Work, wykorzystując proces podobny do Hashcash, zaproponowany przez Adama Backa w 1997 roku. Wreszcie, w swojej konstrukcji przypomina projekty b-money, bit gold, RPOW i Ripple, którym Satoshi Nakamoto złożył hołd, w taki czy inny sposób.
+Bitcoin rzeczywiście stanowi genialne połączenie wszystkich tych koncepcji. Opiera się na podpisie cyfrowym, wywodzącym się z asymetrycznej kryptografii zaproponowanej przez Diffiego i Hellmanna w 1976 roku. Jest to „elektroniczna gotówka” zgodnie z założeniami modelu eCash Davida Chauma wdrożonego w latach 90-tych. Dzięki innowacyjnemu algorytmowi konsensusu solidnie rozwiązuje problem generałów bizantyjskich, opisany przez Lamporta, Shostaka i Pease'a w 1982 roku. Dzięki zarządzaniu łańcuchem bloków w sieci peer-to-peer jest formą „rozproszonego serwera znacznika czasu”, powracając do koncepcji Habera i Stornetty z 1991 roku. Do wyboru bloków transakcyjnych i produkcji jednostek wykorzystuje Dowód Pracy, wykorzystując proces podobny do Hashcash zaproponowany przez Adama Backa w 1997 roku. Wreszcie w swojej konstrukcji przypomina projekty b-money, bit gold, RPOW i Ripple, którym Satoshi Nakamoto, w taki czy inny sposób, złożył hołd.
 
 
-Bitcoin stanowi zatem kulminację poszukiwań cyberwaluty, waluty istniejącej całkowicie w Internecie i nie będącej na łasce państw. W dalszej części tego kursu opowiemy, jak powstała i jakie były znaczące wydarzenia z jej wczesnych lat. Ta historia jest wyjątkowa i z pewnością Cię zainteresuje, jeśli dotarłeś tak daleko. Bądź gotowy!
+Bitcoin stanowi zatem kulminację poszukiwań cyberwaluty, waluty istniejącej całkowicie w Internecie i nie będącej na łasce państw. W dalszej części tego kursu opowiemy, jak powstała i jakie były znaczące wydarzenia z jej wczesnych lat. Ta historia jest wyjątkowa i z pewnością cię zainteresuje, jeśli dotarłeś tak daleko. Bądź gotowy!
 
 
-# Powolne pojawianie się Bitcoin
+# Powolne pojawianie się Bitcoina
 
 <partId>7db760c0-dcce-4564-9c71-53873ee66d6d</partId>
 
 
-## Narodziny Bitcoin
+## Narodziny Bitcoina
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
 
-Po dowiedzeniu się, skąd pochodzi Bitcoin, skupimy się teraz na samej jego historii. Przez lata było to tematem wielu artykułów, podcastów i filmów, tak bardzo, że stało się to niemal rodzajem mitu założycielskiego. Jak widzieliśmy, Bitcoin jest nierozerwalnie związany z kontekstem, w którym został stworzony; to samo dotyczy wydarzeń, które miały miejsce w jego wczesnych latach, które ukształtowały to, czym jest dzisiaj, z jego zaletami i wadami.
+Po dowiedzeniu się, skąd pochodzi Bitcoin, skupimy się teraz na samej jego historii. Przez lata było to tematem wielu artykułów, podcastów i filmów, tak bardzo, że stało się niemal rodzajem mitu założycielskiego. Jak widzieliśmy, Bitcoin jest nierozerwalnie związany z kontekstem, w którym został stworzony; to samo dotyczy wydarzeń, które miały miejsce w jego wczesnych latach, które ukształtowały to, czym jest dzisiaj, z jego zaletami i wadami.
 
-Bitcoin został stworzony przez Satoshi Nakamoto, nieznaną osobę podającą się za Japończyka, która poświęciła czas na przemyślane zaprojektowanie go przed publicznym ujawnieniem. Następnie zrobił wszystko, aby Bitcoin został uruchomiony w najlepszych warunkach, aby był dobrze prezentowany w dyskusjach i aby był używany przez coraz większą liczbę osób. Ostatecznie wysiłek twórców polegał w takim samym stopniu na ekonomicznej inicjacji systemu, jak na jego początkowym projekcie, jeśli nie bardziej.
+Bitcoin został stworzony przez Satoshiego Nakamoto, nieznaną osobę podającą się za Japończyka, która poświęciła czas na przemyślane zaprojektowanie systemu przed jego publicznym ujawnieniem. Następnie zrobił wszystko, aby Bitcoin został uruchomiony w najlepszych warunkach, aby był dobrze prezentowany w dyskusjach i aby był używany przez coraz większą liczbę osób. W końcu wysiłek twórcy koncentował się w takim samym, jeśli nie większym, stopniu na ekonomicznej inicjacji systemu, który zaprojektował.
 
 
-Niniejszy rozdział dotyczy narodzin Bitcoin, które miały miejsce między jesienią 2008 roku a zimą 2009 roku. Okres ten był naznaczony dwoma ważnymi wydarzeniami: publikacją białej księgi, fundamentalnego dokumentu wyjaśniającego techniczne działanie systemu, 31 października 2008 r.; oraz uruchomieniem prototypowej sieci 9 stycznia 2009 r., nieco ponad dwa miesiące później. Skupimy się zatem na działaniach Satoshi Nakamoto w tym okresie i nielicznych interakcjach, jakie miał z wczesnymi zwolennikami i pierwszymi przeciwnikami Bitcoin.
+Niniejszy rozdział dotyczy narodzin Bitcoina, które miały miejsce między jesienią 2008 roku a zimą 2009 roku. Okres ten to dwa ważne wydarzenia: publikacja białej księgi, fundamentalnego dokumentu wyjaśniającego techniczne działanie systemu, 31 października 2008 r.; oraz uruchomienie prototypowej sieci 9 stycznia 2009 r., nieco ponad dwa miesiące później. Skupimy się zatem na działaniach Satoshiego Nakamoto w tym okresie i nielicznych interakcjach, jakie miał z wczesnymi zwolennikami i pierwszymi przeciwnikami Bitcoina.
 
 
 ### Odkrycie
 
 
-Zgodnie z jego [własnym](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [zeznaniem](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto rozpoczął pracę nad Bitcoin wiosną 2007 roku. Po przeprowadzeniu różnych badań na temat walut cyfrowych, w końcu znalazł sposób na rozwiązanie problemu Double-spending bez potrzeby zaufanej strony trzeciej. Przez ponad rok utrzymywał swój model w tajemnicy, chcąc go udoskonalić, aby zapewnić jego solidność. Jak [napisał](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) później:
+Zgodnie z jego [własnymi](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [słowami](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto rozpoczął pracę nad Bitcoinem wiosną 2007 roku. Po przeprowadzeniu różnych badań na temat walut cyfrowych, znalazł w końcu sposób na rozwiązanie problemu podwójnego wydatkowania bez potrzeby zaufanej strony trzeciej. Przez ponad rok utrzymywał swój model w tajemnicy, chcąc go udoskonalić, aby zapewnić jego solidność. Jak [napisał](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) później:
 
 
 > "W pewnym momencie przekonałem się, że istnieje sposób na zrobienie tego bez jakiegokolwiek zaufania i nie mogłem się powstrzymać przed dalszym myśleniem o tym. Znacznie więcej pracy polegało na projektowaniu niż kodowaniu"
@@ -642,15 +642,15 @@ Zgodnie z jego [własnym](https://www.metzdowd.com/pipermail/cryptography/2008-N
 Aby upewnić się, że działa poprawnie, Satoshi [zaprogramował](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) prototyp przed sporządzeniem białej księgi. Takie podejście jest przeciwieństwem tego, co zwykle robi się w społeczności akademickiej, gdzie koncepcje są formalnie prezentowane w artykułach naukowych przed ich wdrożeniem. Twórca Bitcoin [stwierdził](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html):
 
 
-> "Właściwie zrobiłem to trochę na opak. Musiałem napisać cały kod, zanim przekonałem samego siebie, że potrafię rozwiązać każdy problem, a potem napisałem artykuł"
+> „Właściwie zrobiłem to trochę na opak. Musiałem napisać cały kod, zanim przekonałem samego siebie, że potrafię rozwiązać każdy problem, a potem napisałem artykuł”
 
 ### Przygotowanie
 
 
-W sierpniu 2008 r. Satoshi postanowił przygotować się do uruchomienia Bitcoin. Osiemnastego sierpnia zarezerwował nazwę domeny Bitcoin.org za pośrednictwem anonimowego serwisu AnonymousSpeech (a także [Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720), prawdopodobnie nie sfinalizowawszy wyboru nazwy dla swojej koncepcji). Nazwa domeny miała hostować główną stronę Bitcoin. Jednak Satoshi nie był w stanie zarezerwować nazwy domeny Bitcoin.com, która była następnie w posiadaniu [spekulanta](https://mmalmi.github.io/Satoshi/#email-28) i była [używana](https://web.archive.org/web/20090719065532/http://www.Bitcoin.com/) w latach 2009-2011 przez firmę o nazwie Bitcoin Ltd., specjalizującą się w mikropłatnościach.
+W sierpniu 2008 r. Satoshi postanowił przygotować się do uruchomienia Bitcoina. Osiemnastego sierpnia zarezerwował nazwę domeny Bitcoin.org za pośrednictwem anonimowego serwisu AnonymousSpeech (a także [Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720), prawdopodobnie nie sfinalizowawszy wyboru nazwy dla swojej koncepcji). Nazwa domeny miała hostować główną stronę Bitcoina. Jednak Satoshi nie był w stanie zarezerwować nazwy domeny Bitcoin.com, która była następnie w posiadaniu [spekulanta](https://mmalmi.github.io/Satoshi/#email-28) i była [używana](https://web.archive.org/web/20090719065532/http://www.Bitcoin.com/) w latach 2009-2011 przez firmę o nazwie Bitcoin Ltd., specjalizującą się w mikropłatnościach.
 
 
-20 sierpnia twórca Bitcoin [skontaktował się](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) z Adamem Back, wysyłając mu e-mail z prośbą o poradę, jak zacytować jego artykuł na temat Hashcash w białej księdze. Hard nie postrzega tego jako pretekstu do upewnienia się, że wynalazca Hashcash dowiedział się o swoim nowym systemie.
+20 sierpnia twórca Bitcoin [skontaktował się](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) z Adamem Backiem, wysyłając mu e-maila z prośbą o poradę, jak zacytować jego artykuł na temat Hashcash w białej księdze. Trudno nie zinterpretować tego jako próby upewnienia się, że wynalazca Hashcash dowiedział się o nowym systemie.
 
 
 ![Adam Back in 2012](assets/en/20.webp)
@@ -658,18 +658,18 @@ W sierpniu 2008 r. Satoshi postanowił przygotować się do uruchomienia Bitcoin
 Adam Back w 2012 roku (źródło: [strona osobista Adama Backa](http://www.cypherspace.org/adam/))
 
 
-Wiadomość zawierała link do wersji roboczej białej księgi. Plik PDF nazywał się `ecash.pdf`, a jego tytuł brzmiał "Electronic Cash Without a Trusted Third Party". Streszczenie jest takie samo jak w pierwszej wersji, która miała zostać opublikowana w październiku, z jednym słowem różnicy. Niestety, nie posiadamy pełnego dokumentu.
+Wiadomość zawierała link do wersji roboczej białej księgi. Plik PDF nazywał się `ecash.pdf`, a jego tytuł brzmiał „Electronic Cash Without a Trusted Third Party”. Streszczenie jest takie samo jak w pierwszej wersji, która miała zostać opublikowana w październiku, z jednym słowem różnicy. Niestety, nie posiadamy pełnego dokumentu.
 
-Dzień po przeczytaniu streszczenia przesłanego przez Satoshi (ale nie artykułu), Adam Back przekierowuje go do propozycji b-money Wei Dai, która wydaje się mieć podobieństwa z jego koncepcją. Satoshi odpowiada, dziękując mu za wskazówkę i precyzując, że "moje pomysły zaczynają się dokładnie od tego punktu" Adam Back wspomina również o istnieniu MicroMint, ale Satoshi nie odpowiada.
-
-
-Dzień później, 22 sierpnia, Satoshi wysyła wiadomość e-mail do Wei Dai, mówiąc, że "przygotowuje się do wydania dokumentu, który rozszerza twoje pomysły na kompletny działający system" i prosi go o rok publikacji jego strony na temat b-money, aby odnieść się do niej w białej księdze. Podobnie jak w Exchange z Adamem Backiem, dzieli się z Wei Dai projektem białej księgi.
+Dzień po przeczytaniu streszczenia przesłanego przez Satoshiego (ale nie artykułu), Adam Back przekierowuje go do propozycji b-money Wei Dai, która wydaje się mieć punkty wspólne z jego koncepcją. Satoshi odpowiada, dziękując mu za wskazówkę i precyzując, że „moje pomysły zaczynają się dokładnie od tego punktu”. Adam Back wspomina również o istnieniu MicroMint, ale Satoshi nie odpowiada.
 
 
-Pomimo tych interakcji, Adam Back i Wei Dai nie od razu zainteresowali się koncepcją Satoshi. Dopiero po latach powrócili do Bitcoin: Wei Dai w latach 2010-2011, a Adam Back w 2013 roku.
+Dzień później, 22 sierpnia, Satoshi wysyła wiadomość e-mail do Wei Dai, mówiąc, że „przygotowuje się do wydania dokumentu, który rozszerza twoje pomysły na kompletny działający system” i prosi go o rok publikacji jego strony na temat b-money, aby odnieść się do niej w białej księdze. Podobnie jak w korespondencji z Adamem Backiem, dzieli się z Wei Dai projektem białej księgi.
 
 
-Ze swojej strony Satoshi kończy przygotowania do upublicznienia swojego wynalazku. 3 października ukończył pierwszą wersję białej księgi Bitcoin, teraz już z wybraną nazwą. 5 października rejestruje się na platformie zarządzania projektami SourceForge, gdzie kod źródłowy oprogramowania open-source będzie przechowywany i utrzymywany do 2011 roku.
+Pomimo tych interakcji, Adam Back i Wei Dai nie od razu zainteresowali się koncepcją Satoshi. Dopiero po latach powrócili do Bitcoina: Wei Dai w latach 2010-2011, a Adam Back w 2013 roku.
+
+
+Ze swojej strony Satoshi kończy przygotowania do upublicznienia swojego wynalazku. 3 października ukończył pierwszą wersję białej księgi Bitcoina, teraz już z wybraną nazwą. 5 października rejestruje się na platformie zarządzania projektami SourceForge, gdzie kod źródłowy oprogramowania open-source będzie przechowywany i utrzymywany do 2011 roku.
 
 
 ### Publikacja białej księgi

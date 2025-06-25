@@ -116,7 +116,7 @@ Bab ini cukup istimewa karena tidak secara langsung didedikasikan untuk Lightnin
 
 ### Bitcoin Address, Kunci Privat, dan Kunci Publik
 
-Address (alamat) Bitcoin adalah serangkaian karakter yang berasal dari **public key (kunci publik)**, yang dihasilkan dari perhitungan **private key (kunci privat)**. Seperti yang Anda tahu, address (alamat) digunakan untuk mengunci bitcoin, yang artinya saat seseorang mengirim bitcoin ke address (alamat) kita maka bitcoin tersebut masuk ke dompet kita.
+Address (alamat) Bitcoin adalah serangkaian karakter yang berasal dari **public key (kunci publik)**, yang dihasilkan dari perhitungan **private key (kunci privat)**. Seperti yang Anda tahu, address (alamat) digunakan untuk mengunci bitcoin, yang artinya saat seseorang mengirim bitcoin ke address (alamat) kita, maka bitcoin tersebut terasosiasi dengan alamat dompet kita.
 
 Private key (kunci privat) adalah elemen rahasia yang **tidak boleh dibagikan**, sementara public key (kunci publik) dan address (alamat) dapat dibagikan tanpa risiko keamanan (namun membagikan public key (kunci publik) dan address (alamat) tetap dapat membahayakan data pribadi Anda). Berikut adalah gambar yang akan kita gunakan sepanjang pelatihan ini:
 

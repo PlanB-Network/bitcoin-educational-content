@@ -196,17 +196,7 @@ UWAGA. Zaleca się przeglądanie w oknie kodu, z oryginalną treścią wyświetl
 
 ## 6. Zasady, których należy przestrzegać podczas korekty treści
 
-
-
-- Przed rozpoczęciem nowej korekty należy ogłosić to w [grupie Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub poinformować koordynatora Plan ₿ Network. Otworzą oni [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), w którym możesz skomentować rozpoczęcie pracy.
-- Podczas korekty ważne jest, aby zawsze sprawdzać oryginalną angielską (lub francuską) wersję kursu/tutorialu. Nie krępuj się wprowadzać poprawek w celu zwiększenia płynności, ale nie zmieniaj ogólnego oryginalnego znaczenia.
-- Narzędzia LLM mogą dosłownie przetłumaczyć niektóre słowa związane z Bitcoin, takie jak Lightning Network, które po włosku brzmiałyby "Rete Fulmine". W takich przypadkach zaleca się użycie oryginalnego angielskiego słowa dla lepszej przejrzystości, chyba że zasady językowe narzucają tłumaczenie każdego słowa.
-- Jeśli znajdziesz cytaty, poszukaj w Internecie odpowiedniego tłumaczenia w swoim języku.
-- NIE tłumacz statycznych słów na początku tekstu, które służą do opisania jego treści: "nazwa", "opis", "cele".
-- Jeśli w tekście znajduje się słowo "Plan ₿ Network", należy pozostawić je w oryginalnej formie. Nie tłumacz słowa "plan" ani słowa "sieć". Poza tym NIE używaj przedimka "The" przy wprowadzaniu Plan ₿ Network i traktuj go jako markę. To samo dotyczy "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", które również należy zachować w oryginalnej formie.
-- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `\*\*\`, które mogą reprezentować złe renderowanie pogrubionego symbolu **. Zawsze sprawdzaj oryginalny tekst w języku angielskim, aby zobaczyć, czy pogrubiony tekst powinien się tam znajdować. Ogólnie rzecz biorąc, aby wyrenderować pogrubienie, należy wstawić dwie gwiazdki ** zarówno przed, jak i po słowie/zdaniu. Więcej informacji na temat języka markdown można znaleźć [tutaj](https://www.markdownguide.org/basic-syntax/).
-- Po zakończeniu korekty możesz wrócić do oryginalnego zgłoszenia otwartego przez koordynatora, skomentować je "Korekta zakończona" i wstawić tam swój link PR.
-
+Aby dowiedzieć się więcej o wytycznych do stosowania podczas korekty w Plan ₿ Network w zakresie zasad językowych lub formatowych, proszę zapoznać się z samouczkiem "contribution-proofreading-guidelines" w tej samej sekcji!
 
 ## 7. Poczekaj na recenzję
 

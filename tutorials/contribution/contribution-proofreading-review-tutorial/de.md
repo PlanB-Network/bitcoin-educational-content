@@ -138,14 +138,7 @@ NB. Es wird empfohlen, den Text im Code-Fenster zu überprüfen, wobei der Origi
 
 ## 6. Regeln, die beim Korrekturlesen von Inhalten zu beachten sind
 
-- Bevor Sie mit einem neuen Korrekturlesen beginnen, kündigen Sie es in der [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Network-Koordinator. Dieser wird ein [Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) eröffnen, in dem Sie kommentieren können, dass Sie mit der Arbeit beginnen.
-- Es ist wichtig, beim Korrekturlesen immer die ursprüngliche englische (oder französische) Version des Kurses/Tutorials zu überprüfen. Fühlen Sie sich frei, Anpassungen vorzunehmen, um die Flüssigkeit zu verbessern, aber ändern Sie nicht die ursprüngliche Gesamtbedeutung.
-- LLM-Tools können einige Wörter im Zusammenhang mit Bitcoin wörtlich übersetzen, wie z.B. Lightning Network, das im Deutschen "Lightning-Netzwerk" werden würde. In solchen Fällen ist es ratsam, das ursprüngliche englische Wort für bessere Klarheit zu verwenden, es sei denn, Ihre Sprachregeln verlangen, dass Sie jedes einzelne Wort übersetzen.
-- Wenn Sie Zitate finden, stellen Sie sicher, dass Sie online recherchieren, um die richtige Übersetzung in Ihrer Sprache zu finden.
-- ÜBERSETZEN SIE NICHT die statischen Wörter am Anfang des Textes, die verwendet werden, um dessen Inhalt zu beschreiben: "name", "description", "objectives".
-- Wenn Sie im Text "Plan ₿ Network" finden, lassen Sie es in dieser ursprünglichen Form. Übersetzen Sie das Wort "plan" oder das Wort "network" nicht. Verwenden Sie außerdem NICHT den Artikel, wenn Sie Plan ₿ Network einführen, und betrachten Sie es als Marke. Das Gleiche gilt für "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", die ebenfalls in der ursprünglichen Form beibehalten werden sollten.
-- Achten Sie auf seltsame Interpunktion wie '\*\*\', die eine fehlerhafte Darstellung des Fettdrucksymbols ** darstellen könnte. Überprüfen Sie immer den ursprünglichen englischen Text, um festzustellen, ob ein fetter Text vorhanden sein soll. Im Allgemeinen fügen Sie bitte zwei Sternchen ** sowohl vor als auch nach dem Wort/Satz ein, um den Fettdruck darzustellen. Weitere Informationen zur Markdown-Sprache finden Sie [hier](https://www.markdownguide.org/basic-syntax/).
-- Wenn Sie Ihre Korrektur abgeschlossen haben, können Sie zum ursprünglichen Issue zurückkehren, das vom Koordinator eröffnet wurde, mit "Proofreading done" kommentieren und dort Ihren PR-Link einfügen.
+Um mehr über die Richtlinien zu erfahren, die bei der Korrekturlesung im Plan ₿ Netzwerk in Bezug auf Sprach- oder Formatregeln zu beachten sind, verweisen Sie bitte auf das Tutorial "contribution-proofreading-guidelines" in diesem Abschnitt!
 
 ## 7. Warten Sie auf die Überprüfung
 

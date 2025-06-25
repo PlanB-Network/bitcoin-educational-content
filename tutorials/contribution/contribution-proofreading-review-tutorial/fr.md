@@ -124,14 +124,7 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 
 ## 6. Règles à suivre lors de la relecture de contenu
 
-- Avant de commencer une nouvelle relecture, annoncez-le dans le [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur du Plan ₿ Network. Ils ouvriront un [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), où vous pourrez commenter que vous commencez le travail.
-- Il est important de toujours vérifier la version originale en anglais (ou en français) du cours/tutoriel lors de la relecture. N'hésitez pas à faire des ajustements pour améliorer la fluidité, mais ne changez pas le sens général original.
-- Les outils LLM peuvent traduire littéralement certains mots liés au Bitcoin, comme Lightning Network, qui deviendrait "Réseau Lightning" en français. Dans de tels cas, il est conseillé d'utiliser le mot original en anglais pour plus de clarté, à moins que les règles de votre langue ne vous obligent à traduire chaque mot.
-- Si vous trouvez des citations, assurez-vous de faire des recherches en ligne pour trouver la bonne traduction dans votre langue.
-- NE TRADUISEZ PAS les mots statiques au début du texte, qui sont utilisés pour décrire son contenu : "name", "description", "objectives".
-- Si vous trouvez "Plan ₿ Network" dans le texte, laissez-le sous cette forme originale. Ne traduisez pas le mot "plan" ni le mot "network". De plus, NE PAS utiliser l'article lorsque vous présentez le Plan ₿ Network, et considérez-le comme une marque. Il en va de même pour "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", qui doivent également être conservés dans leur forme originale.
-- Faites attention à la ponctuation étrange comme '\*\*\', qui pourrait représenter un mauvais rendu du symbole en gras **. Vérifiez toujours le texte original en anglais pour voir si un texte en gras est censé être présent. En général, pour rendre le texte en gras, veuillez insérer deux astérisques ** avant et après le mot/la phrase. Vous pouvez trouver plus d'informations sur le langage markdown [ici](https://www.markdownguide.org/basic-syntax/).
-- Lorsque vous avez terminé votre relecture, vous pouvez revenir au problème initial ouvert par le coordinateur et y insérer votre lien PR.
+Pour en savoir plus sur les directives à suivre lors de la relecture sur le Plan ₿ Network en ce qui concerne les règles de langue ou de format, veuillez vous référer au tutoriel "contribution-proofreading-guidelines" dans cette même section !
 
 ## 7. Attendre la révision
 

@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kuwa mwangalifu kuhusu umiliki wako wa Bitcoin?
+answer: Ili kuzuia kuvutia umakini wa wahalifu na serikali
+wrong_answers:
+  - Ili kufaidika na viwango bora vya Exchange katika nchi fulani
+  - Ili kuzuia kuvutia umakini wa wajasiriamali wanaotafuta ufadhili
+  - Ili kuboresha uwezo wa kukopa
+explanation: |
+  Busara hulinda dhidi ya hatari ya kulengwa na walaghai, watu wenye wivu au wezi.
+reviewed: false

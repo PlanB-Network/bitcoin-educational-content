@@ -1,0 +1,9 @@
+question: Thuật ngữ nào đề cập đến sự phân chia theo chương trình của trợ cấp Mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Chia đôi
+  - Tiền điện tử
+explanation: |
+  Halving đề cập đến Halving của khoản trợ cấp Mining sau mỗi 210.000 khối.
+reviewed: false

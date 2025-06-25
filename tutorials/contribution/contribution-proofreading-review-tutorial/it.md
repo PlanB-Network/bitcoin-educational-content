@@ -137,15 +137,7 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 
 6. Regole da seguire durante il proofreading dei contenuti
 
-- Prima di iniziare una nuova revisione, annuncialo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Network. Verrà aperta una [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), dove potrai commentare per comunicare che stai iniziando il lavoro.
-- È importante controllare sempre la versione originale in inglese (o francese) del corso/tutorial durante la revisione. Sentiti libero di apportare modifiche per migliorare la fluidità, ma non cambiare il significato complessivo del testo.
-- Gli strumenti LLM possono tradurre letteralmente alcune parole relative a Bitcoin, come Lightning Network, che diventerebbe "Rete Fulmine" in italiano. In casi come questo, è consigliabile mantenere il termine originale in inglese per una maggiore chiarezza, a meno che le regole grammaticali della tua lingua non impongano la traduzione di ogni singola parola.
-- Se trovi delle citazioni, assicurati di fare delle ricerche online per trovare la traduzione corretta nella tua lingua.
-- NON tradurre le parole statiche all'inizio del testo, che vengono utilizzate per descrivere il suo contenuto: "name", "description", "objectives".
-- Se nel testo trovi "Plan ₿ Network", lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovranno mantenere questa forma originale.
-- Fai attenzione a punteggiature strane come `\*\*\`, che potrebbero indicare un errore nella visualizzazione del grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
-
-- Quando hai finito la tua revisione, puoi tornare alla issue iniziale aperta dal coordinatore, commentare con "Proofreading done" e inserire il link della tua PR.
+Per ulteriori informazioni sulle linee guida da seguire durante il proofreading dei contenuti su Plan ₿ Network in termini di regole linguistiche o di formato, fai riferimento al tutorial "contribution-proofreading-guidelines" in questa stessa sezione!
 
 7. In attesa di revisione
 

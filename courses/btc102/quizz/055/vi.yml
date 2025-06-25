@@ -1,0 +1,9 @@
+question: Phương tiện nào được khuyến nghị để sao lưu cụm từ Mnemonic của bạn một cách an toàn?
+answer: Sao lưu kim loại với phong bì mờ kín
+wrong_answers:
+  - Lưu trữ ổ USB được mã hóa
+  - Giấy dự phòng có tay áo trong suốt
+  - Sao lưu trên đám mây an toàn
+explanation: |
+  Một bản sao lưu kim loại chống thiên tai cung cấp khả năng bảo vệ lâu dài chống lại hư hỏng và truy cập trái phép. Phong bì mờ đục được niêm phong cho phép bạn xác minh xem có ai đã truy cập cụm từ Mnemonic hay không.
+reviewed: false

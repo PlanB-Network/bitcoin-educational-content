@@ -1,0 +1,9 @@
+question: Ni hatari gani kuu inayotokana na kufichua habari nyingi katika mpango wa urithi?
+answer: Hatari ya wizi
+wrong_answers:
+  - Hatari ya kupoteza
+  - Hatari ya kushuka kwa thamani
+  - Hatari ya udhibiti
+explanation: |
+  Maelezo mengi yanaweza kurahisisha watu wenye nia mbaya kuchukua hatua ikiwa watapata ufikiaji wa mpango wako wa urithi.
+reviewed: false

@@ -87,13 +87,13 @@ Wir begleiten Sie bei der Umsetzung einer Strategie, die Ihrem Profil entspricht
 ![BTC102-Bitcoin](assets/fr/067.webp)
 
 
-Der vierte Abschnitt, "Schutz Ihrer Erben und Ihres Vermögens", behandelt schließlich ein wichtiges Thema, das oft übersehen wird: wie Sie sicherstellen können, dass Ihr Bitcoin im Falle eines unerwarteten Ereignisses an Ihre Angehörigen weitergegeben wird. Sie erfahren, wie Sie einen Bitcoin-Erbschaftsplan erstellen und einrichten können, um die Erhaltung Ihres Vermögens über Ihre Lebenszeit hinaus zu gewährleisten.
+Der vierte Abschnitt, "Schutz Ihrer Erben und Ihres Vermögens", behandelt schließlich ein wichtiges Thema, das oft übersehen wird: wie Sie sicherstellen können, dass Ihre Bitcoins im Falle eines unerwarteten Ereignisses an Ihre Angehörigen weitergegeben werden. Sie erfahren, wie Sie einen Bitcoin-Erbschaftsplan erstellen und einrichten können, um die Erhaltung Ihres Vermögens über Ihre Lebenszeit hinaus zu gewährleisten.
 
 
 ![BTC102-Bitcoin](assets/fr/095.webp)
 
 
-Am Ende dieses Kurses verfügen Sie über alle praktischen Werkzeuge, die Sie benötigen, um sich sicher im Bitcoin-Ökosystem zu bewegen und einer der fortgeschrittensten Benutzer zu werden!
+Am Ende dieses Kurses verfügen Sie über alle praktischen Werkzeuge, die Sie benötigen, um sich sicher im Bitcoin-Ökosystem zu bewegen!
 
 
 Sind Sie bereit, Ihre Reise in die Welt von Bitcoin zu beginnen? Los geht's!
@@ -111,7 +111,7 @@ Sind Sie bereit, Ihre Reise in die Welt von Bitcoin zu beginnen? Los geht's!
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 
-Das Bitcoin-Ökosystem und sein Umfeld sind noch relativ jung und je nach Land nur locker reguliert. Diese Freiheit eröffnet zwar enorme Möglichkeiten, schafft aber auch einen fruchtbaren Boden für Finanzbetrug, Betrug und verschiedene Formen der Manipulation. Deshalb ist das erste Kapitel so wichtig: Wenn Sie die üblichen Fallstricke kennen, können Sie sie vermeiden. Ihre finanzielle Sicherheit hat Priorität, denn eine schlechte Erfahrung betrifft nicht nur Sie, sondern die gesamte Bitcoin-Gemeinschaft.
+Das Bitcoin-Ökosystem und sein Umfeld sind noch relativ jung und je nach Land nur locker reguliert. Diese Freiheit eröffnet zwar enorme Möglichkeiten, schafft aber auch einen fruchtbaren Boden für Betrug und verschiedene Formen der Manipulation. Deshalb ist das erste Kapitel so wichtig: Wenn Sie die typischen Fallstricke kennen, können Sie diese vermeiden. Ihre finanzielle Sicherheit hat Priorität, denn eine schlechte Erfahrung hat nicht nur eine negative Auswirkung auf Sie, sondern auf die gesamte Bitcoin-Gemeinschaft.
 
 
 

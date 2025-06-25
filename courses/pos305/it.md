@@ -1322,7 +1322,7 @@ BTCPay Server presenta due diverse viste delle impostazioni. Una è dedicata all
 
 Come menzionato nella parte precedente, gli Amministratori del Server possono invitare utenti al loro server aggiungendoli alla scheda Utenti.
 
-### Ruoli su misura del server
+### Ruoli su misura sul server
 
 BTCPay Server prevede due tipi di ruoli personalizzati, quelli specifici del negozio e i Ruoli personalizzati su tutto il server nelle impostazioni di BTCPay Server. Entrambi hanno un insieme simile di permessi; tuttavia, se impostati tramite la scheda Impostazioni di BTCPay Server - Ruoli, il ruolo applicato sarà su tutto il server e si applicherà a più negozi e sarà etichettata con l'avviso "Su tutto il server" ai ruoli personalizzati nelle impostazioni del server.
 
@@ -1351,9 +1351,9 @@ Set di permessi per ruoli personalizzati su tutto il server:
 - Usa i nodi lightning associati ai tuoi negozi.
   - Visualizza le invoice lightning associate ai tuoi negozi.
   - Crea invoice dai nodi lightning associati ai tuoi negozi.
-- Deposita fondi negli account dio scambio collegati ai tuoi negozi.
+- Deposita fondi negli account di scambio collegati ai tuoi negozi.
 - Preleva fondi negli account di scambio verso il tuo negozio.
-- Commercia fondi sugli account di scambio.
+- Negozia fondi sugli account di scambio.
 
 **!Nota!**
 
@@ -1361,19 +1361,19 @@ Quando il ruolo viene creato, il nome è fisso e non può essere cambiato.
 
 ### Email
 
-Le impostazioni Email su tutto il server sono simili a quelle specifiche per negozio. Tuttavia, questa configurazione gestisce non solo i trigger per i negozi, ma anche i log degli amministratori. Questa configurazione Email rende anche disponibile il recupero della password su BTCPay Server al Login. Funziona in modo simile alle impostazioni specifiche per negozio; gli amministratori possono inserire rapidamente i parametri Email e inserire le credenziali email, e il server può ora inviare email.
+Le impostazioni Email su tutto il server sono simili a quelle specifiche per negozio. Tuttavia, questa configurazione gestisce non solo i trigger per i negozi, ma anche i log degli amministratori. Questa configurazione Email rende anche disponibile il recupero della password su BTCPay Server al Login. Funziona in modo simile alle impostazioni specifiche per negozio; gli amministratori possono inserire rapidamente i parametri Email e inserire le credenziali email, e il server può ora inviarle.
 
 ![image](assets/en/72.webp)
 
 ### Policy
 
-Gli amministratori delle policy di BTCPay Server possono impostare alcune configurazioni su argomenti come Impostazioni Utenti Esistenti, Impostazioni Nuovi Utenti, Impostazioni Notifiche e Impostazioni Manutenzione. Queste sono destinate a registrare nuovi utenti come amministratori o utenti normali o anche a nascondere BTCPay Server dai motori di ricerca aggiungendo al tuo header del server.
+Gli amministratori delle policy di BTCPay Server possono impostare alcune configurazioni su argomenti come Impostazioni Utenti Esistenti, Impostazioni Nuovi Utenti, Impostazioni Notifiche e Impostazioni Manutenzione. Queste sono destinate a registrare nuovi utenti come amministratori o utenti normali o per nascondere il server BTCPay dai motori di ricerca aggiungendolo all'intestazione del server.
 
 ![image](assets/en/73.webp)
 
 #### Impostazioni utenti esistenti
 
-Le opzioni disponibili qui sono separate dai ruoli personalizzati. Questi permessi extra potrebbero rendere un negozio o il proprietario del negozio vulnerabile agli attacchi. Le policy che possono essere aggiunte agli utenti esistenti:
+Le opzioni disponibili qui sono separate dai ruoli personalizzati. Questi permessi extra potrebbero rendere un negozio o il proprietario del negozio vulnerabile agli attacchi. Le policy che possono essere aggiunte agli utenti esistenti sono:
 
 - Consenti ai non amministratori di usare il nodo Lightning interno nei loro negozi.
   - Questo permetterebbe ai proprietari dei negozi di usare il nodo Lightning dell'amministratore del server e, quindi, i suoi fondi! Attenzione, questa non è una soluzione per dare accesso a Lightning.
@@ -1403,9 +1403,9 @@ Per impostazione predefinita, BTCPay Server ha disabilitato la registrazione di 
 
 #### Impostazioni Manutenzione
 
-BTCPay Server è un progetto Open Source che vive su GitHub. Ogni volta che BTCPay Server rilascia una nuova versione, gli Amministratori possono ricevere una notifica. Gli amministratori possono anche voler scoraggiare i motori di ricerca (google, yahoo, duckduckgo) dall'indicizzare il dominio di BTCPay Server. Poiché BTCPay Server è FOSS gli sviluppatori in tutto il mondo potrebbero voler creare nuove funzionalità avendo questo software anche una funzionalità sperimentale che, quando attivata, permette all'amministratore di utilizzare funzionalità non destinate alla produzione solo a scopo di test.
+BTCPay Server è un progetto Open Source che vive su GitHub. Ogni volta che BTCPay Server rilascia una nuova versione, gli Amministratori possono ricevere una notifica di aggiornamento. Inoltre possono anche voler scoraggiare i motori di ricerca (google, yahoo, duckduckgo) dall'indicizzare il dominio di BTCPay Server. Poiché BTCPay Server è FOSS gli sviluppatori in tutto il mondo potrebbero voler creare nuove caratteristiche avendo questo software anche una funzionalità sperimentale che, quando attivata, permette all'amministratore di utilizzare proprietà non destinate alla produzione solo a scopo di test.
 
-- Controlla le release su GitHub e quando la notifica di una nuova versione di BTCPay Server è disponibile.
+- Controlla le release su GitHub e quando è disponibile la notifica di una nuova versione di BTCPay Server.
 - Scoraggia i motori di ricerca dall'indicizzare questo sito.
 - Abilita le funzionalità sperimentali.
 
@@ -1413,33 +1413,33 @@ BTCPay Server è un progetto Open Source che vive su GitHub. Ogni volta che BTCP
 
 #### Plugin
 
-BTCPay Server può aggiungere Plugin ed espandere il suo set di funzionalità. I plugin, di default, sono caricati dalla repository plugin-builder di BTCPay Server. Un amministratore, tuttavia, può scegliere di vedere i plugin in stato di Pre-release, e se lo sviluppatore del plugin lo consente, l'amministratore del server può ora installare versioni beta dei plugin.
+BTCPay Server può aggiungere Plugin ed espandere il suo set di funzionalità. I plugin, di default, sono caricati dalla repository plugin-builder di BTCPay Server. Un amministratore, tuttavia, può scegliere di vedere i plugin in stato di Pre-release, e se lo sviluppatore del plugin lo consente, l'amministratore del server può installare versioni beta dei plugin.
 
 ![image](assets/en/78.webp)
 
 ##### Impostazioni Personalizzazione
 
-Una distribuzione standard di BTCPay Server sarà raggiungibile tramite il dominio impostato durante l'installazione. Tuttavia, un amministratore del server può rimappare il dominio e visualizzare una delle app create da un negozio specifico. L'Amministratore del Server può anche mappare domini specifici a app specifiche.
+Una distribuzione standard di BTCPay Server sarà raggiungibile tramite il dominio impostato durante l'installazione. Tuttavia, un amministratore del server può rimappare il dominio e visualizzare una delle app create da un negozio specifico. L'Amministratore del Server può anche mappare domini specifici per app specifiche.
 
-- Visualizza l'app sulla radice del sito web
-  - Mostra l'elenco delle possibili app da mostrare sula radice di dominio.
+- Visualizza l'app sulla radice del sito web;
+  - Mostra l'elenco delle possibili app da mostrare sulla radice del dominio.
 
 ![image](assets/en/79.webp)
 
-- Mappa domini specifici a app specifiche.
+- Mappa domini specifici per app specifiche.
   - Quando clicchi per impostare un dominio specifico per app specifiche, l'Amministratore può impostare quanti domini puntare verso app specifiche come necessario.
 
 ![image](assets/en/80.webp)
 
 #### Block explorer
 
-BTCPay Server, come standard, viene fornito con mempool.space come suo [block explorer](https://planb.network/resources/glossary/block-explorer) per le transazioni. Quando BTCPay Server genera una nuova invoice, e c'è una transazione ad essa legata, il proprietario del negozio può cliccare per aprire la transazione; BTCPay Server punterà come standard verso mempool.space come Block explorer; un amministratore del server può cambiarlo secondo le sue preferenze.
+BTCPay Server, di norma, viene fornito con mempool.space come suo [block explorer](https://planb.network/resources/glossary/block-explorer) per le transazioni. Quando BTCPay Server genera una nuova invoice e c'è una transazione ad essa legata, il proprietario del negozio può fare clic su di essa per aprirla. BTCPay Server, per impostazione predefinita, punterà verso mempool.space come block explorer, tuttavia un amministratore del server può sceglerne un altro secondo le sue preferenze.
 
 ![image](assets/en/81.webp)
 
 ### Servizi
 
-La scheda impostazioni di BTCPay Server: La tab Servizi offre una panoramica dei componenti utilizzati dal tuo BTCPay Server. I servizi esposti dal tuo BTCPay Server possono variare a seconda del metodo di distribuzione.
+La "Scheda impostazioni di BTCPay Server: Servizi" offre una panoramica dei componenti utilizzati dal tuo BTCPay Server. I servizi esposti dal tuo BTCPay Server possono variare a seconda del metodo di distribuzione.
 
 Un Amministratore di BTCPay Server può cliccare su "Vedi informazioni" dietro ogni servizio per aprirlo e impostare specifiche configurazioni.
 
@@ -1447,9 +1447,9 @@ Un Amministratore di BTCPay Server può cliccare su "Vedi informazioni" dietro o
 
 #### LND (gRPC)
 
-BTCPay espone il servizio gRPC di LND per l'utilizzo esterno; qui troverai le informazioni di connessione in questo specifico menu delle impostazioni; qui sono elencati i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
+BTCPay espone il servizio gRPC di LND per l'utilizzo esterno, dove troverai le informazioni di connessione in questo specifico menù delle impostazioni, inoltre qui sono elencati anche i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
 
-Gli amministratori del server possono aprire più dettagli per vedere;
+Gli amministratori del server possono aprire più dettagli per vedere:
 
 - Dettagli dell'host
 - Uso di SSL
@@ -1461,7 +1461,7 @@ Gli amministratori del server possono aprire più dettagli per vedere;
 
 #### LND (REST)
 
-BTCPay espone il servizio REST di LND per l'utilizzo esterno; qui troverai le informazioni di connessione; qui sono elencati i wallet compatibili. Tra i wallet compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
+BTCPay espone il servizio REST di LND per l'utilizzo esterno, dove troverai le informazioni di connessione e inoltre sono elencati anche i wallet compatibili. Tra i wallet compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
 
 - REST Uri
 - Macaroon
@@ -1474,9 +1474,9 @@ Il backup del seed LND è utile per recuperare i fondi dal tuo wallet LND in cas
 
 LND documenta il processo di recupero. Vedi https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md per la documentazione.
 
-#### Ride The Lightning
+#### Ride The Lightning (RTL)
 
-Ride the Lightning, software Open Source, è uno strumento di gestione dei nodi Lightning. BTCPay Server utilizza RTL come componente di gestione del nodo Lightning nel suo stack. Gli amministratori di BTCPay Server possono accedere a RTL tramite le impostazioni del Server - scheda Servizi o cliccando sul wallet Lightning.
+Il software Open Source chiamato Ride the Lightning è uno strumento di gestione dei nodi Lightning. BTCPay Server utilizza RTL come componente di gestione del nodo Lightning nel suo stack. Gli amministratori di BTCPay Server possono accedere a RTL tramite le impostazioni del Server - "Scheda Servizi" o cliccando sul wallet Lightning.
 
 #### Full node P2P
 

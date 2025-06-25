@@ -4,7 +4,7 @@ description: Come etichettare correttamente i tuoi UTXO?
 ---
 ![cover](assets/cover.webp)
 
-In questo tutorial, scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sulla gestione degli UTXO. Iniziamo con una sezione teorica per comprendere appieno questi concetti, prima di passare a una parte pratica dove esploriamo come utilizzare concretamente le etichette nel principale software di portafoglio Bitcoin.
+In questo tutorial, scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sulla gestione degli UTXO. Iniziamo con una sezione teorica per comprendere appieno questi concetti, prima di passare a una parte pratica dove esploriamo come utilizzare concretamente le etichette nel principale software di portafoglio Bitcoin.  
 
 ## Cos'è l'etichettatura UTXO?
 "L'etichettatura" è una tecnica con la quale si inserisce un'annotazione o etichetta ad un UTXO specifico all'interno di un portafoglio Bitcoin. Queste annotazioni sono memorizzate localmente dal software del portafoglio e non vengono mai trasmesse sulla rete Bitcoin. L'etichettatura è quindi uno strumento per la gestione personale.

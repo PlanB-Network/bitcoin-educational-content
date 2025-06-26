@@ -6,4 +6,4 @@ wrong_answers:
   - È usato solo per inviare fondi ad indirizzi pubblici.
 explanation: |
   Un indirizzo multisignature 2/2 richiede le firme di entrambe le parti coinvolte per poter spendere i fondi, il che è utilizzato per la sicurezza dei canali Lightning.
-reviewed: false
+reviewed: true

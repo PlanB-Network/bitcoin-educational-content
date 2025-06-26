@@ -6,4 +6,4 @@ wrong_answers:
   - Può prendere in prestito fondi dal lato dell'altro partecipante se necessario.
 explanation: |
   Ogni partecipante è limitato dalla quantità di satoshi che possiede nel canale per le proprie transazioni, garantendo che i fondi siano sempre coperti.
-reviewed: false
+reviewed: true

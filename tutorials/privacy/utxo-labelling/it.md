@@ -1,6 +1,6 @@
 ---
 name: Labelling UTXO
-description: Come etichettare correttamente i tuoi UTXO?
+description: Come etichettare correttamente i tuoi UTXO
 ---
 ![cover](assets/cover.webp)
 

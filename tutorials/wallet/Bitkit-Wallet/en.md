@@ -44,12 +44,9 @@ Social Profile: Take control of your public profile and links, so your contacts 
 
 Passwordless Accounts: Log in to websites that support Slashtags or Lightning authentication.
 
-
 QuickPay: Set a custom limit for Lightning payments under $50, and any invoice below that is paid instantly—no swipes, no delays. Perfect for coffee runs or splitting bills.
 
-
 Shop: Pay for Netflix, Airbnb, groceries, mobile data, and more, with Bitcoin, right inside Bitkit.
-
 
 No banks. No friction.
 

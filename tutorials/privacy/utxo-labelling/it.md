@@ -4,7 +4,7 @@ description: Come etichettare correttamente i tuoi UTXO?
 ---
 ![cover](assets/cover.webp)
 
-In questo tutorial scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sulla gestione degli stessi. Iniziamo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principale wallet Bitcoin.
+In questo tutorial scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sulla gestione degli stessi. Iniziamo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principali wallet Bitcoin.
 
 ## Cos'è l'etichettatura UTXO?
 

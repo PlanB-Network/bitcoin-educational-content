@@ -5,5 +5,5 @@ wrong_answers:
   - Può inviare qualsiasi importo, purché ci sia un accordo precedente.
   - Può prendere in prestito fondi dal lato dell'altro partecipante se necessario.
 explanation: |
-  Ogni partecipante è limitato dalla quantità di satoshi che possiede nel canale per le proprie transazioni, garantendo che i fondi siano sempre coperti.
+ Per le proprie transazioni, ogni partecipante è limitato dalla quantità di satoshi che possiede nel canale, garantendo che i fondi siano sempre coperti.
 reviewed: true

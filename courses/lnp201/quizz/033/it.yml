@@ -1,5 +1,5 @@
 question: Cosa comporta l'onion routing in Lightning Network?
-answer: Che ogni nodo intermedio conosce solo i suoi vicini più prossimi sul percorso.
+answer: Che ogni nodo intermedio conosce solo i nodi più vicini a sé sul percorso.
 wrong_answers:
   - Trasmettere direttamente fondi da nodo a nodo conoscendo il destinatario finale
   - Calcolare le fee per ogni nodo intermedio indipendentemente

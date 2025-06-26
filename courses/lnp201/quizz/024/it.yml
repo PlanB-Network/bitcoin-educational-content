@@ -1,7 +1,7 @@
 question: Qual è l'effetto combinato del timelock e della chiave di revoca sulle commitment transaction?
 answer: Scoraggiano i partecipanti dal barare garantendo una punizione immediata
 wrong_answers:
-  - Riducono la capacità del canale in caso di baro
+  - Riducono la capacità del canale in caso di frode
   - Bloccano automaticamente i fondi della parte colpevole
   - Costringono all'apertura di un nuovo canale se la transazione è errata
 explanation: |

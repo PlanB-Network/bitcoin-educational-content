@@ -1033,7 +1033,7 @@ Sebbene protegga dalle transazioni dust, può anche riflettersi negativamente su
 
 #### L'invoice scade se l'intero importo non è stato pagato?
 
-Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo in bitcoin secondo i tassi di cambio fra bitcoin e fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice invece è considerata "pagata" non appena la transazione è visibile sulla blockchain (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile in minuti.
+Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo in bitcoin secondo i tassi di cambio fra bitcoin e fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice invece è considerata "pagata" non appena la transazione è visibile sulla mempool (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile in minuti.
 
 #### Considera l'invoice pagata anche se l'importo pagato è inferiore dell'X% rispetto al previsto?
 
@@ -1733,9 +1733,9 @@ A meno che non si utilizzi un [Wallet](https://docs.btcpayserver.org/Wallet/) in
 
 #### Stati delle Invoice
 
-La tabella sottostante elenca e descrive gli stati standard delle invoice in BTCPay e suggerisce azioni comuni. Le azioni sono solo raccomandazioni. Spetta agli utenti definire il miglior corso d'azione per il loro business e casi d'uso.
+La tabella sottostante elenca e descrive gli stati standard delle invoice in BTCPay e suggerisce azioni comuni. Le azioni sono solo raccomandazioni. Spetta agli utenti definire il miglior modo d'agire per il proprio business e i vari casi d'uso.
 
-| Stato dell'invoice                 | Descrizione                                                                                                                                           | Azione                                                                                                                                                             |
+| Stato dell'invoice                  | Descrizione                                                                                                                                          | Azione                                                                                                                                                             |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Nuova                               | Non pagata, il timer dell'invoice non è ancora scaduto                                                                                               | Nessuna                                                                                                                                                            |
 | Nuova (pagata Parziale)             | Pagata, non in pieno, il timer dell'invoice non è ancora scaduto                                                                                     | Nessuna                                                                                                                                                            |
@@ -1749,7 +1749,7 @@ La tabella sottostante elenca e descrive gli stati standard delle invoice in BTC
 | Liquidato (marcato)                 | Lo stato è stato cambiato manualmente in liquidato da uno stato in elaborazione o non valido                                                         | L'amministratore del negozio ha marcato il pagamento come liquidato                                                                                                |
 | Non valido \*                       | Pagato, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio                               | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
 | Non valido (marcato)                | Lo stato è stato cambiato manualmente in non valido da uno stato liquidato o scaduto                                                                 | L'amministratore del negozio ha marcato il pagamento come non valido                                                                                               |
-| Non valido (pagato in eccesso)      | Pagato più dell'importo dell'invoice, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio | Verificare la transazione su un blockchain explorer, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                                  |
+| Non valido (pagato in eccesso)      | Pagato più dell'importo dell'invoice, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio | Verificare la transazione su un blockchain explorer, se ha ricevuto conferme sufficienti, marcarla come liquidata                                                  |
 
 #### Dettagli dell'invoice
 
@@ -1775,13 +1775,13 @@ A causa della funzionalità di non riutilizzo dell'indirizzo di BTCPay Server, �
 
 #### Valuta predefinita
 
-Valuta predefinita del negozio, questa è stata impostata nella procedura guidata di creazione del negozio.
+La aluta predefinita del negozio è stata impostata nella procedura guidata di creazione del negozio.
 
 #### Consentire a chiunque di creare un'invoice
 
 Dovresti abilitare questa opzione se vuoi permettere al mondo esterno di creare invoice nel tuo negozio. Questa opzione è utile solo se stai utilizzando il pulsante di pagamento o se stai emettendo invoice tramite API o sito web HTML di terze parti. L'app PoS è pre-autorizzata e non ha bisogno di essere abilitata affinché un visitatore casuale possa aprire il tuo negozio PoS e creare un'invoice.
 
-#### Aggiungere una tariffa aggiuntiva (fee di rete) all'invoice
+#### Aggiungere una fee aggiuntiva (fee di rete) all'invoice
 
 - Solo se il cliente effettua più di un pagamento per invoice
 - Su ogni pagamento
@@ -1789,9 +1789,9 @@ Dovresti abilitare questa opzione se vuoi permettere al mondo esterno di creare 
 
 #### L'invoice scade se l'intero importo non è stato pagato dopo "X" Minuti.
 
-Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo della criptovaluta secondo i tassi di cambio cripto a fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice è considerata "pagata" non appena la transazione è visibile sulla blockchain (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile.
+Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo della criptovaluta secondo i tassi di cambio cripto a fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice è considerata "pagata" non appena la transazione è visibile sulla mempool (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile.
 
-#### Considera l'invoice pagata anche se l'importo pagato è ..% inferiore al previsto.
+#### Considera l'invoice pagata anche se l'importo pagato è "X"% inferiore al previsto.
 
 In una situazione in cui un cliente utilizza un exchange per pagare direttamente un'invoice, quest'ultimo prende una piccola quantità come commissione. Questo significa che tale invoice non è considerata interamente completata. L'invoice ottiene lo stato "pagata parzialmente". Se un commerciante vuole accettare invoice pagate meno di quanto previsto, puoi impostare qui la percentuale.
 
@@ -1822,9 +1822,9 @@ Nel menu a sinistra, vai su Richiesta di Pagamento e clicca su "Crea Richiesta d
 
 - Fornisci il Nome della Richiesta, Importo, Denominazione Visualizzata, Negozio Associato, Tempo di Scadenza & Descrizione (Opzionale)
 
-- Seleziona l'opzione Consenti al pagante di creare invoice nella loro denominazione se vuoi consentire pagamenti parziali.
+- Seleziona l'opzione "Consenti al pagante di creare invoice" nella loro denominazione, se vuoi consentire pagamenti parziali.
 
-- Clicca su Salva & Visualizza per rivedere la richiesta di pagamento.
+- Clicca su "Salva & Visualizza" per rivedere la richiesta di pagamento.
 
 BTCPay crea un URL per la richiesta di pagamento. Condividi questo URL per visualizzare la tua richiesta di pagamento. Hai bisogno di più richieste uguali? Puoi duplicare le richieste di pagamento utilizzando l'opzione Clona nel menu principale.
 
@@ -1868,7 +1868,7 @@ Gli utenti non tecnici possono utilizzare un [tema bootstrap](https://docs.btcpa
 
 ### Pagamenti Pull
 
-Tradizionalmente, un ricevente condivide il proprio indirizzo Bitcoin per effettuare un pagamento in bitcoin, e il mittente invia successivamente denaro a questo indirizzo. Tale sistema è chiamato pagamento Push, poiché il mittente inizia il pagamento mentre il ricevente può essere non disponibile, spingendo il pagamento al ricevente.
+Tradizionalmente, un ricevente condivide il proprio indirizzo Bitcoin per effettuare un pagamento in bitcoin, e il mittente invia successivamente i suoi coin a questo indirizzo. Tale sistema è chiamato pagamento Push, poiché il mittente inizia il pagamento mentre il ricevente può essere non disponibile, spingendo il pagamento al ricevente.
 
 Ma che dire di invertire il ruolo?
 
@@ -1889,7 +1889,7 @@ La funzionalità di pagamento è legata ai [Pagamenti Pull](https://docs.btcpays
 
 Iniziamo con l'esempio del rimborso. Il cliente ha acquistato un articolo nel tuo negozio ma, purtroppo, deve restituire l'articolo. Vuole un rimborso. All'interno di BTCPay, puoi creare un [Rimborso](https://docs.btcpayserver.org/Refund/) e fornire al cliente il link per richiedere i suoi fondi. Non appena il cliente ha fornito il suo indirizzo e richiesto i fondi, verrà mostrato nei Pagamenti.
 
-Il primo stato che assume è In Attesa di Approvazione. I commessi del negozio possono controllare se ce ne sono più di uno in attesa e, dopo aver fatto la selezione, si utilizza il pulsante Azioni.
+Il primo stato che assume è "In Attesa di Approvazione". I commessi del negozio possono controllare se ce ne sono più di uno in attesa e, dopo aver fatto la selezione, si utilizza il pulsante Azioni.
 
 Opzioni sul pulsante azione
 
@@ -1898,7 +1898,7 @@ Opzioni sul pulsante azione
 - Annulla i pagamenti selezionati
 
 Il passo successivo è Approvare e inviare i pagamenti selezionati poiché vogliamo rimborsare il cliente. Controlla l'indirizzo del Cliente, mostra l'importo e se vogliamo che le commissioni vengano sottratte dal rimborso o meno. Una volta effettuati i controlli, resta solo da firmare la transazione.
-Il cliente ora riceve aggiornamenti sulla pagina di Richiesta. Può seguire la transazione poiché gli viene fornito un link a un esploratore di blocchi e alla sua transazione. Una volta che la transazione è stata confermata e lo stato cambia in Completato.
+Il cliente ora riceve aggiornamenti sulla pagina di Richiesta. Può seguire la transazione poiché gli viene fornito un link a un block explorer e alla sua transazione. Una volta che la transazione è stata confermata e lo stato cambia in Completato.
 
 #### Esempio 2: Stipendio
 

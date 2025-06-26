@@ -1,5 +1,5 @@
 question: Qual è l'obiettivo principale degli HTLC su Lightning Network?
-answer: Consentire trasferimenti di pagamento sicuri tramite nodi intermediari senza richiedere fiducia in essi
+answer: Consentire di trasferire i pagamenti in modo sicuro, tramite nodi intermediari ma senza richiedere fiducia in essi
 wrong_answers:
   - Ridurre le fee di transazione per ogni pagamento tramite nodi intermediari
   - Aumentare la capacità di ogni canale di pagamento

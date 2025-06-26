@@ -823,10 +823,10 @@ W tym rozdziale przyjrzymy się kodom kulturowym, które wyłoniły się z wysi�
 
 ### Blok Genesis
 
-Uruchomienie Satoshi w styczniu 2009 r. dało Nakamoto możliwość ustalenia stałych parametrów jego systemu. Jak później [napisze](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611), natura Bitcoin jest taka, że "po wydaniu wersji 0.1" jego podstawowe działanie zostało "ustalone w kamieniu do końca jego istnienia", co sprawiło, że konieczne było poprawienie rzeczy przed rozszerzeniem systemu. (*oryginał: "once version 0.1 was released, the core design was set in stone for the rest of its lifetime "*) W szczególności, dwa fundamentalne Elements mają istotne znaczenie kulturowe: zawartość bloku Genesis i limit 21 milionów jednostek.
+Uruchomienie protokołu w styczniu 2009 r. dało Satoshiemu Nakamoto możliwość ustalenia stałych parametrów jego systemu. Jak później [napisze](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611), natura Bitcoina jest taka, że „po wydaniu wersji 0.1” jego podstawowe działanie zostało „ustalone na stałe do końca jego istnienia”, co sprawiło, że konieczne było ustawienie wszystkiego poprawnie zanim system zacznie się rozrastać. (*oryginał: "once version 0.1 was released, the core design was set in stone for the rest of its lifetime "*) Dwa fundamentalne elementy mają istotne znaczenie kulturowe: zawartość bloku Genesis i limit 21 milionów jednostek.
 
 
-Blok Genesis jest blokiem bazowym Bitcoin Blockchain, z którego musi zostać rozszerzony. Jest on zatem zakodowany na stałe w oprogramowaniu. Przed uruchomieniem sieci, Satoshi skonstruował to pierwsze połączenie poprzez wyprodukowanie wymaganego Proof of Work i oznaczenie go znacznikiem czasu w dniu 3 stycznia 2009 r. o godzinie 18:15:05 UTC. W tym bloku (a konkretnie w transakcji nagrody) wpisał następującą wiadomość:
+Blok Genesis jest blokiem bazowym łańcucha bloków Bitcoin, od którego łańcuch rośnie. Jest on zatem zakodowany na stałe w oprogramowaniu. Przed uruchomieniem sieci, Satoshi skonstruował to pierwsze połączenie poprzez wyprodukowanie wymaganego Dowodu Pracy i oznaczenie go znacznikiem czasu w dniu 3 stycznia 2009 r. o godzinie 18:15:05 UTC. W tym bloku (a konkretnie w transakcji nagrody) wpisał następującą wiadomość:
 
 
 ```
@@ -834,30 +834,30 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 ```
 
 
-Jest to nagłówek z brytyjskiej gazety *The Times* z tego dnia, wskazujący, że kanclerz skarbu (tj. brytyjski minister finansów) był na skraju ratowania banków po raz drugi. Obecność tego nagłówka w bloku pełni podwójną rolę:
+Jest to nagłówek z brytyjskiej gazety *The Times* z tego dnia, wskazujący, że kanclerz skarbu (tj. brytyjski minister finansów) był na skraju podjęcia decyzji o uratowaniu banków po raz drugi. Obecność tego nagłówka w bloku pełni podwójną rolę:
 
 
 
 - Z jednej strony zapobiega to wstecznemu uruchomieniu sieci poprzez udowodnienie, że system nie mógł zostać uruchomiony przed 3 stycznia, ponieważ Satoshi nie mógł wiedzieć o nagłówku przed opublikowaniem gazety;
-- Z drugiej strony symbolicznie wskazuje, przeciwko czemu stoi Bitcoin, odnosząc się do ówczesnego kontekstu monetarnego i finansowego.
+- Z drugiej strony symbolicznie wskazuje, przeciwko czemu opowiada się Bitcoin, odnosząc się do ówczesnego kontekstu monetarnego i finansowego.
 
 
 ![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
 
 
-W tym czasie świat rzeczywiście odczuwał w pełni skutki kryzysu finansowego, który rozpoczął się w 2007 roku wraz z pęknięciem bańki kredytów subprime w Stanach Zjednoczonych. Rządy ratowały instytucje finansowe, aby zapobiec dalszym bankructwom po upadku banku inwestycyjnego Lehman Brothers 15 września 2008 r., a banki centralne zaangażowały się w luzowanie ilościowe, wstrzykując płynność na rynki finansowe. To wykorzystanie publicznych pieniędzy stworzonych na tę okazję spowodowało niepokój wielu obywateli, którzy zdali sobie sprawę, że system bankowy jest w rzeczywistości systemem prywatnych zysków i uspołecznionych strat.
+W tym czasie świat rzeczywiście odczuwał w pełni skutki kryzysu finansowego, który rozpoczął się w 2007 roku wraz z pęknięciem bańki ryzykownych kredytów w Stanach Zjednoczonych. Rządy ratowały instytucje finansowe, aby zapobiec dalszym bankructwom po upadku banku inwestycyjnego Lehman Brothers 15 września 2008 r., a banki centralne zaangażowały się w luzowanie ilościowe, wstrzykując płynność na rynki finansowe. To wykorzystanie publicznych pieniędzy stworzonych na tę okazję spowodowało niepokój wielu obywateli, którzy zdali sobie sprawę, że system bankowy jest w rzeczywistości systemem prywatnych zysków i uspołecznionych strat.
 
 
-Z drugiej strony Bitcoin nie polega na zaufanej stronie trzeciej, a zatem nie podlega kaprysom banku centralnego. Kontrastuje zatem z walutami państwowymi, takimi jak dolar czy euro, których ilość może być arbitralnie zmieniana przez tych, którzy kontrolują kreację pieniądza; polityka pieniężna Bitcoin jest w rzeczywistości zaprogramowana z wyprzedzeniem, zapisana w protokole, aby teoretycznie nigdy nie została zmieniona.
+Z drugiej strony Bitcoin nie polega na zaufanej stronie trzeciej, a zatem nie podlega kaprysom banku centralnego. Kontrastuje zatem z walutami państwowymi, takimi jak dolar czy euro, których ilość może być arbitralnie zmieniana przez tych, którzy kontrolują kreację pieniądza; polityka pieniężna Bitcoina jest w rzeczywistości zaprogramowana z wyprzedzeniem, zapisana w protokole, aby teoretycznie nigdy nie została zmieniona.
 
 
 ### Limit 21 milionów
 
 
-To prowadzi nas do drugiego elementu przedstawionego przez Satoshi w dniu uruchomienia sieci: limitu 21 milionów. 8 stycznia w swoim [e-mailu wprowadzającym](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) opisał tę politykę monetarną w następujący sposób:
+To prowadzi nas do drugiego elementu przedstawionego przez Satoshiego w dniu uruchomienia sieci: limitu 21 milionów. 8 stycznia w swoim [e-mailu wprowadzającym](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) opisał tę politykę monetarną w następujący sposób:
 
 
-> "Całkowity obieg wyniesie 21 000 000 jednostek. &nbsp;Będą one dystrybuowane do węzłów sieci w miarę tworzenia przez nie bloków, a ich ilość będzie zmniejszana o połowę co 4 lata.
+> „Całkowity obieg wyniesie 21 000 000 jednostek. &nbsp;Będą one dystrybuowane do węzłów sieci w miarę tworzenia przez nie bloków, a ich ilość będzie zmniejszana o połowę co 4 lata.
 >
 
 > przez pierwsze 4 lata: 10 500 000 szt
@@ -867,12 +867,12 @@ To prowadzi nas do drugiego elementu przedstawionego przez Satoshi w dniu urucho
 > itp.
 >
 
-> Po ich wyczerpaniu system może w razie potrzeby obsługiwać opłaty transakcyjne. Opiera się on na otwartej konkurencji rynkowej i prawdopodobnie zawsze znajdą się węzły, które będą chciały przetwarzać transakcje za darmo"
+> Po ich wyczerpaniu system może w razie potrzeby obsługiwać opłaty transakcyjne. Opiera się on na otwartej konkurencji rynkowej i prawdopodobnie zawsze znajdą się węzły, które będą chciały przetwarzać transakcje za darmo”
 
-Kilka dni później Hal Finney [zareagował](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) pozytywnie na tę politykę monetarną na liście mailingowej, podekscytowany faktem, że "system można skonfigurować tak, aby zezwalał na generowanie tylko określonej maksymalnej liczby jednostek" W swoim e-mailu oszacował, że jeśli Bitcoin stanie się "dominującym systemem płatności używanym na całym świecie", każda jednostka będzie miała "wartość około 10 milionów dolarów" Podsumował, pisząc, że "możliwość generowania jednostek dzisiaj za kilka centów czasu obliczeniowego" może być "bardzo dobrym zakładem" Nawet jeśli szacunki są dyskusyjne (ponieważ opierają się na wycenie Bitcoin, która byłaby równoważna całkowitemu globalnemu bogactwu), rozumowanie jest rozsądne.
+Kilka dni później Hal Finney [zareagował](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) pozytywnie na tę politykę monetarną na liście mailingowej, podekscytowany faktem, że „system można skonfigurować tak, aby zezwalał na generowanie tylko określonej maksymalnej liczby jednostek”. W swoim e-mailu oszacował, że jeśli Bitcoin stanie się „dominującym systemem płatności używanym na całym świecie”, każda jednostka będzie miała „wartość około 10 milionów dolarów”. Podsumował, pisząc, że „możliwość generowania jednostek dzisiaj za kilka centów czasu obliczeniowego” może być „strzałem w dziesiątkę”. Nawet jeśli szacunki są dyskusyjne (ponieważ opierają się na wycenie Bitcoina, która byłaby równoważna całkowitemu globalnemu bogactwu), takie rozumowanie jest rozsądne.
 
 
-16 stycznia Satoshi powrócił do tego pomysłu "długoterminowej inwestycji" w e-mailu, który udostępnił liście mailingowej, gdzie opisał potencjalne przypadki użycia. Stwierdził on wtedy (https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html), że "może mieć sens po prostu zdobycie kilku na wypadek, gdyby to się przyjęło. Jeśli wystarczająco dużo osób myśli w ten sam sposób, stanie się to samospełniającą się przepowiednią" Miesiąc później [powtórzył](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) to twierdzenie, wyjaśniając, że ograniczona liczba jednostek prawdopodobnie stworzy "pozytywną pętlę sprzężenia zwrotnego" w tym sensie, że "im więcej jest użytkowników, tym bardziej wzrasta wartość, co może przyciągnąć więcej użytkowników chcących skorzystać z rosnącej wartości" Tak więc element spekulacyjny jest obecny od samego początku, w celu rozruszania systemu.
+16 stycznia Satoshi powrócił do pomysłu „długoterminowej inwestycji” w e-mailu, który udostępnił liście mailingowej, gdzie opisał potencjalne przypadki użycia. Stwierdził on wtedy (https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html), że „może mieć sens zwyczajne zdobycie kilku na wypadek, gdyby to się przyjęło. Jeśli wystarczająco dużo osób myśli w ten sam sposób, stanie się to samospełniającą się przepowiednią". Miesiąc później [powtórzył](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) to twierdzenie, wyjaśniając, że ograniczona liczba jednostek prawdopodobnie stworzy „pozytywną pętlę sprzężenia zwrotnego” w tym sensie, że „im więcej jest użytkowników, tym bardziej wzrasta wartość, co może przyciągnąć więcej użytkowników chcących skorzystać z rosnącej wartości”. Tak więc element spekulacyjny był obecny od samego początku w celu rozruszania systemu.
 
 
 ### Regulacja, sieci zombie i ekologia

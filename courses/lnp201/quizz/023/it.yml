@@ -1,9 +1,9 @@
-question: Perché Alice e Bob scambiano i loro segreti per le precedenti transazioni impegnative?
+question: Perché Alice e Bob scambiano i loro segreti per le precedenti commitment transaction?
 answer: Per permettere a ciascuno di proteggersi nel caso in cui l'altro pubblichi una vecchia transazione
 wrong_answers:
   - Per aumentare la capacità del canale
   - Per bloccare l'accesso ai fondi dell'altro
   - Per dividere i fondi equamente
 explanation: |
-  Lo scambio di segreti per le transazioni precedenti permette a ciascun partecipante di punire l'altro in caso di tentativo di truffa pubblicando una vecchia transazione.
-reviewed: false
+  Lo scambio di segreti per le precedenti commitment transaction, permette a ciascun partecipante di punire l'altro in caso di tentativo di truffa se tenta di pubblicare una vecchia transazione.
+reviewed: true

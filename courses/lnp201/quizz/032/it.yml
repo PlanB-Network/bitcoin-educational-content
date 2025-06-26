@@ -5,5 +5,5 @@ wrong_answers:
   - Garantire che ogni canale abbia fondi sufficienti
   - Calcolare automaticamente il percorso più breve
 explanation: |
-  Le fee di routing sono utilizzate per compensare i nodi intermedi che inoltrano i pagamenti offrendo la loro liquidità, che consente il trasferimento di fondi attraverso la rete.
+  Le fee di routing sono utilizzate per compensare i nodi intermedi che inoltrano i pagamenti offrendo la loro liquidità. Questo meccanismo consente il trasferimento di fondi attraverso la rete.
 reviewed: true

@@ -524,19 +524,19 @@ Ufunguo huu lazima uhifadhiwe kwa siri na ulindwe vizuri, kwani unafungua bahati
 
 Ufunguo wa umma unatolewa kutoka kwa ufunguo wa faragha uliounganishwa nao. Kushiriki ufunguo wa umma huleta hatari kwa faragha (kwa sababu watumiaji wengine wanaweza kuona salio lako) lakini si kwa usalama (kwa sababu hawawezi kutumia pesa zako bila kuwa na ufunguo wa faragha). Kwa upande wake, ufunguo wa umma hutumiwa kuunda anwani za Bitcoin, na hivyo kupokea pesa.
 
-Anwani hizi zinaundwa kiotomatiki na pochi yako na zinaweza kushirikishwa kwa usalama. Ili kuongeza faragha yako, unashauriwa kuzitumia mara moja tu.
+Anwani hizi zinaundwa kiotomatiki na wallet yako na zinaweza kushirikishwa kwa usalama. Ili kuongeza faragha yako, unashauriwa kuzitumia mara moja tu.
 
 Kwa muhtasari, teknolojia hii hutuwezesha kupokea bitcoins bila kumwezesha mpokeaji kuiba pesa zetu! Sanduku la barua linaweza kuwa sitiari inayofaa: watu wanaweza kuweka pesa ndani yake, lakini ni wewe pekee unayeweza kulifungua.
 
 ![image](assets/en/27.webp)
 
-### Je, bitcoins kwenye Wallet?
+### Je, kuna bitcoins kwenye Wallet?
 
-Ingawa funguo zako zimehifadhiwa kwenye Wallet yako, bitcoins zenyewe kwa hakika "zimehifadhiwa" katika Bitcoin Blockchain, ambayo ni Ledger inayosambazwa kwa umma ndani ya mtandao wa rika-kwa-rika wa Bitcoin (tutachunguza ndani yake katika sehemu ya 3). Hii ina maana kwamba kupoteza kifaa kilicho na pochi lako si lazima kusababisha hasara ya bitcoins zako. Kinachokuruhusu kuunda upya Wallet yako na kutumia Bitcoin yako ni ufunguo wa faragha, kwa hivyo kumbuka kila wakati kuulinda ipasavyo!
+Ingawa funguo zako zimehifadhiwa kwenye Wallet yako, bitcoins zenyewe kwa hakika "zimehifadhiwa" katika Bitcoin Blockchain, ambayo ni Ledger inayosambazwa kwa umma ndani ya mtandao wa rika-kwa-rika (P2P)  wa Bitcoin (tutachunguza ndani yake katika sehemu ya 3). Hii ina maana kwamba kupoteza kifaa kilicho na wallet lako si lazima kusababisha hasara ya bitcoins zako. Kinachokuruhusu kuunda upya Wallet yako na kutumia Bitcoin yako ni ufunguo wa faragha, kwa hivyo kumbuka kila wakati kuulinda ipasavyo!
 
 ![image](assets/en/28.webp)
 
-Kwa bahati nzuri, tangu 2017, ufunguo wa kibinafsi unaweza kuwakilishwa na orodha rahisi ya maneno 12 au 24, inayojulikana kama maneno ya 'Mnemonic, ambayo ni rahisi sana kuhifadhi. Maneno haya hutumika kama hifadhi ya pesa zako na hukuruhusu kuunda upya pochi lako kwa kutumia programu yoyote ya Bitcoin Wallet. Kwa hiyo, mtu yeyote anayepata orodha hii ya maneno anaweza kufikia bitcoins zako.
+Kwa bahati nzuri, tangu 2017, ufunguo wa kibinafsi unaweza kuwakilishwa na orodha rahisi ya maneno 12 au 24, inayojulikana kama maneno ya 'Mnemonic, ambayo ni rahisi sana kuhifadhi. Maneno haya hutumika kama hifadhi ya pesa zako na hukuruhusu kuunda upya wallet lako kwa kutumia programu yoyote ya Bitcoin Wallet. Kwa hiyo, mtu yeyote anayepata orodha hii ya maneno anaweza kufikia bitcoins zako.
 
 ### Vipi kuhusu wadukuzi?
 
@@ -546,9 +546,9 @@ Je, ikiwa mtu atakisia orodha yetu ya maneno 12 au 24 kwa bahati mbaya? Jibu fup
 
 Kwa hivyo, uwezekano wa kuvamia Bitcoin Wallet yako ni mdogo sana ikiwa utafuata mbinu bora za usalama ambazo tutazieleza kwa undani katika sehemu inayofuata.
 
-Kumbuka kuchagua Wallet inayofaa kwa mahitaji na matumizi yako: mafunzo ya kina kuhusu kudhibiti na kupata pochi tofauti yanapatikana katika [sehemu ya mafunzo ya chuo kikuu chetu](https://planb.network/tutorials/wallet).
+Kumbuka kuchagua Wallet inayofaa kwa mahitaji na matumizi yako: mafunzo ya kina kuhusu kudhibiti na kupata wallet tofauti yanapatikana katika [sehemu ya mafunzo ya chuo kikuu chetu](https://planb.network/tutorials/wallet).
 
-Ikiwa, wakati wa safari yako chini ya shimo la sungura, unataka kujifunza zaidi kuhusu kujenga Bitcoin Wallet, kutoka entropy hadi anwani za kupokea, tunapendekeza kozi ya CYP 201 iliyotolewa kwa mada hii:
+Ikiwa katika safari yako ya kuelewa Bitcoin kwa undani utataka kujifunza zaidi kuhusu jinsi ya kutengeneza wallet ya Bitcoin, kuanzia na entropy hadi kwenye anuani za kupokea pesa, tunapendekeza kozi ya CYP 201 inayozungumzia mada hii kwa kina
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Pochi za Bitcoin na Usalama
@@ -569,7 +569,7 @@ Kwa kweli hakuna jibu au suluhisho la jumla, kwa hivyo chukua muda kujibu maswal
 
 ![image](assets/en/30.webp)
 
-### Kufikiria juu ya pochi za Bitcoin kwa suala la ugumu
+### Kufikiria juu ya wallets za Bitcoin kwa suala la ugumu
 
 Hapa chini, tutafafanua viwango kadhaa vya usalama:
 
@@ -603,7 +603,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 ![image](assets/en/33.webp)
 
 
-- **Kiwango cha 4**, unatumia seti ya pochi kuunda "Multisig" Wallet, ambayo ina maana kwamba sahihi nyingi zinahitajika kufanya shughuli. Katika kesi hii, fahamu kwamba kila sehemu ya Multisig inapaswa kuhifadhiwa katika maeneo tofauti. Mbinu hii mara nyingi inachukuliwa kuwa matumizi ya hali ya juu ya Bitcoin, haswa kwa kudhibiti kiasi kikubwa na kwa madhumuni ya ushirika.
+- **Kiwango cha 4**, unatumia seti ya wallet kuunda "Multisig" Wallet, ambayo ina maana kwamba sahihi nyingi zinahitajika kufanya shughuli. Katika kesi hii, fahamu kwamba kila sehemu ya Multisig inapaswa kuhifadhiwa katika maeneo tofauti. Mbinu hii mara nyingi inachukuliwa kuwa matumizi ya hali ya juu ya Bitcoin, haswa kwa kudhibiti kiasi kikubwa na kwa madhumuni ya ushirika.
 
 ![image](assets/en/34.webp)
 
@@ -696,9 +696,9 @@ Vile vile, epuka kushiriki hadharani maelezo kuhusu mfumo wako wa usalama wakati
 Pochi za Bitcoin ni vipande vya programu vinavyokuwezesha kuhifadhi bitcoins na kufanya miamala. Kuna aina kadhaa:
 
 
-- pochi za rununu au PC, rahisi kwa kiasi kidogo na / au gharama za kawaida;
-- pochi za kimwili, zinazofaa zaidi kwa kuhifadhi bitcoins kwa muda wa kati na mrefu;
-- Pochi za Multisig, ambazo ni ngumu zaidi kudhibiti na zinahitaji sahihi nyingi ili kufanya miamala.
+- wallet za rununu au PC, rahisi kwa kiasi kidogo na / au gharama za kawaida;
+- wallet za kimwili, zinazofaa zaidi kwa kuhifadhi bitcoins kwa muda wa kati na mrefu;
+- wallet za Multisig, ambazo ni ngumu zaidi kudhibiti na zinahitaji sahihi nyingi ili kufanya miamala.
 
 Wakati wa kuunda Wallet, lazima kwanza uhifadhi orodha yako ya maneno 12 au 24 kwenye kipande cha karatasi au sahani ya chuma. Kifungu hiki cha maneno kinachojulikana kama Mnemonic hukuruhusu kurejesha pochi lako kupitia programu yoyote ya Bitcoin Wallet. Fahamu kuwa mtu yeyote anayepata ufikiaji wa orodha hii pia anapata ufikiaji wa pesa zako.
 
@@ -709,7 +709,7 @@ Katika ulimwengu wa Bitcoin, mamlaka ya kifedha yanahusishwa kwa karibu na wajib
 - Epuka kuacha Bitcoins zako kwenye majukwaa ya kubadilishana kwani zinaweza kushambuliwa na wadukuzi.
 - Badilisha kiwango chako cha usalama kulingana na mahitaji yako na kesi za matumizi, ili kuchagua vyema kati ya pochi tofauti za Bitcoin zinazopatikana.
 
-Kwa kuwa sasa tumeshughulikia misingi ya pochi za Bitcoin na mbinu bora zaidi za kuzilinda, katika sura inayofuata tutachunguza vipengele vya kiufundi vya Bitcoin. Kwa mara nyingine tena, kuelewa misingi ya itifaki ya Bitcoin kutaongeza ufahamu wako wa jinsi inavyofanya kazi, na kukupa uwezo wa kuitumia vyema.
+Kwa kuwa sasa tumeshughulikia misingi ya wallets za Bitcoin na mbinu bora zaidi za kuzilinda, katika sura inayofuata tutachunguza vipengele vya kiufundi vya Bitcoin. Kwa mara nyingine tena, kuelewa misingi ya itifaki ya Bitcoin kutaongeza ufahamu wako wa jinsi inavyofanya kazi, na kukupa uwezo wa kuitumia vyema.
 
 # Vipengele vya Kiufundi vya Bitcoin.
 
@@ -725,11 +725,11 @@ Kwa kuwa sasa tumeshughulikia misingi ya pochi za Bitcoin na mbinu bora zaidi za
 
 Tarehe 31 Oktoba 2008 inaashiria kuzaliwa kwa teknolojia mpya ya kifedha ambayo ni Bitcoin. Siku hii, Satoshi Nakamoto ambaye jina lake halijulikani aliwasilisha ubunifu wake kwa ulimwengu kupitia barua pepe iliyotumwa kwa orodha ya cypherpunks, jumuiya ya wapenzi wa cryptography iliyojitolea kukuza faragha kwenye mtandao. Barua pepe hii ilikuwa na hati inayoitwa "White Paper", ambayo iliwasilisha jinsi Bitcoin ilivyofanya kazi.
 
-Mpango huu haukuwa na shauku ya kuzalisha mara moja, labda kwa sababu ya kushindwa hapo awali katika majaribio ya kuunda mifumo ya fedha za kidigitali. Hata hivyo, Karatasi hii Nyeupe hatimaye ikawa rejeleo la watumiaji wa Bitcoin na imekuwa mada ya mijadala mingi katika mfumo wa ikolojia wa Bitcoin kwa miaka mingi.
+Mpango huu haukuwa na shauku ya kuzalisha mara moja, labda kwa sababu ya kushindwa hapo awali katika majaribio ya kuunda mifumo ya fedha za kidigitali. Hata hivyo, Karatasi hii Nyeupe (Whitepaper) hatimaye ikawa rejeleo la watumiaji wa Bitcoin na imekuwa mada ya mijadala mingi katika mfumo wa ikolojia wa Bitcoin kwa miaka mingi.
 
 ![image](assets/en/40.webp)
 
-Mnamo Januari 3, 2009, Satoshi alizindua rasmi mtandao wa Bitcoin kwa kuunda block ya kwanza, inayojulikana pia kama "Genesis block", ambayo iliashiria uzinduzi wa Bitcoin Blockchain. Kitalu hiki kina ujumbe wa kufichua unaoangazia dhamira ya Bitcoin: "03/jan/2009 Chansela anayekaribia kupata dhamana ya pili kwa benki."
+Mnamo Januari 3, 2009, Satoshi alizindua rasmi mtandao wa Bitcoin kwa kuunda bloku ya kwanza, inayojulikana pia kama "Genesis block", ambayo iliashiria uzinduzi wa Bitcoin Blockchain. Kitalu hiki kina ujumbe wa kufichua unaoangazia dhamira ya Bitcoin: "03/jan/2009 Chansela anayekaribia kupata dhamana ya pili kwa benki."
 
 ![image](assets/en/41.webp)
 

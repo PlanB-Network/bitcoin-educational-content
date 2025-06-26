@@ -13,9 +13,9 @@ Bitkit is a self-custodial mobile wallet empowering you to take true ownership o
 
 ## Tutorial video
 
-![video tuto](https://www.youtube.com/watch?v=FJ3Mqqz4Dmw)
+![video tuto](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
-## guide
+## Guide
 
 Bitkit is really really easy to use.
 
@@ -43,6 +43,9 @@ Live Widgets: Add a touch of fun and utility to your wallet home screen with eng
 Social Profile: Take control of your public profile and links, so your contacts can reach out and pay you at any time.
 
 Passwordless Accounts: Log in to websites that support Slashtags or Lightning authentication.
+QuickPay: Set a custom limit for Lightning payments under $50, and any invoice below that is paid instantly—no swipes, no delays. Perfect for coffee runs or splitting bills.
+Shop: Pay for Netflix, Airbnb, groceries, mobile data, and more, with Bitcoin, right inside Bitkit.
+No banks. No friction.
 
 ![cover](assets/2.webp)
 
@@ -65,4 +68,3 @@ Address Type: Receive payments through Legacy, Nested Segwit, or Native Segwit a
 Buying or selling bitcoin
 Bitkit doesn't support buying and selling bitcoin. To buy or sell, use exchanges like Bitfinex, then send to or from Bitkit.
 
-Full guide coming up

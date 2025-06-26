@@ -5,5 +5,5 @@ wrong_answers:
   - Un numero illimitato di transazioni senza conferma
   - Un collegamento diretto con ogni altro nodo della rete
 explanation: |
-  La tecnica della triangolazione  permette a ciascun nodo di ottenere una liquidità bilanciata, sia in entrata che in uscita, formando un anello di canali tra vari partecipanti.
+  La tecnica della triangolazione, permette a ciascun nodo di ottenere una liquidità bilanciata sia in entrata che in uscita, formando un anello di canali tra vari partecipanti.
 reviewed: true

@@ -1480,11 +1480,11 @@ Il software Open Source chiamato Ride the Lightning è uno strumento di gestione
 
 #### Full node P2P
 
-Gli amministratori del server potrebbero voler collegare il loro nodo Bitcoin con un wallet mobile. Questa pagina espone informazioni per connettersi da remoto al tuo Full node tramite il protocollo P2P. Al momento, BTCPay Server elenca Blockstream Green e Wasabi wallet come wallet compatibili. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
+Gli amministratori del server potrebbero voler collegare il loro nodo Bitcoin con un wallet mobile. Questa pagina espone informazioni per connettersi da remoto al tuo Full Node tramite il protocollo P2P. Al momento, BTCPay Server elenca Blockstream Green e Wasabi wallet come wallet compatibili. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
 
 #### Full node RPC
 
-Questa pagina espone informazioni per connettersi da remoto al tuo Full node tramite il protocollo RPC.
+Questa pagina espone informazioni per connettersi da remoto al tuo Full Node tramite il protocollo RPC.
 
 #### SSH
 
@@ -1498,9 +1498,9 @@ Nota che devi configurare correttamente il tuo NAT e l'installazione di BTCPay S
 
 ### Temi
 
-BTCPay Server, come standard, viene fornito con due temi: modalità Chiara e Scura. È possibile passare da una all'altra cliccando su Account in basso a sinistra e alternando tra tema Scuro o tema Chiaro. Gli amministratori di BTCPay Server possono aggiungere il loro tema fornendo un tema CSS personalizzato.
+BTCPay Server, come standard, viene fornito con due temi: modalità Chiara o Scura. È possibile passare da una all'altra cliccando su "Account" in basso a sinistra e alternando tra tema Chiaro o tema Scuro. Gli amministratori di BTCPay Server possono aggiungere il loro tema fornendo un tema CSS personalizzato.
 
-Gli amministratori possono estendere il tema Chiaro/Scuro aggiungendo il proprio CSS personalizzato o impostando il loro tema personalizzato come completo.
+Gli amministratori possono estendere il tema Chiaro/Scuro aggiungendo il proprio CSS personalizzato o impostando il loro tema completamente personalizzato.
 
 ![immagine](assets/en/83.webp)
 
@@ -1512,15 +1512,15 @@ Gli amministratori del server possono cambiare il branding di BTCPay Server impo
 
 ### Manutenzione
 
-Come amministratore del server, i tuoi utenti si aspettano che tu ti prenda cura del Server. All'interno della scheda Manutenzione di BTCPay Server, l'amministratore può eseguire manutenzioni essenziali. Impostare il nome di dominio per l'istanza di BTCPay Server, Riavviare o pulire il Server. Forse più importante, eseguire aggiornamenti.
+Come amministratore del server, i tuoi utenti si aspettano che tu ti prenda cura del Server. All'interno della scheda Manutenzione di BTCPay Server, l'amministratore può eseguire manutenzioni essenziali. Impostare il nome di dominio per l'istanza di BTCPay Server, Riavviare o pulire il Server. Forse più importante, eseguire gli aggiornamenti.
 
-BTCPay Server è un progetto Open Source e si aggiorna frequentemente. Ogni nuova release viene annunciata sia con le tue notifiche di BTCPay Server sia sui canali ufficiali attraverso i quali BTCPay Server comunica.
+BTCPay Server è un progetto Open Source e si aggiorna frequentemente. Ogni nuova release viene annunciata sia tramite le notifiche di BTCPay Server sia sui canali ufficiali attraverso i quali BTCPay Server comunica.
 
 ![immagine](assets/en/85.webp)
 
 #### Nome del dominio
 
-Dopo aver configurato BTCPay Server, un amministratore potrebbe voler cambiare il suo Dominio originale. All'interno della scheda Manutenzione, l'amministratore può cambiare il Dominio. Dopo aver cliccato conferma e impostato i corretti record DNS sul Dominio, BTCPay Server si aggiorna e riavvia per tornare al nuovo Dominio.
+Dopo aver configurato BTCPay Server, un amministratore potrebbe voler cambiare il suo Dominio originale. All'interno della scheda Manutenzione, l'amministratore può cambiaro. Dopo aver cliccato conferma e impostato i corretti record DNS sul Dominio, BTCPay Server si aggiorna e riavvia per andare sul nuovo Dominio.
 
 ![immagine](assets/en/86.webp)
 
@@ -1532,7 +1532,7 @@ Riavvia BTCPay Server e i servizi correlati.
 
 #### Pulisci
 
-BTCPay Server funziona con componenti Docker; con gli aggiornamenti, potrebbero rimanere residui di immagini Docker, file temporanei, ecc. Gli amministratori del server possono pulirli e recuperare spazio nel loro ambiente eseguendo lo script di pulizia.
+BTCPay Server funziona con componenti Docker e quindi con gli aggiornamenti, potrebbero rimanere residui di immagini Docker, file temporanei, ecc. Gli amministratori del server possono pulirli e recuperare spazio nel loro ambiente eseguendo lo script di pulizia.
 
 ![image](assets/en/88.webp)
 

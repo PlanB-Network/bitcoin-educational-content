@@ -4,11 +4,11 @@ description: Come etichettare correttamente i tuoi UTXO?
 ---
 ![cover](assets/cover.webp)
 
-In questo tutorial scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sulla gestione degli stessi. Iniziamo con una sezione teorica per comprendere appieno questi concetti, prima di passare a una parte pratica in cui esploreremo come utilizzare concretamente le etichette nel principale software di portafoglio Bitcoin.
+In questo tutorial scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sulla gestione degli stessi. Iniziamo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principale wallet Bitcoin.
 
 ## Cos'è l'etichettatura UTXO?
 
-L’etichettatura è una tecnica che permette di aggiungere un’annotazione, o “etichetta”, a uno specifico UTXO all’interno del proprio portafoglio Bitcoin. Queste etichette vengono salvate localmente dal software del portafoglio e non sono mai trasmesse sulla rete Bitcoin. Si tratta quindi di uno strumento privato di organizzazione personale.
+"L’etichettatura" è una tecnica che permette di aggiungere un’annotazione, o etichetta, a uno specifico UTXO all’interno del proprio portafoglio Bitcoin. Queste etichette vengono salvate localmente dal software del portafoglio e non sono mai trasmesse sulla rete Bitcoin. Si tratta quindi di uno strumento privato di organizzazione personale.
 
 Ad esempio, se ricevo un UTXO da una transazione P2P effettuata su Bisq con Charles, potrei etichettarlo come Acquisto P2P Bisq con Charles.
 
@@ -27,18 +27,19 @@ Un criterio fondamentale nell'etichettatura è la fonte dell'UTXO. Dovresti semp
 - `Acquisto P2P Charles`;
 - `Resto dall'acquisto del divano`.
 ![labelling](assets/it/1.webp)
-Per affinare la gestione dei tuoi UTXO e migliorare l' organizzazione dei fondi all'interno del tuo portafoglio, potresti aggiungere alle tue etichette un indicatore che rifletta queste separazioni. Se il tuo portafoglio contiene due categorie di UTXO che non vuoi mescolare, potresti integrare un marcatore nelle etichette per distinguere chiaramente questi gruppi.
+Per gestire meglio i tuoi UTXO e organizzare in modo più efficiente i fondi nel portafoglio, puoi aggiungere alle etichette un indicatore che ne evidenzi la funzione. Se hai UTXO destinati a usi diversi e preferisci non mescolarli, puoi includere un identificatore nelle etichette per distinguerli facilmente.
 
-Questi marcatori di separazione dipenderanno dai tuoi criteri, come la distinzione tra UTXO KYC (che conosce la tua identità) e no-KYC (anonimo), o tra fondi professionali e personali. Prendendo gli esempi di etichette precedentemente menzionati, questo potrebbe essere tradotto come:
+
+Questi indicatori dipenderanno dai tuoi criteri, come la distinzione tra UTXO KYC (che conosce la tua identità) e no-KYC (anonimo), o tra fondi professionali e personali. Prendendo gli esempi di etichette precedentemente menzionati, questo potrebbe essere tradotto come:
 - `KYC - Prelievo Exchange.com`;
 - `KYC - Pagamento Cliente David`;
 - `NO KYC - Acquisto P2P Charles`;
 - `NO KYC - Resto dall'acquisto del divano`.
 In ogni caso, tenete presente che un'etichettatura valida è quella che sarete in grado di comprendere quando ne avrete bisogno. Se il vostro portafoglio Bitcoin è principalmente destinato al risparmio, potrebbe essere che le etichette saranno utili solo tra diversi anni. Assicuratevi dunque che siano chiare, precise e complete.
 
-È inoltre consigliabile mantenere il marcatore dell'etichettatura di un UTXO attraverso le transazioni. Ad esempio, durante una consolidamento UTXO no-KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come `consolidamento`, ma specificamente come `consolidamento no-KYC` per mantenere una traccia chiara dell'origine della moneta.
+È inoltre consigliabile mantenere l'identificatore dell'etichetta di un UTXO attraverso le transazioni. Ad esempio, durante una consolidamento UTXO no-KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come `consolidamento`, ma specificamente come `consolidamento no-KYC` per mantenere una traccia chiara dell'origine della moneta.
 
-Infine, non è necessario mettere una data su un'etichetta. La maggior parte dei software per portafogli mostra già la data della transazione, ed è sempre possibile recuperare queste informazioni su un block explorer utilizzando il suo TXID.
+Infine, non è necessario mettere una data su un'etichetta. La maggior parte dei software per portafogli mostra già la data della transazione, ed è sempre possibile recuperare queste informazioni con un block explorer utilizzando il suo TXID.
 
 ## Tutorial: Etichettatura su Specter Desktop
 

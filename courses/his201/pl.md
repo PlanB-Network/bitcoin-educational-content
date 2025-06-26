@@ -675,26 +675,26 @@ Ze swojej strony Satoshi kończy przygotowania do upublicznienia swojego wynalaz
 ### Publikacja białej księgi
 
 
-W dniu 31 października 2008 r. Satoshi Nakamoto publikuje [pierwszą wersję białej księgi](assets/pdf/Bitcoin-20081003.pdf) na liście mailingowej poświęconej kryptografii, zwanej po prostu "listą mailingową kryptografii" Lista ta jest zarządzana przez programistę Perry'ego Metzgera od 1996 roku, czyli od momentu jej [utworzenia](https://cypherpunks.venona.com/date/1996/12/msg00102.html), a od [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) jest hostowana na jego osobistej stronie Metdowd.com. Jest to następca listy cypherpunks, z tą różnicą, że podlega ścisłej moderacji. W 2008 roku, kilku byłych cypherpunks nadal uczestniczyło, takich jak John Gilmore, Hal Finney i Len Sassaman.
+W dniu 31 października 2008 r. Satoshi Nakamoto publikuje [pierwszą wersję białej księgi](assets/pdf/Bitcoin-20081003.pdf) na liście mailingowej poświęconej kryptografii, zwanej po prostu „listą mailingową kryptografii”. Lista ta jest zarządzana przez programistę Perry'ego Metzgera od 1996 roku, czyli od momentu jej [utworzenia](https://cypherpunks.venona.com/date/1996/12/msg00102.html), a od [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) jest hostowana na jego osobistej stronie Metdowd.com. Jest to następca listy cypherpunks, z tą różnicą, że podlega ścisłej moderacji. W 2008 roku nadal uczestniczyło w niej kilku byłych cypherpunków np. John Gilmore, Hal Finney i Len Sassaman.
 
 
 W swoim pierwszym [emailu](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) skierowanym do listy, Satoshi pisze po prostu:
 
 
-> "Pracowałem nad nowym elektronicznym systemem gotówkowym, który jest w pełni peer-to-peer, bez zaufanej strony trzeciej"
+> „Pracowałem nad nowym elektronicznym systemem gotówkowym, który jest w pełni peer-to-peer bez zaufanej strony trzeciej”
 
-Wymienia również główne właściwości jego modelu:
-
-
-
-- "Double-spending jest blokowany przez sieć peer-to-peer"
-- "Brak mięty lub innych zaufanych stron"
-- "Uczestnicy mogą być anonimowi"
-- "Nowe jednostki są wykonane z Proof-of-Work w stylu Hashcash"
-- "Proof-of-Work wykorzystywany do generowania nowych jednostek pozwala również sieci zapobiegać Double-spending"
+Wymienia również główne właściwości swojego modelu:
 
 
-W swoim e-mailu zawarł link do białej księgi, już hostowanej na Bitcoin.org, która jest krótkim 9-stronicowym dokumentem, przedstawionym jako artykuł naukowy, opisujący techniczne działanie Bitcoin. Dokument ten koncentruje się na problemie płatności online.
+
+- „Podwójne wydatkowanie jest blokowane przez sieć peer-to-peer”
+- „Brak mennicy lub innych zaufanych stron trzecich”
+- „Uczestnicy mogą być anonimowi”
+- „Nowe jednostki są tworzone przez Dowód Pracy w stylu Hashcash”
+- „Dowód Pracy wykorzystywany do generowania nowych jednostek pozwala również sieci zapobiegać podwójnemu wydatkowaniu”
+
+
+W swoim e-mailu zawarł link do białej księgi, już hostowanej na Bitcoin.org, która jest krótkim 9-stronicowym dokumentem, przedstawionym jako artykuł naukowy, opisującym techniczne działanie Bitcoina. Dokument ten koncentruje się na problemie płatności online.
 
 
 ![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
@@ -704,14 +704,14 @@ Po tym ogłoszeniu Satoshi otrzymuje kilka odpowiedzi, ale większość z nich j
 
 
 
-- Po pierwsze, Cypherpunk James A. Donald [kwestionuje](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) skalowalność systemu, mówiąc, że "nie wydaje się skalować do wymaganego rozmiaru" Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html), że "przepustowość może nie być tak wygórowana, jak myślisz"
-- Drugi negatywny komentarz pochodzi od Johna R. Levine'a, autora książki *Internet dla opornych* i konsultanta specjalizującego się w infrastrukturze poczty elektronicznej, filtrowaniu spamu i patentach na oprogramowanie. Krytykuje on [https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html] bezpieczeństwo Bitcoin, wspominając o mocy obliczeniowej posiadanej przez "farmy maszyn zombie" złożone z komputerów kontrolowanych przez hakerów. W szczególności wskazuje, że w Internecie "ci dobrzy mają znacznie mniej mocy obliczeniowej niż ci źli" Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html) błyskotliwie: "Wymóg jest taki, że ci dobrzy mają łącznie większą moc obliczeniową niż jakikolwiek pojedynczy atakujący"
+- Po pierwsze, Cypherpunk James A. Donald [kwestionuje](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) skalowalność systemu, mówiąc, że „nie wydaje się skalować do wymaganego rozmiaru” Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html), że „przepustowość może nie być tak ograniczająca, jak myślisz”
+- Drugi negatywny komentarz pochodzi od Johna R. Levine'a, autora książki *Internet dla opornych* i konsultanta specjalizującego się w infrastrukturze poczty elektronicznej, filtrowaniu spamu i patentach na oprogramowanie. Krytykuje on [https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html] bezpieczeństwo Bitcoina, wspominając o mocy obliczeniowej posiadanej przez „farmy maszyn zombie” złożone z komputerów kontrolowanych przez hakerów. W szczególności wskazuje, że w Internecie „ci dobrzy mają znacznie mniej mocy obliczeniowej niż ci źli” Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html) błyskotliwie: „Wymóg jest taki, żeby ci dobrzy mieli łącznie większą moc obliczeniową niż jakikolwiek pojedynczy atakujący”.
 
 
 
-- Wreszcie, osoba o imieniu Ray Dillinger (używająca pseudonimu bear) [zastanawia się](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) nad wartością jednostki rozliczeniowej, ubolewając nad faktem, że "obliczeniowe dowody pracy nie mają wewnętrznej wartości" i krytykując ich inflacyjny charakter z powodu technicznej ewolucji sprzętu komputerowego. Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html), że "wzrost szybkości sprzętu jest uwzględniany" przez okresowe dostosowywanie trudności produkcji.
+- Wreszcie, osoba o imieniu Ray Dillinger (używająca pseudonimu bear) [zastanawia się](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) nad wartością jednostki rozliczeniowej, ubolewając nad faktem, że „obliczeniowe dowody pracy nie mają wewnętrznej wartości” i krytykując ich inflacyjny charakter z powodu technicznej ewolucji sprzętu komputerowego. Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html), że „wzrost szybkości sprzętu jest uwzględniany” przez okresowe dostosowywanie trudności produkcji.
 
-Mimo że na liście dominuje sceptycyzm, nie podzielają go wszyscy subskrybenci. W szczególności jedna osoba wyróżnia się na tle innych swoim entuzjazmem: Hal Finney, który ma optymistyczne spojrzenie na przyszłość i który nigdy nie zrezygnował z idei elektronicznej gotówki, pomimo niepowodzeń w latach 90-tych. Kilka lat później [stwierdził](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) w tej sprawie, że "kryptograficzne szaraki [...] mają tendencję do cynizmu", ale on "był bardziej idealistyczny", ponieważ "zawsze kochał kryptografię, jej tajemnicę i paradoks" (*oryg: "Zauważyłem, że kryptograficzne szaraki (byłem w połowie lat 50-tych) mają tendencję do cynizmu. Ja byłem bardziej idealistyczny; zawsze kochałem kryptowaluty, ich tajemnicę i paradoks.") Tak więc 7 listopada napisał w [e-mailu](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) do listy, że "Bitcoin wydaje się być bardzo obiecującym pomysłem" i porównuje model Satoshi do bit gold Nicka Szabo. (*oryginał: "Bitcoin wydaje się być bardzo obiecującym pomysłem.")
+Mimo że na liście dominuje sceptycyzm, nie podzielają go wszyscy subskrybenci. W szczególności jedna osoba wyróżnia się na tle innych swoim entuzjazmem: Hal Finney, który ma optymistyczne spojrzenie na przyszłość i który nigdy nie zrezygnował z idei elektronicznej gotówki, pomimo niepowodzeń w latach 90-tych. Kilka lat później [stwierdził](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) w tej sprawie, że „kryptograficzne szaraki [...] mają tendencję do cynizmu”, ale on „był bardziej idealistyczny”, ponieważ „zawsze kochał kryptografię, jej tajemnicę i paradoks” (*oryg: „I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of it.”) Tak więc 7 listopada napisał w [e-mailu](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) do listy, że „Bitcoin wydaje się być bardzo obiecującym pomysłem” i porównuje model Satoshiego do bit gold Nicka Szabo. (*oryginał: „Bitcoin seems to be a very promising idea.”)
 
 
 ![Hal Finney in 2007](assets/en/22.webp)

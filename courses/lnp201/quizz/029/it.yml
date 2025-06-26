@@ -6,4 +6,4 @@ wrong_answers:
   - Quando le commissioni sulle transazioni sono troppo alte
 explanation: |
   La chiusura forzata viene utilizzata come ultima risorsa se una delle parti, ad esempio a causa di un problema tecnico, non risponde più ai messaggi dell'altra.
-reviewed: false
+reviewed: true

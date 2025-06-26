@@ -1550,11 +1550,11 @@ Identificare il problema è cruciale.
 
 #### Riplicare il problema
 
-Prima di tutto, prova a determinare quando si verifica il problema. Prova a riprodurre il problema. Prova ad aggiornare e riavviare il tuo Server per verificare che tu possa riprodurre il problema. Se descrive meglio il tuo problema, scatta uno screenshot.
+Prima di tutto, prova a determinare quando si verifica il problema. Prova a riprodurre il problema. Prova ad aggiornare e riavviare il tuo Server per verificare che tu possa riprodurre il problema. Per descrivere meglio il tuo problema, scatta uno screenshot.
 
 ##### Aggiornare il server
 
-Controlla la versione di BTCPay Server se è molto più vecchia dell'[ultima versione](https://github.com/btcpayserver/btcpayserver/releases) di BTCPay Server. Aggiornare il tuo Server potrebbe risolvere il problema.
+Controlla la versione di BTCPay Server se è molto più vecchia dell'[ultima versione](https://github.com/btcpayserver/btcpayserver/releases) di BTCPay Server, aggiorna il tuo Server, ciò potrebbe risolvere il problema.
 
 ##### Riavviare il server
 
@@ -1562,7 +1562,7 @@ Riavviare il tuo Server è un modo semplice per risolvere molti dei problemi pi�
 
 ##### Riavviare un servizio
 
-Per alcuni problemi, potrebbe essere necessario riavviare solo un particolare servizio nel tuo deployment di BTCPay Server. Ad esempio, riavviare il container lets encrypt per rinnovare il certificato SSL.
+Per alcuni problemi, potrebbe essere necessario riavviare solo un particolare servizio nel "deployment" di BTCPay Server. Ad esempio, riavviare il container "letsencrypt" per rinnovare il certificato SSL.
 
 ```bash
 sudo su -
@@ -1570,7 +1570,7 @@ cd btcpayserver-docker
 docker restart letsencrypt-nginx-proxy-companion
 ```
 
-Usa docker ps per trovare il nome di un diverso servizio che vorresti riavviare.
+Usa docker "ps" per trovare il nome di un diverso servizio che vorresti riavviare.
 
 #### Esaminare i log
 
@@ -1578,9 +1578,9 @@ I log possono fornire un pezzo di informazione essenziale. Nei paragrafi seguent
 
 ##### Log di BTCPay
 
-Dalla versione v1.0.3.8, puoi facilmente accedere ai log di BTCPay Server dall'interfaccia utente. Se sei un amministratore del server, vai su Impostazioni Server > Log e apri il file dei log. Se non sai cosa significa un particolare errore nei log, menzionalo durante la risoluzione dei problemi.
+Dalla versione 1.0.3.8, puoi facilmente accedere ai log di BTCPay Server dall'interfaccia utente. Se sei un amministratore del server, vai su "Impostazioni Server > Log" e apri il file dei log. Se non sai cosa significa un particolare errore nei log, menzionalo durante la risoluzione dei problemi.
 
-Se desideri log più dettagliati e stai utilizzando un deployment Docker, puoi visualizzare i log di specifici container Docker utilizzando la riga di comando. Vedi queste [istruzioni per accedere via ssh](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) a un'istanza di BTCPay in esecuzione su un VPS.
+Se desideri log più dettagliati e stai utilizzando un "deployment Docker", puoi visualizzare i log di specifici "container Docker" utilizzando la riga di comando. Vedi queste [istruzioni per accedere via ssh](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) a un'istanza di BTCPay in esecuzione su un [VPS Private Server)](https://it.wikipedia.org/wiki/Virtual_private_server).
 
 Nella pagina successiva trovi un elenco generale dei nomi dei container utilizzati per BTCPay Server.
 
@@ -1646,7 +1646,7 @@ lnd.log lnd.log.13 lnd.log.15 lnd.log.16.gz lnd.log.17.gz
 
 Per accedere ai log non compressi di questi log fai `cat lnd.log` o se ne vuoi un altro, usa `cat lnd.log.15`.
 
-Per accedere ai log compressi in `.gzip` usa `gzip -d lnd.log.16.gz` (in questo caso stiamo accedendo a `lnd.log.16.gz`). Questo dovrebbe darti un nuovo file, dove puoi fare `cat lnd.log.16`. Nel caso il sopra non funzioni, potresti aver bisogno di installare prima gzip con `sudo apt-get install gzip`.
+Per accedere ai log compressi in `.gzip` usa `gzip -d lnd.log.16.gz` (in questo caso stiamo accedendo a `lnd.log.16.gz`). Questo dovrebbe darti un nuovo file, dove puoi fare `cat lnd.log.16`. Nel caso il comando precedente non funzioni, potresti aver bisogno di installare prima "gzip" con `sudo apt-get install gzip`.
 
 ###### Lightning Network c-lightning - Docker
 
@@ -1671,9 +1671,9 @@ bitcoin-lightning-cli.sh getlog
 
 #### Log del Nodo Bitcoin
 
-In aggiunta a [guardare i log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) del tuo container Bitcoind, puoi anche usare uno qualsiasi dei [comandi bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
+In aggiunta a [osservare i log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) del tuo container Bitcoind, puoi anche usare uno qualsiasi dei [comandi bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
-[(apre una nuova finestra)](https://developer.bitcoin.org/reference/rpc/index.html) per ottenere informazioni dal tuo nodo bitcoin. BTCPay include uno script per permetterti di comunicare facilmente con il tuo nodo Bitcoin.
+[(Apre una nuova finestra)](https://developer.bitcoin.org/reference/rpc/index.html) per ottenere informazioni dal tuo nodo Bitcoin. BTCPay include uno script per permetterti di comunicare facilmente con il tuo nodo Bitcoin.
 
 All'interno della cartella btcpayserver-docker, ottieni le informazioni sulla blockchain usando il tuo nodo:
 
@@ -1683,8 +1683,8 @@ bitcoin-cli.sh getblockchaininfo
 
 ### File
 
-BTCPay Server dispone di un file system locale e consente di caricare direttamente sul server gli asset dei prodotti (Store), i loghi e il branding. Il file system del server è accessibile solo agli amministratori del server; i proprietari dei negozi possono caricare i loro loghi/branding a livello di negozio.
-Quando l'amministratore del server si trova nella scheda Archiviazione File, è possibile caricare direttamente sul proprio server o cambiare il provider di archiviazione file in un sistema di file locale o in Azure Blob Storage.
+BTCPay Server dispone di un file system locale e consente di caricare direttamente sul server gli asset dei prodotti (Store), i loghi e il branding. Il file system del server è accessibile solo agli amministratori del server, mentre i proprietari dei negozi possono caricare i loro loghi/branding a livello di negozio.
+Quando l'amministratore del server si trova nella scheda "Archiviazione File", ha la possibilità di caricare direttamente sul proprio server o modificare il provider di archiviazione dei file in un sistema di file locale o in Azure Blob Storage.
 
 ![immagine](assets/en/90.webp)
 
@@ -1694,18 +1694,18 @@ Quando l'amministratore del server si trova nella scheda Archiviazione File, è 
 
 In questa sezione, hai appreso quanto segue:
 
-- La differenza tra le impostazioni di Store e Server, in particolare per quanto riguarda Utenti, Ruoli ed Email
+- La differenza tra le impostazioni come "Store" e come "Server", in particolare per quanto riguarda Utenti, Ruoli ed Email
 - Impostare politiche a livello di server per l'uso e la creazione di hot wallet Lightning o Bitcoin on chain, la registrazione di nuovi utenti e le notifiche email.
 - Come aggiungere temi personalizzati (invece delle semplici opzioni chiaro/scuro) così come creare loghi personalizzati
 - Eseguire semplici compiti di manutenzione del server tramite l'interfaccia grafica fornita
-- Risolvere problemi, inclusa la ricerca di dettagli per uno qualsiasi dei contenitori Docker o il proprio nodo
+- Risolvere problemi, inclusa la ricerca di dettagli per uno qualsiasi dei contenitori Docker o del proprio nodo
 - Gestire l'archiviazione dei file
 
 ### Valutazione delle Conoscenze
 
 #### Revisione Concettuale KA
 
-Qual è la differenza nei Ruoli assegnati tramite le Impostazioni del Server rispetto a quelle del Store, e descrivere un possibile uso per l'uno rispetto all'altro?
+Qual è la differenza nei Ruoli assegnati tramite le Impostazioni del Server rispetto a quelle dello Store, e descrivere un possibile uso per l'uno rispetto all'altro?
 
 #### Revisione Pratica KA
 

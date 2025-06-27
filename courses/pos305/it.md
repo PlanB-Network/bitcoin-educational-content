@@ -2435,7 +2435,7 @@ Umbrel richiederà la verifica delle parole appena annotate.
 
 **!Nota!**
 
-Assicurati di conservare le parole in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi.
+Assicurati di conservare le parole in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi [(vedi anche tutorial specifico)](https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270).
 
 Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che sarà richiesto l'accesso a questi dati anche da BTCPay Server.
 

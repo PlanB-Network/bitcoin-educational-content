@@ -797,31 +797,31 @@ Katika hatua hii, muamala umeundwa na pochi ya Bob itashiriki na mtandao wa Bitc
 
 Kwa wakati huu, ingawa muamala huu unajulikana kwa kila mtu (kupitia chombo kinachoitwa Mempool), hauwezi kuchukuliwa kuwa umethibitishwa hadi uingizwe kwenye kizuizi na mchimbaji, ambaye ndiye pekee anayeidhinisha miamala kwa kuwajumuisha kwenye Blockchain.
 
-Kwa kweli, wachimbaji madini wana jukumu la kukusanya miamala halali na ambayo haijathibitishwa ili kuzikusanya kwenye kizuizi. Kwa kifupi, lazima watatue fumbo la siri katika mchakato unaoitwa "Proof of Work" ili kizuizi chao kiwe kinachofuata katika Bitcoin Blockchain.
+Kwa kweli, wachimbaji  wana jukumu la kukusanya miamala halali na ambayo haijathibitishwa ili kuzikusanya kwenye bloku. Kwa kifupi, lazima watatue fumbo la siri katika mchakato unaoitwa "Proof of Work" ili bloku yao iwe inachofuata katika Bitcoin Blockchain.
 
 ![image](assets/en/48.webp)
 
-### Hatua ya 3: Muamala unachimbwa kwenye kizuizi na Miner.
+### Hatua ya 3: Muamala unachimbwa kwenye bloku na Miner.
 
-Mfumo wa Proof of Work unahitaji kupata "Hash" halali kwa kizuizi kinachohusika: ifikirie kama alama ya kidole ya kipekee inayohusishwa na kizuizi, kinachojumuisha herufi 256. Uhalali wa hii Hash inategemea kiwango cha ugumu wa mtandao wa Bitcoin (tutaingia katika maelezo zaidi baadaye). Kwa sasa, zingatia kwamba Miner imepata kizuizi halali, na kwamba shughuli ya Bob kwa Alice imejumuishwa ndani yake. Kisha, kizuizi kipya halali kinaongezwa kwa Blockchain, Ledger ya kawaida kwa watumiaji wote wa Bitcoin.
+Mfumo wa Proof of Work unahitaji kupata "Hash" halali kwa bloku inachohusika: ifikirie kama alama ya kidole ya kipekee inayohusishwa na bloku, inachojumuisha herufi 256. Uhalali wa hii Hash inategemea kiwango cha ugumu wa mtandao wa Bitcoin (tutaingia katika maelezo zaidi baadaye). Kwa sasa, zingatia kwamba Miner imepata bloku halali, na kwamba shughuli ya Bob kwa Alice imejumuishwa ndani yake. Kisha, bloku ipya halali inaongezwa kwa Blockchain, Ledger ya kawaida kwa watumiaji wote wa Bitcoin.
 
 ![image](assets/en/49.webp)
 
-### Hatua ya 4: Kizuizi ni halali na kuthibitishwa na nodi rejea ya Alice.
+### Hatua ya 4: Bloku ni halali na kuthibitishwa na nodi rejea ya Alice.
 
-Katika hatua hii, shughuli hiyo inachukuliwa kuwa halali: mchimbaji ataeneza kizuizi kipya kwenye mtandao kupitia nodi yao, na pochi ya Alice itasasishwa.
+Katika hatua hii, shughuli hiyo inachukuliwa kuwa halali: mchimbaji ataeneza bloku ipya kwenye mtandao kupitia nodi yao, na pochi ya Alice itasasishwa.
 
 ![image](assets/en/50.webp)
 
-**Kumbuka:** Hata kama Alice ataarifiwa kwamba amepokea bitcoins katika mojawapo ya anwani zake, inapendekezwa kuzingatia muamala usiobadilika baada tu ya kupokea uthibitisho **sita**. Hii ina maana kwamba vitalu sita vya ziada vinapaswa kuchimbwa juu ya kizuizi kilicho na shughuli ya Bob. Kwa maneno mengine, jinsi shughuli ya zamani inavyokuwa kwenye Blockchain, ndivyo inavyobadilika zaidi.
+**Kumbuka:** Hata kama Alice ataarifiwa kwamba amepokea bitcoins katika mojawapo ya anwani zake, inapendekezwa kuzingatia muamala usiobadilika baada tu ya kupokea uthibitisho **sita**. Hii ina maana kwamba bloku sita za ziada zinapaswa kuchimbwa juu ya bloku iliyo na shughuli ya Bob. Kwa maneno mengine, jinsi shughuli ya zamani inavyokuwa kwenye Blockchain, ndivyo inavyobadilika zaidi.
 
 ### Je, ni umuhimu gani wa mchakato huu?
 
 Mfumo wa muamala wa Bitcoin umegatuliwa na hufanya kazi katika-rika, bila wapatanishi wanaoaminika.
 
-Bob hutuma muamala wake kwa mtandao wa Bitcoin, na Mchimbaji anapochapisha kizuizi halali kilicho na shughuli ya Bob, Alice anaweza kuanza kuzingatia kwamba bitcoins ni zake. Uaminifu hauhitajiki katika hatua yoyote ya uhamishaji wa umiliki wa Bitcoin: sheria za itifaki na vivutio vya kiuchumi pekee hufanya iwe ghali sana kutenda kwa nia mbaya ndani ya mfumo wa Bitcoin.
+Bob hutuma muamala wake kwa mtandao wa Bitcoin, na Mchimbaji anapochapisha bloku halali iliyo na muamala wa Bob, Alice anaweza kuanza kuzingatia kwamba bitcoins ni zake. Uaminifu hauhitajiki katika hatua yoyote ya uhamishaji wa umiliki wa Bitcoin: sheria za itifaki na vivutio vya kiuchumi pekee hufanya iwe ghali sana kutenda kwa nia mbaya ndani ya mfumo wa Bitcoin.
 
-Kwa hakika, watumiaji huhamisha umilikisho wa fedha zao kwa kutia sahihi shughuli kidigitali na funguo zao za kibinafsi. Kwa upande mwingine, wachimbaji wana nguvu ndogo, na watumiaji hudumisha udhibiti mkubwa kwa kutumia nodi za Bitcoin ili kuthibitisha vitalu vipya na shughuli zilizojumuishwa. Kila nodi ina nakala kamili au sehemu ya Ledger, kwa hivyo mtandao unaoundwa na nodi za Bitcoin hufanya mfumo kugatuliwa kweli.
+Kwa hakika, watumiaji huhamisha umilikisho wa fedha zao kwa kutia sahihi shughuli kidigitali na funguo zao za kibinafsi. Kwa upande mwingine, wachimbaji wana nguvu ndogo, na watumiaji hudumisha udhibiti mkubwa kwa kutumia nodi za Bitcoin ili kuthibitisha bloku mppya na miamala zilizojumuishwa. Kila nodi ina nakala kamili au sehemu ya Ledger, kwa hivyo mtandao unaoundwa na nodi za Bitcoin hufanya mfumo kugatuliwa kweli.
 
 Kama matokeo, ili mtandao wa Bitcoin uharibiwe kabisa, kila nakala ya Blockchain kwenye nodi zote za Bitcoin ingehitaji kuondolewa, ambayo ni kazi isiyowezekana kwa sababu ya usambazaji wa kijiografia wa nodi hizi na ugumu wa kuzikamata.
 
@@ -847,7 +847,7 @@ Kwa hivyo, kifaa chochote kinachotumia kipande cha programu ya Bitcoin, kinachoi
 
 Kila nodi ina nakala ya Blockchain, ambayo inaruhusu uthibitishaji wa shughuli na kuzuia jaribio lolote la ulaghai. Hali ya mtandao iliyogatuliwa inaipa Bitcoin uthabiti na uimara wa kipekee. Kwa hakika, ili kusimamisha itifaki ya Bitcoin, nodi zote duniani zingelazimika kufungwa. Kwa taarifa yako, kufikia Septemba 2023 kulikuwa na takriban [nodi 45,000](https://bitnodes.io/nodes/all/) zilizosambazwa kote ulimwenguni.
 
-Nodi zina uwezo wa kuthibitisha uhalali wa vitalu na shughuli kwa sababu zinafuata sheria za makubaliano ya Bitcoin. Sheria hizi zinaanzisha sera za fedha za Bitcoin, kama vile kiasi cha malipo ya wachimbaji (ambacho tutajadili kwa undani zaidi katika sehemu inayofuata) na kiasi cha Bitcoin katika mzunguko. Kwa njia fulani, nodi hufanya kama mfumo wa kisheria wa mtandao kwa sababu washiriki wote wa mtandao hufuata sheria sawa kwa sababu yao, kwa hivyo wanahakikisha kutoegemea upande wowote kwa itifaki ya Bitcoin. Sheria za makubaliano hazitofautiani, ikiwa ni, kwa sababu kufanya mabadiliko, idhini ya nodi zote inahitajika.
+Nodi zina uwezo wa kuthibitisha uhalali wa bloku na muamala kwa sababu zinafuata sheria za makubaliano ya Bitcoin. Sheria hizi zinaanzisha sera za fedha za Bitcoin, kama vile kiasi cha malipo ya wachimbaji (ambacho tutajadili kwa undani zaidi katika sehemu inayofuata) na kiasi cha Bitcoin katika mzunguko. Kwa njia fulani, nodi hufanya kama mfumo wa kisheria wa mtandao kwa sababu washiriki wote wa mtandao hufuata sheria sawa kwa sababu yao, kwa hivyo wanahakikisha kutoegemea upande wowote kwa itifaki ya Bitcoin. Sheria za makubaliano hazitofautiani, ikiwa ni, kwa sababu kufanya mabadiliko, idhini ya nodi zote inahitajika.
 
 ![image](assets/en/52.webp)
 
@@ -855,13 +855,13 @@ Utawala ndani ya itifaki ni zaidi ya upeo wa kozi hii ya msingi, lakini ni muhim
 
 ### Je! nodi inaonekana kama nini?
 
-Kuna chaguzi kadhaa zinazopatikana unapotaka kusakinisha nodi yako mwenyewe, na gharama tofauti za matengenezo. Unaweza tu kuendesha programu ya Bitcoin Core kwenye tarakilishi yako, lakini itahitaji kiasi kikubwa cha nafasi ya kuhifadhi, kwani Blockchain ni takriban ~500GB. Ili kuondokana na kikwazo hiki, unaweza kuchagua kuweka tu vizuizi vya N mwisho kwenye kumbukumbu kwa kuunda "nodi iliyokatwa". Kwa suluhisho hili la pili, gharama ni kidogo kwa sababu nodi inafanya kazi tu wakati unahitaji.
+Kuna chaguzi kadhaa zinazopatikana unapotaka kusakinisha nodi yako mwenyewe, na gharama tofauti za matengenezo. Unaweza tu kuendesha programu ya Bitcoin Core kwenye tarakilishi yako, lakini itahitaji kiasi kikubwa cha nafasi ya kuhifadhi, kwani Blockchain ni takriban ~500GB. Ili kuondokana na kikwazo hiki, unaweza kuchagua kuweka tu bloku za  mwisho kwenye kumbukumbu kwa kuunda "nodi iliyokatwa". Kwa suluhisho hili la pili, gharama ni kidogo kwa sababu nodi inafanya kazi tu wakati unahitaji.
 
 ![image](assets/en/53.webp)
 
 Chaguo la pili ni kutumia kipande maalum cha vifaa kwa kusudi hili, kama vile Raspberry Pi 4 iliyo na SSD kubwa ya kutosha (kuhusu ~ 2TB). Chaguo hili lingine ni ghali zaidi ikiwa unapaswa kununua vifaa, lakini inawakilisha kidogo chini ya € 10,00 kwa mwaka kwa suala la matumizi ya umeme.
 
-Kwa mtazamo wa kipimo data, ukizingatia block 1 ya MB 1 kila dakika 10, inalingana na takriban 5GB kwa mwezi.
+Kwa mtazamo wa kipimo data, ukizingatia bloku 1 ya MB 1 kila dakika 10, inalingana na takriban 5GB kwa mwezi.
 
 ### Nodi lazima zibaki kufikiwa na kila mtu!
 
@@ -871,7 +871,7 @@ Hakika, kila mtu ana sababu nzuri ya kuendesha nodi! Gharama na juhudi ni ndogo 
 
 ![image](assets/en/54.webp)
 
-Kinyume chake, ikiwa vitalu vingekuwa vizito mara 100, bila shaka tungeweza kufanya miamala mara 100 zaidi kila baada ya dakika 10, lakini kuendesha nodi za Bitcoin kungehitaji diski ya 50TB Hard, kipimo data cha zaidi ya 500GB/mwezi, na kipande cha maunzi chenye uwezo wa kuthibitisha mamia ya maelfu ya chini ya dakika 10 za shughuli. Katika hali hii ya dhahania yenye vizuizi vikubwa mara 100, kuendesha nodi za Bitcoin hazingefikiwa na mtu wa kawaida, ambayo ingeathiri ugatuaji wa itifaki na kutoweza kubadilika kwa shughuli na sheria za makubaliano.
+Kinyume chake, ikiwa bloku zingekua nzito mara 100, bila shaka tungeweza kufanya miamala mara 100 zaidi kila baada ya dakika 10, lakini kuendesha nodi za Bitcoin kungehitaji diski ya 50TB Hard, kipimo data cha zaidi ya 500GB/mwezi, na kipande cha maunzi chenye uwezo wa kuthibitisha mamia ya maelfu ya chini ya dakika 10 za shughuli. Katika hali hii ya dhahania yenye Bloku kubwa mara 100, kuendesha nodi za Bitcoin hazingefikiwa na mtu wa kawaida, ambayo ingeathiri ugatuaji wa itifaki na kutoweza kubadilika kwa shughuli na sheria za makubaliano.
 
 Kwa hivyo, vikwazo vya itifaki vimeundwa ili kuwezesha watu wengi iwezekanavyo kuendesha nodi zao za Bitcoin. Kwa hakika, mwaka wa 2017 ulikuwa na utata mkali unaojulikana kama "block size war". Mgogoro huu uliwashindanisha wale waliotaka kurekebisha Bitcoin kwa kuongeza ukubwa wa kuzuia ili kuongeza uwezo wa kufanya miamala (wachimba madini, majukwaa ya ubadilishanaji, na taasisi) dhidi ya wale waliotaka kuhifadhi uhuru na uwezo wa watumiaji (nodi na watumiaji). Mwishowe, chama cha pili kilishinda.
 
@@ -881,7 +881,7 @@ Kufuatia ushindi huu, nodi zilianzisha sasisho linaloitwa SegWit, na kutengeneza
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Wachimbaji hulinda mtandao na kuongeza miamala kwenye vizuizi. Wanatumia umeme kupitia mashine za ASIC kutatua Bitcoin Proof of Work.**
+**Wachimbaji hulinda mtandao na kuongeza miamala kwenye bloku. Wanatumia umeme kupitia mashine za ASIC kutatua Bitcoin Proof of Work.**
 
 ![image](assets/en/55.webp)
 
@@ -889,15 +889,15 @@ Kufuatia ushindi huu, nodi zilianzisha sasisho linaloitwa SegWit, na kutengeneza
 
 "Proof of Work" (POW) ni utaratibu wa makubaliano ya usalama wa itifaki ya Bitcoin. Ni msingi wa kila kitu na ina jukumu muhimu katika nadharia ya mchezo ya Bitcoin.
 
-Ili kueleza jinsi inavyofanya kazi, fikiria bahati nasibu ya ulimwengu wote ambapo kila mtu anaweza kushiriki. Lengo ni kutafuta nambari mahususi inayomwezesha mshindi kusaini kizuizi halali, na kupata zawadi katika Bitcoin. Nambari hii ni rahisi sana kuthibitisha kwa kutumia chaguo la kukokotoa la SHA-256 Hash, lakini ni vigumu kuipata: washiriki (wachimba madini) watajaribu mabilioni kwa mabilioni ya uwezekano, kama vile 1, 52, 2648, 26874615, 15344854131318631, na kadhalika hadi wagundue haki hiyo.
+Ili kueleza jinsi inavyofanya kazi, fikiria bahati nasibu ya ulimwengu wote ambapo kila mtu anaweza kushiriki. Lengo ni kutafuta nambari mahususi inayomwezesha mshindi kusaini bloku halali, na kupata zawadi katika Bitcoin. Nambari hii ni rahisi sana kuthibitisha kwa kutumia chaguo la kukokotoa la SHA-256 Hash, lakini ni vigumu kuipata: washiriki (wachimba madini) watajaribu mabilioni kwa mabilioni ya uwezekano, kama vile 1, 52, 2648, 26874615, 15344854131318631, na kadhalika hadi wagundue haki hiyo.
 
 Ikiwa nambari iliyochaguliwa ni sahihi: Jackpot! Vinginevyo, utafutaji unaendelea.
 
 Ili kuongeza idadi ya majaribio, watatumia mashine maalum zinazoitwa ASICs, ambazo zina jukumu la pekee la kuhesabu mabilioni ya uwezekano kwa sekunde (jumla ya idadi ya majaribio inaitwa "Hashrate"). Ili kuendesha mashine hizi, kiasi kikubwa cha umeme kinapaswa kutumiwa. Kwa hivyo, POW hubadilisha nishati kuwa sarafu, kuunganisha ulimwengu halisi na ulimwengu wa kidigitali ili kuunda sarafu ya kwanza inayotegemea nishati.
 
-Mashine hufanya kazi kwa kuendelea, na baada ya wastani wa dakika 10, mshindi anaibuka: mshiriki huyu amefanikiwa kupata Hash sahihi ambayo iko chini ya kizingiti cha ugumu. Mshindi mkuu na pekee atatia saini kizuizi kipya cha seva ya muhuri wa wakati, akiiongeza kwa Blockchain. Wanapokea thawabu zao na kurudi kujaribu bahati yao kwenye kuchimba block inayofuata. Mchakato huu umekuwa ukiendelea kwa zaidi ya miaka kumi, huku mshindi akithibitisha miamala ya Bitcoin kila baada ya dakika 10 huku pia akilinda miamala ya awali, na hivyo kufanya Bitcoin Blockchain kuwa imara na salama zaidi.
+Mashine hufanya kazi kwa kuendelea, na baada ya wastani wa dakika 10, mshindi anaibuka: mshiriki huyu amefanikiwa kupata Hash sahihi ambayo iko chini ya kizingiti cha ugumu. Mshindi mkuu na pekee atatia saini bloku mpya ya seva ya muhuri wa wakati, akiiongeza kwa Blockchain. Wanapokea thawabu zao na kurudi kujaribu bahati yao kwenye kuchimba block inayofuata. Mchakato huu umekuwa ukiendelea kwa zaidi ya miaka kumi, huku mshindi akithibitisha miamala ya Bitcoin kila baada ya dakika 10 huku pia akilinda miamala ya awali, na hivyo kufanya Bitcoin Blockchain kuwa imara na salama zaidi.
 
-Baada ya 2016 (takriban kila baada ya wiki mbili), **marekebisho ya matatizo** husawazisha mchezo wa kimataifa wa uchimbaji kulingana na idadi ya washiriki. Marekebisho haya ni muhimu kwa sababu idadi ya wachimbaji na nguvu zao za pamoja za tarakilishi zinaweza kutofautiana sana kwa wakati. Ili kudumisha muda wa kuzuia lengo, mtandao hurekebisha kiwango cha ugumu kulingana na jinsi vitalu vya mwisho vya 2016 vilichimbwa haraka. Ikiwa walichimbwa haraka sana, ugumu huongezeka, na kuifanya iwe ngumu kupata Hash sahihi. Kinyume chake, ikiwa walichimbwa polepole sana, ugumu hupungua, na kuifanya iwe rahisi.
+Baada ya 2016 (takriban kila baada ya wiki mbili), **marekebisho ya matatizo** husawazisha mchezo wa kimataifa wa uchimbaji kulingana na idadi ya washiriki. Marekebisho haya ni muhimu kwa sababu idadi ya wachimbaji na nguvu zao za pamoja za tarakilishi zinaweza kutofautiana sana kwa wakati. Ili kudumisha muda wa kuzuia lengo, mtandao hurekebisha kiwango cha ugumu kulingana na jinsi block za mwisho za 2016 zilichimbwa haraka. Ikiwa walichimbwa haraka sana, ugumu huongezeka, na kuifanya iwe ngumu kupata Hash sahihi. Kinyume chake, ikiwa walichimbwa polepole sana, ugumu hupungua, na kuifanya iwe rahisi.
 
 ![image](assets/en/24.webp)
 
@@ -919,7 +919,7 @@ Kijajuu cha kuzuia kina vipengele kadhaa kama vile saa, lengo la ugumu, nambari 
 
 ### Fidia ya wachimbaji
 
-Hapo awali, Mchimbaji inalipwa wakati wanapata kizuizi halali. Kwa usahihi zaidi, wanalipwa kwa njia mbili:
+Hapo awali, Mchimbaji inalipwa wakati wanapata block halali. Kwa usahihi zaidi, wanalipwa kwa njia mbili:
 
 
 - kupitia ruzuku (bitcoins mpya iliyotengenezwa) iliyojumuishwa kwenye kizuizi;
@@ -927,15 +927,15 @@ Hapo awali, Mchimbaji inalipwa wakati wanapata kizuizi halali. Kwa usahihi zaidi
 
 Kiasi cha ruzuku kinafafanuliwa na sheria za makubaliano na inategemea Epoch: **Block reward = ruzuku ya kuzuia + ada za muamala**.
 
-Hakika, kwa vitalu vya kwanza, ruzuku ya kuzuia ilikuwa bitcoins 50. Kila vitalu 210,000 (takriban kila baada ya miaka 4), kiasi hiki ni nusu. Leo (mnamo 2024), tuko katika Epoch ya 5, ambayo ina maana kwamba ruzuku ni bitcoins 3.125. Kwa kifupi, huu ni utaratibu wa moja kwa moja ambao hutoa bitcoins mpya katika mfumo. Ruzuku inapungua kwa muda, hadi inakidhi kikomo cha utoaji wa bitcoins milioni 21. Tayari kuna zaidi ya bitcoins milioni 19.4 katika mzunguko, ambayo ni zaidi ya 92%.
+Hakika, kwa block za kwanza, ruzuku ya kuzuia ilikuwa bitcoins 50. Kila vitalu 210,000 (takriban kila baada ya miaka 4), kiasi hiki ni nusu. Leo (mnamo 2024), tuko katika Epoch ya 5, ambayo ina maana kwamba ruzuku ni bitcoins 3.125. Kwa kifupi, huu ni utaratibu wa moja kwa moja ambao hutoa bitcoins mpya katika mfumo. Ruzuku inapungua kwa muda, hadi inakidhi kikomo cha utoaji wa bitcoins milioni 21. Tayari kuna zaidi ya bitcoins milioni 19.4 katika mzunguko, ambayo ni zaidi ya 92%.
 
 ![image](assets/en/58.webp)
 
-Njia ya pili ya fidia inafafanuliwa na kiasi kilichochaguliwa na watumiaji kwa ada za ununuzi, ambazo zinaonyesha uharaka wa mtumiaji kujumuisha shughuli zao kwenye kizuizi kinachofuata. Kwa kuwa wachimbaji wanataka kuongeza mapato yao, wataelekea kuweka kipaumbele katika shughuli na ada za juu za miamala.
+Njia ya pili ya fidia inafafanuliwa na kiasi kilichochaguliwa na watumiaji kwa ada za ununuzi, ambazo zinaonyesha uharaka wa mtumiaji kujumuisha shughuli zao kwenye block inayofuata. Kwa kuwa wachimbaji wanataka kuongeza mapato yao, wataelekea kuweka kipaumbele katika shughuli na ada za juu za miamala.
 
 ![image](assets/en/59.webp)
 
-Ili kuleta utulivu wa mtindo wao wa biashara, ambao unategemea malipo wanayopokea kwa kila kizuizi halali, wachimbaji mara nyingi huunda vikundi kupitia "mabwawa ya Mining", ambapo huunganisha rasilimali zao za tarakilishi.
+Ili kuleta utulivu wa mtindo wao wa biashara, ambao unategemea malipo wanayopokea kwa kila block halali, wachimbaji mara nyingi huunda vikundi kupitia "mabwawa ya Mining", ambapo huunganisha rasilimali zao za tarakilishi.
 
 ### Kwa nini ujisumbue kufanya haya yote?
 
@@ -945,9 +945,9 @@ Lakini hii inawezaje kufanywa bila mpatanishi anayeaminika? Tatizo hili linaelez
 
 ![image](assets/en/60.webp)
 
-Kwa hivyo Bitcoin ni aina ya suluhisho la kutatua suala hili, au angalau kulifanyia kazi. "Jenerali" wa Bitcoin, au wachimbaji, hutoa vitalu (vya habari) na nodi za Bitcoin huthibitisha miamala ya kifedha kwa kutumia sheria za makubaliano ili kuhakikisha ukweli wa habari. pogo katika gharama ya nishati kati ya uzalishaji wa habari na uthibitishaji huhakikisha kuaminika kwa habari, bila mtu wa tatu anayeaminika.
+Kwa hivyo Bitcoin ni aina ya suluhisho la kutatua suala hili, au angalau kulifanyia kazi. "Jenerali" wa Bitcoin, au wachimbaji, hutoa block (vya habari) na nodi za Bitcoin huthibitisha miamala ya kifedha kwa kutumia sheria za makubaliano ili kuhakikisha ukweli wa habari. pogo katika gharama ya nishati kati ya uzalishaji wa habari na uthibitishaji huhakikisha kuaminika kwa habari, bila mtu wa tatu anayeaminika.
 
-Wachimbaji ni wajenzi wa usalama wa mtandao wa Bitcoin. Kwa kutumia nishati kuzalisha heshi, wanajenga ukuta ambao hufanya iwe ghali sana kwa wakala hasidi kuandika upya historia ya muamala, na kikwazo hiki cha kiuchumi kinawazuia wengine kutotenda kwa uaminifu.
+Wachimbaji ni wajenzi wa usalama wa mtandao wa Bitcoin. Kwa kutumia nishati kuzalisha hash, wanajenga ukuta ambao hufanya iwe ghali sana kwa wakala hasidi kuandika upya historia ya muamala, na kikwazo hiki cha kiuchumi kinawazuia wengine kutotenda kwa uaminifu.
 
 Hata katika kesi ya shambulio la 51%, ambapo wakala angemiliki zaidi ya nusu ya Hashrate, mtandao utaendelea kuwa salama kwa sababu mshambuliaji lazima atumie nguvu nyingi kama wachimbaji wote kwa pamoja kujaribu kurekebisha Blockchain. Utaratibu huu wa Proof-of-Work unaotumia nishati nyingi ndio unaohakikisha usalama wa mtandao.
 

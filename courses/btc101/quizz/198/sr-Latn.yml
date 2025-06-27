@@ -1,10 +1,10 @@
-question: Šta je jedna od stvari koju treba da imate pre nego što kupite Bitcoin?
-answer: Siguran Wallet.
+question: Šta je jedna od stvari koju treba da imate pre nego što kupite Bitkoin?
+answer: Siguran novčanik.
 wrong_answers:
   - Fizički sef.
   - Bankovni račun.
-  - Kreditna kartica.
+  - Kreditnu karticu.
 explanation: |
-  Tekst kursa pominje da pre kupovine Bitcoin,
-  treba da imate siguran Wallet gde ćete čuvati svoje ključeve.
+  Tekst kursa pominje da pre kupovine Bitkoina,
+  treba da imate siguran novačnik gde ćete čuvati svoje ključeve.
 reviewed: true

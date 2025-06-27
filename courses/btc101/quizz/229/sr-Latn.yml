@@ -1,5 +1,5 @@
-question: Kako su transakcije na Lightning Network osigurane?
-answer: Kroz kriptografiju i indirektno kroz energiju koju troše rudari na Bitcoin.
+question: Kako su transakcije na Lightning mreži osigurane?
+answer: Kroz kriptografiju i indirektno kroz energiju koju troše rudari na Bitkoin.
 wrong_answers:
   - Kroz korišćenje samo privatnih ključeva.
   - Kroz korišćenje samo javnih ključeva.

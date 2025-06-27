@@ -3,11 +3,9 @@ answer: To vodi do inflacije, postepeno osiromašujući stanovništvo.
 wrong_answers:
   - To dovodi do deflacije, postepeno obogaćujući stanovništvo.
   - To vodi ka stabilnoj ekonomiji bez inflacije ili deflacije.
-  - To dovodi do smanjenja novca Supply.
+  - To dovodi do smanjenja ponude novca.
 explanation: |
-  Monetary printing, or the creation of new money by central
-  banks, leads to inflation. This is because the increase in
-  the money Supply reduces the purchasing power of money,
-  leading to higher prices and a decrease in the value of
-  savings.
-reviewed: true
+  Štampanje novca, ili stvaranje novog novca od strane centralnih banaka, 
+  dovodi do inflacije. To je zato što povećanje novčane mase smanjuje 
+  kupovnu moć novca, što dovodi do viših cena i smanjenja vrednosti štednje.
+ reviewed: true

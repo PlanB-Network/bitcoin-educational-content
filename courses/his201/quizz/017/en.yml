@@ -5,5 +5,5 @@ wrong_answers:
   - The Cryptography mailing list
   - The extropians mailing list
 explanation: |
-  This was his own private mailing list, which included cypherpunks such as Wei Dai and Hal Finney, and economists like Larry White and George Selgin.
-reviewed: false
+  This was his private mailing list, which included cypherpunks such as Wei Dai and Hal Finney and economists like Larry White and George Selgin.
+reviewed: true

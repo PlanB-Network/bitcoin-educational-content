@@ -1,9 +1,9 @@
-question: Qual è la principale limitazione dei portafogli JBOK?
+question: Qual è la principale limitazione dei wallet JBOK?
 answer: Richiedono un backup indipendente per ogni chiave privata
 wrong_answers:
   - Non consentono la generazione di nuovi indirizzi
   - Sono incompatibili con le firme digitali
   - Utilizzano chiavi pubbliche non compresse
 explanation: |
-  I portafogli JBOK costringono l'utente a eseguire il backup di ogni chiave privata individualmente, complicando la loro gestione.
+  I wallet JBOK costringono l'utente a eseguire il backup di ogni chiave privata individualmente, complicando la loro gestione.
 reviewed: false

@@ -1,0 +1,9 @@
+question: معادل برنامه‌نویسی شیءگرا (OOP) برای مؤلفه Schema در زمینه RGB چیست؟
+answer: تعریف کلاس
+wrong_answers:
+  - سازنده کلاس
+  - پیاده‌سازی یک Interface
+  - نمونه‌سازی روش
+explanation: |
+  Schema با تعریف یک کلاس در برنامه‌نویسی شیءگرا (OOP) مطابقت دارد که ویژگی‌ها، متدها و قوانین Business Logic را توصیف می‌کند.
+reviewed: false

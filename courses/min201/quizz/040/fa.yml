@@ -1,0 +1,11 @@
+question: Mining چه چیزی برای Bitcoin تعیین می‌کند؟
+answer: یک قیمت کف
+wrong_answers:
+  - قیمت سقف
+  - قیمت ثابت
+  - قیمت متغیر
+explanation: |
+  Mining یک قیمت کف برای Bitcoin تعیین می‌کند که زیر آن
+  ماینرها با ضرر می‌فروشند. هزینه Mining
+  به طور قابل توجهی بر قیمت Bitcoin تأثیر می‌گذارد.
+reviewed: true

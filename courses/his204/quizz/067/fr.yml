@@ -1,0 +1,8 @@
+question: Pourquoi l’appela-t-on Dupont de Nemours, bien qu'il soit né Pierre-Samuel Du Pont ?
+answer: Pour le différencier des autres Dupont de l’Assemblée de 1789
+wrong_answers:
+  - Il est noble d’origine
+  - Il s’est marié avec la comtesse de Nemours
+  - C'était un nom de plume
+explanation: |
+  "de Nemours" a été ajouté au nom de Pierre-Samuel Dupont pour le distinguer des autres Dupont qui siégeaient à l'Assemblée constituante en 1789.

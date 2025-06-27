@@ -1,9 +1,0 @@
-question: Koji je glavni fokus investicionih odluka Bitcoin stackera?
-answer: Akumuliranje što više satoshija koliko je moguće
-wrong_answers:
-  - Kratkoročne promene cena
-  - Prodaja robe ili usluga u Bitcoin
-  - Kupovina velike količine Bitcoin odjednom
-explanation: |
-  Glavni fokus investicionih odluka Bitcoin stackera je akumulacija što većeg broja satoshija. Ovo se postiže postavljanjem plana prosečne cene dolara (DCA) i traženjem drugih rešenja za akumulaciju satoshija.
-reviewed: false

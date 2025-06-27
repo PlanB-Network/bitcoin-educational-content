@@ -1,0 +1,8 @@
+question: 哪位哲學家曾在《Ephémérides du Citoyen》（物理學家的期刊）上撰文？
+answer: 狄德羅
+wrong_answers:
+  - 伏爾泰
+  - 孔多塞
+  - 盧梭
+explanation: |
+  狄德羅為物理學家的期刊《Éphémérides du Citoyen》投稿，撰寫有關經濟和社會主題的文章。

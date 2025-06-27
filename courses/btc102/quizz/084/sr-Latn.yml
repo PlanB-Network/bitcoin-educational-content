@@ -1,9 +1,0 @@
-question: Koja je primarna svrha Cold Wallet za čestog korisnika Bitcoin?
-answer: Da sigurno čuvate bitkoine na duži rok.
-wrong_answers:
-  - Da redovno šaljete i primate bitkoine za svakodnevnu upotrebu.
-  - Da trgujete bitcoinima na Exchange platformi.
-  - Da se iskopaju novi bitkoini.
-explanation: |
-  Cold Wallet je tip Bitcoin Wallet koji nije povezan na internet, što ga čini manje podložnim hakovanju i krađi. Obično se koristi za čuvanje bitkoina koji nisu potrebni za dnevne transakcije.
-reviewed: false

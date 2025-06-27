@@ -1,0 +1,8 @@
+question: OpenNode چیست؟
+answer: یک راه‌حل آنلاین ساده برای کسب‌وکارها جهت پذیرش Bitcoin.
+wrong_answers:
+  - نوعی گره Bitcoin که به طور همزمان توسط بسیاری از کاربران استفاده می‌شود.
+  - یک نرم‌افزار Bitcoin Mining که متن‌باز است.
+  - یک پلتفرم Bitcoin Exchange.
+explanation: >-
+reviewed: true

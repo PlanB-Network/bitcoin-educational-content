@@ -1,0 +1,8 @@
+question: Miksi Exchange on Abbé de Saint-Pierren mukaan aina ja välttämättä positiivisen summan peli?
+answer: Jos kaksi miestä päättää vapaaehtoisesti solmia Contract:n, se johtuu siitä, että kumpikin näkee siinä etua
+wrong_answers:
+  - Mitä useammin tavarat vaihtavat omistajaa, sitä rikkaammaksi kansakunta tulee
+  - Kansakunta, joka käy kauppaa, on aina rikkaampi kuin kansakunta, joka elää autarkiassa
+  - Koska Jumala haluaa sitä
+explanation: |
+  Abbé de Saint-Pierre uskoi muiden liberaalien ajattelijoiden tavoin, että vapaaehtoinen Exchange hyödyttää molempia osapuolia. Jos kaksi ihmistä sopii Exchange:sta, se johtuu siitä, että molemmat kokevat hyötyvänsä siitä, muuten he eivät tekisi sitä.

@@ -41,7 +41,7 @@ Esta formación es un esfuerzo conjunto de tres de nuestros profesores:
 
 - Renaud Lifchitz, experto en ciberseguridad
 - Théo Pantamis, doctor en matemáticas aplicadas
-- Rogzy, CEO de DécouvreBitcoin
+- Rogzy, Co-fundador de Plan ₿ Network
 
 Su salud digital es crucial en un mundo cada vez más digital. A pesar del constante aumento de los ataques informáticos y la vigilancia masiva, aún no es demasiado tarde para dar el primer paso y protegerse.
 En esta formación, no buscamos convertirte en un experto, anónimo o invulnerable, esto es imposible. En cambio, te ofrecemos algunas soluciones simples y accesibles para todos, para comenzar a transformar tus hábitos en línea y recuperar el control de tu soberanía digital.
@@ -421,18 +421,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Configuración de copia de seguridad
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Proteger tus archivos personales también es un punto esencial. Este tutorial te muestra cómo implementar una estrategia de respaldo efectiva gracias a Proton Drive. Descubre cómo usar esta solución en la nube segura para aplicar el método 3-2-1: tres copias de tus datos en dos medios diferentes, de las cuales una copia está fuera del sitio. Así aseguras la accesibilidad y seguridad de tus archivos sensibles:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Y para asegurar tus archivos almacenados en medios removibles como una unidad USB o un disco duro externo, también te muestro cómo cifrar y descifrar estos medios fácilmente usando VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Cambio de navegador y VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -448,6 +436,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Además, descubre cómo usar Tor Browser, un navegador específicamente diseñado para proteger tu privacidad en línea:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Configuración de copia de seguridad
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Proteger tus archivos personales también es un punto esencial. Este tutorial te muestra cómo implementar una estrategia de respaldo efectiva gracias a Proton Drive. Descubre cómo usar esta solución en la nube segura para aplicar el método 3-2-1: tres copias de tus datos en dos medios diferentes, de las cuales una copia está fuera del sitio. Así aseguras la accesibilidad y seguridad de tus archivos sensibles:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Y para asegurar tus archivos almacenados en medios removibles como una unidad USB o un disco duro externo, también te muestro cómo cifrar y descifrar estos medios fácilmente usando VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Ve más allá
 
@@ -494,7 +494,7 @@ Dominando estas habilidades y herramientas, estarás bien equipado para navegar 
 
 ### Gestión eficiente de contraseñas y fortalecimiento de la autenticación: un enfoque académico
 
-En el módulo de formación "Seguridad 101" ofrecido por *Découvre Bitcoin* en la Academia, hemos abordado la importancia de los gestores de contraseñas. Tres dimensiones son esenciales a considerar: la creación, la actualización y la implementación de contraseñas en los sitios web.
+Hay tres dimensiones clave a considerar al hablar sobre los administradores de contraseñas: la creación, la actualización y la implementación de contraseñas en los sitios web.
 
 Generalmente se desaconseja el uso de extensiones de navegador para el llenado automático de contraseñas. Estas herramientas pueden hacer que el usuario sea más vulnerable a ataques de phishing. Renaud, un experto reconocido en ciberseguridad, prefiere una gestión manual a través de KeePass, lo que implica copiar y pegar manualmente la contraseña. Las extensiones tienden a aumentar la superficie de ataque, pueden ralentizar el rendimiento del navegador y, por lo tanto, presentan un riesgo significativo. Por lo tanto, se recomienda minimizar el uso de extensiones en el navegador.
 
@@ -518,7 +518,7 @@ La seguridad informática puede verse comprometida por prácticas simples y el u
 También cabe destacar que Internet está muy centralizado y ampliamente bajo control estadounidense. El servidor DNS puede estar sujeto a censura y a menudo utiliza DNS falsos para bloquear el acceso a ciertos sitios. DNS es un protocolo antiguo e insuficientemente seguro, por lo que puede ocasionar problemas de seguridad. Han surgido nuevos protocolos, como DNSsec, pero todavía se utilizan poco. Para evitar la censura y el bloqueo de anuncios, es posible elegir proveedores DNS alternativos.
 Des alternatives a los anuncios intrusivos incluyen Google DNS, OpenDNS y otros servicios independientes. El protocolo DNS estándar deja las consultas DNS visibles para el proveedor de servicios de Internet. DOH (DNS sobre HTTPS) y DOT (DNS sobre TLS) permiten cifrar la conexión DNS, ofreciendo mayor privacidad y seguridad. Estos protocolos son ampliamente utilizados en empresas debido a su mayor seguridad y son compatibles de forma nativa con Windows, Android e iPhone. Para utilizar DOH y DOT, se debe ingresar un nombre de host TLS en lugar de una dirección IP. Los proveedores gratuitos de DOH y DOT están disponibles en línea. DOH y DOT mejoran la privacidad y la seguridad al evitar ataques de tipo "man in the middle". Otras consideraciones clave
 
-En el marco del módulo de formación "Seguridad 101" de *Découvre Bitcoin* en la Academia, también discutimos la autenticación Lightning. Este sistema genera una identificación diferente por servicio, sin necesidad de proporcionar una dirección de correo electrónico o información personal. Es posible tener identidades descentralizadas controladas por el usuario, pero falta normalización y estandarización en los proyectos de identidad descentralizada. Se recomiendan los administradores de paquetes como Nuget y Chocolaté, que permiten descargar software de código abierto fuera de Microsoft Store, para evitar ataques maliciosos. En resumen, el DNS es crucial para la seguridad en línea, pero es necesario estar atento a posibles ataques a los servidores DNS.
+También vale la pena mencionar el sistema llamado "Lightning authentication". Este sistema genera una identificación diferente por servicio, sin necesidad de proporcionar una dirección de correo electrónico o información personal. Es posible tener identidades descentralizadas controladas por el usuario, pero falta normalización y estandarización en los proyectos de identidad descentralizada. Se recomiendan los administradores de paquetes como Nuget y Chocolaté, que permiten descargar software de código abierto fuera de Microsoft Store, para evitar ataques maliciosos. En resumen, el DNS es crucial para la seguridad en línea, pero es necesario estar atento a posibles ataques a los servidores DNS.
 
 # Sección final
 

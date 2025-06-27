@@ -1,0 +1,8 @@
+question: Oma lettre sur la marque des fers'is väljendab Turgot ideed, et on võimatu teada paremini kui turg. Milline Austria majandusteadlane töötas selle 20. sajandil välja?
+answer: Friedrich Hayek
+wrong_answers:
+  - Carl Menger
+  - Murray Rothbard
+  - Ludwig von Mises
+explanation: |
+  Hayek töötas välja idee "hinna avastamisest" turu poolt, mille kohaselt turg on informatsiooni avastamise protsess ja hinnad on Supply ja nõudluse koostoime tulemus.

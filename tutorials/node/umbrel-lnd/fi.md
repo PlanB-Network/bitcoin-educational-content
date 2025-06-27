@@ -57,7 +57,7 @@ Jos haluat täydellisen teoreettisen johdatuksen Lightning Network:een, suositte
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Tällä kurssilla saat perusteellisen perehdytyksen Lightning Network:n peruskäsitteisiin, ennen kuin siirryt harjoittelemaan LND-solmun kanssa.
 

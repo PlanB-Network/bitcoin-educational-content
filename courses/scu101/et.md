@@ -40,7 +40,7 @@ See koolitus on kolme meie professori ühine pingutus:
 
 - Renaud Lifchitz, küberjulgeoleku ekspert
 - Théo Pantamis, rakendusmatemaatika doktor
-- Rogzy, DécouvreBitcoin tegevjuht
+- Rogzy, Plan ₿ Networki kaasasutaja
 
 Teie digitaalne hügieen on üha digitaalsemas maailmas ülioluline. Hoolimata pidevast häkkimise ja massilise jälgimise kasvust, ei ole veel liiga hilja astuda esimene samm ja end kaitsta.
 Selle koolitusega ei püüa me teid muuta eksperdiks, anonüümseks või haavamatuks, kuna see on võimatu. Selle asemel pakume teile mõningaid lihtsaid ja ligipääsetavaid lahendusi, et kõik saaksid alustada oma veebiharjumuste muutmist ja taastada kontroll oma digitaalse suveräänsuse üle.
@@ -403,18 +403,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Varundamise seadistamine
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Teie isiklike failide kaitsmine on samuti oluline punkt. See õpetus näitab, kuidas seadistada tõhus varundamisstrateegia Proton Drive'i abil. Avastage, kuidas kasutada seda turvalist pilvelahendust 3-2-1 meetodi rakendamiseks: kolm koopiat teie andmetest kahes erinevas meediumis, millest üks koopia on väljaspool asukohta. Nii tagate oma tundlike failide ligipääsetavuse ja turvalisuse:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Brauseri ja VPN-i vahetus
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -430,6 +418,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Lisaks õppige kasutama Tor Browserit, spetsiaalselt teie online-privaatsuse kaitsmiseks loodud veebibrauserit:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Varundamise seadistamine
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Teie isiklike failide kaitsmine on samuti oluline punkt. See õpetus näitab, kuidas seadistada tõhus varundamisstrateegia Proton Drive'i abil. Avastage, kuidas kasutada seda turvalist pilvelahendust 3-2-1 meetodi rakendamiseks: kolm koopiat teie andmetest kahes erinevas meediumis, millest üks koopia on väljaspool asukohta. Nii tagate oma tundlike failide ligipääsetavuse ja turvalisuse:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Mine kaugemale
 
@@ -478,7 +478,7 @@ Nende oskuste ja tööriistade valdamine varustab teid edukalt navigeerima kübe
 
 ### Tõhus paroolihaldus ja autentimise tugevdamine: Akadeemiline lähenemine
 
-Koolitusmoodulis "Turvalisuse 101", mida pakub Découvre Bitcoin Akadeemias, arutasime paroolihaldurite tähtsust. Kolm mõõdet on olulised: paroolide loomine, uuendamine ja rakendamine veebilehtedel. Üldiselt ei soovitata kasutada brauseri laiendusi automaatseks paroolide täitmiseks. Need tööriistad võivad muuta kasutaja haavatavamaks õngitsusrünnakute suhtes. Renaud, tunnustatud ekspert küberturvalisuse alal, eelistab manuaalset haldust KeePassi abil, mis hõlmab parooli käsitsi kopeerimist ja kleepimist. Laiendused kipuvad suurendama rünnaku pinda, võivad aeglustada brauseri jõudlust ja seetõttu kujutavad endast olulist riski. Seega on soovitatav praktika brauseri laienduste minimaalne kasutamine.
+Kolm peamist mõõdet, mida arvesse võtta paroolihalduritest rääkides: paroolide loomine, uuendamine ja rakendamine veebilehtedel. Üldiselt ei soovitata kasutada brauseri laiendusi automaatseks paroolide täitmiseks. Need tööriistad võivad muuta kasutaja haavatavamaks õngitsusrünnakute suhtes. Renaud, tunnustatud ekspert küberturvalisuse alal, eelistab manuaalset haldust KeePassi abil, mis hõlmab parooli käsitsi kopeerimist ja kleepimist. Laiendused kipuvad suurendama rünnaku pinda, võivad aeglustada brauseri jõudlust ja seetõttu kujutavad endast olulist riski. Seega on soovitatav praktika brauseri laienduste minimaalne kasutamine.
 
 Paroolihaldurid üldiselt julgustavad kasutama lisatuvastusfaktoreid, nagu kahefaktoriline autentimine. Optimaalse turvalisuse tagamiseks on soovitatav hoida OTP-sid (Ühekordseid Paroole) oma mobiilseadmes. AndoTP pakub avatud lähtekoodiga lahendust OTP-koodide genereerimiseks ja salvestamiseks telefonis. Kuigi Google Authenticator võimaldab eksportida autentimiskoodi seemneid, on Google'i kontol põhineva varundamise usaldus piiratud. Seetõttu soovitatakse OTI ja AndoTP rakendusi autonoomseks OTP halduseks.
 ![](assets/notext/21.webp)
@@ -497,9 +497,9 @@ Otsene autentimine asjakohasele teenusele on huvitav võimalus sõltumatuseks ko
 ### Arvutiturvalisus: turvaliste praktikate imperatiivid ja inimliku hooletusega seotud riskid
 
 Arvutiturvalisust võivad ohustada lihtsad praktikad ja vaikimisi paroolide, nagu "admin", kasutamine. Keerukad rünnakud ei ole alati vajalikud arvutiturvalisuse ohustamiseks. Näiteks YouTube'i kanali administraatori paroolid olid kirjutatud ettevõtte privaatsesse lähtekoodi. Turvaaugud on tihti inimliku hooletuse tulemus.
-Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika kontrolli all. DNS-server võib olla tsensuuri all ja tihti kasutatakse petlikku DNS-i, et blokeerida juurdepääsu teatud saitidele. DNS on vana ja ebapiisavalt turvaline protokoll, mis võib kaasa tuua turvaprobleeme. On tekkinud uued protokollid, nagu DNSsec, kuid neid ei kasutata veel laialdaselt. Tsensuuri ja reklaamide blokeerimise vältimiseks on võimalik valida alternatiivseid DNS-pakkujaid. Intrusiivsete reklaamide alternatiivid hõlmavad Google DNS-i, OpenDNS-i ja muid sõltumatuid teenuseid. Standardne DNS-protokoll jätab DNS-päringud internetiteenuse pakkujale nähtavaks. DOH (DNS üle HTTPS) ja DOT (DNS üle TLS) krüpteerivad DNS-ühenduse, pakkudes suuremat privaatsust ja turvalisust. Neid protokolle kasutatakse laialdaselt ettevõtetes nende suurenenud turvalisuse tõttu ja neid toetavad vaikimisi Windows, Android ja iPhone. DOH ja DOT kasutamiseks tuleb sisestada TLS-i hostinimi IP-aadressi asemel. Tasuta DOH ja DOT pakkujad on saadaval internetis. DOH ja DOT parandavad privaatsust ja turvalisust, vältides "mees keskel" ründeid. Muud olulised kaalutlused
+Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika kontrolli all. DNS-server võib olla tsensuuri all ja tihti kasutatakse petlikku DNS-i, et blokeerida juurdepääsu teatud saitidele. DNS on vana ja ebapiisavalt turvaline protokoll, mis võib kaasa tuua turvaprobleeme. On tekkinud uued protokollid, nagu DNSsec, kuid neid ei kasutata veel laialdaselt. Tsensuuri ja reklaamide blokeerimise vältimiseks on võimalik valida alternatiivseid DNS-pakkujaid. Intrusiivsete reklaamide alternatiivid hõlmavad Google DNS-i, OpenDNS-i ja muid sõltumatuid teenuseid. Standardne DNS-protokoll jätab DNS-päringud internetiteenuse pakkujale nähtavaks. DOH (DNS üle HTTPS) ja DOT (DNS üle TLS) krüpteerivad DNS-ühenduse, pakkudes suuremat privaatsust ja turvalisust. Neid protokolle kasutatakse laialdaselt ettevõtetes nende suurenenud turvalisuse tõttu ja neid toetavad vaikimisi Windows, Android ja iPhone. DOH ja DOT kasutamiseks tuleb sisestada TLS-i hostinimi IP-aadressi asemel. Tasuta DOH ja DOT pakkujad on saadaval internetis. DOH ja DOT parandavad privaatsust ja turvalisust, vältides "mees keskel" ründeid.
 
-"Security 101" koolitusmooduli osana Découvre Bitcoin Academy's arutasime ka Lightning autentimist. See süsteem genereerib iga teenuse jaoks erineva identifikaatori, ilma et oleks vaja esitada e-posti aadressi või isiklikku teavet. On võimalik omada kasutaja kontrollitud detsentraliseeritud identiteete, kuid detsentraliseeritud identiteediprojektides puudub standardiseerimine ja normaliseerimine. Soovitatavad on paketihaldurid nagu Nuget ja Chocolaté, mis võimaldavad alla laadida avatud lähtekoodiga tarkvara väljaspool Microsoft Store'i, et vältida pahatahtlikke rünnakuid. Kokkuvõttes on DNS oluline veebiturvalisuse jaoks, kuid on vajalik olla valvas võimalike rünnakute suhtes DNS-serverite vastu.
+Samuti tasub mainida süsteemi nimega "Lightning authentication". See süsteem genereerib iga teenuse jaoks erineva identifikaatori, ilma et oleks vaja esitada e-posti aadressi või isiklikku teavet. On võimalik omada kasutaja kontrollitud detsentraliseeritud identiteete, kuid detsentraliseeritud identiteediprojektides puudub standardiseerimine ja normaliseerimine. Soovitatavad on paketihaldurid nagu Nuget ja Chocolaté, mis võimaldavad alla laadida avatud lähtekoodiga tarkvara väljaspool Microsoft Store'i, et vältida pahatahtlikke rünnakuid. Kokkuvõttes on DNS oluline veebiturvalisuse jaoks, kuid on vajalik olla valvas võimalike rünnakute suhtes DNS-serverite vastu.
 
 # Lõpusektsioon
 

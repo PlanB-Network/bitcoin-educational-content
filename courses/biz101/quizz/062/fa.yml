@@ -1,0 +1,9 @@
+question: کدام راه‌حل جایگزین برای Swiss Bitcoin Pay برای پذیرش پرداخت‌های Bitcoin برای پروفایل Essential به‌طور 100٪ حضانتی است؟
+answer: گره باز
+wrong_answers:
+  - سرور BTCPay
+  - بیت‌کوینایز PoS
+  - ققنوس Wallet
+explanation: |
+  Open Node به عنوان یک راه‌حل کاملاً حضانتی توصیف می‌شود که با ماهیت ترکیبی Swiss Bitcoin Pay متفاوت است.
+reviewed: false

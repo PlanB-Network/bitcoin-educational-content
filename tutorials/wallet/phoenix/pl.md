@@ -170,7 +170,7 @@ Kliknij przycisk "*Odbierz*".
 ![Image](assets/fr/18.webp)
 
 
-Przesuń kod QR w prawo, aby wyświetlić Bitcoin odbierający Address. Wyślij kwotę, którą chcesz zdeponować w Phoenix.
+Przesuń kod QR w lewo, aby wyświetlić adres do odbioru Bitcoinów. Wyślij na ten adres kwotę, którą chcesz zdeponować na Phoenix.
 
 
 ![Image](assets/fr/19.webp)

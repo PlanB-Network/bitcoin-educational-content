@@ -1,5 +1,5 @@
 ---
-name: Paspor - Yayasan
+name: Passport Core
 description: Mengonfigurasi dan menggunakan dompet perangkat keras Passport dalam mode manual
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Mengonfigurasi dan menggunakan dompet perangkat keras Passport dala
 Passport adalah dompet perangkat keras khusus Bitcoin, yang dirancang oleh Foundation Devices, sebuah perusahaan Amerika yang didirikan pada bulan April 2020 di Boston.
 
 Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode "*Air-Gap*", memastikan kunci pribadi dompet Anda tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
+
+💡 **Pembaruan:** Sejak Maret 2025, nama dompet perangkat keras ini bukan lagi "Passport" atau "Passport V2", melainkan "Passport Core".
 
 Sedangkan untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
 
@@ -489,3 +491,4 @@ Selamat, Anda sekarang tahu cara mengonfigurasi dan menggunakan Passport. Jika A
 Untuk informasi lebih lanjut, lihat tutorial kami tentang perangkat lunak Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

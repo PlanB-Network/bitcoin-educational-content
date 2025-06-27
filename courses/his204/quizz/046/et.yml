@@ -1,0 +1,8 @@
+question: Mis oli Quesnay meditsiiniline elukutse enne majandusteadust?
+answer: Kirurg
+wrong_answers:
+  - Hambaarst
+  - Õde
+  - Apteeker
+explanation: |
+  François Quesnay oli enne majandusteadlaseks saamist kirurg. Ta oli isegi Madame de Pompadouri kirurg.

@@ -1,0 +1,8 @@
+question: Pourquoi l’échange est-il toujours et nécessairement un jeu à somme positive selon l’abbé de Saint-Pierre ?
+answer: Si deux hommes choisissent librement de contracter, c’est qu’ils y voient chacun leur avantage
+wrong_answers:
+  - Plus les biens changent souvent de mains, plus la nation s’enrichit
+  - Une nation qui échange est toujours plus riche qu’une nation qui vit dans l’autarcie
+  - Parce que Dieu le veut
+explanation: |
+  L'abbé de Saint-Pierre, comme d'autres penseurs libéraux, considérait que l'échange volontaire est mutuellement bénéfique. Si deux personnes acceptent de s'échanger quelque chose, c'est qu'elles estiment toutes les deux y gagner, sinon elles ne le feraient pas.

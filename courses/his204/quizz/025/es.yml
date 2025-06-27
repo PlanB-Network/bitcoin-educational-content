@@ -1,0 +1,8 @@
+question: ¿Por qué, según el abate de Saint-Pierre, Exchange es siempre y necesariamente un juego de suma positiva?
+answer: Si dos hombres deciden libremente entrar en un Contract, es porque cada uno ve una ventaja en ello
+wrong_answers:
+  - Cuanto más a menudo cambian de manos los bienes, más se enriquece la nación
+  - Una nación que comercia es siempre más rica que una que vive en autarquía
+  - Porque Dios lo quiere
+explanation: |
+  El abate de Saint-Pierre, como otros pensadores liberales, creía que la Exchange voluntaria es mutuamente beneficiosa. Si dos personas acuerdan Exchange algo, es porque ambas sienten que ganan algo, de lo contrario no lo harían.

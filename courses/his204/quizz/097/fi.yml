@@ -1,0 +1,8 @@
+question: Minkä syyn Dupont de Nemours esittää Assignatsin perustamisen lykkäämiselle?
+answer: Assignat nostaa hintoja
+wrong_answers:
+  - Assignatteja käytetään hyökkäyssotiin
+  - Assignat tuhoaa ulkomaisen pääoman
+  - Assignaatit loukkaavat omistusoikeuksia
+explanation: |
+  Dupont de Nemours pelkäsi kansalliskokouksen liikkeeseen laskeman paperivaluutan, assignattien, aiheuttamaa inflaatiota. Hän uskoi inflaation tuhoavan Ranskan talouden.

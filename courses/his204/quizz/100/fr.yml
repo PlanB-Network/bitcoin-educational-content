@@ -1,0 +1,8 @@
+question: Quel établissement bancaire est la conséquence finale des choix faits en 1789 et contre lesquels s’est exprimé Dupont de Nemours ?
+answer: La Banque de France
+wrong_answers:
+  - La Caisse d’épargne
+  - Le Crédit Agricole
+  - Le Banque Centrale Européenne
+explanation: |
+  La Banque de France est une conséquence des choix faits en 1789, critiqués par Dupont de Nemours, car il pensait que cela conduirait à une centralisation excessive du pouvoir financier et à une intervention excessive de l'État dans l'économie.

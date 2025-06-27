@@ -27,6 +27,7 @@ Rufen Sie [die offizielle Sparrow Wallet-Downloadseite] (https://sparrowwallet.c
 Es ist wichtig, die Integrität und Authentizität der Software zu überprüfen, bevor Sie sie installieren. Wenn Sie nicht wissen, wie man das macht, finden Sie hier eine vollständige Anleitung:
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Sobald Sparrow installiert ist, können Sie die anfänglichen Erklärungsbildschirme überspringen und direkt zum Bildschirm für die Verbindungsverwaltung gehen.
 
 ![Image](assets/fr/02.webp)
@@ -69,7 +70,9 @@ Bitte beachten Sie, dass Sie, wenn Sie einen beschnittenen Bitcoin-Kernknoten ve
 Um einen Bitcoin Core-Knoten zu konfigurieren, können Sie je nach Betriebssystem eine der folgenden Anleitungen zu Rate ziehen:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 Gehen Sie auf Sparrow auf die Registerkarte "*Bitcoin Core*".
 
 ![Image](assets/fr/07.webp)
@@ -218,6 +221,7 @@ Sie können ihn auf Papier beschriften oder, für zusätzliche Sicherheit, auf E
 Für weitere Informationen über die richtige Art und Weise, Ihren Mnemonic-Satz zu speichern und zu verwalten, empfehle ich Ihnen dringend, diese andere Anleitung zu befolgen, besonders wenn Sie ein Anfänger sind:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **Natürlich dürfen Sie diese Wörter niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet und wird am Ende des Tutorials gelöscht.**
@@ -225,6 +229,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Sie können auch ein passphrase BIP39 hinzufügen, indem Sie auf das Feld "*passphrase verwenden*" klicken. Warnung: Die Verwendung eines passphrase kann sehr nützlich sein, aber wenn Sie nicht verstehen, wie es funktioniert, kann es sehr riskant sein. Deshalb empfehle ich Ihnen dringend, diesen kurzen theoretischen Artikel zu diesem Thema zu lesen:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Wenn Sie Ihren Mnemonic und jeden passphrase auf einem physischen Medium gespeichert haben, klicken Sie auf "*Bestätigung der Sicherung*".
 
 ![Image](assets/fr/27.webp)
@@ -376,6 +381,7 @@ Dadurch gelangen Sie auf eine Seite, auf der der Elements Ihrer Transaktion ange
 Es ist wichtig, die Standardeinstellungen von Sighash beizubehalten. Um zu verstehen, warum, schauen Sie sich diesen Schulungskurs an, in dem ich alles erkläre, was Sie über Sighash wissen müssen:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Auf dem nächsten Bildschirm variieren die Optionen je nach Typ des Wallet, den Sie verwenden:
 
 

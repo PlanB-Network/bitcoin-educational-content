@@ -59,7 +59,7 @@ Ova obuka je zajednički napor troje naših profesora:
 
 - Renaud Lifchitz, stručnjak za sajber bezbednost
 - Théo Pantamis, doktor primenjene matematike
-- Rogzy, CEO od DécouvreBitcoin
+- Rogzy, Suosnivač Plan ₿ Network
 
 
 Vaša digitalna higijena je ključna u sve digitalnijem svetu. Uprkos stalnom porastu hakovanja i masovnog nadzora, nije kasno da preduzmete prvi korak i zaštitite se.
@@ -629,22 +629,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Rezervna postavka
-
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-
-Zaštita vaših ličnih fajlova je takođe ključna tačka. Ovaj vodič vam pokazuje kako da implementirate efikasnu strategiju bekapa koristeći Proton Drive. Otkrijte kako da koristite ovo sigurno cloud rešenje za primenu 3-2-1 metode: tri kopije vaših podataka na dva različita medija, sa jednom kopijom van lokacije. Ovo obezbeđuje dostupnost i sigurnost vaših osetljivih fajlova:
-
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-A da biste osigurali svoje fajlove pohranjene na prenosivim medijima kao što su USB drajv ili eksterni Hard drajv, takođe vam pokazujem kako lako enkriptovati i dekriptovati ove medije koristeći VeraCrypt:
-
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Promena pregledača i VPN-a
 
 
@@ -665,6 +649,22 @@ Takođe, naučite kako da koristite Tor Browser, pregledač posebno dizajniran d
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Rezervna postavka
+
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+
+Zaštita vaših ličnih fajlova je takođe ključna tačka. Ovaj vodič vam pokazuje kako da implementirate efikasnu strategiju bekapa koristeći Proton Drive. Otkrijte kako da koristite ovo sigurno cloud rešenje za primenu 3-2-1 metode: tri kopije vaših podataka na dva različita medija, sa jednom kopijom van lokacije. Ovo obezbeđuje dostupnost i sigurnost vaših osetljivih fajlova:
+
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+A da biste osigurali svoje fajlove pohranjene na prenosivim medijima kao što su USB drajv ili eksterni Hard drajv, takođe vam pokazujem kako lako enkriptovati i dekriptovati ove medije koristeći VeraCrypt:
+
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Idi dalje
 
@@ -734,7 +734,7 @@ Savladavanjem ovih veština i alata, bićete dobro opremljeni za uspešno snala�
 ### Efikasno Upravljanje Lozinkama i Jačanje Autentifikacije: Akademski Pristup
 
 
-U modulu obuke "Sigurnost 101" koji nudi Découvre Bitcoin unutar Akademije, diskutovali smo o važnosti menadžera lozinki. Tri dimenzije su ključne za razmatranje: kreiranje, ažuriranje i implementacija lozinki na veb sajtovima.
+Postoje tri ključne dimenzije koje treba uzeti u obzir kada se govori o menadžerima lozinki: kreiranje, ažuriranje i implementacija lozinki na veb sajtovima.
 
 
 Generalno se ne preporučuje korišćenje ekstenzija za pretraživače za automatsko popunjavanje lozinki. Ovi alati mogu učiniti korisnika podložnijim phishing napadima. Renaud, priznati stručnjak za sajber bezbednost, preferira ručno upravljanje koristeći KeePass, što podrazumeva ručno kopiranje i lepljenje lozinke. Ekstenzije obično povećavaju površinu napada, mogu usporiti performanse pretraživača i stoga predstavljaju značajan rizik. Stoga je minimalna upotreba ekstenzija na pretraživaču preporučena praksa.
@@ -771,10 +771,10 @@ Bezbednost računara može biti ugrožena jednostavnim praksama i korišćenjem 
 Treba napomenuti da je internet visoko centralizovan i uglavnom pod američkom kontrolom. DNS server može biti podložan cenzuri i često koristi obmanjujući DNS za blokiranje pristupa određenim sajtovima. DNS je star i nedovoljno siguran protokol, što može dovesti do sigurnosnih problema. Novi protokoli, kao što je DNSsec, su se pojavili, ali još uvek nisu široko korišćeni. Da bi se zaobišla cenzura i blokiranje oglasa, moguće je izabrati alternativne DNS provajdere.
 
 
-Alternative nametljivim oglasima uključuju Google DNS, OpenDNS i druge nezavisne usluge. Standardni DNS protokol ostavlja DNS upite vidljivim internet provajderu. DOH (DNS preko HTTPS) i DOT (DNS preko TLS) šifruju DNS konekciju, pružajući veću privatnost i sigurnost. Ovi protokoli su široko korišćeni u preduzećima zbog poboljšane sigurnosti i nativno su podržani od strane Windows, Android i iPhone uređaja. Da bi se koristili DOH i DOT, TLS hostname mora biti unet umesto IP Address. Besplatni DOH i DOT provajderi su dostupni online. DOH i DOT poboljšavaju privatnost i sigurnost izbegavanjem napada "čovek u sredini". Ostale ključne razmatranja
+Alternative nametljivim oglasima uključuju Google DNS, OpenDNS i druge nezavisne usluge. Standardni DNS protokol ostavlja DNS upite vidljivim internet provajderu. DOH (DNS preko HTTPS) i DOT (DNS preko TLS) šifruju DNS konekciju, pružajući veću privatnost i sigurnost. Ovi protokoli su široko korišćeni u preduzećima zbog poboljšane sigurnosti i nativno su podržani od strane Windows, Android i iPhone uređaja. Da bi se koristili DOH i DOT, TLS hostname mora biti unet umesto IP Address. Besplatni DOH i DOT provajderi su dostupni online. DOH i DOT poboljšavaju privatnost i sigurnost izbegavanjem napada "čovek u sredini".
 
 
-Kao deo modula obuke "Security 101" na Découvre Bitcoin Akademiji, takođe smo diskutovali o Lightning autentifikaciji. Ovaj sistem generiše različit identifikator za svaku uslugu, bez potrebe za pružanjem emaila Address ili ličnih informacija. Moguće je imati korisnički kontrolisane decentralizovane identitete, ali postoji nedostatak standardizacije i normalizacije u projektima decentralizovanih identiteta. Preporučuju se menadžeri paketa kao što su Nuget i Chocolaté, koji omogućavaju preuzimanje softvera otvorenog koda van Microsoft Store-a, kako bi se izbegli zlonamerni napadi. U zaključku, DNS je ključan za online sigurnost, ali je neophodno ostati oprezan protiv potencijalnih napada na DNS servere.
+Takođe vredi spomenuti sistem pod nazivom "Lightning authentication". Ovaj sistem generiše različit identifikator za svaku uslugu, bez potrebe za pružanjem emaila Address ili ličnih informacija. Moguće je imati korisnički kontrolisane decentralizovane identitete, ali postoji nedostatak standardizacije i normalizacije u projektima decentralizovanih identiteta. Preporučuju se menadžeri paketa kao što su Nuget i Chocolaté, koji omogućavaju preuzimanje softvera otvorenog koda van Microsoft Store-a, kako bi se izbegli zlonamerni napadi. U zaključku, DNS je ključan za online sigurnost, ali je neophodno ostati oprezan protiv potencijalnih napada na DNS servere.
 
 
 # Završni Deo

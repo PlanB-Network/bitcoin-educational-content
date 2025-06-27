@@ -42,7 +42,7 @@ Let's go back to our example of a Payjoin transaction for the payment of a bague
 ![Payjoin transaction schema from the outside](assets/en/2.webp)
 By seeing this transaction on the blockchain, an external observer who follows the usual heuristics of chain analysis would interpret it as follows: "*Alice merged 2 UTXOs as inputs of the transaction to pay `19,000 sats` to Bob*."
 ![Incorrect interpretation of Payjoin transaction from the outside](assets/en/3.webp)
-This interpretation is obviously incorrect because, as you already know, the two input UTXOs do not belong to the same person. Furthermore, the actual value of the payment is not `19,000 sats`, but rather `4,000 sats`. The analysis of the external observer is thus directed towards an erroneous conclusion, ensuring the preservation of the confidentiality of the stakeholders.![payjoin transaction diagram](assets/en/1.webp)
+This interpretation is obviously incorrect because, as you already know, the two input UTXOs do not belong to the same person. Furthermore, the actual value of the payment is not `19,000 sats`, but rather `4,000 sats`. The analysis of the external observer is thus directed towards an erroneous conclusion, ensuring the preservation of the privacy of the stakeholders.![payjoin transaction diagram](assets/en/1.webp)
 If you wish to analyze a real Payjoin transaction, here is one that I performed on the testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 [**-> Discover our tutorial on how to make a Payjoin with Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  

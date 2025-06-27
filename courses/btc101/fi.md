@@ -1061,7 +1061,9 @@ Nykyään Bitcoin jatkaa selviytymistään ja kasvuaan entisestään integroitum
 
 Bitcoinia voidaan pitää välineenä, jonka avulla voidaan luoda rinnakkaistalous fiat-valuutoille, koska on mahdollista myydä tavaroita tai palveluja ja saada maksu bitcoineina. Transaktiot voidaan tehdä suoraan Bitcoinilla ilman, että tarvitsee käydä vaihtofoorumin kautta, vaan yksinkertaisesti siirtyä Bitcoin-lompakosta toiseen.
 
-Bitcoin-talous on olemassa ja kehittyy tietyillä maailman alueilla, kuten El Salvadorissa, jossa Bitcoin on ollut laillinen maksuväline vuodesta 2021 lähtien. Kaikkialla ympärillämme on joitakin yksityishenkilöitä, yrityksiä ja organisaatioita, jotka jo hyväksyvät Bitcoinin maksuvälineenä tuotteistaan tai palveluistaan.
+Bitcoin-taloustiede on olemassa ja kehittyy tietyillä alueilla maailmassa, kuten El Salvadorissa, jossa Bitcoinista tuli laillinen maksuväline vuonna 2021. Valitettavasti tammikuussa 2025 kokoontuminen hyväksyi uuden lain, joka riisti Bitcoinilta "laillisen maksuvälineen" arvon, ilmeisesti kansainvälisen valuuttarahaston painostuksen jälkeen. Uuden lain mukaan ihmiset eivät enää ole velvollisia hyväksymään Bitcoinia liiketoiminnassaan, eivätkä he voi enää maksaa veroja sen avulla. Hyväksyminen pysyy vapaaehtoisena.
+
+Siitä huolimatta El Salvadorissa ja muualla maailmassa yhä useammat yksilöt, yritykset ja organisaatiot hyväksyvät Bitcoinin maksuvälineenä tuotteidensa tai palveluidensa maksamiseen.
 
 ![image](assets/en/72.webp)
 

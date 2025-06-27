@@ -44,7 +44,7 @@ Théo；貢獻
 
 - 網路安全專家 Renaud Lifchitz
 - Théo Pantamis，應用數學博士
-- Rogzy，DécouvreBitcoin 執行長
+- Rogzy，Plan ₿ Network的聯合創始人
 
 在日益數位化的世界中，您的數位衛生是至關重要的。儘管黑客攻擊和大規模監控不斷增加，現在踏出第一步保護自己還不算太晚。
 
@@ -443,16 +443,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
-## 備份設定
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-保護您的個人檔案也是非常重要的一點。本教程將教您如何使用 Proton Drive 實施有效的備份策略。了解如何使用此安全雲端解決方案來應用 3-2-1 方法：在兩種不同媒體上備份三份資料，並在異地備份一份。這可確保您敏感檔案的可存取性與安全性：
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-為了確保儲存在 USB 磁碟機或外接式 Hard 磁碟機等抽取式媒體上的檔案安全，我也會教您如何使用 VeraCrypt 輕鬆加密和解密這些媒體：
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 ## 變更瀏覽器和 VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -466,6 +456,16 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 此外，還可學習如何使用 Tor 瀏覽器，這是專為保護您的線上隱私而設計的瀏覽器：
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+## 備份設定
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+保護您的個人檔案也是非常重要的一點。本教程將教您如何使用 Proton Drive 實施有效的備份策略。了解如何使用此安全雲端解決方案來應用 3-2-1 方法：在兩種不同媒體上備份三份資料，並在異地備份一份。這可確保您敏感檔案的可存取性與安全性：
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+為了確保儲存在 USB 磁碟機或外接式 Hard 磁碟機等抽取式媒體上的檔案安全，我也會教您如何使用 VeraCrypt 輕鬆加密和解密這些媒體：
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 # 更進一步
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
@@ -515,7 +515,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 ### 高效的密碼管理與認證強化：學術方法
 
-在 Découvre Bitcoin 在學院內提供的「安全 101」訓練單元中，我們討論了密碼管理員的重要性。必須考慮三個層面：在網站上建立、更新和實施密碼。
+在談論密碼管理器時，有三個關鍵維度需要考慮：在網站上建立、更新和實施密碼。
 
 一般不建議使用瀏覽器擴充套件來自動填寫密碼。這些工具會讓使用者更容易受到網路釣魚攻擊。Renaud 是公認的網路安全專家，他比較喜歡使用 KeePass 進行手動管理，也就是手動複製和貼上密碼。擴充套件往往會增加攻擊面，可能會導致瀏覽器效能變慢，因此會帶來很大的風險。因此，建議在瀏覽器上使用最少的擴充套件。
 
@@ -541,9 +541,9 @@ Passkiz 是另一種可行且安全的密碼管理選擇。然而，一個主要
 
 還應該注意的是，網際網路是高度集中的，主要由美國人控制。DNS 伺服器可能會受到審查，並經常採用欺騙性的 DNS 來封鎖某些網站的存取。DNS 是一種老舊且安全性不足的通訊協定，可能會導致安全問題。新的通訊協定（如 DNSsec）已經出現，但仍未被廣泛使用。要繞過審查和廣告封鎖，可以選擇其他 DNS 供應商'。
 
-侵擾性廣告的替代方案包括 Google DNS、OpenDNS 及其他獨立服務。標準 DNS 通訊協定會讓網際網路服務供應商看到 DNS 查詢。DOH (DNS over HTTPS) 和 DOT (DNS over TLS) 加密 DNS 連線，提供更高的隱私性和安全性。這些通訊協定因其強化的安全性而在企業中廣泛使用，並由 Windows、Android 和 iPhone 原生支援。若要使用 DOH 和 DOT，必須輸入 TLS 主機名稱，而非 IP Address。您可在線上取得免費的 DOH 和 DOT 供應商。DOH 和 DOT 可避免「中間人」攻擊，從而改善隱私和安全性。其他主要注意事項
+侵擾性廣告的替代方案包括 Google DNS、OpenDNS 及其他獨立服務。標準 DNS 通訊協定會讓網際網路服務供應商看到 DNS 查詢。DOH (DNS over HTTPS) 和 DOT (DNS over TLS) 加密 DNS 連線，提供更高的隱私性和安全性。這些通訊協定因其強化的安全性而在企業中廣泛使用，並由 Windows、Android 和 iPhone 原生支援。若要使用 DOH 和 DOT，必須輸入 TLS 主機名稱，而非 IP Address。您可在線上取得免費的 DOH 和 DOT 供應商。DOH 和 DOT 可避免「中間人」攻擊，從而改善隱私和安全性。
 
-作為 Découvre Bitcoin 學院「安全 101」訓練模組的一部分，我們也討論了 Lightning 認證。此系統可為每個服務產生不同的識別碼，而無需提供電子郵件 Address 或個人資訊。由使用者控制分散式身分是可能的，但分散式身分專案缺乏標準化與規範化。為了避免惡意攻擊，建議使用 Nuget 和 Chocolaté 等套件管理器，這些套件管理器允許下載微軟商店以外的開放原始碼軟體。總括而言，DNS 對於線上安全至關重要，但必須對 DNS 伺服器可能遭受的攻擊保持警覺。
+還值得提到一個名為“Lightning authentication”的系統。此系統可為每個服務產生不同的識別碼，而無需提供電子郵件 Address 或個人資訊。由使用者控制分散式身分是可能的，但分散式身分專案缺乏標準化與規範化。為了避免惡意攻擊，建議使用 Nuget 和 Chocolaté 等套件管理器，這些套件管理器允許下載微軟商店以外的開放原始碼軟體。總括而言，DNS 對於線上安全至關重要，但必須對 DNS 伺服器可能遭受的攻擊保持警覺。
 
 # 總結
 

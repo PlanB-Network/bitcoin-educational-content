@@ -1,10 +1,10 @@
 ---
-name: Utangulizi wa Uchumi wa Austria
+name: Utambulisho wa Uchumi wa Austria
 goal: Gundua shule ya Austria ya mawazo ya kiuchumi. Jifunze maoni yao juu ya jamii na hali halisi za uchumi mkuu/kiuchumi.
 objectives: 
 
-  - Njia mbadala ya Ukenesia
-  - Umuhimu wa sarafu ya Hard
+  - Njia mbadala ya Ukeynesia
+  - Umuhimu wa Sarafu imara
   - Kwa nini na vipi mizunguko yetu ya kiuchumi inaundwa?
   - Kwa nini benki kuu zimekasirika?
 
@@ -13,22 +13,25 @@ objectives:
 
 Karibu kwenye kozi ya Théo Mogenet! Akiwa na shauku ya uchumi, historia, fasihi, sayansi ya siasa na teknolojia, ameamua kushiriki nawe ujuzi wake wa uchumi wa Austria. Tawi hili, ambalo halijulikani sana katika uchumi, linategemea busara ya kibinadamu na tabia huru ya mwigizaji. Chini ya makali katika hisabati, ni swali la mantiki na utafiti wa kijamii juu ya yote.
 
-Shule hii ya mawazo tayari imekuwa na karne kadhaa nyuma yake na ina panorama nzima ya waandishi, mawazo, na wachumi nyuma yake. Majina makuu katika uchumi kama vile Hayek, Rothbard, Mises, Bastiat, au Menger wametetea harakati hii kwa muda mrefu. Kinyume na Ukenesia uliopo kila mahali wa siku zetu, shule ya Austria inamweka mtu nyuma katikati ya mlingano kwa njia ya huria zaidi, ya ubepari, na hata ya anarchist.
+Mwelekeo huu wa kifikra tayari una karne kadhaa nyuma yake na una mandhari pana ya waandishi mbalimbali, mawazo, na wachumi nyuma yake. Majina makuu katika uchumi kama vile Hayek, Rothbard, Mises, Bastiat, au Menger wametetea harakati hii kwa muda mrefu. Kinyume na Ukenesia uliopo kila mahali wa siku zetu, shule ya Austria inamweka mtu nyuma katikati ya mlingano kwa njia ya huria zaidi, ya ubepari,Mtazamo wa uanarkia.
 
 +++
 # Utangulizi wa ECON
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Utangulizi
+## Muhtasari wa Kozi
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Hamjambo nyote na karibu kwenye Econ 201: Utangulizi wa Uchumi wa Austria.
+Karibu kwenye kozi ya ECO201!.
 
-Katika kozi hii inayotolewa na Théo Mogenet, utagundua tawi hili la uchumi ambalo ni tofauti sana na fundisho la Keynesi. Hadi sasa, unaweza kuwa umejifunza kwamba uzalishaji na usimamizi wa fedha ulikuwa wajibu wa benki kuu, kwa wazo kwamba uchapishaji wa fedha na matumizi hukuza ukuaji. Walakini, kuna shule nyingine ya mawazo ya kiuchumi: uchumi wa Austria. Kwa zaidi ya miaka 200 ya utafiti na maendeleo, tafakari za kifalsafa, na maandishi ya waandishi mashuhuri, mbinu hii inasisitiza maono ya kina zaidi ya ukuaji na busara ya kibinadamu katika uchumi wetu.
+Katika kozi hii inayotolewa na Théo Mogenet, utagundua tawi hili la uchumi ambalo ni tofauti sana na fundisho la Keynesi. Hadi sasa, unaweza kuwa umejifunza kwamba uzalishaji na usimamizi wa fedha ulikuwa wajibu wa benki kuu, kwa wazo kwamba uchapishaji wa fedha na matumizi hukuza ukuaji. Walakini, kuna shule nyingine ya mawazo ya kiuchumi:**Austrian Economics**
 
-Kwa kweli, uchumi ni uwanja wa kijamii na ngumu sana, unaojumuisha maelfu ya watendaji wadogo waliounganishwa ambao kwa pamoja wanachangia kuunda umoja kamili. Badala ya kukaribia taaluma hii kupitia milinganyo ya hisabati, lazima tuielewe kutoka kwa mtazamo wa mantiki ya binadamu na sosholojia. Katika kozi hii, tutachunguza dhana za kimsingi za uchumi wa Austria. Mwalimu wako, Théo Mogenet, ni profesa mwenye shauku na stadi wa uchumi wa Austria.
+Kwa zaidi ya miaka 200 ya utafiti na maendeleo, tafakari za kifalsafa, na maandishi ya waandishi mashuhuri, mbinu hii inasisitiza maono ya kina zaidi ya ukuaji na busara ya kibinadamu katika uchumi wetu.
+
+Kwa kweli, uchumi ni uwanja wa kijamii na ngumu sana, unaojumuisha maelfu ya watendaji wadogo waliounganishwa ambao kwa pamoja wanachangia kuunda umoja kamili. Badala ya kukaribia taaluma hii kupitia milinganyo ya hisabati, lazima tuielewe kutoka kwa mtazamo wa mantiki ya binadamu na sosholojia. 
+Katika kozi hii, tutachunguza dhana za kimsingi za uchumi wa Austria. Mwalimu wako, Théo Mogenet, ni profesa mwenye shauku na stadi wa uchumi wa Austria.
 
 Kuanza, tunakupa video ya bonasi ambayo itaeleza jinsi mfumo wetu wa sasa wa kifedha unavyofanya kazi. Utagundua jinsi benki za biashara na benki kuu zinavyoingiliana na kuendesha uchumi. Tutashiriki Address wahusika wakuu katika ulimwengu wetu wa kifedha na jinsi ujumuishaji huu wa mamlaka kati ya taasisi fulani za kiuchumi unaweza kusababisha matumizi mabaya na migogoro ya kifedha.
 

@@ -275,8 +275,8 @@ Izvajanje coinjoinov prek Samourai Wallet z uporabo lastnega Dojo je po mojem mn
 ඒ අනුව, මෙම ක්‍රමය උපරිම පෞද්ගලිකත්වය සහ ඉහළම ගුණාත්මක CoinJoin චක්‍ර සඳහා සොයන අය සඳහා ඉතා සුදුසු වේ. කෙසේ වෙතත්, එය ඔබේ අතේ Bitcoin නියමක තිබීම අවශ්‍ය වන අතර, අපි පසුව දැක ඇති පරිදි, කිසියම් සකසීමක් අවශ්‍ය වේ. එබැවින්, එය මධ්‍යම සිට ඉහළ පරිශීලකයින්ට වඩා සුදුසු වේ. ආරම්භකයින් සඳහා, මම Sparrow Wallet හෝ Samourai Wallet (Dojo නොමැතිව) මඟින් එය කරන්නේ කෙසේද යන්න පෙන්වන මෙම වෙනත් උපකාරක දෙක හරහා CoinJoin සමඟ පරිචය වීම නිර්දේශ කරමි:
 
 
-- [Sparrow Wallet CoinJoin උපදේශක](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Samourai Wallet CoinJoin ट्युटोरियल (बिना Dojo)](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- [Sparrow Wallet CoinJoin උපදේශක](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Samourai Wallet CoinJoin ट्युटोरियल (बिना Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 
 ### සැකසුම අවබෝධ කර ගැනීම
@@ -287,7 +287,7 @@ Za začetek boste potrebovali Dojo! Dojo je implementacija vozlišča Bitcoin, k
 Če želite voditi svoj Dojo, imate možnost, da bodisi samostojno namestite Dojo vozlišče, bodisi izkoristite Dojo na vrhu druge rešitve "node-in-box" Bitcoin vozlišča. Trenutno so na voljo možnosti:
 
 
-- [RoninDojo](https://ronindojo.io/), එය ස්ථාපන සහයකයෙකු සහ පරිපාලන සහයකයෙකු ඇතුළු අමතර මෙවලම් සමඟ වැඩි දියුණු කරන ලද Dojo එකකි. RoninDojo පිහිටුවීම සහ භාවිතය සඳහා ක්‍රමවේදය මම මෙම වෙනත් උපකාරකයේ විස්තර කරමි: [RONINDOJO V2](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), එය ස්ථාපන සහයකයෙකු සහ පරිපාලන සහයකයෙකු ඇතුළු අමතර මෙවලම් සමඟ වැඩි දියුණු කරන ලද Dojo එකකි. RoninDojo පිහිටුවීම සහ භාවිතය සඳහා ක්‍රමවේදය මම මෙම වෙනත් උපකාරකයේ විස්තර කරමි: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) සමඟ "Samourai Server" යෙදුම;
 - [MyNode](https://mynodebtc.com/) සමඟ "Dojo" යෙදුම;
 - [Nodl](https://www.nodl.eu/) z aplikacijo "Dojo";
@@ -412,7 +412,7 @@ Za začetek boste potrebovali Dojo! Dojo je implementacija vozlišča Bitcoin, k
 ![coinjoin](assets/notext/24.webp)
 
 
-*Za nove uporabnike Samourai bo nato potrebno ustvariti Wallet iz nič. Če potrebujete pomoč, lahko preberete navodila za nastavitev novega Samourai Wallet [v tem priročniku, posebej v razdelku "Ustvarjanje Software Wallet"](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
+*Za nove uporabnike Samourai bo nato potrebno ustvariti Wallet iz nič. Če potrebujete pomoč, lahko preberete navodila za nastavitev novega Samourai Wallet [v tem priročniku, posebej v razdelku "Ustvarjanje Software Wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 
 If you are proceeding with the restoration of an already existing Samourai Wallet, select `Restore existing Wallet`, then choose `I have a Samourai backup file`.
@@ -588,4 +588,4 @@ Whirlpool ගිණුම් Samourai Wallet මත ඔවුන්ගේ නි
 ![coinjoin](assets/notext/53.webp)
 
 
-ඔබේ ස්වයංක්‍රීය කෝන්ජොයින් සටහන් තබා ගැනීම සඳහා, මම Sentinel යෙදුම හරහා Watch-only wallet සකස් කිරීමද නිර්දේශ කරමි. ඔබේ **Postmix** ගිණුමේ ZPUB එක එක්කර, ඔබේ CoinJoin චක්‍රවල ප්‍රගතිය වත්මන් කාලීනව නිරීක්ෂණය කරන්න. Sentinel භාවිතා කරන ආකාරය තේරුම් ගැනීමට ඔබට අවශ්‍ය නම්, PlanB ජාලයේ මෙම වෙනත් උපකාරකය අනුගමනය කිරීමට මම නිර්දේශ කරමි: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/Wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+ඔබේ ස්වයංක්‍රීය කෝන්ජොයින් සටහන් තබා ගැනීම සඳහා, මම Sentinel යෙදුම හරහා Watch-only wallet සකස් කිරීමද නිර්දේශ කරමි. ඔබේ **Postmix** ගිණුමේ ZPUB එක එක්කර, ඔබේ CoinJoin චක්‍රවල ප්‍රගතිය වත්මන් කාලීනව නිරීක්ෂණය කරන්න. Sentinel භාවිතා කරන ආකාරය තේරුම් ගැනීමට ඔබට අවශ්‍ය නම්, PlanB ජාලයේ මෙම වෙනත් උපකාරකය අනුගමනය කිරීමට මම නිර්දේශ කරමි: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

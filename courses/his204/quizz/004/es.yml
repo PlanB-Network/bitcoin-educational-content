@@ -1,0 +1,8 @@
+question: ¿Por qué, según los discípulos de Colbert, el comercio es una guerra perpetua?
+answer: Las naciones sólo pueden enriquecerse a costa de las demás
+wrong_answers:
+  - Los buques de guerra son necesarios para apoyar el comercio
+  - El comercio florece más en tiempos de guerra
+  - El comercio es una competencia constante por los recursos
+explanation: |
+  En la visión mercantilista, la riqueza mundial se considera una cantidad fija. En consecuencia, el enriquecimiento de una nación se produce necesariamente a costa de las demás, de ahí la idea de una "guerra económica" permanente.

@@ -1,9 +1,9 @@
 question: Kuinka suuri on lohkon koko Bitcoin-protokollassa?
-answer: 1MB.
+answer: 4MB.
 wrong_answers:
-  - 0.5MB.
+  - 1MB.
   - 2MB.
   - 3MB.
 explanation: >-
-  Lohkon koko Bitcoin-protokollassa on 1MB.
+  Lohkon koko Bitcoin-protokollassa on 4MB.
 reviewed: true

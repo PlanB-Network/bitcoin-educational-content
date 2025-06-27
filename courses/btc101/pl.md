@@ -1542,7 +1542,9 @@ Obecnie Bitcoin nadal przetrwa i rozwija się jeszcze bardziej dzięki coraz wi�
 Bitcoin można postrzegać jako narzędzie do tworzenia gospodarki równoległej do walut fiducjarnych, ponieważ możliwe jest sprzedawanie towarów lub usług i otrzymywanie zapłaty w Bitcoin. Transakcje mogą być dokonywane bezpośrednio w Bitcoin, bez konieczności przechodzenia przez platformę Exchange, ale po prostu przechodząc z Bitcoin Wallet na inną.
 
 
-Gospodarka Bitcoin istnieje i rozwija się w niektórych regionach świata, takich jak Salwador, gdzie Bitcoin jest legalnym środkiem płatniczym od 2021 roku. Wokół nas są osoby, firmy i organizacje, które już akceptują Bitcoin jako środek płatniczy za swoje produkty lub usługi.
+Gospodarka Bitcoin istnieje i rozwija się w niektórych regionach świata, takich jak El Salvador, gdzie Bitcoin stał się prawnym środkiem płatniczym w 2021 roku. Niestety, w styczniu 2025 roku zgromadzenie uchwaliło nową ustawę, która pozbawiła Bitcoin tytułu "prawnego środka płatniczego", rzekomo po wywarciu presji ze strony Międzynarodowego Funduszu Walutowego. Zgodnie z nową ustawą ludzie nie są już zobowiązani do akceptowania Bitcoin w swoich firmach i nie mogą już płacić podatków za jego pomocą. Akceptacja pozostaje dobrowolna.
+
+Niemniej jednak, w El Salvadorze i w innych częściach świata coraz więcej osób, firm i organizacji akceptuje Bitcoin jako środek płatniczy za swoje produkty lub usługi.
 
 
 ![image](assets/en/72.webp)

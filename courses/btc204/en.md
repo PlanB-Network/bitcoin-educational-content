@@ -2060,7 +2060,7 @@ To create a coinjoin via Whirlpool, the wallet must generate several separate ac
 
 ![BTC204](assets/fr/143.webp)
 
-An HD wallet can theoretically derive up to `2^(32/2)` different accounts. The initial account, used by default on all Bitcoin wallets, corresponds to the `0'` index.
+An HD wallet can theoretically derive up to `2^(31)` different accounts. The initial account, used by default on all Bitcoin wallets, corresponds to the `0'` index.
 
 For portfolios adapted to Whirlpool, 4 accounts are used to meet the needs of the ZeroLink process:
 
@@ -2374,7 +2374,7 @@ E_f &= 100 \%
 \end{align*}
 $$
 
-An efficiency of $100 indicates that the transaction is making the most of its confidentiality potential, depending on its structure.
+An efficiency of $100$ indicates that the transaction is making the most of its confidentiality potential, depending on its structure.
 
 ### Entropy density
 
@@ -2525,8 +2525,7 @@ However, it would be interesting to have transaction structures that allow payme
 
 The payjoin is a specific Bitcoin transaction structure that enhances user privacy when spending by collaborating with the payment recipient.
 
-LaurentMT first referred to this method as "*steganographic transactions*" in 2015, according to a document accessible [here](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). The technique was subsequently adopted by Samourai Wallet, which in 2018 became the first customer to implement it with the Stowaway tool. The concept of payjoin can also be found in [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) and [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Several terms are used to designate a payjoin:
-
+It was in 2015 that LaurentMT first discussed this method under the name "*steganographic transactions*", according to a document available [here](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). This technique was later adopted by the Samourai Wallet, which in 2018 became the first client to implement it using the Stowaway tool. The concept of payjoin is also found in [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki), and [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Several terms are thus used to refer to a payjoin:
 
 - Payjoin ;
 - Stowaway;

@@ -1,0 +1,9 @@
+question: کدام سرویسی که Bitcoin را می‌پذیرفت توسط Teppy، فردی که Bitcoin را در Slashdot در تاریخ 11 ژوئیه 2010 معرفی کرد، مدیریت می‌شد؟
+answer: بازی MMORPG A Tale in the Desert
+wrong_answers:
+  - وی‌پی‌ان Mullvad
+  - سرویس VoIP لینک2ویپ
+  - سرویس میزبانی وب Vekja.net
+explanation: |
+  این یکی [شروع کرد](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) به پذیرش Bitcoin در 19 مه.
+reviewed: false

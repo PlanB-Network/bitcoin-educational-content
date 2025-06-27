@@ -1,0 +1,8 @@
+question: Millise äriga tegeleb Dupont de Nemours et Cie, mille asutas prantsuse majandusteadlase poeg?
+answer: Keemia ja bioloogia
+wrong_answers:
+  - Pangandus ja kindlustus
+  - Tekstiil
+  - Toiduainetööstus
+explanation: |
+  Dupont de Nemours on keemia- ja bioloogiaettevõte, mille asutas majandusteadlase Pierre-Samuel Dupont de Nemoursi poeg.

@@ -1,0 +1,9 @@
+question: عنوان روزنامه بریتانیایی که در بلوک Bitcoin Genesis در ژانویه 2009 گنجانده شده بود، چه بود؟
+answer: تایمز
+wrong_answers:
+  - گاردین
+  - ایندیپندنت
+  - تلگراف
+explanation: |
+  دقیقاً نوشته شده بود The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.
+reviewed: false

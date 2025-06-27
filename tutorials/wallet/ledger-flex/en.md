@@ -4,6 +4,8 @@ description: Setting up and using the Ledger Flex
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/V3wnS9_Ieyc)
+
 A hardware wallet is an electronic device dedicated to managing and securing the private keys of a Bitcoin wallet. Unlike software wallets (or hot wallets) installed on general-purpose machines often connected to the Internet, hardware wallets allow for the physical isolation of private keys, reducing the risks of hacking and theft.
 
 The main goal of a hardware wallet is to minimize the device's functionalities to reduce its attack surface. Less attack surface also means fewer potential attack vectors, i.e., fewer weak points in the system that attackers could exploit to access bitcoins.

@@ -1,0 +1,8 @@
+question: Zašto su ga zvali Dupont de Nemours, iako je rođen kao Pierre-Samuel Du Pont?
+answer: Da ga razlikujemo od ostalih Duponta iz Skupštine 1789
+wrong_answers:
+  - On je plemenitog porekla
+  - Oženio se groficom de Nemours
+  - Bilo je to pseudonim
+explanation: |
+  "de Nemours" je dodat imenu Pierre-Samuel Dupont kako bi se razlikovao od drugih Dupontovih koji su sedeli u Assemblée Constitante 1789. godine.

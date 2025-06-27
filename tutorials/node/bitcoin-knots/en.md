@@ -4,6 +4,8 @@ description: How do I launch a node with the Bitcoin Knots alternative client?
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/zT4NuAaH3EM)
+
 Bitcoin Knots is an alternative implementation of the Bitcoin protocol, derived from Bitcoin Core. Designed and maintained by Luke Dashjr, it offers some additional features and rule adjustments from Mempool, while remaining compatible with other nodes on the network. Bitcoin Knots integrates a Bitcoin wallet, but can also be used as a simple Bitcoin node alongside other wallet software.
 
 ## Why use Knots rather than Core?

@@ -1,6 +1,6 @@
 ---
 name: Utafiti wa mfumuko wa bei
-goal: Kuelewa kuibuka kwa mfumuko wa bei katika ulimwengu wa Fiat na matokeo yao
+goal: Kuelewa kuibuka kwa mfumuko wa bei katika ulimwengu wa pesa za Fiat money (pesa za serikali) na matokeo yao
 objectives: 
 
   - Soma mizunguko ya mfumuko wa bei
@@ -11,9 +11,9 @@ objectives:
 ---
 # Safari ya kuingia kwenye uchumi
 
-Mpango huu unalenga kutoa uelewa wa kina wa kuibuka kwa mfumuko wa bei katika ulimwengu unaotawaliwa na sarafu ya Fiat na kuchunguza matokeo yao muhimu. Washiriki watachunguza mizunguko ya mfumuko wa bei kwa undani, wakichanganua sababu, vichochezi, na mifano ya kihistoria na ya kisasa. Pia watachunguza athari zinazoonekana za mfumuko wa bei kwenye uchumi na maisha ya kila siku, wakisoma athari kwenye thamani ya sarafu, uwezo wa kununua, na akiba ya mtu binafsi na ya pamoja.
+Mpango huu unalenga kutoa uelewa wa kina wa kuibuka kwa mfumuko wa bei katika ulimwengu unaotawaliwa na sarafu ya Fiat money (pesa za serikali) na kuchunguza matokeo yao muhimu. Washiriki watachunguza mizunguko ya mfumuko wa bei kwa undani, wakichanganua sababu, vichochezi, na mifano ya kihistoria na ya kisasa. Pia watachunguza athari zinazoonekana za mfumuko wa bei kwenye uchumi na maisha ya kila siku, wakisoma athari kwenye thamani ya sarafu, uwezo wa kununua, na akiba ya mtu binafsi na ya pamoja.
 
-Hapa, tutaangazia mitindo na mifumo ya kawaida katika vipindi vya mfumuko mkubwa wa bei katika historia yote, huku tukitoa mikakati madhubuti na thabiti ya kujilinda katika vipindi vya mfumuko mkubwa wa bei. Washiriki watakuwa na fursa ya kuchunguza chaguzi mbalimbali za uwekezaji na mbinu za ulinzi wa kifedha, kupata zana za vitendo na ujuzi muhimu ili kuzunguka kwa utulivu katika hali ya kiuchumi isiyo imara.
+Hapa, tutaangazia mitindo na mifumo ya kawaida katika vipindi vya mfumuko mkubwa wa bei katika historia yote, huku tukitoa mikakati madhubuti na thabiti ya kujilinda katika vipindi vya hyperinflation (mfuko mkubwa wa bei). Washiriki watakuwa na fursa ya kuchunguza chaguzi mbalimbali za uwekezaji (investment) na mbinu za Ulinzi wa kifedha (financial protection), kupata zana za vitendo na ujuzi muhimu ili kuzunguka kwa utulivu katika Hali ya kiuchumi isiyo imara (economic instability).
 
 +++
 # Utangulizi
@@ -24,9 +24,9 @@ Hapa, tutaangazia mitindo na mifumo ya kawaida katika vipindi vya mfumuko mkubwa
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Mpango huu unalenga kutoa uelewa wa kina wa kuibuka kwa mfumuko wa bei katika ulimwengu unaotawaliwa na sarafu ya Fiat na kuchunguza matokeo yao muhimu. Washiriki watachunguza mizunguko ya mfumuko wa bei kwa undani, wakichanganua sababu, vichochezi, na mifano ya kihistoria na ya kisasa. Pia watachunguza athari zinazoonekana za mfumuko wa bei kwenye uchumi na maisha ya kila siku, wakisoma athari kwenye thamani ya sarafu, uwezo wa kununua, na akiba ya mtu binafsi na ya pamoja.
+Mpango huu unalenga kutoa uelewa wa kina wa kuibuka kwa mfumuko wa bei katika ulimwengu unaotawaliwa na sarafu ya Fiat money (pesa za serikali) na kuchunguza matokeo yao muhimu. Washiriki watachunguza mizunguko ya mfumuko wa bei kwa undani, wakichanganua sababu, vichochezi, na mifano ya kihistoria na ya kisasa. Pia watachunguza athari zinazoonekana za mfumuko wa bei kwenye uchumi na maisha ya kila siku, wakisoma athari kwenye thamani ya sarafu, uwezo wa kununua, na akiba ya mtu binafsi na ya pamoja.
 
-Hapa, tutaangazia mitindo na mifumo ya kawaida katika vipindi vya mfumuko mkubwa wa bei katika historia yote, huku tukitoa mikakati madhubuti na thabiti ya kujilinda katika vipindi vya mfumuko mkubwa wa bei. Washiriki watakuwa na fursa ya kuchunguza chaguzi mbalimbali za uwekezaji na mbinu za ulinzi wa kifedha, kupata zana za vitendo na ujuzi muhimu ili kuzunguka kwa utulivu katika hali ya kiuchumi isiyo imara.
+Hapa, tutaangazia mitindo na mifumo ya kawaida katika vipindi vya mfumuko mkubwa wa bei katika historia yote, huku tukitoa mikakati madhubuti na thabiti ya kujilinda katika vipindi vya mfumuko mkubwa wa bei. Washiriki watakuwa na fursa ya kuchunguza chaguzi mbalimbali za uwekezaji (investment) na mbinu za Ulinzi wa kifedha (financial protection), kupata zana za vitendo na ujuzi muhimu ili kuzunguka kwa utulivu katika Hali ya kiuchumi isiyo imara (economic instability).
 
 ### Mtaala
 
@@ -40,7 +40,7 @@ Sehemu ya 2 - Mfumuko wa bei ni nini?
 
 - 2.1 - Hali ya kifedha
 - 2.2 - Aina za mfumuko wa bei
-- 2.3 - Upungufu wa bei
+- 2.3 - deflationary (upungufu wa bei)
 
 Sehemu ya 3 - Je! mfumuko wa bei ni nini?
 
@@ -55,7 +55,7 @@ Sehemu ya 3 - Je! mfumuko wa bei ni nini?
 Sehemu ya 4 - Tumefikaje hapa?
 
 
-- 4.1 - Kuibuka kwa Layer ya pili ya pesa na benki kuu
+- 4.1 - Kuibuka kwa Layer (Safu) ya pili ya pesa na benki kuu
 - 4.2 - Vitabu na rasilimali
 
 Bahati nzuri!
@@ -78,30 +78,30 @@ Mfumuko wa bei ni dhana ambayo mara nyingi haieleweki kutokana na fasili nyingi 
 
 ![image](assets/chapitre-2.1/4.webp)
 
-Kwa kuzingatia ufafanuzi huu, ni muhimu kuelewa kwamba, kwa Robert, mfumuko wa bei unahusu hasa ongezeko la fedha Supply. Kwa upande mwingine, Larousse inazingatia matokeo ya upanuzi huu, yaani kupanda kwa bei kwa jumla.
+Kwa kuzingatia ufafanuzi huu, ni muhimu kuelewa kwamba, kwa Robert, mfumuko wa bei unahusu hasa ongezeko la usambazaji wa fedha. Kwa upande mwingine, Larousse inazingatia matokeo ya upanuzi huu, yaani kupanda kwa bei kwa jumla.
 
-Katika utafiti wetu juu ya mfumuko wa bei, tutapitisha ufafanuzi wa pili, ule wa kupanda kwa bei kwa jumla, kwani ni muhimu zaidi na wazi kwa somo letu. Hata hivyo, ni muhimu kukumbuka kwamba kupanda huku kwa bei kwa ujumla ni matokeo ya upanuzi wa fedha Supply.
+Katika utafiti wetu juu ya mfumuko wa bei, tutapitisha ufafanuzi wa pili, ule wa kupanda kwa bei kwa jumla, kwani ni muhimu zaidi na wazi kwa somo letu. Hata hivyo, ni muhimu kukumbuka kwamba kupanda huku kwa bei kwa ujumla ni matokeo ya upanuzi wa usambazaji wa fedha.
 
 Mwanauchumi maarufu Milton Friedman alisema:
 
 > "Mfumuko wa bei siku zote na kila mahali ni jambo la kifedha."
 Taarifa hii inaangazia uhusiano wa ndani kati ya upanuzi wa fedha na mfumuko wa bei. Katika sehemu zifuatazo, tutachunguza mwingiliano kati ya mfumuko wa bei na ukuaji wa uchumi, kwa kuzingatia fasili hizi za kimsingi.
 
-### Kuelewa Uzushi wa Fedha
+### Kuelewa hali la kifedha
 
-Tunaporejelea hali ya kifedha, tunarejelea jinsi pesa Supply ya uchumi inavyoathiriwa. Milton Friedman kimsingi aliiona kama ongezeko la Supply hii. Kihistoria, kumekuwa na njia kuu mbili za kuongeza pesa Supply:
+Tunapozungumzia hali ya kifedha, tunarejelea jinsi usambazaji wa fedha katika uchumi unavyoathirika. Milton Friedman kwa kiasi kikubwa alilitazama hili kama ongezeko la usambazaji huu wa fedha. Kihistoria, kumekuwa na njia kuu mbili za kuongeza usambazaji wa fedha:
 
 1. Uchapishaji wa Fedha:
 
-Katika mifumo ya jadi ya fedha, ongezeko la fedha Supply lilipatikana kwa kuchapisha noti mpya. Ingawa siku hizi, pamoja na kutawala kwa sarafu ya kidijitali, uchapishaji huu hasa ni wa kielektroniki (kupitia hifadhidata za benki kuu na taasisi zingine za kifedha), historia inatuonyesha nyakati ambapo uchapishaji halisi wa noti ulisababisha mfumuko mkubwa wa bei.
+Katika mifumo ya jadi ya fedha, ongezeko la usambazaji wa fedha lilipatikana kwa kuchapisha noti mpya. Ingawa siku hizi, kutokana na kutawala kwa sarafu ya kidijitali, uchapishaji huu hasa ni wa kielektroniki (kupitia hifadhidata za benki kuu na taasisi nyingine za kifedha), historia inatuonyesha nyakati ambapo uchapishaji halisi wa noti ulisababisha mfumuko mkubwa wa bei.
 
-2. Kupunguza Maudhui ya Metali:
+2. Kupunguza uzito wa metali katika sarafu:
 
 Njia nyingine ilikuwa kupunguza kiasi cha madini ya thamani katika sarafu kulingana na metali kama vile fedha au dhahabu. Mfano wa kutokeza unaweza kupatikana katika Milki ya Kirumi, ambapo dinari, ambayo hapo awali ilitungwa karibu kabisa na fedha, iliona maudhui yake ya fedha yamepungua sana kwa muda. Hii ilifikia aina ya mfumuko wa bei, lakini si lazima mfumuko wa bei.
 
 ![image](assets/chapitre-2.1/1.webp)
 
-Ni muhimu kusisitiza kwamba mfumuko mkubwa wa bei huzingatiwa hasa na sarafu za sarafu zikiwa zimetenganishwa na mali zao za msingi, kama vile madini ya thamani. Kihistoria, wakati sarafu ilipotokana na mali kama hii, kulikuwa na vipindi vya mfumuko wa bei (k.m., kupitia upunguzaji wa thamani ya maudhui ya chuma), lakini vipindi hivi havikuwahi kufikia viwango vya juu zaidi vya mfumuko wa bei. Katika sehemu zifuatazo, tutajifunza kwa undani vipindi vya kushuka kwa thamani ya fedha na athari za mifumo hii tofauti ya fedha kwenye mfumuko wa bei.
+Ni muhimu kusisitiza kwamba mfumuko mkubwa wa bei hutokea hasa pale ambapo sarafu imetenganishwa na mali zake za msingi, kama vile madini ya thamani. Kihistoria, wakati sarafu ilikuwa imefungwa na mali kama hizo, kulikuwepo na vipindi vya mfumuko wa bei (kwa mfano, kupitia kupungua kwa thamani ya maudhui ya metali), lakini vipindi hivyo havikuwahi kufikia viwango vya juu sana vya mfumuko wa bei. Katika sehemu zifuatazo, tutajifunza kwa undani kuhusu vipindi vya kushuka kwa thamani ya fedha na athari za mifumo hii tofauti ya fedha kwenye mfumuko wa bei.
 
 ### Utafiti wa Vipindi vya Kushuka kwa Thamani ya Fedha
 
@@ -109,7 +109,7 @@ Katika historia, ustaarabu mbalimbali umepitia vipindi vya kushuka kwa thamani y
 
 #### 1. Vita vya Peloponnesian na Vita vya Pili vya Punic:
 
-Vita vya Peloponnesian, mzozo kati ya Athene na Sparta, na Vita vya Pili vya Punic, kati ya Jamhuri ya Roma na Carthage, ni mifano ya mwanzo zaidi ya kushuka kwa thamani ya sarafu iliyopatikana katika kumbukumbu. Ili kufadhili vita hivi, ustaarabu huu ulipunguza thamani ya sarafu zao kwa kupunguza maudhui ya fedha na kuingiza metali nyingine, huku wakiongeza idadi ya sarafu zinazozalishwa.
+Vita vya Peloponnesian, mzozo kati ya Athene na Sparta, na Vita vya Pili vya Punic, kati ya Jamhuri ya Roma na Carthage, ni mifano ya mwanzo zaidi ya kushuka kwa thamani ya sarafu iliyopatikana katika kumbukumbu. Ili kufadhili vita hivi, ustaarabu huu ulipunguza thamani ya sarafu zao kwa kupunguza kiwango cha fedha na kuingiza metali nyingine, huku wakiongeza idadi ya sarafu zinazozalishwa.
 
 ![image](assets/chapitre-2.1/8.webp)
 
@@ -117,7 +117,7 @@ Mchoro unaoonyesha mauaji ya watu wa Athene kwenye ukingo wa Assinaros.
 
 #### 2. Roma ya Kale wakati wa Dola:
 
-Baada ya enzi ya Jamhuri ya Kirumi, wakati wa Dola, karne ya 3 na 4 ilipata kushuka kwa thamani kwa sarafu. Hii inaonyeshwa na kupungua kwa maudhui ya fedha ya sarafu, kama inavyoonekana kwenye grafu iliyotangulia. Utafiti unaonyesha kwamba bei ya ngano nchini Misri, iliyopimwa kwa drakma, iliongezeka kwa sababu ya milioni moja katika kipindi cha miaka 400, kutoka 40 BC hadi 360 AD. Katika kipindi hiki, inawakilisha wastani wa mfumuko wa bei wa kila mwaka wa karibu 4.4%. Hata hivyo, mfumuko wa bei huu haukugawanywa sawasawa. Kwa kweli ilianza karibu 238 AD. Kutoka 250 hadi 293 AD, kiwango cha mfumuko wa bei kilikuwa karibu 3.65%, na kiliongezeka hadi 22.28% kati ya 293 na 301 AD.
+Baada ya enzi ya Jamhuri ya Kirumi, wakati wa Dola, karne ya 3 na 4 ilipata kushuka kwa thamani kwa sarafu. Hii inaonyeshwa na kupungua kwa kiwango cha fedha ya sarafu, kama inavyoonekana kwenye grafu iliyotangulia. Utafiti unaonyesha kwamba bei ya ngano nchini Misri, iliyopimwa kwa drakma, iliongezeka kwa sababu ya milioni moja katika kipindi cha miaka 400, kutoka 40 BC hadi 360 AD. Katika kipindi hiki, inawakilisha wastani wa mfumuko wa bei wa kila mwaka wa karibu 4.4%. Hata hivyo, mfumuko wa bei huu haukugawanywa sawasawa. Kwa kweli ilianza karibu 238 AD. Kutoka 250 hadi 293 AD, kiwango cha mfumuko wa bei kilikuwa karibu 3.65%, na kiliongezeka hadi 22.28% kati ya 293 na 301 AD.
 
 Ingawa vipindi hivi vilipata mfumuko mkubwa wa bei, havikufikia viwango vya mfumuko wa bei ambavyo tunaweza kuona katika hali zingine za kisasa. Sababu ya hii ni kwamba, ingawa sarafu ilipunguzwa thamani, bado ilitegemea madini ya thamani. Msingi huu thabiti ulitoa ulinzi fulani dhidi ya viwango vya juu vya mfumuko wa bei. Katika sehemu zifuatazo, tutachunguza kwa undani zaidi asili na matokeo ya mfumuko wa bei.
 
@@ -131,29 +131,29 @@ Mojawapo ya sarafu za kuvutia zaidi za Roma ya kale ni dinari, sarafu ya fedha. 
 
 - Antoninianus (mwishoni mwa karne ya 3 BK):
 
-Kwa kushuka kwa thamani ya fedha, sarafu mpya, Antoninianus, ilionekana. Sarafu hii ilipaswa kuwa na thamani ya dinari mbili, lakini ilikuwa na fedha kidogo sana. Sarafu yangu ya Antoninianus inaonyesha wazi kwamba maudhui ya fedha yamepunguzwa sana. Imepambwa kwa taji, mfano wa sarafu za Kirumi za kipindi hiki, kinachoitwa "radiates". Kwa kulinganisha rangi na ubora, inaweza kuonekana kwamba Antoninianus ni mbali na kuwa sarafu safi ya fedha.
+Kwa kushuka kwa thamani ya fedha, sarafu mpya, Antoninianus, ilionekana. Sarafu hii ilipaswa kuwa na thamani ya dinari mbili, lakini ilikuwa na fedha kidogo sana. Sarafu yangu ya Antoninianus inaonyesha wazi kwamba kiwango cha fedha yamepunguzwa sana. Imepambwa kwa taji, mfano wa sarafu za Kirumi za kipindi hiki, kinachoitwa "radiates". Kwa kulinganisha rangi na ubora, inaweza kuonekana kwamba Antoninianus ni mbali na kuwa sarafu safi ya fedha.
 
-Wakati wa kulinganisha sarafu mbili kwa upande, tofauti ni ya kushangaza. Dinari kutoka 160 AD ina mwonekano tofauti wa fedha, wakati Antoninianus kutoka mwishoni mwa karne ya 3 AD ni dhaifu sana, ikionyesha kupungua kwa kiasi kikubwa kwa maudhui ya fedha. Ulinganisho huu wa kuona unatoa kielelezo wazi cha kushuka kwa thamani ya fedha ambako Roma ya kale ilipitia kwa karne chache.
+Wakati wa kulinganisha sarafu mbili kwa upande, tofauti ni ya kushangaza. Dinari kutoka 160 AD ina mwonekano tofauti wa fedha, wakati Antoninianus kutoka mwishoni mwa karne ya 3 AD ni dhaifu sana, ikionyesha kupungua kwa kiasi kikubwa kwa kiwango cha fedha. Ulinganisho huu wa kuona unatoa kielelezo wazi cha kushuka kwa thamani ya fedha ambako Roma ya kale ilipitia kwa karne chache.
 
 ![image](assets/chapitre-2.1/3.webp)
 
-Ili kukamilisha onyesho hili, grafu inayoonyesha kushuka kwa thamani ya sarafu hizi baada ya muda itakuwa bora. Ingawa ni vigumu kuibua kupitia jukwaa hili, fikiria grafu inayoonyesha thamani ya dinari, kisha kushuka kwake kuelekea mwisho wa karne ya 2, na nafasi yake kuchukuliwa na Antoninianus inayodhaniwa kuwa na thamani ya dinari mbili lakini yenye maudhui ya chini ya fedha. Mabaki haya ni mashahidi wa kimya wa mabadiliko ya kiuchumi ya ustaarabu wa zamani.
+Ili kukamilisha onyesho hili, grafu inayoonyesha kushuka kwa thamani ya sarafu hizi baada ya muda itakuwa na manufaa makubwa. Ingawa ni vigumu kuiwasilisha moja kwa moja kupitia jukwaa hili, fikiria grafu inayoonyesha thamani ya dinari, ikifuatiwa na kushuka kwake kuelekea mwisho wa karne ya pili, na nafasi yake kuchukuliwa na Antoninianus, sarafu iliyodhaniwa kuwa na thamani ya dinari mbili, lakini ikiwa na kiwango cha chini cha fedha. Mabaki haya ni mashahidi wa kimya wa mabadiliko ya kiuchumi ya ustaarabu wa kale.
 
 #### 3. Maravedi wa Kihispania: Shahidi wa Kushuka kwa Thamani Inayolengwa
 
 ![image](assets/chapitre-2.1/5.webp)
 
-Maravedi, kama sarafu ya shaba, inachukua nafasi maalum katika historia ya sarafu ya Uhispania. Kama ilivyotajwa hapo awali, dola ya Uhispania hapo awali ilikuwa kiwango cha kimataifa, sarafu muhimu ya hifadhi kwa Uhispania. Walakini, ikikabiliwa na changamoto fulani za kiuchumi, Uhispania ililazimika kutumia mikakati ya ujanja ya kifedha.
+Maravedi, kama sarafu ya shaba, inachukua nafasi maalum katika historia ya dola ya Kihispania. Kama ilivyotajwa hapo awali, dola ya Uhispania hapo awali ilikuwa kiwango cha kimataifa, sarafu muhimu ya hifadhi kwa Uhispania. Walakini, ikikabiliwa na changamoto fulani za kiuchumi, Uhispania ililazimika kutumia mikakati ya ujanja ya kifedha.
 
 Kushuka kwa thamani ya fedha ni chombo ambacho mara nyingi hutumiwa na mataifa kufadhili gharama zao au kuchochea uchumi. Hata hivyo, Hispania ilijikuta katika hali tete. Kupunguza dola ya Uhispania kungeathiri msimamo wake katika biashara ya kimataifa. Ili kuondokana na tatizo hili, Hispania iligeukia Maravedi.
 
 ![image](assets/chapitre-2.1/6.webp)
 
-Tofauti na dola ya thamani ya fedha ya Kihispania, Maravedis ilikuwa sarafu ya shaba iliyotumiwa hasa na wakazi wa huko. Sarafu hii ililengwa kushushwa thamani. Wakati sarafu ya Maravedis mwanzoni ilikuwa na thamani ya maravedis mbili, serikali ingeichukua, kuigonga tena kwa thamani mpya, kwa mfano "nne", na kumrudishia mmiliki sarafu moja pekee. Sarafu iliyotajwa na muhuri "nane" ni ushahidi wa mchakato huu, ukiwa umepitia mizunguko kadhaa ya kushuka kwa thamani.
+Tofauti na dola ya thamani ya fedha ya Kihispania, Maravedis ilikuwa sarafu ya shaba iliyotumiwa hasa na wakazi wa huko. Sarafu hii ililengwa kushushwa thamani. Wakati sarafu ya Maravedis mwanzoni ilikuwa na thamani ya maravedis mbili, Fiat money (pesa za serikali) ingeichukua, kuigonga tena kwa thamani mpya, kwa mfano "nne", na kumrudishia mmiliki sarafu moja pekee. Sarafu iliyotajwa na muhuri "nane" ni ushahidi wa mchakato huu, ukiwa umepitia mizunguko kadhaa ya kushuka kwa thamani.
 
-Mkakati huu uliruhusu serikali kupunguza thamani ya sarafu, kuunda mfumuko wa bei na kujifadhili kwa njia isiyo ya moja kwa moja, huku ikihifadhi uadilifu wa dola ya Uhispania kwenye hatua ya kimataifa. Hata hivyo, upunguzaji huu uliolengwa ulikuwa na matokeo kwa wakazi wa eneo hilo, ambao waliona thamani ya sarafu yao ya kawaida ikipunguzwa.
+Mkakati huu uliruhusu Fiat money (pesa za serikali) kupunguza thamani ya sarafu, kuunda mfumuko wa bei na kujifadhili kwa njia isiyo ya moja kwa moja, huku ikihifadhi uadilifu wa dola ya Uhispania kwenye hatua ya kimataifa. Hata hivyo, upunguzaji huu wa makusudi ulikuwa na matokeo kwa wakazi wa eneo hilo, ambao waliona thamani ya sarafu yao ya kawaida ikishuka.
 
-Kisa cha Maravedi kinaonyesha jinsi serikali inavyoweza kupunguza thamani ya sarafu ya nchi kwa kuchagua ili kukidhi mahitaji yake ya ndani ya kiuchumi, huku ikihifadhi thamani ya sarafu ya akiba kwenye jukwaa la kimataifa. Ni mfano wa kutokeza wa utata na faini ya sera ya fedha katika historia.
+Kisa cha Maravedi kinaonyesha jinsi Fiat money (pesa za serikali) inavyoweza kupunguza kwa makusudi thamani ya sarafu ya ndan ili kukidhi mahitaji yake ya ndani ya kiuchumi, huku ikihifadhi thamani ya sarafu ya akiba kwenye jukwaa la kimataifa. Ni mfano unaoangazia kwa uzuri na utata ya sera ya fedha katika historia.
 
 ![image](assets/chapitre-2.1/7.webp)
 
@@ -161,30 +161,30 @@ Zaidi kuhusu nini? -> [Kiungo](https://docs.google.com/document/d/1aZa7gvz1nt8ZH
 
 #### 4. Mapinduzi ya bei kutoka karne ya 15 hadi 17
 
-Kati ya karne ya 15 na 17, Ulaya ilishuhudia hali ya ajabu ya kiuchumi, ambayo mara nyingi hujulikana kama "mapinduzi ya bei." Kipindi hiki cha mfumuko wa bei kilichochewa kwa kiasi kikubwa na utitiri mkubwa wa madini ya thamani, hasa dhahabu na fedha, kutoka Amerika. Pamoja na uchumi wa Ulaya kwa kiasi kikubwa kuzingatia kiwango cha metali wakati huo, Supply hii ya ziada ya metali iliongeza fedha Supply. Matokeo yake, kiwango cha mfumuko wa bei cha takriban 1 hadi 2% kwa mwaka kiliibuka. Kwa mtazamo wa kwanza, mfumuko wa bei huu unaweza kuonekana kuwa wa kawaida. Hata hivyo, wakati huo, kushuka kwa bei kama hiyo ilikuwa isiyo ya kawaida kutosha kuchukuliwa kuwa "mapinduzi." Hii inaangazia jinsi mabadiliko katika akiba ya fedha yanaweza kuathiri mfumo mzima wa uchumi.
+Kati ya karne ya 15 na 17, Ulaya iliyoshuhudia hali ya ajabu ya kiuchumi, ambayo mara nyingi hujulikana kama "mapinduzi ya bei." Kipindi hiki cha mfumuko wa bei kilichochewa kwa kiasi kikubwa na utitiri mkubwa wa madini ya thamani, hasa dhahabu na fedha, kutoka Amerika. Pamoja na uchumi wa Ulaya kwa kiasi kikubwa kuzingatia kiwango cha metali wakati huo, Usambazaji huu wa ziada ya metali iliongeza usambazaji wa fedha. Matokeo yake, kiwango cha mfumuko wa bei cha takriban 1 hadi 2% kwa mwaka kiliibuka. Kwa mtazamo wa kwanza, mfumuko wa bei huu unaweza kuonekana kuwa wa kawaida. Hata hivyo, wakati huo, kushuka kwa bei kama hiyo ilikuwa isiyo ya kawaida kutosha kuchukuliwa kuwa "mapinduzi." Hii inaangazia jinsi mabadiliko katika akiba ya fedha yanaweza kuathiri mfumo mzima wa uchumi.
 
 #### 5. Sheria ya Yohana na Waliokabidhiwa
 
-Katika karne ya 18, historia ya uchumi wa Ufaransa iliwekwa alama na matukio mawili muhimu yanayohusiana na sarafu. Kwanza, John Law, mwanauchumi na mfadhili wa Scotland, aliishawishi serikali ya Ufaransa kupitisha mfumo wa fedha unaotegemea pesa za karatasi. Ingawa mwanzoni ilichukuliwa kuwa suluhisho la kiubunifu kwa matatizo ya kifedha ya nchi, mpango huu ulisababisha haraka mfumuko wa bei. Kisha, muda mfupi baadaye, wakati wa msukosuko wa Mapinduzi ya Ufaransa, serikali ilianzisha "kazi".
+Katika karne ya 18, historia ya uchumi wa Ufaransa iliwekwa alama na matukio mawili muhimu yanayohusiana na sarafu. Kwanza, John Law, mwanauchumi na mfadhili wa Scotland, aliishawishi Fiat money (pesa za serikali) ya Ufaransa kupitisha mfumo wa fedha unaotegemea pesa za karatasi. Ingawa mwanzoni ilichukuliwa kuwa suluhisho la kiubunifu kwa matatizo ya kifedha ya nchi, mpango huu ulisababisha haraka mfumuko wa bei. Kisha, muda mfupi baadaye, wakati wa msukosuko wa Mapinduzi ya Ufaransa, Fiat money (pesa za serikali) ilianzisha "kazi".
 
 ![image](assets/chapitre-2.1/9.webp)
 
 Mgawo kutoka 1793
 
-Noti hizi ni ushuhuda hai wa kipindi kikuu cha kwanza cha mfumuko wa bei katika historia. Hapo awali iliundwa kama jibu kwa migogoro ya kifedha iliyofuatana, migawo haraka ikawa ishara ya kukosekana kwa utulivu wa kifedha. Serikali, kwa kutegemea sana sarafu hii ya karatasi kufadhili gharama zake, ilisababisha mzozo wa kiuchumi ambao haujawahi kutokea na kuunda kipindi kikubwa cha mfumuko wa bei nchini Ufaransa baada ya mapinduzi.
+Noti hizi ni ushuhuda hai wa kipindi kikuu cha kwanza cha mfumuko wa bei katika historia. Hapo awali iliundwa kama jibu kwa migogoro ya kifedha iliyofuatana, migawo haraka ikawa ishara ya kukosekana kwa utulivu wa kifedha. Fiat money (pesa za serikali), kwa kutegemea sana sarafu hii ya karatasi kufadhili gharama zake, ilisababisha mzozo wa kiuchumi ambao haujawahi kutokea na kuunda kipindi kikubwa cha mfumuko wa bei nchini Ufaransa baada ya mapinduzi.
 
 #### 6. Agizo la Mtendaji 6102 na Kushuka kwa Thamani ya Dola
 
 Agizo la Mtendaji 6102 na Kushuka kwa Thamani ya Dola
 
-Nchini Marekani, mapema miaka ya 1930 ilishuhudia mabadiliko makubwa katika sera ya fedha. Hapa kuna muhtasari wa kina wa mabadiliko haya:
+Nchini Marekani, mapema miaka ya 1930 ilishuhudia mabadiliko makubwa katika sera za fedha. Hapa kuna muhtasari wa kina wa mabadiliko haya:
 
 
 - 1928 $20 Bill
 
 ![image](assets/chapitre-2.1/11.webp)
 
-Mnamo 1928, muswada wa dola 20 huko Merika ulisema: "inaweza kukombolewa kwa dhahabu inapohitajika." Hii ina maana kwamba kila muswada ulibadilishwa kihalisi kuwa dhahabu. Hasa, noti ya $20.67 ilikuwa sawa na wakia moja ya dhahabu.
+Mnamo 1928, mswada wa dola 20 huko Merika ulisema: "inaweza kukombolewa kwa dhahabu inapohitajika." Hii ina maana kwamba kila mswada ulibadilishwa kihalisi kuwa dhahabu. Hasa, noti ya $20.67 ilikuwa sawa na wakia moja ya dhahabu.
 
 
 - Agizo la Mtendaji 6102
@@ -193,14 +193,14 @@ Mnamo 1933, msukosuko mkubwa ulitokea kwa kutolewa kwa Agizo la Utendaji 6102. A
 
 ![image](assets/chapitre-2.1/14.webp)
 
-Cheti cha Dhahabu ni mfano mzuri. Iliwekwa alama: "Katika sarafu ya dhahabu inayolipwa kwa mbebaji inapohitajika." Kuwa na cheti kama hicho kulikua haramu na kubaki hivyo hadi 1964.
+Cheti cha Dhahabu ni mfano mzuri. Kiliwekwa alama: "Katika sarafu ya dhahabu inayolipwa kwa mbebaji inapohitajika." Kuwa na cheti kama hicho kulikua haramu na kubaki hivyo hadi 1964.
 
 ![image](assets/chapitre-2.1/12.webp)
 
 
 - Utangulizi wa Noti Mpya
 
-Kufuatia kukamatwa kwa dhahabu mnamo 1934, safu mpya ya noti iliwekwa kwenye mzunguko.
+Kufuatia kukamatwa kwa dhahabu mnamo 1934, Layer (Safu) mpya ya noti iliwekwa kwenye mzunguko.
 
 ![image](assets/chapitre-2.1/13.webp)
 
@@ -209,9 +209,9 @@ Mtajo unaoonyesha kugeuzwa kwao kuwa dhahabu umeondolewa na nafasi yake kuchukul
 
 - Uthamini wa dhahabu
 
-Kinachovutia katika kipindi hiki cha mpito ni mkakati wa serikali. Mnamo 1934, bei ya dhahabu ilithaminiwa hadi $35 kwa wakia, badala ya $20.67. Kimsingi, serikali ilishusha thamani ya dola ambayo watu walikuwa wanamiliki. Kwa kununua dhahabu kutoka kwa wakazi kwa dola 20.67 kwa wakia mwaka wa 1933, na kisha kutathmini bei ya dhahabu mwaka wa 1934, serikali ilipata faida kubwa huku ikipunguza thamani ya akiba ya raia wake.
+Kinachovutia katika kipindi hiki cha mpito ni mkakati wa Fiat money (pesa za serikali). Mnamo 1934, bei ya dhahabu ilithaminiwa hadi $35 kwa wakia, badala ya $20.67. Kimsingi, Fiat money (pesa za serikali) ilishusha thamani ya dola ambayo watu walikuwa wanamiliki. Kwa kununua dhahabu kutoka kwa wakazi kwa dola 20.67 kwa wakia mwaka wa 1933, na kisha kutathmini bei ya dhahabu mwaka wa 1934, Fiat money (pesa za serikali) ilipata faida kubwa huku ikipunguza thamani ya akiba ya raia wake.
 
-Kwa mukhtasari, ndani ya mwaka mmoja, serikali ilifanikiwa kukamata dhahabu za wananchi, kisha kubadili kanuni za mchezo kwa kutathmini thamani ya dhahabu ili kunufaisha hazina na kuwakosesha faida wale ambao awali walibadilisha dhahabu zao kwa noti.
+Kwa mukhtasari, ndani ya mwaka mmoja, Fiat money (pesa za serikali) ilifanikiwa kukamata dhahabu za wananchi, kisha kubadili kanuni za mchezo kwa kutathmini thamani ya dhahabu ili kunufaisha hazina na kuwakosesha faida wale ambao awali walibadilisha dhahabu zao kwa noti.
 
 ### Marekani inabadilisha historia.
 
@@ -231,21 +231,21 @@ Dinari ya Uswisi inaonyesha kipengele kingine cha kuvutia cha kushuka kwa thaman
 
 ![image](assets/chapitre-2.1/16.webp)
 
-Walakini, Vita vya Ghuba viliashiria mabadiliko katika historia ya Dinari ya Uswizi. Iraq, ikiwa haiwezi tena kutegemea msambazaji wake wa Kiingereza kwa uchapishaji wa noti, iligeukia Uchina. Mpito huu ulisababisha tofauti ya wazi katika ubora wa noti, huku toleo la Kichina likichukuliwa kuwa duni. Mtazamo huu haukuwa na msingi; noti za Kichina zilikuwa za kughushi kwa urahisi na kuathiriwa na uchapaji kupita kiasi na serikali, hivyo kutishia thamani yake.
+Walakini, Vita vya Ghuba viliashiria mabadiliko katika historia ya Dinari ya Uswizi. Iraq, ikiwa haiwezi tena kutegemea msambazaji wake wa Kiingereza kwa uchapishaji wa noti, iligeukia Uchina. Mpito huu ulisababisha tofauti ya wazi katika ubora wa noti, huku toleo la Kichina likichukuliwa kuwa duni. Mtazamo huu haukuwa na msingi; noti za Kichina zilikuwa za kughushi kwa urahisi na kuathiriwa na uchapaji kupita kiasi na Fiat money (pesa za serikali), hivyo kutishia thamani yake.
 
 ![image](assets/chapitre-2.1/17.webp)
 
-Jambo la kipekee liliibuka katika uchumi wa Iraq baada ya Vita vya Ghuba: mfumo wa bei mbili. Wafanyabiashara walitoa bei tofauti kulingana na aina ya noti iliyotumika kwa malipo, wakipendelea Dinari asilia ya Uswisi kuliko noti ya Uchina. Mfumo huu uliakisi imani iliyodumishwa katika noti za ubora wa juu, ambazo hazikukabiliwa na kushuka kwa thamani, hata katika muktadha ambapo thamani iliwekwa na serikali. Kipindi hiki kinaonyesha umuhimu wa sifa za ndani za sarafu na jinsi, hata katika mfumo wa sarafu ya fiat, ubora unaotambulika wa sarafu unaweza kuathiri thamani yake linganishi na, kwa kuongeza, imani ya watendaji wa kiuchumi.
+Jambo la kipekee liliibuka katika uchumi wa Iraq baada ya Vita vya Ghuba: mfumo wa bei mbili. Wafanyabiashara walitoa bei tofauti kulingana na aina ya noti iliyotumika kwa malipo, wakipendelea Dinari asilia ya Uswisi kuliko noti ya Uchina. Mfumo huu uliakisi imani iliyodumishwa katika noti za ubora wa juu, ambazo hazikukabiliwa na kushuka kwa thamani, hata katika muktadha ambapo thamani iliwekwa na Fiat money (pesa za serikali). Kipindi hiki kinaonyesha umuhimu wa sifa za ndani za sarafu na jinsi, hata katika mfumo wa sarafu ya Fiat money (pesa za serikali), ubora unaotambulika wa sarafu unaweza kuathiri thamani yake linganishi na, kwa kuongeza, imani ya watendaji wa kiuchumi.
 
 #### Ndio, tulipima sarafu!
 
-Mtazamo wa kawaida mara nyingi huhusisha sarafu na uundaji wa serikali, ambapo utoaji na thamani yake inadhibitiwa na serikali. Dhana hii ina mizizi yake katika ustaarabu wa kale kama vile Roma, ambapo sarafu zilisanifiwa na kupigwa chapa na Dola, hivyo kutoa thamani rasmi kwa sarafu. Hata hivyo, uchunguzi wa kina unaonyesha kwamba thamani ya ndani ya sarafu ilitokana hasa na maudhui yake ya madini ya thamani.
+Mtazamo wa kawaida mara nyingi huhusisha sarafu na uundaji wa Fiat money (pesa za serikali), ambapo utoaji na thamani yake inadhibitiwa na Fiat money (pesa za serikali). Dhana hii ina mizizi yake katika ustaarabu wa kale kama vile Roma, ambapo sarafu zilisanifiwa na kupigwa chapa na Dola, hivyo kutoa thamani rasmi kwa sarafu. Hata hivyo, uchunguzi wa kina unaonyesha kwamba thamani ya ndani ya sarafu ilitokana hasa na maudhui yake ya madini ya thamani.
 
 ![image](assets/chapitre-2.1/18.webp)
 
-Mfano unaonyeshwa kupitia uchunguzi wa uzani wa pesa sawa na reales nane za Uhispania, au dola moja ya Uhispania. Uzito huu, ulio na nambari ya Kirumi inayoonyesha thamani yake, ulitumiwa na wabadilishanaji wa sarafu kutathmini thamani ya sarafu kulingana na uzito wao, badala ya kugonga tu. Kwa kupima sarafu, wabadilishanaji wanaweza kuamua ikiwa walikuwa wamebadilishwa au kuharibiwa, ambayo inaweza kupunguza thamani yao. Zoezi hili linaangazia kwamba, ingawa upigaji chapa uliosawazishwa na serikali ulitoa thamani fulani ya kawaida kwa sarafu, thamani ya kweli ilikaa katika uzito wa madini ya thamani iliyomo.
+Mfano unaonyeshwa kupitia uchunguzi wa uzani wa pesa sawa na reales nane za Uhispania, au dola moja ya Uhispania. Uzito huu, ulio na nambari ya Kirumi inayoonyesha thamani yake, ulitumiwa na wabadilishanaji wa sarafu kutathmini thamani ya sarafu kulingana na uzito wao, badala ya kugonga tu. Kwa kupima sarafu, wabadilishanaji wanaweza kuamua ikiwa walikuwa wamebadilishwa au kuharibiwa, ambayo inaweza kupunguza thamani yao. Zoezi hili linaangazia kwamba, ingawa upigaji chapa uliosawazishwa na Fiat money (pesa za serikali) ulitoa thamani fulani ya kawaida kwa sarafu, thamani ya kweli ilikaa katika uzito wa madini ya thamani yaliyomo.
 
-Uchanganuzi huu unaonyesha kuwa uaminifu katika sarafu, na kwa kuongeza thamani yake, uliegemezwa katika hali yake inayoonekana badala ya madai tu ya serikali. Inasisitiza uwili kati ya thamani ya jina iliyowekwa na serikali na thamani ya asili inayoagizwa na maudhui ya chuma cha thamani. Kwa hivyo, sarafu inakwenda zaidi ya kuwa chombo cha serikali tu, huku thamani yake ya kimsingi ikihusishwa kihalisi na inayoonekana na inayoweza kupimika ya Elements.
+Uchanganuzi huu unaonyesha kuwa uaminifu katika sarafu, na kwa kuongeza thamani yake, uliegemezwa katika hali yake inayoonekana badala ya madai tu ya Fiat money (pesa za serikali). Inasisitiza uwili kati ya thamani ya jina iliyowekwa na Fiat money (pesa za serikali) na thamani ya asili inayoagizwa na maudhui ya chuma cha thamani. Kwa hivyo, sarafu inakwenda zaidi ya kuwa chombo cha Fiat money (pesa za serikali) tu, huku thamani yake ya kimsingi ikihusishwa kihalisi na inayoonekana na inayoweza kupimika kwa vipengele.
 
 #### Hitimisho
 
@@ -273,34 +273,34 @@ Mfumuko wa bei, kwa upande mwingine, unafafanuliwa na ongezeko la jumla la bei k
 
 - Kiini cha Fedha cha Mfumuko wa bei:
 
-Kwa pesa za kudumu Supply, ongezeko la bei katika sekta moja lingesababisha kupungua kwa bei katika sekta nyingine, kwani kiasi cha fedha kinachopatikana cha kutumia mahali pengine kingepunguzwa. Mfumuko wa bei unahusiana kwa karibu na ongezeko la fedha Supply, ambayo inaruhusu ongezeko la wakati huo huo la bei katika sekta zote.
+Kwa pesa za kudumu usambazaji, ongezeko la bei katika sekta moja lingesababisha kupungua kwa bei katika sekta nyingine, kwani kiasi cha fedha kinachopatikana cha kutumia mahali pengine kingepunguzwa. Mfumuko wa bei unahusiana kwa karibu na ongezeko la usambazaji wa fedha, ambao inaruhusu ongezeko la wakati huo huo la bei katika sekta zote.
 
 
-- Athari za Pesa Supply kwa Mfumuko wa Bei na Kupungua kwa bei:
+- Athari za Pesa za usambazaji kwa Mfumuko wa Bei na Kupungua kwa bei:
 
-Katika mfumo wa fedha uliowekwa wa Supply, ongezeko la uzalishaji linapaswa kinadharia kusababisha deflation, yaani, kupungua kwa bei, kwani kutakuwa na bidhaa na huduma zaidi.
+Katika mfumo wa fedha uliowekwa wa usambazaji, ongezeko la uzalishaji linapaswa kinadharia kusababisha deflation, yaani, kupungua kwa bei, kwani kutakuwa na bidhaa na huduma zaidi.
 
-Katika mfumo wa sasa wa fedha wa fiat, ongezeko la fedha Supply linafuta uwezekano wa deflation unaosababishwa na ongezeko la uzalishaji.
-
-
-- Madhara Hasi ya Marekebisho ya Pesa ya Supply:
-
-Ongezeko la fedha za Supply, bila ongezeko linalofanana la uzalishaji, husababisha mfumuko wa bei, kwani kuna pesa nyingi katika mzunguko kwa kiasi sawa cha bidhaa na huduma.
-
-Ingawa ongezeko la uzalishaji lilipaswa kusababisha kupungua kwa bei, ongezeko la wakati huo huo la pesa Supply ilibatilisha athari hii, na kusababisha mfumuko wa bei badala yake.
+Katika mfumo wa sasa wa fedha wa pesa za Fiat money (pesa za serikali), ongezeko la fedha Usambazaji linafuta uwezekano wa kupungua kwa bei unaosababishwa na ongezeko la uzalishaji.
 
 
-- Mfumuko wa Bei, Kupungua kwa Bei na Pesa Supply: Vyombo vya Kuwasiliana:
+- Madhara Hasi ya Marekebisho ya Pesa za usambazaji:
 
-Mfumuko wa bei na mfumuko wa bei ni kama vyombo vya mawasiliano katika uchumi. Kuongezeka kwa uzalishaji kunaweza kusababisha kupungua kwa bei, lakini ikiwa fedha za Supply zinaongezeka wakati huo huo, athari ya deflationary imefutwa, na kusababisha mfumuko wa bei.
+Ongezeko la usambazaji wa fedha, bila ongezeko linalofanana la uzalishaji, husababisha mfumuko wa bei, kwani kuna pesa nyingi katika mzunguko kwa kiasi sawa cha bidhaa na huduma.
 
-Majadiliano haya yanaangazia umuhimu wa kuelewa mbinu za kimsingi za mfumuko wa bei na upunguzaji wa bei, na jinsi kuchezea pesa za Supply kunaweza kuwa na athari kubwa kwa uchumi. Kuna uwezekano tutapitia tena dhana hizi baadaye kwa uelewa wa kina wa muunganisho wao na athari zake kwa uchumi wa dunia.
+Ingawa ongezeko la uzalishaji lilipaswa kusababisha kupungua kwa bei, ongezeko la wakati huo huo la pesa za Usambazaji ilibatilisha athari hii, na kusababisha mfumuko wa bei badala yake.
+
+
+- Mfumuko wa Bei, Kupungua kwa Bei na Pesa za Usambazaji: Vyombo vya Kuwasiliana:
+
+Mfumuko wa bei na mfumuko wa bei ni kama vyombo vya mawasiliano katika uchumi. Kuongezeka kwa uzalishaji kunaweza kusababisha kupungua kwa bei, lakini ikiwa usambazaji wa fedha zinaongezeka wakati huo huo, athari ya deflationary (upungufu wa bei) imefutwa, na kusababisha mfumuko wa bei.
+
+Majadiliano haya yanaangazia umuhimu wa kuelewa mbinu za kimsingi za mfumuko wa bei na upunguzaji wa bei, na jinsi kuchezea pesa za Usambazaji kunaweza kuwa na athari kubwa kwa uchumi. Kuna uwezekano tutapitia tena dhana hizi baadaye kwa uelewa wa kina wa muunganisho wao na athari zake kwa uchumi wa dunia.
 
 ### Kwa nini uchapishaji wa fedha sio daima husababisha mfumuko wa bei?
 
 #### Mfumuko wa bei ≠ CPI
 
-Mfumuko wa bei, ingawa mara nyingi huhusishwa na ongezeko la fedha Supply, sio kila mara huwa na uwiano wa moja kwa moja na uchapishaji wa pesa, kama inavyoonyeshwa na kipindi kilichofuata mgogoro wa kifedha wa 2008. Licha ya uchapishaji mkubwa wa pesa ili kuokoa benki, muongo uliofuata haukupata mfumuko wa bei wa juu, wastani wa kati ya 0 na 2% kwa mwaka. Hali hii inazua swali: kwa nini uchapishaji mkubwa wa pesa haukusababisha mfumuko wa bei sawia? Jibu liko katika nuances kadhaa zinazohusiana na kupima mfumuko wa bei na Fahirisi ya Bei ya Watumiaji (CPI).
+Mfumuko wa bei, ingawa mara nyingi huhusishwa na ongezeko la usambazaji wa fedha, sio kila mara huwa na uwiano wa moja kwa moja na uchapishaji wa pesa, kama inavyoonyeshwa na kipindi kilichofuata mgogoro wa kifedha wa 2008. Licha ya uchapishaji mkubwa wa pesa ili kuokoa benki, muongo uliofuata haukupata mfumuko wa bei wa juu, wastani wa kati ya 0 na 2% kwa mwaka. Hali hii inazua swali: kwa nini uchapishaji mkubwa wa pesa haukusababisha mfumuko wa bei sawia? Jibu liko katika nuances kadhaa zinazohusiana na kupima mfumuko wa bei na Fahirisi ya Bei ya Watumiaji (CPI).
 
 Maelezo ya kwanza yapo katika namna mfumuko wa bei unavyopimwa. Fahirisi ya Bei ya Watumiaji (CPI), inayotumika kama kiashirio kikuu cha mfumuko wa bei, ina vikwazo fulani. Kwa mfano, haizingatii kikamilifu mabadiliko ya bei ya mali isiyohamishika. Ingawa CPI inajumuisha kipengele kinachohusiana na kodi, thamani kubwa ya bei za nyumba haijaonyeshwa kikamilifu. Matokeo yake, ongezeko kubwa la gharama za makazi linaweza kutokea bila kukamatwa kikamilifu na CPI, uwezekano wa kupunguza mfumuko wa bei halisi.
 
@@ -312,7 +312,7 @@ Nuances hizi katika kupima mfumuko wa bei na CPI zinaonyesha utata wa uhusiano k
 
 #### Hoja za MMT
 
-Nadharia ya Kisasa ya Fedha (MMT) inatoa mtazamo tofauti juu ya uundaji wa pesa na mfumuko wa bei. Kulingana na MMT, pesa kimsingi hutoka kwa serikali, ambayo inaweza kuchapisha kiasi kikubwa kufadhili mahitaji yake bila kusababisha mfumuko wa bei mradi tu sekta zinazolengwa na fedha hizi hazijashiba. Huu ni mkabala unaokiuka nadharia za jadi za fedha na kusisitiza umuhimu wa uwezo wa kisekta wa kunyonya katika mienendo ya mfumuko wa bei.
+Nadharia ya Kisasa ya Fedha (MMT) inatoa mtazamo tofauti juu ya uundaji wa pesa na mfumuko wa bei. Kulingana na MMT, pesa kimsingi hutoka kwa Fiat money (pesa za serikali), ambayo inaweza kuchapisha kiasi kikubwa kufadhili mahitaji yake bila kusababisha mfumuko wa bei mradi tu sekta zinazolengwa na fedha hizi hazijashiba. Huu ni mkabala unaokiuka nadharia za jadi za fedha na kusisitiza umuhimu wa uwezo wa kisekta wa kunyonya katika mienendo ya mfumuko wa bei.
 
 ![image](assets/chapitre-2.2/4.webp)
 
@@ -328,31 +328,31 @@ Mfano wa tatu wa kwa nini uchapishaji wa fedha haungesababisha mfumuko wa bei ni
 
 ![image](assets/chapitre-2.2/5.webp)
 
-Uchapishaji wa pesa unaweza kuonekana kama upanga wa Damocles unaoning'inia juu ya uchumi. Pesa iliyoundwa inaweza kubaki siri kwa muda fulani, bila athari inayoonekana ya mfumuko wa bei, mradi tu haijaingizwa kwenye uchumi kupitia mikopo ya benki au mifumo mingine. Hata hivyo, pesa hizi fiche zinapowekwa hatimaye kwenye mzunguko, athari za mfumuko wa bei zinaweza kudhihirika. Hili ndilo lililoonekana katika miaka ya 2020, ambapo fedha zilizoundwa hapo awali zimepata njia yake katika uchumi, na kusababisha mfumuko wa bei.
+Uchapishaji wa pesa unaweza kuonekana kama upanga wa Damocles unaoning'inia juu ya uchumi. Pesa zilizoundwa zinaweza kubaki siri kwa muda fulani, bila athari inayoonekana ya mfumuko wa bei, mradi tu hazijaingizwa kwenye uchumi kupitia mikopo ya benki au mifumo mingine. Hata hivyo, pesa hizi fiche zinapowekwa hatimaye kwenye mzunguko, athari za mfumuko wa bei zinaweza kudhihirika. Hili ndilo lililoonekana katika miaka ya 2020, ambapo fedha zilizoundwa hapo awali zimepata njia yake katika uchumi, na kusababisha mfumuko wa bei.
 
-Hali hii inaangazia umuhimu wa njia za utumaji pesa katika kubainisha athari za mfumuko wa bei za uchapishaji wa pesa. Uundaji wa pesa za benki kuu ni sehemu moja tu ya kitendawili. Tabia ya benki binafsi, ambao huamua juu ya kiasi cha mikopo ya kutoa, na tabia ya wakopaji, ambao wanaamua jinsi ya kutumia fedha zilizokopwa, pia ni muhimu Elements katika nguvu hii.
+Hali hii inaangazia umuhimu wa njia za utumaji pesa katika kubainisha athari za mfumuko wa bei wa uchapishaji wa pesa. Uundaji wa pesa za benki kuu ni sehemu moja tu ya kitendawili. Tabia ya benki binafsi, ambayo huamua juu ya kiasi cha mikopo ya kutoa, na tabia ya wakopaji, ambao wanaamua jinsi ya kutumia fedha zilizokopwa, pia ni muhimu kuwa na vipengele katika nguvu hii.
 
-#### Mfumuko wa bei ni kijamii!
+#### Mfumuko wa bei wa kijamii!
 
 Mfano wa Jamhuri ya Weimar unaonyesha kipengele kingine muhimu cha uhusiano kati ya uchapishaji wa pesa na mfumuko wa bei: jukumu la matarajio na tabia ya mawakala wa kiuchumi. Wakati Benki Kuu ya Jamhuri ya Weimar ilipoanza kuchapisha kiasi kikubwa cha fedha, kutokuwa na uhakika wa kiuchumi kulifanya watu binafsi kuhodhi, yaani, kuhifadhi fedha badala ya kuzitumia. Mwitikio huu ulichelewesha kwa muda athari za mfumuko wa bei za uchapishaji wa pesa.
 
 ![image](assets/chapitre-2.2/6.webp)
 
-Hata hivyo, hali ya kiuchumi ilipoanza kuboreka kidogo, imani ilirejeshwa hatua kwa hatua. Watu kisha wakaondoa akiba zao kutoka kwa maficho yao na kuanza kutumia pesa nyingi katika uchumi. Mabadiliko haya ya ghafla ya tabia, pamoja na Supply ya pesa tayari, ilisababisha mlipuko wa mahitaji. Kwa pesa nyingi katika mzunguko na kuongezeka kwa mahitaji, bei zilianza kupanda kwa kasi, na kusababisha mfumuko wa bei unaoonekana.
+Hata hivyo, hali ya kiuchumi ilipoanza kuboreka kidogo, imani ilirejeshwa hatua kwa hatua. Watu kisha wakaondoa akiba zao kutoka kwa maficho yao na kuanza kutumia pesa nyingi katika uchumi. Mabadiliko haya ya ghafla ya tabia, pamoja na Usambazaji wa pesa tayari, ilisababisha mlipuko wa mahitaji. Kwa pesa nyingi katika mzunguko na kuongezeka kwa mahitaji, bei zilianza kupanda kwa kasi, na kusababisha mfumuko wa bei unaoonekana.
 
-Mfano huu unaonyesha umuhimu wa muda na tabia ya mawakala katika udhihirisho wa mfumuko wa bei. Mfumuko wa bei haufanyiki tu kwa kukabiliana na ongezeko la fedha Supply, lakini pia kulingana na jinsi na wakati fedha hizo zinatumiwa katika uchumi. Kutokuwa na uhakika wa kiuchumi na matarajio ya mawakala wa kiuchumi huchukua jukumu muhimu katika mabadiliko haya na yanaweza kuongeza kasi au kuchelewesha athari za mfumuko wa bei za uchapishaji wa pesa.
+Mfano huu unaonyesha umuhimu wa muda na tabia ya mawakala katika udhihirisho wa mfumuko wa bei. Mfumuko wa bei haufanyiki tu kwa kukabiliana na ongezeko la usambazaji wa fedha, lakini pia kulingana na jinsi na wakati fedha hizo zinatumiwa katika uchumi. Kutokuwa na uhakika wa kiuchumi na matarajio ya mawakala wa kiuchumi huchukua jukumu muhimu katika mabadiliko haya na yanaweza kuongeza kasi au kuchelewesha athari za mfumuko wa bei za uchapishaji wa pesa.
 
 #### Muhtasari:
 
 
 - Kielezo cha Bei ya Watumiaji (CPI): Mfumo wa Uendeshaji wa Biashara (CPI) umeundwa kwa njia ambayo inakadiria mfumuko wa bei, ambayo inaweza kutoa picha potofu ya ukweli wa mfumuko wa bei.
-- Unyonyaji wa Kisekta: Uingizaji wa fedha katika sekta zenye uwezo wa kunyonya sio mara zote husababisha mfumuko wa bei. Mfano mkuu ni tata ya kijeshi na viwanda ya Marekani, ambayo inaweza kunyonya kiasi kikubwa cha fedha bila kusababisha mfumuko wa bei.
+- Unyonyaji wa Kisekta: Uingizaji wa fedha katika sekta zenye uwezo wa kunyonya sio mara zote husababisha mfumuko wa bei. Mfano mkuu ni tata ya kijeshi na viwanda vya Marekani, ambavyo vinaweza kunyonya kiasi kikubwa cha fedha bila kusababisha mfumuko wa bei.
 - Kesi ya Japani: Licha ya uchapishaji mkubwa wa pesa, mfumuko wa bei unasalia kuwa chini nchini Japani kwa sababu pesa mara nyingi huhifadhiwa au kuwekezwa katika soko la mali isiyohamishika au soko la hisa. Sekta hizi huchukua pesa zilizochapishwa, na CPI haiakisi ongezeko la bei katika maeneo haya.
 - Uwiano kati ya Uchapishaji wa Fedha na Masoko: Inazingatiwa kuwa mikondo ya soko la mali isiyohamishika na soko la hisa mara nyingi hufuata uchapishaji wa pesa, kuonyesha mahali pesa zilizochapishwa zinaelekezwa.
-- Akiba ya Fedha ya Benki: Wakati pesa zilizochapishwa zinabaki kwenye mizania ya benki na hazizunguki katika uchumi, hazisababishi mfumuko wa bei. Hii inaonyeshwa na mfano wa 2008, ambapo pesa zilizochapishwa kwa kiasi kikubwa zilibaki kwenye mizania ya benki, na kuchelewesha athari za mfumuko wa bei.
+- Akiba ya Fedha ya Benki: Wakati pesa zilizochapishwa zinabaki kwenye mizania ya benki na hazizunguki katika uchumi, hazisababishi mfumuko wa bei. Hii inaonyeshwa mfano wa 2008, ambapo pesa zilizochapishwa kwa kiasi kikubwa zilibaki kwenye mizania ya benki, na kuchelewesha athari za mfumuko wa bei.
 - Jamhuri ya Weimar: Kipindi hiki cha kihistoria kinaonyesha jinsi kutokuwa na uhakika wa kiuchumi kulivyosababisha uhifadhi wa pesa, na kuchelewesha mfumuko wa bei. Hata hivyo, imani iliporejeshwa na pesa kutumika, mfumuko wa bei ulilipuka.
 
-Mifano hii inaweza kutumika katika majadiliano kueleza kwa nini mfumuko wa bei si mara zote tokeo la haraka la uchapishaji wa fedha, na jinsi mazingira ya kiuchumi na tabia za mawakala huathiri mfumuko wa bei.
+Mifano hii inaweza kutumika katika majadiliano kueleza kwa nini mfumuko wa bei si mara yote tokeo la haraka la uchapishaji wa fedha, na jinsi mazingira ya kiuchumi na tabia za mawakala huathiri mfumuko wa bei.
 
 ![image](assets/chapitre-2.2/0.5.webp)
 
@@ -398,7 +398,7 @@ Ni muhimu kuelewa tofauti kati ya aina tofauti za mfumuko wa bei, uelewa unaotuw
 
 
 - Mfumuko wa bei Unaoenea: Huu ni aina ya mfumuko wa bei ambao benki kuu kwa ujumla hulenga, unaowekwa karibu 2% kila mwaka. Lengo hili limepitishwa tangu miaka ya 1990 na linalenga kudumisha ukuaji thabiti wa uchumi bila kuzidisha joto au kupungua kwa bei.
-- Mfumuko wa Bei Wastani: Aina hii ya mfumuko wa bei hutokea wakati mfumuko wa bei unazidi lengo la 2%. Mara nyingi huhusishwa na uchumi unaozidi joto, hali ambapo fedha nyingi za Supply huchochea ongezeko la jumla la bei. Hali hii inafichua mipaka ya sera za fedha na wakati mwingine hufichua migongano katika mazungumzo ya kiuchumi.
+- Mfumuko wa Bei Wastani: Aina hii ya mfumuko wa bei hutokea wakati mfumuko wa bei unazidi lengo la 2%. Mara nyingi uhusishwa na uchumi unaozidi joto, hali ambapo fedha nyingi za Supply huchochea ongezeko la jumla la bei. Hali hii inafichua mipaka ya sera za fedha na wakati mwingine hufichua migongano katika mazungumzo ya kiuchumi.
 - Mfumuko wa bei wa kasi: Mfumuko wa bei unaozidi kuongezeka, ambao mara nyingi hujulikana kama mfumuko wa bei wa tarakimu mbili, hutokea wakati mfumuko wa bei wa kila mwaka unazidi 10%. Inaashiria kupanda kwa bei kubwa ambayo inaweza kuathiri utulivu wa kiuchumi.
 - Mfumuko wa bei: Mfumuko wa bei ni hali iliyokithiri ambapo kasi ya mfumuko wa bei inazidi 50% kwa mwezi, ambayo, kwa sababu ya hali ya juu ya mfumuko wa bei, ni sawa na kiwango cha kila mwaka cha zaidi ya 13,000%. Kiwango hiki cha mfumuko wa bei hudhoofisha uchumi kwa kiasi kikubwa, na kuifanya sarafu hiyo kutokuwa na thamani na kusababisha kupoteza imani katika mfumo wa fedha.
 
@@ -409,14 +409,14 @@ Wakati wa kuchunguza aina za mfumuko wa bei, ni kawaida kukutana na maneno kama 
 
 - Kuvuta Mahitaji:
 
-Demand Pull mfumuko wa bei mara nyingi huelezewa kama hali ambapo mahitaji katika uchumi yanazidi uzalishaji unaopatikana. Hata hivyo, bila ongezeko la sambamba la fedha Supply, hali hii itasababisha tu ugawaji wa matumizi. Wateja wanaweza kutumia zaidi kwenye bidhaa muhimu na kidogo kwa zingine, hivyo basi kupunguza athari ya jumla ya mfumuko wa bei.
+Demand Pull mfumuko wa bei mara nyingi huelezewa kama hali ambayo mahitaji katika uchumi yanazidi uzalishaji unaopatikana. Hata hivyo, bila ongezeko la sambamba la usambazaji wa fedha, hali hii itasababisha tu ugawaji wa matumizi. Wateja wanaweza kutumia zaidi kwenye bidhaa muhimu na kidogo kwa zingine, hivyo basi kupunguza athari ya jumla ya mfumuko wa bei.
 
 
 - Gharama Kusukuma:
 
-Kwa upande mwingine, mfumuko wa bei wa Cost Push unachangiwa na kuongezeka kwa gharama za uzalishaji, kama vile za maliasili au nguvu kazi. Tena, bila kuongezeka kwa fedha Supply, ongezeko la gharama katika sekta moja inaweza kupunguza tu matumizi kwa wengine, bila kusababisha mfumuko wa bei ulioenea.
+Kwa upande mwingine, mfumuko wa bei wa Cost Push unachangiwa na kuongezeka kwa gharama za uzalishaji, kama vile za maliasili au nguvu kazi. Tena, bila kuongezeka kwa usambazaji wa fedha, ongezeko la gharama katika sekta moja unaweza kupunguza tu matumizi kwa wengine, bila kusababisha mfumuko wa bei ulioenea.
 
-Maelezo haya ya kitamaduni mara nyingi huhusisha ongezeko la bei na mfumuko wa bei, jambo ambalo linaweza kutatanisha. Kwa kweli, kwa mfumuko wa bei ulioenea, ongezeko la fedha Supply ni muhimu. Katika muktadha huu, dhana za Kuvuta kwa Mahitaji na Kusukuma Gharama zinaweza kueleza tofauti za bei za kisekta, lakini hazizingatii hali ya kifedha ya mfumuko wa bei. Hii inaangazia umuhimu wa kutofautisha kati ya ongezeko la bei za kisekta na mfumuko wa bei ulioenea, na inathibitisha hitaji la ongezeko la fedha Supply ili mfumuko wa bei uonekane katika uchumi wote. Uchanganuzi huu unatoa mtazamo mzuri zaidi na sahihi juu ya sababu halisi za mfumuko wa bei na unafutilia mbali tafsiri za kawaida ambazo zinaweza kuficha mienendo ya msingi ya fedha.
+Maelezo haya ya kitamaduni mara nyingi huhusisha ongezeko la bei na mfumuko wa bei, jambo ambalo linaweza kutatanisha. Kwa kweli, kwa mfumuko wa bei ulioenea, ongezeko la usambazaji wa fedha ni muhimu. Katika muktadha huu, dhana za Kuvuta kwa Mahitaji na Kusukuma Gharama zinaweza kueleza tofauti za bei za kisekta, lakini hazizingatii hali ya kifedha ya mfumuko wa bei. Hii inaangazia umuhimu wa kutofautisha kati ya ongezeko la bei za kisekta na mfumuko wa bei ulioenea, na inathibitisha hitaji la ongezeko la usambazaji wa fedha ili mfumuko wa bei uonekane katika uchumi wote. Uchanganuzi huu unatoa mtazamo mzuri zaidi na sahihi juu ya sababu halisi za mfumuko wa bei na unafutilia mbali tafsiri za kawaida ambazo zinaweza kuficha mienendo ya msingi wa fedha.
 
 ### Uainishaji wa Mfumuko wa Bei kulingana na Bernholz
 
@@ -427,42 +427,42 @@ Bernholz anapendekeza uainishaji uliorahisishwa lakini sahihi wa mfumuko wa bei 
 
 - Mfumuko wa Bei Wastani:
 
-Mfumuko wa bei wa wastani hutokea wakati kiwango cha fedha Supply ni cha juu kuliko kawaida, lakini bila serikali kutumia upungufu mkubwa unaofadhiliwa na uundaji wa pesa. Ingawa neno "wastani" linaweza kuonekana kuwa lisilo na maana, aina hii ya mfumuko wa bei inaweza kusababisha matatizo makubwa, ingawa haijaainishwa kama mfumuko wa bei wa juu.
+Mfumuko wa bei wa wastani hutokea wakati kiwango cha usambazaji wa fedha ni cha juu kuliko kawaida, lakini bila Fiat money (pesa za serikali) kutumia upungufu mkubwa unaofadhiliwa na uundaji wa pesa. Ingawa neno "wastani" linaweza kuonekana kuwa lisilo na maana, aina hii ya mfumuko wa bei inaweza kusababisha matatizo makubwa, ingawa haijaainishwa kama mfumuko wa bei wa juu.
 
 
 - Mfumuko wa bei wa Juu:
 
-Mfumuko wa bei wa juu hutokea wakati thamani halisi ya fedha Supply inapungua licha ya ongezeko la maneno ya kawaida. Hali hii ya kutatanisha inatokana na ubadilishanaji wa fedha, ambapo watu binafsi hupoteza imani katika sarafu ya taifa na kutafuta Exchange kwa bidhaa, huduma au fedha za kigeni. Utaratibu huu unapunguza zaidi thamani halisi ya sarafu, na kuzidisha mfumuko wa bei.
+Mfumuko wa bei wa juu hutokea wakati thamani halisi ya usambazaji wa fedha inapungua licha ya ongezeko la maneno ya kawaida. Hali hii ya kutatanisha inatokana na ubadilishanaji wa fedha, ambapo watu binafsi hupoteza imani katika sarafu ya taifa na kutafuta Ubadilishanaji wa bidhaa, huduma au fedha za kigeni. Utaratibu huu unapunguza zaidi thamani halisi ya sarafu, na kuzidisha mfumuko wa bei.
 
 
 - Mfumuko wa bei:
 
-Mfumuko wa bei ni upanuzi wa mfumuko wa bei wa juu, unaojulikana na nakisi kubwa ya bajeti inayofadhiliwa na kuunda pesa. Kihistoria, hakuna kesi ya mfumuko wa bei iliyozingatiwa bila ufadhili wa nakisi kubwa kupitia uchapishaji wa pesa. Mfumuko wa bei husababisha mzunguko mbaya: mfumuko wa bei unapunguza thamani ya sarafu haraka sana hivi kwamba mapato ya ushuru hupungua kabla ya serikali kuyakusanya, na hivyo kulazimisha serikali kuchapisha pesa nyingi zaidi ili kujifadhili. Mzunguko huu wa kujiimarisha husababisha viwango vya mfumuko wa bei wa nyota, mara nyingi huzidi 50% kwa mwezi.
+Mfumuko wa bei ni upanuzi wa mfumuko wa bei wa juu, unaojulikana na nakisi kubwa ya bajeti inayofadhiliwa na kuunda pesa. Kihistoria, hakuna kesi ya mfumuko wa bei iliyozingatiwa bila ufadhili wa nakisi kubwa kupitia uchapishaji wa pesa. Mfumuko wa bei husababisha mzunguko mbaya: mfumuko wa bei unapunguza thamani ya sarafu haraka sana hivi kwamba mapato ya ushuru hupungua kabla ya Fiat money (pesa za serikali) kuyakusanya, na hivyo kulazimisha Fiat money (pesa za serikali) kuchapisha pesa nyingi zaidi ili kujifadhili. Mzunguko huu wa kujiimarisha husababisha viwango vya mfumuko wa bei wa nyota, mara nyingi huzidi 50% kwa mwezi.
 
-Uainishaji huu wa Bernholz unaangazia maendeleo hatari kutoka kwa mfumuko wa bei wa wastani hadi mfumuko wa bei kupita kiasi, ikisisitiza umuhimu muhimu wa udhibiti wa kifedha na kibajeti katika kuzuia ond haribifu za mfumuko wa bei. Pia inaonyesha kuwa matokeo mabaya kwenye ufadhili wa serikali yanaweza kutokea vyema kabla ya kufikia hatua ya mfumuko wa bei kupita kiasi, ikitoa mtazamo usio na maana juu ya athari za mfumuko wa bei katika viwango mbalimbali.
+Uainishaji huu wa Bernholz unaangazia maendeleo hatari kutoka kwa mfumuko wa bei wa wastani hadi mfumuko wa bei kupita kiasi, ukisisitiza umuhimu muhimu wa udhibiti wa kifedha na kibajeti katika kuzuia ond haribifu za mfumuko wa bei. Pia inaonyesha kuwa matokeo mabaya kwenye ufadhili wa Fiat money (pesa za serikali) yanaweza kutokea vyema kabla ya kufikia hatua ya mfumuko wa bei kupita kiasi, ikitoa mtazamo usio na maana juu ya athari za mfumuko wa bei katika viwango mbalimbali.
 
 ### Hitimisho: Muhtasari wa Aina za Mfumuko wa Bei
 
-Kwa kumalizia, tumechunguza aina mbalimbali za mfumuko wa bei, tukianza na maneno yanayosikika kama vile "mfumko wa bei unaoongezeka," "mfumko wa bei unaotembea," na "mfumko wa bei," kila moja ikimaanisha viwango tofauti vya asilimia ya mfumuko wa bei katika uchumi. Hata hivyo, kwa utafiti wetu wa kina kuhusu mfumuko wa bei, kategoria za mfumuko wa bei wa wastani, mfumuko wa bei wa juu, na mfumuko wa bei, kama ilivyoelezwa na Bernholz, yanathibitisha kuwa vigezo muhimu.
+Kwa kumalizia, tumechunguza aina mbalimbali za mfumuko wa bei, tukianza na maneno yanayosikika kama vile "mfumuko wa bei unaoongezeka," "mfumko wa bei unaotembea," na "mfumuko wa bei," kila moja ukimaanisha viwango tofauti vya asilimia ya mfumuko wa bei katika uchumi. Hata hivyo, kwa utafiti wetu wa kina kuhusu mfumuko wa bei, kategoria za mfumuko wa bei wa wastani, mfumuko wa bei wa juu, na mfumuko wa bei, kama ilivyoelezwa na Bernholz, unathibitisha kuwa vigezo muhimu.
 
 
 - Mfumuko wa Bei Wastani:
 
-Inaonyesha kiwango cha pesa Supply juu ya kawaida, ingawa kiwango hiki kinaweza kudumishwa bila ufadhili mkubwa wa serikali.
+Inaonyesha kiwango cha pesa za Usambazaji juu ya kawaida, ingawa kiwango hiki kinaweza kudumishwa bila ufadhili mkubwa wa Fiat money (pesa za serikali).
 
 
 - Mfumuko wa bei wa Juu:
 
-Hutokea wakati thamani halisi ya pesa ya Supply inapopungua, mara nyingi kutokana na ubadilishanaji wa fedha, ambapo watu binafsi hutafuta Exchange sarafu zao za bidhaa, huduma, au sarafu nyinginezo.
+Hutokea wakati thamani halisi ya pesa ya Usambazaji inapopungua, mara nyingi kutokana na ubadilishanaji wa fedha, ambapo watu binafsi hutafuta Ubadilishanaji wa sarafu zao za bidhaa, huduma, au sarafu nyinginezo.
 
 
 - Mfumuko wa bei:
 
 Inawakilisha toleo lililokithiri la mfumuko wa bei wa juu, ambapo uundaji wa pesa nyingi ili kufadhili nakisi kubwa ya bajeti husababisha mmomonyoko wa haraka wa thamani halisi ya sarafu.
 
-Kinachojitokeza kutokana na uchunguzi wetu ni kwamba mfumuko wa bei ni jambo tata na lisiloeleweka. Wakati mtu anaweza kudhani kwamba mfumuko wa bei ni matokeo ya ongezeko kubwa la fedha Supply, kwa kweli, inatokana na kupungua kwa thamani halisi ya fedha hizo Supply. Nuance hii ni muhimu kuelewa ni kwa nini baadhi ya nchi zinatatizika kuibuka kutokana na mfumuko mkubwa wa bei, hata kwa msaada wa taasisi za kimataifa kama vile Benki ya Dunia au IMF. Kupotosha aina ya mfumuko wa bei kunaweza kusababisha matumizi ya tiba zisizofaa, na hivyo kuzidisha matatizo ya kiuchumi badala ya kuyatatua.
+Kinachojitokeza kutokana na uchunguzi wetu ni kwamba mfumuko wa bei ni jambo tata na lisiloeleweka. Wakati mtu anaweza kudhani kwamba mfumuko wa bei ni matokeo ya ongezeko kubwa la usambazaji wa fedha, kwa kweli, inatokana na kupungua kwa thamani halisi ya fedha hizo za Usambazaji. Nuance hii ni muhimu kuelewa ni kwa nini baadhi ya nchi zinatatizika kuibuka kutokana na mfumuko mkubwa wa bei, hata kwa msaada wa taasisi za kimataifa kama vile Benki ya Dunia au IMF. Kupotosha aina ya mfumuko wa bei kunaweza kusababisha matumizi ya tiba isiyofaa, na hivyo kuzidisha matatizo ya kiuchumi badala ya kuyatatua.
 
-Katika mijadala yetu ya baadaye, tutazama zaidi katika mfumuko wa bei, tukichunguza fasili na udhihirisho wake katika miktadha mbalimbali ya kiuchumi. Lengo letu litakuwa kufichua mbinu za kimsingi za mfumuko wa bei na kuchunguza masuluhisho yanayoweza kutokea kwa Address. Uelewa huu uliochanganuliwa utatuwezesha kufahamu vyema changamoto zinazohusiana na kupendekeza mikakati sahihi ya usimamizi wa mfumuko wa bei.
+Katika mijadala yetu ya baadaye, tutazama zaidi katika mfumuko wa bei, tukichunguza fasili na udhihirisho wake katika miktadha mbalimbali ya kiuchumi. Lengo letu litakuwa kufichua mbinu za kimsingi za mfumuko wa bei wa juu na kuchunguza suluhisho zinazoweza kutokea ili kukabiliana nao. Uelewa huu uliochanganuliwa utatuwezesha kufahamu vyema changamoto zinazohusiana na kupendekeza mikakati sahihi ya usimamizi wa mfumuko wa bei.
 
 Asante kwa umakini wako. Kipindi kijacho kitajitolea kikamilifu kufafanua na kuondoa ufahamu wa mfumuko wa bei, kwa kuzingatia mitazamo tofauti ya kitaaluma na kiutendaji. Tunatazamia kuendelea na uchunguzi huu nawe katika mkutano wetu ujao.
 
@@ -480,7 +480,7 @@ Katika sehemu hii, tunachunguza fasili mbalimbali za mfumuko wa bei, neno muhimu
 
 
 - Mwanzo na Mwisho wa Mfumuko wa bei:
-  - Mfumuko wa bei huanza wakati mfumuko wa bei wa kila mwezi unazidi 50%.
+  - Mfumuko wa bei huanza wakati mfumuko wa bei wa kila mwezi unaozidi 50%.
   - Inaisha wakati kiwango cha mfumuko wa bei kinashuka chini ya 50% kwa mwezi kwa angalau mwaka mmoja.
 
 Kwa mfano, ikiwa mfumuko wa bei unashuka hadi 40% mwezi wa Julai na haupanda zaidi ya 50% hadi Julai mwaka uliofuata, basi kipindi cha mfumuko wa bei kinachukuliwa kuwa kilimalizika Julai ya mwaka uliopita. Ufafanuzi huu unaruhusu sifa sahihi za vipindi vya mfumuko wa bei, kuwezesha uchanganuzi uliopangwa.
@@ -493,11 +493,11 @@ zoom
 
 ![image](assets/chapitre-3.1/0.webp)
 
-Ikumbukwe kwamba ufafanuzi huu, ingawa ni sahihi, unaweza uwezekano wa kuwatenga vipindi fulani vya mfumuko wa bei kutokana na ukali wa kizingiti cha 50%. Kuna uwezekano wa kupanua ufafanuzi huu ili kujumuisha vipindi vingine ambavyo, ingawa havikidhi kikamilifu vigezo vya Cagan, hata hivyo vinawakilisha vipindi vya mfumuko wa bei wa juu sana. Uchunguzi huu unafungua mlango wa uchunguzi mpana wa matukio ya mfumuko wa bei, kuruhusu uelewa wa kina zaidi wa sababu na madhara yake. Katika majadiliano yajayo, tutazingatia kupitia upya ufafanuzi huu na kuchunguza vipindi vya mfumuko wa bei ambavyo havijashughulikiwa na vigezo vikali vya Cagan.
+Ikumbukwe kwamba ufafanuzi huu, ingawa ni sahihi, unaweza kuwa na uwezekano wa kutenga vipindi fulani vya mfumuko wa bei kutokana na ukali wa kizingiti cha 50%. Kuna uwezekano wa kupanua ufafanuzi huu ili kujumuisha vipindi vingine ambavyo, ingawa havikidhi kikamilifu vigezo vya Cagan, hata hivyo vinawakilisha vipindi vya mfumuko wa bei wa juu sana. Uchunguzi huu unafungua mlango wa uchunguzi mpana wa matukio ya mfumuko wa bei, kuruhusu uelewa wa kina zaidi wa sababu na madhara yake. Katika majadiliano yajayo, tutazingatia kupitia upya ufafanuzi huu na kuchunguza vipindi vya mfumuko wa bei ambavyo havijashughulikiwa na vigezo vikali vya Cagan.
 
 ### Ufafanuzi wa Mfumuko wa bei na Cagan
 
-Philip Cagan anaweza kuwa ameweka hatua ya kiholela na kiwango cha juu cha mfumuko wa bei cha 50% kila mwezi wakati wa kufafanua mfumuko wa bei. Yeye mwenyewe anakiri kwamba ufafanuzi huu ni wa kiholela na kimsingi ulitumikia uchambuzi wake kulingana na sehemu saba za mfumuko wa bei. Uchunguzi wa data ya Cagan unaonyesha kuwa vipindi vitatu vya mfumuko wa bei vilivyo na viwango vya chini kabisa vya mfumuko wa bei wa kila mwezi vilikuwa karibu 47%, 46% na 57%. Inaonekana kwamba kiwango cha 50% kilichaguliwa kujumuisha kesi hizi katika utafiti wake.
+Philip Cagan anaweza kuwa ameweka hatua ya kiholela na kiwango cha juu cha mfumuko wa bei cha 50% kila mwezi wakati wa kufafanua mfumuko wa bei. Yeye mwenyewe anakiri kwamba ufafanuzi huu ni wa kiholela na kimsingi ulitumikia uchambuzi wake kulingana na sehemu saba za mfumuko wa bei. Uchunguzi wa data ya Cagan unaonyesha kuwa vipindi vitatu vya mfumuko wa bei vilivyo na viwango vya chini kabisa vya mfumuko wa bei wa kila mwezi vilikuwa karibu 47%, 46% na 57%. Inaonekana kwamba kiwango cha 50% kilichaguliwa kujumuisha kesi hii katika utafiti wake.
 
 ![image](assets/chapitre-3.1/4.webp)
 
@@ -509,7 +509,7 @@ Ufafanuzi wa Cagan ulianza 1956 na unatokana na idadi ndogo ya vipindi vya mfumu
 
 - Maoni ya Cagan:
 
-Kulingana na Cagan, hakuna kipindi kilichofikia kizingiti hiki cha karibu 50% bila kuendelea hadi mfumuko mkali zaidi wa bei, ambayo inaweza kuhalalisha uchaguzi wa kizingiti hiki.
+Kulingana na Cagan, hakuna kipindi kilichofikia kizingiti hiki cha karibu 50% bila kuendelea hadi mfumuko mkali zaidi wa bei, ambao unaweza kuhalalisha uchaguzi wa kizingiti hiki.
 
 
 - Uhakiki wa Ufafanuzi wa Cagan:
@@ -584,7 +584,7 @@ Katika hali fulani za kiuchumi, thamani halisi ya noti inaweza kuwa chini kuliko
 
 4. Kuhesabu Pesa
 
-Wakati sarafu inapoteza thamani yake haraka, hata shughuli rahisi zaidi zinaweza kuwa kazi ngumu. Kuhesabu bei ya bidhaa au kuhesabu tu bili zinazohitajika kwa malipo kunaweza kuchukua dakika kadhaa, na kuongeza utata wa Layer kwa mwingiliano wa kila siku.
+Wakati sarafu inapoteza thamani yake haraka, hata shughuli rahisi zaidi zinaweza kuwa kazi ngumu. Kuhesabu bei ya bidhaa au kuhesabu tu bili zinazohitajika kwa malipo kunaweza kuchukua dakika kadhaa, na kuongeza utata wa Layer (Safu) kwa mwingiliano wa kila siku.
 
 > Weimar: "Ununuzi wa kawaida zaidi katika duka ulihitaji hesabu ya dakika tatu au nne, na mara tu bei ilipoamuliwa, dakika kadhaa zaidi zilihitajika kuhesabu noti."
 > Zimbabwe: "Wasimamizi wa maduka pia waliruhusiwa kuajiri mfanyakazi wa muda kuchukua nafasi ya mfanyakazi ambaye alihesabu pesa siku nzima. Bila shaka, kuhesabu fedha katika duka kwa ajili ya usimamizi na amana ya benki ilikuwa jambo moja, lakini mchakato mzima ulipaswa kurudiwa katika benki wakati wa kuweka amana."
@@ -596,7 +596,7 @@ Mbinu ya kuhesabu pesa kutoka Uzbekistan
 
 Katika uchumi uliotatizika, njia za kawaida za malipo kama vile hundi zinaweza kupoteza ufanisi wake haraka. Benki, zikizidiwa na ongezeko la mahitaji ya sarafu kutokana na mfumuko mkubwa wa bei, zinaweza kugawa au kuchelewesha uchukuaji wa hundi, na hivyo kupunguza thamani yake halisi. Kukosekana kwa uthabiti huku mara nyingi husababisha kutanguliza njia za malipo, ambapo bei zinaweza kutofautiana kulingana na jinsi mtu atakavyochagua kulipa.
 
-> Weimar: "Ongezeko la bei lilizidisha mahitaji ya pesa, na serikali na waajiri wengine. Benki za kibinafsi hazikuweza kukidhi mahitaji kabisa na zililazimika kugawa pesa za hundi, kwa hivyo hundi ambazo hazijalipwa zilibaki zikiwa zimegandishwa huku uwezo wao wa kununua ukipungua."
+> Weimar: "Ongezeko la bei lilizidisha mahitaji ya pesa, na Fiat money (pesa za serikali) na waajiri wengine. Benki za kibinafsi hazikuweza kukidhi mahitaji kabisa na zililazimika kugawa pesa za hundi, kwa hivyo hundi ambazo hazikulipwa zilibaki zikiwa zimegandishwa huku uwezo wao wa kununua ukipungua."
 > Zimbabwe: "Thamani ya muda wa pesa imeunda bei tatu za bidhaa na huduma; ambazo ni, bei ya fedha, bei ya papo hapo ya papo hapo, na bei ya hundi. Hatimaye, hakuna aliyekubali hundi, ambayo ilichukua siku tano kuifuta." 6. "Burner-preneurs"
 Thamani ya sarafu inapodidimia, fursa mpya za kiuchumi zinaibuka, zikitumia upotoshaji wa soko. Wajasiriamali hawa, ambao mara nyingi hupewa majina ya uvumbuzi kama "Burner-preneurs," wanaweza kustawi kwa kukopa sarafu isiyo na thamani ili kuwekeza katika mali inayoonekana, na kisha kulipa madeni yao kwa sarafu iliyopunguzwa thamani zaidi.
 
@@ -604,71 +604,71 @@ Weimar: "Uvumi juu ya mfumuko wa bei ulihusisha kukopa alama za karatasi, kuziba
 
 Zimbabwe: The "Burner-preneurs"
 
-7. Uaminifu na kazi ya Hard hupoteza mvuto wao
+7. Uaminifu na kazi ngumu hupoteza mvuto wao
 
-Katika miktadha ya kiuchumi isiyo thabiti, maadili ya kitamaduni ya kazi ya Hard, uwekevu na uadilifu yanaweza kufunikwa na mvuto wa utajiri wa haraka. Ubashiri na biashara ya sarafu mara nyingi hutoa thawabu kubwa zaidi kuliko kazi ya kawaida, na kusababisha usumbufu katika vipaumbele vya jamii.
+Katika miktadha ya kiuchumi isiyo thabiti, maadili ya kitamaduni ya kazi ngumu, uwekevu na uadilifu yanaweza kufunikwa na mvuto wa utajiri wa haraka. Ubashiri na biashara ya sarafu mara nyingi hutoa thawabu kubwa zaidi kuliko kazi ya kawaida, na kusababisha usumbufu katika vipaumbele vya jamii.
 
-Weimar: "Kama fadhila za zamani za uwekevu, uaminifu, na kazi ya Hard zilipoteza mvuto, kila mtu alitaka kutajirika haraka, haswa kwa kuwa uvumi wa sarafu au hisa ungeweza kuzaa zaidi kuliko kazi."
+Weimar: "Kama fadhila za zamani za uwekevu, uaminifu, na kazi ngumu zilipoteza mvuto, kila mtu alitaka kutajirika haraka, haswa kwa kuwa uvumi wa sarafu au hisa ungeweza kuzaa zaidi kuliko kazi."
 
-Zimbabwe: "Vitendo hivi, pamoja na kuwatajirisha watu wachache, vilifukarisha wafanyakazi wa mijini na wakazi wa vijijini. Elimu ilipoteza thamani yake, kwani biashara hii iliendeshwa na watu ambao hawakuhitaji elimu au kazi ya Hard ili kuihalalisha. Walichohitaji ni miunganisho na mtaji wa awali ili kuanzisha biashara yao ya pesa rahisi."
+Zimbabwe: "Vitendo hivi, pamoja na kuwatajirisha watu wachache, vilifukarisha wafanyakazi wa mijini na wakazi wa vijijini. Elimu ilipoteza thamani yake, kwani biashara hii iliendeshwa na watu ambao hawakuhitaji elimu au kazi ngumu ili kuhalalisha. Walichohitaji ni miunganisho na mtaji wa awali ili kuanzisha biashara yao ya pesa rahisi."
 
 ![image](assets/chapitre-3.2/5.webp)
 
 8. "Benki za Dunia"
 
-Katika hali ya mfumuko mkubwa wa bei au mgogoro wa kifedha, masoko ya sambamba na yasiyodhibitiwa ya fedha za kigeni huwa yanaongezeka. "Benki" hizi zisizo rasmi, ambazo mara nyingi hujulikana kwa ucheshi kama "benki za dunia" au kwa majina mengine ya ndani, hutoa kimbilio kwa wale wanaotaka kulinda mali zao dhidi ya kushuka kwa thamani. Ingawa masoko haya yanaweza kutoa tegemeo muhimu la kiuchumi, mara nyingi yanaangazia kutokuamini kwa taasisi rasmi za kifedha na sera za serikali.
+Katika hali ya mfumuko mkubwa wa bei au mgogoro wa kifedha, masoko ya sambamba na yasiyodhibitiwa ya fedha za kigeni huwa yanaongezeka. "Benki" hizi zisizo rasmi, ambazo mara nyingi hujulikana kwa ucheshi kama "benki za dunia" au kwa majina mengine ya ndani, hutoa kimbilio kwa wale wanaotaka kulinda mali zao dhidi ya kushuka kwa thamani. Ingawa masoko haya yanaweza kutoa tegemeo muhimu la kiuchumi, mara nyingi yanaangazia kutokuamini kwa taasisi rasmi za kifedha na sera za Fiat money (pesa za serikali).
 
 Weimar: "Shughuli zao zilifanywa hasa kupitia wale wanaoitwa Winkelbankkiers, waendeshaji wa barabarani ambao walikuwa wameibuka na mfumuko wa bei na ambao, wakistawi katika uchumi mbaya, waliishi kabisa kwa kuchukua fursa ya tofauti kati ya bei ya kununua na kuuza ya fedha za kigeni."
 
 Zimbabwe: "Pia walikuwa wabadilishaji fedha. Walifanya kazi bila ya kuadhibiwa kati ya 2nd na 6th Avenue na Fort Street huko Bulawayo, kutokana na ujuzi wao wa ujanja wa biashara unaohusisha rushwa na vitendo vingine. Eneo hili la jiji lilijulikana kama 'Benki ya Dunia'."
 
-Argentina: "Kwa hiyo nilikwenda ambapo Waajentina wote wanakwenda: cuevas, 'mapango', ambayo yanapatikana katika kitongoji cha Florida katikati ya Buenos Aires." - TheBigWhale
+Argentina: "Kwa hivyo nilienda ambapo Waajentina wote wanaenda: cuevas, 'mapango', ambayo yanapatikana katika kitongoji cha Florida katikati ya Buenos Aires." - TheBigWhale
 
-9. Sarafu Exchange ilikuwa kinyume cha sheria
+9. Sarafu ya Ubadilishanaji ilikuwa kinyume cha sheria
 
-Serikali, katika jitihada za kuleta utulivu wa sarafu zao na kudhibiti mtiririko wa mtaji, zinaweza kufanya miamala hii ya fedha za kigeni kuwa haramu. Hatua hizi za ukandamizaji, ingawa zimekusudiwa kulinda uchumi wa taifa, mara nyingi zinaweza kuwa na athari tofauti, kuzidisha kutoaminiana kwa umma na kuhimiza soko nyeusi.
+Fiat money (pesa za serikali), katika jitihada za kuleta utulivu wa sarafu zao na kudhibiti mtiririko wa mtaji, zinaweza kufanya miamala hii ya fedha za kigeni kuwa haramu. Hatua hizi za ukandamizaji, ingawa zimekusudiwa kulinda uchumi wa taifa, mara nyingi zinaweza kuwa na athari tofauti, kuzidisha kutoaminiana kwa umma na kuhimiza soko nyeusi.
 
-Weimar: "Watu waliamua kubadilishana fedha na hatua kwa hatua wakageukia fedha za kigeni kuwa njia pekee ya kuaminika ya Exchange. Amri mpya zilianzishwa kuhusu ununuzi wa rasimu za kigeni na matumizi ya fedha za kigeni kwa malipo ya ndani. Mbali na kifungo, faini sasa zingeweza kutozwa hadi mara kumi ya kiasi cha muamala usio halali."
+Weimar: "Watu waliamua kubadilishana fedha na hatua kwa hatua wakageukia fedha za kigeni kuwa njia pekee ya kuaminika ya Ubadilishanaji. Amri mpya zilianzishwa kuhusu ununuzi wa rasimu za kigeni na matumizi ya fedha za kigeni kwa malipo ya ndani. Mbali na kifungo, faini sasa zingeweza kutozwa hadi mara kumi ya kiasi cha muamala usio halali."
 
 Zimbabwe: "Uvamizi wa biashara ulisababisha kufungwa kwa wafanyabiashara kadhaa kutoka Bulawayo mwishoni mwa wiki na faini sawa na mara mbili ya fedha za kigeni zilizopatikana, ushujaa huu ulipungua."
 
 10. Udhibiti wa mtaji
 
-Wakati nchi inakabiliwa na mzozo wa kifedha au kiuchumi, jibu moja la kawaida la serikali ni kuweka udhibiti mkali juu ya harakati na aina za mtaji. Iwe kupitia maagizo ya kulazimisha kukubalika kwa sarafu za taifa zilizoshuka thamani au kupitia vikwazo vikali dhidi ya wale wanaokataa njia fulani za kulipa, hatua hizi mara nyingi hulenga kuzuia hofu na kurejesha imani. Hata hivyo, ufanisi wao unatofautiana, na wakati mwingine hatua hizi zinaweza kuthibitisha kuwa hazina tija au zimetenganishwa na ukweli unaoupata wananchi.
+Wakati nchi inakabiliwa na mzozo wa kifedha au kiuchumi, jibu moja la kawaida la Fiat money (pesa za serikali) ni kuweka udhibiti mkali juu ya harakati na aina za mtaji. Iwe kupitia maagizo ya kulazimisha kukubalika kwa sarafu za taifa zilizoshuka thamani au kupitia vikwazo vikali dhidi ya wale wanaokataa njia fulani za kulipa, hatua hizi mara nyingi hulenga kuzuia hofu na kurejesha imani. Hata hivyo, ufanisi wao unatofautiana, na wakati mwingine hatua hizi zinaweza kuthibitisha kuwa hazina tija au zimetenganishwa na ukweli wanaoupata wananchi.
 
-Weimar: "Wafanyabiashara walikuwa wamelazimishwa hivi majuzi na amri mpya kukubali noti za serikali; lakini kwa vile pia iliruhusu matumizi ya kuendelea ya fedha za kigeni kwa ununuzi wote, wafanyabiashara kwa ujumla walipata visingizio vya kutokubali kitu kingine chochote."
+Weimar: "Wafanyabiashara walikuwa wamelazimishwa hivi majuzi na amri mpya kukubali noti za Fiat money (pesa za serikali); lakini kwa vile pia iliruhusu matumizi ya kuendelea ya fedha za kigeni kwa ununuzi wote, wafanyabiashara kwa ujumla walipata visingizio vya kutokubali kitu kingine chochote."
 
-Zimbabwe: "Serikali ilianzisha SI 175/2008 mnamo Desemba 12, 2008, kuhusu malipo kwa hundi. Ilisema, 'Adhabu ya kukataa malipo kwa hundi/kadi ya benki au njia nyingine yoyote ya malipo ya kielektroniki ya upatanishi wa benki itakuwa faini ya kiwango cha 8 au kifungo cha miezi sita au vyote kwa pamoja.' Ni wazi, tulipuuza SI kwa sababu ilikuwa nje ya uhusiano kabisa na ukweli."
+Zimbabwe: "Fiat money (pesa za serikali) ilianzisha SI 175/2008 mnamo Desemba 12, 2008, kuhusu malipo kwa hundi. Ilisema, 'Adhabu ya kukataa malipo kwa hundi/kadi ya benki au njia yoyote ya malipo ya kielektroniki ya upatanishi wa benki itakuwa faini ya kiwango cha 8 au kifungo cha miezi sita au vyote kwa pamoja.' Ni wazi, tulipuuza SI kwa sababu ilikuwa nje ya uhusiano kabisa na ukweli."
 
 ![image](assets/chapitre-3.2/4.webp)
 
 11. Kulazimishwa kuweka maduka yao wazi
 
-Uchumi unapoporomoka na sarafu ikapoteza thamani yake, serikali zinaweza kuchukua hatua kali ili kudumisha mwonekano wa hali ya kawaida.
+Uchumi unapoporomoka na sarafu ikapoteza thamani yake, Fiat money (pesa za serikali) zinaweza kuchukua hatua kali ili kudumisha mwonekano wa hali ya kawaida.
 
-Weimar: "Wafanyabiashara ambao waliendelea na shughuli zao walikuwa chini ya sheria mpya, iliyotungwa Oktoba 22, kuwataka kuweka maduka yao wazi na kutoa bidhaa katika Exchange kwa alama za karatasi."
+Weimar: "Wafanyabiashara ambao waliendelea na shughuli zao walikuwa chini ya sheria mpya, iliyotungwa Oktoba 22, kuwataka kuweka maduka yao wazi na kutoa bidhaa katika Ubadilishanaji kwa alama za karatasi."
 
-Zimbabwe: "Ilibaki rafu tupu za chuma na jokofu, friji na friza. Mkasa ni kwamba duka lilikuwa bado wazi kwa sababu hawakuthubutu kufunga kutokana na mvutano wa kisiasa na hofu ya viongozi kukamatwa na nguvu ya serikali ya kudhibiti bei. Hata wafanyakazi hawakupunguzwa kazi kwa sababu kila mtu alidhani kungekuwa na suluhisho la haraka."
+Zimbabwe: "Ilibaki rafu tupu za chuma na jokofu, friji na friza. Mkasa ni kwamba duka lilikuwa bado wazi kwa sababu hawakuthubutu kufunga kutokana na mvutano wa kisiasa na hofu ya viongozi kukamatwa kwa nguvu na Fiat money (pesa za serikali) ya kudhibiti bei. Hata wafanyakazi hawakupunguziwa kazi kwa sababu kila mtu alidhani kungekuwa na suluhisho la haraka."
 
 12. Kila mtu ni mhalifu
 
 Katika uso wa uchumi unaoporomoka na kanuni zinazoenea, mstari kati ya kuishi na uhalifu unakuwa wazi.
 
-Weimar: "Uhalifu wote dhidi ya serikali, kila mmoja wao, kwa viwango tofauti, umekuwa suala la kuishi kwa watu binafsi."
+Weimar: "Uhalifu wote dhidi ya Fiat money (pesa za serikali), kila mmoja wao, kwa viwango tofauti, umekuwa suala la kuishi kwa watu binafsi."
 
-Zimbabwe: "Kila mkazi wa Zimbabwe alikuwa mhalifu. Ingawa inaweza kuonekana kuwa kali, ilikuwa kweli. Kwa maelfu ya sheria ndogo zinazoongoza kila nyanja ya maisha, ilikuwa ni lazima kwamba kila mtu angevunja sheria kila siku. Kumiliki fedha za kigeni ilikuwa kinyume cha sheria, kulingana na SI iliyochapishwa mwaka wa 2004. Kuwa na akaunti nyingi za benki ili kukwepa kikomo cha uondoaji wa kila siku ilikuwa kinyume cha sheria. Kutokuwa na leseni sahihi ya gari au redio ya gari ilikuwa kinyume cha sheria. sheria ambazo mtu, mahali fulani, alikuwa akivunja." 13. Kununua fedha za kigeni kwa bei yoyote
+Zimbabwe: "Kila mkazi wa Zimbabwe alikuwa mhalifu. Ingawa inaweza kuonekana kuwa kali, ilikuwa kweli. Kwa maelfu ya sheria ndogo zinazoongoza kila nyanja za maisha, ilikuwa ni lazima kwamba kila mtu angevunja sheria kila siku. Kumiliki fedha za kigeni ilikuwa kinyume cha sheria, kulingana na SI iliyochapishwa mwaka wa 2004. Kuwa na akaunti nyingi za benki ili kukwepa kikomo cha uondoaji wa kila siku ilikuwa kinyume cha sheria. Kutokuwa na leseni sahihi ya gari au redio ya gari ilikuwa kinyume cha sheria. sheria ambazo mtu, mahali fulani, alikuwa akivunja." 13. Kununua fedha za kigeni kwa bei yoyote
 
 Ununuzi mkali wa fedha za kigeni mara nyingi umeashiria mabadiliko muhimu katika upunguzaji wa thamani ya sarafu, na hivyo kuzidisha kushuka kwa thamani ya asili.
 
-> Weimar: "Mannheimer, kwa maagizo ya bosi wake, alitoka nje mnamo Agosti 1921 na kuanza kununua sarafu za kigeni kwa bei yoyote - 'kwa sababu Ujerumani ilikuwa na alama nyingi za karatasi lakini hazina fedha za kigeni.' Hii ilikuwa ishara ya kwanza ya kuporomoka kabisa kwa thamani ya alama hiyo."
-> Zimbabwe: Imedaiwa kuwa walipewa malengo ya kila siku kutimiza, kwani baadhi ya mahitaji ya forex yalikuwa ya dharura na wangenunua kwa kiwango chochote ili kukusanya forex ili kufikia tarehe ya mwisho. Kitendo hiki kinachodaiwa kilishutumiwa kuchochea moto wa kushuka thamani huku thamani ya dola ya Zimbabwe ikiendelea kushuka kwa kasi."
+> Weimar: "Mannheimer, kwa maagizo ya bosi wake, alitoka nje mnamo Agosti 1921 na kuanza kununua sarafu za kigeni kwa bei yoyote - 'kwa sababu Ujerumani walikuwa na alama nyingi za karatasi lakini hazina fedha za kigeni.' Hii ilikuwa ishara ya kwanza ya kuporomoka kabisa kwa thamani ya alama hiyo."
+> Zimbabwe: Imedaiwa kuwa walipewa malengo ya kila siku kutimiza, kwani baadhi ya mahitaji ya forex yalikuwa ya dharura na wangenunua kwa kiwango chochote ili kukusanya forex ili kufikia tarehe za mwisho. Kitendo hiki kinachodaiwa kilishutumiwa kuchochea moto wa kushuka thamani huku thamani ya dola ya Zimbabwe ikiendelea kushuka kwa kasi."
 ### Muhtasari wa mchakato
 
 ![image](assets/chapitre-3.2/2.webp)
 
-Wakati wa kuchambua trajectory ya kiuchumi, ni dhahiri kwamba wakati mfumuko wa bei wa juu unafikiwa, thamani ya wingi wa fedha huharibika. Kushuka kwa thamani hii husababisha matatizo kadhaa, ikiwa ni pamoja na uhaba wa noti. Katika muktadha huu, fursa za usuluhishi huibuka, haswa na mabadiliko ya kiwango cha Exchange. Kama matokeo, watu wengi hugeukia usuluhishi huu, wakiwekeza sana katika mali inayoonekana kwa kutarajia kushuka kwa thamani ya sarafu ya siku zijazo ambayo ingewaruhusu kulipa deni zao kwa sarafu iliyodhoofika. Mazingira haya ya kiuchumi yanadhoofisha mvuto wa kazi za kitamaduni na, hivyo basi, kumomonyoa mshikamano wa kijamii.
+Wakati wa kuchambua trajectory ya kiuchumi, ni dhahiri kwamba wakati mfumuko wa bei wa juu unafikiwa, thamani ya wingi wa fedha huharibika. Kushuka kwa thamani hii husababisha matatizo kadhaa, ikiwa ni pamoja na uhaba wa noti. Katika muktadha huu, fursa za usuluhishi huibuka, haswa na mabadiliko ya kiwango cha Ubadilishanaji. Kama matokeo, watu wengi hugeukia usuluhishi huu, wakiwekeza sana katika mali inayoonekana kwa kutarajia kushuka kwa thamani ya sarafu ya siku zijazo ambazo zingewaruhusu kulipa deni zao kwa sarafu iliyodhoofika. Mazingira haya ya kiuchumi yanadhoofisha mvuto wa kazi za kitamaduni na, hivyo basi, kumomonyoa mshikamano wa kijamii.
 
-Katika kukabiliana na hali hii, serikali inaweka kanuni kali, ikiwa ni pamoja na udhibiti wa mitaji. Pia inawaamuru wafanyabiashara kukubali sarafu ya kitaifa na hundi. Baada ya muda, sheria mpya zinatungwa, kupanua ufafanuzi wa tabia ya uhalifu. Hatimaye, kiwango cha Exchange kinapanda kwa kasi kwani serikali iko tayari kutumia Exchange sarafu yake, iliyochapishwa kwa gharama ya chini, kwa sarafu za kigeni zenye nguvu zaidi.
+Katika kukabiliana na hali hii, Fiat money (pesa za serikali) inaweka kanuni kali, ikiwa ni pamoja na udhibiti wa mitaji. Pia inawaamuru wafanyabiashara kukubali sarafu ya kitaifa na hundi. Baada ya muda, sheria mpya zinatungwa, kupanua ufafanuzi wa tabia ya uhalifu. Hatimaye, kiwango cha Ubadilishanaji kinapanda kwa kasi kwani Fiat money (pesa za serikali) iko tayari kutumia Ubadilishanaji wa sarafu yake, iliyochapishwa kwa gharama ya chini, kwa sarafu za kigeni zenye nguvu zaidi.
 
 ### 4 Kufanana kwa matokeo ya mfumuko wa bei
 
@@ -676,14 +676,14 @@ Katika kukabiliana na hali hii, serikali inaweka kanuni kali, ikiwa ni pamoja na
 
 1. Mafuta na metali
 
-Huko Ujerumani wakati wa kipindi cha Weimar, wizi wa vifaa vya thamani ulikuwa hivi kwamba risasi kutoka kwa paa iliibiwa mara kwa mara. Nchini Zimbabwe, hali ya kukata tamaa ilisababisha baadhi ya watu kukatiza gridi ya nishati ya kuchimba mafuta kutoka kwa transfoma na kuitumia kwenye magari yao.
+Huko Ujerumani wakati wa kipindi cha Weimar, wizi wa vifaa vya thamani ulikuwa hivi kwamba risasi kutoka kwa paa iliyoibiwa mara kwa mara. Nchini Zimbabwe, hali ya kukata tamaa ilisababisha baadhi ya watu kukatiza gridi ya nishati ya kuchimba mafuta kutoka kwa transfoma na kuyatumia kwenye magari yao.
 
-Katika muktadha wa kuzorota kwa uchumi na uhaba wa rasilimali, serikali zinaweza kutekeleza mifumo ya mgao ili kudhibiti usambazaji wa bidhaa muhimu. Hii ni pamoja na matumizi ya kuponi au vocha ili kudhibiti ununuzi wa petroli au mafuta.
+Katika muktadha wa kuzorota kwa uchumi na uhaba wa rasilimali, Fiat money (pesa za serikali) zinaweza kutekeleza mifumo ya mgao ili kudhibiti usambazaji wa bidhaa muhimu. Hii ni pamoja na matumizi ya kuponi au vocha ili kudhibiti ununuzi wa petroli au mafuta.
 
 > Weimar: "Huko Berlin, kutokana na uhaba wa petroli, mfumo wa kuponi ulitekelezwa ili kudhibiti usambazaji wake. Kila raia alipewa kiasi maalum cha kuponi ambacho kiliwaruhusu kununua kiasi kidogo cha mafuta."
-> Zimbabwe: "Wakati wa shida ya mafuta, serikali ilianzisha mfumo wa kuponi ili kusimamia usambazaji wa petroli. Kila mtu alipewa idadi maalum ya kuponi ambazo zingeweza kubadilishwa kwa kiwango fulani cha mafuta."
-> Idadi ya watu inatafuta njia mbadala thabiti za miamala. Huko Weimar, bidhaa kama vile shaba na mafuta zilitumika kama njia ya Exchange kutokana na thamani yao ya asili isiyobadilika. Nchini Zimbabwe, inakabiliwa na kushuka kwa thamani ya haraka ya dola ya Zimbabwe, kuponi za petroli, ambazo ziliwakilisha kiasi fulani cha bidhaa muhimu, zimekuwa sarafu ya kweli. Hali hizi zinaangazia jinsi jamii zinavyokabiliana na hali mbaya ya kiuchumi, kutafuta masuluhisho ya kibunifu ili kuweka biashara na uchumi kusonga mbele.
-Weimar: "Kubadilishana ilikuwa tayari aina ya kawaida ya Exchange; lakini sasa, bidhaa kama shaba na mafuta zimekuwa sarafu ya kawaida ya ununuzi na malipo."
+> Zimbabwe: "Wakati wa shida ya mafuta, Fiat money (pesa za serikali) ilianzisha mfumo wa kuponi ili kusimamia usambazaji wa petroli. Kila mtu alipewa idadi maalum ya kuponi ambazo zingeweza kubadilishwa kwa kiwango fulani cha mafuta."
+> Idadi ya watu inatafuta njia mbadala thabiti za miamala. Huko Weimar, bidhaa kama vile shaba na mafuta zilitumika kama njia ya Ubadilishanaji kutokana na thamani yao ya asili isiyobadilika. Nchini Zimbabwe, inakabiliwa na kushuka kwa thamani ya haraka ya dola ya Zimbabwe, kuponi za petroli, ambazo ziliwakilisha kiasi fulani cha bidhaa muhimu, zimekuwa sarafu ya kweli. Hali hizi zinaangazia jinsi jamii zinavyokabiliana na hali mbaya ya kiuchumi, kutafuta suluhisho za kibunifu ili kuweka biashara na uchumi kusonga mbele.
+Weimar: "Kubadilishana ilikuwa tayari aina ya kawaida ya Ubadilishanaji; lakini sasa, bidhaa kama shaba na mafuta zimekuwa sarafu za kawaida za ununuzi na malipo."
 
 Zimbabwe: "Sasa tulitumia vocha hizi kulipa kodi kwa wamiliki wa nyumba, ushuru wa manispaa, bili za simu, kwa kweli, karibu kila kitu, kwani kila mtu alikuwa ameacha kukubali malipo kwa dola za Zimbabwe na hundi."
 
@@ -709,7 +709,7 @@ Nchini Ujerumani, ilikuwa kawaida kwa idadi ya watu kuhusisha mfumuko wa bei na 
 
 Ikikabiliana na mzozo wa kifedha na kiuchumi, Ujerumani iliamua kutumia "Notgeld" (fedha za dharura). Vidokezo hivi, vilivyochapishwa na miji au makampuni fulani, viliundwa kwa Address uhaba wa sarafu ya kawaida.
 
-Inafurahisha, Ufaransa pia ilikimbilia Notgeld, haswa katika miaka ya 1920. Mpango huu haukuwa tu tokeo la moja kwa moja la mfumuko mkubwa wa bei bali pia ulitokana na usumbufu uliosababishwa na Vita vya Kwanza vya Kidunia. Vita hivyo havikuvuruga uchumi tu bali pia viliongeza gharama ya metali. Kwa hiyo, thamani ya asili ya sarafu za chuma mara nyingi ilizidi thamani ya uso, na kusababisha watu kuzihifadhi. Kwa kukosekana kwa sarafu, taasisi zingine, kama vile Chama cha Wafanyabiashara cha Lyon, zilichapisha Notgeld yao wenyewe.
+Inafurahisha, Ufaransa pia ilikimbilia Notgeld, haswa katika miaka ya 1920. Mpango huu haukuwa tu tokeo la moja kwa moja la mfumuko mkubwa wa bei bali pia ulitokana na usumbufu uliosababishwa na Vita vya Kwanza vya Kidunia. Vita hivyo havikuvuruga uchumi tu bali pia viliongeza gharama ya metali. Kwa hiyo, thamani ya asili ya sarafu za chuma mara nyingi ilizidi thamani ya uso, na kusababisha watu kuzihifadhi. Kwa kukosekana kwa sarafu, taasisi nyingine, kama vile Chama cha Wafanyabiashara cha Lyon, zilichapisha Notgeld yao wenyewe.
 
 ![image](assets/chapitre-3.3/0.webp)
 
@@ -726,7 +726,7 @@ Msanii anayehusika na Notgeld hii anaonekana kuwa na ukosoaji wa kejeli kwa maml
 
 Katika Weimar, baadhi ya madeni yalithaminiwa ili kufidia athari za mfumuko wa bei. Hatua hii haikupitishwa nchini Zimbabwe.
 
-> Weimar: "Uamuzi wa kutathmini upya mikopo inayomilikiwa na serikali ukawa sheria mwaka wa 1925, na kusababisha wanahisa kupokea asilimia 2.5 ya uwekezaji wao wa awali ili mradi fidia zote zimelipwa."
+> Weimar: "Uamuzi wa kutathmini upya mikopo inayomilikiwa na Fiat money (pesa za serikali) ukawa sheria mwaka wa 1925, na kusababisha wanahisa kupokea asilimia 2.5 ya uwekezaji (investment) wao wa awali ili mradi fidia zote zimelipwa."
 > Zimbabwe: "Mnamo Julai 2007 (miaka mitatu baadaye), ningeweza kuchukua noti iliyoshuka ya ZDW 500,000 (bt "000") kutoka mfukoni mwangu, ambayo sasa ina thamani ya $1.67 kwa kiwango cha soko sambamba, na kulipa mkopo wa rehani, ambao ulipaswa kulipwa kwa zaidi ya miaka ishirini. Zaidi ya hayo, asilimia 0 ya mshahara wangu wa mwezi huu tu.
 Ili kujifunza zaidi kuhusu usimamizi wa mgogoro wa Ujerumani, kitabu hiki pia ni muhimu.
 
@@ -763,7 +763,7 @@ Jambo la makampuni ya zombie sio mdogo kwa historia ya baada ya vita ya Ujeruman
 
 5. Tajirika haraka!
 
-Katika historia, kumekuwa na nyakati ambapo watu binafsi wanatafuta kutajirika haraka, kama ilivyokuwa katika Weimar na Zimbabwe kupitia usuluhishi. Leo, tunaona mwelekeo sawa na kuibuka kwa fedha fulani za crypto. Watu wanajaribiwa na faida za haraka, wakichukua hatari kwa matumaini ya kuzidisha kwa kasi kwa uwekezaji wao. Njia hii inaweza kukumbusha kile kinachozingatiwa wakati wa mfumuko wa bei, ambapo usuluhishi hutumiwa kupata faida ya haraka, mara nyingi kwa gharama ya wengine.
+Katika historia, kumekuwa na nyakati ambapo watu binafsi wanatafuta kutajirika haraka, kama ilivyokuwa katika Weimar na Zimbabwe kupitia usuluhishi. Leo, tunaona mwelekeo sawa na kuibuka kwa fedha fulani za crypto. Watu wanajaribiwa na faida za haraka, wakichukua hatari kwa matumaini ya kuzidisha kwa kasi kwa uwekezaji (investment) wao. Njia hii inaweza kukumbusha kile kinachozingatiwa wakati wa mfumuko wa bei, ambapo usuluhishi hutumiwa kupata faida ya haraka, mara nyingi kwa gharama ya wengine.
 
 ![image](assets/chapitre-3.3/6.webp)
 
@@ -773,7 +773,7 @@ Katika historia, kumekuwa na nyakati ambapo watu binafsi wanatafuta kutajirika h
 > Inafurahisha kuangazia nukuu ambayo inasisitiza athari ya uharibifu ya mmomonyoko wa thamani ya mtaji kwenye mshikamano wa kijamii, pamoja na kutokuwa na uhakika kunakozalisha. Inasema: "ushawishi wa vamizi na wa uharibifu wa mmomonyoko wa mara kwa mara wa thamani ya mtaji na mapato, pamoja na kutokuwa na uhakika juu ya siku zijazo."
 Hebu wazia hali ambapo una familia au wapendwa unaotaka kuwalinda. Unafanya kazi Hard, kuokoa pesa, ili kutarajia kutokuwa na uhakika wa siku zijazo. Ikiwa kila kitu kilitabirika, kuokoa hakutakuwa na maana. Lakini katika uso wa zisizotarajiwa, kama gari iliyoharibika, akiba inakuwa njia ya kuokoa maisha. Inapunguza kutokuwa na uhakika wa ulimwengu. Walakini, katika kipindi cha mfumuko wa bei, kuokoa inakuwa changamoto. Pesa hupoteza thamani yake haraka, na kufanya upangaji wa muda mrefu kuwa mgumu. Kukosekana kwa utulivu wa kifedha kunaweza kusababisha mafadhaiko na wasiwasi.
 
-Leo, katika hali ya kupungua kwa uwezo wa ununuzi, uwekezaji unachukua nafasi. Walakini, njia hii inakuja na hatari zake. Akiba daima imekuwa suluhisho dhidi ya kutokuwa na uhakika. Kuwa na akiba ya fedha ili kudhibiti hali zisizotarajiwa huchangia amani ya akili na kuimarisha mshikamano wa kijamii. Kwa kumalizia, kulinda uwezo wetu wa ununuzi ni muhimu ili kudumisha utulivu wa kijamii na mtu binafsi.
+Leo, katika hali ya kupungua kwa uwezo wa ununuzi, uwekezaji (investment) unachukua nafasi. Walakini, njia hii inakuja na hatari zake. Akiba daima imekuwa suluhisho dhidi ya kutokuwa na uhakika. Kuwa na akiba ya fedha ili kudhibiti hali zisizotarajiwa huchangia amani ya akili na kuimarisha mshikamano wa kijamii. Kwa kumalizia, kulinda uwezo wetu wa ununuzi ni muhimu ili kudumisha utulivu wa kijamii na mtu binafsi.
 
 ## Redenominations katika Amerika ya Kusini
 
@@ -789,7 +789,7 @@ Kwenye slaidi, upande wa kushoto, kuna miaka ya kubadilishwa upya, jina la saraf
 
 Kwenye upande wa kulia wa slaidi, kuna grafu ya mfumuko wa bei. Mishale nyekundu inawakilisha miaka ya mfumuko mkubwa wa bei, unaofafanuliwa kulingana na kigezo cha Kagan kama kiwango cha mfumuko wa bei cha 50% kwa mwezi. Kigezo hiki wakati mwingine kinaweza kusababisha tafsiri zisizoeleweka, kwa miaka kuwa na viwango vya juu vya mfumuko wa bei lakini haifikii ufafanuzi mkali wa mfumuko wa bei.
 
-Ikumbukwe kwamba kuunda upya, wakati wa mfumko wa bei, ni hatua ya kawaida inayochukuliwa na serikali. Hata hivyo, hii haina kutatua tatizo la msingi la mfumuko wa bei au mfumuko wa bei. Ni njia pekee ya kubadilisha jina la sarafu na kuondoa sifuri, bila kushughulikia kweli sababu ya mfumuko wa bei: upanuzi wa pesa Supply. Katika video ya baadaye, tutajadili ufumbuzi halisi wa Address na kutatua tatizo la mfumuko wa bei. Katika mfululizo huu, tutaangazia matokeo ya upyaji upya rahisi bila mageuzi ya kutosha: mfumuko wa bei unaendelea.
+Ikumbukwe kwamba kuunda upya, wakati wa mfumko wa bei, ni hatua ya kawaida inayochukuliwa na Fiat money (pesa za serikali). Hata hivyo, hii haina kutatua tatizo la msingi la mfumuko wa bei au mfumuko wa bei. Ni njia pekee ya kubadilisha jina la sarafu na kuondoa sifuri, bila kushughulikia kweli sababu ya mfumuko wa bei: upanuzi wa pesa Supply. Katika video ya baadaye, tutajadili ufumbuzi halisi wa Address na kutatua tatizo la mfumuko wa bei. Katika mfululizo huu, tutaangazia matokeo ya upyaji upya rahisi bila mageuzi ya kutosha: mfumuko wa bei unaendelea.
 
 Baada ya Ajentina, somo letu litahusu Brazili, Bolivia, Peru, Nicaragua, na Venezuela. Tutachunguza madhehebu ambayo yamefanyika katika nchi hizi.
 
@@ -857,7 +857,7 @@ Nikaragua, iliyokuwa chini ya utawala wa Uhispania, hapo awali ilitumia dola ya 
 
 ![image](assets/chapitre-3.4/6.webp)
 
-Venezuela ndiyo nchi ya mwisho iliyotajwa kwenye video hii. Nchi imepitia mabadiliko manne ya sarafu kwa wakati. Katika siku zake za mwanzo, Venezuela ilitumia dola ya Uhispania kabla ya kutangaza uhuru wake mnamo 1811. Mnamo 1879, ilitambulisha bolivar kama sarafu rasmi, ambayo iliendelea kutumika hadi 1983, wakati serikali ilipochagua dola ya kiwango cha Exchange inayoelea.
+Venezuela ndiyo nchi ya mwisho iliyotajwa kwenye video hii. Nchi imepitia mabadiliko manne ya sarafu kwa wakati. Katika siku zake za mwanzo, Venezuela ilitumia dola ya Uhispania kabla ya kutangaza uhuru wake mnamo 1811. Mnamo 1879, ilitambulisha bolivar kama sarafu rasmi, ambayo iliendelea kutumika hadi 1983, wakati Fiat money (pesa za serikali) ilipochagua dola ya kiwango cha Exchange inayoelea.
 
 Ukweli unaojulikana kuhusu Venezuela ni uanachama wake katika Umoja wa Fedha wa Kilatini. Muungano huu ulijumuisha sarafu kama vile peseta 5 kutoka Uhispania, drakma 5 kutoka Ugiriki, bolivar 5 kutoka Venezuela, lire 5 kutoka Italia, faranga 5 za Ubelgiji, na faranga 5 za Ufaransa.
 
@@ -895,18 +895,18 @@ Kwa kumalizia, mfumuko wa bei ni kipengele kimoja tu cha changamoto za kiuchumi.
 
 ### Jinsi ya kumaliza mfumuko wa bei wa wastani na wa juu
 
-Hitimisho zilizotajwa hutolewa kutoka kwa kitabu "Utawala wa Fedha na Mfumuko wa bei" na Bernold. Kulingana na Bernold, njia pekee ya kukomesha mfumuko wa bei ni kufanya mageuzi ya fedha na kuweka vikwazo kwa serikali. Vizuizi hivi vinahusisha uanzishwaji wa taasisi, kama vile benki kuu, inayofanya kazi bila kutegemea maamuzi ya serikali ya kisiasa. Mfumuko wa juu na mfumuko wa bei mara nyingi ni matokeo ya kufadhili nakisi ya bajeti kupitia uundaji wa pesa. Kwa mfumuko wa bei wa wastani wa Address, ni muhimu kupunguza ukuaji wa pesa Supply. Bernold pia anapendekeza kwamba ukuaji huu wa fedha unapaswa kuwa jamaa na nchi jirani. Jambo la kushangaza ni kwamba, wakati wa kuongezeka kwa mfumuko wa bei au mfumuko wa bei, jumla ya thamani ya pesa Supply inaweza kupungua. Mfano wa kushangaza wa hali hii ni Zimbabwe.
+Hitimisho zilizotajwa hutolewa kutoka kwa kitabu "Utawala wa Fedha na Mfumuko wa bei" na Bernold. Kulingana na Bernold, njia pekee ya kukomesha mfumuko wa bei ni kufanya mageuzi ya fedha na kuweka vikwazo kwa Fiat money (pesa za serikali). Vizuizi hivi vinahusisha uanzishwaji wa taasisi, kama vile benki kuu, inayofanya kazi bila kutegemea maamuzi ya Fiat money (pesa za serikali) ya kisiasa. Mfumuko wa juu na mfumuko wa bei mara nyingi ni matokeo ya kufadhili nakisi ya bajeti kupitia uundaji wa pesa. Kwa mfumuko wa bei wa wastani wa Address, ni muhimu kupunguza ukuaji wa pesa Supply. Bernold pia anapendekeza kwamba ukuaji huu wa fedha unapaswa kuwa jamaa na nchi jirani. Jambo la kushangaza ni kwamba, wakati wa kuongezeka kwa mfumuko wa bei au mfumuko wa bei, jumla ya thamani ya pesa Supply inaweza kupungua. Mfano wa kushangaza wa hali hii ni Zimbabwe.
 
 ### Suluhisho za Kinyume
 
-Wakati wa kuisoma Zimbabwe, iligundulika kuwa uniti trilioni 10 za fedha za Supply zimepoteza thamani yake yote. Huko Weimar, iliwezekana kuchapisha theluthi mbili ya jumla ya thamani ya jumla ya vitengo bilioni 65 vya pesa Supply kwa siku moja. Hii inaonyesha jinsi pesa za Supply zinaweza kupunguzwa. Ili kurekebisha hali hii, ni muhimu kuongeza kiasi kikubwa cha fedha Supply kufikia kiwango kinachofaa. Kisha, mageuzi ya fedha ni ya lazima. Katika hali ya mfumuko wa bei wa juu, mageuzi haya hayawezi kuepukika, lakini ni lazima kuhakikisha kuwa kuna fedha za kutosha katika mzunguko. Baada ya hatua hii, vikwazo vinaweza kuwekwa kwa serikali.
+Wakati wa kuisoma Zimbabwe, iligundulika kuwa uniti trilioni 10 za fedha za Supply zimepoteza thamani yake yote. Huko Weimar, iliwezekana kuchapisha theluthi mbili ya jumla ya thamani ya jumla ya vitengo bilioni 65 vya pesa Supply kwa siku moja. Hii inaonyesha jinsi pesa za Supply zinaweza kupunguzwa. Ili kurekebisha hali hii, ni muhimu kuongeza kiasi kikubwa cha fedha Supply kufikia kiwango kinachofaa. Kisha, mageuzi ya fedha ni ya lazima. Katika hali ya mfumuko wa bei wa juu, mageuzi haya hayawezi kuepukika, lakini ni lazima kuhakikisha kuwa kuna fedha za kutosha katika mzunguko. Baada ya hatua hii, vikwazo vinaweza kuwekwa kwa Fiat money (pesa za serikali).
 
-Kulingana na uchunguzi wa Bernold, linapokuja suala la kutatua matatizo ya mfumuko wa bei, taasisi kama IMF na Benki ya Dunia huwa hazipitii mkakati sahihi. Katika baadhi ya matukio, wakati nchi inahitaji kuongeza fedha zake Supply, taasisi hizi hutafuta kupunguza. Jambo kuu ni kufikia kiwango cha fedha kinachofaa na kisha kuweka vikwazo kwa ukuaji wake, na hivyo kuepuka kufadhili gharama za serikali kupitia uundaji wa fedha.
+Kulingana na uchunguzi wa Bernold, linapokuja suala la kutatua matatizo ya mfumuko wa bei, taasisi kama IMF na Benki ya Dunia huwa hazipitii mkakati sahihi. Katika baadhi ya matukio, wakati nchi inahitaji kuongeza fedha zake Supply, taasisi hizi hutafuta kupunguza. Jambo kuu ni kufikia kiwango cha fedha kinachofaa na kisha kuweka vikwazo kwa ukuaji wake, na hivyo kuepuka kufadhili gharama za Fiat money (pesa za serikali) kupitia uundaji wa fedha.
 
 Jambo la kuvutia lililotolewa na Bernold ni kwamba mafanikio ya mageuzi ya fedha hayategemei tu umuhimu wake wa kiufundi lakini pia imani ambayo idadi ya watu huweka ndani yake. Baadhi ya mageuzi yaliyosanifiwa vyema yanaweza kushindwa kwa sababu wananchi hawayaamini, na mengine, ambayo hayakuundwa vizuri, yanaweza kufanikiwa kwa sababu watu wanayaamini. Mtazamo na uaminifu wa umma kwa hivyo ni muhimu Elements katika kufaulu au kutofaulu kwa mageuzi ya kifedha.
 
 
-- Nchini Zimbabwe, suluhu iliyopitishwa kukabiliana na mfumuko wa bei ilikuwa dola, ambayo ina maana kwamba walichukua dola ya Marekani au sarafu nyingine kutoka nchi jirani. Mbinu hii inazuia serikali kuchapisha pesa ipendavyo.
+- Nchini Zimbabwe, suluhu iliyopitishwa kukabiliana na mfumuko wa bei ilikuwa dola, ambayo ina maana kwamba walichukua dola ya Marekani au sarafu nyingine kutoka nchi jirani. Mbinu hii inazuia Fiat money (pesa za serikali) kuchapisha pesa ipendavyo.
 - Huko Ujerumani, suluhisho lilikuwa kuunda sarafu mpya, Rentenmark. Sarafu hii iliungwa mkono na mali ya eneo la Reich, na mkakati huu ulionekana kuwa mzuri.
 
 ### Kesi ya Zimbabwe
@@ -939,7 +939,7 @@ Kwa wale wanaotamani kujua uzoefu wa Ujerumani baada ya Vita vya Kwanza vya Kidu
 
 ![image](assets/chapitre-3.5/4.webp)
 
-Jambo kuu la kuchukua ni kwamba kuna mikakati kadhaa ya kushinda mfumuko wa bei. Mtu anaweza kuchagua dola au kuanzisha sarafu mpya. Suluhu hizi zitafanya kazi tu ikiwa idadi ya watu wana imani nazo. Ni muhimu kuweka vikwazo vikali. Benki kuu inayojitegemea kweli ni muhimu. Ni lazima isiongeze pesa Supply ili kufidia nakisi ya serikali. Katika kesi ya mfumuko wa bei mdogo, kupunguza ukuaji wa fedha Supply inapaswa kutosha. Hata hivyo, unapokabiliwa na mfumuko wa bei, ni muhimu kwanza kuwa na pesa zinazofaa Supply kwa ukubwa wa uchumi unaohusika. Kisha, ni muhimu kuweka vikwazo vikali kwa serikali ili kuleta utulivu wa hali hiyo.
+Jambo kuu la kuchukua ni kwamba kuna mikakati kadhaa ya kushinda mfumuko wa bei. Mtu anaweza kuchagua dola au kuanzisha sarafu mpya. Suluhu hizi zitafanya kazi tu ikiwa idadi ya watu wana imani nazo. Ni muhimu kuweka vikwazo vikali. Benki kuu inayojitegemea kweli ni muhimu. Ni lazima isiongeze pesa Supply ili kufidia nakisi ya Fiat money (pesa za serikali). Katika kesi ya mfumuko wa bei mdogo, kupunguza ukuaji wa fedha Supply inapaswa kutosha. Hata hivyo, unapokabiliwa na mfumuko wa bei, ni muhimu kwanza kuwa na pesa zinazofaa Supply kwa ukubwa wa uchumi unaohusika. Kisha, ni muhimu kuweka vikwazo vikali kwa Fiat money (pesa za serikali) ili kuleta utulivu wa hali hiyo.
 
 ## Uwasilishaji wa ukusanyaji wa noti za mfumuko wa bei
 

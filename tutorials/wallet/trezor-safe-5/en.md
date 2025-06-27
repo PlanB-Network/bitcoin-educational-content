@@ -7,6 +7,7 @@ description: Configuring and using Hardware Wallet Safe 5
 
 *Image credit: [Trezor.io](https://trezor.io/)*
 
+![video](https://youtu.be/LI_EMXn6_Ss)
 
 The Trezor Safe 5 is a latest-generation Hardware Wallet designed by SatoshiLabs and launched in 2024. It is positioned as a high-end version of the Safe 3, with a focus on ergonomics and durability. It benefits from the same safety advances as its predecessor, the Safe 3, compared with the Model One and Model T.
 
@@ -75,7 +76,7 @@ Navigation on the device is fairly intuitive:
 ## Prerequisites
 
 
-For this tutorial, I'm going to show you how to use the Trezor Safe 5 with [Sparrow Wallet portfolio management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
+For this tutorial, I'm going to show you how to use the Trezor Safe 5 with [Sparrow Wallet wallet management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -151,7 +152,7 @@ You can then skip the windows with the basic operating instructions.
 ![Image](assets/fr/12.webp)
 
 
-## Creating a Bitcoin portfolio
+## Creating a Bitcoin wallet
 
 
 On Trezor Suite, click on the "*Create new Wallet*" button.
@@ -160,7 +161,7 @@ On Trezor Suite, click on the "*Create new Wallet*" button.
 ![Image](assets/fr/13.webp)
 
 
-To create a standard BIP39 wallet, start by selecting "*Legacy Wallet backup types*" from the drop-down menu, then choose between a 12- or 24-word mnemonic phrase (12 words is currently recommended). This will enable you to create a classic single-sig portfolio. I advise you to opt for BIP39-compliant parameters here, to facilitate retrieval and avoid being restricted to a specific environment. To finalize, click on "*Create Wallet*".
+To create a standard BIP39 wallet, start by selecting "*Legacy Wallet backup types*" from the drop-down menu, then choose between a 12- or 24-word mnemonic phrase (12 words is currently recommended). This will enable you to create a classic single-sig wallet. I advise you to opt for BIP39-compliant parameters here, to facilitate retrieval and avoid being restricted to a specific environment. To finalize, click on "*Create Wallet*".
 
 
 If you would like to learn more about the other backup options available on Trezor, including *Multi-share Backup*, I recommend you also consult this tutorial :
@@ -178,7 +179,7 @@ Accept the terms of use on Hardware Wallet.
 ![Image](assets/fr/15.webp)
 
 
-Press and hold the screen to create a new portfolio.
+Press and hold the screen to create a new wallet.
 
 
 ![Image](assets/fr/16.webp)
@@ -291,10 +292,10 @@ The configuration of your Safe 5 is now complete. If you wish, you can change th
 ![Image](assets/fr/29.webp)
 
 
-We won't be needing the Trezor Suite software any more, except to perform regular firmware updates on your Hardware Wallet, or if you'd like to run a recovery test. We're now going to use Sparrow to manage the portfolio, as this software is perfectly suited to Bitcoin-only use.
+We won't be needing the Trezor Suite software any more, except to perform regular firmware updates on your Hardware Wallet, or if you'd like to run a recovery test. We're now going to use Sparrow to manage the wallet, as this software is perfectly suited to Bitcoin-only use.
 
 
-## Setting up the portfolio on Sparrow Wallet
+## Setting up the wallet on Sparrow Wallet
 
 
 Start by downloading and installing Sparrow Wallet [from the official website](https://sparrowwallet.com/) on your computer, if you haven't already done so.
@@ -311,7 +312,7 @@ Click on the "*File*" tab, then on "*New Wallet*".
 ![Image](assets/fr/30.webp)
 
 
-Name your portfolio, then click on "*Create Wallet*".
+Name your wallet, then click on "*Create Wallet*".
 
 
 ![Image](assets/fr/31.webp)
@@ -353,7 +354,7 @@ I advise you to save this password in a password manager so you don't forget it.
 ![Image](assets/fr/36.webp)
 
 
-And now your portfolio has been imported into Sparrow Wallet!
+And now your wallet has been imported into Sparrow Wallet!
 
 
 ![Image](assets/fr/37.webp)

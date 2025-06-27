@@ -1,0 +1,8 @@
+question: Dans un projet de loi soumis à l’Assemblée constituante, qu'est ce que Dupont de Nemours proposait d’interdire ?
+answer: Les guerres offensives
+wrong_answers:
+  - Les guerres commerciales
+  - Les guerres défensives
+  - Toutes les guerres
+explanation: |
+  Dupont de Nemours, en accord avec les principes physiocratiques, proposait d'interdire les guerres offensives, car il les considérait comme nuisibles à la prospérité économique et au bien-être de la population.

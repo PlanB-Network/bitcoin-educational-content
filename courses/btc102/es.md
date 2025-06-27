@@ -2686,7 +2686,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Separar sus fondos de esta manera ayuda a reducir el riesgo en caso de que la Wallet utilizada para los pagos cotidianos se vea comprometida.
 
@@ -3617,3 +3617,4 @@ Una vez más, enhorabuena por lo lejos que has llegado. Y recuerda: mi objetivo 
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

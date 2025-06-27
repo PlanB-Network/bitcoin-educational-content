@@ -1,0 +1,8 @@
+question: Welchen medizinischen Beruf übte Quesnay vor der Ökonomie aus?
+answer: Chirurg
+wrong_answers:
+  - Zahnarzt
+  - Krankenschwester
+  - Apotheker
+explanation: |
+  François Quesnay war Chirurg, bevor er Wirtschaftswissenschaftler wurde. Er war sogar der Chirurg von Madame de Pompadour.

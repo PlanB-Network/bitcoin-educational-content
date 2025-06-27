@@ -1,0 +1,9 @@
+question: با یک Invoice در انتقال RGB چه کاری می‌توانم انجام دهم؟
+answer: نوع تراکنش، مقدار دارایی‌های مورد نیاز و Seal Definition گیرنده را مشخص کنید.
+wrong_answers:
+  - یک Genesis جدید برای دارایی ایجاد کنید
+  - generate یک Schema جدید برای تغییر Business Logic دارایی
+  - ساخت PSBT برای جایگزینی تراکنش Bitcoin
+explanation: |
+  Invoice برای اطلاع‌رسانی به صادرکننده تراکنش از نوع عملیات، مقدار دارایی‌هایی که باید منتقل شوند و مقصد (Seal Definition) استفاده می‌شود.
+reviewed: false

@@ -1,0 +1,14 @@
+question: مسیر تکامل ارزهای امروزی چیست؟
+answer: سنگ خام -> سکه -> اسکناس -> کارت بانکی -> Blockchain -> Lightning Network
+wrong_answers:
+  - سنگ خام -> سکه -> اسکناس -> Blockchain -> Lightning Network
+  - سنگ خام -> سکه -> اسکناس -> کارت بانکی -> Lightning Network
+  - سنگ خام -> سکه -> کارت بانکی -> اسکناس -> Blockchain -> Lightning Network
+explanation: |
+  ارز یک فناوری است که با گذشت زمان تکامل یافته است،
+  از نمایندگی توسط سنگ‌های خام شروع شده،
+  به سکه‌های فلزی تغییر یافته،
+  سپس به اسکناس‌ها، کارت‌های بانکی،
+  و در نهایت به شبکه‌های همتا به همتا با استفاده از
+  Bitcoin Blockchain و Lightning Network تبدیل شده است.
+reviewed: true

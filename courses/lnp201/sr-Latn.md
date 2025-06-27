@@ -2,7 +2,6 @@
 name: Teorijsko Uvodjenje u Lajtning Mrežu
 goal: Otkrijte Lajtning Mrežu iz tehničke perspektive
 objectives: 
-
   - Razumeti rad kanala plaćanja unutar mreže.
   - Upoznati se sa terminima HTLC, LNURL i UTXO.
   - Usvojiti znanje o upravljanju likvidnošću i naknadama LNN-a.
@@ -21,10 +20,10 @@ Bilo da ste Bitkojn početnik ili iskusniji korisnik, ovaj kurs će pružiti vre
 Uživaj u svom otkriću!
 
 +++
-Uvod
+# Uvod
 <partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
 
-Pregled kursa
+## Pregled kursa
 <chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
 
 Dobrodošli na kurs LNP201!

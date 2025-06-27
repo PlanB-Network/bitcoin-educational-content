@@ -1,0 +1,8 @@
+question: Jaka jest różnica między produkcją a zyskiem dla fizjokratów?
+answer: Przemysłowiec i handlowiec mogą wygrać, ale tylko rolnik produkuje, ponieważ produkcja to tworzenie użytecznej materii
+wrong_answers:
+  - Producenci i handlowcy mogą nie osiągać zysków. Tylko rolnictwo musi przynosić zyski.
+  - Rolnik może zarabiać, ale tylko przemysłowiec i handlowiec produkują, ponieważ produkcja oznacza świadczenie usług
+  - Produkcja i zysk to to samo
+explanation: |
+  Fizjokraci wierzyli, że tylko rolnictwo jest produktywne, ponieważ tworzy nową materię. Przemysł i handel były postrzegane jako działania jałowe, ponieważ jedynie przekształcały lub wypierały istniejące bogactwo.

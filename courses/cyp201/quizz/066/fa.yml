@@ -1,0 +1,9 @@
+question: کدام قسمت از خروجی HMAC-SHA512 به عنوان child chain code استفاده می‌شود؟
+answer: 32 بایت آخر
+wrong_answers:
+  - اولین ۳۲ بایت
+  - کل ۶۴ بایت
+  - هش SHA256 Hash از 32 بایت میانی
+explanation: |
+  ۳۲ بایت آخر خروجی HMAC-SHA512 به عنوان chain code برای کلید فرزند عمل می‌کند.
+reviewed: false

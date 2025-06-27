@@ -1,0 +1,26 @@
+id: b1d554fe-331b-422b-8a1e-c3a813dfde12
+name: Banxaas
+
+links:
+  website: https://banxaas.com/
+  twitter: https://x.com/banxaas_sn
+
+category: exchange
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - investment
+  - lightning
+  - finance
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-13
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

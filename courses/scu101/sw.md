@@ -12,7 +12,7 @@ objectives:
 
 Karibu kila mtu kwenye mpango huu wa elimu unaolenga usalama wa kidijitali. Mafunzo haya yameundwa ili yaweze kufikiwa na kila mtu, kwa hivyo hakuna ujuzi wa awali wa sayansi ya kompyuta unaohitajika. Lengo letu kuu ni kukupa maarifa na ujuzi unaohitajika ili kuvinjari ulimwengu wa kidijitali kwa usalama na faragha zaidi.
 
-Hii itahusisha utekelezaji wa zana kadhaa kama vile huduma salama ya barua pepe, zana ya kudhibiti vyema manenosiri yako, na programu mbalimbali ili kulinda shughuli zako za mtandaoni.
+Hili litahusisha utekelezaji wa zana kadhaa kama vile huduma salama ya barua pepe, zana ya kudhibiti vyema manenosiri yako, na programu mbalimbali ili kulinda shughuli zako za mtandaoni.
 
 Katika mafunzo haya, hatulengi kukufanya uwe mtaalam, usijulikane, au usiwe hatarini, kwani hii haiwezekani. Badala yake, tunakupa baadhi ya suluhu rahisi na zinazoweza kufikiwa ili kuanza kubadilisha tabia zako za mtandaoni na kurejesha udhibiti wa mamlaka yako ya kidijitali.
 
@@ -44,7 +44,7 @@ Mafunzo haya ni juhudi shirikishi za maprofesa wetu watatu:
 
 - Renaud Lifchitz, mtaalam wa usalama wa mtandao
 - Théo Pantamis, PhD katika hesabu iliyotumika
-- Rogzy, Mkurugenzi Mtendaji wa DécouvreBitcoin
+- Rogzy, Mwenyekiti wa Plan ₿ Network
 
 Usafi wako wa kidijitali ni muhimu katika ulimwengu unaozidi kuwa wa kidijitali. Licha ya kuongezeka kwa mara kwa mara kwa utapeli na ufuatiliaji wa watu wengi, sio kuchelewa sana kuchukua hatua ya kwanza na kujilinda.
 
@@ -58,7 +58,7 @@ Ikiwa unatafuta ujuzi wa hali ya juu zaidi kuhusu mada hii, nyenzo zetu, mafunzo
 - Sura ya 1 - Kuvinjari mtandaoni
 - Sura ya 2 - Kutumia mtandao kwa usalama
 
-Kuanza, tutajadili umuhimu wa kuchagua kivinjari cha wavuti na athari zake kwa usalama. Kisha tutachunguza maelezo mahususi ya vivinjari, hasa kuhusu usimamizi wa vidakuzi. Pia tutaona jinsi ya kuhakikisha hali ya kuvinjari iliyo salama zaidi na isiyojulikana, kwa kutumia zana kama vile TOR. Baadaye, tutazingatia matumizi ya VPN ili kuimarisha ulinzi wa data yako. Hatimaye, tutamalizia na mapendekezo ya matumizi salama ya miunganisho ya WiFi.
+Kwanza, tutajadili umuhimu wa kuchagua kivinjari cha wavuti na athari zake kwa usalama. Kisha tutachunguza maelezo mahususi ya vivinjari, hasa kuhusu usimamizi wa vidakuzi. Pia tutaona jinsi ya kuhakikisha hali ya kuvinjari iliyo salama zaidi na isiyojulikana, kwa kutumia zana kama vile TOR. Baadaye, tutazingatia matumizi ya VPN ili kuimarisha ulinzi wa data yako. Hatimaye, tutamalizia na mapendekezo ya matumizi salama ya miunganisho ya WiFi.
 
 ![](assets/en/1.webp)
 
@@ -68,7 +68,7 @@ Kuanza, tutajadili umuhimu wa kuchagua kivinjari cha wavuti na athari zake kwa u
 - Sura ya 3 - Matumizi ya kompyuta
 - Sura ya 4 - Udukuzi na usimamizi wa chelezo
 
-Katika sehemu hii, tutashughulikia maeneo matatu muhimu ya usalama wa kompyuta. Kwanza, tutachunguza mifumo tofauti ya uendeshaji: Mac, PC, na Linux, tukiangazia sifa na nguvu zao. Kisha, tutachunguza mbinu za kulinda kwa ufanisi dhidi ya majaribio ya udukuzi na kuimarisha usalama wa vifaa vyako. Hatimaye, tutasisitiza umuhimu wa kulinda na kuhifadhi nakala za data yako mara kwa mara ili kuzuia upotevu wowote au programu ya kukomboa.
+Katika sehemu hii, tutashughulikia maeneo matatu muhimu ya usalama wa kompyuta. Kwanza, tutachunguza mifumo tofauti ya uendeshaji: Mac, PC, na Linux, tukiangazia sifa na nguvu zao. Kisha, tutachunguza mbinu za kulinda kwa ufanisi dhidi ya majaribio ya udukuzi na kuimarisha usalama wa vifaa vyako. Hatimaye, tutasisitiza umuhimu wa kulinda na kuhifadhi nakala za data zako mara kwa mara ili kuzuia upotevu wowote au programu ya kukomboa.
 
 ![](assets/en/2.webp)
 
@@ -79,9 +79,9 @@ Katika sehemu hii, tutashughulikia maeneo matatu muhimu ya usalama wa kompyuta. 
 - Sura ya 7 - Kidhibiti Nenosiri
 - Sura ya 8 - Uthibitishaji wa vipengele viwili
 
-Katika sehemu hii ya tatu ya vitendo, tutaendelea na utekelezaji wa masuluhisho yako madhubuti.
+Katika sehemu hii ya tatu ya vitendo, tutaendelea na utekelezaji wa suluhisho yako madhubuti.
 
-Kwanza, tutaona jinsi ya kulinda kikasha chako cha barua pepe, ambacho ni muhimu kwa mawasiliano yako na mara nyingi hulengwa na wadukuzi. Kisha, tutakutambulisha kwa kidhibiti nenosiri: suluhu la vitendo la kutosahau tena au kuchanganya manenosiri yako huku ukiyaweka salama. Hatimaye, tutajadili hatua ya ziada ya usalama, uthibitishaji wa vipengele viwili, ambao huongeza Layer ya ziada ya ulinzi kwenye akaunti zako. Kila kitu kitaelezewa kwa uwazi na kwa urahisi.
+Kwanza, tutaona jinsi ya kulinda kikasha chako cha barua pepe, ambacho ni muhimu kwa mawasiliano yako na mara nyingi hulengwa na wadukuzi. Kisha, tutakutambulisha kwa kidhibiti nenosiri: suluhu la vitendo la kutosahau tena au kuchanganya manenosiri yako huku ukiyaweka salama. Hatimaye, tutajadili hatua ya ziada ya usalama, uthibitishaji wa vipengele viwili, ambavyo huongeza Layer ya ziada ya ulinzi kwenye akaunti zako. Kila kitu kitaelezewa kwa uwazi na kwa urahisi.
 
 ![](assets/en/3.webp)
 
@@ -93,7 +93,7 @@ Kwanza, tutaona jinsi ya kulinda kikasha chako cha barua pepe, ambacho ni muhimu
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
-Wakati wa kuvinjari mtandao, ni muhimu kuepuka makosa fulani ya kawaida ili kuhifadhi usalama wako mtandaoni. Hapa kuna vidokezo vya kuziepuka:
+Wakati wa kuvinjari mtandao, ni muhimu kuepuka makosa fulani ya kawaida ili kuhifadhi usalama wako mtandaoni. Hapa kuna vidokezo vya kuviepuka:
 
 ### Kuwa mwangalifu na upakuaji wa programu:
 
@@ -122,9 +122,9 @@ Ingawa familia zote mbili hutoa kiwango sawa cha usalama, inashauriwa kuepuka ki
 
 ### Kuvinjari kwa faragha, TOR, na mbadala zingine kwa usalama zaidi na kuvinjari bila kujulikana
 
-Kuvinjari kwa faragha, ingawa hakufichi kuvinjari kutoka kwa mtoa huduma wako wa mtandao, hukuruhusu usiondoke alama za ndani kwenye kompyuta yako. Vidakuzi hufutwa kiotomatiki mwishoni mwa kila kipindi, hivyo kukuruhusu kukubali vidakuzi vyote bila kufuatiliwa. Kuvinjari kwa faragha kunaweza kuwa muhimu wakati wa kununua huduma za mtandaoni, kwani tovuti hufuatilia tabia zetu za utafutaji na kurekebisha bei ipasavyo. Hata hivyo, ni muhimu kutambua kwamba kuvinjari kwa faragha kunapendekezwa kwa vipindi vya muda na maalum, si kwa kuvinjari kwa ujumla kwa mtandao.
+Kuvinjari kwa faragha, ingawa hakufichi kuvinjari kutoka kwa mtoa huduma wako wa mtandao, hukuruhusu usiondoe alama za ndani kwenye kompyuta yako. Vidakuzi hufutwa kiotomatiki mwishoni mwa kila kipindi, hivyo kukuruhusu kukubali vidakuzi vyote bila kufuatiliwa. Kuvinjari kwa faragha kunaweza kuwa muhimu wakati wa kununua huduma za mtandaoni, kwani tovuti hufuatilia tabia zetu za utafutaji na kurekebisha bei ipasavyo. Hata hivyo, ni muhimu kutambua kwamba kuvinjari kwa faragha kunapendekezwa kwa vipindi vya muda na maalum, si kwa kuvinjari kwa ujumla kwa mtandao.
 
-Njia mbadala ya kisasa zaidi ni mtandao wa TOR (The Onion Router), ambao hutoa kutokujulikana kwa kuficha IP ya mtumiaji Address na kuruhusu ufikiaji wa Darknet. Kivinjari cha TOR ni kivinjari iliyoundwa mahsusi kutumia mtandao wa TOR. Inakuruhusu kutembelea tovuti za kawaida na tovuti za .onion, ambazo kwa kawaida huendeshwa na watu binafsi na zinaweza kuwa ni za kinyume cha sheria.
+Njia mbadala ya kisasa zaidi ni mtandao wa TOR (The Onion Router), ambao hutoa kutokujulikana kwa kuficha IP ya mtumiaji Anwani na kuruhusu ufikiaji wa Darknet. Kivinjari cha TOR ni kivinjari iliyoundwa mahsusi kutumia mtandao wa TOR. Inakuruhusu kutembelea tovuti za kawaida na tovuti za .onion, ambazo kwa kawaida huendeshwa na watu binafsi na zinaweza kuwa ni za kinyume cha sheria.
 
 TOR ni halali na inatumiwa na wanahabari, wanaharakati wa uhuru, na wengine wanaotaka kuepuka udhibiti katika nchi zenye mamlaka. Hata hivyo, ni muhimu kuelewa kwamba TOR haihifadhi tovuti zilizotembelewa au kompyuta yenyewe. Zaidi ya hayo, kutumia TOR kunaweza kupunguza kasi ya muunganisho wa intaneti data inapopita kwenye kompyuta za watu wengine watatu kabla ya kufika inakoenda. Pia ni muhimu kutambua kwamba TOR si suluhu la kijinga ili kuhakikisha kutokujulikana kwa 100% na haipaswi kutumiwa kwa shughuli haramu.
 
@@ -151,7 +151,7 @@ Hata hivyo, kutumia VPN ya mtumiaji hakuhakikishii kutokujulikana kabisa. Watoa 
 
 ![](assets/notext/9.webp)
 
-Hatimaye, VPN inaweza pia kutumika kuzuia matangazo ya mtandaoni, kutoa hali ya kuvinjari ya kufurahisha na salama zaidi. Hata hivyo, ni muhimu kufanya utafiti wako mwenyewe ili kupata VPN ambayo inafaa zaidi mahitaji yako maalum. Kutumia VPN kunapendekezwa ili kuimarisha usalama, hata wakati wa kuvinjari mtandao nyumbani. Hii husaidia kuhakikisha kiwango cha juu cha usalama kwa data iliyobadilishwa mtandaoni. Hatimaye, hakikisha kuwa umeangalia URL na kufuli ndogo kwenye upau wa Address ili kuthibitisha kuwa uko kwenye tovuti unayotarajia kutembelea.
+Hatimaye, VPN inaweza pia kutumika kuzuia matangazo ya mtandaoni, kutoa hali ya kuvinjari ya kufurahisha na salama zaidi. Hata hivyo, ni muhimu kufanya utafiti wako mwenyewe ili kupata VPN ambayo inafaa zaidi mahitaji yako maalum. Kutumia VPN kunapendekezwa ili kuimarisha usalama, hata wakati wa kuvinjari mtandao nyumbani. Hii husaidia kuhakikisha kiwango cha juu cha usalama kwa data iliyobadilishwa mtandaoni. Hatimaye, hakikisha kuwa umeangalia URL na kufuli ndogo kwenye upau wa Anwani ili kuthibitisha kuwa uko kwenye tovuti unayotarajia kutembelea.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
@@ -165,7 +165,7 @@ Ili kuepuka ulaghai mtandaoni, ni muhimu kuthibitisha utambulisho wa tovuti unay
 
 ![](assets/en/10.webp)
 
-Kwa muhtasari, matumizi ya VPN yanaweza kuboresha sana usalama mtandaoni, kwa biashara na watumiaji binafsi. Zaidi ya hayo, kujizoeza kwa tabia nzuri ya kuvinjari kunaweza kuchangia usafi bora wa kidijitali. Katika sehemu inayofuata ya kozi hii, tutalinda usalama wa kompyuta wa Address, ikijumuisha masasisho, kingavirusi na udhibiti wa nenosiri.
+Kwa muhtasari, matumizi ya VPN yanaweza kuboresha sana usalama mtandaoni, kwa biashara na watumiaji binafsi. Zaidi ya hayo, kujizoeza kwa tabia nzuri ya kuvinjari kunaweza kuchangia usafi bora wa kidijitali. Katika sehemu inayofuata ya kozi hii, tutalinda usalama wa kompyuta wa Anwani, ikijumuisha masasisho, kingavirusi na udhibiti wa nenosiri.
 
 # Mbinu Bora za Matumizi ya Kompyuta
 
@@ -175,7 +175,7 @@ Kwa muhtasari, matumizi ya VPN yanaweza kuboresha sana usalama mtandaoni, kwa bi
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
-Usalama wa kompyuta zetu ni jambo linalosumbua sana katika ulimwengu wa kisasa wa kidijitali. Leo, tutaunda Address mambo matatu muhimu:
+Usalama wa kompyuta zetu ni jambo linalosumbua sana katika ulimwengu wa kisasa wa kidijitali. Leo, tutaunda Anwani yenye mambo matatu muhimu:
 
 
 - Kuchagua kompyuta
@@ -210,7 +210,7 @@ Ili kukupa mfano halisi wa hitilafu: programu iliyopasuka ambayo haiwezi kusasis
 - Je, unahitaji anti-virusi? NDIYO
 - Je, unapaswa kulipa? Inategemea!
 
-Uchaguzi na utekelezaji wa antivirus ni muhimu. Windows Defender, antivirus iliyojengwa ndani ya Windows, ni suluhisho salama na la ufanisi. Kwa suluhisho la bure, ni nzuri sana na bora zaidi kuliko suluhisho nyingi za bure zinazopatikana mtandaoni. Kwa kweli, tahadhari inapaswa kutekelezwa na antivirus iliyopakuliwa kutoka kwa Mtandao, kwani inaweza kuwa mbaya au ya zamani.
+Uchaguzi na utekelezaji wa antivirus ni muhimu. Windows Defender, antivirus iliyojengwa ndani ya Windows, ni suluhisho salama na la ufanisi. Kwa suluhisho la bure, ni nzuri sana na bora zaidi kuliko suluhisho nyingi za bure zinazopatikana mitandaoni. Kwa kweli, tahadhari inapaswa kutekelezwa na antivirus iliyopakuliwa kutoka kwa Mtandao, kwani inaweza kuwa mbaya au ya zamani.
 
 Kwa wale wanaotaka kuwekeza katika antivirus iliyolipwa, inashauriwa kuchagua antivirus ambayo inachambua kwa busara vitisho visivyojulikana na vinavyoibuka, kama vile Kaspersky. Sasisho za antivirus ni muhimu ili kulinda dhidi ya vitisho vipya.
 
@@ -219,9 +219,9 @@ Kwa wale wanaotaka kuwekeza katika antivirus iliyolipwa, inashauriwa kuchagua an
 > Kumbuka: Linux na Mac, shukrani kwa mfumo wao wa kutenganisha haki za mtumiaji, mara nyingi hazihitaji antivirus.
 Hatimaye, hapa kuna baadhi ya mbinu nzuri za usalama wa kompyuta na data yako. Ni muhimu kuchagua antivirus yenye ufanisi na ya kirafiki. Pia ni muhimu kufuata mazoea mazuri kwenye kompyuta yako, kama vile kutoingiza vitufe vya USB visivyojulikana au vinavyotiliwa shaka. Vifunguo hivi vya USB vinaweza kuwa na programu hasidi ambazo zinaweza kuzindua kiotomatiki baada ya kuingizwa. Kuangalia ufunguo wa USB hakutakuwa na maana pindi tu kitakapoingizwa. Baadhi ya makampuni yamekuwa wahanga wa udukuzi kutokana na funguo za USB zilizoachwa kizembe katika maeneo yanayofikiwa na watu wengi, kama vile sehemu ya kuegesha magari.
 
-Tumia kompyuta yako kama ungefanya nyumbani kwako: kaa macho, sasisha mara kwa mara, futa faili zisizo za lazima, na utumie nenosiri thabiti kwa usalama. Ni muhimu kusimba data kwenye kompyuta za mkononi na simu mahiri ili kuzuia wizi au upotevu wa data. BitLocker ya Windows, LUKS ya Linux, na chaguo iliyojengewa ndani ya Mac ni suluhu za usimbaji data. Inashauriwa kuamsha usimbaji fiche wa data bila kusita na kuandika nenosiri kwenye karatasi ili kuwekwa mahali salama.
+Tumia kompyuta yako kama ambavyo ungefanya nyumbani mwako: kaa macho, sasisha mara kwa mara, futa faili zisizo za lazima, na utumie nenosiri thabiti kwa usalama. Ni muhimu kusimba data kwenye kompyuta za mkononi na simu mahiri ili kuzuia wizi au upotevu wa data. BitLocker ya Windows, LUKS ya Linux, na chaguo iliyojengewa ndani ya Mac ni suluhu za usimbaji data. Inashauriwa kuamsha usimbaji fiche wa data bila kusita na kuandika nenosiri kwenye karatasi ili kuwekwa mahali salama.
 
-Kwa kumalizia, ni muhimu kuchagua mfumo wa uendeshaji unaofaa mahitaji yako na usasishe mara kwa mara, pamoja na programu zilizosakinishwa. Pia ni muhimu kutumia kizuia-virusi kinachofaa na kinachofaa mtumiaji na kupitisha mazoea mazuri kwa usalama wa kompyuta na data yako.
+Kwa kumalizia, ni muhimu kuchagua mfumo wa uendeshaji unaofaa mahitaji yako na usasishe mara kwa mara, pamoja na programu zilizosakinishwa. Pia ni muhimu kutumia kizuia-virusi kinachofaa mtumiaji na kupitisha mazoea mazuri kwa usalama wa kompyuta na data yako.
 
 ## Udukuzi na Usimamizi wa Hifadhi Nakala: Kulinda Data Yako
 
@@ -229,7 +229,7 @@ Kwa kumalizia, ni muhimu kuchagua mfumo wa uendeshaji unaofaa mahitaji yako na u
 
 ### Wadukuzi hushambuliaje?
 
-Ili kujilinda vizuri, ni muhimu kuelewa jinsi wadukuzi hujaribu kupenyeza kwenye kompyuta yako. Hakika, virusi hazionekani mara nyingi kwa uchawi, lakini ni matokeo ya matendo yetu, hata bila kukusudia!
+Ili kujilinda vizuri, ni muhimu kuelewa jinsi wadukuzi hujaribu kupenyeza kwenye kompyuta yako. Hakika, virusi havionekani mara nyingi kwa uchawi, lakini ni matokeo ya matendo yetu, hata bila kukusudia!
 
 Kama kanuni ya jumla, virusi hufika kwa sababu umeruhusu kompyuta yako iwaalike nyumbani kwako. Hii inaweza kuonekana kwa kupakua programu inayotiliwa shaka, faili ya mkondo iliyoathiriwa, au kwa kubofya tu kiungo cha barua pepe ya ulaghai!
 
@@ -241,7 +241,7 @@ Makini! Barua pepe ndio vekta ya kwanza ya shambulio, hapa kuna vidokezo:
 - Kaa macho kuhusu majaribio ya kuhadaa ili kupata maelezo ya kibinafsi yanayolenga kutoa taarifa nyeti kama vile vitambulisho na manenosiri yako. Epuka kubofya viungo vinavyotiliwa shaka na kushiriki maelezo yako ya kibinafsi bila kuthibitisha uhalali wa mtumaji.
 - Kuwa mwangalifu na viambatisho vya barua pepe na picha:
 
-Viambatisho vya barua pepe na picha zinaweza kuwa na programu hasidi. Usipakue au kufungua viambatisho kutoka kwa watumaji wasiojulikana au wanaotiliwa shaka, na uhakikishe kuwa antivirus yako imesasishwa.
+Viambatisho vya barua pepe na picha vinaweza kuwa na programu hasidi. Usipakue au kufungua viambatisho kutoka kwa watumaji wasiojulikana au wanaotiliwa shaka, na uhakikishe kuwa antivirus yako imesasishwa.
 
 Sheria kuu hapa ni kuangalia kwa uangalifu jina kamili la mtumaji na asili ya barua pepe. Unapokuwa na shaka, ifute!
 
@@ -291,17 +291,17 @@ Usimamizi sahihi wa anwani zetu za barua pepe ni muhimu ili kuhakikisha usalama 
 
 Wakati wa kuchagua mtoa huduma wa barua pepe na kuunda nenosiri, ni muhimu kutotumia tena nenosiri lile lile kwa huduma tofauti za mtandaoni. Inapendekezwa kuunda mara kwa mara anwani mpya za barua pepe na matumizi tofauti kwa kutumia anwani tofauti za barua pepe. Ni vyema kuchagua huduma salama ya barua pepe kwa akaunti muhimu. Inapaswa pia kuzingatiwa kuwa baadhi ya huduma hupunguza urefu wa nywila, kwa hiyo ni muhimu kufahamu kizuizi hiki. Huduma zinapatikana pia kwa kuunda anwani za barua pepe za muda, ambazo zinaweza kutumika kwa akaunti za muda mfupi.
 
-Ni muhimu kuzingatia kwamba watoa huduma wa barua pepe wakubwa kama vile La Poste, Arobase, Wig, Hotmail, bado wanatumika, lakini mbinu zao za usalama huenda zisiwe nzuri kama zile za Gmail. Kwa hiyo, inashauriwa kuwa na anwani mbili tofauti za barua pepe, moja kwa ajili ya mawasiliano ya jumla na nyingine kwa ajili ya kurejesha akaunti, huku ya pili ikiwa imelindwa vyema. Ni vyema kuepuka kuchanganya barua pepe ya Address na opereta wa simu yako au mtoa huduma wa mtandao, kwani hii inaweza kuwa vekta ya mashambulizi.
+Ni muhimu kuzingatia kwamba watoa huduma wa barua pepe wakubwa kama vile La Poste, Arobase, Wig, Hotmail, bado wanatumika, lakini mbinu zao za usalama huenda zisiwe nzuri kama zile za Gmail. Kwa hiyo, inashauriwa kuwa na anwani mbili tofauti za barua pepe, moja kwa ajili ya mawasiliano ya jumla na nyingine kwa ajili ya kurejesha akaunti, huku ya pili ikiwa imelindwa vyema. Ni vyema kuepuka kuchanganya barua pepe ya Anwani na opereta wa simu yako au mtoa huduma wa mtandao, kwani hii inaweza kuwa vekta ya mashambulizi.
 
 ### Je, nibadilishe akaunti yangu ya barua pepe?
 
-Inashauriwa kutumia tovuti ya Have I Been Pwned (https://haveibeenpwned.com/) ili kuangalia kama barua pepe yetu ya Address imeathiriwa na kuarifiwa kuhusu ukiukaji wa data wa siku zijazo. Hifadhidata iliyodukuliwa inaweza kutumiwa vibaya na wadukuzi kutuma barua pepe za ulaghai au kutumia tena manenosiri yaliyoathiriwa.
+Inashauriwa kutumia tovuti ya Have I Been Pwned (https://haveibeenpwned.com/) ili kuangalia kama barua pepe yetu ya Anwani imeathiriwa na kuarifiwa kuhusu ukiukaji wa data wa siku zijazo. Hifadhidata iliyodukuliwa inaweza kutumiwa vibaya na wadukuzi kutuma barua pepe za ulaghai au kutumia tena manenosiri yaliyoathiriwa.
 
 ![](assets/notext/16.webp)
 
-Kwa ujumla, kuanza kutumia barua pepe mpya, iliyo salama zaidi ya Address sio mazoezi mabaya na hata ni muhimu ikiwa mtu anataka kuanza upya kwa misingi ya afya.
+Kwa ujumla, kuanza kutumia barua pepe mpya, iliyo salama zaidi ya Anwani sio mazoezi mabaya na hata ni muhimu ikiwa mtu anataka kuanza upya kwa misingi ya afya.
 
-Bonasi Bitcoin: Inaweza kushauriwa kuunda barua pepe mahususi Address kwa shughuli zetu za Bitcoin (kuunda akaunti za Exchange) ili kutenganisha kikweli maeneo ya shughuli katika maisha yetu.
+Bonasi Bitcoin: Inaweza kushauriwa kuunda barua pepe mahususi yenye Anwani kwa shughuli zetu za Bitcoin (kuunda akaunti za Ubadilishanaji) ili kutenganisha kikweli maeneo ya shughuli katika maisha yetu.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ## Kidhibiti cha Nenosiri
@@ -310,9 +310,9 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 ### Kidhibiti cha nenosiri ni nini?
 
-Kidhibiti cha nenosiri ni zana inayokuruhusu kuhifadhi, generate, na kudhibiti nywila zako za akaunti tofauti za mtandaoni. Badala ya kukumbuka nywila nyingi, unahitaji nenosiri moja kuu ili kufikia zingine zote.
+Kidhibiti cha nenosiri ni zana inayokuruhusu kuhifadhi, kuzalisha, na kudhibiti nywila zako za akaunti tofauti za mtandaoni. Badala ya kukumbuka nywila nyingi, unahitaji nenosiri moja kuu ili kufikia zingine zote.
 
-Ukiwa na kidhibiti cha nenosiri, huhitaji tena kuwa na wasiwasi kuhusu kusahau manenosiri yako au kuyaandika mahali fulani. Unahitaji tu kukumbuka nenosiri kuu moja. Zaidi ya hayo, nyingi ya zana hizi generate manenosiri thabiti kwa ajili yako, ambayo huongeza usalama wa akaunti yako.
+Ukiwa na kidhibiti cha nenosiri, huhitaji tena kuwa na wasiwasi kuhusu kusahau manenosiri yako au kuyaandika mahali fulani. Unahitaji tu kukumbuka nenosiri kuu moja. Zaidi ya hayo, nyingi ya zana hizi huzalisha manenosiri thabiti kwa ajili yako, ambayo huongeza usalama wa akaunti yako.
 
 ### Tofauti kati ya baadhi ya wasimamizi maarufu:
 
@@ -342,11 +342,11 @@ Nenosiri zuri kwa ujumla ni:
 - Kipekee: usitumie tena nenosiri sawa kwa akaunti tofauti.
 - Sio kulingana na maelezo ya kibinafsi: epuka tarehe za kuzaliwa, majina, nk.
 
-Ili kuhakikisha usalama wa akaunti yako, ni muhimu kuunda nenosiri thabiti na salama. Urefu wa nenosiri haitoshi kuhakikisha usalama wake. Wahusika lazima wawe wa kubahatisha kabisa ili kupinga mashambulizi ya kikatili. Uhuru wa matukio pia ni muhimu ili kuepuka mchanganyiko unaowezekana. Manenosiri ya kawaida kama vile "nenosiri" yanaweza kuathirika kwa urahisi.
+Ili kuhakikisha usalama wa akaunti yako, ni muhimu kuunda nenosiri thabiti na salama. Urefu wa nenosiri hautoshi kuhakikisha usalama wake. Wahusika lazima wawe wa kubahatisha kabisa ili kupinga mashambulizi ya kikatili. Uhuru wa matukio pia ni muhimu ili kuepuka mchanganyiko unaowezekana. Manenosiri ya kawaida kama vile "nenosiri" yanaweza kuathirika kwa urahisi.
 
 Ili kuunda nenosiri kali, inashauriwa kutumia idadi kubwa ya wahusika wa random, bila kutumia maneno au mifumo inayotabirika. Pia ni muhimu kujumuisha nambari na wahusika maalum. Hata hivyo, ni lazima ieleweke kwamba baadhi ya tovuti zinaweza kuzuia matumizi ya wahusika fulani maalum. Manenosiri ambayo hayajazalishwa kwa nasibu ni rahisi kukisia. Tofauti au nyongeza kwa manenosiri si salama. Tovuti haziwezi kuhakikisha usalama wa manenosiri yaliyochaguliwa na watumiaji.
 
-Nenosiri zinazozalishwa bila mpangilio hutoa kiwango cha juu cha usalama, ingawa zinaweza kuwa ngumu zaidi kukumbuka. Vidhibiti vya nenosiri vinaweza generate salama zaidi manenosiri nasibu. Kwa kutumia kidhibiti cha nenosiri, huhitaji kukariri manenosiri yako yote. Ni muhimu kubadilisha hatua kwa hatua nywila zako za zamani na zile zinazozalishwa na msimamizi, kwa kuwa zina nguvu na ndefu. Hakikisha kuwa nenosiri kuu la kidhibiti chako cha nenosiri pia ni thabiti na salama.
+Nenosiri zinazozalishwa bila mpangilio hutoa kiwango cha juu cha usalama, ingawa zinaweza kuwa ngumu zaidi kukumbuka. Vidhibiti vya nenosiri vinaweza kuzalisha salama zaidi manenosiri nasibu. Kwa kutumia kidhibiti cha nenosiri, huhitaji kukariri manenosiri yako yote. Ni muhimu kubadilisha hatua kwa hatua nywila zako za zamani na zile zinazozalishwa na msimamizi, kwa kuwa zina nguvu na ndefu. Hakikisha kuwa nenosiri kuu la kidhibiti chako cha nenosiri pia ni thabiti na salama.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
@@ -378,11 +378,11 @@ Chaguo tofauti za uthibitishaji thabiti hutoa viwango tofauti vya usalama.
 - 2FA (uthibitishaji wa vipengele viwili) ni salama zaidi kwani hutumia aina nyingi za ushahidi, kama vile maarifa, umiliki na kitambulisho. Manenosiri ya mara moja (HOTP na TOTP) ni salama kuliko SMS kwa sababu yanahitaji ukokotoaji wa kriptografia na huhifadhiwa ndani badala ya kumbukumbu.
 - Tokeni za maunzi, kama vile funguo za USB au kadi mahiri, hutoa usalama kamili kwa kutoa ufunguo wa kipekee wa faragha kwa kila tovuti na kuthibitisha URL kabla ya kuruhusu muunganisho.
 
-Kwa usalama bora zaidi kwa uthibitishaji thabiti, inashauriwa kutumia barua pepe salama ya Address, kidhibiti salama cha nenosiri, na kupitisha 2FA kwa kutumia YubiKeys. Inashauriwa pia kununua YubiKeys mbili ili kutarajia hasara au wizi, kwa mfano, kuweka nakala rudufu nyumbani na kwa mtu wako.
+Kwa usalama bora zaidi kwa uthibitishaji thabiti, inashauriwa kutumia barua pepe salama ya Anwani, kidhibiti salama cha nenosiri, na kupitisha 2FA kwa kutumia YubiKeys. Inashauriwa pia kununua YubiKeys mbili ili kutarajia hasara au wizi, kwa mfano, kuweka nakala rudufu nyumbani na kwa mtu wako.
 
 Kuhusu vitisho vinavyoweza kutokea kwa SIM 2FA, huu ni mfano wa kawaida: shambulio la kubadilisha SIM hutokea wakati mvamizi anaiba nambari ya simu ya mtumiaji kwa kuiunganisha na SIM kadi inayodhibitiwa na mvamizi. Kuna njia kadhaa ambazo mshambuliaji anaweza kukamilisha shambulio hilo kwa mafanikio; hata hivyo, tishio hili ni kawaida tu wasiwasi mkubwa kwa wasifu wa juu na watu wa maslahi.
 
-Biometriska inaweza kutumika kama mbadala, lakini ni salama kidogo kuliko mchanganyiko wa ujuzi na milki. Data ya kibayometriki inapaswa kubaki kwenye kifaa cha uthibitishaji na isifichuliwe mtandaoni. Ni muhimu kuzingatia mtindo wa tishio unaohusishwa na mbinu tofauti za uthibitishaji na kurekebisha mazoea ipasavyo.
+Biometriska inaweza kutumika kama njia mbadala, lakini ni salama kidogo kuliko mchanganyiko wa ujuzi na milki. Data ya kibayometriki inapaswa kubaki kwenye kifaa cha uthibitishaji na isifichuliwe mtandaoni. Ni muhimu kuzingatia mtindo wa tishio unaohusishwa na mbinu tofauti za uthibitishaji na kurekebisha mazoea ipasavyo.
 
 Hatimaye, inaweza kuwa na manufaa kutoa muktadha mfupi kuhusu HOTP na TOTP OTP: HOTP ni nenosiri la mara moja kulingana na algoriti ya HMAC (Msimbo wa Uthibitishaji wa Ujumbe wa Hash), wakati TOTP ni OTP inayotegemea wakati. Sifa muhimu za algoriti kama hizo ni kwamba manenosiri yanaweza kutumika mara moja tu, kila thamani inayozalishwa ni ya kipekee na ipo ufunguo ulioshirikiwa kati ya kifaa cha mtumiaji (mteja) na huduma ya uthibitishaji (seva). Tofauti kati ya mifumo miwili ni jinsi kipengele kinavyosonga: TOTP inategemea wakati, wakati mfumo wa HOTP ni wa kukabiliana.
 
@@ -391,7 +391,7 @@ Hatimaye, inaweza kuwa na manufaa kutoa muktadha mfupi kuhusu HOTP na TOTP OTP: 
 Kama ulivyoelewa, kutekeleza usafi mzuri wa kidijitali sio lazima iwe rahisi, lakini inabaki kupatikana!
 
 
-- Inaunda barua pepe mpya salama ya Address.
+- Inaunda barua pepe mpya salama ya Anwani.
 - Kuweka kidhibiti cha nenosiri.
 - Inawasha 2FA.
 - Hatua kwa hatua kubadilisha manenosiri yetu ya zamani kwa manenosiri thabiti na 2FA.
@@ -410,7 +410,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Kulinda akaunti yako ya barua pepe ni hatua muhimu ya kulinda shughuli zako za mtandaoni na kulinda data yako ya kibinafsi. Mafunzo haya yatakuongoza, hatua kwa hatua, katika kuunda na kusanidi akaunti ya ProtonMail, mtoa huduma anayejulikana kwa kiwango chake cha juu cha usalama ambacho hutoa usimbaji fiche wa mwanzo hadi mwisho wa mawasiliano yako. Iwe wewe ni mgeni au mtumiaji mwenye uzoefu, mbinu bora zilizowasilishwa hapa zitakusaidia kuimarisha usalama wa barua pepe yako, huku ukinufaika na vipengele vya kina vya ProtonMail:
+Kulinda akaunti yako ya barua pepe ni hatua muhimu ya kulinda shughuli zako za mitandaoni na kulinda data yako ya kibinafsi. Mafunzo haya yatakuongoza, hatua kwa hatua, katika kuunda na kusanidi akaunti ya ProtonMail, mtoa huduma anayejulikana kwa kiwango chake cha juu cha usalama ambacho hutoa usimbaji fiche wa mwanzo hadi mwisho wa mawasiliano yako. Iwe wewe ni mgeni au mtumiaji mwenye uzoefu, mbinu bora zilizowasilishwa hapa zitakusaidia kuimarisha usalama wa barua pepe yako, huku ukinufaika na vipengele vya kina vya ProtonMail:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ## Kulinda katika 2FA
@@ -488,7 +488,7 @@ Cybersecurity ni uwanja mkubwa na unaoendelea kubadilika. Kujitambulisha na zana
 
 Umuhimu wa uzoefu wa vitendo hauwezi kupuuzwa. Kutafuta mafunzo ya kazi au nafasi za chini katika kampuni zilizo na timu za usalama wa mtandao ni njia bora ya kutumia maarifa yako ya kinadharia. Zaidi ya hayo, kushiriki katika mashindano ya udukuzi wa kimaadili au uigaji wa usalama wa mtandao kunaweza kuboresha ujuzi wako katika hali halisi ya ulimwengu.
 
-Nguvu ya mtandao wa kitaaluma ni ya thamani sana. Kujiunga na vyama vya kitaalamu, hackerspaces, au vikao vya mtandaoni hutoa jukwaa la mawazo ya Exchange na wataalamu wengine. Vile vile, kuhudhuria kongamano na warsha za usalama wa mtandao hakukuruhusu kujifunza tu bali pia hukusaidia kujenga miunganisho na wataalamu wa sekta hiyo.
+Nguvu ya mtandao wa kitaaluma ni ya thamani sana. Kujiunga na vyama vya kitaalamu, hackerspaces, au vikao vya mtandaoni hutoa jukwaa la mawazo ya Ubadilishanaji na wataalamu wengine. Vile vile, kuhudhuria kongamano na warsha za usalama wa mtandao hakukuruhusu kujifunza tu bali pia hukusaidia kujenga miunganisho na wataalamu wa sekta hiyo.
 
 Mabadiliko ya mara kwa mara ya vitisho yanahitaji ufuatiliaji wa mara kwa mara wa habari na vikao maalum. Katika sekta ambayo uaminifu ni muhimu, kutenda kwa maadili na uadilifu ni muhimu katika kila hatua ya kazi yako.
 
@@ -515,7 +515,7 @@ Kwa kufahamu ujuzi na zana hizi, utakuwa na vifaa vya kutosha vya kuvinjari ulim
 
 ### Udhibiti Bora wa Nenosiri na Uimarishaji wa Uthibitishaji: Mbinu ya Kiakademia
 
-Katika moduli ya mafunzo "Usalama 101" inayotolewa na Découvre Bitcoin ndani ya Chuo, tulijadili umuhimu wa wasimamizi wa nenosiri. Vipimo vitatu ni muhimu kuzingatia: kuunda, kusasisha, na utekelezaji wa manenosiri kwenye tovuti.
+Kuna vipengele vitatu muhimu vya kuzingatia unapozungumzia wasimamizi wa nywila: kuunda, kusasisha, na utekelezaji wa manenosiri kwenye tovuti.
 
 Kwa ujumla haipendekezi kutumia viendelezi vya kivinjari kwa kujaza nenosiri moja kwa moja. Zana hizi zinaweza kumfanya mtumiaji kuwa katika hatari zaidi ya mashambulizi ya hadaa. Renaud, mtaalam anayetambulika katika usalama wa mtandao, anapendelea usimamizi wa mwongozo kwa kutumia KeePass, ambayo inahusisha kunakili na kubandika nenosiri mwenyewe. Viendelezi vinaelekea kuongeza uso wa mashambulizi, vinaweza kupunguza kasi ya utendakazi wa kivinjari, na kwa hiyo kuwasilisha hatari kubwa. Kwa hivyo, utumiaji mdogo wa viendelezi kwenye kivinjari ni mazoezi yaliyopendekezwa.
 
@@ -541,9 +541,9 @@ Usalama wa kompyuta unaweza kuathiriwa na mazoea rahisi na utumiaji wa nenosiri 
 
 Inapaswa pia kuzingatiwa kuwa mtandao ni wa kati na kwa kiasi kikubwa chini ya udhibiti wa Marekani. Seva ya DNS inaweza kuwa chini ya udhibiti na mara nyingi hutumia DNS danganyifu kuzuia ufikiaji wa tovuti fulani. DNS ni itifaki ya zamani na isiyo na usalama wa kutosha, ambayo inaweza kusababisha masuala ya usalama. Itifaki mpya, kama vile DNSsec, zimeibuka lakini bado hazitumiki sana. Ili kuepuka udhibiti na kuzuia matangazo, inawezekana kuchagua watoa huduma mbadala wa DNS.'
 
-Njia mbadala za matangazo yanayoingiliana ni pamoja na Google DNS, OpenDNS, na huduma zingine huru. Itifaki ya kawaida ya DNS huacha hoja za DNS zionekane kwa mtoa huduma wa intaneti. DOH (DNS juu ya HTTPS) na DOT (DNS juu ya TLS) husimba muunganisho wa DNS kwa njia fiche, hivyo kutoa faragha na usalama zaidi. Itifaki hizi hutumika sana katika makampuni ya biashara kwa sababu ya usalama wao ulioimarishwa na zinaungwa mkono na Windows, Android na iPhone. Ili kutumia DOH na DOT, jina la mpangishi wa TLS lazima liandikwe badala ya IP Address. Watoa huduma za DOH na DOT bila malipo wanapatikana mtandaoni. DOH na DOT huboresha faragha na usalama kwa kuepuka mashambulizi ya "mtu katikati". Mawazo mengine muhimu
+Njia mbadala za matangazo yanayoingiliana ni pamoja na Google DNS, OpenDNS, na huduma zingine huru. Itifaki ya kawaida ya DNS huacha hoja za DNS zionekane kwa mtoa huduma wa intaneti. DOH (DNS juu ya HTTPS) na DOT (DNS juu ya TLS) husimba muunganisho wa DNS kwa njia fiche, hivyo kutoa faragha na usalama zaidi. Itifaki hizi hutumika sana katika makampuni ya biashara kwa sababu ya usalama wao ulioimarishwa na zinaungwa mkono na Windows, Android na iPhone. Ili kutumia DOH na DOT, jina la mpangishi wa TLS lazima liandikwe badala ya IP Address. Watoa huduma za DOH na DOT bila malipo wanapatikana mtandaoni. DOH na DOT huboresha faragha na usalama kwa kuepuka mashambulizi ya "mtu katikati".
 
-Kama sehemu ya moduli ya mafunzo ya "Security 101" kwenye Découvre Bitcoin Academy, tulijadili pia uthibitishaji wa Umeme. Mfumo huu hutoa kitambulisho tofauti kwa kila huduma, bila hitaji la kutoa barua pepe ya Address au maelezo ya kibinafsi. Kuna uwezekano wa kuwa na vitambulisho vilivyogatuliwa vinavyodhibitiwa na mtumiaji, lakini kuna ukosefu wa kusanifisha na kuhalalisha katika miradi ya utambulisho iliyogatuliwa. Wasimamizi wa vifurushi kama vile Nuget na Chocolaté, zinazoruhusu kupakua programu huria nje ya Duka la Microsoft, wanapendekezwa ili kuepuka mashambulizi mabaya. Kwa muhtasari, DNS ni muhimu kwa usalama wa mtandaoni, lakini ni muhimu kuwa macho dhidi ya mashambulizi yanayoweza kutokea kwenye seva za DNS.
+Pia inafaa kutaja mfumo unaoitwa "Lightning authentication". Mfumo huu hutoa kitambulisho tofauti kwa kila huduma, bila hitaji la kutoa barua pepe ya Address au maelezo ya kibinafsi. Kuna uwezekano wa kuwa na vitambulisho vilivyogatuliwa vinavyodhibitiwa na mtumiaji, lakini kuna ukosefu wa kusanifisha na kuhalalisha katika miradi ya utambulisho iliyogatuliwa. Wasimamizi wa vifurushi kama vile Nuget na Chocolaté, zinazoruhusu kupakua programu huria nje ya Duka la Microsoft, wanapendekezwa ili kuepuka mashambulizi mabaya. Kwa muhtasari, DNS ni muhimu kwa usalama wa mtandaoni, lakini ni muhimu kuwa macho dhidi ya mashambulizi yanayoweza kutokea kwenye seva za DNS.
 
 # Hitimisho
 

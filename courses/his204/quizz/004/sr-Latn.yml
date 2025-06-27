@@ -1,0 +1,8 @@
+question: Zašto je, prema Kolberovim učenicima, trgovina večiti rat?
+answer: Nacije mogu postati bogate samo na račun drugih nacija.
+wrong_answers:
+  - Ratni brodovi su potrebni za podršku trgovini
+  - Trgovina najviše cveta u vremenima rata
+  - Trgovina je stalno nadmetanje za resurse
+explanation: |
+  U merkantilističkoj viziji, bogatstvo sveta se smatra fiksnom količinom. Shodno tome, obogaćivanje jedne nacije je nužno na račun drugih, otuda ideja o permanentnom "ekonomskom ratu".

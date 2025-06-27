@@ -1,0 +1,8 @@
+question: Millise põhjusega põhjendas Condorcet Turgot' läbikukkumist?
+answer: Ta oli oma põhimõtetes liiga absoluutne
+wrong_answers:
+  - Ta oli poliitilises manööverdamises liiga oskamatu
+  - Tema füüsiline seisund oli liiga nõrk
+  - Ta oli liiga noor
+explanation: |
+  Condorcet leidis, et Turgot oli oma põhimõtetes liiga jäik ja kompromissitu.

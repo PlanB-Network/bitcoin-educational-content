@@ -1,0 +1,9 @@
+question: واحدیت Bitcoin که در Lightning Network استفاده می‌شود چیست؟
+answer: Sats.
+wrong_answers:
+  - مسدود کردن.
+  - اتر.
+  - لایت‌کوین.
+explanation: |
+  Lightning Network از ساتوشی‌ها (که به آن Sats نیز گفته می‌شود)، اعشار Bitcoin، برای عملکرد استفاده می‌کند.
+reviewed: true

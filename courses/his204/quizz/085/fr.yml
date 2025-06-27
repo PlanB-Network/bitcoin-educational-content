@@ -1,0 +1,8 @@
+question: Qui prononça cette phrase "Je le vois bien, il n’y a que M. Turgot et moi qui aimions le peuple." ?
+answer: Louis XVI
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Louis XVI a prononcé cette phrase, soulignant ainsi son soutien à Turgot et à ses réformes.

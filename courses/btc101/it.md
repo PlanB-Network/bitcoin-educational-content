@@ -1058,7 +1058,9 @@ Oggi Bitcoin continua a sopravvivere e a crescere, integrandosi sempre di più n
 
 Bitcoin può essere visto come lo strumento per creare un'economia parallela alle valute fiat, perché è possibile vendere beni o servizi ed essere pagati in Bitcoin. Le transazioni possono essere effettuate direttamente in Bitcoin, senza la necessità di passare attraverso un exchange, ma semplicemente passando da un wallet Bitcoin a un altro.
 
-L'economia Bitcoin esiste e si sta sviluppando in alcune regioni del mondo, come in El Salvador, dove Bitcoin ha corso legale dal 2021. Intorno a noi ci sono individui, aziende e organizzazioni che accettano già Bitcoin come mezzo di pagamento per i loro prodotti o servizi.
+L'economia Bitcoin esiste ed è in fase di sviluppo in alcune regioni del mondo, come in El Salvador, dove Bitcoin è diventato una moneta legale nel 2021. Sfortunatamente, nel gennaio 2025, l'assemblea ha approvato una nuova legge che ha privato Bitcoin del titolo di "moneta legale", presumibilmente dopo pressioni dal Fondo Monetario Internazionale. Con la nuova legge, le persone non sono più obbligate ad accettarlo nelle loro imprese, e non possono più pagarci le tasse. L'accettazione, comunque, rimane volontaria.
+
+Nonostante ciò, in El Salvador e in altre parti del mondo, ci sono sempre più individui, aziende e organizzazioni che accettano Bitcoin come mezzo di pagamento per i loro prodotti o servizi.
 
 ![image](assets/en/72.webp)
 

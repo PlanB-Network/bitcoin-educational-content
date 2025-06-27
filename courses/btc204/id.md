@@ -2060,7 +2060,7 @@ Untuk membuat coinjoin melalui Whirlpool, wallet harus membuat beberapa akun ter
 
 ![BTC204](assets/fr/143.webp)
 
-Sebuah dompet HD secara teoritis dapat menghasilkan hingga `2^(32/2)` akun yang berbeda. Akun awal, yang digunakan secara default pada semua dompet Bitcoin, berhubungan dengan indeks `0`.
+Sebuah dompet HD secara teoritis dapat menghasilkan hingga `2^(31)` akun yang berbeda. Akun awal, yang digunakan secara default pada semua dompet Bitcoin, berhubungan dengan indeks `0`.
 
 Untuk portofolio yang disesuaikan dengan Whirlpool, 4 akun digunakan untuk memenuhi kebutuhan proses ZeroLink:
 
@@ -2525,8 +2525,7 @@ Namun, akan sangat menarik untuk memiliki struktur transaksi yang memungkinkan p
 
 Payjoin adalah struktur transaksi Bitcoin khusus yang meningkatkan privasi pengguna saat melakukan pembelanjaan dengan berkolaborasi dengan penerima pembayaran.
 
-LaurentMT pertama kali menyebut metode ini sebagai "*transaksi steganografi*" pada tahun 2015, menurut dokumen yang dapat diakses [di sini] (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Teknik ini kemudian diadopsi oleh Samourai Wallet, yang pada tahun 2018 menjadi pelanggan pertama yang mengimplementasikannya dengan alat Stowaway. Konsep payjoin juga dapat ditemukan di [BIP79] (https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) dan [BIP78] (https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Beberapa istilah digunakan untuk menunjuk payjoin:
-
+Pada tahun 2015, LaurentMT pertama kali menyebutkan metode ini dengan sebutan "*steganographic transactions*", sebagaimana dijelaskan dalam dokumen yang tersedia [di sini](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Teknik ini kemudian diadopsi oleh dompet Samourai Wallet, yang pada tahun 2018 menjadi klien pertama yang mengimplementasikannya melalui alat Stowaway. Konsep payjoin juga ditemukan dalam [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki), dan [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Beberapa istilah digunakan untuk menyebut payjoin:
 
 - Payjoin ;
 - Penumpang gelap;

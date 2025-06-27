@@ -403,18 +403,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Pengaturan Cadangan
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Melindungi file pribadi Anda juga merupakan poin penting dari keamanan siber Anda. Tutorial ini akan menunjukkan kepada Anda bagaimana cara menerapkan strategi pencadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di tempat lain. Dengan demikian, Anda memastikan akses dan keamanan file sensitif Anda:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau *hard drive* eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi hal tersebut dengan mudah menggunakan VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Menggunakan browser berbeda & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -430,6 +418,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Pelajarilah juga cara menggunakan Tor Browser, peramban yang dirancang khusus untuk melindungi privasi online Anda:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Pengaturan Cadangan
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Melindungi file pribadi Anda juga merupakan poin penting dari keamanan siber Anda. Tutorial ini akan menunjukkan kepada Anda bagaimana cara menerapkan strategi pencadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di tempat lain. Dengan demikian, Anda memastikan akses dan keamanan file sensitif Anda:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau *hard drive* eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi hal tersebut dengan mudah menggunakan VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Belajarlah Lebih Jauh
 
@@ -478,7 +478,7 @@ Dengan menguasai keterampilan dan alat-alat di atas, Anda akan siap untuk menjel
 
 ### Manajemen Kata Sandi yang Efisien dan Penguatan Autentikasi: Pendekatan Akademis
 
-Dalam modul pelatihan "*Security 101*" yang ditawarkan oleh Découvre Bitcoin dalam Akademi, kami membahas pentingnya penggunaan manajer kata sandi. Ada tiga dimensi yang penting untuk dipertimbangkan: pembuatan, pembaruan, dan implementasi kata sandi di situs web.
+Ada tiga dimensi kunci yang perlu dipertimbangkan saat membicarakan tentang pengelola kata sandi: pembuatan, pembaruan, dan implementasi kata sandi di situs web.
 
 Secara umum, tidak disarankan untuk menggunakan ekstensi peramban untuk pengisian kata sandi secara otomatis. Alat-alat ini dapat membuat pengguna lebih rentan terhadap serangan phishing. Renaud, seorang ahli terkemuka dalam keamanan siber, lebih memilih pengelolaan manual menggunakan KeePass, yang melibatkan proses menyalin dan menempel kata sandi secara manual. Ekstensi cenderung meningkatkan potensi serangan, dapat memperlambat kinerja peramban, dan oleh karena itu menyajikan risiko yang signifikan. Dengan demikian, penggunaan ekstensi yang minimal pada peramban adalah praktik yang disarankan.
 
@@ -501,7 +501,7 @@ Otentikasi langsung ke layanan yang relevan adalah opsi baik untuk tidak lagi be
 Keamanan komputer dapat menjadi lemah karena praktik yang terlalu sederhana dan penggunaan kata sandi default, seperti "admin". Tidak perlu ada serangan canggih yang untuk mengancam keamanan komputer Anda. Sebagai contoh, kata sandi administrator dari sebuah saluran YouTube dulunya ditulis dalam kode sumber pribadi perusahaan. Kerentanan keamanan sering kali merupakan hasil dari kelalaian manusia.
 Penting juga untuk dicatat bahwa Internet sangatlah terpusat dan sebagian besar informasi berada di bawah kontrol Amerika. Server DNS dapat menjadi subjek sensor dan sering menggunakan DNS yang menyesatkan untuk memblokir akses ke situs tertentu. DNS adalah protokol yang cukup lama dan tidak cukup aman, yang dapat menimbulkan masalah keamanan. Protokol baru, seperti DNSsec, telah muncul tetapi masih belum banyak digunakan. Untuk menghindari sensor dan pemblokiran iklan, Anda juga dapat memilih penyedia DNS alternatif. Alternatif untuk iklan yang mengganggu termasuk Google DNS, OpenDNS, dan layanan independen lainnya. Protokol DNS standar membuat kueri (permintaan) DNS terlihat oleh penyedia layanan internet. Di sisi lain, DOH (DNS over HTTPS) dan DOT (DNS over TLS) mengenkripsi koneksi DNS, sehingga memiliki privasi dan keamanan yang lebih baik. Protokol ini banyak digunakan di perusahaan karena keamanan yang ditingkatkan dan didukung secara lokal oleh Windows, Android, dan iPhone. Untuk menggunakan DOH dan DOT, alih-alih menggunakan alamat IP, nama host TLS harus dimasukkan. Penyedia DOH dan DOT gratis tersedia secara online. DOH dan DOT meningkatkan privasi dan keamanan dengan menghindari serangan "*man in the middle*".
 
-Sebagai bagian dari modul pelatihan "*Security 101*" di Découvre Bitcoin Academy, kami juga membahas autentikasi Lightning. Sistem ini menghasilkan pengenal (*identifier*) yang berbeda untuk setiap layanan, tanpa perlu memasukkan alamat email atau informasi pribadi. Meskipun ada kemungkinan untuk memiliki identitas terdesentralisasi yang dikendalikan pengguna, masih kurangnya standar dan normalisasi dalam proyek identitas terdesentralisasi. *Package manager* seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi Anda perlu untuk tetap waspada terhadap potensi serangan pada server DNS.
+Juga perlu disebutkan sistem yang disebut "Lightning authentication". Sistem ini menghasilkan pengenal (*identifier*) yang berbeda untuk setiap layanan, tanpa perlu memasukkan alamat email atau informasi pribadi. Meskipun ada kemungkinan untuk memiliki identitas terdesentralisasi yang dikendalikan pengguna, masih kurangnya standar dan normalisasi dalam proyek identitas terdesentralisasi. *Package manager* seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi Anda perlu untuk tetap waspada terhadap potensi serangan pada server DNS.
 
 # Bagian Akhir
 

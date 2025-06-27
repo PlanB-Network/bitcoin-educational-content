@@ -1,0 +1,8 @@
+question: Mida soovitab La politique mercantiliste?
+answer: eksport, et varuda maksmiseks saadud kulda ja hõbedat
+wrong_answers:
+  - import, et koguda välismaiseid kaupu
+  - ei ole, sest kaubandus on steriilne ja mõttetu
+  - impordi ja ekspordi tasakaal
+explanation: |
+  Merkantilism on majandusdoktriin, mis pooldab riigi sekkumist riigi rikastumise edendamiseks. Peamine eesmärk on koguda väärismetalle (kulda ja hõbedat), saavutades kaubandusbilansi ülejäägi, st eksportides rohkem kui importides.

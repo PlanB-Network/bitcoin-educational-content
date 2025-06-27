@@ -1,9 +1,0 @@
-question: Koja je jedna karakteristika korisnika Bitcoin koji je tehnološki kompetentan?
-answer: Oni imaju dobro razumevanje tehnologija, uključujući Hot i Cold Bitcoin novčanike i Lightning Network.
-wrong_answers:
-  - Oni koriste samo Bitcoin za dugoročne investicije.
-  - Oni koriste samo Bitcoin za dnevne transakcije.
-  - Oni koriste samo Bitcoin na Exchange platformama.
-explanation: |
-  Tehnološki kompetentni korisnici Bitcoin razumeju tehnologije uključene u Bitcoin transakcije, uključujući različite tipove novčanika i Lightning mrežu.
-reviewed: false

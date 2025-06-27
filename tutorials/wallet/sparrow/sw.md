@@ -315,6 +315,7 @@ Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mn
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 
@@ -325,6 +326,7 @@ Unaweza pia kuchagua kuongeza passphrase BIP39 kwa kubofya kisanduku cha "*Tumia
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Mara tu unapohifadhi Mnemonic yako na passphrase yoyote kwenye kifaa halisi, bofya "*Thibitisha Hifadhi Nakala*".
 
 
@@ -551,6 +553,7 @@ Ni muhimu kuweka Sighash chaguo-msingi. Ili kuelewa ni kwa nini, angalia kozi hi
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Kwenye skrini inayofuata, chaguo hutofautiana kulingana na aina ya Wallet unayotumia:
 
 

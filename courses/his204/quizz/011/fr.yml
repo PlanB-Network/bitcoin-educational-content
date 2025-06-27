@@ -1,0 +1,8 @@
+question: Que possède Boisguilbert en commun avec Vauban ?
+answer: D’avoir longuement décrit la misère du peuple des campagnes et d'avoir proposé un impôt proportionnel pour tous
+wrong_answers:
+  - D’avoir longuement décrit la misère du peuple des campagnes et d'avoir commencé par une carrière littéraire
+  - D’avoir proposé un impôt proportionnel pour tous et d'avoir été ministre des finances
+  - D'avoir été ministre des finances et d'avoir commencé par une carrière littéraire
+explanation: |
+  Pierre Le Pesant, sieur de Boisguilbert, comme Vauban, a été un observateur attentif de la misère paysanne et a proposé une réforme fiscale basée sur un impôt proportionnel. Cependant, contrairement à Colbert, ni Boisguilbert ni Vauban n'ont été ministres des finances.

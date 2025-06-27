@@ -1,0 +1,10 @@
+question: Lightning Network چیست؟
+answer: یک شبکه پرداخت فوری Bitcoin بر اساس Bitcoin Blockchain.
+wrong_answers:
+  - یک شبکه Blockchain جدا از Bitcoin Blockchain.
+  - یک شبکه از ماینرهای Bitcoin.
+  - شبکه‌ای از تبادلات Bitcoin.
+explanation: |
+  Lightning Network یک شبکه پرداخت فوری Bitcoin است
+  که بر اساس Bitcoin Blockchain می‌باشد.
+reviewed: true

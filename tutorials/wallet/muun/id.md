@@ -10,7 +10,7 @@ Muun (https://muun.com/) adalah dompet *self-custodial* untuk bitcoin dan lightn
 
 ## Tutorial video
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Panduan Lengkap untuk Pengguna Muun Wallet
 

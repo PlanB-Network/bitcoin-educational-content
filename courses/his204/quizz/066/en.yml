@@ -1,0 +1,8 @@
+question: What business does Dupont de Nemours et Cie, founded by the French economist's son, operate in?
+answer: Chemistry and biology
+wrong_answers:
+  - Banking & Insurance
+  - Textile
+  - Food industry
+explanation: |
+  Dupont de Nemours is a chemicals and biology company founded by the son of the economist Pierre-Samuel Dupont de Nemours.

@@ -1275,9 +1275,9 @@ Tatizo la kuongezeka linarejelea changamoto ya kutekeleza mfumo wa fedha wenye u
 
 Kulingana na hayo, itifaki kulingana na Blockchain inaweza kukidhi sifa mbili kati ya hizi tatu. Ndani ya itifaki ya Bitcoin, wasanidi wamefanya chaguo kupendelea ugatuaji na usalama. Kwa upande mmoja, ukubwa wa block ya 1MB na muda kati ya vitalu viwili (kwa wastani wa dakika 10) huruhusu kuendesha nodi ya Bitcoin kwa gharama ya chini, ikipendelea ugatuaji. Kwa upande mwingine, utengenezaji wa vitalu kupitia Proof-of-Work hufanya ulaghai ndani ya itifaki kuwa ghali sana, huku kuwezesha uthibitishaji na nodi za mtandao na kupendelea usalama. Hata hivyo, chaguo hizi huweka kikomo kwa wastani wa idadi ya miamala katika block, takribani inayolingana na miamala michache kwa sekunde. Nambari hii ni ya kichekesho ikilinganishwa na uwezo wa kukokotoa kwa vichakataji malipo kama vile VISA (1700/s), lakini kikomo hiki ni muhimu ili kufanya miamala na Bitcoin kwa njia inayostahimili udhibiti na Trustless. Walakini, wale wanaokua kwenye Bitcoin wamekuwa wakifikiria juu ya shida hii tangu mwanzo.
 
-### Umeme kama safu juu
+### Lightning kama safu juu
 
-Baada ya miaka ya kuzingatia na majaribio mengi, itifaki ya Umeme iliibuka. Kwa kutumia idadi fulani ya vipimo, itifaki hii huunda mtandao wa malipo wa kati-kwa-rika kwa kutumia usalama na upangaji wa itifaki ya shughuli ya Bitcoin. Lightning Network hufanya kama mtandao wa njia za malipo, kuwezesha miamala ya papo hapo na ada za chini kwa mtumaji, na hata huunda njia za ubadilishanaji kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
+Baada ya miaka ya kuzingatia na majaribio mengi, itifaki ya Lightning iliibuka. Kwa kutumia idadi fulani ya vipimo, itifaki hii huunda mtandao wa malipo wa kati-kwa-rika kwa kutumia usalama na upangaji wa itifaki ya shughuli ya Bitcoin. Lightning Network hufanya kama mtandao wa njia za malipo, kuwezesha miamala ya papo hapo na ada za chini kwa mtumaji, na hata huunda njia za ubadilishanaji kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
 
 ![image](assets/en/80.webp)
 
@@ -1299,10 +1299,9 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 Kama ambavyo tumeona hivi punde, itifaki ya Bitcoin, ingawa ni ya kimapinduzi, inakabiliwa na changamoto kubwa katika suala la hatari linalohitajika kushughulikia shughuli zetu zote za kila siku. Ili kutatua matatizo haya, Lightning Network ilipendekezwa na tangu wakati huo imeendelezwa katika utekelezaji kadhaa tofauti, ambao wote unashirikiana:
 
 
-- Umeme wa msingi na Blockstream
+- lightning ya msingi na Blockstream
 - Eclair na Acinq
-- LND kwa mgomo wa umeme
-
+- LND kwa mgomo wa lightning 
 Mtandao huu wa kati-kwa-rika unalenga kuwezesha miamala midogo (yenye thamani ya chini sana) ambayo isingewezekana kutokana na ada ya juu na muda mrefu wa uthibitishaji kwenye Bitcoin Blockchain.
 
 ### Ni kesi gani za matumizi ya mtandao?
@@ -1329,7 +1328,7 @@ Kwa kumalizia, Lightning Network inafungua matukio mengi ya kusisimua ya matumiz
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
-Kama Morpheus alivyomwambia Neo: "Unachukua kidonge cha bluu, hadithi inaisha, unaamka kitandani mwako, na unaamini chochote unachotaka kuamini. Unachukua kidonge chekundu, unakaa Wonderland, na ninakuonyesha jinsi shimo la sungura linavyoenda." Je, uko tayari kuchunguza shimo la sungura la Bitcoin? Kuwa mwangalifu, kwani unaweza kugundua tena uhuru wako wa kifedha!
+Kama Morpheus alivyomwambia Neo: "Unachukua kidonge cha bluu, hadithi inaisha, unaamka kitandani mwako, na unaamini chochote unachotaka kuamini. Unachukua kidonge chekundu, unakaa Wonderland, na ninakuonyesha jinsi shimo la sungura linavyoenda." Je, Uko tayari kuchunguza undani wa Bitcoin? Kuwa mwangalifu, kwani unaweza kugundua tena uhuru wako wa kifedha!
 
 ### Wakati ujao wa kiteknolojia na athari zake
 
@@ -1363,7 +1362,7 @@ Mazingatio haya pia yanazua maswali kuhusu ni nani anayefaa kushikilia, kuidhini
 - Je, fedha ni aina ya mali binafsi?
 - Je, akaunti za waandamanaji zinaweza kuzuiwa bila amri ya Mahakama ya Juu?
 - Nani anahakikisha mfumo wa fedha?
-- Je, mtu binafsi anawezaje kuwa na mamlaka juu ya pesa zake na kumtegemea mtu wa tatu anayeaminika?
+- Mtu anawezaje kuwa na udhibiti kamili wa fedha zake huku bado akimtegemea mtu wa tatu anayeaminika?
 - Je, pesa zinaweza kutumwa kwa upande mwingine wa dunia bila ada au wasuluhishi?
 
 Kukubali teknolojia hizi mpya kunaweza kuwa na uchumi mkubwa wa uzalishaji duniani kote. Je, turuhusu mtiririko huru wa mtiririko wa mtaji? Vizuizi vya kimataifa vina athari ya kiuchumi na kisiasa. Je, ni sawa kutumia waamuzi wa kifedha kama Western Union, ambao wakati mwingine hutoza hadi 25% ya ada? Tunaamini kuwa katika ulimwengu unaozidi kuwa wa kidijitali, pesa zinapaswa kuwekwa kidemokrasia na kuzingatiwa kuwa mali ya watu wote badala ya serikali au mashirika ya kifedha ambayo hayajui.
@@ -1382,7 +1381,7 @@ Tunaamini kwa dhati kwamba kuvumilia udhibiti kunaweza kuharibu uhuru wa kujiele
 
 Kuna watu bilioni 2.4 duniani wasio na akaunti ya benki, jambo ambalo huleta tofauti za kijiografia. Kwa upande mwingine, Bitcoin inatoa usawa wa miamala, bila kujali hali yako ya kijamii au nafasi yako ya kisiasa. Itifaki hiyo ni ya kisiasa na haitoi upendeleo maalum kwa viongozi au watu wengine wenye ushawishi, kuhakikisha kuwa kila mtu anapata fursa sawa za kusukuma maendeleo mbele, badala ya kuruhusu wachache kubaki kileleni huku wengine wakiachwa nyuma. Je, kila mtu anapaswa kufikia sarafu sawa, bila kujali hali yake ya kijamii? Ni muhimu kuzingatia ulimwengu tunaotaka kuwaachia watoto wetu, na tunatamani kuunda ulimwengu wazi ambapo wako huru kudhibiti pesa zao wapendavyo.
 
-Bitcoin ni muhimu na haipaswi kuchukuliwa kuwa mchezo wa kubahatisha tu, kwa hivyo ni muhimu kuendelea kuuliza maswali kuhusu Bitcoin na matokeo yake duniani.
+Bitcoin ni muhimu na haipaswi kuchukuliwa kama mchezo wa kubahatisha tu. Ni muhimu kuendelea kuuliza maswali kuhusu Bitcoin na athari zake kwa dunia.
 
 ### Bitcoin: itifaki ya mapinduzi
 
@@ -1390,11 +1389,11 @@ Kama tulivyoona katika sura iliyotangulia, itifaki ya Bitcoin haina upande wowot
 
 Bitcoin ina sifa zote zinazohitajika ili kuwa sarafu bora na yenye afya: inayoweza kugawanywa, kusafirishwa papo hapo, isiyokaguliwa, gharama za uthibitishaji zisizo na maana, na sera ya fedha ambayo tayari imewekwa kuwa vitengo milioni 21 kwa karne nyingi zijazo. Bitcoin ni jina bandia na inaweza kubadilishwa popote duniani bila idhini yoyote kutoka kwa huluki yoyote. Unahitaji tu kushikilia funguo zako za kibinafsi na kukumbuka msemo "Sio funguo zako, sio bitcoins zako".
 
-Inakubaliwa na vikundi tofauti vya watu, kutoka kwa waandishi wa maandishi, hadi libertarians, biashara za jadi, na hata nchi nzima. Hata hivyo, Bitcoin ni ya kila mtu, na kadiri idadi ya watumiaji inavyoongezeka, ndivyo pia idadi ya nodi za Bitcoin ambazo hutumika kama walezi wa historia ya shughuli, kuhakikisha ugatuaji wake unaongezeka.
+Bitcoin inakubalika na makundi mbalimbali ya watu—kuanzia waandishi wa kazi za kifalsafa, wanaharakati wa uhuru wa kifedha (libertarians), wafanyabiashara wa kawaida, hadi mataifa yote. Hata hivyo, Bitcoin ni mali ya kila mtu; na kadiri idadi ya watumiaji inavyoongezeka, ndivyo pia nodi za Bitcoin huzidi kuongezeka, zikichukua jukumu la kulinda historia ya miamala na kuimarisha ugatuaji wake.
 
 Bitcoin haiwezi kusimamishwa na haiwezi kukaguliwa tena. Ni mapinduzi ya amani ambayo hubadilisha mfumo wa fedha na kuwezesha ushirikishwaji wa kifedha. Watumiaji wanaweza kupata bitcoins kwa kuzikubali kwa biashara zao au kwa kuzinunua kupitia mifumo iliyodhibitiwa au isiyodhibitiwa. Wanaweza kuhifadhi pesa kwenye pochi zao, programu za rununu, au vifaa halisi, bila kuhitaji wapatanishi wanaoaminika. Bitcoin inatetea uwazi, uhuru, na wajibu wa mtu binafsi: kama msemo unavyosema "Usiamini, Thibitisha".
 
-Satoshi aliunda Bitcoin mwaka 2008 ili kupendekeza mabadiliko ya mfumo wa fedha, kupitia mabadiliko ya sarafu, kwa sababu alijua kwamba kupata pesa rahisi na "kichawi" huleta kwa urahisi rushwa. Kwa hivyo Bitcoin ni njia mbadala ya kujenga mfumo mpya wa fedha usioegemea upande wowote, kwani inaruhusu ukombozi kutoka kwa mfumo wa benki. Hatimaye, ni jambo la kijamii linalotuhimiza kushiriki katika mapinduzi ya amani.
+Satoshi aliunda Bitcoin mwaka 2008 ili kupendekeza mabadiliko ya mfumo wa fedha, kupitia mabadiliko ya sarafu, kwa sababu alijua kwamba kupata pesa rahisi na "kichawi" huleta kwa urahisi rushwa. Kwa hivyo, Bitcoin ni njia mbadala ya kujenga mfumo mpya wa fedha usioegemea upande wowote, kwani inaruhusu ukombozi kutoka kwa mfumo wa benki. Hatimaye, ni jambo la kijamii linalotuhimiza kushiriki katika mapinduzi ya amani.
 
 Je, uko tayari kujiunga?
 

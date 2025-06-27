@@ -2277,7 +2277,7 @@ Quali sono i tre plugin integrati che vengono forniti standard con BTCPay Server
 
 ### Installazione di BTCPay Server su Ambiente Hosted (LunaNode)
 
-Questi passaggi forniranno tutte le informazioni necessarie per iniziare a utilizzare BTCPay Server su LunaNode. Ci sono molte opzioni su come distribuire il software, puoi trovare tutti i dettagli per BTCPay Server su https://docs.btcpayserver.org/Deployment/LunaNode/.
+Questi passaggi forniranno tutte le informazioni necessarie per iniziare a utilizzare BTCPay Server su LunaNode. Ci sono molte opzioni per  distribuire il software, puoi trovare tutti i dettagli per BTCPay Server su https://docs.btcpayserver.org/Deployment/LunaNode/.
 
 #### Da dove iniziamo?
 
@@ -2298,11 +2298,11 @@ Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica. Una
 
 #### Aggiungi credito al tuo account LunaNode
 
-Una volta cliccato su "Deposit credit", puoi impostare quanto vuoi ricaricare sul tuo account e come vuoi pagarlo. LunaNode e BTCPay Server costeranno tra 10$USD e 20$USD al mese. A differenza di Voltage.cloud (vedi prossimo capitolo), ottieni pieno accesso al tuo Virtual Private Server (VPS da qui in poi) e quindi hai più controllo sul tuo server. Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica.
+Una volta cliccato su "Deposit credit", puoi impostare quanto vuoi ricaricare sul tuo account e come vuoi pagarlo. LunaNode e BTCPay Server costeranno tra 10$USD e 20$USD al mese. A differenza di Voltage.cloud (vedi prossimo capitolo), ottieni pieno accesso al tuo Virtual Private Server (VPS da qui in poi) e quindi hai più controllo sul tuo server. Dopo aver creato il tuo nuovo account, LunaNode invia un ulteriore email di verifica.
 
 #### Come distribuire un nuovo server?
 
-In questa guida, procederemo alla configurazione creando un set di chiavi API e utilizzando il launcher (schermata iniziale di avvio) di BTCPay Server creato da LunaNode.
+In questa guida, procederemo alla configurazione creando un set di chiavi API e per farlo utilizzeremo il launcher (schermata iniziale di avvio) di BTCPay Server creato da LunaNode.
 
 Nella tua dashboard di LunaNode, clicca su API in alto a destra per aprire una nuova pagina. Dobbiamo solo impostare un nome per la chiave API e il resto sarà gestito da LunaNode e non sarà trattato in questa guida. Clicca poi sul pulsante "Create API Credential".
 Dopo aver creato le credenziali API, riceverai una lunga stringa di lettere e caratteri e questa è la tua chiave API.
@@ -2377,9 +2377,9 @@ Qui dovrai selezionare quale tipo di nodo Lightning desideri. Voltage offre una 
 
 Dai un Nome al tuo nodo, imposta una password e metti in sicurezza questa password. Se questa password viene persa, perderai l'accesso ai tuoi backup e Voltage non può recuperarla. Crea il nodo e Voltage ti mostrerà il progresso, fino alla creazione del tuo Nodo Lightning. Ora possiamo creare l'istanza di BTCPay Server e accedere direttamente a Lightning Network.
 
-Clicca su Nodi nell'angolo in alto a sinistra della tua dashboard. Qui puoi configurare il prossimo step della tua istanza di BTCPay Server. Clicca su "crea nuovo" una volta che sei nella panoramica dei nodi. Ti verrà mostrata una schermata simile a quella precedente. Ora invece di Nodo Lightning, scegliamo BTCPay Server.
+Clicca su "Nodi" nell'angolo in alto a sinistra della tua dashboard. Qui puoi configurare il prossimo step della tua istanza di BTCPay Server. Clicca su "crea nuovo" una volta che sei nella panoramica dei nodi. Ti verrà mostrata una schermata simile a quella precedente. Ora invece di Nodo Lightning, scegliamo BTCPay Server.
 
-Voltage ti mostra la geolocalizzazione del tuo BTCPay Server che si trova nella regione a ovest degli Stati Uniti. Qui vedrai anche il costo dell'hosting del server. Clicca su Crea e dai un nome al tuo BTCPay Server. Abilita Lightning e Voltage ti mostrerà il nodo Lightning creato nel passaggio precedente. Clicca su Crea e Voltage creerà un'istanza di BTCPay Server.
+Voltage ti mostra la geolocalizzazione del tuo BTCPay Server che si trova nella regione a ovest degli Stati Uniti. Qui vedrai anche il costo dell'hosting del server. Clicca su "Crea" e dai un nome al tuo BTCPay Server. Abilita Lightning e Voltage ti mostrerà il nodo Lightning creato nel passaggio precedente. Clicca su Crea e Voltage creerà un'istanza di BTCPay Server.
 
 ![immagine](assets/en/120.webp)
 
@@ -2416,7 +2416,7 @@ Dopo che il tuo nodo Umbrel ha completato la sincronizzazione con la blockchain 
 
 ![immagine](assets/en/122.webp)
 
-Clicca su BTCPay Server per vedere i dettagli dell'App e quando questi sono aperti, in basso a destra vengono mostra i requisiti affinché l'App funzioni correttamente. Viene evidenziata la necessitàdi avere un nodo Bitcoin e un nodo Lightning. Se non hai installato il Nodo Lightning sul tuo Umbrel, clicca su Installa. Questo processo può richiedere un paio di minuti.
+Clicca su BTCPay Server per vedere i dettagli dell'App e quando questi sono aperti, in basso a destra vengono mostrati i requisiti affinché l'App funzioni correttamente. Viene evidenziata la necessità di avere un nodo Bitcoin e un nodo Lightning. Se non hai installato il Nodo Lightning sul tuo Umbrel, clicca su Installa. Questo processo può richiedere un paio di minuti.
 
 ![immagine](assets/en/123.webp)
 
@@ -2437,11 +2437,11 @@ Umbrel richiederà la verifica delle parole appena annotate.
 
 Assicurati di conservare le parole in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi.
 
-Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che anche BTCPay Server richiederà l'accesso a questi.
+Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che sarà richiesto l'accesso a questi dati anche da BTCPay Server.
 
 ![immagine](assets/en/126.webp)
 
-Dopo l'installazione, clicca su Apri in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
+Dopo l'installazione, clicca su "Apri" in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
 
 ![immagine](assets/en/127.webp)
 
@@ -2455,7 +2455,7 @@ In questa sezione hai imparato:
 
 #### Revisione Concettuale KA
 
-In che modo la configurazione su Umbrel differisce dalle precedenti due opzioni ospitate?
+In che modo la configurazione su Umbrel differisce dalle precedenti due opzioni hosted?
 
 # Sezione finale
 

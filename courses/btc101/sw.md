@@ -1,4 +1,4 @@
-y---
+---
 name: Safari ya Bitcoin
 goal: Gundua misingi ya Bitcoin, ikijumuisha pendekezo lake la thamani ya fedha, wachimbaji, miamala na pochi.
 objectives: 

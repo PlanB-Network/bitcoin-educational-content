@@ -9,8 +9,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent.parent
 
 def get_supported_languages():
-    """Get list of supported languages from btc101 course directory."""
-    directory = PROJECT_ROOT / "courses" / "btc101"
+    """Get list of supported languages from LNP201 course directory."""
+    directory = PROJECT_ROOT / "courses" / "lnp201"
     supported_languages = []
     
     if directory.exists():

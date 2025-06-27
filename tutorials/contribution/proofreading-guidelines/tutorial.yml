@@ -1,4 +1,4 @@
-id: 07d4653b-c0ef-45d2-bc96-96332f6d3cb7
+id: 52348db0-8cd0-4658-9de4-0e8c25bea1a0
 
 project_id: cd62a137-baad-4133-b90d-711963e510c7
 
@@ -7,7 +7,7 @@ tags:
   - good-practice
   - evaluation
 
-category: contribution
+category: content
 
 level: beginner
 
@@ -22,4 +22,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - MariJJhodl
-    reward:
+    reward: 1

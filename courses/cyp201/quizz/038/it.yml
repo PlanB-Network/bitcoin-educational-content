@@ -5,5 +5,5 @@ wrong_answers:
   - Rende le transazioni più costose
   - Invalida le firme digitali
 explanation: |
-  Riutilizzare un indirizzo permette agli osservatori di collegare facilmente diverse transazioni allo stesso utente, compromettendo la loro privacy.
+  Riutilizzare un indirizzo permette agli osservatori di collegare facilmente diverse transazioni allo stesso utente, compromettendone la privacy.
 reviewed: false

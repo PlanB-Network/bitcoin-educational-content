@@ -38,7 +38,7 @@ To ensure that each participant is aware of the transactions, they must be publi
 
 The transparent and distributed nature of Bitcoin's blockchain means that any user of the network can follow and analyze the transactions of all other participants. As a result, anonymity at the transaction level is impossible. However, anonymity is preserved at the level of individual identification. Unlike the traditional banking system where each account is linked to a personal identity, on Bitcoin, funds are associated with pairs of cryptographic keys, thus offering users a form of pseudonymity behind cryptographic identifiers.
 
-Thus, confidentiality on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thereby offering a certain layer of confidentiality to Bitcoin users at the transaction level.
+Thus, privacy on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thereby offering a certain layer of privacy to Bitcoin users at the transaction level.
 
 ## How does Whirlpool work?
 Whirlpool stands out from other coinjoin methods by using "_ZeroLink_" transactions, which ensure that there is strictly no technical link possible between all the inputs and all the outputs. This perfect mixing is achieved through a structure where each participant contributes an identical amount in input (except for mining fees), thus generating outputs of perfectly equal amounts.
@@ -105,7 +105,7 @@ Before proceeding to coinjoins, the user therefore has a choice between 2 strate
 - Opt for a smaller pool to minimize service fees, knowing that they will receive several small UTXOs in return;
 - Or prefer a larger pool, agreeing to pay higher fees to end up with a reduced number of larger-value UTXOs.
 
-It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired confidentiality, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it may be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs at the output. The user must weigh these trade-offs to choose the pool they prefer.
+It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired privacy, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it may be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs at the output. The user must weigh these trade-offs to choose the pool they prefer.
 
 In addition to service fees, the mining fees inherent to any Bitcoin transaction must also be considered. As a Whirlpool user, you will be required to pay the mining fees for the preparation transaction (`Tx0`) as well as those for the first coinjoin. All subsequent remixes will be free, thanks to Whirlpool's model which relies on the payment of new entrants.
 
@@ -150,7 +150,7 @@ For example, here is a real Whirlpool Tx0 (not from me): [edef60744f539483d868ca
 The surplus that could not be integrated into the pool, here equivalent to `40,000 sats`, is redirected to the **bad bank** account, also referred to as "doxxic change", to ensure a strict separation from the other UTXO in the wallet.
 
 This UTXO is dangerous for the user's privacy because not only is it still attached to its past, and therefore possibly to the identity of its owner, but additionally, it is noted as belonging to a user who has performed a coinjoin.
-If this UTXO is merged with mixed outputs, they will lose all the confidentiality gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing confidentiality since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more thoroughly on PlanB Network.
+If this UTXO is merged with mixed outputs, they will lose all the privacy gained during the coinjoin cycles, notably because of the Common-Input-Ownership-Heuristic (CIOH). If it is merged with other doxxic changes, the user risks losing privacy since this will link the different inputs of the coinjoin cycles. Therefore, it must be handled with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will cover these methods more thoroughly on PlanB Network.
 
 **Step 3: The Initial Mix**
 After the `Tx0` is completed, the equalized UTXOs are sent to the **premix** account of our wallet, ready to be introduced into their first coinjoin cycle, also called the "initial mix". If, as in our example, the `Tx0` generates several UTXOs intended for mixing, each of them will be integrated into a separate initial coinjoin.
@@ -162,7 +162,7 @@ After the initial mix, the UTXOs are transferred to the **postmix** account. Thi
 
 As a reminder, the remixes are then 100% free: no additional service fees or mining fees are required. Keeping the UTXOs in the **postmix** account thus maintains their value intact and simultaneously improves their anonsets. That's why it's important to allow these coins to participate in multiple coinjoin cycles. It costs you strictly nothing, and it increases their levels of anonymity.
 
-When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. It is advisable to keep the mixed UTXOs in this account to benefit from free remixes and to avoid them leaving the Whirlpool circuit, which could decrease their confidentiality.
+When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. It is advisable to keep the mixed UTXOs in this account to benefit from free remixes and to avoid them leaving the Whirlpool circuit, which could decrease their privacy.
 
 As we will see in the following tutorial, there is also the `mix to` option which offers the possibility to automatically send your mixed coins to another wallet, such as a cold wallet, after a defined number of coinjoins.
 After covering the theory, let's dive into practice with a tutorial on using Whirlpool through the Samourai Wallet Android application, synchronized with Whirlpool CLI and GUI on your own Dojo!

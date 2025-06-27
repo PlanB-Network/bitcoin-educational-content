@@ -3,7 +3,7 @@ answer: They are more resistant to brute force attacks than passwords of the sam
 wrong_answers:
   - They are easier to remember but slower to type in.
   - They are always secure as they exceed 20 random characters.
-  - Most online services ask only for minimum length and set of characters, fullfilling this criterias mean passwords are strong enough.
+  - Most online services ask only for a minimum length and set of characters; fulfilling these criteria means passwords are strong enough.
 explanation: |
   Randomly generated passwords offer a higher level of
   security because they are more resistant to brute force

@@ -2,7 +2,7 @@ question: Koja heuristička analiza lanca se koristi od strane PayJoin transakci
 answer: CIOH
 wrong_answers:
   - Address ponovna upotreba
-  - Wallet otisak prsta
+  - Jedinstveni identifikator novčanika
   - Ponovno korišćenje verzionisanja
 explanation: |
   Kada analitičar ispituje PayJoin transakciju, dolazi do zaključka da svi ulazi dolaze od iste osobe zbog CIOH-a. Međutim, ova percepcija je netačna, jer primalac uplate takođe doprinosi ulazima zajedno sa stvarnim platiocem. Stoga, analiza lanca se skreće ka interpretaciji koja se ispostavlja kao pogrešna.

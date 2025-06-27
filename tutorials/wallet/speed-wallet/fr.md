@@ -6,6 +6,9 @@ description: Payez et échangez en bitcoins et en USDT instantanément
 
 Il existe assez de solutions de nos jours pour aider les bitcoiners à acquérir, stocker et échanger leur bitcoins. Aujourd'hui, nous partons à la découverte de Speed Wallet, un portefeuille Bitcoin et Lightning vous permettant d'effectuer des opérations aisément.
 
+
+![btc-session](https://www.youtube.com/watch?v=ywUNZ_sxr0Q)
+
 ## Qu'est ce que c'est Speed Wallet ?
 
 Pour les nouveaux bitcoiners, le choix du portefeuille qui sera utilisé pour vous permettre de stocker et échanger vos bitcoins est crucial et peut affecter la sécurité de vos avoirs.
@@ -94,9 +97,9 @@ Les options **Buy** et **Swap**, vous permet d'échanger des bitcoins pour les a
 
 - **Acheter Bitcoin à partir d'autres cryptomonnaies** : Vous pouvez échanger vos USDT, USDC pour avoir des bitcoins dans votre portefeuille et vice-versa. Au travers cette option, Speed Wallet simplifie le processus d'achat et de vente de Bitcoin sans pour autant se référer à des plateformes d'échange externes. Vous pouvez donc faire des échanges à partir de 20.000 satoshis, environ $20 au taux actuel, sans quitter votre portefeuille Speed.
 
-[https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db](https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db)
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-[https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e](https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e)
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 

@@ -1062,7 +1062,9 @@ Hoy en día, Bitcoin sigue sobreviviendo y creciendo aún más al integrarse cad
 
 Bitcoin puede considerarse la herramienta para crear una economía paralela a las monedas fiduciarias, porque es posible vender bienes o servicios y cobrar en bitcoin. Las transacciones pueden realizarse directamente en Bitcoin, sin necesidad de pasar por una plataforma de intercambio, sino simplemente yendo de un monedero Bitcoin a otro.
 
-La economía Bitcoin existe y se está desarrollando en ciertas regiones del mundo, como en El Salvador, donde Bitcoin es una moneda de curso legal desde 2021. A nuestro alrededor hay algunas personas, empresas y organizaciones que ya aceptan Bitcoin como medio de pago por sus productos o servicios.
+La economía Bitcoin existe y se está desarrollando en ciertas regiones del mundo, como en El Salvador, donde Bitcoin se convirtió en moneda de curso legal en 2021. Desafortunadamente, en enero de 2025, la asamblea aprobó una nueva ley que despojó a Bitcoin del título de "moneda de curso legal", supuestamente tras recibir presión del Fondo Monetario Internacional. Según la nueva ley, las personas ya no están obligadas a aceptar Bitcoin en sus negocios y no pueden pagar impuestos con él. La aceptación sigue siendo voluntaria.
+
+No obstante, en El Salvador y en otras partes del mundo, hay cada vez más individuos, empresas y organizaciones que aceptan Bitcoin como medio de pago por sus productos o servicios.
 
 ![image](assets/en/72.webp)
 

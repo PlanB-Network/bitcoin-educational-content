@@ -1,0 +1,9 @@
+question: Chuỗi bên Bitcoin là gì?
+answer: Liquid và Rootstock
+wrong_answers:
+  - Đa giác và Arbitrum
+  - Sao Mộc và Fantom
+  - Bitcoin Cash và Bitcoin Satoshi Vision
+explanation: |
+  Liquid và RSK là các sidechain có chốt 2 chiều với Bitcoin. Các tùy chọn khác không phải là sidechain hoặc không có 2WP với Bitcoin Blockchain.
+reviewed: false

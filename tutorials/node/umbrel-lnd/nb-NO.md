@@ -57,7 +57,7 @@ For en fullstendig teoretisk innføring i Lightning Network anbefaler vi at du t
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dette kurset gir deg en grundig innføring i de grunnleggende konseptene i Lightning Network, før du går videre til å øve med LND-noden din.
 

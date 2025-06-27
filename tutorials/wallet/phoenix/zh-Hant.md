@@ -170,7 +170,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ![Image](assets/fr/18.webp)
 
 
-掃描右側的 QR 代碼，顯示接收 Address 的 Bitcoin。將您希望存入 Phoenix 的金額傳送給它。
+向左滑動 QR 碼以顯示一個比特幣接收地址。將您希望存入 Phoenix 的金額發送到該地址。
 
 
 ![Image](assets/fr/19.webp)

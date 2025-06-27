@@ -1,0 +1,9 @@
+question: Bitcoin inaweza kugawanywa hadi nafasi ngapi za desimali?
+answer: Nane
+wrong_answers:
+  - Sita
+  - Kumi na mbili
+  - Saba
+explanation: |
+  Bitcoin inaweza kugawanywa chini hadi nafasi ya nane ya desimali, kwa kitengo kimoja kinachoitwa Satoshi au sat.
+reviewed: false

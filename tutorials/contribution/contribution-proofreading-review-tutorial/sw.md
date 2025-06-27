@@ -196,17 +196,7 @@ NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakion
 
 ## 6. Kanuni za kufuata wakati wa kusahihisha maudhui
 
-
-
-- Kabla ya kuanza kusahihisha upya, itangaze katika [kikundi cha Telegramu](https://t.me/PlanBNetwork_ContentBuilder) au mwambie mratibu wako wa Plan ₿ Network. Watafungua [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), ambapo unaweza kutoa maoni kuwa unaanza kazi.
-- Ni muhimu kuangalia kila mara toleo asili la Kiingereza (au Kifaransa) la kozi/mafunzo wakati wa kusahihisha. Jisikie huru kufanya marekebisho ili kuongeza umiminiko, lakini usibadilishe maana halisi ya jumla.
-- Zana za LLM zinaweza kutafsiri kihalisi baadhi ya maneno yanayohusiana na Bitcoin, kama vile Lightning Network, ambayo yanaweza kuwa "Rete Fulmine" kwa Kiitaliano. Katika hali kama hizi, inashauriwa kutumia neno asili la Kiingereza kwa uwazi zaidi, isipokuwa sheria zako za lugha zikulazimishe kutafsiri kila neno moja.
-- Ukipata manukuu, hakikisha umefanya utafiti mtandaoni ili kupata tafsiri sahihi katika lugha yako.
-- USItafsiri maneno tuli mwanzoni mwa maandishi, ambayo hutumiwa kuelezea yaliyomo: "jina", "maelezo", "malengo".
-- Ukipata "Plan ₿ Network" kwenye maandishi, iache katika fomu hii asilia. Usitafsiri neno "mpango" au neno "mtandao". Kando na hilo, USITUMIE makala "The" wakati wa kutambulisha Plan ₿ Network, na uichukue kama chapa. Vile vile huenda kwa "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", ambayo inapaswa pia kuwekwa katika fomu ya awali.
-- Zingatia uakifishaji wa ajabu kama `\*\*\` ambao unaweza kuwakilisha uwasilishaji mbaya wa alama nzito **. Angalia maandishi asilia ya Kiingereza kila wakati ili kuona ikiwa maandishi mazito yanapaswa kuwa hapo. Kwa ujumla, ili kutoa herufi nzito, tafadhali weka nyota mbili ** kabla na baada ya neno/sentensi. Unaweza kupata maelezo zaidi kuhusu lugha ya alama [hapa](https://www.markdownguide.org/basic-syntax/).
-- Unapomaliza kusahihisha, unaweza kurejea toleo asili lililofunguliwa na mratibu, kutoa maoni kwa "Usahihishaji umekamilika", na uweke kiungo chako cha PR hapo.
-
+Ili kupata maelezo zaidi kuhusu miongozo ya kufuata wakati wa kuhariri kwenye Plan ₿ Network kuhusu sheria za lugha au muundo, tafadhali rejelea mwongozo wa "contribution-proofreading-guidelines" katika sehemu hii hiyo!
 
 ## 7. Subiri kwa ukaguzi
 

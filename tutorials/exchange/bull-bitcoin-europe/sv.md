@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Europa
+name: Bull Bitcoin
 description: Köp och sälj bitcoins på Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
@@ -7,12 +7,9 @@ description: Köp och sälj bitcoins på Bull Bitcoin
 
 Bull Bitcoin är en Exchange-plattform som endast omfattar Bitcoin och som grundades 2013 i Kanada av Francis Pouliot, en ikonisk figur i Bitcoin-ekosystemet. Bull Bitcoin:s filosofi är att erbjuda användarna verktyg för finansiell suveränitet och frigörelse. Exchange-plattformen är inte frihetsberövande, vilket innebär att du alltid förblir suverän över dina Bitcoins.
 
+Ursprungligen endast tillgänglig i Kanada, är plattformen nu tillgänglig i Europa och många andra länder med ett helt nytt optimerat gränssnitt. Denna nya version av Bull Bitcoin gör det enkelt och snabbt att köpa och sälja bitcoin med hjälp av Lightning och omedelbara SEPA-överföringar. Den integrerar också betalning av fakturor med bitcoin. I framtiden kommer plattformen också att inkludera DCA-alternativ, automatiska köp och limitorder.
 
-Plattformen, som ursprungligen endast var tillgänglig i Kanada, är nu tillgänglig i Europa med en helt ny, optimerad Interface. Denna nya version av Bull Bitcoin är för närvarande endast tillgänglig i Europa. Den gör att du kan köpa och sälja bitcoins snabbt och enkelt, tack vare användningen av Lightning och omedelbara SEPA-överföringar. Så småningom kommer plattformen också att innehålla alternativ för DCA, automatiska köp, limitorder och fakturabetalningar i bitcoins.
-
-
-Bull Bitcoin lägger stor vikt vid att tillhandahålla en transparent tjänst utan dolda avgifter. Liksom alla andra Exchange-plattformar i Europa kräver användningen av Bull Bitcoin KYC (kundidentifieringsprocedur).
-
+Bull Bitcoin strävar efter att erbjuda en transparent tjänst utan dolda avgifter. Observera att, precis som de flesta börser, kräver användningen av Bull Bitcoin genomförandet av en KYC-process (Know Your Customer).
 
 ## Registrera dig på Bull Bitcoin
 
@@ -186,7 +183,7 @@ Om du inte är bekant med att använda Bitcoin-, Lightning- eller Liquid-plånb�
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Du kan också utforska [våra detaljerade handledningar om de bästa Bitcoin-plånböckerna] (https://planb.network/tutorials/Wallet).
+Du kan också utforska [våra detaljerade handledningar om de bästa Bitcoin-plånböckerna] (https://planb.network/tutorials/wallet).
 
 
 Bekräfta sedan ditt köp genom att klicka på "*Bekräfta köp*".

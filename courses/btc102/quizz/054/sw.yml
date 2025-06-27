@@ -1,0 +1,9 @@
+question: Je, lengo kuu la mtumiaji amilifu ni lipi?
+answer: Ili kutumia Bitcoin kama njia ya malipo ya kila siku
+wrong_answers:
+  - Kuwekeza katika Bitcoin kwa muda mrefu
+  - Hatua kwa hatua kukusanya satoshis
+  - Ili kubashiri kwenye soko
+explanation: |
+  Mtumiaji anayetumika hujumuisha Bitcoin katika maisha yake ya kila siku ili kufanya miamala na kuunga mkono kupitishwa kwake.
+reviewed: false

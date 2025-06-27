@@ -13,8 +13,10 @@ proofreading:
     urgency: 1
     contributor_names: 
       - AlphonseMehounme
-    reward: 0.14
+    reward: 0
 tags:  
   - adoption
   - decentralization
   - market-trends
+contributor_names:
+  - AlphonseMehounme

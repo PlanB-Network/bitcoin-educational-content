@@ -115,7 +115,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/18.webp)
 
-扫一下右边的二维码，就会显示一个比特币接收地址。将您希望存入凤凰城的金额发送给它。
+向左滑动二维码以显示一个比特币接收地址。将您希望存入 Phoenix 的金额发送到该地址。
 
 ![Image](assets/fr/19.webp)
 

@@ -37,7 +37,7 @@ Cahoots-transaktioner innebär att delvis signerade transaktioner utväxlas mell
 När det görs på distans blir denna process alltför komplex. För att Address detta problem har Samourai utvecklat ett krypterat kommunikationsprotokoll baserat på Tor, kallat "Soroban" Med Soroban automatiseras de nödvändiga utbytena för en PayJoin bakom en användarvänlig Interface. Detta är den andra metoden vi kommer att utforska i den här artikeln.
 
 
-Dessa krypterade utbyten kräver att en anslutning och autentisering upprättas mellan Cahoots-deltagarna. Soroban-kommunikation förlitar sig på användarnas Paynyms. Om du inte är bekant med Paynyms, uppmanar jag dig att hänvisa till den här artikeln för mer information: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Dessa krypterade utbyten kräver att en anslutning och autentisering upprättas mellan Cahoots-deltagarna. Soroban-kommunikation förlitar sig på användarnas Paynyms. Om du inte är bekant med Paynyms, uppmanar jag dig att hänvisa till den här artikeln för mer information: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 Enkelt uttryckt är en Paynym en unik identifierare kopplad till din Wallet som möjliggör olika funktioner, bland annat krypterade meddelanden. Paynym presenteras i form av en identifierare och en illustration som representerar en robot. Här är ett exempel på min på Testnet: ![Paynym Sparrow](assets/en/1.webp)
 
@@ -55,7 +55,7 @@ Enkelt uttryckt är en Paynym en unik identifierare kopplad till din Wallet som 
 genomföra en Cahoots-transaktion.
 
 
-[**-> Läs mer om PayJoin-transaktioner och deras användbarhet**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Läs mer om PayJoin-transaktioner och deras användbarhet**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Hur upprättar man en förbindelse mellan Paynyms?

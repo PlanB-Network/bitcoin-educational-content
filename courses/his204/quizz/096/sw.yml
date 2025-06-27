@@ -1,0 +1,8 @@
+question: Je, ni tukio gani kati ya haya ambalo Dupont de Nemours alishiriki wakati wa Mapinduzi ya Ufaransa?
+answer: Bunge la Katiba na uandishi wa "cahiers de doléances
+wrong_answers:
+  - Kuandikwa kwa cahiers de doléances na dhoruba ya Bastille
+  - Dhoruba ya Bastille na Bunge la Katiba
+  - Kukimbia kwa Mfalme na Bunge la Katiba
+explanation: |
+  Dupont de Nemours alishiriki katika Bunge la Katiba na uandikaji wa cahiers de doléances, akicheza jukumu muhimu katika siku za mwanzo za Mapinduzi ya Ufaransa.

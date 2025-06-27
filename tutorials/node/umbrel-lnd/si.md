@@ -57,7 +57,7 @@ Lightning Network සඳහා සම්පූර්ණ සෞඛ්‍යකා
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 මෙම පාඨමාලාව ඔබට Lightning Network හි මූලික සංකල්ප පිළිබඳ සවිස්තරාත්මක පදනමක් ලබා දෙන අතර, ඔබේ LND නියුඩ් සමඟ පුහුණුවට යාමට පෙර වේ.
 

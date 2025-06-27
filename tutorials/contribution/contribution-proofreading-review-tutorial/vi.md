@@ -139,14 +139,7 @@ NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được h
 
 ## 6. Quy tắc cần tuân theo khi hiệu đính nội dung
 
-- Trước khi bắt đầu một lần hiệu đính mới, hãy thông báo trong [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc cho người điều phối của bạn trong Plan ₿ Network biết. Họ sẽ mở một [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), nơi bạn có thể bình luận rằng bạn đang bắt đầu công việc.
-- Điều quan trọng là luôn kiểm tra phiên bản gốc bằng tiếng Anh (hoặc tiếng Pháp) của khóa học/tutorial khi hiệu đính. Hãy thoải mái thực hiện các điều chỉnh để cải thiện tính mạch lạc, nhưng đừng thay đổi ý nghĩa tổng thể ban đầu.
-- Các công cụ LLM có thể dịch một số từ liên quan đến Bitcoin một cách nghĩa đen, như Lightning Network, sẽ trở thành "Mạng Lưới Sét" trong tiếng Việt. Trong những trường hợp như vậy, nên sử dụng từ gốc bằng tiếng Anh để rõ ràng hơn, trừ khi quy tắc ngôn ngữ của bạn yêu cầu bạn dịch từng từ một.
-- Nếu bạn tìm thấy các trích dẫn, hãy đảm bảo thực hiện một số nghiên cứu trực tuyến để tìm ra bản dịch chính xác trong ngôn ngữ của bạn.
-- KHÔNG dịch các từ tĩnh ở đầu văn bản, được sử dụng để mô tả nội dung của nó: "name", "description", "objectives".
-- Nếu bạn tìm thấy "Plan ₿ Network" trong văn bản, hãy để nguyên dạng gốc này. Đừng dịch từ "plan" hoặc từ "network". Hơn nữa, ĐỪNG sử dụng mạo từ khi giới thiệu Plan ₿ Network, và coi đó như một thương hiệu. Điều tương tự cũng áp dụng cho "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", cũng nên được giữ nguyên dạng gốc.
-- Hãy chú ý đến dấu câu kỳ lạ như '\*\*\', có thể đại diện cho việc hiển thị sai ký hiệu in đậm **. Luôn kiểm tra văn bản gốc bằng tiếng Anh để xem liệu có cần văn bản in đậm hay không. Nói chung, để hiển thị văn bản in đậm, vui lòng chèn hai dấu hoa thị ** cả trước và sau từ/câu. Bạn có thể tìm thêm thông tin về ngôn ngữ markdown [tại đây](https://www.markdownguide.org/basic-syntax/).
-- Khi bạn hoàn thành việc hiệu đính, bạn có thể quay lại vấn đề ban đầu được mở bởi người điều phối, bình luận với "Proofreading done" và chèn liên kết PR của bạn vào đó.
+Để biết thêm thông tin về các hướng dẫn cần tuân theo khi hiệu đính trên Plan ₿ Network liên quan đến các quy tắc ngôn ngữ hoặc định dạng, vui lòng tham khảo hướng dẫn "contribution-proofreading-guidelines" trong cùng một phần này!
 
 ## 7. Chờ đánh giá
 

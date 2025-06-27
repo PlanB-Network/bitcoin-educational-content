@@ -1,4 +1,4 @@
-question: Che tipo di chiave viene utilizzata per bloccare gli UTXO su Bitcoin?
+question: Che tipo di chiave viene utilizzata per bloccare gli UTXO?
 answer: Chiave pubblica
 wrong_answers:
   - Chiave privata

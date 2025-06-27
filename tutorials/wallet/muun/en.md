@@ -10,7 +10,7 @@ Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 
 ## video tutorial
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Complete User Guide
 

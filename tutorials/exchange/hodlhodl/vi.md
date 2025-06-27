@@ -8,7 +8,7 @@ description: Hướng dẫn từng bước cho HODLHODL
 
 Hodl Hodl là một sàn giao dịch Bitcoin phi tập trung ưu tiên quyền kiểm soát và an ninh cho người dùng. Khác với các sàn giao dịch truyền thống, nó hoạt động theo mô hình ngang hàng, cho phép giao dịch trực tiếp giữa các người dùng. Với hệ thống escrow đa chữ ký, Hodl Hodl đảm bảo an toàn cho quỹ trong quá trình giao dịch. Nền tảng cũng hỗ trợ nhiều phương thức thanh toán và cung cấp các lựa chọn giao dịch như hợp đồng chênh lệch (CFDs).
 
-![ HodlHodl - Mua và Bán Bitcoin KHÔNG CẦN KYC ](https://youtu.be/FmyYxrZM3Ms)
+![video](https://youtu.be/epLslPQC-EA)
 
 https://hodlhodl.com/pages/faq_help
 

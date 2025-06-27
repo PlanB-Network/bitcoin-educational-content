@@ -1096,7 +1096,9 @@ Aujourd'hui, le bitcoin continue de survivre et de se développer en s'intégran
 
 Le bitcoin peut être considéré comme l'outil permettant de créer une économie parallèle aux monnaies fiduciaires, car il est possible de vendre des biens ou des services et d'être payé en bitcoins. Les transactions peuvent être effectuées directement en bitcoins, sans passer par une plateforme d'échange, mais simplement en allant d'un portefeuille bitcoin à un autre.
 
-L'économie du bitcoin existe et se développe dans certaines régions du monde, comme au Salvador, où le bitcoin a cours légal depuis 2021. Tout autour de nous, il y a des particuliers, des entreprises et des organisations qui acceptent déjà le bitcoin comme moyen de paiement pour leurs produits ou services.
+L'économie du Bitcoin existe et se développe dans certaines régions du monde, comme au Salvador, où le Bitcoin est devenu une monnaie légale en 2021. Malheureusement, en janvier 2025, l'assemblée a adopté une nouvelle loi qui a retiré au Bitcoin son titre de "monnaie légale", prétendument après avoir subi des pressions du Fonds monétaire international. Selon la nouvelle loi, les gens ne sont plus obligés d'accepter le Bitcoin dans leurs entreprises et ne peuvent plus payer leurs impôts avec. L'acceptation reste volontaire.
+
+Néanmoins, au Salvador et dans d'autres parties du monde, de plus en plus d'individus, d'entreprises et d'organisations acceptent le Bitcoin comme moyen de paiement pour leurs produits ou services.
 
 ![image](assets/en/72.webp)
 

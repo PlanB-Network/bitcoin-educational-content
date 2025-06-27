@@ -5,5 +5,5 @@ wrong_answers:
   - BitcoinExchange
   - MyBitcoin
 explanation: |
-  This was a peer-to-peer marketplace using PayPal that was launched on March 16, 2010, by an individual known as dwdollar and was the main platform before Mt. Gox.
-reviewed: false
+  This peer-to-peer marketplace using PayPal was launched on March 16, 2010, by an individual known as dwdollar and was the main platform before Mt. Gox.
+reviewed: true

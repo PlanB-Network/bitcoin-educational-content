@@ -1,17 +1,14 @@
 ---
-name: 歐洲公牛 Bitcoin
+name: Bull Bitcoin
 description: 在 Bull Bitcoin 上買賣比特幣
 ---
 ![cover](assets/cover.webp)
 
-
 Bull Bitcoin 是一個僅限於 Bitcoin 的 Exchange 平台，由 Bitcoin 生態系統的代表人物 Francis Pouliot 於 2013 年在加拿大創立。Bull Bitcoin 的理念是為使用者提供金融主權和解放的工具。Exchange 平台是非監護性的，這意味著您始終對您的比特幣擁有主權。
 
+最初僅在加拿大提供的平台，現在已在歐洲和許多其他國家推出，並配備全新優化的介面。這個新版 Bull Bitcoin 讓您可以利用 Lightning 和即時 SEPA 轉帳，輕鬆快捷地買賣比特幣。它還整合了以比特幣支付帳單的功能。未來，該平台還將進一步整合 DCA 選項、自動購買和限價單。
 
-該平台最初僅在加拿大推出，現在已在歐洲推出全新的優化版 Interface。這個新版本的 Bull Bitcoin 目前只在歐洲提供。由於使用 Lightning 和即時 SEPA 轉帳，您可以快速輕鬆地買賣比特幣。最終，該平台還將包括 DCA、自動購買、限價訂單和比特幣帳單支付等選項。
-
-
-Bull Bitcoin 以提供無隱藏收費的透明服務為宗旨。與歐洲所有其他 Exchange 平台一樣，使用 Bull Bitcoin 需要 KYC（客戶識別程序）。
+Bull Bitcoin 致力於提供透明且無隱藏費用的服務。請注意，與大多數交易所一樣，使用 Bull Bitcoin 需要完成 KYC（了解您的客戶）程序。
 
 
 ## 在公牛 Bitcoin 上註冊

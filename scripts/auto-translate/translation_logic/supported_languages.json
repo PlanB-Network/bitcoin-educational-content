@@ -91,6 +91,12 @@
       "code_translator": "PT-PT"
     },
     {
+      "code": "rn",
+      "name": "Rundi",
+      "translator": "google",
+      "code_translator": "RN"
+    },
+    {
       "code": "ro",
       "name": "Romanian",
       "translator": "deepl",

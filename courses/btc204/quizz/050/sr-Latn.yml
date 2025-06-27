@@ -1,9 +1,9 @@
-question: Koja je glavna prednost Silent Payments u poređenju sa BIP47?
+question: Koja je glavna prednost tihih plaćanja (eng. Silent Payments) u poređenju sa BIP47?
 answer: Oni ne zahtevaju transakciju obaveštenja.
 wrong_answers:
   - Oni nude potpunu privatnost transakcija.
   - Oni omogućavaju povraćaj novca od primaoca.
   - Oni osiguravaju kompatibilnost sa svim novčanicima.
 explanation: |
-  Tihi Plaćanja funkcionišu bez obaveštenja o transakciji, što štedi na troškovima transakcije i izbegava preopterećenje Blockchain.
+  Tiha plaćanja funkcionišu bez transakcije obaveštenja, što štedi na troškovima transakcije i izbegava preopterećenje Blockchain-a.
 reviewed: false

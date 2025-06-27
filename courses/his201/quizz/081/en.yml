@@ -5,5 +5,5 @@ wrong_answers:
   - Christian Decker
   - Bruce Wagner
 explanation: |
-  The video, simply titled What is Bitcoin?, was produced through crowdfunding by the community.
-reviewed: false
+  The video, titled "What is Bitcoin?", was produced through crowdfunding by the community.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni mchezaji gani mkuu anayebuni ASICs kwa Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain ni mmoja wa watengenezaji wakuu wa vifaa maalum vya Bitcoin Mining.
+reviewed: false

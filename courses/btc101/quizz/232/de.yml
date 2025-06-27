@@ -1,9 +1,9 @@
 question: Wie groß ist die Blockgröße im Bitcoin-Protokoll?
-answer: 1MB.
+answer: 4MB.
 wrong_answers:
-  - 0.5MB.
+  - 1MB.
   - 2MB.
   - 3MB.
 explanation: >-
-  Die Blockgröße im Bitcoin-Protokoll beträgt 1MB.
+  Die Blockgröße im Bitcoin-Protokoll beträgt 4MB.
 reviewed: true

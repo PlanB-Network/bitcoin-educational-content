@@ -6,4 +6,4 @@ wrong_answers:
   - Optimize connection speed.
 explanation: |
   The essential functions include storing, generating, and organizing passwords.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, ni minyororo gani ya kando ya Bitcoin?
+answer: Liquid na Mizizi
+wrong_answers:
+  - Polygon na Arbitrum
+  - Jupiter na Fantom
+  - Bitcoin Cash na Bitcoin Satoshi Maono
+explanation: |
+  Liquid na RSK ni minyororo ya kando ambayo ina kigingi cha njia 2 na Bitcoin. Chaguzi zingine sio minyororo ya kando, au hazina 2WP na Bitcoin Blockchain.
+reviewed: false

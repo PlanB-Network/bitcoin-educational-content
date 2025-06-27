@@ -39,7 +39,7 @@ To ensure that each participant is aware of the transactions, they must be publi
 
 The transparent and distributed nature of Bitcoin's blockchain means that any network user can follow and analyze the transactions of all other participants. Consequently, anonymity at the transaction level is impossible. However, anonymity is preserved at the level of individual identification. Unlike the traditional banking system where each account is linked to a personal identity, on Bitcoin, funds are associated with pairs of cryptographic keys, thus offering users a form of pseudonymity behind cryptographic identifiers.
 
-Therefore, confidentiality on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thus offering a certain layer of confidentiality to Bitcoin users at the transaction level.
+Therefore, privacy on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thus offering a certain layer of privacy to Bitcoin users at the transaction level.
 
 ## How Does Whirlpool Work?
 
@@ -109,7 +109,7 @@ Before proceeding with coinjoins, the user therefore has a choice between 2 stra
 - Opt for a smaller pool to minimize service fees, knowing that they will receive several small UTXOs in return;
 - Or prefer a larger pool, agreeing to pay higher fees to end up with a reduced number of larger-value UTXOs.
 
-It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired confidentiality, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it might be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs as output. The user must weigh these trade-offs to choose the pool they prefer.
+It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired privacy, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it might be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs as output. The user must weigh these trade-offs to choose the pool they prefer.
 
 In addition to service fees, the mining fees inherent to any Bitcoin transaction must also be considered. As a Whirlpool user, you will be required to pay the mining fees for the preparation transaction (`Tx0`) as well as those for the first coinjoin. All subsequent remixes will be free, thanks to Whirlpool's model which relies on the payment of new entrants.
 
@@ -333,11 +333,11 @@ Next, the performance of several coinjoin cycles is evaluated based on the size 
 ## How to manage postmix?
 After performing coinjoin cycles, the best strategy is to keep your UTXOs in the **postmix** account, waiting for their future use. It is even advisable to let them remix indefinitely until you need to spend them.
 
-Some users might consider transferring their mixed bitcoins to a wallet secured by a hardware wallet. This is possible, but it is important to follow the recommendations of Samourai Wallet meticulously so as not to compromise the acquired confidentiality.
+Some users might consider transferring their mixed bitcoins to a wallet secured by a hardware wallet. This is possible, but it is important to follow the recommendations of Samourai Wallet meticulously so as not to compromise the acquired privacy.
 
 Merging UTXOs is the most frequently made mistake. It is necessary to avoid combining mixed UTXOs with unmixed UTXOs in the same transaction, in order to avoid the CIOH (*Common-Input-Ownership-Heuristic*). This requires careful management of your UTXOs within your wallet, especially in terms of labeling. Beyond coinjoin, merging UTXOs is generally a bad practice that often leads to a loss of privacy when not managed properly.
 
-It is also important to be cautious about consolidating mixed UTXOs with each other. Moderate consolidations are conceivable if your mixed UTXOs have significant anonsets, but this will inevitably decrease the confidentiality of your coins. Ensure that consolidations are neither too large nor carried out after an insufficient number of remixes, as this risks establishing deducible links between your UTXOs before and after the coinjoin cycles. In case of doubt about these manipulations, the best practice is not to consolidate the postmix UTXOs, and to transfer them one by one to your hardware wallet, generating a new blank address each time. Again, remember to properly label each received UTXO.
+It is also important to be cautious about consolidating mixed UTXOs with each other. Moderate consolidations are conceivable if your mixed UTXOs have significant anonsets, but this will inevitably decrease the privacy of your coins. Ensure that consolidations are neither too large nor carried out after an insufficient number of remixes, as this risks establishing deducible links between your UTXOs before and after the coinjoin cycles. In case of doubt about these manipulations, the best practice is not to consolidate the postmix UTXOs, and to transfer them one by one to your hardware wallet, generating a new blank address each time. Again, remember to properly label each received UTXO.
 It is also advised against transferring your postmix UTXOs to a wallet using uncommon scripts. For example, if you enter Whirlpool from a multisig wallet using `P2WSH` scripts, there's little chance you'll be mixed with other users who have the same type of wallet originally. If you withdraw your postmix to this same multisig wallet, the privacy level of your mixed bitcoins will be greatly diminished. Beyond scripts, there are many other wallet fingerprints that can trick you.
 As with any Bitcoin transaction, it's also important not to reuse receiving addresses. Each new transaction should be received on a new, blank address.
 

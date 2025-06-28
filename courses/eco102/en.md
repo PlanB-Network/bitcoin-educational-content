@@ -55,27 +55,27 @@ Ready to discover how Frédéric Bastiat’s ideas still resonate today? Join us
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-This course is an introduction to Frédéric Bastiat, an unrecognized genius and a beacon for our times. In this brief introduction, I will try to help you discover who Frédéric Bastiat was and what are the major themes we will cover during this series.
+This course introduces **Frédéric Bastiat**, a remarkable yet underappreciated economist whose ideas still shine today. We’ll explore who he was and why his work remains relevant.
+
 ![image](assets/en/001.webp)
 
-Indeed, Frédéric Bastiat, who was born in 1801 and lived during the first half of the 19th century, remained for some time an important author. And then, gradually, he disappeared and today, no one hears about him, no one knows who he is. Yet, paradoxically, this author has been translated into many languages, including Italian, Russian, Spanish, and English.
+Born in 1801, Bastiat rose to prominence during the first half of the 19th century. For a time, his writings were widely read—but gradually he faded from public view. Today, few people recognize his name, even though his works have been translated into Italian, Russian, Spanish, English, and more.
 
 ![image](assets/en/002.webp)
 
-It turns out that after World War II, one of his books was published in the United States. It became very famous, to the point that Ronald Reagan himself said it was his favorite book, and this little book is called "The Law." Bastiat is thus one of the two most famous French authors in the United States, the other being well known in France too, Alexis de Tocqueville.
-
+After World War II, one of Bastiat’s slim volumes was published in the United States and quickly gained fame. So influential was it that **Ronald Reagan** declared it his favorite book. That little classic is called *The Law*. Thanks to its popularity, Bastiat stands alongside Alexis de Tocqueville as one of the two French writers best known in America.
 ![image](assets/en/003.webp)
-_(Market place in Mugron in the Landes, the town of Bastiat)_
+*Market place in Mugron in the Landes, the town of Bastiat*
 
-So, an unrecognized genius but also a light for our times. Indeed, Frédéric Bastiat, who was born in Bayonne, first lived part of his life in the Landes where he managed an agricultural estate he had inherited and he led a life ultimately as an entrepreneur. And then, very early on, he became interested in economics, he traveled to England, he met Richard Cobden who was a leader of the free trade movement. Bastiat was fascinated by this movement, he was convinced that free trade was a solution for France and he decided thereafter to try to spread his ideas in France. He wrote articles that were very successful and he moved to Paris to run a newspaper called at the time the Journal des économistes.
+Although often overlooked, Bastiat was truly a beacon for his age—and ours. Born in Bayonne, he spent his early years managing an inherited agricultural estate in the Landes, living the life of an entrepreneur. His curiosity soon turned to economics. A trip to England introduced him to **Richard Cobden**, a leading proponent of free trade. Inspired, Bastiat became convinced that opening markets would benefit France, and he devoted himself to spreading these ideas at home. His insightful articles earned him enough acclaim to move to Paris, where he edited the *Journal des économistes*.
 
 ![image](assets/en/004.webp)
 
-He was also a philosopher and a thinker about society, social order, justice, law, a thinker of rights. And in that regard, we can say that Bastiat is a light for our times. And I would like to conclude with that. He is someone who tried to understand the workings of the political market. Of course, he is also a defender of the market economy, for whom ultimately the market economy is the best way to create wealth. But besides that, and this is where he is unrecognized, he understood the mechanisms of the political market.
+But Bastiat was more than an economist: he was a philosopher of society, justice, and law—a champion of individual rights. He examined the “political market” with the same rigor he applied to economic markets, keenly analyzing how laws and policies are shaped by competing interests.
 
 ![image](assets/en/005.webp)
 
-When he was elected as a deputy, it was during the Second Republic, and from that point forward, it was the people who made the laws. At that time, Bastiat witnessed a sort of inflation of laws in all directions, including the creation of public services, social rights, taxes, etc.
+Elected deputy during France’s Second Republic, Bastiat witnessed a flood of new legislation covering everything from public services to social rights and taxes. He critiqued this “law inflation,” warning that unchecked political intervention often undermines both individual freedom and economic prosperity.
 
 ![image](assets/en/006.webp)
 
@@ -91,55 +91,56 @@ When he was elected as a deputy, it was during the Second Republic, and from tha
 
 ---
 
-And he realized that fundamentally, nothing had really changed. People disposed of others' property through voting and the law, what he called legal plunder. This phenomenon of legal plunder was at the center of his work, especially in this short text he wrote towards the end of his life, "The Law," where he contrasts legal plunder with property, the right to property. He shows that, fundamentally, the real solution to the social problem is freedom, that is, property, the control over oneself and the fruits of one's labor.
+He realized that, fundamentally, nothing had really changed: through voting and legislation, people continued to dispossess others of their property—a practice he called **legal plunder**. This idea stood at the core of his work, most notably in his final major text, *The Law*, where he contrasts legal plunder with the right to property. He argues that the true solution to society’s problems is freedom—specifically, the protection of private property and the right to the fruits of one’s labor.
 
-In this course, we will travel together through the thought of Frédéric Bastiat, starting from the influences of the authors who shaped him very early on in his youth, then we will look into his economic sophisms, and finally, we will conclude with this great text, "The Law," which will introduce us to the analysis of the political market, to the analysis of society.
+In this course, we’ll journey through Frédéric Bastiat’s thought: first examining the early influences that shaped him, then exploring his *Economic Sophisms*, and finally studying *The Law*, which introduces his analysis of the political market and broader society.
 
 ## The Life and Historical Context
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-In 1844, Frédéric Bastiat made a business trip to Spain. After staying in Madrid, Seville, Cadiz, and Lisbon, he decided to embark for Southampton, and to visit England. In London, he had the opportunity to attend meetings of the Anti-Corn Law League, whose work he had followed from a distance. He met the main leaders of this Association, including Richard Cobden, who would become his friend.
+In 1844, Frédéric Bastiat set out on a business trip to Spain. After stays in Madrid, Seville, Cádiz, and Lisbon, he embarked from Southampton to visit England. In London, he attended meetings of the Anti-Corn Law League—an organization he had followed from afar—and met its leaders, including Richard Cobden, who would become a close friend.
 
 ![image](assets/en/007.webp)
 
-It was there that the course of his life would radically change. He himself recounts that his vocation as an economist was decided at that moment. Upon returning to France, he had only one idea in mind: to make France aware of the liberal movement stirring England.
-Frédéric Bastiat was born in Bayonne on June 30, 1801. Orphaned at the age of 9, he pursued his studies at the Catholic college of Sorèze. He was gifted in languages, learning English, Spanish, and even Basque. However, he was not motivated by his studies and decided against taking the Baccalaureate, choosing instead to work in his uncle's import-export business in Bayonne.
+It was in England that his life took a decisive turn: Bastiat later recalled that his vocation as an economist was born in those meetings. Returning to France, he had one goal in mind—to make the French aware of the liberal movement flourishing in England.
 
-In 1825, he inherited an agricultural estate from his grandfather, which he managed as a "gentleman-farmer," in his own words. It was then that he encountered firsthand the problems caused by the lack of a clear definition of property rights. He decided to become a justice of the peace in his town of Mugron, in the heart of the Landes, a commercial and fluvial crossroads between the ports of Bordeaux and Bayonne. Later, he was elected as a member of the General Council of the Landes.
+Frédéric Bastiat was born in Bayonne on June 30, 1801. Orphaned at nine, he studied at the Catholic College of Sorèze, where he mastered English, Spanish, and even Basque. Lacking interest in formal exams, he forewent the Baccalauréat and instead joined his uncle’s import–export business in Bayonne.
 
+In 1825, he inherited an agricultural estate from his grandfather, which he managed as a “gentleman-farmer.” There he encountered firsthand the problems created by unclear property rights. Determined to help, he became justice of the peace in Mugron (in the Landes), a key commercial and riverine crossroads between Bordeaux and Bayonne. He was later elected to the General Council of the Landes.
 ![image](assets/en/008.webp)
 
-He quickly developed a passion for political economy and studied the works of Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer, and Charles Comte. He read English newspapers, and it was there that he learned about the existence of an English league for free trade.
+His passion for political economy deepened as he read Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer, and Charles Comte. English newspapers introduced him to the Free-Trade League—a discovery that would shape his career.
 
 ![image](assets/en/009.webp)
-_(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
+*(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)*
 
-Upon his return from England, he wrote an article titled: "On the Influence of English and French Tariffs on the Future of the Two Peoples," which he sent to the Journal des Économistes in Paris. The article appeared in the October 1844 issue, and it was a complete success. Everyone admired his powerful and incisive argumentation, his sober and elegant style.
+Upon returning to France, Bastiat published “On the Influence of English and French Tariffs on the Future of the Two Peoples” in the *Journal des Économistes* (October 1844). It was a sensation: readers praised his powerful logic, incisive arguments, and elegant style.
 
 ![image](assets/en/010.webp)
 
-The Journal des Économistes then asked him for more articles, and several members of the Political Economy Society, notably Horace Say, the son of Jean-Baptiste Say, and Michel Chevalier, a renowned professor, congratulated him, encouraging him to continue with them in the work of spreading economic truths. This marked the beginning of a new life in Paris.
+The *Journal des Économistes* commissioned further articles, and leading figures like Horace Say (son of Jean-Baptiste Say) and Professor Michel Chevalier congratulated him, urging him to continue spreading economic truths. This acclaim prompted his move to Paris.
 
-He first published the initial series of Economic Sophisms, in which he attacked protectionists with boldness and irony. In Paris, he even started a course on political economy in a private room, eagerly attended by the student elite.
+There, he launched his *Economic Sophisms*, attacking protectionism with bold irony, and even taught political economy in a private salon attended by elite students.
 
 ![image](assets/en/011.webp)
 
-The following year, he founded the "Association for Free Trade" in France and threw himself into the fight against protectionism in France. He raised funds, created a weekly review, and gave lectures throughout the country.
-The first meeting took place in Bordeaux on February 23, 1846, during which the Bordeaux Association for Free Trade was established. Soon, the movement spread throughout France. In Paris, an initial core was formed among the members of the Society of Economists, to which deputies, industrialists, and traders joined. Significant groups also formed in Marseille, Lyon, and Le Havre.
+In 1845 he founded the French **Association for Free Trade**, fundraising, publishing a weekly review, and lecturing nationwide. The first meeting took place in Bordeaux on February 23, 1846, and soon chapters formed across France—in Marseille, Lyon, Le Havre, and Paris among deputies, industrialists, and merchants.
+
 ![image](assets/en/005.webp)
 
-The February Revolution of 1848 overthrew the monarchy of Louis-Philippe, known as the July Monarchy (1830-1848), and saw the advent of the Second Republic. Bastiat was then elected as a member of the legislative assembly as a deputy for Landes. He sat in the center-left, with Alexis de Tocqueville, between the monarchists and the socialists. There, he endeavored to defend individual liberties such as civil liberties and opposed all restrictive policies, whether they came from the right or the left. He was elected vice-president of the Finance Committee and constantly endeavored to remind his fellow deputies of this simple truth, often forgotten in parliaments:
+The February Revolution of 1848 toppled Louis-Philippe’s July Monarchy and ushered in the Second Republic. Bastiat was elected deputy for the Landes, sitting center-left alongside Alexis de Tocqueville. He defended civil liberties and opposed restrictive policies from any quarter, serving as vice-president of the Finance Committee. He reminded colleagues of this vital truth:
 
-> One cannot give to some, by law, without being obliged to take from others by another law.  
+> One cannot give to some, by law, without being obliged to take from others by another law.
 
-Almost all of his books and essays were written during the last six years of his life, from 1844 to 1850. In 1850, Bastiat wrote two of his most famous works: The Law and a series of pamphlets titled What is Seen and What is Not Seen. The Law has been translated into many foreign languages, including English, German, Spanish, Russian, and Italian.
+Nearly all of his major works were written in the last six years of his life (1844–1850). In 1850 he produced two classics: *The Law* and the pamphlet series *What Is Seen and What Is Not Seen*. *The Law* has since been translated into English, German, Spanish, Russian, Italian, and more.
 
 ![image](assets/en/012.webp)
 
-He died in Rome in 1850, from tuberculosis. He is buried at the Saint Louis des Français Church in Rome.
+He died of tuberculosis in Rome in 1850 and is buried in the Church of Saint Louis of the French.`
 
 ![image](assets/en/013.webp)
+
 
 # Influences
 
@@ -149,57 +150,53 @@ He died in Rome in 1850, from tuberculosis. He is buried at the Saint Louis des 
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-In economics, Bastiat always acknowledged his debt to Adam Smith and Jean-Baptiste Say. At 26, he wrote to one of his friends, "I have never read on these subjects but these four works, Smith, Say, Destutt, and the Censor."
+In economics, Bastiat always acknowledged his debt to Adam Smith and Jean-Baptiste Say. At twenty-six, he wrote to a friend:
+“I have never read on these subjects but these four works—Smith, Say, Destutt, and the *Censeur*.”
 
 ![image](assets/en/014.webp)
-_(Jean-Baptiste Say and Adam Smith)_
+*(Jean-Baptiste Say and Adam Smith)*
 
-Political economy, as conceived by Adam Smith and J.-B. Say, is encapsulated in a single word: freedom. Freedom of trade, individual freedom, free trade, and free initiative. Free trade was first defended by the physiocrats, such as François Quesnay and Vincent de Gournay, and then by Adam Smith who synthesized their ideas with his own observations. Finally, at the end of the 18th century, Jean-Baptiste Say clarified and corrected some points of his master Adam Smith's doctrine in his masterful Treatise on Political Economy.
+Political economy, as conceived by Adam Smith and J.-B. Say, revolves around one core idea: **freedom**—freedom of trade, individual freedom, free initiative. The physiocrats (François Quesnay, Vincent de Gournay) first defended free trade; Adam Smith synthesized their insights with his own observations; and at the end of the 18th century, Jean-Baptiste Say refined Smith’s doctrine in his *Treatise on Political Economy*.
 
 ![image](assets/en/015.webp)
-_(Say, Destutt de Tracy, Quesnay, de Gournay)_
+*(Say, Destutt de Tracy, Quesnay, de Gournay)*
 
-Adam Smith was interested in prosperity, not as an end in itself but as a means for the moral elevation of individuals. For him, the wealth of nations consists of the wealth of individuals. If you want a prosperous nation, says Adam Smith, let individuals act freely. And the market works because it allows everyone to express their preferences and pursue their interest.
+Adam Smith saw prosperity not as an end in itself but as a means to moral improvement. “The wealth of nations consists of the wealth of individuals,” he wrote. A nation thrives when individuals act freely—expressing preferences and pursuing interests—because the market harnesses these pursuits to coordinate society.
 
 ![image](assets/en/016.webp)
 
-The great novelty of modern economists at the dawn of the 18th century is that they are interested in each individual with the will to restore their capacity for action while thinking about how to contain passions and conflicts. Man naturally wants to improve his lot and that of his loved ones through the exchange of goods and services.
+The great innovation of modern political economists was to focus on the individual, restoring each person’s capacity for action while acknowledging human passions and conflicts. People naturally seek to improve their lot—and that of their loved ones—through exchange.
 
-What Adam Smith shows is that one can only serve one's own interest by serving the interest of others:
+Smith demonstrated that one serves one’s own interest only by serving others:
 
-> Give me what I need, and you will have from me what you need yourselves. (...) It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.  
+> “It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.”
 
 ![image](assets/en/017.webp)
 
 ---
 
->“The natural effort of every individual to better his own condition... is so powerful, that it is alone, and without any assistance, not only capable of carrying on the society to wealth and prosperity, but of surmounting a hundred impertinent obstructions with which the folly of human laws too often encumbers its operations.”  
->_The Wealth of Nations_  
->_Book IV, Chapter V_
+> “The natural effort of every individual to better his own condition... is so powerful, that it is alone, and without any assistance, not only capable of carrying on society to wealth and prosperity, but of surmounting a hundred impertinent obstructions with which the folly of human laws too often encumbers its operations.”
+> *The Wealth of Nations*, Book IV, Chapter V
 
 ---
 
-Exchange is a positive-sum game. What one gains, the other also gains. It thus differs from political redistribution where there is always a winner and a loser. If we consider the English school, for Smith, for Ricardo, and for Locke before them, value is linked to labor. For Marx, it is the same.
+Exchange is a positive-sum game: both parties gain, unlike political redistribution, which always produces winners and losers. The English school—Smith, Ricardo, Locke (and later Marx)—linked value to labor. Bastiat, following Say, argued that **utility** is the true foundation of value. Labor alone does not create value, nor does scarcity—only utility does. No one pays for something they do not find useful.
 
-![image](assets/en/018.webp)
-_(Marx, Ricardo, Smith, Locke)_
+Bastiat refined Say’s insight further: value lies not in the intrinsic utility of things but in their **relative** utility when exchanged. “Value is the ratio of two exchanged services,” he wrote. Thus value is subjective, revealed only through individuals’ behavior in a free market. The market, in turn, regulates society by aligning these preferences.
 
-On the other hand, Bastiat will admit with Jean-Baptiste Say that utility is the true foundation of value. Labor does not create value. Scarcity does not either. Everything stems from utility. Indeed, no one agrees to pay for a service unless they deem it useful. One only ever produces utility.
-But Bastiat also nuanced Say on this point. It's not about the utility that is in things, it's about the relative utility of services. "Value is the ratio of two exchanged services," according to his own words. Therefore, value is subjective, and the only way to grasp individuals' preferences is to observe their behavior in a free market. The market reveals individual preferences and is the great regulator of society through exchange.
-
-The economy obeys a number of simple laws derived from human behavior. One of them, called "Say's Law," is as follows: "Products and services are exchanged for products and services." His idea is that nations and individuals benefit from an increase in production level because it offers increased opportunities for mutually beneficial exchanges.
+One fundamental principle—“Say’s Law”—states: “Products and services are exchanged for products and services.” Nations and individuals benefit from higher production because it creates more opportunities for mutually advantageous exchanges.
 
 ![image](assets/en/019.webp)
 
-Indeed, products are only purchased in anticipation of the services the buyer expects: I buy a disk for the music I will listen to, I buy a movie ticket for the film I will see. And in an exchange, each party decides because it judges that it can derive more services from what it acquires than what it gives up. In this context, money is just an intermediary commodity, it compensates for a service rendered and opens up other services.
+Indeed, purchases anticipate the services people expect—a record for listening, a ticket for a film. In every exchange, each party acts because what they gain outweighs what they give up. Money merely facilitates these exchanges as an intermediary commodity.
 
-For Bastiat, the economy of exchanges, that is, of mutual services freely offered and accepted, is what underpins peace and prosperity, allowing for the harmony of interests.
+For Bastiat, this economy of freely offered and accepted services underpins peace and prosperity, harmonizing interests across society.
 
-But from Jean-Baptiste Say, Frédéric Bastiat also inherits a key concept, that of plunder. For, he says, echoing the words of Say:
+Yet Bastiat also inherited from Say the concept of **plunder**. 
 
-> There are only two ways to acquire the things necessary for the preservation, embellishment, and improvement of life: production and plunder.  
+> “There are only two ways to acquire the things necessary for life: production and plunder”
 
-Producers resort to persuasion, negotiation, and contract, while plunderers resort to force and deceit. It is therefore up to the law to suppress plunder and to secure labor as well as property. As Adam Smith had already stated, ensuring the safety of citizens is the main mission of public authority, and it is this that legitimizes the levying of taxes.
+Producers rely on persuasion, negotiation, and contract; plunderers depend on force and deceit. The law’s role is to suppress plunder and protect labor and property. As Adam Smith had asserted, safeguarding citizens’ security is government’s primary duty—and the sole justification for taxation.
 
 ![image](assets/en/020.webp)
 
@@ -207,48 +204,47 @@ Producers resort to persuasion, negotiation, and contract, while plunderers reso
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-It is little known, but Destutt de Tracy had a decisive influence on the future President of the United States, Thomas Jefferson, while he was ambassador to Paris in the 1780s.
+It is little known, but Destutt de Tracy decisively influenced the future U.S. President Thomas Jefferson during his ambassadorship in Paris in the 1780s.
 
-> For every man, his first country is his homeland, and the second is France" & "Tyranny is when the people fear their government; liberty is when the government fears the people.  
->  
-> Thomas Jefferson  
+> “For every man, his first country is his homeland, and the second is France.”
+> “Tyranny is when the people fear their government; liberty is when the government fears the people.”
+> —Thomas Jefferson
 
 ![image](assets/en/021.webp)
 
-Indeed, his Treatise on Political Economy condemned protectionism and Napoleonic expansion. It was therefore banned from publication in France by Bonaparte. However, it was translated into English and published in the United States by Jefferson himself. He made this text the first political economy textbook of the University of Virginia, which he had just founded in Charlottesville. The Treatise was not published in France until 1819!
+His *Treatise on Political Economy* condemned protectionism and Napoleonic expansion—and was banned in France by Bonaparte. Jefferson translated and published it in the United States, making it the first political-economy textbook at the University of Virginia. It did not appear in France until 1819!
 
 ![image](assets/en/022.webp)
 
-Destutt de Tracy, a philosopher and economist, was the leader of the so-called "Ideologues" school, which included people like Cabanis, Condorcet, Constant, Daunou, Say, and Germaine de Staël. They are the heirs of the Physiocrats and the direct disciples of Turgot.
+Destutt de Tracy, philosopher and economist, led the “Idéologues” school alongside Cabanis, Condorcet, Constant, Daunou, Say, and Germaine de Staël. They were direct heirs of the Physiocrats and disciples of Turgot.
 
 ![image](assets/en/023.webp)
 
 ![image](assets/en/024.webp)
 
-By ideology, Tracy simply meant the science that deals with the study of ideas, their origin, their laws, their relationship with language, that is, in more contemporary terms, epistemology. The term "ideology" did not have the pejorative connotation that Marx would later give it to discredit the economists of "laissez-faire". The journal of the ideologue movement was called La Décade philosophique et littéraire.
+By “ideology,” Tracy meant the science of ideas—their origins, laws, and relationship with language (early epistemology). The term carried no pejorative sense until Marx later used it to discredit laissez-faire economists. Their journal, *La Décade philosophique et littéraire*, dominated the revolutionary era under Say’s direction.
 
 ![image](assets/en/025.webp)
 
-It dominated the revolutionary period and was directed by Jean-Baptiste Say. Destutt de Tracy was elected a member of the French Academy in 1808 and of the Academy of Moral and Political Sciences in 1832. His daughter married Georges Washington de La Fayette (the son of the first American president) in 1802, which shows the close proximity that still existed between France and young America at that time.
+Tracy was elected to the French Academy (1808) and the Academy of Moral and Political Sciences (1832). His daughter’s 1802 marriage to Georges Washington de La Fayette (son of Lafayette) underscores strong Franco-American ties.
 
 ![image](assets/en/026.webp)
-The purpose of his Treatise on Political Economy is to "examine the best way to employ all our physical and intellectual faculties to satisfy our various needs." His idea is that trade is the source of all human good; it is the civilizing, rationalizing, and pacifying force of the world. The great maxim of political economy is formulated by him as follows: "trade is the whole of society, just as labor is the whole of wealth." Indeed, he sees society as "a continuous series of exchanges in which both contractors always gain." Therefore, the market is the opposite of predation. It enriches some without impoverishing others. As it will be said later, it is not a "zero-sum game," but a positive-sum game.
 
-Our author does not go as far as to define political economy as the science of exchanges. But this same reasoning will be taken up and carried through by Bastiat. Selling is an exchange of objects, renting is an exchange of services, and lending is merely a deferred exchange. Political economy thus becomes for Bastiat "the theory of exchange."
+His *Treatise* aimed to “examine the best way to employ all our physical and intellectual faculties to satisfy our various needs.” He argued that trade is the civilizing, rationalizing, and pacifying force of humanity: “Trade is the whole of society, just as labor is the whole of wealth.” Society is “a continuous series of exchanges in which both contractors always gain,” making markets positive-sum rather than predatory.
+
+Although Tracy stopped short of defining political economy as the science of exchange, Bastiat would later do so: selling is exchanging goods, renting is exchanging services, lending is deferred exchange—thus “the theory of exchange.”
 
 ![image](assets/en/027.webp)
 
-According to Destutt de Tracy, property necessarily stems from our nature, from our faculty of desire. If man wanted nothing, he would have neither rights nor duties. To meet his needs and fulfill his duties, man must employ means that he acquires through his labor. And the form of social organization that conforms to this end is private property. That is why the sole object of government is to protect property and to allow peaceful exchange.
+Tracy held that property springs from our nature and desires: without wants, there are no rights or duties. To meet needs, we employ means acquired through labor, and private property secures this process. Therefore, government’s sole purpose is to protect property and allow peaceful exchange.
 
 ![image](assets/en/028.webp)
 
-For him, the best taxes are the most moderate ones, and he wishes that the state's expenditures be as restricted as possible. He condemns the plundering of society's wealth by the government in the form of public debt, taxes, banking monopolies, and expenditures. Once again, the law should only serve to protect freedom; it should never plunder.
+He advocated the most moderate taxes and minimal state spending, condemning government plunder via debt, taxes, monopolies, and waste. The law should protect freedom, never plunder. He concluded with a warning still pertinent today:
 
-Finally, he adds this recommendation, which has not lost its relevance:
+> “Let the government not incur debts that commit future generations and always lead states to their ruin.”
 
-> Let the government not make and not be able to make debts that commit future generations and always lead states to their ruin.  
-
-In conclusion, the Ideologues had a profound intuition, namely that production and exchanges are the real solution to political problems and the true alternative to wars. Wars are always predatory, whether they are internal, like during the Revolution, or external, like those waged by the ancient kings and by Napoleon.
+In sum, the Idéologues intuited that production and exchange solve political problems and prevent war—whether internal, as during the Revolution, or external, under ancient kings and Napoleon.
 
 ## Charles Comte and Charles Dunoyer
 

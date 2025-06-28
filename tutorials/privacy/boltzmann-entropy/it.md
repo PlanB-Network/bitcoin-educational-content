@@ -4,11 +4,12 @@ description: Misurare il livello di entropia di una transazione Bitcoin per valu
 ---
 ![cover](assets/cover.webp)
 
-***ATTENZIONE:** A seguito dell'arresto dei fondatori di Samourai Wallet e del sequestro dei loro server il 24 aprile, il sito web KYCP.org non è attualmente accessibile. Il Gitlab che ospitava il codice del Python Boltzmann Calculator è stato anch'esso sequestrato. Attualmente non è più possibile scaricare questo strumento. Tuttavia, è possibile che il codice venga ripubblicato da altri nelle prossime settimane. Nel frattempo, puoi comunque beneficiare di questo tutorial per comprendere il funzionamento del Boltzmann Calculator. Gli indicatori forniti da questo strumento sono applicabili a qualsiasi transazione Bitcoin e possono anche essere calcolati manualmente. Fornirò tutti i calcoli necessari in questo tutorial. Se avevi già scaricato lo strumento Python sulla tua macchina o se utilizzi un RoninDojo, puoi continuare a utilizzare lo strumento e seguire questo tutorial come al solito, funziona ancora.*
+***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei relativi server, avvenuto il 24 aprile 2024, il sito web KYCP.org non è attualmente accessibile. Anche il repository GitLab che ospitava il codice del Boltzmann Calculator in Python è stato sequestrato. Al momento, non è più possibile scaricare lo strumento. Tuttavia, è probabile che il codice venga ripubblicato da altri prossimamente.
+Nel frattempo, puoi comunque trarre beneficio da questo tutorial per comprendere il funzionamento del Boltzmann Calculator. Gli indicatori forniti dallo strumento sono applicabili a qualsiasi transazione Bitcoin e possono anche essere calcolati manualmente. Tutti i passaggi necessari sono illustrati in questo tutorial. Se hai già scaricato lo strumento Python sul tuo computer, o se utilizzi un nodo RoninDojo, puoi continuare a usarlo normalmente seguendo le istruzioni contenute qui.*
 
 _Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
 
-_Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo né incoraggiamo l'uso di questi strumenti per scopi criminali. È responsabilità di ogni utente rispettare le leggi vigenti nella propria giurisdizione._
+_Questo materiale è fornito esclusivamente a scopo educativo e informativo. Non approviamo né incoraggiamo l’uso di questi strumenti per finalità illecite. È responsabilità di ciascun utente rispettare le leggi vigenti nella propria giurisdizione._
 
 ---
 

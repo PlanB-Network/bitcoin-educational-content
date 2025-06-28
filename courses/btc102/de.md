@@ -111,7 +111,7 @@ Sind Sie bereit, Ihre Reise in die Welt von Bitcoin zu beginnen? Los geht's!
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 
-Das Bitcoin-Ökosystem und sein Umfeld sind noch relativ jung und je nach Land nur locker reguliert. Diese Freiheit eröffnet zwar enorme Möglichkeiten, schafft aber auch einen fruchtbaren Boden für Betrug und verschiedene Formen der Manipulation. Deshalb ist das erste Kapitel so wichtig: Wenn Sie die typischen Fallstricke kennen, können Sie diese vermeiden. Ihre finanzielle Sicherheit hat Priorität, denn eine schlechte Erfahrung hat nicht nur eine negative Auswirkung auf Sie, sondern auf die gesamte Bitcoin-Gemeinschaft.
+Das Bitcoin-Ökosystem und sein Umfeld sind noch relativ jung und je nach Land nur locker reguliert. Diese Freiheit eröffnet zwar enorme Möglichkeiten, schafft aber auch einen fruchtbaren Boden für Betrug und verschiedene Formen der Manipulation. Deshalb ist das erste Kapitel so wichtig: Wenn Sie die typischen Fallstricke kennen, können Sie diese vermeiden. Ihre finanzielle Sicherheit hat Priorität, denn eine schlechte Erfahrung hat nicht nur eine negative Auswirkung auf Sie, sondern potenziell auf die gesamte Bitcoin-Gemeinschaft.
 
 
 
@@ -122,22 +122,22 @@ Bevor wir weitermachen, ist es wichtig, zwischen zwei grundlegend verschiedenen 
 
 
 
-- Im Mittelpunkt des Bitcoin-Ökosystems** steht die Idee eines soliden Geldes, das auf starker Dezentralisierung, langfristiger Stabilität, Privatsphäre und individueller Souveränität beruht. Seit seiner Einführung im Jahr 2009 hat Bitcoin zuverlässig und sicher funktioniert, unterstützt von einer globalen, engagierten Gemeinschaft von Entwicklern. Es ist kein vorübergehender Trend, sondern ein stabiles und gut etabliertes Protokoll, das darauf ausgelegt ist, den Wert über die Zeit zu erhalten.
+- Im Mittelpunkt des Bitcoin-Ökosystems steht die Idee eines soliden Geldes, das auf starker Dezentralisierung, langfristiger Stabilität, Privatsphäre und individueller Souveränität beruht. Seit seiner Einführung im Jahr 2009 hat Bitcoin zuverlässig und sicher funktioniert, unterstützt von einer globalen, engagierten Gemeinschaft von Entwicklern. Es ist kein vorübergehender Trend, sondern ein stabiles und gut etabliertes Protokoll, das darauf ausgelegt ist, den Wert über die Zeit zu erhalten.
 
 
 
-- Die Kryptowährungsbranche** ist dagegen viel größer und umfasst Zehntausende verschiedener Projekte, von denen jedes seinen eigenen Token hat. Dieser Bereich wird oft durch schnelle Innovation, Hype und kurzfristige Finanzspekulationen angetrieben. Viele dieser Projekte sind zentralisiert, weniger sicher und bieten keinen wirklichen Wert - trotz kühner Versprechen und auffälligem Marketing.
+- Die Kryptowährungsbranche ist dagegen viel größer und umfasst Zehntausende verschiedener Projekte, von denen jedes seinen eigenen Token hat. Dieser Bereich wird oft durch schnelle Innovation, Hype und kurzfristige Finanzspekulationen angetrieben. Viele dieser Projekte sind zentralisiert, weniger sicher und bieten keinen wirklichen Wert - trotz kühner Versprechen und auffälligem Marketing.
 
 
 ![BTC102-Bitcoin](assets/fr/001.webp)
 
 
-Wenn Sie besser verstehen möchten, woher Bitcoin kommt und was es wirklich von anderen Projekten unterscheidet, empfehle ich Ihnen, sich später diesen kostenlosen Folgekurs über die Geschichte von Bitcoin anzusehen:
+Möchten Sie besser verstehen, woher der Bitcoin kommt und was ihn wirklich von anderen Projekten unterscheidet? Dann empfehle ich Ihnen, sich später diesen kostenlosen Folgekurs über die Geschichte von Bitcoin anzusehen:
 
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Wie Sie wissen, ist die Plan ₿ Network-Plattform ausschließlich dem Bitcoin gewidmet. Wenn Sie jedoch den Unterschied zu anderen Kryptowährungen verstehen, können Sie die Fallstricke vermeiden, die mit nutzlosen und manchmal sogar betrügerischen Projekten verbunden sind.
+Wie Sie wissen, ist die Plan ₿ Network-Plattform ausschließlich dem Bitcoin gewidmet. Es ist jedoch wichtig, den Unterschied zu anderen Kryptowährungen zu verstehen. So können Sie die Fallstricke vermeiden, die mit nutzlosen und manchmal sogar betrügerischen Projekten verbunden sind.
 
 
 ![BTC102-Bitcoin](assets/fr/002.webp)
@@ -158,7 +158,7 @@ Dies sind einige der häufigsten Betrügereien in der Kryptowelt. Bei einem Schn
 ![BTC102-Bitcoin](assets/fr/003.webp)
 
 
-Diese Betrügereien sind in der Regel mit :
+Indizien für Betrügereien sind in der Regel :
 
 
 
@@ -168,32 +168,32 @@ Diese Betrügereien sind in der Regel mit :
 - Völlige Intransparenz über die wahre Quelle der versprochenen Erträge.
 
 
-Letztlich sind alle Pyramiden- und Schneeballsysteme zum Scheitern verurteilt. Ihre grundlegende Schwäche liegt in der ständigen Notwendigkeit, neue Investoren anzuwerben, um die Renditen an frühere Teilnehmer auszuzahlen. Dieser Bedarf wird mit der Zeit mathematisch unmöglich aufrechtzuerhalten sein, da die Zahl der benötigten neuen Anleger exponentiell ansteigt, wenn das System wächst. Sobald ein kritischer Punkt erreicht ist, beginnen die Teilnehmer zu zweifeln, das Vertrauen schwindet, und die gesamte Pyramide bricht zusammen. In diesem Stadium verlieren die letzten Teilnehmer, die oft am wenigsten informiert sind, ihre gesamte Investition, ohne dass sie sie zurückerhalten, während die Organisatoren oder frühen Investoren ihre Gelder in der Regel bereits abgezogen und das System verlassen haben.
+Letztlich sind alle Pyramiden- und Schneeballsysteme zum Scheitern verurteilt. Ihre grundlegende Schwäche liegt in der ständigen Notwendigkeit, neue Investoren anzuwerben. Anders ist das Auszahlen der Renditen an frühere Teilnehmer nicht möglich. Dieser Bedarf wird mit der Zeit mathematisch unmöglich aufrechtzuerhalten sein weil die Zahl der benötigten neuen Anleger exponentiell ansteigt, wenn das System wächst. Sobald ein kritischer Punkt erreicht ist, beginnen die Teilnehmer zu zweifeln, das Vertrauen schwindet, und die gesamte Pyramide bricht zusammen. In diesem Stadium verlieren die letzten Teilnehmer, die oft am wenigsten informiert sind. Sie verlieren ihre gesamte Investition, während die Organisatoren oder frühen Investoren ihre Gelder in der Regel bereits abgezogen und das System verlassen haben.
 
 
-In der Welt der Kryptowährungen können Ponzi-Schemata viele Formen annehmen, die oft darauf ausgelegt sind, ihre betrügerische Natur hinter einer technologischen oder finanziellen Maske zu verbergen. Diese Betrügereien können als neue Token-Angebote oder Initial Coin Offerings (ICOs) auftreten, bei denen eine neue Kryptowährung an die Öffentlichkeit verkauft wird. Hinter technischen Begriffen wie "Blockchain", "Smart Contracts" oder "Staking" verbergen sich bei einigen Projekten komplexe Schneeballsysteme. Andere behaupten, hohe Renditen zu bieten, indem sie fragwürdige Krypto-Assets mit Vergütungssystemen kombinieren, die sich ausschließlich auf den kontinuierlichen Zustrom neuer Investoren verlassen.
+In der Welt der Kryptowährungen können Ponzi-Schemata viele Formen annehmen. Sie sind oft darauf ausgelegt sind, ihre betrügerische Natur hinter einer technologischen oder finanziellen Maske zu verbergen. Diese Betrügereien können als neue Token-Angebote oder Initial Coin Offerings (ICOs) auftreten, bei denen eine neue Kryptowährung an die Öffentlichkeit verkauft wird. Hinter technischen Begriffen wie "Blockchain", "Smart Contracts" oder "Staking" verbergen sich bei einigen Projekten komplexe Schneeballsysteme. Andere behaupten, hohe Renditen zu bieten. So kombinieren sie z.B. fragwürdige Krypto-Assets mit Vergütungssystemen, die sich ausschließlich auf den kontinuierlichen Zustrom neuer Investoren verlassen.
 
 
-In jüngster Zeit haben sich Ponzi-Schemata auch in der Welt der dezentralen Finanzen (DeFi) ausgebreitet. Während DeFi dazu gedacht ist, Finanzdienstleistungen ohne Vermittler anzubieten, nutzen einige Projekte es, um ihren Betrügereien ein falsches Gefühl von Legitimität zu verleihen. Bestimmte DeFi-Plattformen versprechen hohe, garantierte Renditen in Exchange für Einzahlungen von Kryptowährungen in automatisierte Protokolle. Diese verlockenden Versprechen werden oft durch undurchsichtige und nicht überprüfbare Mechanismen unterstützt, wobei die Token speziell für den Betrug geschaffen werden. In Wirklichkeit haben diese Systeme kein nachhaltiges Geschäftsmodell - die Renditen werden einfach aus den Geldern neuer Nutzer gezahlt, genau wie bei einem herkömmlichen Schneeballsystem. Wenn das Vertrauen zu schwinden beginnt oder der Zustrom neuer Teilnehmer nachlässt, brechen diese Systeme unweigerlich zusammen, was zu erheblichen Verlusten für ahnungslose Anleger führt.
+In jüngster Zeit haben sich Ponzi-Schemata auch in der Welt der dezentralen Finanzen (DeFi) ausgebreitet. DeFi ist dazu gedacht, Finanzdienstleistungen ohne Vermittler anzubieten. Einige Projekte nutzen das, um ihren Betrügereien ein falsches Gefühl von Legitimität zu verleihen. Bestimmte DeFi-Plattformen versprechen hohe, garantierte Renditen im Tausch für Einzahlungen von Kryptowährungen in automatisierte Protokolle. Diese verlockenden Versprechen werden oft durch undurchsichtige und nicht überprüfbare Mechanismen unterstützt, wobei die Token speziell für den Betrug geschaffen werden. In Wirklichkeit haben diese Systeme kein nachhaltiges Geschäftsmodell - die Renditen werden einfach aus den Geldern neuer Nutzer gezahlt - genau wie bei einem herkömmlichen Schneeballsystem. Wenn das Vertrauen zu schwinden beginnt oder der Zustrom neuer Teilnehmer nachlässt, brechen diese Systeme unweigerlich zusammen. Das führt zu erheblichen Verlusten für ahnungslose Anleger.
 
 
 Bitte beachten Sie, dass der Inhalt dieses Kurses nur zu Bildungszwecken dient und nicht als Finanzberatung ausgelegt werden sollte. Ihre finanzielle Sicherheit hängt von Ihrer Fähigkeit ab, bei jeder finanziellen Entscheidung, die Sie treffen, vorsichtig, skeptisch und gut informiert zu bleiben.
 
 
-Der beste Schutz ist, sich immer diese einfache Frage zu stellen: Woher kommt eigentlich die versprochene Rendite? Wenn die Antwort unklar ist, laufen Sie sofort weg.
+Der beste Schutz ist, sich immer diese einfache Frage zu stellen: Woher kommt eigentlich die versprochene Rendite? Laufen Sie sofort weg, wenn die Antwort unklar ist.
 
 
 #### Pump & Dump
 
 
-Bei dieser Art von Betrug wird der Preis eines Vermögenswerts - häufig ein Kryptowährungs-Token mit geringer Liquidität - durch eine koordinierte Marketingkampagne künstlich in die Höhe getrieben, die in der Regel von einer Gruppe von Anlegern geleitet wird. Das typische Pump & Dump-Schema folgt diesem Muster:
+Bei dieser Art von Betrug wird der Preis eines Vermögenswerts - häufig ein Kryptowährungs-Token mit geringer Liquidität - durch eine koordinierte Marketingkampagne künstlich in die Höhe getrieben. Dies wird in der Regel von einer Gruppe von Anlegern gesteuert. Das typische Pump & Dump-Schema folgt diesem Muster:
 
 
 
 
 - Eine Gruppe von Insidern oder einflussreichen Persönlichkeiten sammelt im Stillen eine große Menge des angestrebten Vermögenswerts an.
-- Dann starten sie eine aggressive Werbekampagne, um den generate-Hype anzuheizen und den Preis in die Höhe zu treiben.
-- Die breite Öffentlichkeit, getrieben von FOMO (Fear of Missing Out), beginnt, den Vermögenswert in großer Zahl zu kaufen, was den Preis noch weiter in die Höhe treibt.
+- Dann starten sie eine aggressive Werbekampagne, um den Hype anzuheizen und den Preis in die Höhe zu treiben.
+- Die breite Öffentlichkeit, getrieben von FOMO (Fear of Missing Out), beginnt, den Vermögenswert in großer Zahl zu kaufen. Das treibt den Preis noch weiter in die Höhe.
 - Auf dem Höhepunkt des Hypes verkaufen die Insider ihre Anteile auf einmal.
 - Der Preis stürzt ab und hinterlässt bei den Nachzüglern hohe Verluste.
 
@@ -206,39 +206,39 @@ Bei dieser Art von Betrug wird der Preis eines Vermögenswerts - häufig ein Kry
 Es ist wichtig zu wissen, dass Pump & Dump-Strategien in vielen Ländern illegal sind und als eine Form der Marktmanipulation angesehen werden. Trotzdem florieren solche Systeme weiterhin, vor allem im Bereich der Kryptowährungen, wo die Regulierung noch nicht abgeschlossen ist.
 
 
-Seien Sie besonders vorsichtig bei privaten "Signal"-Gruppen auf Plattformen wie Telegram, Discord oder anderen Social-Media-Kanälen. Diese werden oft von Influencern oder selbsternannten Experten betrieben, von denen einige sogar Eintrittsgelder verlangen. Während diese Gruppen vorgeben, exklusive Investitionsmöglichkeiten zu bieten, ist die Realität weitaus einseitiger: Nur die Organisatoren profitieren, während die meisten Teilnehmer am Ende ihr Geld verlieren.
+Seien Sie besonders vorsichtig bei privaten Gruppen auf Plattformen wie Telegram, Discord oder anderen Social-Media-Kanälen. Diese werden oft von Influencern oder selbsternannten Experten betrieben, von denen einige sogar Eintrittsgelder verlangen. Während diese Gruppen vorgeben, exklusive Investitionsmöglichkeiten zu bieten, ist die Realität weitaus einseitiger: Nur die Organisatoren profitieren, während die meisten Teilnehmer am Ende ihr Geld verlieren.
 
 
 ![BTC102-Bitcoin](assets/fr/005.webp)
 
 
-Es stimmt, dass einige Teilnehmer vorübergehend von dieser Art von Marktmanipulationen profitieren können, aber ihr Erfolg beruht in der Regel auf nichts anderem als Glück und perfektem Timing. Auf lange Sicht sind diese Systeme nicht nachhaltig. Sie erfordern ein ständiges hohes Risiko und eine wiederholte Beteiligung an betrügerischen Machenschaften, die unweigerlich scheitern.
+Es stimmt, dass einige Teilnehmer vorübergehend von dieser Art von Marktmanipulationen profitieren können. Aber ihr Erfolg beruht in der Regel auf nichts anderem als Glück und perfektem Timing. Auf lange Sicht sind diese Systeme nicht nachhaltig. Sie erfordern ein ständiges hohes Risiko und eine wiederholte Beteiligung an betrügerischen Machenschaften, die unweigerlich scheitern.
 
 
-Schlimmer noch, sie nähren eine gefährliche Illusion: den Glauben, dass es möglich ist, schnell und einfach Geld zu verdienen, ohne zu verstehen, wie Finanzsysteme tatsächlich funktionieren. Diese Denkweise setzt nicht nur Einzelpersonen einem Risiko aus, sondern untergräbt auch die Glaubwürdigkeit des gesamten Kryptowährungsökosystems
+Schlimmer noch, sie nähren eine gefährliche Illusion: den Glauben, dass es möglich ist, schnell und einfach Geld zu verdienen, ohne zu verstehen, wie Finanzsysteme tatsächlich funktionieren. Diese Denkweise setzt nicht nur Einzelpersonen einem Risiko aus, sondern untergräbt auch die Glaubwürdigkeit des gesamten Kryptowährungsökosystems.
 
 
-Aus all diesen Gründen besteht die beste Strategie darin, einen seriösen, durchdachten Ansatz für Investitionen zu verfolgen, der auf finanzieller Bildung, einem soliden Verständnis der Fundamentaldaten und einer langfristigen Perspektive beruht.
+Aus all diesen Gründen besteht die beste Strategie darin, einen seriösen, durchdachten Ansatz für Investitionen zu verfolgen. Dieser sollte auf finanzieller Bildung, einem soliden Verständnis der Fundamentaldaten und einer langfristigen Perspektive beruhen.
 
-Wenn Sie Ihr Wissen geduldig aufbauen, sind Sie weit weniger anfällig für emotionale Manipulationen und unrealistische Versprechungen und viel besser gerüstet, um die finanziellen Fallen zu vermeiden, die zu echten Verlusten führen können.
+Wenn Sie Ihr Wissen allmählich aufbauen, sind Sie weit weniger anfällig für emotionale Manipulationen und unrealistische Versprechungen. Und Sie sind viel besser gerüstet, um die finanziellen Fallen zu vermeiden, die zu echten Verlusten führen können.
 
 
 #### Spenden-, Lotterie- und gefälschte Werbegeschenke-Betrug
 
 
-Diese Art von Betrug verspricht kostenlose Bitcoin oder andere Belohnungen in Exchange, wenn Sie zuerst einen kleinen Geldbetrag senden. Es ist wichtig, sich daran zu erinnern: Keine seriöse Person oder Organisation wird Sie jemals auffordern, Kryptowährung im Voraus zu senden, mit dem Versprechen, Ihnen im Gegenzug mehr zu schicken.
+Diese Art von Betrug verspricht kostenlose Bitcoins oder andere Belohnungen im Tausch gegen einen kleinen Geldbetrag. Es ist wichtig, sich daran zu erinnern: Keine seriöse Person oder Organisation wird Sie jemals auffordern, Kryptowährung im Voraus zu senden, mit dem Versprechen, Ihnen im Gegenzug mehr zu schicken.
 
 
-Betrüger geben sich oft als bekannte Persönlichkeiten des öffentlichen Lebens (wie Elon Musk oder andere Prominente) aus, um ihre Opfer über soziale Medien zu ködern. Überprüfen Sie immer die Legitimität von Konten und Websites, bevor Sie mit ihnen in Kontakt treten, und vertrauen Sie niemals Angeboten, die zu großzügig oder zu gut erscheinen, um wahr zu sein.
+Betrüger geben sich oft als bekannte Persönlichkeiten des öffentlichen Lebens (wie Elon Musk oder andere Prominente) aus, um ihre Opfer über soziale Medien zu ködern. Überprüfen Sie immer die Legitimität von Konten und Websites, bevor Sie mit ihnen in Kontakt treten. Und vertrauen Sie niemals Angeboten, die zu großzügig oder zu gut erscheinen, um wahr zu sein.
 
 
-Manchmal treten diese Betrügereien als "Vorschussbetrug" auf. Ihnen wird ein Preis oder eine Belohnung versprochen (Geld, ein Produkt oder eine Dienstleistung), aber Sie werden zuerst aufgefordert, eine Gebühr zu zahlen, angeblich um Dinge wie Versand, Steuern oder Transaktionskosten zu decken. Sobald die Zahlung erfolgt ist, verschwindet der Betrüger, und die versprochene Belohnung kommt nie an.
+Manchmal treten diese Betrügereien als "Vorschussbetrug" auf. Ihnen wird ein Preis oder eine Belohnung versprochen (Geld, ein Produkt oder eine Dienstleistung), aber Sie werden zuerst aufgefordert, eine Gebühr zu zahlen. Dies angeblich, um Dinge wie Versand, Steuern oder Transaktionskosten zu decken. Sobald die Zahlung erfolgt ist, verschwindet der Betrüger, und die versprochene Belohnung kommt nie an.
 
 
 ![BTC102-Bitcoin](assets/fr/006.webp)
 
 
-#### Shitcoins und Kryptowährungen im Angebot
+#### Shitcoins und Kryptowährungen im Angebot xxxxxxxxxxxx
 
 
 Zentralisierte Kryptowährungsprojekte bieten manchmal kostenlose Token ("*airdrops*") an, um Nutzer anzulocken. Diese Token haben in der Regel wenig bis keinen realen Wert und werden hauptsächlich verwendet, um die Illusion von Popularität zu erzeugen oder Spekulationen anzuheizen. Seien Sie bei dieser Art von Werbeangeboten äußerst vorsichtig; es handelt sich dabei oft eher um Marketing-Fallen als um echte Chancen.

@@ -822,7 +822,7 @@ Wenn Sie diese Grundsätze befolgen, können Sie Bitcoin-Investitionen mit mehr 
 In diesem Kurs geht es in erster Linie darum, Sie durch den Erwerb und die Sicherung Ihrer ersten Bitcoins zu führen. Doch bevor wir uns den praktischen Schritten zuwenden (wie man BTC kauft, welche Wallets man verwendet und so weiter), ist es wichtig, einen Schritt zurückzutreten und zu verstehen, was Bitcoin wirklich ist. Wenn Sie die tiefere Natur von Bitcoin begreifen, werden Sie verstehen, warum sich Millionen von Menschen dieser Technologie zuwenden und warum es entscheidend ist, die Grundlagen zu verstehen, bevor Sie Ihre Ersparnisse in einen so neuen und unbeständigen Vermögenswert investieren.
 
 
-Im Laufe der Jahre hat Bitcoin als globales Währungsnetzwerk Anerkennung gefunden. Es wurde "digitales Gold", ein "Vertrauensprotokoll" und sogar ein "paralleles Finanzsystem" genannt Aber was bedeuten diese Begriffe wirklich? Um diese Frage zu beantworten, werden wir einen genaueren Blick auf den Kern von Bitcoin werfen: seine Entstehungsgeschichte, seine technischen Grundlagen, seine monetären Eigenschaften und seine potenziellen Auswirkungen - nicht nur auf Einzelpersonen, sondern auf das globale Finanzsystem als Ganzes.
+Im Laufe der Jahre hat Bitcoin als globales Währungsnetzwerk Anerkennung gefunden. Es wurde "digitales Gold", ein "Vertrauensprotokoll" und sogar ein "paralleles Finanzsystem" genannt. Aber was bedeuten diese Begriffe wirklich? Um diese Frage zu beantworten, werden wir einen genaueren Blick auf den Kern von Bitcoin werfen: seine Entstehungsgeschichte, seine technischen Grundlagen, seine monetären Eigenschaften und seine potenziellen Auswirkungen - nicht nur auf Einzelpersonen, sondern auf das globale Finanzsystem als Ganzes.
 
 
 ### Die Ursprünge: Ein Projekt, geboren aus einer langjährigen Suche
@@ -848,13 +848,13 @@ Die Cypherpunks sind eine informelle, internationale Gemeinschaft von Einzelpers
 
 Die Wurzeln der Cypherpunk-Bewegung reichen bis in die frühen 1990er Jahre zurück, als Gruppen von Kryptographen, Programmierern und Libertären bei Treffen im Silicon Valley begannen, die politischen Implikationen der Kryptographie zu untersuchen. Eine der prominentesten Stimmen in der Gemeinschaft war Tim May, der 1988 das Crypto Anarchist Manifesto verfasste; ein grundlegender Text, der eine Vision für eine Welt skizzierte, in der Verschlüsselung Einzelpersonen befähigen würde, außerhalb der Reichweite von Regierungen und zentraler Kontrolle zu agieren.
 
-Ein wichtiger Meilenstein in der Bewegung war 1992 die Einrichtung der Cypherpunks-Mailingliste, ein Forum, in dem Ideen, Projekte und politische Diskussionen über Datenschutz und Kryptografie gedeihen konnten. 1993 veröffentlichte Eric Hughes das Manifest der Cypherpunk, eine kurze, aber aussagekräftige Erklärung, die den Auftrag und die Überzeugungen der Gemeinschaft klar zum Ausdruck brachte.
+Ein wichtiger Meilenstein in der Bewegung war 1992 die Einrichtung der Cypherpunks-Mailingliste, ein Forum, in dem Ideen, Projekte und politische Diskussionen über Datenschutz und Kryptografie gedeihen konnten. 1993 veröffentlichte Eric Hughes das Manifest der Cypherpunks, eine kurze, aber aussagekräftige Erklärung, die den Auftrag und die Überzeugungen der Gemeinschaft klar zum Ausdruck brachte.
 
 
 ![BTC102-Bitcoin](assets/fr/032.webp)
 
 
-Die Idee einer digitalen Währung, die unabhängig von einer zentralen Behörde funktioniert (wie Bitcoin), ist tief in der Philosophie von Cypherpunk verwurzelt.
+Die Idee einer digitalen Währung, die unabhängig von einer zentralen Behörde funktioniert (wie Bitcoin), ist tief in der Philosophie der Cypherpunks verwurzelt.
 
 
 #### Der Moment nach der Finanzkrise
@@ -863,10 +863,10 @@ Die Idee einer digitalen Währung, die unabhängig von einer zentralen Behörde 
 Bitcoin ist nicht einfach aus dem Nichts aufgetaucht. Es wurde zu einem ganz bestimmten Zeitpunkt geschaffen - direkt nach der globalen Finanzkrise von 2008. Der Zusammenbruch des US-Immobilienmarktes und die Subprime-Krise führten zum Zusammenbruch großer Banken und erschütterten das Vertrauen der Menschen in das gesamte Finanzsystem.
 
 
-In diesem Umfeld der Angst und Unsicherheit wurde Bitcoin geboren. Der Schöpfer, bekannt als Satoshi Nakamoto, fügte eine sehr symbolische Botschaft in den allerersten Block des Bitcoin Blockchain, bekannt als Genesis Block, ein. Die Botschaft lautete:
+In diesem Umfeld der Angst und Unsicherheit wurde Bitcoin geboren. Der Schöpfer, bekannt als Satoshi Nakamoto, fügte eine sehr symbolische Botschaft in den allerersten Block der Bitcoin-Blockchain, bekannt als Genesis-Block, ein. Die Botschaft lautete:
 
 
-> **The Times 03/Jan/2009: "Kanzler am Rande der zweiten Rettungsaktion für Banken" **
+> **The Times 03/Jan/2009: "Kanzler kurz vor der zweiten Rettungsaktion für Banken" **
 
 Dies war nicht nur ein Datum oder ein technischer Hinweis, sondern ein stiller, aber kraftvoller Protest. Es zeigte, dass Bitcoin etwas radikal anderes sein sollte: ein Finanzsystem, das nicht von Banken, Rettungsaktionen oder Regierungsentscheidungen abhängt.
 
@@ -897,16 +897,16 @@ Bitcoin ist definiert als ein "Peer-to-Peer-Electronic-Cash-System" Das bedeutet
 ![BTC102-Bitcoin](assets/fr/036.webp)
 
 
-Vereinfacht ausgedrückt verfügt jeder Teilnehmer des Bitcoin-Netzes (ein so genannter "Knoten") über eine vollständige Kopie der Transaktion Ledger, die als Blockchain bezeichnet wird. Wenn eine neue Transaktion stattfindet, wird sie an das Netzwerk gesendet. Die Miner bestätigen dann diese Transaktionen, indem sie sie zu Blöcken zusammenfassen, die dann am Ende der Kette angehängt werden (daher der Name "Blockchain").
+Vereinfacht ausgedrückt verfügt jeder Teilnehmer des Bitcoin-Netzes (ein so genannter "Knoten") über eine vollständige Kopie des Geschäftsbuchs, die als Blockchain bezeichnet wird. Wenn eine neue Transaktion stattfindet, wird sie an das Netzwerk gesendet. Die Miner bestätigen dann diese Transaktionen, indem sie sie zu Blöcken zusammenfassen, die dann am Ende der Kette angehängt werden (daher der Name "Blockchain").
 
 
 ![BTC102-Bitcoin](assets/fr/029.webp)
 
 
-#### Blockchain: eine Buchhaltung Ledger
+#### Blockchain: ein Geschäftsbuch/Transaktionsjournal
 
 
-Stellen Sie sich das Blockchain als ein riesiges Buchhaltungs-Ledger vor, bei dem jede Zeile eine Transaktion darstellt. In einem traditionellen Banksystem ist die Datenbank auf den Servern einer Bank gespeichert, die Änderungen vornehmen kann, wann immer sie will. Im Bitcoin hingegen werden **alle Änderungen im gesamten Netzwerk validiert**: Sobald ein neuer Block von Transaktionen zum Blockchain hinzugefügt wurde, ist es fast unmöglich, ihn später zu ändern. Diese dezentralisierte Validierung macht Bitcoins Ledger sicher und transparent.
+Stellen Sie sich das Blockchain als ein riesiges Geschäftsbuch vor, bei dem jede Zeile eine Transaktion darstellt. In einem traditionellen Banksystem ist die Datenbank auf den Servern einer Bank gespeichert, die Änderungen vornehmen kann, wann immer sie will. Im Bitcoin hingegen werden **alle Änderungen im gesamten Netzwerk validiert**: Sobald ein neuer Block von Transaktionen zur Blockchain hinzugefügt wurde, ist es fast unmöglich, ihn später zu ändern. Diese dezentralisierte Validierung macht den 'Bitcoin Ledger' sicher und transparent.
 
 
 ![BTC102-Bitcoin](assets/fr/027.webp)
@@ -918,12 +918,12 @@ Stellen Sie sich das Blockchain als ein riesiges Buchhaltungs-Ledger vor, bei de
 #### Wie Blöcke erstellt werden: Mining
 
 
-Mining ist der Prozess, bei dem Computer (oder große Mining-Farmen) **Rechenleistung** beisteuern, um den Transaktionsverlauf von Bitcoin zu sichern und neue Blöcke zu erstellen. Die Miner konkurrieren um die Lösung eines mathematischen Rätsels, d. h. um das Auffinden einer partiellen Hash-Kollision. Dieser Prozess erfordert erhebliche Energie und Ressourcen. Sobald ein Miner eine gültige Lösung gefunden hat, sendet er den Block an das Netzwerk, das ihn verifiziert und als gültig anerkennt.
+Mining ist der Prozess, bei dem Computer (oder große Mining-Farmen) **Rechenleistung** beisteuern, um den Transaktionsverlauf von Bitcoin zu sichern und neue Blöcke zu erstellen. Die Miner konkurrieren um die Lösung eines mathematischen Rätsels, d.h. um das Auffinden einer partiellen Hash-Kollision. Dieser Prozess erfordert erhebliche Energie und Ressourcen. Sobald ein Miner eine gültige Lösung gefunden hat, sendet er den Block an das Netzwerk, das ihn verifiziert und als gültig anerkennt.
 
-Als Belohnung erhält die Miner neu geschaffene Bitcoins (die so genannte Blocksubvention) zusammen mit den Transaktionsgebühren aller in diesem Block enthaltenen Transaktionen.
+Als Belohnung erhält der Miner neu geschaffene Bitcoins (die so genannte Blocksubvention) zusammen mit den Transaktionsgebühren aller in diesem Block enthaltenen Transaktionen.
 
 
-#### Der Halving: Abnehmende Blocksubvention
+#### Das Halving: Abnehmende Blocksubvention
 
 
 Um die Knappheit von Bitcoin zu gewährleisten, ist eine Halbierung der Blocksubvention alle 210.000 Blöcke programmiert, also etwa alle vier Jahre. Dieses Ereignis ist als "Halving" bekannt Als Bitcoin eingeführt wurde, verdienten Miner 50 BTC pro Block. Im Jahr 2025 ist diese Belohnung auf 3,125 BTC gesunken und wird im Laufe der Zeit weiter sinken.
@@ -934,7 +934,7 @@ Schließlich, um das Jahr 2140, wird die Subvention Null erreichen, da die Gesam
 ![BTC102-Bitcoin](assets/fr/031.webp)
 
 
-### Bitcoin Monetäre Eigenschaften
+### Bitcoins monetäre Eigenschaften
 
 
 #### Knappheit und eine feste Geldpolitik
@@ -945,7 +945,7 @@ Eine der stärksten Eigenschaften von Bitcoin ist seine *vorhersehbare und unver
 Es wird immer nur 21 Millionen Bitcoins geben, und die Rate, mit der neue Münzen ausgegeben werden, ist allen Mitgliedern des Netzwerks im Voraus bekannt.
 
 
-Keine Regierung, Institution oder Einzelperson kann diese Supply-Obergrenze oder die Verteilungsregeln einseitig ändern. Die einzige Möglichkeit, diese Parameter zu ändern, wäre eine Änderung des Bitcoin-Protokolls, und selbst dafür wäre ein Konsens der Mehrheit der Wirtschaftsteilnehmer des Netzwerks erforderlich.
+Keine Regierung, Institution oder Einzelperson kann diese Obergrenze oder die Verteilungsregeln einseitig ändern. Die einzige Möglichkeit, diese Parameter zu ändern, wäre eine Änderung des Bitcoin-Protokolls. Und selbst dafür wäre ein Konsens der Mehrheit der Wirtschaftsteilnehmer des Netzwerks erforderlich.
 
 
 Diese eingebaute Knappheit ist ein großer Anreiz für diejenigen, die sich von einer unvorhersehbaren Geldpolitik abwenden oder die allmähliche Erosion ihrer Kaufkraft durch Inflation vermeiden wollen. Mit der Zeit könnte dies ein Umdenken in der Finanzwelt bewirken, bei dem das Sparen in einem deflationären Vermögenswert wie Bitcoin attraktiver wird als das Vertrauen in traditionelle, inflationsanfällige Währungen.
@@ -954,7 +954,7 @@ Diese eingebaute Knappheit ist ein großer Anreiz für diejenigen, die sich von 
 #### Teilbarkeit und Zugänglichkeit
 
 
-Eine der am meisten unterschätzten Stärken von Bitcoin ist seine Teilbarkeit. Jedes Bitcoin kann in 100 Millionen Einheiten, so genannte Satoshis (oder kurz Sats), aufgeteilt werden. Das bedeutet, dass Sie nicht Zehntausende von Euro oder Dollar ausgeben müssen, um anzufangen; Sie können Bitcoin im Wert von wenigen Euro kaufen, bis hin zu winzigen Bruchteilen.
+Eine der am meisten unterschätzten Stärken von Bitcoin ist seine Teilbarkeit. Jeder Bitcoin kann in 100 Millionen Einheiten, so genannte Satoshis (oder kurz Sats), aufgeteilt werden. Das bedeutet, dass Sie nicht Zehntausende von Euro oder Dollar ausgeben müssen, um anzufangen; Sie können Bitcoin im Wert von wenigen Euro kaufen, bis hin zu winzigen Bruchteilen.
 
 
 ![BTC102-Bitcoin](assets/fr/026.webp)
@@ -974,7 +974,7 @@ Dieses Maß an Transparenz macht es unglaublich schwierig, Hintertüren einzubau
 ![BTC102-Bitcoin](assets/fr/030.webp)
 
 
-Diese Transparenz ist einer der Hauptgründe, warum die Menschen dem Bitcoin-Protokoll vertrauen; sie verhindert, dass eine kleine Gruppe von Entwicklern das Netz zu ihrem eigenen Vorteil manipuliert. Bitcoin funktioniert nach einem einfachen, aber wirkungsvollen Prinzip: Wenn Sie mit den vorgeschlagenen Änderungen nicht einverstanden sind, steht es Ihnen frei, Ihre Software nicht zu aktualisieren. In einigen Fällen wird dies keine Unterbrechung verursachen; Sie bleiben weiterhin mit dem Rest des Netzwerks synchronisiert. In anderen Fällen kann dies jedoch zu einem so genannten Hard Fork führen, bei dem sich das Netz in zwei Teile spaltet und eine neue Version von Bitcoin geschaffen wird. Genau das ist 2017 mit der Spaltung zwischen Bitcoin (BTC) und Bitcoin Cash (BCH) passiert.
+Diese Transparenz ist einer der Hauptgründe, warum die Menschen dem Bitcoin-Protokoll vertrauen; sie verhindert, dass eine kleine Gruppe von Entwicklern das Netz zu ihrem eigenen Vorteil manipuliert. Bitcoin funktioniert nach einem einfachen, aber wirkungsvollen Prinzip: Wenn Sie mit den vorgeschlagenen Änderungen nicht einverstanden sind, steht es Ihnen frei, Ihre Software nicht zu aktualisieren. In einigen Fällen wird dies keine Unterbrechung verursachen; Sie bleiben weiterhin mit dem Rest des Netzwerks synchronisiert. In anderen Fällen kann dies jedoch zu einer so genannten Hard Fork führen, bei dem sich das Netz in zwei Teile spaltet und eine neue Version von Bitcoin geschaffen wird. Genau das ist 2017 mit der Spaltung zwischen Bitcoin (BTC) und Bitcoin Cash (BCH) passiert.
 
 
 Diese Art der Verwaltung kann zwar langsam und manchmal chaotisch sein, aber sie ist auch eine Stärke; sie stellt sicher, dass keine einzelne Einheit einseitig die Kontrolle übernehmen kann und hilft Bitcoin, stabil, neutral und resistent gegen Zentralisierung zu bleiben.
@@ -983,10 +983,10 @@ Diese Art der Verwaltung kann zwar langsam und manchmal chaotisch sein, aber sie
 #### Individuelle Validierung: Knotenpunkte
 
 
-Bitcoin ermöglicht es jedem, die Genauigkeit des Blockchain zu überprüfen, indem er einen "Knoten" auf seinem Computer oder Server betreibt. Dies bedeutet, dass man die Bitcoin Core Software (oder eine andere Version des Bitcoin Protokolls) herunterlädt und alle Transaktionen und Blöcke seit 2009 verifiziert. Sobald Ihr Knotenpunkt eingerichtet und synchronisiert ist, wird er zu einer vollständigen Kopie des Blockchain und trägt zur Unterstützung des Netzwerks bei.
+Bitcoin ermöglicht es jedem, die Genauigkeit der Blockchain zu überprüfen, indem er einen "Knoten" auf seinem Computer oder Server betreibt. Dies bedeutet, dass man die Bitcoin Core Software (oder eine andere Version des Bitcoin Protokolls) herunterlädt und alle Transaktionen und Blöcke seit 2009 verifiziert. Sobald Ihr Knotenpunkt eingerichtet und synchronisiert ist, wird er zu einer vollständigen Kopie der Blockchain und trägt zur Unterstützung des Netzwerks bei.
 
 
-Obwohl dieser Ansatz technisch anspruchsvoller ist, bietet er den anspruchsvollsten Nutzern die Möglichkeit, sich gegen das Vertrauen in Dritte zu entscheiden. Der Betrieb eines Knotens stellt sicher, dass die Nutzer am Konsensprozess teilnehmen können und nicht zensierbar sind, was direkt zur Sicherheit und Dezentralisierung des Netzwerks beiträgt.
+Obwohl dieser Ansatz technisch anspruchsvoller ist, bietet er den Nutzern die Möglichkeit, sich gegen das Vertrauen in Dritte zu entscheiden. Der Betrieb eines Knotens stellt sicher, dass die Nutzer am Konsensprozess teilnehmen können und nicht zensierbar sind. Dies trägt direkt zur Sicherheit und Dezentralisierung des Netzwerks bei.
 
 
 ### Anwendungsfälle
@@ -995,7 +995,7 @@ Obwohl dieser Ansatz technisch anspruchsvoller ist, bietet er den anspruchsvolls
 #### Eine robuste, grenzüberschreitende Zahlungsmethode
 
 
-Aufgrund seines dezentralen Charakters arbeitet Bitcoin rund um die Uhr, unabhängig von Grenzen oder Zeitzonen. In Regionen, in denen es keine traditionelle Bankinfrastruktur gibt, wird Bitcoin oft als schnelle, kostengünstige Lösung für das Senden oder Empfangen von Geldern genutzt, ohne auf teure Vermittler angewiesen zu sein. Obwohl die Transaktionsgebühren je nach Netzwerküberlastung variieren können, sind sie im Allgemeinen viel niedriger als die Gebühren, die von Banken für internationale Überweisungen erhoben werden. Darüber hinaus ermöglichen Layer-2-Lösungen wie das Lightning Network noch schnellere und günstigere Bitcoin-Transaktionen.
+Aufgrund seines dezentralen Charakters arbeitet Bitcoin rund um die Uhr, unabhängig von Grenzen oder Zeitzonen. In Regionen, in denen es keine traditionelle Bankinfrastruktur gibt, wird Bitcoin oft als schnelle, kostengünstige Lösung für das Senden oder Empfangen von Geldern genutzt. Man ist dabei nicht auf teure Vermittler angewiesen. Obwohl die Transaktionsgebühren je nach Netzwerküberlastung variieren können, sind sie im Allgemeinen viel niedriger als die Gebühren, die von Banken für internationale Überweisungen erhoben werden. Darüber hinaus ermöglichen Lösungen auf der zweiten Technologie-Schicht - wie das Lightning Network - noch schnellere und günstigere Bitcoin-Transaktionen.
 
 
 #### Ein Wertaufbewahrungsmittel
@@ -1007,10 +1007,10 @@ Aufgrund seiner Knappheit (die Obergrenze liegt bei 21 Millionen BTC) und seiner
 #### Ein Werkzeug für finanzielle Freiheit und Widerstandsfähigkeit
 
 
-Über Investitionen hinaus bietet Bitcoin eine Möglichkeit, die finanzielle Souveränität zu schützen. In Ländern mit autoritären Regimen oder starken monetären Einschränkungen bietet der Besitz eines Bitcoin Wallet (mit privaten Schlüsseln) eine Form von Freiheit. Niemand kann diese BTC blockieren oder konfiszieren, solange der Inhaber seinen Rückzahlungssatz sicherstellt.
+Über Investitionen hinaus bietet Bitcoin eine Möglichkeit, die finanzielle Souveränität zu schützen. In Ländern mit autoritären Regierungen oder starken monetären Einschränkungen bietet der Besitz einer Bitcoin-Wallet (mit privaten Schlüsseln) eine Form von Freiheit. Niemand kann diese BTC blockieren oder konfiszieren, solange der Inhaber seinen Seed sicher aufbewahrt.
 
 
-Diese Eigenschaft ist besonders für diejenigen attraktiv, die Zensur oder das Einfrieren von Bankkonten fürchten. Sie kommt auch bei Bevölkerungsgruppen gut an, die unter Hyperinflation leiden, wie in Venezuela oder Simbabwe, wo sich der Besitz von BTC als stabiler erwies als der Besitz der Landeswährung, die schnell an Wert verlor.
+Diese Eigenschaft ist besonders für diejenigen attraktiv, die Zensur oder das Einfrieren von Bankkonten fürchten. Sie kommt auch bei Bevölkerungsgruppen gut an, die unter Hyperinflation leiden. Beispiele sind Venezuela oder Simbabwe, wo sich der Besitz von BTC als stabiler erwies als der Besitz der Landeswährung, die schnell an Wert verlor.
 
 
 ### Ein langer Weg liegt vor uns
@@ -1019,21 +1019,21 @@ Diese Eigenschaft ist besonders für diejenigen attraktiv, die Zensur oder das E
 Bitcoin kann als "Zero to One" betrachtet werden: ein radikaler Bruch mit etablierten Finanzparadigmen. Zum ersten Mal in der Geschichte funktioniert ein globales, für alle zugängliches monetäres Netzwerk ohne eine zentrale Behörde und ermöglicht zensurresistente und private Transaktionen.
 
 
-Dennoch sorgt Bitcoin nach mehr als einem Jahrzehnt seines Bestehens weiterhin für Debatten und Begeisterung. Seine Akzeptanz nimmt zu, Zweit-Layer-Lösungen (wie das Lightning Network) entstehen, um die Transaktionsgeschwindigkeit zu erhöhen und die Gebühren zu senken, und Unternehmen weltweit experimentieren mit neuen Anwendungsfällen. Es ist wahrscheinlich, dass Bitcoin die Zahlungssysteme und sogar die Art und Weise, wie wir Geld wahrnehmen, noch über Jahrzehnte hinweg beeinflussen wird.
+Dennoch sorgt Bitcoin nach mehr als einem Jahrzehnt seines Bestehens weiterhin für Debatten und Begeisterung. Seine Akzeptanz nimmt zu, Lösungen auf der zweiten Technologieschicht (wie das Lightning Network) entstehen, um die Transaktionsgeschwindigkeit zu erhöhen und die Gebühren zu senken, und Unternehmen weltweit experimentieren mit neuen Anwendungsfällen. Es ist wahrscheinlich, dass Bitcoin die Zahlungssysteme und sogar die Art und Weise, wie wir Geld wahrnehmen, noch über Jahrzehnte hinweg beeinflussen wird.
 
 
 ![BTC102-Bitcoin](assets/fr/028.webp)
 
 
-Wenn Sie Ihr Wissen weiter ausbauen möchten, können Sie den BTC101-Kurs über Plan ₿ Network besuchen, der eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin bietet.
+Wenn Sie Ihr Wissen weiter ausbauen möchten, können Sie den BTC101-Kurs auf dem Plan ₿ Network besuchen, der eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin bietet.
 
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als 5 Minuten gedauert hat!) sind Sie nun besser gerüstet, um den Kauf und die Sicherung von Bitcoins in Betracht zu ziehen. In den folgenden Kapiteln des Kurses werden wir tiefer in die Bedeutung von Bitcoin, die Funktionsweise seiner Industrie und die Entwicklung seiner verschiedenen Schichten eintauchen. Im nächsten Abschnitt werden wir besprechen, wie Sie Ihren eigenen persönlichen Plan aufstellen können.
+Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als 5 Minuten gedauert hat!) sind Sie nun besser gerüstet, um Bitcoins zu kaufen und sicher aufzubewahren. In den folgenden Kapiteln des Kurses werden wir tiefer in die Bedeutung von Bitcoin, die Funktionsweise seiner Industrie und die Entwicklung seiner verschiedenen Schichten eintauchen. Im nächsten Abschnitt werden wir besprechen, wie Sie Ihren eigenen persönlichen Plan aufstellen können.
 
 ## Warum ist Bitcoin wichtig?
-
+xxxxx
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 

@@ -238,10 +238,10 @@ Manchmal treten diese Betrügereien als "Vorschussbetrug" auf. Ihnen wird ein Pr
 ![BTC102-Bitcoin](assets/fr/006.webp)
 
 
-#### Shitcoins und Kryptowährungen im Angebot xxxxxxxxxxxx
+#### Shitcoins und Kryptowährungen im Angebot 
 
 
-Zentralisierte Kryptowährungsprojekte bieten manchmal kostenlose Token ("*airdrops*") an, um Nutzer anzulocken. Diese Token haben in der Regel wenig bis keinen realen Wert und werden hauptsächlich verwendet, um die Illusion von Popularität zu erzeugen oder Spekulationen anzuheizen. Seien Sie bei dieser Art von Werbeangeboten äußerst vorsichtig; es handelt sich dabei oft eher um Marketing-Fallen als um echte Chancen.
+Zentralisierte Kryptowährungsprojekte bieten manchmal kostenlose Token ("*airdrops*") an, um Nutzer anzulocken. Diese Tokens haben in der Regel wenig bis keinen realen Wert und werden hauptsächlich verwendet, um die Illusion von Popularität zu erzeugen oder Spekulationen anzuheizen. Seien Sie bei dieser Art von Werbeangeboten äußerst vorsichtig; es handelt sich dabei oft eher um Marketing-Fallen als um echte Chancen.
 
 
 #### Identitätsdiebstahl und Phishing
@@ -253,19 +253,19 @@ Angreifer nutzen oft gefälschte Websites, Konten in sozialen Medien oder betrü
 Bevor Sie auf einen Link klicken oder eine Aktion durchführen, überprüfen Sie immer die Identität des Absenders. Rufen Sie im Zweifelsfall die Website manuell auf, anstatt einen angegebenen Link zu verwenden. Am wichtigsten ist, dass Sie niemals Ihre privaten Schlüssel oder Passwörter an andere weitergeben.
 
 
-#### Bitcoin Hartgabel
+#### Bitcoin 'Hard-Forks'
 
 
-Im Laufe der Jahre hat Bitcoin mehrere *Hard-Forks* erlebt, die zur Schaffung alternativer Versionen der ursprünglichen Kryptowährung führten. Einfach ausgedrückt ist ein *Hard Fork* eine Abspaltung im Netzwerk, die zu zwei getrennten Blockchains führt, die beide bis zum Zeitpunkt der Abspaltung dieselbe Geschichte haben. Diese Abspaltungen treten typischerweise auf, wenn ein Teil der Entwicklergemeinschaft oder des breiteren Bitcoin-Ökosystems größere Änderungen am ursprünglichen Protokoll einführen möchte, aber keinen breiten Konsens erreichen kann. Anstatt ihre Ideen aufzugeben, beschließen sie, eine neue Version von Bitcoin (mit geänderten Regeln) zu starten, in der Hoffnung, dass die Nutzer und Miner stattdessen ihrem Fork folgen werden.
+Im Laufe der Jahre hat Bitcoin mehrere *Hard-Forks* erlebt, die zur Schaffung alternativer Versionen der ursprünglichen Kryptowährung führten. Einfach ausgedrückt ist ein *Hard Fork* eine Abspaltung im Netzwerk, die zu zwei getrennten Blockchains führt. Bis zum Zeitpunkt der Abspaltung haben beide dieselbe Geschichte. Diese Abspaltungen treten typischerweise auf, wenn ein Teil der Entwicklergemeinschaft oder des breiteren Bitcoin-Ökosystems größere Änderungen am ursprünglichen Protokoll einführen möchte, aber keinen breiten Konsens erreichen kann. Anstatt ihre Ideen aufzugeben, beschließen sie, eine neue Version von Bitcoin (mit geänderten Regeln) zu starten, in der Hoffnung, dass die Nutzer und Miner stattdessen ihrem Fork folgen werden.
 
 
 ![BTC102-Bitcoin](assets/fr/007.webp)
 
 
-Nicht alle *Hard-Gabeln* sind betrügerisch, da einige aus technischen oder ideologischen Meinungsverschiedenheiten innerhalb der Gemeinschaft entstehen. Andere werden jedoch von kommerziellen Interessen oder sogar unlauteren Motiven angetrieben. Die bekanntesten Beispiele für diese Hardforks sind **Bitcoin Cash (BCH)** und **Bitcoin Satoshi Vision (BSV)**. Diese 2017 bzw. 2018 eingeführten Alternativwährungen behaupten oft, "bessere Versionen" des ursprünglichen Bitcoin zu sein. Sie werben mit angeblichen Vorteilen wie niedrigeren Transaktionsgebühren oder schnelleren Transaktionen aufgrund größerer Blockgrößen. Diese technischen Änderungen gehen jedoch mit erheblichen Kompromissen in Bezug auf Sicherheit, Dezentralisierung und Robustheit einher; Elements, die mit den Grundprinzipien von Bitcoin in Konflikt geraten können.
+Nicht alle *Hard-Forks* sind betrügerisch, da einige aus technischen oder ideologischen Meinungsverschiedenheiten innerhalb der Gemeinschaft entstehen. Andere werden jedoch von kommerziellen Interessen oder sogar unlauteren Motiven angetrieben. Die bekanntesten Beispiele für diese Hardforks sind **Bitcoin Cash (BCH)** und **Bitcoin Satoshi Vision (BSV)**. Diese 2017 bzw. 2018 eingeführten Alternativwährungen behaupten oft, "bessere Versionen" des ursprünglichen Bitcoin zu sein. Sie werben mit angeblichen Vorteilen wie niedrigeren Transaktionsgebühren oder schnelleren Transaktionen aufgrund größerer Blockgrößen. Diese technischen Änderungen gehen jedoch mit erheblichen Kompromissen in Bezug auf Sicherheit, Dezentralisierung und Robustheit einher; Eigenschaften, die mit den Grundprinzipien von Bitcoin in Konflikt geraten können.
 
 
-Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen oft die Verwirrung aus, um uninformierte Anleger anzulocken. Sie können Marketingtaktiken anwenden, die darauf abzielen, Neulinge absichtlich in die Irre zu führen, die glauben, sie würden echte Bitcoin (BTC) kaufen.
+Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen oft die Verwirrung aus, um uninformierte Anleger anzulocken. Sie können unlautere Marketingtaktiken anwenden. Diese zielen darauf ab, Neulinge absichtlich in die Irre zu führen, die glauben, sie würden echte Bitcoins (BTC) kaufen.
 
 
 Um nicht in diese Falle zu tappen, sollten Sie immer die Währung überprüfen, die Sie kaufen. Das ursprüngliche Bitcoin verwendet den Ticker **BTC**, während Bitcoin Cash und seine Derivate unterschiedliche Akronyme verwenden, wie BCH oder BSV.
@@ -286,7 +286,7 @@ Diese Influencer setzen oft auf bewährte Taktiken, um Anfänger anzulocken: Sie
 Es ist wichtig zu verstehen, dass die meisten "kostenlosen" Ratschläge dieser Persönlichkeiten nie wirklich kostenlos sind. Hinter der Fassade der Großzügigkeit verbirgt sich oft eine kalkulierte Strategie, um die Menschen zum Kauf fragwürdiger Anlagen zu bewegen. Und selbst wenn einige Influencer ehrlich wären, wäre es fast unmöglich, ihre Ergebnisse zu reproduzieren. Ihr Erfolg hängt oft von einem bestimmten Timing, Insiderwissen oder einzigartigen Umständen ab, zu denen Sie einfach keinen Zugang haben.
 
 
-Manche Influencer laden Sie ein, privaten, kostenpflichtigen Gruppen beizutreten, in denen sie behaupten, exklusive Handelssignale oder Insider-Tipps zu teilen, die schnelle und einfache Gewinne versprechen. In Wirklichkeit profitieren von diesen Gruppen hauptsächlich die Organisatoren selbst. Sie nutzen ihre Anhänger oft als Liquiditätsquelle und veräußern im Wesentlichen Vermögenswerte zum persönlichen Vorteil. Die Abonnenten verlieren in der Regel Geld, da sie nicht so schnell reagieren können wie die Insider, die den Handel orchestrieren (siehe den Abschnitt über Pump & Dump-Systeme).
+Manche Influencer laden Sie ein, privaten, kostenpflichtigen Gruppen beizutreten. Darin behaupten sie, exklusive Handelssignale oder Insider-Tipps zu teilen, die schnelle und einfache Gewinne versprechen. In Wirklichkeit profitieren von diesen Gruppen hauptsächlich die Organisatoren selbst. Sie nutzen ihre Anhänger oft als Liquiditätsquelle und veräußern im Wesentlichen Vermögenswerte zum persönlichen Vorteil. Die Abonnenten verlieren in der Regel Geld, da sie nicht so schnell reagieren können wie die Insider, die den Handel orchestrieren (siehe den Abschnitt über Pump & Dump-Systeme).
 
 
 In Anbetracht dieser Tatsache sollten Sie sich einige gute Gewohnheiten aneignen, um nicht in die Fallen unehrlicher Influencer zu tappen:
@@ -317,7 +317,7 @@ Denken Sie immer daran, dass jeder, dem Sie im Bitcoin oder im breiteren Krypto-
 
 Deshalb ist es wichtig, dass Sie sich über die wahren Beweggründe hinter jedem von Ihnen konsumierten Inhalt im Klaren sind. Und vergessen Sie nie diese goldene Regel des Internets:
 
-*Wenn ein Produkt oder eine Dienstleistung kostenlos zu sein scheint, sind Sie wahrscheinlich das Produkt*
+*Wenn ein Produkt oder eine Dienstleistung kostenlos zu sein scheint, sind Sie wahrscheinlich das Produkt.*
 
 
 Letztendlich ist Ihre beste Verteidigung die persönliche Bildung, eine gesunde Skepsis und vor allem die Gewohnheit, Fakten selbst zu überprüfen.
@@ -350,7 +350,7 @@ Sich vor Betrug zu schützen, ist ein wichtiger erster Schritt zum Schutz Ihres 
 
 
 
-Sobald Sie sich mit Bitcoin beschäftigen, werden Sie schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist, sondern unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn Sie Ihre eigenen Schlüssel verwalten.
+Sobald Sie sich mit Bitcoin beschäftigen, werden Sie schnell feststellen, dass grundlegende Cybersicherheit nicht optional ist. Sie ist unerlässlich. Scams und Betrug sind nur die Spitze des Eisbergs. Versehentlicher Datenverlust, Malware und kompromittierte Passwörter können ebenso verheerend sein, besonders wenn Sie Ihre eigenen Schlüssel verwalten.
 
 
 Dieses Kapitel führt Sie durch einige einfache, praktische Schritte, um Ihre digitale Hygiene zu verbessern und sich in diesem Bereich zu schützen.
@@ -367,7 +367,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 Bitcoin gibt Ihnen die Macht, Ihr Geld direkt zu halten (ohne Banken), ohne Zwischenhändler. Aber diese Art von finanzieller Souveränität geht mit einer großen Verantwortung einher: Wenn Ihre BTC aufgrund einer Sicherheitslücke gestohlen werden, gibt es keine Möglichkeit, die Transaktion rückgängig zu machen. Anders als bei traditionellen Banken gibt es keinen Helpdesk, keine Betrugsanzeige und keine Versicherung, die Ihnen aus der Patsche hilft.
 
 
-Hinzu kommt, dass der finanzielle Wert des Bitcoin ihn zu einem hochrangigen Ziel macht. Ein Hacker, der Ihren Wallet kompromittiert, kann Ihr Geld sofort auf einen Address verschieben, den er kontrolliert (ohne Fragen zu stellen, ohne Möglichkeit, es zurückzubekommen).
+Hinzu kommt, dass der finanzielle Wert des Bitcoin ihn zu einem attraktiven Ziel macht. Ein Hacker, der Ihre Wallet kompromittiert, kann Ihr Geld sofort auf eine Adresse verschieben, die er kontrolliert (ohne Fragen zu stellen, ohne Möglichkeit, das Geld zurückzubekommen).
 
 
 ### Ein sauberer, aktueller Computer
@@ -419,12 +419,12 @@ Dieser Ansatz bietet eine hohe Ausfallsicherheit und trägt dazu bei, dass Ihre 
 Einer der Hauptgründe, warum Menschen gehackt werden, ist die Verwendung schwacher Passwörter. Eine beträchtliche Anzahl von Nutzern verwendet immer noch dasselbe Passwort für mehrere Konten oder wählt Variationen, die leicht zu erraten sind. Passwort-Manager sind die perfekte Lösung für dieses Problem.
 
 
-Mit einem Passwort-Manager können Sie:
+Ein Passwort-Manager bietet folgende Vorteile:
 
 
-- Speichern Sie alle Ihre Kennwörter sicher** in einem verschlüsselten Tresor
-- generate lange, komplexe und eindeutige Passwörter** automatisch für jedes Konto
-- Verwenden Sie nur ein Master-Passwort**, um auf alles sicher zuzugreifen
+- Sie speichern alle Ihre Kennwörter sicher in einem verschlüsselten Tresor;
+- Sie können lange, komplexe und eindeutige Passwörter automatisch für jedes Konto generieren;
+- Sie brauchen nur ein Master-Passwort, um auf alles sicher zuzugreifen.
 
 
 Mit einem Passwortmanager müssen Sie nie wieder auf "Passwort vergessen" klicken oder sich auf schwache, wiederverwendete Anmeldedaten verlassen. Außerdem lassen sich die meisten Passwort-Manager nahtlos mit Ihren Geräten (Desktop, Telefon, Tablet) synchronisieren und füllen sogar Anmeldeformulare automatisch aus, was den sicheren Zugang mühelos und effizient macht.
@@ -446,13 +446,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 ### 2FA: doppelter Schutz
 
 
-In Bitcoin sind Sie Ihre eigene Bank. Das bedeutet, dass Sie auch Ihr eigenes Sicherheitsteam sind. Selbst mit einem starken Passwort gibt es kein Nullrisiko - deshalb ist die Zwei-Faktor-Authentifizierung (2FA) so wichtig.
+In der Welt von Bitcoin sind Sie Ihre eigene Bank. Das bedeutet, dass Sie auch Ihr eigenes Sicherheitsteam sind. Selbst mit einem starken Passwort gibt es kein Nullrisiko - deshalb ist die Zwei-Faktor-Authentifizierung (2FA) so wichtig.
 
 
 ![BTC102-Bitcoin](assets/fr/014.webp)
 
 
-2FA fügt ein zweites Layer des Schutzes hinzu, indem es einen zeitbasierten Einmalcode (normalerweise 6 Ziffern) erfordert, der von einer App wie Google Authenticator oder Authy generiert wird. Selbst wenn es also jemandem gelingt, Ihr Passwort zu erhalten, kann er ohne physischen Zugang zu Ihrem Telefon nicht auf Ihr Konto zugreifen.
+2FA fügt eine zweite Schicht des Schutzes hinzu, indem es einen zeitbasierten Einmalcode (normalerweise 6 Ziffern) erfordert, der von einer App wie Google Authenticator oder Authy generiert wird. Selbst wenn es also jemandem gelingt, Ihr Passwort zu erhalten, kann er ohne physischen Zugang zu Ihrem Telefon nicht auf Ihr Konto zugreifen.
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -477,14 +477,14 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 Datenschutz und Cybersicherheit sind eng miteinander verknüpft: Je mehr Informationen Sie frei zugänglich machen, desto größer ist die Wahrscheinlichkeit, dass Sie zur Zielscheibe werden.
 
 
-Ein **VPN** (*Virtuelles Privates Netzwerk*) ist ein einfacher, aber effektiver Schritt, um Ihre IP Address zu maskieren und Ihren Internetverkehr zu verschlüsseln. Damit werden Sie zwar nicht völlig unsichtbar (da der VPN-Anbieter Ihre Aktivitäten immer noch sehen kann), aber es macht es für jeden, der versucht, Sie auszuspionieren oder Ihre Surfgewohnheiten zu verfolgen, deutlich schwieriger.
+Ein **VPN** (*Virtuelles Privates Netzwerk*) ist ein einfacher, aber effektiver Schritt, um Ihre IP-Adresse zu maskieren und Ihren Internetverkehr zu verschlüsseln. Damit werden Sie zwar nicht völlig unsichtbar (da der VPN-Anbieter Ihre Aktivitäten immer noch sehen kann), aber es macht es für jeden, der versucht, Sie auszuspionieren oder Ihre Surfgewohnheiten zu verfolgen, deutlich schwieriger.
 
-Der Schlüssel ist die Wahl eines vertrauenswürdigen VPN-Anbieters, der:
+Der Schlüssel ist die Wahl des VPN-Anbieters. Vertrauenswürdige Anbieter zeichnen sich aus durch:
 
 
-- Benötigt keine persönlichen Informationen
-- Ermöglicht die Zahlung über BTC
-- Hat eine strikte No-Logs-Politik
+- Sie benötigen keine persönlichen Informationen;
+- Sie ermöglichen die Zahlung mit BTC;
+- Sie haben eine strikte No-Logs-Politik.
 
 
 ![BTC102-Bitcoin](assets/fr/015.webp)
@@ -526,7 +526,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 Cybersicherheit kann wie ein gewaltiges Unterfangen erscheinen, und Anfänger können leicht überfordert sein und aufgeben, weil es zu komplex erscheint. Der Trick ist, Schritt für Schritt vorzugehen. Beginnen Sie mit etwas Einfachem, wie der Installation eines Passwortmanagers. Geben Sie sich ein paar Wochen Zeit, um sich damit vertraut zu machen, und gehen Sie dann zum nächsten Schritt über: z. B. die Aktivierung von 2FA für eines Ihrer Konten.
 
 
-Je sicherer Sie mit diesen Tools werden, desto eher können Sie fortgeschrittenere Praktiken anwenden, z. B. eine zweite E-Mail-Adresse verwenden, zu ProtonMail wechseln, ein VPN einrichten oder bei Bedarf mit Tor surfen.
+Je vertrauter Sie mit diesen Tools werden, desto eher können Sie fortgeschrittenere Praktiken anwenden, z. B. eine zweite E-Mail-Adresse verwenden, zu ProtonMail wechseln, ein VPN einrichten oder bei Bedarf mit Tor surfen.
 
 
 Wenn Sie tiefer in die Welt von Bitcoin eintauchen, werden Sie feststellen, dass die Risiken mit dem zunehmenden Wert Ihres Wallet wachsen. Der Aufbau solider Sicherheitsgewohnheiten, der Schutz Ihrer Privatsphäre und die Einrichtung der richtigen Tools werden Ihnen nicht nur Sicherheit geben, sondern auch die Souveränität stärken, die Bitcoin ausmacht.
@@ -567,7 +567,7 @@ Hier sind die wichtigsten Punkte, die wir gemeinsam durchgehen werden:
 - Seien Sie sich der **Steuerfolgen** Ihrer Investitionen bewusst;
 - Schützen Sie Ihre **Wiederherstellungsphrase** sorgfältig;
 - Bleiben Sie bescheiden und verhalten Sie sich **zurückhaltend** (Diskretion ist Teil der Sicherheit);
-- Denken Sie langfristig**, zoomen Sie und seien Sie geduldig (sehen Sie es als einen Marathon, nicht als einen Sprint).
+- Denken Sie langfristig und seien Sie geduldig (sehen Sie es als einen Marathon, nicht als einen Sprint).
 
 
 ![BTC102-Bitcoin](assets/fr/017.webp)
@@ -576,24 +576,24 @@ Hier sind die wichtigsten Punkte, die wir gemeinsam durchgehen werden:
 ### Häufig zu vermeidende Fehler
 
 
-Bitcoin steht allen offen, aber das bedeutet nicht, dass Sie unvorbereitet einsteigen sollten. Hier sind einige der klassischen Fehler, die von Neulingen gemacht werden:
+Bitcoin steht allen offen, aber das bedeutet nicht, dass Sie unvorbereitet einsteigen sollten. Hier sind einige der klassischen Fehler, die Neulinge machen:
 
 
 **Technische Fehler:**
 
 
 
-- Verlust Ihres seed-Satzes:** Ihr Wiederherstellungssatz (normalerweise 12 oder 24 Wörter) ist die einzige Möglichkeit, auf Ihren Bitcoin zuzugreifen, wenn Ihrem Wallet etwas zustößt. Wenn Sie sie verlieren, ist Ihr Guthaben für immer verloren;
-- Speichern Sie Ihre Bitcoins auf einer Drittanbieter-Plattform:** Wenn Ihre Münzen auf einer zentralen Plattform gespeichert sind, gehören sie Ihnen nicht wirklich. Sie sind Risiken wie Hacks, Plattformausfällen oder sogar Geldbeschlagnahmungen ausgesetzt;
-- Vernachlässigung der Privatsphäre:** Der Schutz Ihrer Privatsphäre ist ein wesentlicher Bestandteil der Sicherung Ihres Vermögens. Wenn Sie öffentlich bekannt geben, wie viel Bitcoin Sie besitzen, könnten Sie zu einer Zielscheibe werden;
-- Unzureichende Online-Sicherheit:** Wenn Sie Ihre Geräte nicht mit grundlegenden Schutzmaßnahmen (wie Updates, sicheren Passwörtern oder 2FA) absichern, sind Sie ein leichtes Ziel für Angreifer, und das kann Sie alles kosten.
+- Verlust Ihres Seeds: Ihr Wiederherstellungssatz (normalerweise 12 oder 24 Wörter) ist die einzige Möglichkeit, auf Ihren Bitcoin zuzugreifen, wenn Ihrem Wallet etwas zustößt. Wenn Sie den Seed verlieren, ist Ihr Guthaben für immer verloren;
+- Speichern der Bitcoins auf einer Drittanbieter-Plattform: Wenn Ihre Münzen auf einer zentralen Plattform gespeichert sind, gehören sie Ihnen nicht wirklich. Sie sind Risiken wie Hacks, Plattformausfällen oder sogar Geldbeschlagnahmungen ausgesetzt;
+- Vernachlässigung der Privatsphäre: Der Schutz Ihrer Privatsphäre ist ein wesentlicher Bestandteil der Sicherung Ihres Vermögens. Wenn Sie öffentlich bekannt geben, wie viel Bitcoin Sie besitzen, könnten Sie zu einer Zielscheibe werden;
+- Unzureichende Online-Sicherheit: Wenn Sie Ihre Geräte nicht mit grundlegenden Schutzmaßnahmen (wie Updates, sicheren Passwörtern oder 2FA) absichern, sind Sie ein leichtes Ziel für Angreifer, und das kann Sie alles kosten.
 
 
 **Finanzielle Fehler:**
 
 
 
-- Investieren Sie mehr, als Sie sich leisten können, zu verlieren**: Verschulden Sie sich niemals und stecken Sie Ihr Mietgeld nicht in Bitcoin. Ihre grundlegende finanzielle Stabilität sollte immer an erster Stelle stehen.
+- Sie investieren mehr, als Sie sich leisten können, zu verlieren**: Verschulden Sie sich niemals und stecken Sie Ihr Mietgeld nicht in Bitcoin. Ihre grundlegende finanzielle Stabilität sollte immer an erster Stelle stehen.
 
 
 
@@ -601,11 +601,11 @@ Bitcoin steht allen offen, aber das bedeutet nicht, dass Sie unvorbereitet einst
 
 
 
-- Vergessen Sie die Steuern**: Jedes Land hat seine eigenen Steuervorschriften für Kryptowährungen. Sie zu ignorieren, kann später zu bösen Überraschungen führen.
+- Sie vergessen die Steuern: Jedes Land hat seine eigenen Steuervorschriften für Kryptowährungen. Sie zu ignorieren, kann später zu bösen Überraschungen führen.
 
 
 
-- Auf FOMO** hereinfallen: Impulskäufe aus Angst, etwas zu verpassen, führen in der Regel zu schlechtem Timing und schlechten Entscheidungen. Geduld ist Ihr bester Verbündeter.
+- Auf FOMO hereinfallen: Impulskäufe aus Angst, etwas zu verpassen, führen in der Regel zu schlechtem Timing und schlechten Entscheidungen. Geduld ist Ihr bester Verbündeter.
 
 
 ![BTC102-Bitcoin](assets/fr/019.webp)
@@ -614,7 +614,7 @@ Bitcoin steht allen offen, aber das bedeutet nicht, dass Sie unvorbereitet einst
 ### Festlegung einer Anlagestrategie
 
 
-Bevor Sie Ihren ersten Satoshi kaufen, sollten Sie unbedingt verstehen, warum und wie Sie in Bitcoin investieren. Das bedeutet, dass Sie einen klaren Finanzplan haben müssen, der auf Ihre persönliche Situation und Ihre langfristigen Ziele zugeschnitten ist.
+Bevor Sie Ihren ersten Satoshis kaufen, sollten Sie unbedingt verstehen, warum und wie Sie in Bitcoin investieren. Das bedeutet, dass Sie einen klaren Finanzplan haben müssen, der auf Ihre persönliche Situation und Ihre langfristigen Ziele zugeschnitten ist.
 
 
 Legen Sie zunächst Ihr **Budget** genau fest. Wählen Sie nicht einfach eine beliebige Zahl aus. Nehmen Sie sich die Zeit, Ihr monatliches Einkommen zu berechnen, ziehen Sie Ihre festen Ausgaben (wie Miete, Darlehen, Steuern, Versorgungsleistungen) sowie Ihre täglichen Lebenshaltungskosten (Lebensmittel, Transport, Freizeit usw.) ab. Was übrig bleibt, ist Ihre Sparmarge, und nur von diesem Teil sollten Sie Investitionen in Betracht ziehen.
@@ -638,7 +638,7 @@ Am wichtigsten ist, dass Sie Investitionsentscheidungen nicht auf der Grundlage 
 
 Wenn Sie noch unsicher sind, **beginnen Sie mit dem Lernen**
 
-Verbringen Sie ein paar Stunden damit, Bitcoin zu erforschen, sehen Sie sich die kostenlosen Ressourcen zu Plan ₿ Network an, lesen Sie ein paar Bücher, werfen Sie fünf Euro ein, nur um es auszuprobieren, und sehen Sie sich einige hochwertige Inhalte online an. Bleiben Sie neugierig. Je wohler Sie sich fühlen, desto leichter wird es Ihnen fallen, Ihre Strategie zu überdenken, Ihren Ansatz zu optimieren und mit Zuversicht weiterzumachen.
+Verbringen Sie ein paar Stunden damit, Bitcoin zu erforschen, sehen Sie sich die kostenlosen Ressourcen von Plan ₿ Network an, lesen Sie ein paar Bücher, setzen Sie fünf Euros ein, nur um es auszuprobieren, und sehen Sie sich einige hochwertige Inhalte online an. Bleiben Sie neugierig. Je wohler Sie sich fühlen, desto leichter wird es Ihnen fallen, Ihre Strategie zu überdenken, Ihren Ansatz zu optimieren und mit Zuversicht weiterzumachen.
 
 
 ### Die Volatilität von BTC verstehen
@@ -657,7 +657,7 @@ Vor allem sollten Sie nie mehr investieren, als Sie sich leisten können, zu ver
 
 
 ### Verwaltung und Sicherung Ihres Bitcoin Wallet
-
+xxxx
 
 Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin ist die **Selbstverwaltung**. Bei einem selbst gehosteten Wallet sind Sie allein für Ihr Geld verantwortlich. Diese Wallets werden in der Regel aus einer **Wiederherstellungsphrase** (auch bekannt als seed-Phrase) generiert, einer Folge von 12 oder 24 Wörtern, die Ihnen vollen Zugriff auf Ihre BTC gewährt. Wenn Sie diese Phrase verlieren (oder wenn jemand anderes sie in die Hände bekommt), sind Ihre Bitcoins für immer weg. **Kein Kundendienst. Kein Reset-Knopf.**
 

@@ -96,7 +96,7 @@ En cliquant sur  " Expand" en bas à droite on peut étirer un peu la barre de m
 
 ![KRAKEN](assets/fr/18.webp)
 De haut en bas nous voyons l'onglet:
-- "Portfolio", qui vous permettra d'avoir un aperçu de vos avoirs en bitcoins, crypto, et autres monnaies fiat  (euro, dollars etc), ainsi que leur répartition en pourcentage.
+- "Portfolio", qui vous permettra d'avoir un aperçu de vos avoirs en bitcoins, crypto, et autres monnaies fiat  (euro, dollars etc), ainsi que leur répartition en pourcentage. Ce menu permet également
 - "Explore" par forément utile pour nous autres bitcoiners vous permets d'aller explorer le monde des shitcoins qui vous permettra de découvrir la pépite qui vous rendra pauvre à coup sur.
 - "Earn" on en parlera même pas car je n'encourage personne à l'utiliser (shitcoinery), et est hors sujet dans le cadre de ce tuto.
 - "Transfer" vous permet comme on le verra plus en détail par la suite, d'alimenter votre compte Kraken en satoshis/euros/fiat, ou au contraire de les retirer de la plateforme.
@@ -107,4 +107,63 @@ De haut en bas nous voyons l'onglet:
 ## 4 - Dépôt et retrait d’euros (fiat)
 
 Pour acquérir nos premiers "sats" il conviendra de déposer au préalable une monnaie fiat sur la plateforme , dans notre cas l'euro.
-Pour ce faire, choisissez le menu "Transfer"
+Pour ce faire, choisissez le menu "Home" en haut à droite, puis cliquez sur "Deposit" comme indiqué par les flèches ci-dessous.
+
+![KRAKEN](assets/fr/20.webp)
+Puis choisissez "Euro".
+
+![KRAKEN](assets/fr/21.webp)
+
+Sur l'écran suivant plusieurs moyen de déposer des euros sont proposés, nous traiterons ici le pluc courant, à savoir un virement bancaire classique SEPA.
+Pour cela choisissez "Manual Bank Transfer".
+
+![KRAKEN](assets/fr/22.webp)
+Puis sur "SEPA & SEPA Instant".
+
+![KRAKEN](assets/fr/23.webp)
+
+Enfin, faites un virement depuis votre banque en utilisant les coordonnées bancaires qui vous sont communiquées. **Attention, le nom associé au compte bancaire qui réalise le virement doit être le même que celui utilisé pour créer le compte Kraken**. Attendez (généralement quelques minutes que vos euros soient disponibles et apparaissent sur votre solde Kraken).
+
+![KRAKEN](assets/fr/24.webp)
+
+Si vous souhaitez retirer des euros ou plus généralement des "fiat" de la plateforme vers votre compte bancaire personnel, il vous faudra cliquer sur "Transfer" en haut à droite de l'écran puis sur "Withdraw".
+
+![KRAKEN](assets/fr/25.webp)
+
+Sélectionner la devise qui vous intéresse.
+
+![KRAKEN](assets/fr/26.webp)
+
+Puis dans le cas de l'euro, SEPA & SEPA Instant.
+
+![KRAKEN](assets/fr/27.webp)
+
+Puis renseignez le montant que vous souhaitez retirer de Kraken ainsi que les coordonnées bancaire du compte que vous souhaitez créditer.
+![KRAKEN](assets/fr/28.webp)
+
+## 5 - Dépôt et retrait de bitcoins
+
+Pour déposer des Bitcoin sur Kraken on procédera initialement de la même manière que pour déposer des euros, en cliquant sur " Deposit"  depuis l'écran d'accueil (le bouton "Transfer" en haut à droite permet également d'avoir accès à la fonction de dépot).
+
+![KRAKEN](assets/fr/20.webp)
+Cette fois sélectionnez "Bitcoin" évidemment.
+
+![KRAKEN](assets/fr/29.webp)
+
+Puis sélectionnez "Lightning" ou "Bitcoin" et ignorez soigneusement le reste, il s'agit de vulgaires shitcoins qui n'ont rien à voir avec Bitcoin.
+
+Pour rappel le réseau Lightning permet d'échanger du Bitcoin de manière instantanée et avec une vie privée accrue, comparé au réseau Bitcoin qui lui vous demandera quelques dizaines de minutes avant que l'échange ne soit considéré comme final.
+
+Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+![KRAKEN](assets/fr/30.webp)
+
+Un message d'avertissement apparait vous indiquant de ne déposer que du Bitcoin sur l'adresse qui va vous être présentée via l'écran suivant. Cela va de soit, de toute façon personne n'a autre chose que du Bitcoin ici, pas vrais ?  Cliquez sur "I understand".
+
+![KRAKEN](assets/fr/31.webp)
+
+Scanner les QR code qui vous est proposé avec votre wallet Bitcoin favori, ou copiez l'adresse si vous utilisez un wallet sur le même ordinateur. **Il faudra attendre 3 confirmation soit en  moyenne 45 min avant de voir vos fonds être crédités sur voter compte Kraken**
+
+![KRAKEN](assets/fr/32.webp)

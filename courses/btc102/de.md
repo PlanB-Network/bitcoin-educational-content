@@ -657,9 +657,9 @@ Vor allem sollten Sie nie mehr investieren, als Sie sich leisten können, zu ver
 
 
 ### Verwaltung und Sicherung Ihres Bitcoin Wallet
-xxxx
 
-Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin ist die **Selbstverwaltung**. Bei einem selbst gehosteten Wallet sind Sie allein für Ihr Geld verantwortlich. Diese Wallets werden in der Regel aus einer **Wiederherstellungsphrase** (auch bekannt als seed-Phrase) generiert, einer Folge von 12 oder 24 Wörtern, die Ihnen vollen Zugriff auf Ihre BTC gewährt. Wenn Sie diese Phrase verlieren (oder wenn jemand anderes sie in die Hände bekommt), sind Ihre Bitcoins für immer weg. **Kein Kundendienst. Kein Reset-Knopf.**
+
+Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin ist die **Selbstverwaltung**. Bei einem selbst gehosteten Wallet sind Sie allein für Ihr Geld verantwortlich. Diese Wallets werden in der Regel aus einer **Wiederherstellungsphrase** (auch bekannt als Seed-Phrase) generiert, einer Folge von 12 oder 24 Wörtern, die Ihnen vollen Zugriff auf Ihre BTC gewährt. Wenn Sie diese Phrase verlieren (oder wenn jemand anderes sie in die Hände bekommt), sind Ihre Bitcoins für immer weg. **Kein Kundendienst. Kein Reset-Knopf.**
 
 
 ![BTC102-Bitcoin](assets/fr/023.webp)
@@ -667,21 +667,21 @@ Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin is
 
 Deshalb lautet die goldene Regel in Bitcoin:
 
-"***Nicht Ihre Schlüssel, nicht Ihre Münzen***". Wenn Sie nicht persönlich die Kontrolle über Ihre privaten Schlüssel haben, gehört Ihnen Ihr Bitcoin nicht wirklich. Börsen können zwar praktisch sein (vor allem zu Beginn), aber sie halten Ihre Schlüssel für Sie. Das bedeutet, dass Ihr Geld in Gefahr ist, wenn die Plattform gehackt wird, Ihr Konto einfriert oder bankrott geht.
+"***Nicht Ihre Schlüssel, nicht Ihre Münzen***" (not your key, not your coins). Wenn Sie nicht persönlich die Kontrolle über Ihre privaten Schlüssel haben, gehört Ihnen Ihr Bitcoin nicht wirklich. Börsen können zwar praktisch sein (vor allem zu Beginn), aber sie halten Ihre Schlüssel für Sie. Das bedeutet, dass Ihr Geld in Gefahr ist, wenn die Plattform gehackt wird, Ihr Konto einfriert oder bankrott geht.
 
 
 ![BTC102-Bitcoin](assets/fr/024.webp)
 
 
-Um dieses Risiko zu vermeiden, wird dringend empfohlen, einen **eigenen Wallet** einzurichten, bei dem nur Sie Zugriff auf die Wiederherstellungsphrase haben. Diese Phrase sollte immer handschriftlich notiert und **offline** an einem sicheren Ort gespeichert werden. Manche Benutzer **erhalten sogar mehrere Sicherungskopien**, die zur zusätzlichen Sicherheit an verschiedenen geografischen Orten aufbewahrt werden.
+Um dieses Risiko zu vermeiden, wird dringend empfohlen, ein **eigenes Wallet** einzurichten, bei dem nur Sie Zugriff auf die Wiederherstellungsphrase haben. Diese Phrase sollte immer handschriftlich notiert und **offline** an einem sicheren Ort gespeichert werden. Manche Benutzer **erhalten sogar mehrere Sicherungskopien**, die zur zusätzlichen Sicherheit an verschiedenen geografischen Orten aufbewahrt werden.
 
 
 **Speichern Sie Ihre Wiederherstellungsphrase niemals auf einem mit dem Internet verbundenen Gerät oder in der Cloud**.
 
-**Ein einziger Hack oder eine Datenverletzung kann zu irreversiblen Schäden führen
+Ein einziger Hack oder eine Datenverletzung kann zu irreversiblen Schäden führen
 
 
-Wenn Sie bereit sind, Ownership von Ihrem Bitcoin zu übernehmen und tiefer in die bewährten Verfahren zur Sicherung Ihrer Wiederherstellungsphrase eintauchen möchten, empfehle ich Ihnen diesen Artikel:
+Wenn Sie bereit sind, die volle Verantwortung für Ihre Bitcoins zu übernehmen und tiefer in die bewährten Verfahren zur Sicherung Ihrer Wiederherstellungsphrase eintauchen möchten, empfehle ich Ihnen diesen Artikel:
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -694,13 +694,13 @@ In der heutigen digitalen Welt wird **Diskretion oft übersehen**; sie ist jedoc
 Es gab zahlreiche Fälle auf der ganzen Welt, in denen Personen, die bekanntermaßen große Mengen an BTC besitzen, entführt oder überfallen wurden.
 
 
-**Vermeiden Sie es, mit Ihrem Bitcoin Stash** zu prahlen, sei es in sozialen Medien oder sogar in lockeren Gesprächen. Die Preisgabe sensibler finanzieller Informationen hat keine Vorteile, und die Risiken sind real.
+**Vermeiden Sie es, mit Ihrem Bitcoin Vermögen** zu prahlen, sei es in sozialen Medien oder sogar in lockeren Gesprächen. Die Preisgabe sensibler finanzieller Informationen hat keine Vorteile, und die Risiken sind real.
 
 
 Es ist auch ratsam, Ihre Online-Aktivitäten **aufzuteilen**. Zum Beispiel:
 
 
-- Verwenden Sie für alles, was mit Bitcoin zu tun hat, eine separate E-Mail Address, die sich von Ihren persönlichen oder beruflichen Konten unterscheidet.
+- Verwenden Sie für alles, was mit Bitcoin zu tun hat, eine separate E-Mail Adresse, die sich von Ihren persönlichen oder beruflichen Konten unterscheidet.
 - Seien Sie vorsichtig bei Phishing-Versuchen, verdächtigen Links und gefälschten Websites, die vertrauenswürdige Plattformen imitieren.
 - Bleiben Sie wachsam! Diskretion und Wachsamkeit sind oft Ihre beste Verteidigung.
 
@@ -730,16 +730,16 @@ Es wird dringend empfohlen, vor größeren Transaktionen einen Steuerfachmann zu
 ### Der Unterschied zwischen Handeln, Investieren und Halten
 
 
-Bitcoin ist oft von populären Missverständnissen umgeben; eines der häufigsten ist die Vorstellung, dass es ein schneller Weg ist, durch den Handel reich zu werden. Es ist jedoch wichtig, den klaren Unterschied zwischen Trading, Investieren und Halten zu verstehen, da jeder Ansatz seine eigene Denkweise, seine eigenen Fähigkeiten und sein eigenes Risikoniveau mit sich bringt.
+Im Zusammenhang mit Bitcoin gibt es viele populäre Missverständnisse; eines der häufigsten ist die Vorstellung, dass es ein schneller Weg ist, durch den Handel reich zu werden. Es ist jedoch wichtig, den klaren Unterschied zwischen Trading, Investieren und Halten zu verstehen, da jeder Ansatz seine eigene Denkweise, seine eigenen Fähigkeiten und sein eigenes Risikoniveau mit sich bringt.
 
 
 
-- Handel :**
+- Handel :
 
 
 Seien wir ehrlich: **Sie sollten wahrscheinlich nicht handeln.**
 
-Der Handel beinhaltet kurzfristige Spekulationen (manchmal mit Hebelwirkung) mit dem Ziel, von den Kursschwankungen von Bitcoin zu profitieren. Das mag zwar verlockend klingen, aber erfolgreicher Handel erfordert fortgeschrittene technische Kenntnisse (wie Chartanalyse und Risikomanagement), emotionale Disziplin und ständige Aufmerksamkeit für den Markt. Es ist geistig anstrengend und zeitaufwendig, und die Hard Wahrheit ist, dass **die meisten Anfänger Geld verlieren**, weil sie unterschätzen, wie anspruchsvoll es wirklich ist.
+Der Handel beinhaltet kurzfristige Spekulationen (manchmal mit Hebelwirkung) mit dem Ziel, von den Kursschwankungen von Bitcoin zu profitieren. Das mag zwar verlockend klingen, aber erfolgreicher Handel erfordert fortgeschrittene technische Kenntnisse (wie Chartanalyse und Risikomanagement), emotionale Disziplin und ständige Aufmerksamkeit für den Markt. Es ist geistig anstrengend und zeitaufwendig, und die harte Wahrheit ist, dass **die meisten Anfänger Geld verlieren**, weil sie unterschätzen, wie anspruchsvoll es wirklich ist.
 
 Wie Warren Buffett bekanntlich sagte:
 
@@ -752,7 +752,7 @@ Bitcoin ist kein System, mit dem man schnell reich werden kann.
 - Investition:**
 
 
-Investoren sind mittel- bis langfristig orientiert und kaufen Bitcoin in dem Glauben, dass sein Wert im Laufe der Zeit (Monate, Jahre oder sogar Jahrzehnte) steigen wird. Natürlich besteht immer noch ein Risiko, da der Preis von Bitcoin erheblich schwanken kann. Aber diese Herangehensweise ist im Allgemeinen ruhiger und für die meisten Menschen weitaus praktischer, insbesondere für diejenigen, die nicht jeden Tag stundenlang an den Charts kleben wollen.
+Investoren sind mittel- bis langfristig orientiert und kaufen Bitcoin in dem Glauben, dass sein Wert im Laufe der Zeit (Monate, Jahre oder sogar Jahrzehnte) steigen wird. Natürlich besteht immer noch ein Risiko, da der Preis von Bitcoin erheblich schwanken kann. Aber diese Herangehensweise ist im Allgemeinen empfehlenswerter und für die meisten Menschen weitaus praktischer, insbesondere für diejenigen, die nicht jeden Tag stundenlang die Charts anschauen wollen.
 
 
 
@@ -761,19 +761,19 @@ Investoren sind mittel- bis langfristig orientiert und kaufen Bitcoin in dem Gla
 
 "HODL" war ursprünglich ein Tippfehler für "hold" und wurde schnell Teil der Bitcoin-Kultur. Heute ist es ein Ehrenabzeichen.
 
-Die Hodlers sind sehr langfristig orientiert, manchmal zehn Jahre oder länger. Sie lagern ihr Bitcoin sicher und warten einfach ab, weil sie von dem langfristigen Potenzial von Bitcoin fest überzeugt sind. Sie lassen sich von täglichen Preisschwankungen oder Bärenmärkten nicht aus der Ruhe bringen. Ihre Denkweise ist einfach: ansammeln, sichern und abwarten.
+Die Hodlers sind sehr langfristig orientiert, manchmal zehn Jahre oder länger. Sie lagern ihre Bitcoins sicher und warten einfach ab, weil sie von dem langfristigen Potenzial von Bitcoin fest überzeugt sind. Sie lassen sich von täglichen Preisschwankungen oder Bärenmärkten nicht aus der Ruhe bringen. Ihre Denkweise ist einfach: ansammeln, sichern und abwarten.
 
 
-|          | Trading | Investment | Holding |
+|          | Handeln | Investieren | Halten |
 | ---------------------- | ----------- | -------------- | --------------- |
-| Leverage | Yes  | No | No |
-| Timeframe | Short-term | Medium-term | Very long-term |
-| Asset Type | Contracts | Actual BTC | Actual BTC |
-| Risk Level | Very high | High | High |
-| Difficulty | Very Hard | Hard | Hard |
-| learning curve | Long learning curve | Long learning curve | Long learning curve |
-| Potential Loss | UnLimited | Limited | Limited |
-| Best For | A few experienced users | Most People | Long-term Believers |
+| Leverage | Ja  | Nein | Nein |
+| zeitspanne | kurzfristig | mittelfristig | langfristig |
+| Vermögenstyp | Verträge | Echte BTC | Echte BTC |
+| Risikostufe | sehr hoch | hoch | hoch |
+| Schwierigkeitsgrad | sehr schwierig | schwierig | schwierig |
+| Lernkurve | Lange Lernkurve | Lange Lernkurve  | Lange Lernkurve  |
+| Potentieller Verlust | Unlimitiert | limitiert | limitiert |
+| Am besten für | wenige erfahrene Nutzer | die meisten Menschen | langfristig, überzeugte Menschen |
 
 ### Weiter lernen
 
@@ -798,10 +798,10 @@ Zum Schluss noch ein paar zeitlose Prinzipien, die jeder Bitcoiner (besonders An
 
 
 - Regel Nr. 1**: Investieren Sie nie mehr, als Sie sich leisten können, zu verlieren. Bitcoin ist ein volatiler Vermögenswert. Riskieren Sie nicht Ihre finanzielle Stabilität auf der Jagd nach Gewinnen. Ihre grundlegenden Bedürfnisse und Ihr Seelenfrieden sollten immer an erster Stelle stehen.
-- Regel Nr. 2**: Folgen Sie nicht blindlings dem Hype und vertrauen Sie nicht auf Wundermittel. Ignorieren Sie Trends und auffällige Versprechungen. Konzentrieren Sie sich stattdessen darauf, gut informierte, rationale Entscheidungen zu treffen. Schlafen Sie im Zweifelsfall eine Nacht drüber; sprechen Sie mit Menschen, denen Sie vertrauen, darüber. Es ist besser, langsam und bedacht vorzugehen, als sich in kostspielige Fehler zu stürzen.
+- Regel Nr. 2**: Folgen Sie nicht blindlings dem Hype und vertrauen Sie nicht auf Wundermittel. Ignorieren Sie Trends und auffällige Versprechungen. Konzentrieren Sie sich stattdessen darauf, gut informierte, rationale Entscheidungen zu treffen. Schlafen Sie im Zweifelsfall eine Nacht drüber; sprechen Sie mit Menschen darüber, denen Sie vertrauen. Es ist besser, langsam und bedacht vorzugehen, als sich in kostspielige Fehler zu stürzen.
 - Regel Nr. 3**: Erstellen Sie einen Plan und verfolgen Sie eine langfristige Vision.
 
-Beständigkeit, Geduld und Disziplin bringen Sie weiter als kurzfristige Aufregung. Streben Sie nicht nach "Mondschüssen", sondern nach nachhaltigem Wachstum. Vermeiden Sie fatale Fehler und lassen Sie kleine Erfolge mit der Zeit wachsen.
+Beständigkeit, Geduld und Disziplin bringen Sie weiter als kurzfristige Aufregung. Streben Sie nicht danach "zum Mond zu reisen", sondern nach nachhaltigem Wachstum. Vermeiden Sie fatale Fehler und lassen Sie kleine Erfolge mit der Zeit wachsen.
 
 
 Wenn Sie diese Grundsätze befolgen, können Sie Bitcoin-Investitionen mit mehr Klarheit und Gelassenheit angehen. Ja, Bitcoin ist unbeständig und kann anfangs einschüchternd wirken, aber wenn man sich ihm mit Vorsicht, Geduld und einer bodenständigen Einstellung nähert, birgt er unbestreitbares Potenzial. Nehmen Sie sich die Zeit, Ihr Wissen aufzubauen, überprüfen Sie Ihre Strategie bei Bedarf und denken Sie vor allem daran: Langsame und stetige Fortschritte sind immer besser als überstürzte Schritte aus Angst oder Ungeduld.

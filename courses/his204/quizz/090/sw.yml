@@ -1,0 +1,8 @@
+question: Kwa nini tunasema kwamba katika Exchange huwa tunatoa kidogo ili kupokea zaidi?
+answer: Kwa sababu huwa tunaacha kitu ambacho tunathamini kidogo kwa kitu tunachothamini zaidi
+wrong_answers:
+  - Kwa sababu ni mchezo wa kijinga, ambapo tunauza bidhaa zetu kwa zaidi ya thamani yake
+  - Kwa sababu pesa ina thamani, kila mauzo ni utajiri
+  - Kwa sababu wauzaji daima ni nadhifu kuliko wanunuzi
+explanation: |
+  Tunatoa kile tunachothamini kidogo ili kupata kile tunachothamini zaidi, na kuifanya Exchange kuwa ya manufaa kwa pande zote.

@@ -1,0 +1,32 @@
+id: db367162-502d-45a0-abfe-f357baa36266
+
+name: West Data Group
+
+address_line_1: Addis Ababa, Ethiopia
+address_line_2:
+address_line_3: 
+
+links:
+  website: 
+  twitter: https://x.com/WestDataGroup
+  Github: 
+  youtube: 
+
+category: mining
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - mining
+  - bitcoin
+  - energy
+
+contributor_names:
+  - Gloirew

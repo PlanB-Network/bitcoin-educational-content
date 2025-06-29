@@ -1,4 +1,4 @@
-question: Zašto je broj potvrda u Bitcoin transakciji važan?
+question: Zašto je broj potvrda u Bitkoin transakciji važan?
 answer: Što više potvrda transakcija ima, to postaje nepromenljivija.
 wrong_answers:
   - Što više potvrda transakcija ima, to postaje vrednija.

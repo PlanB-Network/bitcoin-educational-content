@@ -1,0 +1,32 @@
+id: e874db8a-ad02-4f03-bdb5-f2b74ab15ea2
+
+name: Bitcoin Dada
+
+address_line_1: Nairobi, Kenya
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://btcdada.com/about/
+  twitter: https://x.com/btc_dada
+  Github: 
+  youtube: https://www.youtube.com/@bitcoindada
+
+category: education
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-17
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 0
+
+tags:
+  - education
+  - bitcoin
+  - freedom
+
+contributor_names:
+  - Gloirew

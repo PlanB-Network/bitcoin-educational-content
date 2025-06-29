@@ -1,0 +1,9 @@
+question: Mining सब्सिडी के क्रमादेशित प्रभाग को किस शब्द से संदर्भित किया जाता है?
+answer: जीडब्ल्यू-1
+wrong_answers:
+  - जीडब्ल्यू-2
+  - द्विविभाजितता
+  - कॉइनबेस
+explanation: |
+  Halving का तात्पर्य प्रत्येक 210,000 ब्लॉक पर Mining सब्सिडी के Halving से है।
+reviewed: false

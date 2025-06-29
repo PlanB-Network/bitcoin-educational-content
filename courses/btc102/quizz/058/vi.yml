@@ -1,0 +1,9 @@
+question: Giải pháp lưu trữ Cold nào được khuyến nghị cho người dùng hay lo lắng?
+answer: Hardware Wallet có khoảng cách không khí hoặc tự làm
+wrong_answers:
+  - Di động Hot Wallet
+  - Dịch vụ bảo quản trên giàn khoan Exchange
+  - Nguồn đóng mục đích chung Hardware Wallet
+explanation: |
+  Người dùng hoang tưởng thường ưu tiên lưu trữ ngoại tuyến bằng các giải pháp nguồn mở để giảm thiểu rủi ro bị lộ thông tin.
+reviewed: false

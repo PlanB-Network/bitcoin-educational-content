@@ -1,0 +1,9 @@
+question: Tiết lộ quá nhiều thông tin trong kế hoạch thừa kế sẽ gây ra rủi ro lớn nào?
+answer: Nguy cơ trộm cắp
+wrong_answers:
+  - Rủi ro mất mát
+  - Rủi ro mất giá
+  - Rủi ro của quy định
+explanation: |
+  Quá nhiều thông tin có thể giúp kẻ xấu dễ dàng hành động hơn nếu chúng có quyền truy cập vào kế hoạch thừa kế của bạn.
+reviewed: false

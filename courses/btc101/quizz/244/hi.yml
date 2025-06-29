@@ -1,0 +1,8 @@
+question: Lightning Network का स्वयं परीक्षण करने का एक तरीका क्या है?
+answer: फाउंटेन नामक पॉडकास्ट एप्लिकेशन को आज़माकर।
+wrong_answers:
+  - Mining Bitcoin द्वारा पर्सनल कंप्यूटर का उपयोग किया गया।
+  - बैंक से Bitcoin खरीदकर।
+  - एक नई क्रिप्टोकरेंसी बनाकर।
+explanation: >-
+reviewed: true

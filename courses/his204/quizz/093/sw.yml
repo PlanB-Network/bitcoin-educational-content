@@ -1,0 +1,8 @@
+question: Sababu gani Condorcet alitoa kwa Turgot kushindwa?
+answer: Alikuwa mkamilifu sana katika kanuni zake
+wrong_answers:
+  - Hakuwa na ustadi sana katika ujanja wa kisiasa
+  - Katiba yake ya kimwili ilikuwa dhaifu sana
+  - Alikuwa mdogo sana
+explanation: |
+  Condorcet alihisi kuwa Turgot alikuwa mgumu sana katika kanuni zake na hataki kuafikiana.

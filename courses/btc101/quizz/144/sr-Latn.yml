@@ -1,4 +1,4 @@
-question: Koji je zahtev za propusni opseg za pokretanje Bitcoin čvora, uzimajući u obzir 1 blok od 1MB svakih 10 minuta?
+question: Koji je zahtev za propusni opseg za pokretanje Bitkoin čvora, uzimajući u obzir 1 blok od 1MB svakih 10 minuta?
 answer: Otprilike 5GB mesečno.
 wrong_answers:
   - Otprilike 1GB mesečno.

@@ -1,0 +1,8 @@
+question: In 1776, Le commerce et le gouvernement considérés relativement l'un avec l'autre was published. What other book was published the same year?
+answer: The Wealth of Nations by Adam Smith
+wrong_answers:
+  - Jean-Baptiste Say's Treatise on Political Economy
+  - Turgot's Reflections on the formation and distribution of wealth
+  - The Social Contract
+explanation: |
+  adam Smith's "The Wealth of Nations" was published in 1776, a pivotal year for economic thought.

@@ -1,0 +1,8 @@
+question: Iliyochapishwa bila kujulikana, L'Ami des Hommes ilivutia kiasi kwamba ilihusishwa na ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes ilihusishwa kwa mara ya kwanza na Montesquieu kwa mtindo na umuhimu wake, kabla ya kugunduliwa kwamba mwandishi alikuwa Marquis de Mirabeau.

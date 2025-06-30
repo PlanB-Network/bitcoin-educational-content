@@ -1,0 +1,9 @@
+question: Schema की RGB में क्या भूमिका है?
+answer: Contract चर, नियम और Business Logic को परिभाषित करें
+wrong_answers:
+  - प्रतिभागियों के बीच स्टोर की खेप का आदान-प्रदान
+  - Bitcoin लेनदेन पर पेडरसन प्रतिबद्धताओं को मान्य करना
+  - प्रत्येक UTXO के लिए Seal परिभाषाएँ बनाएँ
+explanation: |
+  Schema, Contract की स्थिति को संरचित करता है तथा अनुमत संक्रमणों और सत्यापन स्थितियों को निर्धारित करता है।
+reviewed: false

@@ -1,11 +1,11 @@
-question: Koji je datum poslednje poznate privatne poruke Satoshi Nakamota putem e-pošte?
-answer: 23. april 2011.
+question: Koji je datum poslednje poznate privatne poruke Satoshi-ja Nakamoto-a putem e-pošte?
+answer: 23. april 2011.god.
 wrong_answers:
-  - 12. decembar 2010.
-  - 8. januar 2009.
-  - 31. oktobar 2008.
+  - 12. decembar 2010.god.
+  - 8. januar 2009.god.
+  - 31. oktobar 2008.god.
 explanation: |
-  Datum poslednje poznate privatne poruke Satoshi
-  Nakamoto putem email-a je 23. april 2011. Poslata je
+  Datum poslednje poznate privatne poruke Satoshi-ja
+  Nakamoto-a putem email-a je 23. april 2011. Poslata je
   razvojnom programeru Majku Hirnu.
 reviewed: true

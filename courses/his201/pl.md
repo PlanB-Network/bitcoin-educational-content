@@ -983,40 +983,40 @@ Twórca Bitcoina zaangażował go do współtworzenia [strony internetowej](http
 
 
 
-- "Łatwo przelewaj pieniądze przez Internet, bez konieczności ufania stronom trzecim"
-- "Żadna strona trzecia nie może zapobiec transakcjom ani ich kontrolować"
-- "Chroń się przed niestabilnością spowodowaną bankowością opartą na rezerwie cząstkowej i złą polityką banków centralnych. Ograniczona inflacja pieniądza Bitcoin systemu Supply jest równomiernie rozłożona (według mocy obliczeniowej) w całej sieci, a nie zmonopolizowana przez banki."
-- "Wartość Bitcoin prawdopodobnie wzrośnie, ponieważ wzrost gospodarki Bitcoin przewyższa stopę inflacji - rozważ Bitcoin jako inwestycję i zacznij uruchamiać węzeł już dziś!"
+- „Łatwo przelewaj pieniądze przez Internet, bez konieczności ufania stronom trzecim”
+- „Żadna strona trzecia nie może zapobiec transakcjom ani ich kontrolować”
+- „Chroń się przed niestabilnością spowodowaną bankowością opartą na rezerwach cząstkowych i złą polityką banków centralnych. Ograniczona inflacja bitcoina jest równomiernie rozłożona (według mocy obliczeniowej) w całej sieci, a nie zmonopolizowana przez banki.”
+- „Wartość bitcoina prawdopodobnie wzrośnie, ponieważ wzrost gospodarki Bitcoin przewyższa stopę inflacji - rozważ Bitcoina jako inwestycję i uruchom węzeł sieci już dziś!”
 
 
-Satoshi [ogólnie aprobuje](https://mmalmi.github.io/Satoshi/#email-5) tę prezentację, choć ma pewne zastrzeżenia. Jest](https://mmalmi.github.io/Satoshi/#email-19) szczególnie "niewygodny" z deklarowaniem Bitcoin jako "inwestycji", prawdopodobnie obawiając się prawnych implikacji takiego stwierdzenia. Strona została [opublikowana](https://mmalmi.github.io/Satoshi/#email-9) 6 maja, a dwa dni później Martti Malmi promował ją, udostępniając link na platformach [Hackernews](https://news.ycombinator.com/item?id=599852) i [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/). Nieco zmodyfikowana wersja tego opisu [została znaleziona](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) na głównej stronie internetowej do końca 2009 roku.
+Satoshi [ogólnie aprobuje](https://mmalmi.github.io/Satoshi/#email-5) tę prezentację, choć ma pewne zastrzeżenia. [Czuje się](https://mmalmi.github.io/Satoshi/#email-19) szczególnie „niewygodnie” z traktowaniem Bitcoina jako „inwestycj”, prawdopodobnie obawiając się prawnych implikacji takiego stwierdzenia. Strona została [opublikowana](https://mmalmi.github.io/Satoshi/#email-9) 6 maja, a dwa dni później Martti Malmi promował ją, udostępniając linka na platformach [Hackernews](https://news.ycombinator.com/item?id=599852) i [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/). Nieco zmodyfikowana wersja tego opisu [istniała](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) na głównej stronie internetowej do końca 2009 roku.
 
 
-Wiosną 2009 r. pojawiło się również słowo "kryptowaluta", które początkowo było używane w odniesieniu do Bitcoin. 11 maja Satoshi [napisał](https://mmalmi.github.io/Satoshi/#email-19) do Martti Malmi:
+Wiosną 2009 r. pojawiło się również słowo „kryptowalut”, które początkowo było używane w odniesieniu do bitcoina. 11 maja Satoshi [napisał](https://mmalmi.github.io/Satoshi/#email-19) do Martti'ego Malmi:
 
 
-> "Ktoś wymyślił słowo 'kryptowaluta'... może to jest słowo, którego powinniśmy użyć do opisania Bitcoin, podoba ci się?"
+> „Ktoś wymyślił słowo 'kryptowaluta'... może to jest słowo, którego powinniśmy używać do opisywania Bitcoina, podoba ci się?”
 
-Młody Fin zgadza się i sugeruje, że "Kryptowaluta P2P" mogłaby być sloganem dla Bitcoin. Sugestia ta zostanie wprowadzona w życie: tytuł strony wprowadzającej będzie brzmiał "Kryptowaluta Bitcoin P2P", a ogłoszenie wersji 0.3 w lipcu 2010 będzie opisywało projekt jako "Bitcoin, kryptowaluta P2P".
-
-
-### Dwa fora poświęcone Bitcoin
+Młody Fin zgadza się i sugeruje, że „Kryptowaluta P2P” mogłaby być sloganem dla Bitcoina. Sugestia ta zostanie wprowadzona w życie: tytuł strony wprowadzającej będzie brzmiał „Bitcoin Kryptowaluta P2P”, a ogłoszenie wersji 0.3 w lipcu 2010 będzie opisywało projekt jako „Bitcoin, kryptowaluta P2P”.
 
 
-Martti Malmi zakłada również forum i wiki, wciąż na stronie SourceForge. Te Elements zostały [otwarte](https://mmalmi.github.io/Satoshi/#email-17) 9 czerwca. 13 czerwca Malmi [ogłasza](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) istnienie strony SourceForge, forum i wiki na liście mailingowej Bitcoin:
+### Dwa fora poświęcone Bitcoinowi
 
 
-> "Nowa strona/portal Bitcoin jest już dostępna pod adresem Bitcoin.sourceforge.net. Znajdują się tam fora i wiki, więc zapraszamy do dyskusji i tworzenia dokumentacji wiki."
-
-To forum znajduje swoich odbiorców. Wydaje się nawet, że [prowadzi](https://mmalmi.github.io/Satoshi/#email-27) do utworzenia dedykowanego kanału IRC dla rozwoju (#Bitcoin-dev) w sierpniu. Nie mamy jednak archiwum, ponieważ był on dostępny tylko dla jego członków.
+Martti Malmi zakłada również forum i wiki, wciąż na stronie SourceForge. Te elementy [otworzono](https://mmalmi.github.io/Satoshi/#email-17) 9 czerwca. 13 czerwca Malmi [ogłasza](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) istnienie strony SourceForge, forum i wiki na liście mailingowej Bitcoin:
 
 
-Z biegiem miesięcy coraz więcej osób rejestruje się i uczestniczy w tym pierwszym forum, co sprawia, że Satoshi zdaje sobie sprawę, że infrastruktura oprogramowania stworzona przez Malmi nie jest wystarczająca. 5 listopada pisze do młodego Fina, sugerując stworzenie nowego forum, które mogłoby obsłużyć większy ruch:
+> „Nowa strona/portal Bitcoin jest już dostępna pod adresem Bitcoin.sourceforge.net. Znajdują się tam fora i wiki, więc zapraszamy do dyskusji i tworzenia dokumentacji wiki.”
+
+To forum znajduje swoich odbiorców. Wydaje się nawet, że [prowadzi](https://mmalmi.github.io/Satoshi/#email-27) do utworzenia dedykowanego kanału IRC dla developerów (#Bitcoin-dev) w sierpniu. Nie mamy jednak archiwum, ponieważ kanał był dostępny tylko dla jego członków.
 
 
-> "Teraz, gdy forum na Bitcoin.sourceforge.net zdobywa popularność, naprawdę powinniśmy poszukać miejsca, które udostępnia pełne oprogramowanie forum"
+Z biegiem miesięcy coraz więcej osób rejestruje się i uczestniczy w tym pierwszym forum, co sprawia, że Satoshi zdaje sobie sprawę, że infrastruktura oprogramowania stworzona przez Malmiego nie jest wystarczająca. 5 listopada pisze do młodego Fina, sugerując stworzenie nowego forum, które mogłoby obsłużyć większy ruch:
 
-Po kilku dyskusjach na temat technicznego rozwiązania, które należy przyjąć, Martti Malmi [instaluje](https://mmalmi.github.io/Satoshi/#email-93) forum na swoim serwerze 17 listopada, a Satoshi zaczyna je [konfigurować](https://mmalmi.github.io/Satoshi/#email-99) 19 listopada. Począwszy od 22 listopada, twórca Bitcoin przenosi kilka pytań i odpowiedzi ze starego forum, które dotyczą takich tematów jak prywatność, Mining i Linux. Publikuje również [wiadomość powitalną](https://bitcointalk.org/index.php?topic=5.msg28#msg28). 25-go forum zostaje [uruchomione](https://mmalmi.github.io/Satoshi/#email-110) na Address Bitcoin.org/smf.
+
+> „Teraz, gdy forum na Bitcoin.sourceforge.net zdobywa popularność, naprawdę powinniśmy poszukać miejsca, które za darmo hostuje oprogramowanie forum na wielką skalę.”
+
+Po kilku dyskusjach na temat technicznego rozwiązania, które należy przyjąć, Martti Malmi [instaluje](https://mmalmi.github.io/Satoshi/#email-93) forum na swoim serwerze 17 listopada, a Satoshi zaczyna je [konfigurować](https://mmalmi.github.io/Satoshi/#email-99) 19 listopada. Począwszy od 22 listopada, twórca Bitcoina przenosi kilka pytań i odpowiedzi ze starego forum, które dotyczą takich tematów jak prywatność, wydobywanie bloków i Linux. Publikuje również [wiadomość powitalną](https://bitcointalk.org/index.php?topic=5.msg28#msg28). 25-go forum zostaje [uruchomione](https://mmalmi.github.io/Satoshi/#email-110) pod adresem Bitcoin.org/smf.
 
 
 Pierwsi użytkownicy zaczynają się rejestrować na początku następnego miesiąca. 9 grudnia pojawia się [pierwsza wiadomość](https://bitcointalk.org/index.php?topic=12.msg40#msg40) wysłana przez kogoś innego niż Satoshi, co naprawdę rozpoczyna dyskusje. Jako ilustracja, oto [zrzut ekranu](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) forum z 29 maja 2010 roku:
@@ -1025,10 +1025,10 @@ Pierwsi użytkownicy zaczynają się rejestrować na początku następnego miesi
 ![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/29.webp)
 
 
-Uruchomienie nowego forum było okazją do wydania [wersji 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) oprogramowania, nad którym Satoshi Nakamoto i Martti Malmi pracowali od miesięcy, co nastąpiło 16 grudnia. Wersja ta zawiera ulepszenia takie jak minimalizacja do paska zadań, automatyczne uruchamianie przy starcie, czy wielowątkowość dla produkcji Mining. Oprogramowanie zostało również dostosowane do systemu Linux, dzięki wkładowi Malmi i testom przeprowadzonym przez nowo przybyły NewLibertyStandard (którego przypadek zostanie omówiony w następnym rozdziale).
+Uruchomienie nowego forum było okazją do wydania [wersji 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) oprogramowania, nad którym Satoshi Nakamoto i Martti Malmi pracowali od miesięcy, co nastąpiło 16 grudnia. Wersja ta zawiera ulepszenia takie jak minimalizacja do paska zadań, automatyczne uruchamianie przy starcie, czy wielowątkowość wydobywania bloków. Oprogramowanie zostało również dostosowane do systemu Linux, dzięki wkładowi Malmiego i testom przeprowadzonym przez nowo przybyłego NewLibertyStandard (którego przypadek zostanie omówiony w następnym rozdziale).
 
 
-Na tym forum, które w sierpniu 2011 r. przekształciło się w BitcoinTalk, Satoshi napisał łącznie 539 wiadomości. W ten sposób był w stanie udzielić wyjaśnień technicznych, wyjaśnić różne mechanizmy ekonomiczne i ogólnie podzielić się swoim punktem widzenia na temat Bitcoin. Ten zbiór wiadomości stanowił większość pozostawionego przez niego korpusu.
+Na forum tym, które w sierpniu 2011 r. przekształciło się w BitcoinTalk, Satoshi napisał łącznie 539 wiadomości. W ten sposób był w stanie udzielić wyjaśnień technicznych, wyjaśnić różne mechanizmy ekonomiczne i podzielić się swoim ogólnym punktem widzenia na temat Bitcoina. Ten zbiór wiadomości stanowi większość pozostawionych przez niego tekstów.
 
 
 ### Komunikacja w etapach
@@ -1037,17 +1037,17 @@ Na tym forum, które w sierpniu 2011 r. przekształciło się w BitcoinTalk, Sat
 Tak więc pierwsza część 2009 roku była poświęcona komunikacji. Satoshi zadbał o to, by zwrócić uwagę na swoje odkrycie za pomocą różnych środków i w różnych miejscach. W rozpowszechnianiu wiadomości pomagali mu inni ludzie, w tym Martti Malmi.
 
 
-Promocja Bitcoin również przeszła przez kilka etapów: najpierw Satoshi skupił się na płatnościach online; następnie podkreślił stałą politykę pieniężną i limit 21 milionów jednostek; a na koniec wspomniał o programowalności swojego modelu.
+Promocja Bitcoina również przeszła przez kilka etapów: najpierw Satoshi skupił się na płatnościach online; następnie podkreślił stałą politykę pieniężną i limit 21 milionów jednostek; a na koniec wspomniał o programowalności swojego modelu.
 
-Jesienią 2009 roku wydawało się, że Bitcoin jest gotowy do rozwoju. I to właśnie w tym czasie miał miejsce ekonomiczny bootstrapping systemu. Temat ten jest przedmiotem następnego rozdziału.
+Jesienią 2009 roku wydawało się, że Bitcoin jest gotowy do rozwinięcia skrzydeł. I to właśnie w tym czasie miała miejsce oddolna budowa systemu ekonomicznego Bitcoina. Temat ten jest przedmiotem następnego rozdziału.
 
 
-## Bootstrapping kryptowaluty
+## Budowanie systemu ekonomicznego kryptowaluty
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
 
-W poprzednich rozdziałach obserwowaliśmy, w jaki sposób Satoshi Nakamoto wdrożył swój pomysł i jak się o nim komunikował, aby przedstawić Bitcoin światu. Jednak nie wszystko zależało od niego: konieczne było również, aby ludzie przypisali wartość do jednostki rozliczeniowej. Ponieważ pozwoliło to na wynagradzanie górników poprzez opłaty transakcyjne i nagradzanie kupców poprzez naturalną deflację, takie uznanie było niezbędne dla bezpieczeństwa systemu.
+W poprzednich rozdziałach zaobserwowaliśmy, w jaki sposób Satoshi Nakamoto wdrożył swój pomysł i jak zakomunikował swój pomysł światu. Jednak nie wszystko zależało od niego: konieczne było również, aby ludzie przypisali wartość do jego jednostki rozliczeniowej. Ponieważ pozwoliło to na wynagradzanie górników poprzez opłaty transakcyjne i nagradzanie kupców poprzez naturalną deflację, takie uznanie było niezbędne dla bezpieczeństwa systemu.
 
 
 Pojawienie się wartości Bitcoin nie było jednak łatwym zadaniem. W rzeczywistości chodziło o nadanie ekonomicznego znaczenia obiektowi, który wcześniej nie miał żadnego, z całkowicie subiektywnych powodów. Hal Finney wyjaśnił to bardzo dobrze w swoim [emailu](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) z 11 stycznia 2009 r., zaadresowanym do listy mailingowej Cryptography, gdzie napisał:

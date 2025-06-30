@@ -1,0 +1,8 @@
+question: Kulingana na Condorcet, kwa nini uhuru unawatisha watu?
+answer: Kwa sababu amezoea sana kuruhusu serikali kuingilia kati mambo yote
+wrong_answers:
+  - Kwa sababu haijawahi kujaribiwa huko Ufaransa
+  - Kwa sababu inahitaji mapinduzi ya vurugu
+  - Kwa sababu ni sawa na machafuko
+explanation: |
+  Condorcet aliamini kwamba watu walitumiwa kuingilia kati serikali na waliogopa uhuru, kwa sababu hawakujua jinsi ya kuutumia.

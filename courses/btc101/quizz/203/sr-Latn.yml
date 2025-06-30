@@ -1,9 +1,9 @@
-question: Šta treba da uradite nakon kupovine Bitcoin na Exchange platformi?
-answer: Povuci bitkoine i pošalji ih na svoj Wallet.
+question: Šta treba da uradite nakon kupovine Bitkoina na menjačnici?
+answer: Povuci bitkoine i pošalji ih na svoj novčanik.
 wrong_answers:
   - Ostavite bitkoine na platformi.
   - Prodaj bitkoine odmah.
-  - Prenesite bitkoine na drugu Exchange platformu.
+  - Prenesite bitkoine na drugu menjačnicu.
 explanation: |
-  Tekst kursa savetuje da nakon kupovine Bitcoin, treba odmah povući UTXO-e sa Exchange platformi kako bi se smanjili rizici od hakovanja i blokiranja sredstava.
+  Tekst kursa savetuje da nakon kupovine Bitkoina, treba odmah povući UTXO-e sa menjačnica kako bi se smanjili rizici od hakovanja i blokiranja sredstava.
 reviewed: true

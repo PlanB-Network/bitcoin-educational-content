@@ -1,0 +1,31 @@
+id: 42dd6947-fbac-4662-9232-4d96ffa06891
+
+name: Gorilla Sats
+
+address_line_1: Kampala, Uganda
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://www.gorilla-sats.com/
+  twitter: https://x.com/GorillaSats
+  Github: 
+  youtube: 
+
+category: tourism
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - tourism
+  - bitcoin
+
+contributor_names:
+  - Gloirew

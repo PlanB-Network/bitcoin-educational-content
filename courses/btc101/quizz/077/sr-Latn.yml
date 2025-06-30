@@ -1,12 +1,12 @@
-question: Koji je rizik deljenja javnog ključa Bitcoin Wallet?
+question: Koji je rizik deljenja javnog ključa Bitkoin novčanika?
 answer: Gubljenje privatnosti.
 wrong_answers:
-  - Uništavanje Bitcoin Wallet.
-  - Gubljenje Bitcoina.
-  - Hakovanje Bitcoin Wallet.
+  - Uništavanje Bitkoin novčanika.
+  - Gubljenje Bitkoina.
+  - Hakovanje Bitkoin novčanika.
 explanation: |
   Deljenje javnog ključa uključuje rizike po privatnost, ali ne i
   po sigurnost. To je zato što se javni ključ koristi za
-  generate Bitcoin adrese i tako prima novac, ali ne
-  predstavlja Ownership Bitcoina.
+  generisanje Bitkoin adrese i tako prima novac, ali ne
+  predstavlja vlasništvo Bitkoina.
 reviewed: true

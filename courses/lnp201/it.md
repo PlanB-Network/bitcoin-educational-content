@@ -87,7 +87,7 @@ Prendiamo l'esempio di una transazione Lightning. Se Alice volesse inviare 40.00
 
 La **capacità del canale**, fissata a 130.000 satoshi, rimane costante. Ciò che cambia è la ripartizione dei fondi. Questo sistema non permette di inviare più fondi di quanti se ne possiedano. Se Bob volesse rispedire 80.000 satoshi ad Alice, ad esempio, non potrebbe perché ne ha solo 70.000.
 
-Un altro modo per immaginare l'allocazione dei fondi è pensare a un **cursore** che indica dove si trovano i fondi nel canale. Inizialmente, con 100.000 satoshi per Alice e 30.000 per Bob, il cursore, per logica, pende di più dal lato di Alice. Dopo la transazione di 40.000 satoshi, il cursore si muoverà leggermente verso il lato di Bob, che ora ne ha 70.000.
+Un altro modo per capire meglio l'allocazione dei fondi è immaginare un **cursore** che indichi dove si trovano i fondi nel canale. All'inizio, con 100.000 satoshi per Alice e 30.000 per Bob, il cursore è più spostato verso Bob, poiché Alice ha molti più fondi. Dopo la transazione di 40.000 satoshi, il cursore si sposterà leggermente verso Alice, che ora possiede 60.000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 

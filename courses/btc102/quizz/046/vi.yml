@@ -1,0 +1,9 @@
+question: Công cụ nào cho phép bạn theo dõi Wallet của mình mà không tiết lộ khóa riêng tư?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Tia sét Wallet
+  - Bảo vệ Wallet
+explanation: |
+  Watch-only wallet chỉ sử dụng khóa công khai để hiển thị số dư và giao dịch mà không có nguy cơ tiết lộ khóa riêng tư.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mục đích chính của việc xếp chồng là gì?
+answer: Dần dần tích lũy satoshi
+wrong_answers:
+  - Đầu cơ ngắn hạn
+  - Mua một lượng lớn satoshi cùng một lúc
+  - Sử dụng Bitcoin cho các khoản thanh toán hàng ngày
+explanation: |
+  Người xếp chồng đầu tư những khoản tiền nhỏ theo định kỳ để tính trung bình giá mua theo thời gian.
+reviewed: false

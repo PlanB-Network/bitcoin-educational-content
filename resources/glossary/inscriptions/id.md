@@ -1,8 +1,8 @@
 ---
-term: PENULISAN
+term: INSCRIPTION
 
 ---
-Dalam konteks Teori Ordinals, prasasti adalah konten arbitrer yang diukir pada satoshi, yang mengubahnya menjadi artefak digital Bitcoin asli. Prasasti dibuat melalui transaksi yang mengekspos konten informasi dalam skrip input Taproot dengan cara ini:
+Dalam konteks Teori Ordinals, _inscription_ adalah konten arbitrer yang diukir pada satoshi, yang mengubahnya menjadi artefak digital Bitcoin asli. _Inscription_ dibuat melalui transaksi yang mengekspos konten informasi dalam skrip input Taproot dengan cara ini:
 
 ```text
 OP_0

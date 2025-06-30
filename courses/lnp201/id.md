@@ -86,7 +86,7 @@ Mari kita ambil contoh transaksi Lightning. Jika Alice ingin mengirim 40.000 sat
 
 **Kapasitas saluran**, pada 130.000 satoshi, tetap konstan. Yang berubah adalah alokasi dana. Sistem ini tidak memungkinkan mengirim lebih banyak dana daripada yang dimiliki seseorang. Misalnya, jika Bob ingin mengirim kembali 80.000 satoshi ke Alice, dia tidak bisa, karena dia hanya memiliki 70.000.
 
-Cara lain untuk membayangkan alokasi dana adalah dengan memikirkan sebuah **slider** yang menunjukkan di mana dana tersebut berada di dalam saluran. Awalnya, dengan 100.000 satoshi untuk Alice dan 30.000 untuk Bob, slider secara logis berada di sisi Alice. Setelah transaksi 40.000 satoshi, slider akan bergerak sedikit ke sisi Bob, yang sekarang memiliki 70.000 satoshi.
+Cara lain untuk membayangkan alokasi dana adalah membayangkan sebuah **kursor** yang menunjukkan di mana dana berada di dalam saluran. Awalnya, dengan 100.000 satoshi untuk Alice dan 30.000 untuk Bob, kursor lebih condong ke sisi Bob karena Alice memiliki dana jauh lebih banyak. Setelah transaksi 40.000 satoshi, kursor akan sedikit bergeser ke arah Alice, yang sekarang memiliki 60.000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 

@@ -87,7 +87,7 @@ Nehmen wir ein Beispiel für eine Lightning-Transaktion. Wenn Alice 40.000 Satos
 
 Die **Kanalkapazität**, bei 130.000 Satoshis, bleibt konstant. Was sich ändert, ist die Zuordnung der Mittel. Dieses System erlaubt es nicht, mehr Mittel zu senden, als man besitzt. Zum Beispiel könnte Bob nicht 80.000 Satoshis an Alice zurücksenden, weil er nur 70.000 hat.
 
-Eine andere Möglichkeit, sich die Verteilung der Mittel vorzustellen, ist sich einen **Cursor** vorzustellen, der anzeigt, wo sich die Mittel im Kanal befinden. Zu Beginn, mit 100.000 Satoshis für Alice und 30.000 für Bob, befindet sich der Cursor eher auf Bobs Seite, da Alice wesentlich mehr Mittel hat. Nach der Transaktion über 40.000 Satoshis bewegt sich der Cursor leicht in Richtung Alice, die nun 70.000 Satoshis besitzt.
+Eine andere Möglichkeit, sich die Verteilung der Mittel vorzustellen, ist, sich einen **Cursor** vorzustellen, der anzeigt, wo sich die Mittel im Kanal befinden. Zu Beginn, mit 100.000 Satoshis für Alice und 30.000 für Bob, befindet sich der Cursor eher auf Bobs Seite, da Alice deutlich mehr Mittel hat. Nach der Transaktion von 40.000 Satoshis wird sich der Cursor leicht in Richtung Alice verschieben, die nun 60.000 Satoshis besitzt.
 
 ![LNP201](assets/en/04.webp)
 

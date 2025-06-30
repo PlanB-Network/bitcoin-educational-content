@@ -1,0 +1,9 @@
+question: Vad gör spärrnyckeln möjligt att göra i händelse av fusk?
+answer: Återfå alla medel genom att straffa den som fuskat
+wrong_answers:
+  - Avbryt Commitment Transaction
+  - Fördubbla kanalens kapacitet
+  - Förhindra alla ytterligare transaktioner i kanalen
+explanation: |
+  Spärrnyckeln gör det möjligt för den skadelidande parten att återfå alla medel om den andra parten skulle försöka fuska.
+reviewed: false

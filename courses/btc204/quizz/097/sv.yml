@@ -1,0 +1,10 @@
+question: Vad säger en stor anonset om integriteten hos en UTXO?
+answer: Förbättrad integritet.
+wrong_answers:
+  - Minskad integritet.
+  - Förbättrad spårbarhet.
+  - Snabbare transaktionshastigheter för CoinJoin.
+explanation: |
+  En stor anonset indikerar en hög grad av anonymitet, eftersom det blir svårt att urskilja en specifik UTXO i den homogena uppsättningen.
+  
+reviewed: false

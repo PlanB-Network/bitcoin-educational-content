@@ -1,0 +1,9 @@
+question: Vilket matematiskt koncept ligger till grund för Diffie-Hellman-nyckeln Exchange?
+answer: En enkelriktad funktion med bakdörr
+wrong_answers:
+  - En invers exponentiell funktion
+  - En kryptografisk Hash-algoritm
+  - En förenklad modulär uppdelning
+explanation: |
+  Diffie-Hellman bygger på en envägsfunktion som är lätt att beräkna i en riktning men praktiskt taget omöjlig att vända utan en hemlig information, en så kallad bakdörr.
+reviewed: false

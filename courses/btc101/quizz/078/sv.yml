@@ -1,0 +1,12 @@
+question: Vilket av dessa alternativ är felaktigt när det gäller att förlora den enhet som du har din Bitcoin Wallet på?
+answer: Du kan återskapa din Wallet och spendera din Bitcoin genom att återställa ditt lösenord.
+wrong_answers:
+  - Du förlorar alla dina Bitcoins om du inte har Mnemonic-frasen.
+  - Du kan verifiera med dina publika nycklar att dina bitcoins inte har spenderats.
+  - Du kan återskapa din Wallet och spendera din Bitcoin med hjälp av Mnemonic-frasen.
+explanation: |
+  Att förlora den enhet som du har din Wallet på innebär inte
+  nödvändigtvis innebära förlusten av dina Bitcoins. Det som gör att du kan
+  att återskapa din Wallet och spendera din Bitcoin är
+  Mnemonic frasen.
+reviewed: true

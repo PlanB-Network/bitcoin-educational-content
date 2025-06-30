@@ -1,0 +1,8 @@
+question: Vad är bandbreddskravet för att köra en Bitcoin-nod, med tanke på 1 block på 1 MB var 10: e minut?
+answer: Cirka 5 GB per månad.
+wrong_answers:
+  - Cirka 1 GB per månad.
+  - Cirka 10 GB per månad.
+  - Cirka 20 GB per månad.
+explanation: >-
+reviewed: true

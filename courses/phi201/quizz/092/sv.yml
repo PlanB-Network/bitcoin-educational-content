@@ -1,0 +1,9 @@
+question: Vad är individualism enligt Tocqueville?
+answer: Individualism är en känsla av självtillräcklighet som leder till att medborgarna isolerar sig från andra och drar sig tillbaka till sig själva.
+wrong_answers:
+  - Individualism är ett element som finns i varje tidsålder.
+  - Individualism är en politisk doktrin som förespråkar en återgång till förfädernas liv.
+  - Individualism är ett begrepp som kännetecknar mänsklig själviskhet.
+explanation: |
+  För Tocqueville är individualismen en modern tendens till självtillräcklighet som får medborgarna att försumma kollektiva ansvarsområden och därmed skapa isolering som försvagar den sociala strukturen.
+reviewed: true

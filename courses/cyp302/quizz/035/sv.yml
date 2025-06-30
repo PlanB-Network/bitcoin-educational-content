@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med talteori?
+answer: Att studera egenskaperna hos heltal och de funktioner som arbetar med dem
+wrong_answers:
+  - Analysera geometriska transformationer
+  - Studera strukturen hos slumpmässiga geometriska figurer i en ändlig grupp
+  - Utveckla symmetriska krypteringsalgoritmer
+explanation: |
+  Talteori fokuserar på egenskaperna hos heltal och de funktioner som tillämpas på heltal, ofta för tillämpningar inom kryptografi, särskilt i samband med kryptografi med publik nyckel.
+reviewed: false

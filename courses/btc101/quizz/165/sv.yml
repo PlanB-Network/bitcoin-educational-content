@@ -1,0 +1,13 @@
+question: Hur upprätthåller Bitcoin-protokollet en konsekvent genomsnittlig tid mellan skapandet av två block?
+answer: Svårigheten att hitta en giltig Hash justeras varje 2016 block.
+wrong_answers:
+  - Antalet gruvarbetare är reglerat till ett fast antal.
+  - Storleken på blocken justeras till 10 megabyte.
+  - Belöningen för att hitta en giltig Hash har höjts.
+explanation: |
+  Bitcoin-protokollet säkerställer att den genomsnittliga tiden mellan
+  två block förblir konstant genom att justera svårigheten att
+  att hitta en giltig Hash vart 2016:e block. Denna händelse inträffar
+  oavsett antalet gruvarbetare och deras datorkraft
+  kraft.
+reviewed: true

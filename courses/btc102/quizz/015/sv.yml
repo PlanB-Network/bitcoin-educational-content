@@ -1,0 +1,9 @@
+question: Vilket system möjliggör snabba och billiga transaktioner på Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Ripple-nätverket
+  - RGB
+explanation: |
+  Lightning Network är en andra Layer-lösning som möjliggör snabb avveckling och minskar kostnaden för BTC-transaktioner.
+reviewed: false

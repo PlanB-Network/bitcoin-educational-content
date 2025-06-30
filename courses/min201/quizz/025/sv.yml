@@ -1,0 +1,11 @@
+question: Vad kallas ofta Layer-basen i Bitcoin-nätverket?
+answer: Förlikningen Layer
+wrong_answers:
+  - Transaktionen Layer
+  - Säkerheten Layer
+  - Samförstånd Layer
+explanation: |
+  Basen Layer i Bitcoin-nätverket, som Lightning
+  Lightning Network förlitar sig på för att öppna och stänga betalningskanaler,
+  kallas ofta för avvecklings-Layer.
+reviewed: true

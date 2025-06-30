@@ -1,0 +1,8 @@
+question: Vilken typ av nätverk skapar Lightning Network?
+answer: Ett nätverk av betalningskanaler.
+wrong_answers:
+  - Ett nätverk av Mining-noder.
+  - Ett nätverk av Blockchain-noder.
+  - Ett nätverk av kryptovalutabörser.
+explanation: >-
+reviewed: true

@@ -1,0 +1,8 @@
+question: Vilken av följande funktioner bidrog till expansionen av Bitcoin: s användning på mörka webbmarknadsplatser som Silk Road?
+answer: Dess okontrollerbara och pseudonyma karaktär.
+wrong_answers:
+  - Det är centraliserad kontroll.
+  - Dess spårbarhet och kontrollerbara natur.
+  - Dess avsaknad av pseudonymitet.
+explanation: >-
+reviewed: true

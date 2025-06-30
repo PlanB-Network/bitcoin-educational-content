@@ -1,0 +1,9 @@
+question: Vad motsvarar beteckningen /<0;1>/* i en deskriptor?
+answer: Till den externa och interna kedjan med sekventiell härledning
+wrong_answers:
+  - Till en sorterad multisignatur Address
+  - Till en kontrollsumma för härledningsvägar
+  - Till en härdad härledningsväg
+explanation: |
+  Notationen /<0;1>/* anger att deskriptorn kan generate-adresser för den externa (0) och interna (1) kedjan, med sekventiell härledning tack vare jokertecknet (*).
+reviewed: false

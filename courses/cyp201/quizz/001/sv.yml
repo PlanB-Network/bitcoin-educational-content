@@ -1,0 +1,9 @@
+question: Vilken egenskap säkerställer att det är beräkningsmässigt omöjligt att hämta inmatningen till en Hash?
+answer: Motstånd mot förimprintning
+wrong_answers:
+  - Motstånd mot kollisioner
+  - Lavineffekt
+  - Andra förbildsmotstånd
+explanation: |
+  Preimage-resistens säkerställer att det är praktiskt taget omöjligt att hitta det ursprungliga meddelandet från dess Hash.
+reviewed: false

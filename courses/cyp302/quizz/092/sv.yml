@@ -1,0 +1,9 @@
+question: Hur kan ett blockchiffer omvandlas till ett streamchiffer?
+answer: Genom att använda lägen som OFB som generate en nyckelström från blockchiffret
+wrong_answers:
+  - Genom att dela upp klartexten i bytes och kryptera dem en efter en
+  - Genom att använda padding på meddelanden före kryptering
+  - Genom att öka nyckellängden för varje krypterat block
+explanation: |
+  Modi som OFB gör det möjligt för ett blockchiffer att fungera som ett strömchiffer genom att generera en nyckelström som sedan används för varje del av klartexten.
+reviewed: false

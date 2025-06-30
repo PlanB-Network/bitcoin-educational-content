@@ -1,0 +1,9 @@
+question: Vilken är Hayeks huvudtes i The Road to Serfdom?
+answer: Statlig interventionism leder oundvikligen till slaveri.
+wrong_answers:
+  - Socialism och nazism är fundamentalt olika ideologier.
+  - Privat egendom är rättvis, om den är begränsad.
+  - Hastighetsgränsen på vägen till livegenskap är 80 km/h.
+explanation: |
+  I The Road to Serfdom argumenterar Hayek för att statlig inblandning i ekonomin gradvis leder till en förlust av frihet, eftersom central planering oundvikligen leder till begränsningar av den individuella friheten.
+reviewed: true

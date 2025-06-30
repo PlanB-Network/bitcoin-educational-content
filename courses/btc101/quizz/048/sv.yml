@@ -1,0 +1,12 @@
+question: Vad är konsekvensen av hyperinflation?
+answer: En drastisk minskning av värdet på valutan.
+wrong_answers:
+  - En liten minskning av värdet på valutan.
+  - En drastisk ökning av värdet på valutan.
+  - En liten ökning av värdet på valutan.
+explanation: |
+  På grund av hyperinflation förlorar individer snabbt
+  fullständigt förtroende för valutan, vilket leder till att
+  en drastisk minskning av dess värde under en kort tidsperiod
+  tid.
+reviewed: true

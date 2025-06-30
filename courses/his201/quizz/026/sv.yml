@@ -1,0 +1,9 @@
+question: Vilket element saknades i designen av Bitcoin den 31 oktober 2008?
+answer: Det begränsade antalet enheter
+wrong_answers:
+  - Proof of Work
+  - Förenklad verifiering av betalningar
+  - Blockchain
+explanation: |
+  Den inledande penningpolitiken motsvarade en konstant utgivning (X BTC/block), vilket framgår av den första versionen av vitboken och Satoshi:s [utbyten](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) med Ray Dillinger.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Vad är Bitcoin Blockchain?
+answer: En offentlig och oföränderlig Ledger av alla Bitcoin-transaktioner.
+wrong_answers:
+  - En privat och muterbar Ledger av alla Bitcoin-transaktioner.
+  - En offentlig och föränderlig Ledger av alla Bitcoin-transaktioner.
+  - En privat och oföränderlig Ledger av alla Bitcoin-transaktioner.
+explanation: >-
+reviewed: true

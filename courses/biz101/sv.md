@@ -1,7 +1,7 @@
 ---
-namn: Bitcoin för företag
-mål: Få en praktisk och strategisk förståelse för hur ditt företag kan använda Bitcoin som betalningsmedel och finansiellt verktyg
-syften: 
+name: Bitcoin för företag
+goal: Få en praktisk och strategisk förståelse för hur ditt företag kan använda Bitcoin som betalningsmedel och finansiellt verktyg
+objectives: 
 
   - Förståelse för Bitcoin som en växande valuta och ett affärsverktyg
   - Förstå varför och hur ett företag kan hålla Bitcoin som tillgång eller ta emot det som betalning
@@ -153,45 +153,28 @@ Sammantaget är denna process invecklad, tidskrävande och kostsam för vad som 
 
 ### Jämförelse av betalningsmetoder
 
-| Betalningsmetod | Behövs auktorisation? | Tid för transaktionsgodkännande (Företagsvy) | Avvecklingshastighet (medel som är helt avvecklade) | Finalitet (enkel återföring) | Antal mellanhänder | Typiska avgifter (till betalningsmottagaren)
-
-| ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
-| **Kontanter** | Nej | Omedelbar (fysiskt utbyte) | Omedelbar (ingen fördröjning) | Hög (irreversibel när den betalats) | Ingen | Ingen |
-
-| **Checkar** | Ja (bankclearing) | Godkänd vid insättning (ej garanterad) | Flera dagar (process för checkclearing) | Medium (Kan returneras eller stoppas före clearing) | Bank | **Låg till medel** (bankavgifter)
-
-| **Banköverföringar** | Ja (bank/nätverk) | Bekräftelse inom några timmar | Samma dag eller nästa dag (inrikes) | Hög (vanligtvis irreversibel när den skickats) | Banker, betalningsnätverk | **Medel**(fast/procentsats) |
-
-| **Betalningskort** | Ja (kortutgivarens auktorisering) | Sekunder till minuter (auktoriseringskod) | Några dagar (mellanbanksavveckling) | Medel (återbetalningar möjliga) | Kortutgivare, kortinlösare, kortnätverk | **Variabel (1-3% av transaktionen)**
-
-| **Digitala plånböcker/mobilbetalning** | Ja (Plånboksleverantör/bank) | Sekunder (omedelbar bekräftelse) | Vanligtvis 1-2 dagar (beror på finansieringskälla) | Medel (återbetalning/tvist möjlig) | Banker, plånboksoperatörer | **Låg till medel (varierar)** 
+| Betalningsmetod                | Auktorisering Krävs?            | Transaktionsgodkännande (Handlarperspektiv) | Avvecklingstid (Medel Helt Avvecklade)        | Slutgiltighet (Enkelt att Återkalla)     | Antal Mellanhänder             | Typiska Avgifter (till Mottagare)          |
+| ------------------------------ | ------------------------------- | -------------------------------------------- | --------------------------------------------- | ---------------------------------------- | ------------------------------ | ------------------------------------------ |
+| **Kontanter**                  | Nej                             | Omedelbart (Fysiskt Utbyte)                 | Omedelbart (Ingen Avvecklingsfördröjning)    | Hög (Irreversibel När Betald)           | Inga                           | Inga                                       |
+| **Checkar**                    | Ja (Bankclearing)               | Acceptans vid Insättning (Ej Garanterat)    | Flera Dagar (Checkclearing-process)          | Medium (Kan Studsa/Stoppas Före Clearing) | Bank                           | **Låg till Medium** (Bankavgifter)        |
+| **Banköverföringar**           | Ja (Bank/Nätverk)               | Bekräftelse Inom Timmar                     | Samma Dag eller Nästa Dag (Inrikes)          | Hög (Vanligen Irreversibel När Skickad) | Banker, Betalningsnätverk      | **Medium** (Fast/Procentuell)             |
+| **Betalkort**                  | Ja (Kortutgivares Auktorisering) | Sekunder till Minuter (Auktoriseringskod)   | Några Dagar (Interbankavveckling)            | Medium (Återkrav Möjligt)               | Utgivare, Inlösare, Kortnätverk | **Variabel (1-3% av Transaktion)**        |
+| **Digitala Plånböcker/Mobilbetalning** | Ja (Plånboksleverantör/Bank)    | Sekunder (Omedelbar Bekräftelse)             | Vanligen 1-2 Dagar (Beror på Finansieringskälla) | Medium (Återbetalning/Tvist Möjlig)     | Banker, Plånboksoperatörer     | **Låg till Medium (Varierar)**            |
 
 ### Begränsningar i befintliga lösningar
 
 Den traditionella betalningsindustrin representerar en årlig ekonomi på cirka 2.200 miljarder dollar, vilket är ungefär en tiondel av USA:s BNP eller lika mycket som Frankrikes BNP. Eftersom valutor fungerar som nätverk med tillstånd finns det begränsad konkurrens, vilket gör att denna "tjänst" mer liknar en skatt som läggs på den produktiva ekonomin. Utöver de kostnadsbördor som detta skapar finns det flera andra begränsningar, vilka beskrivs nedan.
-
-| Begränsning | Förklaring | Påverkan
-
+| Begränsning                      | Förklaring                                                                                                                                                                                                                         | Påverkan                                                                                             |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
-Höga kortavgifter | Växelavgifter (~0,3%), nätverksavgifter (fasta eller 0,3%-1%), terminal/PSP-abonnemang och bankmarginaler (0,5%-1,7%) utgör tillsammans en betydande kostnad - som en global "skatt" på produktiva sektorer, som uppgår till biljoner dollar. | Höjer handlarnas kostnader, minskar marginalerna och driver potentiellt upp konsumentpriserna.        
-
-Mycket långsam slutavveckling | Avveckling av medel kan ta upp till 5 dagar, vilket saktar ner penningflödet och den totala ekonomiska aktiviteten. | Fördröjer likviditeten för handlare och minskar hastigheten av den ekonomiska cirkulationen. 
-
-Bedrägerier | E-handelskanaler utsätts i hög grad för bedrägerier, vilket bidrar till betydande förluster (t.ex. 28 miljarder dollar). Återbetalningar kan uppgå till ~174 miljarder dollar globalt år 2024. Att hantera dessa tvister tar tid och orsakar mental belastning. | Ökade driftskostnader, komplexa åtgärder för att förebygga bedrägerier och minskat kundförtroende.
-
-Avbruten varukorg | Ytterligare säkerhetssteg (engångskoder, tvåfaktorsautentisering enligt PSD2) skapar friktion i kassan. | En mer komplicerad checkout leder till att fler kassor överges och att försäljningen går förlorad.
-
-Höga minimibelopp för transaktioner | Minimibelopp på kort kan tvinga handlare och konsumenter till obekväma pris- eller köpvillkor och avskräcka från transaktioner av mindre värde.         | Minskad kundnöjdhet och flexibilitet, vilket kan begränsa impulsköp eller köp av lågt värde.
-
-Långsamma förhandsgodkännanden | Nuvarande system kan inte hantera transaktioner i millisekundshastighet eller stödja kontinuerliga betalningsflöden i realtid. | Det begränsar användningsområden som kräver omedelbara eller strömmande betalningar, vilket begränsar innovation och skalbarhet.
-
-Behov av ett bank- eller kortkonto | För att få tillgång till dessa betalningsmetoder krävs ett anslutet bank- eller kortkonto, vilket automatiskt utesluter dem som saknar sådana konton. | Det begränsar den finansiella integrationen och minskar tillgången för personer som saknar bank.
-
-Upprepat skapande av onlinekonton | Användare måste ofta skapa flera onlinekonton, vilket leder till trötthet, minskad bekvämlighet och ökad exponering av personuppgifter. | Försämrar användarupplevelsen, skapar oro för integriteten och ökar risken för dataintrång.
-
-Utländsk valutaväxlingsavgifter | Avsaknaden av en universell beräkningsenhet tvingar fram kostsamma valutakonverteringar för gränsöverskridande transaktioner. | Det ger extra kostnader för internationell handel, vilket gör globala transaktioner mindre prisvärda.
+| Höga Kortavgifter                | Interchange-avgifter (~0,3%), nätverksavgifter (fasta eller 0,3%-1%), terminal-/PSP-prenumerationer och bankmarginaler (0,5%-1,7%) summerar till en betydande kostnad—som en global "skatt" på produktiva sektorer, uppgående till biljoner dollar. | Ökar handelskostnader, minskar marginaler och kan potentiellt driva upp konsumentpriser.            |
+| Mycket Långsam Slutavveckling    | Avveckling av medel kan ta upp till 5 dagar, vilket bromsar penningflödet och den övergripande ekonomiska aktiviteten.                                                                                                            | Försenar likviditet för handlare och minskar hastigheten på ekonomisk cirkulation.                  |
+| Bedrägeri                        | E-handelskanaler är kraftigt utsatta för bedrägeri, vilket bidrar till betydande förluster (t.ex. 28 miljarder dollar). Återkrav kan nå ~174 miljarder dollar globalt år 2024. Hantering av dessa tvister konsumerar tid och orsakar mental stress. | Ökade driftskostnader, komplexa bedrägeripreventa åtgärder och minskat kundförtroende.             |
+| Övergivna Kundvagnar             | Ytterligare säkerhetssteg (engångskoder, tvåfaktorsautentisering under PSD2) introducerar friktion vid utcheckning.                                                                                                               | Högre komplexitet vid utcheckning leder till ökade övergivna kundvagnar och förlorade försäljningar. |
+| Höga Minimibelopp för Transaktioner | Minimibelopp för kort kan tvinga handlare och konsumenter till opraktiska prissättnings- eller köpvillkor, vilket avskräcker småbelopstransaktioner.                                                                          | Minskad kundnöjdhet och flexibilitet, potentiellt begränsar impuls- eller lågriskköp.              |
+| Långsam Förauktorisering         | Nuvarande system kan inte hantera transaktioner med millisekundhastighet eller stödja kontinuerliga, realtidsbetalningsflöden.                                                                                                   | Begränsar användningsfall som kräver omedelbar eller strömbetalningar, begränsar innovation och skalbarhet. |
+| Behov av Bank-/Kortkonto         | Åtkomst till dessa betalningsmetoder kräver ett länkat bank- eller kortkonto, vilket automatiskt utesluter de utan sådana konton.                                                                                                | Begränsar finansiell inkludering, minskar tillgång för personer utan bank eller underbanking.       |
+| Upprepad Skapande av Onlinekonton | Användare måste ofta skapa flera onlinekonton, vilket leder till trötthet, minskad bekvämlighet och ökad exponering av personlig data.                                                                                           | Försämrar användarupplevelsen, ökar integritetsproblem och ökar risken för dataintrång.             |
+| Valutaväxlingsavgifter (FX)      | Brist på en universell beräkningsenhet tvingar till kostsamma valutakonverteringar för gränsöverskridande transaktioner.                                                                                                         | Tillför extra kostnader för internationell handel, gör globala transaktioner mindre överkomliga.    |
 
 Precis som vi gick från att betala per minut för röstsamtal till att använda nästan gratis IP-baserad kommunikation, kan framväxten av mer öppna och effektiva nätverk omdefiniera betalningar, minska kostnader och mellanhänder samt främja nya affärsmodeller.
 
@@ -767,131 +750,77 @@ För att förenkla beslutsprocessen har vi definierat fyra olika affärsprofiler
 
 #### Profil 1 - Nybörjare
 
-| Attribut | Nybörjare
-
+| Egenskap                         | Nybörjaren                                                                                                                                 |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| **Mental inställning** | "prova min första fysiska betalning", "ta emot dricks för mitt onlineinnehåll", "rikta in mig på mycket små intäkter" 
-
-| **Transaktionsfrekvens** | "första transaktionen för att lära sig", "tar betalt då och då" 
-
-| **Exempel på affärstyp** | Kreativ ekonomi (innehållsskapare, bloggar, artiklar etc.), enstaka dricks, enstaka personlig produktförsäljning, föreningar, enstaka evenemang 
-
-| **Betalningstyp** | I allmänhet några cent till några euro/dollar; under ~300 euro/dollar per produkt 
-
-| **Komplexitet i inställningarna** | Ingen 
-
-| **Exempel på rekommenderad lösning** | En Lightning-plånbok med förvaring hos tredje part (t.ex. Wallet of Satoshi), eller en där du själv har kontrollen, som Phoenix 
-
-| **Handlarens gränssnitt** | Enkel Lightning-plånbok: en app på en mobiltelefon
-
-| **Kundens gränssnitt** | Bitcoin QR-betalkod, skannad via kundens personliga digitala plånbok
-
-| **Avgifter** | Kunden betalar Bitcoin Lightning-avgifter plus eventuella tillämpliga appavgifter
-
-| **Point of Sale-enhet** | Gratis smartphone-app eller ett alternativ för en fysisk terminal (t.ex. Bitcoinize)
-
-| **Hantering och roller** | Hantering av en enda app; minimal rolldifferentiering
-
-| **Exporterad bokföring** | Grundläggande listor över transaktionshistorik
-
-| **API** | Nej
+| **Sinnesstämning**               | "provar min första fysiska betalning", "tar emot tips för mitt onlineinnehåll", "siktar på mycket små intäkter"                          |
+| **Transaktionsfrekvens**         | "första transaktionen för att lära sig", "tar emot betalning då och då"                                                                   |
+| **Företagstyp Exempel**          | Kreativ ekonomi (innehållsskapare, bloggar, artiklar, etc.), enstaka tips, engångsförsäljning av produkter personligen, föreningar, engångsevenemang |
+| **Betalningstyp**                | Generellt några cent till några euro/dollar; under ~300 euro/dollar per artikel                                                           |
+| **Inställningskomplexitet**      | Ingen                                                                                                                                      |
+| **Exempel Rekommenderad Lösning** | En förvaringsplånbok för Lightning som Wallet of Satoshi eller en icke-förvaringsplånbok som Phoenix                                      |
+| **Handlargränssnitt**            | Enkel Bitcoin Lightning-plånbok: en app på en mobiltelefon                                                                                |
+| **Kundgränssnitt**               | Bitcoin QR-betalningskod, skannad via kundens personliga plånbok                                                                          |
+| **Avgifter**                     | Kunden betalar Bitcoin Lightning-avgifter plus eventuella tillämpliga appavgifter                                                         |
+| **Försäljningsenhet**            | Gratis smartphone-app eller möjlighet till fysisk terminal (t.ex. Bitcoinize)                                                             |
+| **Hantering och Roller**         | Enkel apphantering; minimal rollskillnad                                                                                                  |
+| **Redovisningsexporter**         | Grundläggande transaktionshistoriklistor                                                                                                  |
+| **API**                          | Nej                                                                                                                                    
 
 #### Profil 2 - Det grundläggande
 
-| Attribut | Det grundläggande
-
+| Egenskap                         | Grundläggande                                                                                                                              |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| **Mental inställning** | "Jag accepterar Bitcoin i min verksamhet men förväntar mig inte någon betydande volym"
-
-| **Transaktionsfrekvens** | Få transaktioner per månad 
-
-| **Exempel på affärstyp** | Barer, restauranger, återkommande försäljning av färska eller egenproducerade produkter, flera butiker under samma ägare, samt den kreativa ekonomin för konstnärer.
-
-| **Betalningstyp** | Generellt från några euro/dollar till några hundra per artikel; under ~300 per artikel och under ~3.000 per månad 
-
-| **Komplexitet i inställningarna** | Minimal (mobilapp) 
-
-| **Exempel på rekommenderad lösning** | Swiss Bitcoin Pay
-
-| **Handlarens gränssnitt** | Enkel Bitcoin Lightning-plånbok: en app på en mobiltelefon; enkel fakturering med minimala detaljer 
-
-| **Kundens gränssnitt** | Bitcoin QR-betalkod, skannad via kundens personliga digitala plånbok
-
-| **Avgifter** Typiskt <1% för att skicka till en Bitcoin-adress och <1,5% för att konvertera till fiat
-
-**Point of Sale-enhet** | Gratis smartphone-app eller ett alternativ för en fysisk terminal (t.ex. Bitcoinize)
-
-| **Hantering och roller** | Alternativ för enbart säljfunktion för personal; webbaserad kontrollpanel för administration
-
-| **Exporterad bokföring** | CSV-export med fullständig transaktionsinformation
+| **Sinnesstämning**               | "Jag accepterar Bitcoin i min verksamhet men förväntar mig inte betydande volymer"                                                        |
+| **Transaktionsfrekvens**         | Få transaktioner per månad                                                                                                                |
+| **Företagstyp Exempel**          | Barer, restauranger, halvregelbunden försäljning av färska eller direktkällsektorer produkter, flera butiker under en ägare, kreativ ekonomi för konstnärer |
+| **Betalningstyp**                | Generellt från några euro/dollar till några hundra per artikel; under ~300 per artikel och under ~3,000 per månad                       |
+| **Inställningskomplexitet**      | Minimal (mobilapp)                                                                                                                         |
+| **Exempel Rekommenderad Lösning** | Swiss Bitcoin Pay                                                                                                                          |
+| **Handlargränssnitt**            | Enkel Bitcoin Lightning-plånbok: en app på en mobiltelefon; enkel fakturering med minimala detaljer                                       |
+| **Kundgränssnitt**               | Bitcoin QR-betalningskod, skannad via kundens personliga plånbok                                                                          |
+| **Avgifter**                     | Vanligen <1% för att skicka till en Bitcoin-adress, och <1,5% för konvertering till fiat                                                 |
+| **Försäljningsenhet**            | Gratis smartphone-app eller möjlighet till fysisk terminal (t.ex. Bitcoinize)                                                             |
+| **Hantering och Roller**         | Möjlighet för en endast-sälj-roll för anställda; online-dashboard för administration                                                      |
+| **Redovisningsexporter**         | CSV-export med fullständiga transaktionsdetaljer                                                                                          |
+| **API**                          | Ja                                                                                                                                         |
 
 **API** | Ja
 
 #### Profil 3 - Den professionella
 
-| Attribut | Den professionella | Den professionella
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| **Mental inställning** | - En betalmetod som vilken som helst för min e-handel - Eller gemensam förvaltning för en grupp företag som är redo för högre volymer
-
-| **Transaktionsfrekvens** | Flera transaktioner per dag
-
-| **Exempel på företagstyper** | E-handelssajter med måttlig volym, små marknadsplatser, grupper av fysiska butiker (t.ex. Click & Collect), små och medelstora företag 
-
-| **Betalningstyp** | I allmänhet från några euro/dollar till några hundra; ingen fastställd gräns för betalningens storlek; mindre än 250 000 per år
-
-| **Komplexitet i inställningar** | Enkel till fullutrustad (lokal hosting eller molnhosting), kräver ofta en e-handelsbutik
-
-| **Exempel på rekommenderad lösning** | BTC Pay Server för e-handel och/eller fysiska miljöer; ZapRite, Musqet eller PayWithFlash för kassan, Be-BOP för en integrerad e-butik
-
-| **Handlarens gränssnitt** | Webbplats (mobil och desktop) med redigering av fakturor, varukorgsfunktioner och skapande av betalningsknappar; automatiserad fakturering med e-handelsintegration
-
-| **Kundens gränssnitt** | Bitcoin QR-betalkod, skannad via kundens personliga digitala plånbok
-
-| **Avgifter** | En kombination av kostnadsfri öppen källkod för backend och betalda avgifter för Lightning-hosting och tjänster; front-end-avgifterna inkluderar avgifter för Bitcoin Lightning samt växlingsavgifter på under 1,5 %.
-
-| **Point of Sale-enhet** | Webbplatsbutik, valfri fysisk display (t.ex. iPad som visar webbplatsen eller Bitcoin-terminal)
-
-| **Hantering och roller** | Fullt utrustad butik med flera administratörsroller; anställda och kunder interagerar med systemet
-
-| **Exporterad bokföring** | CSV-export med fullständig transaktionsinformation
-
-**API** | Ja
+| Egenskap                         | Professionell                                                                                                                                      |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sinnesstämning**               | - En betalningsmetod som vilken annan för min e-handel - Eller gemensam hantering för en grupp företag redo för högre volymer                     |
+| **Transaktionsfrekvens**         | Flera transaktioner per dag                                                                                                                       |
+| **Företagstyp Exempel**          | E-handelssajter med måttlig volym, små marknadsplatser, grupper av fysiska butiker (t.ex. Click & Collect), SME-verksamheter                     |
+| **Betalningstyp**                | Generellt från några euro/dollar till några hundra; ingen fastställd betalningsgräns; mindre än 250,000 per år                                  |
+| **Inställningskomplexitet**      | Lätt till fullt utrustad (lokal eller molnhosting), kräver ofta en e-handelsbutik                                                                |
+| **Exempel Rekommenderad Lösning** | BTC Pay Server för e-handel och/eller fysiska miljöer; ZapRite, Musqet eller PayWithFlash för utcheckning, Be-BOP för en integrerad e-butik     |
+| **Handlargränssnitt**            | Webbplats (mobil och dator) med fakturaredigering, kundvagnsalternativ och skapande av betalningsknappar; automatiserad fakturering med e-handelsintegration |
+| **Kundgränssnitt**               | Bitcoin QR-betalningskod, skannad via kundens personliga plånbok                                                                                  |
+| **Avgifter**                     | Blandning av gratis öppen källkod backend och betalda Lightning hosting/serviceavgifter; frontend-avgifter inkluderar Bitcoin Lightning-avgifter och <1,5% konverteringsavgifter |
+| **Försäljningsenhet**            | Webbplatsbutik, valfri fysisk display (t.ex. iPad som visar sajten eller Bitcoin-terminal)                                                       |
+| **Hantering och Roller**         | Fullt utrustad butik med flera administratörsroller; anställda och kunder interagerar med systemet                                               |
+| **Redovisningsexporter**         | CSV-export med fullständiga transaktionsdetaljer                                                                                                 |
+| **API**                          | Ja                                                                                                                                                |
 
 #### Profil 4 - Företaget
 
-| Attribut | Företaget
-
+| Egenskap                         | Företag                                                                                                                                         |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| **Mental inställning** | - En strategisk betalmetod för verksamheten - Med viss utveckling för att integreras i tjänsteplattformen enligt specifika krav
-
-| **Transaktionsfrekvens** | Obegränsad, högfrekventa transaktioner
-
-| **Exempel på företagstyper** | Medelstora företag, IT-tjänsteföretag, stora företag, stora marknadsplatser
-
-| **Betalningstyp** | Valfri storlek eller volym
-
-| **Komplexitet i inställningarna** | Medelhög till hög, beroende på val av arkitektur
-
-| **Exempel på rekommenderad lösning** | Skräddarsydd arkitektur eller orkestrering av SaaS-hostade lösningar, med möjlighet att använda tredjepartstjänster från LSP (Lightning Service Provider).
-
-| **Handlarens gränssnitt** | Helt anpassade front-end- och back-end-gränssnitt som är helt integrerade i verksamhetens arbetsflöden och processer
-
-| **Kundens gränssnitt** | Allt från en Bitcoin QR-betalkod till ett helt anpassat användargränssnitt och/eller API-integration
-
-| **Avgifter** | En kombination av intern utveckling och avgifter till tredjepartsleverantörer; kunden betalar Bitcoin Lightning-avgifter samt eventuella transaktionsavgifter från tjänsteleverantörer
-
-| **Point of Sale-enhet** | Kundanpassade lösningar skräddarsydda för företagsmiljön
-
-| **Hantering och roller** | Helt anpassade roller inom försäljning, administration, devops, redovisning och finans
-
-| **Exporterad bokföring** | Helt skräddarsydd export av redovisning
-
-| **API** | Ja
+| **Sinnesstämning**               | - En strategisk betalningsmetod för verksamheten - Med viss utveckling för att integrera i serviceplattformen enligt specifika specifikationer |
+| **Transaktionsfrekvens**         | Obegränsad, högfrekventa transaktioner                                                                                                         |
+| **Företagstyp Exempel**          | Medelstora företag, IT-serviceföretag, stora korporationer, stora marknadsplatser                                                              |
+| **Betalningstyp**                | Vilken storlek eller volym som helst                                                                                                           |
+| **Inställningskomplexitet**      | Medium till hög, beroende på val av arkitektur                                                                                                 |
+| **Exempel Rekommenderad Lösning** | Specialbyggd arkitektur eller orkestrering av SaaS-hostade lösningar, potentiellt med tredje parts LSP (*Lightning Service Provider*) tjänster |
+| **Handlargränssnitt**            | Helt anpassade frontend- och backend-gränssnitt fullt integrerade i verksamhetens arbetsflöden och processer                                  |
+| **Kundgränssnitt**               | Från en Bitcoin QR-betalningskod till ett helt anpassat UI och/eller API-integration                                                           |
+| **Avgifter**                     | Kombination av intern utveckling och tredje parts avgifter; kunden betalar Bitcoin Lightning-avgifter plus eventuella transaktionsavgifter från tjänsteleverantörer |
+| **Försäljningsenhet**            | Specialdesignade lösningar skräddarsydda för företagsmiljön                                                                                    |
+| **Hantering och Roller**         | Helt anpassade roller över försäljning, administration, devops, redovisning och ekonomi                                                        |
+| **Redovisningsexporter**         | Helt anpassade redovisningsexporter                                                                                                           |
+| **API**                          | Ja                                                                                                                                             |
 
 I de följande kapitlen kommer vi att beskriva varje affärsprofil och de lösningar som är skräddarsydda för var och en av dem.
 
@@ -1374,7 +1303,7 @@ Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag,
 
 
 - **Kvarvarande Bitcoin**: 0.19335 Bitcoin värderat till 7 734 euro (vid 40 000 euro/BTC).
-- **Realiserad vinst**: 2 735 euro ingår i resultaträkningen.
+- **Realiserad vinst**: 2.735 euro ingår i resultaträkningen.
 - **Orealiserad vinst**: 5.468 euro redovisat i finansiella noter (inklusive orealiserat värde på kvarvarande Bitcoin).
 
 **Redovisningsimplikationer**:
@@ -1394,11 +1323,13 @@ Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag,
 <chapterId>0fe8c49e-b7f8-46f7-9c42-b8a9a99a7b46</chapterId>
 
 <isCourseReview>true</isCourseReview>
+
 ## Slutlig tentamen
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
 <isCourseExam>true</isCourseExam>
+
 ## Slutsats
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>

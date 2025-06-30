@@ -55,6 +55,12 @@
       "code_translator": "HI"
     },
     {
+      "code": "hr",
+      "name": "Croatian",
+      "translator": "google",
+      "code_translator": "HR"
+    },
+    {
       "code": "id",
       "name": "Indonesian",
       "translator": "deepl",

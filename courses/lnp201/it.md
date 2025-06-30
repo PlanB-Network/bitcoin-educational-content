@@ -400,7 +400,7 @@ Ci sono tre modi principali per chiudere questo canale, che possono essere chiam
 
 - **Il Buono**: la **chiusura cooperativa**, dove Alice e Bob concordano di chiudere il canale.
 - **Il Brutto**: la **chiusura forzata**, dove una delle parti decide di chiudere il canale onestamente, ma senza l'accordo dell'altra.
-- **L'Orribile**: la **chiusura con imbroglio**, dove una delle parti tenta di rubare fondi pubblicando una vecchia commitment transaction (qualsiasi tranne l'ultima, che riflette la distribuzione effettiva e giusta dei fondi).
+- **Il Cattivo**: la **chiusura con imbroglio**, dove una delle parti tenta di rubare fondi pubblicando una vecchia commitment transaction (qualsiasi tranne l'ultima, che riflette la distribuzione effettiva e giusta dei fondi).
 
 Facciamo un esempio:
 
@@ -442,7 +442,7 @@ Inoltre, le fee della commitment transaction possono essere inadeguate al moment
 
 In sintesi, la **chiusura forzata** è un'opzione di ultima ratio, quando la controparte non risponde più. È più lenta e meno economica della chiusura cooperativa, pertanto dovrebbe essere evitata il più possibile.
 
-### L'Orribile: l'imbroglio
+### Il Cattivo: l'imbroglio
 
 Infine una chiusura con **imbroglio** si verifica quando una delle parti cerca di pubblicare una vecchia commitment transaction, spesso nel momento in cui detiene più fondi di quanto dovrebbe. Per esempio, Alice potrebbe pubblicare una vecchia transazione dove possedeva **120.000 satoshi**, mentre ora ne possiede effettivamente solo **100.000**.
 
@@ -619,7 +619,7 @@ Ecco come funziona questo processo nel nostro esempio con Alice, Suzie e Bob:
 
 ![LNP201](assets/en/48.webp)
 
-**Creazione del segreto**: Bob genera un segreto casuale denotato _s_ (la preimmagine) e calcola il suo hash _r_ con la funzione hash indicata come _h_. Abbiamo:
+**Creazione del segreto**: Bob genera un segreto casuale che viene denotato con la _s_ (la preimmagine) e calcola il suo hash _r_ con la funzione hash indicata come _h_. Abbiamo:
 
 $$
 r = h(s)

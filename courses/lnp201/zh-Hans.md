@@ -86,7 +86,7 @@ objectives:
 
 **通道容量**保持在130,000 satoshis不变。变化的是资金的分配。这个系统不允许发送超过自己拥有的资金。例如，如果Bob想要回送80,000 satoshis给Alice，他做不到，因为他只有70,000 satoshis。
 
-另一种想象资金分配的方式是想象一个**滑块**，它指示着资金在通道中的位置。最初，Alice有100,000 satoshis，Bob有30,000 satoshis，滑块逻辑上在Alice的一侧。交易了40,000 satoshis之后，滑块会稍微向Bob的一侧移动，现在他有了70,000 satoshis。
+另一种了解资金分配的方式是想象一个**光标**，它指示资金在通道中的位置。一开始，Alice 拥有 100,000 个 satoshi，Bob 拥有 30,000 个 satoshi，光标更偏向 Bob 的一侧，因为 Alice 的资金多。在 40,000 个 satoshi 的交易之后，光标会稍微向 Alice 的一侧移动，她现在拥有 60,000 个 satoshi。
 
 ![LNP201](assets/en/04.webp)
 

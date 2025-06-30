@@ -187,7 +187,6 @@ Det spekuleres i fremtidig bruk av blokkplass, men det er generelt akseptert at 
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 Rollen til gruvearbeidere i Bitcoin-nettverket har vært et emne for intens debatt under blokkstørrelseskrigene. Selv om de er essensielle for sikkerheten og funksjonaliteten til nettverket, holder ikke nødvendigvis gruvearbeiderne den ultimate makten i Bitcoin-økosystemet. Balansen mellom gruvearbeidere, noder og sluttbrukere sikrer integriteten og distribusjonen av nettverket.
 
@@ -228,7 +227,6 @@ For å oppsummere, minerne styrker Bitcoin-nettverket mot sensur ved å bruke el
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, pris og lønnsomhet
 
@@ -289,13 +287,6 @@ Når man står overfor kampanjer som de fra Greenpeace og ofte villedende tall f
 
 Konklusjonen er at til tross for den regulatoriske risikoen og muligheten for et gruvedriftsforbud i Europa, forblir det mest kraftfulle våpenet utdanning og informasjon. En klar og presis forståelse av gruvedrift, hvordan det fungerer, og dets påvirkning kan bidra til å avmystifisere industrien og bekjempe feilinformasjon, og dermed tilby bedre motstand mot potensielt skadelige reguleringer. Initiativet til å trene og informere folk om gruvedrift, som denne diskusjonen gjør, er et skritt i riktig retning for å sikre bærekraft og vekst for gruvedrift i Europa, og rundt om i verden. Kontinuerlige anstrengelser for å utdanne og informere er essensielle for å sikre en trygg og velstående fremtid for Bitcoin-gruvedriftsindustrien.
 
-## Intervju med en profesjonell innen gruveindustrien
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Bak kulissene i industriell gruvedrift - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Hjemmegruvedrift og gjenbruk av varme
 

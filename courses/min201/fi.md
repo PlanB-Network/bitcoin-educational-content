@@ -190,7 +190,6 @@ Spekulaatiot lohkon tilan tulevasta käytöstä ovat yleisiä, mutta yleisesti h
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Louhijoiden rooli Bitcoin-verkossa on ollut kiivaiden keskustelujen kohteena lohkokoon sodissa. Vaikka louhijat ovat olennaisen tärkeitä verkon turvallisuuden ja toiminnallisuuden kannalta, he eivät välttämättä pidä lopullista valtaa Bitcoin-ekosysteemissä. Louhijoiden, solmujen ja loppukäyttäjien välinen tasapaino varmistaa verkon eheyden ja jakelun.
 
 ### Lohkokoon sodat
@@ -231,7 +230,6 @@ Yhteenvetona voidaan todeta, että louhijat vahvistavat Bitcoin-verkon sensuurin
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, hinta ja kannattavuus
 
@@ -291,13 +289,7 @@ Kampanjoiden, kuten Greenpeacen ja joidenkin tutkimusten usein harhaanjohtavien 
 
 Yhteenvetona, huolimatta sääntelyriskistä ja louhinnan kiellon mahdollisuudesta Euroopassa, tehokkain ase on koulutus ja informaatio. Selkeä ja tarkka ymmärrys louhinnasta, sen toiminnasta ja vaikutuksesta voi auttaa demystifioimaan teollisuutta ja taistelemaan väärää tietoa vastaan, tarjoten siten paremman vastustuksen mahdollisesti vahingollisia sääntelyjä vastaan. Aloite kouluttaa ja informoida ihmisiä louhinnasta, kuten tämä keskustelu tekee, on askel oikeaan suuntaan varmistaakseen louhinnan kestävyyden ja kasvun Euroopassa ja koko maailmassa. Jatkuvat ponnistelut kouluttaa ja informoida ovat olennaisia varmistamaan turvallisen ja menestyksekkään tulevaisuuden Bitcoin-louhintateollisuudelle.
 
-## Haastattelu louhintateollisuuden ammattilaisen kanssa
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Kulissien takana teollisessa louhinnassa - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Kotikaivostoiminta ja lämmön uudelleenkäyttö
 

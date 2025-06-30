@@ -1047,114 +1047,114 @@ Jesienią 2009 roku wydawało się, że Bitcoin jest gotowy do rozwinięcia skrz
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
 
-W poprzednich rozdziałach zaobserwowaliśmy, w jaki sposób Satoshi Nakamoto wdrożył swój pomysł i jak zakomunikował swój pomysł światu. Jednak nie wszystko zależało od niego: konieczne było również, aby ludzie przypisali wartość do jego jednostki rozliczeniowej. Ponieważ pozwoliło to na wynagradzanie górników poprzez opłaty transakcyjne i nagradzanie kupców poprzez naturalną deflację, takie uznanie było niezbędne dla bezpieczeństwa systemu.
+W poprzednich rozdziałach zaobserwowaliśmy, w jaki sposób Satoshi Nakamoto wdrożył swój pomysł i jak zakomunikował go światu. Jednak nie wszystko zależało od niego: konieczne było również, aby ludzie przypisali wartość do jego jednostki rozliczeniowej. Ponieważ pozwalało to na wynagradzanie górników opłatami transakcyjnymi i nagradzanie kupców poprzez naturalną deflację, zyskanie waluty na wartości było niezbędne dla bezpieczeństwa systemu.
 
 
-Pojawienie się wartości Bitcoin nie było jednak łatwym zadaniem. W rzeczywistości chodziło o nadanie ekonomicznego znaczenia obiektowi, który wcześniej nie miał żadnego, z całkowicie subiektywnych powodów. Hal Finney wyjaśnił to bardzo dobrze w swoim [emailu](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) z 11 stycznia 2009 r., zaadresowanym do listy mailingowej Cryptography, gdzie napisał:
+Wytyczenie wartości Bitcoina nie było jednak łatwym zadaniem. W rzeczywistości chodziło o nadanie ekonomicznego znaczenia obiektowi, który wcześniej go nie miał, z całkowicie subiektywnych powodów. Hal Finney wyjaśnił to bardzo dobrze w swoim [emailu](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) z 11 stycznia 2009 r., zaadresowanym do listy mailingowej Cryptography, gdzie napisał:
 
 
-> "Jednym z bezpośrednich problemów związanych z każdą nową walutą jest to, jak ją wycenić. Nawet pomijając praktyczny problem, że na początku praktycznie nikt jej nie zaakceptuje, nadal trudno jest znaleźć rozsądny argument przemawiający za konkretną niezerową wartością jednostek"
+> „Jednym z bezpośrednich problemów związanych z każdą nową walutą jest to, jak ją wycenić. Nawet pomijając praktyczny problem, że na początku praktycznie nikt jej nie zaakceptuje, nadal trudno jest znaleźć rozsądny argument przemawiający za konkretną niezerową wartością jednostek.”
 
-Tak więc zjawisko pieniężne wymagało wstępnej oceny z powodów niepieniężnych. Jak napisał [Satoshi](https://mmalmi.github.io/Satoshi/#email-1) do Marttiego, potrzebna była "iskra", aby rozpalić spalanie łatwopalnego materiału.
+Tak więc zjawisko pieniężne wymagało wstępnej oceny z powodów niepieniężnych. Jak napisał [Satoshi](https://mmalmi.github.io/Satoshi/#email-1) do Marttiego, potrzebna była „iskra”, aby rozpalić spalanie łatwopalnego materiału.
 
 
-Ten ekonomiczny bootstrapping Bitcoin stopniowo miał miejsce od samego początku wraz z aktywnością Mining. Jednak tak naprawdę nie pojawił się on aż do października 2009 r., kiedy to miał miejsce pierwszy Exchange w stosunku do dolara. W tym rozdziale postaramy się opisać, w jaki sposób doszło do tego bootstrappingu i jakie powody skłoniły różne podmioty do przypisania wartości tej jednostce rozliczeniowej.
+Ten ekonomiczny start Bitcoina od początku miał miejsce stopniowo wraz z wydobywaniem kolejnych bloków. Jednak tak naprawdę nie pojawił się on aż do października 2009 r., kiedy to miała miejsce pierwsza wymiana w stosunku do dolara. W tym rozdziale postaramy się opisać, w jaki sposób do tego doszło i jakie powody skłoniły różne podmioty do przypisania wartości tej jednostce rozliczeniowej.
 
 
 ### Pierwsi górnicy
 
-Począwszy od stycznia 2009 r., inicjacja Bitcoin rozwijała się w kilku etapach: pojawienie się pierwszych górników, pojawienie się Exchange z dolarem i rozwój pierwszych usług akceptujących Bitcoin. Ci, którzy wdrażają węzły generujące, są zatem pierwszymi, którzy pośrednio przypisują wartość jednostce rozliczeniowej. Wnoszą oni bowiem swoją moc obliczeniową, aby dodać Proof of Work do bloków transakcyjnych i tym samym dołączyć je do łańcucha, co jest zadaniem kosztownym pod względem czasu (ze względu na konserwację oprogramowania) i energii (ze względu na energię elektryczną zużywaną w tym procesie). Wysiłek ten jest wynagradzany w bitcoinach, więc generowanie monet w ten sposób stanowi formę ekonomicznego Exchange.
+Począwszy od stycznia 2009 r., inicjacja Bitcoin rozwijała się w kilku etapach: pojawienie się pierwszych górników, pojawienie się wymiany z dolarem i rozwój pierwszych usług akceptujących Bitcoina. Ci, którzy wdrażają węzły generujące, są zatem pierwszymi, którzy pośrednio przypisują wartość jednostce rozliczeniowej. Wnoszą oni bowiem swoją moc obliczeniową, aby dodać dowód pracy do bloków transakcyjnych i tym samym dołączyć je do łańcucha, co jest zadaniem kosztownym pod względem czasu (ze względu na konserwację oprogramowania) i energii (ze względu na energię elektryczną zużywaną w tym procesie). Wysiłek ten jest wynagradzany w bitcoinach, więc generowanie monet w ten sposób stanowi formę wymiany ekonomicznej.
 
 
 Jednak, jak wskazaliśmy we wstępie, bitcoiny nie mają wartości na rynku. Dlatego górnicy muszą znaleźć subiektywne powody, aby podjąć taki wysiłek. Główne powody są trojakie: ciekawość techniczna, motywacja ideologiczna i zainteresowanie spekulacyjne.
 
 
-Pierwszym powodem, który jest prawdopodobnie najmniej ważny, jest ciekawość techniczna. Wcześni użytkownicy Bitcoin są często entuzjastami komputerów i przez większość czasu pracują w zawodach związanych z programowaniem lub inżynierią. Lubią wiedzieć, jak rzeczy działają "pod maską", co napędza ich do uruchomienia oprogramowania i generate bitcoinów. Jest tak w szczególności w przypadku Mike'a Hearna, który po zadaniu swoich pytań Satoshi 12 kwietnia 2009 r., [pospieszył](https://plan99.net/~mike/Satoshi-emails/thread1.html), aby "wypróbować aplikację" na swoim komputerze i wyprodukować kilka bloków. (*oryginał: "I tried the app "*)
+Pierwszym powodem, który jest prawdopodobnie najmniej ważny, jest ciekawość techniczna. Wcześni użytkownicy Bitcoina są często entuzjastami komputerów i przez większość czasu pracują w zawodach związanych z programowaniem lub inżynierią. Lubią wiedzieć, jak rzeczy działają „pod maską”, co napędza ich do uruchomienia oprogramowania i generowania bitcoinów. Jest tak w szczególności w przypadku Mike'a Hearna, który po zadaniu swoich pytań Satoshiemu 12 kwietnia 2009 r., [pospieszył](https://plan99.net/~mike/Satoshi-emails/thread1.html), aby „wypróbować aplikację” na swoim komputerze i wyprodukować kilka bloków. (*oryginał: "I tried the app "*)
 
 
-Drugim powodem Mining jest motywacja ideologiczna. Wielu wczesnych użytkowników oprogramowania robi to "dla dobra sprawy", z powodu swoich osobistych przekonań. Udostępniają swoją moc obliczeniową, aby przyczynić się do narodzin solidnej waluty cyfrowej, która nie opiera się na władzy centralnej. Hal Finney jako pierwszy zwrócił uwagę na tę koncepcję 13 listopada 2008 r., [pisząc](https://www.metzdowd.com/pipermail/cryptography/2008-November/014848.html):
+Drugim powodem wydobywania bloków jest motywacja ideologiczna. Wielu wczesnych użytkowników oprogramowania robi to „dla dobra sprawy”, z powodu swoich osobistych przekonań. Udostępniają swoją moc obliczeniową, aby przyczynić się do narodzin solidnej waluty cyfrowej, która nie opiera się na władzy centralnej. Hal Finney jako pierwszy zwrócił uwagę na tę koncepcję 13 listopada 2008 r., [pisząc](https://www.metzdowd.com/pipermail/cryptography/2008-November/014848.html):
 
 
-> "System Bitcoin jest w szczególności zgodny z amerykańskim ruchem libertariańskim, który opowiada się za nieskrępowanym wolnym rynkiem i jest zdecydowanie antagonistyczny wobec państwa, zwłaszcza w odniesieniu do jego kontroli nad walutą ("[End The Fed](https://en.wikipedia.org/wiki/End_the_Fed)"). Dlatego Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) Halowi Finneyowi, stwierdzając, że jego argument jest "bardzo atrakcyjny dla libertariańskiego punktu widzenia, jeśli potrafimy go właściwie wyjaśnić"
+> „System Bitcoin jest zgodny w szczególności z amerykańskim ruchem libertariańskim, który opowiada się za nieskrępowanym wolnym rynkiem i jest zdecydowanie antagonistyczny wobec państwa, zwłaszcza w odniesieniu do jego kontroli nad walutą („[End The Fed](https://en.wikipedia.org/wiki/End_the_Fed)”). Dlatego Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) Halowi Finneyowi, stwierdzając, że jego argument jest „bardzo atrakcyjny dla libertariańskiego punktu widzenia, jeśli będziemy potrafili go właściwie wyjaśnić”.
 
-Trzecią siłą napędową stojącą za decyzją o uruchomieniu Mining jest zainteresowanie spekulacyjne. Jak wyjaśniono w poprzednim rozdziale, polityka monetarna Bitcoin jest jednym z jej głównych punktów sprzedaży. Jeśli ilość bitcoinów w obiegu zbliży się do stałej ilości (21 milionów jednostek), wówczas ich cena jednostkowa może stać się bardzo wysoka, gdy więcej osób dołączy do gospodarki. Ten argument w szczególności przekonuje Dustina Trammella do rozpoczęcia generowania bitcoinów bardzo wcześnie, o czym dzieli się z Satoshi w ich [prywatnej korespondencji](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip):
+Trzecią siłą napędową stojącą za decyzją o uruchomieniu wydobywania jest zainteresowanie spekulacyjne. Jak wyjaśniono w poprzednim rozdziale, polityka monetarna Bitcoina jest jednym z jej głównych punktów sprzedaży. Jeśli ilość bitcoinów w obiegu zbliży się do stałej ilości (21 milionów jednostek), wówczas ich cena jednostkowa może stać się bardzo wysoka, gdy więcej osób dołączy do tej gospodarki. Ten argument przekonuje w szczególności Dustina Trammella, który rozpoczyna generowanie bitcoinów bardzo wcześnie, na temat czego dzieli się z Satoshim w ich [prywatnej korespondencji](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip):
 
 
-> "To był jeden z powodów, który skłonił mnie do tak szybkiego uruchomienia węzła. Moje systemy nie robią wiele więcej, gdy są bezczynne, więc dlaczego nie tworzyć BitCoinów? A jeśli pewnego dnia będą coś warte...? To byłby bonus!"
+> „To był jeden z powodów, który skłonił mnie do tak szybkiego uruchomienia węzła. Moje systemy nie robią wiele więcej, gdy są bezczynne, więc dlaczego nie tworzyć BitCoinów? A jeśli pewnego dnia będą coś warte...? To byłby bonus!”
 
 Dwa ostatnie powody są znacznie bardziej znaczące, ponieważ motywują ludzi do ciągłego wydobywania. Tak więc w 2009 r. kilka osób kierujących się tymi powodami wyprodukowało znaczną liczbę bloków, wnosząc do sieci swoją moc obliczeniową. Wśród tych osób, w szczególności:
 
 
 
 - Hal Finney, który prowadził swój komputer w okresie od uruchomienia sieci do marca 2009 roku, zdołał zgromadzić ponad 10 000 bitcoinów.
-- Dustin Trammell, który wydobywa imponującą liczbę bloków w 2009 i na początku 2010 roku, uzyskując w ten sposób ponad 70 000 bitcoinów, o czym świadczy aktywność związana z jego [Address](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv); - brytyjski inżynier o imieniu James Howells, który [generuje](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 8 000 bitcoinów za pomocą swojego komputera między lutym a kwietniem (wyśle swój komputer na wysypisko śmieci w 2013 roku i zda sobie sprawę ze swojego błędu kilka miesięcy później; jego sprawa zostanie następnie [nagłośniona](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site) przez *The Guardian*);
+- Dustin Trammell, który wydobywa imponującą liczbę bloków w 2009 i na początku 2010 roku, uzyskując w ten sposób ponad 70 000 bitcoinów, o czym świadczy aktywność związana z jego [adresem](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv); - brytyjski inżynier o imieniu James Howells, który [generuje](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 8 000 bitcoinów za pomocą swojego komputera między lutym a kwietniem (w 2013 r. wyśle swój komputer na wysypisko śmieci i zda sobie sprawę ze swojego błędu kilka miesięcy później; jego sprawa zostanie następnie [nagłośniona](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site) przez *The Guardian*);
 - Martti Malmi, który przyczynia się do produkcji bloków w sieci w okresie od kwietnia 2009 r. do 2010 r. i w ten sposób [uzyskuje](https://twitter.com/marttimalmi/status/1339908783187832834) ponad 55 000 bitcoinów;
-- Niejaki NewLibertyStandard, który od września 2009 roku generuje znaczną liczbę bitcoinów, by zasilić swój rodzący się serwis Exchange...
+- Niejaki NewLibertyStandard, który od września 2009 roku generuje znaczną liczbę bitcoinów, by zasilić swój rodzący się serwis wymiany...
 
 
-### Pierwsza usługa Exchange i pierwsza cena
+### Pierwsza wymiana i pierwsza cena
 
 
-Pod koniec września 2009 r. osoba posługująca się pseudonimem NewLibertyStandard (w skrócie NLS) odkrywa Bitcoin. Wypróbowuje oprogramowanie i uruchamia Mining. Pierwszym wyprodukowanym przez niego blokiem jest [block 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). NLS jest użytkownikiem Linuksa i dlatego używa "emulatora" Wine do uruchomienia oprogramowania. Interesuje się wolnością polityczną i metalami szlachetnymi, o czym świadczy jego [awatar](https://bitcointalk.org/index.php?action=profile;u=26) na forum, który przedstawia amerykańskiego orła z napisem "liberty". W związku z tym postrzega Bitcoin jako odpowiednik złota w świecie cyfrowym: na swojej [osobistej stronie](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) przedstawia stworzenie Satoshi Nakamoto jako "rewolucję gospodarczą" i jako "złoty standard waluty cyfrowej"
+Pod koniec września 2009 r. osoba posługująca się pseudonimem NewLibertyStandard (w skrócie NLS) odkrywa Bitcoina. Wypróbowuje oprogramowanie i zaczyna wydobycie. Pierwszym wyprodukowanym przez niego blokiem jest [blok 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). NLS jest użytkownikiem Linuksa i dlatego używa „emulatora” Wine do uruchomienia oprogramowania. Interesuje się wolnością polityczną i metalami szlachetnymi, o czym świadczy jego [awatar](https://bitcointalk.org/index.php?action=profile;u=26) na forum, który przedstawia amerykańskiego orła z napisem „liberty”. W związku z tym postrzega Bitcoina jako odpowiednik złota w świecie cyfrowym: na swojej [osobistej stronie](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) przedstawia twór Satoshiego Nakamoto jako „rewolucję gospodarczą” i jako „standard złota w świecie waluty cyfrowej”.
 
 
 ![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/30.webp)
 
 
-W październiku 2009 r. powstała pierwsza usługa walutowa Exchange, umożliwiająca wymianę dolarów na bitcoiny i bitcoinów z powrotem na dolary. Twórca zarejestrował się na dedykowanym Bitcoin forum na SourceForge i ogłosił tam otwarcie swojej usługi. Aby oszacować kurs Exchange, oparł go na koszcie energii wymaganym do uzyskania jednostki, biorąc pod uwagę cenę energii elektrycznej w jego lokalizacji i częstotliwość jego osobistej produkcji. Na swojej stronie [napisał](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
+W październiku 2009 r. powstała pierwsza usługa wymiany walut, umożliwiająca wymianę dolarów na bitcoiny i bitcoinów z powrotem na dolary. Twórca zarejestrował się na dedykowanym forum Bitcoina na SourceForge i ogłosił tam otwarcie swojej usługi. Aby oszacować kurs wymiany, oparł go na koszcie energii wymaganym do uzyskania jednostki, biorąc pod uwagę cenę energii elektrycznej w jego lokalizacji i częstotliwość jego osobistej produkcji. Na swojej stronie [napisał](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
 
-> "Nasza stawka Exchange jest obliczana poprzez podzielenie 1,00 USD przez średnią ilość energii elektrycznej wymaganej do uruchomienia komputera z wysokim zużyciem procesora przez rok, 1331,5 kWh, pomnożoną przez średni koszt energii elektrycznej w Stanach Zjednoczonych w poprzednim roku, 0,1136 USD, wszystko podzielone przez 12 miesięcy, podzielone przez liczbę bitcoinów wygenerowanych przez mój komputer w ciągu ostatnich 30 dni"
+> „Nasza stawka wymiany jest obliczana poprzez podzielenie 1,00 USD przez średnią ilość energii elektrycznej wymaganej do uruchomienia komputera z wysokim zużyciem procesora przez rok, 1331,5 kWh, pomnożoną przez średni koszt energii elektrycznej w Stanach Zjednoczonych w poprzednim roku, 0,1136 USD, wszystko podzielone przez 12 miesięcy, podzielone przez liczbę bitcoinów wygenerowanych przez mój komputer w ciągu ostatnich 30 dni”
 
-Oto orientacyjne stawki Exchange usługi NLS, opublikowane również na osobistej stronie NLS:
+Oto orientacyjne stawki wymiany NLS, opublikowane również na osobistej stronie NLS:
 
 
 ![Indicative exchange rates of the NLS service](assets/en/31.webp)
 
 
-Transakcje są rozliczane za pośrednictwem poczty elektronicznej pod adresem newlibertystandard@gmail.com. Przelewy w dolarach są dokonywane wyłącznie za pośrednictwem PayPal, a za operację pobierane są opłaty.
+Transakcje są rozliczane za pośrednictwem poczty elektronicznej pod adresem newlibertystandard@gmail.com. Przelewy w dolarach są dokonywane wyłącznie za pośrednictwem PayPala, a za operację pobierane są opłaty.
 
 
-8 października Martti Malmi [poinformował](https://mmalmi.github.io/Satoshi/#email-34) Satoshi o istnieniu usługi NLS. Twórca Bitcoin zareagował pozytywnie na tę wiadomość, ponieważ rozważał [od jakiegoś czasu](https://mmalmi.github.io/Satoshi/#email-28) ustanowienie środka gwarantującego wartość bitcoinów, aby nagrodzić Mining i uruchomić dynamikę ekonomiczną systemu. 16 października [napisał](https://mmalmi.github.io/Satoshi/#email-35) do swojej prawej ręki:
+8 października Martti Malmi [poinformował](https://mmalmi.github.io/Satoshi/#email-34) Satoshiego o istnieniu usługi NLS. Twórca Bitcoina zareagował pozytywnie na tę wiadomość, ponieważ rozważał [od jakiegoś czasu](https://mmalmi.github.io/Satoshi/#email-28) ustanowienie środka gwarantującego wartość bitcoinów, aby nagrodzić wydobycie i uruchomić dynamikę ekonomiczną systemu. 16 października [napisał](https://mmalmi.github.io/Satoshi/#email-35) do swojej prawej ręki:
 
-"Zachęcające jest to, że coraz więcej osób interesuje się taką stroną jak NewLibertyStandard. Podoba mi się jego podejście do szacowania wartości w oparciu o energię elektryczną. Warto zobaczyć, jakie wyjaśnienia przyjmują ludzie. Mogą one pomóc odkryć uproszczony sposób rozumienia [Bitcoin], który uczyni go bardziej dostępnym dla mas. Wiele złożonych koncepcji na świecie ma uproszczone wyjaśnienie, które zadowala 80% ludzi, i pełne wyjaśnienie, które zadowala pozostałe 20%, które widzi wady uproszczonego wyjaśnienia"
-
-
-Po ogłoszeniu NLS, Martti Malmi skontaktował się z nim. Obaj zgodzili się zawrzeć Exchange. W nocy z 11 na 12 października 2009 r. sfinalizowano pierwszą sprzedaż bitcoinów za dolary: Martti [przelał](https://twitter.com/marttimalmi/status/423455561703624704) 5 050 bitcoinów ze swoich Mining do NLS, który następnie przelał 5,02 dolara na swoje konto PayPal. Odpowiada to cenie jednostkowej około 0,001 USD.
+„Zachęcające jest to, że coraz więcej osób interesuje się taką stroną jak NewLibertyStandard. Podoba mi się jego podejście do szacowania wartości w oparciu o energię elektryczną. Warto zobaczyć, jakie wyjaśnienia przyjmują ludzie. Mogą one pomóc odkryć uproszczony sposób rozumienia [Bitcoina], który uczyni go bardziej dostępnym dla mas. Wiele złożonych koncepcji na świecie ma uproszczone wyjaśnienie, które zadowala 80% ludzi, i pełne wyjaśnienie, które zadowala pozostałe 20%, które widzi wady uproszczonego wyjaśnienia.”
 
 
-W kolejnych tygodniach NLS zgromadził więcej bitcoinów do Supply swojej usługi. 19 listopada ktoś [kupił](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756) około 22 500 bitcoinów, które posiadał, zamykając pierwszą sprzedaż Bitcoin. Kilka godzin później Satoshi był zachwycony tą operacją finansową w [e-mailu](https://mmalmi.github.io/Satoshi/#email-99) napisanym do Martti Malmi.
+Po ogłoszeniu NLS, Martti Malmi skontaktował się z nim. Obaj zgodzili się dokonać wymiany. W nocy z 11 na 12 października 2009 r. sfinalizowano pierwszą sprzedaż bitcoinów za dolary: Martti [przelał](https://twitter.com/marttimalmi/status/423455561703624704) 5 050 wydobytych przez siebie bitcoinów do NLS, który następnie przelał 5,02 dolara na jego konto PayPal. Odpowiada to cenie jednostkowej około 0,001 USD.
 
 
-W kolejnych miesiącach usługa NLS stała się centralnym elementem rozwoju gospodarczego Bitcoin, oferując punkt odniesienia dla Exchange między Bitcoin a dolarem. Jednak w pierwszej połowie 2010 r. usługa ta zaczęła konkurować z innymi, bardziej wydajnymi usługami Exchange.
+W kolejnych tygodniach NLS zgromadził więcej bitcoinów, aby móc swiadczyc swoje usługi wymiany. 19 listopada ktoś [kupił](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756) około 22 500 bitcoinów, które posiadał, zamykając pierwszą sprzedaż Bitcoina. Kilka godzin później Satoshi był zachwycony tą operacją finansową w [e-mailu](https://mmalmi.github.io/Satoshi/#email-99) napisanym do Marttiego Malmi.
+
+
+W kolejnych miesiącach usługa NLS stała się centralnym elementem rozwoju gospodarczego Bitcoina, oferując punkt odniesienia dla wymiany między bitcoinem a dolarem. Jednak w pierwszej połowie 2010 r. usługa ta zaczęła konkurować z innymi, bardziej wydajnymi.
 
 
 ### Początki gospodarki
 
-Początek 2010 roku to pierwsze kroki komercyjnych giełd kryptowalut. NewLibertyStandard, który jako pierwszy zaakceptował otrzymanie Bitcoin w Exchange za inne dobro ekonomiczne (w tym przypadku dolary), jest również pierwszym promotorem tego boomu gospodarczego. 19 stycznia 2010 r., tuż po zarejestrowaniu się na nowym forum, [napisał](https://bitcointalk.org/index.php?topic=15.msg111#msg111) następujący tekst:
+Początek 2010 roku to pierwsze kroki komercyjnych giełd kryptowalut. NewLibertyStandard, który jako pierwszy zaakceptował otrzymanie bitcoina w zamian za inne dobro ekonomiczne (w tym przypadku dolary), jest również pierwszym promotorem tego boomu gospodarczego. 19 stycznia 2010 r., tuż po zarejestrowaniu się na nowym forum, [napisał](https://bitcointalk.org/index.php?topic=15.msg111#msg111) następujący tekst:
 
 
-> "Ludzie kupowali ode mnie bitcoiny i sprzedawali mi bitcoiny. Supply i popyt, nawet jeśli są niskie, już istnieją i to wszystko, czego naprawdę potrzeba. Proponowanie Exchange bitcoinów za inną walutę ostatecznie nie różni się od wymiany bitcoinów na towary lub usługi. Waluty są towarami, a ich wymiana jest usługą. Próbowałem wymyślić coś, co można kupić lub sprzedać za bitcoiny, poza dolarami amerykańskimi, ale nic nie znalazłem. Nie krępuj się informować nas o tym, co zdecydujesz się sprzedać za bitcoiny. Jeśli chodzi o kwestię wyczerpywania się środków, zaplanowałem codzienną darowiznę w moim budżecie. Możesz kupić wszystkie moje dolary lub bitcoiny dzisiaj, ale zawsze będzie ich więcej jutro i pojutrze. Każdy, kto kupuje lub sprzedaje towary za pomocą bitcoinów, w tym giełdy, rozwija gospodarkę Bitcoin. Niech każdy zrobi to, co do niego należy. Kup lub sprzedaj coś w Exchange za bitcoiny!"
+> „Ludzie kupowali ode mnie bitcoiny i sprzedawali mi bitcoiny. Podaż i popyt, nawet jeśli są niskie, już istnieją i to wszystko, czego naprawdę potrzeba. Proponowanie ymiany bitcoinów za inną walutę ostatecznie nie różni się od wymiany bitcoinów na towary lub usługi. Waluty są towarami, a ich wymiana jest usługą. Próbowałem wymyślić coś, co można kupić lub sprzedać za bitcoiny, poza dolarami amerykańskimi, ale niczego nie znalazłem. Nie krępuj się informować nas o tym, co zdecydujesz się sprzedać za bitcoiny. Jeśli chodzi o kwestię wyczerpywania się środków, zaplanowałem w moim budżecie codzienną darowiznę. Możesz kupić wszystkie moje dolary lub bitcoiny dzisiaj, ale zawsze będzie ich więcej jutro i pojutrze. Każdy, kto kupuje lub sprzedaje towary za pomocą bitcoinów, w tym giełdy, rozwija gospodarkę Bitcoina. Niech każdy zrobi to, co do niego należy. Kup lub sprzedaj coś w zamian za bitcoiny!”
 
-Działania koordynacyjne prowadzone są głównie na forum. 27 stycznia holenderski użytkownik o pseudonimie giik utworzył [wątek](https://bitcointalk.org/index.php?topic=30.0) zatytułowany "Akceptujemy Bitcoiny", w którym zaproponował listę różnych usług akceptujących Bitcoin. Mniej więcej w tym czasie nowe forum zaczęło zyskiwać popularność, a wiadomości zaczęły się mnożyć. 7 lutego Satoshi [zwrócił uwagę](https://mmalmi.github.io/Satoshi/#email-153) Marttiemu Malmi, że "forum na pewno się rozkręca. &nbsp;Nie spodziewałem się tak szybkiej aktywności"
+Działania koordynacyjne prowadzone są głównie na forum. 27 stycznia holenderski użytkownik o pseudonimie giik utworzył [wątek](https://bitcointalk.org/index.php?topic=30.0) zatytułowany „Akceptujemy Bitcoiny”, w którym zaproponował listę różnych usług akceptujących Bitcoina. Mniej więcej w tym czasie nowe forum zaczęło zyskiwać popularność, a wiadomości zaczęły się mnożyć. 7 lutego Satoshi [zwrócił uwagę](https://mmalmi.github.io/Satoshi/#email-153) Marttiemu Malmi, że „forum na pewno się rozkręca. &nbsp;Nie spodziewałem się tak szybkiej aktywności”.
 
 
-5 lutego NLS [zasugerował](https://bitcointalk.org/index.php?topic=41.msg238#msg238), aby Bitcoin, podobnie jak waluty będące przedmiotem obrotu na zagranicznym rynku Exchange, przyjęły symbol giełdowy BTC i symbol tajskiego bahta (฿). Do tego czasu nie było ustalonej praktyki: na przykład Satoshi i Martti używali liter `bc` do opisywania jednostek w swojej [korespondencji](https://mmalmi.github.io/Satoshi/#email-119). Użycie symbolu BTC szybko zostało ustandaryzowane. 24 lutego symbol waluty (wielka litera B przecięta dwoma pionowymi kreskami) został [zaprojektowany](https://bitcointalk.org/index.php?topic=64.msg504#msg504) przez Satoshi, który następnie stworzył pierwsze prawdziwe logo Bitcoin.
+5 lutego NLS [zasugerował](https://bitcointalk.org/index.php?topic=41.msg238#msg238), aby Bitcoin, podobnie jak waluty będące przedmiotem obrotu na zagranicznym rynku wymiany, przyjęły symbol giełdowy BTC i symbol tajskiego bahta (฿). Do tego czasu nie było ustalonej praktyki: na przykład Satoshi i Martti używali liter `bc` do opisywania jednostek w swojej [korespondencji](https://mmalmi.github.io/Satoshi/#email-119). Użycie symbolu BTC szybko zostało ustandaryzowane. 24 lutego symbol waluty (wielka litera B przecięta dwoma pionowymi kreskami) został [zaprojektowany](https://bitcointalk.org/index.php?topic=64.msg504#msg504) przez Satoshiego, który następnie stworzył pierwsze prawdziwe logo Bitcoina.
 
 
 ![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/32.webp)
 
 
-Stopniowo ludzie zaczęli akceptować Bitcoin. Tak było w przypadku użytkownika SmokeTooMuch w grudniu 2009 r., który właśnie przybył i [zgłosił istnienie](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) usługi sprzedaży kart podarunkowych paysafecard o nazwie BTC 2 PSC. Usługa ta została później [wspomniana](https://mmalmi.github.io/Satoshi/#email-141) pozytywnie przez Satoshi w dniu 4 lutego 2010 roku. Podobnie było w przypadku NLS, który 9 lutego [otworzył](https://bitcointalk.org/index.php?topic=30.msg305#msg305) swój własny sklep internetowy, Liberty Swap Variety Shop, w którym oferował na sprzedaż znaczki i naklejki.
+Stopniowo ludzie zaczęli akceptować Bitcoina. Tak było w przypadku użytkownika SmokeTooMuch w grudniu 2009 r., który właśnie dołączył do grupy i [ogłosił istnienie](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) usługi sprzedaży kart podarunkowych paysafecard o nazwie BTC 2 PSC. Usługa ta została później [wspomniana](https://mmalmi.github.io/Satoshi/#email-141) w pozytywnym świetle przez Satoshiego w dniu 4 lutego 2010 roku. Podobnie było w przypadku NLS, który 9 lutego [otworzył](https://bitcointalk.org/index.php?topic=30.msg305#msg305) swój własny sklep internetowy, Liberty Swap Variety Shop, w którym oferował na sprzedaż znaczki i naklejki.
 
 
-Exchange z dolarem również się rozwinął i w ciągu dwóch miesięcy nie mniej niż trzy platformy otworzyły swoje drzwi:
+Wymiana z dolarem również się rozwinęłą i w ciągu dwóch miesięcy nie mniej niż trzy platformy otworzyły swoje drzwi:
 
 
 
 - BitcoinFX (bitcoinfx.cz.cc), usługa sprzedaży bitcoinów w dolarach Liberty Reserve, która została [ogłoszona](https://bitcointalk.org/index.php?topic=30.msg194#msg194) 15 lutego;
-- BitcoinExchange (bitcoinexchange.com), platforma Marttiego Malmi, która w unikalny sposób [mierzy](https://mmalmi.github.io/Satoshi/#email-25) Supply i popyt, biorąc pod uwagę euro i bitcoiny zdeponowane przez użytkowników, i która została [otwarta dla publiczności](https://bitcointalk.org/index.php?topic=68.msg591#msg591) 2 marca 2010 roku;
-- Bitcoin Market (bitcoinmarket.com), rynek peer-to-peer wykorzystujący PayPal, który został [uruchomiony](https://bitcointalk.org/index.php?topic=20.msg726#msg726) przez niejakiego dwdolara 16 marca i który odniesie znaczący sukces przed pojawieniem się Mt. Gox w lipcu.
+- BitcoinExchange (bitcoinexchange.com), platforma Marttiego Malmi, która w unikalny sposób [mierzy](https://mmalmi.github.io/Satoshi/#email-25) podaż i popyt, biorąc pod uwagę euro i bitcoiny zdeponowane przez użytkowników, i która została [otwarta dla publiczności](https://bitcointalk.org/index.php?topic=68.msg591#msg591) 2 marca 2010 roku;
+- Bitcoin Market (bitcoinmarket.com), rynek peer-to-peer wykorzystujący PayPala, który został [uruchomiony](https://bitcointalk.org/index.php?topic=20.msg726#msg726) przez niejakiego dwdolara 16 marca i który odniesie znaczący sukces przed pojawieniem się Mt. Gox w lipcu.
 
 
 ![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/33.webp)
@@ -1165,52 +1165,52 @@ Exchange z dolarem również się rozwinął i w ciągu dwóch miesięcy nie mni
 11 marca odbyła się pierwsza gra w pokera z wykorzystaniem bitcoinów [zorganizowana](https://bitcointalk.org/index.php?topic=80.msg781#msg781) przez administratora BitcoinFX, inaugurująca silny związek między hazardem a kryptowalutami. Grę wygrał dwdollar, który zarobił [600 BTC](https://Mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761).
 
 
-Pojawiają się inne usługi akceptujące Bitcoin, takie jak usługa Voice over IP [Link2VoIP](https://bitcointalk.org/index.php?topic=30.msg733#msg733) 16 marca, usługa hostingowa [Vekja.net](https://bitcointalk.org/index.php?topic=30.msg1008#msg1008) 23 kwietnia lub sprzedawca nazw domen [Privacy Shark](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035) 30 kwietnia. Ta mnogość usług doprowadziła Marttiego Malmi do umieszczenia [strony](https://web.archive.org/web/20100517040312/http://www.Bitcoin.org:80/trade) z listą sprzedawców na stronie Bitcoin.org.
+Pojawiają się inne usługi akceptujące Bitcoina, takie jak usługa Voice over IP [Link2VoIP](https://bitcointalk.org/index.php?topic=30.msg733#msg733) 16 marca, usługa hostingowa [Vekja.net](https://bitcointalk.org/index.php?topic=30.msg1008#msg1008) 23 kwietnia lub sprzedaż nazw domen [Privacy Shark](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035) 30 kwietnia. Ta mnogość usług doprowadziła Marttiego Malmi do umieszczenia [strony](https://web.archive.org/web/20100517040312/http://www.Bitcoin.org:80/trade) z listą sprzedawców na stronie Bitcoin.org.
 
 
-Pojawia się również pierwsza dedykowana usługa powiernicza Bitcoin: jest to MyBitcoin, aplikacja internetowa umożliwiająca łatwe i spokojne korzystanie z kryptowaluty, zwłaszcza na urządzeniach mobilnych. Dzięki tej usłudze użytkownicy rzeczywiście nie muszą pobierać pełnych danych łańcucha, aby wysyłać i odbierać transakcje, ani samodzielnie przechowywać swoich bitcoinów, zapisując swoje klucze prywatne.
+Pojawia się również pierwsza dedykowana usługa powiernicza Bitcoina: jest to MyBitcoin, aplikacja internetowa umożliwiająca łatwe i spokojne korzystanie z kryptowaluty, zwłaszcza na urządzeniach mobilnych. Dzięki tej usłudze użytkownicy rzeczywiście nie muszą pobierać pełnych danych łańcucha, aby wysyłać i odbierać transakcje, ani samodzielnie przechowywać swoich bitcoinów, zapisując swoje klucze prywatne.
 
 
 ![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/34.webp)
 
 
-W tym czasie lekkie portfele (znane jako "SPV") nie istniały, więc sam Satoshi Nakamoto uznał za dopuszczalne korzystanie z tego typu oprogramowania, mimo że takie użycie było sprzeczne z zasadą dezintermediacji w sercu Bitcoin. W dniu 18 maja 2010 r. [napisał](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forum:
+W tym czasie lekkie portfele (znane jako "SPV") nie istniały, więc sam Satoshi Nakamoto uznał za dopuszczalne korzystanie z tego typu oprogramowania, mimo że takie użycie było sprzeczne z zasadą niekorzystania z pośredników w sercu Bitcoina. W dniu 18 maja 2010 r. [napisał](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forum:
 
 
-> "W międzyczasie strony takie jak [vekja.net](http://vekja.net) i [www.mybitcoin.com](http://www.mybitcoin.com) eksperymentowały z systemami opartymi na kontach. &nbsp;Tworzysz konto na stronie internetowej, przechowujesz tam swoje bitcoiny i przelewasz je do i z konta. &nbsp;Utworzenie konta na stronie internetowej jest o wiele łatwiejsze niż instalacja oprogramowania i nauka korzystania z niego, a dla większości ludzi jest to bardziej znana metoda. jedyną wadą jest to, że musisz zaufać stronie, ale jest to w porządku w przypadku niewielkich kwot przeznaczonych na mikropłatności i różne wydatki. Jest to łatwy sposób na rozpoczęcie, a jeśli otrzymane kwoty staną się bardziej znaczące, możesz przejść na rzeczywiste oprogramowanie Bitcoin"
+> „W międzyczasie strony takie jak [vekja.net](http://vekja.net) i [www.mybitcoin.com](http://www.mybitcoin.com) eksperymentowały z systemami opartymi na kontach. &nbsp;Tworzysz konto na stronie internetowej, przechowujesz tam swoje bitcoiny i przelewasz je do i z konta. &nbsp;Utworzenie konta na stronie internetowej jest o wiele łatwiejsze niż instalacja oprogramowania i nauka korzystania z niego, a dla większości ludzi jest to bardziej znana metoda. Jedyną wadą jest to, że musisz zaufać stronie, ale jest to w porządku w przypadku niewielkich kwot przeznaczonych na mikropłatności i różne wydatki. Jest to łatwy sposób na rozpoczęcie, a jeśli otrzymane kwoty staną się bardziej znaczące, możesz przejść na rzeczywiste oprogramowanie Bitcoin”.
 
-Wreszcie, 19 maja, użytkownik o pseudonimie Teppy zaczął [akceptować](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) Bitcoin dla administrowanej przez siebie gry Massively Multiplayer, *A Tale in the Desert*.
-
-
-### Pochodzenie wartości Bitcoin
+Wreszcie, 19 maja, użytkownik o pseudonimie Teppy zaczął [akceptować](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) bitcoina w administrowanej przez siebie grze Massively Multiplayer, *A Tale in the Desert*.
 
 
-Wiosną 2010 roku wydawało się, że Bitcoin rzeczywiście nabrał wartości w umysłach wielu ludzi. Mimo że korzystanie z systemu było w powijakach, popyt na Bitcoin był obecny, czy to z perspektywy Mining, Exchange z dolarem, czy sprzedaży usług. Ten ekonomiczny bootstrapping został ostatecznie przypieczętowany symbolicznym wydarzeniem, które miało miejsce 22 maja: pierwszym zakupem fizycznego towaru za bitcoiny, a konkretnie pizzy, o czym opowiemy w następnym rozdziale.
+### Pochodzenie wartości bitcoina
 
 
-Kwestia pochodzenia wartości Bitcoin pozostała czymś, co wiele osób starało się wyjaśnić. To pojawienie się wartości szczególnie zaniepokoiło zwolenników szkoły austriackiej, którzy mieli wąską interpretację [twierdzenia o regresji] Ludwiga von Misesa (https://en.wikipedia.org/wiki/Regression_theorem). Tak było w przypadku pewnej osoby, xc, która na forum [starała się](https://bitcointalk.org/index.php?topic=583.msg5984#msg5984) oprzeć transmisję wartości na konwersji z dolarem.
+Wiosną 2010 roku wydawało się, że bitcoin rzeczywiście nabrał wartości w umysłach wielu ludzi. Mimo że korzystanie z systemu było w powijakach, popyt na bitcoina był obecny, czy to poprzez wydobycie, wymianę z dolarem, czy sprzedaż usług. Ten ekonomiczny start został ostatecznie przypieczętowany symbolicznym wydarzeniem, które miało miejsce 22 maja: pierwszym zakupem fizycznego towaru za bitcoiny, a konkretnie pizzy, o czym opowiemy w następnym rozdziale.
 
 
-Jednak to pytanie nigdy nie przeszkadzało Satoshi, który postrzegał bootstrapping nowej waluty jako wyzwanie, które z pewnością było trudne do pokonania, ale nie niemożliwe. W ten sposób [wyraził](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405) swój punkt widzenia na forum 27 sierpnia 2010 r. w odpowiedzi na xc:
+Kwestia pochodzenia wartości bitcoina pozostała czymś, co wiele osób starało się wyjaśnić. To pojawienie się wartości szczególnie zaniepokoiło zwolenników szkoły austriackiej, którzy mieli wąską interpretację [twierdzenia o regresji] Ludwiga von Misesa (https://en.wikipedia.org/wiki/Regression_theorem). Tak było w przypadku pewnej osoby, xc, która na forum [starała się](https://bitcointalk.org/index.php?topic=583.msg5984#msg5984) oprzeć transmisję wartości na konwersji z dolarem.
 
 
-> "W ramach eksperymentu myślowego wyobraźmy sobie, że istnieje metal nieszlachetny tak rzadki jak złoto, ale o następujących właściwościach:
+Jednak to pytanie nigdy nie przeszkadzało Satoshiemu, który postrzegał ustanowienie nowej waluty jako wyzwanie, które z pewnością było trudne do pokonania, ale nie niemożliwe. W ten sposób [wyraził](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405) swój punkt widzenia na forum 27 sierpnia 2010 r. w odpowiedzi na xc:
+
+
+> „W ramach eksperymentu myślowego wyobraźmy sobie, że istnieje metal nieszlachetny tak rzadki jak złoto, ale o następujących właściwościach:
 > \- nudny szary kolor
 > \- nie jest dobrym przewodnikiem elektryczności
-> \- Nie jest szczególnie wytrzymały, ale nie jest też ciągliwy ani łatwo ciągliwy
-> \- nieprzydatne do żadnych praktycznych lub ozdobnych celów
+> \- Nie jest szczególnie wytrzymały, ale nie jest też ciągliwy ani łatwo kowalny
+> \- jest nieprzydatny do żadnych praktycznych lub ozdobnych celów
 >
 
-> i z jedną specjalną, magiczną właściwością:
-> \- mogą być transportowane przez kanał komunikacyjny
+> za to ma jedną specjalną, magiczną właściwość:
+> \- może być transportowane przez kanały komunikacyjne
 >
 
 > Jeśli z jakiegoś powodu metal ten zyskałby jakąkolwiek wartość, to każdy, kto chciałby przenieść bogactwo na dużą odległość, mógłby go kupić, przesłać i sprzedać odbiorcy.
 >
 
-> Być może początkowa wartość zyskałaby, jak zasugerowałeś, dzięki ludziom przewidującym jej potencjalną przydatność dla Exchange. (Zdecydowanie chciałbym trochę) Może kolekcjonerzy lub jakikolwiek przypadkowy powód mógłby to pobudzić"
+> Być może początkowa wartość zyskałaby, jak zasugerowałeś, dzięki ludziom przewidującym jego potencjalną przydatność do wymiany. (Ja zdecydowanie chciałbym go trochę nabyć). Może kolekcjonerzy lub jakikolwiek przypadkowy powód mógłby pobudzić zainteresowanie nim.”
 
-# Pierwszy wzrost Bitcoin
+# Pierwszy wzrost wartości Bitcoina
 
 <partId>557d792d-34d5-4a10-8977-82afdcfe402b</partId>
 
@@ -1219,16 +1219,16 @@ Jednak to pytanie nigdy nie przeszkadzało Satoshi, który postrzegał bootstrap
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
 
-W poprzedniej części zbadaliśmy, jak powstał Bitcoin, jak został przedstawiony opinii publicznej i jak został zainicjowany ekonomicznie. Wiosną 2010 r., gdy handel bitcoinami dopiero zaczynał rozkwitać, celem Satoshi Nakamoto i kilku wspierających go osób było utrzymanie płomienia przy życiu. Na szczęście do wysiłków dołączyły inne osoby, w szczególności Miner Laszlo Hanyecz i deweloper Gavin Andresen, którzy wyróżnili się swoimi działaniami.
+W poprzedniej części zbadaliśmy, jak powstał Bitcoin, jak został przedstawiony opinii publicznej i jak został zainicjowany ekonomicznie. Wiosną 2010 r., gdy handel bitcoinami dopiero zaczynał rozkwitać, celem Satoshiego Nakamoto i kilku wspierających go osób było utrzymanie płomienia przy życiu. Na szczęście do wysiłków dołączyły inne osoby, w szczególności Miner Laszlo Hanyecz i deweloper Gavin Andresen, którzy wyróżnili się swoimi działaniami.
 
 
-W tym rozdziale przyjrzymy się pierwszemu wdrożeniu Mining przez procesor graficzny (GPU), fortunie zgromadzonej przez Satoshi Nakamoto, pierwszemu zakupowi fizycznego towaru za bitcoiny, ustanowieniu Bitcoin Faucet rozdającego darmowe jednostki oraz ewolucji oprogramowania i sieci przed Slashdotem.
+W tym rozdziale przyjrzymy się pierwszemu wdrożeniu wydobywania procesorem graficznym (GPU), fortunie zgromadzonej przez Satoshiego Nakamoto, pierwszemu zakupowi fizycznego towaru za bitcoiny, ustanowieniu Bitcoin Faucet rozdającego darmowe jednostki oraz ewolucji oprogramowania i sieci przed Slashdotem.
 
 
-### Mining według Graphics Processing Unit
+### Wydobycie za pomocą procesora graficznego GPU
 
 
-Rosnącemu popytowi na Bitcoin towarzyszył stopniowy wzrost aktywności Mining w sieci. Przez cały 2009 rok trudność w sieci utrzymywała się na minimalnym poziomie 1, co wymagało od wszystkich węzłów wykonania około 4,3 miliarda obliczeń w celu wydobycia bloku. Jednak w grudniu 2009 r. zmieniło się to dzięki algorytmowi dostosowawczemu, który zwiększył współczynnik trudności z 1 do 1,18.
+Rosnącemu popytowi na Bitcoina towarzyszył stopniowy wzrost aktywności Mining w sieci. Przez cały 2009 rok trudność w sieci utrzymywała się na minimalnym poziomie 1, co wymagało od wszystkich węzłów wykonania około 4,3 miliarda obliczeń w celu wydobycia bloku. Jednak w grudniu 2009 r. zmieniło się to dzięki algorytmowi dostosowawczemu, który zwiększył współczynnik trudności z 1 do 1,18.
 
 
 Satoshi Nakamoto był bardzo zaniepokojony tym wzrostem trudności i prowadził [historię](https://bitcointalk.org/index.php?topic=43.msg249#msg249) na forum począwszy od lutego 2010 roku. Oto jak ona wyglądała:

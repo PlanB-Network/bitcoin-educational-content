@@ -966,20 +966,20 @@ Po skontaktowaniu się z Satoshim, Mike Hearn zaczął używać oprogramowania n
 ### Martti Malmi i prezentacja Bitcoina
 
 
-Komunikacja Satoshi przyciągnęła również uwagę młodego fińskiego studenta informatyki o imieniu Martti Malmi. Odkrył on Bitcoin na początku kwietnia, dzięki tekstowi na forum Fundacji P2P. 9 kwietnia zaczął korzystać z oprogramowania i wydobył swój pierwszy blok (blok 10,351). Wieczorem napisał krótką prezentację Bitcoin, w której poparł anarchistyczną hipotezę, że "Waluta P2P może sprawić, że rząd wymrze?" Opublikował swój tekst pod pseudonimem Trickster(n) na dwóch libertariańskich forach o różnej wrażliwości: anti-state.com (ASC) i forum Freedomain Radio (media anarchokapitalisty Stefana Molyneux). Martti napisał:
+Komunikacja Satoshiego przyciągnęła również uwagę młodego fińskiego studenta informatyki o imieniu Martti Malmi. Odkrył on Bitcoina na początku kwietnia, dzięki wiadomości na forum Fundacji P2P. 9 kwietnia zaczął korzystać z oprogramowania i wydobył swój pierwszy blok (blok 10,351). Wieczorem napisał krótką prezentację Bitcoina, w której poparł anarchistyczną hipotezę, że „Waluta P2P może sprawić, że rząd przestanie istnieć?” Opublikował swoją wiadomość pod pseudonimem Trickster(n) na dwóch libertariańskich forach o różnej wrażliwości: anti-state.com (ASC) i forum Freedomain Radio (media anarchokapitalisty Stefana Molyneux). Martti napisał:
 
 
-> "System jest anonimowy i żaden rząd nie mógłby opodatkować ani zapobiec transakcjom. Nie ma banku centralnego, który mógłby obniżyć wartość waluty poprzez nieograniczoną kreację nowych pieniędzy. Powszechne przyjęcie takiego systemu wydaje się czymś, co mogłoby mieć druzgocący wpływ na zdolność państwa do karmienia swoich obywateli"
+> „System jest anonimowy i żaden rząd nie mógłby opodatkować transakcji ani ich blokować. Nie ma banku centralnego, który mógłby obniżyć wartość waluty poprzez nieograniczoną kreację nowych pieniędzy. Powszechne przyjęcie takiego systemu wydaje się czymś, co mogłoby mieć druzgocący wpływ na zdolność państwa do życia na koszt swoich obywateli.”
 
 ![Martti Malmi in 2013](assets/en/28.webp)
 
 Martti Malmi w 2013 roku (źródło: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 
-Następnie Martti wysyła [email](https://mmalmi.github.io/Satoshi/#email-1) do Satoshi stwierdzając, że jest autorem tego tekstu, w którym pisze, że "chciałby pomóc w Bitcoin", mimo że "nie ma jeszcze dużego doświadczenia w rozwoju" Satoshi Nakamoto odpowiada 2 maja, mówiąc mu, że jego "zrozumienie Bitcoin" jest "w porządku"
+Następnie Martti wysyła [emaila](https://mmalmi.github.io/Satoshi/#email-1) do Satoshiego potwierdzając, że jest autorem tej wiadomości i „chciałby pomóc z Bitcoinem”, mimo że „nie ma jeszcze dużego doświadczenia w byciu developerem”. Satoshi Nakamoto odpowiada 2 maja, mówiąc mu, że jego „poziom zrozumienia Bitcoina” jest „idealny”.
 
 
-Twórca Bitcoin zaangażował go do współtworzenia [strony internetowej](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/) na SourceForge, platformie, na której hostowany jest projekt, w szczególności poprzez napisanie sekcji [często zadawanych pytań](https://mmalmi.github.io/Satoshi/#email-4) (FAQ). Na stronie głównej (Bitcoin.sourceforge.net) przedstawia Bitcoin jako "anonimową walutę cyfrową opartą na sieci peer-to-peer", która nie opiera się na "żadnym centralnym organie emitującym nowe pieniądze lub monitorującym transakcje" Podkreśla on następujące zalety:
+Twórca Bitcoina zaangażował go do współtworzenia [strony internetowej](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/) na SourceForge, platformie, na której hostowany jest projekt, w szczególności poprzez napisanie sekcji [często zadawanych pytań](https://mmalmi.github.io/Satoshi/#email-4) (FAQ). Na stronie głównej (Bitcoin.sourceforge.net) przedstawia Bitcoina jako „anonimową walutę cyfrową opartą na sieci peer-to-peer”, która nie opiera się na „żadnym centralnym organie emitującym nowe pieniądze lub monitorującym transakcje”. Podkreśla jego następujące zalety:
 
 
 

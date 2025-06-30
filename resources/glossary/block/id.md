@@ -6,10 +6,10 @@ Struktur data dalam sistem Bitcoin. Sebuah blok berisi sekumpulan transaksi yang
 
 
 - Versi blok;
-- Jejak dari blok sebelumnya;
+- _Hash_ dari blok sebelumnya;
 - Akar dari pohon transaksi Merkle;
 - Stempel waktu dari blok tersebut;
 - Target kesulitan;
-- The nonce.
+- Nilai _nonce_.
 
-Agar sebuah blok menjadi valid, blok tersebut harus memiliki header yang, setelah di-hash dengan `SHA256d`, menghasilkan sebuah digest yang kurang dari atau sama dengan target tingkat kesulitan.
+Agar sebuah blok dianggap valid, blok tersebut harus memiliki _header_ yang, setelah di-_hashing_ dengan `SHA256d`, menghasilkan sebuah _hash_ yang kurang dari atau sama dengan target tingkat kesulitan.

@@ -1,0 +1,16 @@
+id: dd6c5a48-f70a-481a-97f6-d5326727f9c5
+start_date: 2025-07-12 10:15:00
+end_date: 2025-07-05 10:15:00
+timezone: Asia/Kolkata
+address_city_country: Dehli, India
+name: test event
+type: conference
+description: This is a test
+language:
+  - en
+links:
+  website: www.test
+tags:
+  - easy-explain
+  - lightning
+  - mining

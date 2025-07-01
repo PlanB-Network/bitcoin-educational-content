@@ -1,0 +1,24 @@
+id: 65b38b20-f3c0-4809-af5e-86c615456a77
+start_date: 2025-12-15 01:00:00
+end_date: 2025-12-17 09:00:00
+timezone: Asia/Taipei
+address_city_country: Taipei, Taiwan
+name: Bitcoin++ Taipei 2025 Sovereignty Edition
+type: conference
+description: "Join Bitcoin++ in Taipei December 15-17 to talk about sovereignty
+  in bitcoin. We’ll be focusing on wallets, running nodes, and new protocols for
+  sovereign identity and payments.\r
+
+  Come learn from the experts working on bitcoin dev projects. Are you a new dev
+  or an experienced one? All technical and curious bitcoiners are welcome to
+  bitcoin++ events. Hope you can join us in Taipei for this unforgettable
+  event."
+language:
+  - en
+  - zh-TW
+links:
+  website: https://btcpp.dev/conf/taipei
+tags:
+  - technical-analysis
+  - software
+  - decentralization

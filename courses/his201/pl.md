@@ -1630,38 +1630,38 @@ Pozycja ta została jednak szybko podważona jesienią przez inne osoby, które 
 ### Specjalizacja wydobycia
 
 
-Pod koniec lata 2010 r. przykład ArtForza zainspirował innych górników, którzy w pośpiechu opracowali własne metody wydobywania bitcoinów generate za pomocą procesorów graficznych. W tym celu górnicy wykorzystywali środowiska programistyczne, takie jak CUDA lub OpenCL. Pozwoliło im to osiągnąć moc obliczeniową mierzoną w MH/s i stanowić znaczną część całkowitej mocy.
+Pod koniec lata 2010 r. przykład ArtForza zainspirował innych wydobywających, którzy w pośpiechu opracowali własne metody wydobywania bitcoinów za pomocą procesorów graficznych. W tym celu górnicy wykorzystywali środowiska programistyczne, takie jak CUDA lub OpenCL. Pozwoliło im to osiągnąć moc obliczeniową mierzoną w MH/s i generować znaczną część całkowitej mocy.
 
 
-2 września puddinpop Miner [udostępnił](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940) plik wykonywalny swojego klienta Mining, wykorzystujący algorytm wykorzystujący CUDA. Załączył opłatę w wysokości 10% dla każdego, kto go użyje. Takie podejście nie zostało szczególnie dobrze przyjęte przez członków forum, którzy byli zwolennikami wolnego oprogramowania.
+2 września wydobywający o pseudonimie puddinpop [udostępnił](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940) plik wykonywalny swojego klienta, wykorzystujący algorytm wykorzystujący CUDA. Załączył opłatę w wysokości 10% dla każdego, kto go użyje. Takie podejście nie zostało szczególnie dobrze przyjęte przez członków forum, którzy byli zwolennikami wolnego oprogramowania.
 
 
-6 września, po sugestii członka forum, [stwierdził](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107), że byłby "być może skłonny uczynić kod otwartym", gdyby otrzymał "znaczącą darowiznę" Piętnastego dnia Jeff Garzik złożył [ofertę](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921) w tym zakresie, proponując przekazanie puddinpopowi 10 000 bitcoinów, co w tamtym czasie wynosiło około 600 dolarów. Puddinpop zgodził się: transakcja miała miejsce [miejsce](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) 18-go, a algorytm został [opublikowany](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) na wolnej licencji przez puddinpop wkrótce potem.
+6 września, po sugestii członka forum, [stwierdził](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107), że byłby „być może skłonny udostępnić kod jako otwarty”, gdyby otrzymał „znaczącą darowiznę”. Piętnastego dnia Jeff Garzik złożył [ofertę](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921) w tym zakresie, proponując przekazanie puddinpopowi 10 000 bitcoinów, co w tamtym czasie wynosiło około 600 dolarów. Puddinpop zgodził się: transakcja miała [miejsce](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) 18-go, a algorytm został [opublikowany](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) na wolnej licencji przez użytkownika puddinpop wkrótce potem.
 
-Inne algorytmy zostały upublicznione mniej więcej w tym samym czasie. 9 września członek forum o pseudonimie nelisky [udostępnił](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) swój własny algorytm Mining wykorzystujący CUDA. 1 października ktoś o pseudonimie m0mchil, który dołączył do forum w lutym, [opublikował](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) swój algorytm (POCLBM), opisując go jako "OpenCL Miner dla mas"
-
-
-Ulepszenie to pozwoliło najbardziej uzdolnionym technicznie osobom na generate wielu bitcoinów. Oprócz ArtForza, Nils Schneider (tcatm) stał się jednym z głównych górników tego okresu. W dniu 3 października 2010 r. [twierdził](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111), że ma szybkość hashowania 983 MH/s wytwarzaną przez 3 procesory graficzne. Liczba ta wywołała [zdumienie](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) samego Satoshi.
+Inne algorytmy zostały upublicznione mniej więcej w tym samym czasie. 9 września członek forum o pseudonimie nelisky [udostępnił](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) swój własny algorytm wydobywczy wykorzystujący CUDA. 1 października ktoś o pseudonimie m0mchil, który dołączył do forum w lutym, [opublikował](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) swój algorytm (POCLBM), opisując go jako „OpenCL Miner dla mas”.
 
 
-### Pierwsze baseny Mining
+Ulepszenie to pozwoliło najbardziej uzdolnionym technicznie osobom na generację wielu bitcoinów. Oprócz ArtForza, Nils Schneider (tcatm) stał się jednym z głównych wydobywców tego okresu. W dniu 3 października 2010 r. [twierdził](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111), że ma szybkość haszowania 983 MH/s wytwarzaną przez 3 procesory graficzne. Liczba ta wywołała [zdumienie](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) samego Satoshiego.
 
 
-Ogromny wzrost wskaźnika Hash spowodowany specjalizacją Mining spowodował utrudnienie generate bitcoinów z centralnym procesorem, który stawał się coraz mniej przystępny cenowo. Rzeczywiście, możliwość generowania bitcoinów stała się bardziej zależna od wariancji, a niektórym osobom nigdy nie udało się wyprodukować bloku. Rozwiązaniem tego problemu jest współpraca Mining.
+### Pierwsze pule wydobywcze
 
 
-1 października m0mchil [opublikował](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) modyfikację API, która umożliwia węzłom klienckim pobieranie bloku kandydującego za pomocą nowej funkcji o nazwie `getwork` i zwracanie Proof of Work, jeśli znaleziono rozwiązanie. Napisał, że ta poprawka "otwiera drogę dla zewnętrznych górników Bitcoin" i "pozwala na konfigurację wielu górników dla jednego klienta"
-
-Tego samego dnia pomysł "pooled Mining" został [wspomniany](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) po raz pierwszy przez członka forum w wątku zatytułowanym "Jak obalić oligarchów GPU". 13 października puddinpop [zaproponował](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) model tego typu. Moc obliczeniowa Miner jest mierzona za pomocą meta-Hash, który jest odciskiem bufora zawierającego pierwszy bajt każdego bloku Hash. Serwer może następnie okresowo weryfikować, czy klient wykonuje obliczenia zgodnie z definicją. Model ten jest złożony i [nie pozwala na błędy] (https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015).
+Ogromny wzrost wskaźnika haszowania spowodowany specjalizacją wydobycia spowodował utrudnienie generowania bitcoinów z pomocą procesora centralnego, który stawał się coraz mniej przystępny cenowo. Rzeczywiście, możliwość generowania bitcoinów stała się bardziej zależna od losowości rezultatów, a niektórym osobom nigdy nie udało się wyprodukować bloku. Rozwiązaniem tego problemu jest współpraca przy wydobyciu.
 
 
-Istnieje jednak znacznie prostszy sposób pomiaru wskaźnika Hash klienta: częściowy Proof of Work. Metoda ta została [zaproponowana](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) przez ribucka, Nilsa Schneidera i Gavina Andresena na podstawie opisu puddinpopa. Polega ona na pobieraniu częściowych dowodów pracy o niższym stopniu niż trudność sieci uzyskana z tego samego bloku kandydata. Zebrane częściowe dowody pozwalają na probabilistyczne oszacowanie zużytej mocy.
+1 października m0mchil [opublikował](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) modyfikację API, która umożliwia węzłom pobieranie bloku kandydującego za pomocą nowej funkcji o nazwie `getwork` i zwracanie dowodu pracy, jeśli znaleziono rozwiązanie. Napisał, że ta „poprawka otwiera drogę dla zewnętrznych górników Bitcoina” i „pozwala na konfigurację wielu górników dla jednego klienta”.
+
+Tego samego dnia pomysł „puli wydobywczej” został [wspomniany](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) po raz pierwszy przez członka forum w wątku zatytułowanym „Jak obalić oligarchów GPU”. 13 października puddinpop [zaproponował](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) model tego typu. Moc obliczeniowa górnika jest mierzona za pomocą meta-haszu, który jest odciskiem bufora zawierającego pierwszy bajt haszu każdego bloku. Serwer może następnie okresowo weryfikować, czy klient wykonuje obliczenia zgodnie z definicją. Model ten jest złożony i [nie pozwala na błędy] (https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015).
 
 
-23 listopada zmodyfikowana wersja funkcji `getwork` została dodana do [kodu](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876), a 25 listopada została włączona do nowej wersji głównego oprogramowania ([v0.3.17](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460)). Tego samego dnia Jeff Garzik (który [popierał](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532) pomysł oddzielenia zarządzania łańcuchem i Mining w oprogramowaniu) [udostępnił](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217) swoje oprogramowanie CPU Mining, które wykorzystuje tę funkcję.
+Istnieje jednak znacznie prostszy sposób pomiaru wskaźnika haszowania klienta: częściowy dowód pracy. Metoda ta została [zaproponowana](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) przez ribucka, Nilsa Schneidera i Gavina Andresena na podstawie opisu puddinpopa. Polega ona na pobieraniu częściowych dowodów pracy o niższym stopniu niż trudność sieci uzyskana z tego samego kandydującego bloku. Zebrane częściowe dowody pozwalają na probabilistyczne oszacowanie zużytej mocy.
 
 
-27 listopada młody czeski deweloper o imieniu Marek Palatinus, używający pseudonimu slush, [opublikował](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0) opis "kooperacyjnego Mining" na forum, modelu wykorzystującego `getwork` i logikę Jeffa Garzika. Model ten opiera się na częściowych dowodach pracy produkowanych przez górników (pay-per-share). Następnego dnia Satoshi Nakamoto [zatwierdził](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) koncepcję.
+23 listopada zmodyfikowana wersja funkcji `getwork` została dodana do [kodu](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876), a 25 listopada została włączona do nowej wersji głównego oprogramowania ([v0.3.17](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460)). Tego samego dnia Jeff Garzik (który [popierał](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532) pomysł oddzielenia zarządzania łańcuchem i wydobycia w oprogramowaniu) [udostępnił](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217) swoje oprogramowanie wydobywcze dla CPU, które wykorzystuje tę funkcję.
+
+
+27 listopada młody czeski deweloper o imieniu Marek Palatinus, używający pseudonimu slush, [opublikował](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0)  na forum opis „współpracy wydobywczej”, modelu wykorzystującego `getwork` i logikę Jeffa Garzika. Model ten opiera się na częściowych dowodach pracy produkowanych przez górników (pay-per-share). Następnego dnia Satoshi Nakamoto [zatwierdził](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) koncepcję.
 
 
 ![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/50.webp)
@@ -1669,29 +1669,29 @@ Istnieje jednak znacznie prostszy sposób pomiaru wskaźnika Hash klienta: czę�
 Marek Palatinus (slush) na konferencji Z-DAY w Pradze 11 maja 2013 r
 
 
-Oba modele szacowania zostały wdrożone w grudniu. Po pierwsze, koncepcja puddinpop została zastosowana 1 grudnia przez użytkownika doublec, który [zaprosił](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) ludzi do połączenia się z jego serwerem Mining. Utworzona grupa [wyprodukowała](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) swój pierwszy blok (95,420) 4 grudnia. Po wyprodukowaniu dodatkowego bloku kilka dni później, serwer doublec został [zamknięty](https://bluishcoder.co.nz/Bitcoin-pool/) 15 grudnia. Usługa na stałe zamknęła swoje podwoje 17 grudnia, ze względu na pojawienie się znacznie bardziej wydajnej spółdzielni: Bitcoin.cz Mining.
+Oba modele szacowania zostały wdrożone w grudniu. Po pierwsze, koncepcja puddinpop została zastosowana 1 grudnia przez użytkownika doublec, który [zaprosił](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) ludzi do połączenia się z jego serwerem wydobywczym. Utworzona grupa [wyprodukowała](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) swój pierwszy blok (95,420) 4 grudnia. Po wyprodukowaniu dodatkowego bloku kilka dni później, serwer doubleca został [zamknięty](https://bluishcoder.co.nz/Bitcoin-pool/) 15 grudnia. Usługa na stałe zamknęła swoje podwoje 17 grudnia, ze względu na pojawienie się znacznie bardziej wydajnej kooperatywy wydobywczej: Bitcoin.cz Mining.
 
 
-Po zapoznaniu się z forum, Marek Palatinus zdecydował się wdrożyć swój model współpracy Mining i w szczególności przeprowadził testy w sieci testowej. Zapewnił również, że serwer może być dostępny zarówno dla górników CPU (którzy używają oprogramowania Jeffa Garzika), jak i górników GPU (którzy używają klientów od m0mchil i puddinpop).
+Po zapoznaniu się z forum, Marek Palatinus zdecydował się wdrożyć swój model współpracy wydobywczej i przeprowadził testy w sieci testowej. Zapewnił również, że serwer może być dostępny zarówno dla górników CPU (którzy używają oprogramowania Jeffa Garzika), jak i górników GPU (którzy używają klientów od m0mchil i puddinpop).
 
 
-W nocy z 15 na 16 grudnia spółdzielnia została ostatecznie [uruchomiona](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) przez Marka Palatinusa w głównej sieci. Pierwszy blok został [znaleziony](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) rano 16 grudnia. Następnie wyprodukowano wiele innych bloków. Grupa Mining od początku odnosiła sukcesy: w ciągu kilku dni jej wskaźnik Hash osiągnął 4 GH/s, co stanowi 3,5% całkowitej mocy sieci.
+W nocy z 15 na 16 grudnia kooperatywa została ostatecznie [uruchomiona](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) w głównej sieci przez Marka Palatinusa. Pierwszy blok został [znaleziony](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) rano 16 grudnia. Następnie wyprodukowano wiele innych bloków. Grupa wydobywcza od początku odnosiła sukcesy: w ciągu kilku dni jej wskaźnik haszowania osiągnął 4 GH/s, co stanowi 3,5% całkowitej mocy sieci.
 
 
-Spółdzielnia stała się punktem odniesienia w Bitcoin Mining. Przez lata [nosiła](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) kilka nazw: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, a w końcu Slush Pool, w nawiązaniu do jej twórcy. We wrześniu 2022 r. stał się Braiins Pool.
+Kooperatywa stała się punktem odniesienia dla wydobywania bitcoinów. Przez lata [nosiła](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) kilka nazw: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, a w końcu Slush Pool, w nawiązaniu do jej twórcy. We wrześniu 2022 r. otrzymała nazwę Braiins Pool.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/en/51.webp)
 
-Logo spółdzielni Slush we wrześniu 2011 (źródło: [archiwum](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/) strony)
+Logo kooperatywy Slush we wrześniu 2011 (źródło: [archiwum](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/) strony)
 
 
-### Wielki skok naprzód w Mining
+### Wielki skok naprzód w wydobyciu
 
-Tak więc druga połowa 2010 roku stanowiła okres znaczącego wzrostu dla Mining. Specjalizował się on w przyjęciu generacji GPU (Graphics Processing Unit). Kilka osób skupiło się i zbudowało prawdziwe farmy Mining, takie jak ArtForz i jego "ArtFarm". Ten boom ostatecznie doprowadził do pojawienia się spółdzielni, umożliwiając małym górnikom łączenie mocy obliczeniowej w celu zmniejszenia wariancji nagród.
+Tak więc druga połowa 2010 roku stanowiła okres znaczącego wzrostu wydobycia. Zaczęto specjalizować się poprzez przyjęcie generacji GPU (Graphics Processing Unit). Kilka osób skoncentrowało sie na tym i zbudowało prawdziwe farmy wydobywcze, takie jak ArtForz i jego „ArtFarm”. Ten boom ostatecznie doprowadził do pojawienia się kooperatyw, umożliwiając małym górnikom łączenie mocy obliczeniowej w celu zmniejszenia losowości nagród.
 
 
-Jednak jesień była sukcesem nie tylko dla Mining. Był to również sukces dla społeczności i związanego z nią ekosystemu gospodarczego. To właśnie omówimy w następnym rozdziale.
+Jednak jesień była sukcesem nie tylko dla wydobycia. Był to również sukces dla społeczności i związanego z nią ekosystemu gospodarczego. To właśnie omówimy w następnym rozdziale.
 
 
 ## Rozkwit ekosystemu
@@ -1784,7 +1784,7 @@ Wzrost Bitcoin oznacza, że rzeczy zaczynają być mierzone, czy to pod względe
 Ostatnim elementem wskazującym na sukces Bitcoin jest fakt, że niektórzy próbowali przetestować jego granice. Między 15 a 26 listopada pewna osoba rzeczywiście zabawiała się, tworząc zalew transakcji, liczony w tysiącach każdego dnia. Ta wyjątkowa aktywność została [zgłoszona](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) 19 listopada przez Jeffa Garzika. Zmusiło to Satoshi do wdrożenia środków zaradczych, poprzez [przywrócenie](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) opłaty transakcyjnej Interface i dodanie limitów darmowych transakcji.
 
 
-### Fundacja Electronic Frontier Foundation akceptuje Bitcoin
+### Fundacja Electronic Frontier Foundation akceptuje Bitcoina
 
 
 Ważnym wydarzeniem pod koniec 2010 roku było zaakceptowanie Bitcoin przez Electronic Frontier Foundation, międzynarodową organizację zajmującą się ochroną wolności w Internecie, współzałożoną w 1900 roku przez Mitcha Kapora, Johna Gilmore'a i Johna Perry'ego Barlowa. Było to szczególnie ważne dla pierwszych użytkowników Bitcoin, którzy w głębi serca byli cypherpunkami. Zależało im na tym, by sieć akceptowała Bitcoin.
@@ -1837,7 +1837,7 @@ Była to przedostatnia publiczna wiadomość od twórcy Bitcoin, który znikną�
 Jesienią 2010 roku ekosystem otaczający Bitcoin znacznie się rozwinął. Poprawiła się komunikacja i rozwinęła się gospodarka. W tym czasie wydawało się, że Bitcoin jest gotowy do samodzielnego startu. I właśnie w tym okresie Satoshi zdecydował się zniknąć i pozostawić stery projektu społeczności.
 
 
-## Zniknięcie Satoshi
+## Zniknięcie Satoshiego
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
 
@@ -1905,7 +1905,7 @@ Ta ewolucja sytuacji intensyfikuje debatę. Jedna osoba szczególnie popiera akc
 
 > "Zachęćmy Wikileaks do korzystania z Bitcoinów i jestem gotów stawić czoła wszelkiemu ryzyku lub skutkom tego działania"
 
-### Nagłe odejście Satoshi
+### Nagłe odejście Satoshiego
 
 
 Satoshi nie podziela poglądu Roberta Horninga i sprzeciwia się pomysłowi promowania Bitcoin w WikiLeaks. Jak świadczą jego słowa i czyny, zachowuje on wielką ostrożność w stosunku do władz państwowych, czasami graniczącą z [paranoją](https://mmalmi.github.io/Satoshi/#email-158). W związku z tym 5 grudnia zareagował na ten zapał, [odpowiadając](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999) ostro głównemu promotorowi:

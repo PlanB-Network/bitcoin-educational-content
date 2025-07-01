@@ -1,0 +1,10 @@
+question: Vilken är den största nackdelen med att använda Tor för en Bitcoin-nod?
+answer: Minskad kommunikationshastighet
+wrong_answers:
+  - Ökning av transaktionsavgifter
+  - Risk för censur av transaktioner
+  - Risk för Eclipse-attack på noden
+explanation: |
+  Kommunikationen över Tor är långsammare. Denna fördröjning är särskilt besvärlig under den första lanseringen av en nod, eftersom IBD (Initial Block Download) kräver mycket kommunikation.
+  
+reviewed: false

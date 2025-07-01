@@ -1,0 +1,10 @@
+question: Vilken är den viktigaste rollen för transaktionen Tx0 i Whirlpool?
+answer: För att utjämna UTXO:erna.
+wrong_answers:
+  - För att utföra den första mixningen.
+  - För att ta bort UTXO:erna från poolen.
+  - För att spendera de blandade UTXO:erna.
+explanation: |
+  Tx0 syftar till att förbereda och utjämna UTXO:erna för CoinJoin genom att dela upp dem i enheter som motsvarar mängden av den valda poolen, för att säkerställa homogeniteten i blandningen.
+  
+reviewed: false

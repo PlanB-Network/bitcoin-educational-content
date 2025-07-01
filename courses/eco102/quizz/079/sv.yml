@@ -1,0 +1,9 @@
+question: Enligt Bastiat, vilken fara utgör överdrivet statligt ingripande för samhället?
+answer: Det förstör det individuella ansvaret och begränsar det privata initiativet
+wrong_answers:
+  - Det främjar ekonomisk tillväxt och innovation
+  - Den garanterar lika möjligheter för alla
+  - Det skyddar individer från konsekvenserna av deras handlingar
+explanation: |
+  Enligt Bastiat minskar överdrivet statligt ingripande individernas autonomi och hindrar deras förmåga att ta initiativ, vilket försvagar det individuella ansvaret och kreativiteten.
+reviewed: false

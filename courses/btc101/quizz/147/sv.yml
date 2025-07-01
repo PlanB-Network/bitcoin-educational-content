@@ -1,0 +1,16 @@
+question: Vilka konsekvenser skulle det få för Bitcoin-användare om blocken var 100 gånger tyngre?
+answer: Att driva en Bitcoin-nod skulle inte vara tillgängligt för den genomsnittliga personen, vilket äventyrar protokollets decentralisering och oföränderligheten hos både transaktioner och konsensusregler.
+wrong_answers:
+  - Att driva en Bitcoin-nod skulle vara mer tillgängligt för den genomsnittliga personen, vilket förbättrar decentraliseringen av protokollet och oföränderligheten hos både transaktioner och konsensusregler.
+  - Nätets transaktionskapacitet skulle minska.
+  - Block reward för gruvarbetare skulle öka.
+explanation: |
+  Om blocken var 100 gånger tyngre skulle det krävas en Bitcoin
+  nod skulle kräva en 50TB Hard disk, en bandbredd på över
+  500GB/månad och hårdvara som kan validera hundratusentals
+  tusentals transaktioner på mindre än 10 minuter. Detta
+  skulle göra det otillgängligt att driva en Bitcoin-nod för den
+  genomsnittlig person, vilket äventyrar decentraliseringen av
+  protokollet och oföränderligheten hos transaktioner och konsensusregler
+  regler.
+reviewed: true

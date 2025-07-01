@@ -1,0 +1,11 @@
+question: Vilket skadligt innehåll kan e-postbilagor och bilder innehålla?
+answer: Skadlig kod
+wrong_answers:
+  - Skräppost
+  - Annonser
+  - Marknadsföringsinnehåll
+explanation: |
+  E-postbilagor och bilder kan innehålla skadlig kod.
+  Därför bör du inte ladda ner eller öppna bilagor från
+  okända eller misstänkta avsändare.
+reviewed: true

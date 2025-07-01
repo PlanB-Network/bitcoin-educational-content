@@ -1,0 +1,9 @@
+question: Vilken transaktionsmodell ogiltigförklarar användningen av CIOH?
+answer: Den samarbetsinriktade transaktionen.
+wrong_answers:
+  - Enkel betalning.
+  - Konsolidering.
+  - Svepande.
+explanation: |
+  CIOH är inte tillämplig på transaktioner som har ett samarbetsmönster, eftersom insatsvarorna i detta specifika fall nödvändigtvis kommer från olika enheter.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken operation används vanligtvis för att kombinera nyckelströmmen och meddelandet i ett strömchiffer?
+answer: XOR
+wrong_answers:
+  - Multiplikation
+  - Modulär förskjutning
+  - Ersättning av varje bokstav
+explanation: |
+  I ett strömchiffer används i allmänhet XOR-operationen för att kombinera nyckelströmmen med meddelandet eftersom den är enkel och reversibel.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Vad är den största skillnaden mellan en förstärkt rikoschett och en klassisk rikoschett?
+answer: Fördelningen av transaktioner över tid
+wrong_answers:
+  - Antalet transaktioner som används
+  - Den typ av Address som används
+  - Antalet utgångar i transaktionerna
+explanation: |
+  Den förbättrade rikoschetten säkerställer att varje transaktion sänds vid en distinkt tidpunkt och registreras i ett annat block, medan den klassiska rikoschetten sänder alla transaktioner inom en kort tidsram.
+  
+reviewed: false

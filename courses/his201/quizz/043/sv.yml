@@ -1,0 +1,9 @@
+question: Vad hade Bitcoin Faucet, som skapades i juni 2010 av Gavin Andresen, att erbjuda?
+answer: Bitcoins
+wrong_answers:
+  - Kuponger för shopping
+  - Avgiftsrabatter för Bitcoin Market
+  - Chanser att bryta ett block
+explanation: |
+  Denna tjänst distribuerade inledningsvis fem bitcoins per begäran för att låta människor prova systemet. Detta belopp minskades med tiden och Faucet stängdes 2012.
+reviewed: true

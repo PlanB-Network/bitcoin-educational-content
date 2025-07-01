@@ -1,0 +1,9 @@
+question: Vad kännetecknar komplexiteten i dagens kortbaserade betalningsprocess vid ett försäljningsställe i detaljhandeln?
+answer: Det handlar om flera mellanhänder, flera steg och det kan ta dagar innan pengarna är helt avvecklade.
+wrong_answers:
+  - Det krävs bara ett steg och pengarna betalas ut omedelbart.
+  - Den förlitar sig uteslutande på fysiska kontanter och inga mellanhänder.
+  - Det säkerställer att när kortet dras har handlaren tillgång till pengarna direkt och oåterkalleligt.
+explanation: |
+  Kortbetalningar involverar ofta en kedja av mellanhänder (inlösare, utgivare, kortnätverk), kräver auktorisation och avveckling och det kan ta från 48 timmar till flera dagar innan handlaren får nettobeloppet.
+reviewed: false

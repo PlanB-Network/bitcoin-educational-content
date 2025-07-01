@@ -1,0 +1,9 @@
+question: Vad var e-guld?
+answer: En digital valuta som backas upp av en motsvarande mängd guld som lagras i ett valv
+wrong_answers:
+  - En valutaenhet i World of Warcraft-universumet
+  - Ett digitalt valutakoncept vars utgivning baserades på Proof of Work
+  - Ett Exchange-system online för guldsmycken
+explanation: |
+  Douglas Jackson och Barry Downey var med och grundade systemet 1996. Det var tillgängligt med en enkel webbläsare.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Hur påverkar inflationen löntagarnas köpkraft över tiden?
+answer: Inflationen urholkar köpkraften eftersom lönerna ofta släpar efter den verkliga inflationstakten.
+wrong_answers:
+  - Inflationen ökar köpkraften när lönerna stiger snabbare än priserna.
+  - Inflationen har ingen effekt på köpkraften.
+  - Inflationen påverkar bara köpkraften för dem som investerar på finansmarknaderna.
+explanation: |
+  Inflation leder till en ihållande ökning av konsumentpriserna, vilket urholkar köpkraften
+  köpkraft för löntagare eftersom deras löner vanligtvis släpar efter den verkliga inflationstakten.
+  Detta gör det svårt för löntagare att uppnå sina långsiktiga sparmål
+  och bibehålla sin levnadsstandard.
+reviewed: true

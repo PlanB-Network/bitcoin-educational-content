@@ -1,0 +1,8 @@
+question: Varför är antalet bekräftelser i en Bitcoin-transaktion viktigt?
+answer: Ju fler bekräftelser en transaktion har, desto mer oföränderlig blir den.
+wrong_answers:
+  - Ju fler bekräftelser en transaktion har, desto mer värdefull blir den.
+  - Ju fler bekräftelser en transaktion har, desto snabbare behandlas den.
+  - Ju fler bekräftelser en transaktion har, desto osäkrare är den.
+explanation: >-
+reviewed: true

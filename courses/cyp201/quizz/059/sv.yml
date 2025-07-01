@@ -1,0 +1,9 @@
+question: Vad är seed:s roll i en Bitcoin HD Wallet?
+answer: Att fungera som utgångspunkt för härledning av alla nycklar
+wrong_answers:
+  - Lagra Wallet:s transaktioner
+  - Direkt generate den offentliga huvudnyckeln
+  - Säkerställa transaktionssekretess
+explanation: |
+  seed är en 512-bitarssekvens som härrör från Mnemonic-frasen och passphrase. Den utgör grunden för alla nycklar i Wallet.
+reviewed: false

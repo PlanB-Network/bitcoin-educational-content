@@ -1,0 +1,9 @@
+question: Vad är syftet med Terminal Consignment i RGB-överföringsprocessen?
+answer: Tillhandahålla historia om statliga övergångar
+wrong_answers:
+  - Validera Genesis Contract
+  - Ta bort gamla övergångar
+  - generate en ny Schema för överföringen
+explanation: |
+  Terminal Consignment samlar in Contract:s historik för att bevisa legitimiteten för den tillgång som hittills har överförts.
+reviewed: false

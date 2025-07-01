@@ -1,0 +1,12 @@
+question: Vilken roll har noderna i Bitcoin-nätverket?
+answer: Noderna upprätthåller integriteten genom att verifiera och validera transaktioner och block.
+wrong_answers:
+  - Noder skapar och validerar block.
+  - Noder verifierar endast transaktioner.
+  - Noderna har ingen roll i Bitcoin-nätverket.
+explanation: |
+  I Bitcoin-nätverket upprätthåller noderna nätverkets integritet
+  nätverket genom att verifiera och validera transaktioner och
+  block. Ett felaktigt eller bedrägligt block kommer att avvisas
+  av noderna, vilket bevarar nätverkets säkerhet.
+reviewed: true

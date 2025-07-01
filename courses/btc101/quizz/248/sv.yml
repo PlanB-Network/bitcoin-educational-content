@@ -1,0 +1,11 @@
+question: Vad är en av de viktigaste egenskaperna hos Bitcoin?
+answer: Den kan utväxlas var som helst i världen utan något tillstånd från någon enhet.
+wrong_answers:
+  - Den kan bara användas av en utvald grupp människor.
+  - För att kunna användas krävs tillstånd från en central myndighet.
+  - Den kan bara användas i vissa länder.
+explanation: |
+  Texten nämner att Bitcoin är pseudonym och kan utväxlas
+  utväxlas var som helst i världen utan tillstånd från någon
+  av någon enhet.
+reviewed: true

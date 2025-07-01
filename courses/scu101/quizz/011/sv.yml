@@ -1,0 +1,12 @@
+question: Vad är syftet med HTTPS-protokollet?
+answer: Det krypterar data på webbplatser för att säkerställa en säker Exchange mellan användaren och webbplatsen.
+wrong_answers:
+  - Det gör det möjligt för användare att kringgå geografiska begränsningar när de betalar med bank- eller kreditkort.
+  - Det gör det möjligt för användare att delvis blockera reklam på nätet.
+  - Det gör det möjligt för användare att komma åt internet utan att använda privata inloggningsuppgifter.
+explanation: |
+  HTTPS-protokollet krypterar data på webbplatser,
+  på webbplatser, vilket säkerställer att data som utbyts mellan användaren och
+  webbplats är säker. Detta hjälper till att skydda mot att tredje part
+  kan snappa upp uppgifterna.
+reviewed: true

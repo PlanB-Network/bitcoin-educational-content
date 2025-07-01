@@ -1,0 +1,9 @@
+question: Vad är det som kännetecknar en enhetlig variabel?
+answer: Alla möjliga värden har lika stor sannolikhet att inträffa
+wrong_answers:
+  - Värdena följer en asymmetrisk fördelning
+  - Sannolikheten för varje värde beror på experimentet
+  - Endast två värden kan inträffa med lika stor sannolikhet
+explanation: |
+  En uniform variabel är en slumpmässig variabel där alla möjliga värden har lika stor sannolikhet att inträffa.
+reviewed: false

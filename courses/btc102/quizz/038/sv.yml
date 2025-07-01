@@ -1,0 +1,9 @@
+question: Vilken profil föredrar förvärv utan kundkännedom och användning av mycket säkra plånböcker?
+answer: Den paranoida
+wrong_answers:
+  - Hodler
+  - Staplaren
+  - Den aktiva användaren
+explanation: |
+  Den paranoida prioriterar integritet och säkerhet och använder mycket säkra anskaffnings- och lagringsmetoder.
+reviewed: false

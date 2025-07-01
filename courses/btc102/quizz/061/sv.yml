@@ -1,0 +1,9 @@
+question: Varför rekommenderas det att skriva arvsbrevet med bläck på papper?
+answer: För att undvika de risker som är förknippade med komprometterade digitala dokument
+wrong_answers:
+  - För att minska utskriftskostnaderna
+  - För att få en juridiskt erkänd signatur
+  - För att öka dokumentets juridiska värde
+explanation: |
+  Ett handskrivet brev är mindre sårbart för cyberattacker och säkerställer att instruktionerna förblir konfidentiella.
+reviewed: false

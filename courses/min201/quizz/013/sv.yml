@@ -1,0 +1,13 @@
+question: Hur påverkar reglering och elpriser Bitcoin Mining?
+answer: Regleringar och eltariffer har en betydande inverkan på Bitcoin Mining. Gruvarbetare söker ständigt efter billig el för att maximera sina vinster. Därför lockar inte de höga elkostnaderna i vissa regioner gruvarbetare till dessa regioner. Gruvarbetare tenderar att söka sig till regioner med låga elpriser, ofta i tillväxtländer eller länder med energiöverskott.
+wrong_answers:
+  - Regleringar och eltariffer påverkar Bitcoin Mining genom att bestämma vilken typ av Mining-maskiner som kan användas.
+  - Reglering och eltariffer påverkar Bitcoin Mining genom att bestämma vilken typ av Mining programvara som kan användas.
+  - Reglering och eltariffer påverkar Bitcoin Mining genom att bestämma storleken på den Mining pool som kan bildas.
+explanation: |
+  I kapitlet förklaras att reglering och eltariffer
+  tariffer har ett betydande inflytande på Bitcoin Mining.
+  Gruvarbetare söker ständigt efter billig el för att maximera
+  maximera sina vinster och tenderar därför att söka sig till
+  mot regioner med låga elavgifter.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Vilken inverkan har bankernas och centralbankernas balansräkningar på inflationen?
+answer: Om nyskapade pengar ligger kvar i privata bankers balansräkningar utan att lånas ut till ekonomiska aktörer kommer de inte att ha någon direkt inverkan på den reala ekonomin och därför inte leda till inflation.
+wrong_answers:
+  - Om nyskapade pengar stannar kvar i privata bankers balansräkningar kommer de alltid att leda till inflation.
+  - Bankernas och centralbankernas balansräkningar har ingen inverkan på inflationen.
+  - Om nyskapade pengar lånas ut till ekonomiska aktörer kommer det inte att leda till inflation.
+explanation: |
+  I kapitlet förklaras att förhållandet mellan penningtryckning och
+  och inflation styrs av hur de nyskapade pengarna förs in i ekonomin.
+  Om dessa pengar ligger kvar i privata bankers balansräkningar utan att lånas ut till
+  till ekonomiska aktörer kommer de inte att ha någon direkt inverkan på den reala ekonomin och därför
+  inte leda till inflation.
+reviewed: false

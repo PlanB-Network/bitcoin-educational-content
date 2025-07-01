@@ -1,0 +1,9 @@
+question: Vad innebär en förändring i en transaktion?
+answer: Ett utdata som återgår till den ursprungliga avsändaren av transaktionen.
+wrong_answers:
+  - En avgift som tas ut av Bitcoin-nätverket.
+  - En output som överförs till mottagaren av transaktionen.
+  - En bonus som ges till avsändaren för snabba transaktioner.
+explanation: |
+  Change är en output som representerar den del av inputs som inte använts för att fullgöra betalningen, och som därmed återgår till den ursprungliga avsändaren av transaktionen.
+reviewed: false

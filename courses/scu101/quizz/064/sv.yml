@@ -1,0 +1,9 @@
+question: Varför är det inte rekommenderat att använda webbläsartillägg för automatisk ifyllning av lösenord?
+answer: De kan göra användaren mer sårbar för phishing-attacker, öka attackytan och göra webbläsaren långsammare.
+wrong_answers:
+  - De är svåra att använda.
+  - De är inte kompatibla med alla webbläsare.
+  - De kräver mycket lagringsutrymme.
+explanation: |
+  Webbläsartillägg som automatiskt fyller i lösenord kan göra användaren mer sårbar för phishing-attacker. De tenderar också att öka attackytan och kan sakta ner webbläsarens prestanda, vilket utgör en betydande risk.
+reviewed: true

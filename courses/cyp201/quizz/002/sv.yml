@@ -1,0 +1,9 @@
+question: Vilken egenskap hos Hash-funktioner demonstreras av en fullständig förändring av Hash när ett meddelande ändras något?
+answer: Lavineffekten
+wrong_answers:
+  - Motstånd mot kollisioner
+  - Andra förbildsmotstånd
+  - Längd
+explanation: |
+  En liten förändring i inmatningen resulterar i en radikal förändring i Hash, det är detta som kallas för lavinverkan.
+reviewed: false

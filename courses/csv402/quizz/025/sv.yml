@@ -1,0 +1,9 @@
+question: Vilka är de fyra komponenter som definierar en RGB Contract?
+answer: Genesis, Schema, Interface och Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Transition och Interface Implementation
+  - Genesis, Interface, Övergång och förlängning
+  - Genesis, Interface, Interface Implementation och Extension
+explanation: |
+  En RGB Contract består av fyra olika Elements; Genesis, Schema, Interface och Interface Implementation.
+reviewed: false

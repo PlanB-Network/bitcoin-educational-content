@@ -1,0 +1,13 @@
+question: Enligt Carl Menger, vad är värde för något?
+answer: Värde är en subjektiv psykologisk företeelse inom individen.
+wrong_answers:
+  - Värde är en inneboende egenskap hos varor.
+  - Värde är en objektiv och mätbar företeelse.
+  - Värdet bestäms av hur mycket arbete som används i produktionen.
+explanation: |
+  Enligt Menger är värde en subjektiv psykologisk företeelse
+  psykologiskt fenomen inom individen. Detta innebär att värde inte är
+  inte är en inneboende egenskap hos varor, utan snarare härrör från
+  individens åsikt om den nytta de kan få av dessa varor
+  från dessa varor.
+reviewed: true

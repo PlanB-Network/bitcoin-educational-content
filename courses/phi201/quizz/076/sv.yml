@@ -1,0 +1,9 @@
+question: Vad är den grundläggande skillnaden mellan Turgots och Adam Smiths teorier om värde?
+answer: Turgot menade att värdet bestämdes av arbete, medan Smith ansåg att det bestämdes av nytta.
+wrong_answers:
+  - Turgot ansåg att frihandel var den bästa ekonomiska politiken, medan Smith trodde på protektionism.
+  - Turgot ansåg att statens roll var att lämna marknaden fri, medan Smith ansåg att staten borde ingripa i ekonomin.
+  - Det finns ingen grundläggande skillnad mellan Turgots och Smiths teorier om värde.
+explanation: |
+  Turgot ansåg att arbetet var det som främst bestämde värdet, medan Adam Smith introducerade ett värdebegrepp som påverkades av nytta och efterfrågan, vilket var en föregångare till den subjektiva ekonomin.
+reviewed: true

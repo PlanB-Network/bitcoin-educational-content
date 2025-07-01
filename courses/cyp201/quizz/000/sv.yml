@@ -1,0 +1,9 @@
+question: Vad är den huvudsakliga funktionen för en Hash-funktion?
+answer: Den omvandlar information av godtycklig längd till ett fingeravtryck med fast storlek
+wrong_answers:
+  - Krypterar meddelanden för att göra dem oläsliga
+  - Den används endast för att verifiera integriteten hos Bitcoin-programvaran
+  - Den genererar privata nycklar för Bitcoin-plånböcker
+explanation: |
+  En Hash-funktion omvandlar data av valfri storlek till en Hash med fast storlek, vilket är avgörande för många tillämpningar i Bitcoin.
+reviewed: false

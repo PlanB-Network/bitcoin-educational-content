@@ -1,0 +1,9 @@
+question: Vad skiljer en modern krypteringsmetod från en enkel krypteringsmetod?
+answer: Garantier för meddelandets integritet och autenticitet
+wrong_answers:
+  - Användning av en enda hemlig nyckel
+  - Decentralisering av nyckelpersoner
+  - Anonymisering av meddelanden
+explanation: |
+  Modern kryptografi omfattar system som till skillnad från enkla krypteringssystem går utöver konfidentialitet för att säkerställa integritet och autenticitet samt oavvislighet.
+reviewed: false

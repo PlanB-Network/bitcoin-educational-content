@@ -1,0 +1,9 @@
+question: Vilken roll har routningsavgifterna i Lightning Network?
+answer: Att ge incitament till förmedlande noder att tillhandahålla likviditet för överföring av betalningar
+wrong_answers:
+  - För att begränsa antalet transaktioner i nätverket
+  - För att säkerställa att varje kanal har tillräckliga medel
+  - För att automatiskt beräkna den kortaste vägen
+explanation: |
+  Routingavgifter används för att kompensera mellanliggande noder som vidarebefordrar betalningar genom att erbjuda sin likviditet för att möjliggöra överföring av medel över nätverket.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad kallas ett element i en cyklisk grupp som kan generate alla andra Elements genom exponentiering?
+answer: En generator
+wrong_answers:
+  - En multiplikator
+  - En coprime
+  - En invers
+explanation: |
+  En generator är ett element i en cyklisk grupp som genom exponentiering kan producera alla andra Elements i gruppen.
+reviewed: false

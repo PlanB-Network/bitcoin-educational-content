@@ -1,0 +1,9 @@
+question: Vad gör RC4 sårbar idag trots dess tidigare popularitet?
+answer: Väldokumenterade svagheter i genereringen av nyckelströmmar
+wrong_answers:
+  - En nyckel för kort för att garantera säkerhet
+  - Dess oförmåga att arbeta med långa texter
+  - Kravet på att använda en publik nyckel utöver en privat nyckel
+explanation: |
+  RC4 har betydande svagheter i genereringen av nyckelströmmen, vilket gör att krypteringen utsätts för attacker och därför har den gradvis övergivits i moderna säkerhetsprotokoll.
+reviewed: false

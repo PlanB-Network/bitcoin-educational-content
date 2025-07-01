@@ -1,0 +1,11 @@
+question: Vad representeras den privata nyckeln ofta av i en Bitcoin Wallet?
+answer: En lista med 12 eller 24 ord.
+wrong_answers:
+  - En lista med 12 eller 48 ord.
+  - En lista med 32 ord.
+  - En lista med 64 ord.
+explanation: |
+  I en Bitcoin Wallet representeras den privata nyckeln ofta av en
+  av en lista med 12 eller 24 ord, även känd som en seed-fras
+  eller Mnemonic-fras.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Hur skapas och sätts nya Bitcoin i omlopp?
+answer: Genom Mining som en belöning för att lägga till nya transaktioner i Blockchain
+wrong_answers:
+  - Genom en centraliserad myndighets utfärdande
+  - Genom att köpa dem från Bitcoin-börser
+  - Genom att ta emot dem som transaktionsavgifter
+explanation: |
+  Nya Bitcoin sätts i omlopp genom en process som kallas Mining.
+  Miners tävlar med varandra om att lägga till nya transaktioner i Blockchain.
+  I Exchange belönas miners för sitt arbete med nyskapade Bitcoin.
+  Denna process verifierar och säkrar även transaktioner i Bitcoin-nätverket.
+reviewed: true

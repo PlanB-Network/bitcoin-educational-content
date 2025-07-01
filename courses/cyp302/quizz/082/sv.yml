@@ -1,0 +1,9 @@
+question: Varför anses engångskoden vara en säker krypteringsmetod?
+answer: Eftersom varje bit i nyckeln är slumpmässig och ingen del återanvänds
+wrong_answers:
+  - Eftersom den använder en slumpmässig offentlig och privat nyckel
+  - Eftersom den förlitar sig på primtal
+  - Eftersom den bara krypterar små meddelanden
+explanation: |
+  One-time pad är säker eftersom varje bit i nyckeln är slumpmässig och aldrig återanvänds, vilket gör att den inte lämnar några exploaterbara spår för en angripare.
+reviewed: false

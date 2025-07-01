@@ -1,0 +1,10 @@
+question: Vad är nackdelen med Silent Payments jämfört med BIP47?
+answer: Mottagaren måste skanna nästan hela Blockchain.
+wrong_answers:
+  - De generate högre transaktionsavgifter för avsändaren.
+  - De begränsar antalet möjliga transaktioner.
+  - De är mindre anonyma.
+explanation: |
+  I Exchange för att avstå från aviseringstransaktionen måste mottagaren söka igenom alla Bitcoin-transaktioner som uppfyller standarden i ett försök att hitta betalningar som är adresserade till dem.
+  
+reviewed: false

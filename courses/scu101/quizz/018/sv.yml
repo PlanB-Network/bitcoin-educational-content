@@ -1,0 +1,9 @@
+question: Vad är den rekommenderade metoden för att använda ett administratörskonto i Windows?
+answer: Skapa två separata konton - ett administratörskonto och ett konto för daglig användning.
+wrong_answers:
+  - Använd administratörskontot dagligen om datorn inte är ansluten till internet.
+  - Skapa två separata administratörskonton - ett för daglig användning och ett för administration av operativsystemet.
+  - Skapa inte ett administratörskonto.
+explanation: |
+  Om du använder ett administratörskonto för daglig användning i Windows kan systemet utsättas för fler säkerhetsrisker. Två separata konton bör skapas: ett för administrativa uppgifter och ett annat för daglig användning.
+reviewed: true

@@ -1,0 +1,15 @@
+question: Varför ska du köpa bitcoins utan KYC?
+answer: För att säkerställa din integritet.
+wrong_answers:
+  - För att säkerställa registreringen av alla Bitcoin-användare.
+  - Att köpa till ett lågt pris.
+  - Att sälja till ett lågt pris.
+explanation: |
+  Att köpa bitcoins utan KYC innebär att förvärva bitcoins utan att
+  att gå igenom de standardiserade Know Your Customer
+  verifieringsförfaranden som många börser och plattformar
+  kräver. En primär anledning till att individer kan välja detta
+  rutt är att upprätthålla sin integritet och se till att deras
+  personuppgifter och finansiella aktiviteter förblir
+  inte avslöjas.
+reviewed: true

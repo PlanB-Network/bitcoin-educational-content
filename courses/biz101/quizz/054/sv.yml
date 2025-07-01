@@ -1,0 +1,9 @@
+question: Vilken av följande programvaror är inte en Bitcoin redovisningslösning?
+answer: Sparrow
+wrong_answers:
+  - Myntspårare
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow är inte en Bitcoin bokföringslösning, medan de andra är det (det är en Bitcoin Wallet programvara).
+reviewed: false

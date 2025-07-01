@@ -1452,7 +1452,7 @@ Wśród osób, które odkryły Bitcoin dzięki Slashdotowi był Jed McCaleb, 35-
 Jed McCaleb w 2013 roku (źródło: Ariel Zambelich dla [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 
-Tydzień później, 18 lipca, Jed McCaleb uruchomił swoją platformę Exchange i [ogłosił](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) ją na forum. Dzięki swojej wiedzy zapewnił, że platforma działała jako zautomatyzowany rynek, podobny do nowoczesnych giełd internetowych. [Według niego](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), wyróżniała się ona od Bitcoin Market, ponieważ była "zawsze online, zautomatyzowana", "strona była szybsza i miała dedykowany hosting", a "Interface był bardziej przyjazny dla użytkownika" W rezultacie Mt. Gox szybko stał się głównym sposobem nabywania Bitcoin, stając się punktem odniesienia dla notowań dolara.
+Tydzień później, 18 lipca, Jed McCaleb uruchomił swoją platformę wymiany i [ogłosił](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) ją na forum. Dzięki swojej wiedzy zapewnił, że platforma działała jak zautomatyzowany rynek, podobny do nowoczesnych giełd internetowych. [Według niego](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), odróżniała się ona od Bitcoin Market, ponieważ była „zawsze online, zautomatyzowana”, „strona była szybsza i miała dedykowany hosting”, a „interfejs był bardziej przyjazny dla użytkownika”. W rezultacie Mt. Gox szybko stał się głównym sposobem nabywania Bitcoina, stając się punktem odniesienia dla notowań dolara.
 
 
 ![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
@@ -1460,15 +1460,15 @@ Tydzień później, 18 lipca, Jed McCaleb uruchomił swoją platformę Exchange 
 Interface platformy Mt. Gox w lutym 2011 r. (źródło: [archiwum Mt. Gox](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
 
-Początkowo platforma akceptowała płatności za pośrednictwem PayPal. Jednak w październiku 2010 r., po zbyt wielu żądaniach obciążenia zwrotnego, PayPal [zablokował](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) konto Jeda McCaleba, co zmusiło go do tymczasowego zawieszenia wpłat i wypłat na platformie. Kilka tygodni później [przywrócił](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) transfery, dodając Liberty Reserve jako metodę płatności. Następnie akceptował również transakcje za pośrednictwem [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) na żądanie oraz przelewy bankowe [w dolarach](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) i [w euro](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
+Początkowo platforma akceptowała płatności za pośrednictwem PayPala. Jednak w październiku 2010 r., po zbyt wielu żądaniach obciążenia zwrotnego, PayPal [zablokował](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) konto Jeda McCaleba, co zmusiło go do tymczasowego zawieszenia wpłat i wypłat na platformie. Kilka tygodni później [przywrócił](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) transfery, dodając Liberty Reserve jako metodę płatności. Następnie akceptował również transakcje za pośrednictwem [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) na żądanie oraz przelewy bankowe [w dolarach](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) i [w euro](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
 
 ### Przyspieszający efekt Slashdottingu
 
 
-Efekt opublikowania wstępu do Bitcoin na Slashdot był spektakularny dla projektu Satoshi Nakamoto. Napływ zainteresowanych doprowadził do rekordowego wzrostu ceny i kursu Hash. Co więcej, skłoniło to niejakiego Jeda McCaleba do odkrycia Bitcoin i stworzenia wartościowego rynku handlu tą jednostką rozliczeniową pod nazwą Mt. Gox.
+Efekt opublikowania wstępu do Bitcoina na Slashdot był spektakularny dla projektu Satoshiego Nakamoto. Napływ zainteresowanych doprowadził do rekordowego wzrostu ceny i kursu haszowania. Co więcej, zachęciło to niejakiego Jeda McCaleba do odkrycia Bitcoina i stworzenia wartościowego rynku handlu tą jednostką rozliczeniową pod nazwą Mt. Gox.
 
-W kolejnych miesiącach, techniczne, ekonomiczne i Mining ulepszenia nadal kwitły, czyniąc Slashdot prawdziwym punktem wyjścia Bitcoin jako ruchu społecznościowego. Jednak to na poziomie oprogramowania i protokołów zaszły najbardziej znaczące zmiany: rzeczywiście istniały poważne luki, które należało naprawić. Następny rozdział koncentruje się na tych kwestiach technicznych, które stanowią kluczowy krok w rozwoju Bitcoin.
+W kolejnych miesiącach, techniczne, ekonomiczne i wydobywcze ulepszenia nadal kwitły, czyniąc Slashdot prawdziwym punktem wyjścia Bitcoina jako ruchu społecznościowego. Jednak to na poziomie oprogramowania i protokołów zaszły najbardziej znaczące zmiany: rzeczywiście istniały poważne luki, które należało naprawić. Następny rozdział koncentruje się na tych kwestiach technicznych, które stanowią kluczowy krok w rozwoju Bitcoina.
 
 
 ## Pierwsze kwestie techniczne

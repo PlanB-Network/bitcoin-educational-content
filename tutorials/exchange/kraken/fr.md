@@ -1,14 +1,18 @@
 ---
 name: Kraken
-description: Comment utiliser Kraken ?
+description: Comment acheter et vendre des bitcoins sur Kraken ?
 ---
 ![cover](assets/cover.webp)
 
-Kraken est une des plateformes d'échange de bitcoins et cryptomonnaies les plus anciennes du monde. L'entreprise a été créée dès 2011 par Jesse Powell et ses associés. Powell ayant été consultant pour MtGox alors plateforme leader du marché, et ayant anticipé sa chute, lance en 2013 Kraken avec pour objectif majeur de remplacer MtGox qu'il sait condamnée, et de ne pas répéter les mêmes erreurs. Cela en fait une des plus ancienne et réputée plateforme d'exchange du monde.
+Kraken est une des plateformes d'échange de bitcoins et cryptomonnaies les plus anciennes du monde. L'entreprise a été créée dès 2011 par Jesse Powell et ses associés. Powell ayant été consultant pour MtGox alors plateforme leader du marché, et ayant anticipé sa chute, lance en 2013 Kraken avec pour objectif majeur de remplacer MtGox qu'il sait condamnée, et de ne pas répéter les mêmes erreurs. Cela en fait une des plus anciennes et réputées plateformes d'exchange du monde.
 
 Aujourd'hui, Kraken est une plateforme complète, permettant aussi bien des achats simples de bitcoins que l'utilisation de fonctionnalités de trading avancées avec des outils de gestion de risque. Elle est accessible en version web, et pour des transactions simples, une application mobile facile à prendre en main est également disponible.
 
-Au delà de toutes ces fonctionnalités qui en tant que Bitcoiner ne nous intéressent pas beaucoup, il est à noté que Kraken a été un des 1er échanges à supporter le Lightning Network sur sa plateforme, permettant le retrait **sans frais** des satoshis acquis, encouragent ainsi la self custody chez ses utilisateurs
+Au-delà de toutes ces fonctionnalités qui en tant que Bitcoiner ne nous intéressent pas beaucoup, il est à noter que Kraken a été un des 1ers échanges à supporter le Lightning Network sur sa plateforme, permettant le retrait **sans frais** des satoshis acquis, encourageant ainsi la self custody chez ses utilisateurs.
+
+Dans ce tutoriel, nous allons découvrir comment utiliser Kraken en tant que particulier. Si vous avez une entreprise et souhaitez opter pour la version Business, je vous invite à consulter cet autre tutoriel :
+
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Création d’un compte sur Kraken
 
@@ -28,11 +32,11 @@ Entamez ensuite la procédure de vérification d'identité réglementaire impos�
 
 ![KRAKEN](assets/fr/04.webp)
 
-Terminez de renseignez vos informations personnelles et cliquez sur "Continue".
+Terminez de renseigner vos informations personnelles et cliquez sur "Continue".
 
 ![KRAKEN](assets/fr/05.webp)
 
-Sur l'écran suivant de nouvelles informations personnelles sont à renseigner, n'oubliez pas que vous êtes tous des criminels en puissance qu'il convient d'identifier impérativement. Renseignez les en fonction de votre cas puis cliquez sur "Continue".
+Sur l'écran suivant de nouvelles informations personnelles sont à renseigner, n'oubliez pas que vous êtes tous des criminels en puissance qu'il convient d'identifier impérativement. Renseignez-les en fonction de votre cas puis cliquez sur "Continue".
 
 ![KRAKEN](assets/fr/06.webp)
 
@@ -48,15 +52,15 @@ Pour (presque) terminer, il vous sera demandé un accès à la webcam de votre o
 
 ![KRAKEN](assets/fr/10.webp)
 
-Une fois les photos recto/verso de votre pièce d'identité envoyées, dernière humiliation, on vous demandera de prendre une photo de votre visage pour confirmer que celle-ci match bien avec celle du document d'identité.... Enfin les choses sérieuses vont pouvoir débuter.
+Une fois les photos recto/verso de votre pièce d'identité envoyées, dernière humiliation, on vous demandera de prendre une photo de votre visage pour confirmer que celle-ci match bien avec celle du document d'identité... Enfin les choses sérieuses vont pouvoir débuter.
 
 ![KRAKEN](assets/fr/11.webp)
 
 ## 2 - Sécurisation de votre comte Kraken
 
-Vous voilà désormais connecté à votre compte. Il vous sera ensuite demandé de chosir entre 2 type d'expérience. Une simple sur la gauche appelée "Kraken" avec une interface épurée, qui permet en synthèse simplement d'acheter et de vendre des bitcoins. Une autre sur la droite apelée "Kraken Pro" qui permet beaucoup plus d'optionnalité, avec une interface bien plus chargée et moins lisible destinée aux profils "traders".
+Vous voilà désormais connecté à votre compte. Il vous sera ensuite demandé de choisir entre 2 types d'expérience. Une simple sur la gauche appelée "Kraken" avec une interface épurée, qui permet en synthèse simplement d'acheter et de vendre des bitcoins. Une autre sur la droite appelée "Kraken Pro" qui dispose de beaucoup plus d'options, avec une interface bien plus chargée et moins lisible destinée aux profils "traders".
 
-Il est à noté que les frais d'achat diffèrent que l'ont choississe l'un ou l'autre, comme on le verra par la suite.
+Il est à noter que les frais d'achat diffèrent que l'ont choisisse l'un ou l'autre, comme on le verra par la suite.
 
 Commençons par choisir l'expérience simple en cliquant sur "Go to Kraken" en bas à gauche.
 
@@ -64,17 +68,17 @@ Commençons par choisir l'expérience simple en cliquant sur "Go to Kraken" en b
 
 ![KRAKEN](assets/fr/13.webp)
 
-L'interface est un effet plutôt sobre et colorée. Avant même d'aller sécuriser notre compte en lui ajoutant une méthode d'authentification à 2 facteurs, allons cliquer en bas à gauche sur notre profil pour passer en mode nuit et éviter de nous faire trop mal aux yeux avec tout ce blanc.
+L'interface est en effet plutôt sobre et colorée. Avant même d'aller sécuriser notre compte en lui ajoutant une méthode d'authentification à 2 facteurs, allons cliquer en bas à gauche sur notre profil pour passer en mode nuit et éviter de nous faire trop mal aux yeux avec tout ce blanc.
 
 ![KRAKEN](assets/fr/14.webp)
 
-Nos yeux maintenance à l'abris, cliquons à nouveau sur notre profil pour faire apparaitre le menu nous permettant d'ajouter un 2FA (2ème facteur d'authentification). Puis choisissez "Security".
+Nos yeux maintenant à l'abri, cliquons de nouveau sur notre profil pour faire apparaitre le menu nous permettant d'ajouter un 2FA (2ème facteur d'authentification). Puis choisissez "Security".
 
 ![KRAKEN](assets/fr/15.webp)
 
-Deux option de 2FA vous sont alors proposées, soit "passkey" qui vous permettra de vous authentifier via la biométrie de votre smartphone, soit "Authenticator App".
+Deux options de 2FA vous sont alors proposées, soit "passkey" qui vous permettra de vous authentifier via la biométrie de votre smartphone, soit "Authenticator App".
 
-- Si vous chioississez l'option "passkey" laissez vous guider par les instructions qui vous seront données à l'écran. On vous demandera en synthèse de sélectionner l'appareil qui sera nécessaire pour donner l'accès à votre compte. Soit le PC sur lequel vous êtes, soit un smartphone, soit une clé hardware d'identification type YubiKey.
+- Si vous choisissez l'option "passkey" laissez vous guider par les instructions qui vous seront données à l'écran. On vous demandera en synthèse de sélectionner l'appareil qui sera nécessaire pour donner l'accès à votre compte. Soit le PC sur lequel vous êtes, soit un smartphone, soit une clé hardware d'identification type YubiKey.
 
 - Si vous choisissez d'utilisez une application d'authentification sur votre smartphone, telle que Google Authenticator ou Authy par exemple, vous trouverez un tutoriel sur cet outil ici :
 
@@ -86,19 +90,18 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 ## 3 - Découverte rapide de l'interface de Kraken
 
-Revenez ensuite au menu principal en cliquant en haut à droite sur la petite maison comme indiqué ci-dessous :
-
+Revenez ensuite au menu principal en cliquant en haut à gauche sur la petite maison comme indiqué ci-dessous :
 
 ![KRAKEN](assets/fr/17.webp)
 
 Faisons un petit tour d'horizon rapide du menu principal, avant notre 1er achat.
-En cliquant sur  " Expand" en bas à droite on peut étirer un peu la barre de menu latérale pour y voir les menus explicitement.
+En cliquant sur "Expand" en bas à gauche on peut étirer un peu la barre de menu latérale pour y voir les menus explicitement.
 
 ![KRAKEN](assets/fr/18.webp)
 
 De haut en bas nous voyons l'onglet:
-- "Portfolio", qui vous permettra d'avoir un aperçu de vos avoirs en bitcoins, crypto, et autres monnaies fiat  (euro, dollars etc), ainsi que leur répartition en pourcentage. Ce menu permet également
-- "Explore" pas forcément utile pour nous autres bitcoiners vous permets d'aller explorer le monde des shitcoins qui vous afin de découvrir la pépite qui vous rendra pauvre à coup sûr.
+- "Portfolio", qui vous permettra d'avoir un aperçu de vos avoirs en bitcoins, crypto, et autres monnaies fiat  (euro, dollars, etc), ainsi que leur répartition en pourcentage.
+- "Explore" pas forcément utile pour nous autres bitcoiners vous permet d'aller explorer le monde des shitcoins afin de découvrir la pépite qui vous rendra pauvre à coup sûr.
 - "Earn" nous n'en parlerons même pas, car je n'encourage personne à l'utiliser (shitcoinery), et est hors sujet dans le cadre de ce tuto.
 - "Transfer" vous permet comme on le verra plus en détail par la suite, d'alimenter votre compte Kraken en satoshis/euros/fiat, ou au contraire de les retirer de la plateforme.
 
@@ -107,7 +110,8 @@ De haut en bas nous voyons l'onglet:
 
 ## 4 - Dépôt et retrait d’euros (fiat)
 
-Pour acquérir nos premiers "sats" il conviendra de déposer au préalable une monnaie fiat sur la plateforme , dans notre cas l'euro.
+Pour acquérir nos premiers "sats" il conviendra de déposer au préalable une monnaie fiat sur la plateforme, dans notre cas l'euro.
+
 Pour ce faire, choisissez le menu "Home" en haut à droite, puis cliquez sur "Deposit" comme indiqué par les flèches ci-dessous.
 
 ![KRAKEN](assets/fr/20.webp)
@@ -115,7 +119,7 @@ Puis choisissez "Euro".
 
 ![KRAKEN](assets/fr/21.webp)
 
-Sur l'écran suivant plusieurs moyen pour déposer des euros sont proposés, nous traiterons ici le plus courant, à savoir un virement bancaire classique SEPA.
+Sur l'écran suivant plusieurs moyens pour déposer des euros sont proposés, nous traiterons ici le plus courant, à savoir un virement bancaire classique SEPA.
 Pour cela choisissez "Manual Bank Transfer".
 
 ![KRAKEN](assets/fr/22.webp)
@@ -124,6 +128,7 @@ Puis sur "SEPA & SEPA Instant".
 ![KRAKEN](assets/fr/23.webp)
 
 Enfin, faites un virement depuis votre banque en utilisant les coordonnées bancaires qui vous sont communiquées. **Attention, le nom associé au compte bancaire qui réalise le virement doit être le même que celui utilisé pour créer le compte Kraken**. Attendez (généralement quelques minutes que vos euros soient disponibles et apparaissent sur votre solde Kraken).
+
 *Dans cet exemple on déposera la somme de 21 € sur le compte Kraken pour illustrer la partie achat / vente un peu plus loin.*
 
 ![KRAKEN](assets/fr/24.webp)
@@ -140,7 +145,7 @@ Puis dans le cas de l'euro, SEPA & SEPA Instant.
 
 ![KRAKEN](assets/fr/27.webp)
 
-Puis renseignez le montant que vous souhaitez retirer de Kraken ainsi que les coordonnées bancaire du compte que vous souhaitez créditer.
+Puis renseignez le montant que vous souhaitez retirer de Kraken ainsi que les coordonnées bancaires du compte que vous souhaitez créditer.
 ![KRAKEN](assets/fr/28.webp)
 
 ## 5 - Dépôt et retrait de bitcoins
@@ -162,21 +167,23 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 
-Un message d'avertissement apparait vous indiquant de ne déposer que du Bitcoin sur l'adresse qui va vous être présentée via l'écran suivant. Cela va de soit, de toute façon personne n'a autre chose que du Bitcoin ici, pas vrais ?  Cliquez sur "I understand".
+Un message d'avertissement apparait vous indiquant de ne déposer que du Bitcoin sur l'adresse qui va vous être présentée via l'écran suivant. Cela va de soi, de toute façon personne n'a autre chose que du Bitcoin ici, pas vrai ? Cliquez sur "I understand".
 
 ![KRAKEN](assets/fr/31.webp)
 
-Scanner les QR code qui vous est proposé avec votre wallet Bitcoin favori, ou copiez l'adresse si vous utilisez un wallet sur le même ordinateur. **Il faudra attendre 3 confirmations soit en  moyenne 45 min avant de voir vos fonds être crédités sur voter compte Kraken**.
-*Pour notre exemple on déposera l'équivalent de 21 dollars de bicoin qui nous permettrons d'illustrer la partie achat / vente un peu plus tard.*
+Scanner le QR code qui vous est proposé avec votre wallet Bitcoin favori, ou copiez l'adresse si vous utilisez un wallet sur le même ordinateur. **Il faudra attendre 3 confirmations (Kraken annonce 45 min) avant de voir vos fonds être crédités sur voter compte Kraken**.
+
+*Pour notre exemple on déposera l'équivalent de 21 dollars de bitcoins qui nous permettrons d'illustrer la partie achat / vente un peu plus tard.*
 
 ![KRAKEN](assets/fr/32.webp)
 
 Pour retirer des bitcoins de Kraken vers votre portefeuille personnel pour les garder en self custody, il vous faudra procéder initialement de la même manière que vu plus haut pour retirer des fiats.
+
 Cliquez sur "Transfer" en haut à droite et sélectionnez "Withdraw".
 
 ![KRAKEN](assets/fr/25.webp)
 
-Ensuite choisissez "Bitcoin". *On voit ici que les 21 dollars (19580 satoshhis), on bien été crédités sur le compte entre temps*.
+Ensuite choisissez "Bitcoin". *On voit ici que les 21 dollars (19 580 satoshis), ont bien été crédités sur le compte entre temps*.
 
 ![KRAKEN](assets/fr/33.webp)
 
@@ -184,8 +191,9 @@ Puis sélectionner "Bitcoin" ou "Lightning" pour choisir la méthode vous permet
 
 ![KRAKEN](assets/fr/34.webp)
 
-Enfin vous devrez renseigner votre adresse Bitcoin et la faire  valider en cliquant sur un lien reçu par mail afin que Kraken puisse s'assurer que c'est bien vous qui êtes à l'origine de la demande de retrait.
-Commencez par renseigner votre adresse de retrait et donnez lui le nom de votre choix. Cette adresse pourra en effet être réutilisée pour de futurs retraits même si ce n'est  pas un bonne pratique du point de vue de la préservation de votre vie privée...
+Enfin vous devrez renseigner votre adresse Bitcoin et la faire valider en cliquant sur un lien reçu par mail afin que Kraken puisse s'assurer que c'est bien vous qui êtes à l'origine de la demande de retrait.
+
+Commencez par renseigner votre adresse de retrait et donnez-lui le nom de votre choix. Cette adresse pourra en effet être réutilisée pour de futurs retraits même si ce n'est pas une bonne pratique du point de vue de la préservation de votre vie privée...
 
 ![KRAKEN](assets/fr/35.webp)
 
@@ -203,7 +211,7 @@ Rentrez le montant et cliquez sur "Review".
 
 ![KRAKEN](assets/fr/37.webp)
 
-La synthèse du trade qui s'apprête à être déclenché vous apparait alors. La quantité de bitcoins acheté, le prix du bitcoin au moment de l'achat, et les frais (0,1 € soit 1% ici) sont récapitulés.
+La synthèse du trade qui s'apprête à être déclenché vous apparait alors. La quantité de bitcoins achetée, le prix du bitcoin au moment de l'achat, et les frais (0,1 € soit 1% ici) sont récapitulés.
 Cliquez sur "Confirm" pour achetez vos bitcoins.
 
 ![KRAKEN](assets/fr/38.webp)
@@ -212,7 +220,7 @@ Vous voilà désormais propriétaire de 10 € de bitcoin. Enfin pas tout à fai
 
 ![KRAKEN](assets/fr/39.webp)
 
-Pour vendre même principe, mais sélectionnez "Sell" en haut de l'encart permettant les achat/vente, puis "Review", et enfin "Confirm".
+Pour vendre même principe, mais sélectionnez "Sell" en haut de l'encart permettant les achats/ventes, puis "Review", et enfin "Confirm".
 
 ![KRAKEN](assets/fr/40.webp)
 
@@ -261,11 +269,11 @@ Kraken pro qui n'est pas l'objet de ce tutoriel, doit néanmoins être abordé p
 
 Elle est beaucoup moins épurée que la plateforme Kraken classique et propose beaucoup plus d'options à destination principalement des traders.
 
-Cependant il est à noté que les frais pratiqués y sont plus faibles que les **1%** qu'on paye en passant par l'interface **Kraken *simple***. En comparaison **Kraken Pro** offre les frais détaillés ci-dessous.
+Cependant il est à noter que les frais pratiqués y sont plus faibles que les **1%** qu'on paye en passant par l'interface **Kraken *simple***. En comparaison **Kraken Pro** offre les frais détaillés ci-dessous.
 
 Pour expliquer rapidement, pour des achats / ventes de Bitcoin en dessous de 10000 USD par mois (ce qui sera le cas de la plupart d'entre nous), on bénéficie en tant que "Taker" de 0.4% de frais, donc plus de 2 fois moins que par **Kraken *simple***.
 
-En tant que "Maker " c'est encore mieux puisqu'on bénéficie de  0.25 % de frais soit 4 fois moins cher que via Kraken ***simple***.
+En tant que "Maker" c'est encore mieux puisqu'on bénéficie de 0.25 % de frais soit 4 fois moins cher que via Kraken ***simple***.
 
 (Pour information vous êtes "Taker" lorsque vous achetez / vendez au prix du marché, et "Maker" lorsque vous créez un ordre d'achat / vente à un prix différent de celui du marché).
 

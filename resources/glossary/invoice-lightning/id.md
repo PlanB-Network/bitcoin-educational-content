@@ -1,11 +1,11 @@
 ---
-term: Invoice PETIR
+term: INVOICE LIGHTNING
 ---
 
-Permintaan pembayaran kilat yang dibuat oleh penerima, berisi semua informasi yang diperlukan untuk menyelesaikan transaksi.
+Permintaan pembayaran Lightning yang dibuat oleh penerima, berisi semua informasi yang diperlukan untuk menyelesaikan transaksi.
 
 
-Lightning Invoice berisi tujuan pembayaran dalam bentuk kunci publik node penerima, tetapi juga awalan `LN`, jumlah, waktu kedaluwarsa, Hash rahasia yang digunakan dalam HTLC, dan metadata lainnya, beberapa di antaranya bersifat opsional, seperti opsi perutean. Faktur ini ditentukan oleh standar BOLT11. Setelah dibayar, Invoice Lightning tidak dapat digunakan kembali.
+Lightning _Invoice_ berisi tujuan pembayaran dalam bentuk kunci publik node penerima, tetapi juga awalan `LN`, jumlah, waktu kedaluwarsa, _Hash_ rahasia yang digunakan dalam HTLC, dan metadata lainnya, beberapa di antaranya bersifat opsional, seperti opsi perutean. _Invoice_ ini ditentukan oleh standar BOLT11. Setelah dibayar, _Invoice_ Lightning tidak dapat digunakan kembali.
 
 
-> ► *Dalam bahasa Prancis, kami dapat menerjemahkan "Invoice" sebagai "facture", tetapi kami umumnya menggunakan istilah bahasa Inggris bahkan dalam bahasa Prancis.*
+> ► *Dalam bahasa Indonesia, istilah "Invoice" dapat digunakan secara langsung.*

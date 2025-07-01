@@ -2,4 +2,4 @@
 term: ZPUB
 
 ---
-Awalan kunci publik yang diperluas untuk akun SegWit V0 di Bitcoin.
+Awalan _extended public key_ untuk akun SegWit V0 di Bitcoin.

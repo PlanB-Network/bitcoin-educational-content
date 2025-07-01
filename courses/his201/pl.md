@@ -1344,7 +1344,7 @@ Ciekawski i pomysłowy, szybko rozpoczął pracę nad osobistym projektem: „Bi
 „W moim pierwszym bitcoinowym projekcie programistycznym postanowiłem zrobić coś, co brzmi naprawdę głupio: stworzyłem stronę internetową, która dystrybuuje bitcoiny. (...) Dlaczego? Ponieważ chcę, aby projekt Bitcoin odniósł sukces i myślę, że ma większe szanse na sukces, jeśli ludzie mogą zdobyć garść jednostek, aby go wypróbować.”
 
 
-Satoshi zareagował pozytywnie na uruchomienie tej usługi, nawet jeśli nie zauważył tego od razu. Tydzień później, 18 czerwca, [pogratulował] (https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) twórcy, pisząc, że był to „doskonały wybór na pierwszy projekt” i że „planował zrobić dokładnie to samo, jeśli nikt inny tego nie zrobi, żeby nowi uzytkownicy mogli od razu zdobyć kilka monet do zabawy, kiedy nadejdzie moment, że dla zwykłego śmiertelnika zbyt trudne będzie wygenerowanie 50BTC.”
+Satoshi zareagował pozytywnie na uruchomienie tej usługi, nawet jeśli nie zauważył jej od razu. Tydzień później, 18 czerwca, [pogratulował] (https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) twórcy, pisząc, że był to „doskonały wybór na pierwszy projekt” i że „planował zrobić dokładnie to samo, jeśli nikt inny tego nie zrobi, żeby nowi uzytkownicy mogli od razu zdobyć kilka monet do zabawy, kiedy nadejdzie moment, że dla zwykłego śmiertelnika zbyt trudne będzie wygenerowanie 50BTC.”
 
 
 Wkład Gavina Andresena na tym się nie skończył. Głęboko zainteresował się tym, jak działa Bitcoin i postanowił przeanalizować kod. Odkrył [https://bitcointalk.org/index.php?topic=195.msg1606#msg1606] wbudowany w protokół system skryptów, czym szybko podzielił się na forum. Wyraził swoje obawy dotyczące tej funkcji, ponieważ zmniejszała ona bezpieczeństwo systemu („złożoność jest wrogiem bezpieczeństwa”) i utrudniała opracowanie drugiej implementacji oprogramowania. Satoshi [wyjaśnił](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) powód integracji tego mechanizmu, który nazwał Script:
@@ -1358,10 +1358,10 @@ Gavin zaangażował się również w rozwój oprogramowania, [implementując](ht
 ### Wiosna pełna ważnych wydarzeń
 
 
-Wiosna 2010 roku obfitowała w przełomowe wydarzenia. Po pierwsze, pod koniec kwietnia deweloper Laszlo Hanyecz opracował GPU Mining, optymalizację, której Satoshi sprzeciwił się w krótkim okresie (mimo że uznał jej nieuchronność w dłuższej perspektywie). Rozwój ten zbiegł się w czasie z zatrzymaniem produkcji bloków przez Satoshi, prawdopodobnie szacując, że wskaźnik Hash sieci jest wystarczający. Następnie, 22 maja nastąpił Exchange słynnej pizzy pomiędzy Laszlo Hanyeczem i Jeremym Sturdivantem, który stanowił pierwszy zakup fizycznego towaru za bitcoiny. Wreszcie w czerwcu pojawił się Gavin Andresen, który stworzył Bitcoin Faucet i szybko zaangażował się w rozwój oprogramowania. Wszystkie te Elements pokazały zachęcający postęp gospodarki wokół Bitcoin.
+Wiosna 2010 roku obfitowała w przełomowe wydarzenia. Po pierwsze, pod koniec kwietnia deweloper Laszlo Hanyecz opracował GPU Mining, optymalizację, zastosowania której Satoshi sprzeciwił się w tamtym momencie (mimo że uznał jej nieuchronność w dłuższej perspektywie). Zbiegło się to w czasie z zatrzymaniem produkcji bloków przez Satoshiego, który prawdopodobnie szacował, że wskaźnik haszowania sieci jest wystarczający. Następnie, 22 maja nastąpił zakup słynnej pizzy pomiędzy Laszlo Hanyeczem i Jeremym Sturdivantem, czyli pierwszy zakup fizycznego towaru za bitcoiny. Wreszcie w czerwcu pojawił się Gavin Andresen, który stworzył Bitcoin Faucet i szybko zaangażował się w rozwój oprogramowania. Wszystkie te elementy prezentowały rozwój gospodarki wokół Bitcoina w zachęcającym świetle.
 
 
-Jednak pod koniec czerwca aktywność w sieci pozostała dość skromna. Pojawiło się niewielu nowych użytkowników, a płomień fenomenu monetarnego był wystarczający, by nie zgasnąć. 30 czerwca, na liście mailingowej Bitcoin-list, Cypherpunk James A. Donald (który najwyraźniej nie śledził najnowszych postępów, ani nie był świadomy istnienia forum) [oświadczył](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=201006), że "Bitcoin jest w pewnym sensie martwy" Nawet jeśli się mylił, jego komentarz ujawnił rażący brak komunikacji: zbyt mało osób wiedziało o projekcie i potrzebne były większe wysiłki w tym zakresie. Bitcoin potrzebował "ekologii użytkowników, aby być użytecznym", a tej masy krytycznej jeszcze nie było. Wydarzenie, które miało pójść w tym kierunku dwa tygodnie później, będzie miało miejsce w Address w następnym rozdziale. (*oryg: "Tak - Bitcoin w pewnym sensie umarł. &nbsp;Problem w tym, że Bitcoin, aby był użyteczny, potrzebuje ekologii użytkowników.")
+Jednak pod koniec czerwca aktywność w sieci pozostawała dość skromna. Pojawiło się niewielu nowych użytkowników, a płomień fenomenu monetarnego był wystarczający, jedynie aby nie zgasnąć. 30 czerwca, na liście mailingowej Bitcoin-list, Cypherpunk James A. Donald (który najwyraźniej nie śledził najnowszych postępów, ani nie był świadomy istnienia forum) [oświadczył](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=201006), że „Bitcoin jest w pewnym sensie martwy” Nawet jeśli się mylił, jego komentarz ujawnił rażący brak komunikacji: zbyt mało osób wiedziało o projekcie i potrzebne były większe wysiłki w tym zakresie. Bitcoin potrzebował „ekosystemu użytkowników, aby być użytecznym”, a tej masy krytycznej jeszcze nie było. W tym kierunku poszło wydarzenie, które miało miejsce dwa tygodnie później, opowiemy o nim w następnym rozdziale. (*original: "Yes - bitcoin kind of went dead. &nbsp;The trouble is that bitcoin, to be useful, needs an ecology of users."*)
 
 
 ## Wielki Slashdotting
@@ -1369,54 +1369,54 @@ Jednak pod koniec czerwca aktywność w sieci pozostała dość skromna. Pojawi�
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
 
-Na początku lata 2010 r., pomimo pewnych zachęcających początkowych osiągnięć, Bitcoin opierał się na chwiejnych podstawach. Oprogramowanie miało niewielu twórców poza Satoshi Nakamoto. Górnicy byli amatorami na swoich komputerach osobistych. Istniało około dwudziestu usług związanych z Bitcoin, a rzeczywiste wymiany były równie rzadkie. Wszystko miało się jednak drastycznie zmienić w drugiej połowie roku.
+Na początku lata 2010 r., pomimo pewnych zachęcających początkowych osiągnięć, Bitcoin opierał się na chwiejnych podstawach. Oprogramowanie miało niewielu twórców poza Satoshim Nakamoto. Wydobywający byli amatorami działającymi na swoich komputerach osobistych. Istniało około dwudziestu usług związanych z Bitcoinem, a rzeczywiste wymiany były równie rzadkie. Wszystko miało się jednak drastycznie zmienić w drugiej połowie roku.
 
 
-W tym rozdziale chcemy omówić "wielki slashdotting", czyli nagły napływ użytkowników, który nastąpił po opublikowaniu prezentacji Bitcoin na popularnej stronie internetowej Slashdot 11 lipca 2010 roku. Zobaczymy, w jaki sposób ten tekst zaistniał jako ostatni wysiłek komunikacyjny ze strony Satoshi i jakie były bezpośrednie skutki tej popularyzacji Bitcoin.
+W tym rozdziale chcemy omówić „wielki slashdotting”, czyli nagły napływ użytkowników, który nastąpił po opublikowaniu prezentacji o Bitcoinie na popularnej stronie internetowej Slashdot 11 lipca 2010 roku. Zobaczymy, w jaki sposób ten tekst zaistniał jako ostatni wysiłek komunikacyjny ze strony Satoshiego i jakie były bezpośrednie skutki tej popularyzacji Bitcoina.
 
 
 ### Wersja 0.3 oprogramowania
 
-Początek lata 2010 r. został naznaczony wydaniem wersji 0.3 oprogramowania, które było długo przygotowywane przez Satoshi Nakamoto i Martti Malmi. W porównaniu do wersji 0.2, wydanej w grudniu poprzedniego roku, wersja ta zawiera kluczowe ulepszenia, takie jak [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\)) (która stanie się bitcoind), sterowanie z linii poleceń, API (poprzez JSON-RPC), optymalizację generowania jednostek oraz "hashmeter" szacujący szybkość Hash użytkownika. Zawiera również wsparcie dla Mac OS X dzięki wkładowi Laszlo Hanyecza oraz tłumaczenie graficznego Interface na język niemiecki, holenderski i włoski.
+Początek lata 2010 r. to wydanie wersji 0.3 oprogramowania, które było długo przygotowywane przez Satoshiego Nakamoto i Marttiego Malmi. W porównaniu do wersji 0.2, wydanej w grudniu poprzedniego roku, wersja ta zawiera kluczowe ulepszenia, takie jak [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\)) (która stanie się bitcoind), sterowanie z linii poleceń, API (poprzez JSON-RPC), optymalizację generowania jednostek oraz „hashmeter” szacujący szybkość haszowania użytkownika. Zawiera również wsparcie dla Mac OS X dzięki wkładowi Laszlo Hanyeczowi oraz tłumaczenie interfejsu graficznego na język niemiecki, holenderski i włoski.
 
-22 czerwca Satoshi [prosi](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) członków forum o przetestowanie tej wersji oprogramowania. Postrzega wydanie tej wersji jako kluczowy moment w rozwoju Bitcoin i [rozważa](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) nawet porzucenie aspektu "beta" poprzez bezpośrednie przeniesienie numeracji do wersji 1.3. Szybko jednak [powraca](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) do swojej decyzji.
-
-
-6 lipca Satoshi Nakamoto ogłasza wydanie wersji 0.3 oprogramowania. Wiedząc, że ta wersja może być znacząca dla rozwoju Bitcoin, starannie przygotowuje prezentację i [pisze](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004):
+22 czerwca Satoshi [prosi](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) członków forum o przetestowanie tej wersji oprogramowania. Postrzega wydanie tej wersji jako kluczowy moment w rozwoju Bitcoina i [rozważa](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) nawet porzucenie aspektu „beta” poprzez bezpośrednie przeniesienie numeracji do wersji 1.3. Szybko jednak [powraca](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) do swojej oryginalnej decyzji.
 
 
-> "Oto wersja 0.3 Bitcoin, kryptowaluty peer-to-peer! &nbsp;Bitcoin to cyfrowa waluta, która wykorzystuje kryptografię i rozproszoną sieć, aby zastąpić potrzebę zaufanego centralnego serwera. &nbsp;Uniknij arbitralnego ryzyka inflacji centralnie zarządzanych walut! &nbsp;Całkowity obieg Bitcoin jest ograniczony do 21 milionów jednostek. &nbsp;Jednostki są stopniowo dystrybuowane do węzłów sieci w oparciu o dostarczaną przez nie moc obliczeniową, dzięki czemu możesz uzyskać ich część, wykorzystując swój bezczynny czas procesora."
+6 lipca Satoshi Nakamoto ogłasza wydanie wersji 0.3 oprogramowania. Wiedząc, że ta wersja może być znacząca dla rozwoju Bitcoina, starannie przygotowuje prezentację i [pisze](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004):
+
+
+> „Oto wersja 0.3 Bitcoina, kryptowaluty peer-to-peer! &nbsp;Bitcoin to cyfrowa waluta, która wykorzystuje kryptografię i sieć rozproszoną, aby zastąpić potrzebę zaufanego centralnego serwera. &nbsp;Uniknij arbitralnego ryzyka inflacji centralnie zarządzanych walut! &nbsp;Całkowity obieg Bitcoina jest ograniczony do 21 milionów jednostek. &nbsp;Jednostki są stopniowo dystrybuowane do węzłów sieci w oparciu o dostarczaną przez nie moc obliczeniową, dzięki czemu możesz uzyskać ich część, wykorzystując bezczynny czas swojego procesora.”
 
 ### Prezentacja dla Slashdot
 
-Z okazji wydania nowej wersji oprogramowania, użytkownik forum o imieniu Teppy (administrator MMORPG, który zaczął akceptować Bitcoin w maju) [proponuje](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) reklamę na Slashdot, bardzo popularnej stronie z wiadomościami, która obejmuje tematy dla nerdów, takie jak informatyka, gry wideo, nauka, Internet itp. 22 czerwca zapytał na forum, czy powinni "postarać się o rozgłos", precyzując, że "Slashdot to dobre miejsce, jeśli możemy je zdobyć" (*oryg: "Czy powinniśmy postarać się o jakiś rozgłos? Slashdot jest dobry, jeśli możemy go zdobyć.") Martti Malmi [komentarze](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) pisząc, że "dotarcie do Slashdota, z jego milionami technicznie kompetentnych czytelników, byłoby niesamowite, być może najlepsza rzecz, jaką można sobie wyobrazić!"
+Z okazji wydania nowej wersji oprogramowania, użytkownik forum o imieniu Teppy (administrator MMORPG, który zaczął akceptować Bitcoina w maju) [proponuje](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) reklamę na Slashdot, bardzo popularnej stronie z wiadomościami, która obejmuje tematy dla nerdów, takie jak informatyka, gry wideo, nauka, Internet itp. 22 czerwca zapytał na forum, czy powinni „postarać się o rozgłos”, precyzując, że „Slashdot to dobre miejsce, żeby go zdobyć” (*original: "Should we try for some publicity? Slashdot is good if we can get it."*) Martti Malmi [komentarze](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) pisząc, że „dotarcie do Slashdota, z jego milionami technicznie kompetentnych czytelników, byłoby niesamowite, być może jest to najlepsza rzecz, jaką można sobie wyobrazić!”
 
 
 5 lipca Teppy pisze prezentację, którą zamierza przesłać do Slashdota i [publikuje ją](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969) na forum:
 
 
-> "Co powiesz na przełomową technologię? Bitcoin to kryptowaluta anonimowa dla kupujących i sprzedających, bez banku centralnego i opłat transakcyjnych. Korzystając z koncepcji podobnej do Hashcash, klienci spalają cykle procesora, próbując odkryć niektóre z 21 000 000 Bitcoinów, które ostatecznie zostaną znalezione. Oczekuje się, że z czasem wartość rynkowa Bitcoinów osiągnie parytet z energią potrzebną do ich generate, co doprowadzi do powstania waluty opartej na energii poza zasięgiem jakiegokolwiek rządu"
+> „Co powiesz na przełomową technologię? Bitcoin to kryptowaluta anonimowa dla kupujących i sprzedających, bez banku centralnego i opłat transakcyjnych. Korzystając z koncepcji podobnej do Hashcash, klienci spalają cykle procesora, próbując odkryć niektóre z 21 000 000 Bitcoinów, które ostatecznie zostaną znalezione. Oczekuje się, że z czasem wartość rynkowa Bitcoinów osiągnie parytet z energią potrzebną do ich generacji, co doprowadzi do powstania waluty opartej na energii poza zasięgiem jakiegokolwiek rządu.”
 
-Kilku członków forum zgłasza sugestie dotyczące ulepszenia tego tekstu. Satoshi [interweniuje](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) sam kilka godzin po pierwszej wiadomości, aby wyrazić swoją opinię. Pisze, że "naprawdę docenia wysiłek", ale "jest wiele problemów", a następnie wymienia Elements, które mu przeszkadzają:
+Kilku członków forum zgłasza sugestie dotyczące ulepszenia tego tekstu. Satoshi [interweniuje](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) sam kilka godzin po pierwszej wiadomości, aby wyrazić swoją opinię. Pisze, że „naprawdę docenia wysiłek”, ale „jest wiele problemów”, a następnie wymienia elementy, które mu przeszkadzają:
 
 
 
-- Jeśli chodzi o brak wpływu państwa, zachowuje ostrożność, pisząc, że "z pewnością nie angażuje się w tego rodzaju prowokacje lub roszczenia"; (*oryginał: "Deweloperzy oczekują, że spowoduje to powstanie stabilnej waluty energetycznej poza zasięgiem jakiegokolwiek rządu" - Zdecydowanie nie wyśmiewam się ani nie twierdzę w ten sposób")
-- Jeśli chodzi o wsparcie przez energię, uważa on, że waluta "nie jest stabilna w odniesieniu do energii" i dodaje: "Ten temat był omawiany. Nie jest on powiązany z kosztami energii. Szacunki NLS oparte na energii były dobrym punktem wyjścia, ale siły rynkowe będą coraz bardziej dominować";
-- Odnosząc się do anonimowego aspektu systemu, stwierdził, że nie chce "podkreślać" aspektu "anonimowości" i że "zamierzał zmodyfikować stronę główną" w tym zakresie. (*oryginalne "Nie chcemy prowadzić z 'anonimowym'. (Miałem zamiar zmodyfikować stronę główną) "*)
+- Jeśli chodzi o brak wpływu państwa, zachowuje ostrożność, pisząc, że „z pewnością nie angażuje się w tego rodzaju prowokacje lub roszczenia”; (*original: "'The developers expect that this will result in a stable-with-respect-to-energy currency outside the reach of any government.' – I am definitely not making any such taunt or assertion."*)
+- Jeśli chodzi o wsparcie przez energię, uważa on, że waluta „nie jest stabilnie powiązana w odniesieniu do energii” i dodaje: „Ten temat był omawiany. Nie jest on powiązany z kosztami energii. Szacunki NLS oparte na energii były dobrym punktem wyjścia, ale siły rynkowe będą coraz bardziej dominować”;
+- Odnosząc się do anonimowego aspektu systemu, stwierdził, że nie chce „podkreślać" aspektu „anonimowości” i że „zamierzał zmodyfikować stronę główną” w tym zakresie. (*original "We don't want to lead with 'anonymous'. (I've been meaning to edit the homepage)"*)
 
 
 W wiadomości [email](https://mmalmi.github.io/Satoshi/#email-197) zaadresowanej do Marttiego Malmi kilka godzin później, Satoshi podaje dwa główne powody wyjaśniające zamiar umniejszenia anonimowości: zagrożenie dla użytkownika i postrzeganie przez opinię publiczną. Pisze on:
 
 
-> "Myślę, że powinniśmy zmniejszyć nacisk na aspekt anonimowości. Wraz z popularnością adresów Bitcoin zamiast wysyłania przez IP, nie możemy sprawiać wrażenia, że wszystko jest automatycznie anonimowe. Można być pseudonimowym, ale trzeba być ostrożnym. [...] Co więcej, "anonimowy" brzmi nieco podejrzanie. Myślę, że ludzie, którzy chcą anonimowości, dowiedzą się o tym bez naszej promocji"
+> „Myślę, że powinniśmy zmniejszyć nacisk na aspekt anonimowości. Wraz z popularnością adresów Bitcoin zamiast wysyłania przez adres IP, nie możemy sprawiać wrażenia, że wszystko jest automatycznie anonimowe. Można ukrywać się pod pseudonimem, ale trzeba być ostrożnym. [...] Co więcej, „anonimowy” brzmi nieco podejrzanie. Myślę, że ludzie, którzy chcą anonimowości, dowiedzą się o tym bez naszej promocji.”
 
 Swoją wiadomość na forum kończy słowami:
 
 
-> "Przepraszam za bycie mokrym kocem. Pisanie opisu tej rzeczy dla ogółu społeczeństwa to cholerne Hard. Nie ma do czego tego odnieść."
+> „Przepraszam za bycie marudą. Pisanie opisu tej rzeczy dla ogółu społeczeństwa jest cholernie trudne. Nie ma do czego tego odnieść.”
 
-Następnie Teppy zaktualizował prezentację, biorąc pod uwagę sugestie. Tak więc na początku lipca zaobserwowano, że dyskurs wokół Bitcoin był dobrze skalibrowany, co wskazywało, że był on gotowy na bezprecedensowy napływ.
+Następnie Teppy zaktualizował prezentację, biorąc pod uwagę sugestie. Tak więc na początku lipca stwierdzono, że dyskurs wokół Bitcoina był dobrze skalibrowany, co wskazywało, że był on gotowy na bezprecedensowy napływ uzytkowników.
 
 
 ### Slashdotted!
@@ -1425,26 +1425,26 @@ Następnie Teppy zaktualizował prezentację, biorąc pod uwagę sugestie. Tak w
 11 lipca 2010 r. poprawiona wersja prezentacji Bitcoin napisana przez Teppy została [opublikowana](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) na Slashdot. Brzmiała ona następująco:
 
 
-> "Co powiesz na przełomową technologię? Bitcoin to oparta na sieci peer-to-peer cyfrowa waluta bez banku centralnego i opłat transakcyjnych. Korzystając z koncepcji Proof-of-Work, węzły spalają cykle procesora w poszukiwaniu pakietów monet, transmitując swoje odkrycia do sieci. Analiza zużycia energii wskazuje, że wartość rynkowa bitcoinów jest już wyższa niż wartość energii potrzebnej do ich generate, co wskazuje na zdrowy popyt. Społeczność ma nadzieję, że waluta pozostanie poza zasięgiem jakiegokolwiek rządu"
+> „Co powiesz na przełomową technologię? Bitcoin to oparta na sieci peer-to-peer cyfrowa waluta bez banku centralnego i opłat transakcyjnych. Korzystając z koncepcji dowodu pracy, węzły spalają cykle procesora w poszukiwaniu pakietów monet, transmitując swoje odkrycia do sieci. Analiza zużycia energii wskazuje, że wartość rynkowa bitcoinów jest już wyższa niż wartość energii potrzebnej do ich generacji, co wskazuje na zdrowy popyt. Społeczność ma nadzieję, że waluta pozostanie poza zasięgiem jakiegokolwiek rządu.”
 
 ![Slashdot Logo in 2010](assets/en/43.webp)
 
 
-Publikacja została zauważona, a w ciągu kilku dni pojawiło się prawie 500 komentarzy. Dla Bitcoin sukces ten doprowadził do ogromnego napływu odwiedzających stronę i forum. Wykorzystanie Blockchain gwałtownie wzrosło: liczba transakcji przeprowadzonych w sieci wzrosła z 42 10 lipca do 1 641 12 lipca, osiągając 5 554 14 lipca, co stanowi rekord wszech czasów. System wytrzymał pomimo zwiększonego obciążenia. 14 lipca deweloper Gavin Andresen [napisał](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) na forum:
+Publikacja została zauważona, a w ciągu kilku dni pojawiło się prawie 500 komentarzy. Dla Bitcoina sukces ten doprowadził do ogromnego napływu odwiedzających stronę i forum. Wykorzystanie łańcuch bloków gwałtownie wzrosło: liczba transakcji przeprowadzonych w sieci wzrosła z 42 10 lipca do 1 641 12 lipca, osiągając 5 554 14 lipca, co stanowi rekord wszech czasów. System wytrzymał pomimo zwiększonego obciążenia. 14 lipca deweloper Gavin Andresen [napisał](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) na forum:
 
 
-> "Uważam, że Satoshi wykonał fantastyczną robotę: w ciągu ostatnich dwóch dni, kiedy Bitcoin został "slashdotowany", nie słyszałem o ŻADNYCH problemach ze stratami transakcji Bitcoin, ani o przestojach sieci spowodowanych obciążeniem, ani o żadnych problemach dotyczących podstawowych funkcjonalności.
+> „Uważam, że Satoshi wykonał fantastyczną robotę: w ciągu ostatnich dwóch dni, kiedy Bitcoin pojawił się na forum Slashdot, nie słyszałem o ŻADNYCH problemach ze stratami transakcji Bitcoin, ani o przestojach sieci spowodowanych obciążeniem, ani o żadnych problemach dotyczących podstawowych funkcjonalności.”
 
-Pierwszą konsekwencją tego napływu jest gwałtowny wzrost ceny Bitcoin z 0,008 USD do 0,08 USD w ciągu jednego tygodnia, co oznacza dziesięciokrotny wzrost!
+Pierwszą konsekwencją tego napływu jest gwałtowny wzrost ceny Bitcoina z 0,008 USD do 0,08 USD w ciągu jednego tygodnia, co oznacza dziesięciokrotny wzrost!
 
 
-Innym efektem napływu ludzi ze Slashdota jest wzrost mocy obliczeniowej wykorzystywanej w sieci. Wiele osób uruchamia oprogramowanie i produkuje bloki za pomocą swoich centralnych procesorów. Pomiędzy 11 a 17 lipca szybkość Hash wzrosła z 0,22 GH/s do 2,78 GH/s.
+Innym efektem napływu ludzi ze Slashdota jest wzrost mocy obliczeniowej wykorzystywanej w sieci. Wiele osób uruchamia oprogramowanie i produkuje bloki za pomocą swoich centralnych procesorów. Pomiędzy 11 a 17 lipca szybkość haszowania wzrosła z 0,22 GH/s do 2,78 GH/s.
 
 
 ### Stworzenie Mt. Gox
 
 
-Wśród osób, które odkryły Bitcoin dzięki Slashdotowi był Jed McCaleb, 35-letni amerykański przedsiębiorca i programista znany ze współzałożenia i rozwoju oprogramowania do wymiany plików peer-to-peer eDonkey2000 w 2000 roku. Zdając sobie sprawę, jak trudno było uzyskać Bitcoin w Exchange za dolary, postanowił "dla kaprysu" stworzyć skuteczny rynek. Aby to zrobić, zmienił przeznaczenie jednego ze swoich starych projektów opracowanych w 2007 roku: Magic The Gathering Online Exchange (MTGOX), stronę internetową, która umożliwiała kupno i sprzedaż kart do gry online *Magic: The Gathering Online*. Ponownie wykorzystał nazwę domeny tego projektu (mtgox.com), która stała się nazwą nowej platformy: Mt. Gox, wymawiana jako "Mount Gox".
+Wśród osób, które odkryły Bitcoin dzięki Slashdotowi był Jed McCaleb, 35-letni amerykański przedsiębiorca i programista znany ze współzałożenia i rozwoju oprogramowania do wymiany plików peer-to-peer eDonkey2000 w 2000 roku. Zdając sobie sprawę, jak trudno było uzyskać Bitcoina w zamian za dolary, postanowił „dla kaprysu” stworzyć skuteczny rynek. Aby to zrobić, zmienił przeznaczenie jednego ze swoich starych projektów opracowanych w 2007 roku: Magic The Gathering Online Exchange (MTGOX), stronę internetową, która umożliwiała kupno i sprzedaż kart do gry online *Magic: The Gathering Online*. Ponownie wykorzystał nazwę domeny tego projektu (mtgox.com), która stała się nazwą nowej platformy: Mt. Gox, wymawiana jako „Mount Gox”.
 
 
 ![Jed McCaleb in 2013](assets/en/44.webp)

@@ -1,8 +1,9 @@
-question: Prema Bastijatu, gde se može pronaći oblik autentične i organizovane solidarnosti?
+question: Prema Bastiat-u, gde se može pronaći oblik autentične i organizovane solidarnosti?
 answer: u društvima međusobne pomoći
 wrong_answers:
   - u socijalnoj državi
   - u politikama preraspodele
-  - u Bismarckovim merama
+  - u Bizmark-ovim merama
 explanation: |
   Bastiat zagovara uzajamne pomoći kao primer prave solidarnosti jer se zasnivaju na dobrovoljnoj međusobnoj pomoći.
+reviewed: true

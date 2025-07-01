@@ -45,7 +45,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.34
+    reward: 0.33
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -55,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.34
+    reward: 0.33
   - language: et
     last_contribution_date:
     urgency: 1
@@ -90,7 +90,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
+    reward: 0.37
   - language: sr-Latn
     last_contribution_date:
     urgency: 1

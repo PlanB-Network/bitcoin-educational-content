@@ -1817,34 +1817,52 @@ Kwa undani kidogo, katika video ya dakika 21, inaonekana kama hii:
 
 Kwa vyovyote vile, **kumbuka kwamba hauko peke yako na kwamba jumuiya zilizopo zipo kukusaidia**.
 
-## Kozi ya BTC302
+## Kujitunza
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Unapopinduka ndani ya pango la sungura, mtazamo wetu wa maisha hubadilika.  
+Hii hutusukuma – ndani yetu kabisa – kutaka kwenda mbali zaidi; kugundua watu wengine wanaofanya kazi sawa ya akili nasi na ambao pia wameelewa.
+
+Hii hututia moyo na kutupatia hamu zaidi ya **kuchangia sehemu yetu**, kwa kushiriki ugunduzi wetu: Bitcoin.
+
+Lakini pia, **kutafakari juu ya dunia ya kesho, ile tunayotaka kuijenga na jamii zinazojenga**.
+
+**Katika ukumbi huu mrefu ambao ni uundaji wa jamii, utahitaji kuonyesha motisha, mkakati, kujitolea, na muda**. Hii ni kazi isiyopendwa mara nyingine; na katika safari hii, ni bora kuchukua mambo hatua kwa hatua ili kuepuka kuumia.  
+**Hivyo fikiria kuhusu wewe mwenyewe, kuhusu mipaka yako**. Na ingawa Bitcoin inaweza kukuendesha usiku na mchana, **usiweke majaribu ya kufanya kila kitu peke yako, vinginevyo utachoka**.
+
+Badala yake, **omba msaada kutoka kwa bitcoiners ambao tayari wamepitia ukumbi huu huo, ambao tayari wamechunguza njia hizo zile zile na kujenga zana zile zile**. Hii itakuokoa muda mwingi.
+
+**Pia toa nafasi kwa wale watakao kuunga mkono safari hii kusaidia, hata kama itamaanisha kugawa majukumu fulani** na kwamba majukumu haya yanachukua muda zaidi. Kwa muda mrefu, jamii yako itatoka imara na yenye ukomavu zaidi.
+
+![image](assets/fr/60.webp)
+
+Peke yako, ni kweli kwamba mtu anaweza haraka kuchunguza moja ya ukumbi mwingi wa pango la sungura unaoitwa Bitcoin. Lakini usisahau bado kuna mwelekeo mingine mingi ya kuchunguza.
+
+Wakati **kwa kuanzisha na/au kujiunga na jamii ya bitcoiners, kwa kushiriki na kubadilishana nao mara kwa mara, utaendelea sambamba katika mwelekeo yote wa pango hilo**.
+
+## Mafunzo ya BTC302, yanaendelea
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Katika kozi hii ya BTC302, tumeelezea kwa kina hatua za kuunda jumuiya, mkutano; lakini pia, utekelezaji wa miradi mingi.
+Katika mafunzo haya ya BTC302, tumeelezea kwa kina hatua za kuanzisha jamii, kukusanyika; lakini pia kuanzisha miradi mingi.
 
-Jumuiya yako inapojihisi tayari kuhamia ngazi inayofuata, **unaweza kuunda muungano**.
+Wakati jamii yako itahisi iko tayari kwenda ngazi inayofuata, **inawezekana kuanzisha shirika**.  
+Kwa mfano, nchini Ufaransa, kati ya jamii takriban sitini na mikusanyiko, kuna karibu mashirika kumi.
 
-Nchini Ufaransa, kwa mfano, kati ya jumuiya na mikutano takriban hamsini, kuna karibu vyama kumi.
+Faida ya kuanzisha shirika ni mara mbili:  
+- kwa upande mmoja, hadhi ya shirika huruhusu kuwa na **hadhi rasmi, kufungua akaunti ya benki ya shirika na pia kupata aina fulani ya kutambuliwa na vyombo vya habari, mitandao, pamoja na ruzuku**;  
+- kwa upande mwingine, huruhusu **kupanga kwa umakini zaidi utendaji wa jamii na utekelezaji wa miradi yake**, hasa kwa kufafanua majukumu maalum.
 
-Nia ya kuunda moja ni mbili:
+Kwa lengo la kusaidia jamii yako kustawi zaidi, **haijakutolewa kwamba mfululizo wa mafunzo haya unaweza kutolewa kwenye [planb.network](https://planb.network/) katika miezi ijayo**.
 
+Kupitia mfululizo huu, **tutaelezea hasa kupanga matukio makubwa, yenye washiriki karibu mia moja**. Maswali muhimu kama: "Kwa nini?", "Je, shirika ni gani?", "Wapi?", "Bajeti ni gani?", "Jinsi gani?" na "Je, inafanya kazi vipi?" yatajadiliwa.
 
-- kwa upande mmoja, hadhi ya chama inaruhusu **kuwa na hadhi rasmi, kufungua akaunti ya benki ya chama, na pia kupata aina ya utambuzi kutoka kwa vyombo vya habari, vyombo vya habari, na ruzuku**; - kwa upande mwingine, inaruhusu **shirika sahihi zaidi la shughuli za jumuiya na utekelezaji wa miradi yake**, kufafanua majukumu maalum.
+Kwa hili, tutaangalia uzoefu wa jamii kadhaa za Kifaransa ambazo tayari zimeshiriki katika matukio yao wenyewe, kama **BEF (Bitcoin Economic Forum, Mei, Brittany), B-only (Novemba, Annecy) na Be On Lille (Septemba, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Kwa lengo la kuendeleza jumuiya yako, **kozi inayoitwa COMMU201 itachapishwa kwenye [planb.network](https://planb.network/) katika miezi ijayo**.
+Bila shaka, **katika nchi nyingine, sheria na utendaji wa mashirika ni tofauti**.  
+**Hivyo, tunatarajia bitcoiners wengine wa kimataifa wataongeza mafunzo haya kwa taarifa maalum za nchi zao**.
 
-Kupitia hilo, **tutafafanua pia jambo lingine muhimu: shirika la matukio makubwa yenye washiriki mia moja**. Tutauliza maswali ya Anwani kama vile: Kwa nini? Shirika gani? Wapi, bajeti gani? Jinsi gani? Operesheni gani?
-
-Ili kufikia hili, tutaanza na uzoefu wa jumuiya kadhaa za Wafaransa ambazo tayari zimepanga matukio yao wenyewe, kama vile **BEF (Bitcoin Economic Forum, Mei, Brittany) na B-only (mwezi Novemba, Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Bila shaka, **katika nchi nyingine, sheria na uendeshaji wa vyama ni tofauti**. Hata hivyo, pointi kadhaa zitasaidia sana katika kuunda chama au kuandaa tukio muhimu; na **tunatumai kwamba bitcoiners wengine watakuja na kuunganisha mafunzo haya mahsusi kwa nchi yao**.
 
 # Hitimisho
 
@@ -1857,6 +1875,6 @@ Bila shaka, **katika nchi nyingine, sheria na uendeshaji wa vyama ni tofauti**. 
 <isCourseReview>true</isCourseReview>
 ## Hitimisho
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

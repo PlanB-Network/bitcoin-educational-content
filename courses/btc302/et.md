@@ -1846,34 +1846,52 @@ Veidi vähem üksikasjalikult, 21-minutilises videos, näeb see välja nii:
 
 Igal juhul **seadke meeles, et te ei ole üksi ja et olemasolevad kogukonnad on olemas, et teid aidata**.
 
-## Kursus BTC302
 
+## Hoolitse enda eest
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+Kui me kukume jäneseurgu, muutub meie elu arusaam.  
+See paneb meid – sügaval endas – tahtma minna kaugemale; avastada teisi inimesi, kes teevad sama vaimset tööd nagu meie ja kes on samuti aru saanud.
+
+See motiveerib meid ja annab veelgi suurema soovi **anda oma panus**, jagades oma avastust: Bitcoini.
+
+Aga ka **mõtlema homse maailma peale, selle peale, mida soovime ehitada ja kogukondade peale, kes seda ehitavad**.
+
+**Selles pikas galeriis, mis on kogukonna loomine, peate näitama motivatsiooni, strateegiat, pühendumist ja aega**. See on mõnikord tänamatu töö; ja selles seikluses on parem võtta asju samm-sammult, et endale haiget mitte teha.  
+**Mõelge seega enda peale, oma piiridele**. Ja kuigi Bitcoin võib teid päeva ja öö jooksul ergutada, **ärge proovige kõike üksi teha, muidu kurnate end ära**.
+
+Vastupidi, **paluge abi bitcoinijatelt, kes on juba sellel samal rajal käinud, kes on uurinud samu teid ja ehitanud samu tööriistu**. See säästab teile palju aega.
+
+**Pakkuge ka neile, kes teid sellel teekonnal järgivad, et nad aitaksid teid, isegi kui see tähendab mõne ülesande delegeerimist** ja et need ülesanded võtavad rohkem aega. Pikemas perspektiivis tuleb teie kogukond sellest tugevam ja küpsem.
+
+![image](assets/fr/60.webp)
+
+Üksi on tõsi, et saab kiiresti uurida ühte paljudest jäneseurgu galeriidest, mis Bitcoin on. Kuid ei tohi unustada, et on veel palju teisi suundi uurimiseks.
+
+Samal ajal kui **luues ja/või liitudes bitcoinikogukonnaga, jagades ja vahetades regulaarselt nendega, liigute samaaegselt kõigis jäneseurgu suundades**.
+
+## BTC302 koolitus, jätkub
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Selles BTC302 kursuses oleme üksikasjalikult tutvustanud kogukonna loomise samme, koosolekut, aga ka arvukate projektide elluviimist.
+Selles BTC302 koolituses oleme täpselt kirjeldanud samme kogukonna loomisel, meet-upi korraldamisel; aga ka paljude projektide elluviimisel.
 
-Kui teie kogukond tunneb, et on valmis järgmisele tasandile minema, **saate luua ühingu**.
+Kui teie kogukond tunneb end valmis olevat järgmisele tasemele astumiseks, **on võimalik luua ühing**.  
+Prantsusmaal näiteks on umbes kuuekümne kogukonna ja meet-upi seas peaaegu kümme ühingut.
 
-Näiteks Prantsusmaal on umbes viiekümnest kogukonnast ja koosolekust peaaegu kümme ühendust.
+Ühingu loomise eelis on kahekordne:  
+- ühelt poolt võimaldab ühingu staatus **omada ametlikku staatust, avada ühingu pangakonto ning saada teatud tunnustust pressi, meedia ja toetuste poolt**;  
+- teisalt võimaldab see **korraldada oma kogukonna tööd ja projektide elluviimist tõsisemalt**, määratledes eriti kindlad rollid.
 
-Huvi selle loomiseks on kahesugune:
+Selleks, et aidata teie kogukonnal veelgi rohkem õitseda, **ei ole välistatud, et järg BTC302 koolitusele võib ilmuda [planb.network](https://planb.network/) järgmiste kuude jooksul**.
 
+Selle kaudu **kirjeldame eriti suurürituste korraldamist, kus osaleb umbes sada inimest**. Põhilised küsimused nagu: "Miks?", "Milline korraldus?", "Kus?", "Milline eelarve?", "Kuidas?" ja "Kuidas see toimib?" käsitletakse.
 
-- ühelt poolt võimaldab ühingu staatus **ametliku staatuse omandamist, ühingu pangakonto avamist ja ka teatava tunnustuse saamist ajakirjanduse, meedia ja toetuste poolt**; - teiselt poolt võimaldab see **ühingu tegevuse täpsemat korraldamist ja projektide elluviimist**, määratledes konkreetsed rollid.
+Selleks tugineme mitmete Prantsuse kogukondade kogemustele, kes on juba korraldanud oma üritusi, näiteks **BEF (Bitcoin Economic Forum, mais, Bretagne), B-only (novembris, Annecy) ja Be On Lille (septembris, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Eesmärgiga veelgi edendada teie kogukonda, **kursus nimega COMMU201 pannakse lähikuudel üles [planb.network](https://planb.network/)**.
-
-Selle kaudu **tähendame ka **teist olulist punkti: umbes saja osalejaga suuremahuliste ürituste korraldamine**. Käsitleme selliseid küsimusi nagu: Miks? Milline korraldus? Kus, milline eelarve? Kuidas? Milline tegevus?
-
-Selle saavutamiseks alustame mitmete Prantsuse kogukondade kogemustest, kes on juba korraldanud oma üritusi, näiteks **BEF (Bitcoin Economic Forum, mais Bretagne'is) ja B-only (novembris Annecy's)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Loomulikult on **muudes riikides seadusandlus ja ühenduste toimimine erinev**. Mitmed punktid on siiski väga kasulikud ühingu loomisel või tähtsa ürituse korraldamisel; ja **toovime, et teised bitcoin'id tulevad ja integreerivad selle koolituse spetsiaalselt oma riigi jaoks**.
+Muidugi, **teistes riikides erinevad seadusandlus ja ühingu toimimine**.  
+**Seetõttu loodame, et teised rahvusvahelised bitcoinijad täiendavad seda koolitust oma riikide spetsiifiliste andmetega**.
 
 # Lõpusektsioon
 
@@ -1887,6 +1905,6 @@ Loomulikult on **muudes riikides seadusandlus ja ühenduste toimimine erinev**. 
 
 ## Kokkuvõte
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

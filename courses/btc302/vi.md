@@ -1846,34 +1846,52 @@ Với nội dung ít chi tiết hơn, trong video dài 21 phút, nó trông như
 
 Trong mọi trường hợp, **hãy nhớ rằng bạn không đơn độc và cộng đồng hiện tại luôn ở đó để giúp đỡ bạn**.
 
-## Khóa học BTC302
 
+## Chăm sóc bản thân
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+Khi ta rơi vào hang thỏ, quan niệm về cuộc sống của ta thay đổi.  
+Điều đó thúc đẩy ta – sâu thẳm bên trong – muốn tiến xa hơn; muốn khám phá những người khác đang làm cùng một công việc trí óc như ta và cũng đã hiểu ra.
+
+Điều đó thúc đẩy ta và cho ta thêm mong muốn **đóng góp phần của mình**, bằng cách chia sẻ khám phá của ta: Bitcoin.
+
+Nhưng cũng là để **suy ngẫm về thế giới ngày mai, thế giới mà ta mong muốn xây dựng và các cộng đồng đang xây dựng nó**.
+
+**Trong hành lang dài mà là việc tạo dựng một cộng đồng này, bạn sẽ cần thể hiện động lực, chiến lược, sự tận tâm và thời gian**. Đó đôi khi là một công việc vô ơn; và trong cuộc phiêu lưu này, tốt hơn là làm từng bước để tránh tổn thương.  
+**Vì vậy hãy nghĩ về bản thân bạn, về giới hạn của bạn**. Và dù Bitcoin có thể thúc đẩy bạn ngày đêm, **đừng cố làm mọi thứ một mình, nếu không bạn sẽ kiệt sức**.
+
+Ngược lại, **hãy nhờ sự giúp đỡ từ những người bitcoiners đã từng đi qua hành lang này, đã khám phá cùng những lối ra và xây dựng cùng những công cụ ấy**. Điều này sẽ giúp bạn tiết kiệm rất nhiều thời gian.
+
+**Cũng hãy đề nghị những người sẽ theo bạn trong hành trình này giúp đỡ bạn, ngay cả khi điều đó có nghĩa là ủy quyền một số nhiệm vụ** và những nhiệm vụ này sẽ mất nhiều thời gian hơn. Về lâu dài, cộng đồng của bạn sẽ trở nên gắn kết và trưởng thành hơn.
+
+![image](assets/fr/60.webp)
+
+Một mình, thật đúng là bạn có thể nhanh chóng khám phá một trong nhiều hành lang của hang thỏ mang tên Bitcoin. Nhưng đừng quên vẫn còn nhiều hướng khác để khám phá.
+
+Trong khi **bằng cách tạo và/hoặc gia nhập cộng đồng bitcoiners, chia sẻ và trao đổi thường xuyên với họ, bạn sẽ tiến bước đồng thời về tất cả các hướng trong hang**.
+
+## Khóa học BTC302, tiếp tục
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Trong khóa học BTC302 này, chúng tôi đã trình bày chi tiết các bước để tạo ra một cộng đồng, một cuộc họp; cũng như cách thực hiện nhiều dự án.
+Trong khóa học BTC302 này, chúng tôi đã trình bày chi tiết các bước tạo dựng cộng đồng, một buổi gặp mặt; cũng như việc triển khai nhiều dự án.
 
-Khi cộng đồng của bạn cảm thấy sẵn sàng để chuyển sang cấp độ tiếp theo, **bạn có thể tạo một hiệp hội**.
+Khi cộng đồng của bạn cảm thấy sẵn sàng để tiến lên cấp độ tiếp theo, **có thể thành lập một hiệp hội**.  
+Ở Pháp chẳng hạn, trong số khoảng sáu mươi cộng đồng và các buổi gặp mặt, có gần một chục hiệp hội.
 
-Ví dụ, ở Pháp, trong số khoảng năm mươi cộng đồng và cuộc họp, có gần mười hiệp hội.
+Lợi ích khi thành lập hiệp hội là hai mặt:  
+- một mặt, tư cách hiệp hội cho phép bạn **có tư cách chính thức, mở tài khoản ngân hàng cho hiệp hội và cũng nhận được sự công nhận từ báo chí, truyền thông cũng như các khoản tài trợ**;  
+- mặt khác, nó cho phép bạn **tổ chức nghiêm túc hơn hoạt động của cộng đồng và triển khai các dự án của mình**, đặc biệt là thông qua việc xác định các vai trò cụ thể.
 
-Có hai lý do để tạo ra một sản phẩm như vậy:
+Với mục tiêu giúp cộng đồng của bạn phát triển hơn nữa, **không loại trừ khả năng khóa học tiếp theo này có thể được phát hành trên [planb.network](https://planb.network/) trong vài tháng tới**.
 
+Qua khóa học tiếp theo này, **chúng tôi sẽ đặc biệt trình bày chi tiết việc tổ chức các sự kiện quy mô lớn với khoảng một trăm người tham gia**. Các câu hỏi quan trọng như: "Tại sao?", "Tổ chức nào?", "Ở đâu?", "Ngân sách bao nhiêu?", "Như thế nào?" và "Hoạt động ra sao?" sẽ được đề cập.
 
-- Một mặt, địa vị của một hiệp hội cho phép **có địa vị chính thức, mở tài khoản ngân hàng của hiệp hội và cũng nhận được sự công nhận từ báo chí, phương tiện truyền thông và các khoản tài trợ**; - mặt khác, nó cho phép **tổ chức chính xác hơn các hoạt động cộng đồng và thực hiện các dự án**, xác định các vai trò cụ thể.
+Để thực hiện điều này, chúng tôi sẽ dựa trên kinh nghiệm của một số cộng đồng Pháp đã từng tổ chức các sự kiện của riêng họ, như **BEF (Bitcoin Economic Forum, vào tháng Năm, Bretagne), B-only (vào tháng Mười Một, Annecy) và Be On Lille (vào tháng Chín, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Với mục tiêu thúc đẩy cộng đồng của bạn phát triển hơn nữa, **khóa học có tên COMMU201 sẽ được đăng trên [planb.network](https://planb.network/) trong những tháng tới**.
-
-Thông qua đó, **chúng tôi cũng sẽ **trình bày chi tiết một điểm quan trọng khác: việc tổ chức các sự kiện quy mô lớn với khoảng một trăm người tham gia**. Chúng tôi sẽ giải quyết các câu hỏi như: Tại sao? Tổ chức nào? Ở đâu, ngân sách nào? Như thế nào? Hoạt động nào?
-
-Để đạt được điều này, chúng ta sẽ bắt đầu với kinh nghiệm của một số cộng đồng người Pháp đã tổ chức các sự kiện riêng của họ, chẳng hạn như **Diễn đàn kinh tế Bitcoin (BEF), diễn ra vào tháng 5 tại Bretagne) và B-only (vào tháng 11 tại Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Tất nhiên, **ở các quốc gia khác, luật pháp và hoạt động của các hiệp hội là khác nhau**. Tuy nhiên, một số điểm sẽ rất hữu ích trong việc thành lập một hiệp hội hoặc tổ chức một sự kiện quan trọng; và **chúng tôi hy vọng rằng những người dùng bitcoin khác sẽ đến và tích hợp khóa đào tạo này dành riêng cho quốc gia của họ**.
+Tất nhiên, **ở các quốc gia khác, luật pháp và cách vận hành hiệp hội có sự khác biệt**.  
+**Vì vậy, chúng tôi hy vọng những người bitcoiners quốc tế khác sẽ bổ sung khóa học này với thông tin đặc thù cho quốc gia của họ**.
 
 # Phần cuối
 
@@ -1886,6 +1904,6 @@ Tất nhiên, **ở các quốc gia khác, luật pháp và hoạt động của
 <isCourseReview>true</isCourseReview>
 ## Phần kết luận
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

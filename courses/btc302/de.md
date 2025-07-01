@@ -1846,35 +1846,52 @@ Etwas weniger detailliert, in einem 21-minütigen Video, sieht es so aus:
 
 Denken Sie auf jeden Fall daran, **dass Sie nicht allein sind und dass die bestehenden Communitys Ihnen helfen**.
 
-## Kurs BTC302
+## Auf sich achten
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Wenn man in das Kaninchenloch fällt, verändert sich unsere Lebenseinstellung.  
+Das treibt uns an, - tief in uns - weiterzugehen; diese anderen Menschen zu entdecken, die dieselbe geistige Arbeit wie wir leisten und die es auch verstanden haben.
+
+Das motiviert uns und gibt uns noch mehr Lust, **unseren Beitrag zu leisten**, indem wir unsere Entdeckung teilen: Bitcoin.
+
+Aber auch, **über die Welt von morgen nachzudenken, über die Welt, die wir aufbauen wollen, und die Gemeinschaften, die sie gerade errichten**.
+
+**In dieser langen Galerie, die das Erschaffen einer Gemeinschaft ist, müssen Sie Motivation, Strategie, Hingabe und Zeit zeigen**. Es ist eine manchmal undankbare Arbeit; und in diesem Abenteuer ist es besser, die Dinge Schritt für Schritt anzugehen, um sich nicht zu schaden.  
+**Denken Sie also an sich selbst, an Ihre Grenzen**. Und obwohl Bitcoin Sie Tag und Nacht antreiben mag, **versuchen Sie nicht, alles allein zu machen, sonst werden Sie erschöpft sein**.
+
+Im Gegenteil, **bitten Sie Bitcoin-Enthusiasten um Hilfe, die diesen Weg bereits gegangen sind, die dieselben Ausgänge erkundet und dieselben Werkzeuge gebaut haben**. Das spart Ihnen eine Menge Zeit.
+
+**Bieten Sie auch den Menschen an, die Ihnen auf diesem Weg folgen, Ihnen zu helfen, auch wenn Sie einige Aufgaben delegieren müssen** und dass diese mehr Zeit in Anspruch nehmen. Langfristig wird Ihre Gemeinschaft dadurch zusammenhaltender und reifer.
+
+![image](assets/fr/60.webp)
+
+Alleine kann man schnell eine der vielen Galerien des Kaninchenlochs Bitcoin erkunden. Aber man darf nicht vergessen, dass es noch viele andere Richtungen zu erkunden gibt.
+
+Während Sie **eine Gemeinschaft von Bitcoinern gründen und/oder beitreten und regelmäßig mit ihnen teilen und austauschen, werden Sie gleichzeitig in alle Richtungen des Kaninchenlochs voranschreiten**.
+
+## Ausbildung BTC302, Fortsetzung
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-In diesem BTC302-Kurs haben wir die Schritte zur Gründung einer Gemeinschaft, eines Treffens, aber auch die Durchführung zahlreicher Projekte ausführlich beschrieben.
+In dieser Ausbildung BTC302 haben wir die Schritte zur Gründung einer Gemeinschaft, eines Meet-ups und auch zur Umsetzung vieler Projekte detailliert beschrieben.
 
-Wenn sich Ihre Gemeinschaft bereit fühlt, die nächste Stufe zu erreichen, **können Sie einen Verein** gründen.
+Wenn sich Ihre Gemeinschaft dann bereit fühlt, auf die nächste Stufe zu gehen, **ist es möglich, einen Verein zu gründen**.  
+In Frankreich beispielsweise gibt es von etwa sechzig Gemeinschaften und Meet-ups fast ein Dutzend Vereine.
 
-In Frankreich zum Beispiel gibt es von etwa fünfzig Gemeinden und Versammlungen fast zehn Vereine.
+Der Vorteil einer Gründung ist zweifach:  
+- Einerseits ermöglicht der Vereinsstatus, **einen offiziellen Status zu haben, ein Vereinskonto zu eröffnen und auch eine Form der Anerkennung durch Presse, Medien und Zuschüsse zu erhalten**;  
+- Andererseits ermöglicht er, **die Funktionsweise der Gemeinschaft und die Umsetzung ihrer Projekte seriöser zu organisieren**, insbesondere durch die Definition spezieller Rollen.
 
-Das Interesse an der Schaffung eines solchen Systems ist zweifach:
+Mit dem Ziel, Ihre Gemeinschaft noch mehr gedeihen zu lassen, **ist es nicht ausgeschlossen, dass in den nächsten Monaten eine Fortsetzung dieser Ausbildung auf [planb.network](https://planb.network/) erscheint**.
 
+Darin werden wir insbesondere die Organisation von Großveranstaltungen mit etwa hundert Teilnehmern detailliert beschreiben. Dabei werden grundlegende Fragen wie: „Warum?“, „Welche Organisation?“, „Wo?“, „Welches Budget?“, „Wie?“ und „Wie funktioniert es?“ behandelt.
 
-- Einerseits ermöglicht der Vereinsstatus **einen offiziellen Rahmen**, um ein Konto zu eröffnen und Anerkennung durch Presse, Medien oder öffentliche Förderungen zu erhalten;
-  andererseits schafft er die Grundlage für **eine strukturiertere Organisation gemeinschaftlicher Aktivitäten und die Umsetzung von Projekten**, indem klare Rollen verteilt werden.
+Wir stützen uns auf die Erfahrungen mehrerer französischer Gemeinschaften, die bereits ihre eigenen Veranstaltungen durchgeführt haben, wie **den BEF (Bitcoin Economic Forum, Mai, Bretagne), den B-only (November, Annecy) und den Be On Lille (September, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Mit dem Ziel, Ihre Community weiter voranzubringen, wird **in den kommenden Monaten ein Kurs namens COMMU201 auf [planb.network] (https://planb.network/) veröffentlicht**.
+Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise von Vereinen unterschiedlich**.  
+**Wir hoffen daher, dass weitere internationale Bitcoin-Enthusiasten diese Ausbildung mit länderspezifischen Informationen ergänzen werden**.
 
-Dabei werden wir **auch einen weiteren wichtigen Punkt behandeln: die Organisation von Großveranstaltungen mit etwa hundert Teilnehmern**. Wir werden Fragen behandeln wie: Warum? Welche Organisation? Wo, mit welchem Budget? Wie? Welche Operation?
-
-Um dies zu erreichen, werden wir von den Erfahrungen mehrerer französischer Communitys ausgehen, die bereits ihre eigenen Veranstaltungen organisiert haben, wie z.B. **das BEF (Bitcoin Economic Forum, im Mai in der Bretagne) und B-only (im November in Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise von Vereinen anders**. Einige Punkte werden jedoch sehr hilfreich sein, wenn es darum geht, einen Verein zu gründen oder eine wichtige Veranstaltung zu organisieren; und **wir hoffen, dass andere Bitcoiner kommen und diese Schulung speziell für ihr Land integrieren**.
 
 # Abschließender Abschnitt
 
@@ -1888,6 +1905,6 @@ Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise vo
 
 ## Schlussfolgerung
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

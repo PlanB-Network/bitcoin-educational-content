@@ -1846,34 +1846,52 @@ Secara lebih detail, dalam video berdurasi 21 menit, terlihat seperti ini:
 
 Bagaimanapun juga, **ingatlah bahwa Anda tidak sendirian dan bahwa komunitas yang ada siap membantu Anda**.
 
-## Kursus BTC302
+## Merawat Diri Sendiri
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Ketika kita jatuh ke dalam lubang kelinci, pandangan kita tentang kehidupan berubah.  
+Ini mendorong kita – jauh di dalam diri kita – untuk melangkah lebih jauh; untuk menemukan orang-orang lain yang melakukan pekerjaan mental yang sama seperti kita dan yang juga telah mengerti.
+
+Ini memotivasi kita dan memberi kita keinginan yang lebih besar untuk **memberikan kontribusi kita**, dengan membagikan penemuan kita: Bitcoin.
+
+Namun juga, untuk **merenungkan dunia masa depan, dunia yang ingin kita bangun, dan komunitas yang sedang membangunnya**.
+
+**Dalam galeri panjang yang merupakan penciptaan sebuah komunitas ini, Anda harus menunjukkan motivasi, strategi, dedikasi, dan waktu**. Ini terkadang merupakan pekerjaan yang tidak berterima kasih; dan dalam petualangan ini, lebih baik mengambilnya langkah demi langkah agar tidak menyakiti diri sendiri.  
+**Jadi pikirkan tentang diri Anda, tentang batasan Anda**. Dan meskipun Bitcoin mungkin mendorong Anda siang dan malam, **jangan mencoba melakukan semuanya sendiri, atau Anda akan kelelahan**.
+
+Sebaliknya, **mintalah bantuan dari para bitcoiner yang sudah melewati galeri yang sama ini, yang sudah menjelajahi jalan yang sama dan membangun alat yang sama**. Ini akan menghemat banyak waktu Anda.
+
+**Tawarkan juga kepada orang-orang yang akan mengikuti Anda dalam petualangan ini untuk membantu Anda, bahkan jika itu berarti mendelegasikan beberapa tugas** dan bahwa tugas-tugas tersebut memakan lebih banyak waktu. Dalam jangka panjang, komunitas Anda akan menjadi lebih solid dan matang.
+
+![image](assets/fr/60.webp)
+
+Sendirian, memang benar bahwa seseorang dapat dengan cepat menjelajahi salah satu dari banyak galeri lubang kelinci yang bernama Bitcoin. Tapi jangan lupa masih banyak arah lain yang harus dijelajahi.
+
+Sementara itu, **dengan membuat dan/atau bergabung dengan komunitas bitcoiner, berbagi dan bertukar secara rutin dengan mereka, Anda akan maju secara bersamaan ke semua arah lubang itu**.
+
+## Pelatihan BTC302, lanjutan
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Dalam kursus BTC302 ini, kami telah merinci langkah-langkah untuk membuat komunitas, pertemuan; tetapi juga, implementasi berbagai proyek.
+Dalam pelatihan BTC302 ini, kami telah merinci secara tepat langkah-langkah untuk membuat komunitas, mengadakan meet-up; tetapi juga mengatur banyak proyek.
 
-Ketika komunitas Anda merasa siap untuk melangkah ke tingkat selanjutnya, **Anda dapat membuat asosiasi**.
+Ketika komunitas Anda merasa siap untuk naik ke tingkat berikutnya, **dimungkinkan untuk membuat sebuah asosiasi**.  
+Di Prancis misalnya, dari sekitar enam puluh komunitas dan meet-up, ada hampir selusin asosiasi.
 
-Di Prancis, misalnya, dari sekitar lima puluh komunitas dan pertemuan, ada hampir sepuluh asosiasi.
+Manfaat membuatnya dua arah:  
+- di satu sisi, status asosiasi memungkinkan untuk **memiliki status resmi, membuka rekening bank asosiasi serta mendapatkan bentuk pengakuan dari pers, media, dan juga hibah**;  
+- di sisi lain, ini memungkinkan untuk **mengatur secara lebih serius fungsi komunitas dan pelaksanaan proyek-proyeknya**, khususnya dengan menentukan peran-peran spesifik.
 
-Ketertarikan untuk menciptakannya ada dua:
+Dengan tujuan membantu komunitas Anda berkembang lebih jauh, **tidak menutup kemungkinan kelanjutan pelatihan ini akan dirilis di [planb.network](https://planb.network/) dalam beberapa bulan mendatang**.
 
+Melalui kelanjutan ini, **kami akan secara khusus merinci penyelenggaraan acara besar, dengan sekitar seratus peserta**. Pertanyaan penting seperti: "Mengapa?", "Organisasi apa?", "Di mana?", "Anggaran berapa?", "Bagaimana?" dan "Bagaimana cara kerjanya?" akan dibahas.
 
-- di satu sisi, status asosiasi memungkinkan **memiliki status resmi, membuka rekening bank asosiasi, dan juga mendapatkan bentuk pengakuan dari pers, media, dan hibah**; - di sisi lain, status asosiasi memungkinkan **pengorganisasian yang lebih tepat untuk operasi komunitas dan pelaksanaan proyek-proyeknya**, dengan mendefinisikan peran-peran tertentu.
+Untuk itu, kami akan mengambil pengalaman dari beberapa komunitas Prancis yang telah menyelenggarakan acara mereka sendiri, seperti **BEF (Bitcoin Economic Forum, pada bulan Mei, Brittany), B-only (pada bulan November, Annecy) dan Be On Lille (pada bulan September, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Dengan tujuan untuk lebih memakmurkan komunitas Anda, **sebuah kursus yang disebut COMMU201 akan diposting di [planb.network](https://planb.network/) dalam beberapa bulan mendatang**.
+Tentu saja, **di negara lain, legislasi dan fungsi asosiasi berbeda**.  
+**Kami berharap bitcoiners internasional lain akan melengkapi pelatihan ini dengan informasi spesifik dari negara mereka**.
 
-Melalui itu, **kami juga akan **memperinci poin penting lainnya: penyelenggaraan acara berskala besar dengan sekitar seratus peserta**. Kami akan menjawab pertanyaan-pertanyaan seperti: Mengapa? Organisasi apa? Di mana, berapa anggarannya? Bagaimana? Operasi apa?
-
-Untuk mencapai hal ini, kita akan mulai dengan pengalaman beberapa komunitas Prancis yang telah menyelenggarakan acara mereka sendiri, seperti **BEF (Forum Ekonomi Bitcoin, pada bulan Mei, di Brittany) dan B-only (pada bulan November, di Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Tentu saja, **di negara lain, undang-undang dan operasi asosiasi berbeda**. Namun, beberapa poin akan sangat membantu dalam membuat sebuah asosiasi atau mengorganisir sebuah acara penting; dan **kami berharap bitcoiners lain akan datang dan mengintegrasikan pelatihan ini secara khusus untuk negara mereka**.
 
 # Bagian Akhir
 
@@ -1887,6 +1905,6 @@ Tentu saja, **di negara lain, undang-undang dan operasi asosiasi berbeda**. Namu
 
 ## Kesimpulan
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

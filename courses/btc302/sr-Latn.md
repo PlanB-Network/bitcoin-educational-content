@@ -2695,48 +2695,52 @@ U nešto manje detalja, u videu od 21 minut, izgleda ovako:
 U svakom slučaju, **zapamtite da niste sami i da postojeće zajednice su tu da vam pomognu**.
 
 
-## Kurs BTC302
 
+## Pazite na sebe
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Kada upadnete u zečiju rupu, vaš pogled na život se menja.  
+To nas tera da želimo – duboko u sebi – da idemo dalje; da otkrijemo druge ljude koji rade isti mentalni posao kao i mi i koji su takođe shvatili.
+
+To nas motiviše i daje nam još veću želju da **doprinesemo svom delom**, deleći svoje otkriće: Bitcoin.
+
+Ali i da **razmišljamo o svetu sutrašnjice, onom koji želimo da izgradimo i zajednicama koje ga grade**.
+
+**U ovoj dugoj galeriji koja je stvaranje zajednice, moraćete da pokažete motivaciju, strategiju, posvećenost i vreme**. Ponekad je to zahvalan posao; i u ovoj avanturi, bolje je da stvari uzimate korak po korak da se ne biste povredili.  
+**Zato mislite na sebe, na svoje granice**. I iako vas Bitcoin može pokretati dan i noć, **nemojte pokušavati sve sami, jer ćete se iscrpeti**.
+
+Naprotiv, **zatražite pomoć od bitkoinera koji su već prošli kroz istu galeriju, koji su istražili iste puteve i napravili iste alate**. To će vam uštedeti mnogo vremena.
+
+**Takođe, ponudite ljudima koji će vas pratiti na ovom putu da vam pomognu, čak i ako to znači delegiranje nekih zadataka** i da ti zadaci mogu potrajati. Na duže staze, vaša zajednica će izaći ujedinjena i zrelija.
+
+![image](assets/fr/60.webp)
+
+Samostalno, istina je da se može brzo istražiti jedna od mnogih galerija zečije rupe koja je Bitcoin. Ali ne smete zaboraviti da još ima mnogo drugih pravaca za istraživanje.
+
+Dok **praveći i/ili pridružujući se zajednici bitkoinera, deleći i razmenjujući sa njima redovno, istovremeno ćete napredovati u svim pravcima rupe**.
+
+## Obuka BTC302, nastavak
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
+U ovoj BTC302 obuci precizno smo opisali korake za stvaranje zajednice, organizovanje meet-upa; ali i pokretanje mnogih projekata.
 
-U ovom BTC302 kursu, detaljno smo opisali korake za kreiranje zajednice, sastanka; ali takođe, implementaciju brojnih projekata.
+Kada vaša zajednica bude spremna da pređe na sledeći nivo, **moguće je osnovati udruženje**.  
+Na primer, u Francuskoj, od oko šezdeset zajednica i meet-upova, postoji skoro desetak udruženja.
 
+Prednost osnivanja je dvojak:  
+- sa jedne strane, status udruženja omogućava da imate **zvanični status, otvorite račun udruženja u banci, kao i da dobijete neku vrstu priznanja od štampe, medija i subvencija**;  
+- sa druge strane, omogućava da **ozbiljnije organizujete funkcionisanje svoje zajednice i sprovođenje njenih projekata**, naročito definisanjem specifičnih uloga.
 
-Kada vaša zajednica bude spremna da pređe na sledeći nivo, **možete osnovati udruženje**.
+Cilj nam je da pomognemo vašoj zajednici da još više procveta, **nije isključeno da nastavak ove obuke bude objavljen na [planb.network](https://planb.network/) u narednim mesecima**.
 
+Kroz taj nastavak **posebno ćemo detaljno opisati organizaciju događaja velikog obima, sa oko stotinu učesnika**. Tada će biti obrađena osnovna pitanja kao što su: „Zašto?“, „Koja organizacija?“, „Gde?“, „Kakav budžet?“, „Kako?“ i „Kako funkcioniše?“.
 
-U Francuskoj, na primer, od oko pedeset zajednica i sastanaka, postoji skoro deset udruženja.
+Za to ćemo se osloniti na iskustvo nekoliko francuskih zajednica koje su već organizovale sopstvene događaje, kao što su **BEF (Bitcoin Economic Forum, u maju, Bretanja), B-only (u novembru, Ansi) i Be On Lille (u septembru, Lil)**.
 
+![image](assets/fr/chapter38/62.webp)
 
-Interes za kreiranje jednog je dvostruk:
-
-
-
-
-- s jedne strane, status udruženja omogućava **imanje zvaničnog statusa, otvaranje bankovnog računa udruženja, kao i sticanje oblika priznanja od strane štampe, medija i grantova**; - s druge strane, omogućava **precizniju organizaciju rada zajednice i sprovođenje njenih projekata**, definisanje specifičnih uloga.
-
-
-####
-
-
-Sa ciljem daljeg napretka vaše zajednice, **kurs pod nazivom COMMU201 biće postavljen na [planb.network](https://planb.network/) u narednim mesecima**.
-
-
-Kroz to, **mi ćemo takođe **detaljno obraditi još jednu važnu tačku: organizaciju događaja velikih razmera sa oko stotinu učesnika**. Postavićemo Address pitanja kao što su: Zašto? Kakva organizacija? Gde, kakav budžet? Kako? Kakva operacija?
-
-
-Da bismo to postigli, počećemo sa iskustvom nekoliko francuskih zajednica koje su već organizovale svoje događaje, kao što su **BEF (Bitcoin Ekonomski forum, u maju, u Bretanji) i B-only (u novembru, u Anesiju)**.
-
-
-![immagine](assets/fr/chapter38/62.webp)
-
-
-####
-
-
-Naravno, **u drugim zemljama, zakonodavstvo i rad udruženja su različiti**. Međutim, nekoliko tačaka će biti veoma korisno pri kreiranju udruženja ili organizovanju važnog događaja; i **nadamo se da će se drugi bitkoineri pridružiti i integrisati ovu obuku specifično za svoju zemlju**.
+Naravno, **u drugim zemljama zakonodavstvo i funkcionisanje udruženja se razlikuju**.  
+**Zato se nadamo da će i drugi međunarodni bitkoineri dopuniti ovu obuku informacijama specifičnim za svoje zemlje**.
 
 
 # Završni Deo
@@ -2756,7 +2760,7 @@ Naravno, **u drugim zemljama, zakonodavstvo i rad udruženja su različiti**. Me
 ## Zaključak
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

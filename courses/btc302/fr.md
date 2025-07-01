@@ -1422,20 +1422,20 @@ Enfin:
 16) décentralisez les tâches auprès de personnes de confiance, ainsi que les droits de vos canaux et de vos réseaux;
 17) faites parler de votre communauté afin que de plus en plus de personnes la rejoignent, et impliquez les personnes intéressées;
 18) allez encore plus loin dans les projets qui vous plaisent et vous importent.
-####
-####
+
 En un peu moins détaillé, ces 21 minutes de vidéo synthétisent ces étapes:
 :::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 Quoi qu'il en soit, **n'oubliez pas que vous n'êtes pas seul(e) et que les communautés déjà existantes sont là pour vous aider**.
 
-
 ## Faire attention à soi
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-Lorque l'on tombe dans le terrier du lapin, notre conception de la vie change.
+Lorsque l'on tombe dans le terrier du lapin, notre conception de la vie change.
 Cela nous pousse alors à vouloir - au plus profond de nous-même - aller plus loin; à vouloir découvrir ces autres personnes qui font le même travail d'esprit que nous et qui, elles aussi, ont compris.
+
 Cela nous motive et nous donne encore plus envie d'**apporter notre pierre à l'édifice** , en partageant notre trouvaille: Bitcoin.
+
 Mais aussi, à **réfléchir au monde de demain, à celui que nous souhaitons construire et aux communautés qui sont entrain de le bâtir**.
 
 **Dans cette longue galerie qu'est la création d'une communauté, il vous faudra faire preuve de motivation, de stratégie, d'abnégation et de temps**. C'est un travail parfois ingrat; et dans cette aventure, il vaut mieux prendre les choses petit à petit pour ne pas se faire du mal.
@@ -1451,6 +1451,30 @@ Seul(e), il est vrai que l'on peut rapidement explorer une des nombreuses galeri
 
 Alors qu'**en créant et/ou en intégrant une communauté de bitcoiners, en partageant et en échangeant avec eux régulièrement, vous avancerez en même temps dans toutes les directions du terrier**.
 
+## Formation BTC302, la suite
+<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+
+Dans cette formation BTC302, nous avons détaillé avec prcéision les étapes de création d'une communauté, d'un meet-up; mais également, la mise en place de nombreux projets.
+
+Lorsque que votre communauté se sentira alors prête à passer au stade supérieur, **il est possible de créer une association**.
+En France par exemple, sur la soixantaine de communautés et meet-ups, on compte près d'une dizaine d'associations.
+
+L'intérêt d'en créer une est dual:
+- d'une part, le statut d'association permet de pouvoir **disposer d'un statut officiel, d'ouvrir un compte en banque associatif mais aussi d'obtenir une forme de reconnaissance de la part de la presse, des médias, ainsi que des subventions**;
+- d'autre part, elle permet d'**organiser de manière plus sérieuse le fonctionnement de sa communauté et la mise en place de ses projets**, en définissant notamment des rôles spécifiques. 
+
+Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à cette formation puisse sortir sur [planb.network](https://planb.network/) dans les prochains mois**.
+
+À travers celle-ci, **nous détaillerons notamment la mise en place d'événements de grande envergure, à une centaine de participants**. Les questions essentielles telles que: "Pourquoi?", "Quelle organisation?", "Où?", "Quel budget?", "Comment?" et "Quel fonctionnement?" seront alors abordées.
+
+Pour ce faire, nous partirons de l'expérience de plusieurs communautés françaises ayant elles-mêmes déjà réalisées leur propre événement, telles que **le BEF (le Bitcoin Economic Forum, en mai, en Bretagne), le B-only (en novembre, à Annecy) et le Be On Lille (en septembre, à Lille)**.
+
+![image](assets/fr/chapter38/62.webp)
+
+Bien évidemment, **dans d'autres pays, la législation et le fonctionnement associatif est différent**. **Nous espérons donc que d'autres bitcoiners internationaux viendront compléter cette formation avec des informations spécifiques à leur pays**.
+
+
+
 
 # Section finale
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
@@ -1460,6 +1484,6 @@ Alors qu'**en créant et/ou en intégrant une communauté de bitcoiners, en part
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
 

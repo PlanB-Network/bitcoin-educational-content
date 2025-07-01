@@ -1846,34 +1846,51 @@ O něco méně podrobně to v 21minutovém videu vypadá takto:
 
 V každém případě **nezapomeňte, že nejste sami a že existující komunity jsou tu proto, aby vám pomohly**.
 
-## Kurz BTC302
 
+## Dávejte na sebe pozor
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+Když spadneme do králičí nory, náš pohled na život se mění.
+To nás vede k tomu, že chceme – hluboko v sobě – jít ještě dál; poznat další lidi, kteří dělají stejnou duševní práci jako my a kteří také pochopili.
+
+To nás motivuje a dává nám ještě větší chuť **přispět svou troškou do mlýna** sdílením našeho objevu: Bitcoinu.
+
+Ale také **přemýšlet o světě zítřka, o tom, jaký chceme vybudovat, a o komunitách, které jej již tvoří**.
+
+**V tomto dlouhém průchodu, kterým je budování komunity, budete muset prokázat motivaci, strategii, obětavost a čas**. Je to někdy nevděčná práce; a v tomto dobrodružství je lepší postupovat krok za krokem, abyste si neublížili.
+**Myslete proto na sebe, na své limity**. A i když vás Bitcoin může pohltit ve dne v noci, **nesnažte se vše dělat sami, jinak se vyčerpáte**.
+
+Naopak, **požádejte o pomoc bitcoinery, kteří už tímto průchodem prošli, kteří už prozkoumali stejné cesty a vytvořili stejné nástroje**. Ušetří vám to spoustu času.
+
+**Nabídněte také lidem, kteří vás budou na této cestě následovat, aby vám pomohli, i kdyby to znamenalo některé úkoly delegovat** a že to potrvá déle. Z dlouhodobého hlediska bude vaše komunita pevnější a zralejší.
+
+![image](assets/fr/60.webp)
+
+Samotný člověk může skutečně rychle prozkoumat jednu z mnoha chodeb králičí nory Bitcoinu. Ale nesmíme zapomínat, že stále existují další směry k prozkoumání.
+
+Zatímco **vytvářením a/nebo začleněním do komunity bitcoinerů, sdílením a pravidelnou výměnou s nimi budete postupovat současně ve všech směrech nory**.
+
+## Výcvik BTC302, pokračování
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-V tomto kurzu BTC302 jsme podrobně popsali kroky k vytvoření komunity, setkání, ale také realizaci mnoha projektů.
+V tomto výcviku BTC302 jsme podrobně popsali kroky ke vzniku komunity, meetupu; ale také zavádění různých projektů.
 
-Až se vaše komunita bude cítit připravena přejít na další úroveň, **můžete vytvořit sdružení**.
+Když se vaše komunita bude cítit připravena postoupit na další úroveň, **je možné založit spolek**.
+Ve Francii je například mezi asi šedesáti komunitami a meetupy téměř deset spolků.
 
-Například ve Francii je z přibližně padesáti komunit a setkání téměř deset sdružení.
+Výhoda založení spočívá v tom:
+- jednak, že status spolku umožňuje **získat oficiální status, otevřít asociativní bankovní účet, ale také získat uznání od médií, tisku i dotace**;
+- jednak umožňuje **vážněji organizovat chod komunity a realizaci projektů**, zejména definováním konkrétních rolí.
 
-Zájem o jeho vytvoření je dvojí:
+S cílem umožnit vaší komunitě ještě větší rozkvět **není vyloučeno, že pokračování tohoto kurzu vyjde na [planb.network](https://planb.network/) v následujících měsících**.
 
+V jeho rámci **podrobně popíšeme organizaci velkých akcí, pro zhruba sto účastníků**. Budou řešeny zásadní otázky jako: "Proč?", "Jaká organizace?", "Kde?", "Jaký rozpočet?", "Jak?" a "Jaký provoz?".
 
-- na jedné straně status sdružení umožňuje **dostat oficiální status, otevřít bankovní účet sdružení a také získat určitou formu uznání ze strany tisku, médií a grantů**; - na druhé straně umožňuje **přesnější organizaci činnosti společenství a realizaci jeho projektů**, vymezení konkrétních rolí.
+K tomu využijeme zkušeností několika francouzských komunit, které již uspořádaly své vlastní akce, jako jsou **BEF (Bitcoin Economic Forum, v květnu v Bretani), B-only (v listopadu v Annecy) a Be On Lille (v září v Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-S cílem dále rozvíjet vaši komunitu bude v nadcházejících měsících na [planb.network](https://planb.network/) zveřejněn **kurz s názvem COMMU201**.
-
-Jejím prostřednictvím také **upřesníme další důležitý bod: organizaci rozsáhlých akcí s přibližně stovkou účastníků**. Budeme se zabývat otázkami, jako jsou např: Proč? Jaká organizace? Kde, s jakým rozpočtem? Jak? Jaká operace?
-
-Abychom toho dosáhli, budeme vycházet ze zkušeností několika francouzských komunit, které již uspořádaly své vlastní akce, například **BEF (Bitcoin Economic Forum, v květnu v Bretani) a B-only (v listopadu v Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-V jiných zemích se samozřejmě **legislativa a fungování sdružení liší**. Několik bodů však bude velmi užitečných při zakládání sdružení nebo pořádání důležité akce; a **doufáme, že přijdou i další bitcoináři a zařadí toto školení speciálně pro svou zemi**.
+Samozřejmě **v jiných zemích se legislativa a způsob fungování spolků liší**. **Doufáme tedy, že další mezinárodní bitcoinery tuto formaci doplní o specifické informace o svých zemích**.
 
 # Sekce finále
 
@@ -1887,6 +1904,6 @@ V jiných zemích se samozřejmě **legislativa a fungování sdružení liší*
 
 ## Závěr
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

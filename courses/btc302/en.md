@@ -1845,34 +1845,52 @@ In slightly less detail, in a 21-minute video, it looks like this:
 
 In any case, **remember that you are not alone and that the existing communities are there to help you**.
 
-## Course BTC302
+## Taking Care of Yourself
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+When one falls down the rabbit hole, our perception of life changes.  
+It then pushes us – deep within ourselves – to go further; to discover those other people who do the same mental work as us and who, likewise, have understood.
+
+It motivates us and gives us even more desire to **contribute our part**, by sharing our discovery: Bitcoin.
+
+But also, to **reflect on the world of tomorrow, the one we wish to build, and the communities that are building it**.
+
+**In this long gallery that is the creation of a community, you will need to show motivation, strategy, dedication, and time**. It is sometimes an ungrateful task; and in this adventure, it is better to take things step by step to avoid harm.  
+**So think about yourself, about your limits**. And although Bitcoin may drive you day and night, **do not try to do everything alone, or you will exhaust yourself**.
+
+On the contrary, **ask for help from bitcoiners who have already passed through this same gallery, who have explored the same paths and built the same tools**. This will save you a lot of time.
+
+**Also offer those who will follow you on this journey to help you, even if it means delegating some tasks** and that those tasks take more time. In the long run, your community will come out stronger and more mature.
+
+![image](assets/fr/60.webp)
+
+Alone, it is true that one can quickly explore one of the many galleries of the rabbit hole that is Bitcoin. But one must not forget that there are still many other directions to explore.
+
+While **by creating and/or joining a community of bitcoiners, sharing and exchanging with them regularly, you will advance simultaneously in all directions of the hole**.
+
+## BTC302 Training, continued
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-In this BTC302 course, we have detailed the steps to create a community, a meeting; but also, the implementation of numerous projects.
+In this BTC302 training, we have precisely detailed the steps to create a community, a meet-up; but also the setup of many projects.
 
-When your community feels ready to move to the next level, **you can create an association**.
+When your community feels ready to move to the next level, **it is possible to create an association**.  
+In France, for example, among the roughly sixty communities and meet-ups, there are nearly a dozen associations.
 
-In France, for example, out of about fifty communities and meetings, there are almost ten associations.
+The benefit of creating one is twofold:  
+- on one hand, the association status allows one to **have an official status, open a bank account for the association but also obtain some form of recognition from the press, media, as well as grants**;  
+- on the other hand, it allows to **organize more seriously the functioning of one’s community and the implementation of its projects**, notably by defining specific roles.
 
-The interest in creating one is twofold:
+With the goal of helping your community to flourish even more, **it is not excluded that a follow-up to this training could be released on [planb.network](https://planb.network/) in the coming months**.
 
+Through this follow-up, **we will notably detail the organization of large-scale events, with about a hundred participants**. Essential questions such as: "Why?", "What organization?", "Where?", "What budget?", "How?" and "How does it function?" will then be addressed.
 
-- on the one hand, the status of an association allows **having an official status, opening an association bank account, and also gaining a form of recognition from the press, media, and grants**; - on the other hand, it allows **a more precise organization of community operations and implementation of its projects**, defining specific roles.
+To do this, we will draw on the experience of several French communities that have already organized their own events, such as **the BEF (Bitcoin Economic Forum, in May, Brittany), the B-only (in November, Annecy) and the Be On Lille (in September, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-With the goal of further prospering your community, **a course called COMMU201 will be posted on [planb.network](https://planb.network/) in the coming months**.
+Of course, **in other countries, legislation and association functioning differ**.  
+**We therefore hope that other international bitcoiners will complement this training with information specific to their countries**.
 
-Through it, **we will also **detail another important point: the organization of large-scale events with about a hundred participants**. We will address questions such as: Why? What organization? Where, what budget? How? What operation?
-
-To achieve this, we will start with the experience of several French communities that have already organized their own events, such as **the BEF (Bitcoin Economic Forum, in May, in Brittany) and B-only (in November, in Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Of course, **in other countries, the legislation and operation of associations are different**. However, several points will be very helpful in creating an association or organizing an important event; and **we hope that other bitcoiners will come and integrate this training specifically for their country**.
 
 # Final Section
 
@@ -1886,6 +1904,6 @@ Of course, **in other countries, the legislation and operation of associations a
 
 ## Conclusion
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

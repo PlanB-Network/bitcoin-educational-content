@@ -2695,48 +2695,51 @@ Nieco mniej szczegółowo, w 21-minutowym wideo, wygląda to następująco:
 W każdym razie, **pamiętaj, że nie jesteś sam i że istniejące społeczności są po to, aby ci pomóc**.
 
 
-## Kurs BTC302
+## Troska o siebie
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Kiedy wpada się do króliczej nory, nasza percepcja życia się zmienia.  
+To skłania nas – głęboko w nas samych – do pójścia dalej; do odkrycia tych innych osób, które wykonują tę samą pracę umysłową co my i które również to zrozumiały.
 
+To motywuje nas i daje jeszcze większą chęć, by **dołożyć swoją cegiełkę**, dzieląc się naszym odkryciem: Bitcoinem.
+
+Ale także, by **zastanowić się nad światem jutra, tym, który chcemy budować, oraz nad społecznościami, które go tworzą**.
+
+**W tej długiej galerii, jaką jest tworzenie społeczności, trzeba okazać motywację, strategię, poświęcenie i czas**. To czasami niewdzięczna praca; a w tej przygodzie lepiej jest iść krok po kroku, by nie zrobić sobie krzywdy.  
+**Pomyśl więc o sobie, o swoich granicach**. I choć Bitcoin może napędzać cię dniem i nocą, **nie próbuj robić wszystkiego sam, bo się wyczerpiesz**.
+
+Wręcz przeciwnie, **poproś o pomoc bitcoinersów, którzy już przeszli tę samą galerię, którzy zbadali te same ścieżki i zbudowali te same narzędzia**. To zaoszczędzi ci dużo czasu.
+
+**Zaproponuj również tym, którzy podążą za tobą w tej podróży, by ci pomogli, nawet jeśli oznacza to delegowanie niektórych zadań** i że te zajmą więcej czasu. W dłuższej perspektywie twoja społeczność stanie się bardziej zjednoczona i dojrzalsza.
+
+![image](assets/fr/60.webp)
+
+Samemu można szybko zwiedzić jedną z wielu galerii króliczej nory, jaką jest Bitcoin. Ale nie wolno zapominać, że jest jeszcze wiele innych kierunków do zbadania.
+
+Podczas gdy **tworząc i/lub dołączając do społeczności bitcoinersów, dzieląc się i regularnie wymieniając z nimi, będziesz jednocześnie posuwać się we wszystkich kierunkach nory**.
+
+## Szkolenie BTC302, kontynuacja
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
+W tym szkoleniu BTC302 szczegółowo opisaliśmy etapy tworzenia społeczności, organizacji meet-upu; ale także uruchomienia wielu projektów.
 
-W tym kursie BTC302 szczegółowo opisaliśmy kroki tworzenia społeczności, spotkania; ale także realizację wielu projektów.
+Kiedy twoja społeczność poczuje się gotowa do przejścia na wyższy poziom, **można założyć stowarzyszenie**.  
+We Francji na przykład spośród około sześćdziesięciu społeczności i meet-upów jest prawie dziesięć stowarzyszeń.
 
+Zaletą jego założenia jest podwójna:  
+- z jednej strony status stowarzyszenia pozwala na **posiadanie oficjalnego statusu, otwarcie konta bankowego dla stowarzyszenia oraz uzyskanie formy uznania ze strony prasy, mediów i dotacji**;  
+- z drugiej strony pozwala **bardziej poważnie organizować funkcjonowanie swojej społeczności i realizację jej projektów**, w szczególności przez definiowanie konkretnych ról.
 
-Kiedy twoja społeczność poczuje się gotowa do przejścia na wyższy poziom, **możesz utworzyć stowarzyszenie**.
+Mając na celu dalszy rozwój twojej społeczności, **nie jest wykluczone, że w ciągu najbliższych miesięcy na [planb.network](https://planb.network/) pojawi się kontynuacja tego szkolenia**.
 
+W ramach tego kontynuowania **szczególnie omówimy organizację dużych wydarzeń, z około setką uczestników**. Zostaną poruszone zasadnicze pytania: "Dlaczego?", "Jaka organizacja?", "Gdzie?", "Jaki budżet?", "Jak?" i "Jak to działa?".
 
-Na przykład we Francji na około pięćdziesiąt wspólnot i spotkań istnieje prawie dziesięć stowarzyszeń.
+Do tego wykorzystamy doświadczenia kilku francuskich społeczności, które już zorganizowały własne wydarzenia, takie jak **BEF (Bitcoin Economic Forum, w maju, Bretania), B-only (w listopadzie, Annecy) i Be On Lille (we wrześniu, Lille)**.
 
+![image](assets/fr/chapter38/62.webp)
 
-Zainteresowanie jego stworzeniem jest dwojakie:
-
-
-
-
-- z jednej strony status stowarzyszenia pozwala na **posiadanie oficjalnego statusu, otwarcie konta bankowego stowarzyszenia, a także uzyskanie formy uznania ze strony prasy, mediów i dotacji**; - z drugiej strony pozwala na **bardziej precyzyjną organizację działań społeczności i realizację jej projektów**, określając konkretne role.
-
-
-####
-
-
-W celu dalszego rozwoju społeczności, **kurs o nazwie COMMU201 zostanie opublikowany na [planb.network](https://planb.network/) w nadchodzących miesiącach**.
-
-
-Dzięki niemu **sprecyzujemy również inny ważny punkt: organizację wydarzeń na dużą skalę z około setką uczestników**. Odpowiemy na pytania Address, takie jak: Dlaczego? Jaka organizacja? Gdzie, jaki budżet? Jak? Jaka operacja?
-
-
-Aby to osiągnąć, zaczniemy od doświadczeń kilku francuskich społeczności, które już zorganizowały własne wydarzenia, takie jak ** BEF (Forum Ekonomiczne Bitcoin, w maju, w Bretanii) i B-only (w listopadzie, w Annecy)**.
-
-
-![immagine](assets/fr/chapter38/62.webp)
-
-
-####
-
-
-Oczywiście **w innych krajach ustawodawstwo i funkcjonowanie stowarzyszeń są różne**. Jednak kilka punktów będzie bardzo pomocnych przy tworzeniu stowarzyszenia lub organizowaniu ważnego wydarzenia; i **mamy nadzieję, że inni bitcoinowcy przyjdą i zintegrują to szkolenie specjalnie dla swojego kraju**.
+Oczywiście **w innych krajach prawo i funkcjonowanie stowarzyszeń różni się**.  
+**Dlatego mamy nadzieję, że inni międzynarodowi bitcoinersi uzupełnią to szkolenie o informacje specyficzne dla ich krajów**.
 
 
 # Sekcja końcowa
@@ -2756,7 +2759,7 @@ Oczywiście **w innych krajach ustawodawstwo i funkcjonowanie stowarzyszeń są 
 ## Wnioski
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

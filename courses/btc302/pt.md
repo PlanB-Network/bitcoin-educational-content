@@ -1846,34 +1846,52 @@ Com um pouco menos de pormenor, num vídeo de 21 minutos, tem o seguinte aspeto:
 
 Em todo o caso, **lembra-te que não estás sozinho e que as comunidades existentes estão lá para te ajudar**.
 
-## Curso BTC302
+## Cuidar de si mesmo
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Quando se cai na toca do coelho, a nossa perceção da vida muda.  
+Isso leva-nos – no mais profundo de nós – a querer ir mais longe; a descobrir aquelas outras pessoas que fazem o mesmo trabalho mental que nós e que também compreenderam.
+
+Isso motiva-nos e dá-nos ainda mais vontade de **contribuir com a nossa parte**, partilhando a nossa descoberta: Bitcoin.
+
+Mas também, a **refletir sobre o mundo de amanhã, aquele que desejamos construir e as comunidades que o estão a construir**.
+
+**Nesta longa galeria que é a criação de uma comunidade, terá de mostrar motivação, estratégia, dedicação e tempo**. É por vezes uma tarefa ingrata; e nesta aventura, é melhor ir com calma para não se magoar.  
+**Por isso, pense em si, nos seus limites**. E embora o Bitcoin possa impulsioná-lo dia e noite, **não tente fazer tudo sozinho, senão vai esgotar-se**.
+
+Pelo contrário, **peça ajuda aos bitcoiners que já passaram por esta mesma galeria, que já exploraram os mesmos caminhos e construíram as mesmas ferramentas**. Isso vai poupar-lhe muito tempo.
+
+**Ofereça também às pessoas que o vão acompanhar nesta aventura para o ajudar, mesmo que isso signifique delegar algumas tarefas** e que estas levem mais tempo. A longo prazo, a sua comunidade sairá mais unida e mais madura.
+
+![image](assets/fr/60.webp)
+
+Sozinho, é verdade que se pode explorar rapidamente uma das muitas galerias da toca do coelho que é o Bitcoin. Mas não se deve esquecer que ainda há muitas outras direções para explorar.
+
+Enquanto **criando e/ou integrando uma comunidade de bitcoiners, partilhando e trocando regularmente com eles, avançará simultaneamente em todas as direções da toca**.
+
+## Formação BTC302, continuação
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Neste curso BTC302, detalhamos os passos para criar uma comunidade, uma reunião; mas também a implementação de numerosos projectos.
+Nesta formação BTC302, detalhámos com precisão os passos para criar uma comunidade, um encontro; mas também a implementação de muitos projetos.
 
-Quando a sua comunidade se sentir preparada para passar ao nível seguinte, **pode criar uma associação**.
+Quando a sua comunidade se sentir pronta para passar para o próximo nível, **é possível criar uma associação**.  
+Em França, por exemplo, entre as cerca de sessenta comunidades e encontros, há quase uma dezena de associações.
 
-Em França, por exemplo, em cerca de cinquenta comunidades e encontros, existem quase dez associações.
+A vantagem de criar uma é dupla:  
+- por um lado, o estatuto de associação permite **dispor de um estatuto oficial, abrir uma conta bancária associativa, mas também obter uma forma de reconhecimento por parte da imprensa, dos media, bem como de subsídios**;  
+- por outro lado, permite **organizar de forma mais séria o funcionamento da sua comunidade e a implementação dos seus projetos**, definindo nomeadamente papéis específicos.
 
-O interesse em criar um é duplo:
+Com o objetivo de ajudar a sua comunidade a florescer ainda mais, **não está excluído que uma continuação desta formação possa ser lançada no [planb.network](https://planb.network/) nos próximos meses**.
 
+Através desta continuação, **iremos detalhar nomeadamente a organização de eventos de grande escala, com cerca de cem participantes**. Questões essenciais como: "Porquê?", "Que organização?", "Onde?", "Qual orçamento?", "Como?" e "Como funciona?" serão abordadas.
 
-- por um lado, o estatuto de associação permite **ter um estatuto oficial, abrir uma conta bancária da associação e obter também uma forma de reconhecimento por parte da imprensa, dos meios de comunicação social e das subvenções**; - por outro lado, permite **uma organização mais precisa do funcionamento da comunidade e da execução dos seus projectos**, definindo papéis específicos.
+Para tal, basear-nos-emos na experiência de várias comunidades francesas que já organizaram os seus próprios eventos, como **o BEF (Bitcoin Economic Forum, em maio, na Bretanha), o B-only (em novembro, em Annecy) e o Be On Lille (em setembro, em Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Com o objetivo de fazer prosperar ainda mais a sua comunidade, **um curso denominado COMMU201 será publicado em [planb.network] (https://planb.network/) nos próximos meses**.
+Obviamente, **noutros países, a legislação e o funcionamento associativo são diferentes**.  
+**Por isso, esperamos que outros bitcoiners internacionais complementem esta formação com informações específicas dos seus países**.
 
-Através dele, **detalharemos também **outro ponto importante: a organização de eventos de grande dimensão com cerca de uma centena de participantes**. Iremos abordar questões como: Porquê? Que organização? Onde, com que orçamento? Como? Que operação?
-
-Para isso, partiremos da experiência de várias comunidades francesas que já organizaram os seus próprios eventos, como **o BEF (Bitcoin Economic Forum, em maio, na Bretanha) e o B-only (em novembro, em Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Naturalmente, **noutros países, a legislação e o funcionamento das associações são diferentes**. No entanto, vários pontos serão muito úteis para criar uma associação ou organizar um evento importante; e **esperamos que outros bitcoiners venham integrar esta formação especificamente para o seu país**.
 
 # Seção final
 
@@ -1887,6 +1905,6 @@ Naturalmente, **noutros países, a legislação e o funcionamento das associaç�
 
 ## Conclusão
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

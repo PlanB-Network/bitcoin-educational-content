@@ -1846,34 +1846,51 @@ Hieman vähemmän yksityiskohtaisesti, 21-minuuttisella videolla, se näyttää 
 
 Joka tapauksessa **muista, ettet ole yksin ja että olemassa olevat yhteisöt auttavat sinua**.
 
-## Kurssi BTC302
+## Huolehdi itsestäsi
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Kun putoamme kaninreikään, käsityksemme elämästä muuttuu.  
+Se saa meidät – syvällä itsessämme – haluamaan mennä pidemmälle; löytämään ne muut ihmiset, jotka tekevät samaa henkistä työtä kuin me ja jotka ovat myös ymmärtäneet.
+
+Se motivoi meitä ja antaa meille vielä suuremman halun **antaa oma panoksemme**, jakamalla löytömme: Bitcoinin.
+
+Mutta myös **pohtimaan huomisen maailmaa, sitä, jonka haluamme rakentaa, ja yhteisöjä, jotka sitä rakentavat**.
+
+**Tässä pitkän galleriassa, joka on yhteisön luomista, sinun täytyy osoittaa motivaatiota, strategiaa, omistautumista ja aikaa**. Se on joskus kiitoton työ; ja tässä seikkailussa on parempi edetä askel kerrallaan, jotta et vahingoita itseäsi.  
+**Joten ajattele itseäsi, omia rajojasi**. Vaikka Bitcoin saattaa innostaa sinua yötä päivää, **älä yritä tehdä kaikkea yksin, muuten uuvut**.
+
+Päinvastoin, **pyydä apua bitcoin-käyttäjiltä, jotka ovat jo kulkeneet tämän pitkän galleriin, jotka ovat tutkineet samoja polkuja ja rakentaneet samoja työkaluja**. Tämä säästää sinulta paljon aikaa.
+
+**Tarjoa myös niille, jotka seuraavat sinua tällä matkalla, apua, vaikka se tarkoittaisi joidenkin tehtävien delegointia** ja että nämä tehtävät vievät enemmän aikaa. Pitkällä aikavälillä yhteisösi vahvistuu ja kypsyy.
+
+![image](assets/fr/60.webp)
+
+Yksin on totta, että voi nopeasti tutkia yhtä monista Bitcoinin kaninreiän gallerioista. Mutta ei pidä unohtaa, että on vielä monia muita suuntia tutkittavana.
+
+Sillä välin kun **luot ja/tai liityt bitcoin-yhteisöön, jaat ja vaihdat heidän kanssaan säännöllisesti, etenet samanaikaisesti kaikkiin kaninreiän suuntiin**.
+
+## BTC302-koulutus, jatkuu
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-Tällä BTC302-kurssilla olemme käsitelleet yksityiskohtaisesti yhteisön ja kokouksen luomisen vaiheet, mutta myös lukuisten projektien toteuttamisen.
+Tässä BTC302-koulutuksessa olemme tarkasti kuvanneet askeleet yhteisön luomisessa, meet-upin järjestämisessä; mutta myös monien projektien käynnistämisessä.
 
-Kun yhteisösi tuntee olevansa valmis siirtymään seuraavalle tasolle, **voit perustaa yhdistyksen**.
+Kun yhteisösi tuntee olevansa valmis siirtymään seuraavalle tasolle, **on mahdollista perustaa yhdistys**.  
+Esimerkiksi Ranskassa noin kuudenkymmenen yhteisön ja meet-upin joukossa on lähes kymmenen yhdistystä.
 
-Esimerkiksi Ranskassa noin viidessäkymmenessä yhteisössä ja kokouksessa on lähes kymmenen yhdistystä.
+Yhdistyksen perustamisen hyöty on kaksinkertainen:  
+- toisaalta yhdistyksen status antaa mahdollisuuden **omistaa virallinen asema, avata yhdistyksen pankkitili ja saada jonkinlaista tunnustusta lehdistöltä, medialta ja avustuksilta**;  
+- toisaalta se mahdollistaa **yhteisön toiminnan ja projektien toteuttamisen järjestämisen vakavammin**, erityisesti määrittelemällä erityisiä rooleja.
 
-Sen luominen on kaksijakoisesti kiinnostavaa:
+Tavoitteena auttaa yhteisöäsi kukoistamaan vielä enemmän, **ei ole poissuljettua, että jatkokoulutus ilmestyy [planb.network](https://planb.network/) tulevina kuukausina**.
 
+Sen kautta **kuvaamme erityisesti suurten tapahtumien järjestämistä, joissa on noin sata osallistujaa**. Keskeiset kysymykset kuten: "Miksi?", "Mikä järjestely?", "Missä?", "Mikä budjetti?", "Miten?" ja "Miten se toimii?" käsitellään.
 
-- toisaalta yhdistyksen asema mahdollistaa **virallisen aseman saamisen, yhdistyksen pankkitilin avaamisen ja myös eräänlaisen tunnustuksen saamisen lehdistön, tiedotusvälineiden ja avustusten taholta**; - toisaalta se mahdollistaa **yhteisön toiminnan tarkemman organisoinnin ja sen hankkeiden toteuttamisen**, jolloin voidaan määritellä erityiset roolit.
+Tähän perustamme kokemuksiin useista ranskalaisista yhteisöistä, jotka ovat jo järjestäneet omia tapahtumiaan, kuten **BEF (Bitcoin Economic Forum, toukokuussa, Bretagne), B-only (marraskuussa, Annecy) ja Be On Lille (syyskuussa, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Yhteisösi hyvinvoinnin lisäämiseksi **kurssi nimeltä COMMU201 julkaistaan lähikuukausina [planb.network](https://planb.network/) -sivustolla**.
-
-Sen kautta **erittelemme myös **toisen tärkeän seikan: noin sadan osallistujan suurten tapahtumien järjestämisen**. Käsittelemme muun muassa seuraavia kysymyksiä: Miksi? Mikä organisaatio? Missä, millä budjetilla? Miten? Mikä toiminta?
-
-Tätä varten aloitamme useiden ranskalaisten yhteisöjen kokemuksista, jotka ovat jo järjestäneet omia tapahtumiaan, kuten **BEF (Bitcoin Economic Forum, toukokuussa Bretagnessa) ja B-only (marraskuussa Annecyssä)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Muissa maissa yhdistysten lainsäädäntö ja toiminta ovat luonnollisesti erilaisia**. Useat kohdat ovat kuitenkin erittäin hyödyllisiä yhdistyksen perustamisessa tai tärkeän tapahtuman järjestämisessä, ja **toivomme, että muut bitcoin-aktivistit tulevat paikalle ja integroivat tämän koulutuksen nimenomaan omaan maahansa**.
+Tietysti **muissa maissa lainsäädäntö ja yhdistysten toiminta poikkeavat**.  
+**Toivomme siksi, että muut kansainväliset bitcoin-käyttäjät täydentävät tätä koulutusta maakohtaisilla tiedoilla**.
 
 # Lopullinen osio
 
@@ -1887,6 +1904,6 @@ Muissa maissa yhdistysten lainsäädäntö ja toiminta ovat luonnollisesti erila
 
 ## Päätelmä
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

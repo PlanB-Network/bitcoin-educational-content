@@ -1846,34 +1846,52 @@ Con algo menos de detalle, en un vídeo de 21 minutos, se ve así:
 
 En cualquier caso, **recuerda que no estás solo y que las comunidades existentes están ahí para ayudarte**.
 
-## Curso BTC302
+## Cuidarse a uno mismo
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Cuando uno cae en la madriguera del conejo, nuestra concepción de la vida cambia.  
+Esto nos impulsa – en lo más profundo de nosotros mismos – a ir más allá; a descubrir a esas otras personas que hacen el mismo trabajo mental que nosotros y que, también, han entendido.
+
+Esto nos motiva y nos da aún más ganas de **aportar nuestro granito de arena**, compartiendo nuestro descubrimiento: Bitcoin.
+
+Pero también, a **reflexionar sobre el mundo del mañana, aquel que deseamos construir y las comunidades que lo están construyendo**.
+
+**En esta larga galería que es la creación de una comunidad, necesitarás mostrar motivación, estrategia, dedicación y tiempo**. Es a veces una tarea ingrata; y en esta aventura, es mejor tomar las cosas paso a paso para no hacerse daño.  
+**Así que piensa en ti mismo, en tus límites**. Y aunque Bitcoin pueda impulsarte día y noche, **no intentes hacerlo todo solo, o te agotarás**.
+
+Por el contrario, **pide ayuda a los bitcoiners que ya han pasado por esta misma galería, que ya han explorado las mismas salidas y construido las mismas herramientas**. Esto te ahorrará mucho tiempo.
+
+**También ofrece a las personas que te seguirán en esta aventura que te ayuden, incluso si eso significa delegar algunas tareas** y que estas lleven más tiempo. A largo plazo, tu comunidad saldrá unida y más madura.
+
+![image](assets/fr/60.webp)
+
+Solo, es cierto que se puede explorar rápidamente una de las muchas galerías de la madriguera del conejo que es Bitcoin. Pero no debemos olvidar que aún quedan muchas otras direcciones por explorar.
+
+Mientras que **creando y/o integrando una comunidad de bitcoiners, compartiendo e intercambiando regularmente con ellos, avanzarás al mismo tiempo en todas las direcciones de la madriguera**.
+
+## Formación BTC302, continuación
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-En este curso BTC302, hemos detallado los pasos para crear una comunidad, una reunión; pero también, la puesta en marcha de numerosos proyectos.
+En esta formación BTC302, hemos detallado con precisión los pasos para crear una comunidad, un meet-up; pero también la puesta en marcha de muchos proyectos.
 
-Cuando tu comunidad se sienta preparada para pasar al siguiente nivel, **puedes crear una asociación**.
+Cuando tu comunidad se sienta lista para pasar al siguiente nivel, **es posible crear una asociación**.  
+En Francia, por ejemplo, de las cerca de sesenta comunidades y meet-ups, hay casi una decena de asociaciones.
 
-En Francia, por ejemplo, de unas cincuenta comunidades y reuniones, hay casi diez asociaciones.
+El interés de crear una es doble:  
+- por un lado, el estatus de asociación permite **tener un estatus oficial, abrir una cuenta bancaria para la asociación, pero también obtener una forma de reconocimiento por parte de la prensa, los medios y las subvenciones**;  
+- por otro lado, permite **organizar de manera más seria el funcionamiento de su comunidad y la puesta en marcha de sus proyectos**, definiendo en particular roles específicos.
 
-El interés de crear uno es doble:
+Con el objetivo de ayudar a que tu comunidad prospere aún más, **no se descarta que en los próximos meses pueda salir una continuación de esta formación en [planb.network](https://planb.network/)**.
 
+A través de esta continuación, **detallaremos especialmente la organización de eventos a gran escala, con cerca de un centenar de participantes**. Se abordarán preguntas esenciales como: "¿Por qué?", "¿Qué organización?", "¿Dónde?", "¿Qué presupuesto?", "¿Cómo?" y "¿Cómo funciona?".
 
-- por un lado, el estatuto de asociación permite **tener un estatuto oficial, abrir una cuenta bancaria asociativa y también obtener una forma de reconocimiento por parte de la prensa, los medios de comunicación y las subvenciones**; - por otro lado, permite **organizar de forma más precisa el funcionamiento de la comunidad y la ejecución de sus proyectos**, definiendo funciones específicas.
+Para ello, partiremos de la experiencia de varias comunidades francesas que ya han organizado sus propios eventos, como **el BEF (Bitcoin Economic Forum, en mayo, en Bretaña), el B-only (en noviembre, en Annecy) y el Be On Lille (en septiembre, en Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-Con el objetivo de seguir prosperando en su comunidad, **en los próximos meses se publicará en [planb.network](https://planb.network/) un curso denominado COMMU201**.
+Por supuesto, **en otros países, la legislación y el funcionamiento de las asociaciones es diferente**.  
+**Por ello, esperamos que otros bitcoiners internacionales complementen esta formación con información específica de sus países**.
 
-A través de él, **también detallaremos otro punto importante: la organización de eventos a gran escala con un centenar de participantes**. Abordaremos cuestiones como: ¿Por qué? ¿Qué organización? ¿Dónde, con qué presupuesto? ¿Cómo? ¿Qué operación?
-
-Para ello, partiremos de la experiencia de varias comunidades francesas que ya han organizado sus propios eventos, como **el BEF (Bitcoin Economic Forum, en mayo, en Bretaña) y B-only (en noviembre, en Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Por supuesto, **en otros países, la legislación y el funcionamiento de las asociaciones son diferentes**. Sin embargo, varios puntos serán muy útiles para crear una asociación u organizar un evento importante; y **esperamos que otros bitcoiners vengan e integren esta formación específica para su país**.
 
 # Sección final
 
@@ -1887,6 +1905,6 @@ Por supuesto, **en otros países, la legislación y el funcionamiento de las aso
 
 ## Conclusión
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -1318,25 +1318,53 @@ In modo leggermente meno dettagliato, in un video di 21 minuti, appare così:
 
 Ad ogni modo, **ricorda che non sei solo e che le comunità esistenti sono lì per aiutarti**.
 
-## Corso BTC302
+
+
+## Prendersi cura di sé
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+
+Quando si cade nella tana del coniglio, la nostra concezione della vita cambia.  
+Questo ci spinge – nel profondo di noi stessi – ad andare oltre; a scoprire quelle altre persone che svolgono lo stesso lavoro mentale che facciamo noi e che, anche loro, hanno capito.
+
+Ci motiva e ci dà ancora più voglia di **dare il nostro contributo**, condividendo la nostra scoperta: Bitcoin.
+
+Ma anche a **riflettere sul mondo di domani, su quello che desideriamo costruire e sulle comunità che lo stanno edificando**.
+
+**In questa lunga galleria che è la creazione di una comunità, dovrete dimostrare motivazione, strategia, dedizione e tempo**. È un lavoro a volte ingrato; e in questa avventura, è meglio procedere passo dopo passo per non farsi male.  
+**Pensate quindi a voi stessi, ai vostri limiti**. E sebbene Bitcoin possa animarvi giorno e notte, **non cercate di fare tutto da soli, altrimenti vi esaurirete**.
+
+Al contrario, **chiedete aiuto ai bitcoiner che sono già passati da questa stessa galleria, che hanno già esplorato gli stessi percorsi e costruito gli stessi strumenti**. Questo vi farà risparmiare molto tempo.
+
+**Offrite anche a coloro che vi seguiranno in questa avventura di aiutarvi, anche se ciò significa delegare alcuni compiti** e che questi ultimi richiedano più tempo. A lungo termine, la vostra comunità ne uscirà più unita e più matura.
+
+![image](assets/fr/60.webp)
+
+Da soli, è vero che si può rapidamente esplorare una delle molte gallerie della tana del coniglio che è Bitcoin. Ma non bisogna dimenticare che ci sono ancora molte altre direzioni da esplorare.
+
+Mentre **creando e/o entrando in una comunità di bitcoiner, condividendo e scambiando regolarmente con loro, avanzerete simultaneamente in tutte le direzioni della tana**.
+
+## Formazione BTC302, continuazione
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-In questo corso BTC302, abbiamo dettagliato i passaggi per creare una comunità, un incontro; ma anche, l'implementazione di numerosi progetti.
+In questa formazione BTC302 abbiamo dettagliato con precisione le fasi di creazione di una comunità, di un meet-up; ma anche l’avvio di molti progetti.
 
-Quando la tua comunità si sente pronta a passare al livello successivo, **è possibile creare un'associazione**.
-In Francia, ad esempio, su circa cinquanta comunità e incontri, ci sono quasi dieci associazioni.
+Quando la vostra comunità si sentirà pronta a passare al livello successivo, **è possibile creare un’associazione**.  
+In Francia, ad esempio, sulle circa sessanta comunità e meet-up, si contano quasi una decina di associazioni.
 
-L'interesse nel crearne una è duplice:
-- da un lato, lo status di un'associazione consente di **avere uno status ufficiale, aprire un conto bancario associativo e ottenere anche una forma di riconoscimento da parte della stampa, dei media e delle sovvenzioni**; - dall'altro, permette **una più precisa organizzazione delle operazioni della comunità e l'attuazione dei suoi progetti**, definendo ruoli specifici.
-####
-Con l'obiettivo di far prosperare ulteriormente la tua comunità, **un corso denominato COMMU201 verrà pubblicato su [planb.network](https://planb.network/) nei prossimi mesi**.
+Il vantaggio di crearne una è duplice:  
+- da una parte, lo status di associazione permette di **disporre di uno status ufficiale, aprire un conto bancario associativo ma anche ottenere una forma di riconoscimento da parte della stampa, dei media e delle sovvenzioni**;  
+- dall’altra, permette di **organizzare in modo più serio il funzionamento della propria comunità e l’implementazione dei propri progetti**, definendo in particolare ruoli specifici.
 
-Attraverso di esso, **dettaglieremo anche un altro punto importante: l'organizzazione di eventi su larga scala, con circa un centinaio di partecipanti**. Affronteremo domande come: Perché? Che organizzazione? Dove? Quale budget? Come? Quale operazione?
-Per raggiungere questo obiettivo, inizieremo con l'esperienza di diverse comunità francesi che hanno già organizzato i propri eventi, come **il BEF (Bitcoin Economic Forum, a maggio, in Bretagna) e il B-only (a novembre, ad Annecy)**.
-![immagine](assets/fr/chapter38/62.webp)
-####
-Naturalmente, **in altri paesi, la legislazione e il funzionamento delle associazioni sono diversi**. Tuttavia, diversi punti saranno molto utili per creare un'associazione o organizzare un evento importante; e **speriamo che altri bitcoiner verranno a integrare questa formazione in modo specifico per il loro paese**.
+Con l’obiettivo di far prosperare ancora di più la vostra comunità, **non è escluso che nei prossimi mesi possa uscire un seguito di questa formazione su [planb.network](https://planb.network/)**.
 
+Attraverso questo seguito, **dettaglieremo in particolare l’organizzazione di eventi di grande portata, con circa cento partecipanti**. Saranno trattate le domande essenziali come: "Perché?", "Quale organizzazione?", "Dove?", "Quale budget?", "Come?" e "Come funziona?".
+
+Per questo, ci baseremo sull’esperienza di diverse comunità francesi che hanno già organizzato i propri eventi, come **il BEF (Bitcoin Economic Forum, a maggio, in Bretagna), il B-only (a novembre, ad Annecy) e il Be On Lille (a settembre, a Lille)**.
+
+![image](assets/fr/chapter38/62.webp)
+
+Ovviamente, **in altri paesi la legislazione e il funzionamento delle associazioni è differente**.  
+**Speriamo quindi che altri bitcoiner internazionali completino questa formazione con informazioni specifiche ai loro paesi**.
 
 
 # Sezione finale
@@ -1347,5 +1375,5 @@ Naturalmente, **in altri paesi, la legislazione e il funzionamento delle associa
 <isCourseReview>true</isCourseReview>
 
 ## Conclusione
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

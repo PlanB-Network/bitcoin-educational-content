@@ -1846,34 +1846,52 @@ I litt mindre detalj, i en 21 minutter lang video, ser det slik ut:
 
 Husk uansett at du ikke er alene, og at de eksisterende miljøene er der for å hjelpe deg**.
 
-## Kurs BTC302
+## Ta vare på deg selv
+<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
+Når man faller ned i kaninhullet, endres vår oppfatning av livet.  
+Det får oss til – dypt inni oss – å ønske å gå videre; å oppdage de andre menneskene som gjør samme mentale arbeid som oss og som også har forstått.
+
+Det motiverer oss og gir oss enda mer lyst til å **bidra med vår del**, ved å dele vår oppdagelse: Bitcoin.
+
+Men også til å **reflektere over morgendagens verden, den vi ønsker å bygge, og fellesskapene som bygger den**.
+
+**I denne lange galleriet som er å skape et fellesskap, må du vise motivasjon, strategi, dedikasjon og tid**. Det er noen ganger en utakknemlig oppgave; og i dette eventyret er det bedre å ta ting steg for steg for å unngå skade.  
+**Så tenk på deg selv, på dine grenser**. Og selv om Bitcoin kanskje driver deg dag og natt, **ikke prøv å gjøre alt alene, ellers vil du bli utmattet**.
+
+Tvert imot, **be om hjelp fra bitcoinere som allerede har gått gjennom dette samme galleriet, som har utforsket de samme utgangene og bygget de samme verktøyene**. Dette vil spare deg for mye tid.
+
+**Tilby også de som vil følge deg på denne reisen å hjelpe deg, selv om det betyr å delegere noen oppgaver** og at disse oppgavene tar mer tid. På lang sikt vil fellesskapet ditt bli sterkere og mer modent.
+
+![image](assets/fr/60.webp)
+
+Alene er det sant at man raskt kan utforske et av de mange galleriene i kaninhullet som er Bitcoin. Men man må ikke glemme at det fortsatt er mange andre retninger å utforske.
+
+Mens **ved å skape og/eller bli med i et fellesskap av bitcoinere, dele og utveksle med dem regelmessig, vil du samtidig bevege deg i alle retninger i hullet**.
+
+## BTC302-opplæring, fortsetter
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
-I dette BTC302-kurset har vi gått gjennom trinnene for å skape et fellesskap, et møte, men også gjennomføringen av en rekke prosjekter.
+I denne BTC302-opplæringen har vi nøyaktig beskrevet trinnene for å opprette et fellesskap, en meet-up; men også oppstart av mange prosjekter.
 
-Når lokalsamfunnet føler seg klar til å ta steget videre til neste nivå, **kan dere opprette en forening**.
+Når fellesskapet ditt føler seg klart til å gå til neste nivå, **er det mulig å opprette en forening**.  
+I Frankrike for eksempel, blant de omtrent seksti fellesskapene og meet-upene, finnes det nesten et dusin foreninger.
 
-I Frankrike, for eksempel, er det nesten ti foreninger av rundt femti lokalsamfunn og møter.
+Fordelen med å opprette en er todelt:  
+- på den ene siden gir foreningsstatusen mulighet til å **ha en offisiell status, åpne en bankkonto for foreningen, men også få en form for anerkjennelse fra presse, medier og tilskudd**;  
+- på den andre siden gjør det mulig å **organisere driften av fellesskapet og gjennomføringen av prosjektene på en mer seriøs måte**, særlig ved å definere spesifikke roller.
 
-Interessen for å lage en slik er todelt:
+Med mål om å hjelpe fellesskapet ditt til å blomstre enda mer, **er det ikke utelukket at en oppfølger til denne opplæringen kan komme på [planb.network](https://planb.network/) i løpet av de kommende månedene**.
 
+Gjennom denne oppfølgeren **vil vi spesielt beskrive organiseringen av storskala-arrangementer med omtrent hundre deltakere**. Viktige spørsmål som: "Hvorfor?", "Hvilken organisasjon?", "Hvor?", "Hvilket budsjett?", "Hvordan?" og "Hvordan fungerer det?" vil bli tatt opp.
 
-- på den ene siden gir foreningsstatusen **en offisiell status, mulighet til å åpne en bankkonto og få en form for anerkjennelse fra presse, media og bidragsytere**; - på den andre siden gir den **en mer presis organisering av driften av lokalsamfunnet og gjennomføringen av prosjektene**, og definerer spesifikke roller.
+For å gjøre dette vil vi ta utgangspunkt i erfaringene til flere franske fellesskap som allerede har arrangert sine egne arrangementer, som **BEF (Bitcoin Economic Forum, i mai, Bretagne), B-only (i november, Annecy) og Be On Lille (i september, Lille)**.
 
-####
+![image](assets/fr/chapter38/62.webp)
 
-For å bidra til at samfunnet ditt skal blomstre ytterligere, vil **et kurs kalt COMMU201 bli lagt ut på [planb.network] (https://planb.network/) i løpet av de kommende månedene**.
+Selvfølgelig, **i andre land er lovgivningen og foreningsvirksomheten forskjellig**.  
+**Vi håper derfor at andre internasjonale bitcoinere vil supplere denne opplæringen med informasjon spesifikk for deres land**.
 
-Gjennom den vil vi også **detaljere et annet viktig punkt: organisering av store arrangementer med rundt hundre deltakere**. Vi vil ta for oss spørsmål som: Hvorfor? Hvilken organisasjon? Hvor, hvilket budsjett? Hvordan? Hvilken operasjon?
-
-For å oppnå dette vil vi ta utgangspunkt i erfaringene fra flere franske lokalsamfunn som allerede har organisert egne arrangementer, som ** BEF (Bitcoin Economic Forum, i mai, i Bretagne) og B-only (i november, i Annecy)**.
-
-![immagine](assets/fr/chapter38/62.webp)
-
-####
-
-Selvfølgelig er ** i andre land lovgivningen og driften av foreninger annerledes **. Imidlertid vil flere punkter være veldig nyttige for å opprette en forening eller organisere et viktig arrangement; og ** vi håper at andre bitcoinere vil komme og integrere denne opplæringen spesielt for deres land **.
 
 # Siste seksjon
 
@@ -1887,6 +1905,6 @@ Selvfølgelig er ** i andre land lovgivningen og driften av foreninger annerlede
 
 ## Konklusjon
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>0de58acc-f6ac-4139-92ea-078d9aa42708</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

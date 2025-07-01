@@ -1,0 +1,17 @@
+question: Hur påverkas en valutas köpkraft av att man trycker mer pengar?
+answer: En försämring av valutans köpkraft
+wrong_answers:
+  - En ökning av valutans köpkraft
+  - Ingen påverkan
+  - Mer pengar = större köpkraft
+explanation: |
+  När centralbanker bestämmer sig för att trycka pengar kan de inte bara skapa mer värde.
+  För att dessa nytryckta pengar ska vara värda något måste dess värde komma från de
+  tidigare valutainnehavare.
+  Tänk på pengarna Supply som en pizza, och föreställ dig att den skärs i fyra bitar.
+  Att fördubbla pengarna Supply skulle inte vara detsamma som att fördubbla mängden pizza.
+  Istället skulle det vara likvärdigt med att skära de fyra bitarna i hälften för att skapa
+  åtta bitar. Vi har inte fått någon ytterligare pizza. Vi har bara fler bitar,
+  var och en mindre i storlek. När vi trycker mer pengar devalverar vi därför de pengar
+  som redan existerar.
+reviewed: true

@@ -1,0 +1,6 @@
+question: Varför är det viktigt att säkra din e-post?
+answer: Eftersom det låter dig återställa dina lösenord
+wrong_answers: 
+explanation: |
+  Brevlådan är den centrala åtkomstpunkten för att hämta lösenord och kompromissa med flera konton i händelse av ett intrång.
+reviewed: true

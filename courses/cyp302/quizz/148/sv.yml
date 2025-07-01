@@ -1,0 +1,9 @@
+question: Vilken funktion används för att beräkna antalet kopriska heltal till ett heltal N?
+answer: Eulers Phi-funktion
+wrong_answers:
+  - Den logaritmiska funktionen
+  - Eulers gammafunktion
+  - Gauss-funktionen
+explanation: |
+  Eulers Phi-funktion (eller totientfunktion) används för att beräkna antalet koprim till ett heltal N, särskilt för heltal som inte är primtal.
+reviewed: false

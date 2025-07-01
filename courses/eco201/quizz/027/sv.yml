@@ -1,0 +1,13 @@
+question: Vilken roll spelar pengar i den intertemporala samordningen av mänskligt handlande?
+answer: Den gör det möjligt att lagra värde i nuet och överföra det till ett framtida jag.
+wrong_answers:
+  - Det gör det möjligt att lagra värde i framtiden och överföra det till det nuvarande jaget.
+  - Den gör det möjligt att lagra värde i nuet och överföra det till andra människor.
+  - Det gör det möjligt att lagra värde i framtiden och överföra det till andra människor.
+explanation: |
+  Genom att lagra pengar, dvs. spara, skyddar sig individen mot
+  mot framtida osäkerhet och kan på så sätt rikta sina
+  sina handlingar mot längre tidshorisonter. Detta kan de dock
+  kan dock bara uppnå detta om de pengar som används utgör en
+  värde.
+reviewed: true

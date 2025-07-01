@@ -1,0 +1,10 @@
+question: Varför är det ofta komplicerat att använda PayJoin för en betalning?
+answer: Det kräver ett aktivt samarbete från mottagarens sida i byggandet av
+wrong_answers:
+  - Det krävs fasta belopp för varje transaktion
+  - Det tvingar båda parter att använda samma typ av programvara
+  - Det krävs att betalaren har minst 2 UTXO som är större än betalningens värde
+explanation: |
+  Svårigheten med att använda PayJoin ligger i dess beroende av handlarens deltagande. Som kund är det omöjligt att använda en PayJoin om handlaren inte stöder den.
+  
+reviewed: false

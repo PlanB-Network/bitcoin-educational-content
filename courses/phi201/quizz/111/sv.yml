@@ -1,0 +1,9 @@
+question: Vilken roll spelar pengar i ekonomin enligt Keynes?
+answer: Ett instrument för ekonomisk politik
+wrong_answers:
+  - Enbart ett medel för Exchange
+  - En broms på tillväxten
+  - Ett verktyg för spekulation
+explanation: |
+  För Keynes fungerar pengar som en ekonomisk-politisk hävstång som gör det möjligt för regeringar att reglera ekonomin genom att påverka investeringar, sysselsättning och den totala efterfrågan.
+reviewed: true

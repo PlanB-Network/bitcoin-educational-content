@@ -1,0 +1,11 @@
+question: Vilka är de potentiella effekterna av ett förbud mot Mining i en region?
+answer: Det kan leda till en betydande minskning av Hashrate och priset på Bitcoin
+wrong_answers:
+  - Det kan leda till en höjning av priset på Bitcoin
+  - Det kan leda till en ökning av nätverkets Hashrate
+  - Det kan leda till en ökning av antalet aktiva noder i nätverket
+explanation: |
+  Ett förbud mot Mining i en region, som det som skedde i Kina,
+  kan leda till en betydande nedgång i Hashrate och priset på
+  Bitcoin. Dessa kan dock snabbt återhämta sig.
+reviewed: true

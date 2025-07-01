@@ -1,0 +1,11 @@
+question: Vilken är den största nackdelen med att använda en lösenordshanterare med egen värd?
+answer: Det krävs mer teknisk kunskap för att använda den.
+wrong_answers:
+  - Det är dyrare än tjänster från tredje part.
+  - Den erbjuder inte lika många funktioner som tjänster från tredje part.
+  - Det är inte lika säkert som tjänster från tredje part.
+explanation: |
+  En lösenordshanterare med egen hosting kräver mer teknisk
+  kunskap för att använda, eftersom du måste ställa in och hantera din egen
+  server. Det kan dock erbjuda mer kontroll och säkerhet.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Vad kallas den process som verifierar transaktioner i Bitcoin-nätverket?
+answer: Mining
+wrong_answers:
+  - Grävning
+  - Skörd
+  - Jordbruk
+explanation: |
+  Den process som verifierar transaktioner i Bitcoin-nätverket
+  nätverket kallas Mining. Miners utför en kryptografisk uppgift
+  uppgift och belönas med utfärdandet av nya bitcoins.
+reviewed: true

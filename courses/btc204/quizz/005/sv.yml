@@ -1,0 +1,9 @@
+question: Vad är en inmatning i en transaktion?
+answer: En referens till en tidigare outnyttjad UTXO.
+wrong_answers:
+  - En bekräftelsesignal från gruvarbetarna.
+  - Ett nytt block har lagts till i Blockchain.
+  - En verifieringskod för att säkra transaktionen.
+explanation: |
+  Varje transaktionsinmatning är en referens till en UTXO, det vill säga utmatningen från en tidigare transaktion.
+reviewed: false

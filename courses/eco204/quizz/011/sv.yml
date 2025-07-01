@@ -1,0 +1,12 @@
+question: Vilken syn har Modern Monetary Theory (MMT) på penningskapande och inflation?
+answer: Enligt MMT kommer pengar i första hand från staten, som kan trycka stora mängder pengar för att finansiera sina behov utan att orsaka inflation så länge de sektorer som dessa medel riktas till inte är mättade.
+wrong_answers:
+  - Enligt MMT kommer pengar i första hand från den privata sektorn och att trycka mer pengar leder alltid till inflation.
+  - Enligt MMT kommer pengar i första hand från staten, men att trycka mer pengar leder alltid till inflation.
+  - Enligt MMT kommer pengar i första hand från den privata sektorn och att trycka mer pengar leder aldrig till inflation.
+explanation: |
+  I kapitlet förklaras att modern monetär teori (MMT) erbjuder ett distinkt perspektiv
+  perspektiv på penningskapande och inflation. Enligt MMT härrör pengar främst från
+  från staten, som kan trycka upp stora mängder pengar för att finansiera sina behov utan att
+  utan att orsaka inflation så länge som de sektorer som dessa fonder riktar sig till inte är mättade.
+reviewed: false

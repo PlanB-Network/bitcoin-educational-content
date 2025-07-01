@@ -1,0 +1,12 @@
+question: Hur bidrar Tethers olika stablecoins till finansiell frihet för individer i instabila ekonomier?
+answer: Genom att ge tillgång till valutor med stabila Exchange-kurser
+wrong_answers:
+  - Genom att eliminera behovet av fysiska kontanter
+  - Genom att erbjuda högre räntor på sparande
+  - Genom att möjliggöra omedelbara globala transaktioner
+explanation: |
+  Tethers olika stablecoins är kopplade till stabila tillgångar som US-dollar
+  dollar eller guld. Denna stabilitet gör det möjligt för individer i instabila ekonomier
+  att flytta sina pengar till en valuta som inte är föremål för samma
+  inflationstakten, vilket hjälper dem att behålla värdet på sina besparingar.
+reviewed: true

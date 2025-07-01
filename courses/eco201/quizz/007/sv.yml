@@ -1,0 +1,9 @@
+question: Vem tackas för att ha producerat kursen?
+answer: Théo Mogenet
+wrong_answers:
+  - Descoupes Bitcoin
+  - Théo Boloré
+  - Inget av ovanstående
+explanation: |
+  I kapitlet nämns att Théo tackas för att ha tagit fram kursen.
+reviewed: true

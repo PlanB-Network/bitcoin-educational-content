@@ -1,0 +1,11 @@
+question: Vad är det historiska sambandet mellan pengar och råvaror som guld?
+answer: Guld är sällsynt och allmänt accepterat som värdebevarare
+wrong_answers:
+  - Guld får pengar att se mer attraktiva ut
+  - Guld är lätt att dela upp
+  - Guld är unikt
+explanation: |
+  Med tanke på guldets globala knapphet i naturen och de betydande investeringar som krävs för att
+  för att bryta, raffinera och lagra guld, har guld konsekvent handlats till en premie över
+  andra former av pengar.
+reviewed: true

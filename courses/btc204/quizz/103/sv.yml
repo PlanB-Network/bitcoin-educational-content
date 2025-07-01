@@ -1,0 +1,10 @@
+question: Hur beräknas effektiviteten i en Bitcoin-transaktion med avseende på integritet?
+answer: Genom att jämföra transaktionens faktiska entropi med den högsta möjliga entropin.
+wrong_answers:
+  - Genom att multiplicera antalet ingångar med antalet utgångar.
+  - Genom att multiplicera transaktionens faktiska entropi med antalet inmatningar och utmatningar.
+  - Genom att jämföra antalet inmatningar med antalet utmatningar.
+explanation: |
+  Transaktionens effektivitet beräknas genom att subtrahera den maximala entropin från den faktiska entropin för den analyserade transaktionen.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad är skillnaden mellan phusis och nomos?
+answer: Phusis är naturens lag, nomos är människans lag.
+wrong_answers:
+  - Phusis är gudarnas lag, nomos är människornas lag.
+  - Phusis är den svages lag, nomos är den starkes lag.
+  - Phusis är antikens lag, nomos är den moderna tidens lag.
+explanation: |
+  I grekisk filosofi avser phusis naturlagar eller lagar som är inneboende i naturen och oberoende av mänskliga handlingar, medan nomos avser mänskliga lagar som skapas av samhällen för att reglera livet i samhället.
+reviewed: true

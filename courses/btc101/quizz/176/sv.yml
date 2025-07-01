@@ -1,0 +1,8 @@
+question: Vad är en unik egenskap hos Bitcoin-protokollet?
+answer: Den verkar på global nivå, 24 timmar om dygnet, 7 dagar i veckan.
+wrong_answers:
+  - Den är endast öppen under kontorstid.
+  - Den styrs av en central myndighet.
+  - Den kan lätt hackas.
+explanation: >-
+reviewed: true

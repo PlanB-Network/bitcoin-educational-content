@@ -1,0 +1,12 @@
+question: Vad kan gruvarbetare göra för de kraftverk som ännu inte är anslutna till elnätet?
+answer: De kan fungera som en sista utväg för köparen.
+wrong_answers:
+  - De kan förse kraftverk med elektricitet.
+  - De kan ansluta kraftverk till elnätet.
+  - De kan reglera elpriset.
+explanation: |
+  Gruvarbetare kan fungera som en sista utväg för att köpa kraftverk som
+  ännu inte är anslutna till elnätet. Detta gör att kraftverken kan
+  kraftverk att säkra finansiering redan innan de ansluts till elnätet
+  elnätet.
+reviewed: true

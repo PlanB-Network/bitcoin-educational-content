@@ -1,0 +1,9 @@
+question: Varför är det svårt för en sändande nod att uppskatta den exakta likviditeten i en kanal?
+answer: Eftersom endast de två deltagarna känner till den exakta fördelningen av medel
+wrong_answers:
+  - Eftersom kanalernas totala kapacitet ständigt förändras
+  - Eftersom avgifterna för mellanliggande noder inte offentliggörs
+  - Eftersom kanalerna stängs automatiskt efter varje transaktion
+explanation: |
+  Den exakta fördelningen av medel i en kanal är endast synlig för de två deltagande noderna, vilket hindrar andra noder från att uppskatta den tillgängliga likviditeten för routing.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Vad är definitionen av inflation enligt Larousse?
+answer: Inflation är ett fenomen som kännetecknas av en allmän och kontinuerlig ökning av prisnivån.
+wrong_answers:
+  - Inflation är ett fenomen som kännetecknas av en generaliserad och kontinuerlig sänkning av prisnivån.
+  - Inflation är ett fenomen som kännetecknas av en specifik och kontinuerlig ökning av prisnivån.
+  - Inflation är ett fenomen som kännetecknas av en allmän och intermittent ökning av prisnivån.
+explanation: |
+  Enligt Larousse definieras inflation som ett fenomen som kännetecknas
+  av en generaliserad och kontinuerlig ökning av prisnivån.
+reviewed: false

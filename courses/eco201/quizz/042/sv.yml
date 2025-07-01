@@ -1,0 +1,12 @@
+question: Vilken är den största skillnaden mellan den österrikiska analysen och monetaristernas och keynesianernas?
+answer: Den österrikiska analysen lägger särskild vikt vid de olika produktionsleden och relativprisernas struktur, medan monetarister och keynesianer stannar vid aggregerade variabler som sysselsättningsgrad, BNP eller konsumentprisindex.
+wrong_answers:
+  - Den österrikiska analysen stannar vid aggregerade variabler som sysselsättningsnivå, BNP eller konsumentprisindex, medan monetarister och keynesianer ägnar särskild uppmärksamhet åt de olika produktionsleden och relativprisernas struktur.
+  - Den österrikiska analysen och monetaristernas och keynesianernas analys är i allt väsentligt densamma.
+  - Den österrikiska analysen fokuserar på externa händelser och animal spirits, medan monetarister och keynesianer fokuserar på den endogena dynamiken i banksystemet med fraktionella reserver.
+explanation: |
+  Den huvudsakliga skillnaden mellan den österrikiska analysen och monetaristernas
+  och keynesianer är att den förra ägnar särskild uppmärksamhet åt de olika stadierna
+  olika produktionsstegen och relativprisernas struktur, medan den senare stannar vid
+  aggregerade variabler som sysselsättningsnivåer, BNP eller konsumentprisindex.
+reviewed: true

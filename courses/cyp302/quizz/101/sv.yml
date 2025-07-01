@@ -1,0 +1,9 @@
+question: Vad är en HMAC?
+answer: En kod för autentisering av meddelanden baserad på en Hash-funktion
+wrong_answers:
+  - En asymmetrisk krypteringsalgoritm baserad på en Hash-funktion
+  - En asymmetrisk krypteringsalgoritm baserad på Diffie-Hellman
+  - En kod för autentisering av meddelanden baserad på Diffie-Hellman
+explanation: |
+  En HMAC är en kod för autentisering av meddelanden som använder en Hash-funktion, t.ex. SHA-256, för att skapa en tagg som verifierar ett meddelandes integritet och äkthet.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Vilken inverkan har konsumentprisindex (KPI) på mätningen av inflation?
+answer: KPI kan underskatta den faktiska inflationen eftersom det inte på ett heltäckande sätt tar hänsyn till utvecklingen av fastighetspriserna och kan motverka eller dölja faktiska prisökningar.
+wrong_answers:
+  - KPI mäter alltid inflationen på ett korrekt sätt.
+  - KPI överskattar den faktiska inflationen.
+  - KPI har ingen inverkan på inflationsmätningen.
+explanation: |
+  I kapitlet förklaras att KPI, som används som huvudindikator för inflationen,
+  har vissa begränsningar. Den tar till exempel inte på ett heltäckande sätt hänsyn till
+  utvecklingen av fastighetspriserna. Beräkningen av KPI inkluderar också vissa metoder
+  metoder som kan motverka eller maskera faktiska prisökningar.
+reviewed: false

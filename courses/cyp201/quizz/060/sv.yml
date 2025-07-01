@@ -1,0 +1,9 @@
+question: Vilken typ av nyckel är associerad med prefixet zpub?
+answer: En utökad publik nyckel för SegWit V0 på Mainnet
+wrong_answers:
+  - En utökad privat nyckel för SegWit V1 på Mainnet
+  - En utökad offentlig nyckel för Legacy på Testnet
+  - En utökad publik nyckel för SegWit V2 på Testnet
+explanation: |
+  Prefixet zpub betecknar en utökad publik nyckel för SegWit V0-skript på Mainnet.
+reviewed: false

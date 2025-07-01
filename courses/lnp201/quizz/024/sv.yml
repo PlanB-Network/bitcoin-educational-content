@@ -1,0 +1,9 @@
+question: Vilken är den kombinerade effekten av tidslåset och spärrnyckeln på Commitment-transaktioner?
+answer: De avskräcker deltagare från att fuska genom att erbjuda en omedelbar bestraffning
+wrong_answers:
+  - De minskar kanalens kapacitet i händelse av fusk
+  - De låser automatiskt den skyldiga partens tillgångar
+  - De tvingar fram öppnandet av en ny kanal om transaktionen är felaktig
+explanation: |
+  Tidsspärren och spärrnyckeln avskräcker deltagare från att fuska genom att säkerställa att varje försök att fuska leder till en omedelbar förlust av medel för den skyldiga parten.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad var det ursprungliga målet med Hashcash Proof of Work-algoritmen som designades av Adam Back?
+answer: För att bekämpa skräppost
+wrong_answers:
+  - För att garantera värdet på en kontoenhet
+  - För att uppnå konsensus i ett peer-to-peer-nätverk
+  - Att koka oceanerna
+explanation: |
+  Hashcash krävde en Proof of Work för varje mottagen e-post, vilket var tänkt att begränsa spam.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Vad var det främsta skälet till att Bank of England bildades?
+answer: För att finansiera kriget i slutet av 1600-talet
+wrong_answers:
+  - Att ge ut en egen valuta
+  - För att konkurrera med Bank of Amsterdam
+  - Att reglera aktiemarknaden
+explanation: |
+  Bank of England skapades i slutet av 1600-talet med
+  den
+  främsta motivet att finansiera kriget. Den införde insättningar genom dekret och förvisade
+  privata banker till en sekundär position i det monetära systemet.
+reviewed: false

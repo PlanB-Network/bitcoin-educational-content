@@ -1,0 +1,9 @@
+question: Vilken RGB-standard gör det möjligt att skapa unika tillgångar eller "NFT:er"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  RGB21-standarden är utformad för att hantera unika tillgångar, vilket gör det möjligt att koppla privata metadata till NFT:er.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad är syftet med en Bitcoin Wallet?
+answer: För att lagra privata nycklar för att kunna handla med bitcoins.
+wrong_answers:
+  - Att använda enhetens resurser för att bryta bitcoins.
+  - Att köpa bitcoins genom den offentliga nyckeln.
+  - För att lagra bitcoins på en enhet.
+explanation: |
+  Bitcoin plånböcker är en typ av programvara som används för att
+  lagra de privata nycklarna som gör att du kan handla med dina
+  bitcoins.
+reviewed: true

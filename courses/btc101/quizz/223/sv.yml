@@ -1,0 +1,11 @@
+question: Vad är Blockchain-trilemmat?
+answer: Ett protokoll som baseras på en Blockchain kan bara uppfylla två av kriterierna decentralisering, säkerhet och skalbarhet.
+wrong_answers:
+  - Ett protokoll baserat på en Blockchain kan bara uppfylla ett av kriterierna decentralisering, säkerhet och skalbarhet.
+  - Ett protokoll baserat på en Blockchain kan uppfylla alla kriterier för decentralisering, säkerhet och skalbarhet.
+  - Ett protokoll som baseras på en Blockchain kan inte uppfylla något av kriterierna decentralisering, säkerhet och skalbarhet.
+explanation: |
+  Blockchain-trilemmat hänvisar till utmaningen att ett
+  protokoll baserat på en Blockchain endast kan uppfylla två kriterier av
+  decentralisering, säkerhet och skalbarhet.
+reviewed: true

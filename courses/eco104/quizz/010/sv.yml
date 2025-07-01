@@ -1,0 +1,11 @@
+question: Vad är syftet med noderna i Bitcoin-nätverket?
+answer: För att underhålla och säkra Blockchain
+wrong_answers:
+  - För att behandla transaktioner
+  - Att föreslå och genomföra ändringar i Bitcoin:s kodbas
+  - För att konkurrera med andra gruvarbetare
+explanation: |
+  Noderna är avgörande för Bitcoin-nätverkets integritet och säkerhet.
+  De fungerar som systemets grindvakter och ser till att transaktioner
+  behandlas korrekt och i enlighet med reglerna.
+reviewed: true

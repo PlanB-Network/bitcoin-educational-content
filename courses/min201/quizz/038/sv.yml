@@ -1,0 +1,14 @@
+question: Vad är Attakai-initiativet i samband med Bitcoin Mining?
+answer: Ett initiativ som syftar till att göra Mining mer tillgängligt och mindre skadligt samtidigt som det bidrar till nätverket
+wrong_answers:
+  - Ett initiativ som syftar till att höja priset på Bitcoin
+  - Ett initiativ som syftar till att minska nätverkets Hashrate
+  - Ett initiativ som syftar till att centralisera hashing-kraften
+explanation: |
+  Attakai-initiativet syftar till att göra Bitcoin Mining mer
+  tillgängliga och mindre skadliga. Det uppmuntrar människor att minera
+  hemma med mer prisvärd hårdvara och lösningar för att minska
+  minska bullerföroreningar. Initiativet betonar också vikten av att
+  vikten av att bidra till säkerhet och decentralisering
+  och decentralisering av Bitcoin-nätverket.
+reviewed: true

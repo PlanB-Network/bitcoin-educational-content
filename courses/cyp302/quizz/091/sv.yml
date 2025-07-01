@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan ett primitivt streamchiffer och ett blockchiffer streamchiffer?
+answer: Ett primitivt streamchiffer är inte uppbyggt av ett blockchiffer.
+wrong_answers:
+  - Ett primitivt strömchiffer kräver utfyllnad av meddelanden.
+  - En blockchifferströmchiffer använder block av varierande storlek.
+  - Ett streamchiffer med blockchiffer kan inte användas för stora datamängder.
+explanation: |
+  Ett primitivt streamchiffer, som Salsa20, är utformat oberoende av ett blockchiffer, medan ett streamchiffer med blockchiffer använder ett blockchiffer som bas, modifierat för att producera en krypteringsström.
+reviewed: false

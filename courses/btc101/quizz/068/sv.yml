@@ -1,0 +1,11 @@
+question: Hur ofta halveras belöningen för Mining?
+answer: Var 210.000:e block.
+wrong_answers:
+  - Var 120.000:e block.
+  - Var 540.000:e block.
+  - Var 2.100.000:e block.
+explanation: |
+  Belöningen för Mining är programmerad att halveras var 210.000:e
+  block, vilket är ungefär vart fjärde år: en händelse
+  känd som Halving.
+reviewed: true

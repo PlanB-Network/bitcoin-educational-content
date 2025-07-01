@@ -1,0 +1,10 @@
+question: Vad är en av de saker du bör ha innan du köper Bitcoin?
+answer: En säker Wallet.
+wrong_answers:
+  - Ett fysiskt kassaskåp.
+  - Ett bankkonto.
+  - Ett kreditkort.
+explanation: |
+  I kurstexten nämns att innan du köper Bitcoin bör du ha en
+  bör du ha en säker Wallet där du förvarar dina nycklar.
+reviewed: true

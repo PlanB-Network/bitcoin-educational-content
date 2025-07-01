@@ -1,0 +1,13 @@
+question: Vad är fraktionell reservbank?
+answer: Fractional reserve banking är en bankpraxis där bankerna inte behöver hålla lika mycket reserver som de får in i inlåning, vilket gör att de kan skapa ny köpkraft när de beviljar lån.
+wrong_answers:
+  - Fractional reserve banking är en bankpraxis där bankerna måste hålla mer reserver än de får i inlåning.
+  - Fractional reserve banking är en bankpraxis där banker inte får bevilja lån.
+  - Fractional reserve banking är en bankpraxis där bankerna måste hålla exakt samma mängd reserver som de får i inlåning.
+explanation: |
+  Fractional reserve banking är ett system där bankerna endast håller
+  bara en bråkdel av sina insättares medel i reserv,
+  och lånar ut resten. Detta system gör att bankerna kan skapa
+  nya pengar i form av lån, vilket ökar den totala penningmängden
+  totala penningmängden Supply i ekonomin.
+reviewed: true

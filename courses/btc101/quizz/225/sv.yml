@@ -1,0 +1,10 @@
+question: När validerades och implementerades Lightning Network för första gången?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: |
+  Lightning Network validerades och implementerades för första gången
+  under 2017.
+reviewed: true

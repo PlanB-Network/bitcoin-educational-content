@@ -1,0 +1,9 @@
+question: Vilken är den främsta begränsningen för statliga ingripanden enligt Bastiat?
+answer: De som fattar offentliga beslut är inte de som drabbas av konsekvenserna
+wrong_answers:
+  - De som fattar offentliga beslut älskar pengar för mycket
+  - De som fattar offentliga beslut är inte tillräckligt smarta
+  - De som fattar offentliga beslut saknar mod
+explanation: |
+  Bastiat kritiserar statliga ingripanden genom att framhålla att offentliga beslutsfattare inte drabbas av konsekvenserna av sina egna beslut, vilket leder till oansvariga val.
+reviewed: false

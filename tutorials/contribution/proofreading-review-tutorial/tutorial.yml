@@ -14,106 +14,106 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.66
+    reward: 1.41
   - language: en
     last_contribution_date: 2025-03-13
     urgency: 1
     contributor_names:
       - MariJJhodl
-    reward: 0.83
+    reward: 0.7
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 0.83
+    reward: 0.7
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.83
+    reward: 0.7
   - language: it
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - glrq
-    reward: 0.83
+    reward: 0.7
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.22
+    reward: 2.71
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.66
+    reward: 1.41
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.22
+    reward: 2.71
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.7
+    reward: 2.28
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.7
+    reward: 2.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.74
+    reward: 3.15
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.84
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.7
+    reward: 2.28
 tags:
   - guides
   - good-practice

@@ -1219,7 +1219,7 @@ Jednak to pytanie nigdy nie przeszkadzało Satoshiemu, który postrzegał ustano
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
 
-W poprzedniej części zbadaliśmy, jak powstał Bitcoin, jak został przedstawiony opinii publicznej i jak został zainicjowany ekonomicznie. Wiosną 2010 r., gdy handel bitcoinami dopiero zaczynał rozkwitać, celem Satoshiego Nakamoto i kilku wspierających go osób było utrzymanie płomienia przy życiu. Na szczęście do wysiłków dołączyły inne osoby, w szczególności Miner Laszlo Hanyecz i deweloper Gavin Andresen, którzy wyróżnili się swoimi działaniami.
+W poprzedniej części zbadaliśmy, jak powstał Bitcoin, jak został przedstawiony opinii publicznej i jak został zainicjowany ekonomicznie. Wiosną 2010 r., gdy handel bitcoinami dopiero zaczynał rozkwitać, celem Satoshiego Nakamoto i kilku wspierających go osób było utrzymanie płomienia przy życiu. Na szczęście do wysiłków dołączyły inne osoby, w szczególności kopiący bloki Laszlo Hanyecz i deweloper Gavin Andresen, którzy wyróżnili się swoimi działaniami.
 
 
 W tym rozdziale przyjrzymy się pierwszemu wdrożeniu wydobywania procesorem graficznym (GPU), fortunie zgromadzonej przez Satoshiego Nakamoto, pierwszemu zakupowi fizycznego towaru za bitcoiny, ustanowieniu Bitcoin Faucet rozdającego darmowe jednostki oraz ewolucji oprogramowania i sieci przed Slashdotem.
@@ -1228,21 +1228,21 @@ W tym rozdziale przyjrzymy się pierwszemu wdrożeniu wydobywania procesorem gra
 ### Wydobycie za pomocą procesora graficznego GPU
 
 
-Rosnącemu popytowi na Bitcoina towarzyszył stopniowy wzrost aktywności Mining w sieci. Przez cały 2009 rok trudność w sieci utrzymywała się na minimalnym poziomie 1, co wymagało od wszystkich węzłów wykonania około 4,3 miliarda obliczeń w celu wydobycia bloku. Jednak w grudniu 2009 r. zmieniło się to dzięki algorytmowi dostosowawczemu, który zwiększył współczynnik trudności z 1 do 1,18.
+Rosnącemu popytowi na Bitcoina towarzyszył stopniowy wzrost wydobywania bloków w sieci. Przez cały 2009 rok trudność w sieci utrzymywała się na minimalnym poziomie 1, co wymagało od wszystkich węzłów wykonania około 4,3 miliarda obliczeń w celu wydobycia bloku. Jednak w grudniu 2009 r. zmieniło się to dzięki algorytmowi dostosowawczemu, który zwiększył współczynnik trudności z 1 do 1,18.
 
 
-Satoshi Nakamoto był bardzo zaniepokojony tym wzrostem trudności i prowadził [historię](https://bitcointalk.org/index.php?topic=43.msg249#msg249) na forum począwszy od lutego 2010 roku. Oto jak ona wyglądała:
+Satoshi Nakamoto był bardzo zaniepokojony tym wzrostem trudności i prowadził [historię](https://bitcointalk.org/index.php?topic=43.msg249#msg249) na forum począwszy od lutego 2010 roku. Oto jak wyglądała:
 
 
 ![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
 
 
-Pomimo entuzjazmu związanego ze wzrostem mocy obliczeniowej w sieci, Satoshi chciał jednak spowolnić specjalizację Mining, aby sprzyjać dystrybucji jednostek. Do tego czasu górnicy wykorzystywali swoje jednostki centralne (CPU) do wydobywania nowych bitcoinów. Procesory te okazały się jednak nieefektywne w wykonywaniu powtarzalnych operacji, w porównaniu do procesorów graficznych (GPU), które są znacznie lepiej przystosowane do tego typu powtarzalnych obliczeń. W związku z tym wszyscy wiedzieli w tamtym czasie, że ewolucja ta była nieunikniona, w tym sam Satoshi. W dniu 19 grudnia 2009 r. [stwierdził on](https://bitcointalk.org/index.php?topic=12.msg54#msg54), co następuje:
+Pomimo entuzjazmu związanego ze wzrostem mocy obliczeniowej w sieci, Satoshi chciał jednak spowolnić specjalizację wydobycia, aby sprzyjać dystrybucji jednostek. Do tego czasu górnicy wykorzystywali swoje jednostki centralne (CPU) do wydobywania nowych bitcoinów. Procesory te okazały się jednak nieefektywne w wykonywaniu powtarzalnych operacji, w porównaniu do procesorów graficznych (GPU), które są znacznie lepiej przystosowane do tego typu powtarzalnych obliczeń. W związku z tym wszyscy w tamtym czasie, również Satoshi, wiedzieli, że ewolucja ta była nieunikniona. W dniu 19 grudnia 2009 r. [stwierdził](https://bitcointalk.org/index.php?topic=12.msg54#msg54), co następuje:
 
-"Powinniśmy zawrzeć dżentelmeńską umowę o odłożeniu wyścigu zbrojeń GPU tak długo, jak to możliwe dla dobra sieci. Znacznie łatwiej jest przygotować nowych użytkowników, jeśli nie muszą się martwić o sterowniki GPU i kompatybilność. To miłe, że każdy, kto ma tylko procesor, może teraz konkurować na równych zasadach"
+„Powinniśmy zawrzeć dżentelmeńską umowę o odłożeniu wyścigu zbrojeń GPU tak długo, jak to możliwe dla dobra sieci. Znacznie łatwiej jest przygotować nowych użytkowników, jeśli nie muszą się martwić o sterowniki GPU i kompatybilność. Fajnie, że każdy, kto ma tylko procesor, może teraz konkurować na równych zasadach.”
 
 
-Jednak kilka miesięcy później puszka Pandory została otwarta. Wichrzycielem jest Laszlo Hanyecz, 28-letni amerykański deweloper węgierskiego pochodzenia, mieszkający na Florydzie. Odkrył on Bitcoin w kwietniu 2010 roku. Dziewiątego dnia [nabył](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3300 bitcoinów od NLS za około 20 dolarów, a następnie przetestował system, wykonując kilka przelewów. Osiemnastego dnia próbował przeciążyć sieć, mnożąc transakcje ze swojego [publicznego Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), ale się nie udało.
+Jednak kilka miesięcy później puszka Pandory została otwarta. Wichrzycielem jest Laszlo Hanyecz, 28-letni amerykański deweloper węgierskiego pochodzenia, mieszkający na Florydzie. Odkrył Bitcoina w kwietniu 2010 roku. Dziewiątego dnia [nabył](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3300 bitcoinów od NLS za około 20 dolarów, a następnie przetestował system, wykonując kilka przelewów. Osiemnastego dnia próbował przeciążyć sieć, mnożąc transakcje ze swojego [adresu publicznego](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), ale się nie udało.
 
 
 ![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
@@ -1250,57 +1250,57 @@ Jednak kilka miesięcy później puszka Pandory została otwarta. Wichrzycielem 
 Laszlo Hanyecz z synem w maju 2018 r. (źródło: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
 
-Następnie [dostosował](https://bitcointalk.org/index.php?topic=116.msg972#msg972) kod oprogramowania, aby działał w systemie operacyjnym Mac OS X. Następnie pracował nad optymalizacją Mining przy użyciu środowiska OpenCL, które pozwala na [zaangażowanie GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) w generowanie bitcoinów. 10 maja opublikował swój [plik wykonywalny](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) i [zaoferował](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) napisanie łatek umożliwiających to innym górnikom. Ta optymalizacja szybko pozwoliła mu zająć znaczące miejsce w produkcji bloków.
+Następnie [dostosował](https://bitcointalk.org/index.php?topic=116.msg972#msg972) kod oprogramowania, aby działał w systemie operacyjnym Mac OS X. Potem pracował nad optymalizacją wydobycia przy użyciu środowiska OpenCL, które pozwala na [wykorzystanie GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) do generowania bitcoinów. 10 maja opublikował swój [plik wykonywalny](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) i [zaoferował](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) napisanie poprawek umożliwiających włączenie się innym górnikom. Ta optymalizacja szybko pozwoliła mu zająć znaczące miejsce w produkcji bloków.
 
-Pod koniec kwietnia Laszlo skontaktował się z Satoshi z prośbą o opinię, ale ten odpowiedział dopiero 17 maja. Twórca Bitcoin [poprosił](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) go o spowolnienie swoich działań, aby Mining pozostał dostępny dla jak największej liczby osób:
+Pod koniec kwietnia Laszlo skontaktował się z Satoshim z prośbą o opinię, ale ten odpowiedział dopiero 17 maja. Twórca Bitcoina [poprosił](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) go o spowolnienie swoich działań, aby wydobycie pozostało dostępny dla jak największej liczby osób:
 
-> "Dużą atrakcją dla nowych użytkowników jest to, że każdy, kto ma komputer, może zdobyć darmowe monety generate. Kiedy będzie 5000 użytkowników, ta zachęta może zniknąć, ale na razie nadal jest prawdziwa. Układy GPU przedwcześnie ograniczyłyby tę zachętę tylko do osób posiadających wysokiej klasy sprzęt GPU. To nieuniknione, że klastry obliczeniowe GPU w końcu pochłoną wszystkie wygenerowane monety, ale nie chcę przyspieszać tego dnia. (...) Nie chcę zabrzmieć jak socjalista, nie obchodzi mnie, czy bogactwo jest skoncentrowane, ale na razie większy wzrost uzyskamy, dając te pieniądze 100% ludzi, niż dając je 20%. Co więcej, im dłużej możemy opóźniać wyścig zbrojeń GPU, tym bardziej dojrzałe stają się biblioteki OpenCL i tym więcej osób będzie miało karty graficzne kompatybilne z OpenCL"
+> „Dużą atrakcją dla nowych użytkowników jest to, że każdy, kto ma komputer, może zdobyć darmowe monety. Kiedy będzie 5000 użytkowników, ta zachęta może zniknąć, ale na razie nadal jest prawdziwa. Układy GPU przedwcześnie ograniczyłyby tę zachętę tylko do osób posiadających wysokiej klasy sprzęt GPU. To nieuniknione, że klastry obliczeniowe GPU w końcu pochłoną wszystkie wygenerowane monety, ale nie chcę przyspieszać tego dnia. (...) Nie chcę zabrzmieć jak socjalista, nie obchodzi mnie, czy bogactwo jest skoncentrowane, ale na razie większy wzrost uzyskamy, dając te pieniądze 100% ludzi, niż dając je 20%. Co więcej, im dłużej możemy opóźniać wyścig zbrojeń GPU, tym bardziej dojrzałe stają się biblioteki OpenCL i tym więcej osób będzie miało karty graficzne kompatybilne z OpenCL.”
 
-Laszlo nie zważał na to ostrzeżenie i kontynuował wydobywanie bloków za pomocą swojej karty graficznej, generując dziesiątki tysięcy bitcoinów w kolejnych miesiącach. Jednak dopiero w październiku GPU Mining stało się powszechne.
-
-
-### Bitcoiny Satoshi
+Laszlo nie zważał na to ostrzeżenie i kontynuował wydobywanie bloków za pomocą swojej karty graficznej, generując dziesiątki tysięcy bitcoinów w kolejnych miesiącach. Jednak dopiero w październiku wydobycie za pomocą GPU stało się powszechne.
 
 
-Ten wzrost Mining miał również znaczące konsekwencje: Satoshi przestał produkować bloki. Od momentu uruchomienia sieci, Mining rzeczywiście zapewniał wystarczające tempo potwierdzania i akceptowalny poziom bezpieczeństwa. Dzięki wdrożeniu nowej mocy mógł zatem porzucić to zadanie i pozwolić innym członkom sieci korzystać z całości utworzonych bitcoinów.
+### Bitcoiny Satoshiego
 
 
-Aktywność Satoshi w Mining ma wyraźny wzorzec, umożliwiający identyfikację bloków, które prawdopodobnie znalazł, z kilkoma fałszywymi alarmami. Ten wzorzec Mining został wyróżniony przez dewelopera Sergio Lernera w 2013 roku i został nazwany Patoshi Pattern.
+Ten wzrost wydobycia miał również znaczące konsekwencje: Satoshi przestał produkować bloki. Od momentu uruchomienia sieci, wydobycie rzeczywiście zapewniało wystarczające tempo potwierdzania i akceptowalny poziom bezpieczeństwa. Dzięki wdrożeniu nowej mocy mógł zatem porzucić to zadanie i pozwolić innym członkom sieci korzystać z całości utworzonych bitcoinów.
+
+
+Aktywność wydobywcza Satoshiego ma wyraźny wzorzec, umożliwiający identyfikację bloków, które prawdopodobnie znalazł, z kilkoma fałszywymi alarmami. Ten wzorzec wydobycia został wyróżniony przez dewelopera Sergio Lernera w 2013 roku i został nazwany Patoshi Pattern.
 
 
 ![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
 
 
-Patoshi Pattern między blokami 0 i 50 000 zgodnie z obserwacją na stronie [satoshiblocks.info](http://satoshiblocks.info/): każdy punkt odpowiada blokowi, niebieskie linie są utworzone z bloków Satoshi, pozostałe linie reprezentują wyniki innych górników.
+Patoshi Pattern między blokami 0 i 50 000 zgodnie z obserwacją na stronie [satoshiblocks.info](http://satoshiblocks.info/): każdy punkt odpowiada blokowi, niebieskie linie są utworzone z bloków Satoshiego, pozostałe linie reprezentują wyniki innych górników.
 
 
-Według badania przeprowadzonego przez Whale Alert opublikowanego w 2020 roku, Satoshi wydobył około 22 500 bloków, a tym samym zgromadził 1 122 693 bitcoinów, co stanowi ponad 5% z planowanych 21 milionów jednostek. Przez większą część 2009 r. sieć polegała na mocy obliczeniowej swojego założyciela. Zależność ta została zilustrowana w sierpniu 2009 r., który był najgorszym okresem pod względem aktywności Mining i zbiegł się z czasem "przerwy" dla Satoshi, w którym prawdopodobnie mniej monitorował swoje maszyny. Rzeczywiście, w sierpniu wyprodukowano tylko 1 564 bloki z 4 464 oczekiwanych, co odpowiada średniemu czasowi 28 minut i 30 sekund.
+Według badania przeprowadzonego przez Whale Alert opublikowanego w 2020 roku, Satoshi wydobył około 22 500 bloków, a tym samym zgromadził 1 122 693 bitcoinów, co stanowi ponad 5% z planowanych 21 milionów jednostek. Przez większą część 2009 r. sieć polegała na mocy obliczeniowej swojego założyciela. Zależność ta została zilustrowana w sierpniu 2009 r., który był najgorszym okresem pod względem aktywności wydobywczej i zbiegł się z czasem „przerwy” dla Satoshiego, kiedy prawdopodobnie mniej monitorował swoje maszyny. Rzeczywiście, w sierpniu wyprodukowano tylko 1 564 bloki z 4 464 oczekiwanych, co odpowiada średniemu czasowi 28 minut i 30 sekund.
 
 
-Wraz ze wzrostem mocy obliczeniowej jesienią 2009 roku, udział mocy obliczeniowej Satoshi w stosunku do całkowitej mocy sieci stopniowo spadał. Z 75% w marcu 2009 r. do 60% we wrześniu, następnie do 15% w grudniu i osiągnął 0% w maju. Poniżej znajduje się wykres wykonany przez [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) w 2014 roku:
+Wraz ze wzrostem mocy obliczeniowej jesienią 2009 roku, udział mocy obliczeniowej Satoshiego w stosunku do całkowitej mocy sieci stopniowo spadał. Z 75% w marcu 2009 r. do 60% we wrześniu, następnie do 15% w grudniu i osiągnął 0% w maju. Poniżej znajduje się wykres wykonany przez [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) w 2014 roku:
 
 
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
 
 
-Co więcej, spadek dominacji Satoshi nad Mining nie jest jedynie pasywny: on sam spowalnia swoją produkcję w tym samym okresie. Rzeczywiście, deklarowanym celem Satoshi jest uczestnictwo wszystkich: nie wydobywa on dla zysku finansowego, ale w celu zapewnienia działania sieci do czasu wprowadzenia zachęt. W związku z tym Hash trzykrotnie zmniejszył swój wskaźnik Mining (liczbę obliczeń wykonywanych w każdej sekundzie) w tym okresie: po raz pierwszy z 4,5 do 2,5 MH/s w czerwcu 2009 r., po raz drugi z 2,5 do 1 MH/s w październiku i po raz trzeci z 1 do 0 MH/s w maju 2010 r. Oto wykres ewolucji prędkości Hash w tym okresie ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
+Co więcej, spadek dominacji Satoshiego w ogólnym wydobyciu nie jest jedynie pasywny: on sam spowalnia swoją produkcję w tym samym okresie. Rzeczywiście, deklarowanym celem Satoshiego jest uczestnictwo wszystkich: nie wydobywa on dla zysku finansowego, ale w celu zapewnienia działania sieci do czasu wprowadzenia zachęt. W związku z tym Hash trzykrotnie zmniejszył swój wskaźnik wydobycia (liczbę obliczeń wykonywanych w każdej sekundzie) w tym okresie: po raz pierwszy z 4,5 do 2,5 MH/s w czerwcu 2009 r., po raz drugi z 2,5 do 1 MH/s w październiku i po raz trzeci z 1 do 0 MH/s w maju 2010 r. Oto wykres ewolucji prędkości haszowania w tym okresie ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
 
 
-Satoshi w Mining jest zatem zdecydowanie altruistyczny, jak wskazuje [Jameson Lopp](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/). Kiedy zatrzymuje Mining 3 maja 2010 r. (jego ostatni blok to [blok 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), stanowi to kolejne osiągnięcie w powolnym rozwoju Bitcoin: przejęcie potwierdzania transakcji przez podmioty gospodarcze.
+Satoshi w wydobywaniu jest zatem zdecydowanie altruistyczny, jak wskazuje [Jameson Lopp](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/). Kiedy zatrzymuje wydobycie 3 maja 2010 r. (jego ostatni blok to [blok 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), stanowi to kolejne osiągnięcie w powolnym rozwoju Bitcoina: przejęcie potwierdzania transakcji przez podmioty gospodarcze.
 
 
-### Dzień Pizzy Bitcoin
+### Bitcoinowy Dzień Pizzy
 
 
 Maj 2010 r. to także przełomowe wydarzenie: pierwszy zakup fizycznego towaru za bitcoiny. Laszlo Hanyecz robi pierwszy krok. Po zgromadzeniu ponad 20 000 bitcoinów za pomocą swojego algorytmu, stara się ponownie wprowadzić je do gospodarki poprzez zakup pizzy. 18 maja pisze na forum następujące [ogłoszenie](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141):
 
 
-> "Zapłacę 10 000 bitcoinów za kilka pizz... może dwie duże, żeby zostało mi trochę na następny dzień. Lubię mieć resztki pizzy na później. Możesz sam zrobić pizzę i przynieść ją do mojego domu lub zamówić ją dla mnie z miejsca dostawy, ale to, do czego dążę, to dostarczanie jedzenia w Exchange za bitcoiny, gdzie nie muszę go zamawiać ani przygotowywać samodzielnie, coś w rodzaju zamawiania "talerza śniadaniowego" w hotelu lub czymś podobnym, po prostu przynoszą ci coś do jedzenia i jesteś szczęśliwy! (...) Jeśli jesteś zainteresowany, daj mi znać, a możemy zawrzeć umowę"
+> „Zapłacę 10 000 bitcoinów za kilka pizz... może dwie duże, żeby zostało mi trochę na następny dzień. Lubię mieć resztki pizzy na później. Możesz sam zrobić pizzę i przynieść ją do mojego domu lub zamówić ją dla mnie z miejsca dostawy, ale to, do czego dążę, to dostarczanie jedzenia w zamian za bitcoiny, gdzie nie muszę go zamawiać ani przygotowywać samodzielnie, coś w rodzaju zamawiania „talerza śniadaniowego” w hotelu lub czymś podobnym, po prostu przynoszą ci coś do jedzenia i jesteś szczęśliwy! (...) Jeśli jesteś zainteresowany, daj mi znać, a możemy zawrzeć umowę.”
 
-Oferta ta została przyjęta po czterech dniach. Był to młody Kalifornijczyk o imieniu Jeremy Sturdivant, który zaakceptował Exchange za pośrednictwem komunikatora internetowego IRC.
+Oferta ta została przyjęta po czterech dniach. Był to młody Kalifornijczyk o imieniu Jeremy Sturdivant, który zaakceptował wymianę za pośrednictwem komunikatora internetowego IRC.
 
 
 ![Jeremy Sturdivant in May 2018](assets/en/40.webp)
@@ -1308,30 +1308,30 @@ Oferta ta została przyjęta po czterech dniach. Był to młody Kalifornijczyk o
 Jeremy Sturdivant w maju 2018 r. (źródło: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
 
-22 maja zamówił dwie pizze w Papa John's, które zostały dostarczone do Laszlo w Jacksonville na Florydzie. Otrzymał on](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10 000 bitcoinów w Exchange, wartych około 44 USD po kursie rynkowym Bitcoin. Oto zdjęcie tych dwóch pizz, [udostępnione](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) przez samego Laszlo:
+22 maja zamówił dwie pizze w Papa John's, które zostały dostarczone do Laszlo w Jacksonville na Florydzie. [Otrzymał z zamian](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10 000 bitcoinów, wartych około 44 USD po kursie rynkowym Bitcoina. Oto zdjęcie tych dwóch pizz, [udostępnione](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) przez samego Laszlo:
 
 
 ![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
 
 
-Jest to pierwszy zakup fizycznego dobra za pomocą bitcoinów, nawet jeśli jest to zakup pośredni. Laszlo gratuluje [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196), który pisze, że "zrobiono duży krok" NLS również dodaje [pozytywny komentarz](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) w tej sprawie.
+Jest to pierwszy zakup fizycznego dobra za pomocą bitcoinów, nawet jeśli jest to zakup pośredni. Laszlo gratuluje [Marttiemu Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196), który pisze, że „"zrobiono duży krok"” NLS również dodaje [pozytywny komentarz](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) w tej sprawie.
 
 
 12 czerwca Laszlo Hanyecz [ponowił](https://bitcointalk.org/index.php?topic=137.msg1526#msg1526) swoją ofertę, pisząc na forum:
 
 
-> "To jest otwarta oferta... Wymienię 10 000 BTC na 2 takie pizze w dowolnym momencie, o ile będę miał środki"
+> „To jest otwarta oferta... Wymienię 10 000 BTC na 2 takie pizze w dowolnym momencie, o ile będę miał środki.”
 
-W ten sposób przeprowadził kilka innych transakcji tego samego typu, aż do 4 sierpnia, kiedy [napisał](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544), że tak naprawdę "nie może sobie na to pozwolić", ponieważ nie może już "generate tysięcy jednostek dziennie" Powód: wzrost cen spowodowany napływem ze Slashdota 11 lipca, co również przyniosło mu szydercze uwagi członków forum, którzy sugerowali, że lepiej byłoby, gdyby zatrzymał swoje bitcoiny. Kilka miesięcy później, w listopadzie, gdy cena Bitcoin oscylowała wokół 25 centów, użytkownik ribuck [napisał](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) w niemal proroczy sposób: "Czy to w końcu stanie się pierwszą na świecie pizzą za milion dolarów?"
+W ten sposób przeprowadził kilka innych transakcji tego samego typu, aż do 4 sierpnia, kiedy [napisał](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544), że tak naprawdę „nie może sobie na to pozwolić”, ponieważ nie może już „generować tysięcy jednostek dziennie”. Powód: wzrost cen spowodowany napływem ze Slashdota 11 lipca, co również przyniosło mu szydercze uwagi członków forum, którzy sugerowali, że lepiej byłoby, gdyby zatrzymał swoje bitcoiny. Kilka miesięcy później, w listopadzie, gdy cena Bitcoina oscylowała wokół 25 centów, użytkownik ribuck [napisał](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) w niemal proroczy sposób: „Czy to w końcu stanie się pierwszą na świecie pizzą za milion dolarów?”
 
 
-Niemniej jednak wzrost siły nabywczej kryptowaluty nie umniejszył symboliki tego wydarzenia, które jest upamiętniane co roku w tym dniu jako Dzień Pizzy Bitcoin przez społeczność Bitcoin.
+Niemniej jednak wzrost siły nabywczej kryptowaluty nie umniejszył symboliki tego wydarzenia, które co roku w tym dniu jest upamiętniane przez społeczność bitcoina jako Bitcoinowy Dzień Pizzy.
 
 
 ### Gavin Andresen i Bitcoin Faucet
 
 
-W tym okresie pojawiła się również kluczowa postać w historii Bitcoin: Gavin Andresen, 44-letni deweloper urodzony w Australii, który [uzyskał](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) obywatelstwo amerykańskie w 2004 roku i mieszkał wówczas w Amherst w stanie Massachusetts. Po powrocie z podróży do Australii i tymczasowym bezrobociu odkrył Bitcoin pod koniec maja dzięki [artykułowi](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) Neila McAllistera opublikowanemu w InfoWorld. Artykuł ten przedstawiał projekt Satoshi Nakamoto jako "innowację open-source"
+W tym okresie pojawiła się również kluczowa w historii Bitcoina postać: Gavin Andresen, 44-letni deweloper urodzony w Australii, który [uzyskał](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) obywatelstwo amerykańskie w 2004 roku i mieszkał wówczas w Amherst w stanie Massachusetts. Po powrocie z podróży do Australii i tymczasowym bezrobociu odkrył Bitcoina pod koniec maja dzięki [artykułowi](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) Neila McAllistera opublikowanemu w InfoWorld. Artykuł ten przedstawiał projekt Satoshiego Nakamoto jako „innowację open-source”.
 
 
 ![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/42.webp)
@@ -1339,23 +1339,23 @@ W tym okresie pojawiła się również kluczowa postać w historii Bitcoin: Gavi
 Gavin Andresen w Townsville, Queensland, Australia (źródło: [archiwum CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
 
-Ciekawski i pomysłowy, szybko rozpoczął pracę nad osobistym projektem: "Bitcoin Faucet", który daje bitcoiny każdemu, kto o nie poprosi. 11 czerwca [uruchomił](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) swoją usługę i zaprezentował ją na forum w następujący sposób:
+Ciekawski i pomysłowy, szybko rozpoczął pracę nad osobistym projektem: „Bitcoin Faucet”, który daje bitcoiny każdemu, kto o nie poprosi. 11 czerwca [uruchomił](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) swoją usługę i zaprezentował ją na forum w następujący sposób:
 
-"W moim pierwszym projekcie programistycznym Bitcoin postanowiłem zrobić coś, co brzmi naprawdę głupio: stworzyłem stronę internetową, która dystrybuuje Bitcoiny. (...) Dlaczego? Ponieważ chcę, aby projekt Bitcoin odniósł sukces i myślę, że ma większe szanse na sukces, jeśli ludzie mogą zdobyć garść jednostek, aby go wypróbować"
-
-
-Satoshi zareagował pozytywnie na uruchomienie tej usługi, nawet jeśli nie zauważył tego od razu. Tydzień później, 18 czerwca, [pogratulował] (https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) twórcy, pisząc, że był to "doskonały wybór na pierwszy projekt" i że "planował zrobić dokładnie to samo, jeśli nikt inny tego nie zrobi, więc kiedy Hard stanie się zbyt generate 50BTC dla śmiertelników, nowi użytkownicy będą mogli od razu zdobyć trochę monet do zabawy"
+„W moim pierwszym bitcoinowym projekcie programistycznym postanowiłem zrobić coś, co brzmi naprawdę głupio: stworzyłem stronę internetową, która dystrybuuje bitcoiny. (...) Dlaczego? Ponieważ chcę, aby projekt Bitcoin odniósł sukces i myślę, że ma większe szanse na sukces, jeśli ludzie mogą zdobyć garść jednostek, aby go wypróbować.”
 
 
-Wkład Gavina Andresena na tym się nie skończył. Głęboko zainteresował się tym, jak działa Bitcoin i postanowił przeanalizować kod. Odkrył [https://bitcointalk.org/index.php?topic=195.msg1606#msg1606] wbudowany w protokół system skryptów, czym szybko podzielił się na forum. Wyraził swoje obawy dotyczące tej funkcji, ponieważ zmniejszała ona bezpieczeństwo systemu ("złożoność jest wrogiem bezpieczeństwa") i utrudniała opracowanie drugiej implementacji oprogramowania. Satoshi [wyjaśnił](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) powód integracji tego mechanizmu, który nazwał Script:
+Satoshi zareagował pozytywnie na uruchomienie tej usługi, nawet jeśli nie zauważył tego od razu. Tydzień później, 18 czerwca, [pogratulował] (https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) twórcy, pisząc, że był to „doskonały wybór na pierwszy projekt” i że „planował zrobić dokładnie to samo, jeśli nikt inny tego nie zrobi, żeby nowi uzytkownicy mogli od razu zdobyć kilka monet do zabawy, kiedy nadejdzie moment, że dla zwykłego śmiertelnika zbyt trudne będzie wygenerowanie 50BTC.”
 
 
-> "Natura Bitcoin jest taka, że po wydaniu wersji 0.1, podstawowy projekt został ustalony w kamieniu na resztę jego życia. &nbsp;Z tego powodu chciałem zaprojektować go tak, aby obsługiwał każdy możliwy typ transakcji, jaki mogłem wymyślić. (...) &nbsp;Rozwiązaniem był skrypt, który uogólnia problem w taki sposób, że strony transakcji mogą opisać swoją transakcję jako predykat, który jest oceniany przez sieć węzłów. &nbsp;Węzły muszą zrozumieć transakcję tylko w zakresie oceny, czy warunki nadawcy są spełnione."
-
-Gavin zaangażował się również w rozwój oprogramowania, [implementując](https://sourceforge.net/p/Bitcoin/code/101/) automatyczne uruchamianie przy starcie systemu Linux, skupiając się na API (zostanie [przypisany](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) za jego ulepszenie w wersji 0.3.3) i uczestnicząc we wdrażaniu sieci testowej (którą [wymyślił](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) 9 czerwca). Prywatnie dzielił pomysły Exchange z Satoshi, stopniowo stając się jego prawą ręką, ponieważ Martti Malmi był [bardzo zajęty](https://mmalmi.github.io/Satoshi/#email-191) swoją nową pełnoetatową pracą.
+Wkład Gavina Andresena na tym się nie skończył. Głęboko zainteresował się tym, jak działa Bitcoin i postanowił przeanalizować kod. Odkrył [https://bitcointalk.org/index.php?topic=195.msg1606#msg1606] wbudowany w protokół system skryptów, czym szybko podzielił się na forum. Wyraził swoje obawy dotyczące tej funkcji, ponieważ zmniejszała ona bezpieczeństwo systemu („złożoność jest wrogiem bezpieczeństwa”) i utrudniała opracowanie drugiej implementacji oprogramowania. Satoshi [wyjaśnił](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) powód integracji tego mechanizmu, który nazwał Script:
 
 
-### Wiosna pełna fundamentalnych wydarzeń
+> „Natura Bitcoina jest taka, że po wydaniu wersji 0.1, podstawowy projekt został zapisany na zawsze. &nbsp;Z tego powodu chciałem zaprojektować go tak, aby obsługiwał każdy możliwy typ transakcji, jaki mogłem wymyślić. (...) &nbsp;Rozwiązaniem był skrypt, który uogólnia problem w taki sposób, że strony transakcji mogą opisać swoją transakcję jako predykat, który jest oceniany przez sieć węzłów. &nbsp;Węzły muszą zrozumieć transakcję tylko w zakresie oceny, czy warunki nadawcy są spełnione.”
+
+Gavin zaangażował się również w rozwój oprogramowania, [implementując](https://sourceforge.net/p/Bitcoin/code/101/) automatyczne uruchamianie przy starcie systemu Linux, skupiając się na API (zostanie mu [przypisana zasługa](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) ulepszenia w wersji 0.3.3) i uczestnicząc we wdrażaniu sieci testowej (którą [wymyślił](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) 9 czerwca). Prywatnie dzielił się pomysłami z Satoshim, stopniowo stając się jego prawą ręką, ponieważ Martti Malmi był [bardzo zajęty](https://mmalmi.github.io/Satoshi/#email-191) swoją nową pełnoetatową pracą.
+
+
+### Wiosna pełna ważnych wydarzeń
 
 
 Wiosna 2010 roku obfitowała w przełomowe wydarzenia. Po pierwsze, pod koniec kwietnia deweloper Laszlo Hanyecz opracował GPU Mining, optymalizację, której Satoshi sprzeciwił się w krótkim okresie (mimo że uznał jej nieuchronność w dłuższej perspektywie). Rozwój ten zbiegł się w czasie z zatrzymaniem produkcji bloków przez Satoshi, prawdopodobnie szacując, że wskaźnik Hash sieci jest wystarczający. Następnie, 22 maja nastąpił Exchange słynnej pizzy pomiędzy Laszlo Hanyeczem i Jeremym Sturdivantem, który stanowił pierwszy zakup fizycznego towaru za bitcoiny. Wreszcie w czerwcu pojawił się Gavin Andresen, który stworzył Bitcoin Faucet i szybko zaangażował się w rozwój oprogramowania. Wszystkie te Elements pokazały zachęcający postęp gospodarki wokół Bitcoin.

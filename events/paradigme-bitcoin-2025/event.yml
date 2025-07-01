@@ -1,10 +1,10 @@
 id: 98f510b7-638c-4a66-94ba-e1b74625d047
-start_date: 2025-07-03 08:00:00
-end_date: 2025-07-04 16:00:00
-timezone: Europe/Zurich
-address_city_country: Neuchatel, Switzerland
-address_line_2:
-address_line_3:
+start_date: 2025-07-04 07:00:00
+end_date: 2025-07-05 16:00:00
+timezone: Europe/Rome
+address_city_country: Neuchâtel, Switzerland
+address_line_2: Coworking Blockchain
+address_line_3: rue St-Honoré 10
 name: Paradigme Bitcoin 2025
 type: conference
 book_online: false

@@ -1,0 +1,9 @@
+question: Je! ni utaratibu gani kuu wa mpango wa Ponzi?
+answer: Wawekezaji wa mapema hulipwa na pesa kutoka kwa wapya
+wrong_answers:
+  - Marejesho hutoka kwa bidhaa halisi kwenye soko
+  - Wawekezaji hupokea gawio kutoka kwa makampuni
+  - Faida hutolewa na mikataba mahiri kwenye Blockchain
+explanation: |
+  Katika mpango wa Ponzi, hakuna bidhaa halisi iliyoundwa, na malipo yanategemea tu kuwasili kwa washiriki wapya.
+reviewed: false

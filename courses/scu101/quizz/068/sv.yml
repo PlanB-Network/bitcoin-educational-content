@@ -1,0 +1,12 @@
+question: Vad är en vanlig orsak till säkerhetsproblem?
+answer: Mänsklig oaktsamhet.
+wrong_answers:
+  - Strömavbrott.
+  - Långsam internethastighet.
+  - Föråldrad hårdvara.
+explanation: |
+  Sårbarheter i säkerheten beror ofta på mänsklig
+  slarv, till exempel att man använder standardlösenord eller skriver ner
+  lösenord på osäkra ställen. Sofistikerade attacker är inte
+  alltid nödvändiga för att äventyra datasäkerheten.
+reviewed: true

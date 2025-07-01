@@ -1,0 +1,9 @@
+question: Varför jämförs UTXO ofta med sedlar?
+answer: De måste användas i sin helhet
+wrong_answers:
+  - De kan användas flera gånger tills de är uttömda
+  - De är endast användbara i vissa specifika transaktioner
+  - De representerar små fasta belopp av bitcoins
+explanation: |
+  Precis som en sedel måste en UTXO användas helt och hållet i en transaktion, och eventuellt överskott återlämnas till avsändaren som växel.
+reviewed: false

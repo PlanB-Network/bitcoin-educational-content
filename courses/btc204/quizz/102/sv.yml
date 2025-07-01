@@ -1,0 +1,10 @@
+question: Vad innebär Boltzmann-poängen i samband med Bitcoin-transaktioner?
+answer: Den villkorliga sannolikheten för att en indata är kopplad till en viss utdata.
+wrong_answers:
+  - Det totala beloppet av överförda bitcoins.
+  - Antalet inmatningar i en transaktion.
+  - Entropin relaterad till varje in- eller utdata.
+explanation: |
+  Boltzmann-poängen anger den villkorliga sannolikheten för att en viss input är kopplad till en viss output. Det är således ett kvantitativt mått på den villkorliga sannolikheten för att en koppling mellan en input och en output i en transaktion inträffar, fastställd utifrån förhållandet mellan antalet gynnsamma händelser av denna händelse jämfört med det totala antalet möjliga händelser, i en uppsättning tolkningar.
+  
+reviewed: false

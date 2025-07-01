@@ -1,0 +1,9 @@
+question: Hur många entropibitar används för en Mnemonic-fras med 24 ord?
+answer: 256 bitar
+wrong_answers:
+  - 128 bitar
+  - 512 bitar
+  - 64 bitar
+explanation: |
+  En Mnemonic-fras på 24 ord baseras på 256 bitars entropi, vilket ger mycket hög säkerhet.
+reviewed: false

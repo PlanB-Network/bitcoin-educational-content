@@ -1,0 +1,11 @@
+question: Vem föreslog den mest vedertagna definitionen av hyperinflation?
+answer: Philip Cagan
+wrong_answers:
+  - Bernholz
+  - David
+  - Hanke-Krus
+explanation: |
+  Den mest erkända definitionen av hyperinflation kommer från Philip Cagan,
+  som föreslog en kvantitativ förståelse av hyperinflation i sitt arbete från 1956, The
+  Monetary Dynamics of Hyperinflation.
+reviewed: false

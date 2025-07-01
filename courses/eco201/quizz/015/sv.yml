@@ -1,0 +1,12 @@
+question: Enligt Carl Menger, varför sker frivillig Exchange mellan två individer?
+answer: Varje part tror att det kommer att öka deras subjektiva nytta.
+wrong_answers:
+  - Varje part tror att det kommer att minska deras subjektiva nytta.
+  - Varje part tror att det kommer att upprätthålla deras subjektiva nytta.
+  - Var och en av parterna tror att det inte kommer att påverka deras subjektiva nytta.
+explanation: |
+  Menger drar slutsatsen att frivillig Exchange mellan två individer
+  individer äger rum eftersom varje part tror att det kommer att
+  öka sin subjektiva nytta. Detta innebär att varje
+  part tror att de kommer att få det bättre efter Exchange.
+reviewed: true

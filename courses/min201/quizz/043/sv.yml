@@ -1,0 +1,14 @@
+question: Vad betyder ordspråket "Inte din Hashrate, inte din belöning" i samband med Bitcoin Mining?
+answer: Om du inte kontrollerar Hashrate, kontrollerar du inte Mining-belöningarna.
+wrong_answers:
+  - Om du inte har en hög Hashrate kommer du inte att få några belöningar.
+  - Om du inte äger Bitcoin kommer du inte att få några belöningar.
+  - Om du inte har en Mining-maskin kommer du inte att få några belöningar.
+explanation: |
+  Ordspråket Inte din Hashrate, inte din belöning liknar
+  till det välkända ordspråket i världen av kryptovalutor,
+  Inte dina nycklar, inte dina Bitcoins. Det betyder att om du inte
+  inte kontrollerar Hashrate, kontrollerar du inte Mining
+  belöningar. Detta beror på att belöningarna från Mining är
+  direkt proportionella mot Hashrate.
+reviewed: true

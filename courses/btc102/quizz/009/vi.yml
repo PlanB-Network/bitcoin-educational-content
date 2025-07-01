@@ -1,0 +1,9 @@
+question: Tại sao bảo mật trực tuyến lại quan trọng đối với người dùng Bitcoin?
+answer: Bởi vì việc hack dẫn đến mất bitcoin không thể phục hồi
+wrong_answers:
+  - Bởi vì các ngân hàng bảo hiểm tiền trong trường hợp mất toàn bộ Bitcoin
+  - Bởi vì người ta có thể vào tù vì mất bitcoin
+  - Bởi vì các cuộc tấn công dẫn đến gánh nặng hành chính rất lớn
+explanation: |
+  Nếu không có trung gian, việc hack sẽ đồng nghĩa với việc mất bitcoin vĩnh viễn.
+reviewed: false

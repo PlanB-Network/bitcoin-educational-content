@@ -1,0 +1,13 @@
+question: Vad är en DCA-plattform?
+answer: En tjänst som gör det möjligt för användare att investera en fast summa pengar i en tillgång med regelbundna intervall.
+wrong_answers:
+  - En typ av kryptovaluta Exchange som endast tillåter handel med Bitcoin.
+  - En finansiell tjänst som ger lån till investerare för marginalhandel.
+  - Ett mjukvaruverktyg som följer aktiekurser i realtid utan några investeringsfunktioner.
+explanation: |
+  En DCA-plattform avser en plattform som underlättar
+  Dollar-Cost Averaging (DCA), en investeringsstrategi där
+  en individ investerar en fast summa pengar i en
+  viss tillgång med jämna mellanrum, oavsett tillgångens
+  tillgångens pris.
+reviewed: true

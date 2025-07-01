@@ -1,0 +1,9 @@
+question: Kusudi kuu la kufafanua wasifu wako wa mtumiaji ni nini?
+answer: Kupitisha mkakati unaofaa kwa mahitaji yako
+wrong_answers:
+  - Ili kuongeza uvumi na kwa hivyo faida
+  - Kupitisha mkakati wa jumla ambao unafanya kazi kwa kila mtu
+  - Ili kujua ni mshawishi gani wa Bitcoin wa kufuata kwenye mitandao ya kijamii
+explanation: |
+  Kujua wasifu wako na kuweza kuurekebisha hukuruhusu kuchagua suluhu za kupata na kuhifadhi zinazolingana na hali yako ya kibinafsi.
+reviewed: false

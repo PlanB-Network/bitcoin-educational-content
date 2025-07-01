@@ -1,8 +1,9 @@
-question: Ako je svojina institucija uspostavljena opštom voljom, kako veruje Ruso, koja je posledica?
+question: Ako je svojina institucija uspostavljena opštom voljom, kako veruje Rousseau-o, koja je posledica?
 answer: Zakonodavac može organizovati, izmeniti ili čak ukinuti imovinu
 wrong_answers:
   - Zakonodavac je tada vezan ovom konvencijom i ne može dirati imovinu
   - Generalna volja nikada ne želi da dira imovinu
   - Zakonodavac je dužan da štiti imovinu bez izuzetka
 explanation: |
-  Prema Rousseauu, pošto svojina proizilazi iz opšte volje, zakonodavac je može izmeniti ili ukinuti u skladu sa tom istom voljom.
+  Prema Rousseau-u, pošto svojina proizilazi iz opšte volje, zakonodavac je može izmeniti ili ukinuti u skladu sa tom istom voljom.
+reviewed: true

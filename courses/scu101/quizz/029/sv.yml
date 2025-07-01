@@ -1,0 +1,9 @@
+question: Vad är en enkel lösning för att skydda dina data från ransomware-attacker?
+answer: Säkerhetskopiera regelbundet dina viktiga data på en extern enhet eller en säker lagringstjänst online.
+wrong_answers:
+  - Installera flera antivirusprogram på din dator och gör regelbundna genomsökningar.
+  - Byt dator regelbundet eller installera om operativsystemet (OS).
+  - Du kan använda ett offentligt Wi-Fi-nätverk om du inte har något att dölja på din enhet.
+explanation: |
+  Genom att regelbundet säkerhetskopiera dina data kan du återställa dem i händelse av en cyberattack eller ett maskinvarufel utan att förlora viktig information.
+reviewed: true

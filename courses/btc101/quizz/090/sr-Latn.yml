@@ -1,11 +1,11 @@
-question: Koja je preporučena upotreba mobilnog Wallet?
+question: Koja je preporučena upotreba mobilnog novčanika?
 answer: Čuvanje dnevnih troškova.
 wrong_answers:
   - Čuvanje dugoročnih ušteda.
   - Čuvanje srednjoročnih ušteda.
   - Skladištenje velikih količina.
 explanation: |
-  Mobilni Wallet se preporučuje za dnevne troškove jer je
+  Mobilni novčanik se preporučuje za dnevne troškove jer je
   lako obavljati transakcije s njim. Međutim, ne
   preporučuje se za čuvanje velikih iznosa ili za
   dugoročne uštede jer je potencijalno ranjiv na

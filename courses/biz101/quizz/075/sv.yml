@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med implementeringen av Bitcoin-betalningar på företagsnivå?
+answer: Att fullt ut integrera Bitcoin-betalningar i organisationens kärnprocesser
+wrong_answers:
+  - Att experimentera med Bitcoin i liten skala
+  - För att använda Bitcoin för marknadsföringsändamål
+  - För att acceptera Bitcoin utan integrering i andra system
+explanation: |
+  Företagslösningar syftar till att anpassa Bitcoin-betalningar till arbetsflöden och system i kärnverksamheten.
+reviewed: false

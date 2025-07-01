@@ -1,0 +1,12 @@
+question: Vad är den axiomatisk-deduktiva metod som Ludwig von Mises föreslår för studier av samhällsvetenskaper?
+answer: Denna metod bygger på grundläggande påståenden som kallas axiom, liknande dem som används inom matematiken.
+wrong_answers:
+  - Detta tillvägagångssätt bygger på empiriska data och observationer.
+  - Detta tillvägagångssätt bygger på tillfälliga experiment och hypoteser.
+  - Detta synsätt bygger på det positivistiska synsätt som ofta används inom samhällsvetenskapen.
+explanation: |
+  Ekonomiska experiment kan inte återskapas i ett laboratorium, och det är viktigt att notera
+  att observera en korrelation mellan två variabler inte bevisar att det finns ett orsakssamband
+  orsakssamband mellan dem. Detta är skälet till att Ludwig von Mises föreslog den
+  axiomatisk-deduktiv metod.
+reviewed: true

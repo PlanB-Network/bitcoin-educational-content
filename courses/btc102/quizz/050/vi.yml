@@ -1,0 +1,9 @@
+question: Giải pháp nào được khuyến nghị để thực hiện thanh toán Bitcoin với chi phí thấp?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Tài khoản ngân hàng
+  - RGB Layer
+explanation: |
+  Lightning cho phép giao dịch nhanh chóng và chi phí thấp cho các giao dịch mua hàng hàng ngày. Đây là công cụ lý tưởng cho người dùng năng động.
+reviewed: false

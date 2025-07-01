@@ -1,0 +1,9 @@
+question: Vilken är Blockchain:s huvudsakliga funktion i Client-side Validation-paradigmet som används av RGB?
+answer: Tidsstämpling och förhindrande av dubbla utgifter
+wrong_answers:
+  - Lagra alla tillståndsövergångar
+  - Replikering av Smart contract-data
+  - Garantera global tillgänglighet av data
+explanation: |
+  Bitcoin Blockchain används i RGB för att tidsstämpla åtaganden och förhindra Double-spending, utan att lagra alla tillståndsövergångar.
+reviewed: false

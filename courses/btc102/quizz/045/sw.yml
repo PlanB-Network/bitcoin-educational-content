@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kuhamisha fedha mara kwa mara kutoka kwa Hot Wallet hadi Hardware Wallet?
+answer: Ili kupunguza hatari ya hacking
+wrong_answers:
+  - Kuongeza ukwasi wa Wallet
+  - Ili kupunguza ada za manunuzi
+  - Ili kuboresha faragha ya UTXO
+explanation: |
+  Kuhamisha hadi Hardware Wallet hulinda pesa kwa kuhifadhi funguo za kibinafsi nje ya mtandao.
+reviewed: false

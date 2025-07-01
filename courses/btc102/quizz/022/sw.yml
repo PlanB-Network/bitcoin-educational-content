@@ -1,0 +1,9 @@
+question: Je, sera za upanuzi za fedha zina athari gani kwa sarafu ya fiat?
+answer: Wanapunguza thamani ya akiba
+wrong_answers:
+  - Wanaongeza uwezo wa kununua
+  - Wanaimarisha viwango vya riba
+  - Wanahakikisha ukuaji wa uchumi
+explanation: |
+  Uchapishaji mkubwa wa pesa husababisha kushuka kwa thamani ya uwezo wa ununuzi, ambayo polepole hupunguza nguvu ya ununuzi ya kiokoa.
+reviewed: false

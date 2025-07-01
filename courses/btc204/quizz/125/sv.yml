@@ -1,0 +1,10 @@
+question: Vad är huvudsyftet med en myntutväxling?
+answer: För att i hemlighet överföra Ownership av bitcoins
+wrong_answers:
+  - Öka hastigheten på transaktionerna
+  - Blanda bitcoins
+  - I hemlighet Exchange och Altcoin för Bitcoin
+explanation: |
+  Coinswap använder smarta kontrakt för att möjliggöra en överföring av Bitcoin Ownership mellan två användare, utan behov av förtroende och utan att denna överföring är explicit synlig på Blockchain.
+  
+reviewed: false

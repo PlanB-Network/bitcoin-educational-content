@@ -32,26 +32,26 @@ Tim kontributor:
 
 **Tujuan: Tingkatkan keterampilan untuk menjaga keamanan Anda!**
 
-Selamat datang, semuanya, di program edukasi ini yang dirancang khusus dan mencakup topik tentang keamanan digital. Pelatihan ini dirancang agar dapat dipahami oleh semua orang, sehingga Anda tidak perlu untuk memiliki pengetahuan yang dalam tentang ilmu komputer untuk memahami konten ini. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menjaga keamanan dan privasi Anda di dunia digital dengan lebih baik.
+Selamat datang semuanya di program edukasi yang didedikasikan untuk keamanan digital ini. Pelatihan ini dirancang agar mudah diakses oleh siapa saja, jadi tidak diperlukan pengetahuan ilmu komputer sebelumnya. Tujuan utama kami adalah membekali Anda dengan pengetahuan dan keterampilan yang diperlukan untuk menjelajahi dunia digital dengan lebih aman dan terlindungi.
 
-Hal ini akan melibatkan penggunaan beberapa alat seperti layanan email yang aman, alat untuk mengelola kata sandi Anda dengan lebih baik, dan berbagai perangkat lunak untuk mengamankan aktivitas online Anda.
+Hal ini akan melibatkan penggunaan beberapa alat seperti layanan email yang aman, alat untuk mengelola kata sandi Anda, dan berbagai perangkat lunak untuk mengamankan aktivitas online Anda.
 
 Pelatihan ini adalah hasil kolaborasi dari tiga profesor kami:
 
 - Renaud Lifchitz, ahli keamanan siber
 - Théo Pantamis, PhD dalam matematika terapan
-- Rogzy, CEO DécouvreBitcoin
+- Rogzy, CEO DécouvreBitcoin.
 
-Dalam dunia yang terus mengalami digitalisasi, keamanan online Anda sangatlah penting. Meskipun ancaman peretasan dan pengawasan massal terus meningkat, Anda masih ada waktu untuk mulai belajar dan melindungi diri Anda.
-Dalam pelatihan ini, kami tidak bertujuan untuk membuat Anda menjadi seorang ahli, anonim sepenuhnya, atau kebal terhadap ancaman digital, karena ini adalah hal yang mustahil. Sebagai gantinya, kami menawarkan beberapa solusi sederhana dan mudah dipahami untuk mulai mengubah kebiasaan Anda di dunia online dan mendapat kembali kendali atas kedaulatan digital Anda.
-Jika Anda mendalami topik ini lebih lanjut, kami memiliki banyak materi, tutorial, atau pelatihan keamanan siber lainnya. Tetapi, berikut adalah gambaran singkat program kami untuk beberapa jam ke depan.
+Kewaspadaan digital Anda sangat penting di dunia yang semakin digital. Meskipun ada peningkatan konstan dalam peretasan dan pengawasan massal, belum terlambat untuk mengambil langkah pertama dan melindungi diri Anda. 
+Dalam pelatihan ini, kami tidak mencoba menjadikan Anda seorang ahli, anonim sepenuhnya, atau kebal terhadap ancaman digital, karena ini mustahil. Sebaliknya, kami menawarkan beberapa solusi sederhana dan mudah diakses untuk semua orang untuk mulai mengubah kebiasaan online Anda dan mendapatkan kembali kendali atas privasi digital Anda. 
+Jika Anda mencari keterampilan yang lebih lanjut tentang topik ini kami sediakan sumber daya, tutorial, atau pelatihan keamanan siber kami yang lain untuk membantu Anda. Sementara itu, berikut adalah gambaran singkat program kami untuk beberapa jam ke depan.
 
 **Bagian 1: Semua yang Perlu Anda Ketahui tentang Penjelajahan Online**
 
 - Bab 1 - Penjelajahan Online
 - Bab 2 - Menggunakan Internet dengan Aman
 
-Untuk memulai, kami akan membahas pentingnya memilih peramban web dan implikasinya terhadap keamanan. Kemudian, kita akan menjelajahi detail-detail dari peramban, khususnya mengenai pengelolaan cookie. Kita juga akan melihat bagaimana memastikan penjelajahan internet yang lebih aman dan anonim dengan menggunakan alat seperti TOR. Setelah itu, kita akan fokus pada penggunaan VPN untuk meningkatkan perlindungan data Anda. Terakhir, kita akan mengakhiri dengan memberi rekomendasi tentang penggunaan koneksi WiFi yang aman.
+Kita akan memulai dengan membahas mengapa memilih *web browser* itu penting dan bagaimana pilihan itu memengaruhi keamanan Anda. Selanjutnya, kita akan menyelami lebih dalam tentang *browser*, terutama mengenai pengelolaan cookie. Anda juga akan belajar cara menjelajah dengan lebih aman dan anonim menggunakan alat seperti TOR. Setelah itu, kita akan fokus pada penggunaan VPN untuk meningkatkan perlindungan data Anda. Terakhir, kita akan memberikan rekomendasi untuk menggunakan koneksi WiFi dengan aman.
 
 ![](assets/en/1.webp)
 
@@ -59,7 +59,10 @@ Untuk memulai, kami akan membahas pentingnya memilih peramban web dan implikasin
 
 - Bab 3 - Penggunaan Komputer
 - Bab 4 - Peretasan & Pengelolaan Cadangan
-Pada bagian ini, kita akan membahas tiga lingkup kunci tentang keamanan komputer. Pertama, kita akan memahami berbagai sistem operasi: Mac, PC, dan Linux, dan menjelaskan detail dan kelebihan mereka. Kemudian, kita akan mendalami metode-metode untuk melindungi diri dari upaya peretasan secara efektif dan memperkuat keamanan perangkat Anda. Terakhir, kami akan menekankan pentingnya melindungi dan melakukan pencadangan data Anda secara rutin untuk mencegah kehilangan atau ransomware.![](assets/en/2.webp)
+
+Dalam bagian ini, kita akan membahas tiga area utama keamanan komputer. Pertama, kita akan menjelajahi berbagai sistem operasi, termasuk Mac, Windows, dan Linux, menyoroti karakteristik dan keunggulan spesifik masing-masing. Selanjutnya, kita akan mendalami metode untuk secara efektif melindungi diri dari upaya peretasan dan meningkatkan keamanan perangkat Anda. Terakhir, kita akan menekankan pentingnya melindungi dan mencadangkan data Anda secara berkala untuk mencegah kehilangan atau serangan *ransomware*.
+
+![](assets/en/2.webp)
 
 **Bagian 3: Penerapan Langkah-langkah solusi**
 
@@ -67,12 +70,14 @@ Pada bagian ini, kita akan membahas tiga lingkup kunci tentang keamanan komputer
 - Bab 7 - Pengelola kata sandi
 - Bab 8 - Otentikasi dua faktor (2FA)
 
-Pada bagian ketiga ini, kita akan fokus pada langkah praktis untuk solusi konkret guna meningkatkan keamanan digital Anda.
+Pada bagian ketiga ini, kita akan fokus pada langkah praktis untuk solusi nyata meningkatkan keamanan digital Anda.
 
-Pertama, kita akan melihat cara melindungi kotak masuk email Anda, yang sangat berperan penting sebagai saluran komunikasi Anda dan seringkali menjadi target para peretas. Kemudian, kami akan memperkenalkan manajer kata sandi kepada Anda: solusi praktis untuk Anda agar tidak lagi lupa atau bingung kata sandi Anda sambil menjaga keamanannya. Akhirnya, kita akan membahas langkah keamanan tambahan, yaitu otentikasi dua faktor, yang berguna lapisan perlindungan ekstra untuk akun-akun Anda. Semuanya akan dijelaskan dengan jelas dan mudah dipahami.
+Pertama, kita akan melihat bagaimana melindungi kotak masuk email Anda, yang sangat penting untuk komunikasi dan sering menjadi target peretas. Kemudian, kami akan memperkenalkan Anda pada pengelola kata sandi: solusi praktis untuk mencegah lupa atau tertukar kata sandi sambil tetap menjaganya aman. Terakhir, kita akan membahas tindakan keamanan tambahan, yaitu otentikasi dua faktor, yang menambahkan lapisan perlindungan ekstra pada akun Anda. Semuanya akan dijelaskan dengan jelas dan mudah dipahami.
+
 ![](assets/en/3.webp)
 
 Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas data Anda? Ayo mulai!
+
 # Semua yang Perlu Anda Ketahui tentang Penjelajahan Online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>

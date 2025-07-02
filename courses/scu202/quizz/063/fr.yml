@@ -1,0 +1,9 @@
+question: Quel navigateur textuel, sans interface graphique ni support du JavaScript, est le plus ancien encore maintenu ?
+answer: Lynx
+wrong_answers:
+  - Mullvad Browser
+  - Polypane
+  - Vivaldi
+explanation: |
+  Lynx, apparu en 1992, fonctionne en mode texte, ne prend pas en charge JavaScript et reste utilisé pour des usages très spécifiques.
+reviewed: false

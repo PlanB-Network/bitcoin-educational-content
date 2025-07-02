@@ -9,7 +9,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: de
     last_contribution_date:
     urgency: 1
@@ -30,7 +30,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -60,7 +60,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: id
     last_contribution_date:
     urgency: 1
@@ -70,12 +70,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -85,22 +85,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.24
   - language: zh-Hant
     last_contribution_date:
     urgency: 1

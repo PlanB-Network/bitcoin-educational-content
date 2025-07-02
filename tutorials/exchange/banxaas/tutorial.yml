@@ -8,7 +8,7 @@ level: beginner
 
 category: centralized
 
-tags: 
+tags:
   - adoption
   - lightning
   - user-friendly
@@ -22,4 +22,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0
+    reward: 0.4

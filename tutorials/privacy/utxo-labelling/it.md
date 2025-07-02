@@ -6,9 +6,9 @@ description: Come etichettare correttamente i tuoi UTXO
 
 In questo tutorial affronteremo tutto ciò che devi sapere sulla cosiddetta "UTXO labelling" nel tuo wallet Bitcoin e sulla gestione degli stessi. Inizieremo con una parte teorica per comprendere appieno questi concetti, prima di passare a una sezione pratica in cui esploreremo come utilizzare concretamente le etichette nei principali wallet Bitcoin.
 
-## Cos'è l'etichetta UTXO?
+## Cos'è il Labelling degli UTXO?
 
-"L’etichetta" è una tecnica che permette di aggiungere un’annotazione, o etichetta, a uno specifico UTXO all’interno del proprio wallet Bitcoin. Queste etichette vengono salvate localmente dal software e non sono mai trasmesse sulla rete Bitcoin. Si tratta quindi di uno strumento privato di organizzazione personale.
+Il "Labelling" è una tecnica che permette di aggiungere un’annotazione, o etichetta, a uno specifico UTXO all’interno del proprio wallet Bitcoin. Queste etichette vengono salvate localmente dal software e non sono mai trasmesse sulla rete Bitcoin. Si tratta quindi di uno strumento privato di organizzazione personale.
 
 Ad esempio, se ricevo un UTXO da una transazione P2P effettuata su Bisq con Charles, potrei etichettarlo come Acquisto P2P Bisq con Charles.
 
@@ -40,7 +40,7 @@ Questi indicatori dipenderanno dai tuoi criteri, come la distinzione tra UTXO KY
 - "NO KYC - Acquisto P2P Charles";
 - "NO KYC - Resto dall'acquisto del divano".
 
-In ogni caso, tieni presente che un'etichetta valida è quella che sarete in grado di comprendere quando ne avrete bisogno. Se il vostro wallet Bitcoin è principalmente destinato al risparmio, potrebbe essere che le etichette saranno utili solo tra diversi anni. Assicuratevi dunque che siano chiare, precise e complete.
+In ogni caso, tieni presente che un'etichetta valida è quella che saraiin grado di comprendere quando ne avrai bisogno. Se il wallet è principalmente destinato al tenere i fondi di risparmio, potrebbe essere che le etichette siano utili solo tra diversi anni. Assicurati dunque che siano chiare, precise e complete.
 
 È inoltre consigliabile mantenere l'identificatore di un UTXO attraverso le transazioni. Ad esempio, durante un consolidamento di UTXO no-KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come "consolidamento", ma specificamente come "consolidamento no-KYC" per mantenere una traccia chiara dell'origine dell'UTXO.
 

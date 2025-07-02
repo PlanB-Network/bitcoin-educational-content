@@ -15,6 +15,10 @@ subtopic: bitcoin
 # Choose between beginner, intermediate, expert, wizard
 level: beginner
 
+# teaching_format
+# Choose between self_paced, professor_led
+teaching_format: self_paced
+
 # hours
 # Evaluate the number of hours that it would take to
 # complete the whole course
@@ -26,25 +30,60 @@ hours: 2
 # See /professors folder for examples
 professors_id:
   - 17f8bc5b-7034-4ff6-96e0-11484a133642
+
+# Associate to a project by copying here the id of the project behind this content
+project_id: 77f56919-1875-45ab-8c4c-b8fb26b021de
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
 contributor_names:
   - Asi0Flammeus
 
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading
 # Any further data will be automatically added after each proofreading
-# 
+#
 # This information are provided by PBN team, no need to specify if you are a contributor.
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review
 # - last_contribution_date: the date when last contribution has been received
-# - urgency: level of urgency from 1 (low urgency) to X(high urgency)
+# - urgency: level of urgency from 1 (low urgency) to X (high urgency)
 # - contributor_names: list of contributors PBN ids
-# - reward: amount of sats available for reward
+# - reward: amount of USD available for reward
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: YYYY-MM-DD
-    urgency: # leave as empty
+    urgency: 1 # default value
     contributor_names:
-      - author_github_id #insert your github ID
-    reward: # leave as empty
+      - author_github_username #insert your github username
+    reward: 0 # default value
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
+tags:
+  - user-friendly
+  - wallets
+  - high-level
+
+# videos
+# List all the videos inside the course, for each video generate its own id (uuid v4)
+# make sure for each id there is a public media source (suitable: youtube, peertube)
+# and for each media source explicit both the language code and the part of the link after the top level domain
+videos:
+  - id: 758d7d3b-84e6-4f52-bf43-967a2ce7e7ec
+    youtube:
+      - fr: PdiL6_1wbQY
+  - id: 04ad728c-9a1c-4630-93f8-bc5ea9e0fb9a
+    youtube:
+      - fr: ljHLhTzrLsw
+  - id: 1686dcd2-69ae-43b4-b5db-5d21472fc0b8
+    youtube:
+      - fr: LslJVNCvHhA
+  - id: c3ee6a12-c3bd-4d0f-8078-e8241c053931
+
+# only for premium courses similar to the biz school
+# insert below the date of first course publication
+published_at: YYYY-MM-DD

@@ -1,52 +1,65 @@
 ---
-name: VeraCrypt
-description: Jinsi ya kusimba kwa urahisi kifaa cha kuhifadhi?
+name: VeraCrypt  
+description: Jinsi ya kusimba kwa urahisi kifaa cha kuhifadhi?  
 ---
+
 ![cover](assets/cover.webp)
 
+Siku hizi, ni muhimu kutekeleza mkakati wa kuhakikisha ufikivu, usalama na chelezo ya faili zako—kama vile hati za kibinafsi, picha, au miradi muhimu. Kupoteza data hizi kunaweza kuwa janga.
 
-Siku hizi, ni muhimu kutekeleza mkakati ili kuhakikisha ufikivu, usalama na chelezo ya faili zako, kama vile hati zako za kibinafsi, picha au miradi muhimu. Kupoteza data hizi kunaweza kuwa janga.
+Ili kuepuka hali kama hiyo, inashauriwa kuwa na nakala nyingi za faili zako zilizohifadhiwa kwenye njia tofauti. Njia maarufu inayotumika kwenye kompyuta ni mkakati wa chelezo wa “3-2-1,” unaolenga kulinda faili zako kwa njia zifuatazo:
 
+- **3** nakala za faili zako,  
+- Zikiwa kwenye angalau
+- **2** aina tofauti za midia,  
+- Na angalau
+- **1** ikiwa imehifadhiwa nje ya tovuti.
 
-Ili kuzuia shida hizi, nakushauri uhifadhi nakala nyingi za faili zako kwenye media tofauti. Mbinu inayotumika sana katika kompyuta ni mkakati wa chelezo wa "3-2-1", ambao huhakikisha ulinzi wa faili zako:
+Kwa maneno mengine, unapaswa kuhifadhi faili zako katika maeneo matatu tofauti kwa kutumia njia tofauti za kuhifadhi—kama vile kompyuta yako, diski ya nje ya USB, kifaa cha kuhifadhi cha nje (external hard drive), au huduma ya hifadhi ya mtandaoni.  
 
+Nakala ya “nje ya tovuti” ina maana kuwa chelezo hiyo inapaswa kuhifadhiwa nje ya nyumba au mahali pa kazi. Hatua hii husaidia kulinda data yako dhidi ya majanga kama moto au mafuriko. Nakala hiyo ya nje huhakikisha data yako inabaki salama bila kutegemea mazingira ya ndani.
 
-- 3** nakala za faili zako;
-- Imehifadhiwa kwenye angalau **2** aina tofauti za midia;
-- Na angalau nakala **1** iliyohifadhiwa nje ya tovuti.
+Ili kutekeleza mkakati huu wa 3-2-1 kwa urahisi, unaweza kutumia suluhisho la hifadhi ya mtandaoni linalosawazisha faili zako kiotomatiki au kwa vipindi maalum kati ya kompyuta yako na hifadhi ya wingu. Miongoni mwa huduma hizo ni zile kutoka kampuni kubwa kama Google Drive, Microsoft OneDrive, au Apple iCloud.
 
+Hata hivyo, hizo si suluhisho bora kwa suala la faragha. Katika somo la awali, ulijifunza njia mbadala inayosimba faili zako kwa usalama wa hali ya juu: **Proton Drive**.  
 
-Kwa maneno mengine, inashauriwa kuhifadhi faili zako katika maeneo 3 tofauti, kwa kutumia midia ya asili tofauti, kama vile kompyuta yako, kiendeshi cha nje cha Hard, kifimbo cha USB, au huduma ya kuhifadhi mtandaoni. Na hatimaye, kuwa na nakala nje ya tovuti ina maana kwamba unapaswa kuwa na chelezo kuhifadhiwa nje ya nyumba yako au biashara. Hatua hii ya mwisho husaidia kuepuka upotevu wa jumla wa faili zako iwapo kutatokea majanga ya ndani kama vile moto au mafuriko. Nakala ya nje, iliyo mbali na nyumba au biashara yako, inahakikisha kuwa data yako itadumu bila kutegemea hatari za ndani.
+> https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
+Kwa kutekeleza mkakati wa kuhifadhi nakala ndani ya nchi na kwenye wingu, tayari unakuwa umetumia aina mbili tofauti za midia, huku moja ikiwa nje ya tovuti. Ili kukamilisha mkakati wa 3-2-1, unahitaji kuongeza nakala ya tatu.
 
-Ili kutekeleza kwa urahisi mkakati huu wa chelezo wa 3-2-1, unaweza kuchagua suluhu ya hifadhi ya mtandaoni, kwa kusawazisha kiotomatiki au mara kwa mara faili kutoka kwa kompyuta yako na zile zilizo katika wingu yako. Miongoni mwa masuluhisho haya ya chelezo mtandaoni, ni dhahiri kuna yale ya makampuni makubwa ya kidijitali unayoyajua: Hifadhi ya Google, Microsoft OneDrive, au Apple iCloud. Hata hivyo, hizi si suluhu bora zaidi za kulinda faragha yako. Katika mafunzo yaliyotangulia, nilikuletea njia mbadala inayosimba hati zako kwa usiri bora zaidi: Hifadhi ya Proton.
-
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Kwa kupitisha mkakati huu wa kuhifadhi nakala za ndani na za wingu, tayari unanufaika kutoka kwa aina mbili tofauti za media kwa data yako, ambayo moja iko nje ya tovuti. Ili kukamilisha mkakati wa 3-2-1, unahitaji tu kuongeza nakala ya ziada. Ninachokushauri kufanya ni kusafirisha mara kwa mara data yako iliyopo ndani ya nchi na kwenye wingu yako hadi kwa njia halisi, kama vile fimbo ya USB au kiendeshi cha nje cha Hard. Kwa njia hii, hata kama seva za suluhisho lako la kuhifadhi mtandaoni zitaharibiwa na kompyuta yako kuharibika wakati huo huo, bado una nakala hii ya tatu kwenye njia ya nje ili usipoteze data yako.
+Ninapendekeza kusafirisha mara kwa mara data yako kutoka kwenye kompyuta na wingu hadi kwenye kifaa halisi—kama fimbo ya USB au diski ya nje ya kuhifadhi. Kwa njia hiyo, hata kama seva ya huduma yako ya wingu itaharibika na kompyuta yako ipate tatizo kwa wakati mmoja, bado utakuwa na nakala ya tatu salama nje ya mfumo.
 
 ![VeraCrypt](assets/notext/01.webp)
 
-Lakini pia ni muhimu kufikiria kuhusu usalama wa hifadhi yako ya data ili kuhakikisha kwamba hakuna mtu mwingine isipokuwa wewe au wapendwa wako wanaoweza kuipata. Data ya ndani na mtandaoni kwa kawaida ni salama. Kwenye kompyuta yako, labda umeweka nenosiri, na viendeshi vya Hard vya kompyuta za kisasa mara nyingi husimbwa kwa chaguo-msingi. Kuhusu hifadhi yako ya mtandaoni (wingu), nilikuonyesha kwenye somo la awali jinsi ya kulinda akaunti yako kwa nenosiri dhabiti na uthibitishaji wa mambo mawili. Hata hivyo, kwa nakala yako ya tatu iliyohifadhiwa kwenye nyenzo halisi, usalama pekee ni milki yake halisi. Ikiwa mwizi ataweza kuiba kifimbo chako cha USB au kiendeshi chako cha nje cha Hard, anaweza kufikia data yako yote kwa urahisi.
+Ni muhimu pia kufikiria kuhusu usalama wa vifaa vya kuhifadhia data, ili kuhakikisha kuwa hakuna mtu mwingine isipokuwa wewe au watu unaowaamini anaweza kuifikia. Kwa kawaida, data iliyo kwenye kompyuta yako hulindwa kwa nenosiri, na diski za kisasa huja zikiwa zimesimbwa kwa chaguomsingi.  
+
+Kwa hifadhi ya wingu, tayari umejifunza kutumia nenosiri dhabiti na uthibitishaji wa hatua mbili. Hata hivyo, kwa nakala yako ya tatu iliyo kwenye kifaa halisi, usalama wake hutegemea mtu anayekimiliki. Ikiwa mtu ataiba fimbo yako ya USB au diski ya nje, ataweza kufikia data zako endapo hazijasimbwa.
 
 ![VeraCrypt](assets/notext/02.webp)
 
-Ili kuzuia hatari hii, inashauriwa kusimba njia yako ya kimwili kwa njia fiche. Kwa hivyo, jaribio lolote la kufikia data litahitaji kuingiza nenosiri ili kusimbua yaliyomo. Bila nenosiri hili, haitawezekana kufikia data, kupata faili zako za kibinafsi hata katika tukio la wizi wa fimbo yako ya USB au gari lako la nje la Hard.
+Ili kuepusha hatari hiyo, unashauriwa kusimba kifaa halisi kwa njia fiche. Kwa kufanya hivyo, jaribio lolote la kufikia faili litahitaji nenosiri la kusimbua. Bila nenosiri hilo, si rahisi kufikia data zako—hata kama kifaa chenyewe kimeibiwa.
 
 ![VeraCrypt](assets/notext/03.webp)
 
-Katika somo hili, nitakuonyesha jinsi ya kusimba kwa urahisi hifadhi ya nje kwa kutumia VeraCrypt, zana huria.
-
+Katika somo hili, utaona jinsi ya kusimba kifaa chako cha nje kwa urahisi kwa kutumia VeraCrypt, zana huria ya usimbaji.
 
 ## Utangulizi wa VeraCrypt
 
-
-VeraCrypt ni programu huria inayopatikana kwenye Windows, macOS, na Linux, ambayo hukuruhusu kusimba data yako kwa njia tofauti na kwa njia tofauti.
+**VeraCrypt** ni programu huria inayopatikana kwenye Windows, macOS, na Linux, inayokuwezesha kusimba data kwa njia mbalimbali.
 
 ![VeraCrypt](assets/notext/04.webp)
 
-Programu hii huwezesha uundaji na udumishaji wa majalada yaliyosimbwa kwa njia fiche kwenye nzi, kumaanisha kwamba data yako husimbwa kiotomatiki kabla ya kuhifadhiwa na kusimbwa kabla ya kusomwa. Njia hii huhakikisha kuwa faili zako zinaendelea kulindwa hata ikitokea kuibiwa kwa chombo chako cha kuhifadhi. VeraCrypt haisimbaji faili kwa njia fiche pekee bali pia majina ya faili, metadata, folda, na hata nafasi ya bure kwenye chombo chako cha kuhifadhi.
+Programu hii hukuwezesha kuunda na kudumisha majalada yaliyosimbwa kwa njia fiche ndani ya kifaa. Hii inamaanisha kuwa data husimbwa kiotomatiki kabla ya kuhifadhiwa, na husimbuliwa inapofunguliwa. Njia hii huhakikisha kuwa faili zako zinalindwa hata ikiwa kifaa chenyewe kitaibwa.
+
+VeraCrypt haisimbwi faili pekee, bali pia husimba majina ya faili, metadata, folda, na hata nafasi ya wazi kwenye kifaa.
+
+Inaruhusu usimbaji wa:
+- Faili maalum,  
+- Kizigeu kizima,  
+- Diski ya mfumo,  
+- Au kifaa cha kuhifadhi cha nje kama USB.
+
+Faida kubwa ya VeraCrypt ukilinganisha na programu za wamiliki ni kwamba ni **chanzo-wazi (open-source)**, na hivyo mtu yeyote anaweza kuchunguza na kuthibitisha usalama wake.
 
 
 VeraCrypt inaweza kutumika kusimba faili kwa njia fiche ndani ya nchi au sehemu zote, pamoja na diski ya mfumo. Inaweza pia kutumiwa kusimba kwa njia fiche kiunganishi cha nje kama vile kijiti cha USB au diski kama tutakavyoona katika somo hili.

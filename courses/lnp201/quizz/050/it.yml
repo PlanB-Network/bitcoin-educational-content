@@ -6,4 +6,4 @@ wrong_answers:
   - Per bloccare fondi a lungo termine
 explanation: |
   Effettuando un pagamento fittizio, un venditore sposta la liquidità dal proprio lato al lato opposto del canale, liberando così capacità in entrata per ricevere pagamenti.
-  reviewed: true
+reviewed: true

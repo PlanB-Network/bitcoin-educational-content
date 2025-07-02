@@ -8,10 +8,10 @@ level: expert
 professor_id: 0aece95a-7c5b-43c4-940c-4c8505de2470
 
 tags:
-- privacy
-- good-practice
-- risks
-- cypherpunk
+  - privacy
+  - good-practice
+  - risks
+  - cypherpunk
 
 # Proofreading metadata
 original_language: it
@@ -21,4 +21,44 @@ proofreading:
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 1
+    reward: 5.08
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.53
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.53
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.53
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.17
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.59

@@ -74,7 +74,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 13.87
+    reward: 30.1
   - language: et
     last_contribution_date:
     urgency: 1
@@ -90,7 +90,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 11.56
+    reward: 25.09
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -111,6 +111,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 50.18
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 70.21
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.16
 tags:
   - wallets
   - user-friendly

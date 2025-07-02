@@ -1796,45 +1796,45 @@ Ważnym wydarzeniem pod koniec 2010 roku było zaakceptowanie Bitcoina przez Ele
 To członek forum o imieniu Kiba podjął inicjatywę 13 sierpnia 2010 r., [proponując](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) skontaktowanie się z EFF i zasugerowanie przyjęcia darowizny, [zebranej](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) od społeczności. W tym celu założył [konto](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) na MyBitcoin, gdzie zebrał fundusze i chciał przekazać EFF dostęp do niego. Przygotował wiadomość e-mail (poprawioną przez społeczność), którą wysłał pod koniec sierpnia.
 
 
-Dwa tygodnie później, wobec braku odpowiedzi, z pomocą przyszedł mu drugi członek forum. Członek ten, używający pseudonimu BrightAnarchist, znał jednego z założycieli i wysłał mu wiadomość e-mail 13 września. Otrzymał odpowiedź tego samego dnia i [napisał](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631) na forum, że "EFF jest zdecydowanie zainteresowany otrzymaniem Bitcoinów!". Konto zostało następnie przekazane organizacji.
+Dwa tygodnie później, wobec braku odpowiedzi, z pomocą przyszedł mu drugi członek forum. Członek ten, używający pseudonimu BrightAnarchist, znał jednego z założycieli i wysłał mu wiadomość e-mail 13 września. Otrzymał odpowiedź tego samego dnia i [napisał](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631) na forum, że „EFF jest zdecydowanie zainteresowany otrzymaniem Bitcoinów!”. Konto zostało następnie przekazane organizacji.
 
 
 EFF potrzebował trochę czasu, aby zacząć przyjmować publiczne darowizny. Po negocjacjach społeczność przekonała ich do opublikowania adresu do otrzymywania darowizn na swojej stronie internetowej. 9 listopada adres pojawił się na [stronie darowizn](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Użytkownicy Bitcoina [zaczęli](https://Mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) przelewać środki.
 
 
-Kilka dni później [post](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/Bitcoin-gains-legal-protection-through.html) został napisany na ten temat przez blogera jimbobway, który zwrócił uwagę na Bitcoin. Artykuł ten został [udostępniony](https://news.ycombinator.com/item?id=1905522) na HackerNews. Został on również przepisany na wideo przez BitcoinMedia przy użyciu Xtranormal:
+Kilka dni później bloger jimbobway napisał na ten temat [post](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/Bitcoin-gains-legal-protection-through.html), który zwrócił uwagę na Bitcoina. Artykuł został [udostępniony](https://news.ycombinator.com/item?id=1905522) na HackerNews. Został również przetranskrybowany na format wideo przez BitcoinMedia przy użyciu Xtranormal:
 
 
 :::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 
-To bardzo dobra wiadomość dla Bitcoin, ponieważ obie inicjatywy mają wspólne wartości. Co więcej, EFF jest znana z zapewniania ochrony prawnej projektom ochrony prywatności i udostępniania danych, takim jak Tor i BitTorrent. Sam Satoshi Nakamoto zdaje sobie z tego sprawę i szczególnie popiera działania organizacji, o czym świadczy jego [komentarz](https://mmalmi.github.io/Satoshi/#email-254) zamieszczony w jednym z e-maili skierowanych do Gavina Andresena 6 stycznia 2011 roku:
+To bardzo dobra wiadomość dla Bitcoina, ponieważ obie inicjatywy mają wspólne wartości. Co więcej, EFF jest znana z zapewniania ochrony prawnej projektom ochrony prywatności i udostępniania danych, takim jak Tor i BitTorrent. Sam Satoshi Nakamoto zdaje sobie z tego sprawę i szczególnie popiera działania organizacji, o czym świadczy jego [komentarz](https://mmalmi.github.io/Satoshi/#email-254) zamieszczony w jednym z e-maili skierowanych do Gavina Andresena 6 stycznia 2011 roku:
 
-> "EFF jest naprawdę ważne. &nbsp; Chcemy utrzymywać z nimi dobre relacje. &nbsp; Jesteśmy typem projektu, który doceniają; pomogli projektowi TOR i zrobili wiele, aby chronić wymianę plików P2P"
+> „EFF jest naprawdę ważne. &nbsp; Chcemy utrzymywać z nimi dobre relacje. &nbsp; Jesteśmy typem projektu, który doceniają; pomogli projektowi TOR i zrobili wiele, aby chronić wymianę plików P2P”.
 
 ### Powrót Hala Finneya
 
 
-Po odstawieniu Bitcoin w kwietniu 2009 r., Hal Finney szybko dowiedział się, że zdiagnozowano u niego ALS, przy czym [diagnoza](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) została postawiona w sierpniu 2009 roku. Dostosowuje on swój sposób życia, ale jego zdolności motoryczne stopniowo maleją.
+Niedługo po wycofaniu się z Bitcoina w kwietniu 2009 r., u Hala Finney'a zdiagnozowano stwardnienie zanikowe boczne, [diagnoza](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) została postawiona w sierpniu 2009 roku. Dostosowuje swój sposób życia do choroby, ale jego zdolności motoryczne stopniowo maleją.
 
 
 30 listopada rejestruje się na forum Bitcoin i zaczyna uczestniczyć w dyskusjach, w szczególności dotyczących projektu BitDNS. Nie waha się przekazywać niewielkich darowizn na rzecz różnych projektów kwitnących w ekosystemie.
 
 
-Co więcej, studiuje kod, do którego nie zaglądał od czasu premiery, i zdaje sobie sprawę z całej wykonanej pracy. Ta świadomość skłania go do [napisania](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) następującego komentarza na forum 11 grudnia:
+Co więcej, analizuje kod, do którego nie zaglądał od czasu jego premiery, i zdaje sobie sprawę, jak wiele pracy wykonano od tego czasu. Ta świadomość skłania go do [napisania](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) następującego komentarza na forum 11 grudnia:
 
-> "Wydaje mi się, że to imponująca praca, chociaż chciałbym, żeby było więcej komentarzy. Przestudiowałem głównie init, main, script i trochę modułów net. To potężna maszyneria."
+> „Jestem pod wrażeniem pracy włożonej w projekt, chociaż chciałbym, żeby było więcej komentarzy. Przeanalizowałem głównie init, main, script i trochę modułów net. To potężna maszyneria.”
 
 Dwie godziny później Satoshi [odpowiada](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259):
 
-> "To wiele dla mnie znaczy, Hal. Dziękuję."
+> „To wiele dla mnie znaczy, Hal. Dziękuję.”
 
-Była to przedostatnia publiczna wiadomość od twórcy Bitcoin, który zniknął kilka miesięcy później.
+Była to przedostatnia publiczna wiadomość od twórcy Bitcoina, który zniknął kilka miesięcy później.
 
 
 ### Kluczowy moment
 
-Jesienią 2010 roku ekosystem otaczający Bitcoin znacznie się rozwinął. Poprawiła się komunikacja i rozwinęła się gospodarka. W tym czasie wydawało się, że Bitcoin jest gotowy do samodzielnego startu. I właśnie w tym okresie Satoshi zdecydował się zniknąć i pozostawić stery projektu społeczności.
+Jesienią 2010 roku ekosystem otaczający Bitcoina znacznie się rozwinął. Poprawiła się komunikacja i rozwinęła się gospodarka. W tym czasie wydawało się, że Bitcoin jest gotowy do samodzielnego startu. I właśnie w tym okresie Satoshi zdecydował się zniknąć i pozostawić stery projektu społeczności.
 
 
 ## Zniknięcie Satoshiego
@@ -1842,46 +1842,46 @@ Jesienią 2010 roku ekosystem otaczający Bitcoin znacznie się rozwinął. Popr
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
 
 
-Widzieliśmy, jak Bitcoin nabrał rozpędu po opublikowaniu tekstu na Slashdot w lipcu 2010 roku. Jesienią, wraz z różnymi postępami w oprogramowaniu, Mining i gospodarce, wydawało się, że projekt jest wreszcie na dobrej drodze. Dlatego też okres ten zbiegł się ze stopniowym wycofywaniem się Satoshi Nakamoto.
+Widzieliśmy, jak Bitcoin nabrał rozpędu po opublikowaniu tekstu na Slashdot w lipcu 2010 roku. Jesienią, wraz z różnymi postępami w oprogramowaniu, wydobyciu i ekonomii, wydawało się, że projekt jest wreszcie na dobrej drodze. Dlatego też okres ten zbiegł się ze stopniowym wycofywaniem się Satoshiego Nakamoto.
 
 
-Odejście twórcy Bitcoin było spowodowane dwoma przyczynami: z jednej strony, rosnącym wyzwaniem dla jego statusu, wzywającym do bardziej zdecentralizowanego i konsensualnego zarządzania; z drugiej strony, jego niemal paranoicznym strachem przed władzami państwowymi. Ta druga motywacja została w szczególności wyrażona w grudniu 2010 r. w kontekście blokady finansowej WikiLeaks, która nie mogła już otrzymywać funduszy za pomocą tradycyjnych środków i dla której Bitcoin stanowił odpowiednią alternatywę. W tym rozdziale opiszemy szczegółowo przebieg tego zniknięcia.
+Odejście twórcy Bitcoina było spowodowane dwoma przyczynami: z jednej strony, rosnącym wyzwaniem dla jego statusu, wzywającym do bardziej zdecentralizowanego i konsensualnego zarządzania; z drugiej strony, jego niemal paranoicznym strachem przed władzami państwowymi. Ta druga motywacja została wyrażona w grudniu 2010 r. w kontekście blokady finansowej WikiLeaks, które nie mogło już otrzymywać funduszy za pomocą tradycyjnych środków i dla którego Bitcoin stanowił odpowiednią alternatywę. W tym rozdziale opiszemy szczegółowo przebieg jego zniknięcia.
 
 
 ### Wyzwanie dla statusu założyciela
 
 
-Od drugiej połowy 2010 roku, społeczność deweloperów gromadziła się na kanale #Bitcoin-dev, którego logi są publikowane na stronie Christiana Deckera, [Bitcoin Stats](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/Bitcoin-dev/logs/2010/09). Kanał ten był idealnym miejscem dla tych, którzy czuli się najbardziej komfortowo z technicznymi aspektami Exchange, aby poznać szczegóły Bitcoin i dyskutować w bardziej nieformalny sposób. Skupiał on wyspecjalizowanych górników (takich jak ArtForz, Diablo-D3, knightmb lub Nils Schneider), programistów zainteresowanych protokołem (takich jak Gavin Andresen, Jeff Garzik lub Wladimir van der Laan) lub osoby utrzymujące usługi na Bitcoin (takie jak Jed McCaleb, Michael Marquardt lub nanotube).
+Od drugiej połowy 2010 roku, społeczność deweloperów gromadziła się na kanale #Bitcoin-dev, którego logi są publikowane na stronie Christiana Deckera, [Bitcoin Stats](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/Bitcoin-dev/logs/2010/09). Kanał ten był idealnym miejscem dla tych, którzy czuli się najbardziej komfortowo z technicznymi aspektami wymiany, aby poznać szczegóły Bitcoina i dyskutować w bardziej nieformalny sposób. Skupiał on wyspecjalizowanych górników (takich jak ArtForz, Diablo-D3, knightmb lub Nils Schneider), programistów zainteresowanych protokołem (takich jak Gavin Andresen, Jeff Garzik lub Wladimir van der Laan) lub osoby oferujące usługi związane z Bitcoinem (takie jak Jed McCaleb, Michael Marquardt lub nanotube).
 
 
-Satoshi Nakamoto jednak nigdy się z nią nie związał, więc wypowiedzi tam były bardziej swobodne niż na forum. Często zdarzało się, że kwestionowano decyzje rozwojowe Satoshi, a nawet krytykowano jego status w stosunku do Bitcoin.
+Satoshi Nakamoto jednak nigdy się z nią nie związał, więc wypowiedzi tam były bardziej swobodne niż na forum. Często zdarzało się, że kwestionowano decyzje rozwojowe Satoshiego, a nawet krytykowano jego status związany z Bitcoinem.
 
-Satoshi jest rzeczywiście wyznaczonym liderem projektu, znanym w świecie oprogramowania open source jako "[Benevolent Dictator for Life](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)" Jego rolą jest zapewnienie stabilności otwartego rozwoju poprzez podejmowanie decyzji za wszystkich, co ogranicza ryzyko buntu i podziałów. Jak [wyjaśnił](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-528) Gavin Andresen, jest on "strażnikiem": "cały kod przechodzi przez niego"
-
-
-Jednak kod źródłowy Bitcoin pozostaje wolny, więc każdy może go kopiować i modyfikować, co zapobiega całkowitej arbitralności ewolucji protokołu. Jak [wyrażono](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538) przez Jeffa Garzika 19 listopada:
+Satoshi jest rzeczywiście wybrany na lidera projektu, jest znany w świecie oprogramowania open source jako „[Benevolent Dictator for Life](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)”. Jego rolą jest zapewnienie stabilności otwartego rozwoju poprzez podejmowanie decyzji za wszystkich, co ogranicza ryzyko buntu i podziałów. Jak [wyjaśnił](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-528) Gavin Andresen, jest on „strażnikiem”: „cały kod przechodzi przez niego”.
 
 
-> "Satoshi wymyślił magiczne liczby z powietrza, a my wspólnie wspieramy ten kierunek. [...] Moment, w którym Satoshi robi coś szalonego, co nie jest wspierane przez społeczność, jest momentem, w którym protokół / baza kodów jest naprawdę rozwidlona"
-
-Tak więc rola Satoshi jako lidera nie zapobiega krytyce. To dlatego w społeczności stopniowo pojawiają się napięcia, począwszy od lipca. Na przykład zastrzeżenia pojawiają się podczas [wdrażania](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) systemu ostrzegania w sierpniu lub [modyfikacji](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) funkcji `getwork` m0mchila w listopadzie. Frustracja związana z tym dyktatorskim podejmowaniem decyzji jest czasami wyrażana [znacznie bardziej otwarcie](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) na IRC.
+Jednak kod źródłowy Bitcoina pozostaje wolny, więc każdy może go kopiować i modyfikować, co zapobiega całkowitej arbitralności ewolucji protokołu. Jak [powiedział](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538) Jeff Garzik 19 listopada:
 
 
-Gavin, który jest blisko Satoshi, ale także dyskutuje z innymi deweloperami, wyraźnie widzi problem, jaki stwarza ta sytuacja. 27 września 2010 r. na IRC, Gavin [deklaruje](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522), że chciałby "być w stanie przekonać \[Satoshi\] do przejścia na bardziej oparty na współpracy model rozwoju" (*oryg: "Po prostu chciałbym móc przekonać go do przejścia na bardziej kolaboracyjny model rozwoju.") W październiku Gavin [uzyskuje](https://sourceforge.net/p/Bitcoin/code/165/) dostęp do repozytorium na SourceForge, co poprawia sytuację. A w grudniu problem rozwiązuje się sam wraz z nagłym wycofaniem się Satoshi po wybuchu afery WikiLeaks.
+> „Satoshi wymyślił magiczne liczby z powietrza, a my wspólnie wspieramy wyznaczony przez niego kierunek. [...] Moment, w którym Satoshi robi coś szalonego, co nie jest wspierane przez społeczność, jest momentem, w którym protokół/baza kodów jest naprawdę rozwidlona”.
+
+Tak więc rola Satoshiego jako lidera podlega krytyce. To dlatego w społeczności stopniowo pojawiają się napięcia, począwszy od lipca. Na przykład zastrzeżenia pojawiają się podczas [wdrażania](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) systemu ostrzegania w sierpniu lub [modyfikacji](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) funkcji `getwork` m0mchila w listopadzie. Frustracja związana z tym dyktatorskim podejmowaniem decyzji jest czasami wyrażana [znacznie bardziej otwarcie](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) na IRC.
+
+
+Gavin, który jest blisko Satoshiego, ale także dyskutuje z innymi deweloperami, wyraźnie widzi problem, jaki stwarza ta sytuacja. 27 września 2010 r. na IRC, Gavin [deklaruje](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522), że chciałby „być w stanie przekonać \[Satoshi\] do przejścia na bardziej oparty na współpracy model rozwoju” (*original: "I just wish I could convince him to switch to a more collaborative development model."*) W październiku Gavin [uzyskuje](https://sourceforge.net/p/Bitcoin/code/165/) dostęp do repozytorium na SourceForge, co poprawia sytuację. A w grudniu problem rozwiązuje się sam wraz z nagłym wycofaniem się Satoshiego po wybuchu afery WikiLeaks.
 
 ### Afera WikiLeaks
 
 
-Wydarzeniem, które spowodowało odejście Satoshi jest afera WikiLeaks. WikiLeaks to organizacja pozarządowa założona przez Cypherpunk Juliana Assange'a w 2006 r., mająca na celu udzielenie głosu demaskatorom i przeciekom informacji przy jednoczesnej ochronie ich źródeł. W 2010 roku poufne dokumenty ujawnione przez organizację pozarządową zostały przekazane przez główne media i wywołały poruszenie opinii publicznej. Dotyczą one w szczególności nadmiernych działań amerykańskiej armii, takich jak ofiary cywilne i akty tortur popełnione w Afganistanie (Afghan War Diary) i Iraku (Iraq War Logs).
+Wydarzeniem, które spowodowało odejście Satoshiego jest afera WikiLeaks. WikiLeaks to organizacja pozarządowa założona przez Cypherpunka Juliana Assange'a w 2006 r., mająca na celu udzielenie głosu demaskatorom i przeciekom informacji przy jednoczesnej ochronie ich źródeł. W 2010 roku poufne dokumenty ujawnione przez organizację pozarządową zostały przekazane przez główne media i wywołały poruszenie opinii publicznej. Dotyczą one w szczególności przesadnych działań armii amerykańskiej, takich jak powodowanie ofiar cywilnych i akty tortur popełnione w Afganistanie (Afghan War Diary) i Iraku (Iraq War Logs).
 
 
 ![WikiLeaks logo in November 2010](assets/en/59.webp)
 
 
-Finansowanie WikiLeaks opiera się głównie na darowiznach publicznych, więc organizacja polega na procesorach płatności w celu otrzymywania płatności online. Jednak po tych rewelacjach wywierana jest presja na tych pośredników, którzy obawiają się reakcji regulatora. Z tego powodu firma Moneybookers [zamroziła] (https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) konto organizacji pozarządowej 14 października.
+Finansowanie WikiLeaks opiera się głównie na darowiznach publicznych, więc organizacja polega na procesorach płatności w celu otrzymywania płatności online. Jednak po tych rewelacjach wywierana jest presja na pośredników, którzy obawiają się reakcji regulatora. Z tego powodu firma Moneybookers [zamroziła] (https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) konto organizacji pozarządowej 14 października.
 
 
-Sytuacja ta otwiera królewską drogę do wykorzystania Bitcoin, który nie opiera się na żadnej zaufanej stronie trzeciej i byłby znacznie bardziej odporny na cenzurę finansową. Hipoteza została otwarta na forum w listopadzie przez Amira Taakiego, 22-letniego Brytyjczyka irańskiego pochodzenia używającego pseudonimu genjix.
+Sytuacja ta otwiera królewską drogę do wykorzystania Bitcoina, który nie opiera się na żadnej zaufanej stronie trzeciej i byłby znacznie bardziej odporny na cenzurę finansową. Wątek ten został otwarty na forum w listopadzie przez Amira Taakiego, 22-letniego Brytyjczyka irańskiego pochodzenia używającego pseudonimu genjix.
 
 
 ![Amir Taaki in December 2012 in Bratislava](assets/en/60.webp)
@@ -1889,48 +1889,48 @@ Sytuacja ta otwiera królewską drogę do wykorzystania Bitcoin, który nie opie
 Amir Taaki w grudniu 2012 roku w Bratysławie (źródło: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
 
-Haker, anarchista i [pokerzysta] (https://bitcointalk.org/index.php?topic=1487.0), niedawno dowiedział się o modelu Satoshi Nakamoto. Widzi on w sytuacji WikiLeaks okazję do zademonstrowania użyteczności Bitcoin. 10 listopada [napisał](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271) następującą wiadomość na forum:
+Haker, anarchista i [pokerzysta] (https://bitcointalk.org/index.php?topic=1487.0), niedawno dowiedział się o modelu Satoshiego Nakamoto. W sytuacji WikiLeaks widzi okazję do zademonstrowania użyteczności Bitcoina. 10 listopada [napisał](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271) następującą wiadomość na forum:
 
 
-> "Chciałem wysłać list do Wikileaks w sprawie Bitcoin, ponieważ niestety mieli kilka incydentów, w których ich fundusze zostały zajęte w przeszłości. [...] Czy ktoś wie, gdzie można wysłać do nich wiadomość?"
+> „Chciałem wysłać list do Wikileaks w sprawie Bitcoina, ponieważ w przeszłości niestety mieli kilka incydentów, w których ich fundusze zostały zajęte. [...] Czy ktoś wie, gdzie można wysłać do nich wiadomość?”
 
-Reakcje na tę propozycję są mieszane. [Według](https://bitcointalk.org/index.php?topic=1735.msg21283#msg21283) jednego z użytkowników (ShadowOfHarbringer), "to może być dobre dla wikileaks, ale niekoniecznie dobre dla Bitcoin" Inny (creighto) [pisze](https://bitcointalk.org/index.php?topic=1735.msg21415#msg21415), że "im później, tym lepiej. Im dłużej rządy zwlekają z działaniem, tym silniejsza staje się sieć Bitcoin i tym trudniej jej zaszkodzić"
-
-
-Kilka tygodni później, 3 grudnia, PayPal decyduje się zamrozić konto WikiLeaks i publikuje [oświadczenie](https://web.archive.org/web/20101206112350/https://www.thepaypalblog.com/2010/12/paypal-statement-regarding-wikileaks/) w nocy. Następnego ranka deweloper Wladimir van der Laan [przekazuje](https://bitcointalk.org/index.php?topic=1735.msg26737#msg26737) tę wiadomość na forum:
+Reakcje na tę propozycję są mieszane. [Według](https://bitcointalk.org/index.php?topic=1735.msg21283#msg21283) jednego z użytkowników (ShadowOfHarbringer), „to może być dobre dla wikileaks, ale niekoniecznie dobre dla Bitcoina”. Inny (creighto) [pisze](https://bitcointalk.org/index.php?topic=1735.msg21415#msg21415), że „im później, tym lepiej. Im dłużej rządy zwlekają z działaniem, tym silniejsza staje się sieć Bitcoin i tym trudniej jej zaszkodzić”.
 
 
-> "Paypal właśnie ich zablokował i próbują nakłonić inne amerykańskie banki do zrobienia tego samego. To byłby świetny moment na otwarcie darowizn Bitcoin"
-Ta ewolucja sytuacji intensyfikuje debatę. Jedna osoba szczególnie popiera akceptację Bitcoin przez WikiLeaks: Robert S. Horning, inżynier komputerowy mieszkający w Utah, który jest [blogerem](https://www.blogger.com/profile/12496217305843430098) i współtwórcą Wikipedii, i który odkrył Bitcoin po slashdottingu w lipcu. Tego dnia napisał długi tekst, w którym wyjaśnia, że wspieranie WikiLeaks jest moralnie słuszne i że państwo i tak prędzej czy później usłyszy o Bitcoin. Konkluduje:
+Kilka tygodni później, 3 grudnia, PayPal decyduje się zamrozić konto WikiLeaks i w nocy publikuje [oświadczenie](https://web.archive.org/web/20101206112350/https://www.thepaypalblog.com/2010/12/paypal-statement-regarding-wikileaks/). Następnego ranka deweloper Wladimir van der Laan [przekazuje](https://bitcointalk.org/index.php?topic=1735.msg26737#msg26737) tę wiadomość na forum:
 
-> "Zachęćmy Wikileaks do korzystania z Bitcoinów i jestem gotów stawić czoła wszelkiemu ryzyku lub skutkom tego działania"
+
+> „Paypal właśnie ich zablokował i próbują nakłonić inne amerykańskie banki do zrobienia tego samego. To byłby świetny moment na otwarcie darowizn w bitcoinach.”
+Taki rozwój sytuacji intensyfikuje debatę. Szczególnie jedna osoba popiera akceptację Bitcoina przez WikiLeaks: Robert S. Horning, inżynier komputerowy mieszkający w Utah, który jest [blogerem](https://www.blogger.com/profile/12496217305843430098) i współtwórcą Wikipedii, i który odkrył Bitcoina po slashdottingu w lipcu. Tego dnia napisał długi tekst, w którym wyjaśnia, że wspieranie WikiLeaks jest moralnie słuszne i że państwo i tak prędzej czy później usłyszy o Bitcoinie. Konkluduje:
+
+> „Zachęćmy Wikileaks do korzystania z Bitcoinów i jestem gotów stawić czoła wszelkiemu ryzyku lub skutkom tego działania”.
 
 ### Nagłe odejście Satoshiego
 
 
-Satoshi nie podziela poglądu Roberta Horninga i sprzeciwia się pomysłowi promowania Bitcoin w WikiLeaks. Jak świadczą jego słowa i czyny, zachowuje on wielką ostrożność w stosunku do władz państwowych, czasami graniczącą z [paranoją](https://mmalmi.github.io/Satoshi/#email-158). W związku z tym 5 grudnia zareagował na ten zapał, [odpowiadając](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999) ostro głównemu promotorowi:
+Satoshi nie podziela poglądu Roberta Horninga i sprzeciwia się pomysłowi promowania Bitcoina w WikiLeaks. Jak świadczą jego słowa i czyny, zachowuje on wielką ostrożność w stosunku do władz państwowych, czasami graniczącą z [paranoją](https://mmalmi.github.io/Satoshi/#email-158). W związku z tym 5 grudnia zareagował na ten zapał, [odpowiadając](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999) ostro głównemu promotorowi:
 
 
-> "Nie, nie 'dawaj'.
+> „Nie, nie 'dawaj'.
 >
 
-> Projekt musi rozwijać się stopniowo, aby oprogramowanie mogło być wzmacniane po drodze.
+> Projekt musi rozwijać się stopniowo, aby oprogramowanie mogło być wzmacniane w trakcie.
 >
 
-> Zwracam się z apelem do WikiLeaks, aby nie próbowało używać Bitcoin. &nbsp;Bitcoin to mała społeczność beta w powijakach. &nbsp;Nie uzyskalibyście więcej niż kieszonkowe, a ciepło, które byście przynieśli, prawdopodobnie zniszczyłoby nas na tym etapie."
+> Zwracam się z apelem do WikiLeaks, aby nie próbowało używać Bitcoina. &nbsp;Bitcoin to mała społeczność beta w powijakach. &nbsp;Nie uzyskalibyście więcej niż kieszonkowego, a żar, który byście przynieśli, prawdopodobnie zniszczyłoby nas na tym etapie.”
 
-W następnych dniach zorganizowano prawdziwą blokadę finansową przeciwko WikiLeaks, obejmującą Mastercard i Visa, ale także Western Union, Bank of America i inne podmioty, co [zagraża] (https://wikileaks.org/Banking-Blockade.html) finansowemu przetrwaniu organizacji pozarządowej. Ta ofensywa sprawia, że akceptacja Bitcoin staje się jeszcze bardziej istotna, a pomysł naturalnie się rozprzestrzenia.
-
-
-W dniu 11 grudnia na PC World, jednej z największych amerykańskich stron internetowych poświęconych komputerom, [opublikowano](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) artykuł podkreślający możliwość wykorzystania Bitcoin przez WikiLeaks. Tekst ten, napisany przez dziennikarza [Keira Thomasa](https://www.keirthomas.com/how-i-caused-the-Bitcoin-guy-to-go-into-hiding/), nosi tytuł "Czy skandal WikiLeaks może doprowadzić do powstania nowej wirtualnej waluty?". Puszka Pandory zostaje otwarta: artykuł PC World zostanie przeczytany przez wiele osób, w tym prawdopodobnie przez przedstawicieli WikiLeaks, co skłoni organizację pozarządową do rozważenia tego środka płatności. Artykuł szybko zostaje wspomniany na forum, a reakcja twórcy Bitcoin jest jednoznaczna. Pisze on [https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280]:
+W następnych dniach zorganizowano prawdziwą blokadę finansową przeciwko WikiLeaks, obejmującą Mastercard i Visa, ale także Western Union, Bank of America i inne podmioty, co [zagraża] (https://wikileaks.org/Banking-Blockade.html) finansowemu przetrwaniu organizacji pozarządowej. Ta ofensywa sprawia, że akceptacja Bitcoina staje się jeszcze bardziej istotna, a pomysł naturalnie się rozprzestrzenia.
 
 
-> "Byłoby miło zwrócić na siebie uwagę w jakimkolwiek innym kontekście. WikiLeaks wykopało gniazdo szerszeni, a rój zmierza w naszą stronę"
-
-Następnego dnia Satoshi [publikuje](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) swoją ostatnią publiczną wiadomość na forum, ogłaszając wydanie nowej wersji oprogramowania (v0.3.19), która znacznie poprawia zarządzanie atakami typu denial-of-service. Następnie wycofuje się z centrum uwagi, komunikując się prywatnie tylko z najbliższymi współpracownikami.
+W dniu 11 grudnia na PC World, jednej z największych amerykańskich stron internetowych poświęconych komputerom, [opublikowano](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) artykuł podkreślający możliwość wykorzystania Bitcoina przez WikiLeaks. Tekst ten, napisany przez dziennikarza [Keira Thomasa](https://www.keirthomas.com/how-i-caused-the-Bitcoin-guy-to-go-into-hiding/), nosi tytuł „Czy skandal WikiLeaks może doprowadzić do powstania nowej wirtualnej waluty?”. Puszka Pandory zostaje otwarta: artykuł PC World zostanie przeczytany przez wiele osób, w tym prawdopodobnie przez przedstawicieli WikiLeaks, co skłoni organizację pozarządową do rozważenia tego środka płatności. Artykuł szybko zostaje wspomniany na forum, a reakcja twórcy Bitcoina jest jednoznaczna. Pisze [https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280]:
 
 
-W kolejnych dniach artykuł opublikowany w PC World odniósł skutek. 14 grudnia wynalazek Satoshi zostaje wspomniany przez Electronic Frontier Foundation w [tekście](https://www.eff.org/deeplinks/2010/12/constructive-direct-action-against-censorship) dotyczącym cenzury WikiLeaks (później organizacja [opisze](https://www.eff.org/deeplinks/2011/01/Bitcoin-step-toward-censorship-resistant) Bitcoin jako "cyfrową walutę odporną na cenzurę"). Dwudziestego trzeciego kryptowaluta została [wspomniana](https://web.archive.org/web/20180226161051/http://www.youtube.com/watch?v=VMngK0t5WkY) w Keiser Report, programie finansowym prowadzonym przez Maxa Keisera i Stacy Herbert na rosyjskim kanale RT, ponownie w kontekście WikiLeaks. Ten przekaz medialny znacznie zwiększa uwagę poświęcaną Bitcoin, potwierdzając obawy Satoshi.
+> „Byłoby miło zwrócić na siebie uwagę w jakimkolwiek innym kontekście. WikiLeaks wykopało gniazdo szerszeni, a rój zmierza w naszą stronę.”
+
+Następnego dnia Satoshi [publikuje](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) swoją ostatnią publiczną wiadomość na forum, ogłaszając wydanie nowej wersji oprogramowania (v0.3.19), która znacznie poprawia zarządzanie atakami typu odmowa usługi. Następnie wycofuje się z centrum uwagi, komunikując się prywatnie tylko z najbliższymi współpracownikami.
+
+
+W kolejnych dniach artykuł opublikowany w PC World odniósł skutek. 14 grudnia wynalazek Satoshiego zostaje wspomniany przez Electronic Frontier Foundation w [tekście](https://www.eff.org/deeplinks/2010/12/constructive-direct-action-against-censorship) dotyczącym cenzury WikiLeaks (później organizacja [opisze](https://www.eff.org/deeplinks/2011/01/Bitcoin-step-toward-censorship-resistant) Bitcoina jako „cyfrową walutę odporną na cenzurę”). Dwudziestego trzeciego kryptowaluta została [wspomniana](https://web.archive.org/web/20180226161051/http://www.youtube.com/watch?v=VMngK0t5WkY) w Keiser Report, programie finansowym prowadzonym przez Maxa Keisera i Stacy Herbert na rosyjskim kanale RT, ponownie w kontekście WikiLeaks. Ten przekaz medialny znacznie zwiększa uwagę poświęcaną Bitcoinowi, potwierdzając obawy Satoshiego.
 
 
 ### Przekazanie dostępu i ostatnie wiadomości e-mail
@@ -1938,33 +1938,33 @@ W kolejnych dniach artykuł opublikowany w PC World odniósł skutek. 14 grudnia
 Od początku grudnia Satoshi zaczął organizować swoją sukcesję. Ponieważ planował odejść lub przynajmniej wycofać się, musiał przekazać różne obowiązki zaufanym osobom, w szczególności Marttiemu Malmi i Gavinowi Andresenowi. Nigdy jednak nie wyraził wobec nich swojego zamiaru.
 
 
-Po pierwsze, chciał dodać ich adresy e-mail do [strony kontaktowej](https://web.archive.org/web/20101215111454/http://www.Bitcoin.org/contact) witryny. 7 grudnia [wysłał](https://mmalmi.github.io/Satoshi/#email-245) wiadomość e-mail do Marttiego z pytaniem, czy mógłby "dodać go do listy twórców projektu na stronie kontaktowej", na co młody Fin przystał. Twórca Bitcoin zwrócił się z tą samą prośbą do Gavina, który również ją zaakceptował. Satoshi dodał ich adresy do strony i usunął swój. Gavin [powiedziałby](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316) kilka lat później:
+Po pierwsze, chciał dodać ich adresy e-mail do [strony kontaktowej](https://web.archive.org/web/20101215111454/http://www.Bitcoin.org/contact) witryny. 7 grudnia [wysłał](https://mmalmi.github.io/Satoshi/#email-245) wiadomość e-mail do Marttiego z pytaniem, czy mógłby „dodać go do listy twórców projektu na stronie kontaktowej”, na co młody Fin przystał. Twórca Bitcoina zwrócił się z tą samą prośbą do Gavina, który również ją zaakceptował. Satoshi dodał ich adresy do strony i usunął swój. Gavin [powie](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316) kilka lat później:
 
 
-> "\[Satoshi\] skończyło się na tym, że szybko mnie wykiwał, pytając, czy może umieścić mój e-mail Address na stronie głównej Bitcoin, a ja się zgodziłem, nie zdając sobie sprawy, że kiedy umieści tam mój e-mail Address, zabierze swój"
+> "\[Satoshi\] mnie wykiwał, pytając, czy może umieścić mój e-mail na stronie głównej Bitcoina, a ja się zgodziłem, nie zdając sobie sprawy, że kiedy umieści tam mój adres e-mail, usunie swój"
 
-Ale to nie wszystko. Satoshi chciał również przekazać kontrolę nad oprogramowaniem Gavinowi Andresenowi. Gavin, któremu już wcześniej przyznano dostęp do repozytorium na SourceForge [w październiku](https://sourceforge.net/p/Bitcoin/code/165/), został głównym opiekunem repozytorium. 19 grudnia [utworzył](https://api.github.com/repos/Bitcoin/Bitcoin) repozytorium na GitHubie, prawdopodobnie czując się bardziej komfortowo z Gitem. Tego samego dnia napisał długą wiadomość na forum, wyjaśniając, że będzie bardziej zaangażowany w rozwój. [Ogłosił](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651):
+Ale to nie wszystko. Satoshi chciał również przekazać kontrolę nad oprogramowaniem Gavinowi Andresenowi. Gavin, któremu już wcześniej przyznano dostęp do repozytorium na SourceForge [w październiku](https://sourceforge.net/p/Bitcoin/code/165/), został głównym opiekunem repozytorium. 19 grudnia [utworzył](https://api.github.com/repos/Bitcoin/Bitcoin) repozytorium na GitHubie, prawdopodobnie czując się bardziej komfortowo z Gitem. Tego samego dnia napisał długą wiadomość na forum, wyjaśniając, że będzie bardziej zaangażowany jako deweloper. [Ogłosił](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651):
 
 
-> "Z błogosławieństwem Satoshi i z wielką niechęcią, zamierzam zacząć bardziej aktywnie zarządzać projektem Bitcoin"
+> „Z błogosławieństwem Satoshiego i z wielką niechęcią, zamierzam zacząć bardziej aktywnie zarządzać projektem Bitcoin.”
 
-Satoshi przekazał kontrolę nad stroną, forum i wiki Marttiemu, który już wcześniej współzarządzał Elements. Następnie definitywnie zniknął wiosną 2011 roku.
+Satoshi przekazał kontrolę nad stroną, forum i wiki Marttiemu, który już wcześniej współzarządzał tymi elementami. Następnie definitywnie zniknął wiosną 2011 roku.
 
-Wśród ostatnich osób, które komunikowały się z Satoshi był również Mike Hearn, inżynier Google, który zwrócił się do niego dwa lata wcześniej. Hearn ponownie nawiązał kontakt z twórcą Bitcoin w grudniu 2010 roku, aby zadać mu więcej pytań technicznych. Hearn [pracował](https://plan99.net/~mike/Satoshi-emails/thread3.html) nad "implementacją uproszczonej weryfikacji płatności w Javie, z myślą o zbudowaniu klienta działającego na telefonach z Androidem" (*oryginał: "I have been working on a Java implementation of the simplified payment verification, with an eye to building a client that runs on Android phones. "*) Obaj mężczyźni wymieniali wiadomości do 23 kwietnia. W swoim [ostatnim e-mailu](https://plan99.net/~mike/Satoshi-emails/thread5.html) do Mike'a Hearna, Satoshi oświadczył, że "przeszedł do innych rzeczy" i że Bitcoin jest "w dobrych rękach z Gavinem i innymi" (*oryg: "I've moved on to other things. &nbsp;It's in good hands with Gavin and everyone. "*).
+Wśród ostatnich osób, które komunikowały się z Satoshim był również Mike Hearn, inżynier Google, który zwrócił się do niego dwa lata wcześniej. Hearn ponownie nawiązał kontakt z twórcą Bitcoina w grudniu 2010 roku, aby zadać mu więcej pytań technicznych. Hearn [pracował](https://plan99.net/~mike/Satoshi-emails/thread3.html) nad „implementacją uproszczonej weryfikacji płatności w Javie, z myślą o zbudowaniu klienta działającego na telefonach z Androidem”. (*oryginał: "I have been working on a Java implementation of the simplified payment verification, with an eye to building a client that runs on Android phones. "*) Obaj mężczyźni wymieniali wiadomości do 23 kwietnia. W swoim [ostatnim e-mailu](https://plan99.net/~mike/Satoshi-emails/thread5.html) do Mike'a Hearna, Satoshi oświadczył, że „zaczął zajmować się innymi rzeczami” i że Bitcoin jest „w dobrych rękach z Gavinem i innymi” (*oryg: "I've moved on to other things. &nbsp;It's in good hands with Gavin and everyone. "*).
 
 
 W dniu 26 kwietnia 2011 r. Satoshi wysłał [wiadomość końcową](http://gavinandresen.ninja/eleven-years-ago-today) pocztą elektroniczną do Gavina, w której napisał:
 
 
-> "Chciałbym, żebyście nie mówili o mnie jako o tajemniczej, zacienionej postaci, prasa po prostu zamienia to w piracką walutę. Może zamiast tego niech to będzie o projekcie open source i dajcie więcej uznania waszym twórcom; to pomaga ich zmotywować"
+> „Chciałbym, żebyście nie mówili o mnie jako o tajemniczej, podejrzanej osobie, prasa przedstawia to potem tak, jakby chodziło o walutę przestepców. Może zamiast tego niech to będzie o projekcie open source i dajcie więcej uznania waszym twórcom; to pomaga ich zmotywować”.
 
-W tym przypadku Satoshi odnosił się do [artykułu](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) Andy'ego Greenberga opublikowanego na stronie internetowej Forbesa kilka dni wcześniej, w którym został przedstawiony jako "tajemnicza, obsesyjna na punkcie prywatności postać" (*oryginał: "a mysterious, privacy-obsessed figure "*) i gdzie Bitcoin został podkreślony jako środek do pozyskiwania nielegalnych narkotyków (w rzeczywistości był to okres, w którym platforma Silk Road zaczęła odnosić sukcesy). W swojej wiadomości e-mail do Gavina, Satoshi załączył również klucz alarmowy, który mógł zostać wykorzystany do ostrzeżenia sieci w przypadku problemów technicznych.
-
-
-Na początku maja pożegnał się również z Marttim. Jego ostatnie słowa skierowane do pierwszej prawej ręki brzmiały:
+W tym przypadku Satoshi odnosił się do [artykułu](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) Andy'ego Greenberga opublikowanego na stronie internetowej Forbesa kilka dni wcześniej, w którym został przedstawiony jako „tajemnicza, obsesyjna na punkcie prywatności postać” (*oryginał: "a mysterious, privacy-obsessed figure "*) i gdzie Bitcoin został zaprezentowany jako środek do pozyskiwania nielegalnych narkotyków (w rzeczywistości był to okres, w którym platforma Silk Road zaczęła odnosić sukcesy). W swojej wiadomości e-mail do Gavina, Satoshi załączył również klucz alarmowy, który mógł zostać wykorzystany do ostrzeżenia sieci w przypadku problemów technicznych.
 
 
-> "Zająłem się innymi sprawami i prawdopodobnie nie będzie mnie w przyszłości"
+Na początku maja pożegnał się również z Marttim. Jego ostatnie słowa skierowane do swojej pierwszej prawej ręki brzmiały:
+
+
+> „Zająłem się innymi sprawami i prawdopodobnie nie będzie mnie w przyszłości”
 > Digital Gold s. 81
 
 ### CIA, WikiLeaks i EFF

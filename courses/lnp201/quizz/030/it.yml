@@ -1,4 +1,4 @@
-question: Come si può inviare fondi a un nodo che non è direttamente connesso?
+question: Come si possono inviare fondi a un nodo che non è direttamente connesso?
 answer: Instradando il pagamento attraverso nodi intermediari
 wrong_answers:
   - Utilizzando transazioni on-chain tra ogni nodo

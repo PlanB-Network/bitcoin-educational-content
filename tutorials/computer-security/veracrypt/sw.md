@@ -62,88 +62,101 @@ Inaruhusu usimbaji wa:
 Faida kubwa ya VeraCrypt ukilinganisha na programu za wamiliki ni kwamba ni **chanzo-wazi (open-source)**, na hivyo mtu yeyote anaweza kuchunguza na kuthibitisha usalama wake.
 
 
-VeraCrypt inaweza kutumika kusimba faili kwa njia fiche ndani ya nchi au sehemu zote, pamoja na diski ya mfumo. Inaweza pia kutumiwa kusimba kwa njia fiche kiunganishi cha nje kama vile kijiti cha USB au diski kama tutakavyoona katika somo hili.
+VeraCrypt inaweza kutumika kusimba faili kwa njia fiche—iwe kwa sehemu maalum au kizigeu kizima—ikiwemo hata diski ya mfumo. Pia, inaweza kutumika kusimba vifaa vya kuhifadhi vya nje kama vile kijiti cha USB au diski ya nje, kama utakavyojifunza katika somo hili.
 
+Faida kuu ya VeraCrypt dhidi ya suluhisho za kibiashara ni kwamba ni **chanzo-wazi (open source)**, maana yake msimbo wake unaweza kukaguliwa na kuthibitishwa na mtu yeyote. Hili linaimarisha uwazi na uaminifu wa programu.
 
-Faida kuu ya VeraCrypt juu ya suluhisho za wamiliki ni kwamba ni chanzo wazi kabisa, ikimaanisha kuwa nambari yake inaweza kuthibitishwa na mtu yeyote.
-
+---
 
 ## Jinsi ya kufunga VeraCrypt?
 
-
-Nenda kwenye [tovuti rasmi ya VeraCrypt](https://www.veracrypt.fr/en/Downloads.html) katika kichupo cha "*Vipakuliwa*".
+1. Tembelea [tovuti rasmi ya VeraCrypt](https://www.veracrypt.fr/en/Downloads.html) kisha nenda kwenye kichupo cha **Downloads**.
 
 ![VeraCrypt](assets/notext/05.webp)
 
-Pakua toleo linalofaa kwa mfumo wako wa uendeshaji. Ikiwa uko kwenye Windows, chagua "* EXE Installer*".
+2. Pakua toleo linalolingana na mfumo wako wa uendeshaji. Kwa mfano, ikiwa unatumia Windows, chagua chaguo la **EXE Installer**.
 
 ![VeraCrypt](assets/notext/06.webp)
 
-Chagua lugha ya Interface yako.
+3. Chagua lugha ya kiolesura (interface) utakayotumia.
 
 ![VeraCrypt](assets/notext/07.webp)
 
-Kubali masharti ya leseni.
+4. Kubali masharti ya leseni ya matumizi.
 
 ![VeraCrypt](assets/notext/08.webp)
 
-Chagua "* Sakinisha *".
+5. Bofya **Sakinisha** ili kuanza mchakato wa usakinishaji.
 
 ![VeraCrypt](assets/notext/09.webp)
 
-Hatimaye, chagua folda ambapo programu itasakinishwa, kisha ubofye kitufe cha "*Sakinisha*".
+6. Chagua folda utakayopendelea programu isakinishwe, kisha bofya tena **Sakinisha**.
 
 ![VeraCrypt](assets/notext/10.webp)
 
-Subiri usakinishaji ukamilike.
+7. Subiri hadi mchakato wa usakinishaji ukamilike.
 
 ![VeraCrypt](assets/notext/11.webp)
 
-Ufungaji umekamilika.
+8. Ufungaji umekamilika! Sasa unaweza kuanza kuitumia.
 
 ![VeraCrypt](assets/notext/12.webp)
 
-Ukipenda, unaweza kutoa mchango katika bitcoins ili kusaidia uundaji wa zana hii ya chanzo-wazi.
+💡 *Iwapo ungependa kusaidia maendeleo ya VeraCrypt, unaweza kuchangia kwa Bitcoin kupitia tovuti yao.*
 
 ![VeraCrypt](assets/notext/13.webp)
 
-## Jinsi ya kusimba kifaa cha kuhifadhi na VeraCrypt?
+---
 
+## Jinsi ya kusimba kifaa cha kuhifadhi kwa kutumia VeraCrypt?
 
-Baada ya uzinduzi wa kwanza, utafika kwenye Interface hii:
+Baada ya kufungua VeraCrypt kwa mara ya kwanza, utaona kiolesura kama hiki:
 
 ![VeraCrypt](assets/notext/14.webp)
 
-Ili kusimba kwa njia fiche kifaa cha kuhifadhi unachopenda, anza kwa kukiunganisha kwenye mashine yako. Kama utakavyoona baadaye, mchakato wa kuunda sauti mpya iliyosimbwa kwa fimbo ya USB au kiendeshi cha Hard itachukua muda mrefu zaidi ikiwa kifaa tayari kina data ambayo hutaki kufuta. Kwa hiyo, ninapendekeza kutumia fimbo tupu ya USB au kufuta kifaa kabla ili kuunda kiasi kilichosimbwa, ili kuokoa muda.
+Ili kuanza usimbaji wa kifaa cha kuhifadhi (mfano: USB au diski ya nje), kwanza kifikishe kwenye kompyuta yako. Kama kifaa tayari kina data unayotaka kuhifadhi, mchakato wa usimbaji unaweza kuchukua muda mrefu zaidi. Hivyo, inashauriwa kutumia kifaa kilicho tupu au kufuta data kabla ya kuanza ili kuharakisha mchakato wa kuunda kiasi kilichosimbwa.
 
-
-Kwenye VeraCrypt, bofya kwenye kichupo cha "*Volumes*".
+Kwenye menyu ya VeraCrypt, bofya **"Volumes"**.
 
 ![VeraCrypt](assets/notext/15.webp)
 
-Kisha kwenye menyu ya "*Unda Kiasi Kipya...*".
+Kisha chagua **"Unda Kiasi Kipya..."** (Create New Volume).
 
 ![VeraCrypt](assets/notext/16.webp)
 
-Katika dirisha jipya linalofungua, chagua chaguo "*Simba sehemu isiyo ya mfumo/kiendesha*" na ubofye "*Inayofuata*".
+Katika dirisha jipya, chagua **"Simba sehemu isiyo ya mfumo/kiendesha"** (*Encrypt a non-system partition/drive*) kisha bofya **"Inayofuata"**.
 
 ![VeraCrypt](assets/notext/17.webp)
 
-Kisha itabidi uchague kati ya "*Kiasi cha Kawaida cha VeraCrypt*" na "*Hidden VeraCrypt Volume*". Chaguo la kwanza huunda sauti ya kawaida iliyosimbwa kwenye kifaa chako. Chaguo la "*Hidden VeraCrypt Volume*" huruhusu kuunda sauti iliyofichwa ndani ya sauti ya kawaida ya VeraCrypt. Njia hii inakuwezesha kukataa kuwepo kwa kiasi hiki kilichofichwa katika kesi ya kulazimishwa. Kwa mfano, ikiwa mtu atakulazimisha kusimbua kifaa chako, unaweza kusimbua sehemu ya kawaida pekee ili kumridhisha mvamizi lakini usifichue sehemu iliyofichwa. Katika mfano wangu, nitashikamana na kiasi cha kawaida.
+Kisha chagua mojawapo ya chaguzi mbili:
+
+- **Kiasi cha Kawaida cha VeraCrypt** (*Standard VeraCrypt Volume*): Hii huunda kiasi kilichosimbwa kwa kawaida.
+- **Kiasi cha Siri cha VeraCrypt** (*Hidden VeraCrypt Volume*): Hii huunda kiasi cha siri ndani ya kiasi kingine.
+
+Kwa mfano huu, tuchague **Kiasi cha Kawaida cha VeraCrypt**.
 
 ![VeraCrypt](assets/notext/18.webp)
 
-Kwenye ukurasa unaofuata, bofya kitufe cha "*Chagua Kifaa...*".
+Kwenye ukurasa unaofuata, bofya **"Chagua Kifaa..."**.
 
 ![VeraCrypt](assets/notext/19.webp)
 
-Dirisha jipya litafungua ambapo unaweza kuchagua sehemu ya kifaa chako cha kuhifadhi kutoka kwenye orodha ya diski zinazopatikana kwenye mashine yako. Kwa kawaida, kizigeu unachotaka kusimba kitaorodheshwa chini ya mstari unaoitwa "*Removable Diski N*". Baada ya kuchagua sehemu inayofaa, bonyeza kitufe cha "* OK *".
+Dirisha jipya litaonyesha vifaa vyote vya kuhifadhi vinavyopatikana. Chagua kifaa unachotaka kusimba (kawaida huorodheshwa chini ya "**Removable Disk N**") kisha bofya **"OK"**.
 
 ![VeraCrypt](assets/notext/20.webp)
 
-Usaidizi uliochaguliwa unaonekana kwenye kisanduku. Sasa unaweza kubofya kitufe cha "*Next*". ![VeraCrypt](assets/notext/21.webp)
+Baada ya kuchagua, kifaa kitaonekana kwenye kisanduku cha uteuzi. Bofya **"Next"**.
 
-Ifuatayo, utahitaji kuchagua kati ya chaguo "*Unda sauti iliyosimbwa na uiumbie*" au "*Simba kizigeu mahali*". Kama ilivyoelezwa hapo awali, chaguo la kwanza litafuta kabisa data yote kwenye fimbo yako ya USB au kiendeshi cha Hard. Chagua chaguo hili tu ikiwa kifaa chako ni tupu; vinginevyo, utapoteza data yote iliyomo. Iwapo ungependa kuhifadhi data iliyopo, unaweza kuihamisha kwa muda mahali pengine, chagua "*Unda sauti iliyosimbwa kwa njia fiche na uiumbie*" kwa mchakato wa haraka ambao utafuta kila kitu, au uchague "*Kigawanyaji kwa njia fiche mahali pake*". Chaguo hili la mwisho huruhusu kusimba sauti bila kufuta data iliyopo, lakini mchakato utakuwa mrefu zaidi. Kwa mfano huu, kwa kuwa fimbo yangu ya USB haina kitu, mimi huchagua "* Unda kiasi kilichosimbwa na uitishe *", chaguo ambalo hufuta kila kitu.
+![VeraCrypt](assets/notext/21.webp)
+
+Chagua mojawapo ya chaguzi mbili:
+
+- **"Unda kiasi kilichosimbwa na uifute diski"** (*Create encrypted volume and format it*): Hii itafuta kila kitu kwenye kifaa na kuunda kiasi kipya kilichosimbwa.
+- **"Simba kizigeu kilichopo mahali pake"** (*Encrypt partition in place*): Hii itasimba data bila kuifuta, lakini mchakato ni mrefu zaidi na una hatari kubwa.
+
+*Chagua chaguo la kwanza tu ikiwa kifaa ni tupu au tayari umehifadhi nakala ya data.*
+
+Kwa mfano huu, tuchague **"Unda kiasi kilichosimbwa na uifute diski"**.
 
 ![VeraCrypt](assets/notext/22.webp)
 

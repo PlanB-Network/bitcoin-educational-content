@@ -1,0 +1,9 @@
+question: Quel mécanisme doit être activé dans l’UEFI pour empêcher l’exécution de code non signé lors du démarrage ?
+answer: Secure Boot
+wrong_answers:
+  - Fast Boot
+  - Fast Startup
+  - Trusted Platform Module (TPM)
+explanation: |
+  Secure Boot permet d’assurer que seuls des logiciels authentifiés peuvent démarrer avec le système, ce qui limite ainsi les risques d’infection par bootkit/rootkit.
+reviewed: false

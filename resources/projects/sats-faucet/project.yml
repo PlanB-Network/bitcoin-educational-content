@@ -1,0 +1,22 @@
+id: 8e2df34b-c904-47e1-9165-b321dc3f9a44
+name: SatsFaucet
+category: service
+
+links:
+  website: https://www.satsfaucet.com/
+  twitter: https://x.com/satsfaucet
+  youtube: https://www.youtube.com/@satsfaucet
+
+tags:
+  - use-case
+  - business
+  - adoption
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-21
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

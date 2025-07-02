@@ -43,109 +43,109 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 81.8
+    reward: 83.05
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 61.37
+    reward: 62.31
   - language: en
     last_contribution_date: 2024-06-30
     urgency: 1
     contributor_names:
       - melontwist
-    reward: 30.69
+    reward: 31.16
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 30.69
+    reward: 31.16
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 81.8
+    reward: 83.05
   - language: fr
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sosylos
-    reward: 31.08
+    reward: 31.16
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 30.69
+    reward: 31.16
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 122.65
+    reward: 124.53
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 62.15
+    reward: 62.31
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 82.84
+    reward: 83.05
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 62.1
+    reward: 62.26
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 81.8
+    reward: 83.05
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 102.22
+    reward: 103.79
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 51.76
+    reward: 51.89
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 81.8
+    reward: 83.05
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 82.84
+    reward: 83.05
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 144.9
+    reward: 145.26
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 82.84
+    reward: 83.05
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 41.42
+    reward: 41.53
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 103.53
+    reward: 103.79
 tags:
   - guides
   - business

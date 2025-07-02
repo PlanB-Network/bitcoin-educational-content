@@ -1,0 +1,9 @@
+question: Quel appareil joue le rôle de frontière entre Internet et votre réseau privé domestique ?
+answer: Modem-routeur
+wrong_answers:
+  - Switch Ethernet
+  - Serveur NAS
+  - Hub USB
+explanation: |
+  Le modem-routeur relie le réseau de l’ISP à votre réseau local et gère l’attribution des adresses IP locales.
+reviewed: false

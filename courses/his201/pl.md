@@ -1699,33 +1699,33 @@ Jednak jesień była sukcesem nie tylko dla wydobycia. Był to również sukces 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
 
 
-W poprzednim rozdziale zbadaliśmy, jak Mining rozwijał się w drugiej połowie 2010 roku. Jesienią ten postęp był już dobrze ugruntowany. Jednak Mining nie był jedynym aspektem Bitcoin, który odniósł sukces: jego ekosystem również.
+W poprzednim rozdziale zbadaliśmy, jak wydobycie rozwijało się w drugiej połowie 2010 roku. Jesienią ten postęp był już dobrze ugruntowany. Jednak wydobycie nie było jedynym aspektem Bitcoina, który odniósł sukces: jego ekosystem również.
 
 
-Tutaj najpierw Address początek międzynarodowego eksportu Bitcoin wraz z rozwojem społeczności rosyjskiej i francuskiej. Następnie omówimy poprawę komunikacji i wzrost gospodarczy, które w szczególności doprowadziły do nowego wzrostu ceny jednostkowej Bitcoin. Na koniec wspomnimy o dwóch bardzo symbolicznych wydarzeniach poprzedzających odejście Satoshi: akceptacji Bitcoin przez Electronic Frontier Foundation i powrocie Hala Finneya.
+Tutaj opiszemy początek międzynarodowego eksportu Bitcoina wraz z rozwojem społeczności rosyjskiej i francuskiej. Następnie omówimy poprawę komunikacji i wzrost gospodarczy, które doprowadziły do nowego wzrostu ceny jednostkowej Bitcoina. Na koniec wspomnimy o dwóch bardzo symbolicznych wydarzeniach poprzedzających odejście Satoshiego: o akceptacji Bitcoina przez Electronic Frontier Foundation i o powrocie Hala Finneya.
 
 
 ### Bitcoin w innych językach
 
 
-Bitcoin jest projektem międzynarodowym i jako taki musi być dostępny dla jak największej liczby osób spoza sfery anglojęzycznej. Dlatego też społeczność [koordynowana](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) rozpoczęła w maju 2010 roku tłumaczenie strony internetowej i graficznego Interface oprogramowania na kilka języków. Włoski, niemiecki i holenderski zostały w szczególności uwzględnione.
+Bitcoin jest projektem międzynarodowym i jako taki musi być dostępny dla jak największej liczby osób spoza sfery anglojęzycznej. Dlatego też w maju 2010 roku społeczność [rozpoczęła](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) tłumaczenie strony internetowej i interfejsu graficznego oprogramowania na kilka języków. Włoski, niemiecki i holenderski zostały uwzględnione jako pierwsze.
 
 
-Ale to nie wszystko. Pod koniec lipca Martti Malmi rozpoczął tworzenie podforów dedykowanych osobom nieanglojęzycznym. Jako pierwsza powstała społeczność rosyjska: na prośbę pewnego bitcoinexa, dedykowane podforum zostało [utworzone](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241) 28 lipca. Następnie utworzono [wątki dyskusyjne](https://web.archive.org/web/20101018144227/http://www.Bitcoin.org:80/smf/index.php?board=11.0) poświęcone innym społecznościom językowym: Włoskiej, holenderskiej, japońskiej i katalońskiej w sierpniu; hiszpańskiej we wrześniu; i wreszcie niemieckiej w październiku. Jednak żadna grupa nie dorównała społeczności rosyjskiej i wymieniono tylko kilka wiadomości.
+Ale to nie wszystko. Pod koniec lipca Martti Malmi rozpoczął tworzenie podforów dedykowanych osobom nieanglojęzycznym. Jako pierwsza powstała społeczność rosyjska: na prośbę pewnego bitcoinexa, dedykowane podforum zostało [utworzone](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241) 28 lipca. Następnie utworzono [wątki dyskusyjne](https://web.archive.org/web/20101018144227/http://www.Bitcoin.org:80/smf/index.php?board=11.0) poświęcone innym społecznościom językowym: włoskiej, holenderskiej, japońskiej i katalońskiej w sierpniu; hiszpańskiej we wrześniu; i wreszcie niemieckiej w październiku. Jednak żadna grupa nie dorównała zainteresowaniem społeczności rosyjskiej i wymieniono tylko kilka wiadomości.
 
 
-To właśnie w społeczności francuskiej sytuacja uległa zmianie, zwłaszcza dzięki działaniom jednej osoby: Luciena Grondina, znanego również pod pseudonimem grondilu. 26 września odkrył on Bitcoin i od razu był entuzjastycznie nastawiony do projektu. Późnym wieczorem napisał [na IRC](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/Bitcoin-dev/logs/2010/09/26#l1285544830):
+To właśnie w społeczności francuskiej sytuacja uległa zmianie, zwłaszcza dzięki działaniom jednej osoby: Luciena Grondina, znanego również pod pseudonimem grondilu. 26 września odkrył on Bitcoina i od razu był entuzjastycznie nastawiony do projektu. Późnym wieczorem napisał [na IRC](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/Bitcoin-dev/logs/2010/09/26#l1285544830):
 
 
-> "Nie mogę spać! Ciągle myślę o tym wspaniałym sprzęcie. Dla mnie Bitcoin to "złoto cyberprzestrzeni". Jestem po prostu zdumiony."
+> „Nie mogę spać! Ciągle myślę o tym wspaniałym wynalazku. Dla mnie Bitcoin to „złoto cyberprzestrzeni”. Jestem po prostu zdumiony.”
 
-Kilka dni później, 30-go, opublikował [informację prasową](https://linuxfr.org/news/connaissez-vous-les-bitcoins) w języku francuskim na LinuxFr.org (DLFP). Informacja ta, zatytułowana "Czy wiesz o bitcoinach?", jest prawdopodobnie pierwszą prezentacją Bitcoin napisaną w języku Moliera. Artykuł dotarł do dużej liczby osób, generując prawie 350 komentarzy. Oto pierwszy akapit, jaki [pojawił się](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) w tamtym czasie:
+Kilka dni później, 30-go, opublikował [informację prasową](https://linuxfr.org/news/connaissez-vous-les-bitcoins) w języku francuskim na LinuxFr.org (DLFP). Informacja ta, zatytułowana „Czy znasz bitcoiny?”, jest prawdopodobnie pierwszą prezentacją Bitcoina napisaną w języku Moliera. Artykuł dotarł do dużej liczby osób, generując prawie 350 komentarzy. Oto pierwszy akapit, jaki [pojawił się](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) w tamtym czasie:
 
 
 ![Do you know about bitcoins?](assets/en/52.webp)
 
 
-W szczególności, wiadomość ta zwróciła uwagę niejakiego Plouma, naprawdę nazywającego się Lionel Dricot, 29-letniego belgijskiego blogera i zwolennika wolnego oprogramowania. W dniu 25 października [opublikował](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) artykuł na swoim blogu zatytułowany "Geek Currency, Monkey Money?", w którym opowiada się za decentralizacją i wspiera zasadę Bitcoin. Wielu francuskojęzycznych użytkowników Internetu dowiedziało się o Bitcoin w ten sposób, w tym [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), deweloper, który stworzył Bitcoin Cash w 2017 roku.
+Wiadomość ta zwróciła uwagę niejakiego Plouma, czyli Lionela Dricota, 29-letniego belgijskiego blogera i zwolennika wolnego oprogramowania. W dniu 25 października [opublikował](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) artykuł na swoim blogu zatytułowany „Geek Currency, Monkey Money?”, w którym opowiada się za decentralizacją i wspiera zasady, na których opiera się Bitcoin. Wielu francuskojęzycznych użytkowników Internetu dowiedziało się o Bitcoine w ten sposób, w tym [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), deweloper, który stworzył Bitcoin Cash w 2017 roku.
 
 
 ![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/53.webp)
@@ -1733,18 +1733,18 @@ W szczególności, wiadomość ta zwróciła uwagę niejakiego Plouma, naprawdę
 Lionel Dricot (Ploum) w 2012 r., wówczas kandydat pod szyldem Partii Piratów w wyborach samorządowych w Belgii (źródło: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
 
-Tego samego dnia Ploum otworzył [wątek dyskusyjny](https://bitcointalk.org/index.php?topic=1567.0) "Francuski" na forum Bitcoin. Wiadomości od francuskojęzycznych członków forum przybywało w kolejnych miesiącach. W szczególności uczestniczyli w nim David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), zarejestrowany 17 października i przyszły założyciel Bitcoin-Central, oraz Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), zarejestrowany 7 listopada i przyszły właściciel platformy Mt. Gox. Zaangażował się w nią również niejaki Jean-Luc, który otworzył stronę [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.Bitcoin.fr:80/) 23 grudnia i zaczął ją [promować](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) w styczniu. Francuskie podforum](https://web.archive.org/web/20110217005824/http://www.Bitcoin.org/smf/index.php?board=13.0) zostało ostatecznie utworzone przez Martti Malmi 1 lutego 2011 roku.
+Tego samego dnia Ploum otworzył francuski [wątek dyskusyjny](https://bitcointalk.org/index.php?topic=1567.0) na forum Bitcoin. Wiadomości od francuskojęzycznych członków forum przybywało w kolejnych miesiącach. Szczególnie aktywni byli David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), zarejestrowany 17 października i przyszły założyciel Bitcoin-Central, oraz Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), zarejestrowany 7 listopada i przyszły właściciel platformy Mt. Gox. Zaangażował się w nią również niejaki Jean-Luc, który otworzył stronę [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.Bitcoin.fr:80/) 23 grudnia i zaczął ją [promować](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) w styczniu. [Francuskie podforum](https://web.archive.org/web/20110217005824/http://www.Bitcoin.org/smf/index.php?board=13.0) zostało ostatecznie utworzone przez Marttiego Malmi 1 lutego 2011 roku.
 
 
 ### Rozwój komunikacji
 
-Oprócz rozwoju społeczności językowych, istnieje pewna innowacja w metodach komunikacji na temat Bitcoin. 4 października 38-letni Australijczyk posługujący się pseudonimem noagendamarket [uruchomił](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) inicjatywę o nazwie BitcoinMedia. Pomysł polega na promowaniu Bitcoin poprzez tworzenie różnych treści i reklamowanie ich w miejscach, które mogą przyciągnąć odbiorców. Chociaż inicjatywa ta nie odniosła oczekiwanego sukcesu, ma tę zaletę, że doprowadziła do wyprodukowania pierwszych filmów opowiadających o Bitcoin. Pierwszy film na kanale, [opublikowany](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) 5 października, to Google Search Story, stworzony przy użyciu narzędzia Youtube (patrz zrzut ekranu poniżej). Pozostałe filmy zostaną wygenerowane za pomocą Xtranormal, łatwego narzędzia do tworzenia sekwencji wideo z zestawu wstępnie zaprojektowanych postaci i ustawień.
+Oprócz rozwoju społeczności językowych, pojawia się pewna innowacja w metodach komunikacji na temat Bitcoina. 4 października 38-letni Australijczyk posługujący się pseudonimem noagendamarket [uruchomił](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) inicjatywę o nazwie BitcoinMedia. Pomysł polega na promowaniu Bitcoina poprzez tworzenie różnych treści i reklamowanie ich w miejscach, które mogą przyciągnąć odbiorców. Chociaż inicjatywa ta nie odniosła oczekiwanego sukcesu, ma tę zaletę, że doprowadziła do wyprodukowania pierwszych filmów opowiadających o Bitcoinie. Pierwszy film na kanale, [opublikowany](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) 5 października, to Google Search Story, stworzony przy użyciu narzędzia Youtube (patrz zrzut ekranu poniżej). Pozostałe filmy zostaną wygenerowane za pomocą Xtranormal, łatwego narzędzia do tworzenia sekwencji wideo z zestawu wstępnie zaprojektowanych postaci i ustawień.
 
 
 ![First video on Bitcoin (Google Search Story)](assets/en/54.webp)
 
 
-Wpisy na blogach dotyczące Bitcoin mnożą się w tym okresie. Dotyczy to w szczególności Jona Matonisa, który prowadzi blog *The Monetary Future*, gdzie omawia tematy związane z walutami cyfrowymi, wolną bankowością i kryptografią. W marcu odkrył Bitcoin i [wymienił się](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514) z Satoshi, po czym zaczął pisać na ten temat. W październiku publikuje [trzeci artykuł](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html), w którym mówi o wzroście cen i szczegółowo opisuje nowości ekosystemu.
+Wpisy na blogach dotyczące Bitcoina mnożą się w tym okresie. Dotyczy to w szczególności Jona Matonisa, który prowadzi blog *The Monetary Future*, gdzie omawia tematy związane z walutami cyfrowymi, wolną bankowością i kryptografią. W marcu odkrył Bitcoina i [napisał](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514) do Satoshiego, po czym zaczął pisać na ten temat. W październiku publikuje [trzeci artykuł](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html), w którym mówi o wzroście cen i szczegółowo opisuje nowości ekosystemu.
 
 
 ![Profile picture of Jon Matonis in 2011](assets/en/55.webp)
@@ -1752,7 +1752,7 @@ Wpisy na blogach dotyczące Bitcoin mnożą się w tym okresie. Dotyczy to w szc
 Zdjęcie profilowe Jona Matonisa w 2011 roku (źródło: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 
-W tym czasie zaproponowano również nowe logo Bitcoin. 1 listopada członek forum posługujący się pseudonimem bitboy [opublikował](https://bitcointalk.org/index.php?topic=1631.0) grafikę Elements mającą na celu wyróżnienie kryptowaluty. Jednym z tych Elements jest pomarańczowe logo z przekreśloną literą B i lekko przechylone:
+W tym czasie zaproponowano również nowe logo Bitcoina. 1 listopada członek forum posługujący się pseudonimem bitboy [opublikował](https://bitcointalk.org/index.php?topic=1631.0) elementy graficzne mające na celu wyróżnienie kryptowaluty. Jednym z nich jest pomarańczowe logo z lekko pochyloną przekreśloną literą B:
 
 
 ![Bitcoin logo designed by bitboy, November 2010](assets/en/56.webp)
@@ -1760,9 +1760,9 @@ W tym czasie zaproponowano również nowe logo Bitcoin. 1 listopada członek for
 
 ### Rozwijająca się gospodarka
 
-Okres ten charakteryzuje się również znacznym wzrostem ekosystemu na poziomie ekonomicznym. Jesienią 2010 roku istnieją platformy takie jak Mt. Gox, Bitcoin Market i kilka innych, ale to nie wystarczy. W ten sposób giełdy pozagiełdowe zaczynają się mnożyć. Oprócz wymiany, która odbywa się za pośrednictwem prywatnych wiadomości na forum, wprowadzono nieco bardziej rygorystyczny system: #Bitcoin-otc. Jest to kanał IRC na Freenode [otwarty](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) przez użytkownika o pseudonimie nanotube 18 października. Księga zamówień jest hostowana na [powiązanej stronie internetowej](https://web.archive.org/web/20101027090714/http://Bitcoin-otc.com/vieworderbook.php), a wymiany odbywają się bezpośrednio między stronami, bez depozytu escrow, za pośrednictwem różnych metod płatności (PayPal, Liberty Reserve). Liczba usług akceptujących Bitcoin również wzrasta, nawet jeśli pozostaje stosunkowo niska, co [potwierdza](https://web.archive.org/web/20101120224505/http://www.Bitcoin.org/trade) strona z listą oficjalnej witryny.
+Okres ten charakteryzuje się również znacznym wzrostem ekosystemu na poziomie ekonomicznym. Jesienią 2010 roku istnieją platformy takie jak Mt. Gox, Bitcoin Market i kilka innych, ale to nie wystarczy. W ten sposób wolnoobrotowe giełdy zaczynają się mnożyć. Oprócz wymiany, która odbywa się za pośrednictwem prywatnych wiadomości na forum, wprowadzono nieco bardziej rygorystyczny system: #Bitcoin-otc. Jest to kanał IRC na Freenode [otwarty](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) przez użytkownika o pseudonimie nanotube 18 października. Księga zamówień jest hostowana na [powiązanej stronie internetowej](https://web.archive.org/web/20101027090714/http://Bitcoin-otc.com/vieworderbook.php), a wymiany odbywają się bezpośrednio między stronami, bez depozytu escrow, za pośrednictwem różnych metod płatności (PayPal, Liberty Reserve). Liczba usług akceptujących Bitcoina również wzrasta, nawet jeśli pozostaje stosunkowo niska, co [potwierdza](https://web.archive.org/web/20101120224505/http://www.Bitcoin.org/trade) strona z listą oficjalnej witryny.
 
-Wszystkie te Elements prowadzą do drastycznego wzrostu ceny. Podczas gdy od sierpnia stabilizuje się w okolicach 6 centów, zaczyna rosnąć na początku października. Wzrasta do 10 centów, by pod koniec miesiąca osiągnąć 20 centów. 6 listopada przekroczyła nawet 50 centów, co nie umknęło [ekscytacji] (https://bitcointalk.org/index.php?topic=1681.0) członków forum.
+Wszystkie te elementy prowadzą do drastycznego wzrostu ceny. Podczas gdy od sierpnia stabilizuje się w okolicach 6 centów, zaczyna rosnąć na początku października. Wzrasta do 10 centów, by pod koniec miesiąca osiągnąć 20 centów. 6 listopada przekroczyła nawet 50 centów, co [emocjonuje] (https://bitcointalk.org/index.php?topic=1681.0) członków forum.
 
 
 ![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
@@ -1770,36 +1770,36 @@ Wszystkie te Elements prowadzą do drastycznego wzrostu ceny. Podczas gdy od sie
 Cena BTC między 18 lipca a 18 października 2010 r. na Mt. Gox (źródło: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
 
-Wzrost Bitcoin oznacza, że rzeczy zaczynają być mierzone, czy to pod względem ceny, aktywności w łańcuchu, czy Mining. Wszyscy wiedzą, że ekosystem doświadcza pewnego wzrostu, ale nikt nie wie, jak go poprawnie oszacować. Dlatego w drugiej połowie 2010 roku i na początku 2011 roku pojawiły się usługi, wśród których głównymi są:
+Rozwój Bitcoina oznacza, że zaczyna się mierzyć ceny, aktywność w łańcuchu, czy wydobycie. Wszyscy wiedzą, że ekosystem doświadcza pewnego wzrostu, ale nikt nie wie, jak go poprawnie oszacować. Dlatego w drugiej połowie 2010 roku i na początku 2011 roku pojawiły się usługi, wśród których głównymi są:
 
 
 
 - Bitcoin Watch ([bitcoinwatch.com](https://web.archive.org/web/20100816161306/http://www.bitcoinwatch.com/)), agregator statystyk [opracowany](https://bitcointalk.org/index.php?topic=734.msg7954#msg7954) przez Jeffa Garzika (jgarzik);
-- Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/)), aplikacja do śledzenia cen i wyświetlania wykresów Interface [uruchomiona](https://bitcointalk.org/index.php?topic=1659.0) przez Nils Schneider (tcatm) 4 listopada;
+- Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/)), aplikacja do śledzenia cen i wyświetlania wykresów [uruchomiona](https://bitcointalk.org/index.php?topic=1659.0) przez Nilsa Schneider (tcatm) 4 listopada;
 - Bitcoin Block explorer ([blockexplorer.com](https://web.archive.org/web/20101128030227/http://blockexplorer.com/)), Block explorer [utworzony](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) przez Theymos 10 listopada, który umożliwia każdemu dostęp do zawartości bloków i transakcji Bitcoin za pomocą przeglądarki internetowej;
-- Bitcoin Network Graphs ([Bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://Bitcoin.sipa.be/)), strona wyświetlająca wykresy ewolucji Bitcoin Hash rate [uruchomiona](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173) przez Pietera Wuille (sipa) 28 stycznia 2011 r;
-- Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)), narzędzie do wizualizacji w czasie rzeczywistym transakcji, bloków i operacji Exchange, [umieszczone online](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150) przez Jana Vornbergera (jav) w dniu 6 lutego 2011 r.
+- Bitcoin Network Graphs ([Bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://Bitcoin.sipa.be/)), strona wyświetlająca wykresy ewolucji szybkości haszowania Bitcoina [uruchomiona](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173) przez Pietera Wuille (sipa) 28 stycznia 2011 r;
+- Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)), narzędzie do wizualizacji transakcji, bloków i operacji wymiany w czasie rzeczywistym, [umieszczone online](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150) przez Jana Vornbergera (jav) w dniu 6 lutego 2011 r.
 
 
-Ostatnim elementem wskazującym na sukces Bitcoin jest fakt, że niektórzy próbowali przetestować jego granice. Między 15 a 26 listopada pewna osoba rzeczywiście zabawiała się, tworząc zalew transakcji, liczony w tysiącach każdego dnia. Ta wyjątkowa aktywność została [zgłoszona](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) 19 listopada przez Jeffa Garzika. Zmusiło to Satoshi do wdrożenia środków zaradczych, poprzez [przywrócenie](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) opłaty transakcyjnej Interface i dodanie limitów darmowych transakcji.
+Ostatnim faktem wskazującym na sukces Bitcoina jest fakt, że niektórzy próbowali przetestować jego granice. Między 15 a 26 listopada pewna osoba rzeczywiście zabawiała się, tworząc falę transakcji, liczoną w tysiącach każdego dnia. Ta wyjątkowa aktywność została [zgłoszona](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) 19 listopada przez Jeffa Garzika. Zmusiło to Satoshiego do wdrożenia środków zaradczych, poprzez [przywrócenie](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) opłaty transakcyjnej i dodanie limitów darmowych transakcji.
 
 
 ### Fundacja Electronic Frontier Foundation akceptuje Bitcoina
 
 
-Ważnym wydarzeniem pod koniec 2010 roku było zaakceptowanie Bitcoin przez Electronic Frontier Foundation, międzynarodową organizację zajmującą się ochroną wolności w Internecie, współzałożoną w 1900 roku przez Mitcha Kapora, Johna Gilmore'a i Johna Perry'ego Barlowa. Było to szczególnie ważne dla pierwszych użytkowników Bitcoin, którzy w głębi serca byli cypherpunkami. Zależało im na tym, by sieć akceptowała Bitcoin.
+Ważnym wydarzeniem pod koniec 2010 roku było zaakceptowanie Bitcoina przez Electronic Frontier Foundation, międzynarodową organizację zajmującą się ochroną wolności w Internecie, współzałożoną w 1990 roku przez Mitcha Kapora, Johna Gilmore'a i Johna Perry'ego Barlowa. Było to szczególnie ważne dla pierwszych użytkowników Bitcoina, którzy w głębi serca byli cypherpunkami. Zależało im na tym, by sieć akceptowała Bitcoina.
 
 
 ![Logo of the Electronic Frontier Foundation](assets/en/58.webp)
 
 
-To członek forum o imieniu Kiba podjął inicjatywę 13 sierpnia 2010 r., [proponując](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) skontaktowanie się z EFF i zasugerowanie przyjęcia darowizny, [zebranej](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) od społeczności. W tym celu założył [konto](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) na MyBitcoin, gdzie zebrał fundusze i chciał przekazać dostęp do EFF. Przygotował wiadomość e-mail (poprawioną przez społeczność), którą wysłał pod koniec sierpnia.
+To członek forum o imieniu Kiba podjął inicjatywę 13 sierpnia 2010 r., [proponując](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) skontaktowanie się z EFF i zasugerowanie przyjęcia darowizny, [zebranej](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) od społeczności. W tym celu założył [konto](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) na MyBitcoin, gdzie zebrał fundusze i chciał przekazać EFF dostęp do niego. Przygotował wiadomość e-mail (poprawioną przez społeczność), którą wysłał pod koniec sierpnia.
 
 
-Dwa tygodnie później, wobec braku odpowiedzi, z pomocą przyszedł mu drugi członek forum. Członek ten, używający pseudonimu BrightAnarchist, znał jednego z założycieli i wysłał mu wiadomość e-mail 13 września. Otrzymał odpowiedź tego samego dnia i [napisał](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631) na forum, że "EFF jest zdecydowanie zainteresowany otrzymaniem Bitcoinów!" Konto zostało następnie przekazane organizacji.
+Dwa tygodnie później, wobec braku odpowiedzi, z pomocą przyszedł mu drugi członek forum. Członek ten, używający pseudonimu BrightAnarchist, znał jednego z założycieli i wysłał mu wiadomość e-mail 13 września. Otrzymał odpowiedź tego samego dnia i [napisał](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631) na forum, że "EFF jest zdecydowanie zainteresowany otrzymaniem Bitcoinów!". Konto zostało następnie przekazane organizacji.
 
 
-EFF potrzebował trochę czasu, aby zacząć przyjmować publiczne darowizny. Po negocjacjach społeczność przekonała ich do opublikowania darowizny Address na swojej stronie internetowej. 9 listopada Address pojawił się na [stronie darowizn](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Bitcoin users [began](https://Mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) transferring funds.
+EFF potrzebował trochę czasu, aby zacząć przyjmować publiczne darowizny. Po negocjacjach społeczność przekonała ich do opublikowania adresu do otrzymywania darowizn na swojej stronie internetowej. 9 listopada adres pojawił się na [stronie darowizn](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Użytkownicy Bitcoina [zaczęli](https://Mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) przelewać środki.
 
 
 Kilka dni później [post](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/Bitcoin-gains-legal-protection-through.html) został napisany na ten temat przez blogera jimbobway, który zwrócił uwagę na Bitcoin. Artykuł ten został [udostępniony](https://news.ycombinator.com/item?id=1905522) na HackerNews. Został on również przepisany na wideo przez BitcoinMedia przy użyciu Xtranormal:

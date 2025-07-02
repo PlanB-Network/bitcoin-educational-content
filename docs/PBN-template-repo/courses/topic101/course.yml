@@ -10,9 +10,12 @@ topic: bitcoin
 # For other topics, refer to https://github.com/orgs/DecouvreBitcoin/projects/3/views/7
 subtopic: bitcoin
 
-# level
-# Define the difficulty of the course
-# Choose between beginner, intermediate, expert, wizard
+# define the content difficulty level from user's perspective
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+# - expert
 level: beginner
 
 # teaching_format

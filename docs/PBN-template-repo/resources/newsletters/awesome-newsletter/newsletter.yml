@@ -7,8 +7,12 @@ title: "Satoshi's First News"
 # write the full name of (all) the author(s)
 author: John Doe
 
-# Define the difficulty of the newsletter
-# Choose between beginner, intermediate, advanced, expert
+# define the content difficulty level from user's perspective
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+# - expert
 level: intermediate
 
 # when the newsletter has started

@@ -8,7 +8,7 @@ id: bf76be99-bf95-4606-8103-e7a072839ee9
 # Write the project name
 project_id: uuid_of_the_project_author_of_tutorial
 
-# Level
+# define the content difficulty level from user's perspective
 # Level can be one of following:
 # - beginner
 # - intermediate

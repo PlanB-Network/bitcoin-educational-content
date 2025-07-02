@@ -6,9 +6,12 @@ id: 8ed68077-fb71-4611-b3f4-b9d051c19e7c
 # Cite who's the author
 author: DerGigi
 
-# level
-# Define the difficulty of the book
-# Choose between beginner, intermediate, advanced, expert
+# define the content difficulty level from user's perspective
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+# - expert
 level: intermediate
 
 # Proofreading metadata

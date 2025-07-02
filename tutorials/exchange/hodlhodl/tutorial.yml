@@ -11,105 +11,105 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.8
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1.82
+    reward: 1.81
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.8
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: ja
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 3.59
+    reward: 3.57
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.64
+    reward: 3.62
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 4.82
+    reward: 2.4
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.18
+    reward: 7.15
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.8
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.0
+    reward: 5.97
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.0
+    reward: 5.97
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.8
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.36
+    reward: 8.32
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.8
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.8
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 4.8
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.0
+    reward: 5.97
 tags:
   - guides
   - user-friendly

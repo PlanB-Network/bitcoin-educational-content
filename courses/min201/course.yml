@@ -16,107 +16,107 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.73
+    reward: 33.62
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.32
+    reward: 25.24
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.32
+    reward: 25.24
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.32
+    reward: 25.24
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.73
+    reward: 33.62
   - language: fr
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Asi0Flammeus
       - Sosylos
-    reward: 6.33
+    reward: 6.31
   - language: it
     last_contribution_date: 2024-07-18
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 12.66
+    reward: 12.62
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.54
+    reward: 50.38
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 25.66
+    reward: 25.24
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 17.09
+    reward: 16.81
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 25.61
+    reward: 25.19
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.73
+    reward: 33.62
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 42.14
+    reward: 42.0
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 42.71
+    reward: 42.0
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.73
+    reward: 33.62
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 34.18
+    reward: 33.62
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 58.97
+    reward: 58.76
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.74
+    reward: 33.62
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.74
+    reward: 33.62
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 42.15
+    reward: 42.0
 tags:
   - mining
   - DIY

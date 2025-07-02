@@ -1,0 +1,16 @@
+id: 9843e092-5ab0-44d9-8fe4-f5001188ce89
+chapterId: ecfac353-a31b-48fb-b2af-2abbeeac5f2b
+difficulty: hard
+duration: 15
+author: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+original_language: fr
+
+# Proofreading metadata
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-02
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

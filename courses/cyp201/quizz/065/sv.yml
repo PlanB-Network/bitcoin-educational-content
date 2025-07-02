@@ -1,0 +1,9 @@
+question: Vad är skillnaden mellan en normal barnnyckel och en härdad barnnyckel?
+answer: En härdad underordnad nyckel kräver den överordnade privata nyckeln för att härledas.
+wrong_answers:
+  - En normal underordnad nyckel kan inte härledas från publika nycklar.
+  - En härdad barnnyckel använder ett udda index.
+  - En normal barnnyckel är säkrare än en härdad barnnyckel.
+explanation: |
+  En normal barnnyckel kan härledas från den överordnade offentliga nyckeln, till skillnad från en härdad barnnyckel som kräver den överordnade privata nyckeln.
+reviewed: false

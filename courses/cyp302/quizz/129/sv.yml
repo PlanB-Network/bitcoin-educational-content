@@ -1,0 +1,9 @@
+question: Vilken annan brittisk upptäckt av forskare vid GCHQ föregick Diffie och Hellman, men förblev hemlig?
+answer: Begreppen asymmetrisk kryptografi och nyckel Exchange
+wrong_answers:
+  - Ett symmetriskt krypteringsprotokoll som avanceras utan behov av en nyckel
+  - En ny metod för asymmetrisk kryptografisk hashing
+  - En metod för att skapa elektroniska pengar
+explanation: |
+  Brittiska kryptografer, som arbetade för GCHQ, utvecklade oberoende idéer som liknar Diffie och Hellmans, men dessa framsteg förblev konfidentiella tills de avslöjades 1997.
+reviewed: false

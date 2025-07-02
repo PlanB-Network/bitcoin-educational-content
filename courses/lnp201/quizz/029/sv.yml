@@ -1,0 +1,9 @@
+question: I vilken situation används en tvångsstängning av en kanal?
+answer: När en av parterna inte längre svarar
+wrong_answers:
+  - När kanalens kapacitet behöver ökas
+  - När tidslåset är otillräckligt
+  - När transaktionsavgifterna är för höga
+explanation: |
+  Tvångsavslut används som en sista utväg om en av parterna, till exempel på grund av ett tekniskt problem, inte längre svarar på den andres meddelanden.
+reviewed: false

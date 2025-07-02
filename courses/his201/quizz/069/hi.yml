@@ -1,0 +1,9 @@
+question: Bitcoin डेवलपर्स अधिक अनौपचारिक तकनीकी चर्चा करने के लिए कहां मिलते हैं?
+answer: IRC चैनल \#Bitcoin-dev पर
+wrong_answers:
+  - मंच के एक विशेष भाग पर
+  - Bitcoin-विकास मेलिंग सूची पर
+  - सबरेडिट r/Bitcoin पर
+explanation: |
+  इसे अगस्त 2009 में मार्टी माल्मी द्वारा [बनाया गया](https://mmalmi.github.io/Satoshi/#email-27)। जुलाई 2010 में स्लैशडॉटिंग के बाद इसे कुछ लोकप्रियता मिली।
+reviewed: true

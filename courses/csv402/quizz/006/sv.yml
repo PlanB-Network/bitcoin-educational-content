@@ -1,0 +1,9 @@
+question: I RGB, var finns Commitment när en Single-Use Seal är stängd?
+answer: I utgången av transaktionen spenderar utpunkten
+wrong_answers:
+  - I inmatningen av transaktionen spenderar utpunkten
+  - ISig-skriptet för transaktionen som spenderar utpunkten
+  - I vittnet till transaktionen spenderar utpunkten
+explanation: |
+  Commitment sätts in i utgången av den transaktion som spenderar den utpunkt som definierar Single-Use Seal.
+reviewed: false

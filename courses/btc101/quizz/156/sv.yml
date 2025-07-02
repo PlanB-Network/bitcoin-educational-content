@@ -1,0 +1,8 @@
+question: Vad är syftet med Mining-pooler?
+answer: Mining-pooler gör det möjligt för miners att slå samman sina dataresurser och få mindre men mer regelbundna belöningar.
+wrong_answers:
+  - Mining-pooler används för att öka Hashrate i det övergripande Bitcoin-nätverket.
+  - Mining-pooler används för att minska svårighetsgraden i Mining.
+  - Mining-pooler används för att öka belöningen för Mining.
+explanation: >-
+reviewed: true

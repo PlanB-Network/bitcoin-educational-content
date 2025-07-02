@@ -1,0 +1,9 @@
+question: Hur används kryptografiska åtaganden (via Taproot eller OP_RETURN) i RGB?
+answer: De Anchor tillståndsövergångar i Blockchain
+wrong_answers:
+  - De lagrar Contract-data på Blockchain
+  - De ersätter Client-side Validation med On-Chain Smart contract utförande
+  - De skapar noder för verifiering av transaktioner
+explanation: |
+  Med hjälp av åtaganden kan statusuppdateringar på ett säkert sätt kopplas till en UTXO för att bevisa att en viss information finns vid en viss tidpunkt, utan att avslöja själva informationen.
+reviewed: false

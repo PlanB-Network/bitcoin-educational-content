@@ -1,0 +1,9 @@
+question: Vad är den osynliga handen enligt Adam Smith?
+answer: En mekanism genom vilken enskilda intressen tjänar det allmänna intresset
+wrong_answers:
+  - En övernaturlig kraft som styr ekonomin
+  - En konspiration av de rika för att utnyttja de fattiga
+  - En metafor för att beskriva statens roll i ekonomin
+explanation: |
+  Den osynliga handen beskriver hur strävan efter personliga intressen på en fri marknad oavsiktligt bidrar till det allmänna intresset.
+reviewed: false

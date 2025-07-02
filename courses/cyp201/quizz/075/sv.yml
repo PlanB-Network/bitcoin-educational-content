@@ -1,0 +1,9 @@
+question: Vilken härledningsväg används för ett SegWit v0-konto i en standarddeskriptor?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Sökvägen 84h/0h/0h definieras i BIP84 för ett konto som härleder SegWit v0-adresser med P2WPKH.
+reviewed: false

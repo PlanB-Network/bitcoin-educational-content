@@ -1,0 +1,13 @@
+question: Vad är det primära målet med den Bitcoin-kurs som nämns i kapitlet?
+answer: Det primära målet med kursen är att utbilda nya Bitcoin-entusiaster i sunda ekonomiska principer.
+wrong_answers:
+  - Det primära målet med kursen är att lära nya Bitcoin-entusiaster hur man bryter Bitcoin.
+  - Det primära målet med kursen är att lära nya Bitcoin-entusiaster hur man investerar i Bitcoin.
+  - Det primära målet med kursen är att lära nya Bitcoin-entusiaster hur man skapar sina egna kryptovalutor.
+explanation: |
+  Kursen syftar till att utbilda nya Bitcoin-entusiaster om
+  de grundläggande principerna för ekonomi, särskilt de
+  av den österrikiska skolan för ekonomi. Denna kunskap är
+  avgörande för att förstå värdet och potentialen hos
+  Bitcoin som ett alternativ till traditionella monetära system.
+reviewed: true

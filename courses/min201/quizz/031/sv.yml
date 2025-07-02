@@ -1,0 +1,13 @@
+question: Vad är det grundläggande uppdraget för Bitcoin?
+answer: Att vara ett censurresistent värde Exchange-nätverk.
+wrong_answers:
+  - Att ersätta traditionella valutor.
+  - För att göra transaktioner anonyma.
+  - Att skapa en ny form av investering.
+explanation: |
+  Bitcoin:s grundläggande uppdrag är att vara ett
+  censurresistent värde Exchange-nätverk. Bitcoin
+  samhället strävar ständigt efter att stärka
+  distribution, censurmotstånd och anti-fragilitet
+  av nätverket.
+reviewed: true

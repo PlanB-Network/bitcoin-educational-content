@@ -1,0 +1,8 @@
+question: Vad är ett sätt att mildra volatiliteten i Bitcoin?
+answer: Finansiella säkringar (stablecoins).
+wrong_answers:
+  - Investera alla dina pengar i Bitcoin.
+  - Ignorera marknadstrender.
+  - Köper mer Bitcoin när priset sjunker.
+explanation: >-
+reviewed: true

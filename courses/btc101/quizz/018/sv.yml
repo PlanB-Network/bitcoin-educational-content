@@ -1,0 +1,13 @@
+question: Vilka var de första formerna av valuta?
+answer: Varor som spannmål och boskap.
+wrong_answers:
+  - Guld och silver.
+  - Pappersanteckningar.
+  - Digitala tillgångar.
+explanation: |
+  De första formerna av valuta var ofta kopplade till viktiga
+  varor som spannmål, boskap och andra råvaror.
+  Dessa varor hade dock stora nackdelar, till exempel
+  förgänglighet, vilket gjorde det svårt att använda dem som ett
+  långsiktigt sparmedel.
+reviewed: true

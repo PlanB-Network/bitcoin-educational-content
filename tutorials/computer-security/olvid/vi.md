@@ -12,6 +12,9 @@ Olvid là một ứng dụng nhắn tin tức thời của Pháp ra mắt vào n
 
 Tất cả các tin nhắn đều được mã hóa đầu cuối bằng giao thức mã hóa gốc, được thiết kế để bảo vệ siêu dữ liệu: không ai biết bạn đang nói chuyện với ai hoặc khi nào. Mã máy khách là mã nguồn mở, nhưng máy chủ trung tâm được sử dụng để định tuyến tin nhắn được mã hóa vẫn là độc quyền và được lưu trữ trên AWS.
 
+Mô hình bảo mật của Olvid dựa trên một nguyên tắc cốt lõi: hoàn toàn không có bên thứ ba đáng tin cậy trong việc thiết lập danh tính số. Khác với phần lớn các ứng dụng nhắn tin mã hóa phụ thuộc vào danh bạ tập trung để quản lý danh tính người dùng, Olvid không dựa vào bất kỳ hạ tầng trung tâm nào để đảm bảo tính toàn vẹn của liên lạc. Kiến trúc này loại bỏ nguy cơ bị tấn công thông qua sự cố rò rỉ danh bạ.
+
+Tuy vậy, Olvid vẫn sử dụng một máy chủ trung tâm để phân phối tin nhắn, nhưng máy chủ này chỉ có vai trò hậu cần: truyền tin nhắn đã mã hóa theo cách không đồng bộ. Máy chủ này không tham gia vào bất kỳ bước nào của quy trình mã hóa, không biết danh tính thực sự của người dùng hay nội dung hoặc siêu dữ liệu của tin nhắn (ngoại trừ khóa công khai của người nhận dùng cho định tuyến). Do đó, nó có thể được coi là không đáng tin cậy theo mặc định mà không ảnh hưởng đến tính bảo mật tổng thể. Ngay cả khi bị xâm phạm, nó cũng không thể truy cập nội dung của liên lạc. Olvid chấp nhận việc phân phối tập trung vì lý do hiệu suất và chất lượng dịch vụ, đồng thời đảm bảo bảo mật độc lập với hạ tầng đó.
 
 
 Olvid cung cấp phiên bản miễn phí và phiên bản đăng ký với giá 4,99 € mỗi tháng. Phiên bản miễn phí cung cấp đầy đủ chức năng, ngoại trừ việc thực hiện cuộc gọi âm thanh và video (mặc dù có thể nhận được chúng) và không cho phép đồng bộ hóa tài khoản trên nhiều thiết bị. Vì vậy, nếu bạn đang có kế hoạch sử dụng điện thoại thông minh của mình và không cần thực hiện cuộc gọi, Olvid là một giải pháp tuyệt vời.
@@ -21,28 +24,27 @@ Olvid cung cấp phiên bản miễn phí và phiên bản đăng ký với giá
 Olvid được chứng nhận bởi ANSSI (cơ quan an ninh mạng của Pháp). Ứng dụng này là một giải pháp thay thế tuyệt vời cho các dịch vụ nhắn tin truyền thống (WhatsApp, Facebook Messenger, WeChat...) dành cho những người tìm kiếm sự riêng tư trong khi vẫn giữ được sự đơn giản khi sử dụng.
 
 
+| Ứng dụng             | E2EE 1:1       | E2EE nhóm      | Đăng ký ẩn danh     | Giấy phép client mã nguồn mở | Giấy phép server mã nguồn mở | Máy chủ phi tập trung    | Năm tạo           |
+| -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | ---------------------------- | ------------------------ | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                            | ❌                        | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                            | ❌                        | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (tùy chọn)  | ❌                   | ❌                            | ❌                            | ❌                        | 2011              |
+| Telegram             | 🟡 (tùy chọn)  | ❌              | 🟡                  | ✅                            | ❌                            | ❌                        | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                            | ❌                            | ❌                        | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                            | ✅                            | ❌                        | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                            | ❌                            | ❌                        | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                            | ✅                            | 🟡 (liên bang)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                          | 🟡 (qua email)          | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                            | ✅                            | 🟡 (liên bang)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                            | ✅                            | ✅                        | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                            | ✅                            | ✅                        | 2021              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                            | ❌                            | 🟡(không có thư mục)    | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                            | N/A                          | ✅                        | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                            | N/A                          | ✅                        | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                            | N/A                          | ✅                        | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                            | N/A                          | ✅                        | 2013              |
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
-
-*E2EE = Mã hóa đầu cuối*
+*E2EE = Mã hóa đầu cuối.*
 
 
 
@@ -110,7 +112,7 @@ Tài khoản của bạn đã được tạo.
 
 Để tránh mất quyền truy cập vào tài khoản Olvid của bạn, chúng tôi khuyên bạn nên thiết lập sao lưu tự động. Để thực hiện việc này, hãy mở cài đặt bằng cách nhấp vào ba dấu chấm ở góc trên bên phải của Interface, sau đó chọn "*Cài đặt*".
 
-
+⚠️ **Cảnh báo**: kể từ phiên bản 3.7 của Olvid, quy trình sao lưu hồ sơ và danh bạ của bạn đã được thay thế bằng quy trình mới. Hướng dẫn này vẫn trình bày phiên bản cũ. Bạn có thể khám phá phiên bản mới trong FAQ của họ: [💾 Sao lưu hồ sơ của bạn](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 

@@ -192,7 +192,6 @@ La speculazione circonda l'uso futuro dello spazio dei blocchi, ma è generalmen
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 Il ruolo dei minatori nella rete Bitcoin è stato un argomento di intenso dibattito durante la guerra dei blocchi. Sebbene siano essenziali per la sicurezza e la funzionalità della rete, i minatori non detengono necessariamente il potere ultimo nell'ecosistema Bitcoin. L'equilibrio tra i minatori, i nodi e gli utenti finali garantisce l'integrità e la distribuzione della rete.
 
@@ -234,7 +233,6 @@ Per riassumere, i minatori rafforzano la rete Bitcoin contro la censura utilizza
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, prezzo e redditività
 
@@ -296,13 +294,9 @@ Di fronte a campagne come quelle di Greenpeace e ai dati spesso fuorvianti di al
 
 In conclusione, nonostante il rischio normativo e la possibilità di un divieto del mining in Europa, l'arma più potente rimane l'educazione e l'informazione. Una comprensione chiara e precisa del mining, del suo funzionamento e del suo impatto può aiutare a demistificare l'industria e a combattere la disinformazione, offrendo così una migliore resistenza alle regolamentazioni potenzialmente dannose. L'iniziativa di formare ed informare le persone sul mining, come avviene in questa discussione, è un passo nella giusta direzione per garantire la sostenibilità e la crescita del mining in Europa e nel mondo. Gli sforzi continui per educare e informare sono essenziali per assicurare un futuro sicuro e prospero per l'industria del mining di Bitcoin.
 
-## Intervista a un professionista dell'industria del mining
 
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
 
-### Dietro le quinte del mining industriale - Sebastien Gouspillou
 
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Home-mining e riutilizzo del calore
 

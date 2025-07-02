@@ -1,0 +1,9 @@
+question: Vilken är den primära funktionen för en Lightning Invoice?
+answer: Begär en betalning från den sändande noden
+wrong_answers:
+  - Skicka pengar utan en On-Chain-transaktion
+  - Aktivera HTLC:er på en kanal
+  - Öppna en ny Lightning-kanal
+explanation: |
+  En blixt Invoice är en betalningsbegäran som sänds av den mottagande noden till den sändande noden för att initiera en betalning på Lightning Network.
+reviewed: false

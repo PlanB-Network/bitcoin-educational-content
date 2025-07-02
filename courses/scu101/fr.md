@@ -448,20 +448,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 :::video id=ba8f85df-d77c-4425-b3ff-7bb543811190:::
 
-## Mise en place de Back-up
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
-:::video id=5213b709-be9b-4dea-a35d-08b7ecfdd5f1:::
-
 ## Changement de navigateur & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -479,6 +465,20 @@ Découvrez également comment utiliser Tor Browser, un navigateur spécifiquemen
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 :::video id=175fcd63-d6fd-42a7-983a-83e91a13ba31:::
+
+## Mise en place de Back-up
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
+:::video id=5213b709-be9b-4dea-a35d-08b7ecfdd5f1:::
 
 # Allez plus loins
 

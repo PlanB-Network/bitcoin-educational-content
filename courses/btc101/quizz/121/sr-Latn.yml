@@ -1,9 +1,9 @@
-question: Od svog nastanka, koliki procenat vremena je Bitcoin mreža bila funkcionalna?
+question: Od svog nastanka, koliki procenat vremena je Bitkoin mreža bila funkcionalna?
 answer: 99.988%.
 wrong_answers:
   - 100%.
   - 90,009%.
   - 80.17%.
 explanation: |
-  Online dostupnost Bitcoin je 99.988% od 2009.
+  Online dostupnost Bitkoin reže je 99.988% od 2009.godine
 reviewed: true

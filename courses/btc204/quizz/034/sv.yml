@@ -1,0 +1,9 @@
+question: I en enkel betalningstransaktion där det finns en inmatning på 500 000 Sats som delas upp i en utmatning på 47 500 Sats och en annan på 451 000 Sats, vilken UTXO är sannolikt förändringen?
+answer: Den på 451.000 Sats.
+wrong_answers:
+  - Den på 500.000 Sats.
+  - Den med 47.500 Sats.
+  - Ingen av dem.
+explanation: |
+  När det finns en tillräckligt stor skillnad mellan två prestationer i en transaktion med en enkel betalningsmodell kan det uppskattas att den större prestationen sannolikt är förändringen.
+reviewed: false

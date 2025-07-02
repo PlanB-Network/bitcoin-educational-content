@@ -1,0 +1,10 @@
+question: Vad är det maximala antalet bitcoins som någonsin kan skapas?
+answer: cirka 21 miljoner enheter
+wrong_answers:
+  - mer eller mindre 18 miljoner enheter
+  - cirka 25 miljoner enheter
+  - cirka 30 miljoner enheter
+explanation: |
+  Skapandet av Bitcoin kännetecknas av ett fast tak på
+  21 miljoner enheter.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilken egenskap skiljer främst Bitcoin från altcoins?
+answer: Decentralisering
+wrong_answers:
+  - Likviditet
+  - Rykte
+  - Integritet
+explanation: |
+  Bitcoin är känt för sin decentralisering, till skillnad från de flesta altcoins som är mer eller mindre centraliserade.
+reviewed: false

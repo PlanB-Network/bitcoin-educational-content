@@ -1,0 +1,12 @@
+question: Vad är syftet med transaktionsavgifter i Bitcoin-transaktioner?
+answer: De är ett incitament för utvinnare att inkludera transaktionen i följande block.
+wrong_answers:
+  - De är en skatt som åläggs av regeringen.
+  - De är en avgift som Bitcoin-nätverket tar ut för att använda dess tjänster.
+  - De är en avgift som debiteras av Wallet-leverantören.
+explanation: |
+  Transaktionsavgifter i Bitcoin-transaktioner fungerar som ett
+  incitament för gruvarbetare att inkludera transaktionen i nästa block
+  block. Avgifterna skapar en fri marknad för att inkludera
+  transaktioner i block.
+reviewed: true

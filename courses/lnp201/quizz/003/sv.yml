@@ -1,0 +1,9 @@
+question: Vilken är huvudregeln för hur mycket pengar en deltagare kan skicka i en betalningskanal?
+answer: De kan bara skicka pengarna från sin egen sida av kanalen.
+wrong_answers:
+  - De kan skicka upp till hälften av kanalens totala kapacitet.
+  - De kan skicka vilket belopp som helst, så länge det finns en överenskommelse i förväg.
+  - De kan vid behov låna medel från den andra deltagarens sida.
+explanation: |
+  Varje deltagare är begränsad av det belopp satoshis de har i kanalen för sina transaktioner, vilket säkerställer att medlen alltid är täckta.
+reviewed: false

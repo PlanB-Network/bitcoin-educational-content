@@ -1,0 +1,8 @@
+question: Condorcet không viết về chủ đề nào?
+answer: Các ngân hàng
+wrong_answers:
+  - Tự do buôn bán ngũ cốc
+  - Việc vặt
+  - Nô lệ
+explanation: |
+  Condorcet viết về tự do buôn bán ngũ cốc, lao dịch và chế độ nô lệ, nhưng ông không viết về ngân hàng.

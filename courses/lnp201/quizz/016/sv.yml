@@ -1,0 +1,9 @@
+question: När publiceras en Commitment Transaction på Bitcoin Blockchain?
+answer: Så småningom när kanalen är stängd
+wrong_answers:
+  - Omedelbart efter varje överföring i kanalen
+  - Före varje ny Commitment Transaction
+  - När de tillgängliga medlen är uttömda
+explanation: |
+  Commitment-transaktioner byggs och undertecknas för varje förändring i tilldelningen, men de publiceras endast i slutändan på Blockchain i händelse av kanalstängning.
+reviewed: false

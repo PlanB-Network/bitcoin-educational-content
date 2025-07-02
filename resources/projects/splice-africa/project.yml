@@ -1,0 +1,31 @@
+id: 92e651d8-9443-4ad4-9b1e-49b65bc889d7
+
+name: Splice Africa
+
+address_line_1: Nairobi, Kenya
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://splice.africa/
+  twitter: https://x.com/SpliceAfrica
+  Github: 
+  youtube: 
+
+category: payment
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - finance
+  - bitcoin
+
+contributor_names:
+  - Gloirew

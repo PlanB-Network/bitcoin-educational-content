@@ -1,0 +1,9 @@
+question: Wavumbuzi wa Lightning Network ni akina nani?
+answer: Thaddeus Dryja na Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos na Adam Back
+  - Pieter Wuille na Gregory Maxwell
+  - Satoshi Nakamoto na Hal Finney
+explanation: |
+  Thaddeus Dryja na Joseph Poon walivumbua Lightning Network mwaka wa 2016 ili kuboresha upunguzaji wa Bitcoin.
+reviewed: false

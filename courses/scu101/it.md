@@ -424,18 +424,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Configurazione del backup
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Proteggere i tuoi file personali è anche un punto essenziale. Questo tutorial ti mostra come implementare una strategia di backup efficace grazie a Proton Drive. Scopri come utilizzare questa soluzione cloud sicura per applicare il metodo 3-2-1: tre copie dei tuoi dati su due supporti diversi, di cui una copia fuori sede. In questo modo garantisci l'accessibilità e la sicurezza dei tuoi file sensibili:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-E per proteggere i tuoi file archiviati su supporti rimovibili come una chiavetta USB o un disco rigido esterno, ti mostro anche come crittografare e decrittografare facilmente questi supporti grazie a VeraCrypt:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Cambio di browser e VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -451,6 +439,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Scopri inoltre come utilizzare Tor Browser, un browser specificamente progettato per proteggere la tua privacy online:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Configurazione del backup
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Proteggere i tuoi file personali è anche un punto essenziale. Questo tutorial ti mostra come implementare una strategia di backup efficace grazie a Proton Drive. Scopri come utilizzare questa soluzione cloud sicura per applicare il metodo 3-2-1: tre copie dei tuoi dati su due supporti diversi, di cui una copia fuori sede. In questo modo garantisci l'accessibilità e la sicurezza dei tuoi file sensibili:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+E per proteggere i tuoi file archiviati su supporti rimovibili come una chiavetta USB o un disco rigido esterno, ti mostro anche come crittografare e decrittografare facilmente questi supporti grazie a VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Andare oltre
 

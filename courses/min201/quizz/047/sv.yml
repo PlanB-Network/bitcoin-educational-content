@@ -1,0 +1,13 @@
+question: Vilken är den största risken med att investera i företag som säljer Mining-hårdvara och hanterar maskinerna på platser med låg energiförbrukning?
+answer: Supply-problem och maskinfel kan göra investerare maktlösa med dyr utrustning som de inte har kontroll över.
+wrong_answers:
+  - Bolagen kan gå i konkurs och investerarna kan förlora sina pengar.
+  - Bolagen kan vara bedrägerier och investerarna kan förlora sina pengar.
+  - Företagen kanske inte kan sälja de utvunna bitcoins och investerarna kan förlora sina pengar.
+explanation: |
+  Den huvudsakliga risken med att investera i bolag som säljer
+  säljer Mining-hårdvara och sköter maskinerna på platser med lågkostnads
+  är att Supply-problem med strömförsörjningen och maskinfel
+  maskinfel kan lämna investerare maktlösa med dyr utrustning
+  utrustning som de inte kontrollerar.
+reviewed: true

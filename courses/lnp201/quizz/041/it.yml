@@ -1,5 +1,5 @@
 question: Perché è difficile per un nodo mittente stimare l'esatta liquidità di un canale?
-answer: Perché solo i due partecipanti a quel deterrminato canale conoscono la precisa distribuzione dei fondi
+answer: Perché solo i due partecipanti a quel determinato canale conoscono la precisa distribuzione dei fondi
 wrong_answers:
   - Perché la capacità totale dei canali è in costante cambiamento
   - Perché le fee dei nodi intermedi non sono pubblicate

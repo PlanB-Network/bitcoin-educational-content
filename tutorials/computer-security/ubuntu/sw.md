@@ -94,8 +94,8 @@ Unaweza kutumia zana kadhaa, kama vile Balena Etcher :
 - Zima kompyuta
 - Chomeka kitufe cha USB (kilicho na Ubuntu)
 - Washa kompyuta yako. Kwenye Kompyuta za hivi karibuni, mfumo unapaswa kutambua kiotomati ufunguo wa boot wa USB. Ikiwa sivyo, fungua upya kwa kushikilia kitufe cha ufikiaji cha BIOS/UEFI (kawaida F2, F12, au Futa, kulingana na chapa)
- - Katika menyu ya BIOS/UEFI, chagua kitufe chako cha USB kama kifaa cha kuwasha
- - Hifadhi na uanze upya
+ - Katika menyu ya BIOS/UEFI, chagua kitufe chako cha USB kama kifaa cha kuwasha
+ - Hifadhi na uanze upya
 
 
 **4.2 Kuzindua usakinishaji** (kwa Kifaransa)

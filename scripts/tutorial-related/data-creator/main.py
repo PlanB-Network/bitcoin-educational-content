@@ -24,8 +24,11 @@ def main():
     
     root = ctk.CTk()
     root.title("Data Creator - Plan ₿ Network")
-    # Pour d'autres plateformes :
-    root.iconbitmap("favicon.ico")
+    
+    try:
+        root.iconbitmap("favicon.ico")
+    except Exception as e:
+        print(f"Impossible to charge icon favicon.ico: {e}")
     
     # Default window size
     default_width, default_height = 850, 630

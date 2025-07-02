@@ -1983,7 +1983,7 @@ Symbolicznie, 14 czerwca to także dzień, w którym WikiLeaks [zaczął](https:
 Paradoksalnie, wiadomość ta częściowo odsunęła w czasie dotychczasową adopcję pewnej organizacji: Electronic Frontier Foundation. 20 czerwca EFF [ogłosiła](https://www.eff.org/deeplinks/2011/06/eff-and-Bitcoin) rezygnację z darowizn Bitcoin ze względu na zawiłości prawne związane z tą akceptacją. [Zwróciła](https://bitcointalk.org/index.php?topic=20185.msg456413#msg456413) otrzymane bitcoiny do Bitcoin Faucet Gavina Andresena. W ten sposób Bitcoin zyskała jedną organizację kosztem innej.
 
 
-### Tajemnica Satoshi
+### Tajemnica Satoshiego
 
 Tak więc zniknięcie Satoshi nastąpiło nagle po wzroście społeczności, który nastąpił po slashdottingu i, co najważniejsze, z powodu afery WikiLeaks. Twórca Bitcoin przekazał stery projektu Marttiemu Malmi i Gavinowi Andresenowi, dwóm mężczyznom, którzy wspierali go w wysiłkach na rzecz rozwoju i komunikacji.
 

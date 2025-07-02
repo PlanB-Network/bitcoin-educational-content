@@ -92,32 +92,37 @@ Saat Anda menjelajahi internet, penting untuk menghindari beberapa kesalahan umu
 
 Disarankan untuk mengunduh perangkat lunak dari situs resminya dan bukan dari situs umum.
 Contoh: Gunakan www.signal.org/download dan hindari pengunduhan melalui www.logicieltelechargement.fr/signal.
+
 ![](assets/notext/4.webp)
 
-Anda juga disarankan untuk memprioritaskan perangkat lunak *open-source* karena seringkali lebih aman dan bebas dari perangkat lunak berbahaya. Perangkat lunak "*open-source*" adalah perangkat lunak yang kode sumbernya transparan dan dapat diakses oleh semua orang. Hal ini memungkinkan orang-orang untuk melakukan pemeriksaan untuk memastikan bahwa tidak ada jalan tersembunyi untuk peretas mencuri data pribadi Anda.
+Sangat disarankan juga untuk memprioritaskan perangkat lunak sumber terbuka (open-source). Kenapa? Karena perangkat lunak ini seringkali lebih aman dan bebas dari perangkat lunak berbahaya (malicious software).
 
-> Bonus: Mayoritas perangkat lunak *open-source* seringkali bersifat gratis! Kode universitas ini juga 100% *open source*, jadi Anda juga dapat memeriksa kode kami di GitHub kami.
+Perangkat lunak "*open-source*" itu adalah jenis perangkat lunak yang kode programnya tersedia dan bisa diakses oleh siapa saja secara publik. Ini memungkinkan, orang-orang lain untuk memverifikasi bahwa tidak ada akses tersembunyi yang bertujuan mencuri data Anda.
+
+> Bonus: Mayoritas perangkat lunak *open-source* seringkali bersifat gratis! Kode pada pembelajaran di universitas ini juga  100% *open source*, jadi Anda juga dapat memeriksa kode kami di Github kami.
 > ![](assets/notext/5.webp)
 
 ### Pengelolaan *Cookie*: Kesalahan dan solusi praktis terbaik
 
-*Cookie* adalah file yang dibuat oleh situs web untuk menyimpan informasi di perangkat Anda. Meskipun beberapa situs memerlukan *cookie* untuk berfungsi dengan baik, *cookie* juga bisa dimanfaatkan oleh situs pihak ketiga, terutama untuk tujuan pelacakan iklan. Sesuai dengan peraturan seperti GDPR (*General Data Protection Regulation*), Anda bisa dan juga disarankan untuk menolak *cookie* pelacakan pihak ketiga sambil menerima *cookie* yang diperlukan untuk kelancaran situs yang tersebut. Setelah setiap Anda masuk ke situs, langkah yang bijak adalah untuk menghapus *cookie* yang terkait, baik secara manual atau menggunakan ekstensi atau program/aplikasi khusus. Beberapa peramban bahkan menawarkan opsi untuk memilih *cookie* yang ingin dihapus. Meskipun Anda sudah melakukan tindakan pencegahan ini, penting untuk memahami bahwa informasi yang dikumpulkan oleh berbagai situs dapat tetap saling terhubung. Karena itu, penting untuk menemukan keseimbangan antara kemudahan penggunaan dan keamanan.
+*Cookie* adalah file yang dibuat oleh situs web untuk menyimpan informasi di komputer atau perangkat seluler Anda. Meskipun beberapa situs memerlukan *cookie* ini agar berfungsi dengan baik, *cookie* juga dapat dieksploitasi oleh situs pihak ketiga, terutama untuk tujuan pelacakan iklan. Berdasarkan regulasi seperti GDPR (*General Data Protection Regulation*), Anda dapat dan disarankan untuk menolak *Cookie* pelacakan pihak ketiga sambil tetap menerima *Cookie* yang penting agar situs berfungsi dengan semestinya. Setelah setiap kunjungan ke situs, bijaksana untuk menghapus *Cookie* yang terkait, baik secara manual atau melalui ekstensi atau program khusus. Beberapa *browser* bahkan menawarkan kemungkinan untuk menghapus *Cookie* secara selektif. Meskipun Anda melakukan tindakan pencegahan ini, penting untuk memahami bahwa informasi yang dikumpulkan oleh berbagai situs dapat tetap saling terhubung. Oleh karena itu, penting sekali untuk menemukan keseimbangan antara kenyamanan dan keamanan dalam penjelajahan online Anda.
 
-> Catatan: Batasi juga jumlah ekstensi yang dipasang di peramban Anda untuk menghindari potensi masalah keamanan dan kinerja.
+> Catatan: Batasi juga jumlah ekstensi yang dipasang di *browser* Anda untuk menghindari potensi masalah keamanan dan kinerja.
 
-### Peramban web: pilihan dan keamanan
+### Peramban Web (*Web Browser*): pilihan dan keamanan
 
-Ada dua kategori besar untuk peramban web: yang berbasis Chrome dan yang berbasis Firefox.
-Meskipun peramban dari kedua kategori tersebut menawarkan tingkat keamanan yang serupa, Anda disarankan untuk menghindari Google Chrome karena adanya pelacak. Alternatif Chrome yang lebih ringan, seperti Chromium atau Brave, bisa jadi pilihan yang lebih baik. Brave sangat direkomendasikan karena sudah dilengkapi oleh pemblokir iklan bawaan. Dalam beberapa kasus, mungkin Anda perlu menggunakan lebih dari satu peramban untuk bisa mengakses situs-situs tertentu.
+Ada dua kategori besar peramban (browser): yang berbasis Chrome dan yang berbasis Firefox. 
+Meskipun kedua kategori ini menawarkan tingkat keamanan yang serupa, disarankan untuk menghindari penggunaan peramban (browser) Google Chrome karena kemampuannya dalam melacak aktivitas pengguna. Alternatif yang lebih ringan dari Chrome, seperti Chromium atau Brave, mungkin lebih disukai. Brave khususnya sangat direkomendasikan karena memiliki pemblokir iklan bawaan. Dalam beberapa kasus, mungkin diperlukan untuk menggunakan lebih dari satu peramban (browser) untuk mengakses situs web tertentu.
+
 ![](assets/notext/6.webp)
 
 ### Penjelajahan Pribadi, TOR, dan alternatif lainnya untuk penjelajahan yang lebih aman dan anonim
 
-Mode penjelajahan pribadi, meskipun tidak menyembunyikan aktivitas Anda dari penyedia layanan internet, dapat memungkinkan Anda untuk tidak meninggalkan jejak di komputer Anda. *Cookie* akan secara otomatis dihapus setiap kali Anda selesai, memungkinkan Anda untuk menerima semua *cookie* tanpa dilacak. Mode ini berguna, contohnya saat membeli layanan online, karena situs web karena banyak situs memantau kebiasaan pencarian kita dan menyesuaikan harga berdasarkan itu. Namun, penting untuk dicatat bahwa mode penjelajahan pribadi sebaiknya digunakan untuk tujuan-tujuan tertentu saja, dan bukan untuk penjelajahan internet secara umum.
+Penjelajahan pribadi (private Browse), meskipun tidak menyembunyikan aktivitas penjelajahan dari penyedia layanan internet Anda, memungkinkan Anda menghindari meninggalkan jejak lokal di komputer Anda. Kuki (cookies) akan otomatis terhapus di akhir setiap sesi, memungkinkan Anda menerima semua *Cookie* tanpa terlacak. Penjelajahan pribadi bisa berguna saat membeli layanan online, karena situs web melacak kebiasaan pencarian kita dan menyesuaikan harga karenanya. Namun, penting untuk dicatat bahwa penjelajahan pribadi direkomendasikan untuk sesi sementara dan spesifik, bukan untuk penjelajahan internet umum.
 
-Salah satu alternatif lebih lanjut adalah jaringan TOR (*The Onion Router*), yang menawarkan anonimitas dengan menyamarkan alamat IP pengguna dan memungkinkan akses ke Darknet. TOR Browser adalah browser yang dirancang khusus untuk menggunakan jaringan TOR. Peramban ini memungkinkan Anda untuk mengunjungi situs web konvensional dan situs web .onion, yang biasanya dijalankan oleh individu dan mungkin bersifat ilegal.
+Alternatif yang lebih canggih adalah jaringan TOR (*The Onion Router*), yang menawarkan anonimitas dengan menyembunyikan alamat IP pengguna dan memungkinkan akses ke Darknet. Peramban TOR (TOR Browser) adalah peramban yang dirancang khusus untuk menggunakan jaringan TOR. Ini memungkinkan Anda mengunjungi situs web konvensional dan juga situs web .onion, yang biasanya dioperasikan oleh individu dan mungkin terkait dengan aktivitas ilegal.
 
 TOR bersifat legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, penggunaan TOR dapat memperlambat koneksi internet karena data harus melewati komputer milik tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
+
 ![](assets/notext/7.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb

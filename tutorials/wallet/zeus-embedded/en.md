@@ -149,7 +149,7 @@ Once you're back in the main menu, click on "Back up Wallet", then read the warn
 Select "I UNDERSTAND" at the bottom of the screen. Then click on each of the 24 words to bring them up, and note them carefully.
 
 
-You can write it on paper, or perhaps, for added security, engrave it on stainless steel to protect it from fire, flood or collapse. The choice of medium for your mnemonic will depend on your security strategy, but if you're using Zeus as an expense portfolio containing moderate amounts, paper should be sufficient.
+You can write it on paper, or perhaps, for added security, engrave it on stainless steel to protect it from fire, flood or collapse. The choice of medium for your mnemonic will depend on your security strategy, but if you're using Zeus as an expense wallet containing moderate amounts, paper should be sufficient.
 
 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:

@@ -148,7 +148,7 @@ esempio: python wallet-tool.py wallet.jmdat
 ```
 
 
-this command will show you all the various portfolio mixdepths with the various addresses categorized as:
+this command will show you all the various wallet mixdepths with the various addresses categorized as:
 
 
 - New (Address never used)
@@ -331,7 +331,7 @@ python yg-privacyenhanced.py <wallet name>
 From this point on (after a few minutes of connecting to the network) and until we stop the script, our JoinMarket client will appear on the list of active makers on the protocol and offer our liquidity to various counterparties to make CoinJoin. Do not expect dozens of CoinJoins per day (unless you have huge fidlity and large liquidity deposited on Wallet), also remember that factors such as fees required and Satoshis deposited affect how often you will be a maker.
 
 
-By running the command below you will be able to see the history of all the transactions made on Wallet and any gain (if you are a maker) or fee expense (if you are a taker) you have had over the lifetime of the portfolio.
+By running the command below you will be able to see the history of all the transactions made on Wallet and any gain (if you are a maker) or fee expense (if you are a taker) you have had over the lifetime of the wallet.
 
 
 ```bash

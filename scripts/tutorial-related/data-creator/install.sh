@@ -25,19 +25,19 @@ VENV="/home/$SUDO_USER/.planb-creator-venv"
 export APP_DIR VENV
 
 
-sudo -u "$SUDO_USER" -E bash - <<'EOS'
+sudo -u "$SUDO_USER" -E bash - <<EOS
 set -euo pipefail
 
-echo "🐍  Using virtualenv at \$VENV"
-if [ ! -d "\$VENV" ]; then
-  python3 -m venv "\$VENV"
+echo "🐍  Using virtualenv at $VENV"
+if [ ! -d "$VENV" ]; then
+  python3 -m venv "$VENV"
 fi
-source "\$VENV/bin/activate"
+source "$VENV/bin/activate"
 
 python -m pip install --upgrade pip
-python -m pip install --upgrade-strategy eager -r "\$APP_DIR/requirements.txt"
+python -m pip install --upgrade-strategy eager -r "$APP_DIR/requirements.txt"
 
 echo -e "\n✅  Installation finished."
 echo "Run the app with:"
-echo "  source \"\$VENV/bin/activate\" && python \"\$APP_DIR/main.py\""
+echo "  source \"$VENV/bin/activate\" && python \"$APP_DIR/main.py\""
 EOS

@@ -21,7 +21,7 @@ Qui di seguito ho raccolto i problemi più comuni che i proofreader incontrano. 
 Prima di addentrarci nello specifico, la prima cosa da fare è leggere questo tutorial sulle azioni pratiche da seguire su Github, effettuando il fork del repository Plan ₿ Network, effettuando il commit delle modifiche e inviando le PR:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Che cos'è la correzione di bozze?
@@ -60,7 +60,7 @@ Prima di tutto, **ricordatevi SEMPRE di sincronizzare il vostro repo, sul ramo "
 
 
 
-Dopo la sincronizzazione, si può accedere direttamente al contenuto di interesse e fare il commit su un nuovo ramo, come mostrato in questo [tutorial](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Altrimenti, si può aprire un nuovo ramo dove lavorare, facendo clic su "Rami", come mostrato di seguito.
+Dopo la sincronizzazione, si può accedere direttamente al contenuto di interesse e fare il commit su un nuovo ramo, come mostrato in questo [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Altrimenti, si può aprire un nuovo ramo dove lavorare, facendo clic su "Rami", come mostrato di seguito.
 
 
 

@@ -21,7 +21,7 @@ Hapa chini, nilikusanya masuala ya kawaida ambayo wasahihishaji hukutana nayo. J
 Kabla ya kupiga mbizi katika maalum, jambo la kwanza kufanya ni kusoma mafunzo haya juu ya vitendo vya kufuata kwenye Github, kwa kugawa hazina ya Plan ₿ Network, kufanya mabadiliko na kutuma PRs:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Usahihishaji ni nini?
@@ -60,7 +60,7 @@ Kwanza kabisa, **DAIMA kumbuka KUSAwazisha repo lako, kwenye tawi la "dev"**. Kw
 
 
 
-Baada ya kusawazisha kwa mafanikio, unaweza kufikia moja kwa moja maudhui yanayokuvutia na kujitolea kwenye tawi jipya, kama inavyoonyeshwa katika [mafunzo] haya (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Vinginevyo, unaweza kufungua tawi jipya mahali pa kufanya kazi, kwa kubofya "Matawi", kama inavyoonyeshwa hapa chini.
+Baada ya kusawazisha kwa mafanikio, unaweza kufikia moja kwa moja maudhui yanayokuvutia na kujitolea kwenye tawi jipya, kama inavyoonyeshwa katika [mafunzo] haya (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Vinginevyo, unaweza kufungua tawi jipya mahali pa kufanya kazi, kwa kubofya "Matawi", kama inavyoonyeshwa hapa chini.
 
 
 

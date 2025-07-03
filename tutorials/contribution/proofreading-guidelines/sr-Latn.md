@@ -21,7 +21,7 @@ Ovde sam prikupio najčešće probleme sa kojima se lektori susreću. Slobodno p
 Pre nego što pređete na detalje, prva stvar koju treba da uradite je da pročitate ovaj vodič o praktičnim akcijama koje treba pratiti na Github-u, forkovanjem Plan ₿ Network repozitorijuma, pravljenjem izmena i slanjem PR-ova:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Šta je lektura?
@@ -60,7 +60,7 @@ Prvo i najvažnije, **UVEK zapamtite da SINHRONIZUJETE svoj repo, na "dev" grani
 
 
 
-Nakon uspešnog sinhronizovanja, možete direktno pristupiti sadržaju od interesa i izvršiti promene na novoj grani, kao što je prikazano u ovom [uputstvu](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). U suprotnom, možete otvoriti novu granu na kojoj ćete raditi, klikom na "Branches", kao što je prikazano ispod.
+Nakon uspešnog sinhronizovanja, možete direktno pristupiti sadržaju od interesa i izvršiti promene na novoj grani, kao što je prikazano u ovom [uputstvu](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). U suprotnom, možete otvoriti novu granu na kojoj ćete raditi, klikom na "Branches", kao što je prikazano ispod.
 
 
 

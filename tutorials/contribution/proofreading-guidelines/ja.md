@@ -21,7 +21,7 @@ description: Plan ₿ Networkの校正で留意すべき点は何ですか？
 具体的な内容に飛び込む前に、まず最初にすべきことは、Plan ₿ Networkリポジトリのフォーク、変更のコミット、PRの送信など、Github上で従うべき実践的な行動に関するこのチュートリアルを読むことだ：
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 校正とは何か？
@@ -60,7 +60,7 @@ issue自体には、チェックすべきコンテンツにリダイレクトす
 
 
 
-同期に成功したら、この[チュートリアル](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6)にあるように、目的のコンテンツに直接アクセスして新しいブランチにコミットできます。そうでなければ、下図のように "Branches" をクリックして新しいブランチを開き、そこで作業することができます。
+同期に成功したら、この[チュートリアル](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)にあるように、目的のコンテンツに直接アクセスして新しいブランチにコミットできます。そうでなければ、下図のように "Branches" をクリックして新しいブランチを開き、そこで作業することができます。
 
 
 

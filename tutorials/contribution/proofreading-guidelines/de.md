@@ -21,7 +21,7 @@ Nachfolgend habe ich die häufigsten Probleme zusammengestellt, auf die Korrektu
 Bevor Sie in die Einzelheiten eintauchen, sollten Sie zunächst dieses Tutorial über die praktischen Maßnahmen auf Github lesen, indem Sie das Plan ₿ Network-Repository forken, Änderungen committen und PRs senden:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Was ist Korrekturlesen?
@@ -60,7 +60,7 @@ Zuallererst sollten Sie **STETS daran denken, Ihr Projektarchiv auf dem "dev"-Zw
 
 
 
-Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
+Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
 
 
 

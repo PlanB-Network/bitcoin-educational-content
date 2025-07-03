@@ -175,3 +175,4 @@ You've just taken the Fedi Wallet tour, you're now in a position to harness the 
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+

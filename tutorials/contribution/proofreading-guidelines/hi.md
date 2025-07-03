@@ -21,7 +21,7 @@ description: Plan ₿ Network पर प्रूफरीडिंग करत
 बारीकियों में जाने से पहले, सबसे पहले यह ट्यूटोरियल पढ़ें कि गिटहब पर Plan ₿ Network रिपोजिटरी को फोर्क करके, परिवर्तन करके और PR भेजकर क्या व्यावहारिक क्रियाएं करनी हैं:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## प्रूफ़रीडिंग क्या है?
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/contribution-proofreading-r
 
 
 
-सफलतापूर्वक सिंक करने के बाद, आप सीधे रुचि की सामग्री तक पहुँच सकते हैं और एक नई शाखा पर प्रतिबद्ध हो सकते हैं, जैसा कि इस [ट्यूटोरियल](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) में दिखाया गया है। अन्यथा, आप नीचे दिखाए गए अनुसार "शाखाएँ" पर क्लिक करके, जहाँ काम करना है, एक नई शाखा खोल सकते हैं।
+सफलतापूर्वक सिंक करने के बाद, आप सीधे रुचि की सामग्री तक पहुँच सकते हैं और एक नई शाखा पर प्रतिबद्ध हो सकते हैं, जैसा कि इस [ट्यूटोरियल](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) में दिखाया गया है। अन्यथा, आप नीचे दिखाए गए अनुसार "शाखाएँ" पर क्लिक करके, जहाँ काम करना है, एक नई शाखा खोल सकते हैं।
 
 
 

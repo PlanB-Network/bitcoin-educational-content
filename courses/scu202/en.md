@@ -795,7 +795,7 @@ Developed by Canonical and launched in 2004, Ubuntu is one of the world's most p
 ![Image](assets/fr/020.webp)
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - Linux Mint** :
@@ -804,7 +804,7 @@ https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3
 Launched in 2006, Linux Mint is a distribution derived from Ubuntu, designed to offer a more intuitive alternative, closer to the ergonomics of Windows. It offers several desktop environments, including Cinnamon, a Fork of GNOME designed specifically by the Mint team, which provides a clear, classic and immediately familiar Interface.
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint stands out for its simplicity, the presence by default of multimedia codecs and a well-designed update tool. On the other hand, it relies heavily on Ubuntu's infrastructure, making it dependent on Ubuntu's technical choices (particularly at kernel and repository level). Mint is particularly well-suited to non-technical users, or those who want a ready-to-use system that doesn't require too much learning.
 
@@ -931,7 +931,7 @@ Parrot OS is also derived from Debian. It offers an environment for pentesting, 
 Tails is a Debian-based, privacy-focused live distribution. Everything passes through the Tor network, and nothing is stored between user sessions. It's an ideal distribution for sensitive one-off uses (journalism, activism, seed Bitcoin generation...).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Note:** A live distribution is a Linux operating system that can be used directly from a USB stick or CD, without installation on the hard disk.
 
@@ -5091,7 +5091,7 @@ GrapheneOS integrates no proprietary components. You are free to add Google serv
 Graphene is only compatible with recent Google Pixels (Pixel 6, 7, 8 and 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

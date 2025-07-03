@@ -21,7 +21,7 @@ Dưới đây, tôi đã tập hợp những vấn đề phổ biến nhất mà
 Trước khi đi sâu vào chi tiết, điều đầu tiên cần làm là đọc hướng dẫn này về các hành động thực tế cần thực hiện trên Github, bằng cách phân nhánh kho lưu trữ Plan ₿ Network, cam kết thay đổi và gửi PR:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Đọc và sửa lỗi là gì?
@@ -60,7 +60,7 @@ Trước hết, **LUÔN nhớ ĐỒNG BỘ hóa kho lưu trữ của bạn, trê
 
 
 
-Sau khi đồng bộ hóa thành công, bạn có thể truy cập trực tiếp vào nội dung quan tâm và cam kết trên một nhánh mới, như được hiển thị trong [hướng dẫn] này (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Nếu không, bạn có thể mở một nhánh mới để làm việc bằng cách nhấp vào "Nhánh", như được hiển thị bên dưới.
+Sau khi đồng bộ hóa thành công, bạn có thể truy cập trực tiếp vào nội dung quan tâm và cam kết trên một nhánh mới, như được hiển thị trong [hướng dẫn] này (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Nếu không, bạn có thể mở một nhánh mới để làm việc bằng cách nhấp vào "Nhánh", như được hiển thị bên dưới.
 
 
 

@@ -21,7 +21,7 @@ description: О каких важных факторах следует помн
 Прежде чем погружаться в специфику, первым делом прочитайте это руководство о практических действиях на Github: форк репозитория Plan ₿ Network, фиксация изменений и отправка PR:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Что такое корректура?
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/contribution-proofreading-r
 
 
 
-После успешной синхронизации вы можете получить прямой доступ к интересующему вас контенту и выполнить коммит в новой ветке, как показано в этом [учебнике](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). В противном случае вы можете открыть новую ветку для работы, нажав на "Ветви", как показано ниже.
+После успешной синхронизации вы можете получить прямой доступ к интересующему вас контенту и выполнить коммит в новой ветке, как показано в этом [учебнике](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). В противном случае вы можете открыть новую ветку для работы, нажав на "Ветви", как показано ниже.
 
 
 

@@ -21,7 +21,7 @@ Aqui em baixo, reuni os problemas mais comuns que os revisores encontram. Não h
 Antes de mergulhar nas especificidades, a primeira coisa a fazer é ler este tutorial sobre as acções práticas a seguir no Github, bifurcando o repositório Plan ₿ Network, submetendo alterações e enviando PRs:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## O que é a revisão de provas?
@@ -60,7 +60,7 @@ Antes de mais, **Lembre-se SEMPRE de SINCRONIZAR o seu repo, no ramo "dev "**. D
 
 
 
-Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
+Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
 
 
 

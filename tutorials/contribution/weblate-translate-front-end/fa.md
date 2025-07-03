@@ -18,7 +18,7 @@ description: چگونه می‌توانید در ترجمه Elements ثابت د
 برای ترجمه محتوای آموزشی، ما از [هوش مصنوعی](https://github.com/Asi0Flammeus/LLM-Translator) استفاده می‌کنیم. سپس، برای اصلاح اشتباهات احتمالی در این فایل‌ها، از ویراستاران دعوت می‌کنیم تا مشارکت کنند. اگر مایل به ویراستاری برخی محتوا هستید، به آموزش زیر مراجعه کنید:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 از سوی دیگر، اگر به ترجمه Elements ثابت وب‌سایت (به‌جز محتوای آموزشی) علاقه‌مند هستید، در جای درستی قرار دارید! برای ترجمه مؤثر بخش جلویی، ما از ابزار Weblate استفاده می‌کنیم که بسیار ساده برای استفاده است و رویکرد ترجمه را تسهیل می‌کند.
 

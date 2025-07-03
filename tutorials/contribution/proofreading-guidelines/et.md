@@ -21,7 +21,7 @@ Allpool olen kogunud kokku kõige levinumad probleemid, millega korrektorid kokk
 Enne spetsiifikatesse sukeldumist tuleks kõigepealt lugeda seda õpetust praktiliste tegevuste kohta Githubis, mida tuleb järgida Plan ₿ Network repositooriumi hargnemise, muudatuste tegemise ja PR-i saatmise teel:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Mis on korrektuur?
@@ -60,7 +60,7 @@ Kõigepealt, **AJALGI ärge unustage oma repo SYNC-i, "dev" haru**. Nii on sisu 
 
 
 
-Pärast edukat sünkroniseerimist saate otse juurdepääsu huvipakkuvale sisule ja teha uue haru kinnituse, nagu on näidatud selles [õpetuses](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Vastasel juhul saate avada uue haru, kus töötada, klõpsates "Branches", nagu allpool näidatud.
+Pärast edukat sünkroniseerimist saate otse juurdepääsu huvipakkuvale sisule ja teha uue haru kinnituse, nagu on näidatud selles [õpetuses](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Vastasel juhul saate avada uue haru, kus töötada, klõpsates "Branches", nagu allpool näidatud.
 
 
 

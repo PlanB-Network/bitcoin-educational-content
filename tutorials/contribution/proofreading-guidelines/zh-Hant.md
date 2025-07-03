@@ -21,7 +21,7 @@ description: 在 Plan ₿ Network 上進行校對時要注意哪些重要因素�
 在深入瞭解具體細節之前，首先要做的是閱讀本教學，瞭解在 Github 上應遵循的實際操作：fork Plan ₿ Network 倉庫、提交變更和發送 PR：
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## 什麼是校對？
@@ -60,7 +60,7 @@ https://planb.network/tutorials/contribution/content/contribution-proofreading-r
 
 
 
-同步成功後，您可以直接存取感興趣的內容，並在新的分支上提交，如本 [教學](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) 所示。否則，您可以點選「分支」開啟一個新的分支，如下圖所示。
+同步成功後，您可以直接存取感興趣的內容，並在新的分支上提交，如本 [教學](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) 所示。否則，您可以點選「分支」開啟一個新的分支，如下圖所示。
 
 
 

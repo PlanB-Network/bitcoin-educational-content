@@ -27,6 +27,28 @@ teaching_format: self_paced
 # complete the whole course
 hours: 2
 
+# two options only: true, false
+# default is "false"
+# set it as "true" if the course can be freely purchased
+requires_payment: true
+
+# set the price displayed onto the platform
+# currency is USD
+# price is VAT included
+# if the user choose BTC as payment method, the USD amount will be converted on the fly
+online_price_dollars: 21
+
+# write the description following the example below,
+# it is important to always leave 2 empty spaces before each text line
+paid_description: |
+  This course is in Italian and will be taught through interactive online lessons on set dates and times.
+  You will learn how to buy, hold and use your Bitcoins with privacy and security, understand how the Bitcoin protocol works
+  and also how to install, set up and use in depth the best software tools, desktop and mobile available.
+
+# Specify starting and ending dates of the course
+start_date: YYYY-MM-DD
+end_date: YYYY-MM-DD
+
 # professors
 # List who is/are the professor(s)
 # They are identified by their UUID
@@ -52,7 +74,7 @@ contributor_names:
 # - language: language to review
 # - last_contribution_date: the date when last contribution has been received
 # - urgency: level of urgency from 1 (low urgency) to X (high urgency)
-# - contributor_names: list of contributors PBN ids
+# - contributor_names: list of Github contributors
 # - reward: amount of USD available for reward
 original_language: en
 proofreading:
@@ -71,10 +93,9 @@ tags:
   - wallets
   - high-level
 
-# videos
 # List all the videos inside the course, for each video generate its own id (uuid v4)
-# make sure for each id there is a public media source (suitable: youtube, peertube)
-# and for each media source explicit both the language code and the part of the link after the top level domain
+# make sure for each id there is a public media source (suitable: youtube, peertube, rumble);
+# for each media source explicit both the language code and the specific part of the video URL (each provider will have its own, see examples belows)
 videos:
   - id: 758d7d3b-84e6-4f52-bf43-967a2ce7e7ec
     youtube:
@@ -82,10 +103,9 @@ videos:
   - id: 04ad728c-9a1c-4630-93f8-bc5ea9e0fb9a
     youtube:
       - fr: ljHLhTzrLsw
-  - id: 1686dcd2-69ae-43b4-b5db-5d21472fc0b8
-    youtube:
-      - fr: LslJVNCvHhA
-  - id: c3ee6a12-c3bd-4d0f-8078-e8241c053931
+  - id: 7448d0bf-7d7f-4f55-b012-b7d0b8e04285
+    rumble:
+      - it: b1t4fz4
 
 # only for premium courses similar to the biz school
 # insert below the date of first course publication

@@ -41,6 +41,7 @@ This script will install the system package python3-tk (required by Tkinter/Cust
 
 Then launch the app:
 ```bash
+chmod +x run.sh
 ./run.sh
 ```
 

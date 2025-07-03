@@ -532,7 +532,7 @@ Kwa muhtasari, teknolojia hii hutuwezesha kupokea bitcoins bila kumwezesha mpoke
 
 ### Je, kuna bitcoins kwenye Wallet?
 
-Ingawa funguo zako zimehifadhiwa kwenye Wallet yako, bitcoins zenyewe kwa hakika "zimehifadhiwa" katika Bitcoin Blockchain, ambayo ni Ledger inayosambazwa kwa umma ndani ya mtandao wa rika-kwa-rika (P2P)  wa Bitcoin (tutachunguza ndani yake katika sehemu ya 3). Hii ina maana kwamba kupoteza kifaa kilicho na wallet lako si lazima kusababisha hasara ya bitcoins zako. Kinachokuruhusu kuunda upya Wallet yako na kutumia Bitcoin yako ni ufunguo wa faragha, kwa hivyo kumbuka kila wakati kuulinda ipasavyo!
+Ingawa funguo zako zimehifadhiwa kwenye Wallet yako, bitcoins zenyewe kwa hakika "zimehifadhiwa" katika Bitcoin Blockchain, ambayo ni Ledger inayosambazwa kwa umma ndani ya mtandao wa rika-kwa-rika (P2P) wa Bitcoin (tutachunguza ndani yake katika sehemu ya 3). Hii ina maana kwamba kupoteza kifaa kilicho na wallet lako si lazima kusababisha hasara ya bitcoins zako. Kinachokuruhusu kuunda upya Wallet yako na kutumia Bitcoin yako ni ufunguo wa faragha, kwa hivyo kumbuka kila wakati kuulinda ipasavyo!
 
 ![image](assets/en/28.webp)
 
@@ -551,6 +551,7 @@ Kumbuka kuchagua Wallet inayofaa kwa mahitaji na matumizi yako: mafunzo ya kina 
 Ikiwa katika safari yako ya kuelewa Bitcoin kwa undani utataka kujifunza zaidi kuhusu jinsi ya kutengeneza wallet ya Bitcoin, kuanzia na entropy hadi kwenye anuani za kupokea pesa, tunapendekeza kozi ya CYP 201 inayozungumzia mada hii kwa kina
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 ## Pochi za Bitcoin na Usalama
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>

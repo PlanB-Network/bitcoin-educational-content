@@ -1,8 +1,9 @@
 question: Perché un venditore potrebbe effettuare un pagamento fittizio in un canale?
 answer: Per spostare la liquidità sul lato opposto
 wrong_answers:
-  - Per diminuire le commissioni di routing
+  - Per diminuire le fee di routing
   - Per aumentare la capacità totale dei propri canali
   - Per bloccare fondi a lungo termine
 explanation: |
   Effettuando un pagamento fittizio, un venditore sposta la liquidità dal proprio lato al lato opposto del canale, liberando così capacità in entrata per ricevere pagamenti.
+reviewed: true

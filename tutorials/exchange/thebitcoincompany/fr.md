@@ -6,13 +6,13 @@ description: Comment acheter des biens et des services en BTC avec The Bitcoin C
 
 > Bitcoin: A Peer-to-Peer Electronic Cash System
 
-C'est la raison d'être de Bitcoin, être dépensé en pair à pair sans avoir à demander la permission à qui que ce soit. Aujourd'hui, très peu de marchands acceptent bitcoin en échange de leurs biens et services (we are so early), rendant la tâche difficile à ceux d'entre nous qui ont besoin de dépenser leurs satoshis. **The Bitcoin Company** est là pour tenter de résoudre ce problème, en vous permettant de dépenser vos bitcoins pour **acheter des cartes cadeaux.**
+C'est la raison d'être de Bitcoin, être dépensé en pair à pair sans avoir à demander la permission à qui que ce soit. Aujourd'hui, très peu de marchands acceptent bitcoin en échange de leurs biens et services (we are so early), rendant la tâche difficile à ceux d'entre nous qui ont besoin de dépenser leurs satoshis. **The Bitcoin Company** est là pour tenter de résoudre ce problème, en vous permettant de dépenser vos bitcoins pour **acheter des cartes-cadeaux.**
 
-A ce propos, petit aparté pour mettre l'accent sur l'importance à mon sens, d'utiliser Bitcoin en tant que moyen de paiement plutôt qu'uniquement en temps que réserve de valeur. En effet au moment où ces lignes sont écrites, le réflexe d'une trop grande partie des Bitcoiners lorsqu'ils ont l'occasion de dépenser leurs précieux sats, est de s'abstenir, pour dépenser à la place le shitcoin euro / fiat qu'on leur impose.
+A ce propos, petit aparté pour mettre l'accent sur l'importance à mon sens, d'utiliser Bitcoin en tant que moyen de paiement plutôt qu'uniquement en tant que réserve de valeur. En effet au moment où ces lignes sont écrites, le réflexe d'une trop grande partie des Bitcoiners lorsqu'ils ont l'occasion de dépenser leurs précieux sats, est de s'abstenir, pour dépenser à la place le shitcoin euro / fiat qu'on leur impose.
 
 Si en apparence cela semble tout à fait raisonnable, on peut tout de même s'interroger sur la logique de la chose. Bitcoin est fait pour être utilisé sans permission. A partir de là n'est-il pas évident que plus le nombre de commerces qui acceptent bitcoin autour de vous est important, plus les choix qui s'offrent à vous en tant que Bitcoiner souverain sont nombreux ? Autrement dit plus il vous est facile de dépenser vos sats sans demander la permission, plus vos propres bitcoins ont de la valeur. Il faut donc en ce sens encourager l'adoption, favorisez les commerces qui acceptent bitcoin pour leur donner un avantage compétitif qui incitera les autres à suivre leur exemple. 
 
-Ainsi même dans une logique de préservation de la valeur de son épargne Bitcoin, participer à la l'adoption de Bitcoin pour faire en sorte qu'il soit aussi facile que possible de le dépenser, est au moins aussi important que de "Hodl".
+Ainsi même dans une logique de préservation de la valeur de son épargne Bitcoin, participer à l'adoption de Bitcoin pour faire en sorte qu'il soit aussi facile que possible de le dépenser, est au moins aussi important que de "Hodl".
 
 Si vous devez passer par un Exchange pour être en mesure de dépenser vos Bitcoins, alors ils valent potentiellement 0. Si vous pouvez les dépenser partout, ils valent bien plus.
 
@@ -20,9 +20,9 @@ En synthèse "spend" & "replace" semble être la voie à suivre. Participez au d
 
 ## C'est quoi The Bitcoin Company ?
 
-**The Bitcoin Company** est comme sont concurrent Bitrefill : un moyen d'échanger vos bitcoins contre des cartes cadeaux d'enseignes grand public. Vous pouvez ainsi pratiquement vivre sous un "bitcoin standard" grâce à ce type de solutions, en créant un simple compte.
+**The Bitcoin Company** est comme son concurrent Bitrefill : un moyen d'échanger vos bitcoins contre des cartes-cadeaux d'enseignes grand public. Vous pouvez ainsi pratiquement vivre sous un "bitcoin standard" grâce à ce type de solutions, en créant un simple compte.
 
-https://planb.network/fr/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Le message est on ne peut plus clair "Dépensez vos Bitcoins Partout".
 
@@ -32,7 +32,7 @@ Vous y trouverez ainsi une sélection d'enseignes plus ou moins étoffée, suiva
 
 **The Bitcoin Company** propose un choix très vaste allant de la vente au détail à la restauration rapide, en passant par les plateformes de streaming, les jeux en ligne, les sites e-commerce ou encore les recharges téléphoniques.
 
-Ci dessous une sélection d'enseignes pour les USA à titre d'exemple:
+Ci-dessous une sélection d'enseignes pour les USA à titre d'exemple :
 
 ![TheBitcoinCompany](assets/fr/02.webp)
 
@@ -46,7 +46,7 @@ Cliquez donc sur "Browse our web app".
 
 ![TheBitcoinCompany](assets/fr/03.webp)
 
-Nous voilà donc sur la page d'accueil  de la plateforme d'achat de carte cadeaux.
+Nous voilà donc sur la page d'accueil de la plateforme d'achat de cartes-cadeaux.
 
 ![TheBitcoinCompany](assets/fr/04.webp)
 
@@ -82,9 +82,9 @@ Ouvrons donc notre wallet Phoenix, et scannons le QR code présenté. Une fois s
 ![TheBitcoinCompany](assets/fr/09.webp)
 
 
-https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-Instantanément, vous voilà identifié par l'intermédiaire de votre wallet Lightning qui peut-être Phoenix ou un autre bien entendu, car la plupart des wallets du marché supportent cette fonctionnalité.
+Instantanément, vous voilà identifié par l'intermédiaire de votre wallet Lightning qui peut être Phoenix ou un autre bien entendu, car la plupart des wallets du marché supportent cette fonctionnalité.
 
 Tant que vous conservez l'accès à votre wallet et ne perdez pas votre seed phrase (ou plus généralement l'accès à votre compte dans le cas de wallets custodiaux pour lesquels vous ne détenez pas les clés privées), vous pourrez retrouver l'accès à vos comptes.
 
@@ -107,15 +107,15 @@ Commencez par sélectionner la catégorie de produit qui vous intéresse. Dans n
 Puis "Hotel.com".
 
 ![TheBitcoinCompany](assets/fr/13.webp)
-Vous voici sur la page de présentation de la carte cadeau choisie. N'hésitez pas à aller jeter un œil aux détails qui pourraient avoir leur importance au moment de d'utiliser la carte sur le site du marchand. Renseignez le montant que vous souhaitez attribuer à la carte cadeau, nous choisirons pour l'exemple 10 USD, mais cela peut aller si vous le souhaitez jusqu'à 500 USD pour cette carte cadeau. Le montant minimum et maximum de la carte cadeau varie en fonction des enseignes.
+Vous voici sur la page de présentation de la carte-cadeau choisie. N'hésitez pas à aller jeter un œil aux détails qui pourraient avoir leur importance au moment de d'utiliser la carte sur le site du marchand. Renseignez le montant que vous souhaitez attribuer à la carte-cadeau, nous choisirons pour l'exemple 10 USD, mais cela peut aller si vous le souhaitez jusqu'à 500 USD pour cette carte-cadeau. Le montant minimum et maximum de la carte-cadeau varie en fonction des enseignes.
 
 ![TheBitcoinCompany](assets/fr/14.webp)
 
-La récompense éventuelle qui vous est accordée sous forme de cashback en bitcoin est indiquée au dessus de la description (ici 4%).
+La récompense éventuelle qui vous est accordée sous forme de cashback en bitcoin est indiquée au-dessus de la description (ici 4%).
 
 Vous pouvez choisir en cochant le bouton "Apply Reward Balance" d'utiliser le cashback d'un précédent achat pour financer celui-là.
 
-Enfin le bouton "Send as Gift" vous permet d'envoyer la carte cadeau à un heureux bénéficiaire par e-mail, ce que nous allons faire.
+Enfin le bouton "Send as Gift" vous permet d'envoyer la carte-cadeau à un heureux bénéficiaire par e-mail, ce que nous allons faire.
 
 Cliquez pour finir sur "Generate Invoice".
 
@@ -125,11 +125,11 @@ Payez l'invoice affichée ensuite soit on-chain soit via Lightning.
 
 ![TheBitcoinCompany](assets/fr/16.webp)
 
-Une fois que l'invoice est payée, on vous indique que la carte cadeau vient d'être expédiée par mail au destinataire choisi à l'étape précédente. Allons vérifier comment ça se passe.
+Une fois que l'invoice est payée, on vous indique que la carte-cadeau vient d'être expédiée par mail au destinataire choisi à l'étape précédente. Allons vérifier comment ça se passe.
 
 ![TheBitcoinCompany](assets/fr/17.webp)
 
-Nous avons bel et bien reçu notre email contenant la carte cadeau. En copiant le lien qui nous est indiqué et l'ouvrant dans un navigateur, nous seront redirigés vers une page web qui nous permettra de récupérer les détails nécessaires pour dépenser la carte sur le site du marchand.
+Nous avons bel et bien reçu notre email contenant la carte-cadeau. En copiant le lien qui nous est indiqué et l'ouvrant dans un navigateur, nous serons redirigés vers une page web qui nous permettra de récupérer les détails nécessaires pour dépenser la carte sur le site du marchand.
 
 ![TheBitcoinCompany](assets/fr/18.webp)
 
@@ -137,11 +137,11 @@ En cliquant sur "Reveal card details" vous obtiendrez les codes nécessaires à 
 
 ![TheBitcoinCompany](assets/fr/19.webp)
 
-Si vous ne souhaitez pas envoyer la carte cadeau par e-mail, après avoir payé l'invoice, il vous suffira de cliquer sur "View Card" pour avoir accès à la page web comme ci-dessus.
+Si vous ne souhaitez pas envoyer la carte-cadeau par e-mail, après avoir payé l'invoice, il vous suffira de cliquer sur "View Card" pour avoir accès à la page web comme ci-dessus.
 
 ![TheBitcoinCompany](assets/fr/20.webp)
 
-Pour finir, notons qu'il est possible de consulter à tout moment l'ensemble des cartes cadeau achetées via ce compte grâce à l'onglet "My Cards" en haut de l'écran. Une fois qu'une carte est utilisée n'oubliez pas de l'archiver afin de vous y retrouver. Vous pourrez ainsi naviguer plus clairement entre vos cartes encore valides, et les autres déjà vides.
+Pour finir, notons qu'il est possible de consulter à tout moment l'ensemble des cartes-cadeaux achetées via ce compte grâce à l'onglet "My Cards" en haut de l'écran. Une fois qu'une carte est utilisée n'oubliez pas de l'archiver afin de vous y retrouver. Vous pourrez ainsi naviguer plus clairement entre vos cartes encore valides, et les autres déjà vides.
 
 ![TheBitcoinCompany](assets/fr/21.webp)
 

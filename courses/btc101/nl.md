@@ -9,11 +9,11 @@ objectives:
   - Begrip krijgen van de geopolitieke en sociale impact van Bitcoin
 ---
 
-# Je eerste Bitcoin avontuur
+# Je Eerste Bitcoin Avontuur
 
 In deze cursus leggen we in 25 hoofdstukken de basis van Bitcoin uit, zodat je deze technologie op een eenvoudige en effectieve manier kunt begrijpen. De cursus verkent de basisprincipes van de industrie als geheel, waaronder onderwerpen als mining, wallets, koop-/verkoopplatformen en meer. Tijdens de hele cursus is er extra educatief materiaal beschikbaar, en we nodigen je ook uit om de "21 Posters" in de bronnensectie te bekijken nadat je deze cursus hebt afgerond.
 
-Je hebt geen specifieke kennis nodig om te beginnen. In feite is de volgende inhoud toegankelijk voor studenten van alle niveaus, en het duurt ongeveer 15 uur om het te voltooien.
+Je hebt geen specifieke kennis nodig om te beginnen. In feite is alle inhoud toegankelijk voor studenten van alle niveaus, en het duurt ongeveer 15 uur om het te voltooien.
 
 +++
 
@@ -29,7 +29,7 @@ Welkom bij de BTC101-cursus!
 
 Bitcoin is een technologische en monetaire revolutie, die in staat is onze relatie met geld en de maatschappij in twijfel te trekken. In feite is Bitcoin (ook aangeduid als BTC) een **neutrale** en **decentrale** valuta, wat betekent dat het niet gecontroleerd wordt door een entiteit of instelling. Het is een innovatie die verder gaat dan een gewone "internetvaluta": het is zowel een computerprotocol (Bitcoin) als een munteenheid (bitcoin).
 
-Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "Blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en te verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
+Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
 
 **Een uitgebreid maar toegankelijk curriculum:**
 
@@ -37,57 +37,57 @@ In deze cursus zullen we enkele monetaire aspecten van Bitcoin bespreken, waaron
 
 ![image](assets/en/01.webp)
 
-Het is essentieel om te begrijpen dat Bitcoin een nieuw monetair systeem is dat onze relatie met geld volledig verandert, dus leren hoe het te gebruiken is een noodzakelijke vaardigheid voor iedereen die controle wil hebben over zijn/haar eigen geld.
+Het is essentieel om te begrijpen dat Bitcoin een nieuw monetair systeem is dat onze relatie met geld volledig verandert, dus leren hoe je het kunt gebruiken is een noodzakelijke vaardigheid voor iedereen die controle wil hebben over zijn/haar eigen geld.
 
 **Sectie 1 - Inleiding**
 - Hoofdstuk 1 - Cursusoverzicht
-- Hoofdstuk 2 - De Voorgeschiedenis van Bitcoin
+- Hoofdstuk 2 - De Voorgeschiedenis Van Bitcoin
 
 **Deel 2 - Geld**
-- Hoofdstuk 3 - Geld Door de Geschiedenis Heen
+- Hoofdstuk 3 - Geld Door De Geschiedenis Heen
 - Hoofdstuk 4 - Fiat Valuta's
 - Hoofdstuk 5 - Hyperinflatie
 - Hoofdstuk 6 - 21 Miljoen Bitcoins
 
 **Deel 3 - Bitcoin Wallets**
-- Hoofdstuk 7 - Wat is een Bitcoin Wallet?
-- Hoofdstuk 8 - Bitcoin Wallets en Beveiliging
+- Hoofdstuk 7 - Wat Is Een Bitcoin Wallet?
+- Hoofdstuk 8 - Bitcoin Wallets En Beveiliging
 - Hoofdstuk 9 - Een Wallet Instellen
 - Hoofdstuk 10 - De Tand Des Tijds Doorstaan
 
-**Deel 4 - De Technische Aspecten van Bitcoin**
+**Deel 4 - De Technische Aspecten Van Bitcoin**
 - Hoofdstuk 11 - Bitcoin Lanceren
 - Hoofdstuk 12 - Bitcoin Transacties
 - Hoofdstuk 13 - Bitcoin Nodes
 - Hoofdstuk 14 - Miners
-- Hoofdstuk 15 - Bitcoin en Ecologie
+- Hoofdstuk 15 - Bitcoin En Ecologie
 
 **Sectie 5 - Hoe Kom Ik Aan Bitcoins?**
 - Hoofdstuk 16 - Bitcoin Slaapt Nooit!
-- Hoofdstuk 17 - Bitcoins Verdienen door Werk
-- Hoofdstuk 18 - Sparen met Bitcoin
+- Hoofdstuk 17 - Bitcoins Verdienen Door Werk
+- Hoofdstuk 18 - Sparen Met Bitcoin
 - Hoofdstuk 19 - Hyperbitcoinisatie
 
-**Deel 6 - De Toekomst van Bitcoin: Het Lightning Network**
-- Hoofdstuk 20 - Een Korte Introductie tot het Lightning Network
+**Deel 6 - De Toekomst Van Bitcoin: Het Lightning Network**
+- Hoofdstuk 20 - Een Korte Introductie Tot Het Lightning Network
 - Hoofdstuk 21 - Lightning Network Usecases
-- Hoofdstuk 22 - Rode Pil of Blauwe Pil?
+- Hoofdstuk 22 - Rode Pil Of Blauwe Pil?
 
-Voordat we de definitie van geld en de functie ervan binnen de maatschappij introduceren (Hoofdstuk 1), moeten we beginnen bij de oorsprong van Bitcoin. Bitcoin werd in 2009 gelanceerd en is een relatief nieuwe technologie, die met niets te vergelijken is. Het is daarom normaal dat je niet alles in één keer begrijpt. In werkelijkheid hoef je, net als bij het leren gebruiken van internet of autorijden, niet meteen alle technische details te weten: je kunt beginnen met leren hoe je Bitcoins ontvangt, betaalt en beveiligt, en vervolgens kleine stapjes nemen om je er verder in te verdiepen.
+Voordat we de definitie van geld en de functie ervan binnen de maatschappij introduceren (Hoofdstuk 1), moeten we beginnen bij de oorsprong van Bitcoin. Bitcoin werd in 2009 gelanceerd en is een relatief nieuwe technologie, die met niets te vergelijken is. Het is daarom normaal dat je niet alles in één keer begrijpt. In werkelijkheid hoef je, net als bij het leren gebruiken van internet of autorijden, niet meteen alle technische details te weten: je kunt beginnen met leren hoe je bitcoins ontvangt, verstuurt en beveiligt, vervolgens kun je kleine stapjes nemen om je er verder in te verdiepen.
 
 We staan immers nog maar aan het begin van de adoptiefase, want we zijn de opstartfase voorbij: je bent net op tijd om zoveel kennis te vergaren als je wilt over deze belangrijke innovatie.
 
 ![image](assets/en/02.webp)
 
-Het belangrijkste hier is om deze nieuwe technologie op een algemene manier te begrijpen, dus we hopen dat je veel plezier beleeft aan deze cursus en vooruitgang blijft boeken in dit nieuwe wereldwijde monetaire paradigma.
+Het belangrijkste punt hier is om deze nieuwe technologie op een algemene manier te begrijpen, dus we hopen dat je veel plezier beleeft aan deze cursus en vooruitgang blijft boeken in dit nieuwe wereldwijde monetaire paradigma.
 
-Klaar om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te begrijpen? We gaan ervoor!
+Ben je er klaar voor om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te leren? Let's go!
 
-## De Voorgeschiedenis van Bitcoin
+## De Voorgeschiedenis Van Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Voordat de term "Bitcoin" synoniem werd met digitale valuta en financiële transformatie, werd de basis voor de creatie ervan gelegd door een reeks ideeën, innovaties en sociale bewegingen. De Cypherpunk beweging springt eruit als een belangrijk element in de voorgeschiedenis van Bitcoin.
+Voordat de term "Bitcoin" synoniem werd met digitale valuta en financiële transformatie, werd de basis voor de creatie ervan gelegd door een reeks ideeën, innovaties en sociale bewegingen. De Cypherpunk beweging springt eruit als één van de belangrijkste elementen in de voorgeschiedenis van Bitcoin.
 
 ### Cypherpunks: visionairs van de digitale wereld
 
@@ -109,32 +109,32 @@ De Cypherpunk beweging, diep geworteld in digitaal activisme en cryptografie, ba
 - "Het Crypto-Anarchistisch Manifest":
   geschreven door Timothy C. May in 1992, dit document legt uit hoe het gebruik van cryptografie zou kunnen leiden tot een tijdperk van cryptografische anarchie waarin overheden machteloos zouden zijn om zich te mengen in de privézaken van burgers. May zag een toekomst voor zich waarin mensen anoniem informatie en geld uitwisselen zonder tussenkomst van een derde partij.
 
-- "Een Verklaring van de Onafhankelijkheid van Cyberspace":
+- "Een Verklaring Van De Onafhankelijkheid Van Cyberspace":
   hoewel het niet uitsluitend Cypherpunk is, weerspiegelt deze tekst de gevoelens van veel deelnemers aan de beweging. De verklaring werd in 1996 geschreven door John Perry Barlow en is een reactie op de toenemende regulering van het internet door overheden. De verklaring stelt dat cyberspace een ander domein is dan de fysieke sfeer en niet onderworpen zou moeten zijn aan dezelfde wetten. Er staat: "We hebben geen gekozen regering en het is ook niet waarschijnlijk dat we er een zullen krijgen".
 
 ### De voorgangers van Bitcoin
 
-Voor de opkomst van Bitcoin waren er al verschillende pogingen geweest om een digitale munt te creëren. David Chaum introduceerde bijvoorbeeld het concept van "anoniem elektronisch geld" met zijn project "DigiCash" in de jaren 1980. Helaas kwam DigiCash door verschillende beperkingen nooit van de grond.
+Voor de opkomst van Bitcoin zijn er al verschillende pogingen gedaan om een digitale valuta te creëren. David Chaum introduceerde bijvoorbeeld het concept van "anoniem elektronisch geld" met zijn project "DigiCash" in de jaren '80. Helaas kwam DigiCash door verscheidene beperkingen nooit van de grond.
 
-Een andere belangrijke voorloper is "B-money" van Wei Dai. Hoewel het nooit werd geïmplementeerd, presenteerde het het idee van een anonieme digitale munt waarbij fraudedetectie werd uitgevoerd door een gemeenschap van beoordelaars in plaats van een centrale autoriteit.
+Een andere belangrijke voorloper is "B-money" van Wei Dai. Hoewel het nooit werd geïmplementeerd, presenteerde het het idee van een anonieme digitale valuta waarbij fraudedetectie werd uitgevoerd door een gemeenschap van beoordelaars in plaats van een centrale autoriteit.
 
 De afbeelding hieronder illustreert duidelijk de ontwikkeling van de beweging door de vele technologische innovaties.
 
 ![image](assets/en/05.webp)
 
-In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 het Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals Proof of Work en cryptografische tijdstempels, om een gedecentraliseerde en censuurbestendige digitale valuta te creëren.
+In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals Proof of Work en cryptografische tijdstempels, om een gedecentraliseerde en censuurbestendige digitale valuta te creëren.
 
 Bitcoin was echter meer dan dat: het vertegenwoordigde de verwezenlijking van de Cypherpunk idealen. Naast de technologie symboliseerde het een revolutie tegen traditionele financiële systemen en bood het een alternatief gebaseerd op transparantie, decentralisatie en individuele soevereiniteit.
 
 ### Conclusie
 
-De voorgeschiedenis van Bitcoin is diep geworteld in de Cypherpunk beweging en de collectieve zoektocht naar meer vrijheid in het digitale tijdperk. Door de principes van cryptografie, decentralisatie en integriteit te combineren, is Bitcoin veel meer geworden dan een munteenheid. In feite is het het product van een filosofische en technologische revolutie die onze wereld blijft veranderen.
+De voorgeschiedenis van Bitcoin is diep geworteld in de Cypherpunk beweging en de collectieve zoektocht naar meer vrijheid in het digitale tijdperk. Door de principes van cryptografie, decentralisatie en integriteit te combineren, is Bitcoin veel meer geworden dan een valuta. In feite is Bitcoin het product van een filosofische en technologische revolutie die onze wereld blijft veranderen.
 
-Daarom is Bitcoin een protocol dat zich over lange perioden uitstrekt en ons aanmoedigt om onze relatie met energie, tijd en geld in vraag te stellen.
+Daarom is Bitcoin een protocol dat zich over een lange tijdsperiode uitstrekt en ons aanmoedigt om onze relatie met energie, tijd en geld in vraag te stellen.
 
-Maar is Bitcoin een "echte" valuta? Om dit te begrijpen, moeten we eerst het concept van geld en zijn verschillende vormen begrijpen, wat we in het volgende hoofdstuk zullen onderzoeken.
+Maar is Bitcoin een "echte" valuta? Om dit te begrijpen, moeten we eerst het concept van geld en de verschillende vormen ervan begrijpen, dit zullen we in het volgende hoofdstuk onderzoeken.
 
-Als je de geschiedenis van Bitcoin in meer detail wilt verkennen, raden we je van harte onze HIS 201-cursus aan, waarin je de oorsprong en het langzame ontstaan van Bitcoin ontdekt, evenals het begin van haar geschiedenis en gemeenschap. Deze cursus is volledig gedocumenteerd en voorzien van bronnen, met natuurlijk veel anekdotes:
+Als je de geschiedenis van Bitcoin in meer detail wilt verkennen, raden we je onze HIS 201-cursus aan, waarin je de oorsprong en de geleidelijke opkomst van Bitcoin ontdekt, evenals het begin van zijn geschiedenis en gemeenschap. Deze cursus is volledig gedocumenteerd en voorzien van bronnen, met natuurlijk veel anekdotes:
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
@@ -142,19 +142,18 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
-## Geld door de geschiedenis heen
+## Geld Door De Geschiedenis Heen
 
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
-De evolutie van geld is een fascinerend aspect van de menselijke geschiedenis dat de vindingrijkheid van beschavingen door de eeuwen heen weerspiegelt bij het voldoen aan voortdurend veranderende economische behoeften.
+De evolutie van geld is een fascinerend aspect van de geschiedenis van de mens dat de vindingrijkheid van beschavingen door de eeuwen heen weerspiegelt, en bijdraagt aan het voorzien in voortdurend veranderende economische behoeften.
 
 ![image](assets/en/06.webp)
 
 ### Van schelpen naar bankrekeningen
 
-Oorspronkelijk was geld een tastbaar goed, zoals graan, vee of een andere grondstof. Deze goederen hadden echter het grote nadeel dat ze bederfelijk waren, waardoor het moeilijk was om ze te gebruiken als spaarmiddel voor de lange termijn. Slechte oogsten of ziekte van dieren konden bijvoorbeeld het vermogen van een individu van de ene dag op de andere vernietigen.
-
-Naarmate beschavingen zich ontwikkelden en de handel zich uitbreidde naar nieuwe gebieden, ontstond de behoefte aan een universeel medium voor Exchange. Mensen experimenteerden eerst met schelpen en edelstenen. Mensen experimenteerden eerst met voorwerpen zoals schelpen en edelstenen, maar die waren niet zo duurzaam of schaars als ze dachten. Uiteindelijk werd goud de standaard, vanwege zijn zeldzaamheid, duurzaamheid en deelbaarheid. Het was, en is nog steeds, een symbool van rijkdom en macht.
+Oorspronkelijk was geld een tastbaar goed, zoals graan, vee of een andere grondstof. Deze goederen hadden echter het grote nadeel dat ze bederfelijk waren, waardoor het moeilijk was om ze te gebruiken als spaarmiddel voor de lange termijn. Slechte oogsten of ziekte van dieren konden bijvoorbeeld iemands vermogen van de ene dag op de andere vernietigen.
+Naarmate beschavingen zich ontwikkelden en handel zich uitbreidde naar nieuwe gebieden, ontstond de behoefte aan een universeel ruilmiddel (medium of exchange). Mensen experimenteerden eerst met voorwerpen zoals schelpen en edelstenen, maar die waren niet zo duurzaam of schaars als ze dachten. Uiteindelijk werd goud de standaard, vanwege zijn zeldzaamheid, duurzaamheid en deelbaarheid. Het was, en is nog steeds, een symbool van rijkdom en macht.
 
 ![image](assets/en/07.webp)
 
@@ -162,35 +161,35 @@ Naarmate beschavingen zich ontwikkelden en de handel zich uitbreidde naar nieuwe
 
 Geld is een zeer geavanceerd communicatiemiddel:
 
-- Het maakt communicatie mogelijk tussen het heden en de toekomst, omdat het onze tijd en energie omzet in een goed dat in de toekomst opnieuw gebruikt kan worden zonder het risico van devaluatie.
-- Het vergemakkelijkt communicatie in een universele taal: zonder elkaar te kennen of dezelfde taal te spreken, kunnen twee vreemden Exchange, handel drijven en het eens worden over de waarde van dingen.
+- Het maakt communicatie mogelijk tussen het heden en de toekomst omdat het onze tijd en energie omzet in een goed dat in de toekomst opnieuw gebruikt kan worden zonder het risico van devaluatie.
 
-De functie ervan in onze wereld is moeilijk kunstmatig na te bootsen. In feite kan geen enkel individu of groep geld creëren, omdat het een natuurlijk fenomeen is dat moet voortkomen uit de markt en vrijwillige consensus. In die zin dienen prijzen als signalen en stukjes informatie die de maatschappij leiden bij het toewijzen van middelen.
+- Het vergemakkelijkt communicatie in een universele taal: zonder elkaar te kennen of dezelfde taal te spreken, kunnen twee vreemden ruilen, handel drijven en tot overeenstemming komen over de waarde van dingen.
+
+In onze wereld is de functie ervan moeilijk kunstmatig na te bootsen. In feite kan geen enkel individu of groep geld creëren omdat het een natuurlijk fenomeen is dat moet voortkomen uit de markt en vrijwillige consensus. In die zin dienen prijzen als signalen en stukjes informatie die de maatschappij begeleiden bij het toewijzen van middelen.
 
 Om deze redenen is goud als geld het resultaat van 4000 jaar monetair Darwinisme gebaseerd op de volgende Aristotelische functies:
-- Waardeopslag**: geld kan gebruikt worden om koopkracht over te dragen naar de toekomst, dus moet het een duurzaam materiaal zijn;
-- Medium van Exchange**: geld kan in Exchange worden gebruikt voor goederen en diensten in plaats van ruilhandel, waardoor het samenvallen van behoeften tussen handelaren wordt vermeden;
-- Rekeneenheid**: geld stelt ons ook in staat om de waarde van verschillende goederen te vergelijken om hun relatieve gemak beter te begrijpen.
+
+- **Store of Value (Waardeopslag)**: geld kan gebruikt worden om koopkracht over te dragen naar de toekomst, dus moet het een duurzaam materiaal zijn;
+- **Medium of Exchange (Ruilmiddel)**: geld kan als ruilmiddel voor goederen en diensten gebruikt worden in plaats van ruilhandel, waardoor het toevallig samenvallen van behoeften (coincidence of wants) tussen handelaren wordt vermeden;
+- **Unit of Account (Rekeneenheid)**: geld stelt ons ook in staat om de waarde van verschillende goederen te vergelijken om hun relatieve bruikbaarheid beter te begrijpen.
 
 ![image](assets/en/08.webp)
-
 ![image](assets/en/09.webp)
-
 ![image](assets/en/10.webp)
 
 ### De kenmerken van geld
 
-Goud voldoet idealiter aan de criteria van een efficiënt betaalmiddel: de natuurlijke zeldzaamheid maakt het waardevol, terwijl de chemische eigenschappen ervoor zorgen dat het niet erodeert in de loop der tijd. Deze eigenschappen hebben goud tot een geweldige **waardekast** gemaakt, maar niet tot een gangbare valuta, omdat deze vorm van geld niet gemakkelijk deelbaar of vervoerbaar is over lange afstanden. In een geglobaliseerde en digitale wereld heeft goud moeite om bij te blijven en heeft het een centrale entiteit nodig om het deelbaar en gemakkelijk uitwisselbaar te maken (d.w.z. door middel van geslagen munten).
+Goud voldoet idealiter aan de criteria van een efficiënt betaalmiddel: de natuurlijke zeldzaamheid maakt het waardevol terwijl de chemische eigenschappen ervoor zorgen dat het in de loop der tijd niet erodeert. Deze eigenschappen hebben goud tot een geweldige **store of value (waardeopslag)** gemaakt, maar niet tot een gangbare valuta, omdat deze vorm van geld niet gemakkelijk deelbaar of vervoerbaar is over lange afstanden. In een geglobaliseerde en digitale wereld heeft goud moeite om bij te blijven en heeft het een centrale entiteit nodig om het deelbaar en gemakkelijk uitwisselbaar te maken (d.w.z. door middel van uitgegeven munten).
 
-Aan de andere kant zijn fiduciaire staatsvaluta's (fiat) gemakkelijk te gebruiken, maar worden ze voortdurend gedevalueerd door de entiteiten die ze controleren (koningen, centrale banken, keizers, dictators).
+Anderzijds zijn fiduciaire staatsvaluta's (fiat) gemakkelijk te gebruiken, maar worden ze voortdurend gedevalueerd door de entiteiten die ze controleren (koningen, centrale banken, keizers, dictators).
 
 Om dit concept beter uit te leggen, zullen we de kenmerken van een effectieve valuta onderzoeken:
 
 ![image](assets/en/11.webp)
 
-- Fungibiliteit**, wat betekent dat het uitwisselbaar is met een andere eenheid van dezelfde soort zonder waardeverlies;
-- Deelbaarheid**, omdat het kan worden opgedeeld in kleinere eenheden om transacties van verschillende volumes te vergemakkelijken;
-- Liquiditeit**, wat betekent dat het gemakkelijk kan worden omgezet in goederen of diensten.
+- **Fungibiliteit**, wat betekent dat het uitwisselbaar is met een andere eenheid van dezelfde soort zonder waardeverlies;
+- **Deelbaarheid**, omdat het kan worden opgedeeld in kleinere eenheden om transacties van verschillende volumes te vergemakkelijken;
+- **Liquiditeit**, wat betekent dat het gemakkelijk kan worden omgezet in goederen of diensten.
 
 Om aan deze criteria te voldoen, heeft valuta zich historisch ontwikkeld door verschillende stappen te nemen:
 

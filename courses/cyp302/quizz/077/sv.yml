@@ -1,0 +1,9 @@
+question: Vilken roll spelar Kerckhoffs princip inom kryptografi?
+answer: För att säkerställa att säkerheten är beroende av den hemliga nyckeln, inte av systemets hemlighet
+wrong_answers:
+  - För att säkerställa att säkerheten är beroende av systemets sekretess, inte av den hemliga nyckeln
+  - Att kräva en mycket lång krypteringsnyckel
+  - För att garantera att varje meddelande har en unik nyckel
+explanation: |
+  Enligt Kerckhoffs princip ska säkerheten i ett kryptografiskt system enbart bero på den hemliga nyckeln och inte på att algoritmen i sig är hemlig.
+reviewed: false

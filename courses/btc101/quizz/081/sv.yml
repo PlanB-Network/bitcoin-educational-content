@@ -1,0 +1,12 @@
+question: Vilken är den centrala frågan att ställa dig själv när du väljer en Bitcoin Wallet, när det gäller självförvaring?
+answer: Är det du som äger pengarna eller överlåter du kontrollen av dina pengar till en tredje part?
+wrong_answers:
+  - Är Wallet säkrad med en passphrase?
+  - Tillåter Wallet att man tar emot och skickar bitcoins?
+  - Kan jag dela min Wallet med en annan person?
+explanation: |
+  När du väljer en Bitcoin Wallet är den centrala frågan:
+  är du ägare till medlen eller lämnar du kontrollen över
+  dina pengar till en tredje part? Detta beror på att innehavaren av
+  den privata nyckeln är ägare till Bitcoins.
+reviewed: true

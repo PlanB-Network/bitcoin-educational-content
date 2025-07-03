@@ -1,0 +1,13 @@
+question: Varför är argumentet att Bitcoin är värdelöst eftersom det inte backas upp av något bristfälligt?
+answer: Värde är subjektivt och baseras på människors övertygelser och erfarenheter.
+wrong_answers:
+  - Bitcoin är uppbackad av guld, vilket ger den ett inneboende värde.
+  - Bitcoin:s värde bestäms av dess knapphet och säkerhetsegenskaper.
+  - Bitcoin:s värde baseras på dess acceptans av regeringar och banker.
+explanation: |
+  Värde är subjektivt och i betraktarens öga. Bitcoin är värdefullt
+  för att folk tror att det är så, precis som konst kan vara värdefull trots
+  trots att den är gjord av duk och färg. Argumentet att valuta måste backas upp av något
+  något av värde är felaktigt, eftersom värdet av fiatvalutor som den amerikanska dollarn
+  dollar också bygger på tillit och tro.
+reviewed: true

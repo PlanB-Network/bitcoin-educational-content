@@ -1,0 +1,9 @@
+question: Vilken är den svåraste egenskapen att uppnå med en digital valuta som Bitcoin?
+answer: Avsaknad av dubbla utgifter
+wrong_answers:
+  - Integritet
+  - Äkthet
+  - Sanningsenlighet
+explanation: |
+  För digitala valutor är det mer komplicerat att säkerställa att det inte förekommer dubbla utgifter, eftersom alla digitala varor i grunden är information. Till skillnad från fysiska varor delas inte information under utbytet utan sprids genom att multipliceras.
+reviewed: false

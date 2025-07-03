@@ -10,7 +10,7 @@ description: Poruke i mnogo više, na mobilnom i desktopu
 Telegram je mnogo više od aplikacije za razmenu poruka i prevazilazi koncept društvenih mreža. U poređenju sa mnogim konkurentima, ima mnogo funkcija koje ga čine alatom vrednim poznavanja.
 
 
-Pored razmene poruka, sa Telegramom možete obavljati video i glasovne pozive, uređivati ili brisati poruke čak i nakon što su poslate, Exchange velike fajlove bez ograničenja prostora, i još mnogo toga. Nadamo se da ovaj vodič može pomoći da lako naučite i, pre svega, pridružite se brojnim Bitcoiner zajednicama prisutnim na Telegramu.
+Pored razmene poruka, sa Telegramom možete obavljati video i glasovne pozive, uređivati ili brisati poruke čak i nakon što su poslate, razmenjivati velike fajlove bez ograničenja prostora, i još mnogo toga. Nadamo se da ovaj vodič može pomoći da lako naučite i, pre svega, pridružite se brojnim Bitcoiner zajednicama prisutnim na Telegramu.
 
 
 ## Telegram mobilni
@@ -78,7 +78,7 @@ Telegram je sada potpuno funkcionalan na mobilnom, možemo preći na prva osnovn
 ## Konfiguracija korisničkog imena
 
 
-Telegram korisničko ime - ponekad se naziva i `handle` - mnogo je više od puke pomodarstva. Handle je zaista **jedinstven za svakog korisnika**.
+Telegram korisničko ime - ponekad se naziva i `handle` - mnogo je više od pukog pomodarstva. Handle je zaista **jedinstven za svakog korisnika**.
 
 Na Telegramu je lako naići na prevarante koji pišu privatno, pretvarajući se da su neko ko nisu. Svaki korisnik može upasti u zamku i otkriti lične informacije verujući da razgovara sa kontaktom kojem potpuno veruje. **Videćemo da je korisničko ime najbolja odbrana za ublažavanje ovakvih opasnosti**.
 
@@ -109,7 +109,7 @@ Kliknite na _Set Username_ (ovde _Change Username_ zbog upravo pomenutog razloga
 ![image](assets/en/13.webp)
 
 
-i konfigurišite svoj ručicu, zatim sačuvajte klikom na kvačicu ✅ u gornjem desnom uglu.
+i konfigurišite svoj username, zatim sačuvajte klikom na kvačicu ✅ u gornjem desnom uglu.
 
 
 
@@ -119,7 +119,7 @@ i konfigurišite svoj ručicu, zatim sačuvajte klikom na kvačicu ✅ u gornjem
 U većini Telegram grupa i kanala, ovo korisničko ime je potrebno kao preduslov za pristup. Za administratore takvih grupa, to je jedan od načina da drže botove i spam podalje.
 
 
-⚠️ Uvek treba da proverite nalog bilo koga ko vas kontaktira privatno i nikada ne delite poverljive informacije kao što su lozinke ili Mnemonic fraze ni sa kim, čak i ako tvrde da su zvanična podrška ili nude pomoć (možda na vaš zahtev). Blokirajte korisnike koji vas kontaktiraju bez vaše dozvole, jer to sigurno čine sa prevarantskom namerom.
+⚠️ Uvek treba da proverite nalog bilo koga ko vas kontaktira privatno i nikada ne delite poverljive informacije kao što su lozinke ili Mnemonic (bezbednosne) fraze ni sa kim, čak i ako tvrde da su zvanična podrška ili nude pomoć (možda na vaš zahtev). Blokirajte korisnike koji vas kontaktiraju bez vaše dozvole, jer to sigurno čine sa prevarantskom namerom.
 
 
 Kako uzurpator preuzima tuđi identitet?
@@ -156,9 +156,9 @@ Ovde ćete pronaći čitav niz važnih parametara koje možete prilagoditi prema
 Obavezno postavite:
 
 
-- _Broj telefona_ za "Nikoga"
-- _Pozivi_ ka "Mojim kontaktima"
-- _Pozivnice_ za "Niko"
+- _Broj telefona_ za "Nikoga" (eng. Nobody)
+- _Pozivi_ ka "Mojim kontaktima" (eng. My contacts)
+- _Pozivnice_ za "Nikoga" (eng. Nobody)
 
 Ovo su mere koje će sprečiti izlaganje vašeg broja telefona, tako da nećete primati neželjene pozive ili biti nesvesno dodati u grupe sumnjivog porekla. Kasnije, možete prilagoditi sve ostale parametre kako želite.
 
@@ -181,7 +181,7 @@ Ovde već možete videti 2 glavne funkcije koje ćete koristiti za slanje poruka
 ![image](assets/en/37.webp)
 
 
-Klikom na potonju opciju, prvo će Telegram tražiti dozvolu za pristup kontaktima u vašoj Address knjizi, što možete odobriti ili odbiti u zavisnosti od vaših potreba. Odobravanjem, moći ćete da stupite u kontakt sa prvim prijateljima koji su već preuzeli aplikaciju.
+Klikom na potonju opciju, prvo će Telegram tražiti dozvolu za pristup kontaktima iz vašeg imenika, što možete odobriti ili odbiti u zavisnosti od vaših potreba. Odobravanjem, moći ćete da stupite u kontakt sa prvim prijateljima koji su već preuzeli aplikaciju.
 
 
 ![image](assets/en/38.webp)

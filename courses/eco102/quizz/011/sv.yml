@@ -1,0 +1,9 @@
+question: Varför fungerar marknaden enligt Adam Smith?
+answer: Eftersom den bygger på egenintresse
+wrong_answers:
+  - Eftersom det är reglerat
+  - För att den är dygdig
+  - Eftersom den övervakas av staten
+explanation: |
+  För Adam Smith fungerar marknaden genom att varje individ agerar i sitt eget intresse, vilket naturligt genererar ett kollektivt välstånd.
+reviewed: false

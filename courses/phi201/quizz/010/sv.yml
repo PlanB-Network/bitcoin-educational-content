@@ -1,0 +1,9 @@
+question: Vad är ofta i fokus i traditionella läroböcker i historia?
+answer: Militära erövringar och biografier över ledare
+wrong_answers:
+  - Utvecklingen av idéer och filosofiska rörelser
+  - Kampen för frihet och individuella rättigheter
+  - Vetenskapliga och tekniska framsteg
+explanation: |
+  I traditionella läroböcker i historia läggs tonvikten ofta på militära erövringar och ledarnas biografier, vilket innebär att man försummar effekterna av idéer, sociala rörelser och framsteg inom andra områden.
+reviewed: true

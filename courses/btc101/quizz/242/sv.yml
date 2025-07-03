@@ -1,0 +1,8 @@
+question: Hur kan Lightning Network potentiellt användas för att hyra varor?
+answer: Användarna skulle kunna debiteras per minut, eller till och med per sekund, för den tid de använder varorna.
+wrong_answers:
+  - Användarna kan få betala en hög avgift för att hyra varorna.
+  - Användarna skulle kunna debiteras baserat på varornas värde.
+  - Användarna skulle kunna debiteras baserat på varornas skick.
+explanation: >-
+reviewed: true

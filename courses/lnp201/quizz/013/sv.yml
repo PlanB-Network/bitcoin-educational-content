@@ -1,0 +1,9 @@
+question: Vad händer om Alice inte får Bob:s underskrift för uttagstransaktionen?
+answer: Hon riskerar att förlora tillgången till sina medel som satts in i multisignatur Address
+wrong_answers:
+  - Hon kan inte längre kommunicera med Bob på Lightning Network
+  - Kanalen öppnas med begränsad kapacitet
+  - Bob tar automatiskt emot pengarna i kanalen
+explanation: |
+  Utan Bob:s underskrift på uttagstransaktionen kan Alice inte säkerställa återbetalningen av sina medel i händelse av ett problem, vilket utgör en risk för förlust.
+reviewed: false

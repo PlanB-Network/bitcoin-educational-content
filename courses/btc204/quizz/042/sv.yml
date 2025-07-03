@@ -1,0 +1,9 @@
+question: Vilken av dessa risker är inte förknippad med kontantutbyten enligt P2P?
+answer: Risk för dataläckage.
+wrong_answers:
+  - Risk för den personliga säkerheten.
+  - Risk för stöld.
+  - Juridisk risk.
+explanation: |
+  P2P-börser för kontanter innebär många risker, men de kräver inte att man gör en kundkännedomskontroll. Därför finns det ingen risk för dataläckage.
+reviewed: false

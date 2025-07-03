@@ -1,0 +1,10 @@
+question: Vad är nyttan med en Smart contract i en hemlig fastighet Exchange?
+answer: Att samtidigt och systematiskt avslöja information som gör det möjligt för båda parter att hämta ut den andres medel.
+wrong_answers:
+  - Säkerställ konfidentialitet genom att kryptera fastighetsinformation så att endast den legitima mottagaren kan dekryptera den.
+  - Automatisera överföringsprocessen för att minimera mänskliga interaktioner och minska antalet fel.
+  - Underlätta tvistlösning genom att hålla bitcoins från båda parter i händelse av fuskförsök.
+explanation: |
+  För att möjliggöra utbyten mellan parter som inte litar på varandra används Smart contract-system. Ett Smart contract är ett program som automatiskt körs när fördefinierade villkor är uppfyllda, vilket i vårt fall säkerställer att egenskapen Exchange utförs automatiskt utan att kräva ömsesidigt förtroende. Smart contract gör det möjligt att samtidigt avslöja två känsliga delar av informationen mellan deltagarna. Antingen utförs den normalt, och varje part hämtar den andres medel, eller så misslyckas den, och alla behåller sina ursprungliga medel.
+  
+reviewed: false

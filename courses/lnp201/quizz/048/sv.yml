@@ -1,0 +1,9 @@
+question: Hur möjliggör Keysend-tekniken en fondöverföring utan en Invoice?
+answer: Avsändaren genererar en hemlighet i HTLC:erna för att låsa upp pengarna
+wrong_answers:
+  - Mottagaren genererar en Hash för att validera överföringen
+  - Betalningen valideras genom en direktkanal mellan avsändare och mottagare
+  - Fonderna krediteras direkt utan ytterligare säkerhet
+explanation: |
+  Keysend gör det möjligt för avsändaren att generate en hemlighet inbäddad i HTLC:erna, vilket gör det möjligt för mottagaren att låsa upp pengarna utan att ha utfärdat en Invoice.
+reviewed: false

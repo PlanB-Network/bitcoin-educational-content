@@ -1,0 +1,9 @@
+question: Vilken process bygger modellen för elektroniska pengar eCash på?
+answer: Blinda signaturer
+wrong_answers:
+  - Gruppsignaturer
+  - Ring signaturer
+  - Tröskelvärden för signaturer
+explanation: |
+  eCash bygger på den blinda signaturprocessen, som gör det möjligt för en undertecknare att underteckna något utan att se vad han eller hon undertecknar.
+reviewed: true

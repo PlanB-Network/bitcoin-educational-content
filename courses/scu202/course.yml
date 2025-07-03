@@ -6,7 +6,7 @@ subtopic: security
 
 level: intermediate
 
-hours: 35
+hours: 10
 
 professors_id:
   - 6516474c-c190-41f2-b2ab-3d452ce7bdf0
@@ -32,5 +32,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
-
+    reward: 52.62

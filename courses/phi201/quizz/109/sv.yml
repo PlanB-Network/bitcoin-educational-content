@@ -1,0 +1,9 @@
+question: Vilken är den lösning som Hayek föreslår för att undvika träldom?
+answer: Försvara privat egendom och marknadens spontana ordning som bålverk mot tyranni.
+wrong_answers:
+  - Han förespråkar en skattehöjning för att hjälpa de fattiga.
+  - Han efterlyser en återgång till ett ekonomiskt system av feodal typ.
+  - Utbilda allmänheten om trafikregler.
+explanation: |
+  Hayek anser att individens frihet bevaras genom att skydda privat egendom och låta marknaden reglera sig själv, vilket förhindrar auktoritär drift och centralisering av makt.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Vilken var en betydande begränsning som enskilda personer ställdes inför under den grekiska statens konkurskris 2015?
+answer: Överväldigande bankreform som införts av regeringen.
+wrong_answers:
+  - Begränsad tillgång till digitala banktjänster
+  - Volatiliteten i digitala valutor som Bitcoin
+  - Brist på fysisk valuta (kontanter)
+explanation: |
+  Under den grekiska regeringens konkurskris 2015 var bankerna stängda,
+  Bankomatuttag begränsades och en betydande del av privatpersoners
+  banktillgodohavanden togs ut av regeringen för att finansiera finanspolitisk oansvarighet.
+  Denna händelse belyste riskerna med att ha pengar i det traditionella banksystemet.
+reviewed: true

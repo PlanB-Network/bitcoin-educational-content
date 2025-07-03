@@ -1,0 +1,9 @@
+question: Vilket begrepp är inte enbart relaterat till symmetriska eller asymmetriska kryptografiska system?
+answer: Hash funktioner
+wrong_answers:
+  - Offentliga och privata nyckelpar
+  - Asymmetrisk kryptografi
+  - Symmetrisk kryptografi
+explanation: |
+  Hash-funktioner är en viktig del av modern kryptografi, men de är inte specifikt associerade med symmetriska eller asymmetriska system, till skillnad från offentliga och privata nycklar.
+reviewed: false

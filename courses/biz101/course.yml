@@ -25,12 +25,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.42
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.57
+    reward: 17.59
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -41,12 +41,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.42
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.42
   - language: fr
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -69,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 35.04
+    reward: 35.08
   - language: nb-NO
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -85,12 +85,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.41
+    reward: 23.42
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 35.07
+    reward: 35.08
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -101,18 +101,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.41
+    reward: 23.42
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.9
+    reward: 40.91
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 11.70
+    reward: 11.71
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -123,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.24
+    reward: 29.25
 tags:
   - business
   - adoption

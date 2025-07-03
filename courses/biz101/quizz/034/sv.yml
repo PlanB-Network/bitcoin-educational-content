@@ -1,0 +1,9 @@
+question: Vilken trend noteras bland deltagare som driver noder på Lightning Network?
+answer: Professionella nodoperatörer tillhandahåller alltmer likviditet, medan enskilda användare fokuserar på "edge"-noder, vilket förändrar nätverkets sammansättning.
+wrong_answers:
+  - Enskilda hobbyister har helt ersatt alla professionella operatörer.
+  - Stora banker driver nu centralt alla Lightning-noder.
+  - Nätverket har stängt ner personliga noder för att endast tillåta stora företag.
+explanation: |
+  Det finns en rörelse mot mer likviditet och stabilitet som tillhandahålls av professionella enheter, medan vanliga användare förlitar sig på förenklade eller värdbaserade lösningar, vilket gör nätverket mer robust och tillgängligt.
+reviewed: false

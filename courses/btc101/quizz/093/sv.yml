@@ -1,0 +1,14 @@
+question: Vad behöver du säkerhetskopiera när du använder en Wallet med en passphrase?
+answer: Du måste säkerhetskopiera både listan med 12 eller 24 ord och din passphrase.
+wrong_answers:
+  - Du behöver bara säkerhetskopiera listan med 12 eller 24 ord.
+  - Du behöver bara säkerhetskopiera din passphrase.
+  - Du behöver inte backa upp vare sig listan med 12 eller 24 ord eller din passphrase.
+explanation: |
+  När du använder en Wallet med en passphrase måste du säkerhetskopiera
+  både listan med 12 eller 24 ord och din passphrase,
+  eftersom listan med ord och passphrase är båda
+  nödvändiga för att få tillgång till dina pengar om du förlorar
+  förlust av din telefon eller dator. Utan det ena eller det andra,
+  är pengarna otillgängliga.
+reviewed: true

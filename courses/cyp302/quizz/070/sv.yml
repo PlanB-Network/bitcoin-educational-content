@@ -1,0 +1,9 @@
+question: Vilken typ av kryptering är skiftkryptering?
+answer: Ett monoalfabetiskt substitutionschiffer
+wrong_answers:
+  - Ett chiffer för ordpermutation
+  - Ett polyalfabetiskt substitutionschiffer
+  - Ett asymmetriskt chiffer
+explanation: |
+  Skiftkryptering är ett exempel på ett monoalfabetiskt substitutionschiffer, där varje bokstav i meddelandet flyttas med ett fast antal positioner i alfabetet.
+reviewed: false

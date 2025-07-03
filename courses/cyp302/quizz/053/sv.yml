@@ -1,0 +1,9 @@
+question: Vad kallas ett fält med ett ändligt antal Elements?
+answer: Ett Galoisfält
+wrong_answers:
+  - Ett multiplikativt fält
+  - Ett symmetriskt fält
+  - Ett vektorfält
+explanation: |
+  Ett ändligt fält kallas också för ett Galoisfält, uppkallat efter matematikern Évariste Galois, och det är viktigt inom modern kryptografi.
+reviewed: false

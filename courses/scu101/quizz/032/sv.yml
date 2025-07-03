@@ -1,0 +1,9 @@
+question: Vad är utpressningstrojaner?
+answer: En typ av skadlig programvara som krypterar användardata och kräver en lösensumma för att dekryptera den.
+wrong_answers:
+  - En typ av antivirusprogram som kan rensa datorns cache och cookies mot betalning av en engångsavgift.
+  - En typ av programvara som används för dataåterställning och som blivit allt vanligare i Europa.
+  - En typ av programvara som används för säkerhetskopiering av data och som vanligtvis utför en säkerhetskopiering var 7:e dag.
+explanation: |
+  Ransomware är en typ av skadlig programvara som krypterar användardata och kräver en lösensumma för att dekryptera den. Det blir allt vanligare och kan vara mycket besvärligt för ett företag eller en enskild person.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilken var den medeltida kyrkans inställning till räntebärande lån?
+answer: Det förbjöd dem.
+wrong_answers:
+  - Det uppmuntrade dem.
+  - Den tolererade dem i vissa fall.
+  - Det hade ingen åsikt i frågan.
+explanation: |
+  Den medeltida kyrkan förbjöd räntebärande lån och ansåg att det var en ockerliknande synd, eftersom det ansågs omoraliskt att dra nytta av ett lån genom att kräva mer än det ursprungliga beloppet.
+reviewed: true

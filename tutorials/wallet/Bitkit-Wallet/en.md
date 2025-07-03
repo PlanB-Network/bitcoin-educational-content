@@ -43,8 +43,14 @@ Live Widgets: Add a touch of fun and utility to your wallet home screen with eng
 Social Profile: Take control of your public profile and links, so your contacts can reach out and pay you at any time.
 
 Passwordless Accounts: Log in to websites that support Slashtags or Lightning authentication.
+
+
 QuickPay: Set a custom limit for Lightning payments under $50, and any invoice below that is paid instantly—no swipes, no delays. Perfect for coffee runs or splitting bills.
+
+
 Shop: Pay for Netflix, Airbnb, groceries, mobile data, and more, with Bitcoin, right inside Bitkit.
+
+
 No banks. No friction.
 
 ![cover](assets/2.webp)
@@ -52,132 +58,188 @@ No banks. No friction.
 
 ## 1. Install BitKit
 Open the App Store (iOS) or Google Play (Android).
+
+
 Search for “BitKit” and confirm you see the official orange brand icon.
+
+
 Tap Get or Install, then Open once the download finishes.
 
 Tip: If you spot any impostor apps, double-check the publisher. BitKit is published by Synonym Software Ltd.
 
+
 ## 2. First Launch and Terms
+
 Launch BitKit, agree to the Terms of Use, and tap Continue.
+
 Tap Get Started to begin the onboarding flow.
+
 Ignore Restore Wallet for now; we will create a new wallet.
 
 ## 3. Back Up Your Wallet Seed
 BitKit is self custodial, so the twelve-word seed phrase is your only recovery method.
+
 Tap Back Up Now when prompted.
+
 Write down the twelve words on paper and store them offline in a secure place.
+
 Confirm the words when asked, then tap Save.
 
 Warning: Lose the seed, lose your coins. There is no reset button.
 
 ## 4. Savings vs. Spending Accounts
 BitKit automatically creates two accounts:
-Account
-Network
-Best Use
-Savings
-Bitcoin base layer
+
+Savings: Bitcoin base layer
+
 Larger, slower, more secure transfers
-Spending
-Lightning Network
+
+Spending: Lightning Network
+
 Small, instant everyday payments
 
 Switch between them with the tab at the top of the home screen.
 
 ## 5. Receive Bitcoin On Chain (Savings)
+
 Select Savings.
+
 Tap Receive to generate a fresh Bitcoin address.
+
 Share the QR code or copy the address to the sender.
+
 Funds will appear after one confirmation. Confetti will celebrate the arrival.
 
 ## 6. Receive Over Lightning (Spending)
 Select Spending and tap Receive.
+
 Enter an amount (for example, 10 000 sats) and tap Continue.
+
 BitKit will estimate the fee to open a channel (liquidity requirement).
+
 Tap Continue to generate a Lightning invoice.
+
 Let the sender scan or paste the invoice. Funds settle in seconds.
 
 
 
 ## 7. Send a Lightning Payment
+
 Tap the Scan icon, scan a Lightning invoice, or paste it.
+
 Enter the amount if required, then tap Continue.
+
 Review the fee and add an optional tag for bookkeeping.
+
 Swipe to Pay, enter your PIN, and you are done.
+
 Details of the transaction, including fee and timestamp, appear in the Activity feed.
 
 ## 8. Create Your Profile and Contacts
+
 Tap the avatar in the top left.
+
 Enter a display name and select a profile picture.
+
 BitKit shows your personal QR code. Friends can scan it to add you.
+
 Accept or deny the request to allow contacts to pay you.
 
 Once a contact is added, simply tap their name in Contacts to send or request sats.
 
 ## 9. Explore Widgets
 From the home screen, swipe to the Widgets section. Tap the gear icon to add or edit:
+
 Bitcoin Price Ticker – choose up to four fiat currencies and set the time frame (day, week, month, year).
 
-
 News Feed – headlines from leading Bitcoin sources.
+
 Bitcoin Facts – bite-sized trivia for beginners.
+
 Calculator – convert between sats and fiat instantly.
+
 Weather Widget – shows network fee “weather,” indicating good times for on-chain transactions (sunny means low congestion).
 
 
 
 ## 10. Shop with Bitcoin
+
+
 BitKit integrates with Bitrefill for gift cards, phone refills, and more.
+
 Tap Shop in the bottom navigation.
+
 Choose Gift Cards and pick a merchant (for example, Bitrefill).
+
 Select an amount (as low as 1 USD), add an email for delivery, then Checkout.
+
 Swipe to Pay. The gift card code arrives by email within seconds.
 
 
 
 ## 11. Quick Pay
+
 Quick Pay auto-confirms Lightning invoices below a custom limit (default 50 USD).
+
 Go to Settings → General → Quick Pay.
+
 Set your threshold and enable the switch.
+
 Small purchases like coffee no longer require swiping.
 
 
 
 ## 12. Security and Privacy
+
 PIN Code – enable under Settings → Security & Privacy and set a six-digit code.
+
 Biometrics – toggle on Face ID or fingerprint unlock.
+
 Auto-Lock – choose timeout (e.g. 90 seconds of inactivity).
+
 Require PIN for Payments – extra peace of mind.
 
 
 
 ## 13. Managing Lightning Channels
+
 What is a Channel?
+
 A channel is a two-party tunnel that holds liquidity, split into:
-Outbound – your sats, used to send.
-Inbound – counterparty sats, required to receive.
+
+Outbound – your bitcoin, used to send.
+
+Inbound – counterparty bitcoin, required to receive.
 
 Transfer from Savings to Spending
+
 Open Savings, tap Transfer to Spending.
 
 
-Enter the amount (for example, 25 000 sats) and tap Continue.
+Enter the amount (for example, 25 000 B) and tap Continue.
+
 Approve the fee and wait for the on-chain transaction to confirm.
+
 Once open, the spending balance and receiving capacity update.
+
 View or Close a Channel
+
 Settings → Advanced → Lightning Connections
 
 Tap a connection to see status, balances, and fees.
+
 Scroll to Close Connection if you wish to shut it and return funds to Savings.
 
 Note: For regulatory reasons, total liquidity in BitKit is limited to roughly nine hundred ninety euro worth of Bitcoin.
 
 ## 14. Advanced Features
+
 Coin Selection – choose specific UTXO inputs for privacy or fee control (Settings → Advanced → Coin Selection).
 
 ![cover](assets/3.webp)
 
 Transaction Speed – pick Slow, Normal, or Fast on-chain fee targets.
+
 Local Currency – switch from USD to any major fiat under Settings → General.
 
 
@@ -188,5 +250,6 @@ Download BitKit today and step into true Bitcoin ownership. Questions or feedbac
 
 
 Buying or selling bitcoin
+
 Bitkit doesn't support buying and selling bitcoin. To buy or sell, use exchanges like Bitfinex, then send to or from Bitkit.
 

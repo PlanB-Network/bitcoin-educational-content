@@ -1,0 +1,9 @@
+question: Quelles informations peuvent typiquement être retrouvées dans les métadonnées EXIF d’une photo ?
+answer: Date, heure, position GPS, modèle d’appareil, auteur
+wrong_answers:
+  - Code source du firmware de l'appareil photo
+  - Mot de passe Wi-Fi du photographe
+  - Résultat du dernier antivirus utilisé
+explanation: |
+  Les métadonnées EXIF d’une photo contiennent souvent des informations contextuelles détaillées sur la prise de vue et l’appareil.
+reviewed: false

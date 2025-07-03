@@ -26,25 +26,26 @@ Međutim, Signal se oslanja na korišćenje telefonskog broja, što je njegova g
 
 
 
-| Aplikacija           | E2EE 1:1       | E2EE grupe     | Anonimna registracija | Licenca klijenta open-source | Licenca servera open-source | Decentralizovani server      | Godina kreiranja  |
-| -------------------- | -------------- | -------------- | --------------------- | ---------------------------- | --------------------------- | ---------------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                     | ❌                            | ❌                           | ❌                            | 2009              |
-| WeChat               | ❌              | ❌              | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opcionalno) | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Telegram             | 🟡 (opcionalno) | ❌              | 🟡                    | ✅                            | ❌                           | ❌                            | 2013              |
-| LINE                 | ✅              | ✅              | ❌                     | ❌                            | ❌                           | ❌                            | 2011              |
-| Signal               | ✅              | ✅              | ❌                     | ✅                            | ✅                           | ❌                            | 2014              |
-| Threema              | ✅              | ✅              | ✅                     | ✅                            | ❌                           | ❌                            | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                     | ✅                            | ✅                           | 🟡 (federativni)            | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                     | ✅                            | N/A                         | 🟡 (preko email-a)          | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                     | ✅                            | ✅                           | 🟡 (federativni)            | 2014              |
-| Session              | ✅              | ✅              | ✅                     | ✅                            | ✅                           | ✅                            | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                     | ✅                            | ✅                           | ✅                            | 2021              |
-| Olvid                | ✅              | ✅              | ✅                     | ✅                            | ❌                           | 🟡(nema direktorijuma)      | 2019              |
-| Keet                 | ✅              | ✅              | ✅                     | ❌                            | N/A                         | ✅                            | 2022              |
-| Jami                 | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2005              |
-| Briar                | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2018              |
-| Tox                  | ✅              | ✅              | ✅                     | ✅                            | N/A                         | ✅                            | 2013              |
+
+| Aplikacija          | E2EE 1:1       | E2EE grupe   | Anonimna prijava | Licencirani klijent otvorenog koda | Licencirani server otvorenog koda | Decentralizovani server | Godina kreiranja |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (opciono) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (opciono) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| **Signal**           |**✅**           |**✅**             | **❌**                   | **✅**                         | **✅**                          | **❌**                    | **2014**              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federativni)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (preko emaila)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federativni)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(nema direktorijuma)                | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
 
 *E2EE = Šifrovanje od kraja do kraja*
 
@@ -77,7 +78,7 @@ U ovom vodiču ćemo se koncentrisati na mobilnu verziju, ali imajte na umu da s
 
 
 
-Kada pokrenete aplikaciju prvi put, kliknite na dugme "*Nastavi*".
+Kada pokrenete aplikaciju prvi put, kliknite na dugme "*Continue*".
 
 
 
@@ -93,7 +94,7 @@ Unesite svoj broj telefona, a zatim kliknite na "*Next*".
 
 
 
-Verifikacioni kod će vam biti poslat putem SMS-a. Unesite ovaj kod u aplikaciju Signal.
+Verifikacioni kod će vam biti poslat putem SMS-a. Unesite ovaj kod u Signal aplikaciju.
 
 
 
@@ -117,7 +118,7 @@ Potvrdite ovaj PIN kod još jednom.
 
 
 
-Sada možete personalizovati svoj korisnički profil. Izaberite fotografiju, unesite svoje ime ili nadimak. U ovoj fazi, možete takođe definisati ko može da vas pronađe na Signalu putem vašeg broja. Izaberite "*Svi*" ako želite da budete vidljivi, ili "*Niko*" da ostanete nepronađeni putem broja telefona (tada možete biti dodati samo sa vašim "*Korisničkim imenom*"). Kada završite sa izborom, kliknite na "*Dalje*".
+Sada možete personalizovati svoj korisnički profil. Izaberite fotografiju, unesite svoje ime ili nadimak. U ovoj fazi, možete takođe definisati ko može da vas pronađe na Signalu putem vašeg broja. Izaberite "*Everyone*" ako želite da budete vidljivi, ili "*Nobody*" da ostanete nepronađeni putem broja telefona (tada možete biti dodati samo sa vašim "*Korisničkim imenom (eng.Username)*"). Kada završite sa izborom, kliknite na "*Next*".
 
 
 
@@ -125,7 +126,7 @@ Sada možete personalizovati svoj korisnički profil. Izaberite fotografiju, une
 
 
 
-Sada ste povezani na Signal i spremni za Exchange poruke.
+Sada ste povezani na Signal i spremni za razmenu poruka.
 
 
 
@@ -153,7 +154,7 @@ Meni "*Account*" vam omogućava da upravljate postavkama profila. Savetujem vam 
 
 
 
-Klikom ponovo na svoju profilnu sliku u podešavanjima, doći ćete do opcija za personalizaciju vašeg profila. Preporučujem da postavite "*Korisničko ime*": ovo će vam omogućiti da stupite u kontakt sa drugim ljudima bez otkrivanja vašeg broja telefona.
+Klikom ponovo na svoju profilnu sliku u podešavanjima, doći ćete do opcija za personalizaciju vašeg profila. Preporučujem da postavite "*Korisničko ime (Username)*": ovo će vam omogućiti da stupite u kontakt sa drugim ljudima bez otkrivanja vašeg broja telefona.
 
 
 
@@ -161,7 +162,7 @@ Klikom ponovo na svoju profilnu sliku u podešavanjima, doći ćete do opcija za
 
 
 
-Odabirom "*QR code ili link*", dobićete informacije koje su vam potrebne da ih podelite sa nekim ko želi da vas doda na Signal.
+Odabirom "*QR code or link*", dobićete informacije koje su vam potrebne da ih podelite sa nekim ko želi da vas doda na Signal.
 
 
 
@@ -177,7 +178,7 @@ Meni "*Privacy*" je posebno važan. Ovde ćete pronaći opcije za kontrolu vidlj
 
 
 
-I slobodno istražite menije "*Appearance*", "*Chats*" i "*Notifications*" kako biste prilagodili Interface i rad aplikacije vašim ličnim potrebama.
+I slobodno istražite menije "*Appearance*", "*Chats*" i "*Notifications*" kako biste prilagodili interfejs i rad aplikacije vašim ličnim potrebama.
 
 
 
@@ -185,7 +186,7 @@ I slobodno istražite menije "*Appearance*", "*Chats*" i "*Notifications*" kako 
 
 
 
-Da biste povezali desktop aplikaciju, počnite instaliranjem softvera na vašem računaru (pogledajte prvi deo ovog tutorijala). Zatim, na vašem telefonu, idite na Podešavanja i otvorite sekciju "*Povezani uređaji*".
+Da biste povezali desktop aplikaciju, počnite instaliranjem softvera na vašem računaru (pogledajte prvi deo ovog tutorijala). Zatim, na vašem telefonu, idite na Podešavanja i otvorite sekciju "*Povezani uređaji (eng.Linked devices)*".
 
 
 
@@ -193,7 +194,7 @@ Da biste povezali desktop aplikaciju, počnite instaliranjem softvera na vašem 
 
 
 
-Kliknite na dugme "*Poveži novi uređaj*".
+Kliknite na dugme "*Poveži novi uređaj (eng. Link a new device)*".
 
 
 
@@ -225,7 +226,7 @@ Da biste komunicirali sa nekim na Signalu, prvo ih morate dodati kao kontakt. Po
 
 
 
-Kliknite na ikonu olovke u donjem desnom uglu Interface.
+Kliknite na ikonu olovke u donjem desnom uglu interfejsa.
 
 
 
@@ -233,7 +234,7 @@ Kliknite na ikonu olovke u donjem desnom uglu Interface.
 
 
 
-U mom slučaju, želim da dodam osobu po korisničkom imenu. Zato kliknem na "*Pronađi po korisničkom imenu*".
+U mom slučaju, želim da dodam osobu po korisničkom imenu. Zato kliknem na "*Pronađi po korisničkom imenu (eng. Find by username)*".
 
 
 
@@ -249,7 +250,7 @@ Možete zatim ili nalepiti njegov login ili skenirati njegov QR kod.
 
 
 
-Pošalji mu poruku da uspostaviš kontakt.
+Pošalji poruku da uspostaviš kontakt.
 
 
 
@@ -265,7 +266,7 @@ Razgovor će se zatim pojaviti na početnoj stranici. Ako osoba prihvati vaš za
 
 
 
-Čestitamo, sada ste upoznati sa korišćenjem Signal poruka, odličnom alternativom za WathsApp! Ako ste smatrali da je ovaj vodič koristan, bio bih veoma zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj vodič na vašim društvenim mrežama. Hvala vam puno!
+Čestitamo, sada ste upoznati sa korišćenjem Signal poruka, odličnom alternativom za WathsApp! Ako ste smatrali da je ovaj vodič koristan, bio bih veoma zahvalan ako kliknete na zeleni palac ispod. Slobodno podelite ovaj vodič na vašim društvenim mrežama. Hvala vam puno!
 
 
 

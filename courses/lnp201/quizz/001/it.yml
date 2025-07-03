@@ -6,4 +6,4 @@ wrong_answers:
   - Il numero di transazioni che un canale può supportare al giorno
 explanation: |
   La capacità del canale corrisponde ai fondi totali dei due partecipanti e rimane fissa per determinare gli scambi possibili.
-reviewed: false
+reviewed: true

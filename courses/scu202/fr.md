@@ -4693,4 +4693,4 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-<isCourseConclusion>false</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

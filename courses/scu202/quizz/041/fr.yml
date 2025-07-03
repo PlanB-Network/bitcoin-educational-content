@@ -1,0 +1,9 @@
+question: Quel document, souvent appelé SHA256SUMS ou MANIFEST, est nécessaire pour vérifier l’intégrité d’un logiciel téléchargé ?
+answer: Le fichier listant les empreintes du logiciel
+wrong_answers:
+  - Le manuel utilisateur
+  - Le fichier listant les signatures des développeurs
+  - Le code source complet du projet
+explanation: |
+  Le fichier manifest ou SHA256SUMS contient le hash de chaque fichier distribué par le projet et permet de vérifier leur intégrité.
+reviewed: false

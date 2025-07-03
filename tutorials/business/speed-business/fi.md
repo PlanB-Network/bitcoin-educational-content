@@ -94,7 +94,7 @@ When you deactivate test mode, you must configure your withdrawal portfolio.
 
 
 
-If you don't yet own a Bitcoin and/or Lightning Wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/Wallet).
+If you don't yet own a Bitcoin and/or Lightning Wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/wallet).
 
 
 

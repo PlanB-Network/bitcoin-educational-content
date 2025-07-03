@@ -94,7 +94,7 @@ Po deaktivaci testovacího režimu je třeba nakonfigurovat portfolio pro výbě
 
 
 
-Pokud ještě nevlastníte Bitcoin a/nebo Lightning Wallet, doporučujeme vám podívat se na naše návody [mobilní peněženky](https://planb.network/tutorials/Wallet).
+Pokud ještě nevlastníte Bitcoin a/nebo Lightning Wallet, doporučujeme vám podívat se na naše návody [mobilní peněženky](https://planb.network/tutorials/wallet).
 
 
 

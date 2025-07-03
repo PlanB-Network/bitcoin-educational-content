@@ -94,7 +94,7 @@ Khi bạn hủy kích hoạt chế độ thử nghiệm, bạn phải cấu hìn
 
 
 
-Nếu bạn chưa sở hữu Bitcoin và/hoặc Lightning Wallet, chúng tôi khuyên bạn nên xem hướng dẫn về [ví di động] của chúng tôi (https://planb.network/tutorials/Wallet).
+Nếu bạn chưa sở hữu Bitcoin và/hoặc Lightning Wallet, chúng tôi khuyên bạn nên xem hướng dẫn về [ví di động] của chúng tôi (https://planb.network/tutorials/wallet).
 
 
 

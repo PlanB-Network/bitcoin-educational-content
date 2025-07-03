@@ -594,7 +594,7 @@ Eftersom Bitcoin fungerar som ett bytesmedel är det möjligt att föreställa s
 
 Detta innebär att man tjänar belöningar på att använda mining-maskiner. För icke-specialiserade företag är detta fortfarande relativt marginellt. Du kan delta genom mellanhänder som säljer eller hyr ut datorer, nätverk och underhåll till dig. Om du äger maskinerna kan du redovisa dem som avskrivningsbara tillgångar. I stor skala måste du noggrant beräkna avkastningen på investeringen eftersom marknaden är mycket konkurrensutsatt och kräver en god framförhållning när det gäller kostnader, särskilt el.
 
-Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.network/tutorials/Mining).
+Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.network/tutorials/mining).
 
 
 - **Köp av Bitcoin:**
@@ -605,7 +605,7 @@ För att lära dig hur du öppnar ett företagskonto och använder det för att 
 
 https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.network/tutorials/Exchange).
+Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
 
@@ -855,7 +855,7 @@ För detaljerade anvisningar om rekommenderade plånböcker och grundläggande i
 **Non-custodial LN-plånböcker/noder:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b

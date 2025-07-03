@@ -94,7 +94,7 @@ Speedでは、より簡単にご利用いただけるよう、店舗運営への
 
 
 
-まだBitcoinやLightning Walletをお持ちでない方は、[おサイフケータイ]チュートリアル(https://planb.network/tutorials/Wallet)をご覧ください。
+まだBitcoinやLightning Walletをお持ちでない方は、[おサイフケータイ]チュートリアル(https://planb.network/tutorials/wallet)をご覧ください。
 
 
 

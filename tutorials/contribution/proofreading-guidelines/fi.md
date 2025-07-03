@@ -131,7 +131,7 @@ Lopputuloksessa (kuva alla) et näe koko linkkiä, ja sana muuttuu klikattavaksi
 
 
 
-Huomaa, että verkkosivulta otettavassa sanastolinkissä on kielikoodi sanan "verkko" jälkeen (esimerkki: ``https://planb.network/en/resources/glossary/UTXO``-> tästä voit lukea kielikoodin "fi"). Tässä tapauksessa **poista kielikoodi linkistä**, kuten yllä olevassa laatikossa. Näin järjestelmä vie lukijan automaattisesti haluamalleen kielelle.
+Huomaa, että verkkosivulta otettavassa sanastolinkissä on kielikoodi sanan "verkko" jälkeen (esimerkki: ``https://planb.network/en/resources/glossary/utxo``-> tästä voit lukea kielikoodin "fi"). Tässä tapauksessa **poista kielikoodi linkistä**, kuten yllä olevassa laatikossa. Näin järjestelmä vie lukijan automaattisesti haluamalleen kielelle.
 
 
 Arkiston sisältö on täynnä edellä esitettyjen kaltaisia hyperlinkkejä. Nyt kun tiedät, mitä ne tarkoittavat, **muista, ettet poista mitään alkuperäisen kirjoittajan lisäämiä linkkejä**.

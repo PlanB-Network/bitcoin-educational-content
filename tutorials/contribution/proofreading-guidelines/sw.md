@@ -131,7 +131,7 @@ Katika matokeo ya mwisho (picha hapa chini) hutatazama kiunga kizima, na neno li
 
 
 
-Tafadhali kumbuka kuwa kiungo cha faharasa utakachochukua kutoka kwa tovuti kina msimbo wa lugha baada ya neno "mtandao" (mfano: ``https://planb.network/en/resources/glossary/UTXO``-> hapa unaweza kusoma msimbo wa lugha "en"). Katika hali hii, **ondoa msimbo wa lugha kutoka kwa kiungo**, kama ulivyoona kwenye kisanduku hapo juu. Kwa njia hii, mfumo utampeleka msomaji kiotomatiki kwa lugha yake iliyoteuliwa.
+Tafadhali kumbuka kuwa kiungo cha faharasa utakachochukua kutoka kwa tovuti kina msimbo wa lugha baada ya neno "mtandao" (mfano: ``https://planb.network/en/resources/glossary/utxo``-> hapa unaweza kusoma msimbo wa lugha "en"). Katika hali hii, **ondoa msimbo wa lugha kutoka kwa kiungo**, kama ulivyoona kwenye kisanduku hapo juu. Kwa njia hii, mfumo utampeleka msomaji kiotomatiki kwa lugha yake iliyoteuliwa.
 
 
 Yaliyomo kwenye hazina yamejaa viungo kama hivi hapo juu. Kwa kuwa sasa unajua wanachomaanisha, **hakikisha kuwa hufuti kiungo chochote** kilichowekwa na mwandishi asilia.

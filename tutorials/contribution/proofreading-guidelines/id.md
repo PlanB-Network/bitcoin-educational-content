@@ -131,7 +131,7 @@ Pada hasil akhir (gambar di bawah), Anda tidak akan memvisualisasikan seluruh ta
 
 
 
-Harap diperhatikan bahwa tautan glosarium yang akan Anda ambil dari situs web berisi kode bahasa setelah kata "jaringan" (contoh: ``https://planb.network/en/resources/glossary/UTXO``-> di sini Anda dapat membaca kode bahasa "en"). Dalam kasus ini, **hapus kode bahasa dari tautan**, seperti yang Anda lihat pada kotak di atas. Dengan cara ini, sistem akan secara otomatis membawa pembaca ke bahasa yang ditentukan.
+Harap diperhatikan bahwa tautan glosarium yang akan Anda ambil dari situs web berisi kode bahasa setelah kata "jaringan" (contoh: ``https://planb.network/en/resources/glossary/utxo``-> di sini Anda dapat membaca kode bahasa "en"). Dalam kasus ini, **hapus kode bahasa dari tautan**, seperti yang Anda lihat pada kotak di atas. Dengan cara ini, sistem akan secara otomatis membawa pembaca ke bahasa yang ditentukan.
 
 
 Konten di repositori penuh dengan hyperlink seperti di atas. Setelah Anda mengetahui apa maksudnya, **pastikan untuk tidak menghapus tautan apa pun** yang disisipkan oleh penulis aslinya.

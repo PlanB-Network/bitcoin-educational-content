@@ -2111,7 +2111,7 @@ Att köpa Bitcoin utan att avslöja din identitet är ett alternativ för dem so
 - P2P-plattformar**: Plattformar som Bisq, RoboSats och Peach underlättar utbyten mellan privatpersoner utan behov av identitetsverifiering och använder spärrsystem för att säkra transaktioner. Dessa plattformar medför fortfarande en risk för stöld om den andra parten inte samarbetar, men risken minimeras genom spärrtjänster.
 - Bitcoin Automatiserade Teller Machines (ATM) **: I vissa uttagsautomater (kiosker) kan du köpa Bitcoin med kontanter, men avgifterna tenderar att vara höga och vissa kräver ID-verifiering för större transaktioner.
 - KYC-fria Exchange-plattformar**: Vissa plattformar, särskilt i Schweiz, låter dig köpa små mängder Bitcoin utan att kräva ID-verifiering.
-- Mining**: Enskilda personer kan bryta Bitcoin. Äldre eller mindre maskiner är tillgängliga, vilket ger ett icke-traditionellt sätt att förvärva Bitcoin utan KYC. Genom att gå med i en Mining pool kan du tjäna regelbundna utbetalningar, även med grundläggande utrustning. För mer information, [kolla in våra Mining tutorials](https://planb.network/tutorials/Mining).
+- Mining**: Enskilda personer kan bryta Bitcoin. Äldre eller mindre maskiner är tillgängliga, vilket ger ett icke-traditionellt sätt att förvärva Bitcoin utan KYC. Genom att gå med i en Mining pool kan du tjäna regelbundna utbetalningar, även med grundläggande utrustning. För mer information, [kolla in våra Mining tutorials](https://planb.network/tutorials/mining).
 - Betalningar / Lön i bitcoins**: Om du driver ett företag kan du acceptera Bitcoin som betalning. Om du är anställd kan du, beroende på din jurisdiktion, kanske be om att få betalt i Bitcoin. Dessa metoder gör att du kan förvärva Bitcoin utan KYC.
 
 

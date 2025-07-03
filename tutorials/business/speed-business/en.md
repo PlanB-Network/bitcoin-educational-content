@@ -69,7 +69,7 @@ When you deactivate test mode, you must configure your withdrawal portfolio.
 ![configure-wallet](assets/fr/04.webp)
 
 
-If you don't yet own a Bitcoin and/or Lightning wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/Wallet).
+If you don't yet own a Bitcoin and/or Lightning wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/wallet).
 
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7

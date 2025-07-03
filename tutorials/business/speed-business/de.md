@@ -94,7 +94,7 @@ Wenn Sie den Testmodus deaktivieren, müssen Sie Ihr Entnahmeportfolio konfiguri
 
 
 
-Wenn Sie noch keinen Bitcoin und/oder Lightning Wallet besitzen, empfehlen wir Ihnen, einen Blick auf unsere [mobile Geldbörsen] Tutorials zu werfen (https://planb.network/tutorials/Wallet).
+Wenn Sie noch keinen Bitcoin und/oder Lightning Wallet besitzen, empfehlen wir Ihnen, einen Blick auf unsere [mobile Geldbörsen] Tutorials zu werfen (https://planb.network/tutorials/wallet).
 
 
 

@@ -131,7 +131,7 @@ I det endelige resultatet (bildet nedenfor) vil du ikke se hele lenken, og ordet
 
 
 
-Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.network/en/resources/glossary/UTXO``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
+Vær oppmerksom på at lenken til ordlisten du tar fra nettstedet, inneholder språkkoden etter ordet "network" (eksempel: ``https://planb.network/en/resources/glossary/utxo``-> her kan du lese språkkoden "en"). I dette tilfellet **fjerner du språkkoden fra lenken**, slik du ser i boksen ovenfor. På denne måten vil systemet automatisk ta leseren til det språket som er angitt.
 
 
 Innholdet i depotet er fullt av hyperlenker som disse ovenfor. Nå som du vet hva de betyr, må du **ikke slette lenker** som er satt inn av den opprinnelige forfatteren.

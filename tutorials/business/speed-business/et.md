@@ -94,7 +94,7 @@ Kui deaktiveerite testrežiimi, peate konfigureerima oma tagasivõtuportfelli.
 
 
 
-Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.network/tutorials/Wallet).
+Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.network/tutorials/wallet).
 
 
 

@@ -131,7 +131,7 @@ Trong kết quả cuối cùng (hình ảnh bên dưới), bạn sẽ không nh�
 
 
 
-Xin lưu ý rằng liên kết chú giải thuật ngữ mà bạn sẽ lấy từ trang web có chứa mã ngôn ngữ sau từ "network" (ví dụ: ``https://planb.network/en/resources/glossary/UTXO``-> tại đây bạn có thể đọc mã ngôn ngữ "en"). Trong trường hợp này, **xóa mã ngôn ngữ khỏi liên kết**, như bạn đã thấy trong hộp ở trên. Theo cách này, hệ thống sẽ tự động đưa người đọc đến ngôn ngữ được chỉ định của họ.
+Xin lưu ý rằng liên kết chú giải thuật ngữ mà bạn sẽ lấy từ trang web có chứa mã ngôn ngữ sau từ "network" (ví dụ: ``https://planb.network/en/resources/glossary/utxo``-> tại đây bạn có thể đọc mã ngôn ngữ "en"). Trong trường hợp này, **xóa mã ngôn ngữ khỏi liên kết**, như bạn đã thấy trong hộp ở trên. Theo cách này, hệ thống sẽ tự động đưa người đọc đến ngôn ngữ được chỉ định của họ.
 
 
 Nội dung trên kho lưu trữ chứa đầy các siêu liên kết như trên. Bây giờ bạn đã biết ý nghĩa của chúng, **hãy đảm bảo không xóa bất kỳ liên kết nào** do tác giả gốc chèn vào.

@@ -114,7 +114,7 @@ Nếu họ thành công, những vấn đề tương tự rất có thể sẽ t
 Không có tùy chọn nào trong số này có lợi cho người dùng.
 
 
-Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi Nakamoto viết trong [sách trắng Bitcoin](https://planb.network/Bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
+Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi Nakamoto viết trong [sách trắng Bitcoin](https://planb.network/bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
 
 
 > Trong bài báo này, chúng tôi đề xuất một giải pháp cho vấn đề Double-spending bằng cách sử dụng máy chủ Timestamp phân tán ngang hàng để chứng minh tính toán thứ tự thời gian của các giao dịch trên generate.

@@ -94,7 +94,7 @@ description: ادغام Bitcoin و پرداخت‌های استیبل‌کوین
 
 
 
-اگر هنوز مالک Bitcoin و/یا Lightning Wallet نیستید، توصیه می‌کنیم به آموزش‌های [کیف پول‌های موبایل] ما نگاهی بیندازید(https://planb.network/tutorials/Wallet).
+اگر هنوز مالک Bitcoin و/یا Lightning Wallet نیستید، توصیه می‌کنیم به آموزش‌های [کیف پول‌های موبایل] ما نگاهی بیندازید(https://planb.network/tutorials/wallet).
 
 
 

@@ -94,7 +94,7 @@ Kada deaktivirate testni režim, morate konfigurisati svoj portfelj za povlačen
 
 
 
-Ako još uvek ne posedujete Bitcoin i/ili Lightning Wallet, preporučujemo da pogledate naše [mobilne novčanike] tutorijale(https://planb.network/tutorials/Wallet).
+Ako još uvek ne posedujete Bitcoin i/ili Lightning Wallet, preporučujemo da pogledate naše [mobilne novčanike] tutorijale(https://planb.network/tutorials/wallet).
 
 
 

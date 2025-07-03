@@ -94,7 +94,7 @@ Unapozima hali ya jaribio, lazima usanidi kwingineko yako ya uondoaji.
 
 
 
-Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [pochi ya rununu](https://planb.network/tutorials/Wallet).
+Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [pochi ya rununu](https://planb.network/tutorials/wallet).
 
 
 

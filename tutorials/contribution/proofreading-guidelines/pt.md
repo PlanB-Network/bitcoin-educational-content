@@ -131,7 +131,7 @@ No resultado final (imagem abaixo), não visualizará a ligação completa e a p
 
 
 
-Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.network/en/resources/glossary/UTXO``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
+Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.network/en/resources/glossary/utxo``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
 
 
 O conteúdo do repositório está cheio de hiperligações como estas acima. Agora que sabe o que significam, **certifique-se de que não apaga nenhuma hiperligação** inserida pelo autor original.

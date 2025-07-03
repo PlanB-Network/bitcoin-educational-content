@@ -94,7 +94,7 @@ Saat Anda menonaktifkan mode uji coba, Anda harus mengonfigurasi portofolio pena
 
 
 
-Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.network/tutorials/Wallet).
+Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.network/tutorials/wallet).
 
 
 

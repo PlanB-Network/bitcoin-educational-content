@@ -94,7 +94,7 @@ Po dezaktywacji trybu testowego należy skonfigurować portfel wypłat.
 
 
 
-Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne] (https://planb.network/tutorials/Wallet).
+Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne] (https://planb.network/tutorials/wallet).
 
 
 

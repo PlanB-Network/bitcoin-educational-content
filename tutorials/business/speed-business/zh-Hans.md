@@ -94,7 +94,7 @@ Speed 附带一个软件开发工具包，可让您自定义集成，以及一�
 
 
 
-如果您还没有 Bitcoin 和/或 Lightning Wallet，建议您看看我们的 [手机钱包] 教程(https://planb.network/tutorials/Wallet)。
+如果您还没有 Bitcoin 和/或 Lightning Wallet，建议您看看我们的 [手机钱包] 教程(https://planb.network/tutorials/wallet)。
 
 
 

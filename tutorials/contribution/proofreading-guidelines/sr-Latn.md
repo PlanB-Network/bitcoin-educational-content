@@ -131,7 +131,7 @@ U konačnom rezultatu (slika ispod) nećete vizualizovati ceo link, a reč će p
 
 
 
-Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.network/resources/glossary/UTXO``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
+Please note that the glossary link you will take from the website contains the language code after the word "network" (example: ``https://planb.network/resources/glossary/utxo``-> here you can read the language code "en"). In this case, **remove the language code from the link**, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
 
 
 Sadržaj u repozitorijumu je pun hiperveza kao što su ove iznad. Sada kada znate šta znače, **pazite da ne obrišete nijednu vezu** koju je umetnuo originalni autor.

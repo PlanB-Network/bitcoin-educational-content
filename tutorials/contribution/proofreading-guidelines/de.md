@@ -131,7 +131,7 @@ Im Endergebnis (Bild unten) wird nicht der gesamte Link sichtbar sein, sondern d
 
 
 
-Bitte beachten Sie, dass der Glossar-Link, den Sie von der Website nehmen, den Sprachcode nach dem Wort "network" enthält (Beispiel: ``https://planb.network/en/resources/glossary/UTXO``-> hier können Sie den Sprachcode "en" lesen). In diesem Fall **entfernen Sie den Sprachcode aus dem Link**, wie Sie im obigen Kasten sehen. Auf diese Weise bringt das System den Leser automatisch zu der von ihm gewünschten Sprache.
+Bitte beachten Sie, dass der Glossar-Link, den Sie von der Website nehmen, den Sprachcode nach dem Wort "network" enthält (Beispiel: ``https://planb.network/en/resources/glossary/utxo``-> hier können Sie den Sprachcode "en" lesen). In diesem Fall **entfernen Sie den Sprachcode aus dem Link**, wie Sie im obigen Kasten sehen. Auf diese Weise bringt das System den Leser automatisch zu der von ihm gewünschten Sprache.
 
 
 Der Inhalt des Repositorys ist voll von Hyperlinks wie diesen hier. Da Sie nun wissen, was sie bedeuten, **sichern Sie sich ab, dass Sie keinen Link** löschen, der vom ursprünglichen Autor eingefügt wurde.

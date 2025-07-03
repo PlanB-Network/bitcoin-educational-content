@@ -131,7 +131,7 @@ Dans le résultat final (image ci-dessous), vous ne visualiserez pas le lien ent
 
 
 
-Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.network/en/resources/glossary/UTXO`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
+Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.network/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
 
 
 Le contenu du référentiel est truffé d'hyperliens comme ceux présentés ci-dessus. Maintenant que vous savez ce qu'ils signifient, **veillez à ne pas supprimer les liens** insérés par l'auteur original.

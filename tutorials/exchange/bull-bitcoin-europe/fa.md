@@ -186,7 +186,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-شما همچنین می‌توانید [آموزش‌های دقیق ما درباره بهترین کیف‌پول‌های Bitcoin](https://planb.network/tutorials/Wallet) را بررسی کنید.
+شما همچنین می‌توانید [آموزش‌های دقیق ما درباره بهترین کیف‌پول‌های Bitcoin](https://planb.network/tutorials/wallet) را بررسی کنید.
 
 
 سپس با کلیک بر روی "*تأیید خرید*" خرید خود را تأیید کنید.

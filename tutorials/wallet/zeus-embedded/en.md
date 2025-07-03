@@ -266,7 +266,7 @@ Zeus then lets you add a note to denominate your payment, or view the route your
 ![image](assets/fr/22.webp)
 
 
-Note that unlike a Wallet like [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), with Zeus the route is calculated locally and not delegated to a third party (ACINQ in the case of Phoenix). So you're the only one who knows the recipient of the payment. We lose a little efficiency (payments take a little longer to complete, but we gain a lot in terms of privacy).
+Note that unlike a Wallet like [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), with Zeus the route is calculated locally and not delegated to a third party (ACINQ in the case of Phoenix). So you're the only one who knows the recipient of the payment. We lose a little efficiency (payments take a little longer to complete, but we gain a lot in terms of privacy).
 
 
 

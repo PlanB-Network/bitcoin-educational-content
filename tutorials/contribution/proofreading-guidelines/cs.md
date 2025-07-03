@@ -131,7 +131,7 @@ V konečném výsledku (obrázek níže) se nezobrazí celý odkaz a slovo se st
 
 
 
-Vezměte prosím na vědomí, že odkaz na glosář, který získáte z webové stránky, obsahuje za slovem "síť" kód jazyka (příklad: ``https://planb.network/en/resources/glossary/UTXO``-> zde si můžete přečíst kód jazyka "cs"). V takovém případě **odstraňte jazykový kód z odkazu**, jak jste viděli v rámečku výše. Tímto způsobem systém čtenáře automaticky přenese do jím určeného jazyka.
+Vezměte prosím na vědomí, že odkaz na glosář, který získáte z webové stránky, obsahuje za slovem "síť" kód jazyka (příklad: ``https://planb.network/en/resources/glossary/utxo``-> zde si můžete přečíst kód jazyka "cs"). V takovém případě **odstraňte jazykový kód z odkazu**, jak jste viděli v rámečku výše. Tímto způsobem systém čtenáře automaticky přenese do jím určeného jazyka.
 
 
 Obsah úložiště je plný hypertextových odkazů, jako jsou tyto výše uvedené. Nyní, když víte, co znamenají, **zajistěte, abyste neodstranili žádný odkaz** vložený původním autorem.

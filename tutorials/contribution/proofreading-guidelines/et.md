@@ -131,7 +131,7 @@ Lõpptulemusena (pilt allpool) ei visualiseerita kogu linki ja sõna muutub klik
 
 
 
-Pange tähele, et sõnastiku link, mille võtate veebilehelt, sisaldab keelekoodi pärast sõna "network" (näide: ``https://planb.network/en/resources/glossary/UTXO``-> siin on keelekood "en"). Sellisel juhul **kustutage lingilt keelekood**, nagu näete ülalpool toodud kastis. Nii viib süsteem lugeja automaatselt tema määratud keelde.
+Pange tähele, et sõnastiku link, mille võtate veebilehelt, sisaldab keelekoodi pärast sõna "network" (näide: ``https://planb.network/en/resources/glossary/utxo``-> siin on keelekood "en"). Sellisel juhul **kustutage lingilt keelekood**, nagu näete ülalpool toodud kastis. Nii viib süsteem lugeja automaatselt tema määratud keelde.
 
 
 Hoiukoha sisu on täis selliseid hüperlinke nagu eespool kirjeldatud. Nüüd, kui te teate, mida need tähendavad, **jälgige, et mitte kustutada ühtegi algse autori poolt lisatud linki**.

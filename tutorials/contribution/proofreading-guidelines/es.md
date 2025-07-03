@@ -131,7 +131,7 @@ En el resultado final (imagen inferior) no se visualizará el enlace completo, y
 
 
 
-Tenga en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "red" (ejemplo: ``https://planb.network/en/resources/glossary/UTXO``-> aquí puede leer el código de idioma "en"). En este caso, **elimine el código de idioma del enlace**, como ha visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
+Tenga en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "red" (ejemplo: ``https://planb.network/en/resources/glossary/utxo``-> aquí puede leer el código de idioma "en"). En este caso, **elimine el código de idioma del enlace**, como ha visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
 
 
 El contenido del repositorio está lleno de hipervínculos como estos de arriba. Ahora que sabes lo que significan, **asegúrate de no borrar ningún enlace** insertado por el autor original.

@@ -131,7 +131,7 @@ Nel risultato finale (immagine sotto) non verrà visualizzato l'intero link e la
 
 
 
-Si prega di notare che il link al glossario che prenderete dal sito web contiene il codice della lingua dopo la parola "network" (esempio: ``https://planb.network/en/resources/glossary/UTXO``-> qui potete leggere il codice della lingua "en"). In questo caso, **rimuovete il codice della lingua dal link**, come avete visto nel riquadro qui sopra. In questo modo, il sistema porterà automaticamente il lettore alla lingua designata.
+Si prega di notare che il link al glossario che prenderete dal sito web contiene il codice della lingua dopo la parola "network" (esempio: ``https://planb.network/en/resources/glossary/utxo``-> qui potete leggere il codice della lingua "en"). In questo caso, **rimuovete il codice della lingua dal link**, come avete visto nel riquadro qui sopra. In questo modo, il sistema porterà automaticamente il lettore alla lingua designata.
 
 
 Il contenuto del repository è pieno di collegamenti ipertestuali come questi. Ora che sapete cosa significano, **accertatevi di non cancellare nessun link** inserito dall'autore originale.

@@ -94,7 +94,7 @@ Speed 隨附可讓您自訂整合的軟體開發套件，以及標準整合的�
 
 
 
-如果您還沒有 Bitcoin 和/或 Lightning Wallet，建議您看看我們的【手機錢包】教學(https://planb.network/tutorials/Wallet)。
+如果您還沒有 Bitcoin 和/或 Lightning Wallet，建議您看看我們的【手機錢包】教學(https://planb.network/tutorials/wallet)。
 
 
 

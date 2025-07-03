@@ -94,7 +94,7 @@ Quando se desactiva o modo de teste, é necessário configurar a carteira de lev
 
 
 
-Se ainda não possui uma Bitcoin e/ou Lightning Wallet, recomendamos que consulte os nossos tutoriais sobre [carteiras móveis] (https://planb.network/tutorials/Wallet).
+Se ainda não possui uma Bitcoin e/ou Lightning Wallet, recomendamos que consulte os nossos tutoriais sobre [carteiras móveis] (https://planb.network/tutorials/wallet).
 
 
 

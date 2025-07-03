@@ -5,7 +5,7 @@ description: Kako koristiti 2FA aplikaciju?
 ![cover](assets/cover.webp)
 
 
-Danas je dvofaktorska autentifikacija (2FA) postala neophodna za poboljšanje sigurnosti online naloga protiv neovlašćenog pristupa. Sa porastom sajber napada, oslanjanje isključivo na lozinku za zaštitu vaših naloga ponekad nije dovoljno. 2FA uvodi dodatni Layer nivo sigurnosti zahtevajući drugi oblik autentifikacije pored lozinke. Ova verifikacija može imati nekoliko oblika, kao što je kod poslat putem SMS-a, dinamički kod generisan od strane posebne aplikacije, ili korišćenje fizičkog sigurnosnog ključa. Korišćenje 2FA značajno smanjuje rizik od kompromitovanja vaših naloga, čak i u slučaju krađe vaše lozinke.
+Danas je dvofaktorska autentifikacija (2FA) postala neophodna za poboljšanje sigurnosti online naloga protiv neovlašćenog pristupa. Sa porastom sajber napada, oslanjanje isključivo na lozinku za zaštitu vaših naloga ponekad nije dovoljno. 2FA uvodi dodatni nivo sigurnosti zahtevajući drugi oblik autentifikacije pored lozinke. Ova verifikacija može imati nekoliko oblika, kao što je kod poslat putem SMS-a, dinamički kod generisan od strane posebne aplikacije, ili korišćenje fizičkog sigurnosnog ključa. Korišćenje 2FA značajno smanjuje rizik od kompromitovanja vaših naloga, čak i u slučaju krađe vaše lozinke.
 
 
 ## 2FA putem aplikacija za autentifikaciju
@@ -23,7 +23,7 @@ Obnavljanje koda svakih 30 sekundi čini veoma teškim za napadača da pristupi 
 
 Postoji mnogo aplikacija za postavljanje 2FA, među kojima su Google Authenticator i Microsoft Authenticator najpoznatije. Međutim, u ovom vodiču želim da vas upoznam sa drugim, manje poznatim rešenjem pod nazivom Authy. Sve ove aplikacije rade koristeći isti TOTP (*Time based One Time Password*) protokol, što čini njihovu upotrebu prilično sličnom.
 
-Authy nudi nekoliko prednosti u odnosu na druga rešenja velikih tehnoloških kompanija. Prvo i najvažnije, omogućava vam da sinhronizujete svoje 2FA tokene na više uređaja, što može biti korisno u slučaju gubitka ili promene telefona. Authy vam takođe omogućava da generate šifrovanu rezervnu kopiju i skladištite je online, osiguravajući da nikada ne izgubite pristup svojim tokenima, čak i ako izgubite svoj primarni uređaj. Iz korisničke Interface perspektive, lično smatram da Authy nudi prijatnije i intuitivnije iskustvo od svojih alternativa.
+Authy nudi nekoliko prednosti u odnosu na druga rešenja velikih tehnoloških kompanija. Prvo i najvažnije, omogućava vam da sinhronizujete svoje 2FA tokene na više uređaja, što može biti korisno u slučaju gubitka ili promene telefona. Authy vam takođe omogućava da generišete šifrovanu rezervnu kopiju i sačuvate je online, osiguravajući da nikada ne izgubite pristup svojim tokenima, čak i ako izgubite svoj primarni uređaj. Iz korisničke perspektive, lično smatram da Authy nudi prijatnije i intuitivnije iskustvo od svojih alternativa.
 
 
 ## Kako instalirati Authy?
@@ -42,11 +42,11 @@ Prilikom prvog pokretanja aplikacije, potrebno je da kreirate nalog. Izaberite p
 
 ![AUTHY 2FA](assets/notext/03.webp)
 
-Unesite svoj email Address za oporavak koda.
+Unesite svoj emailu adresu za oporavak koda.
 
 ![AUTHY 2FA](assets/notext/04.webp)
 
-E-pošta će vam biti poslana da verifikujete vaš Address. Unesite 6 primljenih cifara da potvrdite.
+E-pošta će vam biti poslata kako biste verifikovali vašu adresu. Unesite 6 primljenih cifara da potvrdite.
 
 ![AUTHY 2FA](assets/notext/05.webp)
 
@@ -69,20 +69,21 @@ Zatim kliknite na "*Settings*".
 
 ![AUTHY 2FA](assets/notext/09.webp)
 
-U kartici "*Moj nalog*", imate opciju da izmenite svoj nalog. Preporučujem dodavanje PIN koda aplikaciji odabirom opcije "*Zaštita aplikacije*". Ovo dodaje dodatni Layer nivo sigurnosti za pristup vašoj aplikaciji.
+U kartici "*My Account (prevod: Moj nalog)*", imate opciju da izmenite svoj nalog. Preporučujem dodavanje PIN koda aplikaciji odabirom opcije "*App protection (prevod: Zaštita aplikacije)*". Ovo dodaje dodatni nivo sigurnosti za pristup vašoj aplikaciji.
 
 ![AUTHY 2FA](assets/notext/10.webp)
 
 Na kartici "*Accounts*", možete postaviti rezervnu kopiju za vaše tokene. Ova rezervna kopija omogućava oporavak vaših kodova u slučaju problema. Šifrovana je pomoću lozinke koju morate definisati. Važno je da ova lozinka bude jaka i čuvana na sigurnom mestu. Postavljanje ove rezervne kopije nije nužno obavezno ako imate druge metode oporavka, kao što je drugi uređaj sa istim Authy nalogom, na primer.
 
-![AUTHY 2FA](assets/notext/11.webp)In the "*Devices*" tab, you can see all the devices synchronized with your Authy account. You have the option to disable the use of multiple devices, which restricts access to your account to that device only. If you use only one device, this can increase the security of your account, but make sure you have another backup method in case you lose that device.
+![AUTHY 2FA](assets/notext/11.webp)
+U kartici "*Devices*" možete videti sve uređaje koji su sinhronizovani sa vašim Authy nalogom. Imate opciju da onemogućite korišćenje više uređaja, čime ograničavate pristup nalogu samo na taj jedan uređaj. Ako koristite samo jedan uređaj, to može povećati bezbednost vašeg naloga, ali se pobrinite da imate rezervnu opciju u slučaju da izgubite taj uređaj.
 
 
 Ako želite da omogućite dodavanje drugih uređaja, savetujem vam da aktivirate opciju koja zahteva potvrdu sa trenutno autorizovanih uređaja na vašem Authy nalogu pre dodavanja novog uređaja.
 
 ![AUTHY 2FA](assets/notext/12.webp)
 
-Da biste dodali novi uređaj, jednostavno ponovite proces instalacije prikazan u prethodnom delu koristeći iste akreditive. Zatim će vam biti zatraženo da potvrdite ovaj novi pristup sa vašeg glavnog uređaja.
+Da biste dodali novi uređaj, jednostavno ponovite proces instalacije prikazan u prethodnom delu koristeći iste kredencijale. Zatim će vam biti zatraženo da potvrdite ovaj novi pristup sa vašeg glavnog uređaja.
 
 
 ## Kako postaviti 2FA na nalog?
@@ -95,7 +96,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 ![AUTHY 2FA](assets/notext/13.webp)
 
-Ovu opciju 2FA obično ćete pronaći u postavkama vašeg naloga, često pod odeljkom "*Lozinka*" ili "*Bezbednost*".
+Ovu opciju 2FA obično ćete pronaći u postavkama vašeg naloga, često pod odeljkom "*Lozinka (eng. Password)*" ili "*Bezbednost (eng. Security)*".
 
 ![AUTHY 2FA](assets/notext/14.webp)
 
@@ -125,7 +126,8 @@ Unesite ovaj kod na vebsajt da završite podešavanje 2FA.
 
 Neki sajtovi će vam takođe obezbediti kodove za oporavak nakon aktiviranja 2FA. Ovi kodovi vam omogućavaju pristup nalogu ako izgubite pristup svojoj Authy aplikaciji. Preporučujem da ih sačuvate na sigurnom mestu.
 
-![AUTHY 2FA](assets/notext/21.webp)Your account is now secured with two-factor authentication via the Authy app.
+![AUTHY 2FA](assets/notext/21.webp)
+Vaš nalog je sada zaštićen dvofaktorskom autentifikacijom putem aplikacije Authy.
 
 ![AUTHY 2FA](assets/notext/22.webp)
 

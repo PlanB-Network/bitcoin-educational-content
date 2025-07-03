@@ -1,9 +1,9 @@
-question: Il timelock come protegge dal barare nelle transazioni di impegno?
+question: Il timelock delle commitment transaction, come protegge dalle frodi?
 answer: Impedisce alla parte inadempiente di recuperare immediatamente i propri fondi
 wrong_answers:
   - Rimborsa automaticamente i fondi al truffatore
   - Annulla la transazione in caso di tentativo di truffa
   - Blocca l'uso della chiave di revoca
 explanation: |
-  Il timelock impone un ritardo durante il quale il truffatore non può recuperare i propri fondi, dando così all'altra parte l'opportunità di rispondere.
-reviewed: false
+  Il timelock impone un ritardo durante il quale il truffatore non può recuperare i propri fondi, dando così all'altra parte l'opportunità di rispondere in maniera opportuna.
+reviewed: true

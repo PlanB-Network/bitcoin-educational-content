@@ -1,0 +1,9 @@
+question: Qu’est-ce qu’une distribution Linux ?
+answer: Un système d’exploitation complet assemblé autour du noyau Linux
+wrong_answers:
+  - Un gestionnaire de paquets
+  - Un environnement de bureau Linux
+  - Un script d’installation automatisé pour le système d'exploitation Linux
+explanation: |
+  Une distribution Linux intègre le noyau, des outils système, des logiciels, un bootloader et une gestion des paquets pour fournir un système prêt à l’emploi.
+reviewed: false

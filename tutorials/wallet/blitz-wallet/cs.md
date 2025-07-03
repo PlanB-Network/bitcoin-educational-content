@@ -1,7 +1,5 @@
 ---
-název : Blitz Wallet
-
-
+name: Blitz Wallet
 description: Nejjednodušší portfolio Bitcoin.
 ---
 ![cover](assets/cover.webp)

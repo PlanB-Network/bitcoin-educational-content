@@ -6,4 +6,4 @@ wrong_answers:
   - Blocca temporaneamente i fondi per prevenire la spesa eccessiva
 explanation: |
   Lo script di blocco impone condizioni, come la firma con una chiave privata, per sbloccare e utilizzare i fondi in una transazione.
-reviewed: false
+reviewed: true

@@ -8,7 +8,7 @@ description: Kako koristiti fizički sigurnosni ključ?
 Danas je dvofaktorska autentifikacija (2FA) postala neophodna za poboljšanje sigurnosti online naloga protiv neovlašćenog pristupa. Sa porastom sajber napada, oslanjanje isključivo na lozinku za zaštitu vaših naloga ponekad nije dovoljno.
 
 
-2FA uvodi dodatni Layer nivo bezbednosti zahtevajući drugi oblik autentifikacije pored tradicionalne lozinke. Ova verifikacija može imati različite oblike, kao što je kod poslat putem SMS-a, dinamički kod generisan od strane posebne aplikacije, ili korišćenje fizičkog sigurnosnog ključa. Korišćenje 2FA značajno smanjuje rizike od kompromitovanja vaših naloga, čak i u slučaju da vaša lozinka bude ukradena.
+2FA uvodi dodatni nivo bezbednosti zahtevajući drugi oblik autentifikacije pored tradicionalne lozinke. Ova verifikacija može imati različite oblike, kao što je kod poslat putem SMS-a, dinamički kod generisan od strane posebne aplikacije, ili korišćenje fizičkog sigurnosnog ključa. Korišćenje 2FA značajno smanjuje rizike od kompromitovanja vaših naloga, čak i u slučaju da vaša lozinka bude ukradena.
 
 
 U drugom vodiču, objasnio sam kako postaviti i koristiti TOTP 2FA aplikaciju:
@@ -26,7 +26,7 @@ Fizički sigurnosni ključ je uređaj koji se koristi za poboljšanje sigurnosti
 
 ![SECURITY KEY 2FA](assets/notext/01.webp)
 
-Kada se prijavite na nalog zaštićen 2FA i koristite fizički sigurnosni ključ, morate ne samo uneti svoju uobičajenu lozinku već i umetnuti fizički sigurnosni ključ u svoj računar i pritisnuti dugme da biste potvrdili autentifikaciju. Ova metoda tako dodaje dodatni Layer sigurnosti, jer čak i ako neko uspe da dobije vašu lozinku, neće moći da pristupi vašem nalogu bez fizičkog posedovanja ključa.
+Kada se prijavite na nalog zaštićen 2FA i koristite fizički sigurnosni ključ, morate ne samo uneti svoju uobičajenu lozinku već i umetnuti fizički sigurnosni ključ u svoj računar i pritisnuti dugme da biste potvrdili autentifikaciju. Ova metoda tako dodaje dodatni nivo sigurnosti, jer čak i ako neko uspe da dobije vašu lozinku, neće moći da pristupi vašem nalogu bez fizičkog posedovanja ključa.
 
 
 Fizički sigurnosni ključ je posebno efikasan jer kombinuje dve različite vrste faktora autentifikacije: dokaz znanja (lozinka) i dokaz posedovanja (fizički ključ).
@@ -49,7 +49,7 @@ Takođe treba da izaberete ključ na osnovu tipa portova dostupnih na vašem ra�
 
 ![SECURITY KEY 2FA](assets/notext/02.webp)
 
-Takođe možete uporediti uređaje na osnovu njihovih dodatnih karakteristika kao što su otpornost na vodu i Dust, kao i oblik i veličina ključa.
+Takođe možete uporediti uređaje na osnovu njihovih dodatnih karakteristika kao što su otpornost na vodu i prašinu, kao i oblik i veličinu ključa.
 
 
 Što se tiče brendova sigurnosnih ključeva, Yubico je najpoznatiji sa svojim [YubiKey uređajima](https://www.yubico.com/), koje lično koristim i preporučujem. Google takođe nudi uređaj sa [Titan Security Key](https://store.google.com/fr/product/titan_security_key). Za open-source alternative, [SoloKeys](https://solokeys.com/) (non OTP) i [NitroKey](https://www.nitrokey.com/products/nitrokeys) su zanimljive opcije, ali nikada nisam imao priliku da ih testiram.
@@ -58,7 +58,7 @@ Takođe možete uporediti uređaje na osnovu njihovih dodatnih karakteristika ka
 ## Kako koristiti fizički sigurnosni ključ?
 
 
-Kada primite svoj sigurnosni ključ, nije potrebno posebno podešavanje. Ključ je obično spreman za upotrebu odmah po prijemu. Možete ga odmah koristiti za osiguranje svojih online naloga koji podržavaju ovu vrstu autentifikacije. Na primer, pokazaću vam kako da osiguram svoj Proton mail nalog ovim fizičkim sigurnosnim ključem.
+Kada primite svoj sigurnosni ključ, nije potrebno posebno podešavanje. Ključ je obično spreman za upotrebu odmah po prijemu. Možete ga odmah koristiti za osiguranje svojih online naloga koji podržavaju ovu vrstu autentifikacije. Na primer, pokazaću vam kako da osigurate svoj Proton mail nalog ovim fizičkim sigurnosnim ključem.
 
 ![SECURITY KEY 2FA](assets/notext/03.webp)
 
@@ -90,7 +90,7 @@ Zatim, od mene se traži da priključim svoj sigurnosni ključ za drugi faktor a
 
 ![SECURITY KEY 2FA](assets/notext/10.webp)
 
-Dalje, treba da dodirnem dugme na fizičkom ključu da bih potvrdio autentifikaciju, i ponovo sam povezan sa svojim Proton mail nalogom.
+Dalje, treba da dodirnem dugme na fizičkom ključu da bih potvrdio autentifikaciju, i ponovo sam povezan na svoj Proton mail nalog.
 
 ![SECURITY KEY 2FA](assets/notext/11.webp)
 

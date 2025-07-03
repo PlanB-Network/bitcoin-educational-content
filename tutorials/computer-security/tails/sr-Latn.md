@@ -1,13 +1,13 @@
 ---
-name: Repovi
+name: Tails
 
-description: Instalirajte Tails na USB ključ
+description: Instalirajte Tails na USB ključu
 ---
 
 ![image](assets/cover.webp)
 
 
-Prijenosan i amnezijski operativni sistem koji vas štiti od nadzora i cenzure.
+Prenosan i amnezijski operativni sistem koji vas štiti od nadzora i cenzure.
 
 
 ## Zašto imati USB ključ sa instaliranim Tails-om?
@@ -22,7 +22,7 @@ Da biste koristili Tails, isključite računar kojem imate pristup (kod roditelj
 Nakon toga, imaćete radni prostor i komunikaciono okruženje koje je nezavisno od uobičajenog operativnog sistema i nikada ne koristi Hard disk.
 
 
-Tails nikada ne piše na Hard disk i koristi samo RAM računara za funkcionisanje. Ova memorija se potpuno briše kada se Tails isključi, čime se uklanjaju svi mogući tragovi.
+Tails nikada ne piše na Hard disku i koristi samo RAM računara za funkcionisanje. Ova memorija se potpuno briše kada se Tails isključi, čime se uklanjaju svi mogući tragovi.
 
 
 ## Neki konkretni slučajevi upotrebe
@@ -36,7 +36,7 @@ Da bismo vam dali konkretne ideje o prednostima stalnog posedovanja USB ključa 
 - Otvorite PDF sa sumnjivog sajta;
 - Testirajte vašu Bitcoin privatnu kopiju ključa sa Electrum Wallet;
 - Koristite kancelarijski paket (LibreOffice) i radite na računaru koji ne pripada vama;
-- Napravi svoje prve korake u Linux okruženju da naučiš kako napustiti svet Microsofta i Apple-a.
+- Napravite prve korake u Linux okruženju i naučite kako da napustite svet Microsofta i Apple-a.
 
 
 ## Kako verovati Tails-u?
@@ -70,7 +70,7 @@ Preduslovi:
 
 
 - 1 USB ključ, samo za Tails, kapaciteta najmanje 8 GB
-- Računar povezan na Internet sa Linux, macOS, (ili Windows)
+- Računar povezan na Internet sa Linux, macOS, (ili Windows) operativnim sistemom
 - Otprilike jedan sat slobodnog vremena, u zavisnosti od brzine vaše internet veze, uključujući ½ sata za instalaciju (datoteka od 1,3 GB za preuzimanje)
 
 
@@ -98,8 +98,7 @@ Sačuvajte datoteku u poznatom folderu, kao što je Preuzimanja, jer će to biti
 🔗 **Official Tails section:** https://tails.boum.org/install/linux/index.fr.html#verify
 
 
-Provera preuzimanja osigurava da ga izdaju Tails programeri i da nije oštećeno ili presretnuto tokom preuzimanja.
-
+Provera preuzimanja osigurava da je fajl izdala Tails razvojna grupa i da nije oštećen ili presretnut tokom preuzimanja.
 
 Moguće je ručno verifikovati da je datoteka koju ste upravo preuzeli ona očekivana koristeći PGP, ali bez naprednog znanja, ova verifikacija nudi isti nivo sigurnosti kao JavaScript verifikacija na stranici za preuzimanje, dok je mnogo komplikovanija i sklona greškama.
 
@@ -117,8 +116,8 @@ Da biste verifikovali datoteku, koristite dugme "Odaberite vaše preuzimanje..."
 
 
 
-- Linux:** https://tails.boum.org/install/linux/index.fr.html#install
-- macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher i https://tails.boum.org/install/mac/index.fr.html#install
+- **Linux:** https://tails.boum.org/install/linux/index.fr.html#install
+- **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher i https://tails.boum.org/install/mac/index.fr.html#install
 
 
 Ovaj korak instaliranja Tails-a na vaš USB ključ je najteži u celom vodiču, posebno ako to nikada ranije niste radili. Najvažnija stvar je da odaberete ispravan postupak u zvaničnom odeljku za vaš operativni sistem: Linux ili macOS.
@@ -213,7 +212,7 @@ Kada budete još malo eksperimentisali sa svojim Tails USB stikom, istražićemo
 
 
 - Ažurirajte ključ sa **najnovijom verzijom Tails-a**;
-- Konfigurišite i koristite **persistent storage**;
+- Konfigurišite i koristite **trajnu memoriju**.
 - Instaliraj **dodatni softver**.
 
 

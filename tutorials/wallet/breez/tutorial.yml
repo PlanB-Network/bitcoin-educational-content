@@ -15,7 +15,7 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-04-29
     urgency: 1
-    contributors_names:
+    contributor_names:
       - heyolaniran
     reward: 0
   - language: cs
@@ -113,3 +113,4 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.69
+

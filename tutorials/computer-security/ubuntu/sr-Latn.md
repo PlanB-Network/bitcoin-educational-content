@@ -16,13 +16,13 @@ Operativni sistem (OS) je glavni softver koji upravlja svim resursima vašeg ra�
 
 
 
-- Poboljšana sigurnost** : Linux distribucije su poznate po svojoj sigurnosti i robusnosti
-- Nulta cena**: Ubuntu i većina Linux distribucija su besplatni
-- Velika zajednica**: Zajednica korisnika spremna da pomogne putem foruma i tutorijala
-- Poštovanje privatnosti**: Otvoreni sistem za veću transparentnost
-- Jednostavnost**: Korisnički prijatan Interface i lakoća korišćenja
-- Bogat ekosistem** : Opsežan katalog softvera otvorenog koda
-- Redovna podrška**: Sigurne ažuriranja od Canonical
+- **Poboljšana sigurnost** : Linux distribucije su poznate po svojoj sigurnosti i robusnosti
+- **Nulta cena**: Ubuntu i većina Linux distribucija su besplatni
+- **Velika zajednica**: Zajednica korisnika spremna da pomogne putem foruma i tutorijala
+- **Poštovanje privatnosti**: Otvoreni sistem za veću transparentnost
+- **Jednostavnost**: Korisnički prijatan interfejs i lakoća korišćenja
+- **Bogat ekosistem** : Opsežan katalog softvera otvorenog koda
+- **Redovna podrška**: Sigurna ažuriranja od Canonical-a
 
 
 ## Instalacija i konfiguracija
@@ -31,7 +31,7 @@ Operativni sistem (OS) je glavni softver koji upravlja svim resursima vašeg ra�
 ### 1. Preduslovi
 
 
-**Oprema potrebna:**
+**Potrebna oprema:**
 
 
 
@@ -86,7 +86,7 @@ Možete koristiti nekoliko alata, kao što je Balena Etcher :
 ### 4. Instaliranje i osiguranje Ubuntu-a
 
 
-**4.1 Pokretanje sa USB memorijskog štapića**
+**4.1 Pokretanje sa USB memorijskog ključa**
 
 
 
@@ -98,7 +98,7 @@ Možete koristiti nekoliko alata, kao što je Balena Etcher :
  - Sačuvaj i ponovo pokreni
 
 
-**4.2 Pokretanje instalacije** (na francuskom)
+**4.2 Pokretanje instalacije** 
 
 
 **Ekran za pokretanje**
@@ -110,7 +110,7 @@ Kada pokrenete sistem sa USB ključa, videćete ovaj ekran, koji vam omogućava 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
 
-**Izbor jezika
+**Izbor jezika**
 
 
 Izaberite željeni jezik za instalaciju i sistem.
@@ -119,7 +119,7 @@ Izaberite željeni jezik za instalaciju i sistem.
 ![Sélection de la langue](assets/fr/07.webp)
 
 
-**Opcije pristupačnosti
+**Opcije pristupačnosti**
 
 
 Konfigurišite opcije pristupačnosti ako je potrebno (čitač ekrana, visok kontrast, itd.).
@@ -128,7 +128,7 @@ Konfigurišite opcije pristupačnosti ako je potrebno (čitač ekrana, visok kon
 ![Options d'accessibilité](assets/fr/08.webp)
 
 
-**Konfiguracija tastature
+**Konfiguracija tastature**
 
 
 Odaberite raspored tastature. Dostupno je testno polje da proverite da li tasteri odgovaraju vašoj konfiguraciji.
@@ -140,13 +140,13 @@ Odaberite raspored tastature. Dostupno je testno polje da proverite da li taster
 **Mrežna veza**
 
 
-Povežite se na svoju Wi-Fi ili žičanu mrežu kako biste preuzeli ažuriranja tokom instalacije.
+Povežite se na svoju Wi-Fi ili mrežu preko kabla kako biste preuzeli ažuriranja tokom instalacije.
 
 
 ![Configuration réseau](assets/fr/10.webp)
 
 
-**Tip instalacije
+**Tip instalacije**
 
 
 Izaberite između "Isprobaj Ubuntu" (za testiranje bez instalacije) ili "Instaliraj Ubuntu".
@@ -155,7 +155,7 @@ Izaberite između "Isprobaj Ubuntu" (za testiranje bez instalacije) ili "Instali
 ![Choix du type d'installation](assets/fr/11.webp)
 
 
-**Metod instalacije
+**Metod instalacije**
 
 
 Odaberite interaktivnu instalaciju.
@@ -164,7 +164,7 @@ Odaberite interaktivnu instalaciju.
 ![Mode d'installation](assets/fr/12.webp)
 
 
-**Izbor aplikacije
+**Izbor aplikacije**
 
 
 Izaberite između podrazumevane instalacije ili proširenog izbora aplikacija.
@@ -173,7 +173,7 @@ Izaberite između podrazumevane instalacije ili proširenog izbora aplikacija.
 ![Sélection des applications](assets/fr/13.webp)
 
 
-**Aplikacije trećih strana
+**Aplikacije trećih strana**
 
 
 Odlučite da li ćete instalirati dodatne drajvere i vlasnički softver.
@@ -182,7 +182,7 @@ Odlučite da li ćete instalirati dodatne drajvere i vlasnički softver.
 ![Installation applications tierces](assets/fr/14.webp)
 
 
-**Tip particionisanja
+**Tip particionisanja**
 
 
 Imate dve glavne opcije:
@@ -197,7 +197,7 @@ Imate dve glavne opcije:
 ![Choix du partitionnement](assets/fr/15.webp)
 
 
-**Kreiranje korisničkog naloga
+**Kreiranje korisničkog naloga**
 
 
 Postavite svoje korisničko ime i lozinku za svoj Ubuntu nalog.
@@ -206,7 +206,7 @@ Postavite svoje korisničko ime i lozinku za svoj Ubuntu nalog.
 ![Création du compte](assets/fr/16.webp)
 
 
-**Vremenska zona
+**Vremenska zona**
 
 
 Izaberite svoju geografsku oblast da biste podesili sistemsko vreme.
@@ -224,13 +224,13 @@ Proverite sve svoje izbore pre nego što započnete konačnu instalaciju. Kada k
 ![Résumé de l'installation](assets/fr/18.webp)
 
 
-**4.3 Nadogradnja Ubuntu-a nakon instalacije** (na francuskom)
+**4.3 Nadogradnja Ubuntu-a nakon instalacije** 
 
 
 Ažuriranje vašeg sistema je važan korak nakon nove instalacije. Imate dve opcije:
 
 
-**Opcija 1: Preko grafičkog korisničkog Interface**
+**Opcija 1: Preko grafičkog korisničkog interfejsa**
 
 
 
@@ -240,7 +240,7 @@ Ažuriranje vašeg sistema je važan korak nakon nove instalacije. Imate dve opc
 - Pratite uputstva na ekranu da biste instalirali ažuriranja.
 
 
-**Opcija 2: Preko Terminala
+**Opcija 2: Preko Terminala**
 
 
 
@@ -273,7 +273,7 @@ sudo apt upgrade
 ### 5. Otkrivanje osnovnih zadataka
 
 
-**5.1 Pregledanje Interneta
+**5.1 Pregledanje Interneta**
 
 
 Podrazumevano, često ćete pronaći Firefox u traci za pokretanje.
@@ -285,10 +285,10 @@ Pokreni Firefox i počni pretraživanje.
 Ostali pregledači (Chrome, Brave, itd.) mogu se instalirati putem Software Manager-a ili putem .deb paketa.
 
 
-**5.2 Obrada teksta
+**5.2 Obrada teksta**
 
 
-Ubuntu dolazi sa LibreOffice paketom (Writer za obradu teksta).
+Ubuntu dolazi sa LibreOffice paketom (Alat za obradu teksta).
 
 
 Da biste ga otvorili: Aktivnosti > Pretražite "LibreOffice Writer" ili kliknite na ikonu ako se pojavi na traci.
@@ -297,17 +297,17 @@ Da biste ga otvorili: Aktivnosti > Pretražite "LibreOffice Writer" ili kliknite
 Možete kreirati, uređivati i sačuvati dokumente u različitim formatima (uključujući .docx).
 
 
-**5.3 Instaliranje aplikacija
+**5.3 Instaliranje aplikacija**
 
 
-Menadžer softvera (nazvan "Ubuntu Software"): grafički Interface za pretragu i instalaciju aplikacija.
+Menadžer softvera (nazvan "Ubuntu Software"): grafički interfejs za pretragu i instalaciju aplikacija.
 
 
 Iz Terminala, koristite komandu :
 
 
 ```bash
-sudo apt install nom-du-paquet
+sudo apt install ime-paketa
 ```
 
 

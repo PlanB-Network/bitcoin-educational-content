@@ -54,6 +54,7 @@ Shop: Pay for Netflix, Airbnb, groceries, mobile data, and more, with Bitcoin, r
 No banks. No friction.
 
 ![cover](assets/2.webp)
+
 ## Beginner’s Guide to BitKit: A Step-by-Step Tutorial
 
 ## 1. Install BitKit
@@ -148,6 +149,7 @@ Accept or deny the request to allow contacts to pay you.
 Once a contact is added, simply tap their name in Contacts to send or request sats.
 
 ## 9. Explore Widgets
+
 From the home screen, swipe to the Widgets section. Tap the gear icon to add or edit:
 
 Bitcoin Price Ticker – choose up to four fiat currencies and set the time frame (day, week, month, year).
@@ -216,7 +218,7 @@ Transfer from Savings to Spending
 Open Savings, tap Transfer to Spending.
 
 
-Enter the amount (for example, 25 000 B) and tap Continue.
+Enter the amount (for example, 25 000 ₿) and tap Continue.
 
 Approve the fee and wait for the on-chain transaction to confirm.
 
@@ -245,6 +247,7 @@ Local Currency – switch from USD to any major fiat under Settings → General.
 
 ## Congratulations. 
 You have installed BitKit, secured your seed, mastered Lightning payments, and even bought your first gift card. BitKit’s design makes powerful Bitcoin tools feel intuitive, yet you always hold the keys.
+
 Download BitKit today and step into true Bitcoin ownership. Questions or feedback? Reach out to the BitKit team on social media or through the in-app support link.
 
 

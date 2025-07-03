@@ -146,7 +146,7 @@ Kisha unaweza kubofya kitufe cha "*Ingia*" kwenye onyesho lako la Ledger ili kut
 
 
 
-Faida ya kutumia Hardware Wallet Ledger kwa uthibitishaji wa vipengele viwili ni kwamba unaweza kurejesha funguo zako kwa urahisi kutokana na maneno ya Mnemonic. Kando na hifadhi hii ya msingi, unaweza pia kutumia msimbo wa dharura unaotolewa na kila huduma ambapo umewasha 2FA. Nambari hii ya kuthibitisha dharura hukuwezesha kuunganisha kwenye akaunti yako ukipoteza ufunguo wako wa usalama. Kwa hivyo inachukua nafasi ya 2FA kwa unganisho ikiwa ni lazima.
+Faida ya kutumia Hardware Wallet ya Ledger kwa uthibitishaji wa vipengele viwili (2FA) ni kwamba unaweza kurejesha funguo zako kwa urahisi kwa kutumia maneno ya mnemonic. Kando na hifadhi hii ya msingi, unaweza pia kutumia msimbo wa dharura unaotolewa na kila huduma ambapo umewezeshwa 2FA. Msimbo huu wa dharura hukuwezesha kufikia akaunti yako endapo utapoteza kifaa chako cha usalama. Kwa hivyo, unachukua nafasi ya 2FA wakati wa dharura, ikiwa ni lazima.
 
 
 
@@ -162,7 +162,8 @@ Ninapendekeza kwamba uweke msimbo huu mahali tofauti na unapohifadhi nenosiri la
 
 
 
-Mbinu hii hukupa viwango viwili vya uhifadhi iwapo utapoteza Ledger yako kwa uthibitishaji wa 2FA: hifadhi rudufu ya kwanza kwa kutumia maneno ya Mnemonic kwa akaunti zako zote, na chelezo ya pili ya akaunti mahususi kwa kutumia misimbo ya dharura. Hata hivyo, ni muhimu **kutochanganya jukumu la Mnemonic na lile la msimbo wa dharura** :
+Mbinu hii hukupa viwango viwili vya uhifadhi iwapo utapoteza Ledger yako kwa uthibitishaji wa 2FA: hifadhi rudufu ya kwanza kwa kutumia maneno ya mnemonic kwa akaunti zako zote, na chelezo ya pili ya akaunti mahususi kwa kutumia misimbo ya dharura. Hata hivyo, ni muhimu **kutochanganya jukumu la mnemonic na lile la msimbo wa dharura**.
+
 
 
 

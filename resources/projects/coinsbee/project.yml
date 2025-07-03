@@ -1,0 +1,26 @@
+id: f5738023-9ded-4b0d-95b4-5e264352141c
+name: Coinsbee
+
+links:
+  website: https://www.coinsbee.com/
+  twitter: https://x.com/coinsbee
+
+category: exchange
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - use-case
+  - self-sovereignty
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

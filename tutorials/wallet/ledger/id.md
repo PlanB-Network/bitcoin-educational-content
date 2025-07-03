@@ -6,6 +6,10 @@ description: Cara menyiapkan perangkat Ledger Nano S Anda
 
 ![image](assets/cover.webp)
 
+*Ledger telah mengumumkan berakhirnya dukungan perangkat lunak untuk Nano S klasik mulai 25 Juni 2025: perangkat ini tidak akan lagi menerima pembaruan keamanan dan tidak akan kompatibel dengan fitur-fitur baru, sehingga pengguna menghadapi risiko kerentanan dan ketidakcocokan di masa depan. Namun, dana tetap dapat diakses melalui frasa mnemonik, tetapi sangat disarankan untuk bermigrasi ke model yang lebih baru demi menjamin keamanan dan keberlanjutan akses ke bitcoin Anda. Perhatian, yang dimaksud di sini adalah **Nano S lama**, bukan **Nano S Plus** yang masih didukung.*
+
+___
+
 Dompet fisik dingin – €60 – Pemula – Untuk mengamankan €2.000 hingga €50.000
 
 Ledger adalah solusi Prancis untuk mengamankan bitcoin dengan cara yang sederhana.

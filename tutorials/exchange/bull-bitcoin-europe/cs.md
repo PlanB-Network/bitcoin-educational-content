@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Europe
+name: Bull Bitcoin
 description: Nákup a prodej bitcoinů na Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin je výměnná platforma pouze pro bitcoiny, kterou v roce 2013 v Kanadě založil Francis Pouliot, ikonická postava bitcoinového ekosystému. Filozofií Bull Bitcoin je nabízet uživatelům nástroje pro finanční suverenitu a emancipaci. Výměnná platforma je neúvěrová, což znamená, že nad svými bitcoiny zůstáváte vždy suverénní.
 
-Původně byla tato platforma dostupná pouze v Kanadě, nyní je k dispozici i v Evropě a má zcela nové, optimalizované rozhraní. Tato nová verze Bull Bitcoin je v současné době dostupná pouze v Evropě. Umožňuje rychlý a snadný nákup a prodej bitcoinů díky využití technologie Lightning a okamžitých převodů SEPA. Časem bude platforma zahrnovat také možnosti DCA, automatických nákupů, limitních příkazů a plateb účtů v bitcoinech.
+Původně dostupná pouze v Kanadě je nyní platforma dostupná také v Evropě a v mnoha dalších zemích, s úplně novým optimalizovaným rozhraním. Tato nová verze Bull Bitcoin vám umožní snadno a rychle nakupovat a prodávat bitcoiny díky využití Lightning a okamžitých SEPA převodů. Integruje také platbu faktur v bitcoinech. V budoucnu platforma plánuje také přidání možností DCA, automatických nákupů a limitních příkazů.
 
-Společnost Bull Bitcoin se snaží poskytovat transparentní služby bez skrytých poplatků. Stejně jako všechny ostatní směnárenské platformy v Evropě vyžaduje používání Bull Bitcoin KYC (postup identifikace zákazníka).
+Bull Bitcoin si zakládá na poskytování transparentní služby bez skrytých poplatků. Upozorňujeme, že stejně jako většina směnáren, použití Bull Bitcoin vyžaduje provedení KYC (proces identifikace klienta).
 
 ## Zaregistrujte se na Bull Bitcoin
 

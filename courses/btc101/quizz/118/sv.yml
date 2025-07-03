@@ -1,0 +1,12 @@
+question: Vad är budskapet i det första blocket i Bitcoin Blockchain?
+answer: 03/jan/2009 Förbundskanslern på randen till en andra räddningsaktion för bankerna.
+wrong_answers:
+  - Vi kan vinna ett stort slag i kapprustningen och vinna ett nytt territorium av frihet under flera år.
+  - Regeringar är bra på att hugga huvudet av centralt styrda nätverk som Napster, men rena P2P-nätverk som Gnutella och Tor verkar klara sig bra.
+  - Inget av ovanstående.
+explanation: |
+  Det första blocket i Bitcoin Blockchain, även känt som
+  gW-6-blocket, innehåller meddelandet 03/jan/2009
+  Förbundskanslern på randen till en andra räddningsaktion för bankerna, vilket är
+  titeln på Tiden den dagen till Timestamp Genesis-blocket.
+reviewed: true

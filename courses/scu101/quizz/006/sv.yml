@@ -1,0 +1,13 @@
+question: Vad är cookies i samband med online-surfning?
+answer: Filer som skapas av webbplatser för att lagra information på din enhet.
+wrong_answers:
+  - Små bitar av data som skickas från en webbplats och lagras på användarens dator av användarens webbläsare.
+  - Program som spårar din online-aktivitet.
+  - Virus som kan skada din enhet.
+explanation: |
+  I samband med online-surfning är cookies filer som
+  som skapas av webbplatser för att lagra information på din enhet.
+  De används för att komma ihåg dina preferenser, inloggnings
+  inloggningsinformation och andra data för att förbättra din surfupplevelse
+  upplevelse.
+reviewed: true

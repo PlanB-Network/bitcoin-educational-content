@@ -1,0 +1,8 @@
+question: Vilken roll har gruvarbetarna i Bitcoin-nätverket?
+answer: Utvinnare säkrar nätverket och lägger till transaktioner i blocken.
+wrong_answers:
+  - Gruvarbetare skapar nya bitcoins.
+  - Miners verifierar Bitcoin-användarnas identitet.
+  - Gruvarbetare sätter priset på Bitcoin.
+explanation: >-
+reviewed: true

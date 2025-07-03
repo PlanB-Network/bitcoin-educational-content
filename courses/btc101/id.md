@@ -374,49 +374,28 @@ Penciptaan bitcoin baru adalah hasil dari proses penambangan. Singkatnya, para p
 
 Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "halving"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
 
-| Jumlah Halving | Tinggi Blok | Hadiah BTC Setelah Halving | Perkiraan BTC yang Beredar Setelah Halving |
-
+| Jumlah Halving | Tinggi Blok | Hadiah BTC Setelah Halving  | Perkiraan BTC yang Beredar Setelah Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 | 210.000 | 25 BTC | 10.500.000 BTC
-
-| 2 | 420.000 | 12,5 BTC | 15.750.000 BTC
-
-| 3 | 630.000 | 6,25 BTC | 18.375.000 BTC
-
-| 4 | 840.000 | 3,125 BTC | 19.687.500 BTC
-
-| 5 | 1.050.000 | 1,5625 BTC | 20.343.750 BTC
-
-| 6 | 1.260.000 | 0,78125 BTC | 20.671.875 BTC
-
-| 7 | 1.470.000 | 0,390625 BTC | 20.835.937,5 BTC
-
-| 8 | 1.680.000 | 0,1953125 BTC | 20.917.968,75 BTC
-
-| 9 | 1.890.000 | 0.09765625 BTC | 20.958.984,375 BTC |
-
-| 10 | 2.100.000 | 0.048828125 BTC | 20.979.492,188 BTC |
-
-| 11 | 2.310.000 | 0.0244140625 BTC | 20.989.746,094 BTC |
-
-| 12 | 2.520.000 | 0.01220703125 BTC | 20.994.873,047 BTC |
-
-| 13 | 2.730.000 | 0.006103515625 BTC | 20.997.436,523 BTC |
-
-| 14 | 2.940.000 | 0.0030517578125 BTC | 20.998.718,262 BTC |
-
-| 15 | 3.150.000 | 0.00152587890625 BTC | 20.999.359,131 BTC |
-
-| 16 | 3.360.000 | 0.000762939453125 BTC | 20.999.679,566 BTC |
-
-| 17 | 3.570.000 | 0.0003814697265625 BTC | 20.999.839,783 BTC |
-
-| 18 | 3.780.000 | 0.00019073486328125 BTC | 20.999.919,892 BTC |
-
-| 19 | 3.990.000 | 0.000095367431640625 BTC | 20.999.959,946 BTC |
-
-| 20 | 4.200.000 | 0.0000476837158203125 BTC | 20.999.979,973 BTC |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Kami akan meninjau kembali konsep penambangan secara lebih rinci dalam [bab penambang](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
@@ -1062,7 +1041,9 @@ Saat ini, Bitcoin terus bertahan dan semakin berkembang dengan semakin diintegra
 
 Bitcoin dapat dilihat sebagai alat untuk menciptakan ekonomi paralel dengan mata uang fiat, karena memungkinkan untuk menjual barang atau jasa dan dibayar dengan bitcoin. Transaksi dapat dilakukan secara langsung dengan Bitcoin, tanpa perlu melalui platform pertukaran, tetapi cukup dengan berpindah dari dompet Bitcoin ke dompet Bitcoin lainnya.
 
-Ekonomi Bitcoin ada dan berkembang di beberapa wilayah tertentu di dunia, seperti di El Salvador, di mana Bitcoin telah menjadi alat pembayaran yang sah sejak tahun 2021. Di sekeliling kita ada beberapa individu, bisnis, dan organisasi yang telah menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
+Ekonomi Bitcoin ada dan sedang berkembang di daerah-daerah tertentu di dunia, seperti di El Salvador, di mana Bitcoin menjadi alat pembayaran yang sah pada tahun 2021. Sayangnya, pada Januari 2025, majelis mengesahkan undang-undang baru yang mencabut gelar "alat pembayaran yang sah" dari Bitcoin, diduga setelah menerima tekanan dari Dana Moneter Internasional. Di bawah undang-undang baru ini, orang-orang tidak lagi diwajibkan untuk menerima Bitcoin dalam bisnis mereka, dan tidak dapat lagi membayar pajak menggunakan Bitcoin. Penerimaan tetap bersifat sukarela.
+
+Namun, di El Salvador dan di bagian lain dunia, semakin banyak individu, bisnis, dan organisasi yang menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
 
 ![image](assets/en/72.webp)
 

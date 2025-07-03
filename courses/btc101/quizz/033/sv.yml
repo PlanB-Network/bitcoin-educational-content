@@ -1,0 +1,10 @@
+question: Varför betraktas Bitcoin som en ny form av pengar?
+answer: Eftersom det är digitala pengar utan någon central enhet.
+wrong_answers:
+  - Eftersom det är en digital valuta som backas upp av guld.
+  - Eftersom det är en valuta som kräver banken Blockchain.
+  - För att Federal Reserve säger det.
+explanation: |
+  Bitcoin kan ses som en ny form av pengar, eftersom de uppstår i ett
+  från ett peer-to-peer-nätverk utan någon central enhet.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilket kommando exporterar en Contract från Stash till en extern fil?
+answer: RGB export '<ContractId>' myContractPBN.RGB
+wrong_answers:
+  - RGB hämta "<ContractId>" myContractPBN.RGB
+  - RGB dump '<ContractId>' myContractPBN.RGB
+  - RGB fråga "<ContractId>" myContractPBN.RGB
+explanation: |
+  Kommandot "RGB export" används för att extrahera en Contract från Stash och spara den som en fil för enkel delning.
+reviewed: false

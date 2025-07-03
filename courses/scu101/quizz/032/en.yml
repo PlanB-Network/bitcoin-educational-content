@@ -3,10 +3,7 @@ answer: A type of malicious software that encrypts user data and demands a ranso
 wrong_answers:
   - A type of antivirus software that is capable of cleaning computer cache and cookies upon the payment of a one-time fee.
   - A type of software used for data recovery, it is becoming quite common in Europe nowadays.
-  - A type of software used for data backup, usually it performs one backup every 7 days.
+  - A type of software used for data backup, which usually performs one backup every 7 days.
 explanation: |
-  Ransomware is a type of malicious software that encrypts
-  user data and demands a ransom to decrypt it. It is
-  becoming increasingly common and can be very troublesome
-  for a company or an individual.
+  Ransomware is a type of malicious software that encrypts user data and demands a ransom to decrypt it. It is becoming increasingly common and can be very troublesome for a company or an individual.
 reviewed: true

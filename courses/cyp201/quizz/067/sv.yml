@@ -1,0 +1,9 @@
+question: Vad är syftet med indexet vid härledning av underordnade nycklar?
+answer: Särskilja syskonnyckelpar
+wrong_answers:
+  - Identifiera typen av nyckel (offentlig eller privat)
+  - Ange nyckelns säkerhetsnivå
+  - Lägg till en extra Layer av säkerhet
+explanation: |
+  Indexet gör det möjligt att skilja på underordnade nycklar som härrör från samma överordnade par.
+reviewed: false

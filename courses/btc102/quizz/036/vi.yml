@@ -1,0 +1,9 @@
+question: Mục đích chính của việc xác định hồ sơ người dùng là gì?
+answer: Để áp dụng một chiến lược phù hợp với nhu cầu của bạn
+wrong_answers:
+  - Để tối đa hóa đầu cơ và do đó lợi nhuận
+  - Để áp dụng một chiến lược chung có hiệu quả với mọi người
+  - Để biết người có ảnh hưởng Bitcoin nào nên theo dõi trên mạng xã hội
+explanation: |
+  Biết được hồ sơ của mình và có thể điều chỉnh hồ sơ đó cho phép bạn lựa chọn các giải pháp thu thập và lưu trữ phù hợp với hoàn cảnh cá nhân của mình.
+reviewed: false

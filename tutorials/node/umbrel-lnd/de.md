@@ -57,7 +57,7 @@ Für eine vollständige theoretische Einführung in Lightning Network empfehlen 
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In diesem Kurs erhalten Sie eine gründliche Einführung in die grundlegenden Konzepte des Lightning Network, bevor Sie mit Ihrem LND-Knoten üben können.
 

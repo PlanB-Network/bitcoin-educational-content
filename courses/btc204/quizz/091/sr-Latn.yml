@@ -5,5 +5,5 @@ wrong_answers:
   - Otkiva sumnjive aktivnosti koordinatoru.
   - Ovo bi moglo ugroziti privatnost zbog heuristike zaokruženog plaćanja.
 explanation: |
-  Važno je izbegavati kombinovanje mešanih UTXO-ova sa nemješanim UTXO-ovima u istoj transakciji, ali i mešanje UTXO-ova među sobom, kako bi se izbegla Common-Input-Ownership-Heuristic (CIOH).
+  Važno je izbegavati kombinovanje mešanih UTXO-ova sa nemešanim UTXO-ovima u istoj transakciji, ali i mešanje UTXO-ova među sobom, kako bi se izbegla Common-Input-Ownership-Heuristic (CIOH).
 reviewed: false

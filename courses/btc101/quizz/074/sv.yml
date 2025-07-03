@@ -1,0 +1,12 @@
+question: Var lagras bitcoins?
+answer: I Bitcoin Blockchain.
+wrong_answers:
+  - I Bitcoin Wallet.
+  - På den enhet där Wallet är installerad.
+  - I Federal Reserves valv.
+explanation: |
+  Även om dina privata nycklar lagras i din Wallet, lagras
+  bitcoins själva faktiskt lagras i Bitcoin
+  Blockchain, som är den offentligt distribuerade Ledger inom
+  gW-6 peer-to-peer-nätverket.
+reviewed: true

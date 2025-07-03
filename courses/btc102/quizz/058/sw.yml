@@ -1,0 +1,9 @@
+question: Je, ni suluhisho gani la uhifadhi la Cold linalopendekezwa kwa mtumiaji mwenye paranoid?
+answer: Haina hewa au DIY Hardware Wallet
+wrong_answers:
+  - Simu ya Hot Wallet
+  - Huduma ya uangalizi kwenye jukwaa la Exchange
+  - Kusudi la jumla chanzo funge Hardware Wallet
+explanation: |
+  Mtumiaji mbishi hupendelea hifadhi ya nje ya mtandao kwa kutumia suluhu huria ili kupunguza hatari ya kukaribiana.
+reviewed: false

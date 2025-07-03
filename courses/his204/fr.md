@@ -157,7 +157,7 @@ Peu goûté par les lecteurs de son époque, éloigné des cercles du pouvoir pa
 
 Seulement, à travers cette redécouverte récente, il apparaît que l’on a collectivement abouti à une impasse. On a perdu le mérite propre de Boisguilbert en le présentant comme le pionnier d’un grand nombre de théories et le précurseur d’un grand nombre d’auteurs. Il aurait compris la notion de sous-emploi défendue par Keynes, anticipé la loi de Say, préparé l’équilibre général de Walras, et même préfiguré l’analyse de classe des marxistes. "De qui et de quoi Boisguilbert ne pourrait-il pas être le précurseur ?" se demandait finalement un commentateur.  
 
-Né à Rouen en 1746, élève de Port-Royal à Paris, Boisguilbert commence une carrière littéraire sans succès, puis acquiert diverses fonctions dont celle de Lieutenant-général de Rouen. Il écrit alors plusieurs livres pour défendre ses idées, dont le Détail de la France, en 1695, qu’il republiera l’année suivante avec un titre très représentatif : La France ruinée sous le règne de Louis XIV, par qui et comment, avec les moyens de la rétablir.
+Né à Rouen en 1646, élève de Port-Royal à Paris, Boisguilbert commence une carrière littéraire sans succès, puis acquiert diverses fonctions dont celle de Lieutenant-général de Rouen. Il écrit alors plusieurs livres pour défendre ses idées, dont le Détail de la France, en 1695, qu’il republiera l’année suivante avec un titre très représentatif : La France ruinée sous le règne de Louis XIV, par qui et comment, avec les moyens de la rétablir.
 
 ![image](assets/fr/016.webp)
 ![image](assets/fr/017.webp)

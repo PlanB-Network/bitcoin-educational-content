@@ -1,0 +1,9 @@
+question: Sheria ya 3-2-1 inamaanisha nini katika suala la kuhifadhi nakala ya data?
+answer: Nakala 3 kwenye media 2 tofauti, na 1 iliyohifadhiwa nje ya tovuti
+wrong_answers:
+  - Nakala 3 kwenye midia 2 ya mtandaoni na kifaa 1 halisi
+  - Vyombo vya habari 3 vilivyo na nakala 2, moja ikiwa nje ya tovuti
+  - Nakala 3, 2 kati yake zimesimbwa kwa njia fiche na 1 kuhifadhiwa nje ya tovuti
+explanation: |
+  Sheria hii inapendekeza kuwa na nakala 3 za data kwenye aina 2 tofauti za media, na nakala 1 ikihifadhiwa nje ya tovuti kwa ustahimilivu zaidi.
+reviewed: false

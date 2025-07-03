@@ -1,0 +1,9 @@
+question: Varför avråder man från att lägga ut mottagaradresser på sociala medier?
+answer: Eftersom de kan användas för att koppla aktiviteter i kedjan till en verklig identitet.
+wrong_answers:
+  - Eftersom de lätt kan hackas av illasinnade hackare.
+  - De kan nämligen locka till sig bedrägliga erbjudanden och utsätta dig för phishing-kampanjer.
+  - Eftersom de kan möjliggöra tillämpning av gemensam input Ownership heuristik.
+explanation: |
+  Delning av Bitcoin-mottagningsadresser på internet kan användas som en ingångspunkt för kedjeanalys genom att koppla en identitet (verklig eller pseudonym) till aktivitet i kedjan.
+reviewed: false

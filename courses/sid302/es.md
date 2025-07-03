@@ -1,17 +1,17 @@
 ---
 name: Lo esencial del Liquid Bootcamp
-goal: Obtenga un conocimiento exhaustivo de la red Liquid y del proyecto Elements, y aprenda a implantar soluciones avanzadas en transacciones confidenciales, tokenización y arquitectura de red descentralizada.
+goal: Obten un conocimiento exhaustivo de la red Liquid y del proyecto Elements, y aprende a implantar soluciones avanzadas en transacciones confidenciales, tokenización y arquitectura de red descentralizada.
 objectives: 
 
-  - Comprender los fundamentos de la arquitectura Liquid y su relación con Bitcoin.
-  - Aprenda a configurar y manejar los nodos Liquid mediante el software Elements.
-  - Explorar el uso de transacciones confidenciales y la emisión de activos en la Red Líquida.
-  - Comprender los aspectos empresariales y técnicos de Liquid para su aplicación en los mercados de capitales.
+  - Comprende los fundamentos de la arquitectura Liquid y su relación con Bitcoin.
+  - Aprende a configurar y manejar los nodos Liquid mediante el software Elements.
+  - Explora el uso de transacciones confidenciales y la emisión de activos en la Red Líquida.
+  - Comprende los aspectos empresariales y técnicos de Liquid para su aplicación en los mercados de capitales.
 
 ---
 # Introducción a la red Liquid
 
-Embárquese en un viaje educativo diseñado para proporcionar una comprensión profunda de la red Liquid y del proyecto Elements. Este bootcamp combina teoría y práctica para enseñarle los fundamentos técnicos, arquitectónicos y empresariales necesarios para implementar y aprovechar las capacidades de Liquid. Desde transacciones confidenciales hasta el diseño del ecosistema, este curso es ideal para aquellos que buscan ampliar sus conocimientos sobre herramientas avanzadas dentro del ecosistema Bitcoin.
+Embárcate en un viaje educativo diseñado para proporcionar una comprensión profunda de la red Liquid y del proyecto Elements. Este bootcamp combina teoría y práctica para enseñarte los fundamentos técnicos, arquitectónicos y empresariales necesarios para implementar y aprovechar las capacidades de Liquid. Desde transacciones confidenciales hasta el diseño del ecosistema, este curso es ideal para aquellos que buscan ampliar sus conocimientos sobre herramientas avanzadas dentro del ecosistema Bitcoin.
 
 Con presentaciones a cargo de expertos del sector, el curso abarca temas como la arquitectura de Liquid, aplicaciones de tokenización, conceptos técnicos de Elements y casos de uso innovadores como el SDK de Breeze. Diseñado para ser accesible para principiantes y usuarios intermedios, el curso también ofrece valor a los desarrolladores experimentados que buscan dominar Liquid como plataforma para optimizar sus proyectos.
 
@@ -24,28 +24,29 @@ Con presentaciones a cargo de expertos del sector, el curso abarca temas como la
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
-Bienvenido al Liquid Bootcamp, una formación completa diseñada para dotarle de los conocimientos y habilidades necesarios para aprovechar eficazmente la red Liquid y el proyecto Elements. Este curso profundiza en las características únicas de Liquid, como las transacciones confidenciales, la emisión de activos y su estructura de red federada, al tiempo que cubre los conceptos básicos de Elements, el software que impulsa Liquid.
+Bienvenido al Liquid Bootcamp, una formación completa diseñada para dotarte de los conocimientos y habilidades necesarios para aprovechar eficazmente la red Liquid y el proyecto Elements. Este curso profundiza en las características únicas de Liquid, como las transacciones confidenciales, la emisión de activos y su estructura de red federada, al tiempo que cubre los conceptos básicos de Elements, el software que impulsa Liquid.
 
 A lo largo del bootcamp, explorará las aplicaciones prácticas de Liquid Network, desde la configuración y el funcionamiento de nodos hasta la comprensión de su uso en los mercados de capitales de Bitcoin y la tokenización. Con presentaciones de expertos de la industria, también obtendrá información sobre temas avanzados como HTLC, el SDK de Breeze y el proyecto Blockstream AMP.
 
-Este bootcamp se realizó originalmente como un evento presencial, siguiendo un programa estructurado (como se muestra en la imagen) diseñado para sesiones en directo. Sin embargo, para esta adaptación del curso, el contenido se ha reorganizado para adaptarlo mejor a un formato en línea y facilitar la comprensión de los alumnos. El nuevo orden garantiza una progresión lógica desde los conceptos básicos hasta los temas más técnicos y avanzados, maximizando la experiencia de aprendizaje.
+Este bootcamp se realizó originalmente como un evento presencial, siguiendo un programa estructurado (como se muestra en la imagen) diseñado para sesiones en directo. Sin embargo, para esta adaptación del curso, el contenido se ha reorganizado para adaptarlo mejor a un formato on-line y facilitar la comprensión de los alumnos. El nuevo orden garantiza una progresión lógica desde los conceptos básicos hasta los temas más técnicos y avanzados, maximizando la experiencia de aprendizaje.
 
-Esta jornada está estructurada para dar cabida a participantes con distintos niveles de experiencia, ofreciendo una mezcla de conocimientos teóricos y experiencia práctica. Al final de este bootcamp, usted tendrá una sólida comprensión de la arquitectura de Liquid, su integración con Bitcoin, y cómo utilizar sus características innovadoras para construir y optimizar soluciones financieras.
+Esta jornada está estructurada para dar cabida a participantes con distintos niveles de experiencia, ofreciendo una mezcla de conocimientos teóricos y experiencia práctica. Al final de este bootcamp, tendrás una sólida comprensión de la arquitectura de Liquid, la integración con Bitcoin, y cómo utilizar sus características innovadoras para construir y optimizar soluciones financieras.
 
-¡Sumérgete en el universo de la sidechain Liquid y revela todo su potencial ahora mismo!
+¡Sumérgete en el universo de la sidechain Liquid y descubre todo su potencial!
+
 # Fundamentos
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
 
-## Arquitectura líquida
+## Arquitectura Liquid
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
 :::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
-Pablo presenta la arquitectura de la Red Líquida, haciendo hincapié en su papel como cadena lateral federada de Bitcoin. Se cubren características clave como las transacciones confidenciales, el modelo de federación y su función como sandbox para la innovación. Los participantes comprenderán cómo Liquid complementa a Bitcoin ofreciendo transacciones más rápidas y privadas.
+Pablo presenta la arquitectura de la Red Liquid, haciendo hincapié en su papel como cadena lateral federada de Bitcoin. Se cubren características clave como las transacciones confidenciales, el modelo de federación y su función como sandbox para la innovación. Los participantes comprenderán cómo Liquid complementa a Bitcoin ofreciendo transacciones más rápidas y privadas.
 
-## Fundamentos de los elementos
+## Fundamentos de Elements
 
 <chapterId>1e9cfbed-108e-4067-afb9-4cf950cb43d3</chapterId>
 
@@ -53,13 +54,13 @@ Pablo presenta la arquitectura de la Red Líquida, haciendo hincapié en su pape
 
 James presenta el software Elements y su integración con la red Liquid. Esta sesión incluye una guía práctica para ejecutar un nodo Liquid, configurar Elements localmente y gestionar transacciones mediante comandos CLI y RPC.
 
-## Conexión de las capas de Bitcoin
+## Conectando la capa de Bitcoin
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
 :::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
-Michael analiza cómo las tecnologías multicapa, incluyendo Liquid, Lightning y Bitcoin, mejoran la eficiencia y fiabilidad de las transacciones. Los temas clave incluyen HTLC para transacciones seguras entre capas y funciones avanzadas de scripting que optimizan el ecosistema Bitcoin.
+Michael analiza cómo las tecnologías multilayer, incluyendo Liquid, Lightning y Bitcoin, mejoran la eficiencia y fiabilidad de las transacciones. Los temas clave incluyen HTLC para transacciones seguras entre capas (layers) y funciones avanzadas de scripting que optimizan el ecosistema Bitcoin.
 
 ## Visión general de la red Liquid
 
@@ -83,7 +84,7 @@ Chase destaca el ecosistema de Liquid y sus aplicaciones en los mercados de capi
 
 :::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
 
-Nardo ofrece una visión general de Blockstream AMP, una plataforma para gestionar activos digitales en Liquid. Explora la arquitectura de AMP, su capacidad para controlar las transferencias de activos y sus aplicaciones prácticas para desarrolladores. También se destacan los retos y las futuras mejoras de AMP.
+Nardo ofrece una visión general de Blockstream AMP (asset management platform), una plataforma para gestionar activos digitales en Liquid. Explora la arquitectura de AMP, su capacidad para controlar las transferencias de activos y sus aplicaciones prácticas para desarrolladores. También se destacan los retos y las futuras mejoras de AMP.
 
 # Técnico
 
@@ -97,7 +98,7 @@ Nardo ofrece una visión general de Blockstream AMP, una plataforma para gestion
 
 :::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
-Antonio presenta Breeze, un SDK de código abierto diseñado para transacciones descentralizadas en la red Liquid. Explica sus características, incluida la compatibilidad con enlaces multilingües y procesos de transacción seguros, al tiempo que hace hincapié en su objetivo de simplificar la tecnología financiera para los desarrolladores
+Antonio presenta Breeze, un SDK (software development kit) de código abierto diseñado para transacciones descentralizadas en la red Liquid. Explica sus características, incluida la compatibilidad con enlaces multilingües y procesos de transacción seguros, al tiempo que hace hincapié en su objetivo de simplificar la tecnología financiera para los desarrolladores
 
 # Sección final
 

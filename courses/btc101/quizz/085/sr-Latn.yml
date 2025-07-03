@@ -1,13 +1,13 @@
-question: Šta je Hot Wallet?
-answer: A Bitcoin Wallet na vašem telefonu ili računaru povezanom na internet.
+question: Šta je Hot Wallet (vrući novčanik)?
+answer: Bitkoin novčanik na vašem telefonu ili računaru povezanom na internet.
 wrong_answers:
-  - Wallet koji je fizički Hot na dodir.
-  - Wallet koji je popularan među korisnicima Bitcoin.
-  - Wallet koji se preporučuje za čuvanje velike količine bitkoina.
+  - Novčanik koji je fizički Hot (vruć) na dodir.
+  - Novčanik koji je popularan među korisnicima Bitkoina.
+  - Novčanik koji se preporučuje za čuvanje velike količine bitkoina.
 explanation: |
-  Hot Wallet je termin koji se koristi za opisivanje Bitcoin Wallet
+  Hot Wallet (vrući novčanik) je termin koji se koristi za opisivanje Bitkoin novčanika
   koji je uskladišten na uređaju sa pristupom internetu, kao što je
   telefon ili računar. Na ovaj način, lako je obavljati
-  transakcije, ali to takođe znači da je Wallet
+  transakcije, ali to takođe znači da je novčanik
   potencijalno ranjiv na online pretnje.
 reviewed: true

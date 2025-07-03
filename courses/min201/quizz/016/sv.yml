@@ -1,0 +1,13 @@
+question: Vilken roll har Bitcoin-gruvbrytare i energivärlden?
+answer: Bitcoin-gruvbrytare söker ständigt efter källor till billig elektricitet, ofta sådana som är bortkastade eller outnyttjade. De kan fungera som en flexibel efterfrågekälla, redo att förbruka denna övergivna el och på så sätt bidra till att kompensera för infrastrukturkostnader.
+wrong_answers:
+  - Bitcoin-gruvbrytare söker ständigt efter källor till förnybar energi för att minska sitt koldioxidavtryck.
+  - Bitcoin-gruvbrytare söker ständigt efter kärnkraftskällor för att driva sina Mining-verksamheter, eftersom detta är det enda rena och förnybara sättet att producera energi.
+  - Bitcoin-gruvarbetare söker ständigt efter källor till solenergi för att driva sina Mining-verksamheter.
+explanation: |
+  Kapitlet förklarar att Bitcoin gruvarbetare ständigt söker
+  söker källor till billig elektricitet, ofta sådana som är
+  slösas bort eller är outnyttjade. De kan fungera som en flexibel efterfrågekälla
+  efterfrågekälla, redo att konsumera denna föräldralösa el, och därmed
+  hjälpa till att kompensera för infrastrukturkostnader.
+reviewed: true

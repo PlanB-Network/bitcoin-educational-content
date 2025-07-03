@@ -58,7 +58,6 @@ Bereit, die Welt des Bitcoin-Minings zu entdecken und die praktische Herausforde
 
 <chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
-:::video id=1f60c1c6-726e-4ac5-bf1d-9655e7b1ba39:::
 
 ### Mining erklärt: Die Puzzle-Analogie
 
@@ -103,7 +102,6 @@ Zusammenfassend lässt sich sagen, dass sich die Bitcoin-Mining-Industrie weiter
 
 <chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
-:::video id=2635c965-8d2a-42e2-83df-517bcea25c86:::
 
 ### Mining-Pools
 
@@ -155,7 +153,6 @@ Die allgemeine Schlussfolgerung ist, dass die Dezentralisierung für die Sicherh
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-:::video id=8a16aa8a-1434-4d3a-8435-dabc62d00efa:::
 
 ### Das Prinzip von Attakai
 
@@ -163,7 +160,6 @@ Im aktuellen Kontext mag das Bitcoin-Mining mit S9 komplex erscheinen, doch eine
 
 Die Initiative Attakai entstand aus einem persönlichen Experiment des Home-Minings, das von zwei Freunden durchgeführt wurde, die aktiv am Bitcoin-Netzwerk teilnehmen wollten. Sie stießen auf große Hindernisse, wie den hohen Geräuschpegel der Mining-Ausrüstung, die für industrielle und nicht für häusliche Nutzung konzipiert war. Um dieses Problem zu lösen, wurden Hardware-Modifikationen an den Mining-Maschinen vorgenommen. Leistungsfähigere und leisere Ventilatoren ersetzten die Originalausrüstung, wodurch das Mining zu Hause zugänglicher und weniger störend wurde. Darüber hinaus machte die Hinzufügung eines Wi-Fi-Adapters eine Ethernet-Kabelverbindung überflüssig, was den Mining-Prozess zu Hause weiter vereinfachte. Im Winter wurden diese modifizierten Miner als Heizquelle genutzt, was eine Belästigung in einen Vorteil verwandelte.
 
-Nachdem sie ihr Projekt der Bitcoin-Community vorgestellt und großes Interesse geweckt hatten, entschieden sich die Erfinder von Attakai, detaillierte Anleitungen auf der Plattform Découvre Bitcoin zu veröffentlichen, sodass jeder ihre Erfahrungen mit dem Home-Mining nachbilden konnte. Sie planen nun, dieses Konzept über den häuslichen Rahmen hinaus zu erweitern. Das Ziel ist zu demonstrieren, wie ein modifizierter Miner in eine leise Zusatzheizung für den Winter umgewandelt werden kann, was einen sanften Übergang zu einem zweiten Ausbildungsteil bietet, der sich der praktischen Umsetzung dieser Modifikationen widmet, illustriert durch Erklärvideos. Es bleibt jedoch die Frage, ob diese Initiative auf eine größere Skala ausgedehnt werden kann, um eine realistische und nachhaltige Alternative zu den aktuellen zentralisierten Mining-Strukturen zu bieten.
 
 ![image](assets/en/07.webp)
 
@@ -194,7 +190,6 @@ Die Spekulation um die zukünftige Nutzung des Blockraums ist weit verbreitet, d
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 Die Rolle der Miner im Bitcoin-Netzwerk war ein intensiv diskutiertes Thema während des Blockkriegs. Obwohl sie für die Sicherheit und Funktionalität des Netzwerks unerlässlich sind, halten die Miner nicht notwendigerweise die ultimative Macht im Bitcoin-Ökosystem. Das Gleichgewicht zwischen den Minern, den Knoten und den Endbenutzern gewährleistet die Integrität und Verteilung des Netzwerks.
 
@@ -233,7 +228,6 @@ Zusammenfassend stärken die Miner das Bitcoin-Netzwerk gegen Zensur, indem sie 
 ## Bitcoin-Preis und Hashrate, eine Korrelation?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
-:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, Preis und Rentabilität
 
@@ -294,13 +288,6 @@ Angesichts von Kampagnen wie denen von Greenpeace und den oft irreführenden Zah
 
 Zusammenfassend lässt sich sagen, dass trotz des regulatorischen Risikos und der Möglichkeit eines Mining-Verbots in Europa, die mächtigste Waffe die Bildung und Information bleibt. Ein klares und präzises Verständnis des Minings, seiner Funktionsweise und seiner Auswirkungen kann dazu beitragen, die Industrie zu entmystifizieren und gegen Desinformation anzukämpfen, und bietet so eine bessere Widerstandsfähigkeit gegen potenziell schädliche Regulierungen. Die Initiative, Menschen über das Mining zu informieren und zu bilden, wie es diese Diskussion tut, ist ein Schritt in die richtige Richtung, um die Nachhaltigkeit und das Wachstum des Minings in Europa und weltweit zu gewährleisten. Kontinuierliche Bemühungen, zu erziehen und zu informieren, sind entscheidend, um eine sichere und florierende Zukunft für die Bitcoin-Mining-Industrie zu sichern.
 
-## Interview mit einem Fachmann aus der Mining-Industrie
-
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
-
-### Hinter den Kulissen des industriellen Minings - Sebastien Gouspillou
-
-:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Home-Mining und Wärmerückgewinnung
 

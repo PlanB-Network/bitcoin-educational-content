@@ -19,7 +19,7 @@ In return, certain fees apply:
 - If cash is needed to receive via Lightning, 1% of the amount is charged;
 - Each channel costs 1000 sats to open.
 
-In my opinion, Phoenix represents an excellent intermediate solution between custodial Lightning portfolios and the manual management of a Lightning node. This application is equally suited to beginners and advanced users who prefer not to deal with the details of managing their own LND or Core Lightning. Let's find out how to use it!
+In my opinion, Phoenix represents an excellent intermediate solution between custodial Lightning wallets and the manual management of a Lightning node. This application is equally suited to beginners and advanced users who prefer not to deal with the details of managing their own LND or Core Lightning. Let's find out how to use it!
 
 ![Image](assets/fr/01.webp)
 
@@ -57,7 +57,7 @@ Before we get started, we need to save our 12-word mnemonic phrase. This phrase 
 
 The 12-word phrase restores access to your bitcoins in the event of loss, theft or breakage of your phone. It is therefore very important to save it carefully and store it in a safe place.
 
-You can write it on paper or, for added security, engrave it on stainless steel to protect it from fire, flood or collapse. The choice of medium for your mnemonic will depend on your security strategy, but if you're using Phoenix as a spending portfolio containing moderate amounts, paper should be sufficient.
+You can write it on paper or, for added security, engrave it on stainless steel to protect it from fire, flood or collapse. The choice of medium for your mnemonic will depend on your security strategy, but if you're using Phoenix as a spending wallet containing moderate amounts, paper should be sufficient.
 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
@@ -117,11 +117,11 @@ Click on the "*Receive*" button.
 
 ![Image](assets/fr/18.webp)
 
-Swipe the QR code to the right to reveal a Bitcoin receiving address. Send it the amount you wish to deposit with Phoenix.
+Swipe the QR code to the left to reveal a Bitcoin receiving address. Send the amount you wish to deposit into Phoenix to that address.
 
 ![Image](assets/fr/19.webp)
 
-The amount received on-chain will first appear as pending under your portfolio balance. It will take 3 confirmations before the funds are available for use.
+The amount received on-chain will first appear as pending under your wallet balance. It will take 3 confirmations before the funds are available for use.
 
 ![Image](assets/fr/20.webp)
 

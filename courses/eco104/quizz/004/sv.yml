@@ -1,0 +1,11 @@
+question: Vad är ett skäl till att fiatvaluta leder till centraliserad kontroll?
+answer: Det gör det möjligt för regeringar att kontrollera penningmängden Supply och räntorna.
+wrong_answers:
+  - Den backas upp av fysiska råvaror som guld och silver.
+  - Den är motståndskraftig mot inflation.
+  - Det uppmuntrar till decentraliserade finansiella system.
+explanation: |
+  Fiatvaluta ger regeringar makten att kontrollera penningmängden Supply och
+  och räntor, vilket gör att de kan påverka den ekonomiska aktiviteten och
+  vilket leder till centraliserad kontroll.
+reviewed: true

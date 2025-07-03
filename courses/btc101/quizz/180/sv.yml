@@ -1,0 +1,8 @@
+question: Vilken är en faktor som gör det svårt för finansiella myndigheter att reglera Bitcoin?
+answer: Den verkar på global nivå, 24 timmar om dygnet, 7 dagar i veckan.
+wrong_answers:
+  - Den styrs av en central myndighet.
+  - Det används inte någonstans i världen.
+  - Den är lätt att förfalska.
+explanation: >-
+reviewed: true

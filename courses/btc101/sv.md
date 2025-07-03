@@ -74,6 +74,7 @@ Det är viktigt att förstå att Bitcoin är ett nytt monetärt system som helt 
 
 **Avsnitt 6 - Framtiden för Bitcoin: Lightning Network**
 
+
     Kapitel 20 - En Kort Introduktion till Lightning Network
     Kapitel 21 - Användningsfall för Lightning Network
     Kapitel 22 - Röd Piller eller Blå Piller?
@@ -390,48 +391,27 @@ Skapandet av nya bitcoins är resultatet av mining-processen. I ett nötskal anv
 Efter att framgångsrikt ha utfört denna uppgift belönas miners med skapandet av nya bitcoins var tionde minut. Denna belöning är programmerad att halveras var 210 000:e block, vilket är ungefär vart fjärde år (en händelse som kallas "halvering"), vilket ger kurvan av det monetära skapandet en trappliknande form. På grund av denna mekanism kan det matematiskt förutsägas att skapandet av nya bitcoins kommer att upphöra omkring år 2140, när det totala antalet når sin gräns på 21 miljoner.
 
 | Halveringsnummer | Blockhöjd | BTC-belöning efter halvering | Beräknad BTC i omlopp efter halvering |
-
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 210.000 25 BTC 10.500.000 BTC
-
-| 2 420.000 12,5 BTC 15.750.000 BTC
-
-| 3 | 630.000 | 6,25 BTC | 18.375.000 BTC
-
-| 4 | 840.000 | 3,125 BTC | 19.687.500 BTC | 4 | 840.000 | 3,125 BTC | 19.687.500 BTC
-
-| 5 | 1.050.000 | 1,5625 BTC | 20.343.750 BTC | 5
-
-6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC | 6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC
-
-| 7 1.470.000 0,390625 BTC 20.835.937,5 BTC
-
-| 8 | 1.680.000 | 0,1953125 BTC | 20.917.968,75 BTC | 1.680.000 | 0,1953125 BTC
-
-| 9 | 1 890 000 | 0,09765625 BTC | 20 958 984,375 BTC
-
-| 10 | 2 100 000 | 0,048828125 BTC | 20 979 492,188 BTC | 10
-
-| 11 | 2.310.000 | 0,0244140625 BTC | 20.989.746,094 BTC
-
-| 12 | 2 520 000 | 0,01220703125 BTC | 20 994 873,047 BTC
-
-| 13 2.730.000 0,006103515625 BTC 20.997.436,523 BTC
-
-| 14 | 2.940.000 | 0,0030517578125 BTC | 20.998.718,262 BTC
-
-| 15 3.150.000 0,00152587890625 BTC 20.999.359,131 BTC
-
-| 16 | 3 360 000 | 0,000762939453125 BTC | 20 999 679,566 BTC
-
-| 17 3.570.000 0,0003814697265625 BTC 20.999.839,783 BTC
-
-| 18 3.780.000 0,00019073486328125 BTC 20.999.919,892 BTC
-
-| 19 | 3 990 000 | 0,000095367431640625 BTC | 20 999 959,946 BTC | 20 999 959,946 BTC
-
-| 20 | 4 200 000 | 0,0000476837158203125 BTC | 20 999 979,973 BTC | 20 999 979,973 BTC
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Vi kommer att återkomma till begreppet mining i mer detalj i [miner-kapitlet] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
@@ -584,7 +564,7 @@ Här nedan kommer vi att definiera flera säkerhetsnivåer:
 
 Du kan till exempel använda Sparrow Wallet som en varm plånbok:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Nivå 2**, du använder en fysisk digital plånbok och du har säkrat din lista med 12/24 ord. Det kallas ofta för "kall plånbok" eftersom dina nycklar lagras på en enhet som inte är ansluten till internet. I det här fallet måste du alltid signera varje transaktion med din enhet, vilket gör dina pengar mindre tillgängliga på daglig basis.
 
@@ -1084,7 +1064,9 @@ Idag fortsätter Bitcoin att överleva och växa ännu mer genom att integreras 
 
 Bitcoin kan ses som ett verktyg för att skapa en parallell ekonomi till fiatvalutor, eftersom det är möjligt att sälja varor eller tjänster och få betalt i bitcoin. Transaktioner kan göras direkt i Bitcoin, utan att behöva gå via en växlingsplattform, utan helt enkelt gå från en Bitcoin-plånbok till en annan.
 
-Bitcoin-ekonomin finns och utvecklas i vissa regioner i världen, som i El Salvador, där Bitcoin har varit ett lagligt betalningsmedel sedan 2021. Runt omkring oss finns det vissa individer, företag och organisationer som redan accepterar Bitcoin som betalningsmedel för sina produkter eller tjänster.
+Bitcoin-ekonomin existerar och utvecklas i vissa regioner av världen, som i El Salvador, där Bitcoin blev ett lagligt betalningsmedel 2021. Tyvärr, i januari 2025, antog församlingen en ny lag som berövade Bitcoin titeln "lagligt betalningsmedel", påstått efter att ha mottagit press från Internationella valutafonden. Enligt den nya lagen är människor inte längre skyldiga att acceptera Bitcoin i sina företag och kan inte längre betala skatter med det. Acceptans förblir frivillig.
+
+Trots detta finns det i El Salvador och i andra delar av världen allt fler individer, företag och organisationer som accepterar Bitcoin som betalningsmedel för sina produkter eller tjänster.
 
 ![image](assets/en/72.webp)
 
@@ -1107,11 +1089,11 @@ Vi kommer att behandla detta ämne i detalj i en annan kurs, men för att hålla
 
 - Enkel lösning online: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lösning för amatörhandlare: Schweiziska Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lösning för stora strukturer eller passionerade bitcoiners: BTCpay Server
 

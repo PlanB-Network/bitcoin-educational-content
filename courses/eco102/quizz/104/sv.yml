@@ -1,0 +1,9 @@
+question: Vilken kritik har Bastiat mot statliga ingripanden som går utöver säkerhet och rättvisa?
+answer: Det främjar privilegier och skadar det civila samhället
+wrong_answers:
+  - Det möjliggör en bättre fördelning av ekonomiska resurser
+  - Den skapar social fred och begränsar konflikter
+  - Den garanterar en rättvis fördelning av rikedomar
+explanation: |
+  Bastiat anser att överdriven statlig inblandning skapar privilegier och skadar civilsamhället genom att begränsa privata initiativ.
+reviewed: false

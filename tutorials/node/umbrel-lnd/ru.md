@@ -57,7 +57,7 @@ Lightning Network - это второй протокол Layer, предназн
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 В этом курсе вы получите основательную подготовку по фундаментальным концепциям Lightning Network, а затем перейдете к практике работы с узлом LND.
 

@@ -1,0 +1,8 @@
+question: Vilken är den övergripande trenden för Bitcoin, med tanke på dess begränsade Supply och Halving-processen?
+answer: En allmän uppåtgående trend.
+wrong_answers:
+  - En allmän nedåtgående trend.
+  - Ingen trend alls.
+  - En trend som fluktuerar kraftigt utan något urskiljbart mönster.
+explanation: >-
+reviewed: true

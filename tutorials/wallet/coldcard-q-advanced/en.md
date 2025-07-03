@@ -152,7 +152,7 @@ The "*Add If Wrong*" option, available in the "*Trick PIN*" menu, lets you confi
 
 ### Scramble Keys
 
-The Scramble Keys option allows you to scramble the digits displayed on your keypad buttons when entering your PIN code. This feature protects the confidentiality of your PIN code, even in the event of surveillance by people or cameras.
+The Scramble Keys option allows you to scramble the digits displayed on your keypad buttons when entering your PIN code. This feature protects the privacy of your PIN code, even in the event of surveillance by people or cameras.
 
 To activate this option, access the menu `Settings > Login Settings > Scramble Keys`.
 

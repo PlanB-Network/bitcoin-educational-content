@@ -1,5 +1,5 @@
 ---
-term: PETIR ELEKTRIK
+term: ELECTRUM LIGHTNING
 
 ---
-Implementasi Lightning Network yang ditulis dalam bahasa Python khusus untuk perangkat lunak Electrum.
+Implementasi Jarigan Lightning yang ditulis dalam bahasa Python khusus untuk perangkat lunak Electrum.

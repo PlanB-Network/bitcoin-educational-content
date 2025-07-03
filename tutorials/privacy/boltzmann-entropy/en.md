@@ -53,7 +53,7 @@ In the specific context of chain analysis, entropy is also the name of an indica
 
 When a transaction presents a high number of possible combinations, it is often more relevant to refer to its entropy. This indicator allows measuring the lack of knowledge of analysts about the exact configuration of the transaction. In other words, the higher the entropy, the more difficult the task of identifying bitcoin movements between inputs and outputs becomes for analysts.
 
-In practice, entropy reveals whether, from the perspective of an external observer, a transaction presents multiple possible interpretations, based solely on the amounts of inputs and outputs, without considering other external or internal patterns and heuristics. High entropy is then synonymous with better confidentiality for the transaction.
+In practice, entropy reveals whether, from the perspective of an external observer, a transaction presents multiple possible interpretations, based solely on the amounts of inputs and outputs, without considering other external or internal patterns and heuristics. High entropy is then synonymous with better privacy for the transaction.
 
 Entropy is defined as the binary logarithm of the number of possible combinations. Here is the formula used:
 ```plaintext
@@ -159,7 +159,7 @@ Taking the example of a Whirlpool coinjoin again, the table of conditional proba
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
-Here, we can clearly see that each input has an equal chance of being associated with any output, which enhances the confidentiality of the transaction.
+Here, we can clearly see that each input has an equal chance of being associated with any output, which enhances the privacy of the transaction.
 Calculating the Boltzmann score involves dividing the number of interpretations in which a certain event occurs by the total number of available interpretations. Thus, to determine the score associating input No. 0 with output No. 3 (`512` interpretations), the following procedure is used:
 ```plaintext
 Interpretations (IN.0 > OUT.3) = 512
@@ -190,7 +190,7 @@ Here, it is observed that the probability for each output to originate from inpu
 
 ### Deterministic Links:
 The sixth piece of information provided is the number of deterministic links, complemented by the ratio of these links. This indicator reveals how many connections between the inputs and outputs in the analyzed transaction are indisputable, with a probability of `100%`. The ratio, on the other hand, offers a perspective on the weight of these deterministic links within the entire set of transaction links.
-For example, a Whirlpool-type coinjoin transaction has no deterministic links, and therefore displays an indicator and a ratio of `0%`. Conversely, in our second simple transaction examined (with one input and two outputs), the indicator is set at `2` and the ratio reaches `100%`. Thus, a null indicator signals excellent confidentiality due to the absence of direct and indisputable links between inputs and outputs.
+For example, a Whirlpool-type coinjoin transaction has no deterministic links, and therefore displays an indicator and a ratio of `0%`. Conversely, in our second simple transaction examined (with one input and two outputs), the indicator is set at `2` and the ratio reaches `100%`. Thus, a null indicator signals excellent privacy due to the absence of direct and indisputable links between inputs and outputs.
 
 **External Resources:**
 

@@ -1,0 +1,9 @@
+question: Vilket av dessa svar är inte en av de tre största riskerna för den användare som genomgår kundkännedom?
+answer: Icke-förgänglighet av köpta bitcoins
+wrong_answers:
+  - Utsatthet för statlig övervakning
+  - Underlättande av spårning på kedjan
+  - Risken för dataläckage
+explanation: |
+  Kundkännedom innebär en risk för dataläckage eftersom din information lagras, en risk för exponering för statlig övervakning eftersom din information kan överföras eller beslagtas, och en risk för spårning, eftersom kundkännedom kan fungera som en ingångspunkt. KYC minskar dock inte fungibiliteten hos köpta bitcoins.
+reviewed: false

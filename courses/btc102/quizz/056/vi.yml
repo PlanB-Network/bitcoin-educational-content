@@ -1,0 +1,9 @@
+question: Phương pháp nào được sử dụng để bảo vệ khả năng truy xuất nguồn gốc giao dịch On-Chain?
+answer: Sử dụng kỹ thuật CoinJoin và PayJoin
+wrong_answers:
+  - Tái sử dụng cùng một Address nhận
+  - Thường xuyên hợp nhất UTXO
+  - Gửi vào tài khoản lưu ký Wallet
+explanation: |
+  Coinjoin và payjoin giúp cải thiện tính riêng tư của hoạt động On-Chain.
+reviewed: false

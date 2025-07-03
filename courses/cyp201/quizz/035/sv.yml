@@ -1,0 +1,9 @@
+question: Vilken Bitcoin-standard introducerar hierarkiska deterministiska plånböcker?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 definierar driften av HD-plånböcker, vilket möjliggör hierarkisk härledning av privata nycklar från en seed.
+reviewed: false

@@ -1,6 +1,6 @@
 ---
 name: Sparrow Wallet - Multisig
-description: Create a multi-signature portfolio on Sparrow
+description: Create a multi-signature wallet on Sparrow
 ---
 ![cover](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Create a multi-signature portfolio on Sparrow
 A multi-signature wallet (often called "*Multisig*") is a Bitcoin wallet structure that requires several cryptographic signatures, from different keys, to authorize an expenditure. Unlike a conventional ("*singlesig*") wallet, where a single private key is sufficient to unlock a UTXO, the Multisig is based on an **m-of-n** model: of the _n_ keys associated with the wallet, _m_ must imperatively co-sign each transaction.
 
 
-This mechanism enables control of a portfolio to be shared between several entities or devices. For example, in a 2-of-3 configuration, three independent sets of keys are generated, but only two are needed to release funds. This architecture drastically reduces the risks associated with the compromise or loss of a key: a thief with access to just one key cannot empty the wallet, and a user who loses one can still access his funds with the remaining two.
+This mechanism enables control of a wallet to be shared between several entities or devices. For example, in a 2-of-3 configuration, three independent sets of keys are generated, but only two are needed to release funds. This architecture drastically reduces the risks associated with the compromise or loss of a key: a thief with access to just one key cannot empty the wallet, and a user who loses one can still access his funds with the remaining two.
 
 
 ![Image](assets/fr/01.webp)
@@ -17,7 +17,7 @@ This mechanism enables control of a portfolio to be shared between several entit
 However, this greater security comes with greater complexity. Setting up a Multisig wallet requires securing several mnemonic phrases (one per signature factor) and extended public keys ("*xpub*"). Indeed, if you're using a Multisig 2-of-3 wallet, to retrieve the wallet you must either have all three mnemonic phrases, or at least two of the three phrases. But if you only have two of the three phrases, you also need access to the three *xpubs*, without which it will be impossible to retrieve the public keys needed to access the bitcoins they protect.
 
 
-To summarize, to recover a Multisig portfolio, you must :
+To summarize, to recover a Multisig wallet, you must :
 
 
 - Or access all the mnemonic phrases associated with each signature factor;
@@ -27,13 +27,13 @@ To summarize, to recover a Multisig portfolio, you must :
 ![Image](assets/fr/02.webp)
 
 
-This management of Multisig portfolio backups is facilitated by *Output Script Descriptors*, which group together all the public data required to access the funds. However, this functionality is not yet implemented in all portfolio management software.
+This management of Multisig wallet backups is facilitated by *Output Script Descriptors*, which group together all the public data required to access the funds. However, this functionality is not yet implemented in all wallet management software.
 
 
 Multisig is particularly suited to bitcoiners looking for enhanced security or collective management of funds: companies, associations, families, or individual users holding a significant amount of bitcoins. It can be used to create decentralized governance schemes, for example, to distribute signing authority among several managers or team members.
 
 
-In this tutorial, we'll learn how to create and use a classic multisignature wallet with **Sparrow Wallet**. If you'd like to create a customized multisignature portfolio with timelocks, I recommend using Liana instead:
+In this tutorial, we'll learn how to create and use a classic multisignature wallet with **Sparrow Wallet**. If you'd like to create a customized multisignature wallet with timelocks, I recommend using Liana instead:
 
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
@@ -41,7 +41,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 ## Prerequisites
 
 
-For this tutorial, I'm going to show you how to make a Multisig with [Sparrow Wallet portfolio management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
+For this tutorial, I'm going to show you how to make a Multisig with [Sparrow Wallet wallet management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
@@ -84,7 +84,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 As we'll see later in this tutorial, it's also possible to integrate into your Multisig configuration a factor which is not associated with a Hardware Wallet, but whose private keys are stored on your PC. This method is obviously less secure than the exclusive use of hardware wallets, but it may be relevant in certain cases. For example, for a Multisig 2-de-3, you could opt for two hardware wallets and one Software Wallet.
 
 
-## Creating a Multisig portfolio
+## Creating a Multisig wallet
 
 
 Open Sparrow Wallet, click on the "*File*" tab, then select "*New Wallet*".
@@ -93,7 +93,7 @@ Open Sparrow Wallet, click on the "*File*" tab, then select "*New Wallet*".
 ![Image](assets/fr/04.webp)
 
 
-Assign a name to your multisignature portfolio, then click on "*Create Wallet*" to confirm.
+Assign a name to your multisignature wallet, then click on "*Create Wallet*" to confirm.
 
 
 ![Image](assets/fr/05.webp)
@@ -111,7 +111,7 @@ In the top right-hand corner, you can now define the total number of keys in you
 ![Image](assets/fr/07.webp)
 
 
-At the bottom of the window, Sparrow Wallet displays three "*Keystore*". Each represents a set of keys. Here, I'm using three hardware portfolios, so each "*Keystore*" corresponds to one of them. We'll now configure them.
+At the bottom of the window, Sparrow Wallet displays three "*Keystore*". Each represents a set of keys. Here, I'm using three hardware wallets, so each "*Keystore*" corresponds to one of them. We'll now configure them.
 
 
 I start with the Coldcard. In the "*Keystore 1*" tab, I choose the "*Airgapped Hardware Wallet*" option.
@@ -126,7 +126,7 @@ On the Coldcard, once the device is unlocked, I go to the "*Settings*" menu, the
 ![Image](assets/fr/09.webp)
 
 
-This menu lets you manage the multisig portfolios in which the Coldcard participates. I want to create a new one, so I select "*Export XPUB*".
+This menu lets you manage the multisig wallets in which the Coldcard participates. I want to create a new one, so I select "*Export XPUB*".
 
 
 ![Image](assets/fr/10.webp)
@@ -168,7 +168,7 @@ Then click on the "*Scan...*" button.
 ![Image](assets/fr/16.webp)
 
 
-Next to the name of your hardware portfolio, click on "*Import Keystore*".
+Next to the name of your hardware wallet, click on "*Import Keystore*".
 
 
 ![Image](assets/fr/17.webp)
@@ -204,13 +204,13 @@ Remember to save this password in a safe place, such as a password manager, to a
 ![Image](assets/fr/21.webp)
 
 
-## Backing up a Multisig portfolio
+## Backing up a Multisig wallet
 
 
 We're now going to save our *Output Script Descriptor* on the Coldcard (this only applies to users with a Coldcard in their Multisig), and above all, we're going to keep a backup of it on an independent medium.
 
 
-The *Descriptor* contains all the xpubs in your Multisig portfolio, as well as the derivation paths used to generate the keys. Remember what we saw in Part 1: to restore a Multisig portfolio, you must either have **all** the mnemonic phrases, or only the minimum number required to reach the signature threshold. However, in the latter case, it is also essential to have **the xpubs** of the missing signatories. The *Descriptor* contains all your Multisig's xpubs.
+The *Descriptor* contains all the xpubs in your Multisig wallet, as well as the derivation paths used to generate the keys. Remember what we saw in Part 1: to restore a Multisig wallet, you must either have **all** the mnemonic phrases, or only the minimum number required to reach the signature threshold. However, in the latter case, it is also essential to have **the xpubs** of the missing signatories. The *Descriptor* contains all your Multisig's xpubs.
 
 
 If this isn't clear, just remember this: to retrieve a Multisig, you need the minimum number of mnemonic phrases for each Hardware Wallet used, depending on the threshold (in my case: 2 phrases), as well as the *Descriptor*.
@@ -219,10 +219,10 @@ If this isn't clear, just remember this: to retrieve a Multisig, you need the mi
 This *Descriptor* contains no private keys, only public ones. This means that it does not give access to the funds. It is therefore not as critical as mnemonic phrases, which give full access to your bitcoins. The risk with the *Descriptor* is solely related to confidentiality: in the event of compromise, a third party could observe all your transactions, but could not spend your funds.
 
 
-I strongly recommend that you create several copies of this *Descriptor*, and keep them with each signing device on your Multisig. For example, in my case, I print the *Descriptor* on paper and keep one copy with the Coldcard, another with the Trezor, and one with the Ledger. I also save this *Descriptor* as a PDF file on three USB sticks, each stored with one of the hardware portfolios. In this way, I maximize my chances of never losing this *Descriptor*, and I'm sure of having two copies (one physical and one digital) with each device.
+I strongly recommend that you create several copies of this *Descriptor*, and keep them with each signing device on your Multisig. For example, in my case, I print the *Descriptor* on paper and keep one copy with the Coldcard, another with the Trezor, and one with the Ledger. I also save this *Descriptor* as a PDF file on three USB sticks, each stored with one of the hardware wallets. In this way, I maximize my chances of never losing this *Descriptor*, and I'm sure of having two copies (one physical and one digital) with each device.
 
 
-Once your Multisig portfolio has been created, Sparrow automatically provides you with this *Descriptor*. Click on the "*Save PDF...*" button to save it both as text and as a QR code.
+Once your Multisig wallet has been created, Sparrow automatically provides you with this *Descriptor*. Click on the "*Save PDF...*" button to save it both as text and as a QR code.
 
 
 ![Image](assets/fr/22.webp)
@@ -448,7 +448,7 @@ Press the screen to sign.
 ![Image](assets/fr/52.webp)
 
 
-Sparrow now has the two signatures needed to release the funds from the Multisig portfolio. Check the transaction one last time, and if all goes well, click on "*Broadcast Transaction*" to broadcast it over the network.
+Sparrow now has the two signatures needed to release the funds from the Multisig wallet. Check the transaction one last time, and if all goes well, click on "*Broadcast Transaction*" to broadcast it over the network.
 
 
 ![Image](assets/fr/53.webp)

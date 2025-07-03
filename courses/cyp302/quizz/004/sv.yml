@@ -1,0 +1,9 @@
+question: Vad är den främsta anledningen till att de andra Beale-chiffren förblir ochiffrerade?
+answer: Nyckeln till dessa chiffer är fortfarande okänd
+wrong_answers:
+  - De krypterade texterna är för gamla
+  - Lådan försvann innan den kunde dechiffreras
+  - Forskare saknar tillförlitliga historiska dokument
+explanation: |
+  De andra Beale-chiffren har aldrig dechiffrerats eftersom den nödvändiga nyckeln för att läsa dem fortfarande är okänd, trots många försök.
+reviewed: false

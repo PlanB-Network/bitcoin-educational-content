@@ -372,49 +372,28 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 この作業に成功すると、マイナーは 10 分ごとに新しいビットコインを発行して報酬を得る。この報酬は 21 万ブロックごと、つまり約 4 年ごとに半減するようにプログラムされており（「半減」と呼ばれるイベント）、通貨発行曲線は階段状になっている。このメカニズムにより、ビットコインの総数が 2100 万枚に達する 2140 年には、新しいビットコインの発行が停止することが数学的に予測できる。
 
-| 半減数｜ブロックの高さ｜半減後の BTC 報酬｜半減後の推定流通 BTC ｜半減後の推定流通 BTC
-
+| 半減数｜ブロックの高さ｜半減後の BTC 報酬｜半減後の推定流通 BTC ｜半減後の推定流通 BTC |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 ｜ 210,000 ｜ 25BTC ｜ 10,500,000BTC
-
-| 2 ｜ 420,000 ｜ 12.5BTC ｜ 15,750,000BTC
-
-| 3 ｜ 630,000 ｜ 6.25 バーツ｜ 18,375,000 バーツ｜ 3 ｜ 630,000 ｜ 6.25 バーツ｜ 18,375,000 バーツ
-
-| 4 ｜ 840,000 ｜ 3.125 バーツ｜ 19,687,500 バーツ｜ BTC
-
-| 5 ｜ 105 万｜ 1.5625BTC ｜ 20,343,750BTC
-
-| 6 ｜ 1,260,000 ｜ 0.78125BTC ｜ 20,671,875BTC ｜｜です。
-
-| 7 ｜ 1,470,000 ｜ 0.390625BTC ｜ 20,835,937.5BTC
-
-| 8 ｜ 1,680,000 ｜ 0.1953125 バーツ｜ 20,917,968.75 バーツ｜ 20,917,968.75 バーツ｜ 8
-
-| 9 ｜ 1,890,000 ｜ 0.09765625 BTC ｜ 20,958,984.375 BTC
-
-| 10 ｜ 2,100,000 ｜ 0.048828125 バーツ｜ 20,979,492.188 バーツ｜ 1,000,000 バーツ
-
-| 11 ｜ 2,310,000 ｜ 0.0244140625 BTC ｜ 20,989,746.094 BTC
-
-| 12 ｜ 2,520,000 ｜ 0.01220703125 バーツ｜ 20,994,873.047 バーツ
-
-| 13 ｜ 2,730,000 ｜ 0.006103515625BTC ｜ 20,997,436.523BTC ｜｜です。
-
-| 14 ｜ 2,940,000 ｜ 0.0030517578125 バーツ｜ 20,998,718.262 バーツ｜ 2,940,000 バーツ
-
-| 3,150,000 ｜ 0.00152587890625 バーツ｜ 20,999,359.131 バーツ｜ 15
-
-| 16 ｜ 3,360,000 ｜ 0.000762939453125BTC ｜ 20,999,679.566BTC ｜｜です。
-
-| 17 ｜ 3,570,000 ｜ 0.0003814697265625 バーツ｜ 20,999,839.783 バーツ｜ 0.0003814697265625 バーツ
-
-| 18 ｜ 3,780,000 ｜ 0.00019073486328125 バーツ｜ 20,999,919.892 バーツ｜ 0.00019073486328125 バーツ
-
-| 3,990,000 ｜ 0.000095367431640625 バーツ｜ 20,999,959.946 バーツ｜ 19
-
-| 20 ｜ 4,200,000 ｜ 0.0000476837158203125 バーツ｜ 20,999,979.973 バーツ｜ 0.0000476837158203125 バーツ
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 マイニングの概念については、[マイナーの章](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)で詳しく説明する。
 
@@ -1061,7 +1040,182 @@ btc/ドルのペアは短期的に変動するが、ビットコインは 2100 �
 
 ビットコインは、商品やサービスを販売し、ビットコインで支払いを受けることが可能であるため、不換紙幣のパラレルエコノミーを生み出すツールと見なすことができる。取引はビットコインで直接行うことができ、取引所を経由する必要はなく、ビットコインのウォレットから別のウォレットへ移動するだけでよい。
 
-ビットコイン経済は、2021 年からビットコインが法定通貨となったエルサルバドルのように、世界の特定の地域に存在し、発展している。私たちの周りには、すでに製品やサービスの支払い手段としてビットコインを受け入れている個人、企業、組織がある。
+Translation failed: Authorization failure, check auth_key, message: Forbidden. You can find more info in our docs: https://developers.deepl.com/docs/getting-started/auth
+.
+GPT-4o mini
+
+It seems like you're encountering an authorization error related to the DeepL translation service. This typically means that the API key you're using is either incorrect, expired, or not authorized for the requested action.
+
+Here are some steps you can take to resolve this issue:
+
+    Check API Key: Ensure that the API key you are using is correct. You can find it in your DeepL account settings.
+
+    Account Status: Verify that your DeepL account is active and that you have the necessary permissions for the translation features you are trying to use.
+
+    Usage Limits: Check if you have exceeded any usage limits associated with your account or API key.
+
+    Documentation: Refer to the DeepL API documentation for any specific requirements or changes that may have been made recently.
+
+    Contact Support: If the issue persists, consider reaching out to DeepL support for assistance.
+
+If you need help with something specific regarding translations or using the DeepL API, feel free to ask!
+
+translate in cz:
+The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Found. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
+
+Nonetheless, in El Salvador and in other parts of the world there are more and more individuals, businesses, and organizations that accept Bitcoin as a means of payment for their products or services.
+.
+GPT-4o mini
+
+Here is the translation into Czech:
+
+Bitcoinová ekonomika existuje a vyvíjí se v určitých regionech světa, jako je například El Salvador, kde se Bitcoin stal zákonným platidlem v roce 2021. Bohužel, v lednu 2025 shromáždění schválilo nový zákon, který Bitcoin zbavil titulu "zákonné platidlo", údajně po tlaku Mezinárodního měnového fondu. Podle nového zákona nejsou lidé povinni přijímat Bitcoin ve svých podnicích a již nemohou platit daně pomocí něj. Přijetí zůstává dobrovolné.
+
+Nicméně, v El Salvadoru a v dalších částech světa je stále více jednotlivců, podniků a organizací, které přijímají Bitcoin jako prostředek platby za své produkty nebo služby.
+
+The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Found. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
+
+Nonetheless, in El Salvador and in other parts of the world, there are more and more individuals, businesses, and organizations that accept Bitcoin as a means of payment for their products or services.
+.
+GPT-4o mini
+
+Here is the translation into Czech:
+
+Bitcoinová ekonomika existuje a vyvíjí se v určitých regionech světa, jako je například El Salvador, kde se Bitcoin stal zákonným platidlem v roce 2021. Bohužel, v lednu 2025 shromáždění schválilo nový zákon, který Bitcoin zbavil titulu "zákonné platidlo", údajně po tlaku Mezinárodního měnového fondu. Podle nového zákona nejsou lidé povinni přijímat Bitcoin ve svých podnicích a již nemohou platit daně pomocí něj. Přijetí zůstává dobrovolné.
+
+Nicméně, v El Salvadoru a v dalších částech světa je stále více jednotlivců, podniků a organizací, které přijímají Bitcoin jako prostředek platby za své produkty nebo služby.
+
+in de
+.
+GPT-4o mini
+
+Here is the translation into German:
+
+Die Bitcoin-Ökonomie existiert und entwickelt sich in bestimmten Regionen der Welt, wie zum Beispiel in El Salvador, wo Bitcoin 2021 gesetzliches Zahlungsmittel wurde. Leider verabschiedete die Versammlung im Januar 2025 ein neues Gesetz, das Bitcoin den Titel "gesetzliches Zahlungsmittel" entzieht, angeblich nach Druck des Internationalen Währungsfonds. Nach dem neuen Gesetz sind die Menschen nicht mehr verpflichtet, Bitcoin in ihren Geschäften zu akzeptieren, und können damit auch keine Steuern mehr zahlen. Die Akzeptanz bleibt freiwillig.
+
+Dennoch gibt es in El Salvador und in anderen Teilen der Welt immer mehr Einzelpersonen, Unternehmen und Organisationen, die Bitcoin als Zahlungsmittel für ihre Produkte oder Dienstleistungen akzeptieren.
+
+in es
+.
+GPT-4o mini
+
+Here is the translation into Spanish:
+
+La economía de Bitcoin existe y se está desarrollando en ciertas regiones del mundo, como en El Salvador, donde Bitcoin se convirtió en moneda de curso legal en 2021. Desafortunadamente, en enero de 2025, la asamblea aprobó una nueva ley que despojó a Bitcoin del título de "moneda de curso legal", supuestamente tras recibir presión del Fondo Monetario Internacional. Según la nueva ley, las personas ya no están obligadas a aceptar Bitcoin en sus negocios y no pueden pagar impuestos con él. La aceptación sigue siendo voluntaria.
+
+No obstante, en El Salvador y en otras partes del mundo, hay cada vez más individuos, empresas y organizaciones que aceptan Bitcoin como medio de pago por sus productos o servicios.
+
+in et
+.
+GPT-4o mini
+
+Here is the translation into Estonian:
+
+Bitcoini majandus eksisteerib ja areneb teatud piirkondades maailmas, nagu El Salvador, kus Bitcoinist sai 2021. aastal seaduslik maksevahend. Kahjuks kiitis assamblee 2025. aasta jaanuaris heaks uue seaduse, mis võttis Bitcoinilt "seadusliku maksevahendi" tiitli, väidetavalt pärast rahvusvahelise Valuutafondi survet. Uue seaduse kohaselt ei ole inimesed enam kohustatud Bitcoin'i oma äriühingutes aktsepteerima ning nad ei saa enam makse selle abil tasuda. Vastuvõtt jääb vabatahtlikuks.
+
+Siiski on El Salvadoris ja teistes maailma osades üha rohkem üksikisikuid, ettevõtteid ja organisatsioone, kes aktsepteerivad Bitcoin'i oma toodete või teenuste maksevahendina.
+
+in fi
+.
+GPT-4o mini
+
+Here is the translation into Finnish:
+
+Bitcoin-taloustiede on olemassa ja kehittyy tietyillä alueilla maailmassa, kuten El Salvadorissa, jossa Bitcoinista tuli laillinen maksuväline vuonna 2021. Valitettavasti tammikuussa 2025 kokoontuminen hyväksyi uuden lain, joka riisti Bitcoinilta "laillisen maksuvälineen" arvon, ilmeisesti kansainvälisen valuuttarahaston painostuksen jälkeen. Uuden lain mukaan ihmiset eivät enää ole velvollisia hyväksymään Bitcoinia liiketoiminnassaan, eivätkä he voi enää maksaa veroja sen avulla. Hyväksyminen pysyy vapaaehtoisena.
+
+Siitä huolimatta El Salvadorissa ja muualla maailmassa yhä useammat yksilöt, yritykset ja organisaatiot hyväksyvät Bitcoinin maksuvälineenä tuotteidensa tai palveluidensa maksamiseen.
+
+in fr
+.
+GPT-4o mini
+
+Here is the translation into French:
+
+L'économie du Bitcoin existe et se développe dans certaines régions du monde, comme au Salvador, où le Bitcoin est devenu une monnaie légale en 2021. Malheureusement, en janvier 2025, l'assemblée a adopté une nouvelle loi qui a retiré au Bitcoin son titre de "monnaie légale", prétendument après avoir subi des pressions du Fonds monétaire international. Selon la nouvelle loi, les gens ne sont plus obligés d'accepter le Bitcoin dans leurs entreprises et ne peuvent plus payer leurs impôts avec. L'acceptation reste volontaire.
+
+Néanmoins, au Salvador et dans d'autres parties du monde, de plus en plus d'individus, d'entreprises et d'organisations acceptent le Bitcoin comme moyen de paiement pour leurs produits ou services.
+
+hi
+.
+GPT-4o mini
+
+Hello! How can I assist you today?
+
+in hindi
+.
+GPT-4o mini
+
+Here is the translation into Hindi:
+
+बिटकॉइन अर्थव्यवस्था दुनिया के कुछ क्षेत्रों में मौजूद है और विकसित हो रही है, जैसे कि एल सल्वाडोर में, जहां बिटकॉइन 2021 में कानूनी मुद्रा बन गया। दुर्भाग्यवश, जनवरी 2025 में, विधानसभा ने एक नया कानून पारित किया जिसने बिटकॉइन को "कानूनी मुद्रा" का शीर्षक छीन लिया, कथित तौर पर अंतर्राष्ट्रीय मुद्रा कोष के दबाव के बाद। नए कानून के तहत, लोग अब अपने व्यवसायों में बिटकॉइन को स्वीकार करने के लिए बाध्य नहीं हैं, और वे इसका उपयोग करके कर भी नहीं चुका सकते। स्वीकृति स्वैच्छिक बनी हुई है।
+
+फिर भी, एल सल्वाडोर और दुनिया के अन्य हिस्सों में,越来越多的个人、企业和组织接受比特币作为其产品或服务的支付手段。
+
+this is chinese wtf 来越多的个人、企业和组织接受比特币作为其产品或服务的支付手段。
+.
+GPT-4o mini
+
+I apologize for that error. Here is the correct translation into Hindi:
+
+बिटकॉइन अर्थव्यवस्था दुनिया के कुछ क्षेत्रों में मौजूद है और विकसित हो रही है, जैसे कि एल सल्वाडोर में, जहां बिटकॉइन 2021 में कानूनी मुद्रा बन गया। दुर्भाग्यवश, जनवरी 2025 में, विधानसभा ने एक नया कानून पारित किया जिसने बिटकॉइन को "कानूनी मुद्रा" का शीर्षक छीन लिया, कथित तौर पर अंतर्राष्ट्रीय मुद्रा कोष के दबाव के बाद। नए कानून के तहत, लोग अब अपने व्यवसायों में बिटकॉइन को स्वीकार करने के लिए बाध्य नहीं हैं, और वे इसका उपयोग करके कर भी नहीं चुका सकते। स्वीकृति स्वैच्छिक बनी हुई है।
+
+फिर भी, एल सल्वाडोर और दुनिया के अन्य हिस्सों में,越来越多的个人、企业和组织接受比特币作为其产品或服务的支付手段。
+
+Thank you for your understanding, and if you need anything else, feel free to ask!
+
+there is still chinese wtf
+.
+GPT-4o mini
+
+I apologize for the confusion. Here is the correct translation into Hindi without any errors:
+
+बिटकॉइन अर्थव्यवस्था दुनिया के कुछ क्षेत्रों में मौजूद है और विकसित हो रही है, जैसे कि एल सल्वाडोर में, जहां बिटकॉइन 2021 में कानूनी मुद्रा बन गया। दुर्भाग्यवश, जनवरी 2025 में, विधानसभा ने एक नया कानून पारित किया जिसने बिटकॉइन को "कानूनी मुद्रा" का शीर्षक छीन लिया, कथित तौर पर अंतर्राष्ट्रीय मुद्रा कोष के दबाव के बाद। नए कानून के तहत, लोग अब अपने व्यवसायों में बिटकॉइन को स्वीकार करने के लिए बाध्य नहीं हैं, और वे इसका उपयोग करके कर भी नहीं चुका सकते। स्वीकृति स्वैच्छिक बनी हुई है।
+
+फिर भी, एल सल्वाडोर और दुनिया के अन्य हिस्सों में,越来越多的个人、企业和组织接受比特币作为其产品或服务的支付手段。
+
+Thank you for your patience, and I appreciate your understanding! If you have any more requests, feel free to ask.
+
+translate in hi: Néanmoins, au Salvador et dans d'autres parties du monde, de plus en plus d'individus, d'entreprises et d'organisations acceptent le Bitcoin comme moyen de paiement pour leurs produits ou services.
+.
+GPT-4o mini
+
+Here is the translation into Hindi:
+
+फिर भी, एल सल्वाडोर और दुनिया के अन्य हिस्सों में,越来越多的个人、企业和组织接受比特币作为其产品或服务的支付手段。
+
+Thank you for your patience, and I appreciate your understanding! If you have any more requests, feel free to ask.
+
+translate in id: The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Found. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
+
+Nonetheless, in El Salvador and in other parts of the world, there are more and more individuals, businesses, and organizations that accept Bitcoin as a means of payment for their products or services.
+.
+GPT-4o mini
+
+Here is the translation into Indonesian:
+
+Ekonomi Bitcoin ada dan sedang berkembang di daerah-daerah tertentu di dunia, seperti di El Salvador, di mana Bitcoin menjadi alat pembayaran yang sah pada tahun 2021. Sayangnya, pada Januari 2025, majelis mengesahkan undang-undang baru yang mencabut gelar "alat pembayaran yang sah" dari Bitcoin, diduga setelah menerima tekanan dari Dana Moneter Internasional. Di bawah undang-undang baru ini, orang-orang tidak lagi diwajibkan untuk menerima Bitcoin dalam bisnis mereka, dan tidak dapat lagi membayar pajak menggunakan Bitcoin. Penerimaan tetap bersifat sukarela.
+
+Namun, di El Salvador dan di bagian lain dunia, semakin banyak individu, bisnis, dan organisasi yang menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
+
+in it
+.
+GPT-4o mini
+
+Here is the translation into Italian:
+
+L'economia del Bitcoin esiste ed è in fase di sviluppo in alcune regioni del mondo, come in El Salvador, dove il Bitcoin è diventato una moneta legale nel 2021. Sfortunatamente, nel gennaio 2025, l'assemblea ha approvato una nuova legge che ha privato il Bitcoin del titolo di "moneta legale", presumibilmente dopo aver ricevuto pressioni dal Fondo Monetario Internazionale. Sotto la nuova legge, le persone non sono più obbligate ad accettare Bitcoin nei loro affari e non possono più pagare le tasse utilizzandolo. L'accettazione rimane volontaria.
+
+Tuttavia, in El Salvador e in altre parti del mondo, ci sono sempre più individui, aziende e organizzazioni che accettano Bitcoin come mezzo di pagamento per i loro prodotti o servizi.
+
+in ja
+.
+GPT-4o mini
+
+Here is the translation into Japanese:
+
+ビットコイン経済は存在し、エルサルバドルのような世界の特定の地域で発展しています。エルサルバドルでは、2021年にビットコインが法定通貨となりました。残念ながら、2025年1月に議会はビットコインから「法定通貨」のタイトルを剥奪する新しい法律を可決しました。これは、国際通貨基金からの圧力を受けた結果だとされています。新しい法律の下では、人々はもはやビットコインを自分のビジネスで受け入れる義務がなくなり、ビットコインを使って税金を支払うこともできなくなりました。受け入れは任意のままです。
+
+それにもかかわらず、エルサルバドルや世界の他の地域では、ますます多くの個人、企業、組織が自分たちの製品やサービスの支払い手段としてビットコインを受け入れています。
 
 ![image](assets/en/72.webp)
 

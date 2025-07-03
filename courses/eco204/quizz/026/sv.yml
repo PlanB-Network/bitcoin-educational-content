@@ -1,0 +1,12 @@
+question: Vilken roll hade världsbankerna under perioder av hyperinflation i Zimbabwe och Weimarrepubliken?
+answer: De utgjorde en tillflyktsort för dem som ville skydda sina tillgångar från devalvering.
+wrong_answers:
+  - De tryckte nya sedlar för att översvämma marknaden.
+  - De reglerade Exchange-kursen för den nationella valutan.
+  - De gav lån till regeringen.
+explanation: |
+  I situationer med hyperinflation eller monetär kris tenderar parallella och oreglerade
+  tenderar parallella och oreglerade marknader för utländska valutor att växa fram. Dessa informella banker, ofta
+  kallas världsbanker eller andra lokala namn, utgör en tillflyktsort för dem som
+  för dem som vill skydda sina tillgångar från devalvering.
+reviewed: false

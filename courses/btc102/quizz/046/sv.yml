@@ -1,0 +1,9 @@
+question: Vilket verktyg gör att du kan övervaka din Wallet utan att avslöja dina privata nycklar?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Blixt Wallet
+  - Förvaring Wallet
+explanation: |
+  En Watch-only wallet använder endast publika nycklar för att visa saldon och transaktioner, utan att riskera att exponera privata nycklar.
+reviewed: false

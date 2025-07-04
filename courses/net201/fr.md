@@ -83,26 +83,26 @@ Un réseau au sens étymologique représente un ensemble de points entrelacés p
 
 On dit d’un réseau que sa topologie est en anneau, lorsque toutes les stations, ou les équipements, sont connectés en chaine les uns aux autres par une liaison bipoint de la dernière à la première. Chaque poste joue le rôle de station intermédiaire. Toute trame émise depuis une station est réémise vers la suivante. La défaillance d’un hôte rompt la chaîne.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/reseau-en-anneau.jpg)
+![Image](assets/fr/001.webp)
 
 
 ### Réseau en arbre
 
 On parle aussi de réseau hiérarchique, car l’architecture est divisée en niveaux. Le sommet représente la racine ou le sommet et est connecté à plusieurs nœuds du niveau inférieur. Ces nœuds peuvent également être connectés à un ou plusieurs nœuds du niveau inférieur… Le tout forme un arbre. Là encore, si le père des équipements (le sommet de l’arbre), vient à défaillir, cela interdit toute communication avec ses subordonnés.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/reseau-en-arbre.jpg)
+![Image](assets/fr/002.webp)
 
 ### Réseau en bus
 
 Le câblage ici s’effectue via une liaison unique des unités. Cela représente un faible coût de déploiement et la défaillance d’un nœud, n’empêche pas les autres de fonctionner. Les équipements peuvent être reliés de façon passive par dérivation électrique ou optique. Le point faible, dans ce cas, est le support (ou média) de transfert. Lorsque celui-ci tombe en panne, c’est tout le réseau qui s’arrête.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/reseau-en-bus.jpg)
+![Image](assets/fr/003.webp)
 
 ### Réseau en étoile
 
 Ce genre d’architecture est également appelé "_hub & spoke_". C’est la topologie la plus courante. Elle permet une gestion et un dépannage très facile. La panne d’un nœud ne perturbe absolument par le réseau global. En revanche, le concentrateur (aussi appelé hub ou plus fréquemment appelé commutateur), qui relie tous les nœuds entre eux, constitue un point unique de défaillance. Une panne de cet équipement rend le réseau totalement inutilisable. Le réseau Ethernet est un très bon exemple de réseau en étoile. Il faut toujours veiller, par contre à la longueur des câbles utilisés.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/reseau-en-etoile.jpg)
+![Image](assets/fr/004.webp)
 
 
 **REMARQUE** : on trouve encore dans certains cas une topologie de réseau linéaire. Son énorme avantage est son faible coût de déploiement, mais la défaillance d’un nœud provoque la scission du réseau en deux sous-réseaux distincts.
@@ -111,7 +111,7 @@ Ce genre d’architecture est également appelé "_hub & spoke_". C’est la to
 
 Cela correspond à plusieurs liaisons point à point où chaque unité est reliée à N-1 point permettant ainsi de la mettre en relation avec l’ensemble des autres équipements. L’inconvénient de cette architecture est le nombre de liaisons nécessaires qui croient lorsque le nombre de points augmente : pour `N` terminaux, il faut `N x (N-1) / 2` liaisons. Ce genre de topologie se rencontre dans les grands réseaux de distribution, comme Internet.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/reseau-maill%C3%A9.jpg)
+![Image](assets/fr/005.webp)
 
 Il existe évidemment un certain nombre d’autres topologies, comme le réseau en grille ou le réseau en hyper cube. En fait, Internet est le nom donné à l’interconnexion de nombreux réseaux ayant des topologies différentes. L’unification se fait au niveau de l’adressage IP (qu’il s’agisse de IPv4 ou IPv6) et d’un très grand nombre de règles et de protocoles définis par l’IETF. Ainsi, aucun des cas de topologies mentionnés ci-dessus ne correspond. Comme la majorité des grands réseaux, on dit d’Internet que sa topologie est quelconque et indépendante du plan d’adressage qui y est défini.
 
@@ -144,7 +144,7 @@ La pile TCP/IP est le plus souvent représentée sous forme d’un empilement de
 - Couche TRANSPORT  
 - Couche APPLICATION
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/modele-osi.jpg)
+![Image](assets/fr/006.webp)
 
 L’actuelle version du protocole IP est IPv4. Mais, le futur s’appuiera probablement sur IPv6, qui reste compatible avec la version actuelle et propose un adressage, sur 128 bits, permettant alors d’étendre les capacités réseau, en matière de taille et d’adressage.
 
@@ -158,7 +158,7 @@ L’entête du paquet IP contient plusieurs champs avec un rôle précis lors de
 
 **REMARQUE** : c’est l’IANA (_Internet Assigned Numbers Authority_), un organisme d’autorité et de régulation de l’Internet, qui attribue un nombre (parmi les 24 valeurs possibles), pour chaque nouvelle version de protocole d’interconnexion. Si l’on consulte le tableau des versions actuelles on découvre ceci :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/ipv5.png)
+![Image](assets/fr/007.webp)
 
 Ainsi, la version IPv5 a bien existé et s’apparente à un protocole ST (_Stream Protocol_) plus spécifiquement orienté **Qualité de Service** (ou QoS). Il s’agit d’un protocole expérimental, ayant vu le jour dans les années 80. Seuls, quelques équipements réseau géraient ce protocole. Il s’agissait de garantir de bout-en-bout, une qualité de service, très similaire à ce que fait RSVP (_Resource Reservation Protocol_) sur les routeurs actuels.
 
@@ -190,7 +190,7 @@ La taille maximum d’une trame est appelée MTU (_Maximum Transfer Unit_) et en
 
 La fragmentation d’un datagramme s’effectue au niveau des équipements de routage, c’est-à-dire lors de la transition des datagrammes, d’un réseau dont le MTU est important à un réseau dont le MTU est plus réduit. Donc, lorsqu’un datagramme est trop grand pour passer en un seul morceau sur le réseau considéré, le routeur va le fragmenter (ou plus prosaïquement, le découper), en fragments de taille inférieure au MTU dudit réseau et de façon à ce que la taille du fragment soit un multiple de 8 octets :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/mtu.jpg)
+![Image](assets/fr/008.webp)
 
 L’équipement réseau peut ensuite envoyer ces fragments de façon autonome et les encapsuler (c’est-à-dire, ajouter un entête à chacun des fragments), pour tenir compte de la nouvelle taille du fragment (une sorte de ré étiquetage). Le routeur en profite également pour ajouter des informations à l’intention de la machine destinatrice afin qu’elle puisse réassembler les morceaux dans le bon ordre.
 
@@ -202,7 +202,7 @@ Afin de tenir compte des transformations et de la fragmentation, chaque datagram
 
 Ainsi, lors d’une transmission, les données traversent chaque couche du modèle TCP/IP de la machine émettrice et à chacune d’elles, une nouvelle information, appelée entête, est ajoutée au paquet de données. Il s’agit d’un ensemble de d’informations garantissant la transmission. Au niveau de la machine réceptrice, l’information transite alors par chacune des couches du modèle, l’entête est lue, puis supprimée. Ainsi, à la réception, le message se présente dans son état originel :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/transmission-tcp-ip.png)
+![Image](assets/fr/009.webp)
 
 A chaque niveau, le paquet se transforme, puisqu’on lui ajoute de nouveaux entêtes dont les appellations changent au fil des couches :
 
@@ -211,11 +211,11 @@ A chaque niveau, le paquet se transforme, puisqu’on lui ajoute de nouveaux ent
 - Le segment une fois encapsulé s’apparente à un **datagramme**.  
 - Pour finir, au niveau Accès, on parle de **trame**.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/protocole-ip-1.png)
+![Image](assets/fr/010.webp)
 
 Au final, si l’on prend l’exemple d’une transmission d’un paquet depuis un client, à destination d’un serveur, on peut représenter le flux binaire et d’encapsulation de la façon suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/transmission-d-un-paquet-730x251.jpg)
+![Image](assets/fr/011.webp)
 
 ### Adressage IP
 
@@ -228,7 +228,7 @@ En fait, cette adresse comporte elle-même deux parties :
 
 Suivant les cas de figure, il existe quatre ou cinq classes d’adresses, notifiée par les lettres A à E :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/classe-adresse-ip.png)
+![Image](assets/fr/012.webp)
 
 IMPORTANT : il existe, comme on peut le constater, des catégories (ou des tranches) d’adresses qui ne peuvent en aucun cas être exploitées. En particulier, dans la classe C, il n’est possible d’avoir que 254 machines. Or, l’identifiant de la machine est codé sur 8 bits (soient 256 valeurs possibles). Les deux absents représentent respectivement :
 
@@ -237,7 +237,7 @@ IMPORTANT : il existe, comme on peut le constater, des catégories (ou des tranc
 
 REMARQUE : en fonction de la classe d’adresse considérée, le nombre maximum de sous-réseaux (et donc, de machines ou d’adresses délivrées) varie :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/netid-hostid-730x259.jpg)
+![Image](assets/fr/013.webp)
 
 De plus, au sein de chaque classe d’adresses, certaines ne peuvent être routées sur Internet et sont alors réservées aux réseaux locaux (ou aux réseaux privés). C’est d’ailleurs pour cela qu’on les appelle des adresses privées :
 
@@ -274,17 +274,17 @@ La règle d’or, en matière de communication réseau, consiste à n’établir
 
 **Étape 3** : Il faut ensuite écrire le masque en binaire, en plaçant tous les bits du masque de réseau (ici de classe C), à 1 et en positionnant les n premiers bits du masque, correspondant à la partie machine, à 0 (d’après l’exemple n=6) :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/ipv4-bits.png)
+![Image](assets/fr/014.webp)
 
 **Étape 4** : on peut alors convertir ce masque en décimal, soit 255.255.255.192 et calculer l’ensemble des sous-réseaux possible (en faisant varier les "y" derniers bits du masque correspondant alors à la partie machine soit, d’après l’exemple :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/ipv4-convertir-masque.png)
+![Image](assets/fr/015.webp)
 
 **Étape 5** : au final, on obtient quatre sous-réseaux de 62 machines (soient un total de 248 machines), auxquelles on peut ajouter les 2x4 adresses réservées afin de disposer de 256 adresses potentielles.
 
 Ce genre d’opération revient, en fait, à subdiviser le bloc "HostId", au sein de l’entête d’adresse en deux champs HostId et SubnetId :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/hostid-subnetid.png)
+![Image](assets/fr/016.webp)
 
 ### Adressage CIDR
 
@@ -300,7 +300,7 @@ Un bloc se définit par son préfixe séparé par le symbole "/" et suivi du nom
 
 Pour information voici, les quatre premières lignes du tableau de correspondance CIDR d’attribution des adresses :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/ip-cidr.png)
+![Image](assets/fr/017.webp)
 
 **NOTE** : le sous-réseau zéro était considéré comme un sous-réseau non standard, par le RFC 950, bien qu'utilisable. La pratique de réserver le sous-réseau 0 et le sous réseau 1 est cependant considéré comme obsolète, depuis le RFC 1878. Il s'agit du premier sous-réseau d'un réseau.
 
@@ -327,11 +327,11 @@ Ainsi, le protocole TCP assure le transfert des données de façon fiable, bie
 
 En fait, TCP possède un système d’accusé de réception permettant au client et au serveur de s’assurer de la bonne réception mutuelle des données (un peu comme on le fait pour la réception d’un colis postal). Lors de l’émission d’un segment, un numéro d’ordre (aussi appelé numéro de séquence), lui est associé. De même, à réception d’un segment de données, la machine réceptrice retourne un segment d’information dont le drapeau (aussi appelé **flag**) est positionné à 1. Cela signifie qu’il s’agit d’un accusé de réception. Ce flag est accompagné d’un numéro d’accusé de réception prenant alors la valeur du numéro d’ordre précédent :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-ack.png)
+![Image](assets/fr/018.webp)
 
 Après quoi, grâce à une minuterie déclenchée dès la réception d’un segment, au niveau de l’émetteur, le segment est réexpédié dès lors que le délai imparti est écoulé. En effet, dans ce cas, le protocole considère que le segment est perdu :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-ack-02.png)
+![Image](assets/fr/019.webp)
 
 **REMARQUE** : mais, si le segment n’était pas perdu et qu’il arrive malgré tout à destination, le récepteur saura, grâce au numéro d’ordre qu’il s’agit d’un doublon et ne conservera alors que le dernier segment arrivé à destination.
 
@@ -355,7 +355,7 @@ Ce dialogue établi, permet d’initier la communication et se déroule (comme l
 
 - Enfin, le client transmet au serveur, un accusé de réception (avec le flag ACK à 1 et celui de SYN à 0 – car il ne s’agit plus d’un segment de synchronisation). Le numéro d’ordre S, récupéré du serveur est alors incrémenté de 1, à son tour :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-syn.png)
+![Image](assets/fr/020.webp)
 
 À la suite de ce premier échange, entre deux machines, comportant trois séquences, les deux protagonistes sont alors synchronisés et la communication effective peut commencer. Des petits malins ont alors trouvé un moyen de détourner ce mécanisme et en ont fait un outil de piratage appelé IP Spoofing. En fait, cela permet de corrompre la relation d’approbation établie, à des fins malicieuses.
 
@@ -365,7 +365,7 @@ Ce système, appelé "méthode de la fenêtre glissante", définit une fourchett
 
 **Exemple** : après une ouverture de communication, le n° de séquence est 3 et autorise jusqu’à la séquence 5 :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-communication.png)
+![Image](assets/fr/021.webp)
 
 **IMPORTANT** : la taille de cette fenêtre glissante n’est pas fixe. Ainsi, le serveur peut inclure (toujours dans le champ "fenêtre", la taille de la fenêtre qui lui semble la plus adaptée. De la sorte, en cas d’accusé de réception indiquant une demande d’augmentation de la taille de la fenêtre, le client peut déplacer celle-ci vers la droite. Mais, en cas de réduction, le client attend que la fenêtre se déplace d’elle-même.
 
@@ -377,7 +377,7 @@ En ce qui concerne la fin d’une connexion, le protocole prévoit que le client
 
 **Ainsi, l’association des deux protocoles TCP et IP permettent d’acheminer les messages de bout-en-bout.** On a très souvent l’habitude de schématiser l’utilisation de ces protocoles par le schéma suivant, démontrant la rapidité du premier protocole (IP avec remise en "best effort") et la rigueur de l’autre (TCP avec remise négociée) :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/difference-tcp-vs-ip.jpg)
+![Image](assets/fr/022.webp)
 
 Lorsque l’on souhaite privilégier la rapidité par rapport à la sécurité de transmission, il est possible d’utiliser le protocole UDP, orienté sans connexion, plutôt que TCP.
 
@@ -395,11 +395,11 @@ Chaque couche est construite sur la précédente et chaque réseau ne peut utili
 
 **- Aspect vertical (couche N vers couche N+1 (ou inversement)) :**
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-services-01-730x381.jpg)
+![Image](assets/fr/023.webp)
 
 **- Aspect horizontal : (client vers serveur ou réciproquement) :**
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-services-02-730x303.jpg)
+![Image](assets/fr/024.webp)
 
 **IMPORTANT** : Les structures de données d’une couche sont conçues de manière à garantir une parfaite compatibilité avec les structures utilisées par les autres couches et ce, pour assurer une transmission plus efficiente.
 
@@ -407,13 +407,13 @@ Chaque couche est construite sur la précédente et chaque réseau ne peut utili
 
 Selon la couche et le protocole (TCP ou UDP) utilisés, on adaptera les notions à traiter en se basant sur les termes fixés par le schéma ci-dessous :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-vs-udp.png)
+![Image](assets/fr/025.webp)
 
 Aussi, en matière d’échanges d’information, les couches intermédiaires communiquent entre elles grâce à des primitives de service écoutant sur des ports spécifiques réservés. Si les échanges réseau se font grâce aux protocoles, les interactions entre les couches se font, quant à elles, par le biais des services et de leurs primitives.
 
 Si on cumule l’aspect horizontal avec l’aspect vertical, on devrait avoir la représentation suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/tcp-echange-informations.png)
+![Image](assets/fr/026.webp)
 
 ### Synthèse de la partie
 
@@ -442,7 +442,7 @@ Il existe des adresses IP de version 4 (sur 32bits, c’est-à-dire sur 4 octets
 
 _Exemple : adresse 172.16.254.1_
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/decomposition-ipv4.png)
+![Image](assets/fr/027.webp)
 
 Ainsi, l’adresse IP est attribuée à chaque interface réseau de tout matériel informatique : qu’il s’agisse d’un routeur, d’un commutateur, d’un serveur ou d’un portable… connecté à un réseau adossé au protocole de communication IP, entre ses différents nœuds.
 
@@ -453,9 +453,9 @@ L’expression des octets d’une adresse IP au format binaire, peut facilement 
 
 **Le bit de poids faible représente la valeur décimale 1 et le bit de poids fort se voit affecté la valeur 128**. Ainsi, il ne reste plus qu’à calculer la valeur décimale en partant du tableau suivant :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/binaire-to-decimal.png)
+![Image](assets/fr/028.webp)
 
-Si l’on reprend l’exemple précédent (en supposant que l’on ne connaisse pas l’adresse IP et que l’on ne dispose que de la valeur binaire), on devrait alors convertir :![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/conversion-ipv4.png)
+Si l’on reprend l’exemple précédent (en supposant que l’on ne connaisse pas l’adresse IP et que l’on ne dispose que de la valeur binaire), on devrait alors convertir :![Image](assets/fr/029.webp)
 
 Cette adresse peut être assignée individuellement (par l’administrateur du réseau local, au sein d’un sous-réseau correspondant), soit automatiquement, grâce au protocole DHCP qui distribue les adresses, selon une plage prédéfinie. Si l’équipement dispose de plusieurs interfaces, chacune va alors se voir attribuer une adresse IP spécifique. Enfin, une interface peut également avoir plusieurs adresses IP.
 
@@ -465,7 +465,7 @@ Chaque paquet transmis par le protocole IP, contient l’adresse IP de l’émet
 
 **RAPPEL** : La première chose à faire, pour manipuler des adresses IP, est d’identifier la classe d’adresses utilisées :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/classe-ipv4-masque.png)
+![Image](assets/fr/030.webp)
 
 Deux adresses particulières ne peuvent jamais être attribuées :
 
@@ -522,7 +522,7 @@ Ce système permet, entre autres de convertir des adresses IP en nom de domaine 
 
 Un DNS peut être représenté sous forme d’un arbre. Une zone est une partie d’un domaine, gérée par un serveur particulier. Chaque zone peut ainsi gérer un ou plusieurs sous-domaines, chacun d’eux pouvant être répartis sur plusieurs zones. On eut dire qu’une zone représente l’unité d’administration dont une personne peut être responsable :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/dns-tld-730x449.jpg)
+![Image](assets/fr/031.webp)
 
 On peut ainsi spécifier un domaine, mais également une machine en particulier, puisque son nom est alors déclaré dans la base du DNS. L’annuaire DNS a été conçu pour palier aux limites des fichiers de déclaration d’hôtes (/etc/hosts sous [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")).
 
@@ -583,11 +583,11 @@ Interface : 192.168.1.5  --- 0x5
 
 - Adresse MAC :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/composition-adresse-mac.png)
+![Image](assets/fr/032.webp)
 
 - Adresse IP :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/composition-adresse-ip.png)
+![Image](assets/fr/033.webp)
 
 Mais, au sein des infrastructures réseau d’entreprise, l’une ne va pas sans l’autre, puisque les deux identifie un élément dudit réseau. L’adresse MAC est utile pour les requêtes du protocole DHCP : la machine réclamant une adresse IP au serveur DHCP, communique par le biais de son adresse MAC avec ce serveur.
 
@@ -621,7 +621,7 @@ Lorsque la table de routage est constituée par l’administrateur on parle alor
 
 **La table de routage, quant à elle, n’est rien d’autre qu’une table de correspondance entre l’adresse de la machine destinatrice et le nœud suivant auquel le routeur doit délivrer le message.** En fait, il suffit que celui-ci soit délivré sur le réseau contenant la machine cible, pour ne pas avoir à stocker l’adresse IP complète, mais uniquement l’identifiant du réseau (Hostid de l’adresse IP). On peut représenter la table de routage de la façon suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/table-de-routage.png)
+![Image](assets/fr/034.webp)
 
 Ainsi, grâce à ce tableau, le routeur, connaissant l’adresse du destinataire encapsulée dans le message, va pouvoir savoir sur quelle interface réseau le datagramme doit être remis ainsi que le routeur directement accessible pour faire suivre l’information.
 
@@ -643,7 +643,7 @@ Le fonctionnement du NAT consiste à utiliser une seule adresse IP routable (ou 
 
 **Ce processus permet de sécuriser le réseau interne, puisqu’il masque totalement l’adressage interne. Vu d’un observateur extérieur au réseau, toutes les requêtes semblent provenir de la même adresse IP.**
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/principe-du-nat.jpg)
+![Image](assets/fr/035.webp)
 
 ### Types de translation
 
@@ -672,7 +672,7 @@ Le remplacement inverse est effectué lorsqu’une trame correspondant à cette 
 
 _Exemple : table NAT simplifiée_
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/table-nat-simplifiee.png)
+![Image](assets/fr/036.webp)
 
 Dans cet exemple, si aucun trafic ni aucune translation n’est apparu depuis 3600 secondes (pour la seconde ligne), l’entrée pourra être réclamée puisqu’elle est marquée comme réutilisable. Le champ durée marquant 0 signifie que la machine est déjà en conversation.
 
@@ -692,7 +692,7 @@ En règle générale, le mécanisme de NAT pose problème lorsqu’un protocole 
 
 _Exemple : imaginons le réseau d’entreprise suivant :_
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/exemple-schema-nat.jpg)
+![Image](assets/fr/037.webp)
 
 Ainsi, pour se connecter au serveur web de l’exemple, depuis un poste en interne, il suffit d’exécuter l’url : http://192.168.1.20:80 (l’indication du port est optionnelle, mais, uniquement dans le cas où la valeur est 80).
 
@@ -800,13 +800,13 @@ Outre les fichiers de configuration mentionnés ci-dessus, il existe également 
 
 Les fichiers de configuration ifcfg*, du répertoire /etc/sysconfig/network-scripts contiennent le paramétrage des différentes interfaces réseau et peuvent être soit statique (adresse fixe), soit dynamique (utilisation d’un serveur DHCP) :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/ifcfg-dhcp-vs-static.png)
+![Image](assets/fr/038.webp)
 
 ### Configuration avancée : le teaming
 
 En matière de réseau, on peut faire en sorte de redonder son réseau en doublant les interfaces utilisées. Cela s’appelle du teaming ou du bonding. Cela consiste à agréger plusieurs interfaces en une seule afin d’augmenter la bande passante et la résilience.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/05/schema-bond.jpg)
+![Image](assets/fr/039.webp)
 
 ATTENTION : ce mode de fonctionnement nécessite le chargement d’un module noyau particulier : le module bonding. De plus, il faut deux interfaces actives pour pouvoir réaliser la pseudo-interface bond0 schématisée sur la capture ci-dessus. Il faut donc déclarer trois fichiers ifcfg* :
 
@@ -1021,7 +1021,7 @@ L’expression des adresses IPv4, dans le formalisme IPv6, peuvent être écrite
 
 Une adresse IPv6 non spécifiée est alors abrégée en ::0.0.0.0 ou de façon canonisée en ::. Tout comme en IPv4, il existe plusieurs catégories d’adresses, chacune jouant des rôles particuliers, décrits au sein des RFC5156, RFC4291 et RFC3587.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/type-adresse-ipv6.png)
+![Image](assets/fr/040.webp)
 
 Sur un réseau local, il faut utiliser le préfixe fd00::/8.  
 
@@ -1076,13 +1076,13 @@ La portée d’une adresse IPv6 (on parle alors d’_IPv6 Address Scope_), est r
 
 Ce type d’adresses regroupe les adresses loopback, dont la portée est limitée à l’hôte, les adresses locales de lien et les adresses locales uniques (aussi appelées ULA). Ces dernières, ont une portée globale et possède le découpage suivant :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/ipv6-adresse-unicast.png)
+![Image](assets/fr/041.webp)
 
 Cela signifie que les adresses sont uniques dans le monde, et peuvent être utilisées pour communiquer avec d’autres adresses également globalement uniques, ou avec des adresses locales de lien, pour des liens, bien évidemment, directement  connectés.
 
 **REMARQUE** : le modèle géographique est le même que celui du réseau Internet actuel, dans lequel les fournisseurs n’interviennent guère. C’est dans ce cadre que le protocole IPv6 permet de gérer les deux types d’adresses : adresses unicast locales et adresses de liens locaux. Ces dernières ont le découpage ci-dessous :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/ipv6-adresse-unicast-2.png)
+![Image](assets/fr/042.webp)
 
 Toutes ces adresses, lorsqu’elles passent par la procédure de création automatique, on t généralement 8 octets représentant le réseau et 8 autres octets décrivant l’interface utilisée sur ce réseau.
 
@@ -1090,7 +1090,7 @@ Toutes ces adresses, lorsqu’elles passent par la procédure de création autom
 
 Ce type d’adresse possède une portée identique à celle des adresses unicast globales ci-dessus. Cette technique est similaire à la diffusion multidestinataire multicast : l’adresse de destination est alors un groupe d’adresses. Mais, au lieu d’essayer de délivrer le datagramme à tous les membres du groupe, IPv6 tente de le livrer à un de ses membres, généralement le plus proche ou le plus à même de recevoir le paquet. Le découpage est le suivant :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/ipv6-adresse-anycast.png)
+![Image](assets/fr/043.webp)
 
 - **Les adresses multicast**
 
@@ -1108,7 +1108,7 @@ Pour s=e, l’adresse devient globale.
 
 Les adresses de diffusion multidestinataire possèdent un champ Flag (sur 4bits) et un champ concernant la portée (également sur 4bits) suivi d’un champ d’identification du groupe (sur 112 bits). C’est l’un des bits du champ Flag qui permet de distinguer les groupes permanents des groupes transitoires.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/ipv6-adresse-multicast.png)
+![Image](assets/fr/044.webp)
 
 
 ## Assignation des adresses dans un réseau local
@@ -1128,7 +1128,7 @@ Par exemple, on peut utiliser NDP permettant l’auto configuration sans état, 
 
 Les adresses EUI-64 sont construites à partir de l’adresse MAC-48 en insérant FFFE dans les octets 4 et 5 de l’adresse considérée :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/eui-64.png)
+![Image](assets/fr/045.webp)
 
 Au même titre qu’une adresse distribuée par le protocole DHCP à une durée de vie pouvant être limitée, ici aussi, on peut configurer une durée de vie préférée et une durée de vie de validité. Celles-ci sont programmées au sein des routeurs qui fournissent les préfixes, dans l’opération de configuration automatique.
 
@@ -1149,7 +1149,7 @@ L’IANA alloue alors des blocs de taille /23 à /12 (comme on l’a déjà dit 
 
 On peut donc résumer cette répartition avec le tableau des structures de préfixes distribués, ci-dessous :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/ipv6-iana.png)
+![Image](assets/fr/046.webp)
 
 Étant donné le nombre et la disponibilité des adresses, l’utilisation du mécanisme NAT n’est plus vraiment de mise. Il est possible d’interroger les bases de données des RIR afin de connaître à qui (ou à quel organisme) est attribuée telle adresse IP, grâce à la commande _whois_ (ou directement en ouvrant le site web du RIR).
 
@@ -1180,7 +1180,7 @@ Le champ Longueur est également d’un octet et indique la taille du champ Vale
 
 On peut avoir affaire à une entête dite pas-à-pas (aussi appelée _hop-by-hop_), contenant des informations destinées aux routeurs rencontrés sur le parcours du datagramme. La structure générale de ce genre d’entête est la suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/entete-ipv6.png)
+![Image](assets/fr/047.webp)
 
 L’entête de routage fournit la liste d’un ou plusieurs routeurs devant être parcourus, sur le trajet vers la destination du paquet. On dénombre alors deux types de routage, souvent combinés ensemble : le routage strict (où la route intégrale est clairement établie) et le routage lâche (où seuls les routeurs obligatoires sont mentionnés).
 
@@ -1193,7 +1193,7 @@ Ainsi, les quatre premiers champs de l’entête routage contiennent quatre enti
 
 **REMARQUE** : ce dernier champ débute avec la valeur zéro et est incrémenté lors de chaque étape ou chaque adresse visitée. La structure fournit par cette entête est la suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/entete-ipv6-2.png)
+![Image](assets/fr/048.webp)
 
 Concernant la fragmentation, les champs relatifs à celle-ci ont été retirés de l’entête fixe, car IPv6 possède une approche quelque peu différente de celle d’IPv4. Tout d’abord, tous les ordinateurs et routeurs, conformes à IPv6 doivent supporter les datagrammes de 576 octets. Cette règle place la fragmentation dans une optique secondaire.
 
@@ -1205,7 +1205,7 @@ En effet, l’entête fragmentation traite celle-ci à l’identique de la méth
 
 La structure de données proposées par l’entête fragmentation est la suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/entete-ipv6-3.png)
+![Image](assets/fr/049.webp)
 
 L’entête authentification (aussi appelée _AH_ ou _Authentication Header_), décrit un mécanisme permettant au destinataire d’un datagramme de valider l’identité de l’émetteur. On rappelle que dans le protocole IPv4, aucun mécanisme similaire n’est proposé. L’utilisation du chiffrement des données renforce alors la sécurité du datagramme, car seul le véritable destinataire peut lire les données.
 
@@ -1213,13 +1213,13 @@ Cette entête sert aussi au contrôle d’intégrité pour garantir au récepteu
 
 Son principe est très simple : l’émetteur calcule un authentificateur sur un datagramme et le diffuse avec le paquet sur lequel il porte. Le récepteur récupère cette valeur et s’assure qu’elle est authentique par rapport à son origine. Sa structure de données est la suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/entete-ipv6-4.png)
+![Image](assets/fr/050.webp)
 
 L’entête Option de destination s’utilise pour des champs qui n’ont besoin d’être interprétés et compris que du seul hôte destinataire. Dans la version originale du protocole IPv6, la seule option de destination ayant été définie, est l’option nulle. Cela permet de compléter cette entête avec des zéros et obtenir  alors un multiple de 8 octets.
 
 **REMARQUE** : cette entête n’est pas utilisée pour le moment. Il a été défini pour s’assurer que les nouveaux logiciels de routage pourront l’utiliser, dans le cas où il serait envisagé une option de destination ultérieure. La structure de données associée est la suivante :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/entete-ipv6-5.png)
+![Image](assets/fr/051.webp)
 
 
 
@@ -1325,7 +1325,7 @@ L’outil Wireshark (anciennement appelé Ethereal) est une application de captu
 
 Pour l’initialiser, il faut en premier lieu lancer le programme wireshark et ouvrir le menu **Capture** afin de sélectionner l’interface sur laquelle on souhaite effectuer ces captures. Lorsque la carte réseau a été repérée (celle à laquelle l’adresse IP est associée), on peut alors déclencher les premières captures en cliquant sur le bouton **Start**. Pour arrêter la prise de captures, il suffit simplement d’appuyer sur le bouton **Stop**.
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/wireshark-analyze.jpg)
+![Image](assets/fr/052.webp)
 
 Là où tcpdump s’intéresse vraiment à l’aspect paquets des trames circulant sur le réseau, wireshark est beaucoup plus orienté trafic et qualité de service. L’un n’est pas un clone de l’autre et tous deux ont des fonctions bien spécifiques qui les rendent indispensables.
 
@@ -1343,7 +1343,7 @@ yum install –y ethtool
 
 Si par exemple, on interroge l’interface enp0s3 (caractéristique des distributions CentOS7), on obtient alors :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/enp0s3.jpg)
+![Image](assets/fr/053.webp)
 
 Parmi les nombreuses options de l’outil, on remarquera la possibilité de modifier les propriétés suivantes grâce à l’option -s :
 
@@ -1537,7 +1537,7 @@ netstat –an|egrep ".* :80"
 
 Ce genre de commande affichera le résultat de toutes les connexions écoutant sur le port 80 :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/netstat-example.jpg)
+![Image](assets/fr/054.webp)
 
 L’option –o permet de détailler le numéro de processus associé à une connexion et l’option –r affiche alors la table de routage. Il nous reste alors l’option –p suivi du nom du protocole (au choix, TCP, UDP ou IP), permettant d’afficher les informations concernant le protocole passé en paramètre. Enfin, l’option –s affiche les statistiques détaillées, classées par protocole.
 
@@ -1602,7 +1602,7 @@ nmap 192.168.0.0/24
 
 Cela aide énormément les administrateurs pour analyser et réduire les portes ouvertes de leurs machines, car ils peuvent ainsi connaître les services à protéger contre d’éventuelles attaques :
 
-![](https://www.it-connect.fr/wp-content-itc/uploads/2017/06/port-closed.png)
+![Image](assets/fr/055.webp)
 
 ### Outils d’interrogation des processus
 

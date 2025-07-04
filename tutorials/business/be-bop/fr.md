@@ -277,8 +277,150 @@ Cette configuration vous permet d’offrir une navigation claire, fluide et acce
 
 ![settings-topbar](assets/fr/014.webp)
 
+# Configuration de l’Interface et de l’Identité dans be-BOP
 
+## La Nav Bar
 
+La section **Navbar** permet de configurer le menu principal de navigation de votre be-BOP, généralement situé sur le côté ou en haut de l’interface. Ce menu guide les utilisateurs vers les différentes pages ou fonctionnalités de l’application. La configuration des liens s’effectue de manière simple et intuitive. Voici comment procéder :
+
+- **Saisir le nom du lien (`Text`)** : sur la ligne de configuration, commencez par remplir le champ `Text`. Il correspond au libellé du lien qui s'affiche dans la barre de navigation (exemples : *Tableau de bord*, *Utilisateurs*, *Paramètres*...).
+
+- **Entrer l’adresse du lien (`Url`)** : à côté du champ `Text`, vous trouverez le champ `Url`. Dans ce dernier, saisissez l’adresse de la page vers laquelle le lien doit rediriger. Il peut s’agir d’une route interne ou d’un lien vers une page externe.
+
+- **Ajouter plusieurs liens si nécessaire** : en dessous de la première ligne, de nouveaux champs `Text` et `Url` sont disponibles pour ajouter autant de liens que nécessaire. Chaque ligne représente un lien de navigation supplémentaire.
+
+- **Enregistrer les liens** : une fois tous les éléments saisis, cliquez sur le bouton `Add nav bar link` pour enregistrer et afficher les résultats dans la barre de navigation.
+
+Cette configuration permet de structurer efficacement l’accès aux différentes parties du logiciel, améliorant ainsi l’ergonomie et l’expérience utilisateur.
+
+![navbar](assets/fr/015.webp)
+
+## Le Footer
+
+La section **Footer** vous permet de personnaliser le bas de page de votre logiciel, en y ajoutant des informations ou des liens utiles. Avant de configurer les liens, commencez par activer une option spécifique :
+
+- **Activer l’affichage du label "Powered by be-BOP"** : activez le bouton `Display Powered by be-BOP` pour afficher cette mention dans le pied de page.
+
+- **Saisir le nom du lien (`Text`)** : remplissez le champ `Text`, qui correspond au libellé du lien dans le footer (exemples : *Conditions*, *Confidentialité*, *Contact*...).
+
+- **Indiquer l’adresse du lien (`Url`)** : dans le champ `Url`, entrez l’adresse de la page cible (interne ou externe).
+
+- **Ajouter d’autres liens si nécessaire** : utilisez les lignes supplémentaires pour créer autant de liens que souhaité.
+
+- **Enregistrer les liens** : cliquez sur le bouton `Add footer link` pour enregistrer les liens.
+
+![footer](assets/fr/016.webp)
+
+### Personnalisation visuelle
+
+> ⚠️ N’oubliez pas de définir les logos pour les thèmes clair et sombre, ainsi que le favicon, via `Admin > Merch > Pictures`.
+
+Voici comment personnaliser l’apparence de votre site :
+
+1. **Accéder à la section Pictures**  
+   Menu `Admin` > `Merch` > `Pictures`.
+
+2. **Ajouter une nouvelle image**  
+   Cliquez sur `New Picture`.
+
+3. **Choisir un fichier local**  
+   Cliquez sur `Choose Files`, puis sélectionnez une image depuis votre disque dur.
+
+4. **Sélectionner le fichier à importer**  
+   Double-cliquez sur l’image à importer (logo clair, logo sombre ou favicon).
+
+5. **Nommer l’image**  
+   Remplissez le champ `Name of the picture`.
+
+6. **Ajouter l’image**  
+   Cliquez sur `Add` pour finaliser l’importation.
+
+![pictures](assets/fr/017.webp)
+
+## Configuration de l’Identité du Vendeur
+
+### Paramétrage de l’identité
+
+Accessible via `Admin > Identity` (ou `Settings > Identity`), cette section vous permet de configurer les informations administratives et légales de votre entreprise.
+
+#### Informations légales
+
+- **Business name** : nom officiel de l’entreprise.  
+- **Business ID** : identifiant légal ou numéro d’enregistrement (RCCM, SIRET...).
+
+#### Adresse professionnelle
+
+- **Street** : adresse postale (rue, numéro…).  
+- **Country** : pays.  
+- **State** : province ou région.  
+- **City** : ville.  
+- **ZIP code** : code postal.
+
+#### Informations de contact
+
+- **Email** : adresse email professionnelle.  
+- **Phone** : numéro de téléphone de l’entreprise.
+
+#### Compte bancaire
+
+- **Account holder name** : nom du titulaire du compte.  
+- **Account holder address** : adresse du titulaire.  
+- **IBAN** : numéro de compte international.  
+- **BIC** : code SWIFT/BIC.
+
+![bank-account](assets/fr/019.webp)
+
+#### Facturation
+
+- Cliquez sur `Fill with main shop informations` pour pré-remplir les données.  
+- **Very-top-right issuer information** : champ pour les mentions légales/fiscales visibles sur les factures.  
+- Cliquez sur `Update` pour enregistrer les modifications.
+
+> Vous pouvez également renseigner des informations complémentaires à afficher sur la facture, selon vos besoins.
+
+![vat](assets/fr/019.webp)  
+![issuer-info](assets/fr/020.webp)
+
+#### Adresse physique du magasin
+
+Pour ceux ayant un magasin physique, ajoutez une adresse complète spécifique dans `Admin > Settings > Identity` ou une section dédiée. Cela permettra son affichage sur les documents officiels et dans le footer si nécessaire.
+
+![seller-id](assets/fr/021.webp)
+
+## Gestion des Produits
+
+### Création d’un nouveau produit
+
+Accédez à `Admin > Merch > Products` pour ajouter ou modifier un produit. Remplissez les champs suivants :
+
+#### Informations de base
+
+- **Product Name** : nom du produit (ex. : *T-shirt BOP édition limitée*).  
+- **Slug** : identifiant URL sans espaces (ex. : `tshirt-bop-edition-limitee`).  
+- **Alias** *(optionnel)* : utile pour l’ajout rapide au panier via un champ dédié.
+
+![product-config](assets/fr/028.webp)
+
+#### Tarification
+
+- **Price Amount** : prix du produit (ex. : `25.00`).  
+- **Price Currency** : devise (EUR, USD, BTC, etc.).  
+- **Produits spéciaux** :
+  - `This is a free product` : pour un produit gratuit.
+  - `This is a pay-what-you-want product` : pour un produit à prix libre.
+
+#### Options du produit
+
+- **Produit simple (`standalone`)** : un seul ajout possible par commande (ex. : don, billet d’entrée).
+- **Produit avec variations** :
+  - Ne cochez pas `Standalone`.
+  - Cochez `Product has light variations (no stock difference)`.
+  - Ajoutez :
+    - **Nom** (ex. : *Taille*),
+    - **Valeurs** (ex. : S, M, L, XL),
+    - **Différences de prix** si applicables (ex. : `+2 USD` pour XL).
+
+![product-details](assets/fr/029.webp)
 
 
 

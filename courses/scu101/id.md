@@ -135,7 +135,8 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Melindungi koneksi internet Anda adalah aspek penting dalam keamanan online, dan menggunakan jaringan pribadi virtual (VPN) adalah metode yang efektif untuk meningkatkan keamanan ini, baik untuk bisnis maupun pengguna individu.
 
-VPN adalah alat yang menyamarkan data yang dikirimkan melalui internet, sehingga koneksi menjadi lebih aman. Dalam konteks profesional, VPN memungkinkan karyawan untuk mengakses jaringan internal perusahaan secara aman dari jarak jauh. Data yang dipertukarkan akan disamarkan, membuatnya jauh lebih sulit untuk dilihat atau dicuri oleh pihak ketiga. Selain itu, penggunaan VPN juga memungkinkan pengguna mengarahkan koneksi internet mereka seolah-olah berasal dari jaringan internal perusahaan. Hal ini sangat berguna untuk mengakses layanan online yang dibatasi secara geografis.
+VPN adalah alat yang mengenkripsi data yang dikirimkan melalui internet, menjadikan koneksi lebih aman. Dalam konteks profesional, VPN memungkinkan karyawan untuk mengakses jaringan internal perusahaan dengan aman dari lokasi jarak jauh. Data yang dipertukarkan dienkripsi, membuatnya jauh lebih sulit untuk dilihat atau dicuri oleh pihak ketiga. Selain mengamankan akses ke jaringan internal, menggunakan VPN dapat memungkinkan pengguna untuk mengarahkan koneksi internet mereka melalui jaringan internal perusahaan, memberikan kesan bahwa koneksi mereka berasal dari perusahaan. Ini bisa sangat berguna untuk mengakses layanan online yang dibatasi secara geografis.
+
 ![](assets/en/8.webp)
 
 ### Jenis-jenis VPN

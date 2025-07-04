@@ -492,7 +492,7 @@ Hoewel je sleutels opgeslagen zijn in je wallet, zijn de bitcoins zelf eigenlijk
 
 ![image](assets/en/28.webp)
 
-Gelukkig kan de privésleutel sinds 2017 worden weergegeven door een eenvoudige lijst van 12 of 24 woorden, bekend als 'mnemonische zin', die vrij eenvoudig kan worden opgeslagen. Deze zin dient als back-up voor je geld en stelt je in staat om je wallet opnieuw te maken met elke Bitcoin wallet software of app. Daarom kan iedereen die deze lijst met woorden vindt, toegang krijgen tot je bitcoins.
+Gelukkig kan de privésleutel sinds 2017 worden weergegeven door een eenvoudige lijst van 12 of 24 woorden, ook bekend als 'mnemonische zin', die vrij eenvoudig kan worden opgeslagen. Deze zin dient als back-up voor je geld en stelt je in staat om je wallet opnieuw te maken met elke Bitcoin wallet software of app. Daarom kan iedereen die deze lijst met woorden vindt, toegang krijgen tot je bitcoins.
 
 ### Hoe zit het met hackers?
 
@@ -514,32 +514,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### De juiste vragen stellen voordat je begint
 
-Als je bitcoins bezit, is de veiligheid van je geld een grote zorg. De beste manier om een beveiligingsniveau te bepalen dat geschikt is voor jouw situatie, is om jezelf een aantal vragen te stellen:
+Als je bitcoins bezit, is de veiligheid van je geld een grote zorg. De beste manier om een beveiligingsniveau te bepalen dat geschikt is voor jouw situatie, is door jezelf een aantal vragen te stellen:
 
 - Wie heeft toegang tot je tegoeden? Met andere woorden, heb jij als enige toegang tot je bitcoins, of geeft een derde partij (zoals een bedrijf) je toegang tot je tegoeden?
-- Hoe ben je van plan de bitcoins in die Wallet te gebruiken? Regelmatig? Om op middellange of lange termijn te sparen?
+- Hoe ben je van plan de bitcoins in deze wallet te gebruiken? Regelmatig? Om op middellange of lange termijn te sparen?
 - Wat zijn je technische vaardigheden?
-- Wat is uw beveiligingsbudget?
+- Wat is je beveiligingsbudget?
 
 Er is eigenlijk geen universeel antwoord of oplossing, dus neem de tijd om deze vragen te beantwoorden, want het zal je helpen om je beveiligingsmaatregelen af te stemmen op je behoeften.
 
 ![image](assets/en/30.webp)
 
-### Denken over Bitcoin portefeuilles in termen van complexiteit
+### Denken over Bitcoin wallets in termen van complexiteit
 
 Hieronder zullen we verschillende beveiligingsniveaus definiëren:
 
-- Niveau 0**, je gebruikt een zogenaamde "custodial service" waarbij je niet de enige houder bent van je bitcoins. Wees je ervan bewust dat deze vertrouwde derde partij je toegang tot je tegoeden op elk moment kan beperken. In dit geval is je niveau van financiële soevereiniteit vergelijkbaar met dat van een traditioneel banksysteem met een bankrekening.
+- **Niveau 0**, je gebruikt een zogenaamde "custodial service (bewaardienst)" waarbij je niet de enige houder bent van je bitcoins. Wees je ervan bewust dat deze vertrouwde derde partij je toegang tot jouw tegoeden op elk moment kan beperken. In dit geval is je niveau van financiële soevereiniteit vergelijkbaar met dat van een traditioneel banksysteem met een bankrekening.
 
 ![image](assets/en/31.webp)
 
-- Niveau 1**, je gebruikt een Bitcoin Wallet op je telefoon of computer, waar je de enige houder van je bitcoins bent en je gemakkelijk je transacties kunt uitvoeren. Het bovengenoemde hulpmiddel wordt "Hot Wallet" genoemd, omdat de privésleutel wordt opgeslagen op een apparaat met internettoegang. In dit geval is het cruciaal om een back-up te maken van je Mnemonic zin om weer toegang te krijgen tot je fondsen in het geval dat je je telefoon of computer verliest.
+- **Niveau 1**, je gebruikt een Bitcoin wallet op je telefoon of computer, waar je de enige houder van je bitcoins bent en je gemakkelijk je transacties kunt uitvoeren. Deze oplossing wordt een "hot wallet" genoemd, omdat de privésleutel wordt opgeslagen op een apparaat met internettoegang. In dit geval is het cruciaal om een back-up te maken van je mnemonische zin om weer toegang te krijgen tot je tegoeden in het geval dat je je telefoon of computer verliest.
 
-Je kunt bijvoorbeeld Sparrow wallet gebruiken als Hot Wallet:
+Je kunt bijvoorbeeld Sparrow Wallet gebruiken als hot wallet:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Niveau 2**, je gebruikt een fysieke Wallet en je hebt je lijst van 12/24 woorden beveiligd. Het wordt vaak "Cold Wallet" genoemd, omdat je sleutels opgeslagen zijn op een apparaat dat niet verbonden is met het internet. In dit geval moet je elke transactie altijd ondertekenen met je apparaat, waardoor je geld dagelijks minder toegankelijk is.
+- **Niveau 2**, je gebruikt een fysieke wallet en je hebt je lijst van 12/24 woorden beveiligd. Dit wordt doorgaans een "cold wallet" genoemd, omdat je sleutels opgeslagen zijn op een apparaat dat niet verbonden is met het internet. In dit geval moet je elke transactie altijd ondertekenen met je apparaat, waardoor je tegoeden dagelijks minder toegankelijk is.
 
 Je kunt bijvoorbeeld een Ledger, een Satochip of een Tapsigner gebruiken:
 
@@ -551,41 +551,41 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 ![image](assets/en/32.webp)
 
-- Niveau 3**, je gebruikt een Wallet van niveau 1 of 2, maar je hebt een extra passphrase toegevoegd. In dit geval moet je een back-up maken van zowel de lijst met 12/24 woorden **als** je passphrase. Idealiter worden deze twee stukken informatie op twee verschillende plaatsen opgeslagen. Idealiter worden deze twee stukken informatie op twee verschillende plaatsen opgeslagen.
+- **Niveau 3**, je gebruikt een wallet van niveau 1 of 2, maar je hebt een extra passphrase (wachtwoordzin) toegevoegd. In dit geval moet je een back-up maken van zowel de lijst met 12/24 woorden **als** je passphrase. Idealiter worden deze twee stukken informatie op twee verschillende plaatsen opgeslagen.
 
-Om meer te weten te komen over het gebruik en de werking van de BIP39 passphrase:
+Om meer te weten te komen over het gebruik en de werking van de BIP39 passphrase (wachtwoordzin):
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/33.webp)
 
-- Niveau 4**, je gebruikt een set wallets om een "Multisig" Wallet te maken, wat betekent dat er meerdere handtekeningen nodig zijn om een transactie uit te voeren. In dit geval moet u er rekening mee houden dat elk deel van de Multisig op verschillende locaties moet worden opgeslagen. Deze aanpak wordt vaak beschouwd als een geavanceerd gebruik van Bitcoin, voornamelijk voor het beheer van grote bedragen en voor bedrijfsdoeleinden.
+- **Niveau 4**, je gebruikt een groep wallets om een "multisig (multi-handtekening)" wallet te maken, wat betekent dat er meerdere handtekeningen nodig zijn om een transactie uit te voeren. In dit geval moet je er rekening mee houden dat elk deel van de multisig op verschillende locaties moet worden opgeslagen. Deze aanpak wordt vaak beschouwd als een geavanceerd gebruik van Bitcoin, voornamelijk voor het beheer van grote bedragen en voor bedrijfsdoeleinden.
 
 ![image](assets/en/34.webp)
 
 Natuurlijk vereisen verschillende gebruikssituaties ook verschillende Bitcoin wallets en is er geen pasklare oplossing.
 
-### De beveiliging moet worden aangepast
+### Beveiliging moet zich aanpassen
 
-Het bedrag dat iemand bereid is achter te laten op een bepaald beveiligingsniveau hangt af van elk individu. Voor sommigen is 1 BTC op een Hot Wallet redelijk, terwijl het voor anderen het tegenovergestelde is. Hoe dan ook, als je een klein bedrag wilt veiligstellen, raden we aan niet te veel uit te geven aan beveiliging door een fysieke Wallet te kopen. Houd er bovendien rekening mee dat het overcompliceren van de beveiliging en toegankelijkheid van je bitcoins nadelig kan zijn, vooral als je de back-ups van je portemonnees verkeerd gebruikt.
+Het bedrag dat iemand bereid is achter te laten op een bepaald beveiligingsniveau verschilt per individu. Voor sommigen is 1 BTC op een hot wallet redelijk, terwijl het voor anderen het tegenovergestelde is. Hoe dan ook, als je een klein bedrag wilt veiligstellen, raden we aan niet te veel uit te geven aan beveiliging door een fysieke wallet te kopen. Houd er bovendien rekening mee dat het overcompliceren van de beveiliging en toegankelijkheid van je bitcoins nadelig kan zijn, vooral als je de back-ups van je wallets verkeerd gebruikt.
 
-Concluderend, directe Ownership van iemands bitcoins is een essentieel element om financiële soevereiniteit te garanderen. Het wordt aanbevolen om een mobiele Wallet te gebruiken voor dagelijkse uitgaven en een offline, of 'Cold', fysieke Wallet om grotere bedragen op te slaan. Bedrijven zouden aan de andere kant moeten overwegen om systemen met meerdere handtekeningen, of "Multisig", te gebruiken voor meer en gedeelde veiligheid. Het is ook essentieel om custodial services te vermijden, die sommige kwetsbaarheden van het traditionele financiële systeem kunnen nabootsen.
+Concluderend, direct eigenaarschap van iemands bitcoins is een essentieel element om financiële soevereiniteit te garanderen. Het wordt aanbevolen om een mobiele wallet te gebruiken voor dagelijkse uitgaven en een offline, of 'cold', fysieke wallet om grotere bedragen op te slaan. Echter, bedrijven zouden moeten overwegen om systemen met meerdere handtekeningen, ofwel "multisig", te gebruiken voor meer en gedeelde veiligheid. Het is ook essentieel om custodial services (bewaardiensten) te vermijden, die vatbaar zijn voor sommige kwetsbaarheden van het traditionele financiële systeem.
 
-Met dit in gedachten kunnen we nu naar het volgende deel gaan, waar we beschrijven hoe je een Bitcoin Wallet kunt maken. Als je je echter verder wilt verdiepen in het onderwerp veiligheid, kun je dit [artikel van DarthCoin](https://asi0.substack.com/p/Bitcoin-soyez-votre-propre-banque) lezen.
+Met dit in gedachten kunnen we nu naar het volgende deel gaan, waar we beschrijven hoe je een Bitcoin wallet kunt maken. Als je je echter verder wilt verdiepen in het onderwerp veiligheid, kun je dit [artikel van DarthCoin](https://asi0.substack.com/p/Bitcoin-soyez-votre-propre-banque) lezen.
 
-## Een Wallet instellen
+## Een wallet instellen
 
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
-De veiligheid van je bitcoins is van cruciaal belang en een simpele fout kan desastreuze gevolgen hebben. Daarom moeten we leren wat de beste werkwijzen zijn bij het maken van een nieuwe Bitcoin Wallet.
+De veiligheid van je bitcoins is van cruciaal belang en een simpele fout kan desastreuze gevolgen hebben. Daarom moeten we leren wat de beste werkwijzen zijn bij het maken van een nieuwe Bitcoin wallet.
 
-Houd er rekening mee dat de BTC102-cursus u door deze stap zal begeleiden.
+Houd er rekening mee dat de BTC102-cursus je door deze stap zal begeleiden.
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-### Deze stap is geen grapje!
+### Deze stap is geen grap!
 
-Wanneer je een Wallet instelt, creëert de software meestal je private sleutel, meestal voorgesteld door een lijst van 12/24 woorden (vaak "seed phrase" of "Mnemonic phrase" genoemd): deze woorden vormen de toegang tot je fondsen. Als deze sleutel ooit onthuld wordt aan een derde partij, moet u ervan uitgaan dat de bijbehorende fondsen gecompromitteerd zijn. Daarom is het essentieel om deze regels te volgen bij het instellen van uw Wallet:
+Wanneer je een wallet instelt, creëert de software meestal je privésleutel, meestal in de vorm van een lijst van 12/24 woorden (vaak "seed phrase" of "mnemonische zin" genoemd): deze woorden vormen de toegang tot je tegoeden. Als deze sleutel ooit onthuld wordt aan een derde partij, moet je ervan uitgaan dat de bijbehorende tegoeden gecompromitteerd zijn. Daarom is het essentieel om deze regels te volgen bij het instellen van je wallet:
 
 - Bedek alle camera's.
 - Maak geen foto van de woordenlijst.
@@ -594,7 +594,7 @@ Wanneer je een Wallet instelt, creëert de software meestal je private sleutel, 
 - Laat je woorden nooit onbeheerd achter op je bureau.
 - Verstop je woordenlijst nooit op een ongebruikelijke plek.
 
-Je moet letterlijk een blanco vel papier nemen of dit [sjabloon] (https://bitcoiner.guide/backup.pdf) afdrukken en de woordenlijst met een pen schrijven, waarbij je netjes en duidelijk de gepresenteerde volgorde volgt. Als de inkt na verloop van tijd vervaagt, kun je je geld kwijtraken. Daarom is het belangrijk om dit stuk papier te beschermen tegen omgevingsfactoren die het kunnen beschadigen, zoals vocht of vuur.
+Je moet letterlijk een blanco vel papier nemen of dit [sjabloon](https://bitcoiner.guide/backup.pdf) afdrukken en de woordenlijst met een pen schrijven, waarbij je netjes en duidelijk de gepresenteerde volgorde aanhoudt. Als de inkt na verloop van tijd vervaagt, kun je je tegoeden kwijtraken. Daarom is het belangrijk om dit stuk papier te beschermen tegen omgevingsfactoren die het kunnen beschadigen, zoals vocht of vuur.
 
 Hieronder vind je een voorbeeld van hoe je het papier moet samenstellen: de woorden zijn nep, dus gebruik ze niet!
 
@@ -602,23 +602,23 @@ Hieronder vind je een voorbeeld van hoe je het papier moet samenstellen: de woor
 
 ### Onze tips om het goed te doen
 
-Zorg ervoor dat je geen fouten maakt bij het duidelijk en leesbaar kopiëren van de Mnemonic zin, anders hebben je erfgenamen misschien moeite om het te lezen en kunnen ze het geld misschien niet terugkrijgen. Zodra je de woorden hebt opgeslagen, is het raadzaam om een tweede kopie te maken en deze op een andere locatie op te slaan dan de eerste. Zo heb je een back-up voor het geval het origineel verloren gaat of beschadigd raakt.
+Zorg ervoor dat je geen fouten maakt bij het duidelijk en leesbaar kopiëren van de mnemonische zin, anders hebben je erfgenamen misschien moeite om het te lezen en kunnen ze je tegoeden misschien niet terugkrijgen. Zodra je de woorden hebt opgeslagen, is het raadzaam om een tweede kopie te maken en deze op een andere locatie op te slaan dan de eerste. Zo heb je een back-up voor het geval het origineel verloren gaat of beschadigd raakt.
 
 ![image](assets/en/36.webp)
 
-De woordenlijsten moeten worden bewaard op een veilige plek die je gemakkelijk kunt onthouden. Vermijd het maken van al te ingewikkelde verstopplannen waardoor je ze kwijt kunt raken.
+De woordenlijsten moeten worden bewaard op een veilige plek die je gemakkelijk kunt onthouden. Vermijd het maken van te ingewikkelde verstopplannen waardoor je ze kwijt kunt raken.
 
 **Jouw woorden = jouw geld.**
 
-Zowel 'Cold' als 'Hot' wallets gebruiken de woordenlijstmethode als standaard voor het back-uppen van privésleutels. Als gevolg hiervan kunt u uw Mnemonic zin in elke compatibele Wallet software of apparaat invoeren om uw toegang te herstellen. Aan de andere kant raden we het gebruik van wallets die geen seed zinsdeel bieden sterk af, omdat ze u kunnen vragen om een account, een e-mail Address of, erger nog, een ID op te geven.
+Zowel 'cold' als 'hot' wallets gebruiken de woordenlijstmethode als standaard voor het back-uppen van privésleutels. Als gevolg hiervan kun je je jouw mnemonische zin in elke compatibele wallet software of apparaat invoeren om je toegang te herstellen. Aan de andere kant raden we het gebruik van wallets die geen seed phrase (herstelzin) bieden sterk af, omdat ze je kunnen vragen om een account, een e-mailadres of, erger nog, een ID op te geven.
 
-**AANWIJZING: De afwezigheid van een lijst van 12/24 woorden zou je moeten waarschuwen.**
+**OPGELET: De afwezigheid van een lijst van 12/24 woorden zou je moeten waarschuwen.**
 
-Als je stap voor stap wilt ontdekken hoe je je eigen Wallet kunt opzetten en je eerste bitcoins kunt krijgen, raden we je aan deze andere cursus te volgen:
+Als je stap voor stap wilt ontdekken hoe je je eigen wallet kunt opzetten en je eerste bitcoins kunt krijgen, raden we je aan deze cursus te volgen:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-## De tand des tijds doorstaan
+## De Tand Des Tijds Doorstaan
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
@@ -626,51 +626,51 @@ Zoals elke vorm van rijkdom, moeten je bitcoins beschermd worden tegen verlies, 
 
 ### Graveren in staal
 
-Een methode om je bitcoins op de lange termijn te beveiligen is om je Mnemonic zin te graveren op een extreem duurzaam materiaal zoals staal. Hierdoor creëer je een fysieke back-up van je sleutels die bestand is tegen water- en brandschade.
+Een methode om je bitcoins op de lange termijn te beveiligen is om je mnemonische zin te graveren op een extreem duurzaam materiaal zoals staal. Hierdoor creëer je een fysieke back-up van je sleutels die bestand is tegen water- en brandschade.
 
-Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt dit onderwerp verder uitdiepen in de [tutorials](https://planb.network/en/tutorials/Wallet) sectie van onze academie.
+Er zijn verschillende oplossingen beschikbaar: sommige zijn goedkoop, zoals de "Blockmit", terwijl andere meer gespecialiseerde apparatuur vereisen. Je kunt je verder in dit onderwerp verdiepen in de [tutorials](https://planb.network/en/tutorials/Wallet) sectie van onze academie.
 
 ![image](assets/en/37.webp)
 
 ### Denk aan de volgende generatie!
 
-Naast deze eerste stap is het opstellen van een nalatenschapsplan een cruciale stap om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood. Dit plan houdt in dat je met de hand een brief schrijft waarin je de aard van je bezittingen beschrijft, hun toegangsmethoden en de contactgegevens van de vertrouwde personen die er verantwoordelijk voor zijn. Het is ook belangrijk om de erfenis van bitcoins te bespreken met een accountant en/of erfrechtadvocaat om ervoor te zorgen dat de belastingwetgeving wordt nageleefd, zelfs als deze persoon nooit direct moet worden belast met het beheer van uw bitcoins.
+Naast deze eerste stap is het opstellen van een nalatenschapsplan een cruciale stap om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood. Dit plan houdt in dat je met de hand een brief schrijft waarin je de aard van je bezittingen beschrijft, hun toegangsmethoden en de contactgegevens van de vertrouwenspersonen die er verantwoordelijk voor zijn. Het is ook belangrijk om de erfenis van bitcoins te bespreken met een accountant en/of notaris om ervoor te zorgen dat de belastingwetgeving wordt nageleefd, zelfs als deze persoon nooit direct moet worden belast met het beheer van je bitcoins.
 
-Als je je verder wilt verdiepen in het onderwerp van het erfenisplan voor je bitcoins, raden we je aan het boek [Cryptoasset Inheritance Plan] van Pamela Morgan te lezen (https://planb.network/resources/books/28) of je in te schrijven voor de BTC102-cursus, waarin we begeleiding bieden bij het opstellen van je plan.
+Als je je verder wilt verdiepen in het onderwerp van het erfenisplan voor je bitcoins, raden we je aan het boek [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) van Pamela Morgan te lezen of je in te schrijven voor de BTC102-cursus, waarin we begeleiding bieden bij het opstellen van je plan.
 
 ![image](assets/en/38.webp)
 
 ### Privacy is belangrijk
 
-Naast het maken van fysieke back-ups en het ontwikkelen van een successieplan, is privacy een ander belangrijk onderwerp als het gaat om de veiligheid van uw bitcoins op de lange termijn. Het verdient bijvoorbeeld de voorkeur om bitcoins te kopen zonder identificatie te verschaffen om de risico's van identiteitsdiefstal of het traceren van uw fondsen door entiteiten met de juiste tools te minimaliseren.
+Naast het maken van fysieke back-ups en het ontwikkelen van een erfenisplan, is privacy een ander belangrijk onderwerp als het gaat om de veiligheid van je bitcoins op de lange termijn. Het verdient bijvoorbeeld de voorkeur om bitcoins te kopen zonder identificatie te verschaffen om de risico's te minimaliseren van identiteitsdiefstal of het traceren van je tegoeden door deze entiteiten met inzet van de juiste tools.
 
-Wat privacy betreft, is het cruciaal om met niemand over je bitcoins te praten. We kunnen niet voorspellen hoe deze technologie in de toekomst zal worden gezien, dus discretie bewaren over je Ownership is een verstandige keuze: je wilt geen aandacht vestigen op jezelf of je Wallet.
+Wat privacy betreft, is het cruciaal om met niemand over je bitcoins te praten. We kunnen niet voorspellen hoe deze technologie in de toekomst zal worden gezien, dus discretie bewaren over je eigenaarschap is een verstandige keuze: je wilt geen aandacht vestigen op jezelf of je wallet.
 
 Vermijd ook om openlijk details over je beveiligingssysteem te delen tijdens Bitcoin bijeenkomsten of ontmoetingen met vreemden...
 
-### Samenvatting op Bitcoin Wallet Beveiliging
+### Samenvatting Van Bitcoin Wallet Beveiliging
 
 Met Bitcoin wallets heb je toegang tot bitcoins en kun je transacties doen. Er zijn verschillende soorten:
 
-- portemonnees voor mobiel of pc, handig voor kleine bedragen en/of regelmatige uitgaven;
-- fysieke portemonnees, meer geschikt voor het opslaan van bitcoins op de middellange en lange termijn;
-- Multisig wallets, die complexer te beheren zijn en meerdere handtekeningen nodig hebben om transacties uit te voeren.
+- wallets voor mobiel of pc, handig voor kleine bedragen en/of regelmatige uitgaven;
+- fysieke wallets, meer geschikt voor het opslaan van bitcoins op de middellange en lange termijn;
+- multisig wallets, die complexer te beheren zijn en meerdere handtekeningen nodig hebben om transacties uit te voeren.
 
-Bij het maken van een Wallet is het uiterst belangrijk dat je eerst een back-up maakt van je lijst van 12 of 24 woorden op een stuk papier of een metalen plaat. Met deze zogenaamde Mnemonic zin kun je je Wallet herstellen via elke Bitcoin Wallet toepassing. Wees je ervan bewust dat iedereen die toegang krijgt tot deze lijst, ook toegang krijgt tot je fondsen.
+Bij het maken van een wallet is het uiterst belangrijk dat je eerst een back-up maakt van je lijst van 12 of 24 woorden op een stuk papier of een metalen plaat. Met deze zogenaamde mnemonische zin kun je je wallet herstellen via elke Bitcoin wallet applicatie. Wees je ervan bewust dat iedereen die toegang krijgt tot deze lijst, ook toegang krijgt tot je tegoeden.
 
-In de wereld van Bitcoin is financiële soevereiniteit nauw verbonden met individuele verantwoordelijkheid, waardoor het essentieel is om de toegang tot je portemonnees en back-ups veilig te stellen. Om dit te bereiken, is het belangrijk om bepaalde richtlijnen te volgen:
+In de wereld van Bitcoin is financiële soevereiniteit nauw verbonden met individuele verantwoordelijkheid, waardoor het essentieel is om de toegang tot je wallets en back-ups veilig te stellen. Om dit te bereiken, is het belangrijk om bepaalde richtlijnen te volgen:
 
 - Maak een erfenisplan om ervoor te zorgen dat je dierbaren het geld terug kunnen krijgen in geval van problemen.
-- Vermijd het achterlaten van uw Bitcoins op Exchange platformen, omdat deze gevoelig kunnen zijn voor aanvallen van hackers.
-- Pas uw beveiligingsniveau aan uw behoeften en gebruikssituaties aan, zodat u een goede keuze kunt maken uit de vele verschillende Bitcoin portemonnees die beschikbaar zijn.
+- Vermijd het achterlaten van je bitcoins op exchange platformen, omdat deze gevoelig kunnen zijn voor aanvallen van hackers.
+- Pas je beveiligingsniveau aan je behoeften en gebruikssituaties aan, zodat je een goede keuze kunt maken uit de vele verschillende Bitcoin wallets die beschikbaar zijn.
 
-Nu we de basisprincipes van Bitcoin wallets en de beste methodes om ze te beveiligen behandeld hebben, zullen we in het volgende hoofdstuk de technische eigenschappen van Bitcoin onderzoeken. Nogmaals, het begrijpen van de basis van het Bitcoin protocol zal uw begrip van hoe het werkt vergroten, waardoor u er beter gebruik van kunt maken.
+Nu we de basisprincipes van Bitcoin wallets en de beste methodes om ze te beveiligen behandeld hebben, zullen we in het volgende hoofdstuk de technische eigenschappen van Bitcoin onderzoeken. Nogmaals, het begrijpen van de basis van het Bitcoin protocol zal je begrip van hoe het werkt vergroten, waardoor je er beter gebruik van kunt maken.
 
-# De technische aspecten van Bitcoin.
+# De Technische Aspecten Van Bitcoin.
 
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
-## Lancering Bitcoin
+## De lancering van Bitcoin
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
@@ -680,7 +680,7 @@ Nu we de basisprincipes van Bitcoin wallets en de beste methodes om ze te beveil
 
 31 oktober 2008 markeert de geboorte van de nieuwe financiële technologie die Bitcoin is. Op deze dag presenteerde de anonieme Satoshi Nakamoto zijn innovatie aan de wereld via een e-mail naar de mailinglijst van de cypherpunks, een gemeenschap van liefhebbers van cryptografie die privacy op het internet promoten. Deze e-mail bevatte een document met de naam "White Paper", waarin werd uitgelegd hoe Bitcoin werkte.
 
-Dit initiatief wekte niet meteen enthousiasme bij generate, waarschijnlijk vanwege de eerdere mislukkingen in de pogingen om een digitaal geldsysteem te creëren. Desondanks werd dit witboek uiteindelijk een referentie voor Bitcoin gebruikers en is het door de jaren heen het onderwerp geweest van vele debatten in het Bitcoin ecosysteem.
+Dit initiatief wekte niet meteen enthousiasme op, waarschijnlijk vanwege de eerdere mislukkingen in de pogingen om een digitaal geldsysteem te creëren. Desondanks werd deze whitepaper uiteindelijk een referentie voor Bitcoin gebruikers en is het door de jaren heen het onderwerp geweest van vele debatten in het Bitcoin ecosysteem.
 
 ![image](assets/en/40.webp)
 
@@ -688,8 +688,8 @@ Op 3 januari 2009 opende Satoshi officieel het Bitcoin netwerk door het eerste b
 
 ![image](assets/en/41.webp)
 
-> "We kunnen een belangrijke slag in de wapenwedloop winnen en een
-> nieuw gebied van vrijheid voor meerdere jaren." - Satoshi Nakamoto
+> "We kunnen een belangrijke slag winnen in de wapenwedloop en een
+> nieuw gebied van vrijheid voor meerdere jaren verwerven." - Satoshi Nakamoto
 
 ![image](assets/en/42.webp)
 
@@ -699,27 +699,26 @@ Op 9 januari 2009 kondigde Satoshi de release aan van de Bitcoin 0.1.0 versie. K
 
 ![image](assets/en/43.webp)
 
-De interesse in Bitcoin groeide snel, waardoor veel mensen het gingen testen, debatteren, bugs oplossen en nadenken over de ethische, economische en filosofische aspecten. Mensen waren zo geboeid dat Satoshi op 22 november 2009 het BitcoinTalk-forum oprichtte om dit soort communicatie mogelijk te maken.
+De interesse in Bitcoin groeide snel, waardoor veel mensen het gingen testen, discussies gingen voeren, bugs wilden oplossen en wilden nadenken over de ethische, economische en filosofische aspecten ervan. Mensen waren zo geboeid dat Satoshi op 22 november 2009 het BitcoinTalk-forum oprichtte om dit soort communicatie mogelijk te maken.
+Het forum werd al snel de favoriete plaats voor discussie onder Bitcoin gebruikers, zozeer zelfs dat er beroemde memes en symbolen uit voortkwamen die geassocieerd werden met Bitcoin, zoals het [Bitcoin logo](https://bitcointalk.org/index.php?topic=64.0), de beroemde [HODL](https://bitcointalk.org/index.php?topic=375643.0), of zelfs [Pizza dag](https://bitcointalk.org/index.php?topic=137.msg1195).
 
-Het forum werd al snel de favoriete plaats van discussie voor Bitcoin gebruikers, zozeer zelfs dat er beroemde memes en symbolen uit voortkwamen die geassocieerd werden met Bitcoin, zoals het [Bitcoin logo](https://bitcointalk.org/index.php?topic=64.0), de beroemde [HODL](https://bitcointalk.org/index.php?topic=375643.0), of zelfs [Pizza dag](https://bitcointalk.org/index.php?topic=137.msg1195).
-
-**Wist je dat?** Op 22 mei 2010 schreef Laszlo Hanyecz geschiedenis door aan te bieden twee pizza's te kopen voor 10.000 BTC: het was de eerste keer dat Bitcoin werd gebruikt om fysieke goederen te kopen.
+**Wist je dat?** Op 22 mei 2010 schreef Laszlo Hanyecz geschiedenis door 10.000 BTC aan te bieden om twee pizza's te kopen: het was de eerste keer dat Bitcoin werd gebruikt om fysieke goederen te kopen.
 
 ![image](assets/en/44.webp)
 
 ### De verdwijning van Satoshi Nakamoto
 
-In 2010, toen Bitcoin media-aandacht begon te krijgen, besloot Satoshi afstand te nemen door zijn vertrek aan te kondigen in een forumbericht op 12 december 2010. Op 23 april 2011 maakte hij zijn laatste privé Exchange bekend via e-mail, waarna hij verdween en zijn creatie achterliet in de handen van de gemeenschap.
+In 2010, toen Bitcoin media-aandacht begon te krijgen, besloot Satoshi afstand te nemen door zijn vertrek aan te kondigen in een forumbericht op 12 december 2010. Op 23 april 2011 maakte hij zijn laatste bekende privé-uitwisseling via e-mail, waarna hij verdween en zijn creatie achterliet in de handen van de gemeenschap.
 
 > "Regeringen zijn goed in het afsnijden van de hoofden van een centraal
 > gecontroleerde netwerken zoals Napster, maar pure P2P netwerken zoals
 > Gnutella en Tor lijken stand te houden." - Satoshi Nakamoto
 
-Ondanks de afwezigheid van Satoshi ging de ontwikkeling van Bitcoin door: de geschiedenis van Bitcoin wordt elke 10 minuten geschreven en het protocol functioneert tot op de dag van vandaag zoals het bedoeld is. Ongeacht angst, onzekerheid of twijfel, blijft Bitcoin doorgaan, met een zeer sterke online beschikbaarheid. Volgens deze [website] (https://bitcoinuptime.com/) is Bitcoin in 99,988% van de tijd sinds de creatie functioneel geweest en heeft het zonder grote problemen gefunctioneerd.
+Ondanks de afwezigheid van Satoshi ging de ontwikkeling van Bitcoin door: de geschiedenis van Bitcoin wordt elke 10 minuten geschreven en het protocol functioneert tot op de dag van vandaag zoals het bedoeld is. Ongeacht angst, onzekerheid of twijfel, blijft Bitcoin doorgaan, met een zeer sterke online beschikbaarheid. Volgens deze [website](https://bitcoinuptime.com/) is Bitcoin in 99,988% van de tijd sinds de creatie functioneel geweest en heeft het zonder grote problemen gefunctioneerd.
 
 Voor sommigen wordt Bitcoin gedefinieerd als een schimmelachtige entiteit zoals een [mycelium](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/), terwijl anderen het beschrijven als een [zwart gat](https://dergigi.com/). Of je het nu leuk vindt of niet, Bitcoin blijft bestaan, met zijn constante ritme van 10 minuten per blok, als de hartslag van een nieuw monetair systeem.
 
-Om meer te weten te komen over de geschriften van Satoshi Nakamoto, raden we aan ["The Book of Satoshi"](https://planb.network/en/resources/books/98) van Phil Champagne of de ARTE documentaire "Le mystaire Satoshi" te lezen.
+Om meer te weten te komen over de geschriften van Satoshi Nakamoto, raden we ["The Book of Satoshi"](https://planb.network/en/resources/books/98) aan van Phil Champagne of de ARTE documentaire "Le mystaire Satoshi" te lezen.
 
 ![image](assets/en/45.webp)
 
@@ -731,88 +730,88 @@ Nu we wat achtergrond hebben, laten we eens kijken hoe een Bitcoin transactie in
 
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
-Een Bitcoin transactie is simpelweg een overdracht van Ownership aan bitcoins door het gebruik van een Bitcoin Address. Om dit proces te beschrijven, introduceren we twee hoofdrolspelers: Alice en Bob. Alice wil bitcoins verwerven, terwijl Bob er al enkele bezit.
+Een Bitcoin transactie is simpelweg een overdracht van eigenaarschap van bitcoins door het gebruik van een Bitcoin adres. Om dit proces te beschrijven, introduceren we twee hoofdrolspelers: Alice en Bob. Alice wil bitcoins verwerven, terwijl Bob er al enkele bezit.
 
-### Stap 1 - De transactie aanmaken via de Wallet
+### Stap 1 - De transactie aanmaken via de wallet
 
-Om Bob bitcoins te laten overmaken naar Alice, moet ze hem een van haar Bitcoin adressen geven, die uniek zijn voor haar Bitcoin Wallet. Net zoals de private sleutel wordt gebruikt om de publieke sleutel generate te maken, wordt de publieke sleutel vervolgens gebruikt om generate adressen te maken.
+Om Bob bitcoins te laten overmaken naar Alice, moet ze hem een van haar Bitcoin adressen geven, die uniek zijn voor haar Bitcoin wallet. Net zoals de privésleutel wordt gebruikt om de openbare sleutel te genereren, wordt de openbare sleutel vervolgens gebruikt om adressen te genereren.
 
-Concreet: als Alice haar Wallet opent en op 'ontvangen' drukt, verschijnt er een QR-code of een Address (zoals deze bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Dit dient als een soort 'Bitcoin IBAN', dat ze vervolgens doorgeeft aan Bob.
+In concrete termen, als Alice haar wallet opent en op 'ontvangen' drukt, verschijnt er een QR-code of een adres (zoals deze bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Dit dient als een soort 'Bitcoin IBAN', dat ze vervolgens doorgeeft aan Bob.
 
-Daarna maakt Bob de transactie door zijn Bitcoin Wallet te openen en op "verzenden" te drukken. Vervolgens kopieert en plakt hij Address van Alice in het vereiste veld, voegt het bedrag toe dat hij wil verzenden en beslist over de transactiekosten, die dienen als stimulans voor mijnwerkers om de transactie in het volgende blok op te nemen. Hoe hoger de vergoedingen zijn die Bob betaalt, hoe groter de kans dat de transactie in het volgende blok wordt toegevoegd aan de Blockchain, d.w.z. een openbare en onveranderlijke Ledger waarin alle Bitcoin transacties zijn opgenomen.
+Daarna maakt Bob de transactie door zijn Bitcoin wallet te openen en op "verzenden" te drukken. Vervolgens kopieert en plakt hij het adres van Alice in het vereiste veld, voegt het bedrag toe dat hij wil verzenden en beslist over de transactiekosten, die dienen als een stimulans voor miners om de transactie in het volgende blok op te nemen. Hoe hoger de vergoedingen zijn die Bob betaalt, hoe groter de kans dat de transactie in het volgende blok wordt toegevoegd aan de blockchain, d.w.z. een openbare en onveranderlijke ledger (grootboek) waarin alle Bitcoin transacties zijn opgenomen.
 
-Om de transactie af te ronden, moet Bob deze ondertekenen met zijn private sleutel om te verifiëren dat hij de eigenaar is van de bitcoins die hij wil overdragen. Deze stap is meestal automatisch op mobiele wallets, of het neemt de vorm aan van een bevestiging op je fysieke Wallet: "Weet je zeker dat je X naar Y wilt sturen? Ja of nee".
+Om de transactie af te ronden, moet Bob deze ondertekenen met zijn privésleutel om te verifiëren dat hij de eigenaar is van de bitcoins die hij wil overdragen. Deze stap is meestal automatisch op mobiele wallets, of het neemt de vorm aan van een bevestiging op je fysieke wallet: "Weet je zeker dat je X naar Y wilt sturen? Ja of nee".
 
 ![image](assets/en/46.webp)
 
-**Waarom betalen we vergoedingen?** Vergoedingen zijn essentieel om een vrije markt te creëren voor het opnemen van transacties in blokken. In feite heeft een blok een grootte van 1 MB (die werd uitgebreid naar 4 MB na de SegWit update), dus het aantal transacties dat in een blok kan worden "geplaatst" is beperkt tot een paar duizend transacties per blok. De grootte van een transactie hangt af van de complexiteit ervan. Complexere transacties brengen hogere kosten met zich mee.
+**Waarom betalen we fees (vergoedingen)?** Vergoedingen zijn essentieel om een vrije markt te creëren voor het opnemen van transacties in blokken. In feite heeft een blok een grootte van 1 MB (die werd uitgebreid naar 4 MB na de SegWit update), dus het aantal transacties dat in een blok kan worden "geplaatst" is beperkt tot een paar duizend transacties per blok. De grootte van een transactie hangt af van de complexiteit ervan. Complexere transacties brengen hogere kosten met zich mee.
 
-### Stap 2: Voortplanting van de transactie door knooppunten
+### Stap 2: Verspreiding van de transactie door nodes
 
-In dit stadium is de transactie aangemaakt en Bob's Wallet zal deze delen met het Bitcoin netwerk. Om dit te doen, communiceert zijn Wallet met een knooppunt van het Bitcoin netwerk, dat deze informatie doorgeeft aan andere knooppunten. Door dit soort proces kan het hele netwerk deze nieuwe transactie zien en er rekening mee houden.
+In dit stadium is de transactie aangemaakt en Bob's Wallet zal deze delen met het Bitcoin netwerk. Om dit te doen, communiceert zijn wallet met een node van het Bitcoin netwerk, dat deze informatie doorgeeft aan andere nodes. Door dit soort proces kan het hele netwerk deze nieuwe transactie zien en er rekening mee houden.
 
 ![image](assets/en/47.webp)
 
-Op dit moment, ook al is deze transactie bij iedereen bekend (via een tool genaamd Mempool), kan het niet als bevestigd worden beschouwd totdat het wordt ingevoegd in een blok door een Miner, die de enige is die transacties valideert door ze op te nemen in de Blockchain.
+Op dit moment, ook al is deze transactie bij iedereen bekend (via een tool genaamd Mempool), kan het niet als bevestigd worden beschouwd totdat het wordt ingevoegd in een blok door een miner, die de enige is die transacties valideert door ze op te nemen in de blockchain.
 
-In feite hebben miners de taak om geldige en onbevestigde transacties te verzamelen om ze samen te voegen tot een blok. In een notendop moeten ze een cryptografische puzzel oplossen in een proces dat "Proof of Work" wordt genoemd, zodat hun blok de volgende in de Bitcoin Blockchain wordt.
+In feite hebben miners de taak om geldige en onbevestigde transacties te verzamelen om ze samen te voegen tot een blok. In een notendop moeten ze een cryptografische puzzel oplossen in een proces dat "proof of work" wordt genoemd, zodat hun blok de volgende in de Bitcoin blockchain wordt.
 
 ![image](assets/en/48.webp)
 
-### Stap 3: De transactie wordt gemined in een blok door een Miner.
+### Stap 3: De transactie wordt gemined in een blok door een miner.
 
-Het Proof of Work systeem vereist het vinden van een geldige "Hash" voor het blok in kwestie: zie het als een unieke vingerafdruk geassocieerd met het blok, bestaande uit 256 karakters. De geldigheid van deze Hash hangt af van de moeilijkheidsgraad van het Bitcoin netwerk (we gaan hier later dieper op in). Voor nu, stel dat een Miner een geldig blok heeft gevonden, en dat Bob's transactie naar Alice erin is opgenomen. Dan wordt het nieuwe geldige blok toegevoegd aan Blockchain, de gemeenschappelijke Ledger voor alle Bitcoin gebruikers.
+Het proof of work systeem vereist het vinden van een geldige "Hash" voor het blok in kwestie: zie het als een unieke vingerafdruk geassocieerd met het blok, bestaande uit 256 karakters. De geldigheid van deze Hash hangt af van de moeilijkheidsgraad van het Bitcoin netwerk (we gaan hier later dieper op in). Voor nu, stel dat een miner een geldig blok heeft gevonden, en dat Bob's transactie naar Alice erin is opgenomen. Dan wordt het nieuwe geldige blok toegevoegd aan de blockchain, de gemeenschappelijke ledger (grootboek) voor alle Bitcoin gebruikers.
 
 ![image](assets/en/49.webp)
 
-### Stap 4: Het blok is geldig en geverifieerd door het referentieknooppunt van Alice.
+### Stap 4: Het blok is geldig en geverifieerd door de referentie-node van Alice.
 
-In dit stadium wordt de transactie als geldig beschouwd: Miner zal dan het nieuwe blok naar het netwerk propageren via hun knooppunt en Alice's Wallet zal worden bijgewerkt.
+In dit stadium wordt de transactie als geldig beschouwd: de miner zal dan het nieuwe blok naar het netwerk verspreiden via hun node en Alice's wallet zal worden bijgewerkt.
 
 ![image](assets/en/50.webp)
 
-**Noot:** Zelfs als Alice bericht krijgt dat ze bitcoins heeft ontvangen op een van haar adressen, is het raadzaam om de transactie pas als onveranderbaar te beschouwen nadat ze **zes** bevestigingen heeft ontvangen. Dit betekent dat er zes extra blokken gedolven moeten worden bovenop het blok met Bob's transactie. Met andere woorden, hoe ouder een transactie is in de Blockchain, hoe onveranderlijker ze wordt.
+**Opmerking:** Zelfs als Alice bericht krijgt dat ze bitcoins heeft ontvangen op een van haar adressen, is het raadzaam om de transactie pas als onveranderbaar te beschouwen nadat ze **zes** bevestigingen heeft ontvangen. Dit betekent dat er zes extra blokken gemined moeten worden bovenop het blok met Bob's transactie. Met andere woorden, hoe ouder een transactie is in de blockchain, hoe onveranderlijker ze wordt.
 
 ### Wat is het belang van dit proces?
 
 Het Bitcoin transactiesysteem is gedecentraliseerd en werkt peer-to-peer, zonder vertrouwde tussenpersonen.
 
-Bob stuurt zijn transactie naar het Bitcoin netwerk, en wanneer een Miner een geldig blok publiceert dat Bob's transactie bevat, kan Alice gaan denken dat de bitcoins van haar zijn. Vertrouwen is bij geen enkele stap van de Bitcoin Ownership overdracht vereist: de protocolregels en economische stimulansen alleen al maken het onbetaalbaar om kwaadwillig te handelen binnen het Bitcoin systeem.
+Bob stuurt zijn transactie naar het Bitcoin netwerk, en wanneer een miner een geldig blok publiceert dat Bob's transactie bevat, kan Alice er langzaam vanuit gaan dat de bitcoins van haar zijn. Vertrouwen is bij geen enkele stap van de overdracht van bitcoin vereist: alleen al de protocolregels en economische stimulansen maken het onbetaalbaar om kwaadwillig te handelen binnen het Bitcoin systeem.
 
-In feite dragen gebruikers Ownership van hun geld over door transacties digitaal te ondertekenen met hun eigen privésleutels. Aan de andere kant hebben miners beperkte macht en behouden gebruikers aanzienlijke controle door Bitcoin knooppunten te gebruiken om de nieuwe blokken en de bijbehorende transacties te valideren. Elk knooppunt heeft een volledige of gedeeltelijke kopie van Ledger, dus het netwerk gevormd door de Bitcoin knooppunten maakt het systeem echt gedecentraliseerd.
+In feite dragen gebruikers eigenaarscahp van hun tegoeden over door transacties digitaal te ondertekenen met hun eigen privésleutels. Aan de andere kant hebben miners beperkte macht en behouden gebruikers aanzienlijke controle door Bitcoin nodes te gebruiken om de nieuwe blokken en de bijbehorende transacties te valideren. Elke node heeft een volledige of gedeeltelijke kopie van de ledger (grootboek), dus het netwerk gevormd door de Bitcoin nodes maakt het systeem echt gedecentraliseerd.
 
-Om het Bitcoin netwerk volledig te vernietigen, zou elke kopie van Blockchain op alle Bitcoin knooppunten moeten worden geëlimineerd, wat praktisch onmogelijk is vanwege de geografische spreiding van deze knooppunten en de moeilijkheid om ze fysiek in beslag te nemen.
+Om het Bitcoin netwerk volledig te vernietigen, zou elke kopie van de blockchain op alle Bitcoin nodes moeten worden geëlimineerd, wat praktisch onmogelijk is vanwege de geografische spreiding van deze nodes en de moeilijkheid om ze fysiek in beslag te nemen.
 
 Laten we eens kijken hoe een Bitcoin node werkt.
 
-## Bitcoin Knooppunten
+## Bitcoin Nodes
 
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
-Knooppunten zijn een fundamenteel element van de Bitcoin netwerkarchitectuur, omdat ze verschillende cruciale functies vervullen:
+Nodes zijn een fundamenteel element van de Bitcoin netwerkarchitectuur omdat ze verschillende cruciale functies vervullen:
 
-- Een kopie van de Bitcoin Blockchain bijhouden
+- Een kopie van de Bitcoin blockchain bijhouden
 - Transacties valideren
-- Informatie verzenden naar andere knooppunten
-- De regels van het Bitcoin protocol afdwingen.
+- Informatie verzenden naar andere nodes
+- De regels van het Bitcoin protocol afdwingen
 
 Daarom draagt elk apparaat dat een stuk Bitcoin software draait, een Bitcoin node genoemd (vaak met [Bitcoin Core](https://Bitcoin.org/en/Bitcoin-core/)), bij aan de decentralisatie van het netwerk.
 
 ![image](assets/en/51.webp)
 
-### Knooppunten vormen de centrale kern van Bitcoin.
+### Nodes vormen de centrale kern van Bitcoin.
 
-Elk knooppunt heeft een kopie van Blockchain, waardoor transacties kunnen worden geverifieerd en fraudepogingen worden voorkomen. De gedecentraliseerde aard van het netwerk geeft Bitcoin een uitzonderlijke veerkracht en robuustheid. Om het Bitcoin protocol te stoppen, zouden alle knooppunten over de hele wereld uitgeschakeld moeten worden. In september 2023 waren er ongeveer [45.000 nodes](https://bitnodes.io/nodes/all/) verspreid over de hele wereld.
+Elke node heeft een kopie van Blockchain, waardoor transacties kunnen worden geverifieerd en fraudepogingen worden voorkomen. De gedecentraliseerde aard van het netwerk geeft Bitcoin een uitzonderlijke veerkracht en robuustheid. Om het Bitcoin protocol te stoppen, zouden alle nodes over de hele wereld uitgeschakeld moeten worden. In september 2023 waren er ongeveer [45.000 nodes](https://bitnodes.io/nodes/all/) verspreid over de hele wereld.
 
-Knooppunten zijn in staat om de geldigheid van blokken en transacties te verifiëren, omdat ze de regels van de Bitcoin consensus volgen. Deze regels bepalen het monetaire beleid van Bitcoin, zoals het Mining beloningsbedrag (dat we in het volgende deel in meer detail bespreken) en de hoeveelheid Bitcoin in omloop. Knooppunten fungeren in zekere zin als het rechtssysteem van het netwerk, omdat ze de regels van Bitcoin handhaven en het netwerk neutraal houden. Consensusregels variëren niet of nauwelijks, omdat voor veranderingen de goedkeuring van alle knooppunten nodig is.
+Nodes zijn in staat om de geldigheid van blokken en transacties te verifiëren, omdat ze de regels van de Bitcoin consensus volgen. Deze regels bepalen het monetaire beleid van Bitcoin, zoals het beloningsbedrag voor miners (dat we in het volgende deel in meer detail bespreken) en de hoeveelheid Bitcoin in circulatie. Nodes fungeren in zekere zin als het rechtssysteem van het netwerk, omdat ze de regels van Bitcoin handhaven en het netwerk neutraal houden. Consensusregels variëren niet of nauwelijks, omdat voor veranderingen de goedkeuring van alle nodes nodig is.
 
 ![image](assets/en/52.webp)
 
-Governance binnen het protocol valt buiten het bereik van deze basiscursus, maar het is belangrijk om op te merken dat elke gebruiker die een Bitcoin knooppunt beheert, kan beslissen welke regels hij volgt. Een gebruiker kan ervoor kiezen om andere regels te volgen (d.w.z. wijzigingen aanbrengen in de code), maar als deze wijzigingen de huidige consensusregels ongeldig maken, zal dat knooppunt niet langer deel uitmaken van het Bitcoin netwerk. Bijgevolg zijn grote wijzigingen zeldzaam en vereisen ze significante coördinatie tussen duizenden deelnemers met verschillende ideologieën en belangen, wat hen dwingt om updates aan te bieden die door alle Bitcoin gebruikers als 'beter' worden beschouwd.
+Governance (bestuur) binnen het protocol valt buiten het bereik van deze basiscursus, maar het is belangrijk om op te merken dat elke gebruiker die een Bitcoin node beheert, kan beslissen welke regels hij volgt. Een gebruiker kan ervoor kiezen om andere regels te volgen (d.w.z. wijzigingen aanbrengen in de code), maar als deze wijzigingen de huidige consensusregels ongeldig maken, zal die node niet langer deel uitmaken van het Bitcoin netwerk. Als gevolg hiervan zijn grote wijzigingen zeldzaam en vereisen ze significante coördinatie tussen duizenden deelnemers met verschillende ideologieën en belangen, wat hen dwingt om updates aan te bieden die door alle Bitcoin gebruikers als 'beter' worden beschouwd.
 
-### Hoe ziet een knooppunt eruit?
+### Hoe ziet een node eruit?
 
-Er zijn verschillende opties beschikbaar als je je eigen node wilt installeren, met verschillende onderhoudskosten. Je kunt eenvoudigweg de Bitcoin Core software op je computer draaien, maar dat vereist een aanzienlijke hoeveelheid opslagruimte, aangezien de Blockchain ongeveer ~500GB groot is. Om deze beperking te omzeilen, kun je ervoor kiezen om alleen de laatste N blokken in het geheugen te bewaren door een "pruned node" te maken. Voor deze tweede oplossing zijn de kosten te verwaarlozen, omdat het knooppunt alleen actief is als je het nodig hebt.
+Er zijn verschillende opties beschikbaar als je je eigen node wilt installeren, met verschillende onderhoudskosten. Je kunt eenvoudigweg de Bitcoin Core software op je computer draaien, maar dat vereist een aanzienlijke hoeveelheid opslagruimte, aangezien de blockchain ongeveer ~500GB groot is. Om deze beperking te omzeilen, kun je ervoor kiezen om alleen de laatste N blokken in het geheugen te bewaren door een "pruned node (afgeslankte node)" te maken. Voor deze tweede oplossing zijn de kosten te verwaarlozen, omdat de node alleen actief is als je het nodig hebt.
 
 ![image](assets/en/53.webp)
 
@@ -820,25 +819,25 @@ Een tweede optie is om hiervoor speciale hardware te gebruiken, zoals een Raspbe
 
 Vanuit het oogpunt van bandbreedte komt 1 blok van 1MB elke 10 minuten ongeveer overeen met 5GB per maand.
 
-### Knooppunten moeten toegankelijk blijven voor iedereen!
+### Nodes moeten toegankelijk blijven voor iedereen!
 
-De betaalbare kosten en toegankelijkheid van een Bitcoin knooppunt in termen van hardware, opslag en bandbreedte is een zeer belangrijk kenmerk, omdat het de decentralisatie van het netwerk vergemakkelijkt.
+De betaalbare kosten en toegankelijkheid van een Bitcoin node in termen van hardware, opslag en bandbreedte is een zeer belangrijk kenmerk, omdat het de decentralisatie van het netwerk bevordert.
 
-Iedereen heeft wel een goede reden om een node te runnen! De kosten en inspanningen zijn minimaal in vergelijking met het verkregen voordeel. Je hoeft alleen maar het avontuur aan te gaan en je aan te sluiten bij duizenden andere bitcoiners om samen het Bitcoin netwerk te vormen.
+Iedereen heeft wel een goede reden om een node te runnen! De kosten en inspanningen zijn minimaal in vergelijking met het voordeel dat je krijgt. Je hoeft alleen maar het avontuur aan te gaan en je aan te sluiten bij duizenden andere bitcoiners om samen het Bitcoin netwerk te vormen.
 
 ![image](assets/en/54.webp)
 
 Integendeel, als de blokken 100 keer zo zwaar zouden zijn, zouden we zeker 100 keer meer transacties per 10 minuten kunnen doen, maar het draaien van een Bitcoin node zou een 50TB Hard schijf vereisen, een bandbreedte van meer dan 500GB/maand en een stuk hardware dat honderdduizenden transacties in minder dan 10 minuten kan valideren. In deze hypothetische situatie met 100 keer grotere blokken, zou het draaien van een Bitcoin node niet toegankelijk zijn voor de gemiddelde persoon, wat zowel de decentralisatie van het protocol als de onveranderlijkheid van transacties en consensusregels in gevaar zou brengen.
 
-De protocolrestricties zijn dus ontworpen om zoveel mogelijk mensen in staat te stellen hun eigen Bitcoin knooppunten te gebruiken. Het jaar 2017 werd in feite gekenmerkt door een intense controverse die bekend staat als de "block size war". In dit conflict stonden degenen die Bitcoin wilden wijzigen door de blokgrootte te vergroten om de transactiecapaciteit te vergroten (miners, Exchange-platforms en instellingen) tegenover degenen die de onafhankelijkheid en macht van gebruikers wilden behouden (nodes en gebruikers). Uiteindelijk zegevierde de tweede partij.
+De protocolrestricties zijn dus ontworpen om zoveel mogelijk mensen in staat te stellen hun eigen Bitcoin nodes te gebruiken. Het jaar 2017 werd in feite gekenmerkt door een intense controverse die bekend staat als de "block size war (blokgrootte oorlog)". In dit conflict stonden degenen die Bitcoin wilden wijzigen door de blokgrootte te vergroten om de transactiecapaciteit te vergroten (miners, exchange platforms en instellingen) tegenover degenen die de onafhankelijkheid en macht van gebruikers wilden behouden (nodes en gebruikers). Uiteindelijk zegevierde de tweede partij.
 
-Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg vrijmaakte voor de implementatie van de Lightning Network, een instant Bitcoin betalingsnetwerk gebouwd als een tweede Layer van de Bitcoin Blockchain. Deze situatie toont aan dat gebruikers, via hun nodes, echte macht hebben binnen Bitcoin, waardoor ze het kunnen opnemen tegen grote instellingen in tijden van onenigheid.
+Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg vrijmaakte voor de implementatie van het Lightning Network, een instant Bitcoin betalingsnetwerk gebouwd als een tweede laag van de Bitcoin blockchain. Deze situatie toont aan dat gebruikers, via hun nodes, echte macht hebben binnen Bitcoin, waardoor ze het kunnen opnemen tegen grote instellingen in tijden van onenigheid.
 
-## Mijnwerkers
+## Miners
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via ASIC machines om de Bitcoin Proof of Work op te lossen.**
+**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via ASIC machines om de Bitcoin proof of work op te lossen.**
 
 ![image](assets/en/55.webp)
 
@@ -846,15 +845,14 @@ Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg v
 
 "Proof of Work (POW) is het veiligheidsconsensusmechanisme van het Bitcoin protocol. Het is de basis van alles en speelt een cruciale rol in de speltheorie van Bitcoin.
 
-Om uit te leggen hoe het werkt, stel je een universele loterij voor waaraan iedereen kan deelnemen. Het doel is om een specifiek getal te vinden waarmee de winnaar een geldig blok kan ondertekenen en een beloning in Bitcoin verdient. Dit getal is heel eenvoudig te verifiëren met de SHA-256 Hash functie, maar moeilijk te vinden: deelnemers (miners) zullen miljarden en miljarden mogelijkheden proberen, zoals 1, 52, 2648, 26874615, 15344854131318631, enzovoort, totdat ze het juiste getal ontdekken.
+Om uit te leggen hoe het werkt, stel je een universele loterij voor waaraan iedereen kan deelnemen. Het doel is om een specifiek getal te vinden waarmee de winnaar een geldig blok kan ondertekenen en een beloning in Bitcoin verdient. Dit getal is heel eenvoudig te verifiëren met de SHA-256 hash functie, maar moeilijk te vinden: deelnemers (miners) zullen miljarden en miljarden mogelijkheden proberen, zoals 1, 52, 2648, 26874615, 15344854131318631, enzovoort, totdat ze het juiste getal ontdekken.
 
 Als het gekozen nummer juist is: Jackpot! Anders gaat de zoektocht verder.
+Om het aantal pogingen te optimaliseren gebruiken ze specifieke machines, ASIC's genaamd, die als enige taak hebben om miljarden mogelijkheden per seconde te berekenen (de totale hoeveelheid pogingen wordt "HashRate" genoemd). Om deze machines te laten werken, moeten grote hoeveelheden elektriciteit worden verbruikt. Daarom zet POW energie om in valuta en verbindt het de echte wereld met de digitale wereld om de eerste op energie gebaseerde valuta te creëren.
 
-Om het aantal pogingen te optimaliseren, zullen ze specifieke machines gebruiken, ASIC's genaamd, die als enige taak hebben om miljarden mogelijkheden per seconde te berekenen (de totale hoeveelheid pogingen wordt "Hashrate" genoemd). Om deze machines te laten werken, moeten grote hoeveelheden elektriciteit worden verbruikt. Daarom zet POW energie om in valuta en verbindt het de echte wereld met de digitale wereld om de eerste op energie gebaseerde valuta te creëren.
+De machines werken continu en na gemiddeld 10 minuten komt er een winnaar uit de bus: deze deelnemer heeft met succes de juiste hash gevonden die onder de moeilijkheidsdrempel valt. Deze ene winnaar tekent vervolgens het nieuwe blok van de timestamp server en voegt het toe aan de blockchain. Ze ontvangen hun beloningen en keren terug om hun geluk te beproeven bij het minen van het volgende blok. Dit proces is al meer dan tien jaar aan de gang, waarbij een winnaar elke 10 minuten Bitcoin transacties bevestigt, terwijl hij ook transacties uit het verleden beveiligt, waardoor de blockchain robuuster en veiliger wordt.
 
-De machines werken continu en na gemiddeld 10 minuten komt er een winnaar uit de bus: deze deelnemer heeft met succes de juiste Hash gevonden die onder de moeilijkheidsdrempel valt. Deze enkele winnaar tekent vervolgens het nieuwe blok van de Timestamp server en voegt het toe aan de Blockchain. Ze ontvangen hun beloningen en keren terug om hun geluk te beproeven bij Mining het volgende blok. Dit proces is al meer dan tien jaar aan de gang, waarbij een winnaar elke 10 minuten Bitcoin transacties bevestigt, terwijl hij ook transacties uit het verleden beveiligt, waardoor de Blockchain robuuster en veiliger wordt.
-
-Elke 2016 blokken (ongeveer elke twee weken), herbalanceert de **moeilijkheidsaanpassing** het globale Mining spel gebaseerd op het aantal deelnemers. Deze aanpassing is nodig omdat het aantal miners en hun gecombineerde rekenkracht aanzienlijk kan variëren in de tijd. Om de streefbloktijd te handhaven, past het netwerk de moeilijkheidsgraad aan op basis van hoe snel de laatste 2016 blokken werden gemijnd. Als ze te snel werden gemined, neemt de moeilijkheidsgraad toe, waardoor het moeilijker wordt om de juiste Hash te vinden. Als ze daarentegen te langzaam werden gemijnd, neemt de moeilijkheidsgraad af, waardoor het makkelijker wordt.
+Elke 2016 blokken (ongeveer elke twee weken), herbalanceert de **moeilijkheidsaanpassing** het globale mining spel gebaseerd op het aantal deelnemers. Deze aanpassing is nodig omdat het aantal miners en hun gecombineerde rekenkracht aanzienlijk kan variëren over tijd. Om de nagestreefde bloktijd te handhaven, past het netwerk de moeilijkheidsgraad aan op basis van hoe snel de laatste 2016 blokken werden gemined. Als ze te snel werden gemined, neemt de moeilijkheidsgraad toe, waardoor het moeilijker wordt om de juiste hash te vinden. Als ze daarentegen te langzaam werden gemined, neemt de moeilijkheidsgraad af, waardoor het minen makkelijker wordt.
 
 ![image](assets/en/24.webp)
 

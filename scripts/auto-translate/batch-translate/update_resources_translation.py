@@ -11,7 +11,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent.parent
 
 def get_supported_languages() -> List[str]:
     """Get list of supported languages from btc101 course directory."""
-    directory = PROJECT_ROOT / "courses" / "btc101"
+    directory = PROJECT_ROOT / "courses" / "lnp201"
     supported_languages = []
     
     if directory.exists():

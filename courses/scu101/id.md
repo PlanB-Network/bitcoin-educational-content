@@ -175,7 +175,7 @@ Singkatnya, penggunaan VPN dapat sangat meningkatkan keamanan online baik untuk 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
-Keamanan komputer kita adalah hal utama yang harus diperhatikan di dunia digital saat ini. Saat ini, kami akan membahas tiga poin kunci:
+Keamanan komputer kita adalah hal utama yang harus diperhatikan di dunia digital saat ini. Saat ini, kami akan membahas tiga poin penting:
 
 - Memilih komputer
 - Pembaruan dan antivirus untuk keamanan yang optimal
@@ -183,8 +183,11 @@ Keamanan komputer kita adalah hal utama yang harus diperhatikan di dunia digital
 
 ### Memilih Komputer dan Sistem Operasi
 
-Saat membicarakan pemilihan komputer, tidak ada perbedaan yang signifikan dalam aspek keamanan komputer lama dan baru. Namun, terdapat beberapa perbedaan pada aspek keamanan pada beberapa sistem operasi: Windows, Linux, dan Mac.
-Terkait dengan Windows, Anda disarankan untuk tidak menggunakan akun administrator sehari-hari. Kami menyarankan untuk membuat dua akun terpisah: satu akun administrator dan akun untuk penggunaan sehari-hari. Windows sering kali lebih rentan terhadap *malware* karena jumlah penggunanya yang besar dan mudahnya untuk berpindah-pindah dari menggunakan akun pengguna ke administrator. Di sisi lain, ancaman lebih jarang terjadi pada sistem operasi Linux dan Mac.
+Terkait pemilihan komputer, tidak ada perbedaan keamanan yang signifikan antara komputer lama dan baru. Namun, perbedaan keamanan memang ada pada sistem operasi, termasuk Windows, Linux, dan Mac.
+
+![](assets/notext/11.webp)
+
+Mengenai Windows, disarankan untuk tidak menggunakan akun administrator setiap hari. Sebaiknya, buat dua akun terpisah: satu untuk keperluan administrasi dan satu lagi untuk penggunaan sehari-hari. Windows seringkali lebih rentan terhadap *malware* karena jumlah penggunanya yang besar dan kemudahan beralih dari pengguna standar ke administrator. Sebaliknya, ancaman jauh lebih jarang terjadi pada Linux dan Mac.
 
 Pilihan sistem operasi harus didasarkan pada kebutuhan dan preferensi Anda. Sistem Linux telah berkembang pesat dalam beberapa tahun terakhir, menjadi semakin ramah pengguna. Ubuntu merupakan alternatif yang menarik untuk pemula, dengan antarmuka grafis yang mudah digunakan. Anda bisa mengalokasikan ruang pada komputer untuk mencoba Linux tanpa menghapus Windows, namun hal ini bisa jadi cukup rumit untuk dilakukan. Hal yang seringkali lebih disukai adalah memiliki komputer khusus, mesin virtual, atau *flash drive* USB untuk menguji penggunaan Linux atau Ubuntu.
 

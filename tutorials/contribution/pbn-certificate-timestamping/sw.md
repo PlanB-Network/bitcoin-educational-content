@@ -1,5 +1,5 @@
 ---
-name: Uwekaji muhuri wa nyakati wa vyeti na diploma za Plan ₿ Network
+name: Uwekaji muhuri wa nyakati wa diploma za Plan ₿ Network
 description: Elewa jinsi Plan ₿ Network hutoa uthibitisho unaoweza kuthibitishwa wa vyeti na diploma zako
 ---
 

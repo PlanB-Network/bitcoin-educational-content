@@ -189,32 +189,38 @@ Terkait pemilihan komputer, tidak ada perbedaan keamanan yang signifikan antara 
 
 Mengenai Windows, disarankan untuk tidak menggunakan akun administrator setiap hari. Sebaiknya, buat dua akun terpisah: satu untuk keperluan administrasi dan satu lagi untuk penggunaan sehari-hari. Windows seringkali lebih rentan terhadap *malware* karena jumlah penggunanya yang besar dan kemudahan beralih dari pengguna standar ke administrator. Sebaliknya, ancaman jauh lebih jarang terjadi pada Linux dan Mac.
 
-Pilihan sistem operasi harus didasarkan pada kebutuhan dan preferensi Anda. Sistem Linux telah berkembang pesat dalam beberapa tahun terakhir, menjadi semakin ramah pengguna. Ubuntu merupakan alternatif yang menarik untuk pemula, dengan antarmuka grafis yang mudah digunakan. Anda bisa mengalokasikan ruang pada komputer untuk mencoba Linux tanpa menghapus Windows, namun hal ini bisa jadi cukup rumit untuk dilakukan. Hal yang seringkali lebih disukai adalah memiliki komputer khusus, mesin virtual, atau *flash drive* USB untuk menguji penggunaan Linux atau Ubuntu.
+Pilihan sistem operasi harus didasarkan pada kebutuhan dan preferensi Anda. Sistem Linux telah berkembang pesat dalam beberapa tahun terakhir, menjadi semakin ramah pengguna. Ubuntu adalah alternatif yang menarik bagi pemula, dengan antarmuka grafis yang mudah digunakan. Anda bisa saja mempartisi komputer untuk mencoba Linux sambil tetap mempertahankan Windows, namun proses ini bisa cukup rumit. Seringkali, lebih disukai untuk memiliki komputer khusus, mesin virtual (virtual machine), atau USB *flash drive* untuk menguji penggunaan Linux atau Ubuntu.
+
+![](assets/notext/12.webp)
 
 ### Pembaruan Perangkat Lunak
 
 Aspek penting dari pembaruan sangat sederhana: **memperbarui sistem operasi dan aplikasi secara teratur adalah hal yang penting.**
 
-Pada sistem operasi Windows 10, opsi pembaruan hampir terus-menerus ada dan sangat penting untuk tidak memblokir atau menunda melakukannya. Setiap tahun, sekitar 15.000 aspek kerentanan berhasil diidentifikasi, dan hal ini menyoroti pentingnya menjaga perangkat lunak tetap diperbarui untuk melindunginya dari virus. Secara umum, ketersediaan dukungan untuk perangkat lunak berakhir antara 3 hingga 5 tahun setelah dirilis, sehingga Anda perlu untuk memperbarui ke versi yang lebih tinggi untuk terus mendapatkan manfaat keamanan.
+Pada Windows 10, pembaruan (updates) hampir berlangsung terus-menerus, dan sangat penting untuk tidak memblokir atau menundanya. Setiap tahun, sekitar 15.000 kerentanan diidentifikasi, yang menyoroti pentingnya menjaga perangkat lunak tetap mutakhir untuk melindungi dari malware dan ancaman siber lainnya. Umumnya, dukungan perangkat lunak berakhir antara 3 hingga 5 tahun setelah dirilis, jadi perlu upgrade ke versi yang lebih tinggi agar tetap mendapatkan pembaruan keamanan.
 
-Aturan ini berlaku untuk hampir semua perangkat lunak. Memang benar bahwa pembaruan tidak dimaksudkan untuk membuat mesin Anda usang atau lambat, tetapi untuk melindunginya dari ancaman baru. Beberapa pembaruan bahkan dianggap penting, dan tanpa pembaruan tersebut, komputer Anda berisiko besar untuk disalahgunakan.
+Aturan ini berlaku untuk hampir semua perangkat lunak. Pembaruan, sejatinya, tidak bertujuan membuat komputer Anda usang atau lambat; sebaliknya, pembaruan dirancang untuk melindungi dari ancaman baru. Beberapa pembaruan bahkan dianggap penting, dan tanpanya, komputer Anda berisiko serius untuk dieksploitasi.
 
-Untuk memberi Anda contoh konkret dari sebuah kesalahan: perangkat lunak bajakan yang tidak dapat diperbarui melibatkan bahaya ganda. Potensi adanya virus selama pengunduhan ilegal dari situs web yang mencurigakan serta penggunaan yang tidak aman terhadap bentuk serangan baru karena tidak bisa diperbarui.
+Sebagai contoh konkret dari kesalahan, perangkat lunak bajakan (cracked software) yang tidak dapat diperbarui menimbulkan ancaman ganda. Potensi ancaman itu adalah masuknya virus saat mengunduhnya secara ilegal dari situs web mencurigakan, serta penggunaan yang tidak aman terhadap bentuk serangan baru.
 
 ### Anti-virus
 
 - Apakah Anda memerlukan anti-virus? YA
 - Apakah Anda harus membayar? Tergantung!
 
-Pilihan dan penggunaan anti-virus bersifat penting. Windows Defender, antivirus bawaan di Windows, adalah solusi yang aman dan efektif. Karena bersifat gratis, antivirus ini sangat baik dan jauh lebih baik dari banyak antivirus gratis yang dapat ditemukan online. Namun, Anda harus berhati-hati dengan antivirus yang diunduh dari Internet, karena bisa jadi berbahaya atau usang.
-Bagi yang ingin menggunakan antivirus berbayar, pilihlah antivirus yang bisa mendeteksi ancaman baru yang belum dikenal, seperti Kaspersky. Pastikan untuk selalu memperbarui antivirus, karena itu penting untuk melindungi diri dari ancaman terbaru.
+Pemilihan dan penerapan antivirus itu penting. Windows Defender, antivirus bawaan di Windows, adalah solusi yang aman dan efektif. Sebagai solusi gratis, ini sangat bagus dan jauh lebih baik daripada banyak solusi gratis lain yang ditemukan online.
+
+Memang, Anda harus berhati-hati saat mengunduh perangkat lunak antivirus dari internet, karena bisa jadi perangkat lunak itu berbahaya atau sudah kedaluwarsa. Bagi yang ingin menggunakan pada antivirus berbayar, disarankan untuk memilih antivirus yang secara cerdas menganalisis ancaman tak dikenal dan yang baru muncul, seperti Kaspersky. Pembaruan antivirus sangat penting untuk melindungi dari ancaman yang terus berkembang.
+
+![](assets/notext/13.webp)
 
 > Catatan: Linux dan Mac, berkat sistem pemisahan hak pengguna mereka, seringkali tidak memerlukan antivirus.
 
-Berikut adalah beberapa praktik yang baik untuk keamanan komputer dan data Anda. Penting untuk memilih antivirus yang efektif dan ramah pengguna. Aspek lainnya yang sangat penting adalah untuk memiliki kebiasaan praktik baik saat menggunakan komputer Anda, seperti tidak memasukkan USB tidak dikenal atau mencurigakan. USB ini dapat berisi program berbahaya yang dapat secara otomatis aktif saat USB dimasukkan. Pemeriksaan USB akan sia-sia setelah USB dipasang. Beberapa perusahaan telah menjadi korban peretasan karena kecerobohan seperti meninggalkan USB di tempat yang rawan, seperti tempat parkir.
+Terakhir, ini beberapa praktik terbaik untuk mengamankan komputer dan data Anda. Penting untuk memilih antivirus yang efektif dan mudah digunakan. Selain itu, sangat penting untuk mengadopsi kebiasaan baik pada komputer Anda, seperti tidak memasukkan USB *flash drive* yang tidak dikenal atau mencurigakan. USB ini mungkin mengandung program berbahaya yang dapat otomatis berjalan saat dimasukkan. Mengecek USB *flash drive* setelah terlanjur dimasukkan akan sia-sia. Beberapa perusahaan bahkan menjadi korban peretasan karena USB *flash drive* yang sengaja ditinggalkan di area mudah diakses, seperti tempat parkir.
 
-Perlakukanlah komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak diperlukan, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone guna mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah contoh solusi untuk enkripsi data. Anda disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
-Sebagai penutup, sangat penting untuk memilih sistem operasi yang cocok dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang sudah terinstal. Hal penting lainnya yaitu untuk menggunakan antivirus yang efektif dan ramah pengguna serta memiliki kebiasaan praktik yang baik untuk menjaga keamanan komputer dan data Anda.
+Perlakukan komputer Anda seperti Anda memperlakukan rumah: tetap waspada, perbarui perangkat lunak secara berkala, hapus file yang tidak perlu, dan gunakan kata sandi yang kuat untuk keamanan tambahan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone untuk mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah solusi untuk enkripsi data. Sangat disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi di kertas untuk disimpan di tempat yang aman.
+
+Sebagai kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai dengan kebutuhan Anda dan memperbaruinya secara berkala, begitu juga aplikasi yang terinstal. Juga penting untuk menggunakan program antivirus yang efektif dan mudah digunakan, serta mengadopsi praktik keamanan yang baik untuk melindungi komputer dan data Anda.
 
 ## Peretasan & Pengelolaan Pencadangan: Melindungi Data Anda
 

@@ -51,7 +51,7 @@ Vous aurez besoin des variables suivantes :
 - **MONGODB_URL** : l’adresse de connexion à la base
 - **MONGODB_DB** : le nom de la base de données
 
-### Environnement Node.js
+## Environnement Node.js
 
 be-BOP fonctionne avec Node.js. Assurez-vous d’avoir **Node.js** version 18 ou une version supérieure ainsi que **Corepack** activé (nécessaire pour gérer les gestionnaires de paquets comme pnpm). La commande à exécuter est `corepack enable`
 
@@ -70,25 +70,25 @@ Au tout premier démarrage de be-BOP, le logiciel propose la création d’un co
  
 Ce compte vous permettra d’accéder à l’ensemble des fonctionnalités du back-office. Une fois créé, vous pouvez vous connecter en remplissant votre identifiant ainsi que votre mot de passe.
 
-![login](assets/fr/01.webp)
+![login](assets/fr/001.webp)
 
 ## Configuration et sécurisation du Back-Office
 
 Avant de configurer votre interface de connexion au back-office, vous devez créer un hash unique. Ce dernier permet d'avoir une protection contre les acteurs malveillants qui essaieraient de déviner le lien de connexion à votre interface admin. 
 
-Pour créer le hash, allez dans `/admin/Settings`. Dans la section dédiée à la sécurisation (ex. « Admin hash »), définissez une chaîne unique (hash).
-Une fois enregistré, l’URL du back-office sera modifiée (par exemple : `/admin-votrehash/login`) afin de limiter l’accès aux personnes non autorisées.
+Pour créer le hash, allez dans `/admin/Settings`. Dans la section dédiée à la sécurisation (ex. « Admin hash »), définissez une chaîne unique (hash). Une fois enregistré, l’URL du back-office sera modifiée (par exemple : `/admin-votrehash/login`) afin de limiter l’accès aux personnes non autorisées.
 
-![hash-login](assets/fr/02.webp)  
+![hash-login](assets/fr/002.webp)  
 
 2.2. Activation du mode maintenance (si nécessaire)
+
 Toujours dans /admin/Settings, (Settings > General via l'interface graphique) cochez l’option “enable maintenance mode” au bas de la page.
 
-![maintenance-mode](assets/fr/03.webp)
+![maintenance-mode](assets/fr/003.webp)
 
 Vous pouvez, le cas échéant, indiquer une liste d’adresses IPv4 autorisées (séparées par des virgules) pour permettre l’accès au front-office pendant la maintenance. Le back-office reste accessible pour les administrateurs.
 
-![ip-bebop](assets/fr/04.webp)
+![ip-bebop](assets/fr/004.webp)
 
 ## Configuration des communications 
 
@@ -99,26 +99,21 @@ Pour que be-BOP puisse envoyer des notifications (par exemple pour les commandes
 be-BOP peut envoyer des e-mails via un serveur SMTP. Il vous faut des identifiants SMTP valides, souvent fournis par un service d’email (ex. : Mailgun, Gmail, etc.).
 
 Voici les informations à renseigner :
-SMTP_HOST : l’adresse du serveur SMTP (ex. : smtp.mailgun.org)
 
+SMTP_HOST : l’adresse du serveur SMTP (ex. : smtp.mailgun.org)
 
 SMTP_PORT : le port à utiliser (souvent 587 ou 465)
 
-
 SMTP_USER : votre nom d’utilisateur (généralement une adresse e-mail)
 
-
 SMTP_PASSWORD : votre mot de passe ou clé API
-
 
 SMTP_FROM : l’adresse e-mail qui apparaîtra comme expéditeur
 
 
 ### Configuration Nostr
    
-be-BOP permet l'envoi de notifications via le protocole Nostr, une infrastructure décentralisée de messagerie.
-Pour cela, vous devez générer ou fournir une clé privée Nostr (NSEC). Vous pouvez générer cette clé directement via l’interface de be-BOP, dans la section dédiée à Nostr.
-Lorsque ces éléments sont correctement configurés, be-BOP pourra envoyer automatiquement des messages et alertes à vos utilisateurs.
+be-BOP permet l'envoi de notifications via le protocole Nostr, une infrastructure décentralisée de messagerie. Pour cela, vous devez générer ou fournir une clé privée Nostr (NSEC). Vous pouvez générer cette clé directement via l’interface de be-BOP, dans la section dédiée à Nostr. Lorsque ces éléments sont correctement configurés, be-BOP pourra envoyer automatiquement des messages et alertes à vos utilisateurs.
 
 ## Méthodes de paiement compatibles
 
@@ -141,21 +136,19 @@ be-BOP vous permet d’accepter des paiements Bitcoin directement sur la blockch
 | **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
 | **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
 
-![payment-nodeless](assets/fr/05.webp)
+![payment-nodeless](assets/fr/005.webp)
 
 **Astuce :** Pour obtenir votre clé publique étendue (Zpub), vous pouvez consulter les paramètres avancés de votre portefeuille Bitcoin (Sparrow Wallet, BlueWallet, Specter, etc.). Assurez-vous que le portefeuille n’est **pas en lecture seule** si vous comptez utiliser l’historique des transactions.
 
 ### Lightning Network
 
-be-BOP permet également d’accepter des paiements instantanés en Bitcoin grâce au Lightning Network. 
-Deux options de configuration sont actuellement disponibles :
+be-BOP permet également d’accepter des paiements instantanés en Bitcoin grâce au Lightning Network. Deux options de configuration sont actuellement disponibles :
 
 **Phoenixd**
 
-Allez dans le menu `Payment Settings`
-Cliquez sur `Phoenixd`
+Allez dans le menu `Payment Settings`, Cliquez sur `Phoenixd`
 
-![phoenixd](assets/fr/06.webp)
+![phoenixd](assets/fr/006.webp)
 
 Vous devrez ensuite renseigner **le mot de passe ou token d’authentification** qui permet de vous connecter à votre instance  Phoenixd, un backend développé par Acinq qui permet de gérer les paiements Lightning avec son propre nœud mais sans la complexité liée à la gestion de canaux de paiements. 
 
@@ -171,7 +164,7 @@ Si vous ne souhaitez pas gérer vous-même un nœud Lightning, **Swiss Bitcoin P
 
 Une fois terminé la configuration, be-BOP pourra automatiquement générer des factures Lightning pour vos clients, et vous recevrez les paiements directement sur votre compte Swiss Bitcoin Pay. Cette solution est idéale pour les utilisateurs qui veulent éviter la complexité technique d’un nœud personnel tout en acceptant des paiements rapides et à faibles frais.
 
-![swissbtcpay](assets/fr/07.webp)
+![swissbtcpay](assets/fr/007.webp)
 
 ### PayPal
 
@@ -185,28 +178,26 @@ En plus de Bitcoin, be-BOP vous permet aussi d’accepter des paiements en monna
 - Sélectionnez la devise de votre choix (par exemple : **USD**, **EUR**, **XOF**, etc.)
 - Cliquez sur `enregistrer` 
 
-![paypal](assets/fr/08.webp) 
+![paypal](assets/fr/008.webp) 
 
 **Remarque :** Vous devez disposer d’un compte professionnel PayPal pour générer ces identifiants. Vous pouvez les obtenir via le portail  [développeur](https://developer.paypal.com)
 
 ### SumUp
 
-Le logiciel intègre désormais la solution de paiement **SumUp**, permettant d’accepter les paiements par carte bancaire de manière simple, sécurisée et efficace.  
-Pour bénéficier de cette fonctionnalité, il est indispensable de procéder à une configuration initiale. Voici les étapes à suivre, numérotées pour une mise en œuvre claire et progressive :
+Le logiciel intègre désormais la solution de paiement **SumUp**, permettant d’accepter les paiements par carte bancaire de manière simple, sécurisée et efficace. Pour bénéficier de cette fonctionnalité, il est indispensable de procéder à une configuration initiale. Voici les étapes à suivre, numérotées pour une mise en œuvre claire et progressive :
 
 - Commencez par saisir votre **API Key**, une clé confidentielle fournie par SumUp lors de la création de votre compte développeur. Elle permet d’établir une connexion sécurisée entre votre compte SumUp et le logiciel.
 - Remplissez le champ `Merchant Code` avec le code unique qui identifie votre commerce au sein de la plateforme SumUp. Ce code est essentiel pour associer les transactions à votre établissement.
 - Dans le champ `Currency`, choisissez la devise principale que vous utilisez pour vos transactions (par exemple **EUR**, **USD**, **CDF**, etc.).
 - Une fois tous les champs correctement renseignés, cliquez sur le bouton `Save` afin d’enregistrer les paramètres. Le système établira alors le lien avec votre compte SumUp, et votre logiciel sera prêt à accepter les paiements.
 
-![payment-sumup](assets/fr/09.webp)
+![payment-sumup](assets/fr/009.webp)
 
 Après cette configuration, l'intégration de **SumUp** sera active et opérationnelle, vous permettant d'encaisser rapidement et de suivre vos transactions directement depuis le logiciel.
 
 ### Stripe
 
-be-BOP propose également une intégration complète avec **Stripe**, l’une des plateformes de paiement en ligne les plus populaires.  
-Stripe permet d’accepter des paiements en ligne via carte bancaire, portefeuille numérique et plusieurs autres méthodes de paiement. Voici les étapes à suivre pour l’activer :
+be-BOP propose également une intégration complète avec **Stripe**, l’une des plateformes de paiement en ligne les plus populaires. Stripe permet d’accepter des paiements en ligne via carte bancaire, portefeuille numérique et plusieurs autres méthodes de paiement. Voici les étapes à suivre pour l’activer :
 
 - Saisissez la **clé secrète** (`Secret Key`) fournie dans le tableau de bord Stripe.
 - Complétez le champ **Public Key**, également fourni par Stripe.
@@ -215,12 +206,11 @@ Stripe permet d’accepter des paiements en ligne via carte bancaire, portefeuil
 
 ![payment-stripe](assets/fr/010.webp)
 
-> ⚠️ **Attention :** Il est indispensable de connaître le régime de TVA applicable à votre activité (ex. : vente sous TVA du pays du vendeur, exemption sous justification, ou vente au taux de TVA du pays de l’acheteur) afin de configurer correctement les options de facturation dans **be-BOP**.
+⚠️ **Attention :** Il est indispensable de connaître le régime de TVA applicable à votre activité (ex. : vente sous TVA du pays du vendeur, exemption sous justification, ou vente au taux de TVA du pays de l’acheteur) afin de configurer correctement les options de facturation dans **be-BOP**.
 
 ## Configuration de devises
 
-**be-BOP** permet une gestion avancée des devises et est adapté aux environnements multidevises et aux besoins comptables spécifiques.  
-Pour assurer une cohérence dans les opérations financières et les rapports, il est essentiel de bien configurer les différentes monnaies utilisées dans le système. Voici les étapes à suivre pour effectuer cette configuration :
+**be-BOP** permet une gestion avancée des devises et est adapté aux environnements multidevises et aux besoins comptables spécifiques. Pour assurer une cohérence dans les opérations financières et les rapports, il est essentiel de bien configurer les différentes monnaies utilisées dans le système. Voici les étapes à suivre pour effectuer cette configuration :
 
 - Sélectionner la **devise principale** (`Main currency`)
 - Choisir la **devise secondaire** (`Secondary currency`)
@@ -239,16 +229,13 @@ Toujours dans `/admin/settings`, via le module **ARM**, assurez-vous que le comp
 
 ## Configuration de la langue
 
-Le logiciel offre la possibilité de fonctionner en plusieurs langues afin de s’adapter à un public international et améliorer l’expérience utilisateur.  
-Pour activer la fonctionnalité multilingue, il est important de configurer les langues disponibles et d’en définir une **langue par défaut**.
+Le logiciel offre la possibilité de fonctionner en plusieurs langues afin de s’adapter à un public international et améliorer l’expérience utilisateur. Pour activer la fonctionnalité multilingue, il est important de configurer les langues disponibles et d’en définir une **langue par défaut**.
 
 ![settings-languages](assets/fr/13.webp)
 
 ## Configuration de l’Interface et de l’Identité dans be-BOP
 
-**be-BOP** offre aux créateurs tous les outils pour designer un site web.  
-La première étape consiste à ouvrir, dans les paramètres, la partie `/Admin > Merch > Layout`.  
-Commencez par configurer le **Top Bar**, la **Navbar**, ainsi que le **Footer**.
+**be-BOP** offre aux créateurs tous les outils pour designer un site web. La première étape consiste à ouvrir, dans les paramètres, la partie `/Admin > Merch > Layout`. Commencez par configurer le **Top Bar**, la **Navbar**, ainsi que le **Footer**.
 
 ### Le Top Bar
 
@@ -282,11 +269,8 @@ Cette configuration vous permet d’offrir une navigation claire, fluide et acce
 La section **Navbar** permet de configurer le menu principal de navigation de votre be-BOP, généralement situé sur le côté ou en haut de l’interface. Ce menu guide les utilisateurs vers les différentes pages ou fonctionnalités de l’application. La configuration des liens s’effectue de manière simple et intuitive. Voici comment procéder :
 
 - **Saisir le nom du lien (`Text`)** : sur la ligne de configuration, commencez par remplir le champ `Text`. Il correspond au libellé du lien qui s'affiche dans la barre de navigation (exemples : *Tableau de bord*, *Utilisateurs*, *Paramètres*...).
-
 - **Entrer l’adresse du lien (`Url`)** : à côté du champ `Text`, vous trouverez le champ `Url`. Dans ce dernier, saisissez l’adresse de la page vers laquelle le lien doit rediriger. Il peut s’agir d’une route interne ou d’un lien vers une page externe.
-
 - **Ajouter plusieurs liens si nécessaire** : en dessous de la première ligne, de nouveaux champs `Text` et `Url` sont disponibles pour ajouter autant de liens que nécessaire. Chaque ligne représente un lien de navigation supplémentaire.
-
 - **Enregistrer les liens** : une fois tous les éléments saisis, cliquez sur le bouton `Add nav bar link` pour enregistrer et afficher les résultats dans la barre de navigation.
 
 Cette configuration permet de structurer efficacement l’accès aux différentes parties du logiciel, améliorant ainsi l’ergonomie et l’expérience utilisateur.
@@ -298,40 +282,42 @@ Cette configuration permet de structurer efficacement l’accès aux différente
 La section **Footer** vous permet de personnaliser le bas de page de votre logiciel, en y ajoutant des informations ou des liens utiles. Avant de configurer les liens, commencez par activer une option spécifique :
 
 - **Activer l’affichage du label "Powered by be-BOP"** : activez le bouton `Display Powered by be-BOP` pour afficher cette mention dans le pied de page.
-
 - **Saisir le nom du lien (`Text`)** : remplissez le champ `Text`, qui correspond au libellé du lien dans le footer (exemples : *Conditions*, *Confidentialité*, *Contact*...).
-
 - **Indiquer l’adresse du lien (`Url`)** : dans le champ `Url`, entrez l’adresse de la page cible (interne ou externe).
-
 - **Ajouter d’autres liens si nécessaire** : utilisez les lignes supplémentaires pour créer autant de liens que souhaité.
-
 - **Enregistrer les liens** : cliquez sur le bouton `Add footer link` pour enregistrer les liens.
 
 ![footer](assets/fr/016.webp)
 
 ### Personnalisation visuelle
 
-> ⚠️ N’oubliez pas de définir les logos pour les thèmes clair et sombre, ainsi que le favicon, via `Admin > Merch > Pictures`.
+**⚠️ N’oubliez pas de définir les logos pour les thèmes clair et sombre, ainsi que le favicon, via** `Admin > Merch > Pictures`.
 
 Voici comment personnaliser l’apparence de votre site :
 
-#### **Accéder à la section Pictures**  
-   Menu `Admin` > `Merch` > `Pictures`.
+#### Accéder à la section Pictures
 
-#### **Ajouter une nouvelle image**  
-   Cliquez sur `New Picture`.
+Menu `Admin` > `Merch` > `Pictures`.
 
-#### **Choisir un fichier local**  
-   Cliquez sur `Choose Files`, puis sélectionnez une image depuis votre disque dur.
+#### Ajouter une nouvelle image
 
-#### **Sélectionner le fichier à importer**  
-   Double-cliquez sur l’image à importer (logo clair, logo sombre ou favicon).
+Cliquez sur `New Picture`.
 
-#### **Nommer l’image**  
-   Remplissez le champ `Name of the picture`.
+#### Choisir un fichier local
+
+Cliquez sur `Choose Files`, puis sélectionnez une image depuis votre disque dur.
+
+#### Sélectionner le fichier à importer
+
+Double-cliquez sur l’image à importer (logo clair, logo sombre ou favicon).
+
+#### Nommer l’image 
+
+Remplissez le champ `Name of the picture`.
    
-#### **Ajouter l’image**  
-   Cliquez sur `Add` pour finaliser l’importation.
+#### Ajouter l’image  
+
+Cliquez sur `Add` pour finaliser l’importation.
 
 ![pictures](assets/fr/017.webp)
 
@@ -374,9 +360,10 @@ Accessible via `Admin > Identity` (ou `Settings > Identity`), cette section vous
 - **Very-top-right issuer information** : champ pour les mentions légales/fiscales visibles sur les factures.  
 - Cliquez sur `Update` pour enregistrer les modifications.
 
-> Vous pouvez également renseigner des informations complémentaires à afficher sur la facture, selon vos besoins.
+**Remarque :** vous pouvez également renseigner des informations complémentaires à afficher sur la facture, selon vos besoins.
 
-![vat](assets/fr/019.webp)  
+![vat](assets/fr/019.webp)
+
 ![issuer-info](assets/fr/020.webp)
 
 #### Adresse physique du magasin
@@ -505,8 +492,7 @@ Accédez à : `Admin > Merch > Layout`. Vous pouvez personnaliser les éléments
 
 #### Personnalisation des visuels
 
-Allez dans :  
-`Admin > Merch > Pictures`
+Allez dans :  `Admin > Merch > Pictures`
 
 Vous pouvez :
 
@@ -517,7 +503,7 @@ Vous pouvez :
 
 Aussi modifiable dans `Pictures`, elle permet d’afficher un **résumé ou slogan** dans le header ou le footer selon le thème.
 
-> Cela vous permet d’ajuster l’apparence à votre identité de marque (éducative, commerciale ou communautaire).
+**Remarque :** cela vous permet d’ajuster l’apparence à votre identité de marque (éducative, commerciale ou communautaire).
 
 ### Intégration de widgets dans les pages CMS
 
@@ -525,8 +511,7 @@ Les **widgets** permettent d’enrichir vos pages CMS avec des éléments dynami
 
 #### Création des widgets
 
-Allez dans :  
-`Admin > Widgets`
+Allez dans :  `Admin > Widgets`
 
 Exemples de widgets disponibles :
 
@@ -571,8 +556,7 @@ Utilisez des **shortcodes** dans le contenu de vos pages CMS :
 
 ### Suivi des commandes
 
-Pour consulter et gérer les commandes passées, allez dans :  
-`Admin > Transaction > Orders`
+Pour consulter et gérer les commandes passées, allez dans : `Admin > Transaction > Orders`
 
 Vous y trouverez la **liste complète des commandes** effectuées sur votre site.
 
@@ -607,7 +591,7 @@ Vous pouvez :
 - Ajouter des **labels** (pour l’organisation interne)  
 - Consulter / ajouter des **notes internes**  
 
-> Cette section est essentielle pour un bon suivi logistique et relation client.
+**Remarque :** cette section est essentielle pour un bon suivi logistique et relation client.
 
 ### Reporting et export
 
@@ -635,7 +619,7 @@ Chaque section inclut un bouton **Export CSV**, qui permet de :
 - Les archiver pour usage administratif ou comptable  
 - Les utiliser pour des rapports internes
 
-> Idéal pour le suivi de performance, la comptabilité et les présentations.
+**Remarque :** idéal pour le suivi de performance, la comptabilité et les présentations.
 
 ## Configuration de la Messagerie Nostr (optionnel)
 
@@ -682,8 +666,7 @@ Une fois configuré, plusieurs fonctions sont disponibles :
 
 ## Personnalisation du Design et des Thèmes
 
-Pour adapter l’apparence de votre boutique à votre charte graphique, rendez-vous dans :  
-`Admin > Merch > Theme`
+Pour adapter l’apparence de votre boutique à votre charte graphique, rendez-vous dans : `Admin > Merch > Theme`
 
 Vous y trouverez toutes les options pour **créer** et **configurer** un thème personnalisé.
 
@@ -705,7 +688,7 @@ Chaque partie du site peut être ajustée indépendamment :
 - **Body** : contenu principal  
 - **Footer** : bas de page  
 
-> Cette granularité permet d’assurer une cohérence entre le visuel du site et l’identité de votre marque.
+**Remarque :** cette granularité permet d’assurer une cohérence entre le visuel du site et l’identité de votre marque.
 
 ### Activation du thème
 
@@ -714,24 +697,22 @@ Une fois le thème configuré :
 - Cliquez sur **Save**
 - Activez-le comme **thème principal** de la boutique
 
-> Le thème actif est celui qui sera visible par les visiteurs.
+**Remarque :** le thème actif est celui qui sera visible par les visiteurs.
 
 ## Configuration des Templates d’E-mails
 
-La plateforme permet de personnaliser les emails envoyés automatiquement aux utilisateurs.  
-Rendez-vous dans :  
-`Admin > Settings > Templates`
+La plateforme permet de personnaliser les emails envoyés automatiquement aux utilisateurs. Rendez-vous dans : `Admin > Settings > Templates`
 
 ![emails-templates](assets/fr/038.webp)
 
-### ✉Création / édition des templates
+### Création / édition des templates
 
 Chaque email (confirmation de commande, mot de passe oublié, etc.) possède :
 
 - **Subject** : le sujet de l’email (ex. : "Votre commande a été validée")  
 - **HTML Body** : contenu en HTML affiché dans l’email
 
-> Vous pouvez insérer du texte, images, liens, etc.
+**Remarque :** vous pouvez insérer du texte, images, liens, etc.
 
 ### Utilisation de variables dynamiques
 
@@ -741,7 +722,7 @@ Pour rendre les emails dynamiques, insérez des variables comme :
 - `{{invoiceLink}}` : lien vers la facture  
 - `{{websiteLink}}` : URL de votre site
 
-> Ces balises sont automatiquement remplacées à l’envoi.
+**Remarque :** ces balises sont automatiquement remplacées à l’envoi.
 
 ### Conseils avancés
 
@@ -753,9 +734,7 @@ Pour rendre les emails dynamiques, insérez des variables comme :
 
 ### Gestion des Tags
 
-Les **tags** permettent de structurer et enrichir votre contenu.  
-Pour y accéder :  
-`Admin > Widgets > Tag`
+Les **tags** permettent de structurer et enrichir votre contenu. Pour y accéder : `Admin > Widgets > Tag`
 
 ![tags-config](assets/fr/039.webp)
 
@@ -795,8 +774,7 @@ Les tags peuvent être :
 
 ## Configuration des Fichiers Téléchargeables
 
-Pour proposer des documents téléchargeables à vos clients :  
-`Admin > Merch > Files`
+Pour proposer des documents téléchargeables à vos clients : `Admin > Merch > Files`
 
 ### Ajout d’un fichier
 
@@ -805,7 +783,7 @@ Pour proposer des documents téléchargeables à vos clients :
    - **Nom du fichier** (ex. : *Guide d’installation*)
    - **Fichier à charger** (PDF, image, Word…)
 
-> Une fois ajouté, la plateforme génère automatiquement un **lien permanent**.
+**Remarque :** une fois ajouté, la plateforme génère automatiquement un **lien permanent**.
 
 ### Utilisation du lien
 
@@ -815,15 +793,13 @@ Ce lien peut ensuite être inséré dans :
 - Un **e-mail client** (via un template)
 - Une **fiche produit** (ex. : téléchargement de notice)
 
-Il est idéal pour fournir :  *notices d’utilisation, guides techniques, fiches produits…*  
-sans avoir besoin d’un hébergement externe.
+Il est idéal pour fournir *notices d’utilisation, guides techniques, fiches produits…* sans avoir besoin d’un hébergement externe.
 
 ## Nostr-bot
 
 La plateforme propose une intégration avancée avec le protocole **Nostr**, via un bot automatisé.
 
-Accédez à :  
-`Node Management > Nostr`
+Accédez à : `Node Management > Nostr`
 
 ### Fonctionnalités principales
 
@@ -855,8 +831,7 @@ Accédez à :
 
 be-BOP est multilingue (FR, EN, ES…), mais vous pouvez adapter les traductions à vos besoins.
 
-Pour cela, rendez-vous dans :  
-`Settings > Language`
+Pour cela, rendez-vous dans : `Settings > Language`
 
 ### Chargement et modification
 
@@ -869,16 +844,15 @@ Les fichiers de traduction sont en JSON. Vous pouvez :
 Lien vers les fichiers d’origine :  
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
 
-> Exemple : remplacer `Add to cart` par `Ajouter au panier` ou `Acheter`.
+**Exemple :** remplacer `Add to cart` par `Ajouter au panier` ou `Acheter`.
 
 ## Teamwork & Point of Sale (POS)
 
 ### Gestion des Utilisateurs et des Droits d’Accès
 
-####Création des rôles
+#### Création des rôles
 
-Allez dans :  
-`Admin > Settings > ARM`
+Allez dans : `Admin > Settings > ARM`
 
 Cliquez sur **Create a role** pour créer un rôle (ex. : `Super Admin`, `POS`, `Ticket checker`).
 
@@ -901,17 +875,15 @@ Assignez un rôle défini précédemment.
 
 ![pos-users](assets/fr/045.webp)
 
-> Les utilisateurs **read-only** verront les menus en *italique* et ne pourront pas modifier les contenus.
+Les utilisateurs **read-only** verront les menus en *italique* et ne pourront pas modifier les contenus.
 
 ## Configuration du Point of Sale (POS)
 
 ### Attribution du rôle POS
 
-Pour qu’un utilisateur accède au POS, attribuez-lui le rôle `Point of Sale (POS)` dans :  
-`Admin > Config > ARM`
+Pour qu’un utilisateur accède au POS, attribuez-lui le rôle `Point of Sale (POS)` dans : `Admin > Config > ARM`
 
-Il pourra se connecter via l’URL sécurisée :  
-`/pos` ou `/pos/touch`
+Il pourra se connecter via l’URL sécurisée : `/pos` ou `/pos/touch`
 
 ### Fonctionnalités spécifiques POS
 
@@ -924,7 +896,7 @@ Dans `/cart`, un champ permet d’ajouter un produit :
 - En scannant un **code-barres** (ISBN, EAN13)  
 - En entrant un **alias produit** manuellement
 
-> Le produit s’ajoute automatiquement au panier.
+**Remarque :** le produit s’ajoute automatiquement au panier.
 
 #### Moyens de paiement
 
@@ -951,7 +923,7 @@ Affiche :
 - Mode de paiement  
 - Remises appliquées
 
-> Le client suit la commande en direct, pendant que le vendeur l’enregistre sur `/pos`.
+**Remarque :** le client suit la commande en direct, pendant que le vendeur l’enregistre sur `/pos`.
 
 ### Résumé POS
 

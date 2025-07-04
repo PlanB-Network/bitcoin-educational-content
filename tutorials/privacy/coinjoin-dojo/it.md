@@ -14,7 +14,7 @@ _Questo contenuto è fornito esclusivamente a scopo educativo e informativo. Non
 
 ---
 
-In questo tutorial scoprirai che cos'è un coinjoin e come eseguirne uno utilizzando il software Samourai Wallet e la sua implementazione Whirlpool, attraverso il tuo nodo personale Dojo.
+In questo tutorial scoprirai che cos'è un coinjoin e come eseguirne uno utilizzando il software Samourai Wallet e la sua implementazione Whirlpool, tramite il tuo nodo Dojo.
 A mio parere, si tratta attualmente del metodo più efficace per migliorare la privacy delle proprie transazioni Bitcoin.
 
 ## Cos'è un coinjoin su Bitcoin?
@@ -39,9 +39,9 @@ Sebbene Whirlpool sia compatibile con più wallet, ci focalizzeremo esclusivamen
 ## Perché eseguire coinjoin su Bitcoin?
 Uno dei problemi fondamentali nei sistemi di pagamento peer-to-peer è la doppia spesa: come impedire che un individuo malintenzionato spenda gli stessi fondi più di una volta, senza ricorrere a un'autorità centrale che faccia da arbitro?
 
-Satoshi Nakamoto ha risolto questo dilemma introducendo il protocollo Bitcoin, un sistema di pagamento elettronico peer-to-peer che opera in modo completamente decentralizzato. Nel suo white paper, evidenzia che l’unico modo per prevenire la doppia spesa è rendere visibili tutte le transazioni del sistema. In altre parole, per garantire la corretta validazione, tutte le transazioni devono essere pubblicamente diffuse.
+Satoshi Nakamoto ha risolto questo dilemma introducendo il protocollo Bitcoin, un sistema di pagamento elettronico peer-to-peer che opera in modo completamente decentralizzato. Nel suo white paper, evidenzia che l’unico modo per prevenire la doppia spesa è rendere visibili tutte le transazioni del sistema. In altre parole, per garantire la corretta validazione, tutte le transazioni devono essere di pubblico dominio.
 
-Il funzionamento di Bitcoin si basa quindi su un’infrastruttura trasparente e distribuita, in cui chiunque esegua un nodo può verificare autonomamente la catena completa delle firme elettroniche e la storia di ogni moneta, dalla sua creazione da parte di un miner in poi.
+Il funzionamento di Bitcoin si basa quindi su un’infrastruttura trasparente e distribuita, in cui chiunque partecipi eseguendo un nodo può verificare autonomamente la catena completa delle firme elettroniche e la storia di ogni moneta, dalla creazione da parte di un miner in poi.
 
 Questa trasparenza radicale implica che ogni utente della rete può osservare ed analizzare le transazioni effettuate da altri. Ne consegue che l'anonimato transazionale è, di fatto, impossibile. Tuttavia, Bitcoin garantisce un certo grado di pseudonimato: a differenza del sistema bancario tradizionale, dove i conti sono legati a identità personali, su Bitcoin i fondi sono associati a coppie di chiavi crittografiche, non a nomi o documenti.
 
@@ -54,7 +54,7 @@ Whirlpool si distingue dagli altri metodi di coinjoin utilizzando transazioni _Z
 
 Questo approccio restrittivo agli input conferisce alle transazioni coinjoin di Whirlpool una caratteristica unica: l'assenza completa di collegamenti deterministici tra gli input e gli output. In altre parole, ogni output ha una probabilità uguale di essere attribuito a qualsiasi partecipante, rispetto a tutti gli altri output nella transazione.
 
-Inizialmente, il numero di partecipanti in ogni coinjoin Whirlpool era limitato a 5, con 2 nuovi ingressi e 3 remixers (spiegheremo questi concetti più avanti). Tuttavia, l’aumento delle commissioni per le transazioni on-chain osservato nel 2023 ha spinto i team di Samourai a ripensare il loro modello per migliorare la privacy riducendo i costi. Pertanto, tenendo conto della situazione relativa al costo delle commissioni e al numero di partecipanti, il coordinatore può ora organizzare coinjoin che includono 6, 7 o 8 partecipanti. Queste sessioni potenziate sono denominate _Cicli di Surge_.
+Inizialmente, il numero di partecipanti in ogni coinjoin Whirlpool era limitato a 5, con 2 nuovi ingressi e 3 remixers (spiegheremo questi concetti più avanti). Tuttavia, l’aumento delle commissioni per le transazioni on-chain osservato nel 2023 ha spinto il team di Samourai a ripensare il loro modello per migliorare la privacy riducendo i costi. Pertanto, tenendo conto della situazione relativa al costo delle commissioni e al numero di partecipanti, il coordinatore può ora organizzare coinjoin che includono 6, 7 o 8 partecipanti. Queste sessioni potenziate sono denominate _Cicli di Surge_.
 
 È importante notare che, indipendentemente dalla configurazione, ci sono sempre e solo 2 nuovi entranti (per ogni round di mix) nei coinjoin di Whirlpool.
 Pertanto, le transazioni Whirlpool sono caratterizzate da un numero identico di input ed output, che possono essere:
@@ -83,8 +83,8 @@ Questi imperativi hanno guidato le scelte degli sviluppatori di Samourai Wallet 
 [-> Scopri di più sugli anonset di Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Pool e commissioni nei coinjoin
-Affinché questi cicli multipli aumentino efficacemente l'anonset, è necessario stabilire un quadro che limiti le quantità di UTXO utilizzati. Whirlpool definisce quindi diversi pool, o gruppi di utenti.
-Una pool rappresenta un insieme di partecipanti che concordano su un importo fisso per gli UTXO da utilizzare, così da ottimizzare il processo di coinjoin. Ogni pool stabilisce un valore specifico a cui gli UTXO devono aderire affinché l’utente possa partecipare.
+Affinché questi cicli multipli aumentino efficacemente l'anonset, è necessario stabilire un quadro che limiti le quantità di UTXO utilizzati. Whirlpool definisce quindi diverse pool, o gruppi di utenti.
+Una pool rappresenta un insieme di partecipanti che concordano su un importo fisso per gli UTXO da utilizzare, così da ottimizzare il processo di coinjoin. Ogni pool stabilisce un valore specifico a cui gli UTXO devono combaciare affinché l’utente possa partecipare.
 Per eseguire un coinjoin con Whirlpool, è quindi necessario selezionare una specifica pool tra le seguenti:
 - 0,5 bitcoin;
 - 0,05 bitcoin;
@@ -123,14 +123,14 @@ Prima di procedere ai coinjoin, puoi scegliere tra due strategie:
 - Optare per una pool più piccola, così da ridurre le commissioni di servizio, sapendo però che riceverai in cambio più UTXO di importo minore;
 - Scegliere una pool più grande, accettando commissioni più alte, ma ottenendo meno UTXO, ciascuno di valore maggiore.
 
-Generalmente, è sconsigliato unire diversi UTXO mixati dopo i cicli di coinjoin, poiché ciò potrebbe compromettere la privacy acquisita, riducendo anche la riservatezza degli altri partecipanti al coinjoin, a causa dell’Euristica di Proprietà Comune dell’Input (CIOH).
+Generalmente, è sconsigliato unire diversi UTXO mixati dopo i cicli di coinjoin, poiché ciò potrebbe compromettere la privacy acquisita, riducendo anche quella degli altri partecipanti al coinjoin, a causa dell’Euristica di Proprietà Comune dell’Input (CIOH).
 Per questo motivo, può essere più prudente scegliere fin da subito una pool più grande, anche a costo di commissioni più elevate, per evitare di generare troppi UTXO di piccolo valore in uscita.
 Valuta attentamente questi compromessi per selezionare la pool più adatta alle tue esigenze.
 
-Oltre alle commissioni di servizio, devi considerare anche le commissioni di mining inerenti a qualsiasi transazione Bitcoin. Come utente di Whirlpool, dovrai pagare le commissioni di mining per la transazione di preparazione (`Tx0`) così come quelle per il primo coinjoin. Tutti i remix successivi saranno gratuiti, grazie al modello di Whirlpool basato sulle spese dei nuovi partecipanti.
+Oltre alle commissioni di servizio, dovrai considerare anche le commissioni di mining inerenti a qualsiasi transazione Bitcoin. Come utente di Whirlpool, dovrai pagare le commissioni di mining per la transazione di preparazione (`Tx0`) così come quelle per il primo coinjoin. Tutti i remix successivi saranno gratuiti, grazie al modello di Whirlpool basato sulle spese dei nuovi partecipanti.
 
 Infatti, in ogni coinjoin eseguito tramite Whirlpool, due utenti tra tutti gli input sono nuovi partecipanti, mentre gli altri input provengono da remixer, ovvero utenti che hanno già preso parte a un mix precedente.
-Le commissioni di mining dell’intera transazione sono quindi interamente sostenute dai due nuovi entranti, che in cambio ottengono l’accesso a remix successivi senza dover pagare ulteriori commissioni.
+Le commissioni di mining dell’intera transazione sono quindi interamente sostenute dai due nuovi ingressi, che in cambio ottengono l’accesso a remix successivi senza dover pagare ulteriori commissioni.
 
 ![coinjoin](assets/it/6.webp)
 
@@ -224,7 +224,7 @@ Per configurare Whirlpool con il proprio Dojo, sono necessari tre componenti pri
 - **Whirlpool CLI** (_Interfaccia a Linea di Comando_): verrà eseguito sul nodo che ospita il tuo Dojo. Questo software ha accesso alle chiavi del tuo portafoglio Samourai e si occupa di comunicare con il coordinatore, gestendo in modo continuo i coinjoin. Agisce come una replica del tuo portafoglio Samourai, pronta a partecipare automaticamente ai cicli di mixing, anche se l'app Samourai non è attiva;
 - **Whirlpool GUI** (_Interfaccia Grafica Utente_):  è l'interfaccia grafica che consente di monitorare l'attività di Whirlpool CLI e di avviare manualmente le operazioni di mixing da remoto. Deve essere installata su un computer separato rispetto al nodo. Per gli utenti di Umbrel, MyNode, Nodl e Citadel, l’uso di Whirlpool GUI è obbligatorio, mentre per gli utenti di RoninDojo, non è necessario installarla separatamente: l'interfaccia è già integrata nel pannello web del nodo tramite l’applicazione Whirlpool.
 
-A mio parere, RoninDojo rappresenta la soluzione più solida e ottimizzata per eseguire coinjoin con un Dojo. Questo node-in-a-box è sviluppato in collaborazione diretta con i team di Samourai Wallet, e ciò si traduce in un'integrazione tecnica superiore, performance più stabili e un'interfaccia utente intuitiva. In particolare, la presenza nativa della Whirlpool GUI nel pannello web di RoninDojo semplifica notevolmente l'intero processo di configurazione, riducendo il numero di passaggi tecnici richiesti.
+A mio parere, RoninDojo rappresenta la soluzione più solida e ottimizzata per eseguire coinjoin con un Dojo. Questo node-in-a-box è sviluppato in collaborazione diretta con il team di Samourai, e ciò si traduce in un'integrazione tecnica superiore, performance più stabili e un'interfaccia utente intuitiva. In particolare, la presenza nativa della Whirlpool GUI nel pannello web di RoninDojo semplifica notevolmente l'intero processo di configurazione, riducendo il numero di passaggi tecnici richiesti.
 
 Tuttavia, nel corso di questo tutorial ti spiegherò anche come configurare Whirlpool con le altre soluzioni che supportano Dojo: Umbrel, Nodl, MyNode e Citadel, per offrire una panoramica completa e adatta a diversi profili di utenti.
 

@@ -2163,7 +2163,7 @@ Indywidualni blogerzy również byli zainteresowani tematem. Tak jest w przypadk
 ### Pierwsza bańka
 
 
-Popularyzacja Bitcoin oznacza znaczny wzrost jego ceny. Podczas gdy w grudniu 2010 r. spadła ona do 20 centów, 9 lutego 2011 r. osiągnęła parytet z dolarem. W tym czasie Hal Finney [stwierdził](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307), że członkowie społeczności mają "prawdziwe szczęście, że znajdują się na początku potencjalnie wybuchowego nowego zjawiska" Miał dobry instynkt, ponieważ to, co dzieje się później, jest błyskawiczne.
+Popularyzacja Bitcoina oznacza znaczny wzrost jego ceny. Podczas gdy w grudniu 2010 r. spadła ona do 20 centów, 9 lutego 2011 r. zrównała się z dolarem. W tym czasie Hal Finney [stwierdził](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307), że członkowie społeczności mają „prawdziwe szczęście, że znajdują się na początku potencjalnie wybuchowego nowego zjawiska”. Miał dobry instynkt, ponieważ późniejszy rozwój wydarzeń jest błyskawiczny.
 
 
 ![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/69.webp)
@@ -2171,7 +2171,7 @@ Popularyzacja Bitcoin oznacza znaczny wzrost jego ceny. Podczas gdy w grudniu 20
 Zdjęcie opublikowane przez jimbobway na forum w dniu parytetu z dolarem (źródło: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 
-Rzeczywiście, szał medialny na wiosnę skutkuje stopniowym tworzeniem bezprecedensowego zjawiska spekulacyjnego. Po stagnacji w okolicach 1 USD przez kilka miesięcy, cena rośnie i osiąga 3 USD pod koniec kwietnia. W maju wynosi 8 USD. Wreszcie, 8 czerwca, cena Bitcoin osiąga historycznie wysoki poziom 32 USD na Mt. Gox! Wzrost ten odpowiada 160-krotnemu wzrostowi w ciągu 6 miesięcy.
+Rzeczywiście, szał medialny na wiosnę skutkuje stopniowym tworzeniem bezprecedensowego zjawiska spekulacyjnego. Po stagnacji w okolicach 1 USD przez kilka miesięcy, cena rośnie i osiąga 3 USD pod koniec kwietnia. W maju wynosi 8 USD. Wreszcie, 8 czerwca, cena Bitcoina na Mt.Gox osiąga historycznie wysoki poziom 32 USD! Wzrost ten odpowiada 160-krotnemu wzrostowi w ciągu 6 miesięcy.
 
 
 ![Average price of BTC between January 1 and June 30, 2011](assets/en/70.webp)
@@ -2179,31 +2179,31 @@ Rzeczywiście, szał medialny na wiosnę skutkuje stopniowym tworzeniem bezprece
 Średnia cena BTC w okresie od 1 stycznia do 30 czerwca 2011 r. (źródło: [Bitbo.io](https://calendar.bitbo.io/price/))
 
 
-Oczywiście ten ruch spekulacyjny przypomina bańkę finansową, czyli przeszacowanie produktu finansowego w stosunku do jego wartości fundamentalnej. W przypadku waluty takiej jak Bitcoin chodzi o ulotny entuzjazm, który skutkuje zawrotnym wzrostem ceny, po którym następuje gwałtowny spadek spowodowany brakiem przekonania nowych uczestników. W ten sposób ewolucja cen została [opisana] (https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) jako "bańka" przez felietonistę Reutersa 27 maja, w jednym z pierwszych "nekrologów" Bitcoin.
+Oczywiście ten ruch spekulacyjny przypomina bańkę finansową, czyli przeszacowanie produktu finansowego w stosunku do jego podstawowej wartości. W przypadku waluty takiej jak Bitcoin chodzi o ulotny entuzjazm, który skutkuje zawrotnym wzrostem ceny, po którym następuje gwałtowny spadek spowodowany brakiem przekonania nowych uczestników. W ten sposób ewolucja cen została [opisana] (https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) jako „bańka” przez felietonistę Reutersa 27 maja, w jednym z pierwszych „nekrologów” Bitcoina.
 
 
-Jednak ten spekulacyjny ruch powoduje, że prasa głównego nurtu zajmuje się tym tematem, co nie zawsze odbywa się bezstronnie. Tak więc artykuły są publikowane w [New York Times](https://www.nytimes.com/2011/05/30/business/economy/30views.html), w [The Economist](https://www.economist.com/babbage/2011/06/13/bits-and-bob), w brytyjskiej gazecie [The Guardian](https://www.theguardian.com/technology/2011/jun/12/Bitcoin-online-currency-us-government), na niemieckiej stronie informacyjnej [Der Spiegel Online](https://www.spiegel.de/netzwelt/netzpolitik/hacker-waehrung-Bitcoin-geld-aus-der-steckdose-a-765382.html), we włoskiej gazecie [La Repubblica](https://www.repubblica.it/tecnologia/2011/05/31/news/bitcoin_moneta_elettronica_hacker_cia-17030027/) lub we francuskim dzienniku [Le Monde](https://www.lemonde.fr/technologies/article/2011/06/17/Bitcoin-les-deux-faces-de-la-monnaie-virtuelle_1537285_651865.html). Umacnia to medialny zasięg Bitcoin. Jest on teraz w centrum uwagi i każdy, kto jest choćby trochę ciekawy, słyszał o nim. Pierwsza era Bitcoin, charakteryzująca się obecnością Satoshi i dyskrecją projektu, dobiegła końca.
+Jednak ten ruch spekulacyjny powoduje, że prasa głównego nurtu zajmuje się tym tematem, co nie zawsze odbywa się bezstronnie. Tak więc artykuły są publikowane w [New York Times](https://www.nytimes.com/2011/05/30/business/economy/30views.html), w [The Economist](https://www.economist.com/babbage/2011/06/13/bits-and-bob), w brytyjskiej gazecie [The Guardian](https://www.theguardian.com/technology/2011/jun/12/Bitcoin-online-currency-us-government), na niemieckiej stronie informacyjnej [Der Spiegel Online](https://www.spiegel.de/netzwelt/netzpolitik/hacker-waehrung-Bitcoin-geld-aus-der-steckdose-a-765382.html), we włoskiej gazecie [La Repubblica](https://www.repubblica.it/tecnologia/2011/05/31/news/bitcoin_moneta_elettronica_hacker_cia-17030027/) lub we francuskim dzienniku [Le Monde](https://www.lemonde.fr/technologies/article/2011/06/17/Bitcoin-les-deux-faces-de-la-monnaie-virtuelle_1537285_651865.html). Umacnia to medialny zasięg Bitcoina. Jest on teraz w centrum uwagi i każdy, kto jest choćby trochę ciekawy tematu, słyszał o nim. Pierwsza era Bitcoina, charakteryzująca się obecnością Satoshiego i dyskrecją projektu, dobiegła końca.
 
 
-### Ogólne wnioski dotyczące tworzenia Bitcoin
+### Ogólne wnioski dotyczące tworzenia Bitcoina
 
 
-W ten sposób, w pierwszej połowie 2011 roku, projekt był w stanie rozwijać się bez obecności jego założyciela Satoshi Nakamoto. Ten moment oznaczał początek Bitcoin jako projektu kierowanego wyłącznie przez społeczność i zamknął okres tworzenia Bitcoin, który trwał 4 lata, od 2007 do 2011 roku. Z tego wydarzenia możemy wyciągnąć kilka wniosków.
+W ten sposób, w pierwszej połowie 2011 roku, projekt był w stanie rozwijać się bez obecności jego założyciela Satoshiego Nakamoto. Ten moment oznaczał początek Bitcoina jako projektu kierowanego wyłącznie przez społeczność i zamknął okres tworzenia Bitcoina, który trwał 4 lata, od 2007 do 2011 roku. Z tego wydarzenia możemy wyciągnąć kilka wniosków.
 
 
-Po pierwsze, Bitcoin nie pojawił się znikąd. Jako cyfrowa gotówka działająca w cyberprzestrzeni, jest wynikiem dziesięcioleci badań i eksperymentów, które doprowadziły do jej powstania. Poprzedzał go w szczególności model eCash Davida Chauma, prywatne waluty cyfrowe, takie jak e-gold, oraz koncepcje cypherpunks. Obecność Hala Finneya podczas pojawienia się Bitcoin i zniknięcia Satoshi była zatem bardzo symboliczna: jako osoba, która była świadkiem wczesnych eksperymentów pieniądza elektronicznego w latach 90. i która starała się stworzyć swój model w 2004 r. z RPOW, reprezentował ciągłość poszukiwań, które właśnie doprowadziły do Bitcoin.
+Po pierwsze, Bitcoin nie pojawił się znikąd. Jako cyfrowa gotówka działająca w cyberprzestrzeni, jest wynikiem dziesięcioleci badań i eksperymentów, które doprowadziły do jej powstania. Poprzedzał go w szczególności model eCash Davida Chauma, prywatne waluty cyfrowe, takie jak e-gold, oraz koncepcje cypherpunks. Obecność Hala Finneya podczas pojawienia się Bitcoina i zniknięcie Satoshiego były zatem bardzo symboliczne: jako osoba, która była świadkiem wczesnych eksperymentów pieniądza elektronicznego w latach 90. i która starała się stworzyć swój model w 2004 r. z RPOW, reprezentował ciągłość poszukiwań, które doprowadziły do Bitcoina.
 
 
-Po drugie, Bitcoin nie powstał w jeden dzień. Nawet po wydaniu wersji 0.1 oprogramowania w styczniu 2009 roku, projekt był daleki od gotowości. Liczne luki w zabezpieczeniach musiały zostać poprawione. Jedna z nich spowodowała poważny incydent w sierpniu 2010 roku, kiedy sieć została sparaliżowana na około piętnaście godzin, ale najgorszego udało się uniknąć. Nawet po odejściu Satoshi oprogramowanie musiało być nadal ulepszane przez społeczność.
+Po drugie, Bitcoin nie powstał w jeden dzień. Nawet po wydaniu wersji 0.1 oprogramowania w styczniu 2009 roku, projekt był daleki od bycia gotowym. Liczne luki w zabezpieczeniach musiały zostać poprawione. Jedna z nich spowodowała poważny incydent w sierpniu 2010 roku, kiedy sieć została sparaliżowana na około piętnaście godzin, ale najgorszego udało się uniknąć. Nawet po odejściu Satoshiego oprogramowanie musiało nadal być ulepszane przez społeczność.
 
 
-Po trzecie, Bitcoin rozwijał się organicznie. Był w stanie rozwijać się dyskretnie, stopniowo przyciągając ludzi. Przez prawie półtora roku był to bardzo poufny projekt, znany entuzjastom i ciekawskim. Dopiero po slashdottingu w lipcu 2010 roku zaczął eksplodować. Spekulacyjny szał na jego temat rozpoczął się tak naprawdę dopiero w 2011 roku, kiedy cena wzrosła wykładniczo do 32 dolarów.
+Po trzecie, Bitcoin rozwijał się organicznie. Był w stanie rozwijać się dyskretnie, stopniowo przyciągając ludzi. Przez prawie półtora roku był to bardzo poufny projekt, znany entuzjastom i ciekawskim. Dopiero po ogłoszeniu go na forum Slashdot w lipcu 2010 roku zaczął eksplodować. Spekulacyjny szał na jego temat rozpoczął się tak naprawdę dopiero w 2011 roku, kiedy cena wzrosła wykładniczo do 32 dolarów.
 
 
-Po czwarte, Bitcoin był tworem altruistycznym. Satoshi Nakamoto zaoferował Bitcoin światu. Udostępnił program na wolnej licencji. Nie szukał sławy, zysku ani władzy. Zapewnił bezpieczeństwo sieci Mining przez ponad rok, nie prosząc o żadną rekompensatę. Mimo że zgromadził ponad milion bitcoinów, nigdy ich nie wydał. W końcu zniknął, głównie z powodu obaw związanych z uwagą wywołaną sprawą WikiLeaks, pozostawiając projekt społeczności, bez jednej dominującej postaci.
+Po czwarte, Bitcoin był tworem altruistycznym. Satoshi Nakamoto zaoferował Bitcoina światu. Udostępnił program na wolnej licencji. Nie szukał sławy, zysku ani władzy. Zapewnił bezpieczeństwo sieci wydobywania przez ponad rok, nie prosząc o żadną rekompensatę. Mimo że zgromadził ponad milion bitcoinów, nigdy ich nie wydał. W końcu zniknął, głównie z powodu obaw związanych z uwagą wywołaną sprawą WikiLeaks, pozostawiając projekt społeczności, bez jednej dominującej postaci.
 
 
-W 2011 r. Satoshi zniknął, ale Bitcoin przetrwał. Kryptowaluta nawet definitywnie wystartowała, zarówno z medialnego, jak i ekonomicznego punktu widzenia. Machina ruszyła i nikt nie był w stanie jej zatrzymać.
+W 2011 r. Satoshi zniknął, ale Bitcoin przetrwał. Kryptowaluta definitywnie wystartowała, zarówno z medialnego, jak i ekonomicznego punktu widzenia. Machina ruszyła i nikt nie był w stanie jej zatrzymać.
 
 
 # Sekcja końcowa

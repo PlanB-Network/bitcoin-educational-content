@@ -103,13 +103,13 @@ Iconische figuren zoals Julian Assange, Wei Dai, Tim May en David Chaum speelden
 
 De Cypherpunk beweging, diep geworteld in digitaal activisme en cryptografie, baseerde zich op verschillende fundamentele teksten om haar principes en toekomstvisie te verwoorden. Drie van deze geschriften springen er in het bijzonder uit:
 
-- "Een Cypherpunk Manifest":
+- "A Cypherpunk's Manifesto (Een Cypherpunk Manifest)":
   geschreven door Eric Hughes in 1993, stelt dat privacy een grondrecht is. De auteur stelt dat de mogelijkheid om vrij en vertrouwelijk te communiceren essentieel is voor een vrije samenleving. Het manifest stelt: "We kunnen niet verwachten dat overheden, bedrijven of andere grote, gezichtsloze organisaties ons privacy verlenen [...]. We moeten onze eigen privacy verdedigen als we die willen hebben".
 
-- "Het Crypto-Anarchistisch Manifest":
+- "The Crypto Anarchist Manifesto (Het Crypto-Anarchistisch Manifest)":
   geschreven door Timothy C. May in 1992, dit document legt uit hoe het gebruik van cryptografie zou kunnen leiden tot een tijdperk van cryptografische anarchie waarin overheden machteloos zouden zijn om zich te mengen in de privézaken van burgers. May zag een toekomst voor zich waarin mensen anoniem informatie en geld uitwisselen zonder tussenkomst van een derde partij.
 
-- "Een Verklaring Van De Onafhankelijkheid Van Cyberspace":
+- "A Declaration of the Independence of Cyberspace (Een Verklaring Van De Onafhankelijkheid Van Cyberspace)":
   hoewel het niet uitsluitend Cypherpunk is, weerspiegelt deze tekst de gevoelens van veel deelnemers aan de beweging. De verklaring werd in 1996 geschreven door John Perry Barlow en is een reactie op de toenemende regulering van het internet door overheden. De verklaring stelt dat cyberspace een ander domein is dan de fysieke sfeer en niet onderworpen zou moeten zijn aan dezelfde wetten. Er staat: "We hebben geen gekozen regering en het is ook niet waarschijnlijk dat we er een zullen krijgen".
 
 ### De voorgangers van Bitcoin
@@ -169,7 +169,7 @@ In onze wereld is de functie ervan moeilijk kunstmatig na te bootsen. In feite k
 
 Om deze redenen is goud als geld het resultaat van 4000 jaar monetair Darwinisme gebaseerd op de volgende Aristotelische functies:
 
-- **Store of Value (Waardeopslag)**: geld kan gebruikt worden om koopkracht over te dragen naar de toekomst, dus moet het een duurzaam materiaal zijn;
+- **Store of Value (Waardeopslagmiddel)**: geld kan gebruikt worden om koopkracht over te dragen naar de toekomst, dus moet het een duurzaam materiaal zijn;
 - **Medium of Exchange (Ruilmiddel)**: geld kan als ruilmiddel voor goederen en diensten gebruikt worden in plaats van ruilhandel, waardoor het toevallig samenvallen van behoeften (coincidence of wants) tussen handelaren wordt vermeden;
 - **Unit of Account (Rekeneenheid)**: geld stelt ons ook in staat om de waarde van verschillende goederen te vergelijken om hun relatieve bruikbaarheid beter te begrijpen.
 
@@ -179,7 +179,7 @@ Om deze redenen is goud als geld het resultaat van 4000 jaar monetair Darwinisme
 
 ### De kenmerken van geld
 
-Goud voldoet idealiter aan de criteria van een efficiënt betaalmiddel: de natuurlijke zeldzaamheid maakt het waardevol terwijl de chemische eigenschappen ervoor zorgen dat het in de loop der tijd niet erodeert. Deze eigenschappen hebben goud tot een geweldige **store of value (waardeopslag)** gemaakt, maar niet tot een gangbare valuta, omdat deze vorm van geld niet gemakkelijk deelbaar of vervoerbaar is over lange afstanden. In een geglobaliseerde en digitale wereld heeft goud moeite om bij te blijven en heeft het een centrale entiteit nodig om het deelbaar en gemakkelijk uitwisselbaar te maken (d.w.z. door middel van uitgegeven munten).
+Goud voldoet idealiter aan de criteria van een efficiënt betaalmiddel: de natuurlijke zeldzaamheid maakt het waardevol terwijl de chemische eigenschappen ervoor zorgen dat het in de loop der tijd niet erodeert. Deze eigenschappen hebben goud tot een geweldige **store of value (waardeopslagmiddel)** gemaakt, maar niet tot een gangbare valuta, omdat deze vorm van geld niet gemakkelijk deelbaar of vervoerbaar is over lange afstanden. In een geglobaliseerde en digitale wereld heeft goud moeite om bij te blijven en heeft het een centrale entiteit nodig om het deelbaar en gemakkelijk uitwisselbaar te maken (d.w.z. door middel van uitgegeven munten).
 
 Anderzijds zijn fiduciaire staatsvaluta's (fiat) gemakkelijk te gebruiken, maar worden ze voortdurend gedevalueerd door de entiteiten die ze controleren (koningen, centrale banken, keizers, dictators).
 
@@ -197,9 +197,9 @@ Om aan deze criteria te voldoen, heeft valuta zich historisch ontwikkeld door ve
 - Bankbiljet -> Bankpas
 - Blockchain -> Lightning Network
 
-Valuta's evolueren tot op de dag van vandaag en passen hun vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekende opslagplaats van waarde is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire munteenheden zoals de dollar en de euro erg Liquid en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
+Valuta's evolueren tot op de dag van vandaag en passen hun vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekend waardeopslagmiddel (store of value) is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire valuta's zoals de dollar en de euro erg liquide en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
 
-Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde Supply, maken het een uitstekende waardeopslag. Bovendien dient het als neutrale internetvaluta als een levensvatbaar **medium van Exchange** dat grenzen overschrijdt. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in de handel, ondanks zijn [constante adoptie] (https://btcmap.org/map).
+Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde voorraad, maken het een uitstekend waardeopslagmiddel. Bovendien, als neutrale internetvaluta is het een realistisch **ruilmiddel** dat grensoverstijgend is. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in handel, ondanks zijn [constante adoptie] (https://btcmap.org/map).
 
 ## Fiduciaire valuta
 
@@ -207,49 +207,49 @@ Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals
 
 > "Wie zich het verleden niet kan herinneren, is gedoemd het te herhalen" zei George Santayana.
 
-Een waarheid die goed doorklinkt als het gaat om het huidige monetaire systeem.
+Een waarheid die zeker van toepassing is als het gaat om het huidige monetaire systeem.
 
 ### Zaakwaarnemer = vertrouwen
 
 Vandaag de dag worden belangrijke valuta zoals de euro en de dollar als fiduciair beschouwd. Dit betekent dat ze geen intrinsieke waarde hebben en volledig afhankelijk zijn van het vertrouwen dat we stellen in de instellingen die ze besturen.
 
-Een fiduciaire valuta is een vorm van geld die als zodanig is verordend door een instelling, d.w.z. een staat, zoals China met de Yuan, of een politiek-economische unie, zoals de Europese Unie met de Euro. De entiteit die verantwoordelijk is voor de uitgifte ervan is de centrale bank (we kunnen bijvoorbeeld de People's Bank of China, de Federal Reserve van de Verenigde Staten of de Centrale Bank van de Republiek Guinee noemen). Het zijn precies deze entiteiten die verantwoordelijk zijn voor het formuleren van het monetaire beleid en dus hoeveel geld er in omloop moet worden gebracht of gedrukt.
+Een fiduciaire valuta is een vorm van geld die als zodanig is verordend door een instelling, d.w.z. een staat, zoals China met de Yuan, of een politiek-economische unie, zoals de Europese Unie met de Euro. De entiteit die verantwoordelijk is voor de uitgifte ervan is de centrale bank (we kunnen bijvoorbeeld de People's Bank of China, de Federal Reserve van de Verenigde Staten of de Centrale Bank van de Republiek Guinee noemen). Het zijn precies deze entiteiten die verantwoordelijk zijn voor het formuleren van het monetaire beleid en dus hoeveel geld er in omloop moet worden gebracht of gedrukt moet worden.
 
 ![image](assets/en/12.webp)
 
 ### Monetaire devaluatie: een strategie zo oud als het Romeinse Rijk
 
-Sinds de oudheid heeft goud gediend als monetaire referentie, maar de starheid ervan heeft leiders, zowel Romeinse keizers als moderne regeringen, er vaak toe aangezet om alternatieve munteenheden te gebruiken, vaak fiduciaire.
+Sinds de oudheid heeft goud gediend als monetaire referentie, maar de starheid ervan heeft leiders, zowel Romeinse keizers als moderne regeringen, er vaak toe aangezet om alternatieve, vaak fiduciaire, munteenheden te gebruiken.
 
-Het mechanisme is eenvoudig en is geïnspireerd op praktijken die al bestaan sinds het begin van de beschaving. Leiders, die graag controle willen uitoefenen over rijkdom, beginnen met het centraliseren van goud, vaak door hun macht uit te buiten en bescherming en veiligheid te beloven. Met deze kostbare reserve in handen introduceren ze een nieuwe valuta, gelijkwaardig in waarde aan goud, maar geslagen in hun beeltenis. Deze munt begint dan te circuleren en mensen passen zich snel aan aan het gemak van het eenvoudige gebruik ervan.
+Het mechanisme is eenvoudig en is geïnspireerd op praktijken die al bestaan sinds het begin van de beschaving. Leiders, die graag controle willen uitoefenen over rijkdommen, beginnen met het centraliseren van goud, vaak door hun macht uit te buiten en bescherming en veiligheid te beloven. Met deze kostbare reserve in handen introduceren ze een nieuwe valuta, equivalent in waarde aan goud, maar geslagen in hun beeltenis. Deze munt begint dan te circuleren en mensen passen zich snel aan aan het gemak van het eenvoudige gebruik ervan.
 
 Deze leiders beginnen de nieuwe munteenheid echter geleidelijk te devalueren, waarbij de waarde de facto elk jaar met een paar procent daalt ten opzichte van de oorspronkelijke goudprijs. Deze stille devaluatie wordt vaak gerechtvaardigd als zijnde in het belang van het volk. In werkelijkheid zien degenen die sparen in deze fiduciaire valuta de waarde van hun spaargeld afnemen, terwijl de staat zijn projecten financiert door middel van inflatie. Bovendien maakt deze devaluatie het makkelijker om schulden terug te betalen.
 
 ![image](assets/en/13.webp)
 
-Op een kritiek moment doet de leider de aankondiging: de munt wordt niet langer gedekt door goud. Het publiek, nu gewend aan de fiduciaire munt en vaak verkeerd geïnformeerd over financiële zaken, accepteert deze realiteit, waardoor de staat vrijelijk de geld Supply kan manipuleren en enorme sommen geld kan drukken, bijna zonder kosten.
+Op een doorslaggevend moment doet de leider de aankondiging: de munt wordt niet langer gedekt door goud. Het publiek, nu gewend aan de fiduciaire munt en vaak verkeerd geïnformeerd over financiële zaken, accepteert deze realiteit, waardoor de staat vrijelijk de geldhoeveelheid kan manipuleren en enorme sommen geld kan drukken, bijna zonder kosten.
 
-Het drukken van geld leidt dan tot inflatie en verarmt geleidelijk de bevolking. Bovendien wordt het financiële systeem gereguleerd en beperkt om ineenstorting te voorkomen, omdat elke verstoring een grote economische crisis zou kunnen veroorzaken. In tegenstelling tot de massa profiteren financiële instellingen en rijke individuen enorm van dit systeem, dat een ongelijkheidskloof creëert en autoritarisme in de hand werkt. In deze context worden ze niet gestimuleerd om radicale veranderingen door te voeren, waardoor het systeem zijn gang kan blijven gaan tot een mogelijke implosie.
+Het drukken van geld leidt dan tot inflatie en verarmt geleidelijk de bevolking. Bovendien wordt het financiële systeem gereguleerd en beperkt om ineenstorting te voorkomen, omdat elke verstoring een grote economische crisis zou kunnen veroorzaken. In tegenstelling tot het gewone volk zijn het financiële instellingen en rijke individuen die enorm profiteren van dit systeem, dat een ongelijkheidskloof creëert en autoritarisme in de hand werkt. In deze situatie worden ze niet gestimuleerd om radicale veranderingen door te voeren, waardoor het systeem zijn gang kan blijven gaan tot aan een mogelijke implosie.
 
-Als deze strategie goed wordt uitgevoerd, kan ze tientallen jaren standhouden. Het is echter belangrijk op te merken dat een zeer snelle devaluatie of verlies van vertrouwen kan leiden tot hyperinflatie (zie volgende hoofdstuk). De geschiedenis laat zien dat de dollar 98% van zijn waarde heeft verloren in 100 jaar, de euro 30% in 20 jaar en het Britse pond 99% sinds zijn oprichting.
+Als deze strategie goed wordt uitgevoerd, kan ze tientallen jaren standhouden. Het is echter belangrijk op te merken dat een zeer snelle devaluatie of verlies van vertrouwen kan leiden tot hyperinflatie (zie het volgende hoofdstuk). De geschiedenis laat zien dat de dollar 98% van zijn waarde heeft verloren in 100 jaar, de euro 30% in 20 jaar en het Britse pond 99% sinds zijn oprichting.
 
-Uiteindelijk kan de munteenheid geen verband meer hebben met goud, zoals Romeinse munten aan het einde van het Rijk, of zelfs worden gereduceerd tot een eenvoudige numerieke waarde, losgekoppeld van de tastbare werkelijkheid.
+Uiteindelijk kan de valuta geen verband meer hebben met goud, zoals Romeinse munten aan het einde van het Rijk, of zelfs worden gereduceerd tot een eenvoudige numerieke waarde, losgekoppeld van de tastbare werkelijkheid.
 
-Vandaag zijn we getuige van een historisch keerpunt. De dollar, die lange tijd heeft gedomineerd, lijkt in verval te raken, terwijl goud zijn centrale rol heeft verloren. We staan op de drempel van een nieuwe monetaire cyclus, die ons eraan herinnert dat de lessen van de geschiedenis vaak vergeten worden
+Vandaag zijn we getuige van een historisch keerpunt. De dollar, die lange tijd heeft gedomineerd, lijkt in verval te raken, terwijl goud zijn centrale rol heeft verloren. We staan aan de vooravond van een nieuwe monetaire cyclus, die ons eraan herinnert dat de lessen van de geschiedenis vaak vergeten worden.
 
 ![image](assets/en/14.webp)
 
 ### Is Bitcoin een oplossing?
 
-Vanwege deze uitgangspunten wint de Bitcoin revolutie aan kracht. In tegenstelling tot eerdere munteenheden is er geen betrouwbare derde partij nodig** en is het de bedoeling om de staat van het geld te scheiden.
+Vanwege deze uitgangspunten wint de Bitcoin revolutie het aan momentum. In tegenstelling tot eerdere valuta's is er **geen vertrouwde derde partij** nodig en is het de bedoeling om een scheiding tussen Staat en geld te creëren.
 
 ![image](assets/en/15.webp)
 
-In feite presenteert Bitcoin zichzelf als een antwoord op deze systeemuitdagingen door een gedecentraliseerde oplossing en een nieuw parallel monetair systeem voor te stellen. Historisch gezien was goud favoriet als valuta vanwege de weerstand tegen vervalsing, maar Bitcoin kan op dezelfde manier niet vervalst worden. Bovendien is het beperkt tot 21 miljoen eenheden, dankzij het gedecentraliseerde en cryptografische karakter. Bitcoin is een valuta die vertrouwt op transparantie en neutraliteit, en biedt een aantrekkelijk alternatief voor het huidige gecentraliseerde monetaire systeem.
+In feite presenteert Bitcoin zichzelf als een antwoord op deze systemische uitdagingen door een gedecentraliseerde oplossing en een nieuw parallel monetair systeem aan te bieden. Historisch gezien was goud de favoriete valuta vanwege zijn weerstand tegen vervalsing, maar Bitcoin kan op dezelfde manier niet vervalst worden. Bovendien is het beperkt tot 21 miljoen eenheden dankzij het gedecentraliseerde en cryptografische karakter. Bitcoin is een valuta die vertrouwt op transparantie en neutraliteit, en biedt een aantrekkelijk alternatief voor het huidige gecentraliseerde monetaire systeem.
 
 ![image](assets/en/16.webp)
 
-Een andere reden waarom Bitcoin aandacht heeft gekregen is de opkomst van digitale valuta van centrale banken, of CBDC's, die onvermijdelijk lijkt. Deze nieuwe vorm van geld zou een meer centraal geplande economie ontwikkelen en zou zowel de financiële vrijheid van individuen kunnen belemmeren als autoritair misbruik kunnen faciliteren.
+Een andere reden waarom Bitcoin aandacht heeft gekregen is de opkomst van digitale valuta van centrale banken, of CBDC's, die onvermijdelijk lijkt. Deze nieuwe vorm van geld zal leiden tot een nog meer centraal geplande economie, die zowel de financiële vrijheid van individuen kunnen belemmeren als autoritair misbruik kunnen faciliteren.
 
 We kunnen dit hoofdstuk afsluiten met een citaat van Nobelprijswinnaar F.A Hayek uit 1984:
 
@@ -263,7 +263,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflatie is een monetair fenomeen dat specifiek is voor fiatvaluta's: het wordt gekenmerkt door een volledig verlies van vertrouwen in een valuta en een drastische toename van de inflatie als gevolg van het drukken van geld door de autoriteiten. Als gevolg hiervan kan het spaargeld van individuen in een relatief korte periode verdwijnen, waardoor het land op de rand van de economische, sociale en politieke ineenstorting komt te staan.
+Hyperinflatie is een monetair fenomeen dat specifiek is voor fiatvaluta's: het wordt gekenmerkt door een volledig verlies van vertrouwen in een valuta en een drastische toename van de inflatie als gevolg van het drukken van geld door de autoriteiten. Als gevolg hiervan kan het spaargeld van individuen in een relatief korte periode verdwijnen, waardoor het land op de rand van de economische, sociale en politieke afgrond komt te staan.
 
 ### Inflatie slaat op hol!
 
@@ -286,36 +286,41 @@ Het is cruciaal om te begrijpen dat hyperinflatie niet ontstaat door toeval, doo
 Voor hyperinflatie moeten bepaalde gebeurtenissen plaatsvinden.
 
 Fase 1 - Verlies van vertrouwen
-- Centralisatie van de monetaire macht vergemakkelijkt de creatie van geld en het misbruik ervan. In deze context kunnen externe factoren zoals oorlogen, overheidsbeleid of stijgende prijzen van belangrijke grondstoffen - zoals tarwe of benzine - hyperinflatie veroorzaken. Zo kan er een verlies aan vertrouwen in een munt ontstaan en beginnen individuen te twijfelen aan de oorsprong van geld en de voordelen van het opgelegde monetaire beleid.
 
-Fase 2 - Valuta instorten en prijsstijging
-- Als regeringen de controle over het vertrouwen verliezen, beginnen individuen hun munt in te ruilen voor een stabielere munt, zoals gebeurde in Venezuela met de Amerikaanse dollar. Deze omstandigheid leidt tot een stijging van de prijzen, waardoor een vicieuze cirkel ontstaat waarbij goederen en diensten steeds duurder worden. Om aan deze behoeften te voldoen en het monetaire beleid te corrigeren, drukt de staat meer geld, wat resulteert in exponentiële inflatie.
+- Centralisatie van de monetaire macht vergemakkelijkt de creatie van geld en het misbruik ervan. In deze context kunnen externe factoren zoals oorlogen, overheidsbeleid of stijgende prijzen van belangrijke grondstoffen - zoals tarwe of benzine - hyperinflatie veroorzaken. Zo kan er een verlies aan vertrouwen in een valuta ontstaan en beginnen individuen te twijfelen aan de oorsprong van geld en de voordelen van het opgelegde monetaire beleid.
+
+Fase 2 - Valuta ineenstorting en prijsstijging
+
+- Als regeringen de controle over het vertrouwen verliezen, beginnen individuen hun valuta in te ruilen voor een stabielere valuta, zoals gebeurde in Venezuela met de Amerikaanse dollar. Deze omstandigheid leidt tot prijsstijgingen, waardoor een vicieuze cirkel ontstaat waarbij goederen en diensten steeds duurder worden. Om aan deze behoeften te voldoen en het monetaire beleid te corrigeren, drukt de staat meer geld, wat resulteert in exponentiële inflatie.
 
 Fase 3 - De vicieuze cirkel van geld printen
-- Er zijn dus steeds meer biljetten nodig om goederen te kopen, waardoor papiergeld schaarser wordt. In reactie hierop gaan overheden meer biljetten drukken, wat de inflatie nog verder aanwakkert.
+
+- Er zijn dus steeds meer biljetten nodig om goederen te kopen waardoor papiergeld schaarser wordt. In reactie hierop gaan overheden meer biljetten drukken, wat de inflatie nog verder aanwakkert.
 
 ![image](assets/en/19.webp)
 
 Fase 4 - De opkomst van een nieuwe valuta
-- Er wordt dan een nieuwe munteenheid geïntroduceerd om de oude te vervangen, om de inflatiecyclus te doorbreken door strengere controles uit te voeren die er niet waren met het vorige wettige betaalmiddel.
 
-Om een hyperinflatiecrisis op te lossen zijn vaak radicale veranderingen nodig, zoals revoluties, regeringswisselingen en veranderingen van centrale bankiers. Verlies van vertrouwen, ineenstorting van de valuta en wederopbouw zijn essentiële fasen om een economie gebaseerd op fiatvaluta nieuw leven in te blazen.
+- Er wordt dan een nieuwe valuata geïntroduceerd om de oude te vervangen met als doel de inflatiecyclus te doorbreken door middel van strengere controles die er niet waren met het vorige wettige betaalmiddel.
+
+Om een hyperinflatiecrisis op te lossen zijn vaak radicale veranderingen nodig, zoals revoluties, regeringswisselingen en wisselingen van centrale bankiers. Verlies van vertrouwen, ineenstorting van de valuta en wederopbouw zijn essentiële fasen om een economie gebaseerd op fiatvaluta nieuw leven in te blazen.
 
 ### Drie opmerkelijke voorbeelden
 
 - Duitsland, 1922-1923.
+
 Een van de meest opvallende voorbeelden van hyperinflatie vond plaats in de Duitse Weimarrepubliek na de Eerste Wereldoorlog.
 
-Duitsland had enorme bedragen geleend om de oorlog te financieren. Duitsland verloor echter niet alleen de oorlog, maar moest ook miljarden dollars aan herstelbetalingen betalen. De maand met de hoogste inflatie was oktober 1923, met een piek van 29.500%, wat gelijk stond aan een inflatie van 20,9% per dag. De prijzen verdubbelden elke 3,7 dagen!
+Duitsland had enorme bedragen geleend om de oorlog te financieren. Echter, Duitsland verloor niet alleen de oorlog maar moest ook miljarden dollars aan herstelbetalingen betalen. De maand met de hoogste inflatie was oktober 1923, met een piek van 29.500%, wat gelijk stond aan een inflatie van 20,9% per dag. De prijzen verdubbelden elke 3,7 dagen!
 
 De Duitse munteenheid werd zo waardeloos dat sommige burgers liever hun papiergeld verbrandden in plaats van hout, omdat dat goedkoper was. Er wordt zelfs verteld dat obers in restaurants elke 30 minuten de menuprijzen moesten aankondigen om rekening te houden met de inflatie.
 
-Uiteindelijk creëerden de autoriteiten een nieuwe munteenheid, gedekt door de schulden van Duitsland, Frankrijk en Engeland en gegarandeerd door Duits land.
+Uiteindelijk creëerden de autoriteiten een nieuwe valuta, gedekt door de schulden van Duitsland, Frankrijk en Engeland en gegarandeerd door Duits land.
 
 ![image](assets/en/20.webp)
 
-
 - Hongarije, 1945-1946
+
 Het land dat tot nu toe de ergste periode van hyperinflatie heeft doorgemaakt, is veruit Hongarije na de Tweede Wereldoorlog.
 
 Hongarije bevond zich aan de verliezende kant van het conflict en het grootste deel van zijn industriële productiecapaciteit was vernietigd. De maand met de hoogste inflatie was juli 1946, met een duizelingwekkende prijsinflatie van 41.900.000.000.000.000%, gelijk aan 207% per dag. De prijzen verdubbelden elke 15 uur!
@@ -328,16 +333,15 @@ Het laatste bankbiljet dat in omloop werd gebracht was een 100 miljoen miljard P
 
 Tot het jaar 2000 was Zimbabwe zelfvoorzienend voor bijna al zijn behoeften, behalve voor olie.
 
-In 1997 stortte de Zimbabwaanse dollar met meer dan 72% in nadat de regering ermee had ingestemd om oorlogsveteranen te compenseren voor het equivalent van 450 miljoen US dollar. Omdat de regering een dergelijk bedrag niet in voorraad had, nam ze haar toevlucht tot de drukpers. In 2005 bereikte de inflatie 586%, maar het hoogtepunt was midden november 2008 met een geschat percentage van 79.600.000.000% per maand.
+In 1997 stortte de Zimbabwaanse dollar met meer dan 72% in nadat de regering ermee had ingestemd om oorlogsveteranen te compenseren voor het equivalent van 450 miljoen US dollar. Omdat de regering een dergelijk bedrag niet in voorraad had, nam ze haar toevlucht tot de geld printer. In 2005 bereikte de inflatie 586%, maar het hoogtepunt was midden november 2008 met een geschat percentage van 79.600.000.000% per maand.
 
-In juni 2007 had de regering al gereageerd door prijscontroles in te stellen, maar deze actie had geen enkele invloed op de economie. Winkels werden geplunderd en handelaren hadden niet langer de middelen om hun winkels aan te vullen.
+In juni 2007 had de regering al gereageerd door prijscontroles in te stellen, maar deze actie had geen enkele invloed op de economie. Winkels werden geplunderd en handelaren hadden niet langer de middelen om hun winkelvoorraden aan te vullen.
 
-In april 2009 kondigde de minister van Financiën de opschorting van de Zimbabwaanse dollar aan en stond hij het gebruik van verschillende vreemde valuta toe voor de handel. Alle bankrekeningen, pensioenen en financiële instellingen zagen hun tegoeden van de ene op de andere dag verdampen.
+In april 2009 kondigde de minister van Financiën de opschorting van de Zimbabwaanse dollar aan en stond hij het gebruik van verschillende buitenlandse valuta toe voor de handel. Alle bankrekeningen, pensioenen en financiële instellingen zagen hun tegoeden van de ene op de andere dag verdampen.
 
 ![image](assets/en/15.webp)
 
-Tot slot heeft hyperinflatie het effect dat de waarde van de munt snel afneemt, wat leidt tot erosie van spaargelden en verlies van vertrouwen in het monetaire systeem. Zoals Voltaire ooit suggereerde, zal een fiatvaluta uiteindelijk altijd zijn intrinsieke waarde verliezen en naar nul convergeren.
-
+Tot slot heeft hyperinflatie het effect dat de waarde van de valuta snel afneemt, wat leidt tot erosie van spaargelden en verlies van vertrouwen in het monetaire systeem. Zoals Voltaire ooit suggereerde, zal een fiatvaluta uiteindelijk altijd zijn intrinsieke waarde verliezen en naar nul convergeren.
 Een valuta die afhankelijk is van een vertrouwde derde partij zoals een financiële instelling is in de praktijk en op de lange termijn een defecte valuta, omdat het niet in staat is om koopkracht te garanderen of spaartegoeden te behouden.
 
 Om dieper in te gaan op het onderwerp hyperinflatie, raden we je de ECO 204-cursus van David St-Onge aan, waarin je leert wat hyperinflatoire cycli zijn en wat hun werkelijke impact is op ons leven. Je zult ook de overeenkomsten tussen deze cycli ontdekken en, nog belangrijker, hoe je jezelf ertegen kunt beschermen.
@@ -354,40 +358,40 @@ Bitcoin is een gedecentraliseerde digitale valuta met een vooraf gedefinieerde m
 
 ![image](assets/en/22.webp)
 
-De monetaire uitgifte ervan kan worden geïllustreerd door een curve die de hoeveelheid bitcoins weergeeft die in de loop van de tijd worden gecreëerd. In 2022 waren er bijvoorbeeld ongeveer 18,5 miljoen bitcoins in omloop. Prognoses geven aan dat er in 2025 ongeveer 19,5 miljoen bitcoins zullen zijn, wat neerkomt op ongeveer 93% van de totale Supply, en in 2037 zal dit aantal oplopen tot 20,4 miljoen.
+De monetaire uitgifte ervan kan worden geïllustreerd door een curve die de hoeveelheid bitcoins weergeeft die in de loop van de tijd worden gecreëerd. In 2022 waren er bijvoorbeeld ongeveer 18,5 miljoen bitcoins in omloop. Prognoses geven aan dat er in 2025 ongeveer 19,5 miljoen bitcoins zullen zijn, wat neerkomt op ongeveer 93% van de totale voorraad, en in 2037 zal dit aantal oplopen tot 20,4 miljoen.
 
 ### Hoe worden nieuwe bitcoins gemaakt?
 
-De creatie van nieuwe bitcoins is het resultaat van het Mining proces. In een notendop gebruiken miners krachtige computers die complexe wiskundige problemen oplossen (Hash), die transacties valideren en beveiligen. Zodra een probleem is opgelost (of een geldige Hash is gevonden), voegt de Miner een nieuw blok transacties toe aan de Blockchain, een gedecentraliseerde en gedistribueerde Ledger die alle transacties op het netwerk registreert. De Blockchain zorgt voor transparantie en veiligheid, omdat elk blok gelinkt is aan het vorige, waardoor het bijna onmogelijk is om gegevens uit het verleden te wijzigen zonder consensus van het netwerk.
+De creatie van nieuwe bitcoins is het resultaat van het mining proces. In een notendop gebruiken miners krachtige computers die complexe wiskundige problemen oplossen (Hash), die transacties valideren en beveiligen. Zodra een probleem is opgelost (of een geldige Hash is gevonden), voegt de miner een nieuw blok met transacties toe aan de blockchain, een gedecentraliseerde en gedistribueerde ledger (grootboek) die alle transacties op het netwerk registreert. De blockchain zorgt voor transparantie en veiligheid, omdat elk blok gelinkt is aan het vorige, waardoor het bijna onmogelijk is om gegevens uit het verleden te wijzigen zonder consensus van het netwerk.
 
 ![image](assets/en/23.webp)
 
-Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloond met de uitgifte van nieuwe bitcoins. Deze beloning is geprogrammeerd om elke 210.000 blokken te halveren, wat ongeveer elke vier jaar is (een gebeurtenis die bekend staat als "Halving"), waardoor de monetaire uitgiftecurve een trapvorm krijgt. Door dit mechanisme kan wiskundig worden voorspeld dat de aanmaak van nieuwe bitcoins zal stoppen tegen het jaar 2140, wanneer het totale aantal de limiet van 21 miljoen bereikt.
+Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloond met de uitgifte van nieuwe bitcoins. Deze beloning is geprogrammeerd om elke 210.000 blokken te halveren, wat ongeveer elke vier jaar is (een gebeurtenis die bekend staat als "Halving (halvering)"), waardoor de monetaire uitgiftecurve een trapvorm krijgt. Door dit mechanisme kan wiskundig worden voorspeld dat de creatie van nieuwe bitcoins zal stoppen tegen het jaar 2140, wanneer het totale aantal de limiet van 21 miljoen bereikt.
 
-| Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
-| -------------- | ------------ | ------------------------- | ------------------------------------------ |
-| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
-| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
-| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
-| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
-| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
-| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
-| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
-| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
-| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
-| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
-| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
-| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
-| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
-| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
-| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
-| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
-| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
-| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
-| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
-| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
+| Halveringsnummer | Blockhoogte | BTC beloning na halvering | Geschatte BTC in omloop na halvering |
+| ---------------- | ----------- | ------------------------- | ------------------------------------ |
+| 1                | 210,000     | 25 BTC                    | 10,500,000 BTC                       |
+| 2                | 420,000     | 12.5 BTC                  | 15,750,000 BTC                       |
+| 3                | 630,000     | 6.25 BTC                  | 18,375,000 BTC                       |
+| 4                | 840,000     | 3.125 BTC                 | 19,687,500 BTC                       |
+| 5                | 1,050,000   | 1.5625 BTC                | 20,343,750 BTC                       |
+| 6                | 1,260,000   | 0.78125 BTC               | 20,671,875 BTC                       |
+| 7                | 1,470,000   | 0.390625 BTC              | 20,835,937.5 BTC                     |
+| 8                | 1,680,000   | 0.1953125 BTC             | 20,917,968.75 BTC                    |
+| 9                | 1,890,000   | 0.09765625 BTC            | 20,958,984.375 BTC                   |
+| 10               | 2,100,000   | 0.048828125 BTC           | 20,979,492.188 BTC                   |
+| 11               | 2,310,000   | 0.0244140625 BTC          | 20,989,746.094 BTC                   |
+| 12               | 2,520,000   | 0.01220703125 BTC         | 20,994,873.047 BTC                   |
+| 13               | 2,730,000   | 0.006103515625 BTC        | 20,997,436.523 BTC                   |
+| 14               | 2,940,000   | 0.0030517578125 BTC       | 20,998,718.262 BTC                   |
+| 15               | 3,150,000   | 0.00152587890625 BTC      | 20,999,359.131 BTC                   |
+| 16               | 3,360,000   | 0.000762939453125 BTC     | 20,999,679.566 BTC                   |
+| 17               | 3,570,000   | 0.0003814697265625 BTC    | 20,999,839.783 BTC                   |
+| 18               | 3,780,000   | 0.00019073486328125 BTC   | 20,999,919.892 BTC                   |
+| 19               | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC                   |
+| 20               | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC                   |
 
-We zullen het concept van Mining in meer detail bespreken in het [Miner hoofdstuk] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitale schaarste garanderen
 

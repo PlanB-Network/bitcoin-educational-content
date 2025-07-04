@@ -62,9 +62,11 @@ Prêt à plonger dans l’univers des réseaux informatiques ? Allons-y !
 
 
 # Protocole TCP/IP
+<partId>53fd4b73-cdf1-4865-ba29-1ac8ec3e9e9a</partId>
 
 
 ## Qu’est-ce qu’un réseau ?
+<chapterId>7370904f-f8f5-4ad4-a63a-5931d94c3b3b</chapterId>
 
 
 Ce premier module se propose de décrire de façon approfondie le fonctionnement du protocole TCP/IP. Nous verrons notamment les origines de ce mécanisme d’échange ainsi que l’adressage associé.
@@ -116,6 +118,7 @@ Cela correspond à plusieurs liaisons point à point où chaque unité est reli�
 Il existe évidemment un certain nombre d’autres topologies, comme le réseau en grille ou le réseau en hyper cube. En fait, Internet est le nom donné à l’interconnexion de nombreux réseaux ayant des topologies différentes. L’unification se fait au niveau de l’adressage IP (qu’il s’agisse de IPv4 ou IPv6) et d’un très grand nombre de règles et de protocoles définis par l’IETF. Ainsi, aucun des cas de topologies mentionnés ci-dessus ne correspond. Comme la majorité des grands réseaux, on dit d’Internet que sa topologie est quelconque et indépendante du plan d’adressage qui y est défini.
 
 ## Les origines de TCP/IP
+<chapterId>266b6864-8789-48d7-bc85-001cb9f1651f</chapterId>
 
 A l’origine de TCP, il y avait le **DARPA** (_Defense Advanced Research Project Agency_), qui a initié le projet ARPANET, dans les années 1970. C’est ce même organisme qui a alors financé la célèbre université de Berkeley afin d’intégrer les protocoles de base de TCP/IP, au sein du système Unix BSD-4.
 
@@ -153,6 +156,7 @@ En termes d’actions aux périphériques et aux applications, chaque couche app
 ![[Pasted image 20250704170206.png]]
 
 ## Le protocole QoS IPv5
+<chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
 
 L’entête du paquet IP contient plusieurs champs avec un rôle précis lors de la lecture et l’acheminement des paquets. On y trouve notamment l’adresse du destinataire du paquet, la taille de l’entête et bien d’autres renseignements. Le premier de ces champs s’intitule "Version" et fait 4 bits de longueur. Comme semble l’indiquer son intitulé, il sert à connaître la version du protocole utilisé.
 
@@ -168,6 +172,7 @@ Ceci a eu pour effet que, lorsqu’il a fallu concevoir la nouvelle génération
 
 
 ## Le protocole IP
+<chapterId>758fddbd-b652-4c18-bd1e-d038bd2e4d05</chapterId>
 ### Définitions et généralités
 
 Ce protocole permet de gérer l’acheminement des paquets d’une machine à une autre, ainsi que l’adressage. Au plus bas niveau (physique), on dispose alors d’interfaces pour communiquer d’un point à un autre. Grâce à trois champs du paquet, on peut facilement déterminer le destinataire d’un message :
@@ -313,6 +318,7 @@ Le problème, avec ce sous-réseau, c’est que l'adresse unicast pour le sous-r
 
 
 ## Le protocole TCP
+<chapterId>860bf7d5-a502-4d10-a12c-9827f6c2d393</chapterId>
 
 **Le protocole TCP (_Transmission Control Protocol_) est un des principaux acteurs de la couche TRANSPORT du modèle TCP/IP. Il permet au niveau des applications, de gérer les données en provenance ou à destination de la couche inférieure (c’est-à-dire du protocole IP).**
 
@@ -388,6 +394,7 @@ Pour pouvoir fonctionner ainsi, il suffit donc que l’encapsulation des donnée
 **REMARQUE** : on compare très souvent le protocole TCP au protocole régissant les communications téléphoniques (connectées) et le protocole UDP au protocole régissant la distribution de messages (par facteur interposé, donc sans connexion notoire).
 
 ## Primitives de services
+<chapterId>4480afb7-e950-4ccb-88fa-d132f9dc3479</chapterId>
 
 Comme on l’a dit précédemment, les services représentent l’implémentation des protocoles que l’on vient de voir. Or, le modèle TCP/IP a hérité de son prédécesseur le modèle OSI (à sept couches) son architecture.
 
@@ -425,8 +432,10 @@ Les réseaux d’adresses ainsi classifiées peuvent, à leur tour être divisé
 
 
 # L’adressage IPv4
+<partId>83f3c3e5-378c-440f-a095-df210842efde</partId>
 
 ## Utilisation de l’IPv4
+<chapterId>79e4dd18-446a-435b-9f25-c88a00f8bec6</chapterId>
 
 **Cette partie va se consacrer à approfondir les notions vues précédemment, concernant les protocoles TCP et IP, en détaillant les différentes utilisations faites de ces fameuses adresses IP.**
 
@@ -486,6 +495,7 @@ Comme cela a été mentionné précédemment, il est également possible de déc
 Parmi les adresses utilisées il existe une catégorie bien pratique : l’adresse de diffusion. Elle permet d’envoyer un datagramme à l’ensemble des machines d’un même réseau. Pour rappel, cette adresse est obtenue en mettant tous les bits de la partie "hostid" à 1.
 
 ## Les différents types d’adresses IPv4
+<chapterId>2adfad24-a90d-45b5-b808-3d2f6598bebf</chapterId>
 
 Lorsqu’une adresse est enregistrée (auprès d’un organisme officiel), et directement routable sur Internet, on parle alors d’adresse publique. Se sont généralement des adresses permettant de présenter les sites institutionnels des entreprises ou de certains organismes particuliers. Elles doivent être uniques, et ce, de façon internationale. Elles sont déclarées auprès de l’IANA, qui est, depuis 2005, une division de l’ICANN (_Internet Corporation for Assigned Names and Numbers_), et permet de définir l’usage des différentes plages d’adresses IP, en segmentant l’espace en 256 blocs de taille /8 (d’après la notation CIDR).
 
@@ -513,6 +523,7 @@ La popularité d’Internet a abouti à l’épuisement, en 2011, des blocs d’
 - (cas plus rare) la récupération des blocs attribués antérieurement et libérés par les entreprises.
 
 ## Le DNS, un annuaire d’adresses
+<chapterId>511244ec-ba43-44ac-b4c3-b41579a15cff</chapterId>
 
 **Nous autres pauvres humains, avons du mal à retenir tous ces chiffres compliqués que l’on appelle adresse IP. Ceci est d’autant plus vrai d’après ce que l’on vient d’évoquer dans le chapitre précédent : à savoir qu’une adresse pouvait en masquer beaucoup d’autres !**
 
@@ -533,6 +544,7 @@ Chaque serveur DNS contient une configuration particulière pour les routeurs de
 Dans le chapitre suivant, nous verrons les adresses Ethernet, appelées aussi les adresses MAC.
 
 ## A la découverte de l’adresse Ethernet et d’ARP
+<chapterId>d02109f6-9bf9-4261-a8f9-e1aa4398b949</chapterId>
 
 ### Définitions
 
@@ -632,6 +644,7 @@ Ce mécanisme permettant de connaître le maillon suivant dans la chaîne de tra
 Parmi les protocoles de routage, on peut citer : RIP (_Routing Information Protocol_) et OSPF (_Open Shortest Path First_), qui sont le plus souvent, implémentés sur les commutateurs/Routeurs de premier niveau des entreprises.
 
 ## NAT : Translation d’adresse
+<chapterId>4f984d5d-f2e0-4faf-b703-ff315f32cef4</chapterId>
 
 ### Définition
 
@@ -739,6 +752,7 @@ iptables –t NAT –A POSTROUTING –o <WAN> -s 192.168.0.0/24 –j MASQUERADE 
 Dans le prochain chapitre, nous allons voir comment configurer une adresse IP sous Linux, de manière simple et de manière avancée.
 
 ## Comment configurer le réseau avec ifconfig ?
+<chapterId>8ba7e946-d2a0-4841-8d54-e85ba96baa25</chapterId>
 
 ### Configuration standard
 
@@ -957,9 +971,11 @@ ifup eth0:1
 Nous allons maintenant passer à la partie suivante qui sera consacrée à l'adressage IPV6.
 
 # L’adressage IPv6
+<partId>9b1d87f1-2a68-496e-b5dd-76cf74fb8cde</partId>
 
 
 ## IPv6 : Normes et définitions
+<chapterId>d1f16f0a-1104-460d-8d67-f725665f8e3f</chapterId>
 
 Cette partie va maintenant décrire la génération suivante d’adressage : IPv6 (à l’époque on parlait de IPng ou IP New Generation). Mais, commençons par détailler les quelques règles qui régissent l’administration de l’espace d’adressage IPv6.
 
@@ -1112,6 +1128,7 @@ Les adresses de diffusion multidestinataire possèdent un champ Flag (sur 4bits)
 
 
 ## Assignation des adresses dans un réseau local
+<chapterId>4c9c3e52-59bc-499a-af0a-6dd369a9e029</chapterId>
 
 Dans ce court chapitre, nous allons introduire l'assignation des adresses IPv6 dans un réseau local.
 
@@ -1138,6 +1155,7 @@ Lorsque la durée d’utilisation d’une adresse dépasse celle de la valeur pr
 
 
 ## Assignation des blocs d’adresses IPv6
+<chapterId>45cce866-1b58-4888-b3fe-15c922180839</chapterId>
 
 ### Distribution des adresses
 
@@ -1226,6 +1244,7 @@ L’entête Option de destination s’utilise pour des champs qui n’ont besoin
 
 
 ## Relation entre IPv6 et DNS
+<chapterId>4a30c17b-873a-428f-8efb-a2b31959849f</chapterId>
 
 Au sein d’un annuaire DNS, les noms de domaines sont associés à une adresse IPv6 grâce à l’enregistrement AAAA :
 
@@ -1251,8 +1270,10 @@ Si les adresses IPv4 et IPv6 sont incompatibles entre elles, il reste que les pr
 
 
 # Outils de diagnostic réseau
+<partId>368a5c6f-ec48-4b28-970f-3a770788ad37</partId>
 
 ## Les outils de la couche Accès Réseau
+<chapterId>1d25a21d-6900-4fbe-a438-e06c8afb9e02</chapterId>
 
 **Cette partie s’intéresse à l’utilisation concrète de l’adressage IP et aux outils Linux, permettant de diagnostiquer ou d’auditer un réseau d’entreprise. On balaiera chaque couche du modèle TCP/IP en détaillant les différents outils propres à cette partie :**
 
@@ -1368,6 +1389,7 @@ ethtool –s enp0s3 wol p
 
 
 ## Les outils de couche Réseau
+<chapterId>d2c5bf35-4284-4af8-8e8b-049c696a511b</chapterId>
 
 ### Outils d’analyse de trafic
 
@@ -1550,6 +1572,7 @@ netstat -s
 ```
 
 ## Les outils de la couche Transport et supérieure
+<chapterId>bce47931-930e-4288-b0fd-666c9a1066b5</chapterId>
 
 ### Outils d’interrogation DNS
 

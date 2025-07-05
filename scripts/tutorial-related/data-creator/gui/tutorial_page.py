@@ -31,7 +31,7 @@ class TutorialPage(ctk.CTkFrame):
         self.tag3_var = ctk.StringVar(value=tutorial_data.get("tag3", ""))
         
         # Set up grid layout
-        total_rows = 13  # Increased by 1 for credit link
+        total_rows = 13
         for i in range(total_rows):
             self.grid_rowconfigure(i, weight=1)
         for j in range(3):

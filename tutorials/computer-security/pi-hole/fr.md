@@ -1,6 +1,6 @@
 ---
 name: Pi-Hole
-description: Un bloqueur de pubs pour tout votre réseau | IT-Connect
+description: Un bloqueur de pubs pour tout votre réseau
 ---
 ![cover](assets/cover.webp)
 

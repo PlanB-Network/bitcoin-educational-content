@@ -68,7 +68,7 @@ Je, tunawezaje kuzungumza juu ya faragha kwenye Bitcoin bila kutaja CoinJoin? Ka
 
 ![BTC204](assets/fr/004.webp)
 
-Katika sehemu hii, tunapitia baadhi ya mbinu za hali ya juu ambazo zimependekezwa kwa miaka mingi ili kuboresha faragha ya watumiaji wa Bitcoin. Pia tutaangalia faragha katika kiwango cha mtandao wa nodi na usambazaji wa shughuli. Itifaki kama TumbleBit, PayJoin, na joinmarket zitatajwa, na tutachambua kwa nini bado hazijapitishwa sana licha ya kuwa na ahadi kubwa. Pia tutaelewa hatari za Chain analysis na jinsi zinavyoathiri watumiaji wa kawaida.
+### Sehemu ya 5: Kuelewa changamoto za mbinu zingine za hali ya juu za usiri
 
 Katika sehemu ya tano, tutaangalia mbinu zingine zote zinazopatikana ili kulinda faragha yako kwenye Bitcoin, kando na CoinJoin. Kwa miaka mingi, wasanidi programu wameonyesha ubunifu wa ajabu katika kubuni zana zinazotolewa kwa faragha. Tutaangalia mbinu hizi zote, kama vile PayJoin, miamala shirikishi, ubadilishanaji wa sarafu na ubadilishanaji wa atomiki, tukieleza kwa kina jinsi zinavyofanya kazi, malengo yao na udhaifu wowote.
 

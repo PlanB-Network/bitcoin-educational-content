@@ -22,7 +22,9 @@ En synthèse "spend" & "replace" semble être la voie à suivre. Participez au d
 
 ## C'est quoi Coincards ?
 
-Comme son grand frère Bitrefill ([Plan ₿ Network - Bitrefill](https://planb.network/fr/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1)), et ses concurrents (The Bitcoin Company, Coinsbee etc...) Coincards vous permet de dépenser vos précieux satoshis pour acheter des cartes-cadeaux qui seront ensuite utilisables en ligne ou même en magasin physique, auprès des grandes enseignes présentes autour de chez vous. Et qui bien sûr n'acceptent pas encore Bitcoin nativement.
+Comme son grand frère Bitrefill, et ses concurrents (The Bitcoin Company, Coinsbee etc...) Coincards vous permet de dépenser vos précieux satoshis pour acheter des cartes-cadeaux qui seront ensuite utilisables en ligne ou même en magasin physique, auprès des grandes enseignes présentes autour de chez vous. Et qui bien sûr n'acceptent pas encore Bitcoin nativement.
+
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards propose ainsi un choix très vaste allant de la vente au détail à la restauration rapide, en passant par les plateformes de streaming, les jeux en ligne, les sites e-commerce etc...
 Ils sont présents dans les régions suivantes: Amérique du Nord, Europe, et Australie.
@@ -37,7 +39,9 @@ Cela est l'occasion de rappeler pour ceux qui souhaiteraient payer leurs cartes 
 
 Une sélection de tutoriels sur les principaux portefeuille Lightning (Phoenix, Breez, BitKit, Zeus) vous est d'ailleurs proposée ici : [Plan ₿ Network - Wallet](https://planb.network/fr/tutorials/wallet)
 
-Si vous souhaitez en apprendre davantage sur le fonctionnement du Lightning Network, une formation complète est disponible: [Plan ₿ Network - Introduction théorique au Lightning Network](https://planb.network/fr/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb)
+Si vous souhaitez en apprendre davantage sur le fonctionnement du Lightning Network, une formation complète est disponible.
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Comment acheter une carte-cadeau en BTC sur Coincards ?
 
@@ -47,7 +51,7 @@ Créer un compte est seulement utile pour ceux qui souhaitent avoir une vue d'en
 
 Commençons donc par illustrer le processus d'achat sans création de compte, puis on reviendra dans un second temps très rapidement sur le compte Coincards et ses fonctionnalités.
 
-Rendez-vous sur [Coincards.com - Buy Gift Cards Using Bitcoin, Litecoin, Dash, Dogecoin](https://coincards.com/).
+Rendez-vous sur [Coincards.com](https://coincards.com/).
 
 ![Coincards](assets/fr/03.webp)
 
@@ -64,6 +68,7 @@ Nous choisirons pour l'exemple la marque Monoprix qui est une grande enseigne fr
 ![Coincards](assets/fr/06.webp)
 
 Prenez soin de lire en bas de l'écran la description de la carte choisie, pour comprendre la manière sont elle doit être utilisée, et identifier les éventuelles limitations /  périmètre d'usage / date de validité etc...
+
 Choisissez la valeur de votre carte, ici par exemple 20 € (c'est le minimum permis), puis cliquez sur "ADD TO CART". Enfin sélectionnez votre panier via l'icone tout en haut à droite de votre écran.
 
 ![Coincards](assets/fr/07.webp)
@@ -73,7 +78,9 @@ Sur la page récapitulative de la commande cliquez sur  "PROCEED TO CHECKOUT".
 ![Coincards](assets/fr/08.webp)
 
 Sur la page suivante renseignez vos coordonnées (qui peuvent être pseudonymes évidemment), mais fournissez un mail valide.
+
 Choisissez votre moyen de paiement, pour nous Bitcoin...
+
 Pensez enfin à cocher la case "I have read and agree to the website terms and conditions" ...puis cliquez sur "PROCEED TO BTCPAY".
 
 ![Coincards](assets/fr/09.webp)

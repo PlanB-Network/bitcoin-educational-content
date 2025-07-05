@@ -1,4 +1,4 @@
----
+kemgnij---
 name: Faragha kwenye Bitcoin
 goal: Elewa na ujue kanuni za ulinzi wa faragha unapotumia Bitcoin
 objectives: 
@@ -11,11 +11,11 @@ objectives:
 ---
 # Linda faragha yako kwenye Bitcoin
 
-Katika ulimwengu ambapo usiri wa miamala ya fedha unazidi kuwa anasa, kuelewa na kusimamia kanuni za ulinzi wa faragha unapotumia Bitcoin ni muhimu. Kozi hii ya mafunzo hukupa funguo zote, za kinadharia na za vitendo, ili kufanikisha hili kwa uhuru.
+Katika ulimwengu ambapo faragha ya miamala ya kifedha inazidi kuwa anasa, kuelewa na kusimamia kanuni za ulinzi wa faragha unapotumia Bitcoin ni jambo la msingi. Kozi hii ya mafunzo inakupa maarifa yote muhimu—ya kinadharia na ya vitendo—ili kufanikisha hili kwa uhuru.
 
-Leo, kwenye Bitcoin, makampuni yana utaalam katika uchambuzi wa Blockchain. Biashara yao kuu inajumuisha kujipenyeza katika nyanja yako ya faragha, ili kuhatarisha usiri wa miamala yako. Kwa kweli, hakuna kitu kama "haki ya faragha" katika Bitcoin. Kwa hivyo ni juu yako, mtumiaji, kudai haki zako asilia na kulinda usiri wa miamala yako, kwa sababu hakuna mtu mwingine atakufanyia hilo.
 
-Kozi imeundwa kuwa ya kina na kwa ujumla. Kila dhana ya kiufundi imefunikwa kwa undani na kuungwa mkono na michoro ya maelezo. Lengo ni kufanya maarifa kupatikana kwa wote. Kwa hivyo BTC204 ni nafuu kwa wanaoanza na watumiaji wa kati. Kozi hii pia inatoa thamani iliyoongezwa kwa Bitcoiners wenye uzoefu zaidi, tunapoingia ndani zaidi katika dhana fulani za kiufundi ambazo mara nyingi hazieleweki.
+
+Kozi imeundwa kuwa ya kina na ya jumla. Kila dhana ya kiufundi imeelezewa kwa undani na kuungwa mkono na michoro ya maelezo. Lengo ni kufanya maarifa yawe wazi kwa kila mtu. Kwa hivyo, BTC204 ni nafuu kwa wanaoanza na watumiaji wa kati. Kozi hii pia hutoa thamani ya ziada kwa Bitcoiners wenye uzoefu zaidi, tunapoingia kwa kina zaidi katika dhana fulani za kiufundi ambazo mara nyingi hueleweka vibaya.
 
 Jiunge nasi ili kubadilisha matumizi yako ya Bitcoin na uwe mtumiaji aliyearifiwa, anayeweza kuelewa masuala yanayohusu usiri na kulinda faragha yako.
 
@@ -30,9 +30,9 @@ Jiunge nasi ili kubadilisha matumizi yako ya Bitcoin na uwe mtumiaji aliyearifiw
 
 Katika ulimwengu ambapo usiri wa miamala ya kifedha unazidi kuwa anasa, kuelewa na kusimamia kanuni za ulinzi wa faragha unapotumia Bitcoin ni muhimu. Kozi hii ya mafunzo hukupa funguo zote, za kinadharia na za vitendo, ili kufanikisha hili kwa uhuru.
 
-Leo, kwenye Bitcoin, makampuni yana utaalam katika uchambuzi wa Blockchain. Biashara yao kuu inajumuisha kujipenyeza katika nyanja yako ya faragha, ili kuhatarisha usiri wa miamala yako. Kwa kweli, hakuna kitu kama "haki ya faragha" katika Bitcoin. Kwa hivyo ni juu yako, mtumiaji, kudai haki zako asilia na kulinda usiri wa miamala yako, kwa sababu hakuna mtu mwingine atakufanyia hilo.
+Leo, kwenye Bitcoin, makampuni yana utaalam katika uchambuzi wa Blockchain. Biashara yao kuu inahusisha kujipenyeza katika nyanja yako ya faragha, ili kuhatarisha faragha ya miamala yako. Kwa kweli, hakuna kitu kama "haki ya faragha" katika Bitcoin. Kwa hivyo ni juu yako, mtumiaji, kudai haki zako za kiasili na kulinda faragha ya miamala yako, kwa sababu hakuna mtu mwingine atakufanyia hilo.
 
-Bitcoin haihusu tu "Nambari ya kuenda Juu" na kuhifadhi thamani ya akiba. Kwa sifa zake za kipekee na historia, ni ya kwanza kabisa chombo cha kukabiliana na uchumi. Shukrani kwa uvumbuzi huu wa kutisha, unaweza kutupa pesa zako kwa uhuru, kuzitumia na kuzikusanya, bila mtu yeyote kukuzuia.
+Bitcoin haihusu tu "Nambari ya kuenda juu" na kuhifadhi thamani ya akiba. Kwa sifa zake za kipekee na historia yake, ni chombo cha kwanza kabisa cha kukabiliana na uchumi. Shukrani kwa uvumbuzi huu wa kipekee, unaweza kutumia pesa zako kwa uhuru, kuzitumia na kuzikusanya, bila mtu yeyote kukuzuia.
 
 Bitcoin inatoa kutoroka kwa amani kutoka kwa nira ya serikali, kukuruhusu kufurahia kikamilifu haki zako za asili, ambazo haziwezi kupingwa na sheria zilizowekwa. Shukrani kwa uvumbuzi wa Satoshi Nakamoto, una uwezo wa kutekeleza heshima kwa mali yako ya kibinafsi na kurejesha uhuru wa Contract (Mkataba).
 
@@ -40,17 +40,17 @@ Hata hivyo, Bitcoin haitambuliki kwa chaguomsingi, ambayo inaweza kuwakilisha ha
 
 Kama tutakavyoona, ingawa itifaki inatoa ulinzi fulani wa usiri kwa haki yake yenyewe, ni muhimu kutumia zana za ziada ili kuboresha na kutetea usiri huu.
 
-Kozi hii ya mafunzo imeundwa ili kutoa muhtasari wa kina, wa jumla wa masuala yanayohusika katika usiri wa Bitcoin. Kila dhana ya kiufundi imefunikwa kwa undani, unaoungwa mkono na michoro ya maelezo. Lengo ni kufanya maarifa haya kupatikana kwa kila mtu, hata wanaoanza na watumiaji wa kati. Kwa Bitcoiners waliobobea zaidi, tunashughulikia pia dhana za kiufundi na wakati mwingine usiojulikana sana katika kipindi chote, ili kuongeza uelewa wa kila somo.
+Kozi hii ya mafunzo imeundwa ili kutoa muhtasari wa kina na wa jumla wa masuala yanayohusiana na faragha katika Bitcoin. Kila dhana ya kiufundi imeelezewa kwa undani, ikiungwa mkono na michoro ya maelezo. Lengo ni kufanya maarifa haya yawe wazi kwa kila mtu, hata wanaoanza na watumiaji wa kati. Kwa Bitcoiners waliobobea zaidi, tunashughulikia pia dhana za kiufundi na wakati mwingine zisizojulikana sana katika kipindi chote, ili kuongeza uelewa wa kila somo.
 
-Lengo la kozi hii ya mafunzo si kukufanya usijulikane kabisa katika matumizi yako ya Bitcoin, bali ni kukupa zana muhimu za kujua jinsi ya kulinda usiri wako kulingana na malengo yako ya kibinafsi. Utakuwa na uhuru wa kuchagua kutoka kwa dhana na zana zinazowasilishwa ili kukuza mikakati yako mwenyewe, iliyoundwa kulingana na malengo na mahitaji yako mahususi.
+Lengo la kozi hii ya mafunzo si kukufanya usijulikane kabisa katika matumizi yako ya Bitcoin, bali ni kukupa zana muhimu za kujua jinsi ya kulinda faragha yako kulingana na malengo yako ya kibinafsi. Utakuwa na uhuru wa kuchagua kutoka kwa dhana na zana zinazowasilishwa ili kukuza mikakati yako mwenyewe, iliyoundwa kulingana na malengo na mahitaji yako mahususi.
 
 ### Sehemu ya 1: Ufafanuzi na dhana muhimu
 
-Kwa kuanzia, tutakagua kanuni za kimsingi zinazosimamia utendakazi wa Bitcoin, ili tuweze kushughulikia kwa utulivu dhana zinazohusiana na usiri. Ni muhimu kufahamu dhana chache za kimsingi, kama vile UTXO, kupokea Anwani (address) na uandishi, kabla ya kuelewa kikamilifu dhana ambazo tutashughulikia katika sehemu zifuatazo. Pia tutatambulisha modeli ya usiri ya jumla ya Bitcoin, kama inavyofikiriwa na Satoshi Nakamoto, ambayo itatuwezesha kufahamu vigingi na hatari zinazohusiana.
+Kwa kuanzia, tutakagua kanuni za kimsingi zinazosimamia utendakazi wa Bitcoin, ili tuweze kushughulikia kwa utulivu dhana zinazohusiana na faragha. Ni muhimu kufahamu dhana chache za kimsingi, kama vile UTXO, kupokea Address na uandishi, kabla ya kuelewa kikamilifu dhana ambazo tutashughulikia katika sehemu zifuatazo. Pia tutatambulisha modeli ya faragha ya jumla ya Bitcoin, kama inavyofikiriwa na Satoshi Nakamoto, ambayo itatuwezesha kufahamu vizuizi na hatari zinazohusiana.
 
 ![BTC204](assets/fr/001.webp)
 
-### Sehemu ya 2: Kuelewa na kulinda dhidi ya uchanganuzi wa minyororo
+### Sehemu ya 2: Kuelewa na kulinda dhidi ya uchanganuzi wa Blockchain
 
 Katika sehemu ya pili, tunaangalia mbinu zinazotumiwa na kampuni za uchanganuzi za Blockchain kufuatilia shughuli yako kwenye Bitcoin. Kuelewa mbinu hizi ni muhimu ili kuimarisha ulinzi wako wa faragha. Lengo la sehemu hii ni kuchunguza mikakati ya washambuliaji ili kuelewa vyema hatari na kuandaa msingi wa mbinu tutakazojifunza katika sehemu zifuatazo. Tutachanganua mifumo ya muamala, utabiri wa ndani na nje, na uwezekano wa kufasiriwa kwa mifumo hii. Mbali na nadharia, tutajifunza jinsi ya kutumia Block explorer kwa uchanganuzi wa minyororo, kupitia mifano ya vitendo na mazoezi.
 
@@ -58,21 +58,21 @@ Katika sehemu ya pili, tunaangalia mbinu zinazotumiwa na kampuni za uchanganuzi 
 
 ### Sehemu ya 3: Kusimamia mbinu bora za kulinda faragha yako
 
-Katika sehemu ya tatu ya kozi yetu ya mafunzo, tunapata chini kwa nitty-gritty: mazoezi! Madhumuni ni kujua mbinu bora zote muhimu ambazo zinapaswa kuwa reflexes asili kwa mtumiaji yeyote wa Bitcoin. Tutashughulikia matumizi ya Anwani (address) tupu, kuweka alama, uimarishaji, matumizi ya nodi kamili, pamoja na KYC na mbinu za kupata. Lengo ni kukupa muhtasari wa kina wa mitego ya kuepuka ili kuweka msingi thabiti katika azma yetu ya kulinda faragha. Kwa baadhi ya mazoea haya, utaongozwa kwa mafunzo maalum ya jinsi ya kuyatekeleza.
+Katika sehemu ya tatu ya kozi yetu ya mafunzo, tunashuka hadi kwenye undani wa mazoezi. Lengo ni kujifunza mbinu zote bora na muhimu ambazo zinapaswa kuwa tabia za kawaida kwa mtumiaji yeyote wa Bitcoin. Tutashughulikia matumizi ya Address tupu, kuweka alama, uimarishaji, matumizi ya Full node, pamoja na KYC na mbinu za kujipatia Bitcoin. Lengo ni kukupa muhtasari wa kina wa mitego ya kuepuka ili kuweka msingi imara katika juhudi zetu za kulinda faragha. Kwa baadhi ya mazoea haya, utaelekezwa kwenye mafunzo maalum ya jinsi ya kuyatekeleza.
 
 ![BTC204](assets/fr/003.webp)
 
-### Sehemu ya 4: Kuelewa miamala ya sCoinjoin (arafu ya kujiunga)
+### Sehemu ya 4: Kuelewa miamala ya CoinJoin
 
-Je, tunawezaje kuzungumza juu ya faragha kwenye Bitcoin bila kutaja sCoinjoin (arafu ya kujiunga)? Katika sehemu ya 4, utapata yote unayohitaji kujua kuhusu njia hii ya kuchanganya. Utajifunza sahihi ni nini, historia na malengo yao, pamoja na aina tofauti za SCoinjoin (arafu ya kujiunga) zilizopo. Hatimaye, kwa mtumiaji mwenye uzoefu zaidi, tutaangalia anonsets na entropy ni nini, na jinsi ya kuzihesabu.
+Je, tunawezaje kuzungumza juu ya faragha kwenye Bitcoin bila kutaja CoinJoin? Katika Sehemu ya 4, utapata yote unayohitaji kujua kuhusu njia hii ya kuchanganya. Utajifunza CoinJoin ni nini, historia na malengo yake, pamoja na aina tofauti za CoinJoin zilizopo. Hatimaye, kwa mtumiaji mwenye uzoefu zaidi, tutaangalia anonsets na entropy ni nini, na jinsi ya kuzihesabu.
 
 ![BTC204](assets/fr/004.webp)
 
-### Sehemu ya 5: Kuelewa changamoto za mbinu zingine za hali ya juu za usiri
+Katika sehemu hii, tunapitia baadhi ya mbinu za hali ya juu ambazo zimependekezwa kwa miaka mingi ili kuboresha faragha ya watumiaji wa Bitcoin. Pia tutaangalia faragha katika kiwango cha mtandao wa nodi na usambazaji wa shughuli. Itifaki kama TumbleBit, PayJoin, na joinmarket zitatajwa, na tutachambua kwa nini bado hazijapitishwa sana licha ya kuwa na ahadi kubwa. Pia tutaelewa hatari za Chain analysis na jinsi zinavyoathiri watumiaji wa kawaida.
 
-Katika sehemu ya tano, tutaangalia mbinu zingine zote zinazopatikana ili kulinda faragha yako kwenye Bitcoin, kando na SCoinjoin (arafu ya kujiunga). Kwa miaka mingi, wasanidi programu wameonyesha ubunifu wa ajabu katika kubuni zana zinazotolewa kwa faragha. Tutaangalia mbinu hizi zote, kama vile Payjoin (malipo ya kujiunga), miamala shirikishi, Ubadilishanaji wa Sarafu na Ubadilishanaji wa Atomiki, tukieleza kwa kina jinsi zinavyofanya kazi, malengo yao na udhaifu wowote.
+Katika sehemu ya tano, tutaangalia mbinu zingine zote zinazopatikana ili kulinda faragha yako kwenye Bitcoin, kando na CoinJoin. Kwa miaka mingi, wasanidi programu wameonyesha ubunifu wa ajabu katika kubuni zana zinazotolewa kwa faragha. Tutaangalia mbinu hizi zote, kama vile PayJoin, miamala shirikishi, ubadilishanaji wa sarafu na ubadilishanaji wa atomiki, tukieleza kwa kina jinsi zinavyofanya kazi, malengo yao na udhaifu wowote.
 
-Pia tutaangalia faragha katika kiwango cha mtandao wa nodi na usambazaji wa shughuli. Pia tutajadili itifaki mbalimbali ambazo zimependekezwa kwa miaka mingi ili kuimarisha faragha ya mtumiaji kwenye Bitcoin, ikiwa ni pamoja na itifaki tuli za Anwani (address).
+Pia tutaangalia faragha katika kiwango cha mtandao wa nodi na usambazaji wa shughuli. Tutajadili pia itifaki mbalimbali ambazo zimependekezwa kwa miaka mingi ili kuimarisha faragha ya mtumiaji kwenye Bitcoin, ikiwa ni pamoja na itifaki tuli za Address.
 
 ![BTC204](assets/fr/005.webp)
 
@@ -84,39 +84,39 @@ Pia tutaangalia faragha katika kiwango cha mtandao wa nodi na usambazaji wa shug
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
-Bitcoin ni sarafu ya kwanza kabisa, lakini unajua jinsi BTC inawakilishwa kwenye itifaki?
+Bitcoin ni sarafu ya kwanza kabisa, lakini je, unajua jinsi BTC inawakilishwa kwenye itifaki?
 
 ### UTXO kwenye Bitcoin: ni nini?
 
-Itifaki ya Bitcoin inategemea mfano wa UTXO, ambao unasimama kwa "Pato la Muamala Usiotumiwa".
+Itifaki ya Bitcoin inategemea mfano wa UTXO, ambao unasimama kwa "Unspent Transaction Output".
 
-Mtindo huu unatofautiana kwa kiasi kikubwa na mifumo ya jadi ya benki, ambayo inategemea utaratibu wa akaunti na salio kufuatilia mtiririko wa fedha. Hakika, katika mfumo wa benki, mizani ya mtu binafsi hutunzwa katika akaunti zilizounganishwa na utambulisho. Kwa mfano, unaponunua baguette kutoka kwa mwokaji, benki yako hutoa tu kiasi cha ununuzi kutoka kwa akaunti yako, kupunguza salio lako, wakati akaunti ya waokaji inahesabiwa kwa kiasi sawa, na kuongeza salio lake. Katika mfumo huu, hakuna dhana ya kiungo kati ya pesa zinazoingia kwenye akaunti yako na pesa zinazoiacha, kando na rekodi za miamala.
+Mtindo huu unatofautiana kwa kiasi kikubwa na mifumo ya jadi ya benki, ambayo inategemea utaratibu wa akaunti na salio kufuatilia mtiririko wa fedha. Katika mfumo wa benki, mizani ya mtu binafsi hutunzwa katika akaunti zilizounganishwa na utambulisho. Kwa mfano, unaponunua baguette kutoka kwa mwokaji, benki yako hutoa tu kiasi cha ununuzi kutoka kwa akaunti yako, kupunguza salio lako, wakati akaunti ya mwokaji inahesabiwa kwa kiasi sawa, na kuongeza salio lake. Katika mfumo huu, hakuna dhana ya kiungo kati ya pesa zinazoingia kwenye akaunti yako na pesa zinazoiacha, kando na rekodi za miamala.
 
 ![BTC204](assets/fr/006.webp)
 
-Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havidhibitiwi kupitia mizani, lakini kupitia UTXOs. UTXO inawakilisha kiasi maalum cha bitcoins ambazo bado hazijatumiwa, na hivyo kutengeneza "kipande cha Bitcoin", ambacho kinaweza kuwa kikubwa au kidogo. Kwa mfano, UTXO moja inaweza kuwa na thamani ya `500 BTC` au kwa urahisi `700 Sats`.
+Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havidhibitiwi kupitia mizani, bali kupitia UTXOs. UTXO inawakilisha kiasi maalum cha bitcoins ambazo bado hazijatumiwa, na hivyo kutengeneza "kipande cha Bitcoin", ambacho kinaweza kuwa kikubwa au kidogo. Kwa mfano, UTXO moja inaweza kuwa na thamani ya `500 BTC` au hata `700 Sats`.
 
-**> Satoshi, ambayo mara nyingi hufupishwa kukaa, ni kitengo kidogo zaidi cha Bitcoin, kinacholinganishwa na sentime katika sarafu ya pesa za serikali.
+**> Satoshi, ambayo mara nyingi hufupishwa kama sats, ni kitengo kidogo zaidi cha Bitcoin, kinacholinganishwa na senti katika sarafu ya pesa za serikali.**
 
 ```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
-Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzia sat hadi upeo wa kinadharia wa karibu milioni 21 BTC. Hata hivyo, kwa mantiki haiwezekani kumiliki bitcoins zote milioni 21, na kuna kizingiti cha chini cha kiuchumi kinachoitwa "Dust (Vumbi)", chini ambayo UTXO inachukuliwa kuwa haina faida ya kiuchumi kutumia.
+Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzia sats hadi upeo wa kinadharia wa karibu milioni 21 BTC. Hata hivyo, kwa mantiki, haiwezekani kumiliki bitcoins zote milioni 21, na kuna kizingiti cha chini cha kiuchumi kinachoitwa "Dust", chini ya hapo UTXO huchukuliwa kuwa haina faida ya kiuchumi kuitumia.
 
-**> UTXO kubwa zaidi kuwahi kuundwa kwenye Bitcoin ilikuwa na thamani ya `500,000 BTC`. Iliundwa na jukwaa la MtGox wakati wa operesheni ya ujumuishaji mnamo Novemba 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://GW-4 8.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**> UTXO kubwa zaidi kuwahi kuundwa kwenye Bitcoin ilikuwa na thamani ya `500,000 BTC`. Iliundwa na jukwaa la MtGox wakati wa operesheni ya ujumuishaji mnamo Novemba 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://GW-48.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)**
 
 ### UTXOs na hali ya matumizi
 
-UTXOs ni vyombo vya Ubadilishanaji kwenye Bitcoin. Kila shughuli husababisha matumizi ya UTXO kama pembejeo na kuunda UTXO mpya kama matokeo. Muamala unapokamilika, UTXO zinazotumika kama pembejeo huchukuliwa kuwa "zilizotumika", na UTXO mpya hutolewa na kugawiwa wapokeaji walioonyeshwa katika matokeo ya muamala. Kwa hivyo, UTXO inawakilisha tu pato la ununuzi ambalo halijatumika, na kwa hivyo idadi ya bitcoins mali ya mtumiaji kwa wakati fulani.
+UTXOs ni vyombo vya ubadilishanaji kwenye Bitcoin. Kila shughuli husababisha matumizi ya UTXO kama pembejeo na kuunda UTXO mpya kama matokeo. Muamala unapokamilika, UTXO zilizotumika kama pembejeo huchukuliwa kuwa “zimetumika,” na UTXO mpya hutolewa na kugawiwa kwa wapokeaji waliotajwa katika matokeo ya muamala. Kwa hivyo, UTXO inawakilisha tu pato la muamala ambalo halijatumika, na hivyo kuonyesha idadi ya bitcoins anazomiliki mtumiaji kwa wakati fulani.
 
 ![BTC204](assets/fr/007.webp)
 
-UTXO zote zinalindwa na hati zinazofafanua hali ambazo zinaweza kutumika. Ili kutumia UTXO, mtumiaji lazima aonyeshe kwa mtandao kwamba anakidhi masharti yaliyoainishwa na hati inayolinda UTXO hiyo. Kwa kawaida, UTXO zinalindwa na ufunguo wa umma (au kupokea Anwani (address) ambayo inawakilisha ufunguo huu wa umma). Ili kutumia UTXO inayohusishwa na ufunguo huu wa umma, mtumiaji lazima athibitishe kuwa ana ufunguo wa faragha unaolingana, kwa kutoa sahihi ya dijiti iliyotengenezwa na ufunguo huu. Hii ndiyo sababu tunasema kwamba Pochi la Bitcoin yako halina bitcoins, lakini huhifadhi funguo zako za kibinafsi, ambazo zinakupa ufikiaji wa UTXOs zako na, kwa ugani, kwa bitcoins wanazowakilisha.
+UTXO zote zinalindwa na hati zinazofafanua hali ambazo zinaweza kutumika. Ili kutumia UTXO, mtumiaji lazima aonyeshe kwa mtandao kwamba anakidhi masharti yaliyoainishwa na hati inayolinda UTXO hiyo. Kwa kawaida, UTXO zinalindwa na ufunguo wa umma (au kupokea Address ambayo inawakilisha ufunguo huu wa umma). Ili kutumia UTXO inayohusishwa na ufunguo huu wa umma, mtumiaji lazima athibitishe kuwa ana ufunguo wa faragha unaolingana, kwa kutoa sahihi ya dijiti iliyotengenezwa na ufunguo huu. Hii ndiyo sababu tunasema kwamba Wallet yako ya Bitcoin haina bitcoins, bali huhifadhi funguo zako za kibinafsi, ambazo zinakupa ufikiaji wa UTXOs zako na, kwa ugani, kwa bitcoins wanazowakilisha.
 
 ![BTC204](assets/fr/008.webp)
 
-Kwa kuwa hakuna dhana ya akaunti katika Bitcoin, salio la Pochi ni jumla ya thamani za UTXO zote inazoweza kutumia. Kwa mfano, ikiwa Pochi la Bitcoin yako linaweza kutumia UTXO 4 zifuatazo:
+Kwa kuwa hakuna dhana ya akaunti katika Bitcoin, salio la Wallet ni jumla ya thamani za UTXO zote inazoweza kutumia. Kwa mfano, ikiwa Wallet yako ya Bitcoin inaweza kutumia UTXO 4 zifuatazo:
 
 ```
 - 2 BTC
@@ -135,35 +135,35 @@ Salio la jumla lako kwingineko litakuwa `17 BTC`.
 
 ### Ingizo la shughuli na matokeo
 
-Muamala wa Bitcoin ni operesheni iliyorekodiwa kwenye Blockchain inayohamisha Umilikishaji wa bitcoins kutoka kwa mtu mmoja hadi mwingine. Kwa usahihi zaidi, kwa kuwa tuko kwenye modeli ya UTXO na hakuna akaunti, shughuli hiyo inakidhi masharti ya matumizi ambayo yalilinda UTXOs moja au zaidi, inazitumia na kwa usawa huunda UTXO mpya na masharti mapya ya matumizi. Kwa kifupi, muamala huhamisha bitcoins kutoka hati iliyoridhika hadi hati mpya iliyoundwa ili kuzilinda.
+Muamala wa Bitcoin ni operesheni iliyorekodiwa kwenye Blockchain inayohamisha Umilikishaji wa bitcoins kutoka kwa mtu mmoja hadi mwingine. Kwa usahihi zaidi, kwa kuwa tuko kwenye modeli ya UTXO na hakuna akaunti, shughuli hiyo inakidhi masharti ya matumizi ambayo yalilinda UTXO moja au zaidi, inazitumia, na kwa usawa huunda UTXO mpya na masharti mapya ya matumizi. Kwa kifupi, muamala huhamisha bitcoins kutoka hati iliyoridhika hadi hati mpya iliyoundwa ili kuzilinda.
 
 ![BTC204](assets/fr/010.webp)
 
-Kwa hivyo, kila muamala wa Bitcoin huwa na ingizo moja au zaidi na towe moja au zaidi. Ingizo ni UTXO zinazotumiwa na muamala kwa matokeo ya kuzalisha. Matokeo ni UTXO mpya ambazo zinaweza kutumika kama pembejeo kwa miamala ya siku zijazo.
+Kwa hivyo, kila muamala wa Bitcoin huwa na ingizo moja au zaidi na towe moja au zaidi. Ingizo ni UTXO zinazotumiwa na muamala kwa ajili ya matokeo yanayozalishwa. Matokeo ni UTXO mpya ambazo zinaweza kutumika kama ingizo kwa miamala ya siku zijazo.
 
 ![BTC204](assets/fr/011.webp)
 
 > Kinadharia, muamala wa Bitcoin unaweza kuwa na idadi isiyo na kikomo ya pembejeo na matokeo. Kikomo pekee ni ukubwa wa juu wa kizuizi.
 
-Kila ingizo katika shughuli ya Bitcoin inarejelea UTXO ambayo haijatumika hapo awali. Ili kutumia UTXO kama ingizo, mmiliki wake lazima aonyeshe kuwa yeye ndiye mmiliki halali kwa kuthibitisha hati husika, yaani kwa kukidhi sharti la matumizi lililowekwa. Kwa ujumla, hii inamaanisha kutoa sahihi ya dijiti inayozalishwa na ufunguo wa faragha unaolingana na ufunguo wa umma ambao hapo awali ulilinda UTXO hii. Kwa hivyo hati inajumuisha kuthibitisha kwamba sahihi inalingana na ufunguo wa umma uliotumiwa wakati fedha zilipokelewa.
+Kila ingizo katika shughuli ya Bitcoin inarejelea UTXO ambayo haijatumika hapo awali. Ili kutumia UTXO kama ingizo, mmiliki wake lazima aonyeshe kuwa yeye ndiye mmiliki halali kwa kuthibitisha hati husika, yaani kwa kukidhi sharti la matumizi lililowekwa. Kwa ujumla, hii inamaanisha kutoa sahihi ya dijiti inayozalishwa na private key inayolingana na public key ambayo hapo awali ililinda UTXO hii. Kwa hivyo, hati inajumuisha kuthibitisha kwamba sahihi inalingana na public key iliyotumiwa wakati fedha zilipokelewa.
 
 ![BTC204](assets/fr/012.webp)
 
-Kila pato, kwa upande wake, inataja kiasi cha bitcoins kuhamishwa, pamoja na mpokeaji. Mwisho hufafanuliwa na hati mpya, ambayo kwa kawaida huzuia UTXO mpya iliyoundwa na kupokea Anwani (address) au ufunguo mpya wa umma.
+Kila pato, kwa upande wake, linataja kiasi cha bitcoins kinachohamishwa, pamoja na mpokeaji. Mwisho hufafanuliwa na hati mpya, ambayo kwa kawaida huzuia UTXO mpya iliyoundwa na kupokea Address au public key mpya.
 
 Ili muamala kuzingatiwa kuwa halali kulingana na sheria za makubaliano, jumla ya matokeo lazima yawe chini ya au sawa na jumla ya pembejeo. Kwa maneno mengine, jumla ya UTXO mpya zinazozalishwa na muamala lazima zisizidi jumla ya UTXO zinazotumiwa kama pembejeo. Kanuni hii ni ya kimantiki: ikiwa una `500,000 Sats` tu, huwezi kufanya ununuzi wa `700,000 Sats`.
 
-### Kubadilishana na kuunganisha katika shughuli ya Bitcoin
+### Kubadilishana na kuunganisha katika miamala ya Bitcoin
 
-Kitendo cha muamala wa Bitcoin kwenye UTXO kwa hivyo kinaweza kulinganishwa na kuweka tena sarafu ya dhahabu. Hakika, UTXO haiwezi kugawanywa, lakini ni fusible tu. Hii ina maana kwamba mtumiaji hawezi tu kugawanya UTXO inayowakilisha kiasi fulani katika bitcoins katika UTXO kadhaa ndogo. Ni lazima aitumie kabisa katika shughuli ya ununuzi ili kuunda UTXO mpya moja au zaidi ya thamani kiholela katika matokeo, ambayo lazima iwe chini ya au sawa na thamani ya awali.
+Kitendo cha muamala wa Bitcoin kwenye UTXO kinaweza kulinganishwa na kuweka tena sarafu ya dhahabu. Hakika, UTXO haiwezi kugawanywa, bali ni fusible tu. Hii ina maana kwamba mtumiaji hawezi kugawanya UTXO inayowakilisha kiasi fulani cha bitcoins kuwa UTXO ndogo ndogo. Ni lazima aitumie kabisa katika muamala wa ununuzi ili kuunda UTXO mpya moja au zaidi zenye thamani ya kiholela katika matokeo, ambazo lazima ziwe chini au sawa na thamani ya awali.
 
-Utaratibu huu ni sawa na ule wa sarafu ya dhahabu. Tuseme unamiliki sarafu ya wakia 2 na unataka kufanya malipo ya wakia 1, tukichukulia muuzaji hawezi kukupa chenji. Utalazimika kuyeyusha sarafu yako na kutupa 2 mpya za wakia 1 kila moja.
+Utaratibu huu ni sawa na ule wa sarafu ya dhahabu. Tuseme unamiliki sarafu za wakia 2 na unataka kufanya malipo ya wakia 1, tukichukulia muuzaji hawezi kukupa chenji. Utalazimika kuyeyusha sarafu zako na kutengeneza sarafu mpya mbili za wakia 1 kila moja.
 
 Bitcoin inafanya kazi kwa njia sawa. Hebu tufikirie kuwa Alice ana UTXO ya `10,000 Sats` na anataka kununua baguette ya gharama ya `4,000 Sats`. Alice atafanya muamala na 1 UTXO ya `10,000 Sats` kama ingizo, ambalo atatumia kikamilifu, na UTXO 2 za `4,000 Sats` na `6,000 Sats` kama pato. UTXO ya `4,000 Sats` itatumwa kwa mwokaji kama malipo ya baguette, huku UTXO ya `6,000 Sats` itarudi kwa Alice kwa njia ya mabadiliko. UTXO hii, ambayo inarudi kwa mtoaji asili wa muamala, inajulikana kama "ubadilishanaji" katika jargon ya Bitcoin.
 
 ![BTC204](assets/fr/013.webp)
 
-Sasa hebu tufikirie kuwa Alice hana UTXO moja ya `10,000 Sats`, lakini badala yake UTXO mbili za `3,000 Sats` kila moja. Katika hali hii, hakuna UTXO moja moja inatosha kuweka fimbo `4,000 Sats` ya fimbo. Kwa hivyo ni lazima Alice atumie wakati huo huo UTXOs 2 za `3,000 Sats` kama maingizo kwa muamala wake. Kwa njia hii, jumla ya kiasi cha pembejeo kitafikia `6,000 Sats`, na kumwezesha kukidhi malipo ya `4,000 Sats` kwa mwokaji. Njia hii, ambayo UTXO kadhaa huwekwa pamoja kama pembejeo kwa shughuli, mara nyingi hujulikana kama "kuunganisha".
+Sasa hebu tufikirie kuwa Alice hana UTXO moja ya `10,000 Sats`, bali badala yake ana UTXO mbili za `3,000 Sats` kila moja. Katika hali hii, hakuna UTXO moja inatosha kuweka fimbo `4,000 Sats`. Kwa hivyo, ni lazima Alice atumie wakati huo huo UTXO mbili za `3,000 Sats` kama maingizo kwa muamala wake. Kwa njia hii, jumla ya kiasi cha pembejeo kitafikia `6,000 Sats`, na kumwezesha kukidhi malipo ya `4,000 Sats` kwa mwokaji. Njia hii, ambapo UTXO kadhaa huunganishwa kama pembejeo kwa muamala, mara nyingi hujulikana kama "kuunganisha".
 
 ![BTC204](assets/fr/014.webp)
 
@@ -175,7 +175,7 @@ Uangavu, mtu anaweza kufikiri kwamba gharama za muamala pia zinawakilisha matoke
 Frais = total inputs - total outputs
 ```
 
-Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununua baguette kwa `4,000 Sats`. Alice hutengeneza muamala na UTXO yake ya `10,000 Sats` kama ingizo. Kisha hutoa pato la `4,000 Sats` kwa mwokaji kulipia baguette. Ili kuwahimiza wachimbaji kujumuisha shughuli zake kwenye eneo, Alice hutenga `200 Sats` katika ada. Kisha atatengeneza toleo la pili, Ubadilishanaji, ambalo litarejeshwa kwake, la jumla ya `5,800 Sats`.
+
 
 ![BTC204](assets/fr/015.webp)
 
@@ -188,7 +188,7 @@ Frais = 10 000 - 9 800
 Frais = 200
 ```
 
-Miner (Mchimbaji) anapofanikiwa kuhalalisha kizuizi, anaidhinishwa kukusanya ada hizi kwa shughuli zote zilizojumuishwa kwenye kizuizi chake, kupitia shughuli inayoitwa "Coinbase (msingi wa sarafu)".
+Miner (Mchimbaji) anapofanikiwa kuhalalisha block, anaidhinishwa kukusanya ada hizi kwa shughuli zote zilizojumuishwa kwenye bloku yake, kupitia shughuli inayoitwa "Coinbase (msingi wa sarafu)".
 
 ### Kuunda UTXO kwenye Bitcoin
 

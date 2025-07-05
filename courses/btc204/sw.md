@@ -188,39 +188,40 @@ Frais = 10 000 - 9 800
 Frais = 200
 ```
 
-Miner (Mchimbaji) anapofanikiwa kuhalalisha block, anaidhinishwa kukusanya ada hizi kwa shughuli zote zilizojumuishwa kwenye bloku yake, kupitia shughuli inayoitwa "Coinbase (msingi wa sarafu)".
+Miner anapofanikiwa kuhalalisha block, anaidhinishwa kukusanya ada hizi kwa miamala yote iliyojumuishwa kwenye block yake, kupitia muamala unaoitwa Coinbase.
 
 ### Kuunda UTXO kwenye Bitcoin
 
 Ikiwa umefuata aya zilizotangulia kwa uangalifu, sasa utajua kuwa UTXO zinaweza tu kuundwa kwa kutumia UTXO zingine zilizopo. Kwa njia hii, sarafu za Bitcoin huunda mlolongo unaoendelea. Walakini, unaweza kuwa unashangaa jinsi UTXO za kwanza kwenye mlolongo huu zilitokea. Hii inazua tatizo sawa na la kuku na yai: hizi UTXO za awali zilitoka wapi?
 
-Jibu liko kwenye **muamala wa sarafu ya msingi**.
+Jibu liko kwenye muamala wa sarafu ya msingi.
 
-Sarafu ya msingi ni aina maalum ya shughuli ya Bitcoin, ambayo ni ya kipekee kwa kila kizuizi na daima ni ya kwanza ya haya. Inaruhusu Miner (Mchimbaji) ambaye amepata Proof of Work halali kupokea Malipo ya kuzuia yake. Zawadi hii inaundwa na Vipengele mbili: **ruzuku ya kuzuia** na **ada ya muamala**, iliyojadiliwa katika sehemu iliyotangulia.
+Sarafu ya msingi ni aina maalum ya shughuli ya Bitcoin, ambayo ni ya kipekee kwa kila bloku na daima ni ya kwanza ya haya. Inaruhusu Miner  ambaye amepata Proof of Work halali kupokea Malipo ya bloku yake. Zawadi hii inaundwa na Vipengele viwili: **ruzuku ya kuzuia** na **ada ya muamala**, iliyojadiliwa katika sehemu iliyotangulia.
 
-Sarafu ya msingi Shughuli ni ya kipekee kwa kuwa ndiyo pekee inayoweza kuunda bitcoins ex nihilo, bila hitaji la kutumia pembejeo kwa matokeo ya kuzalisha. Bitcoins hizi mpya zilizoundwa ndizo tunaweza kuziita "UTXO za asili".
+Sarafu ya msingi Coinbase Transaction ni ya kipekee kwa kuwa ndiyo pekee inayoweza kuunda Bitcoins *ex nihilo* (kutoka kwenye ombwe), bila hitaji la kutumia pembejeo kwa ajili ya kuzalisha matokeo. Bitcoins hizi mpya zilizoundwa ndizo tunaziita UTXO za asili.
+
 
 ![BTC204](assets/fr/016.webp)
 
-Bitcoins zilizopewa ruzuku ya kuzuia ni BTC mpya iliyoundwa kutoka mwanzo, kulingana na ratiba ya utoaji iliyowekwa tayari katika sheria za makubaliano. Ruzuku ya vitalu hupunguzwa kwa nusu kila vitalu 210,000, yaani takriban kila baada ya miaka minne, katika mchakato unaojulikana kama "Halving (kupunguza nusu)". Awali, bitcoins 50 ziliundwa kwa kila ruzuku, lakini kiasi hiki kimepungua hatua kwa hatua; kwa sasa, ni bitcoins 3.125 kwa kizuizi.
+Bitcoins zilizopewa ruzuku ya block ni BTC mpya iliyoundwa kutoka mwanzo, kulingana na ratiba ya utoaji iliyowekwa tayari katika sheria za makubaliano. Ruzuku ya block hupunguzwa kwa nusu kila block 210,000, yaani takriban kila baada ya miaka minne, katika mchakato unaojulikana kama "Halving" . Awali, bitcoins 50 ziliundwa kwa kila ruzuku, lakini kiasi hiki kimepungua hatua kwa hatua; kwa sasa, ni bitcoins 3.1225 kwa block.
 
-Kuhusu ada za muamala, ingawa pia zinawakilisha BTC mpya iliyoundwa, lazima zisizidi tofauti kati ya jumla ya pembejeo na matokeo ya miamala yote kwenye kizuizi. Tuliona hapo awali kuwa ada hizi zinawakilisha sehemu ya pembejeo ambayo haitumiki katika matokeo ya muamala. Sehemu hii kitaalam "imepotea" wakati wa shughuli, na Miner (Mchimbaji) ina haki ya kuunda tena thamani hii katika mfumo wa UTXO moja au zaidi mpya. Huu ni uhamisho wa thamani kati ya mtoaji wa shughuli na Miner (Mchimbaji) ambaye anaiongeza kwenye Blockchain.
+Kuhusu ada za muamala, ingawa pia zinawakilisha BTC mpya iliyoundwa, lazima zisizidi tofauti kati ya jumla ya pembejeo na matokeo ya miamala yote kwenye kizuizi. Tuliona hapo awali kuwa ada hizi zinawakilisha sehemu ya pembejeo ambayo haitumiki katika matokeo ya muamala. Sehemu hii kitaalam "imepotea" wakati wa shughuli, na Miner ina haki ya kuunda tena thamani hii katika mfumo wa UTXO moja au zaidi mpya. Huu ni uhamisho wa thamani kati ya mtoaji wa shughuli na Miner ambaye anaiongeza kwenye Blockchain.
 
-**> Bitcoins zinazozalishwa na Coinbase (msingi wa sarafu) za shughuli ziko chini ya muda wa ukomavu wa vitalu 100, ambapo haziwezi kutumiwa na Miner (Mchimbaji). Sheria hii imeundwa ili kuepusha matatizo yanayohusiana na matumizi ya bitcoins mpya zilizoundwa kwenye mnyororo ambao unaweza kutumika kuwa wa kizamani baadaye.
+**> Bitcoins zinazozalishwa na Coinbase za miamala ziko chini ya muda wa ukomavu wa blocks 100, ambapo haziwezi kutumiwa na Miner. Sheria hii imeundwa ili kuepusha matatizo yanayohusiana na matumizi ya bitcoins mpya zilizoundwa kwenye mnyororo ambao unaweza kutumika kuwa wa kizamani baadaye.
 
 ### Athari za mfano wa UTXO
 
-Kwanza kabisa, mtindo wa UTXO huathiri moja kwa moja ada za ununuzi za Bitcoin. Kwa kuwa uwezo wa kila kizuizi ni mdogo, wachimbaji wanapendelea shughuli zinazotoa ada bora zaidi kuhusiana na nafasi watakayochukua kwenye kizuizi. Hakika, kadiri UTXO inavyozidi kujumuisha shughuli katika pembejeo na matokeo, ndivyo inavyokuwa nzito, na kwa hivyo inahitaji ada za juu. Hii ni moja ya sababu kwa nini sisi mara nyingi kujaribu kupunguza idadi ya UTXOs katika kwingineko yetu, ambayo inaweza pia kuathiri usiri, somo tutaweza kuwa kukabiliana kwa undani katika sehemu ya tatu ya kozi hii.
+Kwanza kabisa, mtindo wa UTXO huathiri moja kwa moja ada za ununuzi za Bitcoin. Kwa kuwa uwezo wa kila block ni mdogo, Miners wanapendelea miamala zinazotoa ada bora zaidi kuhusiana na nafasi watakayochukua kwenye block. Hakika, kadiri UTXO inavyozidi kujumuisha miamala katika pembejeo na matokeo, ndivyo inavyokuwa nzito, na kwa hivyo inahitaji ada za juu. Hii ni moja ya sababu kwa nini sisi mara nyingi hujaribu kupunguza idadi ya UTXOs katika kwingineko yetu, ambayo inaweza pia kuathiri faragha — somo ambalo tutalishughulikia kwa undani katika sehemu ya tatu ya kozi hii.
 
-Pili, kama ilivyotajwa katika sehemu zilizopita, sarafu za Bitcoin kimsingi ni mlolongo wa UTXO. Kwa hivyo, kila muamala huunda kiunganishi kati ya UTXO iliyopita na UTXO ya baadaye. Kwa hivyo UTXO hufanya iwezekane kufuata kwa uwazi njia ya Bitcoins kutoka kwa uundaji wao hadi matumizi yao ya sasa. Uwazi huu unaweza kutazamwa vyema, kwani humwezesha kila mtumiaji kuhakikisha ukweli wa bitcoins zilizopokelewa. Hata hivyo, ni kwa kanuni hii ya ufuatiliaji na ukaguzi ambapo uchambuzi wa Blockchain (Mnyororo wa kuzuia) umejikita, zoezi lililoundwa kuhatarisha usiri wako. Tutakuwa tukiangalia kwa kina mazoezi haya katika sehemu ya pili ya kozi.
+Pili, kama ilivyotajwa katika sehemu zilizopita, sarafu za Bitcoin kimsingi ni mlolongo wa UTXO. Kwa hivyo, kila muamala huunda kiunganishi kati ya UTXO iliyopita na UTXO ya baadaye. Kwa hivyo UTXO hufanya iwezekane kufuata kwa uwazi njia ya Bitcoins kutoka kwa uundaji wao hadi matumizi yao ya sasa. Uwazi huu unaweza kutazamwa vyema, kwani humwezesha kila mtumiaji kuhakikisha ukweli wa bitcoins zilizopokelewa. Hata hivyo, ni kwa kanuni hii ya ufuatiliaji na ukaguzi ambapo uchambuzi wa Blockchain umejikita — zoezi lililoundwa kuhatarisha faragha yako. Tutakuwa tukiangalia kwa kina mazoezi haya katika sehemu ya pili ya kozi.
 
 ## Mtindo wa faragha wa Bitcoin
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-### Pesa: uhalisi, uadilifu na matumizi maradufu
+### Pesa: uhalisi, uadilifu, na matumizi maradufu
 
-Moja ya kazi za pesa ni kutatua shida ya bahati mbaya mara mbili ya mahitaji. Katika mfumo unaozingatia ubadilishanaji wa mali, ukamilishaji wa ubadilishanaji hauhitaji tu kupata mtu binafsi ambaye anatoa zawadi nzuri inayolingana na hitaji langu, lakini pia kumpa kitu kizuri cha thamani sawa ambacho kinakidhi hitaji lake mwenyewe. Kuweka usawa huu ni jambo gumu.
+Moja ya kazi za **pesa** ni kutatua shida ya bahati mbaya mara mbili ya mahitaji. Katika mfumo unaozingatia ubadilishanaji wa mali, ukamilishaji wa ubadilishanaji hauhitaji tu kupata mtu binafsi anayetoa kitu kizuri kinacholingana na hitaji langu, bali pia kumpa kitu cha thamani sawa kinachokidhi hitaji lake mwenyewe. Kuweka usawa huu ni jambo gumu.
 
 ![BTC204](assets/fr/017.webp)
 
@@ -231,8 +232,8 @@ Ndio maana tunatumia pesa kuhamisha thamani katika nafasi na wakati.
 Ili sarafu kutatua tatizo hili, ni muhimu kwamba mhusika anayetoa bidhaa au huduma awe na uhakika wa uwezo wake wa kutumia kiasi hicho baadaye. Kwa hivyo, mtu yeyote mwenye busara anayetaka kupokea sarafu, iwe ya dijiti au ya kimwili, atahakikisha kwamba inakidhi vigezo viwili vya msingi:
 
 
-- Kipande lazima kiwe na uadilifu na uhalisi ;**
-- na isitumike mara mbili.**
+- **Kipande lazima kiwe na uadilifu na uhalisi ;**
+- **na isitumike mara mbili.**
 
 Ikiwa unatumia sarafu halisi, ni sifa ya kwanza ambayo ni ngumu zaidi kudai. Katika vipindi tofauti vya historia, uadilifu wa sarafu za chuma mara nyingi umeathiriwa na mazoea kama vile kukata au kutoboa. Katika Roma ya kale, kwa mfano, ilikuwa ni kawaida kwa wananchi kufuta kando ya sarafu za dhahabu ili kukusanya chuma kidogo cha thamani, huku wakiwaokoa kwa shughuli za baadaye. Thamani ya asili ya sarafu ilipunguzwa, lakini thamani yake ya uso ilibaki sawa. Hii ni moja ya sababu kwa nini makali ya sarafu baadaye yalipungua.
 
@@ -242,9 +243,10 @@ Kwa upande mwingine, kwa sababu ya asili yao, matumizi ya mara mbili sio tatizo 
 
 ![BTC204](assets/fr/019.webp)
 
-Kwa sarafu ya dijiti, ugumu ni tofauti. Kuhakikisha uhalisi na uadilifu wa sarafu mara nyingi ni rahisi. Kama tulivyoona katika sehemu iliyotangulia, kielelezo cha Bitcoin cha UTXO kinawezesha kufuatilia sarafu hadi asili yake, na hivyo kuthibitisha kwamba kweli iliundwa na Miner (Mchimbaji) kwa kufuata sheria za makubaliano.
+Kwa sarafu ya dijitali, ugumu ni tofauti. Kuhakikisha uhalisia na uadilifu wa sarafu mara nyingi ni rahisi. Kama tulivyoona katika sehemu iliyotangulia, kielelezo cha Bitcoin cha UTXO kinawezesha kufuatilia sarafu hadi asili yake, na hivyo kuthibitisha kwamba kweli iliundwa na Miner kwa kufuata sheria za makubaliano.
 
-Kwa upande mwingine, kuhakikisha kuwa hakuna matumizi ya mara mbili ni ngumu zaidi, kwani bidhaa zote za dijiti ziko katika habari ya asili. Tofauti na bidhaa za kimwili, habari haijagawanywa wakati inabadilishwa, lakini huenea kwa kuzidisha. Kwa mfano, nikikutumia hati kwa barua-pepe, itarudiwa. Huwezi kuwa na uhakika kwamba nimefuta hati asili.
+
+Kwa upande mwingine, kuhakikisha kuwa hakuna matumizi ya mara mbili ni ngumu zaidi, kwani bidhaa zote za dijitali ziko katika habari ya asili. Tofauti na bidhaa za kimwili, habari haijagawanywi wakati inabadilishwa, bali huenea kwa kuzidishwa. Kwa mfano, nikikutumia hati kwa barua pepe, itarudiwa. Huwezi kuwa na uhakika kwamba nimefuta hati asili.
 
 ![BTC204](assets/fr/020.webp)
 
@@ -254,57 +256,58 @@ Njia pekee ya kuepuka marudio haya ya mali ya dijiti ni kufahamu ubadilishanaji 
 
 ![BTC204](assets/fr/021.webp)
 
-Kwenye Bitcoin, Matumizi ya mara mbili yanazuiwa kwa njia sawa. Tunatafuta kuthibitisha kutokuwepo kwa shughuli ambayo tayari imetumia sarafu zinazohusika. Ikiwa sarafu hazijawahi kutumika, basi tunaweza kuwa na uhakika kwamba hakuna matumizi ya mara mbili yatatokea. Kanuni hii ilielezewa na Satoshi Nakamoto kwenye Karatasi Nyeupe na kifungu maarufu:
+Kwa upande mwingine, kuhakikisha kuwa hakuna double-spending ni ngumu zaidi, kwani bidhaa zote za dijitali ziko katika habari ya asili. Tofauti na bidhaa za kimwili, habari haijagawanywi wakati inabadilishwa, bali huenea kwa kuzidishwa. Kwa mfano, nikikutumia hati kwa barua pepe, itarudiwa. Huwezi kuwa na uhakika kwamba nimefuta hati asili.
 
-**Njia pekee ya kuthibitisha kutokuwepo kwa muamala ni kufahamu shughuli zote
+Njia pekee ya kuthibitisha kutokuwepo kwa muamala ni kufahamu miamala yote.
 
-Lakini tofauti na mtindo wa benki, hatutaki kuamini huluki kuu kwenye Bitcoin. Kwa hivyo watumiaji wote wanahitaji kuwa na uwezo wa kudhibitisha kutokuwepo kwa matumizi mara mbili, bila kutegemea mtu wa tatu. Kwa hivyo kila mtu anahitaji kufahamu shughuli zote za Bitcoin. Hii ndiyo sababu shughuli za Bitcoin zinatangazwa hadharani kwenye nodi zote za mtandao na kurekodiwa kwa maandishi wazi kwenye Kizuia mkondo.
+Lakini tofauti na mtindo wa benki, hatutaki kuamini huluki kuu kwenye Bitcoin. Kwa hivyo watumiaji wote wanahitaji kuwa na uwezo wa kudhibitisha kutokuwepo kwa double-spending, bila kutegemea mtu wa tatu. Kwa hivyo kila mtu anahitaji kufahamu miamala yote ya Bitcoin. Hii ndiyo sababu miamala ya Bitcoin hutangazwa hadharani kwenye nodi zote za mtandao na kurekodiwa kwa maandishi wazi kwenye block.
 
-Ni usambazaji huu wa habari kwa umma ambao unatatiza ulinzi wa faragha katika Bitcoin. Katika mfumo wa jadi wa benki, kwa nadharia, ni taasisi ya kifedha tu inayofahamu shughuli zinazofanywa. Kwa Bitcoin, kwa upande mwingine, watumiaji wote wanafahamishwa kuhusu shughuli zote, kupitia nodi zao husika.
+Ni usambazaji huu wa habari kwa umma ambao unatatiza ulinzi wa faragha katika Bitcoin. Katika mfumo wa jadi wa benki, kwa nadharia, ni taasisi ya kifedha tu inayofahamu miamala inayofanywa. Kwa Bitcoin, kwa upande mwingine, watumiaji wote wanafahamishwa kuhusu miamala yote, kupitia nodi zao husika.
 
-### Mtindo wa usiri: mfumo wa benki dhidi ya Bitcoin
+### Mtindo wa faragha: mfumo wa benki dhidi ya Bitcoin
 
-Katika mfumo wa kitamaduni, akaunti yako ya benki imeunganishwa na utambulisho wako. Mwenye benki anaweza kujua ni akaunti gani ya benki ni ya mteja yupi, na ni miamala gani inayohusishwa nayo. Walakini, mtiririko huu wa habari umekatwa kati ya benki na uwanja wa umma. Kwa maneno mengine, haiwezekani kujua salio na miamala ya akaunti ya benki ya mtu mwingine. Ni benki pekee inayoweza kufikia maelezo haya.
+Katika mfumo wa kitamaduni, akaunti yako ya benki imeunganishwa na utambulisho wako. Mwenye benki anaweza kujua ni akaunti gani ya benki ni ya mteja yupi, na ni miamala gani inayohusishwa nayo. Hata hivyo, mtiririko huu wa habari umekatwa kati ya benki na uwanja wa umma. Kwa maneno mengine, haiwezekani kujua salio na miamala ya akaunti ya benki ya mtu mwingine. Ni benki pekee inayoweza kufikia maelezo haya.
 
 ![BTC204](assets/fr/022.webp)
 
-Kwa mfano, benki yako inajua kwamba unanunua baguette yako kila asubuhi kutoka kwa waokaji wa ndani, lakini jirani yako hana ujuzi wa shughuli hii. Kwa njia hii, mtiririko wa habari unapatikana kwa wahusika, haswa benki, lakini bado hauwezekani kwa watu wa nje.
+Kwa mfano, benki yako inajua kwamba unanunua baguette yako kila asubuhi kutoka kwa waokaji wa ndani, lakini jirani yako hana ujuzi wa muamala huu. Kwa njia hii, mtiririko wa habari unapatikana kwa wahusika, hasa benki, lakini bado hauwezekani kwa watu wa nje.
 
 ![BTC204](assets/fr/023.webp)
 
-Kwa sababu ya kikwazo cha utangazaji wa shughuli za umma ambacho tuliona katika sehemu iliyotangulia, mtindo wa usiri wa Bitcoin hauwezi kufuata mtindo wa mfumo wa benki. Katika hali ya Bitcoin, kwa kuwa mtiririko wa maelezo hauwezi kuvunjika kati ya shughuli na kikoa cha umma, **muundo wa faragha unategemea utengano kati ya utambulisho wa mtumiaji na shughuli** zenyewe.
+Kwa sababu ya kikwazo cha utangazaji wa miamala kwa umma ambacho tuliona katika sehemu iliyotangulia, mtindo wa faragha wa Bitcoin hauwezi kufuata mtindo wa mfumo wa benki. Katika hali ya Bitcoin, kwa kuwa mtiririko wa maelezo hauwezi kuvunjika kati ya miamala na kikoa cha umma, muundo wa faragha unategemea utengano kati ya utambulisho wa mtumiaji na miamala yenyewe.
 
 ![BTC204](assets/fr/024.webp)
 
-Kwa mfano, ukinunua baguette kutoka kwa mwokaji, kulipa katika BTC, jirani yako, ambaye ana nodi yake kamili, anaweza kuona shughuli yako ikipitia, kama vile anavyoweza kuona shughuli nyingine zote katika mfumo. Hata hivyo, ikiwa kanuni za usiri zinaheshimiwa, hapaswi kuunganisha muamala huu mahususi na utambulisho wako.
+Kwa mfano, ukinunua baguette kutoka kwa mwokaji, ukalipa kwa BTC, jirani yako, ambaye ana full node yake, anaweza kuona muamala wako ukipitia, kama anavyoweza kuona miamala mingine yote katika mfumo. Hata hivyo, ikiwa kanuni za faragha zinaheshimiwa, hapaswi kuunganisha muamala huu mahususi na utambulisho wako.
 
 ![BTC204](assets/fr/025.webp)
 
-Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzisha viungo kati yao ili kupata taarifa kuhusu wahusika wanaohusika. Shughuli hii hata inajumuisha maalum kwa haki yake yenyewe, inayojulikana kama "uchambuzi wa kuzuia mnyororo". Katika sehemu inayofuata ya kozi, ninakualika kuchunguza misingi ya uchambuzi wa Kuzuia mnyororo, ili uweze kuelewa jinsi bitcoins zako zinavyofuatiliwa na kujilinda vizuri dhidi yao.
+Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzisha viungo kati yao ili kupata taarifa kuhusu wahusika wanaohusika. Shughuli hii hata inajulikana kama taaluma maalum kwa haki yake yenyewe, inayojulikana kama **uchambuzi wa Blockchain**. Katika sehemu inayofuata ya kozi, ninakualika kuchunguza misingi ya uchambuzi wa Blockchain, ili uweze kuelewa jinsi bitcoins zako zinavyofuatiliwa na kujilinda vizuri dhidi yake.
 
 # Kuelewa na kulinda dhidi ya Chainalysis (uchambuzi wa mnyororo)
 
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
-## Chainalysis (uchambuzi wa mnyororo) wa Bitcoin ni nini?
+## Chainalysis ya Bitcoin ni nini?
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
 ### Ufafanuzi na uendeshaji
 
-Uchunguzi wa Kuzuia minyororo ni mazoezi ya kufuatilia mtiririko wa bitcoins kwenye kuzuia mnyororo. Kwa ujumla, Chainalysis (uchambuzi wa mnyororo) unategemea uchunguzi wa sifa katika sampuli za shughuli za awali. Kisha inajumuisha kutambua sifa hizi hizo kwenye shughuli ambayo tungependa kuchanganua, na kupata tafsiri zinazokubalika kutoka kwao. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho nzuri ya kutosha, inajulikana kama "Legacy (Urithi)".
+Uchunguzi wa Blockchain ni mazoezi ya kufuatilia mtiririko wa bitcoins kwenye mnyororo wa block. Kwa ujumla, Chainalysis (uchambuzi wa mnyororo) unategemea uchunguzi wa sifa katika sampuli za miamala ya awali. Kisha unahusisha kutambua sifa hizo hizo kwenye muamala tunaotaka kuchanganua, na kupata tafsiri zinazokubalika kutoka kwayo. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho linalokubalika vya kutosha, inajulikana kama Legacy (Urithi).
 
-Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis (uchambuzi wa mnyororo):
+
+Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis:
 
 1. **Kuchunguza Kuzuia mnyororo ;**
 
-2. **Utambuaji wa vipengele vinavyojulikana ;**
+2. **Utambuaji wa Elements zinazojulikana;**
 
 3. **Kato la dhana**
 
 ![BTC204](assets/fr/026.webp)
 
-Uchambuzi wa Kuzuia mnyororo unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia maelezo ya umma ya Kuzuia mnyororo kupitia nodi kamili ili kuona mienendo ya muamala na kufanya dhahania. Pia kuna zana zisizolipishwa zinazowezesha uchanganuzi huu, kama vile [OXT.me](https://oxt.me/), ambazo tutachunguza kwa kina katika sura mbili za mwisho za sehemu hii. Hata hivyo, hatari kuu ya usiri hutoka kwa makampuni maalumu katika Chainalysis (uchambuzi wa mnyororo). Kampuni hizi zimechukua uchanganuzi wa Kuzuia mnyororo kwa kiwango cha viwanda na kuuza huduma zao kwa taasisi za kifedha na serikali. Miongoni mwa makampuni haya, Chainalysis (uchambuzi wa mnyororo) ni hakika inayojulikana zaidi.
+Uchambuzi wa Kuzuia mnyororo unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia maelezo ya umma ya Kuzuia mnyororo kupitia nodi kamili ili kuona mienendo ya muamala na kufanya dhahania. Pia kuna zana zisizolipishwa zinazowezesha uchanganuzi huu, kama vile [OXT.me](https://oxt.me/), ambazo tutachunguza kwa kina katika sura mbili za mwisho za sehemu hii. Hata hivyo, hatari kuu ya usiri hutoka kwa makampuni maalumu katika **Chainalysis**. Kampuni hizi zimechukua uchanganuzi wa Kuzuia mnyororo kwa kiwango cha viwanda na kuuza huduma zao kwa taasisi za kifedha na serikali. Miongoni mwa makampuni haya, **Chainalysis** ni hakika inayojulikana zaidi.
 
 ### Malengo ya Chainalysis (uchambuzi wa mnyororo)
 

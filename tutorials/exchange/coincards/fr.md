@@ -31,13 +31,13 @@ Ils sont présents dans les régions suivantes: Amérique du Nord, Europe, et Au
 
 ![Coincards](assets/fr/01.webp)
 
-Coincards a à cœur de préserver au maximum votre vie privée. Ils vous permettent bien sûr de payer en Bitcoin on-chain et Lightning, mais aussi en Monero, seul shitcoin avec un capital sympathie élevé dans la communauté Bitcoin, du aux proximités idéologiques et aux nombreux objectifs partagés par les deux communautés. Pour rappel Monero un crypto asset qui permet d'obfusquer ses transactions et de les rendre difficiles voir impossible à suivre sur le registre public qu'est la blockchain. 
+Coincards a à cœur de préserver au maximum votre vie privée. Ils vous permettent bien sûr de payer en Bitcoin on-chain et Lightning, mais aussi en Monero, seul shitcoin avec un capital sympathie élevé dans la communauté Bitcoin, dû aux proximités idéologiques et aux nombreux objectifs partagés par les deux communautés. Pour rappel Monero un crypto asset qui permet de dissimuler ses transactions et de les rendre difficiles voire impossible à suivre sur le registre public qu'est la blockchain. 
 
 ![Coincards](assets/fr/02.webp)
 
-Cela est l'occasion de rappeler pour ceux qui souhaiteraient payer leurs cartes cadeaux en Bitcoin tout en bénéficiant d'une bonne préservation de leur vie privée, de privilégier le Lightning Network pour ce faire.
+Cela est l'occasion de rappeler pour ceux qui souhaiteraient payer leurs cartes-cadeaux en Bitcoin tout en bénéficiant d'une bonne préservation de leur vie privée, de privilégier le Lightning Network pour ce faire.
 
-Une sélection de tutoriels sur les principaux portefeuille Lightning (Phoenix, Breez, BitKit, Zeus) vous est d'ailleurs proposée ici : [Plan ₿ Network - Wallet](https://planb.network/fr/tutorials/wallet)
+Une sélection de tutoriels sur les principaux portefeuilles Lightning (Phoenix, Breez, BitKit, Zeus...) vous est d'ailleurs proposée ici : [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 Si vous souhaitez en apprendre davantage sur le fonctionnement du Lightning Network, une formation complète est disponible.
 
@@ -45,9 +45,9 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Comment acheter une carte-cadeau en BTC sur Coincards ?
 
-Tout d'abord notons que Coincards ne nécessite pas la création d'un compte. Tout ce dont vous avez besoin pour acheter vos cartes cadeaux est une adresse email valide qui vous permettra de les recevoir au format numérique.
+Tout d'abord notons que Coincards ne nécessite pas la création d'un compte. Tout ce dont vous avez besoin pour acheter vos cartes-cadeaux est une adresse email valide qui vous permettra de les recevoir au format numérique.
 
-Créer un compte est seulement utile pour ceux qui souhaitent avoir une vue d'ensemble de leur cartes , et de leur historique d'achats par exemple.
+Créer un compte est seulement utile pour ceux qui souhaitent avoir une vue d'ensemble de leurs cartes, et de leur historique d'achats par exemple.
 
 Commençons donc par illustrer le processus d'achat sans création de compte, puis on reviendra dans un second temps très rapidement sur le compte Coincards et ses fonctionnalités.
 
@@ -67,9 +67,9 @@ Nous choisirons pour l'exemple la marque Monoprix qui est une grande enseigne fr
 
 ![Coincards](assets/fr/06.webp)
 
-Prenez soin de lire en bas de l'écran la description de la carte choisie, pour comprendre la manière sont elle doit être utilisée, et identifier les éventuelles limitations /  périmètre d'usage / date de validité etc...
+Prenez soin de lire en bas de l'écran la description de la carte choisie, pour comprendre la manière dont elle doit être utilisée, et identifier les éventuelles limitations, le périmètre d'usage, la date de validité, etc.
 
-Choisissez la valeur de votre carte, ici par exemple 20 € (c'est le minimum permis), puis cliquez sur "ADD TO CART". Enfin sélectionnez votre panier via l'icone tout en haut à droite de votre écran.
+Choisissez la valeur de votre carte, ici par exemple 20 € (c'est le minimum permis), puis cliquez sur "ADD TO CART". Enfin sélectionnez votre panier via l'icône tout en haut à droite de votre écran.
 
 ![Coincards](assets/fr/07.webp)
 
@@ -85,16 +85,17 @@ Pensez enfin à cocher la case "I have read and agree to the website terms and 
 
 ![Coincards](assets/fr/09.webp)
 
-Choisissez "Lightning", et scanner le QR code avec votre portefeuille Lightning favori. Payez.
+Choisissez "Lightning", et scannez le QR code avec votre portefeuille Lightning favori. Payez.
 
 ![Coincards](assets/fr/10.webp)
 
 ![Coincards](assets/fr/11.webp)
 
-Une fois l'invoice payée, une page récapitulative vous est présentée. Rendez-vous ensuite dans votre boite mail pour réceptionner la carte cadeau.
+Une fois l'invoice payée, une page récapitulative vous est présentée. Rendez-vous ensuite dans votre boite mail pour réceptionner la carte-cadeau.
 
 ![Coincards](assets/fr/12.webp)
-Nous avons bien reçu la carte cadeau via la boite mail indiquée au moment de l'achat. Cliquez sur 'Claim Code'.
+
+Nous avons bien reçu la carte-cadeau via la boite mail indiquée au moment de l'achat. Cliquez sur 'Claim Code'.
 
 ![Coincards](assets/fr/13.webp)
 
@@ -102,7 +103,7 @@ Un page web s'ouvre et vous permet de révéler les codes de sécurité de votre
 
 ![Coincards](assets/fr/14.webp)
 
-Voilà, acheter un carte cadeau grâce à Coincards est vraiment facile et ne nécessite pas la création obligatoire d'un compte. Cela dit voyons voir ensemble le processus de création du compte et ce qu'il nous apporte.
+Voilà, acheter une carte-cadeau grâce à Coincards est vraiment facile et ne nécessite pas la création obligatoire d'un compte. Cela dit voyons voir ensemble le processus de création du compte et ce qu'il nous apporte.
 
 ## Comment créer un compte Coincards ?
 

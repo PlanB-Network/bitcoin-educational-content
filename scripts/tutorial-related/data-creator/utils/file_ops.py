@@ -24,14 +24,16 @@ def process_profile_image(source_path, dest_path):
         else:
             shutil.copy(source_path, dest_path)
 
-def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id):
+def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id, credit_link=None):
     """
     Create files required for a new tutorial.
     """
     tutorial_path = os.path.join(base, "tutorials", section_name, tutorial_name)
     create_directory(tutorial_path)
+    
     assets_path = os.path.join(tutorial_path, "assets")
     create_directory(assets_path)
+    
     assets_lang_path = os.path.join(assets_path, language_code)
     create_directory(assets_lang_path)
     
@@ -40,21 +42,35 @@ def create_tutorial_files(base, section_name, tutorial_name, language_code, proj
 name: 
 description: 
 ---
+
 ![cover](assets/cover.webp)
 """
     write_file(os.path.join(tutorial_path, md_filename), md_content)
     
     uuid_value = str(uuid.uuid4())
     current_date = datetime.date.today().strftime("%Y-%m-%d")
+    
     lines = [
         f"id: {uuid_value}",
+    ]
+    
+    # Add credit_link if we have it
+    if credit_link:
+        lines.extend([
+            "",
+            f"credit_link: {credit_link}",
+        ])
+    
+    lines.extend([
         "",
         f"project_id: {project_id}",
         "",
         "tags:"
-    ]
+    ])
+    
     for tag in tags:
         lines.append(f"  - {tag}")
+    
     lines.extend([
         "",
         f"category: {category_value}",
@@ -74,6 +90,7 @@ description:
         f"      - {contributor_id}",
         "    reward: 0"
     ])
+    
     yaml_content = "\n".join(lines)
     write_file(os.path.join(tutorial_path, "tutorial.yml"), yaml_content)
     
@@ -87,6 +104,7 @@ def create_professor_yaml(full_name, website=None, twitter=None, lightning=None,
         "",
         ""
     ]
+    
     if website or twitter:
         lines.append("links:")
         if website:
@@ -94,15 +112,18 @@ def create_professor_yaml(full_name, website=None, twitter=None, lightning=None,
         if twitter:
             lines.append(f"  twitter: {twitter}")
         lines.append("")
+    
     if lightning:
         lines.append("tips:")
         lines.append(f"  lightning_address: {lightning}")
         lines.append("")
+    
     if tags:
         lines.append("tags:")
         for t in tags:
             lines.append(f"  - {t}")
         lines.append("")
+    
     return "\n".join(lines)
 
 def create_language_yaml(language_code, bio, short_bio):
@@ -127,6 +148,7 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
         f"name: {project_name}",
         "",
     ]
+    
     if website or twitter:
         lines.append("links:")
         if website:
@@ -134,6 +156,7 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
         if twitter:
             lines.append(f"  twitter: {twitter}")
         lines.append("")
+    
     lines.append(f"category: {category}")
     lines.append("")
     lines.append("contributor_names:")
@@ -153,6 +176,7 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
     lines.append(f"      - {global_contributor}")
     lines.append("    reward: 0")
     lines.append("")
+    
     return "\n".join(lines)
 
 def create_project_language_yaml(language_code, description, professor_global):

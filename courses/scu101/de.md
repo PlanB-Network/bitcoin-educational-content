@@ -1,24 +1,24 @@
 ---
-name: IT-Sicherheit & Datenmanagement
-goal: Aktualisierung des Passwort- und persönlichen Datenmanagements. Erstellung eines Backups, Schutz vor Hackern und Sensibilisierung für Massenüberwachung.
+name: Verbessere deine IT-Sicherheit & Datenschutz
+goal: Verbesserung deines Passwort- und persönlichen Datenschutzes. Erstelle ein Backup, schütze dich vor Hackern und werde achtsam gegenüber Massenüberwachung.
 objectives:
-  - Aktualisierung des persönlichen Datenmanagements und der Tools zur Stärkung Ihrer Sicherheit.
-  - Einrichtung eines sicheren und benutzerfreundlichen Passwort-Managers.
-  - Einrichtung einer Zwei-Faktor-Authentifizierung zur Stärkung Ihrer Sicherheit und Minimierung des Hack-Risikos.
+  - Verbessere deinen persönlichen Datenschutz und lerne Tools zur Stärkung deiner Datensicherheit kennen.
+  - Richte einen sicheren und benutzerfreundlichen Passwort-Manager ein.
+  - Richte eine Zwei-Faktor-Authentifizierung zur Stärkung deiner Datensicherheit ein und minimiere so das Risiko gehackt zuwerden.
 ---
 
-# Eine Reise zum Schutz Ihrer Daten
+# Ein Aufbruch zum Schutz Ihrer Daten
 
-Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, Ihnen das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu navigieren.
+Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, dir das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu agieren.
 
-Dies wird durch die Implementierung mehrerer Tools erreicht, wie z.B. einer sicheren E-Mail-Box, einem Tool zur besseren Verwaltung Ihrer Passwörter und mehreren Softwareprogrammen zur Sicherung Ihrer täglichen Online-Aktivitäten.
+Dies wird durch die Einrichtung und Verwendung mehrerer Tools erreicht, wie z.B. einem sicheren E-Mail-Dienst, einem Passwort-Manager und mehreren Programmen zur Verbesserung deiner Online-Datensicherheit.
 
-In diesem Training geht es nicht darum, Sie zu einem Experten, Anonymen oder Unangreifbaren zu machen, dies ist unmöglich. Stattdessen bieten wir Ihnen einfache und für alle zugängliche Lösungen an, um Ihre Online-Gewohnheiten zu transformieren und die Kontrolle über Ihre digitale Souveränität zurückzugewinnen.
+In diesem Kurs geht es nicht darum, dich zu einem Experten, vollständig anonym oder gar unangreifbar zu machen, denn dies ist unmöglich. Stattdessen bieten wir dir einfache und für jeden zugängliche Lösungen an, um deine Online-Gewohnheiten zu verändern und deine digitale Souveränität zurückzugewinnen.
 
 Teammitglieder:
 Muriel; Design
 Rogzy Noury & Fabian; Produktion
-Théo; Beitrag
+Théo; Beitragender
 
 +++
 
@@ -30,52 +30,53 @@ Théo; Beitrag
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-**Ziel: Aktualisierung!**
+**Ziel: Verbessere deine Fähigkeiten bezüglich Datenschutz!**
 
-Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, Ihnen das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu navigieren.
+Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, dir das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu agieren.
 
-Dies wird durch die Implementierung mehrerer Tools erreicht, wie z.B. einer sicheren E-Mail-Box, einem Tool zur besseren Verwaltung Ihrer Passwörter und mehreren Softwareprogrammen zur Sicherung Ihrer täglichen Online-Aktivitäten.
+Dies wird durch die Einrichtung und Verwendung mehrerer Tools erreicht, wie z.B. einem sicheren E-Mail-Dienst, einem Passwort-Manager und mehreren Programmen zur Verbesserung deiner Online-Datensicherheit.
 
-Dieses Training ist eine gemeinsame Anstrengung von drei unserer Professoren:
+Dieses Training ist eine Zusammenarbeit von drei unserer Professoren:
 
 - Renaud Lifchitz, Experte für Cybersicherheit
 - Théo Pantamis, Doktor der angewandten Mathematik
-- Rogzy, Mitbegründer des Plan ₿ Network
+- Rogzy, Mit-Gründer von Plan ₿ Network
 
-Ihre digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und sich zu schützen.
-Dans dieser Schulung streben wir nicht danach, Sie zu Experten zu machen, anonym oder unangreifbar, das ist unmöglich. Stattdessen bieten wir Ihnen einige einfache und zugängliche Lösungen an, um Ihre Online-Gewohnheiten zu ändern und die Kontrolle über Ihre digitale Souveränität zurückzugewinnen.
+Deine digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und sich zu schützen.
+In diesem Kurs geht es nicht darum, dich zu einem Experten, vollständig anonym oder gar unangreifbar zu machen, denn dies ist unmöglich. Stattdessen bieten wir dir einfache und für jeden zugängliche Lösungen an, um deine Online-Gewohnheiten zu verändern und deine digitale Souveränität zurückzugewinnen.
 
-Wenn Sie fortgeschrittene Fähigkeiten zu diesem Thema suchen, stehen Ihnen unsere Ressourcen, Tutorials oder andere Schulungen zur Cybersicherheit zur Verfügung. In der Zwischenzeit erhalten Sie einen kleinen Einblick in unser Programm für die kommenden Stunden zusammen.
+Wenn du fortgeschrittene Fähigkeiten zu diesem Thema erwerben möchtest, stehen dir unsere weiterführenden Unterlagen, Tutorials oder Kurse zur Cybersicherheit zur Verfügung. In der Zwischenzeit erhältst du einen kleinen Einblick in unser Programm für die kommenden Stunden zusammen.
 
-**Abschnitt 1: Alles über das Surfen im Internet wissen**
+**Abschnitt 1: Alles was du über das Surfen im Internet wissen solltest**
 
 - Kapitel 1 - Online-Surfen
 - Kapitel 2 - Sicheres Surfen im Internet
 
-Zum Einstieg werden wir über die Bedeutung der Wahl eines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit den Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie TOR sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs konzentrieren, um den Schutz Ihrer Daten zu stärken. Schließlich werden wir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
+Zum Einstieg werden wir über die Bedeutung der Auswahl deines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit einigen Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie [TOR](https://planb.network/resources/glossary/tor-the-onion-router) sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs zum Schutz deiner Daten konzentrieren. Schließlich werden wir dir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
+
 ![](assets/de/1.webp)
 
-**Abschnitt 2: Gute Praktiken bei der Nutzung des Computers**
+**Abschnitt 2: Best practices bei der Nutzung des Computers**
 
 - Kapitel 3 - Computer-Nutzung
 - Kapitel 4 - Hacken & Backup-Management
 
-In diesem Abschnitt behandeln wir drei Schlüsselbereiche der Computersicherheit. Zunächst werden wir die verschiedenen Betriebssysteme - Mac, PC und Linux - erkunden und ihre Besonderheiten und Stärken hervorheben. Dann werden wir uns mit Methoden beschäftigen, um sich effektiv vor Hacking-Versuchen zu schützen und die Sicherheit Ihrer Geräte zu stärken. Schließlich werden wir die Bedeutung des regelmäßigen Schutzes und der Sicherung Ihrer Daten zur Vermeidung von Verlusten oder Ransomware hervorheben.
+In diesem Abschnitt behandeln wir drei Schlüsselbereiche der Computersicherheit. Zunächst werden wir die verschiedenen Betriebssysteme - u.a. Mac, PC und Linux - erkunden in Hinblick auf ihre Besonderheiten und Stärken. Dann werden wir uns mit Methoden beschäftigen, um dich effektiv vor Hacking-Versuchen zu schützen und die Sicherheit deiner Geräte zu erhöhen. Schließlich werden wir die Bedeutung des regelmäßigen Schutzes und der Sicherung deiner Daten zur Vermeidung von Verlusten oder Ransomware hervorheben.
 ![](assets/de/2.webp)
 
-**Abschnitt 3: Implementierung von Lösungen**
+**Abschnitt 3: Umsetzung von Lösungen**
 
 - Kapitel 6 - E-Mail-Management
 - Kapitel 7 - Passwort-Manager
 - Kapitel 8 - Zwei-Faktor-Authentifizierung
 
-In diesem praktischen dritten Abschnitt werden wir zur praktischen Umsetzung Ihrer konkreten Lösungen übergehen.
+In diesem dritten Abschnitt werden wir zur praktischen Umsetzung deiner konkreten Lösungen übergehen.
 
-Zuerst werden wir besprechen, wie Sie Ihre E-Mail schützen können, die für Ihre Kommunikation unerlässlich ist und oft von Hackern ins Visier genommen wird. Dann werden wir Ihnen vorstellen, was ein Passwort-Manager ist: eine praktische Lösung, um Ihre Passwörter nicht mehr zu vergessen oder durcheinander zu bringen, während sie sicher bleiben. Schließlich werden wir eine zusätzliche Sicherheitsmaßnahme, die Zwei-Faktor-Authentifizierung, ansprechen, die eine zusätzliche Schutzschicht für Ihre Konten bietet. Alles wird klar und verständlich erklärt.
+Zuerst werden wir besprechen, wie du dein E-Mail-Konto schützen kannst, da dieses für deine Kommunikation unerlässlich ist und oft von Hackern ins Visier genommen wird. Dann werden wir dir vorstellen, was ein Passwort-Manager ist: eine praktische Lösung, um deine Passwörter nicht mehr zu vergessen oder durcheinander zu bringen und sie sicher aufzubewahren. Schließlich werden wir eine zusätzliche Sicherheitsmaßnahme, die Zwei-Faktor-Authentifizierung, besprechen, die eine zusätzliche Schutzschicht für deine Konten bietet. Alles wird klar und verständlich erklärt.
 ![](assets/de/3.webp)
 
-Bereit, Ihre digitale Sicherheit zu stärken und die Kontrolle über Ihre Daten zurückzugewinnen? Los geht's!
-# Alles über das Surfen im Internet
+Bist du bereit, deine digitale Sicherheit zu erhöhen und die Kontrolle über deine Daten zurückzugewinnen? Los geht's!
+# Alles was du über das Surfen im Internet wissen solltest
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
@@ -83,38 +84,38 @@ Bereit, Ihre digitale Sicherheit zu stärken und die Kontrolle über Ihre Daten 
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
-Beim Surfen im Internet ist es wichtig, bestimmte häufige Fehler zu vermeiden, um Ihre Online-Sicherheit zu gewährleisten. Hier sind einige Tipps, um sie zu vermeiden:
+Um beim Surfen im Internet deine Online-Sicherheit zu gewährleisten ist es wichtig gängige Fehler zu vermeiden. Hier sind einige Tipps, um sie zu vermeiden:
 
-### Achten Sie auf Software-Downloads:
+### Sei wachsam bei Software-Downloads:
 
 Es wird empfohlen, Software von der offiziellen Website des Herausgebers herunterzuladen, anstatt von generischen Websites.
 Beispiel: Verwenden Sie www.signal.org/download und nicht www.logicieltelechargement.fr/signal.
 ![](assets/notext/4.webp)
 
-Es wird auch empfohlen, Open-Source-Software zu bevorzugen, da sie oft sicherer ist und frei von bösartiger Software. Eine "Open-Source"-Software ist eine Software, deren Code allen bekannt und für alle zugänglich ist. Man kann also unter anderem überprüfen, ob es keine versteckten Zugriffe gibt, um Ihre persönlichen Daten zu stehlen.
+Es wird auch empfohlen, Open-Source-Software zu bevorzugen, da sie oft sicherer ist und frei von Schad-Software. Eine "Open-Source"-Software ist eine Software, deren Code öffentlich zugänglich und für alle einsehbar ist. Man kann also unter anderem überprüfen, ob es keine versteckten Daten-Zugriffe gibt, die deine persönlichen Daten stehlen.
 
-> Bonus: Open-Source-Software ist oft kostenlos! Diese Universität ist zu 100% Open Source, daher können Sie unseren Code auch über unser GitHub überprüfen.
+> Bonus: Open-Source-Software ist oft kostenlos! Diese Universität ist zu 100% Open Source, daher können Sie unseren Code auch in unserem GitHub überprüfen.
 > ![](assets/notext/5.webp)
 
-### Cookie-Verwaltung: Fehler und bewährte Praktiken
+### Cookie-Verwaltung: Fehler und best practices
 
-Cookies sind Dateien, die von Websites erstellt werden, um Informationen auf Ihrem Gerät zu speichern. Obwohl einige Websites diese Cookies benötigen, um ordnungsgemäß zu funktionieren, können sie auch von Drittanbieter-Websites, insbesondere zu Werbezwecken, genutzt werden. Gemäß Vorschriften wie der DSGVO ist es möglich - und empfohlen -, Drittanbieter-Tracking-Cookies abzulehnen, während man diejenigen akzeptiert, die für das ordnungsgemäße Funktionieren der Website unerlässlich sind. Nach jedem Besuch auf einer Website ist es ratsam, die damit verbundenen Cookies zu löschen, entweder manuell oder über eine spezifische Erweiterung oder ein Programm. Einige Browser bieten auch die Möglichkeit, diese Löschung selektiv durchzuführen. Trotz dieser Vorsichtsmaßnahmen ist es wichtig zu verstehen, dass die von verschiedenen Websites gesammelten Informationen miteinander verbunden bleiben können, daher ist es wichtig, ein Gleichgewicht zwischen Bequemlichkeit und Sicherheit zu finden.
+Cookies sind Dateien, die von Websites erstellt werden, um Informationen auf Ihrem Gerät zu speichern. Obwohl einige Websites diese Cookies benötigen, um ordnungsgemäß zu funktionieren, können sie auch von Drittanbieter-Websites, insbesondere zu Werbezwecken, genutzt werden. Gemäß Vorschriften wie der DSGVO ist es möglich - und empfohlen -, Tracking-Cookies von Drittanbietern abzulehnen, während man diejenigen akzeptiert, die für das ordnungsgemäße Funktionieren der Website unerlässlich sind. Nach jedem Besuch auf einer Website ist es ratsam, die damit verbundenen Cookies zu löschen, entweder manuell oder über eine spezifische Erweiterung oder ein Programm. Einige Browser bieten auch die Möglichkeit, diese Löschung selektiv durchzuführen. Trotz dieser Vorsichtsmaßnahmen ist es wichtig zu verstehen, dass die von verschiedenen Websites gesammelten Informationen miteinander verbunden bleiben können, daher ist es wichtig, eine Balance zwischen Komfort und Sicherheit zu finden.
 
-> Hinweis: Begrenzen Sie auch die Anzahl der installierten Erweiterungen in Ihrem Browser, um potenzielle Sicherheits- und Leistungsprobleme zu vermeiden.
+> Hinweis: Begrenze auch die Anzahl der installierten Erweiterungen in deinem Browser, um potenzielle Sicherheits- und Leistungsprobleme zu vermeiden.
 
-### Webbrowser: Auswahl, Sicherheit
+### Web-Browser: Auswahl, Sicherheit
 
 Es gibt zwei große Browserfamilien: diejenigen, die auf Chrome basieren, und diejenigen, die auf Firefox basieren.
-Obwohl beide Familien ein ähnliches Sicherheitsniveau bieten, wird empfohlen, den Google Chrome-Browser aufgrund seiner Tracker zu vermeiden. Leichtere Alternativen zu Chrome wie Chromium oder Brave können bevorzugt werden. Brave wird insbesondere aufgrund seines integrierten Werbeblockers empfohlen. Es kann erforderlich sein, mehrere Browser zu verwenden, um auf bestimmte Websites zuzugreifen.
+Obwohl beide Familien ein ähnliches Sicherheitsniveau bieten, wird empfohlen, den Google Chrome-Browser aufgrund seiner Tracker zu vermeiden. Leichtere Alternativen zu Chrome wie Chromium oder Brave können vorteilhafter sein. Brave wird insbesondere aufgrund seines integrierten Werbeblockers empfohlen. Um auf bestimmte Websites zuzugreifen, kann es erforderlich sein, mehrere Browser zu verwenden.
 ![](assets/notext/6.webp)
 
-### Privates Surfen, TOR und andere Alternativen für sicheres und anonymes Surfen
+### Privates Surfen, [TOR](https://planb.network/resources/glossary/tor-the-onion-router) und weitere Alternativen für sicheres und anonymes Surfen
 
-Das private Surfen verhindert zwar nicht, dass Ihr Internetdienstanbieter Ihre Aktivitäten verfolgt, hinterlässt jedoch keine lokalen Spuren auf Ihrem Computer. Cookies werden automatisch am Ende jeder Sitzung gelöscht, sodass alle Cookies akzeptiert werden können, ohne verfolgt zu werden. Das private Surfen kann beim Online-Einkauf nützlich sein, da Websites unsere Suchgewohnheiten verfolgen und die Preise entsprechend anpassen. Es ist jedoch wichtig zu beachten, dass das private Surfen für temporäre und spezifische Sitzungen empfohlen wird und nicht für die allgemeine Internetnutzung.
+Das private Surfen verhindert zwar nicht, dass dein Internetdienstanbieter deine Aktivitäten verfolgt, hinterlässt jedoch keine lokalen Spuren auf deinem Computer. Cookies werden automatisch am Ende jeder Sitzung gelöscht, sodass alle Cookies akzeptiert werden können, ohne verfolgt zu werden. Das private Surfen kann beim Online-Einkauf nützlich sein, da Websites unsere Suchgewohnheiten verfolgen und die Preise entsprechend anpassen. Es ist jedoch wichtig zu beachten, dass das private Surfen für temporäre und spezifische Sitzungen empfohlen wird und nicht für die allgemeine Internetnutzung.
 
-Eine fortgeschrittenere Alternative ist das TOR-Netzwerk (The Onion Router), das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht. Der TOR-Browser ist ein speziell für die Nutzung des TOR-Netzwerks entwickelter Browser. Er ermöglicht den Besuch von herkömmlichen Websites sowie von .onion-Websites, die in der Regel von Einzelpersonen betrieben werden und illegal sein können.
+Eine fortgeschrittenere Alternative ist das [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Netzwerk (The Onion Router), das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht. Der [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Browser ist ein speziell für die Nutzung des [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Netzwerks entwickelter Browser. Er ermöglicht den Besuch von herkömmlichen Websites sowie von .onion-Websites, die in der Regel von Einzelpersonen betrieben werden und illegal sein können.
 
-TOR ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entgehen möchten. Es ist jedoch wichtig zu verstehen, dass TOR die besuchten Websites oder den Computer selbst nicht absichert. Darüber hinaus kann die Verwendung von TOR die Internetverbindung verlangsamen, da die Daten über die Computer von drei anderen Personen geleitet werden, bevor sie ihr Ziel erreichen. Es ist auch wichtig zu beachten, dass TOR keine hundertprozentige Lösung zur Gewährleistung der Anonymität darstellt und nicht für illegale Aktivitäten verwendet werden sollte.
+[TOR](https://planb.network/resources/glossary/tor-the-onion-router) ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entgehen möchten. Es ist jedoch wichtig zu verstehen, dass [TOR](https://planb.network/resources/glossary/tor-the-onion-router) nicht die besuchten Websites oder den Computer selbst absichert. Darüber hinaus kann die Verwendung von [TOR](https://planb.network/resources/glossary/tor-the-onion-router) die Internetverbindung verlangsamen, da die Daten über die Computer von drei weiteren Personen geleitet werden, bevor sie ihr Ziel erreichen. Es ist auch wichtig zu beachten, dass [TOR](https://planb.network/resources/glossary/tor-the-onion-router) keine hundertprozentige Lösung zur Gewährleistung der Anonymität darstellt und nicht für illegale Aktivitäten verwendet werden sollte.
 ![](assets/notext/7.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
@@ -125,32 +126,32 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 ### VPNs
 
-Der Schutz Ihrer Internetverbindung ist ein entscheidender Aspekt der Online-Sicherheit, und die Verwendung von virtuellen privaten Netzwerken (VPNs) ist eine effektive Methode, um diese Sicherheit sowohl für Unternehmen als auch für einzelne Benutzer zu verbessern.
+Der Schutz deiner Internetverbindung ist ein entscheidender Aspekt der Online-Sicherheit, und die Verwendung von virtuellen privaten Netzwerken (VPNs) ist eine effektive Methode, um diese Sicherheit sowohl für Unternehmen als auch für private Benutzer zu verbessern.
 
-'VPN (Virtual Private Network) sind Tools, die Daten, die über das Internet übertragen werden, verschlüsseln und somit die Verbindung sicherer machen. Im geschäftlichen Kontext ermöglichen VPNs den Mitarbeitern einen sicheren Remote-Zugriff auf das interne Unternehmensnetzwerk. Die ausgetauschten Daten werden verschlüsselt, was ihre Interception durch Dritte erschwert. Neben der Sicherung des Zugangs zu einem internen Netzwerk kann die Verwendung eines VPNs einem Benutzer ermöglichen, seine Internetverbindung über das interne Unternehmensnetzwerk zu leiten und den Eindruck zu erwecken, dass seine Verbindung vom Unternehmen stammt. Dies kann besonders nützlich sein, um auf geografisch eingeschränkte Online-Dienste zuzugreifen.
+VPNs (Virtual Private Network) sind Tools, um Daten, die über das Internet übertragen werden, zu verschlüsseln und somit die Verbindung sicherer zu machen. Im geschäftlichen Umfeld ermöglichen VPNs den Mitarbeitern einen sicheren Remote-Zugriff auf das interne Unternehmensnetzwerk. Die ausgetauschten Daten werden verschlüsselt, was ihre Auswertung durch Dritte erschwert. Neben der Sicherung des Zugangs zu einem internen Netzwerk kann die Verwendung eines VPNs es einem Benutzer ermöglichen, seine Internetverbindung über das interne Unternehmensnetzwerk zu leiten und den Eindruck zu erwecken, dass seine Verbindung vom Unternehmen stammt. Dies kann besonders nützlich sein, um auf geografisch beschränkte Online-Dienste zuzugreifen.
 ![](assets/de/8.webp)
 
 ### Arten von VPN
 
-Es gibt zwei Hauptarten von VPN: Unternehmens-VPNs und öffentliche VPNs wie NordVPN. Unternehmens-VPNs neigen dazu, teurer und komplexer zu sein, während öffentliche VPNs in der Regel zugänglicher und einfacher zu bedienen sind. Zum Beispiel ermöglicht NordVPN Benutzern, sich über einen Server in einem anderen Land mit dem Internet zu verbinden, was es ermöglichen kann, geografische Einschränkungen zu umgehen.
+Es gibt zwei Hauptarten von VPN: Unternehmens-VPNs und Verbraucher-VPNs wie NordVPN. Unternehmens-VPNs sind in der Regel teurer und komplexer, während Verbraucher-VPNs in der Regel zugänglicher und einfacher zu bedienen sind. Zum Beispiel ermöglicht NordVPN seinen Benutzern, sich über einen Server in einem anderen Land mit dem Internet zu verbinden, wodurch es möglich ist, geografische Einschränkungen zu umgehen.
 
-Die Verwendung eines öffentlichen VPNs garantiert jedoch keine vollständige Anonymisierung. Viele VPN-Anbieter speichern Informationen über ihre Benutzer, was ihre Anonymität potenziell gefährden kann. Obwohl VPNs nützlich sein können, um die Online-Sicherheit zu verbessern, sind sie keine universelle Lösung. Sie sind effektiv für bestimmte spezifische Anwendungen wie den Zugriff auf geografisch eingeschränkte Dienste oder die Verbesserung der Sicherheit unterwegs, garantieren jedoch keine vollständige Sicherheit. Bei der Auswahl eines VPNs ist es wichtig, Zuverlässigkeit und technische Fähigkeiten höher zu bewerten als Popularität. VPN-Anbieter, die die geringsten persönlichen Informationen sammeln, sind in der Regel die sichersten. Dienste wie iVPN und Mullvad sammeln keine persönlichen Informationen und ermöglichen sogar Zahlungen mit Bitcoin für erhöhte Privatsphäre.
+Die Verwendung eines Verbraucher-VPNs garantiert jedoch keine vollständige Anonymisierung. Viele VPN-Anbieter speichern Informationen über ihre Benutzer, was ihre Anonymität potenziell gefährden kann. Obwohl VPNs einen Beitrag zur Online-Sicherheit leisten können, sind sie keine Universallösung. Sie sind effektiv für bestimmte spezifische Anwendungen wie den Zugriff auf geografisch eingeschränkte Dienste oder die Verbesserung der Sicherheit unterwegs, garantieren jedoch keine vollständige Sicherheit. Bei der Auswahl eines VPNs ist es wichtig, Zuverlässigkeit und technische Fähigkeiten höher zu bewerten als Popularität. VPN-Anbieter, welche die wenigsten persönlichen Informationen ihrer Nutzer sammeln, sind in der Regel die sichersten. Dienste wie iVPN und Mullvad sammeln keine persönlichen Informationen und ermöglichen sogar Zahlungen mit Bitcoin für erhöhte Privatsphäre.
 ![](assets/notext/9.webp)
-Schließlich kann ein VPN auch verwendet werden, um Online-Werbung zu blockieren und so ein angenehmeres und sichereres Browsing-Erlebnis zu bieten. Es ist jedoch wichtig, eigene Recherchen anzustellen, um das VPN zu finden, das am besten zu den spezifischen Bedürfnissen passt. Die Verwendung eines VPNs wird empfohlen, um die Sicherheit zu stärken, auch beim Surfen im Internet zu Hause. Dies trägt dazu bei, ein höheres Sicherheitsniveau für den Online-Datenaustausch zu gewährleisten. Vergewissern Sie sich abschließend, dass Sie die URLs und das kleine Schlosssymbol in der Adressleiste überprüfen, um zu bestätigen, dass Sie sich auf der von Ihnen beabsichtigten Website befinden.
+Schließlich kann ein VPN auch verwendet werden, um Online-Werbung zu blockieren und so ein angenehmeres und sichereres Browsing-Erlebnis zu bieten. Es ist jedoch wichtig, eigene Recherchen anzustellen, um den VPN Anbieter zu finden, der am besten zu deinen spezifischen Bedürfnissen passt. Die Verwendung eines VPNs wird auch beim Surfen im Internet zu Hause empfohlen, um die Sicherheit zu stärken. Dies trägt dazu bei, ein höheres Sicherheitsniveau für den Online-Datenaustausch zu gewährleisten. Vergewissere dich abschließend, dass du die URLs und das kleine Schlosssymbol in der Adressleiste überprüfst, um zu bestätigen, dass du dich auf der von dir beabsichtigten Website befindest.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-### HTTPS & öffentliche WLAN-Netzwerke'
+### HTTPS & öffentliche WLAN-Netzwerke
 
-In Bezug auf die Online-Sicherheit ist es wichtig zu verstehen, dass 4G in der Regel sicherer ist als öffentliches WLAN. Allerdings kann die Nutzung von 4G schnell Ihr mobiles Datenvolumen aufbrauchen. Das HTTPS-Protokoll ist zum Standard für die Verschlüsselung von Daten auf Websites geworden. Es stellt sicher, dass die zwischen dem Benutzer und der Website ausgetauschten Daten sicher sind. Es ist daher entscheidend zu überprüfen, ob die von Ihnen besuchte Website das HTTPS-Protokoll verwendet.
+Beim Thema Online-Sicherheit ist es wichtig zu verstehen, dass 4G in der Regel sicherer ist als öffentliches WLAN. Allerdings kann die Nutzung von 4G schnell dein mobiles Datenvolumen aufbrauchen. Das HTTPS-Protokoll ist zum Standard für die Verschlüsselung von Daten auf Websites geworden. Es stellt sicher, dass die zwischen dem Benutzer und der Website ausgetauschten Daten sicher sind. Es ist daher entscheidend zu überprüfen, ob die von dir besuchte Website das HTTPS-Protokoll verwendet.
 
-In der Europäischen Union wird der Datenschutz durch die Datenschutz-Grundverordnung (DSGVO) geregelt. Es ist daher sicherer, europäische Anbieter von WLAN-Zugangspunkten wie die SNCF zu verwenden, die die Verbindungsdaten der Benutzer nicht weiterverkaufen. Dennoch garantiert allein das Vorhandensein eines Schlosssymbols auf einer Website nicht deren Authentizität. Es ist wichtig, den öffentlichen Schlüssel der Website mithilfe eines Zertifikatssystems zu überprüfen, um deren Authentizität zu bestätigen. Obwohl die Verschlüsselung von Daten verhindert, dass Dritte die ausgetauschten Daten abfangen, ist es immer noch möglich, dass ein bösartiger Einzelner sich als die Website ausgibt und die Daten im Klartext überträgt.
+In der Europäischen Union wird der Datenschutz durch die Datenschutz-Grundverordnung (DSGVO) geregelt. Es ist daher sicherer, europäische Anbieter von WLAN-Zugangspunkten wie die DB zu verwenden, die die Verbindungsdaten der Benutzer nicht weiterverkaufen. Dennoch garantiert allein das Vorhandensein eines Schlosssymbols auf einer Website nicht deren Authentizität. Es ist wichtig, den öffentlichen Schlüssel der Website mithilfe eines Zertifikatssystems zu überprüfen, um deren Authentizität zu bestätigen. Obwohl die Verschlüsselung von Daten verhindert, dass Dritte die ausgetauschten Daten mitlesen, ist es immer noch möglich, dass ein bösartiger Einzelner sich als die Website ausgibt und die Daten im Klartext überträgt.
 
-Um Online-Betrug zu vermeiden, ist es entscheidend, die Identität der besuchten Website zu überprüfen, insbesondere die Erweiterung und den Domainnamen zu überprüfen. Seien Sie auch wachsam gegenüber Betrügern, die ähnliche Buchstaben in URLs verwenden, um Benutzer zu täuschen.
+Um Online-Betrug zu vermeiden, ist es entscheidend, die Identität der besuchten Website zu überprüfen, insbesondere die Erweiterung und den Domainnamen. Sei auch wachsam gegenüber Betrügern, die ähnliche Buchstaben in URLs verwenden, um Benutzer zu täuschen.
 ![](assets/de/10.webp)
-Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für Unternehmen als auch für einzelne Benutzer erheblich verbessern. Darüber hinaus kann das Einhalten guter Browsing-Gewohnheiten zu einer besseren digitalen Hygiene beitragen. Im nächsten Abschnitt dieses Kurses werden wir die Computersicherheit behandeln, einschließlich Updates, Antivirus und Passwortverwaltung.
+Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für Unternehmen als auch für private Benutzer erheblich verbessern. Darüber hinaus kann das Einhalten guter Browsing-Gewohnheiten zu einer besseren digitalen Hygiene beitragen. Im nächsten Abschnitt dieses Kurses werden wir die Computersicherheit behandeln, einschließlich Updates, Antivirus-Software und Passwortverwaltung.
 
 # Gute Computerpraktiken
 

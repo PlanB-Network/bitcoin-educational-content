@@ -655,7 +655,7 @@ Kwa mfano, tutaweza kubaini kuwa mtumiaji tunayemfuatilia hutuma *change* yake m
 
 ![BTC204](assets/fr/057.webp)
 
-Kama [@LaurentMT](https://twitter.com/LaurentMT) anavyoonyesha katika [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-ea)—*podcast* ya Kifaransa muhimu—alama za vidole katika uchanganuzi wa mnyororo huongezeka kwa kiasi kikubwa kadri muda unavyopita. Kwa hakika, idadi inayoongezeka ya aina za *script* na utumaji unaoendelea wa *elements* hizi mpya pamoja na programu za pochi mbalimbali husisitiza tofauti hizo. Katika baadhi ya matukio, inawezekana hata kutambua programu halisi inayotumiwa na chombo kinachofuatiliwa. Kwa hivyo, ni muhimu kuelewa kwamba utafiti wa nyayo za kwingineko unafaa zaidi kwa shughuli za hivi karibuni, badala ya zile zilizoanzishwa mapema miaka ya 2010.
+Kama [@LaurentMT](https://twitter.com/LaurentMT) anavyoonyesha katika [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-ea)—*podcast* ya Kifaransa muhimu—alama za vidole katika uchanganuzi wa mnyororo huongezeka kwa kiasi kikubwa kadri muda unavyopita. Kwa hakika, idadi inayoongezeka ya aina za *script* na utumaji unaoendelea wa elements hizi mpya pamoja na programu za wallet mbalimbali husisitiza tofauti hizo. Katika baadhi ya matukio, inawezekana hata kutambua programu halisi inayotumiwa na chombo kinachofuatiliwa. Kwa hivyo, ni muhimu kuelewa kwamba utafiti wa nyayo za kwingineko unafaa zaidi kwa shughuli za hivi karibuni, badala ya zile zilizoanzishwa mapema miaka ya 2010.
 
 Kwa muhtasari, alama ya miguu inaweza kuwa mazoezi yoyote mahususi, yanayofanywa kiotomatiki na wallet au kwa mikono na mtumiaji, ambayo tunaweza kupata kwenye miamala mingine ili kutusaidia katika uchanganuzi wetu.
 
@@ -699,7 +699,7 @@ Muamala unaofuatiliwa ukitangazwa mara kwa mara kutoka kwenye node hiyo hiyo ya 
 
 Mchambuzi pia ana chaguo la kutegemea uchanganuzi uliowekwa wazi kama chanzo huria, au uchanganuzi wake mwenyewe wa awali. Huenda tukaweza kupata toleo linaloelekeza kwenye klasta ya anuani ambazo tayari tumeshazitambua. Wakati mwingine, inawezekana pia kutegemea matoleo yanayoelekeza kwenye jukwaa la kubadilishia cryptocurrency, kwani anuani za kampuni hizi kwa kawaida zinajulikana.
 
-Kwa njia hiyo hiyo, unaweza kufanya uchambuzi kwa kuondoa. Kwa mfano, ikiwa wakati wa kuchanganua muamala ulio na matokeo mawili, moja wapo inahusiana na nguzo ya Anwani (address) ambayo tayari inajulikana, lakini tofauti na huluki tunayofuatilia, basi tunaweza kutafsiri kwamba matokeo mengine huenda yanawakilisha Ubadilishanaji.
+Kwa njia hiyo hiyo, unaweza kufanya uchambuzi kwa kuondoa. Kwa mfano, ikiwa wakati wa kuchanganua muamala ulio na matokeo mawili, moja wapo inahusiana na nguzo ya address ambayo tayari inajulikana, lakini tofauti na huluki tunayofuatilia, basi tunaweza kutafsiri kwamba matokeo mengine huenda yanawakilisha Ubadilishanaji.
 
 Uchanganuzi wa idhaa pia unajumuisha sehemu ya jumla zaidi ya OSINT (*Open Source Intelligence*), inayohusisha utafutaji wa mtandao. Ni kwa sababu hii kwamba tunashauri dhidi ya kuchapisha Anwani (address) moja kwa moja kwenye mitandao ya kijamii au kwenye tovuti, iwe ni jina bandia au la.
 
@@ -908,15 +908,16 @@ Kwa hivyo, tunaweza kudhani kuwa pato `0` linalingana na malipo na pato `1` ni s
 
 Ili kuunga mkono au kukanusha dhana hii, tunaweza kutafuta mawazo mengine ambayo yanathibitisha mawazo yetu, au kupunguza uwezekano kwamba nadharia yetu ni sahihi.
 
-Nimetambua angalau mtu mwingine wa kLegacy (Urithi). Ni kiasi cha pato la pande zote. Pato `0` hupima `70,000 Sats`, wakati pato `1` hupima `22,962 Sats`. Kwa hivyo tuna pato la pande zote kikamilifu katika kitengo cha akaunti cha BTC. Uhesabuji wa matokeo ya pande zote unapendekeza kuwa UTXO yenye kiasi cha mzunguko kuna uwezekano mkubwa kuwa ni ya malipo, na kwamba kwa kuondoa, nyingine inawakilisha Ubadilishanaji. Legacy (Urithi) huu unaimarisha zaidi nadharia yetu ya awali.
+Nimetambua angalau mbinu nyingine ya kiheuristic. Ni toleo lenye kiasi cha nambari kamili. Toleo `0` lina kiasi cha `70,000 Sats`, ilhali toleo `1` lina kiasi cha `22,962 Sats`. Hivyo basi, tunalo toleo lililo kamili kabisa katika kitengo cha akaunti cha BTC. Mbinu ya nambari kamili inapendekeza kwamba UTXO yenye kiasi cha nambari kamili huenda kwa kiasi kikubwa ikawa ni ya malipo, na kwamba, kwa njia ya kuondoa, ile nyingine inawakilisha Ubadilishanaji. Mbinu hii ya kiheuristic inaendelea kuimarisha nadharia yetu ya awali.
 
-Walakini, katika mfano huu, mtabiri mwingine anaweza kupinga nadharia yetu ya awali. Hakika, pato `0` ni kubwa kuliko pato `1`. Kulingana na utabiri kwamba pato kubwa zaidi kwa ujumla ni la kigeni la Ubadilishanaji, tunaweza kubaini kuwa pato `0` ni Ubadilishanaji wa kigeni. Hata hivyo, nadharia hii ya kupinga inaonekana kuwa isiyowezekana, kwani nadharia zingine mbili za Legacy (Urithi) zinaonekana kushawishi zaidi kuliko matokeo makubwa zaidi ya Legacy (Urithi). Kwa hivyo, inaonekana kuwa sawa kudumisha nadharia yetu ya awali licha ya ukinzani huu dhahiri.
+Hata hivyo, katika mfano huu, mbinu nyingine ya kiheuristic inaweza kupinga nadharia yetu ya awali. Toleo `0` lina kiasi kikubwa kuliko toleo `1`. Kulingana na mbinu ya kiheuristic inayodai kuwa toleo lenye kiasi kikubwa zaidi kwa kawaida huwa ni Ubadilishanaji, tunaweza kuhitimisha kuwa toleo `0` ni Ubadilishanaji. Hata hivyo, dhana hii mbadala inaonekana kutowezekana, kwa kuwa mbinu nyingine mbili za kiheuristic zinaonekana kuwa na uzito zaidi kuliko ile ya “toleo kubwa zaidi”. Kwa hivyo, inaonekana ni busara kuendeleza nadharia yetu ya awali licha ya mgongano huu wa dhahiri.
 
-Kwa hivyo inaonekana kuwa mtumiaji aliyetoa UTXO kama ingizo bado anashikilia toleo la `1`, ambalo linaonekana kujumuisha Ubadilishanaji wa muamala.
+
+Hivyo basi, inaonekana kuna uwezekano mkubwa kuwa mtumiaji aliyetoa UTXO kama ingizo bado anamiliki toleo `1`, ambalo linaonekana kuwakilisha Ubadilishanaji wa muamala huo.
 
 ***Zoezi la 5:***
 
-Tunaweza kuona kwamba miamala 8 inaweza kuhusishwa na utambulisho wa Loïc. Kati ya hizi, 4 zinahusisha upokeaji wa bitcoins:
+Tunaweza kuona kwamba miamala 8 zinaweza kuhusishwa na utambulisho wa Loïc. Kati ya hizo, 4 zinahusisha upokeaji wa bitcoins.
 
 ```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
@@ -936,9 +937,9 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 
 ***Zoezi la 6:***
 
-Tukiangalia mfano wa muamala huu, ni wazi kuwa ni matumizi yaliyounganishwa. Hakika, shughuli hiyo ina pembejeo moja na matokeo 51, inayoonyesha kiwango cha juu cha shughuli za kiuchumi. Kwa hivyo tunaweza kudhani kuwa Loïc ameondoa bitcoins kutoka kwa jukwaa la Ubadilishanaji.
+Iwapo tutatazama muundo wa muamala huu, ni wazi kwamba ni matumizi yaliyofunganishwa. Kwa kweli, muamala una ingizo moja na matoleo `51`, jambo linaloashiria kiwango cha juu cha shughuli za kiuchumi. Hivyo basi, tunaweza kudhania kuwa Loïc amevutoa bitcoins kutoka kwenye exchange platform.
 
-Sababu kadhaa huimarisha nadharia hii. Kwanza, aina ya hati inayotumika kupata ingizo la UTXO ni hati ya P2SH 2/3 Sahihi nyingi, ambazo zinaonyesha kiwango cha juu cha usalama cha kawaida cha majukwaa ya Ubadilishanaji:
+Sababu kadhaa zinaimarisha nadharia hii. Kwanza, aina ya script iliyotumika kulinda ingizo la UTXO ni **P2SH 2/3 multisig script**, ambayo inaashiria kiwango cha juu cha usalama kinachopatikana mara nyingi kwenye exchange platforms.
 
 ```plaintext
 OP_PUSHNUM_2
@@ -949,11 +950,11 @@ OP_PUSHNUM_3
 OP_CHECKMULTISIG
 ```
 
-Zaidi ya hayo, Anwani (address) iliyofanyiwa utafiti `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` inatumika tena katika zaidi ya miamala 220,000 tofauti, ambayo mara nyingi ni tabia ya majukwaa ya Ubadilishanaji, kwa ujumla kutojali kuhusu usiri wao.
+Zaidi ya hayo, address iliyofanyiwa utafiti `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` inatumika tena katika zaidi ya miamala 220,000 tofauti, ambayo mara nyingi ni tabia ya majukwaa ya exchange, kwa ujumla kutojali kuhusu usiri wao.
 
-Legacy (Urithi) wa muda unaotumika kwa Anwani (address) hii pia unaonyesha utangazaji wa kawaida wa miamala karibu kila siku katika kipindi cha miezi 3, na saa zilizoongezwa zaidi ya saa 24, ikipendekeza shughuli inayoendelea ya jukwaa la Ubadilishanaji.
+Mbinu ya kiheuristic ya muda iliyotumika kwa anwani hii pia inaonyesha utumaji wa miamala kwa mfululizo karibu kila siku kwa kipindi cha miezi 3, na ndani ya saa zote 24, jambo linalopendekeza kuwepo kwa shughuli endelevu ya exchange platform.
 
-Hatimaye, juzuu zinazoshughulikiwa na chombo hiki ni nyingi sana. Anwani (address) ilipokea na kutuma BTC 44 katika miamala 222,262 kati ya Desemba 2022 na Machi 2023. Idadi hizi kubwa zinathibitisha zaidi uwezekano wa shughuli za jukwaa la Ubadilishanaji.
+Hatimaye, kiasi cha miamala kinachoshughulikiwa na huluki hii ni kikubwa mno. Anwani ilipokea na kutuma jumla ya BTC `44` katika miamala `222,262` kati ya Desemba 2022 na Machi 2023. Hivi viwango vikubwa vya miamala vinathibitisha zaidi uwezekano wa shughuli za jukwaa za exchange.
 
 ***Zoezi la 7:***
 
@@ -993,28 +994,29 @@ Uchanganuzi wa ratiba hizi unaonyesha kuwa UTC-7 na UTC-8 zinalingana na anuwai 
 
 ![BTC204](assets/fr/066.webp)
 
-Saa za eneo la UTC-7 ni muhimu sana wakati wa kiangazi, kwani inajumuisha majimbo na maeneo kama vile:
+Eneo la saa la UTC-7 lina umuhimu maalum wakati wa majira ya kiangazi, kwani linajumuisha majimbo na maeneo kama vile:
 
 
 - California (pamoja na miji kama Los Angeles, San Francisco, na San Diego);
 - Nevada (pamoja na Las Vegas);
 - Oregon (pamoja na Portland);
 - Washington (pamoja na Seattle);
-- Eneo la Kanada la British Columbia (pamoja na miji kama Vancouver na Victoria).
+- Eneo la Canada la British Columbia (pamoja na miji kama Vancouver na Victoria).
 
 Maelezo haya yanapendekeza kwamba Loïc ana uwezekano wa kuishi katika pwani ya magharibi ya Marekani au Canada.
 
 ***Zoezi la 8:***
 
-Uchambuzi wa shughuli hii unaonyesha pembejeo 5 na pato moja, na kupendekeza ujumuishaji. Kwa kutumia utabiri wa CIOH, tunaweza kudhani kuwa UTXO zote za pembejeo zinamilikiwa na huluki moja, na kwamba pato la UTXO pia ni la huluki hii. Inaonekana kwamba mtumiaji alichagua kuunganisha pamoja UTXO kadhaa alizomiliki, ili kuunda UTXO moja katika pato, kwa lengo la kuunganisha sehemu zake. Hatua hii pengine ilichochewa na nia ya kuchukua fursa ya gharama za chini za shughuli za wakati huo, ili kupunguza gharama za baadaye.
+Uchanganuzi wa muamala huu unaonyesha ingizo `5` na toleo moja, jambo linalopendekeza kuwa ni muunganishaji (consolidation). Tukitumia mbinu ya kiheuristic ya CIOH, tunaweza kudhani kwamba UTXO zote za ingizo zinamilikiwa na huluki moja, na kwamba UTXO ya toleo pia inamilikiwa na huluki hiyo hiyo. Inaonekana kuwa mtumiaji alichagua kuunganisha UTXO kadhaa alizomiliki ili kuunda UTXO moja katika toleo, kwa lengo la kuunganisha sehemu zake. Hatua hii huenda ilichochewa na nia ya kunufaika na ada za chini za muamala wakati huo, ili kupunguza gharama za baadaye.
 
 ___
 
-*Ili kuandika sehemu hii ya uchambuzi wa on chain, nilitumia nyenzo zifuatazo:*
+*Ili kuandika sehemu hii ya uchambuzi wa onchain, nilitumia nyenzo zifuatazo:*
 
 
 - Msururu wa makala manne yenye mada: [Kuelewa Faragha ya Bitcoin na OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), iliyotolewa na Samourai katika 2-03310;
-- Ripoti mbalimbali kutoka kwa [OXT Research](https://medium.com/oxt-research), pamoja na zana yao ya bure ya uchanganuzi wa kuzuia mnyororo (haipatikani tena kwa sasa kufuatia kukamatwa kwa waanzilishi wa Pochi la Samourai) ;*
+- Ripoti mbalimbali kutoka kwa [OXT Research](https://medium.com/oxt-research), pamoja na zana yao ya bure ya uchanganuzi wa blockchain (haipatikani tena kwa sasa kufuatia kukamatwa kwa waanzilishi wa 
+wallet ya Samourai) ;*
 - Kwa upana zaidi, ujuzi wangu unatokana na tweets na maudhui mbalimbali kutoka kwa [@LaurentMT](https://twitter.com/LaurentMT) na [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
 - [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) ambamo nilishiriki katika kampuni ya [@louneskmt://twitter.com] [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) na [@LaurentMT](https://twitter.com/LaurentMT).*
 
@@ -1024,38 +1026,40 @@ ___
 - [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
-# Kujua mbinu bora za kulinda faragha yako
+# Kumudu mbinu bora za kulinda faragha yako
 
 <partId>9bd04b63-f1af-4e50-9061-6bc90009df68</partId>
 
-## kutumia tena Anwani (address)
+## kutumia tena address (address reuse)
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-Baada ya kusoma mbinu zinazoweza kuvunja usiri wako kwenye Bitcoin, katika sehemu hii ya tatu sasa tutaangalia mbinu bora za kufuata ili kujilinda. Madhumuni ya sehemu hii si kuchunguza mbinu za kuboresha usiri, somo ambalo litashughulikiwa baadaye, lakini badala yake kuelewa jinsi ya kuingiliana kwa usahihi na Bitcoin ili kuhifadhi usiri ambao unatoa kiasili, bila kutumia mbinu za ziada.
+Baada ya kujifunza mbinu zinazoweza kuvunja usiri wako kwenye Bitcoin, katika sehemu hii ya tatu tutaangazia mbinu bora za kufuata ili kujilinda. Lengo la sehemu hii si kuchunguza mbinu za kuboresha usiri—mada ambayo itashughulikiwa baadaye—bali kuelewa jinsi ya kuingiliana kwa usahihi na Bitcoin ili kudumisha kiwango cha usiri ambacho mfumo huu tayari hutoa kiasili, bila kuhitaji mbinu za ziada.
 
-Ni wazi, ili kuanza sehemu hii ya tatu, tutazungumza kuhusu utumiaji tena wa Anwani (address). Jambo hili ni tishio kuu kwa usiri wa mtumiaji. Sura hii kwa hakika ndiyo muhimu zaidi ya kozi nzima.
+Ni wazi, ili kuanza sehemu hii ya tatu, tutazungumza kuhusu utumiaji tena wa address. Jambo hili ni tishio kuu kwa usiri wa mtumiaji. Sura hii kwa hakika ndiyo muhimu zaidi ya kozi nzima.
 
-### Anwani (address) inayopokea ni nini?
+### Address inayopokea ni nini?
 
-Bitcoin inayopokea Anwani (address) ni kamba au kitambulisho kinachotumiwa kupokea bitcoins kwa Pochi.
+Bitcoin inayopokea  address ni kamba au kitambulisho kinachotumiwa kupokea bitcoins kwa wallet.
 
-Kitaalam, Bitcoin inayopokea Anwani (address) haina "kupokea" bitcoins kwa maana halisi, lakini hutumikia kufafanua hali ambazo bitcoins zinaweza kutumika. Kwa maneno madhubuti, malipo yanapotumwa kwako, muamala wa mtumaji hukuundia UTXO mpya kama pato kutoka kwa UTXO ambayo imetumia kama pembejeo. Kwenye pato hili, huweka hati inayofafanua jinsi UTXO hii inaweza kutumika baadaye. Hati hii inajulikana kama "*ScriptPubKey*" au "*Hati ya Kufunga*". Upokeaji wako wa Anwani (address), au kwa usahihi zaidi mzigo wake wa malipo, umeunganishwa kwenye hati hii. Kwa maneno ya layman, hati hii kimsingi inasema:
+Kiufundi, Bitcoin receiving address haipokei bitcoins moja kwa moja kwa maana halisi, bali hutumika kufafanua masharti ambayo yatatumika ili bitcoins hizo zitumike. Kwa maneno rahisi, wakati malipo yanapotumwa kwako, muamala wa mtumaji huunda UTXO mpya kwa ajili yako kama toleo, linalotokana na UTXOs alizotumia kama viingizo. Kwenye toleo hilo, huambatanisha script inayobainisha jinsi UTXO hiyo inaweza kutumika baadaye. Script hii hujulikana kama ScriptPubKey au Locking Script. Receiving address yako — au kwa usahihi zaidi, sehemu yake ya ndani (payload) — hujumuishwa katika script hii.Kwa lugha ya kawaida, script hii inasema:
 
-> "*Ili kutumia UTXO hii mpya, ni lazima utoe sahihi ya dijitali kwa kutumia ufunguo wa faragha unaohusishwa na upokeaji huu wa Anwani (address).*"
-![BTC204](assets/fr/067.webp)
 
-Anwani (address) za Bitcoin huja katika aina tofauti, kulingana na muundo wa hati uliotumiwa. Miundo ya kwanza, inayojulikana kama "Legacy (Urithi)*", unajumuisha Anwani (address) za `P2PKH` (*Pay-to-PubKey-Hash*) na `P2SH` (*Pay-to-Script-Hash*) Anwani (address). Anwani (address) za P2PKH kila mara huanza na `1`, na P2SH na `3`. Ingawa bado ni salama, fomati hizi sasa hazitumiki, kwani zinajumuisha gharama kubwa zaidi za ununuzi na hutoa usiri mdogo kuliko viwango vipya.
+> *"Ili kutumia UTXO hii mpya, ni lazima utoe sahihi ya kidijitali kwa kutumia funguo binafsi (private key) inayohusiana na receiving address hii."*
+> ![BTC204](assets/fr/067.webp)
 
-Anwani (address) za SegWit V0 (`P2WPKH` na `P2WSH`) na Taproot (Mzizi kuu) / SegWit V1 (`P2TR`) zinawakilisha miundo ya kisasa. Anwani (address) za SegWit huanza na `bc1q` na Anwani (address) ya Mizizi kuu, iliyoanzishwa mwaka wa 2021, inaanza na `bc1p`.
 
-Kwa mfano, hapa kuna mapokezi ya Anwani (address) ya Taproot (Mzizi kuu) :
+Address za Bitcoin huja katika aina mbalimbali, kutegemea na **mfumo wa script** unaotumika. Miundo ya awali, inayojulikana kama **Legacy**, inajumuisha address za `P2PKH` (*Pay-to-PubKey-Hash*) na `P2SH` (*Pay-to-Script-Hash*). Address za `P2PKH` huanza kila mara na `1`, na zile za `P2SH` huanza na `3`. Ingawa bado ni salama, miundo hii sasa imepitwa na wakati, kwani husababisha gharama kubwa zaidi za muamala na hutoa kiwango kidogo cha faragha ikilinganishwa na viwango vipya.
+
+SegWit V0 (`P2WPKH` na `P2WSH`) na Taproot / SegWit V1 (`P2TR`) ni aina za kisasa za address. Address za SegWit huanza na `bc1q`, huku address za Taproot, zilizotambulishwa mwaka 2021, zikianzia na `bc1p`.
+
+Kwa mfano, hapa kuna Address ya kupokea ya Taproot:
 
 ```text
 bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 ```
-Hati ya kufunga
-Jinsi  inavyoundwa itategemea kiwango unachotumia:
+Jinsi ScriptPubKey inavyojengwa itategemea kiwango unachotumia:
+
 
 | Hati ya kufunga | Kiolezo cha hati
 
@@ -1075,25 +1079,25 @@ Jinsi  inavyoundwa itategemea kiwango unachotumia:
 
 | P2TR | 1 `<pubKey>` |
 
-Ujenzi wa Anwani (address) za mapokezi pia inategemea mtindo wa hati uliochaguliwa:
+Ujenzi wa address za mapokezi pia inategemea mtindo wa hati uliochaguliwa:
 
 
-- Kwa Anwani (address) za `P2PKH` na `P2WPKH`, mzigo wa malipo, yaani kiini cha Anwani (address), kinawakilisha Hash ya ufunguo wa umma;
-- Kwa Anwani (address) za `P2SH` na `P2WSH`, mzigo wa malipo unawakilisha Hash ya a ;
-- Kuhusu Anwani (address) za `P2TR`, upakiaji ni ufunguo wa umma uliobadilishwa. Matokeo ya P2TR yanachanganya vipengele vya _Pay-to-PubKey_ na _Pay-to-Script_. Ufunguo wa umma uliobadilishwa ni matokeo ya kuongeza ufunguo wa matumizi ya kawaida wa umma na "tweak", inayotokana na Merkle Root ya seti ya maandiko ambayo inaweza pia kutumika kutumia bitcoins.
+- Kwa address za `P2PKH` na `P2WPKH`, mzigo wa malipo, yaani kiini cha address, kinawakilisha Hash ya ufunguo wa umma;
+- Kwa address za `P2SH` na `P2WSH`, mzigo wa malipo unawakilisha Hash ya a ;
+- Kuhusu address za `P2TR`, upakiaji ni ufunguo wa umma uliobadilishwa. Matokeo ya P2TR yanachanganya vipengele vya _Pay-to-PubKey_ na _Pay-to-Script_. Ufunguo wa umma uliobadilishwa ni matokeo ya kuongeza ufunguo wa matumizi ya kawaida wa umma na "tweak", inayotokana na Merkle Root ya seti ya maandiko ambayo inaweza pia kutumika kutumia bitcoins.
 
 ![BTC204](assets/fr/068.webp)
 
-Anwani (address) zinazoonyeshwa kwenye programu yako ya kwingineko pia hujumuisha HRP (*Sehemu Inayosomeka kwa Binadamu*), kwa kawaida `bc` kwa Anwani (address) za baada ya SegWit, kitenganishi cha `1`, na nambari ya toleo `q` kwa SegWit V0 na `p` kwa Taproot/SegWit V1. Cheki pia huongezwa ili kuhakikisha uadilifu na uhalali wa Anwani (address) wakati wa usambazaji.
+Address zinazoonyeshwa kwenye programu ya wallet yako pia hujumuisha HRP (*Human-Readable Part*), kwa kawaida `bc` kwa address baada ya SegWit, kielelezo `1`, na namba ya toleo: `q` kwa SegWit V0 na `p` kwa Taproot/SegWit V1. Pia, checksum huongezwa ili kuhakikisha uadilifu na uhalali wa address wakati wa kutuma.
 
-Hatimaye, Anwani (address) zimewekwa katika muundo wa kawaida:
+Hatimaye, address zimewekwa katika muundo wa kawaida:
 
 
-- Base58check kwa Anwani (address) za zamani za Legacy (Urithi);
-- Bech32 kwa Anwani (address) za SegWit;
-- Bech32m kwa Anwani (address) za Taproot (Mzizi kuu).
+- Base58check kwa address za zamani za Legacy ;
+- Bech32 kwa Anwani address za SegWit;
+- Bech32m kwa address za Taproot .
 
-Hapa kuna matrix ya kuongeza kwa bech32 na muundo wa bech32m (SegWit na Taproot (Mzizi kuu)) kutoka msingi wa 10:
+Hapa kuna matrix ya kuongeza kwa bech32 na muundo wa bech32m (SegWit na Taproot) kutoka msingi wa 10:
 
 | + | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 
@@ -1107,11 +1111,11 @@ Hapa kuna matrix ya kuongeza kwa bech32 na muundo wa bech32m (SegWit na Taproot 
 
 | 24 | c | e | 6 | m | wewe | a | 7 | l |
 
-### Utumiaji tena wa Anwani (address) ni nini?
+### Address reuse ni nini?
 
-Utumiaji tena wa Anwani (address) ni matumizi ya Anwani (address) sawa inayopokea ili kuzuia UTXO kadhaa tofauti.
+Utumiaji tena wa  address ni matumizi ya address sawa inayopokea ili kuzuia UTXO kadhaa tofauti.
 
-Kama tulivyoona katika sehemu iliyotangulia, kila UTXO ina Scriptpubkey yake, ambayo huifungia na lazima itimizwe ili UTXO itumike kama ingizo katika muamala mpya. Ni ndani ya Scriptpubkey ambapo Anwani (address) za upakiaji huunganishwa.
+Kama tulivyoona katika sehemu iliyotangulia, kila UTXO ina ScriptPubKey yake yenyewe, ambayo huifunga na lazima itimizwe ili UTXO hiyo itumike kama ingizo katika muamala mpya. Ndani ya ScriptPubKey hii ndipo mahali ambapo address (payload) hujumuishwa.
 
 Wakati ScriptPubKeys tofauti ina Anwani (address) inayopokea sawa, hii inaitwa utumiaji tena wa Anwani (address). Kwa mazoezi, hii ina maana kwamba mtumiaji ametoa mara kwa mara Anwani (address) sawa kwa watumaji ili kupokea bitcoins kupitia malipo mengi. Na ni desturi hii haswa ambayo ni mbaya kwa faragha yako.
 

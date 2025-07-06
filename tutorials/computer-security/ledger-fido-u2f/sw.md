@@ -14,11 +14,11 @@ Itifaki ya U2F (Universal 2nd Factor) ilianzishwa na Google na Yubico mwaka wa 2
 
 
 
-Mbinu hizi zinatokana na usimbaji fiche usiolinganishwa: hakuna data ya siri inayosambazwa, na hivyo kufanya mashambulizi ya kuhadaa ili kupata maelezo ya kibinafsi au udukuzi kutofaa. U2F na FIDO2 sasa zinaungwa mkono na huduma nyingi za mtandaoni.
+Mbinu hizi zinatokana na usimbaji fiche usiolinganishwa: hakuna data ya siri inayosambazwa, hivyo kufanya mashambulizi ya kuhadaa au ya kukamata kutokuwa na ufanisi. U2F na FIDO2 sasa zinaungwa mkono na huduma nyingi za mtandaoni.
 
 
 
-Katika somo hili, tutakuonyesha jinsi ya kuwezesha U2F na FIDO2 kwa uthibitishaji wa vipengele viwili na Ledger yako.
+Katika somo hili, tutakuonyesha jinsi ya kuwezesha U2F na FIDO2 kwa uthibitishaji wa elements mbili na Ledger yako.
 
 
 
@@ -30,7 +30,7 @@ Katika somo hili, tutakuonyesha jinsi ya kuwezesha U2F na FIDO2 kwa uthibitishaj
 
 
 
-Ikiwa unatumia kifaa cha Ledger, labda unajua kwamba firmware pekee haina vipengele vyote vinavyohitajika kusimamia pochi za crypto. Kwa mfano, ili kutumia Bitcoin Wallet, unahitaji kusakinisha programu ya "*Bitcoin*". Vile vile, ili kudhibiti funguo za MFA, utahitaji kusakinisha programu ya "*Ufunguo wa Usalama*".
+Ikiwa unatumia kifaa cha Ledger, labda unajua kwamba firmware pekee haina elements zote zinaohitajika kusimamia wallet6 za crypto. Kwa mfano, ili kutumia Bitcoin Wallet, unahitaji kusakinisha programu ya "*Bitcoin*". Vile vile, ili kudhibiti funguo za MFA, utahitaji kusakinisha programu ya "*Ufunguo wa Usalama*".
 
 
 
@@ -54,7 +54,7 @@ Ili kusakinisha programu, fungua programu ya [Ledger Live] (https://www.Ledger.c
 
 
 
-Programu ya "*Ufunguo wa Usalama*" inapaswa sasa kuonekana pamoja na programu zingine zilizosakinishwa kwenye Ledger yako.
+Programu ya "*Ufunguo wa Usalama*"(security key ) inapaswa sasa kuonekana pamoja na programu zingine zilizosakinishwa kwenye Ledger yako.
 
 
 
@@ -74,7 +74,7 @@ Bofya kwenye programu ili kuiacha wazi kwa hatua zinazofuata kwenye mafunzo.
 
 
 
-Fikia akaunti unayotaka kulinda kwa uthibitishaji wa vipengele viwili. Kwa mfano, nitatumia akaunti ya Bitwarden. Kwa kawaida utapata chaguo la 2FA katika mipangilio ya huduma, chini ya vichupo vya "*uthibitishaji*", "*usalama*", "*ingia*" au "*nenosiri*".
+Fikia akaunti unayotaka kulinda kwa uthibitishaji wa elements mbili. Kwa mfano, nitatumia akaunti ya Bitwarden. Kwa kawaida utapata chaguo la 2FA katika mipangilio ya huduma, chini ya vichupo vya "*uthibitishaji*", "*usalama*", "*ingia*" au "*nenosiri*".
 
 
 
@@ -82,7 +82,7 @@ Fikia akaunti unayotaka kulinda kwa uthibitishaji wa vipengele viwili. Kwa mfano
 
 
 
-Katika sehemu inayotolewa kwa uthibitishaji wa vipengele viwili, chagua chaguo la "*Nenosiri*" (neno linaweza kutofautiana kulingana na tovuti unayotumia).
+Katika sehemu iliyotengwa kwa Two-Factor Authentication, chagua chaguo la "Passkey" (jina linaweza kutofautiana kulingana na tovuti unayotumia).
 
 
 
@@ -138,7 +138,7 @@ Kuanzia sasa na kuendelea, unapoingia kwenye akaunti yako, pamoja na nenosiri la
 
 
 
-Kisha unaweza kubofya kitufe cha "*Ingia*" kwenye onyesho lako la Ledger ili kuthibitisha uthibitishaji (au vitufe vyote viwili kwa wakati mmoja, kulingana na muundo unaotumia).
+Kisha unaweza kubofya kitufe cha "*Ingia*", (Log in) kwenye onyesho lako la Ledger ili kuthibitisha uthibitishaji (au vitufe vyote viwili kwa wakati mmoja, kulingana na muundo unaotumia).
 
 
 
@@ -150,7 +150,7 @@ Faida ya kutumia Hardware Wallet ya Ledger kwa uthibitishaji wa vipengele viwili
 
 
 
-Kwenye Bitwarden, kwa mfano, unaweza kufikia msimbo huu kwa kubofya "*Angalia msimbo wa uokoaji*".
+Kwenye Bitwarden, kwa mfano, unaweza kufikia msimbo huu kwa kubofya "*View recovery code*".
 
 
 

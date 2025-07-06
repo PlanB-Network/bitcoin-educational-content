@@ -67,7 +67,7 @@ Dalam bagian ini, kita akan membahas tiga area utama keamanan komputer. Pertama,
 **Bagian 3: Penerapan Langkah-langkah solusi**
 
 - Bab 6 - Manajemen email
-- Bab 7 - Pengelola kata sandi
+- Bab 7 - Pengelola kata sandi (password manager)
 - Bab 8 - Otentikasi dua faktor (2FA)
 
 Pada bagian ketiga ini, kita akan fokus pada langkah praktis untuk solusi nyata meningkatkan keamanan digital Anda.
@@ -413,17 +413,21 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Melindungi kotak surat Anda adalah langkah penting untuk mengamankan aktivitas online Anda dan menjaga data pribadi Anda. Tutorial ini akan membimbing Anda, langkah demi langkah, dalam membuat dan mengatur akun ProtonMail, penyedia email yang dikenal karena tingkat keamanannya yang tinggi yang menawarkan enkripsi *end-to-end* untuk jaringan pengiriman pesan Anda. Terlepas dari apakah Anda seorang pemula atau pengguna yang berpengalaman, praktik terbaik yang dipaparkan di sini akan membantu Anda memperkuat keamanan email Anda, sambil memanfaatkan fitur-fitur canggih ProtonMail:
 
+Melindungi akun email Anda merupakan langkah penting dalam mengamankan aktivitas online serta menjaga kerahasiaan data pribadi Anda. Panduan ini akan membimbing Anda, langkah demi langkah, dalam proses pembuatan dan pengaturan akun ProtonMail. ProtonMail dikenal sebagai penyedia layanan yang unggul dalam hal keamanan dan menawarkan enkripsi end-to-end pada setiap komunikasi.
+
+Baik Anda pengguna pemula maupun berpengalaman, praktik-praktik terbaik yang disajikan di sini akan membantu Anda memperkuat keamanan email Anda seraya memanfaatkan fitur-fitur canggih ProtonMail.
+
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Mengamankan dengan 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-Autentikasi dua faktor (2FA) telah menjadi bagian yang penting untuk mengamankan akun online Anda. Dalam tutorial ini, Anda akan belajar cara mengatur dan menggunakan aplikasi 2FA Authy, yang menghasilkan kode dinamis 6 digit untuk melindungi akun Anda. Authy sangat mudah digunakan dan dapat disinkronkan di beberapa perangkat. Pelajari cara menginstal dan mengatur Authy, dan perkuat keamanan akun online Anda segera:
+Autentikasi dua faktor (2FA) merupakan langkah yang sangat penting untuk menjaga keamanan akun online Anda. Dalam tutorial ini, Anda akan mempelajari cara mengatur dan menggunakan aplikasi 2FA Authy, yang berfungsi menghasilkan kode dinamis 6 digit untuk melindungi akun Anda. Authy sangat mudah digunakan dan dapat disinkronkan di berbagai perangkat Anda. Mari temukan bagaimana cara menginstal dan mengonfigurasi Authy, sehingga Anda dapat meningkatkan keamanan akun online Anda saat ini :
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Opsi lain adalah menggunakan kunci keamanan fisik. Tutorial lainnya ini menunjukkan cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua:
+Pilihan lainnya adalah menggunakan kunci keamanan fisik. Tutorial tambahan ini akan menunjukkan kepada Anda cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua :
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -431,13 +435,13 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
-Manajemen kata sandi adalah sebuah tantangan di era digital. Kita semua memiliki banyak akun online yang perlu diamankan. Pengelola kata sandi akan membantu Anda membuat dan menyimpan kata sandi yang kuat dan unik untuk setiap akun.
+Pengelolaan kata sandi merupakan tantangan di era digital ini. Kita semua memiliki banyak akun online yang perlu diamankan. Pengelola kata sandi (password manager) membantu Anda membuat dan menyimpan kata sandi yang kuat serta unik untuk setiap akun.
 
-Dalam tutorial ini, Anda bisa mempelajari cara mengatur Bitwarden, pengelola kata sandi *open-source*, dan cara menyinkronkan data login Anda di semua perangkat untuk memudahkan penggunaan sehari-hari:
+Dalam tutorial ini, Anda bisa mempelajari cara mengatur Bitwarden, sebuah pengelola kata sandi sumber terbuka (open-source), dan cara menyinkronkan kredensial Anda di seluruh perangkat guna menyederhanakan penggunaan sehari-hari Anda:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Untuk pengguna yang lebih mahir, saya juga menyediakan tutorial tentang perangkat lunak gratis dan *open-source* lainnya yang dapat digunakan secara lokal untuk mengelola kata sandi Anda:
+Bagi pengguna yang lebih mahir, Saya juga menawarkan tutorial tentang perangkat lunak sumber terbuka gratis (open-source) lainnya untuk mengelola kata sandi Anda secara lokal:
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
@@ -445,7 +449,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
-Dalam dua tutorial ini, saya juga membimbing Anda dalam mengamankan akun online Anda dan menjelaskan bagaimana secara bertahap mengadopsi praktik yang lebih aman untuk mengelola kata sandi Anda sehari-hari.
+Dalam kedua tutorial ini, saya juga membimbing Anda dalam mengamankan akun daring Anda dan menjelaskan bagaimana secara bertahap mengadopsi praktik yang lebih aman untuk pengelolaan kata sandi Anda sehari-hari.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -455,15 +459,15 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
-Melindungi privasi online Anda juga merupakan poin penting untuk memastikan keamanan Anda. Penggunaan VPN dapat menjadi langkah pertama untuk mencapainya.
+Melindungi privasi daring Anda juga merupakan poin penting untuk menjamin keamanan Anda. Penggunaan VPN dapat menjadi solusi awal untuk mencapai hal ini.
 
-Saya mengajak Anda untuk mengenal dua solusi VPN yang terpercaya dan dapat dibayar dengan bitcoin, yaitu IVPN dan Mullvad. Tutorial-tutorial ini akan membimbing Anda dalam menginstal, mengatur, dan menggunakan Mullvad atau IVPN di semua perangkat Anda:
+Saya menyarankan untuk mempelajari dua solusi VPN tepercaya yang menerima pembayaran Bitcoin, yaitu IVPN dan Mullvad. Tutorial-tutorial ini akan memandu Anda tentang cara menginstal, mengonfigurasi, dan menggunakan Mullvad atau IVPN di semua perangkat Anda.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Pelajarilah juga cara menggunakan Tor Browser, peramban yang dirancang khusus untuk melindungi privasi online Anda:
+Pelajari juga cara menggunakan Tor Browser, sebuah *browser* yang dirancang khusus untuk melindungi privasi online Anda.
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
@@ -471,11 +475,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
-Melindungi file pribadi Anda juga merupakan poin penting dari keamanan siber Anda. Tutorial ini akan menunjukkan kepada Anda bagaimana cara menerapkan strategi pencadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di tempat lain. Dengan demikian, Anda memastikan akses dan keamanan file sensitif Anda:
+Melindungi file Anda juga merupakan poin penting. Tutorial ini akan menunjukkan kepada Anda cara menerapkan strategi cadangan (backup) yang efektif menggunakan Proton Drive. Pelajari bagaimana memanfaatkan solusi cloud yang aman ini untuk mengaplikasikan metode 3-2-1: tiga salinan data Anda pada dua media berbeda, dengan satu salinan disimpan di lokasi terpisah (offsite). Hal ini memastikan aksesibilitas dan keamanan file-file penting Anda :
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau *hard drive* eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi hal tersebut dengan mudah menggunakan VeraCrypt:
+Untuk mengamankan file-file yang tersimpan pada media penyimpanan *removable* seperti *flash drive USB* atau *hard drive* eksternal, saya juga akan menunjukkan kepada Anda cara melakukan enkripsi dan dekripsi media-media tersebut dengan mudah menggunakan VeraCrypt :
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
@@ -489,21 +493,21 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 ### Keamanan Siber: Bidang yang Berkembang dengan Peluang Tanpa Batas
 
-Jika Anda memiliki keinginan untuk bekerja di bidang perlindungan sistem dan data, industri keamanan siber menawarkan berbagai peluang untuk Anda. Jika industri ini menarik bagi Anda, berikut adalah beberapa langkah penting untuk membimbing Anda.
+Apabila Anda memiliki minat yang mendalam terhadap perlindungan sistem dan data, bidang keamanan siber menawarkan beragam peluang. Jika industri ini menarik perhatian Anda, berikut adalah beberapa langkah penting untuk memandu Anda.
 
 ### Dasar Akademik dan Sertifikasi:
 
-Pendidikan yang kuat dalam ranah ilmu komputer, sistem informasi, atau bidang terkait seringkali menjadi titik awal yang baik. Bidang-bidang studi ini adalah dasar yang diperlukan untuk memahami tantangan teknis keamanan siber. Di luar pengetahuan di bidang-bidang ini, langkah yang bijak adalah untuk memperoleh sertifikasi yang diakui di bidang ini. Meskipun sertifikasi ini dapat bervariasi menurut wilayah, beberapa, seperti CISSP atau CEH, diakui secara global.
+Pendidikan yang kuat di bidang keamanan siber seringkali dimulai dengan pendidikan yang solid dalam ilmu komputer, sistem informasi, atau bidang terkait. Studi ini membekali Anda dengan dasar teknis yang diperlukan untuk memahami tantangan keamanan siber. Sebagai pelengkap pendidikan formal, sangat bijaksana untuk memperoleh sertifikasi yang diakui di bidang ini. Meskipun sertifikasi dapat bervariasi antar wilayah, beberapa di antaranya, seperti CISSP atau CEH, memiliki pengakuan global.
 
-Keamanan siber adalah bidang yang luas dan terus berkembang. Mempelajari alat penting dan sistem yang berbeda-beda juga sangat penting. Selain itu, dengan begitu banyak subdomain, dari tanggapan insiden hingga peretasan etis, sangat bermanfaat untuk menemukan bidang yang Anda mau tekuni Anda dan berspesialisasi di bidang tersebut.
+Keamanan siber adalah bidang yang luas dan terus berkembang. Maka, membiasakan diri dengan alat-alat penting dan berbagai sistem adalah hal penting. Selain itu, dengan banyaknya subdomain, mulai dari respons insiden hingga peretasan etis, akan sangat bermanfaat jika Anda bisa mengidentifikasi pasar Anda dan berspesialisasi di dalamnya.
 
 ### Mendapatkan Pengalaman Praktik:
 
-Pentingnya pengalaman praktis tidak bisa diremehkan. Mencari kesempatan magang atau posisi junior di perusahaan dengan tim keamanan siber adalah cara yang sangat baik untuk mengaplikasikan pengetahuan teoritis Anda. Selain itu, terlibat dalam kompetisi hacking etis atau simulasi keamanan siber dapat menyempurnakan keterampilan Anda dalam situasi di dunia nyata.
+Pentingnya pengalaman praktis tidak dapat diremehkan. Mencari kesempatan magang atau posisi junior di perusahaan yang memiliki tim keamanan siber merupakan cara terbaik untuk menerapkan pengetahuan teoretis Anda dan memperoleh pengalaman langsung. Selain itu, berpartisipasi dalam kompetisi peretasan etis atau simulasi keamanan siber dapat mengasah keterampilan Anda dalam situasi dunia nyata.
 
-Koneksi profesional yang kuat sangat penting dan bernilai tinggi. Bergabung dengan komunitas profesional, ruang kolaborasi seperti *hackerspace*, atau forum online bisa jadi tempat yang baik untuk saling berbagi ide dengan orang-orang yang memiliki minat dan keahlian serupa. Begitu juga dengan menghadiri konferensi atau pelatihan di bidang keamanan siber, Anda tidak hanya akan belajar hal baru, tapi juga bisa membangun jaringan dengan orang-orang yang bergerak di industri ini.
+Kekuatan jaringan profesional sangatlah tak ternilai. Bergabung dengan asosiasi profesional, *hackerspace*, atau forum daring yang menyediakan platform untuk bertukar ide dengan para ahli lainnya. Demikian pula, menghadiri konferensi dan lokakarya keamanan siber tidak hanya memungkinkan Anda belajar, tetapi juga membantu Anda membangun koneksi dengan para profesional di industri ini.
 
-Ancaman yang terus berevolusi secara konstan juga mengharuskan Anda untuk melakukan pemantauan berita dan forum khusus secara teratur. Dalam dunia yang sangat bergantung pada kepercayaan, bertindak dengan etika dan integritas adalah hal yang penting di setiap tahapan perjalanan karir Anda.
+Evolusi ancaman yang konstan menuntut pemantauan berita dan forum spesialis secara berkala. Dalam sektor di mana kepercayaan adalah yang utama, bertindak dengan etika dan integritas sangat penting di setiap tahapan karier Anda.
 
 ### Keterampilan dan Alat untuk Dipelajari Lebih Diperdalam:
 
@@ -517,7 +521,8 @@ Ancaman yang terus berevolusi secara konstan juga mengharuskan Anda untuk melaku
 - Peretasan Etis: Teknik penetrasi, pengujian intrusi.
 - Tata Kelola: Standar ISO, regulasi GDPR/CCPA.
 
-Dengan menguasai keterampilan dan alat-alat di atas, Anda akan siap untuk menjelajahi dunia keamanan siber dengan percaya diri dan sukses.
+Dengan menguasai keterampilan dan alat-alat ini, Anda akan siap sepenuhnya untuk berhasil menjelajahi dunia keamanan siber.
+
 ![](assets/notext/20.webp)
 
 ## Wawancara dengan Renaud
@@ -526,30 +531,33 @@ Dengan menguasai keterampilan dan alat-alat di atas, Anda akan siap untuk menjel
 
 ### Manajemen Kata Sandi yang Efisien dan Penguatan Autentikasi: Pendekatan Akademis
 
-Ada tiga dimensi kunci yang perlu dipertimbangkan saat membicarakan tentang pengelola kata sandi: pembuatan, pembaruan, dan implementasi kata sandi di situs web.
+Ada tiga dimensi utama yang perlu dipertimbangkan saat membahas pengelola kata sandi: pembuatan, pembaruan, dan implementasi kata sandi di situs web.
 
-Secara umum, tidak disarankan untuk menggunakan ekstensi peramban untuk pengisian kata sandi secara otomatis. Alat-alat ini dapat membuat pengguna lebih rentan terhadap serangan phishing. Renaud, seorang ahli terkemuka dalam keamanan siber, lebih memilih pengelolaan manual menggunakan KeePass, yang melibatkan proses menyalin dan menempel kata sandi secara manual. Ekstensi cenderung meningkatkan potensi serangan, dapat memperlambat kinerja peramban, dan oleh karena itu menyajikan risiko yang signifikan. Dengan demikian, penggunaan ekstensi yang minimal pada peramban adalah praktik yang disarankan.
+Secara umum, tidak disarankan untuk menggunakan ekstensi *browser* untuk pengisian kata sandi otomatis. Alat-alat ini dapat membuat pengguna lebih rentan terhadap serangan *phishing*. Renaud, seorang ahli keamanan siber yang diakui, lebih memilih pengelolaan manual menggunakan KeePass, yang melibatkan penyalinan dan penempelan kata sandi secara manual ke dalam aplikasi. Ekstensi cenderung meningkatkan permukaan serangan, dapat memperlambat kinerja *browser*, dan oleh karena itu menimbulkan risiko signifikan. Dengan demikian, meminimalkan penggunaan ekstensi pada *browser* adalah praktik yang direkomendasikan.
 
-Manajer kata sandi umumnya mendorong penggunaan faktor autentikasi tambahan, seperti autentikasi dua faktor. Untuk keamanan optimal, disarankan untuk menyimpan OTP (*One-Time Passwords*) di perangkat seluler Anda. AndoTP menawarkan solusi *open-source* untuk menghasilkan dan menyimpan kode OTP di ponsel Anda. Sementara Google Authenticator memungkinkan ekspor kode autentikasi, kepercayaan pada cadangan di akun Google tetap terbatas. Oleh karena itu, aplikasi OTI dan AndoTP direkomendasikan untuk pengelolaan OTP secara mandiri.
+Pengelola kata sandi umumnya mendorong penggunaan faktor autentikasi tambahan, seperti autentikasi dua faktor (2FA). Untuk keamanan optimal, disarankan untuk menyimpan OTP (One-Time Passwords) di perangkat seluler Anda. AndOTP menyediakan solusi *open-source* untuk menghasilkan dan menyimpan kode OTP di perangkat seluler Anda. Meskipun Google Authenticator memungkinkan ekspor *seed code* autentikasi, kepercayaan terhadap cadangan di akun Google tetap terbatas. Oleh karena itu, aplikasi OTI dan AndOTP direkomendasikan untuk pengelolaan OTP yang mandiri.
+
 ![](assets/notext/21.webp)
-Pertanyaan tentang warisan digital dan berkabung secara digital menimbulkan pentingnya memiliki prosedur untuk mentransmisikan kata sandi setelah kematian seseorang. Manajer kata sandi membantu mempermudah proses ini dengan menyimpan seluruh data rahasia digital di satu tempat yang aman. Alat ini juga memungkinkan untuk mengidentifikasi semua akun yang masih aktif serta mengelola penutupan atau pengalihan aksesnya. Disarankan untuk menuliskan kata sandi utama di atas kertas, tetapi harus disimpan di lokasi yang tersembunyi dan aman. Jika *hard drive* dienkripsi dan komputer dalam keadaan terkunci, kata sandi tidak akan dapat diakses, bahkan dalam kasus pembobolan.
+
+Isu warisan digital dan duka digital menyoroti pentingnya memiliki prosedur untuk mewariskan kata sandi setelah seseorang meninggal dunia. Pengelola kata sandi (password manager) memfasilitasi transisi ini dengan menyimpan semua rahasia digital di satu tempat dengan aman. Pengelola kata sandi juga memungkinkan Anda mengidentifikasi semua akun yang masih aktif dan mengelola penutupan atau pengalihannya. Disarankan untuk menuliskan kata sandi utama (master password) pada kertas, tetapi harus disimpan di lokasi yang tersembunyi dan aman. Jika *hard drive* dienkripsi dan komputer terkunci, kata sandi tersebut tidak akan dapat diakses, bahkan jika terjadi pencurian.
 
 ### Menuju Era Pasca-Kata Sandi: Menjelajahi Alternatif yang Kredibel
 
-Meskipun kata sandi digunakan di mana-mana, mereka memiliki banyak kelemahan, termasuk risiko penyadapan saat proses autentikasi berlangsung. Perusahaan-perusahaan terkemuka seperti Microsoft dan Apple kini menawarkan alternatif inovatif seperti biometrik dan token perangkat keras, yang menunjukkan tren berkembang menuju penghapusan kebutuhan penggunaan kata sandi secara bertahap.
+Kata sandi, meskipun sangat umum digunakan, memiliki beberapa kekurangan, termasuk risiko kebocoran selama proses autentikasi. Perusahaan-perusahaan terkemuka seperti Microsoft dan Apple menawarkan alternatif inovatif, termasuk biometrik dan token perangkat keras, yang menunjukkan tren progresif menuju penghapusan kata sandi.
 
-*Passkeys*, misalnya, menawarkan kunci acak yang terenkripsi, dikombinasikan dengan biometrik atau PIN, yang di-*hosting* oleh tetapi tidak bisa diakses langsung oleh mereka. Meskipun hal ini memerlukan pembaruan situs web, pendekatan ini menghilangkan ketergantungan akan kata sandi, sehingga memiliki tingkat keamanan yang tinggi tanpa kendala yang terkait dengan kata sandi umum atau masalah pengelolaan brankas digital.
+Passkeys, misalnya, menawarkan kunci acak terenkripsi yang dikombinasikan dengan faktor lokal (seperti biometrik atau PIN). Kunci ini *di-hosting* oleh penyedia, tetapi tidak bisa diakses langsung oleh mereka. Meskipun ini membutuhkan pembaruan situs web, pendekatan ini menghilangkan kebutuhan akan kata sandi, sehingga memberikan tingkat keamanan yang tinggi tanpa batasan yang terkait dengan kata sandi tradisional atau masalah pengelolaan brankas digital.
 
-Passkiz adalah alternatif lainnya yang layak dan aman untuk pengelolaan kata sandi. Namun, pertanyaan besar tetap ada: ketersediaannya bila terjadi kegagalan dari pihak penyedia. Oleh karena itu, alangkah baiknya bagi perusahaan teknologi besar untuk menyediakan sistem yang dapat menjamin ketersediaan akses meskipun terjadi kegagalan dari pihak penyedia.
+Passkiz adalah alternatif lain yang layak dan aman untuk pengelolaan kata sandi. Namun, pertanyaan besar tetap ada: ketersediaan jika penyedia mengalami kegagalan. Oleh karena itu, akan sangat diharapkan bagi perusahaan raksasa internet untuk mengusulkan sistem yang menjamin ketersediaan ini.
 
-Otentikasi langsung ke layanan yang relevan adalah opsi baik untuk tidak lagi bergantung pada pihak ketiga. Namun, Single Sign-On (SSO) yang ditawarkan oleh perusahaan teknologi besar juga menimbulkan masalah dalam hal ketersediaan dan risiko sensor. Untuk mencegah kebocoran data, sangat penting untuk meminimalkan jenis dan jumlah informasi yang dikumpulkan selama proses autentikasi.
+Autentikasi langsung ke layanan yang relevan adalah opsi yang layak yang menghilangkan kebutuhan akan pihak ketiga. Namun, Single Sign-On (SSO) yang ditawarkan oleh perusahaan raksasa internet juga menimbulkan masalah dalam hal ketersediaan dan risiko sensor. Untuk mencegah kebocoran data, sangat penting untuk meminimalkan jumlah informasi yang dikumpulkan selama proses autentikasi.
 
 ### Keamanan komputer: hal yang wajib dilakukan untuk praktik aman dan risiko terkait kelalaian manusia
 
-Keamanan komputer dapat menjadi lemah karena praktik yang terlalu sederhana dan penggunaan kata sandi default, seperti "admin". Tidak perlu ada serangan canggih yang untuk mengancam keamanan komputer Anda. Sebagai contoh, kata sandi administrator dari sebuah saluran YouTube dulunya ditulis dalam kode sumber pribadi perusahaan. Kerentanan keamanan sering kali merupakan hasil dari kelalaian manusia.
-Penting juga untuk dicatat bahwa Internet sangatlah terpusat dan sebagian besar informasi berada di bawah kontrol Amerika. Server DNS dapat menjadi subjek sensor dan sering menggunakan DNS yang menyesatkan untuk memblokir akses ke situs tertentu. DNS adalah protokol yang cukup lama dan tidak cukup aman, yang dapat menimbulkan masalah keamanan. Protokol baru, seperti DNSsec, telah muncul tetapi masih belum banyak digunakan. Untuk menghindari sensor dan pemblokiran iklan, Anda juga dapat memilih penyedia DNS alternatif. Alternatif untuk iklan yang mengganggu termasuk Google DNS, OpenDNS, dan layanan independen lainnya. Protokol DNS standar membuat kueri (permintaan) DNS terlihat oleh penyedia layanan internet. Di sisi lain, DOH (DNS over HTTPS) dan DOT (DNS over TLS) mengenkripsi koneksi DNS, sehingga memiliki privasi dan keamanan yang lebih baik. Protokol ini banyak digunakan di perusahaan karena keamanan yang ditingkatkan dan didukung secara lokal oleh Windows, Android, dan iPhone. Untuk menggunakan DOH dan DOT, alih-alih menggunakan alamat IP, nama host TLS harus dimasukkan. Penyedia DOH dan DOT gratis tersedia secara online. DOH dan DOT meningkatkan privasi dan keamanan dengan menghindari serangan "*man in the middle*".
+Keamanan komputer bisa terancam oleh praktik sederhana dan penggunaan kata sandi default, seperti "admin". Serangan canggih tidak selalu diperlukan untuk membahayakan keamanan komputer. Sebagai contoh, kata sandi administrator dari sebuah saluran YouTube pernah tertulis dalam kode sumber pribadi sebuah perusahaan. Kerentanan keamanan sering kali merupakan akibat dari kelalaian manusia.
 
-Juga perlu disebutkan sistem yang disebut "Lightning authentication". Sistem ini menghasilkan pengenal (*identifier*) yang berbeda untuk setiap layanan, tanpa perlu memasukkan alamat email atau informasi pribadi. Meskipun ada kemungkinan untuk memiliki identitas terdesentralisasi yang dikendalikan pengguna, masih kurangnya standar dan normalisasi dalam proyek identitas terdesentralisasi. *Package manager* seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi Anda perlu untuk tetap waspada terhadap potensi serangan pada server DNS.
+Penting juga dicatat bahwa internet sangat terpusat dan sebagian besar berada di bawah kendali Amerika. Server DNS dapat menjadi sasaran sensor dan sering kali menggunakan DNS tipuan (deceptive DNS) untuk memblokir akses ke situs tertentu. DNS adalah protokol yang ketinggalan zaman dan tidak aman yang dapat menyebabkan masalah keamanan. Protokol baru, seperti DNSsec, telah muncul tetapi masih belum banyak digunakan. Untuk melewati sensor dan pemblokiran iklan, ada kemungkinan untuk memilih penyedia DNS alternatif. Alternatif untuk iklan yang mengganggu termasuk Google DNS, OpenDNS, dan layanan independen lainnya. Protokol DNS standar membuat kueri DNS terlihat oleh penyedia layanan internet. DoH (DNS over HTTPS) dan DoT (DNS over TLS) mengenkripsi koneksi DNS, memberikan privasi dan keamanan yang lebih baik. Protokol-protokol ini banyak digunakan di perusahaan karena keamanannya yang ditingkatkan dan didukung secara native oleh Windows, Android, dan iPhone. Untuk menggunakan DoH dan DoT, hostname TLS harus dimasukkan alih-alih alamat IP. Penyedia DoH dan DoT gratis tersedia secara online. DoH dan DoT meningkatkan privasi dan keamanan dengan menghindari serangan "man-in-the-middle".
+
+Perlu juga disebutkan sistem yang disebut "Lightning authentication", yang menghasilkan pengenal (*identifier*) berbeda untuk setiap layanan, tanpa perlu memberikan alamat email atau informasi pribadi. Dimungkinkan untuk memiliki identitas terdesentralisasi yang dikendalikan pengguna, tetapi ada kurangnya standardisasi dan normalisasi dalam proyek identitas terdesentralisasi. Pengelola paket seperti NuGet dan Chocolatey, yang memungkinkan pengunduhan perangkat lunak *open-source* di luar *Microsoft Store*, direkomendasikan untuk menghindari serangan berbahaya. Singkatnya, DNS sangat penting untuk keamanan online; namun, sangat penting untuk tetap waspada terhadap potensi serangan pada server DNS.
 
 # Bagian Akhir
 

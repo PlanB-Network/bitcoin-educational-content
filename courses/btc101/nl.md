@@ -939,11 +939,11 @@ Voor mensen die in landen met een hoge inflatie leven, is Bitcoin een kwestie va
 
 Tot slot is het essentieel om de economische en milieugevolgen van het gebruik van Bitcoin te bespreken.
 
-Als we het vergelijken met het huidige financiële systeem, dan stelt deze, door zijn aanmoediging van overconsumptie en schulden, ons voor ernstige problemen. Factoren zoals gemakkelijke toegang tot krediet, de uitgifte van geld door banken en de praktijk van 'fractional reserve banking' dragen allemaal bij tot overmatige schuldenlast en, als gevolg daarvan, overconsumptie.
+Als we het vergelijken met het huidige financiële systeem, dan stelt deze, door zijn aanmoediging van overconsumptie en schulden, ons voor ernstige problemen. Factoren zoals gemakkelijke toegang tot krediet, de uitgifte van geld door banken en de praktijk van 'fractional reserve banking (fractioneel bankieren)' dragen allemaal bij tot overmatige schuldenlast en, als gevolg daarvan, overconsumptie.
 
 ![image](assets/en/65.webp)
 
-Het is noodzakelijk om het monetaire systeem te hervormen om de schaarste van onze grondstoffen te weerspiegelen met de schaarste van onze munteenheid. Dit zal aanzetten tot meer verantwoorde consumptie en een langetermijnvisie. Omgekeerd heeft inflatie, door consumptie en investeringen aan te moedigen, een negatief langetermijneffect op het milieu.
+Het is noodzakelijk om het monetaire systeem te hervormen om de schaarste van onze grondstoffen te weerspiegelen met de schaarste van ons geld. Dit zal aanzetten tot meer verantwoorde consumptie en een langetermijnvisie. Omgekeerd heeft inflatie, door consumptie en investeringen aan te moedigen, een negatief langetermijneffect op het milieu.
 
 Het huidige financiële systeem sluit aan bij de ideeën van de Keynesiaanse economische theorie die, in tegenstelling tot die van de Oostenrijkse economische theorie, geen rekening houdt met de tijdelijke en dynamische aspecten van situaties en middelen. Met andere woorden, een onbeperkte valuta kan de beperkte middelen van onze planeet niet effectief vertegenwoordigen.
 
@@ -957,13 +957,13 @@ Critici erkennen niet dat Bitcoin het gebruik van groene energie bevordert. De v
 
 ### Korte samenvatting van de technische kenmerken van Bitcoin
 
-Satoshi Nakamoto bracht het Bitcoin protocol uit in januari 2009, dat sindsdien geëvolueerd is dankzij een groeiende gemeenschap van ontwikkelaars, miners en gebruikers met Bitcoin knooppunten. Door hun eigen kopie van Bitcoin Blockchain bij te houden, een openbare Ledger van alle Bitcoin transacties, kunnen deze knooppunten de geldigheid van transacties volgens de consensusregels van Bitcoin garanderen. Dit houdt ook in dat ze ervoor zorgen dat miners geldige blokken produceren, die duizenden transacties bevatten.
+Satoshi Nakamoto bracht het Bitcoin protocol uit in januari 2009, dat sindsdien geëvolueerd is dankzij een groeiende gemeenschap van ontwikkelaars, miners en gebruikers met Bitcoin nodes. Door hun eigen kopie van de Bitcoin blockchain bij te houden, een openbare ledger (grootboek) van alle Bitcoin transacties, kunnen deze nodes de geldigheid van transacties volgens de consensusregels van Bitcoin garanderen. Dit houdt ook in dat ze ervoor zorgen dat miners geldige blokken produceren, die duizenden lopende transacties bevatten.
 
 Gemiddeld wordt elke 10 minuten een blok aangemaakt en de miner die een geldige hash vindt voor het volgende blok wordt door het protocol beloond met zowel een subsidiebedrag dat wordt bepaald door de consensusregels, als de transactiekosten van alle transacties die in het geldige blok zijn opgenomen. Aangezien het resultaat van het hashingalgoritme (SHA256) voor een gegeven invoer als onvoorspelbaar wordt beschouwd, omvat het mining proces het bouwen van talloze kandidaatblokken en het testen of hun hash geldig is of niet. Om er echter voor te zorgen dat de gemiddelde tijd tussen twee blokken constant blijft (~10 minuten), ongeacht het aantal miners en hun rekenkracht, wordt de moeilijkheid om een geldige hash te vinden elke 2016 blokken aangepast, ongeveer elke 2 weken. Miners hebben in de loop der tijd gespecialiseerde SHA256-machines ontwikkeld, ASICS genaamd, om de hash-snelheid per joule te verhogen, wat het aantal pogingen per seconde per verbruikte energie betekent.
 
 Om miners zo winstgevend mogelijk te laten zijn in hun activiteit, moeten ze de goedkoopst mogelijke elektriciteit verkrijgen, en dat is vaak op afgelegen locaties, in energiecentrales die nog niet aangesloten zijn op het elektriciteitsnet. De miner fungeert dan als een koper in laatste instantie, en zodra de prijs van elektriciteit stijgt door een toename in de vraag, zal de miner geneigd zijn om hun activiteit naar elders te verplaatsen.
 
-Het Bitcoin protocol is dus een niet te censureren en niet te stoppen monetair systeem, omdat elk onderdeel van het protocol geografisch over de wereld verdeeld is. Er zijn bijvoorbeeld meer dan 40.000 Bitcoin nodes verspreid over alle continenten. De consensusregels van Bitcoin zijn van zo'n aard dat het economisch gezien winstgevender is om ze te volgen dan om te proberen ze te breken, en daarom is er geen vertrouwen nodig tussen actoren. Bitcoin heeft geen leider en kan niet worden gestopt. Zelfs als het mogelijk is om exchange platforms te reguleren om Bitcoin te beperken, heeft deze aanpak een marginale impact op het systeem. Kortom, geen rechter of staat kan Bitcoin censureren of stoppen.
+Het Bitcoin protocol is dus een niet te censureren en niet te stoppen monetair systeem, omdat elk onderdeel van het protocol geografisch over de wereld verdeeld is. Er zijn bijvoorbeeld meer dan 40.000 Bitcoin nodes verspreid over alle continenten. De consensusregels van Bitcoin zijn van zo'n aard dat het economisch gezien winstgevender is om ze te volgen dan om te proberen ze te breken, en daarom is er geen vertrouwen nodig tussen actoren. Bitcoin heeft geen leider en kan niet worden gestopt. Zelfs als het mogelijk is om handelsplatformen te reguleren om Bitcoin te beperken, heeft deze aanpak een marginale impact op het systeem. Kortom, geen rechter of staat kan Bitcoin censureren of stoppen.
 
 # Hoe Kom Je Aan Bitcoin?
 
@@ -995,7 +995,7 @@ Daarna breidde het gebruik van Bitcoin zich uit naar dark web marktplaatsen zoal
 
 - De ICO-gekte en de komst van het grote publiek.
 
-Het jaar 2017 werd gekenmerkt door een aanzienlijke speculatieve zeepbel in de wereld van cryptovaluta, vooral met de lancering van duizenden Initial Coin Offerings (ICO's). Veel van deze nieuwe cryptocurrencies hadden echter geen concrete ontwikkeling of nut en verdwenen snel. Deze bubbel van 2017 werd gevolgd door een sterke correctie in 2018-2019.
+Het jaar 2017 werd gekenmerkt door een aanzienlijke speculatieve zeepbel in de wereld van cryptovaluta's, vooral met de lancering van duizenden Initial Coin Offerings (ICO's). Veel van deze nieuwe cryptocurrencies hadden echter geen concrete ontwikkeling of nut en verdwenen snel. Deze bubbel van 2017 werd gevolgd door een sterke correctie in 2018-2019.
 
 - De NFT-bubbel en DeFi
 
@@ -1007,7 +1007,7 @@ Gebaseerd op cycli uit het verleden lijkt het erop dat de periodiciteit van de e
 
 Deze grote schommelingen hebben Bitcoin de reputatie gegeven van een zeer volatiele activa, wat vaak leidt tot aanzienlijke verliezen voor de gebruikers. Hoewel de prijs in een paar dagen met 10%, 20% of zelfs 50% kan dalen, is het belangrijk om te begrijpen dat het Bitcoin protocol zelf niet beïnvloed wordt door prijsveranderingen.
 
-Deze aanzienlijke volatiliteit wordt tegenwoordig volledig geaccepteerd door Bitcoin gebruikers en kan worden beperkt door verschillende oplossingen, zoals financiële hedges (stablecoins), een sterk langetermijngeloof (hodling), of simpelweg het vermijden van het risico om 100% van je tegoeden in Bitcoin te investeren zonder een voldoende kennisniveau. Begrijpen waarom de prijs van Bitcoin zo fluctueert is daarom essentieel om vooruitgang te boeken in deze industrie, want het zijn uiteindelijk de prijsbewegingen en cycli die de markt tot op zekere hoogte helpen temperen en reguleren. Het is echter van fundamenteel belang op te merken dat naarmate Bitcoin groeit en volwassener wordt, de volatiliteit minder impact heeft.
+Deze aanzienlijke volatiliteit wordt tegenwoordig volledig geaccepteerd door Bitcoin gebruikers en kan worden beperkt door verschillende oplossingen, zoals financiële hedges (stablecoins), een sterk langetermijngeloof (hodling), of simpelweg het vermijden van het risico om 100% van je tegoeden in Bitcoin te investeren zonder een voldoende kennis. Begrijpen waarom de prijs van Bitcoin zo fluctueert is daarom essentieel om vooruitgang te boeken in deze industrie, want het zijn uiteindelijk de prijsbewegingen en cycli die de markt tot op zekere hoogte helpen temperen en reguleren. Het is echter van fundamenteel belang op te merken dat naarmate Bitcoin groeit en volwassener wordt, de volatiliteit minder impact heeft.
 
 ![image](assets/en/69.webp)
 
@@ -1015,7 +1015,7 @@ Hoewel het btc/dollar paar op korte termijn fluctueert, volgt Bitcoin, vanwege d
 
 ### Een unieke markt
 
-Deze cycli van speculatieve zeepbellen zijn vrij uniek in de wereld, want het komt zelden voor dat één activum zo'n reeks zeepbellen na elkaar doormaakt. Dit fenomeen kan worden toegeschreven aan het feit dat Bitcoin niet zomaar een zeepbel is die gedoemd is om uiteen te spatten. Het functioneert eerder als een valuta die wereldwijd actief wordt gebruikt. Het Bitcoin protocol onderscheidt zich door zijn vermogen om 24/7 op wereldschaal te opereren, wat aanzienlijke uitdagingen met zich meebrengt voor financiële autoriteiten die het proberen te reguleren.
+Deze cycli van speculatieve zeepbellen zijn vrij uniek in de wereld, want het komt zelden voor dat één activum zo'n reeks zeepbellen na elkaar doormaakt. Dit fenomeen kan worden toegeschreven aan het feit dat Bitcoin niet zomaar een zeepbel is die gedoemd is om uiteen te spatten. Het functioneert eerder als een munteenheid die wereldwijd actief wordt gebruikt. Het Bitcoin protocol onderscheidt zich door zijn vermogen om 24/7 op wereldschaal te opereren, wat aanzienlijke uitdagingen met zich meebrengt voor financiële autoriteiten die het proberen te reguleren.
 
 ![image](assets/en/70.webp)
 
@@ -1031,7 +1031,7 @@ Vandaag de dag blijft Bitcoin overleven en zelfs groeien doordat het meer en mee
 
 Bitcoin kan gezien worden als het gereedschap om een parallelle economie te creëren naast fiatvaluta's, omdat het mogelijk is goederen of diensten te verkopen en betaald te worden in Bitcoin. Transacties kunnen direct in Bitcoin gedaan worden, zonder gebruik te maken van een exchange platform, maar gewoon van de ene Bitcoin wallet naar een andere.
 
-De Bitcoin economie bestaat en ontwikkelt zich in bepaalde regio's van de wereld, zoals in El Salvador, waar Bitcoin in 2021 een wettig betaalmiddel werd. Helaas heeft de assemblee op 20 januari 2025 een nieuwe wet aangenomen die Bitcoin ontdoet van de titel "wettig betaalmiddel", naar verluidt na druk van het Internationaal Monetair Fonds (IMF). Onder de nieuwe wet zijn mensen niet meer verplicht om Bitcoin te accepteren in hun bedrijven en kunnen ze er geen belasting meer mee betalen. Acceptatie ervan blijft vrijwillig.
+De Bitcoin economie bestaat en ontwikkelt zich in bepaalde regio's van de wereld, zoals in El Salvador, waar Bitcoin in 2021 een wettig betaalmiddel werd. Helaas heeft de assemblee op 20 januari 2025 een nieuwe wet aangenomen die Bitcoin ontdoet van de titel "wettig betaalmiddel", naar verluidt na druk vanuit het Internationaal Monetair Fonds (IMF). Onder de nieuwe wet zijn mensen niet meer verplicht om Bitcoin te accepteren in hun bedrijven en kunnen ze er geen belasting meer mee betalen. Acceptatie ervan blijft vrijwillig.
 
 Toch zijn er in El Salvador en in andere delen van de wereld steeds meer individuen, bedrijven en organisaties die Bitcoin accepteren als betaalmiddel voor hun producten of diensten.
 
@@ -1149,7 +1149,7 @@ Het is essentieel om te erkennen dat KYC een belangrijk onderwerp van discussie 
 
 Daarnaast zijn er verschillende [marktplaatsen](https://planb.network/tutorials/Exchange) waar je bitcoins kunt kopen en verkopen in een peer-to-peer exchange. Over het algemeen kun je de volgende overwegen:
 
-- Bitcoin Geldautomaten
+- Bitcoin geldautomaten
 - Fysieke ontmoetingen met andere Bitcoin enthousiastelingen
 - Illegale en ongereguleerde platforms
 - Peer-to-peer matchmaking-oplossingen
@@ -1181,7 +1181,7 @@ Uiteindelijk nodigen we je uit om na te denken over deze nieuwe monetaire revolu
 
 Als je je kennis over Bitcoin wilt uitbreiden, dan is dit het juiste moment: een groot aantal auteurs, denkers en essayisten hebben educatieve inhoud over Bitcoin gemaakt. De afgelopen jaren hebben we deze werken op een rijtje gezet en gecategoriseerd om een [bibliotheek van bronnen](https://planb.network/resources) aan te bieden aan de meest nieuwsgierigen onder jullie. In deze sectie vind je de beste podcasts, websites, artikelen, tutorials, boeken en andere inhoud.
 
-> "Ik denk dat het internet een van de belangrijkste krachten zal zijn om de rol van de overheid te verkleinen. Het enige dat nog ontbreekt, maar dat snel ontwikkeld zal worden, is een betrouwbare e-cash - een methode waarbij je op het internet geld kunt overmaken van A naar B zonder dat A B kent of B A kent." - Voorspelling van Milton Friedman in 1999
+> "Ik denk dat het internet een van de belangrijkste krachten zal zijn om de rol van de overheid te verkleinen. Het enige dat nog ontbreekt, maar dat snel ontwikkeld zal worden, is een betrouwbare e-cash - een methode waarbij je op het internetgeld kunt overmaken van A naar B zonder dat A B kent of B A kent." - Voorspelling van Milton Friedman in 1999
 
 # De Toekomst van Bitcoin: Het Lightning Network
 
@@ -1211,7 +1211,7 @@ Het schaalbaarheidsprobleem verwijst naar de uitdaging om een monetair systeem t
 
 ![image](assets/en/79.webp)
 
-Volgens dit voorbeeld kan een protocol gebaseerd op een blockchain slechts aan twee van deze drie eigenschappen voldoen. Binnen het Bitcoin protocol hebben ontwikkelaars keuzes gemaakt ten gunste van decentralisatie en veiligheid. Aan de ene kant maken de blokgrootte van 1MB en de tijd tussen twee blokken (gemiddeld 10 minuten) het mogelijk om een Bitcoin node tegen lagere kosten te laten draaien, wat decentralisatie bevordert. Aan de andere kant maakt de productie van blokken via Proof-of-Work fraude binnen het protocol extreem duur, terwijl het verificatie door nodes in het netwerk vergemakkelijkt en veiligheid bevordert. Deze keuzes leggen echter een limiet op aan het gemiddelde aantal transacties in een blok, wat ruwweg overeenkomt met een paar transacties per seconde. Dit aantal is belachelijk als je het vergelijkt met de rekencapaciteit van betalingsverwerkers zoals VISA (1700/s), maar deze limiet is noodzakelijk om transacties met Bitcoin op een censuurbestendige manier en zonder noodzaak tot vertrouwen te kunnen doen. Desondanks hebben de ontwikkelaars van Bitcoin vanaf het begin over dit probleem nagedacht.
+Volgens dit voorbeeld kan een protocol gebaseerd op een blockchain slechts aan twee van deze drie eigenschappen voldoen. Binnen het Bitcoin protocol hebben ontwikkelaars keuzes gemaakt ten gunste van decentralisatie en veiligheid. Aan de ene kant maken de blokgrootte van 1MB en de tijd tussen twee blokken (gemiddeld 10 minuten) het mogelijk om een Bitcoin node tegen lagere kosten te laten draaien, wat decentralisatie bevordert. Aan de andere kant maakt de productie van blokken via Proof-of-Work fraude binnen het protocol extreem duur, terwijl het verificatie door nodes in het netwerk vergemakkelijkt en veiligheid bevordert. Deze keuzes leggen echter een limiet op aan het gemiddelde aantal transacties in een blok, wat ruwweg overeenkomt met een paar transacties per seconde. Dit aantal is ontzettend laag als je het vergelijkt met de rekencapaciteit van betalingsverwerkers zoals VISA (1700/s), maar deze limiet is noodzakelijk om transacties met Bitcoin op een censuurbestendige manier en zonder noodzaak tot vertrouwen te kunnen doen. Desondanks hebben de ontwikkelaars van Bitcoin vanaf het begin over dit probleem nagedacht.
 
 ### Lightning als een laag erbovenop
 
@@ -1241,11 +1241,11 @@ Zoals we zojuist hebben gezien, heeft het Bitcoin protocol, hoewel revolutionair
 - Eclair door Acinq
 - LND door Lightning strike
 
-Dit peer-to-peer netwerk is bedoeld om microtransacties (met zeer lage waarde) mogelijk te maken die anders onpraktisch zouden zijn vanwege de hoge kosten en lange bevestigingstijden op de Bitcoin blockchain.
+Dit peer-to-peer netwerk is bedoeld om microtransacties (transacties met zeer lage waarde) mogelijk te maken die anders onpraktisch zouden zijn vanwege de hoge kosten en lange bevestigingstijden op de Bitcoin blockchain.
 
 ### Wat zijn de usecases van het netwerk?
 
-Deze technologie opent de deur naar een breed scala aan potentiële toepassingen voor Bitcoin die voorheen buiten bereik lagen vanwege de noodzakelijke beperkingen om de veiligheid en decentralisatie van Bitcoin te garanderen. Onder deze alledaagse toepassingen vallen bijvoorbeeld directe facturering in zowel fysieke als online handel, streaming van geld voor real-time betalingen en micro-donaties voor contentmakers. Door een netwerk van bijna directe, veilige en goedkope transacties (gemiddeld minder dan 0,5%) mogelijk te maken, kunnen veel voorheen ondenkbare bedrijfsmodellen worden gerealiseerd. Dit is mogelijk omdat Lightning Network werkt met satoshis (sats), de kleinste eenheid van Bitcoin.
+Deze technologie opent de deur naar een breed scala aan potentiële toepassingen voor Bitcoin die voorheen buiten bereik lagen vanwege de noodzakelijke beperkingen om de veiligheid en decentralisatie van Bitcoin te garanderen. Onder deze alledaagse toepassingen vallen bijvoorbeeld directe facturering in zowel fysieke als online handel, streaming van geld voor real-time betalingen en micro-donaties voor contentmakers. Door een netwerk van bijna directe, veilige en goedkope transacties (gemiddeld minder dan 0,5%) mogelijk te maken, kunnen veel voorheen ondenkbare bedrijfsmodellen worden gerealiseerd. Dit is mogelijk omdat het Lightning Network werkt met satoshis (sats), de kleinste eenheid van Bitcoin.
 
 ![image](assets/en/82.webp)
 
@@ -1257,7 +1257,7 @@ Samengevat ziet de toekomst van microtransacties met Bitcoin er veelbelovend uit
 
 ![image](assets/en/84.webp)
 
-Een ander voorbeeld zou "money streaming" kunnen zijn: via het Lightning Network kunnen we elke minuut microtransacties doen (mogelijk zonder vertrouwde derde partij), wat de deur opent om te experimenteren met economische modellen waarbij consumenten betalen voor content op basis van hun daadwerkelijke consumptie. Het is zelfs denkbaar om dit systeem te gebruiken voor het huren van goederen. In zo'n systeem wordt geld automatisch verdeeld, op basis van een vooraf bepaald percentage, onder de verschillende partijen die bijdragen aan een dienst of product. Dit zou een revolutie teweeg kunnen brengen in de manier waarop we denken over betalingsmodellen: in plaats van een maandelijks abonnement te betalen voor een dienst, zouden gebruikers per minuut of zelfs per seconde kunnen worden afgerekend voor de tijd die ze besteden aan het gebruik van de dienst. Zo'n economisch model zou ingrijpende gevolgen kunnen hebben voor makers van inhoud, die gestimuleerd zouden worden om kwalitatief goede inhoud te produceren om de aandacht van gebruikers vast te houden.
+Een ander voorbeeld zou "money streaming (geld streaming)" kunnen zijn: via het Lightning Network kunnen we elke minuut microtransacties doen (mogelijk zonder vertrouwde derde partij), wat de deur opent om te experimenteren met economische modellen waarbij consumenten betalen voor content op basis van hun daadwerkelijke consumptie. Het is zelfs denkbaar om dit systeem te gebruiken voor het huren van goederen. In zo'n systeem wordt geld automatisch verdeeld, op basis van een vooraf bepaald percentage, onder de verschillende partijen die bijdragen aan een dienst of product. Dit zou een revolutie teweeg kunnen brengen in de manier waarop we denken over betalingsmodellen: in plaats van een maandelijks abonnement te betalen voor een dienst, zouden gebruikers per minuut of zelfs per seconde kunnen worden afgerekend voor de tijd die ze besteden aan het gebruik van de dienst. Zo'n economisch model zou ingrijpende gevolgen kunnen hebben voor makers van inhoud, die gestimuleerd zouden worden om kwalitatief goede inhoud te produceren om de aandacht van gebruikers vast te houden.
 
 ![image](assets/en/85.webp)
 
@@ -1286,7 +1286,7 @@ We moeten onszelf een aantal essentiële vragen stellen:
 - Waar ligt de grens tussen een leraar en een AI-personificatie?
 - Hoe kunnen we een samenleving garanderen die in welvaart leeft?
 
-Over deze fundamentele vragen voor onze toekomst moeten we debatteren en collectief beslissen.
+Over deze fundamentele vragen over onze toekomst moeten we debatteren en collectief beslissen.
 Wat is het verband met Bitcoin? Net zoals het internet een revolutie teweegbracht in communicatiemethoden, vertegenwoordigt Bitcoin een technologische revolutie voor nieuwe vormen van grootschalige organisatie, waardoor we waarde kunnen creëren en uitwisselen zonder afhankelijk te zijn van een betrouwbare derde partij. Willen we de technologische evolutie van het monetaire systeem belemmeren, of willen we het potentieel voor meer kapitaal omarmen door de veelvoudige productiviteitswinst die het gebruik van Bitcoin en Lightning protocollen biedt?
 
 ### Wat is de toekomst van financiën?
@@ -1312,7 +1312,7 @@ Censuur moet ook in vraag worden gesteld: wie heeft de kennis om te beslissen wa
 
 Wij geloven sterk dat het tolereren van censuur de vrijheid van meningsuiting en het recht op vereniging kan vernietigen, omdat het een negatieve invloed kan hebben op innovatie en vrije wil. Censuur opleggen is technisch moeilijk zonder een complete dystopie te creëren. Dus, welke entiteit zou de censuurbevoegdheid moeten hebben? De zaak is ingewikkeld en het is ook moeilijk om te beslissen wie er al dan niet beperkt moet worden.
 
-Er zijn 2,4 miljard mensen in de wereld zonder bankrekening, wat noodzakelijkerwijs geografische ongelijkheden creëert. Aan de andere kant kent Bitcoin transacties gelijkheid toe, ongeacht je sociale status of politieke positie. Het protocol is apolitiek en kent geen specifieke privileges toe aan leiders of andere invloedrijke figuren, zodat iedereen dezelfde mogelijkheden heeft om ontwikkeling te stimuleren in plaats van een kleine groep aan de top te houden terwijl anderen achterblijven. Moet iedereen toegang hebben tot dezelfde munteenheid, ongeacht hun sociale status? Het is essentieel om na te denken over de wereld die we aan onze kinderen willen nalaten en we streven ernaar om een open wereld te creëren waarin zij vrij zijn om hun geld te beheren zoals zij dat willen.
+Er zijn 2,4 miljard mensen in de wereld zonder bankrekening, wat noodzakelijkerwijs geografische ongelijkheden creëert. Aan de andere kant kent Bitcoin alle transacties gelijkheid toe, ongeacht je sociale status of politieke positie. Het protocol is apolitiek en kent geen specifieke privileges toe aan leiders of andere invloedrijke figuren, zodat iedereen dezelfde mogelijkheden heeft om ontwikkeling te stimuleren in plaats van een kleine groep aan de top te houden terwijl anderen achterblijven. Moet iedereen toegang hebben tot dezelfde valuta, ongeacht hun sociale status? Het is essentieel om na te denken over de wereld die we aan onze kinderen willen nalaten en we streven ernaar om een open wereld te creëren waarin zij vrij zijn om hun geld te beheren zoals zij dat willen.
 
 Bitcoin is belangrijk en mag niet worden beschouwd als een kansspel, dus is het cruciaal om vragen te blijven stellen over Bitcoin en de gevolgen ervan voor de wereld.
 
@@ -1320,7 +1320,7 @@ Bitcoin is belangrijk en mag niet worden beschouwd als een kansspel, dus is het 
 
 Zoals we in het vorige hoofdstuk hebben gezien, is het Bitcoin protocol neutraal tegenover alle gebruikers. Dankzij consensusregels en cryptografie kunnen we transacties onveranderbaar vastleggen in een wereldwijde openbare ledger (grootboek), waardoor overdrachten van monetaire waarde zonder vertrouwde derde partij worden gegarandeerd. De tweede laag van de infrastructuur (en binnenkort de derde laag, met RGB, of "Really Good Bitcoin") wordt gebruikt voor de schaalbaarheid van het netwerk en de ontwikkeling van nieuwe functionaliteiten.
 
-Bitcoin heeft alle eigenschappen die nodig zijn om een efficiënte en gezonde munteenheid te zijn: deelbaar, onmiddellijk transporteerbaar, niet te censureren, verwaarloosbare verificatiekosten en met een monetair beleid dat al is ingesteld op 21 miljoen eenheden voor de komende eeuwen. Bitcoin is pseudoniem en kan overal ter wereld worden uitgewisseld zonder toestemming van welke entiteit dan ook. Je hoeft alleen maar je eigen privésleutels te hebben en te denken aan het gezegde "Niet je sleutels, niet je bitcoins".
+Bitcoin heeft alle eigenschappen die nodig zijn om een efficiënte en gezonde munteenheid te zijn: deelbaar, onmiddellijk transporteerbaar, niet te censureren, verwaarloosbare verificatiekosten en met een monetair beleid dat al is ingesteld op 21 miljoen eenheden voor de komende eeuwen. Bitcoin is pseudoniem en kan overal ter wereld worden uitgewisseld zonder toestemming van welke entiteit dan ook. Je hoeft alleen maar je eigen privésleutels te hebben en te denken aan het gezegde "Niet jouw sleutels, niet jouw bitcoins".
 
 Het wordt gebruikt door verschillende groepen mensen, van cryptografen tot libertariërs, traditionele bedrijven en zelfs hele landen. Bitcoin is echter voor iedereen, en terwijl het aantal gebruikers groeit, groeit ook het aantal Bitcoin nodes die dienen als bewakers van de transactiegeschiedenis, om de decentralisatie te waarborgen.
 

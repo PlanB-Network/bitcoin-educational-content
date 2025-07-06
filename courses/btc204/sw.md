@@ -323,40 +323,40 @@ Kinadharia, kauli hii ni sahihi. Katika sehemu ya kwanza ya kozi hii, tuliona kw
 
 Walakini, ukweli wa vitendo ni ngumu zaidi. Kuna wingi wa tabia ambazo zinaweza kuunganisha utambulisho halisi na shughuli za onchain. Katika uchambuzi, hii inaitwa hatua ya kuingia, na kuna wingi wao.
 
-Maarufu zaidi ni KYC (*Mjue Mteja Wako*). Ukiondoa Bitcoins zako kutoka kwa jukwaa linalodhibitiwa hadi kwenye mojawapo ya Anwani (address) zako za kibinafsi za kupokea, basi baadhi ya watu wanaweza kuunganisha utambulisho wako kwa hiyo Anwani (address). Kwa upana zaidi, mahali pa kuingilia panaweza kuwa aina yoyote ya mwingiliano kati ya maisha yako halisi na muamala wa Bitcoin. Kwa mfano, ukichapisha Anwani (address) inayopokea kwenye mitandao yako ya kijamii, hii inaweza kuwa mahali pa kuingilia kwa uchambuzi. Ikiwa utafanya malipo kwa Bitcoins kwa mwokaji wako, ataweza kuhusisha uso wako (sehemu ya utambulisho wako) kwa Anwani (address) ya Bitcoin.
+Maarufu zaidi ni KYC (*Mjue Mteja Wako*). Ukiondoa Bitcoins zako kutoka kwa jukwaa linalodhibitiwa hadi kwenye mojawapo ya Anwani (address) zako za kibinafsi za kupokea, basi baadhi ya watu wanaweza kuunganisha utambulisho wako kwa hiyo Anwani (address). Kwa upana zaidi, mahali pa kuingilia panaweza kuwa aina yoyote ya mwingiliano kati ya maisha yako halisi na muamala wa Bitcoin. Kwa mfano, ukichapisha  address inayopokea kwenye mitandao yako ya kijamii, hii inaweza kuwa mahali pa kuingilia kwa uchambuzi. Ikiwa utafanya malipo kwa Bitcoins kwa mwokaji wako, ataweza kuhusisha uso wako (sehemu ya utambulisho wako) kwa Anwani (address) ya Bitcoin.
 
 Maeneo haya ya kuingia kwa hakika hayawezi kuepukika unapotumia Bitcoin. Ingawa tunaweza kutafuta kuzuia upeo wao, watakuwepo kila wakati. Ndiyo maana ni muhimu kuchanganya mbinu zinazolenga kuhifadhi faragha yako. Ingawa kudumisha utengano kati ya utambulisho wako halisi na miamala yako ni mbinu ya kuvutia, bado haitoshi leo. Hakika, ikiwa shughuli zako zote za onchain zinaweza kuunganishwa pamoja, basi hata sehemu ndogo zaidi ya kuingilia inaweza kuathiri usiri mmoja wa safu ambayo umeanzisha.
 
 ![BTC204](assets/fr/029.webp)
 
-### Kujilinda dhidi ya Chainalysis (uchambuzi wa mnyororo)
+### Kujilinda dhidi ya Chainalysis 
 
-Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa Kuzuia mnyororo katika matumizi yetu ya Bitcoin. Kwa kufanya hivyo, tunaweza kupunguza ujumlisho wa shughuli zetu na kupunguza athari za mahali pa kuingilia kwenye faragha yetu.
+Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika matumizi yetu ya Bitcoin. Kwa kufanya hivyo, tunaweza kupunguza ujumlisho wa shughuli zetu na kupunguza athari za mahali pa kuingilia kwenye faragha yetu.
 
 ![BTC204](assets/fr/030.webp)
 
-Ni njia gani bora ya kukabiliana na uchambuzi wa Kuzuia mnyororo kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile SCoinjoin (arafu ya kujiunga) au Payjoin (malipo ya kujiunga) (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
+Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile Coinjoin  au Payjoin (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
-Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa Kuzuia mnyororo ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya on chain katika kozi hii ya mafunzo.
+Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa blockchain ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya onchain katika kozi hii ya mafunzo.
 
-### Mbinu za Chainalysis (uchambuzi wa mnyororo)
+### Mbinu za Chainalysis 
 
-Ni muhimu kuelewa kwamba uchambuzi wa kamba sio sayansi halisi. Inategemea Legacy (Urithi) unaotokana na uchunguzi wa awali au tafsiri za kimantiki. Sheria hizi huturuhusu kupata matokeo ya kuaminika, lakini kamwe kwa usahihi kabisa. Kwa maneno mengine, **uchanganuzi wa mnyororo daima unahusisha kipimo cha uwezekano katika hitimisho lililofikiwa**. Kwa mfano, inaweza kuwezekana kukadiria kwa viwango tofauti vya uhakika kwamba Anwani (address) mbili ni za huluki moja, lakini uhakika kamili hautapatikana kila wakati.
+Ni muhimu kuelewa kwamba uchambuzi wa kamba sio sayansi halisi. Inategemea Legacy  unaotokana na uchunguzi wa awali au tafsiri za kimantiki. Sheria hizi huturuhusu kupata matokeo ya kuaminika, lakini kamwe kwa usahihi kabisa. Kwa maneno mengine,**Uchanganuzi wa mlolongo daima unahusisha kipimo cha uwezekano katika hitimisho linalofikiwa**. Kwa mfano, inaweza kuwezekana kukadiria kwa viwango tofauti vya uhakika kwamba  address mbili ni za huluki moja, lakini uhakika kamili hautapatikana kila wakati.
 
-Hoja nzima ya uchanganuzi wa minyororo iko haswa katika mjumuisho wa mifumo mbali mbali ili kupunguza hatari ya makosa. Kwa njia fulani, ni mkusanyiko wa ushahidi ambao hutuleta karibu na ukweli.
+Hoja nzima ya uchanganuzi wa mlolongo iko hasa katika mjumuisho wa mifumo mbalimbali ili kupunguza hatari ya makosa. Kwa njia fulani, ni mkusanyiko wa ushahidi unaotukaribisha kwenye ukweli.
 
 Legacy (Urithi) hizi maarufu zinaweza kugawanywa katika vikundi tofauti, ambavyo tutaelezea kwa undani hapa chini:
 
 
-- Mitindo ya muamala ;**
-- Muamala wa ndani heuristics ;**
-- Legacy (Urithi) nje ya shughuli.**
+- **Mitindo ya muamala ;**
+- **Muamala wa ndani heuristics ;**
+- **Legacy (Urithi) nje ya shughuli.**
 
-### Satoshi Nakamoto na Chainalysis (uchambuzi wa mnyororo)
+### Satoshi Nakamoto na Chainalysis 
 
-Legacy (Urithi) mbili za kwanza za Chainalysis (uchambuzi wa mnyororo) ziligunduliwa na Satoshi Nakamoto mwenyewe. Anazungumza juu yao katika Sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin. Wao ni:
+Legacy  mbili za kwanza za Chainalysis ziligunduliwa na Satoshi Nakamoto mwenyewe. Anazungumza juu yao katika Sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin. Wao ni:
 
 
 - cIOH (*Ingizo la Kawaida Ownership Heuristic*);
@@ -366,31 +366,32 @@ Legacy (Urithi) mbili za kwanza za Chainalysis (uchambuzi wa mnyororo) ziligundu
 
 Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
-Tutaona ni nini katika sura zinazofuata, lakini tayari inafurahisha kutambua kwamba Legacy (Urithi) huu mbili bado unaendelea kuwa na umuhimu katika uchanganuzi wa msururu leo.
+Tutaona ni nini katika sura zinazofuata, lakini tayari inafurahisha kutambua kwamba Legacy hizi mbili bado zinaendelea kuwa na umuhimu katika uchanganuzi wa msururu leo.
 
 ## Mitindo ya muamala
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-Mchoro wa muamala ni muundo wa jumla au muundo wa shughuli ya kawaida, ambayo inaweza kupatikana kwenye Kuzuia mnyororo, na ambao uwezekano wa tafsiri yake unajulikana. Wakati wa kusoma mifumo, tunazingatia shughuli moja na kuichambua kwa kiwango cha juu.
+Mchoro wa muamala ni muundo wa jumla au muundo wa shughuli ya kawaida, ambao unaweza kupatikana kwenye blockchain, na ambao uwezekano wa tafsiri yake unajulikana. Wakati wa kusoma mifumo, tunazingatia shughuli moja na kuichambua kwa kiwango cha juu.
 
 Kwa maneno mengine, tutaangalia tu idadi ya UTXO katika pembejeo na idadi ya UTXO katika matokeo, bila kuzingatia maelezo mahususi zaidi au mazingira ya muamala. Kulingana na muundo uliozingatiwa, tunaweza kutafsiri asili ya shughuli. Kisha tutatafuta sifa za muundo wake na kupata tafsiri.
 
 ![BTC204](assets/fr/032.webp)
 
-Katika sehemu hii, tutaangalia pamoja mifano kuu ya shughuli iliyokutana katika Chainalysis (uchambuzi wa mnyororo), na kwa kila mfano, nitakupa tafsiri inayowezekana ya muundo huu, pamoja na mfano halisi.
+Katika sehemu hii, tutaangalia pamoja mifano kuu ya shughuli zinazopatikana katika Chainalysis, na kwa kila mfano, nitakupa tafsiri inayowezekana ya muundo huu, pamoja na mfano halisi.
 
-### Usafirishaji mmoja (au malipo moja)
+### Usafirishaji mmoja au malipo moja
 
-Hebu tuanze na muundo wa kawaida sana, kwa kuwa ndio unaojitokeza kwenye malipo mengi ya Bitcoin. Mtindo rahisi wa malipo una sifa ya utumiaji wa UTXO moja au zaidi kama pembejeo na utengenezaji wa UTXO 2 kama matokeo. Kwa hivyo mfano huu unaonekana kama huu:
+Hebu tuanze na muundo wa kawaida sana, kwa kuwa ndio unaojitokeza kwenye malipo mengi ya Bitcoin. Mtindo rahisi wa malipo una sifa ya utumiaji wa UTXO moja au zaidi kama pembejeo na utengenezaji wa UTXO mbili kama matokeo. Kwa hivyo, mfano huu unaonekana kama huu:
+
 
 ![BTC204](assets/fr/033.webp)
 
-Tunapoona muundo huu wa shughuli kwenye kuzuia mnyororo, tunaweza tayari kuchora tafsiri. Kama jina lake linavyopendekeza, mtindo huu unaonyesha kuwa tuko mbele ya shughuli ya kutuma au ya malipo. Mtumiaji ametumia UTXO yake mwenyewe katika pembejeo ili kukidhi matokeo ya malipo ya UTXO na Ubadilishanaji UTXO (fedha zilizorejeshwa kwa mtumiaji sawa).
+Tunapoona muundo huu wa muamala kwenye blockchain, tunaweza tayari kuchora tafsiri. Kama jina lake linavyopendekeza, mtindo huu unaonyesha kuwa tuko mbele ya muamala wa kutuma au wa malipo. Mtumiaji ametumia UTXO yake mwenyewe katika pembejeo ili kukidhi matokeo ya malipo ya UTXO na UTXO ya ubadilishaji (fedha zilizorejeshwa kwa mtumiaji huyo huyo).
 
-Kwa hivyo tunajua kuwa mtumiaji anayezingatiwa labda hana tena moja ya UTXO mbili za pato (malipo ya UTXO), lakini bado anamiliki UTXO nyingine (Ubadilishanaji wa UTXO).
+Kwa hivyo tunajua kuwa mtumiaji anayezingatiwa labda hana tena moja ya UTXO mbili za pato (malipo ya UTXO), lakini bado anamiliki UTXO nyingine (UTXO ya ubadilishaji).
 
-Kwa sasa, hatuwezi kubainisha ni matokeo gani yanawakilisha UTXO ipi, kwa kuwa hii si dhumuni la utafiti wa muundo. Tutafika kwa kutegemea Legacy (Urithi) tutajifunza katika sehemu zifuatazo. Katika hatua hii, lengo letu ni kubainisha aina ya shughuli inayohusika, ambayo katika kesi hii ni utumaji rahisi.
+Kwa sasa, hatuwezi kubainisha ni matokeo gani yanawakilisha UTXO ipi, kwa kuwa hii si dhumuni la utafiti wa muundo. Tutafika kwa kutegemea Legacy tutajifunza katika sehemu zifuatazo. Katika hatua hii, lengo letu ni kubainisha aina ya muamala unaohusika, ambao katika kesi hii ni utumaji rahisi.
 
 Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo rahisi wa kutuma:
 
@@ -402,7 +403,7 @@ b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
-Baada ya mfano huu wa kwanza, unapaswa kuwa na ufahamu bora wa maana ya kusoma "muundo wa muamala". Tunachunguza shughuli kwa kuzingatia tu muundo wake, bila kuzingatia mazingira yake au maelezo maalum ya shughuli. Katika hatua hii ya kwanza, tunaangalia picha kuu tu.
+Baada ya mfano huu wa kwanza, unapaswa kuwa na ufahamu bora wa maana ya kusoma "muundo wa muamala". Tunachunguza muamala kwa kuzingatia tu muundo wake, bila kuzingatia mazingira yake au maelezo maalum ya shughuli. Katika hatua hii ya kwanza, tunaangalia picha kuu tu.
 
 Sasa kwa kuwa umeelewa muundo ni nini, wacha tuendelee kwenye mifano mingine iliyopo.
 
@@ -412,11 +413,11 @@ Mtindo huu wa pili una sifa ya matumizi ya UTXO moja kama pembejeo na utengeneza
 
 ![BTC204](assets/fr/035.webp)
 
-Tafsiri ya mtindo huu ni kwamba tuko mbele ya uhamishaji wa kibinafsi. Mtumiaji amehamisha bitcoins zake kwake, kwa Anwani (address) nyingine ya mali yake. Kwa kuwa hakuna Ubadilishanaji kwenye muamala, kuna uwezekano mkubwa kwamba tuko mbele ya malipo. Hakika, wakati malipo yanafanywa, ni vigumu kwa mlipaji kuwa na UTXO inayolingana hasa na kiasi kinachohitajika na muuzaji, pamoja na ada ya ununuzi. Kwa ujumla, mlipaji analazimika kutoa pato la Kubadilishana.
+Tafsiri ya mtindo huu ni kwamba tuko mbele ya uhamishaji wa kibinafsi. Mtumiaji amehamisha bitcoins zake kwake, kwa Anwani nyingine ya mali yake. Kwa kuwa hakuna ubadilishaji kwenye muamala, kuna uwezekano mkubwa kwamba tuko mbele ya malipo. Hakika, wakati malipo yanafanywa, ni vigumu kwa mlipaji kuwa na UTXO inayolingana hasa na kiasi kinachohitajika na muuzaji, pamoja na ada ya ununuzi. Kwa ujumla, mlipaji analazimika kutoa pato la ubadilishaji.
 
-Kisha tunajua kwamba mtumiaji aliyeangaliwa pengine bado anamiliki UTXO hii. Katika muktadha wa uchanganuzi wa msururu, ikiwa tunajua kuwa UTXO inayotumika kama ingizo la muamala ni ya Alice, tunaweza kudhani kuwa UTXO inayotumika kama pato pia ni yake. Kitakachokuwa cha kufurahisha baadaye ni kupata uvumbuzi wa ndani wa shughuli ambao unaweza kuimarisha dhana hii (tutaangalia Legacy (Urithi) huu katika sura ya 3.3).
+Kisha tunajua kwamba mtumiaji aliyeangaliwa pengine bado anamiliki UTXO hii. Katika muktadha wa uchanganuzi wa mlolongo, ikiwa tunajua kuwa UTXO inayotumika kama ingizo la muamala ni ya Alice, tunaweza kudhani kuwa UTXO inayotumika kama pato pia ni yake. Kitakachokuwa cha kufurahisha baadaye ni kupata uvumbuzi wa ndani wa muamala ambao unaweza kuimarisha dhana hii — tutaangalia urithi huu katika sura ya 3.3.
 
-Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa kufagia:
+Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa sweep transaction.
 
 ```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
@@ -426,9 +427,9 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa kufagia:
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
-Jihadharini, hata hivyo, kwamba aina hii ya muundo inaweza pia kufichua uhamishaji wa kibinafsi kwa akaunti ya jukwaa la ubadilishanaji wa cryptocurrency. Itakuwa ni utafiti wa Anwani (address) zinazojulikana na muktadha wa shughuli hiyo ambayo itatuambia kama ni kutelezesha kidole kwenye Pochi ya kujilinda au kujiondoa kwenye jukwaa. Hakika, Anwani (address) za majukwaa ya Ubadilishanaji mara nyingi hutambulika kwa urahisi.
+Jihadharini, hata hivyo, kwamba aina hii ya muundo inaweza pia kufichua uhamishaji wa kibinafsi kwa akaunti ya jukwaa la ubadilishanaji wa cryptocurrency. Itakuwa ni utafiti wa address zinazojulikana na muktadha wa muamala huo ambao utatuambia kama ni kutelezesha kidole kwenye wallet ya kujilinda au kujiondoa kwenye jukwaa. Hakika, address za majukwaa ya Ubadilishanaji mara nyingi hutambulika kwa urahisi.
 
-Hebu tuchukue mfano wa Alice tena: ikiwa scan inaongoza kwa Anwani (address) inayojulikana kwa jukwaa (kama vile Binance, kwa mfano), hii inaweza kumaanisha kwamba bitcoins zimehamishwa nje ya milki ya moja kwa moja ya Alice, labda kwa nia ya kuziuza au kuzihifadhi kwenye jukwaa hili. Kwa upande mwingine, ikiwa fikio la Anwani (address) halijulikani, ni jambo la busara kudhani kuwa ni Pochi jingine ambalo bado ni la Alice. Lakini aina hii ya utafiti ni zaidi katika jamii ya Legacy (Urithi) kuliko ruwaza.
+Hebu tuchukue mfano wa Alice tena: ikiwa scan inaongoza kwa  address inayojulikana kwa jukwaa (kama vile Binance, kwa mfano), hii inaweza kumaanisha kwamba bitcoins zimehamishwa nje ya milki ya moja kwa moja ya Alice, labda kwa nia ya kuziuza au kuzihifadhi kwenye jukwaa hili. Kwa upande mwingine, ikiwa fikio la address halijulikani, ni jambo la busara kudhani kuwa ni wallet nyingine ambayo bado ni la Alice. Lakini aina hii ya utafiti ni zaidi katika jamii ya Legacy  kuliko ruwaza.
 
 ### Kuunganisha
 
@@ -440,7 +441,7 @@ Tafsiri ya muundo huu ni kwamba tuko mbele ya uimarishaji. Hii ni mazoezi ya kaw
 
 Tunaweza kukisia kwamba mtumiaji aliye nyuma ya muundo huu wa muamala pengine alikuwa anamiliki UTXO zote katika ingizo na bado anamiliki UTXO katika pato. Kwa hivyo labda ni uhamishaji otomatiki.
 
-Kama vile kufagia, aina hii ya muundo pia inaweza kuonyesha uhamishaji wa kibinafsi kwa akaunti ya jukwaa la Ubadilishanaji. Itakuwa ni utafiti wa Anwani (address) zinazojulikana na muktadha wa shughuli hiyo ambayo itatuambia ikiwa ni ujumuishaji wa jalada la ulinzi binafsi au kujiondoa kwenye jukwaa.
+Kama vile sweep transaction, aina hii ya muundo pia inaweza kuonyesha uhamishaji wa kibinafsi kwa akaunti ya jukwaa la Ubadilishanaji. Itakuwa ni utafiti wa Anwani zinazojulikana na muktadha wa muamala huo ambao utatuambia ikiwa ni ujumuishaji wa jalada la ulinzi binafsi au kujiondoa kwenye jukwaa.
 
 Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa ujumuishaji:
 
@@ -452,7 +453,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa ujumuishaji:
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-Katika Chainalysis (uchambuzi wa mnyororo), mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
+Katika Chainalysis, mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
 
 ![BTC204](assets/fr/039.webp)
 
@@ -462,9 +463,9 @@ Mtindo huu una sifa ya utumiaji wa UTXO chache kama pembejeo (mara nyingi ni moj
 
 ![BTC204](assets/fr/040.webp)
 
-Tafsiri ya mtindo huu ni kwamba tuko mbele ya matumizi ya makundi. Ni mazoezi ambayo pengine hufichua shughuli kubwa sana za kiuchumi, kama vile jukwaa la Ubadilishanaji. Matumizi yaliyowekwa katika vikundi huwezesha huluki hizi kuokoa gharama kwa kuchanganya gharama zao katika muamala mmoja.
+Tafsiri ya mtindo huu ni kwamba tuko mbele ya matumizi ya makundi. Ni mazoezi ambayo pengine hufichua muamala kubwa sana za kiuchumi, kama vile jukwaa la Ubadilishanaji. Matumizi yaliyowekwa katika vikundi huwezesha huluki hizi kuokoa gharama kwa kuchanganya gharama zao katika muamala mmoja.
 
-Tunaweza kuamua kutoka kwa mfano huu kwamba UTXO katika pembejeo inatoka kwa kampuni yenye kiwango cha juu cha shughuli za kiuchumi, na kwamba UTXO katika pato hutawanyika. Wengi watakuwa wa wateja wa kampuni ambao wameondoa bitcoins kwenye jukwaa. Wengine wanaweza kwenda kwa kampuni za washirika. Hatimaye, hakika kutakuwa na ubadilishanaji mmoja au zaidi kurudi kwa kampuni inayotoa.
+Tunaweza kuamua kutoka kwa mfano huu kwamba UTXO katika pembejeo inatoka kwa kampuni yenye kiwango cha juu cha muamala za kiuchumi, na kwamba UTXO katika toleo hutawanyika. Wengi watakuwa wa wateja wa kampuni ambao wameondoa bitcoins kwenye jukwaa. Wengine wanaweza kwenda kwa kampuni za washirika. Hatimaye, hakika kutakuwa na ubadilishanaji mmoja au zaidi kurudi kwa kampuni inayotoa.
 
 Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa matumizi uliounganishwa (huenda, ni shughuli iliyotolewa na mfumo wa Bybit):
 
@@ -476,15 +477,15 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa matumizi uliou
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
-### Shughuli mahususi za itifaki
+### Muamala mahususi za itifaki
 
 Miongoni mwa mifumo ya muamala, tunaweza pia kutambua zile zinazofichua matumizi ya itifaki mahususi. Kwa mfano, sahihi za Whirlpool (zilizojadiliwa katika sehemu ya 5) zitakuwa na muundo unaoweza kutambulika kwa urahisi unaozitofautisha na miamala mingine ya kawaida zaidi.
 
 ![BTC204](assets/fr/042.webp)
 
-Uchanganuzi wa muundo huu unapendekeza kuwa kuna uwezekano wa kuwa na shughuli ya ushirikiano. Inawezekana pia kutazama SCoinjoin (arafu ya kujiunga). Ikiwa nadharia hii ya mwisho itathibitisha kuwa ni sahihi, basi idadi ya kutoka inaweza kutupa makadirio mabaya ya idadi ya washiriki katika Sarafu ya malipo.
+Uchanganuzi wa muundo huu unapendekeza kuwa kuna uwezekano wa kuwa na muamala wa ushirikiano. Inawezekana pia kutazama CoinJoin.Ikiwa nadharia hii ya mwisho itathibitisha kuwa ni sahihi, basi idadi ya kutoka inaweza kutupa makadirio mabaya ya idadi ya washiriki katika sarafu ya malipo.
 
-Kwa mfano, hapa kuna muamala wa Bitcoin unaotumia muundo wa shughuli shirikishi wa SCoinjoin (arafu ya kujiunga):
+Kwa mfano, hapa kuna muamala wa Bitcoin unaotumia muundo wa shughuli shirikishi wa Coinjoin 
 
 ```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
@@ -494,29 +495,29 @@ Kwa mfano, hapa kuna muamala wa Bitcoin unaotumia muundo wa shughuli shirikishi 
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
-Kuna itifaki zingine nyingi zilizo na muundo wao maalum. Kwa mfano, kuna shughuli za Wabisabi, miamala ya Stempu na miamala ya Runes.
+Kuna itifaki zingine nyingi zilizo na muundo wao maalum. Kwa mfano, kuna miamala za Wabisabi, miamala ya Stempu na miamala ya Runes.
 
-Shukrani kwa mifumo hii ya muamala, tayari tunaweza kutafsiri kiasi fulani cha maelezo kuhusu muamala fulani. Lakini muundo wa shughuli sio chanzo pekee cha habari kwa uchambuzi. Tunaweza pia kusoma maelezo yake. Maelezo haya ya ndani ndiyo ninapenda kuyaita "Legacy (Urithi) wa ndani", na tutayaangalia katika sura inayofuata.
+Shukrani kwa mifumo hii ya miamala, tayari tunaweza kutafsiri kiasi fulani cha maelezo kuhusu muamala fulani. Lakini muundo wa shughuli sio chanzo pekee cha habari kwa uchambuzi. Tunaweza pia kusoma maelezo yake. Maelezo haya ya ndani ndiyo ninapenda kuyaita "Legacy za ndani", na tutayaangalia katika sura inayofuata.
 
-## Legacy (Urithi) wa ndani
+## Legacy wa ndani
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-Legacy (Urithi) wa ndani ni sifa mahususi ambayo tunaitambua ndani ya shughuli yenyewe, bila kuhitaji kuchunguza mazingira yake, na ambayo hutuwezesha kufanya makato. Tofauti na mifumo, ambayo inazingatia miundo ya jumla ya shughuli kwa kiwango cha juu, Legacy (Urithi) wa ndani unategemea seti ya data inayoweza kutolewa. Hii ni pamoja na:
+Legacy  wa ndani ni sifa mahususi ambayo tunaitambua ndani ya shughuli yenyewe, bila kuhitaji kuchunguza mazingira yake, na ambayo hutuwezesha kufanya makato. Tofauti na mifumo, ambayo inazingatia miundo ya jumla ya miamala kwa kiwango cha juu, Legacy wa ndani unategemea seti ya data inayoweza kutolewa. Hii ni pamoja na:
 
 
 - Kiasi cha UTXO mbalimbali ndani na nje;
-- Kila kitu cha kufanya na hati: Anwani (address) za mapokezi, matoleo, muda wa kufunga..
+- Kila kitu cha kufanya na hati:  address za mapokezi, matoleo, muda wa kufunga..
 
-Kwa ujumla, aina hii ya Legacy (Urithi) itatuwezesha kutambua Ubadilishanaji katika shughuli mahususi. Kwa kufanya hivyo, basi tunaweza kuendeleza ufuatiliaji wa huluki juu ya miamala kadhaa tofauti. Hakika, ikiwa tutatambua UTXO mali ya mtumiaji tunayetaka kufuatilia, ni muhimu kubainisha, anapofanya shughuli ya ununuzi, ni matokeo gani yamehamishiwa kwa mtumiaji mwingine na ni matokeo gani yanawakilisha Ubadilishanaji, ambayo kwa hivyo inabaki mikononi mwake.
+Kwa ujumla, aina hii ya Legacy  itatuwezesha kutambua Ubadilishanaji katika shughuli mahususi. Kwa kufanya hivyo, basi tunaweza kuendeleza ufuatiliaji wa huluki juu ya miamala kadhaa tofauti. Hakika, ikiwa tutatambua UTXO mali ya mtumiaji tunayetaka kufuatilia, ni muhimu kubainisha, anapofanya shughuli ya ununuzi, ni matokeo gani yamehamishiwa kwa mtumiaji mwingine na ni matokeo gani yanawakilisha Ubadilishanaji, ambayo kwa hivyo inabaki mikononi mwake.
 
 ![BTC204](assets/fr/044.webp)
 
-Kwa mara nyingine tena, wacha nikukumbushe kwamba Legacy (Urithi) huu sio sahihi kabisa. Zikichukuliwa kibinafsi, hutuwezesha tu kutambua hali zinazowezekana. Ni mkusanyiko wa Legacy (Urithi) kadhaa ambao husaidia kupunguza kutokuwa na uhakika, bila kuwa na uwezo wa kuiondoa kabisa.
+Kwa mara nyingine tena, wacha nikukumbushe kwamba Legacy hii sio sahihi kabisa. Zikichukuliwa kibinafsi, hutuwezesha tu kutambua hali zinazowezekana. Ni mkusanyiko wa Legacy kadhaa ambazo husaidia Kuna itifaki zingine nyingi zilizo na muundo wao maalum. Kwa mfano, kuna miamala za Wabisabi, miamala ya Stempu na miamala ya Runes. kutokuwa na uhakika, bila kuwa na uwezo wa kuiondoa kabisa.
 
 ### Kufanana kwa ndani
 
-Legacy (Urithi) huu unahusisha utafiti wa kufanana kati ya pembejeo na matokeo ya shughuli hiyo hiyo. Ikiwa sifa hiyo hiyo itazingatiwa kwenye pembejeo na kwenye matokeo moja tu ya muamala, basi kuna uwezekano kuwa na matokeo haya yanayojumuisha Ubadilishanaji.
+Legacy huu inahusisha utafiti wa kufanana kati ya pembejeo na matokeo ya muamala huo huo. Ikiwa sifa hiyo hiyo itazingatiwa kwenye pembejeo na kwenye matokeo moja tu ya muamala, basi kuna uwezekano kuwa na matokeo haya yanayojumuisha Ubadilishanaji.
 
 Kipengele dhahiri zaidi ni utumiaji tena wa Anwani (address) inayopokea katika shughuli hiyo hiyo.
 

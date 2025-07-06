@@ -1,0 +1,9 @@
+question: Vem designade den första riktiga Bitcoin-logotypen (ett gyllene B med versaler korsat av två vertikala streck) i februari 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Han använde NewLibertyStandards förslag om att använda den thailändska baht-symbolen (฿). Den orange logotypen skapades senare av någon som kallas Bitboy.
+reviewed: true

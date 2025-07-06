@@ -1,0 +1,14 @@
+question: Vilka är de potentiella nackdelarna med Mining för nätverket?
+answer: Utan tillräckliga ekonomiska incitament kan det vara svårt för gruvarbetare att fortsätta stödja nätverket
+wrong_answers:
+  - Det kan leda till en sänkning av priset på Bitcoin
+  - Det kan leda till en ökning av nätverkets Hashrate
+  - Det kan leda till en minskning av antalet aktiva noder i nätverket
+explanation: |
+  Mining för nätverket är ett ädelt initiativ som bidrar till
+  bidrar till säkerheten och decentraliseringen av
+  Bitcoin-nätverket. Men utan tillräckliga ekonomiska
+  incitament kan det vara svårt för gruvarbetare att fortsätta
+  stödja nätverket, särskilt om de arbetar med förlust
+  förlust.
+reviewed: true

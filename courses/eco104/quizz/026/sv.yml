@@ -1,0 +1,12 @@
+question: Vad är Blockchain-trilemmaet i kryptovalutornas rike?
+answer: Avvägningen mellan skalbarhet, säkerhet och decentralisering i kryptovalutor
+wrong_answers:
+  - En egenskap hos Bitcoin som prioriterar decentralisering och säkerhet framför skalbarhet
+  - Svårigheten att bestämma kryptovalutornas bana och värden
+  - Begränsningen av Bitcoin:s teknik i jämförelse med andra kryptovalutor
+explanation: |
+  Konceptet med Blockchain-trilemmat är idén att kryptovalutor
+  måste prioritera två av tre viktiga egenskaper; skalbarhet
+  säkerhet och decentralisering. Bitcoin prioriterar decentralisering och säkerhet,
+  vilket påverkar dess skalbarhet, men den uppnår den ändå genom alternativa medel.
+reviewed: true

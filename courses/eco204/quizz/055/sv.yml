@@ -1,0 +1,13 @@
+question: Vad är det viktigaste att ta med sig från föreläsningen om hur man övervinner hyperinflation?
+answer: Det finns flera strategier för att få bukt med hyperinflationen, men de fungerar bara om befolkningen har förtroende för dem och om regeringen åläggs strikta restriktioner.
+wrong_answers:
+  - Det enda sättet att få bukt med hyperinflation är genom dollarisering
+  - Det enda sättet att få bukt med hyperinflationen är att införa en ny valuta
+  - Hyperinflation kan övervinnas genom att helt enkelt öka penningmängden Supply
+explanation: |
+  Föreläsningen föreslår att det finns flera strategier för att övervinna
+  hyperinflation,
+  såsom dollarisering eller införande av en ny valuta. Dessa lösningar kommer dock
+  bara fungera om befolkningen har förtroende för dem och strikta begränsningar åläggs regeringen
+  på regeringen.
+reviewed: false

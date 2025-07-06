@@ -1,0 +1,9 @@
+question: Vem lanserade idén om konkurrens mellan privata valutor?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek föreslog konkurrens mellan privata valutor för att minska regeringarnas inflytande över valutan och uppmuntra till monetär stabilitet baserad på marknaden snarare än centraliserad politik.
+reviewed: true

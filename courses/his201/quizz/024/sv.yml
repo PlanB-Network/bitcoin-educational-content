@@ -1,0 +1,9 @@
+question: Vem är den person som reagerade positivt på publiceringen av vitboken i november 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  Den 7 november skrev han till listan att Bitcoin [verkade] vara en mycket lovande idé. De andra var mer skeptiska. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: true

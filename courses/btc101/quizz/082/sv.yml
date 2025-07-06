@@ -1,0 +1,11 @@
+question: Vad är det för teknik som används för att säkert spendera pengar med en Bitcoin Wallet?
+answer: Kryptografi med elliptisk kurva.
+wrong_answers:
+  - Symmetrisk kryptografi.
+  - Kvantkryptografi.
+  - RSA-kryptografi.
+explanation: |
+  För att spendera Bitcoins krävs att ägaren använder Elliptic Curve
+  Digital signaturalgoritm (ECDSA) för att förfalska en signatur
+  för spridning av en Bitcoin-transaktion.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Vilken var Tysklands lösning för att motverka inflationen efter första världskriget?
+answer: Skapande av en ny valuta, Rentenmark
+wrong_answers:
+  - Dollarisering
+  - Trycka mer pengar
+  - Minskning av pengarna Supply
+explanation: |
+  Tyskland skapade en ny valuta, Rentenmark, för att motverka inflationen
+  efter första världskriget. Valutan backades upp av rikets territoriella tillgångar, och
+  denna strategi visade sig vara effektiv.
+reviewed: false

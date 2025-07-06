@@ -1,0 +1,10 @@
+question: Vad säger den här kursen om framtiden för Bitcoin?
+answer: Det kommer inte att försvinna.
+wrong_answers:
+  - Den kommer att ersättas av en bättre teknik.
+  - Det kommer att förbjudas över hela världen.
+  - Den kommer att förlora sitt värde.
+explanation: |
+  Kurstexten antyder att Bitcoin inte kommer att
+  försvinna. Tvärtom, revolutionen har bara börjat.
+reviewed: true

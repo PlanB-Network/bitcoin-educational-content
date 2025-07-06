@@ -18,7 +18,101 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0
-
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.53
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.02
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.56
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.05
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.02
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.53
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.53
 tags:
   - wallets
   - guides

@@ -1,0 +1,12 @@
+question: Under vilket år kommer den 7:e Halving att inträffa?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  Den 7:e Halving bör inträffa år 2036, och det uppskattade
+  antalet Bitcoin i cirkulation kommer att vara 20 835 937,5,
+  vilket ungefär kommer att motsvara 99,22% av det totala
+  Supply.
+reviewed: true

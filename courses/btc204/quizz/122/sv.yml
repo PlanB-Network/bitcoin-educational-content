@@ -1,0 +1,10 @@
+question: Hur förbättrar P2P transport V2 sekretessen och säkerheten för kommunikationen mellan noderna?
+answer: Genom att integrera opportunistisk kryptering
+wrong_answers:
+  - Genom att integrera autentisering
+  - Genom att använda extra reläer
+  - Genom att använda Tor
+explanation: |
+  P2P transport V2 innehåller en Layer av opportunistisk kryptering för att förbättra sekretessen och säkerheten för kommunikationen mellan noder.
+  
+reviewed: false

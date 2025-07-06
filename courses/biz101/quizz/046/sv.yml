@@ -1,0 +1,9 @@
+question: Vilken är den primära funktionen för valuta?
+answer: Att fungera som en mellanhand som förenklar Exchange av värde
+wrong_answers:
+  - Att lagra inneboende värde i fysisk form
+  - Att helt ersätta byteshandel med direkt varor-för-varor Exchange
+  - Att centralisera alla ekonomiska transaktioner genom en enda myndighet
+explanation: |
+  Valuta förenklar handeln genom att fungera som ett gemensamt medium som minskar den komplexa väv av Exchange-kurser som krävs i ett byteshandelssystem och därmed underlättar transaktioner.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hur har Lightning Network utvecklats för att förbättra användarupplevelsen sedan starten?
+answer: Det har infört funktioner som splicing, statiska Bolt12-fakturor och bättre likviditetshantering, vilket gör transaktionerna smidigare och mer tillförlitliga.
+wrong_answers:
+  - Den har tagit bort alla säkerhetsfunktioner för att snabba upp transaktionerna.
+  - Det krävs nu ett godkännande från regeringen för varje betalning.
+  - Man har slutat att arbeta med nya funktioner och förlitar sig endast på den ursprungliga designen.
+explanation: |
+  Med tiden har Lightning Network genomgått tekniska förbättringar som minskar friktionen för användarna. Nya funktioner och bättre verktyg för nodhantering har bidragit till en mer sömlös och användarvänlig upplevelse.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle commande permet de mettre à jour l’ensemble des paquets sur une distribution Ubuntu ?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  Sur Ubuntu (et Debian), la commande "sudo apt update && sudo apt upgrade" permet de synchroniser la liste des paquets et d’installer toutes les mises à jour disponibles.
+reviewed: false

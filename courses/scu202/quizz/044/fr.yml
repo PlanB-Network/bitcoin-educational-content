@@ -1,0 +1,9 @@
+question: Quelle opération vise à s’assurer qu’un logiciel téléchargé n’a subi aucune modification depuis sa publication officielle ?
+answer: La vérification de l’intégrité via le hash
+wrong_answers:
+  - La vérification de l'authenticité via la signature du développeur
+  - L’analyse du logiciel via un firewall
+  - L’exécution du programme en mode sans échec
+explanation: |
+  La vérification d’intégrité repose sur la comparaison du hash du fichier téléchargé avec celui publié par le développeur. Toute modification du fichier modifie ce hash.
+reviewed: false

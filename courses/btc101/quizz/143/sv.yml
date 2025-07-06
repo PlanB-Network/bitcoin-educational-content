@@ -1,0 +1,11 @@
+question: Vad skulle hända om en nodanvändare valde att följa andra regler som strider mot de befintliga konsensusreglerna?
+answer: Noden kommer inte längre att vara en del av Bitcoin-nätverket.
+wrong_answers:
+  - Noden kommer att bli en del av ett annat Bitcoin-nätverk.
+  - Noden kommer att bestraffas av Bitcoin-nätverket.
+  - Noden kommer att belönas av Bitcoin-nätverket.
+explanation: |
+  Om en nodanvändare beslutar sig för att följa andra regler som
+  ogiltigförklarar de nuvarande konsensusreglerna, då skulle denna nod
+  inte längre vara en del av Bitcoin-nätverket.
+reviewed: true

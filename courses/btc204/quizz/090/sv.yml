@@ -1,0 +1,10 @@
+question: Vad är det som är unikt med remixer i Whirlpool jämfört med andra CoinJoin-implementeringar?
+answer: De är helt gratis.
+wrong_answers:
+  - De kräver endast att Mining-avgifterna betalas.
+  - De är begränsade till en per användare.
+  - De kräver bara att du betalar serviceavgifterna.
+explanation: |
+  Whirlpool-remixer är 100 % kostnadsfria: inga ytterligare serviceavgifter eller Mining-avgifter krävs.
+  
+reviewed: false

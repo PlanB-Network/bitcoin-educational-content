@@ -2,4 +2,4 @@
 term: NAKAMOTO SATOSHI
 
 ---
-Nama samaran dari individu atau kelompok yang menciptakan Bitcoin dan menulis buku putih aslinya pada tahun 2008 (White Paper). Nakamoto, yang hanya berkomunikasi secara online, akhirnya menghilang dari panggung publik pada tahun 2011.
+Nama samaran dari individu atau kelompok yang menciptakan Bitcoin dan menulis _White Paper_ aslinya pada tahun 2008. Nakamoto, yang hanya berkomunikasi secara _online_, akhirnya menghilang dari panggung publik pada tahun 2011.

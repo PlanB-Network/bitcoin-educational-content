@@ -1,0 +1,8 @@
+question: Vilka är de typiska kostnaderna för en Miner?
+answer: Elförbrukning och inköp av hårdvara.
+wrong_answers:
+  - Endast inköp av hårdvara.
+  - Transaktionsavgifter.
+  - Elförbrukning och transaktionsavgifter.
+explanation: >-
+reviewed: false

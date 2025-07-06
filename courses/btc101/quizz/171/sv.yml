@@ -1,0 +1,13 @@
+question: Hur säkerställer Bitcoin-protokollet att det är censurresistent och motståndskraftigt?
+answer: Varje komponent i protokollet är geografiskt fördelad över hela världen.
+wrong_answers:
+  - Den använder ett lokalt nätverk av noder som är utspridda i Europa.
+  - Den använder en komplex algoritm för att validera transaktioner.
+  - Den använder en hög krypteringsnivå.
+explanation: |
+  Bitcoin-protokollet säkerställer sin censurresistens och
+  resiliens eftersom varje komponent i protokollet är
+  distribueras geografiskt över hela världen. Till exempel,
+  finns det cirka 40 000 Bitcoin-noder över alla kontinenter
+  kontinenter.
+reviewed: true

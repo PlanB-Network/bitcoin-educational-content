@@ -1,0 +1,9 @@
+question: Vilken är Hayeks huvudsakliga kritik mot den keynesianska penningpolitiken?
+answer: Det skapar ekonomiska bubblor och lågkonjunkturer
+wrong_answers:
+  - Det gynnar långsiktiga investeringar
+  - Det minskar sociala orättvisor
+  - Det ökar den inhemska efterfrågan på ett okontrollerbart sätt
+explanation: |
+  Hayek kritiserade den keynesianska penningpolitiken för att uppmuntra artificiella överinvesteringscykler, vilket leder till ekonomiska bubblor och oundvikligen till recessioner när dessa bubblor spricker.
+reviewed: true

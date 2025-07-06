@@ -1,0 +1,9 @@
+question: Hur specifika är de tre krypterade texter som finns i lådan?
+answer: De innehåller siffror åtskilda av kommatecken
+wrong_answers:
+  - De är alla skrivna med vanliga bokstäver
+  - De använder okända symboler
+  - De är skrivna på flera språk
+explanation: |
+  De tre krypterade texterna består av sifferserier åtskilda av kommatecken och kräver en nyckel för att kunna dekrypteras.
+reviewed: false

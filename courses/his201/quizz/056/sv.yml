@@ -1,0 +1,9 @@
+question: Vilka var de standardmönster för skriptutmatning som programvaran kände igen i september 2010?
+answer: Mottagning av en publik nyckel (P2PK) och mottagning av en Address (P2PKH)
+wrong_answers:
+  - Mottagning av en Address (P2PKH) och mottagning av ett multisignatur-signaturskript (P2MS)
+  - Mottagning av en Address (P2PKH) och mottagning av ett skript (P2SH)
+  - Mottagning av en publik nyckel (P2PK) och mottagning av ett skript (P2SH)
+explanation: |
+  Detta var de två typer som användes sedan början av Bitcoin. P2MS-typen blev standard i mars 2012 och P2SH-typen lades till i protokollet i april 2012.
+reviewed: true

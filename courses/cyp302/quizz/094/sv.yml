@@ -1,0 +1,9 @@
+question: Vad är den största källan till förvirring mellan termerna blockchiffer och streamchiffer?
+answer: Blockchiffer uppfattas ibland enbart som algoritmer som använder blocklägen som ECB eller CBC.
+wrong_answers:
+  - Stream ciphers är alltid mindre säkra än block ciphers.
+  - Blockchiffer arbetar med en bit i taget.
+  - Stream ciphers kräver alltid utfyllnad.
+explanation: |
+  Förvirringen beror på att vissa anser att blockchiffer endast är algoritmer som använder specifika blockeringslägen, medan de i själva verket kan omfatta krypteringsscheman som OFB-läget.
+reviewed: false

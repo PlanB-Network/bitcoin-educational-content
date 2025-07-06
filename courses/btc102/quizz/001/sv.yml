@@ -1,0 +1,9 @@
+question: Vad ska du göra för att identifiera ett phishing-försök i kryptosektorn?
+answer: Verifiera avsändarens identitet
+wrong_answers:
+  - Klicka bara på länkar som du fått i e-postmeddelandet
+  - Dela dina privata nycklar för att bekräfta äktheten
+  - Förlita dig enbart på logotyper och bilder i e-postmeddelanden
+explanation: |
+  Du bör alltid se till att du interagerar med rätt person och aldrig använda länkar som tillhandahålls i e-postmeddelanden. Gå i stället direkt till webbplatsen manuellt med hjälp av bokmärken i din webbläsare.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hur skapas ett nytt kanaltillstånd efter varje överföring?
+answer: Genom att skapa en ny Commitment Transaction med den uppdaterade fördelningen
+wrong_answers:
+  - Genom att bokföra en On-Chain-transaktion efter varje överföring
+  - Genom att öka kanalens totala kapacitet
+  - Genom att stänga och öppna kanalen igen efter varje transaktion
+explanation: |
+  Varje transaktion inom kanalen uppdaterar kanalens tillstånd med en ny Commitment Transaction, vilket återspeglar den aktuella fördelningen av medel mellan de två deltagarna.
+reviewed: false

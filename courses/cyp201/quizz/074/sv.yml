@@ -1,0 +1,9 @@
+question: Vad betyder indexet /84'/ på djup 1 i en härledningsväg?
+answer: P2WPKH-standarden (SegWit v0)
+wrong_answers:
+  - P2TR-standarden (SegWit v1)
+  - A Bitcoin Testnet valuta
+  - A Bitcoin Mainnet valuta
+explanation: |
+  Indexet /84'/ definieras i BIP84 för att ange användningen av SegWit v0-standarden med P2WPKH-adresser på djup 1 (det som är målet för härledningen).
+reviewed: false

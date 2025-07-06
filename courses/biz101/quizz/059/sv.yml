@@ -1,0 +1,9 @@
+question: Vilka två Wallet-typer beaktas i Starter-profilen?
+answer: Förvarade och icke-förvarade blixtplånböcker
+wrong_answers:
+  - Hot och Cold förvaring Bitcoin plånböcker
+  - Multisig och Bitcoin plånböcker i papper
+  - Hårdvara och hjärna Blixtplånböcker
+explanation: |
+  Starter-profilen använder antingen depåförvaltade eller icke-depåförvaltade Lightning-plånböcker.
+reviewed: false

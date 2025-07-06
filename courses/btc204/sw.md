@@ -407,7 +407,7 @@ Baada ya mfano huu wa kwanza, unapaswa kuwa na ufahamu bora wa maana ya kusoma "
 
 Sasa kwa kuwa umeelewa muundo ni nini, wacha tuendelee kwenye mifano mingine iliyopo.
 
-### Kufagia
+### Sweep transaction
 
 Mtindo huu wa pili una sifa ya matumizi ya UTXO moja kama pembejeo na utengenezaji wa UTXO moja kama pato.
 
@@ -453,7 +453,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa ujumuishaji:
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-Katika Chainalysis, mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
+Katika uchanganuzi wa mnyororo (chain analysis), mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
 
 ![BTC204](assets/fr/039.webp)
 
@@ -499,21 +499,21 @@ Kuna itifaki zingine nyingi zilizo na muundo wao maalum. Kwa mfano, kuna miamala
 
 Shukrani kwa mifumo hii ya miamala, tayari tunaweza kutafsiri kiasi fulani cha maelezo kuhusu muamala fulani. Lakini muundo wa shughuli sio chanzo pekee cha habari kwa uchambuzi. Tunaweza pia kusoma maelezo yake. Maelezo haya ya ndani ndiyo ninapenda kuyaita "Legacy za ndani", na tutayaangalia katika sura inayofuata.
 
-## Legacy wa ndani
+## Mbinu za Ndani za Kubashiri (Internal heuristics)
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-Legacy  wa ndani ni sifa mahususi ambayo tunaitambua ndani ya shughuli yenyewe, bila kuhitaji kuchunguza mazingira yake, na ambayo hutuwezesha kufanya makato. Tofauti na mifumo, ambayo inazingatia miundo ya jumla ya miamala kwa kiwango cha juu, Legacy wa ndani unategemea seti ya data inayoweza kutolewa. Hii ni pamoja na:
+heuristics (Mbinu ya ndani ya kubashiri) ni sifa mahususi tunayobaini ndani ya muamala (transaction) wenyewe, bila kuhitaji kuchunguza mazingira yake ya nje, na ambayo hutuwezesha kufanya makisio. Tofauti na mifumo (patterns), ambayo huzingatia miundo ya jumla ya miamala kwa kiwango cha juu, mbinu ya ndani ya kubashiri hutegemea seti ya data inayoweza kutolewa moja kwa moja. Hii inajumuisha:
 
 
 - Kiasi cha UTXO mbalimbali ndani na nje;
 - Kila kitu cha kufanya na hati:  address za mapokezi, matoleo, muda wa kufunga..
 
-Kwa ujumla, aina hii ya Legacy  itatuwezesha kutambua Ubadilishanaji katika shughuli mahususi. Kwa kufanya hivyo, basi tunaweza kuendeleza ufuatiliaji wa huluki juu ya miamala kadhaa tofauti. Hakika, ikiwa tutatambua UTXO mali ya mtumiaji tunayetaka kufuatilia, ni muhimu kubainisha, anapofanya shughuli ya ununuzi, ni matokeo gani yamehamishiwa kwa mtumiaji mwingine na ni matokeo gani yanawakilisha Ubadilishanaji, ambayo kwa hivyo inabaki mikononi mwake.
+Kwa ujumla, aina hii ya mbinu ya ndani ya kubashiri itatuwezesha kutambua ubadilishanaji katika muamala mahususi. Kwa kufanya hivyo, tunaweza kuendeleza ufuatiliaji wa huluki juu ya miamala kadhaa tofauti. Hakika, ikiwa tutatambua UTXO inayomilikiwa na mtumiaji tunayetaka kufuatilia, ni muhimu kubaini ni toleo gani, wakati wa muamala wa ununuzi, limehamishiwa kwa mtumiaji mwingine, na ni toleo gani linalowakilisha ubadilishanaji, ambalo kwa hivyo linabaki mikononi mwake kwa kutumia heuristics
 
 ![BTC204](assets/fr/044.webp)
 
-Kwa mara nyingine tena, wacha nikukumbushe kwamba Legacy hii sio sahihi kabisa. Zikichukuliwa kibinafsi, hutuwezesha tu kutambua hali zinazowezekana. Ni mkusanyiko wa Legacy kadhaa ambazo husaidia Kuna itifaki zingine nyingi zilizo na muundo wao maalum. Kwa mfano, kuna miamala za Wabisabi, miamala ya Stempu na miamala ya Runes. kutokuwa na uhakika, bila kuwa na uwezo wa kuiondoa kabisa.
+Kwa mara nyingine tena, wacha nikukumbushe kwamba heuristics hizi si sahihi kabisa. Zikitazamwa kila moja peke yake, hutuwezesha tu kutambua hali zinazowezekana. Ni mkusanyiko wa heuristics kadhaa ndio unaosaidia kutoa makisio yanayofaa. Kuna itifaki nyingine nyingi zilizo na miundo yao maalum. Kwa mfano, kuna miamala ya Wabisabi, miamala ya Stempu, na miamala ya Runes. Bado kuna hali ya kutokuwa na uhakika, bila uwezo wa kuiondoa kabisa.
 
 ### Kufanana kwa ndani
 

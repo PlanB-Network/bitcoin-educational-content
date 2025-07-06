@@ -13,7 +13,7 @@ description: Sanidi kompyuta kwa shughuli za Bitcoin
 Unapofanya miamala ya Bitcoin, ni bora ikiwa kompyuta yako haina programu hasidi. Ni wazi.
 
 
-Ikiwa utaweka maneno yako ya Bitcoin seed (kwa kawaida maneno 12 au 24) kwenye kompyuta na kifaa cha kusaini (kwa mfano, Hardware Wallet - kusudi lake kuu), basi unaweza kufikiri sio muhimu kuwa na kompyuta "safi" - si kweli.
+Iwapo utahifadhi Bitcoin seed phrase yako (ambayo kawaida huwa maneno 12 au 24) nje ya kompyuta kwa kutumia signing device (kama vile hardware wallet – ambalo ndilo kusudi lake kuu), unaweza kudhani kwamba si muhimu sana kuwa na kompyuta “safi” – si kweli.
 
 
 Kompyuta iliyoathiriwa na programu hasidi inaweza kusoma anwani zako za Bitcoin, ikionyesha salio lako kwa mshambulizi - haiwezi kuchukua Bitcoin kutokana tu na kujua Address, lakini inaweza kuona ni kiasi gani unacho, na kuhesabu kutokana na hilo ikiwa unalengwa unastahili. Wanaweza pia kusuluhisha mahali unapoishi, kwa mfano, na kung'oa kucha au watoto kutoka kwako ili kukufanya ulipe fidia.

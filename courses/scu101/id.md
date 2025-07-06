@@ -278,19 +278,21 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 ### Membuat akun email baru!
 
-Akun email merupakan pusat dari aktivitas online Anda: jika akun tersebut memiliki celah untuk diserang, peretas dapat menggunakannya untuk mengatur ulang semua kata sandi Anda melalui fungsi "lupa kata sandi" dan mendapatkan akses ke banyak situs lain. Itulah mengapa Anda perlu mengamankannya dengan benar.
+Akun email adalah pusat aktivitas online Anda: jika disusupi, peretas dapat menggunakannya untuk mengatur ulang semua kata sandi Anda melalui fungsi "lupa kata sandi" dan mendapatkan akses ke banyak situs lain. Itulah mengapa Anda perlu mengamankannya dengan benar.
 
-Akun email harus dibuat dengan kata sandi yang unik dan kuat (detail akan dibahas di bab 7) dan idealnya dengan sistem otentikasi dua faktor, 2FA (detail akan dibahas di bab 8).
+Akun email harus dibuat dengan kata sandi yang unik dan kuat (detail di bab 7) dan idealnya dengan sistem autentikasi dua faktor (detail di bab 8).
 
-Meskipun kita semua sudah memiliki akun email, ada baiknya kita mempertimbangkan untuk membuat akun baru yang lebih modern — sebagai permulaan yang lebih tertata dan aman.
+Meskipun kita semua sudah memiliki akun email, penting untuk mempertimbangkan membuat akun baru yang lebih modern untuk memulai dengan aman.
 
 ### Memilih penyedia email dan mengelola alamat email
 
-Pengelolaan alamat email kita sangat penting untuk memastikan keamanan online kita. Penting untuk memilih penyedia email yang aman dan mengedepankan privasi. Sebagai contoh, ProtonMail adalah layanan email yang aman dan menitikberatkan privasi pengguna.
-![](assets/notext/15.webp)
-Saat Anda memilih penyedia email dan membuat kata sandi, penting untuk tidak pernah menggunakan kata sandi yang sama untuk layanan online yang berbeda. Anda juga disarankan untuk secara rutin membuat alamat email baru dan memisahkan penggunaan dengan menggunakan alamat email yang berbeda. Lebih baik juga untuk memilih layanan email yang aman untuk akun yang sangat penting. Juga perlu diperhatikan bahwa beberapa layanan membatasi panjang kata sandi. Ada juga layanan yang tersedia untuk membuat alamat email sementara, yang dapat digunakan untuk akun email dengan jangka waktu terbatas.
+Pengelolaan alamat email yang tepat sangat penting untuk menjaga keamanan akses online kita. Penting untuk memilih penyedia layanan email yang aman dan menghormati privasi. Sebagai contoh, ProtonMail adalah layanan email yang aman dan menghargai privasi.
 
-Penting juga untuk mempertimbangkan menggunakan penyedia email lama seperti La Poste, Arobase, Wig, Hotmail, yang masih digunakan sampai hari ini, tetapi tingkat keamanan mereka mungkin tidak sebaik Gmail. Oleh karena itu, disarankan untuk memiliki dua alamat email terpisah, satu untuk penggunaan sehari-hari dan yang lainnya untuk pemulihan akun dengan tingkat keamanan yang lebih tinggi. Sebaiknya hindari menghubungkan alamat email dengan operator telepon atau penyedia layanan internet Anda, karena ini bisa menjadi titik serangan.
+![](assets/notext/15.webp)
+
+Saat memilih penyedia email dan membuat kata sandi, sangat penting untuk tidak pernah menggunakan kata sandi yang sama untuk layanan online yang berbeda. Disarankan untuk secara rutin membuat alamat email baru dan menggunakannya untuk berbagai keperluan. Sebaiknya gunakan layanan email yang aman untuk akun-akun penting Anda. Perlu dicatat juga bahwa beberapa layanan membatasi panjang kata sandi, jadi penting untuk mengetahui batasan ini. Tersedia juga layanan untuk membuat alamat email sementara, yang bisa digunakan untuk akun dengan durasi terbatas.
+
+Sebagai informasi, penyedia email lama seperti La Poste, Arobase, Wig, dan Hotmail masih digunakan, tetapi praktik keamanannya mungkin tidak sekuat Gmail. Oleh karena itu, disarankan untuk memiliki dua alamat email terpisah: satu untuk komunikasi umum atau penggunaan sehari-hari dan yang lainnya untuk pemulihan akun, di mana yang terakhir harus lebih aman. Sebaiknya hindari mencampurkan alamat email Anda dengan operator telepon atau penyedia layanan internet Anda, karena ini bisa menjadi titik serangan.
 
 ### Apakah saya harus mengganti akun email saya?
 

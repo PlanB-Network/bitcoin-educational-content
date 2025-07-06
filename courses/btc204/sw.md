@@ -1117,24 +1117,24 @@ Utumiaji tena wa  address ni matumizi ya address sawa inayopokea ili kuzuia UTXO
 
 Kama tulivyoona katika sehemu iliyotangulia, kila UTXO ina ScriptPubKey yake yenyewe, ambayo huifunga na lazima itimizwe ili UTXO hiyo itumike kama ingizo katika muamala mpya. Ndani ya ScriptPubKey hii ndipo mahali ambapo address (payload) hujumuishwa.
 
-Wakati ScriptPubKeys tofauti ina Anwani (address) inayopokea sawa, hii inaitwa utumiaji tena wa Anwani (address). Kwa mazoezi, hii ina maana kwamba mtumiaji ametoa mara kwa mara Anwani (address) sawa kwa watumaji ili kupokea bitcoins kupitia malipo mengi. Na ni desturi hii haswa ambayo ni mbaya kwa faragha yako.
+Wakati ScriptPubKeys tofauti zina Address inayopokea sawa, hili huitwa utumiaji tena wa Address. Kwa mazoezi, hii inamaanisha kwamba mtumiaji ametoa mara kwa mara Address ile ile kwa watumaji ili kupokea bitcoins kupitia malipo mengi. Na ni desturi hii hasa ambayo ni hatari kwa faragha yako.
 
 ### Kwa nini kutumia Anwani (address) ni tatizo?
 
-Kwa kuwa Kuzuia Mnyororo ni wa umma, ni rahisi kuona ni Anwani (address) zipi zimefunga UTXO na bitcoins ngapi. Ikiwa Anwani (address) sawa inatumiwa kwa shughuli kadhaa, inakuwa inawezekana kutambua kwamba bitcoins zote zinazohusiana na Anwani (address) hiyo ni za mtu mmoja. Mazoezi haya yanahatarisha faragha ya mtumiaji kwa kuwezesha viungo vya kuamua kuanzishwa kati ya miamala tofauti na bitcoins kufuatiliwa kwenye Kuzuia mnyororo. Satoshi Nakamoto mwenyewe tayari ameangazia tatizo hili kwenye Karatasi Nyeupe ya Bitcoin:
+Kwa kuwa blockchain ni ya umma, ni rahisi kuona ni Address zipi zimefunga UTXO na bitcoins ngapi. Ikiwa Address ile ile inatumiwa kwa miamala kadhaa, inakuwa inawezekana kutambua kwamba bitcoins zote zinazohusiana na Address hiyo ni za mtu mmoja. Mazoezi haya yanahatarisha faragha ya mtumiaji kwa kuwezesha kuanzishwa kwa viungo vya kitambulisho kati ya miamala tofauti na kufanya iwe rahisi kufuatilia bitcoins kwenye blockchain. Satoshi Nakamoto mwenyewe tayari ameangazia tatizo hili katika Karatasi Nyeupe ya Bitcoin:
 
-> *Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila shughuli ili kuwatenganisha na mmiliki wa kawaida*
+> *Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila muamala ili kuwatenganisha na mmiliki wa kawaida*
 ![BTC204](assets/fr/055.webp)
 
 Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
-Kusudi la Satoshi katika sentensi hii ilikuwa kuunda ngome ya ziada ikiwa kuna uhusiano kati ya utambulisho wa mtumiaji na jozi muhimu kwenye Bitcoin, ili kuzuia shughuli yake yote isihusishwe hadharani na utambulisho wake. Leo, pamoja na kuongezeka kwa kampuni za uchanganuzi za Kuzuia mnyororo na kanuni za KYC, utumiaji wa Anwani (address) za kipekee sio "ngozo ya ziada", lakini ni mazoezi ya lazima kwa mtu yeyote anayetaka kuhifadhi kiwango cha chini cha faragha.
+Kusudi la Satoshi katika sentensi hii ilikuwa kuunda ngome ya ziada ikiwa kuna uhusiano kati ya utambulisho wa mtumiaji na jozi muhimu kwenye Bitcoin, ili kuzuia miamala yake yote isihusishwe hadharani na utambulisho wake. Leo, pamoja na kuongezeka kwa kampuni za uchanganuzi za blockchain na kanuni za KYC, utumiaji wa address za kipekee sio "ngozo ya ziada", lakini ni mazoezi ya lazima kwa mtu yeyote anayetaka kuhifadhi kiwango cha chini cha faragha.
 
-Unapotumia tena Anwani (address), unatengeneza kiunganishi kisichopingika kati ya miamala yote inayohusishwa na hiyo Anwani (address). Ingawa hii haihatarishi pesa zako moja kwa moja, kwa vile usimbaji fiche wa mchirizo mduara huhakikisha usalama wa funguo zako za faragha, hurahisisha kufuatilia shughuli zako. Hakika, mtu yeyote aliye na nodi anaweza kuchunguza miamala na salio za Anwani (address), hivyo kuhatarisha kabisa kutokujulikana kwako.
+Unapotumia tena address, unatengeneza kiunganishi kisichopingika kati ya miamala yote inayohusishwa na hiyo address. Ingawa hii haihatarishi pesa zako moja kwa moja, kwa vile cryptography ya mchirizo mduara huhakikisha usalama wa funguo zako za faragha, hurahisisha kufuatilia miamala yako. Hakika, mtu yeyote aliye na nodi anaweza kuchunguza miamala na salio za address, hivyo kuhatarisha kabisa kutokujulikana kwako.
 
 ![BTC204](assets/fr/054.webp)
 
-Ili kuonyesha jambo hili, hebu tuchukue mfano wa Bob, mtumiaji ambaye mara kwa mara hununua bitcoins kwa kiasi kidogo katika DCA na daima huwatuma kwa Anwani (address) sawa. Baada ya miaka miwili, Anwani (address) hii ina kiasi kikubwa cha bitcoins. Iwapo Bob atatumia Anwani (address) hii kufanya malipo kwa mfanyabiashara wa ndani, mfanyabiashara huyo ataweza kuona pesa zote zinazohusiana na kukisia utajiri wa Bob. Hii inaweza kusababisha hatari za usalama wa kibinafsi, kama vile jaribio la wizi au unyang'anyi. Ikiwa Bob angetumia Anwani (address) tupu kupokea kila ununuzi wa mara kwa mara, angefichua maelezo machache sana kwa mfanyabiashara wake.
+Ili kuonyesha jambo hili, hebu tuchukue mfano wa Bob, mtumiaji ambaye mara kwa mara hununua bitcoins kwa kiasi kidogo katika DCA na daima huwatuma kwa address sawa. Baada ya miaka miwili, address hii ina kiasi kikubwa cha bitcoins. Iwapo Bob atatumia address hii kufanya malipo kwa mfanyabiashara wa ndani, mfanyabiashara huyo ataweza kuona pesa zote zinazohusiana na kukisia utajiri wa Bob. Hii inaweza kusababisha hatari za usalama wa kibinafsi, kama vile jaribio la wizi au unyang'anyi. Ikiwa Bob angetumia  (address) tupu kupokea kila ununuzi wa mara kwa mara, angefichua maelezo machache sana kwa mfanyabiashara wake.
 
 Katika uchanganuzi wa kamba, kuna aina 2 za utumiaji wa Anwani (address):
 
@@ -1142,14 +1142,13 @@ Katika uchanganuzi wa kamba, kuna aina 2 za utumiaji wa Anwani (address):
 - Utumiaji tena wa nje;
 - Utumiaji tena wa ndani ndani ya muamala.
 
-Ya kwanza ni wakati Anwani (address) inatumiwa tena katika shughuli mbalimbali za Bitcoin. Hili ndilo tulilozungumzia hapo awali: utabiri huu unabainisha kuwa UTXO zote zilizopitishwa kupitia Anwani (address) hizi ni za chombo kimoja.
+Ya kwanza ni wakati Address inatumiwa tena katika miamala mbalimbali ya Bitcoin. Hili ndilo tulilozungumzia hapo awali: mbinu hii ya kiheuristic hubaini kuwa UTXO zote zilizopitishwa kupitia Address hizi zinamilikiwa na huluki moja.
 
-Utumiaji tena wa ndani wa Anwani (address) haufanyiki wakati utumiaji tena unatokea katika shughuli nyingi za malipo, lakini inapotokea ndani ya muamala mmoja. Kwa hakika, ikiwa Anwani (address) ile ile iliyotumiwa kufunga ingizo inatumika kama matokeo ya muamala, basi tunaweza kukisia kwamba pato hili bado ni la mtumiaji yule yule (ubadilishanaji), na kwamba pato la pili linawakilisha malipo halisi. Hii nyingine ya Legacy (Urithi) inafanya uwezekano wa kuendeleza ufuatiliaji wa fedha juu ya shughuli kadhaa.
+Utumiaji tena wa ndani wa Address hautokei wakati Address inatumiwa katika miamala mingi tofauti, bali unapotokea ndani ya muamala mmoja. Kwa mfano, ikiwa Address ile ile iliyotumika kwenye ingizo pia inaonekana kama toleo katika muamala huo huo, basi tunaweza kudhania kuwa toleo hilo linawakilisha Ubadilishanaji, na kwamba toleo lingine ndilo linalowakilisha malipo. Mbinu hii ya kiheuristic huwezesha mfuatiliaji kufuatilia umiliki wa bitcoins kwenye mlolongo wa miamala mfululizo.
 
 ![BTC204](assets/fr/045.webp)
 
-Kutumia tena Anwani (address) ni janga la kweli kwenye Bitcoin. Kulingana na tovuti ya OXT.me (haipatikani kwa sasa), kiwango cha jumla cha matumizi ya Anwani (address) kwenye Bitcoin kilikuwa karibu 52% mwaka wa 2022:
-
+Kutumia tena Address ni janga halisi kwenye Bitcoin. Kulingana na tovuti ya OXT.me (ambayo kwa sasa haipatikani), kiwango cha jumla cha matumizi ya Address kwenye Bitcoin kilifikia takriban 52% mnamo mwaka wa 2022:
 ![BTC204](assets/fr/069.webp)
 
 Kiwango hiki ni kikubwa, lakini kinakuja kwa wingi kutoka kwa majukwaa ya Ubadilishanaji badala ya watumiaji binafsi.

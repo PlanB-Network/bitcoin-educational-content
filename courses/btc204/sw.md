@@ -523,7 +523,7 @@ Kipengele dhahiri zaidi ni utumiaji tena wa Anwani (address) inayopokea katika s
 
 ![BTC204](assets/fr/045.webp)
 
-Legacy (Urithi) huu unaacha nafasi ndogo ya shaka. Isipokuwa ufunguo wake wa faragha umedukuliwa, kupokea Anwani (address) sawa kunaonyesha shughuli ya mtumiaji mmoja. Tafsiri inayotokana ni kwamba shughuli ya Ubadilishanaji ndiyo pato iliyo na Anwani (address) sawa na ingizo. Kisha tunaweza kuendelea kufuatilia mtu binafsi kutoka kwa Ubadilishanaji huu.
+Heuristics hii inaacha nafasi ndogo ya shaka. Isipokuwa ufunguo wake wa faragha umedukuliwa, kupokea Address sawa kunaonyesha muamala wa mtumiaji mmoja. Tafsiri inayotokana ni kwamba muamala wa ubadilishanaji ndiyo toleo lenye Address sawa na ingizo. Kisha tunaweza kuendelea kufuatilia mtu binafsi kutoka kwa ubadilishanaji huu.
 
 Kwa mfano, hapa kuna shughuli ambayo utabiri huu unaweza kutumika:
 
@@ -535,13 +535,13 @@ Kwa mfano, hapa kuna shughuli ambayo utabiri huu unaweza kutumika:
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
-Usawa huu kati ya pembejeo na matokeo hauishii katika utumiaji tena wa Anwani (address). Ulinganifu wowote katika matumizi ya hati unaweza kutumika kutumia Legacy (Urithi). Kwa mfano, wakati mwingine tunaweza kuona toleo sawa kati ya ingizo na moja ya matokeo ya muamala.
+Usawa huu kati ya pembejeo na matokeo hauishii katika utumiaji tena wa Address. Ulinganifu wowote katika matumizi ya hati unaweza kutumika kutumia heuristics. Kwa mfano, wakati mwingine tunaweza kuona toleo sawa kati ya ingizo na moja ya matokeo ya muamala.
 
 ![BTC204](assets/fr/047.webp)
 
-Kwenye mchoro huu, tunaweza kuona kwamba ingizo n° 0 inafungua hati ya P2WPKH (SegWit V0 inayoanza na `bc1q`). Pato n° 0 hutumia aina sawa ya hati. Pato n° 1, kwa upande mwingine, hutumia hati ya P2TR (SegWit V1 inayoanza na `bc1p`). Ufafanuzi wa kipengele hiki ni kwamba kuna uwezekano kuwa Anwani (address) yenye toleo sawa na ingizo ni Anwani (address) ya Ubadilishanaji. Kwa hivyo itakuwa ya mtumiaji sawa kila wakati.
+Kwenye mchoro huu, tunaweza kuona kwamba ingizo n° 0 inafungua hati ya P2WPKH (SegWit V0 inayoanza na `bc1q`). Toleo n° 0 hutumia aina sawa ya hati. Toleo n° 1, kwa upande mwingine, hutumia hati ya P2TR (SegWit V1 inayoanza na `bc1p`). Ufafanuzi wa kipengele hiki ni kwamba kuna uwezekano kuwa Address yenye toleo sawa na ingizo ni Address ya ubadilishanaji. Kwa hivyo itakuwa ya mtumiaji yuleyule kila wakati.
 
-Hapa kuna shughuli ambayo Legacy (Urithi) huu labda unaweza kutumika:
+Hapa kuna muamala ambao heuristics hii labda inaweza kutumika:
 
 ```plaintext
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
@@ -551,21 +551,21 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
-Kwa mwisho, tunaweza kuona kwamba pembejeo hakuna. 0 na pato nambari. 1 tumia hati za P2WPKH (SegWit V0), wakati pato nambari. 0 hutumia hati tofauti ya P2PKH (Legacy (Urithi)).
+Kwa mwisho, tunaweza kuona kwamba pembejeo hakuna. 0 na pato nambari. 1 tumia hati za P2WPKH (SegWit V0), wakati pato nambari. 0 hutumia hati tofauti ya P2PKH Legacy.
 
-Mwanzoni mwa miaka ya 2010, utabiri huu unaotokana na uchapishaji wa hati haukuwa na manufaa kwa sababu ya aina chache za hati zinazopatikana. Hata hivyo, baada ya muda na kwa sasisho zinazofuatana za Bitcoin, aina mbalimbali za hati zimeanzishwa. Kwa hivyo, Legacy (Urithi) huu unazidi kuwa muhimu, kwani kwa anuwai ya aina za hati, watumiaji hugawanyika katika vikundi vidogo, na hivyo kuongeza uwezekano wa kutumia toleo hili la ndani tumia tena utabiri. Kwa sababu hii, kwa mtazamo wa usiri pekee, inashauriwa kuchagua aina ya kawaida ya hati. Kwa mfano, ninapoandika mistari hii, hati za mzizi bomba (`bc1p`) hazitumiwi mara kwa mara kuliko hati za SegWit V0 (`bc1q`). Ingawa ya awali hutoa manufaa ya kiuchumi na usiri katika miktadha fulani mahususi, kwa matumizi zaidi ya kitamaduni ya sahihi moja, inaweza kuwa na maana kuambatana na kiwango cha zamani kwa sababu za usiri, hadi kiwango kipya kitakapopitishwa kwa upana zaidi.
+Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haikuwa na msaada mkubwa kutokana na aina chache za script zilizokuwepo. Hata hivyo, kadri muda ulivyopita na masasisho mfululizo ya Bitcoin yalivyotekelezwa, utofauti wa aina za script umeongezeka. Kwa hivyo, heuristics hii inazidi kuwa muhimu, kwani kadri aina za script zinavyoongezeka, watumiaji wanagawanyika katika makundi madogo zaidi, jambo linaloongeza uwezekano wa kutumia heuristics hii ya ndani ya kutumia tena toleo la script.Kwa sababu hii, kwa mtazamo wa faragha pekee, inashauriwa kuchagua aina ya script inayotumika sana. Kwa mfano, ninapoandika mistari hii, script za Taproot (`bc1p`) zinatumika kwa nadra zaidi kuliko script za SegWit V0 (`bc1q`). Ingawa za kwanza hutoa faida za kiuchumi na faragha katika hali mahususi, kwa matumizi ya kawaida ya saini moja, huenda ikaeleweka zaidi kushikilia kiwango cha zamani kwa sababu za faragha, hadi kiwango kipya kitapokubalika zaidi.
+
 
 ### Malipo ya nambari ya pande zote
 
-Utabiri mwingine wa ndani ambao unaweza kutusaidia kutambua Ubadiliahanaji ni nambari ya mzunguko wa Legacy (Urithi). Kwa ujumla, unapokabiliwa na muundo rahisi wa malipo (ingizo 1 na matokeo 2), ikiwa moja ya matokeo yanatumia kiasi cha mzunguko, basi hii inawakilisha malipo.
+Utabiri mwingine wa ndani ambao unaweza kutusaidia kutambua ubadilishanaji ni nambari ya mzunguko wa heuristics. Kwa ujumla, unapokumbana na muundo rahisi wa malipo (ingizo 1 na matokeo 2), ikiwa mojawapo ya matokeo yanatumia kiasi cha mzunguko, basi hii inawakilisha malipo.
 
 ![BTC204](assets/fr/049.webp)
 
 Kwa kuondoa, ikiwa pato moja linawakilisha malipo, lingine linawakilisha Ubadilishanaji. Kwa hivyo inaweza kufasiriwa kuwa kuna uwezekano kuwa mtumiaji wa ingizo huwa anamiliki pato lililotambuliwa kama Ubadilishanaji.
 
-Inapaswa kusisitizwa kuwa Legacy (Urithi) huu hautumiki kila wakati, kwani malipo mengi bado yanafanywa katika vitengo vya uaminifu vya akaunti. Hakika, wakati muuzaji wa rejareja nchini Ufaransa anakubali Bitcoin, kwa ujumla hataonyesha bei thabiti katika Sats. Badala yake, atachagua ubadilishaji kati ya bei katika euro na kiasi cha bitcoins kulipwa. Kwa hivyo kusiwe na nambari za pande zote mwishoni mwa muamala.
-
-Hata hivyo, mchambuzi anaweza kujaribu kufanya ubadilishaji huu kwa kuzingatia kiwango cha Ubadilishanaji kutumika wakati shughuli hiyo ilipotangazwa kwenye mtandao. Hebu tuchukue mfano wa shughuli na ingizo la `97,552 Sats` na matokeo mawili, moja ya `31,085 Sats` na nyingine ya `64,152 Sats`. Kwa mtazamo wa kwanza, muamala huu hauonekani kuhusisha kiasi cha pande zote. Hata hivyo, kwa kutumia kiwango cha ubadilishanaji cha €64,339 wakati wa muamala, tunapata ubadilishaji kuwa euro kama ifuatavyo:
+Inapaswa kusisitizwa kuwa heuristics hii haitumiki kila wakati, kwani malipo mengi bado hufanywa kwa kutumia vitengo vya sarafu vya fiat. Hakika, wakati muuzaji wa rejareja nchini Ufaransa anakubali Bitcoin, mara nyingi hataonyesha bei thabiti katika Sats. Badala yake, atachagua kubadilisha kati ya bei ya euro na kiasi cha bitcoins cha kulipwa. Kwa hivyo, si lazima kuwe na nambari za pande zote mwishoni mwa muamala.
+Hata hivyo, mchambuzi anaweza kujaribu kufanya ubadilishaji huu kwa kuzingatia kiwango cha ubadilishanaji kilichotumika wakati muamala huo ulipotangazwa kwenye mtandao. Hebu tuchukue mfano wa muamala wenye ingizo la `97,552 Sats` na matokeo mawili, moja ya `31,085 Sats` na jingine la `64,152 Sats`. Kwa mtazamo wa kwanza, muamala huu hauonekani kuhusisha kiasi cha pande zote. Hata hivyo, kwa kutumia kiwango cha ubadilishanaji cha €64,339 wakati wa muamala, tunapata ubadilishaji kuwa euro kama ifuatavyo:
 
 
 - Pembejeo ya €62.76;
@@ -590,15 +590,15 @@ Chanzo : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d
 
 ### Pato kubwa zaidi
 
-Tunapotambua pengo kubwa la kutosha kati ya matokeo 2 ya malipo kwenye muundo rahisi wa malipo, tunaweza kukadiria kuwa pato kubwa zaidi linaweza kuwa Ubadilishanaji wa kigeni.
+Tunapobaini pengo kubwa la kutosha kati ya matoleo mawili ya muamala katika muundo rahisi wa malipo, tunaweza kukadiria kuwa toleo kubwa zaidi huenda linawakilisha ubadilishanaji (foreign exchange).
 
 ![BTC204](assets/fr/052.webp)
 
-Hii kubwa pato Legacy (Urithi) ni hakika isiyo sahihi zaidi ya yote. Kwa peke yake, ni dhaifu sana. Hata hivyo, kipengele hiki kinaweza kuunganishwa na Legacy (Urithi) mwingine ili kupunguza kutokuwa na uhakika wa tafsiri yetu.
+Heuristics ya toleo kubwa zaidi bila shaka ndiyo isiyo sahihi zaidi kati ya zote. Ikiwa peke yake, si thabiti sana. Hata hivyo, kipengele hiki kinaweza kuunganishwa na heuristics nyingine ili kupunguza hali ya kutokuwa na uhakika katika tafsiri yetu.
 
-Kwa mfano, ikiwa tunaangalia muamala wenye malipo ya pande zote na malipo makubwa zaidi, kutumia utaratibu wa malipo ya pande zote na kiasi kikubwa cha malipo kwa pamoja hupunguza kiwango chetu cha kutokuwa na uhakika.
+Kwa mfano, ikiwa tunatazama muamala wenye malipo ya nambari kamili na malipo makubwa zaidi, kutumia heuristics ya malipo ya nambari kamili pamoja na heuristics ya malipo makubwa zaidi hupunguza kiwango chetu cha kutokuwa na uhakika.
 
-Kwa mfano, hapa kuna shughuli ambayo utabiri huu unaweza kutumika:
+Kwa mfano, hapa kuna muamala ambao heuristics hii huenda inaweza kutumika:
 
 ```plaintext
 b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
@@ -608,31 +608,32 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
-## Legacy (Urithi) wa nje
+## Mbinu za Nje za Kubashiri (External heuristics)
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
-Utafiti wa Legacy (Urithi) wa nje unamaanisha kuchanganua mfanano, ruwaza na sifa za Vipengele fulani ambavyo si mahususi kwa shughuli yenyewe. Kwa maneno mengine, ingawa hapo awali tulijiwekea kikomo kwa kutumia Vipengele asilia kwa shughuli na utabiri wa ndani, sasa tunapanua uwanja wetu wa uchanganuzi ili kujumuisha mazingira ya shughuli hiyo, shukrani kwa utabiri wa nje.
+Utafiti wa heuristics za nje unamaanisha kuchanganua mfanano, ruwaza na sifa za vipengele fulani ambavyo si mahususi kwa muamala wenyewe. Kwa maneno mengine, ingawa hapo awali tulijiwekea kikomo kwa kutumia vipengele asilia vya muamala na heuristics za ndani, sasa tunapanua uwanja wetu wa uchanganuzi ili kujumuisha mazingira ya muamala huo, shukrani kwa heuristics za nje.
 
 ### kutumia tena Anwani (address)
 
-Hii ni moja ya utabiri wa bitcoiners' unaojulikana zaidi. Utumiaji upya wa Anwani (address) huwezesha kuanzisha kiunganishi kati ya shughuli tofauti za malipo na UTXO tofauti. Inatokea wakati Bitcoin inayopokea Anwani (address) inatumiwa mara kadhaa.
+Hii ni moja ya utabiri wa bitcoiners' unaojulikana zaidi. Utumiaji upya wa Anwani (address) huwezesha kuanzisha kiunganishi kati ya shughuli tofauti za malipo na UTXO tofauti. Inatokea wakati Bitcoin inayopokea address inatumiwa mara kadhaa.
 
-Kwa hivyo, inawezekana kutumia tena matumizi ya Anwani (address) ndani ya shughuli sawa na Legacy (Urithi) wa ndani ili kutambua Ubadilishanaji (kama tulivyoona katika sura iliyotangulia). Lakini utumiaji upya wa Anwani (address) pia unaweza kutumika kama mbinu ya nje kutambua upekee wa huluki nyuma ya miamala kadhaa.
+Kwa hivyo, inawezekana kutumia tena matumizi ya address ndani ya muamala huo huo kama heuristics ya ndani ili kutambua ubadilishanaji (kama tulivyoona katika sura iliyotangulia). Lakini utumiaji tena wa address pia unaweza kutumika kama heuristics ya nje kutambua upekee wa huluki iliyo nyuma ya miamala kadhaa.
 
-Tafsiri ya matumizi tena ya Anwani (address) ni kwamba UTXO zote zilizozuiwa kwenye Anwani (address) hiyo ni za (au zinamilikiwa) na huluki moja. Legacy (Urithi) huu unaacha nafasi ndogo ya kutokuwa na uhakika. Baada ya kutambuliwa, tafsiri inayotokana inaweza kuendana na ukweli. Kwa hivyo inawezesha uwekaji kambi wa shughuli tofauti za onchain.
+Tafsiri ya matumizi tena ya Address ni kwamba UTXO zote zilizozuiwa kwenye Address hiyo ni mali ya (au zilimilikiwa na) huluki moja. Heuristics hii huacha nafasi ndogo ya kutokuwa na uhakika. Baada ya kutambuliwa, tafsiri inayotokana huenda ikaendana na hali halisi. Kwa hivyo, heuristics hii huwezesha kuunganishwa kwa shughuli tofauti za onchain.
 
 ![BTC204](assets/fr/054.webp)
 
 Kama ilivyoelezwa katika utangulizi wa Sehemu ya 3, utabiri huu uligunduliwa na Satoshi Nakamoto mwenyewe. Katika Karatasi Nyeupe, anataja suluhisho la kuwasaidia watumiaji kuepuka kuizalisha, ambayo ni kutumia tu Anwani (address) tupu kwa kila shughuli mpya:
 
-"_Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila shughuli ili kuwaweka bila kuunganishwa na mmiliki wa kawaida._"
+"_Kama ukuta wa ziada wa ulinzi, jozi mpya ya funguo inaweza kutumika kwa kila muamala ili kuhakikisha kuwa haziwezi kuhusishwa na mmiliki mmoja wa pamoja._"
+
 
 ![BTC204](assets/fr/055.webp)
 
 Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
-Kwa mfano, hapa kuna Anwani (address) ambayo inatumika tena katika shughuli kadhaa:
+Kwa mfano, hapa kuna address ambayo inatumika tena katika shughuli kadhaa:
 
 ```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
@@ -642,29 +643,29 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 
 Chanzo : [Mempool.space](https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
-### Kufanana kwa hati na alama za Pochi
+### Kufanana kwa hati na alama za wallet
 
-Mbali na kutumia tena Anwani (address), kuna Legacy (Urithi) mwingine mwingi unaokuwezesha kuunganisha vitendo kwingineko sawa au nguzo ya Anwani (address).
+Mbali na utumiaji tena wa address, kuna heuristics nyingine nyingi zinazowezesha kuunganisha matendo tofauti na pochi ile ile au kundi la address zinazohusiana.
 
-Kwanza, mchambuzi anaweza kutafuta kufanana katika matumizi ya hati. Kwa mfano, hati fulani za wachache kama vile Sahihi nyingi zinaweza kuwa rahisi kuona kuliko hati za SegWit V0. Kadiri kikundi tunachojificha kikiwa kikubwa, ndivyo inavyokuwa vigumu kututambua. Hii ni moja ya sababu kwa nini, kwenye itifaki nzuri za SCoinjoin (arafu ya kujiunga), washiriki wote hutumia aina sawa ya hati.
+Kwanza, mchambuzi anaweza kutafuta kufanana katika matumizi ya *script*. Kwa mfano, *script* zisizo za kawaida kama *multisig* huenda zikawa rahisi zaidi kugunduliwa kuliko *script* za *SegWit V0*. Kadri kundi tunalojificha ndani yake linavyokuwa kubwa, ndivyo inavyokuwa vigumu zaidi kututambua. Hii ndiyo mojawapo ya sababu kwa nini, kwenye itifaki nzuri za *CoinJoin*, washiriki wote hutumia aina ile ile ya *script*.
 
 Kwa ujumla zaidi, mchambuzi pia anaweza kuzingatia alama za vidole za kwingineko. Hizi ni michakato mahususi ya utumiaji ambayo inaweza kutambuliwa kwa nia ya kuzitumia kama ufuatiliaji wa uvumbuzi. Kwa maneno mengine, ikiwa tutaona mkusanyiko wa sifa zile zile za ndani kwenye miamala inayohusishwa na huluki iliyofuatiliwa, tunaweza kujaribu kutambua sifa hizi kwenye miamala mingine.
 
-Kwa mfano, tutaweza kutambua kwamba mtumiaji aliyefuatiliwa anatuma mabadiliko yake kwa Anwani (address) za P2TR (`bc1p...`) kwa utaratibu. Mchakato huu ukirudiwa, tunaweza kuutumia kama utabiri kwa uchanganuzi wetu wote. Tunaweza pia kutumia alama za vidole zingine, kama vile mpangilio wa UTXOs, mahali pa mabadiliko katika matokeo, kuashiria RBF (Replace-by-fee), au nambari ya toleo, sehemu ya `nSequence` na sehemu ya `nLockTime`.
+Kwa mfano, tutaweza kubaini kuwa mtumiaji tunayemfuatilia hutuma *change* yake mara kwa mara kwenye anuani za *P2TR* (`bc1p...`). Ikiwa mchakato huu utarudiwa, tunaweza kuutumia kama *heuristic* katika uchambuzi wetu wote. Tunaweza pia kutumia *fingerprints* nyingine, kama vile mpangilio wa *UTXOs*, nafasi ya *change* kwenye *outputs*, ishara ya *RBF (Replace-by-Fee)*, au nambari ya toleo (*version number*), sehemu ya `nSequence`, na sehemu ya `nLockTime`.
 
 ![BTC204](assets/fr/057.webp)
 
-Kama [@LaurentMT](https://twitter.com/LaurentMT) anavyoonyesha katika [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-ea podcast ya Kifaransa-muhimu) alama za vidole katika uchanganuzi wa minyororo inaongezeka kwa kiasi kikubwa baada ya muda. Kwa hakika, idadi inayoongezeka ya aina za hati na utumaji unaoendelea wa vipengele hivi vipya na programu ya kwingineko unasisitiza tofauti. Katika baadhi ya matukio, inawezekana hata kutambua programu halisi inayotumiwa na chombo kinachofuatiliwa. Kwa hivyo ni muhimu kuelewa kwamba utafiti wa nyayo za kwingineko unafaa haswa kwa shughuli za hivi majuzi, badala ya zile zilizoanzishwa mapema miaka ya 2010.
+Kama [@LaurentMT](https://twitter.com/LaurentMT) anavyoonyesha katika [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-ea)—*podcast* ya Kifaransa muhimu—alama za vidole katika uchanganuzi wa mnyororo huongezeka kwa kiasi kikubwa kadri muda unavyopita. Kwa hakika, idadi inayoongezeka ya aina za *script* na utumaji unaoendelea wa *elements* hizi mpya pamoja na programu za pochi mbalimbali husisitiza tofauti hizo. Katika baadhi ya matukio, inawezekana hata kutambua programu halisi inayotumiwa na chombo kinachofuatiliwa. Kwa hivyo, ni muhimu kuelewa kwamba utafiti wa nyayo za kwingineko unafaa zaidi kwa shughuli za hivi karibuni, badala ya zile zilizoanzishwa mapema miaka ya 2010.
 
-Kwa muhtasari, alama ya miguu inaweza kuwa mazoezi yoyote mahususi, yanayofanywa kiotomatiki na Pochi au kwa mikono na mtumiaji, ambayo tunaweza kupata kwenye miamala mingine ili kutusaidia katika uchanganuzi wetu.
+Kwa muhtasari, alama ya miguu inaweza kuwa mazoezi yoyote mahususi, yanayofanywa kiotomatiki na wallet au kwa mikono na mtumiaji, ambayo tunaweza kupata kwenye miamala mingine ili kutusaidia katika uchanganuzi wetu.
 
-### Uingizaji wa Kawaida wa umiliki wa Legacy (Urithi)(CIOH)
+### Heuristi ya Umiliki wa Pamoja wa Ingizo (Common Input Ownership Heuristic – CIOH)
 
-Umiliki wa Legacy (Urithi) wa Kawaida wa Pembejeo (CIOH) ni mbinu ya kutabirika ambayo inasema kwamba wakati shughuli ina pembejeo nyingi, zote zinaweza kutoka kwa huluki moja. Kwa hivyo,umiliki wao ni wa kawaida.
+Heuristi ya Umiliki wa Pamoja wa Ingizo (*Common Input Ownership Heuristic – CIOH*) ni heuristic inayodai kuwa wakati muamala unakuwa na inputs nyingi, kuna uwezekano mkubwa kwamba zote zinatoka kwa entiti moja. Hivyo basi, umiliki wake ni wa pamoja.
 
 ![BTC204](assets/fr/058.webp)
 
-Ili kutumia CIOH, kwanza tunaona shughuli iliyo na pembejeo kadhaa. Hii inaweza kuwa pembejeo 2, au pembejeo 30. Mara tu sifa hii inapotambuliwa, tunaangalia ikiwa muamala unalingana na muundo wa muamala unaojulikana. Kwa mfano, ikiwa kuna pembejeo 5 zenye takribani kiasi sawa na matokeo 5 yenye kiasi sawa kabisa, tutajua kwamba huu ni muundo wa CoinJoin. Hatutaweza kutumia CIOH.
+Ili kutumia CIOH, tunaanza kwa kuchunguza muamala wenye ingizo zaidi ya moja. Hii inaweza kuwa ingizo 2 au hata 30. Mara sifa hii inapobainika, tunakagua kama muamala huo unalingana na muundo wa muamala unaojulikana. Kwa mfano, ikiwa kuna ingizo 5 zenye kiasi kinachokaribiana na toleo 5 zenye kiasi sawa kabisa, tutajua kuwa huu ni muundo wa coinjoin. Hivyo basi, hatutaweza kutumia CIOH.
 
 ![BTC204](assets/fr/059.webp)
 
@@ -678,7 +679,7 @@ CIOH iligunduliwa na Satoshi Nakamoto. Anazungumza juu yake katika sehemu ya 10 
 
 ![BTC204](assets/fr/061.webp)
 
-Inafurahisha sana kutambua kwamba Satoshi Nakamoto, hata kabla ya kuzinduliwa rasmi kwa Bitcoin, tayari ilikuwa imetambua udhaifu mkuu wa faragha kwa watumiaji, ambao ni CIOH na Anwani (address) kutumia tena. Mtazamo kama huo ni wa kushangaza sana, kwani Legacy (Urithi) huu mbili unabaki, hata leo, muhimu zaidi katika uchambuzi wa kuzuia mnyororo.
+Inafurahisha sana kutambua kwamba Satoshi Nakamoto, hata kabla ya kuzinduliwa rasmi kwa Bitcoin, tayari ilikuwa imetambua udhaifu mkuu wa faragha kwa watumiaji, ambao ni CIOH na address kutumia tena. Mtazamo kama huo ni wa kushangaza sana, kwani heuristics hizi mbili zimebaki hata leo, muhimu zaidi katika uchambuzi wa kuzuia mnyororo.
 
 Ili kukupa mfano, hapa kuna shughuli ambayo tunaweza kutumia CIOH:
 
@@ -694,9 +695,9 @@ Chanzo : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8
 
 Kwa kweli, uchanganuzi wa minyororo hauzuiliwi kwa data ya onchain pekee. Data yoyote kutoka kwa uchanganuzi wa awali au inayopatikana kwenye Mtandao pia inaweza kutumika kuboresha uchanganuzi.
 
-Kwa mfano, tukiona kwamba miamala iliyofuatiliwa inatangazwa kwa utaratibu kutoka kwa nodi ile ile ya Bitcoin, na tukaweza kutambua Anwani (address) ya IP yake, tunaweza kutambua miamala mingine kutoka kwa huluki hiyo hiyo, na pia kubainisha sehemu ya utambulisho wa mtoaji. Ingawa zoezi hili haliwezekani kwa urahisi, kwani linahitaji utendakazi wa nodi nyingi, linaweza kuajiriwa na baadhi ya makampuni yaliyobobea katika uchanganuzi wa kuzuia mnyororo.
+Muamala unaofuatiliwa ukitangazwa mara kwa mara kutoka kwenye node hiyo hiyo ya Bitcoin, na tukafanikiwa kutambua anwani yake ya IP, huenda tukafaulu kutambua miamala mingine kutoka kwa entiti hiyo hiyo, pamoja na sehemu ya utambulisho wa mtumaji. Ingawa mbinu hii si rahisi kutekeleza, kwani inahitaji uendeshaji wa node nyingi, huenda ikawa inatumika na baadhi ya kampuni zinazobobea katika uchanganuzi wa blockchain.
 
-Mchambuzi pia ana chaguo la kutegemea uchambuzi uliofanywa hapo awali-wazi, au kwa uchambuzi wake wa awali. Labda tutaweza kupata matokeo ambayo yanaelekeza kwenye kundi la Anwani (address) ambazo tayari tumetambua. Wakati mwingine, inawezekana pia kutegemea matokeo yanayoelekezwa kwenye jukwaa la Ubadilishanaji, kama vile Anwani (address) za kampuni hizi zinavyojulikana kwa ujumla.
+Mchambuzi pia ana chaguo la kutegemea uchanganuzi uliowekwa wazi kama chanzo huria, au uchanganuzi wake mwenyewe wa awali. Huenda tukaweza kupata toleo linaloelekeza kwenye klasta ya anuani ambazo tayari tumeshazitambua. Wakati mwingine, inawezekana pia kutegemea matoleo yanayoelekeza kwenye jukwaa la kubadilishia cryptocurrency, kwani anuani za kampuni hizi kwa kawaida zinajulikana.
 
 Kwa njia hiyo hiyo, unaweza kufanya uchambuzi kwa kuondoa. Kwa mfano, ikiwa wakati wa kuchanganua muamala ulio na matokeo mawili, moja wapo inahusiana na nguzo ya Anwani (address) ambayo tayari inajulikana, lakini tofauti na huluki tunayofuatilia, basi tunaweza kutafsiri kwamba matokeo mengine huenda yanawakilisha Ubadilishanaji.
 

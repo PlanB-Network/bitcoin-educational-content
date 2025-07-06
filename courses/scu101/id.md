@@ -296,10 +296,12 @@ Sebagai informasi, penyedia email lama seperti La Poste, Arobase, Wig, dan Hotma
 
 ### Apakah saya harus mengganti akun email saya?
 
-Anda juga disarankan untuk menggunakan situs web *Have I Been Pwned* (https://haveibeenpwned.com/) untuk memeriksa apakah alamat email kita pernah ada riwayat pembobolan dan mendapatkan informasi tentang peretasan data di masa depan. Database yang diretas dapat dimanfaatkan oleh peretas untuk mengirim email phishing atau menggunakan kembali kata sandi yang pernah dibobol.
+Anda sebaiknya menggunakan situs web "Have I Been Pwned" (https://haveibeenpwned.com/) untuk memeriksa apakah alamat email Anda telah dibobol dan untuk menerima notifikasi tentang kebocoran data di masa mendatang. Peretas dapat memanfaatkan database yang diretas untuk mengirim email phishing atau menggunakan kembali kata sandi yang telah dibobol.
+
 ![](assets/notext/16.webp)
-Secara keseluruhan, mulailah menggunakan alamat email baru yang lebih aman, dan bahkan hal ini diperlukan jika seseorang ingin memulai dari awal dengan dasar yang lebih baik.
-Bonus Bitcoin: Akan lebih bijak jika kita membuat alamat email khusus untuk aktivitas yang terkait dengan Bitcoin (seperti membuat akun di bursa pertukaran), agar kita benar-benar bisa memisahkan kategori aktivitas dalam kehidupan kita.
+
+Secara umum, mulai menggunakan alamat email baru yang lebih aman bukanlah praktik yang buruk, bahkan perlu jika Anda ingin memulai kembali dengan dasar yang lebih baik.
+Bonus Bitcoin: Sangat disarankan untuk membuat alamat email spesifik untuk aktivitas Bitcoin atau kripto Anda, seperti untuk membuat akun di bursa (exchange), untuk benar-benar memisahkan area aktivitas ini dalam kehidupan kita.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
@@ -309,23 +311,26 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 ### Apa itu pengelola kata sandi?
 
-Manajer kata sandi adalah alat yang memungkinkan Anda untuk menyimpan, membuat, dan mengelola kata sandi untuk berbagai akun online Anda. Alih-alih mengingat banyak kata sandi, Anda hanya perlu satu kata sandi utama untuk mengakses semua yang lain.
+Pengelola kata sandi (password manager) adalah alat yang memungkinkan Anda untuk menyimpan, membuat, dan mengelola kata sandi untuk berbagai akun online. Daripada harus mengingat banyak kata sandi, Anda hanya perlu satu kata sandi utama (master password) untuk mengakses semua kata sandi lainnya.
 
-Dengan manajer kata sandi, Anda tidak perlu lagi khawatir lupa kata sandi Anda atau menuliskannya di suatu tempat. Anda hanya perlu mengingat satu kata sandi utama. Selain itu, sebagian besar pengelola kata sandi akan membuat kata sandi yang kuat untuk Anda, sehingga memperkuat keamanan akun Anda.
+Dengan pengelola kata sandi, Anda tidak perlu lagi khawatir lupa kata sandi atau menuliskannya di suatu tempat. Anda cukup mengingat satu kata sandi utama saja. Selain itu, sebagian besar alat ini akan membuat kata sandi yang kuat untuk Anda, yang tentu saja meningkatkan keamanan akun-akun Anda.
 
 ### Perbedaan antara beberapa manajer yang sering digunakan:
 
-- LastPass: Salah satu manajer kata sandi yang paling populer. Program ini adalah layanan pihak ketiga, yang berarti kata sandi Anda disimpan di jaringan mereka. Terdapat versi gratis dan versi berbayar pada LastPass, dengan antarmuka yang ramah pengguna.
-- Dashlane: Program ini juga merupakan layanan pihak ketiga, dengan antarmuka yang mudah digunakan dan fitur tambahan seperti pelacakan informasi kartu kredit dan penyimpanan catatan yang aman.
+- LastPass: Salah satu pengelola kata sandi paling populer. LastPass adalah layanan pihak ketiga, yang berarti kata sandi Anda disimpan di server mereka. LastPass menawarkan versi gratis dan berbayar, dengan antarmuka yang ramah pengguna.
+- Dashlane: Sama seperti LastPass, Dashlane juga merupakan layanan pihak ketiga. Dashlane punya antarmuka yang yang mudah digunakan dan fitur tambahan seperti pelacakan informasi kartu kredit dan catatan aman (secure notes).
+
   ![](assets/notext/17.webp)
 
 ### *Self-hosting* untuk kontrol yang lebih baik:
 
-- Bitwarden: Alat yang bersifat *open-source*, yang berarti Anda dapat meninjau kode sumbernya untuk memastikan keamanannya. Meskipun Bitwarden menawarkan layanan yang dihosting secara terpusat, ia juga memungkinkan pengguna untuk melakukan self-hosting, yang berarti Anda dapat mengontrol sendiri di mana kata sandi Anda disimpan, yang secara potensial memberikan tingkat keamanan dan kontrol yang lebih tinggi.
+- Bitwarden: Ini adalah alat *open-source*, yang berarti Anda bisa meninjau kode programnya untuk memverifikasi keamanannya. Meskipun Bitwarden menawarkan layanan hosting, ia juga memungkinkan pengguna untuk melakukan *self-host*, yang berarti Anda dapat mengontrol di mana kata sandi Anda disimpan. Ini berpotensi menawarkan keamanan dan kontrol yang lebih besar.
 
-- KeePass: Program ini adalah solusi *open-source* yang terutama dimaksudkan untuk *self-hosting*. Data Anda disimpan secara lokal secara default, tetapi Anda dapat melakukan sinkronisasi database kata sandi menggunakan metode yang berbeda jika diperlukan. KeePass diakui secara luas karena keamanan dan fleksibilitasnya, meskipun mungkin sedikit sulit digunakan untuk pemula.
+- KeePass: Ini adalah solusi *open-source* yang utamanya ditujukan untuk *self-hosting*. Data Anda disimpan secara lokal secara default, tetapi Anda bisa menyinkronkan database kata sandi menggunakan berbagai metode jika Anda mau. KeePass diakui luas karena keamanan dan fleksibilitasnya, meskipun mungkin sedikit kurang nyaman bagi pengguna pemula.
+  
   ![](assets/notext/18.webp)
-  (Catatan: Memilih antara layanan pihak ketiga atau layanan *self-hosted* tergantung pada tingkat pemahaman teknologi Anda dan bagaimana Anda memprioritaskan kontrol di atas kemudahan penggunaan. Layanan pihak ketiga umumnya cocok bagi kebanyakan orang, sementara itu, *self-hosting* membutuhkan sedikit usaha dan pengetahuan teknis, tapi bisa memberi rasa aman lebih karena semua data ada di bawah kendali pribadi.)
+
+  (Catatan: Memilih antara layanan pihak ketiga atau layanan *self-hosted* (dihosting sendiri) bergantung pada tingkat pemahaman Anda terhadap teknologi dan bagaimana Anda memprioritaskan kontrol daripada kenyamanan. Layanan pihak ketiga umumnya lebih nyaman bagi kebanyakan orang, sementara *self-hosting* membutuhkan lebih banyak pengetahuan teknis, namun dapat menawarkan kontrol dan ketenangan pikiran yang lebih besar dalam hal keamanan.)
 
 ### Seperti apa kata sandi yang baik?
 
@@ -333,14 +338,14 @@ Kata sandi yang baik umumnya memiliki ciri-ciri berikut:
 
 - Panjang: setidaknya 12 karakter.
 - Kompleks: campuran huruf besar dan kecil, angka, dan simbol.
-- Unik: jangan menggunakan kata sandi yang sama untuk akun yang berbeda.
+- Unik: Jangan pernah menggunakan kata sandi yang sama untuk akun yang berbeda.
 - Tidak berdasarkan informasi pribadi: hindari penggunaan tanggal lahir, nama, dan lain-lain.
 
-Untuk memastikan keamanan akun Anda, sangat penting untuk membuat kata sandi yang kuat dan aman. Panjang kata sandi saja tidak cukup untuk menjamin keamanannya. Karakter harus sepenuhnya acak agar tahan terhadap serangan paksa (dimana penyerang terus-menerus mencoba menebak password). Selain itu, penting juga agar setiap karakter dalam kata sandi tidak saling bergantung, untuk menghindari pola atau kombinasi yang mudah ditebak. Kata sandi umum seperti “password” sangat mudah diretas dan sebaiknya dihindari.
+Untuk memastikan keamanan akun Anda, sangat penting untuk membuat kata sandi yang kuat dan aman. Panjang kata sandi saja tidak cukup untuk menjamin keamanannya. Karakter-karakter di dalamnya harus benar-benar acak agar tahan terhadap serangan brute force (dimana penyerang terus-menerus mencoba menebak password). Setiap karakter dipilih secara acak tanpa pola juga penting untuk menghindari kombinasi yang paling mungkin ditebak. Kata sandi umum seperti "password" sangat mudah ditebak.
 
-Untuk membuat kata sandi yang kuat, disarankan untuk menggunakan sejumlah besar karakter acak, tanpa menggunakan kata atau pola yang dapat ditebak. Juga penting untuk menyertakan angka dan karakter khusus. Namun, perlu dicatat bahwa beberapa situs web mungkin membatasi penggunaan karakter khusus tertentu. Kata sandi yang tidak dibuat secara acak adalah kata sandi yang mudah ditebak. Variasi atau tambahan karakter pada kata sandi tidak menjamin keamanannya. Situs web tidak dapat menjamin keamanan kata sandi yang dipilih oleh pengguna.
+Untuk membuat kata sandi yang kuat, disarankan untuk menggunakan banyak karakter acak, tanpa menggunakan kata atau pola yang dapat diprediksi. Penting juga untuk menyertakan angka dan karakter khusus. Namun, perlu dicatat bahwa beberapa situs web mungkin membatasi penggunaan karakter khusus tertentu. Kata sandi yang tidak dibuat secara acak mudah ditebak. Variasi atau penambahan pada kata sandi yang sudah ada tidak aman. Situs web tidak dapat menjamin keamanan kata sandi yang dipilih oleh pengguna.
 
-Kata sandi yang dihasilkan secara acak memiliki tingkat keamanan yang lebih tinggi, meskipun mungkin lebih sulit untuk diingat. Manajer kata sandi dapat menghasilkan kata sandi acak yang lebih aman. Dengan menggunakan manajer kata sandi, Anda tidak perlu menghafal semua kata sandi Anda. Hal yang cukup penting adalah untuk secara bertahap mengganti kata sandi lama Anda dengan yang kata sandi yang dibuat oleh platform pengelola kata sandi, karena umumnya lebih kuat dan lebih panjang. Pastikan bahwa kata sandi utama dari manajer kata sandi Anda juga kuat dan aman.
+Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih tinggi, meskipun mungkin lebih sulit diingat. Pengelola kata sandi (password manager) dapat membantu membuat kata sandi acak yang lebih aman. Dengan menggunakan pengelola kata sandi, Anda tidak perlu menghafal semua kata sandi Anda. Penting untuk secara bertahap mengganti kata sandi lama Anda dengan yang dihasilkan oleh pengelola, karena kata sandi tersebut lebih kuat dan lebih aman. Pastikan kata sandi utama (master password) dari pengelola kata sandi Anda juga kuat dan aman.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -352,38 +357,47 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 ### Mengapa menerapkan 2FA
 
-Otentikasi Dua-Faktor (2FA) adalah lapisan keamanan tambahan yang digunakan untuk memastikan bahwa orang-orang yang mencoba mengakses akun online benar-benar orang yang dimaksud. Alih-alih hanya memasukkan nama pengguna dan kata sandi, 2FA memerlukan bentuk verifikasi kedua. Verifikasi ini dapat dilakukan melalui:
+Autentikasi dua faktor (2FA) adalah lapisan keamanan tambahan yang memastikan bahwa orang yang mencoba mengakses akun online memang benar-benar pemilik aslinya. Alih-alih hanya memasukkan nama pengguna dan kata sandi, 2FA memerlukan bentuk verifikasi tambahan.
+
+Verifikasi ini dapat dilakukan melalui:
 
 - Kode sementara yang dikirim melalui SMS.
 - Kode yang dihasilkan oleh aplikasi seperti Google Authenticator atau Authy.
 - Kunci keamanan fisik yang dapat Anda masukkan ke dalam komputer Anda.
+  
   ![](assets/notext/19.webp)
-  Dengan 2FA, bahkan jika peretas mendapatkan kata sandi Anda, mereka tidak akan dapat mengakses akun Anda jika belum melakukan langkah verifikasi kedua ini. Hal ini menunjukkan pentingnya membuat 2FA guna melindungi akun online Anda dari akses yang berpotensi membahayakan akun Anda.
+  
+Dengan 2FA, bahkan jika peretas berhasil mendapatkan kata sandi Anda, mereka tetap tidak akan bisa mengakses akun Anda tanpa faktor verifikasi kedua ini. Inilah yang membuat 2FA sangat penting untuk melindungi akun online Anda dari akses tidak sah.
+
 
 ### Opsi Mana yang Harus Dipilih?
 
-Berbagai opsi untuk otentikasi kuat memiliki tingkat keamanan yang berbeda.
+Berbagai opsi untuk autentikasi kuat menawarkan tingkat keamanan yang berbeda-beda.
 
-- SMS tidak dipandang sebagai opsi terbaik karena hanya menyediakan bukti kepemilikan nomor telepon.
-- 2FA (otentikasi dua faktor) lebih aman karena menggunakan beberapa jenis bukti, seperti pengetahuan, kepemilikan, dan identifikasi. Kata sandi sekali pakai (HOTP dan TOTP) lebih aman daripada SMS karena memerlukan perhitungan kriptografis dan disimpan secara lokal, bukan dalam memori.
+- SMS tidak dianggap sebagai pilihan terbaik karena hanya membuktikan kepemilikan nomor telepon.
+- 2FA (autentikasi dua faktor) lebih aman karena menggunakan berbagai jenis bukti, seperti pengetahuan, kepemilikan, dan identifikasi. Kata sandi satu kali (HOTP dan TOTP) lebih aman daripada SMS karena memerlukan perhitungan kriptografi dan disimpan secara lokal, bukan dalam memori.
 - Token perangkat keras, seperti kunci USB atau kartu pintar, menawarkan keamanan optimal dengan menghasilkan kunci pribadi unik untuk setiap situs dan memverifikasi URL sebelum mengizinkan koneksi.
 
-Untuk keamanan optimal dengan otentikasi kuat, disarankan untuk menggunakan alamat email yang aman, manajer kata sandi yang aman, dan menggunakan 2FA menggunakan YubiKeys. Juga disarankan untuk membeli dua YubiKeys untuk mengantisipasi kehilangan atau pencurian, misalnya, menyimpan satu salinan cadangan di rumah dan satu pada diri Anda.
+Untuk keamanan optimal dengan autentikasi kuat, disarankan untuk menggunakan alamat email yang aman, pengelola kata sandi yang aman, dan mengadopsi 2FA menggunakan YubiKeys. Sebaiknya juga membeli dua YubiKey untuk mengantisipasi kehilangan atau pencurian, misalnya menyimpan cadangan di rumah dan satu lagi selalu bersama Anda.
 
-Biometrik dapat digunakan sebagai alternatif, tetapi kurang aman daripada kombinasi pengetahuan dan kepemilikan. Data biometrik sebaiknya tetap disimpan di perangkat autentikasi dan tidak dibagikan secara online. Penting untuk mempertimbangkan model ancaman yang terkait dengan berbagai metode autentikasi dan menyesuaikan praktik keamanan sesuai kebutuhan.
+Mengenai potensi ancaman terhadap 2FA berbasis SIM, contoh umum adalah serangan SIM swap, di mana penyerang mencuri nomor telepon pengguna dengan menautkannya ke kartu SIM yang dikendalikan penyerang. Ada beberapa cara penyerang dapat menyelesaikan serangan ini; namun, ancaman ini biasanya hanya menjadi perhatian utama bagi individu berprofil tinggi dan orang-orang penting.
+
+Biometrik dapat digunakan sebagai pengganti, tetapi kurang aman dibanding kombinasi pengetahuan dan kepemilikan. Data biometrik harus disimpan di perangkat autentikasi dan tidak diungkapkan secara online. Penting untuk mempertimbangkan model ancaman yang terkait dengan metode autentikasi yang berbeda dan menyesuaikan praktik keamanan Anda.
+
+Terakhir, mungkin berguna untuk memberikan konteks singkat tentang OTP HOTP dan TOTP: HOTP adalah kata sandi satu kali berdasarkan algoritma HMAC (Hash-based Message Authentication Code), sedangkan TOTP adalah OTP berbasis waktu. Fitur utama algoritma semacam itu adalah kata sandi hanya dapat digunakan sekali, setiap nilai yang dihasilkan unik, dan kunci bersama ada antara perangkat pengguna (klien) dan layanan autentikasi (server). Perbedaan utama antara kedua sistem terletak pada bagaimana faktor dihasilkan: TOTP berbasis waktu, sedangkan sistem HOTP berbasis counter.
 
 ### Kesimpulan dari pelatihan:
 
-Seperti yang Anda telah pelajari, menerapkan praktik keamanan digital yang baik tidaklah selalu sederhana, tetapi tetap dapat bisa dilakukan!
+Seperti yang sudah Anda pahami, menerapkan keamanan digital yang baik memang tidak selalu sederhana, tapi tetap bisa dilakukan!
 
 - Membuat alamat email baru yang aman.
-- Menyiapkan manajer kata sandi.
-- Mengaktifkan 2FA.
-- Secara bertahap mengganti kata sandi lama kita dengan kata sandi kuat yang dilengkapi 2FA.
+- Siapkan pengelola kata sandi (*password manager*).
+- Aktifkan 2FA (autentikasi dua faktor).
+- Ganti kata sandi lama Anda secara bertahap dengan kata sandi kuat yang terintegrasi 2FA.
 
 Terus belajar dan secara bertahap menerapkan praktik yang baik!
 
-Aturan emas: Keamanan siber adalah bidang yang terus berevolusi, dan Anda juga perlu beradaptasi seiring dengan bertambahnya jam terbang Anda.
+Aturan penting : Keamanan siber terus berkembang, dan beradaptasilah seiring dengan bertambahnya jam terbang Anda.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 

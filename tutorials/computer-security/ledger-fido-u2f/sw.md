@@ -6,11 +6,11 @@ description: Imarisha usalama wako mtandaoni kwa Ledger
 
 
 
-Vifaa vya Ledger ni pochi za maunzi zilizoundwa awali ili kulinda Bitcoin Wallet, lakini pia zinaangazia chaguo za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na itifaki za **U2F** na **FIDO2**, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni kwa kuweka kipengele cha pili cha uthibitishaji.
+Vifaa vya Ledger ni wallet za maunzi zilizoundwa awali ili kulinda Bitcoin Wallet, lakini pia zinaangazia chaguzi za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na itifaki za U2F na FIDO2, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni kwa kutumia kipengele cha pili cha uthibitishaji.
 
 
 
-Itifaki ya U2F (Universal 2nd Factor) ilianzishwa na Google na Yubico mwaka wa 2014, kisha kusanifishwa na Muungano wa FIDO. Huwezesha kipengele cha pili cha uthibitishaji halisi (2FA) kuongezwa wakati wa kuingia. Mara baada ya kuanzishwa, pamoja na nenosiri la kawaida, watumiaji lazima waidhinishe kila jaribio la kuunganisha kwenye akaunti yao kwa kubofya kitufe kwenye Ledger yao. Katika muktadha huu, Ledger inafanya kazi kwa njia sawa na Yubikey. U2F kwa hakika ni kipengele kidogo cha kiwango cha FIDO2, kinachokijumuisha huku ikileta maboresho makubwa, ikiwa ni pamoja na usaidizi asilia kwa vivinjari vya kisasa na unyumbufu mkubwa katika udhibiti wa ufunguo wa uthibitishaji.
+Itifaki ya U2F (Universal 2nd Factor) ilianzishwa na Google na Yubico mwaka wa 2014, kisha kusanifishwa na Muungano wa FIDO. Huwezesha element cha pili cha uthibitishaji halisi (2FA) kuongezwa wakati wa kuingia. Mara baada ya kuanzishwa, pamoja na nenosiri la kawaida, watumiaji lazima waidhinishe kila jaribio la kuunganisha kwenye akaunti yao kwa kubofya kitufe kwenye Ledger yao. Katika muktadha huu, Ledger inafanya kazi kwa njia sawa na Yubikey. U2F kwa hakika ni element kidogo cha kiwango cha FIDO2, kinachokijumuisha huku ikileta maboresho makubwa, ikiwa ni pamoja na usaidizi asilia kwa vivinjari vya kisasa na unyumbufu mkubwa katika udhibiti wa ufunguo wa uthibitishaji.
 
 
 

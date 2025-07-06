@@ -27,17 +27,17 @@ Je hebt geen specifieke kennis nodig om te beginnen. In feite is alle inhoud toe
 
 Welkom bij de BTC101-cursus!
 
-Bitcoin is een technologische en monetaire revolutie, die in staat is onze relatie met geld en de maatschappij in twijfel te trekken. In feite is Bitcoin (ook aangeduid als BTC) een **neutrale** en **decentrale** valuta, wat betekent dat het niet gecontroleerd wordt door een entiteit of instelling. Het is een innovatie die verder gaat dan een gewone "internetvaluta": het is zowel een computerprotocol (Bitcoin) als een munteenheid (bitcoin).
+Bitcoin is een technologische en monetaire revolutie, die in staat is onze relatie met geld en de maatschappij in twijfel te trekken. In feite is Bitcoin (ook wel BTC genoemd) een **neutrale** en **decentrale** valuta, wat betekent dat het niet gecontroleerd wordt door een entiteit of instelling. Het is een innovatie die verder gaat dan een gewone "internetvaluta": het is zowel een computerprotocol (Bitcoin) als een munteenheid (bitcoin).
 
 Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
 
 **Een uitgebreid maar toegankelijk curriculum:**
 
-In deze cursus zullen we enkele monetaire aspecten van Bitcoin bespreken, waaronder hoe bitcoins te kopen en verkopen, ze veilig op te slaan in digitale wallets (portemonnees) en ze te gebruiken voor transacties. We zullen ook de rol van miners onderzoeken, die essentieel is voor het creëren van nieuwe bitcoins en het beveiligen van het Bitcoin netwerk. Tot slot onderzoeken we de toekomst van Bitcoin en hoe de Lightning Network technologie Bitcoin transacties kan verbeteren.
+In deze cursus zullen we enkele monetaire aspecten van Bitcoin bespreken, waaronder hoe bitcoins te kopen en verkopen, ze veilig op te slaan in digitale wallets (portefeuilles) en ze te gebruiken voor transacties. We zullen ook de rol van miners onderzoeken, die essentieel is voor het creëren van nieuwe bitcoins en het beveiligen van het Bitcoin netwerk. Tot slot onderzoeken we de toekomst van Bitcoin en hoe de Lightning Network technologie Bitcoin transacties kan verbeteren.
 
 ![image](assets/en/01.webp)
 
-Het is essentieel om te begrijpen dat Bitcoin een nieuw monetair systeem is dat onze relatie met geld volledig verandert, dus leren hoe je het kunt gebruiken is een noodzakelijke vaardigheid voor iedereen die controle wil hebben over zijn/haar eigen geld.
+Het is essentieel om te begrijpen dat Bitcoin een nieuw monetair systeem is dat onze relatie met geld volledig verandert, dus leren hoe je het kunt gebruiken is een noodzakelijke vaardigheid voor iedereen die controle wil hebben over zijn/haar eigen tegoeden.
 
 **Sectie 1 - Inleiding**
 - Hoofdstuk 1 - Cursusoverzicht
@@ -45,7 +45,7 @@ Het is essentieel om te begrijpen dat Bitcoin een nieuw monetair systeem is dat 
 
 **Deel 2 - Geld**
 - Hoofdstuk 3 - Geld Door De Geschiedenis Heen
-- Hoofdstuk 4 - Fiat Valuta's
+- Hoofdstuk 4 - Fiatvaluta's
 - Hoofdstuk 5 - Hyperinflatie
 - Hoofdstuk 6 - 21 Miljoen Bitcoins
 
@@ -92,7 +92,6 @@ Voordat de term "Bitcoin" synoniem werd met digitale valuta en financiële trans
 ### Cypherpunks: visionairs van de digitale wereld
 
 ![image](assets/en/03.webp)
-
 In het hart van de technologische evolutie van de jaren '80 en '90 begon een groep mensen zich vragen te stellen over de rol van privacy en vrijheid in het digitale tijdperk. Deze personen, die later bekend zouden worden als "cypherpunks", geloofden stellig dat cryptografie kon dienen als hulpmiddel om individuele rechten te beschermen tegen de inmenging van overheden en grote bedrijven.
 
 Iconische figuren zoals Julian Assange, Wei Dai, Tim May en David Chaum speelden een centrale rol in het vormen van de filosofie en visie van de beweging. Deze denkers deelden hun ideeën op een invloedrijke mailinglijst, waar deelnemers van over de hele wereld debatteerden over de beste manieren om technologie in te zetten voor meer persoonlijke vrijheid.
@@ -114,25 +113,25 @@ De Cypherpunk beweging, diep geworteld in digitaal activisme en cryptografie, ba
 
 ### De voorgangers van Bitcoin
 
-Voor de opkomst van Bitcoin zijn er al verschillende pogingen gedaan om een digitale valuta te creëren. David Chaum introduceerde bijvoorbeeld het concept van "anoniem elektronisch geld" met zijn project "DigiCash" in de jaren '80. Helaas kwam DigiCash door verscheidene beperkingen nooit van de grond.
+Voor de opkomst van Bitcoin zijn er al verschillende pogingen gedaan om digitaal geld te creëren. David Chaum introduceerde bijvoorbeeld het concept van "anoniem elektronisch geld" met zijn project "DigiCash" in de jaren '80. Helaas kwam DigiCash door verscheidene beperkingen nooit van de grond.
 
-Een andere belangrijke voorloper is "B-money" van Wei Dai. Hoewel het nooit werd geïmplementeerd, presenteerde het het idee van een anonieme digitale valuta waarbij fraudedetectie werd uitgevoerd door een gemeenschap van beoordelaars in plaats van een centrale autoriteit.
+Een andere belangrijke voorloper is "B-money" van Wei Dai. Hoewel het nooit werd geïmplementeerd, presenteerde het het idee van een anonieme digitale munteenheid waarbij fraudedetectie werd uitgevoerd door een gemeenschap van beoordelaars in plaats van een centrale autoriteit.
 
 De afbeelding hieronder illustreert duidelijk de ontwikkeling van de beweging door de vele technologische innovaties.
 
 ![image](assets/en/05.webp)
 
-In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals Proof of Work en cryptografische tijdstempels, om een gedecentraliseerde en censuurbestendige digitale valuta te creëren.
+In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals proof of work en cryptografische tijdstempels, om gedecentraliseerd en censuurbestendig digitaal geld te creëren.
 
 Bitcoin was echter meer dan dat: het vertegenwoordigde de verwezenlijking van de Cypherpunk idealen. Naast de technologie symboliseerde het een revolutie tegen traditionele financiële systemen en bood het een alternatief gebaseerd op transparantie, decentralisatie en individuele soevereiniteit.
 
 ### Conclusie
 
-De voorgeschiedenis van Bitcoin is diep geworteld in de Cypherpunk beweging en de collectieve zoektocht naar meer vrijheid in het digitale tijdperk. Door de principes van cryptografie, decentralisatie en integriteit te combineren, is Bitcoin veel meer geworden dan een valuta. In feite is Bitcoin het product van een filosofische en technologische revolutie die onze wereld blijft veranderen.
+De voorgeschiedenis van Bitcoin is diep geworteld in de Cypherpunk beweging en de collectieve zoektocht naar meer vrijheid in het digitale tijdperk. Door de principes van cryptografie, decentralisatie en integriteit te combineren, is Bitcoin veel meer geworden dan een munteenheid. In feite is Bitcoin het product van een filosofische en technologische revolutie die onze wereld blijft veranderen.
 
 Daarom is Bitcoin een protocol dat zich over een lange tijdsperiode uitstrekt en ons aanmoedigt om onze relatie met energie, tijd en geld in vraag te stellen.
 
-Maar is Bitcoin een "echte" valuta? Om dit te begrijpen, moeten we eerst het concept van geld en de verschillende vormen ervan begrijpen, dit zullen we in het volgende hoofdstuk onderzoeken.
+Maar is Bitcoin "echt" geld? Om dit te begrijpen, moeten we eerst het concept van geld en de verschillende vormen ervan begrijpen, dit zullen we in het volgende hoofdstuk onderzoeken.
 
 Als je de geschiedenis van Bitcoin in meer detail wilt verkennen, raden we je onze HIS 201-cursus aan, waarin je de oorsprong en de geleidelijke opkomst van Bitcoin ontdekt, evenals het begin van zijn geschiedenis en gemeenschap. Deze cursus is volledig gedocumenteerd en voorzien van bronnen, met natuurlijk veel anekdotes:
 
@@ -152,7 +151,7 @@ De evolutie van geld is een fascinerend aspect van de geschiedenis van de mens d
 
 ### Van schelpen naar bankrekeningen
 
-Oorspronkelijk was geld een tastbaar goed, zoals graan, vee of een andere grondstof. Deze goederen hadden echter het grote nadeel dat ze bederfelijk waren, waardoor het moeilijk was om ze te gebruiken als spaarmiddel voor de lange termijn. Slechte oogsten of ziekte van dieren konden bijvoorbeeld iemands vermogen van de ene dag op de andere vernietigen.
+Oorspronkelijk was geld een tastbaar goed, zoals graan, vee of een andere grondstof. Deze goederen hadden echter het grote nadeel dat ze vergankelijk waren, waardoor het moeilijk was om ze te gebruiken als spaarmiddel voor de lange termijn. Slechte oogsten of ziekte van dieren konden bijvoorbeeld iemands vermogen van de ene dag op de andere vernietigen.
 Naarmate beschavingen zich ontwikkelden en handel zich uitbreidde naar nieuwe gebieden, ontstond de behoefte aan een universeel ruilmiddel (medium of exchange). Mensen experimenteerden eerst met voorwerpen zoals schelpen en edelstenen, maar die waren niet zo duurzaam of schaars als ze dachten. Uiteindelijk werd goud de standaard, vanwege zijn zeldzaamheid, duurzaamheid en deelbaarheid. Het was, en is nog steeds, een symbool van rijkdom en macht.
 
 ![image](assets/en/07.webp)
@@ -170,7 +169,7 @@ In onze wereld is de functie ervan moeilijk kunstmatig na te bootsen. In feite k
 Om deze redenen is goud als geld het resultaat van 4000 jaar monetair Darwinisme gebaseerd op de volgende Aristotelische functies:
 
 - **Store of Value (Waardeopslagmiddel)**: geld kan gebruikt worden om koopkracht over te dragen naar de toekomst, dus moet het een duurzaam materiaal zijn;
-- **Medium of Exchange (Ruilmiddel)**: geld kan als ruilmiddel voor goederen en diensten gebruikt worden in plaats van ruilhandel, waardoor het toevallig samenvallen van behoeften (coincidence of wants) tussen handelaren wordt vermeden;
+- **Medium of Exchange (Ruilmiddel)**: geld kan als ruilmiddel voor goederen en diensten gebruikt worden in plaats van ruilhandel, waardoor het toevallig samenvallen van behoeften (coincidence of wants) tussen verschillende partijen wordt vermeden;
 - **Unit of Account (Rekeneenheid)**: geld stelt ons ook in staat om de waarde van verschillende goederen te vergelijken om hun relatieve bruikbaarheid beter te begrijpen.
 
 ![image](assets/en/08.webp)
@@ -197,11 +196,11 @@ Om aan deze criteria te voldoen, heeft valuta zich historisch ontwikkeld door ve
 - Bankbiljet -> Bankpas
 - Blockchain -> Lightning Network
 
-Valuta's evolueren tot op de dag van vandaag en passen hun vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekend waardeopslagmiddel (store of value) is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire valuta's zoals de dollar en de euro erg liquide en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
+Geld evolueert tot op de dag van vandaag en past zijn vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekend waardeopslagmiddel (store of value) is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire valuta's zoals de dollar en de euro erg liquide en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
 
-Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde voorraad, maken het een uitstekend waardeopslagmiddel. Bovendien, als neutrale internetvaluta is het een realistisch **ruilmiddel** dat grensoverstijgend is. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in handel, ondanks zijn [constante adoptie] (https://btcmap.org/map).
+Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde voorraad, maken het een uitstekend waardeopslagmiddel. Bovendien, als neutrale internetvaluta is het een realistisch **ruilmiddel** dat grensoverstijgend is. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in commercie, ondanks zijn [constante adoptie] (https://btcmap.org/map).
 
-## Fiduciaire valuta
+## Fiduciaire valuta's
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
@@ -209,9 +208,9 @@ Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals
 
 Een waarheid die zeker van toepassing is als het gaat om het huidige monetaire systeem.
 
-### Zaakwaarnemer = vertrouwen
+### Fiduciair = Vertrouwen
 
-Vandaag de dag worden belangrijke valuta zoals de euro en de dollar als fiduciair beschouwd. Dit betekent dat ze geen intrinsieke waarde hebben en volledig afhankelijk zijn van het vertrouwen dat we stellen in de instellingen die ze besturen.
+Vandaag de dag worden belangrijke valuta's zoals de euro en de dollar als fiduciair beschouwd. Dit betekent dat ze geen intrinsieke waarde hebben en volledig afhankelijk zijn van het vertrouwen dat we stellen in de instellingen die ze besturen.
 
 Een fiduciaire valuta is een vorm van geld die als zodanig is verordend door een instelling, d.w.z. een staat, zoals China met de Yuan, of een politiek-economische unie, zoals de Europese Unie met de Euro. De entiteit die verantwoordelijk is voor de uitgifte ervan is de centrale bank (we kunnen bijvoorbeeld de People's Bank of China, de Federal Reserve van de Verenigde Staten of de Centrale Bank van de Republiek Guinee noemen). Het zijn precies deze entiteiten die verantwoordelijk zijn voor het formuleren van het monetaire beleid en dus hoeveel geld er in omloop moet worden gebracht of gedrukt moet worden.
 
@@ -219,11 +218,11 @@ Een fiduciaire valuta is een vorm van geld die als zodanig is verordend door een
 
 ### Monetaire devaluatie: een strategie zo oud als het Romeinse Rijk
 
-Sinds de oudheid heeft goud gediend als monetaire referentie, maar de starheid ervan heeft leiders, zowel Romeinse keizers als moderne regeringen, er vaak toe aangezet om alternatieve, vaak fiduciaire, munteenheden te gebruiken.
+Sinds de oudheid heeft goud gediend als monetaire referentie, maar de rigiditeit ervan heeft leiders, zowel Romeinse keizers als moderne regeringen, er vaak toe aangezet om alternatieve, vaak fiduciaire, munteenheden te gebruiken.
 
-Het mechanisme is eenvoudig en is geïnspireerd op praktijken die al bestaan sinds het begin van de beschaving. Leiders, die graag controle willen uitoefenen over rijkdommen, beginnen met het centraliseren van goud, vaak door hun macht uit te buiten en bescherming en veiligheid te beloven. Met deze kostbare reserve in handen introduceren ze een nieuwe valuta, equivalent in waarde aan goud, maar geslagen in hun beeltenis. Deze munt begint dan te circuleren en mensen passen zich snel aan aan het gemak van het eenvoudige gebruik ervan.
+Het mechanisme is eenvoudig en is geïnspireerd op praktijken die al bestaan sinds het begin van de beschaving. Leiders, die graag controle willen uitoefenen over rijkdommen, beginnen met het centraliseren van goud, vaak door hun macht uit te buiten en bescherming en veiligheid te beloven. Met deze kostbare reserve in handen introduceren ze een nieuwe munteenheid, equivalent in waarde aan goud, maar geslagen in hun beeltenis. Deze munt begint dan te circuleren en mensen passen zich snel aan aan het gemak van het eenvoudige gebruik ervan.
 
-Deze leiders beginnen de nieuwe munteenheid echter geleidelijk te devalueren, waarbij de waarde de facto elk jaar met een paar procent daalt ten opzichte van de oorspronkelijke goudprijs. Deze stille devaluatie wordt vaak gerechtvaardigd als zijnde in het belang van het volk. In werkelijkheid zien degenen die sparen in deze fiduciaire valuta de waarde van hun spaargeld afnemen, terwijl de staat zijn projecten financiert door middel van inflatie. Bovendien maakt deze devaluatie het makkelijker om schulden terug te betalen.
+Deze leiders beginnen de nieuwe munteenheid echter geleidelijk te devalueren, waarbij de waarde de facto elk jaar met een paar procent daalt ten opzichte van de oorspronkelijke goudprijs. Deze stille devaluatie wordt vaak gerechtvaardigd als zijnde in het belang van het volk. In werkelijkheid zien degenen die sparen in deze fiduciaire munt de waarde van hun spaargeld afnemen, terwijl de staat zijn projecten financiert door middel van inflatie. Bovendien maakt deze devaluatie het makkelijker om schulden terug te betalen.
 
 ![image](assets/en/13.webp)
 
@@ -231,9 +230,9 @@ Op een doorslaggevend moment doet de leider de aankondiging: de munt wordt niet 
 
 Het drukken van geld leidt dan tot inflatie en verarmt geleidelijk de bevolking. Bovendien wordt het financiële systeem gereguleerd en beperkt om ineenstorting te voorkomen, omdat elke verstoring een grote economische crisis zou kunnen veroorzaken. In tegenstelling tot het gewone volk zijn het financiële instellingen en rijke individuen die enorm profiteren van dit systeem, dat een ongelijkheidskloof creëert en autoritarisme in de hand werkt. In deze situatie worden ze niet gestimuleerd om radicale veranderingen door te voeren, waardoor het systeem zijn gang kan blijven gaan tot aan een mogelijke implosie.
 
-Als deze strategie goed wordt uitgevoerd, kan ze tientallen jaren standhouden. Het is echter belangrijk op te merken dat een zeer snelle devaluatie of verlies van vertrouwen kan leiden tot hyperinflatie (zie het volgende hoofdstuk). De geschiedenis laat zien dat de dollar 98% van zijn waarde heeft verloren in 100 jaar, de euro 30% in 20 jaar en het Britse pond 99% sinds zijn oprichting.
+Wanneer goed uitgevoerd, kan deze strategie tientallen jaren standhouden. Het is echter belangrijk op te merken dat een zeer snelle devaluatie of verlies van vertrouwen kan leiden tot hyperinflatie (zie het volgende hoofdstuk). De geschiedenis laat zien dat de dollar 98% van zijn waarde heeft verloren in 100 jaar, de euro 30% in 20 jaar en het Britse pond 99% sinds zijn oprichting.
 
-Uiteindelijk kan de valuta geen verband meer hebben met goud, zoals Romeinse munten aan het einde van het Rijk, of zelfs worden gereduceerd tot een eenvoudige numerieke waarde, losgekoppeld van de tastbare werkelijkheid.
+Uiteindelijk heeft de munt geen enkele koppeling meer met goud, zoals Romeinse munten aan het einde van het Rijk, of zelfs worden gereduceerd tot een eenvoudige numerieke waarde, losgekoppeld van de tastbare werkelijkheid.
 
 Vandaag zijn we getuige van een historisch keerpunt. De dollar, die lange tijd heeft gedomineerd, lijkt in verval te raken, terwijl goud zijn centrale rol heeft verloren. We staan aan de vooravond van een nieuwe monetaire cyclus, die ons eraan herinnert dat de lessen van de geschiedenis vaak vergeten worden.
 
@@ -245,15 +244,14 @@ Vanwege deze uitgangspunten wint de Bitcoin revolutie het aan momentum. In tegen
 
 ![image](assets/en/15.webp)
 
-In feite presenteert Bitcoin zichzelf als een antwoord op deze systemische uitdagingen door een gedecentraliseerde oplossing en een nieuw parallel monetair systeem aan te bieden. Historisch gezien was goud de favoriete valuta vanwege zijn weerstand tegen vervalsing, maar Bitcoin kan op dezelfde manier niet vervalst worden. Bovendien is het beperkt tot 21 miljoen eenheden dankzij het gedecentraliseerde en cryptografische karakter. Bitcoin is een valuta die vertrouwt op transparantie en neutraliteit, en biedt een aantrekkelijk alternatief voor het huidige gecentraliseerde monetaire systeem.
+In feite presenteert Bitcoin zichzelf als een antwoord op deze systemische uitdagingen door een gedecentraliseerde oplossing en een nieuw parallel monetair systeem aan te bieden. Historisch gezien was goud de favoriete vorm van geld vanwege zijn weerstand tegen vervalsing, maar Bitcoin kan op dezelfde manier niet vervalst worden. Bovendien is het beperkt tot 21 miljoen eenheden dankzij het gedecentraliseerde en cryptografische karakter. Bitcoin is een vorm van geld die vertrouwt op transparantie en neutraliteit, en biedt een aantrekkelijk alternatief voor het huidige gecentraliseerde monetaire systeem.
 
 ![image](assets/en/16.webp)
 
-Een andere reden waarom Bitcoin aandacht heeft gekregen is de opkomst van digitale valuta van centrale banken, of CBDC's, die onvermijdelijk lijkt. Deze nieuwe vorm van geld zal leiden tot een nog meer centraal geplande economie, die zowel de financiële vrijheid van individuen kunnen belemmeren als autoritair misbruik kunnen faciliteren.
-
+Een andere reden waarom Bitcoin aandacht heeft gekregen is de opkomst van digitale valuta's van centrale banken, of CBDC's, die onvermijdelijk lijkt. Deze nieuwe vorm van geld zal leiden tot een nog meer centraal geplande economie, die zowel de financiële vrijheid van individuen kunnen belemmeren als autoritair misbruik kunnen faciliteren.
 We kunnen dit hoofdstuk afsluiten met een citaat van Nobelprijswinnaar F.A Hayek uit 1984:
 
-> "Ik geloof niet dat we ooit nog goed geld zullen hebben, voordat we het uit handen van de overheid hebben genomen. Als we ze niet met geweld uit handen van de overheid kunnen nemen, is het enige wat we kunnen doen iets introduceren dat ze niet kunnen tegenhouden."
+> "Ik geloof niet dat we ooit nog goed geld zullen hebben, voordat we het uit handen van de overheid hebben genomen. Als we het niet met geweld uit handen van de overheid kunnen nemen, is het enige wat we kunnen doen iets introduceren dat ze niet kunnen tegenhouden."
 
 Om meer te leren over economische drogredenen en vrijheid, nodigen we je uit om onze ECO 102-cursus te ontdekken. Deze cursus beschrijft het leven en de ideeën van Frédéric Bastiat, een 19e-eeuwse Franse denker die de opkomst van Bitcoin zeker zou hebben gewaardeerd:
 
@@ -289,7 +287,7 @@ Fase 1 - Verlies van vertrouwen
 
 - Centralisatie van de monetaire macht vergemakkelijkt de creatie van geld en het misbruik ervan. In deze context kunnen externe factoren zoals oorlogen, overheidsbeleid of stijgende prijzen van belangrijke grondstoffen - zoals tarwe of benzine - hyperinflatie veroorzaken. Zo kan er een verlies aan vertrouwen in een valuta ontstaan en beginnen individuen te twijfelen aan de oorsprong van geld en de voordelen van het opgelegde monetaire beleid.
 
-Fase 2 - Valuta ineenstorting en prijsstijging
+Fase 2 - Ineenstorting van de valuta en prijsstijging
 
 - Als regeringen de controle over het vertrouwen verliezen, beginnen individuen hun valuta in te ruilen voor een stabielere valuta, zoals gebeurde in Venezuela met de Amerikaanse dollar. Deze omstandigheid leidt tot prijsstijgingen, waardoor een vicieuze cirkel ontstaat waarbij goederen en diensten steeds duurder worden. Om aan deze behoeften te voldoen en het monetaire beleid te corrigeren, drukt de staat meer geld, wat resulteert in exponentiële inflatie.
 
@@ -309,11 +307,10 @@ Om een hyperinflatiecrisis op te lossen zijn vaak radicale veranderingen nodig, 
 
 - Duitsland, 1922-1923.
 
-Een van de meest opvallende voorbeelden van hyperinflatie vond plaats in de Duitse Weimarrepubliek na de Eerste Wereldoorlog.
+  Een van de meest opvallende voorbeelden van hyperinflatie vond plaats in de Duitse Weimarrepubliek na de Eerste Wereldoorlog.
 
-Duitsland had enorme bedragen geleend om de oorlog te financieren. Echter, Duitsland verloor niet alleen de oorlog maar moest ook miljarden dollars aan herstelbetalingen betalen. De maand met de hoogste inflatie was oktober 1923, met een piek van 29.500%, wat gelijk stond aan een inflatie van 20,9% per dag. De prijzen verdubbelden elke 3,7 dagen!
-
-De Duitse munteenheid werd zo waardeloos dat sommige burgers liever hun papiergeld verbrandden in plaats van hout, omdat dat goedkoper was. Er wordt zelfs verteld dat obers in restaurants elke 30 minuten de menuprijzen moesten aankondigen om rekening te houden met de inflatie.
+  Duitsland had enorme bedragen geleend om de oorlog te financieren. Echter, Duitsland verloor niet alleen de oorlog maar moest ook voor miljarden dollars aan herstelbetalingen doen. De maand met de hoogste inflatie was oktober 1923, met een piek van 29.500%, wat gelijk stond aan een inflatie van 20,9% per dag. De prijzen verdubbelden elke 3,7 dagen!
+  De Duitse valuta werd zo waardeloos dat sommige burgers liever hun papiergeld verbrandden in plaats van hout, omdat dat goedkoper was. Er wordt zelfs verteld dat obers in restaurants elke 30 minuten de menuprijzen moesten aankondigen om rekening te houden met de inflatie.
 
 Uiteindelijk creëerden de autoriteiten een nieuwe valuta, gedekt door de schulden van Duitsland, Frankrijk en Engeland en gegarandeerd door Duits land.
 
@@ -321,23 +318,23 @@ Uiteindelijk creëerden de autoriteiten een nieuwe valuta, gedekt door de schuld
 
 - Hongarije, 1945-1946
 
-Het land dat tot nu toe de ergste periode van hyperinflatie heeft doorgemaakt, is veruit Hongarije na de Tweede Wereldoorlog.
+  Het land dat tot nu toe de ergste periode van hyperinflatie heeft doorgemaakt, is veruit Hongarije na de Tweede Wereldoorlog.
 
-Hongarije bevond zich aan de verliezende kant van het conflict en het grootste deel van zijn industriële productiecapaciteit was vernietigd. De maand met de hoogste inflatie was juli 1946, met een duizelingwekkende prijsinflatie van 41.900.000.000.000.000%, gelijk aan 207% per dag. De prijzen verdubbelden elke 15 uur!
+  Hongarije bevond zich aan de verliezende kant van het conflict en het grootste deel van zijn industriële productiecapaciteit was vernietigd. De maand met de hoogste inflatie was juli 1946, met een duizelingwekkende prijsinflatie van 41.900.000.000.000.000%, gelijk aan 207% per dag. De prijzen verdubbelden elke 15 uur!
 
-Het laatste bankbiljet dat in omloop werd gebracht was een 100 miljoen miljard Pengo (100.000.000.000.000.000) in 1946.
+  Het laatste bankbiljet dat in omloop werd gebracht was een 100 miljoen miljard Pengo (100.000.000.000.000.000) in 1946.
 
 ![image](assets/en/21.webp)
 
 - Zimbabwe, 2007-2008
 
-Tot het jaar 2000 was Zimbabwe zelfvoorzienend voor bijna al zijn behoeften, behalve voor olie.
+  Tot het jaar 2000 was Zimbabwe zelfvoorzienend voor bijna al zijn behoeften, behalve voor olie.
 
-In 1997 stortte de Zimbabwaanse dollar met meer dan 72% in nadat de regering ermee had ingestemd om oorlogsveteranen te compenseren voor het equivalent van 450 miljoen US dollar. Omdat de regering een dergelijk bedrag niet in voorraad had, nam ze haar toevlucht tot de geld printer. In 2005 bereikte de inflatie 586%, maar het hoogtepunt was midden november 2008 met een geschat percentage van 79.600.000.000% per maand.
+  In 1997 stortte de Zimbabwaanse dollar met meer dan 72% in nadat de regering ermee had ingestemd om oorlogsveteranen te compenseren voor het equivalent van 450 miljoen US dollar. Omdat de regering een dergelijk bedrag niet in voorraad had, nam ze haar toevlucht tot de geldprinter. In 2005 bereikte de inflatie 586%, maar het hoogtepunt was midden november 2008 met een geschat percentage van 79.600.000.000% per maand.
 
-In juni 2007 had de regering al gereageerd door prijscontroles in te stellen, maar deze actie had geen enkele invloed op de economie. Winkels werden geplunderd en handelaren hadden niet langer de middelen om hun winkelvoorraden aan te vullen.
+  In juni 2007 had de regering al gereageerd door prijscontroles in te stellen, maar deze actie had geen enkele invloed op de economie. Winkels werden geplunderd en winkeliers hadden niet langer de middelen om hun winkelvoorraden aan te vullen.
 
-In april 2009 kondigde de minister van Financiën de opschorting van de Zimbabwaanse dollar aan en stond hij het gebruik van verschillende buitenlandse valuta toe voor de handel. Alle bankrekeningen, pensioenen en financiële instellingen zagen hun tegoeden van de ene op de andere dag verdampen.
+  In april 2009 kondigde de minister van Financiën de opschorting van de Zimbabwaanse dollar aan en stond hij het gebruik van verschillende buitenlandse valuta toe voor de handel. Alle bankrekeningen, pensioenen en financiële instellingen zagen hun tegoeden van de ene op de andere dag verdampen.
 
 ![image](assets/en/15.webp)
 
@@ -362,11 +359,11 @@ De monetaire uitgifte ervan kan worden geïllustreerd door een curve die de hoev
 
 ### Hoe worden nieuwe bitcoins gemaakt?
 
-De creatie van nieuwe bitcoins is het resultaat van het mining proces. In een notendop gebruiken miners krachtige computers die complexe wiskundige problemen oplossen (Hash), die transacties valideren en beveiligen. Zodra een probleem is opgelost (of een geldige Hash is gevonden), voegt de miner een nieuw blok met transacties toe aan de blockchain, een gedecentraliseerde en gedistribueerde ledger (grootboek) die alle transacties op het netwerk registreert. De blockchain zorgt voor transparantie en veiligheid, omdat elk blok gelinkt is aan het vorige, waardoor het bijna onmogelijk is om gegevens uit het verleden te wijzigen zonder consensus van het netwerk.
+De creatie van nieuwe bitcoins is het resultaat van het mining proces. In een notendop gebruiken miners krachtige computers die complexe wiskundige problemen oplossen (hash), die transacties valideren en beveiligen. Zodra een probleem is opgelost (of een geldige hash is gevonden), voegt de miner een nieuw blok met transacties toe aan de blockchain, een gedecentraliseerde en gedistribueerde ledger (grootboek) die alle transacties op het netwerk registreert. De blockchain zorgt voor transparantie en veiligheid, omdat elk blok gelinkt is aan het vorige, waardoor het bijna onmogelijk is om gegevens uit het verleden te wijzigen zonder consensus van het netwerk.
 
 ![image](assets/en/23.webp)
 
-Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloond met de uitgifte van nieuwe bitcoins. Deze beloning is geprogrammeerd om elke 210.000 blokken te halveren, wat ongeveer elke vier jaar is (een gebeurtenis die bekend staat als "Halving (halvering)"), waardoor de monetaire uitgiftecurve een trapvorm krijgt. Door dit mechanisme kan wiskundig worden voorspeld dat de creatie van nieuwe bitcoins zal stoppen tegen het jaar 2140, wanneer het totale aantal de limiet van 21 miljoen bereikt.
+Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloond met de uitgifte van nieuwe bitcoins. Deze beloning is geprogrammeerd om elke 210.000 blokken te halveren, wat ongeveer elke vier jaar is (een gebeurtenis die bekend staat als "halving (halvering)"), waardoor de monetaire uitgiftecurve een trapvorm krijgt. Door dit mechanisme kan wiskundig worden voorspeld dat de creatie van nieuwe bitcoins zal stoppen tegen het jaar 2140, wanneer het totale aantal de limiet van 21 miljoen bereikt.
 
 | Halveringsnummer | Blockhoogte | BTC beloning na halvering | Geschatte BTC in omloop na halvering |
 | ---------------- | ----------- | ------------------------- | ------------------------------------ |
@@ -397,9 +394,9 @@ We zullen het concept van mining in meer detail bespreken in het [miner hoofdstu
 
 De grens van 21 miljoen is de basis van de schaarste van Bitcoin en wordt gegarandeerd door twee sleutelmechanismen: de aanpassing van de mining moeilijkheidsgraad en de speltheorie (game theory).
 
-- De mining moeilijkheidsaanpassing is een proces dat elke 2016 blokken plaatsvindt, wat neerkomt op ongeveer twee weken, en ervoor zorgt dat er gemiddeld elke tien minuten een nieuw blok aan de blockchain wordt toegevoegd. Deze frequentie van het creëren van de blokken en de totale hoeveelheid bitcoins zijn beide vaste aspecten van het Bitcoin protocol en kunnen niet worden veranderd zonder algemene consensus, in tegenstelling tot de arbitraire beslissingen die worden genomen in traditionele monetaire systemen.
+- De moeilijkheidsaanpassing van mining is een proces dat elke 2016 blokken plaatsvindt, wat neerkomt op ongeveer twee weken, en ervoor zorgt dat er gemiddeld elke tien minuten een nieuw blok aan de blockchain wordt toegevoegd. Deze frequentie van het creëren van de blokken en de totale hoeveelheid bitcoins zijn beide vaste aspecten van het Bitcoin protocol en kunnen niet worden veranderd zonder algemene consensus, in tegenstelling tot de arbitraire beslissingen die worden genomen in traditionele monetaire systemen.
 
-De moeilijkheidsgraad van het vinden van een geldig Hash volgt een soort cyclus: als het aantal miners toeneemt en meer blokken sneller gevonden worden, zorgt dit voor een daling van de gemiddelde tijd om een blok te vinden en wordt de moeilijkheidsgraad dus verhoogd. Als gevolg daarvan wordt het aantal blokken dat miners vinden verlaagd, wat betekent dat het mechanisme teruggaat naar het gemiddelde van 10 minuten per blok. Zie de afbeelding hieronder voor een visuele weergave.
+De moeilijkheidsgraad van het vinden van een geldig hash volgt een soort cyclus: als het aantal miners toeneemt en meer blokken sneller gevonden worden, zorgt dit voor een daling van de gemiddelde tijd om een blok te vinden en wordt de moeilijkheidsgraad dus verhoogd. Als gevolg daarvan wordt het aantal blokken dat miners vinden verlaagd, wat betekent dat het mechanisme teruggaat naar het gemiddelde van 10 minuten per blok. Zie de afbeelding hieronder voor een visuele weergave.
 
 ![image](assets/en/24.webp)
 
@@ -434,7 +431,7 @@ In feite kan iedereen dit doen via een Bitcoin node (d.w.z. een transactie valid
 }
 ```
 
-Bitcoin garandeert een gezond monetair management door de creatie ervan te beperken, wat het heel anders maakt dan andere munteenheden omdat het het spaargeld van gebruikers kan beschermen. In lijn met de principes van de Oostenrijkse school van economie, beschermen de stabiele hoeveelheid en voorspelbare distributie het tegen de inherente risico's van inflatie waar traditionele valuta mee te maken hebben (zie de ECO201 cursus om hier meer over te leren).
+Bitcoin garandeert een gezond monetair management door de creatie ervan te beperken, wat het heel anders maakt dan andere munteenheden omdat het het spaargeld van gebruikers kan beschermen. In lijn met de principes van de Oostenrijkse school van economie, beschermen de stabiele hoeveelheid en voorspelbare distributie het tegen de inherente risico's van inflatie waar traditionele valuta's mee te maken hebben (zie de ECO201 cursus om hier meer over te leren).
 
 Samengevat biedt Bitcoin, met zijn gedecentraliseerde aard, geprogrammeerde schaarste en transparantie, een uniek alternatief voor traditionele monetaire systemen. Het illustreert hoe technologie gebruikt kan worden om een valuta te creëren die niet alleen nuttig en controleerbaar is, maar ook de waarde van het spaargeld van gebruikers behoudt door de geldhoeveelheid strikt te beperken.
 
@@ -460,7 +457,7 @@ We gebruiken wallets om te communiceren met het Bitcoin netwerk op drie belangri
 
 Een Bitcoin wallet kan vele vormen hebben: software op je computer, een applicatie op je smartphone, een fysiek apparaat zoals een USB-stick of zelfs een stuk papier. Ze dienen allemaal verschillende gebruikssituaties. Sommige zijn ontworpen voor grote transacties met de nadruk op veiligheid, terwijl andere privacy voorop stellen, of ze zijn bedoeld voor dagelijkse betalingen van kleine bedragen.
 
-Wallets kunnen dus worden onderverdeeld in brede gebruiksfamilies, waarbij steeds een belangrijke vraag centraal staat: ben je de eigenaar van het geld of laat je de controle over je geld over aan een derde partij? In het volgende hoofdstuk gaan we hier dieper op in, maar de vraag blijft eenvoudig: zit het geld in jouw zak of in de zak van je bankier?
+Wallets kunnen dus worden onderverdeeld in brede gebruiksfamilies, waarbij steeds een belangrijke vraag centraal staat: ben je de eigenaar van je tegoeden of laat je de controle over je tegoeden over aan een derde partij? In het volgende hoofdstuk gaan we hier dieper op in, maar de vraag blijft eenvoudig: zit het geld in jouw zak of in de zak van je bankier?
 
 ![image](assets/en/26.webp)
 
@@ -470,17 +467,17 @@ Of het nu je Bitcoin "bankier" is of jezelf, de overgrote meerderheid van Bitcoi
 
 - Privésleutel
 
-Bij het initialiseren van een wallet wordt een geheime herstelzin, ook wel mnemonische zin (privésleutel) genoemd, gegenereerd en in de vorm van 12 of 24 woorden aan je gepresenteerd.
+  Bij het initialiseren van een wallet wordt een geheime herstelzin gegenereerd, ook wel mnemonische zin (privésleutel) genoemd, en in de vorm van 12 of 24 woorden aan je gepresenteerd.
 
-De privésleutel is van fundamenteel belang omdat deze het eigenaarschap van de bitcoins vormt en dus het recht om ze te gebruiken of te versturen. Daarom is de houder van de privésleutel de echte eigenaar van de bitcoins. Zoals de populaire uitspraak luidt: "Niet jouw sleutels, niet jouw munten"
+  De privésleutel is van fundamenteel belang omdat deze het eigenaarschap van de bitcoins vormt en dus het recht geeft om ze te gebruiken of te versturen. Daarom is de houder van de privésleutel de echte eigenaar van de bitcoins. Zoals de populaire uitspraak luidt: "Niet jouw sleutels, niet jouw munten"
 
-Deze sleutel moet je geheim houden en goed beschermen, want hij geeft toegang tot je fortuin!
+  Deze sleutel moet je geheim houden en goed beschermen, want hij geeft toegang tot je fortuin!
 
 - Openbare sleutel & adressen
 
-De openbare sleutel wordt gegenereerd uit de privésleutel en is eraan gekoppeld. Het delen van de publieke sleutel brengt risico's met zich mee voor de privacy (omdat andere gebruikers je saldo kunnen zien), maar niet voor de veiligheid (omdat ze je geld niet kunnen uitgeven zonder de privésleutel te bezitten). De openbare sleutel wordt op zijn beurt gebruikt om Bitcoin adressen aan te maken en dus geld te ontvangen.
+  De openbare sleutel wordt gegenereerd uit de privésleutel en is eraan gekoppeld. Het delen van de publieke sleutel brengt risico's met zich mee voor de privacy (omdat andere gebruikers je saldo kunnen zien), maar niet voor de veiligheid (omdat ze je tegoeden niet kunnen uitgeven zonder de privésleutel te bezitten). De openbare sleutel wordt op zijn beurt gebruikt om Bitcoin adressen aan te maken en dus geld te ontvangen.
 
-Deze adressen worden automatisch aangemaakt door je wallet en kunnen veilig worden gedeeld. Om uw privacy te maximaliseren, is het raadzaam om ze slechts eenmaal te gebruiken.
+  Deze adressen worden automatisch aangemaakt door je wallet en kunnen veilig worden gedeeld. Om uw privacy te maximaliseren, is het raadzaam om ze slechts eenmaal te gebruiken.
 
 Samengevat stelt deze technologie ons in staat om bitcoins te ontvangen zonder dat de ontvanger ons geld kan stelen! Een brievenbus zou een passende metafoor kunnen zijn: mensen kunnen er geld in storten, maar jij bent de enige die hem kan openen.
 
@@ -514,7 +511,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### De juiste vragen stellen voordat je begint
 
-Als je bitcoins bezit, is de veiligheid van je geld een grote zorg. De beste manier om een beveiligingsniveau te bepalen dat geschikt is voor jouw situatie, is door jezelf een aantal vragen te stellen:
+Als je bitcoins bezit, is de veiligheid van je tegoeden een grote zorg. De beste manier om een beveiligingsniveau te bepalen dat geschikt is voor jouw situatie, is door jezelf een aantal vragen te stellen:
 
 - Wie heeft toegang tot je tegoeden? Met andere woorden, heb jij als enige toegang tot je bitcoins, of geeft een derde partij (zoals een bedrijf) je toegang tot je tegoeden?
 - Hoe ben je van plan de bitcoins in deze wallet te gebruiken? Regelmatig? Om op middellange of lange termijn te sparen?
@@ -610,7 +607,7 @@ De woordenlijsten moeten worden bewaard op een veilige plek die je gemakkelijk k
 
 **Jouw woorden = jouw geld.**
 
-Zowel 'cold' als 'hot' wallets gebruiken de woordenlijstmethode als standaard voor het back-uppen van privésleutels. Als gevolg hiervan kun je je jouw mnemonische zin in elke compatibele wallet software of apparaat invoeren om je toegang te herstellen. Aan de andere kant raden we het gebruik van wallets die geen seed phrase (herstelzin) bieden sterk af, omdat ze je kunnen vragen om een account, een e-mailadres of, erger nog, een ID op te geven.
+Zowel 'cold' als 'hot' wallets gebruiken de woordenlijstmethode als standaard voor het back-uppen van privésleutels. Als gevolg hiervan kun je jouw mnemonische zin in elke compatibele wallet software of apparaat invoeren om je toegang te herstellen. Aan de andere kant raden we het gebruik van wallets die geen seed phrase (herstelzin) bieden sterk af, omdat ze je kunnen vragen om een account, een e-mailadres of, erger nog, een ID op te geven.
 
 **OPGELET: De afwezigheid van een lijst van 12/24 woorden zou je moeten waarschuwen.**
 
@@ -661,7 +658,7 @@ Bij het maken van een wallet is het uiterst belangrijk dat je eerst een back-up 
 In de wereld van Bitcoin is financiële soevereiniteit nauw verbonden met individuele verantwoordelijkheid, waardoor het essentieel is om de toegang tot je wallets en back-ups veilig te stellen. Om dit te bereiken, is het belangrijk om bepaalde richtlijnen te volgen:
 
 - Maak een erfenisplan om ervoor te zorgen dat je dierbaren het geld terug kunnen krijgen in geval van problemen.
-- Vermijd het achterlaten van je bitcoins op exchange platformen, omdat deze gevoelig kunnen zijn voor aanvallen van hackers.
+- Vermijd het achterlaten van je bitcoins op handelsplatformen (exchange platforms), omdat deze gevoelig kunnen zijn voor aanvallen van hackers.
 - Pas je beveiligingsniveau aan je behoeften en gebruikssituaties aan, zodat je een goede keuze kunt maken uit de vele verschillende Bitcoin wallets die beschikbaar zijn.
 
 Nu we de basisprincipes van Bitcoin wallets en de beste methodes om ze te beveiligen behandeld hebben, zullen we in het volgende hoofdstuk de technische eigenschappen van Bitcoin onderzoeken. Nogmaals, het begrijpen van de basis van het Bitcoin protocol zal je begrip van hoe het werkt vergroten, waardoor je er beter gebruik van kunt maken.
@@ -689,7 +686,7 @@ Op 3 januari 2009 opende Satoshi officieel het Bitcoin netwerk door het eerste b
 ![image](assets/en/41.webp)
 
 > "We kunnen een belangrijke slag winnen in de wapenwedloop en een
-> nieuw gebied van vrijheid voor meerdere jaren verwerven." - Satoshi Nakamoto
+> nieuw territorium van vrijheid voor meerdere jaren verwerven." - Satoshi Nakamoto
 
 ![image](assets/en/42.webp)
 
@@ -710,7 +707,7 @@ Het forum werd al snel de favoriete plaats voor discussie onder Bitcoin gebruike
 
 In 2010, toen Bitcoin media-aandacht begon te krijgen, besloot Satoshi afstand te nemen door zijn vertrek aan te kondigen in een forumbericht op 12 december 2010. Op 23 april 2011 maakte hij zijn laatste bekende privé-uitwisseling via e-mail, waarna hij verdween en zijn creatie achterliet in de handen van de gemeenschap.
 
-> "Regeringen zijn goed in het afsnijden van de hoofden van een centraal
+> "Regeringen zijn goed in het afsnijden van de koppen van een centraal
 > gecontroleerde netwerken zoals Napster, maar pure P2P netwerken zoals
 > Gnutella en Tor lijken stand te houden." - Satoshi Nakamoto
 
@@ -760,7 +757,7 @@ In feite hebben miners de taak om geldige en onbevestigde transacties te verzame
 
 ### Stap 3: De transactie wordt gemined in een blok door een miner.
 
-Het proof of work systeem vereist het vinden van een geldige "Hash" voor het blok in kwestie: zie het als een unieke vingerafdruk geassocieerd met het blok, bestaande uit 256 karakters. De geldigheid van deze Hash hangt af van de moeilijkheidsgraad van het Bitcoin netwerk (we gaan hier later dieper op in). Voor nu, stel dat een miner een geldig blok heeft gevonden, en dat Bob's transactie naar Alice erin is opgenomen. Dan wordt het nieuwe geldige blok toegevoegd aan de blockchain, de gemeenschappelijke ledger (grootboek) voor alle Bitcoin gebruikers.
+Het proof of work systeem vereist het vinden van een geldige "hash" voor het blok in kwestie: zie het als een unieke vingerafdruk geassocieerd met het blok, bestaande uit 256 karakters. De geldigheid van deze hash hangt af van de moeilijkheidsgraad van het Bitcoin netwerk (we gaan hier later dieper op in). Voor nu, stel dat een miner een geldig blok heeft gevonden, en dat Bob's transactie naar Alice erin is opgenomen. Dan wordt het nieuwe geldige blok toegevoegd aan de blockchain, de gemeenschappelijke ledger (grootboek) voor alle Bitcoin gebruikers.
 
 ![image](assets/en/49.webp)
 
@@ -776,7 +773,7 @@ In dit stadium wordt de transactie als geldig beschouwd: de miner zal dan het ni
 
 Het Bitcoin transactiesysteem is gedecentraliseerd en werkt peer-to-peer, zonder vertrouwde tussenpersonen.
 
-Bob stuurt zijn transactie naar het Bitcoin netwerk, en wanneer een miner een geldig blok publiceert dat Bob's transactie bevat, kan Alice er langzaam vanuit gaan dat de bitcoins van haar zijn. Vertrouwen is bij geen enkele stap van de overdracht van bitcoin vereist: alleen al de protocolregels en economische stimulansen maken het onbetaalbaar om kwaadwillig te handelen binnen het Bitcoin systeem.
+Bob stuurt zijn transactie naar het Bitcoin netwerk, en wanneer een miner een geldig blok publiceert dat Bob's transactie bevat, kan Alice er langzaam vanuit gaan dat de bitcoins van haar zijn. Vertrouwen is bij geen enkele stap van de overdracht van bitcoin vereist: alleen al de protocolregels en economische stimulansen maken het nagenoeg onbetaalbaar om kwaadwillig te handelen binnen het Bitcoin systeem.
 
 In feite dragen gebruikers eigenaarscahp van hun tegoeden over door transacties digitaal te ondertekenen met hun eigen privésleutels. Aan de andere kant hebben miners beperkte macht en behouden gebruikers aanzienlijke controle door Bitcoin nodes te gebruiken om de nieuwe blokken en de bijbehorende transacties te valideren. Elke node heeft een volledige of gedeeltelijke kopie van de ledger (grootboek), dus het netwerk gevormd door de Bitcoin nodes maakt het systeem echt gedecentraliseerd.
 
@@ -816,7 +813,6 @@ Er zijn verschillende opties beschikbaar als je je eigen node wilt installeren, 
 ![image](assets/en/53.webp)
 
 Een tweede optie is om hiervoor speciale hardware te gebruiken, zoals een Raspberry Pi 4 met een voldoende grote SSD (ongeveer ~2TB). Deze andere optie is duurder als je de hardware moet kopen, maar het vertegenwoordigt iets minder dan €10,00 per jaar in termen van elektriciteitsverbruik.
-
 Vanuit het oogpunt van bandbreedte komt 1 blok van 1MB elke 10 minuten ongeveer overeen met 5GB per maand.
 
 ### Nodes moeten toegankelijk blijven voor iedereen!
@@ -831,7 +827,7 @@ Integendeel, als de blokken 100 keer zo zwaar zouden zijn, zouden we zeker 100 k
 
 De protocolrestricties zijn dus ontworpen om zoveel mogelijk mensen in staat te stellen hun eigen Bitcoin nodes te gebruiken. Het jaar 2017 werd in feite gekenmerkt door een intense controverse die bekend staat als de "block size war (blokgrootte oorlog)". In dit conflict stonden degenen die Bitcoin wilden wijzigen door de blokgrootte te vergroten om de transactiecapaciteit te vergroten (miners, exchange platforms en instellingen) tegenover degenen die de onafhankelijkheid en macht van gebruikers wilden behouden (nodes en gebruikers). Uiteindelijk zegevierde de tweede partij.
 
-Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg vrijmaakte voor de implementatie van het Lightning Network, een instant Bitcoin betalingsnetwerk gebouwd als een tweede laag van de Bitcoin blockchain. Deze situatie toont aan dat gebruikers, via hun nodes, echte macht hebben binnen Bitcoin, waardoor ze het kunnen opnemen tegen grote instellingen in tijden van onenigheid.
+Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg vrijmaakte voor de implementatie van het Lightning Network, een direct Bitcoin betalingsnetwerk gebouwd als een tweede laag van de Bitcoin blockchain. Deze situatie toont aan dat gebruikers, via hun nodes, de echte macht hebben binnen Bitcoin, waardoor ze het kunnen opnemen tegen grote instellingen in tijden van onenigheid.
 
 ## Miners
 
@@ -848,7 +844,7 @@ Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg v
 Om uit te leggen hoe het werkt, stel je een universele loterij voor waaraan iedereen kan deelnemen. Het doel is om een specifiek getal te vinden waarmee de winnaar een geldig blok kan ondertekenen en een beloning in Bitcoin verdient. Dit getal is heel eenvoudig te verifiëren met de SHA-256 hash functie, maar moeilijk te vinden: deelnemers (miners) zullen miljarden en miljarden mogelijkheden proberen, zoals 1, 52, 2648, 26874615, 15344854131318631, enzovoort, totdat ze het juiste getal ontdekken.
 
 Als het gekozen nummer juist is: Jackpot! Anders gaat de zoektocht verder.
-Om het aantal pogingen te optimaliseren gebruiken ze specifieke machines, ASIC's genaamd, die als enige taak hebben om miljarden mogelijkheden per seconde te berekenen (de totale hoeveelheid pogingen wordt "HashRate" genoemd). Om deze machines te laten werken, moeten grote hoeveelheden elektriciteit worden verbruikt. Daarom zet POW energie om in valuta en verbindt het de echte wereld met de digitale wereld om de eerste op energie gebaseerde valuta te creëren.
+Om het aantal pogingen te optimaliseren gebruiken ze specifieke machines, ASIC's genaamd, die als enige taak hebben om miljarden mogelijkheden per seconde te berekenen (de totale hoeveelheid pogingen wordt "HashRate" genoemd). Om deze machines te laten werken, moeten grote hoeveelheden elektriciteit worden verbruikt. Daarom zet POW energie om in geld en verbindt het de echte wereld met de digitale wereld om de eerste op energie gebaseerde munt te creëren.
 
 De machines werken continu en na gemiddeld 10 minuten komt er een winnaar uit de bus: deze deelnemer heeft met succes de juiste hash gevonden die onder de moeilijkheidsdrempel valt. Deze ene winnaar tekent vervolgens het nieuwe blok van de timestamp server en voegt het toe aan de blockchain. Ze ontvangen hun beloningen en keren terug om hun geluk te beproeven bij het minen van het volgende blok. Dit proces is al meer dan tien jaar aan de gang, waarbij een winnaar elke 10 minuten Bitcoin transacties bevestigt, terwijl hij ook transacties uit het verleden beveiligt, waardoor de blockchain robuuster en veiliger wordt.
 
@@ -858,7 +854,7 @@ Elke 2016 blokken (ongeveer elke twee weken), herbalanceert de **moeilijkheidsaa
 
 ### Mining evolueert voortdurend
 
-In de loop der jaren hebben miners zich uitgerust met steeds efficiëntere computerhardware om zoveel mogelijk hashes per seconde te produceren (HashRate) terwijl ze zo min mogelijk energie verbruiken op een zo kosteneffectief mogelijke manier. De eerste miners, zoals Satoshi of Hal Finney, mineden alleen met hun CPU, daarna begonnen anderen met mining met hun grafische kaarten. Tegenwoordig gebruiken miners ASIC's (Application-Specific Integrated Circuit): machines die enkel ontworpen zijn om het SHA256 algoritme toe te passen.
+In de loop der jaren hebben miners zich uitgerust met steeds efficiëntere computerhardware om zoveel mogelijk hashes per seconde te produceren (HashRate) terwijl ze zo min mogelijk energie verbruiken op een zo kosteneffectief mogelijke manier. De eerste miners, zoals Satoshi of Hal Finney, mineden alleen met hun CPU, daarna begonnen anderen met minen via hun grafische kaarten. Tegenwoordig gebruiken miners ASIC's (Application-Specific Integrated Circuit): machines die enkel ontworpen zijn om het SHA256 algoritme toe te passen.
 
 ![image](assets/en/56.webp)
 
@@ -925,18 +921,16 @@ Laten we eerst de milieukosten van mining kwalitatief beoordelen. Een miner moet
 
 ![image](assets/en/61.webp)
 
-Het elektriciteitsverbruik vertegenwoordigt bijna alle kosten voor een miner. Daarom worden ze aangemoedigd om een goedkope elektriciteitsbron te vinden. Daarom worden ze aangemoedigd om een goedkope bron van elektriciteit te vinden, zodat ze naar plaatsen kunnen gaan waar elektriciteitscentrales zijn geïnstalleerd maar nog niet zijn aangesloten op het elektriciteitsnet van het gebied. In dit geval fungeren miners als een laatste redmiddel, waardoor energiecentrales financiering kunnen krijgen nog voordat ze op het elektriciteitsnet zijn aangesloten. Wanneer ze worden aangesloten, zal de vraag naar elektriciteit toenemen, waardoor de prijs zal stijgen en het voor miners minder rendabel wordt om op deze plaatsen elektriciteit te kopen. Aangezien de machines gemakkelijk verplaatst kunnen worden, zullen miners dan beslissen om hun installatie mee te nemen en zich verder weg te vestigen waar de vraag laag is en de prijs dus ook, meestal in gebieden waar ze energie kunnen krijgen van groene energiecentrales.
+Het elektriciteitsverbruik vertegenwoordigt bijna alle kosten voor een miner. Daarom worden ze aangemoedigd om een goedkope bron van elektriciteit te vinden, zodat ze naar plaatsen kunnen gaan waar elektriciteitscentrales zijn geïnstalleerd maar nog niet zijn aangesloten op het elektriciteitsnet van het gebied. In dit geval fungeren miners als een laatste redmiddel, waardoor energiecentrales financiering kunnen krijgen nog voordat ze op het elektriciteitsnet zijn aangesloten. Wanneer ze worden aangesloten, zal de vraag naar elektriciteit toenemen, waardoor de prijs zal stijgen en het voor miners minder rendabel wordt om op deze plaatsen elektriciteit te kopen. Aangezien de machines gemakkelijk verplaatst kunnen worden, zullen miners dan beslissen om hun installatie mee te nemen en zich verder weg te vestigen waar de vraag laag is en de prijs dus ook, meestal in gebieden waar ze energie kunnen krijgen van groene energiecentrales.
 
 ### Een eindeloos debat
 
-Het debat over de ecologische impact van Bitcoin is dus vaak misleidend, voornamelijk door onvoldoende inzicht in het nut ervan. Bitcoin kan niet simpelweg worden geëvalueerd in termen van energiekosten per transactie, omdat miners zowel het huidige als het historische netwerk beveiligen, en transacties worden gegroepeerd en niet allemaal gelijkwaardig zijn. Bovendien wordt er niet eens rekening gehouden met de impact van Lightning Network. Degenen die beweren dat Bitcoin te veel energie verbruikt, kunnen politieke motivaties hebben of proberen hun eigen Blockchain oplossing te verkopen. Vaak wordt het ecologische voorwendsel gebruikt om het verbieden van Bitcoin te rechtvaardigen.
+Het debat over de ecologische impact van Bitcoin is dus vaak misleidend, voornamelijk door onvoldoende inzicht in het nut ervan. Bitcoin kan niet simpelweg worden geëvalueerd in termen van energiekosten per transactie, omdat miners zowel het huidige als het historische netwerk beveiligen, en transacties worden gegroepeerd en niet allemaal gelijkwaardig zijn. Bovendien wordt er niet eens rekening gehouden met de impact van het Lightning Network. Degenen die beweren dat Bitcoin te veel energie verbruikt, kunnen politieke motivaties hebben of proberen hun eigen Blockchain oplossing te verkopen. Vaak wordt het ecologische voorwendsel gebruikt om het verbieden van Bitcoin te rechtvaardigen.
 
 Het is belangrijk om te benadrukken dat Bitcoin, als revolutionaire uitvinding, individuen die onder financiële onderdrukking of dictatoriale regimes leven een middel biedt om voor hun vrijheid te vechten. Als laatste redmiddel biedt Bitcoin een weg naar financiële onafhankelijkheid door censuur en bankbeperkingen te omzeilen. Bitcoin is meer dan alleen een munteenheid, het dient als een vorm van communicatie en een symbool van vrijheid, en de energie die miners erin steken speelt een cruciale rol in het verdedigen van deze vrijheid, waardoor emancipatie mogelijk wordt van een financieel systeem dat gedomineerd wordt door schulden en buitensporige printen van geld door centrale banken.
 
 ![image](assets/en/62.webp)
-
 ![image](assets/en/63.webp)
-
 ![image](assets/en/64.webp)
 
 Voor mensen die in landen met een hoge inflatie leven, is Bitcoin een kwestie van overleven. Het biedt een middel om te overleven in precaire financiële situaties. Bovendien biedt Bitcoin een rechtvaardiger en onpartijdiger financieel systeem, waardoor miljarden mensen wereldwijd toegang krijgen tot financiële middelen. Is het energieverbruik vanuit dit perspectief gerechtvaardigd?

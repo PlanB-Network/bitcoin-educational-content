@@ -228,37 +228,41 @@ Sebagai kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai deng
 
 ### Bagaimana peretas menyerang?
 
-Untuk melindungi diri Anda dengan baik, sangat penting untuk memahami bagaimana peretas mencoba menyusup ke komputer Anda. Memang, virus tidak sering muncul secara ajaib, tetapi lebih sering merupakan konsekuensi dari tindakan kita, bahkan tindakan kita yang tak sengaja!
+Untuk melindungi diri secara efektif, penting untuk memahami bagaimana peretas mencoba menyusup ke komputer Anda. Sejatinya, virus tidak sering muncul secara ajaib, melainkan merupakan konsekuensi dari tindakan kita, meskipun tidak disengaja.
 
-Secara umum, virus datang karena Anda telah membiarkan komputer Anda mengundang mereka ke rumah Anda. Misalnya, dengan mengunduh perangkat lunak yang mencurigakan, file torrent yang telah disusupi, atau hanya dengan mengklik tautan email penipuan!
+Sebagai aturan umum, virus masuk karena Anda telah membiarkan komputer Anda mengundang mereka masuk. Ini bisa divisualisasikan dengan mengunduh perangkat lunak yang mencurigakan, file torrent yang sudah disusupi, atau sekadar mengeklik tautan dalam email penipuan (fraudulent email).
 
 ### *Phishing*, kewaspadaan terhadap email penipuan:
 
-Perhatian! Email adalah media penyerangan retasan dan pembobolan pertama, berikut beberapa tips:
+Perhatian! Email adalah media peretasan pertama, Berikut beberapa tips penting:
 
-- Tetap waspada terhadap upaya *phishing* yang bertujuan untuk mengambil informasi sensitif seperti nama pengguna dan kata sandi Anda. Hindari mengklik tautan mencurigakan dan berbagi informasi pribadi Anda tanpa memastikan keaslian identitas pengirimnya.
+- Tetap waspada terhadap upaya *phishing* yang bertujuan mencuri informasi sensitif Anda, seperti nama pengguna dan kata sandi. Hindari mengklik tautan yang mencurigakan dan berbagi informasi pribadi Anda tanpa memverifikasi keaslian pengirim.
+
 - Berhati-hatilah dengan lampiran email dan gambar:
   Lampiran email dan gambar dapat mengandung *malware*. Jangan mengunduh atau membuka lampiran dari pengirim yang tidak dikenal atau mencurigakan, dan pastikan antivirus Anda sudah diperbarui.
 
-Aturan penting di sini adalah untuk memeriksa dengan cermat nama lengkap pengirim serta asal email. Jika Anda ragu, hapus saja!
+Aturan penting di sini adalah memeriksa dengan cermat nama lengkap pengirim serta asal email. Jika Anda ragu, hapus saja!
 
 ### *Ransomware* dan jenis serangan siber:
 
-*Ransomware* adalah jenis perangkat lunak berbahaya yang mengunci data pengguna dan meminta tebusan untuk membukanya kembali. Jenis serangan ini menjadi semakin sering terjadi dan dapat menimbulkan masalah serius bagi sebuah perusahaan atau individu. Untuk melindungi diri, penting untuk membuat salinan cadangan untuk file-file yang paling penting! Hal ini tidak akan menghentikan *ransomware*, tapi setidaknya Anda bisa mengabaikannya dan tetap punya akses ke data kamu.
+*Ransomware* adalah jenis perangkat lunak jahat (malicious software) yang mengenkripsi data pengguna dan meminta tebusan untuk membukanya kembali. Jenis serangan ini semakin umum dan bisa sangat merepotkan, baik bagi perusahaan maupun individu. Untuk melindungi diri, sangat penting untuk membuat cadangan (backup) file-file yang paling penting! Ini tidak akan menghentikan *ransomware*, tapi akan memungkinkan Anda untuk mengabaikannya (dan tidak perlu membayar tebusan).
+
 ![](assets/notext/14.webp)
-Anda sebaiknya secara rutin mencadangkan data penting Anda ke perangkat penyimpanan eksternal atau layanan penyimpanan online yang aman. Dengan cara ini, apabila terjadi serangan siber atau kerusakan atau kegagalan perangkat keras, Anda dapat memulihkan data Anda tanpa kehilangan informasi penting.
 
-Solusi sederhana:
+Cadangkan data penting Anda secara teratur ke perangkat penyimpanan eksternal atau layanan penyimpanan online yang aman. Dengan begitu, jika terjadi serangan siber atau kegagalan perangkat keras, Anda bisa memulihkan data tanpa kehilangan informasi penting.
 
-- Beli *hard drive* eksternal dan salin data Anda ke dalamnya. Lepas *hard drive* eksternal tersebut dan simpan di suatu tempat di rumah. (Melakukan ini dua kali dan menyimpan salah satu pencadangan di lokasi lain akan membantu Anda untuk melindungi dari potensi kebakaran.)
+Berikut solusi sederhananya:
 
-- Buat cadangan "cloud" menggunakan ProtonMail Drive, Sync, atau Google Drive. Cukup dengan mengunggah data sensitif Anda ke platform online ini. Namun, penting untuk disadari bahwa data Anda berpotensi ada di internet dan dipegang oleh pihak ketiga yang terpercaya.
+- Beli *hard drive* eksternal dan salin data Anda ke dalamnya. Setelah selesai, cabut *hard drive* tersebut dan simpan di lokasi yang aman di dalam rumah. (Melakukan ini dua kali dan menyimpan salah satu drive di lokasi lain dapat membantu melindungi dari potensi kebakaran).
+
+- Buat cadangan *cloud* menggunakan ProtonMail Drive, Sync, atau Google Drive. Unggah data penting Anda ke penyedia platform online ini. Namun, perlu diingat bahwa data Anda berpotensi berada di internet dan dipegang oleh pihak ketiga yang terpercaya.
+
 
 ### Apakah Anda harus membayar peretas?
 
-TIDAK, umumnya tidak disarankan untuk membayar peretas dalam kasus *ransomware* atau jenis serangan lainnya. Membayar tebusan tidak menjamin pemulihan data Anda dan dapat menjadi insentif bagi penjahat siber untuk melanjutkan aktivitas jahat mereka. Sebagai gantinya, prioritaskan pencegahan dan cadangan rutin data Anda untuk melindungi diri.
+Tidak, umumnya tidak disarankan untuk membayar peretas dalam kasus *ransomware* atau jenis serangan lainnya. Membayar tebusan tidak menjamin data Anda akan pulih dan justru bisa mendorong para penjahat siber untuk melanjutkan aktivitas jahat mereka. Sebaliknya, prioritaskan pencegahan dan pencadangan data secara rutin untuk melindungi diri Anda.
 
-Jika Anda mendeteksi virus di komputer Anda, matikan koneksi internet, lakukan pemindaian antivirus menyeluruh, dan hapus file yang terkena virus. Kemudian, perbarui perangkat lunak dan sistem operasi Anda, dan ubah kata sandi Anda untuk mencegah pembobolan lebih lanjut.
+Jika Anda mendeteksi virus di komputer Anda, segera putuskan koneksinya dari internet, lakukan pemindaian antivirus penuh, dan hapus file-file yang terinfeksi. Setelah itu, perbarui perangkat lunak dan sistem operasi Anda, serta ubah kata sandi Anda untuk mencegah pembobolan lebih lanjut.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 

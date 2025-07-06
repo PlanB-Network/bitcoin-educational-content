@@ -705,21 +705,21 @@ Uchanganuzi wa idhaa pia unajumuisha sehemu ya jumla zaidi ya OSINT (*Open Sourc
 
 ![BTC204](assets/fr/063.webp)
 
-### Mifano ya muda
+### Miundo ya Muda (Temporal models) 
 
-Tunalifikiria kidogo, lakini tabia fulani za wanadamu zinatambulika kwenye mnyororo. Labda muhimu zaidi katika uchanganuzi ni muundo wako wa kulala! Ndiyo, unapolala, hutangazi shughuli za Bitcoin. Lakini kwa ujumla hulala kwa takriban wakati huo huo. Hii ndiyo sababu ni kawaida kutumia uchanganuzi wa muda katika uchanganuzi wa kuzuia mnyororo. Kwa urahisi kabisa, hii ni sensa ya nyakati ambapo shughuli za huluki fulani zinatangazwa kwenye mtandao wa Bitcoin. Kwa kuchambua mifumo hii ya muda, tunaweza kupata habari nyingi.
+Tunafikiria hili mara chache, lakini tabia fulani za binadamu hutambulika onchain. Labda ya muhimu zaidi katika uchambuzi ni mpangilio wako wa usingizi! Ndiyo, unapolala, hutangazi miamala ya Bitcoin. Lakini kwa kawaida hulala karibu saa ile ile kila siku. Ndiyo maana ni jambo la kawaida kutumia uchambuzi wa muda (temporal analysis) katika uchambuzi wa blockchain. Kwa urahisi, hii ni sensa ya nyakati ambazo miamala ya huluki fulani hutangazwa kwenye mtandao wa Bitcoin. Kwa kuchambua mifumo hii ya muda, tunaweza kutoa taarifa nyingi muhimu.
 
-Kwanza kabisa, uchanganuzi wa muda unaweza wakati mwingine kutambua asili ya huluki iliyofuatiliwa. Tukiona kwamba miamala hiyo inatangazwa mfululizo kwa saa 24, basi hii itasaliti kiwango cha juu cha shughuli za kiuchumi. Huluki nyuma ya miamala hii huenda ikawa kampuni, inayoweza kuwa ya kimataifa na pengine yenye taratibu za kiotomatiki za ndani.
+Kwanza kabisa, uchambuzi wa muda unaweza wakati mwingine kubaini asili ya huluki inayofuatiliwa. Ikiwa tutaona kuwa miamala inatangazwa kwa mfululizo ndani ya saa 24, basi hili litaonyesha kiwango cha juu cha shughuli za kiuchumi. Huluki iliyo nyuma ya miamala hii huenda ni kampuni, huenda ya kimataifa, na pengine ina michakato ya ndani iliyojiotomatishwa.
 
-Kwa mfano, [nilitambua muundo huu miezi michache iliyopita](https://twitter.com/Loic_Pandul/status/1701127409712452072) nilipochanganua [muamala ambao ulitenga kimakosa bitcoins 19 katika ada](https://Mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Uchanganuzi rahisi wa muda uliniruhusu kudhania kuwa tunashughulikia huduma ya kiotomatiki, na kwa hivyo labda na huluki kubwa kama vile jukwaa la Ubadilishanaji.
+Kwa mfano, [nilitambua muundo huu miezi michache iliyopita](https://twitter.com/Loic_Pandul/status/1701127409712452072) nilipochanganua [muamala ambao ulitenga kimakosa bitcoins 19 katika ada](https://Mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Uchanganuzi rahisi wa muda uliniruhusu kudhania kuwa tunashughulikia huduma ya kiotomatiki, na kwa hivyo labda na huluki kubwa kama vile jukwaa la Exchange.
 
-Hakika, siku chache baadaye, iligunduliwa kuwa fedha hizo zilikuwa za PayPal, kupitia jukwaa Ubadilishalishanaji la Paxos .
+Hakika, siku chache baadaye, iligunduliwa kuwa fedha hizo zilikuwa za PayPal, kupitia jukwaa la exchange la Paxos .
 
 Kinyume chake, ikiwa tunaweza kuona kwamba muundo wa muda umeenea zaidi ya saa 16 mahususi, basi tunaweza kukadiria kwamba tunashughulika na mtumiaji binafsi, au labda kampuni ya ndani kulingana na kiasi kilichobadilishwa.
 
 Zaidi ya asili ya huluki inayozingatiwa, muundo wa muda unaweza pia kutuambia takriban mahali mtumiaji yuko, shukrani kwa maeneo ya saa. Kwa njia hii, tunaweza kulinganisha miamala mingine, na kutumia mihuri yao ya muda kama utabiri wa ziada ambao unaweza kuongezwa kwenye uchanganuzi wetu.
 
-Kwa mfano, kwenye Anwani (address) iliyotumiwa nyingi niliyotaja hapo awali, tunaweza kuona kwamba shughuli, zinazoingia na zinazotoka, zinazingatia muda wa saa 13.
+Kwa mfano, kwenye address  iliyotumiwa nyingi niliyotaja hapo awali, tunaweza kuona kwamba shughuli, zinazoingia na zinazotoka, zinazingatia muda wa saa 13.
 
 ```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
@@ -729,21 +729,22 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 
 Chanzo : OXT.me
 
-Aina hii labda inalingana na Ulaya, Afrika au Mashariki ya Kati. Kwa hivyo tunaweza kudhani kuwa mtumiaji anayeendesha shughuli hizi anaishi katika maeneo haya.
+Masafa haya huenda yanahusiana na Ulaya, Afrika au Mashariki ya Kati. Kwa hiyo, tunaweza kudhani kuwa mtumiaji aliye nyuma ya miamala hii anaishi katika maeneo haya.
 
 Kwa njia tofauti, uchanganuzi wa wakati wa aina hii pia ulisababisha dhana kwamba Satoshi Nakamoto haikuwa ikifanya kazi kutoka Japani, bali kutoka Marekani: [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-Satoshi-nakaf08f0-3a)3a
 
-## Kuiweka katika vitendo na Block Explorer (kuzuia mpelelezi)
+## Kuiweka katika vitendo na Block Explorer
 
 <chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
 
 Katika sura hii ya mwisho, tutaweka dhana ambazo tumejifunza hadi sasa katika vitendo. Nitakuonyesha mifano ya miamala halisi ya Bitcoin, na itabidi utoe maelezo ninayokuuliza.
 
-Kwa hakika, kufanya mazoezi haya, matumizi ya chombo cha kitaaluma cha Chainalysis (uchambuzi wa mnyororo) utakuwa vyema. Hata hivyo, tangu kukamatwa kwa waundaji wa Pochi la Samourai, zana pekee ya uchanganuzi isiyolipishwa ya OXT.me haipatikani tena. Kwa hivyo tutachagua Block Explorer (kuzuia mpelelezi) wa kawaida kwa mazoezi haya. Ninapendekeza utumie [Mempool.space](https://Mempool.space/) kwa vipengele vyake vingi na anuwai ya zana za uchanganuzi wa mfululizo, lakini pia unaweza kuchagua mgunduzi mwingine kama vile [Bitcoin Explorer](https://bitcoinexplorer.org/).
+Kwa hakika, kufanya mazoezi haya, matumizi ya chombo cha kitaaluma cha uchambuzi wa mnyororo yatakuwa vyema. Hata hivyo, tangu kukamatwa kwa waundaji wa Wallet ya Samourai, zana pekee ya uchanganuzi isiyolipishwa ya OXT.me haipatikani tena. Kwa hivyo tutachagua Block Explorer wa kawaida kwa mazoezi haya. Ninapendekeza utumie [Mempool.space](https://Mempool.space/) kwa elements vyake vingi na anuwai ya zana za uchanganuzi wa mfululizo, lakini pia unaweza kuchagua mgunduzi mwingine kama vile [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
-Kuanza, nitakujulisha kwa mazoezi. Tumia Block Explorer (kuzuia mpelelezi) wako kuyakamilisha, na uandike majibu yako kwenye karatasi. Kisha, mwishoni mwa sura hii, nitakupa majibu ili uweze kuangalia na kusahihisha matokeo yako.
 
-*Shughuli zilizochaguliwa kwa ajili ya mazoezi haya zimechaguliwa kwa ajili ya sifa zake kwa mtindo wa nasibu. Sura hii imekusudiwa kwa madhumuni ya kuelimisha na kuelimisha pekee. Ningependa kueleza wazi kwamba siungi mkono wala sihimii matumizi ya zana hizi kwa madhumuni mabaya. Lengo ni kukufundisha jinsi ya kujilinda dhidi ya uchanganuzi wa kamba, si kufanya uchanganuzi ili kufichua taarifa za faragha za watu wengine.*
+Kuanza, nitakujulisha kwa mazoezi. Tumia Block Explorer wako kuyakamilisha, na uandike majibu yako kwenye karatasi. Kisha, mwishoni mwa sura hii, nitakupa majibu ili uweze kuangalia na kusahihisha matokeo yako.
+
+*Miamala iliyochaguliwa kwa mazoezi haya imechaguliwa kwa misingi ya sifa zake kwa njia isiyo ya kimuundo kabisa. Sura hii imelenga madhumuni ya kielimu na ya kutoa taarifa pekee. Ningependa kuweka wazi kuwa siungi mkono wala kuhamasisha matumizi ya zana hizi kwa nia mbaya. Lengo ni kukufundisha jinsi ya kujilinda dhidi ya uchambuzi wa mfululizo wa miamala, si kufanya uchambuzi wa kufichua taarifa binafsi za watu wengine.*
 
 ### Zoezi 1
 
@@ -753,7 +754,7 @@ Kitambulisho cha muamala utakaochanganuliwa :
 3769d3b124e47ef4ffb5b52d11df64b0a3f0b82bb10fd6b98c0fd5111789bef7
 ```
 
-Jina la kielelezo cha muamala huu ni nini, na ni tafsiri gani zinazokubalika zinaweza kutolewa kwa kuchunguza tu mfano wake, yaani muundo wa shughuli hiyo?
+Jina la kielelezo cha muamala huu ni nini, na ni tafsiri gani zinazokubalika zinazoweza kutolewa kwa kuchunguza tu kielelezo chake, yaani muundo wa muamala huo?
 
 ### Zoezi 2
 
@@ -775,7 +776,7 @@ Kitambulisho cha muamala utakaochanganuliwa :
 
 Ni mfano gani wa muamala huu?
 
-Baada ya kutambua muundo wake, kwa kutumia utabiri wa ndani wa shughuli, Ubadilishanaji unaweza kuwakilisha matokeo gani?
+Baada ya kubaini kielelezo chake, kwa kutumia heuristics za ndani za muamala huo, ni toleo gani lina uwezekano mkubwa wa kuwakilisha exchange?
 
 ### Zoezi 4
 
@@ -787,11 +788,11 @@ Kitambulisho cha muamala utakaochanganuliwa :
 
 Ni mfano gani wa muamala huu?
 
-Baada ya kutambua muundo wake, kwa kutumia utabiri wa ndani wa shughuli, Ubadilishanaji unaweza kuwakilisha matokeo gani?
+Baada ya kutambua muundo wake, kwa kutumia heuristics za ndani za muamala, exchange inaweza kuwakilisha toleo gani?
 
 ### Zoezi 5
 
-Hebu fikiria kwamba Loïc amechapisha mojawapo ya Anwani (address) zake za kupokea Bitcoin kwenye mtandao wa kijamii wa Twitter :
+Hebu fikiria kwamba Loïc amechapisha mojawapo ya address zake za kupokea Bitcoin kwenye mtandao wa kijamii wa Twitter :
 
 ![BTC204](assets/fr/065.webp)
 
@@ -799,23 +800,23 @@ Hebu fikiria kwamba Loïc amechapisha mojawapo ya Anwani (address) zake za kupok
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
-Kulingana na maelezo haya na kwa kutumia **Anwani (address) pekee ikitumia tena Legacy (Urithi)**, ni miamala gani ya Bitcoin inaweza kuunganishwa na utambulisho wa Loïc?
+Kulingana na taarifa hii na kwa kutumia **heuristic ya utumiaji tena wa Address pekee**, ni miamala gani ya Bitcoin inayoweza kuhusishwa na utambulisho wa Loïc?
 
-*Ni wazi, mimi si mmiliki halisi wa mapokezi haya ya Anwani (address) na sikuyachapisha kwenye mitandao ya kijamii. Ni Anwani (address) niliyochukua bila mpangilio kutoka kwa kuzuia mnyororo*
+*Ni wazi, mimi si mmiliki halisi wa mapokezi haya ya address na sikuyachapisha kwenye mitandao ya kijamii. Ni address niliyochukua bila mpangilio kutoka kwa blockchain*
 
 ### Zoezi 6
 
-Kufuatia zoezi la 5, kutokana na utumiaji tena wa Anwani (address), uliweza kutambua miamala kadhaa ya Bitcoin ambayo Loïc inaonekana kuhusika. Kwa kawaida, kati ya shughuli zilizotambuliwa, unapaswa kuwa umeona hii:
+Kufuatia zoezi la 5, kutokana na utumiaji tena wa address, uliweza kutambua miamala kadhaa ya Bitcoin ambayo Loïc inaonekana kuhusika. Kwa kawaida, kati ya miamala iliyotambuliwa, unapaswa kuwa umeona hii:
 
 ```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 ```
 
-Muamala huu ni wa kwanza kabisa kutuma pesa kwa Anwani (address) ya Loïc. Je, unafikiri bitcoins zilizopokelewa na Loïc kupitia muamala huu zilitoka wapi?
+Muamala huu ni wa kwanza kabisa kutuma pesa kwa address ya Loïc. Je, unafikiri bitcoins zilizopokelewa na Loïc kupitia muamala huu zilitoka wapi?
 
 ### Zoezi 7
 
-Kufuatia zoezi la 5, kutokana na utumiaji upya wa Anwani (address), umeweza kutambua miamala kadhaa ya Bitcoin ambayo Loïc inaonekana kuhusika. Sasa unataka kujua Loïc alitoka wapi. Kulingana na miamala iliyopatikana, fanya uchanganuzi wa wakati ili kupata saa za eneo ambazo huenda zikatumiwa na Loïc. Kuanzia saa za eneo hili, bainisha eneo ambalo Loïc anaonekana kuishi (nchi, jimbo/eneo, jiji...).
+Kufuatia zoezi la 5, kutokana na utumiaji upya wa address, umeweza kutambua miamala kadhaa ya Bitcoin ambayo Loïc inaonekana kuhusika. Sasa unataka kujua Loïc alitoka wapi. Kulingana na miamala iliyopatikana, fanya uchanganuzi wa wakati (temporal analysis) ili kupata saa za eneo ambazo huenda zikatumiwa na Loïc. Kuanzia saa za eneo hili, bainisha eneo ambalo Loïc anaonekana kuishi (nchi, jimbo/eneo, jiji...).
 
 ![BTC204](assets/fr/066.webp)
 
@@ -833,29 +834,30 @@ Tukiangalia muamala huu pekee, ni taarifa gani tunaweza kutafsiri?
 
 ***Zoezi la 1:***
 
-Mfano wa shughuli hii ni mfano rahisi wa malipo. Ikiwa tutasoma muundo wake pekee, tunaweza kufasiri kwamba pato moja linawakilisha Ubadilishanaji na matokeo mengine yanawakilisha malipo halisi. Kwa hivyo tunajua kwamba mtumiaji anayezingatiwa labda hana tena moja ya UTXO mbili katika pato (ile ya malipo), lakini bado anamiliki UTXO nyingine (ile ya Ubadilishanaji).
+Mfano wa muamala huu ni mfano rahisi wa malipo. Ikiwa tutasoma muundo wake pekee, tunaweza kufasiri kwamba toleo moja linawakilisha exchange na toleo lingine linawakilisha malipo halisi. Kwa hivyo, tunajua kwamba mtumiaji anayezingatiwa labda hana tena moja ya UTXO mbili katika toleo (ile ya malipo), lakini bado anamiliki UTXO nyingine (ile ya exchange).
 
 ***Zoezi la 2:***
 
-Mfano wa muamala huu ni ule wa matumizi ya makundi. Mtindo huu labda unaonyesha shughuli kubwa za kiuchumi, kama vile jukwaa la Ubadilishanaji. Tunaweza kuamua kwamba pembejeo UTXO inatoka kwa kampuni yenye kiwango cha juu cha shughuli za kiuchumi, na kwamba matokeo ya UTXO yatatawanyika. Baadhi watakuwa wateja wa kampuni ambao wametoa bitcoins zao kwenye pochi za kujilinda. Wengine wanaweza kwenda kwa kampuni za washirika. Hatimaye,kutakuwa na Ubadilishanaji ambao utarudi kwa kampuni inayotoa.
+Mfano wa muamala huu ni ule wa matumizi ya makundi. Mtindo huu labda unaonyesha shughuli kubwa za kiuchumi, kama vile jukwaa la exchange. Tunaweza kuamua kwamba pembejeo ya UTXO inatoka kwa kampuni yenye kiwango cha juu cha shughuli za kiuchumi, na kwamba matokeo ya UTXO yatatawanyika. Baadhi watakuwa wateja wa kampuni ambao wametoa bitcoins zao kwenye Wallet za kujilinda. Wengine wanaweza kwenda kwa kampuni za washirika. Hatimaye, kutakuwa na exchange ambayo itarudi kwa kampuni inayotuma.
 
 ***Zoezi la 3:***
 
-Mfano wa shughuli hii ni malipo rahisi. Kwa hivyo tunaweza kutumia Legacy (Urithi) wa ndani kwa shughuli ili kujaribu kutambua Ubadilishanaji.
+Mfano wa muamala huu ni malipo rahisi. Kwa hivyo, tunaweza kutumia heuristics za ndani za muamala ili kujaribu kutambua exchange.
 
-Binafsi nimegundua angalau Legacy (Urithi) mbili wa ndani ambao unaunga mkono nadharia moja:
+
+Binafsi, nimegundua angalau heuristics mbili za ndani zinazounga mkono nadharia moja:
 
 
 - Matumizi tena ya aina sawa ya hati ;
 - Pato kubwa zaidi.
 
-Uaminifu dhahiri zaidi ni ule wa kutumia tena aina ile ile ya hati. Hakika, pato `0` ni `P2SH`, inayotambulika kwa mapokezi yake ya Anwani (address) kuanzia `3` :
+Heuristic dhahiri zaidi ni ile ya kutumia tena aina ile ile ya script. Hakika, toleo `0` ni `P2SH`, inayotambulika kwa Anwani yake ya mapokezi inayoanza na `3`:
 
 ```plaintext
 3Lcdauq6eqCWwQ3UzgNb4cu9bs88sz3mKD
 ```
 
-Wakati pato `1` ni `P2WPKH`, inayotambulika kwa Anwani (address) yake inayoanza na `bc1q` :
+Wakati pato `1` ni `P2WPKH`, inayotambulika kwa  address yake inayoanza na `bc1q` :
 
 ```plaintext
 bc1qya6sw6sta0mfr698n9jpd3j3nrkltdtwvelywa
@@ -867,31 +869,30 @@ UTXO inayotumika kama ingizo la muamala huu pia hutumia hati ya `P2WPKH`:
 bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
-Kwa hivyo, tunaweza kudhani kuwa pato `0` linalingana na malipo na pato `1` ni shughuli ya Ubadilishanaji, ambao utamaanisha kuwa mtumiaji wa ingizo huwa anamiliki pato `1` kila wakati.
-
+Kwa hivyo, tunaweza kudhani kuwa toleo `0` linalingana na malipo na toleo `1` ni exchange, ambayo itamaanisha kuwa mtumiaji wa ingizo huwa anamiliki toleo `1` kila wakati.
 Ili kuunga mkono au kukanusha dhana hii, tunaweza kutafuta mawazo mengine ambayo yanathibitisha mawazo yetu, au kupunguza uwezekano kwamba nadharia yetu ni sahihi.
 
-Nimegundua angalau mtu mwingine wa kLegacy (Urithi). Ni kubwa pato Legacy (Urithi). Pato `0` hupima `123,689 Sats`, wakati pato `1` hupima `505,839 Sats`. Kwa hivyo kuna tofauti kubwa kati ya matokeo haya mawili. Pato kubwa zaidi la Legacy (Urithi) linapendekeza kuwa pato kubwa zaidi linaweza kuwa badilisho la kigeni. Legacy (Urithi) huu unaimarisha zaidi nadharia yetu ya awali.
+Nimetambua angalau heuristic nyingine moja. Ni heuristic ya toleo kubwa zaidi. Toleo `0` lina kiasi cha `123,689 sats`, ilhali toleo `1` lina kiasi cha `505,839 sats`. Kwa hivyo, kuna tofauti kubwa kati ya matoleo haya mawili. Heuristic ya toleo kubwa zaidi inapendekeza kuwa toleo kubwa zaidi huenda likawa exchange. Heuristic hii inaendelea kuimarisha nadharia yetu ya awali.
 
 Kwa hivyo inaonekana kuwa mtumiaji aliyetoa UTXO kama ingizo bado anashikilia toleo la `1`, ambalo linaonekana kujumuisha Ubadilishanaji wa muamala.
 
 ***Zoezi la 4:***
 
-Mfano wa shughuli hii ni malipo rahisi. Kwa hivyo tunaweza kutumia Legacy (Urithi) wa ndani kwa shughuli ili kujaribu kutambua Ubadilishanaji.
+Mfano wa muamala huu ni malipo rahisi. Kwa hivyo, tunaweza kutumia heuristics za ndani za muamala ili kujaribu kutambua exchange.
 
-Binafsi nimegundua angalau Legacy (Urithi) mbili wa ndani ambao unaunga mkono nadharia moja:
+Binafsi, nimetambua angalau heuristics mbili za ndani zinazounga mkono nadharia hiyo hiyo:
 
 
 - Matumizi tena ya aina sawa ya hati ;
 - Pato la chapisho la pande zote.
 
-Uaminifu dhahiri zaidi ni ule wa kutumia tena aina ile ile ya hati. Hakika, pato `0` ni `P2SH`, inayotambulika kwa mapokezi yake ya Anwani (address) kuanzia `3` :
-
+Heuristic dhahiri zaidi ni ile ya kutumia tena aina ile ile ya script. Hakika, toleo `0` ni `P2SH`, inayotambulika kwa Anwani yake ya mapokezi inayoanza na `3`: 
+ 
 ```plaintext
 3FSH5Mnq6S5FyQoKR9Yjakk3X4KCGxeaD4
 ```
 
-Wakati pato `1` ni `P2WPKH`, inayotambulika kwa Anwani (address) yake inayoanza na `bc1q` :
+Wakati toleo `1` ni `P2WPKH`, inayotambulika kwa Address yake inayoanza na `bc1q`:
 
 ```plaintext
 bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg

@@ -637,9 +637,9 @@ Niniejszy rozdział dotyczy narodzin Bitcoina, które miały miejsce między jes
 Zgodnie z jego [własnymi](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [słowami](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto rozpoczął pracę nad Bitcoinem wiosną 2007 roku. Po przeprowadzeniu różnych badań na temat walut cyfrowych, znalazł w końcu sposób na rozwiązanie problemu podwójnego wydatkowania bez potrzeby zaufanej strony trzeciej. Przez ponad rok utrzymywał swój model w tajemnicy, chcąc go udoskonalić, aby zapewnić jego solidność. Jak [napisał](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) później:
 
 
-> "W pewnym momencie przekonałem się, że istnieje sposób na zrobienie tego bez jakiegokolwiek zaufania i nie mogłem się powstrzymać przed dalszym myśleniem o tym. Znacznie więcej pracy polegało na projektowaniu niż kodowaniu"
+> „W pewnym momencie przekonałem się, że istnieje sposób na zrobienie tego bez jakiegokolwiek zaufania i nie mogłem się powstrzymać przed dalszym myśleniem o tym. Znacznie więcej pracy polegało na projektowaniu niż kodowaniu”.
 
-Aby upewnić się, że działa poprawnie, Satoshi [zaprogramował](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) prototyp przed sporządzeniem białej księgi. Takie podejście jest przeciwieństwem tego, co zwykle robi się w społeczności akademickiej, gdzie koncepcje są formalnie prezentowane w artykułach naukowych przed ich wdrożeniem. Twórca Bitcoin [stwierdził](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html):
+Aby upewnić się, że wszystko działa poprawnie, Satoshi [zaprogramował](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) prototyp przed sporządzeniem białej księgi. Takie podejście jest przeciwieństwem tego, co zwykle robi się w społeczności akademickiej, gdzie koncepcje są formalnie prezentowane w artykułach naukowych przed ich wdrożeniem. Twórca Bitcoina [stwierdził](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html):
 
 
 > „Właściwie zrobiłem to trochę na opak. Musiałem napisać cały kod, zanim przekonałem samego siebie, że potrafię rozwiązać każdy problem, a potem napisałem artykuł”

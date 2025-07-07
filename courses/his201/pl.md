@@ -4,7 +4,7 @@ goal: Poznaj historię powstania, uruchomienia i wczesnego rozwoju Bitcoina.
 objectives: 
 
   - Zrozumienie kontekstu technicznego, w którym powstał Bitcoin
-  - Dowiedz się, jak Bitcoin został zaprojektowany przez Satoshi Nakamoto
+  - Dowiedz się, jak Bitcoin został zaprojektowany przez Satoshiego Nakamoto
   - Znajomość wydarzeń związanych z uruchomieniem systemu i jego rozwojem
 
 ---
@@ -16,10 +16,10 @@ objectives:
 Witamy na kursie poświęconym historii powstania Bitcoina! Jako użytkownik mogłeś się zastanawiać, skąd pochodzi narzędzie, którego używasz. Co więcej, możesz nie rozumieć odniesień do osób i wydarzeń związanych z krótką historią kryptowaluty. Wreszcie, poznanie tej historii pozwoli ci lepiej zrozumieć samego Bitcoina, odsłaniając kontekst, który ukształtował jego powolne powstawanie.
 
 
-Na tym kursie odkryjesz informacje związane z jego projektowaniem, uruchomieniem i początkową konstrukcją ekonomiczną. W pierwszej części przyjrzymy się kontekstowi technicznemu, w którym pojawiła się koncepcja Bitcoina. W drugiej części skupimy się na jego narodzinach i bootstrappingu. W trzeciej części zbadamy, w jaki sposób Bitcoin zyskał na znaczeniu w kontekście ekonomicznym, wydobycia i rozwoju oprogramowania. W czwartej części prześledzimy jak Satoshi Nakamoto, twórca Bitcoina, stopniowo znikał z widoku publicznego i jak społeczność przejęła kontrolę nad projektem, czyniąc go prawdziwie społecznościowym.
+Na tym kursie odkryjesz informacje związane z jego projektowaniem, uruchomieniem i początkową konstrukcją ekonomiczną. W pierwszej części przyjrzymy się kontekstowi technicznemu, w którym pojawiła się koncepcja Bitcoina. W drugiej części skupimy się na jego narodzinach i uruchomieniu systemu. W trzeciej części zbadamy, w jaki sposób Bitcoin zyskał na znaczeniu w kontekście ekonomicznym, wydobywczym i w kontekście rozwoju oprogramowania. W czwartej części prześledzimy jak Satoshi Nakamoto, twórca Bitcoina, stopniowo znikał z widoku publicznego i jak społeczność przejęła kontrolę nad projektem, czyniąc go prawdziwie społecznościowym.
 
 
-Kurs ten koncentruje się oczywiście na postaci Satoshi Nakamoto, którego słowa i działania odkryjesz, ale obejmuje także inne postacie, które uczestniczyły w rozwoju Bitcoina w pierwszych latach jego istnienia. W ten sposób poznasz takie osoby jak Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik czy Amir Taaki, które były kluczowymi pionierami w rozwoju Bitcoina. Mamy nadzieję, że to zanurzenie się w historię początków Bitcoina będzie dla ciebie interesujące!
+Kurs ten koncentruje się oczywiście na postaci Satoshiego Nakamoto, którego słowa i działania odkryjesz, ale obejmuje także inne postacie, które uczestniczyły w rozwoju Bitcoina w pierwszych latach jego istnienia. W ten sposób poznasz takie osoby jak Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik czy Amir Taaki, które były pionierami w rozwoju Bitcoina. Mamy nadzieję, że to zanurzenie się w historię początków Bitcoina będzie dla ciebie interesujące!
 
 
 +++
@@ -35,7 +35,7 @@ Kurs ten koncentruje się oczywiście na postaci Satoshi Nakamoto, którego sło
 
 Witamy na kursie HIS201!
 
-Ten kurs ma na celu opowiedzenie historii powstania Bitcoina w sposób, jakiego nigdy wcześniej nie słyszałeś. Jest ona często pomijana, mimo że jest wypełniona fascynującymi szczegółami. Postaramy się opisać ją w całej jej złożoności, od stworzenia projektu przez Satoshi Nakamoto do jego wczesnego zniknięcia z życia publicznego i przekazania projektu społeczności.
+Ten kurs ma na celu opowiedzenie historii powstania Bitcoina w sposób, jakiego nigdy wcześniej nie słyszałeś. Jest ona często pomijana, mimo że jest wypełniona fascynującymi szczegółami. Postaramy się opisać ją w całej jej złożoności, od stworzenia projektu przez Satoshiego Nakamoto do jego wczesnego zniknięcia z życia publicznego i przekazania projektu społeczności.
 
 
 **Krótki przegląd**
@@ -44,23 +44,23 @@ Ten kurs ma na celu opowiedzenie historii powstania Bitcoina w sposób, jakiego 
 Bitcoin został zaprojektowany przez osobę (lub grupę) posługującą się pseudonimem Satoshi Nakamoto. W dniu 31 października 2008 r. udostępnił tzw. białą księgę opisującą jego model (z ang. White Paper, ważny dokument w świecie projektów innowacyjnych, zawierający szczegółowy opis danego przedsięwzięcia, przyp. korektora) za pośrednictwem ukrytej listy mailingowej w Internecie. W dniu 8 stycznia 2008 r. wdrożył swoją koncepcję, publikując kod źródłowy oprogramowania i uruchamiając sieć poprzez wydobycie pierwszych bloków łańcucha. Chcąc przyciągnąć krytyczną liczbę użytkowników, promował swoje dzieło za pośrednictwem różnych kanałów komunikacji.
 
 
-Po trudnych początkach, inicjalizacja systemu od podstaw ostatecznie miała miejsce w październiku 2009 roku, kiedy jednostka rozliczeniowa - zwana również bitcoin - zyskała cenę rynkową. Pierwsze usługi handlowe zaczęły pojawiać się na początku 2010 roku, zaczynając od usług wymiany waluty na dolary. Mniej więcej w tym czasie wdrożono również wydobycie z wydajniejszą kartą graficzną, a z inicjatywy Laszlo Hanyecza odbyła się pierwsza transakcja wymiany za towar fizyczny, a konkretnie pizzę.
+Po trudnych początkach, inicjalizacja systemu od podstaw ostatecznie miała miejsce w październiku 2009 roku, kiedy jednostka rozliczeniowa - zwana również bitcoin - zyskała cenę rynkową. Pierwsze usługi handlowe zaczęły pojawiać się na początku 2010 roku, zaczynając od usług wymiany waluty na dolary. Mniej więcej w tym czasie wdrożono również wydobycie z wydajniejszą kartą graficzną, a z inicjatywy Laszla Hanyecza odbyła się pierwsza transakcja wymiany za towar fizyczny, a konkretnie pizzę.
 
 
 Projekt naprawdę wystartował latem 2010 roku, po opublikowaniu artykułu na bardzo popularnej stronie Slashdot. Możliwość wymiany na dolary, wydobywanie bitcoina i rozwój oprogramowania w tym okresie znacznie zyskały na jakości. Od jesieni Satoshi Nakamoto stopniowo zaczął się wycofywać, zaprzestając publicznego pisania i stopniowo delegując swoje zadania. Ostatecznie zniknął całkowicie wiosną 2011 r., po przekazaniu dostępu swoim prawym rękom, Marttiemu Malmi i Gavinowi Andresenowi. Społeczność w końcu przejęła kontrolę nad projektem i zdołała doprowadzić go do obecnego stanu.
 
 
-Bitcoin ma również swoją prehistorię. Rzeczywiście, nie jest to obiekt, który pojawił się znikąd. Jego stworzenie jest częścią konkretnego kontekstu: poszukiwania sposobu na przeniesienie właściwości gotówki do cyberprzestrzeni. Elementy techniczne, które go tworzą, są wynikiem dziesięcioleci badań i eksperymentów, które poprzedziły jego powstanie. Bitcoin opiera się na:
+Bitcoin ma również swoją prehistorię. Rzeczywiście, nie jest to coś, co pojawiło się znikąd. Jego stworzenie jest częścią konkretnego kontekstu: poszukiwania sposobu na przeniesienie właściwości gotówki do cyberprzestrzeni. Elementy techniczne, które go tworzą, są wynikiem dziesięcioleci badań i eksperymentów, które poprzedziły jego powstanie. Bitcoin opiera się na:
 
 
 
 - Podpisie cyfrowym, wywodzącym się z kryptografii asymetrycznej powstałej w 1976 roku;
 - Rozproszonym konsensusie, opracowanym w latach 80. w następstwie wczesnego rozwoju Internetu;
-- Znaczniku czasu dokumentu, wynalezionym na początku lat 90. wraz z pojawieniem się pierwszych silnych funkcji Hash;
-- Dowodzie Pracy, opisanym i wdrożonym w latach 90.
+- Znaczniku czasu dokumentu, wynalezionym na początku lat 90. wraz z pojawieniem się pierwszych silnych funkcji hash;
+- Dowodzie pracy, opisanym i wdrożonym w latach 90.
 
 
-Projektując Bitcoina, Satoshi Nakamoto był w dużej mierze zainspirowany modelem eCash, koncepcją zaproponowaną przez kryptografa Davida Chauma w 1982 roku i wdrożoną przez jego firmę DigiCash w latach 90-tych. Model ten, który opierał się na procesie ślepego podpisu, pozwalał użytkownikom na dokonywanie transakcji w stosunkowo poufny sposób. Opierał się on jednak na scentralizowanej sieci banków, które interweniowały w celu zapobiegania podwójnemu wydatkowaniu. Dlatego też, gdy DigiCash zbankrutował, system upadł. Bitcoin poprawił ten problem, eliminując potrzebę zaufanej strony trzeciej.
+Projektując Bitcoina, Satoshi Nakamoto był w dużej mierze zainspirowany modelem eCash, koncepcją zaproponowaną przez kryptografa Davida Chauma w 1982 roku i wdrożoną przez jego firmę DigiCash w latach 90-tych. Model ten, który opierał się na procesie ślepego podpisu, pozwalał użytkownikom na dokonywanie transakcji w stosunkowo poufny sposób. Opierał się on jednak na scentralizowanej sieci banków, które interweniowały w celu zapobiegania podwójnemu wydatkowaniu. Dlatego też, gdy DigiCash zbankrutował, system upadł. Bitcoin rozwiązał ten problem, eliminując potrzebę istnienia zaufanej strony trzeciej.
 
 
 Bitcoin pojawił się w szczególnym kontekście: zamknięcia przez rząd federalny Stanów Zjednoczonych prywatnych systemów walutowych, takich jak cyfrowa waluta złota e-gold w 2008 roku i system Liberty Reserve w 2013 roku. Opierając się na modelu, który dzielił ryzyko między jego uczestników, podobnym do systemów udostępniania peer-to-peer, takich jak BitTorrent, Satoshi Nakamoto stworzył solidny model waluty cyfrowej, który mógł wytrzymać bezpośrednie ataki ze strony państwa.
@@ -75,7 +75,7 @@ Wreszcie, projekt Bitcoin jest spadkobiercą etosu ruchu Cypherpunk, ruchu zbunt
 **Zarys kursu**
 
 
-Kurs ten podzielony jest na cztery części, które koncentrują się kolejno na początkach Bitcoina (3 rozdziały), jego powolnym powstawaniu (3 rozdziały), jego początkowym wzroście (3 rozdziały) i kształtowaniu się jego społeczności (4 rozdziały). W sumie zawiera następujących 12 rozdziałów (określony jest również okres czasu, którego dotyczą):
+Kurs podzielony jest na cztery części, które koncentrują się kolejno na początkach Bitcoina (3 rozdziały), jego powolnym powstawaniu (3 rozdziały), jego początkowym wzroście (3 rozdziały) i kształtowaniu się jego społeczności (4 rozdziały). W sumie zawiera następujących 12 rozdziałów (określony jest również okres czasu, którego dotyczą):
 
 
 
@@ -90,14 +90,14 @@ Kurs ten podzielony jest na cztery części, które koncentrują się kolejno na
 - Pierwsze problemy techniczne (lipiec 2010-wrzesień 2010)
 - Cyfrowa gorączka złota (wrzesień 2010 - październik 2010)
 - Rozkwit ekosystemu (październik 2010 - grudzień 2010)
-- Zniknięcie Satoshi (grudzień 2010-kwiecień 2011)
+- Zniknięcie Satoshiego (grudzień 2010-kwiecień 2011)
 - Społeczność przejmuje kontrolę (kwiecień 2011-wrzesień 2011)
 
 
 **Szczegóły**
 
 
-Wszystkie daty i godziny są podane zgodnie ze strefą czasową UTC (odpowiadającą południkowi Greenwich) i dlatego mogą różnić się od dat amerykańskich. Jest prawdopodobne, że Satoshi Nakamoto przebywał w Stanach Zjednoczonych podczas pracy nad swoim projektem. Jednak Bitcoin to projekt międzynarodowy - w szczególności należy podkreślic wkład fińskiego dewelopera Martti Malmi (czas wschodnioeuropejski, UTC+2 / UTC+3), dlatego będziemy odnosić się do uniwersalnej strefy czasowej. W związku z tym mówimy, że faktyczne uruchomienie głównej sieci miało miejsce 9 stycznia o 2:54, a nie 8 stycznia o 6:54, co odpowiada strefie czasowej Wschodniego Wybrzeża (czas pacyficzny, UTC-8 / UTC-7).
+Wszystkie daty i godziny są podane zgodnie ze strefą czasową UTC (odpowiadającą południkowi Greenwich) i dlatego mogą różnić się od dat amerykańskich. Jest prawdopodobne, że Satoshi Nakamoto przebywał w Stanach Zjednoczonych podczas pracy nad swoim projektem. Jednak Bitcoin to projekt międzynarodowy - w szczególności należy podkreślic wkład fińskiego dewelopera Marttiego Malmi (czas wschodnioeuropejski, UTC+2 / UTC+3), dlatego będziemy odnosić się do uniwersalnej strefy czasowej. W związku z tym mówimy, że faktyczne uruchomienie głównej sieci miało miejsce 9 stycznia o 2:54, a nie 8 stycznia o 6:54, co odpowiada strefie czasowej Wschodniego Wybrzeża (czas pacyficzny, UTC-8 / UTC-7).
 
 
 Treść została częściowo zaadaptowana z francuskiej książki [*L'Élégance de Bitcoin*](https://bitcoinbook.shop/products/lelegance-de-Bitcoin) (2024), napisanej przez autora tego kursu. Oprócz bezpośrednich źródeł zarchiwizowanych w Internecie, opieramy się na wielu innych pracach. Oto najważniejsze z nich:
@@ -107,7 +107,7 @@ Treść została częściowo zaadaptowana z francuskiej książki [*L'Élégance
 - [*The Genesis Book*](https://store.bitcoinmagazine.com/products/the-Genesis-book) autorstwa Aarona van Wirduma, opublikowana w 2024 roku;
 - [*Digital Gold*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) autorstwa Nathaniela Poppera, opublikowana w 2014 roku;
 - [*The Book of Satoshi*](https://www.bookofsatoshi.com/) autorstwa Phila Champagne'a, opublikowana w 2014 roku;
-- [*Digital Cash*](https://press.princeton.edu/books/hardcover/9780691179490/digital-cash) autorstwa Finn Brunton, opublikowana w 2019 roku;
+- [*Digital Cash*](https://press.princeton.edu/books/hardcover/9780691179490/digital-cash) autorstwa Finna Bruntona, opublikowana w 2019 roku;
 - [*This Machine Kills Secrets*](https://penguinrandomhouselibrary.com/book/?isbn=9780142180495) autorstwa Andy'ego Greenberga, opublikowana w 2012 roku.
 
 
@@ -126,10 +126,10 @@ Gotowy na poznanie niesamowitej sagi o stworzeniu Bitcoina? Zacznijmy tę niezwy
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
 
-Zanim zagłębimy się we właściwą historię stworzenia Bitcoina przez Satoshi Nakamoto, należy omówić to, co ją poprzedziło. Omówimy ten temat w trzech etapach: najpierw przedstawimy koncepcję cyfrowej gotówki Chaumian, powszechnie nazywanej *eCash*; następnie porozmawiamy o prywatnych walutach opartych na systemach scentralizowanych, takich jak e-gold; na koniec opiszemy modele techniczne, które wyobrażano sobie przed wdrożeniem solidnego systemu rozproszonego, jakim jest Bitcoin.
+Zanim zagłębimy się we właściwą historię stworzenia Bitcoina przez Satoshiego Nakamoto, należy omówić to, co ją poprzedziło. Omówimy ten temat w trzech etapach: najpierw przedstawimy koncepcję cyfrowej gotówki Chaumian, powszechnie nazywanej *eCash*; następnie porozmawiamy o prywatnych walutach opartych na systemach scentralizowanych, takich jak e-gold; na koniec opiszemy modele techniczne, które wyobrażano sobie przed wdrożeniem solidnego systemu rozproszonego, jakim jest Bitcoin.
 
 
-Zacznijmy od pierwszej koncepcji, eCash. eCash to owoc pracy Davida Chauma, amerykańskiego informatyka i kryptografa urodzonego w 1955 roku, uważanego za pioniera w dziedzinie anonimowej komunikacji i prekursora cypherpunks. Wniósł on znaczący wkład w rozwój kryptografii w latach 80. ubiegłego wieku. W tym samym czasie opracował model gotówki cyfrowej (znany jako "Chaumian") i próbował go wdrożyć w latach 90. za pośrednictwem swojej firmy DigiCash.
+Zacznijmy od pierwszej koncepcji, eCash. eCash to owoc pracy Davida Chauma, amerykańskiego informatyka i kryptografa urodzonego w 1955 roku, uważanego za pioniera w dziedzinie anonimowej komunikacji i prekursora ruchu Cypherpunks. Wniósł znaczący wkład w rozwój kryptografii w latach 80. ubiegłego wieku. W tym samym czasie opracował model gotówki cyfrowej (znany jako „Chaumian”) i próbował go wdrożyć w latach 90. za pośrednictwem swojej firmy DigiCash.
 
 
 Działania Davida Chauma były następstwem rewolucji pojęciowej: przedstawieniem kryptografii asymetrycznej w 1976 roku przez Whitfielda Diffie i Martina Hellmana. Również idea waluty cyfrowej wyłoniła się z tego przełomowego odkrycia. Oprócz ukrywania informacji zawartych w wiadomości, kryptografia asymetryczna umożliwiła zastosowanie procesów podpisywania. W ten sposób możliwe stało się matematyczne udowodnienie, że dana osoba jest właścicielem określonej liczby cyfrowych jednostek rozliczeniowych.
@@ -171,10 +171,10 @@ Oto zdjęcie z 1977 roku, wykonane przez Chucka Paintera dla Stanford News Servi
 ![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
 
 
-Artykuł Diffiego i Hellmana utorował drogę wielu innowacjom. Jedną z nich był [kryptosystem RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), który został zaprojektowany w 1977 roku przez kryptografów Ronalda Rivesta, Adiego Shamira i Leonarda Adlemana (którzy nadali mu swoje nazwiska) i opatentowany przez MIT w 1983 roku. System ten umożliwia zarówno szyfrowanie, jak i podpisywanie wiadomości, dzięki zamianie ról kluczy. RSA został po raz pierwszy zaprezentowany publicznie w [artykule Martina Gardnera](https://simson.net/ref/1977/Gardner_RSA.pdf) opublikowanym w czasopiśmie *Scientific American* w sierpniu 1977 roku, który nosił tytuł „Gry matematyczne: Nowy rodzaj szyfru, którego złamanie zajęłoby miliony lat”
+Artykuł Diffiego i Hellmana utorował drogę wielu innowacjom. Jedną z nich był [kryptosystem RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), który został zaprojektowany w 1977 roku przez kryptografów Ronalda Rivesta, Adiego Shamira i Leonarda Adlemana (którzy nadali mu swoje nazwiska) i opatentowany przez MIT w 1983 roku. System ten umożliwia zarówno szyfrowanie, jak i podpisywanie wiadomości, dzięki zamianie ról kluczy. RSA został po raz pierwszy zaprezentowany publicznie w [artykule Martina Gardnera](https://simson.net/ref/1977/Gardner_RSA.pdf) opublikowanym w czasopiśmie *Scientific American* w sierpniu 1977 roku, który nosił tytuł „Gry matematyczne: Nowy rodzaj szyfru, którego złamanie zajęłoby miliony lat”.
 
 
-Odkrycie kryptografii asymetrycznej było również motywacją do stworzenia funkcji jednokierunkowych, charakteryzujących się tym, że obliczenie obrazu (kierunek do przodu) jest bardzo łatwe, a uzyskanie obrazu wstępnego (kierunek wsteczny) bardzo trudne. Doprowadziło to do opracowania pierwszych kryptograficznych funkcji Hash, które przekształcały wiadomość o zmiennym rozmiarze w skrót o stałym rozmiarze. W latach 1989-1991 kilka algorytmów haszujących (MD2, MD4 i MD5) zostało zaprojektowanych przez Ronalda Rivesta dla MIT.
+Odkrycie kryptografii asymetrycznej było również motywacją do stworzenia funkcji jednokierunkowych, charakteryzujących się tym, że obliczenie obrazu (kierunek do przodu) jest bardzo łatwe, a uzyskanie obrazu wstępnego (kierunek wsteczny) bardzo trudne. Doprowadziło to do opracowania pierwszych kryptograficznych funkcji hash, które przekształcały wiadomość o zmiennym rozmiarze w skrót o stałym rozmiarze. W latach 1989-1991 kilka algorytmów haszujących (MD2, MD4 i MD5) zostało zaprojektowanych dla MIT przez Ronalda Rivesta.
 
 
 Podstawowe elementy kryptograficzne Bitcoina wywodzą się z tych badań. Schemat podpisu ECDSA, umożliwiający autoryzację wydatków tradycyjnej transakcji, został stworzony w 1992 roku dla NIST. Funkcja SHA-256 Hash, używana w wielu miejscach protokołu, została opublikowana w 2001 roku jako część pakietu algorytmów SHA-2 upublicznionego przez NSA. Więcej informacji na ten temat można znaleźć na kursie [Crypto 301] (../crypto301/fr.md) prowadzonym przez Loïca Morela.
@@ -193,7 +193,7 @@ David Chaum w latach 90-tych (źródło: [Elixxir](https://www.youtube.com/watch
 
 W [artykule przedstawiającym fundamenty jego pracy](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), „Bezpieczeństwo bez identyfikacji: systemy transakcyjne sprawiające, że Wielki Brat nie jest już potrzebny” opublikowanym w 1985 roku w *Communications of the ACM*, napisał on:
 
-> „Kładzie się podwaliny pod społeczeństwo z teczką na każdego obywatela, w którym komputery mogą być wykorzystywane do wnioskowania o stylu życia, nawykach, miejscu pobytu i skojarzeniach poszczególnych osób na podstawie danych zebranych podczas zwykłych transakcji konsumenckich. Niepewność co do tego, czy dane pozostaną bezpieczne przed nadużyciami ze strony tych, którzy je przechowują lub podsłuchują, może spowolnić trochę ten proces, powodując, że ludzie zmieniają swoje obserwowalne działania. W miarę jak komputeryzacja staje się coraz bardziej powszechna, waga tych problemów będzie dramatycznie wzrastać”
+> „Kładzie się podwaliny pod społeczeństwo z teczką na każdego obywatela, w którym komputery mogą być wykorzystywane do wnioskowania o stylu życia, nawykach, miejscu pobytu i skojarzeniach poszczególnych osób na podstawie danych zebranych podczas zwykłych transakcji konsumenckich. Niepewność co do tego, czy dane pozostaną zabezpiecznone przed nadużyciami ze strony tych, którzy je przechowują lub podsłuchują, może spowolnić trochę ten proces, powodując, że ludzie zmieniają swoje obserwowalne działania. W miarę jak komputeryzacja staje się coraz bardziej powszechna, waga tych problemów będzie dramatycznie wzrastać”
 
 Ta obsesja na punkcie ochrony prywatności wyjaśnia jego zainteresowanie dziedziną kryptografii, do której rozwoju przyczynił się już w 1979 roku. W 1981 roku opisał podstawy anonimowej komunikacji za pośrednictwem sieci mieszanych, które służyły w szczególności usługom przekazywania poczty elektronicznej (Mixmaster) i anonimowej sieci Tor. W 1982 roku uczestniczył w założeniu Międzynarodowego Stowarzyszenia Badań Kryptologicznych (IACR) na corocznej konferencji CRYPTO '82. W tym samym roku (i to jest to, co nas tutaj interesuje), w [artykule](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF) zatytułowanym „Protokół ślepych podpisów w prywatnych płatnościach” opublikował proces zastosowania ślepego podpisu, który jest sercem jego szanującego prywatność modelu waluty cyfrowej: eCash.
 
@@ -245,7 +245,7 @@ Przeniesienie podpisanej notatki odbywa się poprzez przekazanie jej innemu uży
 - Bank Boba sprawdza, czy weksel nie został już wykorzystany i jeśli wszystko się zgadza, wystawia nowy weksel lub uznaje środki na koncie Boba (jeśli jest na nie pokrycie).
 
 
-Wszystko to oznacza, że żaden bank w systemie nie może powiązać płatności z tożsamością Alicji, co wyjaśnia, dlaczego mówimy o poufności klienta. Sprzedawca (tutaj Bob) jest jednak zobowiązany do przejścia przez bank w celu potwierdzenia płatności, a zatem jego bank może sprawdzić, jakie kwoty otrzymuje Bob. Co więcej, system zależy od zaufanej strony trzeciej - centralnego organu, który wyznacza uczestniczące banki - co z założenia czyni system kruchym.
+Wszystko to oznacza, że żaden bank w systemie nie może powiązać płatności z tożsamością Alice, co wyjaśnia, dlaczego mówimy o poufności klienta. Sprzedawca (tutaj Bob) jest jednak zobowiązany do przejścia przez bank w celu potwierdzenia płatności, a zatem jego bank może sprawdzić, jakie kwoty otrzymuje Bob. Co więcej, system zależy od zaufanej strony trzeciej - centralnego organu, który wyznacza uczestniczące banki - co z założenia czyni system kruchym.
 
 
 ### Wdrożenia eCash
@@ -259,7 +259,7 @@ W 1990 roku David Chaum założył własną firmę, DigiCash B.V., aby wdrożyć
 
 Jednak to nie firma Davida Chauma jako pierwsza przetestowała ten model: to cypherpunks zaimplementowali go nie patrząc na patenty i nie prosząc o pozwolenie. Protokół o nazwie Magic Money został [zaproponowany](https://cypherpunks.venona.com/date/1994/02/msg00247.html) na liście mailingowej cypherpunks 4 lutego 1994 roku przez anonimowego dewelopera o pseudonimie Pr0duct Cypher. Protokół ten pozwalał na tworzenie własnej waluty poprzez obsługę serwera e-mail, który służył jako mennica eCash. Cypherpunks dobrze się przy tym bawili, tworząc różnego rodzaju jednostki rozliczeniowe, takie jak Tacky Tokens, GhostMarks, DigiFrancs i NexusBucks. Jednak użyteczność tych tokenów była minimalna, a transakcje były bardzo rzadkie.
 
-Jeśli chodzi o DigiCash, po kilku latach rozwoju, prototyp został [zaprezentowany](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) w maju 1994 r. na pierwszej międzynarodowej konferencji na temat Internetu w CERN w Genewie. Następnie firma przeprowadziła próbę, która rozpoczęła się 19 października tego samego roku, wraz z emisją jednostek zwanych „CyberBucks”, które nie były zabezpieczone żadną inną walutą. W ramach tego eksperymentu różni sprzedawcy akceptowali CyberBucks. Cyberprzestępcy również przyjęli tę walutę, wykorzystując ją do przeprowadzania prawdziwych transakcji. W ten sposób CyberBucks nabrały wartości rynkowej. Jednak wartość ta spadła, gdy eCash został wdrożony w tradycyjnym systemie bankowym.
+Jeśli chodzi o DigiCash, po kilku latach rozwoju, prototyp został [zaprezentowany](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) w maju 1994 r. na pierwszej międzynarodowej konferencji na temat Internetu w CERN w Genewie. Następnie firma przeprowadziła próbę, która rozpoczęła się 19 października tego samego roku, wraz z emisją jednostek zwanych „CyberBucks”, które nie były zabezpieczone żadną inną walutą. W ramach tego eksperymentu różni sprzedawcy akceptowali CyberBucks. Cyberprzestępcy również przyjęli tę walutę, wykorzystując ją do przeprowadzania prawdziwych transakcji. W ten sposób CyberBucks nabrały wartości rynkowej. Jednak ich wartość spadła, gdy eCash został wdrożony w tradycyjnym systemie bankowym.
 
 
 ![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
@@ -283,7 +283,7 @@ W latach 90. inne rozwiązania techniczne do dokonywania płatności w Interneci
 Równolegle pojawiły się również inne alternatywne systemy scentralizowane, takie jak e-gold i Liberty Reserve. Zarządzały one prywatnymi walutami cyfrowymi i korzystały z dwuznaczności prawnej, która może istnieć w cyberprzestrzeni. Porozmawiamy o tym również w następnym rozdziale.
 
 
-Następnie eCash zainspirował cypherpunków, którzy opracowali własne modele, takie jak b-money, bit gold i RPOW. Dodali Dowód Pracy i inne elementy, które później znalazły się w Bitcoinie. Przeanalizujemy te koncepcje w rozdziale 3.
+Następnie eCash zainspirował cypherpunków, którzy opracowali własne modele, takie jak b-money, bit gold i RPOW. Dodali dowód pracy i inne elementy, które później znalazły się w Bitcoinie. Przeanalizujemy te koncepcje w rozdziale 3.
 
 
 Wreszcie, model Davida Chauma znacząco wpłynął na Satoshiego Nakamoto, gdy ten rozwijał swoją koncepcję waluty. Świadczą o tym liczne odniesienia w [białej księdze](assets/pdf/Bitcoin-20090324.pdf) (tytuł, opis problemu w sekcji 2, nazwa pliku PDF [wysłanego](https://gwern.net/doc/Bitcoin/2008-nakamoto) do Wei Dai w sierpniu 2008 r.), a także jego prywatne i publiczne interwencje. W tym sensie eCash jest głównym poprzednikiem Bitcoina, nawet jeśli nie jedynym.
@@ -305,7 +305,7 @@ W poprzednim rozdziale zbadaliśmy pierwszą formę gotówki elektronicznej, kt�
 W tym rozdziale przyjrzymy się temu, co zrobiono w dziedzinie prywatnych walut w Stanach Zjednoczonych. Najpierw omówimy przypadek Liberty Dollar. Następnie przeanalizujemy scentralizowane systemy, takie jak e-gold i Liberty Reserve. Na koniec omówimy PayPal, którego podejście jest inne, ale mimo to służy jako pouczający przykład modelu opartego na zaufanej stronie trzeciej.
 
 
-We wszystkich przypadkach systemy te zostały ostatecznie zamknięte przez władze lub musiały być zgodne z przepisami finansowymi. Właśnie dlatego Satoshi Nakamoto, który dobrze rozumiał te systemy, głęboko zrozumiał potrzebę stworzenia alternatywnego systemu, który nie polegałby na żadnym organie centralnym.
+We wszystkich przypadkach systemy te zostały ostatecznie zamknięte przez władze lub musiały dostosować się do przepisów finansowych. Właśnie dlatego Satoshi Nakamoto, który dobrze rozumiał te systemy, głęboko zrozumiał potrzebę stworzenia alternatywnego systemu, który nie polegałby na żadnym organie centralnym.
 
 
 ### Wolność monetarna w Stanach Zjednoczonych i Liberty Dollar
@@ -316,7 +316,7 @@ Historia Stanów Zjednoczonych od samego początku charakteryzowała się dużą
 
 Sytuacja zmieniła się jednak wraz z wojną secesyjną, wygraną przez Unię, w procesie centralizacji władzy. Tak więc ustawa Kongresu z 8 czerwca 1864 r. zakazała prywatnego bicia monet. Ustawa ta, która stała się sekcją 486 tytułu 18 Kodeksu Stanów Zjednoczonych (*18 U.S. Code § 486*), [stanowiła](https://www.law.cornell.edu/uscode/text/18/486):
 
-„Każdy, z wyjątkiem przypadków dozwolonych przez prawo, kto produkuje, wprowadza do obiegu lub usiłuje wprowadzić do obiegu lub przekazać monety ze złota, srebra lub innych metali lub stopów metali, przeznaczone do użytku jako waluta bieżąca, niezależnie od tego, czy przypominają one monety Stanów Zjednoczonych lub innych krajów, czy też mają oryginalny wzór, podlega grzywnie na mocy niniejszego tytułu lub karze pozbawienia wolności na okres nie dłuższy niż pięć lat, albo obu tym karom łącznie”
+„Każdy, z wyjątkiem przypadków dozwolonych przez prawo, kto produkuje, wprowadza do obiegu lub usiłuje wprowadzić do obiegu lub przekazać monety ze złota, srebra lub innych metali lub stopów metali, przeznaczone do użytku jako waluta bieżąca, niezależnie od tego, czy przypominają one monety Stanów Zjednoczonych lub innych krajów, czy też mają oryginalny wzór, podlega grzywnie na mocy niniejszego tytułu lub karze pozbawienia wolności na okres nie dłuższy niż pięć lat, albo obu tym karom łącznie.”
 
 
 Aby egzekwować te ograniczenia, w 1865 roku Abraham Lincoln założył agencję rządową: Secret Service (Tajne Służby). Początkową misją Secret Service było zwalczanie fałszerstw i oszustw finansowych w ogóle. Pośrednio służyło to wzmocnieniu dochodów państwa federalnego poprzez powierzenie monopolu na produkcję waluty Mennicy Stanów Zjednoczonych.
@@ -332,14 +332,14 @@ Wraz z uchyleniem zakazu posiadania złota i rozwojem Internetu, który rozpocz�
 Liberty Dollar (10 dolarów) w srebrze z 2003 roku (źródło: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
 
-We wrześniu 2006 r. Mennica Stanów Zjednoczonych wydała [komunikat prasowy](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers), napisany wspólnie z Departamentem Sprawiedliwości, w którym stwierdziła, że użycie monet NORFED naruszyło sekcję 486 tytułu 18 Kodeksu Stanów Zjednoczonych i stanowiło „przestępstwo federalne”. W związku z tym, po nalocie FBI na siedzibę NORFED w 2007 r., NotHaus i jego współpracownicy zostali oskarżeni o naruszenia i aresztowani w 2009 r. oraz osądzeni w marcu 2011 r. W 2014 roku Bernard von NotHaus został skazany w wyniku apelacji na sześć miesięcy aresztu domowego i trzy lata nadzoru kuratorskiego.
+We wrześniu 2006 r. Mennica Stanów Zjednoczonych wydała [komunikat prasowy](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers), napisany wspólnie z Departamentem Sprawiedliwości, w którym stwierdziła, że używanie monet NORFED narusza sekcję 486 tytułu 18 Kodeksu Stanów Zjednoczonych i stanowi „przestępstwo federalne”. W związku z tym, po nalocie FBI na siedzibę NORFED w 2007 r., NotHaus i jego współpracownicy zostali oskarżeni o naruszenia i aresztowani w 2009 r. oraz osądzeni w marcu 2011 r. W 2014 roku Bernard von NotHaus został skazany w wyniku apelacji na sześć miesięcy aresztu domowego i trzy lata nadzoru kuratorskiego.
 
 
 ### e-Gold: Złoto w sieci
 
 Emblematycznym przykładem prywatnej waluty elektronicznej jest system e-gold. Była to tak zwana „cyfrowa złota waluta”, czyli waluta przesyłana elektronicznie i w pełni zabezpieczona równoważną ilością złota przechowywanego w bezpieczny sposób. Jego współzałożycielami w 1996 roku byli Douglas Jackson i Barry Downey. Douglas Jackson był amerykańskim onkologiem mieszkającym na Florydzie, który był zwolennikiem austriackiego ekonomisty Friedricha von Hayeka i chciał za pomocą e-złota stworzyć „[lepszy pieniądz](https://blog.bettermoney.com/)”.
 
-Zasada była taka, że każda jednostka e-złota mogła zostać zamieniona na prawdziwe złoto. Rezerwy złota były zarządzane przez spółkę z siedzibą w Stanach Zjednoczonych o nazwie Gold & Silver Reserve Inc (G&SR). System komputerowy był zarządzany przez drugą firmę, e-gold Ltd., zarejestrowaną w Saint Kitts i Nevis na Karaibach. Złoto nie było jedynym zaangażowanym metalem: użytkownicy mogli również posiadać i wymieniać e-srebro, e-platynę i e-pallad, zbudowane na tym samym modelu.
+Zasada była taka, że każda jednostka e-złota mogła zostać zamieniona na prawdziwe złoto. Rezerwy złota były zarządzane przez spółkę z siedzibą w Stanach Zjednoczonych o nazwie Gold & Silver Reserve Inc (G&SR). System komputerowy był zarządzany przez drugą firmę, e-gold Ltd., zarejestrowaną w Saint Kitts i Nevis na Karaibach. Złoto nie było jedynym używanym metalem: użytkownicy mogli również posiadać i wymieniać e-srebro, e-platynę i e-pallad, zbudowane na tym samym modelu.
 
 
 System e-gold wykorzystywał rodzącą się sieć, a w szczególności najnowszą przeglądarkę Netscape. Każdy klient mógł uzyskać dostęp do swojego konta ze strony internetowej, zamiast obsługiwać specjalne oprogramowanie. Jak na tamte czasy, platforma była bardzo wydajna, wykorzystując system rozliczeń brutto w czasie rzeczywistym inspirowany przelewami międzybankowymi. Oto jak wyglądało wysyłanie e-gold w 2005 roku (zdjęcie z [tutoriala](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) z tamtych czasów):

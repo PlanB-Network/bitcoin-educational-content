@@ -1262,36 +1262,53 @@ Mbinu za uteuzi za UTXO kama vile FIFO (*First In First Out*) na LIFO (*Last In 
 
 Mbinu mahiri zaidi ni *Knapsack Solver*. Hii ilitumika kwenye Wallet ya Bitcoin Core hadi toleo la 0.17. Inajumuisha kuchagua mara kwa mara na kwa nasibu UTXO kutoka kwa Pochi, kuziongeza katika vikundi vidogo, na kuweka suluhisho ambalo linapunguza uzito wa muamala iwezekanavyo, ili kupunguza gharama kwa mtumiaji.
 
+ChatGPT
+You said:
 *Tawi-na-Mpaka* (BNB), mara nyingi hupewa jina la utani "Murch algoriti" baada ya mvumbuzi wake, imechukua nafasi ya *Knapsack Solver* katika Bitcoin Core hadi toleo la 0.17. Mbinu hii ya kina zaidi inalenga kupata seti ya UTXO zinazolingana haswa na kiasi kinachohitajika ili kukidhi matokeo ya muamala. Madhumuni ya BNB ni kupunguza kiasi cha kubadilishana pamoja na ada, kwa kupunguza kinachojulikana kama kigezo cha taka, ambacho kinazingatia gharama za haraka na gharama zinazotarajiwa za baadaye za Ubadilishanaji. Mbinu hii imetokana na dhana asilia ya *Tawi-na-Kufungwa*, iliyobuniwa mwaka wa 1960 na Ailsa Land na Alison Harcourt, na inatoa uboreshaji sahihi zaidi wa ada kuliko *Knapsack Solver*.
+ChatGPT said:
+Asante kwa kutuma. Haya hapa ni marekebisho ya kitaalamu ya kifungu chako, yakizingatia mtiririko bora wa kisarufi, matumizi sahihi ya istilahi, na ufasaha wa lugha huku nikiheshimu muundo na maneno muhimu ya kiufundi:
 
-Mbinu hizi zote za uteuzi otomatiki za UTXO zinaweza kuwa na ufanisi katika kupunguza gharama za muamala, lakini mara nyingi hazifanyi kazi katika kuhifadhi usiri wa mtumiaji. Hakika, algorithms hizi zinaweza kuunganisha UTXO kadhaa katika pembejeo, na hivyo kufichua mali ya kawaida ya UTXO hizi kutokana na CIOH. Ni wazi, mbinu hizi haziwezi kuzingatia alama zilizobandikwa kwenye UTXOs, ambazo hata hivyo ni muhimu kwa kuchagua kwa uangalifu ni sehemu zipi za kufichua kwa mpokeaji wa muamala. Kwa sasa, njia pekee ya kuboresha usiri wakati wa kuchagua sarafu ni kufanya hivyo kwa mikono.
+Tawi-na-Mpaka (BNB), ambalo mara nyingi huitwa kwa utani Murch algorithm kutokana na mvumbuzi wake, lilichukua nafasi ya Knapsack Solver katika Bitcoin Core kuanzia toleo la 0.17. Mbinu hii ya hali ya juu inalenga kupata seti ya UTXO zinazolingana kikamilifu na kiasi kinachohitajika ili kufanikisha matokeo ya muamala. Lengo la BNB ni kupunguza kiasi kinachobadilishwa pamoja na ada, kwa kupunguza kinachojulikana kama kigezo cha taka (waste criterion), ambacho huzingatia gharama za sasa na zile zinazoweza kutokea baadaye wakati wa ubadilishanaji wa fedha. Mbinu hii inatokana na dhana ya asili ya Branch-and-Bound, iliyobuniwa mwaka 1960 na Ailsa Land pamoja na Alison Harcourt, na hutoa uboreshaji sahihi zaidi wa ada kuliko Knapsack Solver.
+
+Ikiwa ungependa nitafsiri pia maelezo kuhusu jinsi BNB inavyofanya kazi kwa kina zaidi, niambie.
+
+You said:
+BNB in full
+ChatGPT said:
+BNB ni kifupi cha Branch and Bound.
+
+Ni mbinu ya kihesabu inayotumiwa katika uboreshaji (optimization) ili kutafuta suluhisho bora kwa tatizo la kuchagua kutoka kwenye seti kubwa ya chaguo kwa kutumia njia ya kugawanya (branching) na kuondoa chaguo zisizofaa (bounding). Katika muktadha wa Bitcoin, BNB hutumika kuchagua seti bora ya UTXO zitakazotumika kwenye muamala, kwa lengo la kupunguza ada na waste (taka ya kiuchumi inayotokana na kutoa zaidi ya inavyohitajika au kubaki na change isiyo na tija).
+
+Branch and Bound, mara nyingi hupewa jina la utani Murch algorithm kutokana na mvumbuzi wake, ilichukua nafasi ya Knapsack Solver katika Bitcoin Core kuanzia toleo la 0.17. Mbinu hii ya hali ya juu inalenga kupata seti ya UTXO zinazolingana kikamilifu na kiasi kinachohitajika ili kufanikisha matokeo ya muamala. Lengo la Branch and Bound ni kupunguza kiasi kinachobadilishwa pamoja na ada, kwa kupunguza kinachojulikana kama kigezo cha taka (waste criterion), ambacho huzingatia gharama za sasa na gharama zinazotarajiwa baadaye za ubadilishanaji. Mbinu hii imetokana na dhana ya asili ya Branch and Bound, iliyobuniwa mwaka wa 1960 na Ailsa Land pamoja na Alison Harcourt, na hutoa uboreshaji sahihi zaidi wa ada kuliko Knapsack Solver.
+
+Mbinu zote hizi za uteuzi otomatiki wa UTXO zinaweza kuwa na ufanisi katika kupunguza gharama za muamala, lakini mara nyingi hushindwa kulinda usiri wa mtumiaji. Kwa kweli, algorithms hizi huweza kuunganisha UTXO nyingi kama pembejeo za muamala mmoja, jambo linaloweza kufichua umiliki wa pamoja wa UTXO hizo kutokana na CIOH. Ni wazi kwamba mbinu hizi hupuuzia alama zilizobandikwa kwenye UTXO, ambazo ni muhimu kwa kuchagua kwa makini ni sehemu zipi za kufichuliwa kwa mpokeaji wa muamala. Kwa sasa, njia pekee ya kuboresha usiri wakati wa kuchagua sarafu ni kufanya hivyo kwa mikono.
 
 ### Mafunzo juu ya kuweka alama kwa UTXO
 
-Ikiwa ungependa kujua jinsi ya kuweka alama kwenye UTXO zako, tumefanya mafunzo ya kina kuhusu programu kuu ya Pochi la Bitcoin huko nje:
+Ikiwa ungependa kujua jinsi ya kuweka alama kwenye UTXO zako, tumeandaa mafunzo ya kina kuhusu programu kuu za wallet za Bitcoin zinazopatikana:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 ## KYC na kitambulisho muhimu
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-KYC inasimamia "Jua Mteja Wako". Ni utaratibu wa udhibiti unaotekelezwa na kampuni fulani zinazofanya kazi katika sekta ya Bitcoin. Lengo la utaratibu huu ni kuhakiki na kusajili utambulisho wa wateja wao, kwa lengo lililowekwa la kupambana na utoroshaji wa pesa na ufadhili wa ugaidi.
+**KYC inasimamia *"Know Your Client"*. Ni utaratibu wa udhibiti unaotekelezwa na baadhi ya kampuni zinazofanya kazi katika sekta ya Bitcoin. Madhumuni ya utaratibu huu ni kuhakiki na kusajili utambulisho wa wateja wao, kwa lengo mahsusi la kupambana na utoroshaji wa pesa pamoja na ufadhili wa ugaidi.
 
-Katika hali halisi, KYC inahusisha ukusanyaji wa data mbalimbali za kibinafsi kutoka kwa mteja, ambazo zinaweza kutofautiana kulingana na mamlaka, lakini kwa ujumla hujumuisha kitambulisho, picha na uthibitisho wa Anwani (address). Taarifa hii kisha kuthibitishwa na kuhifadhiwa kwa matumizi ya baadaye.
+Katika hali halisi, KYC inahusisha ukusanyaji wa data mbalimbali za kibinafsi kutoka kwa mteja, ambazo zinaweza kutofautiana kulingana na mamlaka, lakini kwa ujumla hujumuisha kitambulisho, picha na uthibitisho wa address. Taarifa hii kisha kuthibitishwa na kuhifadhiwa kwa matumizi ya baadaye.
 
 Utaratibu huu umekuwa wa lazima kwa majukwaa yote ya Ubadilishanaji yanayodhibitiwa katika nchi nyingi za Magharibi. Hii inamaanisha kuwa mtu yeyote anayetaka kutumia sarafu za serikali za Ubadilishanaji kwa Bitcoin kupitia mifumo hii lazima atii mahitaji ya KYC.
 
 Utaratibu huu sio bila hatari kwa faragha na usalama wa watumiaji. Katika sura hii, tutachunguza hatari hizi kwa kina na kuchanganua athari mahususi za KYC na michakato ya utambuzi kwenye faragha ya watumiaji wa Bitcoin.
 
-### Kuwezesha ufuatiliaji wa mnyororo
+### Kuwezesha ufuatiliaji wa Onchain
 
-Hatari ya kwanza inayohusishwa na KYC ni kwamba inatoa mahali pazuri pa kuingilia kwa uchanganuzi wa Kuzuia mnyororo. Kama tulivyoona katika sehemu iliyotangulia, wachanganuzi wanaweza kuunganisha na kufuatilia shughuli kwenye kuzuia mnyororo kwa kutumia mifumo ya muamala na utabiri. Pindi tu wanapofaulu kujumuisha shughuli za onchain za mtumiaji, wanachohitaji kufanya ni kutafuta mahali pa kuingilia kati ya shughuli na funguo zake zote ili kuhatarisha usiri wake kikamilifu.
+Hatari ya kwanza inayohusishwa na KYC ni kwamba inatoa mahali pazuri pa kuingilia kwa uchanganuzi wa blockchain. Kama tulivyoona katika sehemu iliyotangulia, wachanganuzi wanaweza kuunganisha na kufuatilia shughuli kwenye blockchain kwa kutumia mifumo ya muamala na utabiri. Pindi tu wanapofaulu kujumuisha shughuli za onchain za mtumiaji, wanachohitaji kufanya ni kutafuta mahali pa kuingilia kati ya shughuli na funguo zake zote ili kuhatarisha usiri wake kikamilifu.
 
 ![BTC204](assets/fr/078.webp)
 
-Unapofanya KYC, unatoa kiingilio cha ubora wa juu cha uchanganuzi wa Kuzuia mnyororo, unapohusisha Anwani (address) zako za kupokea zinazotumiwa wakati wa kutoa bitcoins zako kutoka kwa jukwaa la Ubadilishanaji na utambulisho wako kamili, uliothibitishwa. Kinadharia, maelezo haya yanajulikana tu na kampuni ambayo umeipatia, lakini, kama tutakavyoona hapa chini, hatari ya kuvuja kwa data ni halisi. Zaidi ya hayo, ukweli kwamba kampuni inayoshikilia habari hii inaweza kuwa shida, hata ikiwa haishiriki.
+Unapofanya KYC, unatoa kiingilio cha ubora wa juu cha uchanganuzi wa blockchain, unapohusisha  address zako za kupokea zinazotumiwa wakati wa kutoa bitcoins zako kutoka kwa jukwaa la exchange na utambulisho wako kamili, uliothibitishwa. Kinadharia, maelezo haya yanajulikana tu na kampuni ambayo umeipatia, lakini, kama tutakavyoona hapa chini, hatari ya kuvuja kwa data ni halisi. Zaidi ya hayo, ukweli kwamba kampuni inayoshikilia habari hii inaweza kuwa shida, hata ikiwa haishiriki.
 
-Kwa hivyo, usipochukua hatua nyingine za kupunguza ujumlishaji wa shughuli zako kwenye Kuzuia mnyororo, mtu yeyote aliye na ufahamu wa mahali hapa pa kuingilia KYC anaweza kuunganisha shughuli zako zote kwenye Bitcoin na utambulisho wako. Kwa mtazamo wa kampuni hiyo, matumizi yako ya Bitcoin hupoteza usiri wote.
+Kwa hivyo, usipochukua hatua nyingine za kupunguza ujumlishaji wa miamala yako kwenye blockchain, mtu yeyote aliye na ufahamu wa mahali hapa pa kuingilia KYC anaweza kuunganisha miamala yako yote kwenye Bitcoin na utambulisho wako. Kwa mtazamo wa kampuni hiyo, matumizi yako ya Bitcoin hupoteza usiri wote.
 
 ![BTC204](assets/fr/079.webp)
 

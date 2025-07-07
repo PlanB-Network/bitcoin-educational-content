@@ -1,5 +1,5 @@
 ---
-name: Update uw online beveiliging
+name: Update uw online beveiliging 
 goal: Update het beheer van wachtwoorden en persoonlijke gegevens. Maak een back-up, bescherm je tegen hackers en maak mensen bewust van massasurveillance.
 objectives: 
 

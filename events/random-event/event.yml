@@ -1,0 +1,17 @@
+id: 7d94d4df-ff72-4960-afea-1966cf5a73e0
+start_date: 2025-07-08 08:00:00
+end_date: 2025-07-10 10:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: Random Event
+type: meetup
+description: Description
+language:
+  - en
+  - es
+links:
+  website: noweb.com
+tags:
+  - node
+  - offchain
+  - lightning

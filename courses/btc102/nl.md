@@ -2,7 +2,7 @@
 name: Je eerste bitcoins verkrijgen
 goal: Leer hoe je zelfstandig je eerste bitcoins kunt kopen, beveiligen en beheren.
 objectives: 
-  - Identificeer en vermijd van veelvoorkomende valkuilen rondom met Bitcoin
+  - Identificeer en vermijd van veelvoorkomende valkuilen rondom Bitcoin
   - De grondbeginselen van Bitcoin begrijpen
   - Kies de juiste beveiligingsstrategie die het beste bij jouw behoeften past
   - Leer hoe en waar je je eerste bitcoins kunt krijgen
@@ -13,7 +13,7 @@ objectives:
 
 Het Bitcoin ecosysteem maakt een spectaculaire en ongekende groei door. De technologische, economische en sociale transformaties die worden aangedreven door de uitvinding van Satoshi Nakamoto worden met de dag intensiever en openen geleidelijk de deuren naar een nieuwe wereld, waar jij nu ten volle van kunt profiteren.
 
-Een duik in het Bitcoin Konijnenhol is een opwindend intellectueel avontuur dat je kritisch denken zal stimuleren en veel van je overtuigingen op de proef zal stellen. Deze verkenning zal je niet alleen een diep begrip geven van hoe Bitcoin werkt, maar ook een echte kans om je persoonlijke vrijheid terug te winnen, je privacy te beschermen en echte financiële soevereiniteit te bereiken.
+Een duik in het Bitcoin konijnenhol is een opwindend intellectueel avontuur dat je kritisch denken zal stimuleren en veel van je overtuigingen op de proef zal stellen. Deze verkenning zal je niet alleen een diep begrip geven van hoe Bitcoin werkt, maar ook een echte kans om je persoonlijke vrijheid terug te winnen, je privacy te beschermen en echte financiële soevereiniteit te bereiken.
 
 Om je effectief door deze reis te leiden, heb ik deze volledig gratis cursus gemaakt. Hier ligt de focus uitsluitend op Bitcoin. Geen irrelevante discussies, geen vermelding van andere cryptocurrencies, alleen duidelijke, precieze en heldere inhoud.
 
@@ -28,31 +28,28 @@ Deze cursus is ontworpen om je volledige controle te geven over hoe je leert, zo
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
-Welkom bij BTC102! Als u BTC101 al hebt gevolgd, hebt u de belangrijkste theoretische concepten onderzocht achter waarom Bitcoin zo'n revolutionaire technologie is. Nu, met BTC102, is het tijd om die kennis in actie om te zetten. Deze cursus is ontworpen om u te helpen stap voor stap uw persoonlijke Bitcoin plan op te stellen.
+Welkom bij BTC102! Als je BTC101 al hebt gevolgd, heb je de belangrijkste theoretische concepten onderzocht achter waarom Bitcoin zo'n revolutionaire technologie is. Nu, met BTC102, is het tijd om die kennis in actie om te zetten. Deze cursus is ontworpen om je te helpen stap voor stap je persoonlijke Bitcoin plan op te stellen.
 
 In de komende hoofdstukken leiden we je door de praktische stappen om **je eerste bitcoins** te krijgen, **ze goed te beveiligen** en vol vertrouwen je eerste stappen te zetten in dit snelgroeiende ecosysteem.
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Hoewel Bitcoin al meer dan 16 jaar bestaat, is de industrie nog jong, dynamisch en diep geworteld in vrijheid. Het onderliggende protocol is volledig gedecentraliseerd en bestand tegen controle door een centrale autoriteit, waardoor het ecosysteem op een natuurlijke en organische manier kan groeien.
-
 Hoewel deze vrijheid een ongelooflijke golf van innovatie en mogelijkheden voedt, brengt het ook bepaalde risico's met zich mee, waaronder oplichting, veelgemaakte fouten en valkuilen die vaak voortkomen uit een gebrek aan kennis. Het belangrijkste doel van deze cursus is om je te helpen met vertrouwen en veiligheid door dit nieuwe ecosysteem te navigeren.
 
 Om dit te bereiken is de BTC102-cursus onderverdeeld in verschillende secties, elk gericht op een belangrijk aspect van je reis met Bitcoin:
 
-Het eerste deel, "Voorwaarden om Bitcoin te begrijpen", bereidt u effectief voor op het pad dat voor u ligt. U leert de belangrijkste valkuilen te herkennen met betrekking tot oplichting en financiële fraude die in het Bitcoin ecosysteem kunnen voorkomen. Daarna behandelen we de essentiële basisprincipes van online beveiliging.
-
+Het eerste deel, "Vereisten om Bitcoin te begrijpen", bereidt je effectief voor op het pad dat voor je ligt. Je leert de belangrijkste valkuilen te herkennen met betrekking tot oplichting en financiële fraude die in het Bitcoin ecosysteem kunnen voorkomen. Daarna behandelen we de essentiële basisprincipes van online beveiliging.
 Tot slot geef ik je een paar praktische tips speciaal voor beginners om veelgemaakte fouten te voorkomen als je voor het eerst met Bitcoin werkt.
 
 ![BTC102-Bitcoin](assets/fr/001.webp)
 
-Het tweede deel, "Begrijpen waar je aan begint", zal je algemene begrip van Bitcoin verdiepen. We beginnen met een overzicht om er zeker van te zijn dat je de essentiële concepten volledig begrijpt.
-
-Daarna zullen we uitleggen waarom Bitcoin fundamenteel belangrijk is vanuit technologisch, economisch en sociaal perspectief, waardoor je geloof in de waarde ervan versterkt wordt. Je zult ook de Bitcoin industrie als geheel verkennen: haar hoofdrolspelers, haar organisatie en haar evolutie door de jaren heen. Tenslotte behandelen we de gelaagde architectuur van het Bitcoin ecosysteem, een cruciaal concept om te begrijpen hoe dit systeem blijft innoveren zonder de integriteit van het kernprotocol aan te tasten.
+Het tweede deel, "Begrijpen waar je aan begint", zal je algemene begrip van Bitcoin vergroten. We beginnen met een overzicht om er zeker van te zijn dat je de essentiële concepten volledig begrijpt.
+Daarna zullen we uitleggen waarom Bitcoin fundamenteel belangrijk is vanuit technologisch, economisch en sociaal perspectief, waardoor je geloof in de waarde ervan versterkt wordt. Je zult ook de Bitcoin industrie als geheel verkennen: zijn hoofdrolspelers, organisatie en evolutie door de jaren heen. Tenslotte behandelen we de gelaagde architectuur van het Bitcoin ecosysteem, een cruciaal concept om te begrijpen hoe dit systeem blijft innoveren zonder de integriteit van het kernprotocol aan te tasten.
 
 ![BTC102-Bitcoin](assets/fr/027.webp)
 
-Het derde deel, "Uw plan opstellen", richt zich op uw persoonlijke benadering van Bitcoin. We beginnen met het definiëren van jouw gebruikersprofiel uit vier hoofdcategorieën:
+Het derde deel, "Jouw plan opstellen", richt zich op je persoonlijke benadering van Bitcoin. We beginnen met het definiëren van jouw gebruikersprofiel uit vier hoofdcategorieën:
 
 - de hodler*, gericht op het vasthouden van Bitcoin op de lange termijn;
 - de stapelaar*, die regelmatig en methodisch inkoopt;
@@ -63,7 +60,7 @@ We begeleiden je bij het implementeren van een strategie die past bij jouw profi
 
 ![BTC102-Bitcoin](assets/fr/067.webp)
 
-Ten slotte behandelt het vierde deel, "Uw erfgenamen en vermogen beschermen", een cruciaal onderwerp dat vaak over het hoofd wordt gezien: hoe u ervoor kunt zorgen dat uw Bitcoin wordt doorgegeven aan uw dierbaren in geval van een onverwachte gebeurtenis. Je leert hoe je een Bitcoin erfenisplan kunt maken en opzetten, zodat je er zeker van kunt zijn dat je vermogen ook na je leven behouden blijft.
+Ten slotte behandelt het vierde deel, "Je erfgenamen en vermogen beschermen", een cruciaal onderwerp dat vaak over het hoofd wordt gezien: hoe je ervoor kunt zorgen dat jouw Bitcoin wordt doorgegeven aan je dierbaren in geval van een onverwachte gebeurtenis. Je leert hoe je een Bitcoin erfenisplan kunt maken en opzetten, zodat je er zeker van kunt zijn dat je vermogen ook na je leven behouden blijft.
 
 ![BTC102-Bitcoin](assets/fr/095.webp)
 
@@ -81,15 +78,15 @@ Klaar om je reis in de wereld van Bitcoin te beginnen? Laten we gaan!
 
 :::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
-Het Bitcoin ecosysteem en de omringende omgeving zijn nog relatief jong en losjes gereguleerd, afhankelijk van het land. Hoewel deze vrijheid enorme mogelijkheden biedt, creëert het ook een vruchtbare bodem voor financiële fraude, oplichting en verschillende vormen van manipulatie. Daarom is het eerste hoofdstuk zo cruciaal: als je de veelvoorkomende valkuilen begrijpt, kun je ze vermijden. Uw financiële zekerheid is een prioriteit, want een slechte ervaring heeft niet alleen gevolgen voor u, maar voor de hele Bitcoin gemeenschap.
+Het Bitcoin ecosysteem en zijn omgeving zijn nog relatief jong en losjes gereguleerd, afhankelijk van het land. Hoewel deze vrijheid enorme mogelijkheden biedt, creëert het ook een vruchtbare bodem voor financiële fraude, oplichting en verschillende vormen van manipulatie. Daarom is het eerste hoofdstuk zo cruciaal: als je de veelvoorkomende valkuilen begrijpt, kun je ze vermijden. Jouw financiële zekerheid is een prioriteit, want een slechte ervaring heeft niet alleen gevolgen voor jou, maar voor de hele Bitcoin gemeenschap.
 
 ### Bitcoin vs crypto's: de verschillen begrijpen
 
 Voordat we verder gaan, is het belangrijk om een duidelijk onderscheid te maken tussen twee fundamenteel verschillende werelden:
 
-- Het Bitcoin ecosysteem** is gecentreerd rond het idee van gezond geld, gebouwd op sterke decentralisatie, lange termijn veerkracht, privacy en individuele soevereiniteit. Sinds de lancering in 2009 heeft Bitcoin betrouwbaar en veilig gefunctioneerd, ondersteund door een wereldwijde, toegewijde gemeenschap van ontwikkelaars. Het is geen voorbijgaande trend, maar een stabiel en goed gevestigd protocol, ontworpen om waarde te behouden in de loop der tijd.
+- Het Bitcoin ecosysteem** is gecentreerd rond het idee van gezond geld, gebouwd op sterke decentralisatie, lange termijn veerkracht, privacy en individuele soevereiniteit. Sinds de lancering in 2009 heeft Bitcoin betrouwbaar en veilig gefunctioneerd, ondersteund door een wereldwijde, toegewijde gemeenschap van ontwikkelaars. Het is geen voorbijgaande trend, maar een stabiel en goed gevestigd protocol, ontworpen om waarde over de loop van tijd te behouden.
 
-- De cryptocurrency-industrie** daarentegen is veel groter en omvat tienduizenden verschillende projecten, elk met zijn eigen token. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Veel van deze projecten zijn gecentraliseerd, minder veilig en bieden niet veel echte waarde, ondanks gedurfde beloften en flitsende marketing.
+- De cryptocurrency-industrie** daarentegen is veel groter en omvat tienduizenden verschillende projecten, elk met zijn eigen token. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Veel van deze projecten zijn gecentraliseerd, minder veilig en bieden niet veel echte waarde, ondanks gedurfde beloften en flitsende marketing.
 
 ![BTC102-Bitcoin](assets/fr/001.webp)
 
@@ -101,7 +98,7 @@ Zoals je weet, is het Plan ₿ Network platform exclusief gewijd aan Bitcoin. Al
 
 ![BTC102-Bitcoin](assets/fr/002.webp)
 
-### De belangrijkste zwendelpraktijken om te vermijden
+### De belangrijkste vormen van oplichting om te vermijden
 
 Hier zijn de meest voorkomende zwendelpraktijken die je tijdens je reis kunt tegenkomen:
 
@@ -111,7 +108,7 @@ Dit zijn enkele van de meest voorkomende zwendelpraktijken in de cryptowereld. I
 
 ![BTC102-Bitcoin](assets/fr/003.webp)
 
-Deze zwendelpraktijken hebben meestal :
+Deze vormen van oplichting hebben meestal :
 
 - Onrealistische beloften van gegarandeerd rendement (bijv. 20% gegarandeerd rendement);
 - Vertragingen of problemen bij het opnemen van je belegde geld;
@@ -120,11 +117,11 @@ Deze zwendelpraktijken hebben meestal :
 
 Uiteindelijk zijn alle piramide- en Ponzi-constructies gedoemd om te mislukken. Hun fundamentele zwakte ligt in de constante noodzaak om nieuwe investeerders aan te trekken om rendement uit te betalen aan eerdere deelnemers. Deze behoefte wordt mathematisch onmogelijk vol te houden na verloop van tijd omdat het aantal nieuwe rekruten dat nodig is exponentieel toeneemt naarmate het systeem groeit. Zodra een kritiek punt is bereikt, beginnen deelnemers te twijfelen, verdwijnt het vertrouwen en stort de hele piramide in elkaar. In dit stadium verliezen de laatste mensen die meedoen, vaak de minst geïnformeerde, hun volledige investering zonder enige mogelijkheid om deze terug te krijgen, terwijl de organisatoren of vroege investeerders meestal hun geld al hebben opgenomen en het systeem hebben verlaten.
 
-In de wereld van de cryptocurrency kunnen Ponzi-constructies vele vormen aannemen, vaak ontworpen om hun frauduleuze aard te verbergen achter een technologisch of financieel masker. Deze zwendel kan zich voordoen als nieuwe token aanbiedingen of Initial Coin Offerings (ICO's), wat fondsenwervingsoperaties zijn waarbij een nieuwe cryptocurrency aan het publiek wordt verkocht. Achter technische termen als "Blockchain", "smart contracts" of "staking" gaan eigenlijk complexe piramidespelen schuil. Andere beweren hoge rendementen te bieden door twijfelachtige crypto-activa te combineren met compensatiesystemen die volledig afhankelijk zijn van de voortdurende instroom van nieuwe investeerders.
+In de wereld van de cryptocurrency kunnen Ponzi-constructies vele vormen aannemen, vaak ontworpen om hun frauduleuze aard te verbergen achter een technologisch of financieel masker. Deze zwendel kan zich voordoen als het aanbieden van een nieuwe token of Initial Coin Offerings (ICO's), wat fondsenwervingsoperaties zijn waarbij een nieuwe cryptocurrency aan het publiek wordt verkocht. Achter technische termen als "blockchain", "smart contracts" of "staking" gaan eigenlijk complexe piramidespelen schuil. Andere beweren hoge rendementen te bieden door twijfelachtige crypto-activa te combineren met compensatiesystemen die volledig afhankelijk zijn van de voortdurende instroom van nieuwe investeerders.
 
-Meer recentelijk hebben Ponzi-constructies zich ook verspreid in de wereld van Decentrale Financiën (DeFi). Hoewel DeFi bedoeld is om financiële diensten aan te bieden zonder tussenpersonen, gebruiken sommige projecten het om hun zwendel een vals gevoel van legitimiteit te geven. Bepaalde DeFi-platforms beloven hoge, gegarandeerde rendementen in Exchange voor stortingen van cryptocurrency in geautomatiseerde protocollen. Deze aantrekkelijke beloften worden vaak ondersteund door ondoorzichtige en oncontroleerbare mechanismen, met tokens die speciaal voor de zwendel zijn gemaakt. In werkelijkheid hebben deze systemen geen duurzaam bedrijfsmodel - de opbrengsten worden gewoon betaald uit de fondsen van nieuwe gebruikers, net als bij een traditioneel Ponzi-systeem. Wanneer het vertrouwen begint te eroderen of de instroom van nieuwe deelnemers afneemt, storten deze systemen onvermijdelijk in, wat leidt tot aanzienlijke verliezen voor nietsvermoedende investeerders.
+Meer recentelijk hebben Ponzi-constructies zich ook verspreid in de wereld van Decentrale Financiën (DeFi). Hoewel DeFi bedoeld is om financiële diensten aan te bieden zonder tussenpersonen, gebruiken sommige projecten het om hun zwendel een vals gevoel van legitimiteit te geven. Bepaalde DeFi-platforms beloven hoge, gegarandeerde rendementen in ruil voor stortingen van cryptocurrency in geautomatiseerde protocollen. Deze aantrekkelijke beloften worden vaak ondersteund door ondoorzichtige en oncontroleerbare mechanismen, met tokens die speciaal voor de oplichting zijn gemaakt. In werkelijkheid hebben deze systemen geen duurzaam bedrijfsmodel - de opbrengsten worden gewoon betaald uit de fondsen van nieuwe gebruikers, net als bij een traditioneel Ponzi-systeem. Wanneer het vertrouwen begint te eroderen of de instroom van nieuwe deelnemers afneemt, storten deze systemen onvermijdelijk in, wat leidt tot aanzienlijke verliezen voor nietsvermoedende investeerders.
 
-De inhoud van deze cursus is alleen bedoeld voor educatieve doeleinden en mag niet worden geïnterpreteerd als financieel advies. Uw financiële zekerheid hangt af van uw vermogen om voorzichtig, sceptisch en goed geïnformeerd te blijven bij elke financiële beslissing die u neemt.
+De inhoud van deze cursus is alleen bedoeld voor educatieve doeleinden en mag niet worden geïnterpreteerd als financieel advies. Je financiële zekerheid hangt af van je vermogen om voorzichtig, sceptisch en goed geïnformeerd te blijven bij elke financiële beslissing die je neemt.
 
 De beste bescherming is om altijd deze eenvoudige vraag te stellen: Waar komt het beloofde rendement eigenlijk vandaan? Als het antwoord onduidelijk is, loop dan onmiddellijk weg.
 
@@ -132,31 +129,31 @@ De beste bescherming is om altijd deze eenvoudige vraag te stellen: Waar komt he
 
 Bij dit soort zwendel wordt de prijs van een activum - vaak een cryptocurrency token met een lage liquiditeit - kunstmatig opgedreven door middel van een gecoördineerde marketingcampagne, meestal geleid door een groep investeerders. Het typische Pump & Dump-schema volgt dit patroon:
 
-- Een groep insiders of invloedrijke figuren verzamelt stilletjes een grote hoeveelheid van het doelwit.
-- Vervolgens lanceren ze een agressieve promotiecampagne om een generate hype te creëren en de prijs op te drijven.
+- Een groep insiders of invloedrijke figuren verzamelt stilletjes een grote hoeveelheid van de beoogde activa.
+- Vervolgens lanceren ze een agressieve promotiecampagne om een hype te creëren en de prijs op te drijven.
 - Het grote publiek, gedreven door FOMO (Fear of Missing Out), begint de activa in grote aantallen te kopen, waardoor de prijs nog hoger wordt.
 - Op het hoogtepunt van de hype verkopen de insiders hun holdings allemaal tegelijk.
 - De prijs crasht, waardoor laatkomers zware verliezen lijden.
 
 ![BTC102-Bitcoin](assets/fr/004.webp)
 
-Het is belangrijk om te weten dat Pump & Dump-strategieën in veel landen illegaal zijn en worden beschouwd als een vorm van marktmanipulatie. Desondanks blijven dit soort constructies floreren, vooral in de cryptocurrency-ruimte, waar de regelgeving nog bezig is met een inhaalslag.
+Het is belangrijk om te weten dat Pump & Dump-strategieën in veel landen illegaal zijn en worden beschouwd als een vorm van marktmanipulatie. Desondanks blijven dit soort constructies floreren, vooral in de wereld van cryptocurrency, waar de regelgeving nog bezig is met een inhaalslag.
 
-Wees vooral voorzichtig met privé "signaal" groepen op platformen zoals Telegram, Discord of andere sociale media kanalen. Deze worden vaak gerund door beïnvloeders of zelfbenoemde experts, waarvan sommigen zelfs inschrijfgeld vragen. Hoewel deze groepen beweren exclusieve investeringsmogelijkheden te bieden, is de realiteit veel eenzijdiger: alleen de organisatoren profiteren, terwijl de meeste deelnemers uiteindelijk hun geld verliezen.
+Wees vooral voorzichtig met privé "signaal" groepen op platformen zoals Telegram, Discord of andere sociale media kanalen. Deze worden vaak gerund door influencers of zelfbenoemde experts, waarvan sommigen zelfs inschrijfgeld vragen. Hoewel deze groepen beweren exclusieve investeringsmogelijkheden te bieden, is de realiteit veel eenzijdiger: alleen de organisatoren profiteren, terwijl de meeste deelnemers uiteindelijk hun geld verliezen.
 
 ![BTC102-Bitcoin](assets/fr/005.webp)
 
-Het is waar dat sommige deelnemers tijdelijk kunnen profiteren van dit soort marktmanipulaties, maar hun succes is meestal gebaseerd op niets meer dan geluk en perfecte timing. Op de lange termijn zijn deze constructies niet duurzaam. Ze vereisen constante betrokkenheid met een hoog risico en herhaalde deelname aan frauduleuze opstellingen die onvermijdelijk instorten.
+Het is waar dat sommige deelnemers tijdelijk kunnen profiteren van dit soort marktmanipulaties, maar hun succes is meestal gebaseerd op niets meer dan geluk en perfecte timing. Op de lange termijn zijn deze constructies niet duurzaam. Ze vereisen constante betrokkenheid met een hoog risico en herhaaldelijke deelname aan frauduleuze praktijken die onvermijdelijk zullen instorten.
 
-Erger nog, ze voeden een gevaarlijke illusie: het geloof dat het mogelijk is om snel en gemakkelijk geld te verdienen zonder te begrijpen hoe financiële systemen eigenlijk werken. Deze mentaliteit brengt niet alleen individuen in gevaar, maar ondermijnt ook de geloofwaardigheid van het hele cryptocurrency ecosysteem
+Erger nog, ze voeden een gevaarlijke illusie: het geloof dat het mogelijk is om snel en gemakkelijk geld te verdienen zonder te begrijpen hoe financiële systemen eigenlijk werken. Deze mentaliteit brengt niet alleen individuen in gevaar, maar ondermijnt ook de geloofwaardigheid van het hele cryptocurrency ecosysteem.
 
 Om al deze redenen is de beste strategie een serieuze, doordachte benadering van beleggen, die is gebaseerd op financiële educatie, een goed begrip van de basisprincipes en een langetermijnperspectief.
 
 Door geduldig je kennis op te bouwen, ben je veel minder kwetsbaar voor emotionele manipulatie en onrealistische beloftes; en veel beter uitgerust om het soort financiële valstrikken te vermijden die tot echte verliezen kunnen leiden.
 
-#### Zwendel met donaties, loterijen en nepweggeefacties
+#### Oplichting met donaties, loterijen en nepweggeefacties
 
-Dit soort zwendel belooft gratis Bitcoin of andere beloningen in Exchange als je eerst een klein bedrag opstuurt. Het is belangrijk om te onthouden: geen enkele legitieme persoon of organisatie zal je ooit vragen om eerst cryptocurrency te sturen met de belofte dat je er meer voor terugkrijgt.
+Deze vorm van oplichting belooft gratis Bitcoin of andere beloningen als je eerst een klein bedrag opstuurt. Het is belangrijk om te onthouden: geen enkele legitieme persoon of organisatie zal je ooit vragen om eerst cryptocurrency te sturen met de belofte dat je er meer voor terugkrijgt.
 
 Oplichters doen zich vaak voor als bekende publieke figuren (zoals Elon Musk of andere beroemdheden) om slachtoffers te lokken via sociale media. Controleer altijd de legitimiteit van accounts en websites voordat je ermee in zee gaat en vertrouw nooit op aanbiedingen die overdreven gul lijken of te mooi zijn om waar te zijn.
 
@@ -174,48 +171,43 @@ Aanvallers gebruiken vaak nepwebsites, sociale media-accounts of misleidende e-m
 
 Controleer altijd de identiteit van de afzender voordat je op een link klikt of een actie onderneemt. Bezoek bij twijfel de website handmatig in plaats van een gegeven link te gebruiken. Het belangrijkste is dat je nooit je privésleutels of wachtwoorden met iemand deelt.
 
-#### Bitcoin Harde vorken
+#### Bitcoin Hardforks
 
-In de loop der jaren heeft Bitcoin verschillende *Hard forks* gekend, die resulteerden in de creatie van alternatieve versies van de originele cryptocurrency. Eenvoudig gezegd is een *Hard Fork* een splitsing in het netwerk die leidt tot twee afzonderlijke blockchains, die beide dezelfde geschiedenis delen tot het moment van de splitsing. Deze splitsingen gebeuren meestal wanneer een deel van de ontwikkelaarsgemeenschap of het bredere Bitcoin ecosysteem grote veranderingen in het originele protocol wil introduceren, maar geen brede consensus kan bereiken. In plaats van hun ideeën op te geven, besluiten ze een nieuwe versie van Bitcoin te lanceren (met gewijzigde regels) in de hoop dat gebruikers en miners ervoor kiezen om in plaats daarvan hun Fork te volgen.
+In de loop der jaren heeft Bitcoin verschillende *hard forks* gekend, die resulteerden in de creatie van alternatieve versies van de originele cryptocurrency. Eenvoudig gezegd is een *hard Fork* een splitsing in het netwerk die leidt tot twee afzonderlijke blockchains, die beide dezelfde geschiedenis delen tot het moment van de splitsing. Deze splitsingen gebeuren meestal wanneer een deel van de ontwikkelaarsgemeenschap of het bredere Bitcoin ecosysteem grote veranderingen in het originele protocol wil introduceren, maar geen brede consensus kan bereiken. In plaats van hun ideeën op te geven, besluiten ze een nieuwe versie van Bitcoin te lanceren (met gewijzigde regels) in de hoop dat gebruikers en miners ervoor kiezen om in plaats daarvan hun fork te volgen.
 
 ![BTC102-Bitcoin](assets/fr/007.webp)
 
-Niet alle *Hard forks* zijn frauduleus, omdat sommige voortkomen uit technische of ideologische meningsverschillen binnen de gemeenschap. Andere worden echter gedreven door commerciële belangen of zelfs oneerlijke motieven. De bekendste voorbeelden van deze hardforks zijn **Bitcoin Cash (BCH)** en **Bitcoin Satoshi Vision (BSV)**. Deze alternatieve valuta, gelanceerd in respectievelijk 2017 en 2018, beweren vaak "betere versies" van de originele Bitcoin te zijn. Ze promoten vermeende voordelen zoals lagere transactiekosten of snellere transacties dankzij grotere blokgroottes. Deze technische veranderingen gaan echter gepaard met aanzienlijke afwegingen op het gebied van veiligheid, decentralisatie en robuustheid; Elements die in strijd kunnen zijn met de grondbeginselen van Bitcoin.
+Niet alle *hard forks* zijn frauduleus, omdat sommige voortkomen uit technische of ideologische meningsverschillen binnen de gemeenschap. Andere worden echter gedreven door commerciële belangen of zelfs oneerlijke motieven. De bekendste voorbeelden van deze hardforks zijn **Bitcoin Cash (BCH)** en **Bitcoin Satoshi Vision (BSV)**. Deze alternatieve munten, gelanceerd in respectievelijk 2017 en 2018, beweren vaak "betere versies" van de originele Bitcoin te zijn. Ze promoten vermeende voordelen zoals lagere transactiekosten of snellere transacties dankzij een toename in blokgroottes. Deze technische veranderingen gaan echter gepaard met aanzienlijke afwegingen op het gebied van veiligheid, decentralisatie en robuustheid, ofwel elementen die in strijd kunnen zijn met de grondbeginselen van Bitcoin.
 
-Naast technische verschillen maken deze alternatieve valuta's vaak gebruik van verwarring om onwetende investeerders aan te trekken. Ze kunnen marketingtactieken gebruiken om nieuwkomers opzettelijk te misleiden en te laten geloven dat ze echte Bitcoin (BTC) kopen.
+Naast technische verschillen maken deze alternatieve munten vaak gebruik van verwarring om onwetende investeerders aan te trekken. Ze kunnen marketingtactieken gebruiken om nieuwkomers opzettelijk te misleiden en te laten geloven dat ze echte Bitcoin (BTC) kopen.
 
-Om niet in deze val te lopen, moet je altijd de valuta die je koopt verifiëren. De originele Bitcoin gebruikt de ticker **BTC**, terwijl Bitcoin Cash en zijn derivaten verschillende acroniemen gebruiken, zoals BCH of BSV.
+Om niet in deze val te lopen, moet je de munten die je koopt altijd verifiëren. De originele Bitcoin gebruikt de ticker **BTC**, terwijl Bitcoin Cash en zijn derivaten verschillende acroniemen gebruiken, zoals BCH of BSV.
 
-#### Oneerlijke beïnvloeders en nepgoeroes
+#### Oneerlijke influencers en nepgoeroes
 
-Nu cryptocurrencies steeds meer aandacht krijgen, is er op sociale media een golf van beïnvloeders, zelfbenoemde experts en zogenaamde "*crypto goeroes*". Terwijl enkelen echte educatieve inzichten bieden, maken veel anderen misbruik van hun zichtbaarheid om dubieuze projecten of gevaarlijk risicovolle (en soms regelrecht frauduleuze) handelsstrategieën te promoten. Deze individuen worden meestal gemotiveerd door persoonlijke financiële belangen, waarbij ze vaak directe of indirecte compensatie ontvangen voor het promoten van bepaalde tokens of platforms.
+Nu cryptocurrencies steeds meer aandacht krijgen, is er op sociale media een golf van influencers, zelfbenoemde experts en zogenaamde "*crypto goeroes*". Terwijl enkelen echte educatieve inzichten bieden, maken veel anderen misbruik van hun zichtbaarheid om dubieuze projecten of gevaarlijk risicovolle (en soms regelrecht frauduleuze) handelsstrategieën te promoten. Deze individuen worden meestal gemotiveerd door persoonlijke financiële belangen, waarbij ze vaak directe of indirecte compensatie ontvangen voor het promoten van bepaalde tokens of platforms.
 
 ![BTC102-Bitcoin](assets/fr/008.webp)
 
-Deze beïnvloeders vertrouwen vaak op beproefde tactieken om beginners aan te trekken: ze laten indrukwekkende financiële resultaten zien (die vaak nep of oncontroleerbaar zijn), pronken met een luxueuze levensstijl als zogenaamd bewijs van hun succes en promoten "wonderbaarlijke" beleggingsstrategieën. Het doel is om FOMO - de angst om iets te missen - op te wekken en hun publiek aan te zetten tot impulsieve beslissingen en roekeloze investeringen.
+Deze influencers vertrouwen vaak op beproefde tactieken om beginners aan te trekken: ze laten indrukwekkende financiële resultaten zien (die vaak nep of oncontroleerbaar zijn), pronken met een luxueuze levensstijl als zogenaamd bewijs van hun succes en promoten "wonderbaarlijke" beleggingsstrategieën. Het doel is om FOMO - de angst om iets te missen - op te wekken en hun publiek aan te zetten tot impulsieve beslissingen en roekeloze investeringen.
 
 Het is belangrijk om te begrijpen dat het meeste "gratis" advies van deze persoonlijkheden nooit echt gratis is. Achter de façade van vrijgevigheid schuilt vaak een berekende strategie om mensen te sturen in de richting van het kopen van twijfelachtige activa. En zelfs als sommige beïnvloeders eerlijk zouden zijn, zou het bijna onmogelijk zijn om hun resultaten te evenaren; hun succes hangt vaak af van specifieke timing, voorkennis of unieke omstandigheden waar je gewoon geen toegang tot hebt.
 
-Sommige beïnvloeders kunnen je uitnodigen om lid te worden van betaalde privégroepen waar ze beweren exclusieve trading signalen of insider tips te delen die snelle en gemakkelijke winsten beloven. In werkelijkheid profiteren deze groepen vooral van de organisatoren zelf. Ze gebruiken hun volgers vaak als een bron van liquiditeit, in wezen het lozen van activa voor persoonlijk gewin. Abonnees verliezen meestal geld omdat ze niet zo snel kunnen reageren als de insiders die de transacties orkestreren (zie het gedeelte over Pump & Dump schema's).
+Sommige influencers kunnen je uitnodigen om lid te worden van betaalde privégroepen waar ze beweren exclusieve trading signalen of insider tips te delen die snelle en gemakkelijke winsten beloven. In werkelijkheid zijn het vooral de organisatoren van deze groepen die profiteren. Ze gebruiken hun volgers vaak als een bron van liquiditeit, in wezen het dumpen van activa voor persoonlijk gewin. Abonnees verliezen meestal geld omdat ze niet zo snel kunnen reageren als de insiders die de transacties orkestreren (zie het gedeelte over Pump & Dump schema's).
 
 In het licht van deze realiteit zijn hier enkele goede gewoonten die je kunt aannemen om te voorkomen dat je in de valstrikken van oneerlijke beïnvloeders trapt:
 
-- Wees zeer voorzichtig met aanbevelingen voor crypto-investeringen.**
+- **Wees zeer voorzichtig met aanbevelingen voor crypto-investeringen.**
   Een betrouwbaar en deskundig persoon zal je nooit onder druk zetten om een cryptocurrency te kopen zonder je aan te moedigen om eerst je eigen onderzoek te doen.
-
-- Betaalde handels- of beleggingscursussen zijn niet altijd een teken van kwaliteit.**
+- **Betaalde handels- of beleggingscursussen zijn niet altijd een teken van kwaliteit.**
   Veel van deze cursussen promoten riskante of te simplistische strategieën; vaak dezelfde informatie die je gratis online kunt vinden.
-
-- Er bestaat niet zoiets als een gegarandeerde manier om iemands trades te kopiëren en identieke resultaten te krijgen.**
+- **Er bestaat niet zoiets als een gegarandeerde manier om iemands trades te kopiëren en identieke resultaten te krijgen.**
   Elke beleggingsstrategie is afhankelijk van persoonlijke context, timing, kennis en andere factoren die niet exact te dupliceren zijn.
-
-- Wees vooral op je hoede voor advies dat te mooi klinkt om waar te zijn.**
+- **Wees vooral op je hoede voor advies dat te mooi klinkt om waar te zijn.**
   Onrealistische beloften of gegarandeerde winsten zijn bijna altijd tekenen van manipulatie. Onthoud: het is niet omdat iemand iets vol vertrouwen zegt, dat het ook waar is.
 
-Onthoud altijd dat iedereen die je tegenkomt in het Bitcoin of bredere crypto-ecosysteem een persoonlijke agenda heeft; of die nu openlijk wordt genoemd of tussen de regels door wordt verborgen. Zuiver neutrale informatie bestaat niet. Zelfs deze cursus, BTC102, heeft een duidelijk doel, *het bevorderen van een beter begrip van Bitcoin.*
-
+Onthoud altijd dat iedereen die je tegenkomt in het Bitcoin of bredere crypto-ecosysteem een persoonlijke agenda heeft, of die nu openlijk wordt genoemd of tussen de regels door wordt verborgen. Zuivere, neutrale informatie bestaat niet. Zelfs deze cursus, BTC102, heeft een duidelijk doel, *het bevorderen van een beter begrip van Bitcoin.*
 Daarom is het essentieel om je bewust te blijven van de echte motivaties achter elk stukje content dat je consumeert. En vergeet nooit deze gouden regel van het internet:
-
 *Als een product of dienst gratis lijkt, is de kans groot dat jij het product bent.*
 
 Uiteindelijk is je beste verdediging persoonlijke educatie, gezonde scepsis en, het allerbelangrijkste, de gewoonte om zelf de feiten te controleren.
@@ -233,7 +225,7 @@ Uiteindelijk is je beste verdediging persoonlijke educatie, gezonde scepsis en, 
 - De meeste online weggevertjes of "gratis" loterijen zijn oplichterij of zwaar vervalst;
 - Je zult op de lange termijn altijd meer winnen door te leren dan door te gokken.
 
-Jezelf beschermen tegen oplichting is een cruciale eerste stap in het beschermen van je bezittingen; maar het is niet genoeg. Een goede digitale hygiëne is net zo belangrijk. Daarom onderzoeken we in het volgende hoofdstuk hoe je je online beveiliging kunt versterken en welke best practices je moet gebruiken om jezelf te beschermen in de digitale wereld.
+Jezelf beschermen tegen oplichting is een cruciale eerste stap in het beschermen van je bezittingen, maar het is niet genoeg. Een goede digitale hygiëne is net zo belangrijk. Daarom onderzoeken we in het volgende hoofdstuk hoe je je online beveiliging kunt versterken en welke best practices je moet gebruiken om jezelf te beschermen in de digitale wereld.
 
 ## Online beveiliging
 
@@ -241,7 +233,7 @@ Jezelf beschermen tegen oplichting is een cruciale eerste stap in het beschermen
 
 :::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
-Zodra je begint met Bitcoin, zul je je snel realiseren dat basis cyberbeveiliging niet optioneel is, maar essentieel. Oplichting en fraude zijn slechts het topje van de ijsberg. Onopzettelijk gegevensverlies, malware en gecompromitteerde wachtwoorden kunnen net zo verwoestend zijn, vooral wanneer u uw eigen sleutels beheert.
+Zodra je begint met Bitcoin, zul je je snel realiseren dat basis cyberbeveiliging niet optioneel is, maar essentieel. Oplichting en fraude zijn slechts het topje van de ijsberg. Onopzettelijk gegevensverlies, malware en gecompromitteerde wachtwoorden kunnen net zo verwoestend zijn, vooral wanneer je je eigen sleutels beheert.
 
 In dit hoofdstuk lees je een aantal eenvoudige, praktische stappen om je digitale hygiëne te verbeteren en jezelf in de ruimte te beschermen.
 
@@ -253,7 +245,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Bitcoin geeft je de macht om je geld rechtstreeks (zonder banken) te houden, zonder tussenpersonen. Maar dat soort financiële soevereiniteit komt met een serieuze verantwoordelijkheid: als je BTC gestolen wordt door een veiligheidslek, is er geen manier om de transactie terug te draaien. In tegenstelling tot traditioneel bankieren is er geen helpdesk, geen fraudeclaim en geen verzekering om je uit de brand te helpen.
 
-Bovendien maakt de financiële waarde van Bitcoin het een doelwit van grote waarde. Een hacker die je Wallet compromitteert, kan onmiddellijk je geld verplaatsen naar een Address die hij controleert (geen vragen, geen manier om het terug te krijgen).
+Bovendien maakt de financiële waarde van Bitcoin het een doelwit van grote waarde. Een hacker die je wallet compromitteert, kan onmiddellijk je geld verplaatsen naar een adres dat hij controleert (geen vragen, geen manier om het terug te krijgen).
 
 ### Een schone, up-to-date computer
 
@@ -263,27 +255,24 @@ Het is ook sterk aanbevolen om een betrouwbare antivirus te gebruiken. Op Window
 
 ![BTC102-Bitcoin](assets/fr/012.webp)
 
-Naast systeemupdates en antivirusbescherming moet je uiterst voorzichtig zijn met het downloaden van software van onbetrouwbare websites of zogenaamde "universele" downloadportalen. Als je een hulpprogramma of applicatie nodig hebt, ga dan altijd rechtstreeks naar de officiële bron; dit vermindert drastisch het risico dat je malware installeert die vermomd is als legitieme software.
-
+Naast systeemupdates en antivirusbescherming moet je uiterst voorzichtig zijn met het downloaden van software van onbetrouwbare websites of zogenaamde "universele" downloadportalen. Als je een hulpprogramma of applicatie nodig hebt, ga dan altijd rechtstreeks naar de officiële bron, dit vermindert drastisch het risico dat je malware installeert dat vermomd is als legitieme software.
 Een andere slimme gewoonte is om de authenticiteit en integriteit van software te controleren voordat je het op je computer installeert. Als je niet zeker weet hoe je dat moet doen, geen zorgen we hebben een speciale tutorial om je door het proces te leiden:
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Maak ten slotte regelmatig back-ups van je belangrijke gegevens. Een externe Hard schijf of SSD is een goede optie om een duplicaat van je bestanden bij te houden in geval van een plotselinge storing, hacken of per ongeluk verwijderen. Je zult jezelf later dankbaar zijn.
+Maak ten slotte regelmatig back-ups van je belangrijke gegevens. Een externe harde schijf of SSD is een goede optie om een kopie van je bestanden bij te houden in geval van een plotselinge storing, hacken of per ongeluk verwijderen. Je zult jezelf later dankbaar zijn.
 
 Als je de voorkeur geeft aan cloudoplossingen, overweeg dan het gebruik van een veilige dienst zoals Proton Drive. Zorg er wel voor dat de optie die je kiest je privacy respecteert en sterke encryptie biedt.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Een veel aanbevolen back-upstrategie is de "3-2-1 regel". Deze is ontworpen om je gegevens te beschermen tegen onopzettelijk verlies, cyberaanvallen of zelfs natuurrampen.
-
-Het idee is eenvoudig:
-
+Het idee is simpel:
 - Bewaar **minstens 3 kopieën** van uw belangrijke gegevens,
 - Sla ze op **minstens 2 verschillende soorten media** op (bijv. een externe Hard schijf en cloudopslag),
 - En zorg ervoor dat **1 van die kopieën off-site** wordt opgeslagen (fysiek gescheiden van je hoofdlocatie).
 
-Deze aanpak biedt een sterke veerkracht en helpt ervoor te zorgen dat uw gegevens overleven, zelfs als er iets ernstig misgaat.
+Deze aanpak biedt een sterke veerkracht en helpt ervoor te zorgen dat je gegevens overleven, zelfs als er iets ernstig misgaat.
 
 ![BTC102-Bitcoin](assets/fr/013.webp)
 
@@ -2845,39 +2834,26 @@ Dit hoofdstuk is geïnspireerd op het werk van [Pamela Morgan](https://x.com/pam
 
 ![BTC102-Bitcoin](assets/fr/093.webp)
 
-
 Om beter te begrijpen hoe je een Bitcoin successieplan opstelt, kijken we naar het voorbeeld van Cédric, een typische Bitcoin gebruiker die moet organiseren hoe zijn vermogen wordt doorgegeven als er iets onverwachts gebeurt.
 
-
 Zijn profiel:
-
-
-
 - Langetermijnbelegger die niet vaak handelt;
 - Bezit een Hardware Wallet en een mobiele Wallet voor occasioneel gebruik;
 - Gebruikt een enkel KYC Exchange platform om zijn bitcoins te kopen;
 - Door zijn neef geïntroduceerd in Bitcoin;
 - Heeft geen altcoins en gebruikt geen Lightning Network.
 
-
 Ons doel is om een eenvoudig, effectief plan te maken dat is afgestemd op het profiel van Cédric, voordat we overgaan op complexere scenario's met andere soorten gebruikers.
-
 
 ![BTC102-Bitcoin](assets/fr/095.webp)
 
-
 ### Voordat u begint
-
 
 Neem 30 minuten van je tijd. Niet voor jezelf, maar voor degenen die van je afhankelijk zijn. Vermogensplanning is een belangrijke taak die vaak wordt uitgesteld, verwaarloosd of zelfs genegeerd. Te veel mensen, zelfs de meest voorzichtige, stellen het uit... tot het te laat is. Duizenden bitcoins zijn al verloren gegaan door een gebrek aan vooruitziendheid. Maak deze fout niet! Dit is de **EINDSTE STAP** in uw reis naar financiële soevereiniteit: het veiligstellen van uw Bitcoin rijkdom voor uw dierbaren.
 
-
 #### Wat heb je nodig?
 
-
 Zorg voor een rustige, afleidingsvrije omgeving en verzamel dan deze paar hulpmiddelen:
-
-
 
 - 4 tot 5 vellen wit papier ;
 - Pen;
@@ -2885,16 +2861,11 @@ Zorg voor een rustige, afleidingsvrije omgeving en verzamel dan deze paar hulpmi
 - Een telefoon of Address-boek;
 - Een computer (optioneel).
 
-
 ![BTC102-Bitcoin](assets/fr/094.webp)
-
 
 #### Veelvoorkomende misvattingen over successieplanning
 
-
 Veel mensen stellen deze stap uit vanwege misvattingen die hen ervan weerhouden om actie te ondernemen. Hier zijn enkele veelvoorkomende mythes, beschreven door Pamela Morgan in _Cryptoasset Inheritance Planning_ (pagina 18):
-
-
 
 - "*Ik moet een advocaat in de arm nemen*"** → **Niet waar**. Hoewel een advocaat nuttig kan zijn voor juridische zaken, kan een technisch Bitcoin erfenisplan ook zonder een advocaat worden opgesteld. Het belangrijkste is om duidelijke en toegankelijke instructies te hebben;
 - "*Ik moet een derde partij vertrouwen*"** → **Niet waar**. Uw plan kan zo worden ontworpen dat de behoefte aan vertrouwen wordt geminimaliseerd, zoals het verdelen van informatie over meerdere partijen of het gebruik van oplossingen met meerdere handtekeningen, met of zonder tijdslot;
@@ -2903,33 +2874,22 @@ Veel mensen stellen deze stap uit vanwege misvattingen die hen ervan weerhouden 
 - "*Mijn erfgenamen zoeken het zelf maar uit.*"** → **Niet waar**. Bitcoin is niet zoals een gewone bankrekening. Zonder duidelijke instructies kunnen uw nabestaanden misschien nooit bij uw fondsen, of slechts een deel ervan. In tegenstelling tot bankrekeningen, waar financiële instellingen of notarissen contact opnemen met familieleden bij overlijden, is er geen tussenpersoon die je familie informeert over je Bitcoin Wallet. Daarom is het aan jou om het expliciet op te nemen in je nalatenschapsplan;
 - "*Een Smart contract kan alles aan.*"** → **Niet waar**. Een Smart contract, zoals een multi-sig Wallet met een tijdslot, kan een deel van de oplossing zijn, maar het zal nooit een goed gestructureerd plan vervangen, vooral voor mensen die niet bekend zijn met Bitcoin. Beide oplossingen zijn complementair.
 
-
-
 Het is tijd om actie te ondernemen. Besteed deze 30 minuten aan het opstellen van je successieplan. Het is een eenvoudige stap, maar het kan het verschil maken voor je nabestaanden.
-
 
 ### Stap 1: Selecteer de juiste mensen om uw erfgenamen bij te staan
 
-
 Als het aankomt op het doorgeven van een erfenis in Bitcoin, zullen je dierbaren waarschijnlijk niet vertrouwd zijn met het beheren van private sleutels of het terughalen van wallets. Ze zullen externe hulp nodig hebben van bekwame en betrouwbare personen. De ideale aanpak is om minstens twee verschillende mensen te selecteren:
-
-
 
 - Een vertrouwd familielid**, die zorgt voor een soepele uitvoering van je plan. Ze hoeven niet per se diepgaande kennis te hebben van Bitcoin, maar ze moeten wel iemand zijn op wie je erfgenamen kunnen vertrouwen.
 - Een ervaren Bitcoin gebruiker**, die technische ondersteuning kan bieden bij het terughalen van de fondsen, het beheren van wallets en het begrijpen van de betrokken processen.
 
-
 De mensen die je kiest mogen nooit direct toegang hebben tot je privésleutels (of je Mnemonic zin), maar ze moeten het wel kunnen:
-
-
 
 - Je erfgenamen begeleiden bij het terugvorderen en veiligstellen van de fondsen;
 - De basisprincipes van Bitcoin wallets, herstelzinnen en transacties uitleggen;
 - Help veelgemaakte fouten te voorkomen.
 
-
 Maak op het papier dat jouw Bitcoin erfenisplan wordt, een vergelijkingstabel van potentiële kandidaten, evalueer hun mate van vertrouwen, hun kennis van Bitcoin en hoe je contact met hen kunt opnemen. Bijvoorbeeld:
-
 
 | Person               | Trust Level     | Bitcoin Knowledge   | Contact Methods         | Notes                                                                                                                   |
 |----------------------|-----------------|----------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2940,28 +2900,20 @@ Maak op het papier dat jouw Bitcoin erfenisplan wordt, een vergelijkingstabel va
 
 Als je geen betrouwbaar of bekwaam familielid hebt, kun je ook overwegen om een professional in te huren, zoals een advocaat gespecialiseerd in Bitcoin erfenissen, of een gespecialiseerde dienst voor estate planning. Het belangrijkste is dat je erfgenamen toegang hebben tot betrouwbare technische hulp, terwijl de veiligheid en vertrouwelijkheid van je fondsen behouden blijft.
 
-
 ### Stap 2: Maak een snelle en eenvoudige inventaris
-
 
 Voordat u overweegt om uw bitcoins veilig te stellen of over te dragen, is het belangrijk om een duidelijke inventaris te maken van uw Bitcoin bezittingen. Deze inventaris zal dienen als basis voor het organiseren van je erfenisplan en zal je erfgenamen helpen begrijpen waar je bezittingen zich bevinden en hoe ze er toegang toe kunnen krijgen.
 
-
 Het doel is hier niet om uw veiligheid onmiddellijk te verbeteren, maar gewoon om uw huidige situatie in kaart te brengen. Het is een momentopname van uw bitcoins en de middelen om er toegang toe te krijgen. U kunt de beveiliging later aanpassen en versterken, zodra deze eerste inventarisatie compleet is.
 
-
 Denk na over alle plaatsen waar je bitcoins of fiatvaluta hebt die verband houden met Bitcoin. Dit kan zijn:
-
-
 
 - Exchange platforms**:  Accounts met BTC of fiat gekoppeld aan uw Bitcoin aankopen.
 - Hot wallets (mobiel of desktop)**: Apps geïnstalleerd op je telefoon, gebruikt voor alledaagse transacties;
 - Hardware wallets** : Fysieke apparaten die uw privésleutels offline opslaan;
 - Andere oplossingen**: Multisig, papieren portemonnees, speciaal opgeslagen privésleutels, etc.
 
-
 Gebruik een tabel om deze inventaris te structureren. Het is niet de bedoeling om dit document online op te slaan, maar om het op een veilige plaats te bewaren, bij voorkeur op papier. Bijvoorbeeld:
-
 
 | General | Storage type | Assets held | Localization | Mnemonic backup | Password (PIN, passphrase...) | Notes |
 | --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -2971,22 +2923,15 @@ Gebruik een tabel om deze inventaris te structureren. Het is niet de bedoeling o
 
 In dit stadium voel je misschien de drang om onmiddellijk je fondsverdeling aan te passen, je beveiliging te verbeteren of zelfs meer bitcoins te kopen of verkopen. Onderneem nog geen actie! Het doel is hier niet om actie te ondernemen, maar om een momentopname te maken van je huidige situatie. Je kunt je plan later altijd nog verbeteren, maar blijf voor nu gefocust op het zo grondig mogelijk afronden van de inventarisatie.
 
-
 Als deze inventarisatie eenmaal is gemaakt, is het veel eenvoudiger om zwakke punten te identificeren en een veilig en effectief overdrachtsproces te organiseren.
-
 
 ### Stap 3: Schrijf de brief
 
-
 #### Waarom een handgeschreven brief?
-
 
 Het is cruciaal dat je nalatenschapsplan duidelijk, leesbaar en veilig is. Om dit te bereiken, schrijf je de brief met de hand in inkt op papier en vermijd je digitale documenten die gecompromitteerd kunnen worden. Deze brief is geen testament of wettelijke verklaring, maar een praktische gids om je nabestaanden te helpen je bitcoins veilig terug te krijgen.
 
-
 De brief moet eenvoudig en direct zijn en de volgende essentiële Elements bevatten:
-
-
 
 - Een inleiding waarin de aard van de terug te vorderen activa wordt uitgelegd;
 - Contacten van vertrouwde mensen die je erfgenamen kunnen helpen bij het herstelproces;
@@ -2994,29 +2939,20 @@ De brief moet eenvoudig en direct zijn en de volgende essentiële Elements bevat
 - Specifieke beveiligingsinstructies om fouten of oplichting te voorkomen;
 - Een laatste bericht, samen met eventuele wettelijke instructies.
 
-
 #### Voorbeeldbrief nalatenschap
 
-
 Hier is een model geïnspireerd door Pamela Morgan's Cryptoasset Inheritance Planning. Je moet het natuurlijk aanpassen aan je persoonlijke situatie:
-
 
 ---
 **Datum: `Indiceer datum`**
 
-
 Beste `Namen van erfgenamen`,
-
 
 Als je deze brief leest, ben ik er niet meer. Ten eerste, weet dat ik van je hou en de tijd heb genomen om dit document op te stellen om je te helpen mijn bitcoins te beheren, die waarde kunnen hebben. Dit is geen ingewikkelde taak, maar het vereist zorgvuldigheid en voorzichtigheid. Bitcoin is een peer-to-peer systeem: er is geen verhaal als er een fout wordt gemaakt. Neem alsjeblieft de tijd om deze brief volledig te lezen voordat je actie onderneemt.
 
-
 #### 1. Contact opnemen met betrouwbare personen
 
-
 Ik heb verschillende mensen aangewezen om je te helpen bij het begrijpen van Bitcoin en het terugkrijgen van mijn tegoeden. Ze mogen nooit direct toegang hebben tot de fondsen, maar kunnen je wel begeleiden in het proces:
-
-
 
 - Mijn broer Bob: +33 6 00 00 00; bobmybrother@supermail.com. Je kunt Bob vertrouwen om je te helpen in dit proces. Hoewel hij niet de meest technische kennis heeft over Bitcoin, is hij wel de juiste persoon om alles in twijfel te trekken en voorzichtigheid te betrachten om je succes veilig te stellen.
 - Mijn neef Nathan: +33 6 00 00 00; nathandelacroix@supermail.com. Nathan bracht me in contact met Bitcoin. Hij is erg bedreven in computers en kan de meeste van je vragen beantwoorden. Hij bezit ook Bitcoin en kan je technisch begeleiden. Je hebt hem ontmoet op familiebijeenkomsten en ik heb hier een foto van hem bijgevoegd.
@@ -3024,28 +2960,19 @@ Ik heb verschillende mensen aangewezen om je te helpen bij het begrijpen van Bit
 
 Het klinkt misschien vreemd, maar neem contact met ze op. Daarnaast kun je meer te weten komen door te luisteren naar Andreas Antonopoulos op YouTube en door het boek *Cryptoasset Inheritance Planning* van Pamela Morgan te kopen.
 
-
 Neem contact op met al deze mensen en controleer hun meningen voordat je belangrijke beslissingen neemt. **Vertrouw niemand blindelings.**
 
-
 #### 2. Waar zijn mijn Bitcoins?
-
 Hier vind je een gedetailleerde inventaris van mijn bezittingen, hun locatie en hoe je er toegang toe krijgt.
-
-
 
 - Ik gebruik mijn telefoon (Samsung Galaxy S8) om toegang te krijgen tot mijn Samourai Wallet. De herstelzin voor deze Wallet is opgeslagen in twee kopieën: één wordt bewaard in de bankkluis, de andere bij oom Bob. De PIN-code die nodig is om zowel mijn telefoon als de Wallet te ontgrendelen, wordt bij mij thuis en bij mijn oma bewaard.
 - Ik ga naar het online Exchange platform Bitfinex via mijn Dell 2018 laptop. Er kunnen nog bitcoins of dollars zijn. Om deze fondsen terug te krijgen, moet je rechtstreeks contact opnemen met Bitfinex of proberen toegang te krijgen tot mijn account. (**Wees voorzichtig, dit kan illegaal zijn-check uw lokale wetgeving**).
 - Ik heb de toegang tot mijn online accounts beveiligd met een wachtwoordmanager. Een back-up van deze manager is opgeslagen in de kluis van de bank. Mijn Bitfinex-account is ook beveiligd met twee-factor authenticatie, die toegankelijk is via mijn telefoon (Samsung Galaxy S8, Authy-app) of via de back-upcode die ik thuis heb bewaard.
 - Ik ben in het bezit van een Trezor Model One Hardware Wallet, toegankelijk via mijn PC met behulp van Sparrow wallet software. De herstelzin voor deze Wallet is opgeslagen in twee kopieën: één in de bankkluis, de andere bij oom Bob. De PIN-code voor deze Wallet is opgeslagen bij mij thuis en bij mijn moeder. Het apparaat zelf ligt waarschijnlijk in een kluis op mijn kantoor. Ik gebruik een BIP39 passphrase op mijn Trezor Model One. Deze passphrase is cruciaal voor toegang tot de fondsen op het apparaat. Een back-up van deze passphrase is opgeslagen op twee locaties: bij mij thuis en bij mijn moeder.
 
-
 Neem alle nodige voorzorgsmaatregelen voordat je met deze fondsen omgaat. Geef nooit de volledige invorderingszin aan één persoon en deel deze gegevens alleen als dat absoluut noodzakelijk is.
 
-
 #### 3. Veiligheidsmaatregelen en instructies
-
-
 
 - Haast je niet**. Neem de tijd om te leren voordat je handelt. Bitcoin is veilig bij correct gebruik.
 - Geef de 24-woorden zin nooit aan slechts één persoon**. Als iemand je vraagt om volledige toegang, wees dan op je hoede.
@@ -3053,152 +2980,103 @@ Neem alle nodige voorzorgsmaatregelen voordat je met deze fondsen omgaat. Geef n
 - Pas op voor zwendel**. Er zijn veel zwendelpraktijken rond de Bitcoin. Vertrouw alleen de mensen die in deze brief worden genoemd.
 - Bewaar alles wat je doet**.  Maak notities, leg belangrijke stappen vast en bescherm de toegang.
 
-
 #### 4. Juridische informatie en laatste bericht
-
 
 Je vindt een kopie van mijn testament in mijn persoonlijke dossier en bij mijn notaris. Deze brief vervangt geen officieel testament, maar zal je helpen bij het beheren van mijn bitcoins.
 
-
 Zorg goed voor jezelf en onthoud dat ik van je hou. Mijn wens is dat deze bezittingen nuttig voor jullie zijn en jullie helpen om met een gerust hart verder te gaan.
-
 
 Handgeschreven handtekening
 
-
 Uw naam
 
-
 Datum
-
 
 ---
 Dit is een concreet voorbeeld van een erfenisbrief. Pas hem zeker aan je persoonlijke situatie aan. Het is ook belangrijk om te beslissen hoeveel details je wilt opnemen in het herstelproces. Als je vreest dat je erfgenamen niet in staat zullen zijn om je bitcoins te recupereren met deze minimale informatie, overweeg dan om een stap-voor-stap handleiding te schrijven waarin het proces in detail wordt uitgelegd.
 
-
 Bovendien moet je afwegen hoeveel informatie je onthult in dit nalatenschapsplan. Hoe meer je deelt over je beveiligingsmethodes, hoe meer je het risico loopt dat je beveiliging in gevaar komt als deze brief in verkeerde handen valt. Een inbreker die deze brief vindt, zou bijvoorbeeld onmiddellijk weten waar hij moet zoeken naar kritieke Wallet informatie. Aan de andere kant, als je te weinig deelt, stel je je erfgenamen bloot aan het risico dat ze niet bij je bitcoins kunnen. Daarom moet je een middenweg vinden.
-
 
 Uiteindelijk weerspiegelt het dilemma van het successieplan de beveiligingsstrategieën: het gaat altijd om het evenwicht tussen het risico op verlies en het risico op diefstal. Niet genoeg informatie documenteren verhoogt het risico dat uw erfgenamen de toegang tot de bitcoins verliezen, terwijl te veel informatie delen het risico op diefstal nu kan verhogen.
 
-
 ### Stap 4: Uw brief bekijken en opslaan
 
-
 Voordat je afrondt, moet je ervoor zorgen dat je brief het volgende bevat:
-
-
 
 - Een duidelijke lijst van vertrouwde personen met hun contactgegevens
 - Een gedetailleerde inventaris van je bezittingen en waar je ze kunt vinden
 - Precieze instructies met betrekking tot toegang en beveiliging
 - Een attente en meelevende boodschap aan je erfgenamen
 
-
 Maak, afhankelijk van je persoonlijke situatie, meerdere handgeschreven kopieën van deze brief en bewaar ze op een veilige plaats (een kluis, bij een vertrouwenspersoon, enz.). Informeer je erfgenamen dat dit erfenisplan bestaat, zonder de inhoud ervan meteen te onthullen. Voor extra bescherming kun je de brief in een knoeibare, ondoorzichtige envelop doen om er zeker van te zijn dat hij niet zonder jouw toestemming is geopend.
-
 
 ![BTC102-Bitcoin](assets/fr/096.webp)
 
-
 Raadpleeg indien nodig een advocaat of notaris om je plan formeel te integreren in een wettelijk kader.
 
-
 **Gefeliciteerd! ** Je hebt een belangrijke stap gezet in het veiligstellen van je Bitcoin rijkdom. U kunt nu uw erfenisplan verfijnen door het regelmatig te herzien en meer geavanceerde oplossingen te onderzoeken, zoals het afbouwen van Multisig opstellingen met tijdklokken:
-
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Referentie: [*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
-
 Speciale dank aan [Pamela Morgan](https://x.com/pamelawjd) voor haar werk en voor het mogen aanpassen van deze inhoud.
-
-
-
 
 ## U behoort nu tot de 0,1% best voorbereide Bitcoiners
 
-
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
-
 
 :::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
-
 Als je zover bent gekomen, behoor je nu tot een verlichte minderheid! Zeer weinig mensen gaan zo ver met Bitcoin en je mag trots zijn op hoe ver je bent gekomen. Misschien hebt u alle tutorials gevolgd die in deze training worden aangeboden: Uw eerste Hardware Wallet opgezet, uw herstelzin beveiligd, een DCA-plan (Dollar-Cost Averaging) gemaakt, Bitcoin met en zonder KYC verworven, zelfs uw Bitcoin erfenis gepland. Elke stap die u hebt genomen is een sprong in de richting van echte financiële soevereiniteit.
-
 
 Zelfs als je nog niet alles gedaan hebt, maar wel van plan bent om het binnenkort te doen, loop je al voor op de rest. Die vastberadenheid om te leren en actie te ondernemen is wat er echt toe doet. Je begrijpt nu waarom Bitcoin zo'n belangrijke verschuiving is voor onze individuele en collectieve toekomst.
 
-
 Sinds ik begon met het onderwijzen van mensen over Bitcoin, zijn zowel het ecosysteem als ikzelf aanzienlijk geëvolueerd. Deze cursus is volledig bijgewerkt om het beste weer te geven van wat Bitcoin vandaag de dag te bieden heeft. Het is samen een hele reis geweest!
-
 
 ![BTC102-Bitcoin](assets/fr/097.webp)
 
-
 ### Wat is de volgende stap voor Bitcoin?
-
 
 Als we naar de logaritmische prijscurve kijken, wordt één ding duidelijk: we weten nooit precies waar we ons in cycli bevinden. Misschien lees je deze cursus op het moment dat er een nieuwe fase van groei begint, of misschien zit je midden in een dalende markt. Hoe dan ook, de cycli gaan door, onvermijdelijk onderbroken door spectaculaire hoogtepunten en soms brutale correcties.
 
-
 Maar afgezien van de prijs, is de groei van Bitcoin verbazingwekkend. Wat begon als een obscuur project onder cypherpunks is een wereldwijde beweging geworden. Van Silk Road tot institutionele adoptie, Bitcoin heeft zich stevig gevestigd in het wereldwijde financiële landschap. Het wordt niet langer gezien als een experiment in de marge, maar als een serieuze beleggingscategorie die omarmd wordt door instellingen en miljoenen particulieren wereldwijd.
-
 
 Deze verschuiving in perceptie gaat hand in hand met voortdurende technische vooruitgang. Portemonnees en infrastructuur worden voortdurend verbeterd. Elk jaar komen er nieuwe oplossingen die Bitcoin veiliger, veerkrachtiger en gebruiksvriendelijker maken. Vandaag de dag is Bitcoin meer gedecentraliseerd, toegankelijker en beter begrepen dan ooit tevoren.
 
-
 Natuurlijk blijven er uitdagingen: regelgeving, privacy, bredere adoptie en het ontwikkelen van een circulaire economie. Maar zolang de gemeenschap actief, nieuwsgierig en betrokken blijft, zal Bitcoin een krachtig alternatief blijven voor het traditionele financiële systeem.
-
 
 Eén ding is zeker: Bitcoin zal blijven bestaan; ongeveer elke 10 minuten een nieuw blok produceren, onvermoeibaar, dag na dag, jaar na jaar. We zullen meer gebruikers, wallets en exchanges zien, en ook meer regels, technische hindernissen, crises en innovaties.
 
-
 ![BTC102-Bitcoin](assets/fr/098.webp)
-
 
 Naarmate de wereldwijde crises voortduren en de inflatie de koopkracht van fiatvaluta's uitholt, zal Bitcoin op natuurlijke wijze meer mensen aantrekken, die op zoek zijn naar financiële vrijheid en individuele soevereiniteit. Deze dynamiek zal Bitcoin steeds sterker maken en nieuw talent aantrekken om het protocol, de schaallagen en de alledaagse gebruiksmogelijkheden op het gebied van veiligheid, privacy en bruikbaarheid te verbeteren.
 
-
 ### wat is je volgende stap?
-
 
 Ironisch genoeg zal de grootste verandering niet Bitcoin zijn, maar jijzelf.
 
 Je zult evolueren in hoe je Bitcoin gebruikt, begrijpt en ermee omgaat. Misschien ontwikkelt u er een echte passie voor, genoeg om anderen les te gaan geven, betrokken te raken bij de gemeenschap, of gewoon uw rijkdom voor de lange termijn te behouden. Wat uw pad ook is, Bitcoin zal uw wereldbeeld hebben veranderd; en waarschijnlijk ook uw relatie tot vrijheid en financiële verantwoordelijkheid.
 
-
 Hier zijn een paar richtingen die je kunt inslaan:
 
-
 #### 1. Houd de vaart erin
-
 
 Als je huidige strategie voor jou werkt, ga dan gewoon door.
 
 Blijf Sats regelmatig stapelen en houd je aan de best practices voor beveiliging. Je hebt al een sterke basis gelegd en het is niet nodig om verder te gaan als je hoofddoel gewoon is om je Bitcoin besparingen veilig te stellen.
 
-
 Neem de tijd om de evolutie van het ecosysteem te observeren, je strategie te verfijnen en je opstelling waar nodig te versterken.
-
 
 #### 2. Verdiep je kennis
 
-
 Je reis eindigt hier niet. Bitcoin is een wereld die altijd in ontwikkeling is, en er valt altijd meer te ontdekken. Hier zijn een paar richtingen die je zou willen verkennen om je begrip van Bitcoin te verdiepen:
-
-
 
 - Om je digitale beveiliging op een hoger niveau te brengen, kun je beginnen met onze inleidende beveiligingscursus:
 
-
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-
 - Als de economische en filosofische kant van Bitcoin je aanspreekt, bekijk dan deze diepgaande cursussen:
-
 
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
@@ -3206,21 +3084,15 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-
 - Ondernemers die Bitcoin willen integreren in hun bedrijfsstrategie mogen dit niet missen::
-
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
-
 - Om het fascinerende verhaal achter het ontstaan van Bitcoin en de beginjaren van het systeem te ontdekken, raad ik deze cursus ten zeerste aan:
-
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-
 - Tot slot, als je nieuwsgierig bent naar de technische aspecten van Bitcoin en het ecosysteem, bekijk dan deze trainingen:
-
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -3230,72 +3102,49 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Bijdragen aan het Bitcoin ecosysteem
 
-
 Bitcoin is meer dan alleen een financieel instrument; het is een beweging. Afhankelijk van je vaardigheden en interesses zijn er veel manieren waarop je kunt bijdragen:
-
-
 
 - Voorlichten en bewust maken**: Help uw dierbaren Bitcoin te begrijpen, deel uw kennis en neem deel aan lokale discussies;
 - Tools en toepassingen ontwikkelen**: Als je technische vaardigheden hebt, is het bijdragen aan open-source tools een geweldige manier om waarde toe te voegen aan Bitcoin;
 - Word lid van een lokale gemeenschap**: Neem deel aan evenementen, meetups en forums om andere bitcoiners te ontmoeten en Exchange meningen te geven over de nieuwste ontwikkelingen.
 
-
 Als je anderen wilt helpen onderwijzen, is Plan ₿ Network altijd op zoek naar medewerkers! Al onze educatieve inhoud is open-source en wordt gehost op GitHub. We verwelkomen medewerkers om te helpen bij het proeflezen en vertalen van inhoud in verschillende talen; in Exchange voor een paar Sats! Nu of later in je Bitcoin reis, je bent uitgenodigd om lid te worden van [onze Telegram groep voor bijdragers](https://t.me/PlanBNetwork_ContentBuilder) van Plan ₿ Network.
-
 
 ### Laatste woorden
 
-
 Hartelijk dank voor het volgen van de BTC102-cursus.
-
 
 Mijn naam is Rogzy, oprichter van Découvre Bitcoin en medeoprichter van Plan ₿ Network;een platform dat mogelijk is gemaakt door onze ongelooflijke nieuwe partners, Tether en Fulgur Ventures, en door onze gezamenlijke missie om zoveel mogelijk mensen te informeren over Bitcoin.
 
-
 Jullie feedback is ontzettend waardevol. Laat gerust opmerkingen achter op het platform en laat ons weten wat je van deze bijgewerkte versie van de cursus vond. Jouw suggesties helpen ons om de kwaliteit van onze inhoud te blijven verbeteren.
-
 
 Je bent nu klaar voor het eindexamen; een test van 40 vragen die je begrip zal bevestigen en je je certificaat zal geven.
 
-
 Veel succes!
-
 
 Ik hoop je snel weer te zien in een andere cursus over Plan ₿ Network; of het er nu een van mij is of een van een andere geweldige leraar in de gemeenschap. En wie weet, misschien ontmoeten we elkaar zelfs persoonlijk op een conferentie, evenement of Bitcoin meetup.
 
-
 Nogmaals gefeliciteerd met hoe ver je bent gekomen. En onthoud: mijn hoofddoel zal altijd hetzelfde blijven:
-
 **Zoveel mogelijk mensen helpen financiële soevereiniteit te bereiken via Bitcoin.**
 
-
-**Wens je het allerbeste op je reis met Bitcoin!**
-
+**We wensen je het allerbeste tijdens je Bitcoin reis!**
 
 # Laatste Sectie
 
-
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
-
 
 ## Beoordelingen
 
-
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 ## Eindexamen
 
-
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 ## Conclusie
 
-
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

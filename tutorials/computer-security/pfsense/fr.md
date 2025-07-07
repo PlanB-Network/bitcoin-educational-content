@@ -1,6 +1,6 @@
 ---
 name: pfSense
-description: Installation de Pfsense﻿ | pfSense | IT-Connect
+description: Installation de Pfsense
 ---
 ![cover](assets/cover.webp)
 

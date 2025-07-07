@@ -1033,38 +1033,38 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als 5 Minuten gedauert hat!) sind Sie nun besser gerüstet, um Bitcoins zu kaufen und sicher aufzubewahren. In den folgenden Kapiteln des Kurses werden wir tiefer in die Bedeutung von Bitcoin, die Funktionsweise seiner Industrie und die Entwicklung seiner verschiedenen Schichten eintauchen. Im nächsten Abschnitt werden wir besprechen, wie Sie Ihren eigenen persönlichen Plan aufstellen können.
 
 ## Warum ist Bitcoin wichtig?
-xxxxx
+
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 
 
-Warum ist Bitcoin so wichtig? Das ist die zentrale Frage in diesem Kurs. Ob es um Ihr Studium oder Ihre Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, dass Sie von Ihrem Plan abweichen. Ziel ist es, die Grundprinzipien von Bitcoin stets im Auge zu behalten, um sicherzustellen, dass Ihre Strategie mit Ihren Überzeugungen im Einklang steht.
+Warum ist Bitcoin so wichtig? Das ist die zentrale Frage in diesem Kurs. Ob es um Ihr Studium oder Ihre Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, dass Sie von Ihrem Plan abweichen. Ziel ist es, die Grundprinzipien von Bitcoin stets im Auge zu behalten. So können Sie sicherzustellen, dass Ihre Strategie mit Ihren Überzeugungen im Einklang steht.
 
 
 ### Eine universelle Währung
 
 
-Barack Obama bezeichnete Bitcoin einmal als eine "Schweizer Bank in Ihrer Tasche", und das aus gutem Grund. Bitcoin bietet allen die gleichen Möglichkeiten, egal wer sie sind. Ob Sie nun ein Teenager, ein Präsident, ein Demonstrant in Hongkong oder eine "gelbe Weste" in Frankreich sind, jeder hat den gleichen Zugang zu denselben Protokollen und Werkzeugen:
+Barack Obama bezeichnete Bitcoin einmal als eine "Schweizer Bank im Hosensack", und das aus gutem Grund. Bitcoin bietet allen die gleichen Möglichkeiten, egal wer sie sind. Ob Sie ein Teenager, ein Präsident, ein Demonstrant in Hongkong oder eine "gelbe Weste" in Frankreich sind, jeder hat den gleichen Zugang zu denselben Protokollen und Werkzeugen:
 
 
 
-- Erstellen Sie kostenlose und unbegrenzte Geldbörsen (bei Bitcoin sprechen wir nicht wirklich von "Konten", sondern eher von "Geldbörsen").
+- Erstellen Sie kostenlose und unbegrenzte Geldbörsen (bei Bitcoin sprechen wir nicht wirklich von "Konten", sondern eher von "Wallets").
 - Senden Sie Geld überall und an jeden.
 - Eine Identifizierung oder ein Verwaltungsverfahren ist nicht erforderlich.
 - Zugang für alle, unabhängig von Alter, Geschlecht, Religion, Land oder Einkommensniveau.
 - Datenschutz und Transparenz nach Ihrem Ermessen.
 - Keine Vermittler oder versteckten Gebühren.
-- Das Bitcoin ist internetfähig, d. h. jeder, der über einen Internetzugang verfügt, kann es nutzen.
+- Das Bitcoin ist internetfähig, d.h. jeder, der über einen Internetzugang verfügt, kann es nutzen.
 
 
 ![BTC102-Bitcoin](assets/fr/037.webp)
 
 
-Bitcoin kann als die wahre "Währung des Volkes" angesehen werden, ein alternatives Währungssystem, das nicht von einer zentralen Behörde abhängt und auf unveränderlichen Regeln statt auf willkürlichen Entscheidungen beruht. Seine offene und zugängliche Natur macht es zu einem potenziell revolutionären Werkzeug für Milliarden von Menschen weltweit, unabhängig davon, ob sie vom traditionellen Bankensystem ausgeschlossen sind oder einfach eine souveränere Alternative suchen.
+Bitcoin kann als die wahre "Währung der Leute" angesehen werden. Es ist ein alternatives Währungssystem, das nicht von einer zentralen Behörde abhängt und auf unveränderlichen Regeln statt auf willkürlichen Entscheidungen beruht. Seine offene und zugängliche Natur macht es zu einem potenziell revolutionären Werkzeug für Milliarden von Menschen weltweit, unabhängig davon, ob sie vom traditionellen Bankensystem ausgeschlossen sind oder einfach eine souveränere Alternative suchen.
 
 
-Dies führt uns zu einer grundlegenden, fast philosophischen Frage, die Bitcoin-Enthusiasten in zwei große Weltanschauungen spaltet. Auf der einen Seite sehen die einen Bitcoin als eine Lösung zur Förderung der finanziellen Eingliederung, die es den Milliarden von Menschen ohne Bankverbindung ermöglicht, endlich Zugang zu einer globalen monetären Infrastruktur zu erhalten. Auf der anderen Seite sehen einige Bitcoin als ein finanzielles Befreiungsinstrument, das einen Ausweg für die Milliarden von Menschen bieten soll, die bereits in das Bankensystem integriert sind, sich aber aus dessen Abhängigkeit befreien und die volle Kontrolle über ihr Geld zurückgewinnen wollen. Diese Überlegung verdient unsere Aufmerksamkeit, und wir werden später noch ausführlicher auf sie zurückkommen.
+Dies führt uns zu einer grundlegenden, fast philosophischen Frage, die Bitcoin-Enthusiasten in zwei große Weltanschauungen spaltet. Auf der einen Seite sehen die einen Bitcoin als eine Lösung zur Förderung der finanziellen Eingliederung. Sie könnte den Milliarden von Menschen ohne Bankverbindung ermöglichen, endlich Zugang zu einer globalen monetären Infrastruktur zu erhalten. Auf der anderen Seite sehen einige Bitcoin als ein finanzielles Befreiungsinstrument. Es soll einen Ausweg für die Milliarden von Menschen bieten soll, die bereits in das Bankensystem integriert sind, sich aber aus dessen Abhängigkeit befreien und die volle Kontrolle über ihr Geld zurückgewinnen wollen. Diese Überlegung verdient unsere Aufmerksamkeit, und wir werden später noch ausführlicher auf sie zurückkommen.
 
 
 ![BTC102-Bitcoin](assets/fr/044.webp)
@@ -1073,28 +1073,28 @@ Dies führt uns zu einer grundlegenden, fast philosophischen Frage, die Bitcoin-
 ### Schutz vor Währungskrisen
 
 
-Seit Jahrhunderten hat die Welt Währungskrisen erlebt, die verheerende Auswirkungen auf die Bevölkerung hatten. Milliarden von Menschen leiden immer noch unter den Folgen einer schlecht geführten Geldpolitik, bei der die Manipulation von Geld Supply und Zinssätzen zu systemischen Ungleichgewichten führt. Diese Krisen sind keine zufälligen Ereignisse - sie sind das Ergebnis eines Systems, das auf Interventionen und der Manipulation von Geld und Zeitwerten beruht.
+Seit Jahrhunderten hat die Welt Währungskrisen erlebt, die verheerende Auswirkungen auf die Bevölkerung hatten. Milliarden von Menschen leiden immer noch unter den Folgen einer schlecht geführten Geldpolitik, bei der die Manipulation vom Geldangebot und Zinssätzen zu systemischen Ungleichgewichten führt. Diese Krisen sind keine zufälligen Ereignisse - sie sind das Ergebnis eines Systems, das auf Interventionen und der Manipulation von Geld und Zeitwerten beruht.
 
 
 ![BTC102-Bitcoin](assets/fr/045.webp)
 
 
-Diese Krisen können viele verschiedene Formen annehmen. Bei einer Hyperinflation beispielsweise wird eine Währung durch die schrittweise Zerstörung der Kaufkraft der Menschen vernichtet, wie in Ländern wie Simbabwe und Venezuela zu beobachten war. Andererseits können strenge Währungskontrollen den Zugang zu Geldmitteln einschränken und den Einzelnen seiner wirtschaftlichen Freiheit berauben, wie es bei den Bankenbeschränkungen in Griechenland und im Libanon der Fall war.
+Diese Krisen können viele verschiedene Formen annehmen. Bei einer Hyperinflation beispielsweise wird eine Währung durch die schrittweise Zerstörung der Kaufkraft der Menschen vernichtet. Das war in Ländern wie Simbabwe und Venezuela zu beobachten. Andererseits können strenge Währungskontrollen den Zugang zu Geldmitteln einschränken und den Einzelnen seiner wirtschaftlichen Freiheit berauben, wie es bei den Bankenbeschränkungen in Griechenland und im Libanon der Fall war.
 
 
 ![BTC102-Bitcoin](assets/fr/047.webp)
 
 
-Und schließlich, wenn Regierungen ihre nationalen Währungen abwerten, werden die Ersparnisse der Menschen allmählich aufgezehrt; ein unsichtbarer, aber ständiger Abfluss ihres Vermögens. In vielerlei Hinsicht wirkt dies wie eine versteckte Steuer. Solange die Geldpolitik in den Händen zentraler Behörden bleibt, werden sich diese Zyklen zwangsläufig wiederholen.
+Und schließlich: wenn Regierungen ihre nationalen Währungen abwerten, werden die Ersparnisse der Menschen allmählich aufgezehrt; ein unsichtbarer, aber ständiger Abfluss ihres Vermögens. In vielerlei Hinsicht wirkt dies wie eine versteckte Steuer. Solange die Geldpolitik in den Händen zentraler Behörden bleibt, werden sich diese Zyklen zwangsläufig wiederholen.
 
 
 ![BTC102-Bitcoin](assets/fr/038.webp)
 
 
-Bitcoin stellt eine mutige Alternative zu diesem Kreislauf chronischer monetärer Instabilität dar. Im Gegensatz zu staatlich herausgegebenen Währungen basiert es auf unveränderlichen, mathematisch basierten Regeln, die durch Konsens durchgesetzt werden, nicht durch Regierungen oder Zentralbanken. Seine Ausgabe ist vorhersehbar und auf etwa 21 Millionen Münzen begrenzt, was es zu einer Form von gesundem Geld macht, das seinen Wert über lange Zeit behält. Da es keiner Zensur unterliegt, kann jeder Werte speichern und übertragen, ohne sich auf eine Institution verlassen zu müssen. Und dank seiner Teilbarkeit und Übertragbarkeit ist es sowohl zugänglich als auch praktisch: eine Finanzinfrastruktur für jedermann und überall.
+Bitcoin stellt eine mutige Alternative zu diesem Kreislauf chronischer monetärer Instabilität dar. Im Gegensatz zu staatlich herausgegebenen Währungen basiert es auf unveränderlichen, mathematisch basierten Regeln. Die Regeln werden durch Konsens durchgesetzt, nicht durch Regierungen oder Zentralbanken. Die Ausgabe neuer Tokens ist vorhersehbar und auf etwa 21 Millionen Münzen begrenzt. Dies macht es zu einer Form von gesundem Geld, das seinen Wert über lange Zeit behält. Da es keiner Zensur unterliegt, kann jeder Werte speichern und übertragen, ohne sich auf eine Institution verlassen zu müssen. Und dank seiner Teilbarkeit und Übertragbarkeit ist es sowohl zugänglich als auch praktisch: eine Finanzinfrastruktur für jedermann und überall.
 
 
-**Wussten Sie schon?** Im Laufe der Geschichte gab es weltweit mindestens 56 dokumentierte Fälle von Hyperinflation. In vielen dieser Fälle brachen ganze Volkswirtschaften zusammen, wurden Ersparnisse vernichtet und Millionen in extreme Armut gestürzt. Schlimmer noch, diese monetären Zusammenbrüche dienten oft als Sprungbrett für politische Umwälzungen, die manchmal zu autoritären Regimen führten, wie in Deutschland in den 1920er Jahren und in Chile in den 1970er Jahren.
+**Wussten Sie schon?** Im Laufe der Geschichte gab es weltweit mindestens 56 dokumentierte Fälle von Hyperinflation. In vielen dieser Fälle brachen ganze Volkswirtschaften zusammen, wurden Ersparnisse vernichtet und Millionen in extreme Armut gestürzt. Schlimmer noch, diese monetären Zusammenbrüche dienten oft als Sprungbrett für politische Umwälzungen, die manchmal zu autoritären Regimen führten. Beispiele sind Deutschland in den 1920er Jahren und Chile in den 1970er Jahren.
 
 
 ![BTC102-Bitcoin](assets/fr/039.webp)
@@ -1115,7 +1115,7 @@ Die wachsende wirtschaftliche Ungleichheit in der Welt war schon immer ein fruch
 ![BTC102-Bitcoin](assets/fr/046.webp)
 
 
-Aber welche Möglichkeiten gibt es in einer Welt, in der der Staat die volle Kontrolle über Vermögenswerte und Transaktionen ausüben kann, um Ihre Ersparnisse zu schützen?
+Aber welche Möglichkeiten die Ersparnisse zu schützen gibt es in einer Welt, in der Staaten die volle Kontrolle über Vermögenswerte und Transaktionen ausüben können?
 
 
 
@@ -1123,14 +1123,14 @@ Aber welche Möglichkeiten gibt es in einer Welt, in der der Staat die volle Kon
 
 
 
-- Gold** dient zwar seit Jahrtausenden als Wertaufbewahrungsmittel, ist aber Hard schwer zu teilen, schwer zu transportieren und für den Einsatz in dringenden Krisensituationen unpraktisch.
+- Gold** dient zwar seit Jahrtausenden als Wertaufbewahrungsmittel, ist aber schwer zu teilen, schwer zu transportieren und für den Einsatz in dringenden Krisensituationen unpraktisch.
 
 
 
 - Bargeld** ist zwar anonym, aber sperrig, leicht zu konfiszieren und verliert aufgrund der Inflation ständig an Wert.
 
-
-Aber Bitcoin ist mehr als nur ein praktisches Werkzeug. Es ist auch **eine friedliche Form des Protests**; eine Erklärung der Unabhängigkeit von einem Finanzsystem, das auf willkürlicher Macht, Zentralisierung und systemischer Ungleichheit beruht. Sich für Bitcoin zu entscheiden bedeutet, Manipulation, Entwertung und Überwachung abzulehnen. Es geht darum, Ihre **Souveränität** zurückzufordern, Ihre Zukunft zu sichern und Ihr Recht zu verteidigen, Ihr eigenes Vermögen zu kontrollieren.
+xxxx
+Bitcoin ist mehr als nur ein praktisches Werkzeug. Es ist auch **eine friedliche Form des Protests**; eine Erklärung der Unabhängigkeit von einem Finanzsystem, das auf willkürlicher Macht, Zentralisierung und systemischer Ungleichheit beruht. Sich für Bitcoin zu entscheiden bedeutet, Manipulation, Entwertung und Überwachung abzulehnen. Es geht darum, Ihre **Souveränität** zurückzufordern, Ihre Zukunft zu sichern und Ihr Recht zu verteidigen, Ihr eigenes Vermögen zu kontrollieren.
 
 
 In diesem Sinne ist Bitcoin mehr als nur eine Technologie. Es ist ein Werkzeug des Naturrechts, eine Möglichkeit für den Einzelnen, seine Grundrechte geltend zu machen, selbst wenn diese Rechte durch die Gesetze des Landes verweigert werden. Es gibt dem Volk die Macht zurück, nicht durch eine Revolution, sondern durch einen Code.

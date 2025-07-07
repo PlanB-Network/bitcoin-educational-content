@@ -6,7 +6,7 @@ description: Monitorer son réseau avec ntopng
 
 ___
 
-*Ce tutoriel est basé sur le contenu original de NOM publié sur [IT-Connect](https://www.it-connect.fr/). Licence [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Des modifications ont pu être apportées au texte original.*
+*Ce tutoriel est basé sur le contenu original de Florian Duchemin publié sur [IT-Connect](https://www.it-connect.fr/). Licence [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Des modifications ont pu être apportées au texte original.*
 
 ___
 

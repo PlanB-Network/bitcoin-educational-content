@@ -1,0 +1,14 @@
+id: e59ef605-e245-4366-9210-2b8bcf9feecf
+title: blog 1
+author: alhqz
+level: expert
+publication_date: 2025-07-10
+links:
+  website: hola.com
+language: es
+description: |
+  offchain technologies
+contributor_names: AlHqz
+tags:
+  - offchain
+  - lightning

@@ -1129,11 +1129,11 @@ Aber welche Möglichkeiten die Ersparnisse zu schützen gibt es in einer Welt, i
 
 - Bargeld** ist zwar anonym, aber sperrig, leicht zu konfiszieren und verliert aufgrund der Inflation ständig an Wert.
 
-xxxx
+
 Bitcoin ist mehr als nur ein praktisches Werkzeug. Es ist auch **eine friedliche Form des Protests**; eine Erklärung der Unabhängigkeit von einem Finanzsystem, das auf willkürlicher Macht, Zentralisierung und systemischer Ungleichheit beruht. Sich für Bitcoin zu entscheiden bedeutet, Manipulation, Entwertung und Überwachung abzulehnen. Es geht darum, Ihre **Souveränität** zurückzufordern, Ihre Zukunft zu sichern und Ihr Recht zu verteidigen, Ihr eigenes Vermögen zu kontrollieren.
 
 
-In diesem Sinne ist Bitcoin mehr als nur eine Technologie. Es ist ein Werkzeug des Naturrechts, eine Möglichkeit für den Einzelnen, seine Grundrechte geltend zu machen, selbst wenn diese Rechte durch die Gesetze des Landes verweigert werden. Es gibt dem Volk die Macht zurück, nicht durch eine Revolution, sondern durch einen Code.
+In diesem Sinne ist Bitcoin mehr als nur eine Technologie. Es ist ein Werkzeug des Naturrechts, eine Möglichkeit für den Einzelnen, seine Grundrechte geltend zu machen, selbst wenn diese Rechte durch die Gesetze des Landes verweigert werden. Es gibt den Menschen die Macht zurück, nicht durch eine Revolution, sondern durch einen Code.
 
 
 ![BTC102-Bitcoin](assets/fr/040.webp)
@@ -1142,16 +1142,16 @@ In diesem Sinne ist Bitcoin mehr als nur eine Technologie. Es ist ein Werkzeug d
 **Wussten Sie schon**? Bitcoin ist pseudonym, nicht anonym. Nutzer können Wallet-Adressen erstellen, ohne ihre wahre Identität preiszugeben, und so Geld außerhalb des traditionellen Bankensystems senden und empfangen.
 
 
-Entgegen der landläufigen Meinung bietet Bitcoin jedoch keine vollständige Anonymität. Jede Transaktion wird auf einem öffentlichen Ledger (dem Blockchain) aufgezeichnet, auf das jeder zugreifen und es überprüfen kann. Obwohl Wallet-Adressen nicht mit Namen verknüpft sind, können die finanziellen Aktivitäten eines Nutzers immer noch zurückverfolgt und analysiert werden, wenn keine angemessenen Datenschutzpraktiken befolgt werden.
+Entgegen der landläufigen Meinung bietet Bitcoin jedoch keine vollständige Anonymität. Jede Transaktion wird auf einem öffentlichen Ledger (der Blockchain) aufgezeichnet, auf den jeder zugreifen und den jeder überprüfen kann. Wallet-Adressen sind zwar nicht mit einem Namen verknüpft. Dennoch können die finanziellen Aktivitäten eines Nutzers zurückverfolgt und analysiert werden, wenn dieser keine angemessenen Datenschutzpraktiken befolgt.
 
 
 ### Eine Lösung für die Korruption im Geld- und Bankwesen
 
 
-Die Zentralbanken untergraben durch ihre expansive Geldpolitik ständig Ihre Kaufkraft. Durch Inflation und übermäßiges Gelddrucken (oft getarnt als Quantitative Easing) verwässern sie ständig den Wert der im Umlauf befindlichen Währung. Dies wirkt wie eine unsichtbare Steuer, die Jahr für Jahr das Vermögen derjenigen schmälert, die in staatlich ausgegebenem Geld sparen.
+Die Zentralbanken untergraben durch ihre expansive Geldpolitik ständig Ihre Kaufkraft. Durch Inflation und übermäßiges Gelddrucken (oft getarnt als 'Quantitative Easing') verwässern sie ständig den Wert der im Umlauf befindlichen Währung. Dies wirkt wie eine unsichtbare Steuer, die Jahr für Jahr das Vermögen derjenigen schmälert, die in staatlich ausgegebenem Geld sparen.
 
 
-Entgegen der landläufigen Meinung, dass Inflation ein natürliches wirtschaftliches Phänomen ist, handelt es sich in Wirklichkeit um ein geldpolitisches Steuerungsinstrument, das die Bevölkerung langsam verarmen lässt, während diejenigen, die Geldvermögen besitzen, davon profitieren.
+Entgegen der landläufigen Meinung, dass Inflation ein natürliches wirtschaftliches Phänomen ist, handelt es sich in Wirklichkeit um ein geldpolitisches Steuerungsinstrument. Dieses lässt die Bevölkerung langsam verarmen, während diejenigen mit Geldvermögen davon profitieren.
 
 
 Wenn Ihr Vermögen nicht durch nicht-monetäre Vermögenswerte (wie Immobilien, Anleihen oder Aktien) gesichert ist, verlieren Ihre Ersparnisse mit der Zeit unweigerlich an Wert. In der Zwischenzeit vermehren diejenigen, die Zugang zu Finanzinstrumenten haben, ihren Reichtum weiter und vergrößern die Kluft zwischen der wirtschaftlichen Elite und dem Rest der Gesellschaft.
@@ -1163,19 +1163,19 @@ Dies ist kein Fehler im System, sondern ein absichtlicher Mechanismus. Zentralba
 ![BTC102-Bitcoin](assets/fr/041.webp)
 
 
-Unser modernes Finanzsystem ist auf einem Schuldenkreislauf aufgebaut, in dem die Kreditaufnahme nicht nur gefördert wird, sondern praktisch unvermeidbar ist. Der Einzelne nimmt Kredite auf, um seinen Lebensstil aufrechtzuerhalten, nur um dann in einem System gefangen zu sein, in dem er Zinsen an Banken zurückzahlen muss, die Geld aus dem Nichts erschaffen. Das ist kein Zufall, sondern eine strukturelle Konstruktion, die den Finanzinstituten auf Kosten der normalen Bürger zugute kommt.
+Unser modernes Finanzsystem ist auf einem Schuldenkreislauf aufgebaut, in dem die Kreditaufnahme nicht nur gefördert wird, sondern praktisch unvermeidbar ist. Der Einzelne nimmt Kredite auf, um seinen Lebensstil aufrechtzuerhalten. Dies nur, um dann in einem System gefangen zu sein, in dem er Zinsen an Banken zurückzahlen muss, die Geld aus dem Nichts erschaffen. Das ist kein Zufall, sondern eine strukturelle Konstruktion, die den Finanzinstituten auf Kosten der normalen Bürger zugute kommt.
 
 
-Das System ist durch den Einfluss der Zentralbanken und deren unkontrollierte Macht zur Manipulation des Geldes Supply korrumpiert. **Bitcoin ist die Alternative
+Das System ist durch den Einfluss der Zentralbanken und deren unkontrollierter Macht zur Manipulation des Geldangebots korrumpiert. Bitcoin ist die Alternative!
 
 
-Im Gegensatz zu Fiat-Währungen unterliegt Bitcoin Regeln, die im Konsensverfahren durchgesetzt werden. Der Supply ist gedeckelt; es wird nie mehr als 21 Millionen Bitcoins geben (tatsächlich sind es aufgrund der Struktur der Ausgabe etwas weniger). Keine Regierung, Zentralbank oder ein einzelner Wirtschaftsakteur kann diese Grenze ändern.
+Im Gegensatz zu Fiat-Währungen unterliegt Bitcoin Regeln, die im Konsensverfahren durchgesetzt werden. Das Angebot ist gedeckelt; es wird nie mehr als 21 Millionen Bitcoins geben (tatsächlich sind es aufgrund der Struktur der Ausgabe etwas weniger). Keine Regierung, Zentralbank oder ein einzelner Wirtschaftsakteur kann diese Grenze ändern.
 
 
-Das bedeutet, dass Bitcoin in einem vorhersehbaren monetären Rahmen arbeitet, in dem die Inflation nicht nur transparent ist, sondern auch vollständig abklingen soll, sobald das letzte Bitcoin abgebaut ist.
+Das bedeutet, dass Bitcoin in einem vorhersehbaren monetären Rahmen arbeitet. Darin ist die Inflation nicht nur transparent, sondern soll auch vollständig abklingen, sobald der letzte Bitcoin 'gemint' ist.
 
 
-In der Vergangenheit diente Gold als Schutz vor unkontrollierter Geldmengenausweitung. Doch seit dem Zusammenbruch des Goldstandards im Jahr 1971 ist keine nationale Währung (sei es der Dollar, der Euro oder der Yen) mehr durch einen materiellen Vermögenswert gedeckt. Diese Loslösung gab den Zentralbanken freie Hand, um ungehindert Geld zu drucken, und ebnete den Weg für jahrzehntelange aggressive Geldmengenausweitung, wiederholte Vermögensblasen und wiederkehrende Finanzkrisen.
+In der Vergangenheit diente Gold als Schutz vor unkontrollierter Geldmengenausweitung. Doch seit dem Zusammenbruch des Goldstandards im Jahr 1971 ist keine nationale Währung (sei es der Dollar, der Euro oder der Yen) mehr durch einen materiellen Vermögenswert gedeckt. Diese Loslösung gab den Zentralbanken freie Hand, um ungehindert Geld zu drucken. Es ebnete den Weg für eine jahrzehntelange aggressive Geldmengenausweitung, wiederholte Vermögensblasen und wiederkehrende Finanzkrisen.
 
 
 ![BTC102-Bitcoin](assets/fr/042.webp)
@@ -1183,14 +1183,14 @@ In der Vergangenheit diente Gold als Schutz vor unkontrollierter Geldmengenauswe
 
 Wenn Sie Geld bei einer Bank einzahlen, gehört es Ihnen nicht mehr wirklich.
 
-Die meisten Menschen sind sich dessen nicht bewusst: Das Geld, das Sie auf einem Bankkonto haben, ist technisch gesehen nicht Ihr Eigentum. Rechtlich und praktisch gesehen handelt es sich um ein Darlehen, das Sie Ihrer Bank gewähren und das die Bank für ihre eigenen Geschäfte und Investitionen verwenden kann.
+Die meisten Menschen sind sich dessen nicht bewusst: Das Geld, das Sie auf einem Bankkonto haben, ist technisch gesehen nicht ihr Eigentum. Rechtlich und praktisch gesehen handelt es sich um ein Darlehen, das Sie Ihrer Bank gewähren und das die Bank für ihre eigenen Geschäfte und Investitionen verwenden kann.
 
 Dieses System beruht auf dem blinden Vertrauen der Öffentlichkeit in die Finanzinstitute, birgt aber ernste Risiken:
 
 
 
-- Wenn Ihre Bank zusammenbricht, könnte Ihr Geld verschwinden.** Selbst bei Einlagensicherungssystemen hat die Geschichte gezeigt, dass diese Garantien bei Systemkrisen versagen können.
-- Wenn Ihre Bank den Zugang zu Ihren Geldern einschränkt, können Sie möglicherweise Ihr eigenes Geld nicht abheben oder verwenden**. Das ist schon oft vorgekommen, z. B. während der Wirtschaftskrise in Griechenland, im Libanon und in Argentinien oder bei politischen Auseinandersetzungen wie den Trucker-Protesten in Kanada.
+- Wenn Ihre Bank zusammenbricht, könnte Ihr Geld verschwinden. Selbst bei Einlagensicherungssystemen, können diese Garantien bei Systemkrisen versagen. Dies hat die Geschichte gezeigt.
+- Wenn Ihre Bank den Zugang zu Ihren Geldern einschränkt, können Sie möglicherweise Ihr eigenes Geld nicht abheben oder verwenden. Das ist schon oft vorgekommen, z.B. während der Wirtschaftskrise in Griechenland, im Libanon und in Argentinien oder bei politischen Auseinandersetzungen wie den Trucker-Protesten in Kanada.
 
 
 Bitcoin bietet einen radikal anderen Modus: offen, neutral und unbestechlich. Seine Regeln sind im Konsens fest kodiert und gelten für alle Netzwerkteilnehmer gleichermaßen.
@@ -1216,22 +1216,22 @@ Bitcoin anzunehmen bedeutet, sich für gesundes Geld zu entscheiden. Es ist eine
 Bitcoiner kommen aus allen Gesellschaftsschichten, doch sie haben eine gemeinsame Vision: eine Welt, in der die Geldhoheit in den Händen von Einzelpersonen und nicht von Institutionen liegt. Unter ihnen sind:
 
 
-- Cypherpunks**, die sich für den Schutz der Privatsphäre und gegen Überwachung einsetzen;
-- Unterdrückte Bürger**, die Zuflucht vor autoritären Regimen und Kapitalkontrollen suchen;
-- Anarchisten**, die Bitcoin als Mittel zur Befreiung von staatlicher Kontrolle betrachten;
-- Österreichische Ökonomen**, die sich für gesundes Geld und Freiheit von staatlicher Manipulation einsetzen;
-- Ingenieure, Finanzexperten und Verfechter der Meinungsfreiheit**, die die tiefgreifenden gesellschaftlichen Auswirkungen dieses neuen Währungsparadigmas erkennen.
+- Cypherpunks, die sich für den Schutz der Privatsphäre und gegen Überwachung einsetzen;
+- Unterdrückte Bürger, die Zuflucht vor autoritären Regimen und Kapitalkontrollen suchen;
+- Anarchisten, die Bitcoin als Mittel zur Befreiung von staatlicher Kontrolle betrachten;
+- Österreichische Ökonomen, die sich für gesundes Geld und Freiheit von staatlicher Manipulation einsetzen;
+- Ingenieure, Finanzexperten und Verfechter der Meinungsfreiheit, welche die tiefgreifenden gesellschaftlichen Auswirkungen dieses neuen Währungsparadigmas erkennen.
 
 
 ![BTC102-Bitcoin](assets/fr/043.webp)
 
 
-Bitcoin ist so konzipiert, dass es politische und ideologische Grenzen überschreitet. Es ist nicht links oder rechts, libertär oder kollektivistisch. Es handelt sich um ein neutrales Protokoll, das von Regeln (nicht vom Herrscher) bestimmt wird, die für alle gleichermaßen gelten. Dennoch stellt seine bloße Existenz den globalen finanziellen Status quo in Frage. Bitcoin ist zu einem Symbol des Widerstands geworden, weil die Menschen es als Alternative zu Fiat-Währungen und zentralisierter Finanzinfrastruktur angenommen haben; Systeme, die zunehmend als ungerecht, manipulierbar und ausgrenzend angesehen werden.
+Bitcoin ist so konzipiert, dass es politische und ideologische Grenzen überschreitet. Es ist nicht links oder rechts, libertär oder kollektivistisch. Es handelt sich um ein neutrales Protokoll, das von Regeln (nicht von Regierungen) bestimmt wird, die für alle gleichermaßen gelten. Dennoch stellt seine bloße Existenz den globalen finanziellen Status quo in Frage. Bitcoin ist zu einem Symbol des Widerstands geworden, weil die Menschen es als Alternative zu Fiat-Währungen und zentralisierter Finanzinfrastruktur angenommen haben; Systeme, die zunehmend als ungerecht, manipulierbar und ausgrenzend angesehen werden.
 
 
 Für Cypherpunk ist Bitcoin mehr als ein digitaler Vermögenswert. Es steht gegen die stetige Aushöhlung der Privatsphäre in einer Welt, in der das Verschwinden von Bargeld oft unter dem Deckmantel der "Sicherheit" gerechtfertigt wird
 
-Bitcoin ermöglicht zensurresistente, digitale Peer-to-Peer-Transaktionen, frei von Zwischenhändlern oder Torwächtern. Wie Satoshi Nakamoto es sich vorgestellt hat, bietet es das digitale Äquivalent von Bargeld: eine Möglichkeit, Exchange Werte frei und ohne Erlaubnis zu übertragen.
+Bitcoin ermöglicht zensurresistente, digitale Peer-to-Peer-Transaktionen, frei von Zwischenhändlern oder Torwächtern. Wie Satoshi Nakamoto es sich vorgestellt hat, bietet es das digitale Äquivalent von Bargeld: eine Möglichkeit, Werte frei und ohne Erlaubnis zu übertragen.
 
 
 ![BTC102-Bitcoin](assets/fr/048.webp)
@@ -1239,7 +1239,7 @@ Bitcoin ermöglicht zensurresistente, digitale Peer-to-Peer-Transaktionen, frei 
 
 Bitcoin ist weder eine Organisation noch eine politische Partei, aber sie hat unbestreitbar eine starke philosophische Botschaft. Es definiert die Beziehung zwischen dem Einzelnen und dem Staat neu und stellt das Monopol der Zentralbanken auf Geldschöpfung und wirtschaftliche Kontrolle in Frage.
 
-Ob von Freiheitskämpfern oder von Menschen, die einfach nur ihre Kaufkraft erhalten wollen, Bitcoin markiert den Beginn einer neuen Ära; einer Ära, in der finanzielle Souveränität zu einem grundlegenden Menschenrecht wird, das für alle zugänglich ist.
+Ob von Freiheitskämpfern oder von Menschen, die einfach nur ihre Kaufkraft erhalten wollen; Bitcoin markiert den Beginn einer neuen Ära; einer Ära, in der finanzielle Souveränität zu einem grundlegenden Menschenrecht wird, das für alle zugänglich ist.
 
 
 ![BTC102-Bitcoin](assets/fr/049.webp)
@@ -1264,21 +1264,21 @@ Heute hat Bitcoin eine kritische Schwelle erreicht; einen Punkt, an dem es kein 
 ### Die Entstehung einer globalen Industrie
 
 
-Bitcoin ist eine radikale Innovation, ein Sprung von Null auf Eins. Sie stellt einen totalen Bruch mit dem traditionellen Währungsparadigma dar. Für einige ist diese Störung eine Bedrohung, eine existenzielle Herausforderung für ihre etablierte Macht und ihre Privilegien. Für sie ist Bitcoin eine Büchse der Pandora, die niemals hätte geöffnet werden dürfen, und sie werden sich mit allen ihnen zur Verfügung stehenden Mitteln dagegen wehren.
+Bitcoin ist eine radikale Innovation, ein Sprung von Null auf Eins. Sie stellt einen totalen Bruch mit dem traditionellen Währungsparadigma dar. Für einige ist diese Störung eine Bedrohung, eine existenzielle Herausforderung für ihre etablierte Macht und ihre Privilegien. Für sie ist Bitcoin eine Büchse der Pandora, die niemals hätte geöffnet werden dürfen. Sie werden sich mit allen ihnen zur Verfügung stehenden Mitteln dagegen wehren.
 
 
 ![BTC102-Bitcoin](assets/fr/050.webp)
 
 
-Andere hingegen sehen Bitcoin als eine einmalige Chance: ein Werkzeug für individuelle Freiheit, ein Katalysator für die Umgestaltung des globalen Finanzsystems und ein Weg zu einer transparenteren und gerechteren Alternative. Dies sind die Erbauer, Übernehmer und Mitwirkenden (die, die die Zukunft gestalten).
+Andere hingegen sehen Bitcoin als eine einmalige Chance: ein Werkzeug für individuelle Freiheit, ein Katalysator für die Umgestaltung des globalen Finanzsystems und ein Weg zu einer transparenteren und gerechteren Alternative. Dies sind die Erbauer, Übernehmer und Mitwirkenden (jene, die unsere Zukunft gestalten).
 
 
 **Bitcoin** selbst bleibt neutral. Es bittet nicht um Erlaubnis. Es bittet nicht um Zustimmung.
 
-**Sie existiert einfach
+Es existiert einfach.
 
 
-In diesem Kapitel werden wir die Hauptakteure untersuchen, die die Bitcoin-Industrie vorantreiben. Das Verständnis ihrer Rollen, Anreize und Interaktionen ist unerlässlich, um die Dynamik dieses wachsenden Ökosystems zu verstehen und die damit verbundenen Chancen und Herausforderungen besser zu meistern.
+In diesem Kapitel werden wir die Hauptakteure untersuchen, welche die Bitcoin-Industrie vorantreiben. Das Verständnis ihrer Rollen, Anreize und Interaktionen ist unerlässlich, um die Dynamik dieses wachsenden Ökosystems zu verstehen und die damit verbundenen Chancen und Herausforderungen besser zu meistern.
 
 
 ### Die Ausbreitung von Altcoins
@@ -1286,15 +1286,15 @@ In diesem Kapitel werden wir die Hauptakteure untersuchen, die die Bitcoin-Indus
 
 Technisch gesehen ist es unglaublich einfach, eine neue Kryptowährung zu schaffen; es kann nur ein paar Minuten dauern und erfordert wenig bis keine wirkliche Innovation. Die wahre Herausforderung liegt nicht in der Schaffung, sondern im Wert. Und der Wert wird in der Welt der digitalen Vermögenswerte ausschließlich durch den Markt bestimmt, durch das Vertrauen und die Nachfrage der Nutzer.
 
-Im Dezember 2019 listete CoinMarketCap über 5.000 Token auf. Bis zum Jahr 2025 wird diese Zahl in die Millionen gehen, dank des Aufstiegs von NFTs, dezentralem Finanzwesen (DeFi) und unzähligen anderen Anwendungen (einige legitim, viele fragwürdig). Diese Token gibt es in allen Formen und Ausprägungen: Einige behaupten, Währungen zu sein, andere fungieren als Wertpapiere, Plattform-Dienstprogramme, Sidechains oder tokenisierte Darstellungen von digitaler Kunst.
+Im Dezember 2019 listete CoinMarketCap über 5.000 Tokens auf. Bis zum Jahr 2025 wird diese Zahl in die Millionen gehen, dank des Aufstiegs von NFTs, dezentralem Finanzwesen (DeFi) und unzähligen anderen Anwendungen (einige legitim, viele fragwürdig). Diese Token gibt es in allen Formen und Ausprägungen: Einige behaupten, Währungen zu sein, andere fungieren als Wertpapiere, Plattform-Dienstprogramme, Sidechains oder tokenisierte Darstellungen von digitaler Kunst.
 
 
 Aber lassen Sie uns das klarstellen: **Die meisten dieser Kryptowährungen sind kaum mehr als Betrug**.
 
-Hinter dem Schleier der auffälligen Technologie und des ausgefeilten Brandings verbergen sich bei vielen dieser Projekte aggressive Marketingstrategien, die nur auf eines abzielen: **Ihr Bitcoin** herauszuholen. Sie spielen mit der Gier und der Unwissenheit der Anleger, indem sie verführerische Geschichten über revolutionäre Technologien oder garantierte Renditen verbreiten; Behauptungen, die einer genauen Prüfung selten standhalten.
+Hinter dem Schleier der auffälligen Technologie und des ausgefeilten Brandings verbergen sich bei vielen dieser Projekte aggressive Marketingstrategien, die nur auf eines abzielen: **Ihre Bitcoin** zu kriegen. Sie spielen mit der Gier und der Unwissenheit der Anleger, indem sie verführerische Geschichten über revolutionäre Technologien oder garantierte Renditen verbreiten; Behauptungen, die einer genauen Prüfung selten standhalten.
 
 
-Natürlich gibt es in diesem Meer von Lärm eine kleine Handvoll Projekte, die wirklich versuchen, die Grenzen zu erweitern. Einige konzentrieren sich auf die Lösung echter technischer Herausforderungen (Skalierbarkeit, Datenschutz, Programmierbarkeit) und können wertvolle Ideen für den weiteren Raum beisteuern. Es ist wahrscheinlich, dass mit der Zeit einige dieser Experimente zu nützlichen Innovationen führen werden
+Natürlich gibt es in diesem Rauschen eine kleine Handvoll Projekte, die wirklich versuchen, die Grenzen zu erweitern. Einige konzentrieren sich auf die Lösung echter technischer Herausforderungen (Skalierbarkeit, Datenschutz, Programmierbarkeit) und können wertvolle Ideen für den weiteren Raum beisteuern. Es ist wahrscheinlich, dass mit der Zeit einige dieser Experimente zu nützlichen Innovationen führen werden.
 
 
 Aber die grundlegende Frage bleibt bestehen:
@@ -1305,16 +1305,16 @@ Aber die grundlegende Frage bleibt bestehen:
 Bis jetzt sticht eine Wahrheit hervor: Bitcoin bleibt das einzige wirklich dezentralisierte, zensurresistente digitale Geld, das von einem globalen Netzwerk und einer wachsenden Akzeptanz unterstützt wird. Anders als Altcoins wird Bitcoin nicht von zentralisierten Unternehmen gestützt oder von einer Handvoll Entwickler und frühen Investoren gesteuert. Es ist das einzige Projekt, das das Gewicht von Tausenden von Stunden der Forschung, Entwicklung und unerbittlichen Verfeinerung verdient hat.
 
 
-| Feature               | Bitcoin                  | Altcoins (99.9% of them)       |
+| Feature               | Bitcoin                  | Altcoins (99.9% davon)       |
 | ---------------------|--------------------------|--------------------------------|
-| **Liquidity**         | High                     | Low                            |
-| **Adoption (Real-World)** | Global and growing       | Very limited                   |
-| **Team**              | Decentralized and robust | Centralized and opaque         |
-| **Reputation**        | Strong and globally recognized        | Varies, often questionable     |
-| **Infrastructure**    | Stable and secure        | Unstable and vulnerable        |
-| **Decentralization**  | Yes                      | Rarely                         |
-| **Scam Risk**             | No                       | Very likely                    |
-| **Real utility?**     | Yes                      | Debatable                      |
+| **Liquidity**         | hoch                     | tief                            |
+| **Adoption (Real-World)** | Global und zunehmend       | sehr limitiert                   |
+| **Team**              | dezentral und robust | zentral und undurchsichtig         |
+| **Ruf**        | stark und global anerkannt        | variiert, oft fragwürdig     |
+| **Infrastruktur**    | stabil und sicher        | instabil und verletzlich        |
+| **Dezentralisierung**  | ja                      | selten                         |
+| **Scam Risiko**         | nein                    | sehr wahrscheinlich                    |
+| **Reeller Nutzen?**     | ja                      | diskutierbar                      |
 
 
 **Seien Sie vorsichtig bei irreführenden Behauptungen wie:**
@@ -1323,14 +1323,14 @@ Bis jetzt sticht eine Wahrheit hervor: Bitcoin bleibt das einzige wirklich dezen
 
 - "Blockchain, nicht Bitcoin"
 - "XRP ist das nächste Bitcoin"
-- "Libra wird Bitcoin ersetzen
+- "Libra wird Bitcoin ersetzen"
 - "Mein Projekt ist eine bessere Version von Bitcoin"
 - "Digitale Währungen der Zentralbanken werden Bitcoin überflüssig machen"
 
 
-Bevor Sie Ihre Zeit oder Ressourcen in ein Altcoin investieren, sollten Sie selbst recherchieren, denn darum geht es hier nicht.
+Bevor Sie Ihre Zeit oder Ressourcen in einen Altcoin investieren, sollten Sie selbst recherchieren, denn darum geht es hier nicht.
 
-**Wir sind hier, um über Bitcoin und nur über Bitcoin zu berichten
+**Wir sind hier, um über Bitcoin und nur über Bitcoin zu berichten.
 
 
 ### Annahme durch wichtige Institutionen
@@ -1344,16 +1344,16 @@ Auch Tech-Giganten haben sich dem Rennen angeschlossen. Facebook (jetzt Meta) st
 
 | Feature                    | Bitcoin | Altcoins | Facebook-Coin | FedCoin |
 |---------------------------|---------|----------|---------------|---------|
-| **Public**                | Yes     | Varies   | No            | No      |
-| **Open**                  | Yes     | Varies   | No            | No      |
-| **Borderless**            | Yes     | Varies   | No            | No      |
-| **Neutral**               | Yes     | Varies   | No            | No      |
-| **Censorship-resistant**  | Yes     | Varies   | No            | No      |
+| **Public**                | ja     | variiert   | nein            | nein      |
+| **Open**                  | ja     | variiert   | nein            | nein      |
+| **Borderless**            | ja     | variiert   | nein            | nein      |
+| **Neutral**               | ja     | variiert   | nein            | nein      |
+| **Censorship-resistant**  | ja     | variiert   | nein            | nein      |
 
 Trotz mutigen Marketings konkurrieren diese Initiativen nicht mit Bitcoin; sie imitieren dessen Sprache, während sie dessen Kernprinzipien ablehnen. Sie sind auf Einhaltung der Vorschriften ausgelegt, nicht auf Freiheit. Sie sind darauf ausgelegt, die Überwachung auszuweiten, nicht die Privatsphäre zu schützen. Sie verstärken die Kontrolle, anstatt sie zu verteilen.
 
 
-Die Facebook-Waage war nie dazu gedacht, den Status quo in Frage zu stellen; sie wurde gebaut, um mit dem System zu arbeiten. Im Gegensatz dazu existiert Bitcoin völlig außerhalb dieses Systems. Es bittet nicht um Erlaubnis. Es ist nicht auf Vertrauen angewiesen. Und es läuft seit über einem Jahrzehnt einwandfrei (ohne Leiter, Ausfallzeiten oder zentrale Kontrolle).
+Die Facebook-Währung war nie dazu gedacht, den Status quo in Frage zu stellen; sie wurde gebaut, um mit dem System zu arbeiten. Im Gegensatz dazu existiert Bitcoin völlig außerhalb dieses Systems. Es bittet nicht um Erlaubnis. Es ist nicht auf Vertrauen angewiesen. Und es läuft seit über einem Jahrzehnt einwandfrei (ohne Vorgesetzte, Ausfallzeiten oder zentrale Kontrolle).
 
 
 ![BTC102-Bitcoin](assets/fr/051.webp)
@@ -1372,21 +1372,21 @@ Da es sich bei Bitcoin um ein globales Netzwerk handelt, haben die Länder auf s
 
 
 
-- Einige Länder verhängen strenge Beschränkungen**, wie z. B. China, und versuchen, den Konsum einzudämmen, ohne ihn jemals wirklich zu stoppen.
+- Einige Länder verhängen strenge Beschränkungen, wie z. B. China, und versuchen, den Konsum einzudämmen, ohne ihn jemals wirklich stoppen zu können.
 
 
 
-- Einige andere Länder, wie die Schweiz oder Kanada, bieten ein freundlicheres Umfeld** und sehen Bitcoin eher als Chance denn als Bedrohung.
+- Einige andere Länder, wie die Schweiz oder Kanada, bieten ein freundlicheres Umfeld und sehen Bitcoin eher als Chance denn als Bedrohung.
 
 
 
-- Die meisten sind noch unentschlossen** und experimentieren mit Vorschriften, während sie versuchen, ein Gleichgewicht zwischen Innovation und Aufsicht zu finden.
+- Die meisten sind noch unentschlossen und experimentieren mit Vorschriften, während sie versuchen, ein Gleichgewicht zwischen Innovation und Aufsicht zu finden.
 
 
 ![BTC102-Bitcoin](assets/fr/056.webp)
 
 
-Regierungen und Institutionen haben oft Schwierigkeiten, Bitcoin genau zu klassifizieren (ist es Geld, Eigentum oder etwas völlig Neues?). Infolgedessen neigen die Vorschriften dazu, reaktiv und inkonsistent zu sein und sich ständig weiterzuentwickeln. Wenn Sie mit Bitcoin zu tun haben, müssen Sie sich unbedingt über die örtlichen Gegebenheiten informieren, vor allem, wenn es um Steuern, Bankzugang und Compliance-Vorschriften geht.
+Regierungen und Institutionen haben oft Schwierigkeiten, Bitcoin genau zu klassifizieren (ist es Geld, Eigentum oder etwas völlig Neues?). Infolgedessen neigen die Vorschriften dazu, reaktiv und inkonsistent zu sein und sich ständig weiterzuentwickeln. Wenn Sie mit Bitcoin zu tun haben, müssen Sie sich unbedingt über die örtlichen Gegebenheiten informieren. Dies vor allem, wenn es um Steuern, Bankzugang und Compliance-Vorschriften geht.
 
 
 ### Die Haltung der Banken zu Bitcoin
@@ -1395,8 +1395,8 @@ Regierungen und Institutionen haben oft Schwierigkeiten, Bitcoin genau zu klassi
 Als Eckpfeiler des traditionellen Finanzsystems sehen die Banken Bitcoin als direkte Bedrohung ihres Wirtschaftsmodells, das sich auf die Vermittlung und Kontrolle von Finanzströmen konzentriert. Dies erklärt, warum viele Banken in der ganzen Welt Beschränkungen für Unternehmen und Einzelpersonen, die Bitcoin nutzen, eingeführt haben. Einige gehen sogar so weit, dass sie Konten schließen oder den Zugang zu Dienstleistungen für Unternehmen, die im Kryptowährungssektor tätig sind, einschränken, wobei sie sich häufig auf Bedenken hinsichtlich der Geldwäschebekämpfung (AML) und der Bekämpfung der Terrorismusfinanzierung (CTF) berufen.
 
 
-Während Bitcoin jedoch als Konkurrent angesehen wird, investieren viele dieser Banken aktiv in die Forschung und Entwicklung von Blockchain und versuchen, die Innovationen von Bitcoin zu nutzen, ohne ihre Kontrolle aufzugeben. Sie sind sich bewusst, dass Blockchain ein erhebliches Potenzial bietet, aber sie wollen kontrollieren, wie es in ihre bestehende Infrastruktur integriert wird, anstatt das dezentrale, offene Modell von Bitcoin zu übernehmen.
-
+Während Bitcoin jedoch als Konkurrent angesehen wird, investieren viele dieser Banken aktiv in die Forschung und Entwicklung von Blockchain und versuchen, die Innovationen von Bitcoin zu nutzen, ohne ihre Kontrolle aufzugeben. Sie sind sich bewusst, dass Blockchain ein erhebliches Potenzial bietet. Aber sie wollen kontrollieren, wie es in ihre bestehende Infrastruktur integriert wird, anstatt das dezentrale, offene Modell von Bitcoin zu übernehmen.
+xxx
 
 ### Kryptowährungsbörsen und Bitcoin-Verwahrung
 

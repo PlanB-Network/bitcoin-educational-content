@@ -1,0 +1,9 @@
+question: Vilken forummedlem gjorde sin Mining-algoritm offentlig efter en generös donation från Jeff Garzik den 18 september 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Fram till dess hade de tjänat pengar på en provision på användningen av deras programvara. De [publicerade](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) den under en fri licens.
+reviewed: true

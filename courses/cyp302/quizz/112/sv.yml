@@ -1,0 +1,9 @@
+question: Varför är RC4 klassificerat som ett synkront streamchiffer?
+answer: Nyckelströmmen är oberoende av klartexten och chiffertexten
+wrong_answers:
+  - Nyckelströmmen beror på värdena för tidigare chiffertext
+  - Klartexten måste integreras i nyckelströmmen
+  - Den använder en nyckelström som enbart baseras på klartexten
+explanation: |
+  RC4 är ett synkront strömchiffer eftersom dess nyckelström endast beror på den initiala nyckeln och inte på klartexten eller chiffertexten, vilket säkerställer att denna ström är oberoende av meddelandena.
+reviewed: false

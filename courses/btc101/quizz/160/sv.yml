@@ -1,0 +1,13 @@
+question: Vad händer vid en 51-procentig attack mot Bitcoin-nätverket?
+answer: En agent besitter mer än hälften av Hashrate och kan försöka modifiera Blockchain.
+wrong_answers:
+  - En agent får kontroll över mer än hälften av de bitcoins som är i omlopp.
+  - En agent får kontroll över mer än hälften av noderna i Bitcoin-nätverket.
+  - En agent får kontroll över mer än hälften av Mining-poolerna i Bitcoin
+explanation: |
+  I en 51%-attack kan en agent med mer än hälften av
+  nätverket Hashrate potentiellt kunna manipulera
+  Blockchain genom att skapa en alternativ kedja av block.
+  En sådan attack skulle dock vara extremt kostsam och
+  och sannolikt inte lönsam, vilket gör det till ett osannolikt scenario.
+reviewed: true

@@ -86,7 +86,7 @@ Otetaan esimerkki Lightning-siirrosta. Jos Alice haluaa lähettää 40 000 satos
 
 **Kanavan kapasiteetti**, 130 000 satoshissa, pysyy vakiona. Mikä muuttuu, on varojen jakautuminen. Tämä järjestelmä ei salli lähettää enemmän varoja kuin mitä omistaa. Esimerkiksi, jos Bob haluaisi lähettää takaisin 80 000 satoshia Alicelle, hän ei voisi, koska hänellä on vain 70 000.
 
-Toinen tapa kuvitella varojen jakautumista on ajatella **liukusäädintä**, joka osoittaa, missä varat ovat kanavassa. Aluksi, kun Alicella on 100 000 satoshia ja Bobilla 30 000, liukusäädin on loogisesti Alicen puolella. 40 000 satoshin siirron jälkeen liukusäädin siirtyy hieman Bobin puolelle, jolla nyt on 70 000 satoshia.
+Toinen tapa kuvitella varojen jakautumista on kuvitella **osoitin**, joka näyttää missä varat ovat kanavassa. Aluksi, kun Alicella on 100 000 satoshia ja Bobilla 30 000, osoitin on enemmän Bobin puolella, koska Alicella on paljon enemmän varoja. 40 000 satoshin tapahtuman jälkeen osoitin siirtyy hieman Alicen puolelle, jolla on nyt 60 000 satoshia.
 
 ![LNP201](assets/en/04.webp)
 

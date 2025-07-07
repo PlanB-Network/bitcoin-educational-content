@@ -1,0 +1,10 @@
+question: Vilket är det största hotet i samband med återanvändning av Address?
+answer: Det gör det möjligt att upprätta deterministiska länkar mellan olika transaktioner och en gemensam Ownership för de berörda UTXO:erna.
+wrong_answers:
+  - Den exponerar användarens IP Address för andra nätverksdeltagare under transaktionsvalideringen.
+  - Det minskar effektiviteten i mekanismerna för digitala signaturer, vilket försämrar transaktionssäkerheten.
+  - Det leder till en ökning av transaktionsavgifterna på grund av överbelastning som orsakas av Address-återanvändning.
+explanation: |
+  Om samma Address används för flera transaktioner blir det möjligt att dra slutsatsen att alla bitcoins som är associerade med den Address tillhör samma person.
+  
+reviewed: false

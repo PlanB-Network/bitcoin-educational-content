@@ -1,0 +1,9 @@
+question: Vilket datum skapades e-postlistan Bitcoin-development?
+answer: 12 juni 2011
+wrong_answers:
+  - 13 januari 2011
+  - 7 mars 2011
+  - 19 september 2011
+explanation: |
+  Den skapades av utvecklaren Jeff Garzik och möjliggjorde formella diskussioner om ändringar i Bitcoin.
+reviewed: true

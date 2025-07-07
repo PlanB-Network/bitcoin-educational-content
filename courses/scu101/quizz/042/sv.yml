@@ -1,0 +1,12 @@
+question: Varför är det viktigt att använda slumpmässigt genererade lösenord?
+answer: De är mer motståndskraftiga mot brute force-attacker än lösenord med samma längd som innehåller ordboksord.
+wrong_answers:
+  - De är lättare att komma ihåg men långsammare att skriva in.
+  - De är alltid säkra eftersom de innehåller mer än 20 slumpmässiga tecken.
+  - De flesta onlinetjänster kräver bara en minimilängd och en uppsättning tecken; om dessa kriterier uppfylls är lösenorden tillräckligt starka.
+explanation: |
+  Slumpmässigt genererade lösenord erbjuder en högre säkerhetsnivå
+  säkerhet eftersom de är mer motståndskraftiga mot brute force
+  attacker, som försöker gissa lösenord genom att prova alla
+  möjliga kombinationer av tecken.
+reviewed: true

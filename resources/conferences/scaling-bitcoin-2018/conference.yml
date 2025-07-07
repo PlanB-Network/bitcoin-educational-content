@@ -1,0 +1,21 @@
+id: efb911e3-4df4-4548-94a6-9da4806c8992
+year: 2018-10
+name: Scaling Bitcoin 2018 Kaizen
+builder: Scaling Bitcoin
+location: TOkyo, Japan
+language:
+- en
+links:
+  website: https://scalingbitcoin.org/
+tags:
+- network-security
+- privacy
+#proofreading_metadata
+original_language: en
+proofreading:
+- language: en
+  last_contribution_date: '2025-06-19'
+  urgency: 0
+  contributors_id:
+  - jramos0
+  reward: 0

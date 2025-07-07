@@ -1,0 +1,12 @@
+question: Vilka är de tre kanoniska funktionerna hos pengar?
+answer: Värdebevarare, Medium för Exchange, Kontoenhet.
+wrong_answers:
+  - Värdebevarare, Exchange-medium, produktionsmedel.
+  - Värdebevarare, produktionsmedel, beräkningsenhet.
+  - Medium för Exchange, Produktionsmedel, Räkenskapsenhet.
+explanation: |
+  Enligt Aristoteles har pengar tre funktioner: de är
+  värdebevarare, ett medium för Exchange och en räkneenhet
+  konto. Numera är funktionen som Exchange-medium
+  allmänt erkänd som den viktigaste, före de andra två.
+reviewed: true

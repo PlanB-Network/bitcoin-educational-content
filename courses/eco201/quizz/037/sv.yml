@@ -1,0 +1,13 @@
+question: Vilka är de omedelbara effekterna av en räntesänkning till följd av en ökning av kreditgivningen enligt den österrikiska teorin om konjunkturcykeln?
+answer: Entreprenörer kan låna mer resurser och därmed skapa produktionssteg av högre ordning. Denna utökning av produktionsstrukturen kommer inte att leda till minskad konsumtion eftersom konsumenterna inte skjuter upp sin nuvarande konsumtion. BNP växer med andra ord.
+wrong_answers:
+  - Entreprenörer kan låna mindre resurser och därmed skapa produktionssteg av lägre ordning. Denna utvidgning av produktionsstrukturen kommer att leda till ökad konsumtion eftersom konsumenterna skjuter upp sin nuvarande konsumtion. BNP krymper med andra ord.
+  - Entreprenörer kan låna mer resurser och därmed skapa produktionssteg av lägre ordning. Denna utvidgning av produktionsstrukturen kommer att leda till minskad konsumtion eftersom konsumenterna inte har skjutit upp sin nuvarande konsumtion. BNP krymper med andra ord.
+  - Entreprenörer kan låna mindre resurser och därmed skapa produktionssteg av högre ordning. Denna utökning av produktionsstrukturen kommer att leda till ökad konsumtion eftersom konsumenterna skjuter upp sin nuvarande konsumtion. Med andra ord växer BNP.
+explanation: |
+  Enligt den österrikiska teorin om konjunkturcykeln, när det sker en
+  när räntorna sjunker på grund av att krediterna ökar kan entreprenörer låna
+  mer resurser och därmed skapa produktionssteg med högre order. Denna utökning av
+  produktionsstrukturen kommer inte att leda till minskad konsumtion eftersom det
+  eftersom konsumenterna inte har skjutit upp sin nuvarande konsumtion. Med andra ord växer BNP.
+reviewed: true

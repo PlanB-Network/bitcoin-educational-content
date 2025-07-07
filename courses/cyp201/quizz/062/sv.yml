@@ -1,0 +1,9 @@
+question: Vad gör en utökad publik nyckel möjlig att härleda?
+answer: Endast normala publika nycklar för barn
+wrong_answers:
+  - Endast normala barns privata nycklar
+  - Både härdade och normala publika nycklar för barn
+  - Både härdade och normala privata nycklar för barn
+explanation: |
+  En utökad publik nyckel tillåter endast härledning av normala publika nycklar för barn, inte privata nycklar eller härdade nycklar.
+reviewed: false

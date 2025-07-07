@@ -1,0 +1,11 @@
+question: Vad är ett rekommenderat alternativ till att använda papper för att lagra din Mnemonic-fras?
+answer: Gravera det på en metallplatta.
+wrong_answers:
+  - Förvara den i en digital fil.
+  - Skriva det på en whiteboard.
+  - Spara den som en kontakt i din telefon.
+explanation: |
+  Ett av de rekommenderade alternativen till papper för att lagra
+  din Mnemonic-fras är att gravera den på en metallplatta. Detta
+  lösning är mer hållbar och långvarig.
+reviewed: true

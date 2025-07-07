@@ -1,0 +1,12 @@
+question: Vad är den rekommenderade metoden när du sätter i en USB-nyckel i din dator?
+answer: Sätt inte i okända eller misstänkta USB-minnen.
+wrong_answers:
+  - Sätt i valfritt USB-minne utan att kontrollera.
+  - Formatera alltid USB-minnet innan du sätter i det.
+  - Sätt i USB-minnet och kontrollera sedan om det finns virus.
+explanation: |
+  Att sätta i okända eller misstänkta USB-minnen kan utsätta systemet för
+  system för skadliga program som kan starta automatiskt
+  vid inmatning. Att kontrollera USB-nyckeln är värdelöst när
+  det har satts i.
+reviewed: true

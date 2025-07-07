@@ -1,0 +1,9 @@
+question: Vilka är enligt Sankt Augustinus de två städer som existerar sida vid sida i världen?
+answer: Guds stad och den jordiska staden.
+wrong_answers:
+  - Människornas stad och gudarnas stad.
+  - De heligas stad och syndarnas stad.
+  - Universitetsstaden och änglarnas stad.
+explanation: |
+  Augustinus beskriver två städer som existerar sida vid sida i världen: Guds stad, som är inriktad på Gud och det andliga livet, och den jordiska staden, som är inriktad på mänskliga angelägenheter och materiella frågor, och som var och en följer olika mål.
+reviewed: true

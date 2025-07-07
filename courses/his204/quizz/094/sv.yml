@@ -1,0 +1,8 @@
+question: Enligt Condorcet, varför skrämmer frihet människor?
+answer: För att han är för van vid att låta regeringen ingripa i alla frågor
+wrong_answers:
+  - Eftersom det aldrig har prövats i Frankrike
+  - Eftersom det kräver en våldsam revolution
+  - Eftersom det är synonymt med kaos
+explanation: |
+  Condorcet menade att människor var vana vid statlig inblandning och var rädda för frihet, eftersom de inte visste hur de skulle använda den.

@@ -1,0 +1,14 @@
+question: Varför är jungfruliga bitcoins särskilt eftertraktade av stora institutionella aktörer?
+answer: De kan garantera legitimiteten för sina digitala tillgångar till tillsynsmyndigheter.
+wrong_answers:
+  - De kan sälja dem till ett högre pris.
+  - De kan använda dem för olaglig verksamhet.
+  - De kan undvika att betala skatt på dem.
+explanation: |
+  Virgin bitcoins är särskilt eftertraktade av stora
+  institutionella aktörer eftersom de kan garantera
+  legitimitet för sina digitala tillgångar till tillsynsmyndigheter
+  myndigheter. Dessa bitcoins har aldrig blivit besudlade,
+  vilket ger viss garanti mot avslag från tillsynsmyndigheter eller
+  stora Exchange-plattformar.
+reviewed: true

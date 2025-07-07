@@ -1,0 +1,10 @@
+question: Vad är huvudsyftet med rikoschett-tekniken?
+answer: Att sudda ut spåren av ett mynts förflutna
+wrong_answers:
+  - För att öka sannolikheten för att transaktioner inte genomförs
+  - För att öka entropin i en transaktion
+  - Att betala mindre i transaktionsavgifter i framtiden
+explanation: |
+  Målet med en rikoschett är att simulera en förändring av Ownership på ett Bitcoin-mynt för att återställa dess fungibilitet genom att sudda ut dess tidigare märken.
+  
+reviewed: false

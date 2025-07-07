@@ -1,0 +1,9 @@
+question: Vilken är den grundläggande illusionen om staten enligt Marx?
+answer: Den representerar det allmänna intresset och inte en klass specifika intressen.
+wrong_answers:
+  - Den kan garantera opartiskhet.
+  - Den tjänar det civila samhället.
+  - Det främjar klasskamp.
+explanation: |
+  För Marx gör staten anspråk på att företräda allmänintresset. I själva verket är den dock ett instrument som tjänar den dominerande klassens intressen och därmed upprätthåller förtrycket av de underordnade klasserna.
+reviewed: true

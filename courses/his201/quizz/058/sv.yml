@@ -1,0 +1,9 @@
+question: I vilken enhet mäts nätverkets Hash-frekvens under andra halvåret 2010?
+answer: I GH/s
+wrong_answers:
+  - I MH/s
+  - I TH/s
+  - I PH/s
+explanation: |
+  Hash-hastigheten ökade från 1,35 GH/s den 13 juli till 120 GH/s den 31 december 2010.
+reviewed: true

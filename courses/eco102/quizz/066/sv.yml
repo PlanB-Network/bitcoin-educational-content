@@ -1,0 +1,9 @@
+question: Vilka är de två sätten att upplysa medborgarnas omdöme enligt Bastiat?
+answer: Filosofisk moral och ekonomisk moral
+wrong_answers:
+  - Lagstiftning och utbildning
+  - Religion och vetenskap
+  - Personliga erfarenheter och böcker
+explanation: |
+  Bastiat skiljer mellan filosofisk moral, som berör hjärtat, och ekonomisk moral, som upplyser intellektet genom att visa konsekvenserna av handlingar.
+reviewed: false

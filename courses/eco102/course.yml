@@ -103,6 +103,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 23.22
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.56
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.22
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.0
 tags:
   - finance
   - historical

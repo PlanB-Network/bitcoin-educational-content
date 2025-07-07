@@ -1,0 +1,12 @@
+question: Vilken är de österrikiska ekonomernas syn på räntesättningen?
+answer: Österrikiska ekonomer betonar att en godtycklig räntesättning kan leda till ekonomiska kriser.
+wrong_answers:
+  - Österrikiska ekonomer anser att staten bör sätta räntan.
+  - Österrikiska ekonomer anser att räntorna bör vara fasta och oföränderliga.
+  - Österrikiska ekonomer anser att räntan ska sättas av centralbanken.
+explanation: |
+  Österrikiska ekonomer betonar att ett godtyckligt fastställande av räntan
+  kan leda till ekonomiska kriser och omöjliggöra kalkylering i en socialistisk regim.
+  De menar att värderingsrelationer är subjektiva och att räntan därför kan variera
+  beroende på individer och omständigheter.
+reviewed: true

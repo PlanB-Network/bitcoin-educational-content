@@ -1,0 +1,9 @@
+question: Vilken är protektionismens huvudsakliga effekt på konsumenterna?
+answer: Det höjer priset på de produkter de köper
+wrong_answers:
+  - Det gör att de kan köpa produkter av högre kvalitet
+  - Det ger dem ett bredare urval av produkter
+  - Det har ingen inverkan på deras köpkraft
+explanation: |
+  Protektionism innebär att import beskattas, vilket gör produkterna dyrare för konsumenterna.
+reviewed: false

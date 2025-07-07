@@ -1,0 +1,9 @@
+question: Vilken är huvudrollen för en Bitcoin Wallet?
+answer: Hantera och säkra privata nycklar
+wrong_answers:
+  - Förvara användarens bitcoins
+  - Säkerställ automatiskt transaktionernas konfidentialitet
+  - generate bitcoins för varje användare
+explanation: |
+  En Bitcoin Wallet lagrar inte bitcoins direkt utan hanterar de privata nycklar som krävs för att låsa upp de UTXO:er som representerar bitcoins.
+reviewed: false

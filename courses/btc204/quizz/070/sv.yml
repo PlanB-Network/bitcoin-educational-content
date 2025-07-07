@@ -1,0 +1,10 @@
+question: Vilka risker är förknippade med att använda en tredjepartsnod?
+answer: Censur och övervakning av aktiviteter.
+wrong_answers:
+  - Förlust av bitcoins.
+  - Höjning av transaktionsavgifter.
+  - Stöld av bitcoins och spårning.
+explanation: |
+  Om du använder en nod som inte tillhör dig riskerar du att dina transaktionssändningar blockeras och övervakas av operatören.
+  
+reviewed: false

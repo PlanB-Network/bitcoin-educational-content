@@ -1,0 +1,9 @@
+question: Vilken är Thomas av Aquinos huvudtes om förhållandet mellan förnuft och tro?
+answer: Förnuft och tro kompletterar varandra och kan stödja varandra.
+wrong_answers:
+  - Förnuft och tro är två oberoende och motsägelsefulla källor till kunskap.
+  - Alla andra svar är korrekta.
+  - Tron är överlägsen förnuftet och kan klara sig utan dess argument.
+explanation: |
+  Thomas av Aquino menar att förnuft och tro kompletterar varandra; förnuftet kan hjälpa till att förstå och förklara trons sanningar. Tron däremot leder förnuftet mot sanningar som annars skulle vara otillgängliga för det.
+reviewed: true

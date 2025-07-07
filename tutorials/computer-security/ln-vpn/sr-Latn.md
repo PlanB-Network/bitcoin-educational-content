@@ -16,7 +16,7 @@ Postoji mnogo kvalitetnih provajdera VPN usluga, a mi smo sproveli sveobuhvatan 
 Većina provajdera VPN usluga kao što su ProtonVPN i Mullvad nude opciju plaćanja bitcoinima, ali zahtevaju kreiranje naloga i kupovinu plana na duži ili kraći rok, što možda ne odgovara svačijem budžetu.
 
 
-LN VPN omogućava korišćenje VPN-a na zahtev, u trajanju od samo jednog sata, zahvaljujući implementaciji Bitcoin plaćanja putem Lightning Network. Instantna i anonimna, lightning plaćanja otvaraju svet mogućnosti za mikroplaćanja.
+LN VPN omogućava korišćenje VPN-a na zahtev, u trajanju od samo jednog sata, zahvaljujući implementaciji Bitcoin plaćanja putem Lightning mreže (eng. Lightning Network). Instant i anonimna, lightning plaćanja otvaraju svet mogućnosti za mikroplaćanja.
 
 
 Napomena💡: **Ovaj vodič opisuje kako koristiti LN VPN sa sistema Linux Ubuntu 22.04 LTS.**
@@ -25,7 +25,7 @@ Napomena💡: **Ovaj vodič opisuje kako koristiti LN VPN sa sistema Linux Ubunt
 ## Preduslovi: Wireguard
 
 
-U jednostavnim terminima, Wireguard se koristi za kreiranje sigurnog tunela između vašeg računara i udaljenog servera preko kojeg ćete pretraživati Internet. To je IP Address ovog servera koji će se pojaviti kao vaš za vreme trajanja zakupa koji ćete Contract prateći ovaj vodič.
+Pojednostavljeno rečeno, Wireguard se koristi za kreiranje sigurnog tunela između vašeg računara i udaljenog servera preko kojeg ćete pretraživati internet. IP adresa tog servera će se prikazivati kao vaša tokom trajanja zakupa koji ćete uspostaviti prateći ovo uputstvo.
 
 
 Službeni vodič za instalaciju Wireguarda: https://www.wireguard.com/install/
@@ -38,13 +38,13 @@ $ sudo apt install wireguard
 ```
 
 
-## Preduuslovi: Lightning Bitcoin Wallet
+## Preduuslovi: Lightning Bitcoin novčanik
 
 
-Ako još uvek nemate Lightning Bitcoin Wallet, bez brige, napravili smo veoma jednostavan vodič za vas ovde. (sekcija sa LN uputstvom vam može pomoći)
+Ako još uvek nemate Lightning Bitcoin novčanik, bez brige, napravili smo veoma jednostavan vodič za vas ovde. (sekcija sa LN uputstvom vam može pomoći)
 
 
-## Korak 1: Contract a Lease
+## Korak 1: Ugovorite najam
 
 
 Sa https://lnvpn.com, trebaće da izaberete zemlju izlazne IP adrese VPN tunela i trajanje. Kada postavite ove parametre, kliknite na Pay with lightning.
@@ -53,10 +53,10 @@ Sa https://lnvpn.com, trebaće da izaberete zemlju izlazne IP adrese VPN tunela 
 ![image](assets/1.webp)
 
 
-Prikazaće se munja Invoice, a vi samo treba da je skenirate sa vašom munjom Wallet.
+Prikazaće se Lightning faktura, a vi samo treba da je skenirate sa vašim Lightning novčanikom.
 
 
-Kada se Invoice plati, moraćete da sačekate nekoliko sekundi do dva minuta da bi se generisala vaša Wireguard konfiguraciona podešavanja. Ako potraje malo duže, ne paničite, ovaj postupak smo radili na desetine puta i ponekad jednostavno traje malo duže.
+Kada se faktura plati, moraćete da sačekate nekoliko sekundi do dva minuta da bi se generisala vaša Wireguard konfiguraciona podešavanja. Ako potraje malo duže, ne paničite, ovaj postupak smo radili na desetine puta i ponekad jednostavno traje malo duže.
 
 Sledeći tekst je preveden na engleski jezik uz očuvanje istog markdown rasporeda kao i originalni tekst:
 
@@ -87,7 +87,7 @@ Evo ga! Tunel je aktiviran!
 ## Korak 3: Verifikuj
 
 
-Koristite onlajn servis kao što je whatismyip da proverite da li je vaš javni IP Address sada onaj od VPN-a koji ste upravo aktivirali.
+Koristite onlajn servis kao što je whatismyip da proverite da li je vaša javna IP adresa sada ona od VPN-a koji ste upravo aktivirali.
 
 
 ## Korak 4: Onemogući
@@ -104,4 +104,4 @@ $ sudo ip link delete dev wg0
 ```
 
 
-Tu imate to! Sada znate kako koristiti LN VPN, jedinstvenu VPN uslugu!
+To je to! Sada znate kako koristiti LN VPN, jedinstvenu VPN uslugu!

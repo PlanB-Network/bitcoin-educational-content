@@ -1,0 +1,9 @@
+question: Vad heter den webbplats som i hög grad bidrog till att Bitcoin blev känt i juli 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack överflöde
+  - Reddit
+explanation: |
+  Den 11 juli 2010 publicerade Teppy en presentation om Bitcoin på denna populära webbplats, vilket ledde till en massiv tillströmning av användare.
+reviewed: true

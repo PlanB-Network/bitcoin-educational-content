@@ -1,0 +1,9 @@
+question: Vad är det främsta skälet till att inte betala hackare för ransomware eller andra attacker?
+answer: Att betala lösensumman garanterar inte att dina data återställs och kan uppmuntra cyberbrottslingar att fortsätta sin skadliga verksamhet.
+wrong_answers:
+  - Att betala lösensumman är olagligt och kan uppmuntra cyberbrottslingar att fortsätta sin skadliga verksamhet.
+  - Att betala lösensumman garanterar inte att dina data återställs och kan uppmuntra hackare att begära mer pengar efter den första betalningen.
+  - Att betala lösensumman kan uppmuntra cyberbrottslingar att fortsätta sin skadliga verksamhet eftersom betalningsmetoden vanligtvis inte kan spåras.
+explanation: |
+  Att betala lösensumman garanterar inte att du får tillbaka dina data. Dessutom uppmuntrar det cyberbrottslingar att fortsätta med sina skadliga aktiviteter eftersom de ser det som ett lönsamt företag.
+reviewed: true

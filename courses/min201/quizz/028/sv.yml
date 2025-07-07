@@ -1,0 +1,13 @@
+question: Vilka är de potentiella riskerna med centraliseringen av tillverkningen av Mining-hårdvara i Kina?
+answer: En vägran att exportera Mining-maskiner eller en ackumulering av Hashrate för en potentiell 51%-attack.
+wrong_answers:
+  - Kina skulle kunna monopolisera Bitcoin-nätet.
+  - Kina kan kontrollera priset på Bitcoin.
+  - Kina kan förbjuda Bitcoin Mining.
+explanation: |
+  Centraliseringen av produktionen av Mining-hårdvara i Kina
+  utgör en risk för Bitcoin-nätverket. Om Kina vägrar att exportera
+  exportera Mining-maskiner eller ackumulerar Hashrate för en
+  för en potentiell 51%-attack, kan det hota säkerheten och
+  och decentraliseringen av nätverket.
+reviewed: true

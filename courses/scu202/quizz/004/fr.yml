@@ -1,0 +1,9 @@
+question: Quelle attaque informatique vise à soutirer des informations par des messages frauduleux ?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - Injection SQL
+explanation: |
+  Le phishing utilise des emails ou messages trompeurs pour inciter à divulguer des informations confidentielles ou à installer un malware.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Vilken typ av manus används uteslutande av Silent Payments?
+answer: P2TR
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+explanation: |
+  För att underlätta implementeringen av detta protokoll och för att förbättra användarnas anonymitet förlitar sig Silent Payments uteslutande på P2TR-skript (Pay to Taproot).
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad är Rothbards vision av ett fritt samhälle?
+answer: Ett samhälle där det inte finns någon möjlighet till tvångsmässig aggression mot en individs person eller egendom.
+wrong_answers:
+  - Ett samhälle där staten endast kontrollerar ett fåtal aspekter av det ekonomiska och sociala livet.
+  - Ett samhälle där individer är fria att göra vad de vill utan några restriktioner.
+  - Ett samhälle där makten är jämnt fördelad mellan alla samhällsklasser.
+explanation: |
+  Rothbard definierar ett fritt samhälle som en plats där inget tvångsmedel tillåts mot en person eller dennes egendom, och förespråkar därmed en radikal libertarianism som avvisar all statlig inblandning i enskilda människors liv.
+reviewed: true

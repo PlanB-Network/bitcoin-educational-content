@@ -1,3 +1,19 @@
+import sys
+
+# ── Check dependencies ──────────────────────────────────────────────────────────
+missing = []
+for pkg in ("customtkinter", "PIL", "appdirs", "darkdetect", "packaging"):
+    try:
+        __import__(pkg.split(".")[0])
+    except ImportError:
+        missing.append(pkg)
+
+if missing:
+    print("\n[Erreur] Missing dependencies:", ", ".join(missing))
+    print("Please execute:  python3 -m pip install -r requirements.txt\n")
+    sys.exit(1)
+# ────────────────────────────────────────────────────────────────────────────────
+
 import customtkinter as ctk
 from config import load_settings, save_settings
 from gui.home import HomePage
@@ -24,8 +40,11 @@ def main():
     
     root = ctk.CTk()
     root.title("Data Creator - Plan ₿ Network")
-    # Pour d'autres plateformes :
-    root.iconbitmap("favicon.ico")
+    
+    try:
+        root.iconbitmap("favicon.ico")
+    except Exception as e:
+        print(f"Impossible to charge icon favicon.ico: {e}")
     
     # Default window size
     default_width, default_height = 850, 630

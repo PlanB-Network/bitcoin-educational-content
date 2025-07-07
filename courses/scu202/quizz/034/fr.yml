@@ -1,0 +1,9 @@
+question: Quelle est la première mesure à mettre en place pour sécuriser l’accès à votre ordinateur personnel ?
+answer: Définir un mot de passe de session fort
+wrong_answers:
+  - Installer un antivirus
+  - Configurer le pare-feu UFW
+  - Activer le chiffrement du disque
+explanation: |
+  Le mot de passe de session est la première barrière de sécurité pour empêcher un accès non autorisé à votre machine, avant toute autre mesure complémentaire.
+reviewed: false

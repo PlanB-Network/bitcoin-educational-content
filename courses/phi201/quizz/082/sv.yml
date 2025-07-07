@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan den amerikanska revolutionen och den franska revolutionen?
+answer: Den amerikanska revolutionen ledde till bildandet av en decentraliserad rättsstat, medan den franska revolutionen ledde till en period av terror och diktatur.
+wrong_answers:
+  - Den amerikanska revolutionen var inspirerad av upplysningens idéer, medan den franska revolutionen var inspirerad av religiösa idéer.
+  - Den amerikanska revolutionen leddes av kolonister, medan den franska revolutionen leddes av adelsmän.
+  - Den amerikanska revolutionen var lång, medan den franska revolutionen var kort.
+explanation: |
+  Den amerikanska revolutionen resulterade i ett decentraliserat och stabilt system baserat på rättsstatsprincipen, medan den franska revolutionen snabbt övergick i terror och diktatur på grund av intern splittring och centralisering av makten.
+reviewed: true

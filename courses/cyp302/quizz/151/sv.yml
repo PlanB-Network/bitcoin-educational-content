@@ -1,0 +1,9 @@
+question: Hur väljs exponenten e i RSA-kryptosystemet?
+answer: Det måste vara ett heltal större än 2, coprime med φ(N)
+wrong_answers:
+  - Det måste vara ett primtal som är mindre än N
+  - Den väljs slumpmässigt utan begränsning
+  - Den måste vara lika med φ(N)
+explanation: |
+  I RSA väljs exponenten e så att den är större än 2 och coprime med φ(N), vilket garanterar säkerheten i operationerna.
+reviewed: false

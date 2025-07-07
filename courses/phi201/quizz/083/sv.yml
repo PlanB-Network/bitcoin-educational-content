@@ -1,0 +1,9 @@
+question: Vilken är enligt Tocqueville en av de viktigaste faktorerna som bidrog till att den amerikanska revolutionen blev en framgång?
+answer: Respekt för en högre lag.
+wrong_answers:
+  - Centralisering av makten.
+  - Avsaknaden av en dominerande religion.
+  - Förekomsten av en stark monarki.
+explanation: |
+  Tocqueville tillskriver den amerikanska revolutionens framgång kolonisternas respekt för en högre lag, som inramade individuella friheter och gav en solid moralisk och juridisk grund för samhällets organisation.
+reviewed: true

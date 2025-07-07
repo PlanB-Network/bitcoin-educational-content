@@ -1,0 +1,11 @@
+question: Vad kallas ett företag som fortsätter sin verksamhet huvudsakligen genom att låna till låg kostnad, trots att det är insolvent eller nära konkurs under normala marknadsförhållanden?
+answer: Zombieföretag
+wrong_answers:
+  - Spökföretag
+  - Vampyrföretag
+  - Fantomföretaget
+explanation: |
+  Ett zombieföretag är ett företag som under normala marknadsförhållanden skulle vara
+  vara insolvent eller nära konkurs, men som fortsätter sin verksamhet huvudsakligen genom billig
+  upplåning.
+reviewed: false

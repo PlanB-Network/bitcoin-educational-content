@@ -1,0 +1,11 @@
+question: Vad bör vara den största oron när du äger Bitcoin?
+answer: Säkerheten för dina medel.
+wrong_answers:
+  - Värdet av Bitcoin i dollar.
+  - Lagligheten i att äga bitcoins.
+  - Tillstånd att använda dina medel.
+explanation: |
+  När du äger bitcoins är det främsta problemet säkerheten
+  av dina medel. Detta beror på att Bitcoin, som alla andra former
+  valuta, kan stjälas eller förloras om den inte är ordentligt säkrad.
+reviewed: true

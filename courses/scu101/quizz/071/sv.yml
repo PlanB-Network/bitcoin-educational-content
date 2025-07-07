@@ -1,0 +1,9 @@
+question: Vad är en rekommenderad praxis för hantering av huvudlösenordet i en lösenordshanterare?
+answer: Skriv ner det på papper och håll det gömt på en säker plats.
+wrong_answers:
+  - Spara den i din e-post.
+  - Använd samma lösenord för alla konton.
+  - Memorera det.
+explanation: |
+  Vi rekommenderar att huvudlösenordet för en lösenordshanterare skrivs ned på papper och förvaras på en dold och säker plats. Faktum är att om Hard-enheten är krypterad och datorn är låst kommer lösenordet inte att vara tillgängligt, inte ens vid inbrott.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vad är illusionen om säkerheten i kommunikationskanaler i den moderna världen?
+answer: Att tro att fysiskt skydd av kanalen förhindrar avlyssning
+wrong_answers:
+  - Att tro att trådlösa nätverk är ineffektiva
+  - Anser att kryptografi inte är nödvändigt för lokal kommunikation
+  - Med tanke på att endast nationella myndigheter kan avlyssna data
+explanation: |
+  Det är en illusion att tro att det räcker med att säkra kanalen fysiskt för att garantera sekretess, eftersom många avlyssningspunkter fortfarande är tillgängliga, särskilt för trådlös kommunikation.
+reviewed: false

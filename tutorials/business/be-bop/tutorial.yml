@@ -1,0 +1,19 @@
+id: d8c40a3b-9090-48e7-9ba7-235d0c17e5fa
+project_id: 272d7b76-af05-4c79-bcce-d3b96b100be1
+professor_id: e3a74139-2a66-494a-930d-8d7aae0144c4
+level: beginner
+category: business
+tags:
+  - adoption
+  - software
+  - business
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-01
+    urgency: 1
+    contributors_names:
+      - Gloirew
+    reward: 0

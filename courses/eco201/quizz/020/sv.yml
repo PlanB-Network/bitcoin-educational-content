@@ -1,0 +1,13 @@
+question: Enligt österrikiska ekonomer, vad är resultatet av att individer specialiserar sig på sitt arbete och deltar i utbyten?
+answer: Enskilda individer får det alltid bättre.
+wrong_answers:
+  - Enskilda individer får det alltid sämre.
+  - Det sker ingen förändring av individernas situation.
+  - Resultatet varierar beroende på individ.
+explanation: |
+  Enligt österrikiska ekonomer är resultatet av att individer
+  specialiserar sig på sitt arbete och deltar i utbyten är
+  att de alltid får det bättre. Detta beror på att
+  specialisering och Exchange gör det möjligt för individer att maximera
+  sin subjektiva nytta.
+reviewed: true

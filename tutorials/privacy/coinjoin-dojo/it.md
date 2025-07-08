@@ -18,7 +18,7 @@ In questo tutorial scoprirai che cos'è un coinjoin e come eseguirne uno utilizz
 A mio parere, si tratta attualmente del metodo più efficace per migliorare la privacy delle proprie transazioni Bitcoin.
 
 ## Cos'è un coinjoin su Bitcoin?
-**Il coinjoin è una tecnica che interrompe la tracciabilità dei bitcoin sulla blockchain**. Si basa su una transazione collaborativa con una struttura specifica, chiamata appunto “transazione CoinJoin”.
+**Il coinjoin è una tecnica che interrompe la tracciabilità dei bitcoin sulla blockchain**. Si basa su una transazione collaborativa con una struttura specifica, chiamata appunto “transazione Coinjoin”.
 
 I coinjoin migliorano la privacy degli utenti Bitcoin rendendo più complessa l’analisi della blockchain da parte di osservatori esterni. La loro struttura consente infatti di unire più input provenienti da diversi utenti in una singola transazione, offuscando i collegamenti tra indirizzi di input e output.
 
@@ -32,7 +32,7 @@ Esempio di una transazione coinjoin (non mia): [323df21f0b0756f98336437aa3d2fb87
 Per eseguire un coinjoin in modo che ogni partecipante mantenga sempre il pieno controllo sui propri fondi, il processo inizia con la costruzione della transazione da parte di un coordinatore, che la condivide poi con tutti i partecipanti.
 Ogni utente verifica attentamente la transazione e, solo se la ritiene corretta, procede a firmare la propria parte. Una volta raccolte tutte le firme, queste vengono aggregate nella transazione finale.
 Nel caso in cui il coordinatore o uno dei partecipanti tenti di alterare la transazione, ad esempio modificando gli output per dirottare fondi, le firme digitali diventeranno invalide. Di conseguenza, la transazione verrà rifiutata dai nodi della rete Bitcoin, impedendo qualsiasi spostamento non autorizzato di fondi.
-Esistono diverse implementazioni del protocollo coinjoin, come Whirlpool, JoinMarket e WabiSabi, ognuna con un proprio approccio al coordinamento tra partecipanti e all'efficienza della transazione.
+Esistono diverse implementazioni del protocollo coinjoin, come **Whirlpool, JoinMarket e WabiSabi**, ognuna con un proprio approccio al coordinamento tra partecipanti e all'efficienza della transazione.
 In questo tutorial ci concentreremo su Whirlpool, che ritengo essere oggi la soluzione più efficace per eseguire coinjoin su Bitcoin.
 Sebbene Whirlpool sia compatibile con più wallet, ci focalizzeremo esclusivamente sull'utilizzo tramite l'app mobile Samourai Wallet, senza Dojo.
 
@@ -283,7 +283,7 @@ I passaggi descritti di seguito devono essere eseguiti solo se:
 
 - Sei certo di avere la frase di recupero completa;
 - La tua passphrase (se usata) è corretta e disponibile;
-- Hai accesso all'app Samourai Wallet funzionante.
+- Hai accesso all'app Samourai Wallet ed è certo che sia funzionante.
 
 Per procedere con la creazione del backup cifrato del tuo wallet:
 
@@ -298,8 +298,7 @@ Questo file sarà necessario per ripristinare il wallet dopo la reinstallazione 
 
 **Da questo passaggio in poi, non copiare altro negli appunti!** È assolutamente essenziale che tu conservi il tuo backup copiato.
 
-Se hai eseguito correttamente i passaggi precedenti, ora sei in grado di eliminare in sicurezza il tuo account Samourai wallet. Per fare ciò, vai su: `Impostazioni > Wallet > Cancellazione sicura del wallet`.
-
+Se hai eseguito correttamente i passaggi precedenti, ora sei in grado di eliminare in sicurezza il tuo account Samourai wallet. Per farlo, vai su: `Settings > Wallet > Secure erase the wallet`.
 ![coinjoin](assets/notext/21.webp)
 
 ![coinjoin](assets/notext/22.webp)
@@ -310,27 +309,27 @@ La tua applicazione Samourai è ora resettata. Apri l'applicazione e procedi con
 
 ![coinjoin](assets/notext/23.webp)
 
-Nel passaggio successivo, accederai alla pagina dedicata alla configurazione del tuo Dojo. Seleziona l'opzione `Dojo`, poi inserisci le informazioni di accesso del tuo Dojo. Per farlo, puoi scansionare le informazioni premendo `Scansiona QR`.
+Nel passaggio successivo, accederai alla pagina dedicata alla configurazione del tuo Dojo. Seleziona l'opzione `Dojo`, poi inserisci le informazioni di accesso del tuo Dojo. Per farlo, puoi scansionare le informazioni premendo `Scan QR`.
 
 ![coinjoin](assets/notext/24.webp)
 
 *Per i nuovi utenti di Samourai, sarà quindi necessario creare un wallet da zero. Se hai bisogno di assistenza, puoi consultare le istruzioni per configurare un nuovo wallet Samourai [in questo tutorial, specificamente nella sezione "Creazione di un software wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
-Se stai procedendo con il ripristino di un Samourai wallet già esistente, seleziona `Ripristina wallet esistente`, poi scegli `Ho un file di backup di Samourai`.
+Se stai procedendo con il ripristino di un Samourai wallet già esistente, seleziona `Restore existing wallet`, poi scegli `I have a Samourai backup file`.
 Normalmente, dovresti sempre avere il tuo file di recupero negli appunti. Quindi clicca su `PASTE` per inserire il file nella posizione designata. Per decifrarlo, sarà inoltre necessario inserire la passphrase BIP39 del tuo wallet nel campo corrispondente, situato appena sotto. Per concludere, clicca su `FINISH`. 
 
 ![coinjoin](assets/notext/26.webp)
 
-Verrai quindi reindirizzato al tuo Wallet che, questa volta, sarà connesso al Dojo personale.
+Verrai quindi reindirizzato al tuo wallet che, questa volta, sarà connesso al Dojo personale.
 
 ![coinjoin](assets/notext/27.webp)
 
 ### Installazione di Whirlpool GUI
-È ora il momento di installare Whirlpool GUI, l'interfaccia grafica che ti permetterà di gestire i tuoi cicli di coinjoin dal tuo PC personale. Per gli utenti di RoninDojo, questo passaggio non è necessario poiché la gestione dei coinjoin può essere effettuata direttamente tramite l'interfaccia web in `Apps > Whirlpool`. Tuttavia, se stai utilizzando un'altra soluzione "node-in-box" per Bitcoin, è imperativo procedere con questa installazione.
+È ora il momento di installare Whirlpool GUI, l'interfaccia grafica che ti permetterà di gestire i tuoi cicli di coinjoin dal tuo PC. Per gli utenti RoninDojo, questo passaggio non è necessario poiché la gestione dei coinjoin può essere effettuata direttamente tramite l'interfaccia web in `Apps > Whirlpool`. Tuttavia, se stai utilizzando un'altra soluzione "node-in-box" per Bitcoin, è imperativo procedere con questa installazione.
 
 ![coinjoin](assets/notext/28.webp)
 
-Vai sul tuo computer personale e scarica il software Whirlpool dal sito ufficiale di Samourai Wallet, selezionando la versione che corrisponde al tuo sistema operativo.
+Vai sul tuo computer e scarica il software Whirlpool dal sito ufficiale di Samourai Wallet, selezionando la versione che corrisponde al tuo sistema operativo.
 
 ![coinjoin](assets/notext/29.webp)
 
@@ -350,51 +349,52 @@ Da Whirlpool GUI, clicca su `Advanced: Remote CLI` per connettere il tuo Whirlpo
 
 ![coinjoin](assets/notext/33.webp)
 
-Per localizzare il tuo indirizzo Tor su Umbrel e altre soluzioni "node-in-box", basta avviare l'applicazione Samourai Server o Dojo (il nome può variare a seconda del software utilizzato). L'indirizzo Tor sarà direttamente visibile sulla pagina dell'applicazione.
+Per localizzare il tuo indirizzo Tor su Umbrel e altre soluzioni "node-in-box", basta avviare l'applicazione Samourai Server o Dojo (il nome può variare a seconda del software utilizzato). L'indirizzo Tor sarà visibile direttamente nell' applicazione.
 ![coinjoin](assets/notext/34.webp)
 In Whirlpool GUI, inserisci l'indirizzo Tor che hai ottenuto in precedenza nel campo `CLI address`. Mantieni il prefisso `http://`, ma non aggiungere la porta `:8899` alla fine. Incolla solo l'indirizzo così come ti è stato fornito.
 ![coinjoin](assets/notext/35.webp)
 
 Nel campo Tor Proxy, inserisci `socks5://127.0.0.1:9050` se stai utilizzando Tor Daemon, o `socks5://127.0.0.1:9150` se si tratta di Tor Browser (in questo caso ricordati di avviare Tor Browser). Quando ti connetti per la prima volta a Whirlpool CLI tramite Whirlpool GUI, è possibile lasciare vuoto il campo della chiave API. Se questa non è la tua prima connessione, inserisci la tua chiave API nello spazio dedicato. Questa chiave può essere localizzata sulla stessa pagina del tuo indirizzo Tor.
-Una volta compilato tutto, clicca sul pulsante `Connect`. Si prega di attendere, la connessione potrebbe richiedere alcuni minuti.
+Una volta compilato tutto, clicca sul pulsante `Connect`. Potresti dover attendere qualche minuto, la connessione richiede tempo.
 
-### Associare il tuo Samourai Wallet con Whirlpool GUI
+### Associare il tuo wallet Samourai con Whirlpool GUI
 *Per gli utenti RoninDojo, potete riprendere il tutorial da qui.*
 
-Ora assoceremo il portafoglio Samourai che abbiamo configurato in precedenza con il software Whirlpool GUI, o direttamente con RoninDojo per coloro che utilizzano questo software. Che tu stia usando Whirlpool GUI o RoninDojo, ti verrà chiesto di incollare o scansionare le informazioni di associazione del tuo portafoglio Samourai.
+In questa fase collegheremo il wallet Samourai che hai configurato in precedenza con il software Whirlpool GUI o, se utilizzi RoninDojo, direttamente con l’interfaccia Whirlpool integrata.
+Che tu stia usando Whirlpool GUI o RoninDojo, ti verrà richiesto di incollare o scansionare le informazioni di associazione (pairing) del tuo wallet Samourai.
 
-Per trovare queste informazioni, vai nelle impostazioni del tuo portafoglio.
+Per trovare queste informazioni, vai nelle impostazioni del tuo wallet.
 
-Clicca su `Transazioni`, poi su `Associa a Whirlpool GUI`.
+Clicca su `Transactions`, poi su `Pair to Whirlpool GUI`.
 
-Samourai ti fornirà quindi le informazioni necessarie per stabilire la connessione. Attenzione, questi dati sono sensibili! Puoi trasferirli al tuo PC copiandoli direttamente o scansionando il codice QR visualizzato, utilizzando la webcam del tuo computer dopo aver cliccato sull'icona del codice QR.
+Samourai ti fornirà quindi le informazioni necessarie per stabilire la connessione. Attenzione, questi dati sono sensibili! Puoi trasferirli al tuo PC copiandoli direttamente o scansionando il QR code visualizzato, utilizzando la webcam del tuo computer dopo aver cliccato sull'icona QR.
 
-Dopo aver eseguito questa operazione, in Whirlpool GUI, seleziona `Inizializza GUI`. Si prega di attendere, poiché questo passaggio potrebbe richiedere un momento.
+Dopo aver eseguito questa operazione, in Whirlpool GUI, seleziona `Initialize GUI`. Si prega di attendere, poiché questo passaggio potrebbe richiedere qualche minuto.
 
 Che tu stia usando Whirlpool GUI o RoninDojo, ti verrà chiesto di inserire la passphrase del tuo portafoglio Samourai. Inseriscila nel campo dedicato, poi premi il pulsante `Login` per continuare.
 
 Arriverai quindi alla homepage di Whirlpool CLI
 
-### Avviare coinjoin da Whirlpool GUI
+### Effettuare coinjoin da Whirlpool GUI
 *Per gli utenti RoninDojo, il processo da seguire è identico. L'interfaccia dell'app Whirlpool integrata in RoninDojo offre le stesse opzioni e funzionalità del software Whirlpool GUI su desktop. Pertanto, puoi seguire queste istruzioni allo stesso modo.*
-Ora che tutto è configurato, sei pronto per iniziare a mixare i tuoi bitcoin. Per fare ciò, trasferisci i bitcoin che desideri mixare nel conto **Deposito** del tuo Samourai Wallet. Questa operazione può essere effettuata direttamente tramite l'app Samourai Wallet o su Whirlpool GUI. Dalla pagina principale, clicca sul pulsante `+ Deposito` situato in alto a sinistra.
+Ora che tutto è configurato, sei pronto per iniziare a mixare i tuoi bitcoin. Per fare ciò, trasferisci i bitcoin che desideri mixare nel conto **Deposito** del tuo Samourai Wallet. Questa operazione può essere effettuata direttamente tramite l'app Samourai Wallet o su Whirlpool GUI. Dalla pagina principale, clicca sul pulsante `+ Deposit` situato in alto a sinistra.
 
-Whirlpool GUI genererà un indirizzo di ricezione. Mostrerà anche l'importo minimo necessario per partecipare a ciascuna pool di coinjoin. Questo importo varia a seconda del mercato delle commissioni. È consigliabile depositare un importo leggermente superiore al minimo richiesto, poiché se le commissioni di mining non diminuiscono, il tuo UTXO potrebbe non essere accettato nella pool desiderata. Pertanto, invia i tuoi bitcoin all'indirizzo fornito. Per ottenere un nuovo indirizzo, basta cliccare sul pulsante `Rinnova indirizzo`.
+Whirlpool GUI genererà un indirizzo di ricezione. Mostrerà anche l'importo minimo necessario per partecipare a ciascuna pool di coinjoin. Questo importo varia a seconda delle commissioni. È consigliabile depositare un importo leggermente superiore al minimo richiesto, poiché se le commissioni di mining non diminuiscono, il tuo UTXO potrebbe non essere accettato nella pool desiderata. Pertanto, invia i tuoi bitcoin all'indirizzo fornito. Per ottenere un nuovo indirizzo, basta cliccare sul pulsante `Renew address`.
 
 Una volta confermato il deposito, potrai vederlo apparire nel conto **Deposito** su Whirlpool GUI.
-Per avviare i cicli di coinjoin, seleziona gli UTXO che desideri mixare e premi il pulsante `Premix`. Fai attenzione: se selezioni diversi UTXO contemporaneamente, verranno combinati durante la transazione di preparazione `TX0`. Questa fusione può portare a una diminuzione della privacy, specialmente se gli UTXO provengono da fonti diverse, a causa dell'Euristica di Proprietà Comune dell'Input (CIOH).
+Per avviare i cicli di coinjoin, seleziona gli UTXO che desideri mixare e premi il pulsante `Premix`. Fai attenzione: se selezioni diversi UTXO contemporaneamente, verranno uniti durante la transazione di preparazione `Tx0`. Questa fusione può portare a una diminuzione della privacy, specialmente se gli UTXO provengono da fonti diverse, a causa dell'Euristica di Proprietà Comune dell'Input (CIOH).
 ![coinjoin](assets/notext/48.webp)
 
-Si apre la pagina di configurazione di Whirlpool. Puoi scegliere la pool in cui desideri entrare. Seleziona anche le commissioni di mining dedicate al `TX0` e ai primi coinjoin. In fondo a questa pagina, un riassunto ti presenterà l'importo del resto tossico così come l'importo e il numero di UTXO che verranno equalizzati ed inclusi nei cicli di coinjoin. Se sei soddisfatto di questa configurazione, premi il pulsante `Premix` per avviare i cicli di coinjoin.
+Si aprirà la pagina di configurazione Whirlpool. Puoi scegliere la pool in cui desideri entrare. Seleziona anche le commissioni di mining dedicate al `Tx0` e ai primi coinjoin. In fondo a questa pagina, un riepilogo ti mostrerà l'importo del resto tossico così come l'importo e il numero di UTXO che verranno equalizzati ed inclusi nei cicli di coinjoin. Se sei soddisfatto di questa configurazione, premi il pulsante `Premix` per avviare i cicli di coinjoin.
 ![coinjoin](assets/notext/49.webp)
 
-Una volta creato il `TX0`, potrai vedere i tuoi UTXO equalizzati nell'account **Premix**, in attesa di conferma. Per permettere ai tuoi coin di essere remixati automaticamente 24 ore su 24, 7 giorni su 7, ti consiglio di attivare l'opzione `Automatically mix premix & postmix`. Troverai questa funzionalità nella scheda `Configuration`, situata a sinistra della tua finestra GUI di Whirlpool.
+Una volta creato il `Tx0`, potrai vedere i tuoi UTXO equalizzati nell'account **Premix**, in attesa di conferma. Per permettere ai tuoi UTXO di essere remixati automaticamente 24 ore su 24, 7 giorni su 7, ti consiglio di attivare l'opzione `Automatically mix premix & postmix`. Troverai questa funzionalità nella scheda `Configuration`, situata a sinistra della tua finestra GUI di Whirlpool.
 ![coinjoin](assets/notext/50.webp)
-Dopo aver avviato i coinjoin, puoi uscire da Whirlpool GUI così come da Samourai Wallet. Solo il tuo nodo deve rimanere connesso per poter partecipare ai coinjoin continui. Tuttavia, è consigliabile controllare periodicamente il progresso dei tuoi cicli di coinjoin. Se noti che i tuoi UTXO non vengono più selezionati per un coinjoin da un po' di tempo, ciò potrebbe indicare un bug. In questo caso, vai su Whirlpool CLI e seleziona `Start` per riavviare la tua disponibilità per i coinjoin.
+Dopo aver avviato i coinjoin, puoi uscire da Whirlpool GUI così come da Samourai Wallet. Solo il tuo nodo deve rimanere connesso per poter partecipare ai coinjoin continuamente. Tuttavia, è consigliabile controllare periodicamente il progresso dei tuoi cicli di coinjoin. Se noti che i tuoi UTXO non vengono selezionati per un coinjoin da un po' di tempo, potrebbe essersi verificato un bug. In questo caso, vai su Whirlpool CLI e seleziona `Start` per riaggiornare la tua disponibilità per i coinjoin.
 
 ![coinjoin](assets/notext/51.webp)
 
-I tuoi UTXO mixati sono visibili dall'account **Postmix** su Whirlpool GUI. Inoltre, hai l'opzione di visualizzarli e spenderli direttamente tramite l'interfaccia Whirlpool sul tuo Samourai Wallet. Per accedere a questo menu, clicca sul `+` blu in fondo al tuo schermo, poi seleziona `Whirlpool`.
+I tuoi UTXO mixati sono visibili nell' account **Postmix** su Whirlpool GUI. Inoltre, hai l'opzione di visualizzarli e spenderli direttamente tramite l'interfaccia Whirlpool sul tuo Samourai Wallet. Per accedere a questo menu, clicca sul `+` blu in fondo al tuo schermo, poi seleziona `Whirlpool`.
 
 ![coinjoin](assets/notext/52.webp)
 
@@ -402,7 +402,7 @@ Gli account Whirlpool sono facilmente identificabili su Samourai Wallet dal loro
 
 ![coinjoin](assets/notext/53.webp)
 
-Per tenere traccia dei tuoi coinjoin automatici, ti consiglio anche di configurare un portafoglio solo visualizzazione tramite l'app Sentinel. Aggiungi lo ZPUB del tuo account **Postmix** e monitora il progresso dei tuoi cicli di coinjoin in tempo reale. Se vuoi capire come usare Sentinel, ti consiglio di consultare questo altro tutorial su PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+Per tenere traccia dei tuoi coinjoin automatici, ti consiglio anche di configurare un wallet solo visualizzazione tramite l'app Sentinel. Aggiungi lo ZPUB del tuo account **Postmix** e monitora il progresso dei tuoi cicli di coinjoin in tempo reale. Se vuoi capire come usare Sentinel, ti consiglio di consultare questo altro tutorial su PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 
 

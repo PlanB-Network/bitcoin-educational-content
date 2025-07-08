@@ -668,15 +668,15 @@ Hoewel deze aanpak technischer is, biedt het de meest veeleisende gebruikers de 
 
 #### Een Veerkrachtige, Grensoverschrijdende Betalingsmethode
 
-Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken Layer-2 oplossingen zoals de Lightning Network nog snellere en goedkopere Bitcoin transacties mogelijk.
+Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken laag-2 oplossingen zoals het Lightning Network nog snellere en goedkopere Bitcoin transacties mogelijk.
 
 #### Een opslagplaats van waarde
 
-Vanwege de schaarste (gemaximeerd op 21 miljoen BTC) en inherente veerkracht, wordt Bitcoin vaak gezien als een lange termijn spaarwaarborg. Hoewel de prijs op korte termijn volatiel kan zijn, heeft Bitcoin over het algemeen een opwaartse trend gevolgd over de jaren sinds de oprichting. Sommige investeerders kopen BTC in de overtuiging dat het als waardeopslag kan dienen, vooral in het geval van inflatie of financiële crises.
+Vanwege de schaarste (maximaal 21 miljoen BTC) en inherente veerkracht, wordt Bitcoin vaak gezien als waarborg voor sparen op de lange termijn. Hoewel de prijs op korte termijn volatiel kan zijn heeft Bitcoin over de jaren heen over het algemeen een opwaartse trend gevolgd sinds de oprichting. Sommige investeerders kopen BTC in de overtuiging dat het als waardeopslagmiddel kan dienen, vooral in het geval van inflatie of financiële crises.
 
 #### Een hulpmiddel voor financiële vrijheid en veerkracht
 
-Naast investeringen biedt Bitcoin een manier om financiële soevereiniteit te beschermen. In landen onder autoritaire regimes of met zware monetaire beperkingen, biedt het hebben van een Bitcoin Wallet (met privésleutels) een vorm van vrijheid. Niemand kan deze BTC blokkeren of in beslag nemen, zolang de houder zijn recovery phrase veilig stelt.
+Naast investeringen biedt Bitcoin een manier om financiële soevereiniteit te beschermen. In landen onder autoritaire regimes of met zware monetaire beperkingen, biedt het hebben van een Bitcoin wallet (met privésleutels) een vorm van vrijheid. Niemand kan deze BTC blokkeren of in beslag nemen, zolang de houder zijn recovery phrase veilig stelt.
 
 Dit kenmerk is vooral aantrekkelijk voor mensen die bang zijn voor censuur of het bevriezen van bankrekeningen. Het slaat ook aan bij bevolkingsgroepen die lijden onder hyperinflatie, zoals te zien was in Venezuela of Zimbabwe, waar het aanhouden van BTC stabieler bleek dan het aanhouden van de lokale valuta, die snel in waarde daalde.
 

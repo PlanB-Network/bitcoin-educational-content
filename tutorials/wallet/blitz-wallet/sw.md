@@ -1,5 +1,5 @@
 ---
-jina: Blitz Wallet
+name: Blitz Wallet
 
 
 description: Kwingineko rahisi zaidi ya Bitcoin.

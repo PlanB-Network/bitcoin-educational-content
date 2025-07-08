@@ -1,0 +1,2 @@
+description: |
+  A free, decentralized protocol for encrypted communication, designed to offer a secure alternative to centralized services. Tox operates on a peer-to-peer basis, enabling instant messaging, voice calls, videoconferencing and file transfer, while guaranteeing the confidentiality of exchanges thanks to end-to-end encryption based on libsodium. Born in 2013 in the wake of the Edward Snowden revelations, Tox aims to offer simple, privacy-friendly communication via a modular architecture and cross-platform clients.

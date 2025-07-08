@@ -1,13 +1,18 @@
 id: e7d3f82c-5bfe-11f0-9bb0-531eb72e1bc7
-
 name: Bitsacco
 
 address_line_1: Nairobi, Kenya
 address_line_2:
 address_line_3: 
 
-language:
-  - en
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-07-05
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.16
 
 links:
   website: https://bitsacco.com/

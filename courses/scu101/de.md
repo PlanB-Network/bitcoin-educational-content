@@ -151,132 +151,132 @@ In der Europäischen Union wird der Datenschutz durch die Datenschutz-Grundveror
 
 Um Online-Betrug zu vermeiden, ist es entscheidend, die Identität der besuchten Website zu überprüfen, insbesondere die Erweiterung und den Domainnamen. Sei auch wachsam gegenüber Betrügern, die ähnliche Buchstaben in URLs verwenden, um Benutzer zu täuschen.
 ![](assets/de/10.webp)
-Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für Unternehmen als auch für private Benutzer erheblich verbessern. Darüber hinaus kann das Einhalten guter Browsing-Gewohnheiten zu einer besseren digitalen Hygiene beitragen. Im nächsten Abschnitt dieses Kurses werden wir die Computersicherheit behandeln, einschließlich Updates, Antivirus-Software und Passwortverwaltung.
+Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für Unternehmen als auch für private Benutzer erheblich verbessern. Darüber hinaus kann das Einhalten guter Browsing-Gewohnheiten zu einer besseren digitalen Hygiene beitragen. Im nächsten Abschnitt dieses Kurses werden wir die Computersicherheit behandeln, einschließlich Updates, Antivirensoftware und Passwortverwaltung.
 
-# Gute Computerpraktiken
+# Best practices für den Umgang mit Computern
 
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
-## Computerbenutzung
+## Umgang mit Computern
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
-Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digitalen Welt. Heute werden wir drei Schlüsselpunkte behandeln:
+Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digitalen Welt. Heute werden wir drei Schlüsselpunktthemen behandeln:
 
-- Die Wahl des Computers
-- Updates und Antivirus für optimale Sicherheit
-- Gute Praktiken für die Sicherheit von Computer und Daten.
+- Die Auswahl des Computers
+- Updates und Antivirensoftware für optimale Sicherheit
+- Best practices für die Sicherheit deines Computers und deiner Daten.
 
-### Die Wahl des Computers und des Betriebssystems
+### Die Auswahl des Computers und des Betriebssystems
 
-In Bezug auf die Wahl des Computers gibt es keine signifikanten Sicherheitsunterschiede zwischen alten und neuen Computern. Es gibt jedoch Sicherheitsunterschiede zwischen den Betriebssystemen: Windows, Linux und Mac.
+In Bezug auf die Auswahl des Computers gibt es keine signifikanten Sicherheitsunterschiede zwischen alten und neuen Computern. Es gibt jedoch Sicherheitsunterschiede zwischen den Betriebssystemen: Windows, Linux und Mac.
 ![](assets/notext/11.webp)
-'Concerning Windows, es wird empfohlen, nicht täglich ein Administrator-Konto zu verwenden, sondern zwei separate Konten zu erstellen: ein Administrator-Konto und ein Konto für den täglichen Gebrauch. Windows ist aufgrund seiner großen Anzahl von Benutzern und der einfachen Möglichkeit, vom Benutzer zum Administrator zu wechseln, oft anfälliger für schädliche Software. Auf der anderen Seite sind die Bedrohungen unter Linux und Mac weniger verbreitet.
+Bezüglich Windows wird empfohlen, nicht täglich ein Administrator-Konto zu verwenden, sondern zwei separate Konten zu erstellen: ein Administrator-Konto und ein Konto für den täglichen Gebrauch. Windows ist aufgrund seiner großen Anzahl von Benutzern und der einfachen Möglichkeit, vom Benutzer zum Administrator zu wechseln, oft anfälliger für schädliche Software. Auf der anderen Seite sind Bedrohungen unter Linux und Mac weniger häufig.
 
-Die Wahl des Betriebssystems sollte entsprechend Ihren Bedürfnissen und Vorlieben getroffen werden. Linux-Systeme haben sich in den letzten Jahren erheblich weiterentwickelt und sind immer benutzerfreundlicher geworden. Ubuntu ist eine interessante Alternative für Anfänger mit einer benutzerfreundlichen grafischen Benutzeroberfläche. Es ist möglich, einen Computer zu partitionieren, um mit Linux zu experimentieren und gleichzeitig Windows beizubehalten, aber dies kann komplex sein. Es ist oft ratsam, einen dedizierten Computer, eine virtuelle Maschine oder einen USB-Stick zu haben, um Linux oder Ubuntu zu testen.
+Die Wahl des Betriebssystems sollte entsprechend deiner Bedürfnisse und Vorlieben getroffen werden. Linux-Systeme haben sich in den letzten Jahren erheblich weiterentwickelt und sind immer benutzerfreundlicher geworden. Ubuntu ist eine interessante Alternative für Anfänger mit einer benutzerfreundlichen grafischen Bedienoberfläche. Es ist möglich, einen Computer zu partitionieren, um mit Linux zu experimentieren und gleichzeitig Windows beizubehalten. Aber dies kann komplex sein. Es ist oft ratsamer, einen dedizierten Computer, eine virtuelle Maschine oder einen USB-Stick zu verwenden, um Linux oder Ubuntu zu testen.
 ![](assets/notext/12.webp)
 
 ### Software-Updates
 
-Was Updates betrifft, gilt die einfache Regel: **Regelmäßige Updates des Betriebssystems und der Anwendungen sind von entscheidender Bedeutung.**
+Was Updates betrifft, gilt die einfache Regel: **Regelmäßige Updates des Betriebssystems und der Anwendungsprogramme sind von grundlegender Bedeutung.**
 
-Bei Windows 10 gibt es praktisch ständige Updates, die nicht blockiert oder verzögert werden sollten. Jedes Jahr werden etwa 15.000 Schwachstellen identifiziert, was die Bedeutung von aktualisierter Software zum Schutz vor Viren unterstreicht. Im Allgemeinen endet der Software-Support 3 bis 5 Jahre nach der Veröffentlichung, daher ist es notwendig, auf die nächste Version zu wechseln, um weiterhin Sicherheit zu gewährleisten.
+Bei Windows 10 gibt es praktisch ständige Updates, die nicht blockiert oder verzögert werden sollten. Jedes Jahr werden etwa 15.000 Schwachstellen identifiziert, was die Bedeutung von Software-Updates zum Schutz vor Viren unterstreicht. Im Allgemeinen endet der Support für eine Software 3 bis 5 Jahre nach der Veröffentlichung, daher ist es notwendig, auf die nächste Version zu wechseln, um weiterhin Sicherheits-Updates zu erhalten.
 
-Diese Regel gilt für nahezu alle Software. Updates sollen Ihre Maschine nicht veralten oder verlangsamen, sondern sie vor neuen Bedrohungen schützen. Einige Updates gelten sogar als wesentlich, und ohne sie ist Ihr Computer ernsthaften Sicherheitsrisiken ausgesetzt.
+Diese Regel gilt für nahezu alle Software. Updates sollen deine Maschine nicht veralten oder verlangsamen, sondern sie vor neuen Bedrohungen schützen. Einige Updates gelten sogar als wesentlich, und ohne sie ist dein Computer ernsthaften Sicherheitsrisiken ausgesetzt.
 
-Um Ihnen ein konkretes Beispiel für einen Fehler zu geben: Eine geknackte Software, die nicht aktualisiert werden kann, stellt eine doppelte potenzielle Bedrohung dar. Das Eindringen des Virus beim illegalen Herunterladen von einer verdächtigen Website und die unsichere Verwendung gegenüber neuen Angriffsformen.
+Um dir ein konkretes Beispiel für einen Fehler zu geben: Eine geknackte Software, die nicht aktualisiert werden kann, stellt eine doppelte potenzielle Bedrohung dar. Erstsens das Eindringen des Virus beim illegalen Herunterladen von einer verdächtigen Website und zweitens die unsichere Verwendung gegenüber neuen Angriffsformen.
 
-### Antivirus
+### Antivirensoftware
 
-- Brauchen Sie ein Antivirus? JA
-- Müssen Sie dafür bezahlen? Es kommt darauf an!
+- Brauchst du eine Antivirensoftware? JA
+- Musst du dafür bezahlen? Es kommt darauf an!
 
-Die Auswahl und Implementierung eines Antivirus-Programms ist wichtig. Windows Defender, der in Windows integrierte Virenschutz, ist eine sichere und effektive Lösung. Für eine kostenlose Lösung ist er außergewöhnlich gut und besser als viele kostenlose Lösungen, die online verfügbar sind. Es ist wichtig, vorsichtig mit Antivirenprogrammen zu sein, die aus dem Internet heruntergeladen werden, da sie schädlich oder veraltet sein können.'
-Für diejenigen, die in eine kostenpflichtige Antivirensoftware investieren möchten, wird empfohlen, eine Antivirensoftware zu wählen, die unbekannte und aufkommende Bedrohungen intelligent analysiert, wie zum Beispiel Kaspersky. Antiviren-Updates sind entscheidend, um sich vor neuen Bedrohungen zu schützen.
+Die Auswahl und Nutzung einer Antivirus-Software ist wichtig. Windows Defender, der in Windows integrierte Virenschutz, ist eine sichere und effektive Lösung. Für eine kostenlose Lösung ist er außergewöhnlich gut und besser als viele kostenlose Lösungen, die online verfügbar sind. Es ist wichtig, vorsichtig mit Antivirenprogrammen zu sein, die aus dem Internet heruntergeladen werden, da sie schädlich oder veraltet sein können.
+Für diejenigen, die in eine kostenpflichtige Antivirensoftware investieren möchten, wird empfohlen, eine Antivirensoftware zu wählen, die unbekannte und aufkommende Bedrohungen intelligent analysiert, wie zum Beispiel Kaspersky. Antivirensoftware-Updates sind entscheidend, um sich vor neuen Bedrohungen zu schützen.
 ![](assets/notext/13.webp)
 Hinweis: Linux und Mac benötigen aufgrund ihres Benutzerrechtesystems oft keine Antivirensoftware.
 
-Abschließend sind hier einige bewährte Sicherheitspraktiken für Ihren Computer und Ihre Daten. Es ist wichtig, eine effektive und benutzerfreundliche Antivirensoftware zu wählen. Es ist auch entscheidend, gute Praktiken auf Ihrem Computer zu befolgen, wie das Nicht-Einfügen unbekannter USB-Sticks oder das Auffinden an verdächtigen Orten. Diese USB-Sticks können schädliche Programme enthalten, die sich automatisch beim Einstecken starten können. Die Überprüfung des USB-Sticks ist nutzlos, sobald er eingesteckt wurde. Einige Unternehmen wurden Opfer von Hacks aufgrund von nachlässig liegengelassenen USB-Sticks an zugänglichen Orten wie einem Parkplatz.
+Abschließend sind hier einige bewährte Sicherheitspraktiken für deinen Computer und deine Daten. Es ist wichtig, eine effektive und benutzerfreundliche Antivirensoftware zu wählen. Es ist auch entscheidend, gute Praktiken auf deinem Computer zu befolgen, wie z.B. unbekannte oder verdächtige USB-Sticks nicht anzuschließen. Diese USB-Sticks können schädliche Programme enthalten, die sich automatisch beim Einstecken starten können. Die nachträgliche Überprüfung des USB-Sticks ist nutzlos, sobald er eingesteckt wurde. Einige Unternehmen wurden Opfer von Hacks aufgrund von nachlässig liegengelassenen USB-Sticks an zugänglichen Orten wie einem Parkplatz.
 
-Behandeln Sie Ihren Computer so, wie Sie es mit Ihrem Zuhause tun würden: bleiben Sie wachsam, führen Sie regelmäßige Updates durch, löschen Sie unnötige Dateien und verwenden Sie ein starkes Passwort für die Sicherheit. Es ist entscheidend, Daten auf Laptops und Smartphones zu verschlüsseln, um Diebstahl oder Datenverlust zu verhindern. BitLocker für Windows, LUKS für Linux und die integrierte Option für Mac sind Lösungen für die Datenverschlüsselung. Es wird empfohlen, die Datenverschlüsselung bedenkenlos zu aktivieren und das Passwort auf einem sicher aufzubewahrenden Papier zu notieren.
+Behandele deinen Computer so, wie du es mit deinem Zuhause tun würdest: bleibe wachsam, führe regelmäßige Updates durch, lösche unnötige Dateien und verwende zur Sicherheit ein starkes Passwort. Es ist entscheidend, Daten auf Laptops und Smartphones zu verschlüsseln, um Diebstahl oder Datenverlust zu verhindern. BitLocker für Windows, LUKS für Linux und die integrierte Option für Mac sind Lösungen für die Datenverschlüsselung. Es wird empfohlen, die Datenverschlüsselung bedenkenlos zu aktivieren und das Passwort auf einem sicher aufzubewahrenden Papier zu notieren.
 
-Zusammenfassend ist es entscheidend, ein Betriebssystem zu wählen, das Ihren Bedürfnissen entspricht, und es regelmäßig sowie die darauf installierten Anwendungen zu aktualisieren. Es ist auch wichtig, eine effektive und benutzerfreundliche Antivirensoftware zu verwenden und bewährte Sicherheitspraktiken für Ihren Computer und Ihre Daten zu befolgen.
+Zusammenfassend ist es entscheidend, ein Betriebssystem zu wählen, das deinen Bedürfnissen entspricht, und es, sowie die darauf installierten Anwendungen, regelmäßig zu aktualisieren. Es ist auch wichtig, eine effektive und benutzerfreundliche Antivirensoftware zu verwenden und bewährte Sicherheitspraktiken für deinen Computer und deine Daten zu befolgen.
 
-## Hack & Backup-Management: Schutz Ihrer Daten
+## Hacker Angriffe & Backup-Management: Schutz deiner Daten
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Wie greifen Hacker an?
 
-Um sich gut zu schützen, ist es entscheidend zu verstehen, wie Hacker versuchen, Ihren Computer zu infiltrieren. Viren kommen nicht oft aus dem Nichts, sondern sind eher die Folge unserer Handlungen, auch wenn sie unbeabsichtigt sind!
+Um sich gut zu schützen, ist es entscheidend zu verstehen, wie Hacker versuchen, deinen Computer zu infiltrieren. Viren kommen meist nicht aus dem Nichts, sondern sind eher die Folge unserer Handlungen, auch wenn sie unbeabsichtigt sind!
 
-Im Allgemeinen gelangen Viren auf Ihren Computer, weil Sie sie eingeladen haben. Dies kann durch das Herunterladen einer verdächtigen Software, einer kompromittierten Torrent-Datei oder einfach durch das Klicken auf den Link einer betrügerischen E-Mail geschehen!
+Im Allgemeinen gelangen Viren auf deinen Computer, weil du es deinem Computer erlaubt hast, sie einzulassen. Dies kann durch das Herunterladen einer verdächtigen Software, einer kompromittierten Torrent-Datei oder einfach durch das Klicken auf den Link einer betrügerischen E-Mail geschehen!
 
 ### Phishing, Vorsicht vor betrügerischen E-Mails:
 
 Achtung! E-Mails sind der erste Angriffsvektor. Hier sind einige Tipps:
 
-- Bleiben Sie wachsam gegenüber Phishing-Versuchen, bei denen sensible Informationen wie Ihre Anmeldeinformationen und Passwörter abgefragt werden. Klicken Sie nicht auf verdächtige Links und teilen Sie Ihre persönlichen Informationen nicht, ohne die Legitimität des Absenders zu überprüfen.
-- Seien Sie vorsichtig mit Anhängen und Bildern in E-Mails:
-  Anhänge und Bilder in E-Mails können schädliche Software enthalten. Laden Sie keine Anhänge von unbekannten oder verdächtigen Absendern herunter und öffnen Sie sie nicht, und stellen Sie sicher, dass Ihr Antivirusprogramm auf dem neuesten Stand ist.
+- Bleibe wachsam gegenüber Phishing-Versuchen, die darauf abzielen sensible Informationen wie deine Anmeldeinformationen und Passwörter abzufragen. Klicke nicht auf verdächtige Links und teile deine persönlichen Informationen nicht, ohne die Legitimität des Absenders zu überprüfen.
+- Sei vorsichtig mit Anhängen und Bildern in E-Mails:
+  Anhänge und Bilder in E-Mails können schädliche Software enthalten. Lade keine Anhänge von unbekannten oder verdächtigen Absendern herunter und öffne sie nicht, und stelle sicher, dass dein Antivirenprogramm auf dem neuesten Stand ist.
 
-Die goldene Regel hier ist, den vollständigen Namen des Absenders und die Herkunft der E-Mail sorgfältig zu überprüfen. Im Zweifelsfall löschen Sie sie!
+Die goldene Regel hier ist, den vollständigen Namen des Absenders und die Herkunft der E-Mail sorgfältig zu überprüfen. Im Zweifelsfall: lösche sie!
 
 ### Ransomware und Arten von Cyberangriffen:
 
-Ransomware ist eine Art von schädlicher Software, die die Daten des Benutzers verschlüsselt und eine Lösegeldzahlung zur Entschlüsselung verlangt. Diese Art von Angriff wird immer häufiger und kann für ein Unternehmen oder eine Einzelperson sehr ärgerlich werden. Um sich zu schützen, ist es unerlässlich, Backups der sensibelsten Dateien zu erstellen! Dies wird die Ransomware nicht stoppen, ermöglicht es Ihnen jedoch, sie einfach zu ignorieren.
+Ransomware ist eine Art von Schadsoftware, welche die Daten des Benutzers verschlüsselt und eine Lösegeldzahlung zur Entschlüsselung verlangt. Diese Art von Angriff wird immer häufiger und kann sowohl für Unternehmen als auch Privatpersonen sehr ärgerlich werden. Um sich zu schützen, ist es unerlässlich, Backups der sensibelsten Dateien zu erstellen! Dies wird die Ransomware nicht stoppen, ermöglicht es dir jedoch, sie einfach zu ignorieren.
 ![](assets/notext/14.webp)
-Sichern Sie regelmäßig Ihre wichtigen Daten auf einem externen Speichermedium oder einem sicheren Online-Speicherdienst. Auf diese Weise können Sie im Falle eines Cyberangriffs oder eines Hardwareausfalls Ihre Daten wiederherstellen, ohne wichtige Informationen zu verlieren.
+Sichere regelmäßig deine wichtigen Daten auf einem externen Speichermedium oder einem sicheren Online-Speicherdienst. Auf diese Weise kannst du im Falle eines Cyberangriffs oder eines Hardwareausfalls deine Daten wiederherstellen, ohne wichtige Informationen zu verlieren.
 
 Einfache Lösung:
 
-- Kauf einer externen Festplatte und Kopieren Ihrer Daten darauf. Ziehen Sie das Gerät ab und bewahren Sie es an einem sicheren Ort im Haus auf. (Wenn Sie dies zweimal tun und eine der Festplatten an einem anderen Ort aufbewahren, sind Sie gegen potenzielle Brände geschützt.)
+- Kaufe eine externe Festplatte und kopiere deine Daten darauf. Ziehe das Gerät ab und bewahreves an einem sicheren Ort im Haus auf. (Wenn du dies zweimal tust und eine der Festplatten an einem anderen Ort aufbewahrst, bist du auch gegen potenzielle Brände geschützt.)
 
-- Erstellen Sie ein "Cloud"-Backup über ProtonMail Drive, Sync oder sogar Google Drive. Laden Sie einfach Ihre sensiblen Daten in diesen Online-Hoster hoch. Beachten Sie jedoch, dass Ihre Daten potenziell im Internet sind und von einem vertrauenswürdigen Dritten verwaltet werden.
+- Erstelle ein "Cloud"-Backup über ProtonMail Drive, Sync oder Google Drive. Lade einfach deine sensiblen Daten in diesem Online-Dienst hoch. Beachte jedoch, dass deine Daten potenziell im Internet sind und von einer Drittpartei verwaltet werden.
 
-### Sollten Hacker bezahlt werden?
+### Solltest du die Hacker bezahlen?
 
-NEIN, es wird im Allgemeinen nicht empfohlen, Hacker bei Ransomware oder anderen Arten von Angriffen zu bezahlen. Das Bezahlen des Lösegelds garantiert nicht die Wiederherstellung Ihrer Daten und kann die Cyberkriminellen dazu ermutigen, ihre bösartigen Aktivitäten fortzusetzen. Setzen Sie stattdessen auf Prävention und regelmäßige Sicherung Ihrer Daten, um sich zu schützen.
+NEIN, es wird im Allgemeinen nicht empfohlen, Hacker bei Ransomware oder anderen Arten von Angriffen zu bezahlen. Das Bezahlen des Lösegelds garantiert nicht die Wiederherstellung deiner Daten und kann die Cyberkriminellen dazu ermutigen, ihre bösartigen Aktivitäten fortzusetzen. Setze stattdessen auf Prävention und regelmäßige Sicherung deiner Daten, um dich zu schützen.
 
-Wenn Sie einen Virus auf Ihrem Computer entdecken, trennen Sie ihn vom Internet, führen Sie eine vollständige Antiviren-Analyse durch und entfernen Sie infizierte Dateien. Aktualisieren Sie dann Ihre Software und Ihr Betriebssystem und ändern Sie Ihre Passwörter, um weitere Eindringlinge zu vermeiden.
+Wenn du einen Virus auf deinem Computer entdeckest, trenne ihn vom Internet, führe eine vollständige Antiviren-Analyse durch und entferne infizierte Dateien. Aktualisiere dann deine Software und dein Betriebssystem und ändere deine Passwörter, um weiteres Eindringen zu vermeiden.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-# Implementierung von Lösungen.
+# Umsetzung von Lösungen.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
-## Das Management von E-Mail-Postfächern
+## E-Mail-Management
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
-Wir beginnen nun Abschnitt 2 des Kurses. In diesem Abschnitt werden wir drei wichtige Themen behandeln, um die Sicherheit des Online-Zugriffs zu gewährleisten: das Management von E-Mails, die Verwendung eines Passwort-Managers und die Zwei-Faktor-Authentifizierung (2FA).
+Wir beginnen nun Abschnitt 2 des Kurses. In diesem Abschnitt werden wir drei wichtige Themen behandeln, um die Sicherheit des Online-Zugangs zu gewährleisten: das Management von E-Mails, die Verwendung eines Passwort-Managers und die Zwei-Faktor-Authentifizierung (2FA).
 
 ### Einrichtung eines neuen E-Mail-Kontos!
 
-Das E-Mail-Konto ist der zentrale Punkt Ihrer Online-Aktivitäten: Wenn es kompromittiert wird, kann ein Hacker es verwenden, um über die "Passwort vergessen" Funktion alle Ihre Passwörter wiederherzustellen und somit Zugriff auf viele andere Websites zu erhalten. Deshalb sollten Sie es gut absichern.
+Das E-Mail-Konto ist der zentrale Punkt deiner Online-Aktivitäten: Wenn es kompromittiert wird, kann ein Hacker es verwenden, um über die "Passwort vergessen" Funktion alle deine Passwörter wiederherzustellen und somit Zugriff auf viele andere Websites zu erhalten. Deshalb solltest du es gut absichern.
 
 Ein E-Mail-Konto sollte daher mit einem einzigartigen und starken Passwort erstellt werden (Details in Kapitel 7) und idealerweise mit einem Zwei-Faktor-Authentifizierungssystem (Details in Kapitel 8).
 
-Obwohl wir alle bereits ein E-Mail-Konto haben, ist es wichtig, die Erstellung eines neuen, moderneren Kontos in Betracht zu ziehen, um auf einem guten Fundament zu starten.
+Obwohl wir alle bereits ein E-Mail-Konto haben, ist es wichtig, die Erstellung eines neuen, moderneren Kontos in Betracht zu ziehen, um neu zu starten.
 
 ### Auswahl des E-Mail-Anbieters und Verwaltung der E-Mail-Adressen
 
-Die angemessene Verwaltung unserer E-Mail-Adressen ist entscheidend für die Sicherheit unseres Online-Zugriffs. Es ist wichtig, einen sicheren und datenschutzfreundlichen E-Mail-Anbieter zu wählen. Zum Beispiel ist ProtonMail ein sicherer und datenschutzfreundlicher E-Mail-Dienst.
+Die angemessene Verwaltung unserer E-Mail-Adressen ist entscheidend für die Sicherheit unseres Online-Zugangs. Es ist wichtig, einen sicheren und datenschutzfreundlichen E-Mail-Anbieter zu wählen. ProtonMail zum Beispiel ist ein sicherer und datenschutzfreundlicher E-Mail-Anbieter.
 ![](assets/notext/15.webp)
 Bei der Auswahl eines E-Mail-Anbieters und der Erstellung eines Passworts ist es unerlässlich, niemals dasselbe Passwort für verschiedene Online-Dienste zu verwenden. Es wird empfohlen, regelmäßig neue E-Mail-Adressen zu erstellen und die Verwendungszwecke durch Verwendung verschiedener E-Mail-Adressen zu trennen. Für kritische Konten ist es ratsam, einen sicheren E-Mail-Dienst zu wählen. Es ist auch zu beachten, dass einige Dienste die Passwortlänge begrenzen, daher ist es wichtig, auf diese Begrenzung zu achten. Es gibt auch Dienste zur Erstellung temporärer E-Mail-Adressen, die für zeitlich begrenzte Konten verwendet werden können.
 
-Es ist wichtig zu bedenken, dass alte E-Mail-Anbieter wie La Poste, Arobase, Wig, Hotmail immer noch verwendet werden, aber ihre Sicherheitspraktiken möglicherweise nicht so gut sind wie die von Gmail. Daher wird empfohlen, zwei separate E-Mail-Adressen zu haben, eine für allgemeine Kommunikation und eine andere für die Kontowiederherstellung, wobei letztere besser abgesichert sein sollte. Es ist ratsam, die E-Mail-Adresse nicht mit dem Mobilfunkanbieter oder Internetdienstanbieter zu verknüpfen, da dies ein Angriffsvektor darstellen kann.
+Es ist wichtig zu bedenken, dass alte E-Mail-Anbieter wie La Poste, Arobase, Wig, Hotmail immer noch verwendet werden, aber ihre Sicherheitspraktiken möglicherweise nicht so gut sind wie die von Gmail. Daher wird empfohlen, zwei separate E-Mail-Adressen zu haben, eine für allgemeine Kommunikation und eine andere für die Kontowiederherstellung, wobei letztere besser abgesichert sein sollte. Es ist ratsam, die E-Mail-Adresse nicht mit dem Mobilfunkanbieter oder Internetdienstanbieter zu verknüpfen, da dies einen Angriffsvektor darstellen kann.
 
 ### Sollte ich mein E-Mail-Konto wechseln?
 
 Es wird empfohlen, die Website "Have I Been Pwned" (Wurde ich gehackt) - https://haveibeenpwned.com/ - zu verwenden, um zu überprüfen, ob unsere E-Mail-Adresse kompromittiert wurde und um über zukünftige Datenlecks informiert zu werden. Eine gehackte Datenbank kann von Hackern genutzt werden, um Phishing-E-Mails zu versenden oder kompromittierte Passwörter erneut zu verwenden.
 ![](assets/notext/16.webp)
-Im Allgemeinen ist es eine gute Praxis und sogar notwendig, eine neue, sicherere E-Mail-Adresse zu verwenden, wenn man einen Neuanfang machen möchte.
+Im Allgemeinen ist es keine schlechte Idee und, wenn man einen Neuanfang machen möchte, sogar notwendig, eine neue, sicherere E-Mail-Adresse zu verwenden.
 
-Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für unsere Bitcoin-Aktivitäten (Erstellung von Börsenkonten) zu erstellen, um die Aktivitäten in unserem Leben wirklich zu trennen.
+Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für deine Bitcoin-Aktivitäten (Erstellung von Börsenkonten) zu erstellen, um diese Aktivitäten wirklich zu trennen.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
@@ -286,24 +286,24 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 ### Was ist ein Passwort-Manager?
 
-Ein Passwort-Manager ist ein Tool, mit dem Sie Ihre Passwörter für verschiedene Online-Konten speichern, generieren und verwalten können. Anstatt sich an mehrere Passwörter erinnern zu müssen, benötigen Sie nur ein Masterpasswort, um auf alle anderen zuzugreifen.
+Ein Passwort-Manager ist ein Werkzeug, mit dem du deine Passwörter für verschiedene Online-Konten speichern, generieren und verwalten kannst. Anstatt dich an mehrere Passwörter erinnern zu müssen, benötigst du nur ein Masterpasswort, um auf alle anderen zuzugreifen.
 
-Mit einem Passwort-Manager müssen Sie sich keine Sorgen mehr machen, Ihre Passwörter zu vergessen oder irgendwo aufzuschreiben. Sie müssen sich nur an ein einziges Masterpasswort erinnern. Darüber hinaus generieren die meisten dieser Tools starke Passwörter für Sie, was die Sicherheit Ihrer Konten erhöht.
+Mit einem Passwort-Manager musst du dir keine Sorgen mehr machen, deine Passwörter zu vergessen oder irgendwo aufzuschreiben. Du musst dich nur an ein einziges Masterpasswort erinnern. Darüber hinaus generieren die meisten dieser Tools starke Passwörter für dich, was die Sicherheit deiner Konten erhöht.
 
 ### Unterschiede zwischen einigen beliebten Managern:
 
-- LastPass: Einer der beliebtesten Passwort-Manager. Es handelt sich um einen Drittanbieterdienst, was bedeutet, dass Ihre Passwörter auf ihren Servern gespeichert werden. Es bietet eine kostenlose und eine kostenpflichtige Version mit einer benutzerfreundlichen Oberfläche.
+- LastPass: Einer der beliebtesten Passwort-Manager. Es handelt sich um einen Drittanbieterdienst, was bedeutet, dass deine Passwörter auf ihren Servern gespeichert werden. Er bietet eine kostenlose und eine kostenpflichtige Version an, jeweils mit einer benutzerfreundlichen Oberfläche.
 
-- Dashlane: Auch dies ist ein Drittanbieterdienst mit einer intuitiven Benutzeroberfläche und zusätzlichen Funktionen wie der Verfolgung von Kreditkarteninformationen und sicheren Notizen.
+- Dashlane: Auch dies ist ein Drittanbieterdienst mit einer intuitiven Benutzeroberfläche und zusätzlichen Funktionen wie dem Vervollständigen von Kreditkarteninformationen und sicheren Notizen.
   ![](assets/notext/17.webp)
 
-### Selbsthosting für mehr Kontrolle:
+### Self-hosting für mehr Kontrolle:
 
-- Bitwarden: Dies ist ein Open-Source-Tool, das bedeutet, dass Sie den Code überprüfen können, um seine Sicherheit zu überprüfen. Obwohl Bitwarden einen gehosteten Dienst anbietet, ermöglicht es Benutzern auch, selbst zu hosten, was bedeutet, dass Sie kontrollieren können, wo Ihre Passwörter gespeichert werden, was potenziell mehr Sicherheit und Kontrolle bietet.
+- Bitwarden: Dies ist ein Open-Source-Tool. Das bedeutet, dass du den Code überprüfen kannst, um seine Sicherheit zu überprüfen. Obwohl Bitwarden einen gehosteten Dienst anbietet, ermöglicht es Benutzern auch, selbst zu hosten, was bedeutet, dass du entscheiden kannst, wo deine Passwörter gespeichert werden, was potenziell mehr Sicherheit und Kontrolle bietet.
 
-- KeePass: Dies ist eine Open-Source-Lösung, die hauptsächlich für das Selbsthosting gedacht ist. Ihre Daten werden standardmäßig lokal gespeichert, aber Sie können die Passwortdatenbank mit verschiedenen Methoden synchronisieren, wenn Sie möchten. KeePass ist weithin anerkannt für seine Sicherheit und Flexibilität, obwohl es für Anfänger etwas weniger benutzerfreundlich sein kann.
+- KeePass: Dies ist eine Open-Source-Lösung, die hauptsächlich für das Self-hosting gedacht ist. Deine Daten werden standardmäßig lokal gespeichert, aber du kannst die Passwortdatenbank mit verschiedenen Methoden synchronisieren, wenn du möchtest. KeePass ist weithin anerkannt für seine Sicherheit und Flexibilität, obwohl es für Anfänger etwas weniger benutzerfreundlich sein kann.
   ![](assets/notext/18.webp)
-  (Hinweis: Die Wahl zwischen einem Drittanbieterdienst und einem selbst gehosteten Dienst hängt von Ihrem technischen Komfortniveau und davon ab, wie Sie Kontrolle im Vergleich zur Bequemlichkeit priorisieren. Drittanbieterdienste sind in der Regel bequemer für die meisten Menschen, während das Selbsthosting mehr technisches Wissen erfordert, aber mehr Kontrolle und Sicherheit bieten kann.)
+  (Hinweis: Die Wahl zwischen einem Drittanbieterdienst und einem selbst gehosteten Dienst hängt von dem Grad deines technischen KnowHows ab und davon, wie du Kontrolle gegenüber Bequemlichkeit priorisierst. Drittanbieterdienste sind in der Regel bequemer für die meisten Menschen, während das Self-hosting mehr technisches Wissen erfordert, aber mehr Kontrolle und Sicherheit bieten kann.)
 
 ### Was macht ein gutes Passwort aus?
 
@@ -311,20 +311,20 @@ Ein gutes Passwort ist in der Regel:
 
 - Lang: mindestens 12 Zeichen.
 - Komplex: eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen.
-- Einzigartig: Verwenden Sie nicht dasselbe Passwort für verschiedene Konten.
-- Nicht auf persönlichen Informationen basierend: Vermeiden Sie Geburtsdaten, Namen usw.
+- Einzigartig: Verwende nicht dasselbe Passwort für verschiedene Konten.
+- Nicht auf persönlichen Informationen basierend: Vermeide Geburtsdaten, Namen usw.
 
-Um die Sicherheit Ihres Kontos zu gewährleisten, ist es entscheidend, starke und sichere Passwörter zu erstellen. Die Länge des Passworts allein reicht nicht aus, um seine Sicherheit zu gewährleisten. Die Zeichen müssen vollständig zufällig sein, um Brute-Force-Angriffen standzuhalten. Die Unabhängigkeit der Ereignisse ist ebenfalls wichtig, um die wahrscheinlichsten Kombinationen zu vermeiden. Häufig verwendete Passwörter wie "password" sind leicht zu kompromittieren.
+Um die Sicherheit deines Kontos zu gewährleisten, ist es entscheidend, starke und sichere Passwörter zu erstellen. Die Länge des Passworts allein reicht nicht aus, um seine Sicherheit zu gewährleisten. Die Zeichen müssen vollständig zufällig sein, um Brute-Force-Angriffen standzuhalten. Die Unabhängigkeit der Zeichen ist ebenfalls wichtig, um die wahrscheinlichsten Kombinationen zu vermeiden. Häufig verwendete Passwörter wie "password" sind leicht zu erraten.
 
-Um ein starkes Passwort zu erstellen, wird empfohlen, eine große Anzahl zufälliger Zeichen zu verwenden, ohne vorhersehbare Wörter oder Muster zu verwenden. Es ist auch wichtig, Zahlen und Sonderzeichen einzuschließen. Beachten Sie jedoch, dass einige Websites die Verwendung bestimmter Sonderzeichen einschränken können. Passwörter, die nicht zufällig generiert werden, sind leicht zu erraten. Varianten oder Ergänzungen zu Passwörtern sind nicht sicher. Websites können die Sicherheit von Passwörtern, die von Benutzern ausgewählt wurden, nicht garantieren.
+Um ein starkes Passwort zu erstellen, wird empfohlen, eine große Anzahl zufälliger Zeichen zu erstellen, ohne vorhersehbare Wörter oder Muster zu verwenden. Es ist auch wichtig, Zahlen und Sonderzeichen einzuschließen. Beachte jedoch, dass einige Websites die Verwendung bestimmter Sonderzeichen einschränken können. Passwörter, die nicht zufällig generiert werden, sind leicht zu erraten. Varianten oder Ergänzungen zu Passwörtern sind nicht sicher. Websites können die Sicherheit von Passwörtern, die von Benutzern ausgewählt wurden, nicht garantieren.
 
-Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können jedoch schwieriger zu merken sein. Passwort-Manager können sicherere zufällig generierte Passwörter erstellen. Durch die Verwendung eines Passwort-Managers müssen Sie sich nicht alle Ihre Passwörter merken. Es ist wichtig, Ihre alten Passwörter nach und nach durch die vom Manager generierten Passwörter zu ersetzen, da sie stärker und länger sind. Stellen Sie sicher, dass das Masterpasswort Ihres Passwort-Managers ebenfalls stark und sicher ist.
+Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können jedoch schwieriger zu merken sein. Passwort-Manager können sicherere zufällig generierte Passwörter erstellen. Durch die Verwendung eines Passwort-Managers musst du dir nicht alle deine Passwörter merken. Es ist wichtig, deine alten Passwörter nach und nach durch die vom Manager generierten Passwörter zu ersetzen, da sie stärker und länger sind. Stelle sicher, dass das Masterpasswort deines Passwort-Managers ebenfalls stark und sicher ist.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Die 2-Faktor-Authentifizierung
+## Zwei-Faktor-Authentifizierung
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
@@ -336,9 +336,9 @@ Dieser zweite Schritt kann sein:
 
 - Ein temporärer Code, der per SMS gesendet wird.
 - Ein von einer Anwendung wie Google Authenticator oder Authy generierter Code.
-- Ein physischer Sicherheitsschlüssel, den Sie in Ihren Computer einstecken.
+- Ein physischer Sicherheitsschlüssel, den du in deinen Computer einsteckst.
   ![](assets/notext/19.webp)
-  Mit 2FA kann ein Hacker selbst dann nicht auf Ihr Konto zugreifen, wenn er Ihr Passwort hat, ohne diesen zweiten Verifizierungsfaktor. Dies macht 2FA unerlässlich, um Ihre Online-Konten vor unbefugtem Zugriff zu schützen.
+  Mit 2FA kann ein Hacker selbst dann nicht auf dein Konto zugreifen, wenn er dein Passwort hat, solange er diesen zweiten Verifizierungsfaktor nicht hat. Dies macht 2FA unerlässlich, um deine Online-Konten vor unbefugtem Zugriff zu schützen.
 
 ### Welche Option wählen?
 
@@ -348,22 +348,22 @@ Die verschiedenen Optionen für starke Authentifizierung bieten unterschiedliche
 - 2FA (Zwei-Faktor-Authentifizierung) ist sicherer, da sie mehrere Arten von Nachweisen verwendet, wie Wissen, Besitz und Identifikation. Einmalpasswörter (HOTP und TOTP) sind sicherer als SMS, da sie eine kryptografische Berechnung erfordern und lokal gespeichert werden, anstatt im Speicher.
 - Hardware-Token wie USB-Sticks oder Smartcards bieten optimale Sicherheit, indem sie für jede Website einen eindeutigen privaten Schlüssel generieren und die URL vor der Autorisierung überprüfen.
 
-Für maximale Sicherheit bei starker Authentifizierung wird empfohlen, eine sichere E-Mail-Adresse, einen sicheren Passwort-Manager und die Verwendung von 2FA mit YubiKey zu verwenden. Es wird auch empfohlen, zwei YubiKeys zu kaufen, um Verlust oder Diebstahl vorzubeugen, z. B. eine Sicherungskopie zu Hause und eine bei sich zu behalten.
+Für maximale Sicherheit mit starker Authentifizierung wird empfohlen, eine sichere E-Mail-Adresse, einen sicheren Passwort-Manager und die Verwendung von 2FA mit YubiKey zu verwenden. Es wird auch empfohlen, zwei YubiKeys zu kaufen, um Verlust oder Diebstahl vorzubeugen. Z.B. einen zum Mitführen und einen als Sicherungskopie zu Hause.
 
-Biometrie kann als Ersatz verwendet werden, ist jedoch weniger sicher als die Kombination von Wissen und Besitz. Biometrische Daten sollten auf dem Authentifizierungsgerät bleiben und nicht online veröffentlicht werden. Es ist wichtig, die Bedrohungsmodelle der verschiedenen Authentifizierungsmethoden zu berücksichtigen und entsprechend anzupassen.
+Biometrie kann als Ersatz verwendet werden, ist jedoch weniger sicher als die Kombination von Wissen und Besitz. Biometrische Daten sollten auf dem Authentifizierungsgerät bleiben und nicht online gestellt werden. Es ist wichtig, die Bedrohungsmodelle der verschiedenen Authentifizierungsmethoden zu berücksichtigen und seine Vorgehensweise entsprechend anzupassen.
 
 ### Fazit des Trainings:
 
-Sie haben verstanden, dass die Umsetzung einer guten digitalen Hygiene zwar nicht einfach ist, aber dennoch erreichbar bleibt!
+Du hast verstanden, dass die Umsetzung einer guten digitalen Hygiene zwar nicht einfach ist, aber dennoch erreichbar bleibt!
 
-- Erstellen Sie eine neue sichere E-Mail-Adresse.
-- Verwenden Sie einen Passwort-Manager.
-- Aktivieren Sie 2FA.
-- Ersetzen Sie nach und nach Ihre alten Passwörter durch starke Passwörter mit 2FA.
+- Erstellen einer neue sicheren E-Mail-Adresse.
+- Verwenden eines Passwort-Manager.
+- Aktivieren von 2FA.
+- Schrittweises Ersetzen unserer alten Passwörter durch starke Passwörter mit 2FA.
 
-Machen Sie weiterhin Fortschritte und setzen Sie nach und nach die richtigen Praktiken um!
+Höre nie auf zu lernen und setze nach und nach die best practices um!
 
-Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich an Ihren Lernfortschritt anpasst!
+Goldene Regel: IT-Sicherheit ist ein sich ständig bewegendes Ziel, das sich an deinen Lernfortschritt anpasst!
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 

@@ -139,7 +139,7 @@ Ifuatayo, nenda kwa linuxmint.com
 ![image](assets/5.webp)
 
 
-Elea kipanya juu ya menyu ya Upakuaji iliyo juu kisha ubofye kiungo, "Linux Mint 20.3" au toleo lolote ambalo linapendekezwa hivi karibuni zaidi wakati unapofanya hivi.
+Elekeza kipanya juu ya menyu ya Upakuaji iliyo juu kisha ubofye kiungo, "Linux Mint 20.3" au toleo lolote ambalo linapendekezwa hivi karibuni zaidi wakati unapofanya hivi.
 
 
 ![image](assets/6.webp)
@@ -189,17 +189,17 @@ Mfano "BiOS key Dell laptops".
 Kila kompyuta itakuwa na menyu tofauti ya BIOS. Chunguza na utafute ni menyu gani hukuruhusu kusanidi mpangilio wa kuwasha. Kwa madhumuni yetu, tunataka kompyuta ijaribu boot kutoka kwa kifaa kilichounganishwa cha USB (ikiwa kuna moja iliyounganishwa), kabla ya kujaribu boot kutoka kwenye gari la ndani la Hard (vinginevyo Windows itapakia). Baada ya kuweka hiyo, huenda ukahitaji kuhifadhi kabla ya kuondoka au inaweza kuhifadhi kiotomatiki.
 
 
-Anzisha tena kompyuta na inapaswa kupakia kutoka kwa kifaa cha kumbukumbu cha USB. Hatuwezi kusakinisha Linux kwenye kiendeshi cha ndani na Windows itaondolewa kabisa.
+Anzisha tena kompyuta na inapaswa kupakia kutoka kwa kifaa cha kumbukumbu cha USB. Tutasakinisha Linux kwenye diski kuu ya ndani na Windows itaondolewa kabisa.
 
 
-Ukifika kwenye skrini ifuatayo, chagua "OEM install (kwa watengenezaji)". Ikiwa badala ya kuchagua "Anzisha Mint ya Linux", utapata kipindi cha Linux Mint kilichopakiwa kutoka kwenye kifaa cha kumbukumbu, lakini mara tu unapozima kompyuta, hakuna taarifa yako iliyohifadhiwa - kimsingi ni kipindi cha muda ili uweze kujaribu.
+Ukifika kwenye skrini ifuatayo, chagua "OEM install (kwa watengenezaji)". Ikiwa badala ya kuchagua "Anzisha Linux Mint", utapata kipindi cha Linux Mint kilichopakiwa kutoka kwenye kifaa cha kumbukumbu, lakini mara tu unapozima kompyuta, hakuna taarifa yako iliyohifadhiwa — kimsingi ni kipindi cha muda ili uweze kujaribu.
+
 
 
 ![image](assets/10.webp)
 
 
-Utachukuliwa kupitia mchawi wa picha ambayo itakuuliza maswali kadhaa ambayo yanapaswa kuwa moja kwa moja. Moja itakuwa mipangilio ya Languange, nyingine itakuwa muunganisho wako wa mtandao wa mtandao wa nyumbani na nenosiri. Ukiombwa kusakinisha programu ya ziada, ikatae. Unapopata swali kuhusu aina ya ufungaji, watu wengine wanaweza kusita - unahitaji kuchagua "Futa diski na usakinishe Linux Mint". Pia, usimbe kiendeshi kwa njia fiche na usichague LVM.
-
+Utachukuliwa kupitia mwongozo wa picha utakao kuuliza maswali kadhaa ambayo yanapaswa kuwa rahisi. Moja litakuwa mipangilio ya lugha, jingine litakuwa muunganisho wa mtandao wa nyumbani pamoja na nenosiri. Ukiombwa kusakinisha programu ya ziada, ikatae. Ukifika kwenye swali kuhusu aina ya usakinishaji, watu wengine huenda wakasita — unapaswa kuchagua “Futa diski na usakinishe Linux Mint”. Pia, usisimbue diski kwa njia fiche wala kuchagua LVM.
 
 Hatimaye utapata kwenye eneo-kazi. Kwa wakati huu, haujamaliza kabisa. Kwa kweli unafanya kama mtengenezaji (yaani, mtu anaunda kompyuta na kusanidi Linux kwa mteja). Unahitaji kubofya mara mbili ikoni ya eneo-kazi, "Sakinisha Mint ya Linux", ili kuikamilisha.
 

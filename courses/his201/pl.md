@@ -1120,10 +1120,10 @@ Transakcje są rozliczane za pośrednictwem poczty elektronicznej pod adresem ne
 „Zachęcające jest to, że coraz więcej osób interesuje się taką stroną jak NewLibertyStandard. Podoba mi się jego podejście do szacowania wartości w oparciu o energię elektryczną. Warto zobaczyć, jakie wyjaśnienia przyjmują ludzie. Mogą one pomóc odkryć uproszczony sposób rozumienia [Bitcoina], który uczyni go bardziej dostępnym dla mas. Wiele złożonych koncepcji na świecie ma uproszczone wyjaśnienie, które zadowala 80% ludzi, i pełne wyjaśnienie, które zadowala pozostałe 20%, które widzi wady uproszczonego wyjaśnienia.”
 
 
-Po ogłoszeniu NLS, Martti Malmi skontaktował się z nim. Obaj zgodzili się dokonać wymiany. W nocy z 11 na 12 października 2009 r. sfinalizowano pierwszą sprzedaż bitcoinów za dolary: Martti [przelał](https://twitter.com/marttimalmi/status/423455561703624704) 5 050 wydobytych przez siebie bitcoinów do NLS, który następnie przelał 5,02 dolara na jego konto PayPal. Odpowiada to cenie jednostkowej około 0,001 USD.
+Po tym, jak NLS zamieścił swoje ogłoszenie, Martti Malmi skontaktował się z nim. Obaj zgodzili się dokonać wymiany. W nocy z 11 na 12 października 2009 r. sfinalizowano pierwszą sprzedaż bitcoinów za dolary: Martti [przelał](https://twitter.com/marttimalmi/status/423455561703624704) 5 050 wydobytych przez siebie bitcoinów do NLS, który następnie przelał 5,02 dolara na jego konto PayPal. Odpowiada to cenie jednostkowej około 0,001 USD.
 
 
-W kolejnych tygodniach NLS zgromadził więcej bitcoinów, aby móc swiadczyc swoje usługi wymiany. 19 listopada ktoś [kupił](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756) około 22 500 bitcoinów, które posiadał, zamykając pierwszą sprzedaż Bitcoina. Kilka godzin później Satoshi był zachwycony tą operacją finansową w [e-mailu](https://mmalmi.github.io/Satoshi/#email-99) napisanym do Marttiego Malmi.
+W kolejnych tygodniach NLS zgromadził więcej bitcoinów, aby móc świadczyć swoje usługi wymiany. 19 listopada ktoś [kupił](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756) około 22 500 bitcoinów, które posiadał, zamykając pierwszą sprzedaż bitcoinów. Kilka godzin później Satoshi był zachwycony tą operacją finansową w [e-mailu](https://mmalmi.github.io/Satoshi/#email-99) napisanym do Marttiego Malmi.
 
 
 W kolejnych miesiącach usługa NLS stała się centralnym elementem rozwoju gospodarczego Bitcoina, oferując punkt odniesienia dla wymiany między bitcoinem a dolarem. Jednak w pierwszej połowie 2010 r. usługa ta zaczęła konkurować z innymi, bardziej wydajnymi.
@@ -1134,9 +1134,9 @@ W kolejnych miesiącach usługa NLS stała się centralnym elementem rozwoju gos
 Początek 2010 roku to pierwsze kroki komercyjnych giełd kryptowalut. NewLibertyStandard, który jako pierwszy zaakceptował otrzymanie bitcoina w zamian za inne dobro ekonomiczne (w tym przypadku dolary), jest również pierwszym promotorem tego boomu gospodarczego. 19 stycznia 2010 r., tuż po zarejestrowaniu się na nowym forum, [napisał](https://bitcointalk.org/index.php?topic=15.msg111#msg111) następujący tekst:
 
 
-> „Ludzie kupowali ode mnie bitcoiny i sprzedawali mi bitcoiny. Podaż i popyt, nawet jeśli są niskie, już istnieją i to wszystko, czego naprawdę potrzeba. Proponowanie ymiany bitcoinów za inną walutę ostatecznie nie różni się od wymiany bitcoinów na towary lub usługi. Waluty są towarami, a ich wymiana jest usługą. Próbowałem wymyślić coś, co można kupić lub sprzedać za bitcoiny, poza dolarami amerykańskimi, ale niczego nie znalazłem. Nie krępuj się informować nas o tym, co zdecydujesz się sprzedać za bitcoiny. Jeśli chodzi o kwestię wyczerpywania się środków, zaplanowałem w moim budżecie codzienną darowiznę. Możesz kupić wszystkie moje dolary lub bitcoiny dzisiaj, ale zawsze będzie ich więcej jutro i pojutrze. Każdy, kto kupuje lub sprzedaje towary za pomocą bitcoinów, w tym giełdy, rozwija gospodarkę Bitcoina. Niech każdy zrobi to, co do niego należy. Kup lub sprzedaj coś w zamian za bitcoiny!”
+> „Ludzie kupowali ode mnie bitcoiny i sprzedawali mi bitcoiny. Podaż i popyt, nawet jeśli są niskie, już istnieją i to wszystko, czego naprawdę potrzeba. Proponowanie wymiany bitcoinów za inną walutę ostatecznie nie różni się od wymiany bitcoinów na towary lub usługi. Waluty są towarami, a ich wymiana jest usługą. Próbowałem wymyślić coś, co można kupić lub sprzedać za bitcoiny, poza dolarami amerykańskimi, ale niczego nie znalazłem. Nie krępuj się informować nas o tym, co zdecydujesz się sprzedać za bitcoiny. Jeśli chodzi o kwestię wyczerpywania się środków, zaplanowałem w moim budżecie codzienną darowiznę. Możesz kupić wszystkie moje dolary lub bitcoiny dzisiaj, ale zawsze będzie ich więcej jutro i pojutrze. Każdy, kto kupuje lub sprzedaje towary za pomocą bitcoinów, w tym giełdy, rozwija gospodarkę Bitcoina. Niech każdy zrobi to, co do niego należy. Kup lub sprzedaj coś w zamian za bitcoiny!”
 
-Działania koordynacyjne prowadzone są głównie na forum. 27 stycznia holenderski użytkownik o pseudonimie giik utworzył [wątek](https://bitcointalk.org/index.php?topic=30.0) zatytułowany „Akceptujemy Bitcoiny”, w którym zaproponował listę różnych usług akceptujących Bitcoina. Mniej więcej w tym czasie nowe forum zaczęło zyskiwać popularność, a wiadomości zaczęły się mnożyć. 7 lutego Satoshi [zwrócił uwagę](https://mmalmi.github.io/Satoshi/#email-153) Marttiemu Malmi, że „forum na pewno się rozkręca. &nbsp;Nie spodziewałem się tak szybkiej aktywności”.
+Działania koordynacyjne prowadzone są głównie na forum. 27 stycznia holenderski użytkownik o pseudonimie giik utworzył [wątek](https://bitcointalk.org/index.php?topic=30.0) zatytułowany „Akceptujemy Bitcoiny”, w którym zaproponował listę różnych usług akceptujących bitcoiny. Mniej więcej w tym czasie nowe forum zaczęło zyskiwać popularność, a wiadomości zaczęły się mnożyć. 7 lutego Satoshi [zwrócił uwagę](https://mmalmi.github.io/Satoshi/#email-153) Marttiemu Malmi, że „forum na pewno się rozkręca. &nbsp;Nie spodziewałem się tak szybkiej aktywności”.
 
 
 5 lutego NLS [zasugerował](https://bitcointalk.org/index.php?topic=41.msg238#msg238), aby Bitcoin, podobnie jak waluty będące przedmiotem obrotu na zagranicznym rynku wymiany, przyjęły symbol giełdowy BTC i symbol tajskiego bahta (฿). Do tego czasu nie było ustalonej praktyki: na przykład Satoshi i Martti używali liter `bc` do opisywania jednostek w swojej [korespondencji](https://mmalmi.github.io/Satoshi/#email-119). Użycie symbolu BTC szybko zostało ustandaryzowane. 24 lutego symbol waluty (wielka litera B przecięta dwoma pionowymi kreskami) został [zaprojektowany](https://bitcointalk.org/index.php?topic=64.msg504#msg504) przez Satoshiego, który następnie stworzył pierwsze prawdziwe logo Bitcoina.
@@ -1148,7 +1148,7 @@ Działania koordynacyjne prowadzone są głównie na forum. 27 stycznia holender
 Stopniowo ludzie zaczęli akceptować Bitcoina. Tak było w przypadku użytkownika SmokeTooMuch w grudniu 2009 r., który właśnie dołączył do grupy i [ogłosił istnienie](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) usługi sprzedaży kart podarunkowych paysafecard o nazwie BTC 2 PSC. Usługa ta została później [wspomniana](https://mmalmi.github.io/Satoshi/#email-141) w pozytywnym świetle przez Satoshiego w dniu 4 lutego 2010 roku. Podobnie było w przypadku NLS, który 9 lutego [otworzył](https://bitcointalk.org/index.php?topic=30.msg305#msg305) swój własny sklep internetowy, Liberty Swap Variety Shop, w którym oferował na sprzedaż znaczki i naklejki.
 
 
-Wymiana z dolarem również się rozwinęłą i w ciągu dwóch miesięcy nie mniej niż trzy platformy otworzyły swoje drzwi:
+Wymiana z dolarem również się rozwinęła i w ciągu dwóch miesięcy nie mniej niż trzy platformy otworzyły swoje drzwi:
 
 
 
@@ -1177,9 +1177,9 @@ Pojawia się również pierwsza dedykowana usługa powiernicza Bitcoina: jest to
 W tym czasie lekkie portfele (znane jako "SPV") nie istniały, więc sam Satoshi Nakamoto uznał za dopuszczalne korzystanie z tego typu oprogramowania, mimo że takie użycie było sprzeczne z zasadą niekorzystania z pośredników w sercu Bitcoina. W dniu 18 maja 2010 r. [napisał](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forum:
 
 
-> „W międzyczasie strony takie jak [vekja.net](http://vekja.net) i [www.mybitcoin.com](http://www.mybitcoin.com) eksperymentowały z systemami opartymi na kontach. &nbsp;Tworzysz konto na stronie internetowej, przechowujesz tam swoje bitcoiny i przelewasz je do i z konta. &nbsp;Utworzenie konta na stronie internetowej jest o wiele łatwiejsze niż instalacja oprogramowania i nauka korzystania z niego, a dla większości ludzi jest to bardziej znana metoda. Jedyną wadą jest to, że musisz zaufać stronie, ale jest to w porządku w przypadku niewielkich kwot przeznaczonych na mikropłatności i różne wydatki. Jest to łatwy sposób na rozpoczęcie, a jeśli otrzymane kwoty staną się bardziej znaczące, możesz przejść na rzeczywiste oprogramowanie Bitcoin”.
+> „W międzyczasie strony takie jak [vekja.net](http://vekja.net) i [www.mybitcoin.com](http://www.mybitcoin.com) eksperymentowały z systemami opartymi na kontach. &nbsp;Tworzysz konto na stronie internetowej, przechowujesz tam swoje bitcoiny i przelewasz je do i z konta. &nbsp;Utworzenie konta na stronie internetowej jest o wiele łatwiejsze niż instalacja oprogramowania i nauka korzystania z niego, a dla większości ludzi jest to bardziej znana metoda. Jedyną wadą jest to, że musisz zaufać stronie trzeciej, ale jest to w porządku w przypadku niewielkich kwot przeznaczonych na mikropłatności i różne wydatki. Jest to łatwy sposób na rozpoczęcie, a jeśli otrzymane kwoty staną się większe, możesz przejść na rzeczywiste oprogramowanie Bitcoin”.
 
-Wreszcie, 19 maja, użytkownik o pseudonimie Teppy zaczął [akceptować](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) bitcoina w administrowanej przez siebie grze Massively Multiplayer, *A Tale in the Desert*.
+Wreszcie, 19 maja, użytkownik o pseudonimie Teppy zaczął [akceptować](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) Bitcoina w administrowanej przez siebie grze Massively Multiplayer, *A Tale in the Desert*.
 
 
 ### Pochodzenie wartości bitcoina
@@ -1198,11 +1198,11 @@ Jednak to pytanie nigdy nie przeszkadzało Satoshiemu, który postrzegał ustano
 > \- nudny szary kolor
 > \- nie jest dobrym przewodnikiem elektryczności
 > \- Nie jest szczególnie wytrzymały, ale nie jest też ciągliwy ani łatwo kowalny
-> \- jest nieprzydatny do żadnych praktycznych lub ozdobnych celów
+> \- jest nieprzydatny do żadnych celów praktycznych lub ozdobnych
 >
 
 > za to ma jedną specjalną, magiczną właściwość:
-> \- może być transportowane przez kanały komunikacyjne
+> \- może być transportowany przez kanały komunikacyjne
 >
 
 > Jeśli z jakiegoś powodu metal ten zyskałby jakąkolwiek wartość, to każdy, kto chciałby przenieść bogactwo na dużą odległość, mógłby go kupić, przesłać i sprzedać odbiorcy.
@@ -1222,7 +1222,7 @@ Jednak to pytanie nigdy nie przeszkadzało Satoshiemu, który postrzegał ustano
 W poprzedniej części zbadaliśmy, jak powstał Bitcoin, jak został przedstawiony opinii publicznej i jak został zainicjowany ekonomicznie. Wiosną 2010 r., gdy handel bitcoinami dopiero zaczynał rozkwitać, celem Satoshiego Nakamoto i kilku wspierających go osób było utrzymanie płomienia przy życiu. Na szczęście do wysiłków dołączyły inne osoby, w szczególności kopiący bloki Laszlo Hanyecz i deweloper Gavin Andresen, którzy wyróżnili się swoimi działaniami.
 
 
-W tym rozdziale przyjrzymy się pierwszemu wdrożeniu wydobywania procesorem graficznym (GPU), fortunie zgromadzonej przez Satoshiego Nakamoto, pierwszemu zakupowi fizycznego towaru za bitcoiny, ustanowieniu Bitcoin Faucet rozdającego darmowe jednostki oraz ewolucji oprogramowania i sieci przed Slashdotem.
+W tym rozdziale przyjrzymy się pierwszemu wdrożeniu wydobywania procesorem graficznym (GPU), fortunie zgromadzonej przez Satoshiego Nakamoto, pierwszemu zakupowi fizycznego towaru za bitcoiny, ustanowieniu Bitcoin Faucet rozdającego darmowe jednostki oraz ewolucji oprogramowania i sieci przed dołączeniem do forum Slashdot.
 
 
 ### Wydobycie za pomocą procesora graficznego GPU
@@ -1239,7 +1239,7 @@ Satoshi Nakamoto był bardzo zaniepokojony tym wzrostem trudności i prowadził 
 
 Pomimo entuzjazmu związanego ze wzrostem mocy obliczeniowej w sieci, Satoshi chciał jednak spowolnić specjalizację wydobycia, aby sprzyjać dystrybucji jednostek. Do tego czasu górnicy wykorzystywali swoje jednostki centralne (CPU) do wydobywania nowych bitcoinów. Procesory te okazały się jednak nieefektywne w wykonywaniu powtarzalnych operacji, w porównaniu do procesorów graficznych (GPU), które są znacznie lepiej przystosowane do tego typu powtarzalnych obliczeń. W związku z tym wszyscy w tamtym czasie, również Satoshi, wiedzieli, że ewolucja ta była nieunikniona. W dniu 19 grudnia 2009 r. [stwierdził](https://bitcointalk.org/index.php?topic=12.msg54#msg54), co następuje:
 
-„Powinniśmy zawrzeć dżentelmeńską umowę o odłożeniu wyścigu zbrojeń GPU tak długo, jak to możliwe dla dobra sieci. Znacznie łatwiej jest przygotować nowych użytkowników, jeśli nie muszą się martwić o sterowniki GPU i kompatybilność. Fajnie, że każdy, kto ma tylko procesor, może teraz konkurować na równych zasadach.”
+„Powinniśmy zawrzeć dżentelmeńską umowę o odłożeniu wyścigu zbrojeń GPU dla dobra sieci na tak długo, jak to możliwe. Znacznie łatwiej jest przygotować nowych użytkowników, jeśli nie muszą się martwić o sterowniki GPU i kompatybilność. Fajnie, że każdy, kto ma tylko procesor, może teraz konkurować na równych zasadach.”
 
 
 Jednak kilka miesięcy później puszka Pandory została otwarta. Wichrzycielem jest Laszlo Hanyecz, 28-letni amerykański deweloper węgierskiego pochodzenia, mieszkający na Florydzie. Odkrył Bitcoina w kwietniu 2010 roku. Dziewiątego dnia [nabył](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3300 bitcoinów od NLS za około 20 dolarów, a następnie przetestował system, wykonując kilka przelewów. Osiemnastego dnia próbował przeciążyć sieć, mnożąc transakcje ze swojego [adresu publicznego](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), ale się nie udało.
@@ -1252,7 +1252,7 @@ Laszlo Hanyecz z synem w maju 2018 r. (źródło: [The Telegraph](https://www.te
 
 Następnie [dostosował](https://bitcointalk.org/index.php?topic=116.msg972#msg972) kod oprogramowania, aby działał w systemie operacyjnym Mac OS X. Potem pracował nad optymalizacją wydobycia przy użyciu środowiska OpenCL, które pozwala na [wykorzystanie GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) do generowania bitcoinów. 10 maja opublikował swój [plik wykonywalny](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) i [zaoferował](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) napisanie poprawek umożliwiających włączenie się innym górnikom. Ta optymalizacja szybko pozwoliła mu zająć znaczące miejsce w produkcji bloków.
 
-Pod koniec kwietnia Laszlo skontaktował się z Satoshim z prośbą o opinię, ale ten odpowiedział dopiero 17 maja. Twórca Bitcoina [poprosił](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) go o spowolnienie swoich działań, aby wydobycie pozostało dostępny dla jak największej liczby osób:
+Pod koniec kwietnia Laszlo skontaktował się z Satoshim z prośbą o opinię, ale ten odpowiedział dopiero 17 maja. Twórca Bitcoina [poprosił](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) go o spowolnienie swoich działań, aby wydobycie pozostało dostępne dla jak największej liczby osób:
 
 > „Dużą atrakcją dla nowych użytkowników jest to, że każdy, kto ma komputer, może zdobyć darmowe monety. Kiedy będzie 5000 użytkowników, ta zachęta może zniknąć, ale na razie nadal jest prawdziwa. Układy GPU przedwcześnie ograniczyłyby tę zachętę tylko do osób posiadających wysokiej klasy sprzęt GPU. To nieuniknione, że klastry obliczeniowe GPU w końcu pochłoną wszystkie wygenerowane monety, ale nie chcę przyspieszać tego dnia. (...) Nie chcę zabrzmieć jak socjalista, nie obchodzi mnie, czy bogactwo jest skoncentrowane, ale na razie większy wzrost uzyskamy, dając te pieniądze 100% ludzi, niż dając je 20%. Co więcej, im dłużej możemy opóźniać wyścig zbrojeń GPU, tym bardziej dojrzałe stają się biblioteki OpenCL i tym więcej osób będzie miało karty graficzne kompatybilne z OpenCL.”
 
@@ -1283,7 +1283,7 @@ Wraz ze wzrostem mocy obliczeniowej jesienią 2009 roku, udział mocy obliczenio
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
 
 
-Co więcej, spadek dominacji Satoshiego w ogólnym wydobyciu nie jest jedynie pasywny: on sam spowalnia swoją produkcję w tym samym okresie. Rzeczywiście, deklarowanym celem Satoshiego jest uczestnictwo wszystkich: nie wydobywa on dla zysku finansowego, ale w celu zapewnienia działania sieci do czasu wprowadzenia zachęt. W związku z tym Hash trzykrotnie zmniejszył swój wskaźnik wydobycia (liczbę obliczeń wykonywanych w każdej sekundzie) w tym okresie: po raz pierwszy z 4,5 do 2,5 MH/s w czerwcu 2009 r., po raz drugi z 2,5 do 1 MH/s w październiku i po raz trzeci z 1 do 0 MH/s w maju 2010 r. Oto wykres ewolucji prędkości haszowania w tym okresie ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
+Co więcej, spadek dominacji Satoshiego w ogólnym wydobyciu nie jest jedynie pasywny: on sam spowalnia swoją produkcję w tym samym okresie. Rzeczywiście, deklarowanym celem Satoshiego jest uczestnictwo wszystkich: nie wydobywa on dla zysku finansowego, ale w celu zapewnienia działania sieci do czasu wprowadzenia zachęt. W związku z tym hash trzykrotnie zmniejszył swój wskaźnik wydobycia (liczbę obliczeń wykonywanych w każdej sekundzie) w tym okresie: po raz pierwszy z 4,5 do 2,5 MH/s w czerwcu 2009 r., po raz drugi z 2,5 do 1 MH/s w październiku i po raz trzeci z 1 do 0 MH/s w maju 2010 r. Oto wykres ewolucji prędkości haszowania w tym okresie ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
@@ -1298,7 +1298,7 @@ Satoshi w wydobywaniu jest zatem zdecydowanie altruistyczny, jak wskazuje [James
 Maj 2010 r. to także przełomowe wydarzenie: pierwszy zakup fizycznego towaru za bitcoiny. Laszlo Hanyecz robi pierwszy krok. Po zgromadzeniu ponad 20 000 bitcoinów za pomocą swojego algorytmu, stara się ponownie wprowadzić je do gospodarki poprzez zakup pizzy. 18 maja pisze na forum następujące [ogłoszenie](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141):
 
 
-> „Zapłacę 10 000 bitcoinów za kilka pizz... może dwie duże, żeby zostało mi trochę na następny dzień. Lubię mieć resztki pizzy na później. Możesz sam zrobić pizzę i przynieść ją do mojego domu lub zamówić ją dla mnie z miejsca dostawy, ale to, do czego dążę, to dostarczanie jedzenia w zamian za bitcoiny, gdzie nie muszę go zamawiać ani przygotowywać samodzielnie, coś w rodzaju zamawiania „talerza śniadaniowego” w hotelu lub czymś podobnym, po prostu przynoszą ci coś do jedzenia i jesteś szczęśliwy! (...) Jeśli jesteś zainteresowany, daj mi znać, a możemy zawrzeć umowę.”
+> „Zapłacę 10 000 bitcoinów za kilka pizz... może dwie duże, żeby zostało mi trochę na następny dzień. Lubię mieć resztki pizzy na później. Możesz sam zrobić pizzę i przynieść ją do mojego domu lub zamówić ją dla mnie z miejsca dostawy, ale to, do czego dążę, to dostarczanie jedzenia w zamian za bitcoiny, gdzie nie muszę go zamawiać ani przygotowywać samodzielnie, coś w rodzaju zamawiania „talerza śniadaniowego” w hotelu lub czegoś podobnego, po prostu przynoszą ci coś do jedzenia i jesteś szczęśliwy! (...) Jeśli jesteś zainteresowany, daj mi znać, a możemy zawrzeć umowę.”
 
 Oferta ta została przyjęta po czterech dniach. Był to młody Kalifornijczyk o imieniu Jeremy Sturdivant, który zaakceptował wymianę za pośrednictwem komunikatora internetowego IRC.
 
@@ -1308,7 +1308,7 @@ Oferta ta została przyjęta po czterech dniach. Był to młody Kalifornijczyk o
 Jeremy Sturdivant w maju 2018 r. (źródło: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
 
-22 maja zamówił dwie pizze w Papa John's, które zostały dostarczone do Laszlo w Jacksonville na Florydzie. [Otrzymał z zamian](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10 000 bitcoinów, wartych około 44 USD po kursie rynkowym Bitcoina. Oto zdjęcie tych dwóch pizz, [udostępnione](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) przez samego Laszlo:
+22 maja zamówił dwie pizze w Papa John's, które zostały dostarczone do Laszlo w Jacksonville na Florydzie. [Otrzymał z zamian](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10 000 bitcoinów, wartych około 44 USD po kursie rynkowym bitcoina. Oto zdjęcie tych dwóch pizz, [udostępnione](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) przez samego Laszlo:
 
 
 ![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
@@ -1322,10 +1322,10 @@ Jest to pierwszy zakup fizycznego dobra za pomocą bitcoinów, nawet jeśli jest
 
 > „To jest otwarta oferta... Wymienię 10 000 BTC na 2 takie pizze w dowolnym momencie, o ile będę miał środki.”
 
-W ten sposób przeprowadził kilka innych transakcji tego samego typu, aż do 4 sierpnia, kiedy [napisał](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544), że tak naprawdę „nie może sobie na to pozwolić”, ponieważ nie może już „generować tysięcy jednostek dziennie”. Powód: wzrost cen spowodowany napływem ze Slashdota 11 lipca, co również przyniosło mu szydercze uwagi członków forum, którzy sugerowali, że lepiej byłoby, gdyby zatrzymał swoje bitcoiny. Kilka miesięcy później, w listopadzie, gdy cena Bitcoina oscylowała wokół 25 centów, użytkownik ribuck [napisał](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) w niemal proroczy sposób: „Czy to w końcu stanie się pierwszą na świecie pizzą za milion dolarów?”
+W ten sposób przeprowadził kilka innych transakcji tego samego typu, aż do 4 sierpnia, kiedy [napisał](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544), że tak naprawdę „nie może sobie na to pozwolić”, ponieważ nie może już „generować tysięcy jednostek dziennie”. Powód: wzrost cen spowodowany napływem użytkowników ze Slashdota 11 lipca, co również przyniosło mu szydercze uwagi członków forum, którzy sugerowali, że lepiej byłoby, gdyby zatrzymał swoje bitcoiny. Kilka miesięcy później, w listopadzie, gdy cena bitcoina oscylowała wokół 25 centów, użytkownik ribuck [napisał](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) w niemal proroczy sposób: „Czy to w końcu stanie się pierwszą na świecie pizzą za milion dolarów?”
 
 
-Niemniej jednak wzrost siły nabywczej kryptowaluty nie umniejszył symboliki tego wydarzenia, które co roku w tym dniu jest upamiętniane przez społeczność bitcoina jako Bitcoinowy Dzień Pizzy.
+Niemniej jednak wzrost siły nabywczej kryptowaluty nie umniejszył symboliki tego wydarzenia, które co roku w tym dniu jest upamiętniane przez społeczność Bitcoina jako Bitcoinowy Dzień Pizzy.
 
 
 ### Gavin Andresen i Bitcoin Faucet
@@ -1358,7 +1358,7 @@ Gavin zaangażował się również w rozwój oprogramowania, [implementując](ht
 ### Wiosna pełna ważnych wydarzeń
 
 
-Wiosna 2010 roku obfitowała w przełomowe wydarzenia. Po pierwsze, pod koniec kwietnia deweloper Laszlo Hanyecz opracował GPU Mining, optymalizację, zastosowania której Satoshi sprzeciwił się w tamtym momencie (mimo że uznał jej nieuchronność w dłuższej perspektywie). Zbiegło się to w czasie z zatrzymaniem produkcji bloków przez Satoshiego, który prawdopodobnie szacował, że wskaźnik haszowania sieci jest wystarczający. Następnie, 22 maja nastąpił zakup słynnej pizzy pomiędzy Laszlo Hanyeczem i Jeremym Sturdivantem, czyli pierwszy zakup fizycznego towaru za bitcoiny. Wreszcie w czerwcu pojawił się Gavin Andresen, który stworzył Bitcoin Faucet i szybko zaangażował się w rozwój oprogramowania. Wszystkie te elementy prezentowały rozwój gospodarki wokół Bitcoina w zachęcającym świetle.
+Wiosna 2010 roku obfitowała w przełomowe wydarzenia. Po pierwsze, pod koniec kwietnia deweloper Laszlo Hanyecz opracował GPU Mining, optymalizację, zastosowaniu której Satoshi sprzeciwił się w tamtym momencie (mimo że uznał jej nieuchronność w dłuższej perspektywie). Zbiegło się to w czasie z zatrzymaniem produkcji bloków przez Satoshiego, który prawdopodobnie szacował, że wskaźnik haszowania sieci jest wystarczający. Następnie, 22 maja nastąpił zakup słynnej pizzy pomiędzy Laszlo Hanyeczem i Jeremym Sturdivantem, czyli pierwszy zakup fizycznego towaru za bitcoiny. Wreszcie w czerwcu pojawił się Gavin Andresen, który stworzył Bitcoin Faucet i szybko zaangażował się w rozwój oprogramowania. Wszystkie te elementy prezentowały rozwój gospodarki wokół Bitcoina w zachęcającym świetle.
 
 
 Jednak pod koniec czerwca aktywność w sieci pozostawała dość skromna. Pojawiło się niewielu nowych użytkowników, a płomień fenomenu monetarnego był wystarczający, jedynie aby nie zgasnąć. 30 czerwca, na liście mailingowej Bitcoin-list, Cypherpunk James A. Donald (który najwyraźniej nie śledził najnowszych postępów, ani nie był świadomy istnienia forum) [oświadczył](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=201006), że „Bitcoin jest w pewnym sensie martwy” Nawet jeśli się mylił, jego komentarz ujawnił rażący brak komunikacji: zbyt mało osób wiedziało o projekcie i potrzebne były większe wysiłki w tym zakresie. Bitcoin potrzebował „ekosystemu użytkowników, aby być użytecznym”, a tej masy krytycznej jeszcze nie było. W tym kierunku poszło wydarzenie, które miało miejsce dwa tygodnie później, opowiemy o nim w następnym rozdziale. (*original: "Yes - bitcoin kind of went dead. &nbsp;The trouble is that bitcoin, to be useful, needs an ecology of users."*)
@@ -1377,7 +1377,7 @@ W tym rozdziale chcemy omówić „wielki slashdotting”, czyli nagły napływ 
 
 ### Wersja 0.3 oprogramowania
 
-Początek lata 2010 r. to wydanie wersji 0.3 oprogramowania, które było długo przygotowywane przez Satoshiego Nakamoto i Marttiego Malmi. W porównaniu do wersji 0.2, wydanej w grudniu poprzedniego roku, wersja ta zawiera kluczowe ulepszenia, takie jak [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\)) (która stanie się bitcoind), sterowanie z linii poleceń, API (poprzez JSON-RPC), optymalizację generowania jednostek oraz „hashmeter” szacujący szybkość haszowania użytkownika. Zawiera również wsparcie dla Mac OS X dzięki wkładowi Laszlo Hanyeczowi oraz tłumaczenie interfejsu graficznego na język niemiecki, holenderski i włoski.
+Początek lata 2010 r. to wydanie wersji 0.3 oprogramowania, które było długo przygotowywane przez Satoshiego Nakamoto i Marttiego Malmi. W porównaniu z wersją 0.2, wydanej w grudniu poprzedniego roku, wersja ta zawiera kluczowe ulepszenia, takie jak [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\)) (która stanie się bitcoind), sterowanie z linii poleceń, API (poprzez JSON-RPC), optymalizację generowania jednostek oraz „hashmeter” szacujący szybkość haszowania użytkownika. Zawiera również wsparcie dla Mac OS X dzięki wkładowi Laszlo Hanyecza oraz tłumaczenie interfejsu graficznego na język niemiecki, holenderski i włoski.
 
 22 czerwca Satoshi [prosi](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) członków forum o przetestowanie tej wersji oprogramowania. Postrzega wydanie tej wersji jako kluczowy moment w rozwoju Bitcoina i [rozważa](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) nawet porzucenie aspektu „beta” poprzez bezpośrednie przeniesienie numeracji do wersji 1.3. Szybko jednak [powraca](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) do swojej oryginalnej decyzji.
 
@@ -1395,7 +1395,7 @@ Z okazji wydania nowej wersji oprogramowania, użytkownik forum o imieniu Teppy 
 5 lipca Teppy pisze prezentację, którą zamierza przesłać do Slashdota i [publikuje ją](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969) na forum:
 
 
-> „Co powiesz na przełomową technologię? Bitcoin to kryptowaluta anonimowa dla kupujących i sprzedających, bez banku centralnego i opłat transakcyjnych. Korzystając z koncepcji podobnej do Hashcash, klienci spalają cykle procesora, próbując odkryć niektóre z 21 000 000 Bitcoinów, które ostatecznie zostaną znalezione. Oczekuje się, że z czasem wartość rynkowa Bitcoinów osiągnie parytet z energią potrzebną do ich generacji, co doprowadzi do powstania waluty opartej na energii poza zasięgiem jakiegokolwiek rządu.”
+> „Co powiesz na przełomową technologię? Bitcoin to kryptowaluta anonimowa dla kupujących i sprzedających, bez banku centralnego i opłat transakcyjnych. Korzystając z koncepcji podobnej do Hashcash, klienci spalają cykle procesora, próbując odkryć niektóre z 21 000 000 Bitcoinów, które ostatecznie zostaną znalezione. Oczekuje się, że z czasem wartość rynkowa bitcoinów osiągnie parytet z energią potrzebną do ich generacji, co doprowadzi do powstania waluty opartej na energii poza zasięgiem jakiegokolwiek rządu.”
 
 Kilku członków forum zgłasza sugestie dotyczące ulepszenia tego tekstu. Satoshi [interweniuje](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) sam kilka godzin po pierwszej wiadomości, aby wyrazić swoją opinię. Pisze, że „naprawdę docenia wysiłek”, ale „jest wiele problemów”, a następnie wymienia elementy, które mu przeszkadzają:
 
@@ -1406,7 +1406,7 @@ Kilku członków forum zgłasza sugestie dotyczące ulepszenia tego tekstu. Sato
 - Odnosząc się do anonimowego aspektu systemu, stwierdził, że nie chce „podkreślać" aspektu „anonimowości” i że „zamierzał zmodyfikować stronę główną” w tym zakresie. (*original "We don't want to lead with 'anonymous'. (I've been meaning to edit the homepage)"*)
 
 
-W wiadomości [email](https://mmalmi.github.io/Satoshi/#email-197) zaadresowanej do Marttiego Malmi kilka godzin później, Satoshi podaje dwa główne powody wyjaśniające zamiar umniejszenia anonimowości: zagrożenie dla użytkownika i postrzeganie przez opinię publiczną. Pisze on:
+W wiadomości [email](https://mmalmi.github.io/Satoshi/#email-197) zaadresowanej do Marttiego Malmi kilka godzin później, Satoshi podaje dwa główne powody wyjaśniające zamiar umniejszenia roli anonimowości: zagrożenie dla użytkownika i postrzeganie przez opinię publiczną. Pisze on:
 
 
 > „Myślę, że powinniśmy zmniejszyć nacisk na aspekt anonimowości. Wraz z popularnością adresów Bitcoin zamiast wysyłania przez adres IP, nie możemy sprawiać wrażenia, że wszystko jest automatycznie anonimowe. Można ukrywać się pod pseudonimem, ale trzeba być ostrożnym. [...] Co więcej, „anonimowy” brzmi nieco podejrzanie. Myślę, że ludzie, którzy chcą anonimowości, dowiedzą się o tym bez naszej promocji.”
@@ -1416,13 +1416,13 @@ Swoją wiadomość na forum kończy słowami:
 
 > „Przepraszam za bycie marudą. Pisanie opisu tej rzeczy dla ogółu społeczeństwa jest cholernie trudne. Nie ma do czego tego odnieść.”
 
-Następnie Teppy zaktualizował prezentację, biorąc pod uwagę sugestie. Tak więc na początku lipca stwierdzono, że dyskurs wokół Bitcoina był dobrze skalibrowany, co wskazywało, że był on gotowy na bezprecedensowy napływ uzytkowników.
+Następnie Teppy zaktualizował prezentację, biorąc pod uwagę sugestie. Tak więc na początku lipca stwierdzono, że dyskurs wokół Bitcoina był dobrze skalibrowany, co wskazywało, że był on gotowy na bezprecedensowy napływ użytkowników.
 
 
 ### Slashdotted!
 
 
-11 lipca 2010 r. poprawiona wersja prezentacji Bitcoin napisana przez Teppy została [opublikowana](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) na Slashdot. Brzmiała ona następująco:
+11 lipca 2010 r. poprawiona wersja prezentacji Bitcoina napisana przez Teppy została [opublikowana](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) na Slashdot. Brzmiała ona następująco:
 
 
 > „Co powiesz na przełomową technologię? Bitcoin to oparta na sieci peer-to-peer cyfrowa waluta bez banku centralnego i opłat transakcyjnych. Korzystając z koncepcji dowodu pracy, węzły spalają cykle procesora w poszukiwaniu pakietów monet, transmitując swoje odkrycia do sieci. Analiza zużycia energii wskazuje, że wartość rynkowa bitcoinów jest już wyższa niż wartość energii potrzebnej do ich generacji, co wskazuje na zdrowy popyt. Społeczność ma nadzieję, że waluta pozostanie poza zasięgiem jakiegokolwiek rządu.”
@@ -1433,7 +1433,7 @@ Następnie Teppy zaktualizował prezentację, biorąc pod uwagę sugestie. Tak w
 Publikacja została zauważona, a w ciągu kilku dni pojawiło się prawie 500 komentarzy. Dla Bitcoina sukces ten doprowadził do ogromnego napływu odwiedzających stronę i forum. Wykorzystanie łańcuch bloków gwałtownie wzrosło: liczba transakcji przeprowadzonych w sieci wzrosła z 42 10 lipca do 1 641 12 lipca, osiągając 5 554 14 lipca, co stanowi rekord wszech czasów. System wytrzymał pomimo zwiększonego obciążenia. 14 lipca deweloper Gavin Andresen [napisał](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) na forum:
 
 
-> „Uważam, że Satoshi wykonał fantastyczną robotę: w ciągu ostatnich dwóch dni, kiedy Bitcoin pojawił się na forum Slashdot, nie słyszałem o ŻADNYCH problemach ze stratami transakcji Bitcoin, ani o przestojach sieci spowodowanych obciążeniem, ani o żadnych problemach dotyczących podstawowych funkcjonalności.”
+> „Uważam, że Satoshi wykonał fantastyczną robotę: w ciągu ostatnich dwóch dni, kiedy Bitcoin pojawił się na forum Slashdot, nie słyszałem o ŻADNYCH problemach ze stratami transakcji Bitcoina, ani o przestojach sieci spowodowanych obciążeniem, ani o żadnych problemach dotyczących podstawowych funkcjonalności.”
 
 Pierwszą konsekwencją tego napływu jest gwałtowny wzrost ceny Bitcoina z 0,008 USD do 0,08 USD w ciągu jednego tygodnia, co oznacza dziesięciokrotny wzrost!
 
@@ -1444,7 +1444,7 @@ Innym efektem napływu ludzi ze Slashdota jest wzrost mocy obliczeniowej wykorzy
 ### Stworzenie Mt. Gox
 
 
-Wśród osób, które odkryły Bitcoin dzięki Slashdotowi był Jed McCaleb, 35-letni amerykański przedsiębiorca i programista znany ze współzałożenia i rozwoju oprogramowania do wymiany plików peer-to-peer eDonkey2000 w 2000 roku. Zdając sobie sprawę, jak trudno było uzyskać Bitcoina w zamian za dolary, postanowił „dla kaprysu” stworzyć skuteczny rynek. Aby to zrobić, zmienił przeznaczenie jednego ze swoich starych projektów opracowanych w 2007 roku: Magic The Gathering Online Exchange (MTGOX), stronę internetową, która umożliwiała kupno i sprzedaż kart do gry online *Magic: The Gathering Online*. Ponownie wykorzystał nazwę domeny tego projektu (mtgox.com), która stała się nazwą nowej platformy: Mt. Gox, wymawiana jako „Mount Gox”.
+Wśród osób, które odkryły Bitcoina dzięki Slashdotowi był Jed McCaleb, 35-letni amerykański przedsiębiorca i programista znany ze współzałożenia i rozwoju oprogramowania do wymiany plików peer-to-peer eDonkey2000 w 2000 roku. Zdając sobie sprawę, jak trudno było uzyskać Bitcoina w zamian za dolary, postanowił „dla kaprysu” stworzyć skuteczny rynek. Aby to zrobić, zmienił przeznaczenie jednego ze swoich starych projektów opracowanych w 2007 roku: Magic The Gathering Online Exchange (MTGOX), stronę internetową, która umożliwiała kupno i sprzedaż kart do gry online *Magic: The Gathering Online*. Ponownie wykorzystał nazwę domeny tego projektu (mtgox.com), która stała się nazwą nowej platformy: Mt. Gox, wymawiana jako „Mount Gox”.
 
 
 ![Jed McCaleb in 2013](assets/en/44.webp)
@@ -1485,7 +1485,7 @@ Sukcesowi temu towarzyszyły jednak problemy techniczne, a także odkrycie szere
 ### Ulepszanie oprogramowania
 
 
-Napływ użytkowników ze Slashdot wymagał również ulepszenia oprogramowania. Znalezione luki musiały zostać poprawione, a nowe funkcje zintegrowane. Satoshi był więc pod presją: 18 lipca [zwierzył się](https://mmalmi.github.io/Satoshi/#email-210) Marttiemu Malmi na osobności, że „traci zmysły, jest tyle rzeczy, które trzeba zrobić”. W ciągu dwóch miesięcy wydano nie mniej niż 8 podwersji oprogramowania!
+Napływ użytkowników z forum Slashdot wymagał również ulepszenia oprogramowania. Znalezione luki musiały zostać poprawione, a nowe funkcje zintegrowane. Satoshi był więc pod presją: 18 lipca [zwierzył się](https://mmalmi.github.io/Satoshi/#email-210) Marttiemu Malmi na osobności, że „traci zmysły, jest tyle rzeczy, które trzeba zrobić”. W ciągu dwóch miesięcy wydano nie mniej niż 8 podwersji oprogramowania!
 
 Twórca Bitcoina nie pracuje jednak nad kodem sam. Może on liczyć na Gavina Andresena, który przybył w czerwcu i coraz bardziej angażuje się w rozwój (jest [credited](https://sourceforge.net/p/Bitcoin/code/101/) w repozytorium SourceForge od 9 lipca). Istnieją również ludzie, którzy są ciekawi, jak działa system i zgłaszają problemy, gdy je napotkają, tacy jak Christian Decker (cdecker) lub Michael Marquardt (lepiej znany pod pseudonimem Theymos). Satoshi jest również wspierany przez wydobywających, którzy modyfikują kod, aby znaleźć sposoby na optymalizację generowania jednostek, takich jak ArtForz (pierwsza osoba, która założyła farmę wydobywczą, jak zobaczymy w następnym rozdziale), niemiecki deweloper Nils Schneider (tcatm), Michael Brown (knightmb) lub BlackEye.
 
@@ -1504,13 +1504,13 @@ Pierwszym celem Satoshiego jest zwiększenie bezpieczeństwa oprogramowania i pr
 Gavin i Satoshi naprawili również kilka błędów. Głównym z nich jest „błąd 1 RETURN”, luka w systemie skryptów, która umożliwiała wydawanie bitcoinów z dowolnego adresu przy użyciu określonego skryptu. Luka ta została zgłoszona przez ArtForza 28 lipca, który zamiast wykorzystać usterkę i dyskretnie się wzbogacić, postanowił podzielić się swoim odkryciem z Satoshim i Gavinem. Satoshi szybko włączył poprawkę do oprogramowania ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) i zalecił wszystkim użytkownikom aktualizację. W ten sposób Bitcoin został uratowany przed potencjalnie katastrofalną sytuacją. Luka ta została później zarejestrowana w MITRE pod identyfikatorem [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141).
 
 
-Drugim celem była poprawa wydajności systemu poprzez modyfikacje protokołu lub optymalizację działania oprogramowania. To właśnie do tej kategorii należy dodanie kodów operacji `OP_NOP` do wewnętrznego systemu skryptów, dyskretnie przeprowadzone przez Satoshiego 29 lipca (v0.3.6), z jedynym [komentarzem](https://sourceforge.net/p/Bitcoin/code/119/) będącym słowem „rozszerzenie”. Te kody operacji są cichymi instrukcjami, które nie mają żadnego efektu, jeśli są obecne w skrypcie, ale też nie unieważniają transakcji. W związku z tym można modyfikować zachowanie tych instrukcji bez powodowania niekompatybilności skryptów ze starszą wersją protokołu, stąd komentarz Satoshiego. Te kody operacji pozwoliłyby w szczególności na tak zwane „soft forki” w 2015 i 2016 roku, poprzez przekształcenie instrukcji `OP_NOP2` i `OP_NOP3` w `OP_CHECKLOCKTIMEVERIFY` i `OP_CHECKSEQUENCEVERIFY`.
+Drugim celem była poprawa wydajności systemu poprzez modyfikacje protokołu lub optymalizację działania oprogramowania. To właśnie do tej kategorii należy dodanie kodów operacji `OP_NOP` do wewnętrznego systemu skryptów, dyskretnie przeprowadzone przez Satoshiego 29 lipca (v0.3.6), z jedynym [komentarzem](https://sourceforge.net/p/Bitcoin/code/119/) będącym słowem „rozszerzenie”. Te kody operacji są cichymi instrukcjami, które nie mają żadnego efektu, jeśli są obecne w skrypcie, ale też nie unieważniają transakcji. W związku z tym można modyfikować zachowanie tych instrukcji bez powodowania niekompatybilności skryptów ze starszą wersją protokołu, stąd komentarz Satoshiego. Te kody operacji pozwolą na tak zwane „soft forki” w 2015 i 2016 roku, poprzez przekształcenie instrukcji `OP_NOP2` i `OP_NOP3` w `OP_CHECKLOCKTIMEVERIFY` i `OP_CHECKSEQUENCEVERIFY`.
 
 
-Wydobywający również dzielą się swoimi odkryciami, aby bezpośrednio lub pośrednio poprawić generowanie bitcoinów za pomocą głównego oprogramowania. Po pierwsze, [osobista optymalizacja Laszla](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686) została zintegrowana z oprogramowaniem 6 lipca (wersja 0.3.0). Następnie [buforowanie kontekstu](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815) dla funkcji SHA-256 Hash autorstwa Nilsa Schneidera i [optymalizacja jej obliczeń](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774) autorstwa BlackEye zostały dodane do oprogramowania 29 lipca (v0.3.6). Wreszcie, [zrównoleglenie obliczeń na jednym procesorze](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) zaproponowane przez Nilsa Schneidera (ponownie) zostało [zintegrowane](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) z kodem 15 sierpnia (v0.3.10).
+Wydobywający również dzielą się swoimi odkryciami, aby bezpośrednio lub pośrednio poprawić generowanie bitcoinów za pomocą głównego oprogramowania. Po pierwsze, [osobista optymalizacja Laszlo](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686) została zintegrowana z oprogramowaniem 6 lipca (wersja 0.3.0). Następnie [buforowanie kontekstu](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815) dla funkcji SHA-256 Hash autorstwa Nilsa Schneidera i [optymalizacja jej obliczeń](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774) autorstwa BlackEye zostały dodane do oprogramowania 29 lipca (v0.3.6). Wreszcie, [zrównoleglenie obliczeń na jednym procesorze](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) zaproponowane przez Nilsa Schneidera (ponownie) zostało [zintegrowane](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) z kodem 15 sierpnia (v0.3.10).
 
 
-Wszystkie te ulepszenia oznaczają, że Bitcoin staje się coraz silniejszy z dnia na dzień, zarówno pod względem działania oprogramowania, jak i wydajności wydobycia. Jednak ten innowacyjny rozmach został nieco zakłócony przez wydarzenie, które odcisnęło duże piętno na społeczności. Chodzi o incydent przepełnienia wartości, który miał miejsce w sierpniu i zakłócił działanie sieci na około piętnaście godzin.
+Wszystkie te ulepszenia oznaczają, że Bitcoin z dnia na dzień staje się coraz silniejszy, zarówno pod względem działania oprogramowania, jak i wydajności wydobycia. Jednak ten innowacyjny rozmach został nieco zakłócony przez wydarzenie, które odcisnęło duże piętno na społeczności. Chodzi o incydent przepełnienia wartości, który miał miejsce w sierpniu i zakłócił działanie sieci na około piętnaście godzin.
 
 
 ### Incydent przepełnienia wartości
@@ -1525,7 +1525,7 @@ Godzinę później problem został zauważony przez Jeffa Garzika, który [ostrz
 Poprawka ta pozwolił wydobywającym odrzucić podejżaną transakcję jako nieważną i utworzyć alternatywną gałąź, która jej nie zawiera. [Pierwszy blok](https://Mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b) tej gałęzi został znaleziony o godzinie 11:53.
 
 
-Następnego ranka, krótko po 8 rano, konfliktowa sytuacja została rozwiązana. Prawidłowy łańcuch stał się dłuższy od drugiego, co oznaczało, że wszystkie węzły musiały podążać za tym łańcuchem, niezależnie od tego, czy zastosowały poprawkę, czy nie. Incydent ten zakłócił aktywność sieci na około 15 godzin, ale reakcja społeczności była wzorowa. Satoshi [napisał](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) około 1 PM:
+Następnego ranka, krótko po 8 rano, konfliktowa sytuacja została rozwiązana. Prawidłowy łańcuch stał się dłuższy od drugiego, co oznaczało, że wszystkie węzły musiały podążać za tym łańcuchem, niezależnie od tego, czy zastosowały poprawkę, czy nie. Incydent ten zakłócił aktywność sieci na około 15 godzin, ale reakcja społeczności była wzorowa. Satoshi [napisał](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) około godziny 13:
 
 
 > „Wygląda na to, że wyprzedziliśmy zły łańcuch gdzieś około 74689. &nbsp;Węzły 0.3.9 i niższe odpowiadają aktualnym numerem bloku już od kilku godzin. (...) Dziękujemy wszystkim za szybką reakcję!”

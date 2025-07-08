@@ -1,0 +1,2 @@
+description: |
+  Interface mã nguồn mở, dựa trên web để dễ dàng quản lý một hoặc nhiều nút Lightning (LND, Core Lightning, Eclair). RTL cung cấp nhiều chức năng, bao gồm quản lý kênh, thanh toán, sao lưu và hoán đổi, tất cả trong một Interface trực quan có thể triển khai trong vài phút trên nhiều nền tảng.

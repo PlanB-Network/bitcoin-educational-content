@@ -963,7 +963,73 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 
 # 2012
 
-## La bataille pour P2SH
+## La bataille pour P2SH : la première discorde majeure (déc. 2011–avr. 2012)
+
+Après le départ de Satoshi Nakamoto, le développement du logiciel a été pris en charge par la communauté, qui a dû se coordonner.
+
+BIP 30 (Duplicate transactions, Pieter Wuille), [ajouté](https://github.com/bitcoin/bitcoin/commit/a206b0ea12eb4606b93323268fc81a4f1f952531) au code le 3 mars 2012
+
+### Le développement du logiciel
+
+[Wise Leader fallacy](https://gavinthink.blogspot.com/2011/04/wise-leader-fallacy.html)
+
+"The Gavinator", https://web.archive.org/web/20110709121216/http://bitcoinweekly.com/comics/the-gavinator
+
+Mainteneurs : Gavin Andresen, Jeff Garzik, Pieter Wuille, Wladimir van der Laan, Laszlo Hanyecz et Nils Schneider jusque sept. 2011, Greg Maxwell à partir de février 2012 (Gregory Maxwell, gmaxwell ([5/5/2011](https://bitcointalk.org/index.php?action=profile;u=11425)), premier commit : [février 2012](https://github.com/bitcoin/bitcoin/commit/5d1b8f1725f5c65a170feb44d182f9016caa9709))
+
+"Pieter discovered Bitcoin in November 2010 and became a member of the Bitcoin Core development team in May 2011." [cryptoanarchy.wiki](https://cryptoanarchy.wiki/people/pieter-wuille)
+
+v0.5, [21/11/2011](https://bitcointalk.org/index.php?topic=52480.msg626275#msg626275) : intègre Bitcoin-Qt (interface graphique) et bitcoind (démon)
+
+https://gavintech.blogspot.com/2011/11/deploying-bitcoin-qt-on-osx.html
+
+Amir Taaki ([actions](https://bitcointalk.org/index.php?topic=35599.msg440641#msg440641)), Libbitcoin, [21/7/2011](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791)
+
+9 janvier 2012, David Perry (enmaku) : [visualisation](https://bitcointalk.org/index.php?topic=57382.msg683333#msg683333) réalisée avec [Gource](https://gource.io/) (9 janv. 2012 : https://web.archive.org/web/20120830214308/http://codinginmysleep.com/bitcoin-development-history-visually/ ; sept. 2012 : https://www.youtube.com/watch?v=2VNPScd-xg0)
+
+### Programmabilité
+
+Mise en avant par Mike Hearn, voir le BitcoinWiki
+
+Citation de Satoshi à Mike Hearn ?
+
+### La signature multipartite
+
+Évoqué par Satoshi.
+
+- Gavin Andresen, ClearCoin (déc. 2010–juin 2011) : service de dépôt fiduciaire https://bitcointalk.org/index.php?topic=2134.msg27797#msg27797 https://clearcoin.blogspot.com/2011/06/ill-be-closing-clearcoin-to-new.html https://web.archive.org/web/20110207174003/https://clearcoin.appspot.com/
+
+[BIP11](https://github.com/bitcoin/bips/blob/master/bip-0011.mediawiki)
+
+### OP\_EVAL, Bytecoin
+
+OP\_EVAL (BIP12), bytecoin
+
+### OP\_CHV, Luke-Jr
+
+Luke-Jr, catholique romain sédévacantiste, père de famille nombreuse (2017 : 5 ; 2025 : 11), développeur dans le logiciel libre, créateur de la coopérative Eligius en [avril 2011](https://en.bitcoin.it/wiki/Eligius), ["Please test: New Experimental Pool"](https://bitcointalk.org/index.php?topic=6667.0)
+
+OP\_CHECKHASHVERIFY, [BIP17](https://github.com/bitcoin/bips/blob/master/bip-0017.mediawiki)
+
+### Pay to Script Hash
+
+P2SH (BIP16), Gavin Andresen
+
+6 janvier 2012, attaque de censure par Luke-Jr contre Coiledcoin (qui appliquait OP\_EVAL) : https://bitcointalk.org/index.php?topic=56675.msg678006#msg678006
+
+29 janvier 2012, **commentaire d'Amir Taaki**. https://bitcointalk.org/index.php?topic=61705.msg719790#msg719790 Amir Taaki, le père du systèmes des BIP, qui ne soutient aucune des deux propositions (CHV vs P2SH), appelle à la discussion et déclare le 29 janvier 2012 :
+
+> « Ma crainte c'est qu'un jour Bitcoin soit corrompu. Développeurs : considérez cet examen supplémentaire comme une opportunité de construire une culture d'ouverture. »
+>
+> "My worry is bitcoin someday becomes corrupted. Developers: see this extra scrutiny as an opportunity to build a culture of openness. It is not at all bad."
+
+https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/
+
+### Mise à niveau
+
+Gavin Andresen tranche en faveur du BIP16.
+
+v0.6, [30/3/2012](https://bitcointalk.org/index.php?topic=74737.msg827484#msg827484)
 
 ## L'apparition des premières cryptomonnaies alternatives
 

@@ -1,6 +1,6 @@
 ---
-name: Teoretyczne wprowadzenie do Lightning Network
-goal: Odkryj Lightning Network z technicznego punktu widzenia
+name: Teoretyczne wprowadzenie do sieci Lightning Network
+goal: Odkryj sieć Lightning Network z technicznego punktu widzenia
 objectives: 
   - Zrozumienie działania kanałów sieciowych.
   - Zapoznaj się z terminami HTLC, LNURL i UTXO.
@@ -10,7 +10,7 @@ objectives:
 
 ---
 
-# Podróż do drugiego Layer Bitcoin
+# Podróż do drugiej warstwy Bitcoina
 
 
 Zanurz się w sercu Lightning Network, niezbędnego systemu dla przyszłych transakcji Bitcoin. LNP201 to teoretyczny kurs na temat technicznego działania Lightning. Odkrywa podstawy i mechanizmy tej drugiej sieci Layer, zaprojektowanej tak, aby płatności Bitcoin były szybkie, ekonomiczne i skalowalne.

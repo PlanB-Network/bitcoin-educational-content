@@ -1,5 +1,5 @@
 ---
-nazwa: Blitz Wallet
+name: Blitz Wallet
 
 
 description: Najprostszy portfel Bitcoin.

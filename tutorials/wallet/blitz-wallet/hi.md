@@ -1,5 +1,5 @@
 ---
-नाम : ब्लिट्ज़ Wallet
+name: ब्लिट्ज़ Wallet
 
 
 description: सबसे सरल Bitcoin पोर्टफोलियो.

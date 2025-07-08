@@ -976,23 +976,23 @@ Komunikacja Satoshiego przyciągnęła również uwagę młodego fińskiego stud
 Martti Malmi w 2013 roku (źródło: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 
-Następnie Martti wysyła [emaila](https://mmalmi.github.io/Satoshi/#email-1) do Satoshiego potwierdzając, że jest autorem tej wiadomości i „chciałby pomóc z Bitcoinem”, mimo że „nie ma jeszcze dużego doświadczenia w byciu developerem”. Satoshi Nakamoto odpowiada 2 maja, mówiąc mu, że jego „poziom zrozumienia Bitcoina” jest „idealny”.
+Następnie Martti wysyła [emaila](https://mmalmi.github.io/Satoshi/#email-1) do Satoshiego potwierdzając, że jest autorem tej wiadomości i „chciałby pomóc z Bitcoinem”, mimo że „nie ma jeszcze dużego doświadczenia w byciu deweloperem”. Satoshi Nakamoto odpowiada 2 maja, mówiąc mu, że jego „poziom zrozumienia Bitcoina” jest „idealny”.
 
 
-Twórca Bitcoina zaangażował go do współtworzenia [strony internetowej](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/) na SourceForge, platformie, na której hostowany jest projekt, w szczególności poprzez napisanie sekcji [często zadawanych pytań](https://mmalmi.github.io/Satoshi/#email-4) (FAQ). Na stronie głównej (Bitcoin.sourceforge.net) przedstawia Bitcoina jako „anonimową walutę cyfrową opartą na sieci peer-to-peer”, która nie opiera się na „żadnym centralnym organie emitującym nowe pieniądze lub monitorującym transakcje”. Podkreśla jego następujące zalety:
+Twórca Bitcoina zaangażował go do współtworzenia [strony internetowej](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/) na SourceForge, platformie, na której hostowany jest projekt, w szczególności do napisania sekcji [często zadawanych pytań](https://mmalmi.github.io/Satoshi/#email-4) (FAQ). Na stronie głównej (Bitcoin.sourceforge.net) przedstawia Bitcoina jako „anonimową walutę cyfrową opartą na sieci peer-to-peer”, która nie opiera się na „żadnym centralnym organie emitującym nowe pieniądze lub monitorującym transakcje”. Podkreśla jego następujące zalety:
 
 
 
 - „Łatwo przelewaj pieniądze przez Internet, bez konieczności ufania stronom trzecim”
 - „Żadna strona trzecia nie może zapobiec transakcjom ani ich kontrolować”
 - „Chroń się przed niestabilnością spowodowaną bankowością opartą na rezerwach cząstkowych i złą polityką banków centralnych. Ograniczona inflacja bitcoina jest równomiernie rozłożona (według mocy obliczeniowej) w całej sieci, a nie zmonopolizowana przez banki.”
-- „Wartość bitcoina prawdopodobnie wzrośnie, ponieważ wzrost gospodarki Bitcoin przewyższa stopę inflacji - rozważ Bitcoina jako inwestycję i uruchom węzeł sieci już dziś!”
+- „Wartość bitcoina prawdopodobnie wzrośnie, ponieważ wzrost gospodarki Bitcoina przewyższa stopę inflacji - rozważ Bitcoina jako inwestycję i uruchom węzeł sieci już dziś!”
 
 
 Satoshi [ogólnie aprobuje](https://mmalmi.github.io/Satoshi/#email-5) tę prezentację, choć ma pewne zastrzeżenia. [Czuje się](https://mmalmi.github.io/Satoshi/#email-19) szczególnie „niewygodnie” z traktowaniem Bitcoina jako „inwestycj”, prawdopodobnie obawiając się prawnych implikacji takiego stwierdzenia. Strona została [opublikowana](https://mmalmi.github.io/Satoshi/#email-9) 6 maja, a dwa dni później Martti Malmi promował ją, udostępniając linka na platformach [Hackernews](https://news.ycombinator.com/item?id=599852) i [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/). Nieco zmodyfikowana wersja tego opisu [istniała](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) na głównej stronie internetowej do końca 2009 roku.
 
 
-Wiosną 2009 r. pojawiło się również słowo „kryptowalut”, które początkowo było używane w odniesieniu do bitcoina. 11 maja Satoshi [napisał](https://mmalmi.github.io/Satoshi/#email-19) do Martti'ego Malmi:
+Wiosną 2009 r. pojawiło się również słowo „kryptowaluta”, które początkowo było używane w odniesieniu do bitcoina. 11 maja Satoshi [napisał](https://mmalmi.github.io/Satoshi/#email-19) do Martti'ego Malmi:
 
 
 > „Ktoś wymyślił słowo 'kryptowaluta'... może to jest słowo, którego powinniśmy używać do opisywania Bitcoina, podoba ci się?”
@@ -1003,18 +1003,18 @@ Młody Fin zgadza się i sugeruje, że „Kryptowaluta P2P” mogłaby być slog
 ### Dwa fora poświęcone Bitcoinowi
 
 
-Martti Malmi zakłada również forum i wiki, wciąż na stronie SourceForge. Te elementy [otworzono](https://mmalmi.github.io/Satoshi/#email-17) 9 czerwca. 13 czerwca Malmi [ogłasza](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) istnienie strony SourceForge, forum i wiki na liście mailingowej Bitcoin:
+Martti Malmi zakłada również forum i wiki, wciąż na stronie SourceForge. Te elementy [otworzono](https://mmalmi.github.io/Satoshi/#email-17) 9 czerwca. 13 czerwca Malmi [ogłasza](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) istnienie strony SourceForge, forum i wiki na liście mailingowej Bitcoina:
 
 
-> „Nowa strona/portal Bitcoin jest już dostępna pod adresem Bitcoin.sourceforge.net. Znajdują się tam fora i wiki, więc zapraszamy do dyskusji i tworzenia dokumentacji wiki.”
+> „Nowa strona/portal Bitcoina jest już dostępna pod adresem Bitcoin.sourceforge.net. Znajdują się tam fora i wiki, więc zapraszamy do dyskusji i tworzenia dokumentacji wiki.”
 
-To forum znajduje swoich odbiorców. Wydaje się nawet, że [prowadzi](https://mmalmi.github.io/Satoshi/#email-27) do utworzenia dedykowanego kanału IRC dla developerów (#Bitcoin-dev) w sierpniu. Nie mamy jednak archiwum, ponieważ kanał był dostępny tylko dla jego członków.
+To forum znajduje swoich odbiorców. Wydaje się nawet, że [prowadzi](https://mmalmi.github.io/Satoshi/#email-27) do utworzenia dedykowanego kanału IRC dla deweloperów (#Bitcoin-dev) w sierpniu. Nie mamy jednak archiwum, ponieważ kanał był dostępny tylko dla jego członków.
 
 
 Z biegiem miesięcy coraz więcej osób rejestruje się i uczestniczy w tym pierwszym forum, co sprawia, że Satoshi zdaje sobie sprawę, że infrastruktura oprogramowania stworzona przez Malmiego nie jest wystarczająca. 5 listopada pisze do młodego Fina, sugerując stworzenie nowego forum, które mogłoby obsłużyć większy ruch:
 
 
-> „Teraz, gdy forum na Bitcoin.sourceforge.net zdobywa popularność, naprawdę powinniśmy poszukać miejsca, które za darmo hostuje oprogramowanie forum na wielką skalę.”
+> „Teraz, gdy forum na Bitcoin.sourceforge.net zdobywa popularność, naprawdę powinniśmy poszukać miejsca, które za darmo będzie hostować oprogramowanie forum na wielką skalę.”
 
 Po kilku dyskusjach na temat technicznego rozwiązania, które należy przyjąć, Martti Malmi [instaluje](https://mmalmi.github.io/Satoshi/#email-93) forum na swoim serwerze 17 listopada, a Satoshi zaczyna je [konfigurować](https://mmalmi.github.io/Satoshi/#email-99) 19 listopada. Począwszy od 22 listopada, twórca Bitcoina przenosi kilka pytań i odpowiedzi ze starego forum, które dotyczą takich tematów jak prywatność, wydobywanie bloków i Linux. Publikuje również [wiadomość powitalną](https://bitcointalk.org/index.php?topic=5.msg28#msg28). 25-go forum zostaje [uruchomione](https://mmalmi.github.io/Satoshi/#email-110) pod adresem Bitcoin.org/smf.
 
@@ -1028,7 +1028,7 @@ Pierwsi użytkownicy zaczynają się rejestrować na początku następnego miesi
 Uruchomienie nowego forum było okazją do wydania [wersji 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) oprogramowania, nad którym Satoshi Nakamoto i Martti Malmi pracowali od miesięcy, co nastąpiło 16 grudnia. Wersja ta zawiera ulepszenia takie jak minimalizacja do paska zadań, automatyczne uruchamianie przy starcie, czy wielowątkowość wydobywania bloków. Oprogramowanie zostało również dostosowane do systemu Linux, dzięki wkładowi Malmiego i testom przeprowadzonym przez nowo przybyłego NewLibertyStandard (którego przypadek zostanie omówiony w następnym rozdziale).
 
 
-Na forum tym, które w sierpniu 2011 r. przekształciło się w BitcoinTalk, Satoshi napisał łącznie 539 wiadomości. W ten sposób był w stanie udzielić wyjaśnień technicznych, wyjaśnić różne mechanizmy ekonomiczne i podzielić się swoim ogólnym punktem widzenia na temat Bitcoina. Ten zbiór wiadomości stanowi większość pozostawionych przez niego tekstów.
+Na forum, które w sierpniu 2011 r. przekształciło się w BitcoinTalk, Satoshi napisał łącznie 539 wiadomości. W ten sposób był w stanie udzielić wyjaśnień technicznych, wyjaśnić różne mechanizmy ekonomiczne i podzielić się swoim ogólnym punktem widzenia na temat Bitcoina. Ten zbiór wiadomości stanowi większość pozostawionych przez niego tekstów.
 
 
 ### Komunikacja w etapach
@@ -1047,7 +1047,7 @@ Jesienią 2009 roku wydawało się, że Bitcoin jest gotowy do rozwinięcia skrz
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
 
-W poprzednich rozdziałach zaobserwowaliśmy, w jaki sposób Satoshi Nakamoto wdrożył swój pomysł i jak zakomunikował go światu. Jednak nie wszystko zależało od niego: konieczne było również, aby ludzie przypisali wartość do jego jednostki rozliczeniowej. Ponieważ pozwalało to na wynagradzanie górników opłatami transakcyjnymi i nagradzanie kupców poprzez naturalną deflację, zyskanie waluty na wartości było niezbędne dla bezpieczeństwa systemu.
+W poprzednich rozdziałach zaobserwowaliśmy, w jaki sposób Satoshi Nakamoto wdrożył swój pomysł i jak zakomunikował go światu. Jednak nie wszystko zależało od niego: konieczne było również, aby ludzie przypisali wartość jego jednostce rozliczeniowej. Ponieważ pozwalało to na wynagradzanie górników opłatami transakcyjnymi i nagradzanie kupców poprzez naturalną deflację, zyskanie waluty na wartości było niezbędne dla bezpieczeństwa systemu.
 
 
 Wytyczenie wartości Bitcoina nie było jednak łatwym zadaniem. W rzeczywistości chodziło o nadanie ekonomicznego znaczenia obiektowi, który wcześniej go nie miał, z całkowicie subiektywnych powodów. Hal Finney wyjaśnił to bardzo dobrze w swoim [emailu](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) z 11 stycznia 2009 r., zaadresowanym do listy mailingowej Cryptography, gdzie napisał:
@@ -1058,12 +1058,12 @@ Wytyczenie wartości Bitcoina nie było jednak łatwym zadaniem. W rzeczywistoś
 Tak więc zjawisko pieniężne wymagało wstępnej oceny z powodów niepieniężnych. Jak napisał [Satoshi](https://mmalmi.github.io/Satoshi/#email-1) do Marttiego, potrzebna była „iskra”, aby rozpalić spalanie łatwopalnego materiału.
 
 
-Ten ekonomiczny start Bitcoina od początku miał miejsce stopniowo wraz z wydobywaniem kolejnych bloków. Jednak tak naprawdę nie pojawił się on aż do października 2009 r., kiedy to miała miejsce pierwsza wymiana w stosunku do dolara. W tym rozdziale postaramy się opisać, w jaki sposób do tego doszło i jakie powody skłoniły różne podmioty do przypisania wartości tej jednostce rozliczeniowej.
+Ten ekonomiczny start Bitcoina od początku miał miejsce stopniowo wraz z wydobywaniem kolejnych bloków. Jednak tak naprawdę nie pojawił się aż do października 2009 r., kiedy to miała miejsce pierwsza wymiana w stosunku do dolara. W tym rozdziale postaramy się opisać, w jaki sposób do tego doszło i jakie powody skłoniły różne podmioty do przypisania wartości tej jednostce rozliczeniowej.
 
 
 ### Pierwsi górnicy
 
-Począwszy od stycznia 2009 r., inicjacja Bitcoin rozwijała się w kilku etapach: pojawienie się pierwszych górników, pojawienie się wymiany z dolarem i rozwój pierwszych usług akceptujących Bitcoina. Ci, którzy wdrażają węzły generujące, są zatem pierwszymi, którzy pośrednio przypisują wartość jednostce rozliczeniowej. Wnoszą oni bowiem swoją moc obliczeniową, aby dodać dowód pracy do bloków transakcyjnych i tym samym dołączyć je do łańcucha, co jest zadaniem kosztownym pod względem czasu (ze względu na konserwację oprogramowania) i energii (ze względu na energię elektryczną zużywaną w tym procesie). Wysiłek ten jest wynagradzany w bitcoinach, więc generowanie monet w ten sposób stanowi formę wymiany ekonomicznej.
+Począwszy od stycznia 2009 r., inicjacja Bitcoina rozwijała się w kilku etapach: pojawienie się pierwszych górników, pojawienie się wymiany z dolarem i rozwój pierwszych usług akceptujących Bitcoina. Ci, którzy wdrażają węzły generujące, są zatem pierwszymi, którzy pośrednio przypisują wartość jednostce rozliczeniowej. Wnoszą oni bowiem swoją moc obliczeniową, aby dodać dowód pracy do bloków transakcyjnych i tym samym dołączyć je do łańcucha, co jest zadaniem kosztownym pod względem czasu (ze względu na konserwację oprogramowania) i energii (ze względu na energię elektryczną zużywaną w tym procesie). Wysiłek ten jest wynagradzany w bitcoinach, więc generowanie monet w ten sposób stanowi formę wymiany ekonomicznej.
 
 
 Jednak, jak wskazaliśmy we wstępie, bitcoiny nie mają wartości na rynku. Dlatego górnicy muszą znaleźć subiektywne powody, aby podjąć taki wysiłek. Główne powody są trojakie: ciekawość techniczna, motywacja ideologiczna i zainteresowanie spekulacyjne.
@@ -1075,7 +1075,7 @@ Pierwszym powodem, który jest prawdopodobnie najmniej ważny, jest ciekawość 
 Drugim powodem wydobywania bloków jest motywacja ideologiczna. Wielu wczesnych użytkowników oprogramowania robi to „dla dobra sprawy”, z powodu swoich osobistych przekonań. Udostępniają swoją moc obliczeniową, aby przyczynić się do narodzin solidnej waluty cyfrowej, która nie opiera się na władzy centralnej. Hal Finney jako pierwszy zwrócił uwagę na tę koncepcję 13 listopada 2008 r., [pisząc](https://www.metzdowd.com/pipermail/cryptography/2008-November/014848.html):
 
 
-> „System Bitcoin jest zgodny w szczególności z amerykańskim ruchem libertariańskim, który opowiada się za nieskrępowanym wolnym rynkiem i jest zdecydowanie antagonistyczny wobec państwa, zwłaszcza w odniesieniu do jego kontroli nad walutą („[End The Fed](https://en.wikipedia.org/wiki/End_the_Fed)”). Dlatego Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) Halowi Finneyowi, stwierdzając, że jego argument jest „bardzo atrakcyjny dla libertariańskiego punktu widzenia, jeśli będziemy potrafili go właściwie wyjaśnić”.
+> „System Bitcoin jest zgodny szczególnie z amerykańskim ruchem libertariańskim, który opowiada się za nieskrępowanym wolnym rynkiem i jest zdecydowanie antagonistyczny wobec państwa, zwłaszcza w odniesieniu do jego kontroli nad walutą („[End The Fed](https://en.wikipedia.org/wiki/End_the_Fed)”). Dlatego Satoshi [odpowiada](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) Halowi Finneyowi, stwierdzając, że jego argument jest „bardzo atrakcyjny dla libertariańskiego punktu widzenia, jeśli będziemy potrafili go właściwie wyjaśnić”.
 
 Trzecią siłą napędową stojącą za decyzją o uruchomieniu wydobywania jest zainteresowanie spekulacyjne. Jak wyjaśniono w poprzednim rozdziale, polityka monetarna Bitcoina jest jednym z jej głównych punktów sprzedaży. Jeśli ilość bitcoinów w obiegu zbliży się do stałej ilości (21 milionów jednostek), wówczas ich cena jednostkowa może stać się bardzo wysoka, gdy więcej osób dołączy do tej gospodarki. Ten argument przekonuje w szczególności Dustina Trammella, który rozpoczyna generowanie bitcoinów bardzo wcześnie, na temat czego dzieli się z Satoshim w ich [prywatnej korespondencji](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip):
 
@@ -1087,7 +1087,7 @@ Dwa ostatnie powody są znacznie bardziej znaczące, ponieważ motywują ludzi d
 
 
 - Hal Finney, który prowadził swój komputer w okresie od uruchomienia sieci do marca 2009 roku, zdołał zgromadzić ponad 10 000 bitcoinów.
-- Dustin Trammell, który wydobywa imponującą liczbę bloków w 2009 i na początku 2010 roku, uzyskując w ten sposób ponad 70 000 bitcoinów, o czym świadczy aktywność związana z jego [adresem](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv); - brytyjski inżynier o imieniu James Howells, który [generuje](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 8 000 bitcoinów za pomocą swojego komputera między lutym a kwietniem (w 2013 r. wyśle swój komputer na wysypisko śmieci i zda sobie sprawę ze swojego błędu kilka miesięcy później; jego sprawa zostanie następnie [nagłośniona](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site) przez *The Guardian*);
+- Dustin Trammell, który wydobywa imponującą liczbę bloków w 2009 i na początku 2010 roku, uzyskując w ten sposób ponad 70 000 bitcoinów, o czym świadczy aktywność związana z jego [adresem](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv); - - - brytyjski inżynier o imieniu James Howells, który [generuje](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 8 000 bitcoinów za pomocą swojego komputera między lutym a kwietniem (w 2013 r. wyśle swój komputer na wysypisko śmieci i zda sobie sprawę ze swojego błędu kilka miesięcy później; jego sprawa zostanie następnie [nagłośniona](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site) przez *The Guardian*);
 - Martti Malmi, który przyczynia się do produkcji bloków w sieci w okresie od kwietnia 2009 r. do 2010 r. i w ten sposób [uzyskuje](https://twitter.com/marttimalmi/status/1339908783187832834) ponad 55 000 bitcoinów;
 - Niejaki NewLibertyStandard, który od września 2009 roku generuje znaczną liczbę bitcoinów, by zasilić swój rodzący się serwis wymiany...
 

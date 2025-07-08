@@ -1532,25 +1532,25 @@ Następnego ranka, krótko po 8 rano, konfliktowa sytuacja została rozwiązana.
 
 ### System ostrzegania
 
-Po odkryciu błędu 1 RETURN w lipcu, Satoshi Nakamoto zrobił wszystko, co możliwe, aby zabezpieczyć sieć przed wypadkami. 3 sierpnia dodał do oprogramowania mechanizm ostrzegawczy, który aktywuje się w przypadku podziału łańcucha ([v0.3.8](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364)). Mechanizm ten okazał się jednak nieprzydatny do wykrywania błędu przepełnienia wartości, który pojawił się 15 sierpnia, co skłoniło Satoshiego do przyspieszenia [swojego planu](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586) w celu opracowania bardziej zaawansowanego mechanizmu.
+Po odkryciu błędu 1 RETURN w lipcu, Satoshi Nakamoto zrobił wszystko, co możliwe, aby zabezpieczyć sieć przed wypadkami. 3 sierpnia dodał do oprogramowania mechanizm ostrzegawczy, który aktywuje się w przypadku podziału łańcucha ([v0.3.8](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364)). Mechanizm ten okazał się jednak nieprzydatny do wykrycia błędu przepełnienia wartości, który pojawił się 15 sierpnia, co skłoniło Satoshiego do przyspieszenia [swojego planu](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586) w celu opracowania bardziej zaawansowanego mechanizmu.
 
 
 W dniach następujących po incydencie Satoshi zbudował skuteczny system ostrzegania w sieci, który pozwolił mu, za pomocą klucza prywatnego, ostrzegać węzły w przypadku problemów technicznych i zawieszać niektóre polecenia API. 22 sierpnia Satoshi [zaprezentował](https://bitcointalk.org/index.php?topic=898.msg10722#msg10722) swój system na forum. To ogłoszenie wzbudziło obawy wśród członków, którzy widzieli w tym systemie element centralizacji i lukę, którą państwo mogłoby wykorzystać. Satoshi [odpowiedział](https://bitcointalk.org/index.php?topic=898.msg11074#msg11074) dwa dni później, nazywając te rozważania „paranoicznymi” i podkreślając, że system może być ręcznie wyłączony przez użytkowników i że i tak byłaby to sytuacja tymczasowa.
 
 
-27 sierpnia system alertów został oficjalnie zintegrowany z oprogramowaniem ([v0.3.11](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439)). Możliwość zawieszenia funkcjonalności została [usunięta](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) w grudniu. W kolejnych latach system ostrzegania był użyty kilka razy, w szczególności w przypadku przypadkowego forka w 2013 roku, zanim w 2017 roku został ostatecznie [usunięty](https://Bitcoin.org/en/alert/2016-11-01-alert-retirement) z oprogramowania.
+27 sierpnia system alertów został oficjalnie zintegrowany z oprogramowaniem ([v0.3.11](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439)). Możliwość zawieszenia funkcjonalności została [usunięta](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) w grudniu. W kolejnych latach system ostrzegania był użyty kilka razy, w szczególności w sytuacji przypadkowego forka w 2013 roku, zanim w 2017 roku został ostatecznie [usunięty](https://Bitcoin.org/en/alert/2016-11-01-alert-retirement) z oprogramowania.
 
 
 ### Limit rozmiaru bloku
 
 
-Kolejnym elementem, który jest częścią wysiłków zmierzających do ulepszenia protokołu, aby uczynić go odpornym na ataki, jest dodanie limitu rozmiaru bloku transakcyjnego. Limit ten jest parametrem, który ogranicza pojemność transakcyjną systemu, wymagając, aby każdy blok był mniejszy niż ten rozmiar. Jego początkowym celem było zapobieganie atakom na sieć typu odmowa usługi.
+Kolejnym elementem, który jest częścią wysiłków zmierzających do ulepszenia protokołu, aby uczynić go odpornym na ataki, jest dodanie limitu rozmiaru bloku transakcyjnego. Limit ten jest parametrem, który ogranicza pojemność transakcyjną systemu, wymagając, aby każdy blok był mniejszy niż ten rozmiar. Jego początkowym celem było zapobieganie atakom typu odmowa usługi na sieć.
 
 
 Parametr ten został [dodany](https://sourceforge.net/p/Bitcoin/code/103/) dyskretnie do kodu przez Satoshiego 15 lipca w postaci stałej `MAX_BLOCK_SIZE` (v0.3.1), która następnie została ustawiona na 1 megabajt (1 000 000 bajtów). Programowanie implementacji ograniczenia zostało [przeprowadzone](https://sourceforge.net/p/Bitcoin/code/103/) 7 września przez twórcę Bitcoina, ponownie bez żadnego publicznego ogłoszenia z jego strony (v0.3.12). Przewidywał on, że ograniczenie rozmiaru (które również ogranicza liczbę operatorów podpisów w blokach) wejdzie w życie począwszy od bloku 79,400. Aktywacja [nastąpiła](https://Mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7) 12 września. Ograniczenie to było wówczas dość łagodne: pozwalało na przepustowość 7 standardowych transakcji na sekundę, co było więcej niż wystarczające do wspierania ówczesnej aktywności gospodarczej, nawet po dużym zwiększeniu liczby użytkowników po zamieszczeniu informacji na Slashdot.
 
 
-Chociaż Satoshi nie wspominał o istnieniu limitu rozmiaru bloku, kilka osób zauważyło jego obecność w kodzie w miarę upływu czasu. Zostało to zauważone już 12 sierpnia przez rosyjskojęzycznego członka forum używającego pseudonimu throughput, który [stwierdził](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873), w stosunkowo przychylnym tonie, że „Innym interesującym aspektem jest to, że rozmiar bajtu bloku (a więc liczba transakcji w nim) jest ograniczony”. Później, 30 września, to Theymos [wskazał](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) innemu członkowi, że „Bitcoin nie zezwala na bloki powyżej 1 MB, więc zakładając (raczej niewielki) średni rozmiar transakcji wynoszący 216 bajtów, Bitcoin może obsłużyć tylko 4629 transakcji co 10 minut”.
+Chociaż Satoshi nie wspominał o istnieniu limitu rozmiaru bloku, kilka osób z czasem zauważyło jego obecność w kodzie. Zostało to zauważone już 12 sierpnia przez rosyjskojęzycznego członka forum używającego pseudonimu throughput, który [stwierdził](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873), w stosunkowo przychylnym tonie, że „Innym interesującym aspektem jest to, że rozmiar bajtu bloku (a więc liczba transakcji w nim) jest ograniczony”. Później, 30 września, to Theymos [wskazał](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) innemu członkowi, że „Bitcoin nie zezwala na bloki powyżej 1 MB, więc zakładając (raczej niewielki) średni rozmiar transakcji wynoszący 216 bajtów, Bitcoin może obsłużyć tylko 4629 transakcji co 10 minut”.
 
 Wreszcie, obecność tego parametru wpływa na Jeffa Garzika, który [deklaruje](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750), że jest „znacznie bardziej zaniepokojony skalowalnością sieci niż jej zamknięciem przez rząd” i który [pyta](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107), jak można „sprzedać Bitcoina poważnym inwestorom, z wbudowanymi ograniczeniami, takimi jak limit 463 transakcji na minutę”. W związku z tym 3 października zaproponował na forum poprawkę zwiększającą limit rozmiaru bloku do 7,168 MB, aby „dopasować średnią szybkość transakcji PayPal”. Theymos odpowiada, że „zastosowanie tej poprawki sprawi, że będziesz niekompatybilny z innymi klientami Bitcoina”. Wiadomość ta jest popierana przez Satoshiego Nakamoto, który [zaleca](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) nieużywanie poprawki i stwierdza: „Możemy stopniowo wprowadzić zmianę później, jeśli zbliżymy się do momentu, w którym będziemy jej potrzebować”. Ten ostatni [wyjaśnia](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) swoje myśli następnego dnia, dostarczając wskazówek, jak wprowadzić taką zmianę protokołu.
 
@@ -1583,7 +1583,7 @@ To normatywne rozróżnienie pomaga ograniczyć wykorzystywanie potencjalnych lu
 Latem 2010 roku, w okresie obfitującym w wydarzenia, Satoshi poświęcił się rozwojowi oprogramowania Bitcoin. Publikacja tekstu wprowadzającego do Bitcoina na Slashdocie doprowadziła do bezprecedensowego napływu użytkowników, co również naraziło system na ryzyko. W związku z tym założyciel i osoby mu pomagające (w tym zwłaszcza Gavin Andresen) starali się jak najlepiej naprawić luki w zabezpieczeniach. Sieć nie uniknęła jednak poważnego incydentu, przepełnienia wartości, który doprowadził do stworzenia systemu ostrzegania zarządzanego przez Satoshiego w oprogramowaniu. Wreszcie, w okresie tym dodano również limit rozmiaru bloku, fundamentalny elementu historii Bitcoina.
 
 
-W kolejnych miesiącach nadal pojawiały się ulepszenia techniczne, ekonomiczne i wydobywcze, stopniowo przekształcając Bitcoina w projekt zbiorowy. „Społeczność Bitcoina” w końcu ożyła jako podmiot autonomiczny. To właśnie przeanalizujemy w następnej części tego kursu.
+W kolejnych miesiącach nadal pojawiały się ulepszenia techniczne, ekonomiczne i wydobywcze, stopniowo przekształcające Bitcoina w projekt zbiorowy. „Społeczność Bitcoina” w końcu ożyła jako podmiot autonomiczny. To właśnie przeanalizujemy w następnej części tego kursu.
 
 
 # Społeczność Bitcoina
@@ -1633,7 +1633,7 @@ Pozycja ta została jednak szybko podważona jesienią przez inne osoby, które 
 Pod koniec lata 2010 r. przykład ArtForza zainspirował innych wydobywających, którzy w pośpiechu opracowali własne metody wydobywania bitcoinów za pomocą procesorów graficznych. W tym celu górnicy wykorzystywali środowiska programistyczne, takie jak CUDA lub OpenCL. Pozwoliło im to osiągnąć moc obliczeniową mierzoną w MH/s i generować znaczną część całkowitej mocy.
 
 
-2 września wydobywający o pseudonimie puddinpop [udostępnił](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940) plik wykonywalny swojego klienta, wykorzystujący algorytm wykorzystujący CUDA. Załączył opłatę w wysokości 10% dla każdego, kto go użyje. Takie podejście nie zostało szczególnie dobrze przyjęte przez członków forum, którzy byli zwolennikami wolnego oprogramowania.
+2 września wydobywający o pseudonimie puddinpop [udostępnił](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940) plik wykonywalny swojego klienta, z algorytmem wykorzystujący CUDA. Załączył opłatę w wysokości 10% dla każdego, kto go użyje. Takie podejście nie zostało szczególnie dobrze przyjęte przez członków forum, którzy byli zwolennikami wolnego oprogramowania.
 
 
 6 września, po sugestii członka forum, [stwierdził](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107), że byłby „być może skłonny udostępnić kod jako otwarty”, gdyby otrzymał „znaczącą darowiznę”. Piętnastego dnia Jeff Garzik złożył [ofertę](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921) w tym zakresie, proponując przekazanie puddinpopowi 10 000 bitcoinów, co w tamtym czasie wynosiło około 600 dolarów. Puddinpop zgodził się: transakcja miała [miejsce](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) 18-go, a algorytm został [opublikowany](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) na wolnej licencji przez użytkownika puddinpop wkrótce potem.
@@ -1647,7 +1647,7 @@ Ulepszenie to pozwoliło najbardziej uzdolnionym technicznie osobom na generacj�
 ### Pierwsze pule wydobywcze
 
 
-Ogromny wzrost wskaźnika haszowania spowodowany specjalizacją wydobycia spowodował utrudnienie generowania bitcoinów z pomocą procesora centralnego, który stawał się coraz mniej przystępny cenowo. Rzeczywiście, możliwość generowania bitcoinów stała się bardziej zależna od losowości rezultatów, a niektórym osobom nigdy nie udało się wyprodukować bloku. Rozwiązaniem tego problemu jest współpraca przy wydobyciu.
+Ogromny wzrost wskaźnika haszowania spowodowany specjalizacją wydobycia spowodował utrudnienie generowania bitcoinów za pomocą procesora centralnego, który stawał się coraz mniej przystępny cenowo. Rzeczywiście, możliwość generowania bitcoinów stała się bardziej zależna od losowości rezultatów, a niektórym osobom nigdy nie udało się wyprodukować bloku. Rozwiązaniem tego problemu jest współpraca przy wydobyciu.
 
 
 1 października m0mchil [opublikował](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) modyfikację API, która umożliwia węzłom pobieranie bloku kandydującego za pomocą nowej funkcji o nazwie `getwork` i zwracanie dowodu pracy, jeśli znaleziono rozwiązanie. Napisał, że ta „poprawka otwiera drogę dla zewnętrznych górników Bitcoina” i „pozwala na konfigurację wielu górników dla jednego klienta”.
@@ -1719,7 +1719,7 @@ To właśnie w społeczności francuskiej sytuacja uległa zmianie, zwłaszcza d
 
 > „Nie mogę spać! Ciągle myślę o tym wspaniałym wynalazku. Dla mnie Bitcoin to „złoto cyberprzestrzeni”. Jestem po prostu zdumiony.”
 
-Kilka dni później, 30-go, opublikował [informację prasową](https://linuxfr.org/news/connaissez-vous-les-bitcoins) w języku francuskim na LinuxFr.org (DLFP). Informacja ta, zatytułowana „Czy znasz bitcoiny?”, jest prawdopodobnie pierwszą prezentacją Bitcoina napisaną w języku Moliera. Artykuł dotarł do dużej liczby osób, generując prawie 350 komentarzy. Oto pierwszy akapit, jaki [pojawił się](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) w tamtym czasie:
+Kilka dni później, 30-go, opublikował [informację prasową](https://linuxfr.org/news/connaissez-vous-les-bitcoins) w języku francuskim na LinuxFr.org (DLFP). Informacja ta, zatytułowana „Czy wiesz, co to są bitcoiny?”, jest prawdopodobnie pierwszą prezentacją Bitcoina napisaną w języku Moliera. Artykuł dotarł do dużej liczby osób, generując prawie 350 komentarzy. Oto pierwszy akapit, jaki [pojawił się](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) w tamtym czasie:
 
 
 ![Do you know about bitcoins?](assets/en/52.webp)
@@ -1733,7 +1733,7 @@ Wiadomość ta zwróciła uwagę niejakiego Plouma, czyli Lionela Dricota, 29-le
 Lionel Dricot (Ploum) w 2012 r., wówczas kandydat pod szyldem Partii Piratów w wyborach samorządowych w Belgii (źródło: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
 
-Tego samego dnia Ploum otworzył francuski [wątek dyskusyjny](https://bitcointalk.org/index.php?topic=1567.0) na forum Bitcoin. Wiadomości od francuskojęzycznych członków forum przybywało w kolejnych miesiącach. Szczególnie aktywni byli David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), zarejestrowany 17 października i przyszły założyciel Bitcoin-Central, oraz Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), zarejestrowany 7 listopada i przyszły właściciel platformy Mt. Gox. Zaangażował się w nią również niejaki Jean-Luc, który otworzył stronę [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.Bitcoin.fr:80/) 23 grudnia i zaczął ją [promować](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) w styczniu. [Francuskie podforum](https://web.archive.org/web/20110217005824/http://www.Bitcoin.org/smf/index.php?board=13.0) zostało ostatecznie utworzone przez Marttiego Malmi 1 lutego 2011 roku.
+Tego samego dnia Ploum otworzył francuski [wątek dyskusyjny](https://bitcointalk.org/index.php?topic=1567.0) na forum Bitcoina. Wiadomości od francuskojęzycznych członków forum przybywało w kolejnych miesiącach. Szczególnie aktywni byli David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), zarejestrowany 17 października i przyszły założyciel Bitcoin-Central, oraz Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), zarejestrowany 7 listopada i przyszły właściciel platformy Mt. Gox. Zaangażował się w nią również niejaki Jean-Luc, który otworzył stronę [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.Bitcoin.fr:80/) 23 grudnia i zaczął ją [promować](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) w styczniu. [Francuskie podforum](https://web.archive.org/web/20110217005824/http://www.Bitcoin.org/smf/index.php?board=13.0) zostało ostatecznie utworzone przez Marttiego Malmi 1 lutego 2011 roku.
 
 
 ### Rozwój komunikacji
@@ -1760,7 +1760,7 @@ W tym czasie zaproponowano również nowe logo Bitcoina. 1 listopada członek fo
 
 ### Rozwijająca się gospodarka
 
-Okres ten charakteryzuje się również znacznym wzrostem ekosystemu na poziomie ekonomicznym. Jesienią 2010 roku istnieją platformy takie jak Mt. Gox, Bitcoin Market i kilka innych, ale to nie wystarczy. W ten sposób wolnoobrotowe giełdy zaczynają się mnożyć. Oprócz wymiany, która odbywa się za pośrednictwem prywatnych wiadomości na forum, wprowadzono nieco bardziej rygorystyczny system: #Bitcoin-otc. Jest to kanał IRC na Freenode [otwarty](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) przez użytkownika o pseudonimie nanotube 18 października. Księga zamówień jest hostowana na [powiązanej stronie internetowej](https://web.archive.org/web/20101027090714/http://Bitcoin-otc.com/vieworderbook.php), a wymiany odbywają się bezpośrednio między stronami, bez depozytu escrow, za pośrednictwem różnych metod płatności (PayPal, Liberty Reserve). Liczba usług akceptujących Bitcoina również wzrasta, nawet jeśli pozostaje stosunkowo niska, co [potwierdza](https://web.archive.org/web/20101120224505/http://www.Bitcoin.org/trade) strona z listą oficjalnej witryny.
+Okres ten charakteryzuje się również znacznym wzrostem ekosystemu na poziomie ekonomicznym. Jesienią 2010 roku istnieją platformy takie jak Mt. Gox, Bitcoin Market i kilka innych, ale to nie wystarczy. W ten sposób wolnoobrotowe giełdy zaczynają się mnożyć. Oprócz wymiany, która odbywa się za pośrednictwem prywatnych wiadomości na forum, wprowadzono nieco bardziej rygorystyczny system: #Bitcoin-otc. Jest to kanał IRC na Freenode [otwarty](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) przez użytkownika o pseudonimie nanotube 18 października. Księga zamówień jest hostowana na [powiązanej stronie internetowej](https://web.archive.org/web/20101027090714/http://Bitcoin-otc.com/vieworderbook.php), a wymiany odbywają się bezpośrednio między stronami, bez rachunku powierniczego, za pośrednictwem różnych metod płatności (PayPal, Liberty Reserve). Liczba usług akceptujących Bitcoina również wzrasta, nawet jeśli pozostaje stosunkowo niska, co [potwierdza](https://web.archive.org/web/20101120224505/http://www.Bitcoin.org/trade) strona z listą na oficjalnej witrynie.
 
 Wszystkie te elementy prowadzą do drastycznego wzrostu ceny. Podczas gdy od sierpnia stabilizuje się w okolicach 6 centów, zaczyna rosnąć na początku października. Wzrasta do 10 centów, by pod koniec miesiąca osiągnąć 20 centów. 6 listopada przekroczyła nawet 50 centów, co [emocjonuje] (https://bitcointalk.org/index.php?topic=1681.0) członków forum.
 
@@ -1776,7 +1776,7 @@ Rozwój Bitcoina oznacza, że zaczyna się mierzyć ceny, aktywność w łańcuc
 
 - Bitcoin Watch ([bitcoinwatch.com](https://web.archive.org/web/20100816161306/http://www.bitcoinwatch.com/)), agregator statystyk [opracowany](https://bitcointalk.org/index.php?topic=734.msg7954#msg7954) przez Jeffa Garzika (jgarzik);
 - Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/)), aplikacja do śledzenia cen i wyświetlania wykresów [uruchomiona](https://bitcointalk.org/index.php?topic=1659.0) przez Nilsa Schneider (tcatm) 4 listopada;
-- Bitcoin Block explorer ([blockexplorer.com](https://web.archive.org/web/20101128030227/http://blockexplorer.com/)), Block explorer [utworzony](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) przez Theymos 10 listopada, który umożliwia każdemu dostęp do zawartości bloków i transakcji Bitcoin za pomocą przeglądarki internetowej;
+- Bitcoin Block explorer ([blockexplorer.com](https://web.archive.org/web/20101128030227/http://blockexplorer.com/)), Block explorer [utworzony](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) przez Theymos 10 listopada, który umożliwia każdemu dostęp do zawartości bloków i transakcji w bitcoinach za pomocą przeglądarki internetowej;
 - Bitcoin Network Graphs ([Bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://Bitcoin.sipa.be/)), strona wyświetlająca wykresy ewolucji szybkości haszowania Bitcoina [uruchomiona](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173) przez Pietera Wuille (sipa) 28 stycznia 2011 r;
 - Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)), narzędzie do wizualizacji transakcji, bloków i operacji wymiany w czasie rzeczywistym, [umieszczone online](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150) przez Jana Vornbergera (jav) w dniu 6 lutego 2011 r.
 
@@ -1796,7 +1796,7 @@ Ważnym wydarzeniem pod koniec 2010 roku było zaakceptowanie Bitcoina przez Ele
 To członek forum o imieniu Kiba podjął inicjatywę 13 sierpnia 2010 r., [proponując](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) skontaktowanie się z EFF i zasugerowanie przyjęcia darowizny, [zebranej](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) od społeczności. W tym celu założył [konto](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) na MyBitcoin, gdzie zebrał fundusze i chciał przekazać EFF dostęp do niego. Przygotował wiadomość e-mail (poprawioną przez społeczność), którą wysłał pod koniec sierpnia.
 
 
-Dwa tygodnie później, wobec braku odpowiedzi, z pomocą przyszedł mu drugi członek forum. Członek ten, używający pseudonimu BrightAnarchist, znał jednego z założycieli i wysłał mu wiadomość e-mail 13 września. Otrzymał odpowiedź tego samego dnia i [napisał](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631) na forum, że „EFF jest zdecydowanie zainteresowany otrzymaniem Bitcoinów!”. Konto zostało następnie przekazane organizacji.
+Dwa tygodnie później, wobec braku odpowiedzi, z pomocą przyszedł mu drugi członek forum. Członek ten, używający pseudonimu BrightAnarchist, znał jednego z założycieli i wysłał mu wiadomość e-mail 13 września. Otrzymał odpowiedź tego samego dnia i [napisał](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631) na forum, że „EFF jest zdecydowanie zainteresowany otrzymaniem bitcoinów!”. Konto zostało następnie przekazane organizacji.
 
 
 EFF potrzebował trochę czasu, aby zacząć przyjmować publiczne darowizny. Po negocjacjach społeczność przekonała ich do opublikowania adresu do otrzymywania darowizn na swojej stronie internetowej. 9 listopada adres pojawił się na [stronie darowizn](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Użytkownicy Bitcoina [zaczęli](https://Mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) przelewać środki.
@@ -1815,13 +1815,13 @@ To bardzo dobra wiadomość dla Bitcoina, ponieważ obie inicjatywy mają wspól
 ### Powrót Hala Finneya
 
 
-Niedługo po wycofaniu się z Bitcoina w kwietniu 2009 r., u Hala Finney'a zdiagnozowano stwardnienie zanikowe boczne, [diagnoza](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) została postawiona w sierpniu 2009 roku. Dostosowuje swój sposób życia do choroby, ale jego zdolności motoryczne stopniowo maleją.
+Niedługo po jego wycofaniu się z Bitcoina w kwietniu 2009 r., u Hala Finney'a zdiagnozowano stwardnienie zanikowe boczne, [diagnoza](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) została postawiona w sierpniu 2009 roku. Dostosowuje swój sposób życia do choroby, ale jego zdolności motoryczne stopniowo maleją.
 
 
 30 listopada rejestruje się na forum Bitcoin i zaczyna uczestniczyć w dyskusjach, w szczególności dotyczących projektu BitDNS. Nie waha się przekazywać niewielkich darowizn na rzecz różnych projektów kwitnących w ekosystemie.
 
 
-Co więcej, analizuje kod, do którego nie zaglądał od czasu jego premiery, i zdaje sobie sprawę, jak wiele pracy wykonano od tego czasu. Ta świadomość skłania go do [napisania](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) następującego komentarza na forum 11 grudnia:
+Co więcej, analizuje kod, do którego nie zaglądał od czasu jego premiery, i zauważa, jak wiele pracy wykonano od tego czasu. Ta świadomość skłania go do [napisania](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) następującego komentarza na forum 11 grudnia:
 
 > „Jestem pod wrażeniem pracy włożonej w projekt, chociaż chciałbym, żeby było więcej komentarzy. Przeanalizowałem głównie init, main, script i trochę modułów net. To potężna maszyneria.”
 
@@ -1859,7 +1859,7 @@ Satoshi Nakamoto jednak nigdy się z nią nie związał, więc wypowiedzi tam by
 Satoshi jest rzeczywiście wybrany na lidera projektu, jest znany w świecie oprogramowania open source jako „[Benevolent Dictator for Life](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)”. Jego rolą jest zapewnienie stabilności otwartego rozwoju poprzez podejmowanie decyzji za wszystkich, co ogranicza ryzyko buntu i podziałów. Jak [wyjaśnił](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-528) Gavin Andresen, jest on „strażnikiem”: „cały kod przechodzi przez niego”.
 
 
-Jednak kod źródłowy Bitcoina pozostaje wolny, więc każdy może go kopiować i modyfikować, co zapobiega całkowitej arbitralności ewolucji protokołu. Jak [powiedział](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538) Jeff Garzik 19 listopada:
+Jednak kod źródłowy Bitcoina pozostaje otwarty, więc każdy może go kopiować i modyfikować, co zapobiega całkowitej arbitralności ewolucji protokołu. Jak [powiedział](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538) Jeff Garzik 19 listopada:
 
 
 > „Satoshi wymyślił magiczne liczby z powietrza, a my wspólnie wspieramy wyznaczony przez niego kierunek. [...] Moment, w którym Satoshi robi coś szalonego, co nie jest wspierane przez społeczność, jest momentem, w którym protokół/baza kodów jest naprawdę rozwidlona”.
@@ -1872,7 +1872,7 @@ Gavin, który jest blisko Satoshiego, ale także dyskutuje z innymi deweloperami
 ### Afera WikiLeaks
 
 
-Wydarzeniem, które spowodowało odejście Satoshiego jest afera WikiLeaks. WikiLeaks to organizacja pozarządowa założona przez Cypherpunka Juliana Assange'a w 2006 r., mająca na celu udzielenie głosu demaskatorom i przeciekom informacji przy jednoczesnej ochronie ich źródeł. W 2010 roku poufne dokumenty ujawnione przez organizację pozarządową zostały przekazane przez główne media i wywołały poruszenie opinii publicznej. Dotyczą one w szczególności przesadnych działań armii amerykańskiej, takich jak powodowanie ofiar cywilnych i akty tortur popełnione w Afganistanie (Afghan War Diary) i Iraku (Iraq War Logs).
+Wydarzeniem, które spowodowało odejście Satoshiego jest afera WikiLeaks. WikiLeaks to organizacja pozarządowa założona przez Cypherpunka Juliana Assange'a w 2006 r., mająca na celu udzielanie głosu demaskatorom i upublicznianie przecieków informacji przy jednoczesnej ochronie ich źródeł. W 2010 roku poufne dokumenty ujawnione przez organizację pozarządową zostały przekazane przez główne media i wywołały poruszenie opinii publicznej. Dotyczą one w szczególności przesadnych działań armii amerykańskiej, takich jak powodowanie ofiar cywilnych i akty tortur popełnione w Afganistanie (Afghan War Diary) i Iraku (Iraq War Logs).
 
 
 ![WikiLeaks logo in November 2010](assets/en/59.webp)
@@ -1894,16 +1894,16 @@ Haker, anarchista i [pokerzysta] (https://bitcointalk.org/index.php?topic=1487.0
 
 > „Chciałem wysłać list do Wikileaks w sprawie Bitcoina, ponieważ w przeszłości niestety mieli kilka incydentów, w których ich fundusze zostały zajęte. [...] Czy ktoś wie, gdzie można wysłać do nich wiadomość?”
 
-Reakcje na tę propozycję są mieszane. [Według](https://bitcointalk.org/index.php?topic=1735.msg21283#msg21283) jednego z użytkowników (ShadowOfHarbringer), „to może być dobre dla wikileaks, ale niekoniecznie dobre dla Bitcoina”. Inny (creighto) [pisze](https://bitcointalk.org/index.php?topic=1735.msg21415#msg21415), że „im później, tym lepiej. Im dłużej rządy zwlekają z działaniem, tym silniejsza staje się sieć Bitcoin i tym trudniej jej zaszkodzić”.
+Reakcje na tę propozycję są mieszane. [Według](https://bitcointalk.org/index.php?topic=1735.msg21283#msg21283) jednego z użytkowników (ShadowOfHarbringer), „to może być dobre dla Wikileaks, ale niekoniecznie dobre dla Bitcoina”. Inny (creighto) [pisze](https://bitcointalk.org/index.php?topic=1735.msg21415#msg21415), że „im później, tym lepiej. Im dłużej rządy zwlekają z działaniem, tym silniejsza staje się sieć Bitcoin i tym trudniej jej zaszkodzić”.
 
 
 Kilka tygodni później, 3 grudnia, PayPal decyduje się zamrozić konto WikiLeaks i w nocy publikuje [oświadczenie](https://web.archive.org/web/20101206112350/https://www.thepaypalblog.com/2010/12/paypal-statement-regarding-wikileaks/). Następnego ranka deweloper Wladimir van der Laan [przekazuje](https://bitcointalk.org/index.php?topic=1735.msg26737#msg26737) tę wiadomość na forum:
 
 
 > „Paypal właśnie ich zablokował i próbują nakłonić inne amerykańskie banki do zrobienia tego samego. To byłby świetny moment na otwarcie darowizn w bitcoinach.”
-Taki rozwój sytuacji intensyfikuje debatę. Szczególnie jedna osoba popiera akceptację Bitcoina przez WikiLeaks: Robert S. Horning, inżynier komputerowy mieszkający w Utah, który jest [blogerem](https://www.blogger.com/profile/12496217305843430098) i współtwórcą Wikipedii, i który odkrył Bitcoina po slashdottingu w lipcu. Tego dnia napisał długi tekst, w którym wyjaśnia, że wspieranie WikiLeaks jest moralnie słuszne i że państwo i tak prędzej czy później usłyszy o Bitcoinie. Konkluduje:
+Taki rozwój sytuacji intensyfikuje debatę. Szczególnie jedna osoba popiera akceptację Bitcoina przez WikiLeaks: Robert S. Horning, inżynier komputerowy mieszkający w Utah, który jest [blogerem](https://www.blogger.com/profile/12496217305843430098) i współtwórcą Wikipedii, i który odkrył Bitcoina po publikacji na forum Slashdot w lipcu. Tego dnia napisał długi tekst, w którym wyjaśnia, że wspieranie WikiLeaks jest moralnie słuszne i że państwo i tak prędzej czy później usłyszy o Bitcoinie. Konkluduje:
 
-> „Zachęćmy Wikileaks do korzystania z Bitcoinów i jestem gotów stawić czoła wszelkiemu ryzyku lub skutkom tego działania”.
+> „Zachęćmy Wikileaks do korzystania z bitcoinów i jestem gotów stawić czoła wszelkiemu ryzyku lub skutkom tego działania”.
 
 ### Nagłe odejście Satoshiego
 
@@ -1953,7 +1953,7 @@ Satoshi przekazał kontrolę nad stroną, forum i wiki Marttiemu, który już wc
 Wśród ostatnich osób, które komunikowały się z Satoshim był również Mike Hearn, inżynier Google, który zwrócił się do niego dwa lata wcześniej. Hearn ponownie nawiązał kontakt z twórcą Bitcoina w grudniu 2010 roku, aby zadać mu więcej pytań technicznych. Hearn [pracował](https://plan99.net/~mike/Satoshi-emails/thread3.html) nad „implementacją uproszczonej weryfikacji płatności w Javie, z myślą o zbudowaniu klienta działającego na telefonach z Androidem”. (*oryginał: "I have been working on a Java implementation of the simplified payment verification, with an eye to building a client that runs on Android phones. "*) Obaj mężczyźni wymieniali wiadomości do 23 kwietnia. W swoim [ostatnim e-mailu](https://plan99.net/~mike/Satoshi-emails/thread5.html) do Mike'a Hearna, Satoshi oświadczył, że „zaczął zajmować się innymi rzeczami” i że Bitcoin jest „w dobrych rękach z Gavinem i innymi” (*oryg: "I've moved on to other things. &nbsp;It's in good hands with Gavin and everyone. "*).
 
 
-W dniu 26 kwietnia 2011 r. Satoshi wysłał [wiadomość końcową](http://gavinandresen.ninja/eleven-years-ago-today) pocztą elektroniczną do Gavina, w której napisał:
+W dniu 26 kwietnia 2011 r. Satoshi wysłał [ostatnią wiadomość](http://gavinandresen.ninja/eleven-years-ago-today) pocztą elektroniczną do Gavina, w której napisał:
 
 
 > „Chciałbym, żebyście nie mówili o mnie jako o tajemniczej, podejrzanej osobie, prasa przedstawia to potem tak, jakby chodziło o walutę przestepców. Może zamiast tego niech to będzie o projekcie open source i dajcie więcej uznania waszym twórcom; to pomaga ich zmotywować”.

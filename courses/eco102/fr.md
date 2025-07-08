@@ -402,12 +402,12 @@ La question du libre-échange continue de se poser aujourd’hui. Les manuels de
 
 :::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
 
-Frédéric Bastiat, qui s'est exprimé dans les années 1840, est l'héritier d'une génération de philosophes des Lumières qui se sont battus contre la censure et pour la liberté de débattre. Pensons ici à Montesquieu, Diderot Voltaire, Condorcet mais aussi à Rousseau .
+Frédéric Bastiat, qui s'est exprimé dans les années 1840, est l'héritier d'une génération de philosophes des Lumières qui se sont battus contre la censure et pour la liberté de débattre. Pensons ici à Montesquieu, Diderot, Voltaire, Condorcet mais aussi à Rousseau .
 
 Pour eux, l'idée était simple : plus on laisse les idées s'exprimer, plus la vérité progresse et plus les erreurs se réfutent facilement. La science progresse d'ailleurs toujours de cette manière.
 
 ![image](assets/en/046.webp)
-_(Montesquieu, Diedrot, Voltaire, Condorcet, Rousseau)_
+_(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
 En revanche, peu ont compris que ce qui était vrai pour les idées, l'était également pour les biens et les services. La liberté d'échanger avec autru i a en effet deux vertus, celle d'être efficace et celle de conduire à une plus juste répartition. Non seulement Rousseau ne l’a pas compris mais il a combattu cette liberté au nom d’une fausse idée de la loi et du droit. L’une des sources majeures du socialisme, note Bastiat, c'est l'opinion de Rousseau selon laquelle l’ordre social tout entier découle de la loi.
 

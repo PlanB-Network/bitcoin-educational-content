@@ -1,0 +1,4 @@
+description: |
+  Electrum je svestrani Bitcoin Wallet koji daje prioritet bezbednosti korisnika i fleksibilnosti.
+  
+  Podržava više platformi uključujući mobilne, desktop i komandne linije interfejsa. Vaši privatni ključevi su šifrovani i čuvaju se na vašem uređaju, osiguravajući da nikada nisu izloženi. Štaviše, Electrum koristi tajnu frazu za omogućavanje oporavka sredstava i pruža brz pristup Bitcoin Blockchain putem svoje mreže servera. Podržava offline "Cold skladištenje" kako bi vaši privatni ključevi ostali sigurni, i nudi Multisig mogućnosti za podelu dozvola za trošenje novčića. Electrum takođe verifikuje sve transakcije u vašoj istoriji koristeći Pojednostavljenu Verifikaciju Plaćanja (SPV), i omogućava integracije dodataka trećih strana, kao što su Multisig usluge i hardverski novčanici.

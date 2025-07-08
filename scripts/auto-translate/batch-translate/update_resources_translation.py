@@ -28,7 +28,7 @@ def create_txt_to_en_from(lang: str) -> None:
     """Create a list of files that need translation from given language to English."""
     base_dirs = [
         PROJECT_ROOT / "professors",
-        PROJECT_ROOT / "resources" / "builders",
+        PROJECT_ROOT / "resources" / "projects",
         PROJECT_ROOT / "resources" / "bet",
         PROJECT_ROOT / "resources" / "books",
         PROJECT_ROOT / "resources" / "glossary"
@@ -55,7 +55,7 @@ def create_txt_to_en_from(lang: str) -> None:
 def create_txt_from_en_to(lang: str) -> None:
     """Create a list of files that need translation from English to given language."""
     base_dirs = [
-        PROJECT_ROOT / "resources" / "builders",
+        PROJECT_ROOT / "resources" / "projects",
         PROJECT_ROOT / "resources" / "bet",
         PROJECT_ROOT / "resources" / "books",
         PROJECT_ROOT / "resources" / "glossary"

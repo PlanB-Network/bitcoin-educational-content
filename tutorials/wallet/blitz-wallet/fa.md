@@ -1,5 +1,5 @@
 ---
-نام: Blitz Wallet
+name: Blitz Wallet
 
 
 description: ساده‌ترین پرتفوی Bitcoin.

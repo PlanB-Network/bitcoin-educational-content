@@ -1,5 +1,5 @@
 ---
-名称 : Blitz Wallet
+name: Blitz Wallet
 
 
 description: 最简单的 Bitcoin 组合。

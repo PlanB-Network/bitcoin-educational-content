@@ -17,7 +17,7 @@ objectives:
 +++
 # مقدمه
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId> vaudshfsoudhvsovh
 
 ## پرش به سمت ناشناخته
 

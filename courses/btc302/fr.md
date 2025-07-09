@@ -1497,6 +1497,10 @@ Pour ce faire, nous partirons de l'expérience de plusieurs communautés ayant e
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Examen final
+<chapterId>078f7a57-f39f-45b0-a105-c9ae9da0bc36</chapterId>
+<isCourseExam>false</isCourseExam>
+
 ## Conclusion
 <chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

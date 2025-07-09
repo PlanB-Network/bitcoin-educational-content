@@ -4,34 +4,43 @@ description: Bagaimana cara mengatur manajer kata sandi?
 ---
 ![cover](assets/cover.webp)
 
-Di era digital, kita perlu mengelola berbagai akun online yang mencakup berbagai aspek kehidupan sehari-hari, termasuk perbankan, platform keuangan, email, penyimpanan file, kesehatan, administrasi, jejaring sosial, video game, dll.
+Di era digital ini, kita semua harus mengelola banyak akun online yang mencakup berbagai aspek kehidupan sehari-hari, mulai dari perbankan, platform keuangan, email, penyimpanan file, kesehatan, administrasi, media sosial, video game, dan lainnya.
 
-Untuk mengautentikasi diri kita pada masing-masing akun ini, kita menggunakan pengenal, seringkali alamat email, yang disertai dengan kata sandi. Menghadapi ketidakmungkinan untuk mengingat sejumlah besar kata sandi unik, seseorang mungkin tergoda untuk menggunakan kata sandi yang sama atau sedikit memodifikasi basis umum untuk mengingatnya dengan mudah. Namun, praktik ini serius mengkompromikan keamanan akun Anda.
+Untuk mengautentikasi diri di setiap akun ini, kita menggunakan identifier, yang seringkali berupa alamat email, disertai dengan kata sandi. Karena mustahil mengingat banyak kata sandi unik, Anda mungkin tergoda untuk menggunakan kembali kata sandi yang sama atau memodifikasi sedikit dari basis yang umum agar mudah diingat. Namun, praktik-praktik ini secara serius membahayakan keamanan akun Anda.
 
-Prinsip pertama yang harus diikuti untuk kata sandi adalah tidak menggunakannya kembali. Setiap akun online harus dilindungi oleh kata sandi unik yang sepenuhnya berbeda dari yang lain. Ini penting karena, jika seorang penyerang berhasil mengkompromikan salah satu kata sandi Anda, Anda tidak ingin mereka memiliki akses ke semua akun Anda. Memiliki kata sandi unik untuk setiap akun mengisolasi serangan potensial dan membatasi lingkupnya. Misalnya, jika Anda menggunakan kata sandi yang sama untuk platform video game dan untuk email Anda, dan kata sandi tersebut dikompromikan melalui situs phishing yang terkait dengan platform game, penyerang kemudian dapat dengan mudah mengakses email Anda dan mengambil kendali atas semua akun online Anda yang lain.
+Prinsip pertama yang harus Anda ikuti untuk kata sandi adalah jangan menggunakannya kembali. Setiap akun online harus dilindungi oleh kata sandi unik yang sepenuhnya berbeda dari yang lain. Ini penting karena, jika penyerang berhasil menyusupi salah satu kata sandi Anda, Anda tentu tidak ingin mereka memiliki akses ke semua akun Anda. Memiliki kata sandi unik untuk setiap akun akan mengisolasi potensi serangan dan membatasi cakupannya. Sebagai contoh, jika Anda menggunakan kata sandi yang sama untuk platform video game dan untuk email Anda, dan kata sandi itu disusupi melalui situs phishing yang terkait dengan platform game, penyerang bisa dengan mudah mengakses email Anda dan mengambil alih semua akun online Anda yang lain.
 
-Prinsip penting kedua adalah kekuatan kata sandi. Kata sandi dianggap kuat jika sulit untuk ditebak melalui coba-coba. Ini berarti kata sandi Anda harus seacak mungkin, panjang, dan mencakup berbagai karakter (huruf kecil, huruf besar, angka, dan simbol).
+Prinsip penting kedua adalah kekuatan kata sandi. Sebuah kata sandi dianggap kuat jika sulit untuk dipecahkan secara paksa (*brute force*), yaitu ditebak melalui berbagai percobaan. Ini berarti kata sandi Anda harus seacak mungkin, panjang, dan mencakup berbagai jenis karakter (huruf kecil, huruf besar, angka, dan simbol).
 
-Menerapkan dua prinsip keamanan kata sandi ini (keunikan dan kekuatan) dapat terbukti sulit dalam kehidupan sehari-hari, karena hampir mustahil untuk mengingat kata sandi unik, acak, dan kuat untuk semua akun kita. Di sinilah manajer kata sandi berperan.
+Menerapkan kedua prinsip keamanan kata sandi ini (keunikan dan kekuatan) bisa jadi sulit dalam kehidupan sehari-hari, karena hampir tidak mungkin mengingat kata sandi yang unik, acak, dan kuat untuk semua akun kita. Di sinilah pengelola kata sandi (password manager) berperan.
 
-Manajer kata sandi menghasilkan dan menyimpan kata sandi yang kuat secara aman, memungkinkan Anda untuk mengakses semua akun online Anda tanpa perlu mengingatnya secara individu. Anda hanya perlu mengingat satu kata sandi, kata sandi utama, yang memberi Anda akses ke semua kata sandi yang disimpan dalam manajer. Menggunakan manajer kata sandi meningkatkan keamanan online Anda karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak. Tetapi ini juga mempermudah penggunaan harian akun Anda dengan memusatkan akses ke informasi sensitif Anda.
-Dalam tutorial ini, kita akan menjelajahi cara mengatur dan menggunakan manajer kata sandi untuk meningkatkan keamanan online Anda. Saya akan memperkenalkan Anda kepada Bitwarden, dan dalam tutorial lain, kita akan melihat solusi lain yang disebut KeePass.
+Pengelola kata sandi akan menghasilkan dan menyimpan kata sandi yang kuat secara aman, memungkinkan Anda mengakses semua akun online tanpa perlu mengingatnya satu per satu. Anda hanya perlu mengingat satu kata sandi, yaitu kata sandi utama (master password), yang memberi Anda akses ke semua kata sandi yang tersimpan di pengelola. Menggunakan pengelola kata sandi meningkatkan keamanan online Anda karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak. Namun, ini juga menyederhanakan penggunaan akun Anda sehari-hari dengan memusatkan akses ke informasi sensitif Anda.
+
+Dalam tutorial ini, kita akan menjelajahi cara mengatur dan menggunakan pengelola kata sandi untuk meningkatkan keamanan online Anda. Saya akan memperkenalkan Anda pada Bitwarden, dan dalam tutorial lain, kita akan membahas solusi lain yang disebut KeePass. Anda bisa menemukan tutorial KeePass di sini: 
+
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Peringatan: Manajer kata sandi sangat baik untuk menyimpan kata sandi, tetapi **Anda seharusnya tidak pernah menyimpan frasa mnemonik dompet Bitcoin Anda di dalamnya!** Ingat, frasa mnemonik harus disimpan secara eksklusif dalam format fisik, seperti selembar kertas atau logam.
+Peringatan Penting: Pengelola kata sandi sangat bagus untuk menyimpan kata sandi, **tetapi Anda tidak boleh menyimpan frasa mnemonik dompet Bitcoin Anda di dalamnya!** Ingat, frasa mnemonik harus disimpan secara eksklusif dalam format fisik, seperti selembar kertas atau logam.
 
 ## Pengenalan ke Bitwarden
 
-Bitwarden adalah manajer kata sandi yang cocok untuk pengguna pemula maupun lanjutan. Ini menawarkan banyak keuntungan. Pertama dan terutama, Bitwarden adalah solusi multi-platform, yang berarti Anda dapat menggunakannya sebagai aplikasi seluler, aplikasi web, ekstensi browser, dan perangkat lunak desktop.
+Bitwarden adalah pengelola kata sandi yang cocok untuk pemula maupun pengguna lebih mahir. Aplikasi ini menawarkan banyak keunggulan. Yang paling utama, Bitwarden adalah solusi multi-platform, artinya Anda bisa menggunakannya sebagai aplikasi seluler, aplikasi web, ekstensi browser, dan perangkat lunak desktop.
+
 ![BITWARDEN](assets/notext/01.webp)
-Bitwarden memungkinkan Anda untuk menyimpan kata sandi Anda secara online dan menyinkronkannya di semua perangkat Anda, sambil memastikan enkripsi ujung-ke-ujung dengan kata sandi utama Anda. Ini memungkinkan Anda, misalnya, untuk mengakses kata sandi Anda baik di komputer maupun smartphone, dengan sinkronisasi antara keduanya. Karena kata sandi Anda dienkripsi, mereka tetap tidak dapat diakses oleh siapa pun, termasuk Bitwarden, tanpa kunci dekripsi yang adalah kata sandi utama Anda.
-Selain itu, Bitwarden bersifat open-source, yang berarti perangkat lunak ini dapat diaudit oleh para ahli independen. Mengenai harga, Bitwarden menawarkan tiga rencana:
-- Versi gratis yang akan kita jelajahi dalam tutorial ini. Meskipun gratis, versi ini menyediakan tingkat keamanan yang setara dengan versi berbayar. Anda dapat menyimpan jumlah kata sandi tak terbatas dan menyinkronkan sebanyak mungkin perangkat yang Anda inginkan;
-- Versi premium seharga $10 per tahun yang mencakup fitur tambahan seperti penyimpanan file, cadangan kartu bank, kemampuan untuk mengatur 2FA dengan kunci keamanan fisik, dan akses ke otentikasi 2FA TOTP langsung dengan Bitwarden;
-- Dan rencana keluarga seharga $40 per tahun yang memperluas manfaat dari versi premium ke enam pengguna berbeda.
+
+Bitwarden memungkinkan Anda menyimpan kata sandi secara online dan menyinkronkannya di semua perangkat Anda, sambil memastikan enkripsi *end-to-end* dengan kata sandi utama (master password) Anda. Ini memungkinkan Anda, misalnya, mengakses kata sandi baik di komputer maupun smartphone Anda, dengan sinkronisasi antara keduanya. Karena kata sandi Anda dienkripsi, kata sandi tersebut tetap tidak dapat diakses oleh siapa pun, termasuk Bitwarden, tanpa kunci dekripsi yang merupakan kata sandi utama Anda.
+
+Selain itu, Bitwarden adalah perangkat lunak sumber terbuka (open-source), yang berarti perangkat lunak ini dapat diaudit oleh para ahli independen. Mengenai harga, Bitwarden menawarkan tiga paket:
+- Versi gratis yang akan kita jelajahi dalam tutorial ini. Meskipun gratis, versi ini menyediakan tingkat keamanan yang setara dengan versi berbayar. Anda dapat menyimpan kata sandi dengan jumlah tidak terbatas dan menyinkronkan sebanyak mungkin perangkat yang Anda inginkan;
+- Versi premium seharga $10 per tahun yang mencakup fitur tambahan seperti penyimpanan berkas, pencadangan kartu bank, kemampuan untuk mengatur 2FA dengan kunci keamanan fisik, dan akses ke autentikasi 2FA TOTP langsung dengan Bitwarden;
+- Dan paket keluarga seharga $40 per tahun yang memperluas manfaat versi premium hingga enam pengguna berbeda.
+
 ![BITWARDEN](assets/notext/02.webp)
-Menurut saya, harga-harga ini adil. Versi gratis merupakan pilihan yang sangat baik untuk pemula, dan versi premium menawarkan nilai yang sangat baik untuk uang dibandingkan dengan manajer kata sandi lain di pasar, sambil menawarkan lebih banyak fitur. Selain itu, fakta bahwa Bitwarden bersifat open-source merupakan keuntungan besar. Oleh karena itu, ini merupakan kompromi yang menarik, terutama untuk pemula.
-Fitur lain dari Bitwarden adalah kemampuan untuk meng-host sendiri manajer kata sandi Anda jika Anda memiliki, misalnya, NAS di rumah. Dengan mengatur konfigurasi ini, kata sandi Anda tidak disimpan di server Bitwarden, tetapi di server Anda sendiri. Ini memberi Anda kontrol penuh atas ketersediaan kata sandi Anda. Namun, opsi ini memerlukan manajemen cadangan yang ketat untuk menghindari kehilangan akses. Oleh karena itu, self-hosting Bitwarden lebih cocok untuk pengguna lanjutan, dan kami akan membahasnya dalam tutorial lain.
+
+Menurut pendapat saya, harga-harga tersebut cukup adil. Versi gratisnya merupakan pilihan yang sangat baik bagi pemula, dan versi premium menawarkan nilai uang yang sangat bagus dibandingkan dengan pengelola kata sandi lain di pasaran, sekaligus menyediakan lebih banyak fitur. Selain itu, fakta bahwa Bitwarden adalah perangkat lunak sumber terbuka (open-source) merupakan keunggulan utama. Oleh karena itu, ini adalah tawaran yang menarik, terutama bagi pemula.
+
+Fitur lain dari Bitwarden adalah kemampuan untuk menjalankan sendiri pengelola kata sandi (self-host) Anda jika Anda memiliki, misalnya, sebuah NAS (*Network Attached Storage*) di rumah. Dengan pengaturan ini, kata sandi Anda tidak disimpan di server Bitwarden, melainkan di server Anda sendiri. Ini memberikan Anda kendali penuh atas ketersediaan kata sandi Anda. Namun, opsi ini membutuhkan pengelolaan cadangan (backup) yang ketat untuk menghindari kehilangan akses. Oleh karena itu, *self-hosting* Bitwarden lebih cocok untuk pengguna mahir, dan akan kami bahas dalam tutorial terpisah.
+
 ## Bagaimana cara membuat akun Bitwarden?
 
 Kunjungi [situs web Bitwarden](https://bitwarden.com/) dan klik pada "*Get Started*".

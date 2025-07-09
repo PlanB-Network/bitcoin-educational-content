@@ -1,16 +1,16 @@
 ---
-name: İlk bitcoin sat'larınızı nasil alırsınız?
-goal: İlk bitcoin sat'larınızı almak ve güvenli bir şekilde saklamak için yapmanız gerekenleri anlatmak
-objectives: 
+İsim: İlk bitcoin sat'larınızı nasil alırsınız?
+Amaç: İlk bitcoin sat'larınızı almak ve güvenli bir şekilde saklamak için yapmanız gerekenleri anlatmak
+Hedefler: 
 
-  - Çevrimiçi güvenliğinizi güncelleyin
+  - Çevrimiçi güvenliğinizi artırın
   - Bitcoin ile ilgili temel kavramları anlayın
   - İhtiyaçlarınıza ve kaynaklarınıza göre uyarlanmış ilk elektronik cüzdanınızı yani Wallet'inizi oluşturun
-  - İlk bitcoinlerinizi nereden ve nasıl alacağınızı öğrenin
-  - Bir yatırım planı oluşturun
+  - İlk bitcoin'lerinizi nereden ve nasıl alacağınızı öğrenin
+  - Bir miras planı oluşturun
 
 ---
-# İlk bitcoinlerinize doğru bir yolculuk
+# İlk bitcoin'lerinize doğru bir yolculuk
 
 Bitcoin'i çevreleyen sektör hızla büyüyor.
 
@@ -27,7 +27,7 @@ Bu maceraya başlamanıza yardımcı olmak için bu ücretsiz dersi oluşturdum.
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
-BTC 102'ye hoş geldiniz! Bitcoin planınızı oluştururken size rehberlik edecek pratik bir ders! Bu dersimiz sayesinde ilk bitcoin sat'larınızı almaya, onları düzgün bir şekilde güvence altına almaya ve bu yeni sektöre sorunsuz bir giriş yapmaya hazırlanacağız.
+BTC 102'ye hoş geldiniz! Bitcoin planınızı oluştururken size rehberlik edecek pratik bir ders bu! Bu dersimiz sayesinde ilk bitcoin sat'larınızı almaya, onları düzgün bir şekilde güvence altına almaya ve bu yeni sektöre sorunsuz bir giriş yapmaya hazırlanacağız.
 
 Bitcoin endüstrisi hala genç ve sürekli gelişen bir fenomen olarak kabul ediliyor. Uzun yıllardır bu piyasa düzenlenmeye çalışılıyor, ama altta yatan protokolün doğası gereği hala son derece serbest kalmaktadır.
 
@@ -40,7 +40,7 @@ Bu derste 4 açıya odaklanacağız:
 
 - Dolandırılmadığımızdan veya paramızı aptalca kaybetmediğimizden emin olmak için temel bilgileri ve önkoşulları gözden geçirin.
 - Bitcoin'ın neden önemli olduğunu temelden gözden geçireceğiz ve sektörü anlatacağız. Bu, Bitcoin'e olan inancımızı güçlendirecek ve neye başladığımızı anlamamıza yardımcı olacaktır.
-- İlk Bitcoin Wallet'nizi kurun ve ilk Bitcoin satın alımınızı bir Exchange platformu üzerinden yapın. Burada, ihtiyaçlarınız için en uygun çözümü arayacağız. Son olarak, son bölümde güvenliğiniz için temel bir kavram olan ancak sektörde sıklıkla göz ardı edilen Address'i ele alacağız: bir Bitcoin yatırım planının nasıl oluşturulacağını.
+- İlk Bitcoin Wallet'nizi kurun ve ilk Bitcoin satın alımınızı bir Exchange platformu (kripto borsası9 üzerinden yapın. Burada, ihtiyaçlarınız için en uygun çözümü arayacağız. Son olarak, son bölümde güvenliğiniz için temel bir kavram olan ancak sektörde sıklıkla göz ardı edilen Adres'i ele alacağız: bir Bitcoin miras planının nasıl oluşturulacağını.
 
 Gördüğünüz gibi, bu dersin amacı, sektörümüzün en iyi uygulamalarına en başından itibaren basit ve hızlı bir şekilde uymanız için size eşlik etmektir!
 
@@ -54,7 +54,7 @@ Gördüğünüz gibi, bu dersin amacı, sektörümüzün en iyi uygulamalarına 
 
 1. Bitcoin endüstrisi, merkezi olmayan bir değer aktarım protokolü (Bitcoin) aracılığıyla sağlam bir para birimine odaklanmıştır. Mahremiyete ve bireysel egemenliğe değer verir ve kademeli olarak yüksek düzeyde esneklik ve güvenliğe sahip uzun vadeli projeler inşa eder.
 
-2. Fintech, "Blockchain" ve diğer merkezi yeniliklere yönelik küresel kripto coin endüstrisi. Hızla gelişiyor ve kendini yeni trend olarak konumlandırmaya çalışıyor.
+2. Fintech (Fintek) , "Blockchain" (blokzincir) ve diğer merkezi yeniliklere yönelik küresel kripto coin endüstrisi. Hızla gelişiyor ve kendini yeni trend olarak konumlandırmaya çalışıyor.
 
 Bu dersimizin tüm odak noktası kripto değil, Bitcoin evrenidir.
 

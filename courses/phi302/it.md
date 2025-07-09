@@ -323,7 +323,7 @@ Cosa si intende per Trustless? Pieter Wuille spiega questo termine molto usato s
 In breve, il termine *Trustless* si riferisce a una proprietà del protocollo Bitcoin in base alla quale può logicamente funzionare senza "alcuna parte fidata". Questo è diverso dalla fiducia che inevitabilmente si deve riporre nel software o nell'hardware che si utilizza. Quest'ultimo aspetto della fiducia sarà discusso più avanti in questo capitolo.
 
 
-Nei sistemi centralizzati, ci affidiamo alla reputazione di un attore centrale per essere certi che si occuperà della sicurezza o che farà marcia indietro in caso di problemi, così come al sistema legale per sanzionare eventuali violazioni. Questi requisiti di fiducia sono problematici nei sistemi decentralizzati pseudonimi: non c'è possibilità di ricorso e quindi non può esserci fiducia. Nell'introduzione al [whitepaper Bitcoin] (https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto descrive questo problema:
+Nei sistemi centralizzati, ci affidiamo alla reputazione di un attore centrale per essere certi che si occuperà della sicurezza o che farà marcia indietro in caso di problemi, così come al sistema legale per sanzionare eventuali violazioni. Questi requisiti di fiducia sono problematici nei sistemi decentralizzati pseudonimi: non c'è possibilità di ricorso e quindi non può esserci fiducia. Nell'introduzione al [whitepaper Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto descrive questo problema:
 
 
 > Il commercio su Internet si affida quasi esclusivamente a istituti finanziari che fungono da terze parti fidate per l'elaborazione dei pagamenti elettronici.
@@ -525,7 +525,7 @@ Utilizzando gli indirizzi o le chiavi pubbliche, raggiungiamo obiettivi importan
 La privacy del Blockchain si riferisce alle informazioni che l'utente divulga effettuando transazioni sul Blockchain. Si applica a tutte le transazioni, sia a quelle inviate che a quelle ricevute.
 
 
-Satoshi Nakamoto riflette sulla privacy di On-Chain nella sezione 7 del suo [whitepaper Bitcoin] (https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto riflette sulla privacy di On-Chain nella sezione 7 del suo [whitepaper Bitcoin](https://Bitcoin.org/Bitcoin.pdf):
 
 
 > Come ulteriore firewall, è necessario utilizzare una nuova coppia di chiavi per ogni transazione, per evitare che siano collegate a un proprietario comune. Un certo collegamento è comunque inevitabile con le transazioni a più ingressi, che rivelano necessariamente che i loro ingressi appartengono allo stesso proprietario. Il rischio è che se il proprietario di una chiave viene rivelato, il collegamento potrebbe rivelare altre transazioni appartenenti allo stesso proprietario.
@@ -545,7 +545,7 @@ Chris Belcher [ha scritto in modo molto dettagliato](https://en.Bitcoin.it/Priva
 Il risultato è che la privacy nel Bitcoin non è perfetta. Richiede una quantità significativa di lavoro per effettuare transazioni private. La maggior parte delle persone non è disposta ad andare così lontano per la privacy. Sembra esserci un chiaro compromesso tra privacy e usabilità.
 
 
-Un altro aspetto importante della privacy è che le misure adottate per proteggere la propria privacy si ripercuotono anche sugli altri utenti. Se si è poco attenti alla propria privacy, anche gli altri potrebbero subire una riduzione della privacy. Gregory Maxwell lo spiega in modo molto chiaro nella stessa discussione del talk Bitcoin [che abbiamo linkato sopra] (https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), e conclude con un esempio:
+Un altro aspetto importante della privacy è che le misure adottate per proteggere la propria privacy si ripercuotono anche sugli altri utenti. Se si è poco attenti alla propria privacy, anche gli altri potrebbero subire una riduzione della privacy. Gregory Maxwell lo spiega in modo molto chiaro nella stessa discussione del talk Bitcoin [che abbiamo linkato sopra](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), e conclude con un esempio:
 
 
 > Questo funziona anche nella pratica... Un simpatico hacker whitehat su IRC stava giocando con il brainwallet cracking e ha trovato una frase con ~250 BTC dentro.  Siamo stati in grado di identificare il proprietario solo dal Address, perché era stato pagato da un servizio Bitcoin che riutilizzava gli indirizzi e lui è riuscito a convincerlo a fornire le informazioni di contatto dell'utente. Ha effettivamente contattato l'utente al telefono, che era scioccato e confuso, ma grato di non aver perso la sua moneta.  Un lieto fine. (Questo non è l'unico esempio, ma è uno dei più divertenti).
@@ -585,7 +585,7 @@ Fungibilità, nel contesto delle valute, significa che una moneta è intercambia
 la parola è stata brevemente accennata all'inizio del capitolo.
 
 
-Nell'articolo discusso, Gregory Maxwell [ha dichiarato] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
+Nell'articolo discusso, Gregory Maxwell [ha dichiarato](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
 
 > La privacy finanziaria è un elemento essenziale per la fungibilità nel Bitcoin: se è possibile distinguere significativamente una moneta da un'altra, allora la fungibilità è debole. Se la nostra fungibilità è troppo debole nella pratica, allora non possiamo essere decentralizzati: se qualcuno di importante annuncia una lista di monete rubate da cui non accetterà monete derivate, dovrete controllare attentamente le monete che accettate rispetto a quella lista e restituire quelle che falliscono.  Tutti sono costretti a controllare le liste nere emesse da varie autorità, perché in questo mondo non vorremmo essere bloccati con monete sbagliate. Questo aggiunge attrito e costi transazionali e rende il Bitcoin meno valido come moneta.
@@ -692,7 +692,7 @@ Ma per una serie di ragioni - come i primi problemi con le transazioni su coinba
 
 > Questo ci lascia con 20999817.31308491 BTC (tenendo conto di tutto fino al blocco 528333)
 
-Tuttavia, diversi portafogli sono stati smarriti o rubati, le transazioni sono state inviate al Address sbagliato, le persone hanno dimenticato di possedere il Bitcoin. Il totale di tutto ciò potrebbe essere di milioni. Le persone hanno cercato di fare il conto delle perdite conosciute [qui] (https://bitcointalk.org/index.php?topic=7253.0).
+Tuttavia, diversi portafogli sono stati smarriti o rubati, le transazioni sono state inviate al Address sbagliato, le persone hanno dimenticato di possedere il Bitcoin. Il totale di tutto ciò potrebbe essere di milioni. Le persone hanno cercato di fare il conto delle perdite conosciute [qui](https://bitcointalk.org/index.php?topic=7253.0).
 
 
 Questo ci lascia con: ??? BTC.
@@ -809,13 +809,13 @@ In questo capitolo si discute di come il Bitcoin possa essere aggiornato senza c
 
 
 
-Secondo Wikipedia, la [compatibilità in avanti] (https://en.wikipedia.org/wiki/Forward_compatibility) si riferisce alla condizione in cui un vecchio software può elaborare i dati creati da software più recenti, ignorando le parti che non comprende:
+Secondo Wikipedia, la [compatibilità in avanti](https://en.wikipedia.org/wiki/Forward_compatibility) si riferisce alla condizione in cui un vecchio software può elaborare i dati creati da software più recenti, ignorando le parti che non comprende:
 
 
 Uno standard supporta la compatibilità con il futuro se un prodotto conforme alle versioni precedenti è in grado di elaborare "con grazia" input progettati per versioni successive dello standard, ignorando le nuove parti che non comprende.
 
 
-Viceversa, la [retrocompatibilità] (https://en.wikipedia.org/wiki/Backward_compatibility) si riferisce a quando i dati di un vecchio software sono utilizzabili su software più recenti. Si dice che una modifica è pienamente compatibile se è compatibile sia in avanti che all'indietro.
+Viceversa, la [retrocompatibilità](https://en.wikipedia.org/wiki/Backward_compatibility) si riferisce a quando i dati di un vecchio software sono utilizzabili su software più recenti. Si dice che una modifica è pienamente compatibile se è compatibile sia in avanti che all'indietro.
 
 
 Una modifica alle regole di consenso Bitcoin è detta *Soft Fork* se è pienamente compatibile. Questo è il modo più comune di aggiornare il Bitcoin, per una serie di ragioni che verranno discusse più avanti in questo capitolo. Se una modifica alle regole di consenso di Bitcoin è compatibile con il passato ma non con il futuro, si parla di *Hard Fork*.
@@ -850,7 +850,7 @@ Lombrozo fornisce anche una panoramica dell'evoluzione dei meccanismi di aggiorn
 Mentre tutti gli aggiornamenti precedenti al SegWit erano stati più o meno indolori, questo è stato diverso. Quando il codice di attivazione del SegWit è stato rilasciato, nell'ottobre 2016, sembrava che gli utenti del Bitcoin avessero un sostegno schiacciante, ma per qualche motivo i minatori non hanno segnalato il supporto per questo aggiornamento, bloccando l'attivazione senza alcuna risoluzione in vista.
 
 
-Aaron van Wirdum descrive questa strada tortuosa nell'articolo della rivista Bitcoin [The Long Road To SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Inizia spiegando cos'è il SegWit e come si inserisce nel dibattito sulle dimensioni dei blocchi. Van Wirdum delinea poi la successione di eventi che ha portato alla sua attivazione finale. Al centro di questo processo c'era un meccanismo di aggiornamento chiamato *user activated Soft Fork*, o UASF in breve, proposto dall'utente Shaolinfry:
+Aaron van Wirdum descrive questa strada tortuosa nell'articolo della rivista Bitcoin [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Inizia spiegando cos'è il SegWit e come si inserisce nel dibattito sulle dimensioni dei blocchi. Van Wirdum delinea poi la successione di eventi che ha portato alla sua attivazione finale. Al centro di questo processo c'era un meccanismo di aggiornamento chiamato *user activated Soft Fork*, o UASF in breve, proposto dall'utente Shaolinfry:
 
 
 > Shaolinfry ha proposto un'alternativa: un Soft Fork attivato dall'utente (UASF). Invece dell'attivazione della potenza del Hash, un Soft Fork attivato dall'utente avrebbe una "attivazione del giorno della bandiera" in cui i nodi iniziano a far rispettare la legge in un momento predeterminato del futuro" Finché tale UASF viene applicata da una maggioranza economica, ciò dovrebbe costringere la maggioranza dei minatori a seguire (o attivare) il Soft Fork.
@@ -921,7 +921,7 @@ Quando il Taproot è stato pronto per la distribuzione nell'ottobre 2020, il che
 
 Sono iniziate a circolare molte proposte di meccanismi di attivazione, e David Harding
 
-[riassunto nel Wiki Bitcoin] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Nel suo articolo spiegava alcune proprietà del BIP8, che all'epoca aveva subito alcune modifiche recenti per renderlo più flessibile.
+[riassunto nel Wiki Bitcoin](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Nel suo articolo spiegava alcune proprietà del BIP8, che all'epoca aveva subito alcune modifiche recenti per renderlo più flessibile.
 
 
 > Al momento della stesura di questo documento, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) è stato redatto sulla base delle lezioni apprese nel 2017. Una modifica degna di nota dopo i BIP 9+148 è che l'attivazione forzata è ora basata sull'altezza del blocco piuttosto che sul tempo mediano trascorso; una seconda modifica degna di nota è che l'attivazione forzata è un parametro booleano scelto quando i parametri di attivazione di un Soft Fork vengono impostati per la distribuzione iniziale o aggiornati in una distribuzione successiva.
@@ -1054,7 +1054,7 @@ La conseguenza è che tutti i punti deboli noti di Bitcoin devono essere in qual
 Poelstra continua dicendo che il Bitcoin è un nuovo tipo di sistema; è più nebuloso rispetto, ad esempio, a un protocollo di firma che ha presupposti di sicurezza molto chiari.
 
 
-Sul suo blog personale, l'ingegnere informatico Jameson Lopp [approfondisce l'argomento] (https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
+Sul suo blog personale, l'ingegnere informatico Jameson Lopp [approfondisce l'argomento](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
 
 
 > In realtà, il protocollo Bitcoin è stato e viene costruito senza una specifica o un modello di sicurezza formalmente definito. Il meglio che possiamo fare è studiare gli incentivi e il comportamento degli attori all'interno del sistema per comprenderlo meglio e tentare di descriverlo.
@@ -1270,7 +1270,7 @@ Nel suo caso, il motivo dell'utilizzo di uno pseudonimo deve essere giudicato in
 
 > La mia ragione iniziale [per l'uso di uno pseudonimo] era semplicemente che ero preoccupato [di] commettere un errore madornale; quindi ZmnSCPxj era originariamente inteso come uno pseudonimo usa e getta che poteva essere abbandonato in un caso del genere. Tuttavia, sembra che abbia ottenuto una reputazione per lo più positiva, quindi l'ho mantenuto
 
-L'uso di uno pseudonimo consente infatti di parlare più liberamente senza mettere a rischio la propria reputazione personale nel caso in cui si dica qualcosa di stupido o si commetta un grosso errore. Come si è scoperto, il suo pseudonimo ha ottenuto una grande reputazione e nel 2019 [ha persino ottenuto una sovvenzione per lo sviluppo] (https://twitter.com/spiralbtc/status/1204815615678177280), il che è di per sé una prova della natura senza permessi del Bitcoin.
+L'uso di uno pseudonimo consente infatti di parlare più liberamente senza mettere a rischio la propria reputazione personale nel caso in cui si dica qualcosa di stupido o si commetta un grosso errore. Come si è scoperto, il suo pseudonimo ha ottenuto una grande reputazione e nel 2019 [ha persino ottenuto una sovvenzione per lo sviluppo](https://twitter.com/spiralbtc/status/1204815615678177280), il che è di per sé una prova della natura senza permessi del Bitcoin.
 
 
 Probabilmente, lo pseudonimo più noto del Bitcoin è quello di Satoshi Nakamoto. Non è chiaro perché abbia scelto di essere pseudonimo, ma con il senno di poi è stata probabilmente una buona decisione per diversi motivi:
@@ -1726,7 +1726,7 @@ Bitcoin è costruito da persone. Le persone scrivono il software e le persone lo
 Immaginate di aver scoperto un bug in Bitcoin Core, un bug che permette a chiunque di spegnere da remoto un nodo Bitcoin Core utilizzando alcuni messaggi di rete appositamente creati. Immaginate anche di non essere malintenzionati e di volere che questo problema non venga sfruttato. Che cosa fate? Se non ne parlate, probabilmente qualcun altro scoprirà il problema e non potete essere certi che non si tratti di una persona malintenzionata.
 
 
-Quando viene scoperto un problema di sicurezza, la persona che lo scopre dovrebbe ricorrere alla _divulgazione responsabile_, un termine spesso usato dagli sviluppatori di Bitcoin. Il termine è [spiegato su Wikipedia] (https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
+Quando viene scoperto un problema di sicurezza, la persona che lo scopre dovrebbe ricorrere alla _divulgazione responsabile_, un termine spesso usato dagli sviluppatori di Bitcoin. Il termine è [spiegato su Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
 
 
 > Gli sviluppatori di hardware e software spesso richiedono tempo e risorse per riparare ai loro errori. Spesso sono gli hacker etici a trovare questi errori
@@ -1759,7 +1759,7 @@ In un [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/201
 Questo elenco mostra la cautela che si deve avere nel pubblicare le patch per Bitcoin, poiché la patch stessa potrebbe rivelare la vulnerabilità. Il quarto punto è particolarmente interessante perché spiega come verificare se una patch è stata mascherata abbastanza bene. Infatti, se alcuni sviluppatori molto esperti non riescono a individuare la vulnerabilità pur sapendo che la patch ne risolve una, probabilmente sarà davvero Hard difficile per altri scoprirla.
 
 
-Il thread che ha portato a questa e-mail discuteva se, quando e come divulgare le vulnerabilità alle altcoin e ad altre implementazioni di Bitcoin. Non c'è una risposta chiara. "Aiutare i buoni" sembra la cosa più sensata da fare, ma chi decide chi sono e dove si traccia il confine? Bryan Bishop [ha sostenuto] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) che aiutare le altcoin e persino le scamcoin a difendersi dagli exploit di sicurezza è un dovere morale:
+Il thread che ha portato a questa e-mail discuteva se, quando e come divulgare le vulnerabilità alle altcoin e ad altre implementazioni di Bitcoin. Non c'è una risposta chiara. "Aiutare i buoni" sembra la cosa più sensata da fare, ma chi decide chi sono e dove si traccia il confine? Bryan Bishop [ha sostenuto](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) che aiutare le altcoin e persino le scamcoin a difendersi dagli exploit di sicurezza è un dovere morale:
 
 
 > Non è sufficiente difendere il Bitcoin e i suoi utenti dalle minacce attive, c'è una responsabilità più generale nel difendere tutti i tipi di utenti e i diversi software da molti tipi di minacce in qualsiasi forma, anche se la gente usa software stupido e insicuro che voi personalmente non mantenete, non contribuite o non sostenete. Gestire la conoscenza di una vulnerabilità è una questione delicata e potreste ricevere conoscenze con un impatto diretto o indiretto più grave di quello descritto inizialmente.
@@ -1829,7 +1829,7 @@ Satoshi ha apportato questa modifica localmente e ne ha ricavato un binario eseg
 
 > Aggiornare il prima possibile alla versione 0.3.5!  Abbiamo risolto un bug di implementazione che consentiva di accettare transazioni false.  Non accettare transazioni Bitcoin come pagamento finché non si aggiorna alla versione 0.3.5!
 
-Il messaggio originale è stato successivamente modificato e non è più disponibile nella sua forma completa. Il frammento di cui sopra proviene da una [risposta citata] (https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Alcuni utenti hanno provato il binario di Satoshi, ma hanno riscontrato dei problemi. Poco dopo, [Satoshi ha scritto](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
+Il messaggio originale è stato successivamente modificato e non è più disponibile nella sua forma completa. Il frammento di cui sopra proviene da una [risposta citata](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Alcuni utenti hanno provato il binario di Satoshi, ma hanno riscontrato dei problemi. Poco dopo, [Satoshi ha scritto](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
 
 
 > Non ho ancora avuto il tempo di aggiornare l'SVN.  Aspettate la 0.3.6, la sto costruendo ora.  Nel frattempo è possibile chiudere il nodo.
@@ -1973,7 +1973,7 @@ C'è un'importante differenza tra questo caso e il precedente caso OP_RETURN: qu
 
 
 
-Nel marzo 2013 è emerso un problema molto interessante e di grande valore educativo. Sembrava che il Blockchain si fosse separato (anche se la parola "Fork" è usata nella citazione sottostante) dopo il blocco 225429. I dettagli di questo incidente sono stati [riportati nel BIP50] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Il riassunto dice:
+Nel marzo 2013 è emerso un problema molto interessante e di grande valore educativo. Sembrava che il Blockchain si fosse separato (anche se la parola "Fork" è usata nella citazione sottostante) dopo il blocco 225429. I dettagli di questo incidente sono stati [riportati nel BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Il riassunto dice:
 
 
 > È stato estratto e trasmesso un blocco con un numero di transazioni totali superiore a quello visto in precedenza. I nodi Bitcoin 0.8 sono stati in grado di gestirlo, ma alcuni nodi Bitcoin pre-0.8 lo hanno rifiutato, causando un inaspettato Fork del Blockchain. La catena pre-0.8-incompatibile (da qui in poi, la catena 0.8) a quel punto aveva circa il 60% della potenza Mining Hash garantendo che la scissione non si risolvesse automaticamente (come sarebbe accaduto se la catena pre-0.8 avesse superato la catena 0.8 in lavoro totale, costringendo i nodi 0.8 a riorganizzarsi verso la catena pre-0.8).
@@ -2115,7 +2115,7 @@ Purtroppo, la storia di BIP66 non è finita qui. Quando BIP66 è stato attivato,
 La pagina di avviso indicava di attendere 30 conferme in più rispetto al normale, nel caso in cui si utilizzassero versioni precedenti di Bitcoin Core.
 
 
-La scissione di cui sopra si è verificata il 2015-07-04 alle 02:10 UTC dopo l'altezza del blocco [363730] (https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Questo problema è stato risolto alle 03:50 dello stesso giorno, dopo che erano stati estratti 6 blocchi non validi. Sfortunatamente, lo stesso problema si è ripetuto il giorno successivo, ovvero il 2015-07-05 alle 21:50, ma questa volta il ramo non valido è durato solo 3 blocchi.
+La scissione di cui sopra si è verificata il 2015-07-04 alle 02:10 UTC dopo l'altezza del blocco [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Questo problema è stato risolto alle 03:50 dello stesso giorno, dopo che erano stati estratti 6 blocchi non validi. Sfortunatamente, lo stesso problema si è ripetuto il giorno successivo, ovvero il 2015-07-05 alle 21:50, ma questa volta il ramo non valido è durato solo 3 blocchi.
 
 
 ![](assets/bip66-timeline-3.webp)

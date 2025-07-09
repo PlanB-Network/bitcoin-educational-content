@@ -34,7 +34,7 @@ Ada banyak orang yang terlibat dalam Bitcoin; karena beberapa di antara mereka m
 
 Kursus ini diadaptasi dari buku eponim yang penulis utamanya adalah Kalle Rosenbaum, dan Linnéa Rosenbaum berkontribusi sebagai penulis pendamping.
 
-Buku ini ditugaskan dan didanai oleh [Chaincode Labs] (https://learning.chaincode.com/), sebuah pusat pengembangan yang menjalankan program pendidikan bagi para pengembang yang ingin mempelajari pengembangan Bitcoin.
+Buku ini ditugaskan dan didanai oleh [Chaincode Labs](https://learning.chaincode.com/), sebuah pusat pengembangan yang menjalankan program pendidikan bagi para pengembang yang ingin mempelajari pengembangan Bitcoin.
 
 
 +++
@@ -75,7 +75,7 @@ Menavigasi lanskap tata kelola Bitcoin yang kompleks membutuhkan lebih dari seka
 Siap untuk mengambil langkah selanjutnya dalam perjalanan Bitcoin Anda? Mari kita mulai!
 
 
-*cATATAN **NB**: Jika Anda menemukan istilah asing yang terkait dengan Bitcoin selama kursus, silakan merujuk ke [glosarium] (https://planb.network/resources/glossary) untuk menemukan definisinya.*
+*cATATAN **NB**: Jika Anda menemukan istilah asing yang terkait dengan Bitcoin selama kursus, silakan merujuk ke [glosarium](https://planb.network/resources/glossary) untuk menemukan definisinya.*
 
 
 
@@ -125,7 +125,7 @@ Ada beberapa upaya untuk menciptakan mata uang digital sebelum Bitcoin, tetapi s
 Desentralisasi Miner dalam Bitcoin berarti bahwa *pemesanan transaksi* tidak dilakukan oleh satu entitas atau sekumpulan entitas yang tetap. Ini dilakukan secara kolektif oleh semua aktor yang ingin berpartisipasi di dalamnya; kolektif penambang ini adalah sekumpulan pengguna yang dinamis. Siapapun dapat bergabung atau keluar sesuai keinginan mereka. Sifat ini membuat Bitcoin tahan terhadap sensor.
 
 
-Jika Bitcoin terpusat, maka akan rentan terhadap pihak-pihak yang ingin menyensornya, seperti pemerintah. Ini akan menemui nasib yang sama dengan upaya sebelumnya untuk menciptakan uang digital. Dalam pendahuluan [makalah] (https://www.blockstream.com/sidechains.pdf) yang berjudul "Mengaktifkan Inovasi Blockchain dengan Pegged Sidechains", penulis menjelaskan bagaimana versi awal uang digital tidak diperlengkapi untuk lingkungan yang tidak bersahabat (lihat juga bab tentang Pemikiran Adversarial di bagian selanjutnya).
+Jika Bitcoin terpusat, maka akan rentan terhadap pihak-pihak yang ingin menyensornya, seperti pemerintah. Ini akan menemui nasib yang sama dengan upaya sebelumnya untuk menciptakan uang digital. Dalam pendahuluan [makalah](https://www.blockstream.com/sidechains.pdf) yang berjudul "Mengaktifkan Inovasi Blockchain dengan Pegged Sidechains", penulis menjelaskan bagaimana versi awal uang digital tidak diperlengkapi untuk lingkungan yang tidak bersahabat (lihat juga bab tentang Pemikiran Adversarial di bagian selanjutnya).
 
 
 David Chaum memperkenalkan uang digital sebagai topik penelitian pada tahun 1983, dalam sebuah lingkungan dengan server pusat yang dipercaya untuk mencegah Double-spending. Untuk mengurangi risiko privasi individu dari pihak pusat yang dipercaya ini, dan untuk menegakkan kesepadanan, Chaum memperkenalkan tanda tangan buta, yang ia gunakan untuk menyediakan sarana kriptografi untuk mencegah penautan tanda tangan server pusat (yang mewakili koin), sambil tetap memungkinkan server pusat untuk melakukan pencegahan pembelanjaan ganda.
@@ -164,7 +164,7 @@ Di sini dia menggunakan frasa yang terdengar aneh "server Timestamp terdistribus
 
 Namun, tidak ada yang menjelaskannya lebih baik daripada
 
-[Gregory Maxwell di Reddit] (https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), di mana dia menanggapi seseorang yang mengusulkan untuk membatasi kekuatan penambang Hash untuk menghindari potensi serangan 51%:
+[Gregory Maxwell di Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), di mana dia menanggapi seseorang yang mengusulkan untuk membatasi kekuatan penambang Hash untuk menghindari potensi serangan 51%:
 
 
 > Sistem terdesentralisasi seperti Bitcoin menggunakan pemilihan umum. Tetapi Anda tidak bisa hanya memiliki suara 'orang' dalam sistem terdesentralisasi karena itu akan membutuhkan pihak terpusat untuk mengotorisasi orang untuk memilih. Sebagai gantinya, Bitcoin menggunakan pemungutan suara daya komputasi karena memungkinkan untuk memverifikasi daya komputasi tanpa bantuan dari pihak terpusat
@@ -197,7 +197,7 @@ Pengguna beralih dari secara langsung menegakkan aturan konsensus jaringan menja
 
 Dalam [a
 
-Artikel Majalah Bitcoin] (https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum mewawancarai para pengembang Bitcoin mengenai pandangan mereka terhadap desentralisasi dan risiko yang terlibat dalam meningkatkan ukuran blok maksimum Bitcoin. Diskusi ini adalah topik Hot selama era 2014-2017, ketika banyak orang berdebat tentang peningkatan batas ukuran blok untuk memungkinkan lebih banyak throughput transaksi.
+Artikel Majalah Bitcoin](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum mewawancarai para pengembang Bitcoin mengenai pandangan mereka terhadap desentralisasi dan risiko yang terlibat dalam meningkatkan ukuran blok maksimum Bitcoin. Diskusi ini adalah topik Hot selama era 2014-2017, ketika banyak orang berdebat tentang peningkatan batas ukuran blok untuk memungkinkan lebih banyak throughput transaksi.
 
 
 Argumen yang kuat untuk menentang peningkatan ukuran blok adalah karena hal ini akan meningkatkan biaya verifikasi. Jika biaya verifikasi meningkat, ini akan mendorong beberapa pengguna untuk berhenti menjalankan node mereka secara penuh. Hal ini, pada gilirannya, akan menyebabkan lebih banyak orang tidak dapat menggunakan sistem dengan cara Trustless.
@@ -258,7 +258,7 @@ Dia menjelaskan bahwa, untuk mencapai tanpa izin, sistem kemungkinan besar membu
 
 
 
-Aspek yang menarik dari Bitcoin adalah bagaimana Hard dapat dipahami bahwa tidak ada yang mengendalikannya. Tidak ada komite atau eksekutif di Bitcoin. Gregory Maxwell, sekali lagi [di subreddit Bitcoin] (https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), membandingkannya dengan bahasa Inggris dengan cara yang menarik:
+Aspek yang menarik dari Bitcoin adalah bagaimana Hard dapat dipahami bahwa tidak ada yang mengendalikannya. Tidak ada komite atau eksekutif di Bitcoin. Gregory Maxwell, sekali lagi [di subreddit Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), membandingkannya dengan bahasa Inggris dengan cara yang menarik:
 
 
 > Banyak orang yang kesulitan memahami sistem otonom, ada banyak hal dalam kehidupan mereka seperti bahasa Inggris - tetapi orang hanya menganggapnya biasa saja dan bahkan tidak menganggapnya sebagai sistem. Mereka terjebak dalam cara berpikir yang terpusat di mana segala sesuatu yang mereka anggap sebagai 'benda' memiliki otoritas yang mengendalikannya.
@@ -267,7 +267,7 @@ Aspek yang menarik dari Bitcoin adalah bagaimana Hard dapat dipahami bahwa tidak
 > Bitcoin tidak berfokus pada apa pun. Berbagai orang yang telah mengadopsi Bitcoin memilih atas kehendak bebas mereka sendiri untuk mempromosikannya, dan bagaimana mereka memilih untuk melakukannya adalah urusan mereka sendiri. Orang-orang yang terpaku pada otoritas mungkin melihat kegiatan ini dan percaya bahwa itu adalah operasi oleh otoritas Bitcoin, tetapi tidak ada otoritas seperti itu.
 
 
-Cara kerja Bitcoin melalui desentralisasi menyerupai kecerdasan kolektif yang luar biasa yang ditemukan di antara banyak spesies di alam. Ilmuwan komputer Radhika Nagpal berbicara dalam [Ted talk] (https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) tentang perilaku kolektif kelompok ikan dan bagaimana para ilmuwan mencoba menirunya dengan menggunakan robot.
+Cara kerja Bitcoin melalui desentralisasi menyerupai kecerdasan kolektif yang luar biasa yang ditemukan di antara banyak spesies di alam. Ilmuwan komputer Radhika Nagpal berbicara dalam [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) tentang perilaku kolektif kelompok ikan dan bagaimana para ilmuwan mencoba menirunya dengan menggunakan robot.
 
 
 > Kedua, dan hal yang menurut saya paling luar biasa, adalah kita tahu bahwa tidak ada pemimpin yang mengawasi kawanan ikan ini. Sebaliknya, perilaku pikiran kolektif yang luar biasa ini muncul murni dari interaksi antara satu ikan dengan ikan lainnya.
@@ -315,7 +315,7 @@ Pada bagian terakhir, kita melihat interaksi dunia nyata antara Bitcoin dan pera
 Orang sering mengatakan hal-hal seperti "Bitcoin hebat karena ini adalah Trustless".
 
 
-Apa yang dimaksud dengan Trustless? Pieter Wuille menjelaskan istilah yang banyak digunakan ini pada [Stack Exchange] (https://Bitcoin.stackexchange.com/a/45674/69518):
+Apa yang dimaksud dengan Trustless? Pieter Wuille menjelaskan istilah yang banyak digunakan ini pada [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518):
 
 
 > Kepercayaan yang kita bicarakan dalam "Trustless" adalah istilah teknis yang abstrak. Sistem terdistribusi disebut Trustless jika tidak memerlukan pihak tepercaya untuk berfungsi dengan benar.
@@ -323,7 +323,7 @@ Apa yang dimaksud dengan Trustless? Pieter Wuille menjelaskan istilah yang banya
 Singkatnya, kata *Trustless* mengacu pada properti protokol Bitcoin yang secara logis dapat berfungsi tanpa "pihak tepercaya". Hal ini berbeda dengan kepercayaan yang mau tidak mau harus Anda berikan pada perangkat lunak atau perangkat keras yang Anda jalankan. Lebih lanjut tentang aspek kepercayaan yang terakhir ini akan dibahas lebih lanjut dalam bab ini.
 
 
-Dalam sistem terpusat, kita bergantung pada reputasi aktor pusat untuk memastikan bahwa mereka akan menjaga keamanan atau mundur jika terjadi masalah, serta pada sistem hukum untuk memberikan sanksi atas pelanggaran. Persyaratan kepercayaan ini menjadi masalah dalam sistem desentralisasi pseudonim - tidak ada kemungkinan untuk meminta bantuan sehingga tidak mungkin ada kepercayaan. Dalam pengantar [whitepaper Bitcoin] (https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto menjelaskan masalah ini:
+Dalam sistem terpusat, kita bergantung pada reputasi aktor pusat untuk memastikan bahwa mereka akan menjaga keamanan atau mundur jika terjadi masalah, serta pada sistem hukum untuk memberikan sanksi atas pelanggaran. Persyaratan kepercayaan ini menjadi masalah dalam sistem desentralisasi pseudonim - tidak ada kemungkinan untuk meminta bantuan sehingga tidak mungkin ada kepercayaan. Dalam pengantar [whitepaper Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto menjelaskan masalah ini:
 
 
 > Perdagangan di Internet hampir secara eksklusif bergantung pada lembaga keuangan yang berfungsi sebagai pihak ketiga tepercaya untuk memproses pembayaran elektronik.
@@ -336,7 +336,7 @@ Tampaknya kita tidak dapat memiliki sistem terdesentralisasi yang didasarkan pad
 Untuk menggunakan Bitcoin dengan cara Trustless, Anda harus menjalankan node Bitcoin yang telah tervalidasi penuh. Hanya dengan begitu Anda dapat memverifikasi bahwa blok yang Anda terima dari orang lain mengikuti aturan konsensus; misalnya, bahwa jadwal penerbitan koin ditepati dan tidak ada pembelanjaan ganda yang terjadi pada Blockchain. Jika Anda tidak menjalankan Full node, Anda mengalihdayakan verifikasi blok Bitcoin kepada orang lain dan mempercayai mereka untuk mengatakan yang sebenarnya, yang berarti Anda tidak menggunakan Bitcoin tanpa rasa percaya.
 
 
-David Harding telah menulis [artikel di situs web Bitcoin.org] (https://Bitcoin.org/en/Bitcoin-core/features/validation) yang menjelaskan bagaimana menjalankan Full node - atau menggunakan Bitcoin tanpa kepercayaan - sebenarnya membantu Anda:
+David Harding telah menulis [artikel di situs web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) yang menjelaskan bagaimana menjalankan Full node - atau menggunakan Bitcoin tanpa kepercayaan - sebenarnya membantu Anda:
 
 
 > Mata uang Bitcoin hanya berfungsi ketika orang menerima bitcoin dalam Exchange untuk hal-hal berharga lainnya. Ini berarti bahwa orang-orang yang menerima bitcoin-lah yang memberikan nilai dan yang dapat memutuskan bagaimana Bitcoin bekerja.
@@ -362,7 +362,7 @@ Tidak peduli seberapa canggih perangkat lunak Anda, Anda tetap harus percaya bah
 Insentif untuk menggunakan Bitcoin dengan cara Trustless selaras dengan kebutuhan sistem untuk desentralisasi Full node. Semakin banyak orang yang menggunakan node penuh mereka sendiri, semakin banyak desentralisasi Full node, dan dengan demikian semakin kuat Bitcoin melawan perubahan berbahaya pada protokol. Namun sayangnya, seperti yang dijelaskan di bagian desentralisasi Full node, pengguna sering kali memilih untuk menggunakan layanan yang terpercaya sebagai konsekuensi dari pertukaran yang tak terelakkan antara ketidakpercayaan dan kenyamanan.
 
 
-Ketidakpercayaan Bitcoin sangat penting dari perspektif sistem. Pada tahun 2018, Matt Corallo, [berbicara tentang ketidakpercayaan] (https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/) di konferensi Baltic Honeybadger di Riga.
+Ketidakpercayaan Bitcoin sangat penting dari perspektif sistem. Pada tahun 2018, Matt Corallo, [berbicara tentang ketidakpercayaan](https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/) di konferensi Baltic Honeybadger di Riga.
 
 
 ![video](https://youtu.be/66ZoGUAnY9s?t=4019)
@@ -396,7 +396,7 @@ Bitcoin bekerja tanpa kepercayaan, tetapi Anda masih harus mempercayai perangkat
 - Bitcoin Core mungkin telah menyelipkan kode yang akan mengirimkan kunci pribadi Anda ke beberapa aktor jahat.
 
 
-Jadi, selain menjalankan Full node, Anda juga perlu memastikan bahwa Anda menjalankan apa yang Anda inginkan. Pengguna Reddit brianddk [menulis sebuah artikel] (https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) tentang berbagai tingkat kepercayaan yang dapat Anda pilih, ketika memverifikasi perangkat lunak Anda. Pada bagian "Mempercayai pembuatnya", dia berbicara tentang build yang dapat direproduksi:
+Jadi, selain menjalankan Full node, Anda juga perlu memastikan bahwa Anda menjalankan apa yang Anda inginkan. Pengguna Reddit brianddk [menulis sebuah artikel](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) tentang berbagai tingkat kepercayaan yang dapat Anda pilih, ketika memverifikasi perangkat lunak Anda. Pada bagian "Mempercayai pembuatnya", dia berbicara tentang build yang dapat direproduksi:
 
 
 > Reproducible build adalah cara untuk mendesain perangkat lunak sehingga banyak pengembang komunitas dapat membangun perangkat lunak dan memastikan bahwa penginstal akhir yang dibangun identik dengan apa yang dihasilkan oleh pengembang lain. Dengan proyek yang sangat umum dan dapat direproduksi seperti Bitcoin, tidak ada satu pengembang pun yang perlu dipercaya sepenuhnya. Banyak pengembang dapat melakukan pembuatan dan membuktikan bahwa mereka menghasilkan file yang sama dengan file yang ditandatangani secara digital oleh pembuat asli.
@@ -404,7 +404,7 @@ Jadi, selain menjalankan Full node, Anda juga perlu memastikan bahwa Anda menjal
 Artikel ini mendefinisikan 5 tingkat kepercayaan: mempercayai situs, pembangun, kompiler, kernel, dan perangkat keras.
 
 
-Untuk memperdalam topik build yang dapat direproduksi, Carl Dong [membuat presentasi tentang Guix] (https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) menjelaskan mengapa mempercayai sistem operasi, pustaka, dan kompiler dapat menjadi masalah, dan bagaimana cara mengatasinya dengan sistem yang disebut Guix, yang digunakan oleh Bitcoin Core saat ini.
+Untuk memperdalam topik build yang dapat direproduksi, Carl Dong [membuat presentasi tentang Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) menjelaskan mengapa mempercayai sistem operasi, pustaka, dan kompiler dapat menjadi masalah, dan bagaimana cara mengatasinya dengan sistem yang disebut Guix, yang digunakan oleh Bitcoin Core saat ini.
 
 
 > Jadi, apa yang dapat kita lakukan terhadap fakta bahwa toolchain kita dapat memiliki sekumpulan binari tepercaya yang dapat direproduksi menjadi berbahaya? Kita harus lebih dari sekadar dapat direproduksi. Kita harus dapat di-bootstrap. Kita tidak dapat memiliki banyak alat biner yang perlu kita unduh dan percayai dari server eksternal yang dikendalikan oleh organisasi lain.
@@ -420,13 +420,13 @@ Ada sebuah mantra yang banyak dianut oleh para pengguna bitcoin, yang menangkap 
 
 > Jangan percaya, verifikasi.
 
-Hal ini menyinggung frasa "[percaya, tetapi verifikasi] (https://en.wikipedia.org/wiki/Trust,_but_verify)" yang digunakan oleh mantan presiden AS Ronald Reagan dalam konteks perlucutan senjata nuklir. para [Bitcoiners] (https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) mengubahnya untuk menyoroti penolakan terhadap kepercayaan dan pentingnya menjalankan Full node.
+Hal ini menyinggung frasa "[percaya, tetapi verifikasi](https://en.wikipedia.org/wiki/Trust,_but_verify)" yang digunakan oleh mantan presiden AS Ronald Reagan dalam konteks perlucutan senjata nuklir. para [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) mengubahnya untuk menyoroti penolakan terhadap kepercayaan dan pentingnya menjalankan Full node.
 
 
 Tergantung pada pengguna untuk memutuskan sejauh mana mereka ingin memverifikasi perangkat lunak yang mereka gunakan dan data Blockchain yang mereka terima. Seperti halnya banyak hal lain di Bitcoin, ada pertukaran antara kenyamanan dan ketidakpercayaan. Hampir selalu lebih nyaman menggunakan Wallet kustodian dibandingkan dengan menjalankan Bitcoin Core pada perangkat keras Anda sendiri. Namun, karena perangkat lunak Bitcoin semakin matang dan antarmuka pengguna semakin membaik, seiring berjalannya waktu, perangkat lunak ini akan menjadi lebih baik dalam mendukung pengguna yang ingin bekerja tanpa kepercayaan. Selain itu, seiring bertambahnya pengetahuan pengguna dari waktu ke waktu, mereka seharusnya dapat secara bertahap menghilangkan rasa percaya.
 
 
-Beberapa pengguna berpikir secara negatif dan memverifikasi sebagian besar aspek perangkat lunak yang mereka jalankan. Akibatnya, mereka mengurangi kebutuhan akan kepercayaan seminimal mungkin, karena mereka hanya perlu mempercayai perangkat keras komputer dan sistem operasi mereka. Dengan melakukan hal tersebut, mereka juga membantu orang-orang yang tidak memverifikasi perangkat keras mereka secara menyeluruh dengan menyuarakan pendapat mereka di depan umum untuk memperingatkan tentang masalah apa pun yang mungkin mereka temukan. Salah satu contoh yang baik dari hal ini adalah [peristiwa yang terjadi pada tahun 2018] (https://bitcoincore.org/en/2018/09/20/notice/), ketika seseorang menemukan sebuah bug yang memungkinkan para penambang untuk mengeluarkan hasil dua kali dalam satu transaksi yang sama:
+Beberapa pengguna berpikir secara negatif dan memverifikasi sebagian besar aspek perangkat lunak yang mereka jalankan. Akibatnya, mereka mengurangi kebutuhan akan kepercayaan seminimal mungkin, karena mereka hanya perlu mempercayai perangkat keras komputer dan sistem operasi mereka. Dengan melakukan hal tersebut, mereka juga membantu orang-orang yang tidak memverifikasi perangkat keras mereka secara menyeluruh dengan menyuarakan pendapat mereka di depan umum untuk memperingatkan tentang masalah apa pun yang mungkin mereka temukan. Salah satu contoh yang baik dari hal ini adalah [peristiwa yang terjadi pada tahun 2018](https://bitcoincore.org/en/2018/09/20/notice/), ketika seseorang menemukan sebuah bug yang memungkinkan para penambang untuk mengeluarkan hasil dua kali dalam satu transaksi yang sama:
 
 
 > CVE-2018-17144, perbaikan yang dirilis pada tanggal 18 September di Bitcoin Core versi 0.16.3 dan 0.17.0rc4, mencakup komponen Denial of Service dan kerentanan inflasi kritis. Awalnya dilaporkan ke beberapa pengembang yang bekerja pada Bitcoin Core, serta proyek yang mendukung mata uang kripto lainnya, termasuk ABC dan Unlimited pada tanggal 17 September sebagai bug Denial of Service saja, namun kami dengan cepat menentukan bahwa masalah ini juga merupakan kerentanan inflasi dengan akar penyebab dan perbaikan yang sama.
@@ -499,7 +499,7 @@ Maxwell juga menyinggung tentang kesesuaian, yang akan dibahas nanti dalam bab i
 Kami telah menyebutkan di atas bahwa Bitcoin adalah pseudonim, dan nama samaran adalah kunci publik. Di media, Anda sering mendengar bahwa Bitcoin bersifat anonim, yang mana hal ini tidak benar. Terdapat perbedaan antara anonimitas dan pseudonimitas.
 
 
-Andrew Poelstra [menjelaskan dalam postingan Bitcoin Stack Exchange] (https://Bitcoin.stackexchange.com/a/29473/69518) seperti apa anonimitas dalam transaksi:
+Andrew Poelstra [menjelaskan dalam postingan Bitcoin Stack Exchange](https://Bitcoin.stackexchange.com/a/29473/69518) seperti apa anonimitas dalam transaksi:
 
 
 > Anonimitas total, dalam arti ketika Anda membelanjakan uang, tidak ada jejak dari mana asalnya atau ke mana perginya, secara teoritis dimungkinkan dengan menggunakan teknik kriptografi pembuktian tanpa pengetahuan.
@@ -525,7 +525,7 @@ Dengan menggunakan alamat, atau kunci publik, kita mencapai tujuan penting, sepe
 Privasi Blockchain mengacu pada informasi yang Anda ungkapkan dengan bertransaksi di Blockchain. Ini berlaku untuk semua transaksi, baik yang Anda kirim maupun yang Anda terima.
 
 
-Satoshi Nakamoto merenungkan privasi On-Chain di bagian 7 dari [whitepaper Bitcoin] (https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto merenungkan privasi On-Chain di bagian 7 dari [whitepaper Bitcoin](https://Bitcoin.org/Bitcoin.pdf):
 
 
 > Sebagai firewall tambahan, pasangan kunci baru harus digunakan untuk setiap transaksi agar tidak terhubung dengan pemilik yang sama. Beberapa penautan masih tidak dapat dihindari dengan transaksi multi-input, yang tentu saja mengungkapkan bahwa input mereka dimiliki oleh pemilik yang sama. Resikonya adalah jika pemilik dari sebuah kunci terungkap, penautan dapat mengungkapkan transaksi lain yang dimiliki oleh pemilik yang sama.
@@ -539,13 +539,13 @@ Makalah ini merangkum masalah utama dari privasi Blockchain, yaitu penggunaan ul
 Kebocoran privasi yang umum terjadi pada Blockchain
 
 
-Chris Belcher [menulis dengan sangat rinci] (https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) tentang berbagai jenis kebocoran privasi yang dapat terjadi pada Bitcoin Blockchain. Kami sarankan Anda membaca setidaknya beberapa subbagian pertama di bawah "Serangan Blockchain terhadap privasi."
+Chris Belcher [menulis dengan sangat rinci](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) tentang berbagai jenis kebocoran privasi yang dapat terjadi pada Bitcoin Blockchain. Kami sarankan Anda membaca setidaknya beberapa subbagian pertama di bawah "Serangan Blockchain terhadap privasi."
 
 
 Kesimpulannya adalah bahwa privasi di Bitcoin tidak sempurna. Dibutuhkan banyak usaha untuk bertransaksi secara pribadi. Kebanyakan orang tidak siap untuk melangkah sejauh itu untuk privasi. Tampaknya ada pertukaran yang jelas antara privasi dan kegunaan.
 
 
-Aspek penting lainnya dari privasi adalah bahwa tindakan yang Anda ambil untuk melindungi privasi Anda sendiri juga memengaruhi pengguna lain. Jika Anda ceroboh dengan privasi Anda sendiri, orang lain mungkin akan mengalami pengurangan privasi juga. Gregory Maxwell menjelaskan hal ini dengan sangat jelas pada diskusi Bitcoin Talk yang sama [yang kami tautkan di atas] (https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), dan diakhiri dengan sebuah contoh:
+Aspek penting lainnya dari privasi adalah bahwa tindakan yang Anda ambil untuk melindungi privasi Anda sendiri juga memengaruhi pengguna lain. Jika Anda ceroboh dengan privasi Anda sendiri, orang lain mungkin akan mengalami pengurangan privasi juga. Gregory Maxwell menjelaskan hal ini dengan sangat jelas pada diskusi Bitcoin Talk yang sama [yang kami tautkan di atas](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), dan diakhiri dengan sebuah contoh:
 
 
 > Hal ini sebenarnya juga berhasil dalam praktiknya... Seorang peretas whitehat yang baik di IRC bermain-main dengan cracking brainwallet dan mendapatkan sebuah frasa dengan ~250 BTC di dalamnya.  Kami dapat mengidentifikasi pemiliknya hanya dari Address saja, karena mereka telah dibayar oleh layanan Bitcoin yang menggunakan alamat yang sama dan dia dapat membujuk mereka untuk memberikan informasi kontak pengguna. Dia benar-benar berhasil menghubungi pengguna melalui telepon, mereka terkejut dan bingung - tetapi bersyukur karena tidak kehilangan uang mereka.  Akhir yang membahagiakan di sana. (Ini bukan satu-satunya contoh, sejauh ini... tapi ini adalah salah satu contoh yang menyenangkan).
@@ -556,7 +556,7 @@ Dalam kasus ini, semuanya berjalan dengan baik berkat peretas yang berjiwa derma
 ### Privasi non-Blockchain
 
 
-Meskipun Blockchain terbukti menjadi sumber kebocoran privasi yang terkenal, ada banyak kebocoran lain yang tidak menggunakan Blockchain, beberapa lebih licik daripada yang lain. Mulai dari pencatat kunci hingga analisis lalu lintas jaringan. Untuk membaca tentang beberapa metode ini, silakan lihat lagi [tulisan Chris Belcher] (https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), khususnya bagian "Serangan Non-Blockchain pada privasi".
+Meskipun Blockchain terbukti menjadi sumber kebocoran privasi yang terkenal, ada banyak kebocoran lain yang tidak menggunakan Blockchain, beberapa lebih licik daripada yang lain. Mulai dari pencatat kunci hingga analisis lalu lintas jaringan. Untuk membaca tentang beberapa metode ini, silakan lihat lagi [tulisan Chris Belcher](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), khususnya bagian "Serangan Non-Blockchain pada privasi".
 
 
 Di antara sejumlah besar serangan, Belcher menyebutkan kemungkinan seseorang mengintai koneksi internet Anda, misalnya, ISP Anda:
@@ -571,7 +571,7 @@ menjual data kepada penawar tertinggi.
 
 Lebih buruk lagi, perusahaan yang mengelola basis data ini sering kali hanya memiliki sedikit pengalaman dalam melindungi data keuangan, bahkan banyak di antaranya adalah perusahaan baru yang masih muda, dan kita tahu pasti bahwa beberapa kebocoran telah terjadi. Beberapa contohnya adalah
 
-[MobiQwik yang berbasis di India] (https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-Bitcoin-privacy) dan [HubSpot] (https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-Bitcoin-users-data).
+[MobiQwik yang berbasis di India](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-Bitcoin-privacy) dan [HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-Bitcoin-users-data).
 
 
 Sekali lagi, melindungi data dari berbagai macam serangan ini adalah Hard, dan kemungkinan besar Anda tidak akan sepenuhnya mampu melakukannya. Anda harus memilih untuk mengorbankan antara kenyamanan dan privasi yang paling cocok untuk Anda.
@@ -585,7 +585,7 @@ Fungibilitas, dalam konteks mata uang, berarti bahwa satu koin dapat dipertukark
 telah disinggung secara singkat di awal bab ini.
 
 
-Dalam artikel yang dibahas di sana, Gregory Maxwell [menyatakan] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
+Dalam artikel yang dibahas di sana, Gregory Maxwell [menyatakan](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
 
 > Privasi keuangan adalah elemen penting untuk kesepadanan dalam Bitcoin: jika Anda dapat membedakan satu koin dengan koin lainnya, maka kesepadanannya lemah. Jika kesepadanan kita terlalu lemah dalam praktiknya, maka kita tidak dapat terdesentralisasi: jika seseorang yang penting mengumumkan daftar koin yang dicuri, mereka tidak akan menerima koin yang berasal dari koin tersebut, Anda harus dengan hati-hati memeriksa koin yang Anda terima dengan daftar itu dan mengembalikan koin yang gagal.  Semua orang terjebak dalam memeriksa daftar hitam yang dikeluarkan oleh berbagai otoritas karena di dunia ini kita semua tidak ingin terjebak dengan koin yang buruk. Hal ini menambah gesekan dan biaya transaksi dan membuat Bitcoin menjadi kurang berharga sebagai uang.
@@ -593,7 +593,7 @@ Dalam artikel yang dibahas di sana, Gregory Maxwell [menyatakan] (https://bitcoi
 Di sini, dia berbicara tentang bahaya yang berasal dari kurangnya kesesuaian. Misalkan Anda memiliki UTXO. Riwayat UTXO biasanya dapat ditelusuri kembali ke beberapa lompatan, menyebar ke banyak keluaran sebelumnya. Jika salah satu dari keluaran tersebut terlibat dalam aktivitas ilegal, tidak diinginkan, atau mencurigakan, maka beberapa calon penerima koin Anda mungkin akan menolaknya. Jika Anda berpikir bahwa penerima pembayaran Anda akan memverifikasi koin Anda terhadap beberapa layanan daftar putih atau daftar hitam terpusat, Anda mungkin akan mulai memeriksa koin yang Anda terima juga, hanya untuk berjaga-jaga. Hasilnya adalah fungibilitas yang buruk akan mendukung fungibilitas yang lebih buruk lagi.
 
 
-Adam Back dan Matt Corallo [memberikan presentasi tentang kesesuaian] (https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) di Scaling Bitcoin di Milan pada tahun 2016. Mereka memiliki pemikiran yang sama:
+Adam Back dan Matt Corallo [memberikan presentasi tentang kesesuaian](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) di Scaling Bitcoin di Milan pada tahun 2016. Mereka memiliki pemikiran yang sama:
 
 
 > Anda membutuhkan kesepadanan agar Bitcoin dapat berfungsi. Jika Anda menerima koin dan tidak dapat membelanjakannya, maka Anda mulai meragukan apakah Anda dapat membelanjakannya. Jika ada keraguan tentang koin yang Anda terima, maka orang-orang akan pergi ke layanan taint dan memeriksa apakah "apakah koin ini diberkati" dan kemudian orang-orang akan menolak untuk berdagang. Apa yang dilakukannya adalah mentransisikan Bitcoin dari sistem tanpa izin yang terdesentralisasi menjadi sistem berizin yang tersentralisasi di mana Anda memiliki "IOU" dari penyedia daftar hitam.
@@ -607,7 +607,7 @@ Tampaknya privasi dan fungibilitas berjalan seiring. Fungibility akan melemah ji
 
 Beberapa teknik telah dikembangkan untuk membantu orang-orang melindungi diri mereka sendiri dari kebocoran privasi. Di antara yang paling jelas adalah, seperti yang dicatat oleh Nakamoto sebelumnya, menggunakan
 
-alamat untuk setiap transaksi, tetapi ada beberapa alamat lainnya. Kami tidak akan mengajari Anda cara menjadi ninja privasi. Namun, Bitcoin Q+A memiliki [ringkasan singkat tentang teknologi yang meningkatkan privasi] (https://bitcoiner.guide/privacytips/), yang diurutkan berdasarkan bagaimana cara menerapkan Hard. Ketika Anda membacanya, Anda akan melihat bahwa privasi Bitcoin sering kali berkaitan dengan hal-hal di luar Bitcoin. Sebagai contoh, Anda tidak boleh menyombongkan diri dengan bitcoin Anda, dan Anda harus menggunakan Tor dan VPN.
+alamat untuk setiap transaksi, tetapi ada beberapa alamat lainnya. Kami tidak akan mengajari Anda cara menjadi ninja privasi. Namun, Bitcoin Q+A memiliki [ringkasan singkat tentang teknologi yang meningkatkan privasi](https://bitcoiner.guide/privacytips/), yang diurutkan berdasarkan bagaimana cara menerapkan Hard. Ketika Anda membacanya, Anda akan melihat bahwa privasi Bitcoin sering kali berkaitan dengan hal-hal di luar Bitcoin. Sebagai contoh, Anda tidak boleh menyombongkan diri dengan bitcoin Anda, dan Anda harus menggunakan Tor dan VPN.
 
 
 Postingan ini juga mencantumkan beberapa langkah yang terkait langsung dengan Bitcoin:
@@ -644,17 +644,17 @@ Kami mencatat dalam bab sebelumnya bahwa kebutuhan akan kepercayaan hanya bisa m
 Di atas adalah cara-cara teknis untuk meningkatkan privasi Anda. Tetapi masih ada cara lain. Pada awal bab ini, kami mengatakan bahwa Bitcoin adalah sistem pseudonim. Ini berarti bahwa pengguna di Bitcoin tidak dikenal dengan nama asli mereka atau data pribadi lainnya, tetapi dengan kunci publik mereka. Kunci publik adalah nama samaran untuk seorang pengguna, dan seorang pengguna dapat memiliki beberapa nama samaran. Dalam dunia yang ideal, identitas asli Anda dipisahkan dari nama samaran Bitcoin Anda. Sayangnya, karena masalah privasi yang dijelaskan pada bab ini, pemisahan ini biasanya menurun seiring waktu.
 
 
-Untuk mengurangi risiko terungkapnya data pribadi Anda adalah dengan tidak memberikannya sejak awal atau memberikannya kepada layanan terpusat, yang membangun basis data besar yang dapat bocor. Sebuah artikel dari Bitcoin Q+A [menjelaskan tentang KYC] (https://bitcoiner.guide/nokyconly/) dan bahaya yang ditimbulkannya. Artikel ini juga menyarankan beberapa langkah yang dapat Anda ambil untuk memperbaiki situasi Anda:
+Untuk mengurangi risiko terungkapnya data pribadi Anda adalah dengan tidak memberikannya sejak awal atau memberikannya kepada layanan terpusat, yang membangun basis data besar yang dapat bocor. Sebuah artikel dari Bitcoin Q+A [menjelaskan tentang KYC](https://bitcoiner.guide/nokyconly/) dan bahaya yang ditimbulkannya. Artikel ini juga menyarankan beberapa langkah yang dapat Anda ambil untuk memperbaiki situasi Anda:
 
 
 > Untungnya, ada beberapa opsi di luar sana untuk membeli Bitcoin tanpa sumber KYC. Ini semua adalah bursa P2P (peer to peer) di mana Anda berdagang secara langsung dengan individu lain dan bukan dengan pihak ketiga yang terpusat. Sayangnya, beberapa di antaranya menjual koin lain selain Bitcoin, jadi kami menyarankan Anda untuk berhati-hati.
 
-Artikel ini menyarankan Anda untuk menghindari penggunaan bursa yang membutuhkan KYC/AML dan sebagai gantinya berdagang secara pribadi, atau menggunakan bursa terdesentralisasi seperti [bisq] (https://bisq.network/).
+Artikel ini menyarankan Anda untuk menghindari penggunaan bursa yang membutuhkan KYC/AML dan sebagai gantinya berdagang secara pribadi, atau menggunakan bursa terdesentralisasi seperti [bisq](https://bisq.network/).
 
 
 https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-Untuk bacaan yang lebih mendalam tentang tindakan pencegahan, lihat [artikel wiki tentang privasi] (https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29) yang telah disebutkan sebelumnya, mulai dari "Metode untuk meningkatkan privasi (non-Blockchain)".
+Untuk bacaan yang lebih mendalam tentang tindakan pencegahan, lihat [artikel wiki tentang privasi](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29) yang telah disebutkan sebelumnya, mulai dari "Metode untuk meningkatkan privasi (non-Blockchain)".
 
 
 ### Kesimpulan tentang Privasi
@@ -682,7 +682,7 @@ Bab ini membahas tentang batas Bitcoin Supply sebesar 21 juta BTC, atau berapa s
 Supply yang terkenal dengan jumlah terbatas 21 juta BTC dianggap sebagai sifat dasar Bitcoin. Namun, apakah hal itu benar-benar sudah ditetapkan?
 
 
-Mari kita mulai dengan melihat apa yang dikatakan oleh aturan konsensus saat ini mengenai Supply dari Bitcoin, dan seberapa banyak yang akan dapat digunakan. Pieter Wuille menulis sebuah artikel mengenai hal ini [di Stack Exchange] (https://Bitcoin.stackexchange.com/a/38998/69518), di mana ia menghitung berapa banyak bitcoin yang akan ada setelah semua koin ditambang:
+Mari kita mulai dengan melihat apa yang dikatakan oleh aturan konsensus saat ini mengenai Supply dari Bitcoin, dan seberapa banyak yang akan dapat digunakan. Pieter Wuille menulis sebuah artikel mengenai hal ini [di Stack Exchange](https://Bitcoin.stackexchange.com/a/38998/69518), di mana ia menghitung berapa banyak bitcoin yang akan ada setelah semua koin ditambang:
 
 
 > Jika Anda menjumlahkan semua angka ini, Anda akan mendapatkan 20999999.9769 BTC.
@@ -692,7 +692,7 @@ Namun karena beberapa alasan - seperti masalah awal dengan transaksi coinbase, p
 
 > Ini menyisakan kita dengan 20999817.31308491 BTC (dengan memperhitungkan semua yang ada di blok 528333)
 
-Namun, berbagai dompet telah hilang atau dicuri, transaksi telah dikirim ke Address yang salah, orang lupa bahwa mereka memiliki Bitcoin. Jumlahnya mungkin mencapai jutaan. Orang-orang telah mencoba menghitung kerugian yang diketahui [di sini] (https://bitcointalk.org/index.php?topic=7253.0).
+Namun, berbagai dompet telah hilang atau dicuri, transaksi telah dikirim ke Address yang salah, orang lupa bahwa mereka memiliki Bitcoin. Jumlahnya mungkin mencapai jutaan. Orang-orang telah mencoba menghitung kerugian yang diketahui [di sini](https://bitcointalk.org/index.php?topic=7253.0).
 
 
 Ini membuat kita dengan: ??? BTC.
@@ -700,7 +700,7 @@ Ini membuat kita dengan: ??? BTC.
 
 Dengan demikian, kita dapat yakin bahwa Bitcoin Supply akan menjadi 20999817.31308491 BTC paling banyak. Setiap koin yang hilang atau tidak dapat diverifikasi akan membuat jumlah ini lebih rendah, tetapi kita tidak tahu berapa banyak. Hal yang menarik adalah bahwa hal tersebut tidak terlalu berpengaruh, atau lebih baik lagi, hal tersebut berpengaruh secara positif bagi para pemegang Bitcoin,
 
-[seperti yang dijelaskan] (https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) oleh Satoshi Nakamoto:
+[seperti yang dijelaskan](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) oleh Satoshi Nakamoto:
 
 
 > Koin yang hilang hanya akan membuat koin orang lain sedikit lebih berharga.  Anggap saja ini sebagai sumbangan untuk semua orang.
@@ -708,7 +708,7 @@ Dengan demikian, kita dapat yakin bahwa Bitcoin Supply akan menjadi 20999817.313
 Supply yang terbatas akan menyusut dan hal ini, setidaknya secara teori, akan menyebabkan deflasi harga.
 
 
-Yang lebih penting daripada jumlah koin yang beredar adalah bagaimana batas Supply diberlakukan tanpa otoritas pusat. Alias chytrik menjelaskannya dengan baik di [Stack Exchange] (https://Bitcoin.stackexchange.com/a/106830/69518):
+Yang lebih penting daripada jumlah koin yang beredar adalah bagaimana batas Supply diberlakukan tanpa otoritas pusat. Alias chytrik menjelaskannya dengan baik di [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518):
 
 
 > Jadi jawabannya adalah Anda tidak perlu mempercayai seseorang untuk tidak meningkatkan Supply. Anda hanya perlu menjalankan beberapa kode yang akan memverifikasi bahwa mereka tidak melakukannya.
@@ -723,7 +723,7 @@ Bahkan jika beberapa full node beralih ke sisi gelap dan memutuskan untuk meneri
 Block reward terdiri dari subsidi blok ditambah biaya transaksi. Block reward harus menutupi biaya keamanan Bitcoin. Kita dapat mengatakan dengan pasti bahwa dalam kondisi saat ini sehubungan dengan subsidi blok, biaya transaksi, harga Bitcoin, ukuran Mempool, kekuatan Hash, tingkat desentralisasi, dll., insentif bagi setiap pemain untuk bermain sesuai aturan cukup tinggi untuk menjaga sistem moneter yang aman.
 
 
-Apa yang terjadi ketika subsidi blok mendekati nol? Untuk mempermudah, mari kita asumsikan bahwa subsidi blok sama dengan nol. Pada titik ini, biaya keamanan sistem ditutupi hanya melalui biaya transaksi. Apa yang akan terjadi di masa depan jika hal ini terjadi, kita tidak dapat mengetahuinya. Faktor ketidakpastiannya sangat banyak dan kita hanya bisa berspekulasi. Sebagai contoh, kontribusi Paul Sztorc terhadap subjek ini [dalam blog Truthcoin-nya] (https://www.truthcoin.info/blog/security-budget/) sebagian besar merupakan spekulasi, tetapi ia memiliki setidaknya satu poin yang kuat (harap dicatat bahwa M2, seperti yang dirujuk oleh Sztorc, adalah pengukuran uang fiat Supply):
+Apa yang terjadi ketika subsidi blok mendekati nol? Untuk mempermudah, mari kita asumsikan bahwa subsidi blok sama dengan nol. Pada titik ini, biaya keamanan sistem ditutupi hanya melalui biaya transaksi. Apa yang akan terjadi di masa depan jika hal ini terjadi, kita tidak dapat mengetahuinya. Faktor ketidakpastiannya sangat banyak dan kita hanya bisa berspekulasi. Sebagai contoh, kontribusi Paul Sztorc terhadap subjek ini [dalam blog Truthcoin-nya](https://www.truthcoin.info/blog/security-budget/) sebagian besar merupakan spekulasi, tetapi ia memiliki setidaknya satu poin yang kuat (harap dicatat bahwa M2, seperti yang dirujuk oleh Sztorc, adalah pengukuran uang fiat Supply):
 
 
 > Meskipun keduanya tercampur ke dalam "anggaran keamanan" yang sama, subsidi blok dan biaya txn benar-benar berbeda. Keduanya sangat berbeda satu sama lain, seperti "total keuntungan VISA pada tahun 2017" dengan "total peningkatan M2 pada tahun 2017".
@@ -737,10 +737,10 @@ Saat ini, para pemegang sahamlah yang membayar keamanan (melalui inflasi moneter
 Seiring berjalannya waktu, beban biaya keamanan akan bergeser dari pemegang saham menjadi pembelanja
 
 
-Ketika biaya transaksi menjadi motivasi utama untuk Mining, insentifnya berubah. Terutama, jika Mempool dari sebuah Miner tidak mengandung cukup biaya transaksi, mungkin akan lebih menguntungkan bagi Miner tersebut untuk menulis ulang riwayat Bitcoin daripada memperpanjangnya. Bitcoin Optech memiliki [bagian khusus tentang perilaku ini] (https://bitcoinops.org/en/topics/fee-sniping/), yang disebut *fee sniping*, yang ditulis oleh David Harding:
+Ketika biaya transaksi menjadi motivasi utama untuk Mining, insentifnya berubah. Terutama, jika Mempool dari sebuah Miner tidak mengandung cukup biaya transaksi, mungkin akan lebih menguntungkan bagi Miner tersebut untuk menulis ulang riwayat Bitcoin daripada memperpanjangnya. Bitcoin Optech memiliki [bagian khusus tentang perilaku ini](https://bitcoinops.org/en/topics/fee-sniping/), yang disebut *fee sniping*, yang ditulis oleh David Harding:
 
 
-> Pemotongan biaya adalah masalah yang dapat terjadi karena subsidi Bitcoin terus berkurang dan biaya transaksi mulai mendominasi imbalan blok Bitcoin. Jika biaya transaksi adalah yang terpenting, maka sebuah Miner dengan `x` persen dari tarif Hash memiliki peluang `x` persen untuk mendapatkan Mining pada blok berikutnya, sehingga nilai yang diharapkan bagi mereka yang jujur dari Mining adalah `x` persen dari [kumpulan transaksi feerate terbaik] (https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) dalam Mempool mereka.
+> Pemotongan biaya adalah masalah yang dapat terjadi karena subsidi Bitcoin terus berkurang dan biaya transaksi mulai mendominasi imbalan blok Bitcoin. Jika biaya transaksi adalah yang terpenting, maka sebuah Miner dengan `x` persen dari tarif Hash memiliki peluang `x` persen untuk mendapatkan Mining pada blok berikutnya, sehingga nilai yang diharapkan bagi mereka yang jujur dari Mining adalah `x` persen dari [kumpulan transaksi feerate terbaik](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) dalam Mempool mereka.
 >
 
 > Sebagai alternatif, sebuah Miner dapat secara tidak jujur mencoba untuk menambang kembali blok sebelumnya ditambah dengan blok yang sepenuhnya baru untuk memperpanjang rantai. Perilaku ini disebut sebagai fee sniping, dan peluang Miner yang tidak jujur untuk berhasil dalam hal ini jika setiap Miner lainnya jujur adalah `(x/(1-x))^2`. Meskipun fee sniping memiliki probabilitas keberhasilan yang lebih rendah secara keseluruhan dibandingkan dengan Mining yang jujur, mencoba Mining yang tidak jujur dapat menjadi pilihan yang lebih menguntungkan jika transaksi di blok sebelumnya membayar fee yang jauh lebih tinggi daripada transaksi yang ada di Mempool - peluang kecil dengan jumlah yang besar dapat bernilai lebih besar daripada peluang besar dengan jumlah yang kecil.
@@ -748,7 +748,7 @@ Ketika biaya transaksi menjadi motivasi utama untuk Mining, insentifnya berubah.
 Melempar selimut basah ke atas harapan kita untuk masa depan adalah fakta bahwa jika para penambang mulai melakukan penembakan bayaran, hal ini akan mendorong orang lain untuk melakukan hal yang sama, sehingga hanya menyisakan lebih sedikit lagi penambang yang jujur. Hal ini dapat sangat mengganggu keamanan Bitcoin secara keseluruhan. Harding melanjutkan dengan menyebutkan beberapa tindakan pencegahan yang dapat dilakukan, seperti mengandalkan penguncian waktu transaksi untuk membatasi di mana saja transaksi dalam Blockchain dapat muncul.
 
 
-Jadi, dengan adanya konsensus mengenai Supply yang terbatas, subsidi blok akan - berkat [BIP42] (https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) yang memperbaiki bug inflasi jangka panjang - mencapai nol pada tahun 2140. Akankah biaya transaksi setelah itu cukup untuk mengamankan jaringan?
+Jadi, dengan adanya konsensus mengenai Supply yang terbatas, subsidi blok akan - berkat [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) yang memperbaiki bug inflasi jangka panjang - mencapai nol pada tahun 2140. Akankah biaya transaksi setelah itu cukup untuk mengamankan jaringan?
 
 
 Tidak mungkin untuk mengatakannya, tetapi kami tahu beberapa hal:
@@ -759,7 +759,7 @@ Tidak mungkin untuk mengatakannya, tetapi kami tahu beberapa hal:
 - Dengan subsidi blok nol dan Mempool yang kosong atau hampir kosong, keadaan dapat menjadi goyah karena pemotongan biaya.
 
 
-Karena transisi ke Block reward yang hanya berbayar masih jauh di masa depan, mungkin lebih bijaksana untuk tidak langsung mengambil kesimpulan dan mencoba memperbaiki potensi masalah selagi bisa. Sebagai contoh, Peter Todd berpikir bahwa ada risiko aktual bahwa anggaran keamanan Bitcoin tidak akan cukup di masa depan, dan akibatnya berpendapat bahwa ada inflasi kecil yang terus-menerus di Bitcoin. Namun, dia juga berpikir bahwa bukan ide yang baik untuk membahas masalah seperti itu saat ini, seperti yang dia katakan di podcast What Bitcoin Did] (https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Karena transisi ke Block reward yang hanya berbayar masih jauh di masa depan, mungkin lebih bijaksana untuk tidak langsung mengambil kesimpulan dan mencoba memperbaiki potensi masalah selagi bisa. Sebagai contoh, Peter Todd berpikir bahwa ada risiko aktual bahwa anggaran keamanan Bitcoin tidak akan cukup di masa depan, dan akibatnya berpendapat bahwa ada inflasi kecil yang terus-menerus di Bitcoin. Namun, dia juga berpikir bahwa bukan ide yang baik untuk membahas masalah seperti itu saat ini, seperti yang dia katakan di podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
 
 
 > Namun, itu adalah risiko 10, 20 tahun ke depan. Itu adalah waktu yang sangat lama. Dan, pada saat itu, siapa yang tahu apa risikonya?
@@ -791,7 +791,7 @@ Apakah Bitcoin Supply akan tumbuh melewati 21 juta, kita tidak bisa mengatakanny
 Memutakhirkan Bitcoin dengan cara yang aman bisa jadi sangat sulit. Beberapa perubahan membutuhkan waktu beberapa tahun untuk diluncurkan. Dalam bab ini, kita belajar tentang kosakata umum seputar peningkatan Bitcoin, dan mengeksplorasi beberapa contoh peningkatan historis pada protokolnya serta wawasan yang kami peroleh darinya. Terakhir, kita akan membahas tentang pemisahan rantai dan risiko serta biaya yang terkait dengannya.
 
 
-Untuk menyelaraskan diri dengan bab ini, Anda harus membaca [tulisan David Harding tentang harmoni dan perselisihan] (https://bitcointalk.org/dec/p1.html):
+Untuk menyelaraskan diri dengan bab ini, Anda harus membaca [tulisan David Harding tentang harmoni dan perselisihan](https://bitcointalk.org/dec/p1.html):
 
 
 > Para ahli Bitcoin sering berbicara tentang konsensus, yang maknanya abstrak dan sulit dijabarkan. Tetapi kata konsensus berevolusi dari kata Latin concentus, "nyanyian bersama yang harmonis", jadi mari kita bicara bukan tentang konsensus Bitcoin tetapi tentang harmoni Bitcoin.
@@ -809,35 +809,35 @@ Bab ini membahas bagaimana Bitcoin dapat ditingkatkan tanpa menyebabkan perselis
 
 
 
-Menurut Wikipedia, [kompatibilitas ke depan] (https://en.wikipedia.org/wiki/Forward_compatibility) mengacu pada kondisi di mana perangkat lunak lama dapat memproses data yang dibuat oleh perangkat lunak yang lebih baru, dengan mengabaikan bagian-bagian yang tidak dimengerti:
+Menurut Wikipedia, [kompatibilitas ke depan](https://en.wikipedia.org/wiki/Forward_compatibility) mengacu pada kondisi di mana perangkat lunak lama dapat memproses data yang dibuat oleh perangkat lunak yang lebih baru, dengan mengabaikan bagian-bagian yang tidak dimengerti:
 
 
 Sebuah standar mendukung kompatibilitas ke depan jika produk yang sesuai dengan versi sebelumnya dapat memproses input yang dirancang untuk versi standar yang lebih baru, dengan mengabaikan bagian-bagian baru yang tidak dimengertinya.
 
 
-Sebaliknya, [kompatibilitas ke belakang] (https://en.wikipedia.org/wiki/Backward_compatibility) mengacu pada saat data dari perangkat lunak lama dapat digunakan pada perangkat lunak yang lebih baru. Sebuah perubahan dikatakan sepenuhnya kompatibel jika kompatibel ke depan dan ke belakang.
+Sebaliknya, [kompatibilitas ke belakang](https://en.wikipedia.org/wiki/Backward_compatibility) mengacu pada saat data dari perangkat lunak lama dapat digunakan pada perangkat lunak yang lebih baru. Sebuah perubahan dikatakan sepenuhnya kompatibel jika kompatibel ke depan dan ke belakang.
 
 
 Sebuah perubahan pada aturan konsensus Bitcoin dikatakan sebagai *Soft Fork* jika sepenuhnya kompatibel. Ini adalah cara yang paling umum untuk meng-upgrade Bitcoin, karena sejumlah alasan yang akan kita bahas lebih lanjut dalam bab ini. Jika perubahan pada aturan konsensus Bitcoin kompatibel ke belakang tetapi tidak kompatibel ke depan, maka disebut sebagai *Hard Fork*.
 
 
-Untuk tinjauan teknis tentang fork Soft dan fork Hard, silakan baca [bab 11 dari Grokking Bitcoin] (https://rosenbaum.se/book/grokking-Bitcoin-11.html). Bab ini menjelaskan istilah-istilah ini dan juga membahas mekanisme upgrade. Disarankan, meskipun tidak sepenuhnya diperlukan, untuk memahami hal ini sebelum Anda melanjutkan membaca.
+Untuk tinjauan teknis tentang fork Soft dan fork Hard, silakan baca [bab 11 dari Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Bab ini menjelaskan istilah-istilah ini dan juga membahas mekanisme upgrade. Disarankan, meskipun tidak sepenuhnya diperlukan, untuk memahami hal ini sebelum Anda melanjutkan membaca.
 
 
 ### Peningkatan bersejarah
 
 
 
-Bitcoin saat ini tidak sama dengan saat blok Genesis dibuat. Beberapa peningkatan telah dilakukan selama bertahun-tahun. Pada tahun 2018, Eric Lombrozo [berbicara di konferensi Breaking Bitcoin] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) tentang mekanisme peningkatan Bitcoin yang berbeda, menunjukkan betapa mereka telah berkembang dari waktu ke waktu. Dia bahkan menjelaskan bagaimana Satoshi Nakamoto pernah meng-upgrade Bitcoin melalui Hard Fork:
+Bitcoin saat ini tidak sama dengan saat blok Genesis dibuat. Beberapa peningkatan telah dilakukan selama bertahun-tahun. Pada tahun 2018, Eric Lombrozo [berbicara di konferensi Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) tentang mekanisme peningkatan Bitcoin yang berbeda, menunjukkan betapa mereka telah berkembang dari waktu ke waktu. Dia bahkan menjelaskan bagaimana Satoshi Nakamoto pernah meng-upgrade Bitcoin melalui Hard Fork:
 
 
-> Sebenarnya ada Hard-Fork di Bitcoin yang dilakukan oleh Satoshi yang tidak akan pernah kita lakukan dengan cara ini - ini adalah cara yang sangat buruk untuk melakukannya. Jika Anda melihat deskripsi komit git di sini [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], dia mengatakan sesuatu tentang mengembalikan makefile.unix wx-config versi 0.3.6. Benar. Hanya itu yang dikatakannya. Tidak ada indikasi bahwa ia memiliki perubahan yang merusak sama sekali. Pada dasarnya dia menyembunyikannya di sana. Dia juga [diposting ke bitcointalk] (https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) dan berkata, silakan upgrade ke 0.3.6 secepatnya. Kami telah memperbaiki bug implementasi yang memungkinkan transaksi palsu dapat ditampilkan sebagai transaksi yang diterima. Jangan menerima pembayaran Bitcoin sampai Anda melakukan upgrade ke 0.3.6. Jika Anda tidak dapat segera melakukan upgrade, maka sebaiknya matikan node Bitcoin Anda sampai Anda melakukannya. Dan di atas semua itu, saya tidak tahu mengapa dia memutuskan untuk melakukan ini juga, dia memutuskan untuk menambahkan beberapa pengoptimalan dalam kode yang sama. Memperbaiki bug dan menambahkan beberapa pengoptimalan.
+> Sebenarnya ada Hard-Fork di Bitcoin yang dilakukan oleh Satoshi yang tidak akan pernah kita lakukan dengan cara ini - ini adalah cara yang sangat buruk untuk melakukannya. Jika Anda melihat deskripsi komit git di sini [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], dia mengatakan sesuatu tentang mengembalikan makefile.unix wx-config versi 0.3.6. Benar. Hanya itu yang dikatakannya. Tidak ada indikasi bahwa ia memiliki perubahan yang merusak sama sekali. Pada dasarnya dia menyembunyikannya di sana. Dia juga [diposting ke bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) dan berkata, silakan upgrade ke 0.3.6 secepatnya. Kami telah memperbaiki bug implementasi yang memungkinkan transaksi palsu dapat ditampilkan sebagai transaksi yang diterima. Jangan menerima pembayaran Bitcoin sampai Anda melakukan upgrade ke 0.3.6. Jika Anda tidak dapat segera melakukan upgrade, maka sebaiknya matikan node Bitcoin Anda sampai Anda melakukannya. Dan di atas semua itu, saya tidak tahu mengapa dia memutuskan untuk melakukan ini juga, dia memutuskan untuk menambahkan beberapa pengoptimalan dalam kode yang sama. Memperbaiki bug dan menambahkan beberapa pengoptimalan.
 
 Dia menunjukkan bahwa, baik disengaja atau tidak, Hard Fork ini menciptakan peluang untuk fork Soft di masa depan, yaitu operator Script (opcode) OP_NOP1-OP_NOP10. Kita akan melihat lebih lanjut tentang perubahan kode ini di cve-2010-5141. Opcode ini telah digunakan untuk dua fork Soft sejauh ini:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
-- [BIP113] (https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
+- [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
 Lombrozo juga memberikan gambaran umum tentang bagaimana mekanisme upgrade telah berkembang selama bertahun-tahun, hingga tahun 2017. Sejak saat itu, hanya satu upgrade besar lainnya, Taproot, yang telah digunakan. Proses yang panjang dan agak kacau yang mengarah pada aktivasi telah membantu kami mendapatkan wawasan lebih lanjut tentang mekanisme upgrade di Bitcoin.
@@ -850,12 +850,12 @@ Lombrozo juga memberikan gambaran umum tentang bagaimana mekanisme upgrade telah
 Meskipun semua upgrade sebelum SegWit kurang lebih tidak menimbulkan masalah, upgrade kali ini berbeda. Ketika kode aktivasi SegWit dirilis, pada bulan Oktober 2016, tampaknya ada banyak sekali dukungan untuknya di antara para pengguna Bitcoin, tetapi untuk beberapa alasan para penambang tidak memberikan sinyal dukungan untuk upgrade ini, yang membuat aktivasi tersebut terhenti tanpa ada resolusi yang terlihat.
 
 
-Aaron van Wirdum menggambarkan jalan berliku ini dalam artikel Majalah Bitcoin [Jalan Panjang Menuju SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Dia memulai dengan menjelaskan apa itu SegWit dan bagaimana hal itu masuk ke dalam perdebatan ukuran blok. Van Wirdum kemudian menguraikan pergantian peristiwa yang mengarah pada aktivasi terakhirnya. Pusat dari proses ini adalah sebuah mekanisme peningkatan yang disebut *user activated Soft Fork*, atau disingkat UASF, yang diusulkan oleh pengguna Shaolinfry:
+Aaron van Wirdum menggambarkan jalan berliku ini dalam artikel Majalah Bitcoin [Jalan Panjang Menuju SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Dia memulai dengan menjelaskan apa itu SegWit dan bagaimana hal itu masuk ke dalam perdebatan ukuran blok. Van Wirdum kemudian menguraikan pergantian peristiwa yang mengarah pada aktivasi terakhirnya. Pusat dari proses ini adalah sebuah mekanisme peningkatan yang disebut *user activated Soft Fork*, atau disingkat UASF, yang diusulkan oleh pengguna Shaolinfry:
 
 
 > Shaolinfry mengusulkan sebuah alternatif: pengguna mengaktifkan Soft Fork (UASF). Alih-alih aktivasi daya Hash, pengguna yang mengaktifkan Soft Fork akan memiliki "aktivasi hari bendera" di mana node memulai penegakan pada waktu yang telah ditentukan di masa depan." Selama UASF seperti itu diberlakukan oleh mayoritas ekonomi, hal ini akan memaksa mayoritas penambang untuk mengikuti (atau mengaktifkan) Soft Fork.
 
-Di antaranya, dia mengutip email Shaolinfry ke milis Bitcoin-dev. Pada kesempatan itu Shaolinfry [berargumen menentang garpu Miner yang diaktifkan Soft] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), dengan menyebutkan sejumlah masalah dengan garpu tersebut:
+Di antaranya, dia mengutip email Shaolinfry ke milis Bitcoin-dev. Pada kesempatan itu Shaolinfry [berargumen menentang garpu Miner yang diaktifkan Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), dengan menyebutkan sejumlah masalah dengan garpu tersebut:
 
 
 > Pertama, diperlukan kepercayaan bahwa daya Hash akan divalidasi setelah aktivasi.  BIP66 Soft Fork adalah kasus di mana 95% dari Hashrate memberi sinyal kesiapan tetapi pada kenyataannya sekitar setengahnya tidak benar-benar memvalidasi aturan yang ditingkatkan dan menambang di blok yang tidak valid secara tidak sengaja.
@@ -872,7 +872,7 @@ Proposal UASF, singkatnya, adalah sebuah "hari bendera" di mana node mulai membe
 > Saran saya adalah untuk mendapatkan yang terbaik dari kedua dunia. Karena pengguna yang mengaktifkan Soft Fork membutuhkan waktu tunggu yang relatif lama sebelum aktivasi, kami dapat menggabungkan dengan BIP9 untuk memberikan opsi aktivasi terkoordinasi daya Hash yang lebih cepat atau aktivasi pada hari bendera, mana saja yang lebih cepat.
 > Dalam kedua kasus tersebut, kita dapat memanfaatkan sistem peringatan di BIP9. Perubahannya relatif sederhana, menambahkan parameter waktu aktivasi yang akan mengalihkan status BIP9 ke LOCKED_IN sebelum akhir batas waktu penyebaran BIP9.
 
-Ide ini menarik banyak perhatian, tetapi tampaknya tidak mencapai dukungan yang hampir bulat, yang menyebabkan kekhawatiran akan potensi perpecahan rantai. Artikel oleh Aaron van Wirdum menjelaskan bagaimana hal ini akhirnya terselesaikan berkat [BIP91] (https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki), yang ditulis oleh James Hilliard:
+Ide ini menarik banyak perhatian, tetapi tampaknya tidak mencapai dukungan yang hampir bulat, yang menyebabkan kekhawatiran akan potensi perpecahan rantai. Artikel oleh Aaron van Wirdum menjelaskan bagaimana hal ini akhirnya terselesaikan berkat [BIP91](https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki), yang ditulis oleh James Hilliard:
 
 
 > Hilliard mengusulkan solusi yang sedikit rumit namun cerdas yang akan membuat semuanya kompatibel: Aktivasi Saksi Terpisah seperti yang diusulkan oleh tim pengembangan Bitcoin Core, BIP148 UASF, dan mekanisme aktivasi Perjanjian New York. BIP91 miliknya dapat menjaga Bitcoin tetap utuh - setidaknya selama aktivasi SegWit.
@@ -883,12 +883,12 @@ Ada beberapa faktor yang lebih rumit yang terlibat (misalnya apa yang disebut "P
 #### Diskusi pasca-SegWit
 
 
-Setelah peluncuran SegWit, muncul diskusi tentang mekanisme peluncuran. Seperti yang dicatat oleh Eric Lombrozo dalam [ceramahnya di konferensi Breaking Bitcoin] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) dan oleh Shaolinfry, Miner yang diaktifkan Soft Fork bukanlah mekanisme peningkatan yang ideal:
+Setelah peluncuran SegWit, muncul diskusi tentang mekanisme peluncuran. Seperti yang dicatat oleh Eric Lombrozo dalam [ceramahnya di konferensi Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) dan oleh Shaolinfry, Miner yang diaktifkan Soft Fork bukanlah mekanisme peningkatan yang ideal:
 
 
 > Pada suatu saat kami mungkin ingin menambahkan lebih banyak fitur ke protokol Bitcoin. Ini adalah pertanyaan filosofis besar yang kami tanyakan pada diri kami sendiri. Apakah kami akan melakukan UASF untuk yang berikutnya? Bagaimana dengan pendekatan hibrida? Miner yang diaktifkan dengan sendirinya telah dikesampingkan. bip9 tidak akan kami gunakan lagi.
 
-Pada bulan Januari 2020, Matt Corallo [mengirim email] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) ke mailing list Bitcoin-dev yang memulai diskusi tentang mekanisme penyebaran Soft Fork di masa depan. Dia mencantumkan lima tujuan yang menurutnya penting dalam peningkatan. David Harding [meringkasnya dalam buletin Bitcoin Optech] (https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) sebagai:
+Pada bulan Januari 2020, Matt Corallo [mengirim email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) ke mailing list Bitcoin-dev yang memulai diskusi tentang mekanisme penyebaran Soft Fork di masa depan. Dia mencantumkan lima tujuan yang menurutnya penting dalam peningkatan. David Harding [meringkasnya dalam buletin Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) sebagai:
 
 
 > Kemampuan untuk membatalkan jika ada keberatan serius terhadap perubahan aturan konsensus yang diusulkan. Alokasi waktu yang cukup setelah rilis perangkat lunak yang diperbarui untuk memastikan bahwa sebagian besar simpul ekonomi ditingkatkan untuk menegakkan aturan-aturan tersebut. Harapan bahwa tingkat jaringan Hash akan kurang lebih sama sebelum dan sesudah perubahan, serta selama masa transisi. Pencegahan, sebanyak mungkin, pembuatan blok yang tidak valid di bawah aturan baru, yang dapat menyebabkan konfirmasi palsu pada node yang tidak diupgrade dan klien SPV . Jaminan bahwa mekanisme pembatalan tidak dapat disalahgunakan oleh para dukun atau partisan untuk menahan peningkatan yang diinginkan secara luas tanpa masalah yang diketahui
@@ -921,12 +921,12 @@ Ketika Taproot siap untuk digunakan pada bulan Oktober 2020, yang berarti semua 
 
 Banyak proposal untuk mekanisme aktivasi mulai beredar, dan David Harding
 
-[meringkasnya di Wiki Bitcoin] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dalam artikelnya, ia menjelaskan beberapa properti BIP8, yang pada saat itu memiliki beberapa perubahan terbaru yang dibuat untuk membuatnya lebih fleksibel.
+[meringkasnya di Wiki Bitcoin](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dalam artikelnya, ia menjelaskan beberapa properti BIP8, yang pada saat itu memiliki beberapa perubahan terbaru yang dibuat untuk membuatnya lebih fleksibel.
 
 
-> Pada saat dokumen ini ditulis, [BIP8] (https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) telah disusun berdasarkan pelajaran yang diperoleh pada tahun 2017. Salah satu perubahan penting setelah BIP 9+148 adalah bahwa aktivasi paksa sekarang didasarkan pada tinggi blok daripada waktu median masa lalu; perubahan penting kedua adalah bahwa aktivasi paksa adalah parameter boolean yang dipilih ketika parameter aktivasi Soft Fork ditetapkan baik untuk penyebaran awal atau diperbarui dalam penyebaran selanjutnya.
+> Pada saat dokumen ini ditulis, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) telah disusun berdasarkan pelajaran yang diperoleh pada tahun 2017. Salah satu perubahan penting setelah BIP 9+148 adalah bahwa aktivasi paksa sekarang didasarkan pada tinggi blok daripada waktu median masa lalu; perubahan penting kedua adalah bahwa aktivasi paksa adalah parameter boolean yang dipilih ketika parameter aktivasi Soft Fork ditetapkan baik untuk penyebaran awal atau diperbarui dalam penyebaran selanjutnya.
 
-BIP8 tanpa aktivasi paksa sangat mirip dengan bit versi [BIP9] (https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) dengan batas waktu dan penundaan, dengan satu-satunya perbedaan yang signifikan adalah penggunaan ketinggian blok pada BIP8 dibandingkan dengan BIP9 yang menggunakan median waktu lampau. Pengaturan ini memungkinkan percobaan gagal (tetapi dapat dicoba kembali nanti).
+BIP8 tanpa aktivasi paksa sangat mirip dengan bit versi [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) dengan batas waktu dan penundaan, dengan satu-satunya perbedaan yang signifikan adalah penggunaan ketinggian blok pada BIP8 dibandingkan dengan BIP9 yang menggunakan median waktu lampau. Pengaturan ini memungkinkan percobaan gagal (tetapi dapat dicoba kembali nanti).
 
 
 BIP8 dengan aktivasi paksa diakhiri dengan periode pensinyalan wajib di mana semua blok yang diproduksi sesuai dengan aturannya harus memberi sinyal kesiapan untuk Soft Fork dengan cara yang akan memicu aktivasi pada penerapan Soft Fork yang sama dengan aktivasi tidak wajib. Dengan kata lain, jika node versi x dirilis tanpa aktivasi paksa dan, kemudian, versi y dirilis yang berhasil memaksa penambang untuk mulai memberi sinyal kesiapan dalam periode waktu yang sama, kedua versi tersebut akan mulai memberlakukan aturan konsensus yang baru secara bersamaan.
@@ -941,7 +941,7 @@ Sejak saat itu, diskusi menjadi sangat panas, terutama mengenai apakah `lockinon
 Di antara proposal yang terdaftar, salah satunya berjudul "Mari kita lihat apa yang terjadi". Entah mengapa, proposal ini tidak mendapat banyak perhatian hingga tujuh bulan kemudian.
 
 
-Selama tujuh bulan tersebut, diskusi terus berlanjut dan sepertinya tidak ada cara untuk mencapai konsensus yang luas mengenai mekanisme penyebaran mana yang akan digunakan. Pada dasarnya ada dua kubu: satu kubu yang lebih memilih `lockinontimeout=true` (kubu UASF) dan kubu lainnya yang lebih memilih `lockinontimeout=false` (kubu "cobalah dan jika gagal, pikirkan lagi"). Karena tidak ada dukungan yang besar untuk salah satu dari opsi-opsi ini, perdebatan berputar-putar tanpa arah yang jelas. Beberapa diskusi ini diadakan di IRC, di saluran yang disebut ##Taproot-activation, tetapi [pada tanggal 5 Maret 2021] (https://gnusha.org/Taproot-activation/2021-03-05.log), ada yang berubah:
+Selama tujuh bulan tersebut, diskusi terus berlanjut dan sepertinya tidak ada cara untuk mencapai konsensus yang luas mengenai mekanisme penyebaran mana yang akan digunakan. Pada dasarnya ada dua kubu: satu kubu yang lebih memilih `lockinontimeout=true` (kubu UASF) dan kubu lainnya yang lebih memilih `lockinontimeout=false` (kubu "cobalah dan jika gagal, pikirkan lagi"). Karena tidak ada dukungan yang besar untuk salah satu dari opsi-opsi ini, perdebatan berputar-putar tanpa arah yang jelas. Beberapa diskusi ini diadakan di IRC, di saluran yang disebut ##Taproot-activation, tetapi [pada tanggal 5 Maret 2021](https://gnusha.org/Taproot-activation/2021-03-05.log), ada yang berubah:
 
 
 ```
@@ -967,7 +967,7 @@ Pendekatan "mari kita lihat apa yang terjadi" akhirnya tampaknya berhasil di ben
 
 > Sebaliknya, kita telah berdebat panjang lebar dan tampaknya tidak lebih dekat dengan apa yang menurut saya merupakan solusi yang dapat diterima secara luas daripada ketika milis mulai membahas skema aktivasi pasca SegWit lebih dari setahun yang lalu. Menurut saya, Speedy Trial merupakan cara untuk kemajuan cepat generate yang akan mengakhiri perdebatan (untuk saat ini, jika aktivasi berhasil) atau memberikan kita beberapa data aktual yang dapat digunakan sebagai dasar untuk mendasari proposal aktivasi Taproot di masa mendatang.
 
-Mekanisme penyebaran ini disempurnakan selama dua bulan dan kemudian dirilis di [Bitcoin Core versi 0.21.1] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/release-notes/release-notes-0.21.1.md#Taproot-Soft-Fork). Para penambang dengan cepat mulai memberi sinyal untuk peningkatan ini dengan memindahkan status penyebaran ke `LOCKED_IN`, dan setelah masa tenggang, aturan Taproot diaktifkan pada pertengahan November 2021 di blok [709632] (https://Mempool.space/block/0000000000000000000687bca986194dc2c1f949318629b44bb54ec0a94d8244).
+Mekanisme penyebaran ini disempurnakan selama dua bulan dan kemudian dirilis di [Bitcoin Core versi 0.21.1](https://github.com/Bitcoin/Bitcoin/blob/master/doc/release-notes/release-notes-0.21.1.md#Taproot-Soft-Fork). Para penambang dengan cepat mulai memberi sinyal untuk peningkatan ini dengan memindahkan status penyebaran ke `LOCKED_IN`, dan setelah masa tenggang, aturan Taproot diaktifkan pada pertengahan November 2021 di blok [709632](https://Mempool.space/block/0000000000000000000687bca986194dc2c1f949318629b44bb54ec0a94d8244).
 
 
 #### Mekanisme penyebaran di masa depan
@@ -992,7 +992,7 @@ Di sisi lain, risiko dengan Miner yang diaktifkan Soft Fork adalah konsekuensi d
 
 
 
-Jimmy Song [berbicara tentang biaya yang terkait dengan garpu Hard] (https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) pada acara Breaking Bitcoin di Paris, tetapi sebagian besar dari apa yang dia katakan juga berlaku untuk pemisahan rantai karena Soft Fork yang gagal. Dia berbicara tentang *eksternalitas negatif*, dan mendefinisikannya sebagai harga yang harus dibayar orang lain untuk tindakan Anda sendiri:
+Jimmy Song [berbicara tentang biaya yang terkait dengan garpu Hard](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) pada acara Breaking Bitcoin di Paris, tetapi sebagian besar dari apa yang dia katakan juga berlaku untuk pemisahan rantai karena Soft Fork yang gagal. Dia berbicara tentang *eksternalitas negatif*, dan mendefinisikannya sebagai harga yang harus dibayar orang lain untuk tindakan Anda sendiri:
 
 
 > Contoh klasik dari eksternalitas negatif adalah pabrik. Mungkin mereka memproduksi - mungkin kilang minyak dan mereka menghasilkan barang yang baik untuk perekonomian, tetapi mereka juga menghasilkan sesuatu yang merupakan eksternalitas negatif, seperti polusi. Polusi bukan hanya sesuatu yang harus dibayar oleh setiap orang, dibersihkan, atau diderita. Tetapi juga efek tingkat kedua dan ketiga, seperti lebih banyak lalu lintas yang menuju ke pabrik karena lebih banyak pekerja yang harus pergi ke sana. Anda mungkin juga akan membahayakan beberapa satwa liar di sekitar sana. Tidak semua orang harus membayar untuk eksternalitas negatif, mungkin hanya orang-orang tertentu saja, seperti orang-orang yang sebelumnya menggunakan jalan tersebut atau hewan-hewan yang berada di dekat pabrik tersebut, dan mereka juga membayar biaya pabrik tersebut.
@@ -1034,7 +1034,7 @@ Bab ini membahas *pemikiran musuh*, pola pikir yang berfokus pada apa yang bisa 
 Ketika mendiskusikan keamanan dalam berbagai sistem, sangatlah penting untuk memahami apa saja asumsi keamanannya. Asumsi keamanan yang umum dalam Bitcoin adalah "masalah logaritma diskrit adalah Hard untuk dipecahkan", yang secara sederhana, berarti secara praktis tidak mungkin untuk menemukan private key yang sesuai dengan public key tertentu. Asumsi keamanan lain yang cukup kuat adalah bahwa mayoritas hashpower dalam jaringan adalah jujur, yang berarti mereka bermain sesuai aturan. Jika asumsi ini terbukti salah, maka Bitcoin berada dalam masalah.
 
 
-Pada tahun 2015, Andrew Poelstra [memberikan ceramah] (https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) di konferensi Scaling Bitcoin di Hong Kong, di mana dia menganalisis asumsi keamanan Bitcoin. Dia mulai dengan memperhatikan bahwa banyak sistem yang mengabaikan musuh sampai batas tertentu; sebagai contoh, Hard benar-benar melindungi sebuah bangunan dari semua jenis peristiwa yang merugikan. Sebaliknya, kita secara umum menerima kemungkinan bahwa seseorang dapat membakar gedung, dan sampai batas tertentu mencegah hal ini dan perilaku permusuhan lainnya melalui penegakan hukum, dll.
+Pada tahun 2015, Andrew Poelstra [memberikan ceramah](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) di konferensi Scaling Bitcoin di Hong Kong, di mana dia menganalisis asumsi keamanan Bitcoin. Dia mulai dengan memperhatikan bahwa banyak sistem yang mengabaikan musuh sampai batas tertentu; sebagai contoh, Hard benar-benar melindungi sebuah bangunan dari semua jenis peristiwa yang merugikan. Sebaliknya, kita secara umum menerima kemungkinan bahwa seseorang dapat membakar gedung, dan sampai batas tertentu mencegah hal ini dan perilaku permusuhan lainnya melalui penegakan hukum, dll.
 
 
 Lihat analogi bangunan dari Greg Maxwell:
@@ -1054,7 +1054,7 @@ Konsekuensinya adalah bahwa semua kelemahan yang diketahui dalam Bitcoin harus d
 Poelstra melanjutkan dengan menyebutkan bagaimana Bitcoin merupakan jenis sistem baru; sistem ini lebih samar daripada, misalnya, protokol penandatanganan yang memiliki asumsi keamanan yang sangat jelas.
 
 
-Dalam blog pribadinya, insinyur perangkat lunak Jameson Lopp, [menyelami hal ini] (https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
+Dalam blog pribadinya, insinyur perangkat lunak Jameson Lopp, [menyelami hal ini](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
 
 
 > Pada kenyataannya, protokol Bitcoin telah dan sedang dibangun tanpa spesifikasi atau model keamanan yang didefinisikan secara formal. Hal terbaik yang dapat kita lakukan adalah mempelajari insentif dan perilaku para pelaku di dalam sistem untuk lebih memahami dan mencoba menggambarkannya.
@@ -1068,7 +1068,7 @@ kerumitan dari sistem itu sendiri.
 
 
 
-Pentingnya pemikiran yang tidak memihak juga meluas ke pengguna Bitcoin sehari-hari hingga tingkat tertentu, tidak hanya untuk pengembang dan pakar Bitcoin hardcore. Ragnar Lifthasir menyebutkan dalam [tweetstorm] (https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) bagaimana narasi sederhana di sekitar Bitcoin - misalnya, "hanya HODL" - dapat merendahkan Bitcoin itu sendiri, dan menyimpulkan dengan mengatakan
+Pentingnya pemikiran yang tidak memihak juga meluas ke pengguna Bitcoin sehari-hari hingga tingkat tertentu, tidak hanya untuk pengembang dan pakar Bitcoin hardcore. Ragnar Lifthasir menyebutkan dalam [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) bagaimana narasi sederhana di sekitar Bitcoin - misalnya, "hanya HODL" - dapat merendahkan Bitcoin itu sendiri, dan menyimpulkan dengan mengatakan
 
 
 > Untuk membuat Bitcoin dan diri kita sendiri menjadi lebih kuat, kita perlu berpikir seperti para insinyur perangkat lunak yang berkontribusi pada Bitcoin. Mereka melakukan peer review, tanpa ampun mencari kekurangan. Di acara-acara teknologi mereka, mereka berbicara tentang berbagai cara agar sebuah proposal bisa gagal. Mereka berpikir secara negatif. Mereka konservatif
@@ -1080,7 +1080,7 @@ Dia menyebut narasi sederhana ini sebagai monomanias. Melalui definisi ini, dia 
 
 
 
-Ada banyak kelemahan yang diketahui dalam Bitcoin, dan banyak di antaranya secara aktif dieksploitasi. Untuk mengetahui sekilas tentang hal itu, lihatlah [Halaman Kelemahan] (https://en.Bitcoin.it/wiki/Weaknesses) pada wiki Bitcoin. Di sana disebutkan berbagai macam masalah, seperti
+Ada banyak kelemahan yang diketahui dalam Bitcoin, dan banyak di antaranya secara aktif dieksploitasi. Untuk mengetahui sekilas tentang hal itu, lihatlah [Halaman Kelemahan](https://en.Bitcoin.it/wiki/Weaknesses) pada wiki Bitcoin. Di sana disebutkan berbagai macam masalah, seperti
 
 Pencurian Wallet dan serangan penolakan layanan:
 
@@ -1105,7 +1105,7 @@ Hal-hal di atas adalah contoh-contoh ancaman nyata yang perlu diwaspadai.
 Kutipan dari Manual Lapangan Sabotase Sederhana
 
 
-Untuk lebih memahami pikiran musuh, mungkin akan sangat membantu jika kita melihat sekilas bagaimana mereka beroperasi. Sebuah badan pemerintah AS bernama Office of Strategic Services, yang beroperasi selama Perang Dunia II dan memiliki salah satu tujuan untuk melakukan spionase, melakukan sabotase, dan menyebarkan propaganda, membuat sebuah [manual] (https://www.gutenberg.org/ebooks/26184) untuk personilnya tentang cara menyabotase musuh dengan benar. Judulnya adalah "Manual Lapangan Sabotase Sederhana" dan berisi kiat-kiat konkret untuk menyusup ke dalam tubuh musuh untuk membuat hidup mereka Hard. Kiat-kiatnya berkisar dari membakar gudang hingga menyebabkan keausan pada latihan untuk mengurangi kemampuan musuh
+Untuk lebih memahami pikiran musuh, mungkin akan sangat membantu jika kita melihat sekilas bagaimana mereka beroperasi. Sebuah badan pemerintah AS bernama Office of Strategic Services, yang beroperasi selama Perang Dunia II dan memiliki salah satu tujuan untuk melakukan spionase, melakukan sabotase, dan menyebarkan propaganda, membuat sebuah [manual](https://www.gutenberg.org/ebooks/26184) untuk personilnya tentang cara menyabotase musuh dengan benar. Judulnya adalah "Manual Lapangan Sabotase Sederhana" dan berisi kiat-kiat konkret untuk menyusup ke dalam tubuh musuh untuk membuat hidup mereka Hard. Kiat-kiatnya berkisar dari membakar gudang hingga menyebabkan keausan pada latihan untuk mengurangi kemampuan musuh
 
 efisiensi.
 
@@ -1119,7 +1119,7 @@ Hal ini menyoroti bagaimana sebuah negara yang bertekad kuat dapat dan akan mela
 ### Aksioma Perlawanan
 
 
-Eric Voskuil [menulis di halaman wiki Cryptoeconomics] (https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) tentang apa yang ia sebut sebagai "aksioma perlawanan":
+Eric Voskuil [menulis di halaman wiki Cryptoeconomics](https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) tentang apa yang ia sebut sebagai "aksioma perlawanan":
 
 
 > Dengan kata lain, ada asumsi bahwa ada kemungkinan sebuah sistem dapat melawan kontrol negara. Hal ini tidak diterima sebagai fakta tetapi dianggap sebagai asumsi yang masuk akal, karena studi empiris tentang perilaku sistem yang serupa, yang menjadi dasar sistem tersebut.
@@ -1156,7 +1156,7 @@ Untuk menjaga keamanan Bitcoin, Anda perlu mengetahui musuh-musuh dan insentif m
 Bitcoin dibangun menggunakan perangkat lunak sumber terbuka. Dalam bab ini kami menganalisis apa artinya ini, bagaimana pemeliharaan perangkat lunak bekerja, dan bagaimana perangkat lunak sumber terbuka di Bitcoin memungkinkan pengembangan tanpa izin. Kami membahas tentang *kriptografi pemilihan*, yang berhubungan dengan pemilihan dan penggunaan pustaka dalam sistem kriptografi. Bab ini mencakup sebuah bagian tentang proses peninjauan Bitcoin, diikuti dengan bagian lain tentang cara pengembang Bitcoin mendapatkan dana. Bagian terakhir membahas tentang bagaimana budaya open source Bitcoin dapat terlihat sangat aneh dari luar, dan mengapa keanehan yang dirasakan ini benar-benar merupakan tanda kesehatan yang baik.
 
 
-Sebagian besar perangkat lunak Bitcoin, dan terutama Bitcoin Core, adalah sumber terbuka. Ini berarti bahwa kode sumber perangkat lunak tersedia untuk masyarakat umum untuk diperiksa, diutak-atik, dimodifikasi, dan didistribusikan kembali. Definisi open source di [] (https://opensource.org/osd) mencakup, antara lain, poin-poin penting berikut ini:
+Sebagian besar perangkat lunak Bitcoin, dan terutama Bitcoin Core, adalah sumber terbuka. Ini berarti bahwa kode sumber perangkat lunak tersedia untuk masyarakat umum untuk diperiksa, diutak-atik, dimodifikasi, dan didistribusikan kembali. Definisi open source di [](https://opensource.org/osd) mencakup, antara lain, poin-poin penting berikut ini:
 
 
 > Redistribusi Gratis: Lisensi ini tidak membatasi pihak mana pun untuk menjual atau memberikan perangkat lunak sebagai komponen dari distribusi perangkat lunak agregat yang berisi program dari beberapa sumber berbeda. Lisensi ini tidak mensyaratkan royalti atau biaya lain untuk penjualan tersebut.
@@ -1167,7 +1167,7 @@ Sebagian besar perangkat lunak Bitcoin, dan terutama Bitcoin Core, adalah sumber
 
 > Karya Turunan: Lisensi harus mengizinkan modifikasi dan karya turunan, dan harus mengizinkannya untuk didistribusikan di bawah persyaratan yang sama dengan lisensi perangkat lunak asli.
 
-Bitcoin Core mematuhi definisi ini dengan didistribusikan di bawah [Lisensi MIT] (https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
+Bitcoin Core mematuhi definisi ini dengan didistribusikan di bawah [Lisensi MIT](https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
 
 
 ```
@@ -1192,10 +1192,10 @@ Pada bagian selanjutnya, kami akan membahas beberapa aspek menarik lainnya dari 
 
 
 
-Kode sumber Bitcoin Core disimpan dalam repositori Git yang dihosting di [GitHub] (https://github.com/Bitcoin/Bitcoin). Siapa pun dapat mengkloning repositori tersebut tanpa meminta izin apa pun, lalu memeriksa, membangun, atau mengubahnya secara lokal. Ini berarti ada ribuan salinan repositori yang tersebar di seluruh dunia. Ini semua adalah salinan dari repositori yang sama, jadi apa yang membuat repositori GitHub Bitcoin Core ini begitu istimewa? Secara teknis tidak istimewa sama sekali, tetapi secara sosial ini telah menjadi titik fokus pengembangan Bitcoin.
+Kode sumber Bitcoin Core disimpan dalam repositori Git yang dihosting di [GitHub](https://github.com/Bitcoin/Bitcoin). Siapa pun dapat mengkloning repositori tersebut tanpa meminta izin apa pun, lalu memeriksa, membangun, atau mengubahnya secara lokal. Ini berarti ada ribuan salinan repositori yang tersebar di seluruh dunia. Ini semua adalah salinan dari repositori yang sama, jadi apa yang membuat repositori GitHub Bitcoin Core ini begitu istimewa? Secara teknis tidak istimewa sama sekali, tetapi secara sosial ini telah menjadi titik fokus pengembangan Bitcoin.
 
 
-Bitcoin dan pakar keamanan Jameson Lopp menjelaskan hal ini dengan sangat baik dalam [posting blog] (https://blog.lopp.net/who-controls-Bitcoin-core-/) berjudul "Siapa yang Mengendalikan Inti Bitcoin?":
+Bitcoin dan pakar keamanan Jameson Lopp menjelaskan hal ini dengan sangat baik dalam [posting blog](https://blog.lopp.net/who-controls-Bitcoin-core-/) berjudul "Siapa yang Mengendalikan Inti Bitcoin?":
 
 
 > Bitcoin Core adalah titik fokus untuk pengembangan protokol Bitcoin dan bukan titik komando dan kontrol. Jika tidak ada lagi karena alasan apa pun, titik fokus baru akan muncul - platform komunikasi teknis yang menjadi dasarnya (saat ini repositori GitHub) adalah masalah kenyamanan daripada masalah definisi / integritas proyek. Faktanya, kita telah melihat titik fokus Bitcoin untuk pengembangan mengubah platform dan bahkan nama!
@@ -1208,7 +1208,7 @@ Dia kemudian menjelaskan bagaimana perangkat lunak Bitcoin Core dipelihara dan d
 
 > Tidak ada yang mengontrol titik fokus pengembangan Bitcoin.
 
-Pengembang Bitcoin Core, Eric Lombrozo, berbicara lebih lanjut tentang proses pengembangan dalam [Medium post] (https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) yang berjudul "Proses Penggabungan Inti Bitcoin":
+Pengembang Bitcoin Core, Eric Lombrozo, berbicara lebih lanjut tentang proses pengembangan dalam [Medium post](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) yang berjudul "Proses Penggabungan Inti Bitcoin":
 
 
 > Siapa pun dapat Fork repositori basis kode dan membuat perubahan sewenang-wenang pada repositori mereka sendiri. Mereka dapat membangun klien dari repositori mereka sendiri dan menjalankannya jika mereka mau. Mereka juga dapat membuat versi biner untuk dijalankan oleh orang lain.
@@ -1233,10 +1233,10 @@ Mungkin yang sama pentingnya adalah bahwa pengguna bebas mengembangkan sistem di
 
 
 
-- Lightning Network: Jaringan pembayaran yang memungkinkan pembayaran cepat dalam jumlah yang sangat kecil. Jaringan ini hanya membutuhkan sedikit transaksi On-Chain Bitcoin. Berbagai implementasi yang dapat dioperasikan, seperti [Core Lightning] (https://github.com/ElementsProject/lightning), [LND] (https://github.com/lightningnetwork/LND), [Eclair] (https://github.com/ACINQ/eclair), dan [Lightning Dev Kit] (https://github.com/lightningdevkit).
+- Lightning Network: Jaringan pembayaran yang memungkinkan pembayaran cepat dalam jumlah yang sangat kecil. Jaringan ini hanya membutuhkan sedikit transaksi On-Chain Bitcoin. Berbagai implementasi yang dapat dioperasikan, seperti [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), dan [Lightning Dev Kit](https://github.com/lightningdevkit).
 - CoinJoin: Beberapa pihak berkolaborasi untuk menggabungkan pembayaran mereka ke dalam satu transaksi untuk membuat pengelompokan Address menjadi lebih sulit. Ada berbagai implementasi.
-- Rantai samping: Sistem ini dapat mengunci sebuah koin pada Bitcoin untuk membuka kunci pada beberapa Blockchain lainnya. Hal ini memungkinkan bitcoin untuk dipindahkan ke beberapa Blockchain lainnya, yaitu Sidechain, sehingga dapat menggunakan fitur-fitur yang tersedia pada Sidechain tersebut. Contohnya adalah [Blockstream's Elements] (https://github.com/ElementsProject/Elements).
-- OpenTimestamps: Ini memungkinkan Anda untuk [Timestamp sebuah dokumen] (https://opentimestamps.org/) pada Bitcoin's Blockchain secara pribadi. Anda kemudian dapat menggunakan Timestamp tersebut untuk membuktikan bahwa sebuah dokumen pasti sudah ada sebelum waktu tertentu.
+- Rantai samping: Sistem ini dapat mengunci sebuah koin pada Bitcoin untuk membuka kunci pada beberapa Blockchain lainnya. Hal ini memungkinkan bitcoin untuk dipindahkan ke beberapa Blockchain lainnya, yaitu Sidechain, sehingga dapat menggunakan fitur-fitur yang tersedia pada Sidechain tersebut. Contohnya adalah [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: Ini memungkinkan Anda untuk [Timestamp sebuah dokumen](https://opentimestamps.org/) pada Bitcoin's Blockchain secara pribadi. Anda kemudian dapat menggunakan Timestamp tersebut untuk membuktikan bahwa sebuah dokumen pasti sudah ada sebelum waktu tertentu.
 
 
 Tanpa pengembangan tanpa izin, banyak dari proyek-proyek ini tidak akan mungkin dilakukan. Seperti yang dinyatakan dalam bab Netralitas, jika pengembang harus meminta izin untuk membangun protokol di atas Bitcoin, hanya protokol yang diizinkan oleh komite pemberian izin pengembang pusat yang akan dikembangkan.
@@ -1252,7 +1252,7 @@ Biasanya sistem seperti yang tercantum di atas dilisensikan sebagai perangkat lu
 Tidak perlu meminta izin untuk mengembangkan perangkat lunak Bitcoin memberikan opsi yang menarik dan penting: Anda dapat menulis dan mempublikasikan kode, di Bitcoin Core atau proyek open source lainnya, tanpa mengungkapkan identitas Anda.
 
 
-Banyak pengembang memilih opsi ini dengan beroperasi di bawah nama samaran dan mencoba untuk tetap terpisah dari identitas asli mereka. Alasan untuk melakukan hal ini dapat bervariasi dari satu pengembang ke pengembang lainnya. Salah satu pengguna nama samaran adalah ZmnSCPxj. Di antara proyek-proyek lainnya, dia berkontribusi pada Bitcoin Core dan Core Lightning, salah satu dari beberapa implementasi Lightning Network. [Dia menulis] (https://zmnscpxj.github.io/about.html) di halaman webnya:
+Banyak pengembang memilih opsi ini dengan beroperasi di bawah nama samaran dan mencoba untuk tetap terpisah dari identitas asli mereka. Alasan untuk melakukan hal ini dapat bervariasi dari satu pengembang ke pengembang lainnya. Salah satu pengguna nama samaran adalah ZmnSCPxj. Di antara proyek-proyek lainnya, dia berkontribusi pada Bitcoin Core dan Core Lightning, salah satu dari beberapa implementasi Lightning Network. [Dia menulis](https://zmnscpxj.github.io/about.html) di halaman webnya:
 
 
 > Saya ZmnSCPxj, seorang pengguna internet yang dibuat secara acak. Kata ganti saya adalah dia/dia/ya.
@@ -1265,12 +1265,12 @@ Banyak pengembang memilih opsi ini dengan beroperasi di bawah nama samaran dan m
 artikel dan karya saya pada Bitcoin dan Lightning Network.
 
 
-Dalam kasusnya, alasan menggunakan nama samaran adalah untuk dinilai berdasarkan kemampuannya dan bukan pada siapa orang atau orang-orang di balik nama samaran tersebut. Menariknya, dia mengungkapkan dalam sebuah [artikel di CoinDesk] (https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) bahwa nama samaran itu dibuat untuk alasan yang berbeda.
+Dalam kasusnya, alasan menggunakan nama samaran adalah untuk dinilai berdasarkan kemampuannya dan bukan pada siapa orang atau orang-orang di balik nama samaran tersebut. Menariknya, dia mengungkapkan dalam sebuah [artikel di CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) bahwa nama samaran itu dibuat untuk alasan yang berbeda.
 
 
 > Alasan awal saya [untuk menggunakan nama samaran], karena saya khawatir [akan] melakukan kesalahan besar; oleh karena itu, ZmnSCPxj pada awalnya dimaksudkan sebagai nama samaran sekali pakai, yang bisa ditinggalkan dalam kasus seperti itu. Namun demikian, tampaknya nama ini telah mendapatkan reputasi yang sebagian besar positif, jadi saya tetap mempertahankannya
 
-Menggunakan nama samaran memang memungkinkan Anda untuk berbicara lebih bebas tanpa mempertaruhkan reputasi pribadi Anda jika Anda mengatakan sesuatu yang bodoh atau melakukan kesalahan besar. Ternyata, nama samarannya menjadi sangat bereputasi dan pada tahun 2019 [dia bahkan mendapatkan hibah pengembangan] (https://twitter.com/spiralbtc/status/1204815615678177280), yang dengan sendirinya merupakan bukti dari sifat Bitcoin yang tidak memerlukan izin.
+Menggunakan nama samaran memang memungkinkan Anda untuk berbicara lebih bebas tanpa mempertaruhkan reputasi pribadi Anda jika Anda mengatakan sesuatu yang bodoh atau melakukan kesalahan besar. Ternyata, nama samarannya menjadi sangat bereputasi dan pada tahun 2019 [dia bahkan mendapatkan hibah pengembangan](https://twitter.com/spiralbtc/status/1204815615678177280), yang dengan sendirinya merupakan bukti dari sifat Bitcoin yang tidak memerlukan izin.
 
 
 Bisa dibilang, nama samaran yang paling terkenal di Bitcoin adalah Satoshi Nakamoto. Tidak jelas mengapa ia memilih nama samaran, tetapi kalau dipikir-pikir, itu mungkin keputusan yang bagus untuk berbagai alasan:
@@ -1290,7 +1290,7 @@ Perhatikan bahwa poin-poin ini tidak hanya berlaku untuk Satoshi Nakamoto, tetap
 Pengembang sumber terbuka sering menggunakan pustaka sumber terbuka yang dikembangkan oleh orang lain. Ini adalah bagian yang alami dan mengagumkan dari ekosistem yang sehat. Tetapi perangkat lunak Bitcoin berurusan dengan uang sungguhan dan, mengingat hal ini, para pengembang harus ekstra hati-hati ketika memilih pustaka pihak ketiga mana yang harus diandalkan.
 
 
-Dalam sebuah [pembicaraan filosofis tentang kriptografi] (https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), Gregory Maxwell ingin mendefinisikan ulang istilah "kriptografi" yang menurutnya terlalu sempit. Dia menjelaskan bahwa pada dasarnya *informasi ingin bebas*, dan membuat definisi kriptografi berdasarkan hal tersebut:
+Dalam sebuah [pembicaraan filosofis tentang kriptografi](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), Gregory Maxwell ingin mendefinisikan ulang istilah "kriptografi" yang menurutnya terlalu sempit. Dia menjelaskan bahwa pada dasarnya *informasi ingin bebas*, dan membuat definisi kriptografi berdasarkan hal tersebut:
 
 
 > Kriptografi adalah seni dan ilmu pengetahuan yang kita gunakan untuk melawan sifat dasar dari informasi, untuk membengkokkannya sesuai dengan kehendak politik dan moral kita, dan untuk mengarahkannya ke tujuan-tujuan manusia melawan semua kesempatan dan upaya untuk menentangnya.
@@ -1314,7 +1314,7 @@ Dengan menggunakan contoh konkret, dia menunjukkan bagaimana kriptografi seleksi
 Meskipun ini bukan panduan utama untuk sukses, akan sangat membantu untuk membahas poin-poin ini ketika melakukan seleksi kriptografi.
 
 
-Karena masalah yang disebutkan di atas oleh Maxwell, Bitcoin Core benar-benar mencoba Hard untuk [meminimalkan eksposurnya ke pustaka pihak ketiga] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Tentu saja, Anda tidak dapat menghapus semua ketergantungan eksternal, jika tidak, Anda harus menulis semuanya sendiri, mulai dari rendering font hingga implementasi panggilan sistem.
+Karena masalah yang disebutkan di atas oleh Maxwell, Bitcoin Core benar-benar mencoba Hard untuk [meminimalkan eksposurnya ke pustaka pihak ketiga](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Tentu saja, Anda tidak dapat menghapus semua ketergantungan eksternal, jika tidak, Anda harus menulis semuanya sendiri, mulai dari rendering font hingga implementasi panggilan sistem.
 
 
 ### Ulasan
@@ -1340,7 +1340,7 @@ Dalam perjalanannya menuju adopsi akhir, sebuah ide biasanya mengalir melalui be
 Pada setiap fase ini, orang-orang dengan sudut pandang dan latar belakang yang berbeda meninjau informasi yang tersedia, baik itu kode sumber, BIP, atau hanya ide yang dijelaskan secara bebas. Fase-fase ini biasanya tidak dilakukan dengan cara top-down yang ketat, bahkan beberapa fase dapat terjadi secara bersamaan, dan terkadang Anda bolak-balik di antara fase-fase tersebut. Orang yang berbeda juga dapat memberikan umpan balik selama fase yang berbeda.
 
 
-Salah satu pengulas kode yang paling produktif di Bitcoin Core adalah Jon Atack. Dia menulis [sebuah posting blog] (https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) tentang cara meninjau pull request di Bitcoin Core. Dia menekankan bahwa peninjau kode yang baik berfokus pada cara terbaik untuk menambah nilai.
+Salah satu pengulas kode yang paling produktif di Bitcoin Core adalah Jon Atack. Dia menulis [sebuah posting blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) tentang cara meninjau pull request di Bitcoin Core. Dia menekankan bahwa peninjau kode yang baik berfokus pada cara terbaik untuk menambah nilai.
 
 
 > Sebagai pendatang baru, tujuannya adalah untuk mencoba memberikan nilai tambah, dengan keramahan dan kerendahan hati, sambil belajar sebanyak mungkin.
@@ -1356,7 +1356,7 @@ Dia menyoroti fakta bahwa peninjauan adalah faktor yang benar-benar membatasi da
 Paruh kedua dari artikel ini terdiri dari beberapa panduan teknis praktis yang berguna tentang cara melakukan peninjauan, dan menyediakan tautan ke dokumentasi penting untuk dibaca lebih lanjut.
 
 
-Pengembang dan pengulas kode Bitcoin Core, Gloria Zhao, telah menulis [sebuah artikel] (https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) yang berisi pertanyaan-pertanyaan yang biasa ia tanyakan pada dirinya sendiri selama melakukan review. Dia juga menyatakan apa yang dia anggap sebagai ulasan yang baik:
+Pengembang dan pengulas kode Bitcoin Core, Gloria Zhao, telah menulis [sebuah artikel](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) yang berisi pertanyaan-pertanyaan yang biasa ia tanyakan pada dirinya sendiri selama melakukan review. Dia juga menyatakan apa yang dia anggap sebagai ulasan yang baik:
 
 
 > Menurut saya pribadi, ulasan yang baik adalah ulasan yang memberikan banyak pertanyaan tajam tentang PR dan saya merasa puas dengan jawabannya
@@ -1385,10 +1385,10 @@ Perusahaan, individu, dan organisasi yang memiliki kepentingan dalam kesuksesan 
 Orang terkadang mendapat kesan bahwa ada banyak pertikaian dan perdebatan sengit yang tak berkesudahan di antara para pengembang Bitcoin, dan bahwa mereka tidak mampu membuat keputusan.
 
 
-Sebagai contoh, mekanisme penyebaran Taproot, mekanisme ini telah didiskusikan dalam jangka waktu yang lama di mana ada dua "kubu" yang terbentuk. Satu kubu ingin "menggagalkan" peningkatan jika para penambang tidak memberikan suara mayoritas untuk aturan baru setelah waktu tertentu, sementara kubu lainnya ingin menegakkan aturan setelah waktu tersebut, apa pun yang terjadi. Michael Folkson meringkas argumen dari kedua kubu tersebut dalam sebuah [email] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) ke milis Bitcoin-dev.
+Sebagai contoh, mekanisme penyebaran Taproot, mekanisme ini telah didiskusikan dalam jangka waktu yang lama di mana ada dua "kubu" yang terbentuk. Satu kubu ingin "menggagalkan" peningkatan jika para penambang tidak memberikan suara mayoritas untuk aturan baru setelah waktu tertentu, sementara kubu lainnya ingin menegakkan aturan setelah waktu tersebut, apa pun yang terjadi. Michael Folkson meringkas argumen dari kedua kubu tersebut dalam sebuah [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) ke milis Bitcoin-dev.
 
 
-Perdebatan itu berlangsung selamanya, dan sangat sulit untuk melihat adanya konsensus mengenai hal ini dalam waktu dekat. Hal ini membuat orang frustrasi dan akibatnya panasnya semakin meningkat. Gregory Maxwell (sebagai pengguna nullc) khawatir [di Reddit] (https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) bahwa diskusi yang panjang akan membuat upgrade menjadi kurang aman:
+Perdebatan itu berlangsung selamanya, dan sangat sulit untuk melihat adanya konsensus mengenai hal ini dalam waktu dekat. Hal ini membuat orang frustrasi dan akibatnya panasnya semakin meningkat. Gregory Maxwell (sebagai pengguna nullc) khawatir [di Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) bahwa diskusi yang panjang akan membuat upgrade menjadi kurang aman:
 
 
 > Pada saat ini, penundaan tambahan tidak akan menambah tinjauan dan kepastian. Sebaliknya, penundaan tambahan akan mengurangi kelambanan dan berpotensi meningkatkan risiko karena orang-orang mulai melupakan detail, menunda pekerjaan pada penggunaan hilir (seperti dukungan Wallet), dan tidak menginvestasikan upaya peninjauan tambahan sebanyak yang mereka investasikan jika mereka merasa yakin dengan jangka waktu aktivasi.
@@ -1407,7 +1407,7 @@ Seseorang yang tidak terbiasa dengan proses pengembangan Bitcoin mungkin akan be
 Sebagian besar pengembang Bitcoin akan berpendapat bahwa keterbukaan ini menghasilkan lingkungan yang baik dan sehat, dan bahkan diperlukan untuk menghasilkan hasil terbaik.
 
 
-Seperti yang diisyaratkan dalam bab Ancaman, peluru kedua di atas bisa sangat bermanfaat namun memiliki kelemahan. Seorang penyerang dapat menggunakan taktik mengulur-ulur waktu, seperti yang diuraikan dalam [Panduan Lapangan Sabotase Sederhana] (https://www.gutenberg.org/ebooks/26184), untuk mendistorsi proses pengambilan keputusan dan pengembangan.
+Seperti yang diisyaratkan dalam bab Ancaman, peluru kedua di atas bisa sangat bermanfaat namun memiliki kelemahan. Seorang penyerang dapat menggunakan taktik mengulur-ulur waktu, seperti yang diuraikan dalam [Panduan Lapangan Sabotase Sederhana](https://www.gutenberg.org/ebooks/26184), untuk mendistorsi proses pengambilan keputusan dan pengembangan.
 
 
 Hal lain yang perlu disebutkan adalah, karena Bitcoin adalah uang dan Bitcoin Core mengamankan jumlah uang yang tak terduga, keamanan dalam konteks ini tidak bisa dianggap enteng. Inilah sebabnya mengapa Bitcoin Core yang berpengalaman
@@ -1467,7 +1467,7 @@ Kita akan segera menyelami pendekatan yang berbeda untuk penskalaan, tetapi mari
 
 
 
-Penskalaan telah menjadi titik fokus diskusi sejak Genesis dari Bitcoin. Kalimat pertama dari [email pertama] (https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) dalam menanggapi pengumuman Satoshi tentang whitepaper Bitcoin di milis Cryptography memang tentang penskalaan:
+Penskalaan telah menjadi titik fokus diskusi sejak Genesis dari Bitcoin. Kalimat pertama dari [email pertama](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) dalam menanggapi pengumuman Satoshi tentang whitepaper Bitcoin di milis Cryptography memang tentang penskalaan:
 
 
 > Satoshi Nakamoto menulis:
@@ -1484,10 +1484,10 @@ Percakapan itu sendiri mungkin tidak terlalu menarik atau akurat, tetapi ini men
 Diskusi mengenai penskalaan mencapai puncak minatnya sekitar tahun 2015-2017, ketika ada banyak ide berbeda yang beredar mengenai apakah dan bagaimana cara meningkatkan batas ukuran blok maksimum. Itu adalah diskusi yang tidak menarik tentang mengubah parameter dalam kode sumber, perubahan yang pada dasarnya tidak menyelesaikan apa pun tetapi mendorong masalah penskalaan lebih jauh ke masa depan, membangun utang teknis.
 
 
-Pada tahun 2015, sebuah konferensi yang disebut [Scaling Bitcoin] (https://scalingbitcoin.org/) diadakan di Montreal, dengan konferensi lanjutan enam bulan kemudian di Hong Kong dan setelah itu di sejumlah lokasi lain di seluruh dunia. Fokusnya adalah pada bagaimana melakukan penskalaan Address. Banyak pengembang Bitcoin dan peminat lainnya berkumpul di konferensi-konferensi ini untuk mendiskusikan berbagai masalah dan proposal penskalaan. Sebagian besar diskusi ini tidak berkisar pada peningkatan ukuran blok tetapi pada solusi yang lebih jangka panjang.
+Pada tahun 2015, sebuah konferensi yang disebut [Scaling Bitcoin](https://scalingbitcoin.org/) diadakan di Montreal, dengan konferensi lanjutan enam bulan kemudian di Hong Kong dan setelah itu di sejumlah lokasi lain di seluruh dunia. Fokusnya adalah pada bagaimana melakukan penskalaan Address. Banyak pengembang Bitcoin dan peminat lainnya berkumpul di konferensi-konferensi ini untuk mendiskusikan berbagai masalah dan proposal penskalaan. Sebagian besar diskusi ini tidak berkisar pada peningkatan ukuran blok tetapi pada solusi yang lebih jangka panjang.
 
 
-Setelah konferensi Hong Kong pada bulan Desember 2015, Gregory Maxwell [meringkas pandangannya] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) tentang banyak masalah yang telah diperdebatkan, dimulai dengan beberapa filosofi penskalaan umum:
+Setelah konferensi Hong Kong pada bulan Desember 2015, Gregory Maxwell [meringkas pandangannya](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) tentang banyak masalah yang telah diperdebatkan, dimulai dengan beberapa filosofi penskalaan umum:
 
 
 > Dengan teknologi yang tersedia, ada pertukaran mendasar antara skala dan desentralisasi. Jika sistem ini terlalu mahal, orang akan dipaksa untuk mempercayai pihak ketiga daripada menegakkan aturan sistem secara independen. Jika penggunaan sumber daya Bitcoin Blockchain, relatif terhadap teknologi yang tersedia, terlalu besar, Bitcoin kehilangan keunggulan kompetitifnya dibandingkan dengan sistem lama karena validasi akan terlalu mahal (membuat banyak pengguna kehilangan kepercayaan), memaksa kepercayaan kembali ke dalam sistem.  Jika kapasitas terlalu rendah dan metode transaksi kami terlalu tidak efisien, akses ke rantai untuk penyelesaian sengketa akan terlalu mahal, sekali lagi mendorong kepercayaan kembali ke dalam sistem.
@@ -1556,7 +1556,7 @@ Poin kedua memiliki efek negatif terhadap desentralisasi Miner, karena biasanya 
 Penskalaan horizontal mengacu pada teknik yang membagi beban kerja di beberapa mesin. Meskipun ini adalah pendekatan penskalaan yang lazim di antara situs web dan basis data populer, hal ini tidak mudah dilakukan di Bitcoin.
 
 
-Banyak orang menyebut pendekatan penskalaan Bitcoin ini sebagai *sharding*. Pada dasarnya, pendekatan ini terdiri dari membiarkan setiap Full node memverifikasi hanya sebagian dari Blockchain. Peter Todd telah menuangkan banyak pemikiran ke dalam konsep sharding. Dia menulis [posting blog] (https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) yang menjelaskan sharding secara umum, dan juga menyajikan idenya sendiri yang disebut *treechains*. Artikel ini sulit untuk dibaca, tetapi Todd membuat beberapa poin yang cukup mudah dicerna:
+Banyak orang menyebut pendekatan penskalaan Bitcoin ini sebagai *sharding*. Pada dasarnya, pendekatan ini terdiri dari membiarkan setiap Full node memverifikasi hanya sebagian dari Blockchain. Peter Todd telah menuangkan banyak pemikiran ke dalam konsep sharding. Dia menulis [posting blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) yang menjelaskan sharding secara umum, dan juga menyajikan idenya sendiri yang disebut *treechains*. Artikel ini sulit untuk dibaca, tetapi Todd membuat beberapa poin yang cukup mudah dicerna:
 
 
 > Dalam sistem yang terpecah-pecah, "pertahanan Full node" tidak berfungsi, setidaknya secara langsung. Intinya adalah tidak semua orang memiliki semua data, jadi Anda harus memutuskan apa yang terjadi jika data tersebut tidak tersedia.
@@ -1582,7 +1582,7 @@ Meskipun penskalaan horizontal dan vertikal secara historis bekerja dengan baik 
 Sebuah pendekatan yang kurang mendapat apresiasi adalah apa yang bisa kita sebut sebagai *inward scaling*, yang diterjemahkan menjadi "melakukan lebih banyak dengan lebih sedikit". Hal ini mengacu pada pekerjaan yang sedang berlangsung yang terus-menerus dilakukan oleh banyak pengembang untuk mengoptimalkan algoritme yang sudah ada, sehingga kita dapat melakukan lebih banyak hal dalam batas-batas sistem yang ada.
 
 
-Peningkatan yang telah dicapai melalui penskalaan ke dalam sangat mengesankan, untuk sedikitnya. Untuk memberi Anda gambaran umum tentang peningkatan selama bertahun-tahun, Jameson Lopp [telah menjalankan tes benchmark] (https://blog.lopp.net/Bitcoin-core-performance-evolution/) pada sinkronisasi Blockchain, membandingkan berbagai versi Bitcoin Core yang berbeda hingga versi 0.8.
+Peningkatan yang telah dicapai melalui penskalaan ke dalam sangat mengesankan, untuk sedikitnya. Untuk memberi Anda gambaran umum tentang peningkatan selama bertahun-tahun, Jameson Lopp [telah menjalankan tes benchmark](https://blog.lopp.net/Bitcoin-core-performance-evolution/) pada sinkronisasi Blockchain, membandingkan berbagai versi Bitcoin Core yang berbeda hingga versi 0.8.
 
 
 ![](assets/Bitcoin-Core-Sync-Performance-1.webp)
@@ -1597,7 +1597,7 @@ Garis yang berbeda mewakili versi Bitcoin Core yang berbeda. Garis paling kiri a
 Peningkatan tersebut dapat dikategorikan sebagai penghematan ruang (RAM, disk, bandwidth, dll.) atau penghematan daya komputasi. Kedua kategori tersebut berkontribusi pada peningkatan pada diagram di atas.
 
 
-Sebuah contoh yang baik untuk peningkatan komputasi dapat ditemukan di pustaka [libsecp256k1] (https://github.com/Bitcoin-core/secp256k1), yang, antara lain, mengimplementasikan primitif kriptografi yang dibutuhkan untuk membuat dan memverifikasi tanda tangan digital. Pieter Wuille adalah salah satu kontributor dari pustaka ini, dan ia menulis sebuah [Twitter thread] (https://twitter.com/pwuille/status/1450471673321381896) yang menampilkan peningkatan performa yang dicapai melalui berbagai pull request.
+Sebuah contoh yang baik untuk peningkatan komputasi dapat ditemukan di pustaka [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), yang, antara lain, mengimplementasikan primitif kriptografi yang dibutuhkan untuk membuat dan memverifikasi tanda tangan digital. Pieter Wuille adalah salah satu kontributor dari pustaka ini, dan ia menulis sebuah [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) yang menampilkan peningkatan performa yang dicapai melalui berbagai pull request.
 
 
 ![](assets/libsecp256k1speedups.webp)
@@ -1611,7 +1611,7 @@ Grafik tersebut menunjukkan tren untuk dua jenis CPU 64-bit yang berbeda, yaitu 
 
 Terdapat juga beberapa contoh bagus mengenai peningkatan penghematan ruang yang berkontribusi pada peningkatan performa. Dalam
 
-[Medium blog post] (https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) tentang kontribusi Taproot untuk menghemat ruang, pengguna Murch membandingkan berapa banyak ruang blok yang dibutuhkan oleh tanda tangan ambang batas 2 dari 3, menggunakan Taproot dalam berbagai cara serta tidak menggunakannya sama sekali.
+[Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) tentang kontribusi Taproot untuk menghemat ruang, pengguna Murch membandingkan berapa banyak ruang blok yang dibutuhkan oleh tanda tangan ambang batas 2 dari 3, menggunakan Taproot dalam berbagai cara serta tidak menggunakannya sama sekali.
 
 
 ![](assets/murch-taproot.webp)
@@ -1674,7 +1674,7 @@ Setelah transaksi awal dilakukan pada Blockchain, protokol dapat melakukan apa y
 Kami tidak akan merinci cara kerja protokol tertentu, tetapi seperti yang dapat Anda lihat pada gambar sebelumnya, Blockchain jarang digunakan selama siklus hidup protokol. Semua aksi menarik terjadi *off-chain*. Kami telah melihat bagaimana ini bisa menjadi kemenangan untuk privasi jika dilakukan dengan benar, tetapi juga bisa menjadi keuntungan untuk skalabilitas.
 
 
-Dalam sebuah [posting Reddit] (https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) berjudul "Perjalanan ke bulan membutuhkan roket dengan beberapa tahap atau jika tidak, persamaan roket akan memakan makan siang Anda... mengemas semua orang dengan gaya mobil badut ke dalam trebuchet dan berharap untuk sukses adalah hal yang salah.", Gregory Maxwell menjelaskan mengapa layering merupakan kesempatan terbaik kami untuk membuat Bitcoin berskala besar.
+Dalam sebuah [posting Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) berjudul "Perjalanan ke bulan membutuhkan roket dengan beberapa tahap atau jika tidak, persamaan roket akan memakan makan siang Anda... mengemas semua orang dengan gaya mobil badut ke dalam trebuchet dan berharap untuk sukses adalah hal yang salah.", Gregory Maxwell menjelaskan mengapa layering merupakan kesempatan terbaik kami untuk membuat Bitcoin berskala besar.
 
 
 Dia memulai dengan menekankan kekeliruan dalam melihat Visa atau Mastercard sebagai pesaing utama Bitcoin dan menyoroti bagaimana meningkatkan ukuran blok maksimum adalah pendekatan yang buruk untuk memenuhi persaingan tersebut. Kemudian dia berbicara tentang bagaimana membuat perbedaan nyata dengan menggunakan lapisan:
@@ -1726,17 +1726,17 @@ Bitcoin dibangun oleh manusia. Orang-orang menulis perangkat lunak, dan orang-or
 Bayangkan Anda menemukan bug di Bitcoin Core, bug yang memungkinkan siapa saja untuk mematikan node Bitcoin Core dari jarak jauh dengan menggunakan beberapa pesan jaringan yang dibuat khusus. Bayangkan juga Anda tidak bermaksud jahat dan ingin agar masalah ini tidak dieksploitasi. Apa yang harus Anda lakukan? Jika Anda tetap diam tentang hal itu, orang lain mungkin akan menemukan masalah ini, dan Anda tidak dapat memastikan bahwa orang itu tidak akan jahat.
 
 
-Ketika masalah keamanan ditemukan, orang yang menemukannya harus menggunakan _pengungkapan yang bertanggung jawab_ yang merupakan istilah yang sering digunakan di antara pengembang Bitcoin. Istilah ini [dijelaskan di Wikipedia] (https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
+Ketika masalah keamanan ditemukan, orang yang menemukannya harus menggunakan _pengungkapan yang bertanggung jawab_ yang merupakan istilah yang sering digunakan di antara pengembang Bitcoin. Istilah ini [dijelaskan di Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
 
 
 > Pengembang perangkat keras dan perangkat lunak sering kali membutuhkan waktu dan sumber daya untuk memperbaiki kesalahan mereka. Sering kali, peretas etislah yang menemukan ini
 kerentanan. Para peretas dan ilmuwan keamanan komputer berpendapat bahwa merupakan tanggung jawab sosial mereka untuk membuat publik sadar akan kerentanan. Menyembunyikan masalah dapat menyebabkan perasaan aman yang semu. Untuk menghindari hal ini, pihak-pihak yang terlibat berkoordinasi dan menegosiasikan jangka waktu yang masuk akal untuk memperbaiki kerentanan. Tergantung pada potensi dampak dari kerentanan, waktu yang dibutuhkan untuk perbaikan darurat atau solusi yang akan dikembangkan dan diterapkan dan faktor-faktor lain, periode ini dapat bervariasi antara beberapa hari dan beberapa bulan.
 
 
-Ini berarti bahwa jika Anda menemukan masalah keamanan, Anda harus melaporkannya kepada tim yang bertanggung jawab atas sistem tersebut. Namun, apa artinya hal ini dalam konteks Bitcoin? Tidak ada yang mengontrol Bitcoin, tetapi saat ini ada titik fokus untuk pengembangan Bitcoin, yaitu [Bitcoin Core Github repositori] (https://github.com/Bitcoin/Bitcoin). Pengelola repositori tersebut bertanggung jawab atas kode di dalamnya, tetapi mereka tidak bertanggung jawab atas sistem secara keseluruhan - tidak ada yang bertanggung jawab. Namun demikian, praktik terbaik secara umum adalah mengirim email ke security@bitcoincore.org.
+Ini berarti bahwa jika Anda menemukan masalah keamanan, Anda harus melaporkannya kepada tim yang bertanggung jawab atas sistem tersebut. Namun, apa artinya hal ini dalam konteks Bitcoin? Tidak ada yang mengontrol Bitcoin, tetapi saat ini ada titik fokus untuk pengembangan Bitcoin, yaitu [Bitcoin Core Github repositori](https://github.com/Bitcoin/Bitcoin). Pengelola repositori tersebut bertanggung jawab atas kode di dalamnya, tetapi mereka tidak bertanggung jawab atas sistem secara keseluruhan - tidak ada yang bertanggung jawab. Namun demikian, praktik terbaik secara umum adalah mengirim email ke security@bitcoincore.org.
 
 
-Dalam sebuah [utas email] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) berjudul "Pengungkapan bug yang bertanggung jawab" dari tahun 2017, Anthony Towns mencoba meringkas apa yang dia anggap sebagai praktik terbaik saat ini. Dia telah mengumpulkan masukan dari beberapa sumber dan orang yang berbeda untuk menginformasikan pandangannya tentang masalah ini.
+Dalam sebuah [utas email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) berjudul "Pengungkapan bug yang bertanggung jawab" dari tahun 2017, Anthony Towns mencoba meringkas apa yang dia anggap sebagai praktik terbaik saat ini. Dia telah mengumpulkan masukan dari beberapa sumber dan orang yang berbeda untuk menginformasikan pandangannya tentang masalah ini.
 
 
 
@@ -1759,12 +1759,12 @@ Dalam sebuah [utas email] (https://lists.linuxfoundation.org/pipermail/Bitcoin-d
 Daftar ini menunjukkan betapa kita harus berhati-hati saat menerbitkan patch untuk Bitcoin, karena patch itu sendiri dapat mengungkapkan kerentanannya. Poin keempat sangat menarik karena menjelaskan cara menguji apakah sebuah patch telah disamarkan dengan cukup baik. Memang, jika beberapa pengembang yang sangat berpengalaman tidak dapat menemukan kerentanan meskipun mengetahui bahwa patch tersebut memperbaiki kerentanan tersebut, mungkin akan sangat Hard bagi orang lain untuk menemukannya.
 
 
-Thread yang mengarah ke email ini mendiskusikan apakah, kapan, dan bagaimana cara mengungkapkan kerentanan terhadap altcoin dan implementasi Bitcoin lainnya. Tidak ada jawaban yang jelas di sini. "Membantu orang baik" tampaknya merupakan hal yang masuk akal untuk dilakukan, tetapi siapa yang memutuskan siapa mereka dan di mana kita harus menarik garis batasnya? Bryan Bishop [berpendapat] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) bahwa membantu altcoin dan bahkan scamcoin untuk mempertahankan diri dari eksploitasi keamanan merupakan sebuah kewajiban moral:
+Thread yang mengarah ke email ini mendiskusikan apakah, kapan, dan bagaimana cara mengungkapkan kerentanan terhadap altcoin dan implementasi Bitcoin lainnya. Tidak ada jawaban yang jelas di sini. "Membantu orang baik" tampaknya merupakan hal yang masuk akal untuk dilakukan, tetapi siapa yang memutuskan siapa mereka dan di mana kita harus menarik garis batasnya? Bryan Bishop [berpendapat](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) bahwa membantu altcoin dan bahkan scamcoin untuk mempertahankan diri dari eksploitasi keamanan merupakan sebuah kewajiban moral:
 
 
 > Tidaklah cukup untuk melindungi Bitcoin dan penggunanya dari ancaman aktif, ada tanggung jawab yang lebih umum untuk melindungi semua jenis pengguna dan perangkat lunak yang berbeda dari berbagai jenis ancaman dalam bentuk apa pun, bahkan jika orang-orang menggunakan perangkat lunak yang bodoh dan tidak aman yang secara pribadi tidak Anda pelihara atau Anda dukung. Menangani pengetahuan tentang kerentanan adalah masalah yang rumit dan Anda mungkin menerima pengetahuan dengan dampak langsung atau tidak langsung yang lebih serius daripada yang dijelaskan pada awalnya.
 
-Yang juga mengarah ke email Town di atas adalah [posting] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) oleh Gregory Maxwell, di mana ia berpendapat bahwa kerentanan keamanan bisa lebih parah daripada yang terlihat:
+Yang juga mengarah ke email Town di atas adalah [posting](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) oleh Gregory Maxwell, di mana ia berpendapat bahwa kerentanan keamanan bisa lebih parah daripada yang terlihat:
 
 
 > Saya telah beberapa kali melihat Hard untuk mengeksploitasi masalah yang ternyata sepele ketika Anda menemukan trik yang tepat, atau masalah kecil berubah menjadi jauh lebih serius.
@@ -1788,7 +1788,7 @@ Ia juga menyebutkan bahwa "agak tidak tepat jika menyebut thread ini sebagai thr
 Bitcoin dimulai sebagai proyek satu orang (setidaknya itulah yang disarankan oleh nama samaran penciptanya), dan Bitcoin pada awalnya hanya memiliki sedikit atau bahkan tidak ada nilainya. Dengan demikian, kerentanan dan perbaikan bug tidak ditangani secara ketat seperti sekarang ini.
 
 
-Wiki Bitcoin memiliki [daftar kerentanan dan eksposur umum] (https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVE) yang telah dilalui oleh Bitcoin. Bagian ini merupakan sedikit paparan tentang beberapa masalah keamanan dan insiden dari tahun-tahun awal Bitcoin. Kami tidak akan membahas semuanya, tetapi kami memilih beberapa yang menurut kami sangat menarik.
+Wiki Bitcoin memiliki [daftar kerentanan dan eksposur umum](https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVE) yang telah dilalui oleh Bitcoin. Bagian ini merupakan sedikit paparan tentang beberapa masalah keamanan dan insiden dari tahun-tahun awal Bitcoin. Kami tidak akan membahas semuanya, tetapi kami memilih beberapa yang menurut kami sangat menarik.
 
 
 #### 2010-07-28: Membelanjakan koin siapa saja (CVE-2010-5141)
@@ -1829,12 +1829,12 @@ Satoshi melakukan perubahan ini secara lokal dan membuat sebuah biner yang dapat
 
 > Harap tingkatkan ke 0.3.5 secepatnya!  Kami telah memperbaiki bug implementasi yang memungkinkan transaksi palsu dapat diterima.  Jangan menerima transaksi Bitcoin sebagai pembayaran sampai Anda meningkatkan ke versi 0.3.5!
 
-Pesan asli kemudian diedit dan tidak lagi tersedia dalam bentuk lengkap. Cuplikan di atas berasal dari [mengutip jawaban] (https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Beberapa pengguna mencoba biner Satoshi, tetapi mengalami masalah dengan itu. Tak lama setelah itu, [Satoshi menulis] (https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
+Pesan asli kemudian diedit dan tidak lagi tersedia dalam bentuk lengkap. Cuplikan di atas berasal dari [mengutip jawaban](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Beberapa pengguna mencoba biner Satoshi, tetapi mengalami masalah dengan itu. Tak lama setelah itu, [Satoshi menulis](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
 
 
 > Belum sempat memperbarui SVN.  Tunggu 0.3.6, saya sedang membuatnya sekarang.  Anda bisa mematikan node Anda untuk sementara waktu.
 
-Dan 35 menit kemudian, [dia menulis] (https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
+Dan 35 menit kemudian, [dia menulis](https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
 
 
 > SVN diperbarui dengan versi 0.3.6.
@@ -1876,7 +1876,7 @@ Pada waktu itu, jumlah pengguna tidak sebanyak sekarang, dan nilai Bitcoin mende
 
 
 - Satoshi membuat rilis khusus biner 0.3.5 yang berisi perbaikan. Tidak ada patch atau kode yang disediakan, mungkin sebagai langkah untuk mengaburkan masalah.
-- 0.3.5 [bahkan tidak berfungsi] (https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
+- 0.3.5 [bahkan tidak berfungsi](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
 - Perbaikan di 0.3.6 sebenarnya adalah Hard Fork.
 
 
@@ -1889,7 +1889,7 @@ Hal lain yang masih diperdebatkan adalah apakah itu baik atau buruk jika penggun
 
 Pada pertengahan Agustus 2010, pengguna forum Bitcointalk, jgarzik, alias Jeff Garzik,
 
-[menemukan bahwa] (https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) sebuah transaksi tertentu pada ketinggian blok 74638 memiliki dua output dengan nilai yang sangat tinggi:
+[menemukan bahwa](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) sebuah transaksi tertentu pada ketinggian blok 74638 memiliki dua output dengan nilai yang sangat tinggi:
 
 
 ```
@@ -1917,7 +1917,7 @@ Tampaknya, ada sebuah bug yang menyebabkan jumlah dua output int64 (bukan uint64
 Dalam kasus ini, bug tersebut telah diungkap dan dipublikasikan melalui eksploitasi yang sebenarnya. Hasil yang disayangkan dari hal ini adalah sekitar 2x92 miliar Bitcoin telah dibuat, yang sangat mencairkan uang Supply sekitar 3,7 juta koin yang ada pada saat itu.
 
 
-Dalam sebuah thread terkait, [Satoshi memposting] (https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) bahwa dia akan sangat menghargai jika orang-orang menghentikan Mining (atau *menghasilkan*, seperti yang mereka sebut saat itu):
+Dalam sebuah thread terkait, [Satoshi memposting](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) bahwa dia akan sangat menghargai jika orang-orang menghentikan Mining (atau *menghasilkan*, seperti yang mereka sebut saat itu):
 
 
 > Akan sangat membantu jika orang-orang berhenti menghasilkan listrik.  Kami mungkin perlu membuat ulang cabang di sekitar cabang yang sekarang, dan semakin sedikit Anda menggunakan generate, semakin cepat prosesnya.
@@ -1925,7 +1925,7 @@ Dalam sebuah thread terkait, [Satoshi memposting] (https://bitcointalk.org/index
 
 > Patch pertama akan ada di SVN rev 132.  Ini belum diunggah.  Saya akan menyelesaikan beberapa perubahan kecil lainnya terlebih dahulu, kemudian saya akan mengunggah patch untuk ini.
 
-Rencananya adalah untuk membuat Soft Fork untuk membuat transaksi seperti yang didiskusikan di sini menjadi tidak valid, dengan demikian mematahkan blok (terutama blok 74638) yang berisi transaksi tersebut. Kurang dari satu jam kemudian, dia melakukan [patch pada revisi 132] (https://sourceforge.net/p/Bitcoin/code/132/) dari repositori Subversion dan [diposting ke forum] (https://bitcointalk.org/index.php?topic=823.msg9548#msg9548) yang menjelaskan apa yang dia pikir harus dilakukan oleh para pengguna:
+Rencananya adalah untuk membuat Soft Fork untuk membuat transaksi seperti yang didiskusikan di sini menjadi tidak valid, dengan demikian mematahkan blok (terutama blok 74638) yang berisi transaksi tersebut. Kurang dari satu jam kemudian, dia melakukan [patch pada revisi 132](https://sourceforge.net/p/Bitcoin/code/132/) dari repositori Subversion dan [diposting ke forum](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548) yang menjelaskan apa yang dia pikir harus dilakukan oleh para pengguna:
 
 
 > Patch telah diunggah ke SVN rev 132!
@@ -1946,10 +1946,10 @@ Rencananya adalah untuk membuat Soft Fork untuk membuat transaksi seperti yang d
 Dia ingin agar orang mengunduh data blok dari pengguna tertentu, yaitu knightmb, yang telah mempublikasikan Blockchain miliknya seperti yang muncul di disknya, yaitu file blkXXXX.dat dan blkindex.dat. Alasan untuk mengunduh data Blockchain dengan cara ini, dibandingkan dengan melakukan sinkronisasi dari awal, adalah untuk mengurangi kemacetan bandwidth jaringan.
 
 
-Terdapat sebuah peringatan besar dalam hal ini: data yang akan diunduh oleh pengguna dari knightmb [tidak diverifikasi oleh perangkat lunak Bitcoin] (https://Bitcoin.stackexchange.com/a/113682/69518) pada saat startup. File blkindex.dat berisi set UTXO, dan perangkat lunak akan menerima data apa pun di dalamnya seolah-olah telah memverifikasinya. knightmb dapat memanipulasi data tersebut untuk memberikan dirinya sendiri atau orang lain sejumlah bitcoin.
+Terdapat sebuah peringatan besar dalam hal ini: data yang akan diunduh oleh pengguna dari knightmb [tidak diverifikasi oleh perangkat lunak Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) pada saat startup. File blkindex.dat berisi set UTXO, dan perangkat lunak akan menerima data apa pun di dalamnya seolah-olah telah memverifikasinya. knightmb dapat memanipulasi data tersebut untuk memberikan dirinya sendiri atau orang lain sejumlah bitcoin.
 
 
-Sekali lagi, orang-orang tampaknya setuju dengan hal ini, dan pembalikan blok yang tidak valid dan penggantinya berhasil. Para penambang mulai mengerjakan penerus baru untuk blok [74637] (https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) dan, menurut Timestamp blok tersebut, penerus muncul pada pukul 23:53 UTC, sekitar 6 jam setelah masalah ditemukan. Pada pukul 08:10 keesokan harinya, pada tanggal 16 Agustus, di sekitar blok 74689, rantai baru telah mengambil alih rantai lama, oleh karena itu semua node yang belum diupgrade melakukan reorganisasi untuk mengikuti rantai baru. Ini adalah reorg terdalam - 52 blok - dalam sejarah Bitcoin.
+Sekali lagi, orang-orang tampaknya setuju dengan hal ini, dan pembalikan blok yang tidak valid dan penggantinya berhasil. Para penambang mulai mengerjakan penerus baru untuk blok [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) dan, menurut Timestamp blok tersebut, penerus muncul pada pukul 23:53 UTC, sekitar 6 jam setelah masalah ditemukan. Pada pukul 08:10 keesokan harinya, pada tanggal 16 Agustus, di sekitar blok 74689, rantai baru telah mengambil alih rantai lama, oleh karena itu semua node yang belum diupgrade melakukan reorganisasi untuk mengikuti rantai baru. Ini adalah reorg terdalam - 52 blok - dalam sejarah Bitcoin.
 
 
 Dibandingkan dengan masalah OP_RETURN, masalah ini ditangani dengan cara yang lebih bersih:
@@ -1973,7 +1973,7 @@ Ada perbedaan penting antara kasus ini dan kasus OP_RETURN sebelumnya: masalah i
 
 
 
-Sebuah isu yang sangat menarik dan bernilai edukasi muncul pada bulan Maret 2013. Tampaknya Blockchain telah terpecah (meskipun kata "Fork" digunakan dalam kutipan di bawah ini) setelah blok 225429. Rincian dari kejadian ini [dilaporkan dalam BIP50] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Rangkumannya berbunyi:
+Sebuah isu yang sangat menarik dan bernilai edukasi muncul pada bulan Maret 2013. Tampaknya Blockchain telah terpecah (meskipun kata "Fork" digunakan dalam kutipan di bawah ini) setelah blok 225429. Rincian dari kejadian ini [dilaporkan dalam BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Rangkumannya berbunyi:
 
 
 > Sebuah blok yang memiliki jumlah total input transaksi yang lebih besar daripada yang terlihat sebelumnya ditambang dan disiarkan. Node Bitcoin 0.8 dapat menangani hal ini, tetapi beberapa node Bitcoin pra-0.8 menolaknya, menyebabkan Fork yang tidak terduga dari Blockchain. Rantai pra-0.8 yang tidak kompatibel (mulai saat ini, rantai 0.8) pada saat itu memiliki sekitar 60% dari daya Mining Hash yang memastikan perpecahan tidak secara otomatis terselesaikan (seperti yang akan terjadi jika rantai pra-0.8 melebihi rantai 0.8 dalam pekerjaan total, memaksa node 0.8 untuk mengatur ulang ke rantai pra-0.8).
@@ -1984,7 +1984,7 @@ Sebuah isu yang sangat menarik dan bernilai edukasi muncul pada bulan Maret 2013
 Tindakan cepat yang dilakukan oleh pool Mining BTCGuild dan Slush sangat penting dalam keadaan darurat ini. Mereka mampu mengalihkan sebagian besar kekuatan Hash ke cabang pra-0.8 dari perpecahan, dan dengan demikian membantu memulihkan konsensus. Hal ini memberikan waktu bagi para pengembang untuk mencari perbaikan yang berkelanjutan.
 
 
-Yang juga sangat menarik dalam masalah ini adalah bahwa versi 0.7.2 tidak kompatibel dengan dirinya sendiri, seperti halnya dengan versi sebelumnya. Hal ini dijelaskan di bagian [Akar masalah BIP50] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
+Yang juga sangat menarik dalam masalah ini adalah bahwa versi 0.7.2 tidak kompatibel dengan dirinya sendiri, seperti halnya dengan versi sebelumnya. Hal ini dijelaskan di bagian [Akar masalah BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
 
 
 > Dengan konfigurasi kunci BDB yang tidak cukup tinggi, secara implisit telah menjadi aturan konsensus jaringan yang menentukan validitas blok (meskipun
@@ -2081,7 +2081,7 @@ Karena luasnya BIP ini, yang secara substansial mencakup lebih dari sekadar "pen
 
 
 
-OpenSSL merilis versi baru dari perangkat lunak mereka dengan patch yang, jika digunakan pada Bitcoin sejak awal, akan menyelesaikan masalah ini. Akan tetapi, menggunakan versi baru dari OpenSSL hanya pada rilis baru Bitcoin Core akan memperburuk keadaan. Gregory Maxwell menjelaskan hal ini di [email thread] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) pada bulan Januari 2015:
+OpenSSL merilis versi baru dari perangkat lunak mereka dengan patch yang, jika digunakan pada Bitcoin sejak awal, akan menyelesaikan masalah ini. Akan tetapi, menggunakan versi baru dari OpenSSL hanya pada rilis baru Bitcoin Core akan memperburuk keadaan. Gregory Maxwell menjelaskan hal ini di [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) pada bulan Januari 2015:
 
 
 > Meskipun untuk sebagian besar aplikasi, secara umum dapat diterima untuk menolak beberapa tanda tangan, Bitcoin adalah sistem konsensus di mana semua peserta secara umum harus menyetujui keabsahan atau ketidakabsahan data input.  Dalam arti tertentu, konsistensi lebih penting daripada "kebenaran".
@@ -2107,7 +2107,7 @@ Kesimpulan utama dari hal ini adalah bahwa BIP harus lebih atau kurang *atomik*,
 
 
 
-Sayangnya, kisah BIP66 tidak berakhir di situ. Ketika BIP66 diaktifkan, ternyata cukup berantakan karena beberapa penambang tidak memverifikasi blok yang ingin mereka perpanjang. Hal ini disebut dengan validationless Mining, atau SPV-Mining (seperti dalam Simplified Payment Verification). Sebuah pesan peringatan dikirim ke node Bitcoin dengan tautan ke [halaman web yang menjelaskan masalah ini] (https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Sayangnya, kisah BIP66 tidak berakhir di situ. Ketika BIP66 diaktifkan, ternyata cukup berantakan karena beberapa penambang tidak memverifikasi blok yang ingin mereka perpanjang. Hal ini disebut dengan validationless Mining, atau SPV-Mining (seperti dalam Simplified Payment Verification). Sebuah pesan peringatan dikirim ke node Bitcoin dengan tautan ke [halaman web yang menjelaskan masalah ini](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
 
 
 > Pada pagi hari tanggal 4 Juli 2015, ambang batas 950/1000 (95%) tercapai. Tak lama kemudian, sebuah Miner kecil (bagian dari 5% yang belum diupgrade) menambang blok yang tidak valid - seperti yang sudah diperkirakan sebelumnya. Sayangnya, ternyata sekitar setengah dari tingkat jaringan Hash adalah Mining tanpa memvalidasi blok sepenuhnya (disebut SPV Mining), dan membangun blok baru di atas blok yang tidak valid tersebut.
@@ -2115,7 +2115,7 @@ Sayangnya, kisah BIP66 tidak berakhir di situ. Ketika BIP66 diaktifkan, ternyata
 Halaman peringatan menginstruksikan orang-orang untuk menunggu 30 konfirmasi tambahan dari yang biasanya mereka lakukan jika mereka menggunakan versi lama Bitcoin Core.
 
 
-Perpecahan yang disebutkan di atas terjadi pada 2015-07-04 pukul 02:10 UTC setelah ketinggian blok [363730] (https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Masalah ini berhasil diselesaikan pada pukul 03:50 di hari yang sama, setelah 6 blok yang tidak valid ditambang. Sayangnya, masalah yang sama terjadi lagi pada hari berikutnya, yaitu pada tanggal 2015-07-05 pukul 21:50, tetapi kali ini cabang yang tidak valid hanya bertahan selama 3 blok.
+Perpecahan yang disebutkan di atas terjadi pada 2015-07-04 pukul 02:10 UTC setelah ketinggian blok [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Masalah ini berhasil diselesaikan pada pukul 03:50 di hari yang sama, setelah 6 blok yang tidak valid ditambang. Sayangnya, masalah yang sama terjadi lagi pada hari berikutnya, yaitu pada tanggal 2015-07-05 pukul 21:50, tetapi kali ini cabang yang tidak valid hanya bertahan selama 3 blok.
 
 
 ![](assets/bip66-timeline-3.webp)
@@ -2149,7 +2149,7 @@ Kami telah melihat beberapa masalah yang lebih parah yang muncul selama bertahun
 Pertanyaan diskusi ini bukan hanya rekap dari konten dalam "Filosofi pengembangan Bitcoin", tetapi dimaksudkan untuk mendorong Anda untuk meneliti lebih lanjut, jadi pastikan untuk keluar dan menjelajah.
 
 
-Anda dapat menguji kedalaman pemahaman Anda dengan menulis [mini-essay] (https://www.youtube.com/watch?v=N4YjXJVzoZY) yang terdiri dari 100-300 kata dengan memilih topik yang ada di kumpulan pertanyaan ini. Jika Anda menginginkan umpan balik dari pekerjaan Anda, Anda dapat mengirimkannya ke mini-essay@planb.network, kami akan dengan senang hati memeriksanya.
+Anda dapat menguji kedalaman pemahaman Anda dengan menulis [mini-essay](https://www.youtube.com/watch?v=N4YjXJVzoZY) yang terdiri dari 100-300 kata dengan memilih topik yang ada di kumpulan pertanyaan ini. Jika Anda menginginkan umpan balik dari pekerjaan Anda, Anda dapat mengirimkannya ke mini-essay@planb.network, kami akan dengan senang hati memeriksanya.
 
 
 #### Desentralisasi
@@ -2219,7 +2219,7 @@ Anda dapat menguji kedalaman pemahaman Anda dengan menulis [mini-essay] (https:/
 
 
 
-- Hanya segelintir pengelola yang memiliki izin GitHub yang diperlukan untuk menggabungkan kode ke dalam repositori [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin). Bukankah itu bertentangan dengan jaringan tanpa izin?
+- Hanya segelintir pengelola yang memiliki izin GitHub yang diperlukan untuk menggabungkan kode ke dalam repositori [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Bukankah itu bertentangan dengan jaringan tanpa izin?
 - Apakah proses pengembangan open source rentan terhadap serangan sybil? Jika ya, bagaimana Anda akan menanggulanginya?
 - Apa saja keuntungan dan kerugian mengandalkan pustaka sumber terbuka pihak ketiga, dan apa pendekatan yang diambil dengan Bitcoin Core?
 - Dalam hal apa saja kita membutuhkan peninjauan di luar peninjauan kode? Bagaimana cara menentukan berapa banyak tinjauan yang cukup?

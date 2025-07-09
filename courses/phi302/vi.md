@@ -1230,7 +1230,7 @@ Trong trường hợp của anh ấy, lý do sử dụng bút danh là để đ�
 
 > Lý do ban đầu của tôi [khi sử dụng bút danh] chỉ đơn giản là tôi lo ngại [về việc] mắc phải một sai lầm lớn; do đó, ZmnSCPxj ban đầu được dự định là một bút danh dùng một lần có thể bị loại bỏ trong trường hợp như vậy. Tuy nhiên, có vẻ như nó đã tạo dựng được danh tiếng chủ yếu là tích cực, vì vậy tôi đã giữ lại nó
 
-Sử dụng bút danh thực sự cho phép bạn nói chuyện thoải mái hơn mà không gây nguy hiểm cho danh tiếng cá nhân của bạn nếu bạn nói điều gì đó ngu ngốc hoặc mắc phải một số lỗi lớn. Hóa ra, bút danh của anh ấy đã trở nên rất có uy tín và vào năm 2019 [anh ấy thậm chí còn nhận được một khoản tài trợ phát triển] (https://twitter.com/spiralbtc/status/1204815615678177280), bản thân điều này đã chứng minh bản chất không cần xin phép của Bitcoin.
+Sử dụng bút danh thực sự cho phép bạn nói chuyện thoải mái hơn mà không gây nguy hiểm cho danh tiếng cá nhân của bạn nếu bạn nói điều gì đó ngu ngốc hoặc mắc phải một số lỗi lớn. Hóa ra, bút danh của anh ấy đã trở nên rất có uy tín và vào năm 2019 [anh ấy thậm chí còn nhận được một khoản tài trợ phát triển](https://twitter.com/spiralbtc/status/1204815615678177280), bản thân điều này đã chứng minh bản chất không cần xin phép của Bitcoin.
 
 
 Có thể nói, bút danh nổi tiếng nhất trong Bitcoin là Satoshi Nakamoto. Không rõ tại sao ông lại chọn bút danh, nhưng khi nhìn lại thì có lẽ đó là một quyết định đúng đắn vì nhiều lý do:

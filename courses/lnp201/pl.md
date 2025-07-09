@@ -13,13 +13,13 @@ objectives:
 # Podróż do drugiej warstwy Bitcoina
 
 
-Zanurz się w sercu Lightning Network, niezbędnego systemu dla przyszłych transakcji Bitcoin. LNP201 to teoretyczny kurs na temat technicznego działania Lightning. Odkrywa podstawy i mechanizmy tej drugiej sieci Layer, zaprojektowanej tak, aby płatności Bitcoin były szybkie, ekonomiczne i skalowalne.
+Zanurz się w sercu Lightning Network, systemu niezbędnego dla przyszłych transakcji Bitcoin. LNP201 to kurs teoretyczny na temat technicznego działania sieci Lightning. Odkrywa podstawy i mechanizmy tej drugiej warstwy sieci, zaprojektowanej tak, aby płatności Bitcoin były szybkie, ekonomiczne i skalowalne.
 
 
-Dzięki sieci kanałów płatności Lightning umożliwia szybkie i bezpieczne transakcje bez konieczności rejestrowania każdego Exchange na Bitcoin Blockchain. W kolejnych rozdziałach dowiesz się, jak działa otwieranie, zarządzanie i zamykanie kanałów, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje Commitment, HTLC, klucze odwołania, mechanizmy karania, routing cebulowy i faktury.
+Dzięki sieci kanałów płatności sieć Lightning umożliwia szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje Commitment, HTLC, klucze odwołania, mechanizmy karania, routing cebulowy i faktury.
 
 
-Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoin, ten kurs dostarczy cennych informacji, aby zrozumieć i używać Lightning Network. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoin, ważne jest, aby opanować podstawy wynalazku Satoshi przed zanurzeniem się w LNP201.
+Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć i używać sieci Lightning Network. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku Satoshiego przed zanurzeniem się w kurs LNP201.
 
 
 Miłego odkrywania!
@@ -37,15 +37,15 @@ Miłego odkrywania!
 <chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
 
 
-Witamy w kursie LNP201!
+Witamy na kursie LNP201!
 
 
-Szkolenie to ma na celu zapewnienie dogłębnego technicznego zrozumienia Lightning Network, sieci nakładkowej zaprojektowanej w celu ułatwienia szybkich i często tanich transakcji Bitcoin. Stopniowo odkryjesz podstawowe koncepcje rządzące tym systemem, od otwierania kanałów płatności po techniki routingu i zarządzanie płynnością.
+Nasze szkolenie ma na celu zapewnienie dogłębnego technicznego zrozumienia sieci Lightning Network, sieci nakładkowej zaprojektowanej w celu ułatwienia szybkich i często tanich transakcji Bitcoin. Stopniowo odkryjesz podstawowe koncepcje rządzące tym systemem, od otwierania kanałów płatności po techniki routingu i zarządzanie płynnością.
 
 
 **Sekcja 1: Podstawy**
 
-Zaczniemy od ogólnego wprowadzenia do Lightning Network, ustanawiając niezbędne podstawy dotyczące Bitcoin, jego adresów, UTXO i sposobu działania transakcji. Ten podstawowy przegląd jest niezbędny do zrozumienia, w jaki sposób Lightning Network opiera się na podstawowych mechanizmach Blockchain, aby działać bezpiecznie.
+Zaczniemy od ogólnego wprowadzenia do Lightning Network, opisując niezbędne podstawy dotyczące Bitcoina, jego adresów, UTXO i sposobu działania transakcji. Ten podstawowy przegląd jest niezbędny do zrozumienia, w jaki sposób Lightning Network opiera się na podstawowych mechanizmach łańcucha bloków, aby działać bezpiecznie.
 
 
 **Sekcja 2: Otwieranie i zamykanie kanałów**
@@ -60,15 +60,15 @@ Lightning Network nie ogranicza się do pojedynczych kanałów; to prawdziwa sie
 
 **Sekcja 4: Narzędzia Lightning Network**
 
-W tej sekcji przedstawiono praktyczne narzędzia Lightning Network, takie jak *Invoices*, *LNURL* i *Keysend*. Dowiesz się również, jak zarządzać płynnością swoich kanałów, co jest istotnym aspektem zapewniającym płynne płatności i maksymalizującym wydajność transakcji na Lightning.
+W tej sekcji przedstawiono praktyczne narzędzia Lightning Network, takie jak *Invoices*, *LNURL* i *Keysend*. Dowiesz się również, jak zarządzać płynnością swoich kanałów, co jest istotnym aspektem zapewniającym płynne płatności i maksymalizującym wydajność transakcji w sieci Lightning.
 
 
 **Sekcja 5: Dalej**
 
-Na koniec szkolenia podsumujemy omówione koncepcje i utorujemy drogę do bardziej zaawansowanych tematów dla tych, którzy chcą pogłębić swoją wiedzę na temat Lightning Network.
+Na koniec szkolenia podsumujemy omówione koncepcje i utorujemy drogę bardziej zaawansowanym tematom dla tych, którzy chcą pogłębić swoją wiedzę na temat Lightning Network.
 
 
-Gotowy do odkrycia technicznych mechanizmów Lightning Network? Zanurzmy się!
+Gotowy do odkrycia technicznych mechanizmów Lightning Network? Zaczynajmy!
 
 
 # Podstawy
@@ -87,49 +87,49 @@ Gotowy do odkrycia technicznych mechanizmów Lightning Network? Zanurzmy się!
 
 
 
-Lightning Network to sieć kanałów płatności zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualnie na Blockchain. W ten sposób Lightning Network dąży do poprawy skalowalności Bitcoin i uczynienia go użytecznym dla płatności o niskiej wartości.
+Lightning Network to sieć kanałów płatności zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualniew łańcuchu bloków. W ten sposób Lightning Network dąży do poprawy skalowalności Bitcoina i uczynienia go użytecznym do płatności o niskiej wartości.
 
 
-Przed zbadaniem aspektu "sieci" ważne jest, aby zrozumieć koncepcję **kanału płatności** na Lightning, jak to działa i jego specyfikę. Jest to temat tego pierwszego rozdziału.
+Przed zbadaniem aspektu "sieci" ważne jest, aby zrozumieć koncepcję **kanału płatności** sieci Lightning, to jak działa i jaka jest jego specyfika. Jest to temat naszego pierwszego rozdziału.
 
 
 ### Koncepcja kanału płatności
 
 
-Kanał płatności pozwala dwóm stronom, tutaj **Alice** i **Bob**, na Exchange funduszy przez Lightning Network. Każdy bohater ma węzeł, symbolizowany przez okrąg, a kanał między nimi jest reprezentowany przez odcinek linii.
+Kanał płatności pozwala dwóm stronom, nazwanych tutaj **Alice** i **Bob**, na wymianę funduszy przez Lightning Network. Każda postać ma węzeł, symbolizowany przez okrąg, a kanał między nimi jest reprezentowany przez odcinek linii.
 
 
 ![LNP201](assets/en/01.webp)
 
 
-W naszym przykładzie Alice ma 100 000 satoshi po swojej stronie kanału, a Bob ma 30 000 satoshi, co daje łącznie 130 000 satoshi, co stanowi **przepustowość kanału**.
+W naszym przykładzie Alice ma 100 000 satów po swojej stronie kanału, a Bob ma 30 000 satów, co daje łącznie 130 000 satów, co stanowi **przepustowość kanału**.
 
 
-**Ale czym jest Satoshi?
+**Ale czym jest Sat?
 
 
-**Satoshi** (lub "sat") jest jednostką rozliczeniową na Bitcoin. Podobnie jak cent dla euro, Satoshi jest po prostu ułamkiem Bitcoin. Jeden Satoshi jest równy **0,00000001 Bitcoin**, czyli jednej stumilionowej Bitcoin. Korzystanie z Satoshi staje się coraz bardziej praktyczne wraz ze wzrostem wartości Bitcoin.
+**Satoshi** (lub "sat") jest jednostką rozliczeniową Bitcoina. Podobnie jak cent dla euro, satoshi jest po prostu ułamkiem Bitcoina. Jeden Satoshi jest równy **0,00000001 Bitcoina**, czyli jednej stumilionowej Bitcoina. Korzystanie z sató∑ staje się coraz bardziej praktyczne wraz ze wzrostem wartości Bitcoina.
 
 
 ### Alokacja funduszy w kanale La Manche
 
 
-Wróćmy do kanału płatności. Kluczowym pojęciem jest tutaj "**strona kanału**". Każdy uczestnik ma środki po swojej stronie kanału: Alicja 100 000 satoshi, a Bob 30 000. Jak widzieliśmy, suma tych środków reprezentuje całkowitą pojemność kanału, liczbę ustaloną w momencie jego otwarcia.
+Wróćmy do kanału płatności. Kluczowym pojęciem jest tutaj "**strona kanału**". Każdy uczestnik ma środki po swojej stronie kanału: Alicja 100 000 satów, a Bob 30 000. Jak widzieliśmy, suma tych środków reprezentuje całkowitą pojemność kanału, liczbę ustaloną w momencie jego otwarcia.
 
 
 ![LNP201](assets/en/02.webp)
 
 
-Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satoshi do Boba, jest to możliwe, ponieważ ma wystarczającą ilość środków (100 000 satoshi). Po tej transakcji Alicja będzie miała po swojej stronie 60 000 satoshi, a Bob 70 000.
+Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów do Boba, jest to możliwe, ponieważ ma wystarczającą ilość środków (100 000 satoshi). Po tej transakcji Alicja będzie miała po swojej stronie 60 000 satoshi, a Bob 70 000.
 
 
 ![LNP201](assets/en/03.webp)
 
 
-Pojemność kanału**, wynosząca 130 000 satoshi, pozostaje stała. To, co się zmienia, to alokacja środków. System ten nie pozwala na wysyłanie większej ilości środków niż się posiada. Na przykład, jeśli Bob chciałby odesłać Alicji 80 000 satoshi, nie mógłby, ponieważ ma tylko 70 000.
+Pojemność kanału**, wynosząca 130 000 satów, pozostaje stała. To, co się zmienia, to alokacja środków. System ten nie pozwala na wysyłanie większej ilości środków niż się posiada. Na przykład, jeśli Bob chciałby odesłać Alicji 80 000 satów, nie mógłby, ponieważ ma tylko 70 000.
 
 
-Inny sposób wyobrażenia sobie alokacji środków to wyobrazić sobie **kursor**, który wskazuje, gdzie znajdują się środki w kanale. Na początku, gdy Alice ma 100 000 satoshi, a Bob 30 000, kursor jest bardziej po stronie Boba, ponieważ Alice ma znacznie więcej środków. Po transakcji na 40 000 satoshi kursor przesunie się nieco w stronę Alice, która teraz posiada 60 000 satoshi.
+Inny sposób wyobrażenia sobie alokacji środków to wyobrażenie sobie **kursora**, który wskazuje, gdzie znajdują się środki w kanale. Na początku, gdy Alice ma 100 000 satów, a Bob 30 000, kursor jest bardziej po stronie Boba, ponieważ Alice ma znacznie więcej środków. Po transakcji na 40 000 satów kursor przesunie się nieco w stronę Alice, która teraz posiada 60 000 satów.
 
 
 ![LNP201](assets/en/04.webp)
@@ -143,7 +143,7 @@ Ta reprezentacja może być przydatna do wyobrażenia sobie równowagi funduszy 
 
 Pierwszą kwestią do zapamiętania jest to, że **przepustowość kanału** jest stała. Przypomina to nieco średnicę rury: określa maksymalną ilość środków, które można przesłać przez kanał jednocześnie.
 
-Weźmy przykład: jeśli Alice ma 130 000 satoshi po swojej stronie, może wysłać maksymalnie 130 000 satoshi do Boba w pojedynczej transakcji. Bob może jednak odesłać te środki z powrotem do Alicji, częściowo lub w całości.
+Weźmy przykład: jeśli Alice ma 130 000 satów po swojej stronie, może wysłać maksymalnie 130 000 satów do Boba w pojedynczej transakcji. Bob może jednak odesłać te środki z powrotem do Alice, częściowo lub w całości.
 
 
 Ważne jest, aby zrozumieć, że stała przepustowość kanału ogranicza maksymalną kwotę pojedynczej transakcji, ale nie całkowitą liczbę możliwych transakcji ani ogólny wolumen środków wymienianych w kanale.
@@ -155,10 +155,10 @@ Ważne jest, aby zrozumieć, że stała przepustowość kanału ogranicza maksym
 
 - Przepustowość kanału jest stała i określa maksymalną kwotę, jaką można przesłać w ramach pojedynczej transakcji.
 - Środki w kanale są rozdzielane między dwóch uczestników, a każdy z nich może wysyłać do drugiego tylko te środki, które posiada po swojej stronie.
-- Lightning Network pozwala zatem na szybkie i wydajne Exchange środków, przy jednoczesnym poszanowaniu ograniczeń narzuconych przez przepustowość kanałów.
+- Lightning Network pozwala zatem na szybką i wydajną wymianę środków, przy jednoczesnym poszanowaniu ograniczeń narzuconych przez przepustowość kanałów.
 
 
-To koniec pierwszego rozdziału, w którym położyliśmy podwaliny pod Lightning Network. W kolejnych rozdziałach zobaczymy, jak otworzyć kanał i zagłębimy się w omawiane tutaj koncepcje.
+To koniec pierwszego rozdziału, w którym położyliśmy podwaliny pod sieć Lightning Network. W kolejnych rozdziałach zobaczymy, jak otworzyć kanał i zagłębimy omawiane tutaj koncepcje.
 
 
 ## Bitcoin, adresy, UTXO i transakcje

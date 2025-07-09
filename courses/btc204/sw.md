@@ -2999,15 +2999,15 @@ Hapo awali, BIP47 ilipendekezwa kuunganishwa kwenye Bitcoin Core, lakini haikuwa
 
 ### Kanuni ya jumla ya BIP47 na PayNym
 
-Lengo la BIP47 ni kufanya uwezekano wa kupokea idadi kubwa ya malipo bila kutumia tena Anwani (address). Inatokana na matumizi ya nambari ya malipo inayoweza kutumika tena, ambayo huwawezesha watoa huduma tofauti kutuma malipo kadhaa kwa msimbo mmoja wa mtumiaji mwingine. Kwa hivyo, mpokeaji si lazima atoe Anwani (address) mpya, tupu kwa kila shughuli, ambayo hurahisisha sana ubadilishanaji wakati wa kuhifadhi usiri.
+Lengo la BIP47 ni kufanya uwezekano wa kupokea idadi kubwa ya malipo bila kutumia tena Anwani (address). Inatokana na matumizi ya nambari ya malipo inayoweza kutumika tena, ambayo huwawezesha watoa huduma tofauti kutuma malipo kadhaa kwa msimbo mmoja wa mtumiaji mwingine. Kwa hivyo, mpokeaji si lazima atoe address mpya, tupu kwa kila shughuli, ambayo hurahisisha sana ubadilishanaji wakati wa kuhifadhi usiri.
 
 ![BTC204](assets/fr/213.webp)
 
-Kwa hivyo mtumiaji anaweza kushiriki msimbo wake wa malipo kwa uhuru kamili, iwe kwenye mitandao ya kijamii au kwenye tovuti yake, bila kuhatarisha upotevu wowote wa usiri, tofauti na mpokeaji wa kawaida wa Anwani (address) au ufunguo wa umma.
+Kwa hivyo mtumiaji anaweza kushiriki msimbo wake wa malipo kwa uhuru kamili, iwe kwenye mitandao ya kijamii au kwenye tovuti yake, bila kuhatarisha upotevu wowote wa usiri, tofauti na mpokeaji wa kawaida wa address au ufunguo wa umma.
 
-Ili kutekeleza muamala, pande zote mbili zinahitaji Pochi la Bitcoin yenye utekelezaji wa BIP47, kama vile PayNym kwenye Pochi la Samurai au Pochi la Sparrow. Matumizi ya pamoja ya misimbo yao ya malipo hutengeneza njia ya siri kati yao. Ili kuanzisha kituo hiki kwa ufanisi, mtoaji lazima atekeleze shughuli mahususi kwenye Bitcoin Blockchain, inayojulikana kama "muamala wa arifa" (zaidi kuhusu hili baadaye).
+Ili kutekeleza muamala, pande zote mbili zinahitaji wallet ya Bitcoin yenye utekelezaji wa BIP47, kama vile PayNym kwenye Pochi la Samurai au wallet ya Sparrow. Matumizi ya pamoja ya misimbo yao ya malipo hutengeneza njia ya siri kati yao. Ili kuanzisha kituo hiki kwa ufanisi, mtoaji lazima atekeleze shughuli mahususi kwenye Bitcoin Blockchain, inayojulikana kama "muamala wa arifa" (zaidi kuhusu hili baadaye).
 
-Kuchanganya misimbo ya malipo ya watumiaji hao wawili hutoa siri zilizoshirikiwa, ambazo hutengeneza idadi kubwa ya Anwani (address) za kipekee za Bitcoin zinazopokea (haswa 2^32, au karibu bilioni 4). Kwa njia hii, malipo yanayofanywa kupitia BIP47 hayaelekezwi kwa msimbo wa malipo yenyewe, bali kwa Anwani (address) za kawaida za risiti zinazotokana na misimbo ya malipo ya watumiaji wanaohusika.
+Kuchanganya misimbo ya malipo ya watumiaji hao wawili hutoa siri zilizoshirikiwa, ambazo hutengeneza idadi kubwa ya address za kipekee za Bitcoin zinazopokea (haswa 2^32, au karibu bilioni 4). Kwa njia hii, malipo yanayofanywa kupitia BIP47 hayaelekezwi kwa msimbo wa malipo yenyewe, bali kwa Anwani (address) za kawaida za risiti zinazotokana na misimbo ya malipo ya watumiaji wanaohusika.
 
 Kwa hivyo nambari ya malipo hutumika kama kitambulisho pepe kinachotokana na kwingineko ya seed (mbegu). Katika muundo wa utoto wa kidaraja cha kwingineko, msimbo wa malipo umewekwa katika kiwango cha 3, yaani katika kiwango cha akaunti.
 
@@ -3025,7 +3025,7 @@ Ili kukupa wazo la jinsi nambari ya malipo inavyoonekana, hii ndio yangu:
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
-Msimbo huu pia unaweza kusimba kama msimbo wa QR, ili kurahisisha mawasiliano, kama vile mapokezi ya kawaida ya Anwani (address).
+Msimbo huu pia unaweza kusimba kama msimbo wa QR, ili kurahisisha mawasiliano, kama vile mapokezi ya kawaida ya address.
 
 Kuhusu PayNym Bots, roboti zinazoonekana wakati mwingine kwenye Twitter, hivi ni viwakilishi vya kuona vya msimbo wa malipo, iliyoundwa na Pochi la Samourai. Wao huzalishwa kwa kutumia kazi ya Hash, kuwapa karibu-pekee. Zinachukua umbo la mfuatano mdogo wa herufi zinazoanza na `+` :
 
@@ -3042,7 +3042,7 @@ Avatar hizi pia zinaweza kuwakilishwa kama picha:
 Ingawa roboti hizi hazina utendakazi mahususi wa kiufundi ndani ya mfumo wa BIP47, zina jukumu katika kuwezesha mwingiliano wa watumiaji kwa kutoa utambulisho unaotambulika kwa urahisi.
 
 ---
-*Katika sehemu zifuatazo za sura hii zinazotolewa kwa BIP47, tutaangalia kwa kina jinsi inavyofanya kazi, tukitilia mkazo zaidi mbinu za kriptografia zinazotumiwa. Ili kufahamu kikamilifu maelezo haya ya kiufundi, ni muhimu kwanza kuelewa muundo wa pochi za HD, taratibu muhimu za utoeji na misingi ya kriptografia ya mduara. Ikiwa ungependa kutafakari kwa kina zaidi dhana hizi, kozi nyingine ya bila malipo inapatikana kwenye Plan ₿ Network :*
+*Katika sehemu zifuatazo za sura hii zinazotolewa kwa BIP47, tutaangalia kwa kina jinsi inavyofanya kazi, tukitilia mkazo zaidi mbinu za kriptografia zinazotumiwa. Ili kufahamu kikamilifu maelezo haya ya kiufundi, ni muhimu kwanza kuelewa muundo wa wallets za HD, taratibu muhimu za utoeji na misingi ya kriptografia ya mduara. Ikiwa ungependa kutafakari kwa kina zaidi dhana hizi, kozi nyingine ya bila malipo inapatikana kwenye Plan ₿ Network :*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 *Bado ningekushauri uzifuate, kwa sababu kuelewa utendakazi wa kiufundi wa BIP47 kutafanya iwe rahisi kwako kuelewa mapendekezo mengine yanayofanana, ambayo tutayajadili katika sura zifuatazo*
@@ -3050,17 +3050,17 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ---
 ### Nambari ya malipo inayoweza kutumika tena
 
-Kama ilivyoelezwa hapo awali, nambari ya malipo inayoweza kutumika tena iko katika kina cha 3 cha Pochi la HD, na kulifanya kulinganishwa na `xpub`, kulingana na nafasi yake katika muundo wa Pochi na jukumu lake.
+Kama ilivyoelezwa hapo awali, nambari ya malipo inayoweza kutumika tena iko katika kina cha 3 cha wallet ya HD, na kulifanya kulinganishwa na `xpub`, kulingana na nafasi yake katika muundo wa wallet na jukumu lake.
 
-Nambari ya malipo ya baiti 80 imechanganuliwa kama ifuatavyo:
+Nambari ya malipo ya bytes 80 imechanganuliwa kama ifuatavyo:
 
 
-- Byte `0`: Toleo**. Kwa toleo la kwanza la BIP47, baiti hii imewekwa kuwa `0x01` ;
-- Byte `1`: Sehemu ndogo**. Nafasi hii imehifadhiwa kwa kuunganisha dalili za ziada kwa matumizi maalum. Kwa matumizi ya awali ya PayNym, baiti hii imewekwa kuwa `0x00` ;
-- Baiti ya `2`: Usawa wa `y`**. Baiti hii ni `0x02` au `0x03`, ikionyesha kama kiratibu cha ufunguo wa umma ni sawa au isiyo ya kawaida, kwani ufunguo wa umma uliobanwa hutumiwa;
-- Kutoka kwa baiti `3` hadi baiti `34`: Thamani ya `x`**. Baiti hizi zinawakilisha abscissa ya ufunguo wa umma. Muunganisho wa `x` na usawa wa `y` huunda kitufe kamili cha umma kilichobanwa;
-- Kutoka kwa baiti `35` hadi baiti `66`: Msimbo wa kamba**. Nafasi hii ina msimbo wa kamba unaohusishwa na ufunguo wa umma;
-- Kutoka kwa baiti `67` hadi baiti `79`: Uwekaji pedi**. Nafasi hii imekusudiwa kwa mageuzi yanayowezekana ya siku zijazo. Kwa toleo la sasa, tunaweka sufuri hapa ili kufikia ukubwa wa baiti 80 unaohitajika kwa kutoa `OP_RETURN`.
+- **Byte `0`: Toleo**. Kwa toleo la kwanza la BIP47, baiti hii imewekwa kuwa `0x01` ;
+- **Byte `1`: Sehemu ndogo**. Nafasi hii imehifadhiwa kwa kuunganisha dalili za ziada kwa matumizi maalum. Kwa matumizi ya awali ya PayNym, baiti hii imewekwa kuwa `0x00` ;
+- **Byte ya `2`: Usawa wa `y`**. Baiti hii ni `0x02` au `0x03`, ikionyesha kama kiratibu cha ufunguo wa umma ni sawa au isiyo ya kawaida, kwani ufunguo wa umma uliobanwa hutumiwa;
+- **Kutoka kwa bytes `3` hadi bytes `34`: Thamani ya `x`**. Baiti hizi zinawakilisha abscissa ya ufunguo wa umma. Muunganisho wa `x` na usawa wa `y` huunda kitufe kamili cha umma kilichobanwa;
+- **Kutoka kwa bytes`35` hadi baiti `66`: Msimbo wa kamba**. Nafasi hii ina msimbo wa kamba unaohusishwa na ufunguo wa umma;
+- **Kutoka kwa bytes `67` hadi bytes `79`: Uwekaji pedi**. Nafasi hii imekusudiwa kwa mageuzi yanayowezekana ya siku zijazo. Kwa toleo la sasa, tunaweka sufuri hapa ili kufikia ukubwa wa baiti 80 unaohitajika kwa kutoa `OP_RETURN`.
 
 Huu hapa ni uwakilishi wa heksadesimali wa nambari yangu ya malipo inayoweza kutumika tena iliyowasilishwa katika sehemu iliyotangulia:
 
@@ -3070,13 +3070,13 @@ Huu hapa ni uwakilishi wa heksadesimali wa nambari yangu ya malipo inayoweza kut
 
 ![BTC204](assets/fr/216.webp)
 
-Kisha, baiti ya kiambishi awali cha `P` lazima kiongezwe mwanzoni ili kuonyesha wazi kuwa hii ni msimbo wa malipo. Byte hii inawakilishwa na `0x47` :
+Kisha,byte  ya kiambishi awali cha `P` lazima kiongezwe mwanzoni ili kuonyesha wazi kuwa hii ni msimbo wa malipo. Byte hii inawakilishwa na `0x47` :
 
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-Hatimaye, ili kuhakikisha utimilifu wa nambari ya malipo, ukokotoaji wa hundi hufanywa kwa kutumia `HASH256`, ambayo inajumuisha Hash mara mbili kwa kutumia `SHA256`. Baiti nne za kwanza za Hash hii huunganishwa mwishoni mwa msimbo wa malipo:
+Hatimaye, ili kuhakikisha utimilifu wa nambari ya malipo, ukokotoaji wa hundi hufanywa kwa kutumia `HASH256`, ambayo inajumuisha Hash mara mbili kwa kutumia `SHA256`. Bytes nne za kwanza za Hash hii huunganishwa mwishoni mwa msimbo wa malipo:
 
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
@@ -3100,7 +3100,7 @@ Kwa maneno madhubuti, kwa kuzalisha ufunguo wa umma uliobanwa na msimbo wa kamba
 
 ![BTC204](assets/fr/218.webp)
 
-### Kitufe cha Ubadilishanaji cha Diffie-Hellman kwenye mikondo ya duaradufu (ECDH)
+### Kitufe cha Diffie-Hellman cha Exchange kwenye mikondo ya duaradufu (ECDH)
 
 Itifaki ya kriptografia iliyo katikati ya BIP47 inajulikana kwa kifupi ECDH, cha *Elliptic-Curve Diffie-Hellman*. Njia hii ni lahaja ya kitufe cha asili ya Ubadilishanaji wa Diffie-Hellman.
 
@@ -3112,7 +3112,7 @@ Siri hii iliyoshirikiwa (katika kesi hii, ufunguo wa bluu) inaweza kutumika kwa 
 
 ![BTC204](assets/fr/220.webp)
 
-Ili kufanikisha hili, Diffie-Hellman hutumia hesabu ya moduli kukokotoa siri iliyoshirikiwa. Hivi ndivyo inavyofanya kazi kwa maneno ya layman:
+Ili kufanikisha hili, Diffie-Hellman hutumia hesabu ya moduli kukokotoa siri iliyoshirikiwa. Hivi ndivyo inavyofanya kazi kwa maneno ya mtu wa kawaida:
 
 
 - Alice na Bob wanakubaliana juu ya rangi ya kawaida, katika kesi hii ya njano, ambayo ni data ya umma (washambuliaji wanajua rangi hii);
@@ -3134,11 +3134,12 @@ Kabla hatujaingia katika mifumo ya Diffie-Hellman, wacha nikukumbushe kwa ufupi 
 - **Nambari kuu** ni nambari asilia ambayo ina vigawanyiko viwili pekee: $1$ na yenyewe. Kwa mfano, $7$ ni nambari kuu kwa sababu inaweza tu kugawanywa kwa $1$ na $7$. Kwa upande mwingine, $8$ sio nambari kuu, kwani inaweza kugawanywa kwa $1$, $2$, $4$ na $8$. Kwa hivyo ina vigawanyiko vinne kamili badala ya viwili;
 - **modulo** (iliyojulikana $mod$ au $\%$) ni operesheni ya hisabati ambayo, kati ya nambari mbili kamili, hurejesha salio la mgawanyiko wa Euclidean wa kwanza na wa pili. Kwa mfano, $16\bmod 5 = $1$.
 
-**Ufunguo wa Ubadilishanaji wa Diffie-Hellman kati ya Alice na Bob hufanyika kama ifuatavyo:**
+**Ufunguo wa Exchange wa Diffie-Hellman kati ya Alice na Bob hufanyika kama ifuatavyo:**
 
+- Alice na Bob wanakubaliana juu ya nambari mbili za kawaida: \$p\$ na \$g\$. \$p\$ ni nambari kuu, na kadiri nambari hii inavyokuwa kubwa, ndivyo Diffie-Hellman unavyokuwa salama zaidi. \$g\$ ni mzizi wa awali wa \$p\$. Nambari hizi mbili zinaweza kuwasilishwa kwa uwazi kwenye mtandao usiotegemewa. Zinawakilisha sawa na **rangi ya manjano** katika mfano wa awali. Kwa hivyo, ni muhimu kwamba Alice na Bob watumie thamani zinazofanana kwa \$p\$ na \$g\$.
 
-- Alice na Bob wanakubaliana juu ya nambari mbili za kawaida: $p$ na $g$. $p$ ni nambari kuu, na kadiri nambari inavyokuwa kubwa, ndivyo Diffie-Hellman atakavyokuwa salama zaidi. $g$ ni mzizi wa awali wa $p$. Nambari hizi mbili zinaweza kuwasilishwa kwa uwazi kwenye mtandao usio salama. Zinawakilisha sawa na **rangi ya manjano** katika umaarufu uliopita. Kwa hivyo ni muhimu kwamba Alice na Bob watumie thamani zinazofanana kwa $p$ na $g$.
-- Mara tu vigezo hivi vimefafanuliwa, Alice na Bob kila mmoja huchagua nambari ya siri ya nasibu. Alice anataja nambari yake ya siri nasibu $a$ (sawa na **rangi nyekundu**) na Bob anataja $b$ yake (sawa na **rangi ya buluu**). Nambari hizi lazima zibaki siri.
+* Mara tu vigezo hivi vimefafanuliwa, Alice na Bob kila mmoja huchagua nambari ya siri ya nasibu. Alice anachagua nambari yake ya siri \$a\$ (sawa na **rangi nyekundu**), na Bob anachagua \$b\$ yake (sawa na **rangi ya buluu**). Nambari hizi lazima zibaki siri.
+
 - Badala ya kubadilishana nambari $a$ na $b$ moja kwa moja, kila mhusika atakokotoa $A$ na $B$ kama ifuatavyo:
 
 $A$ ni sawa na $g$ iliyoinuliwa kwa nguvu $a$modulo $p$ :
@@ -3214,7 +3215,7 @@ $$
 z = g^{ba} \bmod p
 $$
 
-Shukrani kwa usambazaji wa opereta wa modulo, Alice na Bob wanapata thamani sawa kabisa $z$. Nambari hii inawakilisha siri yao ya kawaida, sawa na **rangi ya kahawia** katika umaarufu wa awali wa makopo ya rangi. Sasa wanaweza kutumia siri hii ya kawaida kusimba kwa njia fiche mawasiliano yao kwa ulinganifu kupitia mtandao usiolindwa.
+Shukrani kwa usambazaji wa opereta wa modulo, Alice na Bob wanapata thamani sawa kabisa \$z\$. Nambari hii inawakilisha siri yao ya pamoja, sawa na **rangi ya kahawia** katika mfano wa awali wa makopo ya rangi. Sasa wanaweza kutumia siri hii ya pamoja kusimba kwa njia fiche mawasiliano yao kwa kutumia usimbaji wa ulinganifu kupitia mtandao usiolindwa.
 
 ![BTC204](assets/fr/222.webp)
 
@@ -3234,12 +3235,11 @@ $$
 
 Katika fomula hii, $K$ huteua ufunguo wa umma, $k$ ufunguo wa faragha, na $G$ pointi ya jenereta.
 
-Kipengele muhimu cha funguo hizi ni urahisi wa kukokotoa $K$ kutoka $k$ na $G$, ilhali haiwezekani kupata $k$ kutoka $K$ na $G$. Asymmetry hii inaunda kazi ya njia moja. Kwa maneno mengine, ni rahisi kuhesabu ufunguo wa umma ikiwa unajua ufunguo wa faragha, lakini kurejesha ufunguo wa faragha kutoka kwa ufunguo wa umma hauwezekani. Usalama huu unaimarishwa zaidi na ugumu wa kukokotoa kwa logarithmu tofauti.
+Kipengele muhimu cha funguo hizi Ni urahisi wa kukokotoa \$K\$ kutoka \$k\$ na \$G\$, ilhali haiwezekani kupata \$k\$ kutoka \$K\$ na \$G\$. Usiofaa huu wa mwelekeo mmoja huunda kile kinachoitwa kazi ya njia moja. Kwa maneno mengine, ni rahisi kuhesabu ufunguo wa umma ikiwa unajua ufunguo wa faragha, lakini haiwezekani kurejesha ufunguo wa faragha kutoka kwa ufunguo wa umma. Usalama huu unaimarishwa zaidi na ugumu wa kukokotoa logarithmu tofauti.
 
-Tutatumia mali haya kurekebisha kanuni zetu za Diffie-Hellman. **Kanuni ya uendeshaji wa ECDH ni kama ufuatao:**
+Tutatumia sifa hizi kurekebisha kanuni zetu za Diffie-Hellman. **Kanuni ya uendeshaji wa ECDH ni kama ifuatavyo:**
 
-
-- Alice na Bob wanakubaliana kuhusu mkunjo wa kiduara ulio salama kwa njia fiche na vigezo vyake. Habari hii ni ya umma;
+* Alice na Bob wanakubaliana kuhusu mkunjo wa kiduara (elliptic curve) ulio salama na vigezo vyake. Habari hii ni ya umma;
 - Alice hutoa nambari isiyo ya kawaida $ka$ ambayo itakuwa ufunguo wake wa kibinafsi. Ufunguo huu wa faragha lazima ubaki kuwa siri. Yeye huamua ufunguo wake wa umma $Ka$ kwa kuongeza na kuzidisha alama maradufu kwenye mkunjo uliochaguliwa wa duaradufu:
 
 $$
@@ -3279,13 +3279,13 @@ $$
 
 Mshambulizi anayeweza kuwa akitazama mtandao wa umma usiolindwa ataweza tu kupata funguo za umma za kila mtu binafsi na vigezo vya mkunjo wa duara uliochaguliwa. Kama ilivyoelezwa hapo juu, habari hii pekee haitoshi kuamua funguo za kibinafsi. Kwa hivyo, mshambuliaji hawezi kupata siri iliyoshirikiwa kati ya Alice na Bob.
 
-Kwa hiyo ECDH ni kanuni muhimu ya Ubadilishanaji. Mara nyingi hutumiwa kwa kushirikiana na mbinu nyingine za kriptografia ili kuanzisha itifaki kamili. Kwa mfano, ECDH ndio kitovu cha TLS (*Transport Layer Security*), itifaki ya usimbaji na uthibitishaji inayotumika kwa usafiri wa mtandao wa Layer. TLS hutumia ECDHE kwa ufunguo wa Ubadilishanaji, kibadala cha ECDH ambapo funguo ni za muda mfupi, ili kutoa usiri unaoendelea. Kwa kuongezea, TLS hutumia algoriti za uthibitishaji kama vile ECDSA, algoriti za usimbaji fiche kama vile AES, na vitendaji vya Hash kama vile SHA256.
+Kwa hiyo ECDH ni kanuni muhimu ya Ubadilishanaji. Mara nyingi hutumiwa kwa kushirikiana na mbinu nyingine za kriptografia ili kuanzisha itifaki kamili. Kwa mfano, ECDH ndicho kitovu cha TLS (*Transport Layer Security*), itifaki ya usimbaji na uthibitishaji inayotumika kwenye usafiri wa mtandao wa Layer. TLS hutumia ECDHE kwa ufunguo wa Exchange, toleo la muda mfupi la ECDH, ili kutoa usiri unaoendelea (*forward secrecy*). Zaidi ya hayo, TLS hutumia algoriti za uthibitishaji kama ECDSA, algoriti za usimbaji fiche kama AES, na vitendaji vya Hash kama SHA256.
 
 TLS inawajibikia `s` katika `https` na kufuli katika upau wa Address ya kivinjari chako - alama za mawasiliano yaliyosimbwa kwa njia fiche. Kwa kuchukua kozi hii, utakuwa unatumia ECDH, na kuna uwezekano mkubwa kuwa utakuwa unaitumia kila siku bila hata kujua.
 
 ### Shughuli ya arifa
 
-Kama tulivyoona katika sehemu iliyotangulia, ECDH ni lahaja ya Ubadilishanaji wa Diffie-Hellman kwa kutumia jozi muhimu zilizowekwa kwenye mkunjo wa duaradufu. Ni jambo zuri kwamba tayari tuna jozi nyingi muhimu zinazoheshimu kiwango hiki katika pochi zetu za Bitcoin! Wazo la BIP47 ni kutumia jozi muhimu za pochi za Bitcoin za wahusika wote wawili ili kuanzisha siri za pamoja, za muda mfupi kati yao. BIP47 inatumia ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) badala yake.
+Kama tulivyoona katika sehemu iliyotangulia, ECDH ni lahaja ya exchange ya Diffie-Hellman kwa kutumia jozi muhimu zilizowekwa kwenye mkunjo wa duaradufu. Ni jambo zuri kwamba tayari tuna jozi nyingi muhimu zinazoheshimu kiwango hiki katika pochi zetu za Bitcoin! Wazo la BIP47 ni kutumia jozi muhimu za pochi za Bitcoin za wahusika wote wawili ili kuanzisha siri za pamoja, za muda mfupi kati yao. BIP47 inatumia ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) badala yake.
 
 ![BTC204](assets/fr/223.webp)
 
@@ -3293,7 +3293,7 @@ ECDHE hutumiwa mara ya kwanza katika BIP47 kutuma msimbo wa malipo kutoka kwa mt
 
 Kabla ya Ubadilishanaji huu, mtumaji anafahamu kimantiki msimbo wa malipo wa mpokeaji, baada ya kuupata off-chain, kwa mfano kutoka kwa tovuti yake, Anwani (address) ya ununuzi au mitandao ya kijamii. Hata hivyo, si lazima mpokeaji afahamu nambari ya malipo ya mtumaji. Hata hivyo, kanuni lazima ipelekwe kwake; vinginevyo, hataweza kupata funguo za ephemeral zinazohitajika kutambua Anwani (address) ambapo bitcoins zake zimehifadhiwa, au kufikia fedha zake. Ingawa utumaji huu wa msimbo wa mtumaji unaweza kutekelezwa kiufundi off-chain kwa njia nyinginezo za mawasiliano, hii inaleta tatizo ikiwa Pochi litachukuliwa kutoka seed (mbegu) pekee.
 
-Hii ni kwa sababu, tofauti na Anwani (address) za kawaida, Anwani (address) za BIP47 hazitolewi moja kwa moja kutoka kwa seed (mbegu) ya mpokeaji - kutumia `xpub` itakuwa rahisi katika kesi hii - lakini inatokana na hesabu inayochanganya misimbo miwili ya malipo: ya mtumaji na ya mpokeaji. Kwa hiyo, ikiwa mpokeaji atapoteza Pochi lake na anajaribu kurejesha kutoka kwa seed (mbegu) yake, atapata msimbo wake wa malipo, ambao unatokana moja kwa moja na seed (mbegu) yake. Hata hivyo, ili kurejesha Anwani (address) za ephemeral, atahitaji pia nambari za malipo za wale wote ambao wamemtuma bitcoins kupitia BIP47. Kwa hivyo umuhimu wa shughuli ya arifa, ambayo huwezesha habari hii kuhifadhiwa kwenye Bitcoin Blockchain, wakati bado inaweza kuipata kwa urahisi sana bila kulazimika kutafuta miamala mabilioni iliyotekelezwa tangu kuzinduliwa kwake mnamo 2009.
+Hii ni kwa sababu, tofauti na Anwani (address) za kawaida, Anwani (address) za BIP47 hazitolewi moja kwa moja kutoka kwa seed (mbegu) ya mpokeaji - kutumia `xpub` itakuwa rahisi katika kesi hii - lakini inatokana na hesabu inayochanganya misimbo miwili ya malipo: ya mtumaji na ya mpokeaji. Kwa hiyo, ikiwa mpokeaji atapoteza Pochi lake na anajaribu kurejesha kutoka kwa seed yake, atapata msimbo wake wa malipo, ambao unatokana moja kwa moja na seed yake. Hata hivyo, ili kurejesha address za muda (ephemeral), atahitaji pia nambari za malipo za wale wote waliomtumia bitcoins kupitia BIP47. Kwa hivyo, umuhimu wa shughuli ya arifa, ambayo huwezesha habari hii kuhifadhiwa kwenye Bitcoin Blockchain, huku bado ikiwezekana kuipata kwa urahisi sana bila kulazimika kuchambua mamilioni ya miamala iliyotekelezwa tangu kuzinduliwa kwake mnamo 2009.
 
 ![BTC204](assets/fr/224.webp)
 
@@ -3301,17 +3301,17 @@ Kwa hivyo itawezekana kutekeleza BIP47 bila kutumia muamala wa arifa, mradi kila
 
 Katika sura zifuatazo, hata hivyo, tutaangalia itifaki zingine zilizo na malengo sawa na BIP47, lakini ambazo hazihitaji shughuli ya arifa. Njia hizi mbadala, hata hivyo, huanzisha biashara zao wenyewe.
 
-Kando na jukumu lake la kuhifadhi misimbo ya malipo, shughuli ya arifa pia ina kipengele cha kuarifu mpokeaji, kama jina lake linavyopendekeza. Inatahadharisha mteja wa mpokeaji kwa ukweli kwamba njia mpya ya malipo imeanzishwa, na kupendekeza kwamba afuatilie Anwani (address) zinazotokana na muda mfupi.
+Kando na jukumu lake la kuhifadhi misimbo ya malipo, shughuli ya arifa pia ina kipengele cha kuarifu mpokeaji, kama jina lake linavyopendekeza. Inatahadharisha mteja wa mpokeaji kuhusu ukweli kwamba njia mpya ya malipo imeanzishwa, na kupendekeza kwamba afuatilie **address** zinazotokana na muda mfupi (*ephemeral*).
 
 ### Muundo wa usiri wa BIP47
 
 Kabla ya kueleza kwa kina utendakazi wa kiufundi wa shughuli ya arifa, ni muhimu kujadili mtindo wa usiri unaohusishwa na BIP47, ambao unahalalisha hatua fulani zilizochukuliwa wakati wa kuunda shughuli hii ya awali.
 
-Nambari ya malipo yenyewe haitoi hatari ya moja kwa moja kwa usiri. Tofauti na muundo wa jadi wa Bitcoin, unaolenga kuvunja kiungo kati ya utambulisho wa mtumiaji na miamala yake (ambayo ni ya umma) kwa kuhifadhi kutokujulikana kwa funguo na Anwani (address), msimbo wa malipo unaweza kuhusishwa kwa uwazi na utambulisho bila kuibua tishio.
+Nambari ya malipo yenyewe haitoi hatari ya moja kwa moja kwa usiri. Tofauti na muundo wa jadi wa Bitcoin, unaolenga kuvunja kiungo kati ya utambulisho wa mtumiaji na miamala yake (ambayo ni ya umma) kwa kuhifadhi kutokujulikana kwa funguo na address, msimbo wa malipo unaweza kuhusishwa kwa uwazi na utambulisho bila kuibua tishio.
 
-Hii ni kwa sababu msimbo wa malipo hautumiwi kupata moja kwa moja Anwani (address) zinazopokea malipo ya BIP47. Badala yake, Anwani (address) hizi hutolewa kupitia programu ya ECDH kati ya funguo zinazotokana na misimbo ya malipo ya pande mbili zinazohusika.
+Hii ni kwa sababu msimbo wa malipo hautumiwi kupata moja kwa moja Anwani (address) zinazopokea malipo ya BIP47. Badala yake, address hizi hutolewa kupitia programu ya ECDH kati ya funguo zinazotokana na misimbo ya malipo ya pande mbili zinazohusika.
 
-Kwa hivyo, msimbo wa malipo wenyewe hauongoi moja kwa moja kupoteza usiri, kwa kuwa ni taarifa tu ya Anwani (address) inayotokana nayo. Ingawa Anwani (address) hii inaweza kufichua taarifa fulani, kwa kawaida haifichui wahusika ambao unafanya nao miamala, isipokuwa uchanganuzi wa kina wa msururu ufanyike. Hakika, ikiwa mtumaji anatumia UTXO zinazoweza kuunganishwa na utambulisho wake kutekeleza shughuli ya arifa, basi itawezekana kubaini kuwa utambulisho wake huenda umehusishwa na malipo ya BIP47 kwenye msimbo wako wa malipo. Hii haitafichua miamala ya msingi, lakini itaonyesha uwezekano wa kuwepo kwao.
+Kwa hivyo, msimbo wa malipo wenyewe hauongoi moja kwa moja kupoteza usiri, kwa kuwa ni taarifa tu ya address inayotokana nayo. Ingawa address hii inaweza kufichua taarifa fulani, kwa kawaida haifichui wahusika ambao unafanya nao miamala, isipokuwa uchanganuzi wa kina wa msururu ufanyike. Hakika, ikiwa mtumaji anatumia UTXO zinazoweza kuunganishwa na utambulisho wake kutekeleza shughuli ya arifa, basi itawezekana kubaini kuwa utambulisho wake huenda umehusishwa na malipo ya BIP47 kwenye msimbo wako wa malipo. Hii haitafichua miamala ya msingi, lakini itaonyesha uwezekano wa kuwepo kwao.
 
 Kwa hivyo ni muhimu kudumisha utengano huu mkali kati ya misimbo ya malipo ya watumiaji. Kwa kuzingatia hili, mawasiliano ya awali ya msimbo ni wakati muhimu kwa usiri wa malipo, ilhali ni muhimu kwa itifaki kufanya kazi ipasavyo. Ikiwa moja ya misimbo ya malipo inaweza kupatikana kwa umma (kama kwenye tovuti), msimbo wa pili, wa mtumaji, lazima chini ya hali yoyote uunganishwe na wa kwanza.
 
@@ -3329,7 +3329,7 @@ Katika mchoro ulio hapa chini, mistari ya rangi ya chungwa inaonyesha pointi amb
 
 ![BTC204](assets/fr/225.webp)
 
-Kwa kweli, katika muundo wa usiri wa jadi wa Bitcoin, mara nyingi ni ngumu kutenganisha kabisa mtiririko wa habari kati ya jozi muhimu na mtumiaji, haswa katika shughuli za mbali. Kwa mfano, katika muktadha wa kampeni ya mchango, ni lazima mpokeaji afichue Anwani (address) au ufunguo wa umma kupitia tovuti yake au mitandao ya kijamii. Matumizi sahihi ya BIP47, haswa na shughuli ya arifa, hurahisisha kulitatua tatizo hili kutokana na ECDHE na usimbaji fiche wa Layer tutauangalia baadaye.
+Kwa kweli, katika muundo wa usiri wa jadi wa Bitcoin, mara nyingi ni vigumu kutenganisha kabisa mtiririko wa taarifa kati ya jozi muhimu na mtumiaji, hasa katika shughuli za mbali. Kwa mfano, katika muktadha wa kampeni ya michango, mpokeaji hulazimika kufichua **address** au ufunguo wa umma kupitia tovuti yake au mitandao ya kijamii. Matumizi sahihi ya BIP47, hasa kupitia shughuli ya arifa, husaidia kutatua tatizo hili kwa kutumia ECDHE na usimbaji fiche wa tabaka (*layer encryption*) — tutauangalia baadaye.
 
 Bila shaka, mtindo wa kawaida wa usiri wa Bitcoin bado unatumika kwa funguo za muda mfupi za umma, ambazo zinatokana na mchanganyiko wa nambari mbili za malipo. Mifano hizi mbili kwa kweli ni za ziada. Ninachotaka kusisitiza hapa ni kwamba, tofauti na matumizi ya kawaida ya ufunguo wa umma kupokea Bitcoins, msimbo wa malipo unaweza kuunganishwa na utambulisho maalum, kwani taarifa "_Alice anafanya miamala na Bob_" imevunjwa katika hatua nyingine. Nambari ya malipo inatumika kwa Anwani (address) za malipo za kuzalisha, lakini kwa kuzingatia uchunguzi wa Blockchain pekee, haiwezekani kuunganisha muamala wa malipo ya BIP47 kwenye nambari za malipo zilizotumiwa kuutekeleza, isipokuwa UTXO zinazohusika tayari zilikuwa zimeunganishwa na utambulisho hapo awali na watumiaji walihusisha nambari zao za malipo na utambulisho wao husika.
 
@@ -3337,20 +3337,21 @@ Kwa muhtasari, mtindo wa usiri unaotolewa na malipo ya BIP47 unaweza kuchukuliwa
 
 ### Kuunda shughuli ya arifa
 
-Sasa hebu tuone jinsi shughuli hii ya arifa inavyofanya kazi. Hebu tufikirie kwamba Alice anataka kutuma pesa kwa Bob kwa kutumia BIP47. Katika mfano wangu, Alice anafanya kama mtumaji na Bob kama mpokeaji. Bob amechapisha nambari yake ya malipo kwenye tovuti yake. Kwa hivyo, Alice tayari anajua nambari ya malipo ya Bob.
+Sasa hebu tuone jinsi **muamala** huu wa arifa unavyofanya kazi. Hebu tufikirie kwamba Alice anataka kutuma pesa kwa Bob kwa kutumia BIP47. Katika mfano huu, Alice anafanya kama mtumaji na Bob kama mpokeaji. Bob amechapisha nambari yake ya malipo kwenye tovuti yake. Kwa hivyo, Alice tayari anajua nambari ya malipo ya Bob.
 
 **1- Alice anakokotoa siri iliyoshirikiwa na ECDH :**
 
 
-- Yeye huchagua jozi muhimu kutoka kwa Pochi la HD yake kwenye tawi tofauti na msimbo wake wa malipo. Kumbuka kwamba jozi hili lazima lihusishwe kwa urahisi na arifa ya Anwani (address) ya Alice, wala na utambulisho wa Alice (angalia sehemu iliyotangulia);
-- Alice anachagua ufunguo wa faragha wa jozi hii. Tunaiita $a$ (herufi ndogo);
+- Yeye huchagua jozi muhimu kutoka kwa **wallet** yake ya HD kwenye tawi tofauti na msimbo wake wa malipo. Kumbuka kwamba jozi hili lazima lihusishwe kwa urahisi na **address** ya arifa ya Alice, wala si na utambulisho wa Alice (angalia sehemu iliyotangulia);
+
+* Alice anachagua ufunguo wa faragha wa jozi hii. Tunaiita \$a\$ (herufi ndogo);
 
 $$
 a
 $$
 
 
-- Alice anapata ufunguo wa umma unaohusishwa na arifa ya Anwani (address) ya Bob. Ufunguo huu ni mtoto wa kwanza anayetokana na msimbo wa malipo wa Bob (faharasa $/0$). Tunauita ufunguo huu wa umma $B$ (herufi kubwa). Ufunguo wa faragha unaohusishwa na ufunguo huu wa umma unaitwa $b$ (herufi ndogo). $B$ imedhamiriwa kwa kuongeza na kuzidisha alama maradufu kwenye kona ya duaradufu kutoka $G$ (kiini cha kuzalisha) na $b$ (ufunguo wa faragha):
+- Alice anapata ufunguo wa umma unaohusishwa na arifa ya  address ya Bob. Ufunguo huu ni mtoto wa kwanza anayetokana na msimbo wa malipo wa Bob (faharasa $/0$). Tunauita ufunguo huu wa umma $B$ (herufi kubwa). Ufunguo wa faragha unaohusishwa na ufunguo huu wa umma unaitwa $b$ (herufi ndogo). $B$ imedhamiriwa kwa kuongeza na kuzidisha alama maradufu kwenye kona ya duaradufu kutoka $G$ (kiini cha kuzalisha) na $b$ (ufunguo wa faragha):
 
 $$ B = b \cdot G $$
 
@@ -3360,7 +3361,7 @@ $$ B = b \cdot G $$
 $$ S = a \cdot B $$
 
 
-- Alice hukokotoa kipengele cha kupofusha $f$ ambacho kitatumika kusimba msimbo wake wa malipo. Ili kufanya hivyo, yeye hutumia chaguo la kukokotoa la HMAC-SHA512 ili kubaini nambari ya ulaghai ya nasibu. Ingizo la pili kwa chaguo hili la kukokotoa ni thamani ambayo Bob pekee ataweza kupata: $x$, ambayo ni abscissa ya sehemu ya siri iliyohesabiwa hapo juu. Ingizo la kwanza ni $o$, ambayo ni UTXO inayotumiwa kama ingizo la muamala huu (mtazamo).
+-Alice hukokotoa kipengele cha kupofusha \$f\$ ambacho kitatumika kusimba msimbo wake wa malipo. Ili kufanya hivyo, yeye hutumia chaguo la kukokotoa la HMAC-SHA512 ili kubaini nambari ya ulaghai ya nasibu. Ingizo la pili kwa chaguo hili la kukokotoa ni thamani ambayo Bob pekee ataweza kupata: \$x\$, ambayo ni abscissa ya sehemu ya siri iliyohesabiwa hapo juu. Ingizo la kwanza ni \$o\$, ambayo ni **UTXO** inayotumiwa kama ingizo la muamala huu (mtazamo).
 
 $$ f = \maandishi{HMAC-SHA512}(o, x) $$
 
@@ -3369,7 +3370,7 @@ $$ f = \maandishi{HMAC-SHA512}(o, x) $$
 **3- Hutumia kipengele hiki cha kupofusha kama ufunguo wa kutekeleza usimbaji fiche linganifu kwenye shehena ya malipo ya msimbo wake wa malipo.** Kanuni ya usimbaji fiche unaotumika ni `XOR` tu. Operesheni iliyofanywa inalinganishwa na cipher ya Vernam, inayojulikana pia kama "Padi ya Wakati Mmoja".
 
 
-- Alice kwanza anagawanya kipengele chake cha kupofusha katika sehemu mbili: baiti 32 za kwanza zinaitwa $f1$ na ka 32 za mwisho zimeitwa $f2$. Hii inatupa:
+- Alice kwanza anagawanya kipengele chake cha kupofusha katika sehemu mbili: baiti 32 za kwanza zinaitwa \$f1\$ na 32 za mwisho zinaitwa \$f2\$. Hii inatupa:
 
 $$ f = f1 || f2 $$
 

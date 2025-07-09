@@ -1,262 +1,302 @@
 ---
-name: Bitcoin Development Philosophy
-goal: Develop deep philosophical understanding of Bitcoin's design principles.
+name: Filozofia rozwoju Bitcoin
+goal: Rozwinąć głębokie filozoficzne zrozumienie zasad projektowania Bitcoin.
 objectives: 
 
-  - Analyze Bitcoin's fundamental defing trade-offs and architectural decisions
-  - Learn how to evaluate proposed changes and inovations to the Bitcoin protocol
-  - Synthesize over a decade of Bitcoin Development history and community debates
-  - Apply critical thinking frameworks when assessing new BIPs
+  - Analiza podstawowych kompromisów i decyzji architektonicznych w Bitcoin
+  - Dowiedz się, jak oceniać proponowane zmiany i innowacje w protokole Bitcoin
+  - Synteza ponad dekady historii rozwoju Bitcoin i debat społecznościowych
+  - Stosowanie ram krytycznego myślenia podczas oceny nowych BIP
 
 
 ---
 
-# Deep dive into the Philosophy of Bitcoin Development
+# Zanurz się głęboko w filozofię rozwoju Bitcoin
 
 
 
-The Bitcoin Development Philosophy is a course for Bitcoin developers who already understand the basics of concepts and processes such as Proof-of-Work, block building, and the transaction life cycle, and who want to level up by gaining a deeper understanding of Bitcoin's design trade-offs and philosophy.
+Filozofia rozwoju Bitcoin to kurs dla programistów Bitcoin, którzy rozumieją już podstawy koncepcji i procesów, takich jak Proof-of-Work, budowanie bloków i cykl życia transakcji, i którzy chcą awansować, zdobywając głębsze zrozumienie kompromisów i filozofii projektowania Bitcoin.
 
-It should help new developers absorb the most important lessons of over a decade of Bitcoin development and public debate, while providing them with a useful context for evaluating new ideas (good ones and bad ones!).
-
-
-### What to expect?
+Powinien on pomóc nowym deweloperom w przyswojeniu najważniejszych wniosków z ponad dekady rozwoju Bitcoin i debaty publicznej, zapewniając im jednocześnie przydatny kontekst do oceny nowych pomysłów (dobrych i złych!).
 
 
-As stated above, this is a practical guide for Bitcoin developers. However, Bitcoin is a broad and complex subject and we couldn't possibly cover all of its aspects here. With this course, we hope to discuss the necessary features to get your development activity started as well as to enable you to further explore it on your own.
+### Czego się spodziewać?
 
 
-There are lots of people involved in Bitcoin; as some of them have opposing opinions, here you may find resources that express contradictory ideas. However, we always attempt to stick to the domain of facts, where opinions do not matter.
+Jak wspomniano powyżej, jest to praktyczny przewodnik dla programistów Bitcoin. Jednak Bitcoin jest szerokim i złożonym tematem i nie moglibyśmy tutaj omówić wszystkich jego aspektów. Mamy nadzieję, że w tym kursie omówimy funkcje niezbędne do rozpoczęcia działalności programistycznej, a także umożliwimy jej dalsze samodzielne odkrywanie.
 
 
-### Who wrote this?
+Jest wiele osób zaangażowanych w Bitcoin; ponieważ niektóre z nich mają przeciwstawne opinie, tutaj możesz znaleźć zasoby, które wyrażają sprzeczne pomysły. Zawsze jednak staramy się trzymać domeny faktów, gdzie opinie nie mają znaczenia.
 
 
-This course is adapted from the eponym book which main author is Kalle Rosenbaum, and Linnéa Rosenbaum contributed as a co-author.
+### Kto to napisał?
 
-The book was commissioned and funded by [Chaincode Labs](https://learning.chaincode.com/), a development center that runs educational programs for developers who want to learn about Bitcoin development.
+
+Kurs ten został zaadaptowany z książki o tym samym tytule, której głównym autorem jest Kalle Rosenbaum, a Linnéa Rosenbaum jest współautorką.
+
+Książka została zamówiona i sfinansowana przez [Chaincode Labs](https://learning.chaincode.com/), centrum rozwoju, które prowadzi programy edukacyjne dla programistów, którzy chcą dowiedzieć się więcej o rozwoju Bitcoin.
 
 
 +++
 
-# Bitcoin Central Values
+
+
+# Wprowadzenie
+
+<partId>58c48e9b-e285-4dc6-8952-6cc5140b1313</partId>
+
+
+## Przegląd kursu
+
+<chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
+
+
+Witamy w kursie PHI 301 na temat filozofii rozwoju Bitcoin.
+
+
+Bitcoin to coś więcej niż tylko kryptowaluta, to ucieleśnienie filozoficznej wizji decentralizacji, prywatności, braku zaufania i odporności. Kurs ten został zaprojektowany specjalnie dla programistów zaznajomionych już z technicznymi podstawami Bitcoin, którzy chcą teraz pogłębić swoje zrozumienie zasad leżących u podstaw projektu i zarządzania Bitcoin.
+
+
+W trakcie tego kursu zyskasz jasność co do podstawowych wartości i strategii, które kierowały ewolucją Bitcoin przez ponad dekadę. Poprzez dogłębne zbadanie tych tematów, rozwiniesz krytyczną perspektywę potrzebną do oceny i przyczynienia się do przyszłego rozwoju z pewnością siebie.
+
+
+### Główne wartości Bitcoin
+
+
+Co sprawia, że Bitcoin jest wyjątkowy? Ta sekcja ujawnia podstawowe wartości leżące u podstaw projektu Bitcoin. Poznasz **decentralizację**, kamień węgielny zapewniający, że żaden pojedynczy podmiot nie kontroluje sieci; **niezaufanie**, klucz do wyeliminowania zależności od stron trzecich; **prywatność**, niezbędną zarówno dla wolności jednostki, jak i integralności systemu; oraz **nieskończony Supply**, zakodowaną gwarancję niedoboru, która kształtuje tożsamość ekonomiczną Bitcoin. Opanowanie tych pojęć pozwoli ci w pełni zrozumieć mocne i słabe strony Bitcoin.
+
+
+### Bitcoin Zarządzanie
+
+
+Poruszanie się po złożonym krajobrazie zarządzania Bitcoin wymaga nie tylko wiedzy technicznej, ale także zrozumienia unikalnego podejścia Bitcoin do konsensusu i podejmowania decyzji. W tej sekcji poznasz mechanizmy i filozofie kryjące się za krytycznymi procesami, takimi jak aktualizacje protokołów, konieczność przeciwstawnego myślenia, siłę współpracy open source, ciągłe wyzwania związane ze skalowaniem oraz zniuansowane strategie wymagane, gdy sprawy nieuchronnie idą źle. Wyposażony w tę wiedzę, będziesz przygotowany nie tylko do uczestnictwa, ale także do skutecznego i odpowiedzialnego kształtowania przyszłości Bitcoin.
+
+
+Gotowy na kolejny krok w swojej podróży Bitcoin? Zaczynajmy!
+
+
+***UWAGA: Jeśli podczas kursu napotkasz nieznane terminy związane z Bitcoin, zapoznaj się z [glosariuszem] (https://planb.network/resources/glossary), aby znaleźć definicje*
+
+
+
+
+# Wartości centralne Bitcoin
 
 <partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
 
 
-
-## Decentralization
+## Decentralizacja
 
 <chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
 
 
 
 
-This analyzes what decentralization is and why it's essential for Bitcoin to function. We distinguish between the
+Analizujemy, czym jest decentralizacja i dlaczego jest ona niezbędna do funkcjonowania Bitcoin. Rozróżniamy między
 
-decentralization of miners and that of full nodes, and discuss what they bring to the table for censorship resistance, one of Bitcoin's most central properties.
-
-
-The discussion then shifts to understanding neutrality - or permissionlessness towards users, miners, and developers - which is a necessary property of any decentralized system. Lastly, we touch upon how Hard it can be to grasp a decentralized system like Bitcoin, and present some mental models that might help you grok it.
+decentralizacji górników i pełnych węzłów oraz omówić, co wnoszą one do odporności na cenzurę, jednej z najważniejszych właściwości Bitcoin.
 
 
-A system without any central point of control is referred to as being *decentralized*. Bitcoin is designed to avoid having a central point of control, or more precisely a *central point of censorship*.
+Następnie dyskusja przenosi się na zrozumienie neutralności - lub braku uprawnień wobec użytkowników, górników i deweloperów - która jest niezbędną właściwością każdego zdecentralizowanego systemu. Na koniec poruszamy kwestię tego, jak Hard może być w stanie zrozumieć zdecentralizowany system, taki jak Bitcoin, i przedstawiamy kilka modeli mentalnych, które mogą pomóc w jego zrozumieniu.
 
 
-Decentralization is a means to achieve *censorship resistance*.
+System bez centralnego punktu kontroli jest określany jako *zdecentralizowany*. Bitcoin ma na celu uniknięcie centralnego punktu kontroli, a dokładniej *centralnego punktu cenzury*.
 
 
-There are two major aspects of decentralization in Bitcoin: Miner decentralization and Full node decentralization.
+Decentralizacja jest środkiem do osiągnięcia *odporności na cenzurę*.
 
 
-Miner decentralization refers to the fact that transaction processing isn't performed nor coordinated by any central entity. Full node decentralization refers to the fact that validation of the blocks, i.e. the data that miners output, gets done at the edge of the network, ultimately by its users, and not by a few trusted authorities.
+Istnieją dwa główne aspekty decentralizacji w Bitcoin: Decentralizacja Miner i decentralizacja Full node.
+
+
+Decentralizacja Miner odnosi się do faktu, że przetwarzanie transakcji nie jest wykonywane ani koordynowane przez żaden centralny podmiot. Decentralizacja Full node odnosi się do faktu, że walidacja bloków, tj. danych wydobywanych przez górników, odbywa się na brzegu sieci, ostatecznie przez jej użytkowników, a nie przez kilka zaufanych organów.
 
 
 ![](assets/decentralization-banner.webp)
 
 
-### Miner decentralization
+### Decentralizacja Miner
 
 
 
-There had been attempts at creating digital currencies before Bitcoin, but most of them failed due to a lack of governance decentralization and censorship resistance.
+Przed Bitcoin podejmowano próby stworzenia walut cyfrowych, ale większość z nich zakończyła się niepowodzeniem z powodu braku decentralizacji zarządzania i oporu przed cenzurą.
 
 
-Miner decentralization in Bitcoin means that the *ordering of transactions* isn't carried out by any single entity or fixed set of entities. It's carried out collectively by all the actors who want to participate in it; this miners`' collective is a dynamic set of users. Anyone can join or leave as they wish. This property makes Bitcoin censorship-resistant.
+Decentralizacja Miner w Bitcoin oznacza, że *zamawianie transakcji* nie jest przeprowadzane przez żaden pojedynczy podmiot lub ustalony zestaw podmiotów. Jest ono przeprowadzane zbiorowo przez wszystkie podmioty, które chcą w nim uczestniczyć; ten kolektyw górników jest dynamicznym zbiorem użytkowników. Każdy może do niego dołączyć lub go opuścić. Ta właściwość sprawia, że Bitcoin jest odporny na cenzurę.
 
 
-If Bitcoin were centralized, it would be vulnerable to those who wished to censor it, such as governments. It would meet the same fate as earlier attempts to create digital money. In the introduction of [a paper](https://www.blockstream.com/sidechains.pdf) titled "Enabling Blockchain Innovations with Pegged Sidechains", the authors explain how early versions of digital money weren't equipped for an adversarial environment (see also the chapter on Adversarial Thinking in the next part).
+Gdyby Bitcoin był scentralizowany, byłby podatny na tych, którzy chcieliby go cenzurować, takich jak rządy. Spotkałby go ten sam los, co wcześniejsze próby stworzenia cyfrowego pieniądza. We wstępie do [artykułu](https://www.blockstream.com/sidechains.pdf) zatytułowanego "Enabling Blockchain Innovations with Pegged Sidechains", autorzy wyjaśniają, w jaki sposób wczesne wersje cyfrowego pieniądza nie były przystosowane do przeciwstawnego środowiska (patrz także rozdział "Adversarial Thinking" w następnej części).
 
 
-David Chaum introduced digital cash as a research topic in 1983, in a setting with a central server that is trusted to prevent Double-spending. To mitigate the privacy risk to individuals from this central trusted party, and to enforce fungibility, Chaum introduced the blind signature, which he used to provide a cryptographic means to prevent linking of the central server’s signatures (which represent coins), while still allowing the central server to perform double-spend prevention.
+David Chaum wprowadził cyfrową gotówkę jako temat badań w 1983 roku, w środowisku z centralnym serwerem, który jest zaufany, aby zapobiec Double-spending. Aby zmniejszyć ryzyko prywatności dla osób fizycznych ze strony tej centralnej zaufanej strony i wymusić zamienność, Chaum wprowadził ślepy podpis, który wykorzystał do zapewnienia kryptograficznych środków zapobiegających łączeniu podpisów centralnego serwera (które reprezentują monety), jednocześnie umożliwiając centralnemu serwerowi zapobieganie podwójnym wydatkom.
 
-The requirement for a central server became the Achilles’ heel of digital cash[Gri99]. While it is possible to distribute this single point of failure by replacing the central server’s signature with a threshold signature of several signers, it is important for auditability that the signers be distinct and identifiable. This still leaves the system vulnerable to failure, since each signer can fail, or be made to fail, one by one.
+Wymóg centralnego serwera stał się piętą achillesową cyfrowej gotówki[Gri99]. Chociaż możliwe jest rozproszenie tego pojedynczego punktu awarii poprzez zastąpienie podpisu centralnego serwera podpisem progowym kilku sygnatariuszy, dla możliwości audytu ważne jest, aby sygnatariusze byli odrębni i identyfikowalni. To nadal pozostawia system podatny na awarie, ponieważ każdy podpisujący może zawieść lub zostać zmuszony do awarii, jeden po drugim.
 
 
-It became clear that using a central server to order transactions was not a viable option due to the high risk of censorship. Even if one replaced the central server with a federation of a fixed set of n servers, of which at least m must approve of an ordering, there would still be difficulties. The problem would indeed shift to one where users must agree on this set of n servers as well as on how to replace malicious servers with good ones without relying on a central authority.
+Stało się jasne, że korzystanie z centralnego serwera do zamawiania transakcji nie jest realną opcją ze względu na wysokie ryzyko cenzury. Nawet gdyby zastąpić centralny serwer federacją ustalonego zestawu n serwerów, z których co najmniej m musi zatwierdzić zamówienie, nadal istniałyby trudności. Problem rzeczywiście zmieniłby się na taki, w którym użytkownicy musieliby zgodzić się na ten zestaw n serwerów, a także na to, jak zastąpić złośliwe serwery dobrymi bez polegania na centralnym organie.
 
 
-Let's contemplate what could happen if Bitcoin were censorable. The censor could pressure users to identify themselves, to declare where their money is coming from or what they're buying with it before allowing their transactions to enter the Blockchain.
+Zastanówmy się, co mogłoby się stać, gdyby Bitcoin można było cenzurować. Cenzor mógłby naciskać na użytkowników, aby identyfikowali się, deklarowali, skąd pochodzą ich pieniądze lub co za nie kupują, zanim pozwolą swoim transakcjom wejść do Blockchain.
 
 
-Also, the lack of censorship resistance would allow the censor to coerce users into adopting new system rules. For example, they could impose a change that allowed them to inflate the money Supply, thereby enriching themselves. In such an event, a user verifying blocks would have three options to handle the new rules:
+Ponadto brak oporu cenzury pozwoliłby cenzorowi zmusić użytkowników do przyjęcia nowych zasad systemu. Na przykład, mogliby narzucić zmianę, która pozwoliłaby im zawyżyć pieniądze Supply, wzbogacając się w ten sposób. W takim przypadku użytkownik weryfikujący bloki miałby trzy opcje radzenia sobie z nowymi zasadami:
 
 
 
-- Adopt: Accept the changes and adopt them into their Full node.
-- Reject: Refuse to adopt the changes; this leaves the user with a system that doesn't process transactions anymore, as the censor's blocks are now deemed invalid by the user's Full node.
-- Move: Appoint a new central point of control; all of the users must figure out how to coordinate and then agree on the new central control point.
+- Przyjęcie: Zaakceptuj zmiany i wprowadź je do Full node.
+- Odrzuć: Odmowa przyjęcia zmian; pozostawia to użytkownika z systemem, który nie przetwarza już transakcji, ponieważ bloki cenzora są teraz uznawane za nieważne przez Full node użytkownika.
+- Przeniesienie: Wyznaczenie nowego centralnego punktu kontroli; wszyscy użytkownicy muszą dowiedzieć się, jak koordynować, a następnie uzgodnić nowy centralny punkt kontroli.
 
 
-If they succeed, the same issues will most likely resurface at some point in the future, considering that the system remained just as censorable as it was before.
+Jeśli im się uda, te same problemy najprawdopodobniej powrócą w przyszłości, biorąc pod uwagę, że system pozostał tak samo cenzurowany jak wcześniej.
 
 
-None of these options are beneficial to the user.
+Żadna z tych opcji nie jest korzystna dla użytkownika.
 
 
-Censorship resistance through decentralization is what separates Bitcoin from other money systems, but it is not an easy thing to accomplish due to the *Double-spending problem*. This is the problem of making sure no one can spend the same coin twice, an issue that many people thought was impossible to solve in a decentralized fashion. Satoshi Nakamoto write in his [Bitcoin whitepaper](https://planb.network/Bitcoin.pdf) about how to solve the Double-spending problem:
+Odporność na cenzurę poprzez decentralizację jest tym, co odróżnia Bitcoin od innych systemów pieniężnych, ale nie jest to łatwe do osiągnięcia ze względu na *problem Double-spending*. Jest to problem polegający na upewnieniu się, że nikt nie może wydać tej samej monety dwa razy, co wiele osób uważało za niemożliwe do rozwiązania w sposób zdecentralizowany. Satoshi Nakamoto pisze w swoim [Bitcoin whitepaper](https://planb.network/Bitcoin.pdf) o tym, jak rozwiązać problem Double-spending:
 
 
-> In this paper, we propose a solution to the Double-spending problem using a peer-to-peer distributed Timestamp server to generate computational proof of the chronological order of transactions.
+> W niniejszym artykule proponujemy rozwiązanie problemu Double-spending przy użyciu rozproszonego serwera Timestamp typu peer-to-peer do generate obliczeniowego dowodu chronologicznej kolejności transakcji.
 
 
-Here he uses the peculiar-sounding phrase "peer-to-peer distributed Timestamp server". The keyword here is *distributed*, which in this context means that there is no central point of control. Nakamoto then goes on to explain how Proof-of-Work is the solution.
+Używa on tutaj osobliwie brzmiącego wyrażenia "rozproszony serwer Timestamp peer-to-peer". Słowem kluczowym jest tutaj *rozproszony*, co w tym kontekście oznacza, że nie ma centralnego punktu kontroli. Następnie Nakamoto wyjaśnia, w jaki sposób Proof-of-Work jest rozwiązaniem.
 
-Still, no one explains it better than
+Nikt jednak nie wyjaśnił tego lepiej niż
 
-[Gregory Maxwell on Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), where he responds to someone who proposes to limit miners Hash power to avoid potential 51% attacks:
+[Gregory Maxwell na Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), gdzie odpowiada komuś, kto proponuje ograniczenie mocy Hash górników, aby uniknąć potencjalnych ataków 51%:
 
 
-> A decentralized system like Bitcoin uses a public election. But you can't just have a vote of 'people' in a decentralized system because that would require a centralized party to authorize people to vote. Instead, Bitcoin uses a vote of computing power because it's possible to verify computing power without the help of any centralized
-third party.
+> Zdecentralizowany system, taki jak Bitcoin, wykorzystuje wybory publiczne. Ale w zdecentralizowanym systemie nie można po prostu głosować na "ludzi", ponieważ wymagałoby to scentralizowanej strony upoważniającej ludzi do głosowania. Zamiast tego Bitcoin wykorzystuje głosowanie mocą obliczeniową, ponieważ możliwe jest zweryfikowanie mocy obliczeniowej bez pomocy jakiejkolwiek scentralizowanej instytucji
+strona trzecia.
 
 
-The post explains how the decentralized Bitcoin network can come to an agreement on transaction ordering through the use of Proof-of-Work.
+W poście wyjaśniono, w jaki sposób zdecentralizowana sieć Bitcoin może dojść do porozumienia w sprawie zamawiania transakcji za pomocą Proof-of-Work.
 
 
-He then concludes by saying that the 51% attack is not particularly worrisome, compared to people not caring about or not understanding Bitcoin's decentralization properties:
+Następnie podsumowuje, mówiąc, że atak 51% nie jest szczególnie niepokojący w porównaniu z ludźmi, którzy nie dbają lub nie rozumieją właściwości decentralizacji Bitcoin:
 
 
-> A far bigger risk to Bitcoin is that the public using it won't understand, won't care, and won't protect the decentralization properties that make it valuable over centralized alternatives in the first place.
+> Znacznie większym ryzykiem dla Bitcoin jest to, że społeczeństwo korzystające z niego nie zrozumie, nie będzie dbać i nie będzie chronić właściwości decentralizacji, które sprawiają, że jest on cenniejszy niż scentralizowane alternatywy.
 
-The conclusion is an important one. If people don't protect Bitcoin's decentralization, which is a proxy for its censorship resistance, Bitcoin might fall victim to centralizing powers, until it's so centralized that censorship becomes a thing. Then most, if not all, of its value proposition is gone. This brings us to the next section on Full node decentralization.
+Wniosek jest ważny. Jeśli ludzie nie będą chronić decentralizacji Bitcoin, która jest proxy dla jego odporności na cenzurę, Bitcoin może paść ofiarą scentralizowanych mocy, aż stanie się tak scentralizowany, że cenzura stanie się rzeczą. Wtedy większość, jeśli nie całość, jego propozycji wartości zniknie. To prowadzi nas do następnej sekcji dotyczącej decentralizacji Full node.
 
 
-### Full node decentralization
+### Decentralizacja Full node
 
 
 
-In the paragraphs above, we've mostly talked about Miner decentralization and how centralizating miners can allow for censorship. But there's also another aspect of decentralization, namely *Full node decentralization*.
+W powyższych akapitach rozmawialiśmy głównie o decentralizacji Miner i o tym, jak centralizacja górników może pozwolić na cenzurę. Ale jest też inny aspekt decentralizacji, a mianowicie *decentralizacja Full node*.
 
 
-The importance of Full node decentralization is related to trustlessness. Suppose a user stops running their own Full node due to, for example, a prohibitive increase in the cost of operation. In that case, they have to interact with the Bitcoin network in some other way, possibly by using web wallets or lightweight wallets, which requires a certain level of trust in the providers of these services.
+Znaczenie decentralizacji Full node jest związane z brakiem zaufania. Załóżmy, że użytkownik przestaje uruchamiać własny Full node z powodu, na przykład, zaporowego wzrostu kosztów eksploatacji. W takim przypadku musi on wejść w interakcję z siecią Bitcoin w inny sposób, być może za pomocą portfeli internetowych lub lekkich portfeli, co wymaga pewnego poziomu zaufania do dostawców tych usług.
 
 
-The user goes from directly enforcing the network consensus rules to trusting that someone else will. Now suppose that most users delegate consensus enforcement to a trusted entity. In that case, the network can quickly spiral into centralization, and the network rules can be changed by conspiring malicious actors.
+Użytkownik przechodzi od bezpośredniego egzekwowania zasad konsensusu sieciowego do zaufania, że zrobi to ktoś inny. Załóżmy teraz, że większość użytkowników deleguje egzekwowanie konsensusu do zaufanego podmiotu. W takim przypadku sieć może szybko popaść w centralizację, a zasady sieci mogą zostać zmienione przez spiskujących złośliwych aktorów.
 
 
-In [a
+W [a
 
-Bitcoin Magazine article](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interviews Bitcoin developers about their views on decentralization and the risks involved in increasing Bitcoin's maximum block size. This discussion was a Hot topic during the 2014-2017 era, when many people argued over increasing the block size limit to allow for more transaction throughput.
+Artykuł w Bitcoin Magazine](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum przeprowadza wywiad z deweloperami Bitcoin na temat ich poglądów na temat decentralizacji i ryzyka związanego ze zwiększeniem maksymalnego rozmiaru bloku Bitcoin. Dyskusja ta była tematem Hot w latach 2014-2017, kiedy wiele osób spierało się o zwiększenie limitu wielkości bloku, aby umożliwić większą przepustowość transakcji.
 
 
-A powerful argument against increasing the block size is that it increases the cost of verification If verification cost rises, it will push some users to stop running their full nodes. This, in turn, will lead to more people not being able to use the system in a Trustless way.
+Potężnym argumentem przeciwko zwiększaniu rozmiaru bloku jest to, że zwiększa to koszt weryfikacji Jeśli koszt weryfikacji wzrośnie, zmusi to niektórych użytkowników do zaprzestania uruchamiania pełnych węzłów. To z kolei doprowadzi do tego, że więcej osób nie będzie w stanie korzystać z systemu w sposób Trustless.
 
 
-Pieter Wuille is quoted in the article, where he explains the risks of Full node centralization:
+Pieter Wuille jest cytowany w artykule, w którym wyjaśnia ryzyko centralizacji Full node:
 
 
-> If lots companies run a Full node, it means they all need to be convinced to implement a different rule set. In other words: the decentralization of block validation is what gives consensus rules their weight.
-> But if Full node count would drop very low, for instance because everyone uses the same web-wallets, exchanges and SPV or mobile wallets, regulation could become a reality. And if authorities can regulate the consensus rules, it means they can change anything that makes Bitcoin Bitcoin. Even the 21 million Bitcoin limit.
+> Jeśli wiele firm korzysta z Full node, oznacza to, że wszystkie muszą zostać przekonane do wdrożenia innego zestawu reguł. Innymi słowy: decentralizacja walidacji bloków jest tym, co nadaje regułom konsensusu ich wagę.
+> Ale jeśli liczba Full node spadnie bardzo nisko, na przykład dlatego, że wszyscy używają tych samych portfeli internetowych, giełd i SPV lub portfeli mobilnych, regulacja może stać się rzeczywistością. A jeśli władze mogą regulować zasady konsensusu, oznacza to, że mogą zmienić wszystko, co czyni Bitcoin Bitcoin. Nawet limit 21 milionów Bitcoin.
 
-There you go. Bitcoin users should run their own full nodes to deter regulators and big corporations from trying to change the consensus rules.
+Proszę bardzo. Użytkownicy Bitcoin powinni uruchomić własne pełne węzły, aby powstrzymać organy regulacyjne i duże korporacje przed próbami zmiany zasad konsensusu.
 
 
-### Neutrality
+### Neutralność
 
 
 
-Bitcoin is neutral, or permissionless, as people like to call it. This means that Bitcoin doesn't care who you are or what you use it for.
+Bitcoin jest neutralny, lub bez pozwolenia, jak ludzie lubią go nazywać. Oznacza to, że Bitcoin nie dba o to, kim jesteś i do czego go używasz.
 
 
-Bitcoin is neutral, which is a good thing, and the only way it can work. If it was controlled by an organisation it'd just be another virtual object type and I would have zero interest in it
+Bitcoin jest neutralny, co jest dobrą rzeczą i jedynym sposobem, w jaki może działać. Gdyby był kontrolowany przez organizację, byłby po prostu kolejnym typem wirtualnego obiektu i nie byłbym nim zainteresowany
 
 
-As long as you play by the rules, you're free to use it as you please, without asking anyone for permission. This includes *Mining*, *transacting* in, and *building protocols and services* on top of Bitcoin:
+Tak długo, jak grasz zgodnie z zasadami, możesz go używać, jak chcesz, bez pytania nikogo o pozwolenie. Obejmuje to *Mining*, *transakcje* i *budowanie protokołów i usług* na Bitcoin:
 
 
 
-- If *Mining* were a permissioned process, we would need a central authority to select who's allowed to mine. This would most likely lead to miners having to sign legal contracts in which they would agree
+- Gdyby *Mining* był procesem wymagającym zezwolenia, potrzebowalibyśmy centralnego organu, który wybierałby, kto może wydobywać. Najprawdopodobniej doprowadziłoby to do tego, że górnicy musieliby podpisywać umowy prawne, w których zgadzaliby się na
 
-to censor transactions according to the whims of the central authority, which defeats the purpose of Mining in the first place.
+do cenzurowania transakcji zgodnie z kaprysami władz centralnych, co przede wszystkim zaprzecza celowi Mining.
 
 
 
-- If people *transacting* in Bitcoin had to provide personal information, declare what their transactions were for, or otherwise prove that they were worthy of transacting, we would also need a central point of authority to approve users or transactions. Again, this would lead to censorship and exclusion.
+- Gdyby osoby *transakcjonujące* w Bitcoin musiały podać dane osobowe, zadeklarować cel swoich transakcji lub w inny sposób udowodnić, że są godne dokonywania transakcji, potrzebowalibyśmy również centralnego punktu władzy do zatwierdzania użytkowników lub transakcji. Ponownie, doprowadziłoby to do cenzury i wykluczenia.
 
 
 
-- If developers had to ask for permission to *build protocols* on top of Bitcoin, only the protocols allowed by the central developer granting committee would get developed. This would, due to government intervention inevitably exclude all privacy-preserving protocols and all attempts at improving decentralization.
+- Gdyby deweloperzy musieli prosić o pozwolenie na *budowanie protokołów* na bazie Bitcoin, rozwijane byłyby tylko protokoły dozwolone przez centralny komitet przyznający uprawnienia deweloperom. To, ze względu na interwencję rządu, nieuchronnie wykluczyłoby wszystkie protokoły chroniące prywatność i wszelkie próby poprawy decentralizacji.
 
 
-At all levels, trying to impose restrictions on who gets to use Bitcoin for what will hurt Bitcoin to the point where it's no longer living up to its value proposition.
+Na wszystkich poziomach próba nałożenia ograniczeń na to, kto może używać Bitcoin do czego, zaszkodzi Bitcoin do tego stopnia, że przestanie on spełniać swoją propozycję wartości.
 
 
-Pieter Wuille https://Bitcoin.stackexchange.com/a/92055/69518[answers a question on Stack Exchange] about how the Blockchain relates to normal databases. He explains how permissionlessness is achievable through the use of Proof-of-Work in combination with economic incentives.
+Pieter Wuille https://Bitcoin.stackexchange.com/a/92055/69518[odpowiada na pytanie dotyczące stosu Exchange] o tym, jak Blockchain odnosi się do zwykłych baz danych. Wyjaśnia, w jaki sposób można osiągnąć brak uprawnień poprzez wykorzystanie Proof-of-Work w połączeniu z zachętami ekonomicznymi.
 
 
-He concludes:
+Podsumowuje:
 
 
-> Using Trustless consensus algorithms like PoW does add something no other construction gives you (permissionless participation, meaning there is no set group of participants that can censor your changes), Using Trustless consensus algorithms like PoW does add something no but comes at a high cost, and its economic assumptions make it pretty much only useful for systems that define their own cryptocurrency.
-> There is probably only place in the world for one or a few actually used ones of these.
+> Korzystanie z algorytmów konsensusu Trustless, takich jak PoW, dodaje coś, czego nie daje żadna inna konstrukcja (uczestnictwo bez pozwolenia, co oznacza, że nie ma określonej grupy uczestników, którzy mogą cenzurować twoje zmiany), Korzystanie z algorytmów konsensusu Trustless, takich jak PoW, dodaje coś nie, ale wiąże się z wysokimi kosztami, a jego założenia ekonomiczne sprawiają, że jest on praktycznie użyteczny tylko dla systemów, które definiują własną kryptowalutę.
+> Prawdopodobnie jest tylko jedno miejsce na świecie dla jednego lub kilku faktycznie używanych egzemplarzy.
 
-He explains that, in order to achieve permissionlessness, the system most likely needs its own currency, thereby "limiting the use cases to effectively just cryptocurrencies". This is because permissionless participation, or Mining, requires economic incentives built into the system itself.
+Wyjaśnia on, że aby osiągnąć brak uprawnień, system najprawdopodobniej potrzebuje własnej waluty, tym samym "ograniczając przypadki użycia do efektywnie tylko kryptowalut". Wynika to z faktu, że uczestnictwo bez zezwoleń lub Mining wymaga zachęt ekonomicznych wbudowanych w sam system.
 
 
-### Grokking decentralization
+### Rozwijanie decentralizacji
 
 
 
-A compelling aspect of Bitcoin is how Hard it is to grasp that no one controls it. There are no committees or executives in Bitcoin. Gregory Maxwell, again [on the Bitcoin subreddit](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), compares this to the English language in an intriguing way:
+Istotnym aspektem Bitcoin jest to, że nikt go nie kontroluje. W Bitcoin nie ma komitetów ani kierownictwa. Gregory Maxwell, ponownie [na subreddicie Bitcoin] (https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), porównuje to do języka angielskiego w intrygujący sposób:
 
 
-> Many people have a Hard time understanding autonomous systems, there are many in their lives things like the english language-- but people just take them for granted and don't even think of them as systems. They're stuck in a centralized way of thinking where everything they think of as a 'thing' has an authority that controls it.
+> Wielu ludzi ma Hard czas na zrozumienie autonomicznych systemów, w ich życiu jest wiele rzeczy, takich jak język angielski - ale ludzie po prostu biorą je za pewnik i nawet nie myślą o nich jako o systemach. Tkwią w scentralizowanym sposobie myślenia, w którym wszystko, co uważają za "rzecz", ma władzę, która to kontroluje.
 >
 
-> Bitcoin doesn't focus on anything. Various people who have adopted Bitcoin chose of their own free will to promote it, and how they choose to do so is their own business. Authority fixated people may see these activities and believe they're some operation by the Bitcoin authority, but no such authority exists.
+> Bitcoin nie skupia się na niczym. Różne osoby, które przyjęły Bitcoin, z własnej woli zdecydowały się go promować, a sposób, w jaki to robią, to ich własna sprawa. Ludzie zafiksowani na punkcie władzy mogą widzieć te działania i wierzyć, że są one jakąś operacją władz Bitcoin, ale taka władza nie istnieje.
 
 
-The way Bitcoin works through decentralization resembles the extraordinary collective intelligence found among many species in nature. Computer scientist Radhika Nagpal speaks in a [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) about the collective behavior of fish schools and how scientists are trying to mimic it using robots.
+Sposób, w jaki Bitcoin działa poprzez decentralizację, przypomina niezwykłą zbiorową inteligencję występującą wśród wielu gatunków w przyrodzie. Informatyk Radhika Nagpal mówi w [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) o zbiorowym zachowaniu ławic ryb i o tym, jak naukowcy próbują je naśladować za pomocą robotów.
 
 
-> Secondly, and the thing that I still find most remarkable, is that we know that there are no leaders supervising this fish school. Instead, this incredible collective mind behavior is emerging purely from the interactions of one fish and another.
-> Somehow, there are these interactions or rules of engagement between neighboring fish that make it all work out.
+> Po drugie, co nadal uważam za najbardziej niezwykłe, wiemy, że nie ma liderów nadzorujących tę ławicę ryb. Zamiast tego, to niesamowite zachowanie zbiorowego umysłu wyłania się wyłącznie z interakcji jednej ryby z drugą.
+> W jakiś sposób istnieją interakcje lub zasady zaangażowania między sąsiadującymi rybami, które sprawiają, że wszystko się udaje.
 
-She points out that many systems, either natural or artificial, can and do work without leaders, and they are powerful and resilient. Each individual only interacts with their immediate surroundings, but together they form something tremendous.
+Zwraca uwagę, że wiele systemów, zarówno naturalnych, jak i sztucznych, może działać i działa bez liderów, i są one potężne i odporne. Każda jednostka wchodzi w interakcję tylko ze swoim bezpośrednim otoczeniem, ale razem tworzą coś ogromnego.
 
 
 ![](assets/fishschool.webp)
 
-*Fish schools have no leaders*
+*Ławice ryb nie mają liderów*
 
 
-No matter what you think about Bitcoin, its decentralized nature makes it difficult to control. Bitcoin exists, and there's nothing you can do about it. It's something to be studied, not debated.
+Bez względu na to, co myślisz o Bitcoin, jego zdecentralizowana natura sprawia, że trudno go kontrolować. Bitcoin istnieje i nic nie można na to poradzić. Jest to coś, co należy badać, a nie dyskutować.
 
 
-### Conclusion about Decentralization
+### Wnioski dotyczące decentralizacji
 
 
-We distinguish between Full node decentralization and Mining decentralization. Mining decentralization is a means to achieve censonship resistance, while Full node decentralization is what keeps the consensus rules of the network Hard to change without broad support among users.
+Rozróżniamy decentralizację Full node i decentralizację Mining. Decentralizacja Mining jest środkiem do osiągnięcia odporności na cenzurę, podczas gdy decentralizacja Full node jest tym, co utrzymuje zasady konsensusu sieci Hard do zmiany bez szerokiego poparcia wśród użytkowników.
 
 
-The decentralized nature of Bitcoin allows for neutrality towards developers, users, and miners. Anyone is free to participate without asking for permission.
+Zdecentralizowany charakter Bitcoin pozwala na neutralność wobec deweloperów, użytkowników i górników. Każdy może w nim uczestniczyć bez pytania o pozwolenie.
 
 
-Decentralized systems can be Hard to wrap your head around, but there are some mental models that may help, for example the English language, or fish schools.
+Zdecentralizowane systemy mogą być Hard, ale istnieją pewne modele mentalne, które mogą pomóc, na przykład język angielski lub ławice ryb.
 
 
-## Trustlessness
+## Nieufność
 
 <chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
 
@@ -265,149 +305,149 @@ Decentralized systems can be Hard to wrap your head around, but there are some m
 ![](assets/trustlessness-banner.webp)
 
 
-This chapter dissects the concept of trustlessness, what it means from a computer science perspective, and why Bitcoin has to be Trustless to retain its value proposition.
+W tym rozdziale przeanalizowano koncepcję braku zaufania, co to oznacza z punktu widzenia informatyki i dlaczego Bitcoin musi być Trustless, aby zachować swoją propozycję wartości.
 
-We then talk about what it means to use Bitcoin in a Trustless way, and what kind of guarantees a Full node can and cannot give you.
+Następnie porozmawiamy o tym, co to znaczy używać Bitcoin w sposób Trustless i jakie gwarancje może dać Full node, a jakich nie.
 
-In the last section, we look at the real-world interaction between Bitcoin and actual softwares or users, and the need to make trade-offs between convenience and trustlessness to get anything done at all.
-
-
-People often say things like "Bitcoin is great because it's Trustless".
+W ostatniej sekcji przyjrzymy się rzeczywistej interakcji między Bitcoin a rzeczywistym oprogramowaniem lub użytkownikami oraz potrzebie kompromisów między wygodą a brakiem zaufania, aby w ogóle cokolwiek zrobić.
 
 
-What do they mean by Trustless? Pieter Wuille explains this widely used term on [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518):
+Ludzie często mówią takie rzeczy jak "Bitcoin jest świetny, ponieważ jest Trustless".
 
 
-> The trust we're talking about in "Trustless" is an abstract technical term. A distributed system is called Trustless when it does not require any trusted parties to function correctly.
-
-In short, the word *Trustless* refers to a property of the Bitcoin protocol whereby it can logically function without "any trusted parties". This is different from the trust you inevitably have to put into the software or hardware you run. More on this latter aspect of trust will be discussed further in this chapter.
+Co oznaczają słowa Trustless? Pieter Wuille wyjaśnia ten powszechnie używany termin na stronie [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518):
 
 
-In centralized systems, we rely on a central actor's reputation in order to make sure that they will take care of security or roll back in case of issues, as well as on the legal system to sanction any violations. These trust requirements are problematic in pseudonymous decentralized systems - there is no possibility of recourse so there really can't be any trust. In the introduction to [the Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto describes this problem:
+> Zaufanie, o którym mówimy w "Trustless", jest abstrakcyjnym terminem technicznym. System rozproszony jest nazywany Trustless, gdy nie wymaga żadnych zaufanych stron do prawidłowego działania.
+
+Krótko mówiąc, słowo *Trustless* odnosi się do właściwości protokołu Bitcoin, dzięki której może on logicznie funkcjonować bez "żadnych zaufanych stron". Różni się to od zaufania, które nieuchronnie trzeba pokładać w uruchamianym oprogramowaniu lub sprzęcie. Więcej na temat tego drugiego aspektu zaufania zostanie omówione w dalszej części tego rozdziału.
 
 
-> Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments.
-> While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model.  Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for nonreversible services.
-> With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need.  A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party
-
-It seems that we can't have a decentralized system based on trust, and that's why trustlessness is important in Bitcoin.
+W scentralizowanych systemach polegamy na reputacji centralnego aktora, aby upewnić się, że zadba on o bezpieczeństwo lub wycofa się w przypadku problemów, a także na systemie prawnym, który sankcjonuje wszelkie naruszenia. Te wymagania dotyczące zaufania są problematyczne w pseudonimowych systemach zdecentralizowanych - nie ma możliwości odwołania się, więc tak naprawdę nie może być żadnego zaufania. We wstępie do [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto opisuje ten problem:
 
 
-To use Bitcoin in a Trustless manner, you have to run a fully-validating Bitcoin node. Only then will you be able to verify that the blocks you receive from others are following the consensus rules; for example, that the coin issuance schedule is kept and that no double-spends occur on the Blockchain. If you don't run a Full node, you outsource verification of Bitcoin blocks to someone else and trust them to tell you the truth, which means you're not using Bitcoin trustlessly.
+> Handel w Internecie opiera się niemal wyłącznie na instytucjach finansowych służących jako zaufane strony trzecie do przetwarzania płatności elektronicznych.
+> Chociaż system działa wystarczająco dobrze w przypadku większości transakcji, nadal cierpi z powodu nieodłącznych słabości modelu opartego na zaufaniu.  Całkowicie nieodwracalne transakcje nie są tak naprawdę możliwe, ponieważ instytucje finansowe nie mogą uniknąć mediacji w sporach. Koszt mediacji zwiększa koszty transakcji, ograniczając minimalny praktyczny rozmiar transakcji i odcinając możliwość dokonywania niewielkich transakcji dorywczych, a także wiąże się z szerszym kosztem utraty możliwości dokonywania nieodwracalnych płatności za nieodwracalne usługi.
+> Wraz z możliwością odwrócenia, rośnie potrzeba zaufania. Sprzedawcy muszą uważać na swoich klientów, żądając od nich więcej informacji, niż by potrzebowali.  Pewien odsetek oszustw jest akceptowany jako nieunikniony. Tych kosztów i niepewności związanych z płatnościami można uniknąć osobiście, korzystając z fizycznej waluty, ale nie istnieje żaden mechanizm umożliwiający dokonywanie płatności za pośrednictwem kanału komunikacyjnego bez zaufanej strony
+
+Wydaje się, że nie możemy mieć zdecentralizowanego systemu opartego na zaufaniu i dlatego brak zaufania jest ważny w Bitcoin.
 
 
-David Harding has authored [an article on the Bitcoin.org website](https://Bitcoin.org/en/Bitcoin-core/features/validation) explaining how running a Full node - or using Bitcoin trustlessly - actually helps you:
+Aby korzystać z Bitcoin w sposób Trustless, należy uruchomić w pełni walidujący węzeł Bitcoin. Tylko wtedy będziesz w stanie zweryfikować, czy bloki, które otrzymujesz od innych, są zgodne z zasadami konsensusu; na przykład, czy harmonogram emisji monet jest przestrzegany i czy nie występują podwójne wydatki na Blockchain. Jeśli nie uruchamiasz Full node, zlecasz weryfikację bloków Bitcoin komuś innemu i ufasz, że powie ci prawdę, co oznacza, że nie korzystasz z Bitcoin bez zaufania.
 
 
-> The Bitcoin currency only works when people accept bitcoins in Exchange for other valuable things. That means it’s the people accepting bitcoins who give it value and who get to decide how Bitcoin should work.
+David Harding jest autorem [artykułu na stronie Bitcoin.org] (https://Bitcoin.org/en/Bitcoin-core/features/validation) wyjaśniającego, w jaki sposób prowadzenie Full node - lub korzystanie z Bitcoin bez zaufania - faktycznie pomaga:
+
+
+> Waluta Bitcoin działa tylko wtedy, gdy ludzie akceptują bitcoiny w Exchange w zamian za inne wartościowe rzeczy. Oznacza to, że to ludzie akceptujący bitcoiny nadają im wartość i decydują o tym, jak ma działać Bitcoin.
 >
 
-> When you accept bitcoins, you have the power to enforce Bitcoin’s rules, such as preventing confiscation of any person’s bitcoins without access to that person’s private keys.
+> Akceptując bitcoiny, masz prawo do egzekwowania zasad Bitcoin, takich jak zapobieganie konfiskacie bitcoinów dowolnej osoby bez dostępu do jej kluczy prywatnych.
 >
 
-> Unfortunately, many users outsource their enforcement power. This leaves Bitcoin’s decentralization in a weakened state where a handful of miners can collude with a handful of banks and free services to change Bitcoin’s rules for all those non-verifying users who outsourced their power.
+> Niestety, wielu użytkowników outsourcuje swoją moc egzekwowania prawa. Pozostawia to decentralizację Bitcoin w osłabionym stanie, w którym garstka górników może zmówić się z garstką banków i bezpłatnych usług, aby zmienić zasady Bitcoin dla wszystkich niezweryfikujących użytkowników, którzy przekazali swoją moc na zewnątrz.
 >
 
-> Unlike other wallets, Bitcoin Core does enforce the rules—so if the miners and banks change the rules for their non-verifying users, those users will be unable to pay full validation Bitcoin Core users like you.
+> W przeciwieństwie do innych portfeli, Bitcoin Core egzekwuje zasady - więc jeśli górnicy i banki zmienią zasady dla swoich niezweryfikowanych użytkowników, użytkownicy ci nie będą mogli płacić w pełni zweryfikowanym użytkownikom Bitcoin Core, takim jak Ty.
 
 
-He says that running a Full node will help you verify every aspect of the Blockchain without trusting anyone else, so as to ensure that the coins you receive from others are genuine. This is great, but there's one important thing that a Full node can't help you with: it can't prevent double- spending through chain rewrites:
+Twierdzi on, że uruchomienie Full node pomoże ci zweryfikować każdy aspekt Blockchain bez ufania komukolwiek innemu, aby upewnić się, że monety, które otrzymujesz od innych, są autentyczne. To świetnie, ale jest jedna ważna rzecz, w której Full node nie może ci pomóc: nie może zapobiec podwójnym wydatkom poprzez przepisywanie łańcucha:
 
 
-> Note that although all programs—including Bitcoin Core—are vulnerable to chain rewrites, Bitcoin provides a defense mechanism: the more confirmations your transactions have, the safer you are. There is no known decentralized defense better than that.
+> Należy pamiętać, że chociaż wszystkie programy - w tym Bitcoin Core - są podatne na przepisywanie łańcucha, Bitcoin zapewnia mechanizm obronny: im więcej potwierdzeń mają twoje transakcje, tym jesteś bezpieczniejszy. Nie ma znanej zdecentralizowanej obrony lepszej niż ta.
 
-No matter how advanced your software is, you still have to trust that the blocks containing your coins won't be rewritten. However, as pointed out by Harding, you can await a number of confirmations, after which you consider the probability of a chain rewrite small enough to be acceptable.
-
-
-The incentives for using Bitcoin in a Trustless way align with the system's need for Full node decentralization. The more people who use their own full nodes, the more Full node decentralization, and thus the stronger Bitcoin stands against malicious changes to the protocol. But unfortunately, as explained in the Full node decentralization section, users often opt for trusted services as consequence of the inevitable trade-off between trustlessness and convenience.
+Bez względu na to, jak zaawansowane jest twoje oprogramowanie, nadal musisz ufać, że bloki zawierające twoje monety nie zostaną przepisane. Jednak, jak wskazał Harding, można poczekać na pewną liczbę potwierdzeń, po których prawdopodobieństwo przepisania łańcucha jest na tyle małe, że można je zaakceptować.
 
 
-Bitcoin's trustlessness is absolutely imperative from a system perspective. In 2018, Matt Corallo, [spoke about trustlessness](https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/) at the Baltic Honeybadger conference in Riga.
+Zachęty do korzystania z Bitcoin w sposób Trustless są zgodne z potrzebą decentralizacji systemu Full node. Im więcej osób korzysta z własnych pełnych węzłów, tym większa decentralizacja Full node, a tym samym silniejsza ochrona Bitcoin przed złośliwymi zmianami w protokole. Niestety, jak wyjaśniono w sekcji dotyczącej decentralizacji Full node, użytkownicy często wybierają zaufane usługi w wyniku nieuniknionego kompromisu między brakiem zaufania a wygodą.
+
+
+Brak zaufania Bitcoin jest absolutnie niezbędny z perspektywy systemu. W 2018 r. Matt Corallo [mówił o braku zaufania] (https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/) na konferencji Baltic Honeybadger w Rydze.
 
 
 ![video](https://youtu.be/66ZoGUAnY9s?t=4019)
 
 
-The essence of that talk is that you can't build Trustless systems on top of a trusted system, but you can build trusted systems - for example, a custodial Wallet - on top of a Trustless system.
+Istotą tego wykładu jest to, że nie można budować systemów Trustless na zaufanym systemie, ale można budować zaufane systemy - na przykład Wallet - na zaufanym systemie Trustless.
 
 
 
 ![width=50%](assets/trust.webp)
 
 
-A Trustless base Layer allows for various trade-offs on higher levels
+Podstawa Trustless Layer pozwala na różne kompromisy na wyższych poziomach
 
 
-This security model allows the system designer to select trade-offs
+Ten model bezpieczeństwa pozwala projektantowi systemu wybrać kompromisy
 
-that make sense to them without forcing those trade-offs on others.
-
-
-### Don't trust, verify
+które mają dla nich sens, bez wymuszania tych kompromisów na innych.
 
 
-
-Bitcoin works trustlessly, but you still have to trust your software and hardware to some degree. That's because your software or hardware might not be programmed to do what's stated on the box. For example:
+### Nie ufaj, weryfikuj
 
 
 
-- The CPU might be maliciously designed to detect private key cryptographic operations and leak the private key data.
-- The operating system's random number generator might not be as random as it claims.
-- Bitcoin Core might have sneaked in code that will send your private keys to some bad actor.
+Bitcoin działa bezawaryjnie, ale nadal musisz w pewnym stopniu ufać swojemu oprogramowaniu i sprzętowi. Dzieje się tak dlatego, że oprogramowanie lub sprzęt mogą nie być zaprogramowane do robienia tego, co podano na pudełku. Na przykład:
 
 
-So, besides running a Full node, you also need to make sure you're running what you intend to. Reddit user brianddk [wrote an article](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) about the various levels of trust you can choose from, when verifying your software. In the section "Trusting the builders", he talks about reproducible builds:
+
+- Procesor może być złośliwie zaprojektowany do wykrywania operacji kryptograficznych klucza prywatnego i wycieku danych klucza prywatnego.
+- Generator liczb losowych systemu operacyjnego może nie być tak losowy, jak twierdzi.
+- Bitcoin Core mógł przemycić kod, który wyśle twoje klucze prywatne do jakiegoś złego aktora.
 
 
-> Reproducible builds are a way to design software so that many community developers can each build the software and ensure that the final installer built is identical to what other developers produce. With a very public, reproducible project like Bitcoin, no single developer needs to be completely trusted. Many developers can all perform the build and attest that they produced the same file as the one the original builder digitally signed.
-
-The article defines 5 levels of trust: trusting the site, the builders, the compiler, the kernel, and the hardware.
+Tak więc, oprócz uruchomienia Full node, musisz również upewnić się, że uruchamiasz to, co zamierzasz. Użytkownik Reddit brianddk [napisał artykuł](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) o różnych poziomach zaufania, które można wybrać podczas weryfikacji oprogramowania. W sekcji "Zaufanie do budowniczych" mówi o odtwarzalnych kompilacjach:
 
 
-To further deepen the topic of reproducible builds, Carl Dong [made a presentation about Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) explaining why trusting the operating system, libraries, and compilers can be problematic, and how to fix that with a system called Guix, which is used by Bitcoin Core today.
+> Odtwarzalne kompilacje to sposób na zaprojektowanie oprogramowania w taki sposób, aby wielu deweloperów społeczności mogło zbudować oprogramowanie i upewnić się, że ostateczny zbudowany instalator jest identyczny z tym, co produkują inni deweloperzy. W przypadku bardzo publicznego, odtwarzalnego projektu, takiego jak Bitcoin, żaden pojedynczy deweloper nie musi być całkowicie zaufany. Wielu deweloperów może wykonać kompilację i potwierdzić, że stworzyli ten sam plik, który został podpisany cyfrowo przez pierwotnego twórcę.
+
+Artykuł definiuje 5 poziomów zaufania: zaufanie do witryny, twórców, kompilatora, jądra i sprzętu.
 
 
-> So what can we do about the fact that our toolchain can have a bunch of trusted binaries that can be reproducibly malicious? We need to be more than reproducible. We need to be bootstrappable. We cannot have that many binary tools that we need to download and trust from external servers controlled by other organizations.
+Aby jeszcze bardziej pogłębić temat odtwarzalnych kompilacji, Carl Dong [przedstawił prezentację na temat Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) wyjaśniając, dlaczego ufanie systemowi operacyjnemu, bibliotekom i kompilatorom może być problematyczne i jak to naprawić za pomocą systemu o nazwie Guix, który jest obecnie używany przez Bitcoin Core.
+
+
+> Co więc możemy zrobić z faktem, że nasz toolchain może mieć kilka zaufanych plików binarnych, które mogą być odtwarzalnie złośliwe? Musimy być nie tylko odtwarzalni. Musimy być bootrapowalni. Nie możemy mieć tak wielu narzędzi binarnych, które musimy pobierać i którym musimy ufać z zewnętrznych serwerów kontrolowanych przez inne organizacje.
 >
 
-> We should know how these tools are built and exactly how we can go through the process of building them again, preferably from a much smaller set of trusted binaries. We need to minimize our trusted set of binaries as much as possible, and have an easily auditable path from those toolchains to what we use how to build Bitcoin. This allows us to maximize verification and minimize trust.
+> Powinniśmy wiedzieć, w jaki sposób te narzędzia są budowane i dokładnie, jak możemy przejść przez proces ich ponownego budowania, najlepiej ze znacznie mniejszego zestawu zaufanych plików binarnych. Musimy zminimalizować nasz zaufany zestaw plików binarnych tak bardzo, jak to możliwe, i mieć łatwą do skontrolowania ścieżkę od tych łańcuchów narzędzi do tego, czego używamy do budowy Bitcoin. Pozwoli nam to zmaksymalizować weryfikację i zminimalizować zaufanie.
 
-He then explains how Guix allows us to only trust a minimal binary of 357 bytes that can be verified and fully understood if you know how to interpret the instructions. This is quite remarkable: one verifies that the 357-byte binary does what it should, then uses it to build the full build system from source code, and ends up with a Bitcoin Core binary that should be an exact copy of anyone else's build.
-
-
-There's a mantra that many bitcoiners subscribe to, which captures well much of the above:
+Następnie wyjaśnia, w jaki sposób Guix pozwala nam zaufać tylko minimalnemu plikowi binarnemu o rozmiarze 357 bajtów, który można zweryfikować i w pełni zrozumieć, jeśli wiesz, jak interpretować instrukcje. Jest to dość niezwykłe: jeden weryfikuje, czy 357-bajtowy plik binarny robi to, co powinien, a następnie używa go do zbudowania pełnego systemu kompilacji z kodu źródłowego i kończy z plikiem binarnym Bitcoin Core, który powinien być dokładną kopią kompilacji każdego innego.
 
 
-> Don't trust, verify.
-
-This alludes to the phrase "[trust, but verify](https://en.wikipedia.org/wiki/Trust,_but_verify)" that former U.S. president Ronald Reagan used in the context of nuclear disarmament. [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) switched it around to highlight the rejection of trust and the importance of running a Full node.
+Istnieje mantra, którą podpisuje się wielu bitcoinerów, a która dobrze oddaje większość z powyższych:
 
 
-It's up to the users to decide to what degree they want to verify the software they use and the Blockchain data they receive. As with so many other things in Bitcoin, there's a trade-off between convenience and trustlessness. It's almost always more convenient to use a custodial Wallet compared to running Bitcoin Core on your own hardware. However, as Bitcoin software is maturing and user interfaces are improving, over time it should get better at supporting users willing to work towards trustlessness. Also, as users gain more knowledge over time, they should be able to gradually remove trust from the equation.
+> Nie ufaj, weryfikuj.
+
+Nawiązuje to do frazy "[ufaj, ale weryfikuj](https://en.wikipedia.org/wiki/Trust,_but_verify)", której były prezydent USA Ronald Reagan użył w kontekście rozbrojenia nuklearnego. [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) zamienili je, aby podkreślić odrzucenie zaufania i znaczenie uruchomienia Full node.
 
 
-Some users think adversarially and verify most aspects of the software they run. As a consequence, they reduce the need for trust to the bare minimum, as they only need to trust their computer hardware and operating system. In doing so, they also help people who don't verify their hardware as thoroughly by raising their voices in public to warn about any issues they might find. One good example of this is an [event that occurred in 2018](https://bitcoincore.org/en/2018/09/20/notice/), when someone discovered a bug that would allow miners to spend an output twice in the same transaction:
+To użytkownicy decydują, w jakim stopniu chcą zweryfikować oprogramowanie, którego używają i dane Blockchain, które otrzymują. Podobnie jak w przypadku wielu innych rzeczy w Bitcoin, istnieje kompromis między wygodą a brakiem zaufania. Prawie zawsze wygodniej jest korzystać z Wallet w porównaniu do uruchamiania Bitcoin Core na własnym sprzęcie. Ponieważ jednak oprogramowanie Bitcoin dojrzewa, a interfejsy użytkownika są ulepszane, z czasem powinno lepiej wspierać użytkowników, którzy chcą pracować nad brakiem zaufania. Ponadto, w miarę zdobywania przez użytkowników coraz większej wiedzy, powinni oni być w stanie stopniowo usuwać zaufanie z równania.
 
 
-> CVE-2018-17144, a fix for which was released on September 18th in Bitcoin Core versions 0.16.3 and 0.17.0rc4, includes both a Denial of Service component and a critical inflation vulnerability. It was originally reported to several developers working on Bitcoin Core, as well as projects supporting other cryptocurrencies, including ABC and Unlimited on September 17th as a Denial of Service bug only, however we quickly determined that the issue was also an inflation vulnerability with the same root cause and fix.
-
-Here, an anonymous person reported an issue that turned out much worse than the reporter realized. This highlights the fact that people who verify the code often report security flaws instead of exploiting them. This is beneficial to those who aren't able to verify everything themselves.
+Niektórzy użytkownicy myślą kontradyktoryjnie i weryfikują większość aspektów uruchamianego oprogramowania. W rezultacie ograniczają potrzebę zaufania do absolutnego minimum, ponieważ muszą ufać tylko swojemu sprzętowi komputerowemu i systemowi operacyjnemu. W ten sposób pomagają również ludziom, którzy nie weryfikują swojego sprzętu tak dokładnie, podnosząc publicznie głos, aby ostrzec o wszelkich problemach, które mogą znaleźć. Dobrym tego przykładem jest [zdarzenie, które miało miejsce w 2018 r.] (https://bitcoincore.org/en/2018/09/20/notice/), kiedy ktoś odkrył błąd, który pozwalał górnikom na dwukrotne wydanie wyniku w tej samej transakcji:
 
 
-However, users should not trust others to keep them safe, but should rather verify for themselves whenever and whatever they can; that's how one remains as sovereign as possible, and how Bitcoin prospers. The more eyes on the software, the less likely it is that malicious code and security flaws slip through.
+> CVE-2018-17144, którego poprawka została wydana 18 września w Bitcoin Core w wersjach 0.16.3 i 0.17.0rc4, zawiera zarówno komponent Denial of Service, jak i krytyczną podatność na inflację. Pierwotnie został on zgłoszony kilku deweloperom pracującym nad Bitcoin Core, a także projektami obsługującymi inne kryptowaluty, w tym ABC i Unlimited, 17 września jako błąd związany wyłącznie z odmową usługi, jednak szybko ustaliliśmy, że błąd ten był również podatnością na inflację z tą samą przyczyną źródłową i poprawką.
+
+W tym przypadku anonimowa osoba zgłosiła błąd, który okazał się znacznie gorszy, niż zgłaszający zdawał sobie sprawę. Podkreśla to fakt, że osoby weryfikujące kod często zgłaszają luki w zabezpieczeniach zamiast je wykorzystywać. Jest to korzystne dla tych, którzy nie są w stanie zweryfikować wszystkiego samodzielnie.
 
 
-### Conclusion about Trustlessness
+Jednak użytkownicy nie powinni ufać innym, że zapewnią im bezpieczeństwo, ale raczej powinni sami sprawdzać, kiedy tylko i cokolwiek mogą; w ten sposób pozostaje się tak suwerennym, jak to tylko możliwe i jak Bitcoin prosperuje. Im więcej oczu na oprogramowanie, tym mniejsze prawdopodobieństwo przedostania się złośliwego kodu i luk w zabezpieczeniach.
+
+
+### Wnioski dotyczące nieufności
 
 
 
-The Bitcoin protocol is Trustless because it allows users to interact with it without trusting a third party. In practice, however, most people aren't able to verify the full stack of software and hardware they run Bitcoin on. Skilled people that verify software or hardware are able to warn other, less skilled, people when they find malicious code or bugs.
+Protokół Bitcoin jest protokołem Trustless, ponieważ pozwala użytkownikom na interakcję z nim bez ufania stronie trzeciej. W praktyce jednak większość ludzi nie jest w stanie zweryfikować całego stosu oprogramowania i sprzętu, na którym uruchamiają Bitcoin. Wykwalifikowane osoby, które weryfikują oprogramowanie lub sprzęt, są w stanie ostrzec inne, mniej wykwalifikowane osoby, gdy znajdą złośliwy kod lub błędy.
 
 
-Without trustlessness, we can't have decentralizaion, because trust inevitebly involves some central point of authority. You can build a trusted system on top of a Trustless system, but you can't build a Trustless system on top of a trusted system.
+Bez braku zaufania nie możemy mieć decentralizacji, ponieważ zaufanie nieuchronnie wiąże się z jakimś centralnym punktem władzy. Można zbudować zaufany system na systemie Trustless, ale nie można zbudować systemu Trustless na zaufanym systemie.
 
 
-## Privacy
+## Prywatność
 
 <chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
 
@@ -416,215 +456,215 @@ Without trustlessness, we can't have decentralizaion, because trust inevitebly i
 ![](assets/privacy-banner.webp)
 
 
-This chapter deals with how to keep your private financial information to yourself. It explains what privacy stands for in the context of Bitcoin, why it's important, and what it means to say that Bitcoin is pseudonymous. It also looks into how private data can leak, both On-Chain and off-chain.
+Ten rozdział dotyczy tego, jak zachować prywatne informacje finansowe dla siebie. Wyjaśnia, co oznacza prywatność w kontekście Bitcoin, dlaczego jest ważna i co oznacza stwierdzenie, że Bitcoin jest pseudonimowy. Analizuje również, w jaki sposób prywatne dane mogą wyciekać, zarówno On-Chain, jak i off-chain.
 
 
-Then, it talks about the fact that bitcoins should be fungible, meaning interchangeable for any other bitcoins, and how fungibility and privacy go hand in hand. Lastly, the chapter introduces some measures you can take to improve your privacy and that of others.
+Następnie omówiono fakt, że bitcoiny powinny być zamienne, co oznacza, że można je wymieniać na dowolne inne bitcoiny, oraz w jaki sposób zamienność i prywatność idą w parze. Wreszcie, rozdział wprowadza pewne środki, które można podjąć, aby poprawić prywatność swoją i innych.
 
 
-Bitcoin can be described as a pseudonymous system, where users have multiple pseudonyms in the form of public keys. At first glance, this looks like a pretty good way to protect users from being identified, but it is in fact really easy to leak private financial information unintentionally.
+Bitcoin można opisać jako system pseudonimowy, w którym użytkownicy mają wiele pseudonimów w postaci kluczy publicznych. Na pierwszy rzut oka wygląda to na całkiem dobry sposób ochrony użytkowników przed identyfikacją, ale w rzeczywistości bardzo łatwo jest nieumyślnie ujawnić prywatne informacje finansowe.
 
 
-### What does privacy mean?
+### Co oznacza prywatność?
 
 
 
-Privacy can mean different things in different contexts. In Bitcoin, it generally means that users don't have to reveal their financial information to others, unless they voluntarily do so.
+Prywatność może oznaczać różne rzeczy w różnych kontekstach. W Bitcoin ogólnie oznacza to, że użytkownicy nie muszą ujawniać swoich informacji finansowych innym osobom, chyba że zrobią to dobrowolnie.
 
 
-There are many ways in which you may leak your private information to others, with or without knowing it. Data can either leak from the public Blockchain or through other means, for example when malicious actors intercept your internet communications.
+Istnieje wiele sposobów, w jakie można ujawnić swoje prywatne informacje innym osobom, wiedząc o tym lub nie. Dane mogą wyciec z publicznego Blockchain lub w inny sposób, na przykład gdy złośliwi aktorzy przechwytują Twoją komunikację internetową.
 
 
-### Why is privacy important?
+### Dlaczego prywatność jest ważna?
 
 
-It may seem obvious why privacy is important in Bitcoin, but there are some aspects of it that one might not immediately think about. [On the Bitcoin Talk forum](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell walks us through a lot of good reasons why he thinks privacy matters. Among them are free market, safety, and human dignity:
+Może wydawać się oczywiste, dlaczego prywatność jest ważna w Bitcoin, ale są pewne aspekty, o których można nie pomyśleć od razu. [Na forum Bitcoin Talk](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell przedstawia nam wiele powodów, dla których uważa, że prywatność ma znaczenie. Wśród nich są wolny rynek, bezpieczeństwo i ludzka godność:
 
 
-> Financial privacy is an essential criteria for the efficient operation of a free market: if you run a business, you cannot effectively set prices if your suppliers and customers can see all your transactions against your will.
-> You cannot compete effectively if your competition is tracking your sales.  Individually your informational leverage is lost in your private dealings if you don't have privacy over your accounts: if you pay your landlord in Bitcoin without enough privacy in place, your landlord will see when you've received a pay raise and can hit you up for more rent.
+> Prywatność finansowa jest podstawowym kryterium skutecznego funkcjonowania wolnego rynku: jeśli prowadzisz firmę, nie możesz skutecznie ustalać cen, jeśli twoi dostawcy i klienci mogą zobaczyć wszystkie twoje transakcje wbrew twojej woli.
+> Nie można skutecznie konkurować, jeśli konkurencja śledzi sprzedaż.  Jeśli nie masz prywatności nad swoimi kontami, tracisz możliwość korzystania z informacji w prywatnych transakcjach: jeśli płacisz swojemu wynajmującemu w Bitcoin bez wystarczającej prywatności, Twój wynajmujący zobaczy, kiedy otrzymałeś podwyżkę i będzie mógł zażądać od Ciebie wyższego czynszu.
 >
 
-> Financial privacy is essential for personal safety: if thieves can see your spending, income, and holdings, they can use that information to target and exploit you. Without privacy malicious parties have more ability to steal your identity, snatch your large purchases off your doorstep, or impersonate businesses you transact with towards you... they can tell exactly how much to try to scam you for.
+> Prywatność finansowa jest niezbędna dla bezpieczeństwa osobistego: jeśli złodzieje widzą Twoje wydatki, dochody i stan posiadania, mogą wykorzystać te informacje, aby Cię namierzyć i wykorzystać. Bez prywatności złośliwe strony mają większe możliwości kradzieży tożsamości, podkradania dużych zakupów lub podszywania się pod firmy, z którymi przeprowadzasz transakcje... mogą dokładnie określić, na jaką kwotę próbują cię oszukać.
 >
 
-> Financial privacy is essential for human dignity: no one wants the snotty barista at the coffee shop or their nosy neighbors commenting on their income or spending habits. No one wants their baby-crazy in-laws asking why they're buying contraception (or sex toys). Your employer has no business knowing what church you donate to. Only in a perfectly enlightened discrimination free world where no one has undue authority over anyone else could we retain our dignity and make our lawful transactions freely without self-censorship if we don't have privacy.
+> Prywatność finansowa jest niezbędna dla ludzkiej godności: nikt nie chce, aby zasmarkany barista w kawiarni lub wścibscy sąsiedzi komentowali jego dochody lub nawyki związane z wydatkami. Nikt nie chce, by jego oszalali na punkcie dzieci teściowie pytali, dlaczego kupuje antykoncepcję (lub zabawki erotyczne). Twój pracodawca nie powinien wiedzieć, na jaki kościół przekazujesz datki. Tylko w doskonale oświeconym, wolnym od dyskryminacji świecie, w którym nikt nie ma nadmiernej władzy nad nikim innym, możemy zachować naszą godność i swobodnie dokonywać legalnych transakcji bez autocenzury, jeśli nie mamy prywatności.
 
-Maxwell also touches on fungibility, which will be discussed later in this chapter, as well as on how privacy and law enforcement are not contradictory.
-
-
-### Pseudonymity
+Maxwell porusza również kwestię zamienności, która zostanie omówiona w dalszej części tego rozdziału, a także tego, w jaki sposób prywatność i egzekwowanie prawa nie są ze sobą sprzeczne.
 
 
-We mentioned above that Bitcoin is pseudonymous, and that the pseudonyms are public keys. In the media you often hear that Bitcoin is anonymous, which is not correct. There is a distinction between anonymity and pseudonymity.
+### Pseudonimowość
 
 
-Andrew Poelstra [explains in a Bitcoin Stack Exchange post](https://Bitcoin.stackexchange.com/a/29473/69518) what anonymity would look like in transactions:
+Wspomnieliśmy powyżej, że Bitcoin jest pseudonimowy, a pseudonimy są kluczami publicznymi. W mediach często słyszy się, że Bitcoin jest anonimowy, co nie jest prawdą. Istnieje rozróżnienie między anonimowością a pseudonimowością.
 
 
-> Total anonymity, in the sense that when you spend money there is no trace of where it came from or where it's going, is theoretically possible by using the cryptographic technique of zero-knowledge proofs.
-
-The difference seems to be that in a pseudonymous form of money you can trace payments between pseudonyms, whereas in an anonymous form of money you can't. Since Bitcoin payments are traceable between pseudonyms, it's not an anonymous system.
+Andrew Poelstra [wyjaśnia w poście Bitcoin Stack Exchange](https://Bitcoin.stackexchange.com/a/29473/69518), jak wyglądałaby anonimowość w transakcjach:
 
 
-We have also said that the pseudonyms are public keys, but it's actually addresses derived from public keys. Why do we use addresses as pseudonyms and not something else, for example some descriptive names, like "watchme1984"? This has been [explained well](https://Bitcoin.stackexchange.com/a/25175/69518) by user Tim S., also on Bitcoin Stack Exchange:
+> Całkowita anonimowość, w tym sensie, że kiedy wydajesz pieniądze, nie ma śladu, skąd pochodzą ani dokąd zmierzają, jest teoretycznie możliwa dzięki zastosowaniu kryptograficznej techniki dowodów zerowej wiedzy.
+
+Różnica wydaje się polegać na tym, że w pseudonimowej formie pieniądza można śledzić płatności między pseudonimami, podczas gdy w anonimowej formie pieniądza nie można. Ponieważ płatności Bitcoin można śledzić między pseudonimami, nie jest to system anonimowy.
 
 
-> In order for Bitcoin's idea to work, you must have coins that can only be spent by the owner of a given private key. This means that whatever you send to must be tied, in some way, to a public key.
+Powiedzieliśmy również, że pseudonimy są kluczami publicznymi, ale w rzeczywistości są to adresy pochodzące z kluczy publicznych. Dlaczego używamy adresów jako pseudonimów, a nie czegoś innego, na przykład nazw opisowych, takich jak "watchme1984"? Zostało to [dobrze wyjaśnione](https://Bitcoin.stackexchange.com/a/25175/69518) przez użytkownika Tim S., również na Bitcoin Stack Exchange:
+
+
+> Aby pomysł Bitcoin zadziałał, musisz mieć monety, które mogą być wydawane tylko przez właściciela danego klucza prywatnego. Oznacza to, że cokolwiek wysyłasz, musi być w jakiś sposób powiązane z kluczem publicznym.
 >
 
-> Using arbitrary pseudonyms (e.g. user names) would mean that you'd have to then somehow link the pseudonym to a public key in order to enable public/private key crypto. This would remove the ability to securely create addresses/pseudonyms offline (e.g. before someone could send money to the user name "tdumidu", you'd have to announce in the Blockchain that "tdumidu" is owned by public key "a1c...", and include a fee so others have a reason to announce it), reduce anonymity (by encouraging you to reuse pseudonyms), and needlessly bloat the size of the Blockchain. It would also create a false sense of security that you're sending to who you think you are (if I take the name "Linus Torvalds" before he does, then it's mine and people might send money thinking they're paying the creator of Linux, not me).
+> Używanie arbitralnych pseudonimów (np. nazw użytkowników) oznaczałoby, że musiałbyś w jakiś sposób powiązać pseudonim z kluczem publicznym, aby umożliwić kryptografię klucza publicznego/prywatnego. Usunęłoby to możliwość bezpiecznego tworzenia adresów/pseudonimów offline (np. zanim ktoś mógłby wysłać pieniądze na nazwę użytkownika "tdumidu", musiałbyś ogłosić w Blockchain, że "tdumidu" jest własnością klucza publicznego "a1c..." i dołączyć opłatę, aby inni mieli powód, by to ogłosić), zmniejszyłoby anonimowość (zachęcając do ponownego użycia pseudonimów) i niepotrzebnie zwiększyłoby rozmiar Blockchain. Stworzyłoby to również fałszywe poczucie bezpieczeństwa, że wysyłasz pieniądze do tego, kim myślisz, że jesteś (jeśli przyjmę nazwę "Linus Torvalds", zanim on to zrobi, to jest ona moja i ludzie mogą wysyłać pieniądze, myśląc, że płacą twórcy Linuksa, a nie mnie).
 
-By using addresses, or public keys, we achieve important goals, such as removing the need to somehow register a pseudonym beforehand, reducing the incentives for pseudonym reuse, avoiding Blockchain bloat, and making it harder to impersonate other people.
-
-
-### Blockchain privacy
+Używając adresów lub kluczy publicznych, osiągamy ważne cele, takie jak wyeliminowanie potrzeby wcześniejszej rejestracji pseudonimu, zmniejszenie zachęt do ponownego użycia pseudonimu, uniknięcie rozdęcia Blockchain i utrudnienie podszywania się pod inne osoby.
 
 
-
-Blockchain privacy refers to the information you disclose by transacting on the Blockchain. It applies to all transactions, the ones you send as well as the ones you receive.
-
-
-Satoshi Nakamoto ponders over On-Chain privacy in section 7 of his [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+### Blockchain prywatność
 
 
-> As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
 
-The paper summarizes the main problems of Blockchain privacy, namely Address reuse and Address clustering. The first is self-explaining, the latter refers to the ability to decide, with some level of certainty, that a set of different addresses belongs to the same user.
+Prywatność Blockchain odnosi się do informacji ujawnianych przez użytkownika podczas dokonywania transakcji na Blockchain. Dotyczy to wszystkich transakcji, zarówno tych wysyłanych, jak i otrzymywanych.
+
+
+Satoshi Nakamoto zastanawia się nad prywatnością On-Chain w sekcji 7 swojego [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+
+
+> Jako dodatkowa zapora ogniowa, dla każdej transakcji powinna być używana nowa para kluczy, aby zapobiec powiązaniu ich ze wspólnym właścicielem. Pewne powiązania są nadal nieuniknione w przypadku transakcji z wieloma wejściami, które z konieczności ujawniają, że ich wejścia należały do tego samego właściciela. Ryzyko polega na tym, że jeśli właściciel klucza zostanie ujawniony, powiązanie może ujawnić inne transakcje, które należały do tego samego właściciela.
+
+Artykuł podsumowuje główne problemy prywatności Blockchain, a mianowicie ponowne wykorzystanie Address i grupowanie Address. Pierwszy z nich jest oczywisty, a drugi odnosi się do możliwości podjęcia decyzji, z pewnym poziomem pewności, że zestaw różnych adresów należy do tego samego użytkownika.
 
 
 ![](assets/address-reuse-clustering.webp)
 
 
-Typical privacy leaks on the Blockchain
+Typowe wycieki prywatności na Blockchain
 
 
-Chris Belcher [wrote in great detail](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) about the different kinds of privacy leaks that can happen on the Bitcoin Blockchain. We recommend you read at least the first few subsections under "Blockchain attacks on privacy."
+Chris Belcher [napisał bardzo szczegółowo](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) o różnych rodzajach wycieków prywatności, które mogą się zdarzyć na Bitcoin Blockchain. Zalecamy przeczytanie przynajmniej kilku pierwszych podrozdziałów w sekcji "Ataki Blockchain na prywatność"
 
 
-The takeaway is that privacy in Bitcoin isn't perfect. It requires a significant amount of work to transact privately. Most people aren't prepared to go that far for privacy. There seems to be a clear trade-off between privacy and usability.
+Wniosek jest taki, że prywatność w Bitcoin nie jest idealna. Prywatne transakcje wymagają znacznego nakładu pracy. Większość ludzi nie jest gotowa posunąć się tak daleko dla prywatności. Wydaje się, że istnieje wyraźny kompromis między prywatnością a użytecznością.
 
 
-Another important aspect of privacy is that the measures you take to protect your own privacy affect other users as well. If you are sloppy with your own privacy, other people might experience reduced privacy, too. Gregory Maxwell explains this very plainly on the same Bitcoin Talk discussion [that we linked above](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), and concludes with an example:
+Innym ważnym aspektem prywatności jest to, że środki podejmowane w celu ochrony własnej prywatności wpływają również na innych użytkowników. Jeśli jesteś niedbały o własną prywatność, inni ludzie również mogą doświadczyć ograniczenia prywatności. Gregory Maxwell wyjaśnia to bardzo jasno w tej samej dyskusji Bitcoin Talk [do której link zamieściliśmy powyżej] (https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252) i kończy przykładem:
 
 
-> This actually works in practice, too... A nice whitehat hacker on IRC was playing around with brainwallet cracking and hit a phrase with ~250 BTC in it.  We were able to identify the owner from just the Address alone, because they'd been paid by a Bitcoin service that reused addresses and he was able to talk them into giving up the users contact information. He actually got the user on the phone, they were shocked and confused— but grateful to not be out their coin.  A happy ending there. (This isn't the only example of it, by far ... but its one of the more fun ones).
+> Działa to również w praktyce... Miły haker whitehat na IRC bawił się łamaniem brainwalletów i trafił na frazę z ~250 BTC w środku.  Byliśmy w stanie zidentyfikować właściciela na podstawie samego Address, ponieważ został opłacony przez usługę Bitcoin, która ponownie wykorzystywała adresy, a on był w stanie namówić ich do podania danych kontaktowych użytkowników. Użytkownik był zszokowany i zdezorientowany, ale wdzięczny, że nie stracił swoich pieniędzy.  Szczęśliwe zakończenie. (Nie jest to jedyny taki przykład, ale jeden z bardziej zabawnych).
 
-In this case, it all went well thanks to the philanthropically-minded hacker, but don't count on that next time.
-
-
-### Non-Blockchain privacy
+W tym przypadku wszystko poszło dobrze dzięki filantropijnie nastawionemu hakerowi, ale nie licz na to następnym razem.
 
 
-While the Blockchain proves to be a notorious source of privacy leaks, there are plenty of other leaks that don't use the Blockchain, some sneakier than others. These range from key-loggers to network traffic analysis. To read up on some of these methods, please refer again to [Chris Belcher's piece](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), specifically the section "Non-Blockchain attacks on privacy".
+### Prywatność inna niż Blockchain
 
 
-Among a plethora of attacks, Belcher mentions the possibility of someone snooping on your internet connection, for example, your ISP:
+Podczas gdy Blockchain okazuje się być znanym źródłem wycieków prywatności, istnieje wiele innych wycieków, które nie wykorzystują Blockchain, niektóre bardziej podstępne niż inne. Obejmują one od rejestratorów kluczy po analizę ruchu sieciowego. Aby zapoznać się z niektórymi z tych metod, należy ponownie zapoznać się z artykułem [Chrisa Belchera] (https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), a konkretnie z sekcją "Ataki na prywatność inne niż Blockchain".
 
 
-> If the adversary sees a transaction or block coming out of your node which did not previously enter, then it can know with near-certainty that the transaction was made by you or the block was mined by you. As internet connections are involved, the adversary will be able to link the IP Address with the discovered Bitcoin information.
-
-However, among the most obvious privacy leaks are exchanges. Due to laws, usually referred to as KYC (Know Your Customer) and AML (Anti-Money Laundering), that are valid in the jurisdictions they operate in, exchanges and related companies often have to collect personal data about their users, building up big databases about which users own which bitcoins. These databases are great honeypots for evil governments and criminals who are always on the lookout for new victims. There are actual markets for this kind of data, where hackers
-
-sell data to the highest bidder.
+Wśród wielu ataków Belcher wymienia możliwość szpiegowania przez kogoś połączenia internetowego, na przykład przez dostawcę usług internetowych:
 
 
-To make things worse, the companies that manage these databases often have little experience with protecting financial data, in fact many of them are young start-ups, and we know for a fact that several leaks have already occurred. A few examples are
+> Jeśli przeciwnik zobaczy transakcję lub blok wychodzący z węzła, który wcześniej nie został wprowadzony, może wiedzieć z niemal całkowitą pewnością, że transakcja została dokonana przez użytkownika lub blok został wydobyty przez użytkownika. Ponieważ w grę wchodzą połączenia internetowe, przeciwnik będzie w stanie połączyć adres IP Address z odkrytymi informacjami Bitcoin.
 
-[India-based MobiQwik](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-Bitcoin-privacy) and [HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-Bitcoin-users-data).
+Jednak jednym z najbardziej oczywistych wycieków prywatności są giełdy. Ze względu na przepisy, zwykle określane jako KYC (Know Your Customer) i AML (Anti-Money Laundering), które obowiązują w jurysdykcjach, w których działają, giełdy i powiązane z nimi firmy często muszą gromadzić dane osobowe swoich użytkowników, tworząc duże bazy danych o tym, którzy użytkownicy posiadają jakie bitcoiny. Te bazy danych są świetnymi honeypotami dla złych rządów i przestępców, którzy zawsze szukają nowych ofiar. Istnieją rzeczywiste rynki dla tego rodzaju danych, na których hakerzy
 
-
-Again, protecting data against this wide range of attacks is Hard, and it is likely that you won't be fully able to do so. You'll have to opt for the trade-off between convenience and privacy that works best for you.
-
-
-### Fungibility
+sprzedać dane oferentowi, który zaoferuje najwyższą cenę.
 
 
-Fungibility, in the context of currencies, means that one coin is interchangeable for any other coin of the same currency. This funny
+Co gorsza, firmy zarządzające tymi bazami danych często mają niewielkie doświadczenie w ochronie danych finansowych, w rzeczywistości wiele z nich to młode start-upy i wiemy na pewno, że doszło już do kilku wycieków. Kilka przykładów to
 
-word was briefly touched upon earlier in the chapter.
-
-
-In the article discussed there, Gregory Maxwell [stated](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
+[MobiQwik z siedzibą w Indiach](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-Bitcoin-privacy) i [HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-Bitcoin-users-data).
 
 
-> Financial privacy is an essential element to fungibility in Bitcoin: if you can meaningfully distinguish one coin from another, then their fungibility is weak. If our fungibility is too weak in practice, then we cannot be decentralized: if someone important announces a list of stolen coins they won't accept coins derived from, you must carefully check coins you accept against that list and return the ones that fail.  Everyone gets stuck checking blacklists issued by various authorities because in that world we'd all not like to get stuck with bad coins. This adds friction and transactional costs and makes Bitcoin less valuable as a money.
-
-Here, he speaks about the dangers derived from a lack of fungibility. Suppose that you have a UTXO. That UTXO's history can normally be traced back several hops, fanning out to multitudes of previous outputs. If any of those outputs were involved in any illegal, unwanted, or suspicious activity, then some potential recipients of your coin might reject it. If you think that your payees will verify your coins against some centralized whitelist or blacklist service, you might start checking the coins you receive too, just to be on the safe side. The result is that bad fungibility will bolster even worse fungibility.
+Ponownie, ochrona danych przed tak szerokim zakresem ataków to Hard i jest prawdopodobne, że nie będziesz w stanie tego w pełni zrobić. Będziesz musiał wybrać kompromis między wygodą a prywatnością, który będzie dla Ciebie najlepszy.
 
 
-Adam Back and Matt Corallo [gave a presentation about fungibility](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) at Scaling Bitcoin in Milan in 2016. They were thinking along the same lines:
+### Grzybiczość
 
 
-> You need fungibility for Bitcoin to function. If you receive coins and can’t spend them, then you start to doubt whether you can spend them. If there are doubts about coins you receive, then people are going to go to taint services and check whether "are these coins blessed" and then people are going to refuse to trade. What this does is it transitions Bitcoin from a decentralized permissionless system into a centralized permissioned system where you have an "IOU" from the blacklist providers.
+Zamienność, w kontekście walut, oznacza, że jedna moneta jest wymienna na każdą inną monetę tej samej waluty. To zabawne
 
-It seems that privacy and fungibility go hand-in-hand. Fungibility will weaken if privacy is weak, for example as coins from unwanted people may become blacklisted. In the same way, privacy will weaken if fungibility is weak: if there is a blacklist, you will have to ask the blacklist providers about which coins to accept, thereby possibly revealing your IP Address, email Address, and other sensitive information. These two features are so intertwined that it's Hard to talk about either of them in isolation.
-
-
-### Privacy measures
+słowo to zostało pokrótce omówione wcześniej w tym rozdziale.
 
 
-
-Several techniques have been developed to help people protecting themselves from privacy leaks. Among the most obvious ones is, as noted by Nakamoto earlier, using unique
-
-addresses for every transaction, but several others exist. We're not going to teach you how to become a privacy ninja. However, Bitcoin Q+A has a [quick summary of privacy-enhancing technologies](https://bitcoiner.guide/privacytips/), somewhat ordered by how Hard they are to implement. When you read it, you'll notice that Bitcoin privacy often has to do with stuff outside of Bitcoin. For example, you shouldn't brag about your bitcoins, and you should use Tor and VPN.
+W omawianym tam artykule Gregory Maxwell [stwierdził] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
 
-The post also lists some measures directly related to Bitcoin:
+> Prywatność finansowa jest istotnym elementem zamienności w Bitcoin: jeśli można w znaczący sposób odróżnić jedną monetę od drugiej, to ich zamienność jest słaba. Jeśli nasza zamienność jest zbyt słaba w praktyce, nie możemy być zdecentralizowani: jeśli ktoś ważny ogłosi listę skradzionych monet, z których nie będzie akceptował monet pochodnych, musisz dokładnie sprawdzić monety, które akceptujesz, w odniesieniu do tej listy i zwrócić te, które zawiodą.  Wszyscy utknęli w sprawdzaniu czarnych list wydanych przez różne władze, ponieważ w tym świecie wszyscy nie chcielibyśmy utknąć ze złymi monetami. Zwiększa to tarcie i koszty transakcyjne oraz sprawia, że Bitcoin jest mniej wartościowy jako pieniądz.
+
+Tutaj mówi o zagrożeniach wynikających z braku zamienności. Załóżmy, że masz UTXO. Historię tego UTXO można zwykle prześledzić kilka razy wstecz, rozchodząc się do wielu poprzednich wyjść. Jeśli którekolwiek z tych wyjść było zaangażowane w jakąkolwiek nielegalną, niechcianą lub podejrzaną działalność, niektórzy potencjalni odbiorcy Twojej monety mogą ją odrzucić. Jeśli uważasz, że twoi odbiorcy zweryfikują twoje monety na jakiejś scentralizowanej białej lub czarnej liście, możesz zacząć sprawdzać monety, które otrzymujesz, aby być po bezpiecznej stronie. W rezultacie zła zamienność wzmocni jeszcze gorszą zamienność.
 
 
-- Full node: If you don't use your own Full node, you will leak lots of information about your Wallet to servers on the internet. Running a Full node is a great first step.
-- Lightning Network: Several protocols exist on top of Bitcoin, for example the Lightning Network and Blockstream's Liquid Sidechain.
-- CoinJoin: A way for multiple people to merge their transactions into one, making it harder to do chain analysis.
+Adam Back i Matt Corallo [przedstawili prezentację na temat zamienności](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) podczas Scaling Bitcoin w Mediolanie w 2016 roku. Myśleli w ten sam sposób:
 
 
-In [a talk](https://btctranscripts.com/breaking-Bitcoin/2019/breaking-Bitcoin-privacy/) at the Breaking Bitcoin conference, Chris Belcher gave an interesting practical example of how privacy has been improved:
+> Do funkcjonowania Bitcoin potrzebna jest zamienność. Jeśli otrzymujesz monety i nie możesz ich wydać, zaczynasz wątpić, czy możesz je wydać. Jeśli pojawią się wątpliwości co do otrzymanych monet, ludzie będą odwiedzać serwisy taint i sprawdzać, czy "te monety są błogosławione", a następnie odmówią handlu. Powoduje to przejście Bitcoin ze zdecentralizowanego systemu bez zezwoleń do scentralizowanego systemu z zezwoleniami, w którym masz "IOU" od dostawców czarnej listy.
+
+Wydaje się, że prywatność i zamienność idą w parze. Zamienialność osłabnie, jeśli prywatność będzie słaba, na przykład monety od niechcianych osób mogą trafić na czarną listę. W ten sam sposób prywatność osłabnie, jeśli zamienność będzie słaba: jeśli istnieje czarna lista, będziesz musiał zapytać dostawców czarnej listy o to, które monety zaakceptować, tym samym prawdopodobnie ujawniając swój adres IP Address, e-mail Address i inne poufne informacje. Te dwie cechy są ze sobą tak powiązane, że Hard nie może mówić o żadnej z nich w oderwaniu od siebie.
 
 
-> They were a Bitcoin casino. Online gambling is not allowed in the US. Any customers of Coinbase that deposited straight to Bustabit would have their accounts shutdown because Coinbase was monitoring for this. Bustabit did a few things. They did something called change avoidance where you go through– and you see if you can construct a transaction that has no change output. This saves Miner fees and also hinders analysis.
+### Środki ochrony prywatności
+
+
+
+Opracowano kilka technik, które mają pomóc ludziom chronić się przed wyciekami prywatności. Wśród najbardziej oczywistych jest, jak zauważył wcześniej Nakamoto, używanie unikalnych
+
+adresów dla każdej transakcji, ale istnieje kilka innych. Nie zamierzamy uczyć Cię, jak zostać ninja prywatności. Jednak Bitcoin Q+A zawiera [szybkie podsumowanie technologii zwiększających prywatność] (https://bitcoiner.guide/privacytips/), nieco uporządkowane według tego, jak należy je wdrożyć w Hard. Kiedy go przeczytasz, zauważysz, że prywatność Bitcoin często ma związek z rzeczami spoza Bitcoin. Na przykład, nie powinieneś chwalić się swoimi bitcoinami i powinieneś używać Tora i VPN.
+
+
+W poście wymieniono również niektóre środki bezpośrednio związane z Bitcoin:
+
+
+- Full node: Jeśli nie korzystasz z własnego Full node, wycieknie wiele informacji o twoim Wallet do serwerów w Internecie. Uruchomienie Full node to świetny pierwszy krok.
+- Lightning Network: Istnieje kilka protokołów opartych na Bitcoin, na przykład Lightning Network i Liquid Sidechain firmy Blockstream.
+- CoinJoin: Sposób na łączenie transakcji wielu osób w jedną, co utrudnia analizę łańcucha.
+
+
+W [wystąpieniu](https://btctranscripts.com/breaking-Bitcoin/2019/breaking-Bitcoin-privacy/) na konferencji Breaking Bitcoin Chris Belcher podał interesujący praktyczny przykład tego, jak poprawiono prywatność:
+
+
+> Było to kasyno Bitcoin. Hazard online nie jest dozwolony w USA. Wszyscy klienci Coinbase, którzy dokonali wpłaty bezpośrednio do Bustabit, mieliby zamknięte konta, ponieważ Coinbase monitorował to. Bustabit zrobił kilka rzeczy. Zrobili coś, co nazywa się unikaniem zmiany, gdzie przechodzisz i sprawdzasz, czy możesz skonstruować transakcję, która nie ma wyjścia zmiany. Oszczędza to opłaty Miner, a także utrudnia analizę.
 >
 
-> Also, they imported their heavily-used reused deposit addresses into joinmarket. At this point, coinbase.com customers never got banned. It seems Coinbase’s surveillance service was unable to do the analysis after this, so it is possible to break these algorithms.
+> Ponadto zaimportowali swoje często używane adresy depozytowe do joinmarket. W tym momencie klienci coinbase.com nigdy nie zostali zbanowani. Wygląda na to, że usługa nadzoru Coinbase nie była w stanie przeprowadzić analizy po tym, więc możliwe jest złamanie tych algorytmów.
 
-He also mentioned this example, among others, on the [Privacy page](https://en.Bitcoin.it/Privacy) on the Bitcoin wiki.
+Wspomniał również o tym przykładzie, między innymi, na [stronie prywatności](https://en.Bitcoin.it/Privacy) na wiki Bitcoin.
 
 
-Note how better privacy can be achieved by building systems on top of Bitcoin, as is the case with Lightning Network:
+Zwróć uwagę, jak lepszą prywatność można osiągnąć, budując systemy na Bitcoin, tak jak ma to miejsce w przypadku Lightning Network:
 
 
 ![image](assets/privacy.webp)
 
 
-Layers on top of Bitcoin can add privacy
+Warstwy na wierzchu Bitcoin mogą zwiększyć prywatność
 
 
-We noted in the last chaper that the need for trust can only increase with layers on top, but that doesn't seem to be the case for privacy, which can be improved or made worse arbitrarily in layers on top. Why is that? Any Layer on top of Bitcoin, as explained in the Layered Scaling paragraph in future chapter Scaling, must use On-Chain transactions occasionally, otherwise it wouldn't be "on top of Bitcoin". Privacy-enhancing layers generally try to use the base Layer as little as possible to minimize the amount of information revealed.
+Zauważyliśmy w ostatnim artykule, że potrzeba zaufania może wzrosnąć tylko z warstwami na wierzchu, ale nie wydaje się, aby dotyczyło to prywatności, którą można poprawić lub pogorszyć arbitralnie w warstwach na wierzchu. Dlaczego tak jest? Każdy Layer na Bitcoin, jak wyjaśniono w akapicie Skalowanie warstwowe w przyszłym rozdziale Skalowanie, musi od czasu do czasu korzystać z transakcji On-Chain, w przeciwnym razie nie byłby "na Bitcoin". Warstwy zwiększające prywatność zazwyczaj starają się używać podstawowego Layer w jak najmniejszym stopniu, aby zminimalizować ilość ujawnianych informacji.
 
 
-The above are somewhat technical ways to improve your privacy. But there are other ways. At the beginning of this chapter, we said that Bitcoin is a pseudonymous system. This means that users in Bitcoin aren't known by their real names or other personal data, but by their public keys. A public key is a pseudonym for a user, and a user can have multiple pseudonyms. In an ideal world, your in-person identity is decoupled from your Bitcoin pseudonyms. Unfortunately, due to the privacy problems described in this chapter, this decoupling usually degrades over time.
+Powyższe są nieco technicznymi sposobami na poprawę prywatności. Istnieją jednak inne sposoby. Na początku tego rozdziału powiedzieliśmy, że Bitcoin jest systemem pseudonimowym. Oznacza to, że użytkownicy Bitcoin nie są znani z prawdziwych nazwisk lub innych danych osobowych, ale z kluczy publicznych. Klucz publiczny jest pseudonimem użytkownika, a użytkownik może mieć wiele pseudonimów. W idealnym świecie tożsamość osobista jest oddzielona od pseudonimów Bitcoin. Niestety, ze względu na problemy z prywatnością opisane w tym rozdziale, to oddzielenie zwykle z czasem ulega pogorszeniu.
 
 
-To mitigate the risks of having your personal data revealed is to not give it out in the first place nor to give it to centralized services, which build big databases that can leak. An article by Bitcoin Q+A [explains KYC](https://bitcoiner.guide/nokyconly/) and the dangers derived from it. It also suggests some steps you can take to improve your situation:
+Aby zminimalizować ryzyko ujawnienia danych osobowych, nie należy ich podawać ani przekazywać scentralizowanym usługom, które tworzą duże bazy danych, które mogą wyciekać. Artykuł Bitcoin Q+A [wyjaśnia KYC](https://bitcoiner.guide/nokyconly/) i wynikające z niego zagrożenia. Sugeruje również pewne kroki, które można podjąć, aby poprawić swoją sytuację:
 
 
-> Thankfully there are some options out there to purchase Bitcoin via no KYC sources. These are all P2P (peer to peer) exchanges where you are trading directly with another individual and not a centralised third party. Unfortunately some sell other coins as well as Bitcoin so we urge you to take care.
+> Na szczęście istnieją pewne opcje zakupu Bitcoin za pośrednictwem źródeł bez KYC. Są to wszystkie giełdy P2P (peer to peer), na których handlujesz bezpośrednio z inną osobą, a nie ze scentralizowaną stroną trzecią. Niestety, niektóre z nich sprzedają inne monety, a także Bitcoin, dlatego zalecamy ostrożność.
 
-The article suggests you avoid using exchanges that require KYC/AML and instead trade in private, or use decentralized exchanges like [bisq](https://bisq.network/).
+Artykuł sugeruje, aby unikać korzystania z giełd, które wymagają KYC/AML i zamiast tego handlować prywatnie lub korzystać ze zdecentralizowanych giełd, takich jak [bisq](https://bisq.network/).
 
 
 https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-For more in-depth reading about countermeasures, refer to the previously mentioned [wiki article on privacy](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), starting at "Methods for improving privacy (non-Blockchain)".
+Więcej informacji na temat środków zaradczych można znaleźć we wcześniej wspomnianym [artykule wiki na temat prywatności] (https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), zaczynając od "Metod poprawy prywatności (nie-Blockchain)".
 
 
-### Conclusion about Privacy
+### Wnioski dotyczące prywatności
 
 
 
-Privacy is very important but Hard to achieve. There is no privacy silver bullet.
+Prywatność jest bardzo ważna, ale Hard do osiągnięcia. Nie ma srebrnej kuli prywatności.
 
 
-To get decent privacy in Bitcoin, you have to take active measures, some of which are costly and time-consuming.
+Aby uzyskać przyzwoitą prywatność w Bitcoin, trzeba podjąć aktywne działania, z których niektóre są kosztowne i czasochłonne.
 
 
 ## Finite Supply
@@ -636,102 +676,102 @@ To get decent privacy in Bitcoin, you have to take active measures, some of whic
 ![](assets/finitesupply-banner.webp)
 
 
-This chapter looks into the Bitcoin Supply limit of 21 million BTC, or how much is it actually? We talk about how this limit is enforced and what one can do to verify that it's being respected. Moreover, we take a peek into the crystal ball and discuss the dynamics that will come into play when the Block reward shifts from subsidy-based to fee-based.
+W tym rozdziale przyjrzymy się limitowi Bitcoin Supply wynoszącemu 21 milionów BTC, czyli ile tak naprawdę wynosi? Mówimy o tym, jak ten limit jest egzekwowany i co można zrobić, aby sprawdzić, czy jest on przestrzegany. Ponadto zaglądamy do kryształowej kuli i omawiamy dynamikę, która wejdzie w grę, gdy Block reward zmieni się z opartego na dotacjach na oparty na opłatach.
 
 
-The well-known finite Supply of 21 million BTC is regarded as a fundamental property of Bitcoin. But is it really set in stone?
+Dobrze znany skończony Supply w wysokości 21 milionów BTC jest uważany za fundamentalną właściwość Bitcoin. Ale czy naprawdę jest ona ustalona?
 
 
-Let's start by looking at what the current consensus rules say about the Supply of Bitcoin, and how much of it will actually be usable. Pieter Wuille wrote a piece about this [on Stack Exchange](https://Bitcoin.stackexchange.com/a/38998/69518), in which he counted how many bitcoins there would be once all coins are mined:
+Zacznijmy od przyjrzenia się temu, co obecne zasady konsensusu mówią o Supply z Bitcoin i ile z nich będzie faktycznie użytecznych. Pieter Wuille napisał o tym artykuł [na stosie Exchange] (https://Bitcoin.stackexchange.com/a/38998/69518), w którym policzył, ile bitcoinów będzie dostępnych po wydobyciu wszystkich monet:
 
 
-> If you sum all these numbers together, you get 20999999.9769 BTC.
+> Po zsumowaniu wszystkich tych liczb otrzymujemy 20999999.9769 BTC.
 
-But due to a number of reasons -- such as early problems with coinbase transactions, miners who unintentionally claim less than allowed, and loss of private keys -- that upper limit will never be reached. Wuille concludes:
-
-
-> This leaves us with 20999817.31308491 BTC (taking everything up to block 528333 into account)
-
-However, various wallets have been lost or stolen, transactions have been sent to the wrong Address, people forgot they owned Bitcoin. The totals of this may well be millions. People have tried to tally known losses up [here](https://bitcointalk.org/index.php?topic=7253.0).
+Jednak z wielu powodów - takich jak wczesne problemy z transakcjami coinbase, górnicy, którzy nieumyślnie pobierają mniej niż dozwolone, oraz utrata kluczy prywatnych - ten górny limit nigdy nie zostanie osiągnięty. Wuille podsumowuje:
 
 
-This leaves us with: ??? BTC.
+> To pozostawia nam 20999817.31308491 BTC (biorąc pod uwagę wszystko do bloku 528333)
+
+Jednak różne portfele zostały zgubione lub skradzione, transakcje zostały wysłane do niewłaściwego Address, ludzie zapomnieli, że posiadają Bitcoin. Suma tych strat może sięgać milionów. Ludzie próbowali podliczyć znane straty [tutaj] (https://bitcointalk.org/index.php?topic=7253.0).
 
 
-We can thus be sure that the Bitcoin Supply will be 20999817.31308491 BTC at most. Any lost or unverifiably burnt coins will make this number lower, but we don't know by how much. The interesting thing is that it doesn't really matter, or better yet it does matter in a positive way for Bitcoin holders,
-
-[as explained](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) by Satoshi Nakamoto:
+To pozostawia nas z: ??? BTC.
 
 
-> Lost coins only make everyone else's coins worth slightly more.  Think of it as a donation to everyone.
+Możemy więc być pewni, że Bitcoin Supply będzie co najwyżej 20999817.31308491 BTC. Wszelkie utracone lub nieweryfikowalnie spalone monety sprawią, że liczba ta będzie niższa, ale nie wiemy o ile. Interesujące jest to, że tak naprawdę nie ma to znaczenia, a nawet więcej, ma to znaczenie w pozytywny sposób dla posiadaczy Bitcoin,
 
-The finite Supply will shrink and this should, at least in theory, cause price deflation.
-
-
-More important than the exact number of coins in circulation is the way the Supply limit is enforced without any central authority. Alias chytrik puts it well on [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518):
+[jak wyjaśniono](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) przez Satoshi Nakamoto:
 
 
-> So the answer is that you don't have to trust someone to not increase the Supply. You just have to run some code that will verify that they haven't.
+> Utracone monety tylko nieznacznie zwiększają wartość monet innych graczy.  Potraktuj to jako darowiznę dla wszystkich.
 
-Even if some full nodes turn to the dark side and decide to accept blocks with higher-value coinbase transactions, all the remaining full nodes will simply neglect them and continue doing business as usual. Some full nodes may, intentionally or unintentionally, run evil softwares, yet the collective will robustly secure the Blockchain. In conclusion, you can choose to trust the system without having to trust anyone.
-
-
-### Block subsidy and transaction fees
+Skończona Supply będzie się kurczyć, co powinno, przynajmniej teoretycznie, spowodować deflację cen.
 
 
-
-A Block reward is composed of the block subsidy plus transaction fees. The Block reward needs to cover Bitcoin's security costs. We can say for sure that under today's conditions with regard to block subsidy, transaction fees, Bitcoin price, Mempool size, Hash power, degree of decentralization etc., the incentives for every player to play by the rules are high enough to preserve a secure monetary system.
-
-
-What happens when the block subsidy approaches zero? To keep things simple, let's assume it actually equals zero. At this point, the system's security cost is covered through transaction fees only. What the future holds for us when this happens, we cannot know. The uncertainty factors are numerous and we are left to speculations. For example, Paul Sztorc's contribution to the subject [in his Truthcoin blog](https://www.truthcoin.info/blog/security-budget/) is mostly speculations, but he has at least one solid point (please note that M2, as referred to by Sztorc, is a measurement of a fiat money Supply):
+Ważniejszy od dokładnej liczby monet w obiegu jest sposób, w jaki limit Supply jest egzekwowany bez żadnego centralnego organu. Alias chytrik dobrze to ujął na [Stack Exchange] (https://Bitcoin.stackexchange.com/a/106830/69518):
 
 
-> While the two are mixed into the same "security budget", the block subsidy and txn-fees are utterly and completely different. They are as different from each other, as "VISA’s total profits in 2017" are from the "total increase in M2 in 2017".
+> Odpowiedź jest więc taka, że nie musisz ufać komuś, że nie zwiększy Supply. Wystarczy uruchomić kod, który sprawdzi, czy tego nie zrobił.
 
-Today, it is holders who pay for security (via monetary inflation). Tomorrow it will be the spenders' turn to somehow shoulder this burden, as illustrated below.
+Nawet jeśli niektóre pełne węzły przejdą na ciemną stronę i zdecydują się zaakceptować bloki z transakcjami coinbase o wyższej wartości, wszystkie pozostałe pełne węzły po prostu je zignorują i będą kontynuować działalność jak zwykle. Niektóre pełne węzły mogą, celowo lub nieumyślnie, uruchamiać złe oprogramowanie, ale kolektyw będzie solidnie zabezpieczał Blockchain. Podsumowując, możesz zaufać systemowi bez konieczności ufania komukolwiek.
+
+
+### Subwencja blokowa i opłaty transakcyjne
+
+
+
+Block reward składa się z dotacji blokowej oraz opłat transakcyjnych. Block reward musi pokryć koszty bezpieczeństwa Bitcoin. Możemy z całą pewnością stwierdzić, że w dzisiejszych warunkach w odniesieniu do dotacji blokowej, opłat transakcyjnych, ceny Bitcoin, wielkości Mempool, mocy Hash, stopnia decentralizacji itp. zachęty dla każdego gracza do gry zgodnie z zasadami są wystarczająco wysokie, aby zachować bezpieczny system monetarny.
+
+
+Co się dzieje, gdy subsydium blokowe zbliża się do zera? Aby zachować prostotę, załóżmy, że faktycznie wynosi ona zero. W tym momencie koszt bezpieczeństwa systemu jest pokrywany wyłącznie z opłat transakcyjnych. Nie możemy wiedzieć, co przyniesie nam przyszłość, gdy tak się stanie. Czynniki niepewności są liczne i jesteśmy zdani na spekulacje. Na przykład wkład Paula Sztorca w ten temat [na jego blogu Truthcoin] (https://www.truthcoin.info/blog/security-budget/) to głównie spekulacje, ale ma on co najmniej jeden solidny punkt (należy pamiętać, że M2, o którym mówi Sztorc, jest miarą pieniądza fiducjarnego Supply):
+
+
+> Podczas gdy oba są mieszane w tym samym "budżecie bezpieczeństwa", dotacja blokowa i opłaty txn są całkowicie i całkowicie różne. Różnią się od siebie tak bardzo, jak "całkowite zyski VISA w 2017 r." różnią się od "całkowitego wzrostu M2 w 2017 r.".
+
+Dziś to posiadacze płacą za bezpieczeństwo (poprzez inflację monetarną). Jutro przyjdzie kolej na wydawców, którzy w jakiś sposób wezmą na siebie ten ciężar, jak pokazano poniżej.
 
 
 ![image](assets/finitesupply.webp)
 
 
-As time goes by, the bearing of security costs will shift from holders to spenders
+W miarę upływu czasu ponoszenie kosztów bezpieczeństwa przesunie się z posiadaczy na wydawców
 
 
-When transaction fees are the main motivation for Mining, the incentives shift. Most notably, if the Mempool of a Miner doesn't contain enough transaction fees, it might become more profitable for that Miner to rewrite Bitcoin's history rather than extending it. Bitcoin Optech has a specific [section on this behavior](https://bitcoinops.org/en/topics/fee-sniping/), called *fee sniping*, written by David Harding:
+Gdy opłaty transakcyjne są główną motywacją dla Mining, zachęty ulegają zmianie. W szczególności, jeśli Mempool Miner nie zawiera wystarczającej ilości opłat transakcyjnych, może stać się bardziej opłacalne dla tego Miner, aby przepisać historię Bitcoin zamiast ją rozszerzać. Bitcoin Optech ma specjalną [sekcję na temat tego zachowania] (https://bitcoinops.org/en/topics/fee-sniping/), zwaną *fee sniping*, napisaną przez Davida Hardinga:
 
 
-> Fee sniping is a problem that may occur as Bitcoin’s subsidy continues to diminish and transaction fees begin to dominate Bitcoin’s block rewards. If transaction fees are all that matter, then a Miner with `x` percent of the Hash rate has a `x` percent chance of Mining the next block, so the expected value to them of honestly Mining is `x` percent of the [best feerate set of transactions](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) in their Mempool.
+> Fee sniping to problem, który może się pojawić, gdy dotacja Bitcoin będzie się zmniejszać, a opłaty transakcyjne zaczną dominować w nagrodach za bloki Bitcoin. Jeśli opłaty transakcyjne są wszystkim, co ma znaczenie, to Miner z `x` procentem stawki Hash ma `x` procent szans na Mining w następnym bloku, więc oczekiwana wartość dla nich uczciwego Mining wynosi `x` procent [najlepszego zestawu transakcji] (https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) w ich Mempool.
 >
 
-> Alternatively, a Miner could dishonestly attempt to re-mine the previous block plus a wholly new block to extend the chain. This behavior is referred to as fee sniping, and the dishonest Miner’s chance of succeeding at it if every other Miner is honest is `(x/(1-x))^2`. Even though fee sniping has an overall lower probability of success than honest Mining, attempting dishonest Mining could be the more profitable choice if transactions in the previous block paid significantly higher feerates than the transactions currently in the Mempool—a small chance at a large amount can be worth more than a large chance at a small amount.
+> Alternatywnie, Miner może nieuczciwie próbować ponownie wydobyć poprzedni blok plus całkowicie nowy blok, aby przedłużyć łańcuch. Takie zachowanie jest określane jako fee sniping, a szansa na sukces nieuczciwego Miner, jeśli każdy inny Miner jest uczciwy, wynosi `(x/(1-x))^2`. Pomimo tego, że fee sniping ma ogólnie niższe prawdopodobieństwo sukcesu niż uczciwy Mining, próba nieuczciwego Mining może być bardziej opłacalnym wyborem, jeśli transakcje w poprzednim bloku zapłaciły znacznie wyższe stawki niż transakcje obecnie w Mempool - mała szansa na dużą kwotę może być warta więcej niż duża szansa na małą kwotę.
 
-Throwing a wet blanket over our hopes for the future is the fact that if miners start conducting fee sniping, this will incentivize others to do the same, leaving even fewer honest miners. This could severely impair the overall security of Bitcoin. Harding goes on to list a few countermeasures that can be taken, such as relying on transaction time locks to restrict where in the Blockchain the transaction may appear.
-
-
-So, given that the consensus on finite Supply remains, the block subsidy will - thanks to [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) which fixed a very-long-term inflation bug - get to zero around year 2140. Will the transaction fees thereafter be enough to secure the network?
+Naszą nadzieję na przyszłość przekreśla fakt, że jeśli górnicy zaczną snajperować, zachęci to innych do robienia tego samego, pozostawiając jeszcze mniej uczciwych górników. Może to poważnie pogorszyć ogólne bezpieczeństwo Bitcoin. Harding wymienia kilka środków zaradczych, które można podjąć, takich jak poleganie na blokadach czasu transakcji w celu ograniczenia miejsca, w którym w Blockchain może pojawić się transakcja.
 
 
-It's impossible to say, but we do know a few things:
+Tak więc, biorąc pod uwagę, że konsensus w sprawie skończonego Supply pozostaje, dotacja blokowa - dzięki [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki), który naprawił bardzo długoterminowy błąd inflacji - osiągnie zero około roku 2140. Czy opłaty transakcyjne będą wystarczające, aby zabezpieczyć sieć?
 
 
-- A century is a *long* time from the Bitcoin perspective. If it is still around, it will have probably evolved enormously.
-- If an overwhelming economic majority finds it necessary to change the rules and introduce for example a perpetual annual 0.1% or 1% monetary inflation, the Supply of Bitcoin will no longer be finite.
-- With zero block subsidy and an empty or nearly empty Mempool, things can become shaky due to fee sniping.
+Nie da się tego stwierdzić, ale wiemy kilka rzeczy:
 
 
-Since the transition to a fee-only Block reward is so far in the future, it might be wise not to jump to conclusions and try to fix the potential issues while we can. For example, Peter Todd thinks there's an actual risk that Bitcoin's security budget won't be enough in the future, and consequently argues for a small perpetual inflation in Bitcoin. However, he also thinks it's not a good idea to discuss such an issue at this time, as [he said on the What Bitcoin Did podcast](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+- Stulecie to *długi* czas z perspektywy Bitcoin. Jeśli nadal istnieje, prawdopodobnie przeszedł ogromną ewolucję.
+- Jeśli przytłaczająca większość ekonomiczna uzna za konieczne zmienić zasady i wprowadzić na przykład wieczną roczną inflację monetarną w wysokości 0,1% lub 1%, Supply z Bitcoin nie będzie już skończony.
+- Przy zerowej dotacji blokowej i pustym lub prawie pustym Mempool sytuacja może stać się chwiejna z powodu snipowania opłat.
 
 
-> But, that’s a risk like 10, 20 years in the future. That is a very long time. And, by then, who the hell knows what the risks are?
-
-Perhaps we could think of Bitcoin as something organic. Imagine a small, slowly-growing oak plant. Imagine also that you have never seen a fully grown tree in your life. Wouldn't it be wise then to restrain your control issues instead of setting in advance all the rules on how this plant should be allowed to evolve and grow?
+Ponieważ przejście do Block reward opartego wyłącznie na opłatach jest tak odległą przyszłością, rozsądnie byłoby nie wyciągać pochopnych wniosków i spróbować naprawić potencjalne problemy, póki jeszcze możemy. Na przykład Peter Todd uważa, że istnieje rzeczywiste ryzyko, że budżet bezpieczeństwa Bitcoin nie będzie wystarczający w przyszłości, a co za tym idzie, opowiada się za niewielką wieczną inflacją w Bitcoin. Jednak uważa on również, że nie jest dobrym pomysłem omawianie takiej kwestii w tej chwili, jak [powiedział w podcaście What Bitcoin Did] (https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
 
 
-### Conclusion about Finite Supply
+> Jest to jednak ryzyko sięgające 10, 20 lat w przyszłość. To bardzo długi okres. A do tego czasu, kto do cholery wie, jakie jest ryzyko?
+
+Być może moglibyśmy myśleć o Bitcoin jak o czymś organicznym. Wyobraźmy sobie mały, powoli rosnący dąb. Wyobraź sobie również, że nigdy w życiu nie widziałeś w pełni rozwiniętego drzewa. Czy nie byłoby mądrze ograniczyć kontrolę zamiast ustalać z góry wszystkie zasady dotyczące tego, jak ta roślina powinna ewoluować i rosnąć?
+
+
+### Wnioski dotyczące Supply
 
 
 
-Whether the Bitcoin Supply will grow past 21 million we cannot say today, and that is probably not so bad. Ensuring that the security budget remains high enough is crucial but not urgent. Let's have this discussion in 10-50 years, when we know more. If it's still relevant.
+Czy Bitcoin Supply wzrośnie powyżej 21 milionów, nie możemy dziś powiedzieć, a to prawdopodobnie nie jest takie złe. Zapewnienie, że budżet bezpieczeństwa pozostanie wystarczająco wysoki, jest kluczowe, ale nie pilne. Porozmawiajmy o tym za 10-50 lat, kiedy będziemy wiedzieć więcej. Jeśli nadal będzie to istotne.
 
 
 # Bitcoin Gouvernance
@@ -739,7 +779,7 @@ Whether the Bitcoin Supply will grow past 21 million we cannot say today, and th
 <partId>411bf53f-af4b-50f1-b71b-e40fe3ff64b7</partId>
 
 
-## Upgrading
+## Aktualizacja
 
 <chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
 
@@ -748,160 +788,160 @@ Whether the Bitcoin Supply will grow past 21 million we cannot say today, and th
 ![](assets/upgrading-banner.webp)
 
 
-Upgrading Bitcoin in a safe way can be extremely difficult. Some changes take several years to roll out. In this chapter, we learn about the common vocabulary around upgrading Bitcoin, and explore some examples of historic upgrades to its protocol as well as the insights that we gained from them. Finally, we talk about chain splits and the risks and costs related to them.
+Bezpieczna aktualizacja Bitcoin może być niezwykle trudna. Wprowadzenie niektórych zmian zajmuje kilka lat. W tym rozdziale zapoznamy się z powszechnym słownictwem dotyczącym aktualizacji Bitcoin i przeanalizujemy kilka przykładów historycznych aktualizacji jego protokołu, a także spostrzeżenia, które z nich uzyskaliśmy. Na koniec omawiamy podziały łańcucha oraz związane z nimi ryzyko i koszty.
 
 
-To get in tune for this chapter, you should read [David Harding's piece on harmony and discord](https://bitcointalk.org/dec/p1.html):
+Aby dobrze przygotować się do tego rozdziału, należy przeczytać [artykuł Davida Hardinga na temat harmonii i dysonansu] (https://bitcointalk.org/dec/p1.html):
 
 
-> Bitcoin experts talk often of consensus, whose meaning is abstract and Hard to pin down. But the word consensus evolved from the Latin word concentus, "a singing together harmony" so let us talk not of Bitcoin consensus but of Bitcoin harmony.
+> Eksperci Bitcoin często mówią o konsensusie, którego znaczenie jest abstrakcyjne i Hard trudne do ustalenia. Ale słowo konsensus wyewoluowało z łacińskiego słowa concentus, "śpiewająca razem harmonia", więc nie mówmy o Bitcoin konsensusie, ale o Bitcoin harmonii.
 >
 
-> Harmony is what makes Bitcoin work. Thousands of full nodes each work independently to verify the transactions they receive are valid, producing a harmonious agreement about the state of the Bitcoin Ledger without any node operator needing to trust anyone else. It's similar to a chorus where each member sings the same song at the same time to produce something far more beautiful than any of them could produce alone.
+> Harmonia jest tym, co sprawia, że Bitcoin działa. Tysiące pełnych węzłów pracują niezależnie, aby zweryfikować poprawność otrzymywanych transakcji, tworząc harmonijne porozumienie co do stanu Bitcoin Ledger, bez konieczności ufania komukolwiek innemu przez operatora węzła. Przypomina to chór, w którym każdy członek śpiewa tę samą piosenkę w tym samym czasie, tworząc coś o wiele piękniejszego, niż każdy z nich mógłby stworzyć sam.
 >
 
-> The result of Bitcoin harmony is a system where bitcoins are safe not just from petty thieves (provided you keep your keys secure) but also from endless inflation, mass or targeted confiscation, or simply the bureaucratic morass that is the legacy financial system.
+> Rezultatem harmonii Bitcoin jest system, w którym bitcoiny są bezpieczne nie tylko przed drobnymi złodziejami (pod warunkiem, że trzymasz klucze w bezpiecznym miejscu), ale także przed niekończącą się inflacją, masową lub ukierunkowaną konfiskatą lub po prostu biurokratycznym gąszczem, jakim jest dotychczasowy system finansowy.
 
-This chapter discusses how Bitcoin can be upgraded without causing discord. Staying in harmony, i.e. maintaining consensus, is indeed one of the biggest challenges in Bitcoin development. There are lots of nuances to upgrade mechanisms, which might be best understood by studying actual cases of previous upgrades. For this reason, the chapter puts much focus on historic examples, and it starts by setting the stage with some useful vocabulary.
-
-
-### Vocabulary
+W tym rozdziale omówiono, w jaki sposób można zaktualizować Bitcoin bez wywoływania niezgody. Zachowanie harmonii, tj. utrzymanie konsensusu, jest rzeczywiście jednym z największych wyzwań w rozwoju Bitcoin. Istnieje wiele niuansów w mechanizmach aktualizacji, które można najlepiej zrozumieć, studiując rzeczywiste przypadki poprzednich aktualizacji. Z tego powodu rozdział ten kładzie duży nacisk na przykłady historyczne i rozpoczyna się od wprowadzenia przydatnego słownictwa.
 
 
-
-According to Wikipedia, [forward compatibility](https://en.wikipedia.org/wiki/Forward_compatibility) refers to the condition in which an old software can process data created by newer softwares, ignoring the parts it doesn't understand:
-
-
-A standard supports forward compatibility if a product that complies with earlier versions can "gracefully" process input designed for later versions of the standard, ignoring new parts which it does not understand.
-
-
-Vice versa, [backward compatibility](https://en.wikipedia.org/wiki/Backward_compatibility) refers to when data from an old software is usable on newer softwares. A change is said to be fully compatible if it's both forward and backward compatible.
-
-
-A change to the Bitcoin consensus rules is said to be a *Soft Fork* if it is fully compatible. This is the most common way to upgrade Bitcoin, for a number of reasons that we'll discuss further in this chapter. If a change to the Bitcoin consensus rules is backward compatible but not forward compatible, it is called a *Hard Fork*.
-
-
-For a technical overview of Soft forks and Hard forks, please read [chapter 11 of Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). It explains these terms and also dives into the upgrade mechanisms. It's recommended, although not strictly necessary, to get a grip on this before you continue reading.
-
-
-### Historic upgrades
+### Słownictwo
 
 
 
-Bitcoin is not the same today as it was when the Genesis block was created. Several upgrades have been made throughout the years. In 2018, Eric Lombrozo [spoke at the Breaking Bitcoin conference](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) about Bitcoin's different upgrading mechanisms, pointing out how much they have evolved over time. He even explained how Satoshi Nakamoto once upgraded Bitcoin through a Hard Fork:
+Według Wikipedii [kompatybilność w przód] (https://en.wikipedia.org/wiki/Forward_compatibility) odnosi się do stanu, w którym stare oprogramowanie może przetwarzać dane utworzone przez nowsze oprogramowanie, ignorując części, których nie rozumie:
 
 
-> There was actually a Hard-Fork in Bitcoin that Satoshi did that we would never do it this way- it’s a pretty bad way to do it. If you look at the git commit description here [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], he says something about reverted makefile.unix wx-config version 0.3.6. Right. That’s all it says. It has no indication that it has a breaking change at all. He was basically hiding it in there. He also [posted to bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) and said, please upgrade to 0.3.6 ASAP. We fixed an implementation bug where it is possible that bogus transactions can be displayed as accepted. Do not accept Bitcoin payments until you upgrade to 0.3.6. If you can’t upgrade right away, then it would be best to shutdown your Bitcoin node until you do. And then on top of that, I don’t know why he decided to do this as well, he decided to add some optimizations in the same code. Fix a bug and add some optimizations.
+Standard wspiera kompatybilność w przód, jeśli produkt zgodny z wcześniejszymi wersjami może "z wdziękiem" przetwarzać dane wejściowe zaprojektowane dla późniejszych wersji standardu, ignorując nowe części, których nie rozumie.
 
-He points out that, be it intentionally or not, this Hard Fork created opportunities for future Soft forks, namely the Script operators (opcodes) OP_NOP1-OP_NOP10. We'll look more into this code change in cve-2010-5141. These opcodes have been used for two Soft forks so far:
+
+I odwrotnie, [kompatybilność wsteczna] (https://en.wikipedia.org/wiki/Backward_compatibility) odnosi się do sytuacji, gdy dane ze starego oprogramowania można wykorzystać w nowszym oprogramowaniu. Mówi się, że zmiana jest w pełni kompatybilna, jeśli jest kompatybilna zarówno do przodu, jak i wstecz.
+
+
+Zmiana zasad konsensusu Bitcoin jest określana jako * Soft Fork*, jeśli jest w pełni kompatybilna. Jest to najczęstszy sposób aktualizacji Bitcoin z wielu powodów, które omówimy w dalszej części tego rozdziału. Jeśli zmiana reguł konsensusu Bitcoin jest kompatybilna wstecz, ale nie jest kompatybilna do przodu, nazywana jest * Hard Fork*.
+
+
+Aby zapoznać się z technicznym przeglądem forków Soft i Hard, przeczytaj [rozdział 11 Grokking Bitcoin] (https://rosenbaum.se/book/grokking-Bitcoin-11.html). Wyjaśnia on te terminy, a także zagłębia się w mechanizmy aktualizacji. Zaleca się, choć nie jest to absolutnie konieczne, zapoznanie się z tym przed kontynuowaniem czytania.
+
+
+### Historyczne aktualizacje
+
+
+
+Bitcoin nie jest dziś taki sam, jak w momencie tworzenia bloku Genesis. Na przestrzeni lat dokonano kilku aktualizacji. W 2018 r. Eric Lombrozo [przemawiał na konferencji Breaking Bitcoin] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) o różnych mechanizmach aktualizacji Bitcoin, wskazując, jak bardzo ewoluowały one w czasie. Wyjaśnił nawet, w jaki sposób Satoshi Nakamoto zaktualizował Bitcoin poprzez Hard Fork:
+
+
+> W rzeczywistości było Hard-Fork w Bitcoin, które Satoshi zrobiło, że nigdy nie zrobilibyśmy tego w ten sposób - to dość zły sposób na zrobienie tego. Jeśli spojrzysz na opis commitu git tutaj [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], on mówi coś o przywróconym makefile.unix wx-config w wersji 0.3.6. Racja. To wszystko, co mówi. Nic nie wskazuje na to, że w ogóle wprowadzono przełomową zmianę. Zasadniczo ukrył ją tam. Napisał również [post na bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) i powiedział, że prosimy o jak najszybszą aktualizację do wersji 0.3.6. Naprawiliśmy błąd w implementacji, przez który fałszywe transakcje mogą być wyświetlane jako zaakceptowane. Nie akceptuj płatności Bitcoin do czasu aktualizacji do wersji 0.3.6. Jeśli nie możesz dokonać aktualizacji od razu, najlepiej będzie wyłączyć węzeł Bitcoin do czasu aktualizacji. A na dodatek, nie wiem dlaczego zdecydował się to zrobić, postanowił dodać kilka optymalizacji w tym samym kodzie. Naprawić błąd i dodać kilka optymalizacji.
+
+Zwraca on uwagę, że czy to celowo, czy nie, ten Hard Fork stworzył możliwości dla przyszłych forków Soft, a mianowicie operatorów skryptowych (opcodes) OP_NOP1-OP_NOP10. Przyjrzymy się bliżej tej zmianie kodu w cve-2010-5141. Te kody operacyjne były dotychczas używane w dwóch forkach Soft:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo also provides an overview of the way upgrade mechanisms have evolved throughout the years, up until 2017. Since then, only one other major upgrade, Taproot, has been deployed. The long and somewhat chaotic process that led to its activation has helped us gain further insights on upgrading mechanisms in Bitcoin.
+Lombrozo przedstawia również przegląd sposobu, w jaki mechanizmy aktualizacji ewoluowały na przestrzeni lat, aż do 2017 roku. Od tego czasu wdrożono tylko jedną dużą aktualizację, Taproot. Długi i nieco chaotyczny proces, który doprowadził do jego aktywacji, pomógł nam uzyskać dalszy wgląd w mechanizmy aktualizacji Bitcoin.
 
 
-#### SegWit upgrade
+#### Aktualizacja SegWit
 
 
 
-While all the upgrades preceding SegWit had been more or less painless, this one was different. When SegWit activation code was released, in October 2016, there seemed to be overwhelming support for it among Bitcoin users, but for some reason miners didn't signal support for this upgrade, which stalled the activation with no resolution in sight.
+Podczas gdy wszystkie aktualizacje poprzedzające SegWit były mniej lub bardziej bezbolesne, ta była inna. Kiedy kod aktywacyjny SegWit został wydany w październiku 2016 r., wydawało się, że użytkownicy Bitcoin mają dla niego ogromne poparcie, ale z jakiegoś powodu górnicy nie zasygnalizowali wsparcia dla tej aktualizacji, co opóźniło aktywację bez widocznego rozwiązania.
 
 
-Aaron van Wirdum describes this winding road in his Bitcoin Magazine article [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). He starts by explaining what SegWit is and how that taps into the block size debate. Van Wirdum then outlines the turn of events that led to its final activation. At the center of this process was an upgrade mechanism called *user activated Soft Fork*, or UASF for short, that was proposed by user Shaolinfry:
+Aaron van Wirdum opisuje tę krętą drogę w swoim artykule w Bitcoin Magazine [The Long Road To SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Zaczyna od wyjaśnienia, czym jest SegWit i w jaki sposób nawiązuje do debaty na temat rozmiaru bloku. Następnie Van Wirdum nakreśla przebieg wydarzeń, które doprowadziły do jego ostatecznej aktywacji. W centrum tego procesu znajdował się mechanizm aktualizacji o nazwie *user activated Soft Fork*, w skrócie UASF, który został zaproponowany przez użytkownika Shaolinfry:
 
 
-> Shaolinfry proposed an alternative: a user activated Soft Fork (UASF). Instead of Hash power activation, a user activated Soft Fork would have a “‘flag day activation’ where nodes begin enforcement at a predetermined time in the future.” As long as such a UASF is enforced by an economic majority, this should compel a majority of miners to follow (or activate) the Soft Fork.
+> Shaolinfry zaproponował alternatywę: aktywowany przez użytkownika Soft Fork (UASF). Zamiast aktywacji mocy Hash, aktywowany przez użytkownika Soft Fork miałby "aktywację dnia flagi", w której węzły rozpoczynałyby egzekwowanie w określonym czasie w przyszłości" Dopóki taka UASF jest egzekwowana przez większość ekonomiczną, powinno to zmusić większość górników do przestrzegania (lub aktywacji) Soft Fork.
 
-Among other things, he cites Shaolinfry's email to the Bitcoin-dev mailing list. In that occasion Shaolinfry [argued against Miner activated Soft forks](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), listing a number of problems with them:
+Cytuje on między innymi e-mail Shaolinfry'ego do listy mailingowej Bitcoin-dev. Przy tej okazji Shaolinfry [argumentował przeciwko forkom Miner aktywowanym Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), wymieniając szereg problemów z nimi związanych:
 
 
-> Firstly, it requires trusting the Hash power will validate after activation.  The BIP66 Soft Fork was a case where 95% of the Hashrate was signaling readiness but in reality about half was not actually validating the upgraded rules and mined upon an invalid block by mistake.
+> Po pierwsze, wymaga to zaufania, że moc Hash zostanie zatwierdzona po aktywacji.  BIP66 Soft Fork był przypadkiem, w którym 95% Hashrate sygnalizowało gotowość, ale w rzeczywistości około połowa nie walidowała zaktualizowanych reguł i przez pomyłkę wydobywała nieważny blok.
 >
 
-> Secondly, Miner signalling has a natural veto which allows a small percentage of Hashrate to veto node activation of the upgrade for everyone. To date, Soft forks have taken advantage of the relatively centralised Mining landscape where there are relatively few Mining pools building valid blocks; as we move towards more Hashrate decentralization, it's likely that we will suffer more and more from "upgrade inertia" which will veto most upgrades.
+> Po drugie, sygnalizacja Miner ma naturalne weto, które pozwala niewielkiemu procentowi Hashrate zawetować aktywację węzła aktualizacji dla wszystkich. Do tej pory forki Soft wykorzystywały względnie scentralizowany krajobraz Mining, w którym istnieje stosunkowo niewiele pul Mining budujących ważne bloki; w miarę jak zmierzamy w kierunku większej decentralizacji Hashrate, jest prawdopodobne, że będziemy coraz bardziej cierpieć z powodu "bezwładności aktualizacji", która zawetuje większość aktualizacji.
 
-Shaolinfry also drew attention to a common misinterpretation of Miner signaling: people generally thought that it was a means by which miners could decide upon protocol upgrades, rather than an action that helped coordinate upgrades. Due to this misunderstanding, miners might have also felt obliged to proclaim in public their views on a certain Soft Fork, as if that gave weight to the proposal.
-
-
-The UASF proposal is, in a nutshell, a "flag day" on which nodes start enforcing specific new rules. That way, miners don't have to make a collective effort to coordinate the upgrade, but *can* trigger activation earlier than the flag day if enough blocks signal support:
+Shaolinfry zwrócił również uwagę na powszechną błędną interpretację sygnalizacji Miner: ludzie ogólnie uważali, że jest to środek, za pomocą którego górnicy mogą decydować o aktualizacjach protokołu, a nie działanie, które pomaga koordynować aktualizacje. Z powodu tego nieporozumienia górnicy mogli również czuć się zobowiązani do publicznego głoszenia swoich poglądów na temat określonego Soft Fork, tak jakby nadawało to wagę propozycji.
 
 
-> My suggestion is to have the best of both worlds. Since a user activated Soft Fork needs a relatively long lead time before activation, we can combine with BIP9 to give the option of a faster Hash power coordinated activation or activation by flag day, whichever is the sooner.
-> In both cases, we can leverage the warning systems in BIP9. The change is relatively simple, adding an activation-time parameter which will transition the BIP9 state to LOCKED_IN before the end of the BIP9 deployment timeout.
-
-This idea caught a lot of interest, but didn't seem to reach near unanimous support, which caused concern for a potential chain split. The article by Aaron van Wirdum explains how this finally got resolved thanks to [BIP91](https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki), authored by James Hilliard:
+Propozycja UASF to, w skrócie, "dzień flagi", w którym węzły zaczynają egzekwować określone nowe zasady. W ten sposób górnicy nie muszą podejmować wspólnych wysiłków w celu skoordynowania aktualizacji, ale *mogą* uruchomić aktywację wcześniej niż w dniu flagi, jeśli wystarczająca liczba bloków zasygnalizuje wsparcie:
 
 
-> Hilliard proposed a slightly complex but clever solution that would make everything compatible: Segregated Witness activation as proposed by the Bitcoin Core development team, the BIP148 UASF and the New York Agreement activation mechanism. His BIP91 could keep Bitcoin whole — at least throughout SegWit activation.
+> Moja sugestia jest taka, aby uzyskać to, co najlepsze z obu światów. Ponieważ aktywowany przez użytkownika Soft Fork wymaga stosunkowo długiego czasu realizacji przed aktywacją, możemy połączyć z BIP9, aby dać możliwość szybszej aktywacji skoordynowanej z mocą Hash lub aktywacji w dniu flagi, w zależności od tego, co nastąpi wcześniej.
+> W obu przypadkach możemy wykorzystać systemy ostrzegania w BIP9. Zmiana jest stosunkowo prosta, dodając parametr czasu aktywacji, który spowoduje przejście stanu BIP9 do LOCKED_IN przed końcem limitu czasu wdrożenia BIP9.
 
-There were some more complicating factors involved (e.g. the so-called "New York Agreement"), that this BIP had to take into consideration. We encourage you to read Van Wirdum's article in full to learn about the many interesting details in this story.
-
-
-#### Post-SegWit discussion
+Pomysł ten spotkał się z dużym zainteresowaniem, ale nie uzyskał jednomyślnego poparcia, co spowodowało obawy o potencjalny podział łańcucha. Artykuł Aarona van Wirduma wyjaśnia, jak ostatecznie rozwiązano tę kwestię dzięki [BIP91](https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki), którego autorem jest James Hilliard:
 
 
-After the SegWit deployment, a discussion about deployment mechanisms emerged. As noted by Eric Lombrozo in [his talk at the Breaking Bitcoin conference](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) and by Shaolinfry, a Miner activated Soft Fork isn't the ideal upgrade mechanism:
+> Hilliard zaproponował nieco skomplikowane, ale sprytne rozwiązanie, które sprawiłoby, że wszystko byłoby kompatybilne: Segregowana aktywacja świadka, zaproponowana przez zespół ds. rozwoju Bitcoin Core, BIP148 UASF i mechanizm aktywacji New York Agreement. Jego BIP91 mógłby utrzymać Bitcoin w całości - przynajmniej podczas aktywacji SegWit.
+
+Wiązało się to z kilkoma bardziej skomplikowanymi czynnikami (np. tak zwanym "porozumieniem nowojorskim"), które ten BIP musiał wziąć pod uwagę. Zachęcamy do przeczytania całego artykułu Van Wirduma, aby poznać wiele interesujących szczegółów tej historii.
 
 
-> At some point we’re probably going to want to add more features to the Bitcoin protocol. This is a big philosophical question we’re asking ourselves. Do we do a UASF for the next one? What about a hybrid approach? Miner activated by itself has been ruled out. bip9 we’re not going to use again.
-
-In January 2020, Matt Corallo [sent an email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) to the Bitcoin-dev mailing list that started a discussion on future Soft Fork deployment mechanisms. He listed five goals that he thought were essential in an upgrade. David Harding [summarizes them in a Bitcoin Optech newsletter](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) as:
+#### Dyskusja po SegWit
 
 
-> The ability to abort if a serious objection to the proposed consensus rules changes is encountered . The allocation of enough time after the release of updated software to ensure that most economic nodes are upgraded to enforce those rules . The expectation that the network Hash rate will be roughly the same before and after the change, as well as during any transition . The prevention, as much as possible, of the creation of blocks that are invalid under the new rules, which could lead to false confirmations in non-upgraded nodes and SPV clients . The assurance that the abort mechanisms can’t be misused by griefers or partisans to withhold a widely desired upgrade with no known problems
-
-What Corallo proposes is a combination of a Miner activated Soft Fork and a user activated Soft Fork:
+Po wdrożeniu SegWit pojawiła się dyskusja na temat mechanizmów wdrażania. Jak zauważył Eric Lombrozo w [swoim wystąpieniu na konferencji Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) i Shaolinfry, Miner aktywowany Soft Fork nie jest idealnym mechanizmem aktualizacji:
 
 
-> Thus, as something a bit more concrete, I think an activation method which sets the right precedent and appropriately considers the above goals, would be:
+> W pewnym momencie prawdopodobnie będziemy chcieli dodać więcej funkcji do protokołu Bitcoin. To wielkie filozoficzne pytanie, które sobie zadajemy. Czy zrobimy UASF dla następnego? A co z podejściem hybrydowym? Miner aktywowany samodzielnie został wykluczony. bip9 nie będziemy używać ponownie.
+
+W styczniu 2020 roku Matt Corallo [wysłał wiadomość e-mail](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) na listę mailingową Bitcoin-dev, która rozpoczęła dyskusję na temat przyszłych mechanizmów wdrażania Soft Fork. Wymienił pięć celów, które jego zdaniem były niezbędne w aktualizacji. David Harding [podsumował je w biuletynie Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) jako:
+
+
+> Możliwość przerwania w przypadku napotkania poważnego sprzeciwu wobec proponowanych zmian zasad konsensusu. Przydzielenie wystarczającej ilości czasu po wydaniu zaktualizowanego oprogramowania, aby zapewnić, że większość węzłów ekonomicznych zostanie zaktualizowana w celu egzekwowania tych zasad. Oczekiwanie, że wskaźnik Hash sieci będzie mniej więcej taki sam przed i po zmianie, a także w okresie przejściowym. Zapobieganie, w miarę możliwości, tworzeniu bloków, które są nieważne zgodnie z nowymi zasadami, co mogłoby prowadzić do fałszywych potwierdzeń w niezaktualizowanych węzłach i klientach SPV. Zapewnienie, że mechanizmy przerywania nie mogą być nadużywane przez żałobników lub partyzantów w celu wstrzymania powszechnie pożądanej aktualizacji bez znanych problemów
+
+To, co proponuje Corallo, to połączenie Miner aktywowanego Soft Fork i Soft Fork aktywowanego przez użytkownika:
+
+
+> Tak więc, jako coś bardziej konkretnego, myślę, że metoda aktywacji, która ustanawia właściwy precedens i odpowiednio uwzględnia powyższe cele, byłaby:
 >
 
-> 1) a standard BIP 9 deployment with a one-year time horizon for
-activation with 95% Miner readiness, +
+> 1) standardowe wdrożenie BIP 9 z rocznym horyzontem czasowym dla
+aktywacja z 95% gotowością Miner, +
 
-> 2) in the case that no activation occurs within a year, a six month
-quieting period during which the community can analyze and discussion
+> 2) w przypadku braku aktywacji w ciągu roku, okres sześciu miesięcy
+okres wyciszenia, podczas którego społeczność może analizować i dyskutować
 
-the reasons for no activation and, +
+powody braku aktywacji i, +
 
-> 3) in the case that it makes sense, a simple command-line/Bitcoin.conf parameter which was supported since the original deployment release would enable users to opt into a BIP 8 deployment with a 24-month time-horizon for flag-day activation (as well as a new Bitcoin Core release enabling the flag universally).
+> 3) w przypadku, gdy ma to sens, prosty parametr wiersza poleceń/Bitcoin.conf, który był obsługiwany od pierwotnej wersji wdrożenia, umożliwiłby użytkownikom wybranie wdrożenia BIP 8 z 24-miesięcznym horyzontem czasowym dla aktywacji flagi dnia (a także nowej wersji Bitcoin Core umożliwiającej powszechne stosowanie flagi).
 >
 
-> This provides a very long time horizon for more standard activation, while still ensuring the goals in #5 are met, even if, in those cases, the time horizon needs to be significantly extended to meet the goals of #3. Developing Bitcoin is not a race. If we have to, waiting 42 months ensures we're not setting a negative precedent that we'll come to regret as Bitcoin continues to grow.
+> Zapewnia to bardzo długi horyzont czasowy dla bardziej standardowej aktywacji, jednocześnie zapewniając osiągnięcie celów określonych w punkcie #5, nawet jeśli w takich przypadkach horyzont czasowy musi zostać znacznie wydłużony, aby osiągnąć cele określone w punkcie #3. Rozwój Bitcoin to nie wyścig. Jeśli musimy, odczekanie 42 miesięcy gwarantuje, że nie ustanowimy negatywnego precedensu, którego będziemy żałować w miarę dalszego rozwoju Bitcoin.
 
-#### Taproot upgrade - Speedy Trial
-
-
-
-When Taproot was ready for deployment in October 2020, meaning all the technical details around its consensus rules had been implemented and had reached broad approval within the community, discussions on how to actually deploy it started to heat up. These discussions had been pretty low key up until that point.
+#### Aktualizacja Taproot - przyspieszony proces
 
 
-Lots of proposals for activation mechanisms started floating around, and David Harding
 
-[summarized them on the Bitcoin Wiki](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). In his article he explained some properties of BIP8, which at that time had some recent changes made in order to make it more flexible.
-
-
-> At the time this document is being written, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) has been drafted based on lessons learned in 2017. One notable change following BIPs 9+148 is that forced activation is now based on block height rather than median time past; a second notable change is that forced activation is a boolean parameter chosen when a Soft Fork’s activation parameters are set either for the initial deployment or updated in a later deployment.
-
-BIP8 without forced activation is very similar to [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) version bits with timeout and delay, with the only significant difference being BIP8’s use of block heights compared to BIP9’s use of median time past. This setting allows the attempt to fail (but it can be retried later).
+Kiedy Taproot był gotowy do wdrożenia w październiku 2020 r., co oznaczało, że wszystkie szczegóły techniczne dotyczące jego zasad konsensusu zostały wdrożone i uzyskały szerokie poparcie w społeczności, dyskusje na temat tego, jak faktycznie go wdrożyć, zaczęły się rozgrzewać. Do tego momentu dyskusje te były dość powściągliwe.
 
 
-BIP8 with forced activation concludes with a mandatory signaling period where all blocks produced in compliance with its rules must signal readiness for the Soft Fork in a way that will trigger activation in an earlier deployment of the same Soft Fork with non-mandatory activation. In other words, if node version x is released without forced activation and, later, version y is released that successfully forces miners to begin signaling readiness within the same time period, both versions will begin enforcing the new consensus rules at the same time.
+Pojawiło się wiele propozycji mechanizmów aktywacji, a David Harding
+
+[podsumował je na Bitcoin Wiki](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). W swoim artykule wyjaśnił niektóre właściwości BIP8, który w tym czasie miał kilka ostatnich zmian wprowadzonych w celu uczynienia go bardziej elastycznym.
 
 
-This flexibility of the revised BIP8 proposal makes it possible to express some other ideas in terms of what they would look like using BIP8. This provides a common factor to use for categorizing many different proposals.
+> W chwili pisania tego dokumentu [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) został opracowany na podstawie doświadczeń zdobytych w 2017 roku. Jedną z godnych uwagi zmian po BIP 9+148 jest to, że wymuszona aktywacja jest teraz oparta na wysokości bloku, a nie na medianie czasu przeszłego; drugą godną uwagi zmianą jest to, że wymuszona aktywacja jest parametrem logicznym wybieranym, gdy parametry aktywacji Soft Fork są ustawiane albo dla początkowego wdrożenia, albo aktualizowane w późniejszym wdrożeniu.
+
+BIP8 bez wymuszonej aktywacji jest bardzo podobny do [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) wersji bitów z limitem czasu i opóźnieniem, z jedyną znaczącą różnicą polegającą na użyciu przez BIP8 wysokości bloków w porównaniu do użycia przez BIP9 mediany czasu przeszłego. To ustawienie pozwala na niepowodzenie próby (ale można ją ponowić później).
 
 
-From this point forward the discussions became very heated, especially around whether `lockinontimeout` should be `true` (as in a user activated Soft Fork, referred to as "BIP8 with forced activation" by Harding) or `false` (as in a Miner activated Soft Fork, referred to as "BIP8 without forced activation" by Harding).
+BIP8 z wymuszoną aktywacją kończy się obowiązkowym okresem sygnalizacji, w którym wszystkie bloki wyprodukowane zgodnie z jego zasadami muszą sygnalizować gotowość do Soft Fork w sposób, który spowoduje aktywację we wcześniejszym wdrożeniu tego samego Soft Fork z nieobowiązkową aktywacją. Innymi słowy, jeśli wersja x węzła zostanie wydana bez wymuszonej aktywacji, a później zostanie wydana wersja y, która z powodzeniem zmusi górników do rozpoczęcia sygnalizowania gotowości w tym samym okresie, obie wersje zaczną egzekwować nowe zasady konsensusu w tym samym czasie.
 
 
-Among the proposals listed, one of them was titled "Let’s see what happens". For some reason, this proposal didn't get much traction until seven months later.
+Ta elastyczność zmienionej propozycji BIP8 umożliwia wyrażenie niektórych innych pomysłów w kategoriach tego, jak wyglądałyby one przy użyciu BIP8. Zapewnia to wspólny czynnik do wykorzystania przy kategoryzacji wielu różnych propozycji.
 
 
-During those seven months, the discussion went on and it seemed like there was no way to reach broad consensus over which deployment mechanism to use. There were mainly two camps: one that preferred `lockinontimeout=true` (the UASF crowd) and the other one that preferred `lockinontimeout=false` (the "try and if it fails rethink" crowd). Since there was no overwhelming support for any of these options, the debate went in circles with seemingly no way forward. Some of these discussions were held on IRC, in a channel called ##Taproot-activation, but [on March 5th 2021](https://gnusha.org/Taproot-activation/2021-03-05.log), something changed:
+Od tego momentu dyskusje stały się bardzo gorące, zwłaszcza wokół tego, czy `lockinontimeout` powinno być `true` (jak w aktywowanym przez użytkownika Soft Fork, określanym przez Hardinga jako "BIP8 z wymuszoną aktywacją") czy `false` (jak w aktywowanym przez Miner Soft Fork, określanym przez Hardinga jako "BIP8 bez wymuszonej aktywacji").
+
+
+Wśród wymienionych propozycji jedna z nich nosiła tytuł "Zobaczmy, co się stanie". Z jakiegoś powodu propozycja ta zyskała na popularności dopiero siedem miesięcy później.
+
+
+W ciągu tych siedmiu miesięcy dyskusja trwała i wydawało się, że nie ma sposobu na osiągnięcie szerokiego konsensusu co do tego, jakiego mechanizmu wdrażania użyć. Istniały głównie dwa obozy: jeden, który preferował `lockinontimeout=true` (tłum UASF) i drugi, który preferował `lockinontimeout=false` (tłum "spróbuj, a jeśli się nie powiedzie, przemyśl ponownie"). Ponieważ nie było przytłaczającego poparcia dla żadnej z tych opcji, debata toczyła się w kółko, pozornie bez żadnej drogi naprzód. Niektóre z tych dyskusji odbywały się na IRC, na kanale o nazwie ##Taproot-activation, ale [5 marca 2021 r.] (https://gnusha.org/Taproot-activation/2021-03-05.log) coś się zmieniło:
 
 
 ```
@@ -918,69 +958,69 @@ During those seven months, the discussion went on and it seemed like there was n
 ```
 
 
-The "let's see what happens" approach finally seemed to click in peoples`' minds. This process would later be labeled as "Speedy Trial" due to its short signaling period. David Harding explains this idea to the broader community in an
+Podejście "zobaczmy, co się stanie" w końcu zdawało się trafiać do umysłów ludzi. Proces ten został później nazwany "Speedy Trial" ze względu na jego krótki okres sygnalizacyjny. David Harding wyjaśnia ten pomysł szerszej społeczności w artykule
 
-[email to the Bitcoin-dev mailing list](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[email na listę dyskusyjną Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
 
-> The earlier version of this proposal was documented over 200 days ago and Taproot's underlying code was merged into Bitcoin Core over 140 days ago.If we had started Speedy Trial at the time Taproot was merged (which is a bit unrealistic), we would've either be less than two months away from having Taproot or we would have moved on to the next activation attempt over a month ago.
+> Wcześniejsza wersja tej propozycji została udokumentowana ponad 200 dni temu, a kod bazowy Taproot został scalony z Bitcoin Core ponad 140 dni temu. Gdybyśmy rozpoczęli Speedy Trial w momencie, gdy Taproot został scalony (co jest nieco nierealne), to albo bylibyśmy mniej niż dwa miesiące od Taproot, albo przeszlibyśmy do kolejnej próby aktywacji ponad miesiąc temu.
 >
 
-> Instead, we've debated at length and don't appear to be any closer to what I think is a widely acceptable solution than when the mailing list began discussing post-SegWit activation schemes over a year ago I think Speedy Trial is a way to generate fast progress that will either end the debate (for now, if activation is successful) or give us some actual data upon which to base future Taproot activation proposals.
+> Zamiast tego długo debatowaliśmy i nie wydaje się, abyśmy byli bliżej tego, co moim zdaniem jest powszechnie akceptowalnym rozwiązaniem, niż kiedy lista dyskusyjna zaczęła omawiać schematy aktywacji po SegWit ponad rok temu. Myślę, że Speedy Trial jest sposobem na szybki postęp generate, który albo zakończy debatę (na razie, jeśli aktywacja się powiedzie), albo da nam rzeczywiste dane, na których będziemy mogli oprzeć przyszłe propozycje aktywacji Taproot.
 
-This deployment mechanism was refined over the course of two months and then released in [Bitcoin Core version 0.21.1](https://github.com/Bitcoin/Bitcoin/blob/master/doc/release-notes/release-notes-0.21.1.md#Taproot-Soft-Fork). The miners quickly started signaling for this upgrade moving the deployment state to `LOCKED_IN`, and after a grace period the Taproot rules were activated mid-November 2021 in block [709632](https://Mempool.space/block/0000000000000000000687bca986194dc2c1f949318629b44bb54ec0a94d8244).
-
-
-#### Future deployment mechanisms
+Ten mechanizm wdrażania został dopracowany w ciągu dwóch miesięcy, a następnie wydany w [Bitcoin Core wersja 0.21.1](https://github.com/Bitcoin/Bitcoin/blob/master/doc/release-notes/release-notes-0.21.1.md#Taproot-Soft-Fork). Górnicy szybko zaczęli sygnalizować tę aktualizację, przenosząc stan wdrożenia do `LOCKED_IN`, a po okresie karencji reguły Taproot zostały aktywowane w połowie listopada 2021 r. w bloku [709632] (https://Mempool.space/block/0000000000000000000687bca986194dc2c1f949318629b44bb54ec0a94d8244).
 
 
-Given the problems with the recent Soft forks, SegWit and Taproot, it's not clear how the next upgrade will be deployed. Speedy Trial was used to deploy Taproot, but it was used to bridge the chasm between the UASF and the MASF crowds, not because it has emerged as the best known deployment mechanism.
+#### Przyszłe mechanizmy wdrażania
 
 
-### Risks
+Biorąc pod uwagę problemy z ostatnimi forkami Soft, SegWit i Taproot, nie jest jasne, w jaki sposób zostanie wdrożona kolejna aktualizacja. Speedy Trial został użyty do wdrożenia Taproot, ale został on wykorzystany do zmniejszenia przepaści między UASF i MASF, a nie dlatego, że stał się najlepszym znanym mechanizmem wdrażania.
 
 
-During the activation of any Fork, be it Hard or Soft, Miner activated or user activated, there's the risk of a long-lasting chain split. A split that lingers for more than a few blocks can cause severe damage to the sentiment around Bitcoin as well as to its price. But above all, it would cause great confusion over what Bitcoin is. Is Bitcoin this chain or that chain?
+### Ryzyko
 
 
-The risk with a user activated Soft Fork is that the new rules get activated even if the majority of the Hash power doesn't support them. This scenario would result in a long-lasting chain split, which would persist until the majority of the Hash power adopts the new rules. It could be especially Hard to incentivize miners to switch to the new chain if they had already mined blocks after the split on the old chain, because by switching branch they would be abandoning their own block rewards. However, it's worth mentioning a remarkable episode: in March 2013 a long-lasting split, occurred due to an unintentional Hard Fork and, contrary to this incentive, two major Mining pools made the decision to abandon their branch of the split in order to restore consensus.
+Podczas aktywacji dowolnego Fork, czy to Hard, czy Soft, Miner aktywowanego lub aktywowanego przez użytkownika, istnieje ryzyko długotrwałego podziału łańcucha. Podział, który utrzymuje się dłużej niż kilka bloków, może spowodować poważne szkody dla nastrojów wokół Bitcoin, a także dla jego ceny. Ale przede wszystkim spowodowałoby to ogromne zamieszanie co do tego, czym jest Bitcoin. Czy Bitcoin to ten czy tamten łańcuch?
 
 
-On the other hand, the risk with a Miner activated Soft Fork is a consequence of the fact that miners can engage in false signaling, which means that the actual share of the Hash power that supports the change could be smaller than it looks. If the actual support doesn't comprise a majority of the Hash power, we'd probably see a long-lasting chain split similar to the one described in the previous paragraph. This, or at least a similar issue, has happened in reality when BIP66 was deployed, but it got resolved within 6 blocks or so.
+Ryzyko związane z aktywowanym przez użytkownika Soft Fork polega na tym, że nowe zasady zostaną aktywowane, nawet jeśli większość mocy Hash ich nie obsługuje. Taki scenariusz skutkowałby długotrwałym rozłamem łańcucha, który utrzymywałby się do czasu, aż większość mocy Hash przyjęłaby nowe zasady. Szczególnie Hard może zachęcać górników do przejścia na nowy łańcuch, jeśli już wydobywali bloki po podziale na starym łańcuchu, ponieważ zmieniając gałąź, porzuciliby własne nagrody za bloki. Warto jednak wspomnieć o niezwykłym epizodzie: w marcu 2013 r. doszło do długotrwałego podziału z powodu niezamierzonego Hard Fork i, w przeciwieństwie do tej zachęty, dwie główne pule Mining podjęły decyzję o porzuceniu swojej gałęzi podziału w celu przywrócenia konsensusu.
 
 
-#### Costs of a split
+Z drugiej strony, ryzyko związane z Miner aktywowanym Soft Fork wynika z faktu, że górnicy mogą angażować się w fałszywe sygnały, co oznacza, że rzeczywisty udział mocy Hash, który popiera zmianę, może być mniejszy niż się wydaje. Jeśli rzeczywiste wsparcie nie stanowi większości mocy Hash, prawdopodobnie zobaczymy długotrwały podział łańcucha podobny do tego opisanego w poprzednim akapicie. Ten lub przynajmniej podobny problem miał miejsce w rzeczywistości, gdy BIP66 został wdrożony, ale został rozwiązany w ciągu około 6 bloków.
+
+
+#### Koszty podziału
 
 
 
-Jimmy Song [spoke about the costs associated with Hard forks](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) at Breaking Bitcoin in Paris, but much of what he said applies to a chain split due to a failed Soft Fork as well. He spoke about *negative externalities*, and defined them as the price someone else has to pay for your own actions:
+Jimmy Song [mówił o kosztach związanych z widełkami Hard](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) podczas Breaking Bitcoin w Paryżu, ale wiele z tego, co powiedział, dotyczy również rozerwania łańcucha z powodu nieudanego Soft Fork. Mówił o *negatywnych efektach zewnętrznych* i zdefiniował je jako cenę, którą ktoś inny musi zapłacić za twoje własne działania:
 
 
-> The classic example of a negative externality is a factory. Maybe they are producing– maybe it’s an oil refinery and they produce a good that is good for the economy but they also produce something that is a negative externality, like pollution. It’s not just something that everyone has to pay for, to clean up, or suffer from. But it’s also 2nd and 3rd order effects, like more traffic going towards the factory as a result of more workers that need to go there. You might also have- you might endanger some wildlife around there. It’s not that everyone has to pay for the negative externalities, it might be specific people, like people who were previously using that road or animals that were near that factory, and they are also paying for the cost of that factory.
+> Klasycznym przykładem negatywnych efektów zewnętrznych jest fabryka. Może produkuje ona - może jest to rafineria ropy naftowej - dobro, które jest dobre dla gospodarki, ale wytwarza również coś, co jest negatywnym efektem zewnętrznym, takim jak zanieczyszczenie. To nie tylko coś, za co wszyscy muszą płacić, sprzątać lub cierpieć. Ale są to również efekty drugiego i trzeciego rzędu, takie jak większy ruch w kierunku fabryki w wyniku większej liczby pracowników, którzy muszą tam dotrzeć. Może też dojść do zagrożenia dla dzikiej przyrody. Nie chodzi o to, że wszyscy muszą płacić za negatywne efekty zewnętrzne, mogą to być konkretni ludzie, na przykład ludzie, którzy wcześniej korzystali z tej drogi lub zwierzęta, które znajdowały się w pobliżu tej fabryki, i oni również płacą za koszty tej fabryki.
 
-In the context of Bitcoin, he exemplifies negative externalities using Bitcoin Cash (bcash), which is a Hard Fork of Bitcoin created shortly prior to that conference in 2017. He categorizes the negative externalities of a Hard Fork into one-time costs and permanent costs.
-
-
-Among the many examples of one-time costs, he mentions the ones incurred by exchanges:
+W kontekście Bitcoin ilustruje negatywne efekty zewnętrzne za pomocą Bitcoin Cash (bcash), który jest Hard Fork Bitcoin stworzonym na krótko przed konferencją w 2017 roku. Kategoryzuje on negatywne efekty zewnętrzne Hard Fork na koszty jednorazowe i koszty stałe.
 
 
-> So we have a bunch of exchanges and they had a lot of one-time costs that they had to pay. The first thing that happened is that deposits and withdrawals had to be halted for a day or two for these exchanges because they didn’t know what would happen. Many of these exchanges had to dip into Cold storage because their users were demanding bcash. It’s part of their fidicuiary duty, they have to do that. You also have to audit the new software. This is something that we had to do at itbit. We want to spend bcash- how do we do it? We have to download electron cash? Does it have malware? We have to go and audit it. We had like 10 days to figure out if this was okay or not. And then you have to decide, are we going to just allow a one-time withdrawal, or are we going to list this new coin? For an Exchange to lis ta new coin, it’s not easy- there’s all sorts of new procedures for Cold storage, signing, deposits, withdrawals. Or you could just have this one-off event where you give them their bcash at some point and then you never think about it again. But that has its problems too. And finally, and whatever way you do it, withdrawals or listing– you are going to need new infrastructure to work with this token in some way, even if it’s a one-time withdrawal. You need some way to give these tokens to your users. Again, short-notice. Right? No time to do this, has to be done quickly.
-
-He also lists the one-time costs incurred by merchants, payment processors, wallets, miners, and users, as well as some of the permanent costs, for example privacy loss and a higher risk of reorgs.
+Wśród wielu przykładów jednorazowych kosztów wymienia te ponoszone przez giełdy:
 
 
-Indeed, when a split happens and the chain with the most general rules becomes stronger than the chain with the stricter rules, a reorg will occur. This will have a severe impact on all transactions carried out in the wiped-out branch. For these reasons it's really important to try avoiding chain splits at all times.
+> Mamy więc kilka giełd, które musiały ponieść wiele jednorazowych kosztów. Pierwszą rzeczą, która się wydarzyła, było to, że wpłaty i wypłaty musiały zostać wstrzymane na dzień lub dwa dla tych giełd, ponieważ nie wiedziały, co się stanie. Wiele z tych giełd musiało sięgnąć do magazynu Cold, ponieważ ich użytkownicy domagali się bcash. To część ich obowiązku powierniczego, muszą to zrobić. Należy również przeprowadzić audyt nowego oprogramowania. To jest coś, co musieliśmy zrobić w itbit. Chcemy wydawać gotówkę - jak to zrobić? Musimy pobrać elektroniczną gotówkę? Czy ma złośliwe oprogramowanie? Musimy przejść audyt. Mieliśmy około 10 dni, aby dowiedzieć się, czy to jest w porządku, czy nie. A potem musisz zdecydować, czy pozwolimy tylko na jednorazową wypłatę, czy też zamierzamy umieścić tę nową monetę na liście? Dla Exchange, aby wymienić tę nową monetę, nie jest to łatwe - istnieje wiele nowych procedur dotyczących przechowywania Cold, podpisywania, wpłat, wypłat. Możesz też po prostu zorganizować jednorazowe wydarzenie, w którym w pewnym momencie dasz im ich bcash, a potem nigdy więcej o tym nie pomyślisz. Ale to też ma swoje problemy. Wreszcie, niezależnie od sposobu, w jaki to zrobisz, wypłaty lub notowania - będziesz potrzebować nowej infrastruktury do pracy z token w jakiś sposób, nawet jeśli jest to jednorazowa wypłata. Potrzebujesz jakiegoś sposobu na przekazanie tych tokenów swoim użytkownikom. Ponownie, krótkie powiadomienie. Prawda? Nie ma na to czasu, trzeba to zrobić szybko.
+
+Wymienia również jednorazowe koszty ponoszone przez sprzedawców, podmioty przetwarzające płatności, portfele, górników i użytkowników, a także niektóre koszty stałe, na przykład utratę prywatności i wyższe ryzyko reorganizacji.
 
 
-### Conclusion about Upgrading
+Rzeczywiście, gdy dojdzie do podziału, a łańcuch z najbardziej ogólnymi zasadami stanie się silniejszy niż łańcuch z bardziej rygorystycznymi zasadami, nastąpi reorganizacja. Będzie to miało poważny wpływ na wszystkie transakcje przeprowadzane w wymazanej gałęzi. Z tych powodów naprawdę ważne jest, aby zawsze starać się unikać podziałów łańcucha.
 
 
-Bitcoin grows and evolves with time. Different upgrade mechanisms have been used over the years and the learning curve is steep. More and more sophisticated and robust methods keep being invented, as we learn more about how the network reacts.
+### Wnioski dotyczące aktualizacji
 
 
-To keep Bitcoin in harmony, Soft forks have proven to be the way forward, but the big question is still not fully answered: how do we safely deploy Soft forks without causing discord?
+Bitcoin rozwija się i ewoluuje wraz z upływem czasu. Przez lata stosowano różne mechanizmy aktualizacji, a krzywa uczenia się jest stroma. W miarę jak dowiadujemy się więcej o tym, jak reaguje sieć, wymyślane są coraz bardziej wyrafinowane i niezawodne metody.
 
 
-## Adversarial thinking
+Aby utrzymać Bitcoin w harmonii, forki Soft okazały się być drogą naprzód, ale wielkie pytanie wciąż nie ma pełnej odpowiedzi: jak bezpiecznie wdrożyć forki Soft bez wywoływania niezgody?
+
+
+## Myślenie kontradyktoryjne
 
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
@@ -988,120 +1028,120 @@ To keep Bitcoin in harmony, Soft forks have proven to be the way forward, but th
 ![](assets/adversarialthinking-banner.webp)
 
 
-This chapter addresses *adversarial thinking*, a mindset that focuses on what could go wrong and how adversaries might act. We start out by discussing Bitcoin's security assumptions and security model, after which we explain how ordinary users can improve their self-sovereignty and Bitcoin's Full node decentralization by thinking adversarially. Then, we look into some actual threats to Bitcoin as well as into the adversary's mind. Lastly, we talk about the *axiom of resistance* which can help you understand why people are working on Bitcoin in the first place.
+Ten rozdział dotyczy *myślenia kontradyktoryjnego*, sposobu myślenia, który koncentruje się na tym, co może pójść źle i jak mogą działać przeciwnicy. Zaczynamy od omówienia założeń bezpieczeństwa i modelu bezpieczeństwa Bitcoin, po czym wyjaśniamy, w jaki sposób zwykli użytkownicy mogą poprawić swoją niezależność i decentralizację Bitcoin Full node poprzez myślenie kontradyktoryjne. Następnie przyjrzymy się niektórym rzeczywistym zagrożeniom dla Bitcoin, a także umysłowi przeciwnika. Na koniec mówimy o *aksjomacie oporu*, który może pomóc zrozumieć, dlaczego ludzie w ogóle pracują nad Bitcoin.
 
 
-When discussing security within various systems, it's important to understand what the security assumptions are. A typical security assumption in Bitcoin is "the discrete logarithm problem is Hard to solve", which, simply put, means it's practically impossible to find a private key that corresponds to a particular public key. Another pretty strong security assumption is that a majority of the network's hashpower is honest, meaning that they play by the rules. If these assumptions are proven wrong, then Bitcoin is in trouble.
+Omawiając bezpieczeństwo w różnych systemach, ważne jest, aby zrozumieć, jakie są założenia bezpieczeństwa. Typowym założeniem bezpieczeństwa w Bitcoin jest "problem logarytmu dyskretnego jest Hard do rozwiązania", co, mówiąc najprościej, oznacza, że praktycznie niemożliwe jest znalezienie klucza prywatnego, który odpowiada konkretnemu kluczowi publicznemu. Innym dość mocnym założeniem dotyczącym bezpieczeństwa jest to, że większość mocy obliczeniowej sieci jest uczciwa, co oznacza, że grają zgodnie z zasadami. Jeśli te założenia okażą się błędne, Bitcoin będzie w tarapatach.
 
 
-In 2015 Andrew Poelstra [gave a talk](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) at the Scaling Bitcoin conference in Hong Kong, during which he analyzed Bitcoin's security assumptions. He starts by noticing that many systems disregard adversaries to some extent; for example, it's really Hard to protect a building against all types of adversarial events. Instead, we generally accept the possibility that someone may burn the building down, and to some extent prevent this and other adversarial behaviors through law enforcement etc.
+W 2015 roku Andrew Poelstra [wygłosił wykład](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) na konferencji Scaling Bitcoin w Hong Kongu, podczas którego przeanalizował założenia bezpieczeństwa Bitcoin. Rozpoczął od zauważenia, że wiele systemów w pewnym stopniu lekceważy przeciwników; na przykład ochrona budynku przed wszystkimi rodzajami zdarzeń jest naprawdę Hard. Zamiast tego zazwyczaj akceptujemy możliwość, że ktoś może spalić budynek i do pewnego stopnia zapobiegamy temu i innym wrogim zachowaniom poprzez egzekwowanie prawa itp.
 
 
-See greg maxwell's analogy of the building:
+Zobacz analogię budynku autorstwa Grega Maxwella:
 
 
 ![](https://youtu.be/Gs9lJTRZCDc?t=2799)
 
 
-But online things are different:
+Ale w sieci jest inaczej:
 
 
-> However, online we don’t have this. We have pseudonymous and anonymous behavior, anyone can connect to everyone and hurt the system. If it’s possible to adversarially hurt the system, then they will do it. We cannot assume they will be visible and that they will be caught.
+> Jednak w sieci tego nie ma. Mamy pseudonimowe i anonimowe zachowanie, każdy może połączyć się z każdym i zaszkodzić systemowi. Jeśli możliwe jest niekorzystne działanie na szkodę systemu, zrobią to. Nie możemy zakładać, że będą widoczni i że zostaną złapani.
 
-The consequence is that all known weaknesses in Bitcoin must somehow be taken care of, otherwise they will be exploited. After all, Bitcoin is the greatest honey pot in the world.
-
-
-Poelstra goes on to mention how Bitcoin is a new kind of system; it's more nebulous than, for example, a signing protocol which has very clear-cut security assumptions.
+Konsekwencją jest to, że wszystkie znane słabości Bitcoin muszą być w jakiś sposób wyeliminowane, w przeciwnym razie zostaną wykorzystane. W końcu Bitcoin to największy garnek miodu na świecie.
 
 
-On his personal blog, software engineer Jameson Lopp, [dives into this](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
+Poelstra wspomina dalej, że Bitcoin jest nowym rodzajem systemu; jest bardziej mglisty niż na przykład protokół podpisywania, który ma bardzo jasne założenia dotyczące bezpieczeństwa.
 
 
-> In reality, the Bitcoin protocol was and is being built without a formally defined specification or security model. The best that we can do is to study the incentives and behavior of actors within the system in order to better understand and attempt to describe it.
-
-So, we have a system that seems to be working in practice, but that we can't formally prove to be secure. A proof is probably not possible due to
-
-the complexity of the system itself.
+Na swoim osobistym blogu, inżynier oprogramowania Jameson Lopp, [zagłębia się w ten temat](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
 
 
-### Not only for Bitcoin experts
+> W rzeczywistości protokół Bitcoin był i jest budowany bez formalnie zdefiniowanej specyfikacji lub modelu bezpieczeństwa. Najlepsze, co możemy zrobić, to zbadać motywacje i zachowanie aktorów w systemie, aby lepiej go zrozumieć i spróbować opisać.
+
+Mamy więc system, który wydaje się działać w praktyce, ale nie możemy formalnie udowodnić, że jest bezpieczny. Dowód jest prawdopodobnie niemożliwy ze względu na
+
+złożoność samego systemu.
 
 
-
-The importance of adversarial thinking also extends to everyday Bitcoin users to some degree, not only to hardcore Bitcoin developers and experts. Ragnar Lifthasir mentions in a [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) how simplistic narratives around Bitcoin - for example, "just HODL" - can be degrading to Bitcoin itself, and concludes by saying
-
-
-> To make Bitcoin and ourselves stronger we need to think like the software engineers who contribute to Bitcoin. They peer review, mercilessly seeking flaws. At their tech events they talk about every which way a proposal can fail. They think adversarially. They’re conservative
-
-He refers to these simplistic narratives as monomanias. Through this definition he's saying that by focusing on a single thing - for example, "just HODL"- you risk to overlook the arguably more important stuff, such as keeping your Bitcoin secure or doing your best to use Bitcoin in a Trustless manner.
-
-
-### Threats
+### Nie tylko dla ekspertów Bitcoin
 
 
 
-There are a lot of known weaknesses in Bitcoin, and many of them are actively being exploited. To get a glimpse of that, have a look at the [Weaknesses page](https://en.Bitcoin.it/wiki/Weaknesses) on Bitcoin wiki. There are mentioned a wide variety of problems, such as
-
-Wallet theft and denial-of-service attacks:
+Znaczenie przeciwstawnego myślenia rozciąga się również w pewnym stopniu na codziennych użytkowników Bitcoin, nie tylko na hardkorowych deweloperów i ekspertów Bitcoin. Ragnar Lifthasir wspomina w [burzy tweetów](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking), jak uproszczone narracje wokół Bitcoin - na przykład "tylko HODL" - mogą być poniżające dla samego Bitcoin, i kończy stwierdzeniem
 
 
-> If an attacker attempts to fill the network with clients that they control, you would then be very likely to connect only to attacker nodes. Although Bitcoin never uses a count of nodes for anything, completely isolating a node from the honest network can be helpful in the execution of other attacks.
+> Aby wzmocnić Bitcoin i nas samych, musimy myśleć jak inżynierowie oprogramowania, którzy współtworzą Bitcoin. Dokonują oni wzajemnej weryfikacji, bezlitośnie szukając wad. Na swoich wydarzeniach technicznych rozmawiają o każdym sposobie, w jaki propozycja może zawieść. Myślą kontradyktoryjnie. Są konserwatywni
 
-This type of attack is called *Sybil attack*, and it occurs whenever a single entity controls multiple nodes in a network and uses them to appear as multiple entities.
-
-
-As the quote also mentions, the Sybil attack is not effective on the Bitcoin network because there is no voting through nodes or other numerable entities, but rather through computing power. Nonetheless, this flat structure leaves the system susceptible to other attacks. The Bitcoin wiki page also outlines other possible attacks, such as information hiding (often referred to as *eclipse attack*), and the way Bitcoin Core implements some heuristic countermeasures against such attacks.
+Odnosi się do tych uproszczonych narracji jako monomanii. Poprzez tę definicję mówi, że skupiając się na jednej rzeczy - na przykład "tylko HODL" - ryzykujesz przeoczenie prawdopodobnie ważniejszych rzeczy, takich jak utrzymywanie bezpieczeństwa Bitcoin lub robienie wszystkiego, co w twojej mocy, aby używać Bitcoin w sposób Trustless.
 
 
-The above are examples of real threats that need to be taken care of.
+### Zagrożenia
 
 
-### Simple Sabotage Field
+
+Istnieje wiele znanych słabości Bitcoin, a wiele z nich jest aktywnie wykorzystywanych. Aby się o tym przekonać, warto zajrzeć na stronę [Weaknesses page](https://en.Bitcoin.it/wiki/Weaknesses) na wiki Bitcoin. Wymieniono tam wiele różnych problemów, takich jak
+
+Wallet kradzież i ataki typu denial-of-service:
+
+
+> Jeśli atakujący spróbuje wypełnić sieć kontrolowanymi przez siebie klientami, bardzo prawdopodobne jest, że połączysz się tylko z węzłami atakującego. Chociaż Bitcoin nigdy nie używa do niczego liczby węzłów, całkowite odizolowanie węzła od uczciwej sieci może być pomocne w przeprowadzaniu innych ataków.
+
+Ten rodzaj ataku nazywany jest *atakiem Sybil* i występuje zawsze, gdy pojedynczy podmiot kontroluje wiele węzłów w sieci i wykorzystuje je do wyświetlania się jako wiele podmiotów.
+
+
+Jak również wspomniano w cytacie, atak Sybil nie jest skuteczny w sieci Bitcoin, ponieważ nie ma głosowania za pośrednictwem węzłów lub innych numerowalnych jednostek, ale raczej za pomocą mocy obliczeniowej. Niemniej jednak ta płaska struktura sprawia, że system jest podatny na inne ataki. Strona wiki Bitcoin przedstawia również inne możliwe ataki, takie jak ukrywanie informacji (często określane jako *atak zaćmienia*) oraz sposób, w jaki Bitcoin Core implementuje pewne heurystyczne środki zaradcze przeciwko takim atakom.
+
+
+Powyższe to przykłady realnych zagrożeń, którymi należy się zająć.
+
+
+### Pole prostego sabotażu
 
 
 ![](assets/sabotage-manual.webp)
 
 
-Excerpt from the Simple Sabotage Field Manual
+Fragment podręcznika Simple Sabotage Field Manual
 
 
-To better understand the adversary's mind, it might be helpful to get a glimpse into how they operate. A US government body named Office of Strategic Services, which operated during World War II and had among its purposes to conduct espionage, perform sabotage and spread propaganda, produced a [manual](https://www.gutenberg.org/ebooks/26184) for their personnel on how to properly sabotage the enemy. Its title was "Simple Sabotage Field Manual" and contained concrete tips on infiltrating the enemy to make their lives Hard. The tips range from burning down warehouses to causing wear to drills in order to decrease the enemy's
+Aby lepiej zrozumieć umysł przeciwnika, pomocne może być zapoznanie się z jego sposobem działania. Amerykański organ rządowy o nazwie Office of Strategic Services, który działał podczas II wojny światowej i miał na celu prowadzenie szpiegostwa, sabotażu i szerzenia propagandy, opracował [podręcznik](https://www.gutenberg.org/ebooks/26184) dla swojego personelu na temat tego, jak prawidłowo sabotować wroga. Jego tytuł brzmiał "Simple Sabotage Field Manual" i zawierał konkretne wskazówki dotyczące infiltracji wroga, aby uczynić jego życie Hard. Wskazówki obejmowały zarówno podpalanie magazynów, jak i powodowanie zniszczeń na ćwiczeniach w celu zmniejszenia liczebności wroga
 
-efficiency.
-
-
-For example, there is a section about how an infiltrator can disrupt organizations. It's not Hard to see how such tactics could be used to target the Bitcoin development process, which is open for anyone to participate in. A dedicated attacker can keep stalling progress by endless concerns of irrelevant issues, haggle over precise wordings, and attempt to reiterate discussions that have already been comprehensively addressed. The attacker can also hire a troll army to multiply their own effectiveness; we can call this a social Sybil attack. Using a social Sybil attack, they can make it look like there's more resistance against a proposed change than there actually is.
+wydajność.
 
 
-This highlights how a determined state can and will do everything in its power to destroy the enemy, including breaking it down from the inside. Since Bitcoin is a form of money that competes with established fiat currencies, chances are that states will regard Bitcoin as an enemy.
+Na przykład, istnieje sekcja o tym, jak infiltrator może zakłócić działanie organizacji. Nie jest Hard jasne, w jaki sposób taka taktyka mogłaby zostać wykorzystana do ataku na proces rozwoju Bitcoin, w którym każdy może uczestniczyć. Dedykowany atakujący może powstrzymywać postępy poprzez niekończące się obawy o nieistotne kwestie, targować się o precyzyjne sformułowania i próbować powtórzyć dyskusje, które zostały już kompleksowo omówione. Atakujący może również zatrudnić armię trolli, aby zwielokrotnić swoją skuteczność; możemy to nazwać społecznym atakiem Sybil. Używając ataku Social Sybil, mogą sprawić, że będzie wyglądało na to, że opór przeciwko proponowanej zmianie jest większy niż w rzeczywistości.
 
 
-### Axiome of Resistance
+Podkreśla to, jak zdeterminowane państwo może i zrobi wszystko, co w jego mocy, aby zniszczyć wroga, w tym rozbić go od wewnątrz. Ponieważ Bitcoin jest formą pieniądza, która konkuruje z uznanymi walutami fiducjarnymi, istnieje prawdopodobieństwo, że państwa będą postrzegać Bitcoin jako wroga.
 
 
-Eric Voskuil [writes on his Cryptoeconomics wiki page](https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) about what he calls the "axiom of resistance":
+### Aksjomat oporu
 
 
-> In other words there is an assumption that it is possible for a system to resist state control. This is not accepted as a fact but deemed to be a reasonable assumption, due to empirical study of behavior of similar systems, on which to base the system.
+Eric Voskuil [pisze na swojej stronie wiki Cryptoeconomics](https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) o tym, co nazywa "aksjomatem oporu":
+
+
+> Innymi słowy, istnieje założenie, że system może oprzeć się kontroli państwa. Nie jest to akceptowane jako fakt, ale uważane za rozsądne założenie, ze względu na empiryczne badania zachowania podobnych systemów, na których można oprzeć system.
 >
 
-> One who does not accept the axiom of resistance is contemplating an entirely different system than Bitcoin. If one assumes it is not possible for a system to resist state controls, conclusions do not make sense in the context of Bitcoin - just as conclusions in spherical geometry contradict Euclidean. How can Bitcoin be permissionless or censorship-resistant without the axiom? The contradiction leads one to make obvious errors in an attempt to rationalize the conflict.
+> Ten, kto nie akceptuje aksjomatu oporu, rozważa zupełnie inny system niż Bitcoin. Jeśli założymy, że nie jest możliwe, aby system oparł się kontroli państwa, wnioski nie mają sensu w kontekście Bitcoin - tak jak wnioski z geometrii sferycznej są sprzeczne z euklidesową. W jaki sposób Bitcoin może być wolny od przyzwolenia lub odporny na cenzurę bez aksjomatu? Sprzeczność prowadzi do popełniania oczywistych błędów w próbie racjonalizacji konfliktu.
 
 
-What he's essentially saying is that only when one assumes it's possible to create a system that states can't control, is it meaningful to try.
+Zasadniczo mówi on, że tylko wtedy, gdy zakłada się, że możliwe jest stworzenie systemu, którego państwa nie mogą kontrolować, warto próbować.
 
 
-This means that to work on Bitcoin you should accept the axiom of resistance, otherwise you'd better spend your time on other projects. Acknowledging that axiom helps you focusing your development efforts on the real problems at hand: coding around state-level adversaries. In other words, think adversarially.
+Oznacza to, że aby pracować nad Bitcoin, należy zaakceptować aksjomat oporu, w przeciwnym razie lepiej poświęcić swój czas na inne projekty. Uznanie tego aksjomatu pomaga skoncentrować wysiłki programistyczne na prawdziwych problemach: kodowaniu wokół przeciwników na poziomie państwowym. Innymi słowy, myśl przeciwstawnie.
 
 
-### Conclusion about Adversarial Thinking
+### Wnioski dotyczące myślenia kontradyktoryjnego
 
 
 
-A decentralized system can't have accountability outside the system itself, therefore Bitcoin must prevent malicious behavior more rigorously than traditional systems. Adversarial thinking is imperative in such a system.
+Zdecentralizowany system nie może mieć odpowiedzialności poza samym systemem, dlatego Bitcoin musi zapobiegać złośliwym zachowaniom bardziej rygorystycznie niż tradycyjne systemy. W takim systemie konieczne jest myślenie adwersarskie.
 
 
-To keep Bitcoin safe you need to know its enemies and their incentives. Most of the threats seem to boil down to nation states, who have enourmous economic power, through taxation and money printing. They probably won't give up their money printing privileges easily.
+Aby zapewnić bezpieczeństwo Bitcoin, trzeba znać jego wrogów i ich motywacje. Większość zagrożeń wydaje się sprowadzać do państw narodowych, które mają ogromną władzę gospodarczą dzięki opodatkowaniu i drukowaniu pieniędzy. Prawdopodobnie nie zrezygnują one łatwo ze swoich przywilejów drukowania pieniędzy.
 
 
 ## Open Source
@@ -1113,21 +1153,21 @@ To keep Bitcoin safe you need to know its enemies and their incentives. Most of 
 ![](assets/opensource-banner.webp)
 
 
-Bitcoin is built using open source software. In this chapter we analyze what this means, how maintenance of the software works, and how open source software in Bitcoin allows for permissionless development. We dip our toes into *selection cryptography*, which deals with the selection and use of libraries in cryptographic systems. The chapter includes a section about Bitcoin's review process, followed by another one on the ways Bitcoin developers get funded. The last section talks about how Bitcoin's open source culture can look really weird from the outside, and why this perceived weirdness is really a sign of good health.
+Bitcoin jest zbudowany przy użyciu oprogramowania open source. W tym rozdziale przeanalizujemy, co to oznacza, jak działa konserwacja oprogramowania i jak otwarte oprogramowanie w Bitcoin pozwala na rozwój bez zezwoleń. Zanurzamy nasze palce w *kryptografii selekcyjnej*, która zajmuje się wyborem i wykorzystaniem bibliotek w systemach kryptograficznych. Rozdział zawiera sekcję o procesie recenzowania Bitcoin, a następnie kolejną o sposobach finansowania deweloperów Bitcoin. Ostatnia sekcja mówi o tym, jak kultura open source Bitcoin może wyglądać naprawdę dziwnie z zewnątrz i dlaczego ta postrzegana dziwność jest tak naprawdę oznaką dobrego zdrowia.
 
 
-Most Bitcoin softwares, and especially Bitcoin Core, is open source. This means that the source code of the software is made available to the general public for scrutiny, tinkering, modification, and redistribution. The definition of open source at [](https://opensource.org/osd) includes, among others, the following important points:
+Większość oprogramowania Bitcoin, a w szczególności Bitcoin Core, jest oprogramowaniem typu open source. Oznacza to, że kod źródłowy oprogramowania jest udostępniany ogółowi społeczeństwa do wglądu, majsterkowania, modyfikacji i redystrybucji. Definicja otwartego oprogramowania na stronie [](https://opensource.org/osd) zawiera, między innymi, następujące ważne punkty:
 
 
-> Free Redistribution: The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
+> Swobodna redystrybucja: Licencja nie będzie ograniczać żadnej ze stron w sprzedaży lub rozdawaniu oprogramowania jako składnika zbiorczej dystrybucji oprogramowania zawierającej programy z kilku różnych źródeł. Licencja nie będzie wymagać opłat licencyjnych ani innych opłat za taką sprzedaż.
 >
 
-> Source Code: The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
+> Kod źródłowy: Program musi zawierać kod źródłowy i musi umożliwiać dystrybucję zarówno w postaci kodu źródłowego, jak i w postaci skompilowanej. Jeśli jakaś forma produktu nie jest dystrybuowana z kodem źródłowym, musi istnieć dobrze nagłośniony sposób uzyskania kodu źródłowego za cenę nie wyższą niż rozsądny koszt reprodukcji, najlepiej pobieranie przez Internet bez opłat. Kod źródłowy musi być preferowaną formą, w jakiej programista zmodyfikowałby program. Celowo zaciemniony kod źródłowy jest niedozwolony. Formy pośrednie, takie jak dane wyjściowe preprocesora lub translatora, są niedozwolone.
 >
 
-> Derived Works: The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
+> Dzieła pochodne: Licencja musi zezwalać na modyfikacje i prace pochodne oraz umożliwiać ich dystrybucję na tych samych warunkach, co licencja oryginalnego oprogramowania.
 
-Bitcoin Core adheres to this definition by being distributed under the [MIT License](https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
+Bitcoin Core jest zgodny z tą definicją, ponieważ jest rozpowszechniany na licencji [MIT License](https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
 
 
 ```
@@ -1142,257 +1182,257 @@ The above copyright notice and this permission notice shall be included in all c
 ```
 
 
-As noted in Chapter "Don't Trust, Verify", it's important for users to be able to verify that the Bitcoin software they run "works as advertised". To do that, they must have unrestricted access to the source code of the software they wish to verify.
+Jak wspomniano w rozdziale "Nie ufaj, weryfikuj", ważne jest, aby użytkownicy mogli zweryfikować, czy oprogramowanie Bitcoin, które uruchamiają, "działa zgodnie z reklamą". Aby to zrobić, muszą mieć nieograniczony dostęp do kodu źródłowego oprogramowania, które chcą zweryfikować.
 
 
-In the upcoming sections we dive into some other interesting aspects of open source software in Bitcoin.
+W kolejnych sekcjach zagłębimy się w inne interesujące aspekty oprogramowania open source w Bitcoin.
 
 
-### Software maintenance
+### Konserwacja oprogramowania
 
 
 
-Bitcoin Core's source code is maintained in a Git repository hosted on [GitHub](https://github.com/Bitcoin/Bitcoin). Anyone can clone that very repository without asking for any permission, and then inspect, build, or make changes to it locally. This means that there are many thousands of copies of the repository spread throughout the globe. These are all copies of the same repository, so what makes this specific GitHub Bitcoin Core repository so special? Technically it's not special at all, but socially it has become the focal point of Bitcoin development.
+Kod źródłowy Bitcoin Core jest przechowywany w repozytorium Git hostowanym na [GitHub](https://github.com/Bitcoin/Bitcoin). Każdy może sklonować to repozytorium bez pytania o pozwolenie, a następnie sprawdzić, zbudować lub wprowadzić zmiany lokalnie. Oznacza to, że istnieje wiele tysięcy kopii repozytorium rozsianych po całym świecie. Są to kopie tego samego repozytorium, więc co sprawia, że to konkretne repozytorium GitHub Bitcoin Core jest tak wyjątkowe? Technicznie nie jest ono wcale wyjątkowe, ale społecznie stało się centralnym punktem rozwoju Bitcoin.
 
 
-Bitcoin and security expert Jameson Lopp explains this very well in a [blog post](https://blog.lopp.net/who-controls-Bitcoin-core-/) titled "Who Controls Bitcoin Core?":
+Bitcoin i ekspert ds. bezpieczeństwa Jameson Lopp wyjaśnia to bardzo dobrze w [wpisie na blogu](https://blog.lopp.net/who-controls-Bitcoin-core-/) zatytułowanym "Kto kontroluje Bitcoin Core?":
 
 
-> Bitcoin Core is a focal point for development of the Bitcoin protocol rather than a point of command and control. If it ceased to exist for any reason, a new focal point would emerge — the technical communications platform upon which it’s based (currently the GitHub repository) is a matter of convenience rather than one of definition / project integrity. In fact, we have already seen Bitcoin’s focal point for development change platforms and even names!
+> Bitcoin Core jest centralnym punktem rozwoju protokołu Bitcoin, a nie punktem dowodzenia i kontroli. Gdyby przestał istnieć z jakiegokolwiek powodu, pojawiłby się nowy punkt centralny - platforma komunikacji technicznej, na której jest oparta (obecnie repozytorium GitHub), jest raczej kwestią wygody niż definicji / integralności projektu. W rzeczywistości widzieliśmy już, jak główny punkt rozwoju Bitcoin zmieniał platformy, a nawet nazwy!
 
-He goes on to explain how Bitcoin Core's software is maintained and secured against malicious code changes. The general takeaway from this full article is summarized at its very end:
+Następnie wyjaśnia, w jaki sposób oprogramowanie Bitcoin Core jest utrzymywane i zabezpieczone przed złośliwymi zmianami kodu. Ogólne wnioski z tego pełnego artykułu podsumowano na samym końcu:
 
 
-> No one controls Bitcoin.
+> Nikt nie kontroluje Bitcoin.
 >
 
-> No one controls the focal point for Bitcoin development.
+> Nikt nie kontroluje centralnego punktu rozwoju Bitcoin.
 
-Bitcoin Core developer Eric Lombrozo talks further about the development process in his [Medium post](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) titled "The Bitcoin Core Merge Process":
+Deweloper Bitcoin Core, Eric Lombrozo, mówi więcej o procesie rozwoju w swoim poście [Medium] (https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) zatytułowanym "The Bitcoin Core Merge Process":
 
 
-> Anyone can Fork the code base repository and make arbitrary changes to their own repository. They can build a client from their own repository and run that instead if they want. They can also make binary builds for other people to run.
+> Każdy może Fork repozytorium bazy kodu i wprowadzać dowolne zmiany we własnym repozytorium. Może zbudować klienta z własnego repozytorium i uruchomić go, jeśli chce. Może również tworzyć kompilacje binarne do uruchamiania przez inne osoby.
 >
 
-> If someone wants to merge a change they’ve made in their own repository into Bitcoin Core, they can submit a pull request. Once submitted, anyone can review the changes and comment on them regardless of whether or not they have commit access to Bitcoin Core itself.
+> Jeśli ktoś chce scalić zmianę wprowadzoną we własnym repozytorium do Bitcoin Core, może przesłać pull request. Po jego przesłaniu każdy może przejrzeć zmiany i skomentować je, niezależnie od tego, czy ma dostęp do zatwierdzenia w samym Bitcoin Core.
 
-It should be noted that pull requests can take a very long time before being merged to the repository by maintainers, and that's usually due to a lack of review, which is often due to a lack of *reviewers*.
-
-
-Lombrozo also talks about the process that surrounds consensus changes, but that's a bit beyond the scope of this chapter. See the preivous Chapter "Upgrading" for more information on how the Bitcoin protocol gets upgraded.
+Należy zauważyć, że pull requesty mogą trwać bardzo długo, zanim zostaną scalone z repozytorium przez opiekunów, a to zwykle z powodu braku recenzji, co często wynika z braku *recenzentów*.
 
 
-### Permissionless development
+Lombrozo mówi również o procesie, który otacza zmiany konsensusu, ale wykracza to nieco poza zakres tego rozdziału. Więcej informacji na temat aktualizacji protokołu Bitcoin można znaleźć w poprzednim rozdziale "Aktualizacja".
 
 
-
-We've established that anyone can write code for Bitcoin Core without asking for any permission, but not necessarily have it merged to the main Git repository. This affects any modification, from changing color schemes of the graphical user Interface, to the way peer-to-peer messages are formatted, and even consensus rules, i.e. the set of rules that define a valid Blockchain.
-
-
-Probably equally important is that users are free to develop systems on top of Bitcoin, without asking for any permission. We've seen countless successful software projects that were built on top of Bitcoin, such as:
+### Rozwój bez zezwoleń
 
 
 
-- Lightning Network: A payment network that allows for fast payment of very small amounts. It requires very few On-Chain Bitcoin transactions. Various inter-operable implementations exist, such as [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), and [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Multiple parties collaborate to combine their payments into a single transaction to make Address clustering harder. Various implementations exist.
-- Sidechains: This system can lock a coin on Bitcoin's Blockchain in order to unlock it on some other Blockchain. This allows for bitcoins to be moved to some other Blockchain, namely a Sidechain, so as to use the features available on that Sidechain. Examples include [Blockstream's Elements](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: It allows you to [Timestamp a document](https://opentimestamps.org/) on Bitcoin's Blockchain in a private way. You can then use that Timestamp to prove that a document must have existed prior to a certain time.
+Ustaliliśmy, że każdy może napisać kod dla Bitcoin Core bez pytania o pozwolenie, ale niekoniecznie musi on zostać scalony z głównym repozytorium Git. Ma to wpływ na wszelkie modyfikacje, od zmiany schematów kolorów graficznego Interface użytkownika, po sposób formatowania wiadomości peer-to-peer, a nawet zasady konsensusu, tj. zestaw reguł definiujących prawidłowy Blockchain.
 
 
-Without permissionless development, many of these projects would not have been possible. As stated in the chapter on Neutrality, if developers had to ask for permission to build protocols on top of Bitcoin, only the protocols allowed by the central developer granting committee would be developed.
-
-
-It is common for systems like the ones listed above to be themselves licensed as open source software, which in turn allows for people to contribute, re-use, or review their code without asking for any permission. Open source has become the gold standard of Bitcoin software licensing.
-
-
-### Pseudonymous development
+Prawdopodobnie równie ważne jest to, że użytkownicy mogą swobodnie rozwijać systemy na bazie Bitcoin, bez pytania o pozwolenie. Widzieliśmy niezliczone udane projekty oprogramowania, które zostały zbudowane na Bitcoin, takie jak:
 
 
 
-Not having to ask for permission to develop Bitcoin software brings an interesting and important option to the table: you can write and publish code, in Bitcoin Core or any other open source project, without revealing your identity.
+- Lightning Network: Sieć płatności, która pozwala na szybkie płatności bardzo małych kwot. Wymaga bardzo niewielu On-Chain Bitcoin transakcji. Istnieją różne interoperacyjne implementacje, takie jak [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) i [Lightning Dev Kit](https://github.com/lightningdevkit).
+- CoinJoin: Wiele stron współpracuje w celu połączenia swoich płatności w jedną transakcję, aby utrudnić klastrowanie Address. Istnieją różne implementacje.
+- Łańcuchy boczne: System ten może zablokować monetę na Bitcoin w Blockchain w celu odblokowania jej na innym Blockchain. Pozwala to na przeniesienie bitcoinów do innego Blockchain, a mianowicie Sidechain, aby korzystać z funkcji dostępnych na tym Sidechain. Przykłady obejmują [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: Pozwala na [Timestamp dokumentu](https://opentimestamps.org/) na Bitcoin Blockchain w sposób prywatny. Następnie można użyć tego Timestamp, aby udowodnić, że dokument musiał istnieć przed określonym czasem.
 
 
-Many developers choose this option by operating under a pseudonym and trying to keep it detached from their true identity. The reasons for doing this can vary from developer to developer. One pseudonymous user is ZmnSCPxj. Among other projects, he contributes to Bitcoin Core and Core Lightning, one of several implementations of Lightning Network. [He writes](https://zmnscpxj.github.io/about.html) on his web page:
+Bez rozwoju bez zezwoleń wiele z tych projektów nie byłoby możliwych. Jak wspomniano w rozdziale poświęconym neutralności, gdyby deweloperzy musieli prosić o pozwolenie na tworzenie protokołów na Bitcoin, rozwijane byłyby tylko protokoły dozwolone przez centralny komitet przyznający uprawnienia deweloperom.
 
 
-> I am ZmnSCPxj, a randomly-generated Internet person. My pronouns are he/him/his.
+Powszechne jest, że systemy takie jak te wymienione powyżej są licencjonowane jako oprogramowanie open source, co z kolei pozwala ludziom na wnoszenie wkładu, ponowne wykorzystanie lub przeglądanie ich kodu bez pytania o pozwolenie. Otwarte oprogramowanie stało się złotym standardem licencjonowania oprogramowania Bitcoin.
+
+
+### Pseudonimowy rozwój
+
+
+
+Brak konieczności proszenia o pozwolenie na rozwijanie oprogramowania Bitcoin daje interesującą i ważną opcję: możesz pisać i publikować kod w Bitcoin Core lub innym projekcie open source bez ujawniania swojej tożsamości.
+
+
+Wielu deweloperów wybiera tę opcję, działając pod pseudonimem i starając się oddzielić go od swojej prawdziwej tożsamości. Powody takiego działania mogą się różnić w zależności od dewelopera. Jednym z pseudonimowych użytkowników jest ZmnSCPxj. Wśród innych projektów ma on swój wkład w Bitcoin Core i Core Lightning, jedną z kilku implementacji Lightning Network. [Pisze on](https://zmnscpxj.github.io/about.html) na swojej stronie internetowej:
+
+
+> Jestem ZmnSCPxj, losowo wygenerowana osoba internetowa. Moje zaimki to on/ona/jego/jej.
 >
 
-> I understand that humans instinctively desire to know my identity. However, I think my identity is largely immaterial, and prefer to be judged by my work.
+> Rozumiem, że ludzie instynktownie pragną poznać moją tożsamość. Uważam jednak, że moja tożsamość jest w dużej mierze niematerialna i wolę być oceniany na podstawie mojej pracy.
 >
 
-> If you are wondering whether to donate or not, and wondering what my cost of living or my income is, please understand that properly speaking, you should donate to me based on the utility you find my
-articles and my work on Bitcoin and the Lightning Network.
+> Jeśli zastanawiasz się, czy przekazać darowiznę, czy nie, i zastanawiasz się, jakie są moje koszty utrzymania lub moje dochody, zrozum, że właściwie rzecz biorąc, powinieneś przekazać mi darowiznę w oparciu o użyteczność, którą uważasz za moją
+artykuły i moja praca nad Bitcoin i Lightning Network.
 
 
-In his case, the reason for using a pseudonym is to be judged on his merits and not on who the person or persons behind the pseudonym is or are. Interestingly, he revealed in an [article on CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) that the pseudonym was created for a different reason.
+W jego przypadku powód używania pseudonimu należy oceniać na podstawie jego zasług, a nie tego, kim jest osoba lub osoby kryjące się za pseudonimem. Co ciekawe, ujawnił on w [artykule na CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/), że pseudonim został stworzony z innego powodu.
 
 
-> My initial reason [for using a pseudonym] was simply that I was concerned [about] making a massive mistake; thus ZmnSCPxj was originally intended to be a disposable pseudonym that could be abandoned in such a case. However it seems to have garnered a mostly positive reputation, so I have retained it
+> Moim początkowym powodem [używania pseudonimu] było po prostu to, że martwiłem się [o] popełnienie ogromnego błędu; dlatego ZmnSCPxj miał być pierwotnie jednorazowym pseudonimem, który można by porzucić w takim przypadku. Wydaje się jednak, że zyskał on w większości pozytywną reputację, więc go zachowałem
 
-Using a pseudonym indeed allows you to speak more freely without putting your personal reputation at risk should you say something stupid or make some big mistake. As it turned out, his pseudonym got very reputable and in 2019 [he even got a development grant](https://twitter.com/spiralbtc/status/1204815615678177280), which is in itself a testament to Bitcoin's permissionless nature.
-
-
-Arguably, the most well-known pseudonym in Bitcoin is Satoshi Nakamoto. It's unclear why he chose to be pseudonymous, but with hindsight it was probably a good decision for multiple reasons:
+Używanie pseudonimu rzeczywiście pozwala ci mówić swobodniej bez narażania swojej osobistej reputacji na ryzyko, gdybyś powiedział coś głupiego lub popełnił jakiś duży błąd. Jak się okazało, jego pseudonim zyskał bardzo dobrą reputację, a w 2019 roku [otrzymał nawet dotację na rozwój] (https://twitter.com/spiralbtc/status/1204815615678177280), co samo w sobie jest świadectwem bezwarunkowej natury Bitcoin.
 
 
-- As many people speculate that Nakamoto owns a lot of Bitcoin, it's imperative for his financial and personal safety to keep his identity unknown.
-- Since his identity is unknown, there is no possibility of prosecuting anyone, which gives various government authorities a Hard time.
-- There is no authoritative person to look up to, making Bitcoin more meritocratic and resilient against blackmailing.
+Prawdopodobnie najbardziej znanym pseudonimem w Bitcoin jest Satoshi Nakamoto. Nie jest jasne, dlaczego zdecydował się na pseudonim, ale z perspektywy czasu była to prawdopodobnie dobra decyzja z wielu powodów:
 
 
-Notice that these points don't just hold true for Satoshi Nakamoto, but for anyone working in Bitcoin or holding significant amounts of the currency, to varying degrees.
+- Ponieważ wiele osób spekuluje, że Nakamoto posiada wiele Bitcoin, dla jego bezpieczeństwa finansowego i osobistego konieczne jest, aby jego tożsamość pozostała nieznana.
+- Ponieważ jego tożsamość jest nieznana, nie ma możliwości ścigania kogokolwiek, co daje różnym organom rządowym czas Hard.
+- Nie ma autorytatywnej osoby, na której można by się wzorować, dzięki czemu Bitcoin jest bardziej merytokratyczny i odporny na szantaż.
 
 
-### Selection cryptography
+Zauważ, że te punkty nie dotyczą tylko Satoshi Nakamoto, ale każdego, kto pracuje w Bitcoin lub posiada znaczne ilości waluty, w różnym stopniu.
 
 
-Open source developers often make use of open source libraries developed by other people. This is a natural and awesome part of any healthy ecosystem. But Bitcoin software deals with real money and, in light of this, developers need to be extra careful when choosing which third party libraries it should depend on.
+### Kryptografia selekcji
 
 
-In a philosophical [talk about cryptography](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), Gregory Maxwell wants to redefine the term "cryptography" which he believes to be too narrow. He explains that fundamentally *information wants to be free*, and makes his definition of cryptography based on that:
+Programiści open source często korzystają z bibliotek open source opracowanych przez inne osoby. Jest to naturalna i wspaniała część każdego zdrowego ekosystemu. Jednak oprogramowanie Bitcoin ma do czynienia z prawdziwymi pieniędzmi i w związku z tym programiści muszą zachować szczególną ostrożność przy wyborze bibliotek stron trzecich, na których powinni polegać.
 
 
-> Cryptography is the art and science we use to fight the fundamental nature of information, to bend it to our political and moral will, and to direct it to human ends against all chance and efforts to oppose it.
-
-He then introduces the term *selection cryptography*, referred to as the art of selecting cryptographic tools, and explains why it is an important part of cryptography. It revolves around how to select cryptographic libraries, tools, and practices, or as he says "the cryptosystem of picking cryptosystems".
+W filozoficznej [rozmowie o kryptografii] (https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/) Gregory Maxwell chce przedefiniować termin "kryptografia", który jego zdaniem jest zbyt wąski. Wyjaśnia, że zasadniczo *informacja chce być wolna* i na tym opiera swoją definicję kryptografii:
 
 
-Using concrete examples, he shows how selection cryptography can easily go horribly wrong, and also proposes a list of questions you could ask yourself when practicing it. Below is a distilled version of that list:
+> Kryptografia to sztuka i nauka, której używamy do walki z fundamentalną naturą informacji, do naginania jej do naszej politycznej i moralnej woli oraz do kierowania jej do ludzkich celów wbrew wszelkim szansom i wysiłkom, by się jej przeciwstawić.
+
+Następnie wprowadza termin *kryptografia selekcyjna*, określany jako sztuka wyboru narzędzi kryptograficznych, i wyjaśnia, dlaczego jest to ważna część kryptografii. Obraca się wokół tego, jak wybrać biblioteki kryptograficzne, narzędzia i praktyki, lub jak mówi "kryptosystem wyboru kryptosystemów".
 
 
-- Is the software intended for your purposes?
-- Are the cryptographic considerations being taken seriously?
-- What is the review process? Is there one?
-- What is the experience of the authors?
-- Is the software documented?
-- Is the software portable?
-- Is the software tested?
-- Does the software adopt best practices?
+Używając konkretnych przykładów, pokazuje, jak kryptografia selekcji może łatwo pójść okropnie źle, a także proponuje listę pytań, które można sobie zadać podczas jej praktykowania. Poniżej znajduje się skrócona wersja tej listy:
 
 
-While this is not the ultimate guide to success, it can be very helpful to go through these points when doing selection cryptography.
+- Czy oprogramowanie jest przeznaczone do Twoich celów?
+- Czy kwestie kryptograficzne są traktowane poważnie?
+- Jak wygląda proces weryfikacji? Czy istnieje taki proces?
+- Jakie jest doświadczenie autorów?
+- Czy oprogramowanie jest udokumentowane?
+- Czy oprogramowanie jest przenośne?
+- Czy oprogramowanie zostało przetestowane?
+- Czy oprogramowanie stosuje najlepsze praktyki?
 
 
-Due to the issues mentioned above by Maxwell, Bitcoin Core tries really Hard to [minimize its exposure to third party libraries](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Of course, you can't eradicate all external dependencies, otherwise you'd have to write everything by yourself, from font rendering to implementation of system calls.
+Chociaż nie jest to ostateczny przewodnik po sukcesie, przejście przez te punkty może być bardzo pomocne podczas wykonywania kryptografii selekcji.
 
 
-### Review
+Ze względu na kwestie wspomniane powyżej przez Maxwella, Bitcoin Core naprawdę stara się Hard [zminimalizować swoją ekspozycję na biblioteki stron trzecich] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Oczywiście, nie da się wyeliminować wszystkich zewnętrznych zależności, w przeciwnym razie musiałbyś napisać wszystko sam, od renderowania czcionek po implementację wywołań systemowych.
 
 
-
-This section is named "Review", rather than "Code review", because Bitcoin's security relies heavily on review at multiple levels, not just source code. Moreover, different ideas require review at different levels: a consensus rule change would require a deeper review at more levels compared to a color scheme change or a typo fix.
-
-
-On its way to final adoption, an idea usually flows through several phases of discussion and review. Some of these phases are listed below:
+### Recenzja
 
 
 
-- An idea is posted on the Bitcoin-dev mailing list
-- The idea is formalized into a Bitcoin Improvement Proposal (BIP)
-- The BIP is implemented in a pull request (PR) to Bitcoin Core
-- Deployment mechanisms are discussed
-- Some competing deployment mechanisms are implemented in pull requests to Bitcoin Core
-- Pull requests are merged to the master branch
-- Users choose whether to use the software or not
+Ta sekcja nosi nazwę "Przegląd", a nie "Przegląd kodu", ponieważ bezpieczeństwo Bitcoin opiera się w dużej mierze na przeglądzie na wielu poziomach, a nie tylko na kodzie źródłowym. Co więcej, różne pomysły wymagają przeglądu na różnych poziomach: zmiana reguły konsensusu wymagałaby głębszego przeglądu na większej liczbie poziomów w porównaniu ze zmianą schematu kolorów lub poprawką literówki.
 
 
-At each of these phases people with different points of view and backgrounds review the available information, be it the source code, a BIP, or just a loosely described idea. The phases are usually not performed in any strict top-down manner, indeed multiple phases can happen simultaneously, and sometimes you go back and forth between them. Different people may also provide feedback during different phases.
+W drodze do ostatecznego przyjęcia, pomysł zazwyczaj przechodzi przez kilka faz dyskusji i przeglądu. Niektóre z tych faz wymieniono poniżej:
 
 
-One of the most prolific code reviewers on Bitcoin Core is Jon Atack. He wrote [a blog post](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) about how to review pull requests in Bitcoin Core. He emphasizes that a good code reviewer focuses on how to best add value.
+
+- Pomysł został opublikowany na liście mailingowej Bitcoin-dev
+- Pomysł ten został sformalizowany w postaci propozycji ulepszenia Bitcoin (BIP)
+- BIP jest zaimplementowany w pull request (PR) do Bitcoin Core
+- Omówiono mechanizmy wdrażania
+- Niektóre konkurencyjne mechanizmy wdrażania zostały zaimplementowane w pull requestach do Bitcoin Core
+- Żądania ściągnięcia są scalane z gałęzią główną
+- Użytkownicy decydują, czy chcą korzystać z oprogramowania, czy nie
 
 
-> As a newcomer, the goal is to try to add value, with friendliness and humility, while learning as much as possible.
+Na każdym z tych etapów ludzie o różnych punktach widzenia i pochodzeniu przeglądają dostępne informacje, czy to kod źródłowy, BIP, czy tylko luźno opisany pomysł. Fazy zwykle nie są wykonywane w żaden ściśle odgórny sposób, w rzeczywistości wiele faz może odbywać się jednocześnie, a czasami przechodzisz między nimi. Różne osoby mogą również przekazywać informacje zwrotne na różnych etapach.
+
+
+Jednym z najbardziej płodnych recenzentów kodu w Bitcoin Core jest Jon Atack. Napisał on [wpis na blogu](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) o tym, jak przeglądać pull requesty w Bitcoin Core. Podkreśla on, że dobry recenzent kodu skupia się na tym, jak najlepiej dodać wartość.
+
+
+> Jako nowicjusz, celem jest próba dodania wartości, z życzliwością i pokorą, jednocześnie ucząc się jak najwięcej.
 >
 
-> A good approach is to make it not about you, but rather "How can I best serve?"
+> Dobrym podejściem jest sprawienie, by nie chodziło o ciebie, ale raczej "Jak mogę najlepiej służyć?"
 
-He highlights the fact that review is a truly limiting factor in Bitcoin Core. Lots of good ideas get stuck in a limbo where no review occurs, pending. Notice that reviewing is not only beneficial to Bitcoin, but also a great way to learn about the software while providing value to it, at the same time. Atack's rule of thumb is to review 5-15 PRs before making any PR of your own. Again, your focus should be on how to best serve the community, not on how to get your own code merged. On top of this, he stresses the importance of doing review at the right level: is this the time for nits and typos, or does the developer need more of a conceptually-oriented review? Jon Attack adds:
-
-
-> A useful first question when beginning a review can be, "What is most needed here at this time?" Answering this question requires experience and accumulated context, but it is a useful question in deciding how you can add the most value in the least time.
-
-The second half of the post consists of some useful hands-on technical guidance on how to actually do the reviewing, and provides links to important documentation for further reading.
+Podkreśla on fakt, że recenzja jest naprawdę ograniczającym czynnikiem w Bitcoin Core. Wiele dobrych pomysłów utknęło w zawieszeniu, w którym nie ma recenzji. Zauważ, że recenzowanie jest nie tylko korzystne dla Bitcoin, ale także świetnym sposobem na poznanie oprogramowania i jednoczesne dostarczanie mu wartości. Zasadą Atacka jest przejrzenie 5-15 PR przed dokonaniem własnego PR. Ponownie, należy skupić się na tym, jak najlepiej służyć społeczności, a nie na tym, jak scalić własny kod. Podkreśla on również, jak ważne jest dokonywanie przeglądu na odpowiednim poziomie: czy jest to czas na gnidy i literówki, czy też deweloper potrzebuje bardziej zorientowanego na koncepcję przeglądu? Jon Attack dodaje:
 
 
-Bitcoin Core developer and code reviewer Gloria Zhao has written [an article](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) containing questions she usually asks herself during a review. She also states what she considers to be a good review:
+> Przydatnym pierwszym pytaniem przy rozpoczynaniu przeglądu może być: "Co jest najbardziej potrzebne w tym momencie?" Odpowiedź na to pytanie wymaga doświadczenia i zgromadzonego kontekstu, ale jest to przydatne pytanie przy podejmowaniu decyzji, w jaki sposób można wnieść największą wartość w jak najkrótszym czasie.
+
+Druga połowa postu zawiera przydatne praktyczne wskazówki techniczne dotyczące faktycznego przeprowadzania przeglądu i zawiera linki do ważnej dokumentacji do dalszej lektury.
 
 
-> I personally think a good review is one where I've asked myself a lot of pointed questions about the PR and been satisfied with the answers
-to them. [...] Naturally, I start with conceptual questions, then approach-related questions, and then implementation questions. Generally, I personally think it's useless to leave C++ syntax-related comments on a draft PR, and would feel rude going back to "does this make sense" after the author has addressed 20+ of my code organization suggestions.
+Gloria Zhao, programistka Bitcoin Core i recenzentka kodu, napisała [artykuł](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) zawierający pytania, które zwykle zadaje sobie podczas recenzji. Określiła również, co uważa za dobrą recenzję:
 
 
-Her idea that a good review should focus on what's most needed at a specific point in time aligns well with Jon Atack's advice. She
-
-proposes a list of questions that you may ask yourself at various levels of the review process, but stresses that this list is not in any way exhaustive nor a straight-out recipe. The list is illustrated with real-life examples from GitHub.
-
-
-### Funding
+> Osobiście uważam, że dobra recenzja to taka, w której zadałem sobie wiele konkretnych pytań na temat PR i byłem zadowolony z odpowiedzi
+do nich. [...] Oczywiście zaczynam od pytań koncepcyjnych, następnie pytań związanych z podejściem, a następnie pytań dotyczących implementacji. Ogólnie rzecz biorąc, osobiście uważam, że bezużyteczne jest pozostawianie komentarzy związanych ze składnią C++ w wersji roboczej PR i czułbym się niegrzecznie wracając do "czy to ma sens" po tym, jak autor odniósł się do ponad 20 moich sugestii dotyczących organizacji kodu.
 
 
+Jej pomysł, że dobra recenzja powinna skupiać się na tym, co jest najbardziej potrzebne w danym momencie, jest zgodny z radą Jona Atacka. Ona
 
-Lots of people work with Bitcoin open source development, either for Bitcoin Core or for other projects. Many do it in their spare time without getting any compensation, but some developers are also getting paid to do it.
-
-
-Companies, individuals, and organizations who have an interest in Bitcoin's continued success can donate funds to developers, either directly or through organizations that in turn distribute the funds to individual developers. There are also a number of Bitcoin-focused companies that hire skilled developers to let them work full-time on Bitcoin.
+proponuje listę pytań, które można sobie zadać na różnych poziomach procesu recenzowania, ale podkreśla, że lista ta nie jest w żaden sposób wyczerpująca ani nie stanowi bezpośredniego przepisu. Lista jest zilustrowana rzeczywistymi przykładami z GitHub.
 
 
-### Culture shock
+### Finansowanie
 
 
 
-People sometimes get the impression that there's a lot of infighting and endless heated debates among Bitcoin developers, and that they are incapable of making decisions.
+Wiele osób pracuje nad rozwojem Bitcoin open source, zarówno dla Bitcoin Core, jak i dla innych projektów. Wielu robi to w wolnym czasie, nie otrzymując żadnego wynagrodzenia, ale niektórzy deweloperzy również otrzymują za to wynagrodzenie.
 
 
-For example, the Taproot deployment mechanism, it was discussed over a long period of time during which two "camps" formed. One wanted to "fail" the upgrade if miners hadn't overwhelmingly voted for the new rules after a certain moment, while the other wanted to enforce the rules after that moment no matter what. Michael Folkson summarizes the arguments from the two camps in an [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) to the Bitcoin-dev mailing list.
+Firmy, osoby prywatne i organizacje, które są zainteresowane dalszym sukcesem Bitcoin, mogą przekazywać fundusze deweloperom, bezpośrednio lub za pośrednictwem organizacji, które z kolei dystrybuują fundusze do poszczególnych deweloperów. Istnieje również wiele firm skupionych na Bitcoin, które zatrudniają wykwalifikowanych deweloperów, pozwalając im pracować nad Bitcoin w pełnym wymiarze godzin.
 
 
-The debate went on seemingly forever, and it was really Hard to see any consensus on this forming any time soon. This got people frustrated and as a result the heat intensified. Gregory Maxwell (as user nullc) worried [on Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) that the lengthy discussions would make the upgrade less safe:
-
-
-> At this juncture, additional waiting isn't adding more review and certainty. Instead, additional delay is sapping inertia and potentially increasing risk somewhat as people start forgetting details, delaying work on downstream usage (like Wallet support), and not investing as much additional review effort as they would be investing if they felt confident about the activation timeframe.
-
-Eventually, this dispute got resolved thanks to a new proposal by David Harding and Russel O'Connor called Speedy Trial, which entailed a comparatively shorter signaling period for miners to lock in activation of Taproot, or fail fast. If they activated it during that window of time, then Taproot would be deployed approximately 6 months later.
-
-
-Someone who's not used to Bitcoin's development process would probably think that these heated debates look awfully bad and even toxic. There are at least two factors that make them look bad, in some people's eyes:
+### Szok kulturowy
 
 
 
-- Compared to closed source companies, all debates happen in the open, unedited. A software company like Google would never let its employees debate proposed features in the open, indeed it would at most publish a statement about the company's stance on the subject. This makes companies look more harmonic compared to Bitcoin.
-- Since Bitcoin is permissionless, anyone is allowed to voice their opinions. This is fundamentally different from a closed source company that has a handful of people with an opinion, usually like-minded people. The plethora of opinions expressed within Bitcoin is simply staggering compared to, for example, PayPal.
+Ludzie czasami odnoszą wrażenie, że wśród deweloperów Bitcoin jest wiele walk i niekończących się gorących debat, a oni sami są niezdolni do podejmowania decyzji.
 
 
-Most Bitcoin developers would argue that this openness brings about a good and healthy environment, and even that it is necessary for producing the best outcome.
+Na przykład mechanizm wdrażania Taproot był dyskutowany przez długi czas, podczas którego utworzyły się dwa "obozy". Jeden z nich chciał "zawalić" aktualizację, jeśli górnicy nie zagłosowaliby w przeważającej większości za nowymi zasadami po pewnym czasie, podczas gdy drugi chciał egzekwować zasady po tym momencie bez względu na wszystko. Michael Folkson podsumował argumenty obu obozów w wiadomości [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) wysłanej na listę mailingową Bitcoin-dev.
 
 
-As hinted in the chapter Threat, the second bullet above can be very beneficial but comes with a downside. An attacker could use stalling tactics, like the ones outlined in the [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), to distort the decision making and development process.
+Debata trwała pozornie w nieskończoność i naprawdę Hard nie widział, by w najbliższym czasie doszło do jakiegokolwiek konsensusu w tej sprawie. To doprowadziło ludzi do frustracji, a w rezultacie temperatura wzrosła. Gregory Maxwell (jako użytkownik nullc) martwił się [na Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3), że długie dyskusje sprawią, że aktualizacja będzie mniej bezpieczna:
 
 
-Another thing worth mentioning is that, since Bitcoin is money and Bitcoin Core secures unfathomable amounts of money, security in this context is not taken lightly. This is why seasoned Bitcoin Core
+> W tym momencie dodatkowe oczekiwanie nie dodaje więcej recenzji i pewności. Zamiast tego, dodatkowe opóźnienie osłabia inercję i potencjalnie zwiększa ryzyko, ponieważ ludzie zaczynają zapominać o szczegółach, opóźniając prace nad dalszym wykorzystaniem (np. wsparcie Wallet) i nie inwestując tyle dodatkowego wysiłku w przegląd, ile zainwestowaliby, gdyby mieli pewność co do ram czasowych aktywacji.
 
-developers might appear very Hard-headed, which attitude is usually warranted. Indeed, a feature with a weak rationale behind it is not going to be accepted. The same would happen if it broke the
-
-reproducible builds, added new dependencies, or if the code didn't follow Bitcoin's [best practices](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
+Ostatecznie spór ten został rozwiązany dzięki nowej propozycji Davida Hardinga i Russela O'Connora o nazwie Speedy Trial, która zakładała stosunkowo krótszy okres sygnalizacji dla górników, aby zablokować aktywację Taproot lub szybko zawieść. Jeśli aktywowali go w tym czasie, Taproot zostanie wdrożony około 6 miesięcy później.
 
 
-New (and old) developers can get frustrated by this. But, as is customary in open source software, you can always Fork the repository, merge whatever you want to your own Fork, and build and run your own binary.
+Ktoś, kto nie jest przyzwyczajony do procesu rozwoju Bitcoin, prawdopodobnie pomyślałby, że te gorące debaty wyglądają okropnie źle, a nawet toksycznie. Istnieją co najmniej dwa czynniki, które sprawiają, że w oczach niektórych wyglądają one źle:
 
 
-### Conclusion about Open Source
+
+- W porównaniu do firm o zamkniętym kodzie źródłowym, wszystkie debaty odbywają się na otwartej przestrzeni, bez edycji. Firma programistyczna, taka jak Google, nigdy nie pozwoliłaby swoim pracownikom na otwartą debatę na temat proponowanych funkcji, co najwyżej opublikowałaby oświadczenie o stanowisku firmy w tej sprawie. To sprawia, że firmy wyglądają bardziej harmonijnie w porównaniu do Bitcoin.
+- Ponieważ Bitcoin nie wymaga zezwoleń, każdy może wyrażać swoje opinie. Różni się to zasadniczo od zamkniętej firmy, która ma garstkę ludzi z opinią, zwykle podobnie myślących. Mnogość opinii wyrażanych w Bitcoin jest po prostu oszałamiająca w porównaniu do, na przykład, PayPal.
 
 
-Bitcoin Core and most other Bitcoin software is open source, which means that anyone is free to distribute, modify, and use the software as they please. The Bitcoin Core repository on GitHub is currently the focal point of Bitcoin development, but that status can change if people start to distrust its maintainers, or the website itself.
+Większość deweloperów Bitcoin twierdzi, że ta otwartość zapewnia dobre i zdrowe środowisko, a nawet, że jest niezbędna do osiągnięcia najlepszych wyników.
 
 
-Open source allows for permissionless development in, and on top of Bitcoin. Whether you write code, review code or protocols; open source is what enables you to do it, pseudonomously or not.
+Jak wskazano w rozdziale Zagrożenie, drugi z powyższych punktów może być bardzo korzystny, ale ma też wadę. Atakujący może stosować taktyki przeciągania, takie jak te opisane w [Simple Sabotage Field Manual] (https://www.gutenberg.org/ebooks/26184), aby zakłócić proces podejmowania decyzji i rozwoju.
 
 
-The development process around Bitcoin is radically open, which can make Bitcoin look like a toxic and inefficient place, but that's what keeps Bitcoin resilient against malicious actors.
+Kolejną rzeczą wartą wspomnienia jest to, że ponieważ Bitcoin to pieniądze, a Bitcoin Core zabezpiecza niezgłębione ilości pieniędzy, bezpieczeństwo w tym kontekście nie jest traktowane lekko. Właśnie dlatego doświadczony Bitcoin Core
+
+deweloperzy mogą wydawać się bardzo Hard-headed, co zazwyczaj jest uzasadnione. Rzeczywiście, funkcja ze słabym uzasadnieniem nie zostanie zaakceptowana. To samo stałoby się, gdyby złamała ona
+
+odtwarzalne kompilacje, dodano nowe zależności lub kod nie był zgodny z [najlepszymi praktykami] Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-## Scaling
+Nowi (i starzy) deweloperzy mogą być tym sfrustrowani. Ale, jak to zwykle bywa w oprogramowaniu open source, zawsze możesz Fork repozytorium, scalić co chcesz do własnego Fork i zbudować i uruchomić własną binarkę.
+
+
+### Wnioski dotyczące Open Source
+
+
+Bitcoin Core i większość innego oprogramowania Bitcoin jest oprogramowaniem typu open source, co oznacza, że każdy może swobodnie rozpowszechniać, modyfikować i wykorzystywać oprogramowanie w dowolny sposób. Repozytorium Bitcoin Core na GitHub jest obecnie centralnym punktem rozwoju Bitcoin, ale status ten może ulec zmianie, jeśli ludzie zaczną nie ufać jego opiekunom lub samej witrynie.
+
+
+Otwarte oprogramowanie pozwala na rozwój bez zezwoleń w Bitcoin i na jego szczycie. Niezależnie od tego, czy piszesz kod, przeglądasz kod czy protokoły; open source jest tym, co pozwala ci to robić, pseudonomicznie lub nie.
+
+
+Proces rozwoju wokół Bitcoin jest radykalnie otwarty, co może sprawiać, że Bitcoin wygląda jak toksyczne i nieefektywne miejsce, ale to właśnie sprawia, że Bitcoin jest odporny na złośliwe podmioty.
+
+
+## Skalowanie
 
 <chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
 
@@ -1402,273 +1442,273 @@ The development process around Bitcoin is radically open, which can make Bitcoin
 
 
 
-In this chapter, we explore how Bitcoin does and does not scale. We start by looking at how people have reasoned about scaling in the past. Then, the bulk of this chapter explains various approaches to scaling Bitcoin, specifically vertical, horizontal, inward, and layered scaling. Each description is followed by considerations over whether the approach interferes with Bitcoin's value proposition.
+W tym rozdziale zbadamy, w jaki sposób Bitcoin skaluje się i nie skaluje. Zaczynamy od przyjrzenia się temu, jak ludzie rozumowali o skalowaniu w przeszłości. Następnie większa część tego rozdziału wyjaśnia różne podejścia do skalowania Bitcoin, w szczególności skalowanie pionowe, poziome, wewnętrzne i warstwowe. Po każdym opisie następują rozważania na temat tego, czy dane podejście koliduje z propozycją wartości Bitcoin.
 
 
-In the Bitcoin space, different people ascribe different definitions to the word "scale". Some conceive it as the increase of the Blockchain transaction capacity, others believe it equals to using the Blockchain more efficiently, and others see it as the development of systems on top of Bitcoin.
+W przestrzeni Bitcoin różne osoby przypisują różne definicje słowu "skala". Niektórzy rozumieją je jako zwiększenie pojemności transakcyjnej Blockchain, inni uważają, że jest to równoznaczne z bardziej wydajnym wykorzystaniem Blockchain, a jeszcze inni postrzegają je jako rozwój systemów na szczycie Bitcoin.
 
 
-In the context of Bitcoin, and for this book's purposes, we define scaling as *increasing Bitcoin's usage capacity without compromising its censorship resistance*. This definition encompasses several
+W kontekście Bitcoin i dla celów tej książki definiujemy skalowanie jako *zwiększanie możliwości Bitcoin bez narażania jego odporności na cenzurę*. Definicja ta obejmuje kilka aspektów
 
-kinds of changes, for example:
-
-
-- Making transaction inputs use fewer bytes
-- Improving signature verification performance
-- Making the peer-to-peer network use less bandwidth
-- Transaction batching
-- Layered architecture
+rodzaje zmian, na przykład:
 
 
-We'll soon dive into different approaches to scaling, but let's start with a brief overview of Bitcoin's history within the context of scaling.
+- Sprawianie, by dane wejściowe transakcji zużywały mniej bajtów
+- Poprawa wydajności weryfikacji podpisu
+- Zmniejszenie wykorzystania przepustowości przez sieć peer-to-peer
+- Grupowanie transakcji
+- Architektura warstwowa
 
 
-### History of Scaling
+Wkrótce zagłębimy się w różne podejścia do skalowania, ale zacznijmy od krótkiego przeglądu historii Bitcoin w kontekście skalowania.
+
+
+### Historia skalowania
 
 
 
-Scaling has been a focal point of discussion since the Genesis of Bitcoin. The very first sentence of the [very first email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) in response to Satoshi's announcement of the Bitcoin whitepaper on the Cryptography mailing list was indeed about scaling:
+Skalowanie było głównym punktem dyskusji od Genesis z Bitcoin. Pierwsze zdanie [bardzo pierwszego e-maila](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) w odpowiedzi na ogłoszenie Satoshi o białej księdze Bitcoin na liście mailingowej Cryptography rzeczywiście dotyczyło skalowania:
 
 
-> Satoshi Nakamoto wrote:
+> Satoshi Nakamoto napisał:
 >
 
-> "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.  The paper is available at http://www.Bitcoin.org/Bitcoin.pdf"
+> "Pracowałem nad nowym elektronicznym systemem gotówkowym, który jest w pełni peer-to-peer, bez zaufanej strony trzeciej.  Artykuł jest dostępny na stronie http://www.Bitcoin.org/Bitcoin.pdf"
 >
 
-> We very, very much need such a system, but the way I understand your proposal, it does not seem to scale to the required size.
+> Bardzo, bardzo potrzebujemy takiego systemu, ale sposób, w jaki rozumiem twoją propozycję, nie wydaje się skalować do wymaganego rozmiaru.
 
-The conversation in itself might not be very interesting nor accurate, but it shows that scaling has been a concern from the very beginning.
-
-
-Discussions over scaling reached their peak interest around 2015-2017, when there were many different ideas circulating about whether and how to increase the maximum block size limit. That was a rather uninteresting discussion about changing a parameter in the source code, a change that didn't fundamentally solve anything but pushed the problem of scaling further into the future, building technical debt.
+Rozmowa sama w sobie nie jest może zbyt interesująca ani dokładna, ale pokazuje, że skalowanie było problemem od samego początku.
 
 
-In 2015, a conference called [Scaling Bitcoin](https://scalingbitcoin.org/) was held in Montreal, with a follow-up conference six months later in Hong Kong and thereafter in a number of other locations around the world. The focus was precisely on how to Address scaling. Many Bitcoin developers and other enthusiasts gathered at these conferences to discuss various scaling issues and proposals. Most of these discussions didn't revolve around block size increases but on more long-term solutions.
+Dyskusje na temat skalowania osiągnęły szczyt zainteresowania w latach 2015-2017, kiedy krążyło wiele różnych pomysłów na temat tego, czy i jak zwiększyć maksymalny limit rozmiaru bloku. Była to raczej nieciekawa dyskusja na temat zmiany parametru w kodzie źródłowym, zmiany, która zasadniczo niczego nie rozwiązywała, ale odsuwała problem skalowania dalej w przyszłość, budując dług techniczny.
 
 
-After the Hong Kong conference in December 2015, Gregory Maxwell [summarized his view](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) on many of the issues that had been debated, starting off with some general scaling philosophy:
+W 2015 r. w Montrealu odbyła się konferencja pod nazwą [Scaling Bitcoin](https://scalingbitcoin.org/), a sześć miesięcy później w Hongkongu, a następnie w wielu innych miejscach na całym świecie. Skupiono się dokładnie na tym, jak skalować Address. Wielu deweloperów Bitcoin i innych entuzjastów zebrało się na tych konferencjach, aby omówić różne kwestie i propozycje dotyczące skalowania. Większość tych dyskusji nie koncentrowała się na zwiększaniu rozmiaru bloku, ale na bardziej długoterminowych rozwiązaniach.
 
 
-> With the available technology, there are fundamental trade-offs between scale and decentralization. If the system is too costly people will be forced to trust third parties rather than independently enforcing the system's rules. If the Bitcoin Blockchain’s resource usage, relative to the available technology, is too great, Bitcoin loses its competitive advantages compared to legacy systems because validation will be too costly (pricing out many users), forcing trust back into the system.  If capacity is too low and our methods of transacting too inefficient, access to the chain for dispute resolution will be too costly, again pushing trust back into the system.
-
-He speaks about the trade-off between throughput and decentralization. If you allow for bigger blocks, you will push some people off the network because they won't have the resources to validate the blocks anymore. But on the other hand, if access to block space becomes more expensive, fewer people will be able to afford using it as a dispute resolution mechanism. In both cases, users are pushed towards trusted services.
+Po konferencji w Hong Kongu w grudniu 2015 r. Gregory Maxwell [podsumował swój pogląd](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) na wiele kwestii, które były przedmiotem debaty, zaczynając od ogólnej filozofii skalowania:
 
 
-He continues by summarizing the many approaches to scaling presented at the conference. Among them are more computationally efficient signature verifications, *segregated witness* including a block size limit change, a more space-efficient block propagation mechanism, and building protocols on top of Bitcoin in layers. Many of these
+> Przy dostępnej technologii istnieją fundamentalne kompromisy między skalą a decentralizacją. Jeśli system jest zbyt kosztowny, ludzie będą zmuszeni zaufać stronom trzecim, zamiast niezależnie egzekwować zasady systemu. Jeśli wykorzystanie zasobów Bitcoin Blockchain w stosunku do dostępnej technologii jest zbyt duże, Bitcoin traci swoją przewagę konkurencyjną w porównaniu do starszych systemów, ponieważ walidacja będzie zbyt kosztowna (wyceniając wielu użytkowników), zmuszając zaufanie z powrotem do systemu.  Jeśli przepustowość jest zbyt niska, a nasze metody zawierania transakcji zbyt nieefektywne, dostęp do łańcucha w celu rozstrzygania sporów będzie zbyt kosztowny, ponownie wypychając zaufanie z powrotem do systemu.
 
-approaches have since been implemented.
-
-
-### Scaling approaches
+Mówi o kompromisie między przepustowością a decentralizacją. Jeśli zezwolisz na większe bloki, wypchniesz niektórych ludzi z sieci, ponieważ nie będą już mieli zasobów do walidacji bloków. Ale z drugiej strony, jeśli dostęp do przestrzeni blokowej stanie się droższy, mniej osób będzie mogło sobie pozwolić na wykorzystanie jej jako mechanizmu rozstrzygania sporów. W obu przypadkach użytkownicy są popychani w kierunku zaufanych usług.
 
 
+Kontynuuje, podsumowując wiele podejść do skalowania przedstawionych na konferencji. Wśród nich są bardziej wydajne obliczeniowo weryfikacje podpisów, *segregowany świadek*, w tym zmiana limitu rozmiaru bloku, bardziej wydajny przestrzennie mechanizm propagacji bloków oraz budowanie protokołów na szczycie Bitcoin w warstwach. Wiele z tych
 
-As hinted above, scaling Bitcoin doesn't necessarily have to be about increasing the block size limit or other limits. We now go through some general approaches to scaling, some of which don't suffer from the throughput-decentralization trade-off mentioned in the previous section.
+podejścia zostały wdrożone.
 
 
-#### Vertical scaling
+### Podejścia do skalowania
 
 
 
-Vertical scaling is the process of increasing the computing resources of the machines processing data. In the context of Bitcoin, these latter would be the full nodes, namely the machines that validate the Blockchain on behalf of their users.
+Jak wskazano powyżej, skalowanie Bitcoin niekoniecznie musi polegać na zwiększaniu limitu rozmiaru bloku lub innych limitów. Przejdziemy teraz przez kilka ogólnych podejść do skalowania, z których niektóre nie cierpią z powodu kompromisu między przepustowością a decentralizacją wspomnianego w poprzedniej sekcji.
 
 
-The most commonly discussed technique for vertical scaling in Bitcoin is the increase in the block size limit. This would require some full nodes to upgrade their hardware to keep up with the increasing computational demands. The downside is that it happens at the cost of centralization.
-
-
-Besides the negative effects on Full node decentralization, vertical scaling might also negatively impact Bitcoin's Mining decentralization and security in less obvious ways. Let's have a look at how miners "should" operate. Say a Miner mines a block at height 7 and publishes that block on the Bitcoin network. It will take some time for this block to reach broad acceptance, which is mainly due to two factors:
-
-
-- Transfer of the block between peers takes time due to bandwidth limitations.
-- Validation of the block takes time.
-
-
-While block 7 is being propagated through the network, many miners are still Mining on top of block 6 because they haven't received and validated block 7 yet. During this time, if any of these miners finds a new block at height 7, there will be two competing blocks at that height. There can only be one block at height 7 (or any other height), which means one of the two candidates must become stale.
-
-
-In short, stale blocks happen because it takes time for each block to propagate, and the longer propagation takes, the higher the probability of stale blocks.
-
-
-Suppose that the block size limit is lifted and that the average block size increases substantially. Blocks would then propagate slower across the network due to bandwidth limitations and verification time. An increase in propagation time will also increase the chances of stale blocks.
-
-
-Miners don't like to have their blocks staled because they'll lose their Block reward, so they will do whatever they can to avoid this
-
-scenario. The measures they can take include:
+#### Skalowanie pionowe
 
 
 
-- Postponing the validation of an incoming block, also known as *validationless Mining*. Miners can just check the block header's Proof-of-Work and mine on top of it, while in the meantime they download the full block and validate it.
-- Connecting to a Mining pool with greater bandwidth and connectivity.
+Skalowanie pionowe to proces zwiększania zasobów obliczeniowych maszyn przetwarzających dane. W kontekście Bitcoin byłyby to pełne węzły, a mianowicie maszyny, które weryfikują Blockchain w imieniu swoich użytkowników.
 
 
-Validationless Mining further undermines Full node decentralization, as the Miner resorts to trusting incoming blocks, at least temporarily. It also hurts security to some degree because a portion of the network's computing power is potentially building on an invalid Blockchain, instead of building on the strongest and valid chain.
+Najczęściej omawianą techniką skalowania pionowego w Bitcoin jest zwiększenie limitu rozmiaru bloku. Wymagałoby to od niektórych pełnych węzłów modernizacji sprzętu, aby nadążyć za rosnącymi wymaganiami obliczeniowymi. Wadą jest to, że odbywa się to kosztem centralizacji.
 
 
-The second bullet point has a negative effect on Miner decentralization, because usually the pools with the best network connectivity and bandwidth are also the largest, causing miners to gravitate towards a few big pools.
+Oprócz negatywnego wpływu na decentralizację Full node, skalowanie pionowe może również negatywnie wpływać na decentralizację Bitcoin i bezpieczeństwo Mining w mniej oczywisty sposób. Przyjrzyjmy się, jak "powinni" działać górnicy. Załóżmy, że Miner wydobywa blok na wysokości 7 i publikuje go w sieci Bitcoin. Minie trochę czasu, zanim ten blok osiągnie szeroką akceptację, co wynika głównie z dwóch czynników:
 
 
-#### Horizontal scaling
+- Przesłanie bloku między urządzeniami równorzędnymi wymaga czasu ze względu na ograniczenia przepustowości.
+- Walidacja bloku wymaga czasu.
+
+
+Podczas gdy blok 7 jest propagowany przez sieć, wielu górników nadal Mining na szczycie bloku 6, ponieważ nie otrzymali jeszcze i nie zatwierdzili bloku 7. W tym czasie, jeśli którykolwiek z tych górników znajdzie nowy blok na wysokości 7, będą istniały dwa konkurujące ze sobą bloki na tej wysokości. Na wysokości 7 (lub dowolnej innej wysokości) może znajdować się tylko jeden blok, co oznacza, że jeden z dwóch kandydatów musi stać się nieaktualny.
+
+
+Krótko mówiąc, nieaktualne bloki zdarzają się, ponieważ propagacja każdego bloku zajmuje trochę czasu, a im dłużej trwa propagacja, tym większe prawdopodobieństwo wystąpienia nieaktualnych bloków.
+
+
+Załóżmy, że limit rozmiaru bloku zostanie zniesiony, a średni rozmiar bloku znacznie wzrośnie. Bloki rozprzestrzeniałyby się wówczas wolniej w sieci ze względu na ograniczenia przepustowości i czas weryfikacji. Wydłużenie czasu propagacji zwiększy również szanse na pojawienie się nieaktualnych bloków.
+
+
+Górnicy nie lubią, gdy ich bloki są przeciągane, ponieważ stracą Block reward, więc zrobią wszystko, co w ich mocy, aby tego uniknąć
+
+scenariusz. Środki, które mogą podjąć, obejmują:
 
 
 
-Horizontal scaling refers to techniques that divide the workload across multiple machines. While this is a prevalent scaling approach among popular websites and databases, it's not easily done in Bitcoin.
+- Odroczenie walidacji przychodzącego bloku, znane również jako *bezwalidacyjny Mining*. Górnicy mogą po prostu sprawdzić Proof-of-Work nagłówka bloku i wydobywać na jego podstawie, podczas gdy w międzyczasie pobierają pełny blok i walidują go.
+- Podłączenie do Mining pool z większą przepustowością i łącznością.
 
 
-Many people refer to this Bitcoin scaling approach as *sharding*. Basically, it consists in letting each Full node verify just a portion of the Blockchain. Peter Todd has put a lot of thought into the concept of sharding. He wrote a [blog post](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) explaining sharding in general terms, and also presenting his own idea called *treechains*. The article is a difficult read, but Todd makes some points that are quite digestible:
+Mining bez walidacji dodatkowo osłabia decentralizację Full node, ponieważ Miner ucieka się do ufania przychodzącym blokom, przynajmniej tymczasowo. W pewnym stopniu szkodzi to również bezpieczeństwu, ponieważ część mocy obliczeniowej sieci potencjalnie opiera się na nieprawidłowym Blockchain, zamiast na najsilniejszym i prawidłowym łańcuchu.
 
 
-> In sharded systems the “Full node defense” doesn’t work, at least directly. The whole point is that not everyone has all the data, so you have to decide what happens when it’s not available.
-
-Then he presents various ideas on how to tackle sharding, or horizontal scaling. Towards the end of the post he concludes:
+Drugi punkt ma negatywny wpływ na decentralizację Miner, ponieważ zazwyczaj pule o najlepszej łączności sieciowej i przepustowości są również największe, co powoduje, że górnicy grawitują w kierunku kilku dużych pul.
 
 
-> There’s a big problem though: holy !@#$ is the above complex compared to Bitcoin! Even the “kiddy” version of sharding - my linearization scheme rather than zk-SNARKS - is probably one or two orders of magnitude more complex than using the Bitcoin protocol is right now, yet right now a huge % of the companies in this space seem to have thrown their hands up and used centralized API providers instead. Actually implementing the above and getting it into the hands of end-users won’t be easy.
+#### Skalowanie poziome
+
+
+
+Skalowanie poziome odnosi się do technik, które dzielą obciążenie na wiele maszyn. Chociaż jest to powszechne podejście do skalowania wśród popularnych witryn internetowych i baz danych, nie jest to łatwe do wykonania w Bitcoin.
+
+
+Wiele osób określa to podejście do skalowania Bitcoin jako *sharding*. Zasadniczo polega to na tym, że każdy Full node weryfikuje tylko część Blockchain. Peter Todd poświęcił wiele uwagi koncepcji shardingu. Napisał [wpis na blogu](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) wyjaśniający sharding w ogólnych warunkach, a także przedstawiający własny pomysł o nazwie *treechains*. Artykuł jest trudny do przeczytania, ale Todd przedstawia kilka punktów, które są całkiem strawne:
+
+
+> W systemach sharded "obrona Full node" nie działa, przynajmniej bezpośrednio. Chodzi o to, że nie każdy ma wszystkie dane, więc musisz zdecydować, co się stanie, gdy nie będą one dostępne.
+
+Następnie przedstawia różne pomysły na to, jak poradzić sobie z shardingiem lub skalowaniem poziomym. Pod koniec postu podsumowuje:
+
+
+> Jest jednak duży problem: święty !@#$ jest to skomplikowane w porównaniu do Bitcoin! Nawet "dziecinna" wersja shardingu - mój schemat linearyzacji zamiast zk-SNARKS - jest prawdopodobnie o jeden lub dwa rzędy wielkości bardziej złożona niż korzystanie z protokołu Bitcoin w tej chwili, ale w tej chwili wydaje się, że ogromny procent firm w tej przestrzeni rzucił ręce w górę i zamiast tego skorzystał ze scentralizowanych dostawców API. Faktyczne wdrożenie powyższego i przekazanie go w ręce użytkowników końcowych nie będzie łatwe.
 >
 
-> On the other hand, decentralization isn’t cheap: using PayPal is one or two orders of magnitude simpler than the Bitcoin protocol.
+> Z drugiej strony, decentralizacja nie jest tania: korzystanie z PayPal jest o jeden lub dwa rzędy wielkości prostsze niż protokół Bitcoin.
 
-The conclusion he makes is that sharding *might* be technically possible, but it would come at the cost of tremendous complexity. Given that many users already find Bitcoin too complex and prefer to use centralized services instead, it's going to be Hard to convince them to use something even more complex.
-
-
-#### Inward scaling
+Wniosek jest taki, że sharding *mógłby* być technicznie możliwy, ale kosztem ogromnej złożoności. Biorąc pod uwagę, że wielu użytkowników już uważa Bitcoin za zbyt skomplikowane i zamiast tego woli korzystać ze scentralizowanych usług, przekonanie ich do korzystania z czegoś jeszcze bardziej złożonego będzie Hard.
 
 
-
-While horizontal and vertical scaling have historically worked out well in centralized systems like databases and web servers, they don't seem to be suitable for a decentralized network like Bitcoin due to their centralizing effects.
-
-
-An approach that gets far too little appreciation is what we can call *inward scaling*, which translates into "do more with less". It refers to the ongoing work constantly done by many developers to optimize the algorithms already in place, so that we can do more within the existing limits of the system.
+#### Skalowanie wewnętrzne
 
 
-The improvements that have been achieved through inward scaling are impressive, to say the least. To give you a general idea of the improvements over the years, Jameson Lopp [has run benchmark tests](https://blog.lopp.net/Bitcoin-core-performance-evolution/) on Blockchain synchronization, comparing many different versions of Bitcoin Core going back to version 0.8.
+
+Podczas gdy skalowanie poziome i pionowe historycznie sprawdzało się dobrze w scentralizowanych systemach, takich jak bazy danych i serwery internetowe, nie wydają się one odpowiednie dla zdecentralizowanej sieci, takiej jak Bitcoin, ze względu na ich centralizujące efekty.
+
+
+Podejściem, które jest zbyt mało doceniane, jest to, co możemy nazwać *skalowaniem wewnętrznym*, co tłumaczy się jako "rób więcej za mniej". Odnosi się to do ciągłej pracy wykonywanej przez wielu programistów w celu optymalizacji już istniejących algorytmów, tak abyśmy mogli zrobić więcej w ramach istniejących ograniczeń systemu.
+
+
+Ulepszenia, które zostały osiągnięte dzięki skalowaniu do wewnątrz, są co najmniej imponujące. Aby dać ci ogólne wyobrażenie o ulepszeniach na przestrzeni lat, Jameson Lopp [przeprowadził testy porównawcze](https://blog.lopp.net/Bitcoin-core-performance-evolution/) synchronizacji Blockchain, porównując wiele różnych wersji Bitcoin Core, począwszy od wersji 0.8.
 
 
 ![](assets/Bitcoin-Core-Sync-Performance-1.webp)
 
 
-Initial block download performance of various versions of Bitcoin Core. On the Y-axis is the block height synced and on the X-axis is the time it took to sync to that height
+Początkowa wydajność pobierania bloków dla różnych wersji Bitcoin Core. Na osi Y znajduje się zsynchronizowana wysokość bloku, a na osi X czas potrzebny na synchronizację do tej wysokości
 
 
-The different lines represent different versions of Bitcoin Core. The leftmost line is the latest, i.e. version 0.22, which was released in September 2021 and took 396 minutes to fully sync. The rightmost one is version 0.8 from November 2013, which took 3452 minutes. All of this - roughly 10x - improvement is due to inward scaling.
+Poszczególne linie reprezentują różne wersje Bitcoin Core. Najbardziej wysunięta na lewo linia to najnowsza, tj. wersja 0.22, która została wydana we wrześniu 2021 r., a jej pełna synchronizacja zajęła 396 minut. Najbardziej wysunięta na prawo to wersja 0.8 z listopada 2013 r., której pełna synchronizacja zajęła 3452 minuty. Cała ta - około 10-krotna - poprawa wynika z wewnętrznego skalowania.
 
 
-The improvements could be categorized as either saving space (RAM, disk, bandwidth, etc.) or saving computational power. Both categories contribute to the improvements in the diagram above.
+Usprawnienia te można sklasyfikować jako oszczędność miejsca (pamięci RAM, dysku, przepustowości itp.) lub oszczędność mocy obliczeniowej. Obie kategorie przyczyniają się do ulepszeń na powyższym diagramie.
 
 
-A good example of computational improvement can be found in the [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) library, which, among other things, implements the cryptographic primitives needed to make and verify digital signatures. Pieter Wuille is one of the contributors to this library, and he wrote a [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) showcasing the performance improvements achieved through various pull requests.
+Dobry przykład poprawy wydajności obliczeniowej można znaleźć w bibliotece [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), która między innymi implementuje prymitywy kryptograficzne potrzebne do tworzenia i weryfikacji podpisów cyfrowych. Pieter Wuille jest jednym ze współautorów tej biblioteki i napisał [wątek na Twitterze](https://twitter.com/pwuille/status/1450471673321381896) prezentujący poprawę wydajności osiągniętą dzięki różnym pull requestom.
 
 
 ![](assets/libsecp256k1speedups.webp)
 
 
-Performance of signature verification over time, with significant pull requests marked on the timeline
+Wydajność weryfikacji podpisów w czasie, z zaznaczonymi na osi czasu istotnymi pull requestami
 
 
-The graph shows the trend for two different 64-bit CPU types, namely ARM and x86. The difference in performance is due to the more specialized instructions available on x86 compared to the ARM architecture, which has fewer and more generic instructions. However, the general trend is the same for both architectures. Note that the Y-axis is logarithmic, which makes the improvements look less impressive than they actually are.
+Wykres przedstawia trend dla dwóch różnych 64-bitowych typów procesorów, a mianowicie ARM i x86. Różnica w wydajności wynika z bardziej wyspecjalizowanych instrukcji dostępnych w architekturze x86 w porównaniu do architektury ARM, która ma mniej i bardziej ogólne instrukcje. Ogólny trend jest jednak taki sam dla obu architektur. Należy zauważyć, że oś Y jest logarytmiczna, co sprawia, że ulepszenia wyglądają mniej imponująco niż w rzeczywistości.
 
 
-There are also several good examples of space-saving improvements that contributed to performance enhancement. In a
+Istnieje również kilka dobrych przykładów ulepszeń oszczędzających miejsce, które przyczyniły się do zwiększenia wydajności. W
 
-[Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) about Taproot's contribution to saving space, user Murch compares how much block space a 2-of-3 threshold signature would require, using Taproot in various ways as well as not using it at all.
+[Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) o wkładzie Taproot w oszczędzanie miejsca, użytkownik Murch porównuje, ile miejsca w blokach wymagałaby sygnatura progowa 2 na 3, używając Taproot na różne sposoby, a także nie używając go wcale.
 
 
 ![](assets/murch-taproot.webp)
 
 
-Space savings for different spending types, Taproot and legacy versions.
+Oszczędność miejsca dla różnych typów wydatków, Taproot i starszych wersji.
 
 
-A 2-of-3 Multisig using native SegWit would require a total of 104.5+43 vB = 147.5 vB, whereas the most space-conservative use of Taproot would require only 57.5+43 vB = 100.5 vB in the standard use case. At worst and in rare cases, like when a standard signer is not available for some reason, Taproot would use 107.5+43 vB = 150.5 vB. You don't have to understand all the details, but this should give you an idea of how developers think about saving space - every little byte counts.
+Multisig 2 na 3 wykorzystujący natywny SegWit wymagałby łącznie 104,5+43 vB = 147,5 vB, podczas gdy najbardziej oszczędne wykorzystanie Taproot wymagałoby tylko 57,5+43 vB = 100,5 vB w standardowym przypadku użycia. W najgorszym przypadku i w rzadkich przypadkach, na przykład gdy standardowy sygnatariusz nie jest dostępny z jakiegoś powodu, Taproot używałby 107,5 + 43 vB = 150,5 vB. Nie musisz rozumieć wszystkich szczegółów, ale powinno to dać ci wyobrażenie o tym, jak programiści myślą o oszczędzaniu miejsca - liczy się każdy mały bajt.
 
 
-Apart from inward scaling in Bitcoin software, there are some ways in which users can contribute to inward scaling, too. They can make their transactions more intelligently to save on transaction fees while simultaneously decreasing their footprints on Full node requirements. Two commonly used techniques toward such goal are called transaction batching and output consolidation.
+Oprócz wewnętrznego skalowania w oprogramowaniu Bitcoin, istnieją pewne sposoby, w jakie użytkownicy mogą również przyczynić się do wewnętrznego skalowania. Mogą oni dokonywać swoich transakcji w sposób bardziej inteligentny, aby zaoszczędzić na opłatach transakcyjnych, jednocześnie zmniejszając swój ślad na wymaganiach Full node. Dwie powszechnie stosowane techniki zmierzające do osiągnięcia tego celu nazywane są grupowaniem transakcji i konsolidacją danych wyjściowych.
 
 
-The idea with transaction batching is to combine multiple payments into one single transaction, instead of making one transaction per payment. This can save you a lot of fees, and at the same time reduce the block space load.
+Idea grupowania transakcji polega na łączeniu wielu płatności w jedną transakcję, zamiast dokonywania jednej transakcji na płatność. Może to zaoszczędzić wiele opłat, a jednocześnie zmniejszyć obciążenie przestrzeni blokowej.
 
 
 ![](assets/tx-batching.webp)
 
 
-Transaction batching combines multiple payments into a single transaction to save on fees.
+Grupowanie transakcji łączy wiele płatności w jedną transakcję, aby zaoszczędzić na opłatach.
 
 
-Output consolidation refers to taking advantage of periods of low demand for block space to combine multiple outputs into a single output. This can reduce your fee cost later, when you'll need to make a payment while the demand for block space is high.
+Konsolidacja wyjść odnosi się do korzystania z okresów niskiego zapotrzebowania na przestrzeń blokową w celu połączenia wielu wyjść w jedno wyjście. Może to obniżyć koszty opłat w późniejszym czasie, gdy trzeba będzie dokonać płatności, gdy zapotrzebowanie na przestrzeń blokową jest wysokie.
 
 
 ![](assets/utxo-consolidation.webp)
 
 
-Output consolidation: Melt your coins into one big coin when fees are low to save fees later.
+Konsolidacja wyjścia: Połącz swoje monety w jedną dużą monetę, gdy opłaty są niskie, aby zaoszczędzić na opłatach później.
 
 
-It may not be obvious how output consolidation contributes to inward scaling. After all, the total amount of Blockchain data is even slightly increased with this method. Nonetheless, the UTXO set, i.e. the database that keeps track of who owns which coins, shrinks because you spend more UTXOs than you create. This alleviates the burden for full nodes to maintain their UTXO sets.
+Może nie być oczywiste, w jaki sposób konsolidacja danych wyjściowych przyczynia się do skalowania do wewnątrz. W końcu całkowita ilość danych Blockchain jest nawet nieznacznie zwiększona dzięki tej metodzie. Niemniej jednak zestaw UTXO, tj. baza danych, która śledzi, kto jest właścicielem których monet, kurczy się, ponieważ wydajesz więcej UTXO niż tworzysz. Odciąża to pełne węzły w utrzymywaniu ich zestawów UTXO.
 
 
-Unfortunately, however, these two techniques of *UTXO management* could be bad for your own or your payees`' privacy. In the batching case, each payee will know that all the batched outputs are from you to other payees (except possibly the change). In the UTXO consolidation case, you will reveal that the outputs you consolidate belong to the same Wallet. So you may have to make a trade-off between cost efficiency and privacy.
+Niestety, te dwie techniki *zarządzania UTXO* mogą być szkodliwe dla prywatności użytkownika lub jego odbiorców. W przypadku grupowania, każdy odbiorca będzie wiedział, że wszystkie grupowane dane wyjściowe pochodzą od Ciebie do innych odbiorców (z wyjątkiem ewentualnej zmiany). W przypadku konsolidacji UTXO ujawnisz, że wyjścia, które konsolidujesz, należą do tego samego Wallet. Konieczne może być więc dokonanie kompromisu między efektywnością kosztową a prywatnością.
 
 
-#### Layered scaling
+#### Skalowanie warstwowe
 
 
 
-The most impactful approach to scaling is probably layering. The general idea behind layering is that a protocol can settle payments between users without adding transactions to the Blockchain.
+Najbardziej wpływowym podejściem do skalowania jest prawdopodobnie warstwowanie. Ogólna idea stojąca za warstwowaniem polega na tym, że protokół może rozliczać płatności między użytkownikami bez dodawania transakcji do Blockchain.
 
 
-A layered protocol begins with two or more people agreeing on a start transaction that's put on the Blockchain, as illustrated in the below figure.
+Protokół warstwowy rozpoczyna się od uzgodnienia przez dwie lub więcej osób transakcji początkowej, która jest umieszczana na Blockchain, jak pokazano na poniższym rysunku.
 
 
 ![](assets/scaling-layer.webp)
 
-A typical Layer 2 protocol on top of Bitcoin, Layer 1.
+Typowy protokół Layer 2 na Bitcoin, Layer 1.
 
 
-How this start transaction is created varies between protocols, but a common theme is that the participants create an unsigned start transaction and a number of pre-signed punishment transactions, that spend the output of the start transaction in various ways. Subsequently, the start transaction is fully signed and published to the Blockchain, and the punishment transactions can be fully signed and published to punish a misbehaving party. This incentivizes the participants to keep their promises so that the protocol can work in a Trustless way.
+Sposób tworzenia transakcji początkowej różni się w zależności od protokołu, ale wspólnym tematem jest to, że uczestnicy tworzą niepodpisaną transakcję początkową i szereg wstępnie podpisanych transakcji karnych, które wydają dane wyjściowe transakcji początkowej na różne sposoby. Następnie transakcja początkowa jest w pełni podpisywana i publikowana w Blockchain, a transakcje karne mogą być w pełni podpisane i opublikowane w celu ukarania niewłaściwie zachowującej się strony. Zachęca to uczestników do dotrzymywania obietnic, aby protokół mógł działać w sposób Trustless.
 
 
-Once the start transaction is on the Blockchain, the protocol can do what it's supposed to do. For instance, it could do super fast payments between participants, implement some privacy-enhancing techniques, or do more advanced scripting that would not be supported by the Bitcoin Blockchain.
+Po rozpoczęciu transakcji na Blockchain protokół może robić to, co powinien. Na przykład może wykonywać superszybkie płatności między uczestnikami, wdrażać pewne techniki zwiększające prywatność lub wykonywać bardziej zaawansowane skrypty, które nie byłyby obsługiwane przez Bitcoin Blockchain.
 
 
-We won't detail how specific protocols work, but as you can see in the previous figure, the Blockchain is rarely used during the protocol's life cycle. All the juicy action happens *off-chain*. We've seen how this can be a win for privacy if done right, but it can also be an advantage for scalability.
+Nie będziemy szczegółowo opisywać działania poszczególnych protokołów, ale jak widać na poprzednim rysunku, Blockchain jest rzadko używany podczas cyklu życia protokołu. Cała soczysta akcja dzieje się *off-chain*. Widzieliśmy, jak może to być korzystne dla prywatności, jeśli zostanie wykonane prawidłowo, ale może być również korzystne dla skalowalności.
 
 
-In a [Reddit post](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) titled "A trip to the moon requires a rocket with multiple stages or otherwise the rocket equation will eat your lunch... packing everyone in clown-car style into a trebuchet and hoping for success is right out.", Gregory Maxwell explains why layering is our best shot at getting Bitcoin to scale by orders of magnitudes.
+W poście [Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) zatytułowanym "Podróż na Księżyc wymaga rakiety z wieloma stopniami, w przeciwnym razie równanie rakiety zje twój lunch... pakowanie wszystkich w stylu klauna-samochodu do trebusza i liczenie na sukces jest nie na miejscu.", Gregory Maxwell wyjaśnia, dlaczego nakładanie warstw jest naszą najlepszą szansą na skalowanie Bitcoin o rzędy wielkości.
 
 
-He starts by emphasizing the fallacy in viewing Visa or Mastercard as Bitcoin's main competitors and highlighting how increasing the maximum block size is a bad approach to meet said competition. Then he talks about how to make some real difference by using layers:
+Zaczyna od podkreślenia błędności postrzegania Visa lub Mastercard jako głównych konkurentów Bitcoin i podkreślenia, że zwiększenie maksymalnego rozmiaru bloku jest złym podejściem do sprostania tej konkurencji. Następnie mówi o tym, jak zrobić prawdziwą różnicę, używając warstw:
 
 
-> So-- Does that mean that Bitcoin can't be a big winner as a payments technology? No. But to reach the kind of capacity required to serve the payments needs of the world we must work more intelligently.
+> Czy to oznacza, że Bitcoin nie może być wielkim zwycięzcą jako technologia płatności? Nie. Ale aby osiągnąć wydajność wymaganą do zaspokojenia potrzeb płatniczych świata, musimy pracować bardziej inteligentnie.
 >
 
-> From its very beginning Bitcoin was design to incorporate layers in secure ways through its smart contracting capability (What, do you think that was just put there so people could wax-philosophic about meaningless "DAOs"?). In effect we will use the Bitcoin system as a highly accessible and perfectly trustworthy robotic judge and conduct most of our business outside of the court room-- but transact in such a way that if something goes wrong we have all the evidence and established agreements so we can be confident that the robotic court will make it right. (Geek sidebar: If this seems impossible, go read this old post on transaction cut-through)
+> Od samego początku Bitcoin był projektowany tak, aby zawierał warstwy w bezpieczny sposób dzięki możliwości inteligentnego kontraktowania (co, myślisz, że zostało to po prostu umieszczone, aby ludzie mogli filozofować na temat bezsensownych "DAO"?). W efekcie będziemy używać systemu Bitcoin jako wysoce dostępnego i całkowicie godnego zaufania zrobotyzowanego sędziego i prowadzić większość naszych interesów poza salą sądową - ale dokonywać transakcji w taki sposób, że jeśli coś pójdzie nie tak, mamy wszystkie dowody i ustalone umowy, więc możemy być pewni, że zrobotyzowany sąd to naprawi. (Geek sidebar: Jeśli wydaje się to niemożliwe, przeczytaj ten stary post na temat przecięcia transakcji)
 >
 
-> This is possible precisely because of the core properties of Bitcoin. A censorable or reversible base system is not very suitable to build powerful upper Layer transaction processing on top of... and if the underlying asset isn't sound, there is little point in transacting with it at all.
+> Jest to możliwe właśnie ze względu na podstawowe właściwości Bitcoin. Cenzurowalny lub odwracalny system bazowy nie nadaje się zbytnio do budowania potężnego górnego przetwarzania transakcji Layer... a jeśli aktywa bazowe nie są solidne, nie ma sensu w ogóle dokonywać z nimi transakcji.
 
-The analogy with the judge is quite illustrative of how layering works: this judge must be incorruptible and never change her mind, otherwise the layers above Bitcoin's base Layer will not work reliably.
-
-
-He continues by making a point about centralized services. There's usually no problem with trusting a central server with trivial amounts of Bitcoin to get things done: that's also layered scaling.
+Analogia z sędzią dobrze ilustruje sposób działania warstw: ten sędzia musi być nieprzekupny i nigdy nie zmieniać zdania, w przeciwnym razie warstwy powyżej Bitcoin Layer nie będą działać niezawodnie.
 
 
-Many years have passed since Maxwell wrote the piece above, and his words still stand correct. The success of the Lightning Network proves that layering is indeed a way forward to increase the utility of Bitcoin.
+Kontynuuje, zwracając uwagę na scentralizowane usługi. Zwykle nie ma problemu z zaufaniem centralnemu serwerowi z trywialnymi ilościami Bitcoin, aby wykonać zadania: to także skalowanie warstwowe.
 
 
-
-### Conclusion about Scaling
+Minęło wiele lat od czasu, gdy Maxwell napisał powyższy artykuł, a jego słowa wciąż są aktualne. Sukces Lightning Network dowodzi, że nakładanie warstw jest rzeczywiście sposobem na zwiększenie użyteczności Bitcoin.
 
 
 
-We've discussed various ways through which one might want to scale Bitcoin, increase Bitcoin's usage capacity. Scaling has been a concern in Bitcoin since its very early days.
+### Wnioski dotyczące skalowania
 
 
-We know today that Bitcoin doesn't scale well vertically ("buy bigger hardware") or horizontally ("verify only parts of the data"), but rather inward ("do more with less") and in layers ("build protocols on top of Bitcoin").
+
+Omówiliśmy różne sposoby, za pomocą których można skalować Bitcoin, zwiększając jego wydajność. Skalowanie było problemem w Bitcoin od samego początku jego istnienia.
 
 
-## When shit hits the fan
+Dziś wiemy, że Bitcoin nie skaluje się dobrze w pionie ("kupuj większy sprzęt") ani w poziomie ("weryfikuj tylko części danych"), ale raczej do wewnątrz ("rób więcej za mniej") i warstwowo ("buduj protokoły na Bitcoin").
+
+
+## Kiedy gówno uderza w wentylator
 
 <chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
 
@@ -1676,92 +1716,92 @@ We know today that Bitcoin doesn't scale well vertically ("buy bigger hardware")
 
 ![](assets/shtf-banner.webp)
 
-Bitcoin is built by people. People write the software, and people then run this software. When a security vulnerability or a severe bug is discovered - is there really a distinction between the two? - it's always discovered by people, flesh and blood. This chapter contemplates what people do, should, and shouldn't do when shit hits the fan. The first section explains the term *responsible disclosure*, which refers to how someone who discovers a vulnerability can act responsibly to help minimize the damage from it. The rest of the chapter takes you on a tour through some of the most severe vulnerabilities discovered over the years, and how they were handled by developers, miners, and users. Things were not as rigorous in Bitcoin's early childhood as they are today.
+Bitcoin jest tworzony przez ludzi. Ludzie piszą oprogramowanie, a następnie je uruchamiają. Kiedy odkrywana jest luka w zabezpieczeniach lub poważny błąd - czy naprawdę istnieje między nimi rozróżnienie? - zawsze odkrywają je ludzie, z krwi i kości. Ten rozdział rozważa, co ludzie robią, powinni i czego nie powinni robić, gdy gówno uderzy w wentylator. Pierwsza sekcja wyjaśnia termin *odpowiedzialne ujawnienie*, który odnosi się do tego, w jaki sposób ktoś, kto odkryje podatność, może działać odpowiedzialnie, aby zminimalizować szkody. Pozostała część rozdziału to wycieczka po niektórych z najpoważniejszych luk w zabezpieczeniach wykrytych na przestrzeni lat oraz sposobie, w jaki radzili sobie z nimi programiści, górnicy i użytkownicy. We wczesnym dzieciństwie Bitcoin sytuacja nie była tak rygorystyczna jak obecnie.
 
 
-### Responsible disclosure
-
-
-
-Imagine you discover a bug in Bitcoin Core, a bug that allows anyone to remotely shut down a Bitcoin Core node by using some specially crafted network messages. Imagine also you are not malicious and would like this issue to remain unexploited. What do you do? If you remain silent about it, someone else will probably discover the issue, and you can't be sure that person won't be malicious.
-
-
-When a security issue is discovered, the person discovering it should employ _responsible disclosure_ which is a term often used among Bitcoin developers. The term is [explained on Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
-
-
-> Developers of hardware and software often require time and resources to repair their mistakes. Often, it is ethical hackers who find these
-vulnerabilities. Hackers and computer security scientists have the opinion that it is their social responsibility to make the public aware of vulnerabilities. Hiding problems could cause a feeling of false security. To avoid this, the involved parties coordinate and negotiate a reasonable period of time for repairing the vulnerability. Depending on the potential impact of the vulnerability, the expected time needed for an emergency fix or workaround to be developed and applied and other factors, this period may vary between a few days and several months.
-
-
-This means that if you find a security issue, you should report this to the team responsible for the system. But what does this mean in the context of Bitcoin? No one controls Bitcoin, but there's currently a focal point for Bitcoin development, namely the [Bitcoin Core Github repository](https://github.com/Bitcoin/Bitcoin). The maintainers of said repository are responsible for the code in it, but they're not responsible for the system as a whole - no one is. Nevertheless, the general best practice is to send an email to security@bitcoincore.org.
-
-
-In an [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) titled "Responsible disclosure of bugs" from 2017, Anthony Towns tried to summarize what he perceived to be the current best practices. He had collected inputs from several sources and different people to inform his view on the subject.
+### Odpowiedzialne ujawnianie informacji
 
 
 
-
-- Vulnerabilities should be reported via security at bitcoincore.org
-- A critical issue (that can be exploited immediately or is already being exploited causing large harm) will be dealt with by:
-  - a released patch ASAP
-  - wide notification of the need to upgrade (or to disable affected systems)
-  - minimal disclosure of the actual problem, to delay attacks
-- A non-critical vulnerability (because it is difficult or expensive to exploit) will be dealt with by:
-  - patch and review undertaken in the ordinary flow of development
-  - backport of a fix or workaround from master to the current released version
-- Devs will attempt to ensure that publication of the fix does not reveal the nature of the vulnerability by providing the proposed fix to experienced devs who have not been informed of the vulnerability, telling them that it fixes a vulnerability, and asking them to identify the vulnerability.
-- Devs may recommend other Bitcoin implementations adopt vulnerability fixes prior to the fix being released and widely deployed, if they can do so without revealing the vulnerability; eg, if the fix has significant performance benefits that would justify its inclusion.
-- Prior to a vulnerability becoming public, devs will generally recommend to friendly Altcoin devs that they should catch up with fixes. But this is only after the fixes are widely deployed in the Bitcoin network.
-- Devs will generally not notify Altcoin developers who have behaved in a hostile manner (eg, using vulnerabilities to attack others, or who violate embargoes).
-- Bitcoin devs won't disclose vulnerability details until >80% of Bitcoin nodes have deployed the fixes. Vulnerability discovers are encouraged and requested to follow the same policy. [1] [6]
+Wyobraź sobie, że odkrywasz błąd w Bitcoin Core, który pozwala każdemu na zdalne wyłączenie węzła Bitcoin Core za pomocą specjalnie spreparowanych wiadomości sieciowych. Wyobraź sobie również, że nie jesteś złośliwy i chciałbyś, aby ten błąd pozostał niewykorzystany. Co wtedy zrobisz? Jeśli będziesz milczeć na ten temat, ktoś inny prawdopodobnie odkryje błąd, a nie możesz być pewien, że ta osoba nie będzie złośliwa.
 
 
-This list displays how careful one must be when publishing patches for Bitcoin, since the patch itself might give away the vulnerability. The fourth bullet is particularly interesting as it explains how to test whether a patch has been disguised well enough. Indeed, if a few really experienced developers can't spot the vulnerability even knowing that the patch fixes one, it will probably be really Hard for others to discover it.
+W przypadku wykrycia błędu w zabezpieczeniach, osoba odkrywająca taki błąd powinna zastosować termin _responsible disclosure_, który jest często używany wśród deweloperów Bitcoin. Termin ten jest [wyjaśniony w Wikipedii] (https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
 
 
-The thread that led to this email was discussing whether, when, and how to disclose vulnerabilities to altcoins and other implementations of Bitcoin. There is no clear answer here. "Helping the good guys" seems like the sensible thing to do, but who decides who they are and where does one draw the line? Bryan Bishop [argued](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) that helping altcoins and even scamcoins defend themselves against security exploits was a moral duty:
+> Twórcy sprzętu i oprogramowania często potrzebują czasu i zasobów, aby naprawić swoje błędy. Często to etyczni hakerzy znajdują te błędy
+podatności. Hakerzy i naukowcy zajmujący się bezpieczeństwem komputerowym uważają, że ich społecznym obowiązkiem jest uświadamianie opinii publicznej o lukach w zabezpieczeniach. Ukrywanie problemów może powodować poczucie fałszywego bezpieczeństwa. Aby tego uniknąć, zaangażowane strony koordynują i negocjują rozsądny okres czasu na naprawę podatności. W zależności od potencjalnego wpływu podatności, oczekiwanego czasu potrzebnego na opracowanie i zastosowanie awaryjnej poprawki lub obejścia oraz innych czynników, okres ten może wynosić od kilku dni do kilku miesięcy.
 
 
-> It's not enough to defend Bitcoin and its users from active threats, there is a more general responsibility to defend all kinds of users and different software from many kinds of threats in whatever forms, even if folks are using stupid and insecure software that you personally don't maintain or contribute to or advocate for. Handling knowledge of a vulnerability is a delicate matter and you might be receiving knowledge with more serious direct or indirect impact than originally described.
-
-Also leading up to Town's email above was a [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) by Gregory Maxwell, in which he argued that security vulnerabilities could be more severe than they appear:
+Oznacza to, że jeśli znajdziesz błąd bezpieczeństwa, powinieneś zgłosić go zespołowi odpowiedzialnemu za system. Ale co to oznacza w kontekście Bitcoin? Nikt nie kontroluje Bitcoin, ale obecnie istnieje centralny punkt rozwoju Bitcoin, a mianowicie repozytorium [Bitcoin Core Github](https://github.com/Bitcoin/Bitcoin). Opiekunowie wspomnianego repozytorium są odpowiedzialni za kod w nim zawarty, ale nie są odpowiedzialni za system jako całość - nikt nie jest. Niemniej jednak najlepszą praktyką jest wysłanie wiadomości e-mail na adres security@bitcoincore.org.
 
 
-> I've multiple time seen a Hard to exploit issue turn out to be trivial when you find the right trick, or a minor dos issue turn our to far more serious.
+W wiadomości [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) zatytułowanej "Responsible disclosure of bugs" z 2017 roku, Anthony Towns próbował podsumować to, co uważał za obecne najlepsze praktyki. Zebrał on informacje z kilku źródeł i od różnych osób, aby przedstawić swój pogląd na ten temat.
+
+
+
+
+- Luki w zabezpieczeniach należy zgłaszać za pośrednictwem strony security.bitcoincore.org
+- Problem krytyczny (który może zostać natychmiast wykorzystany lub jest już wykorzystywany, powodując duże szkody) zostanie rozwiązany przez:
+  - wydana łatka JAK NAJSZYBCIEJ
+  - szerokie powiadomienie o potrzebie aktualizacji (lub wyłączenia dotkniętych systemów)
+  - minimalne ujawnienie rzeczywistego problemu, aby opóźnić ataki
+- Luka niekrytyczna (ponieważ jej wykorzystanie jest trudne lub kosztowne) będzie obsługiwana przez:
+  - poprawki i przeglądy podejmowane w ramach zwykłego procesu rozwoju
+  - backport poprawki lub obejścia z wersji master do aktualnie wydanej wersji
+- Deweloperzy będą starali się zapewnić, że publikacja poprawki nie ujawni natury luki, dostarczając proponowaną poprawkę doświadczonym deweloperom, którzy nie zostali poinformowani o luce, mówiąc im, że naprawia ona lukę i prosząc ich o zidentyfikowanie luki.
+- Deweloperzy mogą zalecić innym implementacjom Bitcoin przyjęcie poprawek luk w zabezpieczeniach przed wydaniem i szerokim wdrożeniem poprawki, jeśli mogą to zrobić bez ujawniania luki; np. jeśli poprawka ma znaczące korzyści w zakresie wydajności, które uzasadniałyby jej włączenie.
+- Zanim luka zostanie upubliczniona, deweloperzy zazwyczaj zalecają zaprzyjaźnionym deweloperom Altcoin, aby nadrobili zaległości w poprawkach. Dzieje się tak jednak dopiero po szerokim wdrożeniu poprawek w sieci Bitcoin.
+- Deweloperzy zazwyczaj nie powiadamiają deweloperów Altcoin, którzy zachowują się w sposób wrogi (np. wykorzystują luki w zabezpieczeniach do atakowania innych lub naruszają embargo).
+- Twórcy Bitcoin nie ujawnią szczegółów podatności, dopóki >80% węzłów Bitcoin nie wdroży poprawek. Osoby odkrywające podatności są zachęcane i proszone o przestrzeganie tej samej polityki. [1] [6]
+
+
+Ta lista pokazuje, jak ostrożnym trzeba być podczas publikowania łatek dla Bitcoin, ponieważ sama łatka może zdradzić lukę. Czwarty punkt jest szczególnie interesujący, ponieważ wyjaśnia, jak sprawdzić, czy łatka została wystarczająco dobrze ukryta. Rzeczywiście, jeśli kilku naprawdę doświadczonych programistów nie jest w stanie wykryć luki, nawet wiedząc, że łatka ją naprawia, to prawdopodobnie inni odkryją ją dopiero po Hard.
+
+
+W wątku, który doprowadził do wysłania tego e-maila, dyskutowano o tym, czy, kiedy i jak ujawniać luki w zabezpieczeniach altcoinów i innych implementacji Bitcoin. Nie ma tu jednoznacznej odpowiedzi. "Pomaganie dobrym ludziom" wydaje się rozsądną rzeczą do zrobienia, ale kto decyduje, kim oni są i gdzie należy wyznaczyć granicę? Bryan Bishop [argumentował](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html), że pomaganie altcoinom, a nawet scamcoinom w obronie przed exploitami bezpieczeństwa jest moralnym obowiązkiem:
+
+
+> Nie wystarczy bronić Bitcoin i jego użytkowników przed aktywnymi zagrożeniami, istnieje bardziej ogólna odpowiedzialność za ochronę wszystkich rodzajów użytkowników i różnego oprogramowania przed wieloma rodzajami zagrożeń w dowolnej formie, nawet jeśli ludzie używają głupiego i niezabezpieczonego oprogramowania, którego osobiście nie utrzymujesz, nie współtworzysz ani nie popierasz. Postępowanie z wiedzą o lukach w zabezpieczeniach to delikatna sprawa i może się zdarzyć, że otrzymasz wiedzę o poważniejszym bezpośrednim lub pośrednim wpływie niż pierwotnie opisano.
+
+Do powyższego e-maila Town doprowadził również [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) Gregory'ego Maxwella, w którym argumentował, że luki w zabezpieczeniach mogą być poważniejsze, niż się wydaje:
+
+
+> Wielokrotnie widziałem, jak problem z Hard do wykorzystania okazywał się trywialny, gdy znalazłeś odpowiednią sztuczkę, lub drobny problem z dosami okazał się znacznie poważniejszy.
 >
 
-> Simple performance bugs, expertly deployed, can potentially be used to carve up the network--- Miner A and Exchange B go in one partition, everyone else in another.. and doublespend.
+> Proste błędy wydajnościowe, fachowo wdrożone, mogą być potencjalnie wykorzystane do podzielenia sieci --- Miner A i Exchange B trafiają do jednej partycji, wszyscy inni do drugiej... i podwójnego podziału.
 >
 
-> And so on.  So while I absolutely do agree that different things should and can be handled differently, it is not always so clear cut. It's prudent to treat things as more severe than you know them to be.
+> I tak dalej.  Tak więc, chociaż absolutnie zgadzam się, że różne rzeczy powinny i mogą być traktowane w różny sposób, nie zawsze jest to tak jednoznaczne. Rozsądnie jest traktować rzeczy jako poważniejsze, niż się o nich wie.
 
-So, even if a vulnerability seems Hard to exploit, it might be best to assume that it's easily exploitable and you just haven't figured out how yet.
-
-
-He also mentions how "it's somewhat incorrect to call this thread anything about disclosure, this thread is not about disclosure. Disclosure is when you tell the vendor.  This thread is about publication and that has very different implications. Publication is when you're sure you've told the prospective attackers". This last observation concerning the distinction between disclosure and publication is an important one. The easy part is responsible disclosure; the Hard part is sensible publishing.
+Tak więc, nawet jeśli luka wydaje się Hard do wykorzystania, najlepiej jest założyć, że jest ona łatwa do wykorzystania, a ty po prostu jeszcze nie wiesz, jak to zrobić.
 
 
-### Bitcoin's Traumatic childhood
+Wspomina również, że "nazywanie tego wątku czymkolwiek związanym z ujawnianiem informacji jest nieco niepoprawne, ten wątek nie dotyczy ujawniania informacji. Ujawnienie jest wtedy, gdy mówisz sprzedawcy.  Ten wątek dotyczy publikacji i ma zupełnie inne implikacje. Publikacja ma miejsce wtedy, gdy jesteś pewien, że powiedziałeś potencjalnym atakującym". To ostatnie spostrzeżenie dotyczące rozróżnienia między ujawnieniem a publikacją jest bardzo ważne. Łatwa część to odpowiedzialne ujawnianie; część Hard to rozsądne publikowanie.
 
 
-
-Bitcoin started out as a one-man (at least that's what its creator's pseudonym suggests) project, and Bitcoin had initially little to no value. As such, vulnerabilities and bug fixes were not as rigorously handled as they are today.
-
-
-The Bitcoin wiki has a [list of common vulnerabilities and exposures](https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVEs) that Bitcoin has gone through. This section constitutes a little exposé of some of the security issues and incidents from the early years of Bitcoin. We won't cover them all, but we selected a few that we find especially interesting.
-
-
-#### 2010-07-28: Spend anyone's coins (CVE-2010-5141)
+### Traumatyczne dzieciństwo Bitcoin
 
 
 
-On July 28, 2010, a pseudonymous person by the name ArtForz discovered a bug in version 0.3.4 that would let anyone take coins from anyone else. ArtForz *responsibly* reported this to Satoshi Nakamoto and to another Bitcoin developer named Gavin Andresen.
+Bitcoin rozpoczął się jako jednoosobowy (przynajmniej tak sugeruje pseudonim jego twórcy) projekt, a Bitcoin początkowo miał niewielką lub żadną wartość. W związku z tym luki i poprawki błędów nie były tak rygorystycznie obsługiwane jak obecnie.
 
 
-The problem was that the script operator `OP_RETURN` would simply exit the program execution, so if the scriptPubKey was `<pubkey> OP_CHECKSIG` and scriptSig was `OP_1 OP_RETURN`, the part of the program in the scriptPubKey would never execute. The only thing that would happen would be for `1` to be put on the stack and then `OP_RETURN` would cause the program to exit. Any non-zero value on top of the stack after the program has executed means that the spending condition is fulfilled. Since the top stack element `1` is non-zero, the spending would be OK.
+Wiki Bitcoin zawiera [listę powszechnych luk i zagrożeń](https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVE), przez które przeszedł Bitcoin. Ta sekcja stanowi małe exposé niektórych kwestii bezpieczeństwa i incydentów z wczesnych lat Bitcoin. Nie omówimy ich wszystkich, ale wybraliśmy kilka, które uważamy za szczególnie interesujące.
 
 
-This was the code for handling of `OP_RETURN`:
+#### 2010-07-28: Wydać czyjeś monety (CVE-2010-5141)
+
+
+
+W dniu 28 lipca 2010 r. osoba o pseudonimie ArtForz odkryła błąd w wersji 0.3.4, który pozwalał każdemu zabrać monety komukolwiek innemu. ArtForz *odpowiedzialnie* zgłosił to Satoshi Nakamoto i innemu deweloperowi Bitcoin o imieniu Gavin Andresen.
+
+
+Problem polegał na tym, że operator skryptu `OP_RETURN` po prostu kończył wykonywanie programu, więc jeśli scriptPubKey był `<pubkey> OP_CHECKSIG` i scriptSig był `OP_1 OP_RETURN`, część programu w scriptPubKey nigdy by się nie wykonała. Jedyną rzeczą, która by się wydarzyła, byłoby umieszczenie `1` na stosie, a następnie `OP_RETURN` spowodowałoby wyjście z programu. Jakakolwiek niezerowa wartość na szczycie stosu po wykonaniu programu oznacza, że warunek wydania został spełniony. Ponieważ górny element stosu `1` jest niezerowy, wydawanie będzie OK.
+
+
+Był to kod do obsługi `OP_RETURN`:
 
 
 ```
@@ -1772,7 +1812,7 @@ pc = pend;
 break;
 ```
 
-The effect of `pc = pend;` was for the rest of the program to get skipped, meaning that any locking script in scriptPubKey would be ignored. The fix consisted in changing the meaning of `OP_RETURN` so that it immediately failed, instead.
+Efektem `pc = pend;` było pominięcie reszty programu, co oznaczało, że każdy skrypt blokujący w scriptPubKey byłby ignorowany. Poprawka polegała na zmianie znaczenia `OP_RETURN` tak, by zamiast tego natychmiast się nie powiodło.
 
 
 ```
@@ -1784,72 +1824,72 @@ break;
 ```
 
 
-Satoshi made this change locally and built an executable binary with version 0.3.5 from it. Then he posted on Bitcointalk forum `\\*** ALERT \*** Upgrade to 0.3.5 ASAP`, urging users to install this binary version of his, without presenting the source code for it:
+Satoshi dokonał tej zmiany lokalnie i zbudował z niej wykonywalny plik binarny z wersją 0.3.5. Następnie opublikował na forum Bitcointalk `\\*** ALERT \*** Uaktualnij do 0.3.5 ASAP`, zachęcając użytkowników do zainstalowania tej jego wersji binarnej, bez przedstawiania jej kodu źródłowego:
 
 
-> Please upgrade to 0.3.5 ASAP!  We fixed an implementation bug where it was possible that bogus transactions could be accepted.  Do not accept Bitcoin transactions as payment until you upgrade to version 0.3.5!
+> Prosimy o jak najszybszą aktualizację do wersji 0.3.5!  Naprawiliśmy błąd implementacji, który umożliwiał akceptację fałszywych transakcji.  Nie akceptuj transakcji Bitcoin jako płatności do czasu aktualizacji do wersji 0.3.5!
 
-The original message was later edited and is no longer available in its full form. The above snippet is from a [quoting answer](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Some users tried Satoshi's binary, but ran into issues with it. Shortly after, [Satoshi wrote](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
-
-
-> Haven't had time to update the SVN yet.  Wait for 0.3.6, I'm building it now.  You can shut down your node in the meantime.
-
-And 35 minutes later, [he wrote](https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
+Oryginalna wiadomość została później edytowana i nie jest już dostępna w pełnej formie. Powyższy fragment pochodzi z [cytowania odpowiedzi](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Niektórzy użytkownicy wypróbowali plik binarny Satoshi, ale napotkali na problemy. Wkrótce potem [Satoshi napisał](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
 
 
-> SVN is updated with version 0.3.6.
+> Nie miałem jeszcze czasu na aktualizację SVN.  Poczekaj na 0.3.6, właśnie go buduję.  W międzyczasie możesz wyłączyć węzeł.
+
+A 35 minut później [napisał](https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
+
+
+> SVN został zaktualizowany do wersji 0.3.6.
 >
 
-> Uploading Windows build of 0.3.6 to Sourceforge now, then will rebuild linux.
+> Przesyłam teraz kompilację 0.3.6 dla Windows na Sourceforge, a następnie przebuduję wersję linuksową.
 
-At this point he also seemed to have updated the original post to mention 0.3.6 instead of 0.3.5:
+W tym momencie wydawało się również, że zaktualizował oryginalny post, aby wspomnieć o wersji 0.3.6 zamiast 0.3.5:
 
 
-> Please upgrade to 0.3.6 ASAP!  We fixed an implementation bug where it was possible that bogus transactions could be displayed as accepted.  Do not accept Bitcoin transactions as payment until you upgrade to version 0.3.6!
+> Prosimy o jak najszybszą aktualizację do wersji 0.3.6!  Naprawiliśmy błąd implementacji, w wyniku którego fałszywe transakcje mogły być wyświetlane jako zaakceptowane.  Nie akceptuj transakcji Bitcoin jako płatności do czasu aktualizacji do wersji 0.3.6!
 >
 
-> If you can't upgrade to 0.3.6 right away, it's best to shut down your Bitcoin node until you do.
+> Jeśli nie możesz od razu zaktualizować do wersji 0.3.6, najlepiej wyłączyć węzeł Bitcoin do czasu aktualizacji.
 >
 
-> Also in 0.3.6, faster hashing:
-> - midstate cache optimisation thanks to tcatm
-> - Crypto++ ASM SHA-256 thanks to BlackEye
-> Total generating speedup 2.4x faster.
+> Również w 0.3.6, szybsze hashowanie:
+> - optymalizacja pamięci podręcznej midstate dzięki tcatm
+> - Crypto++ ASM SHA-256 dzięki BlackEye
+> Całkowite przyspieszenie generowania 2,4x szybsze.
 >
 
-> Download:
+> Pobierz:
 >
 
 > http://sourceforge.net/projects/Bitcoin/files/Bitcoin/Bitcoin-0.3.6/
 >
 
-> Windows and Linux users: if you got 0.3.5 you still need to upgrade to 0.3.6.
+> Użytkownicy systemów Windows i Linux: jeśli masz wersję 0.3.5, nadal musisz zaktualizować ją do wersji 0.3.6.
 
-Note the difference in the characterization of the problem from the first message: "could be displayed as accepted" vs "could be accepted". Maybe Satoshi downplayed the severity of the bug in his communication so as not to draw too much attention to the actual issue. Anyhow, people upgraded to 0.3.6 and it worked as expected. This particular issue was resolved, amazingly, with no Bitcoin losses.
-
-
-Satoshi's message also described some performance optimization for Mining. It's unclear why that was included in a critical security fix, it's possible that the purpose was to obfuscate the real issue. However, it seems more likely that he just released whatever was on the head of the development branch of the Subversion repository, with the security fix added to it.
+Zwróć uwagę na różnicę w opisie problemu w stosunku do pierwszej wiadomości: "może być wyświetlany jako zaakceptowany" vs "może być zaakceptowany". Być może Satoshi zbagatelizował wagę błędu w swoim komunikacie, aby nie zwracać zbytniej uwagi na rzeczywisty problem. W każdym razie ludzie zaktualizowali do wersji 0.3.6 i wszystko działało zgodnie z oczekiwaniami. Ten konkretny problem został rozwiązany, o dziwo, bez strat Bitcoin.
 
 
-At that time, there weren't nearly as many users as there are today, and Bitcoin's value was close to zero. If this bug response was played out today, it would be considered a complete shit-show for multiple reasons:
+Wiadomość Satoshi opisywała również pewną optymalizację wydajności dla Mining. Nie jest jasne, dlaczego zostało to uwzględnione w krytycznej poprawce bezpieczeństwa, możliwe, że celem było zatajenie prawdziwego problemu. Wydaje się jednak bardziej prawdopodobne, że po prostu wydał to, co znajdowało się na czele gałęzi rozwojowej repozytorium Subversion, z dodaną poprawką bezpieczeństwa.
 
 
-
-- Satoshi made a binary-only release of 0.3.5 containing the fix. No patch or code was provided, maybe as a measure to obfuscate the issue.
-- 0.3.5 [didn't even work](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
-- The fix in 0.3.6 was actually a Hard Fork.
-
-
-Another debatable thing is whether it's good or bad that users were asked to shut down their nodes. This wouldn't be doable today, but at that time lots of users were actively following the forums for updates and were usually on top of things. Given that it was possible to do this, it might have been a sensible thing to do.
-
-
-#### 2010-08-15 Combined output overflow (CVE-2010-5139)
+W tamtym czasie nie było tak wielu użytkowników jak obecnie, a wartość Bitcoin była bliska zeru. Gdyby ta reakcja na błąd miała miejsce dzisiaj, zostałaby uznana za kompletne gówno z wielu powodów:
 
 
 
-In mid-August 2010, Bitcointalk forum user jgarzik, a.k.a. Jeff Garzik,
+- Satoshi udostępnił binarne wydanie 0.3.5 zawierające poprawkę. Nie dostarczono żadnej łatki ani kodu, być może w celu ukrycia problemu.
+- 0.3.5 [nawet nie działało](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
+- Poprawka w 0.3.6 była w rzeczywistości Hard Fork.
 
-[discovered that](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) a certain transaction at block height 74638 had two outputs of unusually high value:
+
+Inną dyskusyjną kwestią jest to, czy to dobrze, czy źle, że użytkownicy zostali poproszeni o wyłączenie swoich węzłów. Dziś nie byłoby to możliwe, ale w tamtym czasie wielu użytkowników aktywnie śledziło fora w poszukiwaniu aktualizacji i zwykle było na bieżąco. Biorąc pod uwagę, że było to możliwe, mogło to być rozsądne posunięcie.
+
+
+#### 2010-08-15 Przepełnienie połączonego wyjścia (CVE-2010-5139)
+
+
+
+W połowie sierpnia 2010 r. użytkownik forum Bitcointalk jgarzik, alias Jeff Garzik,
+
+[odkryto, że](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) pewna transakcja na wysokości bloku 74638 miała dwa wyjścia o niezwykle wysokiej wartości:
 
 
 ```
@@ -1866,282 +1906,282 @@ In mid-August 2010, Bitcointalk forum user jgarzik, a.k.a. Jeff Garzik,
 ```
 
 
-> The "value out" in this block #74638 is quite strange:
+> "Wartość out" w tym bloku #74638 jest dość dziwna:
 >
 
-> 92233720368.54277039 BTC?  Is that UINT64_MAX, I wonder?
+> 92233720368.54277039 BTC?  Zastanawiam się, czy to UINT64_MAX?
 
-Presumably, there was a bug causing two int64 (not uint64, as Garzik supposed) outputs' sum to overflow to a negative value -0.00997538 BTC. Whatever the sum of the inputs, the "sum" of the outputs would be smaller, making this transaction OK according to the code at the time.
-
-
-In this case, the bug had been disclosed and published through an actual exploit. An unfortunate outcome of this was that about 2x92 billion Bitcoin had been created, which severely diluted the money Supply of around 3.7 million coins that existed at that time.
+Prawdopodobnie wystąpił błąd powodujący przepełnienie sumy dwóch wyjść int64 (nie uint64, jak przypuszczał Garzik) do wartości ujemnej -0.00997538 BTC. Niezależnie od sumy danych wejściowych, "suma" danych wyjściowych byłaby mniejsza, co sprawiłoby, że ta transakcja byłaby OK zgodnie z ówczesnym kodem.
 
 
-In a related thread, [Satoshi posted](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) that he'd appreciate it if people stopped Mining (or *generating*, as they called it back then):
+W tym przypadku błąd został ujawniony i opublikowany poprzez rzeczywisty exploit. Niefortunnym skutkiem tego było utworzenie około 2x92 miliardów Bitcoin, co poważnie osłabiło pieniądze Supply w wysokości około 3,7 miliona monet, które istniały w tym czasie.
 
 
-> It would help if people stop generating.  We will probably need to re-do a branch around the current one, and the less you generate the faster that will be.
+W powiązanym wątku [Satoshi napisał](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531), że byłby wdzięczny, gdyby ludzie przestali Mining (lub *generować*, jak to wtedy nazywali):
+
+
+> Pomogłoby, gdyby ludzie przestali generować.  Prawdopodobnie będziemy musieli ponownie stworzyć gałąź wokół obecnej, a im mniej generate, tym szybciej to nastąpi.
 >
 
-> A first patch will be in SVN rev 132.  It's not uploaded yet.  I'm pushing some other misc changes out of the way first, then I'll upload the patch for this.
+> Pierwsza łatka pojawi się w SVN rev 132.  Nie została jeszcze przesłana.  Najpierw usuwam kilka innych drobnych zmian, a potem wgram łatkę do tego.
 
-His plan was to make a Soft Fork to make transactions like the one discussed here invalid, thus invalidating the blocks (especially block 74638) that contained such transactions. Less than an hour later, he committed a [patch in revision 132](https://sourceforge.net/p/Bitcoin/code/132/) of the Subversion repository and [posted to the forum](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548) describing what he thought users should do:
+Jego plan polegał na stworzeniu Soft Fork, aby unieważnić transakcje takie jak ta omawiana tutaj, a tym samym unieważnić bloki (zwłaszcza blok 74638), które zawierały takie transakcje. Niecałą godzinę później opublikował [poprawkę w rewizji 132](https://sourceforge.net/p/Bitcoin/code/132/) repozytorium Subversion i [post na forum](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548) opisujący, co jego zdaniem powinni zrobić użytkownicy:
 
 
-> Patch is uploaded to SVN rev 132!
+> Patch został przesłany do SVN rev 132!
 >
 
-> For now, recommended steps:
-> 1) Shut down.
-> 2) Download knightmb's blk files.  (replace your blk0001.dat and blkindex.dat files)
-> 3) Upgrade.
-> 4) It should start out with less than 74000 blocks. Let it redownload the rest.
+> Na razie zalecane kroki:
+> 1) Wyłączenie.
+> 2) Pobierz pliki blk knightmb.  (zastąp pliki blk0001.dat i blkindex.dat)
+> 3) Aktualizacja.
+> 4) Powinien zacząć od mniej niż 74000 bloków. Pozwól mu ponownie pobrać resztę.
 >
 
-> If you don't want to use knightmb's files, you could just delete your blk*.dat files, but it's going to be a lot of load on the network if everyone is downloading the whole block index at once.
+> Jeśli nie chcesz używać plików knightmb, możesz po prostu usunąć pliki blk*.dat, ale będzie to duże obciążenie dla sieci, jeśli wszyscy będą pobierać cały indeks bloków naraz.
 >
 
-> I'll build releases shortly.
+> Wkrótce utworzę wydania.
 
-He wanted people to download block data from a specific user, namely knightmb, who had published his Blockchain as it appeared on his disk, the files blkXXXX.dat and blkindex.dat. The reason for downloading the Blockchain data this way, as opposed to synchronizing from scratch, was to reduce network bandwidth bottlenecks.
-
-
-There was a big caveat with this: the data users would download from knightmb [weren't verified by the Bitcoin software](https://Bitcoin.stackexchange.com/a/113682/69518) at startup. The blkindex.dat file contained the UTXO set, and the software would accept any data therein as if it had already verified it. knightmb could have manipulated the data to give himself or anyone else some bitcoins.
+Chciał, aby ludzie pobierali dane blokowe od konkretnego użytkownika, a mianowicie knightmb, który opublikował swoje Blockchain w takiej postaci, w jakiej pojawiły się na jego dysku, pliki blkXXXX.dat i blkindex.dat. Powodem pobierania danych Blockchain w ten sposób, w przeciwieństwie do synchronizacji od zera, było zmniejszenie wąskich gardeł przepustowości sieci.
 
 
-Again, people seemed to go along with this, and the reversal of the invalid block and its successors was successful. Miners started working on a new successor to block [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) and, according to the block's Timestamp, a successor appeared at 23:53 UTC, about 6 hours after the issue was discovered. At 08:10 the following day, on August 16, around block 74689, the new chain had overtaken the old chain, therefore all non-upgraded nodes reorged to follow the new chain. This is the deepest reorg - 52 blocks - in Bitcoin's history.
+Wiązało się z tym duże zastrzeżenie: dane pobierane przez użytkowników od knightmb [nie były weryfikowane przez oprogramowanie Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) podczas uruchamiania. Plik blkindex.dat zawierał zestaw UTXO, a oprogramowanie akceptowało wszelkie zawarte w nim dane tak, jakby już je zweryfikowało. knightmb mógł manipulować danymi, aby dać sobie lub komukolwiek innemu trochę bitcoinów.
 
 
-Compared to the OP_RETURN issue, this issue was handled in a somewhat cleaner way:
+Ponownie, ludzie zdawali się na to zgadzać, a odwrócenie nieważnego bloku i jego następców zakończyło się sukcesem. Górnicy rozpoczęli pracę nad nowym następcą bloku [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) i, zgodnie z Timestamp bloku, następca pojawił się o 23:53 UTC, około 6 godzin po wykryciu problemu. O godzinie 08:10 następnego dnia, 16 sierpnia, około bloku 74689, nowy łańcuch wyprzedził stary łańcuch, dlatego wszystkie niezaktualizowane węzły zostały zreorgowane, aby podążać za nowym łańcuchem. Jest to najgłębszy reorg - 52 bloki - w historii Bitcoin.
 
 
-- No binary-only patch release
-- The released software worked as intended
-- No Hard Fork
+W porównaniu do sprawy OP_RETURN, ta kwestia została rozwiązana w nieco czystszy sposób:
 
 
-Users were asked to stop Mining during this issue as well. We can discuss whether this is a good idea or not, but imagine you're a Miner and you're convinced that any blocks on top of the bad block will eventually get wiped out in a deep reorg: why would you waste resources on Mining doomed blocks?
+- Brak wydania łatki tylko dla wersji binarnej
+- Wydane oprogramowanie działało zgodnie z przeznaczeniem
+- Nie Hard Fork
 
 
-You might also think that it's a bit fishy to do as suggested by Nakamoto and download the Blockchain, including the UTXO set, from a random dude's Hard drive. If so, you're right: that is fishy. But, given the circumstances, this emergency response was a sensible one.
+Użytkownicy zostali również poproszeni o zatrzymanie Mining podczas tego wydania. Możemy dyskutować, czy jest to dobry pomysł, czy nie, ale wyobraź sobie, że jesteś Miner i jesteś przekonany, że wszystkie bloki na szczycie złego bloku zostaną ostatecznie wymazane w głębokim reorg: dlaczego miałbyś marnować zasoby na skazane na zagładę bloki Mining?
 
 
-There's an important difference between this case and the previous OP_RETURN case: this issue was exploited in the wild, and thus a fix could be made more straightforward. In the case of OP_RETURN, they had to obfuscate the fix and make public statements that didn't directly reveal what the issue was.
+Możesz również pomyśleć, że to trochę podejrzane, aby zrobić to, co sugeruje Nakamoto i pobrać Blockchain, w tym zestaw UTXO, z dysku Hard przypadkowego kolesia. Jeśli tak, to masz rację: to podejrzane. Ale biorąc pod uwagę okoliczności, ta awaryjna reakcja była rozsądna.
 
 
-#### 2013-03-11 DB locks issue 0.7.2 - 0.8.0 (CVE-2013-3220)
+Istnieje istotna różnica między tym przypadkiem a poprzednim przypadkiem OP_RETURN: ten błąd był wykorzystywany na wolności, a zatem poprawka mogła być prostsza. W przypadku OP_RETURN musieli oni zaciemnić poprawkę i wydać publiczne oświadczenia, które nie ujawniały bezpośrednio, na czym polegał błąd.
+
+
+#### 2013-03-11 Problem z blokadami DB w wersjach 0.7.2 - 0.8.0 (CVE-2013-3220)
 
 
 
-A very interesting an educationally valuable issue surfaced in March 2013. It appeared that the Blockchain had split (although the word "Fork" is used in the quote below) after block 225429. The details of this incident were [reported in BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). The summary says:
+Bardzo interesująca i wartościowa edukacyjnie kwestia pojawiła się w marcu 2013 roku. Okazało się, że Blockchain rozdzielił się (choć w poniższym cytacie użyto słowa "Fork") po bloku 225429. Szczegóły tego incydentu zostały [opisane w BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). W podsumowaniu napisano:
 
 
-> A block that had a larger number of total transaction inputs than previously seen was mined and broadcasted. Bitcoin 0.8 nodes were able to handle this, but some pre-0.8 Bitcoin nodes rejected it, causing an unexpected Fork of the Blockchain. The pre-0.8-incompatible chain (from here on, the 0.8 chain) at that point had around 60% of the Mining Hash power ensuring the split did not automatically resolve (as would have occurred if the pre-0.8 chain outpaced the 0.8 chain in total work, forcing 0.8 nodes to reorganise to the pre-0.8 chain).
+> Wydobyto i rozesłano blok, który miał większą liczbę całkowitych wejść transakcyjnych niż poprzednio. Węzły Bitcoin 0.8 były w stanie go obsłużyć, ale niektóre węzły Bitcoin sprzed 0.8 odrzuciły go, powodując nieoczekiwany Fork Blockchain. Niezgodny łańcuch pre-0.8 (od tego momentu łańcuch 0.8) miał w tym momencie około 60% mocy Mining Hash, dzięki czemu podział nie został automatycznie rozwiązany (co miałoby miejsce, gdyby łańcuch pre-0.8 przewyższył łańcuch 0.8 pod względem całkowitej pracy, zmuszając węzły 0.8 do reorganizacji do łańcucha pre-0.8).
 >
 
-> In order to restore a canonical chain as soon as possible, BTCGuild and Slush downgraded their Bitcoin 0.8 nodes to 0.7 so their pools would also reject the larger block. This placed majority hashpower on the chain without the larger block, thus eventually causing the 0.8 nodes to reorganise to the pre-0.8 chain.
+> Aby jak najszybciej przywrócić kanoniczny łańcuch, BTCGuild i Slush obniżyły swoje węzły Bitcoin 0.8 do 0.7, aby ich pule również odrzuciły większy blok. Spowodowało to umieszczenie większości hashpower w łańcuchu bez większego bloku, co ostatecznie spowodowało reorganizację węzłów 0,8 do łańcucha sprzed 0,8.
 
-The quick action that the Mining pools BTCGuild and Slush took was imperative in this emergency. They were able to tip the majority of the Hash power over to the pre-0.8 branch of the split, and thus help restore consensus. This gave developers the time to figure out a sustainable fix.
-
-
-What's also very interesting in this issue is that version 0.7.2 was incompatible with itself, as was the case with prior versions too. This is explained in the [Root cause section of BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
+Szybkie działania podjęte przez pule Mining BTCGuild i Slush były niezbędne w tej sytuacji. Były one w stanie przenieść większość mocy Hash na gałąź podziału sprzed wersji 0.8, a tym samym pomóc w przywróceniu konsensusu. Dało to deweloperom czas na opracowanie trwałej poprawki.
 
 
-> With the insufficiently high BDB lock configuration, it implicitly had become a network consensus rule determining block validity (albeit an
-inconsistent and unsafe rule, since the lock usage could vary from node to node).
+Bardzo interesujące w tej sprawie jest również to, że wersja 0.7.2 była niekompatybilna z samą sobą, podobnie jak w przypadku wcześniejszych wersji. Zostało to wyjaśnione w sekcji [Root cause section of BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
 
 
-In short, the issue is that the number of database locks the Bitcoin Core software needs to verify a block is not deterministic. One node might need X locks while another node might need X+1 locks. The nodes also have a limit on how many locks Bitcoin can take. If the number of locks needed exceeds the limit, the block will be considered invalid. So if X+1 exceeds the limit but not X, then the two nodes will split the Blockchain and disagree on which branch is valid.
+> Przy niewystarczająco wysokiej konfiguracji blokady BDB, stała się ona niejawnie regułą konsensusu sieciowego określającą ważność bloku (aczkolwiek
+niespójna i niebezpieczna reguła, ponieważ użycie blokady może się różnić w zależności od węzła).
 
 
-The solution chosen, apart from the immediate actions taken by the two pools to restore consensus, was to
+Krótko mówiąc, problem polega na tym, że liczba blokad bazy danych, których oprogramowanie Bitcoin Core potrzebuje do weryfikacji bloku, nie jest deterministyczna. Jeden węzeł może potrzebować X blokad, podczas gdy inny węzeł może potrzebować X+1 blokad. Węzły mają również limit liczby blokad, które może przyjąć Bitcoin. Jeśli liczba potrzebnych blokad przekroczy limit, blok zostanie uznany za nieważny. Jeśli więc X+1 przekroczy limit, ale nie X, wówczas dwa węzły podzielą Blockchain i nie zgodzą się, która gałąź jest ważna.
+
+
+Wybranym rozwiązaniem, oprócz natychmiastowych działań podjętych przez oba baseny w celu przywrócenia konsensusu, było
 
 
 
-- limit the blocks in terms of both size and locks needed on version 0.8.1
-- patch old versions (0.7.2 and some older ones) with the same new rules, and increase the global lock limit.
+- ograniczenie bloków zarówno pod względem rozmiaru, jak i wymaganych blokad w wersji 0.8.1
+- popraw stare wersje (0.7.2 i niektóre starsze) z tymi samymi nowymi zasadami i zwiększ globalny limit blokady.
 
 
-Except for the increased global lock limit in the second bullet, these rules were implemented temporarily for a pre-determined amount of time. The plan was to remove these limits once most nodes had upgraded.
+Z wyjątkiem zwiększonego limitu globalnej blokady w drugim punkcie, zasady te zostały wdrożone tymczasowo na określony czas. Plan zakładał usunięcie tych limitów po uaktualnieniu większości węzłów.
 
 
-This Soft Fork dramatically reduced the risk of consensus failure, and a few months later, on May 15, the temporary rules were deactivated in concert across the network. Note that this deactivation was in effect a Hard Fork, but it was not contentious. Furthermore, it was released along with the preceding Soft Fork, so people running the Soft-forked software were well aware that a Hard Fork would follow it. Therefore, the vast majority of nodes remained in consensus when the Hard Fork got activated. Unfortunately, though, a few nodes that didn't upgrade were lost in the process.
+Ten Soft Fork znacznie zmniejszył ryzyko niepowodzenia konsensusu, a kilka miesięcy później, 15 maja, tymczasowe zasady zostały zgodnie dezaktywowane w całej sieci. Należy zauważyć, że ta dezaktywacja była w rzeczywistości Hard Fork, ale nie była kontrowersyjna. Co więcej, została ona wydana wraz z poprzedzającym ją Soft Fork, więc osoby korzystające z oprogramowania Soft-forked doskonale zdawały sobie sprawę, że po niej nastąpi Hard Fork. Dlatego też zdecydowana większość węzłów pozostała w konsensusie, gdy Hard Fork został aktywowany. Niestety, kilka węzłów, które nie dokonały aktualizacji, zostało utraconych w tym procesie.
 
 
-One might wonder if this would be doable today. The Mining landscape is more complex today, and, depending on the Hash power on each side of the split, it might be Hard to roll out a patch such as the one in BIP50 quickly enough. It'd probably be Hard to convince miners on the "wrong" branch to let go of their block rewards.
+Można się zastanawiać, czy dziś byłoby to wykonalne. Krajobraz Mining jest dziś bardziej złożony i, w zależności od siły Hash po obu stronach podziału, wprowadzenie łatki takiej jak ta w BIP50 może być Hard wystarczająco szybkie. Prawdopodobnie Hard będzie musiał przekonać górników z "niewłaściwej" gałęzi, aby zrezygnowali ze swoich nagród za bloki.
 
 
 #### BIP66
 
 
 
-BIP66 is interesting because it highlights the importance of:
+BIP66 jest interesujący, ponieważ podkreśla znaczenie:
 
 
 
-- good selection cryptography
-- responsible disclosure
-- deployment without revealing the vulnerability
-- Mining on top of verified blocks
+- dobry wybór kryptografii
+- odpowiedzialne ujawnianie informacji
+- wdrożenie bez ujawniania podatności
+- Mining na szczycie zweryfikowanych bloków
 
 
-BIP66 was a proposal to tighten up the rules for signature encodings in Bitcoin Script. The [motivation](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) was to be able to parse signatures with software or libraries other than OpenSSL and even recent versions of OpenSSL. OpenSSL is a library for general purpose cryptography that Bitcoin Core used at that time.
+BIP66 był propozycją zaostrzenia zasad kodowania podpisów w Bitcoin Script. Motywacją](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) było umożliwienie analizowania podpisów za pomocą oprogramowania lub bibliotek innych niż OpenSSL, a nawet ostatnich wersji OpenSSL. OpenSSL jest biblioteką kryptograficzną ogólnego przeznaczenia, z której w tamtym czasie korzystał Bitcoin Core.
 
 
-The BIP activated on July 4, 2015. However, while the above is true, BIP66 also fixes a much more severe issue not mentioned in the BIP.
+BIP został aktywowany 4 lipca 2015 roku. Jednakże, choć powyższe jest prawdą, BIP66 naprawia również znacznie poważniejszy problem, o którym nie wspomniano w BIP.
 
 
-##### The vulnerability
+##### Podatność
 
 
 
-The full disclosure of this issue was published on July 28 2015 by Pieter Wuille in an
+Pełne ujawnienie tej kwestii zostało opublikowane 28 lipca 2015 r. przez Pietera Wuille'a w artykule pt
 
-[email to the Bitcoin-dev mailing list](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[email na listę mailingową Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
 
 
-> Hello all,
+> Witam wszystkich,
 >
 
-> I'd like to disclose a vulnerability I discovered in September 2014, which became unexploitable when BIP66's 95% threshold was reached earlier this month.
+> Chciałbym ujawnić lukę, którą odkryłem we wrześniu 2014 r., a która stała się nie do wykorzystania po osiągnięciu 95% progu BIP66 na początku tego miesiąca.
 >
 
-> Short description:
+> Krótki opis:
 >
 
-> A specially-crafted transaction could have forked the Blockchain between nodes:
+> Specjalnie spreparowana transakcja mogła spowodować rozwidlenie Blockchain między węzłami:
 >
 
-> - using OpenSSL on a 32-bit systems and on 64-bit Windows systems
-> - using OpenSSL on non-Windows 64-bit systems (Linux, OSX, ...)
-> - using some non-OpenSSL codebases for parsing signatures
+> - korzystanie z OpenSSL w systemach 32-bitowych i 64-bitowych systemach Windows
+> - korzystanie z OpenSSL w 64-bitowych systemach innych niż Windows (Linux, OSX, ...)
+> - używanie niektórych baz kodu innych niż OpenSSL do analizowania podpisów
 
-The email further lays out the details about how the issue got discovered and more exactly what caused it. At the end, he submits a timeline of the events, and we will replay some of the most important ones here. Some of them have, as illustrated by figure above, already been described.
+E-mail zawiera dalsze szczegóły dotyczące tego, w jaki sposób problem został wykryty, a dokładniej, co go spowodowało. Na koniec przedstawia oś czasu wydarzeń, a my powtórzymy tutaj niektóre z najważniejszych. Niektóre z nich, jak pokazuje powyższy rysunek, zostały już opisane.
 
 
 ![](assets/bip66-timeline-1.webp)
 
 
-Timeline of events surrounding BIP66. Items in black have been explained above.
+Oś czasu wydarzeń związanych z BIP66. Elementy zaznaczone na czarno zostały wyjaśnione powyżej.
 
 
-##### Before discovery
-
-
-
-Without anyone knowing about the issue, it could have been resolved by the now widthdrawn BIP62, which was a proposal to reduce the possibilities of transaction malleability. Among the proposed changes in BIP62 were tightening of the consensus rules for the encoding of signatures, or "strict DER encoding". Pieter Wuille proposed some tweaks to the BIP in July 2014, that would have solved the issue:
-
-
-> 2014-Jul-18: In order to make Bitcoin's signature encoding rules not depend on OpenSSL's specific parser, I modified the BIP62 proposal to have its strict DER signatures requirement also apply to version 1 transactions. No non-DER signatures were being mined into blocks anymore at the time, so this was assumed to not have any impact. See https://github.com/Bitcoin/bips/pull/90 and http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Unknown at the time, but if deployed this would have solved the vulnerability.
-
-Due to the breadth of this BIP, which covered substantially more than just "strict DER encoding", it was constantly changing and never got near deployment. The BIP was later withdrawn because Segregated Witness, BIP141, solved transaction malleability in a different and more complete way.
-
-
-##### After discovery
+##### Przed odkryciem
 
 
 
-OpenSSL released new versions of their software with patches that, if used in Bitcoin since the beginning, would have solved the issue. However, using any new version of OpenSSL only in a new release of Bitcoin Core would make matters worse. Gregory Maxwell explains this in another [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) in January 2015:
+Gdyby nikt nie wiedział o tym problemie, mógłby on zostać rozwiązany przez obecnie wycofany BIP62, który był propozycją ograniczenia możliwości manipulowania transakcjami. Wśród proponowanych zmian w BIP62 było zaostrzenie zasad konsensusu dotyczących kodowania podpisów lub "ścisłe kodowanie DER". Pieter Wuille zaproponował pewne poprawki do BIP w lipcu 2014 roku, które rozwiązałyby ten problem:
 
 
-> While for most applications it is generally acceptable to eagerly reject some signatures, Bitcoin is a consensus system where all participants must generally agree on the exact validity or invalidity of the input data.  In a sense, consistency is more important than "correctness".
+> 2014-Jul-18: Aby zasady kodowania podpisów Bitcoin nie zależały od specyficznego parsera OpenSSL, zmodyfikowałem propozycję BIP62, aby jej ścisły wymóg podpisów DER miał również zastosowanie do transakcji w wersji 1. W tamtym czasie nie wydobywano już żadnych podpisów innych niż DER w blokach, więc założono, że nie będzie to miało żadnego wpływu. Zob. https://github.com/Bitcoin/bips/pull/90 i http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Nieznane w tamtym czasie, ale gdyby zostało wdrożone, rozwiązałoby to lukę.
+
+Ze względu na szeroki zakres tego BIP, który obejmował znacznie więcej niż tylko "ścisłe kodowanie DER", był on stale zmieniany i nigdy nie był bliski wdrożenia. BIP został później wycofany, ponieważ Segregated Witness, BIP141, rozwiązał problem zmienności transakcji w inny i bardziej kompletny sposób.
+
+
+##### Po odkryciu
+
+
+
+OpenSSL wydało nowe wersje swojego oprogramowania z łatkami, które, gdyby były używane w Bitcoin od samego początku, rozwiązałyby problem. Jednak użycie jakiejkolwiek nowej wersji OpenSSL tylko w nowym wydaniu Bitcoin Core pogorszyłoby sprawę. Gregory Maxwell wyjaśnił to w innym [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) w styczniu 2015 roku:
+
+
+> Podczas gdy w przypadku większości aplikacji ogólnie akceptowalne jest ochocze odrzucanie niektórych podpisów, Bitcoin jest systemem konsensusu, w którym wszyscy uczestnicy muszą zasadniczo zgodzić się co do dokładnej ważności lub nieważności danych wejściowych.  W pewnym sensie spójność jest ważniejsza niż "poprawność".
 > [...]
-> The patches above, however, only fix one symptom of the general problem: relying on software not designed or distributed for consensus use (in particular OpenSSL) for consensus-normative behavior.  Therefore, as an incremental improvement, I propose a targeted Soft-Fork to enforce strict DER compliance soon, utilizing a subset of BIP62.
+> Powyższe poprawki naprawiają jednak tylko jeden z symptomów ogólnego problemu: poleganie na oprogramowaniu, które nie zostało zaprojektowane lub rozpowszechnione do użytku w ramach konsensusu (w szczególności OpenSSL) w celu zachowania zgodnego z normami konsensusu.  Dlatego też, jako stopniowe ulepszenie, proponuję ukierunkowane Soft-Fork, aby wkrótce wymusić ścisłą zgodność z DER, wykorzystując podzbiór BIP62.
 
-He points out that using code that's not intended for use in consensus systems poses serious risks, and proposes that Bitcoin implements strict DER encoding. This is a very clear example of the importance of good selection cryptography.
-
-
-These events might give you the impression that Gregory Maxwell knew about the vulnerability Pieter Wuille later published, but wanted to help sneak in a fix disguised as a precaution measure, without drawing too much attention to the actual problem. It might be so, but it's purely speculation.
+Zwraca uwagę, że używanie kodu, który nie jest przeznaczony do użytku w systemach konsensusu, stwarza poważne ryzyko i proponuje, aby Bitcoin implementował ścisłe kodowanie DER. Jest to bardzo wyraźny przykład znaczenia dobrej kryptografii selekcyjnej.
 
 
-Then, as proposed by Maxwell, BIP66 was created as a subset of BIP62 that specified only strict DER encoding. This BIP was apparently broadly accepted and deployed in July, albeit two Blockchain splits ironically occurred due to *validationless Mining*. These splits are discussed in the next section.
+Te wydarzenia mogą sprawiać wrażenie, że Gregory Maxwell wiedział o luce, którą później opublikował Pieter Wuille, ale chciał pomóc w przemyceniu poprawki w przebraniu środka ostrożności, bez zwracania zbytniej uwagi na rzeczywisty problem. Być może tak było, ale to tylko spekulacje.
+
+
+Następnie, zgodnie z propozycją Maxwella, utworzono BIP66 jako podzbiór BIP62, który określał tylko ścisłe kodowanie DER. Ten BIP został najwyraźniej szeroko zaakceptowany i wdrożony w lipcu, aczkolwiek dwa podziały Blockchain ironicznie wystąpiły z powodu *bezwalidacyjnego Mining*. Podziały te zostały omówione w następnej sekcji.
 
 
 ![](assets/bip66-timeline-2.webp)
 
 
-A key takeaway from this is that BIPs should be more or less *atomic*, meaning that they should be complete enough to provide something useful or solve a specific problem, but small enough to allow for broad support among users. The more stuff you put into a BIP, the smaller the chance of acceptance.
+Kluczowym wnioskiem z tego jest to, że BIP powinny być mniej lub bardziej *atomowe*, co oznacza, że powinny być wystarczająco kompletne, aby zapewnić coś użytecznego lub rozwiązać konkretny problem, ale wystarczająco małe, aby umożliwić szerokie wsparcie wśród użytkowników. Im więcej rzeczy umieścisz w BIP, tym mniejsza szansa na akceptację.
 
 
-##### Splits due to validationless Mining
+##### Podziały z powodu braku walidacji Mining
 
 
 
-Unfortunately, the story of BIP66 didn't end there. When BIP66 was activated, it turned out quite messy because some miners didn't verify the blocks they were trying to extend. This is called validationless Mining, or SPV-Mining (as in Simplified Payment Verification). An alert message was sent out to Bitcoin nodes with a link to [a web page describing the issue](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Niestety, historia BIP66 na tym się nie skończyła. Kiedy BIP66 został aktywowany, okazało się, że jest to dość chaotyczne, ponieważ niektórzy górnicy nie zweryfikowali bloków, które próbowali rozszerzyć. Nazywa się to Mining bez walidacji lub SPV-Mining (jak w uproszczonej weryfikacji płatności). Wiadomość ostrzegawcza została wysłana do węzłów Bitcoin z linkiem do [strony internetowej opisującej problem] (https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
 
 
-> Early morning on 4 July 2015, the 950/1000 (95%) threshold was reached. Shortly thereafter, a small Miner (part of the non-upgraded 5%) mined an invalid block–as was an expected occurrence. Unfortunately, it turned out that roughly half the network Hash rate was Mining without fully validating blocks (called SPV Mining), and built new blocks on top of that invalid block.
+> Wczesnym rankiem 4 lipca 2015 r. osiągnięto próg 950/1000 (95%). Wkrótce potem mały Miner (część niezaktualizowanych 5%) wydobył nieprawidłowy blok - co było spodziewanym zjawiskiem. Niestety, okazało się, że około połowa sieci Hash była Mining bez pełnej walidacji bloków (zwana SPV Mining) i zbudowała nowe bloki na szczycie tego nieważnego bloku.
 
-The alert page instructed people to wait for 30 additional confirmations than they normally would in case they were using older versions of Bitcoin Core.
+Strona z ostrzeżeniem instruowała ludzi, aby czekali na 30 dodatkowych potwierdzeń niż normalnie, w przypadku korzystania ze starszych wersji Bitcoin Core.
 
 
-The split mentioned above occurred on 2015-07-04 at 02:10 UTC after block height [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). This issue got resolved at 03:50 the same day, after 6 invalid blocks had been mined. Unfortunately, the same issue happened again the next day, i.e. on 2015-07-05 at 21:50, but this time the invalid branch only lasted 3 blocks.
+Wspomniany powyżej podział nastąpił w dniu 2015-07-04 o godzinie 02:10 UTC po wysokości bloku [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Problem ten został rozwiązany o 03:50 tego samego dnia, po wydobyciu 6 nieprawidłowych bloków. Niestety, ten sam problem powtórzył się następnego dnia, tj. 2015-07-05 o 21:50, ale tym razem nieprawidłowa gałąź trwała tylko 3 bloki.
 
 
 ![](assets/bip66-timeline-3.webp)
 
-The events that led up to BIP66, its deployment, and the aftermath are a very good case study for how careful Bitcoin developers have to be. A few key takeaways from BIP66:
+Wydarzenia, które doprowadziły do BIP66, jego wdrożenia i następstw, stanowią bardzo dobre studium przypadku dla tego, jak ostrożni muszą być deweloperzy Bitcoin. Kilka kluczowych wniosków z BIP66:
 
 
 
-- The balance between openness and not publishing a vulnerability is a delicate one.
-- Deploying fixes for non-published vulnerabilities is a tricky game to play.
-- Retaining consensus is Hard.
-- Software not intended for consensus systems are generally risky.
-- BIPs should be somewhat atomic.
+- Równowaga między otwartością a niepublikowaniem słabych punktów jest delikatna.
+- Wdrażanie poprawek dla niepublikowanych luk w zabezpieczeniach to trudna gra.
+- Konsensusem jest Hard.
+- Oprogramowanie nieprzeznaczone dla systemów konsensusu jest generalnie ryzykowne.
+- BIPy powinny być w pewnym stopniu atomowe.
 
 
-### Conclusion about When Shit Hits The Fan
+### Wnioski na temat When Shit Hits The Fan
 
 
 
-Bitcoin has bugs. People discovering bugs are encouraged to disclose them responsibly to Bitcoin developers, so they can fix the bug without revealing it publicly. Ideally, the bug fix can be disguised as a performace improvement, or some other smoke screen.
+Bitcoin zawiera błędy. Osoby odkrywające błędy są zachęcane do odpowiedzialnego ujawniania ich deweloperom Bitcoin, aby mogli naprawić błąd bez ujawniania go publicznie. Najlepiej byłoby, gdyby poprawka błędu mogła być ukryta jako poprawa wydajności lub inna zasłona dymna.
 
 
-We've looked at some of the more severe issues that's surfaced through the years, and how they were handled. Some were discovered publicly through exploits while other were responisibly disclosed and could be fixed before malicious actors had a chance to exploit them.
+Przyjrzeliśmy się niektórym z poważniejszych problemów, które pojawiły się na przestrzeni lat, i temu, jak sobie z nimi poradzono. Niektóre z nich zostały odkryte publicznie za pomocą exploitów, podczas gdy inne zostały odpowiedzialnie ujawnione i mogły zostać naprawione, zanim złośliwi aktorzy mieli szansę je wykorzystać.
 
 
-## Discussion Questions
+## Pytania do dyskusji
 
 <chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
 
 
-These discussion questions are not just a recap of the content in "Bitcoin development philosophy", they are meant to encourage you to research further so make sure to go out and explore.
+Te pytania do dyskusji nie są tylko podsumowaniem treści zawartych w "Filozofii rozwoju Bitcoin", ale mają na celu zachęcenie cię do dalszych badań, więc pamiętaj, aby wyjść i zbadać.
 
 
-You can test the depth of your understanding by writing [mini-essay](https://www.youtube.com/watch?v=N4YjXJVzoZY) of 100-300 words by choosing the topic in this pool of questions. If you want feedback from your work you can send it to mini-essay@planb.network, we will more than happy to review it.
+Możesz sprawdzić głębię swojego zrozumienia, pisząc [mini-esej](https://www.youtube.com/watch?v=N4YjXJVzoZY) o długości 100-300 słów, wybierając temat z tej puli pytań. Jeśli chcesz uzyskać opinię na temat swojej pracy, możesz wysłać ją na adres mini-essay@planb.network, a my z przyjemnością ją przeanalizujemy.
 
 
-#### Decentralization
-
-
-
-- Decentralization is Hard. Why do we go through all of this hassle to make it work? Could we opt for a hybrid approach, where some parts are centralized and others aren't?
-- Does decentralization introduce the double spending problem, or does the double spending problem require decentralization? How did Satoshi solve the double spending problem?
-- In which aspects is Bitcoin still most prone to censorship, and why is censorship such a bad thing? Are there any arguments in favor of censorship?
-- It is stated that Bitcoin is permissionless. Are there any other payment methods you could consider permissionless?
+#### Decentralizacja
 
 
 
-#### Trustlessness
+- Decentralizacja to Hard. Dlaczego zadajemy sobie tyle trudu, by to zadziałało? Czy możemy zdecydować się na podejście hybrydowe, w którym niektóre części są scentralizowane, a inne nie?
+- Czy decentralizacja wprowadza problem podwójnych wydatków, czy też problem podwójnych wydatków wymaga decentralizacji? Jak Satoshi rozwiązał problem podwójnych wydatków?
+- W jakich aspektach Bitcoin jest nadal najbardziej podatny na cenzurę i dlaczego cenzura jest taka zła? Czy są jakieś argumenty przemawiające za cenzurą?
+- Stwierdzono, że Bitcoin nie wymaga zezwolenia. Czy są jakieś inne metody płatności, które można uznać za bezzezwoleniowe?
 
 
 
-
-- Trustlessness is often a spectrum, not binary. Which aspects of Bitcoin are rather Trustless, and which typically involve a higher level of trust? Can they be mitigated?
-- You want to run a Full node to be able to fully validate all transactions. You download Bitcoin Core from https://Bitcoin.org/en/download. Where did you place trust, and where are you fully Trustless?
-- Can you build a Trustless system on top of a trusted system?
-
-
-
-#### Privacy
+#### Nieufność
 
 
 
 
-- What are some important benefits a user gains when he maintains good privacy when interacting with Bitcoin? What are some altruistic benefits for the network?
-- How does reusing addresses affect your privacy?
-- Bitcoin uses a UTXO model, whereas some alternative cryptocurrencies use an account model. What are the implications of this choice on privacy?
+- Nieufność jest często spektrum, a nie zjawiskiem binarnym. Które aspekty Bitcoin są raczej Trustless, a które zazwyczaj wiążą się z wyższym poziomem zaufania? Czy można je złagodzić?
+- Chcesz uruchomić Full node, aby móc w pełni zweryfikować wszystkie transakcje. Pobierasz Bitcoin Core z https://Bitcoin.org/en/download. Gdzie zaufałeś, a gdzie jesteś w pełni Trustless?
+- Czy można zbudować system Trustless na bazie zaufanego systemu?
+
+
+
+#### Prywatność
+
+
+
+
+- Jakie są ważne korzyści dla użytkownika, który zachowuje prywatność podczas interakcji z Bitcoin? Jakie są altruistyczne korzyści dla sieci?
+- Jak ponowne wykorzystanie adresów wpływa na prywatność użytkownika?
+- Bitcoin wykorzystuje model UTXO, podczas gdy niektóre alternatywne kryptowaluty wykorzystują model konta. Jakie są konsekwencje tego wyboru dla prywatności?
 
 
 
@@ -2150,50 +2190,74 @@ You can test the depth of your understanding by writing [mini-essay](https://www
 
 
 
-- What is the relation between Bitcoin's finite Supply and its coin issuance through the Coinbase Transaction? What is the relation between coin issuance and security budget, and how are they at odds?
-- What parameters could Satoshi have tweaked to change Bitcoin's Supply cap? What would change if he had decided to cap the Supply to 1 million? What about 1 trillion?
-- Why are some people advocating for an increase in Bitcoin Supply? Do you think this will happen?
+- Jaki jest związek między Bitcoin z Supply a emisją monet przez Coinbase Transaction? Jaki jest związek między emisją monet a budżetem bezpieczeństwa i w jaki sposób są one sprzeczne?
+- Jakie parametry mógł zmienić Satoshi, aby zmienić limit Bitcoin dla Supply? Co by się zmieniło, gdyby zdecydował się ograniczyć Supply do 1 miliona? A co z 1 bilionem?
+- Dlaczego niektórzy opowiadają się za zwiększeniem Bitcoin Supply? Czy uważasz, że tak się stanie?
 
 
-#### Upgrading
-
-
-
-- What is Speedy Trial and why was it necessary to activate Taproot?
-- Why do we need such a high percentage of miners to upgrade in a softfork? Why is the threshold not just 51%?
+#### Aktualizacja
 
 
 
-#### Adversarial thinking
+- Czym jest Speedy Trial i dlaczego konieczne było aktywowanie Taproot?
+- Dlaczego potrzebujemy tak wysokiego odsetka górników do aktualizacji w softforku? Dlaczego próg nie wynosi tylko 51%?
 
 
 
-
-- What is a sybil attack, and what makes a decentralized network so prone to it?
-- Why is it important that all players in the Bitcoin network - and not just developers - think adversarially?
-
-
-
-#### Open source
+#### Myślenie kontradyktoryjne
 
 
 
 
-- Only a handful of maintainers have the necessary GitHub permissions to merge code into into the [Bitcoin Core](https://github.com/Bitcoin/Bitcoin) repository. Isn't that at odds with a permissionless network?
-- Is the open source development process prone to a sybil attack? If so, how would you counter that?
-- What are the benefits and downsides of relying on third party open source libraries, and what is the approach taken with Bitcoin Core?
-- In which ways do we need review beyond just code review? How to determine how much review is enough?
-- How do we ensure there will always be sufficient people with expertise working on Bitcoin? What happens when there aren't, and how do we asses their integrity and intentions?
+- Czym jest atak sybilli i co sprawia, że zdecentralizowana sieć jest na niego podatna?
+- Dlaczego ważne jest, aby wszyscy gracze w sieci Bitcoin - a nie tylko deweloperzy - myśleli przeciwstawnie?
 
 
 
-#### Scaling
+#### Otwarte źródło
 
 
 
 
-- It is argued that sharding offers scaling benefits at the cost of complexity. Why should we or should we not adopt technological improvements because they are difficult to understand, even if they appear technologically sound?
-- What are some examples of inward scaling methods introduced in Bitcoin?
-- Why is vertical scaling much more difficult in a decentralized system? What about horizontal scaling?
-- We don't seem to be anywhere near having consensus on how we could onboard the entire world onto Bitcoin. Shouldn't Satoshi have at least thought of a path of getting there, before Mining the first block in 2009?
-- How would you classify (vertical, horizontal, inward, or not a scaling technique) each of the following: sharding, blocksize increase, SegWit, SPV nodes, centralized exchanges, Lightning Network, block interval decrease, Taproot, sidechains
+- Tylko garstka opiekunów ma niezbędne uprawnienia GitHub do scalania kodu w repozytorium [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Czy nie jest to sprzeczne z siecią bez uprawnień?
+- Czy proces rozwoju oprogramowania open source jest podatny na ataki sybilli? Jeśli tak, to jak można temu przeciwdziałać?
+- Jakie są zalety i wady polegania na bibliotekach open source innych firm i jakie jest podejście przyjęte w Bitcoin Core?
+- W jaki sposób potrzebujemy przeglądu wykraczającego poza zwykły przegląd kodu? Jak określić, ile recenzji wystarczy?
+- W jaki sposób możemy zapewnić, że zawsze będzie wystarczająco dużo osób z wiedzą specjalistyczną pracujących nad Bitcoin? Co się dzieje, gdy ich nie ma i jak oceniamy ich uczciwość i intencje?
+
+
+
+#### Skalowanie
+
+
+
+
+- Argumentuje się, że sharding oferuje korzyści skalowania kosztem złożoności. Dlaczego powinniśmy lub nie powinniśmy przyjmować ulepszeń technologicznych, ponieważ są one trudne do zrozumienia, nawet jeśli wydają się technologicznie uzasadnione?
+- Jakie są przykłady metod skalowania do wewnątrz wprowadzonych w Bitcoin?
+- Dlaczego skalowanie pionowe jest znacznie trudniejsze w systemie zdecentralizowanym? A co ze skalowaniem poziomym?
+- Wygląda na to, że nigdzie nie osiągnęliśmy konsensusu co do tego, w jaki sposób moglibyśmy przenieść cały świat na Bitcoin. Czy Satoshi nie powinien przynajmniej pomyśleć o ścieżce dotarcia tam, przed Mining, pierwszym blokiem w 2009 roku?
+- Jak sklasyfikowałbyś (pionowo, poziomo, do wewnątrz lub nie jako technikę skalowania) każdą z następujących technik: sharding, zwiększenie rozmiaru bloku, SegWit, węzły SPV, scentralizowane giełdy, Lightning Network, zmniejszenie interwału bloków, Taproot, łańcuchy boczne?
+
+
+
+# Sekcja końcowa
+
+
+<partId>4b6ff4ef-b9ea-4c48-b05f-62d41a38fbbb</partId>
+
+
+## Recenzje i oceny
+
+
+<chapterId>d334a837-df46-4989-9cad-8d8779147dbe</chapterId>
+
+
+<isCourseReview>true</isCourseReview>
+
+## Wnioski
+
+
+<chapterId>b77ed55c-b13a-430b-a212-37aab527b9e7</chapterId>
+
+
+<isCourseConclusion>true</isCourseConclusion>

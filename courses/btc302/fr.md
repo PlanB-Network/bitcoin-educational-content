@@ -1479,7 +1479,6 @@ L'intérêt d'en créer une est dual:
 - d'une part, le statut d'association permet de pouvoir **disposer d'un statut officiel, d'ouvrir un compte en banque associatif mais aussi d'obtenir une forme de reconnaissance de la part de la presse, des médias, ainsi que des subventions**;
 - d'autre part, elle permet d'**organiser de manière plus sérieuse le fonctionnement de sa communauté et la mise en place de ses projets**, en définissant notamment des rôles spécifiques.
 
-
 Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à la formation COMMU302 puisse sortir sur [planb.network](https://planb.network/) dans les prochains mois**.
 
 À travers celle-ci, **différents points plus poussés pourront être abordés; tels que: comment construire des présentations ou des ateliers pour ses meet-ups, et avec quels objectifs? Mais aussi, comment mettre en place un événement de grande envergure, à une centaine de participants**.
@@ -1496,10 +1495,6 @@ Pour ce faire, nous partirons de l'expérience de plusieurs communautés ayant e
 ## Avis & Notes
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
-
-## Examen final
-<chapterId>078f7a57-f39f-45b0-a105-c9ae9da0bc36</chapterId>
-<isCourseExam>false</isCourseExam>
 
 ## Conclusion
 <chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>

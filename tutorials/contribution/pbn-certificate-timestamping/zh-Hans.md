@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Network证书和文凭的时间戳记
+name: Plan ₿ Network 文凭时间戳
 description: 了解Plan ₿ Network如何为您的证书和文凭发放可验证的证明
 ---
 
@@ -147,4 +147,3 @@ ots verify certificate.txt.ots
 2. OpenTimestamps 验证显示特定的比特币区块时间戳，并报告**“成功！比特币区块 [区块高度] 证明数据自 [时间戳] 起就存在”（Success! Bitcoin block [区块高度] attests data existed as of [时间戳]）**
 
 现在您知道了Plan ₿ Network如何为任何₿-CERT证书和课程完成证书颁发可验证的证明，并且您可以轻松验证其真实性。
-

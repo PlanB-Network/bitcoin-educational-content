@@ -1,0 +1,2 @@
+description: |
+  Vaba, detsentraliseeritud protokoll krüpteeritud suhtlemiseks, mis on loodud turvaliseks alternatiiviks tsentraliseeritud teenustele. Tox töötab peer-to-peer põhimõttel, võimaldades kiirsõnumite, häälkõnede, videokonverentside ja failide edastamist, tagades samal ajal teabevahetuse konfidentsiaalsuse tänu libsodiumil põhinevale otsast lõpuni krüpteerimisele. 2013. aastal Edward Snowdeni paljastuste järel sündinud Toxi eesmärk on pakkuda lihtsat, privaatsussõbralikku suhtlust modulaarse arhitektuuri ja platvormideüleste klientide kaudu.

@@ -1,5 +1,5 @@
 ---
-name: Tidsstempling av Plan ₿ Network-sertifikater og diplomer
+name: Tidsstempling av Plan ₿ Network-diplomer
 description: Forstå hvordan Plan ₿ Network utsteder verifiserbart bevis for ditt sertifikat og diplom
 ---
 
@@ -147,4 +147,3 @@ Merk at verifiseringen er vellykket hvis følgende **begge** meldinger vises:
 2. OpenTimestamps-verifiseringen viser et spesifikt Bitcoin-blokk-tidsstempel og rapporterer **"Suksess! Bitcoin-blokk [blokkhøyde] bekrefter at data eksisterte per [tidsstempel]"**
 
 Nå som du vet hvordan Plan ₿ Network utsteder verifiserbart bevis for ethvert Bitcoin-sertifikat og diplom for kursgjennomføring, kan du enkelt verifisere integriteten til det.
-

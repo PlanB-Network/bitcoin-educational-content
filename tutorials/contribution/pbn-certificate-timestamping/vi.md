@@ -1,5 +1,5 @@
 ---
-name: Gán nhãn thời gian cho các chứng chỉ và bằng cấp của Plan ₿ Network
+name: Dấu thời gian của bằng cấp Plan ₿ Network
 description: Hiểu cách Plan ₿ Network cấp các bằng chứng có thể xác minh được cho chứng chỉ và bằng cấp của bạn
 ---
 
@@ -147,4 +147,3 @@ Lưu ý rằng việc xác minh thành công nếu **cả hai** thông điệp s
 2. Xác minh OpenTimestamps hiển thị một nhãn thời gian khối Bitcoin cụ thể và báo cáo **"Thành công! Khối Bitcoin [blockheight] chứng thực dữ liệu tồn tại kể từ [timestamp]"**
 
 Giờ đây, bạn đã biết cách Plan ₿ Network phát hành bằng chứng có thể xác minh được cho bất kỳ Chứng chỉ Bitcoin và Bằng tốt nghiệp khóa học nào, bạn có thể dễ dàng xác minh tính toàn vẹn của nó.
-

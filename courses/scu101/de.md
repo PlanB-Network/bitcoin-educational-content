@@ -194,6 +194,7 @@ Um dir ein konkretes Beispiel für einen Fehler zu geben: Eine geknackte Softwar
 Die Auswahl und Nutzung einer Antivirus-Software ist wichtig. Windows Defender, der in Windows integrierte Virenschutz, ist eine sichere und effektive Lösung. Für eine kostenlose Lösung ist er außergewöhnlich gut und besser als viele kostenlose Lösungen, die online verfügbar sind. Es ist wichtig, vorsichtig mit Antivirenprogrammen zu sein, die aus dem Internet heruntergeladen werden, da sie schädlich oder veraltet sein können.
 Für diejenigen, die in eine kostenpflichtige Antivirensoftware investieren möchten, wird empfohlen, eine Antivirensoftware zu wählen, die unbekannte und aufkommende Bedrohungen intelligent analysiert, wie zum Beispiel Kaspersky. Antivirensoftware-Updates sind entscheidend, um sich vor neuen Bedrohungen zu schützen.
 ![](assets/notext/13.webp)
+
 Hinweis: Linux und Mac benötigen aufgrund ihres Benutzerrechtesystems oft keine Antivirensoftware.
 
 Abschließend sind hier einige bewährte Sicherheitspraktiken für deinen Computer und deine Daten. Es ist wichtig, eine effektive und benutzerfreundliche Antivirensoftware zu wählen. Es ist auch entscheidend, gute Praktiken auf deinem Computer zu befolgen, wie z.B. unbekannte oder verdächtige USB-Sticks nicht anzuschließen. Diese USB-Sticks können schädliche Programme enthalten, die sich automatisch beim Einstecken starten können. Die nachträgliche Überprüfung des USB-Sticks ist nutzlos, sobald er eingesteckt wurde. Einige Unternehmen wurden Opfer von Hacks aufgrund von nachlässig liegengelassenen USB-Sticks an zugänglichen Orten wie einem Parkplatz.
@@ -275,7 +276,6 @@ Es ist wichtig zu bedenken, dass alte E-Mail-Anbieter wie La Poste, Arobase, Wig
 Es wird empfohlen, die Website "Have I Been Pwned" (Wurde ich gehackt) - https://haveibeenpwned.com/ - zu verwenden, um zu überprüfen, ob unsere E-Mail-Adresse kompromittiert wurde und um über zukünftige Datenlecks informiert zu werden. Eine gehackte Datenbank kann von Hackern genutzt werden, um Phishing-E-Mails zu versenden oder kompromittierte Passwörter erneut zu verwenden.
 ![](assets/notext/16.webp)
 Im Allgemeinen ist es keine schlechte Idee und, wenn man einen Neuanfang machen möchte, sogar notwendig, eine neue, sicherere E-Mail-Adresse zu verwenden.
-
 Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für deine Bitcoin-Aktivitäten (Erstellung von Börsenkonten) zu erstellen, um diese Aktivitäten wirklich zu trennen.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
@@ -350,7 +350,11 @@ Die verschiedenen Optionen für starke Authentifizierung bieten unterschiedliche
 
 Für maximale Sicherheit mit starker Authentifizierung wird empfohlen, eine sichere E-Mail-Adresse, einen sicheren Passwort-Manager und die Verwendung von 2FA mit YubiKey zu verwenden. Es wird auch empfohlen, zwei YubiKeys zu kaufen, um Verlust oder Diebstahl vorzubeugen. Z.B. einen zum Mitführen und einen als Sicherungskopie zu Hause.
 
+In Bezug auf mögliche Bedrohungen bei SIM 2FA: SIM-Swapping ist ein häufiges Beispiel. Hierbei klaut ein Angreifer die Telefonnummer des Benutzers, indem er diese mit einer SIM Karte verbindet, die der Angreifer kontrolliert. Es gibt mehrere Möglichkeiten um diesen Angriff durchzuführen. Allerdings ist diese Bedrohung nur für berühmte Personen und Personen des öffentlichen Lebens von größerer Bedeutung.
+
 Biometrie kann als Ersatz verwendet werden, ist jedoch weniger sicher als die Kombination von Wissen und Besitz. Biometrische Daten sollten auf dem Authentifizierungsgerät bleiben und nicht online gestellt werden. Es ist wichtig, die Bedrohungsmodelle der verschiedenen Authentifizierungsmethoden zu berücksichtigen und seine Vorgehensweise entsprechend anzupassen.
+
+Zu guter Letzt ist es hilfreich etwas Hintergrundinformationen zu HOTP und TOTP OTps zu geben: HOTP ist ein Einmal-Passwort (one-tine password, OTP) welches auf dem HMAC (Hash-based Message Authentication Code) Algorithmus basiert, während TOTP ein zeitbasiertes OTP Verfahren ist. Die wichtigsten Eigenschaften dieser Algorithmen sind, dass Passwörter nur einmal benutzt werden können, jedes Passwort einmalig ist und dass es einen geteilten Schlüssel zwischen dem Gerät des Benutzers (client) und dem Authentifizierungsdienst (server) gibt. Der Hautpunterschied zwischen beiden Systemen liegt darin, wie der Faktor erzeugt wird: bei TOTP geschieht dies zeitbasiert, während es bei HOTP zählerbasiert ist.
 
 ### Fazit des Trainings:
 
@@ -503,6 +507,7 @@ Die Frage des digitalen Erbes und der digitalen Trauer betont die Bedeutung eine
 Passwörter, obwohl allgegenwärtig, haben viele Nachteile, insbesondere die Möglichkeit einer unsicheren Übertragung während des Authentifizierungsprozesses. Branchenführer wie Microsoft und Apple bieten innovative Alternativen wie Biometrie und Hardware-Token an, was auf einen fortschreitenden Trend zum Verzicht auf Passwörter hindeutet.
 
 Passkeys, zum Beispiel, bietet verschlüsselte zufällige Schlüssel in Verbindung mit einem lokalen Faktor (Biometrie oder PIN), die von einem Anbieter gehostet werden, aber außerhalb seiner Reichweite bleiben. Obwohl dies eine Aktualisierung der Websites erfordert, beseitigt der Ansatz die Notwendigkeit von Passwörtern und bietet somit ein hohes Maß an Sicherheit ohne die Einschränkungen herkömmlicher Passwörter oder die Problematik der digitalen Safe-Verwaltung.
+
 Passkiz ist eine weitere praktikable und sichere Alternative zur Passwortverwaltung. Dennoch bleibt eine wichtige Frage offen: die Verfügbarkeit im Falle eines Ausfalls des Anbieters. Es wäre daher wünschenswert, dass die Internetgiganten Systeme zur Gewährleistung dieser Verfügbarkeit anbieten.
 
 Die direkte Authentifizierung beim betreffenden Dienst stellt eine interessante Option dar, um nicht mehr von Dritten abhängig zu sein. Allerdings birgt das von den Internetgiganten angebotene Single Sign-On (SSO) auch Probleme in Bezug auf Verfügbarkeit und Zensurrisiken. Um Datenlecks zu vermeiden, ist es entscheidend, die Menge an Informationen, die während des Authentifizierungsprozesses gesammelt werden, zu minimieren.

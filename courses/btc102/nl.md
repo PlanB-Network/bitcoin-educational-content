@@ -1410,40 +1410,40 @@ Het is dus belangrijk om te begrijpen dat het doorlopen van KYC niet zomaar een 
 
 Bitcoin kopen zonder je identiteit bekend te maken is een optie voor diegenen die privacy belangrijk vinden. Deze methode kan verschillende benaderingen inhouden:
 
-- **Peer-to-peer (P2P) tussen particulieren**: Rechtstreeks contant kopen van een persoon die je vertrouwt (vrienden, familie, lokaal netwerk, ontmoetingen...) vermijdt alle officiële transactiedocumenten en houdt je uit het banksysteem. Hoewel dit waarschijnlijk de beste manier is om Bitcoin te verwerven of te verkopen, komt het met het risico van fysiek geweld, omdat het een persoonlijke Exchange is.
+- **Peer-to-peer (P2P) tussen particulieren**: Rechtstreeks contant kopen van een persoon die je vertrouwt (vrienden, familie, lokaal netwerk, evenementen...) vermijdt alle officiële transactiedocumenten en houdt je uit het banksysteem. Hoewel dit waarschijnlijk de beste manier is om Bitcoin te verwerven of te verkopen, komt het met het risico van fysiek geweld, omdat het een persoonlijke uitwisseling is.
 - **P2P Platforms**: Platformen zoals Bisq, RoboSats en Peach faciliteren uitwisselingen tussen privépersonen zonder dat identiteitsverificatie nodig is, en gebruiken escrow-systemen om transacties te beveiligen. Deze platformen dragen nog steeds het risico van diefstal in zich als de andere partij niet meewerkt, maar het risico wordt geminimaliseerd door escrow-diensten.
-- **Bitcoin geldautomaten **: Bij sommige geldautomaten (kiosken) kunt u Bitcoin met contant geld kopen, maar de kosten zijn vaak hoog en sommige vereisen ID-verificatie voor grotere transacties.
-- **KYC-vrije Exchange platforms**: Op sommige platforms, vooral in Zwitserland, kun je kleine hoeveelheden Bitcoin kopen zonder ID-verificatie.
-- **Mining**: Particulieren kunnen Bitcoin delven. Oudere of kleinere machines zijn toegankelijk, wat een niet-traditionele manier biedt om Bitcoin te verwerven zonder KYC. Door lid te worden van een Mining pool, kun je regelmatige uitbetalingen verdienen, zelfs met basisuitrusting. Voor meer informatie, [bekijk onze Mining tutorials] (https://planb.network/tutorials/Mining).
-- **Betalingen / salaris in bitcoins**: Als je een bedrijf hebt, kun je Bitcoin accepteren als betaling. Als je in loondienst bent, kun je, afhankelijk van je jurisdictie, vragen om betaald te worden in Bitcoin. Met deze methoden kun je Bitcoin verkrijgen zonder KYC.
+- **Bitcoin geldautomaten**: Bij sommige geldautomaten (kiosken) kun je Bitcoin met contant geld kopen, maar de kosten zijn vaak hoog en sommige vereisen ID-verificatie voor grotere transacties.
+- **KYC-vrije handelsplatformen**: Op sommige platformen, vooral in Zwitserland, kun je kleine hoeveelheden Bitcoin kopen zonder ID-verificatie.
+- **Mining**: Particulieren kunnen Bitcoin minen. Oudere of kleinere machines zijn toegankelijk, wat een niet-traditionele manier biedt om Bitcoin te verwerven zonder KYC. Door lid te worden van een mining pool, kun je regelmatige uitbetalingen verdienen, zelfs met basisuitrusting. Voor meer informatie, [bekijk onze mining tutorials](https://planb.network/tutorials/Mining).
+- **Betalingen / Salaris in bitcoins**: Als je een bedrijf hebt, kun je Bitcoin accepteren als betalingsmethode. Als je in loondienst bent, kun je, afhankelijk van je jurisdictie, vragen om betaald te worden in Bitcoin. Met deze methoden kun je Bitcoin verkrijgen zonder KYC.
 
 **Voordelen** :
 
-- Afhankelijk van de methode helpt het uw privacy te beschermen door verbanden tussen uw identiteit en uw Bitcoin activiteit te beperken;
-- Vermindert het risico op censuur, het bevriezen van fondsen of staatsinmenging.
+- Afhankelijk van de methode helpt het je privacy te beschermen door verbanden tussen je identiteit en je Bitcoin activiteit te beperken.
+- Vermindert het risico op censuur, het bevriezen van tegoeden of staatsinmenging.
 - Maakt toegang tot Bitcoin mogelijk, zelfs in sterk gereguleerde omgevingen.
 
 **Nadelen** :
 
-- Meestal ingewikkelder dan KYC-platforms;
-- Lagere liquiditeit en minder transacties;
-- P2P kopen gaat vaak gepaard met een premie;
+- Meestal ingewikkelder dan KYC-platforms.
+- Lagere liquiditeit en minder transacties.
+- P2P kopen gaat vaak gepaard met een premie.
 - Groter tegenpartijrisico bij uitwisselingen tussen particulieren (oplichting, fraude, mishandeling, enz.).
 
-### De 4 soorten Bitcoin gebruikers
+### De 4 Soorten Bitcoin Gebruikers
 
 Op basis van de criteria die we hebben besproken, kunnen we verschillende typische Bitcoin gebruikersprofielen identificeren. Deze profielen zijn flexibel en kunnen evolueren, maar ze helpen duidelijk te maken welke strategieën geschikt zijn voor elk type en ze begeleiden je bij het kiezen van de juiste tools.
 
 #### 1. De Hodler
 
-De Hodler is een investeerder die Bitcoin koopt met een langetermijnvisie en niet van plan is om het de komende jaren aan te raken. In tegenstelling tot de stapelaar, die in de loop van de tijd regelmatig koopt, doet de hodler meestal grotere, incidentele aankopen en houdt dan gewoon vast aan zijn Bitcoin.
+De hodler is een investeerder die Bitcoin koopt met een langetermijnvisie en niet van plan is om het de komende jaren aan te raken. In tegenstelling tot de stapelaar, die in de loop van de tijd regelmatig koopt, doet de hodler meestal grotere, incidentele aankopen en houdt dan gewoon vast aan zijn Bitcoin.
 
 Voorkeursstrategie :
-- Kopen via een KYC- of niet-KYC-platform, afhankelijk van hun privacybehoeften;
-- Opslag op een Hardware Wallet of met een oplossing met meerdere handtekeningen voor extra beveiliging;
-- zeldzame transacties, waardoor de interactie met het Bitcoin ecosysteem minimaal is.
+- Kopen via een KYC- of niet-KYC-platform, afhankelijk van hun privacybehoeften.
+- Opslag op een hardware wallet of met een oplossing met meerdere handtekeningen (multisig) voor extra beveiliging.
+- Zeldzame transacties, waardoor de interactie met het Bitcoin ecosysteem minimaal is.
 
-De Hodler ziet Bitcoin als een opslagplaats van waarde, vergelijkbaar met een investeerder in fysiek goud. Hun grootste uitdaging is het veilig opslaan van hun Bitcoin en ervoor zorgen dat ze het kunnen doorgeven aan hun erfgenamen.
+De hodler ziet Bitcoin als een waardeopslagmiddel (store of value), vergelijkbaar met een investeerder in fysiek goud. Hun grootste uitdaging is het veilig opslaan van hun Bitcoin en ervoor zorgen dat ze het kunnen doorgeven aan hun erfgenamen.
 
 #### 2. De stapelaar
 
@@ -1451,11 +1451,11 @@ De stapelaar is iemand die voor een meer geleidelijke, consistente aanpak kiest.
 
 Voorkeursstrategie :
 
-- Gebruik geautomatiseerde inkoop via een KYC-platform dat DCA biedt;
-- Regelmatige overdracht van fondsen naar een Hardware Wallet voor veilige opslag ;
+- Gebruik geautomatiseerde inkoop via een KYC-platform dat DCA biedt.
+- Regelmatige overdracht van tegoeden naar een hardware wallet voor veilige opslag.
 - Gematigd gevoelig voor privacy, maar geeft prioriteit aan veiligheid en gebruiksgemak.
 
-De Stacker richt zich niet op kortetermijnspeculatie of het veelvuldig gebruiken van hun Bitcoin. Ze zien Bitcoin als een spaarplan voor de lange termijn, dat jaren of zelfs decennia beslaat. Wat de Stacker onderscheidt van de Hodler is hun aankoopmethode en transactievolume.
+De stapelaar richt zich niet op kortetermijnspeculatie of het veelvuldig gebruiken van hun Bitcoin. Ze zien Bitcoin als een spaarplan voor de lange termijn, dat jaren of zelfs decennia beslaat. Wat de stapelaar onderscheidt van de hodler is hun aankoopmethode en transactievolume.
 
 #### 3. De actieve gebruiker
 
@@ -1463,9 +1463,9 @@ De actieve gebruiker ziet Bitcoin vooral als een Exchange middel en niet zozeer 
 
 Voorkeursstrategie :
 
-- Gebruik een Hot Wallet op mobiel of desktop voor dagelijkse transacties;
-- Gebruik de Lightning Network voor snelle en goedkope betalingen;
-- Handhaaf een hybride aanpak, met een mobiele Wallet voor uitgaven en een Hardware Wallet voor besparingen;
+- Gebruik een hot wallet op mobiel of desktop voor dagelijkse transacties.
+- Gebruik het Lightning Network voor snelle en goedkope betalingen.
+- Handhaaf een hybride aanpak, met een mobiele wallet voor uitgaven en een hardware wallet voor sparen.
 - Privacygevoeligheid varieert afhankelijk van specifieke behoeften.
 
 De actieve gebruiker kan een ondernemer, freelancer of iemand die in een Bitcoin-vriendelijke omgeving woont waar het gebruik van Bitcoin voor dagelijkse betalingen gebruikelijk is. Hun belangrijkste prioriteit is gemak, met als doel een balans te vinden tussen veiligheid en toegankelijkheid.
@@ -1475,54 +1475,54 @@ De paranoïde gebruiker is een geavanceerd individu dat privacy en veiligheid ho
 
 Voorkeursstrategie :
 
-- Bitcoin alleen verkrijgen via niet-KYC kanalen;
-- Gebruik wallets verbeterd met BIP39 wachtzinnen en multi-handtekening setups;
-- Bitcoin opslaan op meerdere fysieke apparaten op verschillende locaties;
+- Bitcoin alleen verkrijgen via niet-KYC kanalen.
+- Gebruik wallets verbeterd met BIP39 wachtzinnen en multi-handtekening setups.
+- Bitcoin opslaan op meerdere fysieke apparaten op verschillende locaties.
 - Vermijd gecentraliseerde diensten die de privacy in gevaar kunnen brengen.
 
-Dit profiel is vooral geschikt voor mensen die in een Bitcoin vijandige omgeving wonen, waar het bezit of gebruik van BTC kan leiden tot sancties. Het is een complexere aanpak, die een zekere mate van technische expertise en strikte discipline vereist om verlies van toegang tot fondsen te voorkomen.
+Dit profiel is vooral geschikt voor mensen die in een omgeving wonen die vijandig is als het gaat om Bitcoin, waar het bezit of gebruik van BTC kan leiden tot sancties. Het is een complexere aanpak, die een zekere mate van technische expertise en strikte discipline vereist om verlies van toegang tot tegoeden te voorkomen.
 
 ![BTC102-Bitcoin](assets/fr/069.webp)
 
 ### Welk profiel past bij jou?
 
-Onthoud dat deze profielen elkaar niet uitsluiten. Je kunt je identificeren met meer dan één profiel en je aanpak kan na verloop van tijd veranderen. Je kunt bijvoorbeeld beginnen als een stacker en geleidelijk veranderen in een actievere gebruiker of zelfs een paranoïde beveiligingsmentaliteit aannemen. Je zou een lange termijn hodler kunnen zijn, terwijl je Bitcoin nog steeds gebruikt in je dagelijks leven.
+Onthoud dat deze profielen elkaar niet uitsluiten. Je kunt je identificeren met meer dan één profiel en je aanpak kan na verloop van tijd veranderen. Je kunt bijvoorbeeld beginnen als een stapelaar en geleidelijk veranderen in een actievere gebruiker of zelfs een paranoïde beveiligingsmentaliteit aannemen. Je zou een lange termijn hodler kunnen zijn, terwijl je Bitcoin nog steeds gebruikt in je dagelijks leven.
 
 **Het belangrijkste is om je strategie af te stemmen op je huidige situatie en langetermijnvisie.**
 
 In de volgende hoofdstukken gaan we dieper in op elk van deze profielen, zodat je kunt uitzoeken welk profiel het beste bij je past en de aanpak kunt toepassen die het beste past bij je doelen. We behandelen ook de tools die bij elk profiel passen, zodat je de basis hebt om je eigen acquisitie- en beveiligingsplan op te stellen.
 
-## De Hodler: Beleggen voor de lange termijn
+## De Hodler: Beleggen Voor De Lange Termijn
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 :::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
 
-In de Bitcoin gemeenschap verwijst de term "hodler" naar iemand die een lange termijn investeringsaanpak hanteert. Het woord ontstond uit een beroemde typfout van "hold" op het Bitcoin Talk forum jaren geleden en is sindsdien een symbool geworden voor Commitment: vasthouden aan je Bitcoin, wat er ook gebeurt, zonder stress over korte termijn marktschommelingen.
+In de Bitcoin gemeenschap verwijst de term "hodler" naar iemand die een lange termijn investeringsaanpak hanteert. Het woord ontstond uit een beroemde typfout van "hold" op het Bitcoin Talk forum jaren geleden en is sindsdien een symbool geworden voor toewijding: vasthouden aan je Bitcoin, wat er ook gebeurt, zonder stress over korte termijn marktschommelingen.
 
 ![BTC102-Bitcoin](assets/fr/071.webp)
 
-Hodlers geloven in de waardepropositie van Bitcoin. Met een vast Supply van 21 miljoen munten, zien zij Bitcoin als een lange termijn waardeopslag (digitaal goud).
+Hodlers geloven in de waardepropositie van Bitcoin. Met een vast hoeveelheid van 21 miljoen munten, zien zij Bitcoin als een lange termijn waardeopslag (digitaal goud).
 
-### Waarom kiezen voor een Hodling-strategie?
+### Waarom Kiezen Voor Een Hodling-strategie?
 
 Historisch gezien is hodling de meest winstgevende aanpak voor de meeste niet-professionele beleggers. Het neemt de noodzaak weg om de markt te timen, wat notoir moeilijk en emotioneel slopend is. Door gewoon te kopen en vast te houden, vermijden hodlers de stress van het handelen en de slechte beslissingen die vaak gepaard gaan met emotionele reacties.
 
-Bitcoin heeft de neiging om in cycli te bewegen; grote hausses gevolgd door scherpe correcties en dan lange rustige periodes. Tussen 2013 en 2025 kende Bitcoin meerdere van deze cycli, waarbij het tijdens bearmarkten soms tot 80% van zijn waarde verloor. Deze fases kunnen het geduld van een hodler op de proef stellen, maar degenen die op koers blijven, worden na verloop van tijd over het algemeen beloond.
+Bitcoin heeft de neiging om in cycli te bewegen, grote bull runs gevolgd door scherpe correcties en dan lange rustige periodes. Tussen 2013 en 2025 kende Bitcoin meerdere van deze cycli, waarbij het tijdens bearmarkten soms tot 80% van zijn waarde verloor. Deze fases kunnen het geduld van een hodler op de proef stellen, maar degenen die op koers blijven, worden na verloop van tijd over het algemeen beloond.
 
 Inzicht in deze cycli helpt om emoties te beheersen. Doorgewinterde hodlers weten dat het een verloren spelletje is om te proberen te verkopen op de top of te kopen op de bodem. In plaats daarvan heeft gedisciplineerd aanhouden op lange termijn bewezen een winnende strategie te zijn.
 
 ### Investeringsplan voor een Hodler
 
-Hodlers hanteren een eenvoudige langetermijnaanpak: ze kopen Bitcoin, beveiligen het goed en laten het met rust. Ze verhandelen of geven hun munten niet uit. Hun doel is het verzamelen en beschermen van hun bezit met minimaal beheer.
+Hodlers hanteren een eenvoudige langetermijnaanpak: ze kopen Bitcoin, beveiligen het goed en laten het met rust. Ze handelen of geven hun munten niet uit. Hun doel is het verzamelen en beschermen van hun bezit met minimaal beheer.
 
 Hier is een solide plan voor een hodler:
 
-#### 1. Een Hardware Wallet kiezen en instellen
+#### 1. Een Hardware Wallet Kiezen En Instellen
 
-Eerst en vooral: beveiliging. Een Hardware Wallet is een must. Deze slaat je privésleutels offline op en beschermt je geld tegen online aanvallen.
+Voor we beginnen: beveiliging. Een hardware wallet is een must. Deze slaat je privésleutels offline op en beschermt je tegoeden tegen online aanvallen.
 
-Hier zijn wat tutorials voor portemonnees die geweldig zijn voor hodlers:
+Hier zijn wat tutorials voor wallets die geweldig zijn voor hodlers:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
@@ -1536,25 +1536,25 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-Zodra uw Wallet is ingesteld, zorg er dan voor dat u een back-up maakt van uw 12- of 24-woord herstelzin op een duurzame fysieke drager. Om meer te weten te komen over welk medium je moet kiezen voor je zin, volg deze tutorial:
+Zodra je wallet is ingesteld, zorg er dan voor dat je een back-up maakt van je herstelzin van 12- of 24-woorden en zet deze op een duurzame fysieke drager. Om meer te weten te komen over welk medium je moet kiezen voor je mnemonische zin, volg deze tutorial:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Voor extra gemoedsrust kun je beschermingslagen toevoegen zoals:
 
-- Een Wallet met meerdere handtekeningen en een tijdslot:
+- Een wallet met meerdere handtekeningen (multisig) en een tijdslot:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-- A BIP39 passphrase:
+- A BIP39 wachtwoordzin:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![BTC102-Bitcoin](assets/fr/073.webp)
 
-#### 2. Bitcoin kopen en opnemen
+#### 2. Bitcoin Kopen En Opnemen
 
-Hodlers laten hun munten nooit achter op beurzen. Platforms kunnen gehackt worden, failliet gaan of in beslag worden genomen. Verplaats je Bitcoin na aankoop direct naar je Hardware Wallet.
+Hodlers laten hun munten nooit achter op beurzen. Platforms kunnen gehackt worden, failliet gaan of in beslag worden genomen. Verplaats je Bitcoin na aankoop direct naar je hardware wallet.
 
 Omdat hodlers de neiging hebben om grotere bedragen te investeren, hebben ze beurzen nodig met een sterke liquiditeit. Hier zijn er een paar die hieraan voldoen:
 
@@ -1570,30 +1570,30 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 
 Sommige hodlers kiezen ook voor een hybride aanpak door gebruik te maken van DCA (Dollar Cost Averaging) - regelmatig kleine bedragen kopen om de marktvolatiliteit af te vlakken.
 
-#### 3. Een opvolgingsplan opstellen
+#### 3. Een Opvolgingsplan Opstellen
 
-Dit wordt vaak over het hoofd gezien. Maar Bitcoin is onvergeeflijk; als uw privésleutels verloren gaan, zijn uw munten voor altijd weg. Plannen voor onbekwaamheid of overlijden is cruciaal.
+Dit wordt vaak over het hoofd gezien, maar Bitcoin is onvergeeflijk. Als je privésleutels verloren gaan, zijn je munten voor altijd weg. Plannen voor onbekwaamheid of overlijden is cruciaal.
 
 Belangrijkste stappen:
 
-- Schrijf een gedetailleerde gids die uitlegt hoe je toegang krijgt tot je Bitcoin als je dat niet kunt;
+- Schrijf een gedetailleerde gids die uitlegt hoe je toegang krijgt tot je Bitcoin als jij dat niet kunt;
 - Gebruik een opstelling met meerdere handtekeningen om toegang te verlenen en tegelijkertijd het risico op verlies te verkleinen;
 - Deel belangrijke informatie met iemand die je vertrouwt.
 
 We gaan dieper in op successieplanning in het laatste deel van deze cursus.
 
-#### 4. Blijf geduldig tijdens de cycli
+#### 4. Blijf Geduldig Tijdens De Cycli
 
 Hodling betekent het lange spel spelen. Je moet kalm blijven tijdens zowel prijscrashes als euforische bullmarkten.
 
 Een paar best practices:
 
-- Controleer je Wallet regelmatig, maar niet te vaak. Constante controle leidt tot emotionele beslissingen;
+- Controleer je wallet regelmatig, maar niet te vaak. Constante controle leidt tot emotionele beslissingen;
 - Verkoop niet in paniek tijdens marktdips. Correcties horen bij het spel;
 - Blijf op de hoogte van Bitcoin ontwikkelingen, maar vermijd mediahypes, vooral tijdens een economische neergang;
-- Controleer regelmatig de integriteit van je herstelzin. Controleer of er niet met de envelop is geknoeid en of de drager nog leesbaar is. Als er iets niet in orde lijkt, generate dan een nieuwe back-up van uw Wallet;
+- Controleer regelmatig de integriteit van je herstelzin. Controleer of er niet met de envelop is geknoeid en of de drager nog leesbaar is. Als er iets niet in orde lijkt, generate dan een nieuwe back-up van je wallet;
 
-Om je bezittingen in de gaten te houden zonder je privésleutels in gevaar te brengen, kun je overwegen om een Watch-only wallet te gebruiken. Hiermee kun je saldi en transacties bijhouden met alleen je publieke sleutels.
+Om je bezittingen in de gaten te houden zonder je privésleutels in gevaar te brengen, kun je overwegen om een alleen kijken (watch-only) wallet te gebruiken. Hiermee kun je saldi en transacties bijhouden met alleen je publieke sleutels.
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -1605,52 +1605,51 @@ De strategie van de hodler is eenvoudig maar krachtig: kopen, beveiligen en verg
 
 Als je jezelf herkent in deze persoonlijkheidstrekken, ben je waarschijnlijk een natuurlijke Hodler:
 
-- Geduld**: Een hodler heeft een uitzonderlijk geduld. Ze zijn bereid Bitcoin jarenlang (soms tientallen jaren) vast te houden zonder zich te laten opjagen door dagelijkse prijsschommelingen. Ze begrijpen dat Bitcoin in cycli beweegt en raken niet in paniek als de prijs crasht. Correcties zijn gewoon onderdeel van het spel. Voor hodlers wordt waarde niet gemeten in maanden, maar op de lange termijn;
-- Langetermijnvisie** : Hodler denkt veel verder dan winst op korte termijn. Ze geloven in de structurele groei van Bitcoin en de geleidelijke wereldwijde adoptie. Ondanks de volatiliteit zien ze een opwaarts traject; een traject van expansie gevolgd door consolidatie. Voor hen is Bitcoin een actief op lange termijn, een indekking tegen inflatie en een belangrijk onderdeel van een grotere monetaire revolutie;
-- Zelfdiscipline**: Mentale discipline is de kern van de hodler-mentaliteit. Paradoxaal genoeg is hun grootste uitdaging niet te handelen. Ze weerstaan de drang om te verkopen tijdens prijsstijgingen en geven niet toe aan angst tijdens crashes. Ze begrijpen dat Bitcoin vele brutale bearmarkten heeft overleefd en dat degenen die de pijn doorstaan, vaak het meest profiteren;
-- Emotionele veerkracht** : De prijs van Bitcoin kan binnen een paar weken met 50% of meer dalen; en toch blijft de hodler kalm. Ze hebben zich het idee eigen gemaakt dat volatiliteit de fundamenten van Bitcoin niet ondermijnt. Deze emotionele hardheid stelt hen in staat om het hoofd koel te houden tijdens onzekerheid en een rationele kijk te houden wanneer anderen in paniek raken;
-- Geloof in technologie**: Hodlers zien Bitcoin niet alleen als een speculatief product. Ze geloven in de technologie en het ontwrichtende potentieel. Voor velen gaat het niet alleen om geld, maar ook om vrijheid. Bitcoin wordt gezien als een veerkrachtige, apolitieke valuta en een echt alternatief voor traditioneel bankieren, waardoor individuen meer financiële soevereiniteit krijgen.
+- **Geduld**: Een hodler heeft een uitzonderlijk geduld. Ze zijn bereid Bitcoin jarenlang (soms tientallen jaren) vast te houden zonder zich te laten opjagen door dagelijkse prijsschommelingen. Ze begrijpen dat Bitcoin in cycli beweegt en raken niet in paniek als de prijs crasht. Correcties zijn gewoon onderdeel van het spel. Voor hodlers wordt waarde niet gemeten in maanden, maar op de lange termijn.
+- **Langetermijnvisie**: Hodler denkt veel verder dan winst op korte termijn. Ze geloven in de structurele groei van Bitcoin en de geleidelijke wereldwijde adoptie. Ondanks de volatiliteit zien ze een opwaarts traject, een traject van expansie gevolgd door consolidatie. Voor hen is Bitcoin een activum op lange termijn, een indekking tegen inflatie en een belangrijk onderdeel van een grotere monetaire revolutie.
+- **Zelfdiscipline**: Mentale discipline is de kern van de hodler-mentaliteit. Paradoxaal genoeg is hun grootste uitdaging niet te handelen. Ze weerstaan de drang om te verkopen tijdens prijsstijgingen en geven niet toe aan angst tijdens crashes. Ze begrijpen dat Bitcoin vele brutale bearmarkten heeft overleefd en dat degenen die de pijn doorstaan, vaak het meest profiteren.
+- **Emotionele veerkracht**: De prijs van Bitcoin kan binnen een paar weken met 50% of meer dalen, en toch blijft de hodler kalm. Ze hebben zich het idee eigen gemaakt dat volatiliteit de fundamenten van Bitcoin niet ondermijnt. Deze emotionele hardheid stelt hen in staat om het hoofd koel te houden tijdens onzekerheid en een rationele kijk te houden wanneer anderen in paniek raken.
+- **Geloof in technologie**: Hodlers zien Bitcoin niet alleen als een speculatief product. Ze geloven in de technologie en het ontwrichtende potentieel. Voor velen gaat het niet alleen om geld, maar ook om vrijheid. Bitcoin wordt gezien als een veerkrachtige, apolitieke valuta en een echt alternatief voor traditioneel bankieren, waardoor individuen meer financiële soevereiniteit krijgen.
 
 ![BTC102-Bitcoin](assets/fr/072.webp)
 
 Hodling is eenvoudig, effectief en toegankelijk, zelfs voor beginners.
-
 In het volgende hoofdstuk verkennen we een vergelijkbaar maar actiever profiel: de stapelaar.
 
-## De stapelaar: Satoshis verzamelen
+## De Stapelaar: Satoshis Verzamelen
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 :::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
-In het Bitcoin ecosysteem is een stapelaar iemand die een consistente langetermijnaanpak hanteert voor het verzamelen van satoshis (of 'Sats'), de kleinste eenheid van Bitcoin. In plaats van in één keer een groot bedrag te investeren, koopt een stacker regelmatig kleine hoeveelheden Bitcoin, ongeacht de marktomstandigheden.
+In het Bitcoin ecosysteem is een stapelaar iemand die een consistente langetermijnaanpak hanteert voor het verzamelen van satoshis (of 'sats'), de kleinste eenheid van Bitcoin. In plaats van in één keer een groot bedrag te investeren, koopt een stacker regelmatig kleine hoeveelheden Bitcoin, ongeacht de marktomstandigheden.
 
-Het idee is eenvoudig: er zullen ooit maar ongeveer 21 miljoen bitcoins zijn, en elke fractie telt. De missie van de stacker is om gestaag zoveel mogelijk Sats te verzamelen.
+Het idee is eenvoudig: er zullen ooit maar ongeveer 21 miljoen bitcoins zijn, en elke fractie telt. De missie van de stacker is om gestaag zoveel mogelijk sats te verzamelen.
 
 ![BTC102-Bitcoin](assets/fr/076.webp)
 
-### Waarom kiezen voor een stapelstrategie?
+### Waarom Kiezen Voor Een Stapelstrategie?
 
-Stacking is een zeer effectieve beleggingsstrategie voor diegenen die hun blootstelling aan marktvolatiliteit willen verminderen terwijl ze geleidelijk een Bitcoin positie opbouwen. In tegenstelling tot forfaitaire investeringen of speculatieve markttiming, gebruiken stackers meestal een techniek genaamd Dollar-Cost Averaging (DCA); ze investeren een vast bedrag met regelmatige tussenpozen (dagelijks, wekelijks, maandelijks...), ongeacht de huidige prijs van Bitcoin.
+Stacking is een zeer effectieve beleggingsstrategie voor diegenen die hun blootstelling aan marktvolatiliteit willen verminderen terwijl ze geleidelijk een Bitcoin positie opbouwen. In tegenstelling tot forfaitaire (lump-sum) investeringen of speculatieve markttiming, gebruiken stackers meestal een techniek genaamd Dollar-Cost Averaging (DCA), ze investeren een vast bedrag met regelmatige tussenpozen (dagelijks, wekelijks, maandelijks...), ongeacht de huidige prijs van Bitcoin.
 
 De voordelen van stapelen :
 
-- Verminderde volatiliteit**: Regelmatige aankopen helpen prijsschommelingen af te vlakken, omdat u meer Sats koopt als de prijzen laag zijn en minder als ze hoog zijn; zo middelt u uw kostenbasis uit en vermindert u emotionele stress.
-- Toegankelijkheid**: Je hebt geen groot startkapitaal nodig. Je kunt beginnen met slechts €10 per maand en je DCA-bedrag na verloop van tijd verhogen.
-- Discipline en automatisering** : Stapelaars vermijden emotionele beslissingen. Geautomatiseerde terugkerende aankopen zorgen voor consistentie en verminderen het risico op impulsieve bewegingen.
-- Strategie op lange termijn**: Geleidelijk beleggen vergroot de kans om te profiteren van stijgende markten terwijl het risico tijdens dalende markten wordt beperkt.
+- **Verminderde volatiliteit**: Regelmatige aankopen helpen prijsschommelingen af te vlakken, omdat je meer sats koopt als de prijzen laag zijn en minder als ze hoog zijn, zo middel je je kostenbasis uit en verminder je emotionele stress.
+- **Toegankelijkheid**: Je hebt geen groot startkapitaal nodig. Je kunt beginnen met slechts €10 per maand en je DCA-bedrag na verloop van tijd verhogen.
+- **Discipline en automatisering** : Stapelaars vermijden emotionele beslissingen. Geautomatiseerde terugkerende aankopen zorgen voor consistentie en verminderen het risico op impulsieve bewegingen.
+- **Strategie op lange termijn**: Geleidelijk beleggen vergroot de kans om te profiteren van stijgende markten terwijl het risico tijdens dalende markten wordt beperkt.
 
-Deze methode is vooral **goed geschikt voor beginners**; het neemt de druk weg van het timen van de markt en maakt een gestage, hands-off accumulatie mogelijk.
+Deze methode is vooral **goed geschikt voor beginners**, het neemt de druk weg van het timen van de markt en maakt een gestage, hands-off accumulatie mogelijk.
 
-### Het beleggingsplan van de stapelaar
+### Het Beleggingsplan Van De Stapelaar
 
-Het doel is om een duurzame, geautomatiseerde en veilige strategie te ontwikkelen voor het accumuleren van Bitcoin over een lange periode. Hier zijn de belangrijkste stappen voor het implementeren van uw stacker-investeringsplan:
+Het doel is om een duurzame, geautomatiseerde en veilige strategie te ontwikkelen voor het accumuleren van bitcoin over een lange periode. Hier zijn de belangrijkste stappen voor het implementeren van je stacker-investeringsplan:
 
-#### 1. Het juiste type Wallet kiezen
+#### 1. Het juiste type wallet kiezen
 
-Een stapelaar heeft een Wallet opstelling nodig die gebruiksgemak in balans brengt met veiligheid op de lange termijn.
+Een stapelaar heeft een wallet setup nodig die gebruiksgemak in balans brengt met veiligheid op de lange termijn.
 
-- Hot Wallet** : Ideaal voor beginners. Met mobiele of desktop portemonnees kun je gemakkelijk Sats ontvangen en betalingen doen. Ze zijn echter het meest geschikt voor kleine bedragen. On-Chain wallets hebben de voorkeur voor stapelen boven Lightning wallets vanwege het betere UTXO beheer. Aanbevolen software wallets: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot wallet**: Ideaal voor beginners. Met mobiele of desktop portemonnees kun je gemakkelijk sats ontvangen en betalingen doen. Ze zijn echter het meest geschikt voor kleine bedragen. On-chain wallets hebben de voorkeur voor stapelen boven Lightning wallets vanwege het betere UTXO beheer. Aanbevolen software wallets: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
@@ -1668,7 +1667,7 @@ https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Hardware Wallet**: Als je Bitcoin bezit groeit, is het beveiligen van je fondsen met een Cold Wallet essentieel om het risico op diefstal te minimaliseren. Een serieuze stapelaar verplaatst regelmatig geld van zijn Hot Wallet naar een Hardware Wallet. Voorbeelden: Bitbox02, Trezor, Ledger, Coldcard, Jade...
+- **Hardware wallet**: Als je de hoeveelheid Bitcoin die je bezit groeit, is het beveiligen van je tegoeden met een cold wallet essentieel om het risico op diefstal te minimaliseren. Een serieuze stapelaar verplaatst regelmatig geld van zijn hot wallet naar een hardware wallet. Voorbeelden: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
@@ -1682,17 +1681,17 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-De meest effectieve aanpak is om beide te gebruiken: een Hot Wallet voor dagelijks stapelen en een Hardware Wallet voor langdurige Cold opslag. De Hot Wallet is eenvoudig en handig in gebruik. Het stelt je in staat om snel over je bitcoins te beschikken, in plaats van ze op het platform achter te laten waar ze aan risico's kunnen worden blootgesteld. Vergeleken met een Hardware Wallet biedt de Hot Wallet echter veel minder veiligheid. De stapelaar moet daarom regelmatig zijn fondsen overzetten naar zijn Cold Wallet om zijn spaargeld op lange termijn veilig te stellen en te vermijden dat hij te veel fondsen in de Hot Wallet bewaart. Periodiek consolideert de stapelaar UTXO's bij het overboeken naar de Cold opslag; hij voegt kleine inputs samen om toekomstige transactiekosten te optimaliseren.
+De meest effectieve aanpak is om beide te gebruiken: een hot wallet voor dagelijks stapelen en een hardware wallet voor langdurige opslag. De hot wallet is eenvoudig en handig in gebruik. Het stelt je in staat om snel over je bitcoins te beschikken, in plaats van ze op het platform achter te laten waar ze aan risico's kunnen worden blootgesteld. Vergeleken met een hardware wallet biedt de hot wallet echter veel minder veiligheid. De stapelaar moet daarom regelmatig zijn tegoeden overzetten naar zijn cold wallet om zijn spaargeld op lange termijn veilig te stellen en te vermijden dat hij te veel tegoeden in zijn hot wallet bewaart. Periodiek consolideert de stapelaar UTXO's bij het overboeken naar de cold opslag, ofwel hij voegt kleine inputs samen om toekomstige transactiekosten te optimaliseren.
 
 ![BTC102-Bitcoin](assets/fr/077.webp)
 
 #### 2. Een DCA inkoopplan opzetten
 
-Dollar-Cost Averaging (DCA) is een beleggingsstrategie waarbij je regelmatig kleine hoeveelheden Bitcoin koopt, ongeacht de prijs. Om een effectief DCA plan op te zetten, moet je twee belangrijke Elements definiëren:
+Dollar-Cost Averaging (DCA) is een beleggingsstrategie waarbij je regelmatig kleine hoeveelheden Bitcoin koopt, ongeacht de prijs. Om een effectief DCA plan op te zetten, moet je twee belangrijke elementen definiëren:
 
-- Aankoopfrequentie**: Wekelijks, tweewekelijks of maandelijks; kies op basis van je inkomen en doelen. Vermijd te frequente aankopen als dit resulteert in veel kleine UTXO's die later duur zijn om uit te geven.Baseer dit op uw budget en risicotolerantie.Consistentie is belangrijker dan omvang; het is beter om jarenlang bescheiden bedragen te stapelen dan te veel vast te leggen en af te haken. Natuurlijk kan je DCA-bedrag worden aangepast als je financiële situatie verandert.
+- **Aankoopfrequentie**: Wekelijks, tweewekelijks of maandelijks; kies op basis van je inkomen en doelen. Vermijd te frequente aankopen als dit resulteert in veel kleine UTXO's die later duur zijn om uit te geven. Baseer dit op je budget en risicotolerantie. Consistentie is belangrijker dan omvang, het is beter om jarenlang bescheiden bedragen te stapelen dan te veel vast te leggen en af te haken. Natuurlijk kan je DCA-bedrag worden aangepast als je financiële situatie verandert.
 
-Vervolgens heb je twee opties om je DCA in te stellen: automatiseren of handmatig beheren. De meeste gereglementeerde handelsplatformen bieden nu de optie om je DCA te automatiseren. Met voldoende fiat op je rekening zal het platform automatisch je kooporders uitvoeren op basis van de parameters die je hebt ingesteld. Er is ook een groeiend aantal platformen dat zich toelegt op DCA-automatisering en extra diensten aanbiedt zoals automatische opnames naar je self-custody Wallet of het afronden van je dagelijkse uitgaven. Als je een gereguleerd platform gebruikt, raad ik je ten zeerste aan om je DCA te automatiseren voor meer gemoedsrust in je dagelijkse beheer.
+Vervolgens heb je twee opties om je DCA in te stellen: automatiseren of handmatig beheren. De meeste gereglementeerde handelsplatformen bieden nu de optie om je DCA te automatiseren. Met voldoende fiat op je rekening zal het platform automatisch je kooporders uitvoeren op basis van de parameters die je hebt ingesteld. Er is ook een groeiend aantal platformen dat zich toelegt op DCA-automatisering en extra diensten aanbiedt zoals automatische opnames naar een wallet die je zelf controleert (self-custody) of het afronden van je dagelijkse uitgaven. Als je een gereguleerd platform gebruikt, raad ik je ten zeerste aan om je DCA te automatiseren voor meer gemoedsrust in je dagelijkse beheer.
 
 ![BTC102-Bitcoin](assets/fr/078.webp)
 
@@ -1716,7 +1715,7 @@ https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a
 
 https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-Stackers willen misschien ook hun privacy verbeteren, zelfs als dat niet hun primaire doel is. In dat geval moeten ze overwegen om een P2P aankoopmethode te gebruiken, buiten de gereguleerde platformen om. In tegenstelling tot geautomatiseerde DCA-aankopen, moet je bij deze methoden je aankoopstrategie handmatig beheren, dus discipline is de sleutel om op schema te blijven.
+Stapelaars willen misschien ook hun privacy verbeteren, zelfs als dat niet hun primaire doel is. In dat geval moeten ze overwegen om een P2P aankoopmethode te gebruiken, dus buiten de gereguleerde platformen om. In tegenstelling tot geautomatiseerde DCA-aankopen, moet je bij deze methoden je aankoopstrategie handmatig beheren, dus discipline is de sleutel om op schema te blijven.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
@@ -1730,7 +1729,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 
 #### 3. Bitcoins opnemen en beveiligen
 
-Zodra uw aankoopstrategie is ingevoerd, kunt u uw Bitcoin gewoon uit de Exchange halen en regelmatig overbrengen naar uw Hardware Wallet. Dit zorgt voor volledige zelfbewaring en langdurige bescherming.
+Zodra je aankoopstrategie is ingevoerd, kun je je bitcoin gewoon uit het platform halen en regelmatig overbrengen naar je hardware wallet. Dit zorgt voor volledige zelfbewaring en langdurige bescherming.
 
 #### 4. Wachten op verschillende cycli
 
@@ -1738,40 +1737,40 @@ Stapelaars denken in jaren, niet in maanden. Net als hodlers moeten ze weerstand
 
 Belangrijkste gewoonten:
 
-- Controleer je portemonnee niet te vaak om stress te vermijden;
-- Verkoop nooit tijdens een neergang; correcties zijn normaal;
+- Controleer je wallet niet te vaak om stress te vermijden;
+- Verkoop nooit tijdens een neergang, correcties zijn normaal;
 - Blijf op de hoogte van Bitcoin technische ontwikkelingen;
-- Controleer regelmatig je seed back-ups en Hardware Wallet status: Nu je portemonnees zijn ingesteld, is het belangrijk om een regelmatige controle in te stellen. Controleer regelmatig of je Mnemonic frase nog steeds aanwezig is op de opslaglocatie en of de ondoorzichtige envelop niet geopend is. Tijdens deze controles kunt u ook de envelop openen om de toestand van de media te onderzoeken. Zorg ervoor dat het onbeschadigd is en dat de zin nog perfect leesbaar is. Als er tekenen van beschadiging zijn, kun je het beste een nieuwe kopie maken van je Hardware Wallet. Je kunt ook regelmatig je hardware wallets controleren.
+- Controleer regelmatig je mnemonische zin (seed phrase) back-ups en hardware wallet status: Nu je wallets zijn ingesteld, is het belangrijk om een regelmatige controle in te stellen. Controleer regelmatig of je mnemonische zin nog steeds aanwezig is op de opslaglocatie en of de ondoorzichtige envelop niet geopend is. Tijdens deze controles kun je ook de envelop openen om de toestand van de media te onderzoeken. Zorg ervoor dat het onbeschadigd is en dat de zin nog perfect leesbaar is. Als er tekenen van beschadiging zijn, kun je het beste een nieuwe kopie maken van je wardware wallet. Je kunt ook regelmatig je hardware wallets controleren.
 
 ![BTC102-Bitcoin](assets/fr/080.webp)
 
-Voor eenvoudige controle zonder de veiligheid in gevaar te brengen, stel je een Watch-only wallet in om saldi bij te houden met behulp van de openbare sleutel.
+Voor eenvoudige controle zonder de veiligheid in gevaar te brengen, stel je een watch-only wallet in om saldi bij te houden met behulp van de openbare sleutel.
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
-### Evalueer uw stapelaarprofiel
+### Evalueer je stapelaarprofiel
 
 Succesvolle stapelaars vertonen deze eigenschappen:
 
-- Organisatie**: Blijf binnen budget, blijf bij je plan. Stapelaars moeten ervoor zorgen dat hun accumulatieplan levensvatbaar is over meerdere jaren.
-- Discipline**: Volg je schema zonder te reageren op marktruis. Regelmaat gaat boven impulsieve aanpassingen. Het is echter nog steeds mogelijk om redelijke aanpassingen te maken.
-- Geduld**: De beloningen van stapelen zijn niet onmiddellijk. Deze strategie ontvouwt zich over lange periodes, soms pas na jaren, voordat ze tastbare resultaten oplevert. Degenen die slagen zijn degenen die geduldig kunnen blijven, zonder zich te laten leiden door volatiliteit op korte termijn.
-- Financiële kennis**: Een goed begrip van DCA, risicobeheer en Bitcoin marktfundamenten helpt je om met vertrouwen te investeren. Een geïnformeerde stapelaar is beter uitgerust om twijfels te weerstaan en impulsieve beslissingen te vermijden tijdens perioden van hoge volatiliteit.
-- Langetermijnvisie**: Een stapelaar gelooft sterk in het technologische potentieel van Bitcoin. Ze richten zich niet op prijsschommelingen op de korte termijn, maar op een gestage groei van hun bezit over de jaren heen.
+- **Organisatie**: Blijf binnen je budget, blijf bij je plan. Stapelaars moeten ervoor zorgen dat hun accumulatieplan levensvatbaar is over meerdere jaren.
+- **Discipline**: Volg je schema zonder te reageren op marktruis. Regelmaat gaat boven impulsieve aanpassingen. Het is echter nog steeds mogelijk om redelijke aanpassingen te maken.
+- **Geduld**: De beloningen van stapelen zijn niet onmiddellijk. Deze strategie ontvouwt zich over lange periodes, soms pas na jaren, voordat ze tastbare resultaten oplevert. Degenen die slagen zijn degenen die geduldig kunnen blijven, zonder zich te laten leiden door volatiliteit op korte termijn.
+- **Financiële kennis**: Een goed begrip van DCA, risicobeheer en Bitcoin marktfundamenten helpt je om met vertrouwen te investeren. Een geïnformeerde stapelaar is beter uitgerust om twijfels te weerstaan en impulsieve beslissingen te vermijden tijdens perioden van hoge volatiliteit.
+- **Langetermijnvisie**: Een stapelaar gelooft sterk in het technologische potentieel van Bitcoin. Ze richten zich niet op prijsschommelingen op de korte termijn, maar op een gestage groei van hun bezit over de jaren heen.
 
 ![BTC102-Bitcoin](assets/fr/079.webp)
 
-Kortom, stapelen is ideaal voor degenen die in de loop van de tijd een Bitcoin positie willen opbouwen, volatiliteitsrisico's willen verminderen en volledige soevereiniteit willen behouden; zonder aan grafieken vastgeplakt te zitten.
+Kortom, stapelen is ideaal voor degenen die in de loop van de tijd een bitcoin positie willen opbouwen, volatiliteitsrisico's willen verminderen en volledige soevereiniteit willen behouden, zonder aan grafieken vastgeplakt te zitten.
 
-Volgende: we zullen een radicaal ander bitcoinerprofiel onderzoeken; de actieve gebruiker.
+Zometeen we zullen een radicaal ander bitcoinerprofiel onderzoeken; de actieve gebruiker.
 
-## De actieve Bitcoin gebruiker: Bitcoin integreren in het dagelijks leven
+## De Actieve Bitcoin Gebruiker: Bitcoin Integreren In Het Dagelijks Leven
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 :::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
-Een actieve gebruiker van Bitcoin worden, betekent verder gaan dan langetermijninvesteringsstrategieën. In tegenstelling tot de hodler of de stacker, die voornamelijk sparen zonder uit te geven, behandelt de actieve gebruiker Bitcoin als een echt medium van Exchange**. Ze gebruiken het om te betalen voor goederen en diensten en nemen actief deel aan de tegeneconomie.
+Een actieve gebruiker van Bitcoin worden, betekent verder gaan dan langetermijninvesteringsstrategieën. In tegenstelling tot de hodler of de stapelaar, die voornamelijk sparen zonder uit te geven, behandelt de actieve gebruiker Bitcoin als een **echt ruilmiddel (medium van exchange)**. Ze gebruiken het om te betalen voor goederen en diensten en nemen actief deel aan de tegeneconomie.
 
 ![BTC102-Bitcoin](assets/fr/083.webp)
 
@@ -1779,33 +1778,33 @@ Een actieve gebruiker van Bitcoin worden, betekent verder gaan dan langetermijni
 
 Dagelijks gebruik van Bitcoin biedt zowel individuele als collectieve voordelen:
 
-- Ondersteun het Bitcoin ecosysteem door adoptie** :
+- **Ondersteun het Bitcoin ecosysteem door adoptie**:
 
-Elke transactie versterkt de legitimiteit van Bitcoin als valuta en moedigt meer handelaren en diensten aan om het te accepteren. Het gebruik van Bitcoin is een stem voor het nut ervan. Geld ontleent zijn waarde aan het vermogen om handel te faciliteren, niet aan ruilhandel. Als geen enkele handelaar een valuta accepteert, heeft het geen objectieve waarde. Hoe meer goederen en diensten je ermee kunt kopen, hoe nuttiger het wordt. Door in Bitcoin te betalen, stuur je waarde naar handelaren die het accepteren. Dit verhoogt hun winsten en kan na verloop van tijd de winsten van concurrenten die het weigeren, verminderen. Binnen een gemeenschap kan deze dynamiek een bredere acceptatie van Bitcoin stimuleren en bijdragen aan een opwaartse spiraal van adoptie.
+Elke transactie versterkt de legitimiteit van Bitcoin als valuta en moedigt meer winkeliers en diensten aan om het te accepteren. Het gebruik van Bitcoin is een stem voor zijn gebruikswaarde. Geld ontleent zijn waarde aan het vermogen om handel te faciliteren, niet aan directe ruilhandel (barter). Als geen enkele handelaar een valuta accepteert, heeft het geen objectieve waarde. Hoe meer goederen en diensten je ermee kunt kopen, hoe nuttiger het wordt. Door in Bitcoin te betalen, stuur je waarde naar winkeliers en handelaren die het accepteren. Dit verhoogt hun winsten en kan na verloop van tijd de winsten van concurrenten verminderen die bitcoin weigeren. Binnen een gemeenschap kan deze dynamiek een bredere acceptatie van Bitcoin stimuleren en bijdragen aan een opwaartse spiraal van adoptie.
 
-- Profiteer van de unieke functies van de Bitcoin** :
+- **Profiteer van de unieke functies van de Bitcoin** :
 
-Bitcoin biedt verschillende krachtige functies, zoals snelle transacties via de Lightning Network en vrijheid van censuur, financieel toezicht en seigniorage. De kernwaarde ligt in het wegnemen van overheidscontrole over het geld Supply en het mogelijk maken van niet-censureerbare transacties. Als deze voordelen overeenkomen met je persoonlijke behoeften en waarden, zul je merken dat het Active User profiel goed bij je past.
+Bitcoin biedt verschillende krachtige functies, zoals snelle transacties via het Lightning Network en vrijheid van censuur, financieel toezicht en seigniorage. De kernwaarde ligt in het wegnemen van overheidscontrole over de geldhoeveelheid en het mogelijk maken van niet-censureerbare transacties. Als deze voordelen overeenkomen met je persoonlijke behoeften en waarden, zul je merken dat het profiel van de actieve gebruiker goed bij je past.
 
-- Leren door te doen** :
+- **Leren door te doen**:
 
-Door Bitcoin actief te gebruiken, ontwikkel je praktijkervaring. U raakt vertrouwd met Wallet typen, privacy van betalingen en UTXO beheer. Dagelijks gebruik wordt een praktische leeromgeving.
+Door Bitcoin actief te gebruiken, ontwikkel je praktijkervaring. Je raakt vertrouwd met verschillende soorten wallets, privacy van betalingen en UTXO beheer. Dagelijks gebruik wordt een praktische leeromgeving.
 
-Uitdagingen zijn onder andere technische complexiteit, prijsvolatiliteit en de noodzaak van goede veiligheidshygiëne om verlies van fondsen te voorkomen.
+Uitdagingen zijn onder andere technische complexiteit, prijsvolatiliteit en de noodzaak van goede veiligheidshygiëne om verlies van tegoeden te voorkomen.
 
 ![BTC102-Bitcoin](assets/fr/086.webp)
 
 ### Investeringsplan voor een actieve gebruiker
 
-Het gebruik van Bitcoin voor dagelijkse betalingen vereist een doordachte en gestructureerde aanpak. In tegenstelling tot een Hodler of een Stacker, moet de actieve gebruiker zowel de veiligheid van zijn fondsen op lange termijn als het gemak van dagelijkse transacties beheren. Het vinden van de juiste balans tussen veilige Cold opslag en gemakkelijke toegang tot bestedingsfondsen is essentieel om deze strategie effectief te laten werken.
+Het gebruik van Bitcoin voor dagelijkse betalingen vereist een doordachte en gestructureerde aanpak. In tegenstelling tot een Hodler of een stapelaar, moet de actieve gebruiker zowel de veiligheid van zijn tegoeden op lange termijn als het gemak van dagelijkse transacties beheren. Het vinden van de juiste balans tussen veilige off-line opslag (cold storage) en gemakkelijke toegang tot tegoeden om te besteden is essentieel om deze strategie effectief te laten werken.
 
 ![BTC102-Bitcoin](assets/fr/084.webp)
 
-#### 1. Duidelijke scheiding van portemonnees
+#### 1. Duidelijke scheiding van wallets
 
-Actieve gebruikers zouden twee verschillende soorten portemonnees moeten gebruiken om een balans te vinden tussen veiligheid en gemak:
+Actieve gebruikers zouden twee verschillende soorten wallets moeten gebruiken om een balans te vinden tussen veiligheid en gemak:
 
-- Een Cold Wallet (Hardware Wallet) om besparingen op lange termijn te garanderen.
+- Een cold wallet (hardware wallet) om besparingen op lange termijn te garanderen.
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
@@ -1827,7 +1826,7 @@ https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b
 
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
-- Een of meer mobiele Hot portemonnees voor dagelijkse transacties. Meestal heeft een actieve gebruiker zowel een On-Chain Hot Wallet als een Lightning Wallet.
+- Een of meer mobiele hot wallets voor dagelijkse transacties. Meestal heeft een actieve gebruiker zowel een on-chain hot wallet als een lightning wallet.
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
@@ -1853,9 +1852,9 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
-Door je geld op deze manier te scheiden, verklein je het risico in het geval dat de Wallet die wordt gebruikt voor dagelijkse betalingen gecompromitteerd is.
+Door je geld op deze manier te scheiden, verklein je het risico dat in het geval de wallet die wordt gebruikt voor dagelijkse betalingen gecompromitteerd is.
 
-#### 2. Je eigen knooppunt opzetten
+#### 2. Je eigen node opzetten
 
 Actieve gebruikers willen vaak hun afhankelijkheid van vertrouwde derden verminderen, afhankelijk van hun persoonlijke omstandigheden. Een van de meest effectieve manieren om dit te bereiken is door hun eigen Bitcoin node te beheren. Hierdoor kunnen ze het netwerk onafhankelijk gebruiken en tegelijkertijd de privacy van hun transacties verbeteren.
 
@@ -1871,7 +1870,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
-Voor degenen die regelmatig de Lightning Network gebruiken, kan het beheren van hun eigen LND, LDK of Core-Lightning node een slimme zet zijn. Het geeft ze de volledige controle over het openen en sluiten van kanalen, verhoogt de zelf-soevereiniteit en kan zelfs helpen om de transactiekosten te verlagen; vooral in vergelijking met geautomatiseerde oplossingen zoals Phoenix, of erger nog, custodial Lightning wallets.
+Voor degenen die regelmatig het Lightning Network gebruiken, kan het beheren van hun eigen LND, LDK of Core-Lightning node een slimme zet zijn. Het geeft ze de volledige controle over het openen en sluiten van kanalen, verhoogt de zelf-soevereiniteit en kan zelfs helpen om de transactiekosten te verlagen, vooral in vergelijking met geautomatiseerde oplossingen zoals Phoenix, of erger nog, custodial Lightning wallets.
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
@@ -1883,7 +1882,7 @@ Actieve gebruikers moeten een balans vinden tussen hun besparingen op lange term
 
 Er zijn verschillende manieren om Bitcoin te verkrijgen, afhankelijk van het niveau van privacy dat je zoekt:
 
-- Traditionele aankoop via gereguleerde platforms** zoals Bitfinex of Bull Bitcoin (ideaal voor het aanvullen van je Cold Wallet);
+- **Traditionele aankoop via gereguleerde platforms** zoals Bitfinex of Bull Bitcoin (ideaal voor het aanvullen van je cold wallet);
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
@@ -1901,7 +1900,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
-- Non-KYC acquisitie** via peer-to-peer diensten zoals Peach, Robosats of Bitcoin pinautomaten; hiermee kun je je Wallet aanvullen zonder persoonlijke informatie prijs te geven.
+- **Non-KYC acquisitie** via peer-to-peer diensten zoals Peach, Robosats of Bitcoin pinautomaten. Hiermee kun je je wallet aanvullen zonder persoonlijke informatie prijs te geven.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
@@ -1913,7 +1912,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-- Verdienen in Bitcoin**, een actieve gebruiker zijn is niet alleen BTC uitgeven, het is ook verdienen. Als je een bedrijf hebt, overweeg dan om Bitcoin als betaling te accepteren. Als je een werknemer bent, kijk dan of je werkgever de optie biedt om je salaris geheel of gedeeltelijk in BTC te ontvangen.
+- **Verdienen in Bitcoin**, een actieve gebruiker zijn is niet alleen BTC uitgeven, het is ook Bitcoin verdienen. Als je een bedrijf hebt, overweeg dan om Bitcoin als betaling te accepteren. Als je een werknemer bent, kijk dan of je werkgever de optie biedt om je salaris geheel of gedeeltelijk in BTC te ontvangen.
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
@@ -1927,30 +1926,30 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 De keuze om bitcoins uit te geven is vaak onderhevig aan kritiek. Sommige Bitcoin gebruikers geven liever fiatvaluta uit, die ze van mindere kwaliteit vinden en daarom willen elimineren, dan bitcoins uit te geven. Maar deze denkwijze heeft twee belangrijke gebreken: ten eerste gaat het voorbij aan de voordelen van Bitcoin als betaalmiddel (zie vorige paragraaf), en ten tweede roept het de vraag op: waarom fiatvaluta, die als minder waardevol wordt gezien, vasthouden om uit te geven?
 
-Een logischer aanpak is de "Besteed en Vervang" methode. Dit betekent Bitcoin uitgeven om alle eerder genoemde redenen, en dan, in plaats van je Bitcoin spaargeld te laten slinken, vervang je de uitgegeven Sats door nieuwe te kopen met fiatvaluta.
+Een logischer aanpak is de "Besteed en Vervang" methode. Dit betekent Bitcoin uitgeven om alle eerder genoemde redenen, en dan, in plaats van je Bitcoin spaargeld te laten slinken, vervang je de uitgegeven sats door nieuwe te kopen met fiatvaluta.
 
 Om Bitcoin uitgaven makkelijker te maken, zijn er veel tools beschikbaar, zoals [BTC Map](https://btcmap.org/), die je winkeliers over de hele wereld laat zien die Bitcoin accepteren. Bij sommige van deze handelaren kun je zelfs online bestellen en producten laten bezorgen.
 
-Omdat we nog steeds in een overgangsfase zitten waarin niet alle dagelijkse handelaren BTC accepteren, zijn er enkele eenvoudige maar effectieve workarounds. Cadeaubonnen kopen met Bitcoin is bijvoorbeeld een praktische oplossing, en veel aanbieders zoals Bitrefill, Coinsbee of The Bitcoin Company bieden deze dienst aan.
+Omdat we nog steeds in een overgangsfase zitten waarin niet alle dagelijkse winkeliers BTC accepteren, zijn er enkele eenvoudige maar effectieve workarounds. Cadeaubonnen kopen met Bitcoin is bijvoorbeeld een praktische oplossing, en veel aanbieders zoals Bitrefill, Coinsbee of The Bitcoin Company bieden deze dienst aan.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Technologisch bewustzijn en flexibiliteit
 
-Het Bitcoin protocol, samen met Layer-2 systemen zoals de Lightning Network en de gehele Layer toepassing gerelateerd aan deze ecosystemen, ontwikkelt zich snel. Als actieve gebruiker moet u:
+Het Bitcoin protocol, samen met tweedelaags systemen zoals het Lightning Network en de gehele applicatielaag gerelateerd aan deze ecosystemen, ontwikkelt zich snel. Als actieve gebruiker moet je:
 
-- Blijf op de hoogte van nieuwe oplossingen die het dagelijks gebruik eenvoudiger maken;
-- Test regelmatig nieuwe tools en services om de gebruikerservaring te verbeteren;
-- Pas je strategie aan op basis van technologische vooruitgang en veranderingen in de markt.
+- Op de hoogte blijven van nieuwe oplossingen die het dagelijks gebruik eenvoudiger maken;
+- Regelmatig nieuwe tools en services testen om de gebruikerservaring te verbeteren;
+- Je strategie aanpassen op basis van technologische vooruitgang en veranderingen in de markt.
 
 ### Evalueer je actieve gebruikersprofiel
 
 Ben jij geknipt om een actieve Bitcoin gebruiker te zijn? Hier zijn de belangrijkste kenmerken die dit profiel definiëren:
 
-- Pragmatisme en Commitment:** Je bent gemotiveerd om Bitcoin in je dagelijks leven te integreren en een actieve rol te spelen in de groei van het ecosysteem. Je herkent zowel de voordelen als de uitdagingen die ermee gepaard gaan.
-- Technische vaardigheid:** Je weet al goed hoe Bitcoin wallets en de Lightning Network werken, of je bent leergierig. Je kunt goed overweg met geavanceerde concepten zoals UTXO beheer.
-- Flexibiliteit en aanpassingsvermogen:** Je staat open voor het uitproberen van nieuwe tools, het switchen tussen oplossingen en het aanpassen van je werkwijzen naarmate het Bitcoin ecosysteem zich ontwikkelt en je behoeften veranderen.
-- Financiële discipline:** Je beheert je Bitcoin uitgaven en spaargeld zorgvuldig. U begrijpt hoe belangrijk het is om een duidelijke scheiding aan te brengen tussen uw dagelijkse uitgaven en uw spaargeld voor de lange termijn.
+- **Pragmatisme en Commitment:** Je bent gemotiveerd om Bitcoin in je dagelijks leven te integreren en een actieve rol te spelen in de groei van het ecosysteem. Je herkent zowel de voordelen als de uitdagingen die ermee gepaard gaan.
+- **Technische vaardigheid:** Je weet al goed hoe Bitcoin wallets en het Lightning Network werken, of je bent leergierig. Je kunt goed overweg met geavanceerde concepten zoals UTXO beheer.
+- **Flexibiliteit en aanpassingsvermogen:** Je staat open voor het uitproberen van nieuwe tools, het switchen tussen oplossingen en het aanpassen van je werkwijzen naarmate het Bitcoin ecosysteem zich ontwikkelt en je behoeften veranderen.
+- **Financiële discipline:** Je beheert je Bitcoin uitgaven en spaargeld zorgvuldig. Je begrijpt hoe belangrijk het is om een duidelijke scheiding aan te brengen tussen je dagelijkse uitgaven en je spaargeld voor de lange termijn.
 
 ![BTC102-Bitcoin](assets/fr/082.webp)
 
@@ -1958,7 +1957,7 @@ Concluderend, de actieve gebruiker speelt een directe rol in het stimuleren van 
 
 In het volgende hoofdstuk verkennen we het laatste en misschien wel meest intrigerende Bitcoin gebruikersprofiel: de paranoïde gebruiker.
 
-## De paranoïde Bitcoiner: Privacy boven alles
+## De Paranoïde Bitcoiner: Privacy Boven Alles
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
@@ -1966,7 +1965,7 @@ In het volgende hoofdstuk verkennen we het laatste en misschien wel meest intrig
 
 Voor de paranoïde Bitcoiner is privacy niet optioneel, maar essentieel. In een wereld waar bijna elke financiële beweging wordt gevolgd, zien zij het beschermen van hun identiteit en transactiegeschiedenis als een niet-onderhandelbaar onderdeel van het gebruik van Bitcoin. Ze zijn zich meestal zeer bewust van de risico's die het vrijgeven van persoonlijke gegevens met zich meebrengt (vooral bij het gebruik van KYC-conforme exchanges die ID-verificatie vereisen).
 
-Voor hen is elke actie belangrijk. Elke transactie, elke Wallet instelling en elke interactie met het netwerk wordt zorgvuldig overwogen. Eén misstap kan gevoelige informatie onthullen die hun identiteit linkt aan hun Bitcoin bezit. Hun uiteindelijke doel? Bitcoin gebruiken op een manier die hun identiteit, locatie en financiële situatie volledig privé houdt.
+Voor hen is elke actie belangrijk. Elke transactie, elke wallet setup en elke interactie met het netwerk wordt zorgvuldig overwogen. Eén misstap kan gevoelige informatie onthullen die hun identiteit linkt aan hun Bitcoin tegoeden. Hun uiteindelijke doel? Bitcoin gebruiken op een manier die hun identiteit, locatie en financiële situatie volledig privé houdt.
 
 ![BTC102-Bitcoin](assets/fr/087.webp)
 
@@ -1974,27 +1973,26 @@ Voor hen is elke actie belangrijk. Elke transactie, elke Wallet instelling en el
 
 Kiezen voor een privacy-gerichte mentaliteit biedt een aantal belangrijke voordelen:
 
-- Financiële autonomie:** Door buiten het zicht van banken, overheden en bedrijven te blijven, bescherm je jezelf tegen toezicht en ongewenste inmenging.
-- Bescherming van activa:** Als de economische of politieke omstandigheden onstabiel worden, is het veel moeilijker voor derden om uw Bitcoin op te sporen of in beslag te nemen als het niet aan uw identiteit gekoppeld is.
-- Verbeterde persoonlijke veiligheid:** Mensen waarvan bekend is dat ze grote hoeveelheden Bitcoin in hun bezit hebben, kunnen een doelwit worden. Als u uw identiteit verborgen houdt, loopt u minder risico om een doelwit te worden.
-- Vrijwaring van discriminatie**: Sommige diensten of overheden kunnen transacties of accounts blokkeren op basis van je activiteiten in het verleden of wie je bent. Privacy houdt die macht in toom.
-- Trouw blijven aan de wortels van Bitcoin:** Bitcoin werd ontworpen als een censuurbestendige en toestemmingsvrije vorm van geld. Het beschermen van uw privacy is onderdeel van die oorspronkelijke missie.
+- **Financiële autonomie:** Door buiten het zicht van banken, overheden en bedrijven te blijven, bescherm je jezelf tegen toezicht en ongewenste inmenging.
+- **Bescherming van activa:** Als de economische of politieke omstandigheden onstabiel worden, is het veel moeilijker voor derden om je Bitcoin op te sporen of in beslag te nemen als het niet aan je identiteit gekoppeld is.
+- **Verbeterde persoonlijke veiligheid:** Mensen waarvan bekend is dat ze grote hoeveelheden Bitcoin in hun bezit hebben, kunnen een doelwit worden. Als je je identiteit verborgen houdt, loop je minder risico om een doelwit te worden.
+- **Vrijwaring van discriminatie**: Sommige diensten of overheden kunnen transacties of accounts blokkeren op basis van je activiteiten in het verleden of wie je bent. Privacy houdt die macht in toom.
+- **Trouw blijven aan de wortels van Bitcoin:** Bitcoin werd ontworpen als een censuurbestendige en toestemmingsvrije vorm van geld. Het beschermen van je privacy is onderdeel van die oorspronkelijke missie.
 
-Het is een slimme, berekende reactie op de zeer reële bedreigingen in het huidige digitale en financiële landschap. Ja, deze aanpak vergt meer inspanning. Het kost tijd, technische kennis en discipline. Maar voor degenen die dit pad kiezen, gaat het niet alleen om het gebruik van Bitcoin; het gaat om het terugwinnen van de controle over hun geld, hun identiteit en hun vrijheid.
-
-Ze zijn niet zomaar investeerders of gebruikers; ze kiezen ervoor om uit een systeem te stappen dat eist alles over hen te weten.
+Het is een slimme, berekende reactie op de zeer reële bedreigingen in het huidige digitale en financiële landschap. Ja, deze aanpak vergt meer inspanning. Het kost tijd, technische kennis en discipline. Maar voor degenen die dit pad kiezen, gaat het niet alleen om het gebruik van Bitcoin, het gaat om het terugwinnen van de controle over hun geld, hun identiteit en hun vrijheid.
+Ze zijn niet zomaar investeerders of gebruikers, ze kiezen ervoor om uit een systeem te stappen dat eist alles over hen te weten.
 
 ### Paranoïde investeringsplan
 
-De paranoïde Bitcoiner volgt een strikte strategie die is opgebouwd rond twee kerndoelen: het behouden van anonimiteit en het maximaliseren van veiligheid. Dit type gebruiker probeert blootstelling aan gereguleerde platforms te vermijden (vooral degene die KYC vereisen), elimineert traceerbaarheid van transacties en verdedigt zijn fondsen tegen toezicht, inbeslagname en andere externe bedreigingen.
+De paranoïde Bitcoiner volgt een strikte strategie die is opgebouwd rond twee kerndoelen: het behouden van anonimiteit en het maximaliseren van veiligheid. Dit type gebruiker probeert blootstelling aan gereguleerde platforms te vermijden (vooral degene die KYC vereisen), elimineert traceerbaarheid van transacties en verdedigt zijn tegoeden tegen toezicht, inbeslagname en andere externe bedreigingen.
 
 ![BTC102-Bitcoin](assets/fr/092.webp)
 
-#### 1. Portemonnees en nodes instellen
+#### 1. Wallets en nodes instellen
 
-De paranoïde gebruiker mengt nooit fondsen op basis van herkomst of gebruik. In plaats daarvan compartimenteren ze hun Bitcoin per doel, met behulp van meerdere, gespecialiseerde portemonnees:
+De paranoïde gebruiker mengt nooit tegoeden op basis van herkomst of gebruik. In plaats daarvan compartimenteren ze hun Bitcoin per doel, met behulp van meerdere, gespecialiseerde wallets:
 
-- Een Cold Wallet (air-gapped en/of DIY)** Lange-termijn holdings worden opgeslagen in zeer veilige, air-gapped of DIY wallets. Dit zijn meestal open-source apparaten of apparaten met verifieerbare code, zoals Jade, Coldcard, SeedSigner, Portal of Passport... Waar mogelijk kopen ze deze apparaten anoniem; ofwel door contant te betalen of Bitcoin te gebruiken in een fysieke winkel, ofwel door online te bestellen met discrete verzendopties en BTC betalingen. In Frankrijk, bijvoorbeeld, is [Bitcoin Bazar](https://bitcoinbazar.fr/) zo'n winkel. U kunt zoeken naar soortgelijke aanbieders in uw regio.
+- **Een cold wallet (air-gapped en/of DIY)** Lange-termijn holdings worden opgeslagen in zeer veilige, air-gapped of DIY wallets. Dit zijn meestal open-source apparaten of apparaten met verifieerbare code, zoals Jade, Coldcard, SeedSigner, Portal of Passport... Waar mogelijk kopen ze deze apparaten anoniem; ofwel door contant te betalen of Bitcoin te gebruiken in een fysieke winkel, ofwel door online te bestellen met discrete verzendopties en BTC betalingen. In Frankrijk, bijvoorbeeld, is [Bitcoin Bazar](https://bitcoinbazar.fr/) zo'n winkel. Je kunt zoeken naar soortgelijke aanbieders in jouw regio.
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
@@ -2004,7 +2002,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-- Een Hot Wallet voor alledaagse transacties**, Voor regelmatige uitgaven kiezen paranoïde gebruikers voor op privacy gerichte wallets zoals Ashigaru, Wasabi Wallet of Sparrow wallet. Deze wallets ondersteunen geavanceerde functies zoals: mini-CoinJoin bestedingstransacties, payjoins, mogelijk CoinJoin tools, muntcontrole, UTXO tagging, of de mogelijkheid om verbinding te maken via je eigen Bitcoin node.
+- **Een hot wallet voor alledaagse transacties**, Voor regelmatige uitgaven kiezen paranoïde gebruikers voor op privacy gerichte wallets zoals Ashigaru, Wasabi Wallet of Sparrow wallet. Deze wallets ondersteunen geavanceerde functies zoals: mini-CoinJoin bestedingstransacties, payjoins, mogelijk CoinJoin tools, coin control, UTXO tagging, of de mogelijkheid om verbinding te maken via je eigen Bitcoin node.
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
@@ -2026,13 +2024,13 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
-- Om transacties te doen via de **Lightning Network** en toch hetzelfde niveau van controle en discretie te behouden, beheren ze ook hun eigen Lightning-knooppunt. Hierdoor kunnen ze kanalen direct beheren en uitgeven op een manier die toezicht of afhankelijkheid van custodial services minimaliseert.
+- Om transacties te doen via het **Lightning Network** en toch hetzelfde niveau van controle en discretie te behouden, beheren ze ook hun eigen Lightning-node. Hierdoor kunnen ze kanalen direct beheren en uitgeven op een manier die toezicht of afhankelijkheid van custodial services minimaliseert.
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![BTC102-Bitcoin](assets/fr/090.webp)
 
-Daar houdt de beveiliging niet op. Voor back-ups van seed-zinnen gebruikt de paranoïde gebruiker metalen back-ups in combinatie met verzegelde enveloppen. Ze controleren regelmatig of de back-ups ongecompromitteerd blijven en testen Wallet herstelprocedures om klaar te zijn voor elke eventualiteit.
+Daar houdt de beveiliging niet op. Voor back-ups van mnemonische zinnen (seed phrases) gebruikt de paranoïde gebruiker metalen back-ups in combinatie met verzegelde enveloppen. Ze controleren regelmatig of de back-ups ongecompromitteerd blijven en testen herstelprocedures van hun wallets om klaar te zijn voor elke eventualiteit.
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
@@ -2042,15 +2040,15 @@ Als het gaat om het veiligstellen van spaartegoeden, kunnen ze geavanceerdere se
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-Deze configuraties verminderen de risico's. Het toevoegen van een BIP39 passphrase aan de seed zin voegt nog een Layer van bescherming toe en zorgt ervoor dat de toegang tot hun fondsen niet gecompromitteerd kan worden door een enkele ontdekking.
+Deze configuraties verminderen de risico's. Het toevoegen van een BIP39 passphrase aan de seed phrase voegt nog een laag van bescherming toe en zorgt ervoor dat de toegang tot hun tegoeden niet gecompromitteerd kan worden door een enkele ontdekking.
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Een paranoïde Bitcoiner heeft natuurlijk een goed doordacht erfenisplan voor zijn Bitcoins. Dit belangrijke onderwerp wordt in detail behandeld in het volgende deel van de cursus.
 
-Meer in het algemeen past dit type gebruiker een geavanceerde, privacy-bewuste benadering toe op het computergebruik als geheel. Ze vertrouwen op open-source, veilige tools die de privacy van de gebruiker respecteren in elke Layer van hun digitale leven:
+Meer in het algemeen past dit type gebruiker een geavanceerde, privacy-bewuste benadering toe op het computergebruik als geheel. Ze vertrouwen op open-source, veilige tools die de privacy van de gebruiker respecteren in elke laag van hun digitale leven:
 
-- Besturingssystemen**, zowel op hun telefoon als op hun computer;
+- **Besturingssystemen**, zowel op hun telefoon als op hun computer;
 
 https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
@@ -2058,7 +2056,7 @@ https://planb.network/tutorials/computer-security/operating-system/linux-mint-da
 
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
-- Authenticatietools** ;
+- **Authenticatietools** ;
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -2068,7 +2066,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-- Communicatiemiddelen**;
+- **Communicatiemiddelen**;
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
@@ -2078,7 +2076,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-- Tools voor gegevensbeheer**.
+- **Tools voor gegevensbeheer**.
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
@@ -2092,9 +2090,9 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Anoniem bitcoins kopen
 
-Een kernprincipe voor de paranoïde investeerder is om Bitcoin te verwerven zonder het te koppelen aan hun echte identiteit. Om KYC-platforms te vermijden en vingerafdrukken van On-Chain te voorkomen, gebruiken ze verschillende strategieën:
+Een kernprincipe voor de paranoïde investeerder is om Bitcoin te verwerven zonder het te koppelen aan hun echte identiteit. Om KYC-platforms te vermijden en vingerafdrukken van on-chain te voorkomen, gebruiken ze verschillende strategieën:
 
-- P2P kopen van platforms** zoals Bisq, Robosat, LNP2PBot, Peach, HODL HODL, enz;
+- **P2P kopen van platforms** zoals Bisq, Robosat, LNP2PBot, Peach, HODL HODL, enz;
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
@@ -2106,13 +2104,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-- In-person cash trades**, bijvoorbeeld op lokale Bitcoin meetups;
+- **In-person cash trades**, bijvoorbeeld op lokale Bitcoin meetups;
 
 https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
-- Bitcoin geldautomaten**;
-- Sats** verdienen door goederen of diensten te leveren in Exchange voor Bitcoin;
-- Mining bitcoins**.
+- **Bitcoin geldautomaten**;
+- **Sats** verdienen door goederen of diensten te leveren in ruil voor Bitcoin;
+- **Bitcoin mining**.
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
@@ -2120,23 +2118,23 @@ https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
-Gecentraliseerde uitwisselingen worden volledig vermeden vanwege de risico's die ze met zich meebrengen; zowel voor de privacy als voor mogelijke censuur of inbeslagname.
+Gecentraliseerde uitwisselingen worden volledig vermeden vanwege de risico's die ze met zich meebrengen, zowel voor de privacy als voor mogelijke censuur of inbeslagname.
 
 ![BTC102-Bitcoin](assets/fr/091.webp)
 
-#### 3. Onchain tracing voorkomen
+#### 3. On-chain tracing voorkomen
 
-Zelfs na het anoniem verwerven van munten is het nog steeds mogelijk om persoonlijke gegevens On-Chain te lekken als je niet voorzichtig bent. De paranoïde gebruiker neemt extra stappen om de privacy op transactieniveau te beschermen:
+Zelfs na het anoniem verwerven van munten is het nog steeds mogelijk om persoonlijke gegevens on-chain te lekken als je niet voorzichtig bent. De paranoïde gebruiker neemt extra stappen om de privacy op transactieniveau te beschermen:
 
-- Address hergebruik** vermijden, handmatig of met geavanceerde tools zoals Silent Payments of BIP47 ;
-- Je UTXO's labelen** ;
-- Hoekcontrole oefenen bij het uitgeven** ;
-- Consolidatie van UTXO's** vermijden ;
-- Transactiestructuren gebruiken die de privacy beschermen**: coinjoins, payjoins, ricochets en mini-payment coinjoins...
+- **Hergebruik van adressen vermijden**, handmatig of met geavanceerde tools zoals Silent Payments of BIP47 ;
+- **Je UTXO's labelen** ;
+- **Corner control uitoefenen tijdens spenderen** ;
+- **Consolidatie van UTXO's** vermijden ;
+- **Transactiestructuren gebruiken die de privacy beschermen**: coinjoins, payjoins, ricochets en mini-payment coinjoins...
 
-Ze zijn ook bekend met de basisprincipes van Blockchain surveillance en weten hoe bedrijven activiteiten traceren. Door de heuristieken en patronen te begrijpen die door ketenanalysebedrijven worden gebruikt, kunnen ze actief stappen ondernemen om te voorkomen dat ze in bekende valstrikken trappen.
+Ze zijn ook bekend met de basisprincipes van blockchain surveillance en weten hoe bedrijven activiteiten traceren. Door de heuristieken en patronen te begrijpen die door ketenanalysebedrijven worden gebruikt, kunnen ze actief stappen ondernemen om te voorkomen dat ze in bekende valstrikken trappen.
 
-Voor degenen die dieper in willen gaan op On-Chain privacy en weerstand tegen surveillance, bieden we een geavanceerde tweedejaars training over Bitcoin privacy praktijken:
+Voor degenen die dieper in willen gaan op on-chain privacy en weerstand uitoefenen tegen surveillance, bieden we een geavanceerde tweedejaars training over Bitcoin privacy praktijken:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -2147,8 +2145,8 @@ Het Bitcoin protocol, Lightning Network en aanverwante tools evolueren voortdure
 - Op de hoogte blijven van nieuwe privacytechnieken en beveiligingstools
 - Regelmatig nieuwe tools en diensten testen om hun operationele setup scherp te houden
 - Routinematig controleren of hardware wallets en nodes up-to-date zijn en correct functioneren
-- Periodiek controleren of er niet geknoeid is met back-ups (bijvoorbeeld verzegelde Mnemonic-enveloppen)
-- Ontwikkelingen in de regelgeving volgen om hun strategie in realtime aan te passen
+- Periodiek controleren of er niet geknoeid is met back-ups (bijvoorbeeld verzegelde mnemonic-enveloppen)
+- Ontwikkelingen in de regelgeving volgen om hun strategie in real-time aan te passen
 
 ### Je paranoïde profiel beoordelen
 
@@ -2158,25 +2156,25 @@ Is deze aanpak geschikt voor jou?
 
 Hier zijn de belangrijkste kenmerken van een paranoïde bitcoiner:
 
-- Waakzaam en veiligheidsbewust**: Je hecht enorm veel waarde aan je privacy en bent bereid om extra voorzorgsmaatregelen te nemen om het uitlekken van persoonlijke informatie te voorkomen. U ziet financieel toezicht als een serieuze bedreiging en zoekt actief naar manieren om uzelf hiertegen te beschermen.
-- Onafhankelijk**: Je weigert te vertrouwen op een dienst van een derde partij om je bitcoins op te slaan, te beheren of over te dragen. U bent bereid om uw eigen Bitcoin en Lightning nodes te hosten, complexe wallets te gebruiken en de volledige verantwoordelijkheid te nemen voor het beheren van uw back-ups en privésleutels.
-- Wantrouwend**: Je vermijdt actief KYC-platforms en geeft de voorkeur aan anonieme P2P-acquisitiemethoden, zelfs als dat betekent dat je er een premie voor moet betalen. U begrijpt dat alle persoonlijke gegevens die u deelt ooit tegen u gebruikt kunnen worden.
-- Deskundig en gedisciplineerd**:Je hebt een passie voor cyberbeveiliging en privacyverbeterende technologieën. Je neemt de tijd om beschikbare oplossingen te bestuderen, tools te testen, jezelf te informeren over best practices en strikte methodologieën toe te passen om risico's te minimaliseren.
-- Pragmatisch en realistisch**:Je begrijpt dat volledige anonimiteit bijna onmogelijk is, maar je streeft ernaar je blootstelling zo veel mogelijk te beperken terwijl je privacy, beveiliging en bruikbaarheid in balans houdt. Je aanpak ontwikkelt zich voortdurend in reactie op nieuwe bedreigingen en technologische ontwikkelingen.
+- **Waakzaam en veiligheidsbewust**: Je hecht enorm veel waarde aan je privacy en bent bereid om extra voorzorgsmaatregelen te nemen om het uitlekken van persoonlijke informatie te voorkomen. Je ziet financieel toezicht als een serieuze bedreiging en zoekt actief naar manieren om jezelf hiertegen te beschermen.
+- **Onafhankelijk**: Je weigert te vertrouwen op diensten van een derde partij om je bitcoins op te slaan, te beheren of over te dragen. Je bent bereid om je eigen Bitcoin en Lightning nodes te hosten, complexe wallets te gebruiken en de volledige verantwoordelijkheid te nemen voor het beheren van je back-ups en privésleutels.
+- **Wantrouwend**: Je vermijdt actief KYC-platforms en geeft de voorkeur aan anonieme P2P-acquisitiemethoden, zelfs als dat betekent dat je er een premie voor moet betalen. Je begrijpt dat alle persoonlijke gegevens die je deelt ooit tegen je gebruikt kunnen worden.
+- **Deskundig en gedisciplineerd**: Je hebt een passie voor cyberbeveiliging en privacyverbeterende technologieën. Je neemt de tijd om beschikbare oplossingen te bestuderen, tools te testen, jezelf te informeren over best practices en strikte methodologieën toe te passen om risico's te minimaliseren.
+- **Pragmatisch en realistisch**: Je begrijpt dat volledige anonimiteit bijna onmogelijk is, maar je streeft ernaar je blootstelling zo veel mogelijk te beperken terwijl je privacy, beveiliging en bruikbaarheid in balans houdt. Je aanpak ontwikkelt zich voortdurend in reactie op nieuwe bedreigingen en technologische ontwikkelingen.
 
-Als deze kenmerken je bekend in de oren klinken, dan past deze strategie waarschijnlijk goed bij jou. Het is veeleisend en vereist een constante inspanning, maar het biedt een hoge mate van financiële soevereiniteit en bescherming tegen toezicht, inbeslagname of traceerbaarheid van je fondsen.
+Als deze kenmerken je bekend in de oren klinken, dan past deze strategie waarschijnlijk goed bij jou. Het is veeleisend en vereist een constante inspanning, maar het biedt een hoge mate van financiële soevereiniteit en bescherming tegen toezicht, inbeslagname of traceerbaarheid van je tegoeden.
 
 ![BTC102-Bitcoin](assets/fr/088.webp)
 
 Deze aanpak is vooral relevant als je:
 
-- Houd aanzienlijke hoeveelheden Bitcoin vast,
-- Leven onder een autoritair regime,
-- je anonimiteit moet beschermen om persoonlijke, professionele of ideologische redenen.
+- Aanzienlijke hoeveelheden Bitcoin hebt,
+- Leeft onder een autoritair regime,
+- Je anonimiteit moet beschermen om persoonlijke, professionele of ideologische redenen.
 
 In het volgende deel van de cursus bespreken we een cruciaal onderwerp dat vaak over het hoofd wordt gezien: hoe je je bitcoins kunt doorgeven in geval van nood.
 
-# Uw erfgenamen en vermogen beschermen
+# Je erfgenamen en vermogen beschermen
 
 <partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
@@ -2190,16 +2188,16 @@ Het verzekeren van de overdracht van je bitcoins is een verantwoordelijkheid die
 
 ### Waarom is het nodig om een Bitcoin opvolgingsplan op te stellen?
 
-Stel je een plotselinge gebeurtenis voor (een ongeluk of een onvoorziene omstandigheid) en je bent er niet meer. Je familie, die al rouwt, wordt nu geconfronteerd met een andere uitdaging: toegang krijgen tot je bitcoins. Ze hebben je misschien horen praten over privésleutels, Mnemonic zinnen en de onomkeerbaarheid van transacties, maar deze concepten zijn misschien onduidelijk voor hen. Ze moeten het zelf maar uitzoeken.
+Stel je een plotselinge gebeurtenis voor (een ongeluk of een onvoorziene omstandigheid) en je bent er niet meer. Je familie, die al rouwt, wordt nu geconfronteerd met een andere uitdaging: toegang krijgen tot je bitcoins. Ze hebben je misschien horen praten over privésleutels, mnemonische zinnen en de onomkeerbaarheid van transacties, maar deze concepten zijn misschien onduidelijk voor hen. Ze moeten het zelf maar uitzoeken.
 
 Je hebt dan twee opties:
 
 - De tijd nemen om een duidelijk, gestructureerd plan op te stellen waarmee je dierbaren gemakkelijk en veilig toegang kunnen krijgen tot je bitcoins;
-- Niets doen, hopen dat ze er zelf wel uitkomen. Maar als ze een fout maken, de toegang tot een Wallet verliezen of per ongeluk het geld naar de verkeerde Address sturen, kan je vermogen voor altijd verloren zijn.
+- Niets doen, hopen dat ze er zelf wel uitkomen. Maar als ze een fout maken, de toegang tot een wallet verliezen of per ongeluk het geld naar de verkeerde adres sturen, kan je vermogen voor altijd verloren zijn.
 
-Slechts 15 minuten tot een uur besteden aan een successieplan kan al een groot verschil maken. Het is niet alleen een kwestie van voorzichtigheid, maar ook een manier om verantwoordelijkheid te tonen aan degenen die op je kunnen rekenen.
+Slechts 15 minuten tot een uur besteden aan een nalatenschapsplan kan al een groot verschil maken. Het is niet alleen een kwestie van voorzichtigheid, maar ook een manier om verantwoordelijkheid te tonen aan degenen die op je kunnen rekenen.
 
-### De doelen van een Bitcoin Successieplan
+### De Doelen Van Een Bitcoin Nalatenschapsplan
 
 Pamela Morgan schetst in haar boek *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* vier belangrijke doelen voor een solide nalatenschapsplan:
 
@@ -2210,7 +2208,7 @@ Pamela Morgan schetst in haar boek *[Cryptoasset Inheritance Planning](https://w
 
 Een goed doordacht plan gaat niet alleen over het overdragen van vermogen, maar ook over het beschermen van je dierbaren tegen veelgemaakte fouten en potentiële bedreigingen.
 
-Dit hoofdstuk is geïnspireerd op het werk van [Pamela Morgan](https://x.com/pamelawjd). [Haar boek](https://www.amazon.com/gp/product/1947910116/) en hoewel haar boek een gedetailleerde en door experts gevalideerde methode biedt voor het maken van een Bitcoin erfenisplan, vormt **deze inhoud geen juridisch advies**.  Het is een beproefde aanpak, maar iedereen moet zijn eigen onderzoek doen en de aanbevelingen aanpassen aan zijn persoonlijke situatie en jurisdictie.
+Dit hoofdstuk is geïnspireerd op het werk van [Pamela Morgan](https://x.com/pamelawjd). [Haar boek](https://www.amazon.com/gp/product/1947910116/) en hoewel haar boek een gedetailleerde en door experts gevalideerde methode biedt voor het maken van een Bitcoin nalatenschapsplan, vormt **deze inhoud geen juridisch advies**.  Het is een beproefde aanpak, maar iedereen moet zijn eigen onderzoek doen en de aanbevelingen aanpassen aan zijn persoonlijke situatie en jurisdictie.
 
 [Pamela Morgan](https://x.com/pamelawjd) heeft genereus toestemming gegeven voor het gebruik van [haar werk](https://www.amazon.com/gp/product/1947910116/) voor deze cursus, en we zullen haar aanpak volgen om een concreet Bitcoin overervingsplan te maken. In dit hoofdstuk concentreren we ons op het eerste deel van haar boek.
 
@@ -2220,8 +2218,8 @@ Om beter te begrijpen hoe je een Bitcoin successieplan opstelt, kijken we naar h
 
 Zijn profiel:
 - Langetermijnbelegger die niet vaak handelt;
-- Bezit een Hardware Wallet en een mobiele Wallet voor occasioneel gebruik;
-- Gebruikt een enkel KYC Exchange platform om zijn bitcoins te kopen;
+- Bezit een hardware wallet en een mobiele wallet voor occasioneel gebruik;
+- Gebruikt één KYC-platform om zijn bitcoins te kopen;
 - Door zijn neef geïntroduceerd in Bitcoin;
 - Heeft geen altcoins en gebruikt geen Lightning Network.
 
@@ -2229,81 +2227,81 @@ Ons doel is om een eenvoudig, effectief plan te maken dat is afgestemd op het pr
 
 ![BTC102-Bitcoin](assets/fr/095.webp)
 
-### Voordat u begint
+### Voordat je begint
 
-Neem 30 minuten van je tijd. Niet voor jezelf, maar voor degenen die van je afhankelijk zijn. Vermogensplanning is een belangrijke taak die vaak wordt uitgesteld, verwaarloosd of zelfs genegeerd. Te veel mensen, zelfs de meest voorzichtige, stellen het uit... tot het te laat is. Duizenden bitcoins zijn al verloren gegaan door een gebrek aan vooruitziendheid. Maak deze fout niet! Dit is de **EINDSTE STAP** in uw reis naar financiële soevereiniteit: het veiligstellen van uw Bitcoin rijkdom voor uw dierbaren.
+Neem 30 minuten van je tijd. Niet voor jezelf, maar voor degenen die van je afhankelijk zijn. Vermogensplanning is een belangrijke taak die vaak wordt uitgesteld, verwaarloosd of zelfs genegeerd. Te veel mensen, zelfs de meest voorzichtige, stellen het uit... tot het te laat is. Duizenden bitcoins zijn al verloren gegaan door een gebrek aan vooruitziendheid. Maak deze fout niet! Dit is de **EINDSTE STAP** in je reis naar financiële soevereiniteit: het veiligstellen van je Bitcoin rijkdom voor je dierbaren.
 
 #### Wat heb je nodig?
 
 Zorg voor een rustige, afleidingsvrije omgeving en verzamel dan deze paar hulpmiddelen:
 
-- 4 tot 5 vellen wit papier ;
+- 4 tot 5 vellen wit papier;
 - Pen;
-- 2 enveloppen ;
-- Een telefoon of Address-boek;
+- 2 enveloppen;
+- Een telefoon of adressenboek;
 - Een computer (optioneel).
 
 ![BTC102-Bitcoin](assets/fr/094.webp)
 
-#### Veelvoorkomende misvattingen over successieplanning
+#### Veelvoorkomende misvattingen over nalatenschapsplanning
 
 Veel mensen stellen deze stap uit vanwege misvattingen die hen ervan weerhouden om actie te ondernemen. Hier zijn enkele veelvoorkomende mythes, beschreven door Pamela Morgan in _Cryptoasset Inheritance Planning_ (pagina 18):
 
-- "*Ik moet een advocaat in de arm nemen*"** → **Niet waar**. Hoewel een advocaat nuttig kan zijn voor juridische zaken, kan een technisch Bitcoin erfenisplan ook zonder een advocaat worden opgesteld. Het belangrijkste is om duidelijke en toegankelijke instructies te hebben;
-- "*Ik moet een derde partij vertrouwen*"** → **Niet waar**. Uw plan kan zo worden ontworpen dat de behoefte aan vertrouwen wordt geminimaliseerd, zoals het verdelen van informatie over meerdere partijen of het gebruik van oplossingen met meerdere handtekeningen, met of zonder tijdslot;
-- "Een goed doordacht plan beschermt tegen pogingen tot diefstal en zorgt er tegelijk voor dat je erfgenamen je tegoeden veilig kunnen recupereren. Het is echter belangrijk op te merken dat geen enkele oplossing waterdicht is: een successieplan verhoogt het risico op diefstal, afhankelijk van welke informatie wordt gedeeld. We zullen hier later dieper op ingaan;
-- "*De waarde van mijn bitcoins is te klein om te plannen.*"** → **Niet waar**. het is altijd beter om vooruit te plannen. Uw dierbaren weten waarschijnlijk niet precies hoeveel Bitcoin u bezit, en dat is maar goed ook. Maar als er iets met u gebeurt, zouden ze het dan niet willen terugkrijgen, zelfs als ze het exacte bedrag niet weten? De waarde van Bitcoin kan in de loop van de tijd aanzienlijk stijgen, dus is het verstandig om het makkelijker te maken voor hen om toegang te krijgen tot je fondsen, en om ze geen valse hoop te geven over de waarde of ze te laten zoeken naar iets dat misschien niet bestaat.
-- "*Mijn erfgenamen zoeken het zelf maar uit.*"** → **Niet waar**. Bitcoin is niet zoals een gewone bankrekening. Zonder duidelijke instructies kunnen uw nabestaanden misschien nooit bij uw fondsen, of slechts een deel ervan. In tegenstelling tot bankrekeningen, waar financiële instellingen of notarissen contact opnemen met familieleden bij overlijden, is er geen tussenpersoon die je familie informeert over je Bitcoin Wallet. Daarom is het aan jou om het expliciet op te nemen in je nalatenschapsplan;
-- "*Een Smart contract kan alles aan.*"** → **Niet waar**. Een Smart contract, zoals een multi-sig Wallet met een tijdslot, kan een deel van de oplossing zijn, maar het zal nooit een goed gestructureerd plan vervangen, vooral voor mensen die niet bekend zijn met Bitcoin. Beide oplossingen zijn complementair.
+- **"*Ik moet een advocaat in de arm nemen.*"** → **Niet waar**. Hoewel een advocaat nuttig kan zijn voor juridische zaken, kan een technisch Bitcoin erfenisplan ook zonder een advocaat worden opgesteld. Het belangrijkste is om duidelijke en toegankelijke instructies te hebben.
+- **"*Ik moet een derde partij vertrouwen.*"** → **Niet waar**. Jouw plan kan zo worden ontworpen dat de behoefte aan vertrouwen wordt geminimaliseerd, zoals het verdelen van informatie over meerdere partijen of het gebruik van oplossingen met meerdere handtekeningen (multisig), met of zonder tijdslot.
+- **"*Een planning maakt het makkelijk mijn bezittingen te stelen.*"** → **Niet waar**. Een goed doordacht plan beschermt tegen pogingen tot diefstal en zorgt er tegelijk voor dat je erfgenamen je tegoeden veilig kunnen recupereren. Het is echter belangrijk op te merken dat geen enkele oplossing waterdicht is: een successieplan verhoogt het risico op diefstal, afhankelijk van welke informatie wordt gedeeld. We zullen hier later dieper op ingaan.
+- **"*De waarde van mijn bitcoins is te klein om te plannen.*"** → **Niet waar**. het is altijd beter om vooruit te plannen. Jouw dierbaren weten waarschijnlijk niet precies hoeveel Bitcoin je bezit, en dat is maar goed ook. Maar als er iets met je gebeurt, zouden ze het dan niet willen terugkrijgen, zelfs als ze het exacte bedrag niet weten? De waarde van Bitcoin kan in de loop van de tijd aanzienlijk stijgen, dus is het verstandig om het makkelijker te maken voor hen om toegang te krijgen tot je tegoeden, en om ze geen valse hoop te geven over de waarde of ze te laten zoeken naar iets dat misschien niet bestaat.
+- **"*Mijn erfgenamen zoeken het zelf maar uit.*"** → **Niet waar**. Bitcoin is niet zoals een gewone bankrekening. Zonder duidelijke instructies kunnen je nabestaanden misschien nooit bij je tegoeden, of slechts een deel ervan. In tegenstelling tot bankrekeningen, waar financiële instellingen of notarissen contact opnemen met familieleden bij overlijden, is er geen tussenpersoon die je familie informeert over je Bitcoin wallet. Daarom is het aan jou om het expliciet op te nemen in je nalatenschapsplan.
+- **"*Een smart contract kan alles regelen.*"** → **Niet waar**. Een smart contract, zoals een multisig wallet met een tijdslot, kan een deel van de oplossing zijn, maar het zal nooit een goed gestructureerd plan vervangen, vooral voor mensen die niet bekend zijn met Bitcoin. Beide oplossingen zijn complementair.
 
 Het is tijd om actie te ondernemen. Besteed deze 30 minuten aan het opstellen van je successieplan. Het is een eenvoudige stap, maar het kan het verschil maken voor je nabestaanden.
 
-### Stap 1: Selecteer de juiste mensen om uw erfgenamen bij te staan
+### Stap 1: Selecteer de juiste mensen om jouw erfgenamen bij te staan
 
-Als het aankomt op het doorgeven van een erfenis in Bitcoin, zullen je dierbaren waarschijnlijk niet vertrouwd zijn met het beheren van private sleutels of het terughalen van wallets. Ze zullen externe hulp nodig hebben van bekwame en betrouwbare personen. De ideale aanpak is om minstens twee verschillende mensen te selecteren:
+Als het aankomt op het doorgeven van een erfenis in Bitcoin, zullen je dierbaren waarschijnlijk niet vertrouwd zijn met het beheren van privésleutels of het terughalen van wallets. Ze zullen externe hulp nodig hebben van bekwame en betrouwbare personen. De ideale aanpak is om minstens twee verschillende mensen te selecteren:
 
-- Een vertrouwd familielid**, die zorgt voor een soepele uitvoering van je plan. Ze hoeven niet per se diepgaande kennis te hebben van Bitcoin, maar ze moeten wel iemand zijn op wie je erfgenamen kunnen vertrouwen.
-- Een ervaren Bitcoin gebruiker**, die technische ondersteuning kan bieden bij het terughalen van de fondsen, het beheren van wallets en het begrijpen van de betrokken processen.
+- **Een vertrouwd familielid**, die zorgt voor een soepele uitvoering van je plan. Ze hoeven niet per se diepgaande kennis te hebben van Bitcoin, maar ze moeten wel iemand zijn op wie je erfgenamen kunnen vertrouwen.
+- **Een ervaren Bitcoin gebruiker**, die technische ondersteuning kan bieden bij het terughalen van de tegoeden, het beheren van wallets en het begrijpen van de betrokken processen.
 
-De mensen die je kiest mogen nooit direct toegang hebben tot je privésleutels (of je Mnemonic zin), maar ze moeten het wel kunnen:
+De mensen die je kiest mogen nooit direct toegang hebben tot je privésleutels (of je mnemonische zin), maar ze moeten hetvolgende wel kunnen:
 
 - Je erfgenamen begeleiden bij het terugvorderen en veiligstellen van de fondsen;
-- De basisprincipes van Bitcoin wallets, herstelzinnen en transacties uitleggen;
-- Help veelgemaakte fouten te voorkomen.
+- De basisprincipes van Bitcoin wallets, herstelzinnen (seed phrases) en transacties uitleggen;
+- Hulp bieden om veelgemaakte fouten te voorkomen.
 
 Maak op het papier dat jouw Bitcoin erfenisplan wordt, een vergelijkingstabel van potentiële kandidaten, evalueer hun mate van vertrouwen, hun kennis van Bitcoin en hoe je contact met hen kunt opnemen. Bijvoorbeeld:
 
-| Person               | Trust Level     | Bitcoin Knowledge   | Contact Methods         | Notes                                                                                                                   |
+| Persoon               | Vertrouwensniveau     | Kennis Over Bitcoin    | Contact Methoden         | Opmerkingen                                                                                                                   |
 |----------------------|-----------------|----------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------|
-| My brother Bob       | Very high       | Low                  | Phone & email            | Bob doesn't know Bitcoin well, but he's 100% reliable. He can ensure the process goes smoothly.                        |
-| My cousin Nathan     | High            | Medium               | Phone & Instagram        | Has some Bitcoin knowledge and can guide my heirs. Aware of the plan. #1 to talk to in case of need.                   |
-| Ricco (Bitcoiner friend) | Medium      | Very high            | Twitter, email & photo   | Very technically skilled, but should never have access to the funds. To be contacted for technical support.            |
-| Bitcoin YouTuber     | Low             | High                 | YouTube channel          | Good information source for learning, but cannot intervene directly.                                                   |
+| Mijn broer Bob       | Zeer hoog       | Laag                  | Telefoon & email            | Bob is niet goed bekend met Bitcoin maar hij is 100% betrouwbaar. Hij kan garanderen dat het proces soepel verloopt.                        |
+| Mijn neef Nathan     | Hoog            | Gemiddeld               | Telefoon & Instagram        | Heeft enige kennis van Bitcoen en kan mijn nabestaanden begeleiden. Is bekend met dit plan. #1 aanspreekpunt in geval van nood.                   |
+| Ricco (Bitcoiner vriend) | Gemiddeld      | Erg hoog            | Twitter, email & foto   | Zeer veel technische skills maar zou de tegoeden nooit moeten kunnen beheren. Kan gecontacteerd worden for technische ondersteuning.            |
+| Bitcoin YouTuber     | Laag             | Hoog                 | YouTube kanaal          | Goede informatiebron voor leren over Bitcoin maar kan niet direct  ingrijpen of helpen.                                                   |
 
-Als je geen betrouwbaar of bekwaam familielid hebt, kun je ook overwegen om een professional in te huren, zoals een advocaat gespecialiseerd in Bitcoin erfenissen, of een gespecialiseerde dienst voor estate planning. Het belangrijkste is dat je erfgenamen toegang hebben tot betrouwbare technische hulp, terwijl de veiligheid en vertrouwelijkheid van je fondsen behouden blijft.
+Als je geen betrouwbaar of bekwaam familielid hebt, kun je ook overwegen om een professional in te huren, zoals een advocaat gespecialiseerd in Bitcoin erfenissen, of een gespecialiseerde dienst voor estate planning. Het belangrijkste is dat je erfgenamen toegang hebben tot betrouwbare technische hulp, terwijl de veiligheid en vertrouwelijkheid van je tegoeden behouden blijft.
 
-### Stap 2: Maak een snelle en eenvoudige inventaris
+### Stap 2: Maak een snelle en eenvoudige inventarisatie
 
-Voordat u overweegt om uw bitcoins veilig te stellen of over te dragen, is het belangrijk om een duidelijke inventaris te maken van uw Bitcoin bezittingen. Deze inventaris zal dienen als basis voor het organiseren van je erfenisplan en zal je erfgenamen helpen begrijpen waar je bezittingen zich bevinden en hoe ze er toegang toe kunnen krijgen.
+Voordat je overweegt om je bitcoins veilig te stellen of over te dragen, is het belangrijk om een duidelijke inventaris te maken van je Bitcoin bezittingen. Deze inventaris zal dienen als basis voor het organiseren van je erfenisplan en zal je erfgenamen helpen begrijpen waar je bezittingen zich bevinden en hoe ze er toegang toe kunnen krijgen.
 
-Het doel is hier niet om uw veiligheid onmiddellijk te verbeteren, maar gewoon om uw huidige situatie in kaart te brengen. Het is een momentopname van uw bitcoins en de middelen om er toegang toe te krijgen. U kunt de beveiliging later aanpassen en versterken, zodra deze eerste inventarisatie compleet is.
+Het doel is hier niet om je veiligheid onmiddellijk te verbeteren, maar gewoon om je huidige situatie in kaart te brengen. Het is een momentopname van je bitcoins en de middelen om er toegang toe te krijgen. Je kunt de beveiliging later aanpassen en versterken, zodra deze eerste inventarisatie compleet is.
 
 Denk na over alle plaatsen waar je bitcoins of fiatvaluta hebt die verband houden met Bitcoin. Dit kan zijn:
 
-- Exchange platforms**:  Accounts met BTC of fiat gekoppeld aan uw Bitcoin aankopen.
-- Hot wallets (mobiel of desktop)**: Apps geïnstalleerd op je telefoon, gebruikt voor alledaagse transacties;
-- Hardware wallets** : Fysieke apparaten die uw privésleutels offline opslaan;
-- Andere oplossingen**: Multisig, papieren portemonnees, speciaal opgeslagen privésleutels, etc.
+- **Handelsplatformen**:  Accounts met BTC of fiat gekoppeld aan je Bitcoin aankopen.
+- **Hot wallets (mobiel of desktop)**: Apps geïnstalleerd op je telefoon, gebruikt voor alledaagse transacties;
+- **Hardware wallets**: Fysieke apparaten die je privésleutels offline opslaan;
+- **Andere oplossingen**: Multisig, papieren portemonnees, speciaal opgeslagen privésleutels, etc.
 
 Gebruik een tabel om deze inventaris te structureren. Het is niet de bedoeling om dit document online op te slaan, maar om het op een veilige plaats te bewaren, bij voorkeur op papier. Bijvoorbeeld:
 
-| General | Storage type | Assets held | Localization | Mnemonic backup | Password (PIN, passphrase...) | Notes |
+| Algemeen | Opslagtype | Activa | Lokalisatie | Mnemonische backup | Wachtwoord (PIN, passphrase...) | Opmerkingen |
 | --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Bitfinex | BTC & Euros | Accessible online | None (custodial platform) | | Bitwarden & 2FA password manager with Authy app on my phone | I bought my BTC here. Funds must be withdrawn after purchase |
-| Physical wallet | Jade Plus | BTC | Personal safe at home | Copy at my Uncle Bob's and in a bank safe at BNP Paribas | passphrase stored at my mother's. PIN code stored on Bitwarden password manager. PIN code stored on Bitwarden password manager. | I use 2 separate wallets: a normal one with only the mnemonic phrase and one with a passphrase. |
-| Green Wallet | BTC | On my Iphone 15 | Copy of the seed in my safe at home | PIN code stored on the Bitwarden password manager. | The application is in hidden mode. | The application is in hidden mode |
+| Bitfinex | BTC & Euros | Online toegankelijk | Geen (custodial platform) | Bitwarden & 2FA password manager met Authy app op mijn telefoon | Ik kocht mijn BTC hier. Tegoeden moeten opgenomen worden na aankoop |
+| Fysieke wallet | Jade Plus | BTC | Persoonlijke kluis in mijn huis | Kopie bij oom Bob en in een bankkluis bij BNP Paribas | Paswoordzin ligt bij mijn moeder thuis. PIN code is opgeslagen in Bitwarden password manager. | Ik gebruik 2 losse wallets: een normale met enkel een herstelzin en eentje met een paswoordzin. |
+| Green Wallet | BTC | Op mijn Iphone 15 | Kopie van de herstelzin ligt in de kluis in mijn huis. | PIN code opgeslagen in Bitwarden password manager. | De application is in verborgen modus | De application is in verborgen modus |
 
-In dit stadium voel je misschien de drang om onmiddellijk je fondsverdeling aan te passen, je beveiliging te verbeteren of zelfs meer bitcoins te kopen of verkopen. Onderneem nog geen actie! Het doel is hier niet om actie te ondernemen, maar om een momentopname te maken van je huidige situatie. Je kunt je plan later altijd nog verbeteren, maar blijf voor nu gefocust op het zo grondig mogelijk afronden van de inventarisatie.
+In dit stadium voel je misschien de drang om onmiddellijk de verdeling van je tegoeden aan te passen, je beveiliging te verbeteren of zelfs meer bitcoins te kopen of verkopen. Onderneem nog geen actie! Het doel is hier niet om actie te ondernemen, maar om een momentopname te maken van je huidige situatie. Je kunt je plan later altijd nog verbeteren, maar blijf voor nu gefocust op het zo grondig mogelijk afronden van de inventarisatie.
 
 Als deze inventarisatie eenmaal is gemaakt, is het veel eenvoudiger om zwakke punten te identificeren en een veilig en effectief overdrachtsproces te organiseren.
 
@@ -2313,7 +2311,7 @@ Als deze inventarisatie eenmaal is gemaakt, is het veel eenvoudiger om zwakke pu
 
 Het is cruciaal dat je nalatenschapsplan duidelijk, leesbaar en veilig is. Om dit te bereiken, schrijf je de brief met de hand in inkt op papier en vermijd je digitale documenten die gecompromitteerd kunnen worden. Deze brief is geen testament of wettelijke verklaring, maar een praktische gids om je nabestaanden te helpen je bitcoins veilig terug te krijgen.
 
-De brief moet eenvoudig en direct zijn en de volgende essentiële Elements bevatten:
+De brief moet eenvoudig en direct zijn en de volgende essentiële elementen bevatten:
 
 - Een inleiding waarin de aard van de terug te vorderen activa wordt uitgelegd;
 - Contacten van vertrouwde mensen die je erfgenamen kunnen helpen bij het herstelproces;
@@ -2326,19 +2324,19 @@ De brief moet eenvoudig en direct zijn en de volgende essentiële Elements bevat
 Hier is een model geïnspireerd door Pamela Morgan's Cryptoasset Inheritance Planning. Je moet het natuurlijk aanpassen aan je persoonlijke situatie:
 
 ---
-**Datum: `Indiceer datum`**
+**Datum: `Vul datum in`**
 
 Beste `Namen van erfgenamen`,
 
-Als je deze brief leest, ben ik er niet meer. Ten eerste, weet dat ik van je hou en de tijd heb genomen om dit document op te stellen om je te helpen mijn bitcoins te beheren, die waarde kunnen hebben. Dit is geen ingewikkelde taak, maar het vereist zorgvuldigheid en voorzichtigheid. Bitcoin is een peer-to-peer systeem: er is geen verhaal als er een fout wordt gemaakt. Neem alsjeblieft de tijd om deze brief volledig te lezen voordat je actie onderneemt.
+Als je deze brief leest, ben ik er niet meer. Ten eerste, weet dat ik van je hou en de tijd heb genomen om dit document op te stellen om je te helpen mijn bitcoins te beheren, die waarde kunnen hebben. Dit is geen ingewikkelde taak, maar het vereist zorgvuldigheid en voorzichtigheid. Bitcoin is een peer-to-peer systeem: er is geen regres als er een fout wordt gemaakt. Neem alsjeblieft de tijd om deze brief volledig te lezen voordat je actie onderneemt.
 
 #### 1. Contact opnemen met betrouwbare personen
 
-Ik heb verschillende mensen aangewezen om je te helpen bij het begrijpen van Bitcoin en het terugkrijgen van mijn tegoeden. Ze mogen nooit direct toegang hebben tot de fondsen, maar kunnen je wel begeleiden in het proces:
+Ik heb verschillende mensen aangewezen om je te helpen bij het begrijpen van Bitcoin en het terugkrijgen van mijn tegoeden. Ze mogen nooit direct toegang hebben tot de tegoeden, maar kunnen je wel begeleiden in het proces:
 
-- Mijn broer Bob: +33 6 00 00 00; bobmybrother@supermail.com. Je kunt Bob vertrouwen om je te helpen in dit proces. Hoewel hij niet de meest technische kennis heeft over Bitcoin, is hij wel de juiste persoon om alles in twijfel te trekken en voorzichtigheid te betrachten om je succes veilig te stellen.
+- Mijn broer Bob: +33 6 00 00 00; bobmybrother@supermail.com. Je kunt Bob vertrouwen om je te helpen in dit proces. Hoewel hij niet de meest technische kennis heeft over Bitcoin, is hij wel de juiste persoon om alles in twijfel te trekken en voorzichtigheid te betrachten om een succesvolle overdracht veilig te stellen.
 - Mijn neef Nathan: +33 6 00 00 00; nathandelacroix@supermail.com. Nathan bracht me in contact met Bitcoin. Hij is erg bedreven in computers en kan de meeste van je vragen beantwoorden. Hij bezit ook Bitcoin en kan je technisch begeleiden. Je hebt hem ontmoet op familiebijeenkomsten en ik heb hier een foto van hem bijgevoegd.
-- Ricco: @RiccoSuperBitcoiner op Twitter; ricco425@supermail.com. Ik werk al jaren nauw samen met Ricco. Je hebt hem nog nooit ontmoet, dus zorg ervoor dat je contact opneemt met de juiste persoon door hem te vragen "Hoe heet de hond van Cédric?" Als hij "12" antwoordt, is hij het. Ricco is een zeer vriendelijke en bekwame Bitcoin expert. Hij beantwoordt al je vragen en je kunt vertrouwen op zijn oordeel over Bitcoin veiligheid. Aarzel niet om contact met hem op te nemen, maar geef hem nooit directe toegang tot de fondsen.
+- Ricco: @RiccoSuperBitcoiner op Twitter; ricco425@supermail.com. Ik werk al jaren nauw samen met Ricco. Je hebt hem nog nooit ontmoet, dus zorg ervoor dat je contact opneemt met de juiste persoon door hem te vragen "Hoe heet de hond van Cédric?" Als hij "12" antwoordt, is hij het. Ricco is een zeer vriendelijke en bekwame Bitcoin expert. Hij beantwoordt al je vragen en je kunt vertrouwen op zijn oordeel over Bitcoin veiligheid. Aarzel niet om contact met hem op te nemen, maar geef hem nooit directe toegang tot de tegoeden.
 
 Het klinkt misschien vreemd, maar neem contact met ze op. Daarnaast kun je meer te weten komen door te luisteren naar Andreas Antonopoulos op YouTube en door het boek *Cryptoasset Inheritance Planning* van Pamela Morgan te kopen.
 
@@ -2347,20 +2345,20 @@ Neem contact op met al deze mensen en controleer hun meningen voordat je belangr
 #### 2. Waar zijn mijn Bitcoins?
 Hier vind je een gedetailleerde inventaris van mijn bezittingen, hun locatie en hoe je er toegang toe krijgt.
 
-- Ik gebruik mijn telefoon (Samsung Galaxy S8) om toegang te krijgen tot mijn Samourai Wallet. De herstelzin voor deze Wallet is opgeslagen in twee kopieën: één wordt bewaard in de bankkluis, de andere bij oom Bob. De PIN-code die nodig is om zowel mijn telefoon als de Wallet te ontgrendelen, wordt bij mij thuis en bij mijn oma bewaard.
-- Ik ga naar het online Exchange platform Bitfinex via mijn Dell 2018 laptop. Er kunnen nog bitcoins of dollars zijn. Om deze fondsen terug te krijgen, moet je rechtstreeks contact opnemen met Bitfinex of proberen toegang te krijgen tot mijn account. (**Wees voorzichtig, dit kan illegaal zijn-check uw lokale wetgeving**).
-- Ik heb de toegang tot mijn online accounts beveiligd met een wachtwoordmanager. Een back-up van deze manager is opgeslagen in de kluis van de bank. Mijn Bitfinex-account is ook beveiligd met twee-factor authenticatie, die toegankelijk is via mijn telefoon (Samsung Galaxy S8, Authy-app) of via de back-upcode die ik thuis heb bewaard.
-- Ik ben in het bezit van een Trezor Model One Hardware Wallet, toegankelijk via mijn PC met behulp van Sparrow wallet software. De herstelzin voor deze Wallet is opgeslagen in twee kopieën: één in de bankkluis, de andere bij oom Bob. De PIN-code voor deze Wallet is opgeslagen bij mij thuis en bij mijn moeder. Het apparaat zelf ligt waarschijnlijk in een kluis op mijn kantoor. Ik gebruik een BIP39 passphrase op mijn Trezor Model One. Deze passphrase is cruciaal voor toegang tot de fondsen op het apparaat. Een back-up van deze passphrase is opgeslagen op twee locaties: bij mij thuis en bij mijn moeder.
+- Ik gebruik mijn telefoon (Samsung Galaxy S8) om toegang te krijgen tot mijn Samourai Wallet. De herstelzin voor deze wallet is opgeslagen in twee kopieën: één wordt bewaard in de bankkluis, de andere bij oom Bob. De PIN-code die nodig is om zowel mijn telefoon als de wallet te ontgrendelen, wordt bij mij thuis en bij mijn oma bewaard.
+- Ik gebruik het online handelsplatform Bitfinex via mijn Dell 2018 laptop. Er kunnen nog bitcoins of dollars zijn. Om deze tegoeden terug te krijgen, moet je rechtstreeks contact opnemen met Bitfinex of proberen toegang te krijgen tot mijn account. (**Wees voorzichtig, dit kan illegaal zijn-check je lokale wetgeving**).
+- Ik heb de toegang tot mijn online accounts beveiligd met een wachtwoordmanager. Een back-up van deze manager is opgeslagen in de kluis van de bank. Mijn Bitfinex-account is ook beveiligd met tweefactorauthenticatie, die toegankelijk is via mijn telefoon (Samsung Galaxy S8, Authy-app) of via de back-upcode die ik thuis heb bewaard.
+- Ik ben in het bezit van een Trezor Model One hardware wallet, toegankelijk via mijn PC met behulp van Sparrow wallet software. De herstelzin voor deze wallet is opgeslagen in twee kopieën: één in de bankkluis, de andere bij oom Bob. De PIN-code voor deze wallet is opgeslagen bij mij thuis en bij mijn moeder. Het apparaat zelf ligt waarschijnlijk in een kluis op mijn kantoor. Ik gebruik een BIP39 passphrase op mijn Trezor Model One. Deze passphrase is cruciaal voor toegang tot de tegoeden op het apparaat. Een back-up van deze passphrase is opgeslagen op twee locaties: bij mij thuis en bij mijn moeder.
 
-Neem alle nodige voorzorgsmaatregelen voordat je met deze fondsen omgaat. Geef nooit de volledige invorderingszin aan één persoon en deel deze gegevens alleen als dat absoluut noodzakelijk is.
+Neem alle nodige voorzorgsmaatregelen voordat je met deze tegoeden omgaat. Geef nooit de volledige herstelzin aan één persoon en deel deze gegevens alleen als dat absoluut noodzakelijk is.
 
 #### 3. Veiligheidsmaatregelen en instructies
 
-- Haast je niet**. Neem de tijd om te leren voordat je handelt. Bitcoin is veilig bij correct gebruik.
-- Geef de 24-woorden zin nooit aan slechts één persoon**. Als iemand je vraagt om volledige toegang, wees dan op je hoede.
-- Verbind mijn portemonnees niet met een onbekende computer**. Gebruik een beveiligde omgeving, offline indien mogelijk.
-- Pas op voor zwendel**. Er zijn veel zwendelpraktijken rond de Bitcoin. Vertrouw alleen de mensen die in deze brief worden genoemd.
-- Bewaar alles wat je doet**.  Maak notities, leg belangrijke stappen vast en bescherm de toegang.
+- **Haast je niet**. Neem de tijd om te leren voordat je handelt. Bitcoin is veilig bij correct gebruik.
+- **Geef de 24-woorden zin nooit aan slechts één persoon**. Als iemand je vraagt om volledige toegang, wees dan op je hoede.
+- **Verbind mijn wallets niet met een onbekende computer**. Gebruik een beveiligde omgeving, offline indien mogelijk.
+- **Pas op voor oplichting**. Er zijn veel zwendelpraktijken rond de Bitcoin. Vertrouw alleen de mensen die in deze brief worden genoemd.
+- **Bewaar alles wat je doet**. Maak notities, leg belangrijke stappen vast en bescherm de toegang.
 
 #### 4. Juridische informatie en laatste bericht
 
@@ -2370,7 +2368,7 @@ Zorg goed voor jezelf en onthoud dat ik van je hou. Mijn wens is dat deze bezitt
 
 Handgeschreven handtekening
 
-Uw naam
+Jouw naam
 
 Datum
 
@@ -2396,7 +2394,7 @@ Maak, afhankelijk van je persoonlijke situatie, meerdere handgeschreven kopieën
 
 Raadpleeg indien nodig een advocaat of notaris om je plan formeel te integreren in een wettelijk kader.
 
-**Gefeliciteerd! ** Je hebt een belangrijke stap gezet in het veiligstellen van je Bitcoin rijkdom. U kunt nu uw erfenisplan verfijnen door het regelmatig te herzien en meer geavanceerde oplossingen te onderzoeken, zoals het afbouwen van Multisig opstellingen met tijdklokken:
+**Gefeliciteerd!** Je hebt een belangrijke stap gezet in het veiligstellen van je bitcoins. Je kunt nu je erfenisplan verfijnen door het regelmatig te herzien en meer geavanceerde oplossingen te onderzoeken, zoals het bouwen van multisig opstellingen met tijdsloten:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
@@ -2404,41 +2402,40 @@ Referentie: [*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - Pam
 
 Speciale dank aan [Pamela Morgan](https://x.com/pamelawjd) voor haar werk en voor het mogen aanpassen van deze inhoud.
 
-## U behoort nu tot de 0,1% best voorbereide Bitcoiners
+## Je behoort nu tot de 0,1% best voorbereide Bitcoiners
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 :::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
-Als je zover bent gekomen, behoor je nu tot een verlichte minderheid! Zeer weinig mensen gaan zo ver met Bitcoin en je mag trots zijn op hoe ver je bent gekomen. Misschien hebt u alle tutorials gevolgd die in deze training worden aangeboden: Uw eerste Hardware Wallet opgezet, uw herstelzin beveiligd, een DCA-plan (Dollar-Cost Averaging) gemaakt, Bitcoin met en zonder KYC verworven, zelfs uw Bitcoin erfenis gepland. Elke stap die u hebt genomen is een sprong in de richting van echte financiële soevereiniteit.
+Als je zover bent gekomen, behoor je nu tot een verlichte minderheid! Zeer weinig mensen gaan zo ver met Bitcoin en je mag trots zijn op hoe ver je bent gekomen. Misschien heb je alle tutorials gevolgd die in deze training worden aangeboden: Je eerste hardware wallet opgezet, je herstelzin beveiligd, een DCA-plan (Dollar-Cost Averaging) gemaakt, Bitcoin via kanalen met en zonder KYC gekocht, zelfs je Bitcoin erfenis opgesteld. Elke stap die je hebt genomen is een sprong in de richting van echte financiële soevereiniteit.
 
 Zelfs als je nog niet alles gedaan hebt, maar wel van plan bent om het binnenkort te doen, loop je al voor op de rest. Die vastberadenheid om te leren en actie te ondernemen is wat er echt toe doet. Je begrijpt nu waarom Bitcoin zo'n belangrijke verschuiving is voor onze individuele en collectieve toekomst.
 
-Sinds ik begon met het onderwijzen van mensen over Bitcoin, zijn zowel het ecosysteem als ikzelf aanzienlijk geëvolueerd. Deze cursus is volledig bijgewerkt om het beste weer te geven van wat Bitcoin vandaag de dag te bieden heeft. Het is samen een hele reis geweest!
+Sinds ik begon met het lesgeven over Bitcoin, zijn zowel het ecosysteem als ikzelf aanzienlijk geëvolueerd. Deze cursus is volledig bijgewerkt om het beste weer te geven van wat Bitcoin vandaag de dag te bieden heeft. Het is samen een hele reis geweest!
 
 ![BTC102-Bitcoin](assets/fr/097.webp)
 
 ### Wat is de volgende stap voor Bitcoin?
 
-Als we naar de logaritmische prijscurve kijken, wordt één ding duidelijk: we weten nooit precies waar we ons in cycli bevinden. Misschien lees je deze cursus op het moment dat er een nieuwe fase van groei begint, of misschien zit je midden in een dalende markt. Hoe dan ook, de cycli gaan door, onvermijdelijk onderbroken door spectaculaire hoogtepunten en soms brutale correcties.
+Als we naar de logaritmische prijscurve kijken, wordt één ding duidelijk: we weten nooit precies waar we ons in cycli bevinden. Misschien lees je deze cursus op het moment dat er een nieuwe fase van groei begint, of misschien zit je midden in een dalende markt. Hoe dan ook, de cycli gaan door, onvermijdelijk onderbroken door spectaculaire hoogtepunten en soms harde correcties.
 
 Maar afgezien van de prijs, is de groei van Bitcoin verbazingwekkend. Wat begon als een obscuur project onder cypherpunks is een wereldwijde beweging geworden. Van Silk Road tot institutionele adoptie, Bitcoin heeft zich stevig gevestigd in het wereldwijde financiële landschap. Het wordt niet langer gezien als een experiment in de marge, maar als een serieuze beleggingscategorie die omarmd wordt door instellingen en miljoenen particulieren wereldwijd.
 
-Deze verschuiving in perceptie gaat hand in hand met voortdurende technische vooruitgang. Portemonnees en infrastructuur worden voortdurend verbeterd. Elk jaar komen er nieuwe oplossingen die Bitcoin veiliger, veerkrachtiger en gebruiksvriendelijker maken. Vandaag de dag is Bitcoin meer gedecentraliseerd, toegankelijker en beter begrepen dan ooit tevoren.
+Deze verschuiving in perceptie gaat hand in hand met voortdurende technische vooruitgang. Wallets en infrastructuur worden voortdurend verbeterd. Elk jaar komen er nieuwe oplossingen die Bitcoin veiliger, veerkrachtiger en gebruiksvriendelijker maken. Vandaag de dag is Bitcoin meer gedecentraliseerd, toegankelijker en beter begrepen dan ooit tevoren.
 
 Natuurlijk blijven er uitdagingen: regelgeving, privacy, bredere adoptie en het ontwikkelen van een circulaire economie. Maar zolang de gemeenschap actief, nieuwsgierig en betrokken blijft, zal Bitcoin een krachtig alternatief blijven voor het traditionele financiële systeem.
 
-Eén ding is zeker: Bitcoin zal blijven bestaan; ongeveer elke 10 minuten een nieuw blok produceren, onvermoeibaar, dag na dag, jaar na jaar. We zullen meer gebruikers, wallets en exchanges zien, en ook meer regels, technische hindernissen, crises en innovaties.
+Eén ding is zeker: Bitcoin zal blijven bestaan, ongeveer elke 10 minuten een nieuw blok produceren, onvermoeibaar, dag na dag, jaar na jaar. We zullen meer gebruikers, wallets en exchanges zien, en ook meer regels, technische hindernissen, crises en innovaties.
 
 ![BTC102-Bitcoin](assets/fr/098.webp)
 
 Naarmate de wereldwijde crises voortduren en de inflatie de koopkracht van fiatvaluta's uitholt, zal Bitcoin op natuurlijke wijze meer mensen aantrekken, die op zoek zijn naar financiële vrijheid en individuele soevereiniteit. Deze dynamiek zal Bitcoin steeds sterker maken en nieuw talent aantrekken om het protocol, de schaallagen en de alledaagse gebruiksmogelijkheden op het gebied van veiligheid, privacy en bruikbaarheid te verbeteren.
 
-### wat is je volgende stap?
+### Wat is je volgende stap?
 
 Ironisch genoeg zal de grootste verandering niet Bitcoin zijn, maar jijzelf.
-
-Je zult evolueren in hoe je Bitcoin gebruikt, begrijpt en ermee omgaat. Misschien ontwikkelt u er een echte passie voor, genoeg om anderen les te gaan geven, betrokken te raken bij de gemeenschap, of gewoon uw rijkdom voor de lange termijn te behouden. Wat uw pad ook is, Bitcoin zal uw wereldbeeld hebben veranderd; en waarschijnlijk ook uw relatie tot vrijheid en financiële verantwoordelijkheid.
+Je zult evolueren in hoe je Bitcoin gebruikt, begrijpt en ermee omgaat. Misschien ontwikkel je er een echte passie voor, genoeg om anderen les te gaan geven, betrokken te raken bij de gemeenschap, of gewoon je rijkdom voor de lange termijn te behouden. Wat je pad ook is, Bitcoin zal je wereldbeeld hebben veranderd, en waarschijnlijk ook je relatie tot vrijheid en financiële verantwoordelijkheid.
 
 Hier zijn een paar richtingen die je kunt inslaan:
 
@@ -2446,13 +2443,13 @@ Hier zijn een paar richtingen die je kunt inslaan:
 
 Als je huidige strategie voor jou werkt, ga dan gewoon door.
 
-Blijf Sats regelmatig stapelen en houd je aan de best practices voor beveiliging. Je hebt al een sterke basis gelegd en het is niet nodig om verder te gaan als je hoofddoel gewoon is om je Bitcoin besparingen veilig te stellen.
+Blijf sats regelmatig stapelen en houd je aan de best practices voor beveiliging. Je hebt al een sterke basis gelegd en het is niet nodig om verder te gaan als je hoofddoel gewoon is om je Bitcoin besparingen veilig te stellen.
 
 Neem de tijd om de evolutie van het ecosysteem te observeren, je strategie te verfijnen en je opstelling waar nodig te versterken.
 
 #### 2. Verdiep je kennis
 
-Je reis eindigt hier niet. Bitcoin is een wereld die altijd in ontwikkeling is, en er valt altijd meer te ontdekken. Hier zijn een paar richtingen die je zou willen verkennen om je begrip van Bitcoin te verdiepen:
+Je reis eindigt hier niet. Bitcoin is een wereld die altijd in ontwikkeling is, en er valt altijd meer te ontdekken. Hier zijn een paar richtingen die je zou kunnen verkennen om je begrip van Bitcoin te verdiepen:
 
 - Om je digitale beveiliging op een hoger niveau te brengen, kun je beginnen met onze inleidende beveiligingscursus:
 
@@ -2484,27 +2481,27 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Bijdragen aan het Bitcoin ecosysteem
 
-Bitcoin is meer dan alleen een financieel instrument; het is een beweging. Afhankelijk van je vaardigheden en interesses zijn er veel manieren waarop je kunt bijdragen:
+Bitcoin is meer dan alleen een financieel instrument: het is een beweging. Afhankelijk van je vaardigheden en interesses zijn er veel manieren waarop je kunt bijdragen:
 
-- Voorlichten en bewust maken**: Help uw dierbaren Bitcoin te begrijpen, deel uw kennis en neem deel aan lokale discussies;
-- Tools en toepassingen ontwikkelen**: Als je technische vaardigheden hebt, is het bijdragen aan open-source tools een geweldige manier om waarde toe te voegen aan Bitcoin;
-- Word lid van een lokale gemeenschap**: Neem deel aan evenementen, meetups en forums om andere bitcoiners te ontmoeten en Exchange meningen te geven over de nieuwste ontwikkelingen.
+- **Voorlichten en bewust maken**: Help je dierbaren Bitcoin te begrijpen, deel je kennis en neem deel aan lokale discussies;
+- **Tools en toepassingen ontwikkelen**: Als je technische vaardigheden hebt, is het bijdragen aan open-source tools een geweldige manier om waarde toe te voegen aan Bitcoin;
+- **Word lid van een lokale gemeenschap**: Neem deel aan evenementen, meetups en forums om andere bitcoiners te ontmoeten en meningen uit te wisselen over de nieuwste ontwikkelingen.
 
-Als je anderen wilt helpen onderwijzen, is Plan ₿ Network altijd op zoek naar medewerkers! Al onze educatieve inhoud is open-source en wordt gehost op GitHub. We verwelkomen medewerkers om te helpen bij het proeflezen en vertalen van inhoud in verschillende talen; in Exchange voor een paar Sats! Nu of later in je Bitcoin reis, je bent uitgenodigd om lid te worden van [onze Telegram groep voor bijdragers](https://t.me/PlanBNetwork_ContentBuilder) van Plan ₿ Network.
+Als je anderen wilt helpen onderwijzen, is Plan ₿ Network altijd op zoek naar medewerkers! Al onze educatieve inhoud is open-source en wordt gehost op GitHub. We verwelkomen medewerkers om te helpen bij het proeflezen en vertalen van inhoud in verschillende talen in ruil voor een paar sats! Nu of later in je Bitcoin reis, je bent uitgenodigd om lid te worden van [onze Telegram groep voor bijdragers](https://t.me/PlanBNetwork_ContentBuilder) van Plan ₿ Network.
 
 ### Laatste woorden
 
 Hartelijk dank voor het volgen van de BTC102-cursus.
 
-Mijn naam is Rogzy, oprichter van Découvre Bitcoin en medeoprichter van Plan ₿ Network;een platform dat mogelijk is gemaakt door onze ongelooflijke nieuwe partners, Tether en Fulgur Ventures, en door onze gezamenlijke missie om zoveel mogelijk mensen te informeren over Bitcoin.
+Mijn naam is Rogzy, oprichter van Découvre Bitcoin en medeoprichter van Plan ₿ Network, een platform dat mogelijk is gemaakt door onze ongelooflijke nieuwe partners, Tether en Fulgur Ventures, en door onze gezamenlijke missie om zoveel mogelijk mensen te informeren over Bitcoin.
 
 Jullie feedback is ontzettend waardevol. Laat gerust opmerkingen achter op het platform en laat ons weten wat je van deze bijgewerkte versie van de cursus vond. Jouw suggesties helpen ons om de kwaliteit van onze inhoud te blijven verbeteren.
 
-Je bent nu klaar voor het eindexamen; een test van 40 vragen die je begrip zal bevestigen en je je certificaat zal geven.
+Je bent nu klaar voor het eindexamen: een test van 40 vragen die je begrip zal bevestigen en je je certificaat zal geven.
 
 Veel succes!
 
-Ik hoop je snel weer te zien in een andere cursus over Plan ₿ Network; of het er nu een van mij is of een van een andere geweldige leraar in de gemeenschap. En wie weet, misschien ontmoeten we elkaar zelfs persoonlijk op een conferentie, evenement of Bitcoin meetup.
+Ik hoop je snel weer te zien in een andere cursus van Plan ₿ Network, of het er nu een van mij is of een van een andere geweldige leraar in de gemeenschap. En wie weet, misschien ontmoeten we elkaar zelfs persoonlijk op een conferentie, evenement of Bitcoin meetup.
 
 Nogmaals gefeliciteerd met hoe ver je bent gekomen. En onthoud: mijn hoofddoel zal altijd hetzelfde blijven:
 **Zoveel mogelijk mensen helpen financiële soevereiniteit te bereiken via Bitcoin.**

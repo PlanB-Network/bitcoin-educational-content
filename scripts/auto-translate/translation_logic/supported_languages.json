@@ -1,6 +1,12 @@
 {
   "languages": [
     {
+      "code": "ar",
+      "name": "Arabic",
+      "translator": "deepl",
+      "code_translator": "AR"
+    },
+    {
       "code": "cs",
       "name": "Czech",
       "translator": "deepl",

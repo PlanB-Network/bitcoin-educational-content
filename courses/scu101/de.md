@@ -369,7 +369,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-# Praktischer Abschnitt
+# Praxis Abschnitt
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
@@ -377,7 +377,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Das Schützen Ihres E-Mail-Kontos ist ein wichtiger Schritt zur Sicherung Ihrer Online-Aktivitäten und zum Schutz Ihrer persönlichen Daten. Dieses Tutorial führt Sie Schritt für Schritt durch die Erstellung und Konfiguration eines ProtonMail-Kontos, eines Anbieters, der für sein hohes Sicherheitsniveau bekannt ist und eine Ende-zu-Ende-Verschlüsselung Ihrer Kommunikation bietet. Ob Sie nun Anfänger oder erfahrener Nutzer sind, die hier vorgeschlagenen bewährten Methoden helfen Ihnen, die Sicherheit Ihres E-Mail-Kontos zu stärken und gleichzeitig die erweiterten Funktionen von ProtonMail zu nutzen:
+Das Schützen deines E-Mail-Kontos ist ein wichtiger Schritt zur Sicherung deiner Online-Aktivitäten und zum Schutz deiner persönlichen Daten. Dieses Tutorial führt dich Schritt für Schritt durch die Erstellung und Konfiguration eines ProtonMail-Kontos, eines Anbieters, der für sein hohes Sicherheitsniveau bekannt ist und eine Ende-zu-Ende-Verschlüsselung deiner Kommunikation bietet. Ob du nun Anfänger oder erfahrener Nutzer bist, die hier vorgeschlagenen bewährten Methoden helfen dir, die Sicherheit deines E-Mail-Kontos zu erhöhen und gleichzeitig die erweiterten Funktionen von ProtonMail zu nutzen:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
@@ -385,11 +385,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-Die Zwei-Faktor-Authentifizierung (2FA) ist unerlässlich geworden, um Ihre Online-Konten zu sichern. In diesem Tutorial lernen Sie, wie Sie die 2FA-App Authy einrichten und verwenden, die dynamische 6-stellige Codes generiert, um Ihre Konten zu schützen. Authy ist sehr einfach zu bedienen und synchronisiert sich auf mehreren Geräten. Erfahren Sie, wie Sie Authy installieren und konfigurieren und stärken Sie so die Sicherheit Ihrer Online-Konten jetzt:
+Die Zwei-Faktor-Authentifizierung (2FA) ist unerlässlich geworden, um deine Online-Konten zu sichern. In diesem Tutorial lernst du, wie du die 2FA-App Authy einrichtest und verwendest, die dynamische 6-stellige Codes generiert, um deine Konten zu schützen. Authy ist sehr einfach zu bedienen und synchronisiert sich auf mehreren Geräten. Erfahre, wie du Authy installierst und konfigurierst und erhöhe so die Sicherheit deiner Online-Konten jetzt:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Eine weitere Option ist die Verwendung eines physischen Sicherheitsschlüssels. Dieses zusätzliche Tutorial zeigt Ihnen, wie Sie einen Sicherheitsschlüssel als zweiten Authentifizierungsfaktor einrichten und verwenden:
+Eine weitere Option ist die Verwendung eines physischen Sicherheitsschlüssels. Dieses zusätzliche Tutorial zeigt dir, wie du einen Sicherheitsschlüssel als zweiten Authentifizierungsfaktor einrichtest und verwendest:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -397,21 +397,21 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
-Das Passwortmanagement ist in der digitalen Ära eine Herausforderung. Wir alle haben zahlreiche Online-Konten, die gesichert werden müssen. Ein Passwortmanager hilft Ihnen, starke und einzigartige Passwörter für jedes Konto zu erstellen und zu speichern.
+Das Passwortmanagement ist in der digitalen Ära eine Herausforderung. Wir alle haben zahlreiche Online-Konten, die gesichert werden müssen. Ein Passwortmanager hilft dir, starke und getrennte Passwörter für jedes Konto zu erstellen und zu speichern.
 
-In diesem Tutorial erfahren Sie, wie Sie Bitwarden, einen Open-Source-Passwortmanager, einrichten und wie Sie Ihre Anmeldedaten auf allen Ihren Geräten synchronisieren, um die tägliche Nutzung zu vereinfachen:
+In diesem Tutorial erfährst du, wie du Bitwarden, einen Open-Source-Passwortmanager, einrichtest und wie du deine Anmeldedaten auf allen deinen Geräten synchronisierst, um die tägliche Nutzung zu vereinfachen:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Für fortgeschrittene Benutzer biete ich auch ein Tutorial zu einer weiteren kostenlosen und Open-Source-Software an, die Sie lokal zur Verwaltung Ihrer Passwörter verwenden können:
+Für fortgeschrittene Benutzer biete ich auch ein Tutorial zu einer weiteren kostenlosen Open-Source-Software an, die du lokal zur Verwaltung deiner Passwörter verwenden kannst:
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Absicherung Ihrer Konten
+## Absicherung deiner Konten
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
-In diesen beiden Tutorials führe ich Sie auch bei der Sicherung Ihrer Online-Konten und erkläre Ihnen, wie Sie schrittweise sicherere Praktiken für die tägliche Verwaltung Ihrer Passwörter übernehmen können.
+In diesen beiden Tutorials leite ich dich auch bei der Sicherung deiner Online-Konten an und erkläre dir, wie du schrittweise sicherere Praktiken für die tägliche Verwaltung deiner Passwörter übernehmen kannst.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -421,15 +421,15 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
-Der Schutz Ihrer Online-Privatsphäre ist ebenfalls ein wichtiger Punkt zur Gewährleistung Ihrer Sicherheit. Die Nutzung eines VPNs kann eine erste Lösung sein, um dies zu erreichen.
+Der Schutz deiner Online-Privatsphäre ist ebenfalls ein wichtiger Punkt zur Gewährleistung deiner Sicherheit. Die Nutzung eines VPNs kann eine erste Lösung sein, um dies zu erreichen.
 
-Ich schlage vor, zwei zuverlässige VPN-Lösungen zu entdecken, die mit Bitcoin zahlbar sind, nämlich IVPN und Mullvad. Diese Tutorials führen Sie durch die Installation, Konfiguration und Nutzung von Mullvad oder IVPN auf all Ihren Geräten:
+Ich schlage vor, zwei zuverlässige VPN-Lösungen auzuprobieren, die mit Bitcoin zahlbar sind, nämlich IVPN und Mullvad. Diese Tutorials führen dich durch die Installation, Konfiguration und Nutzung von Mullvad oder IVPN auf all deinen Geräten:
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Erfahren Sie außerdem, wie Sie den Tor Browser verwenden, einen speziell entwickelten Browser zum Schutz Ihrer Online-Privatsphäre:
+Erfahre außerdem, wie du den Tor Browser verwendest, einen speziell entwickelten Browser zum Schutz deiner Online-Privatsphäre:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
@@ -437,37 +437,37 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
-Das Schützen Ihrer persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt Ihnen, wie Sie eine effektive Backup-Strategie mit Proton Drive einrichten. Erfahren Sie, wie Sie diese sichere Cloud-Lösung nutzen, um die 3-2-1-Methode anzuwenden: drei Kopien Ihrer Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb des Standorts ist. So gewährleisten Sie die Zugänglichkeit und Sicherheit Ihrer sensiblen Dateien:
+Das Schützen deiner persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt dir, wie du eine effektive Backup-Strategie mit Proton Drive einrichtest. Erfahre, wie du diese sichere Cloud-Lösung nutzt, um die 3-2-1-Methode anzuwenden: drei Kopien deiner Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb deiner Wohnung ist. So gewährleistest du den Zugriff und die Sicherheit deiner sensiblen Dateien:
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Und um Ihre auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich Ihnen auch, wie Sie diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln können:
+Und um deine auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich dir auch, wie du diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln kannst:
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-# Gehen Sie weiter
+# Weiterführendes
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
-## Wie man in dieser Cybersicherheitsbranche arbeitet
+## Wie man in der Cybersicherheitsbranche arbeitet
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
-Die Cybersicherheit, ein aufstrebendes Gebiet, bietet zahlreiche Möglichkeiten für diejenigen, die sich für den Schutz von Systemen und Daten interessieren. Wenn Sie sich für diese Branche interessieren, finden Sie hier einige wichtige Schritte, um sich zu orientieren.
+Die Cybersicherheit, ein aufstrebendes Gebiet, bietet zahlreiche Möglichkeiten für diejenigen, die sich für den Schutz von Systemen und Daten interessieren. Wenn du dich für diese Branche interessierst, findest du hier einige wichtige Schritte, um dich zu orientieren.
 
 ### Akademische Grundlagen und Zertifizierungen:
 
-Eine solide Ausbildung in Informatik, Informationssystemen oder einem verwandten Bereich ist oft der ideale Sprungbrett, um einzusteigen. Diese Studien bieten die notwendigen Grundlagen, um die technischen Herausforderungen der Cybersicherheit zu verstehen. Um diese Ausbildung zu ergänzen, ist es ratsam, anerkannte Zertifizierungen in diesem Bereich zu erwerben. Obwohl diese Zertifizierungen je nach Region variieren können, genießen einige wie CISSP oder CEH weltweite Anerkennung.
+Eine solide Ausbildung in Informatik, Informationssystemen oder einem verwandten Bereich ist oft das ideale Sprungbrett, um einzusteigen. Diese Studiengänge bieten die notwendigen Grundlagen, um die technischen Herausforderungen der Cybersicherheit zu verstehen. Um diese Ausbildung zu ergänzen, ist es ratsam, anerkannte Zertifizierungen in diesem Bereich zu erwerben. Obwohl diese Zertifizierungen je nach Region variieren können, genießen einige wie CISSP oder CEH weltweite Anerkennung.
 
 Cybersicherheit ist ein breites und sich ständig weiterentwickelndes Gebiet. Es ist entscheidend, sich mit den wesentlichen Tools und verschiedenen Systemen vertraut zu machen. Darüber hinaus ist es von Vorteil, in den verschiedenen Untergebieten, von Incident Response bis hin zu Ethical Hacking, seine Nische zu finden und sich darauf zu spezialisieren.
 
 ### Praktische Erfahrung sammeln:
 
-Die Bedeutung praktischer Erfahrung darf nicht unterschätzt werden. Die Suche nach Praktika oder Juniorpositionen in Unternehmen mit IT-Sicherheitsteams ist eine hervorragende Möglichkeit, theoretisches Wissen in die Praxis umzusetzen. Darüber hinaus können die Teilnahme an Ethical Hacking-Wettbewerben oder Cybersicherheitssimulationen Ihre Fähigkeiten in konkreten Situationen verbessern.
+Die Bedeutung praktischer Erfahrung darf nicht unterschätzt werden. Die Suche nach Praktika oder Juniorpositionen in Unternehmen mit IT-Sicherheitsteams ist eine hervorragende Möglichkeit, theoretisches Wissen in die Praxis umzusetzen. Darüber hinaus können die Teilnahme an Ethical Hacking-Wettbewerben oder Cybersicherheitssimulationen deine Fähigkeiten in konkreten Situationen verbessern.
 
 Die Stärke eines beruflichen Netzwerks ist unbezahlbar. Der Beitritt zu Berufsverbänden, Hackerspaces oder Online-Foren bietet eine Plattform zum Austausch mit anderen Experten. Ebenso ermöglicht der Besuch von Konferenzen und Workshops zur Cybersicherheit nicht nur das Lernen, sondern auch das Knüpfen von Kontakten zu Fachleuten der Branche.
 
-Die ständige Weiterentwicklung von Bedrohungen erfordert regelmäßige Überwachung von Nachrichten und spezialisierten Foren. In einer Branche, in der Vertrauen von größter Bedeutung ist, ist ethisches und integeres Handeln in jeder Phase Ihrer Karriere unerlässlich.
+Die ständige Weiterentwicklung von Bedrohungen erfordert regelmäßige Überwachung von Nachrichten und spezialisierten Foren. In einer Branche, in der Vertrauen von größter Bedeutung ist, ist ethisches und integeres Handeln in jeder Phase deiner Karriere unerlässlich.
 
 ### Fähigkeiten und Tools zur Vertiefung:
 
@@ -481,7 +481,7 @@ Die ständige Weiterentwicklung von Bedrohungen erfordert regelmäßige Überwac
 - Ethical Hacking: Penetrationstechniken, Intrusionstests.
 - Governance: ISO-Standards, GDPR/CCPA-Vorschriften.
 
-Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um erfolgreich in der Welt der Cybersicherheit zu navigieren.
+Wenn du diese Fähigkeiten und Tools beherrschst, bist du gut gerüstet, um dich erfolgreich in der Welt der Cybersicherheit zurechtzufinden.
 ![](assets/notext/20.webp)
 
 ## Interview mit Renaud
@@ -494,7 +494,7 @@ Es gibt drei wichtige Dimensionen, die man berücksichtigen sollte, wenn man üb
 
 Es wird im Allgemeinen davon abgeraten, Browsererweiterungen zur automatischen Passworteingabe zu verwenden. Diese Tools können den Benutzer anfälliger für Phishing-Angriffe machen. Renaud, ein anerkannter Experte für Cybersicherheit, bevorzugt eine manuelle Verwaltung mit KeePass, was eine manuelle Kopier- und Einfügeaktion des Passworts bedeutet. Erweiterungen neigen dazu, die Angriffsfläche zu vergrößern, können die Leistung des Browsers verlangsamen und stellen daher ein nicht zu vernachlässigendes Risiko dar. Daher wird empfohlen, den Einsatz von Erweiterungen im Browser auf ein Minimum zu beschränken.
 
-Passwortmanager fördern in der Regel die Verwendung zusätzlicher Authentifizierungsfaktoren wie der Zwei-Faktor-Authentifizierung. Für maximale Sicherheit wird empfohlen, die Einmalpasswörter (OTP) auf dem Mobilgerät zu speichern. AndoTP bietet eine Open-Source-Lösung zum Generieren und Speichern von OTP-Codes auf dem Telefon. Obwohl Google Authenticator das Exportieren von Authentifizierungscodes ermöglicht, ist das Vertrauen in die Sicherung auf einem Google-Konto begrenzt. Daher werden die Anwendungen OTI und AndoTP für eine eigenständige Verwaltung von OTPs empfohlen.
+Passwortmanager fördern in der Regel die Verwendung zusätzlicher Authentifizierungsfaktoren wie der Zwei-Faktor-Authentifizierung. Für maximale Sicherheit wird empfohlen, die Einmalpasswörter (OTP) auf dem Mobilgerät zu speichern. AndoTP bietet eine Open-Source-Lösung zum Generieren und Speichern von OTP-Codes auf dem Telefon. Obwohl Google Authenticator das Exportieren von Authentifizierungscodes ermöglicht, ist das Vertrauen in die Sicherung auf einem Google-Konto begrenzt. Daher werden die Programme OTI und AndoTP für eine eigenständige Verwaltung von OTPs empfohlen.
 ![](assets/notext/21.webp)
 Die Frage des digitalen Erbes und der digitalen Trauer betont die Bedeutung eines Verfahrens zur Übertragung von Passwörtern nach dem Tod einer Person. Ein Passwortmanager erleichtert diesen Übergang, indem er alle digitalen Geheimnisse sicher an einem Ort speichert. Der Passwortmanager ermöglicht auch die Identifizierung aller geöffneten Konten und deren Schließung oder Übertragung. Es wird empfohlen, das Masterpasswort auf Papier zu notieren, aber es sollte an einem versteckten und sicheren Ort aufbewahrt werden. Wenn die Festplatte verschlüsselt und der Computer gesperrt ist, ist das Passwort selbst bei einem Einbruch nicht zugänglich.
 
@@ -507,15 +507,13 @@ Passkiz ist eine weitere praktikable und sichere Alternative zur Passwortverwalt
 
 Die direkte Authentifizierung beim betreffenden Dienst stellt eine interessante Option dar, um nicht mehr von Dritten abhängig zu sein. Allerdings birgt das von den Internetgiganten angebotene Single Sign-On (SSO) auch Probleme in Bezug auf Verfügbarkeit und Zensurrisiken. Um Datenlecks zu vermeiden, ist es entscheidend, die Menge an Informationen, die während des Authentifizierungsprozesses gesammelt werden, zu minimieren.
 
-### IT-Sicherheit: Notwendigkeit sicherer Praktiken und Risiken im Zusammenhang mit menschlichem Versagen
+### IT-Sicherheit: Notwendigkeit sicherer Praktiken und Risiken durch menschliches Versagen
 
 Die IT-Sicherheit kann durch einfache Praktiken und die Verwendung von Standardpasswörtern wie "admin" gefährdet werden. Für Angriffe sind nicht immer ausgeklügelte Methoden erforderlich, um die IT-Sicherheit zu gefährden. Zum Beispiel waren die Administratorpasswörter eines YouTube-Kanals im privaten Quellcode eines Unternehmens gespeichert. Sicherheitslücken sind oft auf menschliches Versagen zurückzuführen.
 
 Es ist auch zu beachten, dass das Internet sehr zentralisiert und weitgehend unter amerikanischer Kontrolle steht. Der DNS-Server kann Zensur unterliegen und verwendet oft falsche DNS, um den Zugriff auf bestimmte Websites zu blockieren. DNS ist ein veraltetes und unzureichend sicheres Protokoll, was zu Sicherheitsproblemen führen kann. Neue Protokolle wie DNSsec sind aufgetaucht, werden aber noch wenig genutzt. Um Zensur und Werbeblockaden zu umgehen, können alternative DNS-Anbieter gewählt werden.
 
 Alternativen zu aufdringlicher Werbung sind unter anderem [Google DNS](https://developers.google.com/speed/public-dns/), [OpenDNS](https://www.opendns.com/) und andere unabhängige Dienste. Das Standard-DNS-Protokoll lässt DNS-Anfragen für den Internetdienstanbieter sichtbar. Mit [DOH (DNS over HTTPS)](https://en.wikipedia.org/wiki/DNS_over_HTTPS) und [DOT (DNS over TLS)](https://en.wikipedia.org/wiki/DNS_over_TLS) kann die DNS-Verbindung verschlüsselt werden, was eine höhere Vertraulichkeit und Sicherheit bietet. Diese Protokolle werden aufgrund ihrer höheren Sicherheit häufig in Unternehmen eingesetzt und werden von Windows, Android und iPhone nativ unterstützt. Um DOH und DOT zu verwenden, muss ein TLS-Hostname anstelle einer IP-Adresse eingegeben werden. Die kostenlosen Anbieter von DOH und DOT sind online verfügbar. DOH und DOT verbessern den Datenschutz und die Sicherheit, indem sie "Man-in-the-Middle"-Angriffe verhindern.
-
-Weitere Schlüsselüberlegungen
 
 Es ist auch erwähnenswert, dass es ein System namens "Lightning authentication" gibt. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
@@ -533,7 +531,7 @@ Es ist auch erwähnenswert, dass es ein System namens "Lightning authentication"
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Abschluss
+## Zusammenfassung
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

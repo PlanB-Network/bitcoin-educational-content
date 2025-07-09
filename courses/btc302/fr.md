@@ -203,7 +203,7 @@ Quelques mois plus tard, **lorsque vos meet-ups seront réguliers, vous pourriez
 
 
 Gardez cependant en tête que créer une communauté ne se fait pas en claquant des doigts: **cela demande du temps, de la motivation et un peu d'organisation**.
-Parfois, cela peut même être démoralisant; en particulier lorque personne ne se présente à l'un de vos meet-ups et que vous vous sentez seul à porter cette cause sur vos épaules.
+Parfois, cela peut même être démoralisant; en particulier lorsque personne ne se présente à l'un de vos meet-ups et que vous vous sentez seul à porter cette cause sur vos épaules.
 
 C'est la raison pour laquelle **ce cours a été construit dans l'objectif de vous partager toutes les ressources et astuces existantes actuellement, afin que votre communauté puisse se développer le mieux possible et devenir autonome**.
 
@@ -739,7 +739,7 @@ Si vous souhaitez toutefois **anticiper certains blancs, vous pouvez prévoir di
 - la **[carte btcmap.org](https://btcmap.org/)** des communautés et des commerces;
 - l'envoi / la réception de Bitcoin en **Lightning**.
 
-À noter toutefois: lorque le meet-up n'est qu'à ses débuts, il n'est pas forcément pertinent de réaliser une présentation formelle. Lorsque vous êtes peu, il semble en effet préférable de réaliser cela sous la forme de discussion, de manière plus ouverte et plus conviviale.
+À noter toutefois: lorsque le meet-up n'est qu'à ses débuts, il n'est pas forcément pertinent de réaliser une présentation formelle. Lorsque vous êtes peu, il semble en effet préférable de réaliser cela sous la forme de discussion, de manière plus ouverte et plus conviviale.
 
 ![image](assets/fr/030.webp)
 
@@ -1448,7 +1448,7 @@ Quoi qu'il en soit, **n'oubliez pas que vous n'êtes pas seul(e) et que les comm
 ## Faire attention à soi
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-Lorque l'on tombe dans le terrier du lapin, notre conception de la vie change.
+Lorsque l'on tombe dans le terrier du lapin, notre conception de la vie change.
 Cela nous pousse alors à vouloir - au plus profond de nous-même - aller plus loin; à vouloir découvrir ces autres personnes qui font le même travail d'esprit que nous et qui, elles aussi, ont compris.
 
 Cela nous motive et nous donne encore plus envie d'**apporter notre pierre à l'édifice** , en partageant notre trouvaille: Bitcoin.
@@ -1489,6 +1489,18 @@ Pour ce faire, nous partirons de l'expérience de plusieurs communautés ayant e
 ![image](assets/fr/063.webp)
 
 
-## Évaluez ce cours
+
+# Section finale
+<partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
+
+## Avis & Notes
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
+
+## Examen final
+<chapterId>078f7a57-f39f-45b0-a105-c9ae9da0bc36</chapterId>
+<isCourseExam>false</isCourseExam>
+
+## Conclusion
+<chapterId>d74606a5-cb14-4117-acb2-2bf5920de092</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

@@ -75,7 +75,7 @@ Pour aller au-delà des simples rencontres, nous vous proposerons dans cette sec
 **Section 7 : Anticiper le futur**  
 Enfin, nous aborderons l'évolution naturelle de votre communauté. Que faire si votre groupe grandit trop rapidement ? Comment décentraliser l'organisation ? Et comment réagir si l'environnement réglementaire devient hostile ? Cette section vous aidera à anticiper les défis à venir.  
 
-**Section 8 : Rassembler les Bitcoiners**  
+**Section 8 : Rassembler les bitcoiners**  
 Cette dernière section porte sur l'essence même de votre projet : fédérer les passionnés de Bitcoin autour d'une vision commune. Vous apprendrez comment structurer votre démarche pour attirer et fidéliser de nouveaux membres, comment déléguer les tâches au sein de votre groupe, et comment faire grandir votre communauté de manière durable.
 
 Prêt à découvrir comment bâtir une communauté Bitcoin solide et dynamique ? Allons-y !  
@@ -1389,7 +1389,7 @@ Bien sûr, il ne faut pas tomber dans une forme de complotisme. Mais **rien ne n
 
 ![image](assets/fr/060.webp)
 
-# Rassembler les Bitcoiners
+# Rassembler les bitcoiners
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
 ## Un plan d'action résumé pour créer sa communauté Bitcoin
@@ -1481,7 +1481,7 @@ L'intérêt d'en créer une est dual:
 
 Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à la formation COMMU302 puisse sortir sur [planb.network](https://planb.network/) dans les prochains mois**.
 
-À travers celle-ci, **différents points plus poussés pourront être abordés; tels que: comment construire des présentations ou des ateliers pour ses meet-ups, et avec quels objectifs? Mais aussi, comment mettre en place un événement de grande envergure, à une centaine de participants**.
+À travers celle-ci, **différents points plus poussés pourront être abordés; tels que: comment construire des présentations ou des ateliers pour ses meet-ups, et avec quels objectifs? Mais aussi : comment mettre en place un événement de grande envergure, à une centaine de participants**.
 
 Pour ce faire, nous partirons de l'expérience de plusieurs communautés ayant elles-mêmes déjà réalisées leurs propres événements et présentations.
 

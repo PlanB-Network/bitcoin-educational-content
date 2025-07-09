@@ -7,13 +7,13 @@ objectives:
   - Richte eine Zwei-Faktor-Authentifizierung zur Stärkung deiner Datensicherheit ein und minimiere so das Risiko gehackt zuwerden.
 ---
 
-# Ein Aufbruch zum Schutz Ihrer Daten
+# Ein Aufbruch zum Schutz deiner Daten
 
 Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, dir das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu agieren.
 
 Dies wird durch die Einrichtung und Verwendung mehrerer Tools erreicht, wie z.B. einem sicheren E-Mail-Dienst, einem Passwort-Manager und mehreren Programmen zur Verbesserung deiner Online-Datensicherheit.
 
-In diesem Kurs geht es nicht darum, dich zu einem Experten, vollständig anonym oder gar unangreifbar zu machen, denn dies ist unmöglich. Stattdessen bieten wir dir einfache und für jeden zugängliche Lösungen an, um deine Online-Gewohnheiten zu verändern und deine digitale Souveränität zurückzugewinnen.
+In diesem Kurs geht es nicht darum, dich zu einem Experten, vollständig anonym oder gar unangreifbar zu machen, denn dies ist unmöglich. Stattdessen bieten wir dir einfache und für jeden zugängliche Lösungen an, um dein Verhalten Online zu verändern und deine digitale Souveränität zurückzugewinnen.
 
 Teammitglieder:
 Muriel; Design
@@ -42,7 +42,7 @@ Dieses Training ist eine Zusammenarbeit von drei unserer Professoren:
 - Théo Pantamis, Doktor der angewandten Mathematik
 - Rogzy, Mit-Gründer von Plan ₿ Network
 
-Deine digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und sich zu schützen.
+Deine digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und dich zu schützen.
 In diesem Kurs geht es nicht darum, dich zu einem Experten, vollständig anonym oder gar unangreifbar zu machen, denn dies ist unmöglich. Stattdessen bieten wir dir einfache und für jeden zugängliche Lösungen an, um deine Online-Gewohnheiten zu verändern und deine digitale Souveränität zurückzugewinnen.
 
 Wenn du fortgeschrittene Fähigkeiten zu diesem Thema erwerben möchtest, stehen dir unsere weiterführenden Unterlagen, Tutorials oder Kurse zur Cybersicherheit zur Verfügung. In der Zwischenzeit erhältst du einen kleinen Einblick in unser Programm für die kommenden Stunden zusammen.
@@ -56,7 +56,7 @@ Zum Einstieg werden wir über die Bedeutung der Auswahl deines Web-Browsers und 
 
 ![](assets/de/1.webp)
 
-**Abschnitt 2: Best practices bei der Nutzung des Computers**
+**Abschnitt 2: Bewährte Praxis bei der Nutzung des Computers**
 
 - Kapitel 3 - Computer-Nutzung
 - Kapitel 4 - Hacken & Backup-Management
@@ -97,7 +97,7 @@ Es wird auch empfohlen, Open-Source-Software zu bevorzugen, da sie oft sicherer 
 > Bonus: Open-Source-Software ist oft kostenlos! Diese Universität ist zu 100% Open Source, daher können Sie unseren Code auch in unserem GitHub überprüfen.
 > ![](assets/notext/5.webp)
 
-### Cookie-Verwaltung: Fehler und best practices
+### Cookie-Verwaltung: Fehler und bewährte Praxis
 
 Cookies sind Dateien, die von Websites erstellt werden, um Informationen auf Ihrem Gerät zu speichern. Obwohl einige Websites diese Cookies benötigen, um ordnungsgemäß zu funktionieren, können sie auch von Drittanbieter-Websites, insbesondere zu Werbezwecken, genutzt werden. Gemäß Vorschriften wie der DSGVO ist es möglich - und empfohlen -, Tracking-Cookies von Drittanbietern abzulehnen, während man diejenigen akzeptiert, die für das ordnungsgemäße Funktionieren der Website unerlässlich sind. Nach jedem Besuch auf einer Website ist es ratsam, die damit verbundenen Cookies zu löschen, entweder manuell oder über eine spezifische Erweiterung oder ein Programm. Einige Browser bieten auch die Möglichkeit, diese Löschung selektiv durchzuführen. Trotz dieser Vorsichtsmaßnahmen ist es wichtig zu verstehen, dass die von verschiedenen Websites gesammelten Informationen miteinander verbunden bleiben können, daher ist es wichtig, eine Balance zwischen Komfort und Sicherheit zu finden.
 
@@ -111,7 +111,7 @@ Obwohl beide Familien ein ähnliches Sicherheitsniveau bieten, wird empfohlen, d
 
 ### Privates Surfen, [TOR](https://planb.network/resources/glossary/tor-the-onion-router) und weitere Alternativen für sicheres und anonymes Surfen
 
-Das private Surfen verhindert zwar nicht, dass dein Internetdienstanbieter deine Aktivitäten verfolgt, hinterlässt jedoch keine lokalen Spuren auf deinem Computer. Cookies werden automatisch am Ende jeder Sitzung gelöscht, sodass alle Cookies akzeptiert werden können, ohne verfolgt zu werden. Das private Surfen kann beim Online-Einkauf nützlich sein, da Websites unsere Suchgewohnheiten verfolgen und die Preise entsprechend anpassen. Es ist jedoch wichtig zu beachten, dass das private Surfen für temporäre und spezifische Sitzungen empfohlen wird und nicht für die allgemeine Internetnutzung.
+Das Surfen im Privat-Modus verhindert zwar nicht, dass dein Internetdienstanbieter deine Aktivitäten verfolgt, hinterlässt jedoch keine lokalen Spuren auf deinem Computer. Cookies werden automatisch am Ende jeder Sitzung gelöscht, sodass alle Cookies akzeptiert werden können, ohne verfolgt zu werden. Das private Surfen kann beim Online-Einkauf nützlich sein, da Websites unsere Suchgewohnheiten verfolgen und die Preise entsprechend anpassen. Es ist jedoch wichtig zu beachten, dass das private Surfen für temporäre und spezifische Sitzungen empfohlen wird und nicht für die allgemeine Internetnutzung.
 
 Eine fortgeschrittenere Alternative ist das [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Netzwerk (The Onion Router), das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht. Der [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Browser ist ein speziell für die Nutzung des [TOR](https://planb.network/resources/glossary/tor-the-onion-router)-Netzwerks entwickelter Browser. Er ermöglicht den Besuch von herkömmlichen Websites sowie von .onion-Websites, die in der Regel von Einzelpersonen betrieben werden und illegal sein können.
 
@@ -153,7 +153,7 @@ Um Online-Betrug zu vermeiden, ist es entscheidend, die Identität der besuchten
 ![](assets/de/10.webp)
 Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für Unternehmen als auch für private Benutzer erheblich verbessern. Darüber hinaus kann das Einhalten guter Browsing-Gewohnheiten zu einer besseren digitalen Hygiene beitragen. Im nächsten Abschnitt dieses Kurses werden wir die Computersicherheit behandeln, einschließlich Updates, Antivirensoftware und Passwortverwaltung.
 
-# Best practices für den Umgang mit Computern
+# Bewährte Praxis für den Umgang mit Computern
 
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
@@ -165,7 +165,7 @@ Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digit
 
 - Die Auswahl des Computers
 - Updates und Antivirensoftware für optimale Sicherheit
-- Best practices für die Sicherheit deines Computers und deiner Daten.
+- Bewährte Praxis für die Sicherheit deines Computers und deiner Daten.
 
 ### Die Auswahl des Computers und des Betriebssystems
 
@@ -361,7 +361,7 @@ Du hast verstanden, dass die Umsetzung einer guten digitalen Hygiene zwar nicht 
 - Aktivieren von 2FA.
 - Schrittweises Ersetzen unserer alten Passwörter durch starke Passwörter mit 2FA.
 
-Höre nie auf zu lernen und setze nach und nach die best practices um!
+Höre nie auf zu lernen und setze nach und nach die bewährte Praxis um!
 
 Goldene Regel: IT-Sicherheit ist ein sich ständig bewegendes Ziel, das sich an deinen Lernfortschritt anpasst!
 

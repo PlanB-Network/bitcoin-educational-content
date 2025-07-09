@@ -1,0 +1,12 @@
+question: Varför är Bitcoin inte allmänt accepterat inom handeln idag?
+answer: Eftersom det inte är allmänt antaget av individer.
+wrong_answers:
+  - Eftersom den inte är transportabel.
+  - Eftersom det inte är delbart i små enheter.
+  - För att det inte är Liquid.
+explanation: |
+  Trots dess egenskaper, såsom dess strikt begränsade
+  Supply, är Bitcoin fortfarande inte allmänt accepterad i handeln
+  idag, på grund av bristen på antagande av individer, så
+  handlare uppmuntras inte att acceptera det.
+reviewed: true

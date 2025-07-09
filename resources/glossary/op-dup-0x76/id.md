@@ -2,4 +2,4 @@
 term: OP_DUP (0X76)
 
 ---
-Menduplikasi bagian atas tumpukan. Item di bagian atas tumpukan disalin, dan salinannya ditempatkan di atas tumpukan.
+Menduplikasi item di bagian atas _stack_. Item di bagian atas _stack_ disalin, dan salinannya ditempatkan di atas _stack_.

@@ -1,0 +1,9 @@
+question: Vilken roll har disputatio i den skolastiska metoden?
+answer: Den främjar utvecklingen av kritiskt tänkande och argumentationsförmåga.
+wrong_answers:
+  - Det gör att eleverna kan memorera trosdogmerna utan att ifrågasätta dem.
+  - Den syftar till att slutgiltigt lösa teologiska debatter och komma fram till en unik sanning.
+  - Den används för att ritualisera relationerna mellan mästare och elever och för att hävda kyrkans auktoritet.
+explanation: |
+  Disputatio är en central övning i den skolastiska metoden och uppmuntrar studenterna att utveckla sitt kritiska tänkande och att argumentera på ett stringent sätt, vilket bidrar till en djup reflektion över filosofiska och teologiska frågor.
+reviewed: true

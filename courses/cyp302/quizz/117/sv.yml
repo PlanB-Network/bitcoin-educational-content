@@ -1,0 +1,9 @@
+question: I vilket skede av AES-krypteringen används Galoisfält?
+answer: I byteersättning och MixColumns-operationen
+wrong_answers:
+  - Vid generering av den privata nyckeln
+  - När du delar upp texten i 128-bitarsblock
+  - Vid varje steg i XOR-operationen
+explanation: |
+  Galoisfält används i byte-substitution för att beräkna den multiplikativa inversen och i MixColumns-operationen för att utföra multiplikationer modulo ett irreducibelt polynom.
+reviewed: false

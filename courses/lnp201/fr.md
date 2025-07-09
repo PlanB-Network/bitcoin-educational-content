@@ -87,7 +87,7 @@ Prenons un exemple de transaction Lightning. Si Alice souhaite envoyer 40 000 sa
 
 La **capacité du canal**, soit 130 000 satoshis, reste constante. Ce qui change, c'est l'allocation des fonds. Ce système ne permet pas d'envoyer plus de fonds que ce que l'on possède. Par exemple, si Bob souhaitait renvoyer 80 000 satoshis à Alice, il ne pourrait pas, car il n'en possède que 70 000.
 
-Une autre manière d'imaginer l'allocation des fonds est d'imaginer un **curseur** qui indique où se trouvent les fonds dans le canal. Au départ, avec 100 000 satoshis pour Alice et 30 000 pour Bob, le curseur est logiquement du côté d'Alice. Après la transaction de 40 000 satoshis, le curseur se déplacera légèrement du côté de Bob, qui possède désormais 70 000 satoshis.
+Une autre manière d'imaginer l'allocation des fonds est d'imaginer un **curseur** qui indique où se trouvent les fonds dans le canal. Au départ, avec 100 000 satoshis pour Alice et 30 000 pour Bob, le curseur est plutôt du côté de Bob, car Alice a bien plus de fonds. Après la transaction de 40 000 satoshis, le curseur se déplacera légèrement du côté d'Alice, qui possède désormais 60 000 satoshis.
 
 ![LNP201](assets/fr/04.webp)
 

@@ -87,7 +87,7 @@ Tomemos un ejemplo de una transacción de Lightning. Si Alice quiere enviar 40,0
 
 La **capacidad del canal**, en 130,000 satoshis, permanece constante. Lo que cambia es la asignación de fondos. Este sistema no permite enviar más fondos de los que uno posee. Por ejemplo, si Bob quisiera enviar de vuelta 80,000 satoshis a Alice, no podría, porque solo tiene 70,000.
 
-Otra manera de imaginar la asignación de fondos es pensar en un **deslizador** que indica dónde están los fondos en el canal. Inicialmente, con 100,000 satoshis para Alice y 30,000 para Bob, el deslizador está lógicamente en el lado de Alice. Después de la transacción de 40,000 satoshis, el deslizador se moverá ligeramente hacia el lado de Bob, quien ahora tiene 70,000 satoshis.
+Otra forma de imaginar la asignación de fondos es imaginar un **cursor** que indique dónde se encuentran los fondos en el canal. Al principio, con 100.000 satoshis para Alice y 30.000 para Bob, el cursor está más del lado de Bob, ya que Alice tiene muchos más fondos. Después de la transacción de 40.000 satoshis, el cursor se desplazará ligeramente hacia Alice, que ahora tiene 60.000 satoshis.
 
 ![LNP201](assets/en/04.webp)
 

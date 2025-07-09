@@ -1,0 +1,14 @@
+question: Varför är Proof of Work en viktig del av Bitcoin-nätverket?
+answer: Den utgör den fysiska länken mellan den verkliga världen och Bitcoin, och kräver konkret energi för produktion och validering av bitcoins och block.
+wrong_answers:
+  - Det gör det möjligt för gruvarbetare att delta i liten skala, särskilt på platser med hög censur.
+  - Det garanterar ett skydd mot centralisering.
+  - Det återspeglar befintliga maktskillnader i samhället.
+explanation: |
+  Proof of Work är en viktig del av Bitcoin-nätverket eftersom
+  eftersom den utgör den fysiska länken mellan den verkliga världen och
+  Bitcoin. Produktionen och valideringen av bitcoins och
+  block kräver påtaglig energi, vilket förankrar Bitcoin
+  nätverket i den fysiska verkligheten och förhindrar att det helt
+  dominans av mäktiga enheter.
+reviewed: true

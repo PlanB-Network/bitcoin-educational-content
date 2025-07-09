@@ -1,0 +1,10 @@
+question: Vad är huvudsyftet med BIP47?
+answer: Att ha en unik identifierare för att ta emot BTC utan att återanvända adresser.
+wrong_answers:
+  - Öka storleken på blocken för snabbare transaktioner.
+  - Tillåt avgiftsfria transaktioner i Bitcoin-nätverket.
+  - Gör transaktioner helt anonymt på Bitcoin.
+explanation: |
+  Målet med BIP47 är att tillhandahålla en unik identifierare som gör det möjligt att ta emot bitcoins flera gånger och från flera personer, men utan att återanvända adresser, eftersom detta är en mycket dålig praxis för användarnas integritet.
+  
+reviewed: false

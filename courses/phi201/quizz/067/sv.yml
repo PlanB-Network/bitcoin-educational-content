@@ -1,0 +1,9 @@
+question: Vilken är den centrala idén i Voltaires passage om London Stock Exchange?
+answer: Affärsmän av alla religioner lägger sina olikheter åt sidan för att fokusera på ömsesidig vinst.
+wrong_answers:
+  - Världens olika religioner samlas vid Stock Exchange för att utöva sin tro i fred.
+  - London Stock Exchange är en plats för spekulation och korruption där moraliska värden ignoreras.
+  - Religion har ingen plats i en affärsvärld som domineras av konkurrens och individualism.
+explanation: |
+  Voltaire framhåller att affärsmännen på London Stock Exchange överskrider sina religiösa skillnader för att samarbeta mot ett gemensamt ekonomiskt mål, vilket illustrerar att materiella intressen går före religiösa motsättningar.
+reviewed: true

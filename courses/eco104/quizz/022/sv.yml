@@ -1,0 +1,11 @@
+question: Hur kan stablecoins bidra till att minska kostnaderna för penningförsändelser?
+answer: Genom att erbjuda lägre avgifter än traditionella tjänster
+wrong_answers:
+  - Genom att tillhandahålla kostnadsfria penningöverföringstjänster
+  - Genom att ge individer bättre Exchange-priser än traditionella tjänster
+  - Genom att digitalisera fiatvalutor
+explanation: |
+  Stablecoins, till skillnad från traditionella penningöverföringstjänster, har betydligt
+  lägre avgifter eftersom de inte kräver mellanhänder som banker eller penningöverföringstjänster
+  eller penningöverföringstjänster.
+reviewed: true

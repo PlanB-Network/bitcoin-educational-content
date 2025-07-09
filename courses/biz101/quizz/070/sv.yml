@@ -1,0 +1,9 @@
+question: Vilka avancerade funktioner efterfrågas vanligtvis av företag med professionell profil?
+answer: Avancerade instrumentpaneler för rapportering och flera administrativa roller
+wrong_answers:
+  - Grundläggande transaktionsregistrering och standardkvitton
+  - Enkel Wallet-integration och generering av QR-koder
+  - Automatisk konvertering till fiat utan några rapporteringsalternativ
+explanation: |
+  Professionella företag kräver anpassningsbara fakturor, sofistikerad rapportering och rollhantering för att passa deras komplexa arbetsflöden.
+reviewed: false

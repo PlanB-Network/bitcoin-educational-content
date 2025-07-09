@@ -1,0 +1,8 @@
+question: Om egendom är en institution som inrättats av den allmänna viljan, som Rousseau tror, vad blir då konsekvensen?
+answer: Lagstiftaren kan organisera, ändra eller till och med avskaffa egendom
+wrong_answers:
+  - Lagstiftaren är då bunden av denna konvention och kan inte röra egendom
+  - Den allmänna viljan vill aldrig röra egendom
+  - Lagstiftaren är skyldig att skydda egendom utan undantag
+explanation: |
+  Enligt Rousseau kan egendom, eftersom den uppstår ur den allmänna viljan, ändras eller avskaffas av lagstiftaren i enlighet med samma vilja.

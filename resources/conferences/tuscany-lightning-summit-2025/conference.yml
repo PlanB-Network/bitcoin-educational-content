@@ -1,0 +1,21 @@
+id: 3a8ee0a5-8426-4abd-9421-325f8ccbda49
+year: 2025-05
+name: Tuscany Lightning Summit 2025
+builder: Tuscany Lightning Summit
+location: Viareggio, Italy
+language:
+- en
+links:
+  twitter: https://x.com/tuscanysummit
+  website: https://tuscanysummit.com/
+tags:
+- development
+#proofreading_metadata
+original_language: en
+proofreading:
+- language: en
+  last_contribution_date: '2025-06-10'
+  urgency: 0
+  contributors_id:
+  - jramos0
+  reward: 0

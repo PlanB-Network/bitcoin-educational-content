@@ -1,0 +1,10 @@
+question: Vad är skillnaden mellan extern och intern återanvändning av Address i en transaktion?
+answer: Extern återanvändning observeras över flera transaktioner, medan intern återanvändning observeras inom samma transaktion.
+wrong_answers:
+  - Extern återanvändning gäller offentliga adresser, medan intern återanvändning gäller privata adresser som används i transaktionsskript.
+  - Intern återanvändning observeras över flera transaktioner, medan extern återanvändning observeras inom samma transaktion.
+  - Intern återanvändning gäller offentliga adresser, medan extern återanvändning gäller privata adresser som används i transaktionsskript.
+explanation: |
+  Extern återanvändning av Address observeras när en Address återanvänds i flera olika transaktioner, medan intern återanvändning gäller en Address som används både i inmatningen och i utmatningen i samma transaktion.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hur förhindrar RGB Double-spending under en State Transition?
+answer: Stänga en befintlig Seal och skapa en ny
+wrong_answers:
+  - Genom att verifiera alla transaktioner på Blockchain
+  - Genom att införa multi-sig-signaturer för varje transaktion
+  - Validering av Global State-data
+explanation: |
+  Att stänga en Seal med en förbrukad UTXO bevisar att en övergång är unik och oåterkallelig.
+reviewed: false

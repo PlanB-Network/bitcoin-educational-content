@@ -1,0 +1,9 @@
+question: Vilka var de första filosoferna som försökte förstå naturen med hjälp av förnuftet?
+answer: De försokratiska filosoferna
+wrong_answers:
+  - De grekiska prästerna
+  - De grekiska poeterna
+  - De grekiska matematikerna
+explanation: |
+  De försokratiska filosoferna var de första som använde förnuftet för att förstå naturen och sökte efter rationella och universella principer för att förklara världen, oberoende av mytologiska förklaringar.
+reviewed: true

@@ -1,4 +1,4 @@
-question: Frédéric Bastiat je umro u Rimu, Italija, i sahranjen je na groblju Saint-Sever u Bayonneu, Francuska.
+question: Frédéric Bastiat je umro u Rimu, u Italiji, i sahranjen je na groblju Saint-Sever u Bayonneu, u Francuskoj.
 answer: U Rimu
 wrong_answers:
   - U Mugronu
@@ -6,3 +6,4 @@ wrong_answers:
   - U Bajoni
 explanation: |
   Frédéric Bastiat je umro u Rimu 1850. godine i sahranjen je u crkvi Svetog Luja Francuskog.
+reviewed: true

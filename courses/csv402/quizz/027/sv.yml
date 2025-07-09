@@ -1,0 +1,9 @@
+question: Vad är den objektorienterade programmeringens (OOP) motsvarighet till Schema-komponenten i RGB-sammanhanget?
+answer: Klassdefinition
+wrong_answers:
+  - Klassens konstruktör
+  - Implementering av en Interface
+  - Prototypframtagning av metoder
+explanation: |
+  Schema motsvarar definitionen av en klass i OOP, som beskriver egenskaper, metoder och regler i Business Logic.
+reviewed: false

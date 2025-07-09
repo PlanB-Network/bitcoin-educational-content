@@ -1,0 +1,10 @@
+question: Vad kallas händelsen när belöningen för Mining Bitcoin-transaktioner halveras?
+answer: Halving
+wrong_answers:
+  - Fördubbling
+  - Kvarsittning
+  - Trippel
+explanation: |
+  Den programmerade minskningen av Mining-belöningar, Halving vart fjärde
+  fyra år, är en händelse som kallas Halving.
+reviewed: true

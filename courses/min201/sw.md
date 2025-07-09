@@ -16,7 +16,6 @@ Katika mafunzo haya, tutazama katika tasnia ya Mining ili kuondoa ufahamu wa som
 Sehemu ya kwanza itakuwa ya kinadharia, ambapo mimi na Ajelex tutakuwa na mjadala wa kina juu ya mada mbalimbali zinazohusiana na Mining. Hii itatusaidia kuelewa vyema tasnia hii na masuala ya kiuchumi na kijiografia yanayohusiana nayo.
 
 Katika sehemu ya pili, tutashughulikia kesi ya vitendo. Hakika, tutajifunza jinsi ya kubadilisha S9 Miner iliyotumika kwenye mfumo wa kupokanzwa nyumbani! Kupitia miongozo na video zilizoandikwa, tutaonyesha na kuelezea hatua zote za kufanikisha hili nyumbani kwako :)
-
 Kupitia video hii, tunatumai kukuonyesha kuwa tasnia ya Mining ni ngumu zaidi kuliko inavyoonekana, na kuisoma kunasaidia kutofautisha mjadala wa kiikolojia unaohusishwa nayo!
 
 Ikiwa unahitaji usaidizi kuhusu usanidi wako, kikundi cha Telegramu kimeundwa kwa ajili ya wanafunzi, na vipengele vyote muhimu vinaweza kupatikana kwenye jukwaa letu la e-commerce!
@@ -74,13 +73,13 @@ Je, uko tayari kuanza tukio hili la kuvutia? Hebu tuzame pamoja katika ulimwengu
 
 ### Mining ilieleza: mlinganisho wa mafumbo
 
-Ili kueleza dhana ya Mining kwa njia iliyorahisishwa, mlinganisho unaofaa unaweza kutumika: ule wa fumbo. Kama fumbo, Mining ni kazi ngumu kutekeleza lakini ni rahisi kuthibitisha mara tu itakapokamilika. Katika muktadha wa Bitcoin Mining, wachimbaji hujitahidi kutatua haraka fumbo la dijiti. Miner ya kwanza ya kusuluhisha fumbo inatoa suluhisho lao kwa mtandao mzima, ambao unaweza kuthibitisha uhalali wake kwa urahisi. Uthibitishaji huu uliofaulu huruhusu Miner kuhalalisha kizuizi kipya na kuiongeza kwenye Msururu wa Muda wa Bitcoin. Kwa kutambua kazi yao, ambayo inahusisha gharama kubwa, Miner inalipwa kwa idadi fulani ya bitcoins. Zawadi hii hutumika kama motisha ya kifedha kwa wachimba migodi kuendelea na kazi yao ya kuthibitisha miamala na kupata mtandao wa Bitcoin.
+Ili kueleza dhana ya Mining kwa njia iliyorahisishwa, mlinganisho unaofaa unaweza kutumika: ule wa fumbo. Kama fumbo, Mining ni kazi ngumu kutekeleza lakini ni rahisi kuthibitisha mara tu itakapokamilika. Katika muktadha wa Bitcoin Mining, wachimbaji hujitahidi kutatua haraka fumbo la dijiti. Miner ya kwanza ya kusuluhisha fumbo inatoa suluhisho lao kwa mtandao mzima, ambao unaweza kuthibitisha uhalali wake kwa urahisi. Uthibitishaji huu uliofaulu huruhusu Miner kuhalalisha kitalu kipya na kuiongeza kwenye Msururu wa Muda wa Bitcoin. Kwa kutambua kazi yao, ambayo inahusisha gharama kubwa, Miner inalipwa kwa idadi fulani ya bitcoins. Zawadi hii hutumika kama motisha ya kifedha kwa wachimba migodi kuendelea na kazi yao ya kuthibitisha miamala na kupata mtandao wa Bitcoin.
 
 ![image](assets/en/01.webp)
 
 Hapo awali katika mtandao wa Bitcoin, tuzo iliyotunukiwa ilikuwa bitcoins 50 kila dakika kumi, sambamba na ugunduzi wa block kila dakika kumi kwa wastani na wachimbaji. Zawadi hii hupitia Halving kila vitalu 210,000, takriban kila baada ya miaka minne. Malipo haya yanatumika kama kichocheo chenye nguvu cha kuwahimiza wachimba migodi kushiriki katika mchakato wa Mining licha ya gharama yake ya nishati. Bila malipo, Mining inayotumia umeme mwingi ingeachwa, na hivyo kuhatarisha usalama na uthabiti wa mtandao mzima wa Bitcoin.
 
-Tuzo la sasa la Mining ni mara mbili. Kwa upande mmoja, inajumuisha kuundwa kwa bitcoins mpya, ambayo imepungua kutoka kwa bitcoins 50 kila dakika kumi awali hadi 6.25 bitcoins leo (2023). Kwa upande mwingine, inajumuisha ada za ununuzi, au ada za Mining, kutoka kwa shughuli ambazo Miner inachagua kujumuisha kwenye kizuizi chao. Wakati muamala wa Bitcoin unafanywa, ada za muamala hulipwa. Ada hizi hufanya kazi kama aina ya mnada ambapo watumiaji huonyesha ni kiasi gani wako tayari kulipa ili muamala wao ujumuishwe kwenye block inayofuata. Ili kuongeza thawabu yao, wachimbaji, wakitenda kwa maslahi yao wenyewe, chagua miamala yenye faida zaidi ili kujumuisha kwenye kizuizi chao, kwa kuzingatia nafasi ndogo inayopatikana. Kwa hivyo, malipo ya Mining yanajumuisha kizazi cha bitcoins mpya na ada za manunuzi, kuhakikisha motisha inayoendelea kwa wachimbaji na kuhakikisha maisha marefu na usalama wa mtandao wa Bitcoin.
+Tuzo la sasa la Mining ni mara mbili. Kwa upande mmoja, inajumuisha kuundwa kwa bitcoins mpya, ambayo imepungua kutoka kwa bitcoins 50 kila dakika kumi awali hadi 3.125 bitcoins leo (2025). Kwa upande mwingine, inajumuisha ada za ununuzi, au ada za Mining, kutoka kwa shughuli ambazo Miner inachagua kujumuisha kwenye kizuizi chao. Wakati muamala wa Bitcoin unafanywa, ada za muamala hulipwa. Ada hizi hufanya kazi kama aina ya mnada ambapo watumiaji huonyesha ni kiasi gani wako tayari kulipa ili muamala wao ujumuishwe kwenye block inayofuata. Ili kuongeza thawabu yao, wachimbaji, wakitenda kwa maslahi yao wenyewe, chagua miamala yenye faida zaidi ili kujumuisha kwenye kizuizi chao, kwa kuzingatia nafasi ndogo inayopatikana. Kwa hivyo, malipo ya Mining yanajumuisha kizazi cha bitcoins mpya na ada za manunuzi, kuhakikisha motisha inayoendelea kwa wachimbaji na kuhakikisha maisha marefu na usalama wa mtandao wa Bitcoin.
 
 ### Wachimbaji na zana zao: Mining
 
@@ -121,7 +120,7 @@ Kwa kumalizia, sekta ya Bitcoin Mining inaendelea kubadilika na kustawi, na wahu
 
 <chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
-### Mining mabwawa
+### Mining pools 
 
 Kwa sasa, Bitcoin Mining imebadilika na kuwa sekta kubwa na kubwa, na wachezaji wengi sasa wanajulikana hadharani na kuongezeka kwa idadi ya wachimbaji muhimu. Mageuzi haya yameifanya Mining isiweze kufikiwa na wachezaji wadogo kutokana na gharama kubwa inayohusishwa na kupata mashine mpya za Mining. Hii inazua swali la usambazaji wa Hashrate kati ya wachezaji mbalimbali wa soko. Hali ni ngumu kwa sababu ni muhimu kuchunguza usambazaji wa Hashrate kati ya makampuni tofauti na kati ya bwawa tofauti za Mining.
 
@@ -129,7 +128,7 @@ Kwa sasa, Bitcoin Mining imebadilika na kuwa sekta kubwa na kubwa, na wachezaji 
 
 Mining pool ni kundi la wachimba migodi wanaochanganya rasilimali zao za kompyuta ili kuongeza nafasi zao za Mining. Ushirikiano huu ni muhimu kwa sababu mashine ndogo ya Mining iliyotengwa inashindana dhidi ya makampuni makubwa ya sekta, na hivyo kupunguza nafasi zake za kufaulu hadi kiwango kidogo. Mining inafanya kazi kwa kanuni ya bahati nasibu, na nafasi za kushinda block (na kwa hivyo tuzo ya Bitcoin) kila dakika kumi ni ya chini sana kwa Miner ndogo. Kwa kuunganisha pamoja, wachimbaji wanaweza kuchanganya nguvu zao za kompyuta, kutafuta vizuizi mara kwa mara, na kisha kusambaza zawadi sawia kwa mchango wa kila Miner kwenye bwawa.
 
-Kwa mfano, ikiwa bwawa litapata block na kushinda bitcoins 6.25, Miner inayochangia 1% ya jumla ya nguvu ya kompyuta ya bwawa itapokea 1% ya bitcoins 6.25 zilizopatikana. Hata hivyo, ni lazima ieleweke kwamba mabwawa ya Mining kwa ujumla huchukua tume ndogo (kawaida karibu 2%) ili kufidia gharama za uendeshaji wa ushirika.
+Kwa mfano, iwapo kikundi cha wachimbaji (mining pool) kitapata kitalu na kushinda zawadi ya bitcoin 3.125, mchimbaji aliyechangia 1% ya nguvu ya kompyuta ya kikundi hicho atapokea 1% ya hizo bitcoin 3.125. Hata hivyo, ni lazima ieleweke kwamba vikundi vwa wachimbaji kwa ujumla huchukua tume ndogo (kawaida karibu 2%) ili kufidia gharama za uendeshaji wa ushirika.
 
 ### Programu inayotumiwa na tasnia
 
@@ -147,9 +146,9 @@ Wachimbaji wa madini huwa na mwelekeo wa kuelekea maeneo yenye ushuru mdogo wa u
 
 Kwa kuangazia athari za wachimbaji wa Bitcoin katika ulimwengu wa nishati, mwelekeo ni wazi: watendaji hawa wanatafuta mara kwa mara vyanzo vya umeme wa bei nafuu, mara nyingi wale ambao hupotea au kutotumiwa. Hali hii inaonekana katika mikoa yenye miundombinu mipya ya umeme, kama vile iliyo na mabwawa ya hivi majuzi ya kuzalisha umeme.
 
-Hebu tuchukue mfano. Katika nchi ambayo iko katika mchakato wa kujenga bwawa, uzalishaji wa umeme mara nyingi huanza kabla ya njia za usambazaji kuanza kufanya kazi kikamilifu. Pengo hili la muda linaweza kusababisha gharama kubwa na kukatisha tamaa uwekezaji katika miradi hiyo ya miundombinu. Hata hivyo, wachimbaji madini wa Bitcoin wanaweza kufanya kazi kama chanzo rahisi cha mahitaji, tayari kutumia umeme huu "yatima", na hivyo kusaidia kufidia gharama za miundombinu. Maana hapa ni kwamba mitambo mipya inaweza kuwa na faida mara moja, kukuza uundaji wa vyanzo vipya vya umeme. Kanuni hii pia inatumika kwa mizani ndogo. Iwe ni mtu binafsi anayetumia jenereta ya umeme wa maji kwenye mto mdogo au kaya iliyo na paneli za miale ya jua, umeme wa ziada unaozalishwa unaweza kutumika kuwasha shughuli za Bitcoin Mining.
+Hebu tuchukue mfano. Katika nchi ambayo iko katika mchakato wa kujenga pool, uzalishaji wa umeme mara nyingi huanza kabla ya njia za usambazaji kuanza kufanya kazi kikamilifu. Pengo hili la muda linaweza kusababisha gharama kubwa na kukatisha tamaa uwekezaji katika miradi hiyo ya miundombinu. Hata hivyo, wachimbaji madini wa Bitcoin wanaweza kufanya kazi kama chanzo rahisi cha mahitaji, tayari kutumia umeme huu "yatima", na hivyo kusaidia kufidia gharama za miundombinu. Maana hapa ni kwamba mitambo mipya inaweza kuwa na faida mara moja, kukuza uundaji wa vyanzo vipya vya umeme. Kanuni hii pia inatumika kwa mizani ndogo. Iwe ni mtu binafsi anayetumia jenereta ya umeme wa maji kwenye mto mdogo au kaya iliyo na paneli za miale ya jua, umeme wa ziada unaozalishwa unaweza kutumika kuwasha shughuli za Bitcoin Mining.
 
-Nchini Ufaransa, kwa mfano, umeme wa ziada kutoka kwa paneli za jua huingizwa tena kwenye gridi ya taifa na wazalishaji hulipwa fidia na mkopo wa matumizi kutoka kwa EDF. Vile vile, mtu anaweza kufikiria Miner inayofanya kazi kwenye umeme huu wa ziada, ikizima wakati mahitaji ya ndani yanalingana na Supply. Ingawa hii inaweza kuonekana kuwa ya ubinafsi, ikiweka kipaumbele uzalishaji wa Bitcoin badala ya kuunga mkono gridi ya nishati ya ndani, inatoa mwelekeo mwingine: kuleta utulivu wa gridi ya nishati. Usimamizi mgumu wa ziada ya umeme, wakati mwingine hata kwa gharama zinazohusiana za utupaji, inaweza kurahisishwa sana. Wachimbaji wa Bitcoin wanaweza kunyonya ziada hizi, kwa kufanya kazi kama buffer inayoweza kunyumbulika, kurekebisha mahitaji badala ya Supply. Katika ulimwengu ambapo uzalishaji wa umeme kutoka kwa vyanzo vinavyoweza kurejeshwa (zisizoweza kudhibitiwa) unaongezeka mara kwa mara, wachimbaji wanaweza kuchukua jukumu muhimu katika kuhakikisha usawa wa gridi zetu za nguvu, huku wakifaidika na umeme wa bei nafuu au wa ziada ili kuwasha shughuli zao za Mining.
+Nchini Ufaransa, kwa mfano, umeme wa ziada kutoka kwa paneli za jua huingizwa tena kwenye gridi ya taifa na wazalishaji hulipwa fidia na mkopo wa matumizi kutoka kwa EDF. Vile vile, mtu anaweza kufikiria Miner inayofanya kazi kwenye umeme huu wa ziada, ikizima wakati mahitaji ya ndani yanalingana na Supply. Ingawa hii inaweza kuonekana kuwa ya ubinafsi, ikiweka kipaumbele uzalishaji wa Bitcoin badala ya kuunga mkono gridi ya nishati ya ndani, inatoa mwelekeo mwingine: kuleta utulivu wa gridi ya nishati. Usimamizi mgumu wa ziada ya umeme, wakati mwingine hata kwa gharama zinazohusiana za utupaji, inaweza kurahisishwa sana. Wachimbaji wa Bitcoin wanaweza kunyonya ziada hizi, kwa kufanya kazi kama buffer inayoweza kunyumbulika, kurekebisha mahitaji badala ya usambazaji wake. Katika ulimwengu ambapo uzalishaji wa umeme kutoka kwa vyanzo vinavyoweza kurejeshwa (zisizoweza kudhibitiwa) unaongezeka mara kwa mara, wachimbaji wanaweza kuchukua jukumu muhimu katika kuhakikisha usawa wa gridi zetu za nguvu, huku wakifaidika na umeme wa bei nafuu au wa ziada ili kuwasha shughuli zao za Mining.
 
 ### Mining centralization
 
@@ -162,7 +161,7 @@ Hatari ya Udhibiti Inasisitizwa kwamba ikiwa nchi kama Marekani ingeamua kudhibi
 Ili kukabiliana na ujumuishaji huu, mikakati tofauti inajadiliwa:
 
 
-- Nyumbani Mining: Wazo la Nyumbani Mining linatokana na ugatuaji wa shughuli za Mining. Inahimiza watu binafsi kushiriki katika Mining kutoka kwa nyumba zao, hivyo basi kusambaza Hashrate kwa upana zaidi.
+- Home Mining: Wazo la Nyumbani Mining linatokana na ugatuaji wa shughuli za Mining. Inahimiza watu binafsi kushiriki katika Mining kutoka kwa nyumba zao, hivyo basi kusambaza Hashrate kwa upana zaidi.
 - Stratum V2: Itifaki ya Stratum V2 inatoa mbinu nyingine. Tofauti na mtangulizi wake, Stratum V2 inawaruhusu wachimbaji kuchagua ni miamala ipi ya kujumuisha katika vitalu wanavyochimba. Uwezo huu huimarisha upinzani dhidi ya udhibiti na hupunguza uwezo wa mabwawa makubwa ya Mining kutawala mtandao. Kwa kutoa nguvu zaidi kwa wachimbaji migodi mmoja mmoja, itifaki ya Stratum V2 inaweza kuchukua jukumu muhimu katika mapambano dhidi ya uwekaji kati wa Hashrate.
 
 Programu huria ya Mining
@@ -187,7 +186,7 @@ Baada ya kuwasilisha mradi wao kwa jumuiya ya Bitcoin na kuona maslahi ambayo il
 
 ![image](assets/en/07.webp)
 
-### Ukomo wa ugatuaji huu wa madaraka?
+### 🔍 Kikomo cha Ugatuaji?
 
 Ingawa wazo la kugatua madaraka kwa Mining kupitia matumizi yenye tija ya joto linalozalishwa linaonekana kuahidi, lina vikwazo fulani na maswali yanasalia. Mashirika yanayotumia nishati nyingi kama vile sauna na madimbwi yanaweza kufaidika kutokana na dhana hii kwa kutumia joto linalozalishwa na wachimba migodi kupasha maji katika vituo vyao. Zoezi hili tayari linatekelezwa na baadhi ya wanachama wa jumuiya ya Bitcoin, ambao wanachunguza mbinu tofauti za kutumia vyema joto linalozalishwa na vifaa vya Mining. Kwa mfano, ukumbi wa karamu unaweza kinadharia kuwashwa na wachimbaji watatu au wanne wa S19, kila mmoja akitumia wati 3000 na kutoa kiwango sawa cha joto.
 
@@ -199,7 +198,7 @@ Swali la ufanisi wa muda mrefu na uwezekano wa kutumia wachimbaji wa Bitcoin kwa
 
 Swali la zawadi katika Bitcoin badala ya sarafu nyingine ni muhimu katika mfumo unaotarajiwa na Satoshi Nakamoto. Uundaji wa Bitcoin una sifa ya kofia iliyowekwa ya vitengo milioni 21. Lengo lilikuwa kutafuta njia ya haki ya kusambaza vitengo hivi vipya vilivyoundwa. Wachimbaji, kwa kutoa nguvu zao za kompyuta ili kulinda mtandao na kufanya shambulio lolote lizidi kuwa la gharama kubwa, hulinda mtandao wa Bitcoin kwa ufanisi. Kwa malipo ya mchango huu muhimu, wanatuzwa kwa bitcoins mpya iliyoundwa, kuwezesha usambazaji wa sarafu ndani ya mfumo wa ikolojia.
 
-Ni mfumo wa kushinda na kushinda. Wachimbaji migodi hutuzwa kwa kulinda mtandao na kuidhinisha miamala. Bitcoins mpya zilizoundwa zimetolewa kama motisha ya kuimarisha usalama, na ada za miamala ni mapato ya ziada kwa kuidhinisha miamala. Elements hizi mbili kwa pamoja hufanya jumla ya zawadi kwa Mining. Swali la mustakabali wa Mining linatokana na mpango wa kupunguzwa kwa zawadi za Mining, Halving kila baada ya miaka minne, tukio linalojulikana kama "Halving". Kufikia 2032, Block reward itakuwa chini ya Bitcoin moja, na kufikia 2140, hakuna bitcoins mpya zitaundwa. Katika hatua hii, wachimbaji madini watategemea tu ada za miamala kwa ajili ya fidia. Mtandao wa Bitcoin utahitaji kusaidia idadi kubwa ya shughuli, na ada za juu za kutosha, ili kuhakikisha faida ya Mining.
+Ni mfumo wa kushinda na kushinda. Wachimbaji migodi hutuzwa kwa kulinda mtandao na kuidhinisha miamala. Bitcoins mpya zilizoundwa zimetolewa kama motisha ya kuimarisha usalama, na ada za miamala ni mapato ya ziada kwa kuidhinisha miamala. Elements hizi mbili kwa pamoja hufanya jumla ya zawadi kwa Miningv. Swali la mustakabali wa Mining linatokana na mpango wa kupunguzwa kwa zawadi za Mining, Halving kila baada ya miaka minne, tukio linalojulikana kama "Halving". Kufikia 2032, Block reward itakuwa chini ya Bitcoin moja, na kufikia 2140, hakuna bitcoins mpya zitaundwa. Katika hatua hii, wachimbaji madini watategemea tu ada za miamala kwa ajili ya fidia. Mtandao wa Bitcoin utahitaji kusaidia idadi kubwa ya shughuli, na ada za juu za kutosha, ili kuhakikisha faida ya Mining.
 
 Kuongezeka kwa Lightning Network, ambayo inaruhusu shughuli za haraka na za gharama nafuu nje ya mlolongo mkuu wa Bitcoin, huibua maswali kuhusu siku zijazo za Mining. Lightning Network ina uwezo wa kupunguza kwa kiasi kikubwa ada za miamala, na hivyo kuathiri mapato ya wachimbaji. Hata hivyo, hii itategemea kupitishwa na matumizi ya Lightning Network ikilinganishwa na mtandao mkuu wa Bitcoin. Katika hali ya kukata tamaa, wachimbaji wanaweza kupata faida kuchimba madini hata kwa hasara ikiwa wamelipa gharama zao na kupata umeme wa bei nafuu. Katika hali ya matumaini zaidi, ada za ununuzi kwenye mtandao mkuu wa Bitcoin zinaweza kubaki juu vya kutosha kudumisha faida ya Mining.
 
@@ -251,9 +250,9 @@ Kwa upande mwingine, Uthibitisho wa Wadau (PoS), ingawa inaruhusu ushiriki mdogo
 
 ### Muhtasari
 
-Ili kurejea, wachimbaji madini huimarisha mtandao wa Bitcoin dhidi ya udhibiti kwa kutumia umeme kukokotoa Proof of Work ya Bitcoin, na hutuzwa bitcoins mpya na ada za miamala. Kwa taaluma ya tasnia, wachezaji mbalimbali wanaibuka, wakicheza majukumu tofauti, kutoka kwa utengenezaji wa chip hadi usimamizi wa shamba la Mining. Zaidi ya hayo, fedha pia ina jukumu, kutoa udhibiti kwa kuamua ni nani atakayesalia wakati wa awamu tofauti za soko. Suala la uwekaji serikali kuu linaendelea, huku mashirika tajiri zaidi yakitawala soko. Walakini, njia mbadala zinatengenezwa katika viwango vya maunzi na programu. Ni juu ya kila mtu kuchukua hatua na kuchangia katika usambazaji wa mtandao. Bitcoin inawakilisha fursa isiyo ya kawaida sio tu katika suala la uhuru lakini pia uhuru wa nishati. Licha ya mabishano yanayozunguka matumizi yake ya umeme, Bitcoin inatoa motisha ya kiuchumi kwa mpito kuelekea matumizi bora na tele ya nishati, kwa kutambua kile ambacho hapo awali kilikuwa bora kiikolojia.
+Ili kurejea, wachimbaji  huimarisha mtandao wa Bitcoin dhidi ya udhibiti kwa kutumia umeme kukokotoa Proof of Work ya Bitcoin, na hutuzwa bitcoins mpya na ada za miamala. Kwa taaluma ya tasnia, wachezaji mbalimbali wanaibuka, wakicheza majukumu tofauti, kutoka kwa utengenezaji wa chip hadi usimamizi wa shamba la Mining. Zaidi ya hayo, fedha pia ina jukumu, kutoa udhibiti kwa kuamua ni nani atakayesalia wakati wa awamu tofauti za soko. Suala la uwekaji serikali kuu linaendelea, huku mashirika tajiri zaidi yakitawala soko. Walakini, njia mbadala zinatengenezwa katika viwango vya maunzi na programu. Ni juu ya kila mtu kuchukua hatua na kuchangia katika usambazaji wa mtandao. Bitcoin inawakilisha fursa isiyo ya kawaida sio tu katika suala la uhuru lakini pia uhuru wa nishati. Licha ya mabishano yanayozunguka matumizi yake ya umeme, Bitcoin inatoa motisha ya kiuchumi kwa mpito kuelekea matumizi bora na tele ya nishati, kwa kutambua kile ambacho hapo awali kilikuwa bora kiikolojia.
 
-## Bei ya Bitcoin na Hashrate, Uhusiano?
+## Bei ya Bitcoin na Hashrate, je kuna Uhusiano?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
@@ -269,21 +268,23 @@ Hali hii pia inaonyesha ustahimilivu wa Bitcoin, ambayo mara nyingi hutathminiwa
 
 Mining inaweza kuanzisha bei ya sakafu kwa Bitcoin, chini ambayo wachimbaji wangeuza kwa hasara. Gharama ya Mining huathiri sana bei, kama inavyoonyeshwa na marufuku ya Mining nchini Uchina, ambapo kiwango cha Hash na bei ilishuka sana lakini zilipatikana haraka. Kuzingatia bei pekee kunaweza kupotosha. Kusoma gharama, kupitia vikokotoo vya faida, hutoa mtazamo uliosawazishwa zaidi. Hata hivyo, soko linaweza kufanya kazi kwa njia isiyo ya kimantiki, huku wachimba migodi wakiweza kulazimishwa kuuza kwa hasara, uwezekano wa kupunguza bei chini ya gharama ya Mining. Ili kutathmini afya ya Bitcoin na ugatuaji wake, mlinganyo unaojumuisha vipengele mbalimbali, kama vile idadi ya nodi na bei, unaweza kutengenezwa. Mbinu hii inaweza kutoa uchanganuzi wa hali ya juu zaidi wa Bitcoin ikilinganishwa na mijadala inayotegemea bei pekee.
 
-### Mining kwa faida au kwa mtandao?
+### Mining kwa  ajili ya faida au kwa mtandao?
 
 Swali ni la kina na linajumuisha vipimo kadhaa vya Bitcoin Mining. Usawa kati ya kutafuta faida na kuchangia usalama na usambazaji wa mtandao wa Bitcoin ni tatizo la mara kwa mara kwa wachimbaji. Mjadala unaendelea katika jumuiya ya Bitcoin, kukiwa na mabishano makali kila upande.
 
 
 - Mining kwa faida:
-- Kwa: Wachimbaji madini wanavutiwa kiasili na mapato yanayoweza kutokea kutoka kwa Bitcoin Mining. Uwekezaji katika vifaa vya gharama kubwa vya Mining unaweza kulipwa kwa zawadi za Mining na ada za ununuzi, hasa wakati bei ya Bitcoin iko juu.
-- Dhidi ya: Kutafuta faida kunaweza kusababisha kuunganishwa kwa nguvu ya hashing ikiwa ni makampuni machache tu makubwa yanayoweza kumudu kuwekeza katika vifaa vya juu vya Mining. Zaidi ya hayo, Mining kwa faida inaweza kuwa na athari kubwa ya mazingira.
+
+- Kwa: Miners  wanavutiwa kiasili na mapato yanayoweza kutokea kutoka kwa Bitcoin Mining. Uwekezaji katika vifaa vya gharama kubwa vya Mining unaweza kulipwa kwa zawadi za Mining na ada za ununuzi, hasa wakati bei ya Bitcoin iko juu.
+  Dhidi ya: Kutafuta faida kunaweza kusababisha kuunganishwa kwa nguvu ya hashing ikiwa ni makampuni machache tu makubwa yanayoweza kumudu kuwekeza katika vifaa vya juu vya Mining. Zaidi ya hayo, Mining kwa faida inaweza kuwa na athari kubwa ya mazingira.
 - Mining kwa mtandao:
+  
 - Kwa: Mining kuchangia usalama na ugatuaji wa mtandao wa Bitcoin ni mpango mzuri. Husaidia kuimarisha uthabiti wa mtandao na kupinga udhibiti na mashambulizi.
 - Dhidi ya: Bila motisha ya kutosha ya kifedha, inaweza kuwa vigumu kwa wachimbaji kuendelea kusaidia mtandao, hasa kama wanafanya kazi kwa hasara.
 
 Mpango wa Attakai unaangazia umuhimu wa kuchangia mtandao huku ukitoa suluhu za kufanya Mining ipatikane zaidi na isiyo na madhara. Uwezekano wa Mining nyumbani, na vifaa vya bei nafuu zaidi na ufumbuzi wa kupunguza uchafuzi wa kelele, inaweza kusaidia demokrasia Bitcoin Mining. Inawahimiza wale wanaopenda Bitcoin sio tu kuwekeza na kushikilia bitcoins lakini pia kushiriki kikamilifu katika kupata mtandao. Kwa kutoa vifaa vilivyojaribiwa na miongozo ya kusanyiko na ufungaji, Attakai hurahisisha kuingia kwenye ulimwengu wa Bitcoin Mining. Pia inahimiza uvumbuzi na uboreshaji endelevu, kualika jamii kuchangia na kubadilishana mawazo na uzoefu wao ili kuboresha Mining ya nyumbani. Mfano wa Attakai ni jibu kwa swali la Mining kwa faida au kwa mtandao. Sio tu kuhusu kupata faida, lakini pia kuhusu kuimarisha usambazaji na usalama wa mtandao wa Bitcoin, huku kuwezesha watu zaidi kushiriki katika Mining, kujifunza, na kuelewa sekta hii muhimu. Changamoto ya uwezekano wa kupiga marufuku Mining barani Ulaya bado ni swali wazi. Hii inazua wasiwasi kuhusu mustakabali wa Bitcoin Mining katika kanda na hitaji la udhibiti sawia unaotambua umuhimu wa Mining kwa usalama na uwezekano wa mtandao wa Bitcoin wakati wa kushughulikia masuala ya mazingira. Attakai na mipango mingine kama hiyo inaweza kuchukua jukumu muhimu katika mjadala huu, kuonyesha kwamba inawezekana kuchimba madini kwa njia endelevu na ya kuwajibika, huku ikichangia vyema mtandao wa Bitcoin.
 
-## Ukuu na Udhibiti
+## Uhuru na Udhibiti
 
 <chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
@@ -297,17 +298,18 @@ Licha ya chaguzi hizi, Mining inatoa changamoto kubwa. Msemo unaojulikana sana k
 
 ![image](assets/en/13.webp)
 
-### Bikira Bitcoins
+### Bitcoin ambazo hazijawahi kutumika (Virgin Bitcoins)
+
 
 Matarajio ya kumiliki Hashrate ya mtu mwenyewe inaonekana kama njia ya kuahidi katika ulimwengu wa Mining. Hata hivyo, kuabiri mfumo huu mgumu wa ikolojia kunahitaji mbinu ya tahadhari. Shamba la wingu Mining linaonyeshwa na idadi kubwa ya kashfa, inayosababishwa na ukosefu wa uelewa wa Mining kutoka kwa wawekezaji wengi. Matoleo ya kuvutia, yaliyowekwa kwa njia mbalimbali, yanaweza kupotosha kwa urahisi wale ambao hawana taarifa za kutosha. Kwa upande mwingine, kumiliki kifaa chako cha Mining hutoa faida kubwa. Kando na kuridhika kwa kibinafsi kwa kuchangia kikamilifu kwa usalama wa mtandao wa Bitcoin na kuona zawadi zikianguka kwenye Wallet yako, kuna kipengele cha kuvutia cha "bitcoins bikira." Hizi ni bitcoins zilizochimbwa hivi karibuni, ambazo hazijawahi kutumiwa na hazina historia iliyounganishwa nazo. Bitcoins hizi mara nyingi huchukuliwa kuwa za thamani zaidi kwa sababu hazijawahi "kuchafuliwa," zikitoa dhamana fulani dhidi ya kukataliwa na wasimamizi au majukwaa makubwa ya Exchange.
 
-Uwezekano wa bitcoins bikira za Mining huku ukiepuka taratibu za Kujua Mteja Wako (KYC) ni thamani nyingine iliyoongezwa. Mabwawa mengi ya Mining hayahitaji utambulisho wa wachimbaji, hivyo kuruhusu upatikanaji wa bitcoins bila kufanyiwa ukaguzi wa utambulisho wa kuchosha. Bitcoins za Bikira huchukuliwa kuwa "safi," bila historia ya zamani au ushirika. Zinatafutwa haswa na wachezaji wakubwa wa kitaasisi ambao wanaweza kuhakikisha uhalali wa mali zao za kidijitali mbele ya mamlaka za udhibiti. Hata hivyo, licha ya faida hizi, ni muhimu kutambua kwamba sekta ya Mining inasalia kuwa na ushindani mkubwa na tete, na matukio yasiyotarajiwa yanaweza kuvuruga shughuli za Mining.
+Uwezekano wa Bitcoin ambazo hazijawahi kutumika za Mining huku ukiepuka taratibu za Kujua Mteja Wako (KYC) ni thamani nyingine iliyoongezwa. Mabwawa mengi ya Mining hayahitaji utambulisho wa wachimbaji, hivyo kuruhusu upatikanaji wa bitcoins bila kufanyiwa ukaguzi wa utambulisho wa kuchosha. Virgin Bitcoins huchukuliwa kuwa "safi," bila historia ya zamani au ushirika. Zinatafutwa haswa na wachezaji wakubwa wa kitaasisi ambao wanaweza kuhakikisha uhalali wa mali zao za kidijitali mbele ya mamlaka za udhibiti. Hata hivyo, licha ya faida hizi, ni muhimu kutambua kwamba sekta ya Mining inasalia kuwa na ushindani mkubwa na tete, na matukio yasiyotarajiwa yanaweza kuvuruga shughuli za Mining.
 
-Katika muktadha huu, kuchagua njia ya uhuru na elimu kwa Mining inaonekana kuwa ya busara. Kujipatia Hashrate ya mtu mwenyewe na kuwekeza katika vifaa vya kibinafsi vya Mining, huku ukiendelea kufahamu hatari na changamoto, kunaweza kutoa njia salama na ya kuridhisha zaidi ya kupata bitcoins bikira, na hivyo kuimarisha uhuru wa kifedha wa mtu binafsi huku kuunga mkono mfumo ikolojia wa Bitcoin kwa ujumla.
+Katika muktadha huu, kuchagua njia ya uhuru na elimu kwa Mining inaonekana kuwa ya busara. Kujipatia Hashrate ya mtu mwenyewe na kuwekeza katika vifaa vya kibinafsi vya Mining, huku ukiendelea kufahamu hatari na changamoto, kunaweza kutoa njia salama na ya kuridhisha zaidi ya kupata Virgin Bitcoins, na hivyo kuimarisha uhuru wa kifedha wa mtu binafsi huku kuunga mkono mfumo ikolojia wa Bitcoin kwa ujumla.
 
 ### Je, Mining imepigwa marufuku Ulaya?
 
-Kwa suala la uwezekano wa kupiga marufuku Mining barani Ulaya, mijadala kuhusu udhibiti inazidi kuwa muhimu. Mazingira yanayobadilika-badilika ya udhibiti yanaweza kuathiri sana tasnia ya Bitcoin Mining. Marufuku ya Mining barani Ulaya ni hali inayowezekana, haswa tukizingatia matukio yaliyotokea nchini Uchina. Ingawa operesheni za Mining zinaendelea nchini Uchina licha ya marufuku, Ulaya inaweza kufuata njia sawa. Usambazaji mpana wa Hashrate katika maeneo mbalimbali unaweza kusaidia kuimarisha jumuiya ya Mining barani Ulaya, na kuwawezesha kukabiliana vilivyo na kutoelewana na dhana potofu kuhusu Mining, athari zake za kimazingira, na alama yake kwenye gridi ya umeme.
+Kwa suala la uwezekano wa kupiga marufuku Mining barani Ulaya, mijadala kuhusu udhibiti inazidi kuwa muhimu. Mazingira yanayobadilika-badilika ya udhibiti yanaweza kuathiri sana tasnia ya Bitcoin Mining. Marufuku ya Mining barani Ulaya ni hali inayowezekana, haswa tukizingatia matukio yaliyotokea nchini china. Ingawa operesheni za Mining zinaendelea nchini china licha ya marufuku, Ulaya inaweza kufuata njia sawa. Usambazaji mpana wa Hashrate katika maeneo mbalimbali unaweza kusaidia kuimarisha jumuiya ya Mining barani Ulaya, na kuwawezesha kukabiliana vilivyo na kutoelewana na dhana potofu kuhusu Mining, athari zake za kimazingira, na alama yake kwenye gridi ya umeme.
 
 ![image](assets/en/14.webp)
 
@@ -315,11 +317,11 @@ Inakabiliwa na kampeni kama zile za Greenpeace na takwimu zinazopotosha mara nyi
 
 Kwa kumalizia, licha ya hatari ya udhibiti na uwezekano wa kupiga marufuku Mining huko Ulaya, silaha yenye nguvu zaidi inabakia elimu na habari. Uelewa wazi na sahihi wa Mining, jinsi inavyofanya kazi, na athari zake zinaweza kusaidia kuondoa ufahamu wa sekta hii na kupigana dhidi ya taarifa potofu, hivyo kutoa upinzani bora kwa kanuni zinazoweza kuharibu. Mpango wa kutoa mafunzo na kuwafahamisha watu kuhusu Mining, kama mjadala huu unavyofanya, ni hatua katika mwelekeo sahihi ili kuhakikisha uendelevu na ukuaji wa Mining barani Ulaya, na duniani kote. Jitihada za kuendelea za kuelimisha na kufahamisha ni muhimu ili kuhakikisha mustakabali salama na wenye mafanikio kwa sekta ya Bitcoin Mining.
 
-# Nyumbani Mining na Utumiaji Tena wa Joto
+# Mining ya Bitcoin Nyumbani na Matumizi ya Joto Tena
 
 <partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
-## Attakai - Kufanya Nyumbani Mining Iwezekane na Ipatikane!
+## Attakai - Kufanya  Mining Nyumbani Iwezekane na Ipatikane!
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
@@ -377,7 +379,7 @@ Hii ni fursa nzuri sana ya kujifunza kwa kufanya mazoezi huku ukituzwa kwa ushir
 
 Katika sehemu hii, tutajadili mbinu bora za ununuzi wa Bitmain Antminer S9 iliyotumika, mashine ambayo mafunzo haya ya kurekebisha radiator yatategemea. Mwongozo huu pia unatumika kwa miundo mingine ya ASIC kwa kuwa ni mwongozo wa jumla wa ununuzi wa maunzi yaliyotumika ya Mining.
 
-Antminer S9 ni kifaa kilichotolewa na Bitmain tangu Mei 2016. Inatumia 1400W ya umeme na inazalisha 13.5 TH / s. Ingawa inachukuliwa kuwa ya zamani, inabaki chaguo bora kwa kuanza Mining. Kwa kuwa imetolewa kwa wingi, ni rahisi kupata vipuri kwa wingi katika maeneo mengi ya dunia. Kwa ujumla inaweza kununuliwa kutoka kwa rika-kwa-rika kwenye tovuti kama vile eBay au LeBonCoin, kwani wauzaji wa kitaalamu hawatoi tena kutokana na ushindani wake wa chini ikilinganishwa na mashine mpya zaidi. Haifanyi kazi vizuri kuliko ASIC kama vile Antminer S19, iliyotolewa tangu Machi 2020, lakini hii inaifanya kuwa maunzi yanayotumika kwa bei nafuu na yanafaa zaidi kwa marekebisho tutakayofanya.
+Antminer S9 ni kifaa kilichotolewa na Bitmain tangu Mei 2016. Inatumia 1400W ya umeme na inazalisha 13.5 TH / s. Ingawa inachukuliwa kuwa ya zamani, inabaki chaguo bora kwa kuanza Mining. Kwa kuwa imetolewa kwa wingi, ni rahisi kupata vipuri kwa wingi katika maeneo mengi ya dunia. Kwa ujumla inaweza kununuliwa kutoka kwa peer-to-peer (mwenzi kwa mwenzi) kwenye tovuti kama vile eBay au LeBonCoin, kwani wauzaji wa kitaalamu hawatoi tena kutokana na ushindani wake wa chini ikilinganishwa na mashine mpya zaidi. Haifanyi kazi vizuri kuliko ASIC kama vile Antminer S19, iliyotolewa tangu Machi 2020, lakini hii inaifanya kuwa maunzi yanayotumika kwa bei nafuu na yanafaa zaidi kwa marekebisho tutakayofanya.
 
 Antminer S9 inakuja katika tofauti kadhaa (i, j) ambazo hufanya marekebisho madogo kwa maunzi ya kizazi cha kwanza. Hatuamini kwamba hii inapaswa kuathiri uamuzi wako wa ununuzi, na mwongozo huu unafanya kazi kwa tofauti hizi zote.
 
@@ -403,7 +405,7 @@ Antminer S9 inaundwa na sehemu zifuatazo:
 ![image](assets/en/18.webp)
 
 
-- Nguvu ya Supply, ambayo inafanya kazi kwenye 220V na inaweza kuchomekwa kama kifaa cha kawaida cha nyumbani.
+- Ugavi wa Umeme, ambayo inafanya kazi kwenye 220V na inaweza kuchomekwa kama kifaa cha kawaida cha nyumbani.
 
 ![image](assets/en/19.webp)
 
@@ -417,7 +419,7 @@ Antminer S9 inaundwa na sehemu zifuatazo:
 
 ![image](assets/en/21.webp)
 
-Wakati wa kununua mashine iliyotumiwa, ni muhimu kuangalia kwamba sehemu zote zinajumuishwa na zinafanya kazi. Wakati wa Exchange, unapaswa kumwomba muuzaji kuwasha mashine ili kuangalia utendaji wake sahihi. Ni muhimu kuthibitisha kwamba kifaa kinageuka kwa usahihi, na kisha uangalie uunganisho wa mtandao kwa kuunganisha cable ya Ethernet na kufikia kuingia kwa Bitmain Interface kupitia kivinjari kwenye mtandao huo wa ndani. Unaweza kupata IP hii Address kwa kuunganisha kwenye kipanga njia chako cha mtandao Interface na kutafuta vifaa vilivyounganishwa. Address hii inapaswa kuwa na umbizo lifuatalo: 192.168.x.x
+Wakati wa kununua mashine iliyotumiwa, ni muhimu kuangalia kwamba sehemu zote zinajumuishwa na zinafanya kazi. Wakati wa kubadilishana, unapaswa kumwomba muuzaji kuwasha mashine ili kuangalia utendaji wake sahihi. Ni muhimu kuthibitisha kwamba kifaa kinageuka kwa usahihi, na kisha uangalie uunganisho wa mtandao kwa kuunganisha cable ya Ethernet na kufikia kuingia kwa Bitmain Interface kupitia kivinjari kwenye mtandao huo wa ndani. Unaweza kupata IP hii Address kwa kuunganisha kwenye kipanga njia chako cha mtandao Interface na kutafuta vifaa vilivyounganishwa. Address hii inapaswa kuwa na umbizo lifuatalo: 192.168.x.x
 
 ![image](assets/en/22.webp)
 
@@ -453,7 +455,7 @@ Mashabiki asili wa Antminer S9 wana kelele sana kutumia Antminer yako kama hita.
 
 ![image](assets/en/26.webp)
 
-Shabiki wa nguvu wa Supply pia ana kelele kabisa na anahitaji kubadilishwa. Tunapendekeza Noctua NF-A6x25 PWM. Kumbuka kwamba viunganishi vya mashabiki wa Noctua si sawa na wale wa awali, kwa hivyo utahitaji adapta ya kiunganishi ili kuwaunganisha. Mbili zitatosha. Tena, hakikisha kuchagua toleo la 12V la shabiki.
+Shabiki wa ugavi wa umeme pia ana kelele kabisa na anahitaji kubadilishwa. Tunapendekeza Noctua NF-A6x25 PWM. Kumbuka kwamba viunganishi vya mashabiki wa Noctua si sawa na wale wa awali, kwa hivyo utahitaji adapta ya kiunganishi ili kuwaunganisha. Mbili zitatosha. Tena, hakikisha kuchagua toleo la 12V la shabiki.
 
 ![image](assets/en/27.webp)
 
@@ -492,7 +494,7 @@ Orodha ya vifaa na viungo
 
 <chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
-Ili kuunganisha ASIC yako kupitia WIFI, utahitaji kifaa kinachoitwa daraja. Kifaa hiki hukuruhusu kupata mawimbi ya WIFI kutoka kwa kipanga njia chako na kuisambaza kwa kifaa kingine kupitia Ethaneti.
+Ili kuunganisha ASIC yako kupitia WIFI, utahitaji kifaa kinachoitwa  (bridge). Kifaa hiki hukuruhusu kupata mawimbi ya WIFI kutoka kwa kipanga njia chako na kuisambaza kwa kifaa kingine kupitia Ethaneti.
 
 Vifaa vingi vinaweza kufanya kazi hii, lakini tunapendekeza VONETS WiFi Bridge/Repeater kwa urahisi wake.
 
@@ -512,11 +514,11 @@ Chagua Mchawi.
 
 Chagua mtandao wa WIFI unaotaka kuunganisha Miner yako, kisha ubofye Inayofuata.
 
-KUMBUKA: Daraja la Vonet hufanya kazi kwa masafa ya 2.4GHz pekee. Siku hizi, ruta hutoa mitandao miwili ya WIFI, moja kwa 2.4GHz na moja kwa 5GHz.
+KUMBUKA: Daraja la Vonet hufanya kazi kwa masafa ya 2.4GHz pekee. Siku hizi, router hutoa mitandao miwili ya WIFI, moja kwa 2.4GHz na moja kwa 5GHz.
 
 ![image](assets/en/35.webp)
 
-Ingiza nenosiri la mtandao wako wa WIFI katika sehemu ya "Chanzo cha nenosiri la WIFI hotspot". Ikiwa hutaki kutumia daraja lako la Vonet kupanua mtandao wako wa WIFI, chagua kisanduku cha "Lemaza Hotspot". Vinginevyo, iache bila kukaguliwa.
+Ingiza nenosiri la mtandao wako wa WIFI katika sehemu ya "Chanzo cha nenosiri la WIFI hotspot". Ikiwa hutaki kutumia bridge yako ya Vonet kupanua mtandao wako wa WIFI, chagua kisanduku cha "Lemaza Hotspot". Vinginevyo, iache bila kukaguliwa.
 
 Kisha unaweza kubofya Tekeleza.
 
@@ -598,7 +600,7 @@ Kisha utasalimiwa na Dashibodi ya Brains OS+.
 Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashine yako.
 
 
-- Grafu tatu za muda halisi zinazoonyesha halijoto, Hashrate, na hali ya jumla ya mashine yako.
+- Grafu tatu za muda halisi zinazoonyesha hali ya joto, Hashrate, na hali ya jumla ya mashine yako.
 - Upande wa kulia, Hashrate halisi, wastani wa joto la chip, makadirio ya ufanisi katika W/THs, na matumizi ya nishati.
 - Chini, kasi ya shabiki kama asilimia ya kasi ya juu na idadi ya mizunguko kwa dakika.
 
@@ -626,7 +628,7 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
-## Badilisha Fani ya Nguvu ya Supply
+## Badilisha Fani ya Ygavi wa umeme
 
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
@@ -766,7 +768,7 @@ Na hapo unayo, pongezi! Umebadilisha sehemu nzima ya mitambo ya Miner yako. Unap
 
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
-Mtu anaweza kufikiria Mining pool kama ushirika wa kilimo. Wakulima hukusanya pamoja uzalishaji wao ili kupunguza tofauti ya Supply na mahitaji na hivyo kupata mapato thabiti zaidi kwa uendeshaji wao. Mining pool inafanya kazi kwa njia sawa, na rasilimali iliyoshirikiwa kuwa heshi. Hakika, ugunduzi wa Hash moja halali inaruhusu kuundwa kwa block na kushinda kwa coinbase au tuzo, kwa sasa 6.25 BTC pamoja na ada za manunuzi zilizojumuishwa kwenye block.
+Mtu anaweza kufikiria Mining pool kama ushirika wa kilimo. Wakulima hukusanya pamoja uzalishaji wao ili kupunguza tofauti ya Supply na mahitaji na hivyo kupata mapato thabiti zaidi kwa uendeshaji wao. Mining pool inafanya kazi kwa njia sawa, na rasilimali iliyoshirikiwa kuwa heshi. Hakika, ugunduzi wa Hash moja halali inaruhusu kuundwa kwa block na kushinda kwa coinbase au tuzo, kwa sasa 3.125 BTC pamoja na ada za manunuzi zilizojumuishwa kwenye block.
 
 Ikiwa wewe peke yako, utalipwa tu wakati utapata kizuizi. Kwa kuwa katika ushindani dhidi ya wachimba migodi wengine wote kwenye sayari, ungekuwa na nafasi ndogo sana ya kushinda bahati nasibu hii na bado ungelazimika kulipa ada zinazohusiana na kutumia Miner yako bila hakikisho lolote la mafanikio. Mining mabwawa ya Address suala hili kwa kuunganisha uwezo wa kompyuta wa kadhaa (maelfu) ya wachimbaji madini na kushiriki malipo yao kulingana na asilimia ya ushiriki katika Hashrate ya bwawa wakati kizuizi kinapopatikana. Ili kuibua nafasi zako za Mining block peke yako, unaweza kutumia zana hii. Kwa kuingiza habari kwa Antminer S9, tunaweza kuona kwamba nafasi za kupata Hash ambayo inaruhusu kuundwa kwa block ni 1 kati ya 24,777,849 kwa kila block au 1 katika 172,068 kwa siku. Kwa wastani (na Hashrate ya mara kwa mara na ugumu), itachukua angalau miaka 471 kupata block (kama ugumu unavyoongezeka).
 

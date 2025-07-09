@@ -1,0 +1,9 @@
+question: Vilket ekonomiskt begrepp lyfter Bastiat fram i sin analys av kostnaden för förstörelse?
+answer: Alternativkostnad
+wrong_answers:
+  - Marginalkostnad
+  - Marginalproduktivitet
+  - Produktionskostnad
+explanation: |
+  Bastiat betonar vikten av alternativkostnad och illustrerar att resurser som används för att reparera förstörelse kunde ha använts för att skapa välstånd på annat håll.
+reviewed: false

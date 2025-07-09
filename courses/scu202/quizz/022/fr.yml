@@ -1,0 +1,9 @@
+question: Quelle distribution utilise par défaut l’environnement de bureau Cinnamon ?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon a été développé par l’équipe de Linux Mint pour offrir une interface moderne et classique, proche de Windows.
+reviewed: false

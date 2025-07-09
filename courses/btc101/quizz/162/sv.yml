@@ -1,0 +1,12 @@
+question: Vilken roll har gruvarbetarna i Bitcoin-protokollet?
+answer: De säkrar det aktuella och det historiska nätverket.
+wrong_answers:
+  - De reglerar priset på Bitcoin.
+  - De kontrollerar Supply i Bitcoin.
+  - De hanterar transaktioner mellan användare.
+explanation: |
+  Gruvarbetare i Bitcoin-protokollet säkrar både det aktuella och
+  det historiska nätverket. De reglerar inte priset på
+  Bitcoin, kontrollerar dess Supply och hanterar inte heller transaktioner
+  mellan användare.
+reviewed: true

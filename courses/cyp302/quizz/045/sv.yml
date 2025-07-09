@@ -1,0 +1,9 @@
+question: I en ändlig grupp, vilken term avser antalet Elements i gruppen?
+answer: Gruppens ordning
+wrong_answers:
+  - Gruppens kapacitet
+  - Gruppens längd
+  - Gruppens grad
+explanation: |
+  En grupps ordning är det totala antalet Elements som den innehåller.
+reviewed: false

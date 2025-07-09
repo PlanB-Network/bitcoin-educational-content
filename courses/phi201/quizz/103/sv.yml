@@ -1,0 +1,9 @@
+question: Vad är den österrikiska kritiken av den marxistiska vinstteorin?
+answer: Vinst är en nödvändig belöning för entreprenörer som tar risker och investerar.
+wrong_answers:
+  - Österrikarna hävdar att vinst är en form av exploatering av arbetare.
+  - Österrikarna kritiserar Marx teori för att den inte tar hänsyn till meriternas roll.
+  - Den marxistiska teorin om vinst tjänar en klass intressen.
+explanation: |
+  För österrikiska ekonomer är vinst en kompensation till entreprenörer för de risker som tagits och de investeringar som gjorts, i motsats till den marxistiska synen som ser det som en exploatering av arbetare.
+reviewed: true

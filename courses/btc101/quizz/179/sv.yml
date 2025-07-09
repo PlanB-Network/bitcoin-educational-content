@@ -1,0 +1,8 @@
+question: Vad är en av anledningarna till att Bitcoin upplever så många spekulationsbubblor?
+answer: På grund av dess begränsade Supply i kombination med hög efterfrågan.
+wrong_answers:
+  - Eftersom Bitcoin faktiskt inte används någonstans.
+  - För Bitcoin är en bubbla som kommer att försvinna.
+  - Eftersom Bitcoin inte är föremål för ekonomiska cykler.
+explanation: >-
+reviewed: true

@@ -1,0 +1,12 @@
+question: Vad är huvudsyftet med Bitcoin-revolutionen enligt denna kurs?
+answer: Att skapa en värld där mänsklig suveränitet är en rättighet, integritet respekteras som standard och pengar inte manipuleras.
+wrong_answers:
+  - Att skapa en värld där integritet inte är en mänsklig rättighet och där pengar manipuleras av bankerna.
+  - Skapar en värld där regeringar inte har någon makt och samhället är kaotiskt.
+  - Skapa en värld där fysiska pengar är överflödiga.
+explanation: |
+  Denna kurstext antyder att huvudmålet med Bitcoin
+  revolution är att skapa en värld där mänsklig suveränitet är
+  är en rättighet, integritet respekteras som standard och pengar inte
+  manipuleras.
+reviewed: true

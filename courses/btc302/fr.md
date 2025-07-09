@@ -1481,7 +1481,7 @@ L'intérêt d'en créer une est dual:
 
 Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à la formation COMMU302 puisse sortir sur [planb.network](https://planb.network/) dans les prochains mois**.
 
-À travers celle-ci, **différents points plus poussés pourront être abordés; tels que: comment construire des présentations ou des ateliers pour ses meet-ups, et avec quels objectifs? Mais aussi : comment mettre en place un événement de grande envergure, à une centaine de participants**.
+À travers celle-ci, **différents points plus poussés pourront être abordés; tels que: comment construire des présentations ou des ateliers pour ses meet-ups, et avec quels objectifs? Mais aussi: comment mettre en place un événement de grande envergure, à une centaine de participants?**
 
 Pour ce faire, nous partirons de l'expérience de plusieurs communautés ayant elles-mêmes déjà réalisées leurs propres événements et présentations.
 

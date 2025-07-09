@@ -1,25 +1,27 @@
 ---
-name: Teoretyczne wprowadzenie do sieci Lightning Network
-goal: Odkryj sieć Lightning Network z technicznego punktu widzenia
+name: Teoretyczne wprowadzenie do sieci Lightning
+goal: Odkryj sieć Lightning z technicznego punktu widzenia
 objectives: 
   - Zrozumienie działania kanałów sieciowych.
   - Zapoznaj się z terminami HTLC, LNURL i UTXO.
   - Asymilacja zarządzania płynnością i opłat LNN.
   - Rozpoznanie Lightning Network jako sieci.
-  - Zrozumienie teoretycznych zastosowań Lightning Network.
+  - Zrozumienie teoretycznych zastosowań sieci Lightning.
 
 ---
+
+„-”
 
 # Podróż do drugiej warstwy Bitcoina
 
 
-Zanurz się w sercu Lightning Network, systemu niezbędnego dla przyszłych transakcji Bitcoin. LNP201 to kurs teoretyczny na temat technicznego działania sieci Lightning. Odkrywa podstawy i mechanizmy tej drugiej warstwy sieci, zaprojektowanej tak, aby płatności Bitcoin były szybkie, ekonomiczne i skalowalne.
+Zanurz się w sercu sieci Lightning, systemu niezbędnego dla przyszłych transakcji Bitcoin. LNP201 to kurs teoretyczny na temat technicznego działania sieci Lightning. Odkrywa podstawy i mechanizmy tej drugiej warstwy sieci, zaprojektowanej tak, aby płatności Bitcoin były szybkie, ekonomiczne i skalowalne.
 
 
-Dzięki sieci kanałów płatności sieć Lightning umożliwia szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje Commitment, HTLC, klucze odwołania, mechanizmy karania, routing cebulowy i faktury.
+Dzięki sieci kanałów płatności sieć Lightning umożliwia szybkie i bezpieczne transakcje bez konieczności rejestrowania każdej wymiany w łańcuchu bloków. W kolejnych rozdziałach dowiesz się, jak działa otwieranie i zamykanie kanałów oraz zarządzanie nimi, w jaki sposób płatności są bezpiecznie kierowane przez węzły pośredniczące przy jednoczesnym zminimalizowaniu potrzeby zaufania oraz jak zarządzać płynnością. Dowiesz się, czym są transakcje zobowiązujące, HTLC (kontrakty haszowe z blokadą czasową), klucze unieważniające, mechanizmy karzące, routowanie warstwowe i faktury.
 
 
-Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć i używać sieci Lightning Network. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku Satoshiego przed zanurzeniem się w kurs LNP201.
+Niezależnie od tego, czy jesteś początkującym, czy bardziej doświadczonym użytkownikiem Bitcoina, ten kurs dostarczy ci cennych informacji, abyś mógł zrozumieć sieć Lightning i jej używać. Chociaż w pierwszych częściach omówimy niektóre podstawy działania Bitcoina, ważne jest, aby opanować podstawy wynalazku Satoshiego przed zanurzeniem się w kurs LNP201.
 
 
 Miłego odkrywania!
@@ -40,35 +42,35 @@ Miłego odkrywania!
 Witamy na kursie LNP201!
 
 
-Nasze szkolenie ma na celu zapewnienie dogłębnego technicznego zrozumienia sieci Lightning Network, sieci nakładkowej zaprojektowanej w celu ułatwienia szybkich i często tanich transakcji Bitcoin. Stopniowo odkryjesz podstawowe koncepcje rządzące tym systemem, od otwierania kanałów płatności po techniki routingu i zarządzanie płynnością.
+Nasze szkolenie ma na celu zapewnienie dogłębnego technicznego zrozumienia sieci Lightning, sieci nakładkowej zaprojektowanej w celu ułatwienia szybkich i często tanich transakcji Bitcoin. Stopniowo odkryjesz podstawowe koncepcje rządzące tym systemem, od otwierania kanałów płatności po techniki routingu i zarządzanie płynnością.
 
 
 **Sekcja 1: Podstawy**
 
-Zaczniemy od ogólnego wprowadzenia do Lightning Network, opisując niezbędne podstawy dotyczące Bitcoina, jego adresów, UTXO i sposobu działania transakcji. Ten podstawowy przegląd jest niezbędny do zrozumienia, w jaki sposób Lightning Network opiera się na podstawowych mechanizmach łańcucha bloków, aby działać bezpiecznie.
+Zaczniemy od ogólnego wprowadzenia do sieci Lightning, opisując niezbędne podstawy dotyczące Bitcoina, jego adresów, UTXO i sposobu działania transakcji. Ten podstawowy przegląd jest niezbędny do zrozumienia, w jaki sposób sieć Lightning opiera się na podstawowych mechanizmach łańcucha bloków, aby działać bezpiecznie.
 
 
 **Sekcja 2: Otwieranie i zamykanie kanałów**
 
-W tej sekcji zbadamy proces otwierania kanału, który jest kamieniem węgielnym Lightning Network. Dowiesz się, w jaki sposób tworzone są transakcje Commitment, jaka jest rola kluczy odwołania dla bezpieczeństwa i w jaki sposób kanały mogą być zamykane wspólnie lub jednostronnie. Każdy krok zostanie wyjaśniony precyzyjnie i technicznie, aby pomóc ci zrozumieć wszystkie subtelności.
+W tej sekcji zbadamy proces otwierania kanału, który jest kamieniem węgielnym sieci Lightning. Dowiesz się, w jaki sposób tworzone są transakcje zobowiązujące, jaka jest rola kluczy unieważniających dla bezpieczeństwa i w jaki sposób kanały mogą być zamykane wspólnie lub jednostronnie. Każdy krok zostanie wyjaśniony precyzyjnie i technicznie, aby pomóc ci zrozumieć wszystkie subtelności.
 
 
 **Sekcja 3: Sieć płynności**
 
-Lightning Network nie ogranicza się do pojedynczych kanałów; to prawdziwa sieć płatności. Zobaczymy, jak transakcje mogą być kierowane przez węzły pośredniczące za pomocą HTLC. W tej sekcji przedstawimy również wyzwania związane z płynnością przychodzącą i wychodzącą.
+Sieć Lightning nie ogranicza się do pojedynczych kanałów; to prawdziwa sieć płatności. Zobaczymy, jak transakcje mogą być kierowane przez węzły pośredniczące za pomocą HTLC. W tej sekcji przedstawimy również wyzwania związane z płynnością przychodzącą i wychodzącą.
 
 
-**Sekcja 4: Narzędzia Lightning Network**
+**Sekcja 4: Narzędzia wykorzystywane w sieci Lightning**
 
-W tej sekcji przedstawiono praktyczne narzędzia Lightning Network, takie jak *Invoices*, *LNURL* i *Keysend*. Dowiesz się również, jak zarządzać płynnością swoich kanałów, co jest istotnym aspektem zapewniającym płynne płatności i maksymalizującym wydajność transakcji w sieci Lightning.
+W tej sekcji przedstawiono praktyczne narzędzia wykorzystywane w sieci Lightning, takie jak *Invoices*, *LNURL* i *Keysend*. Dowiesz się również, jak zarządzać płynnością swoich kanałów, co jest istotnym aspektem zapewniającym płynne płatności i maksymalizującym wydajność transakcji w sieci Lightning.
 
 
 **Sekcja 5: Dalej**
 
-Na koniec szkolenia podsumujemy omówione koncepcje i utorujemy drogę bardziej zaawansowanym tematom dla tych, którzy chcą pogłębić swoją wiedzę na temat Lightning Network.
+Na koniec szkolenia podsumujemy omówione koncepcje i utorujemy drogę bardziej zaawansowanym tematom dla tych, którzy chcą pogłębić swoją wiedzę na temat sieci Lightning.
 
 
-Gotowy do odkrycia technicznych mechanizmów Lightning Network? Zaczynajmy!
+Gotowy do odkrycia technicznych mechanizmów sieci Lightning? Zaczynajmy!
 
 
 # Podstawy
@@ -77,7 +79,7 @@ Gotowy do odkrycia technicznych mechanizmów Lightning Network? Zaczynajmy!
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
 
 
-## Zrozumienie Lightning Network
+## Zrozumienie sieci Lightning
 
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
@@ -87,40 +89,40 @@ Gotowy do odkrycia technicznych mechanizmów Lightning Network? Zaczynajmy!
 
 
 
-Lightning Network to sieć kanałów płatności zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualniew łańcuchu bloków. W ten sposób Lightning Network dąży do poprawy skalowalności Bitcoina i uczynienia go użytecznym do płatności o niskiej wartości.
+Lightning Network to sieć kanałów płatności zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualnie w łańcuchu bloków. W ten sposób sieć Lightning dąży do poprawy skalowalności Bitcoina i uczynienia go użytecznym do płatności o niskiej wartości.
 
 
-Przed zbadaniem aspektu "sieci" ważne jest, aby zrozumieć koncepcję **kanału płatności** sieci Lightning, to jak działa i jaka jest jego specyfika. Jest to temat naszego pierwszego rozdziału.
+Przed zbadaniem aspektu „sieci” ważne jest, aby zrozumieć koncepcję **kanału płatności** Lightning, to jak działa i jaka jest jego specyfika. Jest to temat naszego pierwszego rozdziału.
 
 
 ### Koncepcja kanału płatności
 
 
-Kanał płatności pozwala dwóm stronom, nazwanych tutaj **Alice** i **Bob**, na wymianę funduszy przez Lightning Network. Każda postać ma węzeł, symbolizowany przez okrąg, a kanał między nimi jest reprezentowany przez odcinek linii.
+Kanał płatności pozwala dwóm stronom, nazwanym tutaj **Alice** i **Bob**, na wymianę funduszy przez sieć Lightning. Każda postać ma węzeł sieci, symbolizowany przez okrąg, a kanał między nimi jest reprezentowany przez odcinek linii.
 
 
 ![LNP201](assets/en/01.webp)
 
 
-W naszym przykładzie Alice ma 100 000 satów po swojej stronie kanału, a Bob ma 30 000 satów, co daje łącznie 130 000 satów, co stanowi **przepustowość kanału**.
+W naszym przykładzie Alicja ma 100 000 satów po swojej stronie kanału, a Bob ma 30 000 satów, co daje łącznie 130 000 satów, co stanowi **przepustowość kanału**.
 
 
 **Ale czym jest Sat?
 
 
-**Satoshi** (lub "sat") jest jednostką rozliczeniową Bitcoina. Podobnie jak cent dla euro, satoshi jest po prostu ułamkiem Bitcoina. Jeden Satoshi jest równy **0,00000001 Bitcoina**, czyli jednej stumilionowej Bitcoina. Korzystanie z sató∑ staje się coraz bardziej praktyczne wraz ze wzrostem wartości Bitcoina.
+**Satoshi** (lub „sat”) jest jednostką rozliczeniową Bitcoina. Podobnie jak cent dla euro, satoshi jest po prostu ułamkiem bitcoina. Jeden satoshi jest równy **0,00000001 bitcoina**, czyli jednej stumilionowej bitcoina. Korzystanie z satów staje się coraz bardziej praktyczne wraz ze wzrostem wartości bitcoina.
 
 
 ### Alokacja funduszy w kanale La Manche
 
 
-Wróćmy do kanału płatności. Kluczowym pojęciem jest tutaj "**strona kanału**". Każdy uczestnik ma środki po swojej stronie kanału: Alicja 100 000 satów, a Bob 30 000. Jak widzieliśmy, suma tych środków reprezentuje całkowitą pojemność kanału, liczbę ustaloną w momencie jego otwarcia.
+Wróćmy do kanału płatności. Kluczowym pojęciem jest tutaj „**strona kanału**”. Każdy uczestnik ma środki po swojej stronie kanału: Alicja 100 000 satów, a Bob 30 000. Jak widzieliśmy, suma tych środków reprezentuje całkowitą pojemność kanału, liczbę ustaloną w momencie jego otwarcia.
 
 
 ![LNP201](assets/en/02.webp)
 
 
-Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów do Boba, jest to możliwe, ponieważ ma wystarczającą ilość środków (100 000 satoshi). Po tej transakcji Alicja będzie miała po swojej stronie 60 000 satoshi, a Bob 70 000.
+Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów do Boba, jest to możliwe, ponieważ ma wystarczającą ilość środków (100 000 satoshi). Po tej transakcji Alicja będzie miała po swojej stronie 60 000 satów, a Bob 70 000.
 
 
 ![LNP201](assets/en/03.webp)
@@ -129,7 +131,7 @@ Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów
 Pojemność kanału**, wynosząca 130 000 satów, pozostaje stała. To, co się zmienia, to alokacja środków. System ten nie pozwala na wysyłanie większej ilości środków niż się posiada. Na przykład, jeśli Bob chciałby odesłać Alicji 80 000 satów, nie mógłby, ponieważ ma tylko 70 000.
 
 
-Inny sposób wyobrażenia sobie alokacji środków to wyobrażenie sobie **kursora**, który wskazuje, gdzie znajdują się środki w kanale. Na początku, gdy Alice ma 100 000 satów, a Bob 30 000, kursor jest bardziej po stronie Boba, ponieważ Alice ma znacznie więcej środków. Po transakcji na 40 000 satów kursor przesunie się nieco w stronę Alice, która teraz posiada 60 000 satów.
+Inny sposób wyobrażenia sobie alokacji środków to wyobrażenie sobie **kursora**, który wskazuje, gdzie znajdują się środki w kanale. Na początku, gdy Alicja ma 100 000 satów, a Bob 30 000, kursor jest bardziej po stronie Boba, ponieważ Alicja ma znacznie więcej środków. Po transakcji na 40 000 satów kursor przesunie się nieco w stronę Alicji, która teraz posiada 60 000 satów.
 
 
 ![LNP201](assets/en/04.webp)
@@ -143,7 +145,7 @@ Ta reprezentacja może być przydatna do wyobrażenia sobie równowagi funduszy 
 
 Pierwszą kwestią do zapamiętania jest to, że **przepustowość kanału** jest stała. Przypomina to nieco średnicę rury: określa maksymalną ilość środków, które można przesłać przez kanał jednocześnie.
 
-Weźmy przykład: jeśli Alice ma 130 000 satów po swojej stronie, może wysłać maksymalnie 130 000 satów do Boba w pojedynczej transakcji. Bob może jednak odesłać te środki z powrotem do Alice, częściowo lub w całości.
+Weźmy przykład: jeśli Alicja ma 130 000 satów po swojej stronie, może wysłać Bobowi maksymalnie 130 000 satów w pojedynczej transakcji. Bob może jednak odesłać te środki z powrotem do Alicji, częściowo lub w całości.
 
 
 Ważne jest, aby zrozumieć, że stała przepustowość kanału ogranicza maksymalną kwotę pojedynczej transakcji, ale nie całkowitą liczbę możliwych transakcji ani ogólny wolumen środków wymienianych w kanale.
@@ -155,10 +157,10 @@ Ważne jest, aby zrozumieć, że stała przepustowość kanału ogranicza maksym
 
 - Przepustowość kanału jest stała i określa maksymalną kwotę, jaką można przesłać w ramach pojedynczej transakcji.
 - Środki w kanale są rozdzielane między dwóch uczestników, a każdy z nich może wysyłać do drugiego tylko te środki, które posiada po swojej stronie.
-- Lightning Network pozwala zatem na szybką i wydajną wymianę środków, przy jednoczesnym poszanowaniu ograniczeń narzuconych przez przepustowość kanałów.
+- Sieć Lightning pozwala zatem na szybką i wydajną wymianę środków, przy jednoczesnym poszanowaniu ograniczeń narzuconych przez przepustowość kanałów.
 
 
-To koniec pierwszego rozdziału, w którym położyliśmy podwaliny pod sieć Lightning Network. W kolejnych rozdziałach zobaczymy, jak otworzyć kanał i zagłębimy omawiane tutaj koncepcje.
+To koniec pierwszego rozdziału, w którym przedstawiliśmy podstawy sieci Lightning. W kolejnych rozdziałach zobaczymy, jak otworzyć kanał i zgłębimy omawiane tutaj koncepcje.
 
 
 ## Bitcoin, adresy, UTXO i transakcje
@@ -170,16 +172,16 @@ To koniec pierwszego rozdziału, w którym położyliśmy podwaliny pod sieć Li
 :::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 
-Ten rozdział jest nieco wyjątkowy, ponieważ nie będzie bezpośrednio poświęcony Lightning, ale Bitcoin. W rzeczywistości Lightning Network jest Layer nałożonym na Bitcoin. Dlatego ważne jest, aby zrozumieć pewne podstawowe koncepcje Bitcoin, aby właściwie zrozumieć działanie Lightning w kolejnych rozdziałach. W tym rozdziale dokonamy przeglądu podstaw adresów odbiorczych Bitcoin, UTXO, a także funkcjonowania transakcji Bitcoin.
+Ten rozdział jest nieco wyjątkowy, ponieważ nie będzie bezpośrednio poświęcony sieci Lightning, ale Bitcoinowi. W rzeczywistości sieć Lightning jest warstwą nałożoną na Bitcoina. Dlatego ważne jest, aby zrozumieć pewne podstawowe koncepcje związane z Bitcoinem, aby w kolejnych rozdziałach właściwie zrozumieć działanie sieci Lightning. W tym rozdziale dokonamy przeglądu podstaw adresów odbiorczych Bitcoina, UTXO, a także funkcjonowania transakcji Bitcoin.
 
 
 ### Adresy Bitcoin, klucze prywatne i klucze publiczne
 
 
-Bitcoin Address to seria znaków pochodzących z **klucza publicznego**, który jest obliczany na podstawie **klucza prywatnego**. Jak z pewnością wiesz, jest on używany do blokowania bitcoinów, co jest równoznaczne z otrzymaniem ich w naszym Wallet.
+Adres Bitcoin to seria znaków pochodzących z **klucza publicznego**, który jest obliczany na podstawie **klucza prywatnego**. Jak z pewnością wiesz, jest on używany do blokowania bitcoinów, co jest równoznaczne z otrzymaniem ich w naszym portfelu.
 
 
-Klucz prywatny jest tajnym elementem, który **nigdy nie powinien być udostępniany**, podczas gdy klucz publiczny i Address mogą być udostępniane bez ryzyka dla bezpieczeństwa (ich ujawnienie stanowi jedynie ryzyko dla prywatności użytkownika). Oto wspólna reprezentacja, którą przyjmiemy podczas tego szkolenia:
+Klucz prywatny jest tajnym elementem, który **nigdy nie powinien być udostępniany**, podczas gdy klucz publiczny i adres mogą być udostępniane bez ryzyka dla bezpieczeństwa (ich ujawnienie stanowi ryzyko jedynie dla prywatności użytkownika). Oto reprezentacja graficzna, którą będzimy posługiwać się podczas tego szkolenia:
 
 
 
@@ -191,33 +193,33 @@ Klucz prywatny jest tajnym elementem, który **nigdy nie powinien być udostępn
 ### Transakcje Bitcoin: Wysyłanie środków i skrypty
 
 
-Na Bitcoin transakcja polega na wysłaniu środków z jednego Address do drugiego. Weźmy przykład Alicji wysyłającej 0,002 Bitcoin do Boba. Alicja używa klucza prywatnego powiązanego z jej Address, aby **podpisać** transakcję, udowadniając w ten sposób, że rzeczywiście jest w stanie wydać te środki. Ale co dokładnie dzieje się za tą transakcją? Środki na Bitcoin Address są zablokowane przez **skrypt**, rodzaj mini-programu, który narzuca pewne warunki do wydania środków.
+Transakcja Bitcoin polega na wysłaniu środków z jednego adresu do drugiego. Weźmy przykład Alicji wysyłającej 0,002 bitcoina do Boba. Alicja używa klucza prywatnego powiązanego z jej adresem, aby **podpisać** transakcję, udowadniając w ten sposób, że rzeczywiście jest w stanie wydać te środki. Ale co dokładnie dzieje się za kulisami tej transakcji? Środki w adresie Bitcoin są zablokowane przez **skrypt**, rodzaj mini-programu, który narzuca pewne warunki wydawania środków.
 
 
-Najpopularniejszy skrypt wymaga podpisu kluczem prywatnym powiązanym z Address. Kiedy Alice podpisuje transakcję swoim kluczem prywatnym, **odblokowuje skrypt**, który blokuje środki, a następnie można je przelać. Transfer środków polega na dodaniu nowego skryptu do tych środków, określającego, że tym razem do ich wydania wymagany będzie podpis kluczem prywatnym **Boba**.
+Najpopularniejszy skrypt wymaga podpisu kluczem prywatnym powiązanym z adresem. Kiedy Alicja podpisuje transakcję swoim kluczem prywatnym, **odblokowuje skrypt**, który blokuje środki, a następnie może je przelać. Transfer środków polega na dodaniu nowego skryptu do tych środków, określającego, że tym razem do ich wydania wymagany będzie podpis kluczem prywatnym **Boba**.
 
 
 ![LNP201](assets/en/05.webp)
 
 
-### UTXOs: Niewykorzystane wyjścia transakcji
+### UTXOs: Niewykorzystane środki z poprzednich transakcji
 
 
-W Bitcoin to, co faktycznie Exchange, to nie bezpośrednio bitcoiny, ale **UTXOs** (_Unspent Transaction Outputs_), co oznacza "niewydane transakcje wyjściowe".
+W Bitcoinie to, co faktycznie jest wymieniane, to nie bezpośrednio bitcoiny, ale **UTXOs** (_Unspent Transaction Outputs_), co oznacza „niewydane wyjścia transakcji”.
 
 
-UTXO to kawałek Bitcoin, który może mieć dowolną wartość, na przykład **2 000 bitcoinów**, **8 bitcoinów**, a nawet **8 000 Sats**. Każdy UTXO jest zablokowany przez skrypt i aby go wydać, należy spełnić warunki skryptu, często podpis z kluczem prywatnym odpowiadającym danemu otrzymanemu Address.
+UTXO to kawałek Bitcoina, który może mieć dowolną wartość, na przykład **2 000 bitcoinów**, **8 bitcoinów**, a nawet **8 000 satów**. Każdy UTXO jest zablokowany przez skrypt i aby go wydać, należy spełnić warunki skryptu, często chodzi o podpis kluczem prywatnym odpowiadający danemu adresowi odbiorcy.
 
 
-UTXO nie mogą być dzielone. Za każdym razem, gdy są używane do wydania kwoty w bitcoinach, które reprezentują, musi to być zrobione w całości. To trochę jak z banknotem: jeśli masz rachunek na 10 euro i jesteś winien piekarzowi 5 euro, nie możesz po prostu przeciąć rachunku na pół. Musisz dać mu banknot o nominale 10 euro, a on wyda ci 5 euro reszty. Jest to dokładnie ta sama zasada dla UTXO w Bitcoin! Na przykład, gdy Alice odblokowuje skrypt swoim kluczem prywatnym, odblokowuje cały UTXO. Jeśli chce wysłać tylko część środków reprezentowanych przez ten UTXO do Boba, może "pofragmentować" go na kilka mniejszych. Następnie wyśle 0,0015 BTC do Boba i wyśle pozostałą część, 0,0005 BTC, do **zamienionego Address**.
+UTXO nie mogą być dzielone. Za każdym razem, gdy są używane do wydania kwoty w bitcoinach, które reprezentują, musi to być zrobione w całości. To trochę jak z banknotem: jeśli masz rachunek na 10 euro i jesteś winien piekarzowi 5 euro, nie możesz po prostu przeciąć rachunku na pół. Musisz dać mu banknot o nominale 10 euro, a on wyda ci 5 euro reszty. UTXO w Bitcoinie działa na dokładnie tej samej zasadzie! Na przykład, gdy Alicja odblokowuje skrypt swoim kluczem prywatnym, odblokowuje cały UTXO. Jeśli chce wysłać tylko część środków reprezentowanych przez ten UTXO do Boba, może „pofragmentować” go na kilka mniejszych. Następnie wyśle 0,0015 BTC do Boba i wyśle pozostałą część, 0,0005 BTC, na **adres zwrotny**.
 
 
 Oto przykład transakcji z 2 wyjściami:
 
 
 
-- UTXO w wysokości 0,0015 BTC dla Boba, zablokowany przez skrypt wymagający podpisu klucza prywatnego Boba.
-- UTXO w wysokości 0,0005 BTC dla Alice, zablokowany przez skrypt wymagający jej własnego podpisu.
+- UTXO w wysokości 0,0015 BTC dla Boba, zablokowany przez skrypt wymagający podpisu kluczem prywatnym Boba.
+- UTXO w wysokości 0,0005 BTC dla Alicji, zablokowany przez skrypt wymagający jej własnego podpisu.
 
 
 ![LNP201](assets/en/06.webp)
@@ -226,32 +228,32 @@ Oto przykład transakcji z 2 wyjściami:
 ### Adresy z wieloma podpisami
 
 
-Oprócz prostych adresów generowanych z jednego klucza publicznego, możliwe jest tworzenie **adresów wielopodpisowych** z wielu kluczy publicznych. Szczególnie interesującym przypadkiem dla Lightning Network jest **2/2 wielopodpisowy Address**, wygenerowany z dwóch kluczy publicznych:
+Oprócz prostych adresów generowanych z jednego klucza publicznego, możliwe jest tworzenie **adresów wielopodpisowych** z wielu kluczy publicznych. Szczególnie interesującym przypadkiem w sieci Lightning jest **2/2 adres wielopodpisowy**, wygenerowany z dwóch kluczy publicznych:
 
 
 ![LNP201](assets/en/07.webp)
 
 
-Aby wydać środki zablokowane za pomocą Address z wieloma podpisami 2/2, konieczne jest podpisanie za pomocą dwóch kluczy prywatnych powiązanych z kluczami publicznymi.
+Aby wydać środki zablokowane za pomocą adresu z wieloma podpisami 2/2, konieczne jest podpisanie za pomocą dwóch kluczy prywatnych powiązanych z kluczami publicznymi.
 
 
 ![LNP201](assets/en/08.webp)
 
 
-Ten typ Address jest dokładnie odwzorowaniem na Bitcoin Blockchain kanałów płatności na Lightning Network.
+Ten typ adresu jest dokładnym odwzorowaniem łańcucha bloków Bitcoina dla kanałów płatności w sieci Lightning.
 
 
 **Co powinieneś wynieść z tego rozdziału?
 
 
 
-- Klucz **Bitcoin Address** jest wyprowadzany z klucza publicznego, który z kolei jest wyprowadzany z klucza prywatnego.
-- Środki na Bitcoin są blokowane przez **skrypty** i aby je wydać, należy spełnić wymagania skryptu, co zazwyczaj wiąże się z dostarczeniem podpisu z odpowiednim kluczem prywatnym.
-- UTXO** to kawałki bitcoinów zablokowane przez skrypty, a każda transakcja na Bitcoin polega na odblokowaniu UTXO, a następnie utworzeniu jednego lub więcej nowych w zamian.
-- adresy 2/2 z wieloma podpisami** wymagają podpisu dwóch kluczy prywatnych w celu wydania środków. Te konkretne adresy są używane w kontekście Lightning do tworzenia kanałów płatności.
+- **Adres Bitcoin** jest wyprowadzany z klucza publicznego, który z kolei jest wyprowadzany z klucza prywatnego.
+- Środki w Bitcoinie są blokowane przez **skrypty** i aby je wydać, należy spełnić wymagania skryptu, co zazwyczaj wiąże się z dostarczeniem podpisu z odpowiednim kluczem prywatnym.
+- UTXO** to kawałki bitcoinów zablokowane przez skrypty, a każda transakcja w Bitcoinie polega na odblokowaniu UTXO, a następnie utworzeniu jednego lub więcej nowych UTXO w jego miejsce.
+- **adresy wielopodpisowe 2/2** wymagają podpisu dwóch kluczy prywatnych w celu wydania środków. Te konkretne adresy są używane w sieci Lightning do tworzenia kanałów płatności.
 
 
-Niniejszy rozdział poświęcony Bitcoin pozwolił nam zapoznać się z kilkoma istotnymi pojęciami. W następnym rozdziale dowiemy się, jak działa otwieranie kanałów na Lightning Network.
+Niniejszy rozdział poświęcony Bitcoinowi pozwolił nam zapoznać się z kilkoma istotnymi pojęciami. W następnym rozdziale dowiemy się, jak działa otwieranie kanałów w sieci Lightning.
 
 
 # Otwieranie i zamykanie kanałów
@@ -269,13 +271,13 @@ Niniejszy rozdział poświęcony Bitcoin pozwolił nam zapoznać się z kilkoma 
 :::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
-W tym rozdziale zobaczymy dokładniej, jak otworzyć kanał płatności na Lightning Network i zrozumiemy związek między tą operacją a bazowym systemem Bitcoin.
+W tym rozdziale zobaczymy dokładniej, jak otworzyć kanał płatności w sieci Lightning i zrozumiemy związek między tą operacją a bazowym systemem Bitcoin.
 
 
 ### Kanały błyskawic
 
 
-Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** na Lightning można porównać do "rury" do wymiany środków między dwoma uczestnikami (**Alice** i **Bob** w naszych przykładach). Przepustowość tego kanału odpowiada sumie dostępnych środków po każdej ze stron. W naszym przykładzie Alice ma **100 000 satoshis**, a Bob ma **30 000 satoshis**, co daje **całkowitą przepustowość** wynoszącą **130 000 satoshis**.
+Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** na Lightning można porównać do „rury” do wymiany środków między dwoma uczestnikami (**Alice** i **Bob** w naszych przykładach). Przepustowość tego kanału odpowiada sumie dostępnych środków po każdej ze stron. W naszym przykładzie Alice ma **100 000 satoshis**, a Bob ma **30 000 satoshis**, co daje **całkowitą przepustowość** wynoszącą **130 000 satoshis**.
 
 
 ![LNP201](assets/en/09.webp)
@@ -284,7 +286,7 @@ Jak widzieliśmy w pierwszym rozdziale, **kanał płatności** na Lightning moż
 ### Poziomy informacji Exchange
 
 
-Kluczowe jest wyraźne rozróżnienie różnych poziomów Exchange na Lightning Network:
+Kluczowe jest wyraźne rozróżnienie różnych poziomów wymiany w sieci Lightning:
 
 
 
@@ -737,7 +739,7 @@ Wyobraźmy sobie na przykład taką sytuację:
 ![LNP201](assets/en/37.webp)
 
 
-Jeśli Alice chce wysłać środki do Boba bez otwierania z nim bezpośredniego kanału, będzie musiała przejść przez Suzie, a każdy kanał będzie musiał dostosować płynność po obu stronach. **Wysłane satoshis pozostają w obrębie swoich kanałów**; w rzeczywistości nie "przekraczają" kanałów, ale transfer odbywa się poprzez dostosowanie wewnętrznej płynności w każdym kanale.
+Jeśli Alice chce wysłać środki do Boba bez otwierania z nim bezpośredniego kanału, będzie musiała przejść przez Suzie, a każdy kanał będzie musiał dostosować płynność po obu stronach. **Wysłane satoshis pozostają w obrębie swoich kanałów**; w rzeczywistości nie „przekraczają” kanałów, ale transfer odbywa się poprzez dostosowanie wewnętrznej płynności w każdym kanale.
 
 
 Załóżmy, że Alicja chce wysłać **50 000 satoshi** do Boba:
@@ -805,8 +807,8 @@ Węzły pośrednie stosują opłaty, aby umożliwić przekazywanie płatności p
 
 
 
-- "**Opłata podstawowa**": stała kwota za kanał, często domyślnie **1 sat**, ale z możliwością dostosowania.
-- "**Opłata zmienna**": wartość procentowa przesyłanej kwoty, obliczana w **częściach na milion (ppm)**. Domyślnie jest to **1 ppm** (1 sat na milion przesłanych satoshi), ale można go również dostosować.
+- „**Opłata podstawowa**”: stała kwota za kanał, często domyślnie **1 sat**, ale z możliwością dostosowania.
+- „**Opłata zmienna**”: wartość procentowa przesyłanej kwoty, obliczana w **częściach na milion (ppm)**. Domyślnie jest to **1 ppm** (1 sat na milion przesłanych satoshi), ale można go również dostosować.
 
 
 Opłaty różnią się również w zależności od kierunku przelewu. Na przykład w przypadku przelewu z Alice do Suzie obowiązują opłaty Alice. I odwrotnie, z Suzie do Alice, stosowane są opłaty Suzie.
@@ -868,7 +870,7 @@ Płynność jest zatem aktualizowana:
 ### Routing cebulowy
 
 
-Aby skierować płatność od nadawcy do odbiorcy, Lightning Network wykorzystuje metodę zwaną "**routingiem cebulowym**". W przeciwieństwie do routingu klasycznych danych, gdzie każdy router decyduje o kierunku danych w oparciu o ich miejsce docelowe, routing cebulowy działa inaczej:
+Aby skierować płatność od nadawcy do odbiorcy, Lightning Network wykorzystuje metodę zwaną „**routingiem cebulowym**”. W przeciwieństwie do routingu klasycznych danych, gdzie każdy router decyduje o kierunku danych w oparciu o ich miejsce docelowe, routing cebulowy działa inaczej:
 
 
 
@@ -1028,7 +1030,7 @@ Przed rozpoczęciem płatności 40 000 Sats między Alice i Bobem, Alice posiada
 ![LNP201](assets/en/58.webp)
 
 
-Alicja właśnie otrzymała Invoice Boba, który w szczególności zawiera _r_, Hash sekretu. Może więc skonstruować HTLC o wartości 40 000 satoshi z Suzie. Ten HTLC jest reprezentowany w ostatnich transakcjach Commitment jako wyjście o nazwie "**_HTLC Out_**" po stronie Alicji, ponieważ fundusze są wychodzące, i "**_HTLC In_**" po stronie Suzie, ponieważ fundusze są przychodzące.
+Alicja właśnie otrzymała Invoice Boba, który w szczególności zawiera _r_, Hash sekretu. Może więc skonstruować HTLC o wartości 40 000 satoshi z Suzie. Ten HTLC jest reprezentowany w ostatnich transakcjach Commitment jako wyjście o nazwie „**_HTLC Out_**” po stronie Alicji, ponieważ fundusze są wychodzące, i „**_HTLC In_**” po stronie Suzie, ponieważ fundusze są przychodzące.
 
 
 ![LNP201](assets/en/59.webp)
@@ -1098,15 +1100,15 @@ Nawet przy takiej topologii Lightning Network, istnieją istotne informacje dla 
 ### Aktualizacja mapy sieci
 
 
-Aby mapa sieci była aktualna, węzły regularnie wysyłają wiadomości Exchange za pomocą algorytmu o nazwie "**_gossip_**". Jest to rozproszony algorytm używany do rozprzestrzeniania informacji w sposób epidemiczny do wszystkich węzłów w sieci, co pozwala na Exchange i synchronizację Global State kanałów w kilku cyklach komunikacyjnych. Każdy węzeł rozprzestrzenia informacje do jednego lub więcej sąsiadów wybranych losowo lub nie, ci z kolei rozprzestrzeniają informacje do innych sąsiadów i tak dalej, aż do osiągnięcia globalnie zsynchronizowanego stanu.
+Aby mapa sieci była aktualna, węzły regularnie wysyłają wiadomości Exchange za pomocą algorytmu o nazwie „**_gossip_**”. Jest to rozproszony algorytm używany do rozprzestrzeniania informacji w sposób epidemiczny do wszystkich węzłów w sieci, co pozwala na Exchange i synchronizację Global State kanałów w kilku cyklach komunikacyjnych. Każdy węzeł rozprzestrzenia informacje do jednego lub więcej sąsiadów wybranych losowo lub nie, ci z kolei rozprzestrzeniają informacje do innych sąsiadów i tak dalej, aż do osiągnięcia globalnie zsynchronizowanego stanu.
 
 
 Dwie główne wiadomości wymieniane między węzłami Lightning są następujące:
 
 
 
-- "**Channel Announcements**": wiadomości sygnalizujące otwarcie nowego kanału.
-- "**Channel Updates**": wiadomości aktualizacyjne dotyczące stanu kanału, w szczególności ewolucji opłat (ale nie dystrybucji płynności).
+- „**Channel Announcements**”: wiadomości sygnalizujące otwarcie nowego kanału.
+- „**Channel Updates**”: wiadomości aktualizacyjne dotyczące stanu kanału, w szczególności ewolucji opłat (ale nie dystrybucji płynności).
 
 
 Węzły Lightning monitorują również Bitcoin Blockchain w celu wykrycia transakcji zamknięcia kanału. Zamknięty kanał jest następnie usuwany z mapy, ponieważ nie może być już używany do kierowania naszych płatności.
@@ -1138,7 +1140,7 @@ Oto rzeczywista dystrybucja środków w tych kanałach:
 ![LNP201](assets/en/64.webp)
 
 
-Aby dokonać płatności w wysokości 100 000 Sats od Alicji do Boba, opcje routingu są ograniczone przez dostępną płynność w każdym kanale. Optymalną trasą dla Alicji, w oparciu o znane rozkłady płynności, może być sekwencja "Alicja → 1 → 2 → 4 → 5 → Bob":
+Aby dokonać płatności w wysokości 100 000 Sats od Alicji do Boba, opcje routingu są ograniczone przez dostępną płynność w każdym kanale. Optymalną trasą dla Alicji, w oparciu o znane rozkłady płynności, może być sekwencja „Alicja → 1 → 2 → 4 → 5 → Bob”:
 
 
 ![LNP201](assets/en/65.webp)
@@ -1227,7 +1229,7 @@ Jak wyjaśniono w rozdziale dotyczącym HTLC, każda płatność rozpoczyna się
 - Payload**: ta sekcja zawiera informacje przeznaczone dla maszyn do przetwarzania płatności.
 
 
-Typowa struktura Invoice zaczyna się od identyfikatora `LN` dla "Lightning", po którym następuje `bc` dla Bitcoin, a następnie ilość Invoice. Separator `1` odróżnia część czytelną dla człowieka od części danych (ładunku).
+Typowa struktura Invoice zaczyna się od identyfikatora `LN` dla „Lightning”, po którym następuje `bc` dla Bitcoin, a następnie ilość Invoice. Separator `1` odróżnia część czytelną dla człowieka od części danych (ładunku).
 
 
 Weźmy następujący Invoice jako przykład:
@@ -1264,7 +1266,7 @@ W pierwszej części możemy to zobaczyć:
 
 - `LN` wskazuje, że jest to transakcja Lightning.
 - `bc` wskazuje, że Lightning Network znajduje się na Bitcoin Blockchain (a nie na Testnet lub na Litecoin).
-- `100u` oznacza ilość Invoice, wyrażoną w **mikrobitcoinach** (`u` oznacza "mikro"), co tutaj równa się 10 000 Sats.
+- `100u` oznacza ilość Invoice, wyrażoną w **mikrobitcoinach** (`u` oznacza „mikro”), co tutaj równa się 10 000 Sats.
 
 
 Aby określić kwotę płatności, jest ona wyrażana w podjednostkach Bitcoin. Oto używane jednostki:
@@ -1280,7 +1282,7 @@ $$
 
 
 
-- Microbitcoin (oznaczany `u`):** Czasami nazywany również "bitem", reprezentuje jedną milionową Bitcoin.
+- Microbitcoin (oznaczany `u`):** Czasami nazywany również „bitem”, reprezentuje jedną milionową Bitcoin.
 
 
 $$
@@ -1313,7 +1315,7 @@ $$
 
 
 - Timestamp:** Moment utworzenia Invoice, wyrażony w Unix Timestamp (liczba sekund, które upłynęły od 1 stycznia 1970 r.).
-- Hashowanie sekretu**: Jak widzieliśmy w sekcji dotyczącej HTLC, węzeł odbierający musi dostarczyć węzłowi wysyłającemu Hash obrazu wstępnego. Jest to używane w HTLC do zabezpieczenia transakcji. Określiliśmy to jako "_r_".
+- Hashowanie sekretu**: Jak widzieliśmy w sekcji dotyczącej HTLC, węzeł odbierający musi dostarczyć węzłowi wysyłającemu Hash obrazu wstępnego. Jest to używane w HTLC do zabezpieczenia transakcji. Określiliśmy to jako „_r_”.
 - Sekret płatności**: Kolejny sekret jest generowany przez odbiorcę, ale tym razem jest on przesyłany do węzła wysyłającego. Jest on używany w routingu cebulowym, aby uniemożliwić węzłom pośrednim odgadnięcie, czy następny węzeł jest odbiorcą końcowym, czy nie. W ten sposób odbiorca zachowuje pewną formę poufności w odniesieniu do ostatniego węzła pośredniego na trasie.
 - Klucz publiczny odbiorcy**: Wskazuje płatnikowi identyfikator osoby, która ma otrzymać płatność.
 - Czas wygaśnięcia**: Maksymalny czas, przez jaki Invoice ma być opłacany (domyślnie 1 godzina).
@@ -1346,7 +1348,7 @@ Na przykład funkcja LNURL-withdraw (LUD-03) umożliwia wypłacanie środków z 
 ### Wysyłanie płatności błyskawicznej bez Invoice: Keysend
 
 
-Innym interesującym przypadkiem jest transfer środków bez wcześniejszego otrzymania Invoice, znany jako "**Keysend**". Protokół ten umożliwia wysyłanie środków poprzez dodanie obrazu wstępnego do zaszyfrowanych danych płatności, dostępnych tylko dla odbiorcy. Ten obraz wstępny umożliwia odbiorcy odblokowanie HTLC, a tym samym odzyskanie środków bez wcześniejszego wygenerowania Invoice.
+Innym interesującym przypadkiem jest transfer środków bez wcześniejszego otrzymania Invoice, znany jako „**Keysend**”. Protokół ten umożliwia wysyłanie środków poprzez dodanie obrazu wstępnego do zaszyfrowanych danych płatności, dostępnych tylko dla odbiorcy. Ten obraz wstępny umożliwia odbiorcy odblokowanie HTLC, a tym samym odzyskanie środków bez wcześniejszego wygenerowania Invoice.
 
 
 Dla uproszczenia, w tym protokole to nadawca generuje sekret używany w HTLC, a nie odbiorca. W praktyce pozwala to nadawcy na dokonanie płatności bez konieczności wcześniejszej interakcji z odbiorcą.
@@ -1391,7 +1393,7 @@ Istnieją trzy główne profile użytkowników Lightning, z których każdy ma o
 - Router**: Węzeł pośredniczący, często specjalizujący się w przekierowywaniu płatności, który musi zoptymalizować swoją płynność w każdym kanale, aby przekierować jak najwięcej płatności i zarobić na opłatach.
 
 
-Profile te nie są oczywiście stałe; użytkownik może przełączać się między płatnikiem a odbiorcą w zależności od transakcji. Przykładowo, Bob może otrzymywać swoją pensję od swojego pracodawcy, co stawia go w pozycji "sprzedawcy" wymagającego płynności przychodzącej. Następnie, jeśli chce wykorzystać swoją pensję do zakupu żywności, staje się "płatnikiem" i musi mieć płynność wychodzącą.
+Profile te nie są oczywiście stałe; użytkownik może przełączać się między płatnikiem a odbiorcą w zależności od transakcji. Przykładowo, Bob może otrzymywać swoją pensję od swojego pracodawcy, co stawia go w pozycji „sprzedawcy” wymagającego płynności przychodzącej. Następnie, jeśli chce wykorzystać swoją pensję do zakupu żywności, staje się „płatnikiem” i musi mieć płynność wychodzącą.
 
 
 Aby lepiej to zrozumieć, weźmy przykład prostej sieci składającej się z trzech węzłów: kupującego (Alice), routera (Suzie) i sprzedawcy (Bob).
@@ -1532,7 +1534,7 @@ Po zbadaniu izolowanych kanałów, rozszerzyliśmy naszą analizę na sieć kana
 
 
 
-- HTLC**: Płatności przechodzące przez węzły pośredniczące są zabezpieczone przez "_Hash Time-Locked Contracts_" (HTLC), które pozwalają na zablokowanie środków do momentu zakończenia płatności od końca do końca.
+- HTLC**: Płatności przechodzące przez węzły pośredniczące są zabezpieczone przez „_Hash Time-Locked Contracts_” (HTLC), które pozwalają na zablokowanie środków do momentu zakończenia płatności od końca do końca.
 
 
 ![LNP201](assets/en/80.webp)

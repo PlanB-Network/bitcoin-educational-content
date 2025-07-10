@@ -1590,34 +1590,34 @@ Es ist auch erwähnenswert, dass **Bitcoin Core nicht der einzige Client** ist. 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Die mehrschichtige Architektur von Bitcoin
-xxxx
+
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 
-Bitcoin ist ein offenes System, das von Anfang an auf Minimalismus, Robustheit und Sicherheit ausgelegt ist. Um Funktionen hinzuzufügen, ohne die Grundlagen zu verändern, werden Entwicklungen im Allgemeinen durch das Hinzufügen von **Protokollschichten** und ergänzenden Anwendungen vorgenommen, die das Ökosystem bereichern, ohne die Dezentralisierung und Widerstandsfähigkeit des Hauptsystems zu beeinträchtigen. Diese Flexibilität hat es zahlreichen Unternehmen und unabhängigen Entwicklern ermöglicht, eine Infrastruktur um Bitcoin herum aufzubauen und Innovationen hinzuzufügen, die an verschiedene Anwendungsfälle angepasst sind.
+Bitcoin ist ein offenes System, das von Anfang an auf Minimalismus, Robustheit und Sicherheit ausgelegt ist. Es geht oft darum, Funktionen hinzuzufügen, ohne die Grundlagen zu verändern. Dabei werden Entwicklungen im Allgemeinen durch das Hinzufügen von **Protokollschichten** und ergänzenden Anwendungen vorgenommen, die das Ökosystem bereichern, ohne die Dezentralisierung und Widerstandsfähigkeit des Hauptsystems zu beeinträchtigen. Diese Flexibilität hat es zahlreichen Unternehmen und unabhängigen Entwicklern ermöglicht, eine Infrastruktur um Bitcoin herum aufzubauen und Innovationen hinzuzufügen, die an verschiedene Anwendungsfälle angepasst sind.
 
 
 ### Bitcoin Erweiterung mit zusätzlichen Schichten
 
 
-Der mehrschichtige Ansatz ermöglicht es, Bitcoin zu verbessern, ohne das Kernprotokoll zu ändern, und garantiert so die Stabilität und Sicherheit des Hauptsystems. Diese Methode ist vergleichbar mit der Funktionsweise des Internets, wo mehrere Protokolle aufeinander aufbauen, um unterschiedliche Funktionen zu bieten und gleichzeitig eine reibungslose Interoperabilität zu gewährleisten.
+Der mehrschichtige Ansatz ermöglicht es, Bitcoin zu verbessern, ohne das Kernprotokoll zu ändern. Dies garantiert die Stabilität und Sicherheit des Hauptsystems. Diese Methode ist vergleichbar mit der Funktionsweise des Internets, wo mehrere Protokolle aufeinander aufbauen, um unterschiedliche Funktionen zu bieten und gleichzeitig eine reibungslose Interoperabilität zu gewährleisten.
 
 
 Zu den wichtigsten Overlay-Systemen, die das Bitcoin-Ökosystem bereichern, gehören:
 
 
 
-- Lightning Network**:
+- Lightning Network:
 
 
-Der Lightning Network, der 2016 von Thaddeus Dryja und Joseph Poon entwickelt wurde, ist eine zweite Layer-Lösung, die sofortige und kostengünstige Zahlungen ermöglicht. Zwei Nutzer können einen privaten Kanal öffnen, in dem sie Transaktionen durchführen können, wobei der Kontostand auf dem Blockchain nur aktualisiert wird, wenn der Kanal geöffnet oder geschlossen wird. Die Transaktionen innerhalb des Kanals finden auf dem off-chain statt, d. h. sie müssen nicht einzeln auf dem Bitcoin aufgezeichnet werden. Diese Struktur ermöglicht sofortige Transaktionen und minimale Gebühren, was sie ideal für Transaktionen mit geringem Wert macht, die eine schnelle Bestätigung erfordern.
+Das Lightning Network wurde 2016 von Thaddeus Dryja und Joseph Poon entwickelt. Es ist eine Lösung auf der zweiten Schicht und ermöglicht schnelle und kostengünstige Zahlungen. Zwei Nutzer können einen privaten Kanal öffnen, in dem sie Transaktionen durchführen können. Dabei wird der Kontostand auf der Blockchain nur aktualisiert, wenn der Kanal geöffnet oder geschlossen wird. Die Transaktionen innerhalb des Kanals finden 'off-chain' statt, d.h. sie müssen nicht einzeln auf der Bitcoin-Blockchain aufgezeichnet werden. Diese Struktur ermöglicht sofortige Transaktionen und minimale Gebühren, was sie ideal für Transaktionen mit geringem Wert macht, die eine schnelle Bestätigung erfordern.
 
 
 ![BTC102-Bitcoin](assets/fr/059.webp)
 
 
-Nehmen wir an, Sie kaufen einen Kaffee mit Bitcoin unter Verwendung der Basis Layer. Damit die Zahlung bestätigt werden kann (und damit das Café sicher sein kann, dass Sie tatsächlich bezahlt haben), muss die Transaktion in einen Block aufgenommen werden. Das kann einige Minuten dauern, je nach der von Ihnen gewählten Gebühr. Technisch gesehen sollte der Händler sechs Bestätigungen (etwa eine Stunde) abwarten, um sicher zu sein, dass die Zahlung endgültig ist. Diese Wartezeit ist natürlich nicht möglich, wenn Sie am Schalter stehen. Mit dem Lightning Network wird die Zahlung in nur wenigen Sekunden abgewickelt, so dass Ihr Kaffee bezahlt und serviert ist, bevor er überhaupt abgekühlt sein kann.
+Nehmen wir an, Sie kaufen einen Kaffee mit Bitcoin unter Verwendung der Basisschicht. Damit die Zahlung bestätigt werden kann (und damit das Café sicher sein kann, dass Sie tatsächlich bezahlt haben), muss die Transaktion in einen Block aufgenommen werden. Das kann einige Minuten dauern, je nach der von Ihnen gewählten Gebühr. Technisch gesehen sollte der Händler sechs Bestätigungen (etwa eine Stunde) abwarten, um sicher zu sein, dass die Zahlung endgültig ist. Diese Wartezeit ist natürlich nicht möglich, wenn Sie am Schalter stehen. Mit dem Lightning Network wird die Zahlung in nur wenigen Sekunden abgewickelt, so dass Ihr Kaffee bezahlt und serviert ist, bevor er überhaupt abkühlen kann.
 
 
 Wenn Sie mehr über die Funktionsweise von Lightning erfahren möchten, bieten wir einen ausgezeichneten Kurs für das zweite Studienjahr zu diesem Thema an:
@@ -1626,13 +1626,13 @@ Wenn Sie mehr über die Funktionsweise von Lightning erfahren möchten, bieten w
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
-- Seitenketten** :
+- 'Side-Chains' :
 
 
-Sidechains sind Blockchains, die parallel zu Bitcoins Haupt-Blockchain laufen. Sie sind über einen Zwei-Wege-Peg verbunden, der sicherstellt, dass der Vermögenswert, der sich zwischen den Ketten bewegt, den gleichen Wert behält; das heißt, ein Bitcoin auf der Sidechain ist immer noch ein Bitcoin auf der Hauptkette wert. Jeder Sidechain hat seinen eigenen Konsensmechanismus, der völlig unabhängig oder teilweise abhängig von dem des Bitcoin sein kann.
+Sidechains sind auch Blockchain, laufen aber parallel zur Bitcoins Haupt-Blockchain. Sie sind über eine Zwei-Wege-Koppelung verbunden. Diese stellt sicher, dass der Vermögenswert, der sich zwischen den Ketten bewegt, den gleichen Wert behält; das heißt, ein Bitcoin auf der Sidechain ist immer noch ein Bitcoin auf der Hauptkette wert. Jede Sidechain hat ihren eigenen Konsensmechanismus, der völlig unabhängig oder teilweise abhängig von dem des Bitcoin sein kann.
 
 
-Der Hauptvorteil von Sidechains besteht darin, dass sie Funktionen bieten können, die auf der Bitcoin-Basis Layer nicht verfügbar sind, oder sie auf verbesserte Weise anbieten. Dazu gehören mehr Flexibilität für Entwickler, schnellere und/oder privatere Transaktionen und ein höherer Transaktionsdurchsatz. Um diese Vorteile zu bieten, müssen Sidechains jedoch oft andere Kompromisse eingehen als die Hauptkette von Bitcoin.
+Der Hauptvorteil von Sidechains besteht darin, dass sie Funktionen bieten können, die auf der Bitcoin-Basisschicht nicht verfügbar sind, oder sie auf verbesserte Weise anbieten. Dazu gehören mehr Flexibilität für Entwickler, schnellere und/oder privatere Transaktionen und ein höherer Transaktionsdurchsatz. Um diese Vorteile zu bieten, müssen Sidechains jedoch oft andere Kompromisse eingehen als die Hauptkette von Bitcoin.
 
 
 Das Konzept der Sidechains wurde 2014 von Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon und Pieter Wuille eingeführt. Ab 2025 sind die bekanntesten Sidechains im Bitcoin-Ökosystem Liquid und RSK (Rootstock).
@@ -1644,13 +1644,13 @@ Wenn Sie sich eingehender mit Liquid beschäftigen möchten, bieten wir einen Ku
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
-- RGB** :
+- RGB :
 
 
-RGB ist ein dezentrales und datenschutzorientiertes Smart contract-System, das auf Bitcoin und Lightning Network aufbaut. Im Gegensatz zu herkömmlichen Smart contract-Plattformen verwendet RGB ein Client-side Validation-Modell (d. h. das vollständige Contract State wird auf off-chain gespeichert, und nur kryptografische Verpflichtungen werden auf Bitcoin Blockchain veröffentlicht). Dieses Design verbessert sowohl die Skalierbarkeit als auch den Datenschutz. Mit RGB können Benutzer fortschrittliche Smart Contracts für die Ausgabe von Token, NFTs, dezentralen Identitäten oder sogar DeFi-Anwendungen direkt auf Bitcoin oder Lightning erstellen.
+RGB ist ein dezentrales und datenschutzorientiertes Smart-Contract-System, das auf Bitcoin und dem Lightning-Netzwerk aufbaut. Im Gegensatz zu herkömmlichen Smart-Contract-Plattformen verwendet RGB ein Client-seitiges Validierungsmodell (d.h. der vollständige Vertragsstatus wird 'off-chain' gespeichert, und nur kryptografische Verpflichtungen werden auf der Bitcoin-Blockchain veröffentlicht). Dieses Design verbessert sowohl die Skalierbarkeit als auch den Datenschutz. Mit RGB können Benutzer fortschrittliche Smart-Contracts für die Ausgabe von Tokens, NFTs, dezentralen Identitäten oder sogar DeFi-Anwendungen direkt auf Bitcoin oder Lightning erstellen.
 
 
-Ein Hauptmerkmal von RGB ist der Schutz vor Double-spending, der durch eine kryptografische Technik namens Single-use Seals erreicht wird. Dieser Mechanismus beruht auf der Tatsache, dass die UTXOs (Unspent Transaction Outputs) von Bitcoin nur einmal ausgegeben werden können. Die Authentizität der Token wird durch die benutzerseitige Validierung der gesamten Historie des Contract (von seiner Erstellung bis zu seinem aktuellen Zustand) sichergestellt.
+Ein Hauptmerkmal von RGB ist der Schutz vor 'Double-spending' (Geld doppelt ausgeben), der durch eine kryptografische Technik namens 'Single-use Seals' erreicht wird. Dieser Mechanismus beruht auf der Tatsache, dass die UTXOs (Unspent Transaction Outputs) von Bitcoin nur einmal ausgegeben werden können. Die Authentizität der Tokens wird durch die benutzerseitige Validierung der gesamten Historie des Vertrags (von seiner Erstellung bis zu seinem aktuellen Zustand) sichergestellt.
 
 
 ![BTC102-Bitcoin](assets/fr/060.webp)
@@ -1661,22 +1661,22 @@ Um Ihre Kenntnisse über RGB zu vertiefen, bieten wir einen Schulungskurs für d
 
 https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
-RGB ist nur eines von vielen Protokollen, die auf Bitcoin aufbauen. Einige sind weiter verbreitet als andere, aber es kommen immer wieder neue hinzu. Der gemeinsame Nenner ist die Idee, jedes Layer für eine bestimmte Aufgabe zu optimieren und dabei die Integrität und Unveränderlichkeit des Basisprotokolls von Bitcoin zu bewahren.
+RGB ist nur eines von vielen Protokollen, die auf Bitcoin aufbauen. Einige sind weiter verbreitet als andere, aber es kommen immer wieder neue hinzu. Der gemeinsame Nenner ist die Idee, jede Schicht für eine bestimmte Aufgabe zu optimieren und dabei die Integrität und Unveränderlichkeit des Basisprotokolls von Bitcoin zu bewahren.
 
 
-Dieses mehrschichtige Design steht im Gegensatz zu einem Großteil der breiteren Kryptoindustrie, die oft versucht, viele Funktionen in einem einzigen Protokoll zu bündeln. Indem wir Bitcoin einfach und eng fokussiert halten, reduzieren wir seine Angriffsfläche, was mehr Sicherheit bedeutet. Ein schlankes Protokoll ist leichter zu sichern, zu warten und zu skalieren. Bitcoin ist darauf ausgelegt, eine Sache extrem gut zu machen: solides, dezentralisiertes Geld bereitzustellen. Alles andere (Smart Contracts, Token, Zahlungen und mehr) kann darauf aufgesetzt werden und ermöglicht Innovationen, ohne den Kern zu gefährden.
+Dieses mehrschichtige Design steht im Gegensatz zu einem Großteil der breiteren Kryptoindustrie, die oft versucht, viele Funktionen in einem einzigen Protokoll zu bündeln. Indem wir Bitcoin einfach und eng fokussiert halten, reduzieren wir seine Angriffsfläche, was mehr Sicherheit bedeutet. Ein schlankes Protokoll ist leichter zu sichern, zu warten und zu skalieren. Bitcoin ist darauf ausgelegt, eine Sache extrem gut zu machen: solides, dezentralisiertes Geld bereitzustellen. Alles andere (Smart Contracts, Tokens, Zahlungen und mehr) kann darauf aufgesetzt werden und ermöglicht Innovationen, ohne den Kern zu gefährden.
 
 
 ![BTC102-Bitcoin](assets/fr/058.webp)
 
 
-**Wussten Sie schon, dass das Internet nicht auf einmal entstanden ist, sondern sich aus mehreren interoperablen Protokollen entwickelt hat? TCP/IP ist beispielsweise für die Netzwerkkommunikation zuständig, HTTP für das Internet, und viele andere Schichten erfüllen spezifische Funktionen. Jeder Layer ist für seine Aufgabe optimiert, wodurch ein robustes und modulares System entsteht. Bitcoin folgt der gleichen Philosophie. Das Basis-Layer ist stark und minimal, und zusätzliche Funktionen werden durch Schichtprotokolle wie Lightning, Liquid oder RGB hinzugefügt; jedes konzentriert sich auf die Lösung verschiedener Benutzeranforderungen, während die Grundlage intakt bleibt.
+Wussten Sie schon, dass das Internet nicht auf einmal entstanden ist, sondern sich aus mehreren interoperablen Protokollen entwickelt hat? TCP/IP ist beispielsweise für die Netzwerkkommunikation zuständig, HTTP für das Internet, und viele andere Schichten erfüllen spezifische Funktionen. Jede Schicht ist für ihre Aufgabe optimiert, wodurch ein robustes und modulares System entsteht. Bitcoin folgt der gleichen Philosophie. Die Basis-Schicht ist stark und minimal, und zusätzliche Funktionen werden durch Schichtprotokolle wie Lightning, Liquid oder RGB hinzugefügt; jedes konzentriert sich auf die Lösung verschiedener Benutzeranforderungen, während die Grundlage intakt bleibt.
 
 
 ### Händler-Tools für die Annahme von Bitcoin
 
 
-Heutzutage gibt es viele Tools für Händler, die Bitcoin als Zahlungsmittel akzeptieren möchten. Für kleine Unternehmen, die eine einfache Einrichtung wünschen, ist die Verwendung eines Hot Wallet (oder sogar eines Lightning Wallet) oft ausreichend, um mit der direkten Annahme von Zahlungen zu beginnen. Größere Unternehmen, die eine ordnungsgemäße Buchhaltung und Berichterstattung benötigen, bevorzugen in der Regel fortschrittlichere Zahlungsverarbeitungssysteme. Glücklicherweise gibt es je nach Ihren Bedürfnissen mehrere Optionen.
+Heutzutage gibt es viele Tools für Händler, die Bitcoin als Zahlungsmittel akzeptieren möchten. Für kleine Unternehmen, die eine einfache Einrichtung wünschen, ist die Verwendung eines 'Hot Wallets' (oder sogar eines Lightning Wallet) oft ausreichend, um mit der direkten Annahme von Zahlungen zu beginnen. Größere Unternehmen, die eine ordnungsgemäße Buchhaltung und Berichterstattung benötigen, bevorzugen in der Regel fortschrittlichere Zahlungsverarbeitungssysteme. Glücklicherweise gibt es je nach Ihren Bedürfnissen mehrere Optionen.
 
 
 Wenn Sie eine "hands-off"-Lösung bevorzugen und Fiat-Währungen direkt auf Ihr Bankkonto erhalten möchten, bieten Depotdienste wie OpenNode eine optimierte Erfahrung:
@@ -1694,27 +1694,27 @@ Irgendwo dazwischen finden Sie Swiss Bitcoin Pay, eine benutzerfreundliche und d
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Die Annahme von Bitcoin kann für ein Unternehmen mehrere praktische und finanzielle Vorteile bringen. Genau wie Bargeld ermöglicht das Bitcoin direkte Zahlungen zwischen dem Kunden und dem Händler (keine Notwendigkeit für eine traditionelle Bank). Zahlungen, die über das Lightning Network getätigt werden, sind sofort und endgültig, wodurch das Risiko von Rückbuchungen verringert wird. Und wenn Händler ihr eigenes Bitcoin halten (Selbstverwahrung), gewinnen sie größere finanzielle Autonomie.
+Die Annahme von Bitcoin kann für ein Unternehmen mehrere praktische und finanzielle Vorteile bringen. Genau wie Bargeld ermöglicht Bitcoin direkte Zahlungen zwischen dem Kunden und dem Händler (keine Notwendigkeit für eine traditionelle Bank). Zahlungen, die über das Lightning Netzwerk getätigt werden, sind sofort und endgültig, wodurch das Risiko von Rückbuchungen verringert wird. Und wenn Händler ihre eigenen Bitcoins halten (Selbstverwahrung), gewinnen sie größere finanzielle Autonomie.
 
 
-Es kann auch zur Kostensenkung beitragen, da keine Bankgebühren anfallen und keine herkömmlichen Zahlungsterminals benötigt werden; oft genügt ein Smartphone oder ein Laptop. Selbst wenn Zahlungsabwickler beteiligt sind, sind die Gebühren in der Regel niedriger als die von Banken erhobenen.
+Es kann auch zur Kostensenkung beitragen, da keine Bankgebühren anfallen und keine herkömmlichen Zahlungsterminals benötigt werden; oft genügt ein Smartphone oder ein Laptop. Selbst wenn Zahlungsabwickler beteiligt sind, sind die Gebühren in der Regel niedriger als die von den Banken erhobenen.
 
 
-Im Gegensatz zu herkömmlichen Währungen, die im Laufe der Zeit durch die Inflation an Wert verlieren, hat Bitcoin einen festen Supply von 21 Millionen Münzen. Dies macht es zu einem wertvollen Vermögenswert für die langfristige Erhaltung und Diversifizierung der Unternehmensfinanzen.
+Im Gegensatz zu herkömmlichen Währungen, die im Laufe der Zeit durch die Inflation an Wert verlieren, hat Bitcoin ein festes Angebot von 21 Millionen Münzen. Dies macht es zu einem wertvollen Vermögenswert für die langfristige Erhaltung und Diversifizierung der Unternehmensfinanzen.
 
 
-Im Tagesgeschäft vereinfacht Bitcoin den Zahlungsverkehr, da kein physisches Bargeld mehr benötigt wird, das Diebstahlrisiko verringert und die Möglichkeit von Falschgeld ausgeschlossen wird. Da es sich um eine globale Währung handelt, ist sie ideal für internationale Kunden, da keine Währungsumrechnung erforderlich ist. Für Online-Shops ist Bitcoin besonders sicher und effizient.
+Im Tagesgeschäft vereinfacht Bitcoin den Zahlungsverkehr, da kein physisches Bargeld mehr benötigt wird, das Diebstahlrisiko verringert und die Möglichkeit von Falschgeld ausgeschlossen wird. Es handelt sich um eine globale Währung und ist damit ideal für internationale Kunden, da keine Währungsumrechnung erforderlich ist. Für Online-Shops ist Bitcoin besonders sicher und effizient.
 
 
 Darüber hinaus kann die Akzeptanz von Bitcoin ein kluger Marketingzug sein. Es zeigt, dass Ihr Unternehmen zukunftsorientiert ist und neue Kunden anziehen kann (vor allem bei jüngeren Generationen wie der Generation Z). Es ist eine risikoarme, strategische Möglichkeit mit minimalen Kosten, die sich meist auf die Ersteinrichtung beschränken, die heute mit den richtigen Tools einfacher denn je ist.
 
 
-Wenn Sie herausfinden möchten, wie Bitcoin in Ihr Unternehmen integriert werden kann (sei es als Zahlungsmethode, als Treasury-Asset oder beides), bieten wir einen auf diesen Bedarf zugeschnittenen Einsteigerkurs an:
+Wenn Sie herausfinden möchten, wie Bitcoin in Ihr Unternehmen integriert werden kann (sei es als Zahlungsmethode, als Treasury-Vermögenswert oder beides), bieten wir einen auf diesen Bedarf zugeschnittenen Einsteigerkurs an:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
-Bitcoin ist als Medium von Exchange auf dem Vormarsch und wird in vielen Branchen zunehmend angenommen. Der Lightning Network hat Zahlungen schneller und billiger gemacht, was die Attraktivität des Bitcoin für Händler weiter erhöht.
+Bitcoin ist als Zahlungsmittel auf dem Vormarsch und wird in vielen Branchen zunehmend angenommen. Der Lightning Netzwerk hat Zahlungen schneller und billiger gemacht, was die Attraktivität des Bitcoin für Händler weiter erhöht.
 
 
 Wir sind an einem Punkt angelangt, an dem sich jeder in das Bitcoin-Ökosystem einbringen kann, sei es durch die Nutzung im Alltag, die Einführung in Unternehmen, Beiträge zur Bildung, die Unterstützung bei der Verbesserung des Codes oder die Entwicklung neuer Anwendungen.
@@ -1734,7 +1734,7 @@ Ich habe die Metapher der "Bitcoin-Autobahn" immer für eine der genauesten und 
 Stellen Sie sich Bitcoin als eine Straße vor, auf der Sie fahren. Um alltägliche Dinge zu erledigen (Lebensmittel zu kaufen, Dienstleistungen zu bezahlen oder Ihr Auto reparieren zu lassen), müssen Sie diese Straße manchmal verlassen, das heißt, Sie kehren vorübergehend zum alten Finanzsystem zurück. Das liegt daran, dass sich die Bitcoin-Infrastruktur noch im Aufbau befindet und einige Bereiche des täglichen Lebens noch auf Fiat-Währung und Banken angewiesen sind.
 
 
-Aber mit der Zeit wird diese Straße zu einer voll ausgebauten Autobahn werden. Aber im Laufe der Zeit wird diese Straße zu einer voll ausgebauten Autobahn werden.
+Mit der Zeit wird diese Straße zu einer voll ausgebauten Autobahn werden. 
 
 
 So sehe ich auch die Zukunft von Bitcoin. Es wird das traditionelle Finanzwesen vielleicht nicht vollständig ersetzen, aber es wird es in Schlüsselbereichen (Effizienz, Sicherheit und Benutzerakzeptanz) übertreffen, bis es für den Großteil der Welt zum Standard wird.
@@ -1743,7 +1743,7 @@ So sehe ich auch die Zukunft von Bitcoin. Es wird das traditionelle Finanzwesen 
 Wenn ich mich richtig erinnere, wurde diese Metapher der Bitcoin-Autobahn erstmals von Andreas Antonopoulos vorgestellt. Seine Vision hat auch heute noch Gültigkeit, und mit jedem Schritt nach vorn kommen wir ihr näher.(https://x.com/aantonop)
 
 
-Der nächste Schritt im Kurs: Wir werden praktisch und helfen Ihnen, Ihr Bitcoiner-Profil auf der Grundlage Ihrer persönlichen Situation und Ziele zu definieren.
+Der nächste Schritt im Kurs: Wir gehen in die Praxis und helfen Ihnen, Ihr Bitcoiner-Profil auf der Grundlage Ihrer persönlichen Situation und Ziele zu definieren.
 
 
 # Aufstellung Ihres Plans
@@ -1758,9 +1758,9 @@ Der nächste Schritt im Kurs: Wir werden praktisch und helfen Ihnen, Ihr Bitcoin
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 
-Nachdem Sie nun die theoretischen Grundlagen von Bitcoin kennengelernt haben, ist es an der Zeit, sich mit der praktischen Seite zu beschäftigen. In diesem Abschnitt erfahren Sie, wie Sie Ihre ersten Bitcoins erwerben, wie Sie sie sicher aufbewahren und wie Sie Ihr Vorgehen auf Ihre persönliche Situation abstimmen können. Das Ziel ist es, Ihnen dabei zu helfen, herauszufinden, welcher Nutzertyp Sie sind, damit Sie eine Strategie wählen können, die Ihren Bedürfnissen und Einschränkungen entspricht.
+Nachdem Sie nun die theoretischen Grundlagen von Bitcoin kennengelernt haben, ist es an der Zeit, sich mit der praktischen Seite zu beschäftigen. In diesem Abschnitt erfahren Sie, wie Sie Ihre ersten Bitcoins erwerben, wie Sie diese sicher aufbewahren und wie Sie Ihr Vorgehen auf Ihre persönliche Situation abstimmen können. Das Ziel ist es, Ihnen dabei zu helfen, herauszufinden, welcher Nutzertyp Sie sind, damit Sie eine Strategie wählen können, die Ihren Bedürfnissen und Einschränkungen entspricht.
 
-
+xxxx 
 Bitcoin ist nicht wie herkömmliche Vermögenswerte. Es erfordert einen durchdachten Ansatz und ein solides Verständnis sowohl der technischen als auch der wirtschaftlichen Implikationen seiner Verwendung. Im Gegensatz zu Fiat-Währungen funktioniert Bitcoin nach dem Modell der individuellen Souveränität, d. h. Sie sind für die Verwaltung und Sicherheit Ihrer Gelder voll verantwortlich. Wie wir bereits in früheren Abschnitten erörtert haben, ist diese finanzielle Autonomie ein großer Vorteil, aber sie geht auch mit bestimmten bewährten Praktiken einher, die wir in den nächsten Kapiteln untersuchen werden.
 
 

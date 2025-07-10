@@ -84,11 +84,7 @@ Kemudian klik pada tombol yang diterima melalui email.
 Akhirnya, masuk lagi.
 ![BITWARDEN](assets/notext/13.webp)
 
-Pertama dan terutama, saya sangat menyarankan Anda untuk mengatur otentikasi dua faktor (2FA) untuk mengamankan manajer kata sandi Anda. Anda memiliki pilihan antara menggunakan aplikasi TOTP atau kunci keamanan fisik. Dengan mengaktifkan 2FA, setiap kali Anda masuk ke akun Bitwarden Anda, Anda akan diminta tidak hanya kata sandi utama Anda tetapi juga bukti faktor kedua otentikasi Anda. Ini adalah lapisan keamanan tambahan, terutama berguna dalam kejadian cadangan kertas kata sandi utama Anda dikompromikan.
-
 Pertama dan terpenting, saya sangat menyarankan Anda untuk mengatur autentikasi dua faktor (2FA) demi mengamankan pengelola kata sandi Anda. Anda memiliki pilihan untuk menggunakan aplikasi TOTP atau kunci keamanan fisik. Dengan mengaktifkan 2FA, setiap kali Anda masuk ke akun Bitwarden Anda, Anda tidak hanya akan diminta kata sandi utama (master password) Anda, tetapi juga bukti faktor autentikasi kedua Anda. Ini merupakan lapisan keamanan tambahan, yang sangat berguna jika cadangan kata sandi utama Anda yang berbentuk fisik (kertas) sampai disusupi.
-
-Apabila Anda belum yakin bagaimana cara mengatur dan menggunakan perangkat 2FA ini, saya merekomendasikan untuk mengikuti dua tutorial lainnya:
 
 Jika Anda tidak yakin bagaimana cara mengatur dan menggunakan perangkat 2FA ini, saya menyarankan mengikuti 2 tutorial lain ini:
 
@@ -98,64 +94,98 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 Untuk melakukan ini, pergi ke tab "*Keamanan*" dalam menu "*Pengaturan*".
 ![BITWARDEN](assets/notext/14.webp)
+
 Kemudian klik pada tab "*Login dua langkah*".
 ![BITWARDEN](assets/notext/15.webp)
+
 Di sini, Anda dapat memilih metode 2FA yang Anda sukai. Sebagai contoh, saya akan memilih 2FA dengan aplikasi TOTP dengan mengklik tombol "*Kelola*".
 ![BITWARDEN](assets/notext/16.webp)
+
 Konfirmasi kata sandi utama Anda.
 ![BITWARDEN](assets/notext/17.webp)
+
 Kemudian pindai kode QR dengan aplikasi 2FA Anda.
 ![BITWARDEN](assets/notext/18.webp)
-Masukkan kode 6 digit yang tercatat pada aplikasi 2FA Anda, kemudian klik tombol "*Aktifkan*". ![BITWARDEN](assets/notext/19.webp)
-Otentikasi dua faktor telah berhasil diatur pada akun Anda.
+
+Masukkan kode 6 digit yang tercatat pada aplikasi 2FA Anda, kemudian klik tombol "*Turn On*".
+![BITWARDEN](assets/notext/19.webp)
+
+Autentikasi dua faktor telah berhasil diatur pada akun Anda.
 ![BITWARDEN](assets/notext/20.webp)
-Sekarang, jika Anda mencoba untuk masuk kembali ke manajer Anda, Anda pertama-tama perlu memasukkan kata sandi utama Anda, kemudian kode 6 digit dinamis yang dihasilkan oleh aplikasi 2FA Anda. Pastikan Anda selalu memiliki akses ke kode dinamis ini; tanpanya, Anda tidak akan dapat memulihkan kata sandi Anda.
+
+Sekarang, jika Anda mencoba masuk kembali ke pengelola Anda, Anda harus terlebih dahulu memasukkan kata sandi utama (master password) Anda, kemudian kode dinamis 6 digit yang dihasilkan oleh aplikasi 2FA Anda. Pastikan Anda selalu memiliki akses ke kode dinamis ini; tanpanya, Anda tidak akan dapat memulihkan kata sandi Anda.
 ![BITWARDEN](assets/notext/21.webp)
-Di pengaturan, Anda juga memiliki opsi untuk menyesuaikan manajer Anda di tab "*Preferensi*". Di sini, Anda dapat mengubah durasi sebelum manajer Anda secara otomatis terkunci, serta bahasa dan tema antarmuka.
-![BITWARDEN](assets/notext/22.webp)Saya sangat merekomendasikan untuk menyesuaikan panjang kata sandi yang dihasilkan oleh Bitwarden. Secara default, panjangnya diatur menjadi 14 karakter, yang mungkin tidak cukup untuk keamanan optimal. Sekarang Anda memiliki manajer untuk mengingat semua kata sandi Anda, Anda sebaiknya memanfaatkannya untuk menggunakan kata sandi yang sangat kuat.
+
+Pada pengaturan, Anda juga memiliki opsi untuk menyesuaikan pengelola Anda di tab "Preferences". Di sini, Anda dapat mengubah durasi sebelum pengelola Anda terkunci secara otomatis, serta bahasa dan tema antarmuka.
+![BITWARDEN](assets/notext/22.webp)
+
+Saya sangat merekomendasikan untuk menyesuaikan panjang kata sandi yang dihasilkan oleh Bitwarden. Secara bawaan, panjangnya diatur menjadi 14 karakter, yang mungkin tidak cukup untuk keamanan optimal. Kini setelah Anda memiliki pengelola untuk mengingat semua kata sandi Anda, sebaiknya manfaatkan untuk menggunakan kata sandi yang sangat kuat.
 
 Untuk ini, pergilah ke menu "*Generator*".
 ![BITWARDEN](assets/notext/23.webp)
+
 Di sini, Anda dapat meningkatkan panjang kata sandi Anda menjadi 40, dan centang kotak untuk menyertakan simbol.
 ![BITWARDEN](assets/notext/24.webp)
+
 ## Bagaimana cara mengamankan akun Anda dengan Bitwarden?
 
-Sekarang manajer kata sandi Anda telah dikonfigurasi, Anda dapat mulai menyimpan kredensial untuk akun online Anda. Untuk menambahkan item baru, klik langsung pada tombol "*New item*" atau pada tombol "*New*" yang terletak di pojok kanan atas layar, kemudian pada "*item*".
+Kini pengelola kata sandi Anda telah terkonfigurasi, Anda dapat mulai menyimpan kredensial untuk akun online Anda. Untuk menambahkan entri baru, klik langsung tombol "*New item*" atau pada tombol "*New* yang terletak di kanan atas layar, lalu pilih "Item".
 ![BITWARDEN](assets/notext/25.webp)
+
 Dalam formulir yang terbuka, mulailah dengan menentukan sifat dari item yang akan disimpan. Untuk menyimpan kredensial login, pilih opsi "*Login*" dari menu dropdown.
 ![BITWARDEN](assets/notext/26.webp)
-Di bidang "*Name*", masukkan nama deskriptif untuk kredensial Anda. Ini akan memudahkan Anda untuk mencari dan mengorganisir kata sandi Anda, terutama jika Anda memiliki jumlah yang besar. Misalnya, jika Anda ingin menyimpan kredensial Anda untuk situs Jaringan PlanB, Anda dapat menamai item ini dengan cara yang membuatnya langsung dikenali selama pencarian Anda di masa depan.
+
+Di kolom "*Name*", masukkan nama deskriptif untuk kredensial Anda. Ini akan memudahkan Anda dalam mencari dan mengatur kata sandi, terutama jika Anda memiliki banyak. Contohnya, jika Anda ingin menyimpan kredensial untuk situs PlanB Network, Anda bisa menamai entri ini sedemikian rupa agar langsung dikenali saat pencarian di kemudian hari.
 ![BITWARDEN](assets/notext/27.webp)
-Opsi "*Folder*" memungkinkan Anda untuk mengklasifikasikan kredensial Anda ke dalam folder. Untuk saat ini, kami belum membuatnya, tetapi saya akan menunjukkan kepada Anda cara melakukannya nanti.
+
+Opsi "*Folder*" memungkinkan Anda untuk mengklasifikasikan kredensial Anda ke dalam folder. Saat ini, kita belum membuat folder apa pun, namun akan saya tunjukkan cara melakukannya nanti.
 ![BITWARDEN](assets/notext/28.webp)
-Di bidang "*Username*", masukkan nama pengguna Anda, yang biasanya adalah alamat email Anda. ![BITWARDEN](assets/notext/29.webp)
-Selanjutnya, di bidang "*Password*", Anda dapat memasukkan kata sandi Anda. Namun, saya sangat merekomendasikan membiarkan Bitwarden menghasilkan kata sandi yang panjang, acak, dan unik untuk Anda. Ini memastikan Anda memiliki kata sandi yang kuat. Untuk menggunakan fitur ini, klik pada ikon panah ganda di atas bidang yang akan diisi.
+
+Di bidang "*Username*", masukkan nama pengguna Anda, yang biasanya adalah alamat email Anda.
+![BITWARDEN](assets/notext/29.webp)
+
+Selanjutnya, di kolom "*Password*", Anda bisa memasukkan kata sandi Anda. Namun, saya sangat merekomendasikan untuk membiarkan Bitwarden menghasilkan kata sandi yang panjang, acak, dan unik untuk Anda. Ini akan memastikan Anda memiliki kata sandi yang kuat. Untuk menggunakan fitur ini, cukup klik ikon panah ganda di atas kolom yang akan diisi.
 ![BITWARDEN](assets/notext/30.webp)
+
 Anda dapat melihat bahwa kata sandi Anda telah dihasilkan.
 ![BITWARDEN](assets/notext/31.webp)
-Di bidang "*URI 1*", Anda dapat memasukkan nama domain dari situs web.
+
+Di kolom "*URI 1*", Anda dapat memasukkan nama domain dari situs web.
 ![BITWARDEN](assets/notext/32.webp)
-Dan akhirnya, di bidang "*Notes*", Anda dapat menambahkan detail tambahan jika diperlukan.
+
+Dan akhirnya, di kolom "*Notes*", Anda dapat menambahkan detail tambahan jika diperlukan.
 ![BITWARDEN](assets/notext/33.webp)
+
 Ketika Anda telah selesai mengisi semua bidang ini, klik pada tombol "*Save*".
 ![BITWARDEN](assets/notext/34.webp)
+
 Pengenal Anda sekarang muncul di manajer Bitwarden Anda.
 ![BITWARDEN](assets/notext/35.webp)
+
 Dengan mengkliknya, Anda dapat mengakses detailnya dan memodifikasinya.
 ![BITWARDEN](assets/notext/36.webp)
+
 Dengan mengklik tiga titik kecil di sebelah kanan, Anda memiliki akses cepat untuk menyalin kata sandi atau pengenal.
 ![BITWARDEN](assets/notext/37.webp)
-Selamat, Anda telah berhasil menyimpan kata sandi pertama Anda di manajer Anda! Jika Anda ingin mengorganisir pengenal Anda dengan lebih baik, Anda dapat membuat folder khusus. Untuk melakukan ini, klik tombol "*New*" yang terletak di pojok kanan atas layar, kemudian pilih "*Folder*". ![BITWARDEN](assets/notext/38.webp)
+
+Selamat! Anda telah berhasil menyimpan kata sandi pertama Anda di pengelola. Jika Anda ingin mengorganisasi identifikasi Anda dengan lebih baik, Anda dapat membuat folder khusus. Untuk melakukannya, klik tombol "*New*" yang terletak di kanan atas layar, lalu pilih "*Folder*".
+![BITWARDEN](assets/notext/38.webp)
+
 Masukkan nama untuk folder Anda.
 ![BITWARDEN](assets/notext/39.webp)
+
 Kemudian klik pada "*Save*".
 ![BITWARDEN](assets/notext/40.webp)
+
 Folder Anda sekarang muncul di manajer Anda.
 ![BITWARDEN](assets/notext/41.webp)
-Anda dapat menetapkan folder ke pengenal saat membuatnya, seperti yang kami lakukan sebelumnya, atau dengan memodifikasi pengenal yang sudah ada. Misalnya, dengan mengklik pengenal saya untuk PlanB Network, saya kemudian dapat memilih untuk mengklasifikasikannya dalam folder "*Bitcoin*".
+
+Anda dapat menetapkan folder untuk sebuah pengenal ketika membuatnya, seperti yang telah kita lakukan sebelumnya, atau dengan memodifikasi pengenal yang sudah ada. Sebagai contoh, dengan mengklik identifikasi saya untuk PlanB Network, saya kemudian dapat memilih untuk mengklasifikasikannya ke dalam folder "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
-Dengan cara ini, Anda dapat menyusun manajer kata sandi Anda untuk memudahkan menemukan pengenal Anda. Anda dapat mengorganisirnya dengan folder seperti pribadi, profesional, bank, email, jejaring sosial, langganan, belanja, administrasi, streaming, penyimpanan, perjalanan, kesehatan, dll.
-Jika Anda lebih suka menggunakan hanya versi web dari Bitwarden, itu sepenuhnya mungkin untuk tetap menggunakan itu. Saya kemudian merekomendasikan menambahkan manajer kata sandi Anda ke favorit browser Anda untuk akses mudah dan untuk menghindari risiko phishing. Namun, Bitwarden juga menawarkan berbagai klien yang memungkinkan Anda menggunakan manajer Anda di berbagai perangkat dan untuk menyederhanakan penggunaannya sehari-hari. Mereka terutama menawarkan aplikasi seluler, ekstensi browser, dan perangkat lunak desktop. Mari kita lihat bagaimana cara mengaturnya bersama-sama.
+
+Dengan cara ini, Anda dapat menyusun pengelola kata sandi Anda untuk memudahkan pencarian pengenal. Anda bisa mengelompokkan dengan folder seperti pribadi, profesional, bank, email, media sosial, langganan, belanja, administrasi, streaming, penyimpanan, perjalanan, kesehatan, dan lain-lain.
+
+Jika Anda lebih memilih untuk hanya menggunakan versi web Bitwarden, itu sangat mungkin. Saya kemudian merekomendasikan untuk menambahkan pengelola kata sandi Anda ke bookmark browser Anda agar mudah diakses dan untuk menghindari risiko phishing. Namun, Bitwarden juga menawarkan berbagai klien (client) yang memungkinkan Anda menggunakan pengelola Anda di berbagai perangkat dan untuk menyederhanakan penggunaan sehari-hari. Mereka secara khusus menawarkan aplikasi seluler, ekstensi browser, dan perangkat lunak desktop. Mari kita lihat cara mengaturnya bersama.
 
 ![BITWARDEN](assets/notext/43.webp)
 

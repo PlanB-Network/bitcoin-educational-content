@@ -191,89 +191,102 @@ Jika Anda lebih memilih untuk hanya menggunakan versi web Bitwarden, itu sangat 
 
 ## Bagaimana cara menggunakan ekstensi browser Bitwarden?
 
-Pertama, Anda dapat mengatur ekstensi browser jika Anda mau. Ekstensi ini berfungsi sebagai versi reduksi dari manajer Anda dan menawarkan Anda kemungkinan untuk secara otomatis menyimpan kata sandi baru, menghasilkan saran untuk kata sandi yang aman, dan secara otomatis mengisi kredensial Anda di halaman login situs web.
+Pertama, Anda dapat mengatur ekstensi browser jika diinginkan. Ekstensi ini berfungsi sebagai versi ringkas dari pengelola Anda dan menawarkan Anda kemampuan untuk secara otomatis menyimpan kata sandi baru, menghasilkan saran kata sandi yang aman, serta secara otomatis mengisi kredensial Anda pada halaman login situs web.
 
-Penggunaan sehari-hari ekstensi ini sangat nyaman, tetapi juga dapat membuka vektor serangan baru. Beberapa ahli keamanan siber, oleh karena itu, menyarankan untuk tidak menggunakan ekstensi browser untuk manajer kata sandi. Namun, jika Anda memilih untuk menggunakan ekstensi Bitwarden, berikut cara melakukannya:
+Penggunaan ekstensi ini sehari-hari sangatlah praktis, namun juga dapat membuka vektor serangan baru. Oleh karena itu, beberapa pakar keamanan siber menyarankan untuk tidak menggunakan ekstensi peramban untuk pengelola kata sandi. Namun, jika Anda memilih untuk menggunakan ekstensi Bitwarden, berikut adalah cara untuk melanjutkannya:
 
-Mulailah dengan pergi ke [halaman unduhan Bitwarden resmi](https://bitwarden.com/download/#downloads-web-browser).
-
+Mulailah dengan pergi ke [halaman unduhan resmi Bitwarden](https://bitwarden.com/download/#downloads-web-browser).
 ![BITWARDEN](assets/notext/44.webp)
 
-Pilih browser Anda dari daftar yang disediakan. Untuk contoh ini, saya menggunakan Firefox, jadi saya diarahkan ke ekstensi Bitwarden resmi di Firefox Add-ons Store. Prosedurnya cukup serupa untuk browser lain.
-
+Pilih browser Anda dari daftar yang tersedia. Untuk contoh ini, saya menggunakan Firefox, jadi saya diarahkan ke ekstensi Bitwarden resmi di Firefox Add-ons Store. Prosedurnya cukup mirip untuk browser lain.
 ![BITWARDEN](assets/notext/45.webp)
 
 Klik pada tombol "*Add to Firefox*".
-
 ![BITWARDEN](assets/notext/46.webp)
 
-Anda kemudian dapat melampirkan Bitwarden ke bilah ekstensi Anda untuk akses mudah. Klik pada ekstensi untuk masuk.
-
+Anda kemudian bisa menempelkan Bitwarden ke extension bar Anda agar mudah diakses. Klik pada ekstensinya untuk login.
 ![BITWARDEN](assets/notext/47.webp)
 
 Masukkan alamat email Anda.
-
 ![BITWARDEN](assets/notext/48.webp)
 
 Kemudian kata sandi utama Anda.
-
 ![BITWARDEN](assets/notext/49.webp)
 
 Dan akhirnya, masukkan kode 6-digit dari aplikasi autentikasi Anda.
-
 ![BITWARDEN](assets/notext/50.webp)
 
 Anda sekarang terhubung ke manajer Bitwarden Anda melalui ekstensi browser.
-
 ![BITWARDEN](assets/notext/51.webp)
-Misalnya, jika saya kembali ke situs PlanB Network dan mencoba untuk masuk ke akun saya, Anda dapat melihat bahwa ekstensi Bitwarden yang terintegrasi ke dalam browser mengenali bidang login dan secara otomatis menawarkan saya untuk memilih pengenal yang sebelumnya saya simpan.
+
+Sebagai contoh, jika saya kembali ke situs PlanB Network dan mencoba masuk ke akun saya, Anda dapat melihat bahwa ekstensi Bitwarden yang terintegrasi di browser mengenali kolom login dan secara otomatis menawarkan saya untuk memilih pengenal yang sebelumnya telah saya simpan.
 ![BITWARDEN](assets/notext/52.webp)
-Jika saya memilih pengenal ini, Bitwarden mengisi bidang login untuk saya. Fitur ekstensi ini memungkinkan koneksi cepat ke situs web, tanpa perlu menyalin-tempel kredensial dari aplikasi web atau perangkat lunak Bitwarden.
+
+Jika saya memilih pengenal ini, Bitwarden akan mengisi kolom login secara otomatis untuk saya. Fitur ekstensi ini memungkinkan koneksi cepat ke situs web, tanpa perlu menyalin-tempel kredensial dari aplikasi web atau perangkat lunak Bitwarden.
 ![BITWARDEN](assets/notext/53.webp)
-Ekstensi ini juga dirancang untuk mendeteksi pembuatan akun baru. Misalnya, saat membuat akun baru di PlanB Network, Bitwarden secara otomatis menyarankan menyimpan pengenal baru.
+
+Ekstensi ini juga dirancang untuk mendeteksi pembuatan akun baru. Sebagai contoh, saat membuat akun baru di PlanB Network, Bitwarden akan secara otomatis menyarankan untuk menyimpan identifikasi baru tersebut.
 ![BITWARDEN](assets/notext/54.webp)
-Dengan mengklik saran yang muncul ini, ekstensi terbuka. Ini memungkinkan saya untuk memasukkan detail pengenal baru dan menghasilkan kata sandi yang kuat dan unik.
+
+Saat Anda mengeklik saran yang muncul, ekstensi akan terbuka. Ini memungkinkan saya untuk memasukkan detail pengenal baru dan membuat kata sandi yang kuat serta unik.
 ![BITWARDEN](assets/notext/55.webp)
-Setelah menyelesaikan informasi dan mengklik pada "*Simpan*", ekstensi menyimpan kredensial.
+
+Setelah menyelesaikan informasi dan mengklik pada "*Save*", ekstensi menyimpan kredensial.
 ![BITWARDEN](assets/notext/56.webp)
-Kemudian, ekstensi secara otomatis mengisi kredensial kami di bidang yang sesuai di situs web.
+
+Kemudian, ekstensi secara otomatis mengisi kredensial kita di kolom yang sesuai di situs web.
 ![BITWARDEN](assets/notext/57.webp)
+
 ## Bagaimana cara menggunakan perangkat lunak Bitwarden?
 
-Untuk menginstal perangkat lunak desktop Bitwarden, mulailah dengan pergi ke [halaman unduhan](https://bitwarden.com/download/#downloads-desktop). Pilih dan unduh versi yang sesuai dengan sistem operasi Anda.
+Untuk menginstal perangkat lunak desktop Bitwarden, mulailah dengan membuka [halaman unduhan](https://bitwarden.com/download/#downloads-desktop). Pilih dan unduh versi yang sesuai dengan sistem operasi Anda.
 ![BITWARDEN](assets/notext/58.webp)
-Setelah unduhan selesai, lanjutkan dengan instalasi perangkat lunak di komputer Anda. Pada peluncuran pertama perangkat lunak Bitwarden, Anda akan perlu memasukkan kredensial Anda untuk membuka kunci manajer kata sandi Anda.
+
+Setelah unduhan selesai, lanjutkan dengan instalasi perangkat lunak di komputer Anda. Pada peluncuran pertama perangkat lunak Bitwarden, Anda perlu memasukkan kredensial Anda untuk membuka kunci pengelola kata sandi Anda.
 ![BITWARDEN](assets/notext/59.webp)
+
 Kemudian, Anda akan tiba di halaman utama manajer Anda. Antarmukanya hampir sama seperti pada aplikasi web.
 ![BITWARDEN](assets/notext/60.webp)
+
 ## Bagaimana cara menggunakan aplikasi Bitwarden?
 
-Untuk mengakses kata sandi Anda dari ponsel, Anda dapat menginstal aplikasi mobile Bitwarden. Mulailah dengan pergi ke [halaman unduhan](https://bitwarden.com/download/#downloads-mobile) dan gunakan smartphone Anda untuk memindai kode QR yang sesuai dengan sistem operasi Anda.
+Untuk mengakses kata sandi Anda dari ponsel, Anda dapat menginstal aplikasi mobile Bitwarden. Mulailah dengan membuka [halaman unduhan](https://bitwarden.com/download/#downloads-mobile) dan gunakan smartphone Anda untuk memindai kode QR yang sesuai dengan sistem operasi Anda.
 ![BITWARDEN](assets/notext/61.webp)
+
 Unduh dan instal aplikasi mobile Bitwarden resmi. Pada pembukaan aplikasi pertama, masukkan kredensial Anda untuk membuka akses ke manajer kata sandi Anda.
 ![BITWARDEN](assets/notext/62.webp)
-Setelah terhubung, Anda akan dapat mengonsultasikan dan mengelola semua kata sandi Anda langsung dari aplikasi.
+
+Setelah terhubung, Anda bisa langsung melihat dan mengelola semua kata sandimu dari aplikasi.
 ![BITWARDEN](assets/notext/63.webp)
-Untuk meningkatkan keamanan aplikasi Anda, saya menyarankan Anda untuk masuk ke pengaturan dan mengaktifkan perlindungan PIN. Ini akan menambahkan lapisan keamanan tambahan dalam kasus kehilangan atau pencurian ponsel Anda.
+
+Untuk meningkatkan keamanan aplikasi Anda, saya menyarankan untuk masuk ke pengaturan dan mengaktifkan perlindungan PIN. Ini akan menambahkan lapisan keamanan ekstra jika ponsel Anda hilang atau dicuri.
 ![BITWARDEN](assets/notext/64.webp)
+
 ## Bagaimana cara membackup Bitwarden?
-Untuk memastikan Anda tidak pernah kehilangan akses ke kata sandi Anda, bahkan dalam kejadian kehilangan kata sandi utama Anda atau bencana yang mempengaruhi server Bitwarden, saya menyarankan Anda untuk secara rutin melakukan backup terenkripsi dari manajer Anda pada media eksternal.
-Ide ini bertujuan untuk mengenkripsi semua kredensial Bitwarden Anda dengan kata sandi yang berbeda dari kata sandi utama Anda dan menyimpan cadangan terenkripsi ini pada sebuah USB stick atau hard drive yang Anda simpan di rumah, sebagai contoh. Anda kemudian dapat menyimpan salinan fisik dari kata sandi dekripsi di lokasi terpisah dari tempat penyimpanan media cadangan. Sebagai contoh, Anda bisa menyimpan USB stick di rumah dan menyerahkan salinan fisik dari kata sandi enkripsi kepada teman yang Anda percaya.
 
-Metode ini memastikan bahwa bahkan jika media cadangan Anda dicuri, data Anda akan tetap tidak dapat diakses tanpa kata sandi dekripsi. Demikian pula, teman Anda tidak akan dapat mengakses data Anda tanpa memiliki media fisik.
+Untuk memastikan Anda tidak pernah kehilangan akses ke kata sandi Anda, bahkan jika Anda kehilangan kata sandi utama atau terjadi bencana yang memengaruhi server Bitwarden, saya menyarankan Anda untuk secara rutin melakukan pencadangan terenkripsi dari pengelola Anda ke media eksternal.
 
-Namun, dalam kasus terjadi masalah, Anda dapat menggunakan kata sandi dan media eksternal untuk mendapatkan kembali akses ke kredensial Anda, secara independen dari Bitwarden. Dengan demikian, bahkan jika server Bitwarden hancur, Anda masih memiliki kemungkinan untuk mengambil kembali kata sandi Anda.
+Ide ini bertujuan untuk mengenkripsi semua kredensial Bitwarden Anda dengan kata sandi yang berbeda dari kata sandi utama Anda. Simpan cadangan terenkripsi ini di USB stick atau hard drive yang Anda simpan di rumah, misalnya. Anda kemudian dapat menyimpan salinan fisik kata sandi dekripsi di lokasi yang terpisah dari tempat media cadangan disimpan. Sebagai contoh, Anda bisa menyimpan USB stick di rumah dan menitipkan salinan fisik kata sandi enkripsi kepada teman yang tepercaya.
 
-Oleh karena itu, saya menyarankan Anda untuk melakukan cadangan ini secara rutin agar selalu mencakup kredensial terbaru Anda. Untuk menghindari merepotkan teman Anda, yang memiliki salinan dari kata sandi enkripsi, dengan setiap cadangan baru, Anda dapat menyimpan kata sandi ini di pengelola kata sandi Anda. Ini bukan dimaksudkan sebagai cadangan, karena teman Anda sudah memiliki salinan fisik, tetapi lebih untuk menyederhanakan prosedur ekspor Anda di masa depan.
+Metode ini memastikan bahwa meskipun media cadangan Anda dicuri, data Anda akan tetap tidak dapat diakses tanpa kata sandi dekripsi. Demikian pula, teman Anda tidak akan dapat mengakses data Anda tanpa memiliki media fisik tersebut.
 
-Untuk melanjutkan dengan ekspor, caranya cukup sederhana: pergi ke bagian "*Tools*" dari pengelola Bitwarden Anda, kemudian pilih "*Export vault*".
+Namun, jika terjadi masalah, Anda dapat menggunakan kata sandi dan media eksternal tersebut untuk mendapatkan kembali akses ke kredensial Anda, secara independen dari Bitwarden. Dengan demikian, bahkan jika server Bitwarden hancur, Anda masih memiliki kemungkinan untuk mengambil kembali kata sandi Anda.
+
+Oleh karena itu, saya menyarankan Anda untuk melakukan pencadangan ini secara rutin agar selalu mencakup kredensial terbaru Anda. Untuk menghindari merepotkan teman Anda, yang memegang salinan kata sandi enkripsi, setiap kali ada pencadangan baru, Anda dapat menyimpan kata sandi ini di pengelola kata sandi Anda. Ini bukan dimaksudkan sebagai cadangan, karena teman Anda sudah memiliki salinan fisiknya, melainkan untuk menyederhanakan prosedur ekspor Anda di masa mendatang.
+
+Untuk melanjutkan ekspor data, caranya cukup mudah: buka bagian  "*Tools*" pada pengelola Bitwarden Anda, lalu pilih "*Export vault*".
 ![BITWARDEN](assets/notext/65.webp)
+
 Untuk formatnya, pilih "*.json (Encrypted)*".
 ![BITWARDEN](assets/notext/66.webp)
+
 Kemudian pilih opsi "*Password protected*".
 ![BITWARDEN](assets/notext/67.webp)
-Di sini, penting untuk memilih kata sandi yang kuat, unik, dan dihasilkan secara acak untuk mengenkripsi cadangan. Ini memastikan bahwa, bahkan dalam kasus pencurian cadangan terenkripsi Anda, akan mustahil bagi penyerang untuk mendekripsinya dengan brute force.
+
+Di sini, penting untuk memilih kata sandi yang kuat, unik, dan dibuat secara acak untuk mengenkripsi cadangan. Ini memastikan bahwa, bahkan jika cadangan terenkripsi Anda dicuri, penyerang tidak akan bisa mendekripsinya dengan brute force.
 ![BITWARDEN](assets/notext/68.webp)
+
 Klik pada "*Confirm format*" dan masukkan kata sandi utama Anda untuk melanjutkan dengan ekspor.
 ![BITWARDEN](assets/notext/69.webp)
-Setelah ekspor selesai, Anda akan menemukan file cadangan terenkripsi Anda di unduhan Anda. Transfer file ini ke perangkat penyimpanan eksternal yang aman, seperti USB stick atau hard drive. Ulangi operasi ini secara periodik tergantung pada penggunaan Anda. Sebagai contoh, Anda dapat memperbarui cadangan setiap minggu atau setiap bulan, sesuai dengan kebutuhan Anda.
+
+Setelah ekspor selesai, Anda akan menemukan file cadangan terenkripsi di unduhan Anda. Pindahkan file tersebut ke perangkat penyimpanan eksternal yang aman, seperti USB stick atau hard drive. Ulangi operasi ini secara berkala tergantung pada penggunaan Anda. Misalnya, Anda dapat memperbarui cadangan setiap minggu atau setiap bulan, sesuai kebutuhan Anda.

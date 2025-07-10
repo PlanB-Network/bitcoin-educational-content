@@ -1,16 +1,16 @@
 ---
-name: Akaunti ya Telegraph
+name: Akaunti ya Telegramu
 description: Ujumbe na mengi zaidi, kwenye simu ya mkononi na kompyuta ya mezani
 ---
 ![cover](assets/cover.webp)
 
 
-## Kwa nini Telegraph
+## Kwa nini Telegramu
 
 Telegramu ni zaidi ya programu ya kutuma ujumbe na huenda zaidi ya dhana ya mitandao ya kijamii. Ikilinganishwa na washindani wake wengi, ina vipengele vingi vinavyoifanya kuwa chombo chenye thamani ya kujua jinsi ya kutumia.
 
 
-Mbali na kubadilishana ujumbe, kwa Telegram unaweza kupiga simu za video na sauti, kuhariri au kufuta ujumbe hata baada ya kutumwa, faili kubwa za Exchange bila mipaka ya nafasi, na mengi zaidi. Tunatumai somo hili linaweza kusaidia kurahisisha kujifunza na, zaidi ya yote, kujiunga na jumuiya nyingi za Bitcoiner zilizopo kwenye Telegram.
+Mbali na kubadilishana ujumbe, kwa Telegram unaweza kupiga simu za video na sauti, kuhariri au kufuta ujumbe hata baada ya kutumwa, faili kubwa za kubadilishana bila mipaka ya nafasi, na mengi zaidi. Tunatumai somo hili linaweza kusaidia kurahisisha kujifunza na, zaidi ya yote, kujiunga na jumuiya nyingi za Bitcoiner zilizopo kwenye Telegram.
 
 
 ## Simu ya rununu
@@ -39,13 +39,13 @@ Mfumo wako wa uendeshaji wa hisa wa Android unaweza kujaribu kuzuia upakuaji wa 
 Mara baada ya kupakuliwa na kusakinishwa Telegramu, unaweza kuchagua _Open_ kwenye skrini ya mwisho.
 
 
-Kuunda somo hili, nilitumia simu ambayo Telegraph ilikuwa tayari imesakinishwa. Katika usakinishaji wa kwanza, utapata _Sakinisha_, badala ya _Sasisha_, chagua kusakinisha.
+Kuunda somo hili, nilitumia simu ambayo Telegramu ilikuwa tayari imesakinishwa. Katika usakinishaji wa kwanza, utapata _Sakinisha_, badala ya _Sasisha_, chagua kusakinisha.
 
 
 ![image](assets/en/05.webp)
 
 
-Ruhusu Telegraph isakinishe
+Ruhusu Telegramu isakinishe
 
 
 ![image](assets/en/06.webp)
@@ -57,7 +57,7 @@ kisha uifungue kutoka kwa simu yako na uchague _Anza Kutuma Ujumbe_.
 ![image](assets/en/07.webp)
 
 
-Kama programu yoyote nzuri ya kutuma ujumbe ya VoIP, utendakazi wa Telegraph pia unategemea laini ya simu inayofanya kazi. Ili kuanza, lazima uweke nambari yako ya simu: Telegramu itatuma SMS ya uthibitishaji yenye msimbo wa OTP.
+Kama programu yoyote nzuri ya kutuma ujumbe ya VoIP, utendakazi wa Telegramu pia unategemea laini ya simu inayofanya kazi. Ili kuanza, lazima uweke nambari yako ya simu: Telegramu itatuma SMS ya uthibitishaji yenye msimbo wa OTP.
 
 
 ![image](assets/en/08.webp)
@@ -78,9 +78,9 @@ Telegramu sasa inafanya kazi kikamilifu kwenye simu ya mkononi, tunaweza kuendel
 ## Usanidi wa jina la mtumiaji
 
 
-Jina la mtumiaji la Telegraph - wakati mwingine pia huitwa `kushughulikia` - ni zaidi ya dhana tu. Kipini hakika ni **kipekee kwa kila mtumiaji**.
+Jina la mtumiaji la Telegramu - wakati mwingine pia huitwa `handle` - ni zaidi ya dhana tu. Kipini hakika ni **kipekee kwa kila mtumiaji**.
 
-Kwenye Telegramu, ni rahisi kukutana na walaghai ambao huandika kwa faragha, wakijifanya kuwa mtu ambaye sio. Kila mtumiaji anaweza kunaswa na kufichua taarifa za kibinafsi akiamini kuwa anapiga gumzo na mtu anayemwamini kikamilifu. **Tutaona kwamba mpini ndio ulinzi bora zaidi wa kupunguza aina hizi za hatari**.
+Kwenye Telegramu, ni rahisi kukutana na walaghai ambao huandika kwa faragha, wakijifanya kuwa mtu ambaye sio. Kila mtumiaji anaweza kunaswa na kufichua taarifa za kibinafsi akiamini kuwa anapiga gumzo na mtu anayemwamini kikamilifu. **Tutaona kwamba handle ndio ulinzi bora zaidi wa kupunguza aina hizi za hatari**.
 
 Kutoka kwa menyu kuu, chagua _Wasifu Wangu_.
 
@@ -98,7 +98,7 @@ Utaona maelezo yote nyeti ya akaunti yako, ikijumuisha nambari yako ya simu na s
 
 **Kwa kubofya kila moja, unaweza kuzijaza na chaguo zako**.
 
-Wakati wa kusanidi _Jina la mtumiaji_, Telegramu inakuarifu ikiwa mpini unapatikana au la.
+Wakati wa kusanidi _Jina la mtumiaji_, Telegramu inakuarifu ikiwa handle unapatikana au la.
 
 (Picha hii ya skrini pia inachukuliwa kutoka kwa simu iliyo na jina la mtumiaji tayari limewekwa).
 
@@ -109,24 +109,24 @@ Bonyeza _Set Username_ (hapa _Change Username_ kwa sababu iliyotajwa hivi punde)
 ![image](assets/en/13.webp)
 
 
-na usanidi mpini wako, kisha uhifadhi kwa kubofya alama ya kuteua ✅ iliyo upande wa juu kulia.
+na usanidi handle wako, kisha uhifadhi kwa kubofya alama ya kuteua âœ… iliyo upande wa juu kulia.
 
 
 
 ![image](assets/en/14.webp)
 
 
-Katika vikundi na vituo vingi vya Telegraph, jina hili la mtumiaji linahitajika kama sharti la ufikiaji. Kwa wasimamizi wa vikundi hivyo, ni mojawapo ya njia za kuweka bots na spam.
+Katika vikundi na vituo vingi vya Telegramu, jina hili la mtumiaji linahitajika kama sharti la ufikiaji. Kwa wasimamizi wa vikundi hivyo, ni mojawapo ya njia za kuweka bots na spam.
 
 
-⚠️ Unapaswa kuangalia kila wakati kishikio cha mtu yeyote anayewasiliana nawe kwa faragha na usiwahi kutoa maelezo ya siri kama vile manenosiri au vifungu vya Mnemonic kwa mtu yeyote, hata kama anadai kuwa ana usaidizi rasmi au anatoa usaidizi (labda ulioombwa nawe). Zuia watumiaji wanaowasiliana nawe bila ruhusa yako, kwa sababu bila shaka wanafanya hivyo kwa nia ya ulaghai.
+âš ï¸ Unapaswa kuangalia kila wakati handle cha mtu yeyote anayewasiliana nawe kwa faragha na usiwahi kutoa maelezo ya siri kama vile manenosiri au maneno ya seed kwa mtu yeyote, hata kama anadai kuwa ana usaidizi rasmi au anatoa usaidizi (labda ulioombwa nawe). Zuia watumiaji wanaowasiliana nawe bila ruhusa yako, kwa sababu bila shaka wanafanya hivyo kwa nia ya ulaghai.
 
 
 Je, mdanganyifu anachukuaje utambulisho wa mtu mwingine?
 
 Hawawezi, shukrani kwa upekee wa jina la mtumiaji.
 
-**Wanachoweza kufanya ni kuonyesha kishikio "kinachofanana", kubadilisha kidogo (herufi/nambari), ili jicho la uangalifu pekee liweze kuona wazi kuwa ni mlaghai**. Daima makini sana na jina la mtumiaji, na utaona kwamba walaghai hawatakuwa na mchezo rahisi.
+**Wanachoweza kufanya ni kuonyesha handle "kinachofanana", kubadilisha kidogo (herufi/nambari), ili jicho la uangalifu pekee liweze kuona wazi kuwa ni mlaghai**. Daima makini sana na jina la mtumiaji, na utaona kwamba walaghai hawatakuwa na mchezo rahisi.
 
 
 ## Faragha
@@ -224,9 +224,9 @@ Unaweza kufikia menyu ya hali ya juu sana kwa kubofya vitone 3 kwenye sehemu ya 
 - anzisha gumzo la siri, ambalo ni mojawapo ya vipengele vyema zaidi vya Telegram: **mazungumzo ya siri ni nafasi ambayo, kwa mfano, haiwezekani kuchukua picha za skrini, ni gumzo la faragha sana na linatumika kwenye simu ya mkononi pekee**;
 - ongeza mwasiliani kwenye skrini ya kwanza.
 
-Kwa chaguo-msingi, kila mtu, kutoka kwa watumiaji binafsi hadi vituo vya mada, hutambuliwa kwa mpini wao. Unapotafuta mtu au kitu, inatosha kuweka alama ya saa `@` ikifuatiwa na jina.
+Kwa chaguo-msingi, kila mtu, kutoka kwa watumiaji binafsi hadi vituo vya mada, hutambuliwa kwa handle wao. Unapotafuta mtu au kitu, inatosha kuweka alama ya saa `@` ikifuatiwa na jina.
 
-⚠️Tahadhari: **epuka kujiunga na vikundi na vituo bila kuthibitisha uhalisi wake**. Ili kupata chaneli/kikundi rasmi cha Telegramu cha kampuni au mada unayotaka kufuata, tafuta usaidizi kutoka kwa sehemu ya _Mawasiliano_ ya tovuti rasmi au kutoka kwa vyanzo vinavyotegemewa sana.
+âš ï¸Tahadhari: **epuka kujiunga na vikundi na vituo bila kuthibitisha uhalisi wake**. Ili kupata chaneli/kikundi rasmi cha Telegramu cha kampuni au mada unayotaka kufuata, tafuta usaidizi kutoka kwa sehemu ya _Mawasiliano_ ya tovuti rasmi au kutoka kwa vyanzo vinavyotegemewa sana.
 
 
 ### Vipengele vya Juu vya Utumaji ujumbe
@@ -280,7 +280,7 @@ Soga inaonekana mbele, tayari kutumika.
 
 ***
 
-**(1)** _Usitumie cloud ya Telegram kwa taarifa za siri kama vile manenosiri, pini, kumbukumbu na data za aina hii_.
+**(1)** _Usitumie wingu la Telegram kwa taarifa za siri kama vile manenosiri, pini, kumbukumbu na data za aina hii_.
 
 ***
 
@@ -316,7 +316,7 @@ Ingiza menyu kuu tena kwa kubofya pau tatu zilizo juu kulia na uchague _Wasifu W
 Menyu kunjuzi itafunguliwa ambayo lazima uchague _Log Out_.
 
 
-⚠️ **Hutatoka, usijali: tunachagua menyu hii ili tu kufikia utendakazi tunaozungumzia**.
+âš ï¸ **Hutatoka, usijali: tunachagua menyu hii ili tu kufikia utendakazi tunaozungumzia**.
 
 
 ![image](assets/en/24.webp)
@@ -350,7 +350,7 @@ Unaweza kuona kwenye picha ifuatayo wapi kupata mpangilio huu.
 ![image](assets/en/28.webp)
 
 
-## Desktop ya Telegraph
+## Desktop ya Telegramu
 
 
 Telegramu inaweza kutumika kutoka kwa kompyuta yako, ili ilandanishwe na akaunti inayoonyeshwa kwenye simu yako. Unaweza kuchagua kutopakua programu na kuitumia kupitia wavuti pekee. Walakini, toleo hili lina mapungufu ikilinganishwa na lile linaloendeshwa kwenye kompyuta, kwa hivyo ninapendekeza kupakua na kusakinisha ili kutumia zana hii yenye nguvu zaidi.
@@ -370,7 +370,7 @@ Sakinisha Telegramu na uizindue, ili upate skrini ya kwanza mara moja ambapo uta
 ![image](assets/en/16.webp)
 
 
-Nambari ya QR itaonyeshwa kwenye skrini, ili kuchanganuliwa na kifaa chako cha rununu, ambayo Telegraph tayari inafanya kazi: hivi ndivyo unavyoweza kutumia akaunti hiyo kupitia eneo-kazi.
+Nambari ya QR itaonyeshwa kwenye skrini, ili kuchanganuliwa na kifaa chako cha rununu, ambayo Telegramu tayari inafanya kazi: hivi ndivyo unavyoweza kutumia akaunti hiyo kupitia eneo-kazi.
 
 
 ![image](assets/en/17.webp)
@@ -424,10 +424,10 @@ Hasa, Telegramu inafanya kazi na inatumika pia kwenye kompyuta yako ya mezani.
 ### Simu ya Kikundi
 
 
-Ikiwa wewe ni msimamizi au mmiliki wa kikundi cha Telegraph, unaweza kuanzisha simu kutoka kwa menyu ya kikundi yenyewe. Kwa njia hii, unaweza kutiririsha moja kwa moja na washiriki wengi, kuwarekodi katika sauti na video, kuzishiriki, au kuzitumia kwa madhumuni kama vile elimu.
+Ikiwa wewe ni msimamizi au mmiliki wa kikundi cha Telegramu, unaweza kuanzisha simu kutoka kwa menyu ya kikundi yenyewe. Kwa njia hii, unaweza kutiririsha moja kwa moja na washiriki wengi, kuwarekodi katika sauti na video, kuzishiriki, au kuzitumia kwa madhumuni kama vile elimu.
 
 
-Katika picha ifuatayo, unaweza kuona jinsi ya kuanza simu ya kikundi kwa kutumia desktop ya Telegraph: nenda kwenye gumzo sawa na katika sehemu ya juu ya kulia ya skrini kuna ikoni ya skrini. Kwa kubofya hapo, unaweza kuamua ikiwa utaanzisha simu mara moja au uiratibu kwa muda ulioamuliwa mapema.
+Katika picha ifuatayo, unaweza kuona jinsi ya kuanza simu ya kikundi kwa kutumia desktop ya Telegramu: nenda kwenye gumzo sawa na katika sehemu ya juu ya kulia ya skrini kuna ikoni ya skrini. Kwa kubofya hapo, unaweza kuamua ikiwa utaanzisha simu mara moja au uiratibu kwa muda ulioamuliwa mapema.
 
 
 ![image](assets/en/47.webp)

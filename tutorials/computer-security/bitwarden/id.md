@@ -45,35 +45,50 @@ Fitur lain dari Bitwarden adalah kemampuan untuk menjalankan sendiri pengelola k
 
 Kunjungi [situs web Bitwarden](https://bitwarden.com/) dan klik pada "*Get Started*".
 ![BITWARDEN](assets/notext/03.webp)
+
 Mulailah dengan memasukkan alamat email Anda serta nama atau nama panggilan Anda.
 ![BITWARDEN](assets/notext/04.webp)
-Selanjutnya, Anda perlu menetapkan kata sandi utama Anda. Seperti yang kita lihat di pengantar, kata sandi ini sangat penting karena memberi Anda akses ke semua kata sandi lain yang disimpan dalam manajer. Ini kemudian menyajikan dua risiko utama: kehilangan dan kompromi. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses semua kredensial Anda. Jika kata sandi Anda dicuri, penyerang akan dapat mengakses semua akun Anda.
 
-Untuk meminimalkan risiko kehilangan, saya merekomendasikan membuat cadangan fisik kata sandi utama Anda di atas kertas dan menyimpannya di tempat yang aman. Jika mungkin, segel cadangan ini dalam amplop yang aman untuk secara teratur memastikan bahwa tidak ada orang lain yang mengaksesnya.
+Selanjutnya, Anda perlu mengatur kata sandi utama (master password) Anda. Seperti yang telah kita bahas di awal, kata sandi ini sangat penting karena memberikan Anda akses ke semua kata sandi lain yang tersimpan di pengelola. Oleh karena itu, ada dua risiko utama yang perlu diwaspadai: kehilangan dan penyusupan. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi bisa mengakses semua kredensial Anda. Jika kata sandi ini dicuri, penyerang akan dapat mengakses semua akun Anda.
 
-Untuk mencegah kompromi kata sandi utama Anda, kata sandi tersebut harus sangat kuat. Kata sandi harus sepanjang mungkin, menggunakan berbagai karakter yang luas, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk kata sandi yang aman adalah 13 karakter termasuk angka, huruf kecil dan huruf besar, serta simbol, asalkan kata sandi tersebut benar-benar acak. Namun, saya merekomendasikan untuk memilih kata sandi setidaknya 20 karakter, termasuk semua jenis karakter yang mungkin, untuk memastikan keamanannya lebih lama.
+Untuk meminimalkan risiko kehilangan, saya merekomendasikan untuk membuat cadangan fisik kata sandi utama Anda di kertas dan menyimpannya di tempat yang aman. Jika memungkinkan, segel cadangan ini dalam amplop yang aman untuk secara berkala memastikan tidak ada orang lain yang mengaksesnya.
 
-Masukkan kata sandi utama Anda di kotak yang disediakan dan konfirmasikan di kotak berikutnya.
+Untuk mencegah penyusupan kata sandi utama Anda, kata sandi tersebut harus sangat kuat. Kata sandi itu harus sepanjang mungkin, menggunakan berbagai jenis karakter, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk kata sandi yang aman adalah 13 karakter yang mencakup angka, huruf kecil dan huruf besar, serta simbol, asalkan kata sandi tersebut benar-benar acak. Namun, saya menyarankan untuk memilih kata sandi minimal 20 karakter, termasuk semua jenis karakter yang mungkin, untuk memastikan keamanannya dalam jangka waktu yang lebih lama.
+
+Masukkan kata sandi utama Anda di kolom yang tersedia dan konfirmasi di kolom berikutnya.
 ![BITWARDEN](assets/notext/05.webp)
-Jika Anda mau, Anda dapat menambahkan petunjuk untuk kata sandi utama Anda. Namun, saya menyarankan agar tidak melakukan hal tersebut, karena petunjuk tersebut tidak menyediakan metode pemulihan yang dapat diandalkan jika Anda kehilangan kata sandi Anda dan bahkan bisa berguna bagi penyerang yang mencoba menebak atau melakukan brute force pada kata sandi Anda. Sebagai aturan umum, hindari membuat petunjuk publik yang dapat mengompromikan keamanan kata sandi utama Anda.
+
+Jika Anda mau, menambahkan petunjuk untuk kata sandi utama Anda. Namun, saya menyarankan untuk tidak melakukannya. Petunjuk ini tidak menyediakan metode pemulihan yang bisa diandalkan jika Anda kehilangan kata sandi, dan bahkan bisa berguna bagi penyerang yang mencoba menebak atau melakukan brute force pada kata sandi Anda. Sebagai aturan umum, hindari membuat petunjuk publik yang dapat membahayakan keamanan kata sandi utama Anda.
 ![BITWARDEN](assets/notext/06.webp)
+
 Kemudian klik tombol "*Buat akun*".
 ![BITWARDEN](assets/notext/07.webp)
+
 Anda sekarang dapat masuk ke akun Bitwarden baru Anda. Masukkan alamat email Anda.
 ![BITWARDEN](assets/notext/08.webp)
+
 Kemudian ketik kata sandi utama Anda.
 ![BITWARDEN](assets/notext/09.webp)
+
 Anda sekarang berada di antarmuka web dari manajer kata sandi Anda.
 ![BITWARDEN](assets/notext/10.webp)
+
 ## Bagaimana cara mengatur Bitwarden?
 
 Untuk memulai, kita akan mengonfirmasi alamat email kita. Klik pada "*Kirim Email*".
 ![BITWARDEN](assets/notext/11.webp)
+
 Kemudian klik pada tombol yang diterima melalui email.
 ![BITWARDEN](assets/notext/12.webp)
+
 Akhirnya, masuk lagi.
 ![BITWARDEN](assets/notext/13.webp)
+
 Pertama dan terutama, saya sangat menyarankan Anda untuk mengatur otentikasi dua faktor (2FA) untuk mengamankan manajer kata sandi Anda. Anda memiliki pilihan antara menggunakan aplikasi TOTP atau kunci keamanan fisik. Dengan mengaktifkan 2FA, setiap kali Anda masuk ke akun Bitwarden Anda, Anda akan diminta tidak hanya kata sandi utama Anda tetapi juga bukti faktor kedua otentikasi Anda. Ini adalah lapisan keamanan tambahan, terutama berguna dalam kejadian cadangan kertas kata sandi utama Anda dikompromikan.
+
+Pertama dan terpenting, saya sangat menyarankan Anda untuk mengatur autentikasi dua faktor (2FA) demi mengamankan pengelola kata sandi Anda. Anda memiliki pilihan untuk menggunakan aplikasi TOTP atau kunci keamanan fisik. Dengan mengaktifkan 2FA, setiap kali Anda masuk ke akun Bitwarden Anda, Anda tidak hanya akan diminta kata sandi utama (master password) Anda, tetapi juga bukti faktor autentikasi kedua Anda. Ini merupakan lapisan keamanan tambahan, yang sangat berguna jika cadangan kata sandi utama Anda yang berbentuk fisik (kertas) sampai disusupi.
+
+Apabila Anda belum yakin bagaimana cara mengatur dan menggunakan perangkat 2FA ini, saya merekomendasikan untuk mengikuti dua tutorial lainnya:
 
 Jika Anda tidak yakin bagaimana cara mengatur dan menggunakan perangkat 2FA ini, saya menyarankan mengikuti 2 tutorial lain ini:
 

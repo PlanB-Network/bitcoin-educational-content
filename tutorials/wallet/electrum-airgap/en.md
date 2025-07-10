@@ -168,7 +168,7 @@ This warning will appear every single time you open this Wallet. Click _Ok_ and 
 ## Verification of the Two Wallet
 
 
-As we learned at the beginning of this guide, a Wallet airgap and its display Wallet are two portfolios that have different faculties but **share the same addresses**.
+As we learned at the beginning of this guide, a Wallet airgap and its display Wallet are two wallets that have different faculties but **share the same addresses**.
 
 
 If we look at the two Wallets side by side, visually we notice that in the Wallet airgap there is a "seed" symbol, while in the watch-only there is not. Even this detail will help you remember that the Wallet display Wallet does not have private keys.

@@ -21,7 +21,7 @@ Hapa chini, nilikusanya masuala ya kawaida ambayo wasahihishaji hukutana nayo. J
 Kabla ya kupiga mbizi katika maalum, jambo la kwanza kufanya ni kusoma mafunzo haya juu ya vitendo vya kufuata kwenye Github, kwa kugawa hazina ya Plan ₿ Network, kufanya mabadiliko na kutuma PRs:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Usahihishaji ni nini?
@@ -60,7 +60,7 @@ Kwanza kabisa, **DAIMA kumbuka KUSAwazisha repo lako, kwenye tawi la "dev"**. Kw
 
 
 
-Baada ya kusawazisha kwa mafanikio, unaweza kufikia moja kwa moja maudhui yanayokuvutia na kujitolea kwenye tawi jipya, kama inavyoonyeshwa katika [mafunzo] haya (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Vinginevyo, unaweza kufungua tawi jipya mahali pa kufanya kazi, kwa kubofya "Matawi", kama inavyoonyeshwa hapa chini.
+Baada ya kusawazisha kwa mafanikio, unaweza kufikia moja kwa moja maudhui yanayokuvutia na kujitolea kwenye tawi jipya, kama inavyoonyeshwa katika [mafunzo] haya (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Vinginevyo, unaweza kufungua tawi jipya mahali pa kufanya kazi, kwa kubofya "Matawi", kama inavyoonyeshwa hapa chini.
 
 
 
@@ -131,7 +131,7 @@ Katika matokeo ya mwisho (picha hapa chini) hutatazama kiunga kizima, na neno li
 
 
 
-Tafadhali kumbuka kuwa kiungo cha faharasa utakachochukua kutoka kwa tovuti kina msimbo wa lugha baada ya neno "mtandao" (mfano: ``https://planb.network/en/resources/glossary/UTXO``-> hapa unaweza kusoma msimbo wa lugha "en"). Katika hali hii, **ondoa msimbo wa lugha kutoka kwa kiungo**, kama ulivyoona kwenye kisanduku hapo juu. Kwa njia hii, mfumo utampeleka msomaji kiotomatiki kwa lugha yake iliyoteuliwa.
+Tafadhali kumbuka kuwa kiungo cha faharasa utakachochukua kutoka kwa tovuti kina msimbo wa lugha baada ya neno "mtandao" (mfano: ``https://planb.network/en/resources/glossary/utxo``-> hapa unaweza kusoma msimbo wa lugha "en"). Katika hali hii, **ondoa msimbo wa lugha kutoka kwa kiungo**, kama ulivyoona kwenye kisanduku hapo juu. Kwa njia hii, mfumo utampeleka msomaji kiotomatiki kwa lugha yake iliyoteuliwa.
 
 
 Yaliyomo kwenye hazina yamejaa viungo kama hivi hapo juu. Kwa kuwa sasa unajua wanachomaanisha, **hakikisha kuwa hufuti kiungo chochote** kilichowekwa na mwandishi asilia.

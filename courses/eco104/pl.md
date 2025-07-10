@@ -758,7 +758,7 @@ Przed stworzeniem Bitcoin garstka wizjonerów położyła podwaliny pod Bitcoin,
 #### The Cypherpunks
 
 
-Cypherpunks to grupa zaawansowanych technologicznie buntowników, którzy zebrali się w latach 70., aby walczyć o wolność jednostki i swobody obywatelskie za pomocą jednego potężnego narzędzia: kryptografii. Wierzyli, że zdolność do szyfrowania informacji da ludziom siłę do przejęcia kontroli od scentralizowanych władz. Wyobraź sobie, że jesteś w stanie zachować swoją komunikację online prywatną i bezpieczną przed wścibskimi oczami - o to właśnie walczyli!
+Cypherpunks to grupa zaawansowanych technologicznie buntowników, którzy zebrali się w latach 80., aby walczyć o wolność jednostki i swobody obywatelskie za pomocą jednego potężnego narzędzia: kryptografii. Wierzyli, że zdolność do szyfrowania informacji da ludziom siłę do przejęcia kontroli od scentralizowanych władz. Wyobraź sobie, że jesteś w stanie zachować swoją komunikację online prywatną i bezpieczną przed wścibskimi oczami - o to właśnie walczyli!
 
 
 Jednym z najbardziej znaczących rezultatów działalności Cypherpunks była lista mailingowa Cypherpunks, założona w 1992 roku. Za pośrednictwem tej listy osoby mogły dzielić się pomysłami i dyskutować na temat technologii kryptograficznych, koncepcji walut cyfrowych i inicjatyw skoncentrowanych na prywatności. Doprowadziło to do powstania społeczności osób o podobnych poglądach, w tym programistów, aktywistów i badaczy.

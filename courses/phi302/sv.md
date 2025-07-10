@@ -34,7 +34,7 @@ Det finns många människor som är involverade i Bitcoin; eftersom vissa av dem
 
 Denna kurs är anpassad från boken med samma namn vars huvudförfattare är Kalle Rosenbaum, och Linnéa Rosenbaum har bidragit som medförfattare.
 
-Boken beställdes och finansierades av [Chaincode Labs] (https://learning.chaincode.com/), ett utvecklingscenter som driver utbildningsprogram för utvecklare som vill lära sig mer om Bitcoin-utveckling.
+Boken beställdes och finansierades av [Chaincode Labs](https://learning.chaincode.com/), ett utvecklingscenter som driver utbildningsprogram för utvecklare som vill lära sig mer om Bitcoin-utveckling.
 
 
 +++
@@ -75,7 +75,7 @@ Att navigera i det komplexa styrningslandskapet i Bitcoin kräver mer än teknis
 Är du redo att ta nästa steg i din Bitcoin-resa? Låt oss börja!
 
 
-***N.B.**: Om du stöter på några obekanta termer relaterade till Bitcoin under kursen, vänligen se [ordlistan] (https://planb.network/resources/glossary) för att hitta definitioner.*
+***N.B.**: Om du stöter på några obekanta termer relaterade till Bitcoin under kursen, vänligen se [ordlistan](https://planb.network/resources/glossary) för att hitta definitioner.*
 
 
 
@@ -154,7 +154,7 @@ Om de lyckas kommer samma problem troligen att dyka upp igen någon gång i fram
 Inget av dessa alternativ är till nytta för användaren.
 
 
-Censurmotstånd genom decentralisering är det som skiljer Bitcoin från andra penningsystem, men det är inte lätt att åstadkomma på grund av *Double-spending-problemet*. Detta är problemet med att se till att ingen kan spendera samma mynt två gånger, en fråga som många trodde var omöjlig att lösa på ett decentraliserat sätt. Satoshi Nakamoto skriver i sin [Bitcoin whitepaper] (https://planb.network/Bitcoin.pdf) om hur man löser Double-spending-problemet:
+Censurmotstånd genom decentralisering är det som skiljer Bitcoin från andra penningsystem, men det är inte lätt att åstadkomma på grund av *Double-spending-problemet*. Detta är problemet med att se till att ingen kan spendera samma mynt två gånger, en fråga som många trodde var omöjlig att lösa på ett decentraliserat sätt. Satoshi Nakamoto skriver i sin [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) om hur man löser Double-spending-problemet:
 
 
 > I det här dokumentet föreslår vi en lösning på Double-spending-problemet genom att använda en peer-to-peer-distribuerad Timestamp-server för att generate beräkna bevis för den kronologiska ordningen på transaktioner.
@@ -164,7 +164,7 @@ Här använder han den märkligt klingande frasen "peer-to-peer distributed Time
 
 Ändå förklarar ingen det bättre än
 
-[Gregory Maxwell on Reddit] (https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), där han svarar på någon som föreslår att begränsa gruvarbetarnas Hash-kraft för att undvika potentiella 51%-attacker:
+[Gregory Maxwell on Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), där han svarar på någon som föreslår att begränsa gruvarbetarnas Hash-kraft för att undvika potentiella 51%-attacker:
 
 
 > Ett decentraliserat system som Bitcoin använder ett offentligt val. Men du kan inte bara ha en omröstning av "människor" i ett decentraliserat system eftersom det skulle kräva en centraliserad part för att auktorisera människor att rösta. Istället använder Bitcoin en omröstning om datorkraft eftersom det är möjligt att verifiera datorkraft utan hjälp av någon centraliserad
@@ -197,7 +197,7 @@ Användaren går från att direkt tillämpa nätverkets konsensusregler till att
 
 I [a
 
-Bitcoin Magazine article] (https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446) intervjuar Aaron van Wirdum Bitcoin-utvecklare om deras syn på decentralisering och riskerna med att öka Bitcoin:s maximala blockstorlek. Denna diskussion var ett Hot-ämne under perioden 2014-2017, då många människor argumenterade för att öka blockstorleksgränsen för att möjliggöra mer transaktionsgenomströmning.
+Bitcoin Magazine article](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446) intervjuar Aaron van Wirdum Bitcoin-utvecklare om deras syn på decentralisering och riskerna med att öka Bitcoin:s maximala blockstorlek. Denna diskussion var ett Hot-ämne under perioden 2014-2017, då många människor argumenterade för att öka blockstorleksgränsen för att möjliggöra mer transaktionsgenomströmning.
 
 
 Ett starkt argument mot att öka blockstorleken är att det ökar kostnaden för verifiering Om verifieringskostnaden ökar kommer det att få vissa användare att sluta köra sina fulla noder. Detta kommer i sin tur att leda till att fler människor inte kan använda systemet på ett Trustless-sätt.
@@ -258,7 +258,7 @@ Han förklarar att systemet troligen behöver en egen valuta för att uppnå til
 
 
 
-En övertygande aspekt av Bitcoin är hur Hard det är att förstå att ingen kontrollerar det. Det finns inga kommittéer eller chefer i Bitcoin. Gregory Maxwell, återigen [på Bitcoin subreddit] (https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), jämför detta med det engelska språket på ett spännande sätt:
+En övertygande aspekt av Bitcoin är hur Hard det är att förstå att ingen kontrollerar det. Det finns inga kommittéer eller chefer i Bitcoin. Gregory Maxwell, återigen [på Bitcoin subreddit](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), jämför detta med det engelska språket på ett spännande sätt:
 
 
 > Många människor har en Hard tid att förstå autonoma system, det finns många i deras liv saker som det engelska språket - men människor tar dem bara för givet och tänker inte ens på dem som system. De är fast i ett centraliserat sätt att tänka där allt de tänker på som en "sak" har en myndighet som kontrollerar det.
@@ -267,7 +267,7 @@ En övertygande aspekt av Bitcoin är hur Hard det är att förstå att ingen ko
 > Bitcoin fokuserar inte på någonting. Olika personer som har antagit Bitcoin valde av egen fri vilja att marknadsföra det, och hur de väljer att göra det är deras egen sak. Myndighetsfixerade människor kan se dessa aktiviteter och tro att de är någon operation av Bitcoin-myndigheten, men ingen sådan myndighet existerar.
 
 
-Bitcoin:s sätt att fungera genom decentralisering liknar den extraordinära kollektiva intelligens som finns hos många arter i naturen. Datavetaren Radhika Nagpal talar i ett [Ted talk] (https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) om det kollektiva beteendet hos fiskstim och hur forskare försöker efterlikna det med hjälp av robotar.
+Bitcoin:s sätt att fungera genom decentralisering liknar den extraordinära kollektiva intelligens som finns hos många arter i naturen. Datavetaren Radhika Nagpal talar i ett [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) om det kollektiva beteendet hos fiskstim och hur forskare försöker efterlikna det med hjälp av robotar.
 
 
 > För det andra, och det som jag fortfarande tycker är mest anmärkningsvärt, är att vi vet att det inte finns några ledare som övervakar detta fiskstim. I stället uppstår detta otroliga kollektiva beteende enbart genom interaktionen mellan fiskarna.
@@ -315,7 +315,7 @@ I det sista avsnittet tittar vi på den verkliga interaktionen mellan Bitcoin oc
 Folk säger ofta saker som "Bitcoin är bra för att det är Trustless".
 
 
-Vad menar de med Trustless? Pieter Wuille förklarar denna allmänt använda term på [Stack Exchange] (https://Bitcoin.stackexchange.com/a/45674/69518):
+Vad menar de med Trustless? Pieter Wuille förklarar denna allmänt använda term på [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518):
 
 
 > Den tillit vi talar om i "Trustless" är en abstrakt teknisk term. Ett distribuerat system kallas Trustless när det inte kräver några betrodda parter för att fungera korrekt.
@@ -323,7 +323,7 @@ Vad menar de med Trustless? Pieter Wuille förklarar denna allmänt använda ter
 I korthet hänvisar ordet *Trustless* till en egenskap hos Bitcoin-protokollet varigenom det logiskt kan fungera utan "några betrodda parter". Detta skiljer sig från det förtroende som du oundvikligen måste sätta till den programvara eller maskinvara du kör. Mer om denna senare aspekt av förtroende kommer att diskuteras längre fram i detta kapitel.
 
 
-I centraliserade system förlitar vi oss på en central aktörs rykte för att försäkra oss om att denne kommer att ta hand om säkerheten eller backa tillbaka vid problem, samt på rättssystemet för att sanktionera eventuella överträdelser. Dessa förtroendekrav är problematiska i pseudonyma decentraliserade system - det finns ingen möjlighet till regress så det kan egentligen inte finnas något förtroende. I introduktionen till [Bitcoin whitepaper] (https://Bitcoin.org/Bitcoin.pdf) beskriver Satoshi Nakamoto detta problem:
+I centraliserade system förlitar vi oss på en central aktörs rykte för att försäkra oss om att denne kommer att ta hand om säkerheten eller backa tillbaka vid problem, samt på rättssystemet för att sanktionera eventuella överträdelser. Dessa förtroendekrav är problematiska i pseudonyma decentraliserade system - det finns ingen möjlighet till regress så det kan egentligen inte finnas något förtroende. I introduktionen till [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf) beskriver Satoshi Nakamoto detta problem:
 
 
 > Handeln på Internet har kommit att förlita sig nästan uteslutande på finansiella institutioner som fungerar som betrodda tredje parter för att hantera elektroniska betalningar.
@@ -404,7 +404,7 @@ Så förutom att köra en Full node måste du också se till att du kör det du 
 I artikeln definieras 5 nivåer av förtroende: förtroende för webbplatsen, byggarna, kompilatorn, kärnan och hårdvaran.
 
 
-För att ytterligare fördjupa ämnet reproducerbara byggen gjorde Carl Dong [en presentation om Guix] (https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) där han förklarade varför det kan vara problematiskt att lita på operativsystem, bibliotek och kompilatorer och hur man löser det med ett system som heter Guix, som används av Bitcoin Core idag.
+För att ytterligare fördjupa ämnet reproducerbara byggen gjorde Carl Dong [en presentation om Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) där han förklarade varför det kan vara problematiskt att lita på operativsystem, bibliotek och kompilatorer och hur man löser det med ett system som heter Guix, som används av Bitcoin Core idag.
 
 
 > Så vad kan vi göra åt det faktum att vår verktygskedja kan ha en massa betrodda binära filer som kan vara reproducerbart skadliga? Vi måste vara mer än reproducerbara. Vi måste vara bootstrappable. Vi kan inte ha så många binära verktyg som vi måste ladda ner och lita på från externa servrar som kontrolleras av andra organisationer.
@@ -426,7 +426,7 @@ Detta anspelar på frasen "[trust, but verify](https://en.wikipedia.org/wiki/Tru
 Det är upp till användarna att bestämma i vilken grad de vill verifiera den programvara de använder och de Blockchain-data de får. Som med så många andra saker i Bitcoin finns det en avvägning mellan bekvämlighet och tillförlitlighet. Det är nästan alltid bekvämare att använda en depå Wallet jämfört med att köra Bitcoin Core på din egen maskinvara. Men eftersom Bitcoin-programvaran mognar och användargränssnitten förbättras, bör den med tiden bli bättre på att stödja användare som är villiga att arbeta mot tillförlitlighet. När användarna får mer kunskap över tid bör de också gradvis kunna ta bort förtroende från ekvationen.
 
 
-Vissa användare tänker kontradiktoriskt och verifierar de flesta aspekter av den programvara de kör. Som en följd av detta minskar de behovet av tillit till ett minimum, eftersom de bara behöver lita på sin datorhårdvara och sitt operativsystem. På så sätt hjälper de också människor som inte verifierar sin hårdvara lika noggrant genom att höja sina röster offentligt för att varna för eventuella problem som de kan hitta. Ett bra exempel på detta är en [händelse som inträffade 2018] (https://bitcoincore.org/en/2018/09/20/notice/), då någon upptäckte en bugg som gjorde det möjligt för miners att spendera en output två gånger i samma transaktion:
+Vissa användare tänker kontradiktoriskt och verifierar de flesta aspekter av den programvara de kör. Som en följd av detta minskar de behovet av tillit till ett minimum, eftersom de bara behöver lita på sin datorhårdvara och sitt operativsystem. På så sätt hjälper de också människor som inte verifierar sin hårdvara lika noggrant genom att höja sina röster offentligt för att varna för eventuella problem som de kan hitta. Ett bra exempel på detta är en [händelse som inträffade 2018](https://bitcoincore.org/en/2018/09/20/notice/), då någon upptäckte en bugg som gjorde det möjligt för miners att spendera en output två gånger i samma transaktion:
 
 
 > CVE-2018-17144, en fix för vilken släpptes den 18 september i Bitcoin Core version 0.16.3 och 0.17.0rc4, innehåller både en Denial of Service-komponent och en kritisk inflationssårbarhet. Det rapporterades ursprungligen till flera utvecklare som arbetar med Bitcoin Core, liksom projekt som stöder andra kryptovalutor, inklusive ABC och Unlimited den 17 september som en Denial of Service-fel, men vi fastställde snabbt att problemet också var en inflationssårbarhet med samma grundorsak och fix.
@@ -525,7 +525,7 @@ Genom att använda adresser eller publika nycklar uppnår vi viktiga mål, till 
 Blockchain-sekretess avser den information du avslöjar genom att handla på Blockchain. Det gäller för alla transaktioner, de du skickar såväl som de du tar emot.
 
 
-Satoshi Nakamoto funderar över On-Chain integritet i avsnitt 7 i sin [Bitcoin whitepaper] (https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto funderar över On-Chain integritet i avsnitt 7 i sin [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
 
 
 > Som en extra brandvägg bör ett nytt nyckelpar användas för varje transaktion för att förhindra att de länkas till en gemensam ägare. Viss länkning är fortfarande oundviklig med transaktioner med flera inmatningar, som med nödvändighet avslöjar att deras inmatningar ägdes av samma ägare. Risken är att om ägaren till en nyckel avslöjas, kan länkningen avslöja andra transaktioner som tillhörde samma ägare.
@@ -545,7 +545,7 @@ Chris Belcher [skrev mycket detaljerat](https://en.Bitcoin.it/Privacy#Blockchain
 Slutsatsen är att integriteten i Bitcoin inte är perfekt. Det krävs en betydande mängd arbete för att genomföra privata transaktioner. De flesta människor är inte beredda att gå så långt för integritet. Det verkar finnas en tydlig avvägning mellan integritet och användbarhet.
 
 
-En annan viktig aspekt av integritetsskyddet är att de åtgärder du vidtar för att skydda din egen integritet även påverkar andra användare. Om du är slarvig med din egen integritet kan andra människor också uppleva minskad integritet. Gregory Maxwell förklarar detta mycket tydligt i samma Bitcoin Talk-diskussion [som vi länkade till ovan] (https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252) och avslutar med ett exempel:
+En annan viktig aspekt av integritetsskyddet är att de åtgärder du vidtar för att skydda din egen integritet även påverkar andra användare. Om du är slarvig med din egen integritet kan andra människor också uppleva minskad integritet. Gregory Maxwell förklarar detta mycket tydligt i samma Bitcoin Talk-diskussion [som vi länkade till ovan](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252) och avslutar med ett exempel:
 
 
 > Detta fungerar faktiskt också i praktiken ... En trevlig whitehat-hacker på IRC lekte med hjärnplånbokssprickning och slog en fras med ~ 250 BTC i den.  Vi kunde identifiera ägaren från bara Address ensam, eftersom de hade betalats av en Bitcoin-tjänst som återanvände adresser och han kunde prata dem till att ge upp användarnas kontaktinformation. Han fick faktiskt användaren på telefon, de var chockade och förvirrade - men tacksamma för att inte bli av med sitt mynt.  Ett lyckligt slut där. (Det här är inte det enda exemplet på det, långt ifrån ... men det är ett av de roligare).
@@ -556,7 +556,7 @@ I det här fallet gick allt bra tack vare den filantropiskt sinnade hackern, men
 ### Icke-Blockchain sekretess
 
 
-Medan Blockchain visar sig vara en ökänd källa till integritetsläckor finns det gott om andra läckor som inte använder Blockchain, vissa lömskare än andra. Dessa sträcker sig från nyckelloggare till analys av nätverkstrafik. För att läsa om några av dessa metoder, se [Chris Belchers artikel] (https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), särskilt avsnittet "Icke-Blockchain-attacker på integritet".
+Medan Blockchain visar sig vara en ökänd källa till integritetsläckor finns det gott om andra läckor som inte använder Blockchain, vissa lömskare än andra. Dessa sträcker sig från nyckelloggare till analys av nätverkstrafik. För att läsa om några av dessa metoder, se [Chris Belchers artikel](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), särskilt avsnittet "Icke-Blockchain-attacker på integritet".
 
 
 Bland en uppsjö av attacker nämner Belcher möjligheten att någon snokar på din internetanslutning, till exempel din internetleverantör:
@@ -571,7 +571,7 @@ sälja data till högstbjudande.
 
 För att göra saken ännu värre har de företag som hanterar dessa databaser ofta liten erfarenhet av att skydda finansiella data, många av dem är faktiskt unga nystartade företag, och vi vet med säkerhet att flera läckor redan har inträffat. Några exempel är
 
-[Indienbaserade MobiQwik] (https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-Bitcoin-privacy) och [HubSpot] (https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-Bitcoin-users-data).
+[Indienbaserade MobiQwik](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-Bitcoin-privacy) och [HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-Bitcoin-users-data).
 
 
 Återigen, att skydda data mot detta breda spektrum av attacker är Hard, och det är troligt att du inte kommer att kunna göra det fullt ut. Du måste välja den avvägning mellan bekvämlighet och integritet som fungerar bäst för dig.
@@ -585,7 +585,7 @@ Fungibilitet, i samband med valutor, innebär att ett mynt är utbytbart mot vil
 ordet berördes kortfattat tidigare i kapitlet.
 
 
-I den artikel som diskuteras där, Gregory Maxwell [uttalade] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
+I den artikel som diskuteras där, Gregory Maxwell [uttalade](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
 
 > Finansiell integritet är en väsentlig del av fungibiliteten i Bitcoin: om du på ett meningsfullt sätt kan skilja ett mynt från ett annat är deras fungibilitet svag. Om vår fungibilitet är för svag i praktiken kan vi inte vara decentraliserade: om någon viktig person tillkännager en lista över stulna mynt som de inte accepterar mynt som härrör från, måste du noggrant kontrollera mynt du accepterar mot den listan och returnera de som misslyckas.  Alla fastnar i att kontrollera svarta listor som utfärdats av olika myndigheter eftersom vi i den världen alla inte skulle vilja fastna med dåliga mynt. Detta ökar friktionen och transaktionskostnaderna och gör Bitcoin mindre värdefullt som pengar.
@@ -593,7 +593,7 @@ I den artikel som diskuteras där, Gregory Maxwell [uttalade] (https://bitcointa
 Här talar han om de faror som följer av bristande fungibilitet. Anta att du har en UTXO. Den UTXO:ans historia kan normalt spåras flera hopp bakåt, och sprider sig till mängder av tidigare utgångar. Om någon av dessa utgångar var inblandad i någon olaglig, oönskad eller misstänkt aktivitet kan vissa potentiella mottagare av ditt mynt avvisa det. Om du tror att dina betalningsmottagare kommer att verifiera dina mynt mot någon centraliserad vit- eller svartlistetjänst kanske du börjar kontrollera de mynt du får också, bara för att vara på den säkra sidan. Resultatet är att dålig fungibilitet kommer att förstärka ännu sämre fungibilitet.
 
 
-Adam Back och Matt Corallo [höll en presentation om fungibilitet] (https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) på Scaling Bitcoin i Milano 2016. De tänkte i samma banor:
+Adam Back och Matt Corallo [höll en presentation om fungibilitet](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) på Scaling Bitcoin i Milano 2016. De tänkte i samma banor:
 
 
 > Du behöver fungibilitet för att Bitcoin ska fungera. Om du får mynt och inte kan spendera dem, börjar du tvivla på om du kan spendera dem. Om det finns tvivel om mynt du får, kommer människor att gå till taint-tjänster och kontrollera om "är dessa mynt välsignade" och då kommer människor att vägra att handla. Vad detta gör är att det övergår Bitcoin från ett decentraliserat system utan tillstånd till ett centraliserat system med tillstånd där du har en "IOU" från svartlisteleverantörerna.
@@ -607,7 +607,7 @@ Det verkar som om integritet och fungibilitet går hand i hand. Fungibiliteten f
 
 Flera tekniker har utvecklats för att hjälpa människor att skydda sig mot integritetsläckor. Bland de mest uppenbara är, som Nakamoto tidigare nämnt, att använda unika
 
-adresser för varje transaktion, men det finns flera andra. Vi kommer inte att lära dig hur du blir en integritetsninja. Bitcoin Q+A har dock en [snabb sammanfattning av integritetsförbättrande tekniker] (https://bitcoiner.guide/privacytips/), något ordnad efter hur Hard de ska implementeras. När du läser den kommer du att märka att Bitcoin-sekretess ofta har att göra med saker utanför Bitcoin. Till exempel bör du inte skryta om dina bitcoins, och du bör använda Tor och VPN.
+adresser för varje transaktion, men det finns flera andra. Vi kommer inte att lära dig hur du blir en integritetsninja. Bitcoin Q+A har dock en [snabb sammanfattning av integritetsförbättrande tekniker](https://bitcoiner.guide/privacytips/), något ordnad efter hur Hard de ska implementeras. När du läser den kommer du att märka att Bitcoin-sekretess ofta har att göra med saker utanför Bitcoin. Till exempel bör du inte skryta om dina bitcoins, och du bör använda Tor och VPN.
 
 
 I inlägget listas också några åtgärder som är direkt relaterade till Bitcoin:
@@ -649,12 +649,12 @@ För att minska riskerna för att dina personuppgifter avslöjas är det bäst a
 
 > Tack och lov finns det några alternativ där ute för att köpa Bitcoin via inga KYC-källor. Dessa är alla P2P (peer to peer) utbyten där du handlar direkt med en annan individ och inte en centraliserad tredje part. Tyvärr säljer vissa andra mynt såväl som Bitcoin så vi uppmanar dig att vara försiktig.
 
-Artikeln föreslår att du undviker att använda börser som kräver KYC/AML och istället handlar privat, eller använder decentraliserade börser som [bisq] (https://bisq.network/).
+Artikeln föreslår att du undviker att använda börser som kräver KYC/AML och istället handlar privat, eller använder decentraliserade börser som [bisq](https://bisq.network/).
 
 
 https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-För mer ingående läsning om motåtgärder, se den tidigare nämnda [wiki-artikeln om integritet] (https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), med början på "Metoder för att förbättra integriteten (ej Blockchain)".
+För mer ingående läsning om motåtgärder, se den tidigare nämnda [wiki-artikeln om integritet](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), med början på "Metoder för att förbättra integriteten (ej Blockchain)".
 
 
 ### Slutsats om integritet
@@ -692,7 +692,7 @@ Men på grund av ett antal orsaker - till exempel tidiga problem med coinbase-tr
 
 > Detta ger oss 20999817.31308491 BTC (med hänsyn till allt upp till block 528333)
 
-Olika plånböcker har dock försvunnit eller stulits, transaktioner har skickats till fel Address, folk har glömt att de ägde Bitcoin. Totalsumman för detta kan mycket väl vara miljoner. Människor har försökt att räkna kända förluster [här] (https://bitcointalk.org/index.php?topic=7253.0).
+Olika plånböcker har dock försvunnit eller stulits, transaktioner har skickats till fel Address, folk har glömt att de ägde Bitcoin. Totalsumman för detta kan mycket väl vara miljoner. Människor har försökt att räkna kända förluster [här](https://bitcointalk.org/index.php?topic=7253.0).
 
 
 Detta lämnar oss med: ??? BTC.
@@ -700,7 +700,7 @@ Detta lämnar oss med: ??? BTC.
 
 Vi kan därför vara säkra på att Bitcoin Supply kommer att vara 20999817.31308491 BTC som mest. Eventuella förlorade eller obestridligt brända mynt kommer att göra detta antal lägre, men vi vet inte hur mycket. Det intressanta är att det egentligen inte spelar någon roll, eller ännu bättre att det spelar roll på ett positivt sätt för Bitcoin-innehavare,
 
-[enligt förklaring] (https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) av Satoshi Nakamoto:
+[enligt förklaring](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) av Satoshi Nakamoto:
 
 
 > Förlorade mynt gör bara att alla andras mynt blir lite mer värda.  Se det som en donation till alla.
@@ -708,7 +708,7 @@ Vi kan därför vara säkra på att Bitcoin Supply kommer att vara 20999817.3130
 Den ändliga Supply kommer att krympa och detta bör, åtminstone i teorin, leda till prisdeflation.
 
 
-Viktigare än det exakta antalet mynt i omlopp är hur Supply-gränsen upprätthålls utan någon central myndighet. Alias chytrik uttrycker det väl på [Stack Exchange] (https://Bitcoin.stackexchange.com/a/106830/69518):
+Viktigare än det exakta antalet mynt i omlopp är hur Supply-gränsen upprätthålls utan någon central myndighet. Alias chytrik uttrycker det väl på [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518):
 
 
 > Så svaret är att du inte behöver lita på att någon inte ökar Supply. Du behöver bara köra lite kod som verifierar att de inte har gjort det.
@@ -723,7 +723,7 @@ Viktigare än det exakta antalet mynt i omlopp är hur Supply-gränsen upprätth
 En Block reward består av blocksubventionen plus transaktionsavgifter. Block reward måste täcka Bitcoin:s säkerhetskostnader. Vi kan med säkerhet säga att under dagens förhållanden med avseende på blocksubvention, transaktionsavgifter, Bitcoin-pris, Mempool-storlek, Hash-kraft, grad av decentralisering etc., är incitamenten för varje spelare att spela enligt reglerna tillräckligt höga för att bevara ett säkert monetärt system.
 
 
-Vad händer när blockbidraget närmar sig noll? För enkelhetens skull antar vi att den faktiskt är lika med noll. Vid denna tidpunkt täcks systemets säkerhetskostnad endast genom transaktionsavgifter. Vad framtiden har att erbjuda oss när detta händer kan vi inte veta. Osäkerhetsfaktorerna är många och vi är hänvisade till spekulationer. Till exempel är Paul Sztorcs bidrag till ämnet [i hans Truthcoin-blogg] (https://www.truthcoin.info/blog/security-budget/) mestadels spekulationer, men han har åtminstone en solid punkt (observera att M2, som Sztorc hänvisar till, är en mätning av en fiatpeng Supply):
+Vad händer när blockbidraget närmar sig noll? För enkelhetens skull antar vi att den faktiskt är lika med noll. Vid denna tidpunkt täcks systemets säkerhetskostnad endast genom transaktionsavgifter. Vad framtiden har att erbjuda oss när detta händer kan vi inte veta. Osäkerhetsfaktorerna är många och vi är hänvisade till spekulationer. Till exempel är Paul Sztorcs bidrag till ämnet [i hans Truthcoin-blogg](https://www.truthcoin.info/blog/security-budget/) mestadels spekulationer, men han har åtminstone en solid punkt (observera att M2, som Sztorc hänvisar till, är en mätning av en fiatpeng Supply):
 
 
 > Medan de två blandas i samma "säkerhetsbudget", är blockbidraget och txn-avgifterna helt och hållet olika. De skiljer sig lika mycket från varandra som "VISA:s totala vinst 2017" skiljer sig från "den totala ökningen av M2 2017".
@@ -759,7 +759,7 @@ Det är omöjligt att säga, men vi vet några saker:
 - Med noll blockbidrag och en tom eller nästan tom Mempool kan saker och ting bli skakiga på grund av avgiftssnipning.
 
 
-Eftersom övergången till ett avgiftsfritt Block reward ligger så långt fram i tiden kan det vara klokt att inte dra förhastade slutsatser utan försöka åtgärda de potentiella problemen medan vi kan. Peter Todd tror till exempel att det finns en faktisk risk för att Bitcoin:s säkerhetsbudget inte kommer att räcka till i framtiden, och argumenterar därför för en liten evig inflation i Bitcoin. Men han tycker också att det inte är en bra idé att diskutera en sådan fråga just nu, som [han sa i What Bitcoin Did podcast] (https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Eftersom övergången till ett avgiftsfritt Block reward ligger så långt fram i tiden kan det vara klokt att inte dra förhastade slutsatser utan försöka åtgärda de potentiella problemen medan vi kan. Peter Todd tror till exempel att det finns en faktisk risk för att Bitcoin:s säkerhetsbudget inte kommer att räcka till i framtiden, och argumenterar därför för en liten evig inflation i Bitcoin. Men han tycker också att det inte är en bra idé att diskutera en sådan fråga just nu, som [han sa i What Bitcoin Did podcast](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
 
 
 > Men det är en risk som ligger 10, 20 år framåt i tiden. Det är en mycket lång tid. Och vem fan vet då vilka riskerna är?
@@ -791,7 +791,7 @@ Huruvida Bitcoin Supply kommer att växa förbi 21 miljoner kan vi inte säga id
 Att uppgradera Bitcoin på ett säkert sätt kan vara extremt svårt. Vissa förändringar tar flera år att genomföra. I det här kapitlet lär vi oss om den vanliga vokabulären kring uppgradering av Bitcoin och utforskar några exempel på historiska uppgraderingar av dess protokoll samt de insikter som vi fick från dem. Slutligen talar vi om kedjesplittringar och de risker och kostnader som är förknippade med dem.
 
 
-För att komma i stämning inför det här kapitlet bör du läsa [David Hardings stycke om harmoni och disharmoni] (https://bitcointalk.org/dec/p1.html):
+För att komma i stämning inför det här kapitlet bör du läsa [David Hardings stycke om harmoni och disharmoni](https://bitcointalk.org/dec/p1.html):
 
 
 > Bitcoin experter talar ofta om konsensus, vars innebörd är abstrakt och Hard svår att fastställa. Men ordet konsensus utvecklades från det latinska ordet concentus, "en sång tillsammans harmoni" så låt oss inte tala om Bitcoin konsensus utan om Bitcoin harmoni.
@@ -809,19 +809,19 @@ I detta kapitel diskuteras hur Bitcoin kan uppgraderas utan att orsaka oenighet.
 
 
 
-Enligt Wikipedia avses med [forward compatibility] (https://en.wikipedia.org/wiki/Forward_compatibility) det tillstånd då en gammal programvara kan bearbeta data som skapats av nyare programvaror och ignorera de delar som den inte förstår:
+Enligt Wikipedia avses med [forward compatibility](https://en.wikipedia.org/wiki/Forward_compatibility) det tillstånd då en gammal programvara kan bearbeta data som skapats av nyare programvaror och ignorera de delar som den inte förstår:
 
 
 En standard stöder framåtkompatibilitet om en produkt som uppfyller tidigare versioner "elegant" kan bearbeta indata som är utformade för senare versioner av standarden och ignorera nya delar som den inte förstår.
 
 
-Omvänt avser [bakåtkompatibilitet] (https://en.wikipedia.org/wiki/Backward_compatibility) när data från en gammal programvara kan användas i nyare programvaror. En förändring sägs vara helt kompatibel om den är både framåt- och bakåtkompatibel.
+Omvänt avser [bakåtkompatibilitet](https://en.wikipedia.org/wiki/Backward_compatibility) när data från en gammal programvara kan användas i nyare programvaror. En förändring sägs vara helt kompatibel om den är både framåt- och bakåtkompatibel.
 
 
 En ändring av Bitcoin:s konsensusregler sägs vara en *Soft Fork* om den är helt kompatibel. Detta är det vanligaste sättet att uppgradera Bitcoin, av ett antal skäl som vi kommer att diskutera längre fram i detta kapitel. Om en ändring av konsensusreglerna för Bitcoin är bakåtkompatibel men inte framåtkompatibel kallas den för en *Hard Fork*.
 
 
-För en teknisk översikt över Soft-gafflar och Hard-gafflar, läs [kapitel 11 i Grokking Bitcoin] (https://rosenbaum.se/book/grokking-Bitcoin-11.html). Det förklarar dessa termer och går även in på uppgraderingsmekanismerna. Det rekommenderas, även om det inte är absolut nödvändigt, att få grepp om detta innan du fortsätter att läsa.
+För en teknisk översikt över Soft-gafflar och Hard-gafflar, läs [kapitel 11 i Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Det förklarar dessa termer och går även in på uppgraderingsmekanismerna. Det rekommenderas, även om det inte är absolut nödvändigt, att få grepp om detta innan du fortsätter att läsa.
 
 
 ### Historiska uppgraderingar
@@ -831,7 +831,7 @@ För en teknisk översikt över Soft-gafflar och Hard-gafflar, läs [kapitel 11 
 Bitcoin är inte detsamma idag som det var när Genesis-blocket skapades. Flera uppgraderingar har gjorts genom åren. År 2018 talade Eric Lombrozo [på konferensen Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) om Bitcoin:s olika uppgraderingsmekanismer och påpekade hur mycket de har utvecklats över tid. Han förklarade till och med hur Satoshi Nakamoto en gång uppgraderade Bitcoin genom en Hard Fork:
 
 
-> Det fanns faktiskt en Hard-Fork i Bitcoin som Satoshi gjorde att vi aldrig skulle göra det på det här sättet - det är ett ganska dåligt sätt att göra det på. Om du tittar på git commit-beskrivningen här [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], säger han något om reverted makefile.unix wx-config version 0.3.6. Det stämmer. Det är allt som står där. Det har ingen indikation på att det har en brytande förändring alls. Han gömde den i princip där inne. Han [postade också till bitcointalk] (https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) och sa, vänligen uppgradera till 0.3.6 ASAP. Vi fixade en implementeringsbugg där det är möjligt att falska transaktioner kan visas som accepterade. Acceptera inte Bitcoin-betalningar förrän du uppgraderar till 0.3.6. Om du inte kan uppgradera direkt skulle det vara bäst att stänga av din Bitcoin-nod tills du gör det. Och sedan ovanpå det, jag vet inte varför han bestämde sig för att göra det också, han bestämde sig för att lägga till några optimeringar i samma kod. Fixa en bugg och lägg till några optimeringar.
+> Det fanns faktiskt en Hard-Fork i Bitcoin som Satoshi gjorde att vi aldrig skulle göra det på det här sättet - det är ett ganska dåligt sätt att göra det på. Om du tittar på git commit-beskrivningen här [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], säger han något om reverted makefile.unix wx-config version 0.3.6. Det stämmer. Det är allt som står där. Det har ingen indikation på att det har en brytande förändring alls. Han gömde den i princip där inne. Han [postade också till bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) och sa, vänligen uppgradera till 0.3.6 ASAP. Vi fixade en implementeringsbugg där det är möjligt att falska transaktioner kan visas som accepterade. Acceptera inte Bitcoin-betalningar förrän du uppgraderar till 0.3.6. Om du inte kan uppgradera direkt skulle det vara bäst att stänga av din Bitcoin-nod tills du gör det. Och sedan ovanpå det, jag vet inte varför han bestämde sig för att göra det också, han bestämde sig för att lägga till några optimeringar i samma kod. Fixa en bugg och lägg till några optimeringar.
 
 Han påpekar att denna Hard Fork, vare sig det var avsiktligt eller inte, skapade möjligheter för framtida Soft-forks, nämligen Script-operatörerna (opkoderna) OP_NOP1-OP_NOP10. Vi kommer att titta mer på denna kodändring i cve-2010-5141. Dessa opkoder har hittills använts för två Soft-forkar:
 
@@ -850,12 +850,12 @@ Lombrozo ger också en översikt över hur uppgraderingsmekanismerna har utveckl
 Medan alla uppgraderingar som föregick SegWit hade varit mer eller mindre smärtfria, var den här annorlunda. När SegWit-aktiveringskoden släpptes i oktober 2016 verkade det finnas ett överväldigande stöd för den bland Bitcoin-användare, men av någon anledning signalerade gruvarbetare inte stöd för den här uppgraderingen, vilket stoppade aktiveringen utan någon lösning i sikte.
 
 
-Aaron van Wirdum beskriver denna slingrande väg i sin artikel i Bitcoin Magazine [The Long Road To SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Han börjar med att förklara vad SegWit är och hur det knyter an till blockstorleksdebatten. Van Wirdum beskriver sedan händelseförloppet som ledde fram till den slutliga aktiveringen. I centrum för denna process stod en uppgraderingsmekanism som kallas *user activated Soft Fork*, eller kort och gott UASF, som föreslogs av användaren Shaolinfry:
+Aaron van Wirdum beskriver denna slingrande väg i sin artikel i Bitcoin Magazine [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Han börjar med att förklara vad SegWit är och hur det knyter an till blockstorleksdebatten. Van Wirdum beskriver sedan händelseförloppet som ledde fram till den slutliga aktiveringen. I centrum för denna process stod en uppgraderingsmekanism som kallas *user activated Soft Fork*, eller kort och gott UASF, som föreslogs av användaren Shaolinfry:
 
 
 > Shaolinfry föreslog ett alternativ: en användaraktiverad Soft Fork (UASF). Istället för Hash-kraftaktivering skulle en användaraktiverad Soft Fork ha en "'flaggdagsaktivering' där noder påbörjar verkställighet vid en förutbestämd tidpunkt i framtiden." Så länge som en sådan UASF verkställs av en ekonomisk majoritet bör detta tvinga en majoritet av gruvarbetarna att följa (eller aktivera) Soft Fork.
 
-Han citerar bland annat Shaolinfrys e-postmeddelande till e-postlistan Bitcoin-dev. Vid det tillfället argumenterade Shaolinfry [mot Miner-aktiverade Soft-gafflar] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html) och listade ett antal problem med dem:
+Han citerar bland annat Shaolinfrys e-postmeddelande till e-postlistan Bitcoin-dev. Vid det tillfället argumenterade Shaolinfry [mot Miner-aktiverade Soft-gafflar](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html) och listade ett antal problem med dem:
 
 
 > För det första kräver det att man litar på att Hash-kraften kommer att valideras efter aktivering.  BIP66 Soft Fork var ett fall där 95 % av Hashrate signalerade beredskap, men i själva verket validerade ungefär hälften inte de uppgraderade reglerna och minade ett ogiltigt block av misstag.
@@ -883,12 +883,12 @@ Det fanns ytterligare komplicerande faktorer (t.ex. det s.k. "New York-avtalet")
 #### Diskussion efter SegWit
 
 
-Efter SegWit-driftsättningen uppstod en diskussion om driftsättningsmekanismer. Som Eric Lombrozo noterade i [sitt föredrag på konferensen Breaking Bitcoin] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) och Shaolinfry är en Miner aktiverad Soft Fork inte den perfekta uppgraderingsmekanismen:
+Efter SegWit-driftsättningen uppstod en diskussion om driftsättningsmekanismer. Som Eric Lombrozo noterade i [sitt föredrag på konferensen Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) och Shaolinfry är en Miner aktiverad Soft Fork inte den perfekta uppgraderingsmekanismen:
 
 
 > Vid någon tidpunkt kommer vi förmodligen att vilja lägga till fler funktioner i Bitcoin-protokollet. Det här är en stor filosofisk fråga som vi ställer oss själva. Ska vi göra en UASF för nästa? Vad sägs om en hybridstrategi? Miner aktiverad i sig har uteslutits. bip9 kommer vi inte att använda igen.
 
-I januari 2020 skickade Matt Corallo [ett e-postmeddelande] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) till e-postlistan Bitcoin-dev som startade en diskussion om framtida Soft Fork-distributionsmekanismer. Han listade fem mål som han tyckte var väsentliga i en uppgradering. David Harding [sammanfattar dem i ett nyhetsbrev från Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) som:
+I januari 2020 skickade Matt Corallo [ett e-postmeddelande](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) till e-postlistan Bitcoin-dev som startade en diskussion om framtida Soft Fork-distributionsmekanismer. Han listade fem mål som han tyckte var väsentliga i en uppgradering. David Harding [sammanfattar dem i ett nyhetsbrev från Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) som:
 
 
 > Möjligheten att avbryta om det finns allvarliga invändningar mot de föreslagna ändringarna av samförståndsreglerna . Tilldelning av tillräckligt med tid efter lanseringen av uppdaterad programvara för att säkerställa att de flesta ekonomiska noder uppgraderas för att genomdriva dessa regler . Förväntningen att nätverkets Hash-frekvens kommer att vara ungefär densamma före och efter förändringen, liksom under en eventuell övergång . Att så långt som möjligt förhindra att block skapas som är ogiltiga enligt de nya reglerna, vilket skulle kunna leda till falska bekräftelser i icke uppgraderade noder och SPV-klienter . Försäkran om att avbrytandemekanismerna inte kan missbrukas av "griefers" eller "partisaner" för att hålla inne en allmänt önskad uppgradering utan kända problem
@@ -921,10 +921,10 @@ När Taproot var redo för driftsättning i oktober 2020, vilket innebar att all
 
 Många förslag på aktiveringsmekanismer började flöda runt och David Harding
 
-[sammanfattade dem på Bitcoin Wiki] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). I sin artikel förklarade han några egenskaper hos BIP8, som vid den tiden hade några nyligen gjorda ändringar för att göra den mer flexibel.
+[sammanfattade dem på Bitcoin Wiki](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). I sin artikel förklarade han några egenskaper hos BIP8, som vid den tiden hade några nyligen gjorda ändringar för att göra den mer flexibel.
 
 
-> När detta dokument skrivs har [BIP8] (https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) utarbetats baserat på de lärdomar som dragits under 2017. En anmärkningsvärd förändring efter BIP 9+148 är att tvångsaktivering nu baseras på blockhöjd snarare än mediantid; en annan anmärkningsvärd förändring är att tvångsaktivering är en boolesk parameter som väljs när en Soft Fork:s aktiveringsparametrar ställs in antingen för den första driftsättningen eller uppdateras i en senare driftsättning.
+> När detta dokument skrivs har [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) utarbetats baserat på de lärdomar som dragits under 2017. En anmärkningsvärd förändring efter BIP 9+148 är att tvångsaktivering nu baseras på blockhöjd snarare än mediantid; en annan anmärkningsvärd förändring är att tvångsaktivering är en boolesk parameter som väljs när en Soft Fork:s aktiveringsparametrar ställs in antingen för den första driftsättningen eller uppdateras i en senare driftsättning.
 
 BIP8 utan tvångsaktivering är mycket lik [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) version bits med timeout och fördröjning, med den enda betydande skillnaden att BIP8 använder blockhöjder jämfört med BIP9 som använder mediantid. Den här inställningen gör att försöket kan misslyckas (men det kan göras om senare).
 
@@ -960,14 +960,14 @@ Under dessa sju månader pågick diskussionen och det verkade som om det inte fa
 
 Tillvägagångssättet "låt oss se vad som händer" verkade äntligen klicka i människors sinnen. Denna process skulle senare komma att kallas "Speedy Trial" på grund av sin korta signaleringsperiod. David Harding förklarar denna idé för den bredare allmänheten i en
 
-[e-post till e-postlistan Bitcoin-dev] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[e-post till e-postlistan Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
 
 > Den tidigare versionen av detta förslag dokumenterades för över 200 dagar sedan och Taproot:s underliggande kod slogs samman till Bitcoin Core för över 140 dagar sedan Om vi hade startat Speedy Trial vid den tidpunkt då Taproot slogs samman (vilket är lite orealistiskt), skulle vi antingen ha varit mindre än två månader från att ha Taproot eller så skulle vi ha gått vidare till nästa aktiveringsförsök för över en månad sedan.
 >
 
 > Istället har vi debatterat länge och verkar inte vara närmare vad jag tycker är en allmänt godtagbar lösning än när e-postlistan började diskutera aktiveringssystem efter SegWit för över ett år sedan Jag tror att Speedy Trial är ett sätt att generate snabba framsteg som antingen kommer att avsluta debatten (för tillfället, om aktiveringen lyckas) eller ge oss några faktiska uppgifter som vi kan basera framtida Taproot aktiveringsförslag på.
 
-Denna utplaceringsmekanism förfinades under två månader och släpptes sedan i [Bitcoin Core version 0.21.1] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/release-notes/release-notes-0.21.1.md#Taproot-Soft-Fork). Gruvarbetarna började snabbt signalera för denna uppgradering och flyttade driftsättningsstatus till `LOCKED_IN`, och efter en respitperiod aktiverades Taproot-reglerna i mitten av november 2021 i block [709632](https://Mempool.space/block/0000000000000000000687bca986194dc2c1f949318629b44bb54ec0a94d8244).
+Denna utplaceringsmekanism förfinades under två månader och släpptes sedan i [Bitcoin Core version 0.21.1](https://github.com/Bitcoin/Bitcoin/blob/master/doc/release-notes/release-notes-0.21.1.md#Taproot-Soft-Fork). Gruvarbetarna började snabbt signalera för denna uppgradering och flyttade driftsättningsstatus till `LOCKED_IN`, och efter en respitperiod aktiverades Taproot-reglerna i mitten av november 2021 i block [709632](https://Mempool.space/block/0000000000000000000687bca986194dc2c1f949318629b44bb54ec0a94d8244).
 
 
 #### Framtida mekanismer för utbyggnad
@@ -1034,7 +1034,7 @@ Det här kapitlet handlar om *adversarial thinking*, ett tankesätt som fokusera
 När man diskuterar säkerhet inom olika system är det viktigt att förstå vilka säkerhetsantaganden som görs. Ett typiskt säkerhetsantagande i Bitcoin är "det diskreta logaritmproblemet är Hard att lösa", vilket enkelt uttryckt innebär att det är praktiskt taget omöjligt att hitta en privat nyckel som motsvarar en viss publik nyckel. Ett annat ganska starkt säkerhetsantagande är att en majoritet av nätverkets hashpower är ärlig, vilket innebär att de spelar enligt reglerna. Om dessa antaganden visar sig vara felaktiga är Bitcoin i trubbel.
 
 
-År 2015 höll Andrew Poelstra [ett föredrag] (https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) på konferensen Scaling Bitcoin i Hong Kong, där han analyserade Bitcoin:s säkerhetsantaganden. Han börjar med att notera att många system bortser från motståndare i viss utsträckning; till exempel är det verkligen Hard att skydda en byggnad mot alla typer av motståndarhändelser. Istället accepterar vi i allmänhet möjligheten att någon kan bränna ner byggnaden, och i viss utsträckning förhindra detta och andra fientliga beteenden genom brottsbekämpning etc.
+År 2015 höll Andrew Poelstra [ett föredrag](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) på konferensen Scaling Bitcoin i Hong Kong, där han analyserade Bitcoin:s säkerhetsantaganden. Han börjar med att notera att många system bortser från motståndare i viss utsträckning; till exempel är det verkligen Hard att skydda en byggnad mot alla typer av motståndarhändelser. Istället accepterar vi i allmänhet möjligheten att någon kan bränna ner byggnaden, och i viss utsträckning förhindra detta och andra fientliga beteenden genom brottsbekämpning etc.
 
 
 Se Greg Maxwells analogi av byggnaden:
@@ -1068,7 +1068,7 @@ komplexiteten i själva systemet.
 
 
 
-Vikten av ett kontradiktoriskt tänkande sträcker sig också till vardagliga Bitcoin-användare i viss utsträckning, inte bara till hardcore Bitcoin-utvecklare och experter. Ragnar Lifthasir nämner i en [tweetstorm] (https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) hur förenklade berättelser kring Bitcoin - till exempel "bara HODL" - kan vara förnedrande för Bitcoin själv, och avslutar med att säga
+Vikten av ett kontradiktoriskt tänkande sträcker sig också till vardagliga Bitcoin-användare i viss utsträckning, inte bara till hardcore Bitcoin-utvecklare och experter. Ragnar Lifthasir nämner i en [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) hur förenklade berättelser kring Bitcoin - till exempel "bara HODL" - kan vara förnedrande för Bitcoin själv, och avslutar med att säga
 
 
 > För att göra Bitcoin och oss själva starkare måste vi tänka som de programvaruingenjörer som bidrar till Bitcoin. De granskar varandra och söker skoningslöst efter brister. På sina teknikevenemang pratar de om alla sätt ett förslag kan misslyckas på. De tänker kontradiktoriskt. De är konservativa
@@ -1119,7 +1119,7 @@ Detta belyser hur en beslutsam stat kan och kommer att göra allt som står i de
 ### Axiom av motstånd
 
 
-Eric Voskuil [skriver på sin wikisida Cryptoeconomics] (https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) om vad han kallar "motståndsaxiomet":
+Eric Voskuil [skriver på sin wikisida Cryptoeconomics](https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) om vad han kallar "motståndsaxiomet":
 
 
 > Med andra ord finns det ett antagande om att det är möjligt för ett system att motstå statlig kontroll. Detta accepteras inte som ett faktum utan anses vara ett rimligt antagande, på grund av empiriska studier av beteendet hos liknande system, som man kan basera systemet på.
@@ -1156,7 +1156,7 @@ För att hålla Bitcoin säkert måste du känna till dess fiender och deras inc
 Bitcoin är byggd med hjälp av programvara med öppen källkod. I det här kapitlet analyserar vi vad detta innebär, hur underhåll av programvaran fungerar och hur programvara med öppen källkod i Bitcoin möjliggör utveckling utan tillstånd. Vi doppar tårna i *valkryptografi*, som handlar om val och användning av bibliotek i kryptografiska system. Kapitlet innehåller ett avsnitt om Bitcoin:s granskningsprocess, följt av ett annat om hur Bitcoin-utvecklare får finansiering. Det sista avsnittet handlar om hur Bitcoin:s öppen källkodskultur kan se riktigt konstig ut från utsidan, och varför denna upplevda konstighet egentligen är ett tecken på god hälsa.
 
 
-De flesta Bitcoin-programvaror, och särskilt Bitcoin Core, är öppen källkod. Detta innebär att programvarans källkod görs tillgänglig för allmänheten för granskning, modifiering och vidaredistribution. Definitionen av öppen källkod på [] (https://opensource.org/osd) omfattar bland annat följande viktiga punkter:
+De flesta Bitcoin-programvaror, och särskilt Bitcoin Core, är öppen källkod. Detta innebär att programvarans källkod görs tillgänglig för allmänheten för granskning, modifiering och vidaredistribution. Definitionen av öppen källkod på [](https://opensource.org/osd) omfattar bland annat följande viktiga punkter:
 
 
 > Fri vidaredistribution: Licensen skall inte hindra någon part från att sälja eller ge bort programvaran som en del av en samlad programvarudistribution som innehåller program från flera olika källor. Licensen får inte kräva royalty eller annan avgift för sådan försäljning.
@@ -1167,7 +1167,7 @@ De flesta Bitcoin-programvaror, och särskilt Bitcoin Core, är öppen källkod.
 
 > Härledda verk: Licensen måste tillåta modifieringar och härledda verk, och måste tillåta att de distribueras under samma villkor som licensen för den ursprungliga programvaran.
 
-Bitcoin Core följer denna definition genom att distribueras under [MIT-licensen] (https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
+Bitcoin Core följer denna definition genom att distribueras under [MIT-licensen](https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
 
 
 ```
@@ -1192,7 +1192,7 @@ I de kommande avsnitten dyker vi ner i några andra intressanta aspekter av prog
 
 
 
-Bitcoin Core's källkod underhålls i ett Git-arkiv som finns på [GitHub] (https://github.com/Bitcoin/Bitcoin). Vem som helst kan klona just det förvaret utan att be om tillstånd och sedan inspektera, bygga eller göra ändringar i det lokalt. Detta innebär att det finns många tusen kopior av arkivet spridda över hela världen. Dessa är alla kopior av samma arkiv, så vad gör det här specifika GitHub Bitcoin Core-arkivet så speciellt? Tekniskt sett är det inte speciellt alls, men socialt sett har det blivit kontaktpunkten för Bitcoin-utvecklingen.
+Bitcoin Core's källkod underhålls i ett Git-arkiv som finns på [GitHub](https://github.com/Bitcoin/Bitcoin). Vem som helst kan klona just det förvaret utan att be om tillstånd och sedan inspektera, bygga eller göra ändringar i det lokalt. Detta innebär att det finns många tusen kopior av arkivet spridda över hela världen. Dessa är alla kopior av samma arkiv, så vad gör det här specifika GitHub Bitcoin Core-arkivet så speciellt? Tekniskt sett är det inte speciellt alls, men socialt sett har det blivit kontaktpunkten för Bitcoin-utvecklingen.
 
 
 Bitcoin- och säkerhetsexperten Jameson Lopp förklarar detta mycket bra i ett [blogginlägg](https://blog.lopp.net/who-controls-Bitcoin-core-/) med titeln "Vem kontrollerar Bitcoin Core?":
@@ -1208,7 +1208,7 @@ Han fortsätter med att förklara hur Bitcoin Core's programvara underhålls och
 
 > Ingen kontrollerar fokuspunkten för Bitcoin-utvecklingen.
 
-Bitcoin Core-utvecklaren Eric Lombrozo talar vidare om utvecklingsprocessen i sitt [Medium-inlägg] (https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) med titeln "The Bitcoin Core Merge Process":
+Bitcoin Core-utvecklaren Eric Lombrozo talar vidare om utvecklingsprocessen i sitt [Medium-inlägg](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) med titeln "The Bitcoin Core Merge Process":
 
 
 > Vem som helst kan Fork kodbasförvaret och göra godtyckliga ändringar i sitt eget förvar. De kan bygga en klient från sitt eget arkiv och köra det istället om de vill. De kan också göra binära builds för andra människor att köra.
@@ -1235,7 +1235,7 @@ Förmodligen lika viktigt är att användare är fria att utveckla system ovanp�
 
 - Lightning Network: Ett betalningsnätverk som möjliggör snabb betalning av mycket små belopp. Det kräver mycket få On-Chain Bitcoin transaktioner. Det finns olika interoperabla implementeringar, till exempel [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) och [Lightning Dev Kit](https://github.com/lightningdevkit).
 - CoinJoin: Flera parter samarbetar för att kombinera sina betalningar till en enda transaktion för att göra Address klustring svårare. Det finns olika implementeringar.
-- Sidokedjor: Detta system kan låsa ett mynt på Bitcoin:s Blockchain för att låsa upp det på någon annan Blockchain. Detta gör det möjligt att flytta bitcoins till någon annan Blockchain, nämligen en Sidechain, för att använda de funktioner som finns tillgängliga på den Sidechain. Exempel inkluderar [Blockstreams Elements] (https://github.com/ElementsProject/Elements).
+- Sidokedjor: Detta system kan låsa ett mynt på Bitcoin:s Blockchain för att låsa upp det på någon annan Blockchain. Detta gör det möjligt att flytta bitcoins till någon annan Blockchain, nämligen en Sidechain, för att använda de funktioner som finns tillgängliga på den Sidechain. Exempel inkluderar [Blockstreams Elements](https://github.com/ElementsProject/Elements).
 - OpenTimestamps: Det gör att du kan [Timestamp ett dokument](https://opentimestamps.org/) på Bitcoin:s Blockchain på ett privat sätt. Du kan sedan använda den Timestamp för att bevisa att ett dokument måste ha existerat före en viss tidpunkt.
 
 
@@ -1265,7 +1265,7 @@ Många utvecklare väljer det här alternativet genom att arbeta under en pseudo
 artiklar och mitt arbete med Bitcoin och Lightning Network.
 
 
-I hans fall ska skälet till att han använder en pseudonym bedömas utifrån hans meriter och inte utifrån vem eller vilka personen eller personerna bakom pseudonymen är. Intressant nog avslöjade han i en [artikel på CoinDesk] (https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) att pseudonymen skapades av en annan anledning.
+I hans fall ska skälet till att han använder en pseudonym bedömas utifrån hans meriter och inte utifrån vem eller vilka personen eller personerna bakom pseudonymen är. Intressant nog avslöjade han i en [artikel på CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) att pseudonymen skapades av en annan anledning.
 
 
 > Min ursprungliga anledning [till att använda en pseudonym] var helt enkelt att jag var orolig [för] att göra ett stort misstag; därför var ZmnSCPxj ursprungligen avsedd att vara en engångspseudonym som kunde överges i ett sådant fall. Men den verkar ha fått ett mestadels positivt rykte, så jag har behållit den
@@ -1290,7 +1290,7 @@ Observera att dessa punkter inte bara gäller för Satoshi Nakamoto, utan för a
 Utvecklare av öppen källkod använder ofta bibliotek med öppen källkod som utvecklats av andra. Detta är en naturlig och fantastisk del av alla hälsosamma ekosystem. Men Bitcoin-programvara hanterar riktiga pengar och mot bakgrund av detta måste utvecklare vara extra försiktiga när de väljer vilka tredjepartsbibliotek de ska vara beroende av.
 
 
-I en filosofisk [talk about cryptography] (https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/) vill Gregory Maxwell omdefiniera begreppet "kryptografi" som han anser vara för snävt. Han förklarar att *information i grund och botten vill vara fri* och bygger sin definition av kryptografi på detta:
+I en filosofisk [talk about cryptography](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/) vill Gregory Maxwell omdefiniera begreppet "kryptografi" som han anser vara för snävt. Han förklarar att *information i grund och botten vill vara fri* och bygger sin definition av kryptografi på detta:
 
 
 > Kryptografi är den konst och vetenskap som vi använder för att bekämpa informationens grundläggande natur, för att anpassa den till vår politiska och moraliska vilja och för att styra den mot mänskliga syften mot alla odds och försök att motarbeta den.
@@ -1314,7 +1314,7 @@ Med hjälp av konkreta exempel visar han hur urvalskryptografi lätt kan gå fru
 Även om detta inte är den ultimata guiden till framgång kan det vara till stor hjälp att gå igenom dessa punkter när man gör urvalskryptografi.
 
 
-På grund av de problem som Maxwell nämnde ovan försöker Bitcoin Core verkligen Hard att [minimera sin exponering för tredjepartsbibliotek] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Naturligtvis kan du inte utrota alla externa beroenden, annars skulle du behöva skriva allt själv, från fontrendering till implementering av systemanrop.
+På grund av de problem som Maxwell nämnde ovan försöker Bitcoin Core verkligen Hard att [minimera sin exponering för tredjepartsbibliotek](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Naturligtvis kan du inte utrota alla externa beroenden, annars skulle du behöva skriva allt själv, från fontrendering till implementering av systemanrop.
 
 
 ### Granskning
@@ -1407,14 +1407,14 @@ Någon som inte är van vid Bitcoin:s utvecklingsprocess skulle förmodligen tyc
 De flesta Bitcoin-utvecklare skulle hävda att denna öppenhet skapar en bra och hälsosam miljö, och till och med att den är nödvändig för att uppnå bästa resultat.
 
 
-Som antyddes i kapitlet Hot kan den andra punkten ovan vara mycket fördelaktig, men den har en nackdel. En angripare kan använda förhalningstaktik, som den som beskrivs i [Simple Sabotage Field Manual] (https://www.gutenberg.org/ebooks/26184), för att snedvrida besluts- och utvecklingsprocessen.
+Som antyddes i kapitlet Hot kan den andra punkten ovan vara mycket fördelaktig, men den har en nackdel. En angripare kan använda förhalningstaktik, som den som beskrivs i [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), för att snedvrida besluts- och utvecklingsprocessen.
 
 
 En annan sak som är värt att nämna är att eftersom Bitcoin är pengar och Bitcoin Core säkrar ofattbara mängder pengar, tas säkerhet i detta sammanhang inte lätt. Det är därför kryddat Bitcoin Core
 
 utvecklare kan verka väldigt Hard-tokiga, och den attityden är oftast befogad. En funktion med en svag grund bakom sig kommer faktiskt inte att accepteras. Detsamma skulle hända om den bröt mot
 
-reproducerbara byggnationer, lagt till nya beroenden eller om koden inte följde Bitcoin:s [bästa praxis] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
+reproducerbara byggnationer, lagt till nya beroenden eller om koden inte följde Bitcoin:s [bästa praxis](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
 Nya (och gamla) utvecklare kan bli frustrerade av detta. Men som vanligt i programvara med öppen källkod kan du alltid Fork förvaret, slå samman vad du vill till din egen Fork och bygga och köra din egen binär.
@@ -1467,7 +1467,7 @@ Vi kommer snart att dyka in i olika metoder för skalning, men låt oss börja m
 
 
 
-Skalning har varit en central punkt i diskussionen sedan Genesis av Bitcoin. Den allra första meningen i [det allra första e-postmeddelandet] (https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) som svar på Satoshi:s tillkännagivande av Bitcoin:s vitbok på e-postlistan Cryptography handlade faktiskt om skalning:
+Skalning har varit en central punkt i diskussionen sedan Genesis av Bitcoin. Den allra första meningen i [det allra första e-postmeddelandet](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) som svar på Satoshi:s tillkännagivande av Bitcoin:s vitbok på e-postlistan Cryptography handlade faktiskt om skalning:
 
 
 > Satoshi Nakamoto skrev:
@@ -1484,10 +1484,10 @@ Samtalet i sig kanske inte är särskilt intressant eller korrekt, men det visar
 Diskussionerna om skalning nådde sitt högsta intresse runt 2015-2017, då det cirkulerade många olika idéer om huruvida och hur man skulle öka gränsen för maximal blockstorlek. Det var en ganska ointressant diskussion om att ändra en parameter i källkoden, en ändring som inte löste något i grunden men som sköt problemet med skalning längre in i framtiden och byggde upp en teknisk skuld.
 
 
-År 2015 hölls en konferens kallad [Scaling Bitcoin] (https://scalingbitcoin.org/) i Montreal, med en uppföljningskonferens sex månader senare i Hong Kong och därefter på ett antal andra platser runt om i världen. Fokus låg just på hur man Address skalar. Många Bitcoin-utvecklare och andra entusiaster samlades på dessa konferenser för att diskutera olika skalningsfrågor och förslag. De flesta av dessa diskussioner kretsade inte kring ökningar av blockstorleken utan om mer långsiktiga lösningar.
+År 2015 hölls en konferens kallad [Scaling Bitcoin](https://scalingbitcoin.org/) i Montreal, med en uppföljningskonferens sex månader senare i Hong Kong och därefter på ett antal andra platser runt om i världen. Fokus låg just på hur man Address skalar. Många Bitcoin-utvecklare och andra entusiaster samlades på dessa konferenser för att diskutera olika skalningsfrågor och förslag. De flesta av dessa diskussioner kretsade inte kring ökningar av blockstorleken utan om mer långsiktiga lösningar.
 
 
-Efter Hongkongkonferensen i december 2015 sammanfattade Gregory Maxwell [sin syn] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) på många av de frågor som hade debatterats, och inledde med en allmän filosofi kring skalning:
+Efter Hongkongkonferensen i december 2015 sammanfattade Gregory Maxwell [sin syn](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) på många av de frågor som hade debatterats, och inledde med en allmän filosofi kring skalning:
 
 
 > Med den teknik som finns tillgänglig finns det grundläggande avvägningar mellan skala och decentralisering. Om systemet är för kostsamt kommer människor att tvingas lita på tredje part snarare än att självständigt upprätthålla systemets regler. Om Bitcoin Blockchain:s resursanvändning, i förhållande till den tillgängliga tekniken, är för stor, förlorar Bitcoin sina konkurrensfördelar jämfört med äldre system eftersom valideringen blir för kostsam (vilket utestänger många användare), vilket tvingar tillbaka förtroendet för systemet.  Om kapaciteten är för låg och våra transaktionsmetoder för ineffektiva kommer tillgången till kedjan för tvistlösning att vara för kostsam, vilket återigen tvingar tillbaka förtroendet i systemet.
@@ -1556,7 +1556,7 @@ Den andra punkten har en negativ effekt på Miner:s decentralisering, eftersom d
 Horisontell skalning avser tekniker som delar upp arbetsbelastningen på flera maskiner. Även om detta är en vanlig skalningsmetod bland populära webbplatser och databaser, är det inte lätt att göra i Bitcoin.
 
 
-Många människor hänvisar till denna Bitcoin-skalningsmetod som *sharding*. I grund och botten består det av att låta varje Full node verifiera bara en del av Blockchain. Peter Todd har lagt ner mycket tankearbete på konceptet sharding. Han skrev ett [blogginlägg] (https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) där han förklarade sharding i allmänna termer och även presenterade sin egen idé som kallas *treechains*. Artikeln är svårläst, men Todd gör några poäng som är ganska smältbara:
+Många människor hänvisar till denna Bitcoin-skalningsmetod som *sharding*. I grund och botten består det av att låta varje Full node verifiera bara en del av Blockchain. Peter Todd har lagt ner mycket tankearbete på konceptet sharding. Han skrev ett [blogginlägg](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) där han förklarade sharding i allmänna termer och även presenterade sin egen idé som kallas *treechains*. Artikeln är svårläst, men Todd gör några poäng som är ganska smältbara:
 
 
 > I sharded-system fungerar inte "Full node-försvaret", åtminstone inte direkt. Hela poängen är att alla inte har all data, så du måste bestämma vad som händer när den inte är tillgänglig.
@@ -1674,7 +1674,7 @@ När starttransaktionen är på Blockchain kan protokollet göra det som det är
 Vi ska inte gå in i detalj på hur specifika protokoll fungerar, men som du kan se i föregående figur används Blockchain sällan under protokollets livscykel. All saftig action sker *off-chain*. Vi har sett hur detta kan vara en vinst för integriteten om det görs på rätt sätt, men det kan också vara en fördel för skalbarheten.
 
 
-I ett [Reddit-inlägg] (https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) med titeln "En resa till månen kräver en raket med flera steg, annars kommer raketekvationen att äta upp din lunch ... att packa in alla i clownbilsstil i en trebuchet och hoppas på framgång är helt ute." förklarar Gregory Maxwell varför skiktning är vår bästa chans att få Bitcoin att skala med storleksordningar.
+I ett [Reddit-inlägg](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) med titeln "En resa till månen kräver en raket med flera steg, annars kommer raketekvationen att äta upp din lunch ... att packa in alla i clownbilsstil i en trebuchet och hoppas på framgång är helt ute." förklarar Gregory Maxwell varför skiktning är vår bästa chans att få Bitcoin att skala med storleksordningar.
 
 
 Han börjar med att betona det felaktiga i att betrakta Visa eller Mastercard som Bitcoin:s huvudkonkurrenter och belyser hur en ökning av den maximala blockstorleken är en dålig metod för att möta denna konkurrens. Sedan talar han om hur man kan göra verklig skillnad genom att använda lager:
@@ -1726,17 +1726,17 @@ Bitcoin är byggd av människor. Människor skriver programvaran, och människor
 Tänk dig att du upptäcker en bugg i Bitcoin Core, en bugg som gör det möjligt för vem som helst att stänga av en Bitcoin Core-nod på distans genom att använda några speciellt utformade nätverksmeddelanden. Föreställ dig också att du inte är skadlig och vill att det här problemet ska förbli outnyttjat. Vad gör du då? Om du håller tyst om det kommer någon annan förmodligen att upptäcka problemet, och du kan inte vara säker på att den personen inte är skadlig.
 
 
-När ett säkerhetsproblem upptäcks bör den person som upptäcker det använda _responsible disclosure_ som är en term som ofta används bland Bitcoin-utvecklare. Termen är [förklarad på Wikipedia] (https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
+När ett säkerhetsproblem upptäcks bör den person som upptäcker det använda _responsible disclosure_ som är en term som ofta används bland Bitcoin-utvecklare. Termen är [förklarad på Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
 
 
 > Utvecklare av hård- och mjukvara behöver ofta tid och resurser för att reparera sina misstag. Ofta är det etiska hackare som hittar dessa
 sårbarheter. Hackare och datasäkerhetsforskare anser att det är deras sociala ansvar att göra allmänheten medveten om sårbarheter. Att dölja problem kan skapa en känsla av falsk säkerhet. För att undvika detta samordnar och förhandlar de inblandade parterna om en rimlig tidsperiod för att åtgärda sårbarheten. Beroende på hur stor inverkan sårbarheten kan ha, hur lång tid det tar att utveckla och tillämpa en nödlösning eller en kringgående lösning och andra faktorer, kan denna tidsperiod variera mellan några dagar och flera månader.
 
 
-Det innebär att om du hittar ett säkerhetsproblem ska du rapportera det till det team som ansvarar för systemet. Men vad betyder detta i samband med Bitcoin? Ingen kontrollerar Bitcoin, men det finns för närvarande en samlingspunkt för Bitcoin-utveckling, nämligen [Bitcoin Core Github repository] (https://github.com/Bitcoin/Bitcoin). Underhållarna av detta arkiv är ansvariga för koden i det, men de är inte ansvariga för systemet som helhet - det är det ingen som är. Ändå är den allmänna bästa metoden att skicka ett e-postmeddelande till security@bitcoincore.org.
+Det innebär att om du hittar ett säkerhetsproblem ska du rapportera det till det team som ansvarar för systemet. Men vad betyder detta i samband med Bitcoin? Ingen kontrollerar Bitcoin, men det finns för närvarande en samlingspunkt för Bitcoin-utveckling, nämligen [Bitcoin Core Github repository](https://github.com/Bitcoin/Bitcoin). Underhållarna av detta arkiv är ansvariga för koden i det, men de är inte ansvariga för systemet som helhet - det är det ingen som är. Ändå är den allmänna bästa metoden att skicka ett e-postmeddelande till security@bitcoincore.org.
 
 
-I en [e-posttråd] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) med titeln "Responsible disclosure of bugs" från 2017 försökte Anthony Towns sammanfatta vad han uppfattade som bästa praxis för närvarande. Han hade samlat in information från flera källor och olika personer för att få fram sin syn på ämnet.
+I en [e-posttråd](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) med titeln "Responsible disclosure of bugs" från 2017 försökte Anthony Towns sammanfatta vad han uppfattade som bästa praxis för närvarande. Han hade samlat in information från flera källor och olika personer för att få fram sin syn på ämnet.
 
 
 
@@ -1764,7 +1764,7 @@ Tråden som ledde till detta e-postmeddelande diskuterade om, när och hur man s
 
 > Det räcker inte att försvara Bitcoin och dess användare från aktiva hot, det finns ett mer allmänt ansvar att försvara alla typer av användare och olika programvaror från många typer av hot i alla former, även om folk använder dumma och osäkra programvaror som du personligen inte underhåller eller bidrar till eller förespråkar. Att hantera kunskap om en sårbarhet är en känslig fråga och du kanske får kunskap med allvarligare direkt eller indirekt påverkan än vad som ursprungligen beskrevs.
 
-I anslutning till Town's e-postmeddelande ovan publicerades också ett [inlägg] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) av Gregory Maxwell, där han hävdade att säkerhetsproblem kan vara allvarligare än de verkar:
+I anslutning till Town's e-postmeddelande ovan publicerades också ett [inlägg](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) av Gregory Maxwell, där han hävdade att säkerhetsproblem kan vara allvarligare än de verkar:
 
 
 > Jag har flera gånger sett att ett Hard-problem som går att utnyttja visar sig vara trivialt när du hittar rätt trick, eller att ett mindre dosproblem visar sig vara mycket allvarligare.
@@ -1834,7 +1834,7 @@ Det ursprungliga meddelandet redigerades senare och är inte längre tillgängli
 
 > Har inte haft tid att uppdatera SVN än.  Vänta på 0.3.6, jag håller på att bygga den nu.  Du kan stänga ner din nod under tiden.
 
-Och 35 minuter senare [skrev han] (https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
+Och 35 minuter senare [skrev han](https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
 
 
 > SVN har uppdaterats med version 0.3.6.
@@ -1876,7 +1876,7 @@ På den tiden fanns det inte alls lika många användare som det finns idag, och
 
 
 - Satoshi gjorde en binär release av 0.3.5 som innehöll fixen. Ingen patch eller kod tillhandahölls, kanske som en åtgärd för att fördunkla problemet.
-- 0.3,5 [fungerade inte ens] (https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
+- 0.3,5 [fungerade inte ens](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
 - Fixen i 0.3.6 var faktiskt en Hard Fork.
 
 
@@ -1949,7 +1949,7 @@ Han ville att folk skulle ladda ner blockdata från en specifik användare, näm
 Det fanns en stor varning med detta: de data som användare skulle ladda ner från knightmb [verifierades inte av Bitcoin-programvaran](https://Bitcoin.stackexchange.com/a/113682/69518) vid start. Filen blkindex.dat innehöll UTXO-uppsättningen, och programvaran skulle acceptera all data där som om den redan hade verifierat den. knightmb kunde ha manipulerat data för att ge sig själv eller någon annan några bitcoins.
 
 
-Återigen verkade folk gå med på detta, och återföringen av det ogiltiga blocket och dess efterföljare lyckades. Utvinnare började arbeta på en ny efterföljare till block [74637] (https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) och enligt blockets Timestamp dök en efterföljare upp kl. 23:53 UTC, cirka 6 timmar efter att problemet upptäcktes. Klockan 08:10 dagen därpå, den 16 augusti, runt block 74689, hade den nya kedjan tagit över den gamla kedjan, och därför omorganiserades alla icke uppgraderade noder för att följa den nya kedjan. Detta är den djupaste reorg - 52 block - i Bitcoin:s historia.
+Återigen verkade folk gå med på detta, och återföringen av det ogiltiga blocket och dess efterföljare lyckades. Utvinnare började arbeta på en ny efterföljare till block [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) och enligt blockets Timestamp dök en efterföljare upp kl. 23:53 UTC, cirka 6 timmar efter att problemet upptäcktes. Klockan 08:10 dagen därpå, den 16 augusti, runt block 74689, hade den nya kedjan tagit över den gamla kedjan, och därför omorganiserades alla icke uppgraderade noder för att följa den nya kedjan. Detta är den djupaste reorg - 52 block - i Bitcoin:s historia.
 
 
 Jämfört med frågan om OP_RETURN hanterades denna fråga på ett något renare sätt:
@@ -1984,7 +1984,7 @@ En mycket intressant och utbildningsmässigt värdefull fråga dök upp i mars 2
 Den snabba åtgärd som Mining-poolerna BTCGuild och Slush vidtog var absolut nödvändig i denna nödsituation. De kunde tippa majoriteten av Hash-kraften över till splitens pre-0.8-gren och därmed hjälpa till att återställa konsensus. Detta gav utvecklare tid att räkna ut en hållbar fix.
 
 
-Vad som också är mycket intressant i det här problemet är att version 0.7.2 var inkompatibel med sig själv, vilket också var fallet med tidigare versioner. Detta förklaras i [Root cause section of BIP50] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
+Vad som också är mycket intressant i det här problemet är att version 0.7.2 var inkompatibel med sig själv, vilket också var fallet med tidigare versioner. Detta förklaras i [Root cause section of BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
 
 
 > Med den otillräckligt höga BDB-låskonfigurationen hade det implicit blivit en nätverkskonsensusregel som bestämde blockets giltighet (om än en
@@ -2037,7 +2037,7 @@ BIP aktiverades den 4 juli 2015. Även om ovanstående är sant, åtgärdar dock
 
 Den fullständiga redogörelsen för denna fråga publicerades den 28 juli 2015 av Pieter Wuille i en
 
-[e-post till Bitcoin-dev mailing list] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[e-post till Bitcoin-dev mailing list](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
 
 
 > Hej på er alla,
@@ -2081,7 +2081,7 @@ På grund av bredden i denna BIP, som omfattade betydligt mer än bara "strikt D
 
 
 
-OpenSSL släppte nya versioner av sin programvara med korrigeringar som, om de hade använts i Bitcoin sedan början, skulle ha löst problemet. Men att använda någon ny version av OpenSSL endast i en ny version av Bitcoin Core skulle göra saken värre. Gregory Maxwell förklarar detta i en annan [e-posttråd] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) i januari 2015:
+OpenSSL släppte nya versioner av sin programvara med korrigeringar som, om de hade använts i Bitcoin sedan början, skulle ha löst problemet. Men att använda någon ny version av OpenSSL endast i en ny version av Bitcoin Core skulle göra saken värre. Gregory Maxwell förklarar detta i en annan [e-posttråd](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) i januari 2015:
 
 
 > För de flesta tillämpningar är det i allmänhet acceptabelt att ivrigt förkasta vissa signaturer, men Bitcoin är ett konsensussystem där alla deltagare i allmänhet måste vara överens om den exakta giltigheten eller ogiltigheten hos indata.  På sätt och vis är konsekvens viktigare än "korrekthet".
@@ -2107,7 +2107,7 @@ En viktig lärdom av detta är att BIP:er bör vara mer eller mindre *atomiska*,
 
 
 
-Tyvärr slutade inte historien om BIP66 där. När BIP66 aktiverades blev det ganska rörigt eftersom vissa miners inte verifierade de block som de försökte förlänga. Detta kallas valideringslös Mining, eller SPV-Mining (som i Simplified Payment Verification). Ett varningsmeddelande skickades ut till Bitcoin-noderna med en länk till [en webbsida som beskriver problemet] (https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Tyvärr slutade inte historien om BIP66 där. När BIP66 aktiverades blev det ganska rörigt eftersom vissa miners inte verifierade de block som de försökte förlänga. Detta kallas valideringslös Mining, eller SPV-Mining (som i Simplified Payment Verification). Ett varningsmeddelande skickades ut till Bitcoin-noderna med en länk till [en webbsida som beskriver problemet](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
 
 
 > Tidigt på morgonen den 4 juli 2015 nåddes tröskelvärdet 950/1000 (95%). Strax därefter utvann en liten Miner (en del av de icke uppgraderade 5 %) ett ogiltigt block - vilket var en förväntad händelse. Tyvärr visade det sig att ungefär hälften av nätverkets Hash-frekvens var Mining utan fullständig validering av block (kallad SPV Mining), och byggde nya block ovanpå det ogiltiga blocket.
@@ -2115,7 +2115,7 @@ Tyvärr slutade inte historien om BIP66 där. När BIP66 aktiverades blev det ga
 Varningssidan instruerade människor att vänta på 30 ytterligare bekräftelser än de normalt skulle göra om de använde äldre versioner av Bitcoin Core.
 
 
-Den split som nämns ovan inträffade 2015-07-04 kl. 02:10 UTC efter blockhöjden [363730] (https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Detta problem löstes kl. 03:50 samma dag, efter att 6 ogiltiga block hade utvunnits. Tyvärr inträffade samma problem igen nästa dag, dvs. den 2015-07-05 kl. 21:50, men den här gången varade den ogiltiga grenen bara i 3 block.
+Den split som nämns ovan inträffade 2015-07-04 kl. 02:10 UTC efter blockhöjden [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Detta problem löstes kl. 03:50 samma dag, efter att 6 ogiltiga block hade utvunnits. Tyvärr inträffade samma problem igen nästa dag, dvs. den 2015-07-05 kl. 21:50, men den här gången varade den ogiltiga grenen bara i 3 block.
 
 
 ![](assets/bip66-timeline-3.webp)
@@ -2149,7 +2149,7 @@ Vi har tittat på några av de allvarligare problemen som har dykt upp genom år
 Dessa diskussionsfrågor är inte bara en sammanfattning av innehållet i "Bitcoin utvecklingsfilosofi", de är menade att uppmuntra dig att forska vidare så se till att gå ut och utforska.
 
 
-Du kan testa din förståelse genom att skriva en [mini-essä] (https://www.youtube.com/watch?v=N4YjXJVzoZY) på 100-300 ord genom att välja ett ämne i den här frågepoolen. Om du vill ha feedback på ditt arbete kan du skicka det till mini-essay@planb.network, så granskar vi det mer än gärna.
+Du kan testa din förståelse genom att skriva en [mini-essä](https://www.youtube.com/watch?v=N4YjXJVzoZY) på 100-300 ord genom att välja ett ämne i den här frågepoolen. Om du vill ha feedback på ditt arbete kan du skicka det till mini-essay@planb.network, så granskar vi det mer än gärna.
 
 
 #### Decentralisering
@@ -2219,7 +2219,7 @@ Du kan testa din förståelse genom att skriva en [mini-essä] (https://www.yout
 
 
 
-- Endast en handfull underhållare har de nödvändiga GitHub-behörigheterna för att slå samman kod till [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin) -förvaret. Är inte det i strid med ett tillståndlöst nätverk?
+- Endast en handfull underhållare har de nödvändiga GitHub-behörigheterna för att slå samman kod till [Bitcoin Core](https://github.com/Bitcoin/Bitcoin) -förvaret. Är inte det i strid med ett tillståndlöst nätverk?
 - Är utvecklingsprocessen med öppen källkod utsatt för en sybil-attack? Om så är fallet, hur skulle du motverka det?
 - Vilka är fördelarna och nackdelarna med att förlita sig på tredjepartsbibliotek med öppen källkod, och vad är tillvägagångssättet med Bitcoin Core?
 - På vilka sätt behöver vi granskning utöver bara kodgranskning? Hur avgör man hur mycket granskning som är tillräckligt?

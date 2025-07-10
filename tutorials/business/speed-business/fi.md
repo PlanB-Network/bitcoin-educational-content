@@ -94,7 +94,7 @@ When you deactivate test mode, you must configure your withdrawal portfolio.
 
 
 
-If you don't yet own a Bitcoin and/or Lightning Wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/Wallet).
+If you don't yet own a Bitcoin and/or Lightning Wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ You've got a good grasp of Speed, integrate Bitcoin into your business and devel
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

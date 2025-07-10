@@ -21,7 +21,7 @@ A continuación, he reunido los problemas más comunes con los que se encuentran
 Antes de entrar en materia, lo primero que hay que hacer es leer este tutorial sobre las acciones prácticas que hay que seguir en Github, bifurcando el repositorio Plan ₿ Network, confirmando cambios y enviando PR:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## ¿Qué es la corrección de pruebas?
@@ -60,7 +60,7 @@ En primer lugar, **recuerda SIEMPRE SINCRONIZAR tu repo, en la rama "dev "**. De
 
 
 
-Después de sincronizar con éxito, puede acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). De lo contrario, puede abrir una nueva rama donde trabajar, haciendo clic en "Ramas", como se muestra a continuación.
+Después de sincronizar con éxito, puede acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). De lo contrario, puede abrir una nueva rama donde trabajar, haciendo clic en "Ramas", como se muestra a continuación.
 
 
 
@@ -131,7 +131,7 @@ En el resultado final (imagen inferior) no se visualizará el enlace completo, y
 
 
 
-Tenga en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "red" (ejemplo: ``https://planb.network/en/resources/glossary/UTXO``-> aquí puede leer el código de idioma "en"). En este caso, **elimine el código de idioma del enlace**, como ha visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
+Tenga en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "red" (ejemplo: ``https://planb.network/en/resources/glossary/utxo``-> aquí puede leer el código de idioma "en"). En este caso, **elimine el código de idioma del enlace**, como ha visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
 
 
 El contenido del repositorio está lleno de hipervínculos como estos de arriba. Ahora que sabes lo que significan, **asegúrate de no borrar ningún enlace** insertado por el autor original.

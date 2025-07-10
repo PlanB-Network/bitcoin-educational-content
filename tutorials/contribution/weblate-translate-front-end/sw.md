@@ -18,7 +18,7 @@ Katika somo hili, tutakuonyesha jinsi ya kuchangia kwa urahisi katika tafsiri ya
 Ili kutafsiri maudhui ya elimu, tunatumia [akili bandia](https://github.com/Asi0Flammeus/LLM-Translator). Kisha, ili kurekebisha makosa ya baadaye katika faili hizi, tunawaalika wasahihishaji kuchangia. Ikiwa ungependa kusahihisha baadhi ya maudhui, soma mafunzo yafuatayo:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Kwa upande mwingine, ikiwa ungependa kutafsiri Elements tuli ya tovuti (bila kujumuisha maudhui ya elimu), uko mahali pazuri! Ili kutafsiri vyema mandhari ya mbele, tunatumia zana ya Wavuti, ambayo ni rahisi sana kutumia na kuwezesha mbinu ya kutafsiri.
 

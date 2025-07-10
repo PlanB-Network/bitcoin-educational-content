@@ -206,3 +206,4 @@ Dans la section **Business Settings** :
 Vous avez une bonne prise en main de Speed, intégrez Bitcoin dans votre commerce et développez votre économie locale circulaire basée sur Bitcoin. Si ce tutoriel vous a été utile, nous sommes convaincues que vous apprécierez tout autant notre tutoriel sur Swiss Bitcoin Pay.
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

@@ -21,7 +21,7 @@ Aqui em baixo, reuni os problemas mais comuns que os revisores encontram. Não h
 Antes de mergulhar nas especificidades, a primeira coisa a fazer é ler este tutorial sobre as acções práticas a seguir no Github, bifurcando o repositório Plan ₿ Network, submetendo alterações e enviando PRs:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## O que é a revisão de provas?
@@ -60,7 +60,7 @@ Antes de mais, **Lembre-se SEMPRE de SINCRONIZAR o seu repo, no ramo "dev "**. D
 
 
 
-Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
+Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
 
 
 
@@ -131,7 +131,7 @@ No resultado final (imagem abaixo), não visualizará a ligação completa e a p
 
 
 
-Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.network/en/resources/glossary/UTXO``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
+Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.network/en/resources/glossary/utxo``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
 
 
 O conteúdo do repositório está cheio de hiperligações como estas acima. Agora que sabe o que significam, **certifique-se de que não apaga nenhuma hiperligação** inserida pelo autor original.

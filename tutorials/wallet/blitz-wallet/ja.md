@@ -1,5 +1,5 @@
 ---
-名称：ブリッツWallet
+name: ブリッツWallet
 
 
 description: 最もシンプルなBitcoinポートフォリオ。

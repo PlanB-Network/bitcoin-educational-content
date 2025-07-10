@@ -6,6 +6,10 @@ description: Anleitung zur Einrichtung Ihres Ledger Nano S Geräts
 
 ![image](assets/cover.webp)
 
+*Ledger hat das Ende des Software-Supports für den klassischen Nano S ab dem 25. Juni 2025 angekündigt: Dieses Gerät erhält keine Sicherheitsupdates mehr und ist nicht mehr mit neuen Funktionen kompatibel, was seine Nutzer langfristig Sicherheitslücken und Inkompatibilitäten aussetzt. Die Gelder bleiben jedoch über die mnemonische Phrase zugänglich, dennoch wird dringend empfohlen, auf ein neueres Modell umzusteigen, um die Sicherheit und den dauerhaften Zugriff auf Ihre Bitcoins zu gewährleisten. Achtung, es handelt sich hier um den **alten Nano S** und nicht um den **Nano S Plus**, der weiterhin unterstützt wird.*
+
+___
+
 Kalter physischer Geldbeutel – 60 € – Anfänger – Zum Sichern von 2.000 € bis 50.000 €
 
 Ledger ist die französische Lösung zur sicheren Aufbewahrung von Bitcoins auf einfache Weise.

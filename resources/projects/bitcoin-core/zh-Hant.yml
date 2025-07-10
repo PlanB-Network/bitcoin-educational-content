@@ -1,0 +1,3 @@
+description: |
+  Bitcoin Core 是 Bitcoin 系統的開放原始碼參考軟體，至今仍是 Bitcoin 通訊協定的主要實作。它由一大群志願貢獻者開發和維護。最初命名為「Bitcoin Qt」，是 Bitcoin 歷史上繼 Satoshi Nakamoto 的 Bitcoin 和 bitcoind 之後的第三個用戶端。它由 Satoshi 的原始程式碼開發，並引進了圖形化使用者 Interface。值得注意的是，Bitcoin Core 的圖形化 Interface 至今仍被稱為 Bitcoin-qt。自 0.5 版以來，它一直與 bitcoind 一起提供。Bitcoin Core 有多種用途。首先，它充當 Full-node 客戶端。Bitcoin Core 也包含一個 Wallet，供希望直接與 Bitcoin Core 進行儲存、管理和交易的使用者使用。
+  

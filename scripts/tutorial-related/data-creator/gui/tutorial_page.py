@@ -5,7 +5,6 @@ from utils.data_loader import load_allowed_tags, load_all_builders
 from utils.file_ops import create_tutorial_files
 from gui.footer import create_footer
 
-
 class TutorialPage(ctk.CTkFrame):
     def __init__(self, parent, settings):
         super().__init__(parent)
@@ -15,10 +14,10 @@ class TutorialPage(ctk.CTkFrame):
         
         # Set this page as the active page
         self.master.active_page = self
-
+        
         # Retrieve saved tutorial data if available
         tutorial_data = self.settings.get("tutorial_data", {})
-
+        
         # Initialize variables with saved values if present
         self.section_var = ctk.StringVar(value=tutorial_data.get("section", ""))
         self.category_var = ctk.StringVar(value=tutorial_data.get("subcategory", ""))
@@ -26,12 +25,13 @@ class TutorialPage(ctk.CTkFrame):
         self.tutorial_name_var = ctk.StringVar(value=tutorial_data.get("tutorial_name", ""))
         self.builder_search_var = ctk.StringVar(value=tutorial_data.get("builder_search", ""))
         self.project_id_var = ctk.StringVar(value=tutorial_data.get("project_id", ""))
+        self.credit_link_var = ctk.StringVar(value=tutorial_data.get("credit_link", ""))
         self.tag1_var = ctk.StringVar(value=tutorial_data.get("tag1", ""))
         self.tag2_var = ctk.StringVar(value=tutorial_data.get("tag2", ""))
         self.tag3_var = ctk.StringVar(value=tutorial_data.get("tag3", ""))
         
         # Set up grid layout
-        total_rows = 12
+        total_rows = 13
         for i in range(total_rows):
             self.grid_rowconfigure(i, weight=1)
         for j in range(3):
@@ -89,19 +89,28 @@ class TutorialPage(ctk.CTkFrame):
         ctk.CTkEntry(self, textvariable=self.project_id_var, width=300, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
+        # Credit Link entry (optional)
+        ctk.CTkLabel(self, text="Credit Link (optional):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
+        ctk.CTkEntry(self, textvariable=self.credit_link_var, width=300, font=("Arial", 14, "bold"), placeholder_text="https://...").grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        row += 1
+        
         # Tags entry and suggestions with fixed width
         ctk.CTkLabel(self, text="Tags (2 or 3):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        
         num_tags = 3
         gap_width = 5
         tag_field_width = int((300 - (num_tags - 1) * gap_width) / num_tags * 1.8)
+        
         self.tag1_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag1_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_entry.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
         self.tag1_entry.bind("<KeyRelease>", self.update_tag1_suggestions)
+        
         self.tag2_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag2_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_entry.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
         self.tag2_entry.bind("<KeyRelease>", self.update_tag2_suggestions)
+        
         self.tag3_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag3_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_entry.grid(row=0, column=2, sticky="ew")
         self.tag3_entry.bind("<KeyRelease>", self.update_tag3_suggestions)
@@ -110,12 +119,16 @@ class TutorialPage(ctk.CTkFrame):
         ctk.CTkLabel(self, text="Tag Suggestions:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         tag_suggestion_frame = ctk.CTkFrame(self, width=300)
         tag_suggestion_frame.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        
         self.tag1_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_suggestions_menu.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
+        
         self.tag2_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_suggestions_menu.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
+        
         self.tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_suggestions_menu.grid(row=0, column=2, sticky="ew")
+        
         self.update_tag1_suggestions()
         self.update_tag2_suggestions()
         self.update_tag3_suggestions()
@@ -124,6 +137,7 @@ class TutorialPage(ctk.CTkFrame):
         # Buttons for Create, Clear, and Back actions
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=3, pady=20, sticky="ew")
+        
         ctk.CTkButton(button_frame, text="Create Tutorial", command=self.create_tutorial, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
         ctk.CTkButton(button_frame, text="Clear", command=self.clear_fields, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
         ctk.CTkButton(button_frame, text="Back", command=self.go_back, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
@@ -199,17 +213,18 @@ class TutorialPage(ctk.CTkFrame):
         self.tag3_var.set(selected_tag)
     
     def update_local_state(self):
-        self.settings["project_data"] = {
-            "folder_name": self.folder_name_var.get(),
-            "project_name": self.project_name_var.get(),
-            "website": self.website_var.get(),
-            "twitter": self.twitter_var.get(),
-            "category": self.category_var.get(),
+        """Save current tutorial data for later reuse."""
+        self.settings["tutorial_data"] = {
+            "section": self.section_menu.get(),
+            "subcategory": self.category_menu.get(),
+            "difficulty": self.level_menu.get(),
+            "tutorial_name": self.tutorial_name_var.get(),
+            "builder_search": self.builder_search_var.get(),
+            "project_id": self.project_id_var.get(),
+            "credit_link": self.credit_link_var.get(),
             "tag1": self.tag1_var.get(),
             "tag2": self.tag2_var.get(),
-            "tag3": self.tag3_var.get(),
-            "image_path": self.image_path_var.get(),
-            "description": self.description_textbox.get("1.0", "end").strip()
+            "tag3": self.tag3_var.get()
         }
     
     def select_image(self):
@@ -224,12 +239,15 @@ class TutorialPage(ctk.CTkFrame):
         if not self.base_path:
             messagebox.showerror("Error", "Please select the local base path for the repository.")
             return
+        
         if not self.section_menu.get():
             messagebox.showerror("Error", "Please select the tutorial section.")
             return
+        
         if not self.tutorial_name_var.get():
             messagebox.showerror("Error", "Please enter the folder name for the tutorial.")
             return
+        
         project_id = self.project_id_var.get().strip()
         if not project_id:
             messagebox.showerror("Error", "Please enter the project's ID (UUID).")
@@ -244,14 +262,17 @@ class TutorialPage(ctk.CTkFrame):
         if len(tags) < 2:
             messagebox.showerror("Error", "Please enter at least two tags for the tutorial.")
             return
+        
         if len(set(tags)) != len(tags):
             messagebox.showerror("Error", "Duplicate tags detected. Please ensure all tags are unique.")
             return
+        
         allowed_tags = load_allowed_tags(self.base_path)
         for tag in tags:
             if tag not in allowed_tags:
                 messagebox.showerror("Error", f"Tag '{tag}' is not valid. Please select a valid tag from the suggestions.")
                 return
+        
         if not self.category_menu.get():
             messagebox.showerror("Error", "Please select the subcategory.")
             return
@@ -261,15 +282,20 @@ class TutorialPage(ctk.CTkFrame):
         if not language:
             messagebox.showerror("Error", "Global language setting is missing.")
             return
+        
         language_code = language.split(" ")[0]
         contributor_id = self.settings.get("contributor_id", "").strip()
         professor_id = self.settings.get("professor_id", "").strip()
+        
         if not contributor_id:
             messagebox.showerror("Error", "Global contributor's GitHub ID is missing.")
             return
+        
         if not professor_id:
             messagebox.showerror("Error", "Global PBN professor's ID is missing.")
             return
+        
+        credit_link = self.credit_link_var.get().strip()
         
         try:
             tutorial_path = create_tutorial_files(
@@ -282,7 +308,8 @@ class TutorialPage(ctk.CTkFrame):
                 category_value=self.category_menu.get(),
                 level_value=self.level_menu.get(),
                 professor_id=professor_id,
-                contributor_id=contributor_id
+                contributor_id=contributor_id,
+                credit_link=credit_link
             )
             messagebox.showinfo("Success", f"Tutorial successfully created in the folder:\n{tutorial_path}")
         except Exception as e:
@@ -298,23 +325,10 @@ class TutorialPage(ctk.CTkFrame):
             self.builder_search_var.set("")
             self.builder_suggestions_menu.set("")
             self.project_id_var.set("")
+            self.credit_link_var.set("")
             self.tag1_var.set("")
             self.tag2_var.set("")
             self.tag3_var.set("")
-    
-    def update_local_state(self):
-        """Save current tutorial data for later reuse."""
-        self.settings["tutorial_data"] = {
-            "section": self.section_menu.get(),
-            "subcategory": self.category_menu.get(),
-            "difficulty": self.level_menu.get(),
-            "tutorial_name": self.tutorial_name_var.get(),
-            "builder_search": self.builder_search_var.get(),
-            "project_id": self.project_id_var.get(),
-            "tag1": self.tag1_var.get(),
-            "tag2": self.tag2_var.get(),
-            "tag3": self.tag3_var.get()
-        }
     
     def go_back(self):
         # Save state before returning to home page

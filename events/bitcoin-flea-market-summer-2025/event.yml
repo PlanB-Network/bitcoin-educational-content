@@ -1,11 +1,11 @@
-id: 5c19f614-68c0-46a4-a358-03492b5fccb0
-start_date: 2025-07-20 14:00:00
-end_date: 2025-07-20 18:30:00
-timezone: Asia/Bangkok (ICT), UTC+7:00
+id: 04349067-93de-42f7-9527-62e755f2830d
+start_date: 2025-07-20 09:00:00
+end_date: 2025-07-20 13:30:00
+timezone: Asia/Bangkok
 address_city_country: Ho Chi Minh City, Viet Nam
 address_line_2: Funk Factory - 10 An Phu, Thu Duc
 name: Bitcoin Saigon Satoshi Flea Market - Summer 2025 edition
-type: market
+type: meetup
 description: A bi-annual gathering celebrating Bitcoin's ethos through community, crafts, and culture in the heart of Saigon
 language:
   - en
@@ -14,6 +14,6 @@ links:
   website: https://bitcoinsaigon.org/support-upcoming-satoshi-flea-market-saigon-summer-2025/
 project_id: 6113273c-8b76-4021-81a5-0b6746db6b0d
 tags:
-  - Circular economy
+  - use-case
   - adoption
-  - Vietnam
+  - lightning

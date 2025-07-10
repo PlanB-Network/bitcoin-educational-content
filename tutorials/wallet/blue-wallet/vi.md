@@ -11,7 +11,7 @@ Bắt đầu với Bitcoin có vẻ là một thách thức lớn đối với n
 
 
 
-Trong hướng dẫn này, chúng ta sẽ xem xét Blue Wallet, một Bitcoin Wallet đơn giản nhưng cực kỳ hiệu quả, cho phép bạn tự quản lý bitcoin của mình và cũng tạo ra các hợp tác xã quản lý dựa trên [Multisig](https://planb.network/resources/glossary/Multisig) (đừng lo, chúng ta sẽ quay lại vấn đề này).
+Trong hướng dẫn này, chúng ta sẽ xem xét Blue Wallet, một Bitcoin Wallet đơn giản nhưng cực kỳ hiệu quả, cho phép bạn tự quản lý bitcoin của mình và cũng tạo ra các hợp tác xã quản lý dựa trên [Multisig](https://planb.network/resources/glossary/multisig) (đừng lo, chúng ta sẽ quay lại vấn đề này).
 
 
 
@@ -264,7 +264,7 @@ Khi xác thực giao dịch của bạn, bạn sẽ cần chữ ký thứ hai đ
 
 
 
-Người ký Wallet thứ hai, nếu người đó cũng là người dùng, có thể ký giao dịch ngay cả khi người đó không có kết nối Internet (không có Wi-Fi, không có dữ liệu di động) bằng cách quét mã QR của [giao dịch đã ký một phần](https://planb.network/resources/glossary/PSBT) mà bạn vừa tạo.
+Người ký Wallet thứ hai, nếu người đó cũng là người dùng, có thể ký giao dịch ngay cả khi người đó không có kết nối Internet (không có Wi-Fi, không có dữ liệu di động) bằng cách quét mã QR của [giao dịch đã ký một phần](https://planb.network/resources/glossary/psbt) mà bạn vừa tạo.
 
 
 

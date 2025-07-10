@@ -11,18 +11,19 @@ objectives:
 
 # L’essentiel pour naviguer dans l’univers IP
 
+Plongez au cœur de l’univers IP et donnez-vous les moyens de comprendre et d’administrer efficacement vos réseaux. Dans ce cours, vous découvrirez de manière claire et concrète tout ce qu’il faut savoir sur les réseaux informatiques.
+
+Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vous apprendrez également à distinguer IPv4 et IPv6, à identifier et utiliser les différentes catégories d’adresses (publiques, privées, unicast, broadcast…), et à saisir toute l’importance du protocole TCP/IP et des liens qu’il tisse entre adresses IP, adresses physiques et noms DNS.
+
+Pour aller plus loin, vous découvrirez en fin de cours les principaux outils de diagnostic réseau : analyser, auditer, ajuster… vous saurez enfin agir avec méthode et précision sur vos équipements.
+
+NET 201 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
+
+Rejoignez-nous et transformez vos connaissances en véritable expertise opérationnelle !
 
 ___
-Ce cours NET 201 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International (CC BY-SA 4.0). Des modifications substantielles ont été apportées à la version originale.
+Ce cours NET 201 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International (CC BY-SA 4.0). Des modifications substantielles ont été apportées à la version originale par Loïc Morel : le texte original a été intégralement réécrit, développé et enrichi afin d’offrir un contenu actualisé et approfondi, tout en conservant l’esprit pédagogique de la version initiale de Philippe Pierre.
 ___
-
-Dans ce cours, je vous propose de décrire le fonctionnement de l’adressage IP, brique de base de nos architectures et de nos équipements en réseau. On va notamment balayer le protocole TCP/IP afin de voir quelle(s) relation(s) entretiennent ces fameuses adresses IP avec d’un côté les adresses physiques et de l’autre, les noms de machine, enregistrés dans les DNS.
-
-On essaiera de voir les différences entre IPv4 et IPv6, et, pour chacun de ces protocoles on expliquera les différents types d’adresses : privée, publique, broadcast, unicast…
-
-Je propose de terminer ce tour d’horizon par un récapitulatif des différents outils de diagnostic d’un réseau, permettant d’analyser, d’auditer mais également de modifier le comportement de celui-ci.
-
-Ce cours s’adresse principalement aux informaticiens et linuxiens ou étudiants ayant quelques notions en réseau et souhaitant approfondir leurs connaissances et mieux maitriser la gestion et l’administration des équipements connectés sur des environnements de type Unix/Linux.
 
 +++
 
@@ -68,107 +69,107 @@ Prêt à plonger dans l’univers des réseaux informatiques ? Allons-y !
 ## Qu’est-ce qu’un réseau ?
 <chapterId>7370904f-f8f5-4ad4-a63a-5931d94c3b3b</chapterId>
 
+Dans ce premier module, nous allons présenter de manière approfondie le fonctionnement du protocole TCP/IP, pierre angulaire de nos communications numériques modernes. Nous y aborderons notamment ses origines, ses principes fondamentaux et le système d’adressage qui en découle, indispensable pour garantir la circulation de l’information entre les différents équipements connectés.
 
-Ce premier module se propose de décrire de façon approfondie le fonctionnement du protocole TCP/IP. Nous verrons notamment les origines de ce mécanisme d’échange ainsi que l’adressage associé.
+Nous détaillerons également les principaux composants qui structurent ce modèle et expliquerons comment ces éléments interagissent pour former un réseau opérationnel, fiable et extensible. Mais avant toute chose, il est essentiel de revenir à la notion même de réseau.
 
-On décrira ici les différents composants et comment s’articule le modèle TCP/IP. Les principales définitions seront posées afin d’avoir une meilleure compréhension du fonctionnement de ce modèle et surtout quels sont les périphériques accédés. Mais commençons d'abord par revoir ce qu'est un réseau.
+Étymologiquement, un réseau désigne un ensemble de points reliés entre eux par des liens, formant une structure interconnectée. Dans le domaine des télécommunications et de l’informatique, cette définition se traduit concrètement par un regroupement d’équipements (ordinateurs, routeurs, commutateurs, points d’accès...) capables d’échanger des données par l’intermédiaire de supports physiques ou sans fil. Un réseau permet ainsi la circulation d’informations de manière continue ou intermittente, selon les besoins, les protocoles utilisés et la nature de l’architecture déployée.
 
-Un réseau au sens étymologique représente un ensemble de points entrelacés par un ensemble de relations. Par extension, cela désigne un ensemble interconnecté d’équipements et de leurs relations, autorisant la circulation en continu ou discontinue. On va ainsi trouver différents types de réseaux :
-
-- Réseau en anneau
-- Réseau en arbre
-- Réseau en bus
-- Réseau en étoile
-- Réseau maillé
+Au fil du temps, différentes topologies se sont imposées pour répondre à des besoins spécifiques en termes de coût, de performance, de résilience ou encore de facilité de maintenance. Parmi ces topologies classiques, on retrouve notamment :
+- le réseau en anneau,
+- le réseau en arbre,
+- le réseau en bus,
+- le réseau en étoile,
+- le réseau maillé.
 
 ### Réseau en anneau
 
-On dit d’un réseau que sa topologie est en anneau, lorsque toutes les stations, ou les équipements, sont connectés en chaine les uns aux autres par une liaison bipoint de la dernière à la première. Chaque poste joue le rôle de station intermédiaire. Toute trame émise depuis une station est réémise vers la suivante. La défaillance d’un hôte rompt la chaîne.
+Une topologie en anneau se caractérise par une connexion des équipements selon une boucle fermée : chaque station est reliée à la suivante jusqu’à ce que la dernière soit connectée à la première. Dans ce schéma, chaque équipement agit comme un relais pour transmettre les données au maillon suivant, ce qui permet à l’information de circuler dans un seul sens ou parfois dans les deux sens selon le type de réseau.
+
+L’avantage d’une telle organisation réside dans la simplicité de son câblage et dans l’absence de dépendance vis-à-vis d’un équipement central. Toutefois, la continuité du réseau repose sur la bonne santé de chaque élément : la défaillance d’un seul poste peut interrompre l’ensemble de la communication, ce qui impose souvent la mise en place de mécanismes de redondance ou de contournement.
 
 ![Image](assets/fr/001.webp)
 
-
 ### Réseau en arbre
 
-On parle aussi de réseau hiérarchique, car l’architecture est divisée en niveaux. Le sommet représente la racine ou le sommet et est connecté à plusieurs nœuds du niveau inférieur. Ces nœuds peuvent également être connectés à un ou plusieurs nœuds du niveau inférieur… Le tout forme un arbre. Là encore, si le père des équipements (le sommet de l’arbre), vient à défaillir, cela interdit toute communication avec ses subordonnés.
+Le réseau en arbre, ou topologie hiérarchique, s’inspire directement de la structure d’un arbre généalogique. Il est constitué de niveaux successifs : un nœud racine situé au sommet dessert plusieurs nœuds de rang inférieur, eux-mêmes pouvant alimenter d’autres nœuds et ainsi de suite.
+
+Cette organisation hiérarchique est particulièrement adaptée aux réseaux étendus nécessitant une répartition claire des responsabilités et une gestion segmentée. Toutefois, cette structuration rend le réseau vulnérable à la défaillance des nœuds supérieurs : la perte du sommet ou d’un branchement principal peut priver de connectivité une partie entière de l’infrastructure.
 
 ![Image](assets/fr/002.webp)
 
 ### Réseau en bus
 
-Le câblage ici s’effectue via une liaison unique des unités. Cela représente un faible coût de déploiement et la défaillance d’un nœud, n’empêche pas les autres de fonctionner. Les équipements peuvent être reliés de façon passive par dérivation électrique ou optique. Le point faible, dans ce cas, est le support (ou média) de transfert. Lorsque celui-ci tombe en panne, c’est tout le réseau qui s’arrête.
+Dans une topologie en bus, tous les équipements partagent un même support de transmission, généralement une ligne coaxiale ou une fibre optique. Chaque unité est connectée de manière passive, sans modification active du signal, et peut émettre ou recevoir des données sur ce canal commun.
+
+Le principal avantage d’un réseau en bus est son coût d’installation réduit grâce à un câblage simplifié. De plus, la panne d’un poste isolé ne compromet pas la communication des autres. En revanche, le support physique unique représente un point critique : toute coupure ou dysfonctionnement de ce média entraîne l’arrêt complet du trafic pour l’ensemble du réseau.
 
 ![Image](assets/fr/003.webp)
 
 ### Réseau en étoile
 
-Ce genre d’architecture est également appelé "_hub & spoke_". C’est la topologie la plus courante. Elle permet une gestion et un dépannage très facile. La panne d’un nœud ne perturbe absolument par le réseau global. En revanche, le concentrateur (aussi appelé hub ou plus fréquemment appelé commutateur), qui relie tous les nœuds entre eux, constitue un point unique de défaillance. Une panne de cet équipement rend le réseau totalement inutilisable. Le réseau Ethernet est un très bon exemple de réseau en étoile. Il faut toujours veiller, par contre à la longueur des câbles utilisés.
+La topologie en étoile, appelée "*hub and spoke*", est aujourd’hui la plus répandue, notamment grâce au réseau Ethernet domestique et professionnel. Tous les périphériques y sont reliés à un équipement central.
+
+Cette disposition offre une grande facilité de gestion et de maintenance : la défaillance d’un nœud périphérique n’affecte pas la totalité du réseau. En revanche, le dispositif central représente un point de défaillance unique : sa panne entraîne l’arrêt global de la communication. Il convient également de veiller à la qualité du câblage et à la longueur des liaisons afin d’assurer des performances optimales.
 
 ![Image](assets/fr/004.webp)
 
-
-**REMARQUE** : on trouve encore dans certains cas une topologie de réseau linéaire. Son énorme avantage est son faible coût de déploiement, mais la défaillance d’un nœud provoque la scission du réseau en deux sous-réseaux distincts.
+**Remarque** : il existe encore des réseaux organisés selon une topologie linéaire, proche du bus, où les équipements sont raccordés les uns à la suite des autres. Cette solution, bien que peu coûteuse à déployer, présente l’inconvénient majeur qu’une seule rupture isole une partie des hôtes et scinde le réseau en sous-ensembles indépendants.
 
 ### Réseau maillé
 
-Cela correspond à plusieurs liaisons point à point où chaque unité est reliée à N-1 point permettant ainsi de la mettre en relation avec l’ensemble des autres équipements. L’inconvénient de cette architecture est le nombre de liaisons nécessaires qui croient lorsque le nombre de points augmente : pour `N` terminaux, il faut `N x (N-1) / 2` liaisons. Ce genre de topologie se rencontre dans les grands réseaux de distribution, comme Internet.
+Le réseau maillé est conçu pour offrir une redondance maximale : chaque équipement est directement relié à tous les autres. Une telle organisation garantit une continuité de service même en cas de défaillance de plusieurs liens ou hôtes, car le trafic peut être redirigé par des chemins alternatifs.
+
+En contrepartie, le nombre de connexions à établir croît rapidement avec le nombre de terminaux. Pour `N` points de connexion, il faut prévoir `N × (N-1) / 2` liaisons distinctes, ce qui rend cette topologie coûteuse et complexe à mettre en place. Elle est donc réservée aux réseaux critiques nécessitant une haute disponibilité, comme certains segments d’Internet ou des infrastructures industrielles sensibles.
 
 ![Image](assets/fr/005.webp)
 
-Il existe évidemment un certain nombre d’autres topologies, comme le réseau en grille ou le réseau en hyper cube. En fait, Internet est le nom donné à l’interconnexion de nombreux réseaux ayant des topologies différentes. L’unification se fait au niveau de l’adressage IP (qu’il s’agisse de IPv4 ou IPv6) et d’un très grand nombre de règles et de protocoles définis par l’IETF. Ainsi, aucun des cas de topologies mentionnés ci-dessus ne correspond. Comme la majorité des grands réseaux, on dit d’Internet que sa topologie est quelconque et indépendante du plan d’adressage qui y est défini.
+Il existe par ailleurs d’autres variantes topologiques, telles que les réseaux en grille ou en hypercube, qui répondent à des besoins spécifiques en matière de calcul distribué ou de traitement parallèle.
+
+À l’échelle mondiale, Internet se présente comme une interconnexion massive de réseaux utilisant des topologies diverses, unifiés par un adressage commun (IPv4 et IPv6) et une collection de protocoles normalisés définis par l’IETF (*Internet Engineering Task Force*). C’est cette hétérogénéité qui fait dire qu’Internet n’obéit à aucune topologie unique : sa structure est souple, évolutive et indépendante du schéma d’adressage logique qui la rend exploitable.
 
 ## Les origines de TCP/IP
 <chapterId>266b6864-8789-48d7-bc85-001cb9f1651f</chapterId>
 
-A l’origine de TCP, il y avait le **DARPA** (_Defense Advanced Research Project Agency_), qui a initié le projet ARPANET, dans les années 1970. C’est ce même organisme qui a alors financé la célèbre université de Berkeley afin d’intégrer les protocoles de base de TCP/IP, au sein du système Unix BSD-4.
+À l’origine du protocole TCP, on trouve la **DARPA** (*Defense Advanced Research Projects Agency*), une agence de recherche et développement du département de la Défense des États-Unis, qui initia dans les années 1970 le projet ARPANET. Ce projet visait à relier entre eux des centres de recherche et des universités par un réseau capable de résister aux coupures physiques et d’assurer la transmission fiable des données, même en cas de défaillance partielle de l’infrastructure.
 
-**REMARQUE** : dans les années 70, on ne parlait pas encore de Linux, et, à peine plus de Minix, le système d’Andrew TANNENBAUM. Les informaticiens de l’époque n’avaient comme choix de système, qu’Unix (voire aussi OpenVMS), et/ou les systèmes centraux.
+Dans cette dynamique, la DARPA finança notamment l'université de Berkeley afin d’intégrer les premiers protocoles TCP/IP au sein de son système Unix BSD, ce qui a contribué à la diffusion et à la normalisation de ce protocole dans le monde académique et plus tard dans le monde industriel.
 
-Le protocole TCP/IP (on devrait d’ailleurs parler de duo de protocoles), s’est popularisé grâce à son interface générique de programmation d’échange de données entre machine d’un même réseau, à base de primitives sockets, et aussi grâce à l’intégration de protocoles applicatifs.
+**Remarque** : à cette époque, les informaticiens ne disposaient pas encore de Linux, qui ne verra le jour qu’au début des années 1990, ni même réellement de Minix, le système éducatif conçu par Andrew TANNENBAUM. Les options se limitaient essentiellement à Unix, ou parfois à des systèmes centraux propriétaires comme OpenVMS. Unix, grâce à sa souplesse et son ouverture, joua donc un rôle essentiel dans la propagation des premiers concepts de mise en réseau.
 
-**RAPPEL** : Le projet ARPANET est le père fondateur de ce que l’on connaît aujourd’hui sous l’appellation d’Internet. De plus, il est rappelé qu’Internet est un réseau de type commutation de paquets, accessible au public et où l’information est transmise grâce à un ensemble standardisé de protocoles de transfert de données, permettant, entre autres, l’élaboration d’applications et de services variés tels que :
+Le protocole TCP/IP (qui devrait plus justement être désigné comme une suite de protocoles articulés autour de TCP et IP) s’est imposé grâce à sa capacité à offrir une interface de programmation standardisée pour l’échange de données entre machines sur un même réseau. Cette interface qui repose sur l’utilisation de primitives appelées "*sockets*", facilite la création de connexions fiables et flexibles, tout en intégrant des protocoles applicatifs essentiels.
 
-- Courrier électronique  
-- World Wide Web (aussi abrégé en www)  
-- Transfert de fichiers  
-- Partage de fichiers
+ARPANET constitue donc le socle historique de l’Internet moderne. En effet, Internet est un réseau mondial fondé sur le principe de la commutation de paquets, où l’information circule au moyen d’un ensemble de protocoles standardisés qui assurent la compatibilité et l’interopérabilité entre des systèmes hétérogènes. Cette architecture ouverte permet le développement et l’exploitation de nombreux services et applications, parmi lesquels :
+- les emails,
+- le World Wide Web (www),
+- le transfert et le partage de fichiers...
 
-C’est l’organisme Internet Architecture Board (abrégé en IAB) qui, au travers de ses deux bureaux, ci-dessous, pilote la supervision et l’intégration de ces protocoles réseau :
+La gouvernance et l’évolution de ces protocoles sont supervisées par l’***Internet Architecture Board*** (IAB). Cet organisme coordonne les orientations techniques par l’intermédiaire de deux structures principales :
+- **IRTF** (_Internet Research Task Force_), qui mène des recherches de fond sur l’évolution et l’amélioration des protocoles ;
+- **IETF** (_Internet Engineering Task Force_), qui élabore, standardise et documente les protocoles opérationnels déployés sur Internet.
 
-- **IRTF** (**I**nternet **R**esearch **T**ask **F**orce) : chargé du développement des protocoles  
-- **IETF** (**I**nternet **E**ngineering **T**ask **F**orce) : chargé du réseau Internet
+Pour la distribution des ressources réseau, telles que les plages d’adresses IP ou les noms de domaine, des organismes spécifiques interviennent. À l’échelle internationale, ces missions sont assurées par le **NIC** (_Network Information Center_), tandis qu’en France par exemple, l’**INRIA** (_Institut National de Recherche en Informatique et en Automatique_) y contribue également pour la gestion et l’attribution de certaines ressources nationales.
 
-Les adresses réseau référencées, sont distribuées par le **NIC** (_**N**etwork **I**nformation **C**enter_) et en France, par l’**INRIA** (_**I**nstitut **N**ational des **R**echerches en **I**nformatique et des **A**utomatismes_). L’ensemble des protocoles TCP/IP est décrit au sein de documents de type **RFC** (_**R**equest **F**or **C**omments_) dont la numérotation est RFC973.
+L’ensemble des spécifications des protocoles TCP/IP est consigné dans des documents appelés **RFC** (_Request For Comments_), véritables références techniques, dont la numérotation est en perpétuelle évolution pour refléter l’enrichissement constant de la suite protocolaire.
 
-La pile TCP/IP est le plus souvent représentée sous forme d’un empilement de quatre couches que l’on superpose au modèle **OSI** (_**O**pen **S**ystems **I**nterconnection_) conçu par l’**ISO** (_**I**nternational **S**tandards **O**rganization_) à sept couches et à la base des autres systèmes de réseau :
+La pile TCP/IP est souvent représentée comme un empilement de quatre couches fonctionnelles, parfois mises en parallèle avec le modèle **OSI** (_Open Systems Interconnection_) élaboré par l’**ISO** (_International Standards Organization_), qui compte sept couches et constitue une référence conceptuelle en matière de réseaux.
 
-- Couche ACCÈS RÉSEAU  
-- Couche INTERNET  
-- Couche TRANSPORT  
-- Couche APPLICATION
+On distingue ainsi dans la pile TCP/IP :
+- la couche ACCÈS RÉSEAU, qui assure la liaison physique et les protocoles de contrôle d’accès au média ;
+- la couche INTERNET, qui prend en charge le routage et l’adressage IP ;
+- la couche TRANSPORT, qui garantit la fiabilité et la gestion des flux de données grâce à des protocoles tels que TCP ou UDP ;
+- la couche APPLICATION, qui regroupe les protocoles destinés aux utilisateurs et aux logiciels comme HTTP, FTP, SMTP ou encore DNS.
 
 ![Image](assets/fr/006.webp)
 
-L’actuelle version du protocole IP est IPv4. Mais, le futur s’appuiera probablement sur IPv6, qui reste compatible avec la version actuelle et propose un adressage, sur 128 bits, permettant alors d’étendre les capacités réseau, en matière de taille et d’adressage.
+Aujourd’hui, la version la plus utilisée du protocole IP est IPv4, mais ses limitations en matière d’adressage (32 bits) ont conduit à l’élaboration de la version IPv6. Cette dernière, avec son adressage sur 128 bits, offre une capacité quasi illimitée, essentielle pour accompagner l’expansion fulgurante des équipements connectés et répondre aux enjeux de l’Internet des objets, de la mobilité et de la sécurité.
 
-En termes d’actions aux périphériques et aux applications, chaque couche apporte son lot de services permettant de traiter les différents problèmes sous-jacents :
+Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de traiter de manière modulaire les différentes problématiques : transmission physique, adressage logique, intégrité des échanges et services applicatifs.
 
 ![Image](assets/fr/056.webp)
 
-## Le protocole QoS IPv5
-<chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
 
-L’entête du paquet IP contient plusieurs champs avec un rôle précis lors de la lecture et l’acheminement des paquets. On y trouve notamment l’adresse du destinataire du paquet, la taille de l’entête et bien d’autres renseignements. Le premier de ces champs s’intitule "Version" et fait 4 bits de longueur. Comme semble l’indiquer son intitulé, il sert à connaître la version du protocole utilisé.
 
-**REMARQUE** : c’est l’IANA (_Internet Assigned Numbers Authority_), un organisme d’autorité et de régulation de l’Internet, qui attribue un nombre (parmi les 24 valeurs possibles), pour chaque nouvelle version de protocole d’interconnexion. Si l’on consulte le tableau des versions actuelles on découvre ceci :
-
-![Image](assets/fr/007.webp)
-
-Ainsi, la version IPv5 a bien existé et s’apparente à un protocole ST (_Stream Protocol_) plus spécifiquement orienté **Qualité de Service** (ou QoS). Il s’agit d’un protocole expérimental, ayant vu le jour dans les années 80. Seuls, quelques équipements réseau géraient ce protocole. Il s’agissait de garantir de bout-en-bout, une qualité de service, très similaire à ce que fait RSVP (_Resource Reservation Protocol_) sur les routeurs actuels.
-
-Ceci a eu pour effet que, lorsqu’il a fallu concevoir la nouvelle génération de protocole IP, la demande d’adresse était telle, qu’il a donc été décidé de passer de la version IPv4 à la version IPv6, en évitant, de fait, les problèmes d’incompatibilité. Le protocole IPv5 a donc existé, mais a été très vite abandonné car, il n’a pas connu le succès espéré.
-
-**RAPPEL** : **un protocole consiste à définir les règles de communication** : c’est-à-dire les structures de données et les algorithmes, alors que le service (au travers de primitives de services, écoutant sur un ou plusieurs particuliers), représente l’implémentation d’un protocole. Cela revient le plus souvent à établir un logiciel client et un logiciel serveur. On peut maintenant voir le protocole IP.
 
 
 ## Le protocole IP

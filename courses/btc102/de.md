@@ -1424,14 +1424,14 @@ KYC-Plattformen sammeln Ihre persönlichen Daten unter dem Deckmantel der Sicher
 
 Es gibt jedoch Alternativen, um Bitcoins zu erwerben, ohne sich der KYC zu unterwerfen:
 
-xxxx
+
 
 - P2P Kaufplattformen wie Bisq, Robosat, LNP2PBot, Peach, HODL, usw. ;
 - Direkte Barkäufe, zum Beispiel bei lokalen Bitcoin-Treffen;
 - Geregelte Kaufplattformen ohne KYC, die zwar selten, aber in bestimmten Ländern verfügbar sind;
-- Bitcoin Geldautomaten;
-- Arbeiten in Exchange für Bitcoins;
-- Mining Bitcoins.
+- Bitcoin-Geldautomaten;
+- Arbeiten für Bitcoins;
+- Bitcoin-Mining.
 
 
 Es gibt verschiedene Arten von Plattformen, die jeweils für bestimmte Zwecke geeignet sind:
@@ -1439,10 +1439,10 @@ Es gibt verschiedene Arten von Plattformen, die jeweils für bestimmte Zwecke ge
 
 
 
-- Peer-to-Peer-Plattformen Exchange (P2P)**
+- Peer-to-Peer Tausch-Plattformen (P2P)**
 
 
-Diese Plattformen ermöglichen es den Nutzern, Bitcoins direkt miteinander zu kaufen und zu verkaufen, ohne dass ein zentraler Vermittler zwischengeschaltet ist. Sie bieten mehr Privatsphäre, insbesondere weil sie ohne KYC arbeiten. Sie können lokale Verkäufer finden, mit denen Sie persönliche Transaktionen durchführen oder verschiedene Online-Zahlungsmethoden (SEPA, Revolut, Wise usw.) verwenden können.
+Diese Plattformen ermöglichen es den Nutzern, Bitcoins direkt miteinander handeln, ohne dass ein zentraler Vermittler dazwischengeschaltet ist. Sie bieten mehr Privatsphäre, insbesondere weil sie ohne KYC arbeiten. Sie können lokale Verkäufer finden, mit denen Sie persönliche Transaktionen durchführen oder verschiedene Online-Zahlungsmethoden (SEPA, Revolut, Wise usw.) verwenden können.
 
 
 **Vorsicht:** Wählen Sie für jede physische Transaktion einen öffentlichen und sicheren Ort, um möglichen Betrug zu vermeiden.
@@ -1477,7 +1477,7 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 - Universell einsetzbare oder handelsorientierte Exchange-Plattformen**
 
 
-Diese Plattformen bieten fortgeschrittene Funktionen, die über den einfachen Kauf von Bitcoin hinausgehen, einschließlich Hebelwirkung und Derivate. Wir raten jedoch dringend vom Handel ab. Stattdessen empfehlen wir, Bitcoin zu kaufen und es in Ihr eigenes Wallet zu übertragen. Der Handel ist eine risikoreiche Tätigkeit und im Allgemeinen nicht für diejenigen geeignet, die auf eine langfristige Akkumulation ausgerichtet sind. Sich aus dem Handel herauszuhalten, ist oft der klügere Weg.
+Diese Plattformen bieten fortgeschrittene Funktionen, die über den einfachen Kauf von Bitcoin hinausgehen, einschließlich Nutzung von Hebelwirkung (Leverage) und Derivaten. Wir raten jedoch dringend vom 'Trading' ab. Stattdessen empfehlen wir, Bitcoin zu kaufen und es in Ihr eigenes Wallet zu übertragen. 'Trading' ist eine risikoreiche Tätigkeit und im Allgemeinen nicht für diejenigen geeignet, die auf eine langfristige Akkumulation ausgerichtet sind. Sich aus dem 'Trading' herauszuhalten, ist oft der klügere Weg.
 
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
@@ -1492,9 +1492,9 @@ https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-
 
 
 
-- Hacking**: Viele Bitcoins wurden von kompromittierten Plattformen (z. B. MtGox) gestohlen;
-- Staatliche Beschlagnahmung**: Eine Regierung kann eine Plattform abschalten und die Gelder ihrer Nutzer einfrieren;
-- Konkurs oder Betrug**: Zahlreiche Plattformen sind mit dem Geld ihrer Kunden verschwunden (z.B. FTX).
+- Hacking: Viele Bitcoins wurden von kompromittierten Plattformen (z.B. MtGox) gestohlen;
+- Staatliche Beschlagnahmung: Eine Regierung kann eine Plattform abschalten und die Gelder ihrer Nutzer einfrieren;
+- Konkurs oder Betrug: Zahlreiche Plattformen sind mit dem Geld ihrer Kunden verschwunden (z.B. FTX).
 
 
 Die goldene Regel ist einfach: **Wenn Sie Ihre privaten Schlüssel nicht besitzen, besitzen Sie Ihre Bitcoins nicht wirklich**. Heben Sie Ihr Geld immer so schnell wie möglich auf ein persönliches Wallet ab, um die vollständige Souveränität über Ihr Geld zu gewährleisten.
@@ -1506,7 +1506,7 @@ Die goldene Regel ist einfach: **Wenn Sie Ihre privaten Schlüssel nicht besitze
 #### Bitcoin Geldbörsen
 
 
-Das Herzstück von Bitcoin Ownership ist das Wallet - ein spezielles Tool, das die privaten Schlüssel sicher speichert, die für den Zugriff und die Verwaltung Ihrer Bitcoins benötigt werden. Ein Wallet kann viele Formen annehmen: ein spezielles Hardware-Gerät, eine mobile oder Desktop-App oder sogar ein Stück Papier mit einem darauf geschriebenen Schlüssel. Diese Geldbörsen verbinden Ihren digitalen Reichtum mit der realen Welt und machen Bitcoin im täglichen Leben nutzbar.
+Das Herzstück von Bitcoin-Eigentum ist das Wallet - ein spezielles Tool, das die privaten Schlüssel sicher speichert. Die Schlüssen benötigt man für den Zugriff und die Verwaltung der Bitcoins. Ein Wallet kann viele Formen annehmen: ein spezielles Hardware-Gerät, eine mobile oder Desktop-App oder sogar ein Stück Papier mit einem darauf geschriebenen Schlüssel. Diese Geldbörsen verbinden Ihren digitalen Reichtum mit der realen Welt und machen Bitcoin im täglichen Leben nutzbar.
 
 
 Jeder Wallet-Typ bietet ein unterschiedliches Verhältnis von:
@@ -1522,9 +1522,9 @@ Die Bitcoin Wallet-Industrie ist in mehrere Kategorien unterteilt, die jeweils u
 
 
 
-- Hardware Wallet-Hersteller**: Diese Unternehmen entwickeln physische Geräte für die sichere Speicherung von Schlüsseln. Einige sind quelloffen, während andere proprietäre Lösungen mit unterschiedlichen Funktionen und Sicherheitsniveaus anbieten. Zu den bekannten Namen gehören Ledger, Trezor, Coinkite, Foundation und Shiftcrypto.
-- Software Wallet-Entwickler**: Diese reichen von Unternehmen bis zu unabhängigen Entwicklern, die mobile und Desktop-Anwendungen erstellen. Ihre Angebote variieren in Bezug auf Benutzerfreundlichkeit, Sicherheit und Funktionen. Beispiele sind Sparrow, Wizard Sardine, Galoy, Synonym und Blockstream.
-- DIY (*Do It Yourself*) Wallets**:Diese Open-Source-Lösungen sind für fortgeschrittene Benutzer gedacht, die volle Kontrolle und minimale Abhängigkeit von Dritten wünschen. Der Bau einer eigenen Wallet reduziert die Vertrauensabhängigkeit und kann Ihre Sicherheitslage verbessern. Bemerkenswerte DIY-Optionen sind Seedsigner und Specter DIY.
+- Hardware Wallet-Hersteller: Diese Unternehmen entwickeln physische Geräte für die sichere Speicherung von Schlüsseln. Einige sind quelloffen, während andere proprietäre Lösungen mit unterschiedlichen Funktionen und Sicherheitsniveaus anbieten. Zu den bekannten Namen gehören Ledger, Trezor, Coinkite, Foundation und Shiftcrypto.
+- Software Wallet-Entwickler: Diese reichen von Unternehmen bis zu unabhängigen Entwicklern, die mobile und Desktop-Anwendungen erstellen. Ihre Angebote variieren in Bezug auf Benutzerfreundlichkeit, Sicherheit und Funktionen. Beispiele sind Sparrow, Wizard Sardine, Galoy, Synonym und Blockstream.
+- DIY (*Do It Yourself*) Wallets:Diese Open-Source-Lösungen sind für fortgeschrittene Benutzer gedacht, die volle Kontrolle und minimale Abhängigkeit von Dritten wünschen. Der Bau einer eigenen Wallet reduziert die Vertrauensabhängigkeit und kann Ihre Sicherheitslage verbessern. Bemerkenswerte DIY-Optionen sind Seedsigner und Specter DIY.
 
 
 Geldbörsen spielen eine grundlegende Rolle in Bitcoin und werden im weiteren Verlauf dieses Kurses genauer untersucht.
@@ -1533,22 +1533,22 @@ Geldbörsen spielen eine grundlegende Rolle in Bitcoin und werden im weiteren Ve
 #### Bitcoin Mining
 
 
-Mining ist eine Kernfunktion des Bitcoin-Netzes. Es gewährleistet die Sicherheit des Systems und hält das Blockchain in Betrieb. Miner validieren Transaktionen und sichern das Netzwerk, indem sie energieintensive Berechnungen durchführen, die als Proof of Work bekannt sind. Jeder neu geschürfte Block fügt dem Blockchain eine Reihe von Transaktionen hinzu und gibt neue Bitcoins gemäß dem Ausgabeplan des Protokolls frei.
+Mining ist eine Kernfunktion des Bitcoin-Netzes. Es gewährleistet die Sicherheit des Systems und hält die Blockchain in Betrieb. Miner validieren Transaktionen und sichern das Netzwerk, indem sie energieintensive Berechnungen durchführen, die als 'Proof of Work' bekannt sind. Jeder neu geschürfte Block fügt der Blockchain eine Reihe von Transaktionen hinzu und gibt neue Bitcoins gemäß dem Ausgabeplan des Protokolls frei.
 
 
-In den Anfängen von Bitcoin konnte Mining von einem Personal Computer aus durchgeführt werden. Heute ist es eine wettbewerbsfähige, globale Industrie, die von Unternehmen mit beträchtlichen finanziellen und technischen Ressourcen beherrscht wird. Die Suche nach billigen Energiequellen ist zu einem der Hauptschwerpunkte geworden, da die Bergleute bestrebt sind, die Betriebskosten und die Rentabilität zu optimieren. Mining-Betriebe reichen heute von riesigen Industrieanlagen bis hin zu kleinen Anlagen, die in Häusern oder Garagen betrieben werden.
+In den Anfängen von Bitcoin konnte Mining von einem Laptop aus durchgeführt werden. Heute ist es eine wettbewerbsfähige, globale Industrie, die von Unternehmen mit beträchtlichen finanziellen und technischen Ressourcen beherrscht wird. Die Suche nach billigen Energiequellen ist zu einem der Hauptschwerpunkte geworden, da die Miner bestrebt sind, die Betriebskosten und die Rentabilität zu optimieren. Mining-Betriebe reichen heute von riesigen Industrieanlagen bis hin zu kleinen Anlagen, die in Häusern oder Garagen betrieben werden.
 
 
 Das Mining-Ökosystem besteht aus mehreren wichtigen Akteuren:
 
 
 
-- Hardwarehersteller**: Unternehmen wie Bitmain entwickeln und produzieren ASICs (Application-Specific Integrated Circuits), hochspezialisierte Chips, die ausschließlich für Mining Bitcoin entwickelt wurden.
-- Mining-Pools**: Dies sind Kollektive von Minern, die ihre Rechenleistung bündeln, um ihre Chancen auf Belohnungen zu verbessern. Angesichts des zunehmenden Schwierigkeitsgrads von Mining bieten Pools besser vorhersehbare Auszahlungen, indem sie die Blockbelohnungen (neu geschürfte Bitcoins und Transaktionsgebühren) unter den Teilnehmern auf der Grundlage ihres Beitrags verteilen. Beispiele hierfür sind Foundry USA, AntPool, F2Pool, MARA Pool und Braiins Pool.
-- Miner**: Dies sind die Personen oder Organisationen, die die Mining-Hardware und -Software betreiben. Auf der einen Seite gibt es Kleinschürfer, die Maschinen wie den Antminer S9 verwenden, und auf der anderen Seite Industrieunternehmen wie Galaxy Digital, die riesige Anlagen für Mining betreiben.
+- Hardwarehersteller: Unternehmen wie Bitmain entwickeln und produzieren ASICs (Application-Specific Integrated Circuits), hochspezialisierte Chips, die ausschließlich für Mining Bitcoin entwickelt wurden.
+- Mining-Pools: Dies sind Kollektive von Minern, die ihre Rechenleistung bündeln, um ihre Chancen auf Belohnungen zu verbessern. Angesichts des zunehmenden Schwierigkeitsgrads von Mining bieten Pools besser vorhersehbare Auszahlungen, indem sie die Blockbelohnungen (neu geschürfte Bitcoins und Transaktionsgebühren) unter den Teilnehmern auf der Grundlage ihres Beitrags verteilen. Beispiele hierfür sind Foundry USA, AntPool, F2Pool, MARA Pool und Braiins Pool.
+- Miner: Dies sind Personen oder Organisationen, die Mining-Hardware und -Software betreiben. Auf der einen Seite gibt es Kleinschürfer, die Maschinen wie den Antminer S9 verwenden, und auf der anderen Seite Industrieunternehmen wie Galaxy Digital, die riesige Anlagen für Mining betreiben.
 
 
-Mining ist eine Welt für sich, die es auf vielen Ebenen zu erforschen gilt; technische Herausforderungen, wirtschaftliche Anreize und energetische Überlegungen kommen alle ins Spiel. Für diejenigen, die diesen Bereich weiter erforschen und wirklich verstehen möchten, wie er funktioniert, bietet unser MIN201-Kurs alles, was Sie wissen müssen.
+Mining ist eine Welt für sich, die es auf vielen Ebenen zu erforschen gilt; technische Herausforderungen, wirtschaftliche Anreize und energetische Überlegungen kommen alle ins Spiel. Für diejenigen, die diesen Bereich weiter erforschen und wirklich verstehen möchten, bietet unser MIN201-Kurs alles Wissenswerte.
 
 
 https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
@@ -1556,19 +1556,19 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 #### Entwicklung im Ökosystem Bitcoin
 
 
-Das Herzstück der technischen Entwicklung von Bitcoin ist Bitcoin Core, der am weitesten verbreitete Software-Client für den Betrieb eines Bitcoin-Knotens. Es ist ein Open-Source-Projekt, vollständig transparent und öffentlich auf GitHub verfügbar: [https://github.com/Bitcoin/Bitcoin](https://github.com/Bitcoin/Bitcoin). Dort kann jeder den Code überprüfen, Diskussionen verfolgen und sehen, wie sich das Protokoll weiterentwickelt. Obwohl Aktualisierungen vorgeschlagen und diskutiert werden, wird niemand gezwungen, sie zu übernehmen, und die Benutzer behalten die Kontrolle darüber, welche Version sie verwenden.
+Das Herzstück der technischen Entwicklung von Bitcoin ist Bitcoin Core, der am weitesten verbreitete Software-Client für den Betrieb eines Bitcoin-Knotens. Es ist ein Open-Source-Projekt, vollständig transparent und öffentlich auf GitHub verfügbar: [https://github.com/Bitcoin/Bitcoin](https://github.com/Bitcoin/Bitcoin). Dort kann jeder den Code überprüfen, Diskussionen verfolgen und sehen, wie sich das Protokoll weiterentwickelt. Obwohl Aktualisierungen vorgeschlagen und diskutiert werden, wird niemand gezwungen, sie zu übernehmen. Und die Benutzer behalten die Kontrolle darüber, welche Version sie verwenden.
 
 
 Die Entwicklung von Bitcoin lässt sich anhand einiger verschiedener Gruppen von Mitwirkenden nachvollziehen:
 
 
 
-- Bitcoin Kernentwickler**: Dies sind die Personen, die den Haupt-Software-Client pflegen und verbessern. Dazu gehören auch die Maintainer, die den Schlüssel zur Verwaltung des Repositorys besitzen. Im Jahr 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao und Ryan Ofsky. Dann gibt es noch die Mitwirkenden, die Codeänderungen, Fehlerbehebungen oder Verbesserungen vorschlagen. Diese Vorschläge werden von Kollegen geprüft und von der Gemeinschaft diskutiert, bevor sie angenommen werden.
-- Entwickler von Schichtprotokollen**, Diese Gruppe arbeitet an Technologien, die auf Bitcoin aufbauen, wie Lightning Network oder RGB, mit dem Ziel, die Fähigkeiten von Bitcoin zu erweitern, ohne seinen Kern zu verändern.
-- Unabhängige Entwickler**: Diese Entwickler konzentrieren sich auf die Erstellung von Tools und Anwendungen zur Verbesserung der Benutzerfreundlichkeit, wie z. B. Mempool.space (ein visuelles Interface zur Verfolgung von Transaktionsaktivitäten) oder Alby (Tools zur Verwendung von Lightning-Zahlungen in Browsern und Apps).
+- Bitcoin Kernentwickler: Dies sind die Personen, die den Haupt-Software-Client pflegen und verbessern. Dazu gehören auch die 'Maintainer', die den Schlüssel zur Verwaltung des Repositorys besitzen. Im Jahr 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao und Ryan Ofsky. Dann gibt es noch die Mitwirkenden, die Codeänderungen, Fehlerbehebungen oder Verbesserungen vorschlagen. Diese Vorschläge werden von anderen Mitwirkenden geprüft und von der 'Community' diskutiert, bevor sie angenommen werden.
+- Entwickler von Schichtprotokollen, Diese Gruppe arbeitet an Technologien, die auf Bitcoin aufbauen. Beispiele sind das Lightning Network oder RGB. Das Ziel ist, die Fähigkeiten von Bitcoin zu erweitern, ohne seinen Kern zu verändern.
+- Unabhängige Entwickler: Diese Entwickler konzentrieren sich auf die Erstellung von Tools und Anwendungen zur Verbesserung der Benutzerfreundlichkeit, wie z.B. Mempool.space (eine visuelle Schnittstelle zur Verfolgung von Transaktionsaktivitäten) oder Alby (Tools zur Verwendung von Lightning-Zahlungen in Browsern und Apps).
 
 
-Jeder kann Änderungen an Bitcoin Core vorschlagen, aber der Prozess ist absichtlich streng. Neue Ideen brauchen oft Jahre, um verfeinert zu werden, und erfordern ein tiefes technisches Verständnis, ein breites Engagement der Gemeinschaft und eine mehrstufige Überprüfung. Vorschläge werden in der Regel in Form von **Bitcoin Improvement Proposals (BIPs)** eingereicht, von denen einige es nie in das Protokoll schaffen.
+Jeder kann Änderungen am Bitcoin Core vorschlagen, aber der Prozess ist absichtlich strikt gehalten. Neue Ideen brauchen oft Jahre, um verfeinert zu werden. Sie erfordern ein tiefes technisches Verständnis, ein breites Engagement der Bitcoin-Gemeinschaft und eine mehrstufige Überprüfung. Vorschläge werden in der Regel in Form von **Bitcoin Improvement Proposals (BIPs)** eingereicht, von denen einige es nie in das Protokoll schaffen.
 
 Innovationen sind willkommen, aber nur, wenn sie durch solide Argumente, einen Konsens der Gemeinschaft und sorgfältige Tests gestützt werden.
 
@@ -1576,7 +1576,7 @@ Innovationen sind willkommen, aber nur, wenn sie durch solide Argumente, einen K
 ![BTC102-Bitcoin](assets/fr/054.webp)
 
 
-Entgegen dem, was manche glauben mögen, hat niemand einseitige Kontrolle über Bitcoin, nicht einmal die Betreuer von Bitcoin Core. Ihre Aufgabe ist es, das Software-Repository zu verwalten, nicht das Protokoll selbst.
+Entgegen dem, was manche glauben mögen, hat niemand die vollständige Kontrolle über Bitcoin, nicht einmal die Betreuer von Bitcoin Core. Ihre Aufgabe ist es, das Software-Repository zu verwalten, nicht das Protokoll selbst.
 
 
 ![BTC102-Bitcoin](assets/fr/055.webp)
@@ -1590,7 +1590,7 @@ Es ist auch erwähnenswert, dass **Bitcoin Core nicht der einzige Client** ist. 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Die mehrschichtige Architektur von Bitcoin
-
+xxxx
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 

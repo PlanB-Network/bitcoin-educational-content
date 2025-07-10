@@ -1,0 +1,17 @@
+id: 8baaaa1a-36b4-4cc7-9db9-2ce95f962eee
+start_date: 2025-07-26 15:00:00
+end_date: 2025-07-26 18:00:00
+timezone: Africa/Porto-Novo
+address_city_country: Cotonou, Benin
+name: Bitdevs Cotonou Meetup
+type: meetup
+description: Bitdevs Cotonou meetup
+language:
+  - fr
+  - en
+links:
+  website: https://bitdevscotonou.org/fr/
+tags:
+  - software
+  - lightning
+  - education

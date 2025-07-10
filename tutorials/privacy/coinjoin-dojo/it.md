@@ -158,29 +158,29 @@ Esaminiamo ora le diverse fasi di un coinjoin Whirlpool all'interno di questi ac
 
 ### Le diverse fasi dei coinjoin su Whirlpool
 **Fase 1: La `Tx0`**
-Il punto di partenza di qualsiasi coinjoin Whirlpool è l’account **deposito**. È l’account utilizzato automaticamente alla creazione di un nuovo wallet Bitcoin e deve essere finanziato con i bitcoin che si desidera mixare.
-La `Tx0` rappresenta il primo passaggio del processo di mixing con Whirlpool. Serve a preparare e omogeneizzare gli UTXO per il coinjoin, suddividendoli in unità corrispondenti all’importo della pool selezionata. Questo passaggio garantisce l’uniformità necessaria per il mixing. Gli UTXO così omogeneizzati vengono poi inviati all’account **premix**.
-L’eventuale eccedenza non compatibile con la pool viene invece separata e inviata a un account dedicato chiamato **bad bank** (o “cambio tossico”).
-Questa transazione iniziale `Tx0` include anche il pagamento della commissione di servizio destinata al coordinatore del mix. A differenza delle fasi successive, si tratta di una transazione non collaborativa, e l’utente deve farsi carico per intero delle relative commissioni di mining.
+Il punto di partenza di qualsiasi coinjoin Whirlpool è l’account **deposito**. Questo è l’account utilizzato automaticamente dopo la  creazione di un nuovo wallet Bitcoin e deve essere finanziato con i bitcoin che si desidera mixare.
+La `Tx0` rappresenta il primo passaggio del processo di mixing con Whirlpool. Serve a preparare e rendere omogenei gli UTXO per il coinjoin, suddividendoli in unità corrispondenti all’importo della pool selezionata. Questo passaggio garantisce l’uniformità necessaria per il mixing. Gli UTXO standardizzati vengono poi inviati all’account premix.
+Se parte del saldo non è compatibile con la pool, viene separata e inviata a un account specifico chiamato **bad bank** (o doxxic change).
+Questa transazione iniziale `Tx0` include anche il pagamento della commissione di servizio destinata al coordinatore del mix. A differenza delle fasi successive, si tratta di una transazione non collaborativa, l’utente deve farsi carico per intero delle relative commissioni di mining.
 
 ![coinjoin](assets/it/7.webp)
 
 In questo esempio di transazione Tx0, un input di `372.000 sats` proveniente dal nostro account deposito viene suddiviso in diversi UTXO di output, così distribuiti:
 
 - `5.000 sats` sono destinati al coordinatore come commissione di servizio, corrispondenti all’ingresso nella pool da `100.000 sats`;
-- Tre UTXO omogeneizzati da `108.000 sats` ciascuno, preparati per il mixing e inviati al nostro account **premix**, con la relativa registrazione presso il coordinatore. Questi importi coprono anche le future commissioni di mining del mix iniziale;
-- Un eccedenza troppo piccola per entrare nella pool, definita “cambio tossico”, pari a `40.000 sats`, che viene inviata al relativo account dedicato;
+- Tre UTXO uguali da `108.000 sats` ciascuno, preparati per il mixing, inviati al nostro account **premix** e registrati dal coordinatore. Questi importi coprono anche le future commissioni di mining del mix iniziale;
+- Una cifra in eccesso troppo piccola per entrare nella pool, definita “doxxic change”, pari a `40.000 sats`, che viene inviata al relativo account dedicato;
 - Infine, `3.000 sats` rappresentano le commissioni di mining necessarie per confermare la `Tx0`.
 
 Ad esempio, ecco un vero Whirlpool `Tx0` (non mio): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/it/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-**Fase 2: Il cambio tossico**
-L’eccedenza che non può essere integrata nel pool, in questo caso pari a `40.000 sats`, viene indirizzata all’account **bad bank**, noto anche come “cambio tossico”, per garantire una netta separazione dagli altri UTXO nel portafoglio. Questo UTXO rappresenta un rischio per la privacy dell’utente, perché non solo è ancora collegato al suo storico, e quindi potenzialmente all’identità del proprietario, ma risulta anche evidente a un osservatore esterno come appartenente a un utente che ha effettuato un coinjoin.
-Se questo UTXO viene combinato con output mixati, gli output perderanno tutta la riservatezza acquisita nei cicli di coinjoin, soprattutto a causa della Common-Input-Ownership Heuristic (CIOH). Se invece viene unito ad altri "cambi tossici", l’utente rischia di compromettere la privacy collegando tra loro diversi input di coinjoin. Per questo motivo, deve essere gestito con estrema attenzione.
-La gestione di questo UTXO “tossico” sarà approfondita nella parte finale di questo articolo; inoltre, futuri tutorial su Plan ₿ Network tratteranno questi metodi in modo più dettagliato.
+**Fase 2: Il doxxic change**
+L’eccedenza che non può essere integrata nella pool, in questo caso pari a `40.000 sats`, viene indirizzata all’account **bad bank**, noto anche come “doxxic change”, per garantire una netta separazione dagli altri UTXO nel wallet. Questo UTXO rappresenta un rischio per la privacy dell’utente, perché non solo è ancora collegato al suo storico, e quindi potenzialmente alla sua identità, ma risulta anche evidente a un osservatore esterno come esso appartenga a un utente che ha effettuato un coinjoin.
+Se questo UTXO viene combinato con output mixati, gli output perderanno tutta la privacy acquisita nei cicli di coinjoin, soprattutto a causa della Common-Input-Ownership Heuristic (CIOH). Se invece viene unito ad altri "doxxic change", l’utente rischia di compromettere la privacy collegando tra loro diversi input di coinjoin. Per questo motivo, deve essere gestito con estrema attenzione.
+La gestione di questo UTXO “doxxic” sarà approfondita nella parte finale di questo articolo; inoltre, futuri tutorial su Plan ₿ Network tratteranno questi metodi in modo più dettagliato.
 
 **Passo 3: Il Mix Iniziale**
-Una volta completata la Tx0, gli UTXO equalizzati vengono trasferiti al conto **premix** del wallet, pronti per essere utilizzati nel loro primo ciclo di coinjoin, chiamato anche “mix iniziale”. Nel caso del nostro esempio, se la `Tx0` genera più UTXO destinati al mixing, ciascuno verrà inserito in un coinjoin iniziale separato.
+Una volta completata la Tx0, gli UTXO uniformati vengono trasferiti al conto **premix** del wallet, pronti per essere utilizzati nel loro primo ciclo di coinjoin, chiamato anche “mix iniziale”. Nel caso del nostro esempio, se la `Tx0` genera più UTXO destinati al mixing, ciascuno verrà inserito in un coinjoin iniziale separato.
 
 Al termine di questi primi mix, il conto **premix** risulterà vuoto, mentre gli UTXO, avendo coperto le commissioni di mining di questo primo coinjoin, saranno esattamente dell’importo previsto dalla pool scelta. Nel nostro esempio, gli UTXO iniziali da `108.000 sats` saranno quindi stati ridotti a `100.000 sats` ciascuno.
 

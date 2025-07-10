@@ -1396,24 +1396,24 @@ Als Eckpfeiler des traditionellen Finanzsystems sehen die Banken Bitcoin als dir
 
 
 Während Bitcoin jedoch als Konkurrent angesehen wird, investieren viele dieser Banken aktiv in die Forschung und Entwicklung von Blockchain und versuchen, die Innovationen von Bitcoin zu nutzen, ohne ihre Kontrolle aufzugeben. Sie sind sich bewusst, dass Blockchain ein erhebliches Potenzial bietet. Aber sie wollen kontrollieren, wie es in ihre bestehende Infrastruktur integriert wird, anstatt das dezentrale, offene Modell von Bitcoin zu übernehmen.
-xxx
+
 
 ### Kryptowährungsbörsen und Bitcoin-Verwahrung
 
 
-Börsen spielen eine wichtige Rolle im Bitcoin-Ökosystem, da sie als Brücke zwischen Fiat-Währungen und Bitcoin fungieren. Sie ermöglichen es den Nutzern, Bitcoin zu kaufen, zu verkaufen und manchmal gegen andere digitale Vermögenswerte zu tauschen. Allerdings sind nicht alle Börsen gleich, und es ist wichtig, diejenige zu wählen, die Ihren Bedürfnissen entspricht und gleichzeitig die Risiken minimiert. Hier sind die wichtigsten Faktoren, die Sie beachten sollten, bevor Sie eine Exchange nutzen:
+Börsen spielen eine wichtige Rolle im Bitcoin-Ökosystem, da sie als Brücke zwischen Fiat-Währungen und Bitcoin fungieren. Sie ermöglichen es den Nutzern, Bitcoin zu kaufen, zu verkaufen und manchmal gegen andere digitale Vermögenswerte zu tauschen. Allerdings sind nicht alle Börsen gleich, und es ist wichtig, diejenige zu wählen, die Ihren Bedürfnissen entspricht und gleichzeitig die Risiken minimiert. Hier sind die wichtigsten Faktoren, die Sie beachten sollten, bevor Sie eine so genannte Exchange nutzen:
 
 
 
-- einen soliden Ruf als sicher;
+- einen soliden Ruf;
 - ausreichende Liquidität, um einen schnellen Handel ohne extreme Kursschwankungen zu gewährleisten;
 - einen reaktionsschnellen und effizienten Kundendienst;
-- Ein benutzerfreundlicher Interface, der das Navigieren in den Transaktionen erleichtert;
+- eine benutzerfreundliche Oberfläche, die das Navigieren erleichtert;
 - eine Option für automatisch wiederkehrende Käufe (ARP);
-- einfache, kostenlose Abhebung von Bitcoins auf einen persönlichen Wallet.
+- einfache, kostenlose Abhebung von Bitcoins auf ein persönliches Wallet.
 
 
-Börsen, die die lokalen Vorschriften einhalten, müssen in der Regel strenge **"Know Your Customer "** (KYC)-Protokolle befolgen, die von den Nutzern die Vorlage von Ausweisdokumenten verlangen, bevor sie auf die Dienste zugreifen können. Diese Verfahren sollen zwar illegale Aktivitäten verhindern, können aber die Privatsphäre, die Bitcoin von Natur aus bietet, beeinträchtigen.
+Börsen, welche die lokalen Vorschriften einhalten, müssen in der Regel strenge **"Know Your Customer "** (KYC)-Protokolle befolgen. Sie verlangen von den Nutzern Ausweisdokumente, bevor diese auf die Dienste zugreifen können. Diese Verfahren sollen zwar illegale Aktivitäten verhindern, können aber die Privatsphäre, die Bitcoin von Natur aus bietet, beeinträchtigen.
 
 
 ![BTC102-Bitcoin](assets/fr/053.webp)
@@ -1424,7 +1424,7 @@ KYC-Plattformen sammeln Ihre persönlichen Daten unter dem Deckmantel der Sicher
 
 Es gibt jedoch Alternativen, um Bitcoins zu erwerben, ohne sich der KYC zu unterwerfen:
 
-
+xxxx
 
 - P2P Kaufplattformen wie Bisq, Robosat, LNP2PBot, Peach, HODL, usw. ;
 - Direkte Barkäufe, zum Beispiel bei lokalen Bitcoin-Treffen;

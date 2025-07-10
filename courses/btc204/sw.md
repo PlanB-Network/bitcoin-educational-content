@@ -2011,13 +2011,12 @@ Unapoingia kwenye bwawa na bitcoins zako, zitagawanywa hadi kuzalisha UTXO ambaz
 
 | 0,001 | 0,025 |
 
-UTXO inachukuliwa kuwa ya bwawa wakati iko tayari kuunganishwa kwenye kuunga sarafu. Walakini, hii haimaanishi kuwa mtumiaji atapoteza umiliki wake. Kama tulivyoona katika sura za kwanza za sehemu hii, kupitia mizunguko mbalimbali ya kuchanganya, unahifadhi udhibiti kamili wa funguo zako na, kwa hiyo, wa bitcoins zako. Hii ndiyo inatofautisha mbinu ya kuunga sarafu kutoka kwa mbinu zingine za kuchanganya kati.
+UTXO inachukuliwa kuwa ya pool wakati iko tayari kuunganishwa kwenye CoinJoin. Hata hivyo, hii haimaanishi kuwa mtumiaji atapoteza umiliki wake. Kama tulivyoona katika sura za awali za sehemu hii, kupitia mizunguko mbalimbali ya kuchanganya, unahifadhi udhibiti kamili wa funguo zako — na hivyo, wa bitcoins zako. Hii ndiyo inayotofautisha mbinu ya CoinJoin na mbinu nyingine za kuchanganya kati.
 
-Ili kujiunga na bwawa la kuunga sarafu, unahitaji kulipa ada ya huduma na ada ya Mining. Ada za huduma zimepangwa kwa kila bwawa na zinalenga kulipa timu zinazohusika na ukuzaji na matengenezo ya Whirlpool.
+Ili kujiunga na pool ya CoinJoin, unahitaji kulipa ada ya huduma na ada ya mining. Ada za huduma huamuliwa na kila pool na zinalenga kufidia timu zinazohusika na ukuzaji na matengenezo ya Whirlpool.
+Ada ya huduma kwa matumizi ya Whirlpool inalipwa mara moja tu unapojiunga na pool. Mara tu unapojiunga, unaweza kushiriki katika idadi isiyo na kikomo ya mchanganyiko bila malipo ya ziada. Hapa kuna ada za sasa za kudumu kwa kila pool:
 
-Ada ya huduma kwa matumizi ya Whirlpool inalipwa mara moja tu unapojiunga na bwawa. Mara tu unapojiunga, unaweza kushiriki katika idadi isiyo na kikomo ya mchanganyiko bila malipo ya ziada. Hapa kuna ada za sasa za kudumu kwa kila bwawa:
-
-| Dimbwi (Bitcoin) | Ada ya kuingia (Bitcoin) |
+| Pool (Bitcoin) | Ada ya kuingia (Bitcoin)
 
 |-------------------------------------------------|
 
@@ -2029,64 +2028,59 @@ Ada ya huduma kwa matumizi ya Whirlpool inalipwa mara moja tu unapojiunga na bwa
 
 | 0.001 | 0.00005 (5,000 Sats) |
 
-Ada hizi kimsingi hufanya kazi kama tikiti ya kuingia kwenye bwawa ulilochagua, bila kujali kiasi ulichoweka kwenye kuunga sarafu. Kwa hivyo, ikiwa utaingia kwenye dimbwi la 0.01 na 0.01 BTC haswa au 0.5 BTC, ada zitabaki sawa kwa masharti kabisa.
+Ada hizi kimsingi hufanya kazi kama tikiti ya kuingia kwenye pool ulilochagua, bila kujali kiasi ulichoweka kwenye CoinJoin. Kwa hivyo, ikiwa utaingia kwenye pool la 0.01 BTC ukiwa na 0.01 BTC halisi au 0.5 BTC, ada zitabaki sawa kabisa kwa masharti yaliyowekwa.
 
-Kabla ya kuendelea na viunganishi vya Whirlpool, mtumiaji anaweza kuchagua kati ya mikakati 2:
+Kabla ya kuendelea na viunganishi vya Whirlpool, mtumiaji anaweza kuchagua kati ya mikakati miwili:
 
+- Chagua pool ndogo ili kupunguza gharama za huduma, huku ukijua kwamba utapokea UTXO ndogo kadhaa kama matokeo;
+- Au uchague pool kubwa zaidi, ukiwa tayari kulipa ada ya juu, ili kuishia na idadi ndogo ya UTXO za thamani ya juu.
 
-- Chagua bwawa ndogo ili kupunguza gharama za huduma, ukijua kwamba atapata UTXO kadhaa ndogo kama malipo;
-- Au uchague bwawa kubwa zaidi, tayari kulipa ada ya juu, ili tu kuishia na idadi ndogo ya UTXO za thamani ya juu.
+Kwa ujumla haipendekezi kuunganisha UTXO kadhaa zilizochanganywa baada ya mizunguko ya CoinJoin, kwa kuwa hii inaweza kuhatarisha usiri uliopatikana, hasa kutokana na heuristic ya kawaida ya umiliki wa ingizo (CIOH: *Common-Input-Ownership Heuristic*). Kwa hivyo, inaweza kuwa na maana kuchagua pool kubwa zaidi, hata kama hii inamaanisha kulipa zaidi, ili kuepuka kuwa na UTXO nyingi za thamani ndogo katika toleo. Mtumiaji lazima atathmini biashara hizi ili kuchagua pool analopendelea.
 
-Kwa ujumla haipendekezi kuunganisha UTXO kadhaa zilizochanganywa baada ya mizunguko ya kuunga sarafu, kwa kuwa hii inaweza kuhatarisha usiri uliopatikana, hasa kutokana na ingizo la kawaida la Ownership heuristic (CIOH: *Common-Input-Ownership-Heuristic*). Kwa hivyo, inaweza kuwa na maana kuchagua bwawa kubwa zaidi, hata kama hii inamaanisha kulipa zaidi, ili kuepuka kuwa na UTXO nyingi za thamani ndogo katika pato. Mtumiaji lazima atathmini biashara hizi ili kuchagua dimbwi analopendelea.
-
-Kando na ada ya huduma, ada ya mining (uchimbaji) mahususi kwa shughuli yoyote ya Bitcoin lazima pia izingatiwe. Kama mtumiaji wa Whirlpool, utahitajika kulipa ada ya mining (uchimbaji) kwa shughuli ya utayarishaji (`Tx0`) na pia kwa kuunga sarafu ya kwanza. Remix zote zinazofuata zitakuwa bila malipo, shukrani kwa muundo wa Whirlpool kulingana na kuwalipa washiriki wapya.
-
-Kwa kweli, katika kila Whirlpool kuunga sarafu, watumiaji 2 kati ya pembejeo ni washiriki wapya. Ingizo zingine hutoka kwa viunganishi. Kwa hivyo, gharama za Mining kwa washiriki wote katika muamala hugharamiwa na washiriki hawa 2 wapya, ambao wanaweza pia kufaidika na michanganyiko isiyolipishwa:
-
+Kando na ada ya huduma, ada ya mining (uchimbaji) mahususi kwa muamala wowote wa Bitcoin lazima pia izingatiwe. Kama mtumiaji wa Whirlpool, utahitajika kulipa ada ya mining kwa muamala wa utayarishaji (`Tx0`) na pia kwa CoinJoin ya kwanza. Remix zote zinazofuata zitakuwa bila malipo, shukrani kwa muundo wa Whirlpool unaowawezesha watumiaji wapya kufadhili ada hizo.
+Kwa kweli, katika kila CoinJoin ya Whirlpool, watumiaji 2 kati ya pembejeo ni washiriki wapya. Ingizo nyingine hutoka kwa remix. Hivyo basi, gharama za mining kwa washiriki wote katika muamala huo hugharamiwa na washiriki hawa 2 wapya, ambao nao pia wanaweza kufaidika na michanganyiko inayofuata bila malipo.
 ![BTC204](assets/fr/142.webp)
 
-Shukrani kwa mfumo huu wa ada, Whirlpool inatofautiana sana na utekelezwaji mwingine wa kuunga sarafu, kwa kuwa utatuzi wa mfumo wa UTXOs hauwi sawia na bei inayolipwa na mtumiaji. Kwa hivyo, inawezekana kufikia viwango vya juu zaidi vya kutokujulikana kwa kulipa tu ada ya kuingia kwenye bwawa na ada ya mining (uchimbaji) kwa miamala 2 (`Tx0` na mchanganyiko wa awali).
+Shukrani kwa mfumo huu wa ada, Whirlpool inatofautiana sana na utekelezaji mwingine wa CoinJoin, kwa kuwa utatuzi wa mfumo wa UTXO hauhusiani moja kwa moja na bei inayolipwa na mtumiaji. Kwa hivyo, inawezekana kufikia viwango vya juu zaidi vya kutokujulikana kwa kulipa tu ada ya kuingia kwenye pool na ada ya mining kwa miamala miwili (`Tx0` na CoinJoin ya awali).
 
-Ni muhimu kutambua kwamba mtumiaji pia atalazimika kulipa ada za mining (uchimbaji) ili kuondoa UTXO zake kwenye bwawa baada ya kukamilisha miunganisho yake mingi, isipokuwa awe amechagua chaguo la `changanya kwa`, ambalo linatoa Anwani (address) ya nje ambayo itapokea fedha moja kwa moja kutoka kwa kuunga sarafu, bila muamala wowote wa ziada.
+Ni muhimu kutambua kwamba mtumiaji pia atalazimika kulipa ada za mining ili kuondoa UTXO zake kutoka kwenye pool baada ya kukamilisha miunganisho mingi, isipokuwa awe amechagua chaguo la `changanya kwa`, ambalo linatoa Address ya nje itakayopokea fedha moja kwa moja kutoka kwenye CoinJoin, bila muamala wowote wa ziada.
 
 ### Akaunti za kwingineko za HD
 
-Ili kuunda kuunga sarafu kupitia Whirlpool, Wallet lazima kuzalisha akaunti kadhaa tofauti. Hii ndiyo kanuni nyuma ya itifaki ya ZeroLink. Akaunti, katika muktadha wa jalada la HD (*Hierarchical Deterministic*), inajumuisha sehemu iliyotengwa kabisa na nyinginezo, utengano huu unatokea katika kiwango cha kina cha tatu cha daraja la kwingineko, yaani katika kiwango cha `xpub`.
+Ili kuunda CoinJoin kupitia Whirlpool, Wallet lazima izalishe akaunti kadhaa tofauti. Hii ndiyo kanuni nyuma ya itifaki ya ZeroLink. Akaunti, katika muktadha wa jalada la HD (*Hierarchical Deterministic*), inajumuisha sehemu iliyotengwa kabisa na nyinginezo. Utengano huu unatokea katika kiwango cha kina cha tatu cha daraja la kwingineko, yaani katika kiwango cha `xpub`.
 
 ![BTC204](assets/fr/143.webp)
 
-Pochi la HD linaweza kinadharia kupata hadi akaunti tofauti za `2^(31)`. Akaunti ya awali, inayotumiwa na chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa ya `0'`.
+Pochi la HD linaweza, kinadharia, kupata hadi akaunti tofauti `2^(31)`. Akaunti ya awali, inayotumiwa kwa chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa ya `0`.
 
-Kwa portfolios zilizorekebishwa kwa Whirlpool, akaunti 4 hutumiwa kukidhi mahitaji ya mchakato wa ZeroLink:
+Kwa portfolios zilizosanifiwa kwa ajili ya Whirlpool, akaunti 4 hutumiwa ili kukidhi mahitaji ya mchakato wa ZeroLink:
 
 
-- **akaunti ya amana**, iliyotambuliwa kwa faharasa `0'` ;
-- **Akaunti mbaya ya benki** (au "doxxic change"), iliyotambuliwa na faharasa `2,147,483,644'` ;
-- Akaunti ya **premix**, iliyotambuliwa na fahirisi `2 147 483 645'` ;
-- Akaunti ya **mchanganyiko wa posta**, iliyotambuliwa na faharasa `2 147 483 646'`.
-
+- * **Akaunti ya amana**, iliyotambuliwa kwa faharasa `0`;
+* **Akaunti mbaya ya benki** (au "doxxic change"), iliyotambuliwa na faharasa `2,147,483,644`;
+* Akaunti ya **premix**, iliyotambuliwa na faharasa `2,147,483,645`;
+* Akaunti ya **mchanganyiko wa posta**, iliyotambuliwa na faharasa `2,147,483,646`.
 Kila moja ya akaunti hizi hutimiza kazi fulani katika mchakato wa kuunga sarafu, ambayo tutachunguza katika sehemu zifuatazo.
 
-Akaunti hizi zote zimeunganishwa na seed (mbegu) moja, kuwezesha mtumiaji kurejesha ufikiaji wa bitcoins zake zote kwa kutumia maneno yake ya kurejesha na, inapohitajika, passphrase yake. Wakati wa urejeshaji, hata hivyo, programu lazima ijulishwe kuhusu faharasa mbalimbali za akaunti zinazotumiwa.
+Akaunti hizi zote zimeunganishwa na seed moja, kuwezesha mtumiaji kurejesha ufikiaji wa bitcoins zake zote kwa kutumia maneno yake ya kurejesha na, inapohitajika, passphrase yake. Wakati wa urejeshaji, hata hivyo, programu lazima ijulishwe kuhusu faharasa mbalimbali za akaunti zinazotumiwa.
 
 Hebu tuangalie hatua tofauti za Whirlpool kuunga sarafu ndani ya akaunti hizi.
 
 ### Sehemu ya TX0
 
-Sehemu ya kuanzia ya Whirlpool kuunga sarafu yoyote ni **amana** akaunti. Hii ndiyo akaunti unayotumia kiotomatiki unapounda Pochi la Bitcoin mpya. Akaunti hii itahitaji kuhusishwa na bitcoins unazotaka kuchanganya.
+Sehemu ya kuanzia ya Whirlpool kuunga sarafu yoyote ni **akaunti ya amana**. Hii ndiyo akaunti unayotumia kiotomatiki unapounda Wallet ya Bitcoin mpya. Akaunti hii itahitaji kuhusishwa na bitcoins unazotaka kuchanganya.
 
-Tx0" ni hatua ya kwanza katika mchakato wa kuchanganya wa Whirlpool. Madhumuni yake ni kuandaa na kusawazisha UTXO za kuunga sarafu, kuzigawanya katika vitengo vinavyolingana na kiasi cha bwawa lililochaguliwa, ili kuhakikisha mchanganyiko wa homogeneous. UTXO hivyo kusawazishwa hutumwa kwenye akaunti **premix**. Kuhusu tofauti, akaunti ya **ba haiwezi kutengwa kwa tofauti: benki** (au "doxxic change").
+"Tx0" ni hatua ya kwanza katika mchakato wa kuchanganya wa Whirlpool. Madhumuni yake ni kuandaa na kusawazisha UTXO za CoinJoin, kuzigawanya katika vitengo vinavyolingana na kiasi cha pool iliyochaguliwa, ili kuhakikisha mchanganyiko wa homogeneous. UTXO hivyo kusawazishwa hutumwa kwenye akaunti ya **premix**. Kuhusu tofauti, akaunti ya **benki mbaya** (au "doxxic change") haiwezi kutengwa kwa urahisi.
 
-Muamala huu wa awali wa `Tx0` pia hutumika kulipa ada ya huduma kutokana na mratibu wa Kuunga sarafu. Tofauti na hatua zifuatazo, muamala huu si shirikishi, kwa hivyo ni lazima mtumiaji kubeba gharama kamili ya mining (uchimbaji):
+Muamala huu wa awali wa `Tx0` pia hutumika kulipa ada ya huduma kwa mratibu wa CoinJoin. Tofauti na hatua zifuatazo, muamala huu si wa ushirikiano, hivyo mtumiaji lazima abebe gharama kamili ya mining.
 
 ![BTC204](assets/fr/144.webp)
 
-Katika mfano huu wa shughuli ya `Tx0`, ingizo la `372,000 Sats` kutoka kwa **deposit** akaunti yetu imegawanywa katika UTXO kadhaa zinazotolewa, ambazo hugawanywa kama ifuatavyo:
+Katika mfano huu wa muamala wa `Tx0`, ingizo la `372,000 sats` kutoka kwenye akaunti yetu ya **deposit** limegawanywa katika UTXO kadhaa za toleo, ambazo zimepangwa kama ifuatavyo:
 
-
-- Kiasi cha `5,000 Sats` kwa mratibu kwa ada za huduma, zinazolingana na kiingilio cha jumla cha `100,000 Sats`;
-- UTXO 3 zilizotayarishwa kwa kuchanganywa, zimeelekezwa kwenye akaunti yetu ya **premix** na kusajiliwa na mratibu. UTXO hizi zinasawazishwa kwa `108,000 Sats` kila moja, ili kulipia gharama za mining (uchimbaji) kwa mchanganyiko wao wa awali wa siku zijazo;
-- Ziada, ambayo haiwezi kuingia kwenye bwawa kwa sababu ni ndogo sana, inachukuliwa kuwa Ubadilishanaji wa kigeni wenye sumu. Inatumwa kwa akaunti yake maalum. Hapa, huu Ubadilishanaji ni sawa na `40,000 Sats` ;
+- Kiasi cha `5,000 sats` kwa mratibu kwa ada za huduma, zinazolingana na kiingilio cha jumla cha `100,000 sats`;
+- UTXO 3 zilizotayarishwa kwa kuchanganywa, zimeelekezwa kwenye akaunti yetu ya **premix** na kusajiliwa na mratibu. UTXO hizi zimesawazishwa kwa `108,000 sats` kila moja, ili kulipia gharama za mining kwa mchanganyiko wao wa awali katika siku zijazo.
+- Ziada, ambayo haiwezi kuingia kwenye pool kwa sababu ni ndogo sana, inachukuliwa kuwa exchange yenye sumu. Inatumwa kwa akaunti yake maalum. Hapa, exchange hii ni sawa na `40,000 sats`;
 - Hatimaye, zimesalia `3,000 Sats`, ambazo hazijumuishi pato, lakini ni gharama za mining (uchimbaji) zinazohitajika ili kuthibitisha `Tx0`.
 
 Kwa mfano, hapa kuna Whirlpool Tx0 halisi (sio yangu): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://GW-8 16.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)

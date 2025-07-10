@@ -168,154 +168,178 @@ Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de
 
 ![Image](assets/fr/056.webp)
 
+## Le protocole QoS IPv5
+<chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
 
+L’en-tête d’un paquet IP est une structure de données essentielle, organisée en plusieurs champs distincts, chacun remplissant une fonction précise pour assurer la bonne transmission et le traitement des paquets tout au long de leur parcours sur le réseau. Parmi ces champs, on trouve notamment l’adresse IP de destination, indispensable pour aiguiller correctement le paquet vers son destinataire final, mais aussi la longueur totale de l’en-tête, des informations de contrôle et de vérification, et d’autres paramètres permettant de gérer le flux et la qualité de la communication.
 
+Le tout premier champ de cet en-tête se nomme "Version". Il occupe 4 bits et indique clairement la version du protocole IP à laquelle le paquet se conforme. Cette version est importante, car elle informe chaque routeur ou équipement intermédiaire de la manière dont il doit interpréter et manipuler les données encapsulées.
 
+**Remarque** : la gestion et l’attribution des versions de protocoles IP relèvent de la responsabilité de l’**IANA** (_Internet Assigned Numbers Authority_), l’organisme international chargé d’administrer plusieurs paramètres de l’Internet, tels que les adresses IP, les noms de domaine et les numéros de versions de protocoles. À l’heure actuelle, seules 24 combinaisons binaires peuvent être affectées pour désigner une version de protocole d’interconnexion. Si l’on consulte le tableau des versions actuelles on découvre ceci :
+
+![Image](assets/fr/007.webp)
+
+Parmi ces versions figure la version IPv5, qui, bien que méconnue du grand public, a bel et bien existé sous la forme du protocole ST (_Stream Protocol_). Conçu dans les années 1980, IPv5 visait principalement à répondre à un besoin émergent à l’époque : garantir une "_Quality of Service_" ou "QoS" pour certains flux de données nécessitant une transmission continue et stable, comme la voix sur IP ou les flux multimédias. L’objectif était d’offrir une bande passante et une priorité garanties de bout en bout, un concept similaire à ce que propose aujourd’hui le protocole RSVP (_Resource Reservation Protocol_) pour la réservation dynamique de ressources réseau sur les routeurs modernes.
+
+Cependant, le protocole IPv5 est resté au stade expérimental et n’a été mis en œuvre que sur une poignée d’équipements réseau. Son adoption limitée et l’évolution rapide des besoins en adressage ont conduit les concepteurs de l’Internet à opter pour un saut direct de la version IPv4 à IPv6. Ce choix visait notamment à contourner les limitations d’adressage posées par IPv4, tout en évitant toute confusion ou incompatibilité avec les spécifications expérimentales de la version 5.
+
+Ainsi, bien que le protocole IPv5 ait contribué à ouvrir la voie à la réflexion sur la qualité de service et la gestion du trafic, il n’a jamais été déployé à grande échelle et reste aujourd’hui un jalon historique plus qu’un standard utilisé.
+
+**Rappel** : un protocole définit avant tout un ensemble de règles de communication : structures de données, algorithmes, formats de paquets et conventions permettant à différents équipements d’échanger des informations de manière fiable et compréhensible. Le service, quant à lui, correspond à l’implémentation concrète de ce protocole au travers de programmes spécifiques (clients, serveurs) qui mettent en œuvre ces règles et rendent les fonctionnalités accessibles aux utilisateurs et aux applications.
+
+Nous pouvons désormais nous pencher plus en détail sur la structure et le fonctionnement du protocole IP, socle indispensable de toute communication en réseau.
 
 ## Le protocole IP
 <chapterId>758fddbd-b652-4c18-bd1e-d038bd2e4d05</chapterId>
+
 ### Définitions et généralités
 
-Ce protocole permet de gérer l’acheminement des paquets d’une machine à une autre, ainsi que l’adressage. Au plus bas niveau (physique), on dispose alors d’interfaces pour communiquer d’un point à un autre. Grâce à trois champs du paquet, on peut facilement déterminer le destinataire d’un message :
+Le protocole IP, ou "***Internet Protocol***", constitue la pierre angulaire du modèle TCP/IP : il assure le transport des paquets de données d’un hôte à un autre au sein d’un réseau, qu’il soit local ou étendu à l’échelle mondiale. Son rôle est double : il prend en charge l’adressage logique des équipements et garantit l’acheminement des paquets à travers des réseaux souvent hétérogènes et interconnectés.
 
-- Le champ adresse IP  
-- Le champ masque sous-réseau  
-- Le champ passerelle
+Au niveau physique, la transmission repose sur des interfaces matérielles qui établissent les connexions point à point entre les nœuds. Toutefois, c’est bien le protocole IP qui rend possible la communication de bout en bout en fournissant à chaque paquet les informations nécessaires pour trouver sa route parmi un ensemble de chemins possibles.
 
-Les données circulent sur le réseau Internet sous forme de datagrammes (c’est pour cela que l’on parle alors de commutation de paquets). Les datagrammes sont des ensembles de données encapsulées, auxquelles on a ajouté des entêtes, correspondant aux informations liées à leur transport : adresse IP, destination, type de service…
+Trois éléments principaux contenus dans l’en-tête IP permettent de définir précisément la destination finale d’un paquet :
 
-La taille maximale d’un datagramme est de 65536 octets. Mais, cette valeur est rarement atteinte, car les réseaux ont une capacité moindre par rapport à une telle dimension. De plus, les réseaux utilisés pour propager de l’information sur Internet, sont adossés à différentes technologies, si bien que la taille maximale d’un datagramme peut également varier selon le type de réseau sous-jacent.
+- **L’adresse IP** : identifie de manière unique l’hôte de destination dans le réseau.
+- **Le masque de sous-réseau** : précise la partie de l’adresse qui désigne le réseau et celle qui identifie l’hôte, ce qui facilite le découpage logique en sous-réseaux.
+- **La passerelle** : indique le routeur intermédiaire par lequel le paquet peut transiter pour atteindre un réseau extérieur ou une autre portion du réseau local.
+
+Sur Internet, les données ne circulent pas sous forme de flux continus mais sous forme de **datagrammes**, c’est-à‑dire des blocs de données autonomes encapsulés avec toutes les informations indispensables à leur acheminement. Ce principe illustre la **commutation de paquets**, qui permet de fragmenter l’information en unités indépendantes pouvant emprunter des chemins différents pour rejoindre le même destinataire.
+
+Chaque datagramme IP contient ainsi, en plus de la charge utile (*payload*), un en-tête structuré où figurent notamment l’adresse de destination, l’adresse source, le type de service, le numéro de version du protocole, et diverses informations de contrôle nécessaires à la gestion de la transmission.
+
+La taille maximale théorique d’un datagramme IP est de **65 536 octets**, valeur fixée par la limite de codage du champ longueur totale dans l’en-tête. Dans la pratique, cette taille est rarement atteinte car les réseaux physiques sur lesquels transitent les paquets (Ethernet, Wi-Fi, fibre optique…) imposent souvent des contraintes plus strictes, connues sous le nom de **MTU** (_Maximum Transmission Unit_). Si un datagramme excède la capacité du lien physique, il doit être fragmenté en paquets plus petits, chaque fragment étant transmis séparément puis réassemblé à l’arrivée.
+
+Cette capacité d’adaptation fait du protocole IP un protocole robuste et flexible, apte à s’appuyer sur une multitude de technologies sous-jacentes tout en assurant une compatibilité universelle entre les systèmes et réseaux hétérogènes.
 
 ### Fragmentation des datagrammes IP
 
-La taille maximum d’une trame est appelée MTU (_Maximum Transfer Unit_) et entraine alors la fragmentation du datagramme, lorsque la taille de celui-ci est plus importante que le MTU du réseau considéré. Les MTU les plus fréquents sont :
+Lorsqu’un datagramme IP doit transiter sur un réseau dont la capacité de transmission est inférieure à sa taille, il devient nécessaire de le **fragmenter** pour qu’il puisse être transporté sans encombre. Cette limite physique de taille est donc désignée par le terme **MTU**, c’est-à‑dire la taille maximale qu’une trame peut atteindre sur un réseau donné sans nécessiter de découpage préalable.
 
-- ARPANET : 1000  
-- ETHERNET : 1500  
-- FDDI : 4470
+Chaque technologie de réseau impose son propre MTU en fonction de ses caractéristiques matérielles et protocolaires. Parmi les valeurs les plus répandues, on peut citer :
 
-La fragmentation d’un datagramme s’effectue au niveau des équipements de routage, c’est-à-dire lors de la transition des datagrammes, d’un réseau dont le MTU est important à un réseau dont le MTU est plus réduit. Donc, lorsqu’un datagramme est trop grand pour passer en un seul morceau sur le réseau considéré, le routeur va le fragmenter (ou plus prosaïquement, le découper), en fragments de taille inférieure au MTU dudit réseau et de façon à ce que la taille du fragment soit un multiple de 8 octets :
+- **ARPANET** : 1000 octets
+- **Ethernet** : 1500 octets
+- **FDDI** : 4470 octets
+
+Quand un datagramme dépasse le MTU d’un segment de réseau qu’il doit emprunter, les équipements de routage se chargent de le **fragmenter** en plusieurs morceaux plus petits, chacun respectant la limite imposée. Cette opération se produit typiquement lors du passage d’un réseau à haut MTU vers un réseau à plus faible capacité. Par exemple, un datagramme provenant d’un réseau FDDI peut être fragmenté pour être transmis sur un segment Ethernet.
 
 ![Image](assets/fr/008.webp)
 
-L’équipement réseau peut ensuite envoyer ces fragments de façon autonome et les encapsuler (c’est-à-dire, ajouter un entête à chacun des fragments), pour tenir compte de la nouvelle taille du fragment (une sorte de ré étiquetage). Le routeur en profite également pour ajouter des informations à l’intention de la machine destinatrice afin qu’elle puisse réassembler les morceaux dans le bon ordre.
+Le processus de fragmentation se déroule ainsi :
+- Le routeur découpe le datagramme en fragments de taille inférieure ou égale au MTU du réseau cible.
+- Il veille également à ce que chaque fragment ait une taille qui soit un multiple de 8 octets, car le protocole IP utilise ce multiple pour coder correctement l’offset de réassemblage.
+- Chaque fragment reçoit son propre en-tête IP, qui comporte notamment des informations indispensables pour permettre au destinataire final de réassembler les fragments dans l’ordre initial.
 
-ATTENTION : à ce stade, on remarquera que rien n’indique que les fragments arriveront dans l’ordre souhaité au départ, étant donné que chacun d’eux est acheminé de façon indépendante.
+Ces fragments sont ensuite transmis indépendamment les uns des autres : chacun peut suivre un chemin différent à travers le réseau, en fonction des tables de routage, de la charge des liaisons ou d’éventuelles pannes sur certaines routes. Rien ne garantit donc qu’ils parviendront à destination dans l’ordre où ils ont été émis.
+
+Au moment de l’arrivée, c’est la machine destinatrice qui se charge du **réassemblage**. Grâce aux informations contenues dans les en-têtes (identifiant commun, offset et indicateurs de fragmentation) le système réordonne les fragments pour reconstituer le datagramme initial avant de le transmettre à la couche supérieure. Si l’un des fragments est perdu ou corrompu pendant la transmission, l’intégralité du datagramme est généralement rejetée, car sans tous les morceaux, le contenu reconstitué serait incomplet ou incohérent.
+
+Ce mécanisme de fragmentation et de réassemblage, bien qu’efficace, présente néanmoins certaines limites en termes de performance et de charge réseau : chaque fragment ajoute une surcharge de traitement pour les routeurs et les hôtes, et le risque de perte de fragments augmente le taux de retransmission. C’est pourquoi la gestion adéquate du MTU et l’optimisation de la taille des paquets transmis restent des aspects importants pour garantir une communication fluide et efficace sur un réseau IP.
 
 ### Encapsulation des données
 
-Afin de tenir compte des transformations et de la fragmentation, chaque datagramme se voit ajouté plusieurs champs, permettant de procéder au ré-assemblage ultérieur. Ce mécanisme, appelé l’encapsulation, permet de fournir les informations liées à chaque couche de passage du datagramme et de pouvoir faire en sorte d’acheminer correctement l’information vers son destinataire.
+Pour garantir l’acheminement correct des données à travers les différentes couches du modèle TCP/IP, le mécanisme de l’**encapsulation** joue un rôle important. À chaque étape du passage d’un message depuis l’application de l’expéditeur jusqu’à la machine destinataire, des informations supplémentaires (appelées entêtes) sont ajoutées afin de fournir aux équipements intermédiaires et aux couches logicielles les instructions nécessaires au traitement, à la livraison et, le cas échéant, à la reconstitution de l’information initiale.
 
-Ainsi, lors d’une transmission, les données traversent chaque couche du modèle TCP/IP de la machine émettrice et à chacune d’elles, une nouvelle information, appelée entête, est ajoutée au paquet de données. Il s’agit d’un ensemble de d’informations garantissant la transmission. Au niveau de la machine réceptrice, l’information transite alors par chacune des couches du modèle, l’entête est lue, puis supprimée. Ainsi, à la réception, le message se présente dans son état originel :
+Lorsqu’un message est émis, il traverse successivement les quatre couches de la pile TCP/IP. À chaque couche, un nouvel entête est préfixé au bloc de données existant : chaque entête contient des métadonnées spécifiques, telles que les adresses logiques ou physiques, les ports de communication, les numéros de séquence, les indicateurs de contrôle d’erreurs, et toute information permettant de gérer la transmission et le routage.
+
+Ainsi, la transmission suit un processus structuré : la couche Application génère le **message** initial, contenant les données brutes. La couche Transport encapsule ce message dans un **segment**, en y adjoignant notamment les ports source et destination, les numéros de séquence et les mécanismes de contrôle de flux. La couche Internet prend le segment, y ajoute un entête IP pour former un **datagramme**, spécifiant notamment les adresses IP source et destination. Enfin, la couche Accès Réseau encapsule ce datagramme dans une **trame**, en ajoutant des informations comme les adresses MAC et les codes de vérification d’intégrité (CRC).
 
 ![Image](assets/fr/009.webp)
 
-A chaque niveau, le paquet se transforme, puisqu’on lui ajoute de nouveaux entêtes dont les appellations changent au fil des couches :
+Ce processus d’encapsulation assure non seulement l’intégrité et la traçabilité des données, mais aussi leur adaptabilité : à chaque transition d’un réseau à un autre, les entêtes fournissent aux équipements les informations essentielles pour décider de l’itinéraire, vérifier la validité ou procéder à la fragmentation si nécessaire.
 
-- Le paquet de données est appelé **message**, au niveau de la couche Application.  
-- Le message après encapsulation, s’appelle un **segment** sur la couche Transport.  
-- Le segment une fois encapsulé s’apparente à un **datagramme**.  
-- Pour finir, au niveau Accès, on parle de **trame**.
+À l’arrivée, le mécanisme s’inverse : la machine réceptrice reçoit la trame au niveau de la couche Accès Réseau, qui lit l’entête correspondant et le retire. Le datagramme est ensuite transmis à la couche Internet, qui lit l’entête IP, puis l’enlève à son tour pour livrer le segment à la couche Transport. Cette dernière traite les entêtes de transport, vérifie l’intégrité du flux et remet finalement le **message** à l’application cible dans son état originel.
 
 ![Image](assets/fr/010.webp)
 
-Au final, si l’on prend l’exemple d’une transmission d’un paquet depuis un client, à destination d’un serveur, on peut représenter le flux binaire et d’encapsulation de la façon suivante :
+Ce schéma illustre la transformation progressive des données à chaque niveau :
+
+- **Message** : bloc d’information au niveau de la couche Application.
+- **Segment** : unité de données après encapsulation par la couche Transport.
+- **Datagramme** : forme prise à la suite de l’ajout de l’entête IP par la couche Internet.
+- **Trame** : bloc final prêt à être transmis sur le support physique par la couche Accès Réseau.
 
 ![Image](assets/fr/011.webp)
 
+Ce processus, essentiel à la fiabilité et à l’universalité des communications sur Internet, garantit que chaque donnée, aussi fragmentée ou complexe soit-elle, puisse être transportée de bout en bout tout en restant compréhensible et exploitable par la machine réceptrice.
+
 ### Adressage IP
 
-Mais, même en utilisant les différents principes décrits ci-dessus, le réseau nécessite de se repérer pour délivrer les paquets de données. Au niveau de la couche Internet, le protocole prévoit de fournir une identification unique pour chaque extrémité de la communication. C’est ce que l’on va appeler l’adresse IP (définie sur 32 bits), et constituée de quatre nombres, séparés par des points : N1.N2.N3.N4
+Même en appliquant les mécanismes fondamentaux de commutation de paquets, de fragmentation et d’encapsulation, un réseau ne pourrait remplir sa mission sans un système d’adressage rigoureux. Pour que chaque paquet de données trouve son chemin vers le bon destinataire, la couche Internet s’appuie sur un identifiant unique : l’**adresse IP**. En version IPv4, celle-ci est codée sur **32 bits** et se présente sous la forme de quatre nombres décimaux séparés par des points, selon le format classique N1.N2.N3.N4 (par exemple : 192.168.1.12).
 
-En fait, cette adresse comporte elle-même deux parties :
+Une adresse IP est structurée en deux parties distinctes : la première, appelée **_netid_**, identifie le réseau auquel appartient l’hôte ; la seconde, le **_hostid_**, précise l’hôte individuel à l’intérieur de ce réseau. Cette séparation logique facilite la hiérarchisation et l’organisation du réseau mondial en de multiples réseaux interconnectés.
 
-- Une adresse réseau (aussi appelée _netid_)  
-- Une adresse hôte (au sein du réseau qu’elle adresse aussi appelée _hostid_)
-
-Suivant les cas de figure, il existe quatre ou cinq classes d’adresses, notifiée par les lettres A à E :
+Historiquement, le système IPv4 s’appuie sur un découpage en classes, notées de A à E, qui détermine l’étendue des plages d’adresses et leur usage. Chaque classe réserve un nombre défini de bits au _netid_ et au _hostid_, ce qui influe directement sur le nombre de réseaux et d’hôtes possibles.
 
 ![Image](assets/fr/012.webp)
 
-IMPORTANT : il existe, comme on peut le constater, des catégories (ou des tranches) d’adresses qui ne peuvent en aucun cas être exploitées. En particulier, dans la classe C, il n’est possible d’avoir que 254 machines. Or, l’identifiant de la machine est codé sur 8 bits (soient 256 valeurs possibles). Les deux absents représentent respectivement :
+Il faut savoir que toutes les combinaisons binaires ne sont pas exploitables pour identifier des hôtes. Dans une adresse de **classe C**, par exemple, le dernier octet offre 8 bits, soit 256 valeurs possibles. Toutefois, deux d’entre elles ont une fonction spéciale : la valeur 0 désigne le réseau lui-même, tandis que 255 correspond à l’adresse de **diffusion** (_broadcast_), qui permet d’envoyer un paquet à tous les hôtes du réseau en une seule fois. Il reste donc 254 adresses réellement utilisables pour des machines.
 
-**- Pour la valeur 0 : l’adresse du réseau**  
-**- Pour la valeur 255 : l’adresse de diffusion (aussi appelée multidiffusion)**
-
-REMARQUE : en fonction de la classe d’adresse considérée, le nombre maximum de sous-réseaux (et donc, de machines ou d’adresses délivrées) varie :
+Le nombre maximum d’adresses varie sensiblement d’une classe à l’autre, ce qui permet d’adapter le plan d’adressage aux besoins : de vastes réseaux publics pour les classes A, des réseaux d’entreprise pour les classes B, ou des réseaux plus restreints pour les classes C.
 
 ![Image](assets/fr/013.webp)
 
-De plus, au sein de chaque classe d’adresses, certaines ne peuvent être routées sur Internet et sont alors réservées aux réseaux locaux (ou aux réseaux privés). C’est d’ailleurs pour cela qu’on les appelle des adresses privées :
+Certaines plages d’adresses sont réservées et ne transitent jamais sur Internet. On parle alors d’**adresses privées**, destinées aux réseaux internes d’organisations, d’entreprises ou de particuliers. Elles ne peuvent pas être routées directement sur Internet sans passer par une traduction d’adresses, généralement assurée par un dispositif NAT (*Network Address Translation*). Ces plages sont :
+- Pour la **Classe A** : de 10.0.0.0 à 10.255.255.255
+- Pour la **Classe B** : de 172.16.0.0 à 172.31.255.255
+- Pour la **Classe C** : de 192.168.0.0 à 192.168.255.255
 
-- Classe A : 10.0.0.0 à 10.255.255.255  
-- Classe B : 172.16.0.0 à 172.31.255.255  
-- Classe C : 192.168.0.0 à 192.168.255.255
+Lorsqu’un équipement interne utilise l’une de ces adresses pour accéder à Internet, son adresse privée est remplacée par une adresse publique valide par un routeur ou une passerelle NAT.
 
-**-> Adresses devant être "natées" pour sortir sur Internet.**
+Prenons un exemple : si un hôte possède l’adresse **192.168.7.5**, on peut en déduire plusieurs informations complémentaires. L’adresse **192.168.7.0** correspond au réseau, **192.168.7.1** est souvent attribuée au routeur local, **192.168.7.5** désigne l’hôte spécifique.
 
-Exemple : soit l’adresse d’hôte 192.168.7.5, on peut déterminer les adresses suivantes :
+Une adresse particulière mérite d’être citée : **127.0.0.1**, appelée "***loopback***" ou adresse de **bouclage**. Sur les systèmes Linux, elle est associée à l’interface **lo**. Cette adresse permet à une machine de s’adresser à elle-même pour des tests ou des diagnostics locaux, sans passer par une interface physique. L’ensemble de la plage **127.0.0.0/8** est réservé à cet usage.
 
-- 192.168.7.0 : Adresse Réseau  
-- 192.168.7.1 : Adresse broadcast (ou diffusion)  
-- 192.168.7.5 : Adresse de machine (ou unicast)  
-- 224.x.x.x : Adresse multicast (aussi appelée Classe D multidiffusion)
+Pour optimiser l’utilisation des adresses et organiser des réseaux complexes, le concept de **masque de sous-réseau** (_netmask_) est indispensable. Ce masque binaire permet de distinguer, à l’intérieur d’une adresse IP, la partie _netid_ de la partie _hostid_. Chaque classe dispose d’un masque par défaut : **255.0.0.0** pour la classe A, **255.255.0.0** pour la classe B et **255.255.255.0** pour la classe C.
 
-Une adresse particulière : 127.0.0.1, représente l’adresse de loopback, aussi appelée bouclage et notée, (du moins sur des machine [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")), lo. Elle représente la machine elle-même (sans la nommer), ainsi que le sous-réseau identifié par 127.0.0.0/8.
+Une bonne conception réseau repose sur le respect d’un principe fondamental : les machines qui doivent échanger directement des données doivent appartenir au même réseau ou au même sous-réseau. Pour répondre à des besoins de segmentation, on procède donc souvent au ***subnetting***, c’est-à‑dire à la division d’un réseau en sous-réseaux plus petits grâce à des masques plus fins.
 
-En effet, chaque réseau peut être lui-même découpé en sous-réseaux, à l’aide de masques permettant un ciselage plus fin des adresses. Ainsi, le netmask (ou masque de sous-réseau), est un masque binaire permettant de séparer immédiatement, l’adresse réseau pour ce sous-réseau, de l’adresse de l’hôte, pour un message global. De la même façon que l’on a attribué des classes aux tranches d’adresses, on découpe les sous-réseaux en classes :
+Prenons un cas concret. Soit un réseau de **classe C** : 192.168.1.0/24 avec un masque initial de 255.255.255.0. Si l’on souhaite organiser ce réseau pour accueillir quatre sous-réseaux de 60 machines chacun, plusieurs étapes sont nécessaires.
 
-- Classe A : 255.0.0.0  
-- Classe B : 255.255.0.0  
-- Classe C : 255.255.255.0
+**Étape 1** : Déterminer le nombre d’adresses nécessaires. Ici, 60 hôtes + 2 adresses réservées (réseau et diffusion) donnent 62 adresses par sous-réseau.
 
-La règle d’or, en matière de communication réseau, consiste à n’établir de lien qu’entre machines de même réseau ou de même sous-réseau. Ainsi, le calcul d’un sous-réseau s’effectue (en reprenant l’exemple ci-dessus), à partir des informations dont on dispose :
+**Étape 2** : Chercher la puissance de deux immédiatement supérieure. 2⁶ = 64.
 
-- Réseau : 192.168.1.0  
-- Adresse du Réseau : 192.168.1.255  
-- Masque de réseau : 255.255.255.0
-
-**Étape 1** : On doit alors déterminer combien de machines on souhaite intégrer dans le sous-réseau. En considérant qu’un réseau de classe C permet d’intégrer 254 machines (puisque 0 et 255 sont réservés). Si l’on se fixe, par exemple 60 machines à adresser (en ajoutant deux à cette valeur : une adresse pour le sous-réseau et une pour le broadcast), on obtient alors la valeur de 62.
-
-**Étape 2** : Une fois le nombre d’adresses déterminé, on doit trouver la puissance de 2 exacte (ou juste supérieure), au nombre fixé. D’après l’exemple, on aura 26=64.
-
-**Étape 3** : Il faut ensuite écrire le masque en binaire, en plaçant tous les bits du masque de réseau (ici de classe C), à 1 et en positionnant les n premiers bits du masque, correspondant à la partie machine, à 0 (d’après l’exemple n=6) :
+**Étape 3** : Adapter le masque en conséquence. En binaire, on conserve les bits du _netid_ et on réserve les bits nécessaires au _hostid_. Ici, on obtient un masque binaire qui, une fois converti, donne **255.255.255.192**.
 
 ![Image](assets/fr/014.webp)
 
-**Étape 4** : on peut alors convertir ce masque en décimal, soit 255.255.255.192 et calculer l’ensemble des sous-réseaux possible (en faisant varier les "y" derniers bits du masque correspondant alors à la partie machine soit, d’après l’exemple :
+**Étape 4** : Calculer les plages d’adresses pour chaque sous-réseau en variant les bits réservés à l’hôte.
 
 ![Image](assets/fr/015.webp)
 
-**Étape 5** : au final, on obtient quatre sous-réseaux de 62 machines (soient un total de 248 machines), auxquelles on peut ajouter les 2x4 adresses réservées afin de disposer de 256 adresses potentielles.
-
-Ce genre d’opération revient, en fait, à subdiviser le bloc "HostId", au sein de l’entête d’adresse en deux champs HostId et SubnetId :
+**Étape 5** : Ainsi, on obtient quatre sous-réseaux, chacun capable d’héberger jusqu’à 62 machines, tout en conservant l’efficacité du plan d’adressage global. La partie _hostid_ de l’adresse est donc subdivisée en deux : une pour le _subnetid_ et l’autre pour l’hôte proprement dit.
 
 ![Image](assets/fr/016.webp)
 
+Ce principe fondamental du subnetting reste incontournable dans l’ingénierie réseau moderne, car il permet d’allouer les ressources IP avec précision, de contrôler le trafic et d’assurer une bonne isolation entre segments tout en maintenant une gestion claire et évolutive.
+
 ### Adressage CIDR
 
-A l’orée des années 90, suite à l’engouement pour Internet, au niveau des entreprises, le système d’attribution des réseaux IP, basé sur le système des classes montra quelques limites, notamment en ce qui concerne les tables de routages. Il a donc fallu trouver une parade à ce problème. C’est ainsi qu’un nouveau système de répartition des adresses fut initialisé : le CIDR ou _Classless Inter-Domain Routing_ (qui d’ailleurs à aujourd’hui supplanté le système des classes d’attribution d’adresses).
+Au début des années 1990, avec l’essor fulgurant d’Internet dans le monde des entreprises et des organismes, le système classique d’attribution d’adresses IP basé sur les classes (A, B, C) a révélé ses limites. En effet, cette approche, rigide par nature, provoquait un gaspillage conséquent d’adresses IP et compliquait considérablement la gestion des tables de routage, qui devenaient de plus en plus volumineuses et difficiles à maintenir à jour. Pour pallier ces contraintes, une solution plus souple et optimisée a vu le jour : le **CIDR** (_Classless Inter-Domain Routing_), qui s’est progressivement imposé comme la norme et a largement supplanté l’ancien modèle par classes.
 
-Le but était de pouvoir regrouper plusieurs réseaux de classes C en un seul bloc d’adresses de 2nx256 et n’avoir qu’une seule entrée en vis-à-vis de ces réseaux (avec agrégation de routes). On parlait alors de supernetting. Puis, ce mécanisme fut alors propagé aux réseaux de classe B (même si le besoin était moindre, par rapport à la classe C), puis aux réseaux de classe A (là, le besoin d’agrégation ne se pose même pas). En réalité, c’est l’ensemble de la représentation de l’espace d’adressage qui a été modifié.
+L’idée fondatrice du CIDR est de pouvoir regrouper plusieurs réseaux adjacents, notamment des blocs de classe C, en une seule entité logique appelée **superréseau** (_supernet_). Grâce à cette agrégation, une seule entrée suffit dans les tables de routage pour représenter plusieurs sous-réseaux, ce qui réduit significativement la taille des routes gérées par les routeurs et améliore leur performance. À l’origine, le besoin d’agrégation était surtout pressant pour les adresses de classe C, plus restreintes en capacité, mais le concept s’est étendu aux classes B, et même par principe aux classes A, bien que la problématique y soit moins critique en raison de la vaste plage d’adresses qu’elles offrent.
 
-Du coup, définir des masques réseau plus grands que celui de la classe naturelle du préfixe réseau, revient à exprimer un bloc CIDR. Ces blocs peuvent éventuellement, représenter des réseaux (au sens n° de réseau et de masque). Les blocs peuvent aussi être un ensemble de réseaux, de même préfixe, ou un seul et même réseau. Dans ce cas, la taille du bloc est égale au masque du réseau, ou à une portion de ce réseau.
+Avec le CIDR, la notion de classe disparaît : l’espace d’adressage est traité comme un continuum qu’il est possible de découper ou d’agréger à volonté selon les besoins. Concrètement, on peut ainsi définir des **blocs CIDR** en utilisant des masques de sous-réseau plus flexibles que ceux imposés par les classes standards. Ces blocs peuvent représenter soit un réseau unique, soit un ensemble contigu de sous-réseaux partageant le même préfixe.
 
-Un bloc se définit par son préfixe séparé par le symbole "/" et suivi du nombre de bits représentatifs de la taille du bloc.
+Un bloc CIDR est désigné par la syntaxe _adresse/préfixe_, où le "/" est suivi du nombre de bits définissant la portion fixe du réseau. Par exemple, **/17** signifie que les dix-sept premiers bits de l’adresse représentent la partie réseau, laissant les quinze bits restants pour identifier les hôtes à l’intérieur de ce bloc.
 
-**Exemple** : /17 indique que les dix-sept premiers bits représentent la taille d’adresses ou le masque réseau. La taille du bloc est en fait de 2(32-n), où n représente la valeur mentionnée par /17 (soit 32-17=15, c’est-à-dire 215=131072 adresses IP. En déduisant les deux adresses particulières, on obtient 131070 adresses, au total).
+Prenons un exemple concret : un bloc **/17** permet de disposer de 2^(32-17) adresses, soit 2^15 = 32 768 adresses potentielles. En soustrayant les deux adresses réservées (adresse du réseau et adresse de diffusion), on obtient 32 766 adresses réellement attribuables à des hôtes. Ce principe permet aux administrateurs réseaux de dimensionner très finement leurs plages IP, en ajustant les tailles des sous-réseaux aux besoins réels, sans gaspiller inutilement des adresses précieuses.
 
-Pour information voici, les quatre premières lignes du tableau de correspondance CIDR d’attribution des adresses :
+Pour faciliter la conversion et la compréhension, on utilise des tableaux de correspondance, tel que celui ci-dessous, qui présente les préfixes CIDR courants et leur équivalence en nombre d’adresses :
 
 ![Image](assets/fr/017.webp)
 
-**NOTE** : le sous-réseau zéro était considéré comme un sous-réseau non standard, par le RFC 950, bien qu'utilisable. La pratique de réserver le sous-réseau 0 et le sous réseau 1 est cependant considéré comme obsolète, depuis le RFC 1878. Il s'agit du premier sous-réseau d'un réseau.
+**NOTE** : Historiquement, le RFC 950 considérait le sous-réseau zéro comme non standard et déconseillait son usage, principalement pour éviter des confusions lors du routage. Toutefois, cette restriction est devenue obsolète avec le RFC 1878, qui autorise pleinement son exploitation. Les anciennes réserves concernaient avant tout la compatibilité avec du matériel ancien, incapable de gérer correctement les notations CIDR. Aujourd’hui, grâce aux équipements modernes, cette limitation a disparu.
 
-**Exemple** : le sous-réseau 1.0.0.0 avec 255.255.0.0 comme masque de sous-réseau.
+À titre d’exemple : le sous-réseau **1.0.0.0** associé à un masque de sous-réseau **255.255.0.0** illustre parfaitement ce principe : autrefois ambigu avec l’identifiant de réseau complet en classe A, il est désormais parfaitement valide et utilisable.
 
-Le problème, avec ce sous-réseau, c’est que l'adresse unicast pour le sous-réseau est la même que l'adresse unicast du réseau de classe A complet. Ce problème n'est plus d'actualité puisque cette réserve n'avait été conservée, que pour rester compatible avec de vieux matériels, ne sachant pas gérer le CIDR. Ce qui aujourd’hui n’est plus d’actualité.
+**ASTUCE** : pour réaliser sans erreur les calculs de sous-réseaux et convertir rapidement des adresses en notation CIDR, il existe des outils pratiques comme ***ipcalc***. Véritable calculette réseau, cet utilitaire simplifie la planification d’adressage en affichant clairement le découpage, les plages disponibles et les masques associés, ce qui est particulièrement utile pour les administrateurs et les étudiants qui souhaitent se familiariser avec cette notation devenue incontournable.
 
-**ASTUCE** : il existe bien évidemment un utilitaire permettant d’effectuer les calculs de masque de sous-réseau en notation CIDR, à la façon d’une calculette en intégrant les étapes mentionnées ci-dessus : il s’agit de l’outil _ipcalc_.
-
+```shell
+sudo apt install ipcalc
+```
 
 
 ## Le protocole TCP

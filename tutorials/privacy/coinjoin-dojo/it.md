@@ -91,7 +91,7 @@ Per eseguire un coinjoin con Whirlpool, è quindi necessario selezionare una spe
 - 0,01 bitcoin;
 - 0,001 bitcoin (= 100.000 sats).
 
-Unendoti a una pool con i tuoi bitcoin, questi verranno suddivisi in UTXO perfettamente omogenei a quelli degli altri partecipanti. Ogni pool prevede un limite massimo di partecipazione; pertanto, se il tuo importo supera tale limite, dovrai effettuare due ingressi separati all’interno della stessa pool oppure scegliere una pool diversa con un importo maggiore:
+Unendoti a una pool con i tuoi bitcoin, questi verranno suddivisi in UTXO perfettamente uguali a quelli degli altri partecipanti. Ogni pool prevede un limite massimo di partecipazione; pertanto, se il tuo importo supera tale limite, dovrai effettuare due ingressi separati all’interno della stessa pool oppure scegliere una pool diversa con un importo maggiore:
 
 | Pool (bitcoin) | Importo massimo per ingresso (bitcoin) |
 |-------------------|----------------------------------------|
@@ -103,8 +103,8 @@ Unendoti a una pool con i tuoi bitcoin, questi verranno suddivisi in UTXO perfet
 Come accennato in precedenza, un UTXO è considerato appartenente a una pool quando è pronto per essere incluso in un coinjoin. Tuttavia, ciò non implica che l’utente perda il controllo su di esso. **Attraverso i diversi cicli di mix, mantieni il pieno controllo delle tue chiavi e, di conseguenza, dei tuoi bitcoin.** Questo è ciò che differenzia la tecnica del coinjoin da altre tecniche di mixing centralizzate.
 
 Per entrare in una pool di coinjoin, è necessario pagare sia le commissioni di servizio sia le commissioni di mining.
-Le commissioni di servizio sono fisse per ogni pool e servono a compensare i team responsabili dello sviluppo e della manutenzione di Whirlpool.
-Queste commissioni devono essere pagate una sola volta, al momento dell’ingresso nella pool e, dopo questo passaggio, potrai partecipare a un numero illimitato di remix senza costi aggiuntivi.
+Le commissioni di servizio sono fisse per ogni pool e servono a ricompensare i team responsabili dello sviluppo e della manutenzione di Whirlpool.
+Queste commissioni devono essere pagate una sola volta al momento dell’ingresso nella pool e, dopo questo passaggio, potrai partecipare a un numero illimitato di remix senza costi aggiuntivi.
 Di seguito, le commissioni fisse attualmente applicate per ciascuna pool:
 
 | Pool (bitcoin) | Commissione di ingresso (bitcoin) |

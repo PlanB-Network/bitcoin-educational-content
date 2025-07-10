@@ -138,23 +138,23 @@ Grazie a questo sistema di commissioni, Whirlpool si distingue davvero da altri 
 È quindi possibile ottenere un’elevata privacy pagando soltanto la commissione d’ingresso nella pool, oltre alle commissioni di mining per due transazioni: la `Tx0` e il primo mix.
 Va sottolineato che, al termine dei cicli di coinjoin, l’utente dovrà comunque coprire le commissioni di mining necessarie per prelevare i propri UTXO dalla pool, a meno che non abbia attivato l’opzione `mix to`, che verrà spiegata più avanti in questo tutorial.
 
-### Gli account del portafoglio HD utilizzati da Whirlpool
-Per eseguire un coinjoin tramite Whirlpool, il portafoglio deve generare diversi account distinti. Un account, nel contesto di un portafoglio HD (*Hierarchical Deterministic*), costituisce una sezione completamente isolata dalle altre, questa scissione avviene al terzo livello di profondità della gerarchia del portafoglio, ovvero a livello dell'`xpub`.
+### Gli account dell’HD wallet utilizzati da Whirlpool
+Per eseguire un coinjoin tramite Whirlpool, il wallet deve generare diversi account distinti. Un account, nel contesto di un wallet HD (Hierarchical Deterministic), rappresenta una sezione completamente isolata dalle altre. Questa separazione avviene al terzo livello della gerarchia del wallet, ovvero a livello della xpub.
 
-Un portafoglio HD può teoricamente derivare fino a `2^(32/2)` account diversi. L'account iniziale, utilizzato di default su tutti i portafogli Bitcoin, corrisponde all'indice `0'`.
+Un wallet HD può teoricamente derivare fino a 2^(32/2) account differenti. L’account iniziale, usato di default da tutti i wallet Bitcoin, corrisponde all’indice 0'.
 
-Per i portafogli idonei a Whirlpool, come Samourai o Sparrow, vengono utilizzati 4 account per soddisfare le esigenze del processo di coinjoin:
+Nei wallet compatibili con Whirlpool, come Samourai o Sparrow, vengono utilizzati quattro account per soddisfare le esigenze del processo di coinjoin:
 - L'account **deposito**, identificato dall'indice `0'`;
-- L'account **bad bank** (o cambio tossico), identificato dall'indice `2 147 483 644`;
+- L'account **bad bank** (o doxxic change), identificato dall'indice `2 147 483 644`;
 - L'account **premix**, identificato dall'indice `2 147 483 645`;
 - L'account **postmix**, identificato dall'indice `2 147 483 646`.
 
-Ognuno di questi account svolge una funzione specifica all'interno del coinjoin.
+Ciascuno di questi account svolge una funzione specifica all’interno del coinjoin.
 
-Tutti questi account sono collegati a un unico seed, il quale permette all’utente di recuperare l’accesso a tutti i propri bitcoin utilizzando la frase di recupero e, se impostata, la passphrase.
-Tuttavia, durante il processo di ripristino, è necessario indicare al software gli indici degli account effettivamente utilizzati, affinché possa derivare correttamente tutti gli address e UTXO associati.
+Tutti questi account sono collegati a un unico seed, che consente all’utente di recuperare l’accesso a tutti i propri bitcoin utilizzando la recovery phrase e, se impostata, anche la passphrase.
+Tuttavia, durante questa operazione di recupero, è necessario indicare al software gli indici degli account che sono stati effettivamente utilizzati.
 
-Ora esaminiamo le diverse fasi di un coinjoin Whirlpool all'interno di questi account.
+Esaminiamo ora le diverse fasi di un coinjoin Whirlpool all'interno di questi account.
 
 ### Le diverse fasi dei coinjoin su Whirlpool
 **Fase 1: La `Tx0`**

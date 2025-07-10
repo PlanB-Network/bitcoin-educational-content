@@ -94,7 +94,7 @@ Saat Anda menonaktifkan mode uji coba, Anda harus mengonfigurasi portofolio pena
 
 
 
-Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.network/tutorials/Wallet).
+Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Anda telah memahami dengan baik tentang Speed, mengintegrasikan Bitcoin ke dalam
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

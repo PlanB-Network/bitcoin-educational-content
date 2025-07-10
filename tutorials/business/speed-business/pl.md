@@ -94,7 +94,7 @@ Po dezaktywacji trybu testowego należy skonfigurować portfel wypłat.
 
 
 
-Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne] (https://planb.network/tutorials/Wallet).
+Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne] (https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Masz już dobre pojęcie o Speed, zintegruj Bitcoin ze swoją firmą i rozwijaj 
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

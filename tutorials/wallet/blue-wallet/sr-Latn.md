@@ -11,7 +11,7 @@ Početak rada sa Bitcoin čini se velikim izazovom za ljude koji su skeptični u
 
 
 
-U ovom vodiču ćemo pogledati Blue Wallet, jednostavan ali veoma efikasan Bitcoin Wallet koji vam omogućava da lično upravljate svojim bitcoinima i takođe da kreirate upravljačke zadruge zasnovane na [Multisig](https://planb.network/resources/glossary/Multisig) (ne brinite, vratićemo se na to).
+U ovom vodiču ćemo pogledati Blue Wallet, jednostavan ali veoma efikasan Bitcoin Wallet koji vam omogućava da lično upravljate svojim bitcoinima i takođe da kreirate upravljačke zadruge zasnovane na [Multisig](https://planb.network/resources/glossary/multisig) (ne brinite, vratićemo se na to).
 
 
 
@@ -264,7 +264,7 @@ Kada validirate svoju transakciju, biće vam potreban drugi potpis da biste odob
 
 
 
-Drugi potpisnik Wallet, ako je i korisnik, može potpisati transakciju čak i ako nije povezan na Internet (nema Wi-Fi, nema mobilne podatke) skeniranjem QR koda [delimično potpisane transakcije](https://planb.network/resources/glossary/PSBT) koju ste upravo kreirali.
+Drugi potpisnik Wallet, ako je i korisnik, može potpisati transakciju čak i ako nije povezan na Internet (nema Wi-Fi, nema mobilne podatke) skeniranjem QR koda [delimično potpisane transakcije](https://planb.network/resources/glossary/psbt) koju ste upravo kreirali.
 
 
 

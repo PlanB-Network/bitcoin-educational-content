@@ -1,0 +1,2 @@
+description: |
+  Oparty na otwartym kodzie źródłowym, internetowy Interface do łatwego zarządzania jednym lub większą liczbą węzłów Lightning (LND, Core Lightning, Eclair). RTL oferuje szeroki zakres funkcji, w tym zarządzanie kanałami, płatności, kopie zapasowe i zamiany, a wszystko to w intuicyjnym Interface, który można wdrożyć w ciągu kilku minut na wielu platformach.

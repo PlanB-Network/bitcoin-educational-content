@@ -345,7 +345,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-请注意，与 [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))这样的 Wallet 不同，宙斯的路线是在本地计算的，而不是委托给第三方（就 Phoenix 而言是 ACINQ）。因此，您是唯一知道收款人的人。我们损失了一点效率（完成支付需要更长的时间，但我们获得了很多隐私）。
+请注意，与 [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))这样的 Wallet 不同，宙斯的路线是在本地计算的，而不是委托给第三方（就 Phoenix 而言是 ACINQ）。因此，您是唯一知道收款人的人。我们损失了一点效率（完成支付需要更长的时间，但我们获得了很多隐私）。
 
 
 

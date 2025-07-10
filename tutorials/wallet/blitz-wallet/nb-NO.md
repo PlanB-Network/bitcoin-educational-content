@@ -1,5 +1,5 @@
 ---
-navn : Blitz Wallet
+name: Blitz Wallet
 
 
 description: Den enkleste Bitcoin-porteføljen.

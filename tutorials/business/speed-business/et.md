@@ -94,7 +94,7 @@ Kui deaktiveerite testrežiimi, peate konfigureerima oma tagasivõtuportfelli.
 
 
 
-Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.network/tutorials/Wallet).
+Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Sa oled saanud hea ülevaate Speedist, integreeri Bitcoin oma ettevõttesse ja a
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

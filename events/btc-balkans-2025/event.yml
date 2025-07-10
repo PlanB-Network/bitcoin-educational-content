@@ -1,0 +1,26 @@
+id: 45c3ac96-4001-4dcb-be2d-ab3be58475b5
+start_date: 2025-10-18 15:00:00
+end_date: 2025-10-20 00:00:00
+timezone: America/El_Salvador
+address_city_country: Athens, Bucharest
+name: BTC Balkans 2025
+type: conference
+description: "BTC Balkans 2025 takes place on October 18–19 in Sofia, Bulgaria,
+  bringing together Bitcoiners from across the Balkans and beyond. This event
+  shines a light on the regional communities leading grassroots Bitcoin
+  adoption, while also welcoming global speakers who bring international
+  perspective and visibility.\r
+
+  With a focus on real-world use, cultural context, and local resilience, BTC
+  Balkans offers a unique experience where local voices meet global insight.
+  Expect engaging talks, hands-on sessions, and plenty of opportunities to
+  connect with Bitcoiners working to build sovereign tools and communities
+  across the region."
+language:
+  - en
+links:
+  website: https://www.btcbalkans.com/
+tags:
+  - decentralization
+  - adoption
+  - privacy

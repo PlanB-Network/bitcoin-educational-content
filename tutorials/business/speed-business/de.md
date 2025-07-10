@@ -94,7 +94,7 @@ Wenn Sie den Testmodus deaktivieren, müssen Sie Ihr Entnahmeportfolio konfiguri
 
 
 
-Wenn Sie noch keinen Bitcoin und/oder Lightning Wallet besitzen, empfehlen wir Ihnen, einen Blick auf unsere [mobile Geldbörsen] Tutorials zu werfen (https://planb.network/tutorials/Wallet).
+Wenn Sie noch keinen Bitcoin und/oder Lightning Wallet besitzen, empfehlen wir Ihnen, einen Blick auf unsere [mobile Geldbörsen] Tutorials zu werfen (https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Sie haben ein gutes Verständnis für Geschwindigkeit, integrieren Bitcoin in Ih
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

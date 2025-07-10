@@ -1,5 +1,5 @@
 ---
-名稱 : Blitz Wallet
+name: Blitz Wallet
 
 
 description: 最簡單的 Bitcoin 組合。

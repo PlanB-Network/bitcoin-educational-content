@@ -94,7 +94,7 @@ Cuando desactive el modo de prueba, deberá configurar su cartera de retirada.
 
 
 
-Si aún no tienes una Bitcoin y/o una Lightning Wallet, te recomendamos que eches un vistazo a nuestros tutoriales sobre [monederos móviles](https://planb.network/tutorials/Wallet).
+Si aún no tienes una Bitcoin y/o una Lightning Wallet, te recomendamos que eches un vistazo a nuestros tutoriales sobre [monederos móviles](https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Ya tiene un buen conocimiento de Speed, integre Bitcoin en su negocio y desarrol
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

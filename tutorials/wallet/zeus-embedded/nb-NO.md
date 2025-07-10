@@ -345,7 +345,7 @@ Med Zeus kan du deretter legge til en seddel for å denominere betalingen, eller
 
 
 
-Merk at i motsetning til en Wallet som [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), blir ruten med Zeus beregnet lokalt og ikke delegert til en tredjepart (ACINQ i Phoenix' tilfelle). Så du er den eneste som kjenner mottakeren av betalingen. Vi taper litt effektivitet (betalinger tar litt lenger tid å gjennomføre, men vi vinner mye når det gjelder personvern).
+Merk at i motsetning til en Wallet som [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), blir ruten med Zeus beregnet lokalt og ikke delegert til en tredjepart (ACINQ i Phoenix' tilfelle). Så du er den eneste som kjenner mottakeren av betalingen. Vi taper litt effektivitet (betalinger tar litt lenger tid å gjennomføre, men vi vinner mye når det gjelder personvern).
 
 
 

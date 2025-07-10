@@ -2,13 +2,14 @@ id: 4958d6b5-fbeb-4c89-b34c-fd18d1a23747
 ## Characteristics of the course
 
 # topic
-# Choose between Bitcoin, Business, Mining, Protocol, Security, Sociology, Sovereignty
-topic: bitcoin
+# refer to https://github.com/orgs/PlanB-Network/projects/5/views/2
+# Choose between: bitcoin, business, mining, protocol, security, sociology, sovereignty
+topic: business
 
-# subtopic
-# Depends on the chosen topic. Subtopics for 'Bitcoin' are limited to just 'Bitcoin'
-# For other topics, refer to https://github.com/orgs/DecouvreBitcoin/projects/3/views/7
-subtopic: bitcoin
+# access the subtopic list, follow instructions below:
+# go to https://github.com/orgs/PlanB-Network/projects/5/views/3
+# on the left bar, click on a topic to see its available list of subtopics
+subtopic: finance
 
 # define the content difficulty level from user's perspective
 # Level can be one of following:
@@ -19,37 +20,13 @@ subtopic: bitcoin
 level: beginner
 
 # teaching_format
-# Choose between self_paced, professor_led
+# Choose between: self_paced, professor_led
 teaching_format: self_paced
 
 # hours
 # Evaluate the number of hours that it would take to
 # complete the whole course
 hours: 2
-
-# This parameter controls if the course is paid or free of charge
-# Available options: true, false
-# set it as "true" if the course has to be purchased before accessing it
-requires_payment: false #default value
-
-# set the price displayed onto the platform to purchase the course
-# currency is USD
-# price is VAT included
-# if the user choose BTC as payment method, the USD amount will be converted on the fly
-# Mandatory if requires_payment is set to true
-online_price_dollars: 21
-
-# This a description shown in the payment modal window.
-# Use it to give to the users a wrap up of what they are purchasing and/or any useful info users need to know just before the payment.
-# NOTE: it is important to always leave 2 empty spaces before each text line
-# Mandatory if requires_payment is set to true
-paid_description: |
-  This a description shown in the payment modal window. use it to give to the users a wrap up of what they are purchasing and/or any useful info users need to know just before the payment.
-
-# Specify starting and ending dates of the course.
-# Mandatory
-start_date: YYYY-MM-DD
-end_date: YYYY-MM-DD
 
 # List who is/are the professor(s)
 # They are identified by their UUID
@@ -108,10 +85,6 @@ videos:
   - id: 7448d0bf-7d7f-4f55-b012-b7d0b8e04285
     rumble:
       - it: b1t4fz4
-
-# only for premium courses similar to the biz school
-# insert below the date of first course publication
-published_at: YYYY-MM-DD
 
 # This parameter is used to control if a course has to be published only on testnet (parameter set to true) or on mainnet (parameter set to false)
 # Choose between true or false

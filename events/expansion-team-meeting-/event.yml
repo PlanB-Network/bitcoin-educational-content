@@ -1,0 +1,16 @@
+id: fbba98aa-1313-4862-bdff-079f60f1c46f
+start_date: 2025-07-11 07:00:00
+end_date: 2025-07-11 12:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: "Expansion team meeting "
+type: conference
+description: this is a test from the webtool
+language:
+  - fr
+links:
+  website: www.com
+tags:
+  - lightning
+  - wallets
+  - software

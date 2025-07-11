@@ -345,115 +345,112 @@ sudo apt install ipcalc
 ## Le protocole TCP
 <chapterId>860bf7d5-a502-4d10-a12c-9827f6c2d393</chapterId>
 
-**Le protocole TCP (_Transmission Control Protocol_) est un des principaux acteurs de la couche TRANSPORT du modèle TCP/IP. Il permet au niveau des applications, de gérer les données en provenance ou à destination de la couche inférieure (c’est-à-dire du protocole IP).**
+Le **protocole TCP** (_Transmission Control Protocol_) occupe une place centrale au sein de la **couche TRANSPORT** du modèle TCP/IP. Il constitue un maillon entre les applications et la couche Internet, en organisant le transfert fiable des données échangées entre deux machines distantes. Là où le protocole IP se contente de transmettre des paquets sans garantie de livraison ni d’ordre, TCP prend en charge l’intégrité et la cohérence du flux de données, ce qui garantit ainsi aux applications une communication sans perte, sans doublon et dans l’ordre d’envoi.
 
-Le protocole TCP a pour tâche de :
+Les principales responsabilités de TCP peuvent se résumer ainsi :
+- il réordonne les datagrammes IP reçus,
+- il surveille le flux de données pour éviter la congestion,
+- il segmente ou recompose les blocs de données en unités adaptées (appelées **segments**),
+- il gère les étapes d’établissement et de terminaison de la connexion entre les deux extrémités de la communication.
 
-- Remettre en ordre les datagrammes en provenance du protocole IP.  
-- Vérifier le flot de données afin d’éviter une saturation du réseau.  
-- Formater les données en segments de longueur variable pour les remettre au protocole IP.  
-- Initialiser et terminer une communication.
-
-Ainsi, le protocole TCP assure le transfert des données de façon fiable, bien qu’il s’appuie sur le protocole de niveau inférieur : IP, qui lui n’intègre aucun contrôle de livraison de datagramme.
-
-En fait, TCP possède un système d’accusé de réception permettant au client et au serveur de s’assurer de la bonne réception mutuelle des données (un peu comme on le fait pour la réception d’un colis postal). Lors de l’émission d’un segment, un numéro d’ordre (aussi appelé numéro de séquence), lui est associé. De même, à réception d’un segment de données, la machine réceptrice retourne un segment d’information dont le drapeau (aussi appelé **flag**) est positionné à 1. Cela signifie qu’il s’agit d’un accusé de réception. Ce flag est accompagné d’un numéro d’accusé de réception prenant alors la valeur du numéro d’ordre précédent :
+Concrètement, TCP est un protocole orienté connexion, ce qui signifie qu’il met en place une relation explicite et suivie entre le client et le serveur. Pour cela, il s’appuie sur un système de **numéros de séquence** et d’**accusés de réception** : à chaque segment envoyé, un identifiant unique est attribué pour permettre à la machine réceptrice de vérifier l’intégrité et l’ordre des données reçues. En retour, le destinataire renvoie un segment de confirmation avec un **flag ACK** positionné à 1, indiquant la bonne réception et précisant le prochain numéro attendu.
 
 ![Image](assets/fr/018.webp)
 
-Après quoi, grâce à une minuterie déclenchée dès la réception d’un segment, au niveau de l’émetteur, le segment est réexpédié dès lors que le délai imparti est écoulé. En effet, dans ce cas, le protocole considère que le segment est perdu :
+Pour renforcer la fiabilité, TCP intègre une minuterie : dès l’envoi d’un segment, un délai est activé. Si l’accusé de réception ne parvient pas dans ce laps de temps, le segment est réémis automatiquement, l’émetteur considérant qu’il a été perdu durant le transit. Ce mécanisme de retransmission automatique compense les pertes inhérentes aux réseaux IP, qui peuvent survenir en cas de surcharge, d’erreur de routage ou de panne d’équipement.
 
 ![Image](assets/fr/019.webp)
 
-**REMARQUE** : mais, si le segment n’était pas perdu et qu’il arrive malgré tout à destination, le récepteur saura, grâce au numéro d’ordre qu’il s’agit d’un doublon et ne conservera alors que le dernier segment arrivé à destination.
+TCP est capable de détecter et gérer les doublons éventuels. Si un segment est réémis mais que l’original arrive tout de même, le destinataire, grâce aux numéros de séquence, identifie le doublon et ne conserve que la version correcte, ce qui élimine ainsi toute ambiguïté dans le flux reçu.
 
-**IMPORTANT** : étant donné que le processus de communication se fait via une émission de données et d’un accusé de réception, basé sur ce fameux numéro de séquence, il est nécessaire que les machines émettrice et réceptrice (c’est-à-dire, respectivement le client et le serveur), connaissent le numéro d’ordre initial de la transmission effectuée par l’autre machine.
+Pour que ce processus fonctionne, il est indispensable que les deux machines partagent une compréhension commune des numéros de séquence initiaux. Cela suppose que l’établissement de la connexion s’effectue en respectant une procédure stricte : d’un côté, le **serveur** écoute sur un port spécifique en attente d’une demande entrante (mode passif) ; de l’autre, le **client** initie activement la connexion en envoyant une requête au serveur via le même port de service.
 
-Il est donc convenu que l’établissement d’une connexion entre deux applications s’effectue de la manière suivante :
+**REMARQUE** : Un "port" est un identifiant numérique (allant de 0 à 65 535) attribué à une application réseau sur un ordinateur ; il sert à différencier plusieurs services qui utilisent simultanément la même adresse IP. Lorsqu’un client envoie des données, il précise le numéro de port afin que le système d’exploitation du serveur sache quel programme (par exemple : 80 pour HTTP, 443 pour HTTPS, 25 pour SMTP) doit recevoir la communication. Un port fonctionne donc comme une porte dédiée : il organise la circulation des paquets entrants et sortants, évite les confusions entre services et permet une gestion fine des accès grâce à des règles de pare-feu ou de filtrage.
 
-- Les ports de service doivent être ouverts.  
-- L’application du serveur est à l’écoute (en mode passif), en attente d’une connexion entrante.  
-- L’application sur le client émet une requête de connexion vers le serveur. L’application du client est alors dite en ouverture active.
+L’échange de synchronisation des séquences repose sur le fameux mécanisme dit du **"*three-way handshake*"** (littéralement : "poignée de main en trois temps"), comparable à la manière dont deux personnes se saluent pour établir un contact. Cette phase d’initialisation, qui permet la fiabilité de TCP, se déroule donc en 3 étapes :
 
-Donc, les deux machines en communication doivent synchroniser leurs séquences. Cela se fait par le mécanisme appelé "_three way handshake_" (traduit en poignée de main à trois temps – c’est le protocole que l’on a communément, nous humain, l’habitude d’utiliser pour se dire "bonjour").
-
-**NOTE** : ce mode "_three way handshake_" est également utilisé lors de la clôture de session.
-
-Ce dialogue établi, permet d’initier la communication et se déroule (comme le libellé le laisse supposer), en trois étapes :
-
-- L’émetteur (le client), transmet un segment dont le drapeau est valorisé à 1 (afin de signifier qu’il s’agit d’un segment de synchronisation), avec un numéro d’ordre C, appelé numéro d’ordre initial du client.
-
-- Le récepteur (le serveur), reçoit le segment initial en provenance du client et lui envoie un accusé de réception. Ce segment ACK de synchronisation contient également le numéro d’ordre du serveur incrémenté de 1.
-
-- Enfin, le client transmet au serveur, un accusé de réception (avec le flag ACK à 1 et celui de SYN à 0 – car il ne s’agit plus d’un segment de synchronisation). Le numéro d’ordre S, récupéré du serveur est alors incrémenté de 1, à son tour :
+1. Le client envoie un premier segment de synchronisation (**SYN**) avec le flag approprié activé et un numéro de séquence initial (par exemple : C) ;
+2. Le serveur à la réception répond en retour avec un segment d’accusé de réception (**SYN-ACK**) : il accuse réception du numéro de séquence du client et communique à son tour son propre numéro de séquence initial, incrémenté de 1 ;
+3. Enfin, le client envoie un dernier segment (**ACK**) confirmant qu’il a bien reçu le numéro de séquence du serveur et finalise la synchronisation : le flag SYN est alors désactivé et le flag ACK reste positionné pour signifier que la connexion est prête.
 
 ![Image](assets/fr/020.webp)
 
-À la suite de ce premier échange, entre deux machines, comportant trois séquences, les deux protagonistes sont alors synchronisés et la communication effective peut commencer. Des petits malins ont alors trouvé un moyen de détourner ce mécanisme et en ont fait un outil de piratage appelé IP Spoofing. En fait, cela permet de corrompre la relation d’approbation établie, à des fins malicieuses.
+Ce protocole d’échange garantit que les deux parties partagent la même base de numérotation avant de transmettre des données utiles. Une fois cette synchronisation réalisée, la session est ouverte : les segments peuvent circuler dans les deux sens, chacun étant accusé de réception, ce qui assure une fiabilité maximale du flux.
 
-Afin d’empêcher ce détournement, on peut limiter le nombre d’accusés de réception pour désengorger le trafic réseau, en fixant le nombre de séquence, au bout duquel un accusé de réception est nécessaire. Cette valeur est stockée dans le champ "fenêtre" de l’entête TCP/IP.
+Il convient de noter que ce ***three-way handshake*** est également utilisé pour la fermeture de la connexion, afin de s’assurer qu’aucun segment en transit ne soit perdu ou interrompu brutalement.
 
-Ce système, appelé "méthode de la fenêtre glissante", définit une fourchette de séquences n’ayant nul besoin d’un accusé de réception et se déplace au fur et à mesure que les accusés de réception sont détectés.
+Enfin, bien que conçu pour la robustesse et la fiabilité, ce processus a aussi donné naissance à certaines vulnérabilités exploitables : des attaques comme l’**IP Spoofing** visent à contourner ou corrompre cette relation de confiance, en se faisant passer pour une machine autorisée grâce à la falsification des numéros de séquence, ouvrant ainsi une brèche pour intercepter ou manipuler le flux de données échangé.
 
-**Exemple** : après une ouverture de communication, le n° de séquence est 3 et autorise jusqu’à la séquence 5 :
+Afin de limiter ces risques liés au détournement du mécanisme de synchronisation des séquences et de maîtriser la charge réseau, le protocole TCP a recours à une technique de gestion du flux appelée "**méthode de la fenêtre glissante**" ("_Sliding Window_"). Ce système permet de réguler la quantité de données qui peuvent être envoyées sans nécessiter immédiatement d’accusé de réception pour chaque segment, ce qui réduit ainsi la surcharge inutile sur le réseau tout en maintenant une bonne fiabilité.
+
+Concrètement, la fenêtre glissante définit une plage de numéros de séquence autorisés à circuler librement entre l’émetteur et le récepteur sans que chaque segment individuel ne doive être accusé réception. À mesure que des accusés de réception parviennent au système émetteur, la fenêtre "glisse" : elle se décale vers la droite pour inclure de nouveaux segments à transmettre. La taille de cette fenêtre (importante pour optimiser le débit tout en évitant la congestion) est précisée dans le champ **"fenêtre"** de l’en-tête TCP/IP.
+
+**Exemple** : si le numéro de séquence initial est 3 et que la fenêtre autorise jusqu’à la séquence 5, les segments compris entre 3 et 5 peuvent être envoyés sans attendre d’accusé de réception pour chacun.
 
 ![Image](assets/fr/021.webp)
 
-**IMPORTANT** : la taille de cette fenêtre glissante n’est pas fixe. Ainsi, le serveur peut inclure (toujours dans le champ "fenêtre", la taille de la fenêtre qui lui semble la plus adaptée. De la sorte, en cas d’accusé de réception indiquant une demande d’augmentation de la taille de la fenêtre, le client peut déplacer celle-ci vers la droite. Mais, en cas de réduction, le client attend que la fenêtre se déplace d’elle-même.
+Il est important de souligner que la taille de la fenêtre glissante n’est pas fixe. Elle s’ajuste dynamiquement en fonction de l’état du réseau et de la capacité de traitement du récepteur. Lorsqu’un récepteur estime pouvoir traiter un volume de données plus important, il peut indiquer au travers du champ "fenêtre" qu’une extension est souhaitée. L’émetteur adapte alors sa fenêtre en conséquence. À l’inverse, en cas de surcharge ou de risque de saturation, le récepteur peut demander une réduction : l’émetteur attendra alors que la fenêtre se déplace avant de poursuivre l’envoi de segments supplémentaires.
 
-En ce qui concerne la fin d’une connexion, le protocole prévoit que le client demande lui-même à mettre fin à la transmission, au même titre que le serveur. La terminaison s’effectue alors de la façon suivante :
+Concernant la **clôture d’une connexion TCP**, le protocole prévoit une procédure symétrique pour garantir la fin propre et ordonnée des échanges. L’une des deux machines peut initier la fermeture en émettant un segment avec le drapeau **FIN** positionné à 1, qui signale sa volonté de terminer la communication. Elle attend ensuite la fin de réception des segments encore en transit et ignore toute donnée ultérieure.
 
-- Une des machines envoie un segment avec le drapeau FIN à 1. L’application se met en attente du signal de fin. Ainsi, elle termine de recevoir le segment en cours et ignorera les suivants.
+À réception de ce segment, la machine destinataire répond par un accusé de réception, également marqué du drapeau FIN : elle finalise l’envoi de ses propres segments en cours, puis informe l’application locale de la fermeture effective de la session. Ainsi, la fermeture est toujours double et contrôlée, ce qui minimise le risque de perte de données.
 
-- Après réception de ce segment, l’autre machine envoie également un accusé de réception avec le drapeau FIN à 1 et expédie les segments en cours. À la suite de quoi, la machine informe l’application qu’un segment FIN a été reçu et envoie aussi un segment FIN à son vis-à-vis, clôturant ainsi la communication.
-
-**Ainsi, l’association des deux protocoles TCP et IP permettent d’acheminer les messages de bout-en-bout.** On a très souvent l’habitude de schématiser l’utilisation de ces protocoles par le schéma suivant, démontrant la rapidité du premier protocole (IP avec remise en "best effort") et la rigueur de l’autre (TCP avec remise négociée) :
+Cette gestion précise, qui allie la souplesse de l’acheminement IP au contrôle rigoureux de TCP, est souvent illustrée par un schéma mettant en parallèle la rapidité du protocole IP (qui fonctionne selon le principe **"best effort"** sans garantie de livraison) et la fiabilité du protocole TCP (qui encadre la transmission grâce à une logique d’accusés de réception et de séquences négociées).
 
 ![Image](assets/fr/022.webp)
 
-Lorsque l’on souhaite privilégier la rapidité par rapport à la sécurité de transmission, il est possible d’utiliser le protocole UDP, orienté sans connexion, plutôt que TCP.
+Cependant, dans certaines situations, la priorité n’est pas donnée à la fiabilité absolue mais à la vitesse de transmission et à la simplicité. C’est notamment le cas pour des applications comme le streaming en direct ou la voix sur IP, qui tolèrent quelques pertes de paquets sans impact majeur sur l’expérience utilisateur. Dans ces cas, on privilégie le recours au **protocole UDP** (_User Datagram Protocol_).
 
-En effet, dans le cas de l’utilisation du protocole UDP, lorsqu’une machine émettrice diffuse des paquets à destination d’une autre, ce flux est unidirectionnel. La transmission des données se fait sans en avertir le destinataire et ce dernier reçoit les informations sans effectuer d’accusé de réception à l’intention de la première machine.
+UDP fonctionne sur un principe radicalement différent de TCP : il est **orienté sans connexion**, c’est-à‑dire qu’il ne met en place aucune relation préalable entre l’émetteur et le destinataire. Lorsqu’une machine émet des paquets via UDP, elle les envoie de façon unidirectionnelle : le destinataire reçoit les données sans jamais renvoyer d’accusé de réception, et l’émetteur ne sait pas précisément si le message est bien arrivé. L’en-tête UDP est volontairement minimaliste : il ne transporte pas d’informations de contrôle sur l’état de la connexion, hormis l’adresse IP et le port de destination.
 
-Pour pouvoir fonctionner ainsi, il suffit donc que l’encapsulation des données envoyées par le protocole UDP ne transmette pas les informations concernant l’émetteur. Ainsi, ce dernier ne connaitra pas non plus l’émetteur des données, à l’exception de son adresse IP.
+Cette logique est souvent comparée à une analogie du quotidien : le protocole TCP ressemble à un **appel téléphonique**, où un circuit est établi, suivi, et contrôlé tout au long de la conversation. À l’inverse, le protocole UDP s’apparente à l’envoi d’un **message par courrier**, où l’expéditeur glisse une lettre dans une boîte aux lettres sans garantie immédiate que le destinataire l’a bien reçue, ni retour d’information systématique.
 
-**REMARQUE** : on compare très souvent le protocole TCP au protocole régissant les communications téléphoniques (connectées) et le protocole UDP au protocole régissant la distribution de messages (par facteur interposé, donc sans connexion notoire).
+Cette complémentarité entre TCP et UDP permet aux réseaux modernes de s’adapter à des usages variés, selon qu’ils requièrent une fiabilité maximale ou une rapidité d’exécution prioritaire.
 
 ## Primitives de services
 <chapterId>4480afb7-e950-4ccb-88fa-d132f9dc3479</chapterId>
 
-Comme on l’a dit précédemment, les services représentent l’implémentation des protocoles que l’on vient de voir. Or, le modèle TCP/IP a hérité de son prédécesseur le modèle OSI (à sept couches) son architecture.
+### Architecture en couches et organisation des échanges
 
-Chaque couche est construite sur la précédente et chaque réseau ne peut utiliser que les couches qui lui sont nécessaires. Chaque couche possède ses propres structures de données indépendantes. Par contre, le rôle de chaque couche est d’offrir des services à la couche supérieure. Il y a alors deux aspects à prendre en compte dans cette architecture :
+Comme nous l’avons évoqué précédemment, les **services** constituent l’implémentation concrète des protocoles que nous avons détaillés jusqu’ici. Le modèle TCP/IP, bien qu’il diffère du modèle **OSI**, hérite de son approche structurée en couches : chaque couche est conçue pour remplir un rôle spécifique et pour offrir des **services** à la couche immédiatement supérieure, ce qui établit ainsi une architecture modulaire, robuste et facilement maintenable.
 
-**- Aspect vertical (couche N vers couche N+1 (ou inversement)) :**
+Chaque couche s’appuie sur les fonctionnalités offertes par la couche inférieure et, réciproquement, fournit à la couche supérieure une interface cohérente pour gérer les données. Dans cette architecture, chaque couche dispose de **structures de données propres**, soigneusement définies pour garantir une parfaite compatibilité avec celles des autres couches. Cette compatibilité est indispensable pour assurer une transmission fluide, fiable et compréhensible des informations, d’un point d’extrémité à un autre.
+
+Deux aspects fondamentaux organisent ces échanges :
+
+- L’**aspect vertical**, qui décrit la relation entre une couche et la couche qui la surplombe ou la sous-tend (de la couche N vers la couche N+1, et inversement).
 
 ![Image](assets/fr/023.webp)
 
-**- Aspect horizontal : (client vers serveur ou réciproquement) :**
+- L’**aspect horizontal**, qui met en lumière l’interaction entre les applications distantes, c’est-à-dire le dialogue qui s’établit d’un **client** vers un **serveur**, ou réciproquement.
 
 ![Image](assets/fr/024.webp)
 
-**IMPORTANT** : Les structures de données d’une couche sont conçues de manière à garantir une parfaite compatibilité avec les structures utilisées par les autres couches et ce, pour assurer une transmission plus efficiente.
+L’architecture en couches repose sur le principe que chaque niveau ne traite que les informations qui relèvent de sa compétence : ainsi, les structures de données, les entêtes et les mécanismes de contrôle varient d’une couche à l’autre, mais l’ensemble forme un tout cohérent, permettant l’acheminement progressif des données vers leur destination finale.
 
-**RAPPEL** : une structure de données et une terminologie propre à chacune des couches ont été définies de manière à la décrire intégralement. Ainsi, les termes qu’utilisent les différentes couches TCP/IP pour faire référence à des données transmises sont-ils également différents (comme on l’a mentionné plus haut).
-
-Selon la couche et le protocole (TCP ou UDP) utilisés, on adaptera les notions à traiter en se basant sur les termes fixés par le schéma ci-dessous :
+**Rappel** : pour nommer les unités de données qui transitent entre les couches, une terminologie spécifique a été définie : **message** pour la couche Application, **segment** pour la couche Transport (TCP), **datagramme** pour la couche Internet (IP) et **trame** pour la couche Accès Réseau. Cette distinction s’accompagne de structures adaptées à chaque contexte, comme le montre le schéma suivant :
 
 ![Image](assets/fr/025.webp)
 
-Aussi, en matière d’échanges d’information, les couches intermédiaires communiquent entre elles grâce à des primitives de service écoutant sur des ports spécifiques réservés. Si les échanges réseau se font grâce aux protocoles, les interactions entre les couches se font, quant à elles, par le biais des services et de leurs primitives.
+### Primitives de service et unités de données
 
-Si on cumule l’aspect horizontal avec l’aspect vertical, on devrait avoir la représentation suivante :
+Au cœur de ce fonctionnement, les échanges entre couches reposent sur des **primitives de service**, qui servent d’interfaces de communication. Ces primitives jouent le rôle de guichets, qui écoutent sur des **ports spécifiques** réservés, et permettent ainsi aux processus d’établir, de maintenir et de terminer les connexions réseau de manière contrôlée. Si les protocoles organisent le format et la transmission des données sur le réseau, ce sont bien les **services et leurs primitives** qui assurent la liaison verticale entre les couches.
+
+Ainsi, le modèle TCP/IP combine l’aspect horizontal (communication entre applications distribuées) et l’aspect vertical (interactions internes entre couches) pour offrir une architecture complète et extensible. La superposition de ces deux aspects donne une vue d’ensemble de l’échange de données dans une communication réseau structurée.
 
 ![Image](assets/fr/026.webp)
 
 ### Synthèse de la partie
 
-On a vu dans ce module, que le modèle utilisé aujourd’hui pour configurer le réseau d’accès à Internet était un modèle en quatre couches et que l’on utilisait principalement l’association de TCP/IP, sans pour autant se passer de modes plus rapides, mais moins sécurisés, que propose le [protocole UDP](https://www.it-connect.fr/les-protocoles-tcp-et-udp-pour-les-debutants/ "protocole UDP").
+Dans cette première grande partie, nous avons mis en lumière l’architecture fondamentale qui régit aujourd’hui la configuration et le fonctionnement des réseaux connectés à Internet. Cette architecture repose sur un **modèle en quatre couches**, inspiré du modèle OSI, et s’articule autour de la suite de protocoles **TCP/IP**, la colonne vertébrale des communications modernes. Nous avons vu que TCP, grâce à son approche orientée connexion, garantit un transfert fiable, tandis que l’UDP, plus léger et plus rapide, offre une alternative pour des usages où la rapidité prime sur la fiabilité.
 
-Ce modèle fonctionne grâce aux protocoles implémentés sous forme de primitives de services qui permettent de s’adapter aux besoins des différentes couches à traverser. L’identification des matériels connectés s’effectue grâce à un système d’adressage, subdivisé en cinq classes. Parmi les adresses définies, certaines sont réservées et d’autres sont non routables sur Internet.
+Le bon fonctionnement de ce modèle repose sur l’implémentation des protocoles au moyen de **primitives de services**. Celles-ci assurent la liaison entre les couches et permettent d’adapter le traitement des données aux spécificités de chaque niveau, du transport à l’application, en passant par Internet et l’accès réseau. Cette approche modulaire rend le système à la fois souple et robuste.
 
-Les réseaux d’adresses ainsi classifiées peuvent, à leur tour être divisés en sous-réseaux. A une époque le découpage se faisait manuellement en calculant les masques de sous-réseaux. Mais, depuis peu, il existe une autre méthode adossée à la notation et aux blocs CIDR.
+L’adressage IP constitue un autre pilier de cette infrastructure. Chaque équipement connecté est identifié par une **adresse IP unique**, issue d’un espace structuré en **classes** (de A à E). Certaines de ces adresses sont réservées à des usages spécifiques, comme le bouclage local ou la multidiffusion, tandis que d’autres, dites "**adresses privées**", ne sont pas routées sur Internet sans être traduites (NAT). Cette classification permet une organisation logique et hiérarchique des réseaux.
+
+Nous avons également abordé la notion de **sous-réseaux**, qui permet de fractionner un réseau en segments plus petits pour mieux gérer les ressources IP et optimiser la circulation des données. Si le découpage manuel à l’aide des masques de sous-réseaux reste un principe important, il a été largement modernisé grâce au **CIDR** (_Classless Inter-Domain Routing_). Cette méthode a transformé la gestion de l’adressage en permettant une attribution plus souple et plus rationnelle des plages IP, tout en réduisant la taille des tables de routage.
+
+En maîtrisant ces concepts : couches, protocoles, primitives de services, adressage et sous-réseautage, on dispose des bases solides pour comprendre le fonctionnement technique des réseaux modernes et pour configurer efficacement une infrastructure réseau adaptée aux besoins actuels. Dans la prochaine partie, nous allons étudié plus précisément l'adressage IPv4.
 
 
 # L’adressage IPv4

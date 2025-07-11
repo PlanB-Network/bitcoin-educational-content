@@ -616,29 +616,29 @@ Bitcoin steht allen offen, aber das bedeutet nicht, dass du unvorbereitet einste
 
 Bevor du deinen ersten Satoshis kaufst, solltest du unbedingt verstehen, warum und wie du in Bitcoin investierst. Das bedeutet, dass du einen klaren Finanzplan haben musst, der auf deine persönliche Situation und deine langfristigen Ziele zugeschnitten ist.
 
-yyyy
-Legen Sie zunächst dein **Budget** genau fest. Wählen Sie nicht einfach eine beliebige Zahl aus. Nehmen Sie sich die Zeit, dein monatliches Einkommen zu berechnen, ziehen Sie deine festen Ausgaben (wie Miete, Darlehen, Steuern, Versorgungsleistungen) sowie deine täglichen Lebenshaltungskosten (Lebensmittel, Transport, Freizeit usw.) ab. Was übrig bleibt, ist deine Sparmarge, und nur von diesem Teil sollten Sie Investitionen in Betracht ziehen.
 
-Auf diese Weise können Sie sicherstellen, dass Sie dein finanzielles Wohlergehen nicht aufs Spiel setzen, insbesondere im Falle eines Marktabschwungs. Eine durchdachte Strategie ist die Grundlage für langfristige Widerstandsfähigkeit.
+Lege zunächst dein **Budget** genau fest. Wähle nicht einfach eine beliebige Zahl aus. Nimm dir die Zeit, dein monatliches Einkommen zu berechnen, ziehe deine festen Ausgaben (wie Miete, Darlehen, Steuern, Versorgungsleistungen) sowie deine täglichen Lebenshaltungskosten (Lebensmittel, Transport, Freizeit usw.) ab. Was übrig bleibt, ist deine Sparmarge, und nur von diesem Teil solltest du Investitionen in Betracht ziehen.
+
+Auf diese Weise kannst du sicherstellen, dass du dein finanzielles Wohlergehen nicht aufs Spiel setzt, insbesondere im Falle eines Marktabschwungs. Eine durchdachte Strategie ist die Grundlage für langfristige Widerstandsfähigkeit.
 
 
 ![BTC102-Bitcoin](assets/fr/020.webp)
 
 
-Sobald Sie dein Budget festgelegt haben, sollten Sie sich überlegen, wie Sie investieren wollen. Eine der anfängerfreundlichsten und am häufigsten empfohlenen Methoden ist das Dollar Cost Averaging (DCA), bei dem Sie in regelmässigen Abständen (wöchentlich, monatlich usw.) einen festen Betrag von Bitcoin kaufen. Diese Strategie trägt dazu bei, deinen durchschnittlichen Einstiegspreis im Laufe der Zeit zu glätten und die emotionalen Auswirkungen von Preisschwankungen zu verringern. Für die meisten Menschen, insbesondere für Neueinsteiger, ist dies ein kluger Ansatz.
+Sobald du dein Budget festgelegt hast, solltest du dir überlegen, wie du investieren willst. Eine der anfängerfreundlichsten und am häufigsten empfohlenen Methoden ist das Dollar Cost Averaging (DCA), bei dem du in regelmässigen Abständen (wöchentlich, monatlich usw.) einen festen Betrag von Bitcoin kaufst. Diese Strategie trägt dazu bei, deinen durchschnittlichen Einstiegspreis im Laufe der Zeit zu glätten und die emotionalen Auswirkungen von Preisschwankungen zu verringern. Für die meisten Menschen, insbesondere für Neueinsteiger, ist dies ein kluger Ansatz.
 
 
-Dann fragen Sie sich selbst: Was ist mein Zeithorizont?
+Dann frage dich selbst: Was ist mein Zeithorizont?
 
-Wollen Sie schnell in den Markt ein- und aussteigen (Trading)? Oder sind Sie eher langfristig orientiert und halten Bitcoin über mehrere Jahre (Hodler)? Wenn Sie ein Hodler sind, kümmern Sie sich wahrscheinlich weniger um die täglichen Kursschwankungen und konzentrieren sich mehr auf die langfristige Sicherheit und die Selbstverwahrung. Wenn Sie handeln, sind Sie kurzfristigen Marktschwankungen, höheren Risiken und dem Stress, der oft mit schnellen Entscheidungen einhergeht, stärker ausgesetzt. Es gibt keine pauschale Antwort, aber wenn Sie deinen eigenen Ansatz kennen, können Sie deine Entscheidungen besser treffen.
-
-
-Am wichtigsten ist, dass Sie Investitionsentscheidungen nicht auf der Grundlage von Gefühlen oder Ängsten treffen. Legen Sie im Voraus eine Strategie fest, schreiben Sie sie auf und halten Sie sich daran.
+Willst du schnell in den Markt ein- und aussteigen (Trading)? Oder bist du eher langfristig orientiert und hältst Bitcoin über mehrere Jahre (Hodler)? Wenn du ein Hodler bist, kümmerst du dich wahrscheinlich weniger um die täglichen Kursschwankungen und konzentrierst dich mehr auf die langfristige Sicherheit und die Selbstverwahrung. Wenn du handelst, bist du kurzfristigen Marktschwankungen, höheren Risiken und dem Stress, der oft mit schnellen Entscheidungen einhergeht, stärker ausgesetzt. Es gibt keine pauschale Antwort, aber wenn du deinen eigenen Ansatz kennst, kannst du deine Entscheidungen besser treffen.
 
 
-Wenn Sie noch unsicher sind, **beginnen Sie mit dem Lernen**
+Am wichtigsten ist, dass du Investitionsentscheidungen nicht auf der Grundlage von Gefühlen oder Ängsten triffst. Lege im Voraus eine Strategie fest, schreibe sie auf und halte dich daran.
 
-Verbringen Sie ein paar Stunden damit, Bitcoin zu erforschen, sehen Sie sich die kostenlosen Ressourcen von Plan ₿ Network an, lesen Sie ein paar Bücher, setzen Sie fünf Euros ein, nur um es auszuprobieren, und sehen Sie sich einige hochwertige Inhalte online an. Bleiben Sie neugierig. Je wohler Sie sich fühlen, desto leichter wird es dir fallen, deine Strategie zu überdenken, deinen Ansatz zu optimieren und mit Zuversicht weiterzumachen.
+
+Wenn du noch unsicher bist, **beginne mit dem Lernen**
+
+Verbringe ein paar Stunden damit, Bitcoin zu erforschen, sieh dir die kostenlosen Ressourcen von Plan ₿ Network an, lies ein paar Bücher, setze fünf Euros ein, nur um es auszuprobieren, und sehe dir einige hochwertige Inhalte online an. Bleibe neugierig. Je wohler du dich fühlst, desto leichter wird es dir fallen, deine Strategie zu überdenken, deinen Ansatz zu optimieren und mit Zuversicht weiterzumachen.
 
 
 ### Die Volatilität von BTC verstehen
@@ -650,16 +650,16 @@ Bitcoin ist für seine dramatischen Kursschwankungen bekannt. Schwankungen von 1
 ![BTC102-Bitcoin](assets/fr/021.webp)
 
 
-Deshalb ist es entscheidend, **die Volatilität von Bitcoin zu verstehen und zu akzeptieren**, bevor Sie investieren. Diese Preisschwankungen sind kein Fehler, sondern ein Merkmal eines noch nicht ausgereiften Vermögenswerts. Wenn plötzliche Auf- und Abschwünge Sie nachts wachhalten oder zu emotionalen Entscheidungen zwingen, haben Sie wahrscheinlich mehr investiert, als Sie riskieren möchten. In diesem Fall sollten Sie einen Schritt zurücktreten und deine Strategie und Risikotoleranz neu bewerten. Zögern Sie nicht, deine Position zu verkleinern, bis Sie sich wieder wohler fühlen.
+Deshalb ist es entscheidend, **die Volatilität von Bitcoin zu verstehen und zu akzeptieren**, bevor du investierst. Diese Preisschwankungen sind kein Fehler, sondern ein Merkmal eines noch nicht ausgereiften Vermögenswerts. Wenn plötzliche Auf- und Abschwünge dich nachts wachhalten oder zu emotionalen Entscheidungen zwingen, hast du wahrscheinlich mehr investiert, als du riskieren möchtest. In diesem Fall solltest du einen Schritt zurücktreten und deine Strategie und Risikotoleranz neu bewerten. Zögere nicht, deine Position zu verkleinern, bis du dich wieder wohler fühlst.
 
 
-Vor allem sollten Sie nie mehr investieren, als Sie sich leisten können, zu verlieren. Vermeiden Sie es, Geld zu leihen, um Bitcoin zu kaufen (vor allem, wenn Sie die Grundlagen noch lernen). Ein solides Fundament beginnt mit massvollen Schritten, nicht mit unbedachten Wetten.
+Vor allem solltest du nie mehr investieren, als du es dir leisten kannst, zu verlieren. Vermeide es, Geld zu leihen, um Bitcoin zu kaufen (vor allem, wenn du die Grundlagen noch lernst). Ein solides Fundament beginnt mit massvollen Schritten, nicht mit unbedachten Wetten.
 
 
 ### Verwaltung und Sicherung Ihres Bitcoin Wallet
 
 
-Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin ist die **Selbstverwaltung**. Bei einem selbst gehosteten Wallet sind Sie allein für dein Geld verantwortlich. Diese Wallets werden in der Regel aus einer **Wiederherstellungsphrase** (auch bekannt als Seed-Phrase) generiert, einer Folge von 12 oder 24 Wörtern, die dir vollen Zugriff auf deine BTC gewährt. Wenn Sie diese Phrase verlieren (oder wenn jemand anderes sie in die Hände bekommt), sind deine Bitcoins für immer weg. **Kein Kundendienst. Kein Reset-Knopf.**
+Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin ist die **Selbstverwaltung**. Bei einem selbst gehosteten Wallet bist du allein für dein Geld verantwortlich. Diese Wallets werden in der Regel aus einer **Wiederherstellungsphrase** (auch bekannt als Seed-Phrase) generiert, einer Folge von 12 oder 24 Wörtern, die dir vollen Zugriff auf deine BTC gewährt. Wenn du diese Phrase verlierst (oder wenn jemand anderes sie in die Hände bekommt), sind deine Bitcoins für immer weg. **Kein Kundendienst. Kein Reset-Knopf.**
 
 
 ![BTC102-Bitcoin](assets/fr/023.webp)
@@ -667,21 +667,21 @@ Eine der leistungsfähigsten (und oft unterschätzten) Funktionen des Bitcoin is
 
 Deshalb lautet die goldene Regel in Bitcoin:
 
-"***Nicht deine Schlüssel, nicht deine Münzen***" (not your key, not your coins). Wenn Sie nicht persönlich die Kontrolle über deine privaten Schlüssel haben, gehört dir dein Bitcoin nicht wirklich. Börsen können zwar praktisch sein (vor allem zu Beginn), aber sie halten deine Schlüssel für Sie. Das bedeutet, dass dein Geld in Gefahr ist, wenn die Plattform gehackt wird, dein Konto einfriert oder bankrott geht.
+"***Nicht deine Schlüssel, nicht deine Münzen***" (not your key, not your coins). Wenn du nicht persönlich die Kontrolle über deine privaten Schlüssel hast, gehört dir deine Bitcoins nicht wirklich. Börsen können zwar praktisch sein (vor allem zu Beginn), aber sie halten deine Schlüssel für dich. Das bedeutet, dass dein Geld in Gefahr ist, wenn die Plattform gehackt wird, dein Konto einfriert oder bankrott geht.
 
 
 ![BTC102-Bitcoin](assets/fr/024.webp)
 
 
-Um dieses Risiko zu vermeiden, wird dringend empfohlen, ein **eigenes Wallet** einzurichten, bei dem nur Sie Zugriff auf die Wiederherstellungsphrase haben. Diese Phrase sollte immer handschriftlich notiert und **offline** an einem sicheren Ort gespeichert werden. Manche Benutzer **erhalten sogar mehrere Sicherungskopien**, die zur zusätzlichen Sicherheit an verschiedenen geografischen Orten aufbewahrt werden.
+Um dieses Risiko zu vermeiden, wird dringend empfohlen, ein **eigenes Wallet** einzurichten, bei dem nur du Zugriff auf die Wiederherstellungsphrase hast. Diese Phrase sollte immer handschriftlich notiert und **offline** an einem sicheren Ort gespeichert werden. Manche Benutzer **erhalten sogar mehrere Sicherungskopien**, die zur zusätzlichen Sicherheit an verschiedenen geografischen Orten aufbewahrt werden.
 
 
-**Speichern Sie deine Wiederherstellungsphrase niemals auf einem mit dem Internet verbundenen Gerät oder in der Cloud**.
+**Speichere deine Wiederherstellungsphrase niemals auf einem mit dem Internet verbundenen Gerät oder in der Cloud**.
 
 Ein einziger Hack oder eine Datenverletzung kann zu irreversiblen Schäden führen
 
 
-Wenn Sie bereit sind, die volle Verantwortung für deine Bitcoins zu übernehmen und tiefer in die bewährten Verfahren zur Sicherung deiner Wiederherstellungsphrase eintauchen möchten, empfehle ich dir diesen Artikel:
+Wenn du bereit bist, die volle Verantwortung für deine Bitcoins zu übernehmen und tiefer in die bewährten Verfahren zur Sicherung deiner Wiederherstellungsphrase eintauchen möchten, empfehle ich dir diesen Artikel:
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -689,23 +689,23 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ### Vertraulichkeit und Diskretion
 
 
-In der heutigen digitalen Welt wird **Diskretion oft übersehen**; sie ist jedoch ein entscheidender Faktor für die Sicherheit, insbesondere wenn es um Bitcoin geht. Je offener Sie über deine Besitztümer sprechen, desto wahrscheinlicher werden Sie zum Ziel von Betrügern, Cyberkriminellen oder sogar traditionellen Bedrohungen wie Erpressung.
+In der heutigen digitalen Welt wird **Diskretion oft übersehen**; sie ist jedoch ein entscheidender Faktor für die Sicherheit, insbesondere wenn es um Bitcoin geht. Je offener du über deine Besitztümer sprichst, desto wahrscheinlicher wirst du zum Ziel von Betrügern, Cyberkriminellen oder sogar traditionellen Bedrohungen wie Erpressung.
 
 Es gab zahlreiche Fälle auf der ganzen Welt, in denen Personen, die bekanntermassen grosse Mengen an BTC besitzen, entführt oder überfallen wurden.
 
 
-**Vermeiden Sie es, mit Ihrem Bitcoin Vermögen** zu prahlen, sei es in sozialen Medien oder sogar in lockeren Gesprächen. Die Preisgabe sensibler finanzieller Informationen hat keine Vorteile, und die Risiken sind real.
+**Vermeide es, mit deinem Bitcoin-Vermögen** zu prahlen, sei es in sozialen Medien oder sogar in lockeren Gesprächen. Die Preisgabe sensibler finanzieller Informationen hat keine Vorteile, und die Risiken sind real.
 
 
 Es ist auch ratsam, deine Online-Aktivitäten **aufzuteilen**. Zum Beispiel:
 
 
-- Verwenden Sie für alles, was mit Bitcoin zu tun hat, eine separate E-Mail Adresse, die sich von deinen persönlichen oder beruflichen Konten unterscheidet.
-- Seien Sie vorsichtig bei Phishing-Versuchen, verdächtigen Links und gefälschten Websites, die vertrauenswürdige Plattformen imitieren.
-- Bleiben Sie wachsam! Diskretion und Wachsamkeit sind oft deine beste Verteidigung.
+- Verwende für alles, was mit Bitcoin zu tun hat, eine separate E-Mail Adresse, die sich von deinen persönlichen oder beruflichen Konten unterscheidet.
+- Sei vorsichtig bei Phishing-Versuchen, verdächtigen Links und gefälschten Websites, die vertrauenswürdige Plattformen imitieren.
+- Bleibe wachsam! Diskretion und Wachsamkeit sind oft deine beste Verteidigung.
 
 
-Wenn Sie bereit sind, tiefer in das Thema Bitcoin-Datenschutz einzusteigen, empfehlen wir dir, mit unserem Jahr-2-Datenschutzkurs fortzufahren, in dem Sie fortgeschrittene Techniken lernen, um deine Identität und deine Aktivitäten zu schützen:
+Wenn du bereit bist, tiefer in das Thema Bitcoin-Datenschutz einzusteigen, empfehlen wir dir, mit unserem Jahr-2-Datenschutzkurs fortzufahren, in dem du fortgeschrittene Techniken lernst, um deine Identität und deine Aktivitäten zu schützen:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -715,13 +715,13 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Obwohl es sich um eine dezentralisierte Währung handelt, ist **Bitcoin nicht von den Steuergesetzen und -vorschriften** Ihres Landes ausgenommen. Jede Gerichtsbarkeit hat ihren eigenen Ansatz, wie Gewinne aus Kryptowährungen besteuert werden.
 
-In einigen Ländern werden die Gewinne beim Verkauf als Kapitalerträge besteuert. In anderen müssen Sie unter Umständen jeden Handel angeben, und in einigen Ländern gelten weniger gängige Regeln, wie Vermögenssteuern oder Sozialabgaben.
+In einigen Ländern werden die Gewinne beim Verkauf als Kapitalerträge besteuert. In anderen musst du unter Umständen jeden Handel angeben, und in einigen Ländern gelten weniger gängige Regeln, wie Vermögenssteuern oder Sozialabgaben.
 
 
 ![BTC102-Bitcoin](assets/fr/018.webp)
 
 
-Es wird dringend empfohlen, vor grösseren Transaktionen einen Steuerfachmann zu konsultieren oder die offiziellen Leitlinien deiner Regierung zu lesen. Wenn Sie sich die Zeit nehmen, deine steuerlichen Verpflichtungen im Voraus zu verstehen, können Sie sich vor unerwarteten Problemen (wie Geldstrafen, Prüfungen oder Bussgeldern) schützen, insbesondere wenn Sie grössere Verkäufe oder Portfolioumschichtungen planen.
+Es wird dringend empfohlen, vor grösseren Transaktionen einen Steuerfachmann zu konsultieren oder die offiziellen Leitlinien deiner Regierung zu lesen. Wenn du dir die Zeit nimmst, deine steuerlichen Verpflichtungen im Voraus zu verstehen, kannst du dich vor unerwarteten Problemen (wie Geldstrafen, Prüfungen oder Bussgeldern) schützen, insbesondere wenn du grössere Verkäufe oder Portfolioumschichtungen planst.
 
 
 ![BTC102-Bitcoin](assets/fr/022.webp)
@@ -737,9 +737,9 @@ Im Zusammenhang mit Bitcoin gibt es viele populäre Missverständnisse; eines de
 - Handel :
 
 
-Seien wir ehrlich: **Sie sollten wahrscheinlich nicht handeln.**
+Seien wir ehrlich: **Du sollten wahrscheinlich nicht handeln.**
 
-Der Handel beinhaltet kurzfristige Spekulationen (manchmal mit Hebelwirkung) mit dem Ziel, von den Kursschwankungen von Bitcoin zu profitieren. Das mag zwar verlockend klingen, aber erfolgreicher Handel erfordert fortgeschrittene technische Kenntnisse (wie Chartanalyse und Risikomanagement), emotionale Disziplin und ständige Aufmerksamkeit für den Markt. Es ist geistig anstrengend und zeitaufwendig, und die harte Wahrheit ist, dass **die meisten Anfänger Geld verlieren**, weil sie unterschätzen, wie anspruchsvoll es wirklich ist.
+Der Handel ('Trading') beinhaltet kurzfristige Spekulationen (manchmal mit Hebelwirkung) mit dem Ziel, von den Kursschwankungen von Bitcoin zu profitieren. Das mag zwar verlockend klingen, aber erfolgreicher Handel erfordert fortgeschrittene technische Kenntnisse (wie Chartanalyse und Risikomanagement), emotionale Disziplin und ständige Aufmerksamkeit für den Markt. Es ist geistig anstrengend und zeitaufwendig, und die harte Wahrheit ist, dass **die meisten Anfänger Geld verlieren**, weil du unterschätzt, wie anspruchsvoll es wirklich ist.
 
 Wie Warren Buffett bekanntlich sagte:
 
@@ -749,7 +749,7 @@ Bitcoin ist kein System, mit dem man schnell reich werden kann.
 
 
 
-- Investition:**
+- Investition:
 
 
 Investoren sind mittel- bis langfristig orientiert und kaufen Bitcoin in dem Glauben, dass sein Wert im Laufe der Zeit (Monate, Jahre oder sogar Jahrzehnte) steigen wird. Natürlich besteht immer noch ein Risiko, da der Preis von Bitcoin erheblich schwanken kann. Aber diese Herangehensweise ist im Allgemeinen empfehlenswerter und für die meisten Menschen weitaus praktischer, insbesondere für diejenigen, die nicht jeden Tag stundenlang die Charts anschauen wollen.
@@ -778,13 +778,13 @@ Die Hodlers sind sehr langfristig orientiert, manchmal zehn Jahre oder länger. 
 ### Weiter lernen
 
 
-Es ist nie zu früh (oder zu spät), sich über Geld, Investitionen und die Funktionsweise des Finanzsystems zu informieren. Sie müssen kein Experte werden oder sich in jedes technische Detail vertiefen. Ein solides, umfassendes Verständnis reicht aus, um fundierte Entscheidungen zu treffen und zu vermeiden, dass Sie von Finanzprodukten in die Irre geführt werden, die nicht deinen Interessen dienen (oft von Banken oder Beratern beworben).
+Es ist nie zu früh (oder zu spät), sich über Geld, Investitionen und die Funktionsweise des Finanzsystems zu informieren. Du musst kein Experte werden oder sich in jedes technische Detail vertiefen. Ein solides, umfassendes Verständnis reicht aus, um fundierte Entscheidungen zu treffen und zu vermeiden, dass du von Finanzprodukten in die Irre geführt wirst, die nicht deinen Interessen dienen (oft von Banken oder Beratern beworben).
 
 
-Ein guter Ausgangspunkt ist das Buch *Rich Dad, Poor Dad* von Robert T. Kiyosaki. Es ist weithin bekannt für seinen zugänglichen Stil und seine grundlegenden Lektionen, wie z. B. das Verständnis des Unterschieds zwischen Vermögen und Verbindlichkeiten und warum finanzielle Bildung der Schlüssel zu langfristiger Unabhängigkeit ist.
+Ein guter Ausgangspunkt ist das Buch *Rich Dad, Poor Dad* von Robert T. Kiyosaki. Es ist weithin bekannt für seinen zugänglichen Stil und seine grundlegenden Lektionen, wie z.B. das Verständnis des Unterschieds zwischen Vermögen und Verbindlichkeiten und warum finanzielle Bildung der Schlüssel zu langfristiger Unabhängigkeit ist.
 
 
-Wenn Sie bereit sind, tiefer einzusteigen, bieten Podcasts wie *The Investors Podcast* aufschlussreiche Diskussionen über Investitionen, Märkte und wirtschaftliche Grundsätze. Sie behandeln gelegentlich auch Bitcoin und sind damit ein solider nächster Schritt für diejenigen, die verstehen wollen, wie Bitcoin in die breitere Finanzlandschaft passt.
+Wenn du bereit bist, tiefer einzusteigen, bieten Podcasts wie *The Investors Podcast* aufschlussreiche Diskussionen über Investitionen, Märkte und wirtschaftliche Grundsätze. Sie behandeln gelegentlich auch Bitcoin und sind damit ein solider nächster Schritt für diejenigen, die verstehen wollen, wie Bitcoin in die breitere Finanzlandschaft passt.
 
 
 ![BTC102-Bitcoin](assets/fr/025.webp)
@@ -797,14 +797,14 @@ Zum Schluss noch ein paar zeitlose Prinzipien, die jeder Bitcoiner (besonders An
 
 
 
-- Regel Nr. 1**: Investieren Sie nie mehr, als Sie sich leisten können, zu verlieren. Bitcoin ist ein volatiler Vermögenswert. Riskieren Sie nicht deine finanzielle Stabilität auf der Jagd nach Gewinnen. deine grundlegenden Bedürfnisse und dein Seelenfrieden sollten immer an erster Stelle stehen.
-- Regel Nr. 2**: Folgen Sie nicht blindlings dem Hype und vertrauen Sie nicht auf Wundermittel. Ignorieren Sie Trends und auffällige Versprechungen. Konzentrieren Sie sich stattdessen darauf, gut informierte, rationale Entscheidungen zu treffen. Schlafen Sie im Zweifelsfall eine Nacht drüber; sprechen Sie mit Menschen darüber, denen Sie vertrauen. Es ist besser, langsam und bedacht vorzugehen, als sich in kostspielige Fehler zu stürzen.
-- Regel Nr. 3**: Erstellen Sie einen Plan und verfolgen Sie eine langfristige Vision.
+- Regel Nr. 1**: Investiere nie mehr, als du dir leisten kannst, zu verlieren. Bitcoin ist ein volatiler Vermögenswert. Riskiere nicht deine finanzielle Stabilität auf der Jagd nach Gewinnen. deine grundlegenden Bedürfnisse und dein Seelenfrieden sollten immer an erster Stelle stehen.
+- Regel Nr. 2**: Folge nicht blindlings dem Hype und vertraue nicht auf Wundermittel. Ignoriere Trends und auffällige Versprechungen. Konzentriere dich stattdessen darauf, gut informierte, rationale Entscheidungen zu treffen. Schlafe im Zweifelsfall eine Nacht drüber; sprich mit Menschen darüber, denen du vertraust. Es ist besser, langsam und bedacht vorzugehen, als sich in kostspielige Fehler zu stürzen.
+- Regel Nr. 3**: Erstelle einen Plan und verfolge eine langfristige Vision.
 
-Beständigkeit, Geduld und Disziplin bringen Sie weiter als kurzfristige Aufregung. Streben Sie nicht danach "zum Mond zu reisen", sondern nach nachhaltigem Wachstum. Vermeiden Sie fatale Fehler und lassen Sie kleine Erfolge mit der Zeit wachsen.
+Beständigkeit, Geduld und Disziplin bringen dich weiter als kurzfristige Aufregung. Strebe  nicht danach "zum Mond zu reisen", sondern nach nachhaltigem Wachstum. Vermeide fatale Fehler und lass kleine Erfolge mit der Zeit wachsen.
 
 
-Wenn Sie diese Grundsätze befolgen, können Sie Bitcoin-Investitionen mit mehr Klarheit und Gelassenheit angehen. Ja, Bitcoin ist unbeständig und kann anfangs einschüchternd wirken, aber wenn man sich ihm mit Vorsicht, Geduld und einer bodenständigen Einstellung nähert, birgt er unbestreitbares Potenzial. Nehmen Sie sich die Zeit, dein Wissen aufzubauen, überprüfen Sie deine Strategie bei Bedarf und denken Sie vor allem daran: Langsame und stetige Fortschritte sind immer besser als überstürzte Schritte aus Angst oder Ungeduld.
+Wenn du diese Grundsätze befolgst, kannst du Bitcoin-Investitionen mit mehr Klarheit und Gelassenheit angehen. Ja, Bitcoin ist unbeständig und kann anfangs einschüchternd wirken, aber wenn man sich ihm mit Vorsicht, Geduld und einer bodenständigen Einstellung nähert, birgt er unbestreitbares Potenzial. Nimm dir die Zeit, dein Wissen aufzubauen, überprüfe deine Strategie bei Bedarf und denk vor allem daran: Langsame und stetige Fortschritte sind immer besser als überstürzte Schritte aus Angst oder Ungeduld.
 
 
 # Verstehen, worauf man sich einlässt
@@ -813,13 +813,13 @@ Wenn Sie diese Grundsätze befolgen, können Sie Bitcoin-Investitionen mit mehr 
 <partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 
-## Bitcoin in 5 Minuten
+## Bitcoin in fünf Minuten
 
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 
-In diesem Kurs geht es in erster Linie darum, Sie durch den Erwerb und die Sicherung deiner ersten Bitcoins zu führen. Doch bevor wir uns den praktischen Schritten zuwenden (wie man BTC kauft, welche Wallets man verwendet und so weiter), ist es wichtig, einen Schritt zurückzutreten und zu verstehen, was Bitcoin wirklich ist. Wenn Sie die tiefere Natur von Bitcoin begreifen, werden Sie verstehen, warum sich Millionen von Menschen dieser Technologie zuwenden und warum es entscheidend ist, die Grundlagen zu verstehen, bevor Sie deine Ersparnisse in einen so neuen und unbeständigen Vermögenswert investieren.
+In diesem Kurs geht es in erster Linie darum, dich durch den Erwerb und die Sicherung deiner ersten Bitcoins zu führen. Doch bevor wir uns den praktischen Schritten zuwenden (wie man BTC kauft, welche Wallets man verwendet und so weiter), ist es wichtig, einen Schritt zurückzutreten und zu verstehen, was Bitcoin wirklich ist. Wenn du die tiefere Natur von Bitcoin begreifst, wirst du verstehen, warum sich Millionen von Menschen dieser Technologie zuwenden und warum es entscheidend ist, die Grundlagen zu verstehen, bevor du deine Ersparnisse in einen so neuen und unbeständigen Vermögenswert investierst.
 
 
 Im Laufe der Jahre hat Bitcoin als globales Währungsnetzwerk Anerkennung gefunden. Es wurde "digitales Gold", ein "Vertrauensprotokoll" und sogar ein "paralleles Finanzsystem" genannt. Aber was bedeuten diese Begriffe wirklich? Um diese Frage zu beantworten, werden wir einen genaueren Blick auf den Kern von Bitcoin werfen: seine Entstehungsgeschichte, seine technischen Grundlagen, seine monetären Eigenschaften und seine potenziellen Auswirkungen - nicht nur auf Einzelpersonen, sondern auf das globale Finanzsystem als Ganzes.
@@ -906,7 +906,7 @@ Vereinfacht ausgedrückt verfügt jeder Teilnehmer des Bitcoin-Netzes (ein so ge
 #### Blockchain: ein Geschäftsbuch/Transaktionsjournal
 
 
-Stellen Sie sich das Blockchain als ein riesiges Geschäftsbuch vor, bei dem jede Zeile eine Transaktion darstellt. In einem traditionellen Banksystem ist die Datenbank auf den Servern einer Bank gespeichert, die Änderungen vornehmen kann, wann immer sie will. Im Bitcoin hingegen werden **alle Änderungen im gesamten Netzwerk validiert**: Sobald ein neuer Block von Transaktionen zur Blockchain hinzugefügt wurde, ist es fast unmöglich, ihn später zu ändern. Diese dezentralisierte Validierung macht den 'Bitcoin Ledger' sicher und transparent.
+Stell dir die Blockchain als ein riesiges Geschäftsbuch vor, bei dem jede Zeile eine Transaktion darstellt. In einem traditionellen Banksystem ist die Datenbank auf den Servern einer Bank gespeichert, die Änderungen vornehmen kann, wann immer sie will. Im Bitcoin hingegen werden **alle Änderungen im gesamten Netzwerk validiert**: Sobald ein neuer Block von Transaktionen zur Blockchain hinzugefügt wurde, ist es fast unmöglich, ihn später zu ändern. Diese dezentralisierte Validierung macht den 'Bitcoin Ledger' sicher und transparent.
 
 
 ![BTC102-Bitcoin](assets/fr/027.webp)
@@ -954,7 +954,7 @@ Diese eingebaute Knappheit ist ein grosser Anreiz für diejenigen, die sich von 
 #### Teilbarkeit und Zugänglichkeit
 
 
-Eine der am meisten unterschätzten Stärken von Bitcoin ist seine Teilbarkeit. Jeder Bitcoin kann in 100 Millionen Einheiten, so genannte Satoshis (oder kurz Sats), aufgeteilt werden. Das bedeutet, dass Sie nicht Zehntausende von Euro oder Dollar ausgeben müssen, um anzufangen; Sie können Bitcoin im Wert von wenigen Euro kaufen, bis hin zu winzigen Bruchteilen.
+Eine der am meisten unterschätzten Stärken von Bitcoin ist seine Teilbarkeit. Jeder Bitcoin kann in 100 Millionen Einheiten, so genannte Satoshis (oder kurz Sats), aufgeteilt werden. Das bedeutet, dass du nicht Zehntausende von Euro oder Dollar ausgeben musst, um anzufangen; Du kannst Bitcoins im Wert von wenigen Euro kaufen, bis hin zu winzigen Bruchteilen.
 
 
 ![BTC102-Bitcoin](assets/fr/026.webp)
@@ -974,7 +974,7 @@ Dieses Mass an Transparenz macht es unglaublich schwierig, Hintertüren einzubau
 ![BTC102-Bitcoin](assets/fr/030.webp)
 
 
-Diese Transparenz ist einer der Hauptgründe, warum die Menschen dem Bitcoin-Protokoll vertrauen; sie verhindert, dass eine kleine Gruppe von Entwicklern das Netz zu ihrem eigenen Vorteil manipuliert. Bitcoin funktioniert nach einem einfachen, aber wirkungsvollen Prinzip: Wenn Sie mit den vorgeschlagenen Änderungen nicht einverstanden sind, steht es dir frei, deine Software nicht zu aktualisieren. In einigen Fällen wird dies keine Unterbrechung verursachen; Sie bleiben weiterhin mit dem Rest des Netzwerks synchronisiert. In anderen Fällen kann dies jedoch zu einer so genannten Hard Fork führen, bei dem sich das Netz in zwei Teile spaltet und eine neue Version von Bitcoin geschaffen wird. Genau das ist 2017 mit der Spaltung zwischen Bitcoin (BTC) und Bitcoin Cash (BCH) passiert.
+Diese Transparenz ist einer der Hauptgründe, warum die Menschen dem Bitcoin-Protokoll vertrauen; sie verhindert, dass eine kleine Gruppe von Entwicklern das Netz zu ihrem eigenen Vorteil manipuliert. Bitcoin funktioniert nach einem einfachen, aber wirkungsvollen Prinzip: Wenn du mit den vorgeschlagenen Änderungen nicht einverstanden bist, steht es dir frei, deine Software nicht zu aktualisieren. In einigen Fällen wird dies keine Unterbrechung verursachen; Sie bleiben weiterhin mit dem Rest des Netzwerks synchronisiert. In anderen Fällen kann dies jedoch zu einer so genannten Hard Fork führen, bei dem sich das Netz in zwei Teile spaltet und eine neue Version von Bitcoin geschaffen wird. Genau das ist 2017 mit der Spaltung zwischen Bitcoin (BTC) und Bitcoin Cash (BCH) passiert.
 
 
 Diese Art der Verwaltung kann zwar langsam und manchmal chaotisch sein, aber sie ist auch eine Stärke; sie stellt sicher, dass keine einzelne Einheit einseitig die Kontrolle übernehmen kann und hilft Bitcoin, stabil, neutral und resistent gegen Zentralisierung zu bleiben.
@@ -1025,12 +1025,12 @@ Dennoch sorgt Bitcoin nach mehr als einem Jahrzehnt seines Bestehens weiterhin f
 ![BTC102-Bitcoin](assets/fr/028.webp)
 
 
-Wenn Sie dein Wissen weiter ausbauen möchten, können Sie den BTC101-Kurs auf dem Plan ₿ Network besuchen, der eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin bietet.
+Wenn du dein Wissen weiter ausbauen möchtest kannst du den BTC101-Kurs auf dem Plan ₿ Network besuchen, der eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin bietet.
 
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als 5 Minuten gedauert hat!) sind Sie nun besser gerüstet, um Bitcoins zu kaufen und sicher aufzubewahren. In den folgenden Kapiteln des Kurses werden wir tiefer in die Bedeutung von Bitcoin, die Funktionsweise seiner Industrie und die Entwicklung seiner verschiedenen Schichten eintauchen. Im nächsten Abschnitt werden wir besprechen, wie Sie deinen eigenen persönlichen Plan aufstellen können.
+Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als fünf Minuten gedauert hat!) bist du nun besser gerüstet, um Bitcoins zu kaufen und sicher aufzubewahren. In den folgenden Kapiteln des Kurses werden wir tiefer in die Bedeutung von Bitcoin, die Funktionsweise seiner Industrie und die Entwicklung seiner verschiedenen Schichten eintauchen. Im nächsten Abschnitt werden wir besprechen, wie du deinen eigenen persönlichen Plan aufstellen kannst.
 
 ## Warum ist Bitcoin wichtig?
 
@@ -1039,18 +1039,18 @@ Nach dieser Einführung in Bitcoin (die vielleicht etwas länger als 5 Minuten g
 
 
 
-Warum ist Bitcoin so wichtig? Das ist die zentrale Frage in diesem Kurs. Ob es um dein Studium oder deine Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, dass Sie von Ihrem Plan abweichen. Ziel ist es, die Grundprinzipien von Bitcoin stets im Auge zu behalten. So können Sie sicherzustellen, dass deine Strategie mit deinen Überzeugungen im Einklang steht.
+Warum ist Bitcoin so wichtig? Das ist die zentrale Frage in diesem Kurs. Ob es um dein Studium oder deine Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, dass du von deinem Plan abweichst. Ziel ist es, die Grundprinzipien von Bitcoin stets im Auge zu behalten. So kannst du sicherstellen, dass deine Strategie mit deinen Überzeugungen im Einklang steht.
 
 
 ### Eine universelle Währung
 
 
-Barack Obama bezeichnete Bitcoin einmal als eine "Schweizer Bank im Hosensack", und das aus gutem Grund. Bitcoin bietet allen die gleichen Möglichkeiten, egal wer sie sind. Ob Sie ein Teenager, ein Präsident, ein Demonstrant in Hongkong oder eine "gelbe Weste" in Frankreich sind, jeder hat den gleichen Zugang zu denselben Protokollen und Werkzeugen:
+Barack Obama bezeichnete Bitcoin einmal als eine "Schweizer Bank im Hosensack", und das aus gutem Grund. Bitcoin bietet allen die gleichen Möglichkeiten, egal wer sie sind. Ob du ein Teenager, ein Präsident, ein Demonstrant in Hongkong oder eine "gelbe Weste" in Frankreich bist, jeder hat den gleichen Zugang zu denselben Protokollen und Werkzeugen:
 
 
 
-- Erstellen Sie kostenlose und unbegrenzte Geldbörsen (bei Bitcoin sprechen wir nicht wirklich von "Konten", sondern eher von "Wallets").
-- Senden Sie Geld überall und an jeden.
+- Erstelle kostenlose und unbegrenzte Geldbörsen (bei Bitcoin sprechen wir nicht wirklich von "Konten", sondern eher von "Wallets").
+- Sende Geld überall und an jeden.
 - Eine Identifizierung oder ein Verwaltungsverfahren ist nicht erforderlich.
 - Zugang für alle, unabhängig von Alter, Geschlecht, Religion, Land oder Einkommensniveau.
 - Datenschutz und Transparenz nach Ihrem Ermessen.
@@ -1094,7 +1094,7 @@ Und schliesslich: wenn Regierungen ihre nationalen Währungen abwerten, werden d
 Bitcoin stellt eine mutige Alternative zu diesem Kreislauf chronischer monetärer Instabilität dar. Im Gegensatz zu staatlich herausgegebenen Währungen basiert es auf unveränderlichen, mathematisch basierten Regeln. Die Regeln werden durch Konsens durchgesetzt, nicht durch Regierungen oder Zentralbanken. Die Ausgabe neuer Tokens ist vorhersehbar und auf etwa 21 Millionen Münzen begrenzt. Dies macht es zu einer Form von gesundem Geld, das seinen Wert über lange Zeit behält. Da es keiner Zensur unterliegt, kann jeder Werte speichern und übertragen, ohne sich auf eine Institution verlassen zu müssen. Und dank seiner Teilbarkeit und Übertragbarkeit ist es sowohl zugänglich als auch praktisch: eine Finanzinfrastruktur für jedermann und überall.
 
 
-**Wussten Sie schon?** Im Laufe der Geschichte gab es weltweit mindestens 56 dokumentierte Fälle von Hyperinflation. In vielen dieser Fälle brachen ganze Volkswirtschaften zusammen, wurden Ersparnisse vernichtet und Millionen in extreme Armut gestürzt. Schlimmer noch, diese monetären Zusammenbrüche dienten oft als Sprungbrett für politische Umwälzungen, die manchmal zu autoritären Regimen führten. Beispiele sind Deutschland in den 1920er Jahren und Chile in den 1970er Jahren.
+**Wusstest du schon?** Im Laufe der Geschichte gab es weltweit mindestens 56 dokumentierte Fälle von Hyperinflation. In vielen dieser Fälle brachen ganze Volkswirtschaften zusammen, wurden Ersparnisse vernichtet und Millionen in extreme Armut gestürzt. Schlimmer noch, diese monetären Zusammenbrüche dienten oft als Sprungbrett für politische Umwälzungen, die manchmal zu autoritären Regimen führten. Beispiele sind Deutschland in den 1920er Jahren und Chile in den 1970er Jahren.
 
 
 ![BTC102-Bitcoin](assets/fr/039.webp)
@@ -1103,7 +1103,7 @@ Bitcoin stellt eine mutige Alternative zu diesem Kreislauf chronischer monetäre
 Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*. In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History. Routledge Publishing. Abgerufen von https://ssrn.com/abstract=2130109
 
 
-Der Zusammenbruch von Fiat-Währungen ist kein historischer Zufall; es ist ein Muster, das sich wiederholt. Heute bietet Bitcoin einen Ausweg: eine einzigartige Gelegenheit, dein Vermögen ausserhalb von staatlich kontrollierten Geldsystemen zu schützen. Zum jetzigen Zeitpunkt ist die Frage nicht, ob eine weitere Krise eintritt, sondern wann. Mit Bitcoin haben Sie jetzt die Möglichkeit, aus diesen zerstörerischen Zyklen auszusteigen und sich für ein Geldsystem zu entscheiden, das auf Transparenz, Berechenbarkeit und individueller Souveränität beruht.
+Der Zusammenbruch von Fiat-Währungen ist kein historischer Zufall; es ist ein Muster, das sich wiederholt. Heute bietet Bitcoin einen Ausweg: eine einzigartige Gelegenheit, dein Vermögen ausserhalb von staatlich kontrollierten Geldsystemen zu schützen. Zum jetzigen Zeitpunkt ist die Frage nicht, ob eine weitere Krise eintritt, sondern wann. Mit Bitcoin hast du jetzt die Möglichkeit, aus diesen zerstörerischen Zyklen auszusteigen und dich für ein Geldsystem zu entscheiden, das auf Transparenz, Berechenbarkeit und individueller Souveränität beruht.
 
 
 ### Eine Antwort auf staatliche Kontrolle und Ungerechtigkeit
@@ -1119,15 +1119,15 @@ Aber welche Möglichkeiten die Ersparnisse zu schützen gibt es in einer Welt, i
 
 
 
-- Bankkonten** können im Handumdrehen eingefroren, durch eine einfache behördliche Anordnung beschlagnahmt oder durch übermässige Geldbeschränkungen geleert werden.
+- Bankkonten können im Handumdrehen eingefroren, durch eine einfache behördliche Anordnung beschlagnahmt oder durch übermässige Geldbeschränkungen geleert werden.
 
 
 
-- Gold** dient zwar seit Jahrtausenden als Wertaufbewahrungsmittel, ist aber schwer zu teilen, schwer zu transportieren und für den Einsatz in dringenden Krisensituationen unpraktisch.
+- Gold dient zwar seit Jahrtausenden als Wertaufbewahrungsmittel, ist aber schwer zu teilen, schwer zu transportieren und für den Einsatz in dringenden Krisensituationen unpraktisch.
 
 
 
-- Bargeld** ist zwar anonym, aber sperrig, leicht zu konfiszieren und verliert aufgrund der Inflation ständig an Wert.
+- Bargeld ist zwar anonym, aber sperrig, leicht zu konfiszieren und verliert aufgrund der Inflation ständig an Wert.
 
 
 Bitcoin ist mehr als nur ein praktisches Werkzeug. Es ist auch **eine friedliche Form des Protests**; eine Erklärung der Unabhängigkeit von einem Finanzsystem, das auf willkürlicher Macht, Zentralisierung und systemischer Ungleichheit beruht. Sich für Bitcoin zu entscheiden bedeutet, Manipulation, Entwertung und Überwachung abzulehnen. Es geht darum, deine **Souveränität** zurückzufordern, deine Zukunft zu sichern und dein Recht zu verteidigen, dein eigenes Vermögen zu kontrollieren.
@@ -1139,7 +1139,7 @@ In diesem Sinne ist Bitcoin mehr als nur eine Technologie. Es ist ein Werkzeug d
 ![BTC102-Bitcoin](assets/fr/040.webp)
 
 
-**Wussten Sie schon**? Bitcoin ist pseudonym, nicht anonym. Nutzer können Wallet-Adressen erstellen, ohne ihre wahre Identität preiszugeben, und so Geld ausserhalb des traditionellen Bankensystems senden und empfangen.
+**Wusstest du schon**? Bitcoin ist pseudonym, nicht anonym. Nutzer können Wallet-Adressen erstellen, ohne ihre wahre Identität preiszugeben, und so Geld ausserhalb des traditionellen Bankensystems senden und empfangen.
 
 
 Entgegen der landläufigen Meinung bietet Bitcoin jedoch keine vollständige Anonymität. Jede Transaktion wird auf einem öffentlichen Ledger (der Blockchain) aufgezeichnet, auf den jeder zugreifen und den jeder überprüfen kann. Wallet-Adressen sind zwar nicht mit einem Namen verknüpft. Dennoch können die finanziellen Aktivitäten eines Nutzers zurückverfolgt und analysiert werden, wenn dieser keine angemessenen Datenschutzpraktiken befolgt.
@@ -1181,16 +1181,16 @@ In der Vergangenheit diente Gold als Schutz vor unkontrollierter Geldmengenauswe
 ![BTC102-Bitcoin](assets/fr/042.webp)
 
 
-Wenn Sie Geld bei einer Bank einzahlen, gehört es dir nicht mehr wirklich.
+Wenn du Geld bei einer Bank einzahlst, gehört es dir nicht mehr wirklich.
 
-Die meisten Menschen sind sich dessen nicht bewusst: Das Geld, das Sie auf einem Bankkonto haben, ist technisch gesehen nicht ihr Eigentum. Rechtlich und praktisch gesehen handelt es sich um ein Darlehen, das Sie deiner Bank gewähren und das die Bank für ihre eigenen Geschäfte und Investitionen verwenden kann.
+Die meisten Menschen sind sich dessen nicht bewusst: Das Geld, das du auf einem Bankkonto hast, ist technisch gesehen nicht dein Eigentum. Rechtlich und praktisch gesehen handelt es sich um ein Darlehen, das du deiner Bank gewährst und das die Bank für ihre eigenen Geschäfte und Investitionen verwenden kann.
 
 Dieses System beruht auf dem blinden Vertrauen der Öffentlichkeit in die Finanzinstitute, birgt aber ernste Risiken:
 
 
 
 - Wenn deine Bank zusammenbricht, könnte dein Geld verschwinden. Selbst bei Einlagensicherungssystemen, können diese Garantien bei Systemkrisen versagen. Dies hat die Geschichte gezeigt.
-- Wenn deine Bank den Zugang zu deinen Geldern einschränkt, können Sie möglicherweise dein eigenes Geld nicht abheben oder verwenden. Das ist schon oft vorgekommen, z.B. während der Wirtschaftskrise in Griechenland, im Libanon und in Argentinien oder bei politischen Auseinandersetzungen wie den Trucker-Protesten in Kanada.
+- Wenn deine Bank den Zugang zu deinen Geldern einschränkt, kannst du möglicherweise dein eigenes Geld nicht abheben oder verwenden. Das ist schon oft vorgekommen, z.B. während der Wirtschaftskrise in Griechenland, im Libanon und in Argentinien oder bei politischen Auseinandersetzungen wie den Trucker-Protesten in Kanada.
 
 
 Bitcoin bietet einen radikal anderen Modus: offen, neutral und unbestechlich. Seine Regeln sind im Konsens fest kodiert und gelten für alle Netzwerkteilnehmer gleichermassen.
@@ -1200,7 +1200,7 @@ Hier kommt das Kernprinzip ins Spiel:
 
 **"Nicht deine Schlüssel, nicht dein Bitcoin. "**
 
-Wenn Sie die privaten Schlüssel zu deinen Bitcoins nicht kontrollieren, dann gehören sie dir nicht wirklich. Sie befinden sich in den Händen einer dritten Partei, genau wie Papiergeld in einer Bank. Aber wenn Sie deine privaten Schlüssel besitzen, haben Sie und nur Sie allein die volle Kontrolle über dein Geld. Keine Institution, keine Regierung, keine Behörde kann deinen Zugang einfrieren, beschlagnahmen oder einschränken.
+Wenn du die privaten Schlüssel zu deinen Bitcoins nicht kontrollierst, dann gehören sie dir nicht wirklich. Sie befinden sich in den Händen einer dritten Partei, genau wie Papiergeld in einer Bank. Aber wenn du deine privaten Schlüssel besitzt, hast du und nur du allein die volle Kontrolle über dein Geld. Keine Institution, keine Regierung, keine Behörde kann deinen Zugang einfrieren, beschlagnahmen oder einschränken.
 
 Das ist es, was Bitcoin zu einer mächtigen Alternative zu den Anfälligkeiten und der Ausuferung des traditionellen Finanzsystems macht: monetäre Souveränität.
 
@@ -1289,7 +1289,7 @@ Technisch gesehen ist es unglaublich einfach, eine neue Kryptowährung zu schaff
 Im Dezember 2019 listete CoinMarketCap über 5.000 Tokens auf. Bis zum Jahr 2025 wird diese Zahl in die Millionen gehen, dank des Aufstiegs von NFTs, dezentralem Finanzwesen (DeFi) und unzähligen anderen Anwendungen (einige legitim, viele fragwürdig). Diese Token gibt es in allen Formen und Ausprägungen: Einige behaupten, Währungen zu sein, andere fungieren als Wertpapiere, Plattform-Dienstprogramme, Sidechains oder tokenisierte Darstellungen von digitaler Kunst.
 
 
-Aber lassen Sie uns das klarstellen: **Die meisten dieser Kryptowährungen sind kaum mehr als Betrug**.
+Aber lass uns das klarstellen: **Die meisten dieser Kryptowährungen sind kaum mehr als Betrug**.
 
 Hinter dem Schleier der auffälligen Technologie und des ausgefeilten Brandings verbergen sich bei vielen dieser Projekte aggressive Marketingstrategien, die nur auf eines abzielen: **deine Bitcoin** zu kriegen. Sie spielen mit der Gier und der Unwissenheit der Anleger, indem sie verführerische Geschichten über revolutionäre Technologien oder garantierte Renditen verbreiten; Behauptungen, die einer genauen Prüfung selten standhalten.
 
@@ -1307,8 +1307,8 @@ Bis jetzt sticht eine Wahrheit hervor: Bitcoin bleibt das einzige wirklich dezen
 
 | Feature               | Bitcoin                  | Altcoins (99.9% davon)       |
 | ---------------------|--------------------------|--------------------------------|
-| **Liquidity**         | hoch                     | tief                            |
-| **Adoption (Real-World)** | Global und zunehmend       | sehr limitiert                   |
+| **Liquidität**         | hoch                     | tief                            |
+| **Adoption (Real-World)** | global und zunehmend       | sehr limitiert                   |
 | **Team**              | dezentral und robust | zentral und undurchsichtig         |
 | **Ruf**        | stark und global anerkannt        | variiert, oft fragwürdig     |
 | **Infrastruktur**    | stabil und sicher        | instabil und verletzlich        |
@@ -1317,7 +1317,7 @@ Bis jetzt sticht eine Wahrheit hervor: Bitcoin bleibt das einzige wirklich dezen
 | **Reeller Nutzen?**     | ja                      | diskutierbar                      |
 
 
-**Seien Sie vorsichtig bei irreführenden Behauptungen wie:**
+**Sei vorsichtig bei irreführenden Behauptungen wie:**
 
 
 
@@ -1328,7 +1328,7 @@ Bis jetzt sticht eine Wahrheit hervor: Bitcoin bleibt das einzige wirklich dezen
 - "Digitale Währungen der Zentralbanken werden Bitcoin überflüssig machen"
 
 
-Bevor Sie deine Zeit oder Ressourcen in einen Altcoin investieren, sollten Sie selbst recherchieren, denn darum geht es hier nicht.
+Bevor du deine Zeit oder Ressourcen in einen Altcoin investierst, solltest du selbst recherchieren, denn darum geht es hier nicht.
 
 **Wir sind hier, um über Bitcoin und nur über Bitcoin zu berichten.
 
@@ -1344,11 +1344,11 @@ Auch Tech-Giganten haben sich dem Rennen angeschlossen. Facebook (jetzt Meta) st
 
 | Feature                    | Bitcoin | Altcoins | Facebook-Coin | FedCoin |
 |---------------------------|---------|----------|---------------|---------|
-| **Public**                | ja     | variiert   | nein            | nein      |
-| **Open**                  | ja     | variiert   | nein            | nein      |
-| **Borderless**            | ja     | variiert   | nein            | nein      |
+| **Öffentlich**                | ja     | variiert   | nein            | nein      |
+| **Offen**                  | ja     | variiert   | nein            | nein      |
+| **Grenzenlos**            | ja     | variiert   | nein            | nein      |
 | **Neutral**               | ja     | variiert   | nein            | nein      |
-| **Censorship-resistant**  | ja     | variiert   | nein            | nein      |
+| **Zensur-resistent**  | ja     | variiert   | nein            | nein      |
 
 Trotz mutigen Marketings konkurrieren diese Initiativen nicht mit Bitcoin; sie imitieren dessen Sprache, während sie dessen Kernprinzipien ablehnen. Sie sind auf Einhaltung der Vorschriften ausgelegt, nicht auf Freiheit. Sie sind darauf ausgelegt, die Überwachung auszuweiten, nicht die Privatsphäre zu schützen. Sie verstärken die Kontrolle, anstatt sie zu verteilen.
 
@@ -1372,7 +1372,7 @@ Da es sich bei Bitcoin um ein globales Netzwerk handelt, haben die Länder auf s
 
 
 
-- Einige Länder verhängen strenge Beschränkungen, wie z. B. China, und versuchen, den Konsum einzudämmen, ohne ihn jemals wirklich stoppen zu können.
+- Einige Länder verhängen strenge Beschränkungen, wie z.B. China, und versuchen, den Konsum einzudämmen, ohne ihn jemals wirklich stoppen zu können.
 
 
 
@@ -1386,7 +1386,7 @@ Da es sich bei Bitcoin um ein globales Netzwerk handelt, haben die Länder auf s
 ![BTC102-Bitcoin](assets/fr/056.webp)
 
 
-Regierungen und Institutionen haben oft Schwierigkeiten, Bitcoin genau zu klassifizieren (ist es Geld, Eigentum oder etwas völlig Neues?). Infolgedessen neigen die Vorschriften dazu, reaktiv und inkonsistent zu sein und sich ständig weiterzuentwickeln. Wenn Sie mit Bitcoin zu tun haben, müssen Sie sich unbedingt über die örtlichen Gegebenheiten informieren. Dies vor allem, wenn es um Steuern, Bankzugang und Compliance-Vorschriften geht.
+Regierungen und Institutionen haben oft Schwierigkeiten, Bitcoin genau zu klassifizieren (ist es Geld, Eigentum oder etwas völlig Neues?). Infolgedessen neigen die Vorschriften dazu, reaktiv und inkonsistent zu sein und sich ständig weiterzuentwickeln. Wenn du mit Bitcoin zu tun hast, musst du dich unbedingt über die örtlichen Gegebenheiten informieren. Dies vor allem, wenn es um Steuern, Bankzugang und Compliance-Vorschriften geht.
 
 
 ### Die Haltung der Banken zu Bitcoin
@@ -1401,7 +1401,7 @@ Während Bitcoin jedoch als Konkurrent angesehen wird, investieren viele dieser 
 ### Kryptowährungsbörsen und Bitcoin-Verwahrung
 
 
-Börsen spielen eine wichtige Rolle im Bitcoin-Ökosystem, da sie als Brücke zwischen Fiat-Währungen und Bitcoin fungieren. Sie ermöglichen es den Nutzern, Bitcoin zu kaufen, zu verkaufen und manchmal gegen andere digitale Vermögenswerte zu tauschen. Allerdings sind nicht alle Börsen gleich, und es ist wichtig, diejenige zu wählen, die deinen Bedürfnissen entspricht und gleichzeitig die Risiken minimiert. Hier sind die wichtigsten Faktoren, die Sie beachten sollten, bevor Sie eine so genannte Exchange nutzen:
+Börsen spielen eine wichtige Rolle im Bitcoin-Ökosystem, da sie als Brücke zwischen Fiat-Währungen und Bitcoin fungieren. Sie ermöglichen es den Nutzern, Bitcoin zu kaufen, zu verkaufen und manchmal gegen andere digitale Vermögenswerte zu tauschen. Allerdings sind nicht alle Börsen gleich, und es ist wichtig, diejenige zu wählen, die deinen Bedürfnissen entspricht und gleichzeitig die Risiken minimiert. Hier sind die wichtigsten Faktoren, die du beachten solltest, bevor du eine so genannte Exchange nutzt:
 
 
 
@@ -1439,13 +1439,13 @@ Es gibt verschiedene Arten von Plattformen, die jeweils für bestimmte Zwecke ge
 
 
 
-- Peer-to-Peer Tausch-Plattformen (P2P)**
+- Peer-to-Peer Tausch-Plattformen (P2P)
 
 
-Diese Plattformen ermöglichen es den Nutzern, Bitcoins direkt miteinander handeln, ohne dass ein zentraler Vermittler dazwischengeschaltet ist. Sie bieten mehr Privatsphäre, insbesondere weil sie ohne KYC arbeiten. Sie können lokale Verkäufer finden, mit denen Sie persönliche Transaktionen durchführen oder verschiedene Online-Zahlungsmethoden (SEPA, Revolut, Wise usw.) verwenden können.
+Diese Plattformen ermöglichen es den Nutzern, Bitcoins direkt miteinander handeln, ohne dass ein zentraler Vermittler dazwischengeschaltet ist. Sie bieten mehr Privatsphäre, insbesondere weil sie ohne KYC arbeiten. Sie können lokale Verkäufer finden, mit denen du persönliche Transaktionen durchführen oder verschiedene Online-Zahlungsmethoden (SEPA, Revolut, Wise usw.) verwenden kannst.
 
 
-**Vorsicht:** Wählen Sie für jede physische Transaktion einen öffentlichen und sicheren Ort, um möglichen Betrug zu vermeiden.
+**Vorsicht:** Wähle für jede physische Transaktion einen öffentlichen und sicheren Ort, um möglichen Betrug zu vermeiden.
 
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
@@ -1459,7 +1459,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Bitcoin-only Exchange-Plattformen**
+- Bitcoin-only Exchange-Plattformen
 
 
 Diese Plattformen verfolgen einen benutzerfreundlichen Ansatz und bieten einen einfachen, transparenten Service. Sie sind Bitcoin-only. Sie implementieren oft Lösungen für den Kauf von Bitcoins durch Dollar-Cost Averaging (DCA) und bieten automatische Abhebungen auf ein persönliches Wallet. Sie eignen sich besonders für Anfänger, die Bitcoins auf progressive und sichere Weise anhäufen möchten. Beispiele: Relai, Bull Bitcoin, StackinSat, Bitstack...
@@ -1477,7 +1477,7 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 - Universell einsetzbare oder handelsorientierte Exchange-Plattformen**
 
 
-Diese Plattformen bieten fortgeschrittene Funktionen, die über den einfachen Kauf von Bitcoin hinausgehen, einschliesslich Nutzung von Hebelwirkung (Leverage) und Derivaten. Wir raten jedoch dringend vom 'Trading' ab. Stattdessen empfehlen wir, Bitcoin zu kaufen und es in dein eigenes Wallet zu übertragen. 'Trading' ist eine risikoreiche Tätigkeit und im Allgemeinen nicht für diejenigen geeignet, die auf eine langfristige Akkumulation ausgerichtet sind. Sich aus dem 'Trading' herauszuhalten, ist oft der klügere Weg.
+Diese Plattformen bieten fortgeschrittene Funktionen, die über den einfachen Kauf von Bitcoin hinausgehen, einschliesslich Nutzung von Hebelwirkung (Leverage) und Derivaten. Wir raten jedoch dringend vom Handel ('Trading') ab. Stattdessen empfehlen wir, Bitcoin zu kaufen und es in dein eigenes Wallet zu übertragen. 'Trading' ist eine risikoreiche Tätigkeit und im Allgemeinen nicht für diejenigen geeignet, die auf eine langfristige Akkumulation ausgerichtet sind. Sich aus dem 'Trading' herauszuhalten, ist oft der klügere Weg.
 
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
@@ -1488,7 +1488,7 @@ https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a
 
 https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-**Exchange Plattformen sind keine sicheren Geldbörsen**. Wenn Sie deine Bitcoins auf einem Exchange lassen, setzen Sie sich einem erheblichen Risiko aus. Mehrere Szenarien können zum Verlust Ihres Geldes führen:
+**Exchange Plattformen sind keine sicheren Geldbörsen**. Wenn du deine Bitcoins auf einem Exchange lässt, setzt du dich einem erheblichen Risiko aus. Mehrere Szenarien können zum Verlust deines Geldes führen:
 
 
 
@@ -1497,7 +1497,7 @@ https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-
 - Konkurs oder Betrug: Zahlreiche Plattformen sind mit dem Geld ihrer Kunden verschwunden (z.B. FTX).
 
 
-Die goldene Regel ist einfach: **Wenn Sie deine privaten Schlüssel nicht besitzen, besitzen Sie deine Bitcoins nicht wirklich**. Heben Sie dein Geld immer so schnell wie möglich auf ein persönliches Wallet ab, um die vollständige Souveränität über dein Geld zu gewährleisten.
+Die goldene Regel ist einfach: **Wenn du deine privaten Schlüssel nicht besitzt, besitzt du deine Bitcoins nicht wirklich**. Hebe dein Geld immer so schnell wie möglich auf ein persönliches Wallet ab, um die vollständige Souveränität über dein Geld zu gewährleisten.
 
 
 ### Geldbörsen, Mining und Entwicklung: die Säulen des Ökosystems
@@ -1524,7 +1524,7 @@ Die Bitcoin Wallet-Industrie ist in mehrere Kategorien unterteilt, die jeweils u
 
 - Hardware Wallet-Hersteller: Diese Unternehmen entwickeln physische Geräte für die sichere Speicherung von Schlüsseln. Einige sind quelloffen, während andere proprietäre Lösungen mit unterschiedlichen Funktionen und Sicherheitsniveaus anbieten. Zu den bekannten Namen gehören Ledger, Trezor, Coinkite, Foundation und Shiftcrypto.
 - Software Wallet-Entwickler: Diese reichen von Unternehmen bis zu unabhängigen Entwicklern, die mobile und Desktop-Anwendungen erstellen. deine Angebote variieren in Bezug auf Benutzerfreundlichkeit, Sicherheit und Funktionen. Beispiele sind Sparrow, Wizard Sardine, Galoy, Synonym und Blockstream.
-- DIY (*Do It Yourself*) Wallets:Diese Open-Source-Lösungen sind für fortgeschrittene Benutzer gedacht, die volle Kontrolle und minimale Abhängigkeit von Dritten wünschen. Der Bau einer eigenen Wallet reduziert die Vertrauensabhängigkeit und kann deine Sicherheitslage verbessern. Bemerkenswerte DIY-Optionen sind Seedsigner und Specter DIY.
+- DIY (*Do It Yourself*) Wallets: Diese Open-Source-Lösungen sind für fortgeschrittene Benutzer gedacht, die volle Kontrolle und minimale Abhängigkeit von Dritten wünschen. Der Bau einer eigenen Wallet reduziert die Vertrauensabhängigkeit und kann deine Sicherheitslage verbessern. Bemerkenswerte DIY-Optionen sind Seedsigner und Specter DIY.
 
 
 Geldbörsen spielen eine grundlegende Rolle in Bitcoin und werden im weiteren Verlauf dieses Kurses genauer untersucht.
@@ -1617,10 +1617,10 @@ Das Lightning Network wurde 2016 von Thaddeus Dryja und Joseph Poon entwickelt. 
 ![BTC102-Bitcoin](assets/fr/059.webp)
 
 
-Nehmen wir an, Sie kaufen einen Kaffee mit Bitcoin unter Verwendung der Basisschicht. Damit die Zahlung bestätigt werden kann (und damit das Café sicher sein kann, dass Sie tatsächlich bezahlt haben), muss die Transaktion in einen Block aufgenommen werden. Das kann einige Minuten dauern, je nach der von dir gewählten Gebühr. Technisch gesehen sollte der Händler sechs Bestätigungen (etwa eine Stunde) abwarten, um sicher zu sein, dass die Zahlung endgültig ist. Diese Wartezeit ist natürlich nicht möglich, wenn Sie am Schalter stehen. Mit dem Lightning Network wird die Zahlung in nur wenigen Sekunden abgewickelt, so dass dein Kaffee bezahlt und serviert ist, bevor er überhaupt abkühlen kann.
+Nehmen wir an, du kaufst einen Kaffee mit Bitcoin unter Verwendung der Basisschicht. Damit die Zahlung bestätigt werden kann (und damit das Café sicher sein kann, dass du tatsächlich bezahlt hast), muss die Transaktion in einen Block aufgenommen werden. Das kann einige Minuten dauern, je nach der von dir gewählten Gebühr. Technisch gesehen sollte der Händler sechs Bestätigungen (etwa eine Stunde) abwarten, um sicher zu sein, dass die Zahlung endgültig ist. Diese Wartezeit ist natürlich nicht möglich, wenn du am Schalter stehst. Mit dem Lightning Network wird die Zahlung in nur wenigen Sekunden abgewickelt, so dass dein Kaffee bezahlt und serviert ist, bevor er überhaupt abkühlen kann.
 
 
-Wenn Sie mehr über die Funktionsweise von Lightning erfahren möchten, bieten wir einen ausgezeichneten Kurs für das zweite Studienjahr zu diesem Thema an:
+Wenn du mehr über die Funktionsweise von Lightning erfahren möchtest, bieten wir einen ausgezeichneten Kurs für das zweite Studienjahr zu diesem Thema an:
 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
@@ -1629,7 +1629,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 - 'Side-Chains' :
 
 
-Sidechains sind auch Blockchain, laufen aber parallel zur Bitcoins Haupt-Blockchain. Sie sind über eine Zwei-Wege-Koppelung verbunden. Diese stellt sicher, dass der Vermögenswert, der sich zwischen den Ketten bewegt, den gleichen Wert behält; das heisst, ein Bitcoin auf der Sidechain ist immer noch ein Bitcoin auf der Hauptkette wert. Jede Sidechain hat ihren eigenen Konsensmechanismus, der völlig unabhängig oder teilweise abhängig von dem des Bitcoin sein kann.
+Sidechains sind auch Blockchains, laufen aber parallel zur Bitcoins Haupt-Blockchain. Sie sind über eine Zwei-Wege-Koppelung verbunden. Diese stellt sicher, dass der Vermögenswert, der sich zwischen den Ketten bewegt, den gleichen Wert behält; das heisst, ein Bitcoin auf der Sidechain ist immer noch ein Bitcoin auf der Hauptkette wert. Jede Sidechain hat ihren eigenen Konsensmechanismus, der völlig unabhängig oder teilweise abhängig von dem des Bitcoin sein kann.
 
 
 Der Hauptvorteil von Sidechains besteht darin, dass sie Funktionen bieten können, die auf der Bitcoin-Basisschicht nicht verfügbar sind, oder sie auf verbesserte Weise anbieten. Dazu gehören mehr Flexibilität für Entwickler, schnellere und/oder privatere Transaktionen und ein höherer Transaktionsdurchsatz. Um diese Vorteile zu bieten, müssen Sidechains jedoch oft andere Kompromisse eingehen als die Hauptkette von Bitcoin.
@@ -1638,7 +1638,7 @@ Der Hauptvorteil von Sidechains besteht darin, dass sie Funktionen bieten könne
 Das Konzept der Sidechains wurde 2014 von Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon und Pieter Wuille eingeführt. Ab 2025 sind die bekanntesten Sidechains im Bitcoin-Ökosystem Liquid und RSK (Rootstock).
 
 
-Wenn Sie sich eingehender mit Liquid beschäftigen möchten, bieten wir einen Kurs für Fortgeschrittene im dritten Jahr zu diesem Thema an:
+Wenn du dich eingehender mit Liquid beschäftigen möchtest, bieten wir einen Kurs für Fortgeschrittene im dritten Jahr zu diesem Thema an:
 
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
@@ -1656,7 +1656,7 @@ Ein Hauptmerkmal von RGB ist der Schutz vor 'Double-spending' (Geld doppelt ausg
 ![BTC102-Bitcoin](assets/fr/060.webp)
 
 
-Um deine Kenntnisse über RGB zu vertiefen, bieten wir einen Schulungskurs für das vierte Jahr an (bitte beachten Sie, dass es sich um einen sehr technischen Kurs handelt):
+Um deine Kenntnisse über RGB zu vertiefen, bieten wir einen Schulungskurs für das vierte Jahr an (bitte beachte, dass es sich um einen sehr technischen Kurs handelt):
 
 
 https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
@@ -1670,7 +1670,7 @@ Dieses mehrschichtige Design steht im Gegensatz zu einem Grossteil der breiteren
 ![BTC102-Bitcoin](assets/fr/058.webp)
 
 
-Wussten Sie schon, dass das Internet nicht auf einmal entstanden ist, sondern sich aus mehreren interoperablen Protokollen entwickelt hat? TCP/IP ist beispielsweise für die Netzwerkkommunikation zuständig, HTTP für das Internet, und viele andere Schichten erfüllen spezifische Funktionen. Jede Schicht ist für ihre Aufgabe optimiert, wodurch ein robustes und modulares System entsteht. Bitcoin folgt der gleichen Philosophie. Die Basis-Schicht ist stark und minimal, und zusätzliche Funktionen werden durch Schichtprotokolle wie Lightning, Liquid oder RGB hinzugefügt; jedes konzentriert sich auf die Lösung verschiedener Benutzeranforderungen, während die Grundlage intakt bleibt.
+Wusstest du schon, dass das Internet nicht auf einmal entstanden ist, sondern sich aus mehreren interoperablen Protokollen entwickelt hat? TCP/IP ist beispielsweise für die Netzwerkkommunikation zuständig, HTTP für das Internet, und viele andere Schichten erfüllen spezifische Funktionen. Jede Schicht ist für ihre Aufgabe optimiert, wodurch ein robustes und modulares System entsteht. Bitcoin folgt der gleichen Philosophie. Die Basis-Schicht ist stark und minimal, und zusätzliche Funktionen werden durch Schichtprotokolle wie Lightning, Liquid oder RGB hinzugefügt; jedes konzentriert sich auf die Lösung verschiedener Benutzeranforderungen, während die Grundlage intakt bleibt.
 
 
 ### Händler-Tools für die Annahme von Bitcoin
@@ -1679,7 +1679,7 @@ Wussten Sie schon, dass das Internet nicht auf einmal entstanden ist, sondern si
 Heutzutage gibt es viele Tools für Händler, die Bitcoin als Zahlungsmittel akzeptieren möchten. Für kleine Unternehmen, die eine einfache Einrichtung wünschen, ist die Verwendung eines 'Hot Wallets' (oder sogar eines Lightning Wallet) oft ausreichend, um mit der direkten Annahme von Zahlungen zu beginnen. Grössere Unternehmen, die eine ordnungsgemässe Buchhaltung und Berichterstattung benötigen, bevorzugen in der Regel fortschrittlichere Zahlungsverarbeitungssysteme. Glücklicherweise gibt es je nach deinen Bedürfnissen mehrere Optionen.
 
 
-Wenn Sie eine "hands-off"-Lösung bevorzugen und Fiat-Währungen direkt auf dein Bankkonto erhalten möchten, bieten Depotdienste wie OpenNode eine optimierte Erfahrung:
+Wenn du eine automatischere "hands-off"-Lösung bevorzugst und Fiat-Währungen direkt auf dein Bankkonto erhalten möchten, bieten Depotdienste wie OpenNode eine optimierte Erfahrung:
 
 
 https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
@@ -1689,7 +1689,7 @@ Für Händler, die technisch versierter sind und die volle Kontrolle über den P
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Irgendwo dazwischen finden Sie Swiss Bitcoin Pay, eine benutzerfreundliche und dennoch leistungsstarke Lösung, die ein gutes Gleichgewicht zwischen Benutzerfreundlichkeit, Funktionalität und Sicherheit bietet. Sie eignet sich sowohl für kleine Einzelhändler als auch für grössere Unternehmen:
+Irgendwo dazwischen findest du Swiss Bitcoin Pay, eine benutzerfreundliche und dennoch leistungsstarke Lösung, die ein gutes Gleichgewicht zwischen Benutzerfreundlichkeit, Funktionalität und Sicherheit bietet. Sie eignet sich sowohl für kleine Einzelhändler als auch für grössere Unternehmen:
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
@@ -1709,7 +1709,7 @@ Im Tagesgeschäft vereinfacht Bitcoin den Zahlungsverkehr, da kein physisches Ba
 Darüber hinaus kann die Akzeptanz von Bitcoin ein kluger Marketingzug sein. Es zeigt, dass dein Unternehmen zukunftsorientiert ist und neue Kunden anziehen kann (vor allem bei jüngeren Generationen wie der Generation Z). Es ist eine risikoarme, strategische Möglichkeit mit minimalen Kosten, die sich meist auf die Ersteinrichtung beschränken, die heute mit den richtigen Tools einfacher denn je ist.
 
 
-Wenn Sie herausfinden möchten, wie Bitcoin in dein Unternehmen integriert werden kann (sei es als Zahlungsmethode, als Treasury-Vermögenswert oder beides), bieten wir einen auf diesen Bedarf zugeschnittenen Einsteigerkurs an:
+Wenn du herausfinden möchtest, wie Bitcoin in dein Unternehmen integriert werden kann (sei es als Zahlungsmethode, als Treasury-Vermögenswert oder beides), bieten wir einen auf diesen Bedarf zugeschnittenen Einsteigerkurs an:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
@@ -1731,7 +1731,7 @@ Bitcoin ist jetzt nicht mehr zu stoppen.
 Ich habe die Metapher der "Bitcoin-Autobahn" immer für eine der genauesten und überzeugendsten Möglichkeiten gehalten, um zu verstehen, wie sich das Ökosystem entwickelt und wohin es steuert. Bitcoin ist nicht einfach nur digitales Geld; es ist **ein wachsendes alternatives Finanzsystem**, mit seinen eigenen Stärken und Schwächen. Es ist zwar noch jung und steht vor Herausforderungen, aber seine Widerstandsfähigkeit ist unbestreitbar. Es wird nicht verschwinden. Im Gegenteil, wie ein schwarzes Loch wird es nach und nach alles um sich herum absorbieren, bis es zu einem unbestreitbaren Währungsstandard wird.
 
 
-Stellen Sie sich Bitcoin als eine Strasse vor, auf der Sie fahren. Um alltägliche Dinge zu erledigen (Lebensmittel zu kaufen, Dienstleistungen zu bezahlen oder dein Auto reparieren zu lassen), müssen Sie diese Strasse manchmal verlassen, das heisst, Sie kehren vorübergehend zum alten Finanzsystem zurück. Das liegt daran, dass sich die Bitcoin-Infrastruktur noch im Aufbau befindet und einige Bereiche des täglichen Lebens noch auf Fiat-Währung und Banken angewiesen sind.
+Stelle dir Bitcoin als eine Strasse vor, auf der du fährst. Um alltägliche Dinge zu erledigen (Lebensmittel zu kaufen, Dienstleistungen zu bezahlen oder dein Auto reparieren zu lassen), musst du diese Strasse manchmal verlassen. Das heisst, du kehrst vorübergehend zum alten Finanzsystem zurück. Das liegt daran, dass sich die Bitcoin-Infrastruktur noch im Aufbau befindet und einige Bereiche des täglichen Lebens noch auf Fiat-Währung und Banken angewiesen sind.
 
 
 Mit der Zeit wird diese Strasse zu einer voll ausgebauten Autobahn werden. 
@@ -1746,41 +1746,41 @@ Wenn ich mich richtig erinnere, wurde diese Metapher der Bitcoin-Autobahn erstma
 Der nächste Schritt im Kurs: Wir gehen in die Praxis und helfen dir, dein Bitcoiner-Profil auf der Grundlage deiner persönlichen Situation und Ziele zu definieren.
 
 
-# Aufstellung Ihres Plans
+# Aufstellung deines Plans
 
 
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 
-## Wählen Sie dein Profil
+## Wähle dein Profil
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 
-Nachdem Sie nun die theoretischen Grundlagen von Bitcoin kennengelernt haben, ist es an der Zeit, sich mit der praktischen Seite zu beschäftigen. In diesem Abschnitt erfahren Sie, wie Sie deine ersten Bitcoins erwerben, wie Sie diese sicher aufbewahren und wie Sie dein Vorgehen auf deine persönliche Situation abstimmen können. Das Ziel ist es, dir dabei zu helfen, herauszufinden, welcher Nutzertyp Sie sind, damit Sie eine Strategie wählen können, die deinen Bedürfnissen und Einschränkungen entspricht.
+Nachdem du nun die theoretischen Grundlagen von Bitcoin kennengelernt hast, ist es an der Zeit, dich mit der praktischen Seite zu beschäftigen. In diesem Abschnitt erfährst du, wie du deine ersten Bitcoins erwirbst, wie du diese sicher aufbewahrst und wie du dein Vorgehen auf deine persönliche Situation abstimmen kannst. Das Ziel ist es, dir dabei zu helfen, herauszufinden, welcher Nutzertyp du bist. So kannst du eine Strategie wählen, die deinen Bedürfnissen und Einschränkungen entspricht.
 
 xxxx 
-Bitcoin ist nicht wie herkömmliche Vermögenswerte. Es erfordert einen durchdachten Ansatz und ein solides Verständnis sowohl der technischen als auch der wirtschaftlichen Implikationen seiner Verwendung. Im Gegensatz zu Fiat-Währungen funktioniert Bitcoin nach dem Modell der individuellen Souveränität, d. h. Sie sind für die Verwaltung und Sicherheit deiner Gelder voll verantwortlich. Wie wir bereits in früheren Abschnitten erörtert haben, ist diese finanzielle Autonomie ein grosser Vorteil, aber sie geht auch mit bestimmten bewährten Praktiken einher, die wir in den nächsten Kapiteln untersuchen werden.
+Bitcoin ist nicht wie herkömmliche Vermögenswerte. Es erfordert einen durchdachten Ansatz und ein solides Verständnis sowohl der technischen als auch der wirtschaftlichen Implikationen seiner Verwendung. Im Gegensatz zu Fiat-Währungen funktioniert Bitcoin nach dem Modell der individuellen Souveränität, d.h. du bist für die Verwaltung und Sicherheit deiner Gelder voll verantwortlich. Wie wir bereits in früheren Abschnitten erörtert haben, ist diese finanzielle Autonomie ein grosser Vorteil, aber sie geht auch mit bestimmten bewährten Praktiken einher, die wir in den nächsten Kapiteln untersuchen werden.
 
 
-Dieser Kurs geht davon aus, dass Sie gerade erst mit Bitcoin anfangen. Daher werden wir uns auf einfache, anfängerfreundliche Lösungen konzentrieren, die leicht einzurichten sind. Wir werden keine indirekten Expositionsmethoden wie Mining, den Kauf von Aktien von Bitcoin-bezogenen Unternehmen oder komplexe Finanzstrategien behandeln. Unser Ziel ist es, dir dabei zu helfen, einen Wallet auszuwählen, der zu deiner Situation passt, und deine ersten Bitcoins sicher zu erwerben.
+Dieser Kurs geht davon aus, dass du gerade erst mit Bitcoin anfängst. Daher werden wir uns auf einfache, anfängerfreundliche Lösungen konzentrieren, die leicht einzurichten sind. Wir werden keine indirekten Expositionsmethoden wie Mining, den Kauf von Aktien von Bitcoin-bezogenen Unternehmen oder komplexe Finanzstrategien behandeln. Unser Ziel ist es, dir dabei zu helfen, einen Wallet auszuwählen, der zu deiner Situation passt, und deine ersten Bitcoins sicher zu erwerben.
 
 
 ![BTC102-Bitcoin](assets/fr/063.webp)
 
 
-### Warum sollten Sie dein Benutzerprofil definieren?
+### Warum solltest du dein Benutzerprofil definieren?
 
 
-Es gibt keine Einheitslösung für den Kauf und die Verwaltung von BTC. Jeder Nutzer hat einen einzigartigen Kontext, der von seiner finanziellen Situation, seinem technischen Wissen und seinen Erwartungen an Bitcoin geprägt ist. Aus diesem Grund ist es wichtig, eine Strategie zu wählen, die zu Ihrem persönlichen Profil passt. Wenn Sie deine eigene Herangehensweise kennen, können Sie bessere Entscheidungen treffen und häufige Fehler vermeiden, die aus einer Fehleinschätzung deiner Bedürfnisse resultieren.
+Es gibt keine Einheitslösung für den Kauf und die Verwaltung von BTC. Jeder Nutzer hat einen einzigartigen Kontext, der von seiner finanziellen Situation, seinem technischen Wissen und seinen Erwartungen an Bitcoin geprägt ist. Aus diesem Grund ist es wichtig, eine Strategie zu wählen, die zu Ihrem persönlichen Profil passt. Wenn du deine eigene Herangehensweise kennst, kannst du bessere Entscheidungen treffen und häufige Fehler vermeiden, die aus einer Fehleinschätzung deiner Bedürfnisse resultieren.
 
 
-Hier sind einige der Faktoren, die Sie berücksichtigen sollten, wenn Sie herausfinden wollen, wie Sie deine Bitcoins am besten kaufen und aufbewahren können:
+Hier sind einige der Faktoren, die du berücksichtigen solltest, wenn du herausfinden willst, wie du deine Bitcoins am besten kaufst und aufbewahren kannst:
 
 
 
-- Der Betrag, den Sie investieren möchten**: Wollen Sie einen kleinen Betrag kaufen, um zu experimentieren und zu lernen, ohne ein grosses Risiko einzugehen? Oder planen Sie eine grössere Investition, die langfristig gehalten werden soll?
+- Der Betrag, den du investieren möchtest: Willst du einen kleinen Betrag kaufen, um zu experimentieren und zu lernen, ohne ein grosses Risiko einzugehen? Oder planst du eine grössere Investition, die langfristig gehalten werden soll?
 - deine Investitionshäufigkeit**: Möchten Sie einen einmaligen Kauf tätigen und dein Kapital sofort sichern, oder möchten Sie deine Käufe mit einer Strategie wie Dollar-Cost Averaging (DCA) über einen längeren Zeitraum verteilen, um Preisschwankungen auszugleichen?
 - Was Sie mit deinen Bitcoins** machen wollen: Halten Sie sie ausschliesslich als langfristige Ersparnisse? Verwenden Sie sie für tägliche Zahlungen? Oder vielleicht ein bisschen von beidem?
 - deine Einstellung zum Datenschutz**: Fühlen Sie sich wohl dabei, persönliche Daten anzugeben und zentralisierte Plattformen zu nutzen, um Bitcoin zu kaufen? Oder bevorzugen Sie Methoden, bei denen die Privatsphäre im Vordergrund steht, wie Peer-to-Peer-Tauschbörsen ohne KYC?

@@ -253,7 +253,7 @@ CLI ni muhimu sana kwenye seva zisizo na picha za Interface, na kwa kuandika vit
 
 
 
-Umbrel ni jukwaa maarufu la mwenyeji binafsi (haswa linatumika kwa Bitcoin/nodi za Umeme na huduma zingine zinazojisimamia, kupitia Duka lake la Programu). Ili kusakinisha na kusanidi Umbrel, tunapendekeza ufuate mafunzo yetu maalum:
+Umbrel ni jukwaa maarufu la mwenyeji binafsi (haswa linatumika kwa Bitcoin/nodi za Lightning na huduma zingine zinazojisimamia, kupitia Duka lake la Programu). Ili kusakinisha na kusanidi Umbrel, tunapendekeza ufuate mafunzo yetu maalum:
 
 
 
@@ -345,7 +345,7 @@ Ufikiaji ni rahisi ajabu: badala ya kutumia `umbrel.local` (ambayo inafanya kazi
 
 - Mwavuli mkuu wa Interface**: Fikia dashibodi yako ya Mwavuli kwa kuandika `http://100.x.y.z` katika kivinjari chako
 - Bitcoin nodi**: Dhibiti nodi yako ya Bitcoin bila kusubiri, tazama usawazishaji na takwimu
-- Njia ya Umeme**: Tumia ThunderHub, RTL au violesura vingine vya usimamizi wa Umeme kwa mwitikio wa haraka
+- Njia ya Lightning**: Tumia ThunderHub, RTL au violesura vingine vya usimamizi wa Lightning kwa mwitikio wa haraka
 - Mempool**: Angalia miamala ya Bitcoin na Mempool bila ucheleweshaji wa Tor
 - noStrudel**: Fikia huduma zako za Nostr zinazopangishwa kwenye Umbrel
 
@@ -388,18 +388,18 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (Umeme)**: Umeme huu wa rununu wa Wallet unaweza kuunganisha kwenye nodi yako ya Umeme kwenye Mwavuli. Badala ya kusanidi sehemu ya mwisho kama `.onion', weka tu IP ya Tailscale ya Mwavuli wako na mlango wa API ya Umeme. Muunganisho utakuwa papo hapo ikilinganishwa na Tor.
+- Zeus (Lightning)**: Lightning huu wa rununu wa Wallet unaweza kuunganisha kwenye nodi yako ya Lightning kwenye Mwavuli. Badala ya kusanidi sehemu ya mwisho kama `.onion', weka tu IP ya Tailscale ya Mwavuli wako na mlango wa API ya Lightning. Muunganisho utakuwa papo hapo ikilinganishwa na Tor.
 
 
 
 ![Configuration Zeus avec IP Tailscale](assets/fr/23.webp)
 
 
-*Inasanidi Zeus ili iunganishwe na eneo la Umeme kupitia Tailscale* IP Address
+*Inasanidi Zeus ili iunganishwe na eneo la Lightning kupitia Tailscale* IP Address
 
 
 
-Ili kusanidi Zeus na nodi yako ya Umeme, angalia mafunzo yetu ya kina:
+Ili kusanidi Zeus na nodi yako ya Lightning, angalia mafunzo yetu ya kina:
 
 
 
@@ -447,7 +447,7 @@ Mawasiliano yamesimbwa kwa njia fiche (WireGuard) pamoja na usimbaji fiche wowot
 
 ---
 
-Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo michache tu na **kuboresha sana ufikivu** wa nodi yako inayopangishwa binafsi. Utaweza kusimamia Umbrel na huduma zake ukiwa popote, kwa usalama na kwa ustadi, kana kwamba uko nyumbani. Hili ni suluhisho muhimu sana kwa programu za wakati halisi (Umeme) ambazo zinakabiliwa na muda wa kusubiri wa Tor, au kwa ujumla zaidi kwa mwenyeji yeyote anayetafuta muunganisho rahisi wa faragha. Yote bila kufichua mlango mmoja** kwenye kisanduku chako, na bila usanidi changamano wa mtandao.
+Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo michache tu na **kuboresha sana ufikivu** wa nodi yako inayopangishwa binafsi. Utaweza kusimamia Umbrel na huduma zake ukiwa popote, kwa usalama na kwa ustadi, kana kwamba uko nyumbani. Hili ni suluhisho muhimu sana kwa programu za wakati halisi (Lightning) ambazo zinakabiliwa na muda wa kusubiri wa Tor, au kwa ujumla zaidi kwa mwenyeji yeyote anayetafuta muunganisho rahisi wa faragha. Yote bila kufichua mlango mmoja** kwenye kisanduku chako, na bila usanidi changamano wa mtandao.
 
 
 
@@ -521,8 +521,8 @@ Kwa kumalizia, Tailscale inajiweka kama suluhisho la kisasa, lenye mwelekeo wa u
 
 
 
-- Urahisi na utendakazi** - Usakinishaji wa haraka kwenye majukwaa yote bila usanidi changamano wa mtandao. Trafiki hufuata njia ya moja kwa moja kati ya mashine zako (P2P mesh), yenye utendakazi wa itifaki ya WireGuard na hakuna seva kuu ya kupunguza upitishaji.
-- Usalama na unyumbulifu** - Usimbaji fiche kutoka mwisho hadi mwisho, sehemu ya mashambulizi iliyopunguzwa, na vipengele vya kina (ACL, SSO/MFA uthibitishaji). Inafanya kazi hata nyuma ya NATs au wakati wa kusonga, na vipanga njia ndogo na nodi za kutoka ili kurekebisha mtandao kulingana na mahitaji yako.
+- **Urahisi na utendakazi** - Usakinishaji wa haraka kwenye majukwaa yote bila usanidi changamano wa mtandao. Trafiki hufuata njia ya moja kwa moja kati ya mashine zako (P2P mesh), yenye utendakazi wa itifaki ya WireGuard na hakuna seva kuu ya kupunguza upitishaji.
+- **Usalama na unyumbulifu** - Usimbaji fiche kutoka mwisho hadi mwisho, sehemu ya mashambulizi iliyopunguzwa, na vipengele vya kina (ACL, SSO/MFA uthibitishaji). Inafanya kazi hata nyuma ya NATs au wakati wa kusonga, na vipanga njia ndogo na nodi za kutoka ili kurekebisha mtandao kulingana na mahitaji yako.
 
 
 
@@ -532,8 +532,8 @@ Kwa kumalizia, Tailscale inajiweka kama suluhisho la kisasa, lenye mwelekeo wa u
 
 
 
-- Utegemezi wa nje** - Katika toleo lake la kawaida, huduma inategemea miundombinu ya Tailscale Inc.. Utegemezi huu unaweza kuepukwa kupitia Headscale (mbadala ya upangishaji binafsi).
-- Vikwazo vingine** - Msimbo wa chanzo uliofungwa kwa kiasi, vikwazo vya toleo lisilolipishwa kwa matumizi fulani ya kina, hakuna utumiaji wa Layer 2 (matangazo/utangazaji anuwai), na hitaji la ufikiaji wa Mtandao ili kuanzisha miunganisho.
+- **Utegemezi wa nje** - Katika toleo lake la kawaida, huduma inategemea miundombinu ya Tailscale Inc.. Utegemezi huu unaweza kuepukwa kupitia Headscale (mbadala ya upangishaji binafsi).
+- **Vikwazo vingine** - Msimbo wa chanzo uliofungwa kwa kiasi, vikwazo vya toleo lisilolipishwa kwa matumizi fulani ya kina, hakuna utumiaji wa Layer 2 (matangazo/utangazaji anuwai), na hitaji la ufikiaji wa Mtandao ili kuanzisha miunganisho.
 
 
 
@@ -559,9 +559,9 @@ Tailscale ni zana muhimu ya kujipangisha kibinafsi, kutokana na urahisi na ufani
 
 
 
-- Kituo cha Hati cha Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - Hati kamili za Kiingereza, miongozo ya usakinishaji, mafunzo na marejeleo ya kiufundi.
-- Jinsi Tailscale inavyofanya kazi**: [Jinsi Tailscale Hufanya kazi](https://tailscale.com/blog/how-tailscale-works) - Makala ya kina yanayofafanua utendakazi wa ndani wa Tailscale.
-- Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Ufuatiliaji masasisho na vipengele vipya.
+- **Kituo cha Hati cha Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - Hati kamili za Kiingereza, miongozo ya usakinishaji, mafunzo na marejeleo ya kiufundi.
+- **Jinsi Tailscale inavyofanya kazi**: [Jinsi Tailscale Hufanya kazi](https://tailscale.com/blog/how-tailscale-works) - Makala ya kina yanayofafanua utendakazi wa ndani wa Tailscale.
+- **Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Ufuatiliaji masasisho na vipengele vipya.
 
 
 
@@ -571,9 +571,9 @@ Tailscale ni zana muhimu ya kujipangisha kibinafsi, kutokana na urahisi na ufani
 
 
 
-- Mafunzo ya Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Miongozo mahususi ya kujipangisha mwenyewe.
-- Kusanidi Njia ya Kuondoka** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Mwongozo wa kina wa kusanidi Njia za Kutoka.
-- Tumia Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Hamisha faili kati ya vifaa vya Tailscale.
+- **Mafunzo ya Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Miongozo mahususi ya kujipangisha mwenyewe.
+- **Kusanidi Njia ya Kuondoka** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Mwongozo wa kina wa kusanidi Njia za Kutoka.
+- **Tumia Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Hamisha faili kati ya vifaa vya Tailscale.
 
 
 
@@ -583,7 +583,7 @@ Tailscale ni zana muhimu ya kujipangisha kibinafsi, kutokana na urahisi na ufani
 
 
 
-- Tailscale dhidi ya masuluhisho mengine**: [tailscale.com/compare](https://tailscale.com/compare) - Ulinganisho wa kina na masuluhisho mengine ya VPN na mtandao (ZeroTier, OpenVPN, n.k.).
+- **Tailscale dhidi ya masuluhisho mengine**: [tailscale.com/compare](https://tailscale.com/compare) - Ulinganisho wa kina na masuluhisho mengine ya VPN na mtandao (ZeroTier, OpenVPN, n.k.).
 
 
 
@@ -593,9 +593,9 @@ Tailscale ni zana muhimu ya kujipangisha kibinafsi, kutokana na urahisi na ufani
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Majadiliano, maswali na maoni.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Msimbo wa chanzo cha Mteja, mahali pa kufuatilia maendeleo na kuripoti matatizo.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Jumuiya ya watumiaji na wasanidi.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Majadiliano, maswali na maoni.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Msimbo wa chanzo cha Mteja, mahali pa kufuatilia maendeleo na kuripoti matatizo.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Jumuiya ya watumiaji na wasanidi.
 
 
 

@@ -459,418 +459,411 @@ En maîtrisant ces concepts : couches, protocoles, primitives de services, adres
 ## Utilisation de l’IPv4
 <chapterId>79e4dd18-446a-435b-9f25-c88a00f8bec6</chapterId>
 
-**Cette partie va se consacrer à approfondir les notions vues précédemment, concernant les protocoles TCP et IP, en détaillant les différentes utilisations faites de ces fameuses adresses IP.**
+Cette deuxième partie approfondit les principes abordés précédemment en mettant l’accent sur la manière dont les **adresses IPv4** sont effectivement mises en œuvre dans un réseau informatique concret. Il s’agit ici de comprendre en détail non seulement leur format et leur logique, mais aussi les mécanismes qui permettent de relier ces adresses aux autres éléments indispensables du réseau : **noms DNS**, **adresses MAC**, **sous-réseaux** et **techniques de traduction**.
 
-On verra également la relation qu’il peut y avoir entre une adresse IP et un nom logique, enregistré au sein d’un annuaire DNS et avec une adresse MAC physique, servant à établir des routes de transmission privilégiées.
+Une adresse IP est, pour rappel, un identifiant numérique unique attribué à chaque **interface réseau** d’un équipement. Elle permet de localiser cet équipement au sein d’un réseau et de l’atteindre pour lui transmettre des données. Ainsi, un routeur, un serveur, un poste de travail, une imprimante réseau ou même une caméra de surveillance dispose d’au moins une adresse IP propre. L’adresse IP sert de base à la **routabilité**, c’est-à-dire la capacité des équipements à acheminer les paquets d’un point A à un point B, même s’ils sont physiquement très éloignés.
 
-On consacrera un chapitre au mécanisme de translation d’adresses IP et à la façon de l’implémenter tout en participant à la politique de sécurité de l’entreprise.
+Il est important de retenir qu’une adresse IP peut être attribuée de manière **statique**, c’est-à-dire fixée manuellement et inscrite dans la configuration de l’appareil, ou **dynamique**, c’est-à-dire allouée automatiquement à la demande grâce au protocole **DHCP** (_Dynamic Host Configuration Protocol_). Le DHCP simplifie la gestion du parc réseau, en évitant la configuration manuelle de chaque poste, tout en permettant un contrôle précis grâce à des réservations et des durées de bail.
 
-**Maintenant que l’on en sait un peu plus sur la méthodologie d’adressage avec la suite de protocole TCP/IP, on sait qu’une adresse IP n’est rien d’autre qu’un numéro d’identification, attribué de façon permanente (ou provisoire), à chaque appareil connecté à un réseau informatique, utilisant le protocole IP (_Internet Protocol_).** Donc, il s’agit de la base du système d’acheminement (aussi appelé routage, dans le jargon informatique), des adresses sur Internet.
+Le protocole **IPv4**, toujours dominant malgré l’émergence de l’IPv6, utilise un format codé sur **32 bits**, divisés en **quatre octets**. Chaque octet, composé de 8 bits, est exprimé en décimal sous forme d’un nombre compris entre 0 et 255. Les 4 octets sont séparés par des points pour former une notation claire et lisible.
 
-Il existe des adresses IP de version 4 (sur 32bits, c’est-à-dire sur 4 octets) et de version 6 (sur 128bits, soient 16 octets, que l’on verra un peu plus loin).
-
-**REMARQUE** : la version IPv4 est, encore aujourd’hui, la plus utilisée. Elle se représente en notation décimale (avec quatre valeurs comprises entre 0 et 255), séparées par des points.
-
-_Exemple : adresse 172.16.254.1_
+_Exemple : l’adresse 172.16.254.1_
 
 ![Image](assets/fr/027.webp)
 
-Ainsi, l’adresse IP est attribuée à chaque interface réseau de tout matériel informatique : qu’il s’agisse d’un routeur, d’un commutateur, d’un serveur ou d’un portable… connecté à un réseau adossé au protocole de communication IP, entre ses différents nœuds.
-
-L’expression des octets d’une adresse IP au format binaire, peut facilement être convertie au format décimal. En effet, chaque adresse IP possède une longueur de 32bits et est composée de quatre champs de 8bits chacun. Les octets sont séparés par des points et représentent un nombre décimal entre 0 et 255. L’adresse est ainsi découpée en deux parties :
-
-- Une partie Netid afin d’identifier le réseau  
-- Une partie Hostid pour identifier la machine
-
-**Le bit de poids faible représente la valeur décimale 1 et le bit de poids fort se voit affecté la valeur 128**. Ainsi, il ne reste plus qu’à calculer la valeur décimale en partant du tableau suivant :
+Chaque bit au sein d’un octet a un poids bien défini : le bit de gauche (bit de poids fort) vaut 128, le suivant 64, puis 32, 16, 8, 4, 2 et 1 pour le bit de droite (bit de poids faible). Ainsi, l’écriture binaire est convertie en décimal par simple addition des poids activés.  
+Le tableau ci-dessous rappelle cette correspondance :
 
 ![Image](assets/fr/028.webp)
 
-Si l’on reprend l’exemple précédent (en supposant que l’on ne connaisse pas l’adresse IP et que l’on ne dispose que de la valeur binaire), on devrait alors convertir :![Image](assets/fr/029.webp)
+Par exemple, pour convertir une adresse IP binaire en notation décimale, on additionne les valeurs des bits à 1 pour chaque octet.
 
-Cette adresse peut être assignée individuellement (par l’administrateur du réseau local, au sein d’un sous-réseau correspondant), soit automatiquement, grâce au protocole DHCP qui distribue les adresses, selon une plage prédéfinie. Si l’équipement dispose de plusieurs interfaces, chacune va alors se voir attribuer une adresse IP spécifique. Enfin, une interface peut également avoir plusieurs adresses IP.
+![Image](assets/fr/029.webp)
 
-Chaque paquet transmis par le protocole IP, contient l’adresse IP de l’émetteur ainsi que l’adresse IP du destinataire. Les routeurs acheminent donc les paquets vers leur destination, de proche en proche.
+Il est important de noter qu’une adresse IP identifie **une interface réseau** et non l’appareil dans sa globalité. Un serveur multi-cartes, comme un pare-feu ou un routeur, possède donc plusieurs interfaces, chacune avec sa propre adresse IP. De plus, une seule interface peut se voir attribuer plusieurs adresses IP, notamment pour répondre à plusieurs réseaux virtuels ou services.
 
-**ATTENTION** : certaines adresses utilisées pour la diffusion (qu’il s’agisse de multicast ou de broadcast) ne sont pas utilisable pour adresser des machines individuelles. De plus, il existe une technique dite anycast permettant de faire correspondre une adresse IP à plusieurs équipements connectés, répartis sur Internet.
+Chaque paquet IP encapsule l’adresse IP de **l’expéditeur** et celle du **destinataire** dans son en-tête. Les **routeurs**, situés aux jonctions des réseaux, lisent ces informations pour déterminer la route optimale pour transmettre le paquet de proche en proche jusqu’à la machine cible. Sans un adressage rigoureux, le trafic ne saurait être orienté correctement et l’interconnexion mondiale des réseaux serait impossible.
 
-**RAPPEL** : La première chose à faire, pour manipuler des adresses IP, est d’identifier la classe d’adresses utilisées :
+L’adressage IPv4 obéit à des règles précises : chaque adresse est composée de deux parties : le **NetID**, qui désigne le réseau de rattachement, et le **HostID**, qui identifie l’équipement au sein de ce réseau. La délimitation entre NetID et HostID est fixée par le **masque de sous-réseau**, qui précise combien de bits appartiennent à chaque portion. Plus le NetID est long, plus le nombre de sous-réseaux possibles est grand, mais le nombre d’hôtes par sous-réseau diminue en conséquence.
+
+Dans les débuts d’IPv4, les réseaux étaient organisés en **classes** (A, B, C, D et E). Chaque classe correspond à une plage spécifique de NetID et définit une granularité fixe :
+
+- Classe A : réseaux très vastes avec un grand nombre d’hôtes
+- Classe B : réseaux de taille intermédiaire
+- Classe C : réseaux de petite taille
+- Classe D : adresses réservées à la multidiffusion (_multicast_)
+- Classe E : adresses expérimentales, non utilisées pour l’adressage classique
 
 ![Image](assets/fr/030.webp)
 
-Deux adresses particulières ne peuvent jamais être attribuées :
+Certaines adresses ont un rôle bien particulier. L’**adresse de réseau** désigne l’identifiant du réseau lui-même et sert à configurer les tables de routage ; l’**adresse de diffusion** (_broadcast_) permet d’envoyer un paquet à tous les hôtes d’un même sous-réseau en une seule émission : pour cela, tous les bits du HostID sont mis à 1.
 
-- L’adresse réseau  
-- L’adresse de diffusion
+Les plages suivantes sont réservées pour des usages internes :
 
-Par contre, pour chaque classe d’adresses, il existe une plage particulière, réservée à l’utilisation de réseaux privés :
+- **10.0.0.0/8** (Classe A privée)
+- **127.0.0.0/8** (bouclage local ou _loopback_)
+- **172.16.0.0 à 172.31.255.255** (Classe B privée)
+- **192.168.0.0 à 192.168.255.255** (Classe C privée)
 
-- Classe A : 10.0.0.0  
-- Classe A : 127.0.0.0 (réseau local)  
-- Classe B : de 172.16.0.0 à 172.31.0.0  
-- Classe C : de 192.168.0.0 à 192.168.255.0
+Les adresses **127.0.0.1** et plus largement tout le bloc 127.0.0.0/8 servent au test interne : une requête envoyée à cette adresse ne quitte jamais la machine. Cela permet de vérifier localement qu’un service réseau répond bien.
 
-Comme cela a été mentionné précédemment, il est également possible de découper un réseau en sous-réseaux, grâce à un masque de sous-réseau ou à l’utilisation de blocs CIDR.
+Pour tirer pleinement parti de l’espace d’adressage, les administrateurs segmentent souvent leurs réseaux en **sous-réseaux** (_subnets_) grâce à des masques de sous-réseau ou à la notation **CIDR** (_Classless Inter-Domain Routing_), qui offre une gestion plus fine et réduit le gaspillage d’adresses. Le CIDR est aujourd’hui incontournable pour ajuster précisément la taille des plages IP et pour alléger les tables de routage.
 
-**NOTE** : Il existe de nombreux calculateurs de masques de sous-réseau sur Internet. On peut notamment utiliser celui proposé par [le CRIC de Grenoble](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/). On verra qu’il existe aussi des outils fournit avec le système d’exploitation ou à installer.
+Dans les réseaux modernes, l’adressage IP est souvent associé à d’autres identifiants : le **nom de domaine** enregistré dans un **DNS** (_Domain Name System_) permet d’associer une adresse IP à un nom plus facile à retenir ; l’**adresse MAC**, quant à elle, est un identifiant physique gravé dans la carte réseau, utilisé pour le transport au niveau local (_Ethernet_). Lorsqu’un paquet IP doit être transmis physiquement, c’est la table ARP qui fait la correspondance entre l’adresse IP et l’adresse MAC de destination.
 
-Parmi les adresses utilisées il existe une catégorie bien pratique : l’adresse de diffusion. Elle permet d’envoyer un datagramme à l’ensemble des machines d’un même réseau. Pour rappel, cette adresse est obtenue en mettant tous les bits de la partie "hostid" à 1.
+Enfin, pour pallier la pénurie d’adresses IPv4 et améliorer la sécurité on peut recourir à la **traduction d’adresses** (_NAT_). Le NAT permet à plusieurs hôtes internes, utilisant des adresses privées, de partager une seule adresse IP publique pour sortir sur Internet.
+
+**Remarque** : de nombreux outils en ligne et intégrés aux systèmes d’exploitation facilitent le calcul des masques, comme le [calculateur du CRIC de Grenoble](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/). Ces utilitaires aident à planifier efficacement le découpage du réseau.
+
+Pour conclure, l’adresse de diffusion reste une fonction pratique pour envoyer un même message à tous les équipements connectés à un segment : en pratique, la partie _HostID_ est mise à 1 pour signifier que tous les hôtes sont visés par le même paquet.
 
 ## Les différents types d’adresses IPv4
 <chapterId>2adfad24-a90d-45b5-b808-3d2f6598bebf</chapterId>
 
-Lorsqu’une adresse est enregistrée (auprès d’un organisme officiel), et directement routable sur Internet, on parle alors d’adresse publique. Se sont généralement des adresses permettant de présenter les sites institutionnels des entreprises ou de certains organismes particuliers. Elles doivent être uniques, et ce, de façon internationale. Elles sont déclarées auprès de l’IANA, qui est, depuis 2005, une division de l’ICANN (_Internet Corporation for Assigned Names and Numbers_), et permet de définir l’usage des différentes plages d’adresses IP, en segmentant l’espace en 256 blocs de taille /8 (d’après la notation CIDR).
+L’adressage IPv4 se divise principalement en deux grandes catégories : les adresses **publiques**, directement accessibles sur Internet, et les adresses **privées**, destinées à un usage interne dans un réseau local.
 
-Les adresses IP unicast sont donc distribuées par l’IANA au niveau des _Registres Internet Régionaux_ (aussi appelée RIR) et ceux-ci gèrent à la fois les ressources d’adressage IPv4 et IPv6, pour leur région. L’espace d’adressage unicast IPv4 est alors composé de blocs d’adresses /8 (de 1/8 à 223/8). Chacun de ces blocs peut être soit :
+Une **adresse IPv4 publique** est une adresse unique au niveau mondial. Elle est enregistrée auprès d’un organisme officiel et est routable sur l’ensemble du réseau Internet. Les entreprises et organisations s’en servent pour rendre accessibles leurs services : serveurs web, infrastructures de messagerie, services de cloud public, etc. L’unicité mondiale de ces adresses est indispensable pour éviter tout conflit ou collision d’acheminement. C’est l’**IANA** (_Internet Assigned Numbers Authority_), qui, depuis 2005, relève de l’**ICANN** (_Internet Corporation for Assigned Names and Numbers_), qui gère la distribution de ces plages. Concrètement, l’IANA divise l’espace IPv4 en **256 blocs de taille /8**, selon la notation CIDR. Chaque bloc représente un peu plus de 16,7 millions d’adresses (2³²/2⁸).
 
-- réservé  
-- assigné à un réseau final  
-- assigné à un registre Internet régional (ou RIR)
+Ces blocs d’adresses unicast sont confiés par l’IANA aux **Registres Internet Régionaux** (_Regional Internet Registries_ ou RIR). Ces RIR se chargent de redistribuer les adresses au niveau régional, en fonction des besoins réels des fournisseurs d’accès, des entreprises ou des administrations. L’espace d’adressage unicast s’étend des blocs **1/8 à 223/8**, avec des portions soit réservées pour des usages particuliers (recherche, documentation, tests), soit attribuées directement à un réseau final ou à un RIR pour redistribution.
 
-Il est possible d’interroger les bases de données RIR, afin de savoir à qui est assignée telle adresse IP, en utilisant la commande whois, ou directement via les sites web des RIR.
+Pour vérifier à qui appartient une adresse IP publique, il est possible de consulter les bases des RIR grâce à la commande **whois** ou en utilisant les interfaces web mises à disposition par chaque registre. Ces outils permettent de remonter à l’organisation ou au fournisseur ayant déclaré cette adresse.
 
-A l’inverse, les autres adresses, sont dites privées et ne sont utilisables que dans un réseau local (voire privé – cas des clusters de calculs, par exemple) et peuvent ne pas être uniques à l’échelon mondial. Par contre, au sein dudit réseau privé elles doivent ne pas avoir de doublon.
+À l’opposé, on trouve les **adresses IPv4 privées**, qui constituent une réponse pragmatique à la pénurie d’adresses publiques. Ces adresses, non routables sur Internet, sont réservées à des environnements locaux : réseaux d’entreprises, LAN domestiques, datacenters ou clusters de calcul. Elles ne sont pas uniques au niveau mondial : de nombreux réseaux privés peuvent réutiliser les mêmes plages sans interférence tant qu’ils restent isolés ou qu’ils passent par un dispositif de traduction d’adresses pour sortir sur Internet.
 
-Afin de transformer des adresses privées en adresses publiques et d’accéder alors à Internet, à partir d’un poste ou d’un équipement privé, on a recours à la traduction d’adresse réseau. **Cette opération est aussi appelée Network Address Translation ou NAT**. On consacrera un chapitre entier à ce genre de mécanisme.
+Pour qu’un équipement interne, configuré avec une adresse privée, puisse accéder au réseau global, on recourt au mécanisme de **NAT** (_Network Address Translation_). Le NAT joue un rôle important : il traduit l’adresse privée en adresse publique à la volée, ce qui permet à des dizaines, voire des centaines de postes internes de partager une seule adresse publique. Cette méthode optimise l’utilisation de l’espace IPv4 tout en ajoutant une couche de sécurité par dissimulation des topologies internes.
 
-Lorsque l’on souhaite mentionner une adresse non spécifiée, on utilisera alors la notation ::128/. Ce genre d’adresse est bien sûr illégal, en tant qu’adresse de destination. Mais, elle peut être utilisée localement, dans une application afin d’adresser n’importe quelle interface réseau.
+Par ailleurs, certaines adresses spéciales sont dites **non spécifiées**. La notation **0.0.0.0** ou sa version en IPv6 **::/128** indique l’absence d’adresse concrète : cette valeur est illégale comme adresse de destination sur le réseau, mais elle peut être utilisée localement par un hôte pour signifier "toutes les interfaces" ou "adresse non encore assignée". Ce mécanisme est couramment exploité lors de l’attribution dynamique par DHCP ou pour l’écoute sur toutes les interfaces d’un serveur.
 
-**REMARQUE** : en IPv6, on verra apparaître la notion d’adresse locale de site fec0::/10, bien que considérée comme étant obsolète par la RFC3879, qui permet de privilégier l’adressage public en découragent le recours au processus de translation NAT. On a alors recours aux adresses locales uniques fc00::/7, qui facilitent l’interconnexion de réseaux privés, en identifiant un identifiant aléatoire sur 40bits.
+En IPv6, comme nous le verrons dans la partie suivante, le principe d’adressage privé existe aussi, même si le standard recommande de privilégier l’adressage public pour éviter la multiplication des couches NAT. Les anciennes **adresses locales de site** (_site-local_) du bloc **fec0::/10** ont été déclarées obsolètes par le **RFC 3879**, pour des raisons de cohérence et de sécurité. Elles ont été remplacées par le concept d’**adresses locales uniques** (_ULA_), situées dans le bloc **fc00::/7**. Les ULA permettent de construire des réseaux privés IPv6 tout en assurant une interconnexion interne propre, grâce à un identifiant aléatoire sur 40 bits qui garantit l’unicité à l’échelle locale.
 
-La popularité d’Internet a abouti à l’épuisement, en 2011, des blocs d’adresses IPv4 disponibles. Étant donné que cela menaçait le développement du réseau, on alors vu apparaître différentes techniques, parmi lesquelles :
+Face à la saturation de l’espace IPv4 (l’épuisement des blocs libres fut officiellement constaté en 2011) plusieurs stratégies ont vu le jour pour prolonger la viabilité du protocole. Parmi elles : la migration progressive vers **IPv6**, la généralisation du **NAT**, le durcissement des politiques d’allocation par les RIR (imposant une gestion plus fine et la justification des besoins) et, plus rarement, la récupération de blocs non utilisés ou rendus par des entreprises.
 
-- la migration vers le protocole IPv6  
-- l’utilisation du protocole NAT, permettant à de nombreux équipements d’un réseau privé de partager une adresse publique.  
-- L’utilisation des RIR, traduisant des politiques d’affectation d’adresses plus contraignantes tenant compte des besoins réels à court terme.  
-- (cas plus rare) la récupération des blocs attribués antérieurement et libérés par les entreprises.
+Ces différentes catégories et stratégies illustrent à quel point l’adressage IP est à la fois une problématique technique et une question de gouvernance mondiale, au cœur même de l’expansion continue d'Internet.
+
 
 ## Le DNS, un annuaire d’adresses
 <chapterId>511244ec-ba43-44ac-b4c3-b41579a15cff</chapterId>
 
-**Nous autres pauvres humains, avons du mal à retenir tous ces chiffres compliqués que l’on appelle adresse IP. Ceci est d’autant plus vrai d’après ce que l’on vient d’évoquer dans le chapitre précédent : à savoir qu’une adresse pouvait en masquer beaucoup d’autres !**
+Il faut bien admettre que pour nous autres humains, mémoriser de longues suites de chiffres binaires ou décimaux n’est pas chose aisée. Cette difficulté devient encore plus marquée lorsque l’on considère la complexité de l’adressage IP et la multiplicité des adresses qu’une seule peut parfois masquer, notamment lorsqu’on emploie des mécanismes comme le NAT ou l’hébergement virtuel.
 
-Aussi, au niveau de la couche supérieure, il a été défini un certain nombre de mécanismes permettant de convertir une adresse IP en nom littéral (plus parlant, pour les administrateurs, qu’une série de bits ou qu’une adresse IP), et de les enregistrer au sein d’un annuaire appelé _Domain Name System_ (ou DNS), régi par le protocole BIND (_Berkeley Internet Name Daemon_).
+Pour pallier cette limite naturelle, la couche Application s’appuie sur un système capable de faire le lien entre une **adresse IP** et un **nom logique** plus compréhensible et surtout plus simple à manipuler. C’est précisément le rôle du **DNS**, pour ***Domain Name System***, un immense annuaire hiérarchique et distribué qui associe des noms de domaine lisibles à des adresses IP. Ce système repose sur un ensemble de protocoles et de services, dont le plus connu est **BIND** (_Berkeley Internet Name Daemon_), un logiciel libre servant de référence pour la majorité des serveurs DNS dans le monde.
 
-Ce système permet, entre autres de convertir des adresses IP en nom de domaine et inversement, pour n’importe quel équipement enregistré auprès de l’annuaire DNS. Le nom de domaine est généralement plus explicite et on le fait correspondre à une adresse IP. Les noms de domaines sont séparés par des points. Le nom complet est également appelé nom FQDN (_Fully Qualified Domain Name_). L’élément le plus à droite de cette appellation se nomme TLD (_Top Level Domain_) et l’élément le plus à gauche représente l’hôte (soit l’adresse IP qui lui est affiliée).
+Le principe fondamental du DNS est simple : pour tout équipement connecté (qu’il s’agisse d’un site web, d’un serveur de messagerie ou d’un service réseau) on enregistre une correspondance entre un nom de domaine et une ou plusieurs adresses IP. Cette correspondance est bidirectionnelle : on peut résoudre un nom en adresse (résolution directe) ou retrouver un nom à partir d’une adresse IP (résolution inverse). Cela rend l’adressage humainement exploitable tout en maintenant la précision technique indispensable pour le routage.
 
-Un DNS peut être représenté sous forme d’un arbre. Une zone est une partie d’un domaine, gérée par un serveur particulier. Chaque zone peut ainsi gérer un ou plusieurs sous-domaines, chacun d’eux pouvant être répartis sur plusieurs zones. On eut dire qu’une zone représente l’unité d’administration dont une personne peut être responsable :
+Un nom de domaine est toujours structuré hiérarchiquement, chaque niveau étant séparé par un point : le nom complet est appelé **FQDN** (_Fully Qualified Domain Name_). L’élément le plus à droite est le **TLD** (_Top Level Domain_) comme `.com`, `.org` ou `.fr`. L’élément le plus à gauche désigne l’hôte, c’est-à‑dire la machine spécifique à laquelle l’adresse IP est liée.
+
+Le système DNS est conçu comme un **arbre de zones**. Chaque **zone** représente une portion de l’espace de noms, gérée par un serveur DNS spécifique. Une même zone peut inclure plusieurs **sous-domaines**, eux-mêmes potentiellement répartis sur d’autres zones administrées par des serveurs distincts. Une zone est donc l’unité administrative de base dont un administrateur est responsable : gestion, mises à jour, délégations éventuelles...
 
 ![Image](assets/fr/031.webp)
 
-On peut ainsi spécifier un domaine, mais également une machine en particulier, puisque son nom est alors déclaré dans la base du DNS. L’annuaire DNS a été conçu pour palier aux limites des fichiers de déclaration d’hôtes (/etc/hosts sous [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")).
+Ainsi, il devient possible non seulement de pointer vers un domaine principal (par exemple `example.com`) mais aussi de gérer finement chaque hôte (`www`, `mail`, `ftp`, etc.) par des enregistrements précis. À l’origine, cette fonction de résolution était assurée par de simples fichiers statiques (`/etc/hosts` sous Linux) mais cette méthode s’est vite révélée inadaptée pour un Internet mondial, évolutif et interconnecté.
 
-**ATTENTION** : un annuaire DNS peut avoir un périmètre limité et ne pas pouvoir accéder à Internet directement. Dans ce cas, si aucune délégation DNS n’a été effectuée, la requête vers Internet (ou depuis Internet) ne pourra pas aboutir. On ne pourra alors pas résoudre le nom (ou l’adresse IP en reverse) de la machine concernée.
+Il est important de comprendre qu’un **serveur DNS** peut avoir un périmètre limité : un DNS interne à une entreprise, par exemple, peut ne pas être accessible directement depuis Internet. Si ce DNS n’est pas configuré pour déléguer les requêtes ou n’a pas de relation de confiance avec d’autres serveurs, certaines requêtes échoueront : ni le nom ni l’adresse IP ne pourront alors être résolus en dehors de la zone définie.
 
-Chaque serveur DNS contient une configuration particulière pour les routeurs de courrier électronique (avec une définition de type MX), permettant une résolution inverse ainsi que la spécification d’un facteur de priorité et une tolérances aux pannes. Le serveur lui-même, possède une étiquette particulière : “SOA“ (_Start Of Authority_) permettant de le distinguer des autres machines déclarées.
+Un serveur DNS contient également des informations spécifiques au routage des courriels. Par exemple, un enregistrement de type **MX** (_Mail Exchange_) désigne les serveurs de messagerie responsables de recevoir les e-mails pour un domaine donné. Ces enregistrements définissent des priorités (facteur de pondération) et des solutions de basculement en cas de panne. Le fichier de zone d’un serveur DNS débute toujours par une déclaration **SOA** (_Start Of Authority_) : cette étiquette désigne le serveur comme source officielle de l’information pour la zone qu’il administre.
 
-Dans le chapitre suivant, nous verrons les adresses Ethernet, appelées aussi les adresses MAC.
+Le DNS, grâce à sa structure hiérarchique et distribuée, reste aujourd’hui une brique incontournable d'Internet, et permet à chaque utilisateur de se connecter à des services en utilisant des noms de domaine clairs au lieu de longues adresses IP techniques.
 
-## A la découverte de l’adresse Ethernet et d’ARP
+Dans le prochain chapitre, nous aborderons une autre notion fondamentale : les **adresses Ethernet**, également connues sous le nom d’**adresses MAC**, qui permettent d’assurer l’acheminement des données au niveau physique du réseau local.
+
+
+## À la découverte de l’adresse Ethernet et d’ARP
 <chapterId>d02109f6-9bf9-4261-a8f9-e1aa4398b949</chapterId>
 
 ### Définitions
 
-Mais, pour satisfaire le protocole d’acheminement, il manque une brique essentielle. En effet, en tant qu’humain nous sommes capables d’identifier une machine ou un équipement, par rapport à son adresse IP et de récupérer ainsi son nom, enregistré dans l’annuaire DNS. Mais, une machine n’est pas capable d’identifier le serveur de destination des paquets à transférer de cette façon. Il lui faut un identifiant analysable et compréhensible par sa mémoire. Il s’agit de l’adresse MAC (_Media Access Control_) que l’on appelle plus communément adresse Ethernet.
+Pour que le protocole d’acheminement des données puisse fonctionner de manière fiable et cohérente, une composante fondamentale reste indispensable. Si, en tant qu’êtres humains, nous savons facilement identifier une machine grâce à son adresse IP ou à son nom, récupéré via le DNS, une machine, quant à elle, doit pouvoir reconnaître sans ambiguïté l’équipement de destination pour transmettre les paquets. Pour cela, elle s’appuie sur un identifiant matériel spécifique, directement exploitable par son interface réseau : l’adresse MAC (_Media Access Control_).
 
-**ATTENTION** : ce type d’adresse ne doit surtout pas être confondue avec l’adresse physique qui est un nombre binaire représentant un emplacement dans le bus d’adresse de la mémoire centrale d’une machine. L’adresse physique est à opposer à l’adresse virtuelle.
+Il convient de ne surtout pas confondre cette adresse MAC avec ce que l’on nomme l’adresse physique au sens de l’architecture mémoire. En effet, l’adresse physique, en informatique, désigne un emplacement précis dans le bus d’adresse de la mémoire centrale, et s’oppose à l’adresse virtuelle qui, elle, relève de la gestion de la mémoire par le système d’exploitation. L’adresse MAC, quant à elle, relève strictement du matériel réseau.
 
-Celle-ci identifie de manière unique le [matériel](https://www.it-connect.fr/actualites/actu-materiel/ "matériel") informatique comme étant connecté au réseau. Ce type d’adresse est attribué définitivement au périphérique lors de sa fabrication, par le constructeur lui-même.
+Attribuée de manière permanente et unique par le constructeur lors de la fabrication de l’équipement, l’adresse MAC identifie sans équivoque la carte réseau, qu’il s’agisse d’un ordinateur, d’un smartphone, d’une imprimante réseau ou de tout autre périphérique communicant. Contrairement à l’adresse IP, qui peut être dynamique et assignée par l’administrateur ou un serveur DHCP, l’adresse MAC reste, en principe, inchangée durant toute la vie du périphérique, sauf intervention volontaire.
 
-La différence avec une adresse IP est que cette dernière est attribuée de façon unique à un équipement connecté à un réseau spécifique. Mais, elle est attribuée par l’administrateur réseau (ou par le serveur DHCP).
+Il est essentiel de rappeler que toute interface réseau, qu’elle soit câblée ou sans fil, possède une adresse MAC. Cette adresse est utilisée au sein de la couche liaison de données (couche 2 du modèle OSI) pour insérer et gérer l’adresse matérielle dans chaque trame réseau échangée. On parle parfois d’_adresse Ethernet_ ou encore d’_UAA_ (_Universally Administered Address_). Standardisée sur une longueur de 48 bits, soit 6 octets, elle s’écrit en notation hexadécimale, généralement sous la forme d’octets séparés par des `:` ou des `-`.
 
-**IMPORTANT** : toutes les cartes réseau possèdent une [adresse MAC](https://www.it-connect.fr/quest-ce-qu-une-adresse-mac/ "adresse MAC") (même celles contenues dans les PC, tablettes, Smartphones ou autres équipements).
+Par exemple : `5A:BC:17:A2:AF:15`
 
-L’adresse MAC constitue la partie inférieure de la couche liaison (couche 2 du modèle OSI). Elle insère et administre ce type d’adresses au sein des trames transmises. On l’appelle parfois adresse Ethernet ou UAA (_Universally Administered Address_). Elle est constituée de 48bits (soient 6 octets) et est généralement représentée sous la forme hexadécimale, en séparant les octets par  le caractère ‘ :’ ou ‘-‘.
-
-Exemple : adresse MAC 5A:BC:17:A2:AF:15
-
-Sur les six octets, **les trois premiers permettent d’identifier le constructeur du matériel réseau** (on appelle cet agrégat d’octets l’OUI (_Organisationally Unique Identifier_). Il s’agit d’une notion que l’on retrouve également dans le protocole SNMP. Les trois octets suivants sont labellisés comme étant le NIC (_Network Interface Controller)_.
+Dans cette structure, les trois premiers octets servent à identifier le fabricant de la carte réseau : c’est ce que l’on appelle l’OUI (_Organisationally Unique Identifier_), un identifiant unique attribué à chaque constructeur, également utilisé dans d’autres protocoles comme SNMP pour garantir l’unicité. Les trois octets restants constituent le numéro de série proprement dit du contrôleur réseau, appelé NIC (_Network Interface Controller_), qui différencie chaque carte produite par ce constructeur.
 
 ### Modification de l’adresse MAC
 
-A moins de “bidouiller“ l’adresse MAC d’un équipement réseau, les valeurs fournies, sont généralement uniques. Mais, certaines personnes souhaitent, malgré tout modifier l’adresse MAC d’une carte réseau local, sur certains systèmes d’exploitation, l’adresse Ethernet n’est pas utilisée directement et cela permet alors de la modifier facilement, au niveau logiciel (et non matériel).
+En théorie, l’adresse MAC est conçue pour rester fixe, mais il existe des méthodes pour la modifier, notamment pour répondre à des besoins particuliers ou contourner certaines contraintes. Cette opération, que l’on appelle souvent _spoofing MAC_, consiste à remplacer l’adresse matérielle d’origine par une valeur différente, définie au niveau logiciel. Certains systèmes d’exploitation facilitent cette modification, notamment lorsque l’adresse Ethernet réelle n’est pas exploitée directement par le pilote.
 
-REMARQUE : les causes de modification d’une adresse MAC peuvent être variées :
+Les motifs pouvant conduire à un tel changement sont variés. Il peut s’agir de la nécessité pour une application donnée d’exiger une adresse Ethernet spécifique pour fonctionner correctement, ou de résoudre un conflit d’adresses identiques entre deux équipements partageant le même réseau local.
 
-- Une application réclame l’exécution sur d’une adresse Ethernet spécifique.
-- A cause d’un conflit existant entre deux équipements réseau.
+Changer l’adresse MAC peut également être motivé par des considérations de confidentialité : en masquant l’identifiant unique gravé dans la carte, l’utilisateur réduit ainsi les possibilités de traçage de son appareil par des réseaux ou des services de surveillance. Toutefois, cette pratique n’est pas sans conséquences. Modifier une adresse MAC peut perturber certains dispositifs de filtrage ou nécessiter de reconfigurer les pare-feu pour autoriser le nouveau matériel.
 
-Sa modification permet de réduire le risque de traçage inhérent à tout identifiant gravé dans le marbre. Toutefois, cela peut aussi amener d’autres problèmes : filtrage spécifique, pare-feu à modifier…
-
-Afin de sécuriser certains réseaux sans fil, on peut avoir recours au filtrage d’adresse MAC. Si celui-ci est activé, seul les périphériques dont l’adresse MAC est autorisée pourront accéder au réseau concerné. Toutefois, cette méthode n’est pas recommandée, car les personnes cherchant à accéder audit réseau de façon détournée peuvent facilement obtenir une adresse MAC permise (ou la construire) et l’utiliser alors, pour réaliser des actions malveillantes.
-
+Dans certains réseaux, notamment dans le cadre de la sécurisation des accès Wi-Fi, il est fréquent de recourir au filtrage d’adresses MAC pour restreindre l’accès aux seuls équipements préalablement autorisés. Bien que cette technique puisse apporter un premier niveau de contrôle, elle présente une efficacité limitée. Des attaquants peuvent facilement capturer une adresse MAC valide autorisée sur le réseau, la forger et l’utiliser à leur profit pour contourner la restriction, ce qui rend ce type de filtrage insuffisant s’il n’est pas couplé à d’autres mesures de sécurité plus robustes.
 ### Correspondance MAC/IP
 
-Afin de trouver à quelle adresse IP correspond telle ou telle adresse Ethernet, on peut recourir à l’utilitaire arp suivi de l’adresse IP dot on souhaite connaitre la correspondance.
+Pour qu’un réseau local fonctionne de manière fluide et cohérente, il est indispensable d’établir un lien clair entre les adresses physiques, comme les adresses MAC, et les adresses logiques, c’est-à‑dire les adresses IP. Sans cette correspondance, un ordinateur saurait certes vers quelle adresse IP envoyer un paquet, mais serait incapable de savoir comment le transmettre concrètement sur le réseau physique. C’est là qu’intervient le protocole ARP (_Address Resolution Protocol_), qui automatise ce mécanisme.
 
-_Exemple_ : pour l’adresse interne 192.168.1.5
+Dans la pratique, lorsqu’un utilisateur souhaite connaître l’adresse MAC correspondant à une adresse IP précise, il peut s’appuyer sur l’utilitaire `arp`. Cet outil interroge la table ARP locale de la machine pour afficher les correspondances déjà connues entre adresses IP et adresses MAC sur le réseau local. Il est ainsi possible de vérifier rapidement la liaison effective entre les couches logiques et physiques.
 
-```shell
+Exemple pratique : si l’on veut vérifier quelle carte réseau correspond à l’adresse IP `192.168.1.5`, on utilisera la commande suivante :
+
+```bash
 arp –a 192.168.1.5
+````
 
-Interface : 192.168.1.5  --- 0x5
-    Adresse Internet    Adresse Physique        Type
-    192.168.1.5        00:54:BC:17:14:6E        dynamique
+La sortie affichera notamment l’adresse physique (MAC) associée, la nature de l’entrée (statique ou dynamique) et l’interface concernée.
+
+```
+Interface : 192.168.1.5 --- 0x5
+    IP Address            MAC Address                Type
+    192.168.1.5           00:54:BC:17:14:6E          D
 ```
 
-**RAPPEL** : L’adresse MAC et l’adresse IP (aussi appelée adresse logique), sont deux choses totalement indépendantes l’une de l’autre. Tous les périphériques réseau possèdent une adresse MAC (ou adresse Ethernet). Il s’agit donc, comme on vient de le voir, d’un numéro qui les identifie de manière unique, en tant que matériel informatique, connectable au réseau. Cette adresse est attribuée définitivement, au périphérique, lors de sa fabrication par le constructeur.
+Il est donc important de garder à l’esprit que l’adresse MAC et l’adresse IP sont deux identifiants totalement distincts mais étroitement complémentaires. L’adresse MAC est gravée de façon unique par le constructeur dans chaque interface réseau et sert à identifier physiquement l’équipement sur le réseau local. L’adresse IP, quant à elle, est une adresse logique attribuée dynamiquement ou statiquement pour permettre à la machine de s’intégrer au réseau IP et d’échanger des paquets au-delà de son réseau local.
 
-- Adresse MAC :
+- Exemple visuel d’adresse MAC :
 
 ![Image](assets/fr/032.webp)
 
-- Adresse IP :
+- Exemple visuel d’adresse IP :
 
 ![Image](assets/fr/033.webp)
 
-Mais, au sein des infrastructures réseau d’entreprise, l’une ne va pas sans l’autre, puisque les deux identifie un élément dudit réseau. L’adresse MAC est utile pour les requêtes du protocole DHCP : la machine réclamant une adresse IP au serveur DHCP, communique par le biais de son adresse MAC avec ce serveur.
+Dans un environnement d’entreprise, ces deux niveaux d’adressage ne peuvent fonctionner séparément. Par exemple, lors de l’attribution automatique d’une adresse IP par un serveur DHCP, c’est l’adresse MAC de l’équipement qui sert de point de départ. L’ordinateur envoie une requête DHCP en broadcast, incluant son adresse MAC, afin de se voir attribuer une adresse IP disponible par le serveur. Sans cette identification matérielle, le serveur DHCP ne saurait pas à quel appareil délivrer l’adresse.
 
-**Le protocole ARP est primordial dans la connectivité réseau car il met en correspondance l’adresse physique d’un élément réseau donné avec une adresse IP** (c’est d’ailleurs pour cela qu’il s’appelle protocole de résolution d’adresse ou _Address Resolution Protocol_).
+Le protocole ARP est donc fondamental : il assure la liaison entre les adresses IP et les adresses physiques, et permet donc aux machines de traduire une destination logique en une destination matérielle réelle. Lorsqu’un ordinateur doit envoyer un paquet à une machine du même réseau, il consulte d’abord sa table ARP pour vérifier si l’adresse MAC du destinataire est déjà connue. Si ce n’est pas le cas, il diffuse une requête ARP à tous les hôtes du réseau local. La machine qui reconnaît l’adresse IP cible dans cette requête répond en précisant son adresse MAC. L’émetteur inscrit alors ce couple IP/MAC dans son cache ARP pour éviter d’avoir à répéter l’opération à chaque envoi.
 
-Ce protocole permet, comme on l’a vu dans l’exemple ci-dessus, de connaître l’adresse physique d’une carte réseau correspondant à une adresse IP. Chaque machine connectée au réseau possède son numéro d’identification unique de 48bits. Mais, la communication sur Internet ne se fait pas directement à partir de ce numéro mais à partir de l’adresse logique (ou adresse IP), attribuée, quant à elle, par un organisme.
+Cette table ARP agit donc comme un mini-annuaire de correspondance, mis à jour dynamiquement, un peu comme le DNS le fait pour associer des noms de domaine à des adresses IP. Sans ARP, aucun échange local ne serait possible car la couche liaison de données doit impérativement connaître l’adresse MAC pour encapsuler correctement les trames Ethernet.
 
-Pour faire correspondre les adresses physiques aux adresses logiques, le protocole ARP interroge les machines du réseau afin de connaître leur adresse physique et d’en créer une table de correspondance, dans une mémoire cache. Ainsi, lorsqu’une machine doit communiquer avec une autre, elle n’a qu’à consulter cette table de correspondance.
+À l’inverse, le protocole RARP (_Reverse Address Resolution Protocol_) a été conçu pour résoudre la situation opposée : permettre à une machine qui ne connaît que son adresse MAC de découvrir son adresse IP. C’était notamment le cas pour les anciennes stations de travail sans disque dur local, qui devaient démarrer via le réseau et réclamer une adresse IP. Cependant, RARP présentait des limites en matière de flexibilité et de maintenance, et a été progressivement remplacé par DRARP (_Dynamic Reverse ARP_) puis par BOOTP et DHCP, beaucoup plus évolués et automatisés.
 
-**REMARQUE** : si jamais l’adresse demandée ne se trouve pas dans la table, le protocole ARP émet alors une requête sur le réseau. Les machines sont tenues d’y répondre et de comparer l’adresse logique qui leur est présentée à la leur. Si l’une d’entre elles s’identifie à cette adresse, la machine répondra à la requête ARP, qui stockera alors le couple MAC/IP ainsi récupéré, dans la table de correspondance et la communication pourra s’effectuer, sans difficulté.
+Ces protocoles d’association jouent un rôle important dans le routage. Un routeur est en réalité une machine dotée de plusieurs interfaces réseau, reliant différents segments. Quand un routeur reçoit une trame, il la traite pour extraire le datagramme IP, puis examine l’entête IP pour déterminer la destination. Si la destination se trouve sur un réseau directement connecté, le datagramme est remis en remise directe après mise à jour de l’entête. Si la destination appartient à un autre réseau, le routeur consulte sa table de routage pour identifier le meilleur chemin, ou _next hop_, vers la destination.
 
-Le protocole ARP peut être vu comme la mise en annuaire des correspondances MAC/IP (au même titre que l’on effectue la mise en annuaire des correspondances IP/Noms DNS.
+Ce fonctionnement permet de diviser le trajet en segments plus courts et gérables. Chaque routeur intermédiaire ne connait que la prochaine étape, pas forcément la destination finale.
 
-**A l’inverse, il existe un protocole RARP (_Reverse Address Resolution Protocol_) permettant d’effectuer les opérations inverses et de fournir alors, l’adresse MAC correspondant à une adresse IP.**
+**Rappel :** on parle de remise directe quand l’expéditeur et le destinataire sont sur le même réseau physique ; sinon, la remise est dite indirecte car elle transite par un ou plusieurs routeurs.
 
-En réalité, le protocole RARP est uniquement utilisé pour des stations de travail n’ayant pas de disque dur et demandant à connaître leur adresse physique. Ce dernier protocole souffre de nombreuses limitations dont le temps d’administration passé à le maintenir n’est pas le moindre. Généralement, le protocole RARP est remplacé par le protocole DRARP qui en est une version plus dynamique.
+La table de routage, administrée soit manuellement (routage statique), soit dynamiquement (routage dynamique), contient les informations nécessaires pour décider du chemin à emprunter. Dans les petits réseaux, une configuration statique est suffisante, mais dans les grandes infrastructures, le routage dynamique s’impose pour ajuster automatiquement les routes en fonction des changements de topologie ou d’état des liens.
 
-Ces protocoles de routage sont essentiels au bon fonctionnement du réseau, car ce sont les dispositifs implémentés dans les routeurs, permettant de “choisir“ le chemin que les datagrammes peuvent emprunter afin d’arriver à destination.
-
-**RAPPEL** : un routeur n’est rien d’autre qu’une machine avec deux cartes réseaux (donc potentiellement au moins deux interfaces réseau) et mettant en relation ces différents réseaux. Les routeurs fonctionnent donc grâce aux tables de routage et à ces fameux protocoles en suivant le mode de fonctionnement suivant :
-
-- Le routeur reçoit une trame provenant d’un équipement connecté à un des réseaux auquel il est lui-même rattaché.
-- Les datagrammes sont transmis à la couche IP.
-- Le routeur vérifie l’entête du datagramme.
-- Si l’adresse IP fait partie des réseaux connus auquel le routeur est rattaché, l’information peut être envoyée à la couche APPLICATION, après que l’entête ait été désencapsulée. Dans le cas contraire, le routeur consulte sa table de routage, à la recherche d’un chemin à emprunter pour délivrer l’information.
-- Le datagramme est ensuite envoyé via la carte réseau reliée au réseau sur lequel le routeur a décidé de l’envoyer.
-
-Lorsque l’émetteur et le destinataire d’un message font partie du même réseau, on parle alors d’une remise directe. Si par contre, il y a un ou plusieurs routeur(s) intermédiaire(s) entre l’émetteur et le destinataire, on parle alors de remise indirecte.
-
-Lorsque la table de routage est constituée par l’administrateur on parle alors de routage statique (c’est généralement le cas pour des petits réseaux que l’on peut facilement administrer). Par contre, si le routeur construit lui-même ses tables de routage, on parle alors de routage dynamique.
-
-**La table de routage, quant à elle, n’est rien d’autre qu’une table de correspondance entre l’adresse de la machine destinatrice et le nœud suivant auquel le routeur doit délivrer le message.** En fait, il suffit que celui-ci soit délivré sur le réseau contenant la machine cible, pour ne pas avoir à stocker l’adresse IP complète, mais uniquement l’identifiant du réseau (Hostid de l’adresse IP). On peut représenter la table de routage de la façon suivante :
+La table de routage agit comme un tableau de correspondance entre les adresses IP cibles et les passerelles suivantes. Elle ne conserve généralement pas toutes les adresses hôtes mais seulement l’identifiant du réseau (_network ID_), ce qui allège considérablement son volume.
 
 ![Image](assets/fr/034.webp)
 
-Ainsi, grâce à ce tableau, le routeur, connaissant l’adresse du destinataire encapsulée dans le message, va pouvoir savoir sur quelle interface réseau le datagramme doit être remis ainsi que le routeur directement accessible pour faire suivre l’information.
+Grâce à ces entrées, le routeur peut déterminer rapidement via quelle interface et vers quel nœud il doit transmettre chaque datagramme. Cette logique d’acheminement, combinée au protocole ARP pour résoudre les adresses MAC correspondantes, garantit l’efficacité et la fiabilité du transfert de données sur l’ensemble du réseau.
 
-Ce mécanisme permettant de connaître le maillon suivant dans la chaîne de transmission et menant à la destination s’appelle routage par sauts successifs (soit next-hop routing).
+Enfin, parmi les protocoles de routage dynamiques, on retrouve des standards comme RIP (_Routing Information Protocol_), basé sur l’algorithme de distance, et OSPF (_Open Shortest Path First_), qui calcule les chemins les plus courts à travers une topologie complexe. Ces protocoles s’échangent en permanence des informations de mise à jour pour optimiser les chemins, réduire les coûts de transmission et améliorer la résilience du réseau face aux pannes ou aux congestions.
 
-**REMARQUE** : dans l cas d’un routage statique, c’est l’administrateur qui doit mettre à jour la table de routage. Pour un routage dynamique, c’est le protocole via un utilitaire qui effectue cette mise à jour.
-
-Parmi les protocoles de routage, on peut citer : RIP (_Routing Information Protocol_) et OSPF (_Open Shortest Path First_), qui sont le plus souvent, implémentés sur les commutateurs/Routeurs de premier niveau des entreprises.
-
-## NAT : Translation d’adresse
+## NAT : Traduction d’adresse
 <chapterId>4f984d5d-f2e0-4faf-b703-ff315f32cef4</chapterId>
 
 ### Définition
 
-Le mécanisme de translation d’adresses (aussi appelé _Network Address Translation_ ou NAT) a été conçu pour répondre à la pénurie d’adresses IP utilisées avec le protocole IPv4.
+Le _Network Address Translation_ (NAT) est une technique qui a vu le jour pour pallier l’épuisement progressif du stock d’adresses IPv4 disponibles. Conçu comme un mécanisme intermédiaire avant la généralisation d’IPv6, le NAT a permis aux entreprises et aux particuliers de continuer à connecter un grand nombre de machines tout en utilisant un nombre restreint d’adresses IP publiques.
 
-**REMARQUE** : à terme, le protocole IPv6 devrait résoudre le manque d’adresses, puisque le passe d’un mécanisme 32bits à 128bits (soient 16 octets).
+**Rappel important :** le passage d’IPv4 à IPv6 permet théoriquement de résoudre ce problème d’épuisement puisque l’espace d’adressage passe de 32 bits à 128 bits, ce qui offre ainsi un nombre d’adresses quasi illimité (2^128). Toutefois, en pratique, la transition reste partielle et le NAT demeure aujourd’hui encore très répandu.
 
-Le fonctionnement du NAT consiste à utiliser une seule adresse IP routable (ou un nombre limité d’adresses IP), afin de connecter l’ensemble des machines du réseau. Ceci permet de réaliser une translation au niveau de la passerelle de connexion à Internet entre l’adresse interne de la machine  souhaitant se connecter (qui est non routable) et l’adresse IP de la passerelle.
+Le principe du NAT repose sur un fonctionnement simple mais particulièrement efficace : au lieu d’attribuer une adresse IP publique unique à chaque machine du réseau interne, on utilise une seule adresse routable (ou un petit pool d'adresses) pour l’ensemble des terminaux privés. La passerelle NAT, souvent intégrée au routeur ou au pare-feu, se charge alors de traduire dynamiquement l’adresse IP interne et les informations nécessaires pour acheminer correctement le trafic vers l’extérieur, puis d’assurer le retour des réponses vers la machine émettrice.
 
-**Ce processus permet de sécuriser le réseau interne, puisqu’il masque totalement l’adressage interne. Vu d’un observateur extérieur au réseau, toutes les requêtes semblent provenir de la même adresse IP.**
+Ce procédé présente un avantage immédiat : il masque totalement l’architecture interne du réseau. Pour un observateur externe, toutes les requêtes émises par les postes de travail, serveurs ou imprimantes partagent la même identité publique. L’adressage privé, généralement constitué d’adresses IP issues des plages réservées (par exemple 192.168.x.x ou 10.x.x.x), reste donc invisible depuis Internet.
+
+En plus de répondre à la pénurie d’adresses IPv4, le NAT renforce donc la sécurité en créant une première barrière logique entre le réseau interne et le réseau public. Les communications entrantes non sollicitées sont ainsi naturellement filtrées, car seules les connexions initiées depuis l’intérieur bénéficient de la traduction nécessaire pour recevoir les réponses.
 
 ![Image](assets/fr/035.webp)
 
-### Types de translation
+### Types de traduction
 
-Selon les cas de figure, on va distinguer deux types de traduction (ou translation) :
+Le NAT peut être mis en œuvre sous différentes formes, adaptées à des besoins spécifiques. On distingue principalement deux grands modes de fonctionnement : la traduction statique et la traduction dynamique.
 
-- Translation statique
-- Translation dynamique
+**La traduction statique** consiste à établir une correspondance fixe entre une adresse IP privée et une adresse IP publique. Chaque machine interne dispose alors d’une adresse publique dédiée qui lui est associée de manière permanente. Par exemple, une machine interne configurée en 192.168.20.1 peut être associée à l’adresse routable 157.54.130.1. Lorsqu’un paquet sortant quitte le réseau local, le routeur modifie l’adresse source du paquet pour lui substituer l’adresse publique, et effectue l’opération inverse pour le trafic entrant. Cette traduction bidirectionnelle est transparente pour l’utilisateur.
 
-Lorsqu’on associe une adresse IP publique à une adresse IP privée (interne au réseau), on appelle cela de la translation NAT statique. Le routeur (ici, il s’agirait plus d’une passerelle), permet ainsi d’associer à une adresse IP privée (exemple : 192.168.20.1), une adresse publique routable sur Internet (157.54.130.1) et de faire la traduction, dans le sent sortant, comme dans le sens entrant tout en modifiant l’adresse directement dans le paquet émis.
+**Attention :** si ce mécanisme permet d’isoler le réseau interne, il ne résout en rien le problème de pénurie d’adresses IP publiques, car il faut toujours autant d’adresses publiques que de machines à exposer. La traduction statique est donc surtout utilisée lorsque certaines ressources internes doivent impérativement rester joignables depuis l’extérieur (serveur web, serveur mail…).
 
-**ATTENTION** : Ce type de translation permet alors de connecter des machines du réseau interne à Internet, de manière transparente, sans pour autant résoudre le problème de pénurie d’adresses IP. En effet, pour le nombre d’adresses internes à associer il faut le même nombre d’adresses routables.
+**La traduction dynamique**, quant à elle, est plus souple et économique en adresses IP publiques. Dans ce scénario, plusieurs machines internes partagent simultanément une même adresse IP routable pour accéder à Internet. Du point de vue du monde extérieur, l’ensemble du réseau interne se présente sous une seule identité. Cette mutualisation est rendue possible grâce à une technique complémentaire : la traduction de ports, appelée _Port Address Translation_ (PAT).
 
-Le mécanisme de NAT dynamique permet de partager une adresse IP routable entre plusieurs équipements du réseau privé. Ainsi, vues de l’extérieur, toutes les machines du réseau d’adressage interne possèdent virtuellement la même adresse IP.
+Le PAT, souvent désigné sous le terme _IP masquerading_ ou encore _NAT Overloading_, consiste à ajouter un identifiant supplémentaire (le numéro de port source) pour chaque connexion sortante. Ainsi, lorsque plusieurs machines du réseau local établissent des connexions simultanées vers Internet, la passerelle NAT attribue à chacune un port unique. Elle conserve ensuite une table de correspondance interne liant chaque couple (adresse IP privée, port source) à l’adresse publique et au port de sortie effectivement utilisé. Lorsque la réponse revient, le routeur NAT consulte cette table pour acheminer les paquets vers la machine interne appropriée.
 
-En langage anglais cela se traduit par du IP masquerading : il s’agit de mascarade IP qui est synonyme de translation NAT dynamique.
+Ce mécanisme est aujourd’hui omniprésent dans les routeurs domestiques, car il permet à des dizaines de terminaux (ordinateurs, smartphones, objets connectés...) de partager la même adresse IP publique, tout en maintenant une communication fluide.
 
-De plus, pour fonctionner ce système s’appuie également sur la translation de port (aussi appelée Port Address Translation ou PAT). Il s’agit de l’affectation d’un port source différent lors de chaque requête de telle sorte à pouvoir maintenir une correspondance entre les requêtes du réseau interne et les réponses des systèmes provenant d’Internet, toutes adressée à l’adresse IP du routeur.
-
-**NOTE** : le mécanisme de PAT est également appelé NAT Overloading ou surcharge du NAT, puisque tel est son rôle.
+Le NAT prolonge donc la durée de vie d’IPv4 tout en ajoutant un niveau de cloisonnement et de sécurité appréciable. Toutefois, avec l’adoption progressive d’IPv6 et son espace d’adressage immense, le rôle du NAT tendra à se réduire, même si, pour des raisons de compatibilité et de contrôle, il restera encore utilisé dans certains environnements pour segmenter et filtrer les flux.
 
 ### Implémentation du NAT
 
-Les correspondances entre les adresses privées (internes) et publiques (externes) sont généralement engrangées dans une table, sous forme de paire {Adresse interne, Adresse externe}. Lorsqu’une trame est transmise depuis une adresse privée vers l’extérieur, elle traverse le routeur NAT, qui remplace, dans l’entête du paquet TCP/IP, l’adresse de l’émetteur par l’adresse IP externe.
+Pour garantir le fonctionnement correct du mécanisme de traduction d’adresses, le routeur ou la passerelle NAT doit conserver une trace précise des correspondances établies entre chaque adresse privée du réseau interne et l’adresse publique qu’elle utilise pour communiquer vers l’extérieur. Ces informations sont stockées dans une table dite de "traduction NAT", qui joue un rôle central dans la gestion des flux réseau.
 
-Le remplacement inverse est effectué lorsqu’une trame correspondant à cette même connexion doit être routée vers l’adresse interne. Il est donc aisé de réutiliser une entrée dans la table de correspondance du NAT, à condition qu’aucun trafic, avec ces adresses, n’ait traversé le routeur pendant un certain laps de temps paramétrable.
+Chaque entrée de cette table associe au minimum une paire composée de l’adresse IP interne de la machine émettrice et de l’adresse IP externe qui sera exposée sur Internet. Lorsque qu’un paquet issu du réseau privé est émis vers une destination publique, le routeur NAT intercepte la trame, analyse l’entête IP et TCP/UDP, puis remplace l’adresse source privée par l’adresse publique de la passerelle. Dans le sens retour, le paquet entrant est capturé par la même passerelle, qui vérifie la table de correspondance et effectue l’opération inverse pour rediriger le flux vers l’adresse IP interne initiale.
 
-_Exemple : table NAT simplifiée_
+Ce principe de traduction dynamique repose sur une gestion fine de la table : chaque entrée reste valide tant qu’un trafic actif la justifie. Après un délai d’inactivité paramétrable, l’entrée est purgée et peut être réutilisée pour de nouvelles connexions.
+
+_Exemple de table de traduction NAT simplifiée :_
 
 ![Image](assets/fr/036.webp)
 
-Dans cet exemple, si aucun trafic ni aucune translation n’est apparu depuis 3600 secondes (pour la seconde ligne), l’entrée pourra être réclamée puisqu’elle est marquée comme réutilisable. Le champ durée marquant 0 signifie que la machine est déjà en conversation.
+Dans cet exemple, si aucun paquet n’a transité pour la seconde ligne depuis plus d’une heure (3600 secondes), l’entrée est marquée comme réutilisable. À l’inverse, un champ de durée à zéro indique qu’une communication est en cours et que la correspondance est verrouillée.
 
-Bien que beaucoup d’applications utilisent favorablement le NAT sans difficulté, ce mécanisme n’est pas anodin et peut poser quelques problèmes à certaines applications du réseau et fait alors porter une complexité additionnelle sur le fonctionnement de ces applications.
+Bien que le NAT s’intègre de manière transparente pour la majorité des usages courants (navigation web, courrier électronique, transfert de fichiers...) il peut cependant introduire des contraintes supplémentaires pour certaines applications réseau. En effet, certaines technologies reposent sur l’échange explicite d’adresses IP ou de ports dans le corps même des paquets. Or, ces informations deviennent incohérentes après passage par la passerelle NAT.
 
-Parmi les problèmes que l’on peut rencontrer, on peut citer :
+Parmi les cas les plus typiques de limitations, on peut citer :
+- Les protocoles de type pair-à-pair (P2P), qui nécessitent l’établissement de connexions directes entre postes, sont perturbés par la barrière du NAT, car chaque machine interne partage la même adresse IP externe et ne peut être contactée directement sans configuration spécifique (comme le *port forwarding* ou l’UPnP) ;
+- Le protocole IPSec, utilisé pour sécuriser les communications réseau, chiffre l’entête des paquets. Or, comme le NAT a besoin de modifier ces entêtes pour remplacer les adresses IP, le chiffrement rend impossible cette modification, ce qui compromet la compatibilité sans mise en place de mécanismes d’adaptation comme le NAT-T (*NAT Traversal*) ;
+- Le protocole X Window, qui permet l’affichage distant d’applications graphiques sous Unix/Linux, fonctionne selon une logique où le serveur X envoie activement des connexions TCP vers les clients. Cette inversion du sens habituel des connexions peut être bloquée par la traduction NAT.
 
-- Les communications entre postes derrière un NAT (cas des protocoles peer-to-peer).
-- Le protocole IPSec : son entête est modifié et devient alors illisible.
-- Le protocole XWindow : les connexions TCP, initiées par les clients vers le display.
+De manière générale, tout protocole intégrant une référence explicite à l’adresse IP interne dans la charge utile du paquet sera affecté, car cette adresse ne correspond plus à l’adresse réelle visible depuis Internet une fois la traduction effectuée.
 
-En règle générale, le mécanisme de NAT pose problème lorsqu’un protocole de communication transmet l’adresse IP de la machine source, dans un paquet et/ou des numéros de ports. L’adresse n’étant pas valide, après franchissement du routeur NAT, elle ne peut être employée par la machine destinataire.
+**Remarque importante :** pour pallier ces problèmes, certains routeurs NAT disposent de fonctionnalités de _Deep Packet Inspection_ (DPI) ou de _Protocol Helpers_, qui inspectent le contenu des paquets pour identifier et remplacer dynamiquement les adresses ou numéros de ports inscrits dans les données applicatives. Cette manipulation nécessite toutefois une parfaite connaissance du format du protocole à traiter et peut représenter une vulnérabilité ou un surcoût en ressources.
 
-**REMARQUE** : Pour pallier à cet inconvénient, les routeurs NAT doivent inspecter le contenu, en manipulant les paquets les traversant, afin de remplacer les adresses IP spécifiées, par les adresses externes. Cela implique de connaître le format du protocole posant problème.
+**Point de vigilance :** le NAT contribue certes à masquer le réseau interne et à contrôler la circulation des flux entrants, mais il ne remplace en aucun cas un pare-feu dédié. La traduction ne constitue pas une barrière de sécurité complète : elle doit toujours être complétée par des règles de filtrage précises pour bloquer le trafic non sollicité ou indésirable.
 
-**IMPORTANT** : le mécanisme NAT ne fait que participer à la politique de sécurité  d’un site, mais ce n’est pas son objectif principal. Une fois la translation effectuée, celle-ci est bidirectionnelle. On peut donc dire que le NAT n’est pas un substitut des pare-feu.
-
-_Exemple : imaginons le réseau d’entreprise suivant :_
+_Pour illustrer le fonctionnement concret, prenons l’exemple suivant :_
 
 ![Image](assets/fr/037.webp)
 
-Ainsi, pour se connecter au serveur web de l’exemple, depuis un poste en interne, il suffit d’exécuter l’url : http://192.168.1.20:80 (l’indication du port est optionnelle, mais, uniquement dans le cas où la valeur est 80).
+Dans ce scénario, un poste interne peut accéder au serveur web interne en appelant directement l’URL `http://192.168.1.20:80`. Ici, l’indication du port est optionnelle puisque `80` est le port standard pour le HTTP. À l’inverse, si une requête est initiée depuis l’extérieur, l’utilisateur saisira l’adresse publique `http://85.152.44.14:80`. Le routeur NAT réceptionne la requête, consulte sa table de correspondance et traduit automatiquement l’adresse publique en adresse privée, redirigeant la connexion vers` http://192.168.1.20:80`.
 
-**Dans le cas où l’on souhaite atteindre ce serveur web depuis l’extérieur, il faut suivre le circuit rouge du schéma) et exécuter l’url http://85.152.44.14:80. C’’est le NAT qui effectuera la translation en http://192.168.1.20:80.**
+Ce principe est identique pour tout autre serveur autorisé à recevoir des connexions depuis Internet, comme le serveur Extranet (circuit bleu sur le schéma).
 
-Il suffit d’appliquer ce mode de fonctionnement aux autres serveurs autorisés à disposer d’une translation d’adresses tel que le serveur Extranet de l’exemple ci-dessus (circuit bleu).
-
-**REMARQUE** : dans le cadre du mécanisme NAT, on peut rencontrer des interfaces réseau appelées virbrx. Il s’agit d’interface “_Virtual Bridge X_“, issue du monde Xen, fournit par la bibliothèque de virtualisation libvirt pour interconnecter le monde interne, au monde externe de la machine et permettre au système NAT d’être opérationnel. Cela est généralement utilisé comme un pont (ou bridge) et se configure dans le répertoire _/etc/sysconfig/network-scripts_, via le script ifcfg-virbr0 suivant (par exemple) :
+**Remarque pratique :** dans les environnements virtualisés, on rencontre fréquemment des interfaces réseau appelées _virbrX_ (pour _Virtual Bridge X_). Ces ponts virtuels, fournis notamment par la bibliothèque libvirt ou l’hyperviseur Xen, servent à relier le réseau interne virtuel des machines invitées au réseau physique, tout en appliquant le NAT. Leur configuration se réalise généralement via des scripts situés dans `/etc/sysconfig/network-scripts/`, comme illustré ci-dessous pour `virbr0` :
 
 ```shell
-NAME= ""
-
+NAME=""
 BOOTPROTO=none
-
 MACADDR=""
-
 TYPE=Bridge
-
 DEVICE=virbr0
-
 NETMASK=255.255.255.0
-
 MTU=""
-
 BROADCAST=192.168.0.255
-
 IPADDR=192.168.0.1
-
 NETWORK=192.168.0.0
-
 ONBOOT=yes
-```
+````
 
-Lorsque le pont est créé, il faut faire en sorte de router le trafic et d’activer l’option de NAT :
-
-```shell
-echo 1 > /proc/sys/net/ipv4/ip_forward (routage)
-```
+Une fois le pont virtuel en place, il est nécessaire d’activer le routage IP et de configurer la traduction de ports avec `iptables` :
 
 ```shell
-iptables –t NAT –A POSTROUTING –o <WAN> -s 192.168.0.0/24 –j MASQUERADE (natage)
+echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
 
-Dans le prochain chapitre, nous allons voir comment configurer une adresse IP sous Linux, de manière simple et de manière avancée.
+```shell
+iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
+```
+
+Grâce à cette configuration, le trafic sortant est routé et la traduction NAT est assurée pour permettre aux machines virtuelles de communiquer avec l’extérieur sans exposer directement leurs adresses IP internes.
+
+Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées adaptées à différents contextes d’administration.
 
 ## Comment configurer le réseau avec ifconfig ?
 <chapterId>8ba7e946-d2a0-4841-8d54-e85ba96baa25</chapterId>
 
 ### Configuration standard
 
-Maintenant que l’on a vu la théorie, passons un peu à la pratique. Il s’agit ici de concrétiser la création ou la configuration du réseau. Chaque distribution propose une interface graphique différente. Par contre, la commande universelle de configuration d’un réseau, sur GNU/Linux, s’appelle ifconfig.
+Après avoir posé les bases théoriques du réseau et compris comment s’articulent adresses IP, masques, routage et traduction, il est important de passer à la mise en pratique. Sous GNU/Linux, la configuration du réseau peut se faire de plusieurs façons, mais la commande historique et universelle reste `ifconfig`. Bien qu’aujourd’hui remplacée par `ip` dans les distributions modernes, `ifconfig` reste incontournable pour comprendre la configuration bas niveau des interfaces réseau.
 
-**ASTUCE** : il existe également une autre commande permettant également de lister toutes les interfaces, y compris celles qui sont inactives : ip addr.
+Cette commande, véritable couteau suisse, permet d’attribuer ou de modifier une adresse IP, de changer un masque de sous-réseau, de démarrer ou d’arrêter une interface, ou encore de consulter son état à tout moment.
 
-C’est un peu le couteau suisse du paramétrage réseau. On peut l’utiliser à la fois pour initialiser une interface, modifier un masque réseau, positionner une adresse IP ou encore activer ou désactiver telle ou telle interface.
+**ASTUCE :** pour visualiser toutes les interfaces (même celles qui sont désactivées) la commande `ip addr` est plus complète et désormais recommandée. Elle est compatible avec les environnements récents et offre des informations détaillées.
 
-Exemple : activation de l’interface eth0 avec l’adresse 192.168.1.2
+Prenons un premier exemple concret : pour activer une interface Ethernet nommée `eth0` et lui attribuer l’adresse IP `192.168.1.2` avec le masque `255.255.255.0`, on saisira :
 
 ```shell
-ifconfig eth0  inet 192.168.1.2   netmask 255.255.255.0
-```
+ifconfig eth0 inet 192.168.1.2 netmask 255.255.255.0
+````
 
-Une fois l’interface générée, il est alors possible de l’activer (ou la désactiver) avec les options up (ou down):
+Une fois l’adresse configurée, l’interface doit être activée pour que le système l’exploite effectivement. Cela se fait grâce aux options `up` ou `down` :
 
 ```shell
 ifconfig eth0 up
 ```
 
-Afin d’interroger une interface, il suffit simplement d’exécuter la commande ifconfig en précisant l’interface que l’on souhaite inspecter :
+Pour désactiver l’interface, la même commande s’utilise avec `down` :
+
+```shell
+ifconfig eth0 down
+```
+
+Si l’on souhaite simplement vérifier l’état d’une interface spécifique, il suffit de préciser son nom :
 
 ```shell
 ifconfig eth2
 ```
 
-Par défaut, sur GNU/Linux, la commande ifconfig seule, sans option, fournit la liste et les propriétés des interfaces actives. Si l’on souhaite visualiser l’ensemble des interfaces, y compris celles qui ne sont pas actives, il faut utiliser l’option –a :
+Sans aucun argument, `ifconfig` liste uniquement les interfaces actives. Pour obtenir une vue exhaustive, y compris celles qui sont présentes mais désactivées, on ajoute l’option `-a` :
 
 ```shell
-ifconfig –a
+ifconfig -a
 ```
 
-ASTUCE : même si ce n’est pas le plus courant des usages, on peut ajouter une seconde adresse IP à une interface déjà configurée :
+**Astuce pratique :** `ifconfig` offre également la possibilité de configurer une adresse IP supplémentaire sur une interface existante en créant un alias. Cela peut être utile pour associer plusieurs adresses IP à une même carte réseau, par exemple pour faire cohabiter différents sous-réseaux ou services.
 
 ```shell
 ifconfig eth2:en1 172.18.2.39
 ```
 
-En suppléments des options up et down, il existe carrément des commandes permettant d’activer ou désactiver les interfaces réseau : ifup et ifdown. Celles-ci utilisent la configuration mentionnée dans les fichiers se trouvant dans le répertoire **/etc/sysconfig/network-scripts**.
+En complément direct, les commandes `ifup` et `ifdown` permettent, quant à elles, de démarrer ou stopper une interface réseau en s’appuyant sur les fichiers de configuration statiques situés dans `/etc/sysconfig/network-scripts/`. Ces scripts décrivent la configuration permanente des interfaces et assurent leur initialisation correcte au démarrage du système.
+
+Exemple pour activer une interface via son fichier de configuration :
 
 ```shell
 ifup eth1
 ```
 
+Et pour la désactiver proprement :
+
 ```shell
 ifdown eth2
 ```
 
-Outre les fichiers de configuration mentionnés ci-dessus, il existe également un fichier network, se trouvant dans le répertoire **/etc/sysconfig** permettant de préciser les paramètres suivants :
+Dans la plupart des distributions Linux basées sur Red Hat (RHEL, CentOS, Fedora), la gestion du réseau repose sur deux éléments : le fichier global `network` et les fichiers individuels `ifcfg-*`.
 
-- NETWORKING  : activation ou non du réseau au démarrage du système
-- HOSTNAME : nom de domaine qualifié (FQDN)
-- GATEWAY : adresse IP de la passerelle permettant le routage
-- GATEWAYDEV  : interface réseau permettant d’accéder à la passerelle
-- NISDOMAIN : appartenance (ou non) à un annuaire de noms NIS
-- DNS1 : adresse IP du serveur DNS primaire
-- DNS2 : adresse IP du serveur DNS secondaire
+Le fichier `/etc/sysconfig/network` fixe les paramètres généraux du réseau pour le système tout entier. Parmi les directives que l’on peut y définir, on retrouve notamment :
 
-Les fichiers de configuration ifcfg*, du répertoire /etc/sysconfig/network-scripts contiennent le paramétrage des différentes interfaces réseau et peuvent être soit statique (adresse fixe), soit dynamique (utilisation d’un serveur DHCP) :
+- `NETWORKING` : pour indiquer si le réseau doit être activé au démarrage du système.
+    
+- `HOSTNAME` : pour spécifier le nom d’hôte pleinement qualifié (FQDN) de la machine.
+    
+- `GATEWAY` : pour déclarer l’adresse IP de la passerelle par défaut utilisée pour acheminer le trafic sortant.
+    
+- `GATEWAYDEV` : pour indiquer l’interface associée à cette passerelle.
+    
+- `NISDOMAIN` : pour intégrer la machine dans un domaine NIS si nécessaire.
+    
+- `DNS1` et `DNS2` : pour définir les adresses IP des serveurs DNS primaire et secondaire.
+
+Les fichiers `ifcfg-*`, situés dans `/etc/sysconfig/network-scripts/`, contiennent quant à eux la configuration spécifique de chaque interface. Ces fichiers précisent si l’interface utilise une adresse IP statique, que l’administrateur définit manuellement, ou si elle doit obtenir dynamiquement ses paramètres via un serveur DHCP. Ils incluent également d’autres informations comme le masque, le nom de l’interface, son état (`ONBOOT`), et parfois les options liées à la gestion VLAN ou au bridging.
+
+Illustration simplifiée d’un fichier de configuration `ifcfg` :
 
 ![Image](assets/fr/038.webp)
 
+Cette structuration claire et modulaire rend la gestion des interfaces flexible et facilement automatisable, que ce soit pour un poste individuel ou pour une flotte de serveurs administrés à grande échelle.
+
+
 ### Configuration avancée : le teaming
 
-En matière de réseau, on peut faire en sorte de redonder son réseau en doublant les interfaces utilisées. Cela s’appelle du teaming ou du bonding. Cela consiste à agréger plusieurs interfaces en une seule afin d’augmenter la bande passante et la résilience.
+Dans les environnements réseau professionnels, il est fréquent de chercher à garantir une continuité de service même en cas de défaillance matérielle. Pour cela, on met en place des mécanismes de redondance et d’agrégation de liens. On parle alors de _teaming_ ou de _bonding_. Ces techniques consistent à combiner plusieurs interfaces physiques pour les faire fonctionner comme une seule interface logique, appelée généralement `bond0`. L’objectif est double : augmenter la bande passante disponible et assurer une tolérance aux pannes.
 
 ![Image](assets/fr/039.webp)
 
-ATTENTION : ce mode de fonctionnement nécessite le chargement d’un module noyau particulier : le module bonding. De plus, il faut deux interfaces actives pour pouvoir réaliser la pseudo-interface bond0 schématisée sur la capture ci-dessus. Il faut donc déclarer trois fichiers ifcfg* :
+**Attention :** pour activer le bonding, le noyau Linux doit disposer du module `bonding`. Sans ce module, il est impossible de créer l’interface agrégée. De plus, il faut au minimum deux interfaces physiques actives pour constituer le lien redondant. Dans l’exemple ci-dessus, la pseudo-interface `bond0` agrège `eth0` et `eth1`.
 
-- ifcfg-eth0
-- ifcfg-eth1
-- ifcfg-bond0
+Pour configurer un bonding, on crée trois fichiers `ifcfg*` dans le répertoire `/etc/sysconfig/network-scripts` : un pour chaque interface physique et un pour l’interface bondée.
 
-Il existe sept modes de bonding que l’on peut paramétrer au niveau du module noyau installé :
+Les modes de bonding définissent le comportement du regroupement de liens. Il en existe sept principaux :
 
-- mode 0 : équilibrage de charge (aussi appelée balance round robin)
-- mode 1 : Sauvegarde active
-- mode 2 : Balance XOR
-- mode 3 : Broadcast
-- mode 4 : 802.3ad
-- mode 5 : balance “Traffic Load Balancing“ ou TLB
-- mode 6 : balance “Adaptive Load Balancing“ ou ALB
+- **Mode 0 :** équilibrage de charge (_balance round robin_) – envoie les paquets de manière circulaire sur chaque interface pour optimiser la bande passante.
+- **Mode 1 :** _active-backup_ – seule une interface est active à la fois, l’autre prend le relais en cas de panne.
+- **Mode 2 :** _balance XOR_ – sélection de l’interface selon une règle de XOR entre l’adresse MAC source et destination.
+- **Mode 3 :** _broadcast_ – envoie les paquets sur toutes les interfaces simultanément.
+- **Mode 4 :** 802.3ad (_Link Aggregation Control Protocol_) – agrégation dynamique standardisée, nécessite un switch compatible.
+- **Mode 5 :** _Traffic Load Balancing (TLB)_ – répartition de la charge selon la charge réelle.
+- **Mode 6 :** _Adaptive Load Balancing (ALB)_ – ajuste dynamiquement la répartition de charge et permet même de gérer la négociation ARP pour équilibrer les flux en réception.
 
-**Généralement, sur des configurations de production, on a tendance à privilégier les modes 5 ou 6 permettant de changer dynamiquement, à la fois d’interface réseau et d’adresse MAC.** Une fois que l’on a configuré le module noyau en éditant le fichier /etc/modprobe.d/bond0.conf de la façon suivante :
+**Dans les infrastructures de production, on privilégie souvent les modes 5 ou 6, car ils combinent souplesse et performance.** Une fois le module `bonding` chargé, on le configure dans `/etc/modprobe.d/bond0.conf` :
 
 ```shell
 alias bond0 bonding
+````
+
+```shell
+options bond0 miimon=100 mode=5
 ```
 
-```bash
-options bond0 miimon mode=5
-```
+Le paramètre `miimon` définit l’intervalle de surveillance en millisecondes pour vérifier l’état des interfaces esclaves.
 
-On peut alors désactiver les deux cartes réseau pour pouvoir paramétrer le bonding et les transformer en interfaces esclaves:
+On commence par désactiver les interfaces physiques pour les basculer en mode esclave :
 
 ```shell
 ifconfig eth0 down
@@ -880,7 +873,7 @@ ifconfig eth0 down
 ifconfig eth1 down
 ```
 
-On peut ensuite créer l’interface bond0 avec son adresse Ethernet active (celle, généralement de l’interface eth0 associée) et configurer l’adresse IP à lui attribuer :
+Ensuite, on crée l’interface `bond0` et on lui attribue une adresse MAC (souvent reprise de l’interface `eth0`) et une adresse IP statique :
 
 ```shell
 ifconfig bond0 hw ether 00:17:56:BC:02:3A
@@ -890,7 +883,7 @@ ifconfig bond0 hw ether 00:17:56:BC:02:3A
 ifconfig bond0 192.168.2.3 netmask 255.255.255.0 gateway 192.168.2.1
 ```
 
-Après cela, il faut transformer les deux interfaces eth0 et eth1 en esclave inféodées à l’interface bond0 :
+Il faut maintenant lier les interfaces physiques au bonding avec l’utilitaire `ifenslave` :
 
 ```shell
 ifenslave bond0 eth0
@@ -900,253 +893,249 @@ ifenslave bond0 eth0
 ifenslave bond0 eth1
 ```
 
-ASTUCE : si l’on a besoin à un quelconque moment de libérer une interface ou d’en remplacer une, il suffit juste d’exécuter la commande suivante :
+**Astuce :** pour retirer une interface du groupe sans arrêter l’ensemble, on utilise l’option `-d` :
 
 ```shell
-ifenslave –d bond0 eth1 (for example)
+ifenslave -d bond0 eth1
 ```
 
-Maintenant, il faut créer les fichiers de configuration, dans le répertoire **/etc/sysconfig/network-scripts** des différentes interfaces réseau, en commençant par ifcfg-bond0 :
+Côté configuration permanente, trois fichiers `ifcfg` doivent être créés dans `/etc/sysconfig/network-scripts` :
+
+**Fichier `ifcfg-bond0` :**
 
 ```shell
 DEVICE=bond0
-
 ONBOOT=yes
-
 BOOTPROTO=none
-
 IPADDR=192.168.2.3
-
 NETMASK=255.255.255.0
-
 BROADCAST=192.168.2.255
-
 GATEWAY=192.168.2.1
-
 USERCTL=no
 ```
 
-Ensuite, on passe à la configuration de ifcfg-eth0 :
+**Fichier `ifcfg-eth0` :**
 
 ```shell
 DEVICE=eth0
-
 USERCTL=no
-
 ONBOOT=yes
-
 MASTER=bond0
-
 SLAVE=yes
 ```
 
-Et pour finir, on passe à celle de ifcfg-eth1, qui ressemble à s’y méprendre au fichier ifcfg-eth0:
+**Fichier `ifcfg-eth1` :**
 
 ```shell
 DEVICE=eth1
-
 USERCTL=no
-
 ONBOOT=yes
-
 MASTER=bond0
-
 SLAVE=yes
 ```
 
-Pour pouvoir démarrer cette configuration, il faut alors redémarrer le service réseau du système, en exécutant l’instruction suivante :
+Une fois les fichiers prêts, on relance le service réseau pour activer la nouvelle configuration :
 
 ```shell
 systemctl restart network
 ```
 
-**REMARQUE** : une particularité des interfaces réseau sous GNU/Linux, c’est qu’il est possible d’attribuer un ou plusieurs alias à une carte réseau, à partir de son interface principale. Cela permet d’attribuer, en réalité plusieurs adresses IP à la même interface.
+**Remarque :** en plus du bonding, Linux permet d’attribuer plusieurs adresses IP à une même interface via le mécanisme des alias. Ces alias se créent en ajoutant un suffixe à l’interface principale, séparé par `:`.
 
-En effet, lorsqu’une interface dispose de plusieurs adresses IP, la première est considérée en tant qu’adresse principale de l’interface et les suivantes comme des alias. Ceux-ci utilisent alors le nom de l’interface réseau principale, suivi du numéro d’alias séparé du nom, par le caractère ‘:’.
-
-Exemple : pour générer des alias de l’interface eth0
+Exemple pour ajouter un alias `eth0:1` avec une IP supplémentaire :
 
 ```shell
 ifconfig eth0:1 192.168.1.2 netmask 255.255.255.0 up
 ```
 
-**ATTENTION** : le masque mentionné ici correspond au masque de sous-réseau. De plus, pour que cette pseudo-nouvelle interface fonctionne, il ne faut pas oublier de créer son fichier de configuration :
+Il est alors nécessaire de créer un fichier de configuration pour cet alias :
 
 ```shell
 DEVICE=eth0:1
-
 BOOTPROTO=static
-
 IPADDR=192.168.1.2
-
 NETMASK=255.255.255.0
-
-ONBOOT=yes 
+ONBOOT=yes
 ```
 
-Il faut alors activer la nouvelle interface en exécutant la commande ci-dessous :
+Et pour activer l’alias :
 
 ```shell
 ifup eth0:1
 ```
 
-Nous allons maintenant passer à la partie suivante qui sera consacrée à l'adressage IPV6.
+Le bonding et le système d’alias IP offrent ainsi une grande flexibilité pour construire une architecture réseau robuste et adaptée aux besoins de haute disponibilité.
+
+Dans la suite de ce cours, nous aborderons les particularités et la mise en œuvre de l’adressage IPv6.
 
 # L’adressage IPv6
 <partId>9b1d87f1-2a68-496e-b5dd-76cf74fb8cde</partId>
 
-
 ## IPv6 : Normes et définitions
 <chapterId>d1f16f0a-1104-460d-8d67-f725665f8e3f</chapterId>
 
-Cette partie va maintenant décrire la génération suivante d’adressage : IPv6 (à l’époque on parlait de IPng ou IP New Generation). Mais, commençons par détailler les quelques règles qui régissent l’administration de l’espace d’adressage IPv6.
+Nous abordons à présent la nouvelle génération d’adressage IP : le protocole IPv6, initialement désigné sous le nom d’IPng (_IP Next Generation_). Conçu pour surmonter les limites structurelles d’IPv4, ce protocole introduit une architecture d’adressage largement étendue, ainsi que de nombreuses optimisations techniques.
 
-Les objectifs de ce nouveau protocole sont multiples. En premier lieu, il lui faut :
+Les motivations qui ont conduit à l’adoption d’IPv6 sont multiples et répondent à des besoins critiques pour l’évolution d’Internet. Tout d’abord, IPv6 devait permettre de supporter la croissance exponentielle du nombre d’équipements connectés (un objectif inatteignable avec l’espace d’adressage limité d’IPv4). Ensuite, le protocole vise à réduire la taille des tables de routage, ce qui contribue à rendre les échanges plus efficaces et allège le travail des routeurs sur le long terme.
 
-- Supporter les milliards d’équipements connectés, en s’affranchissant de l’inefficacité de l’espace d’adressage actuel en IPv4.
+IPv6 ambitionne également de simplifier certains aspects du traitement des paquets, afin de fluidifier la circulation des datagrammes et d’optimiser la vitesse de transfert entre les réseaux. Du point de vue de la sécurité, IPv6 intègre nativement des fonctionnalités améliorées d’authentification et de confidentialité qui, bien qu’elles puissent être complétées par des mécanismes externes, représentent une avancée notable par rapport à IPv4.
 
-- Réduire également la taille des tables de routage.
+Parmi les autres objectifs, on note une prise en compte plus fine des types de services, notamment pour garantir une meilleure qualité pour les applications temps réel (voix sur IP, visioconférence...). IPv6 doit également permettre une gestion plus souple de la mobilité : un appareil peut ainsi changer de point d’accès sans changer d’adresse de manière visible pour ses correspondants.
 
-- Simplifier le protocole afin de permettre aux routeurs de faire circuler les datagrammes plus rapidement.
-
-- Fournir une sécurité plus efficiente, en termes d’authentification et de confidentialité, notamment, par rapport à l’actuel protocole IP.
-
-- Accorder plus de crédit au type de service et tout particulièrement à ceux associés aux applications temps réel.
-
-- Faciliter la mobilité des machines, sans pour autant changer d’adresse.
-
-- Permettre au protocole une meilleure évolution dans le futur.
-
-- Favoriser une coexistence la plus légère possible entre l’ancien et le nouveau protocole.
-
-Pour toutes ces raisons, il est raisonnable de s’orienter vers le protocole IPv6 qui répond favorablement aux différents objectifs mentionnés ci-dessus. De plus, si ce nouveau protocole n’est pas compatible avec IPv4, il l’est toutefois avec les autres protocoles Internet : qu’il s’agisse de TCP, UDP, ICMP, DNS et même avec les protocoles de routage tels que OSPF, IGMP et BGP (même si certains ajustements, concernant le fonctionnement avec des adresses longues, sont nécessaires).
+Enfin, IPv6 a été conçu pour coexister avec les protocoles historiques. S’il n’est pas directement compatible avec IPv4 sur le plan binaire, il reste parfaitement interopérable avec les couches supérieures comme TCP, UDP, ICMPv6, DNS, ainsi qu’avec les protocoles de routage tels qu’OSPF, BGP ou IGMP, moyennant certains ajustements pour la gestion des adresses étendues.
 
 ### Règles d’écriture
 
-Suite à la pénurie d’adresse IP en IPv4, il a fallu imaginer un stratagème pour ne plus être limité et permettre un avenir étendu à Internet. L’adresse IPv6, au même titre que le protocole IPv4 est une adresse IP. Sa longueur est de 128bits, soient 16 octets. On dispose approximativement de 3,4x1038 adresses possibles.
+L’un des changements majeurs avec IPv6 est le format même de l’adresse IP. Pour résoudre la pénurie chronique d’adresses IPv4, la longueur de l’adresse a été portée à 128 bits, soit 16 octets, contre seulement 32 bits pour IPv4. En théorie, cela ouvre un champ d'adresses possibles de :
 
-La notation décimale pointée, utilisée par le protocole IPv4 est abandonnée au profit d’une écriture hexadécimale où les huit groupes de deux octets sont séparés par des caractères ‘:’.
+$$3,4 \times 10^{38}$$
 
-Exemple : écriture d’une adresse IPv6
+Cela garantit ainsi une capacité quasi illimitée pour accueillir tous les équipements actuels et futurs.
 
-**1987:0c02:0000:84c2:0000:0000:cf2a:9077**
+L’écriture des adresses IPv6 diffère notablement de la notation décimale pointée classique. Une adresse IPv6 se compose de huit groupes de 16 bits, exprimés en hexadécimal et séparés par des deux-points `:`.
 
-Mais, en ce qui concerne l’écriture de ce genre d’adresse, on peut omettre les zéro non significatifs (en tête d’octet). Ainsi, l’adresse en exemple, ci-dessus peut aussi s’écrire :
+Par exemple :
 
-**1987:c02:0:84c2:0:0:cf2a:9077**
-
-Ensuite, une suite unique de 1 à n groupes consécutifs de 16bits tous nuls peut être également omise, en conservant malgré tout les signes ‘:’, de chaque côté de la partie effacée. On peut donc abréger l’adresse IPv6 ci-dessus de la façon suivante :
-
-**1987:c02:0:84c2::cf2a:9077**
-
-**IMPORTANT** : étant donné que le caractère ":" est utilisé pour séparer les groupes d’octets, il apporte également de la confusion quant à l’écriture des url web. En effet, ce même caractère ":" désigne aussi la séparation de l’adresse IP et de son port de service. Pour palier à ce problème, il a donc été décidé d’écrire l’adresse IPv6 d’une url entre crochets.
-
-Exemple : URL pour l’adresse IPv6 2002:400:2A41:378::34A2:36
-
-```shell
-http://[2002:400:2A41:378::34A2:36] :8080
+```
+1987:0c02:0000:84c2:0000:0000:cf2a:9077
 ```
 
-L’expression des adresses IPv4, dans le formalisme IPv6, peuvent être écrites en utilisant la représentation décimale pointée, précédée de la chaîne "::" :
+Pour alléger cette écriture, les zéros en tête de chaque groupe peuvent être omis. L’exemple précédent devient alors :
 
-```shell
+```
+1987:c02:0:84c2:0:0:cf2a:9077
+```
+
+De plus, une seule séquence continue de groupes de zéros peut être remplacée par la notation `::`, ce qui permet de condenser l’adresse :
+
+```
+1987:c02:0:84c2::cf2a:9077
+```
+
+**Attention :** la règle est stricte : une seule et unique séquence de zéros consécutifs peut être abrégée par `::`. Si une adresse comporte plusieurs suites de zéros, seule la plus longue est condensée. C’est ce principe qui garantit l’unicité et la lisibilité de l’adresse.
+
+**Particularité importante :** le caractère `:` utilisé pour séparer les blocs hexadécimaux pose un problème potentiel dans les URL, car `:` sert également à indiquer le port du service. Pour lever toute ambiguïté, les adresses IPv6 insérées dans une URL doivent obligatoirement être encadrées par des crochets `[ ]`.
+
+Exemple d’accès HTTP sur un port spécifique pour l’adresse `2002:400:2A41:378::34A2:36` :
+
+```
+http://[2002:400:2A41:378::34A2:36]:8080
+```
+
+Lorsque l’on souhaite exprimer une adresse IPv4 dans un contexte IPv6, on peut employer une notation mixte en décimal pointé, précédée de la chaîne `::` :
+
+```
 ::192.168.1.5
 ```
 
-**ATTENTION** : par contre, on ne peut en aucun cas supprimer une seconde série de bits à zéro. Il n’est autorisé d’en éliminer qu’une seule série. Ainsi, la séquence ‘::’ signifie qu’il faut combler tout ce qu’il manque par des zéro. Il existe ainsi plusieurs façons différentes de représenter une adresse IPv6. C’est la RFC5952 qui décrit  une représentation canonique.
+Cette compatibilité facilite la transition entre les deux protocoles en permettant d’inclure des blocs IPv4 dans l’espace IPv6.
+
+**Note :** pour uniformiser les représentations, la RFC 5952 définit un format canonique qui précise les règles d’abréviation à suivre pour éviter les variantes multiples d’une même adresse. Bien respecter ces recommandations contribue à limiter les erreurs d’interprétation et à garantir la cohérence des configurations réseau.
 
 ### Les types d’adresses IPv6
 
-Une adresse IPv6 non spécifiée est alors abrégée en ::0.0.0.0 ou de façon canonisée en ::. Tout comme en IPv4, il existe plusieurs catégories d’adresses, chacune jouant des rôles particuliers, décrits au sein des RFC5156, RFC4291 et RFC3587.
+L’adressage IPv6 se distingue de son prédécesseur par une grande diversité de catégories d’adresses, chacune conçue pour répondre à des usages précis, tout en garantissant une flexibilité d’acheminement et de gestion du réseau. Comme en IPv4, on y retrouve des adresses globales, locales, réservées ou spécifiques à certains mécanismes de transition.
 
-![Image](assets/fr/040.webp)
+Une adresse IPv6 non spécifiée est représentée par `::` ou, sous forme plus explicite, `::0.0.0.0`. Cette forme particulière sert notamment lors de l’acquisition d’une adresse ou comme valeur par défaut pour indiquer l’absence d’adresse.
 
-Sur un réseau local, il faut utiliser le préfixe fd00::/8.  
+| IPv6 Address Prefix | Description                                 |
+| ------------------- | ------------------------------------------- |
+| ::/8                | Reserved addresses                          |
+| 2000::/3            | Unicast addresses, routable on the Internet |
+| fc00::/7            | Unique local addresses (1)                  |
+| fe80::/10           | Link-local addresses                        |
+| ff00::/8            | Multicast addresses                         |
+
+(1) : *Sur un réseau local privé, on privilégie le préfixe `fd00::/8` pour affecter des adresses internes non routables sur Internet.*
 
 #### Adresses réservées
 
-Parmi les adresses réservées de cette classe, certaines sont assez particulières et se distinguent des autres par leurs rôles :
+Certaines plages IPv6 sont explicitement réservées et ne doivent pas être utilisées comme adresses globales. Elles ont un rôle technique bien défini :
 
-- **Adresse ::/128** : il s’agit d’une adresse non spécifiée qui n’est jamais assignée à un serveur, mais peut être utilisée comme adresse source en acquisition d’adresse IPv6.
-- **Adresse ::1/128** : c’est l’adresse de loopback équivalent à l’adresse 127.0.0.1 du protocole IPv4.
-- **Adresses 64:ff9b::/96** : il s’agit d’adresses réservées pour les traducteurs de protocoles définit dans la RFC6052.
-- **Adresses ::ffff:0:0/96** : il s’agit d’une représentation d’adresses IPv4 dans une structure particulière d’IPv6. Ces adresses sont utilisées par des logiciels, mais elles ne doivent pas être présentes sur le réseau.
-- **Adresses ::ffff:0:0:0/96** : ce sont des adresses IPv4 traduites pour un usage particulier, décrit par la RFC2765.
+- **`::/128`** : adresse non spécifiée, jamais attribuée à un équipement de façon persistante, mais utilisée comme adresse source par une machine en attente de configuration.
+- **`::1/128`** : l’adresse de _loopback_, équivalent direct de `127.0.0.1` en IPv4, qui permet à une machine de s’adresser à elle-même.
+- **`64:ff9b::/96`** : bloc réservé aux traducteurs de protocoles pour l’interconnexion IPv4/IPv6, tel que défini dans la RFC6052.
+- **`::ffff:0:0/96`** : bloc de compatibilité pour représenter une adresse IPv4 dans une structure IPv6 spécifique, souvent utilisé en interne par les applications.
+- **`::ffff:0:0:0/96`** : bloc similaire pour les adresses IPv4 traduites, défini par la RFC2765, principalement pour des usages précis de transition.
+
+Ces blocs garantissent l’interopérabilité et facilitent la migration entre les deux versions du protocole.
 
 #### Adresses globales unicast
 
-Ces adresses représentent 1/8ème de l’espace d’adressage total du protocole IPv6. Parmi ces adresses on distingue la plage d’adresses 2001::/16 qui sont celles ouvertes à la réservation depuis 1999. Ces adresses sont allouées par bloc /23 à /12 (on parle ici aussi de blocs, comme pour ceux de la notation CIDR), par l’IANA à un registre International régional.
+Les adresses globales unicast constituent l’essentiel de l’espace IPv6 routable publiquement. Elles représentent environ 1/8ème de l’espace d’adressage. Depuis 1999, l’IANA attribue ces blocs, tels que le préfixe `2001::/16`, par blocs CIDR (de `/23` à `/12`) aux registres régionaux, qui les redistribuent ensuite aux fournisseurs et aux organisations.
 
-**REMARQUE** : nombre d’expressions utilisées pour IPv4 vont se retrouvées aussi en IPv6, même si le sens n’est pas toujours tout à fait le même.
+Certaines plages ont des usages documentés particuliers :
 
-Ces blocs sont, pour la plupart sont réservés à des usages particuliers, parmi lesquels on peut citer :
+- **`2001:2::/48`** : réservée aux tests de performance et d’interopérabilité, RFC5180.
+- **`2001:db8::/32`** : réservée à la documentation et aux exemples, RFC3849.
+- **`2002::/16`** : utilisée pour le mécanisme 6to4, qui permet de transporter du trafic IPv6 à travers une infrastructure IPv4 (important pour la phase de transition entre les deux protocoles).
 
-- 2001:2::/48 utilisées pour des tests de performance, décrits par la RFC5180.
-- 2001:db8::/32 réservées pour la documentation et décrit par la RFC3849.
+**À noter :** une large part des adresses globales reste encore inexploitée et constitue une réserve pour les extensions futures d'Internet.
 
-Il y a également des adresses 2002::/16 qui permettent d’acheminer les flux IPv6 au travers d’un ou plusieurs réseaux IPv4. On verra un peu plus loin que ces adresses sont essentielles car elles participent à la transition IPv4/IPv6 afin de résoudre le crucial inconvénient de l’incompatibilité entre les adresses IPv4 et celles d’IPv6.
+#### Adresses locales uniques (ULA)
 
-**IMPORTANT** : les autres adresses routables sont actuellement réservées à des usages ultérieurs. Cela représente environ les trois quarts de la plage d’adresses routables.
+Les adresses locales uniques (`fc00::/7`) sont l’équivalent IPv6 des adresses privées IPv4 (RFC1918). Elles permettent de créer des réseaux internes isolés sans risque de conflit avec l’adressage public. Dans la pratique, le préfixe effectif est `fd00::/8`, le 8ème bit étant fixé à 1 pour définir l’usage local. Chaque bloc ULA intègre un identifiant pseudo-aléatoire de 40 bits, ce qui minimise ainsi les collisions d’adresses en cas d’interconnexion de réseaux privés distincts.
 
-#### Adresses locales uniques
+#### Adresses locales de lien (Link-local)
 
-Ces adresses notifiées par fc00::/7, sont généralement utilisées pour des communications locales et ne sont pas routables, sauf sur les sites qui le souhaitent. C’est l’équivalent des adresses privées décrites par la RFC1918, de l’espace d’adressage IPv4, étendues à IPv6.
+Les adresses link-local (`fe80::/64`) servent exclusivement aux communications internes sur un même segment de niveau 2 (même VLAN ou switch). Elles ne sont jamais routées au-delà du lien local. Chaque interface réseau génère automatiquement une adresse link-local, souvent dérivée de son adresse MAC via le schéma EUI-64.
 
-**NOTE** : Le 8ème bit est actuellement fixé à 1, ainsi cela donne le préfixe de plage d’adresses fd00::/8, permettant d’assigner cette plage d’adresses à un usage local. Cette adresse comprend alors un préfixe pseudo-aléatoire de 40bits afin d’éviter les conflits, lors de l’interconnexion à d’autres réseaux privés.
-
-#### Adresses locales de lien
-
-Ce type d’adresses, préfixées par fc00::/7, utilisable uniquement au sein d’un réseau local de niveau 2, sont non routables et appartiennent à la plage fe80::/64. Les adresses ne sont uniques que sur un lien et une machine peut donc disposer de plusieurs interfaces avec la même adresse locale de lien. Il suffit de préciser l’interface pour lever l’ambiguïté.
+Particularité : une même machine peut utiliser la même adresse link-local sur plusieurs interfaces, à condition de préciser l’interface lors des communications pour éviter toute ambiguïté.
 
 #### Adresses multicast
 
-Il faut bien comprendre que, pour le protocole IPv6, il n’existe aucune adresse de broadcast. Cette notion est remplacée par des adresses multicast, propres à l’application associée. Cette plage est préfixée par ff00::/8. Parmi cette plage, il existe l’adresse ff02::1 qui est un peu particulière. Elle est limitée au lien local. Mais, son utilisation par les applications est dépréciée, voire même découragée.
+En IPv6, le concept de broadcast disparaît au profit du multicast, plus efficace pour diffuser des paquets à un groupe de destinataires définis. La plage multicast est préfixée par `ff00::/8`. Parmi ces adresses, on trouve par exemple `ff02::1`, qui cible tous les nœuds du lien local. Bien que pratique, cette adresse est désormais déconseillée pour les applications, car elle peut générer des diffusions non contrôlées.
 
-Exemple : utilisation de l’adresse multicast **ff02::1:ff00:0/104 par NDP**
+Un usage fréquent du multicast concerne le _Neighbor Discovery Protocol_ (NDP), qui remplace ARP en IPv6. NDP s’appuie sur des adresses multicast spécifiques, comme `ff02::1:ff00:0/104`, pour découvrir automatiquement les autres hôtes connectés au même lien.
 
-NDP (Neighbor Discovery Protocol) est un protocole de niveau 3, responsable de la découverte des autres machines sur le même lien réseau.
+En combinant ces types d’adresses, IPv6 offre une palette complète pour répondre aux besoins de routage global, de communications locales, de migration IPv4/IPv6 et d’autoconfiguration des équipements tout en améliorant l’efficacité des transmissions réseau.
 
 ### Périmètre des adresses
 
-La portée d’une adresse IPv6 (on parle alors d’_IPv6 Address Scope_), est représentée à la fois par son domaine de validité et par son unicité. On distingue donc trois grandes familles d’adresses :
+La portée d’une adresse IPv6 (*scope*), définit précisément le domaine dans lequel cette adresse est considérée comme valide et unique. Comprendre cette notion est important pour maîtriser l’acheminement des paquets et l’organisation logique d’un réseau fonctionnant en IPv6. On regroupe généralement les adresses IPv6 en trois grandes catégories selon leur périmètre et leur mode d’utilisation : unicast, anycast et multicast.
 
-- **Les adresses unicast**
+Les **adresses unicast** constituent la catégorie la plus courante et englobent plusieurs sous-types bien distincts. Elles regroupent notamment l’adresse _loopback_ (`::1`), dont la portée est strictement limitée à l’hôte qui l’utilise, et qui permet de tester la pile réseau en interne sans émettre de trafic sur le réseau physique. À cela s’ajoutent les adresses locales de lien (_link-local_) dont la portée est restreinte à un segment de réseau unique : elles servent aux communications directes entre équipements situés sur le même lien physique ou logique (par exemple un switch ou un VLAN unique). Enfin, les adresses locales uniques (_ULA_, pour _Unique Local Addresses_) correspondent à des plages d’adresses internes à un réseau d’entreprise ; elles ont une portée potentiellement plus large car elles peuvent être routées à travers plusieurs segments privés mais ne sont jamais visibles sur Internet.
 
-Ce type d’adresses regroupe les adresses loopback, dont la portée est limitée à l’hôte, les adresses locales de lien et les adresses locales uniques (aussi appelées ULA). Ces dernières, ont une portée globale et possède le découpage suivant :
+Ce découpage conceptuel se matérialise souvent par une structure binaire où la première partie de l’adresse (les 64 premiers bits) identifie le préfixe réseau et la seconde moitié (64 bits également) identifie de façon unique l’interface de l’équipement sur ce réseau. Cette séparation facilite l’autoconfiguration des adresses grâce aux mécanismes comme SLAAC (_Stateless Address Autoconfiguration_), qui permettent aux machines de générer automatiquement une adresse stable basée sur l’adresse MAC ou un identifiant pseudo-aléatoire.
 
 ![Image](assets/fr/041.webp)
 
-Cela signifie que les adresses sont uniques dans le monde, et peuvent être utilisées pour communiquer avec d’autres adresses également globalement uniques, ou avec des adresses locales de lien, pour des liens, bien évidemment, directement  connectés.
-
-**REMARQUE** : le modèle géographique est le même que celui du réseau Internet actuel, dans lequel les fournisseurs n’interviennent guère. C’est dans ce cadre que le protocole IPv6 permet de gérer les deux types d’adresses : adresses unicast locales et adresses de liens locaux. Ces dernières ont le découpage ci-dessous :
+L’architecture IPv6 reprend le modèle hiérarchique du routage global de l’Internet actuel : le découpage des préfixes permet aux registres régionaux et aux opérateurs de gérer la distribution d’adresses de façon décentralisée, tout en assurant l’unicité globale. C’est dans ce cadre qu’un même hôte peut posséder simultanément une adresse unicast globale, pour communiquer sur Internet, et une adresse link-local pour interagir localement, par exemple pour le voisinage immédiat ou les messages de découverte de routeur.
 
 ![Image](assets/fr/042.webp)
 
-Toutes ces adresses, lorsqu’elles passent par la procédure de création automatique, on t généralement 8 octets représentant le réseau et 8 autres octets décrivant l’interface utilisée sur ce réseau.
-
-- **Les adresses anycast**
-
-Ce type d’adresse possède une portée identique à celle des adresses unicast globales ci-dessus. Cette technique est similaire à la diffusion multidestinataire multicast : l’adresse de destination est alors un groupe d’adresses. Mais, au lieu d’essayer de délivrer le datagramme à tous les membres du groupe, IPv6 tente de le livrer à un de ses membres, généralement le plus proche ou le plus à même de recevoir le paquet. Le découpage est le suivant :
+Les **adresses anycast** représentent une notion intermédiaire qui tire parti du modèle unicast tout en offrant un comportement proche du multicast dans certains cas. Une adresse anycast est, en réalité, une adresse unicast affectée à plusieurs interfaces réparties sur différents nœuds du réseau. Lorsqu’un paquet est émis vers une adresse anycast, le protocole IPv6 s’efforce de le livrer à l’un des hôtes partageant cette adresse, en privilégiant généralement celui qui est le plus proche selon la topologie du routage. Ce principe optimise la rapidité de traitement des requêtes et améliore la résilience des services distribués : l’exemple typique est celui des serveurs DNS racine, pour lesquels l’adressage anycast permet de diriger automatiquement les requêtes vers le point de présence le plus proche.
 
 ![Image](assets/fr/043.webp)
 
-- **Les adresses multicast**
+Enfin, les **adresses multicast** remplacent dans IPv6 le mécanisme de broadcast, jugé trop coûteux et inadapté à l’échelle d’un réseau mondial. Une adresse multicast identifie un groupe d’interfaces, généralement dispersées sur plusieurs hôtes, qui souhaitent recevoir simultanément les mêmes paquets. Pour chaque adresse multicast, la portée est spécifiée par un champ particulier : les 4 bits de _scope_ inclus dans la structure de l’adresse. Ces bits définissent la limite géographique ou logique de diffusion :
 
-Pour cette catégorie, ce sont les 4 bits les moins significatifs du second octet (soit `ff0<s>::`) qui identifient la portée de l’adresse où `<s>` varie de la façon suivante :
+- Un scope de `1` signifie que le paquet est destiné uniquement à l’équipement local.
+- Un scope de `2` indique une portée limitée au lien local : tous les équipements sur le même segment physique ou virtuel peuvent recevoir le message.
+- Un scope de `5` étend la portée au site, typiquement à l’ensemble d’un réseau d’entreprise interne.
+- Un scope de `8` étend la portée à une organisation, permettant la diffusion à tous les sous-réseaux d’une même entité.
+- Enfin, un scope de `e` (14 en hexadécimal) désigne une portée globale, qui rend le groupe multicast accessible depuis Internet tout entier, sous réserve que l’infrastructure de routage le permette.
 
-Pour s=1, l’adresse multicast est locale à l’équipement.
-
-Pour s=2, l’adresse est locale au lien.
-
-Pour s=5, l’adresse est locale au site.
-
-Pour s=8, l’adresse est locale à l’organisation.
-
-Pour s=e, l’adresse devient globale.
-
-Les adresses de diffusion multidestinataire possèdent un champ Flag (sur 4bits) et un champ concernant la portée (également sur 4bits) suivi d’un champ d’identification du groupe (sur 112 bits). C’est l’un des bits du champ Flag qui permet de distinguer les groupes permanents des groupes transitoires.
+Chaque adresse multicast IPv6 est structurée en plusieurs champs : un champ _Flag_ (4 bits) précise notamment si le groupe est permanent ou transitoire, un champ _Scope_ (4 bits) définit la portée, et un champ d’identification (112 bits) indique le numéro du groupe multicast.
 
 ![Image](assets/fr/044.webp)
+
+Un exemple emblématique de multicast IPv6 est l’utilisation par le protocole _Neighbor Discovery Protocol_ (NDP). Plutôt que de recourir à ARP comme en IPv4, NDP s’appuie sur des adresses multicast comme `ff02::1:ff00:0/104` pour diffuser ses requêtes de découverte de voisinage, en sollicitant uniquement les hôtes concernés sur le même lien.
+
+Ainsi, le périmètre des adresses IPv6 structure finement la manière dont les flux de données sont émis, reçus et routés. Cette granularité rend le protocole plus souple et plus performant pour gérer les communications locales comme globales, tout en évitant les inconvénients d’un broadcast généralisé.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Assignation des adresses dans un réseau local

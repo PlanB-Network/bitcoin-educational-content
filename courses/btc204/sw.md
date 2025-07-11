@@ -2593,11 +2593,12 @@ Wallet maarufu zinazotumia PayJoin ni pamoja na Sparrow Wallet, Wasabi Wallet, M
 
 ![BTC204](assets/fr/171.webp)
 
-Utekelezaji wa hali ya juu zaidi wa PayJoin ulikuwa Stowaway pekee kwenye Sparrow Wallet. Hata hivyo, tangu kukamatwa kwa waanzilishi wa programu, chombo hiki sasa kinafanya kazi kwa sehemu tu. Faida ya Stowaway ni kwamba ni itifaki ya kina, na rahisi kutumia, ambayo inasaidia kupokea na kutuma viungo vya malipo. Miamala iliyotiwa sahihi kiasi inaweza kubadilishwa wewe mwenyewe kwa kuchanganua misimbo kadhaa ya QR, au kiotomatiki na Tor kupitia Soroban. Chaguo la mwisho la mawasiliano halitumiki kwa sasa.
+Utekelezaji wa hali ya juu zaidi wa PayJoin ulikuwa Stowaway pekee kwenye Sparrow Wallet. Hata hivyo, tangu kukamatwa kwa waanzilishi wa programu, chombo hiki sasa kinafanya kazi kwa sehemu tu. Faida ya Stowaway ni kwamba ni itifaki ya kina na rahisi kutumia, ambayo inasaidia kupokea na kutuma viungo vya malipo. Miamala iliyotiwa sahihi kiasi inaweza kubadilishwa na mtumiaji mwenyewe kwa kuchanganua misimbo kadhaa ya QR, au kiotomatiki kupitia Tor kwa kutumia Soroban. Chaguo la mwisho la mawasiliano halitumiki kwa sasa.
+
 
 ![BTC204](assets/fr/172.webp)
 
-Ugumu wa kutumia kulipa kujiunga unatokana na utegemezi wake juu ya ushiriki wa mfanyabiashara. Kama mteja, huwezi kutumia Kulipa kujiunga ikiwa mfanyabiashara haauni. Hii inaongeza ugumu zaidi kwa mchakato wa ununuzi: sio tu ni vigumu kupata wafanyabiashara wanaokubali Bitcoin, lakini ikiwa pia unatafuta wale wanaounga mkono malipo, inakuwa ngumu zaidi.
+Ugumu wa kutumia PayJoin unatokana na utegemezi wake juu ya ushiriki wa mfanyabiashara. Kama mteja, huwezi kutumia PayJoin ikiwa mfanyabiashara haauni. Hii inaongeza ugumu zaidi kwa mchakato wa ununuzi: sio tu ni vigumu kupata wafanyabiashara wanaokubali Bitcoin, lakini ikiwa pia unatafuta wale wanaounga mkono PayJoin, inakuwa ngumu zaidi.
 
 Suluhisho mojawapo litakuwa kutumia miundo ya muamala inayoleta utata katika uchanganuzi wa msururu bila kuhitaji ushirikiano wa mpokeaji. Hili litatuwezesha kuboresha usiri wa malipo yetu bila kutegemea ushiriki hai wa wafanyabiashara. Hili ndilo hasa tutakalokuwa tukiliangalia katika sura inayofuata.
 
@@ -2607,80 +2608,78 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
-Unapotaka kutekeleza shughuli ya malipo huku ukidumisha usiri wa kiwango fulani, Kulipa kujiunga ni chaguo nzuri. Lakini kama tulivyoona, Kulipa kujiunga kunahitaji ushiriki wa mpokeaji. Kwa hivyo unafanya nini ikiwa mpokeaji anakataa kushiriki katika Kulipa kujiunga, au ikiwa unapendelea tu kutowahusisha? Njia moja mbadala ni kutumia muamala wa Stonewall au Stonewall x2. Hebu tuangalie kwa karibu aina hizi mbili za shughuli.
+Unapotaka kutekeleza muamala wa malipo huku ukidumisha usiri wa kiwango fulani, PayJoin ni chaguo nzuri. Lakini kama tulivyoona, PayJoin unahitaji ushiriki wa mpokeaji. Kwa hivyo, unafanya nini ikiwa mpokeaji anakataa kushiriki katika PayJoin, au ikiwa unapendelea tu kutowahusisha? Njia moja mbadala ni kutumia muamala wa Stonewall au Stonewallx2. Hebu tuangalie kwa karibu aina hizi mbili za miamala.
 
-### Shughuli ya Stonewall
+### Muamala wa Stonewall
 
-Stonewall ni aina mahususi ya shughuli ya Bitcoin iliyoundwa ili kuongeza usiri wa mtumiaji wakati wa kutumia kwa kuiga pseudo-CoinJoin kati ya watu wawili, bila kuwa mmoja. Kwa kweli, muamala huu haushirikiani. Mtumiaji anaweza kuijenga peke yake, akitumia tu UTXO anazomiliki kama pembejeo. Kwa hivyo unaweza kuunda muamala wa Stonewall kwa tukio lolote, bila kuhitaji kusawazisha na mtumiaji mwingine au mpokeaji.
+Stonewall ni aina mahususi ya muamala wa Bitcoin iliyoundwa ili kuongeza usiri wa mtumiaji kwa kuiga pseudo-CoinJoin kati ya watu wawili, bila kuwa wawili kweli. Kwa hakika, muamala huu haushirikishi upande mwingine. Mtumiaji anaweza kuujenga peke yake, akitumia tu UTXO anazomiliki kama pembejeo. Kwa hivyo, unaweza kuunda muamala wa Stonewall kwa tukio lolote, bila kuhitaji kusawazisha na mtumiaji mwingine au mpokeaji.
 
-Muamala wa Stonewall hufanya kazi kama ifuatavyo: kama ingizo la muamala, mtoaji hutumia UTXO 2 ambazo ni zake. Kwa pato, shughuli hiyo inazalisha UTXO 4, 2 ambazo ni kiasi sawa. UTXO zingine 2 zitaunda Ubadilishanaji wa kigeni. Kati ya matokeo 2 ya kiasi sawa, moja tu ndiyo yataenda kwa anayelipwa.
+Muamala wa Stonewall hufanya kazi kama ifuatavyo: kama ingizo la muamala, mtoaji hutumia UTXO 2 ambazo ni zake. Kwa toleo, muamala huo unazalisha **UTXO** 4, 2 kati ya hizo zikiwa na kiasi sawa. UTXO zingine 2 hutengeneza change. Kati ya matokeo mawili ya kiasi sawa, moja tu ndilo litaenda kwa anayelipwa.
 
-Kwa hivyo kuna majukumu 2 tu katika shughuli ya Stonewall:
-
+Kwa hivyo, kuna majukumu 2 tu katika muamala wa **Stonewall**:
 
 - Mtoaji, ambaye hufanya malipo;
 - Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji.
 
-Hebu tuchukue mfano ili kuelewa muundo huu wa shughuli. Alice anamwendea Bob mwokaji ili kununua baguette yake, ambayo inagharimu 4,000 Sats. Anataka kulipa kwa bitcoins, huku akidumisha aina fulani ya usiri kuhusu malipo yake. Kwa hivyo anaamua kujenga shughuli ya Stonewall kwa malipo.
+Hebu tuchukue mfano ili kuelewa muundo huu wa muamala.Alice anamwendea Bob mwokaji ili kununua baguette yake, ambayo inagharimu 4,000 Sats. Anataka kulipa kwa bitcoins, huku akidumisha aina fulani ya usiri kuhusu malipo yake. Kwa hivyo anaamua kujenga muamala wa Stonewall kwa malipo hayo.
 
 ![BTC204](assets/fr/173.webp)
 
-Kwa kuchanganua shughuli hii, tunaweza kuona kwamba Bob mwokaji alipokea 4,000 Sats kama malipo ya baguette. Alice alitumia UTXO 2 kama pembejeo: moja kwa 10,000 Sats na moja kwa 15,000 Sats. Katika matokeo, amepata UTXO 3: moja kwa 4,000 Sats, moja kwa 6,000 Sats na moja kwa 11,000 Sats. Kwa hiyo Alice ana salio la jumla la -4,000 Sats kwenye shughuli hii, ambayo inalingana na bei ya baguette.
+Kwa kuchanganua muamala huu, tunaweza kuona kwamba Bob mwokaji alipokea 4,000 Sats kama malipo ya baguette. Alice alitumia UTXO 2 kama pembejeo: moja ya 10,000 Sats na nyingine ya 15,000 Sats. Katika matokeo, amepata UTXO 3: moja ya 4,000 Sats, moja ya 6,000 Sats na moja ya 11,000 Sats. Kwa hiyo Alice ana salio la jumla la -4,000 Sats kwenye muamala huu, ambayo inalingana na bei ya baguette.
 
-Katika mfano huu, nimepuuza kwa kusudi ada za mining (uchimbaji) ili kurahisisha kueleweka. Kwa kweli, gharama za ununuzi hubebwa kabisa na mtoaji.
+Katika mfano huu, nimepuuza kwa kusudi ada za mining ili kurahisisha kueleweka. Kwa kweli, gharama za ununuzi hubebwa kabisa na mtoaji.
 
 ### Je, malengo ya muamala wa Stonewall ni yapi?
 
-Muundo wa Stonewall huongeza kiasi kikubwa cha entropy kwenye shughuli, ikitia ukungu kwenye mistari ya uchanganuzi wa minyororo. Ikionekana kutoka nje, shughuli kama hiyo inaweza kufasiriwa kama mini-CoinJoin kati ya watu wawili. Lakini kwa kweli, ni malipo. Kwa hiyo njia hii inajenga kutokuwa na uhakika katika uchanganuzi wa minyororo, au hata kusababisha miongozo ya uwongo.
+Muundo wa Stonewall huongeza kiasi kikubwa cha entropy kwenye muamala, ikitia ukungu kwenye mistari ya uchanganuzi wa minyororo. Ikionekana kutoka nje, muamala kama huo unaweza kufasiriwa kama mini-CoinJoin kati ya watu wawili. Lakini kwa kweli, ni malipo. Kwa hiyo njia hii inajenga kutokuwa na uhakika katika uchanganuzi wa minyororo, au hata kusababisha miongozo ya uwongo.
 
-Hebu tuchukue mfano wa Alice kwa Bob mwokaji. Shughuli kwenye Blockchain ingeonekana kama hii:
+Hebu tuchukue mfano wa Alice kwa Bob mwokaji. Muamala kwenye Blockchain ungeonekana kama hii:
 
 ![BTC204](assets/fr/174.webp)
 
-Mtazamaji wa nje anayetegemea Legacy (Urithi) wa uchanganuzi wa mnyororo wa kawaida anaweza kuhitimisha kimakosa kwamba "*watu wawili wametengeneza kuunga sarafu ndogo, na UTXO moja kila moja katika pembejeo na UTXO mbili kila moja katika pato*". Kuchanganua muamala huu kutoka nje hakuleti matumizi ya CIOH, kwani kuwepo kwa matokeo mawili ya kiasi sawa kunapendekeza muundo wa kuunga sarafu. Kwa mtazamo wa nje, CIOH haitumiki katika kesi hii maalum.
+Mtazamaji wa nje anayetegemea Legacy ya uchanganuzi ya mnyororo wa kawaida anaweza kuhitimisha kimakosa kwamba "watu wawili wametengeneza kuunga sarafu ndogo, na UTXO moja kila mmoja katika pembejeo na UTXO mbili kila mmoja katika toleo". Kuchanganua muamala huu kutoka nje hakuleti matumizi ya CIOH, kwani kuwepo kwa matokeo mawili ya kiasi sawa kunapendekeza muundo wa kuunga sarafu. Kwa mtazamo wa nje, CIOH haitumiki katika kesi hii maalum.
 
 ![BTC204](assets/fr/175.webp)
 
-Ufafanuzi huu sio sahihi, kwa sababu, kama unavyojua, UTXO moja ilitumwa kwa Bob mwokaji, pembejeo 2 za UTXO zilitoka kwa Alice, na akapata matokeo 3 ya Ubadilishanaji.
+Ufafanuzi huu si sahihi, kwa sababu, kama unavyojua, UTXO moja ilitumwa kwa Bob mwokaji, pembejeo 2 za UTXO zilitoka kwa Alice, na akapata matokeo 3 ya Ubadilishanaji.
 
 ![BTC204](assets/fr/176.webp)
 
-Na kinachovutia hasa kuhusu muundo wa shughuli ya Stonewall ni kwamba, kwa mtazamo wa mwangalizi wa nje, inafanana na muamala wa Stonewall x2 kwa kila njia.
+Na kinachovutia hasa kuhusu muundo wa muamala wa Stonewall ni kwamba, kwa mtazamo wa mwangalizi wa nje, inafanana na muamala wa Stonewall x2 kwa kila njia.
 
 ### Muamala wa Stonewall x2
 
-Stonewall x2 ni aina nyingine mahususi ya muamala wa Bitcoin ambayo pia inalenga kuongeza usiri wa mtumiaji wakati wa kufanya matumizi, lakini wakati huu kwa kushirikiana na mtu wa tatu asiyehusika katika matumizi hayo. Njia hii inafanya kazi kama kuunga sarafu bandia kati ya washiriki wawili, wakati huo huo ikitoa malipo kwa mtu wa tatu.
+Stonewall x2 ni aina nyingine mahususi ya muamala wa Bitcoin ambayo pia inalenga kuongeza usiri wa mtumiaji wakati wa kufanya matumizi, lakini wakati huu kwa kushirikiana na mtu wa tatu asiyehusika katika matumizi hayo. Njia hii inafanya kazi kama kuunganisha sarafu bandia kati ya washiriki wawili, wakati huo huo ikitoa malipo kwa mtu wa tatu.
 
-Uendeshaji wa shughuli ya Stonewall x2 ni rahisi kiasi: tunatumia UTXO tuliyo nayo kufanya malipo, na kuomba usaidizi wa mtu mwingine ambaye pia anachangia kwa UTXO inayomilikiwa naye. Muamala unaishia na matokeo manne: mawili kati ya hayo kwa kiasi sawa, moja kwa ajili ya mpokeaji Anwani (address), nyingine kwa Anwani (address) inayomilikiwa na mshirika. UTXO ya tatu inarejeshwa kwa Anwani (address) nyingine ya mshirika, na kumwezesha kurejesha kiasi cha awali (hatua ya upande wowote kwake, modulo ya mining (uchimbaji) gharama), na UTXO ya mwisho inarudi kwa Anwani (address) mali yetu, ambayo inajumuisha malipo ya Ubadilishanaji.
+Uendeshaji wa muamala wa Stonewall x2 ni rahisi kiasi: tunatumia UTXO tulizonazo kufanya malipo, na kuomba usaidizi wa mtu mwingine ambaye pia anachangia kwa UTXO inayomilikiwa naye. Muamala unaishia na matokeo manne: mawili kati ya hayo ya kiasi sawa, moja kwa ajili ya mpokeaji Address, nyingine kwa Address inayomilikiwa na mshirika. UTXO ya tatu inarejeshwa kwa Address nyingine ya mshirika, na kumwezesha kurejesha kiasi chake cha awali (hatua ya upande wowote kwake, kwa kuzingatia gharama za mining), na UTXO ya mwisho inarudi kwa Address yetu, ambayo inajumuisha toleo la Ubadilishanaji.
 
-Kwa hivyo majukumu matatu tofauti yanafafanuliwa katika shughuli za Stonewall x2:
+Kwa hivyo, majukumu matatu tofauti yanafafanuliwa katika miamala ya Stonewall x2:
 
-
-- Mtoaji, ambaye hufanya malipo halisi;
-- Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji;
-- Mshirika, ambaye hufanya bitcoins kupatikana ili kutoa shaka juu ya uchambuzi wa shughuli, wakati kurejesha fedha zake kwa ukamilifu mwishoni (hatua ya neutral kwa ajili yake, modulo ya gharama za mining (uchimbaji)).
-
-Hebu turejee kwenye mfano wetu na Alice, ambaye yuko Bob the baker's kununua baguette yake, ambayo inagharimu 4,000 Sats. Anataka kulipa kwa bitcoins, huku akidumisha kiwango fulani cha usiri kuhusu malipo yake. Kwa hivyo anamwita rafiki yake Charles, ambaye atamsaidia katika mchakato huu.
+* Mtoaji, ambaye hufanya malipo halisi;
+* Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji;
+* Mshirika, ambaye hutoa bitcoins ili kuleta shaka juu ya uchambuzi wa muamala, huku akirejeshewa fedha zake kikamilifu mwishoni (hatua ya upande wowote kwake, kwa kuzingatia gharama za mining).
+  
+Hebu turejee kwenye mfano wetu na Alice, ambaye yuko kwa Bob mwokaji kununua baguette yake, ambayo inagharimu 4,000 Sats. Anataka kulipa kwa bitcoins, huku akidumisha kiwango fulani cha usiri kuhusu malipo yake. Kwa hivyo anamwita rafiki yake Charles, ambaye atamsaidia katika mchakato huu.
 
 ![BTC204](assets/fr/177.webp)
 
 Kuchanganua muamala huu, tunaweza kuona kwamba Bob mwokaji alipokea 4,000 Sats kama malipo ya baguette. Alice alitumia 10,000 Sats katika pembejeo na kurejesha 6,000 Sats katika pato, yaani salio halisi la -4,000 Sats, ambalo linalingana na bei ya baguette. Kuhusu Charles, alitoa 15,000 Sats katika pembejeo na akapokea matokeo mawili: moja ya 4,000 Sats na nyingine ya 11,000 Sats, ikitoa salio la 0.
 
-Katika mfano huu, nimeacha ada kimakusudi ili kurahisisha kuelewa. Kwa kweli, ada za mining (uchimbaji) kwa ujumla hushirikiwa kwa usawa kati ya mtoaji wa malipo na mchangiaji.
+Katika mfano huu, nimeacha ada kimakusudi ili kurahisisha uelewa. Kwa kweli, ada za mining kwa kawaida hugawanywa kwa usawa kati ya mtoaji wa malipo na mchangiaji.
 
 ### Je, malengo ya muamala wa Stonewall x2 ni yapi?
 
-Kama muundo wa Stonewall, muundo wa Stonewall x2 huongeza entropy nyingi kwenye shughuli na kuchanganya uchanganuzi wa mnyororo. Ikionekana kutoka nje, shughuli kama hiyo inaweza kufasiriwa kama Kuunga sarafu kidogo kati ya watu wawili. Lakini kwa kweli, ni malipo. Kwa hiyo njia hii inajenga kutokuwa na uhakika katika uchanganuzi wa minyororo, au hata kusababisha miongozo ya uwongo.
+Kama muundo wa Stonewall, muundo wa Stonewall x2 huongeza entropy nyingi kwenye muamala na kuchanganya uchanganuzi wa mnyororo. Ikionekana kutoka nje, muamala wa aina hiyo unaweza kufasiriwa kama kuunganisha sarafu kidogo kati ya watu wawili. Lakini kwa kweli, ni malipo. Kwa hiyo, njia hii huanzisha hali ya kutokuwa na uhakika katika uchanganuzi wa minyororo, au hata kusababisha miongozo ya uwongo.
 
-Hebu tuchukue mfano wa Alice, Bob the Baker na Charles. Shughuli kwenye Blockchain ingeonekana kama hii:
+Hebu tuchukue mfano wa Alice, Bob mwokaji, na Charles. Muamala kwenye Blockchain ungeonekana kama ifuatavyo:
 
 ![BTC204](assets/fr/178.webp)
 
-Mtazamaji wa nje anayetegemea Legacy (Urithi) wa uchanganuzi wa kawaida anaweza kuhitimisha kimakosa kwamba "*Alice na Charles wamefanya kuunga sarafu ndogo, na UTXO moja kila moja katika ingizo na UTXO mbili kila moja katika matokeo*". Tena, kuchambua shughuli hii kutoka nje haiongoi matumizi ya ICOH, kwani kuwepo kwa matokeo mawili ya kiasi sawa kunaonyesha muundo wa kuunga sarafu. Kwa mtazamo wa nje, CIOH haitumiki katika kesi hii maalum.
+Mtazamaji wa nje anayetumia heuristic ya kawaida ya uchanganuzi wa mnyororo anaweza kuhitimisha kimakosa kwamba "Alice na Charles wamefanya mini-CoinJoin, na UTXO moja kila mmoja katika pembejeo na UTXO mbili kila mmoja katika matokeo." Tena, kuchambua muamala huu kutoka nje hakuonyeshi matumizi ya CIOH, kwani kuwepo kwa matokeo mawili ya kiasi sawa kunaashiria muundo wa CoinJoin. Kwa mtazamo wa nje, CIOH haitumiki katika kesi hii maalum.
 
 ![BTC204](assets/fr/179.webp)
 
-Ufafanuzi huu sio sahihi, kwa sababu, kama unavyojua, UTXO moja imetumwa kwa Bob mwokaji, Alice ana pato moja tu la Ubadilishanaji, na Charles ana mbili.
+Ufafanuzi huu si sahihi, kwa sababu, kama unavyojua, UTXO moja imetumwa kwa Bob mwokaji, Alice ana pato moja tu la exchange, na Charles ana matokeo mawili.
 
 ![BTC204](assets/fr/180.webp)
 
@@ -2696,9 +2695,9 @@ Kwa mtazamo wa nje, muundo wa shughuli ni sawa kabisa.
 
 ![BTC204](assets/fr/182.webp)
 
-Ukweli kwamba miundo hii miwili ya miamala inashiriki muundo sawa inamaanisha kuwa hata kama mwangalizi wa nje ataweza kutambua muundo wa "Stonewall(x2)", hatakuwa na maelezo yote. Hataweza kubainisha ni ipi kati ya UTXO mbili za kiasi sawa inalingana na malipo. Zaidi ya hayo, hataweza kubainisha ikiwa UTXO mbili zilizo na pembejeo zinatoka kwa watu wawili tofauti (Stonewall x2) au kama ni za mtu mmoja ambaye ameziunganisha (Stonewall).
+Ukweli kwamba miundo hii miwili ya miamala inashiriki muundo sawa unamaanisha kuwa, hata kama mwangalizi wa nje ataweza kutambua muundo wa "Stonewall x2", hatakuwa na maelezo yote. Hataweza kubainisha ni ipi kati ya UTXO mbili za kiasi sawa inalingana na malipo. Zaidi ya hayo, hataweza kubaini kama UTXO mbili za pembejeo zinatoka kwa watu wawili tofauti (Stonewall x2) au kama ni za mtu mmoja aliyezichanganya (Stonewall).
 
-Hoja hii ya mwisho inatokana na ukweli kwamba miamala ya Stonewall x2 inafuata muundo sawa kabisa na shughuli za Stonewall. Inaonekana kutoka nje, na bila maelezo ya ziada ya muktadha, haiwezekani kutofautisha muamala wa Stonewall kutoka kwa muamala wa Stonewall x2. Ya awali si shughuli shirikishi, ambapo ya mwisho ni. Hii inaongeza shaka zaidi kwa uchanganuzi wa moja ya miamala hii.
+Hoja hii ya mwisho inatokana na ukweli kwamba miamala ya Stonewall x2 inafuata muundo sawa kabisa na miamala ya Stonewall. Inaonekana kutoka nje, na bila maelezo ya ziada ya muktadha, haiwezekani kutofautisha muamala wa Stonewall na muamala wa Stonewall x2. Ya kwanza si muamala shirikishi, ilhali ya pili ni. Hii inaongeza kiwango cha mashaka katika uchanganuzi wa mojawapo ya miamala hii.
 
 ### Je, miamala ya Stonewall na Stonewall x2 inapaswa kutumika lini?
 
@@ -2709,15 +2708,15 @@ Mantiki inapaswa kuwa kama ifuatavyo unapotaka kutumia zana ya usiri kwa gharama
 - Ikiwa mfanyabiashara hataauni viungio vya malipo, muamala shirikishi unaweza kufanywa na mtu mwingine nje ya malipo kwa kutumia muundo wa Stonewall x2;
 - Ikiwa huwezi kupata mtu yeyote wa kufanya muamala wa Stonewall x2, unaweza kufanya muamala wa Stonewall pekee, ambao utaiga tabia ya muamala wa Stonewall x2.
 
-### Je, ninatumia vipi shughuli za Stonewall na Stonewall x2?
+### Je, ninatumia vipi miamala ya Stonewall na Stonewall x2?
 
-Miamala ya Stonewall na Stonewall x2 inapatikana kwenye programu ya Pochi la Samourai na programu ya Pochi la Sparrow.
+Miamala ya Stonewall na Stonewall x2 inapatikana kwenye programu ya Samourai Wallet na programu ya Sparrow Wallet.
 
 ![BTC204](assets/fr/183.webp)
 
-Hata hivyo, kama ilivyo kwa viungo vya malipo, kufuatia kukamatwa kwa waanzilishi wa Samourai, miamala ya Stonewall x2 sasa inafanya kazi tu kwa kubadilishana PSBTs kati ya pande zinazohusika. Kwa bahati mbaya, Ubadilishanaji otomatiki kupitia Soroban haupatikani tena.
+Hata hivyo, kama ilivyo kwa viungo vya malipo, kufuatia kukamatwa kwa waanzilishi wa Samourai, miamala ya Stonewall x2 sasa inafanya kazi tu kupitia kubadilishana PSBT kati ya pande zinazohusika. Kwa bahati mbaya, ubadilishanaji wa kiotomatiki kupitia Soroban haupatikani tena.
 
-Inawezekana pia kutekeleza aina hii ya shughuli kwa mikono kutoka kwa programu yoyote ya Pochi la Bitcoin.
+Inawezekana pia kutekeleza aina hii ya muamala kwa mikono kutoka kwa programu yoyote ya Bitcoin Wallet.
 
 Katika sura inayofuata, tutaangalia mbinu nyingine ya usiri ambayo haijulikani kwa kiasi, lakini ambayo ni muhimu sana kama inayosaidia yale ambayo tayari tumejifunza.
 
@@ -2727,57 +2726,57 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
-Utumiaji wa miundo ya miamala ya Bitcoin ambayo huongeza utata katika uchanganuzi wa mfululizo, kama vile kuunga sarafu, ni ya manufaa hasa kwa ulinzi wa faragha. Hata hivyo, kama tulivyojadili katika sura ya viungio vya malipo, miamala ya kuunga sarafu inaweza kutambulika kwa kawaida kwenye mnyororo. Kumbuka mlinganisho tuliochora kati ya usimbaji fiche na kuunga sarafu: faili inaposimbwa kwa njia fiche, mtu wa tatu ambaye anagundua faili iliyosimbwa hawezi kufikia yaliyomo, lakini anaweza kutambua kwa uwazi kuwa faili imerekebishwa ili kuficha yaliyomo. Vile vile hutumika kwa kuunga sarafu: wakati mchambuzi anachunguza shughuli ya kuunga sarafu, ingawa hawezi kuanzisha viungo vya moja kwa moja kati ya pembejeo na matokeo (na kinyume chake), hata hivyo anaweza kutambua kwamba shughuli iliyozingatiwa ni Kuunga sarafu.
+Utumiaji wa miundo ya miamala ya Bitcoin ambayo huongeza utata katika uchanganuzi wa mfululizo, kama vile kuunga sarafu, ni ya manufaa hasa kwa ulinzi wa faragha. Hata hivyo, kama tulivyojadili katika sura ya viungio vya malipo, miamala ya kuunga sarafu inaweza kutambulika kwa kawaida kwenye mnyororo. Kumbuka mlinganisho tuliochora kati ya usimbaji fiche na kuunga sarafu: faili inaposimbwa kwa njia fiche, mtu wa tatu ambaye anagundua faili iliyosimbwa hawezi kufikia yaliyomo, lakini anaweza kutambua kwa uwazi kuwa faili imerekebishwa ili kuficha yaliyomo. Vile vile hutumika kwa kuunga sarafu: wakati mchambuzi anachunguza muamala ya kuunga sarafu, ingawa hawezi kuanzisha viungo vya moja kwa moja kati ya pembejeo na matokeo (na kinyume chake), hata hivyo anaweza kutambua kwamba shughuli iliyozingatiwa ni Kuunga sarafu.
 
-Kulingana na jinsi unavyokusudia kutumia sehemu yako baada ya mizunguko ya kuunga sarafu, ukweli kwamba umepitia mchakato huu unaweza kuwa shida. Kwa mfano, ikiwa unapanga kuuza sarafu yako kwenye jukwaa lililodhibitiwa la ubadilishanaji, lakini hivi karibuni limepitia kuunga sarafu, zana ya uchambuzi wa msururu wa jukwaa litagundua ukweli huu. Huenda jukwaa likakataa kukubali UTXO yako iliyounganishwa, au hata kudai maelezo kutoka kwako, kukiwa na hatari ya akaunti yako kusimamishwa au pesa zako kufungiwa. Katika baadhi ya matukio, mfumo unaweza pia kuripoti tabia yako kwa mamlaka za serikali (hii ni, kwa mfano, kile ambacho TRACFIN inahitaji kwa PSAN nchini Ufaransa).
+Kulingana na jinsi unavyokusudia kutumia sehemu yako baada ya mizunguko ya kuunganisha sarafu, ukweli kwamba umepitia mchakato huu unaweza kuwa tatizo. Kwa mfano, ikiwa unapanga kuuza sarafu zako kwenye jukwaa lililodhibitiwa la ubadilishanaji, lakini zimepitia hivi karibuni mchakato wa kuunganisha sarafu, zana za uchambuzi wa mnyororo zinazotumiwa na jukwaa hilo zinaweza kugundua jambo hilo. Huenda jukwaa likakataa kukubali UTXO yako iliyounganishwa, au hata likadai utoe maelezo ya ziada, huku ukikabiliwa na hatari ya akaunti yako kusimamishwa au fedha zako kufungiwa. Katika baadhi ya hali, mfumo unaweza pia kuripoti tabia yako kwa mamlaka za serikali (hii ndiyo, kwa mfano, inayotakiwa na TRACFIN kwa PSAN nchini Ufaransa).
 
 ![BTC204](assets/fr/184.webp)
 
-Tunachohitaji kuepuka hili ni zana inayoweza kutia ukungu athari za zamani za sarafu ya Bitcoin, ili kurejesha aina fulani ya uwezekano wa kugundulika. Hii ndio hasa madhumuni ya ricochet.
+Tunachohitaji ili kuepuka hili ni zana inayoweza kuficha athari za awali za sarafu ya Bitcoin, ili kurejesha kiwango fulani cha kutotambulika. Haya ndiyo hasa madhumuni ya ricochet.
 
 ![BTC204](assets/fr/185.webp)
 
 ### Ricochet ni nini?
 
-Ricochet ni mbinu inayojumuisha kufanya miamala kadhaa ya uwongo kuelekea wewe mwenyewe (kufagia) kuiga uhamishaji wa Umiliki wa Bitcoin. Zana hii inatofautiana na miundo mingine ya muamala ambayo tumeijadili, kwa kuwa haipati jina tarajiwa, bali ni aina ya kutokujulikana rejea. Kwa kweli, Ricochet hutia ukungu ubainifu unaoweza kuhatarisha uwezaji wa sarafu ya Bitcoin kutokana na siku zake za nyuma.
+Ricochet ni mbinu inayojumuisha kufanya miamala kadhaa ya uwongo kuelekea kwa mwenyewe (sweep transaction), kwa kuiga uhamishaji wa Umiliki wa Bitcoin. Zana hii inatofautiana na miundo mingine ya muamala ambayo tumeijadili, kwa kuwa haifanyi kazi kama jina bandika, bali ni aina ya kutokujulikana rejea. Kwa kweli, Ricochet huficha ubainifu unaoweza kuhatarisha matumizi ya sarafu ya Bitcoin kutokana na historia yake ya awali.
 
-Ili kulainisha alama iliyoachwa na tukio la zamani kwenye sarafu, kama vile mizunguko ya kuunga sarafu, ricochet hutekeleza miamala minne mfululizo ambapo mtumiaji huhamisha pesa kwake kwa Anwani (address) tofauti.
+Ili kupunguza athari iliyoachwa na tukio la zamani kwenye sarafu, kama vile mizunguko ya CoinJoin, Ricochet hutekeleza miamala minne mfululizo ambapo mtumiaji huhamisha fedha kwake mwenyewe kupitia Address tofauti.
 
 ![BTC204](assets/fr/186.webp)
 
-Baada ya mlolongo huu wa shughuli, zana ya ricochet hatimaye inaelekeza bitcoins hadi mahali pa mwisho, kama vile jukwaa la Ubadilishanaji.
+Baada ya mlolongo huu wa miamala, zana ya Ricochet hatimaye hupeleka bitcoins kwenye sehemu ya mwisho, kama vile jukwaa la exchange.
 
 ![BTC204](assets/fr/187.webp)
 
-Lengo ni kuunda umbali unaoathiri uwezekano wa sarafu, kama vile muamala wa kujiunga sarafu, na kitendo cha mwisho cha matumizi, ambacho kinaweza kukataa sarafu hii kwa sababu ya zamani. Kwa hivyo, zana za uchanganuzi wa mnyororo zinaweza kuhitimisha kuwa pengine kulikuwa na mabadiliko ya Umiliki baada ya tukio, na kuzingatia sarafu hii kuwa ya kuvu. Katika kesi ya kuunga sarafu, zana za uchambuzi wa Blockchain zinaweza kisha kudhani kuwa sio mtu yule yule aliyetuma bitcoins na kutekeleza kuunga sarafu, na kwa hiyo hakuna maana katika kuchukua hatua dhidi ya mtumaji.
+Lengo ni kuunda umbali unaotenganisha sarafu na matukio yaliyopita, kama vile CoinJoin, na tukio la mwisho la matumizi, ambalo lingeweza kukataa sarafu hiyo kutokana na historia yake. Kwa hivyo, zana za chain analysis zinaweza kuhitimisha kuwa kuna uwezekano kulikuwa na mabadiliko ya Umiliki baada ya tukio hilo, na hivyo kuchukulia sarafu hii kuwa safi. Katika hali ya CoinJoin, zana za uchanganuzi wa Blockchain zinaweza kudhani kuwa si mtu yule yule aliyetuma bitcoins na kutekeleza CoinJoin, na kwa hivyo, hakuna msingi wa kuchukua hatua dhidi ya mtumaji.
 
 ![BTC204](assets/fr/188.webp)
 
 ### Kwa nini inafanya kazi?
 
-Inakabiliwa na njia hii ya ricochet, mtu anaweza kufikiria kuwa programu ya Chainalysis (uchambuzi wa mnyororo) ingeongeza uchunguzi wake zaidi ya midundo minne. Walakini, mifumo hii inakabiliwa na shida katika kuboresha kiwango cha ugunduzi. Wanapaswa kuweka kikomo kwa idadi ya humle ambapo baada ya hapo wanakubali kwamba mabadiliko ya mali pengine yamefanyika, na kwamba kiungo kilicho na tukio la awali (kama vile kuunga sarafu) kinapaswa kupuuzwa.
+Inapokabiliwa na njia hii ya ricochet, mtu anaweza kufikiria kuwa programu ya chain analysis (uchambuzi wa mnyororo) ingeongeza ufuatiliaji wake zaidi ya miruko minne. Hata hivyo, mifumo hii inakabiliwa na changamoto katika kuboresha kiwango cha ugunduzi. Wanapaswa kuweka kikomo cha miruko ambapo, baada ya hapo, wanakubali kwamba mabadiliko ya Umiliki huenda yalifanyika, na kwamba kiungo kilicho na tukio la awali (kama vile CoinJoin) kinapaswa kupuuzwa.
 
 ![BTC204](assets/fr/189.webp)
 
-Hata hivyo, kuweka kizingiti hiki ni hatari: kila kiendelezi katika idadi ya miruko inayozingatiwa huongeza kwa kasi kiwango cha chanya zisizo za kweli, yaani, watu binafsi waliotiwa alama kimakosa kuwa washiriki katika tukio, wakati operesheni ilifanywa na mtu mwingine. Hali hii inaleta hatari kubwa kwa kampuni hizi, kwani chanya za uwongo husababisha kutoridhika, ambayo inaweza kuwapeleka wateja walioathirika kwenye shindano. Kwa muda mrefu, kiwango cha juu cha ugunduzi hupelekea jukwaa kupoteza wateja zaidi kuliko washindani wake, jambo ambalo linaweza kutishia uwezo wake wa kutegemewa. Kwa hiyo ni ngumu kwa majukwaa haya kuongeza idadi ya bounces iliyozingatiwa, na mara nyingi 4 ni idadi ya kutosha kukabiliana na uchambuzi wao.
+Hata hivyo, kuweka kizingiti hiki ni hatari: kila nyongeza katika idadi ya miruko inayozingatiwa huongeza kwa kasi uwezekano wa chanya za uwongo—yaani, watu waliotiwa alama kimakosa kuwa washiriki katika tukio, ilhali muamala ulifanywa na mtu mwingine. Hali hii huleta hatari kwa kampuni hizi, kwani chanya za uwongo husababisha kutoridhika, na kupelekea wateja kuhama kwenda kwa washindani. Kwa muda mrefu, kiwango cha juu cha ugunduzi huweza kusababisha jukwaa kupoteza wateja zaidi kuliko washindani wake, jambo linaloweza kuhatarisha uaminifu wake. Kwa hiyo, ni vigumu kwa majukwaa haya kuongeza idadi ya miruko inayozingatiwa—na mara nyingi, 4 huwa idadi ya juu ya kufuatilia katika uchambuzi wao.
 
-Jambo linalozingatiwa hapa linalingana kwa kiasi fulani na nadharia ya digrii sita za utengano.
+Jambo linalozingatiwa hapa linafanana kwa kiasi fulani na nadharia ya digrii sita za utengano.
 
-Nadharia ya digrii sita za utengano inapendekeza kwamba kila mtu Duniani ameunganishwa na mwingine yeyote kwa mlolongo wa uhusiano unaojumuisha wapatanishi sita zaidi. Kwa hiyo ingetosha kupita msururu wa watu sita, kila mmoja akijua anayefuata, ili kumfikia mtu yeyote duniani.
+Nadharia ya digrii sita za utengano inapendekeza kwamba kila mtu Duniani ameunganishwa na mwingine yeyote kupitia mlolongo wa watu wasiozidi sita, ambapo kila mmoja anamfahamu anayefuata. Kwa hivyo, inatosha kupita kwa wapatanishi sita ili kumfikia mtu yeyote duniani.
 
-Kwa upande wa shughuli za Bitcoin, tunapata jambo kama hilo. Kwa kufuatilia idadi ya kutosha ya miamala ya Bitcoin, bila shaka tutakutana na Kuunga sarafu. Mbinu ya ricochet inachukua faida ya kanuni hii kwa kutumia idadi kubwa ya humle kuliko mifumo ya Ubadilishanaji inavyoweza kufuatilia. Ikiwa mifumo itaamua kufuatilia miamala zaidi, basi inawezekana kuongeza hop ya ziada ili kukwepa hatua hii.
+Kwa upande wa miamala ya Bitcoin, jambo sawa linajitokeza. Kwa kufuatilia idadi ya kutosha ya miamala ya Bitcoin, bila shaka tutakutana na CoinJoin. Mbinu ya ricochet inachukua fursa ya kanuni hii kwa kutumia idadi kubwa ya miruko kuliko mifumo ya exchange inavyoweza kufuatilia. Ikiwa mifumo itaamua kuongeza kiwango cha ufuatiliaji, basi inawezekana kuongeza bounce ya ziada ili kukwepa hatua hiyo.
 
 ### Wakati na jinsi ya kutumia ricochet?
 
-Kesi ya kawaida ya matumizi ya ricochet hutokea wakati ni muhimu kuficha ushiriki wa awali katika Kuunga sarafu kwenye UTXO unayomiliki. Kwa hakika, ni bora kuepuka kuhamisha bitcoins ambazo zimepitia kuunga sarafu kwa vyombo vinavyodhibitiwa. Walakini, ikiwa utajikuta huna chaguo lingine, haswa katika hitaji la haraka la kufilisi bitcoins kwa sarafu ya serikali, Ricochet hutoa suluhisho bora.
+Kesi ya kawaida ya matumizi ya ricochet hutokea pale ambapo ni muhimu kuficha ushiriki wa awali katika CoinJoin kwenye UTXO unayomiliki. Kwa kweli, ni bora kuepuka kupeleka bitcoins zilizopitia CoinJoin kwa taasisi au majukwaa yanayodhibitiwa. Hata hivyo, ikiwa huna chaguo jingine—hasa katika hali ya dharura ya kubadilisha bitcoins kwa sarafu ya serikali—ricochet linakuwa suluhisho bora.
 
-Njia hii ni nzuri sio tu kwa kuunga sarafu, lakini pia kwa alama nyingine yoyote ambayo inaweza kuhatarisha uwezekano wa sehemu.
+Njia hii ni muhimu si tu kwa CoinJoin, bali pia kwa alama nyingine yoyote ya kihistoria inayoweza kuhatarisha uwezekano wa sehemu yako ya bitcoin kutambulika.
 
-Wazo la mbinu hii ya ricochet awali lilitoka kwa timu za Pochi la Samourai, ambazo ziliiunganisha katika maombi yao ya kufanyia mchakato kiotomatiki. Huduma sio bure kwenye Samourai, kwani ricochet inahusisha ada ya huduma ya 100,000 Sats, pamoja na gharama za mining (uchimbaji). Kwa hiyo matumizi yake yanapendekezwa kwa uhamisho wa kiasi kikubwa.
+Wazo la mbinu hii ya ricochet lilianzia kwa timu ya Samourai Wallet, waliyoijumuisha kwenye programu yao ili itekelezwe kiotomatiki. Huduma hii si bure kwenye Samourai, kwani ricochet inahusisha ada ya huduma ya 100,000 Sats, pamoja na gharama za mining (uchimbaji). Kwa hiyo, matumizi yake yanapendekezwa zaidi kwa miamala ya kiasi kikubwa.
 
 ![BTC204](assets/fr/190.webp)
 
-Programu ya Samurai inatoa anuwai mbili za ricochet:
+Programu ya Samourai Wallet inatoa matoleo mawili ya ricochet:
 
 
 - Ricochet iliyoimarishwa, au "uwasilishaji kwa kasi", ambayo inatoa faida ya kueneza malipo ya huduma ya Samurai katika shughuli tano zinazofuatana. Chaguo hili pia huhakikisha kwamba kila shughuli inatangazwa kwa wakati tofauti na kurekodiwa katika kizuizi tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mmiliki kubadilika. Ingawa ni polepole, njia hii ni bora kwa wale ambao hawana haraka, kwani huongeza ufanisi wa ricochet kwa kuimarisha upinzani wake kwa Chainalysis (uchambuzi wa mnyororo);

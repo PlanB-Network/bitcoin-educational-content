@@ -1,7 +1,7 @@
 ---
-name: Mikia
+name: Tails
 
-description: Sakinisha Mikia kwenye ufunguo wa USB
+description: Sakinisha Tails kwenye ufunguo wa USB
 ---
 
 ![image](assets/cover.webp)
@@ -10,25 +10,25 @@ description: Sakinisha Mikia kwenye ufunguo wa USB
 Mfumo wa uendeshaji unaobebeka na wa amnesiki unaokulinda dhidi ya ufuatiliaji na udhibiti.
 
 
-## Kwa nini ufunguo wa USB ulio na Mikia umewekwa?
+## Kwa nini ufunguo wa USB ulio na Tails umewekwa?
 
 
-Mikia ( https://tails.boum.org/ ) ndiyo njia rahisi zaidi ya kuwa na kompyuta salama unayoweza kutumia wakati wote, ambayo haitaacha alama yoyote kwenye kompyuta unayoitumia nayo.
+Tails ( https://tails.boum.org/ ) ndiyo njia rahisi zaidi ya kuwa na kompyuta salama unayoweza kutumia wakati wote, ambayo haitaacha alama yoyote kwenye kompyuta unayoitumia nayo.
 
 
-Ili kutumia Mikia, zima kompyuta ambayo unaweza kufikia (kwa wazazi wako, kwa marafiki zako, kwenye mkahawa wa Intaneti...) na uanze kwa kutumia ufunguo wako wa USB wa Tails badala ya Windows, macOS, au Linux.
+Ili kutumia Tails, zima kompyuta ambayo unaweza kufikia (kwa wazazi wako, kwa marafiki zako, kwenye mkahawa wa Intaneti...) na uanze kwa kutumia ufunguo wako wa USB wa Tails badala ya Windows, macOS, au Linux.
 
 
-Baada ya hapo, utakuwa na eneo la kazi na mazingira ya mawasiliano ambayo ni huru ya mfumo wa uendeshaji wa kawaida na kamwe haitumii gari la Hard.
+Baada ya hapo, utakuwa na eneo la kazi na mazingira ya mawasiliano ambayo ni huru ya mfumo wa uendeshaji wa kawaida na kamwe haitumii hard drive.
 
 
-Mikia haiandiki kwa kiendeshi cha Hard na hutumia tu RAM ya kompyuta kufanya kazi. Kumbukumbu hii inafutwa kabisa wakati Mikia imefungwa, na hivyo kuondoa athari zote zinazowezekana.
+Tails haiandiki kwa hard drive na hutumia tu RAM ya kompyuta kufanya kazi. Kumbukumbu hii inafutwa kabisa wakati Tails imefungwa, na hivyo kuondoa athari zote zinazowezekana.
 
 
 ## Baadhi ya kesi za matumizi halisi
 
 
-Ili kukupa mawazo madhubuti ya manufaa ya kuwa na ufunguo wa USB na Mikia kila wakati, hapa kuna orodha ndogo isiyo kamili iliyokusanywa na timu ya Agora256:
+Ili kukupa mawazo madhubuti ya manufaa ya kuwa na ufunguo wa USB na Tails kila wakati, hapa kuna orodha ndogo isiyo kamili iliyokusanywa na timu ya Agora256:
 
 
 
@@ -39,10 +39,10 @@ Ili kukupa mawazo madhubuti ya manufaa ya kuwa na ufunguo wa USB na Mikia kila w
 - Chukua hatua zako za kwanza katika mazingira ya Linux ili ujifunze jinsi ya kuondoka kwenye ulimwengu wa Microsoft na Apple.
 
 
-## Jinsi ya kuamini Mikia?
+## Jinsi ya kuamini Tails?
 
 
-Daima kuna kipengele cha uaminifu katika kutumia programu, lakini si lazima kuwa kipofu. Chombo kama Mikia lazima kijitahidi kuwapa watumiaji wake mbinu za kuaminika. Kwa Mikia, hii inamaanisha:
+Daima kuna kipengele cha uaminifu katika kutumia programu, lakini si lazima kuwa kipofu. Chombo kama Tails lazima kijitahidi kuwapa watumiaji wake mbinu za kuaminika. Kwa Tails, hii inamaanisha:
 
 
 
@@ -60,14 +60,14 @@ Madhumuni ya mwongozo huu wa usakinishaji ni kukuongoza kupitia kila hatua ya us
 
 Kwa sababu za uzoefu wa vitendo, vidokezo hivi vitaelekezwa kwenye majukwaa ya macOS na Linux.
 
+
 🛠️
+
 
 Kabla ya kuanza utaratibu huu, tafadhali hakikisha kuwa una ufunguo wa USB wenye kasi ya chini zaidi ya kusoma ya 150 MB/s na uwezo wa angalau GB 8, kwa hakika USB 3.0.
 
 
 Masharti:
-
-
 
 - Kitufe 1 cha USB, kwa Mikia pekee, yenye uwezo wa angalau GB 8
 - Kompyuta iliyounganishwa kwenye Mtandao na Linux, macOS, (au Windows)

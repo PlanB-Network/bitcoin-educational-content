@@ -1760,11 +1760,11 @@ Der nächste Schritt im Kurs: Wir gehen in die Praxis und helfen dir, dein Bitco
 
 Nachdem du nun die theoretischen Grundlagen von Bitcoin kennengelernt hast, ist es an der Zeit, dich mit der praktischen Seite zu beschäftigen. In diesem Abschnitt erfährst du, wie du deine ersten Bitcoins erwirbst, wie du diese sicher aufbewahrst und wie du dein Vorgehen auf deine persönliche Situation abstimmen kannst. Das Ziel ist es, dir dabei zu helfen, herauszufinden, welcher Nutzertyp du bist. So kannst du eine Strategie wählen, die deinen Bedürfnissen und Einschränkungen entspricht.
 
-xxxx 
-Bitcoin ist nicht wie herkömmliche Vermögenswerte. Es erfordert einen durchdachten Ansatz und ein solides Verständnis sowohl der technischen als auch der wirtschaftlichen Implikationen seiner Verwendung. Im Gegensatz zu Fiat-Währungen funktioniert Bitcoin nach dem Modell der individuellen Souveränität, d.h. du bist für die Verwaltung und Sicherheit deiner Gelder voll verantwortlich. Wie wir bereits in früheren Abschnitten erörtert haben, ist diese finanzielle Autonomie ein grosser Vorteil, aber sie geht auch mit bestimmten bewährten Praktiken einher, die wir in den nächsten Kapiteln untersuchen werden.
+ 
+Bitcoin ist nicht wie herkömmliche Vermögenswerte. Es erfordert einen durchdachten Ansatz und ein solides Verständnis sowohl der technischen als auch der wirtschaftlichen Implikationen seiner Verwendung. Im Gegensatz zu Fiat-Währungen funktioniert Bitcoin nach dem Modell der individuellen Souveränität, d.h. du bist für die Verwaltung und Sicherheit deiner Gelder voll verantwortlich. Wie wir bereits in früheren Abschnitten erörtert haben, ist diese finanzielle Autonomie ein grosser Vorteil. Aber sie geht auch mit bestimmten bewährten Praktiken einher, die wir in den nächsten Kapiteln untersuchen werden.
 
 
-Dieser Kurs geht davon aus, dass du gerade erst mit Bitcoin anfängst. Daher werden wir uns auf einfache, anfängerfreundliche Lösungen konzentrieren, die leicht einzurichten sind. Wir werden keine indirekten Expositionsmethoden wie Mining, den Kauf von Aktien von Bitcoin-bezogenen Unternehmen oder komplexe Finanzstrategien behandeln. Unser Ziel ist es, dir dabei zu helfen, einen Wallet auszuwählen, der zu deiner Situation passt, und deine ersten Bitcoins sicher zu erwerben.
+Dieser Kurs geht davon aus, dass du gerade erst mit Bitcoin anfängst. Daher werden wir uns auf einfache, anfängerfreundliche Lösungen konzentrieren, die leicht einzurichten sind. Wir werden keine indirekten Expositionsmethoden wie Mining, den Kauf von Aktien von Bitcoin-bezogenen Unternehmen oder komplexe Finanzstrategien behandeln. Wir möchten dir dabei helfen, ein Wallet auszuwählen, das zu deiner Situation passt, und deine ersten Bitcoins sicher zu erwerben.
 
 
 ![BTC102-Bitcoin](assets/fr/063.webp)
@@ -1773,7 +1773,7 @@ Dieser Kurs geht davon aus, dass du gerade erst mit Bitcoin anfängst. Daher wer
 ### Warum solltest du dein Benutzerprofil definieren?
 
 
-Es gibt keine Einheitslösung für den Kauf und die Verwaltung von BTC. Jeder Nutzer hat einen einzigartigen Kontext, der von seiner finanziellen Situation, seinem technischen Wissen und seinen Erwartungen an Bitcoin geprägt ist. Aus diesem Grund ist es wichtig, eine Strategie zu wählen, die zu Ihrem persönlichen Profil passt. Wenn du deine eigene Herangehensweise kennst, kannst du bessere Entscheidungen treffen und häufige Fehler vermeiden, die aus einer Fehleinschätzung deiner Bedürfnisse resultieren.
+Es gibt keine Einheitslösung für den Kauf und die Verwaltung von BTC. Jeder Nutzer hat einen einzigartigen Kontext, der von seiner finanziellen Situation, seinem technischen Wissen und seinen Erwartungen an Bitcoin geprägt ist. Aus diesem Grund ist es wichtig, eine Strategie zu wählen, die zu deinem persönlichen Profil passt. Wenn du deine eigene Herangehensweise kennst, kannst du bessere Entscheidungen treffen und häufige Fehler vermeiden, die aus einer Fehleinschätzung deiner Bedürfnisse resultieren.
 
 
 Hier sind einige der Faktoren, die du berücksichtigen solltest, wenn du herausfinden willst, wie du deine Bitcoins am besten kaufst und aufbewahren kannst:
@@ -1781,12 +1781,12 @@ Hier sind einige der Faktoren, die du berücksichtigen solltest, wenn du herausf
 
 
 - Der Betrag, den du investieren möchtest: Willst du einen kleinen Betrag kaufen, um zu experimentieren und zu lernen, ohne ein grosses Risiko einzugehen? Oder planst du eine grössere Investition, die langfristig gehalten werden soll?
-- deine Investitionshäufigkeit**: Möchten Sie einen einmaligen Kauf tätigen und dein Kapital sofort sichern, oder möchten Sie deine Käufe mit einer Strategie wie Dollar-Cost Averaging (DCA) über einen längeren Zeitraum verteilen, um Preisschwankungen auszugleichen?
-- Was Sie mit deinen Bitcoins** machen wollen: Halten Sie sie ausschliesslich als langfristige Ersparnisse? Verwenden Sie sie für tägliche Zahlungen? Oder vielleicht ein bisschen von beidem?
-- deine Einstellung zum Datenschutz**: Fühlen Sie sich wohl dabei, persönliche Daten anzugeben und zentralisierte Plattformen zu nutzen, um Bitcoin zu kaufen? Oder bevorzugen Sie Methoden, bei denen die Privatsphäre im Vordergrund steht, wie Peer-to-Peer-Tauschbörsen ohne KYC?
-- dein persönlicher, rechtlicher und geografischer Kontext**: Je nachdem, wo Sie wohnen, kann der Zugang zu bestimmten Börsen eingeschränkt sein. Örtliche Gesetze und Steuervorschriften können auch Einfluss darauf haben, wie Sie deinen Bitcoin aufbewahren und verwenden.
+- deine Investitionshäufigkeit: Möchtest du einen einmaligen Kauf tätigen und dein Kapital sofort sichern, oder möchtest du deine Käufe mit einer Strategie wie Dollar-Cost Averaging (DCA) über einen längeren Zeitraum verteilen, um Preisschwankungen auszugleichen?
+- Was du mit deinen Bitcoins machen willst: Hältst du sie ausschliesslich als langfristige Ersparnisse? Verwendest du sie für tägliche Zahlungen? Oder vielleicht ein bisschen von beidem?
+- Deine Einstellung zum Datenschutz: Fühlst du dich wohl dabei, persönliche Daten anzugeben und zentralisierte Plattformen zu nutzen, um Bitcoin zu kaufen? Oder bevorzugst du Methoden, bei denen die Privatsphäre im Vordergrund steht, wie Peer-to-Peer-Tauschbörsen ohne KYC?
+- Dein persönlicher, rechtlicher und geografischer Kontext: Je nachdem, wo du wohnst, kann der Zugang zu bestimmten Börsen eingeschränkt sein. Örtliche Gesetze und Steuervorschriften können auch Einfluss darauf haben, wie du deine Bitcoins aufbewahrst und verwendest.
 
-
+xxxx
 Jeder dieser Faktoren spielt eine Rolle bei der Ausarbeitung der richtigen Strategie für Sie. Einige Nutzer legen Wert auf Einfachheit und Benutzerfreundlichkeit durch regulierte Dienste, während andere einen eher autonomen und datenschutzorientierten Ansatz bevorzugen.
 
 

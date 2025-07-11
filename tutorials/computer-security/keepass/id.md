@@ -127,46 +127,104 @@ Setelahnya, Anda sebaiknya memikirkan untuk secara rutin mencadangkan folder ini
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Selanjutnya adalah pilihan master password Anda.
+Selanjutnya adalah pembuatan master password Anda.
 ![KEEPASS](assets/notext/17.webp)
-Seperti yang kita lihat di pengantar, password ini sangat penting, karena memberi Anda akses ke semua password lain yang disimpan di database. Password ini akan digunakan untuk mengenkripsi database `Database.kdbx`. Ini menyajikan dua risiko utama: kehilangan dan kompromi. Jika Anda kehilangan akses ke password ini, Anda tidak akan lagi dapat mengakses semua kredensial Anda. Jika password Anda dicuri, selain database yang terenkripsi, penyerang akan dapat mengakses semua akun Anda.
 
-Untuk meminimalkan risiko kehilangan, saya merekomendasikan membuat backup fisik dari master password Anda di kertas dan menyimpannya di tempat yang aman. Jika mungkin, segel backup ini dalam amplop yang aman untuk secara rutin memastikan bahwa tidak ada orang lain yang mengaksesnya.
+Seperti yang telah kita bahas di awal, kata sandi utama (master password) ini sangat penting karena memberikan Anda akses ke semua kata sandi lain yang tersimpan dalam database. Kata sandi ini akan digunakan untuk mengenkripsi Database 'Database.kdbx'. Ada dua risiko utama yang perlu diwaspadai: kehilangan dan penyusupan. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses semua kredensial Anda. Jika kata sandi Anda dicuri, selain database yang terenkripsi, penyerang akan dapat mengakses semua akun Anda.
 
-Untuk mencegah kompromi dari master password Anda, itu harus sangat kuat. Ini harus sepanjang mungkin, menggunakan berbagai karakter yang luas, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk password yang aman adalah 13 karakter termasuk angka, huruf kecil dan huruf besar, serta simbol, asalkan password tersebut benar-benar acak. Namun, saya merekomendasikan untuk memilih password setidaknya 20 karakter, termasuk semua jenis karakter yang mungkin, untuk memastikan keamanannya untuk waktu yang lebih lama.
+Untuk meminimalkan risiko kehilangan, saya merekomendasikan untuk membuat cadangan fisik kata sandi utama (master password) Anda di kertas dan menyimpannya di tempat yang aman. Jika memungkinkan, segel cadangan ini dalam amplop yang aman untuk secara berkala memastikan tidak ada orang lain yang mengaksesnya.
 
-Masukkan master password Anda di kotak yang disediakan dan konfirmasikan di kotak berikutnya, kemudian klik pada "*OK*".
+Untuk mencegah penyusupan kata sandi utama (master password) Anda, kata sandi tersebut harus sangat kuat. Kata sandi itu harus sepanjang mungkin, menggunakan berbagai jenis karakter, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk kata sandi yang aman adalah 13 karakter yang mencakup angka, huruf kecil dan huruf besar, serta simbol, asalkan kata sandi tersebut benar-benar acak. Namun, saya merekomendasikan untuk memilih kata sandi minimal 20 karakter, termasuk semua jenis karakter yang mungkin, untuk memastikan keamanannya dalam jangka waktu yang lebih lama.
+
+Masukkan *master password* Anda di kolom yang disediakan dan konfirmasikan di kotak berikutnya, kemudian klik pada "*OK*".
 ![KEEPASS](assets/notext/18.webp)
+
 Namai database Anda dan tambahkan deskripsi jika perlu. Ini dapat membantu Anda membedakan antara database yang berbeda jika Anda membuat beberapa, misalnya, satu untuk penggunaan pribadi dan yang lain untuk penggunaan profesional.
 ![KEEPASS](assets/notext/19.webp)
-Untuk pengaturan lain, saya merekomendasikan untuk mempertahankan opsi default. Kemudian klik tombol "*OK*".
-![KEEPASS](assets/notext/20.webp)KeePass kemudian menawarkan untuk mencetak lembar darurat.
-![KEEPASS](assets/notext/21.webp)
-Di lembar ini, Anda akan menemukan lokasi database Anda di dalam file, sebuah ruang untuk menulis kata sandi utama Anda secara manual, serta instruksi untuk mengaksesnya. Lembar ini harus dipercayakan kepada orang-orang yang dipercaya, karena memungkinkan pemulihan akses ke kredensial Anda dalam kasus terjadi masalah.
 
-Namun, karena lembar ini memberikan akses ke kata sandi Anda dengan mengungkapkan kata sandi utama Anda, lembar ini harus digunakan dengan hati-hati. Disarankan untuk menyimpannya dalam amplop yang disegel sebagai minimum, yang memungkinkan pemeriksaan periodik untuk memastikan tidak ada yang telah mengkonsultasikannya. Anda tidak diwajibkan untuk menggunakan lembar ini dan mungkin mempertimbangkan metode cadangan lain untuk orang-orang terkasih Anda.
+Untuk pengaturan lain, saya merekomendasikan untuk mempertahankan opsi default. Kemudian klik tombol "*OK*".
+![KEEPASS](assets/notext/20.webp)
+
+KeePass kemudian menawarkan untuk mencetak lembar darurat.
+![KEEPASS](assets/notext/21.webp)
+
+Di lembar ini, Anda akan menemukan lokasi basis data Anda di file Anda, ruang untuk menuliskan kata sandi utama (master password) Anda secara manual, serta instruksi untuk mengaksesnya. Lembar ini harus dipercayakan kepada orang yang tepercaya, karena memungkinkan pemulihan akses ke kredensial Anda jika terjadi masalah.
+
+Namun, karena lembar ini memberikan akses ke kata sandi Anda dengan mengungkapkan *master password* Anda, ini harus digunakan dengan sangat hati-hati. Disarankan untuk menyimpannya dalam amplop tersegel, yang memungkinkan pemeriksaan berkala untuk memastikan tidak ada yang melihatnya. Anda tidak diwajibkan untuk menggunakan lembar ini dan dapat mempertimbangkan metode cadangan lain untuk orang yang Anda cintai.
 ![KEEPASS](assets/notext/22.webp)
+
 Anda kemudian dapat mengakses manajer kata sandi Anda.
 ![KEEPASS](assets/notext/23.webp)
+
 Sebelum Anda mulai menyimpan kredensial Anda, saya merekomendasikan untuk mengubah pengaturan pembuatan kata sandi. Untuk melakukan ini, pergi ke tab "*Tools*" dan pilih "*Generate Password...*".
 ![KEEPASS](assets/notext/24.webp)
-Di sini, saya menyarankan Anda untuk meningkatkan panjang kata sandi yang dihasilkan menjadi 40 karakter. Sekarang karena Anda memiliki manajer kata sandi untuk mengingatnya untuk Anda, tidak perlu untuk mengurangi jumlah karakter. Selain itu, Anda tidak perlu menulis kata sandi dengan tangan, karena Anda dapat menyalin dan menempelkannya. Jadi, tidak masalah bagi Anda untuk memiliki kata sandi yang sangat panjang sebanyak 40 karakter, namun, keamanannya sangat ditingkatkan. Saya menyarankan Anda untuk melakukan ini, dan juga untuk mencentang kotak untuk karakter khusus.
+
+Saya menyarankan Anda untuk meningkatkan panjang kata sandi yang dihasilkan menjadi 40 karakter. Sekarang Anda memiliki pengelola kata sandi yang dapat mengingatnya untuk Anda, tidak perlu mengurangi jumlah karakter. Terlebih lagi, Anda tidak perlu menulis kata sandi secara manual, karena Anda dapat menyalin dan menempelkannya. Jadi, memiliki kata sandi yang sangat panjang, 40 karakter, tidak akan merepotkan Anda, namun keamanannya akan sangat meningkat. Saya menyarankan Anda untuk melakukan ini, dan juga untuk mencentang kotak untuk karakter khusus.
 ![KEEPASS](assets/notext/25.webp)
-Konfirmasi dengan mengklik ikon simpan kecil.
+
+Konfirmasi dengan mengklik ikon kecil *SAVE*.
 ![KEEPASS](assets/notext/26.webp)
+
 Tambahkan nama ke profil kata sandi Anda.
 ![KEEPASS](assets/notext/27.webp)
+
 ## Bagaimana cara mengamankan akun Anda dengan KeePass?
 
 Untuk mendaftarkan kredensial baru di manajer KeePass Anda, cukup klik pada ikon kunci dengan panah hijau.
 ![KEEPASS](assets/notext/28.webp)
-Di jendela pembuatan dan penyimpanan, klik pada ikon kunci kecil dan pilih profil kata sandi 40-karakter Anda.
-![KEEPASS](assets/notext/29.webp)
-Masukkan nama pengguna untuk akun ini serta judul untuk memudahkan pencarian dalam basis data Anda. ![KEEPASS](assets/notext/30.webp) Anda juga dapat menambahkan URL jika ingin menggunakan pintasan nanti, dan jika perlu, sebuah catatan. ![KEEPASS](assets/notext/31.webp) Jika semuanya sesuai dengan keinginan Anda, klik pada "*OK*" untuk menyimpan kata sandi. ![KEEPASS](assets/notext/32.webp) Anda dapat menemukan kata sandi Anda di halaman utama manajer KeePass Anda. ![KEEPASS](assets/notext/33.webp) Untuk menyalin kata sandi, cukup klik dua kali pada itu. Kata sandi akan tetap di clipboard Anda selama 12 detik, memungkinkan Anda untuk menempelkannya di situs web saat login berikutnya. ![KEEPASS](assets/notext/34.webp) Jika Anda ingin memperpanjang durasi kata sandi tetap di clipboard, klik pada tab "*Tools*", kemudian pada "*Options...*". ![KEEPASS](assets/notext/35.webp) Di bawah tab "*Security*", sesuaikan durasinya dengan mengubah jumlah detik dalam kotak "*Clipboard auto-clear time*". Kemudian klik pada "*OK*" untuk menyimpan perubahan Anda. ![KEEPASS](assets/notext/36.webp) Di sisi kiri antarmuka Anda, Anda akan melihat bahwa ada beberapa folder untuk mengorganisir kata sandi Anda. ![KEEPASS](assets/notext/37.webp) Anda memiliki opsi untuk menghapus folder default atau menambahkan yang baru dengan klik kanan dan memilih "*Add Group...*". ![KEEPASS](assets/notext/38.webp) Pilih nama untuk folder baru dan pilih ikon. Anda juga dapat mengimpor ikon Anda sendiri dalam format `.ico`. Kemudian klik pada tombol "*OK*" untuk menyelesaikan pembuatan folder. ![KEEPASS](assets/notext/39.webp) Folder Anda muncul di sebelah kiri. ![KEEPASS](assets/notext/40.webp) Untuk menambahkan kata sandi ke folder, cukup seret dari basis data ke folder yang diinginkan. ![KEEPASS](assets/notext/41.webp) Fitur ini membantu Anda mengorganisir manajer kata sandi Anda dan menemukan kredensial Anda dengan lebih mudah.
-Metode lain untuk menemukan kata sandi adalah menggunakan fungsi pencarian. Ketik judul pengenal yang ingin Anda temukan di bilah pencarian yang terletak di bagian atas antarmuka, dan Anda akan langsung mengaksesnya. ![KEEPASS](assets/notext/42.webp) Berhati-hatilah, karena KeePass bekerja sedikit seperti dokumen teks. Sebelum menutup aplikasi, jika Anda telah menambahkan item baru ke manajer Anda, ingatlah untuk menyimpan basis data. Anda dapat melakukan ini dengan mengklik ikon simpan atau dengan menggunakan pintasan keyboard `Ctrl+S`. ![KEEPASS](assets/notext/43.webp)
-Jika Anda meninggalkan KeePass terbuka di latar belakang, perangkat lunak tidak akan tertutup secara default. Namun, jika Anda menutup KeePass atau mematikan komputer Anda, Anda perlu memasukkan kata sandi utama untuk mendekripsi basis data Anda saat membuka kembali perangkat lunak. ![KEEPASS](assets/notext/44.webp)
-Itu mencakup fitur dasar dari KeePass. Tentu saja, tutorial ini yang ditujukan untuk pemula hanya menggarisbawahi permukaan dari banyak opsi yang tersedia dengan perangkat lunak ini. Ada banyak fitur tambahan untuk dijelajahi, belum lagi [semua plugin yang dikembangkan oleh komunitas](https://keepass.info/plugins.html) yang dapat lebih memperluas kemampuan KeePass.
 
-Jika Anda tertarik untuk belajar bagaimana secara drastis meningkatkan keamanan akun online Anda untuk menghindari peretasan dengan 2FA, saya juga merekomendasikan untuk memeriksa tutorial lain ini:
+Di jendela pembuatan dan penyimpanan, klik ikon kunci kecil dan pilih profil kata sandi 40 karakter Anda.
+![KEEPASS](assets/notext/29.webp)
+
+Masukkan nama pengguna untuk akun ini serta judul untuk memudahkan pencarian dalam database Anda.
+![KEEPASS](assets/notext/30.webp)
+
+Anda juga dapat menambahkan URL jika ingin menggunakan pintasan (jika perlukan nanti) dan sebuah catatan. 
+![KEEPASS](assets/notext/31.webp) 
+
+Jika semuanya sesuai dengan keinginan Anda, klik pada "*OK*" untuk menyimpan kata sandi.
+![KEEPASS](assets/notext/32.webp) 
+
+Anda dapat menemukan kata sandi Anda di halaman utama manajer KeePass Anda.
+![KEEPASS](assets/notext/33.webp) 
+
+Untuk menyalin kata sandi, cukup klik dua kali padanya. Kata sandi itu akan tetap ada di *clipboard* Anda selama 12 detik, sehingga Anda bisa menempelkannya di situs web saat login berikutnya.
+![KEEPASS](assets/notext/34.webp)
+
+Jika Anda ingin memperpanjang durasi kata sandi tetap di *clipboard*, klik pada tab "*Tools*", kemudian pada "*Options...*".
+![KEEPASS](assets/notext/35.webp)
+
+Di bawah tab "*Security*", sesuaikan durasinya dengan mengubah jumlah detik dalam kolom "*Clipboard auto-clear time*". Kemudian klik tombol "*OK*" untuk menyimpan perubahan Anda.
+![KEEPASS](assets/notext/36.webp)
+
+Di sisi kiri antarmuka, Anda akan melihat ada beberapa folder untuk mengatur kata sandimu.
+![KEEPASS](assets/notext/37.webp)
+
+Anda memiliki opsi untuk menghapus folder default atau menambahkan yang baru dengan klik kanan dan memilih "*Add Group...*". 
+![KEEPASS](assets/notext/38.webp)
+
+Pilih nama untuk folder baru dan pilih ikon. Anda juga dapat mengimpor ikon Anda sendiri dalam format `.ico`. Kemudian klik pada tombol "*OK*" untuk menyelesaikan pembuatan folder.
+![KEEPASS](assets/notext/39.webp)
+
+Folder Anda muncul di sebelah kiri.
+![KEEPASS](assets/notext/40.webp)
+
+Untuk menambahkan kata sandi ke folder, cukup seret dari database ke folder yang diinginkan.
+![KEEPASS](assets/notext/41.webp)
+
+Fitur ini membantu Anda mengatur pengelola kata sandi dan menemukan kredensialmu dengan lebih mudah.
+
+Metode lain untuk menemukan kata sandi adalah dengan menggunakan fungsi pencarian. Ketik judul pengenal yang ingin Anda temukan di kolom pencarian yang terletak di bagian atas antarmuka, dan Anda akan langsung menemukannya.
+![KEEPASS](assets/notext/42.webp)
+
+Berhati-hatilah, KeePass bekerja kurang lebih seperti dokumen teks. Sebelum menutup aplikasi, jika Anda telah menambahkan entri baru ke pengelola Anda, ingatlah untuk menyimpan database. Anda bisa melakukannya dengan mengeklik ikon simpan atau dengan menggunakan keyboard shortcut Ctrl+S.
+![KEEPASS](assets/notext/43.webp)
+
+Jika Anda membiarkan KeePass tetap terbuka di latar belakang, perangkat lunak ini tidak akan tertutup secara otomatis. Namun, jika Anda menutup KeePass atau mematikan komputer Anda, Anda perlu memasukkan kata sandi utama Anda untuk mendekripsi database saat membuka kembali perangkat lunak.
+![KEEPASS](assets/notext/44.webp)
+
+Itu tadi adalah fitur-fitur dasar KeePass. Tentu saja, tutorial yang ditujukan untuk pemula ini baru menejelaskan permukaan dari banyaknya opsi yang tersedia pada perangkat lunak ini. Ada banyak fitur tambahan yang bisa dijelajahi, belum lagi [semua plugin yang dikembangkan oleh komunitas](https://keepass.info/plugins.html) yang dapat lebih jauh memperluas kemampuan KeePass.
+
+Jika Anda tertarik untuk mempelajari cara meningkatkan keamanan akun online Anda secara lebih dalam guna menghindari peretasan dengan 2FA, saya juga merekomendasikan untuk melihat tutorial lain ini:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

@@ -4,37 +4,40 @@ description: Bagaimana cara mengatur manajer kata sandi lokal?
 ---
 ![cover](assets/cover.webp)
 
-Di era digital, kita perlu mengelola berbagai akun online yang mencakup berbagai aspek kehidupan sehari-hari, termasuk perbankan, platform keuangan, email, penyimpanan file, kesehatan, administrasi, jejaring sosial, video game, dll.
+Di era digital ini, kita semua harus mengelola banyak akun online yang mencakup berbagai aspek kehidupan sehari-hari, mulai dari perbankan, platform keuangan, email, penyimpanan file, kesehatan, administrasi, media sosial, video game, dan lainnya.
 
-Untuk mengautentikasi diri kita pada masing-masing akun ini, kita menggunakan pengenal, seringkali alamat email, yang disertai dengan kata sandi. Menghadapi ketidakmungkinan untuk mengingat sejumlah besar kata sandi unik, seseorang mungkin tergoda untuk menggunakan kata sandi yang sama atau sedikit memodifikasi basis umum agar lebih mudah diingat. Namun, praktik ini serius mengkompromikan keamanan akun Anda.
+Untuk mengautentikasi diri di setiap akun ini, kita menggunakan identifier, yang seringkali berupa alamat email, disertai dengan kata sandi. Karena mustahil mengingat banyak kata sandi unik, Anda mungkin tergoda untuk menggunakan kembali kata sandi yang sama atau memodifikasi sedikit dari basis yang umum agar mudah diingat. Namun, praktik-praktik ini secara serius membahayakan keamanan akun Anda.
 
-Prinsip pertama yang harus diikuti untuk kata sandi adalah tidak menggunakannya kembali. Setiap akun online harus dilindungi oleh kata sandi yang unik dan sepenuhnya berbeda. Ini penting karena, jika seorang penyerang berhasil mengkompromikan salah satu kata sandi Anda, Anda tidak ingin mereka memiliki akses ke semua akun Anda. Memiliki kata sandi unik untuk setiap akun mengisolasi serangan potensial dan membatasi lingkupnya. Misalnya, jika Anda menggunakan kata sandi yang sama untuk platform video game dan untuk email Anda, dan kata sandi tersebut dikompromikan melalui situs phishing yang terkait dengan platform game, penyerang kemudian dapat dengan mudah mengakses email Anda dan mengambil kendali atas semua akun online lainnya.
+Prinsip pertama yang harus Anda ikuti untuk kata sandi adalah jangan menggunakannya kembali. Setiap akun online harus dilindungi oleh kata sandi unik yang sepenuhnya berbeda dari yang lain. Ini penting karena, jika penyerang berhasil menyusupi salah satu kata sandi Anda, Anda tentu tidak ingin mereka memiliki akses ke semua akun Anda. Memiliki kata sandi unik untuk setiap akun akan mengisolasi potensi serangan dan membatasi cakupannya. Sebagai contoh, jika Anda menggunakan kata sandi yang sama untuk platform video game dan untuk email Anda, dan kata sandi itu disusupi melalui situs phishing yang terkait dengan platform game, penyerang bisa dengan mudah mengakses email Anda dan mengambil alih semua akun online Anda yang lain.
 
-Prinsip penting kedua adalah kekuatan kata sandi. Kata sandi dianggap kuat jika sulit untuk ditebak melalui coba-coba. Ini berarti bahwa kata sandi Anda harus seacak mungkin, panjang, dan mencakup beragam karakter (huruf kecil, huruf besar, angka, dan simbol).
+Prinsip penting kedua adalah kekuatan kata sandi. Sebuah kata sandi dianggap kuat jika sulit untuk dipecahkan secara paksa (brute force), yaitu ditebak melalui berbagai percobaan. Ini berarti kata sandi Anda harus seacak mungkin, panjang, dan mencakup berbagai jenis karakter (huruf kecil, huruf besar, angka, dan simbol).
 
-Menerapkan dua prinsip keamanan kata sandi ini (keunikan dan kekuatan) dapat terbukti sulit dalam kehidupan sehari-hari, karena hampir mustahil untuk mengingat kata sandi yang unik, acak, dan kuat untuk semua akun kita. Di sinilah manajer kata sandi berperan.
+Menerapkan kedua prinsip keamanan kata sandi ini (keunikan dan kekuatan) bisa jadi sulit dalam kehidupan sehari-hari, karena hampir tidak mungkin mengingat kata sandi yang unik, acak, dan kuat untuk semua akun kita. Di sinilah pengelola kata sandi (password manager) berperan.
 
-Manajer kata sandi menghasilkan dan menyimpan kata sandi yang kuat secara aman, memungkinkan Anda untuk mengakses semua akun online Anda tanpa perlu mengingatnya secara individu. Anda hanya perlu mengingat satu kata sandi, kata sandi induk, yang memberi Anda akses ke semua kata sandi yang disimpan dalam manajer. Menggunakan manajer kata sandi meningkatkan keamanan online Anda karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak. Tapi itu juga mempermudah penggunaan harian akun Anda dengan memusatkan akses ke informasi sensitif Anda.
-Dalam tutorial ini, kita akan belajar cara mengatur dan menggunakan manajer kata sandi lokal untuk meningkatkan keamanan online Anda. Di sini, saya akan memperkenalkan Anda kepada KeePass. Namun, jika Anda pemula dan ingin memiliki manajer kata sandi online yang mampu sinkronisasi lintas perangkat, saya sarankan mengikuti tutorial kami tentang Bitwarden:
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+Pengelola kata sandi akan menghasilkan dan menyimpan kata sandi yang kuat secara aman, memungkinkan Anda mengakses semua akun online tanpa perlu mengingatnya satu per satu. Anda hanya perlu mengingat satu kata sandi, yaitu kata sandi utama (master password), yang memberi Anda akses ke semua kata sandi yang tersimpan di pengelola. Menggunakan pengelola kata sandi meningkatkan keamanan online Anda karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak. Namun, ini juga menyederhanakan penggunaan akun Anda sehari-hari dengan memusatkan akses ke informasi sensitif Anda.
+
+Dalam tutorial ini, kita akan mempelajari cara mengatur dan menggunakan pengelola kata sandi lokal untuk meningkatkan keamanan online Anda. Di sini, saya akan memperkenalkan Anda pada KeePass. Namun, jika Anda adalah pemula dan ingin memiliki pengelola kata sandi online yang mampu melakukan sinkronisasi di berbagai perangkat, saya merekomendasikan untuk mengikuti tutorial kami tentang Bitwarden: https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
-*Perhatian: Manajer kata sandi sangat bagus untuk menyimpan kata sandi, tetapi **Anda tidak boleh menyimpan frasa mnemonik dompet Bitcoin Anda di dalamnya!** Ingat, frasa mnemonik harus disimpan secara eksklusif dalam format fisik, seperti selembar kertas atau logam.*
+*Perhatian: Pengelola kata sandi memang sangat bagus untuk menyimpan kata sandi, tetapi **Anda jangan menyimpan frasa mnemonik dompet Bitcoin Anda di dalamnya!** Ingat, frasa mnemonik harus disimpan hanya dalam format fisik, seperti selembar kertas atau logam.*
 
 ---
 
 ## Pengenalan ke KeePass
 
-KeePass adalah manajer kata sandi gratis dan open-source, sempurna bagi mereka yang menginginkan solusi gratis dan aman untuk pengelolaan lokal. Ini adalah perangkat lunak yang harus diinstal pada PC Anda yang, tanpa penambahan plugin, tidak berkomunikasi dengan Internet. Ini adalah pendekatan yang radikal berbeda dari Bitwarden, yang telah kami bahas dalam tutorial sebelumnya. Bitwarden, tidak seperti KeePass, memungkinkan sinkronisasi lintas perangkat dan dengan demikian memerlukan penyimpanan kata sandi Anda pada server online.
-Secara default, KeePass tidak mendukung penggunaan ekstensi browser seperti Bitwarden; oleh karena itu, Anda perlu menyalin dan menempelkan kata sandi Anda secara manual dari perangkat lunak tersebut. Meskipun ini mungkin terlihat sebagai sebuah keterbatasan, menyalin dan menempelkan kata sandi daripada menggunakan auto-fill adalah praktik yang baik untuk keamanan online Anda.
-KeePass dirancang untuk menjadi ringan dan mudah digunakan, sambil tetap mematuhi standar keamanan yang tinggi. Perangkat lunak ini mengenkripsi database Anda secara lokal untuk perlindungan optimal terhadap kredensial Anda. KeePass juga merupakan satu-satunya pengelola kata sandi yang divalidasi oleh ANSSI (otoritas keamanan siber Prancis).
+KeePass adalah pengelola kata sandi open-source dan gratis, sangat cocok bagi Anda yang menginginkan solusi aman dan gratis untuk pengelolaan lokal. KeePass adalah perangkat lunak yang diinstal di PC Anda dan tanpa penambahan plugin, tidak berkomunikasi dengan internet. Ini adalah pendekatan yang sangat berbeda dari Bitwarden, yang telah kita bahas di tutorial sebelumnya. Bitwarden, tidak seperti KeePass, memungkinkan sinkronisasi di berbagai perangkat sehingga mengharuskan penyimpanan kata sandi Anda di server online.
 
-Salah satu keuntungan utama dari KeePass adalah fleksibilitasnya. Ini dapat digunakan dalam berbagai cara, seperti pada USB stick tanpa perlu instalasi pada komputer. Selain itu, berkat [lingkungan plugin](https://keepass.info/plugins.html)nya, KeePass dapat disesuaikan untuk memenuhi kebutuhan yang lebih spesifik.
+Secara bawaan, KeePass tidak mendukung penggunaan ekstensi browser seperti Bitwarden; oleh karena itu, Anda perlu menyalin dan menempelkan kata sandi Anda secara manual dari perangkat lunak. Meskipun ini mungkin terlihat sebagai keterbatasan, menyalin dan menempelkan kata sandi daripada menggunakan pengisian otomatis (auto-fill) adalah praktik yang baik untuk keamanan online Anda.
+
+KeePass dirancang agar ringan dan mudah digunakan, sambil tetap memenuhi standar keamanan tinggi. Perangkat lunak ini mengenkripsi basis data Anda secara lokal untuk perlindungan kredensial yang optimal. KeePass juga merupakan satu-satunya pengelola kata sandi yang divalidasi oleh ANSSI (otoritas keamanan siber Prancis).
+
+Salah satu keunggulan utama KeePass adalah fleksibilitasnya. KeePass dapat digunakan dengan berbagai cara berbeda, seperti dari USB stick tanpa perlu instalasi di komputer. Selain itu, berkat [dukungan plugin](https://keepass.info/plugins.html)nya, KeePass dapat disesuaikan untuk memenuhi kebutuhan yang lebih spesifik.
 ![KEEPASS](assets/notext/01.webp)
+
 ## Bagaimana Cara Mengunduh KeePass?
 
-Proses instalasi KeePass bervariasi tergantung pada sistem operasi yang Anda gunakan. Untuk pengguna Windows atau Linux, instalasinya relatif mudah. Namun, jika Anda menggunakan macOS, langkah tambahan diperlukan karena pengembangan KeePass pada platform .NET, yang tidak langsung didukung oleh macOS. Oleh karena itu, Anda perlu mengonfigurasi lingkungan yang kompatibel agar KeePass dapat berjalan pada perangkat Apple.
+Proses instalasi KeePass bervariasi tergantung pada sistem operasi yang Anda gunakan. Bagi pengguna Windows atau Linux, instalasinya relatif mudah. Namun, jika Anda menggunakan macOS, langkah tambahan diperlukan karena KeePass dikembangkan pada platform .NET, yang tidak didukung secara langsung oleh macOS. Oleh karena itu, Anda perlu mengonfigurasi sistem yang kompatibel agar KeePass dapat berjalan di perangkat Apple.
 
 Untuk pengguna Debian/Ubuntu, buka terminal dan masukkan perintah berikut:
 
@@ -57,17 +60,21 @@ sudo pacman -S keepass
 
 Jika Anda menggunakan komputer Windows, kunjungi [halaman unduhan KeePass resmi](https://keepass.info/download.html), dan unduh versi terbaru dari installer:
 ![KEEPASS](assets/notext/02.webp)
-Klik pada file yang diunduh untuk menjalankannya, kemudian ikuti instruksi dari wizard setup untuk menyelesaikan instalasi (lihat bagian selanjutnya).
 
-Untuk pengguna macOS, instalasinya sedikit lebih kompleks. Jika Anda ingin menggunakan versi asli KeePass seperti di Windows, ikuti instruksi di bawah ini. Jika tidak, Anda dapat memilih [KeePassXC](https://keepassxc.org/), versi alternatif yang kompatibel dengan macOS, yang menawarkan antarmuka yang sedikit berbeda.
+Klik pada file yang diunduh untuk menjalankannya, kemudian ikuti instruksi dari "*wizard setup*" untuk menyelesaikan instalasi (lihat bagian selanjutnya).
 
-Untuk menggunakan KeePass, Anda akan memerlukan lingkungan runtime untuk aplikasi .NET. Saya merekomendasikan menginstal Mono untuk ini. Kunjungi [halaman resmi Mono](https://www.mono-project.com/download/stable/#download-mac) di bagian "*macOS*", dan klik pada link untuk mengunduh paket instalasi (`.pkg`).
+Bagi pengguna macOS, instalasinya sedikit lebih rumit. Jika Anda ingin menggunakan versi asli KeePass seperti di Windows, ikuti instruksi di bawah ini. Jika tidak, Anda dapat memilih [KeePassXC](https://keepassxc.org/), versi alternatif yang kompatibel dengan macOS, yang menawarkan antarmuka yang sedikit berbeda.
+
+Untuk menggunakan KeePass, Anda memerlukan *runtime environment* untuk aplikasi .NET. Saya merekomendasikan untuk menginstal Mono untuk tujuan ini. Kunjungi [halaman resmi Mono](https://www.mono-project.com/download/stable/#download-mac) di bagian "macOS", lalu klik tautan untuk mengunduh paket instalasi (.pkg).
 ![KEEPASS](assets/notext/03.webp)
+
 Buka file `.pkg` yang diunduh dan ikuti instruksi untuk menginstal Mono di Mac Anda.
 ![KEEPASS](assets/notext/04.webp)
+
 Selanjutnya, kunjungi situs web resmi KeePass dan unduh versi portabel terbaru dalam format `.zip`.
 ![KEEPASS](assets/notext/05.webp)
-Setelah mengunduh file `.zip`, klik dua kali untuk mengekstraknya. Anda akan mendapatkan folder yang berisi beberapa file, termasuk `KeePass.exe`. Buka terminal, navigasikan ke folder KeePass (ganti `xx` dengan nomor versi):
+
+Setelah mengunduh file '.zip', klik dua kali untuk mengekstraknya. Anda akan mendapatkan sebuah folder yang berisi beberapa file, termasuk 'KeePass.exe'. Buka terminal, lalu navigasikan ke folder KeePass (ganti 'xx' dengan nomor versi):
 
 ```bash
 cd ~/Downloads/KeePass-2.xx
@@ -81,30 +88,42 @@ mono KeePass.exe
 
 ## Bagaimana Cara Menginstal KeePass?
 
-Pada peluncuran pertama, Anda dapat memilih bahasa antarmuka.
+Pada peluncuran pertama, Anda dapat memilih bahasa untuk antarmuka.
 ![KEEPASS](assets/notext/06.webp)
+
 Terima ketentuan lisensi.
 ![KEEPASS](assets/notext/07.webp)
+
 Pilih folder tempat KeePass akan diinstal.
 ![KEEPASS](assets/notext/08.webp)
-Anda dapat secara opsional memodifikasi komponen aplikasi yang diinstal. Jika Anda memiliki cukup ruang, Anda bisa memilih "*Instalasi Penuh*".
+
+Anda dapat secara opsional memodifikasi komponen aplikasi yang diinstal. Jika Anda memiliki cukup ruang, Anda bisa memilih "*Full installation*".
 ![KEEPASS](assets/notext/09.webp)
-Dan akhirnya, Anda dapat memilih untuk menambahkan shortcut di desktop Anda.
+
+Dan akhirnya, Anda dapat memilih untuk menambahkan *shortcut* di desktop Anda.
 ![KEEPASS](assets/notext/10.webp)
-Klik tombol "*Instal*".
+
+Klik tombol "*Install*".
 ![KEEPASS](assets/notext/11.webp)
-Tunggu selama instalasi, kemudian klik tombol "*Selesai*".
+
+Tunggu selama instalasi, kemudian klik tombol "*Finish*".
 ![KEEPASS](assets/notext/12.webp)
+
 ## Bagaimana cara mengonfigurasi KeePass?
 
 Anda sekarang berada di antarmuka KeePass Anda.
-![KEEPASS](assets/notext/13.webp)Untuk membuat database pertama Anda, klik pada tab "*File*".
+![KEEPASS](assets/notext/13.webp)
+
+Untuk membuat database pertama Anda, klik pada tab "*File*".
 ![KEEPASS](assets/notext/14.webp)
-Kemudian pada menu "*Baru*".
+
+Kemudian pada menu "*New*".
 ![KEEPASS](assets/notext/15.webp)
+
 Perangkat lunak akan membuat database baru tempat kata sandi Anda akan disimpan. Anda perlu memilih lokasi untuk folder ini. Pilih lokasi yang mudah diakses.
 ![KEEPASS](assets/notext/16.webp)
-Setelah itu, Anda harus memikirkan tentang secara rutin membackup folder ini untuk menghindari kehilangan kredensial Anda dalam kasus kehilangan, kerusakan, atau pencurian komputer Anda. Sebagai contoh, Anda bisa menyalin database ke USB stick setiap minggu. File yang berisi database Anda bernama `Database.kdbx` (dokumen ini dienkripsi dengan master password Anda). Untuk saran lebih lanjut tentang praktik backup terbaik, saya juga merekomendasikan untuk berkonsultasi dengan tutorial lain ini:
+
+Setelahnya, Anda sebaiknya memikirkan untuk secara rutin mencadangkan folder ini untuk menghindari kehilangan kredensial Anda jika komputer hilang, rusak, atau dicuri. Sebagai contoh, Anda dapat menyalin basis data ke USB stick setiap minggu. File yang berisi database Anda bernama 'Database.kdbx' (dokumen ini dienkripsi dengan kata sandi utama Anda). Untuk saran lebih lanjut mengenai praktik pencadangan terbaik, saya juga merekomendasikan untuk melihat tutorial ini:
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 

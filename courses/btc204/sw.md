@@ -2189,14 +2189,14 @@ Ikiwa ni lazima, anonsets inaweza kutumika kuhukumu ubora wa kuunga sarafu. Anon
 Kuna aina 2 za anonsets:
 
 
-- Upungufu unaotarajiwa;**
-- Mtazamo usiofaa.**
+- **Upungufu unaotarajiwa;**
+- **Mtazamo usiofaa.**
 
-### Anonset mtarajiwa
+### **Anonset mtarajiwa**
 
-Anonset ya kuangalia mbele inaonyesha ukubwa wa kikundi ambacho UTXO ilisoma mwishoni mwa mzunguko imefichwa, kutokana na UTXO mwanzoni, yaani, idadi ya sehemu zisizojulikana zilizopo ndani ya kikundi hiki. Jina la kiashirio hiki ni "vipimo vya kuangalia mbele".
+Anonset ya kuangalia mbele inaonyesha ukubwa wa kikundi ambacho UTXO iliyosomwa mwishoni mwa mzunguko imefichwa ndani yake, kulingana na UTXO ya mwanzo — yaani, idadi ya sehemu zisizojulikana zilizopo katika kikundi hiki. Jina la kiashiria hiki ni **"vipimo vya kuangalia mbele"**.
 
-Kiashiria hiki kinapima upinzani wa usiri wa chumba kwa uchanganuzi wa zamani hadi sasa (ingizo-kwa-pato).
+Kiashiria hiki hupima uimara wa faragha wa muktadha dhidi ya uchambuzi wa kutoka mwanzo hadi sasa (ingizo-kwa-toleo).
 
 ![BTC204](assets/fr/152.webp)
 
@@ -2206,17 +2206,17 @@ Kwa mfano, ikiwa muamala wako umeshiriki katika mzunguko wake wa kwanza wa Kuung
 
 ![BTC204](assets/fr/153.webp)
 
-Kwa mfano, hebu tufikirie kuwa sarafu yetu mwanzoni mwa mzunguko wa Kuunga sarafu ina uwezekano wa kutoweka kwa `86,871`. Kwa maneno ya kiutendaji, hii inamaanisha kuwa imefichwa kati ya sehemu `86,871` zisizoweza kutofautishwa. Kwa mtazamaji wa nje ambaye anajua sarafu hii mwanzoni mwa mizunguko ya kuunga sarafu na kujaribu kufuatilia jinsi ilipotoka, atakabiliwa na `86,871` zinazowezekana za UTXO, kila moja ikiwa na uwezekano sawa wa kuwa sarafu anayotafuta.
+Kwa mfano, hebu tufikirie kuwa sarafu yetu mwanzoni mwa mzunguko wa Kuunga sarafu ina **uwezekano wa kutoweka** wa `86,871`. Kwa maneno ya kiutendaji, hii inamaanisha kuwa imefichwa kati ya sehemu `86,871` **zisizoweza kutofautishwa**. Kwa mtazamaji wa nje ambaye anajua sarafu hii mwanzoni mwa mizunguko ya Kuunga sarafu na kujaribu kufuatilia ilikotoka, atakabiliwa na `86,871` **UTXO zinazowezekana**, kila moja ikiwa na **uwezekano sawa** wa kuwa sarafu anayotafuta.
 
 ![BTC204](assets/fr/154.webp)
 
 ### Anoset ya nyuma
 
-Anoset ya kurudi nyuma inaonyesha idadi ya vyanzo vinavyowezekana kwa sehemu fulani, kujua UTXO mwishoni mwa mzunguko. Kiashirio hiki kinapima upinzani wa usiri wa sehemu kwa uchanganuzi wa sasa hadi wa zamani (tokeo-kwa-ingizo), yaani, jinsi ilivyo vigumu kwa mchambuzi kufuatilia sehemu yako hadi asili yake, kabla ya mizunguko ya kuunga sarafu. Jina la kiashirio hiki ni "kuacha nyuma", au "vipimo vinavyoonekana nyuma".
+Anoset ya kurudi nyuma inaonyesha idadi ya vyanzo vinavyowezekana kwa sehemu fulani, kujua UTXO mwishoni mwa mzunguko. Kiashirio hiki kinapima upinzani wa usiri wa sehemu kwa uchanganuzi wa sasa hadi wa zamani (tokeo-kwa-ingizo), yaani, jinsi ilivyo vigumu kwa mchambuzi kufuatilia sehemu yako hadi asili yake, kabla ya mizunguko ya kuunga sarafu. Jina la kiashirio hiki ni **"kuacha nyuma"**, au **"vipimo vinavyoonekana nyuma"**.
 
 ![BTC204](assets/fr/155.webp)
 
-Kwa kujua UTXO yako wakati wa kuondoka kwa mizunguko, uwekajifichaji wa nyuma huamua idadi ya miamala ya Tx0 inayoweza kujumuisha kuingia kwako kwenye mizunguko ya kuunga sarafu. Katika mchoro hapa chini, hii inalingana na jumla ya Bubbles zote za machungwa.
+Kwa kujua UTXO yako wakati wa kuondoka kwa mizunguko, **uwekajifichaji wa nyuma** huamua idadi ya miamala ya **Tx0** inayoweza kujumuisha kuingia kwako kwenye mizunguko ya kuunga sarafu. Katika mchoro hapa chini, hii inalingana na **jumla ya Bubbles zote za machungwa**.
 
 ![BTC204](assets/fr/156.webp)
 
@@ -2237,15 +2237,15 @@ https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
-Kama tulivyoona katika sehemu hii ya kuunga sarafu, homogeneity ya UTXOs katika pembejeo na pato ina jukumu muhimu katika kuboresha usiri wa shughuli ya Bitcoin. Kigezo hiki kinajenga ukataaji unaowezekana katika uso wa uchambuzi wa Blockchain. Mbinu kadhaa zinaweza kutumika kupima homogeneity hii, lakini mojawapo ya ufanisi zaidi, kwa maoni yangu, ni matumizi ya viashiria vinavyotolewa na chombo cha *Boltzmann*, kilichotengenezwa na timu za OXT na Pochi la Samourai, na hasa entropy ya shughuli. Hili ndilo tutakaloangalia kwa undani katika sura hii.
+Kama tulivyoona katika sehemu hii ya kuunga sarafu, usawa (homogeneity) wa UTXOs katika pembejeo na pato unachangia kwa kiasi kikubwa kuboresha usiri wa muamala wa Bitcoin. Kigezo hiki hujenga ukataa unaowezekana mbele ya uchambuzi wa Blockchain. Ingawa kuna mbinu kadhaa za kupima usawa huu, mojawapo ya zenye ufanisi zaidi ni matumizi ya viashiria vinavyotolewa na chombo cha *Boltzmann*, kilichotengenezwa na timu za OXT na Pochi la Samourai, hasa entropy ya muamala. Hilo ndilo tutakalochambua kwa kina katika sura hii.
 
-Tofauti na anonsets, ambazo zimehesabiwa kwa seti ya shughuli, viashiria vilivyowasilishwa hapa vinazingatia shughuli moja, iwe ni kuunga sarafu au shughuli ya jadi zaidi.
+Tofauti na anonsets, ambazo huhesabiwa kwa seti ya miamala, viashiria vinavyowasilishwa hapa huzingatia muamala mmoja, iwe ni wa kuunga sarafu au shughuli ya jadi zaidi.
 
 ### Idadi ya tafsiri
 
-Kiashiria cha kwanza kinachoweza kuzingatiwa kwenye shughuli ya Bitcoin ni jumla ya idadi ya tafsiri zinazowezekana zinazokabiliwa na uchambuzi kutoka kwa mwangalizi wa nje. Kwa kuzingatia maadili ya UTXO zinazohusika katika shughuli, kiashiria hiki kinaonyesha idadi ya njia ambazo pembejeo zinaweza kuhusishwa na matokeo. Kwa maneno mengine, huamua idadi ya tafsiri zinazowezekana ambazo shughuli inaweza kuleta katika mtiririko wa Bitcoin kutoka kwa mtazamo wa mtazamaji wa nje anayeichambua.
+Kiashiria cha kwanza kinachoweza kuzingatiwa kwenye muamala wa Bitcoin ni jumla ya idadi ya tafsiri zinazowezekana zinazokabiliwa na uchambuzi kutoka kwa mwangalizi wa nje. Kwa kuzingatia thamani ya UTXO zinazohusika kwenye muamala, kiashiria hiki kinaonyesha idadi ya njia ambazo pembejeo zinaweza kuhusishwa na matokeo. Kwa maneno mengine, huamua idadi ya tafsiri zinazowezekana ambazo muamala unaweza kuwasilisha katika mtiririko wa Bitcoin kutoka kwa mtazamo wa mchambuzi wa nje.
 
-Kwa mfano, shughuli rahisi ya malipo yenye ingizo 1 na matokeo 2 itakuwa na tafsiri moja tu, yaani, ingizo hilo #0 la pato linalofadhiliwa #0 na pato #1. Hakuna tafsiri nyingine inayowezekana:
+Kwa mfano, muamala rahisi wa malipo wenye ingizo 1 na matokeo 2 utakuwa na tafsiri moja tu, yaani, ingizo #0 linafadhili pato #0 na pato #1. Hakuna tafsiri nyingine inayowezekana:
 
 ![BTC204](assets/fr/159.webp)
 
@@ -2257,27 +2257,27 @@ Whirlpool Surge Cycle 8x8 CoinJoin ina tafsiri zinazowezekana $9\,934\,563$:
 
 ![BTC204](assets/fr/161.webp)
 
-### Entropy
+### **Entropy**
 
-Kutoka kwa idadi ya tafsiri za shughuli ya Bitcoin, tunaweza kuhesabu entropy yake.
+Kutoka kwa idadi ya tafsiri za muamala wa Bitcoin, tunaweza kuhesabu entropy yake.
 
-Katika muktadha wa jumla wa kriptografia na maelezo, entropy ni kipimo cha kiasi cha kutokuwa na uhakika au kutotabirika kuhusishwa na chanzo cha data au mchakato wa nasibu. Kwa maneno mengine, entropy ni njia ya kupima jinsi sehemu ya habari ilivyo ngumu kutabiri au kukisia.
+Katika muktadha wa jumla wa kriptografia na maelezo, entropy ni kipimo cha kiwango cha kutokuwa na uhakika au kutotabirika kinachohusishwa na chanzo cha data au mchakato wa nasibu. Kwa maneno mengine, entropy ni njia ya kupima jinsi sehemu ya taarifa ilivyo ngumu kutabiri au kukisia.
 
 Katika muktadha mahususi wa uchanganuzi wa Blockchain, entropy pia ni jina la kiashirio, linalotokana na entropy ya Shannon na [iliyovumbuliwa na LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), ambayo inaweza kuhesabiwa kwa muamala wa Bitcoin.
 
-Wakati shughuli inawasilisha idadi kubwa ya tafsiri zinazowezekana, mara nyingi inafaa zaidi kurejelea entropy yake. Kiashiria hiki kinapima ukosefu wa ujuzi wa wachambuzi kuhusu usanidi halisi wa shughuli. Kwa maneno mengine, juu ya entropy, inakuwa vigumu zaidi kwa wachambuzi kutambua mtiririko wa bitcoins kati ya pembejeo na matokeo.
+Wakati muamala unawasilisha idadi kubwa ya tafsiri zinazowezekana, mara nyingi ni bora zaidi kurejelea entropy yake. Kiashiria hiki hupima ukosefu wa ujuzi wa wachambuzi kuhusu usanidi halisi wa muamala. Kwa maneno mengine, kadri entropy inavyokuwa juu, ndivyo inavyokuwa vigumu zaidi kwa wachambuzi kutambua mtiririko wa bitcoins kati ya pembejeo na matokeo.
 
-Katika mazoezi, entropy huonyesha kama, kutoka kwa mtazamo wa mtazamaji wa nje, shughuli inawasilisha tafsiri nyingi zinazowezekana, kulingana na kiasi cha pembejeo na matokeo, bila kuzingatia mifumo mingine ya nje au ya ndani na Legacy (Urithi). Kwa hivyo entropy ya juu ni sawa na usiri mkubwa zaidi wa shughuli.
+Katika mazoezi, entropy huonyesha ikiwa, kutoka kwa mtazamo wa mtazamaji wa nje, shughuli inawasilisha tafsiri nyingi zinazowezekana, kulingana na idadi ya pembejeo na matokeo, bila kuzingatia mifumo mingine ya nje au ya ndani na Legacy. Kwa hivyo, entropy ya juu inaashiria kiwango kikubwa cha usiri wa shughuli.
 
-Entropy inafafanuliwa kama logarithmu ya binary ya idadi ya michanganyiko inayowezekana. Hapa kuna fomula iliyotumiwa na $E$ entropy ya muamala na $C$ idadi ya tafsiri zinazowezekana:
+Entropy hufafanuliwa kama logarithmu ya binary ya idadi ya michanganyiko inayowezekana. Hapa kuna fomula inayotumika, ambapo \$E\$ ni entropy ya muamala na \$C\$ ni idadi ya tafsiri zinazowezekana:
 
 $$
 E = \log_2(C)
 $$
 
-Katika hisabati, logarithmu binary (base-2 logarithmu) ni uendeshaji kinyume wa upanuzi wa 2. Kwa maneno mengine, logariti ya binary ya $x$ ni kipeo ambacho $2$ lazima iinulishwe ili kupata $x$. Kwa hiyo kiashiria hiki kinaonyeshwa kwa bits.
+Katika hisabati, logarithmu binary (logarithmu ya msingi-2) ni operesheni kinyume ya kupandisha kwa nguvu ya 2. Kwa maneno mengine, logarithmu ya binary ya \$x\$ ni kipeo ambacho \$2\$ lazima iinuliwe ili kutoa \$x\$. Kwa hiyo, kiashiria hiki huonyeshwa kwa bits.
 
-Wacha tuchukue mfano wa hesabu ya entropy kwa shughuli ya Kuunga sarafu iliyoundwa kulingana na mfano wa Whirlpool 5x5, ambayo, kama ilivyotajwa katika sehemu iliyopita, ina tafsiri kadhaa zinazowezekana $1\,496$ :
+Wacha tuchukue mfano wa hesabu ya entropy kwa shughuli ya Kuunga sarafu iliyoundwa kulingana na mfano wa Whirlpool 5x5, ambayo, kama ilivyotajwa katika sehemu iliyopita, ina tafsiri kadhaa zinazowezekana \$1,496\$ :
 
 $$
 \begin{align*}
@@ -2287,10 +2287,9 @@ E &= 10.5469 \text{ bits}
 \end{align*}
 $$
 
-Kwa hivyo, shughuli hii ya kuunga sarafu ina entropy ya bits $ 10.5469$, ambayo inachukuliwa kuwa ya kuridhisha sana. Kadiri thamani hii inavyoongezeka, ndivyo tafsiri tofauti zaidi shughuli inavyokubali, na hivyo kuimarisha kiwango chake cha usiri.
+Kwa hivyo, shughuli hii ya kuunga sarafu ina entropy ya bits \$10.5469\$, ambayo inachukuliwa kuwa ya kuridhisha sana. Kadiri thamani hii inavyoongezeka, ndivyo tafsiri tofauti zaidi shughuli inavyokubali, na hivyo kuimarisha kiwango chake cha usiri.
 
-Kwa muamala wa kuunga sarafu 8x8 wenye tafsiri $9\,934\,563$, entropy itakuwa :
-
+Kwa muamala wa kuunga sarafu 8x8 wenye tafsiri \$9,934,563\$, entropy itakuwa:
 $$
 \begin{align*}
 C &= 9\,934\,563 \\
@@ -2299,12 +2298,11 @@ E &= 23.244 \text{ bits}
 \end{align*}
 $$
 
-Hebu tuchukue mfano mwingine na shughuli ya awali ya malipo, yenye ingizo 1 na matokeo 2: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://GW- 906.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
+Hebu tuchukue mfano mwingine na shughuli ya awali ya malipo, yenye ingizo 1 na matokeo 2: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://GW-906.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
 ![BTC204](assets/fr/162.webp)
 
-Kwa upande wa muamala huu, tafsiri pekee inayowezekana ni: `(In.0) > (Out.0 ; Out.1)`. Kwa hivyo, entropy yake ni $0$ :
-
+Kwa upande wa muamala huu, tafsiri pekee inayowezekana ni: `(In.0) > (Out.0 ; Out.1)`. Kwa hivyo, entropy yake ni \$0\$ :
 $$
 \begin{align*}
 C &= 1 \\
@@ -2313,25 +2311,23 @@ E &= 0 \text{ bits}
 \end{align*}
 $$
 
-### Ufanisi
+### **Ufanisi**
 
 Kulingana na entropy ya muamala, tunaweza pia kukokotoa ufanisi wake kulingana na usiri. Kiashirio hiki hutathmini ufanisi wa muamala kwa kuulinganisha na muamala bora zaidi ambao unaweza kuzingatiwa katika usanidi unaofanana.
 
-Hii inatuleta kwenye dhana ya entropy ya juu zaidi, ambayo inalingana na entropy ya juu zaidi ambayo muundo maalum wa shughuli unaweza kufikia kinadharia. Ufanisi wa muamala kisha huhesabiwa kwa kulinganisha entropy hii ya juu zaidi na entropy halisi ya shughuli inayochanganuliwa.
+Hii inatuleta kwenye dhana ya entropy ya juu zaidi, ambayo inalingana na entropy ya juu zaidi ambayo muundo maalum wa muamala unaweza kufikia kinadharia. Ufanisi wa muamala kisha huhesabiwa kwa kulinganisha entropy hii ya juu zaidi na entropy halisi ya muamala unaochanganuliwa.
 
-Mbinu inayotumika ni kama ifuatavyo:
+**Mbinu inayotumika ni kama ifuatavyo:**
 
-
-- e_R$: entropy halisi ya shughuli iliyoonyeshwa kwa bits;
-- e_M$: upeo unaowezekana wa entropy kwa muundo wa shughuli, pia umeonyeshwa kwa bits;
-- $Ef$: ufanisi wa ununuzi katika bits :
+* \$e\_R\$: entropy halisi ya muamala iliyoonyeshwa kwa bits;
+* \$e\_M\$: upeo unaowezekana wa entropy kwa muundo wa muamala, pia umeonyeshwa kwa bits;
+* \$Ef\$: ufanisi wa muamala katika bits:
 
 $$
 Ef = E_R - E_M
 $$
 
-Kwa mfano, kwa muundo wa Whirlpool 5x5 kuunga sarafu, entropy ya juu ni $10.5469$ :
-
+Kwa mfano, kwa muundo wa Whirlpool 5x5 wa kuunga sarafu, entropy ya juu ni \$10.5469\$:
 $$
 \begin{align*}
 E_R &= 10.5469 \\
@@ -2342,7 +2338,18 @@ Ef &= 0 \text{ bits}
 \end{align*}
 $$
 
-Kiashiria hiki pia kinaonyeshwa kama asilimia. Formula iliyotumika ni kama ifuatavyo:
+**Kiashiria hiki pia kinaonyeshwa kama asilimia.**
+Formula iliyotumika ni kama ifuatavyo:
+
+$$
+Ef\% = \frac{E_R}{E_M} \times 100
+$$
+
+Ambapo:
+
+* \$Ef%\$ ni ufanisi wa muamala kwa asilimia,
+* \$E\_R\$ ni entropy halisi ya muamala,
+* \$E\_M\$ ni entropy ya juu zaidi inayowezekana kwa muundo wa muamala.
 
 
 - c_R$ : idadi ya tafsiri halisi zinazowezekana;
@@ -2359,16 +2366,20 @@ $$
 
 Ufanisi wa $100 unaonyesha kuwa muamala unatumia vyema uwezo wake wa usiri, kulingana na muundo wake.
 
-### Uzani wa Entropy
+### **Uzani wa Entropy**
 
-Entropy ni kiashirio kizuri cha kupima usiri wa muamala, lakini inategemea kwa kiasi fulani idadi ya pembejeo na matokeo katika muamala. Ili kulinganisha entropy ya shughuli 2 tofauti na nambari tofauti za pembejeo na matokeo, tunaweza kuhesabu msongamano wa entropy. Kiashiria hiki hutoa mtazamo juu ya entropy jamaa kwa kila pembejeo au matokeo ya shughuli. Msongamano ni muhimu kwa kutathmini na kulinganisha ufanisi wa shughuli za ukubwa tofauti.
+Entropy ni kiashirio kizuri cha kupima usiri wa muamala, lakini inategemea kwa kiasi fulani idadi ya pembejeo na matokeo katika muamala. Ili kulinganisha entropy ya muamala miwili tofauti yenye idadi tofauti ya pembejeo na matokeo, tunaweza kuhesabu msongamano wa entropy. Kiashiria hiki hutoa mtazamo juu ya entropy jamaa kwa kila pembejeo au matokeo ya muamala. Msongamano ni muhimu kwa kutathmini na kulinganisha ufanisi wa miamala ya ukubwa tofauti.
 
 Ili kuihesabu, tunagawanya tu jumla ya entropy ya muamala kwa jumla ya idadi ya ingizo na matokeo yanayohusika katika muamala:
 
 
-- e_D$: msongamano wa entropy ulioonyeshwa kwa bits;
-- e$: entropy ya shughuli iliyoonyeshwa kwa bits;
-- t$: jumla ya idadi ya pembejeo na matokeo katika muamala:
+- * \$e\_D\$: msongamano wa entropy ulioonyeshwa kwa bits;
+* \$e\$: entropy ya muamala iliyoonyeshwa kwa bits;
+* \$t\$: jumla ya idadi ya pembejeo na matokeo katika muamala:
+
+$$
+e_D = \frac{e}{t}
+$$
 
 $$
 E_D = \frac{E}{T}
@@ -2398,13 +2409,13 @@ E_D &= 1.453 \text{ bits}
 \end{align*}
 $$
 
-Kwa kuchambua msongamano wa entropy wa aina hizi mbili za Kuunga sarafu, inakuwa wazi kwamba, hata wakati wa kuhalalisha entropy kwa idadi ya Vipengele, "Surge Cycle 8x8" kuunga sarafu hutoa kutokuwa na uhakika zaidi kwa uchambuzi.
+Kwa kuchambua msongamano wa entropy wa aina hizi mbili za Kuunga sarafu, inakuwa wazi kwamba, hata wakati wa kuhalalisha entropy kwa idadi ya element, "Surge Cycle 8x8" kuunga sarafu hutoa kutokuwa na uhakika zaidi kwa uchambuzi.
 
 ### Bao la Boltzmann
 
-Sehemu nyingine ya habari iliyochanganuliwa katika shughuli ni alama ya Boltzmann ya kila kipengele kinachohusiana na kingine. Hili ni jedwali la uwezekano wa kulinganisha kati ya pembejeo na matokeo. Jedwali hili linaonyesha, kupitia alama ya Boltzmann, uwezekano wa masharti kwamba ingizo mahususi limeunganishwa na matokeo fulani. Kwa hiyo ni kipimo cha kiasi cha uwezekano wa masharti kwamba ushirikiano kati ya ingizo na pato katika shughuli itatokea, kulingana na uwiano wa idadi ya matukio mazuri ya tukio hili kwa jumla ya idadi ya matukio iwezekanavyo, katika seti ya tafsiri.
+Sehemu nyingine ya habari iliyochanganuliwa katika muamala ni alama ya Boltzmann ya kila element inayohusiana na nyingine. Hili ni jedwali la uwezekano wa kulinganisha kati ya pembejeo na matokeo. Jedwali hili linaonyesha, kupitia alama ya Boltzmann, uwezekano wa masharti kwamba ingizo mahususi limeunganishwa na matokeo fulani. Kwa hiyo ni kipimo cha kiasi cha uwezekano wa masharti kwamba ushirikiano kati ya ingizo na pato katika muamala utatokea, kulingana na uwiano wa idadi ya matukio mazuri ya tukio hili kwa jumla ya idadi ya matukio iwezekanavyo, katika seti ya tafsiri.
 
-Kwa kutumia mfano wa Whirlpool Kuunga sarafu, jedwali la uwezekano wa masharti lingeangazia uwezekano wa kiungo kati ya kila ingizo na pato, likitoa kipimo cha kiasi cha utata wa vyama katika shughuli ya ununuzi:
+Kwa kutumia mfano wa Whirlpool Kuunga sarafu, jedwali la uwezekano wa masharti lingeangazia uwezekano wa kiungo kati ya kila ingizo na pato, likitoa kipimo cha kiasi cha utata wa vyama katika muamala wa ununuzi.
 
 | % | Pato 0 | Pato 1 | Pato 2 | Pato 3 | Pato 4 |
 
@@ -2422,7 +2433,13 @@ Kwa kutumia mfano wa Whirlpool Kuunga sarafu, jedwali la uwezekano wa masharti l
 
 Kwa wazi, kila ingizo lina nafasi sawa ya kuhusishwa na matokeo yoyote, ambayo huimarisha usiri wa muamala.
 
-Alama ya Boltzmann inakokotolewa kwa kugawanya idadi ya tafsiri ambazo tukio fulani hutokea kwa jumla ya idadi ya tafsiri zilizopo. Kwa hivyo, ili kubaini alama inayohusisha ingizo #0 na pato #3 (tukio lililopo katika tafsiri za $512$), tunaendelea kama ifuatavyo:
+Alama ya Boltzmann inakokotolewa kwa kugawanya idadi ya tafsiri ambazo tukio fulani hutokea kwa jumla ya idadi ya tafsiri zilizopo. Kwa hivyo, ili kubaini alama inayohusisha ingizo #0 na pato #3 (tukio lililopo katika tafsiri za \$512\$), tunaendelea kama ifuatavyo:
+
+$$
+\text{Boltzmann} = \frac{\text{Idadi ya tafsiri zinazowezesha (In.0 > Out.3)}}{\text{Jumla ya tafsiri zote}} = \frac{512}{1496} = 0.3424
+$$
+
+Hii inaonyesha kuwa kuna uwezekano wa asilimia 34.24% kwamba ingizo #0 linaweza kuhusishwa na pato #3, kulingana na tafsiri zilizopo katika usanidi wa muamala huu.
 
 $$
 \begin{align*}
@@ -2455,7 +2472,13 @@ Ikiwa tutachukua mfano wa Whirlpool 8x8 Surge Cycle kuunga sarafu, jedwali la Bo
 
 | KATIKA.7 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-Walakini, katika kesi ya shughuli rahisi na pembejeo moja na matokeo 2, hali ni tofauti:
+Walakini, katika kesi ya muamala rahisi na pembejeo moja na matokeo 2, hali ni tofauti:
+
+$$
+\text{Boltzmann} = \frac{1}{1} = 1
+$$
+
+Hii inaonyesha kuwa kuna tafsiri moja tu inayowezekana (yaani, ingizo linahusiana na matokeo yote), na kwa hivyo usiri wa muamala huo ni hafifu sana. Boltzmann ya 1 inamaanisha hakuna kutokuwa na uhakika kwa mtazamaji wa nje – kila uhusiano kati ya ingizo na pato unajulikana wazi.
 
 | Pato 0 | Pato 1 |
 
@@ -2467,40 +2490,41 @@ Hapa, tunaona kwamba uwezekano wa kila pato linalotokana na pembejeo #0 ni 100%.
 
 ### Viungo vya kuamua
 
-Tunaweza pia kuhesabu idadi ya viungo vya kuamua katika shughuli ya ununuzi. Kiashiria hiki kinaonyesha ni miunganisho mingapi kati ya pembejeo na matokeo katika shughuli iliyochanganuliwa isiyo na shaka, na uwezekano wa 100%. Kiashiria hiki kinaweza kukamilika kwa kuhesabu uwiano wa viungo vya kuamua. Uwiano huo unatoa mtazamo wa uzito wa viungo hivi bainifu ndani ya jumla ya viungo vya muamala.
+Tunaweza pia kuhesabu idadi ya viungo vya kuamua katika muamala wa ununuzi. Kiashiria hiki kinaonyesha ni miunganisho mingapi kati ya pembejeo na matokeo katika muamala uliyochanganuliwa isiyo na shaka, na uwezekano wa 100%. Kiashiria hiki kinaweza kukamilishwa kwa kuhesabu uwiano wa viungo vya kuamua. Uwiano huo unatoa mtazamo wa uzito wa viungo hivi bainifu ndani ya jumla ya viungo vya muamala.
 
-Kwa mfano, shughuli ya Whirlpool kuunga sarafu haina viungo vya kuamua kati ya pembejeo na matokeo, na kwa hiyo inaonyesha kiashiria cha viungo 0 na uwiano wa 0%. Kinyume chake, katika shughuli yetu ya pili rahisi ya malipo iliyochunguzwa (kwa pembejeo moja na matokeo 2), kiashiria kinatuambia kuwa kuna viungo 2 vya kuamua, na uwiano unafikia 100%. Kwa maneno mengine, kiashiria cha sifuri kinaonyesha usiri bora, shukrani kwa kukosekana kwa viungo vya moja kwa moja na visivyoweza kuepukika kati ya pembejeo na matokeo.
+Kwa mfano, muamala wa Whirlpool wa kuunga sarafu hauna viungo vya kuamua kati ya pembejeo na matokeo, na kwa hivyo unaonyesha kiashiria cha viungo 0 na uwiano wa 0%. Kinyume chake, katika muamala wetu wa pili rahisi wa malipo uliyochunguzwa (kwa pembejeo moja na matokeo 2), kiashiria kinatuambia kuwa kuna viungo 2 vya kuamua, na uwiano unafikia 100%. Kwa maneno mengine, kiashiria cha sifuri kinaonyesha usiri bora, shukrani kwa kukosekana kwa viungo vya moja kwa moja na visivyoweza kuepukika kati ya pembejeo na matokeo.
 
 ### Je, unahesabu vipi viashiria hivi?
 
-Kuhesabu viashirio hivi kwa mikono kwa kutumia milinganyo ambayo nimetoa ni moja kwa moja. Ugumu upo hasa katika kuamua idadi ya tafsiri zinazowezekana za muamala. Kwa shughuli ya classic, hesabu hii inaweza kufanywa kwa mkono. Kwa kuunga sarafu, hata hivyo, kazi ni ngumu zaidi.
+Kuhesabu viashiria hivi kwa mikono kwa kutumia milinganyo ambayo nimetoa ni moja kwa moja. Ugumu upo hasa katika kuamua idadi ya tafsiri zinazowezekana za muamala. Kwa muamala wa kawaida (classic), hesabu hii inaweza kufanywa kwa mkono. Kwa kuunga sarafu, hata hivyo, kazi ni ngumu zaidi.
 
-Hapo awali, kulikuwa na zana ya Python inayoitwa _Boltzmann Calculator_, iliyotengenezwa na timu za OXT na Samourai, ambayo ilihesabu kiashirio hiki kiotomatiki kwa shughuli ya Bitcoin :
+Hapo awali, kulikuwa na zana ya Python inayoitwa *Boltzmann Calculator*, iliyotengenezwa na timu za OXT na Samourai, ambayo ilihesabu kiashiria hiki kiotomatiki kwa muamala wa Bitcoin.
 
 ![BTC204](assets/fr/163.webp)
 
-Pia iliwezekana kutumia tovuti ya KYCP.org kwa uchanganuzi huu:
+Pia iliwezekana kutumia tovuti ya [KYCP.org](https://kycp.org) kwa uchanganuzi huu.
 
 ![BTC204](assets/fr/164.webp)
 
 Kwa bahati mbaya, kufuatia kukamatwa kwa waanzilishi wa Samourai, zana hizi hazifanyi kazi tena.
 
-Kwa kuwa sasa tumeangazia sainjoins kwa kina, tutaangalia mbinu zingine za faragha zinazopatikana kwenye Bitcoin katika sehemu ya mwisho ya kozi yetu. Tutaangalia viungo vya malipo, aina maalum za shughuli za pseudo-CoinJoin, itifaki tuli za Anwani (address), pamoja na hatua za kuimarisha usiri sio kwa kiwango cha shughuli yenyewe, lakini kwa kiwango cha mtandao wa nodi.
+Kwa kuwa sasa tumeangazia sainjoins kwa kina, tutaangalia mbinu zingine za faragha zinazopatikana kwenye Bitcoin katika sehemu ya mwisho ya kozi yetu. Tutaangalia viungo vya malipo, aina maalum za miamala ya pseudo-CoinJoin, itifaki tuli za Anwani (address), pamoja na hatua za kuimarisha usiri sio kwa kiwango cha muamala yenyewe, lakini kwa kiwango cha mtandao wa nodi.
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+[https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+
 # Kuelewa changamoto za mbinu zingine za hali ya juu za usiri
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
-## ulipaji kujiunga shughuli
+## ulipaji kujiunga miamala
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-Kuunga sarafu kwa sasa ndiyo njia mwafaka zaidi ya kutambulisha kutokuwa na uhakika katika ufuatiliaji wa sehemu katika uchanganuzi wa mnyororo. Kama tulivyoona katika sura zilizopita, ili kupata mchanganyiko wa utendaji wa juu, pembejeo na matokeo lazima yawe sawa iwezekanavyo. Kwa kuongeza, ni muhimu kwamba sehemu ziunganishwe katika kundi kubwa iwezekanavyo ili kuongeza anonsets. Kwa hivyo, ili kuunga sarafu ziwe na ufanisi, lazima zihusishe idadi kubwa ya sehemu za sare. Wingi huu wa mahitaji unamaanisha kuwa shughuli za Kuunga sarafu zina muundo mgumu sana: kiasi hupangwa mapema, na washiriki wote lazima wazingatie ili kuhakikisha usawa wa mchakato. Kwa kuongeza, kuunga sarafu zinahitaji maingiliano kati ya washiriki wote na mratibu wakati wa ujenzi wa shughuli.
+Kuunga sarafu kwa sasa ndiyo njia mwafaka zaidi ya kutambulisha kutokuwa na uhakika katika ufuatiliaji wa sehemu katika uchanganuzi wa mnyororo. Kama tulivyoona katika sura zilizopita, ili kupata mchanganyiko wa utendaji wa juu, pembejeo na matokeo lazima yawe sawa iwezekanavyo. Kwa kuongeza, ni muhimu kwamba sehemu ziunganishwe katika kundi kubwa iwezekanavyo ili kuongeza anonsets. Kwa hivyo, ili kuunga sarafu ziwe na ufanisi, lazima zihusishe idadi kubwa ya sehemu za sare. Wingi huu wa mahitaji unamaanisha kuwa miamala ya Kuunga sarafu ina muundo mgumu sana: kiasi hupangwa mapema, na washiriki wote lazima wazingatie ili kuhakikisha usawa wa mchakato. Kwa kuongeza, kuunga sarafu zinahitaji maingiliano kati ya washiriki wote na mratibu wakati wa ujenzi wa muamala.
 
-Mahitaji haya hufanya Kuunga sarafu isifae kwa malipo ya moja kwa moja. Kwa mfano, ikiwa una sarafu ya 1M Sats kwenye bwawa la Kuunga sarafu, kuitumia moja kwa moja kama malipo itakuwa ngumu. Itahitaji kusawazisha na washiriki wengine na mratibu ili kuunda muamala shirikishi kwa usahihi wakati unahitaji kufanya malipo, na kiasi cha ununuzi kitalazimika kuendana haswa na thamani ya sarafu yako, ambayo kwa hakika haiwezekani. Kwa hivyo, muamala wa Kuunga sarafu kwa asili yake ni shughuli ya kufagia shirikishi, yaani, kwa kawaida huwa ni wamiliki wale wale wa pembejeo tunazopata katika matokeo.
+Mahitaji haya hufanya Kuunga sarafu isifae kwa malipo ya moja kwa moja. Kwa mfano, ikiwa una sarafu ya 1M Sats kwenye bwawa la Kuunga sarafu, kuitumia moja kwa moja kama malipo itakuwa ngumu. Itahitaji kusawazisha na washiriki wengine na mratibu ili kuunda muamala shirikishi kwa usahihi wakati unahitaji kufanya malipo, na kiasi cha ununuzi kitalazimika kuendana haswa na thamani ya sarafu yako, ambayo kwa hakika haiwezekani. Kwa hivyo, muamala wa Kuunga sarafu kwa asili yake ni muamala wa kufagia shirikishi, yaani, kwa kawaida huwa ni wamiliki wale wale wa pembejeo tunazopata katika matokeo.
 
-Hata hivyo, itakuwa ya kuvutia kuwa na miundo ya shughuli ambayo inaruhusu malipo kufanywa kwa njia ya vitendo, wakati huo huo kuanzisha shaka katika uchanganuzi wa minyororo. Hili ndilo hasa tutakalokuwa tukiangalia katika sura hii na inayofuata.
+Hata hivyo, itakuwa ya kuvutia kuwa na miundo ya muamala ambayo inaruhusu malipo kufanywa kwa njia ya vitendo, wakati huo huo kuanzisha shaka katika uchanganuzi wa minyororo. Hili ndilo hasa tutakalokuwa tukiangalia katika sura hii na inayofuata.
 
 ### Muamala wa ulipaji wa kujiunga ni nini?
 
@@ -2509,31 +2533,31 @@ Ulipaji wa kujiunga ni muundo mahususi wa muamala wa Bitcoin ambao huongeza fara
 Mnamo mwaka wa 2015, LaurentMT alitaja kwa mara ya kwanza mbinu hii kwa jina la "*steganographic transactions*", kulingana na hati inayopatikana [hapa](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Mbinu hii baadaye ilikubaliwa na pochi ya Samourai Wallet, ambayo mwaka 2018 ilikuwa mteja wa kwanza kuitekeleza kwa kutumia zana ya Stowaway. Wazo la payjoin pia linapatikana katika [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki), na [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Istilahi kadhaa hutumiwa kuelezea payjoin:
 
 - PayJoin (malipo ya kujiunga);
-- Stowaway;
-- P2EP (*Pay-to-End-Point*) ;
-- Shughuli ya Steganographic.
+-Stowaway;
+- P2EP (*Pay-to-End-Point*);
+- Muamala wa Steganographic.
+  
+Kipengele maalum cha PayJoin kiko katika uwezo wake wa kuunda muamala unaoonekana wa kawaida kwa mtazamo wa kwanza, lakini kwa kweli ni aina ndogo ya Kuunga sarafu kati ya watu wawili. Ili kufanikisha hili, muundo wa muamala unahusisha mpokeaji malipo kama pembejeo pamoja na mtumaji halisi. Kwa hivyo, mpokeaji hujumuisha malipo yake mwenyewe ndani ya muamala, ambao unamwezesha kupokea malipo.
 
-Kipengele maalum cha kulipa kujiunga kiko katika uwezo wake wa generate shughuli ambayo inaonekana ya kawaida kwa mtazamo wa kwanza, lakini kwa kweli ni mini kuunga sarafu kati ya watu wawili. Ili kufanikisha hili, muundo wa muamala unahusisha mpokeaji malipo katika pembejeo pamoja na mtumaji halisi. Kwa hivyo mpokeaji hujumuisha malipo kwake mwenyewe katikati ya shughuli ambayo yenyewe inamwezesha kulipwa.
-
-Hebu tuchukue mfano ili kuelewa vizuri mchakato huu. Alice ananunua baguette kwa 4,000 Sats kwa kutumia UTXO ya 10,000 Sats na kuchagua kulipa kujiunga. Mwokaji wake, Bob, anaongeza UTXO ya 15,000 Sats yake kama pembejeo, ambayo anaipata kikamilifu kama pato, pamoja na 4,000 Sats ya Alice.
+Hebu tuchukue mfano kuelewa mchakato huu vizuri. Alice ananunua baguette kwa 4,000 Sats kwa kutumia UTXO ya 10,000 Sats na kuchagua kutumia PayJoin. Mwokaji wake, Bob, anaongeza UTXO yake ya 15,000 Sats kama pembejeo, ambayo anapokea kikamilifu kama pato, pamoja na 4,000 Sats kutoka kwa Alice.
 
 ![BTC204](assets/fr/165.webp)
 
-Katika mfano huu, Bob mwokaji huingia 15,000 Sats katika pembejeo na kuondoka na 19,000 Sats, tofauti ni hasa 4,000 Sats, yaani bei ya baguette. Kwa upande wa Alice, anaingia 10,000 Sats na kuishia na 6,000 Sats katika pato, ambayo inawakilisha usawa wa -4,000 Sats, yaani bei ya baguette. Ili kurahisisha mfano, nimeacha kwa makusudi gharama za Mining katika muamala huu.
+Katika mfano huu, Bob mwokaji anaingia pembejeo ya Sats 15,000 na anatoa pato la Sats 19,000, tofauti ikiwa ni hasa Sats 4,000, yaani bei ya baguette. Kwa upande wa Alice, anaingia Sats 10,000 na kuishia na Sats 6,000 katika pato, ambayo inaonyesha usawa wa -Sats 4,000, yaani bei ya baguette. Ili kurahisisha mfano, nimeacha makusudi ada za Mining katika muamala huu.
 
-### Ulipaji wa kujiunga ni wa nini?
+### Ulipaji wa Kujiunga ni Nini?
 
-Muamala wa kulipa kujiunga unatimiza malengo mawili, kuwezesha watumiaji kuimarisha usiri wa malipo yao.
+Muamala wa Ulipaji wa Kujiunga unatimiza malengo mawili: kuwezesha watumiaji kuongeza faragha ya malipo yao.
 
-Kwanza, kulipa kujiunga kunalenga kupotosha mwangalizi wa nje kwa kuunda chambo katika uchanganuzi wa mnyororo. Hili linawezekana na Legacy (Urithi) wa CIOH  (*Ingizo la Kawaida Ownership Heuristic*). Kama tulivyoona katika sehemu ya 3, kwa kawaida, wakati shughuli kwenye Blockchain ina pembejeo kadhaa, inachukuliwa kuwa pembejeo hizi zote ni za huluki moja au mtumiaji.
+Kwanza, Ulipaji wa Kujiunga unalenga kupotosha mtazamaji wa nje kwa kuleta utata katika uchanganuzi wa mnyororo. Hili linawezekana kwa kuvunja CIOH (*Common Input Ownership Heuristic*). Kama tulivyoona katika sehemu ya 3, kawaida, muamala wa Blockchain wenye pembejeo nyingi unachukuliwa kuwa pembejeo zote ni za pochi moja au mtumiaji mmoja.
 
-Kwa hiyo, wakati mchambuzi anachunguza shughuli ya kulipa kujiunga, anaongozwa kuamini kwamba pembejeo zote zinatoka kwa mtu mmoja. Hata hivyo, mtazamo huu si sahihi, kwa sababu mlipaji pia huchangia pembejeo pamoja na mlipaji halisi. Uchanganuzi wa mnyororo kwa hivyo unaelekezwa kwa tafsiri ambayo inageuka kuwa sio sawa.
+Kwa hiyo, wakati mchambuzi anachunguza muamala wa Ulipaji wa Kujiunga, anaongozwa kuamini kwamba pembejeo zote zinatoka kwa mtu mmoja. Hata hivyo, mtazamo huu si sahihi, kwa sababu mlipaji pia huchangia pembejeo pamoja na mpokeaji halisi. Uchanganuzi wa mnyororo kwa hivyo unaelekezwa kwa tafsiri ambayo si sahihi.
 
-Hebu tuchukue mfano wetu wa shughuli ya kulipa kujiunga ya malipo ya baguette:
+Hebu tuchukue mfano wetu wa muamala wa Ulipaji wa Kujiunga wa malipo ya baguette:
 
 ![BTC204](assets/fr/166.webp)
 
-Kuona muamala huu kwenye Blockchain, mtazamaji wa nje anayefuata utabiri wa kawaida wa uchanganuzi wa Blockchain atatoa tafsiri ifuatayo: "*Alice aliunganisha UTXO 2 kama pembejeo za muamala ili kulipa 19,000 Sats kwa Bob*".
+Kuona muamala huu kwenye Blockchain, mtazamaji wa nje anayefuata utabiri wa kawaida wa uchanganuzi wa Blockchain atatoa tafsiri ifuatayo: "*Alice aliunganisha UTXO 2 kama pembejeo za muamala ili kulipa Sats 19,000 kwa Bob*".
 
 ![BTC204](assets/fr/167.webp)
 
@@ -2541,13 +2565,13 @@ Ufafanuzi huu ni wazi sio sahihi, kwa sababu kama unavyojua tayari, UTXO mbili k
 
 ![BTC204](assets/fr/168.webp)
 
-Kwa njia hii, uchanganuzi wa mwangalizi wa nje unaelekezwa kwenye hitimisho potofu, kuhakikisha kuwa usiri wa washikadau unahifadhiwa.
+Kwa njia hii, uchanganuzi wa mtazamaji wa nje unaelekezwa kwenye hitimisho potofu, kuhakikisha kwamba usiri wa washikadau unahifadhiwa.
 
-### Shughuli ya steganographic
+### Muamala wa steganographic
 
-Madhumuni ya pili ya Kulipa kujiunga ni kupotosha mwangalizi wa nje kuhusu kiasi halisi cha malipo ambayo yamefanywa. Kwa kuchunguza muundo wa muamala, mchambuzi anaweza kuamini kuwa malipo ni sawa na kiasi cha moja ya matokeo.
+Madhumuni ya pili ya Ulipaji wa Kujiunga ni kupotosha mtazamaji wa nje kuhusu kiasi halisi cha malipo yaliyofanywa. Kwa kuchunguza muundo wa muamala, mchambuzi anaweza kuamini kuwa malipo ni sawa na kiasi cha moja ya matokeo.
 
-Ikiwa tunarudi kwenye mfano wetu wa ununuzi wa baguette, mchambuzi atafikiri kwamba kiasi cha malipo kinalingana na UTXO ya 6,000 Sats, au kwa UTXO ya 19,000 Sats. Katika kesi hii, mchambuzi afadhali kufikiria kuwa kiasi cha malipo ni 19,000 Sats, kwa sababu kuna UTXO 2 katika matokeo, angalau moja ambayo ni kubwa kuliko 6,000 Sats (hakuna sababu ya kimantiki ya kutumia UTXOs 2 kulipa 6,000 Sats ya kutosha kwa Sats ya kutosha kwa malipo haya ya kutosha6).
+Ikiwa tunarudi kwenye mfano wetu wa ununuzi wa baguette, mtazamaji atafikiri kuwa kiasi cha malipo kinalingana na UTXO ya 6,000 Sats, au kwa UTXO ya 19,000 Sats. Katika kesi hii, mtazamaji atapendelea kufikiria kuwa kiasi cha malipo ni 19,000 Sats, kwa sababu kuna UTXO 2 katika matokeo, angalau moja ikiwa ni kubwa kuliko 6,000 Sats (hakuna sababu ya kimantiki kutumia UTXOs 2 kulipa 6,000 Sats kwa malipo haya ya kutosha).
 
 ![BTC204](assets/fr/169.webp)
 
@@ -2555,21 +2579,21 @@ Lakini kwa ukweli, uchambuzi huu una kasoro. Kiasi cha malipo hakilingani na mat
 
 ![BTC204](assets/fr/170.webp)
 
-Katika suala hili, shughuli ya Kulipa kujiunga inaangukia katika uwanja wa steganografia. Huruhusu kiasi halisi cha muamala kufichwa ndani ya muamala ghushi unaofanya kazi kama udanganyifu.
+Katika suala hili, muamala wa PayJoin unaangukia katika uwanja wa steganografia. Huruhusu kiasi halisi cha muamala kufichwa ndani ya muamala bandia unaofanya kazi kama udanganyifu.
 
-Steganografia ni mbinu ya kuficha habari ndani ya data au vitu vingine, ili uwepo wa habari iliyofichwa usionekane. Kwa mfano, ujumbe wa siri unaweza kufichwa ndani ya kitone katika maandishi yasiyohusiana, na kuifanya isionekane kwa macho (hii ndiyo mbinu ya [microdot](https://fr.wikipedia.org/wiki/Micropoint).
+Steganografia ni mbinu ya kuficha habari ndani ya data au vitu vingine, ili uwepo wa habari iliyofichwa usionekane. Kwa mfano, ujumbe wa siri unaweza kufichwa ndani ya kitone katika maandishi yasiyohusiana, na kuifanya isionekane kwa macho (hii ndiyo mbinu ya [microdot](https://fr.wikipedia.org/wiki/Micropoint)).
 
-Tofauti na usimbaji fiche, ambao hufanya maelezo kutoeleweka bila ufunguo wa kusimbua, steganography haibadilishi habari. Inabaki kuonyeshwa kwa maandishi wazi. Badala yake, lengo lake ni kuficha uwepo wa ujumbe huo wa siri, ilhali usimbaji fiche unaonyesha wazi uwepo wa habari iliyofichwa, ingawa haiwezi kufikiwa bila ufunguo. Ndio maana jina la asili ya kulipa kujiunga ilikuwa "shughuli za steganografia".
+Tofauti na usimbaji fiche, ambao hufanya maelezo kutoeleweka bila ufunguo wa kusimbua, steganografia haibadilishi habari. Inabaki kuonyeshwa kwa maandishi wazi. Badala yake, lengo lake ni kuficha uwepo wa ujumbe huo wa siri, ilhali usimbaji fiche unaonyesha wazi uwepo wa habari iliyofichwa, ingawa haiwezi kufikiwa bila ufunguo. Ndio maana jina la asili la malipo ya kujiunga lilikuwa "miamala ya steganografia".
 
-Mfano unaweza kuchorwa kati ya kriptografia na SCoinjoin (arafu ya kujiunga), na kati ya steganografia na Kulipa kujiunga. kuunga sarafu ina sifa sawa na usimbaji fiche: njia hiyo inatambulika, lakini maelezo hayawezi kuelezeka. Kinyume chake, Kulipa kujiunga ni sawa na steganografia: habari inapatikana kwa kinadharia, lakini kwa kuwa njia ya kuficha haijatambui, inakuwa haipatikani.
+Mfano unaweza kuchorwa kati ya kriptografia na CoinJoin (kuunga sarafu), na kati ya steganografia na PayJoin (malipo ya kujiunga). Kuunga sarafu ina sifa sawa na usimbaji fiche: njia hiyo inatambulika, lakini maelezo hayawezi kueleweka. Kinyume chake, malipo ya kujiunga ni sawa na steganografia: habari inapatikana kwa kinadharia, lakini kwa kuwa njia ya kuficha haijatambuliwa, inakuwa haipatikani.
 
-### Je, ninatumiaje Ulipaji wa kujiunga?
+### Je, ninatumiaje PayJoin?
 
-Programu zinazojulikana zinazotumia PayJoin ni pamoja na Pochi la Sparrow, Pochi la Wasabi, Mutiny, BitMask, BlueWallet na JoinMarket, pamoja na kichakataji malipo cha ulipaji wa BTC.
+Wallet maarufu zinazotumia PayJoin ni pamoja na Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet, na JoinMarket, pamoja na wachakataji malipo wa BTC.
 
 ![BTC204](assets/fr/171.webp)
 
-Utekelezaji wa hali ya juu zaidi wa kulipa kujiunga ulikuwa Stowaway pekee kwenye Pochi la Samourai. Hata hivyo, tangu kukamatwa kwa waanzilishi wa programu, chombo hiki sasa kinafanya kazi kwa sehemu tu. Faida ya Stowaway ni kwamba ni itifaki ya kina, na rahisi kutumia, ambayo inasaidia kupokea na kutuma viungo vya malipo. Miamala iliyotiwa sahihi kiasi inaweza kubadilishwa wewe mwenyewe kwa kuchanganua misimbo kadhaa ya QR, au kiotomatiki na Tor kupitia Soroban. Chaguo la mwisho la mawasiliano halitumiki kwa sasa.
+Utekelezaji wa hali ya juu zaidi wa PayJoin ulikuwa Stowaway pekee kwenye Sparrow Wallet. Hata hivyo, tangu kukamatwa kwa waanzilishi wa programu, chombo hiki sasa kinafanya kazi kwa sehemu tu. Faida ya Stowaway ni kwamba ni itifaki ya kina, na rahisi kutumia, ambayo inasaidia kupokea na kutuma viungo vya malipo. Miamala iliyotiwa sahihi kiasi inaweza kubadilishwa wewe mwenyewe kwa kuchanganua misimbo kadhaa ya QR, au kiotomatiki na Tor kupitia Soroban. Chaguo la mwisho la mawasiliano halitumiki kwa sasa.
 
 ![BTC204](assets/fr/172.webp)
 

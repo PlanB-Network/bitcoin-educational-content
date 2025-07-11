@@ -845,7 +845,11 @@ Graine et phrase mnémotechnique d'Electrum en 2012 (source : [archive](https:/
 
 Le 16 décembre, Electrum [intègre](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) la dérivation de type 2, de sorte à ce que les adresses puissent être générées, sans accès à la graine. En octobre 2012, Thomas Voegtlin [ajoute](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) également la vérification de paiement simplifiée à Electrum, ce qui en fait l'un des meilleurs portefeuilles légers de l'écosystème.
 
-Portefeuille Armory, se voulant extrêmement sécurisé, stockage à froid (https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory), il intégrera bien plus tard le multisig (https://en.bitcoin.it/wiki/Armory) ; dépôt créé le 19/11/2011 : https://api.github.com/repos/etotheipi/BitcoinArmory ; forked by goatpig in February 2016 : https://github.com/goatpig/BitcoinArmory ; annonce par Alan Reiner (etotheipi), 3/1/2012 : https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650 https://web.archive.org/web/20120113202143/https://www.bitcoinarmory.com/ ; crowdfunding, 18/2 : https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0
+---
+
+Portefeuille Armory, se voulant extrêmement sécurisé, stockage à froid (https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory), il intégrera bien plus tard le multisig (https://en.bitcoin.it/wiki/Armory) ; dépôt créé le 19/11/2011 : https://api.github.com/repos/etotheipi/BitcoinArmory ; forked by goatpig in February 2016 : https://github.com/goatpig/BitcoinArmory ; annonce par Alan Reiner (etotheipi l'exponentielle de i fois pi, qui vaut -1), 3/1/2012 : https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650 https://web.archive.org/web/20120113202143/https://www.bitcoinarmory.com/ ; crowdfunding, 18/2 : https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0
+
+Alan Reiner s'intéresse à la signature multipartite : https://en.bitcoin.it/w/index.php?title=BIP_0010&oldid=21099
 
 Pieter Wuille, BIP 32 https://github.com/bitcoin/bips/commit/be1741786684bb3a9f828b2f190ad3a0269c7ec3 https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198
 
@@ -961,75 +965,206 @@ La période a également été marquée par le développement des portefeuilles 
 
 Dans le prochain chapitre, nous continuerons à traiter la question du développement logiciel, en évoquant l'évolution du logiciel principal. Nous nous concentrerons sur le conflit autour de Pay to Script Hash, une fonctionnalité qui a été ajoutée au protocole en avril 2012.
 
++ MultiBit ? https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542
+
 # 2012
 
-## La bataille pour P2SH : la première discorde majeure (déc. 2011–avr. 2012)
+## La bataille pour Pay to Script Hash
 
-Après le départ de Satoshi Nakamoto, le développement du logiciel a été pris en charge par la communauté, qui a dû se coordonner.
+https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war
+https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/
 
-BIP 30 (Duplicate transactions, Pieter Wuille), [ajouté](https://github.com/bitcoin/bitcoin/commit/a206b0ea12eb4606b93323268fc81a4f1f952531) au code le 3 mars 2012
+Après le départ de Satoshi Nakamoto, le développement du logiciel a été pris en charge par la communauté, qui a dû se coordonner, sous la supervision de Gavin Andresen. Il est en particulier question d'améliorer la programmabilité de Bitcoin, celle-ci ayant été temporairement restreinte car aux règles de standardness.
+
+Au cours de l'hiver 2011–2012, une controverse a eu lieu autour de la mise en œuvre de la programmabilité dans Bitcoin. Celle-ci concernait, entre autres, le schéma Pay to Script Hash (P2SH). Pete Rizzo et Aaron van Wirdum [appeleraient](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) la controverse « la bataille pour P2SH » (original: "the Battle for P2SH"). Cette première discorde majeure a posé la question de la gouvernance : qui décide comment le protocole est modifié ?
 
 ### Le développement du logiciel
 
-[Wise Leader fallacy](https://gavinthink.blogspot.com/2011/04/wise-leader-fallacy.html)
+Après la sortie de la version 0.4 du logiciel le 23 septembre, qui marque la relève prise par Gavin Andresen en tant que mainteneur principal, le développement se poursuit. En particulier, une nouvelle interface graphique pour le logiciel est développée. Il s'agit de Bitcoin-Qt, qui est [développée](https://bitcointalk.org/index.php?topic=15276.msg203205#msg203205) par Wladmir van der Laan à partir de juin. Elle se base sur le framework graphique Qt en lieu et place de l'outil wxWindows utilisé par Satoshi. Celle-ci est [intégrée](https://bitcointalk.org/index.php?topic=45742.msg545547#msg545547) à la branche principale du code le 26 septembre et [présente](https://bitcointalk.org/index.php?topic=52480.msg626275#msg626275) dans la version 0.5 du logiciel qui sort le 21 novembre. Le logiciel sera d'ailleurs appelé Bitcoin-Qt/bitcoind ou Bitcoin-Qt tout court à partir de ce moment-là (bitcoind étant le démon).
 
-"The Gavinator", https://web.archive.org/web/20110709121216/http://bitcoinweekly.com/comics/the-gavinator
+![Capture de Bitcoin-Qt 0.5.2 en février 2012](assets/en/bitcoin-qt-0-5-2-screenshot-2012-wikimedia.webp.webp)
 
-Mainteneurs : Gavin Andresen, Jeff Garzik, Pieter Wuille, Wladimir van der Laan, Laszlo Hanyecz et Nils Schneider jusque sept. 2011, Greg Maxwell à partir de février 2012 (Gregory Maxwell, gmaxwell ([5/5/2011](https://bitcointalk.org/index.php?action=profile;u=11425)), premier commit : [février 2012](https://github.com/bitcoin/bitcoin/commit/5d1b8f1725f5c65a170feb44d182f9016caa9709))
+Capture de Bitcoin-Qt 0.5.2 en février 2012 (source : [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) pour Wikimedia)
 
-"Pieter discovered Bitcoin in November 2010 and became a member of the Bitcoin Core development team in May 2011." [cryptoanarchy.wiki](https://cryptoanarchy.wiki/people/pieter-wuille)
+Gavin est toujours le meneur du projet, mais il est aidé par plusieurs personnes. En octobre 2011, les développeurs attitrés du projet ([listés](https://web.archive.org/web/20111022025640/http://www.bitcoin.org/) sur Bitcoin.org) sont Gavin Andresen, Pieter Wuille, Nils Schneider, Jeff Garzik et Wladimir van der Laan. Ces développeurs sont censés représenter le logiciel de Bitcoin d'un point de vue technique, et peuvent être contactés par courriel. Ils [bénéficient](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) d'un accès en écriture au dépôt sur GitHub, et sont appelés des mainteneurs. Greg Maxwell les [rejoint](https://web.archive.org/web/20120223113428/http://www.bitcoin.org/) en février 2012, et Nils Schneider arrête de contribuer en mai. L'équipe de développeurs ainsi formée se [maintiendra](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) jusqu'en 2014.
 
-v0.5, [21/11/2011](https://bitcointalk.org/index.php?topic=52480.msg626275#msg626275) : intègre Bitcoin-Qt (interface graphique) et bitcoind (démon)
+![The Gavinator, dessin de Gavin Andresen brûlant des billets réalisé par Shazow en avril 2011](assets/en/the-gavinator-shazow-20110426.webp)
 
-https://gavintech.blogspot.com/2011/11/deploying-bitcoin-qt-on-osx.html
+« The Gavinator » : dessin de Gavin Andresen brûlant des billets, réalisé par Shazow en avril 2011 (source : [archive](https://web.archive.org/web/20140426185712/https://bitcointalk.org/index.php?topic=5770.80) de BitcoinTalk)
 
-Amir Taaki ([actions](https://bitcointalk.org/index.php?topic=35599.msg440641#msg440641)), Libbitcoin, [21/7/2011](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791)
+Le système des propositions d'amélioration de Bitcoin, [mis en place](https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/) par Amir Taaki en septembre 2011, commence à porter ses fruits et les premiers BIP commencent à être rédigés. C'est le cas par exemple du BIP 10, qui est [publié](https://gist.github.com/etotheipi/1321518) par Alan Reiner le 28 octobre.
 
-9 janvier 2012, David Perry (enmaku) : [visualisation](https://bitcointalk.org/index.php?topic=57382.msg683333#msg683333) réalisée avec [Gource](https://gource.io/) (9 janv. 2012 : https://web.archive.org/web/20120830214308/http://codinginmysleep.com/bitcoin-development-history-visually/ ; sept. 2012 : https://www.youtube.com/watch?v=2VNPScd-xg0)
+Le 9 janvier 2012, un certain David Perry (Enmaku sur le forum) [publie](https://web.archive.org/web/20120830214308/http://codinginmysleep.com/bitcoin-development-history-visually/) une visualisation de l'avancée du développement du logiciel, réalisée au moyen d'un outil appelé Gource. Celle-ci représente les contributions des développeurs au logiciel : elle commence par les actions de Satoshi Nakamoto et de Martti Malmi, enchaine avec la place grandissante prise par Gavin Andresen à partir de juillet 2010, et montre la complexification du code qui a lieu en avril 2011 et qui amène à une explosion du développement.
 
-### Programmabilité
+![Visualisation des contributions au logiciel de Bitcoin entre août 2009 et septembre 2012](https://www.youtube.com/watch?v=2VNPScd-xg0)
 
-Mise en avant par Mike Hearn, voir le BitcoinWiki
+Visualisation des contributions au logiciel de Bitcoin entre août 2009 et septembre 2012
+
+### La programmabilité de Bitcoin
+
+Bitcoin est constitué d'un système de programmation interne. Comme nous l'avons vu, Satoshi Nakamoto l'a mis en place dès le début, considérant que le modèle était « gravé dans le marbre pour le reste de son existence » (original: "was set in stone for the rest of its lifetime").
+
+Satoshi Nakamoto, [17 juin 2010](https://bitcointalk.org/index.php?topic=0195.msg1611#msg1611) :
+
+> « Le modèle prend en charge une grande variété de types de transactions possibles que j'ai conçus il y a des années.  Les transactions de dépôt fiduciaire, les contrats cautionnés, l'arbitrage par un tiers, la signature multipartite, etc.  Si Bitcoin connaît un grand succès, ce sont des choses qu'il faudra explorer à l'avenir, mais il fallait les concevoir dès le départ pour s'assurer qu'elles seraient réalisables plus tard. »
+>
+> original: "The design supports a tremendous variety of possible transaction types that I designed years ago.  Escrow transactions, bonded contracts, third party arbitration, multi-party signature, etc.  If Bitcoin catches on in a big way, these are things we'll want to explore in the future, but they all had to be designed at the beginning to make sure they would be possible later."
+
+Cet éventail de possibilités intéresse profondément Mike Hearn. Ce dernier en parle avec Satoshi dans sa correspondance privée avec lui.
+
+Mise en avant par Mike Hearn, voir le BitcoinWiki : https://en.bitcoin.it/w/index.php?title=Contract&oldid=8711 https://en.bitcoin.it/w/index.php?title=Contract&oldid=11422
 
 Citation de Satoshi à Mike Hearn ?
 
 ### La signature multipartite
 
-Évoqué par Satoshi.
+La signature multipartite, ou la multisignature, est une façon de requérir plusieurs signatures pour une dépense. Elle est la pierre angulaire du déploiement de contrats impliquant plusieurs personnes. Elle est utile pour la sécurisation des fonds qui, comme on l'a vu, est une question très importante à l'époque. Elle est aussi utile pour mettre en place un dépôt fiduciaire, permettant de rendre les échanges économiques plus sûrs pour le vendeur. Ce type d'application, mentionnée dans le livre blanc, a une demande certaine : Gavin Andresen a ainsi [géré](https://bitcointalk.org/index.php?topic=2134.msg27797#msg27797) lui-même un service de dépôt fiduciaire appelé [ClearCoin](https://clearcoin.blogspot.com/2011/06/ill-be-closing-clearcoin-to-new.html) entre décembre 2010 et juin 2011.
 
-- Gavin Andresen, ClearCoin (déc. 2010–juin 2011) : service de dépôt fiduciaire https://bitcointalk.org/index.php?topic=2134.msg27797#msg27797 https://clearcoin.blogspot.com/2011/06/ill-be-closing-clearcoin-to-new.html https://web.archive.org/web/20110207174003/https://clearcoin.appspot.com/
+Le langage de script contient un code opération, `OP_CHECKMULTISIG`, qui permet de requérir M signatures parmi N participants pour autoriser une dépense, avec M ≤ N. Les clés publiques des éventuels signataires sont incrites dans le script de verrouillage de la sortie transactionnelle. N'importe quel sous-ensemble de M signatures permettent de déverrouiller la pièce.
 
-[BIP11](https://github.com/bitcoin/bips/blob/master/bip-0011.mediawiki)
+Chose intéressante : l'implémentation d'`OP_CHECKMULTISIG` contient un bug. Celui-ci est [découvert](https://github.com/bitcoin/bitcoin/pull/319#issuecomment-1472505) le 30 juin par un certain Bobby Groff (Groffer), qui cherche à intégrer un mécanisme de dépôt fiduciaire au logiciel. Il écrit que l'opérateur « retire un élément de trop de la pile » (original: "It drops one too many items from the stack") et il faut donc « ajouter une valeur factice pour contourner le problème » (original: "to push a dummy value to work around that."). Toutefois, ce bug ne peut pas être corrigé sans modifier le protocole et réaliser un embranchement de chaine. C'est pourquoi il restera tel quel.
 
-### OP\_EVAL, Bytecoin
+Le 23 août 2011, quelques jours après la conférence de New York, Gavin Andresen [engage](https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) la discussion sur le forum BitcoinTalk et sur la liste `bitcoin-development`. Il souhaite rendre standardes les transactions impliquant la signature multipartite, qui forment pour lui « la voie la plus rapide pour obtenir des portefeuilles bitcoins très sûrs et très difficiles à perdre » (original: "the fastest path to very secure, very-hard-to-lose bitcoin wallets"). Depuis décembre 2010, seuls deux schémas [sont](https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744) considérés comme standards : P2PK et P2PKH. L'idée est de rajouter un schéma de multisignature brute, où le nombre de participants peut atteindre 3 au maximum.
 
-OP\_EVAL (BIP12), bytecoin
+Il souhaite que les clés publiques impliquées soient utilisées comme adresse (comme dans le cas de P2PKH). Mais ces adresses ne seraient pas de toute façon pas supportées par les clients. Ainsi, quitte à mettre en ligne un client incompatible, il propose de « faire les choses correctement dès le départ, en implémentant ou en activant des codes opération pour que les nouvelles adresses bitcoin puissent être petites, et en programmant une scission de la chaîne de blocs » quelques mois plus tard (original: "do things right in the first place, implement or enable opcodes so the new bitcoin addresses can be small, and schedule a block chain split"). Mû par un sentiment d'urgence, il est en particulier favorable à l'action rapide, expliquant que sa « plus grande inquiétude » (original: "biggest worry") est que les gens se complaisent dans le débat et qu'« il n'y ait toujours pas de consensus » (original: "there is still no consensus") au bout de six mois.
 
-### OP\_CHV, Luke-Jr
+À la suite du message de Gavin, Mike Caldwell [propose](https://bitcointalk.org/index.php?topic=38954.msg476689#msg476689) de modifier l'opérateur OP\_CHECKSIG (celui utilisé pour vérifier les signatures normales) afin qu'il prenne en compte les scripts de multisignature. Les adresses peuvent alors être l'empreinte du script, et le script entier est fourni lors de la dépense, comme la clé publique l'est dans le cas da la dépense d'une sortie P2PKH. Il [reformulera](https://bitcointalk.org/index.php?topic=45211.msg538756#msg538756) cette proposition un mois plus tard. Le 1er octobre, un certain Jim Babcock (Jimrandomh), développeur logiciel et rationaliste, [réalise](https://bitcointalk.org/index.php?topic=46429.msg553217#msg553217) une proposition similaire. Leur description inspire le mystérieux Nicolas van Saberhagen, alias ByteCoin, qui [conçoit](https://bitcointalk.org/index.php?topic=46538.msg553689#msg553689) un nouveau code opération appelé `OP_EVAL` dans la nuit du 1er au 2 octobre. Gavin Andresen [fait](https://bitcointalk.org/index.php?topic=45211.msg553668#msg553668) une proposition relativement équivalente au même moment.
 
-Luke-Jr, catholique romain sédévacantiste, père de famille nombreuse (2017 : 5 ; 2025 : 11), développeur dans le logiciel libre, créateur de la coopérative Eligius en [avril 2011](https://en.bitcoin.it/wiki/Eligius), ["Please test: New Experimental Pool"](https://bitcointalk.org/index.php?topic=6667.0)
+### OP\_EVAL : exécuter un script dans un script
 
-OP\_CHECKHASHVERIFY, [BIP17](https://github.com/bitcoin/bips/blob/master/bip-0017.mediawiki)
+L'instruction `OP_EVAL` permet d'exécuter un script à l'intérieur d'un script. Il est exécuté à la fin du script de verrouillage pour évaluer la validité du script donné, dont le hachage est comparée à l'empreinte donnée. Cela permet d'exécuter n'importe quel script.
+
+![Fonctionnement technique de l'opérateur OP_EVAL](assets/en/bytecoin-opeval-20111002.webp)
+
+Fonctionnement technique de l'opérateur `OP_EVAL` (source : [BitcoinTalk](https://bitcointalk.org/index.php?topic=46538.msg553689#msg553689))
+
+Il s'agit donc d'ajouter une instruction au langage de script, ce qui requiert une modification du protocole, et donc une séparation du réseau si tout le monde ne se met pas à jour, menant à une éventuelle scission de chaine. Toutefois, dans la journée du 2 octobre, Gavin découvre une particularité du langage : les opérateurs `OP_NOP` ajoutés par Satoshi lors de l'été 2010, qui sont des instructions muettes n'invalidant pas le script dans lequel elles se trouvent. Celles-ci permettent de faire des modifications de protocole qui sont « rétrocompatibles » (original: "backwards-compatible") pour les anciennes versions du logiciel, et (dans le cas où la puissance de calcul l'appliquant est majoritaire) de faire en sorte qu'une seule chaine survive. On appellera ces modifications des soft forks plus tard.
+
+On peut ainsi transformer `OP_NOP1` en `OP_EVAL`. Gavin [écrit]((https://buildingbitcoin.org/bitcoin-dev/log-2011-10-02.html#l-852)) sur IRC :
+
+> « Je lis probablement mal le code, mais je pense que OP\_EVAL n'entrainerait pas de scission de la chaine de blocs ! »
+>
+> original: "I'm probably reading the code wrong, but I think OP\_EVAL wouldn't cause a blockchain split!"
+
+Deux heures plus tard, Gregory Maxwell [explique](https://buildingbitcoin.org/bitcoin-dev/log-2011-10-02.html#l-1426) que « la thèse de Gavin selon laquelle EVAL peut se faire sans scission \[l'a\] époustouflé » (original: "Gavin's point that EVAL can be done without a split blew \[his\] mind").
+
+Le 19 octobre, Gavin Andresen [rédige](https://bitcointalk.org/index.php?topic=46538.msg583615#msg583615) trois propositions d'amélioration de Bitcoin, qui sont rapidement hébergées sur Bitcoin.it :
+
+- Le [BIP 11](https://en.bitcoin.it/w/index.php?title=BIP_0011&oldid=18340), qui décrit les schémas de script multisignatures bruts ;
+- Le [BIP 12](https://en.bitcoin.it/w/index.php?title=BIP_0012&oldid=18348), qui décrit l'instruction OP\_EVAL et le schéma de script correspondant ;
+- Le [BIP 13](https://en.bitcoin.it/w/index.php?title=BIP_0013&oldid=18495), qui décrit le formatage des adresses pour OP\_EVAL.
+
+Adresse « un nouveau type d'adresse Bitcoin permettant de prendre en charge des transactions arbitrairement complexes » (original: "This BIP describes a new type of Bitcoin address to support arbitrarily complex transactions").
+
+OP_EVAL, date de signalement : January 15, 2012 ; date d'activation : February 1st, 2012
+
+Cependant, l'opérateur `OP_EVAL` présente des défauts qui sont évoqués dès le début.
+
+Récursivité :
+
+"Ya joking?
+
+A scripting system inside a scripting system. (...)
+
+Well, it seems good at first glance. But fast-tracking this into the block-chain is probably not a wise idea. There's no rush so it might be prudent to think of this as something for 2 years time or later. Bitcoin is not exploding tomorrow, so there's no big loss from holding off on momentous changes like these." [genjix](https://bitcointalk.org/index.php?topic=46538.msg553903#msg553903)
+
+« Cela semble bon à première vue, écrivait Taaki, mais se précipiter n'est probablement pas une bonne idée … Bitcoin n'explosera pas demain, il n'y a donc pas de grands risques à retarder des changements aussi importants. » [trad. Bitcoin.fr](https://bitcoin.fr/la-bataille-de-p2sh-lhistoire-inedite-de-la-premiere-guerre-de-gouvernance-de-bitcoin/)
+
+Sécurité : on abandonne toutes les garanties apportées par le caractère standard des transactions.
+
+"My view: the current Bitcoin design has been carefully reviewed and found to be strong. People like Kaminsky have tried their best and not discovered any issues.
+
+Major structural design changes like OP_EVAL invalidate **all** those assurances and put Bitcoin back at square one. I'm not seeing the benefit. Disk space is cheap, and pruning would reclaim far more than shrinking transactions by a small amount. Lightweight clients don't even care." [Mike Hearn, 6/10](https://bitcointalk.org/index.php?topic=46538.msg560712#msg560712)
+
+"not staticly analyzable" https://bitcointalk.org/index.php?topic=58579.0
 
 ### Pay to Script Hash
 
+Le principe derrière OP_EVAL est de payer une empreinte de script. D'où sa désignation de Pay to Script Hash, ou P2SH.
+
 P2SH (BIP16), Gavin Andresen
 
+Russell O'Connor "Alternative to OP_EVAL" [29/12/2011](https://gnusha.org/pi/bitcoindev/alpine.LRH.2.00.1112290111310.22327@theorem.ca/) : OP\_CODEHASH
+
+Le 3 janvier 2012, il [écrit](https://en.bitcoin.it/w/index.php?title=BIP_0016&oldid=21680) :
+
+> « Reconnaître une forme "spéciale" de scriptPubKey et réaliser une validation supplémentaire quand elle est détectée, c'est laid. Cependant, l'avis général est que les alternatives sont soit encore plus laides, soit plus complexes à implémenter, et / ou étendent le pouvoir du langage d'expression de manière dangereuse. »
+>
+> original: "Recognizing one 'special' form of scriptPubKey and performing extra validation when it is detected is ugly. However, the consensus is that the alternatives are either uglier, are more complex to implement, and/or expand the power of the expression language in dangerous ways."
+
+Gavin veut faire appliquer son changement le plus vite possible. Ce qui crée quelques tensions.
+
+### La réaction de Luke-Jr
+
+C'est sans compter la réaction du développeur appelé Luke-Jr.
+
+Luke-Jr (ou Luke Dashjr, prononcé « dashir ») est catholique romain [sédévacantiste](https://dashjr.org/catholic/sedevacantist.php), c'est-à-dire qu'il considère que le siège du pape est vacant depuis le concile Vatican II de 1965. Il est marié et est le père de plusieurs enfants (il en a deux en 2007 et cinq 10 ans plus tard). Il est programmeur dans le domaine du logiciel libre, ayant développé son propre système d'exploitation, appelé [Utopios](https://web.archive.org/web/20041013023456/http://utopios.org/) et basé sur la distribution Gentoo.
+
+![Avatar utilisé par Luke-Jr à partir de 2013](assets/en/luke-jr-gravatar-2013.webp)
+
+Avatar utilisé par Luke-Jr à partir de 2013 (source : [Gravatar](https://secure.gravatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))
+
+Il a [appris](https://www.youtube.com/watch?v=3sXei0Iwf4Q) l'existence de Bitcoin le 31 décembre 2010 sur IRC. En janvier 2011, il a mis en place un service d'hébergement, [Lightfoot Hosting](https://bitcointalk.org/index.php?topic=30.msg36268#msg36268), qui accepte le bitcoin. Il a également [créé](https://bitcointalk.org/index.php?topic=6667.msg97375#msg97375) une coopérative de minage appelée Eligius en avril.
+
+Dashjr, real name? https://bitcointalk.org/index.php?topic=8954.msg146426#msg146426 https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=LUKEDASHJRHOLDINGS%20L180001080380&aggregateId=flal-l18000108038-3573707e-1016-43da-a114-9403c283a625&searchTerm=LUKE%20DASHJR%20HOLDINGS%2C%20LLC&listNameOrder=LUKEDASHJRHOLDINGS%20L180001080380
+
+"Government doesn't own your name. Screen names ARE real names" https://x.com/LukeDashjr/status/1520679540464443393
+
+"It's easy in the USA to change your real/legal name, but even then, the government still makes it hard to change what's on your passport. Besides, do you _really_ want the government to know your name?" https://x.com/LukeDashjr/status/1535247595014131712
+
+George Michael Dombrowski : https://www.judiciary.uk/wp-content/uploads/2024/07/COPA-v-Wright-Judgment.pdf
+
 6 janvier 2012, attaque de censure par Luke-Jr contre Coiledcoin (qui appliquait OP\_EVAL) : https://bitcointalk.org/index.php?topic=56675.msg678006#msg678006
+
+"Bitcoin BIP 16 /P2SH/ is bad, your action is needed!" [13/1](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) : "However, this replacement is far worse: it basically replaces the scripting system Bitcoin is built on with a single special-cased template." - "Gavin is forcing everyone using the latest Bitcoin code to vote for BIP 16"
+
+Gavin: "Luke, you try my patience. I'm going to step away from the code for a few days to calm down before I do something stupid because my patience is wearing thin." [13/1](https://bitcointalk.org/index.php?topic=58579.msg689812#msg689812) ; « Luke, tu testes ma patience. Je vais m'éloigner du code pendant quelques jours pour me calmer avant de faire quelque chose de stupide. » - trad Bitcoin.fr
+
+"If you want a monarchial currency, why not just use the Fed's USD? Gavin isn't perfect, and this is one example. Sorry you consider making people aware of a problem to be 'mental instability'." [13/1](https://bitcointalk.org/index.php?topic=58579.msg690042#msg690042) ; « Si vous voulez une monnaie monarchique, pourquoi ne pas simplement utiliser l'USD de la Fed ? » Trad Bitcoin.fr
+
+CODEHASHCHECK 12/1 : https://bitcointalk.org/index.php?topic=56969.msg687795#msg687795
+
+"Here is an example CHC (herein called OP_CHECKHASHVERFIY or CHV) implementation. Can it get any simpler?" [14/1](https://bitcointalk.org/index.php?topic=58579.msg690568#msg690568)
+
+OP\_CHECKHASHVERIFY, [BIP17](https://github.com/bitcoin/bips/blob/master/bip-0017.mediawiki)
+
+Le 18 janvier, il [rédige](https://en.bitcoin.it/w/index.php?title=BIP_0017&oldid=22435) le BIP 17, qui décrit le nouveau code opération OP\_CHECKHASHVERIFY, une laternative à P2SH.
+
+Défauts : https://bitcointalk.org/index.php?topic=58579.msg691432#msg691432
+
+hashScriptCheck : https://en.bitcoin.it/w/index.php?title=BIP_0018
+
+### Débat
 
 29 janvier 2012, **commentaire d'Amir Taaki**. https://bitcointalk.org/index.php?topic=61705.msg719790#msg719790 Amir Taaki, le père du systèmes des BIP, qui ne soutient aucune des deux propositions (CHV vs P2SH), appelle à la discussion et déclare le 29 janvier 2012 :
 
 > « Ma crainte c'est qu'un jour Bitcoin soit corrompu. Développeurs : considérez cet examen supplémentaire comme une opportunité de construire une culture d'ouverture. »
 >
-> "My worry is bitcoin someday becomes corrupted. Developers: see this extra scrutiny as an opportunity to build a culture of openness. It is not at all bad."
+> original: "My worry is bitcoin someday becomes corrupted. Developers: see this extra scrutiny as an opportunity to build a culture of openness. It is not at all bad."
 
 https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/
 
-### Mise à niveau
+Maxwell, "Re: Deadlines and moving forward (BIP 16/17 support)" : https://bitcointalk.org/index.php?topic=61922.msg723476#msg723476
+
+![Avis des développeurs sur les différentes propositions, le 6 février 2012](assets/en/p2sh-votes-feb-2012.webp)
+
+Avis des développeurs sur les différentes propositions, le 6 février 2012 (source : [Bitcoin.it](https://en.bitcoin.it/w/index.php?title=P2SH_Votes&oldid=23487))
 
 Gavin Andresen tranche en faveur du BIP16.
 
 v0.6, [30/3/2012](https://bitcointalk.org/index.php?topic=74737.msg827484#msg827484)
+
+### Mise à niveau
+
+Le signalement des mineurs
+
+BIP 30 (Duplicate transactions, Pieter Wuille), [ajouté](https://github.com/bitcoin/bitcoin/commit/a206b0ea12eb4606b93323268fc81a4f1f952531) au code le 3 mars 2012, https://en.bitcoin.it/w/index.php?title=BIP_0030&oldid=24321
+
+30 mars 2012 avec la sortie de la version 0.6 de Bitcoin-Qt : le schéma de multisignature brute est rendu standard.
+
+### La première discorde majeure
+
+La bataille pour P2SH a été la première discorde majeure de l'histoire de Bitcoin.
 
 ## L'apparition des premières cryptomonnaies alternatives
 

@@ -6,28 +6,22 @@ description: Sanduku la kwanza la barua bila kitambulisho cha mtumiaji
 
 
 
-Ilizinduliwa mnamo 2021, SimpleX ni programu ya bure ya ujumbe wa papo hapo yenye mbinu tofauti kabisa ya faragha. Tofauti na WhatsApp, Signal na huduma zingine za kati za kutuma ujumbe, SimpleX ni bora kwa usimamizi wake wa watumiaji: hakuna vitambulisho vya watumiaji, majina bandia, nambari au vitufe vinavyoonekana vya umma. Ukosefu huu wa jumla wa vitambulisho hufanya iwe vigumu kabisa kuhusisha watumiaji, na hivyo kuhakikisha kiwango cha juu cha faragha.
+Ilizinduliwa mnamo 2021, SimpleX ni programu ya bure ya mawasiliano ya papo hapo inayotumia mbinu ya kipekee ya kulinda faragha ya mtumiaji. Tofauti na huduma zingine za kawaida kama Signal au WhatsApp, SimpleX haitegemei vitambulisho vya umma kama majina bandia, nambari za simu, au vitufe vya wazi. Badala yake, mawasiliano yanafanyika bila kushiriki taarifa yoyote ya utambulisho, jambo linalofaa sana kwa watumiaji wa Bitcoin wanaojali usalama na usiri wa mawasiliano yao. Ukosefu huu wa vitambulisho unazuia uhusishaji wa miamala au vitendo kwa watumiaji binafsi, hivyo kuboresha kiwango cha faragha katika mazingira yasiyo na uaminifu.
 
 
-
-Tofauti na programu nyingi zinazohitaji akaunti au nambari ya simu, SimpleX hukuruhusu kuanzisha mazungumzo kwa kushiriki kiungo au msimbo wa QR wa muda mfupi. Kila kiungo huunda chaneli ya kipekee iliyosimbwa kwa njia fiche, na unaowasiliana nao hawawezi kupata au kuwasiliana tena na mtumaji bila Exchange dhahiri. Ujumbe husimbwa kwa njia fiche kutoka mwisho hadi mwisho, na hupitia seva za relay ambazo huzifuta baada ya kutumwa, na usione mtumaji au mpokeaji, wala funguo zao.
-
+Tofauti na programu nyingi zinazohitaji akaunti au nambari ya simu, SimpleX hukuruhusu kuanzisha mazungumzo kwa kushiriki kiungo au msimbo wa QR wa muda mfupi. Kila kiungo huunda chaneli ya kipekee iliyosimbwa kwa njia fiche, na unaowasiliana naye hawezi kupata au kuwasiliana tena na mtumiaji bila exchange dhahiri. Ujumbe husimbwa kwa njia fiche kutoka mwisho hadi mwisho, hupitia seva za relay ambazo huufuta baada ya kutumwa, bila kuona mtumaji, mpokeaji, wala funguo zao.
 
 
 ![Image](assets/fr/01.webp)
 
 
-
-Usanifu wa mtandao umegatuliwa kabisa na haujashirikishwa: seva hazijuani, hazihifadhi saraka ya kimataifa, na hazipangishi wasifu wowote wa watumiaji. Bora zaidi, kila mtumiaji anaweza kupeleka na kutumia seva yake ya relay, huku akibakia kuingiliana na wale walio kwenye mtandao wa umma.
-
+Usanifu wa mtandao umegatuliwa kabisa na haujashirikishwa: seva hazijuani, hazihifadhi saraka ya kimataifa, na hazipangishi wasifu wowote wa watumiaji. Bora zaidi, kila mtumiaji anaweza kupeleka na kutumia seva yake ya relay, huku akiendelea kuingiliana na wale walio kwenye mtandao wa umma.
 
 
-SimpleX ni chanzo wazi kabisa (wateja, itifaki na seva), inapatikana kwenye Android, iOS, Linux, Windows na macOS. Hifadhi yake ya ndani imesimbwa kwa njia fiche na kubebeka, kwa hivyo unaweza kuhamisha wasifu kutoka kwa kifaa kimoja hadi kingine bila kutegemea seva ya kati.
+SimpleX ni chanzo wazi kabisa (wateja, itifaki na seva), na inapatikana kwenye Android, iOS, Linux, Windows, na macOS. Hifadhi yake ya ndani imesimbwa kwa njia fiche na ni kubebeka, hivyo unaweza kuhamisha wasifu kutoka kifaa kimoja hadi kingine bila kutegemea seva ya kati.
 
 
-
-SimpleX inaunganisha vipengele vyote vya kawaida vya programu za kutuma ujumbe. Walakini, ergonomics yake inabaki kioevu kidogo kuliko ile ya WhatsApp au Signal. Inaweza pia kuwa na vikwazo zaidi kutumia, hasa wakati wa kuongeza anwani. Kwa hivyo, kwa maoni yangu, ni mbadala inayofaa kwa WhatsApp au Signal kwa watumiaji wanaoweka usiri katika moyo wa vipaumbele vyao, na ambao wamejitayarisha, kwa sababu hiyo, kufanya makubaliano machache kuhusu faraja ya kila siku ya mtumiaji.
-
+SimpleX inaunganisha elementi zote za kawaida za programu za kutuma ujumbe. Hata hivyo, ergonomics yake inabaki kuwa kioevu kidogo kuliko ile ya WhatsApp au Signal. Inaweza pia kuwa na vikwazo zaidi kuitumia, hasa wakati wa kuongeza anwani. Kwa hivyo, kwa maoni yangu, ni mbadala inayofaa kwa WhatsApp au Signal kwa watumiaji wanaoweka usiri kuwa kiini cha vipaumbele vyao, na ambao wamejitayarisha, kwa sababu hiyo, kufanya makubaliano madogo kuhusu faraja ya kila siku ya mtumiaji.
 
 
 | Programu             | E2EE 1:1       | E2EE vikundi   | Usajili wa faragha  | Leseni ya mteja chanzo-huria | Leseni ya seva chanzo-huria | Seva iliyogawanywa       | Mwaka wa uundaji  |
@@ -59,7 +53,6 @@ SimpleX inaunganisha vipengele vyote vya kawaida vya programu za kutuma ujumbe. 
 
 
 SimpleX Chat inapatikana kwenye majukwaa yote. Unaweza kupakua programu moja kwa moja kutoka kwa duka la programu ya simu yako:
-
 
 
 
@@ -101,12 +94,11 @@ Chagua jina la mtumiaji, ambalo linaweza kuwa jina lako halisi au jina bandia, k
 
 
 
-Ifuatayo, weka frequency ambayo programu itaangalia ujumbe mpya. Ikiwa muda wa matumizi ya betri ya simu yako si tatizo, chagua "*Papo hapo*" ili upokee ujumbe kwa wakati halisi. Ukipendelea kuhifadhi betri yako na kuzuia programu kufanya kazi chinichini, chagua "*Programu inapotumika*": basi utapokea tu ujumbe wakati programu imefunguliwa. Maelewano yanayoweza kutokea ni kuchagua ukaguzi wa mara kwa mara kila baada ya dakika 10.
+Ifuatayo, weka marudio ambayo programu itaangalia ujumbe mpya. Ikiwa matumizi ya betri ya simu yako si tatizo, chagua "Papo hapo" ili upokee ujumbe kwa wakati halisi. Ukipendelea kuhifadhi betri yako na kuzuia programu kufanya kazi chinichini, chagua "Programu inapotumika": basi utapokea tu ujumbe wakati programu imefunguliwa. Maelewano yanayowezekana ni kuchagua ukaguzi wa mara kwa mara kila baada ya dakika 10.
 
 
 
 Mara tu umefanya chaguo lako, bofya "*Tumia gumzo*".
-
 
 
 ![Image](assets/fr/05.webp)
@@ -132,12 +124,11 @@ Kwanza kabisa, fikia mipangilio kwa kubofya picha yako ya wasifu kwenye kona ya 
 ![Image](assets/fr/07.webp)
 
 
-
-Mipangilio chaguo-msingi kwa ujumla inafaa kwa watumiaji wengi. Hata hivyo, ninapendekeza uende kwenye menyu ya "*Database passphrase & export*". Hapa ndipo unaweza kuhamisha hifadhidata yako ya akaunti ya SimpleX kwa madhumuni ya kuhifadhi nakala.
-
+Mipangilio chaguo-msingi kwa ujumla inafaa kwa watumiaji wengi. Hata hivyo, ninapendekeza uende kwenye menyu ya "*Database passphrase & export*". Hapa ndipo unaweza kuhamisha hifadhi data yako ya akaunti ya SimpleX kwa madhumuni ya kuhifadhi nakala.
 
 
-Unaweza pia kurekebisha passphrase iliyotumiwa kusimba hifadhidata hii. Kwa chaguo-msingi, huzalishwa kwa nasibu na kuhifadhiwa ndani ya kifaa chako. Ukipenda, unaweza kufafanua passphrase yako mwenyewe na ufute hifadhi rudufu ya ndani ya passphrase: basi itabidi uiweke mwenyewe kila wakati unapofungua programu, na vilevile unapohamia kwenye kifaa kingine.
+
+Unaweza pia kubadilisha passphrase iliyotumika kusimba hifadhidata hii. Kwa chaguo-msingi, huzalishwa kwa nasibu na kuhifadhiwa ndani ya kifaa chako. Ikiwa utapendelea, unaweza kufafanua passphrase yako mwenyewe na kufuta hifadhi ya ndani ya passphrase hiyo: basi itakubidi uiingize mwenyewe kila wakati unapofungua programu au unapotumia kifaa kingine.
 
 
 
@@ -172,18 +163,14 @@ Hatimaye, menyu za "*Arifa*" na "*Muonekano*" hukuwezesha kubinafsisha SimpleX C
 Ili kuungana na mtu mwingine kwenye SimpleX, una chaguzi mbili:
 
 
-
-
 - Tumia kiungo cha matumizi moja;
 - Tumia tuli Address inayoweza kutumika tena.
 
 
-
-Address tuli huruhusu mtu yeyote anayeijua kuwasiliana nawe kwenye SimpleX. Ni Address inayoendelea, ambayo inaweza kutumika mara kadhaa, na watu tofauti, bila kikomo cha muda. Ni uvumilivu huu unaoifanya iwe hatarini zaidi kwa barua taka. Walakini, tofauti na programu zingine za utumaji ujumbe, kufuta SimpleX Address yako inatosha kukomesha barua taka zote, bila kuathiri mazungumzo yaliyopo. Kwa kweli, hii Address inatumiwa tu kuanzisha uunganisho wa awali, na haihitajiki tena mara tu Exchange imeanza.
-
+Address tuli huruhusu mtu yeyote anayeijua kuwasiliana nawe kwenye SimpleX. Ni Address inayoendelea, ambayo inaweza kutumika mara kadhaa, na watu tofauti, bila kikomo cha muda. Uvumilivu huu huifanya kuwa hatarini zaidi kwa barua taka. Hata hivyo, tofauti na programu zingine za utumaji ujumbe, kufuta SimpleX Address yako kunatosha kukomesha barua taka zote bila kuathiri mazungumzo yaliyopo. Kwa kweli, Address hii hutumika tu kuanzisha uunganisho wa awali, na haihitajiki tena mara tu Exchange ya awali inapokuwa imeanza.
 
 
-Viungo vya matumizi moja, kwa upande mwingine, vinaweza kutumika mara moja tu, na mtumiaji yeyote. Mara tu mwasiliani akiitumia, kiungo huwa batili. Utahitaji generate mpya kwa kila muunganisho mpya.
+Viungo vya matumizi moja, kwa upande mwingine, vinaweza kutumika mara moja tu, na mtumiaji yeyote. Mara tu mwasiliani akiitumia, kiungo hicho huwa batili. Utahitaji kuunda (generate) kipya kwa kila muunganisho mpya.
 
 
 
@@ -226,13 +213,10 @@ Chaguo la "*Kukubali kiotomatiki*" hukubali kiotomatiki miunganisho inayoingia k
 Njia ya pili ya kuunganishwa na mtu ni kuunda kiungo cha wakati mmoja. Ili kufanya hivyo, bofya aikoni ya penseli katika kona ya chini kulia ya Interface, kisha uchague "*Unda kiungo cha wakati 1*".
 
 
-
 Ikiwa mtu unayewasiliana naye amekutumia kiungo, bofya kwenye "*Changanua / Bandika kiungo*" ili kukichanganua au kukibandika.
 
 
-
 ![Image](assets/fr/14.webp)
-
 
 
 SimpleX kisha hutoa kiungo cha matumizi moja. Unaweza kuisambaza kwa mwasiliani wako kwa njia yoyote: Exchange halisi, ujumbe mwingine, n.k.
@@ -247,10 +231,8 @@ Unaweza pia kuchagua wasifu utakaohusisha na kiungo hiki cha mwaliko. Ili kufany
 
 
 
-
 - chagua moja ya wasifu wako uliopo (tutaona jinsi ya kuunda wasifu kadhaa katika sehemu inayofuata);
 - au uchague modi ya "*Incognito*", ambayo huficha jina lako na picha ya wasifu kwa kutumia jina bandia la mwandishi wako.
-
 
 
 Hapa, ninachagua modi ya "*Incognito*".
@@ -269,7 +251,7 @@ Anwani yangu imetumia kiungo. Kwa upande wake, hakuwasha modi ya "*Incognito*", 
 
 
 
-Ningeweza kuanza kupiga gumzo mara moja, lakini kwanza ningependa kuangalia kama ninazungumza na Bob, na si kwa mtu fulani mbaya ambaye huenda alinasa kiungo au kutekeleza shambulio la MITM.
+Ningeweza kuanza kupiga gumzo mara moja, lakini kwanza ningependa kuhakikisha kwamba ninazungumza na Bob, na si mtu fulani mbaya ambaye huenda amenasa kiungo au kutekeleza shambulio la MITM.
 
 
 
@@ -293,7 +275,7 @@ Ikiwa unafanya kazi kwa mbali, linganisha misimbo kwenye mfumo mwingine salama w
 
 
 
-Uthibitishaji ukifaulu, ikoni ya ngao iliyo na alama ya kuteua itaonekana karibu na jina la mtu unayewasiliana naye. Huu ni uhakikisho wako kwamba unabadilishana na Bob. Uthibitishaji usipofaulu, arifa ya "*Msimbo wa usalama usio sahihi!*" itaonekana.
+Uthibitishaji ukifaulu, ikoni ya ngao iliyo na alama ya kuteua itaonekana karibu na jina la mtu unayewasiliana naye. Huu ni uhakikisho wako kwamba unafanya exchange na Bob. Uthibitishaji usipofaulu, arifa ya "Msimbo wa usalama usio sahihi!" itaonekana.
 
 
 
@@ -309,44 +291,38 @@ Sasa unaweza bila malipo ujumbe, simu na faili za Exchange ukitumia Bob, kulinga
 
 
 
-Mojawapo ya vipengele vyenye nguvu zaidi vya SimpleX ni uwezo wa kudhibiti wasifu kadhaa tofauti kabisa wa mtumiaji, zote zinapatikana kutoka kwa akaunti moja ya ndani. Hii hukuruhusu kutenganisha utambulisho wako tofauti kwa uzuri, bila kutatiza usimamizi wa ujumbe.
-
+Mojawapo ya element zenye nguvu zaidi za SimpleX ni uwezo wa kudhibiti wasifu kadhaa tofauti kabisa wa mtumiaji, zote zinapatikana kutoka kwa akaunti moja ya ndani. Hii hukuruhusu kutenganisha utambulisho wako tofauti kwa uzuri, bila kutatiza usimamizi wa ujumbe.
 
 
 Kwa mfano, unaweza kuunda:
 
 
 
+Wasifu ulio na jina lako halisi na picha halisi kwa exchange zako kitaaluma;
 
-- Wasifu ulio na jina lako halisi na picha halisi ya kubadilishana kwako kitaaluma;
-- Wasifu ulio na jina lako halisi na picha ya kuchekesha kwa mabadilishano ya familia yako;
-- Wasifu ulio na picha ya uwongo na jina bandia la mazungumzo yako ya kibinafsi;
-- Wasifu mwingine usiojulikana wa kuzungumza na watu usiowajua.
+Wasifu ulio na jina lako halisi na picha ya kuchekesha kwa exchange za familia yako;
+
+Wasifu ulio na picha ya uwongo na jina bandia kwa mazungumzo yako ya kibinafsi;
+
+Wasifu mwingine usiojulikana kwa kuzungumza na watu usiowajua.
 
 
 
 Hiyo ndiyo tutafanya hapa. Ninaanza kwa kusanidi wasifu wangu mkuu, ule unaohusishwa na utambulisho wangu halisi. Ili kufanya hivyo, bonyeza kwenye picha yangu ya wasifu kwenye kona ya chini ya kulia, kisha kwenye jina langu la mtumiaji.
 
 
-
 ![Image](assets/fr/21.webp)
 
 
-
-Kisha mimi bonyeza kwenye picha yangu ya wasifu ili kuibadilisha na kuongeza mpya.
-
-
+Kisha nilibonyeza kwenye picha yangu ya wasifu ili kuibadilisha na kuongeza mpya.
 
 ![Image](assets/fr/22.webp)
-
 
 
 Ili kuongeza wasifu mwingine, bofya kwenye menyu ya "*Wasifu wako wa gumzo*".
 
 
-
 ![Image](assets/fr/23.webp)
-
 
 
 Hapa utaona wasifu wako wote. Bofya kwenye "*Ongeza wasifu*" ili kuunda mpya.
@@ -360,9 +336,7 @@ Hapa utaona wasifu wako wote. Bofya kwenye "*Ongeza wasifu*" ili kuunda mpya.
 Kisha chagua maelezo ya wasifu wako mpya: jina, picha, n.k. Hapa, ninatumia jina bandia na picha tofauti kuficha utambulisho wangu halisi katika ubadilishanaji fulani.
 
 
-
 ![Image](assets/fr/25.webp)
-
 
 
 Kwa kushikilia kidole chako kwenye wasifu, unaweza kuificha. Hii itafanya isionekane kwenye programu, pamoja na mazungumzo yote yanayohusiana. Unaweza pia kuchagua "*Kunyamazisha*" ili kuacha kupokea arifa.
@@ -382,7 +356,6 @@ Baada ya kuunda wasifu wako, unaweza kuzidhibiti kwa kujitegemea. Kutoka kwa uku
 
 
 Unapounda kiungo cha mwaliko au Address tuli, sasa unaweza kuchagua ni wasifu upi wa kuuhusisha. Kwa mfano, nikichagua wasifu "*Satoshi Nakamoto*" kwa generate kiungo na kuutuma kwa Alice, ataona tu utambulisho wangu usiojulikana "*Satoshi Nakamoto*", bila hata kujua utambulisho wangu halisi "*Loïc Morel*". Kinyume chake, nikimpatia kiungo kutoka kwa wasifu wangu halisi, hatakuwa na njia ya kuunganisha kwa wasifu wangu usiojulikana.
-
 
 
 ![Image](assets/fr/28.webp)

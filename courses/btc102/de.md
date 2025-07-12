@@ -14,7 +14,7 @@ objectives:
 # Eine Reise zu deinen ersten Bitcoins
 
 
-Das Bitcoin-Ökosystem erfährt ein spektakuläres und nie dagewesenes Wachstum. Die technologischen, wirtschaftlichen und sozialen Veränderungen, die durch die Erfindung von Satoshi Nakamoto vorangetrieben werden, intensivieren sich von Tag zu Tag. Du öffnen allmählich die Türen zu einer neuen Welt, von der auch du profitieren können.
+Das Bitcoin-Ökosystem erfährt ein spektakuläres und nie dagewesenes Wachstum. Die technologischen, wirtschaftlichen und sozialen Veränderungen, die durch die Erfindung von Satoshi Nakamoto vorangetrieben werden, intensivieren sich von Tag zu Tag. Du öffnen allmählich die Türen zu einer neuen Welt, von der auch du profitieren kannst.
 
 
 Das Eintauchen in das Bitcoin-Kaninchenloch ist ein spannendes intellektuelles Abenteuer, das dein kritisches Denken anregen und viele deiner Überzeugungen in Frage stellen wird. Diese Erkundung wird dir nicht nur ein tiefes Verständnis dafür vermitteln, wie Bitcoin funktioniert, sondern auch eine echte Chance, deine persönliche Freiheit zurückzugewinnen, deine Privatsphäre zu schützen und wahre finanzielle Souveränität zu erlangen.
@@ -265,7 +265,7 @@ Im Laufe der Jahre hat Bitcoin mehrere *Hard-Forks* erlebt, die zur Schaffung al
 Nicht alle *Hard-Forks* sind betrügerisch, da einige aus technischen oder ideologischen Meinungsverschiedenheiten innerhalb der Gemeinschaft entstehen. Andere werden jedoch von kommerziellen Interessen oder sogar unlauteren Motiven angetrieben. Die bekanntesten Beispiele für diese Hardforks sind **Bitcoin Cash (BCH)** und **Bitcoin Satoshi Vision (BSV)**. Diese 2017 bzw. 2018 eingeführten Alternativwährungen behaupten oft, "bessere Versionen" des ursprünglichen Bitcoin zu sein. Du werben mit angeblichen Vorteilen wie niedrigeren Transaktionsgebühren oder schnelleren Transaktionen aufgrund grösserer Blockgrössen. Diese technischen Änderungen gehen jedoch mit erheblichen Kompromissen in Bezug auf Sicherheit, Dezentralisierung und Robustheit einher; Eigenschaften, die mit den Grundprinzipien von Bitcoin in Konflikt geraten können.
 
 
-Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen oft die Verwirrung aus, um uninformierte Anleger anzulocken. Du können unlautere Marketingtaktiken anwenden. Diese zielen darauf ab, Neulinge absichtlich in die Irre zu führen, die glauben, sie würden echte Bitcoins (BTC) kaufen.
+Abgesehen von den technischen Unterschieden nutzen diese alternativen Währungen oft die Verwirrung aus, um uninformierte Anleger anzulocken. Du kannst unlautere Marketingtaktiken anwenden. Diese zielen darauf ab, Neulinge absichtlich in die Irre zu führen, die glauben, sie würden echte Bitcoins (BTC) kaufen.
 
 
 Um nicht in diese Falle zu tappen, solltest du immer die Währung überprüfen, die du kaufst. Das ursprüngliche Bitcoin verwendet den Ticker **BTC**, während Bitcoin Cash und seine Derivate unterschiedliche Akronyme verwenden, wie BCH oder BSV.
@@ -2993,7 +2993,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 #### 2. Anonymer Kauf von Bitcoins
 
 
-Ein Grundprinzip des paranoiden Anlegers ist es, Bitcoin zu erwerben, ohne es mit seiner realen Identität zu verknüpfen. Um KYC-Plattformen zu umgehen und 'on-Chain' Fingerabdrücke zu verhindern, wenden sie mehrere Strategien an:
+Ein Grundprinzip des paranoiden Anlegers ist es, Bitcoin zu erwerben, ohne es mit seiner realen Identität zu verknüpfen. Um KYC-Plattformen zu umgehen und 'on-Chain' Fingerabdrücke zu verhindern, wende mehrere Strategien an:
 
 
 
@@ -3048,7 +3048,7 @@ Auch nach dem anonymen Erwerb von Münzen ist es immer noch möglich, persönlic
 - Verwendung von Transaktionsstrukturen, die die Privatsphäre schützen: Coinjoins, Payjoins, Ricochets und Mini-Payment Coinjoins...
 
 
-Du bist auch mit den Grundlagen der Blockchain-Überwachung vertraut und weisst, wie Unternehmen Aktivitäten verfolgen. Wenn du die Heuristiken und Muster kennst, die von Kettenanalysefirmen verwendet werden, kannst du aktiv Massnahmen ergreifen, um zu vermeiden, in bekannte Fallen zu tappen.
+Du bist auch mit den Grundlagen der Blockchain-Überwachung vertraut und weisst, wie Unternehmen Aktivitäten verfolgen. Wenn du die Heuristiken und Muster kennst, die von Blockchain-Analysefirmen verwendet werden, kannst du aktiv Massnahmen ergreifen, um zu vermeiden, in bekannte Fallen zu tappen.
 
 
 Für diejenigen, die sich eingehender mit 'on-chain' Datenschutz und Überwachungswiderstand befassen möchten, bieten wir im zweiten Jahr eine Fortbildung zu Bitcoin Datenschutzpraktiken an:
@@ -3197,7 +3197,7 @@ Vergewissere dich, dass du eine ruhige, ablenkungsfreie Umgebung hast, und stell
 
 
 - vier bis fünf Blätter weisses Papier ;
-- Stift;
+- ein Stift;
 - zwei Briefumschläge ;
 - ein Telefon oder Address-Buch;
 - ein Computer (optional).
@@ -3253,52 +3253,52 @@ Erstelle auf dem Papier, das dein Bitcoin-Nachfolgeplan werden soll, eine Vergle
 | Mein Bruder Bob       | sehr hoch     | tief                  | Telefon & E-Mail            | Bob kennt Bitcoin nicht gut, aber er ist zu 100% zuverlässig. Er kann sicherstellen, dass der Prozess gut abläuft.                        |
 | Mein Cousin Nathan     | hoch            | mittel               | Telefon & Instagram        | Er kennt Bitcoin ein wenig und kann die Erben anleiten. Er kennt den Plan. #1 Kontaktperson falls nötig.                   |
 | Ricco (Bitcoiner Freund) | mittel      | sehr hoch            | Twitter, E-Mail & Foto   | Technisch sehr versiert, aber sollte nie Zugriff auf das Geld haben. Kontaktieren für technischen Support.            |
-| Bitcoin YouTuber     | tief             | hoch                 | YouTube Kanal          | Gute Informationsqeuelle zum Lernen, aber kann nicht direkt helfen.                                                   |
+| Bitcoin YouTuber     | tief             | hoch                 | YouTube Kanal          | Gute Informationsquelle zum Lernen, aber kann nicht direkt helfen.                                                   |
 
 Wenn du kein zuverlässiges oder kompetentes Familienmitglied hast, kannst du auch in Erwägung ziehen, einen Fachmann zu beauftragen, z.B. einen auf Bitcoin-Erbschaften spezialisierten Rechtsanwalt oder einen spezialisierten Nachlassplanungsdienst. Das Wichtigste ist, dass deine Erben Zugang zu zuverlässiger technischer Hilfe haben und gleichzeitig die Sicherheit und Vertraulichkeit deines Vermögens gewahrt bleibt.
-xxxx
-
-### Schritt 2: Erstellen Sie schnell und einfach eine Bestandsaufnahme
 
 
-Bevor Sie darüber nachdenken, deine Bitcoins zu sichern oder zu übertragen, ist es wichtig, ein klares Inventar deiner Bitcoin-Vermögenswerte zu erstellen. Dieses Inventar dient als Grundlage für die Organisation deines Nachlassplans und hilft deinen Erben zu verstehen, wo sich deine Vermögenswerte befinden und wie sie darauf zugreifen können.
+### Schritt 2: Erstelle schnell und einfach eine Bestandsaufnahme
+
+
+Bevor du darüber nachdenkst, deine Bitcoins zu sichern oder zu übertragen, ist es wichtig, ein klares Inventar deiner Bitcoin-Vermögenswerte zu erstellen. Dieses Inventar dient als Grundlage für die Organisation deines Nachlassplans und hilft deinen Erben zu verstehen, wo sich deine Vermögenswerte befinden und wie sie darauf zugreifen können.
 
 
 Das Ziel ist nicht, deine Sicherheit sofort zu verbessern, sondern einfach deine aktuelle Situation zu katalogisieren. Es ist eine Momentaufnahme deiner Bitcoins und der Mittel, um auf sie zuzugreifen. Du kannst die Sicherheit später anpassen und verstärken, wenn diese erste Bestandsaufnahme abgeschlossen ist.
 
 
-Überlegen Sie sich alle Orte, an denen Sie Bitcoins oder Fiat-Währung in Verbindung mit Bitcoin haben. Dies kann beinhalten:
+Überlegen dir alle Orte, an denen du Bitcoins oder Fiat-Währung in Verbindung mit Bitcoin hast. Dies kann beinhalten:
 
 
 
-- Exchange-Plattformen:  Konten mit BTC oder Fiat, die mit deinen Bitcoin-Käufen verbunden sind.
-- Hot Geldbörsen (mobil oder Desktop): Auf deinem Telefon installierte Apps, die für alltägliche Transaktionen verwendet werden;
-- Hardware-Geldbörsen : Physische Geräte, die deine privaten Schlüssel offline speichern;
+- Exchange-Plattformen: Konten mit BTC oder Fiat, die mit deinen Bitcoin-Käufen verbunden sind.
+- Hot-Wallets (mobil oder Desktop): Auf deinem Telefon installierte Apps, die für alltägliche Transaktionen verwendet werden;
+- Hardware-Wallets : Physische Geräte, die deine privaten Schlüssel offline speichern;
 - Andere Lösungen: Multisig, Papiergeldbörsen, speziell aufbewahrte private Schlüssel, usw.
 
 
-Verwenden Sie eine Tabelle, um dieses Verzeichnis zu strukturieren. Du sollten dieses Dokument nicht online speichern, sondern an einem sicheren Ort aufbewahren, am besten auf Papier. Zum Beispiel:
+Verwende eine Tabelle, um dieses Verzeichnis zu strukturieren. Du sollten dieses Dokument nicht online speichern, sondern an einem sicheren Ort aufbewahren, am besten auf Papier. Zum Beispiel:
 
 
-| General | Storage type | Assets held | Localization | Mnemonic backup | Password (PIN, passphrase...) | Notes |
+| Generell | Aufbewahrungsart | Gehaltenes Vermögen | Lokalisierung | Mnemonic Backup | Passwort (PIN, Passphrase...) | Notizen |
 | --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Bitfinex | BTC & Euros | Accessible online | None (custodial platform) | | Bitwarden & 2FA password manager with Authy app on my phone | I bought my BTC here. Funds must be withdrawn after purchase |
-| Physical wallet | Jade Plus | BTC | Personal safe at home | Copy at my Uncle Bob's and in a bank safe at BNP Paribas | passphrase stored at my mother's. PIN code stored on Bitwarden password manager. PIN code stored on Bitwarden password manager. | I use 2 separate wallets: a normal one with only the mnemonic phrase and one with a passphrase. |
-| Green Wallet | BTC | On my Iphone 15 | Copy of the seed in my safe at home | PIN code stored on the Bitwarden password manager. | The application is in hidden mode. | The application is in hidden mode |
+| Bitfinex | BTC & Euros | Online zugänglich | keine (custodial platform) | | Bitwarden & 2FA Passwort-Manager mit Authy App auf dem Handy | Hier habe ich meine BTC gekauft. Beträge abziehen nach dem Kauf |
+| Physisches Wallet | Jade Plus | BTC | Tresor zu Hause | Kopie bei meinem Onkel Bob und in einem Banksafe bei BNP Paribas | Passphrase hinterlegt bei meiner Mutter. PIN hinterlegt auf dem Bitwarden Passwort-Manager. PIN hinterlegt auf dem Bitwarden Passwort-Manager. | Ich benutze zwei separate Wallets: ein normales nur mit dem Mnemonic und eines mit einer Passphrase. |
+| Green Wallet | BTC | auf meinem iPhone 15 | Kopie des Seeds in meinem Tresor zuhause | PIN hinterlegt auf dem Bitwarden Password-Manager. | Die Anwendung ist versteckt. | Die Anwendung ist versteckt |
 
-In diesem Stadium könnten Sie den Drang verspüren, deine Fondsverteilung sofort anzupassen, deine Sicherheit zu verbessern oder sogar mehr Bitcoins zu kaufen oder zu verkaufen. Handeln Sie noch nicht! Hier geht es nicht darum, Massnahmen zu ergreifen, sondern eine Momentaufnahme deiner aktuellen Situation zu erstellen. Du kannst deinen Plan später immer noch verbessern, aber im Moment sollten Sie sich darauf konzentrieren, die Bestandsaufnahme so gründlich wie möglich durchzuführen.
+In diesem Stadium könntest du den Drang verspüren, deine Fondsverteilung sofort anzupassen, deine Sicherheit zu verbessern oder sogar mehr Bitcoins zu kaufen oder zu verkaufen. Handle  noch nicht! Hier geht es nicht darum, Massnahmen zu ergreifen, sondern eine Momentaufnahme deiner aktuellen Situation zu erstellen. Du kannst deinen Plan später immer noch verbessern, aber im Moment solltest du dich darauf konzentrieren, die Bestandsaufnahme so gründlich wie möglich durchzuführen.
 
 
 Nach dieser Bestandsaufnahme wird es viel einfacher sein, Schwachstellen zu erkennen und einen sicheren und effektiven Übertragungsprozess zu organisieren.
 
 
-### Schritt 3: Schreiben Sie den Brief
+### Schritt 3: Schreibe den Brief
 
 
 #### Warum ein handgeschriebener Brief?
 
 
-Es ist wichtig, dass dein Nachlassplan klar, lesbar und sicher ist. Um dies zu erreichen, schreiben Sie den Brief von Hand mit Tinte auf Papier und vermeiden Sie digitale Dokumente, die kompromittiert werden könnten. Dieser Brief ist weder ein Testament noch eine rechtliche Erklärung, sondern ein praktischer Leitfaden, der deinen Angehörigen hilft, deine Bitcoins sicher zu erhalten.
+Es ist wichtig, dass dein Nachlassplan klar, lesbar und sicher ist. Um dies zu erreichen, schreibe den Brief von Hand mit Tinte auf Papier und vermeide digitale Dokumente, die kompromittiert werden könnten. Dieser Brief ist weder ein Testament noch eine rechtliche Erklärung, sondern ein praktischer Leitfaden, der deinen Angehörigen hilft, deine Bitcoins sicher zu erhalten.
 
 
 Das Schreiben sollte einfach und direkt sein und die folgenden wesentlichen Elements enthalten:
@@ -3315,7 +3315,7 @@ Das Schreiben sollte einfach und direkt sein und die folgenden wesentlichen Elem
 #### Muster eines Erbscheins
 
 
-Hier ist ein Modell, das von Pamela Morgans Cryptoasset Inheritance Planning inspiriert ist. Du sollten es natürlich an deine persönliche Situation anpassen:
+Hier ist ein Modell, das von Pamela Morgans 'Cryptoasset Inheritance Planning' inspiriert ist. Du solltest es natürlich an deine persönliche Situation anpassen:
 
 
 ---
@@ -3325,56 +3325,56 @@ Hier ist ein Modell, das von Pamela Morgans Cryptoasset Inheritance Planning ins
 Liebe `Namen der Erben`,
 
 
-Wenn Sie diesen Brief lesen, bin ich nicht mehr hier. Zuallererst sollten Sie wissen, dass ich Sie liebe und mir die Zeit genommen habe, dieses Dokument vorzubereiten, um dir bei der Verwaltung meiner Bitcoins zu helfen, die möglicherweise einen Wert haben. Dies ist keine komplizierte Aufgabe, aber sie erfordert Sorgfalt und Vorsicht. Bitcoin ist ein Peer-to-Peer-System: Es gibt keinen Regress, wenn ein Fehler gemacht wird. Bitte nehmen Sie sich die Zeit, diesen Brief vollständig zu lesen, bevor Sie etwas unternehmen.
+Wenn du diesen Brief liest, bin ich nicht mehr hier. Zuallererst solltest du wissen, dass ich dich liebe und mir die Zeit genommen habe, dieses Dokument vorzubereiten, um dir bei der Verwaltung meiner Bitcoins zu helfen, die möglicherweise einen Wert haben. Dies ist keine komplizierte Aufgabe, aber sie erfordert Sorgfalt und Vorsicht. Bitcoin ist ein Peer-to-Peer-System: Es gibt keinen Regress, wenn ein Fehler gemacht wird. Bitte nimm dir die Zeit, diesen Brief vollständig zu lesen, bevor du etwas unternimmst.
 
 
 #### 1. Kontakt zu vertrauenswürdigen Personen
 
 
-Ich habe mehrere Personen benannt, die dir dabei helfen sollen, Bitcoin zu verstehen und mein Vermögen wiederzuerlangen. Du sollten niemals direkten Zugang zu den Geldern haben, kannst Sie aber durch das Verfahren leiten:
+Ich habe mehrere Personen benannt, die dir dabei helfen sollen, Bitcoin zu verstehen und mein Vermögen wiederzuerlangen. Sie sollten niemals direkten Zugang zu den Geldern haben, können dich aber durch das Verfahren leiten:
 
 
 
 - Mein Bruder Bob: +33 6 00 00 00 00; bobmybrother@supermail.com. Du kannst Bob vertrauen, dass er dir bei diesem Prozess hilft. Er ist zwar nicht der technisch versierteste in Sachen Bitcoin, aber er ist die richtige Person, um alles in Frage zu stellen und Vorsicht walten zu lassen, um deinen Erfolg sicher zu gewährleisten.
-- Mein Cousin Nathan: +33 6 00 00 00 00; nathandelacroix@supermail.com. Nathan hat mich mit Bitcoin bekannt gemacht. Er kennt sich sehr gut mit Computern aus und kann die meisten deiner Fragen beantworten. Er besitzt auch einige Bitcoin und kann Sie technisch anleiten. Du haben ihn bei Familientreffen kennengelernt, und ich habe hier ein Foto von ihm eingefügt.
-- Ricco: @RiccoSuperBitcoiner auf Twitter; ricco425@supermail.com. Ich habe jahrelang eng mit Ricco zusammengearbeitet. Du sind ihm noch nie begegnet, also stellen Sie sicher, dass Sie die richtige Person kontaktieren, indem Sie ihn fragen: "Wie heisst der Hund von Cédric?" Wenn er "12" antwortet, ist er es. Ricco ist ein sehr freundlicher und kompetenter Bitcoin-Experte. Er wird alle deine Fragen beantworten, und Sie können seinem Urteil über die Sicherheit von Bitcoin vertrauen. Zögern Sie nicht, ihn zu kontaktieren, aber geben Sie ihm niemals direkten Zugang zu den Geldern.
+- Mein Cousin Nathan: +33 6 00 00 00 00; nathandelacroix@supermail.com. Nathan hat mich mit Bitcoin bekannt gemacht. Er kennt sich sehr gut mit Computern aus und kann die meisten deiner Fragen beantworten. Er besitzt auch einige Bitcoins und kann dich technisch anleiten. Du hast ihn bei Familientreffen kennengelernt, und ich habe hier ein Foto von ihm eingefügt.
+- Ricco: @RiccoSuperBitcoiner auf Twitter; ricco425@supermail.com. Ich habe jahrelang eng mit Ricco zusammengearbeitet. Du bist ihm noch nie begegnet, also stelle sicher, dass du die richtige Person kontaktierst, indem du ihn fragst: "Wie heisst der Hund von Cédric?" Wenn er "12" antwortet, ist er es. Ricco ist ein sehr freundlicher und kompetenter Bitcoin-Experte. Er wird alle deine Fragen beantworten, und du kannst seinem Urteil über die Sicherheit von Bitcoin vertrauen. Zögere nicht, ihn zu kontaktieren, aber gib ihm niemals direkten Zugang zu den Geldern.
 
-Es mag seltsam klingen, aber kontaktieren Sie sie alle. Darüber hinaus können Sie mehr erfahren, wenn Sie Andreas Antonopoulos auf YouTube zuhören und das Buch *Cryptoasset Inheritance Planning* von Pamela Morgan kaufen.
+Es mag seltsam klingen, aber kontaktiere sie alle. Darüber hinaus kannst du mehr erfahren, wenn du Andreas Antonopoulos auf YouTube zuhörst und das Buch *Cryptoasset Inheritance Planning* von Pamela Morgan kaufst.
 
 
-Setzen Sie sich mit all diesen Personen in Verbindung und überprüfen Sie deren Meinungen, bevor Sie wichtige Entscheidungen treffen. Vertrauen Sie niemandem blind
+Setze dich mit all diesen Personen in Verbindung und überprüfe deren Meinungen, bevor du wichtige Entscheidungen triffst. Vertraue niemandem blind.
 
 
 #### 2. Wo sind meine Bitcoins?
 
-Hier finden Sie ein detailliertes Verzeichnis meiner Bestände, ihren Standort und wie Sie Zugang zu ihnen erhalten.
+Hier findest du ein detailliertes Verzeichnis meiner Bestände, ihren Standort und wie du Zugang zu ihnen erhältst.
 
 
 
-- Ich benutze mein Telefon (Samsung Galaxy S8), um auf meinen Samourai Wallet zuzugreifen. Die Wiederherstellungsphrase für diesen Wallet ist in zwei Kopien gespeichert: eine wird im Banktresor aufbewahrt, die andere bei Onkel Bob. Die PIN, die zum Entsperren sowohl meines Telefons als auch des Wallet benötigt wird, wird bei mir zu Hause und bei meiner Grossmutter aufbewahrt.
-- Ich greife über meinen Dell 2018 Laptop auf die Online-Exchange-Plattform Bitfinex zu. Es könnten noch Bitcoins oder Dollar vorhanden sein. Um diese Gelder wiederzuerlangen, müssen Sie entweder Bitfinex direkt kontaktieren oder versuchen, auf mein Konto zuzugreifen. (**Vorsicht, dies könnte illegal sein - überprüfen Sie deine lokalen Gesetze**).
+- Ich benutze mein Telefon (Samsung Galaxy S8), um auf mein Samourai Wallet zuzugreifen. Die Wiederherstellungsphrase für dieses Wallet ist in zwei Kopien gespeichert: eine wird im Banktresor aufbewahrt, die andere bei Onkel Bob. Die PIN, die zum Entsperren sowohl meines Telefons als auch des Wallet benötigt wird, wird bei mir zu Hause und bei meiner Grossmutter aufbewahrt.
+- Ich greife über meinen Dell 2018 Laptop auf die Online-Exchange-Plattform Bitfinex zu. Es könnten noch Bitcoins oder Dollar vorhanden sein. Um diese Gelder wiederzuerlangen, musst du entweder Bitfinex direkt kontaktieren oder versuchen, auf mein Konto zuzugreifen. (**Vorsicht, dies könnte illegal sein - überprüfen  deine lokalen Gesetze**).
 - Ich habe den Zugang zu meinen Online-Konten mit einem Passwort-Manager gesichert. Ein Backup dieses Managers ist im Tresor der Bank gespeichert. Mein Bitfinex-Konto ist ausserdem durch eine Zwei-Faktor-Authentifizierung geschützt, auf die ich entweder über mein Telefon (Samsung Galaxy S8, Authy-App) oder über den Backup-Code, den ich zu Hause aufbewahrt habe, zugreifen kann.
-- Ich besitze einen Trezor Model One Hardware Wallet, auf den ich über meinen PC mit der Software Sparrow Wallet zugreife. Die Wiederherstellungsphrase für diesen Wallet ist in zwei Kopien gespeichert: eine im Banktresor, die andere bei Onkel Bob. Die PIN für diesen Wallet ist bei mir zu Hause und bei meiner Mutter gespeichert. Das Gerät selbst wird wahrscheinlich in einem Safe in meinem Büro aufbewahrt. Ich verwende ein BIP39 passphrase auf meinem Trezor Model One. Dieses passphrase ist entscheidend für den Zugriff auf die Gelder auf dem Gerät. Ein Backup dieses passphrase wird an zwei Orten aufbewahrt: bei mir zu Hause und bei meiner Mutter.
+- Ich besitze ein Trezor 'Model One' Hardware Wallet, auf das ich über meinen PC mit der Software Sparrow Wallet zugreife. Die Wiederherstellungsphrase für dieses Wallet ist in zwei Kopien gespeichert: eine im Banktresor, die andere bei Onkel Bob. Die PIN für dieses Wallet ist bei mir zu Hause und bei meiner Mutter gespeichert. Das Gerät selbst wird wahrscheinlich in einem Safe in meinem Büro aufbewahrt. Ich verwende ein BIP39 Passphrase auf meinem Trezor 'Model One'. Diese Passphrase ist entscheidend für den Zugriff auf die Gelder auf dem Gerät. Ein Backup dieser Passphrase wird an zwei Orten aufbewahrt: bei mir zu Hause und bei meiner Mutter.
 
 
-Treffen Sie alle notwendigen Vorsichtsmassnahmen, bevor Sie mit diesen Geldern umgehen. Geben Sie niemals den gesamten Rückforderungssatz an eine Person weiter und teilen Sie diese Einzelheiten nur mit, wenn es unbedingt notwendig ist.
+Triff alle notwendigen Vorsichtsmassnahmen, bevor du mit diesen Geldern hantierst. Gib  niemals den gesamten Wiederherstellungssatz an eine Person weiter und teile diese Einzelheiten nur mit, wenn es unbedingt notwendig ist.
 
 
 #### 3. Sicherheitsvorkehrungen und Anweisungen
 
 
 
-- Überstürzen Sie nichts. Nehmen Sie sich Zeit zum Lernen, bevor Sie handeln. Bitcoin ist bei richtiger Anwendung sicher.
-- Geben Sie den Satz mit den 24 Wörtern niemals nur an eine Person weiter. Wenn jemand Sie um vollständigen Zugang bittet, sollten Sie vorsichtig sein.
-- Verbinden Sie meine Geldbörsen nicht mit einem unbekannten Computer. Verwenden Sie eine sichere Umgebung, wenn möglich offline.
-- Hüten Sie sich vor Betrügereien. Es gibt viele Betrügereien im Zusammenhang mit dem Bitcoin. Vertrauen Sie nur den in diesem Schreiben genannten Personen.
-- Speichern Sie alles, was Sie tun.  Machen Sie Notizen, halten Sie wichtige Schritte fest und schützen Sie den Zugriff.
+- Überstürze nichts. Nimm dir Zeit zum Lernen, bevor du handelst. Bitcoin ist bei richtiger Anwendung sicher.
+- Gib den Satz mit den 24 Wörtern niemals nur an eine Person weiter. Wenn jemand dich um vollständigen Zugang bittet, solltest du vorsichtig sein.
+- Verbinde meine Geldbörsen nicht mit einem unbekannten Computer. Verwende eine sichere Umgebung, wenn möglich offline.
+- Hüte dich vor Betrügereien. Es gibt viele Betrügereien im Zusammenhang mit Bitcoin. Vertraue nur den in diesem Schreiben genannten Personen.
+- Speichere alles, was du tust.  Mach dir Notizen, halte  wichtige Schritte fest und schütze den Zugriff.
 
 
 #### 4. Rechtliche Hinweise und Schlussbotschaft
 
 
-Sie finden eine Kopie meines Testaments in meiner persönlichen Akte und bei meinem Notar. Dieses Schreiben ersetzt kein offizielles Testament, aber es wird Sie bei der Verwaltung meiner Bitcoins unterstützen.
+Du findest eine Kopie meines Testaments in meiner persönlichen Akte und bei meinem Notar. Dieses Schreiben ersetzt kein offizielles Testament, aber es wird dich bei der Verwaltung meiner Bitcoins unterstützen.
 
 
 Passt auf euch auf und denkt daran, dass ich euch liebe. Ich wünsche mir, dass diese Informationen für euch nützlich sind und euch helfen, in Ruhe weiterzuarbeiten.
@@ -3390,19 +3390,19 @@ Datum
 
 
 ---
-Dies ist ein konkretes Beispiel für einen Erbschaftsbrief. Passen Sie es unbedingt an deine persönliche Situation an. Es ist auch wichtig zu entscheiden, wie detailliert der Rückgewinnungsprozess sein soll. Wenn Sie befürchten, dass deine Erben mit diesen minimalen Informationen nicht in der Lage sein werden, deine Bitcoins wiederzuerlangen, sollten Sie in Erwägung ziehen, eine Schritt-für-Schritt-Anleitung zu verfassen, die den Prozess im Detail erklärt.
+Dies ist ein konkretes Beispiel für einen Erbschaftsbrief. Passe ihn unbedingt an deine persönliche Situation an. Es ist auch wichtig zu entscheiden, wie detailliert der Rückgewinnungsprozess sein soll. Vielleicht befürchtest du, dass deine Erben mit diesen minimalen Informationen nicht in der Lage sein werden, deine Bitcoins wiederzuerlangen. Dann solltest du in Erwägung ziehen, eine Schritt-für-Schritt-Anleitung zu verfassen, die den Prozess im Detail erklärt.
 
 
-Ausserdem müssen Sie abwägen, wie viele Informationen Sie in diesem Nachlassplan preisgeben. Je mehr Sie über deine Sicherheitsmethoden preisgeben, desto mehr riskieren Sie, deine Sicherheit zu Lebzeiten zu gefährden, wenn dieser Brief in die falschen Hände gerät. Ein Einbrecher, der diesen Brief findet, wüsste zum Beispiel sofort, wo er nach wichtigen Wallet-Informationen suchen muss. Wenn Sie andererseits zu wenig preisgeben, setzen Sie deine Erben dem Risiko aus, dass sie keinen Zugriff auf deine Bitcoins haben. Daher müssen Sie einen Mittelweg finden.
+Ausserdem musst du abwägen, wie viele Informationen du in diesem Nachlassplan preisgibst. Je mehr du über deine Sicherheitsmethoden preisgibst, desto mehr riskierst du, deine Sicherheit zu Lebzeiten zu gefährden, wenn dieser Brief in die falschen Hände gerät. Ein Einbrecher, der diesen Brief findet, wüsste zum Beispiel sofort, wo er nach wichtigen Wallet-Informationen suchen muss. Wenn du andererseits zu wenig preisgibst, setzt du deine Erben dem Risiko aus, dass sie keinen Zugriff auf deine Bitcoins haben. Daher musst du einen Mittelweg finden.
 
 
-Letztlich spiegelt das Dilemma der Nachlassplanung die Sicherheitsstrategien wider: Es geht immer darum, das Verlustrisiko mit dem Diebstahlsrisiko abzuwägen. Wenn Sie nicht genug Informationen dokumentieren, erhöht sich das Risiko, dass deine Erben den Zugang zu den Bitcoins verlieren, während die Weitergabe von zu vielen Informationen das Risiko eines Diebstahls erhöhen könnte.
+Letztlich spiegelt das Dilemma der Nachlassplanung die Sicherheitsstrategien wider: Es geht immer darum, das Verlustrisiko mit dem Diebstahlsrisiko abzuwägen. Wenn du nicht genug Informationen dokumentieren, erhöht sich das Risiko, dass deine Erben den Zugang zu den Bitcoins verlieren, während die Weitergabe von zu vielen Informationen das Risiko eines Diebstahls erhöhen könnte.
 
 
-### Schritt 4: Überprüfen und speichern Sie deinen Brief
+### Schritt 4: Überprüfe und speichere deinen Brief
 
 
-Vergewissern Sie sich vor dem Schluss, dass dein Schreiben Folgendes enthält:
+Vergewissere dich vor dem Schluss, dass dein Schreiben Folgendes enthält:
 
 
 
@@ -3412,16 +3412,16 @@ Vergewissern Sie sich vor dem Schluss, dass dein Schreiben Folgendes enthält:
 - Eine aufmerksame und einfühlsame Botschaft an deine Erben
 
 
-Fertigen Sie je nach deiner persönlichen Situation mehrere handschriftliche Kopien dieses Schreibens an und bewahren Sie sie an einem sicheren Ort auf (in einem Safe, bei einer Vertrauensperson usw.). Informieren Sie deine Erben über die Existenz dieses Nachlassplans, ohne jedoch unbedingt sofort den Inhalt preiszugeben. Als zusätzlichen Schutz können Sie den Brief in einen undurchsichtigen Umschlag stecken, um sicherzustellen, dass er nicht ohne deine Zustimmung eingesehen wurde.
+Fertige je nach deiner persönlichen Situation mehrere handschriftliche Kopien dieses Schreibens an und bewahre sie an einem sicheren Ort auf (in einem Safe, bei einer Vertrauensperson usw.). Informiere deine Erben über die Existenz dieses Nachlassplans, ohne jedoch unbedingt sofort den Inhalt preiszugeben. Als zusätzlichen Schutz kannst du den Brief in einen undurchsichtigen Umschlag stecken, um sicherzustellen, dass er nicht ohne deine Zustimmung eingesehen wurde.
 
 
 ![BTC102-Bitcoin](assets/fr/096.webp)
 
 
-Wenden Sie sich bei Bedarf an einen Rechtsanwalt oder Notar, um deinen Plan formell in einen rechtlichen Rahmen einzubinden.
+Wende dich bei Bedarf an einen Rechtsanwalt oder Notar, um deinen Plan formell in einen rechtlichen Rahmen einzubinden.
 
 
-**Glückwunsch!** Sie haben einen entscheidenden Schritt zur Sicherung deines Bitcoin-Vermögens getan. Du können nun deinen Erbschaftsplan verfeinern, indem Sie ihn regelmässig überprüfen und fortschrittlichere Lösungen wie die Verringerung von Multisig-Einrichtungen mit Zeitschaltern erforschen:
+**Glückwunsch!** Du hast einen entscheidenden Schritt zur Sicherung deines Bitcoin-Vermögens getan. Du kannst nun deinen Erbschaftsplan verfeinern, indem du ihn regelmässig überprüfst und fortschrittlichere Lösungen wie die Verringerung von Multisig-Einrichtungen mit Zeitschaltern erforschst:
 
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
@@ -3434,16 +3434,16 @@ Besonderer Dank geht an [Pamela Morgan](https://x.com/pamelawjd) für ihre Arbei
 
 
 
-## Sie gehören jetzt zu den 0,1% der am besten vorbereiteten Bitcoinern
+## Du gehörst jetzt zu den 0,1% der am besten vorbereiteten Bitcoinern
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 
-Wenn Sie es bis hierher geschafft haben, gehören Sie jetzt zu einer aufgeklärten Minderheit! Nur sehr wenige Menschen kommen mit Bitcoin so weit, und Sie können stolz darauf sein, wie weit Sie gekommen sind. Vielleicht haben Sie alle in diesem Schulungskurs angebotenen Anleitungen befolgt: Sie haben dein erstes Hardware Wallet eingerichtet, deine Rückgewinnungsphrase gesichert, einen Dollar-Cost-Averaging-Plan (DCA) erstellt, Bitcoin mit und ohne KYC erworben und sogar deine Bitcoin-Vererbung geplant. Jeder Schritt, den Sie gemacht haben, ist ein Sprung in Richtung wahrer finanzieller Souveränität.
+Wenn du es bis hierher geschafft hast, gehörst du jetzt zu einer aufgeklärten Minderheit! Nur sehr wenige Menschen kommen mit Bitcoin so weit, und du kannst stolz darauf sein, wie weit du gekommen sind. Vielleicht hast du alle in diesem Schulungskurs angebotenen Anleitungen befolgt: Du hast dein erstes Hardware Wallet eingerichtet, deine Rückgewinnungsphrase gesichert, einen Dollar-Cost-Averaging-Plan (DCA) erstellt, Bitcoin mit und ohne KYC erworben und sogar deine Bitcoin-Vererbung geplant. Jeder Schritt, den du gemacht hast, ist ein Sprung in Richtung wahrer finanzieller Souveränität.
 
 
-Auch wenn Sie noch nicht alles gemacht haben, aber Sie haben sich vorgenommen, es bald zu tun, sind Sie der Zeit schon voraus. Diese Entschlossenheit zu lernen und zu handeln ist das, was wirklich zählt. Du verstehen jetzt, warum Bitcoin eine so wichtige Veränderung für unsere individuelle und kollektive Zukunft darstellt.
+Auch wenn du noch nicht alles gemacht hast, aber du hast dir vorgenommen, es bald zu tun, bist du der Zeit schon voraus. Diese Entschlossenheit zu lernen und zu handeln ist das, was wirklich zählt. Du verstehst jetzt, warum Bitcoin eine so wichtige Veränderung für unsere individuelle und kollektive Zukunft darstellt.
 
 
 Seit ich begonnen habe, die Menschen über Bitcoin aufzuklären, haben sich sowohl das Ökosystem als auch ich erheblich weiterentwickelt. Dieser Kurs wurde vollständig aktualisiert, um das Beste widerzuspiegeln, was Bitcoin heute zu bieten hat. Es war eine lange gemeinsame Reise!
@@ -3455,7 +3455,7 @@ Seit ich begonnen habe, die Menschen über Bitcoin aufzuklären, haben sich sowo
 ### Wie geht es mit Bitcoin weiter?
 
 
-Wenn wir uns die logarithmische Preiskurve ansehen, wird eines klar: Wir wissen nie genau, wo wir uns in den Zyklen befinden. Vielleicht lesen Sie diesen Kurs gerade, wenn eine neue Wachstumsphase beginnt, oder vielleicht befinden Sie sich mitten in einer Baisse. Wie dem auch sei, die Zyklen gehen weiter, unweigerlich unterbrochen von spektakulären Höchstständen und manchmal brutalen Korrekturen.
+Wenn wir uns die logarithmische Preiskurve ansehen, wird eines klar: Wir wissen nie genau, wo wir uns in den Zyklen befinden. Vielleicht liest du diesen Kurs gerade, wenn eine neue Wachstumsphase beginnt, oder vielleicht befindest du sich mitten in einer Baisse. Wie dem auch sei, die Zyklen gehen weiter, unweigerlich unterbrochen von spektakulären Höchstständen und manchmal brutalen Korrekturen.
 
 
 Aber abgesehen vom Preis ist das Wachstum von Bitcoin erstaunlich. Was als obskures Projekt von Cypherpunks begann, hat sich zu einer globalen Bewegung entwickelt. Von der Seidenstrasse bis zur institutionellen Übernahme hat sich Bitcoin fest in der globalen Finanzlandschaft etabliert. Es wird nicht mehr als Randexperiment betrachtet, sondern als eine ernstzunehmende Anlageklasse, die von Institutionen und Millionen von Privatpersonen weltweit angenommen wird.
@@ -3479,39 +3479,39 @@ Da die globalen Krisen weitergehen und die Inflation die Kaufkraft von Fiat-Wäh
 ### was ist dein nächster Schritt?
 
 
-Ironischerweise wird die grösste Veränderung nicht Bitcoin sein, sondern Sie selbst.
+Ironischerweise wird die grösste Veränderung nicht Bitcoin sein, sondern du selbst.
 
-Sie werden sich in der Art und Weise, wie Sie Bitcoin nutzen, verstehen und mit ihm umgehen, weiterentwickeln. Vielleicht entwickeln Sie eine echte Leidenschaft dafür, so dass Sie beginnen, andere zu unterrichten, sich in der Gemeinschaft zu engagieren oder einfach dein Vermögen langfristig zu bewahren. Wie auch immer dein Weg aussieht, Bitcoin wird deine Weltanschauung verändert haben und wahrscheinlich auch dein Verhältnis zu Freiheit und finanzieller Verantwortung.
-
-
-Hier sind einige Möglichkeiten, die Sie als nächstes nutzen können:
+Du wirst dich in der Art und Weise weiterentwickeln, wie du Bitcoin nutzt, verstehst und mit ihm umgehst. Vielleicht entwickelst du eine echte Leidenschaft dafür, so dass du beginnst, andere zu unterrichten, dich in der Gemeinschaft zu engagieren oder einfach dein Vermögen langfristig zu bewahren. Wie auch immer dein Weg aussieht, Bitcoin wird deine Weltanschauung verändert haben und wahrscheinlich auch dein Verhältnis zu Freiheit und finanzieller Verantwortung.
 
 
-#### 1. Behalten Sie den Schwung bei
+Hier sind einige Möglichkeiten, die du als nächstes nutzen kannst:
 
 
-Wenn deine derzeitige Strategie für Sie funktioniert, machen Sie einfach weiter.
-
-Setzen Sie Sats regelmässig ein und halten Sie sich an bewährte Sicherheitsverfahren. Du haben bereits eine solide Grundlage geschaffen, und es gibt keinen Grund, weiter zu gehen, wenn dein Hauptziel einfach darin besteht, deine Bitcoin-Ersparnisse zu schützen.
+#### 1. Behalte den Schwung bei
 
 
-Nehmen Sie sich Zeit, um die Entwicklung des Ökosystems zu beobachten, deine Strategie zu verfeinern und deine Einrichtung nach Bedarf zu verstärken.
+Wenn deine derzeitige Strategie für dich funktioniert, mach einfach weiter.
+
+Setze Sats regelmässig ein und halte dich an bewährte Sicherheitsverfahren. Du hast bereits eine solide Grundlage geschaffen, und es gibt keinen Grund, weiter zu gehen, wenn dein Hauptziel einfach darin besteht, deine Bitcoin-Ersparnisse zu schützen.
 
 
-#### 2. Vertiefen Sie dein Wissen
+Nimm dir Zeit, um die Entwicklung des Ökosystems zu beobachten, deine Strategie zu verfeinern und deine Einrichtung nach Bedarf zu verstärken.
 
 
-deine Reise ist hier noch nicht zu Ende. Bitcoin ist eine Welt, die sich ständig weiterentwickelt, und es gibt immer mehr zu entdecken. Hier sind einige Richtungen, die Sie vielleicht erkunden möchten, um dein Verständnis von Bitcoin zu vertiefen:
+#### 2. Vertiefe dein Wissen
+
+
+Deine Reise ist hier noch nicht zu Ende. Bitcoin ist eine Welt, die sich ständig weiterentwickelt, und es gibt immer mehr zu entdecken. Hier sind einige Richtungen, die du vielleicht erkunden möchtest, um dein Verständnis von Bitcoin zu vertiefen:
 
 
 
-- Um deine digitale Sicherheit zu erhöhen, beginnen Sie mit unserem Einführungskurs in die Sicherheit:
+- Um deine digitale Sicherheit zu erhöhen, beginne mit unserem Einführungskurs in die Sicherheit:
 
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
-- Wenn Sie sich für die wirtschaftliche und philosophische Seite von Bitcoin interessieren, sollten Sie sich diese vertiefenden Kurse ansehen:
+- Wenn du dich für die wirtschaftliche und philosophische Seite von Bitcoin interessierst, solltest du dir diese vertiefenden Kurse ansehen:
 
 
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
@@ -3533,7 +3533,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
-- Wenn Sie neugierig auf die technischen Aspekte von Bitcoin und seinem Ökosystem sind, sollten Sie sich diese Schulungskurse ansehen:
+- Wenn du neugierig auf die technischen Aspekte von Bitcoin und seinem Ökosystem sind, solltest du dir diese Schulungskurse ansehen:
 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
@@ -3542,43 +3542,43 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-#### 3. Tragen Sie zum Bitcoin-Ökosystem bei
+#### 3. Trage zum Bitcoin-Ökosystem bei
 
 
-Bitcoin ist mehr als nur ein Finanzinstrument; es ist eine Bewegung. Je nach deinen Fähigkeiten und Interessen gibt es viele Möglichkeiten, wie Sie sich einbringen können:
+Bitcoin ist mehr als nur ein Finanzinstrument; es ist eine Bewegung. Je nach deinen Fähigkeiten und Interessen gibt es viele Möglichkeiten, wie du dich einbringen kannst:
 
 
 
-- Aufklären und das Bewusstsein schärfen: Helfen Sie deinen Angehörigen, Bitcoin zu verstehen, teilen Sie dein Wissen und nehmen Sie an lokalen Diskussionen teil;
-- Entwickeln Sie Tools und Anwendungen: Wenn Sie über technische Fähigkeiten verfügen, ist die Mitarbeit an Open-Source-Tools eine gute Möglichkeit, Bitcoin einen Mehrwert zu bieten;
-- Treten Sie einer lokalen Gemeinschaft bei: Nehmen Sie an Veranstaltungen, Treffen und Foren teil, um andere Bitcoiner zu treffen und Exchange über die neuesten Entwicklungen zu informieren.
+- Aufklären und das Bewusstsein schärfen: Hilf deinen Angehörigen, Bitcoin zu verstehen, teile dein Wissen und nimm an lokalen Diskussionen teil;
+- Entwickele Tools und Anwendungen: Wenn du über technische Fähigkeiten verfügen, ist die Mitarbeit an Open-Source-Tools eine gute Möglichkeit, Bitcoin einen Mehrwert zu bieten;
+- Tritt einer lokalen Gemeinschaft bei: Nimm an Veranstaltungen, Treffen und Foren teil, um andere Bitcoiner zu treffen und dich über die neuesten Entwicklungen zu informieren.
 
 
-Wenn Sie helfen möchten, andere zu unterrichten, sucht Plan ₿ Network immer nach Mitwirkenden! Alle unsere Bildungsinhalte sind Open-Source und werden auf GitHub gehostet. Wir freuen uns über Mitwirkende, die beim Korrekturlesen und Übersetzen von Inhalten in verschiedene Sprachen helfen; in Exchange für ein paar Sats! Ob jetzt oder später auf deiner Bitcoin Reise, Sie sind eingeladen, [unserer Telegram-Gruppe für Mitwirkende] (https://t.me/PlanBNetwork_ContentBuilder) von Plan ₿ Network beizutreten.
+Wenn du helfen möchtest, andere zu unterrichten, sucht Plan ₿ Network immer nach Mitwirkenden! Alle unsere Bildungsinhalte sind Open-Source und werden auf GitHub gehostet. Wir freuen uns über Mitwirkende, die beim Korrekturlesen und Übersetzen von Inhalten in verschiedene Sprachen helfen; im Tausch für ein paar Sats! Ob jetzt oder später auf deiner Bitcoin Reise, du bist eingeladen, [unserer Telegram-Gruppe für Mitwirkende] (https://t.me/PlanBNetwork_ContentBuilder) von Plan ₿ Network beizutreten.
 
 
 ### Letzte Worte
 
 
-Vielen Dank, dass Sie den Kurs BTC102 besucht haben.
+Vielen Dank, dass du den Kurs BTC102 besucht hast.
 
 
 Mein Name ist Rogzy, Gründer von Découvre Bitcoin und Mitbegründer von Plan ₿ Network; eine Plattform, die durch unsere unglaublichen neuen Partner, Tether und Fulgur Ventures, und durch unsere gemeinsame Mission, so viele Menschen wie möglich über Bitcoin aufzuklären, ermöglicht wird.
 
 
-dein Feedback ist uns sehr wichtig. Du können gerne Kommentare auf der Plattform hinterlassen und uns mitteilen, was Sie von dieser aktualisierten Version des Kurses halten. deine Anregungen helfen uns, die Qualität unserer Inhalte weiter zu verbessern.
+Dein Feedback ist uns sehr wichtig. Du kannst gerne Kommentare auf der Plattform hinterlassen und uns mitteilen, was du von dieser aktualisierten Version des Kurses hältst. Deine Anregungen helfen uns, die Qualität unserer Inhalte weiter zu verbessern.
 
 
-Sie sind nun bereit, die Abschlussprüfung abzulegen, einen Test mit 40 Fragen, der dein Wissen bestätigt und dir dein Zertifikat verleiht.
+Du bist nun bereit, die Abschlussprüfung abzulegen, einen Test mit 40 Fragen, der dein Wissen bestätigt und dir dein Zertifikat verleiht.
 
 
 Viel Glück!
 
 
-Ich hoffe, Sie bald in einem anderen Kurs über Plan ₿ Network wiederzusehen, sei es in einem meiner Kurse oder in einem Kurs eines anderen grossartigen Lehrers in der Gemeinschaft. Und wer weiss, vielleicht treffen wir uns sogar persönlich auf einer Konferenz, einer Veranstaltung oder einem Bitcoin-Treffen.
+Ich hoffe, dich bald in einem anderen Kurs über Plan ₿ Network wiederzusehen, sei es in einem meiner Kurse oder in einem Kurs eines anderen grossartigen Lehrers in der Gemeinschaft. Und wer weiss, vielleicht treffen wir uns sogar persönlich auf einer Konferenz, einer Veranstaltung oder einem Bitcoin-Treffen.
 
 
-Nochmals herzlichen Glückwunsch, dass Sie so weit gekommen sind. Und denken Sie daran: Mein Hauptziel wird immer das gleiche bleiben:
+Nochmals herzlichen Glückwunsch, dass du so weit gekommen bist. Und denk daran: Mein Hauptziel wird immer das gleiche bleiben:
 
 So vielen Menschen wie möglich durch Bitcoin zu finanzieller Souveränität zu verhelfen
 

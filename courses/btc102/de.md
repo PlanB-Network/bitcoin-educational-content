@@ -766,13 +766,13 @@ Die Hodlers sind sehr langfristig orientiert, manchmal zehn Jahre oder länger. 
 
 |          | Handeln | Investieren | Halten |
 | ---------------------- | ----------- | -------------- | --------------- |
-| Leverage | Ja  | Nein | Nein |
-| zeitspanne | kurzfristig | mittelfristig | langfristig |
-| Vermögenstyp | Verträge | Echte BTC | Echte BTC |
+| Hebel | Ja  | Nein | Nein |
+| Zeitspanne | kurzfristig | mittelfristig | langfristig |
+| Vermögenstyp | Verträge | echte BTC | echte BTC |
 | Risikostufe | sehr hoch | hoch | hoch |
 | Schwierigkeitsgrad | sehr schwierig | schwierig | schwierig |
 | Lernkurve | Lange Lernkurve | Lange Lernkurve  | Lange Lernkurve  |
-| Potentieller Verlust | Unlimitiert | limitiert | limitiert |
+| Potentieller Verlust | unlimitiert | limitiert | limitiert |
 | Am besten für | wenige erfahrene Nutzer | die meisten Menschen | langfristig, überzeugte Menschen |
 
 ### Weiter lernen

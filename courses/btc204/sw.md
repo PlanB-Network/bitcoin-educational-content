@@ -1,4 +1,4 @@
-kemgnij---
+---
 name: Faragha kwenye Bitcoin
 goal: Elewa na ujue kanuni za ulinzi wa faragha unapotumia Bitcoin
 objectives: 

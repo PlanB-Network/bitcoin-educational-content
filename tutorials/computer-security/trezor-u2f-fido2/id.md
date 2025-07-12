@@ -4,13 +4,11 @@ description: Perkuat keamanan online Anda dengan Trezor
 ---
 ![cover](assets/cover.webp)
 
-
-
-Perangkat Trezor adalah dompet perangkat keras yang awalnya dirancang untuk mengamankan Bitcoin Wallet, tetapi juga dilengkapi dengan opsi-opsi canggih untuk autentikasi yang kuat di web. Berkat kompatibilitasnya dengan protokol **U2F** dan **FIDO2**, perangkat ini memungkinkan Anda untuk mengamankan akses ke akun online Anda tanpa hanya mengandalkan kata sandi.
-
-
+Perangkat Trezor adalah dompet perangkat keras yang awalnya dirancang untuk mengamankan dompet Bitcoin, tetapi juga memiliki opsi canggih untuk autentikasi kuat di web. Berkat kompatibilitasnya dengan protokol **U2F** dan **FIDO2**, Trezor memungkinkan Anda mengamankan akses ke akun online tanpa hanya mengandalkan kata sandi.
 
 Protokol U2F (*Universal 2nd Factor*) diperkenalkan oleh Google dan Yubico pada tahun 2014, kemudian distandardisasi oleh Aliansi FIDO. Protokol ini memungkinkan faktor autentikasi fisik kedua (2FA) untuk ditambahkan saat masuk. Setelah diaktifkan, selain kata sandi klasik, pengguna harus menyetujui setiap upaya untuk terhubung ke akun mereka dengan menekan sebuah tombol pada Trezor mereka. Dalam konteks ini, Trezor bekerja dengan cara yang mirip dengan Yubikey.
+
+Protokol U2F (Universal 2nd Factor) diperkenalkan oleh Google dan Yubico pada tahun 2014, kemudian distandarisasi oleh FIDO Alliance. Protokol ini memungkinkan penambahan faktor autentikasi fisik kedua (2FA) saat masuk. Setelah diaktifkan, selain kata sandi klasik, pengguna harus menyetujui setiap upaya untuk terhubung ke akun mereka dengan menekan tombol pada perangkat Trezor mereka. Dalam konteks ini, Trezor berfungsi serupa dengan Yubikey.
 
 
 

@@ -2779,16 +2779,15 @@ Wazo la mbinu hii ya ricochet lilianzia kwa timu ya Samourai Wallet, waliyoijumu
 Programu ya Samourai Wallet inatoa matoleo mawili ya ricochet:
 
 
-- Ricochet iliyoimarishwa, au "uwasilishaji kwa kasi", ambayo inatoa faida ya kueneza malipo ya huduma ya Samurai katika shughuli tano zinazofuatana. Chaguo hili pia huhakikisha kwamba kila shughuli inatangazwa kwa wakati tofauti na kurekodiwa katika kizuizi tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mmiliki kubadilika. Ingawa ni polepole, njia hii ni bora kwa wale ambao hawana haraka, kwani huongeza ufanisi wa ricochet kwa kuimarisha upinzani wake kwa Chainalysis (uchambuzi wa mnyororo);
-
+- Ricochet iliyoimarishwa, au *"fast delivery"*, hutoa faida ya kusambaza malipo ya huduma ya Samourai kupitia muamala tano zinazofuatana. Chaguo hili pia huhakikisha kuwa kila muamala unatangazwa kwa wakati tofauti na kurekodiwa katika block tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mmiliki kubadilika. Ingawa ni polepole, njia hii ni bora kwa wale wasio na haraka, kwani huongeza ufanisi wa Ricochet kwa kuimarisha upinzani wake dhidi ya Chain analysis (uchambuzi wa mnyororo);
 ![BTC204](assets/fr/191.webp)
 
 
-- Ricochet ya kawaida, ambayo imeundwa kutekeleza operesheni kwa kasi, ikitangaza shughuli zote kwa muda uliopunguzwa. Njia hii, kwa hiyo, inatoa usiri mdogo na upinzani mdogo kwa uchambuzi kuliko njia iliyoimarishwa. Inapaswa kutumika tu kwa usafirishaji wa haraka.
+- Ricochet ya kawaida, ambayo imeundwa kutekeleza operesheni kwa kasi, hutangaza muamala wote kwa muda uliopunguzwa. Njia hii, kwa hiyo, inatoa usiri mdogo na upinzani mdogo kwa uchambuzi kuliko njia iliyoimarishwa. Inapaswa kutumika tu kwa usafirishaji wa haraka.
 
 ![BTC204](assets/fr/192.webp)
 
-Ricocheting ina maana ya kutuma bitcoins kwako mwenyewe. Inawezekana kabisa kuweka bitcoins kwa mikono kwenye programu yoyote ya Pochi, bila kutumia zana maalum. Unachohitajika kufanya ni kuhamisha sarafu sawa kwako mwenyewe, kwa kutumia mpya, tupu ya Anwani (address) kila wakati.
+Ricocheting ina maana ya kutuma bitcoins kwako mwenyewe. Inawezekana kabisa kuweka bitcoins kwa mikono kwenye programu yoyote ya wallet, bila kutumia zana maalum. Unachohitajika kufanya ni kuhamisha sarafu sawa kwako mwenyewe, kwa kutumia mpya, tupu ya Anwani (address) kila wakati.
 
 Katika sura inayofuata, tunaangalia mbinu tofauti za uhamisho wa siri wa Umiliki. Njia hizi hutofautiana kwa kiasi kikubwa na zile ambazo tumechunguza hadi sasa, kwa suala la uendeshaji na matokeo.
 
@@ -2797,44 +2796,41 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-Mbinu nyingine ya usiri ya Bitcoin ni uhamisho wa siri wa Umiliki. Njia hii inalenga kuhamisha Umiliki wa Bitcoins kutoka kwa mtu mmoja hadi mwingine, na kinyume chake, bila shughuli hiyo kuonekana wazi kwenye Blockchain. Hebu tuangalie mbinu mbalimbali zilizopo, pamoja na faida na hasara zao.
+Mbinu nyingine ya usiri ya Bitcoin ni uhamisho wa siri wa Umiliki. Njia hii inalenga kuhamisha Umiliki wa bitcoins kutoka kwa mtu mmoja hadi mwingine, na kinyume chake, bila muamala huo kuonekana wazi kwenye Blockchain. Hebu tuangalie mbinu mbalimbali zilizopo, pamoja na faida na hasara zao.
+### You're absolutely right — **"exchange"** is on your protected terms list, so it should remain untranslated.
 
-### Ubadilishanaji wa sarafu
+Exchange
 
 Coinwap inategemea dhana rahisi: hutumia mikataba mahiri kuwezesha uhamishaji wa Umiliki wa Bitcoin kati ya watumiaji wawili, bila hitaji la uaminifu na bila uhamishaji huu kuonekana wazi kwenye Blockchain.
-
 ![BTC204](assets/fr/193.webp)
 
-Wacha tufikirie mfano wa ujinga na Alice na Bob. Alice anashikilia BTC 1 iliyolindwa kwa ufunguo wa faragha $A$, na Bob pia anashikilia BTC 1 iliyolindwa kwa ufunguo wa faragha $B$. Kinadharia wangeweza Kubadilishana funguo zao za kibinafsi kupitia njia ya mawasiliano ya nje ili kutekeleza uhamishaji wa siri.
-
+Wacha tufikirie mfano wa kufikirika na Alice na Bob. Alice anashikilia BTC 1 iliyolindwa kwa ufunguo wa faragha $A$, na Bob pia anashikilia BTC 1 iliyolindwa kwa ufunguo wa faragha $B$. Kinadharia, wangeweza kubadilishana funguo zao za kibinafsi kupitia njia ya mawasiliano ya nje ili kutekeleza uhamishaji wa siri.
 ![BTC204](assets/fr/194.webp)
 
-Walakini, njia hii ya ujinga inatoa hatari kubwa katika suala la uaminifu. Hakuna cha kumzuia Alice kuweka nakala ya ufunguo wa faragha wa $A$ baada ya Ubadilishanaji na kuitumia baadaye kuiba bitcoins, mara ufunguo ukiwa mikononi mwa Bob.
-
+Walakini, njia hii ya kufikirika inatoa hatari kubwa katika suala la uaminifu. Hakuna cha kumzuia Alice kuweka nakala ya ufunguo wa faragha wa \$A\$ baada ya exchange na kuitumia baadaye kuiba bitcoins, mara ufunguo ukiwa mikononi mwa Bob.
 ![BTC204](assets/fr/195.webp)
 
-Zaidi ya hayo, hakuna hakikisho kwamba Alice hatapokea ufunguo wa faragha wa Bob $B$ na hatawahi kupitisha ufunguo wake wa faragha $A$ katika Ubadilishanaji. Kwa hivyo ubadilishanaji  huu unategemea kuaminiana kupita kiasi kati ya wahusika, na haina ufanisi katika kuhakikisha uhamishaji wa siri wa Umiliki.
-
+Zaidi ya hayo, hakuna hakikisho kwamba Alice hatapokea ufunguo wa faragha wa Bob \$B\$ na hatawahi kupitisha ufunguo wake wa faragha \$A\$ katika exchange. Kwa hivyo exchange huu unategemea kuaminiana kupita kiasi kati ya wahusika, na haina ufanisi katika kuhakikisha uhamishaji wa siri wa Umiliki.
 ![BTC204](assets/fr/196.webp)
 
-Ili kutatua matatizo haya na kuwezesha ubadilishanaji kati ya wahusika ambao hawaaminiani, tutatumia mifumo ya Smart contract badala yake. Smart contract ni programu ambayo hutekeleza kiotomatiki masharti yaliyoainishwa awali yanapofikiwa. Kwa upande wetu, hii inahakikisha kwamba ubadilishanaji wa mali unafanyika moja kwa moja, bila ya haja ya uaminifu wa pande zote.
-
-Hili linaweza kufikiwa kwa kutumia HTLC (*Mikataba Iliyofungwa kwa Muda wa Hash*) au PTLC (*Mikataba Iliyofungwa kwa Muda wa Pointi*). Itifaki hizi mbili hufanya kazi kwa njia sawa, kwa kutumia mfumo wa kufunga muda ambao huhakikisha kwamba Ubadilishanaji unakamilika kwa mafanikio au kughairiwa kabisa, hivyo basi kulinda uadilifu wa fedha za pande zote mbili. Tofauti kuu kati ya HTLC na PTLC ni kwamba HTLC hutumia heshi na picha za awali ili kulinda muamala, huku PTLC inatumia Sahihi za Adapta.
-
-Katika hali ya kubadilishana sarafu kwa kutumia HTLC au PTLC kati ya Alice na Bob, Ubadilishanaji unafanyika kwa usalama: ama unafaulu na kila mmoja kupokea BTC ya mwingine, au inashindikana na kila mmoja anaweka BTC yake. Hii inafanya kuwa haiwezekani kwa upande wowote kudanganya au kuiba BTC ya mwingine.
+Ili kutatua matatizo haya na kuwezesha exchange kati ya wahusika ambao hawaaminiani, tutatumia mifumo ya *smart contract* badala yake. *Smart contract* ni programu ambayo hutekeleza kiotomatiki masharti yaliyoainishwa awali yanapofikiwa. Kwa upande wetu, hii inahakikisha kwamba exchange wa mali unafanyika moja kwa moja, bila ya haja ya uaminifu wa pande zote.
+Hili linaweza kufikiwa kwa kutumia HTLC (*Hashed Time-Locked Contracts*) au PTLC (*Point Time-Locked Contracts*). Itifaki hizi mbili hufanya kazi kwa njia sawa, kwa kutumia mfumo wa kufunga muda ambao huhakikisha kwamba exchange unakamilika kwa mafanikio au kughairiwa kabisa, hivyo basi kulinda uadilifu wa fedha za pande zote mbili. Tofauti kuu kati ya HTLC na PTLC ni kwamba HTLC hutumia *hash* na picha za awali ili kulinda muamala, huku PTLC inatumia Sahihi za Adapta.
+Katika hali ya kubadilishana sarafu kwa kutumia HTLC au PTLC kati ya Alice na Bob, exchange unafanyika kwa usalama: ama unafaulu na kila mmoja kupokea BTC ya mwingine, au unashindikana na kila mmoja anaweka BTC yake. Hii inafanya kuwa haiwezekani kwa upande wowote kudanganya au kuiba BTC ya mwingine.
 
 > *HTLC pia ni njia inayotumika kuelekeza malipo kwa njia salama kupitia njia mbili za Lightning Network*
-Utumiaji wa Sahihi za Adapta ni ya kufurahisha sana katika muktadha huu, kwani hufanya iwezekane kutengana na hati za kitamaduni (utaratibu ambao wakati mwingine hujulikana kama "_scriptless scripts_"). Kipengele hiki hupunguza gharama zinazohusiana na Ubadilishanaji. Faida nyingine kuu ya Sahihi za Adapta ni kwamba hazihitaji matumizi ya Hash ya kawaida kwa pande zote mbili za shughuli, na hivyo kuepuka haja ya kufichua kiungo cha moja kwa moja kati yao katika aina fulani za Ubadilishanaji.
+
+
+Utumiaji wa Sahihi za Adapta ni wa kufurahisha sana katika muktadha huu, kwani hufanya iwezekane kutengana na hati za kitamaduni (utaratibu ambao wakati mwingine hujulikana kama *scriptless scripts*). Kipengele hiki hupunguza gharama zinazohusiana na exchange. Faida nyingine kuu ya Sahihi za Adapta ni kwamba hazihitaji matumizi ya *hash* ya kawaida kwa pande zote mbili za muamala, na hivyo kuepuka haja ya kufichua kiungo cha moja kwa moja kati yao katika aina fulani za exchange.
+
 
 ### Sahihi za Adapta
 
-Sahihi za Adapta ni mbinu fiche inayounganisha sahihi sahihi na sahihi ya ziada, inayoitwa "sahihi_ya adapta_", ili kufichua data ya siri. Utaratibu huu umeundwa kwa namna ambayo ujuzi wa 2 kati ya 3 ufuatao vipengele: sahihi halali, sahihi ya adapta na siri, inatuwezesha kutafakari kipengele cha tatu kilichokosekana. Sifa ya kuvutia ya njia hii ni kwamba, ikiwa tunajua saini ya adapta ya rika letu na sehemu maalum kwenye mchirizo wa duaradufu inayohusishwa na siri inayotumika kukokotoa sahihi ya adapta hiyo, tunaweza kupata sahihi ya adapta yetu ambayo itaendana na siri hiyo hiyo, bila kupata ufikiaji wa moja kwa moja kwa siri yenyewe.
+Sahihi za Adapta ni mbinu fiche inayounganisha sahihi sahihi na sahihi ya ziada, inayoitwa *sahihi ya adapta*, ili kufichua data ya siri. Utaratibu huu umeundwa kwa namna ambayo ujuzi wa 2 kati ya 3 ufuatao vipengele: sahihi halali, sahihi ya adapta, na siri, unatuwezesha kutafakari kipengele cha tatu kilichokosekana. Sifa ya kuvutia ya njia hii ni kwamba, ikiwa tunajua sahihi ya adapta ya rika letu na sehemu maalum kwenye mchirizo wa duaradufu inayohusishwa na siri inayotumika kukokotoa sahihi ya adapta hiyo, tunaweza kupata sahihi ya adapta yetu ambayo itaendana na siri hiyo hiyo, bila kupata ufikiaji wa moja kwa moja kwa siri yenyewe.
 
-Katika ubadilishanaji wa sarafu, matumizi ya Sahihi za Adapta huwezesha ufichuaji kwa wakati mmoja wa vipande viwili vya taarifa nyeti kati ya washiriki, hivyo basi kuepuka hitaji la kuaminiana. Hebu tuchukue mfano ili kuelezea mchakato huu na Alice na Bob, ambao wanataka Ubadilishanaji kumiliki 1 BTC kila mmoja, lakini hawaaminiani. Wanatumia Sahihi za Adapta ili kuondoa hitaji la kuaminiana katika Ubadilishanaji huu. Hivi ndivyo wanavyofanya:
+Katika exchange ya sarafu, matumizi ya Sahihi za Adapta huwezesha ufichuaji kwa wakati mmoja wa vipande viwili vya taarifa nyeti kati ya washiriki, hivyo basi kuepuka hitaji la kuaminiana. Hebu tuchukue mfano ili kuelezea mchakato huu na Alice na Bob, ambao wanataka exchange kumiliki 1 BTC kila mmoja, lakini hawaaminiani. Wanatumia Sahihi za Adapta ili kuondoa hitaji la kuaminiana katika exchange huu. Hivi ndivyo wanavyofanya:
 
 
-- Alice anaanzisha Ubadilishanaji kwa kuunda muamala wa $m_A$ ambao hutuma 1 BTC kwa Bob. Anatengeneza sahihi $s_A$, ambayo inaidhinisha muamala huu, kwa kutumia ufunguo wake wa faragha $p_A$ ($P_A = p_A \cdot G$), Nonce $n_A$ ($N_A = n_A \cdot G$) na siri $t$ ($T = t \cdot G$) :
-
+- Alice anaanzisha exchange kwa kuunda muamala wa \$m\_A\$ ambao hutuma 1 BTC kwa Bob. Anatengeneza sahihi \$s\_A\$, ambayo inaidhinisha muamala huu, kwa kutumia ufunguo wake wa faragha \$p\_A\$ (\$P\_A = p\_A \cdot G\$), Nonce \$n\_A\$ (\$N\_A = n\_A \cdot G\$) na siri \$t\$ (\$T = t \cdot G\$):
 $$s_A = n_A + t + H(N_A + T \sambamba P_A \sambamba m_A) \cdot p_A$$
 
 
@@ -2843,82 +2839,81 @@ $$s_A = n_A + t + H(N_A + T \sambamba P_A \sambamba m_A) \cdot p_A$$
 $$s_A' = s_A - t$$
 
 
-- Alice anamtumia Bob adapta yake sahihi $s'_A$, muamala wake ambao haujatiwa saini $m_A$, nukta inayolingana na siri ($T$), na uhakika unaolingana na Nonce ($N_A$). Vipengele hivi vinaunda kile kinachojulikana kama "adapta". Ni muhimu kutambua kwamba, kwa habari hii tu, Bob hawezi kurejesha BTC ya Alice.
-- Hata hivyo, Bob anaweza kuangalia kwamba Alice hajaribu kumwibia. Ili kufanya hivyo, anakagua ikiwa saini ya adapta ya Alice $s_A'$ kweli inalingana na ununuzi uliopendekezwa $m_A$. Ikiwa equation ifuatayo ni sahihi, basi anaweza kuwa na uhakika kwamba adapta ya sahihi ya Alice ni halali:
+- Alice anamtumia Bob adapta yake sahihi \$s'\_A\$, muamala wake ambao haujatiwa saini \$m\_A\$, nukta inayolingana na siri (\$T\$), na uhakika unaolingana na Nonce (\$N\_A\$). Vipengele hivi vinaunda kile kinachojulikana kama *adapta*. Ni muhimu kutambua kwamba, kwa habari hii tu, Bob hawezi kurejesha BTC ya Alice.
+
+* Hata hivyo, Bob anaweza kuangalia kwamba Alice hajaribu kumwibia. Ili kufanya hivyo, anakagua ikiwa sahihi ya adapta ya Alice \$s'\_A\$ kweli inalingana na ununuzi uliopendekezwa \$m\_A\$. Ikiwa equation ifuatayo ni sahihi, basi anaweza kuwa na uhakika kwamba adapta ya sahihi ya Alice ni halali:
 
 $$s_A' \cdot G = N_A + H(N_A + T \sambamba P_A \sambamba m_A) \cdot P_A$$
 
 
-- Uthibitishaji huu unampa Bob dhamana ya kutosha kwamba anaweza kuendelea na Ubadilishanaji kwa ujasiri kamili. Kisha anaunda muamala wake mwenyewe $m_B$, inayokusudiwa kutuma BTC 1 kwa Alice, na kutengeneza sahihi ya adapta yake $s_B'$, ambayo pia itaunganishwa kwa siri sawa $t$. Katika hatua hii, ni Alice pekee anayejua thamani ya $t$; Bob anajua tu pointi inayolingana $T$ ambayo Alice amemwandikia:
+- Uthibitishaji huu unampa Bob dhamana ya kutosha kwamba anaweza kuendelea na exchange kwa ujasiri kamili. Kisha anaunda muamala wake mwenyewe \$m\_B\$, unaokusudiwa kutuma BTC 1 kwa Alice, na kutengeneza sahihi ya adapta yake \$s'\_B\$, ambayo pia itaunganishwa kwa siri sawa \$t\$. Katika hatua hii, ni Alice pekee anayejua thamani ya \$t\$; Bob anajua tu pointi inayolingana \$T\$ ambayo Alice amemwandikia:
 
 $$s_B' = n_B + H(N_B + T \sambamba P_B \sambamba m_B) \cdot p_B$$
 
 
-- Bob anamtumia Alice sahihi ya adapta yake $s_B'$, muamala wake ambao haujatiwa sahihi $m_B$, pamoja na uhakika unaolingana na siri ($T$) na uhakika unaolingana na Nonce ($N_B$). Alice, ambaye anajua siri ya $t$, sasa anaweza kuchanganya sahihi ya adapta ya Bob $s_B'$ na siri hii kwa kuzalisha sahihi $s_B$ kwa muamala $m_B$ ambao itahamishia BTC ya Bob kwake:
+- Bob anamtumia Alice sahihi ya adapta yake \$s'\_B\$, muamala wake ambao haujatiwa sahihi \$m\_B\$, pamoja na uhakika unaolingana na siri (\$T\$) na uhakika unaolingana na Nonce (\$N\_B\$). Alice, ambaye anajua siri ya \$t\$, sasa anaweza kuchanganya sahihi ya adapta ya Bob \$s'\_B\$ na siri hii kwa kuzalisha sahihi \$s\_B\$ kwa muamala \$m\_B\$ ambao itahamishia BTC ya Bob kwake:
 
 $$s_B = s_B' + t$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \sambamba P_B \sambamba m_B) \cdot P_B$$
 
 
-- Alice anatangaza muamala huu uliotiwa saini wa $m_B$ kwenye Bitcoin Blockchain ili kupata BTC iliyoahidiwa na Bob. Bob anapoona muamala huu kwenye Blockchain, anaweza kutoa sahihi $s_B = s_B' + t$. Kwa habari hii, Bob basi anaweza kutenga siri maarufu $t$ aliyohitaji:
+- Alice anatangaza muamala huu uliotiwa saini wa \$m\_B\$ kwenye Bitcoin Blockchain ili kupata BTC iliyoahidiwa na Bob. Bob anapoona muamala huu kwenye Blockchain, anaweza kutoa sahihi \$s\_B = s'\_B + t\$. Kwa habari hii, Bob basi anaweza kutenga siri maarufu \$t\$ aliyohitaji:
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
 
 
-- Na siri hii $t$ ilikuwa kipengele pekee kilichokosekana kwa Bob hadi kuzalisha sahihi $s_A$ kutoka sahihi ya adapta ya Alice $s_A'$. Sahihi hii inathibitisha muamala wa $m_A$, ambao hutuma BTC kutoka Alice hadi Bob. Kisha Bob anakokotoa $s_A$ na kutangaza muamala wa $m_A$ kwenye Blockchain:
-
+- Na siri hii \$t\$ ilikuwa element pekee kilichokosekana kwa Bob hadi kuzalisha sahihi \$s\_A\$ kutoka sahihi ya adapta ya Alice \$s'\_A\$. Sahihi hii inathibitisha muamala wa \$m\_A\$, ambao hutuma BTC kutoka kwa Alice hadi kwa Bob. Kisha Bob anakokotoa \$s\_A\$ na kutangaza muamala wa \$m\_A\$ kwenye Blockchain:
 $$s_A = s_A' + t$$
 
 $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \sambamba P_A \sambamba m_A) \cdot P_A$$
 
-Wacha tufanye muhtasari wa jinsi Sahihi ya Adapta inavyofanya kazi katika ubadilishaji wa sarafu. Hapo awali, Alice hutuma Bob shughuli isiyosajiliwa ikifuatana na adapta, na kumwezesha Bob kuthibitisha kwamba siri iliyofunuliwa baadaye itampa upatikanaji wa bitcoins. Kwa kujibu, Bob hutuma Alice muamala wake mwenyewe ambao haujatiwa sahihi na adapta. Kisha Alice anaweza kukamilisha shughuli ya Bob na kurejesha bitcoins kwa kutangaza shughuli halali ya shukrani kwa siri. Shughuli hii inapochapishwa kwenye Blockchain, Bob ana uwezo wa kutoa siri na hivyo kufungua shughuli ya Alice. Kwa hivyo, ikiwa Alice ataanzisha uhamisho wa Bitcoin ya Bob, Bob anaweza, kwa upande wake, kufikia Bitcoin ya Alice bila hitaji la kuaminiana.
+Wacha tufanye muhtasari wa jinsi Sahihi ya Adapta inavyofanya kazi katika exchange ya sarafu. Hapo awali, Alice hutuma Bob muamala usiosajiliwa ukiambatana na adapta, na kumwezesha Bob kuthibitisha kwamba siri itakayofichuliwa baadaye itampa upatikanaji wa bitcoins. Kwa kujibu, Bob hutuma Alice muamala wake mwenyewe ambao haujatiwa sahihi na adapta. Kisha Alice anaweza kukamilisha muamala wa Bob na kurejesha bitcoins kwa kutangaza muamala halali kwa shukrani kwa siri. Muamala huu unapochapishwa kwenye Blockchain, Bob ana uwezo wa kutoa siri na hivyo kufungua muamala wa Alice. Kwa hivyo, ikiwa Alice ataanzisha uhamisho wa Bitcoin ya Bob, Bob anaweza, kwa upande wake, kufikia Bitcoin ya Alice bila hitaji la kuaminiana.
 
-Kumbuka kuwa ubadilishaji wa sarafu ulipendekezwa kwanza na [Gregory Maxwell mnamo Oktoba 2013 kwenye BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
+Kumbuka kuwa exchange ya sarafu ilipendekezwa kwanza na [Gregory Maxwell mnamo Oktoba 2013 kwenye BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
 ### Kubadilishana kwa atomiki
 
-Kwa njia sawa ya kubadilishana sarafu, na kutumia aina sawa za mikataba ya busara, inawezekana pia kufanya ubadilishaji wa atomiki. Kubadilishana kwa atomiki huwezesha Ubadilishanaji wa moja kwa moja ya sarafu tofauti za siri, kama vile BTC na XMR, kati ya watumiaji wawili bila hitaji la uaminifu au kuingilia kati kwa mpatanishi. Ubadilishanaji huu unaitwa "atomiki" kwa sababu yana matokeo mawili tu yanayowezekana: ama ubadilishanaji umefaulu na pande zote mbili zimeridhika, au itashindikana na kila moja ibaki na sarafu zao za siri, hivyo basi kuondoa hitaji la kumwamini mhusika mwingine.
+Kwa njia sawa ya exchange ya sarafu, na kwa kutumia aina sawa za *smart contract*, inawezekana pia kufanya exchange ya atomiki. Kubadilishana kwa atomiki huwezesha exchange ya moja kwa moja ya sarafu tofauti za siri, kama vile BTC na XMR, kati ya watumiaji wawili bila hitaji la uaminifu au kuingilia kati kwa mpatanishi. Exchange huu unaitwa "atomiki" kwa sababu una matokeo mawili tu yanayowezekana: ama exchange umefaulu na pande zote mbili zimeridhika, au unashindikana na kila mmoja kubaki na sarafu yake ya siri, hivyo basi kuondoa hitaji la kumwamini mhusika mwingine.
 
 ![BTC204](assets/fr/197.webp)
 
-Ubadilishanaji wa atomiki na ubadilishanaji wa sarafu hushiriki mbinu sawa ya uendeshaji na hutoa faida na hasara sawa katika suala la usiri. Hakika, kwa mtazamo wa Bitcoin, ubadilishaji wa atomiki unalinganishwa na ubadilishanaji wa sarafu unaofanywa katika hatua mbili. Kwanza, sisi kubadilishana BTC yetu kwa cryptocurrency nyingine, basi cryptocurrency hii inaweza kubadilishwa kwa BTC nyingine. Mwishowe, tunapata BTC ya mtumiaji mwingine. Hii ndiyo sababu, katika uchanganuzi wa masuala ya usiri, ninaweka itifaki hizi mbili chini ya kitengo cha ubadilishanaji wa siri za umiliki.
+Exchange ya atomiki na exchange ya sarafu hushiriki mbinu sawa ya uendeshaji na hutoa faida na hasara sawa katika suala la usiri. Hakika, kwa mtazamo wa Bitcoin, exchange ya atomiki inalinganishwa na exchange ya sarafu inayofanywa katika hatua mbili. Kwanza, tunabadilishana BTC yetu kwa cryptocurrency nyingine, kisha cryptocurrency hii inaweza kubadilishwa kwa BTC nyingine. Mwishowe, tunapata BTC ya mtumiaji mwingine. Hii ndiyo sababu, katika uchanganuzi wa masuala ya usiri, ninaweka itifaki hizi mbili chini ya kitengo cha exchange ya siri za umiliki.
 
 ![BTC204](assets/fr/198.webp)
 
-Jihadharini, hata hivyo, kwamba tofauti na ubadilishanaji wa sarafu, ubadilishaji wa atomiki unaweza kuwa na usawa katika suala la ukwasi linalopatikana, haswa katika ubadilishanaji wa BTC/XMR. Kwa ujumla ni rahisi kubadilisha bitcoins kwa altcoins, kwa kuwa kuna mahitaji makubwa ya bitcoins, ambayo huweka malipo ya chini kwa mwelekeo huu wa ubadilishaji. Hata hivyo, kubadilishana altcoins kwa BTC inaweza kuwa ngumu zaidi kutokana na mahitaji ya chini, mara nyingi husababisha malipo ya juu sana.
+Jihadharini, hata hivyo, kwamba tofauti na exchange ya sarafu, exchange ya atomiki inaweza kuwa na changamoto katika suala la ukwasi unaopatikana, haswa katika exchange ya BTC/XMR. Kwa ujumla ni rahisi kubadilisha bitcoins kwa altcoins, kwa kuwa kuna mahitaji makubwa ya bitcoins, ambayo huweka malipo ya chini kwa mwelekeo huu wa exchange. Hata hivyo, kubadilisha altcoins kwa BTC kunaweza kuwa kugumu zaidi kutokana na mahitaji ya chini, jambo ambalo mara nyingi husababisha malipo ya juu sana.
 
-Hatimaye, wakati ubadilishaji wa atomiki unahusisha bitcoins za onchain na bitcoins kwenye Lightning Network, tunazungumza juu ya "kubadilishana kwa manowari".
+Hatimaye, wakati exchange ya atomiki inahusisha bitcoins za on-chain na bitcoins kwenye Lightning Network, tunazungumza juu ya *exchange ya manowari*.
 
 ### Je, ni muhimu kweli?
 
-Uhamisho wa siri wa umiliki, kama vile ubadilishaji wa sarafu na ubadilishanaji wa atomiki, una faida ya ujanja wa uchanganuzi wa mnyororo. Mbinu hizi zinaweza kupendekeza kwamba shughuli zihusishe mtumiaji yule yule, ilhali Umiliki halisi umebadilisha mikono. Hata hivyo, kasoro kuu ya njia hizi ni kwamba wao ni hatari sana bila matumizi ya mbinu ya ziada ya kuvunja historia ya sarafu.
+Uhamisho wa siri wa umiliki, kama vile exchange ya sarafu na exchange ya atomiki, una faida ya ujanja wa uchanganuzi wa mnyororo. Mbinu hizi zinaweza kupendekeza kwamba shughuli zihusishe mtumiaji yule yule, ilhali umiliki halisi umebadilisha mikono. Hata hivyo, kasoro kuu ya njia hizi ni kwamba ni hatari sana bila matumizi ya mbinu ya ziada ya kuvunja historia ya sarafu.
 
-Hakika, wakati Alice anabadilishana sarafu au kubadilishana atomiki na Bob, anabadilishana umiliki wa bitcoins zake na zile za Bob. Katika kesi ya ubadilishaji wa atomiki, Ubadilishanaji unajumuisha Altcoin, lakini kanuni inabakia sawa. Kwa hivyo, Alice anaishia na sarafu ya $ B $ na Bob na sarafu ya $ A $. Hii inaongeza shaka kwa Chainalysis (uchambuzi wa mnyororo), lakini historia ya sarafu inabakia kufuatiliwa. Mchambuzi akichunguza sehemu ya $A$, anaweza kufuatilia shughuli za awali za Alice, na kinyume chake kwa sehemu ya $B$.
+Hakika, wakati Alice anafanya exchange ya sarafu au exchange ya atomiki na Bob, anabadilishana umiliki wa bitcoins zake na zile za Bob. Katika kesi ya exchange ya atomiki, exchange unajumuisha altcoin, lakini kanuni inabakia sawa. Kwa hivyo, Alice anaishia na sarafu ya \$B\$ na Bob na sarafu ya \$A\$. Hii inaongeza shaka kwa *Chainalysis* (uchambuzi wa mnyororo), lakini historia ya sarafu inabakia kufuatiliwa. Mchambuzi akichunguza sehemu ya \$A\$, anaweza kufuatilia shughuli za awali za Alice, na kinyume chake kwa sehemu ya \$B\$.
 
 ![BTC204](assets/fr/199.webp)
 
-Kwa mtazamo wa Alice, hatari ni kwamba historia ya sarafu ya $B$ inaweza kuchukuliwa kuwa ya kutiliwa shaka na vyombo fulani. Kama, kwa mfano, Bob angepata sarafu ya $B$ kupitia kitendo cha uhalifu kama vile udukuzi, sarafu hiyo ingesalia ikihusishwa na shughuli zake zisizo halali. Alice basi angeweza kujikuta akimiliki sarafu ambayo hangeweza kuhamisha kwenye majukwaa yanayodhibitiwa ya Ubadilishanaji bila kuhatarisha pesa zake kugandishwa, au hata kushutumiwa kwa uhalifu wa Bob, ingawa hakuwa na uhusiano wowote nao.
+Kwa mtazamo wa Alice, hatari ni kwamba historia ya sarafu ya \$B\$ inaweza kuchukuliwa kuwa ya kutiliwa shaka na vyombo fulani. Kama, kwa mfano, Bob angepata sarafu ya \$B\$ kupitia kitendo cha uhalifu kama vile udukuzi, sarafu hiyo ingesalia ikihusishwa na shughuli zake zisizo halali. Alice basi angeweza kujikuta akimiliki sarafu ambayo hangeweza kuhamisha kwenye majukwaa yanayodhibitiwa ya exchange bila kuhatarisha pesa zake kugandishwa, au hata kushutumiwa kwa uhalifu wa Bob, ingawa hakuwa na uhusiano wowote naye.
 
 ![BTC204](assets/fr/200.webp)
 
-Bila shaka, mbinu za usiri kama vile kubadilishana sarafu au kubadilishana atomiki hupendelewa na wahalifu ambao fedha zao ziko chini ya uangalizi wa mamlaka. Itifaki hizi huwawezesha kutupa bitcoins zao chini ya uangalizi katika Ubadilishanaji kwa bitcoins zinazoweza kuvuliwa kikamilifu. Pia huwawezesha kuunda ubadilishaji, kwa kuelekeza mamlaka kwa watumiaji wengine. Kwa hivyo kuna kusudi maradufu kwa watu hawa.
+Bila shaka, mbinu za usiri kama vile exchange ya sarafu au exchange ya atomiki hupendelewa na wahalifu ambao fedha zao ziko chini ya uangalizi wa mamlaka. Itifaki hizi huwawezesha kutupa bitcoins zao chini ya uangalizi katika exchange kwa bitcoins zinazoweza kuvuliwa kikamilifu. Pia huwawezesha kuunda exchange, kwa kuelekeza mamlaka kwa watumiaji wengine. Kwa hivyo kuna kusudi maradufu kwa watu hawa.
 
-Ukiwa na Kuunga sarafu, hata kama sarafu yako imechanganywa na bitcoins zinazofuatiliwa, historia ya sarafu imevunjwa, ikitoa aina fulani ya ukataaji unaokubalika ambao haupo katika itifaki za siri za Umiliki kama vile ubadilishaji wa sarafu au ubadilishaji wa atomiki.
+Ukiwa na CoinJoin, hata kama sarafu yako imechanganywa na bitcoins zinazofuatiliwa, historia ya sarafu imevunjwa, ikitoa aina fulani ya ukataji unaokubalika ambao haupo katika itifaki za siri za Umiliki kama vile exchange ya sarafu au exchange ya atomiki.
 
 ![BTC204](assets/fr/201.webp)
 
-Iwapo Alice angependa kuepuka hatari yoyote, lazima lazima atumie mbinu kuvunja historia ya sarafu ya $B$, kama vile kuipitisha kwenye saini. Hii inaleta swali kuhusu manufaa ya kuchanganya uhamisho wa siri wa Umiliki na Kuunga sarafu. Kuunga sarafu, kwa kuvunja historia ya sarafu, tayari inatoa kiwango cha kutosha cha usiri kwa Alice. Kwa hivyo, maoni yangu ni kwamba ikiwa Alice anatafuta kulinda faragha yake, itakuwa busara kuendelea moja kwa moja kwenye Kuunga sarafu badala ya kushiriki ubadilishanaji wa sarafu unaofuatwa na Kuunga sarafu.
+Iwapo Alice angependa kuepuka hatari yoyote, lazima atumie mbinu za kuvunja historia ya sarafu ya \$B\$, kama vile kuipitisha kwenye CoinJoin. Hii inaleta swali kuhusu manufaa ya kuchanganya uhamisho wa siri wa Umiliki na CoinJoin. CoinJoin, kwa kuvunja historia ya sarafu, tayari hutoa kiwango cha kutosha cha usiri kwa Alice. Kwa hivyo, maoni yangu ni kwamba ikiwa Alice anatafuta kulinda faragha yake, itakuwa busara kuendelea moja kwa moja kwenye CoinJoin badala ya kushiriki exchange ya sarafu inayofuata CoinJoin.
 
-Ili mbinu za siri za uhamishaji wa Umiliki ziwe na ufanisi wa kweli, na kuepuka hatari ya kuunganisha historia ya mtumiaji $A$ kwa mtumiaji $B$, itakuwa muhimu sana kwa matumizi yao kujulikana kote. Ikiwa ubadilishanaji wa sarafu unatumiwa kwa wingi na wenye mamlaka wanafahamu jambo hili la kawaida, basi aina inayokubalika ya kukataa inaweza kuanzishwa. Hata hivyo, mradi utumizi wa uhamisho huu unabaki kuwa mdogo, nadhani njia hizi zitabaki kuwa hatari sana kwa watumiaji.
+Ili mbinu za siri za uhamishaji wa Umiliki ziwe na ufanisi wa kweli, na kuepuka hatari ya kuunganisha historia ya mtumiaji \$A\$ na mtumiaji \$B\$, itakuwa muhimu sana kwa matumizi yao kujulikana kwa wingi. Ikiwa exchange ya sarafu inatumika kwa wingi na mamlaka wanafahamu jambo hili la kawaida, basi aina inayokubalika ya kukataa inaweza kuanzishwa. Hata hivyo, mradi utumizi wa uhamisho huu unabaki kuwa mdogo, nadhani njia hizi zitabaki kuwa hatari sana kwa watumiaji.
 
-Hadi sasa, tumechunguza mbinu za usiri hasa katika kiwango cha miamala yenyewe. Katika sura inayofuata, tutaangalia masuala katika kiwango cha mtandao na usambazaji wa shughuli.
-
+Hadi sasa, tumechunguza mbinu za usiri hasa katika kiwango cha miamala yenyewe. Katika sura inayofuata, tutaangalia masuala yanayohusiana na kiwango cha mtandao na usambazaji wa muamala. ni
 ## Faragha kwenye mtandao wa P2P
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-Katika Sehemu ya 4, tulijadili umuhimu wa kutumia nodi kamili ili kulinda usiri wa miamala yako. Hata hivyo, ni muhimu kuelewa kwamba nodi yako yenyewe inaweza kukabiliwa na mashambulizi ya kutaka kutoa maelezo kuhusu shughuli zako. Katika sura hii, kwa hivyo, tutaangalia hatua mbalimbali unazoweza kuchukua ili kulinda faragha yako, si kwa kiwango cha miamala yenyewe au mtiririko wa Bitcoin, lakini katika kiwango cha mtandao.
+Katika Sehemu ya 4, tulijadili umuhimu wa kutumia node kamili ili kulinda usiri wa muamala zako. Hata hivyo, ni muhimu kuelewa kwamba node yako yenyewe inaweza kukabiliwa na mashambulizi ya kutaka kutoa maelezo kuhusu muamala zako. Katika sura hii, tutaangalia hatua mbalimbali unazoweza kuchukua ili kulinda faragha yako, si kwa kiwango cha miamala yenyewe au mtiririko wa Bitcoin, bali katika kiwango cha mtandao.
 
 ### Dandelion
 

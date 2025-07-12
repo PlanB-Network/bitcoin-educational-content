@@ -1025,7 +1025,7 @@ Dennoch sorgt Bitcoin nach mehr als einem Jahrzehnt seines Bestehens weiterhin f
 ![BTC102-Bitcoin](assets/fr/028.webp)
 
 
-Wenn du dein Wissen weiter ausbauen möchtest kannst du den BTC101-Kurs auf dem Plan ₿ Network besuchen, der eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin bietet.
+Wenn du dein Wissen weiter ausbauen möchtest, kannst du den BTC101-Kurs auf dem Plan ₿ Network besuchen. Er bietet eine tiefergehende Untersuchung der technischen und wirtschaftlichen Grundlagen von Bitcoin.
 
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966

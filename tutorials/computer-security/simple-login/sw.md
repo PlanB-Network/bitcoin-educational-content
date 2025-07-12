@@ -24,7 +24,8 @@ Rahisi zaidi kati ya zile ambazo nimejaribu binafsi na bado ninajaribu ni [Kuing
 ## Lakabu
 
 
-Lakabu ya barua pepe inabadilisha kwa urahisi sehemu ya _name.surname_ ya barua pepe yako Address na jina la kubuni. Kwa mtumiaji, hakuna kinachobadilika; huduma ya jina lak hutuma barua pepe kwenda na kutoka kwa Address ya kawaida kama kawaida. Kila mtu anaweza kuendelea kutumia kikasha chake kama anavyofanya siku zote, lakini badala ya kuonyesha jina lake halisi, kitaonyesha mtumiaji asiyetambulika. Huduma hii inahitaji kuwa na ufanisi, na hadi sasa, Kuingia kwa Rahisi kumethibitishwa kuwa hivyo.
+Lakabu ya barua pepe hubadilisha kwa urahisi sehemu ya name.surname ya anwani yako ya barua pepe na jina la kubuni. Kwa mtumiaji, hakuna kinachobadilika; huduma ya lakabu hutuma barua pepe kwenda na kutoka kwa anwani ya kawaida kama kawaida. Kila mtu anaweza kuendelea kutumia kikasha chake kama kawaida, lakini badala ya kuonyesha jina lake halisi, kitaonyesha mtumiaji asiyetambulika. Huduma hii inahitaji kuwa na ufanisi, na hadi sasa, Kuingia kwa Rahisi kumethibitishwa kuwa hivyo.
+
 
 
 Unapotembelea Tovuti Rahisi ya Kuingia kwa mara ya kwanza, lazima uunde akaunti (hapa pia!), Ukitumia barua pepe "rasmi" Address. Hapa, lazima uweke barua pepe, nenosiri, na kutatua captcha.
@@ -57,7 +58,9 @@ Ikumbukwe kwamba Kuingia Rahisi huwasha moja kwa moja usajili kwenye jarida, amb
 ## Mipangilio
 
 
-Unaweza kuangalia _Mipangilio_ mara moja ili kugundua vipengele vya huduma. Kuingia kwa Rahisi kunaanza na chaguo zote zinazotumika, ikijumuisha zile _Premium_, ambazo hubakia kutumika kwa siku 10. Mara tu kipindi cha majaribio kitakapokamilika, utakuwa na uwezekano wa kuunda lakabu 10 ukitumia wasifu huu na unaweza kuunganisha moja kwa moja barua pepe yako ya Protoni, kwani Kuingia kwa Rahisi kumepatikana na mtoa huduma wa barua pepe wa Uswizi.
+Unaweza kuangalia Mipangilio mara moja ili kugundua element za huduma. Kuingia kwa Rahisi kunaanza na chaguo zote zinazotumika, ikijumuisha zile Premium, ambazo hubakia kutumika kwa siku 10. Mara tu kipindi cha majaribio kitakapokamilika, utakuwa na uwezekano wa kuunda lakabu 10 ukitumia wasifu huu na unaweza kuunganisha moja kwa moja barua pepe yako ya Protoni, kwani Kuingia kwa Rahisi kumepatikana na mtoa huduma wa barua pepe wa Uswizi.
+
+
 
 
 ![image](assets/it/07.webp)
@@ -84,17 +87,16 @@ Wale wanaotumia barua pepe zilizo na kikoa cha kibinafsi kama barua pepe ya kazi
 ![image](assets/it/10.webp)
 
 
-Kutoka kwa paneli kuu, kwa kuchagua _Visanduku vya Barua_, inawezekana hata kuongeza anwani zingine za barua pepe na pia kutumia lakabu ambazo zitaundwa ipasavyo. Katika somo hili, kwa mfano, niliamua kuunda wasifu kwa _gmail.com_ kisanduku cha barua, na kisha kuhusisha _proton.me_ Address.
+Kutoka kwa paneli kuu, kwa kuchagua Visanduku vya Barua, inawezekana hata kuongeza anwani zingine za barua pepe na pia kutumia lakabu ambazo zitaundwa ipasavyo. Katika somo hili, kwa mfano, niliamua kuunda wasifu kwa kisanduku cha barua cha gmail.com, na kisha kuhusisha Address ya proton.me.
 
 
 ![image](assets/it/11.webp)
 
 
-Kuongeza Address mpya, haswa ikiwa ni ya mtoa huduma wa Protoni, utaratibu unaoongozwa unaonyesha uwezekano wa kuingia _sudo_ mode, mtumiaji bora. Kuingia kwa Rahisi kutaomba kuingiza nenosiri la kisanduku hiki cha barua ili kuthibitisha Ownership halali.
+Kuongeza Address mpya, hasa ikiwa ni ya mtoa huduma wa Proton, utaratibu unaoongozwa unaonyesha uwezekano wa kuingia sudo mode, yaani mtumiaji mkuu. Kuingia kwa urahisi kutaomba uingize nenosiri la kisanduku hiki cha barua ili kuthibitisha umiliki halali.
 
 
 ⚠️ **Mimi binafsi nashauri dhidi ya kufanya hivi**. ⚠️
-
 
 ![image](assets/it/12.webp)
 
@@ -111,21 +113,23 @@ Kati ya anwani mbili zilizoingizwa, moja inakuwa chaguo-msingi na nyingine ni ya
 ![image](assets/it/14.webp)
 
 
-Baada ya kuongeza barua pepe ya pili Address (hiari), hebu tuone tunachoweza kufanya na Kuingia kwa Rahisi.
+Baada ya kuongeza Address ya pili ya barua pepe (hiari), hebu tuone tunachoweza kufanya kwa kutumia Kuingia kwa Urahisi.
 
 
 ## Uundaji wa lakabu
 
 
-Katika paneli, chaguo la kwanza la menyu linaitwa _Alias_, ambapo unaweza kuziunda. Una chaguo la lakabu za generate nasibu kwa kubofya kitufe cha Lakabu Nasibu, ambacho ni kitufe cha Green kinachoonyeshwa kwenye picha inayofuata. Kipengele hiki huunda barua pepe ya kipekee na ya kuvutia Address.
+Katika paneli, chaguo la kwanza kwenye menyu linaitwa Alias, ambapo unaweza kuziunda. Una chaguo la kuzalisha lakabu nasibu kwa kubofya kitufe cha Lakabu Nasibu, ambacho ni kitufe cha Green kinachoonekana kwenye picha inayofuata. Element hizi huunda Address ya barua pepe ya kipekee na ya kuvutia.
+
 
 
 ![image](assets/it/24.webp)
 
 
-Hata hivyo, ikiwa ungependa kutofautisha huduma kwa kuzipa majina tofauti, lazima uchague _Lakabu Jipya Maalum_. Kwa kufanya hivyo, unaweza kumpa jina lak jina la huduma unayotaka kufikia (mitandao ya kijamii, watoa huduma, matukio ya mtandaoni, wageni waliokutana na bahati, nk). Mengine yanashughulikiwa na Kuingia kwa Rahisi.
+Hata hivyo, ikiwa ungependa kutofautisha huduma kwa kuzipa majina tofauti, lazima uchague Lakabu Jipya Maalum. Kwa kufanya hivyo, unaweza kuipa jina kulingana na huduma unayotaka kufikia (mitandao ya kijamii, watoa huduma, matukio ya mtandaoni, wageni uliokutana nao kwa bahati, n.k.). Mengine yanashughulikiwa na Kuingia kwa Urahisi.
 
-Kwa ajili ya kujifurahisha (lakini si kweli, kusema ukweli) niliamua kuunda lakabu kwa benki na kuiita `BANK`. Ingawa ni kweli kwamba benki yangu inajua kila kitu kunihusu, mimi huona kuwa inafurahisha kuwasiliana nao kwa kutumia barua pepe ya Address ambayo hawaielewi. Kuingia kwa Rahisi kwa kweli hutoa jina nasibu, ambalo linatenganishwa na lile tunalochagua kwa `.`
+Kwa ajili ya kujifurahisha (lakini si kweli, kusema ukweli) niliamua kuunda lakabu kwa benki na kuiita `BANK`. Ingawa ni kweli kwamba benki yangu inajua kila kitu kunihusu, mimi huona kuwa inafurahisha kuwasiliana nao kwa kutumia Address ya barua pepe ambayo hawaielewi. Kuingia kwa Urahisi kwa kweli hutoa jina nasibu, ambalo hutenganishwa na lile tunalochagua kwa kutumi..
+
 
 
 Hapa, barua pepe mpya ya Address inaweza kuwa:
@@ -143,7 +147,8 @@ Mtu anaweza kuchagua zaidi ya kikoa kimoja: za umma zinapatikana kwa mpango usio
 ![image](assets/it/15.webp)
 
 
-Mara kiambishi na kikoa nasibu kikishachaguliwa, unaweza kuweka kama hii mpya (na ya ajabu) Address inapaswa kutumika kama lakabu kwa moja tu ya visanduku vya barua pepe vya kibinafsi, au kwa zote. Lakabu huwa tayari na amilifu baada ya kubofya _Create_
+Mara kiambishi na kikoa nasibu kikishachaguliwa, unaweza kuweka ikiwa Address hii mpya (na ya ajabu) inapaswa kutumika kama lakabu kwa kisanduku kimoja tu cha barua pepe cha kibinafsi, au kwa vyote. Lakabu huwa tayari na amilifu baada ya kubofya _Create_.
+
 
 
 ![image](assets/it/16.webp)
@@ -155,13 +160,14 @@ Barua pepe mpya ya Address iliundwa na sasa inaonekana, tayari kutumwa (kwenye b
 ![image](assets/it/18.webp)
 
 
-Katika hatua hii, unaweza kulenga kuunda lakabu kwa kila huduma au jukwaa unalotaka kufikia na ambapo barua pepe inahitajika kama kigezo muhimu cha kuunda akaunti.
+Katika hatua hii, unaweza kulenga kuunda lakabu kwa kila huduma au jukwaa unalotaka kufikia, ambapo barua pepe inahitajika kama kigezo muhimu cha kuunda akaunti.
 
 
 ![image](assets/it/19.webp)
 
 
-Kwa wanaopenda faragha, kuna chaguo pia la generate kutuma barua pepe ya Address kulingana na itifaki ya UUID (sio kwa majina yanayotambulika), ambayo huunda kitambulisho cha kipekee cha 128-bit ambacho hakidhibitiwi na wahusika wakuu. Kipengele hiki, ambacho ni muhimu kwa akaunti nyeti, kinaweza kupatikana katika menyu ya _Random Alias_.
+Kwa wanaopenda faragha, kuna chaguo pia la kuzalisha Address ya barua pepe kulingana na itifaki ya UUID (sio kwa majina yanayotambulika), ambayo huunda kitambulisho cha kipekee cha 128-bit ambacho hakidhibitiwi na wahusika wakuu. Element hii, ambayo ni muhimu kwa akaunti nyeti, inaweza kupatikana katika menyu ya _Random Alias_.
+
 
 
 ![image](assets/it/21.webp)
@@ -181,7 +187,7 @@ Ukibadilisha nia yako na hutaki tena kutumia lakabu, bofya tu kwenye amri _More_
 ## Usimamizi wa Alias
 
 
-Kuunda lakabu ni rahisi, kama vile usimamizi wao, ambayo inahitaji tu utunzaji na nidhamu kidogo. Trafiki yote, kwa kweli, bado itapitia kisanduku pokezi cha barua pepe ambacho tumefafanua, mwanzoni, kama kikasha rasmi. Arifa na mawasiliano muhimu kutoka kwa majukwaa yataendelea kuwasili kwenye Gmail, Proton, au chochote ambacho mtoa huduma wa barua pepe ni.
+Kuunda lakabu ni rahisi, kama ilivyo kwa usimamizi wake, ambao unahitaji tu utunzaji na nidhamu kidogo. Trafiki yote, kwa kweli, bado itapitia kwenye kisanduku pokezi cha barua pepe ambacho tulifafanua mwanzoni kama kikasha rasmi. Arifa na mawasiliano muhimu kutoka kwa majukwaa yataendelea kuwasili kwenye Gmail, Proton, au huduma yoyote unayotumia ya barua pepe.
 
 
 Matokeo yake, hata hivyo, ni kwamba tumehifadhi Address kuu ambayo, tangu wakati wa kuundwa kwa lakabu, tuko huru kuamua ni nani wa kuifunua na nani tusimwambie.
@@ -193,14 +199,14 @@ Lakabu hufanya kazi kwa kupokea na kutuma: mtumiaji mwingine hakika atapokea jib
 ## Faida
 
 
-Kwa ujumla, kutumia lakabu ni njia mwafaka ya kulinda utambulisho wako na faragha. Anwani za barua pepe mara nyingi hukusanywa na wakala wa data na tovuti ili kufuatilia tabia na tabia za watumiaji. Ingawa lakabu haikufanyi usitafute kabisa, kutumia moja kwa moja ni hatua chanya kuelekea kulinda maelezo yako. Zaidi ya hayo, katika "kijiji chetu cha kimataifa cha dijitali," ambapo udukuzi, uuzaji wa data na ukiukaji wa usalama ni mambo ya kawaida sana, kuna uwezekano mkubwa kwamba barua pepe unayotumia kujiandikisha kwenye tovuti mbalimbali tayari imeathiriwa au kulenga.
+Kwa ujumla, kutumia lakabu ni njia mwafaka ya kulinda utambulisho wako na faragha. Anwani za barua pepe mara nyingi hukusanywa na wakala wa data na tovuti ili kufuatilia mienendo na tabia za watumiaji. Ingawa lakabu haikufanyi kutotambulika kabisa, kuitumia ni hatua chanya kuelekea kulinda maelezo yako. Zaidi ya hayo, katika “kijiji chetu cha kimataifa cha dijitali,” ambapo udukuzi, uuzaji wa data, na ukiukaji wa usalama ni mambo ya kawaida sana, kuna uwezekano mkubwa kwamba barua pepe unayotumia kujiandikisha kwenye tovuti mbalimbali tayari imeathiriwa au inalengwa.
 
 
-Jina bandia la kipekee, linalotumiwa kwa kila kuingia, **mara moja huturuhusu kuelewa ni jukwaa gani linalotuma barua taka (au mbaya zaidi) kwenye kisanduku chetu cha barua, kwa sababu barua pepe hiyo inatambuliwa na lakabu inayohusishwa nayo**. Hujui ni kiasi gani cha barua taka na ulaghai hutoka kwa njia zinazojulikana kama njia za kutegemewa, kwa sababu ni za kitaasisi, hadi uanze kutumia lakabu kwa benki, moja kwa huduma za posta, au maalum kwa huduma fulani za lazima za serikali. Mara tu mtumaji wa barua taka (au mbaya zaidi) atakapotambuliwa, utajua kuwa tovuti imeathiriwa, kwa kuchukua kila tahadhari ili kulinda data yote iliyotolewa (fikiria kuhusu kadi za mkopo!) kwenye tovuti hiyo maalum, ambayo inaweza kutambua ukiukaji wiki baadaye.
+
+Jina bandia la kipekee, linalotumiwa kwa kila kuingia, **huturuhusu mara moja kuelewa ni jukwaa gani linalotuma barua taka (au mbaya zaidi) kwenye kisanduku chetu cha barua, kwa sababu barua pepe hiyo inatambuliwa kupitia lakabu inayohusishwa nayo**. Hujui ni kiasi gani cha barua taka na ulaghai hutoka kwa njia zinazojulikana kama za kuaminika, kwa sababu ni za kitaasisi, hadi uanze kutumia lakabu kwa benki, nyingine kwa huduma za posta, au maalum kwa huduma fulani za lazima za serikali. Mara tu mtumaji wa barua taka (au mbaya zaidi) atakapotambuliwa, utajua kuwa tovuti hiyo imeathiriwa, hivyo uchukue kila tahadhari kulinda data yote uliyoitoa (fikiria kuhusu kadi za mkopo!) kwenye tovuti hiyo maalum, ambayo inaweza kutangaza ukiukaji wiki kadhaa baadaye.
 
 
 Kuhusu Kuingia Rahisi, chombo hiki kina sifa zifuatazo:
-
 
 
 - programu ya simu (pia kutoka kwa F-Droid) na ugani wa kivinjari, ili kudhibiti majina ya bandia katika hali yoyote;

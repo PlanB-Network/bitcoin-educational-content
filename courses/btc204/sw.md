@@ -1262,24 +1262,8 @@ Mbinu za uteuzi za UTXO kama vile FIFO (*First In First Out*) na LIFO (*Last In 
 
 Mbinu mahiri zaidi ni *Knapsack Solver*. Hii ilitumika kwenye Wallet ya Bitcoin Core hadi toleo la 0.17. Inajumuisha kuchagua mara kwa mara na kwa nasibu UTXO kutoka kwa Pochi, kuziongeza katika vikundi vidogo, na kuweka suluhisho ambalo linapunguza uzito wa muamala iwezekanavyo, ili kupunguza gharama kwa mtumiaji.
 
-ChatGPT
-You said:
 *Tawi-na-Mpaka* (BNB), mara nyingi hupewa jina la utani "Murch algoriti" baada ya mvumbuzi wake, imechukua nafasi ya *Knapsack Solver* katika Bitcoin Core hadi toleo la 0.17. Mbinu hii ya kina zaidi inalenga kupata seti ya UTXO zinazolingana haswa na kiasi kinachohitajika ili kukidhi matokeo ya muamala. Madhumuni ya BNB ni kupunguza kiasi cha kubadilishana pamoja na ada, kwa kupunguza kinachojulikana kama kigezo cha taka, ambacho kinazingatia gharama za haraka na gharama zinazotarajiwa za baadaye za Ubadilishanaji. Mbinu hii imetokana na dhana asilia ya *Tawi-na-Kufungwa*, iliyobuniwa mwaka wa 1960 na Ailsa Land na Alison Harcourt, na inatoa uboreshaji sahihi zaidi wa ada kuliko *Knapsack Solver*.
-ChatGPT said:
-Asante kwa kutuma. Haya hapa ni marekebisho ya kitaalamu ya kifungu chako, yakizingatia mtiririko bora wa kisarufi, matumizi sahihi ya istilahi, na ufasaha wa lugha huku nikiheshimu muundo na maneno muhimu ya kiufundi:
 
-Tawi-na-Mpaka (BNB), ambalo mara nyingi huitwa kwa utani Murch algorithm kutokana na mvumbuzi wake, lilichukua nafasi ya Knapsack Solver katika Bitcoin Core kuanzia toleo la 0.17. Mbinu hii ya hali ya juu inalenga kupata seti ya UTXO zinazolingana kikamilifu na kiasi kinachohitajika ili kufanikisha matokeo ya muamala. Lengo la BNB ni kupunguza kiasi kinachobadilishwa pamoja na ada, kwa kupunguza kinachojulikana kama kigezo cha taka (waste criterion), ambacho huzingatia gharama za sasa na zile zinazoweza kutokea baadaye wakati wa ubadilishanaji wa fedha. Mbinu hii inatokana na dhana ya asili ya Branch-and-Bound, iliyobuniwa mwaka 1960 na Ailsa Land pamoja na Alison Harcourt, na hutoa uboreshaji sahihi zaidi wa ada kuliko Knapsack Solver.
-
-Ikiwa ungependa nitafsiri pia maelezo kuhusu jinsi BNB inavyofanya kazi kwa kina zaidi, niambie.
-
-You said:
-BNB in full
-ChatGPT said:
-BNB ni kifupi cha Branch and Bound.
-
-Ni mbinu ya kihesabu inayotumiwa katika uboreshaji (optimization) ili kutafuta suluhisho bora kwa tatizo la kuchagua kutoka kwenye seti kubwa ya chaguo kwa kutumia njia ya kugawanya (branching) na kuondoa chaguo zisizofaa (bounding). Katika muktadha wa Bitcoin, BNB hutumika kuchagua seti bora ya UTXO zitakazotumika kwenye muamala, kwa lengo la kupunguza ada na waste (taka ya kiuchumi inayotokana na kutoa zaidi ya inavyohitajika au kubaki na change isiyo na tija).
-
-Branch and Bound, mara nyingi hupewa jina la utani Murch algorithm kutokana na mvumbuzi wake, ilichukua nafasi ya Knapsack Solver katika Bitcoin Core kuanzia toleo la 0.17. Mbinu hii ya hali ya juu inalenga kupata seti ya UTXO zinazolingana kikamilifu na kiasi kinachohitajika ili kufanikisha matokeo ya muamala. Lengo la Branch and Bound ni kupunguza kiasi kinachobadilishwa pamoja na ada, kwa kupunguza kinachojulikana kama kigezo cha taka (waste criterion), ambacho huzingatia gharama za sasa na gharama zinazotarajiwa baadaye za ubadilishanaji. Mbinu hii imetokana na dhana ya asili ya Branch and Bound, iliyobuniwa mwaka wa 1960 na Ailsa Land pamoja na Alison Harcourt, na hutoa uboreshaji sahihi zaidi wa ada kuliko Knapsack Solver.
 
 Mbinu zote hizi za uteuzi otomatiki wa UTXO zinaweza kuwa na ufanisi katika kupunguza gharama za muamala, lakini mara nyingi hushindwa kulinda usiri wa mtumiaji. Kwa kweli, algorithms hizi huweza kuunganisha UTXO nyingi kama pembejeo za muamala mmoja, jambo linaloweza kufichua umiliki wa pamoja wa UTXO hizo kutokana na CIOH. Ni wazi kwamba mbinu hizi hupuuzia alama zilizobandikwa kwenye UTXO, ambazo ni muhimu kwa kuchagua kwa makini ni sehemu zipi za kufichuliwa kwa mpokeaji wa muamala. Kwa sasa, njia pekee ya kuboresha usiri wakati wa kuchagua sarafu ni kufanya hivyo kwa mikono.
 

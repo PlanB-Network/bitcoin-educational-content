@@ -4,9 +4,9 @@ description: Bagaimana cara menggunakan kunci keamanan fisik?
 ---
 ![cover](assets/cover.webp)
 
-Saat ini, autentikasi dua faktor (2FA) telah menjadi esensial untuk meningkatkan keamanan akun online dari akses tidak sah. Dengan meningkatnya serangan siber, mengandalkan hanya kata sandi untuk mengamankan akun Anda terkadang tidak cukup.
+Saat ini, autentikasi dua faktor (2FA) telah menjadi penting untuk meningkatkan keamanan akun online terhadap akses tidak sah. Dengan meningkatnya serangan siber, mengandalkan kata sandi saja untuk mengamankan akun Anda terkadang tidak cukup.
 
-2FA memperkenalkan lapisan keamanan tambahan dengan memerlukan bentuk autentikasi kedua selain kata sandi tradisional. Verifikasi ini dapat berbentuk beragam, seperti kode yang dikirim melalui SMS, kode dinamis yang dihasilkan oleh aplikasi khusus, atau penggunaan kunci keamanan fisik. Penggunaan 2FA secara signifikan mengurangi risiko akun Anda dikompromikan, bahkan dalam kejadian kata sandi Anda dicuri.
+2FA memperkenalkan lapisan keamanan tambahan dengan memerlukan bentuk autentikasi kedua selain kata sandi tradisional. Verifikasi ini dapat mengambil berbagai bentuk, seperti kode yang dikirim melalui SMS, kode dinamis yang dihasilkan oleh aplikasi khusus, atau penggunaan kunci keamanan fisik. Penggunaan 2FA secara signifikan mengurangi risiko akun Anda disusupi, bahkan jika kata sandi Anda dicuri.
 
 Dalam tutorial lain, saya menjelaskan cara mengatur dan menggunakan aplikasi 2FA TOTP:
 
@@ -17,23 +17,29 @@ Di sini, kita akan melihat cara menggunakan kunci keamanan fisik sebagai faktor 
 ## Apa itu kunci keamanan fisik?
 
 Kunci keamanan fisik adalah perangkat yang digunakan untuk meningkatkan keamanan akun online Anda melalui autentikasi dua faktor (2FA). Perangkat ini sering kali menyerupai kunci USB kecil yang harus dimasukkan ke dalam port komputer untuk memverifikasi bahwa memang pengguna yang sah yang mencoba untuk terhubung.
+
+Kunci keamanan fisik adalah perangkat keras khusus yang dirancang untuk menyediakan autentikasi faktor kedua (2FA) yang kuat dalam akun online Anda. Kunci-kunci ini, yang sering kali menyerupai stik USB kecil, dicolokkan ke port komputer Anda untuk mengonfirmasi identitas Anda selama proses terhubung.
 ![SECURITY KEY 2FA](assets/notext/01.webp)
-Ketika Anda masuk ke akun yang dilindungi oleh 2FA dan menggunakan kunci keamanan fisik, Anda tidak hanya harus memasukkan kata sandi biasa Anda, tetapi juga memasukkan kunci keamanan fisik ke dalam komputer Anda dan menekan tombol untuk memvalidasi autentikasi. Metode ini menambahkan lapisan keamanan tambahan, karena bahkan jika seseorang berhasil mendapatkan kata sandi Anda, mereka tidak akan dapat mengakses akun Anda tanpa memiliki kunci secara fisik.
+
+Ketika Anda masuk ke akun yang dilindungi oleh 2FA dan menggunakan kunci keamanan fisik, Anda tidak hanya harus memasukkan kata sandi biasa Anda, tetapi juga harus memasukkan kunci keamanan fisik ke komputer Anda dan menekan tombol untuk memvalidasi autentikasi. Metode ini dengan demikian menambahkan lapisan keamanan tambahan, karena meskipun seseorang berhasil mendapatkan kata sandi Anda, mereka tidak akan dapat mengakses akun Anda tanpa memiliki kunci secara fisik.
+
+Kunci keamanan fisik adalah perangkat keras khusus yang dirancang untuk menyediakan faktor kedua yang kuat dalam otentikasi akun daring Anda. Kunci-kunci ini, yang sering kali menyerupai stik USB kecil, dicolokkan ke porta komputer Anda untuk mengonfirmasi identitas Anda selama proses masuk.
 
 Kunci keamanan fisik sangat efektif karena menggabungkan dua jenis faktor autentikasi yang berbeda: bukti pengetahuan (kata sandi) dan bukti kepemilikan (kunci fisik).
 
-Namun, metode 2FA ini juga memiliki kelemahan. Pertama, Anda harus selalu memiliki kunci keamanan tersedia jika Anda ingin mengakses akun Anda. Anda mungkin perlu menambahkannya ke gantungan kunci Anda. Kedua, tidak seperti metode 2FA lainnya, menggunakan kunci keamanan fisik melibatkan biaya awal karena Anda harus membeli perangkat kecil tersebut. Harga kunci keamanan umumnya bervariasi antara €30 dan €100 tergantung pada fitur yang dipilih.
+Namun, metode 2FA ini juga memiliki kekurangan. Pertama, Anda harus selalu memiliki kunci keamanan yang tersedia jika Anda ingin mengakses akun Anda. Anda mungkin perlu menambahkannya ke gantungan kunci Anda. Kedua, tidak seperti metode 2FA lainnya, penggunaan kunci keamanan fisik melibatkan biaya awal karena Anda harus membeli perangkat kecil tersebut. Harga kunci keamanan umumnya bervariasi antara €30 hingga €100 tergantung pada fitur yang dipilih.
 
 ## Kunci keamanan fisik mana yang harus dipilih?
 
-Untuk memilih kunci keamanan Anda, beberapa kriteria harus diperhitungkan.
-Pertama dan terutama, Anda perlu memeriksa protokol yang didukung oleh perangkat. Setidaknya, saya menyarankan memilih kunci yang mendukung OTP, FIDO2, dan U2F. Detail ini biasanya disorot oleh produsen dalam deskripsi produk. Untuk memverifikasi kompatibilitas setiap kunci, Anda juga dapat mengunjungi [dongleauth.com](https://www.dongleauth.com/dongles/).
-Juga, pastikan bahwa kunci kompatibel dengan sistem operasi Anda, meskipun merek terkenal seperti Yubikey umumnya mendukung semua sistem yang banyak digunakan.
+Untuk memilih kunci keamanan Anda, beberapa kriteria perlu dipertimbangkan. Pertama dan terpenting, Anda perlu memeriksa protokol yang didukung oleh perangkat. Minimal, saya menyarankan untuk memilih kunci yang mendukung OTP, FIDO2, dan U2F. Detail-detail ini biasanya ditonjolkan oleh produsen dalam deskripsi produk. Untuk memverifikasi kompatibilitas setiap kunci, Anda juga dapat mengunjungi [dongleauth.com](https://www.dongleauth.com/dongles/). Selain itu, pastikan kunci tersebut kompatibel dengan sistem operasi Anda, meskipun merek-merek terkenal seperti Yubikey umumnya mendukung semua sistem yang banyak digunakan.
 
-Anda juga harus memilih kunci berdasarkan jenis port yang tersedia di komputer atau smartphone Anda. Misalnya, jika komputer Anda hanya memiliki port USB-C, pilihlah kunci dengan konektor USB-C. Beberapa kunci juga menawarkan opsi koneksi melalui Bluetooth atau NFC.
+Anda juga harus memilih kunci berdasarkan jenis port yang tersedia di komputer atau smartphone Anda. Misalnya, jika komputer Anda hanya memiliki porta USB-C, pilih kunci dengan konektor USB-C. Beberapa kunci juga menawarkan opsi koneksi melalui Bluetooth atau NFC.
 ![SECURITY KEY 2FA](assets/notext/02.webp)
+
 Anda juga dapat membandingkan perangkat berdasarkan fitur tambahan seperti ketahanan terhadap air dan debu, serta bentuk dan ukuran kunci.
-Mengenai merek kunci keamanan, Yubico adalah yang paling terkenal dengan [perangkat YubiKey](https://www.yubico.com/)nya, yang secara pribadi saya gunakan dan rekomendasikan. Google juga menawarkan perangkat dengan [Titan Security Key](https://store.google.com/fr/product/titan_security_key). Untuk alternatif open-source, [SoloKeys](https://solokeys.com/) (non OTP) dan [NitroKey](https://www.nitrokey.com/products/nitrokeys) merupakan opsi yang menarik, namun saya belum pernah memiliki kesempatan untuk mengujinya.
+
+Mengenai merek kunci keamanan, Yubico adalah yang paling terkenal dengan [perangkat YubiKey](https://www.yubico.com/) YubiKey-nya, yang secara pribadi saya gunakan dan rekomendasikan. Google juga menawarkan perangkat dengan [Titan Security Key](https://store.google.com/fr/product/titan_security_key). Untuk alternatif open-source, [SoloKeys](https://solokeys.com/) (non-OTP) dan [NitroKey](https://www.nitrokey.com/products/nitrokeys) adalah pilihan menarik, namun saya belum pernah memiliki kesempatan untuk mengujinya.
+
 ## Bagaimana cara menggunakan kunci keamanan fisik?
 
 Setelah Anda menerima kunci keamanan Anda, tidak diperlukan pengaturan khusus. Kunci biasanya sudah siap digunakan saat diterima. Anda dapat langsung menggunakannya untuk mengamankan akun online Anda yang mendukung jenis otentikasi ini. Sebagai contoh, saya akan menunjukkan cara mengamankan akun Proton mail saya dengan kunci keamanan fisik ini.

@@ -91,10 +91,10 @@ Ubwayuma, igice ca kane, "Gukingira Abasigwa bawe n'Ubutunzi bwawe," kivuga ku c
 ![BTC102-Bitcoin](assets/fr/095.webp)
 
 
-Igihe iri shure rizoba rirangiye, uzoba ufise ibikoresho vyose ngirakamaro ukeneye kugira ngo ushobore kugendera mu bidukikije vya Bitcoin wizigiye maze ube umwe mu bakoresha bayo bateye imbere cane!
+Kumpera yakino cigwa, urazakuba ufise ibikoresho vyose ukeneye kugira ushobora kugendera muri uno muryango wa Bitcoin nicizere kandi ukaba umwe mubafise ubumenyi bukwiye mubayikoresha!
 
 
-Ni mwiteguye gutangura urugendo rwanyu mw'isi ya Bitcoin? Reka tugende!
+Uriteguye gutangura urugendo rwawe mw'isi ya Bitcoin ? Twagiye! 
 
 
 # Ibisabwa kugira ngo umuntu atahure Bitcoin
@@ -103,7 +103,7 @@ Ni mwiteguye gutangura urugendo rwanyu mw'isi ya Bitcoin? Reka tugende!
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>
 
 
-## Ubuhendanyi n'ubuhendanyi bw'amahera
+## Amayeri na magendu muvy'ubutunzi
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
@@ -112,63 +112,61 @@ Ni mwiteguye gutangura urugendo rwanyu mw'isi ya Bitcoin? Reka tugende!
 :::id ya videwo=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
-Ibidukikije vyo muri Bitcoin n’ibidukikije bikikije biracari bito kandi biratunganijwe neza, bivanye n’igihugu. Naho uwo mwidegemvyo utuma umuntu agira uturyo twinshi, uratuma kandi haba ahantu heza ho guhenda abantu mu vy’amahera, guhendahenda abantu be n’uburyo butandukanye bwo gukoresha nabi abantu. Ni co gituma igice ca mbere gihambaye cane: gutahura imitego rusangi bizokugirira akamaro mu kuyirinda. Umutekano wawe w’amahera niwo ubanza kuko ikintu kibi kigushikiye ntikigutera ingaruka gusa, kigira ingaruka ku muryango wose wa Bitcoin.
+Umuryango wa Bitcoin hamwe n'ibiwukikije biracaribito kandi ntibitunganijwe neza, bivanye n’igihugu. Mugihe bunobwigenge bwugurura amahirwe yagutse, burashiraho kandi urubuga rwoguhenderako abantu(amayeri) biciye muri magendu, amayeri, hamwe n'uburyo bwinshi bwoguhenda mvy'ubutunzi. Nico gituma ikigabane cambere gihambaye cane: gutahura imitego ihurirwako nabenshi bizokugirira akamaro mu kuyirinda. Umutekano wawe w'ivyubutunzi bitegezwa kuza imbere kubera ikintu kibi kigushikiye ntikigutera ingaruka gusa, kigira ingaruka ku muryango wose wa Bitcoin.
 
 
 ### Bitcoin vs cryptos: gutahura itandukaniro
 
 
-Imbere yo kuja kure, birahambaye gutandukanya neza isi zibiri zitandukanye cane:
+Imbere yo kuja kure, Ningira akamaro gutahura itandukaniro riri hagati y'isi zibiri zitandukanye :
+
+
+- **Umuryango wa Bitcoin** wubakiye ku ciyumviro c'amahera ya nyayo, cubatswe kubuhinga ataho bugenzurirwa bukomeye, ukudahungabana kw’igihe kirekire, ugukingira amakuru y'ibanga, n'ubwigenge bw'umuntu. Kuva, itangujwe mu 2009, Bitcoin yarakoreshejwe mu buryo bwizigirwa kandi butekanye, ihagarikiwe n'umuryango w’abahinguzi bo kw’isi yose kandi bavyiyeguriye. Si umugenzo ugenda urarengana, ahubwo ni umurongo washinze imizi kandi ushizweho neza wagenewe kuzigama agaciro mu gihe cose.
 
 
 
-- Igihugu ca Bitcoin** gishingiye ku ciyumviro c’amahera meza, cubatswe ku kwegereza ubutegetsi abaturage bikomeye, ukwihangana kw’igihe kirekire, ubuzima bwite, n’ubusegaba bw’umuntu ku giti ciwe. Kuva yatangura mu 2009, Bitcoin yarakoze mu buryo bwizigirwa kandi butekanye, ishigikiwe n’umuryango w’abahinguzi bo kw’isi yose kandi biyemeje. Si umugenzo ugenda urarengana, ahubwo ni umurongo ushikamye kandi ushizweho neza wagenewe kuzigama agaciro mu gihe c’igihe.
-
-
-
-- Inganda y’amahera y’ibanga**, ku rundi ruhande, ni nini cane kandi irimwo imigambi ibihumbi mirongo itandukanye, imwe yose ifise token yayo. Ico kibanza akenshi kivyurwa n’uguhingura ibintu bishasha vyihuta, ugutera imbere, n’ugutekereza ku vy’amahera mu gihe gito. Benshi muri iyo migambi bari ahantu hamwe, ntibatekanye cane, kandi ntibatanga agaciro nyakuri kanini—naho hari amasezerano y’ubushizi bw’amanga be n’ugutangaza ibintu biteye igomwe.
+- **Uruganda rwa Cryptomonnaie**, kurundi ruhande, ni runini cane kandi rurimwo imigambi ibihumbi mirongo itandukanye, imwe yose ifise token yayo. Kino kibanza kenshi kiyobowe n'ubuhinga bwa none bunyaruka, gutera imbere, hamwe n'ugukorera kwihindagurika ry'ibiciro ry'igigihe gito. nyinshi muriyo migambi ifise igenzurirwa, ikingiye buhoro, kandi ntitanga agaciro kanyako-naho hari ukwizeza vyinshi n'isoko yirasa bwampi.
 
 
 ![BTC102-Bitcoin](assets/fr/001.webp)
 
 
-Niba wifuza gutahura neza aho Bitcoin ikomoka n’ico vy’ukuri itandukanye n’iyindi migambi, ndagusavye ko wokwihweza iyi nyigisho y’ukurikirana ku buntu ku mateka ya Bitcoin mu nyuma:
+Nimba wipfuza kumenya neza aho Bitcoin yazananye hamwe n'ikiyituma vyukuri itandukana n'iyindi migambi, ndaguhamagariye kuraba kino cigwa cokubuntu gikwirikira kuri kahise ka Bitcoin mu nyuma:
 
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Nk'uko mubizi, urubuga rwa Plan ₿ Network rwerekeye Bitcoin gusa. Ariko rero, gutahura itandukaniro riri hagati y’ibindi bikoresho vy’ubuhinga bwa none bizokugirira akamaro mu kwirinda imitego ijana n’imigambi itagira akamaro kandi rimwe na rimwe mbere n’iy’ubuhendanyi.
+Nk'uko musanzwe mubizi, urubuga rwa Plan ₿ Network rwerekeye Bitcoin gusa. Nubwo biruko, gutahura itandukaniro riri hagati ya Bitcoin hamwe n'ama Cryptomonnaies bizogufasha kwirinda imitego irikumwe n'imigambi ataco imaze kandi rimwe na rimwe y'amayeri.
 
 
 ![BTC102-Bitcoin](assets/fr/002.webp)
 
 
-### Ubuhendanyi nyamukuru bwo kwirinda
+### Amayeri nyamukuru yo kwirinda
 
 
-Akira ubuhendanyi busanzwe ushobora guhura na bwo mu rugendo rwawe:
+Hano hari amayeri ahurirwako na benshi ashobora kwitambika murugendo rwawe:
 
 
-#### Imigambi ya piramide n'imigambi ya Ponzi
+#### Piramide ya Ponzi n'igishushanyo ca Ponzi
 
-
-Ivyo ni bimwe mu bihendahenda bikunze gukoreshwa cane mw’isi ya crypto. Mu mugambi wa Ponzi, abaje mu mugambi wa mbere bararonka amahera bakoresheje amahera y’abashasha; si ivy’ishoramari canke igicuruzwa nyaco. Nta gaciro nyako kariko kararemwa. Ubuhinga burakora gusa igihe cose abantu bashasha baguma binjira. Igihe uruja n’uruza rw’abashasha baje mu nama rwagabanutse, uwo mugambi wose urasenyuka.
+Ivyo ni bimwe mumayeri ahururwako na benshi mw'isi y;ama Crypto. Mugishushanyoca Ponzi, abaja mumugambi ubwambere barahembwa amafaranga yabashasha, ariko arikoatavuye mumitahe nyayocanke mubicuruzwa nyakuri.  Nta gaciro nyako kariko karashirwaho. Ubuhinga bukora gusa iyo abantu bashasha bagumye binjira. Iyo umurindi w'abinjira bashasha ugiye hasi, uwomubwose urasambuka.
 
 
 ![BTC102-Bitcoin](assets/fr/003.webp)
 
 
-Ivyo bihendahenda akenshi bigaragaza :
+Ibiranga akenshi amayeri:
 
 
 
-- Amasezerano atari yo y’inyungu zishimikijwe (nk’akarorero 20% vy’inyungu zishimikijwe);
-- Gucererwa canke ingorane igihe ugerageza gukura amahera yawe washoye;
-- Inkurikizi zikomeye zo gutora abanywanyi bashasha kugira ngo iyo nzira ikomeze gukora;
-- Kubura uguseruka rwose ku bijanye n’isoko nyakuri y’inyungu zasezeranywe.
+- Ukwemerera inyungu dashoboka kumusaruro (nk’akarorero inyungu kumusaruro wi 20%);
+- Gucerwa canke ingorane iyo ugerageza gukuramwo umutahe washizemwo;
+- Uguhimiriza vya cane abanywanyi bashasha kugira ubuhinga bugume bukora;
+- Ibura ry'umuco kuvyerekeye ukuri kunkomoko y'inyungu y'usuraruro wemerewe.
 
 
-Amaherezo, imigambi yose ya piramide n’iya Ponzi izobura. Intege nke zabo z’ishimikiro ziri mu gukenera kwama bazana abashoramari bashasha kugira ngo bahe inyungu abaje mu nama mbere. Ico gikenewe kiraba ikintu kidashoboka mu mibare gukomeza uko igihe kigenda kirarenga kubera ko igitigiri c’abashasha basabwa kigenda kirushirizaho uko urutonde rugenda rurakura. Iyo umuntu ashitse ku ciyumviro gihambaye, abaje muri iyo nama batangura gukekeranya, ukwizigira kurazimangana, maze piramide yose irasenyuka. Muri iki gihe, abantu ba nyuma binjira, kenshi abatazi cane, baratakaza amahera yabo yose bashoye ata buryo bwo kuyagarura, mu gihe abategura canke abashoramari ba mbere mu bisanzwe bamaze gukura amahera yabo bagaca bava muri iyo nzira.
+Amaherezo, ama piramide hamwe n'ibishushanyo vya Ponzi vyaremewe gutakaza. Intege nke vyubakiyeko nukokuntu haguma hakenerwa kuzana abanyamitahe bashasha kuriha inyungu kuri bashasha bagiyemwo. Ukwo gukenera birateba bikaba ibidashoboka ubiharuye uko igihe gihera kuko igitigiri c'abakenewe bashasha gikenera kuguma cigwiza uko umugambi ukura. Iyo hashikiriwe urugero rudashimishije, abajamwo baca batangura kugira amakenga, icizere kikagenda, hama piramide yose igasambuka. Kuri runo rugero, abantu binjiye ubwanyuma, kenshi bafise amakuru make, baratakaza imitahe yabo yose ataniyindi nzira yokuyigarukana, mugihe abiteguye canke abashizemwo imitahe yabo baba bavuye mumugambi.
 
 
 Mu isi y’amahera y’amahera, imigambi ya Ponzi irashobora gufata uburyo bwinshi, akenshi ikaba igenewe guhisha kamere yayo y’ubuhendanyi inyuma y’igipfukisho c’ubuhinga canke c’amahera. Ivyo bihendahenda bishobora kugaragara nk’amashikanwa mashasha ya token canke amashikanwa y’ibiceri vy’intango (ICOs), ari vyo bikorwa vyo gukorana amahera aho amafaranga mashasha y’amahera agurishwa ku bantu bose. Inyuma y'amajambo y'ubuhinga nka "Blockchain," "amasezerano y'ubwenge," canke "gutera imbere," imigambi imwimwe mu vy'ukuri iriko iranyegeza imigambi y'ipiramide igoye. Abandi bavuga ko batanga inyungu nyinshi mu gufatanya ivy’ubutunzi biteye amakenga n’uburyo bwo gutanga indishi bwishingikiriza cane ku kwinjira kw’abashoramari bashasha.

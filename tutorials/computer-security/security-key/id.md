@@ -38,26 +38,37 @@ Anda juga harus memilih kunci berdasarkan jenis port yang tersedia di komputer a
 
 Anda juga dapat membandingkan perangkat berdasarkan fitur tambahan seperti ketahanan terhadap air dan debu, serta bentuk dan ukuran kunci.
 
-Mengenai merek kunci keamanan, Yubico adalah yang paling terkenal dengan [perangkat YubiKey](https://www.yubico.com/) YubiKey-nya, yang secara pribadi saya gunakan dan rekomendasikan. Google juga menawarkan perangkat dengan [Titan Security Key](https://store.google.com/fr/product/titan_security_key). Untuk alternatif open-source, [SoloKeys](https://solokeys.com/) (non-OTP) dan [NitroKey](https://www.nitrokey.com/products/nitrokeys) adalah pilihan menarik, namun saya belum pernah memiliki kesempatan untuk mengujinya.
+Mengenai merek kunci keamanan, Yubico adalah yang paling terkenal dengan perangkat YubiKeynya, yang secara pribadi saya gunakan dan rekomendasikan. Google juga menawarkan perangkat dengan Titan Security Key. Untuk alternatif open-source, SoloKeys (non OTP) dan NitroKey merupakan opsi yang menarik, namun saya belum pernah memiliki kesempatan untuk mengujinya.
+
+Mengenai merek kunci keamanan, Yubico adalah yang paling terkenal dengan [perangkat YubiKey](https://www.yubico.com/), yang secara pribadi saya gunakan dan rekomendasikan. Google juga menawarkan perangkat bernama [Titan Security Key](https://store.google.com/fr/product/titan_security_key). Untuk alternatif open-source, [SoloKeys](https://solokeys.com/) (non-OTP) dan [NitroKey](https://www.nitrokey.com/products/nitrokeys) adalah pilihan menarik, namun saya belum pernah memiliki kesempatan untuk mengujinya.
 
 ## Bagaimana cara menggunakan kunci keamanan fisik?
 
-Setelah Anda menerima kunci keamanan Anda, tidak diperlukan pengaturan khusus. Kunci biasanya sudah siap digunakan saat diterima. Anda dapat langsung menggunakannya untuk mengamankan akun online Anda yang mendukung jenis otentikasi ini. Sebagai contoh, saya akan menunjukkan cara mengamankan akun Proton mail saya dengan kunci keamanan fisik ini.
+Setelah Anda menerima kunci keamanan Anda, tidak diperlukan pengaturan khusus. Kunci tersebut biasanya siap digunakan saat diterima. Anda dapat segera menggunakannya untuk mengamankan akun online Anda yang mendukung jenis otentikasi ini. Sebagai contoh, saya akan menunjukkan cara mengamankan akun Proton Mail saya dengan kunci keamanan fisik ini.
 ![SECURITY KEY 2FA](assets/notext/03.webp)
-Anda akan menemukan opsi untuk mengaktifkan 2FA di pengaturan akun Anda, seringkali di bawah bagian "*Password*" atau "*Keamanan*". Klik pada kotak centang atau tombol yang memungkinkan Anda untuk mengaktifkan 2FA dengan kunci fisik.
+
+Anda akan menemukan opsi untuk mengaktifkan 2FA di pengaturan akun Anda, sering kali di bawah bagian "*Password*" atau "*Keamanan*". Klik pada kotak centang atau tombol yang memungkinkan Anda mengaktifkan 2FA dengan kunci fisik.
 ![SECURITY KEY 2FA](assets/notext/04.webp)
-Colokkan kunci Anda ke komputer.
+
+Sambungkan kunci Anda ke komputer.
 ![SECURITY KEY 2FA](assets/notext/05.webp)
+
 Sentuh tombol pada kunci keamanan Anda untuk memvalidasi.
 ![SECURITY KEY 2FA](assets/notext/06.webp)
+
 Masukkan nama untuk mengingat kunci mana yang Anda gunakan.
 ![SECURITY KEY 2FA](assets/notext/07.webp)
+
 Dan selesai, kunci keamanan Anda telah berhasil ditambahkan untuk otentikasi 2FA dari akun Anda.
 ![SECURITY KEY 2FA](assets/notext/08.webp)
-Dalam contoh saya, jika saya mencoba untuk terhubung kembali ke akun Proton mail saya, saya pertama-tama akan diminta untuk memasukkan kata sandi saya bersama dengan nama pengguna saya. Ini adalah faktor pertama dari otentikasi.
+
+Dalam contoh saya, jika saya mencoba menyambungkan kembali ke akun Proton Mail saya, saya akan terlebih dahulu diminta untuk memasukkan kata sandi beserta nama pengguna saya. Ini adalah faktor otentikasi pertama.
 ![SECURITY KEY 2FA](assets/notext/09.webp)
+
 Kemudian, saya diminta untuk memasukkan kunci keamanan saya untuk faktor kedua dari otentikasi.
 ![SECURITY KEY 2FA](assets/notext/10.webp)
+
 Selanjutnya, saya perlu menyentuh tombol pada kunci fisik untuk memvalidasi otentikasi, dan saya terhubung kembali ke akun Proton mail saya.
 ![SECURITY KEY 2FA](assets/notext/11.webp)
-Ulangi operasi ini untuk semua akun online yang ingin Anda amankan dengan cara ini, terutama untuk akun kritis seperti akun email Anda, manajer kata sandi Anda, layanan penyimpanan cloud dan online Anda, atau akun keuangan Anda.
+
+Ulangi operasi ini untuk semua akun online yang ingin Anda amankan dengan cara ini, terutama untuk akun penting seperti akun email Anda, manajer kata sandi Anda, layanan penyimpanan cloud dan online Anda, atau akun keuangan Anda.

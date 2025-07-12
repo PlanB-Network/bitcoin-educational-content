@@ -801,7 +801,7 @@ Zum Schluss noch ein paar zeitlose Prinzipien, die jeder Bitcoiner (besonders An
 - Regel Nr. 2: Folge nicht blindlings dem Hype und vertraue nicht auf Wundermittel. Ignoriere Trends und auffällige Versprechungen. Konzentriere dich stattdessen darauf, gut informierte, rationale Entscheidungen zu treffen. Schlafe im Zweifelsfall eine Nacht drüber; sprich mit Menschen darüber, denen du vertraust. Es ist besser, langsam und bedacht vorzugehen, als sich in kostspielige Fehler zu stürzen.
 - Regel Nr. 3: Erstelle einen Plan und verfolge eine langfristige Vision.
 
-Beständigkeit, Geduld und Disziplin bringen dich weiter als kurzfristige Aufregung. Strebe  nicht danach "zum Mond zu reisen", sondern nach nachhaltigem Wachstum. Vermeide fatale Fehler und lass kleine Erfolge mit der Zeit wachsen.
+Beständigkeit, Geduld und Disziplin bringen dich weiter als kurzfristige Aufregung. Strebe nicht danach "zum Mond zu reisen", sondern nach nachhaltigem Wachstum. Vermeide fatale Fehler und lass kleine Erfolge mit der Zeit wachsen.
 
 
 Wenn du diese Grundsätze befolgst, kannst du Bitcoin-Investitionen mit mehr Klarheit und Gelassenheit angehen. Ja, Bitcoin ist unbeständig und kann anfangs einschüchternd wirken, aber wenn man sich ihm mit Vorsicht, Geduld und einer bodenständigen Einstellung nähert, birgt er unbestreitbares Potenzial. Nimm dir die Zeit, dein Wissen aufzubauen, überprüfe deine Strategie bei Bedarf und denk vor allem daran: Langsame und stetige Fortschritte sind immer besser als überstürzte Schritte aus Angst oder Ungeduld.
@@ -2140,7 +2140,7 @@ Die Hodler sehen Bitcoin als Wertaufbewahrungsmittel, ähnlich wie ein Investor 
 #### 2. Der Stapler
 
 
-Der Stacker ist jemand, der einen eher schrittweisen, konsequenten Ansatz verfolgt. Du kaufst  regelmässig Bitcoin, oft im Rahmen einer Dollar-Cost Averaging (DCA)-Strategie, um den Kaufpreis über die Zeit zu verteilen und die Auswirkungen der Volatilität von Bitcoin zu verringern.
+Der Stacker ist jemand, der einen eher schrittweisen, konsequenten Ansatz verfolgt. Du kaufst regelmässig Bitcoin, oft im Rahmen einer Dollar-Cost Averaging (DCA)-Strategie, um den Kaufpreis über die Zeit zu verteilen und die Auswirkungen der Volatilität von Bitcoin zu verringern.
 
 
 Bevorzugte Strategie :
@@ -2214,7 +2214,7 @@ In den nächsten Kapiteln werden wir jedes dieser Profile im Detail untersuchen,
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 
-In der Bitcoin-Gemeinschaft bezieht sich der Begriff "hodler" auf jemanden, der einen langfristigen Investitionsansatz verfolgt. Das Wort entstand aus einem berühmten Tippfehler von "hold" im Bitcoin Talk-Forum vor Jahren und ist seitdem zu einem Symbol für Commitment geworden: Halten  an deinem Bitcoin fest, egal was passiert, ohne sich über kurzfristige Marktschwankungen aufzuregen.
+In der Bitcoin-Gemeinschaft bezieht sich der Begriff "hodler" auf jemanden, der einen langfristigen Investitionsansatz verfolgt. Das Wort entstand aus einem berühmten Tippfehler von "hold" im Bitcoin Talk-Forum vor Jahren und ist seitdem zu einem Symbol für Commitment geworden: Halte an deinem Bitcoin fest, egal was passiert, ohne dich über kurzfristige Marktschwankungen aufzuregen.
 
 
 ![BTC102-Bitcoin](assets/fr/071.webp)
@@ -2229,7 +2229,7 @@ Hodler glauben an das Wertversprechen von Bitcoin. Mit einem festen Supply von 2
 In der Vergangenheit war das "Hodling" für die meisten nicht-professionellen Anleger der profitabelste Ansatz. Er macht es überflüssig, den Markt zu timen, was bekanntermassen schwierig und emotional anstrengend ist. Durch einfaches Kaufen und Halten vermeiden Hodler den Stress des Handels und die schlechten Entscheidungen, die oft mit emotionalen Reaktionen einhergehen.
 
 
-Bitcoin neigt dazu, sich in Zyklen zu bewegen, d. h. auf eine grosse Hausse folgen starke Korrekturen und dann lange ruhige Phasen. Zwischen 2013 und 2025 durchlief Bitcoin mehrere dieser Zyklen und verlor während der Bärenmärkte manchmal bis zu 80 % seines Wertes. Diese Phasen können die Geduld eines Anlegers auf die Probe stellen, aber diejenigen, die durchhalten, wurden im Allgemeinen im Laufe der Zeit belohnt.
+Bitcoin neigt dazu, sich in Zyklen zu bewegen, d.h. auf eine grosse Hausse folgen starke Korrekturen und dann lange ruhige Phasen. Zwischen 2013 und 2025 durchlief Bitcoin mehrere dieser Zyklen und verlor während der Bärenmärkte manchmal bis zu 80 % seines Wertes. Diese Phasen können die Geduld eines Anlegers auf die Probe stellen, aber diejenigen, die durchhalten, wurden im Allgemeinen im Laufe der Zeit belohnt.
 
 
 Das Verständnis dieser Zyklen hilft, Emotionen zu steuern. Erfahrene Anleger wissen, dass es ein verlorenes Spiel ist, zu versuchen, an der Spitze zu verkaufen oder am Boden zu kaufen. Stattdessen hat sich diszipliniertes, langfristiges Halten als erfolgreiche Strategie erwiesen.
@@ -2264,7 +2264,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-Sobald dein Wallet eingerichtet ist, sollten du deine 12- oder 24-Wort-Wiederherstellungsphrase auf einem dauerhaften physischen Medium sichern. In dieser Anleitung erfahren  mehr darüber, welches Medium du für deine Phrase wählen sollten:
+Sobald dein Wallet eingerichtet ist, sollten du deine 12- oder 24-Wort-Wiederherstellungsphrase auf einem dauerhaften physischen Medium sichern. In dieser Anleitung erfährst du mehr darüber, welches Medium du für deine Phrase wählen sollten:
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -2306,7 +2306,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 ![BTC102-Bitcoin](assets/fr/074.webp)
 
 
-Einige Hodler verfolgen auch einen hybriden Ansatz, indem sie DCA (Dollar Cost Averaging) verwenden, d. h. regelmässig kleine Beträge kaufen, um Marktschwankungen auszugleichen.
+Einige Hodler verfolgen auch einen hybriden Ansatz, indem sie DCA (Dollar Cost Averaging) verwenden, d.h. regelmässig kleine Beträge kaufen, um Marktschwankungen auszugleichen.
 
 
 #### 3. Aufstellung eines Nachfolgeplans
@@ -2319,9 +2319,9 @@ Wichtige Schritte:
 
 
 
-- Schreiben  einen detaillierten Leitfaden, in dem du erklären, wie du auf deinen Bitcoin zugreifen kannst, wenn du dazu nicht in der Lage sind;
-- Verwenden  eine Einrichtung mit mehreren Unterschriften, um den Zugang zu ermöglichen und gleichzeitig das Verlustrisiko zu verringern;
-- Teilen  wichtige Informationen mit jemandem, dem du vertrauen.
+- Schreibe einen detaillierten Leitfaden, in dem du erklärst, wie du auf deine Bitcoins zugreifen kannst, wenn du dazu nicht in der Lage bist;
+- Verwende eine Einrichtung mit mehreren Unterschriften, um den Zugang zu ermöglichen und gleichzeitig das Verlustrisiko zu verringern;
+- Teile wichtige Informationen mit jemandem, dem du vertraust.
 
 
 Im letzten Teil dieses Kurses werden wir uns eingehender mit der Erbschaftsplanung befassen.
@@ -2330,25 +2330,25 @@ Im letzten Teil dieses Kurses werden wir uns eingehender mit der Erbschaftsplanu
 #### 4. Geduldig durch die Zyklen gehen
 
 
-Hodling bedeutet, das lange Spiel zu spielen. Du müssen sowohl bei Kurseinbrüchen als auch bei euphorischen Bullenmärkten die Ruhe bewahren.
+Hodling bedeutet, das lange Spiel zu spielen. Du musst sowohl bei Kurseinbrüchen als auch bei euphorischen Bullenmärkten die Ruhe bewahren.
 
 
 Ein paar bewährte Praktiken:
 
 
 
-- Überprüfen  deinen Wallet regelmässig, aber nicht zu oft. Ständige Überwachung führt zu emotionalen Entscheidungen;
-- Verkaufen  nicht in Panik, wenn der Markt einbricht. Korrekturen sind Teil des Spiels;
-- Bleiben  über die Entwicklungen bei Bitcoin auf dem Laufenden, aber vermeiden  den Medienrummel, insbesondere in Zeiten des Abschwungs;
-- Überprüfen  in regelmässigen Abständen die Integrität deiner Wiederherstellungsphrase. Vergewissern  dich, dass der Umschlag nicht manipuliert wurde und dass das Medium noch lesbar ist. Wenn irgendetwas nicht in Ordnung zu sein scheint, generate  eine neue Sicherung von deinem Wallet;
+- Überprüfe dein Wallet regelmässig, aber nicht zu oft. Ständige Überwachung führt zu emotionalen Entscheidungen;
+- Verkaufe nicht in Panik, wenn der Markt einbricht. Korrekturen sind Teil des Spiels;
+- Bleib über die Entwicklungen bei Bitcoin auf dem Laufenden, aber vermeide den Medienrummel, insbesondere in Zeiten des Abschwungs;
+- Überprüfe in regelmässigen Abständen die Integrität deiner Wiederherstellungsphrase. Vergewissere dich, dass der Umschlag nicht manipuliert wurde und dass das Medium noch lesbar ist. Wenn irgendetwas nicht in Ordnung zu sein scheint, generiere eine neue Sicherung von deinem Wallet;
 
 
-Um deine Bestände zu überwachen, ohne deine privaten Schlüssel zu gefährden, sollten du einen Watch-only wallet verwenden. Damit kannst du Salden und Transaktionen nur mit deinen öffentlichen Schlüsseln verfolgen.
+Um deine Bestände zu überwachen, ohne deine privaten Schlüssel zu gefährden, solltest du ein 'Watch-only' Wallet verwenden. Damit kannst du Salden und Transaktionen nur mit deinen öffentlichen Schlüsseln verfolgen.
 
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
-Die Strategie von hodler ist einfach, aber wirkungsvoll: kaufen, sichern und vergessen. Die eigentliche Herausforderung ist nicht technischer Natur, sondern psychologischer Natur. Am schwierigsten ist es, dem Drang zu widerstehen, zu früh zu verkaufen oder bei Kursrückgängen in Panik zu geraten. Aber wenn man diszipliniert bleibt und langfristig denkt, hat sich Hodling als zuverlässiger Weg erwiesen, Werte zu erhalten und langfristig Vermögen aufzubauen.
+Die Strategie von Hodlern ist einfach, aber wirkungsvoll: kaufen, sichern und vergessen. Die eigentliche Herausforderung ist nicht technischer Natur, sondern psychologischer Natur. Am schwierigsten ist es, dem Drang zu widerstehen, zu früh zu verkaufen oder bei Kursrückgängen in Panik zu geraten. Aber wenn man diszipliniert bleibt und langfristig denkt, hat sich Hodling als zuverlässiger Weg erwiesen, Werte zu erhalten und langfristig Vermögen aufzubauen.
 
 
 
@@ -2356,18 +2356,18 @@ Die Strategie von hodler ist einfach, aber wirkungsvoll: kaufen, sichern und ver
 ![BTC102-Bitcoin](assets/fr/075.webp)
 
 
-### Bewerten  dein Hodler-Profil
+### Bewerte dein Hodler-Profil
 
 
-Wenn du dich in diesen Persönlichkeitsmerkmalen wiedererkennen, sind du wahrscheinlich ein geborener Hodler:
+Wenn du dich in diesen Persönlichkeitsmerkmalen wiedererkennen, bist du wahrscheinlich ein geborener Hodler:
 
 
 
-- Geduld: Ein Hodler zeigt aussergewöhnliche Geduld. Du sind bereit, Bitcoin jahrelang (manchmal jahrzehntelang) zu halten, ohne sich von täglichen Preisschwankungen verunsichern zu lassen. Du verstehen, dass Bitcoin sich in Zyklen bewegt und geraten nicht in Panik, wenn der Preis abstürzt. Korrekturen sind nur ein Teil des Spiels. Für Hodler wird der Wert nicht in Monaten gemessen, sondern auf lange Sicht;
-- Langfristige Vision : Das Unternehmen hodler denkt weit über kurzfristige Gewinne hinaus. Du glauben an das strukturelle Wachstum von Bitcoin und die allmähliche weltweite Verbreitung. Trotz der Volatilität sehen sie einen Aufwärtstrend, eine Expansion gefolgt von einer Konsolidierung. Für sie ist Bitcoin ein langfristiger Vermögenswert, eine Absicherung gegen Inflation und ein wichtiger Bestandteil einer grösseren monetären Revolution;
-- Selbstdisziplin: Mentale Disziplin ist der Kern der hodlerschen Denkweise. Paradoxerweise besteht ihre grösste Herausforderung darin, nicht zu handeln. Du widerstehen dem Drang zu verkaufen, wenn die Kurse steigen, und geben dich nicht der Angst hin, wenn sie abstürzen. Du wissen, dass Bitcoin viele brutale Bärenmärkte überlebt hat und dass diejenigen, die durch den Schmerz hindurch durchhalten, oft am meisten profitieren;
-- Emotionale Widerstandsfähigkeit : Der Kurs von Bitcoin kann innerhalb weniger Wochen um 50 % oder mehr fallen, und dennoch bleibt der Hodler ruhig. Du haben die Idee verinnerlicht, dass die Volatilität die Grundlagen von Bitcoin nicht untergräbt. Diese emotionale Widerstandsfähigkeit ermöglicht es ihnen, bei Ungewissheit einen kühlen Kopf zu bewahren und eine rationale Perspektive beizubehalten, wenn andere in Panik geraten;
-- Glaube an die Technologie: Die Hodlers sehen Bitcoin nicht nur als spekulative Anlage. Du glauben an die Technologie und ihr bahnbrechendes Potenzial. Für viele geht es nicht nur um Geld; es geht um Freiheit. Bitcoin wird als widerstandsfähige, unpolitische Währung und als echte Alternative zum traditionellen Bankwesen angesehen, die dem Einzelnen mehr finanzielle Souveränität verleiht.
+- Geduld: Ein Hodler zeigt aussergewöhnliche Geduld. Du bist bereit, Bitcoin jahrelang (manchmal jahrzehntelang) zu halten, ohne dich von täglichen Preisschwankungen verunsichern zu lassen. Du verstehst, dass Bitcoin sich in Zyklen bewegt und gerätst nicht in Panik, wenn der Preis abstürzt. Korrekturen sind nur ein Teil des Spiels. Für Hodler wird der Wert nicht in Monaten gemessen, sondern auf lange Sicht;
+- Langfristige Vision : Der Hodler denkt weit über kurzfristige Gewinne hinaus. Du glaubst an das strukturelle Wachstum von Bitcoin und die allmähliche weltweite Verbreitung. Trotz der Volatilität siehst du einen Aufwärtstrend, eine Expansion gefolgt von einer Konsolidierung. Für dich ist Bitcoin ein langfristiger Vermögenswert, eine Absicherung gegen Inflation und ein wichtiger Bestandteil einer grösseren monetären Revolution;
+- Selbstdisziplin: Mentale Disziplin ist der Kern der hodlerschen Denkweise. Paradoxerweise besteht ihre grösste Herausforderung darin, nicht zu handeln. Du widerstehst dem Drang zu verkaufen, wenn die Kurse steigen, und gibst dich nicht der Angst hin, wenn sie abstürzen. Du weisst, dass Bitcoin viele brutale Bärenmärkte überlebt hat und dass diejenigen, die durch den Schmerz hindurch durchhalten, oft am meisten profitieren;
+- Emotionale Widerstandsfähigkeit : Der Kurs von Bitcoin kann innerhalb weniger Wochen um 50 % oder mehr fallen, und dennoch bleibt der Hodler ruhig. Du hast die Idee verinnerlicht, dass die Volatilität die Grundlagen von Bitcoin nicht untergräbt. Diese emotionale Widerstandsfähigkeit ermöglicht es dir, bei Ungewissheit einen kühlen Kopf zu bewahren und eine rationale Perspektive beizubehalten, wenn andere in Panik geraten;
+- Glaube an die Technologie: Die Hodlers sehen Bitcoin nicht nur als spekulative Anlage. Du glaubst an die Technologie und ihr bahnbrechendes Potenzial. Für viele geht es nicht nur um Geld; es geht um Freiheit. Bitcoin wird als widerstandsfähige, unpolitische Währung und als echte Alternative zum traditionellen Bankwesen angesehen, die dem Einzelnen mehr finanzielle Souveränität verleiht.
 
 
 ![BTC102-Bitcoin](assets/fr/072.webp)
@@ -3286,7 +3286,7 @@ Verwende eine Tabelle, um dieses Verzeichnis zu strukturieren. Du sollten dieses
 | Physisches Wallet | Jade Plus | BTC | Tresor zu Hause | Kopie bei meinem Onkel Bob und in einem Banksafe bei BNP Paribas | Passphrase hinterlegt bei meiner Mutter. PIN hinterlegt auf dem Bitwarden Passwort-Manager. PIN hinterlegt auf dem Bitwarden Passwort-Manager. | Ich benutze zwei separate Wallets: ein normales nur mit dem Mnemonic und eines mit einer Passphrase. |
 | Green Wallet | BTC | auf meinem iPhone 15 | Kopie des Seeds in meinem Tresor zuhause | PIN hinterlegt auf dem Bitwarden Password-Manager. | Die Anwendung ist versteckt. | Die Anwendung ist versteckt |
 
-In diesem Stadium könntest du den Drang verspüren, deine Fondsverteilung sofort anzupassen, deine Sicherheit zu verbessern oder sogar mehr Bitcoins zu kaufen oder zu verkaufen. Handle  noch nicht! Hier geht es nicht darum, Massnahmen zu ergreifen, sondern eine Momentaufnahme deiner aktuellen Situation zu erstellen. Du kannst deinen Plan später immer noch verbessern, aber im Moment solltest du dich darauf konzentrieren, die Bestandsaufnahme so gründlich wie möglich durchzuführen.
+In diesem Stadium könntest du den Drang verspüren, deine Fondsverteilung sofort anzupassen, deine Sicherheit zu verbessern oder sogar mehr Bitcoins zu kaufen oder zu verkaufen. Handle noch nicht! Hier geht es nicht darum, Massnahmen zu ergreifen, sondern eine Momentaufnahme deiner aktuellen Situation zu erstellen. Du kannst deinen Plan später immer noch verbessern, aber im Moment solltest du dich darauf konzentrieren, die Bestandsaufnahme so gründlich wie möglich durchzuführen.
 
 
 Nach dieser Bestandsaufnahme wird es viel einfacher sein, Schwachstellen zu erkennen und einen sicheren und effektiven Übertragungsprozess zu organisieren.
@@ -3352,12 +3352,12 @@ Hier findest du ein detailliertes Verzeichnis meiner Bestände, ihren Standort u
 
 
 - Ich benutze mein Telefon (Samsung Galaxy S8), um auf mein Samourai Wallet zuzugreifen. Die Wiederherstellungsphrase für dieses Wallet ist in zwei Kopien gespeichert: eine wird im Banktresor aufbewahrt, die andere bei Onkel Bob. Die PIN, die zum Entsperren sowohl meines Telefons als auch des Wallet benötigt wird, wird bei mir zu Hause und bei meiner Grossmutter aufbewahrt.
-- Ich greife über meinen Dell 2018 Laptop auf die Online-Exchange-Plattform Bitfinex zu. Es könnten noch Bitcoins oder Dollar vorhanden sein. Um diese Gelder wiederzuerlangen, musst du entweder Bitfinex direkt kontaktieren oder versuchen, auf mein Konto zuzugreifen. (**Vorsicht, dies könnte illegal sein - überprüfen  deine lokalen Gesetze**).
+- Ich greife über meinen Dell 2018 Laptop auf die Online-Exchange-Plattform Bitfinex zu. Es könnten noch Bitcoins oder Dollar vorhanden sein. Um diese Gelder wiederzuerlangen, musst du entweder Bitfinex direkt kontaktieren oder versuchen, auf mein Konto zuzugreifen. (**Vorsicht, dies könnte illegal sein - überprüfen deine lokalen Gesetze**).
 - Ich habe den Zugang zu meinen Online-Konten mit einem Passwort-Manager gesichert. Ein Backup dieses Managers ist im Tresor der Bank gespeichert. Mein Bitfinex-Konto ist ausserdem durch eine Zwei-Faktor-Authentifizierung geschützt, auf die ich entweder über mein Telefon (Samsung Galaxy S8, Authy-App) oder über den Backup-Code, den ich zu Hause aufbewahrt habe, zugreifen kann.
 - Ich besitze ein Trezor 'Model One' Hardware Wallet, auf das ich über meinen PC mit der Software Sparrow Wallet zugreife. Die Wiederherstellungsphrase für dieses Wallet ist in zwei Kopien gespeichert: eine im Banktresor, die andere bei Onkel Bob. Die PIN für dieses Wallet ist bei mir zu Hause und bei meiner Mutter gespeichert. Das Gerät selbst wird wahrscheinlich in einem Safe in meinem Büro aufbewahrt. Ich verwende ein BIP39 Passphrase auf meinem Trezor 'Model One'. Diese Passphrase ist entscheidend für den Zugriff auf die Gelder auf dem Gerät. Ein Backup dieser Passphrase wird an zwei Orten aufbewahrt: bei mir zu Hause und bei meiner Mutter.
 
 
-Triff alle notwendigen Vorsichtsmassnahmen, bevor du mit diesen Geldern hantierst. Gib  niemals den gesamten Wiederherstellungssatz an eine Person weiter und teile diese Einzelheiten nur mit, wenn es unbedingt notwendig ist.
+Triff alle notwendigen Vorsichtsmassnahmen, bevor du mit diesen Geldern hantierst. Gib niemals den gesamten Wiederherstellungssatz an eine Person weiter und teile diese Einzelheiten nur mit, wenn es unbedingt notwendig ist.
 
 
 #### 3. Sicherheitsvorkehrungen und Anweisungen
@@ -3368,7 +3368,7 @@ Triff alle notwendigen Vorsichtsmassnahmen, bevor du mit diesen Geldern hantiers
 - Gib den Satz mit den 24 Wörtern niemals nur an eine Person weiter. Wenn jemand dich um vollständigen Zugang bittet, solltest du vorsichtig sein.
 - Verbinde meine Geldbörsen nicht mit einem unbekannten Computer. Verwende eine sichere Umgebung, wenn möglich offline.
 - Hüte dich vor Betrügereien. Es gibt viele Betrügereien im Zusammenhang mit Bitcoin. Vertraue nur den in diesem Schreiben genannten Personen.
-- Speichere alles, was du tust.  Mach dir Notizen, halte  wichtige Schritte fest und schütze den Zugriff.
+- Speichere alles, was du tust. Mach dir Notizen, halte wichtige Schritte fest und schütze den Zugriff.
 
 
 #### 4. Rechtliche Hinweise und Schlussbotschaft

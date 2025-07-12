@@ -2919,23 +2919,23 @@ Katika Sehemu ya 4, tulijadili umuhimu wa kutumia node kamili ili kulinda usiri 
 
 Njia moja ya kuepuka mashambulizi mbalimbali ya kufuta utambulisho ni kutumia pendekezo la Dandelion. Itifaki hii ya utangazaji ilirasimishwa katika BIP156, lakini haijawahi kutekelezwa kwenye Bitcoin.
 
-Wazo la Dandelion ni kuboresha usiri wa uelekezaji wa shughuli katika mtandao wa Bitcoin ili kukabiliana na aina mbalimbali za mashambulizi. Kusudi lake kuu ni kuficha nodi ya chanzo ambayo hapo awali ilitangaza shughuli kwenye mtandao. Ufichuaji wa nodi hii unaweza kufanya iwezekane kuunganisha muamala wa Bitcoin kwa Anwani (address) ya IP maalum (ikiwa nodi inafanya kazi kwenye clearnet), ambayo inaweza kutoa mahali pa kuingilia kwa uchanganuzi wa minyororo.
+Wazo la Dandelion ni kuboresha usiri wa uelekezaji wa shughuli katika mtandao wa Bitcoin ili kukabiliana na aina mbalimbali za mashambulizi. Kusudi lake kuu ni kuficha node ya chanzo ambayo hapo awali ilitangaza shughuli kwenye mtandao. Ufichuaji wa node hii unaweza kufanya iwezekane kuunganisha muamala wa Bitcoin kwa Anwani (address) ya IP maalum (ikiwa node inafanya kazi kwenye clearnet), ambayo inaweza kutoa mahali pa kuingilia kwa uchanganuzi wa minyororo.
 
-Uhusiano huu kati ya shughuli kwenye Bitcoin na Anwani (address) ya IP inawakilisha hatari kubwa kwa usiri wa mtumiaji. Hakika, huluki nyingi ziko katika nafasi ya kuunganisha Anwani (address) ya IP kwa urahisi na utambulisho wa kibinafsi. Hii inajumuisha serikali na watoa huduma za mtandao. Zaidi ya hayo, maelezo haya yanaweza kupatikana kwa umma, kwa mfano, ikiwa Anwani (address) ya IP yako na data ya kibinafsi itavuja wakati hifadhi data ya tovuti imedukuliwa.
+Uhusiano huu kati ya muamala kwenye Bitcoin na IP address ya  inawakilisha hatari kubwa kwa usiri wa mtumiaji. Hakika, huluki nyingi ziko katika nafasi ya kuunganisha IP address kwa urahisi na utambulisho wa kibinafsi. Hii inajumuisha serikali na watoa huduma za mtandao. Zaidi ya hayo, maelezo haya yanaweza kupatikana kwa umma, kwa mfano, ikiwa IP address yako na data ya kibinafsi itavuja wakati hifadhi data ya tovuti imedukuliwa.
 
-Katika operesheni ya kawaida ya Bitcoin, shughuli zilizojengwa na mtumiaji kwenye programu yake ya Pochi hupitishwa kwenye nodi yake ya kibinafsi. Nodi hii itatangaza mara moja muamala mpya kwa wenzao wote ambao umeunganishwa.
+Katika operesheni ya kawaida ya Bitcoin, miamala iliyojengwa na mtumiaji kwenye programu yake ya wallet hupitishwa kwenye node yake ya kibinafsi. Node hii itatangaza mara moja muamala mpya kwa wenzao wote ambao umeunganishwa.
 
 ![BTC204](assets/fr/202.webp)
 
-Wenzake hawa kisha wakague muamala ili kuhakikisha kuwa unatii makubaliano na sheria za usanifishaji wa ndani. Baada ya kuthibitishwa, kila rika kwa upande wake hupeleka shughuli hiyo kwa wenzake, na kadhalika.
+Wenzake hawa kisha wakague muamala ili kuhakikisha kuwa unatii makubaliano na sheria za usanifishaji wa ndani. Baada ya kuthibitishwa, kila rika kwa upande wake hupeleka miamala hiyo kwa wenzake, na kadhalika.
 
 ![BTC204](assets/fr/203.webp)
 
-Usambazaji huu wa miamala unaosubiri kuunganishwa kwenye kizuizi una usawa na unaweza kutabirika kitakwimu. Udhaifu huu unaweza kutumiwa na nodi za kijasusi za pamoja, ambazo hushirikiana kufuatilia na kuchambua mtandao, ili kutambua nodi ya kwanza ya kutangaza shughuli. Mtazamaji akifaulu kupata nodi ya chanzo, anaweza kudhani kuwa shughuli hiyo ilitokana na opereta wa nodi hiyo. Uchunguzi wa aina hii unaweza kutumika kuunganisha miamala isiyojulikana kwa Anwani (address) maalum za IP.
+Usambazaji huu wa miamala unaosubiri kuunganishwa kwenye block una usawa na unaweza kutabirika kitakwimu. Udhaifu huu unaweza kutumiwa na node za kijasusi za pamoja, ambazo hushirikiana kufuatilia na kuchambua mtandao, ili kutambua node ya kwanza ya kutangaza miamala. Mtazamaji akifaulu kupata node ya chanzo, anaweza kudhani kuwa miamala hiyo ilitokana na opereta wa node hiyo. Uchunguzi wa aina hii unaweza kutumika kuunganisha miamala isiyojulikana kwa  address maalum za IP.
 
 ![BTC204](assets/fr/204.webp)
 
-Lengo la BIP156 ni Anwani (address) tatizo hili. Ili kufanya hivyo, inatanguliza awamu ya ziada katika uenezaji wa shughuli mpya ili kuhifadhi kutokujulikana kabla ya uenezaji mpana wa umma. Dandelion kwanza hutumia awamu ya "shina" ambapo shughuli hutumwa kupitia njia ya nasibu ya nodi.
+Lengo la BIP156 ni kuelezea tatizo hili. Ili kufanya hivyo, inatanguliza awamu ya ziada katika uenezaji wa muamala mpya ili kuhifadhi kutokujulikana kabla ya uenezaji mpana wa umma. Dandelion kwanza hutumia awamu ya "shina" ambapo shughuli hutumwa kupitia njia ya nasibu ya node.
 
 ![BTC204](assets/fr/205.webp)
 
@@ -2945,43 +2945,41 @@ Muamala hutangazwa kwa mtandao mzima katika awamu ya "Fluff".
 
 Shina na awamu ya "Fluff" ni marejeleo ya tabia ya usambazaji wa muamala katika mtandao, ambayo inafanana na umbo na mabadiliko ya mmea wa "Dandelion" kwa Kiingereza.
 
-Hivyo, nodi za upelelezi zinaweza kufuatilia muamala hadi kwa nodi iliyoanzisha awamu ya "Fluff" (usambazaji mkubwa), lakini nodi hiyo si ile iliyotangaza muamala kwanza, kwani ilipokea kutoka kwa nodi ya mwisho ya shina. Ikiwa nodi za upelelezi haziwezi kufuatilia shina, basi haziwezi pia kutambua nodi chanzo.
+Hivyo, node za upelelezi zinaweza kufuatilia muamala hadi kwa node iliyoanzisha awamu ya "Fluff" (usambazaji mkubwa), lakini node hiyo si ile iliyotangaza muamala kwanza, kwani ilipokea kutoka kwa nodi ya mwisho ya shina. Ikiwa nodi za upelelezi haziwezi kufuatilia shina, basi haziwezi pia kutambua node chanzo.
 
 ![BTC204](assets/fr/207.webp)
 
-Hata mbele ya nodi za kijasusi wakati wa awamu ya shina, shaka hubakia kila wakati, kwa sababu mara tu wanapokutana na nodi ya uaminifu kwenye grafu ya uenezi, wapelelezi hawawezi kuamua ikiwa nodi hii ndiyo chanzo asili au mpatanishi tu.
+Hata mbele ya node za kijasusi wakati wa awamu ya shina, shaka hubakia kila wakati, kwa sababu mara tu wanapokutana na nodi ya uaminifu kwenye grafu ya uenezi, wapelelezi hawawezi kuamua ikiwa nodi hii ndiyo chanzo asili au mpatanishi tu.
 
 ![BTC204](assets/fr/208.webp)
 
-Mbinu hii ya uelekezaji hutia ukungu njia inayorudi kwenye nodi ya chanzo, na hivyo kufanya kuwa vigumu kufuatilia muamala kupitia mtandao hadi asili yake. Dandelion kwa hivyo huboresha usiri kwa kupunguza uwezo wa wapinzani kufuta utambulisho wa mtandao. Njia hii ni nzuri zaidi wakati, wakati wa awamu ya "shina", shughuli inavuka nodi ambayo husimba mawasiliano yake ya mtandao, kama Tor au P2P Transport V2.
+Mbinu hii ya uelekezaji hutia ukungu njia inayorudi kwenye node ya chanzo, na hivyo kufanya kuwa vigumu kufuatilia muamala kupitia mtandao hadi asili yake. Dandelion kwa hivyo huboresha usiri kwa kupunguza uwezo wa wapinzani kufuta utambulisho wa mtandao. Njia hii ni nzuri zaidi wakati, wakati wa awamu ya "shina", muamala unavuka node ambayo husimba mawasiliano yake ya mtandao, kama Tor au P2P Transport V2.
 
-BIP156 haijaunganishwa kwenye Bitcoin Core na kwa sasa imeainishwa kama "iliyokataliwa". Mojawapo ya wasiwasi kuu na itifaki hii ni kwamba, wakati wa awamu ya shina, shughuli lazima zipelekwe kupitia nodi za kati kabla ya kuthibitishwa. Kama tulivyoona, katika muundo wa kawaida wa Bitcoin, kila nodi huthibitisha kwanza shughuli hiyo kabla ya kuitangaza kwa wenzao. Ikiwa muamala hauzingatii sheria za makubaliano ya nodi au sheria za usanifishaji wa ndani, nodi huipuuza na haisambazi. Utaratibu huu ni muhimu ili kukabiliana na mashambulizi ya DoS, kwani ni shughuli halali pekee zinazotangazwa kwenye mtandao mzima. Shughuli batili, zinazoweza kuzalishwa kwa wingi ili kupakia mtandao kupita kiasi, zinasimamishwa katika eneo la kwanza lililopatikana na hazienezi. Hatari kuu ya Dandelion ni kwamba itifaki hii mpya inaweza kuanzisha vekta mpya kwa mashambulizi ya DoS kwa kuruhusu miamala isiyo sahihi kutangazwa katika sehemu ya mtandao.
-
+BIP156 haijaunganishwa kwenye Bitcoin Core na kwa sasa imeainishwa kama "rejected" (iliyokataliwa). Mojawapo ya wasiwasi kuu na itifaki hii ni kwamba, wakati wa awamu ya shina, muamala lazima uwasilishwe kupitia node za kati kabla ya kuthibitishwa. Kama tulivyoona, katika muundo wa kawaida wa Bitcoin, kila node huthibitisha kwanza muamala huo kabla ya kuitangaza kwa wenzao. Ikiwa muamala hauzingatii sheria za makubaliano ya node au sheria za usanifishaji wa ndani, node huupuuza na hausambazi. Utaratibu huu ni muhimu ili kukabiliana na mashambulizi ya DoS, kwani ni muamala halali pekee zinazotangazwa kwenye mtandao mzima. Muamala batili, zinazoweza kuzalishwa kwa wingi ili kupakia mtandao kupita kiasi, zinasimamishwa katika eneo la kwanza lililopatikana na hazienezi. Hatari kuu ya Dandelion ni kwamba itifaki hii mpya inaweza kuanzisha vekta mpya kwa mashambulizi ya DoS kwa kuruhusu miamala isiyo sahihi kutangazwa katika sehemu ya mtandao.
 ### P2P usafiri V2
 
-P2P usafiri V2 ni itifaki nyingine ya mtandao iliyotolewa katika BIP324. Ni toleo jipya la itifaki ya usafiri ya Bitcoin P2P inayojumuisha usimbaji fiche nyemelezi ili kuboresha usiri na usalama wa mawasiliano kati ya nodi.
+P2P usafiri V2 ni itifaki nyingine ya mtandao iliyotolewa katika BIP324. Ni toleo jipya la itifaki ya usafiri ya Bitcoin P2P inayojumuisha usimbaji fiche nyemelezi ili kuboresha usiri na usalama wa mawasiliano kati ya node.
 
-Uboreshaji huu umeundwa kutatua matatizo kadhaa na toleo la msingi la itifaki ya P2P. Kwa upande mmoja, hufanya data iliyobadilishwa kutofautishwa na aina nyingine za data zinazozunguka kwenye mtandao kwa mwangalizi wa passiv. Lengo kuu ni kuzuia serikali, ISPs na watoa huduma za VPN kufuatilia kwa kiasi kikubwa watumiaji wa Bitcoin. Hii pia hufanya iwe vigumu zaidi kwa vyombo hivi kubaini kama mtumiaji wa Mtandao pia ni mtumiaji wa Bitcoin, yaani, iwapo anaendesha nodi kamili.
+Uboreshaji huu umeundwa kutatua matatizo kadhaa na toleo la msingi la itifaki ya P2P. Kwa upande mmoja, hufanya data iliyobadilishwa kutofautishwa na aina nyingine za data zinazozunguka kwenye mtandao kwa mwangalizi wa passiv. Lengo kuu ni kuzuia serikali, ISPs na watoa huduma za VPN kufuatilia kwa kiasi kikubwa watumiaji wa Bitcoin. Hii pia hufanya iwe vigumu zaidi kwa vyombo hivi kubaini kama mtumiaji wa mtandao pia ni mtumiaji wa Bitcoin, yaani, iwapo anaendesha node kamili.
 
-P2P V2 pia husaidia kupunguza hatari ya udhibiti na mashambulizi kwa kugundua ruwaza mahususi katika pakiti za data. Inatatiza na kugharimu zaidi utekelezaji wa aina mbalimbali za mashambulizi ya Sybil katika kiwango cha mtandao. Shambulio la Sybil hutokea wakati mwigizaji anaunda utambulisho mwingi wa uwongo ili kupata faida isiyo ya haki. Katika muktadha wa mtandao wa Bitcoin, hii mara nyingi hujidhihirisha kama mwigizaji anayedhibiti idadi kubwa ya nodi kamili na kuzitumia kwa ukali kuzidisha miunganisho. Mashambulizi ya Sybil yanaweza kuwa ya kawaida, kukusanya taarifa na kuathiri usiri wa mtumiaji, au tendaji, kwa njia ya mashambulizi ya Eclipse. Mwisho hutenga nodi mahususi kutoka kwa mtandao mwingine, ama kumdhibiti mtumiaji au kubadilisha data inayopokea. Hatimaye, P2P V2 pia hufanya mashambulizi ya *Man-In-The-Middle* (MITM) kuwa ghali zaidi na rahisi kugundua.
+P2P V2 pia husaidia kupunguza hatari ya udhibiti na mashambulizi kwa kugundua ruwaza mahususi katika pakiti za data. Inatatiza na kugharimu zaidi utekelezaji wa aina mbalimbali za mashambulizi ya Sybil katika kiwango cha mtandao. Shambulio la Sybil hutokea wakati mwigizaji anaunda utambulisho mwingi wa uwongo ili kupata faida isiyo ya haki. Katika muktadha wa mtandao wa Bitcoin, hii mara nyingi hujidhihirisha kama mwigizaji anayedhibiti idadi kubwa ya node kamili na kuzitumia kwa ukali kuzidisha miunganisho. Mashambulizi ya Sybil yanaweza kuwa ya kawaida, kukusanya taarifa na kuathiri usiri wa mtumiaji, au tendaji, kwa njia ya mashambulizi ya Eclipse. Mwisho hutenga node mahususi kutoka kwa mtandao mwingine, ama kumdhibiti mtumiaji au kubadilisha data inayopokea. Hatimaye, P2P V2 pia hufanya mashambulizi ya *Man-In-The-Middle* (MITM) kuwa ghali zaidi na rahisi kugundua.
 
-Usimbaji fiche unaotekelezwa na P2P V2 haujumuishi uthibitishaji, ili usiongeze utata usiohitajika, au kuathiri ukweli kwamba muunganisho kwenye mtandao unabaki bila ruhusa. Hata hivyo, itifaki hii mpya ya usafiri ya P2P inatoa usalama bora dhidi ya mashambulizi ya kawaida, na hufanya mashambulizi yanayoendelea kuwa ya gharama kubwa zaidi na kutambulika. Kuanzishwa kwa mtiririko wa data wa nasibu wa uwongo katika ujumbe wa mtandao hufanya iwe vigumu zaidi kwa wavamizi kuhakiki au kudhibiti mawasiliano.
+Usimbaji fiche unaotekelezwa na P2P V2 haujumuishi uthibitishaji, ili kuepuka kuongeza utata usiohitajika au kuathiri ukweli kwamba muunganisho kwenye mtandao unabaki bila ruhusa. Hata hivyo, itifaki hii mpya ya usafiri ya P2P inatoa usalama bora dhidi ya mashambulizi ya kawaida, na hufanya mashambulizi yanayoendelea kuwa ya gharama kubwa zaidi na rahisi kutambuliwa. Kuanzishwa kwa mtiririko wa data wa nasibu wa uwongo katika ujumbe wa mtandao hufanya iwe vigumu zaidi kwa wavamizi kuhakiki au kudhibiti mawasiliano.
 
-Usafiri wa P2P V2 ulijumuishwa kama chaguo (lilemazwa kwa chaguomsingi) katika toleo la Bitcoin Core 26.0, lilianza kutumika Desemba 2023. Kisha liliwashwa kwa chaguomsingi katika toleo la 27.0 la Aprili 2024. Inaweza kurekebishwa kwa chaguo la `v2transport=` katika faili ya usanidi.
+Usafiri wa P2P V2 ulijumuishwa kama chaguo (lililazimishwa kwa chaguomsingi) katika toleo la Bitcoin Core 26.0, lilianza kutumika Desemba 2023. Kisha liliwashwa kwa chaguomsingi katika toleo la 27.0 la Aprili 2024. Inaweza kurekebishwa kwa chaguo la `v2transport=` katika faili ya usanidi.
 
 ### Tor
 
-Suluhisho lingine rahisi ili kuzuia hatari ya kupoteza usiri kwa nodi ya mtandao ni kuiendesha kabisa chini ya Tor.
+Suluhisho lingine rahisi la kuzuia hatari ya kupoteza usiri kwa node ya mtandao ni kuiendesha kabisa chini ya Tor.
 
-Tor ni mtandao wa seva za upeanaji (nodi) ambazo huficha utambulisho wa asili ya miunganisho ya TCP kwenye Mtandao. Inafanya kazi kwa kuingiza data katika tabaka kadhaa za usimbaji fiche. Kila nodi ya relay huondoa safu ili kufichua Anwani (address) ya nodi inayofuata, hadi mahali pa mwisho kufikiwa. Mtandao wa Tor huhakikisha kutokujulikana kwa kuzuia nodi za kati zisijue asili na lengwa la data, hivyo kufanya iwe vigumu sana kwa mtazamaji kufuatilia shughuli ya mtumiaji.
-
+Tor ni mtandao wa seva za upeanaji (node) ambazo huficha utambulisho wa asili ya miunganisho ya TCP kwenye mtandao. Inafanya kazi kwa kuingiza data katika tabaka kadhaa za usimbaji fiche. Kila node ya relay huondoa safu ili kufichua Anwani (address) ya node inayofuata, hadi mahali pa mwisho kufikiwa. Mtandao wa Tor huhakikisha kutokujulikana kwa kuzuia node za kati zisijue asili na lengwa la data, hivyo kufanya iwe vigumu sana kwa mtazamaji kufuatilia miamala za mtumiaji.
 ![BTC204](assets/fr/209.webp)
 
-Tor sio tu husimba data, lakini pia huficha asili na marudio ya mawasiliano. Kwa kutumia Tor kwa mawasiliano kutoka kwa nodi yako ya kibinafsi, unaimarisha usiri wa miamala yako: ISP yako haiwezi kusimbua mawasiliano, na nodi nyingine katika mtandao wa Bitcoin haziwezi kutambua Anwani (address) ya IP ya nodi chanzo. Zaidi ya hayo, Tor pia huficha matumizi yako ya Bitcoin kutoka kwa ISP yako.
+Tor sio tu husimba data, bali pia huficha asili na marudio ya mawasiliano. Kwa kutumia Tor kwa mawasiliano kutoka kwa node yako ya kibinafsi, unaimarisha usiri wa muamala wako: ISP yako haiwezi kusimbua mawasiliano, na node nyingine katika mtandao wa Bitcoin haziwezi kutambua Anwani (address) ya IP ya node chanzo. Zaidi ya hayo, Tor pia huficha matumizi yako ya Bitcoin kutoka kwa ISP yako.
 
-Hatari kuu na njia hii ni kwamba Tor ni itifaki inayojitegemea ya Bitcoin. Ikiwa una nodi ya Bitcoin inayoendesha chini ya Tor na Tor itaacha kufanya kazi, basi nodi yako ya Bitcoin haitaweza tena kuwasiliana.
+Hatari kuu na njia hii ni kwamba Tor ni itifaki inayojitegemea ya Bitcoin. Ikiwa una node ya Bitcoin inayoendesha chini ya Tor na Tor itaacha kufanya kazi, basi node yako ya Bitcoin haitaweza tena kuwasiliana.
 
-Pia, ni muhimu kutambua kwamba mawasiliano kwenye Tor ni polepole. Hali hii ya kusubiri inakera hasa wakati wa uzinduzi wa awali wa nodi, kwani IBD (*Upakuaji wa Kizuizi cha Awali*) inahitaji mawasiliano mengi. Kwa hivyo, maingiliano yako ya awali na mtandao wa Bitcoin inaweza kuchukua muda mrefu zaidi kwa kutumia Tor. Pia inawezekana kutekeleza IBD kwenye clearnet, kisha uwashe Tor kama hatua ya pili. Ingawa njia hii inafichua kuwepo kwa nodi yako ya Bitcoin kwa Mtoa huduma wako wa Mtandao, inalinda taarifa yako ya muamala wa kibinafsi mara tu unapohamia Tor.
+Pia, ni muhimu kutambua kwamba mawasiliano kwenye Tor ni polepole. Hali hii ya kusubiri inakera hasa wakati wa uzinduzi wa awali wa node, kwani IBD (*Initial Block Download* ) inahitaji mawasiliano mengi. Kwa hivyo, maingiliano yako ya awali na mtandao wa Bitcoin yanaweza kuchukua muda mrefu zaidi kwa kutumia Tor. Pia, inawezekana kutekeleza IBD kwenye clearnet, kisha uwashe Tor kama hatua ya pili. Ingawa njia hii inafichua kuwepo kwa node yako ya Bitcoin kwa mtoa huduma wako wa mtandao, inalinda taarifa yako ya muamala wa kibinafsi mara tu unapohamia Tor.
 
 Baada ya kuchunguza mbinu mbalimbali za usiri katika kiwango cha mtandao, katika sura chache zinazofuata ningependa pia kukujulisha suluhisho mbili za kifahari za kuepuka kutumia tena Anwani (address): BIP47 na Malipo ya Kimya.
 
@@ -2989,17 +2987,17 @@ Baada ya kuchunguza mbinu mbalimbali za usiri katika kiwango cha mtandao, katika
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-Kama tulivyoona katika sehemu ya 3, kutumia tena Anwani (address) ni kikwazo kikubwa kwa usiri wa mtumiaji kwenye itifaki ya Bitcoin. Ili kupunguza hatari hizi, inashauriwa kwa kuzalisha kupokea Anwani (address) bila malipo kwa kila malipo mapya yanayopokelewa katika Pochi. Ingawa kutengeneza Anwani (address) mpya sasa kumerahisishwa na matumizi ya programu za kisasa na pochi za kubainisha viwango vya juu, zoezi hili linaweza kuonekana kuwa lisilofaa.
+Kama tulivyoona katika Sehemu ya 3, kutumia tena Anwani (address) ni kikwazo kikubwa kwa usiri wa mtumiaji kwenye itifaki ya Bitcoin. Ili kupunguza hatari hizi, inashauriwa kuzalisha Anwani (address) mpya bila malipo kwa kila malipo jipya yanayopokelewa katika wallet. Ingawa kutengeneza Anwani (address) mpya sasa kumerahisishwa na matumizi ya programu za kisasa na wallets za kiwango cha juu, zoezi hili linaweza kuonekana kuwa lisilofaa.
 
 ![BTC204](assets/fr/210.webp)
 
-Katika mfumo wa benki wa kitamaduni, kwa mfano, tumezoea kugawana IBAN yetu, ambayo inabaki kuwa sawa. Mara tu tunapompa mtu, anaweza kututumia malipo mengi bila kuwasiliana nasi tena. Neo-benki pia hutoa uwezekano wa kisasa zaidi, kama vile matumizi ya barua pepe za kipekee kwenye PayPal au RevTags on Revolut. Hata nje ya nyanja ya kifedha, vitambulishi vyetu vya kila siku kama vile Anwani (address) ya posta, nambari ya simu na barua pepe Anwani (address) pia ni ya kipekee na ya kudumu. Si lazima tuyasasishe kwa kila mwingiliano mpya.
+Katika mfumo wa benki wa kitamaduni, kwa mfano, tumezoea kugawana IBAN yetu, ambayo inabaki kuwa sawa. Mara tu tunapompa mtu, anaweza kututumia malipo mengi bila kuwasiliana nasi tena. Neo-benki pia hutoa uwezekano wa kisasa zaidi, kama vile matumizi ya barua pepe za kipekee kwenye PayPal au RevTags kwenye Revolut. Hata nje ya nyanja ya kifedha, vitambulishi vyetu vya kila siku kama vile Anwani (address) ya posta, nambari ya simu, na Anwani (address) ya barua pepe pia ni vya kipekee na vya kudumu. Si lazima tuyasasishe kwa kila mwingiliano mpya.
 
 ![BTC204](assets/fr/211.webp)
 
 Hata hivyo, Bitcoin inafanya kazi tofauti: Anwani (address) mpya inayopokea lazima itolewe kwa kila shughuli inayoingia. Maelewano haya kati ya urahisi wa utumiaji na usiri unarejea kwenye chimbuko la Karatasi Nyeupe ya Bitcoin. Mara tu baada ya kuchapishwa kwa toleo la kwanza la hati yake mwishoni mwa 2008, Satoshi Nakamoto alikuwa tayari inatutahadharisha juu ya hatari hii:
 
-**Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila shughuli ili kuwatenganisha na mmiliki wa kawaida.
+**Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila shughuli ili kuwatenganisha na mmiliki wa kawaida**.
 
 Kuna njia nyingi za kupokea malipo mengi kwenye kitambulisho kimoja bila kutumia Anwani (address) tena. Kila moja ina faida na hasara zake. Miongoni mwa mbinu hizi ni BIP47, pendekezo lililotayarishwa na Justus Ranvier na kuchapishwa mwaka wa 2015. Pendekezo hili linalenga kuunda misimbo ya malipo inayoweza kutumika tena inayowezesha miamala mingi kutekelezwa dhidi ya mtu yuleyule, huku ikiepuka kutumia tena Address. Kwa kifupi, BIP47 inalenga kutoa mfumo wa malipo kuwa rahisi kama kitambulisho cha kipekee, huku ikihifadhi usiri wa miamala.
 

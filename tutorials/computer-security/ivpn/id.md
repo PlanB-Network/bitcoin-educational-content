@@ -4,7 +4,7 @@ description: Mengatur VPN yang dibayar dengan bitcoin
 ---
 ![cover](assets/cover.webp)
 
-VPN ("*Virtual Private Network*") adalah layanan yang membangun koneksi yang aman dan terenkripsi antara ponsel atau komputer Anda dengan server jarak jauh yang dikelola oleh penyedia VPN.
+VPN ("*Virtual Private Network*") adalah layanan yang membangun koneksi aman dan terenkripsi antara ponsel atau komputer Anda dengan server jarak jauh yang dikelola oleh penyedia VPN.
 
 Secara teknis, ketika terhubung ke VPN, lalu lintas internet Anda dialihkan melalui terowongan terenkripsi ke server VPN. Proses ini membuatnya sulit bagi pihak ketiga, seperti Penyedia Layanan Internet (ISP) atau aktor jahat, untuk mengintersepsi atau membaca data Anda. Server VPN kemudian bertindak sebagai perantara yang menghubungkan ke layanan yang ingin Anda gunakan atas nama Anda. Ini memberikan alamat IP baru ke koneksi Anda, yang membantu menyembunyikan alamat IP asli Anda dari situs yang Anda kunjungi. Namun, berbeda dengan apa yang mungkin disarankan oleh beberapa iklan online, menggunakan VPN tidak memungkinkan Anda untuk menjelajah internet secara anonim, karena memerlukan bentuk kepercayaan pada penyedia VPN yang dapat melihat seluruh lalu lintas Anda.
 ![IVPN](assets/fr/01.webp)

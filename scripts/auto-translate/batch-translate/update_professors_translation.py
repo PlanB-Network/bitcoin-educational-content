@@ -22,7 +22,7 @@ def get_supported_languages() -> List[str]:
 
 def content_exist(filenames: List[str], lang: str) -> bool:
     """Check if content exists for a specific language in given filenames."""
-    return any(f.endswith(f"{lang}.md") or f.endswith(f"{lang}.yml") for f in filenames)
+    return any(f.endswith(f"{lang}.yml") for f in filenames)
 
 def create_txt_to_en_from(lang: str) -> None:
     """Create a list of files that need translation from given language to English."""

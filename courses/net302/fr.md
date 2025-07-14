@@ -22,7 +22,7 @@ NET 302 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simpleme
 Rejoignez-nous et transformez vos connaissances en véritable expertise opérationnelle !
 
 ___
-Ce cours NET 302 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International (CC BY-SA 4.0). Des modifications substantielles ont été apportées à la version originale par Loïc Morel : le texte original a été intégralement réécrit, développé et enrichi afin d’offrir un contenu actualisé et approfondi, tout en conservant l’esprit pédagogique de la version initiale de Philippe Pierre.
+Ce cours NET 302 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). Des modifications substantielles ont été apportées à la version originale par Loïc Morel : le texte original a été intégralement réécrit, développé et enrichi afin d’offrir un contenu actualisé et approfondi, tout en conservant l’esprit pédagogique de la version initiale de Philippe Pierre. Les schémas ont également été refaits.
 ___
 
 +++
@@ -603,7 +603,7 @@ Exemple pratique : si l’on veut vérifier quelle carte réseau correspond à l
 
 ```bash
 arp –a 192.168.1.5
-````
+```
 
 La sortie affichera notamment l’adresse physique (MAC) associée, la nature de l’entrée (statique ou dynamique) et l’interface concernée.
 
@@ -729,7 +729,7 @@ BROADCAST=192.168.0.255
 IPADDR=192.168.0.1
 NETWORK=192.168.0.0
 ONBOOT=yes
-````
+```
 
 Une fois le pont virtuel en place, il est nécessaire d’activer le routage IP et de configurer la traduction de ports avec `iptables` :
 
@@ -760,7 +760,7 @@ Prenons un premier exemple concret : pour activer une interface Ethernet nommée
 
 ```shell
 ifconfig eth0 inet 192.168.1.2 netmask 255.255.255.0
-````
+```
 
 Une fois l’adresse configurée, l’interface doit être activée pour que le système l’exploite effectivement. Cela se fait grâce aux options `up` ou `down` :
 
@@ -855,7 +855,7 @@ Les modes de bonding définissent le comportement du regroupement de liens. Il e
 
 ```shell
 alias bond0 bonding
-````
+```
 
 ```shell
 options bond0 miimon=100 mode=5
@@ -1218,24 +1218,6 @@ Ce bloc couvre donc un ensemble de 8 sous-réseaux /64, chacun pouvant accueilli
 
 La souplesse offerte par cette notation permet une planification fine de l’espace d’adressage, aussi bien dans les grandes infrastructures que dans les réseaux domestiques ou les environnements virtualisés. Elle favorise également l’agrégation des routes, réduisant la charge sur les routeurs et facilitant le déploiement à grande échelle.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Paquets IPv6 et en-têtes
 
 Le format d’un paquet IPv6 se distingue de son prédécesseur IPv4 par sa simplicité apparente et sa grande extensibilité. Un datagramme IPv6 débute toujours par un en-tête de taille fixe de 40 octets, qui contient les informations essentielles au routage du paquet. Ce choix bien plus épuré que l’en-tête IPv4 (qui pouvait varier de 20 à 60 octets) permet de traiter les paquets plus rapidement et plus efficacement dans les routeurs.
@@ -1244,36 +1226,34 @@ Toutefois, IPv6 ne sacrifie pas les fonctionnalités : au lieu d’intégrer d
 
 Certains de ces en-têtes suivent un format rigide, mais d'autres sont conçus pour contenir un nombre variable d’options. Dans ces cas-là, chaque option est encodée selon un triplet `{Type, Longueur, Valeur}` :
 
-- Le **champ Type** (1 octet) indique la nature de l’option.
-- Les **deux premiers bits du Type** précisent la conduite à adopter par les routeurs si l’option n’est pas reconnue :
-  - Ignorer l’option et continuer le traitement.
-  - Supprimer le datagramme.
-  - Supprimer le datagramme et retourner un message ICMP d’erreur à la source.
-  - Supprimer le datagramme sans notification (dans le cas de paquets multicast).
-- Le **champ Longueur** (1 octet) spécifie la taille du champ Valeur, compris entre 0 et 255 octets.
-- Le **champ Valeur** contient les données associées à l’option.
+- Le champ "Type" (1 octet) indique la nature de l’option ;
+- Les deux premiers bits du "Type" précisent la conduite à adopter par les routeurs si l’option n’est pas reconnue :
+	- Ignorer l’option et continuer le traitement,
+	- Supprimer le datagramme,
+	- Supprimer le datagramme et retourner un message ICMP d’erreur à la source,
+	- Supprimer le datagramme sans notification (dans le cas de paquets multicast).
+- Le champ "Longueur" (1 octet) spécifie la taille du champ "Valeur", compris entre 0 et 255 octets ;
+- Le champ "Valeur" contient les données associées à l’option.
 
 Voici un aperçu des différents types d’en-têtes d’extension définis par IPv6.
 
-#### En-tête Hop-by-Hop (pas-à-pas)
+#### En-tête Hop-by-Hop
 
-Cet en-tête, s’il est présent, est toujours placé immédiatement après l’en-tête de base. Il contient des informations destinées à être lues par **chaque routeur** traversé, ce qui le distingue des autres en-têtes généralement traités uniquement par la destination. Il est typiquement utilisé pour signaler des paramètres globaux ou déclencher des traitements spécifiques tout au long du trajet.
+Cet en-tête, s’il est présent, est toujours placé immédiatement après l’en-tête de base. Il contient des informations destinées à être lues par chaque routeur traversé, ce qui le distingue des autres en-têtes généralement traités uniquement par la destination. Il est typiquement utilisé pour signaler des paramètres globaux ou déclencher des traitements spécifiques tout au long du trajet.
 
 ![Image](assets/fr/047.webp)
 
 #### En-tête de routage
 
 L’en-tête de routage permet de spécifier une liste d’adresses intermédiaires par lesquelles le paquet doit transiter. On distingue deux grandes approches :
-
-- **Routage strict** : le chemin exact est déterminé à l’avance.
-- **Routage lâche** : seules certaines étapes obligatoires sont spécifiées.
+- Le routage strict : le chemin exact est déterminé à l’avance ;
+- Le routage lâche : seules certaines étapes obligatoires sont spécifiées.
 
 Les quatre premiers champs de cet en-tête sont les suivants :
-
-1. **Next Header** : identifie le type de l’en-tête suivant.
-2. **Routing Type** : définit la méthode de routage (généralement `0`).
-3. **Segments Left** : nombre de segments restant à parcourir.
-4. **Address[n]** : liste des adresses intermédiaires.
+- **Next Header** : identifie le type de l’en-tête suivant ;
+- **Routing Type** : définit la méthode de routage (généralement `0`) ;
+- **Segments Left** : nombre de segments restant à parcourir ;
+- **Address[n]** : liste des adresses intermédiaires.
 
 Le champ "Segments Left" débute à zéro, puis est incrémenté à chaque étape pour indiquer quelle adresse doit être atteinte en priorité.
 
@@ -1281,12 +1261,11 @@ Le champ "Segments Left" débute à zéro, puis est incrémenté à chaque étap
 
 #### En-tête de fragmentation
 
-Contrairement à IPv4, où les routeurs pouvaient fragmenter les paquets, **seul l’hôte source est autorisé à fragmenter** les datagrammes en IPv6. Cela permet d’alléger la charge des routeurs intermédiaires et d’optimiser la transmission.
+Contrairement à IPv4, où les routeurs pouvaient fragmenter les paquets, seul l’hôte source est autorisé à fragmenter les datagrammes en IPv6. Cela permet d’alléger la charge des routeurs intermédiaires et d’optimiser la transmission.
 
 Tous les nœuds IPv6 doivent néanmoins pouvoir transmettre des datagrammes d’au moins 576 octets. Si un datagramme trop volumineux ne peut être acheminé, le routeur renvoie un message ICMPv6 à la source, l’informant que le paquet est trop grand. L’hôte source ajuste alors sa taille.
 
 L’en-tête de fragmentation contient les champs suivants :
-
 - **Identification** : identifiant du datagramme pour reconstitution.
 - **Fragment Offset** : position du fragment dans le datagramme original.
 - **M flag** : indique s’il reste d’autres fragments.
@@ -1295,7 +1274,7 @@ L’en-tête de fragmentation contient les champs suivants :
 
 #### En-tête d’authentification (AH)
 
-Cet en-tête vise à sécuriser les communications en garantissant **l’authenticité de l’émetteur** et **l’intégrité des données**. Il est utilisé notamment avec le protocole IPsec. Grâce à un code de vérification (authentificateur), le destinataire peut s’assurer que le message provient bien de l’expéditeur attendu et qu’il n’a pas été altéré en cours de route.
+Cet en-tête vise à sécuriser les communications en garantissant l’authenticité de l’émetteur et l’intégrité des données. Il est utilisé notamment avec le protocole IPsec. Grâce à un code de vérification (authentificateur), le destinataire peut s’assurer que le message provient bien de l’expéditeur attendu et qu’il n’a pas été altéré en cours de route.
 
 En cas de tentative de modification frauduleuse, le code d’authentification ne correspondra plus, et le datagramme pourra être rejeté. Ce mécanisme permet également de lutter contre les attaques par rejeu, en détectant les duplications non autorisées.
 
@@ -1305,48 +1284,82 @@ En cas de tentative de modification frauduleuse, le code d’authentification ne
 
 Cet en-tête est destiné uniquement au destinataire final du datagramme. Il permet d’ajouter des options ou des métadonnées propres à l’application, sans que les routeurs intermédiaires n’en tiennent compte.
 
-Initialement, aucune option de ce type n’était définie dans le protocole. Toutefois, cet en-tête a été introduit dès la conception d’IPv6 pour permettre l’ajout futur d’extensions sans modifier la structure globale des paquets. L’option nulle, par exemple, sert uniquement à **compléter l’en-tête jusqu’à un multiple de 8 octets**, pour des raisons d’alignement mémoire.
+Initialement, aucune option de ce type n’était définie dans le protocole. Toutefois, cet en-tête a été introduit dès la conception d’IPv6 pour permettre l’ajout futur d’extensions sans modifier la structure globale des paquets. L’option nulle, par exemple, sert uniquement à compléter l’en-tête jusqu’à un multiple de 8 octets, pour des raisons d’alignement mémoire.
 
 ![Image](assets/fr/051.webp)
 
 
 La conception des paquets IPv6 repose donc sur une séparation claire entre un en-tête de base minimaliste et des en-têtes d’extension optionnels, introduits de manière modulaire. Cette architecture garantit à la fois la performance du traitement standard et la souplesse nécessaire pour faire évoluer le protocole, intégrer des mécanismes de sécurité, de routage complexe ou de qualité de service, tout en maintenant la compatibilité avec les infrastructures futures.
 
-
-
-
-
-
-
-
-
-
-
-
 ## Relation entre IPv6 et DNS
-<chapterId>4a30c17b-873a-428f-8efb-a2b31959849f</chapterId>
 
-Au sein d’un annuaire DNS, les noms de domaines sont associés à une adresse IPv6 grâce à l’enregistrement AAAA :
+Dans les réseaux modernes, le DNS (*Domain Name System*) permet la traduction des noms de domaine en adresses IP utilisables par les machines. Avec l’introduction d’IPv6, le DNS a naturellement dû s’adapter pour supporter les nouvelles adresses sur 128 bits, tout en maintenant la compatibilité avec IPv4. Cette coexistence est importante dans les environnements dual-stack où les deux versions du protocole IP cohabitent.
 
-```shell
-ipv6.mydmn.org.         IN      AAAA    2001:66c:2a8:22::c100:68b
-```
+### Enregistrements DNS spécifiques à IPv6
 
-Les noms d’hôtes, quant à eux, peuvent être associés à une ou plusieurs adresses IPv6 et/ou IPv4 (n’oublions pas qu’il faut rester compatible avec les protocoles existants, autant que faire se peut). La résolution inverse d’un nom d’hôte s’effectue grâce à l’indicateur PTR, dans le domaine ip6.arpa et en inversant les octets de la forme canonique. Soit, d’après l’exemple précédent :
+Pour associer un nom de domaine à une adresse IPv6, le DNS utilise un enregistrement de type AAAA (*quad-A*), par analogie avec le type "A" utilisé pour les adresses IPv4. L’enregistrement AAAA permet donc d’indiquer qu’un nom de domaine correspond à une adresse IPv6 donnée. Voici un exemple concret :
 
 ```shell
-b.8.6.0.0.1.c.0.0.0.0.0.0.0.0.2.2.8.a.2.c.6.6.1.0.0.2.ip6.arpa IN PTR         ipv6.mydmn.org.
+ipv6.mydmn.org.         IN      AAAA    2001:66c:2a8:22::c100:68b
 ```
 
-**ATTENTION** : Les requêtes émises, peuvent être transmises à la fois par IPv6 et par IPv4 et la réponse du serveur DNS, ne doit en aucun cas dépendre du protocole utilisé par le client. Lorsque les adresses IPv4 et IPv6 existent et sont toutes deux utilisables pour contacter une machine distante, la RFC6724 permet de préciser la stratégie à employer concernant le choix de l’adresse sélectionnée.
+Cet enregistrement indique que le domaine `ipv6.mydmn.org` est associé à l’adresse IPv6 `2001:66c:2a8:22::c100:68b`. Il est tout à fait possible, et même recommandé dans un contexte de compatibilité, d’associer un même nom de domaine à plusieurs adresses IP, qu’elles soient de type IPv4 (via un enregistrement A) ou IPv6 (via un enregistrement AAAA). Cela permet aux clients compatibles IPv6 de préférer cette version du protocole, tout en assurant le fonctionnement pour ceux qui ne supportent qu’IPv4.
 
-**RAPPEL** : en règle générale, le choix privilégie les adresses de type IPv6, à moins que l’administrateur du système n’en décide autrement. Lorsqu’une adresse IPv6 doit être utilisée comme nom d’hôte, pour une url, elle doit obligatoirement être encadrée par des crochets : [] afin de ne pas provoquer une confusion avec les ‘:’ de séparation de l’Uri et du numéro de port de service de l’url.
+Par ailleurs, le DNS prend également en charge la résolution inverse, c’est-à-dire la correspondance entre une adresse IP et un nom de domaine. Dans le cas d’IPv6, cette opération utilise des enregistrements de type PTR placés dans la zone `ip6.arpa`. Cette zone est spécifiquement réservée pour les résolutions inverses IPv6, à l’instar de la zone `in-addr.arpa` pour IPv4.
+
+### Résolution inverse
+
+La résolution inverse d’une adresse IPv6 suit une règle stricte : on transforme l’adresse en notation hexadécimale complète (16 octets, soit 32 caractères), on inverse l’ordre de chaque chiffre hexadécimal, et on les sépare par des points, en suffixant le tout avec `ip6.arpa`. Par exemple, pour l’adresse suivante :
+
+```shell
+2001:66c:2a8:22::c100:68b
+```
+
+Sa version complète serait :
+
+```shell
+2001:066c:02a8:0022:0000:0000:c100:068b
+```
+
+Et sa résolution inverse se présente ainsi :
+
+```shell
+b.8.6.0.0.1.c.0.0.0.0.0.0.0.0.2.2.8.a.2.c.6.6.1.0.0.2.ip6.arpa. IN PTR    ipv6.mydmn.org.
+```
+
+Cette méthode garantit l’unicité et la standardisation des résolutions inverses dans l’espace d’adressage IPv6.
+
+**Attention** : les requêtes DNS peuvent être envoyées indifféremment sur une liaison IPv4 ou IPv6. Le protocole de transport utilisé n’a aucune influence sur le type de réponse attendue. En d’autres termes, un client connecté en IPv6 peut tout à fait demander une adresse IPv4, et inversement. Le serveur DNS doit donc fournir les informations disponibles, sans se baser sur le protocole utilisé par le client pour la requête.
+
+Le choix entre une adresse IPv4 ou IPv6 à utiliser pour se connecter à une machine cible, lorsqu’un nom d’hôte est associé aux deux types d’adresses, est régi par la RFC 6724. Cette norme définit un algorithme de sélection des adresses basé sur des critères tels que la proximité, la portée, ou la préférence explicite de certains préfixes. Par défaut, IPv6 est généralement prioritaire sur IPv4, sauf configuration contraire imposée par l’administrateur du système ou du réseau.
+
+**Rappel important** : lorsqu’une adresse IPv6 doit être utilisée dans une URL (*Uniform Resource Locator*), elle doit impérativement être encadrée par des crochets (`[]`). Cela permet d’éviter toute confusion entre les deux-points (`:`) utilisés pour séparer les segments de l’adresse IPv6 et ceux qui sont utilisés dans l’URL pour séparer le nom de l’hôte du port de service.
+
+Exemple valide :
+
+```shell
+http://[2001:db8::1]:8080
+```
+
+Cela garantit un traitement correct de l’URL, aussi bien par les navigateurs que par les serveurs web.
+
+L’intégration d’IPv6 dans le système DNS repose donc sur de nouveaux types d’enregistrements, une méthode stricte pour les résolutions inverses, et des règles précises de sélection et de formatage qui assurent la compatibilité et la cohérence du routage.
 
 ### Synthèse de la partie
 
-On a vu comment une adresse IPv6 était construite et qu’elles étaient les règles régissant la distribution de ces adresses. De même, on s’est intéressé à la constitution de blocs d’adresses permettant une répartition (effectuée par L’IANA) selon les _Registres Internet  régionaux_ (les _RIR_) dispatchés vers les fournisseurs d’accès à Internet, qui eux-mêmes distribuent les réseaux disponibles à leurs clients.
+Dans cette partie, nous avons exploré en détail les principes fondamentaux qui régissent l’adressage IPv6. Nous avons d’abord expliqué la manière dont une adresse IPv6 est structurée, en insistant sur sa longueur de 128 bits, sa notation hexadécimale, ainsi que sur les différentes règles de simplification d’écriture permettant de raccourcir certaines séquences répétitives de zéros. Cette structure permet à IPv6 de surmonter les limitations de l’espace d’adressage d’IPv4, tout en apportant des garanties de scalabilité et de hiérarchisation efficaces.
 
-Si les adresses IPv4 et IPv6 sont incompatibles entre elles, il reste que les protocoles TCP, UDP, BIND et ICMP sont adaptés à la nouvelle déclinaison de l’adressage IPv6. Cela signifie alors que l’on peut bien évidemment continuer d’utiliser les outils déjà existants mais en utilisant leur version propre à l’espace d’adressage IPv6.
+Nous avons ensuite examiné les différentes catégories d’adresses IPv6 : unicast, anycast et multicast, en détaillant pour chacune leurs portées, leur utilisation typique et leur représentation dans l’espace d’adressage.
+
+Par la suite, nous avons étudié les méthodes d’assignation des adresses IPv6 dans un réseau local, que ce soit via une configuration manuelle, via le protocole DHCPv6, ou encore grâce à des mécanismes d’autoconfiguration sans état comme ceux proposés par NDP. Ces approches permettent aux équipements de générer automatiquement leur propre adresse à partir du préfixe reçu et de leur adresse MAC (via EUI-64), tout en assurant une certaine flexibilité en matière de gestion de durée de vie et de confidentialité.
+
+Nous avons également détaillé la manière dont les blocs d’adresses sont alloués, en partant de l’IANA, qui les distribue aux cinq RIR (*Registres Internet Régionaux*), puis aux fournisseurs d’accès, qui les redistribuent à leurs clients sous forme de sous-réseaux (souvent en /48, permettant 65536 sous-réseaux /64). La distinction entre les blocs _Provider Aggregatable_ (PA) et _Provider Independent_ (PI) permet de gérer des situations de _multihoming_ ou de changement de fournisseur.
+
+Nous avons vu que le DNS s’adapte à IPv6 grâce à l’enregistrement AAAA et que les mécanismes de résolution inverse utilisent une nouvelle structure dans la zone `ip6.arpa`. Le protocole DNS reste indépendant du protocole de transport utilisé (IPv4 ou IPv6), ce qui assure une parfaite interopérabilité dans un environnement dual-stack.
+
+IPv6 n’est donc pas une simple évolution de son prédécesseur, mais bien une refonte en profondeur du système d’adressage, pensée pour les défis actuels et futurs du réseau mondial.
+
+Dans la dernière partie de ce cours NET 302, nous allons passer à la pratique et nous intéresser aux outils de diagnostic réseau.
 
 
 # Outils de diagnostic réseau

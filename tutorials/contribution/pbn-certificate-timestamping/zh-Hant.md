@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Network 證書和文憑的時間戳記
+name: Plan ₿ Network 文憑時間戳
 description: 瞭解 Plan ₿ Network 如何為您的證書和文憑簽發可驗證的證明
 ---
 

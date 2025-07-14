@@ -1,0 +1,21 @@
+id: 2e0e6ffe-0f38-42d3-94ed-da2242fc88bb
+year: 2015-03
+name: Scaling Bitcoin 2015
+builder: Scaling Bitcoin
+location: Hong Kong
+language:
+- en
+links:
+  twitter: https://x.com/ScalingBitcoin
+  website: https://scalingbitcoin.org/
+tags:
+- adoption
+#proofreading_metadata
+original_language: en
+proofreading:
+- language: en
+  last_contribution_date: '2025-06-19'
+  urgency: 0
+  contributors_id:
+  - jramos0
+  reward: 0

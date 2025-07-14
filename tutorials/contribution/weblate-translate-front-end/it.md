@@ -14,7 +14,7 @@ In questo tutorial ti mostreremo come contribuire facilmente alla traduzione deg
 
 Per tradurre i contenuti didattici, utilizziamo [l'intelligenza artificiale] (https://github.com/Asi0Flammeus/LLM-Translator). Poi, per correggere gli eventuali errori presenti in questi file, invitiamo i correttori di bozze a contribuire. Se desideri correggere alcuni contenuti, consulta il seguente tutorial:
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Se invece sei interessato a tradurre gli elementi statici del sito web (esclusi i contenuti didattici), sei nel posto giusto! Per tradurre efficacemente il frontend, utilizziamo lo strumento Weblate, che è molto semplice da usare e facilita l'approccio alla traduzione.
 
@@ -161,3 +161,4 @@ Quando si è pronti per iniziare a tradurre, tornare a questa esercitazione e pa
 ![weblate](assets/23.webp)
 
 Grazie in anticipo per il tuo contributo alla traduzione di Plan ₿ Network! Se hai domande o commenti specifici da farci, non esitare a contattarci tramite il [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+

@@ -1,0 +1,25 @@
+id: 46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+credit_link: https://www.it-connect.fr/pi-hole-un-bloqueur-de-pubs-pour-tout-votre-reseau/
+
+tags:
+  - network-security
+  - good-practice
+  - DIY-IT
+
+category: communication
+
+level: advanced
+
+professor_id: bcc40a22-9d0d-4596-a1bd-2a00da7f8d64
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-05
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

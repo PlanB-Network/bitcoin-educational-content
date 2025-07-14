@@ -1,0 +1,21 @@
+id: 7d3a1020-465e-40ec-9991-b28f7526e444
+year: 2016-10
+name: Scaling Bitcoin 2016 Milan
+builder: Scaling Bitcoin
+location: Milan, Italy
+language:
+- en
+links:
+  website: https://scalingbitcoin.org/
+tags:
+- development
+- consensus
+#proofreading_metadata
+original_language: en
+proofreading:
+- language: en
+  last_contribution_date: '2025-06-11'
+  urgency: 0
+  contributors_id:
+  - jramos0
+  reward: 0

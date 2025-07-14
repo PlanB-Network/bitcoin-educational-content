@@ -1,0 +1,4 @@
+description: |
+  ThunderHub är en plattform med öppen källkod som gör att du kan hantera och övervaka din Lightning-nod från vilken enhet som helst.
+  
+  Några av de viktigaste funktionerna inkluderar att skicka och ta emot både Lightning- och On-Chain-betalningar, ombalanseringsalternativ, användning av LN-betalning och LN-uttag från hemsidan och hantering av kanaler för optimal likviditet. ThunderHub är integrerad med BTCPay, RaspiBlitz, MyNode, Voltage, Umbrel och Start9s EmbassyOS, och den stöder de senaste LND-nodversionerna. Plattformen tillhandahåller också transaktionsrapporter och detaljer om vidarebefordrade betalningar och erbjuder både natt- / dagläge för användarvänlighet.

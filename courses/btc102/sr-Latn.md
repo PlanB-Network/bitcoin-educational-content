@@ -2111,7 +2111,7 @@ Kupovina Bitcoin bez otkrivanja vašeg identiteta je opcija za one koji daju pre
 - P2P Platforms**: Platforme kao što su Bisq, RoboSats i Peach omogućavaju razmenu između privatnih pojedinaca bez potrebe za verifikacijom identiteta, koristeći escrow sisteme za osiguranje transakcija. Ove platforme i dalje nose rizik od krađe ako druga strana ne sarađuje, ali je rizik minimiziran zahvaljujući escrow uslugama.
 - Bitcoin Automatske mašine za novac (bankomati)**: Neki bankomati (kiosci) omogućavaju kupovinu Bitcoin gotovinom, iako su naknade obično visoke, a neki zahtevaju verifikaciju identiteta za veće transakcije.
 - Platforme Exchange bez KYC-a**: Neke platforme, posebno u Švajcarskoj, omogućavaju kupovinu malih količina Bitcoin bez potrebe za verifikacijom identiteta.
-- Mining**: Pojedinci mogu rudati Bitcoin. Starije ili manje mašine su dostupne, pružajući netradicionalan način za sticanje Bitcoin bez KYC. Pridruživanjem Mining pool, možete ostvariti redovne isplate, čak i sa osnovnom opremom. Za više informacija, [pogledajte naše Mining tutorijale](https://planb.network/tutorials/Mining).
+- Mining**: Pojedinci mogu rudati Bitcoin. Starije ili manje mašine su dostupne, pružajući netradicionalan način za sticanje Bitcoin bez KYC. Pridruživanjem Mining pool, možete ostvariti redovne isplate, čak i sa osnovnom opremom. Za više informacija, [pogledajte naše Mining tutorijale](https://planb.network/tutorials/mining).
 - Plaćanja / Plata u bitkoinima**: Ako vodite posao, možete prihvatiti Bitcoin kao plaćanje. Ako ste zaposleni, u zavisnosti od vaše jurisdikcije, možda ćete moći da tražite da budete plaćeni u Bitcoin. Ove metode vam omogućavaju da nabavite Bitcoin bez KYC.
 
 
@@ -3059,7 +3059,7 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-4521-a750-edefb0747db3
+https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
@@ -3654,3 +3654,4 @@ Još jednom, čestitam na tome koliko ste daleko stigli. I zapamtite; moj primar
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

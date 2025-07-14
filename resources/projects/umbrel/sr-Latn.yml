@@ -1,0 +1,4 @@
+description: |
+  Umbrel je operativni sistem otvorenog koda koji omogućava korisnicima da pokrenu lični server u svom domu, pružajući pogodnost cloud skladištenja uz privatnost i kontrolu lokalnog skladištenja podataka.
+  
+  Korisnici mogu sami hostovati razne aplikacije, uključujući Nextcloud za privatno cloud skladištenje, PhotoPrism za skladištenje fotografija i video zapisa, i lične Bitcoin i Lightning čvorove za Bitcoin transakcije. Umbrel takođe ima svoju prodavnicu aplikacija za dodatne aplikacije koje se sami hostuju, mogućnosti blokiranja reklama i integracije za automatizaciju doma.

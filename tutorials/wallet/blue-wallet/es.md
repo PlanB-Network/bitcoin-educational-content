@@ -11,7 +11,7 @@ Empezar a utilizar Bitcoin parece ser un gran reto para las personas escépticas
 
 
 
-En este tutorial vamos a echar un vistazo a Blue Wallet, una Bitcoin Wallet sencilla pero muy eficaz que te permite gestionar tus bitcoins personalmente y también crear cooperativas de gestión basadas en [Multisig](https://planb.network/resources/glossary/Multisig) (no te preocupes, volveremos a ello).
+En este tutorial vamos a echar un vistazo a Blue Wallet, una Bitcoin Wallet sencilla pero muy eficaz que te permite gestionar tus bitcoins personalmente y también crear cooperativas de gestión basadas en [Multisig](https://planb.network/resources/glossary/multisig) (no te preocupes, volveremos a ello).
 
 
 
@@ -264,7 +264,7 @@ Al validar tu transacción, necesitarás una segunda firma para aprobar el gasto
 
 
 
-El segundo firmante de Wallet, si también es usuario, puede firmar la transacción aunque esté fuera de Internet (sin Wi-Fi ni datos móviles) escaneando el código QR de la [transacción parcialmente firmada](https://planb.network/resources/glossary/PSBT) que acaba de crear.
+El segundo firmante de Wallet, si también es usuario, puede firmar la transacción aunque esté fuera de Internet (sin Wi-Fi ni datos móviles) escaneando el código QR de la [transacción parcialmente firmada](https://planb.network/resources/glossary/psbt) que acaba de crear.
 
 
 

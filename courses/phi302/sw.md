@@ -15,7 +15,7 @@ objectives:
 
 
 
-Falsafa ya Maendeleo ya Bitcoin ni kozi kwa wasanidi wa Bitcoin ambao tayari wanaelewa misingi ya dhana na michakato kama vile Proof-of-Work, ujenzi wa nyumba, na mzunguko wa maisha ya muamala, na ambao wanataka kujiinua kwa kupata ufahamu wa kina wa ubadilishanaji na falsafa ya muundo wa Bitcoin.
+Falsafa ya Maendeleo ya Bitcoin ni kozi kwa wasanidi wa Bitcoin ambao tayari wanaelewa misingi ya dhana na michakato kama vile Proof-of-Work, ujenzi wa block, na mzunguko wa maisha ya muamala, na ambao wanataka kujiendeleza kwa kupata uelewa wa kina wa falsafa ya muundo na mifumo ya ubadilishanaji ya Bitcoin.
 
 Inapaswa kuwasaidia wasanidi wapya kuchukua masomo muhimu zaidi ya zaidi ya muongo mmoja wa ukuzaji wa Bitcoin na mijadala ya umma, huku ikiwapa muktadha muhimu wa kutathmini mawazo mapya (mazuri na mabaya!).
 
@@ -54,10 +54,11 @@ Kitabu hiki kiliidhinishwa na kufadhiliwa na [Chaincode Labs](https://learning.c
 
 Hii inachanganua ugatuaji ni nini na kwa nini ni muhimu kwa Bitcoin kufanya kazi. Tunatofautisha kati ya
 
-ugatuaji wa wachimbaji madini na ule wa nodi kamili, na kujadili wanacholeta kwenye jedwali kwa upinzani wa udhibiti, mojawapo ya sifa kuu za Bitcoin.
+Ugatuaji wa miners na ule wa full node, na kujadili wanacholeta kwenye jedwali kwa upinzani wa udhibiti, mojawapo ya sifa kuu za Bitcoin.
 
 
-Kisha mjadala hubadilika na kuelekea kuelewa kutoegemea upande wowote - au kutokuwa na ruhusa kwa watumiaji, wachimbaji madini na wasanidi programu - ambayo ni nyenzo muhimu ya mfumo wowote wa madaraka. Hatimaye, tunagusia jinsi Hard inavyoweza kuwa kufahamu mfumo uliogatuliwa kama Bitcoin, na kuwasilisha baadhi ya mifano ya kiakili ambayo inaweza kukusaidia kuusumbua.
+
+Kisha mjadala hubadilika na kuelekea kuelewa kutoegemea upande wowote — au kutokuwa na ruhusa kwa watumiaji, miners na wasanidi programu — ambayo ni nyenzo muhimu ya mfumo wowote wa madaraka. Hatimaye, tunagusia jinsi Hard inavyoweza kuwa kufahamu mfumo uliogatuliwa kama Bitcoin, na kuwasilisha baadhi ya mifano ya kiakili ambayo inaweza kukusaidia kuusumbua.
 
 
 Mfumo usio na sehemu kuu ya udhibiti unarejelewa kuwa *kugatuliwa*. Bitcoin imeundwa ili kuepuka kuwa na sehemu kuu ya udhibiti, au kwa usahihi zaidi *eneo kuu la udhibiti*.
@@ -88,12 +89,12 @@ Ugatuaji wa Miner katika Bitcoin unamaanisha kuwa *upangaji wa miamala* haufanyw
 Ikiwa Bitcoin ingewekwa kati, ingekuwa hatarini kwa wale ambao wangetaka kuidhibiti, kama vile serikali. Ingefikia hatima sawa na majaribio ya awali ya kuunda pesa za kidijitali. Katika utangulizi wa [karatasi](https://www.blockstream.com/sidechains.pdf) yenye kichwa "Kuwezesha Ubunifu wa Blockchain na Pegged Sidechains", waandishi wanaeleza jinsi matoleo ya awali ya pesa za kidijitali hayakuwa na mazingira magumu (tazama pia sura ya Mawazo ya Kiadui katika sehemu inayofuata).
 
 
-David Chaum alianzisha pesa dijitali kama mada ya utafiti mnamo 1983, katika mpangilio na seva kuu ambayo inaaminika kuzuia Double-spending. Ili kupunguza hatari ya faragha kwa watu binafsi kutoka kwa chama hiki kikuu kinachoaminika, na kutekeleza uwezekano wa kugundulika, Chaum alianzisha saini ya upofu, ambayo alitumia kutoa njia za siri ili kuzuia kuunganishwa kwa saini za seva kuu (ambazo zinawakilisha sarafu), huku bado akiruhusu seva kuu kufanya uzuiaji wa matumizi mara mbili.
+David Chaum alianzisha pesa dijitali kama mada ya utafiti mnamo 1983, katika mpangilio na seva kuu ambayo inaaminika kuzuia double-spending. Ili kupunguza hatari ya faragha kwa watu binafsi kutoka kwa chama hiki kikuu kinachoaminika, na kutekeleza uwezekano wa kugundulika, Chaum alianzisha saini ya upofu, ambayo alitumia kutoa njia za siri ili kuzuia kuunganishwa kwa saini za seva kuu (ambazo zinawakilisha sarafu), huku bado akiruhusu seva kuu kufanya uzuiaji wa matumizi mara mbili.
 
 Sharti la seva kuu likawa kisigino cha Achilles cha pesa taslimu kidijitali[Gri99]. Ingawa inawezekana kusambaza nukta hii moja ya kutofaulu kwa kubadilisha sahihi ya seva kuu na sahihi ya kiwango cha juu cha watu waliotia sahihi kadhaa, ni muhimu kwa ukaguzi kwamba watia saini wawe tofauti na wanaoweza kutambulika. Hii bado inaacha mfumo katika hatari ya kushindwa, kwa kuwa kila anayetia sahihi anaweza kushindwa, au kushindwa, mmoja baada ya mwingine.
 
 
-Ilibainika kuwa kutumia seva kuu kuagiza miamala haikuwa chaguo linalowezekana kwa sababu ya hatari kubwa ya udhibiti. Hata kama moja ingebadilisha seva kuu na shirikisho la seti isiyobadilika ya seva za n, ambayo angalau m lazima iidhinishe kuagiza, bado kungekuwa na ugumu. Shida inaweza kuhamia moja ambapo watumiaji lazima wakubaliane juu ya seti hii ya seva za n na vile vile jinsi ya kubadilisha seva hasidi na nzuri bila kutegemea mamlaka kuu.
+Ilibainika kuwa kutumia seva kuu kuagiza miamala haikuwa chaguo linalowezekana kwa sababu ya hatari kubwa ya udhibiti. Hata kama moja ingebadilisha seva kuu na shirikisho la seti isiyobadilika ya seva za *n*, ambayo angalau *m* lazima iidhinishe kuagiza, bado kungekuwa na ugumu. Shida inaweza kuhamia moja ambapo watumiaji lazima wakubaliane juu ya seti hii ya seva za *n* na vile vile jinsi ya kubadilisha seva hasidi na nzuri bila kutegemea mamlaka kuu.
 
 
 Wacha tutafakari nini kinaweza kutokea ikiwa Bitcoin ingedhibitiwa. Kidhibiti kinaweza kushinikiza watumiaji kujitambulisha, kutangaza pesa zao zinatoka wapi au wanachonunua nazo kabla ya kuruhusu miamala yao kuingia kwenye Blockchain.

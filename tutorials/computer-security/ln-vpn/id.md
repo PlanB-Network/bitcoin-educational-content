@@ -20,7 +20,7 @@ LN VPN memungkinkan penggunaan VPN sesuai kebutuhan, bahkan untuk durasi sesingk
 
 Dalam istilah sederhana, Wireguard digunakan untuk membuat terowongan aman antara komputer Anda dan server jarak jauh yang akan Anda gunakan untuk menjelajahi Internet. Alamat IP dari server ini yang akan muncul sebagai milik Anda selama durasi sewa yang akan Anda kontrak dengan mengikuti panduan ini.
 
-Secara sederhana, WireGuard digunakan untuk menciptakan saluran aman antara komputer Anda dan server jarak jauh. Melalui saluran inilah Anda akan menjelajahi internet. Selama durasi sewa yang Anda kontrak dengan mengikuti panduan ini, alamat IP server tersebutlah yang akan muncul sebagai alamat IP Anda.
+Secara sederhana, WireGuard digunakan untuk menciptakan sambungan aman antara komputer Anda dan server jarak jauh. Melalui sambungan inilah Anda akan menjelajahi internet. Selama durasi sewa yang Anda kontrak dengan mengikuti panduan ini, alamat IP server tersebutlah yang akan muncul sebagai alamat IP Anda.
 
 Panduan instalasi Wireguard resmi: https://www.wireguard.com/install/
 
@@ -36,7 +36,7 @@ Jika Anda belum memiliki dompet Bitcoin Lightning, jangan khawatir, kami telah m
 
 ## Langkah 1: Mengontrak Sewa
 
-Pada https://lnvpn.com, Anda perlu memilih negara dari alamat IP keluar dari saluran VPN dan durasinya. Setelah parameter ini diatur, klik "Bayar dengan Lightning".
+Pada https://lnvpn.com, Anda perlu memilih negara dari alamat IP keluar dari sambungan VPN dan durasinya. Setelah parameter ini diatur, klik "Bayar dengan Lightning".
 ![image](assets/1.webp)
 
 Invoice Lightning akan ditampilkan, dan Anda hanya perlu memindainya dengan dompet Lightning Anda.
@@ -59,7 +59,7 @@ Buka folder unduhan Anda, baik melalui terminal atau file explorer, lalu ganti n
     $ sudo wg-quick up ~/Downloads/wg0.conf
 ```
 
-Sekarang! saluran sudah aktif!
+Sekarang! sambungan sudah aktif!
 
 ## Langkah 3: Verifikasi
 
@@ -69,7 +69,7 @@ Gunakan layanan online seperti whatismyip untuk memverifikasi bahwa alamat IP pu
 
 Ketika masa sewa Anda habis, Anda perlu memutus koneksi untuk bisa kembali mengakses internet. Setelah itu, Anda bisa mengulangi langkah 1 hingga 3 kapan pun Anda ingin membuat sewa baru dengan LN VPN.
 
-Menonaktifkan saluran:
+Menonaktifkan sambungan:
 
 ```
     $ sudo ip link delete dev wg0

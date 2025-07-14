@@ -1,6 +1,6 @@
 ---
-name: Principes fondamentaux des réseaux
-goal: Acquérir une compréhension approfondie des principes fondamentaux des réseaux.
+name: Réseaux IP de la théorie à la pratique
+goal: Maîtriser les fondamentaux des réseaux IP pour mieux les configurer et les dépanner.
 objectives:
   - Comprendre l’architecture et le fonctionnement du protocole TCP/IP
   - Expliquer les différences, avantages et contraintes d’IPv4 et d’IPv6
@@ -17,12 +17,12 @@ Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vou
 
 Pour aller plus loin, vous découvrirez en fin de cours les principaux outils de diagnostic réseau : analyser, auditer, ajuster… vous saurez enfin agir avec méthode et précision sur vos équipements.
 
-NET 201 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
+NET 302 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
 
 Rejoignez-nous et transformez vos connaissances en véritable expertise opérationnelle !
 
 ___
-Ce cours NET 201 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International (CC BY-SA 4.0). Des modifications substantielles ont été apportées à la version originale par Loïc Morel : le texte original a été intégralement réécrit, développé et enrichi afin d’offrir un contenu actualisé et approfondi, tout en conservant l’esprit pédagogique de la version initiale de Philippe Pierre.
+Ce cours NET 302 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International (CC BY-SA 4.0). Des modifications substantielles ont été apportées à la version originale par Loïc Morel : le texte original a été intégralement réécrit, développé et enrichi afin d’offrir un contenu actualisé et approfondi, tout en conservant l’esprit pédagogique de la version initiale de Philippe Pierre.
 ___
 
 +++

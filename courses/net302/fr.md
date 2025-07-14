@@ -1369,117 +1369,231 @@ Dans la dernière partie de ce cours NET 302, nous allons passer à la pratique 
 ## Les outils de la couche Accès Réseau
 <chapterId>1d25a21d-6900-4fbe-a438-e06c8afb9e02</chapterId>
 
-**Cette partie s’intéresse à l’utilisation concrète de l’adressage IP et aux outils Linux, permettant de diagnostiquer ou d’auditer un réseau d’entreprise. On balaiera chaque couche du modèle TCP/IP en détaillant les différents outils propres à cette partie :**
+Dans ce premier chapitre de la dernière section consacrée au diagnostic réseau, nous allons nous concentrer sur les outils qui permettent d’analyser la couche d’accès réseau du modèle TCP/IP. Cette couche est en charge de la communication directe entre les équipements connectés à un même réseau physique, notamment à travers l’utilisation des adresses MAC et des interfaces réseau physiques comme les cartes Ethernet ou les interfaces Wi-Fi.
 
-- Couche Accès Réseau  
-- Couche Réseau  
-- Couche Transport/Application
+L’objectif est ici de fournir à l’administrateur les moyens concrets pour inspecter, tester et optimiser cette couche essentielle à la connectivité de bas niveau. Ces outils permettent d’évaluer le bon fonctionnement des interfaces, de diagnostiquer des problèmes liés à la configuration des cartes réseau ou encore d’identifier des anomalies comme des collisions, des pertes de paquets ou des erreurs de liaison.
 
-On étudiera également l’aspect paquets au travers d’outils comme tcpdump et/ou wireshark. Pour finir, on listera les principaux ports de services utilisés par les protocoles du modèle TCP/IP.
+### Utilitaires de voisinage IP/MAC
 
-Au travers de ces outils, il s’agit avant tout de savoir identifier un éventuel problème et de surtout connaître parfaitement son système afin de le configurer de façon optimum.
+#### Outil `arp`
 
-### Outil arp
+L’un des outils historiques de diagnostic réseau au niveau de la couche Accès Réseau est la commande `arp`. Bien qu’il tende à être remplacé par des commandes plus modernes comme `ip neigh` (que nous allons découvrir juste après), `arp` reste encore présent sur de nombreux systèmes pour consulter ou manipuler le cache ARP (*Address Resolution Protocol*). Ce cache contient les correspondances entre les adresses IP et les adresses MAC connues localement sur une machine. En d’autres termes, il permet d’identifier quelle adresse physique (adresse MAC) correspond à une certaine adresse IP dans le cadre d’une communication sur un réseau local.
 
-On en a déjà parlé précédemment, mais le premier outil pour analyser le réseau sur la couche ACCES RESEAU s’appelle arp. Il permet, à partir d’une adresse MAC (ou adresse Ethernet) de récupérer la correspondance d’adresse IP et de visualiser, le cas échant la table de routage.
+Concrètement, lorsqu’un hôte souhaite envoyer un paquet à une adresse IP appartenant au même sous-réseau, il doit d’abord connaître l’adresse MAC de la machine cible. Cette association est réalisée grâce au protocole ARP, qui transmet une requête sur le réseau local et reçoit une réponse contenant l’adresse MAC de la machine correspondante. Cette information est ensuite mémorisée temporairement dans une table locale appelée "cache ARP", afin d’éviter des requêtes répétées à chaque envoi de paquet.
 
-Ainsi, pour faire afficher toutes les tables en cours d’utilisation au sein du cache ARP, au niveau de toutes les interfaces, on peut interroger l’outil de la façon suivante :
+Pour consulter ce cache et observer les entrées actuellement connues par la machine, la commande suivante peut être utilisée :
 
-```shell
+```bash
 arp -a
 ```
 
-Si on souhaite visualiser les entrées du cache ARP pour une adresse IP spécifique, il suffit de passer celle-ci en paramètre à la commande :
+Cette commande liste l’ensemble des correspondances IP/MAC enregistrées localement, toutes interfaces confondues. Chaque ligne fournit le nom de l’hôte (s’il peut être résolu), l’adresse IP, l’adresse MAC correspondante et l’interface sur laquelle cette correspondance est observée.
 
-```shell
+Si l’on souhaite filtrer l’affichage en se concentrant sur une adresse IP spécifique, on peut préciser cette adresse dans la commande :
+
+```bash
 arp -a 192.168.1.5
 ```
 
-Si, au lieu d’une seule adresse IP, on souhaite visualiser les entrées du cache ARP pour une interface réseau particulier, on peut également passer celle-ci en paramètre, au lieu d’une adresse IP :
+Cela permet de vérifier si une adresse IP en particulier est bien connue du cache, ce qui peut aider à diagnostiquer une défaillance de communication entre deux hôtes du même réseau.
 
-```shell
-arp –a –N eth0
+De même, pour afficher uniquement les entrées ARP associées à une interface réseau donnée (comme une carte Ethernet nommée `eth0`), on peut écrire :
+
+```bash
+arp -a -N eth0
 ```
 
-Il est également possible de modifier la table ARP, en ajoutant une nouvelle entrée grâce à l’option –s :
+Cette option est utile pour cibler des cas particuliers, notamment dans des environnements multicarte où une machine possède plusieurs interfaces réseau (filaire, sans fil, VPN...).
 
-```shell
-arp –s 192.168.1.7 00:17:BC:56:4F :25 eth2
+L’utilitaire `arp` ne se limite pas à la consultation. Il permet également de manipuler manuellement le cache ARP, ce qui peut s’avérer précieux dans certains cas de diagnostic avancé ou de simulation de situations spécifiques. Il est par exemple possible d’ajouter manuellement une association IP/MAC :
+
+```bash
+arp -s 192.168.1.7 00:17:BC:56:4F:25 eth2
 ```
 
-La mention de l’interface est une option. On peut ne pas le préciser et la première interface applicable sera alors utilisée. Enfin, il est possible de supprimer une entrée de la table ARP en utilisant l’option –d :
+Cette commande crée une entrée statique dans la table ARP locale, qui associe l’adresse IP `192.168.1.7` à l’adresse MAC `00:17:BC:56:4F:25` sur l’interface `eth2`. Si l’interface n’est pas précisée, la première interface réseau jugée applicable est utilisée par défaut.
 
-```shell
-arp –d 192.168.1.7
+Enfin, il est également possible de supprimer une entrée du cache ARP, si celle-ci est incorrecte ou si l’on souhaite forcer une redécouverte :
+
+```bash
+arp -d 192.168.1.7
 ```
 
-**REMARQUE** : là aussi, on peut préciser de façon optionnelle l’interface que l’on souhaite voir appliquée.
+Cette commande efface l’entrée correspondante, ce qui oblige la machine à émettre une nouvelle requête ARP lors de la prochaine tentative de communication avec cette adresse IP.
+
+**REMARQUE** : L’option de suppression accepte elle aussi un nom d’interface, si l’on souhaite cibler précisément l’entrée à supprimer sur une interface spécifique.
+
+En résumé, l’outil `arp` permet un diagnostic bas niveau, particulièrement utile dans le cadre de réseaux locaux où les problèmes de connectivité peuvent souvent être liés à une résolution d’adresse incorrecte ou obsolète. Toutefois, il convient de noter que sur les systèmes récents, notamment avec les distributions Linux modernes, cet outil est de plus en plus remplacé par la commande `ip neigh`, issue de l’ensemble d’outils `iproute2`, qui offre des fonctionnalités similaires dans un cadre plus unifié.
+
+#### Outil `ip neigh`
+
+Sur les systèmes modernes, notamment les distributions Linux récentes, la commande `ip neigh` est l’outil de référence pour l’inspection et la gestion des correspondances entre adresses IP et adresses MAC. Cette commande est issue de la suite `iproute2` qui remplace progressivement les outils plus anciens comme `arp`, en offrant une interface plus cohérente et plus flexible pour le diagnostic réseau au niveau de la couche liaison de données.
+
+La commande `ip neigh` permet de consulter le cache de voisinage IP local, qui joue un rôle équivalent au cache ARP pour IPv4 et au cache NDP (_Neighbor Discovery Protocol_) pour IPv6. Ce cache contient les associations connues entre les adresses IP (v4 ou v6) et les adresses MAC, ainsi que leur état (valide, en attente, expiré...).
+
+La commande de base pour afficher le contenu du cache est :
+
+```bash
+ip neigh
+```
+
+Elle produit une liste des entrées connues, sous une forme synthétique indiquant l’adresse IP de destination, l’interface réseau concernée, l’adresse MAC correspondante (si disponible), ainsi que l’état de l’entrée (par exemple `REACHABLE`, `STALE`, `DELAY`, `FAILED`...).
+
+Exemple de sortie :
+
+```bash
+192.168.1.5 dev eth0 lladdr 00:17:BC:56:4F:25 REACHABLE
+```
+
+Cette ligne indique que la machine connaît une correspondance valide entre l’adresse IP `192.168.1.5` et l’adresse MAC `00:17:BC:56:4F:25` via l’interface `eth0`.
+
+Il est également possible de filtrer les entrées du cache en fonction de critères spécifiques, tels qu’une adresse IP, une interface, ou un état particulier. Par exemple, pour interroger uniquement l’adresse `192.168.1.7` :
+
+```bash
+ip neigh show 192.168.1.7
+```
+
+Ou pour afficher les entrées associées à l’interface `eth1` :
+
+```bash
+ip neigh show dev eth1
+```
+
+Au-delà de la consultation, la commande `ip neigh` permet également de modifier le cache manuellement. Par exemple, pour ajouter une entrée statique :
+
+```bash
+ip neigh add 192.168.1.7 lladdr 00:17:BC:56:4F:25 dev eth1 nud permanent
+```
+
+Cette commande associe de manière permanente l’adresse IP `192.168.1.7` à l’adresse MAC indiquée, sur l’interface `eth1`. Le mot-clé `nud permanent` (pour _Neighbor Unreachability Detection_) précise que l’entrée ne sera pas invalidée automatiquement.
+
+Inversement, pour supprimer une entrée du cache :
+
+```bash
+ip neigh del 192.168.1.7 dev eth1
+```
+
+Cela force le système à effectuer une nouvelle résolution de voisinage lors du prochain envoi de paquet à cette adresse.
+
+**REMARQUE** : L’outil `ip neigh` fonctionne aussi bien pour IPv4 que pour IPv6. Il interagit avec ARP dans le premier cas, et avec NDP dans le second, en utilisant une interface unifiée et cohérente pour les deux familles de protocoles. `ip neigh` offre donc une approche moderne et centralisée pour la gestion des relations IP/MAC sur un hôte.
 
 ### Outils d’analyse de paquets
 
-Parmi la panoplie d’outils mis à notre disposition pour analyser le trafic, il en existe deux qu’il faut toujours avoir à disposition :
+Pour analyser finement ce qui transite sur un réseau informatique, il est important de disposer d’outils capables de capturer les paquets échangés entre les machines. Deux utilitaires se distinguent comme des références pour les administrateurs réseau et les analystes : `tcpdump` et `Wireshark`. Ces outils permettent de diagnostiquer des comportements anormaux, d’auditer les échanges protocolaires, ou encore d’étudier la sécurité du réseau en inspectant le contenu des trames.
 
-- tcpdump
-- wireshark
+#### `tcpdump` : l’analyse en ligne de commande
 
-Le premier, travaille en temps réel, en moyennant le temps de traitement utilisé par le programme. On peut ainsi facilement surveiller l’activité réseau d’une machine. De plus, en redirigeant les captures vers un fichier en sortie, les informations ainsi récupérées des paquets capturés, sont alors conservées et utilisables ensuite, par d’autres outils, compatibles avec le format libcap. Le format d’utilisation est le suivant :
+`tcpdump` est un outil en ligne de commande extrêmement puissant, conçu pour capturer et afficher les paquets circulant sur une interface réseau. Il fonctionne en temps réel, et grâce à sa légèreté, il peut être utilisé sur des systèmes sans interface graphique ou à ressources limitées. Il s’appuie sur la bibliothèque `libpcap`, qui fournit les fonctions de capture bas niveau indépendantes du matériel.
 
-```shell
-tcpdump –w <Fichier Out> -i <Interface> -s <Fenêtre> -n <Filtre>
+Un usage typique de `tcpdump` permet de surveiller l’activité réseau d’une machine ou d’un segment réseau, en filtrant les paquets selon des critères précis. En redirigeant les résultats vers un fichier, il devient possible de conserver une trace du trafic pour une analyse ultérieure ou pour une relecture dans un autre outil, comme Wireshark.
+
+Voici la syntaxe générale de la commande :
+
+```bash
+tcpdump -w <file.cap> -i <interface> -s <snapshot_length> -n <filters>
 ```
 
-La notion de fenêtre permet de limiter l taille des traces capturées. C’est généralement utilisé avec la valeur 0 (pas de limite). L’option –n permet de ne pas remplacer les valeurs numériques par des expressions littérales. Ce genre de filtre permet aussi de déterminer le trafic à capturer. On peut alors utiliser les mots-clés host, port, src ou dst afin de spécifier le filtrage de la capture à réaliser.
+- `-w` permet d’écrire les paquets capturés dans un fichier au format `libpcap` (extension `.cap` ou `.pcap`) ;
+- `-i` désigne l’interface réseau à surveiller (par exemple `eth0`, `wlan0`) ;
+- `-s` définit la taille maximale de capture pour chaque paquet. En spécifiant `0`, on capture l’intégralité des paquets ;
+- `-n` empêche la résolution DNS ou la conversion d’adresses IP et de ports en noms symboliques, ce qui accélère les performances.
 
-Exemple : capture vers un fichier au format libcap des requêtes HTTP d’un serveur 192.168.25.24 :
+Les filtres d’expression, situés en fin de commande, permettent de ne capturer qu’un sous-ensemble spécifique du trafic. On peut combiner les mots-clés `host`, `port`, `src`, `dst`, etc., pour affiner la sélection.
 
-```shell
-tcpdump –w fichier.cap –i eth0 –s0 –n port 80 and host 192.168.25.24
+Exemple concret : pour capturer les paquets HTTP (port 80) à destination ou en provenance du serveur `192.168.25.24`, et enregistrer le tout dans un fichier `fichier.cap` :
+
+```bash
+tcpdump -w fichier.cap -i eth0 -s 0 -n port 80 and host 192.168.25.24
 ```
 
-L’outil Wireshark (anciennement appelé Ethereal) est une application de capture de trames, multiplateformes, disponible sur les environnements Windows et/ou [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux"). Cet outil s’appuie, lui aussi sur le format libcap. Ainsi, on peut sauvegarder les données capturées par cet outil ou exploiter des captures provenant d’un autre logiciel.
+Cette capture pourra ensuite être réutilisée dans un outil graphique ou pour une relecture sur un autre système.
 
-Pour l’initialiser, il faut en premier lieu lancer le programme wireshark et ouvrir le menu **Capture** afin de sélectionner l’interface sur laquelle on souhaite effectuer ces captures. Lorsque la carte réseau a été repérée (celle à laquelle l’adresse IP est associée), on peut alors déclencher les premières captures en cliquant sur le bouton **Start**. Pour arrêter la prise de captures, il suffit simplement d’appuyer sur le bouton **Stop**.
+#### Wireshark : l’analyse visuelle avancée
+
+Wireshark, anciennement connu sous le nom d’*Ethereal*, est un logiciel d’analyse réseau complet, doté d’une interface graphique. Contrairement à `tcpdump`, il permet une visualisation détaillée et structurée des paquets, avec décomposition protocolaire, graphiques de flux, statistiques de trafic, et filtres interactifs. Il repose lui aussi sur `libpcap`, ce qui lui permet d’ouvrir et d’exploiter les fichiers capturés par `tcpdump`.
+
+Wireshark est disponible sur de nombreux systèmes d’exploitation, notamment Linux et Windows. Son installation nécessite des droits d’administrateur pour accéder à l’interface de capture. Une fois lancé, vous pouvez choisir une interface réseau dans le menu *Capture*. En cliquant sur *Start*, l’enregistrement des paquets débute en temps réel. L’affichage des paquets se fait en trois volets :
+- la liste des trames ;
+- les détails décodés par protocole ;
+- les données brutes hexadécimales.
 
 ![Image](assets/fr/052.webp)
 
-Là où tcpdump s’intéresse vraiment à l’aspect paquets des trames circulant sur le réseau, wireshark est beaucoup plus orienté trafic et qualité de service. L’un n’est pas un clone de l’autre et tous deux ont des fonctions bien spécifiques qui les rendent indispensables.
+Wireshark excelle dans les scénarios où l’on souhaite observer les comportements complexes des protocoles, reconstituer les dialogues applicatifs (comme une session HTTP ou DNS), ou étudier les temps de réponse d’un service. Il est également possible d’appliquer des filtres d’affichage très précis à l’aide de sa syntaxe dédiée (différente de celle de `tcpdump`), afin de ne visualiser que les paquets pertinents.
+
+#### Complémentarité des outils
+
+Il est important de souligner que `tcpdump` et Wireshark ne sont pas interchangeables : chacun est spécialisé pour un usage particulier. `tcpdump` est adapté aux environnements en ligne de commande, aux scripts d’analyse automatisés et aux interventions sur des serveurs distants. Wireshark, quant à lui, est idéal pour une analyse détaillée, interactive et pédagogique du trafic réseau.
+
+Les deux outils peuvent être combinés : on effectue une capture sur un système distant avec `tcpdump`, puis on transfère le fichier `.cap` pour l’analyser avec Wireshark sur une machine locale. Cette approche est très répandue.
+
 
 ### Outils d’analyse d’interface
 
-Au niveau le plus bas du réseau, on peut tout à fait récupérer de l’information concernant l’interface à configurer : connaître la vitesse de l’interface, savoir quel type de négociation (_half_ ou _full duplex_) ou encore si l’option wake-on-lan est active ou non, on dispose pour cela de l’utilitaire ethtool.
+Au niveau de la couche Accès Réseau, il est important de pouvoir interroger et configurer les interfaces réseau physiques afin de diagnostiquer des dysfonctionnements, optimiser les performances ou vérifier l’intégrité des connexions. Pour cela, l’un des outils les plus puissants à disposition sous Linux est `ethtool`, un utilitaire en ligne de commande permettant d’obtenir des informations techniques détaillées sur une interface Ethernet, mais aussi de modifier certains de ses paramètres en temps réel.
 
-L’outil permet de visualiser les informations disponibles ou activées pour une interface particulière. Mais, on peut aussi modifier ses propriétés de façon interactive.
+#### Visualiser les caractéristiques d’une interface
 
-**REMARQUE** : l’outil n’est pas nécessairement installé. Si ce n’est pas le cas, on peut l’installer en exécutant l’instruction suivante :
+L’une des fonctionnalités de base de `ethtool` est sa capacité à interroger une interface afin d’en afficher les caractéristiques actuelles. On peut ainsi connaître :
+- la vitesse du lien (par exemple, 100 Mbit/s, 1 Gbit/s ou 10 Gbit/s) ;
+- le mode de négociation (half duplex ou full duplex) ;
+- si l’auto-négociation est activée ou non ;
+- le type de port utilisé (cuivre, fibre…) ;
+- l’état du lien (actif ou non) ;
+- la prise en charge de fonctionnalités avancées comme le *Wake-on-LAN*.
 
-```shell
-yum install –y ethtool
+Ces informations sont importantes pour diagnostiquer des problèmes liés à la connectivité physique ou à un désalignement des négociations entre la carte réseau de l’hôte et l’équipement auquel elle est connectée (commutateur, routeur...).
+
+Pour obtenir ces informations, on utilise simplement la commande suivante :
+
+```bash
+ethtool enp0s3
 ```
 
-Si par exemple, on interroge l’interface enp0s3 (caractéristique des distributions CentOS7), on obtient alors :
+Cette commande renvoie un ensemble complet de données sur l’interface `enp0s3`, souvent rencontrée dans les distributions basées sur CentOS ou RHEL.
 
 ![Image](assets/fr/053.webp)
 
-Parmi les nombreuses options de l’outil, on remarquera la possibilité de modifier les propriétés suivantes grâce à l’option -s :
+#### Modifier dynamiquement les paramètres d’une interface
 
-- vitesse
-- type de négociation :{half, full}
-- port type
-- auto négociation
+`ethtool` ne se limite pas à l’observation : il permet aussi d’agir directement sur certains paramètres de l’interface sans redémarrage de la machine. Cela permet, par exemple, de forcer la vitesse du lien ou d’activer des options spécifiques selon les besoins du réseau local.
 
-**Exemple** : modifier l’auto négociation pour l’activer sur l’interface
+L’option `-s` est utilisée pour configurer dynamiquement des paramètres tels que :
+- la vitesse (`speed`) à fixer explicitement (par exemple 1000 pour 1 Gbit/s) ;
+- le type de duplex (`duplex`) à choisir entre `half` ou `full` ;
+- l’activation ou la désactivation de l’auto-négociation (`autoneg`) ;
+- l’activation du *Wake-on-LAN* (`wol`) ;
+- ou encore le type de port.
 
-```shell
-ethtool –s enp0s3 autoneg on
+Exemple 1 : activer l’auto-négociation sur l’interface :
+
+```bash
+ethtool -s enp0s3 autoneg on
 ```
 
-Ou, on peut également demander à activer l’option Wake-On-Lan dès la détection d’activité sur l’interface :
+Exemple 2 : activer la fonctionnalité *Wake-on-LAN* (pour permettre à la machine de se réveiller à distance via un paquet magique) :
 
-```shell
-ethtool –s enp0s3 wol p
+```bash
+ethtool -s enp0s3 wol p
 ```
 
-**ATTENTION** : dans toutes les requêtes passées à la commande ethtool, le nom de l’interface doit toujours suivre l’option concernée : -s pour la modification, ou autres.
+Dans cet exemple, l’option `p` signifie que le réveil se fera dès la détection d’un paquet *Wake-on-LAN*. Cette configuration est souvent utilisée dans les environnements professionnels pour effectuer des mises à jour nocturnes ou des maintenances à distance.
+
+#### Installation de l’outil
+
+Il est important de noter que `ethtool` n’est pas systématiquement installé par défaut. Sur les distributions Red Hat/CentOS, on peut l’installer avec la commande :
+
+```bash
+yum install -y ethtool
+```
+
+Sur Debian et Ubuntu, la commande équivalente est :
+
+```bash
+sudo apt install ethtool
+```
+
+**ATTENTION** : dans toutes les commandes `ethtool`, le nom de l’interface réseau doit toujours être spécifié immédiatement après l’option (comme `-s`). Toute erreur de syntaxe dans la position des paramètres rendra la commande invalide ou inefficace.
 
 
 ## Les outils de couche Réseau
@@ -1487,296 +1601,453 @@ ethtool –s enp0s3 wol p
 
 ### Outils d’analyse de trafic
 
-L’outil qui vient en premier à l’esprit à ce niveau est ping. Il permet de tester la connectivité IP de bout-en-bout mais également d’avoir des informations concernant les enregistrements de l’annuaire DNS :
+Dans le domaine du diagnostic réseau, la commande `ping` reste l’un des outils les plus simples mais également l’un des plus puissants à utiliser pour vérifier la connectivité entre deux machines. Elle permet d’établir si un hôte distant est atteignable à un instant donné, tout en fournissant des informations sur la latence du réseau, la stabilité de la liaison et la résolution des noms DNS.
 
-```shell
+La commande `ping` repose sur le protocole ICMP (*Internet Control Message Protocol*). Lorsqu’un utilisateur envoie une requête `ping`, son système émet un paquet ICMP de type "Echo Request" à destination d’une adresse IP ou d’un nom d’hôte. Si la machine cible est en ligne et que le chemin réseau est valide, celle-ci répond par un paquet ICMP de type "Echo Reply". Ce mécanisme simple permet de mesurer la latence et d’identifier des problèmes de connectivité ou de résolution de noms.
+
+Exemple de commande classique :
+
+```bash
 ping 172.17.18.19
 ```
 
-```shell
+Réponse typique :
+
+```bash
 mydmn.org (172.17.18.19): 56 data bytes
-
 64 bytes from 172.17.18.19: icmp_seq=0 ttl=56 time=7.7 ms
-
 64 bytes from 172.17.18.19: icmp_seq=1 ttl=56 time=6.0 ms
-
 64 bytes from 172.17.18.19: icmp_seq=2 ttl=56 time=5.5 ms
 ```
 
-**REMARQUE** : la réponse à la commande ping est différente selon que la route existe (ou est inconnue), et que la machine cible est ou non disponible. Mais, dans l’instruction ci-dessus, on remarque que la résolution de nom mydmn.org est automatiquement résolue avec l’adresse IP.
+Dans cet exemple, on remarque que la résolution de nom a été effectuée automatiquement. Le nom de domaine `mydmn.org` est associé à l’adresse IP `172.17.18.19`, ce qui indique que la résolution DNS fonctionne correctement. La commande fournit également des données techniques comme :
+- le numéro de séquence ICMP (`icmp_seq`), utile pour vérifier l’ordre d’arrivée des réponses ;
+- le TTL (*Time-To-Live*), qui correspond au nombre de sauts réseau restants avant destruction du paquet ;
+- le temps de réponse ou round-trip time/delay (`time`), exprimé en millisecondes, qui donne une indication sur la latence du lien.
 
-**RAPPEL** : la commande ping s’appuie sur le protocole ICMP (_Internet Control Message Protocol_), permettant la vérification de la connectivité et des paquets envoyés. L’interrogation de la commande ping, peut également renseigner sur les informations suivantes :
+#### Analyse plus fine des paramètres ICMP
 
-- L’adresse IP (avec le nom enregistré dans l’annuaire DNS.
-- Le numéro de séquence ICMP
-- La durée de vie du paquet (aussi appelé _Time-To-Live_ ou _TTL_)
-- Le temps de propagation en boucle (aussi appelé _round-trip delay_)
-- Le nombre de paquets perdus
+Le TTL est un paramètre critique du protocole IP. Chaque datagramme envoyé comporte un champ TTL, initialisé par l’émetteur (souvent à 64, 128 ou 255). À chaque routeur traversé, ce champ est décrémenté de 1. Si le TTL atteint 0 avant l’arrivée à destination, le paquet est détruit et une erreur ICMP est renvoyée à l’émetteur. Ce mécanisme empêche les boucles réseau infinies.
 
-La durée de vie ou TTL permet de connaître le nombre de routeurs traversés par le paquet lors de l’échange entre l’émetteur et le destinataire. Chaque paquet IP possède un champ TTL valorisé avec une valeur relativement grande. A chaque passage de routeur, ce champ est automatiquement décrémenté. Lorsque la valeur atteint la valeur zéro, le routeur interprétera cela comme le fait que le paquet tourne en boucle et le détruira.
+Le temps de propagation (*round-trip delay/time*) mesure le délai total pour qu’un paquet parte de l’émetteur, atteigne la cible et revienne. En pratique, un temps inférieur à 200 millisecondes est considéré comme satisfaisant pour une liaison stable. Un allongement anormal de ce délai peut être le symptôme d’une congestion réseau, d’un routage inefficace ou d’une liaison de mauvaise qualité.
 
-**IMPORTANT** : Le temps de propagation correspond à la durée d’un aller-retour entre l’émetteur et le destinataire. Un paquet doit en règle générale avoir un temps de propagation inférieur à 200ms.
+#### Utilisation avancée de `ping`
 
-Cela permet aussi d’envoyer des paquets de type broadcast en utilisant l’option –b et en mentionnant l’adresse IP sur laquelle on souhaite effectuer la diffusion :
+L’outil `ping` peut être utilisé avec différentes options pour affiner les tests et mieux observer certains comportements réseau.
 
-```shell
-ping –b 192.168.1.255
+Pour émettre des requêtes en broadcast, on peut utiliser l’option `-b` qui permet d’envoyer une requête à tous les hôtes d’un sous-réseau :
+
+```bash
+ping -b 192.168.1.255
 ```
 
-De plus, on peut passer en paramètre une taille d’intervalle avec l’option –i (par défaut, la valeur est positionnée à 1 seconde). On peut également forcer le nombre d’écho que l’on souhaite, via l’option -c :
+Cette commande est utile dans les réseaux locaux pour détecter rapidement les hôtes actifs ou tester le comportement du réseau face à des requêtes broadcast. Attention cependant : dans de nombreuses configurations, les routeurs et pare-feu bloquent ce type de requêtes pour éviter les attaques par amplification.
 
-```shell
-ping –i 0.2 –c 10 192.168.1.7
+Il est aussi possible de spécifier un intervalle d’envoi personnalisé avec l’option `-i` (par défaut, les requêtes sont espacées d’une seconde) :
+
+```bash
+ping -i 0.2 -c 10 192.168.1.7
 ```
 
-### Outils d’analyse de route
+Ici, on envoie 10 requêtes ICMP à l’intervalle de 0,2 seconde. Ce type de test est particulièrement utile pour détecter des fluctuations de latence sur une courte période ou pour stresser légèrement un lien afin d’observer sa stabilité.
 
-La commande route est utilisée pour configurer statiquement des routes. Mais, elle peut également fournir des éléments de diagnostic :
+### Outils d’analyse de la table de routage
 
-```shell
-route
+La commande `ip route`, issue de la suite `iproute2`, est l'outil recommandé et standard sur les systèmes Linux modernes pour consulter et manipuler la table de routage IP du noyau. Elle remplace l’ancienne commande `route`, aujourd’hui obsolète, en offrant une syntaxe plus claire, une plus grande cohérence, et une prise en charge étendue des fonctionnalités réseau contemporaines (IPv6, multiples tables, espaces de noms...).
 
-Table de routage IP du noyau
+#### Affichage de la table de routage
 
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+La commande suivante permet d’afficher l’état actuel de la table de routage :
 
-10.32.16.0      *                    255.255.252.0   U     0      0        0 eth0
-
-169.254.0.0     *                  255.255.0.0       U     0      0        0 eth0
-
-default         cb1-vrrp-srv    200 0.0.0.0       UG    0      0        0 eth0
+```bash
+ip route show
 ```
 
-En effet, dans le champ ‘_Flags_’ ci-dessus, on peut connaître les réseaux (locaux ou distants, dans le cas d’accessibilité d’une passerelle) ou éventuellement quelles routes seront acceptées ou rejetées par le système local. Les cas possibles sont les suivants :
+Ce résultat liste l’ensemble des routes connues par le noyau, c’est-à-dire les chemins empruntés par les paquets IP sortants en fonction de leur destination.
 
-- U : Up - la route est active et exploitable.  
-- H : Host - la cible est un hôte.  
-- G : Gateway - la cible est accessible par une passerelle.  
-- D : Dynamic - la route est configurée par un protocole de routage.  
-- ! : Le noyau a rejeté la route
+Exemple typique de sortie :
 
-**REMARQUE** : comme on le constate, la commande route, seule permet d’afficher les routes statiques définies sur le système. Si l’on souhaite ajouter une route, il suffit d’utiliser l’option add et de préciser s’il s’agit d’un réseau, d’un hôte ou d’une passerelle.
-
-La commande route, par défaut affiche la table de routage au format numérique (option –n). Mais, on peut demander l’affichage au format d’hôte (avec résolution de nom), en utilisant l’option –e.
-
-Le formalisme standard de la commande est le suivant :
-
-```shell
-route [Options]
+```bash
+default via 192.168.1.1 dev eth0 proto dhcp metric 100 
+192.168.1.0/24 dev eth0 proto kernel scope link src 192.168.1.100
 ```
 
-Où les options peuvent être :
+Chaque ligne représente une route. Voici une explication des champs essentiels :
+- **default** : route par défaut, utilisée si aucune route plus spécifique n’est trouvée.
+- **via** : adresse de la passerelle utilisée pour atteindre la destination.
+- **dev** : interface réseau empruntée par les paquets.
+- **proto** : source d’origine de la route (manuelle, DHCP, kernel, etc.).
+- **metric** : coût de la route, utilisé pour départager plusieurs chemins possibles.
+- **scope** : portée de la route (par exemple : `link` pour une route directement connectée).
+- **src** : adresse IP source utilisée sur cette interface pour les communications sortantes.
 
-"-n" : affiche la table de routage au format numérique.
+#### Ajout et suppression de routes
 
-"-e" : affiche la table de routage au format d’hôte FQDN.
+L’outil `ip route` permet également de modifier dynamiquement la table de routage, notamment pour ajouter ou retirer des routes statiques.
 
-"add" : permet d’ajouter une route statique.
+Ajout d’une route statique :
 
-"del" : permet de supprimer une route statique.
-
-Avec les options _add_ et _del_ on peut alors indiquer quel type de cible on souhaite traiter (et de quelle façon, on souhaite le faire) :
-
-Exemple : ajout d’une route statique à un réseau dans la table de routage :
-
-```shell
-route add –net 192.168.1.0 netmask 255.255.255.0 gw 192.168.1.1 dev eth0
+```bash
+ip route add 192.168.1.0/24 via 192.168.1.1 dev eth0
 ```
+
+Cela configure une route vers le réseau `192.168.1.0/24`, en passant par la passerelle `192.168.1.1`, via l’interface `eth0`.
+
+Suppression de cette route :
+
+```bash
+ip route del 192.168.1.0/24
+```
+
+Cette commande supprime la route définie précédemment.
+
+#### Commandes utiles
+
+Voici quelques variantes utiles pour l’analyse ou les scripts :
+- `ip -4 route` : n’affiche que les routes IPv4 ;
+- `ip -6 route` : n’affiche que les routes IPv6 ;
+- `ip route list table main` : affiche la table de routage principale (valeur par défaut) ;
+- `ip route get <address>` : permet de déterminer par quelle interface et passerelle un paquet vers une adresse donnée serait routé.
+
+Exemple :
+
+```bash
+ip route get 8.8.8.8
+```
+
+Cela renvoie la route précise qu’emprunterait un paquet vers l’adresse `8.8.8.8`.
 
 ### Outils de traçage
 
-La commande `traceroute`, tout comme `ping`, permet de déterminer à quel niveau du circuit emprunté par les paquets, il y a une rupture de trafic vers le destinataire. On peut ainsi interroger la cible avec son om FQDN (enregistré dans l’annuaire DNS) ou avec son adresse IP :
+L’un des outils les plus efficaces pour analyser la route suivie par les paquets IP entre un hôte source et une destination cible est la commande `traceroute`. Elle permet de visualiser, étape par étape, le chemin que parcourent les paquets, en identifiant les routeurs intermédiaires traversés. En cas de dysfonctionnement sur une liaison réseau ou d’interruption de service, `traceroute` permet de localiser précisément à quel niveau la rupture intervient.
 
-```shell
+Comme pour la commande `ping`, il est possible de cibler l’hôte distant soit par son nom de domaine complet (FQDN), soit par son adresse IP. Par exemple :
+
+```bash
 traceroute mydmn.org
 ```
 
-La commande traceroute s’appuie sur le champ TTL des paquets IP. Lorsque ce champ arrive à zéro, le routeur, estimant que le paquet tourne en boucle le détruit et envoie une notification ICMP à l’expéditeur.
+#### Principe de fonctionnement
 
-C’est exactement ce que fait _traceroute_ : il envoie des paquets à un port UDP non privilégié, réputé non utilisé par la pile TCP/IP (par défaut, il s’agit du port 33434) avec un TTL à 1. Et, le premier routeur rencontré va supprimer le paquet et renvoyer un paquet ICMP, donnant entre autre, l’adresse IP du routeur et son temps de propagation en boucle. En incrémentant séquentiellement le champ TTL afin d’obtenir une réponse de chacun des routeurs sur le circuit, traceroute va, au final,  récupérer une réponse "_ICMP port unreachable_", de la part de l’équipement cible, et reconstituant par la même, le chemin parcouru. En cas de rupture dans le cheminement, on devrait voir apparaître des caractères "*". Dns le cas contraire, la résolution va jusqu’à son terme :
+Le fonctionnement de `traceroute` repose sur le champ TTL (*Time To Live*) présent dans l’en-tête des paquets IP. Comme expliqué précédemment, ce champ est un compteur décrémenté à chaque passage par un routeur. Si la valeur du TTL atteint zéro, le paquet est considéré comme perdu et est supprimé par le routeur, qui retourne alors un message ICMP de type "Time Exceeded" à l’émetteur. Cela empêche les boucles infinies en cas de routage incorrect.
 
-```shell
+L’outil `traceroute` exploite précisément ce comportement pour cartographier les routeurs situés entre l’émetteur et le destinataire :
+- Il envoie une première série de paquets UDP (généralement trois), avec un TTL égal à 1. Le premier routeur rencontre alors un TTL nul, détruit le paquet, et envoie une réponse ICMP. Son adresse IP et le temps de réponse sont enregistrés ;
+- Puis, `traceroute` envoie une nouvelle série de paquets avec un TTL égal à 2. Le deuxième routeur fait de même ;
+- Ce processus se répète jusqu’à ce que le paquet atteigne sa destination, qui retourne alors un message ICMP "Port unreachable" indiquant que l’hôte a bien été atteint.
+
+L’outil utilise par défaut des paquets UDP envoyés sur des ports non utilisés (typiquement à partir du port 33434), mais peut être configuré pour utiliser ICMP (comme `ping`) ou même TCP, selon les systèmes ou les variantes de la commande.
+
+Voici un exemple de résultat obtenu :
+
+```bash
 traceroute to www.google.fr (216.58.210.35), 64 hops max, 52 byte packets
 
- 1  par81-024.ff.avast.com (62.210.189.205)  25.107 ms  24.235 ms  24.383 ms
+ 1  par81-024.ff.avast.com (62.210.189.205)   25.107 ms  24.235 ms  24.383 ms
+ 2  62-210-189-1.rev.poneytelecom.eu (62.210.189.1)  27.341 ms  27.119 ms  28.184 ms
+ 3  a9k1-45x-s43-1.dc3.poneytelecom.eu (195.154.1.92)  25.910 ms  25.040 ms  25.558 ms
+ 4  72.14.218.182 (72.14.218.182)  36.234 ms  39.907 ms  38.130 ms
+ 5  108.170.244.177 (108.170.244.177)  25.880 ms
+    108.170.244.240 (108.170.244.240)  25.791 ms
+    108.170.244.177 (108.170.244.177)  26.449 ms
+ 6  216.239.62.143 (216.239.62.143)  26.491 ms
+    216.239.43.157 (216.239.43.157)  26.414 ms
+    216.239.62.139 (216.239.62.139)  26.400 ms
+ ...
+ 9  108.170.246.161 (108.170.246.161)  33.174 ms
+    108.170.246.129 (108.170.246.129)  34.342 ms
+    108.170.246.161 (108.170.246.161)  33.707 ms
+10  108.170.232.105 (108.170.232.105)  33.845 ms  33.846 ms
+    108.170.232.103 (108.170.232.103)  34.206 ms
+11  lhr25s11-in-f35.1e100.net (216.58.210.35)  34.094 ms  33.353 ms  33.718 ms
+```
 
- 2  62-210-189-1.rev.poneytelecom.eu (62.210.189.1)  27.341 ms  27.119 ms  28.184 ms
+Chaque ligne correspond à un routeur traversé, avec jusqu’à trois mesures de temps (en millisecondes) indiquant la latence du trajet aller-retour vers ce routeur. Ces temps permettent d’évaluer les performances de chaque segment du chemin.
 
- 3  a9k1-45x-s43-1.dc3.poneytelecom.eu (195.154.1.92)  25.910 ms  25.040 ms  25.558 ms
+#### Interprétation des résultats
 
- 4  72.14.218.182 (72.14.218.182)  36.234 ms  39.907 ms  38.130 ms
+Si un routeur ne répond pas ou filtre les messages ICMP, des astérisques `*` s’affichent à la place du temps de réponse. Cela peut signifier :
+- un pare-feu qui bloque les réponses ICMP ;
+- un équipement configuré pour ne pas répondre à ces messages ;
+- un problème temporaire de connectivité sur le chemin.
 
- 5  108.170.244.177 (108.170.244.177)  25.880 ms
+La commande `traceroute` permet ainsi non seulement d’identifier la route suivie, mais également de repérer les zones de latence anormale ou les ruptures de connexion.
 
-    108.170.244.240 (108.170.244.240)  25.791 ms
+Sur certains systèmes, la commande peut être remplacée par `tracepath`, qui ne nécessite pas les privilèges root. Pour les connexions IPv6, on utilisera `traceroute6` ou `tracepath6`.
 
-    108.170.244.177 (108.170.244.177)  26.449 ms
+Exemple pour tracer une route IPv6 :
 
- 6  216.239.62.143 (216.239.62.143)  26.491 ms
-
-    216.239.43.157 (216.239.43.157)  26.414 ms
-
-    216.239.62.139 (216.239.62.139)  26.400 ms
-
- …
-
- 9  108.170.246.161 (108.170.246.161)  33.174 ms
-
-    108.170.246.129 (108.170.246.129)  34.342 ms
-
-    108.170.246.161 (108.170.246.161)  33.707 ms
-
-10  108.170.232.105 (108.170.232.105)  33.845 ms  33.846 ms
-
-    108.170.232.103 (108.170.232.103)  34.206 ms
-
-11  lhr25s11-in-f35.1e100.net (216.58.210.35)  34.094 ms  33.353 ms  33.718 ms
+```bash
+traceroute6 ipv6.google.com
 ```
 
 ### Outils de vérification des connexions actives
 
-Outre l’outil que l’on a vu ci-dessus, concernant le routage, il existe également une autre commande listant les connexions TCP actives de la machine. La commande netstat permet de lister l’ensemble des ports TCP et UDP ouverts au niveau du serveur et d’obtenir des statistiques concernant certains protocoles tels que Ethernet, IPv4, IPv6, ICMP…
+Pour diagnostiquer les connexions réseau en cours et obtenir une vue d’ensemble de l’activité réseau d’un système Linux, la commande `ss` (pour _socket statistics_) est aujourd’hui l’outil de référence. Issue de la suite `iproute2`, elle remplace `netstat`, désormais obsolète, en offrant des performances supérieures et une meilleure précision.
 
-La commande utilisée seule affiche l’ensemble des connexions ouvertes par la machine que ce soit en UDP ou en TCP. Le formalisme de la commande est le suivant :
+`ss` permet d’afficher les connexions TCP et UDP actives, les ports en écoute, les adresses locales et distantes, les états des connexions, ainsi que les processus associés.
 
-```shell
-netstat [-a] [-e] [-n] [-o] [-s] [-p <Proto>] [-r] [intervalle]
+#### Utilisation générale
+
+Exécutée sans option, la commande `ss` affiche les connexions TCP actives. Voici sa syntaxe de base :
+
+```bash
+ss [options]
 ```
 
-L’option –a affiche l’ensemble des connexions et des ports en écoute sur la machine. Si l’on souhaite faire afficher les adresses et les numéros de port au format numérique (sans résolution de noms), il faut utiliser l’option –n. Pour afficher les statistiques Ethernet, on peut positionner l’option –e.
+Quelques options courantes pour affiner l’analyse :
+- `-t` : affiche uniquement les connexions TCP ;
+- `-u` : affiche uniquement les connexions UDP ;
+- `-l` : limite l’affichage aux sockets en écoute ;
+- `-n` : désactive la résolution de noms (affichage brut des adresses IP et numéros de ports) ;
+- `-p` : affiche les processus associés à chaque socket (PID et nom du programme) ;
+- `-a` : affiche toutes les connexions, y compris les inactives ;
+- `-s` : fournit des statistiques de haut niveau sur les sockets.
 
-Exemple : affichage des connexions sur le port web TCP/80 :
+#### Cas pratique
 
-```shell
-netstat –an|egrep ".* :80"
+Si l’on souhaite afficher toutes les connexions actives utilisant le port TCP 80 (HTTP), on peut utiliser :
+
+```bash
+ss -ant | grep ':80'
 ```
 
-Ce genre de commande affichera le résultat de toutes les connexions écoutant sur le port 80 :
+Cette commande affiche les connexions TCP actives impliquant le port 80. Les états typiques (comme `LISTEN`, `ESTABLISHED`, `TIME-WAIT`) permettent d’interpréter le statut des échanges en cours.
 
-![Image](assets/fr/054.webp)
+Exemple de sortie :
 
-L’option –o permet de détailler le numéro de processus associé à une connexion et l’option –r affiche alors la table de routage. Il nous reste alors l’option –p suivi du nom du protocole (au choix, TCP, UDP ou IP), permettant d’afficher les informations concernant le protocole passé en paramètre. Enfin, l’option –s affiche les statistiques détaillées, classées par protocole.
-
-**REMARQUE** : en option, il est possible de passer un intervalle permettant de déterminer la période de rafraichissement des informations (en secondes). Par défaut, cette option est valorisée à 1.
-
-Exemple : afficher les statistiques des connexions par type de protocole IP, TCP ICMP…
-
-```shell
-netstat -s
 ```
+ESTAB 0 0 192.168.1.10:54321  93.184.216.34:80
+```
+
+Pour afficher toutes les connexions réseau avec les processus associés :
+
+```bash
+ss -tulnp
+```
+
+Pour obtenir un résumé statistique global des sockets utilisés :
+
+```bash
+ss -s
+```
+
+Pour filtrer les connexions UDP uniquement :
+
+```bash
+ss -unp
+```
+
+Ces commandes sont particulièrement utiles pour repérer des connexions suspectes, des ports inattendus en écoute, ou surveiller l’activité réseau d’un service particulier.
+
 
 ## Les outils de la couche Transport et supérieure
 <chapterId>bce47931-930e-4288-b0fd-666c9a1066b5</chapterId>
 
+
 ### Outils d’interrogation DNS
 
-A ce niveau on peut facilement interroger un serveur de noms et obtenir des informations non seulement concernant le domaine ou l’hôte, mais aussi en diagnostiquant les problèmes de configuration du DNS grâce à la commande nslookup (_Name System Lookup Up_).
+Dans les couches supérieures du modèle TCP/IP, et notamment à la couche Application, il est important de comprendre le fonctionnement des résolutions de noms. Les outils d’interrogation DNS permettent non seulement de vérifier si un nom de domaine est bien associé à une adresse IP, mais également de diagnostiquer des problèmes de configuration, de propagation ou d’inaccessibilité d’un serveur DNS. Ces outils sont essentiels pour tout administrateur réseau ou tout utilisateur qui souhaite mieux comprendre les échanges DNS dans un environnement IP.
 
-Par défaut, la commande nslookup interroge le nom configuré sur la machine. Mais, on peut également interroger un serveur de nom particulier en le préfixant par "-" lors de la requête d’interrogation:
+#### La commande `nslookup`
 
-```shell
-nslookup 192.6.23.4 –mydmn.org
+Le plus simple des outils d’interrogation DNS est `nslookup`, pour "*Name System Lookup*". Il permet de soumettre une requête à un serveur DNS et d’obtenir en retour l’adresse IP associée à un nom de domaine (ou inversement). Utilisé sans option, il interroge par défaut le serveur DNS configuré sur le système, mais on peut lui indiquer explicitement un serveur à interroger en le précisant directement dans la commande.
+
+Exemple d’utilisation simple avec résolution directe :
+
+```bash
+nslookup mydmn.org
 ```
 
-**IMPORTANT** : basé sur le même principe, mais plus riche que la commande _nslookup_, on peut également utiliser _dig_, permettant d’interroger de façon avancée les serveurs de noms DNS.
+Et pour interroger un serveur DNS spécifique :
 
-**ASTUCE** : afin de forcer la recherche d’hôtes sur un ou plusieurs serveurs de noms, on peut renseigner le fichier /etc/resolv.conf avec les champs _search_ et _nameserver_ suivants :
+```bash
+nslookup mydmn.org 192.6.23.4
+```
 
-```shell
+Cette requête demande au serveur situé à l’adresse `192.6.23.4` la résolution du nom `mydmn.org`. C’est une méthode utile lorsqu’on souhaite vérifier si un serveur DNS donné connaît ou non un nom de domaine, ou encore pour vérifier le bon fonctionnement de ce serveur.
+
+#### La commande `dig`
+
+Plus moderne, plus complète et plus souple que `nslookup`, la commande `dig` (*Domain Information Groper*) permet d’effectuer des requêtes DNS complexes, tout en fournissant des informations détaillées sur le processus de résolution, la hiérarchie des serveurs consultés, le type d’enregistrement obtenu (A, AAAA, MX, TXT, etc.) et les éventuels problèmes rencontrés.
+
+Voici un exemple de requête standard :
+
+```bash
+dig mydmn.org
+```
+
+Ou encore pour cibler un serveur DNS spécifique :
+
+```bash
+dig @192.6.23.4 mydmn.org
+```
+
+Cette commande permet de tester la disponibilité d’un enregistrement DNS sur un serveur donné. L’un des avantages majeurs de `dig` est sa capacité à afficher le détail du message DNS retourné, ce qui est utile pour diagnostiquer des erreurs de configuration.
+
+#### Configuration manuelle des résolveurs DNS
+
+Il est parfois nécessaire de modifier les serveurs DNS utilisés localement, notamment dans des environnements de test ou pour forcer l’utilisation de serveurs spécifiques. Pour cela, on peut éditer le fichier `/etc/resolv.conf`, qui permet de définir les paramètres de recherche DNS du système.
+
+Voici un exemple de configuration :
+
+```bash
 vi /etc/resolv.conf
 
 search mydmn.org
-
-nameserver mydmn1.org
-
-nameserver mydmn2.org
-
+nameserver 192.168.1.10
+nameserver 192.168.1.11
 ```
 
-On peut aussi utiliser la commande host afin d’interroger les serveurs de noms afin, notamment de détecter les dysfonctionnements sur une interface réseau : serveurs hors service ou ports désactivés.
+- Le champ `search` indique le domaine à ajouter automatiquement lors de la résolution de noms courts ;
+- Les directives `nameserver` précisent les adresses IP des serveurs DNS à utiliser. L’ordre d’apparition détermine la priorité d’interrogation.
 
-**ATTENTION** : il ne faut surtout pas lancer ce genre de commande sur des hôtes ou des réseaux où l’on n’est pas administrateur. En effet, cela s’apparente à un hacking en bonne et due forme, car la commande lance une analyse de l’existant, au niveau des serveurs de noms afin de récupérer de l’information.
+Attention, cette configuration est temporaire dans de nombreuses distributions modernes (notamment avec `systemd-resolved`) et peut être écrasée à chaque redémarrage ou reconnexion réseau. Des méthodes plus pérennes existent (comme l’usage de `resolvconf`, `systemd-resolved`, ou la modification de fichiers *NetworkManager*).
+
+#### La commande `host`
+
+L’outil `host` est un autre utilitaire DNS simple mais efficace. Il permet de résoudre des noms de domaine en adresse IP, ou inversement, et peut également servir à diagnostiquer des erreurs de réponse DNS ou des pannes sur une interface réseau.
+
+Exemple d'utilisation :
+
+```bash
+host mydmn.org
+```
+
+Ou pour une résolution inverse :
+
+```bash
+host 192.6.23.4
+```
+
+Il est particulièrement utile pour des vérifications ponctuelles, notamment en ligne de commande dans des scripts automatisés.
+
+Il est important de rappeler qu’interroger de manière répétée ou intensive des serveurs DNS tiers sans autorisation peut être considéré comme une tentative d’intrusion ou un comportement malveillant. Certaines commandes, lorsqu’elles sont mal utilisées (ou utilisées sur des réseaux qui ne vous appartiennent pas), peuvent être assimilées à de la reconnaissance réseau, une première étape dans certaines formes d’attaques. Il est donc important de limiter l’usage de ces outils aux environnements que l’on administre ou dont on a explicitement la charge.
 
 ### Outils d’interrogation du réseau
 
-De même que la commande host interroge le serveur de noms, l’administrateur désireux d’interroger la proximité des équipements connectés sur un réseau, pourra utiliser l’outil nmap.
+Dans une démarche de surveillance ou de sécurisation d’un réseau local ou étendu, il est important de pouvoir identifier les équipements actifs et les services qu’ils exposent. C’est précisément ce que permet l’outil `nmap` (*Network Mapper*).
 
-**ATTENTION** : même recommandation que pour la commande host, il ne s’agit pas de pirater ou de scruter un réseau dont on n’est pas maître car cela est passible de sanctions!
+#### Présentation de `nmap`
 
-**L’outil _nmap_ est très complet, il peut à la fois visualiser l’ensemble des ports TCP ou UDP ouverts, pour l’ensemble d’un réseau ou simplement une plage d’adresses dédiées.** Son énorme avantage, par rapport à d’autres outils c’est qu’il permet de synthétiser sous forme de rapport l’ensemble des ports ouverts au niveau d’un réseau ou d’une machine. En réalité, il s’agit d’un outil scannant les ports ouverts sur une machine distante.
+`nmap` permet d’interroger de manière ciblée un ou plusieurs hôtes afin de détecter les ports ouverts, les services accessibles (HTTP, SSH, DNS...) et parfois même le type de système d’exploitation utilisé. Grâce à ses nombreuses options, il est possible d’obtenir une vision précise et synthétique de l’état de la surface d’exposition d’un réseau, ce qui est essentiel dans les phases d'audit ou de durcissement d'une infrastructure.
 
-Afin de scanner un équipement distant, il suffit d’exécuter la commande suivante en passant en paramètre l’adresse IP (ou le nom) de la machine concernée :
+Attention cependant à l’usage de cet outil : comme pour la commande `host`, il ne doit jamais être utilisé sur un réseau ou une infrastructure qui ne vous appartient pas ou sans autorisation explicite. Les scans de ports non autorisés peuvent être considérés comme des tentatives de reconnaissance malveillante et sont souvent détectés comme telles par les dispositifs de sécurité (pare-feu, IDS/IPS), voire sanctionnés.
 
-```shell
+#### Utilisation de base
+
+Pour scanner un hôte spécifique et visualiser les ports ouverts, il suffit d’exécuter :
+
+```bash
 nmap 192.168.0.1
 ```
 
-Évidemment, ce que l’on peut faire pour un serveur peut aussi être fait pour l’ensemble d’un réseau :
+Cette commande va effectuer un scan des 1000 ports les plus courants sur l’hôte `192.168.0.1` et afficher les services accessibles ainsi que les protocoles utilisés. Si le DNS est configuré, il est également possible d’utiliser le nom d’hôte au lieu de l’adresse IP.
 
-```shell
+#### Scan d’un réseau complet
+
+L’un des avantages de `nmap` est sa capacité à analyser une plage d’adresses en une seule commande. Cela permet, par exemple, de dresser un inventaire rapide des machines actives sur un réseau donné :
+
+```bash
 nmap 192.168.0.0/24
 ```
 
-Cela aide énormément les administrateurs pour analyser et réduire les portes ouvertes de leurs machines, car ils peuvent ainsi connaître les services à protéger contre d’éventuelles attaques :
+Dans cet exemple, tous les hôtes de l’espace `192.168.0.0` à `192.168.0.255` seront interrogés. Le résultat présentera, pour chaque adresse IP, la liste des ports ouverts, leur état (open, filtered…), et si possible, le nom du service correspondant.
 
 ![Image](assets/fr/055.webp)
 
+Un administrateur peut s’appuyer sur `nmap` pour plusieurs tâches :
+- Détection d’hôtes actifs : en scannant un sous-réseau, on identifie les machines qui répondent à une requête ;
+- Inventaire des services exposés : utile pour vérifier que seuls les ports nécessaires sont accessibles (principe du moindre privilège) ;
+- Vérification de la conformité : comparer les ports ouverts avec la politique de sécurité réseau ;
+- Prévention des failles : repérer des services non sécurisés ou obsolètes ouverts sur des machines critiques.
+
 ### Outils d’interrogation des processus
 
-Il existe une commande permettant de lister les fichiers ouverts et/ou les processus actifs, au niveau du système d’exploitation. Il s’agit de la commande _lsof_. Il existe plusieurs modes d’utilisation. On peut, par exemple ne s’intéresser qu’aux processus de type Internet via l’option -i :
+Pour analyser en profondeur les processus actifs et les fichiers ouverts sur un système, notamment dans un contexte réseau, l’un des outils les plus puissants à la disposition des administrateurs Linux est la commande `lsof` (*List Open Files*). Contrairement à ce que son nom pourrait laisser penser, `lsof` ne se limite pas aux fichiers classiques : dans le système UNIX, tout est considéré comme un fichier, y compris les sockets réseau, les périphériques, les canaux de communication...
 
-```shell
-lsof –i
+Cet outil permet donc d’avoir une vue transversale du système, en croisant des informations sur les processus actifs, les ports réseau ouverts, les fichiers manipulés et les utilisateurs impliqués.
+
+#### Analyse réseau avec `lsof`
+
+L’option `-i` permet de restreindre la sortie aux connexions réseau, qu’il s’agisse de TCP, UDP, IPv4 ou IPv6. Elle est utile pour observer rapidement quels processus interagissent avec le réseau :
+
+```bash
+lsof -i
 ```
 
-On peut aussi ne s’intéresser qu’à une machine particulière en fournissant l’adresse IP en paramètre, et éventuellement un port de service (dans l’exemple, le port [SMTP](https://www.it-connect.fr/messagerie-decouverte-des-protocoles-smtp-pop-imap-et-mapi/ "SMTP") 25):
+Ce type de commande liste tous les processus en cours qui utilisent une socket réseau, avec l’information sur le port utilisé, le protocole (TCP/UDP), l’état de la connexion, ainsi que le PID et l’utilisateur correspondant.
 
-```shell
-lsof –ni @192.168.2.1:25
+#### Filtrage par adresse IP ou port
+
+Pour affiner la recherche, il est possible de spécifier une adresse IP et un port. Cela permet d’isoler précisément un flux réseau, par exemple une communication SMTP (port 25) avec une machine donnée :
+
+```bash
+lsof -ni @192.168.2.1:25
 ```
 
-Mais, ce qui est très intéressant dans cette commande, c’est que l’on peut aussi interroger le système et vérifier les processus ouverts sur un périphérique particulier :
+Cela affichera uniquement les connexions réseau actives avec l’hôte `192.168.2.1` sur le port 25, ce qui peut être utile pour diagnostiquer une activité suspecte ou un blocage SMTP.
 
-```shell
+#### Suivi des accès à un périphérique
+
+L’un des grands atouts de `lsof` est sa capacité à surveiller l’utilisation des fichiers spéciaux, tels que les partitions de disque. On peut par exemple connaître les processus qui ont ouvert des fichiers sur la partition `/dev/sda1` :
+
+```bash
 lsof /dev/sda1
 ```
 
-On peut, à l’inverse souhaiter connaître tous les ports réseau ouverts par un processus passé en paramètre (dans l’exemple n° PID 1521):
+Cela est utile lorsqu’une tentative de démontage échoue parce que le périphérique est encore utilisé, ou lorsqu’on cherche à comprendre quelles applications accèdent à une partition donnée.
 
-```shell
-lsof –i –a –p 1521
+#### Analyse croisée : processus et réseau
+
+Il est possible de combiner plusieurs options pour obtenir des informations précises sur les ressources ouvertes par un processus spécifique. Par exemple, pour connaître tous les ports réseau ouverts par le processus ayant pour PID 1521 :
+
+```bash
+lsof -i -a -p 1521
 ```
 
-En cumulant les foncions, on peut enfin connaître tous les fichiers ouverts par un ou plusieurs utilisateur(s) particulier(s) et/ou par un processus courant :
+L’option `-a` réalise une intersection des critères (ici : `-i` et `-p`), qui limite ainsi l’affichage aux connexions réseau appartenant à ce seul processus.
 
-```shell
-lsof –p 1521 –u 500, phil
+#### Suivi multi-utilisateur
+
+Enfin, `lsof` permet aussi d’analyser le comportement d’un ou plusieurs utilisateurs, en listant tous les fichiers ouverts par ceux-ci, éventuellement en filtrant par PID :
+
+```bash
+lsof -p 1521 -u 500,phil
 ```
 
-De nombreux autres outils existent également. Mais, déjà avec ceux mentionnés ici, on devrait largement se faire une idée précise de son environnement et être capable, le cas échéant d’analyser la cause du problème et de le corriger.
+Cette commande permet par exemple de savoir quels fichiers ou connexions réseau sont utilisés par l’utilisateur `phil` ou l’UID 500, pour le processus 1521.
 
 ### Synthèse de la partie
 
-On a vu un certain nombre d’outils, mais surtout on a balayé les différentes couches, qui grâce à ces programmes peuvent être administrées de façon plus aisée. Cela permet aux administrateurs de se faire une idée plus précise de leur système quant aux équipements connectés et à leur adresse utilisée.
+Au terme de cette dernière partie, nous avons exploré une large palette d’outils indispensables pour le diagnostic, l’analyse et l’administration des réseaux informatiques. Cette étude, organisée autour des différentes couches du modèle TCP/IP, permet non seulement de mieux comprendre le fonctionnement des communications réseau, mais également d’acquérir une méthodologie rigoureuse pour identifier, localiser et résoudre les problèmes potentiels.
 
-**Couche ACCES RESEAU** :
+Grâce à ces outils, l’administrateur dispose d’un ensemble cohérent de leviers techniques pour surveiller l’état du réseau, analyser les flux, auditer les connexions et intervenir rapidement sur les équipements ou les services défaillants.
 
-- Outil arp
-- Outil tcpdump
-- Outil wireshark
+#### Couche Accès Réseau
 
-**Couche RESEAU** :
+Ces utilitaires offrent une visibilité directe sur les interfaces et les trames :
+- **arp / ip neigh** : inspection et modification du cache ARP/NDP pour vérifier ou corriger les associations IP-MAC ;
+- **tcpdump** : capture en ligne de commande, filtrable et exportable, des paquets circulant sur une interface ;
+- **Wireshark** : décodage graphique approfondi des trames pour une analyse ;
+- **ethtool** : interrogation et réglage dynamiques des paramètres physiques d’une carte Ethernet (vitesse, duplex, WoL...).
 
-- Outil ping
-- Outil route
-- Outil traceroute
-- Outil netstat
+#### Couche Réseau
 
-**Couches TRANSPORT/APPLICATION :**
+Ici, on évalue la connectivité IP, le routage et le cheminement des paquets :
+- **ping** : test d'accessibilité et mesure de latence via ICMP ;
+- **ip route** : consultation et manipulation de la table de routage pour contrôler les chemins empruntés ;
+- **traceroute** : identification, saut par saut, des routeurs traversés jusqu’à la destination ;
+- **ss** : inventaire précis des sockets TCP/UDP et des processus associés (en remplacement de netstat).
 
-- Outil nslookup
-- Outil nmap
-- Outil lsof
+#### Couches Transport et Application
+
+Aux niveaux supérieurs, l’objectif est de diagnostiquer services et processus :
+- **nslookup / dig / host** : requêtes DNS pour valider la résolution de noms et analyser les enregistrements ;
+- **nmap** : exploration des ports ouverts et des services exposés afin d’évaluer la surface d’attaque ;
+- **lsof** : recensement des fichiers et sockets ouverts par les processus, pour corréler activités système et réseau.
+
+La maîtrise conjointe de ces outils, chacun dédié à une étape précise du modèle TCP/IP, permet d’adopter une démarche méthodique : partir de la couche physique, remonter vers le routage, puis jusqu’aux services applicatifs. Cette chaîne d’expertise assure à l’administrateur la capacité de diagnostiquer, de sécuriser et d’optimiser l’infrastructure, ce qui garantie ainsi la performance et la disponibilité du réseau.
 
 
 # Partie finale

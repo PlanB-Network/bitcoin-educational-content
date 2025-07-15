@@ -169,31 +169,31 @@ Ibiranga akenshi amayeri:
 Amaherezo, ama piramide hamwe n'ibishushanyo vya Ponzi vyaremewe gutakaza. Intege nke vyubakiyeko nukokuntu haguma hakenerwa kuzana abanyamitahe bashasha kuriha inyungu kuri bashasha bagiyemwo. Ukwo gukenera birateba bikaba ibidashoboka ubiharuye uko igihe gihera kuko igitigiri c'abakenewe bashasha gikenera kuguma cigwiza uko umugambi ukura. Iyo hashikiriwe urugero rudashimishije, abajamwo baca batangura kugira amakenga, icizere kikagenda, hama piramide yose igasambuka. Kuri runo rugero, abantu binjiye ubwanyuma, kenshi bafise amakuru make, baratakaza imitahe yabo yose ataniyindi nzira yokuyigarukana, mugihe abiteguye canke abashizemwo imitahe yabo baba bavuye mumugambi.
 
 
-Mu isi y’amahera y’amahera, imigambi ya Ponzi irashobora gufata uburyo bwinshi, akenshi ikaba igenewe guhisha kamere yayo y’ubuhendanyi inyuma y’igipfukisho c’ubuhinga canke c’amahera. Ivyo bihendahenda bishobora kugaragara nk’amashikanwa mashasha ya token canke amashikanwa y’ibiceri vy’intango (ICOs), ari vyo bikorwa vyo gukorana amahera aho amafaranga mashasha y’amahera agurishwa ku bantu bose. Inyuma y'amajambo y'ubuhinga nka "Blockchain," "amasezerano y'ubwenge," canke "gutera imbere," imigambi imwimwe mu vy'ukuri iriko iranyegeza imigambi y'ipiramide igoye. Abandi bavuga ko batanga inyungu nyinshi mu gufatanya ivy’ubutunzi biteye amakenga n’uburyo bwo gutanga indishi bwishingikiriza cane ku kwinjira kw’abashoramari bashasha.
+Mw'isi y'ama cryptomonnaies, igicapo ca Ponzi gishobora gufata imforo nyinshi, akenshi ikaba igenewe guhisha kamere yayo yamagendu inyuma y’igipfukisho c'ivy'ubuhinga canke c'ivy'ubutunzi. Anomayeri ashobora kuboneka nka Token nshasha itangwa canke Initial Coin Offerings(ICOs), ibisanzwe ari ibikorwa vy'ugusaba amafaranga aho cryptomonnaie nshasha idandarizwa kumugaragaro. Inyuma y'imvugo z'ubuhinga nka "Blockchain", "Smart Contract", or "Staking" Imigambi imwimwe iranyegeje ibicapo vya piramide biyobeye. Abandi bavuga ko batanga inyungu z'umurengera mugushira hamwe imitungo y'ama crypto iteye amakenga hamwe n'ubuhinga bwukuriha busanzwe bwubakiye vyose ku kwinjira kw’abanyamitahe bashasha.
 
 
-Vuba cane, imigambi ya Ponzi na yo nyene yarakwiragiye mw’isi y’Ivy’Imari Yegerejwe (DeFi). Naho DeFi igamije gutanga ibikorwa vy’ivy’ubutunzi ata bahuza, imigambi imwimwe irayikoresha kugira ngo itange inyiyumvo y’ikinyoma y’uko ubuhendanyi bwayo bubereye. Hariho ama platforms ya DeFi asezerana inyungu nyinshi, zishingiye ku vyemezo muri Exchange ku mahera y’amahera y’amahera y’amahera y’amahera y’amahera y’amahera y’amahera y’amahera y’amahera y’amahera. Ivyo bihembo bikwegera abantu akenshi bishigikirwa n’uburyo butaboneka kandi butashobora kugenzurwa, harimwo ibimenyetso vyaremewe canecane ubuhendanyi. Mu vy’ukuri, izo nzira nta n’uburyo bwo gukora ubudandaji buramba zifise—inyungu zihembwa gusa zivuye mu mahera y’abashasha bazikoresha, nk’uko nyene bigenda ku mugambi wa kera wo guhenda abantu. Iyo ukwizigirana gutangura gusenyuka canke uruja n’uruza rw’abantu bashasha bagabanutse, izo nzira zirasenyuka ata kabuza, bigatuma abashoramari batagira ico bakeka bahomba cane.
+Vuba cane, igicapo ca Ponzi naco nyene carakwiragijwe m'isi y'ubutunzi itagenzurwa(DeFi). Mugihe DeFi yerekeza gutanga ubufasha muvy'ubutunzi, imigambi imwimwe irayikoresha kugira ngo itange imbono y’ikinyoma y’uko amayeri yayo ibereye. imbuga zimwe zimwe za DeFi zizeza inyungu ninshi, zishingiye ku vyemezo mugukabisha itanga ryama Cryptomonnaie munyubako munyubako atawuzikoresha. Kuno kuryosharyosha kenshi na kenshi bikwegera abantu akenshi bishigikirwa n’uburyo butaboneka kandi butashobora kugenzurwa, harimwo ibimenyetso vyaremewe canecane ubuhendanyi. Muvy'ukuri, buno buryo  ntandinganizo irama y'ubudandaji bufise—inyungu murimake irihwa nabashasha bayikoresha, nkakurya kw'igicapo cakera ca Ponzi. Igihe icizere gitanguye guhera canke uruja n'uruza rw'abantu bashasha rugabanutse, buno buhinga burasenyuka atagisivya, bukerekeza kw'iterambere riboneka kubanyamitahe.
 
 
-Turabinginze mumenye ko ibirimwo muri iri shure ari ivy’inyigisho gusa kandi ko bidakwiye gusobanurwamwo impanuro z’ivy’amahera. Umutekano wawe w’amahera uvana n’ubushobozi ufise bwo kuguma wiyubara, ugira amakenga kandi ufise amakuru meza ku ngingo yose ufata mu vy’amahera.
+Tubasabe mufate mumutwe ko inyandiko zakino cigwa zifise ihangiro ry'ukwigisha gusa ntibisiguyeko bifatwa nk'ipanuro. Umutekano w'ivyubutunzi bwawe bivana n’ubushobozi ufise bwo kuguma wiyubara, ugira amakenga kandi ufise amakuru meza ku ngingo yose ufata muvy’amahera.
 
 
-Uburinzi bwiza kuruta ubundi bwose ni ukwama wibaza iki kibazo coroshe: Mu vy’ukuri, iyo ngaruka yasezeranywe iva hehe? Nimba inyishu idasobanutse, nuce uhunga ubwo nyene.
+Umutekano mwiza nikwama ubaza imisi yose kinokibazo : Mu vy’ukuri, nihehe inyungu batwemereye iva ? Nimba inyishu idatahuritse, nuhunge ubwo nyene.
 
 
 #### Ipompa n'Ikinogo
 
 
-Ubwo bwoko bw’ubuhendanyi bujanye n’ugutuma igiciro c’ikintu kiduga mu buryo bw’ubuhinga—kenshi kikaba ari amahera makeyi yitwa token—biciye mu gikorwa co kwamamaza gihujwe, akenshi kikaba kirongowe n’umugwi w’abashoramari. Igishushanyo c'Ipompa n'Ikinogo gikurikira iyi nzira:
+Buno bwoko bw'amayeri bujanye n’ugutuma igiciro c’ikintu kiduga mu buryo bw’ubukorano—kenshi cryptomonnaie ya Token ifise agaciro gatoyi-biciye muruganda rwo kumenyekanisha riyobowe, kenshi rurongowe n'umurwi w'abanyamitahe. Igishushanyo c'Ipompa n'Ikinogo gikurikira iyi nzira:
 
 
 
 
-- Umugwi w’abantu bo mu mutima canke abantu bafise ububasha, bararundanya mu gacerere amahera menshi y’itunga ry’intumbero.
-- Baca batangura igikorwa co kwamamaza generate maze bagatuma igiciro kiduga.
-- Abantu bose muri rusangi, barongowe na FOMO (Ubwoba bwo Kubura), batangura kugura uwo mutungo mu bwinshi, ivyo bikaba bituma igiciro kigenda kirushirizaho.
-- Ku rwego rwo hejuru rw’ivyo bimenyetso, abari mu nzu baragurisha ivyo bafise vyose icarimwe.
-- Igiciro kiragwa, abaje bacerewe bagatakaza cane.
+- Umugwi w’abantu b'indani canke abantu bafise ababayoboka, begeranya batekanye amafaranga menshi y'umutungo bahisemwo.
+- Hama bagatanguza imenyekanisha ryihuta kugira baronke igiciro kinini, bigatuma igiciro kija hejuru.
+- Abantu bose murirusangi, bayobowe na FOMO (Ubwoba bwo Kubura), baca batangura kugura uwo mutungo ku bwinshi, ivyo bikaba bituma igiciro kigenda kiraduga.
+- Ku rwego rwo hejuru rw’ivyo bimenyetso, abari indani baragurisha ivyo bafise vyose icarimwe.
+- Igiciro kirasenyuka, bigatuma abinjiye ubwanyuma batakaza cane.
 
 
 
@@ -201,16 +201,16 @@ Ubwo bwoko bw’ubuhendanyi bujanye n’ugutuma igiciro c’ikintu kiduga mu bur
 ![BTC102-Bitcoin](assets/fr/004.webp)
 
 
-Ni vyiza kumenya ko ingamba za Pump & Dump zitemewe n’amategeko mu bihugu vyinshi kandi zifatwa nk’uburyo bwo gukoresha nabi isoko. Naho ari ukwo, mwene iyo migambi irabandanya gutera imbere cane cane mu kibanza c’amahera y’ivy’ubuhinga bwa none, aho amategeko acariko arakurikirana.
+Ni vyiza kumenya ko amayeri ya Pump & Dump atemewe n’amategeko mu bihugu vyinshi kandi afatwa nk’uburyo bwo gukoresha nabi isoko. Nubwo bimeze uko, mwene iyo migambi irabandanya gutera imbere cane cane mu kibanza c’amahera y’ivy’ubuhinga bwa none, aho amategeko atarashobora kuhaboneka.
 
 
-Ube maso cane cane ku migwi y'abantu ku giti cabo "y'ibimenyetso" ku mbuga nka Telegram, Discord, canke izindi nzira z'ubuhinga bwa none. Ivyo akenshi birongorwa n’abantu bafise influence canke biyita abahinga, bamwe muri bo mbere bagasaba amahera yo kwinjira. Naho iyo migwi ivuga ko itanga amahirwe yo gushiramwo amahera yihariye, ukuri ni ukugira uruhande rumwe: abayitegura ni bo bonyene baronka inyungu, mu gihe benshi mu bari muri iyo migwi baheza bagatakaza amahera yabo.
+Ube maso cane cane ku migwi y'abantu ku giti cabo "y'ibimenyetso" ku mbuga nka Telegram, Discord, canke izindi nzira z'ubuhinga ngurukana bumenyi. Ivyo akenshi birongorwa n’abantu bafise ababayoboka canke biyita abahinga, bamwe muri bo mbere bagasaba amahera yokugira ushobore kwinjiramwo. Naho iyo migwi ivuga ko itanga amahirwe yo gushiramwo amahera yihariye, ukuri ni ukugira uruhande rumwe: abayitegura ni bo bonyene baronka inyungu, mu gihe benshi mu bari muri iyo migwi baheza bagatakaza amafaranga yabo.
 
 
 ![BTC102-Bitcoin](assets/fr/005.webp)
 
 
-Ni ukuri ko bamwe mu bari muri iyo nama bashobora kuronka inyungu mu gihe gitoyi muri ubwo bwoko bw’ugukoresha nabi isoko, ariko ukuroranirwa kwabo akenshi ntigushingiye ku kindi kirenze amahirwe n’igihe ciza. Mu gihe kirekire, iyo migambi ntishobora kuramba. Bisaba ko umuntu ahora yifatanya n’ibintu bishobora gutera ingorane nyinshi kandi akaguma agira uruhara mu bikorwa vy’ubuhendanyi bishobora gusenyuka ata kabuza.
+Wanashima nivyo yuko bamwe mu bari muri iyo migwi bashobora kuronka inyungu mu gihe gitoyi muri ubwo bwoko bw’ugukoresha nabi isoko, ariko ukuroranirwa kwabo akenshi ntigushingiye ku kindi kirenze amahirwe n’igihe canyaco. Mu gihe kirekire, iyo migambi ntishobora kuramba. Bisaba ko umuntu ahora yifatanya n’ibintu bishobora gutera ingorane nyinshi kandi akaguma agira uruhara mu bikorwa vy’amayeri bishobora gusenyuka ata kabuza.
 
 
 N’ikibi kuruta, barafungura mu kwihenda guteye akaga: ukwizera ko bishoboka ko umuntu aronka amahera yihuta kandi yoroshe ataco atahura ingene mu vy’ukuri uburyo bwo gutanga amahera bukora. Ivyo vyiyumviro ntibishira abantu ku giti cabo mu kaga gusa, ariko kandi birahungabanya icizigiro c’ibidukikije vyose vy’amahera y’ibanga .

@@ -224,7 +224,7 @@ description: |
 
 - Per la chiave `name`, puoi aggiungere il nome del tuo contenuto;
 - Per la chiave `description`, devi semplicemente aggiungere un breve paragrafo che descrive il tuo contenuto. La descrizione deve essere nella stessa lingua del nome del file. Non è necessario tradurre questa descrizione in tutte le lingue supportate sul sito, poiché il team di Plan ₿ lo faranno successivamente.
-- 
+
 Ad esempio, ecco come potrebbe apparire il tuo file:
 
 ```yaml
@@ -294,7 +294,7 @@ https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resource
 Quello che stiamo facendo qui è anticipare il futuro link al tuo file, una volta che la tua proposta sarà stata "mergiata" al repository sorgente di Plan ₿ Network.
 
 - Torna al tuo file `bet.yml` e clicca sull'icona della matita:
--
+
 - ![evento](assets/47.webp)
 
 - Aggiungi lì il tuo link:

@@ -4,42 +4,53 @@ description: Mengatur kotak email yang aman
 ---
 ![cover](assets/cover.webp)
 
-Kotak email merupakan elemen sentral dari aktivitas online Anda dan sering memainkan peran penting dalam keamanan komputer Anda. Jika seorang penyerang berhasil mengkompromikan kotak email Anda, mereka mendapatkan akses mudah ke akun lain Anda melalui fungsi "*lupa password*". Ini dapat memungkinkan mereka untuk mengontrol jaringan sosial Anda, akun bank Anda, dan layanan online lainnya, karena saat ini, alamat email sering digunakan sebagai pengenal unik identitas online Anda. Oleh karena itu, mengamankan kotak email Anda sangat penting untuk melindungi diri dari serangan.
+Kotak email merupakan elemen sentral dari aktivitas online Anda dan sering kali memainkan peran penting dalam keamanan siber Anda. Apabila penyerang berhasil menyusupi kotak email Anda, mereka akan dengan mudah memperoleh akses ke akun-akun Anda yang lain melalui fungsi "*forgot password* (lupa kata sandi)". Hal ini memungkinkan mereka untuk mengendalikan sosial media, rekening bank, dan layanan online lainnya, sebab saat ini alamat email sering digunakan sebagai pengidentifikasi unik identitas daring Anda. Oleh karena itu, mengamankan kotak email Anda sangat penting untuk melindungi diri dari serangan.
 
-Untuk memastikan keamanan kotak email Anda, penting untuk mengadopsi beberapa praktik baik sederhana yang kami pelajari dalam tutorial ini yang ditujukan untuk pemula dalam komputasi. Juga penting untuk memilih penyedia email yang aman yang menawarkan opsi perlindungan lanjutan dan kebijakan perlindungan privasi yang kuat. Itulah mengapa saya merekomendasikan dalam tutorial ini untuk menemukan ProtonMail. Meskipun Anda lebih memilih untuk tidak menggunakan penyedia ini, praktik baik yang disajikan di sini dapat diterapkan pada kotak email apa pun untuk meningkatkan keamanannya.
+Untuk menjamin keamanan kotak email Anda, penting untuk menerapkan beberapa praktik baik sederhana yang akan kita pelajari dalam tutorial ini yang ditujukan bagi pemula dalam bidang komputer. Selain itu, penting untuk memilih penyedia email yang aman yang menawarkan opsi perlindungan canggih dan kebijakan perlindungan privasi yang kuat. Itulah sebabnya dalam tutorial ini saya merekomendasikan untuk mengenal ProtonMail. Meskipun Anda tidak memilih penyedia ini, praktik-praktik baik yang diberikan di sini dapat diterapkan pada kotak email mana pun untuk meningkatkan keamanannya.
 
 ## Mengapa menggunakan ProtonMail?
 
-ProtonMail adalah solusi perpesanan yang cukup aman berkat beberapa fitur. Pertama-tama, ProtonMail memastikan enkripsi ujung-ke-ujung pada email Anda, yang berarti hanya pengirim dan penerima yang dapat membaca isinya. Secara teori, bahkan ProtonMail tidak dapat mengakses email penggunanya. Enkripsi ini diterapkan secara otomatis, tanpa memerlukan keterampilan teknis khusus dari pengguna.
+ProtonMail adalah solusi pesan yang cukup aman berkat beberapa fitur unggulan. Pertama, ProtonMail memastikan enkripsi end-to-end (ujung-ke-ujung) pada email Anda, yang berarti hanya pengirim dan penerima yang dapat membaca isinya. Secara teoretis, bahkan ProtonMail sendiri tidak dapat mengakses email penggunanya. Enkripsi ini diterapkan secara otomatis, sehingga tidak memerlukan keahlian teknis khusus dari pengguna.
 
-Selain itu, ProtonMail mengintegrasikan teknologi canggih untuk melindungi privasi Anda, termasuk memblokir sistem pelacakan tertentu dan menyembunyikan alamat IP Anda. Berbasis di Swiss, perusahaan Proton mendapat manfaat dari beberapa undang-undang perlindungan data yang tidak ditemukan di negara lain. Selain itu, ProtonMail bersifat open-source, yang memungkinkan para ahli independen untuk secara bebas mengaudit kode perangkat lunak.
+Selain itu, ProtonMail mengintegrasikan teknologi canggih untuk melindungi privasi Anda, termasuk pemblokiran sistem pelacakan tertentu dan penyamaran alamat IP Anda. Berbasis di Swiss, perusahaan Proton diuntungkan oleh undang-undang perlindungan data yang ketat yang tidak ditemukan di negara lain. Ditambah lagi, ProtonMail adalah open-source,, yang memungkinkan para ahli independen untuk secara bebas mengaudit kode perangkat lunaknya.
 
-Model bisnis Proton didasarkan pada sistem berlangganan, yang menenangkan karena menunjukkan bahwa perusahaan dibiayai tanpa harus mengeksploitasi data penggunanya. Dalam tutorial ini, kita akan menjelajahi cara menggunakan versi gratis dari ProtonMail, tetapi ada juga beberapa tingkat langganan yang menawarkan lebih banyak fitur. Model bisnis ini lebih disukai daripada sistem yang sepenuhnya gratis, yang dapat menimbulkan kekhawatiran tentang apakah data pribadi kita digunakan untuk keuntungan. Untungnya, ini tampaknya tidak terjadi dengan ProtonMail.
+Model bisnis Proton didasarkan pada sistem berlangganan, yang meyakinkan karena menunjukkan bahwa perusahaan didanai tanpa harus mengeksploitasi data penggunanya. Dalam tutorial ini, kita akan menjelajahi cara menggunakan versi gratis ProtonMail, tetapi juga tersedia beberapa tingkat langganan yang menawarkan lebih banyak fitur. Model bisnis ini lebih baik daripada sistem yang sepenuhnya gratis, yang dapat menimbulkan kekhawatiran tentang apakah data pribadi kita digunakan untuk keuntungan. Untungnya, hal ini tampaknya tidak terjadi pada ProtonMail.
 
 ## Membuat akun Proton
 
-Kunjungi situs resmi proton: https://proton.me/
-
+Kunjungi situs resmi Proton: https://proton.me/
 ![proton](assets/notext/01.webp)
 
-Klik tombol "*Create an account*":
+Klik tombol "*Create an account (Buat akun)*":
+![proton](assets/notext/02.webp)
+
 Anda memiliki opsi untuk memilih dari berbagai rencana sesuai dengan kebutuhan Anda. Untuk memulai, Anda dapat memilih akun gratis, yang akan memungkinkan Anda untuk menguji layanan dasar dari ProtonMail. Nanti, jika Anda ingin mengakses fitur tambahan dan perangkat lunak Proton lainnya seperti Kalender, VPN, atau Pengelola Kata Sandi, Anda dapat mempertimbangkan untuk berlangganan rencana berbayar.
+![proton](assets/notext/03.webp)
 
 Anda kemudian tiba di halaman pembuatan akun.
+![proton](assets/notext/04.webp)
 
 Anda dapat memilih nama domain yang Anda sukai untuk alamat email Anda dengan mengklik panah kecil. Pilihan ini tidak berdampak pada apa yang mengikuti.
+![proton](assets/notext/05.webp)
 
 Juga, pilih nama pengguna untuk alamat email Anda.
+![proton](assets/notext/06.webp)
 
 Anda kemudian diminta untuk menetapkan kata sandi. Penting untuk memilih kata sandi yang kuat pada tahap ini, karena itu akan memungkinkan akses ke kotak surat Anda. Kata sandi yang kuat harus sepanjang mungkin, menggunakan berbagai karakter yang luas, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk kata sandi yang aman adalah 13 karakter termasuk angka, huruf kecil dan huruf besar, serta simbol, asalkan kata sandi tersebut benar-benar acak. Namun, saya merekomendasikan untuk memilih kata sandi setidaknya 20 karakter, termasuk semua jenis karakter yang mungkin, untuk memastikan keamanannya lebih lama.
 Penggunaan manajer kata sandi adalah praktik yang sangat baik. Ini tidak hanya memungkinkan Anda untuk menyimpan kata sandi Anda secara aman tanpa harus mengingatnya, tetapi juga dapat menghasilkan kata sandi yang panjang dan acak untuk Anda. Memang benar manusia sangat buruk dalam menciptakan urutan acak, dan kata sandi yang tidak cukup acak dapat rentan terhadap serangan brute force. Saya juga merekomendasikan untuk berkonsultasi dengan tutorial lengkap kami tentang pengaturan manajer kata sandi untuk lebih detail mengenai topik ini:
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
+![proton](assets/notext/07.webp)
 Klik tombol "*Create Account*".
 
+![proton](assets/notext/08.webp)
+
 Selesaikan CAPTCHA.
+![proton](assets/notext/09.webp)
 
 Pilih nama tampilan. Ini adalah nama yang akan ditampilkan kepada penerima Anda ketika Anda mengirim email. Pilih nama asli Anda atau nama panggilan.
+![proton](assets/notext/09.webp)
+
 Proton juga menawarkan Anda opsi untuk menetapkan metode pemulihan akun Anda, baik melalui nomor telepon Anda atau dengan alamat email alternatif. Penting untuk dipahami bahwa opsi ini dapat meningkatkan permukaan serangan pada kotak masuk email Anda. Bagi Anda, ini adalah langkah keamanan tambahan untuk mendapatkan kembali akses ke akun Anda jika Anda lupa kata sandi, tetapi bagi peretas, ini adalah kesempatan ekstra untuk mencoba membobol akun Anda. Anda tidak diwajibkan untuk memilih opsi pemulihan ini, tetapi jika Anda memutuskan untuk tidak melakukannya, pastikan untuk menyimpan salinan kata sandi Anda yang aman. Tanpanya, jika Anda kehilangan kata sandi, Anda akan tidak dapat memulihkan akses ke kotak masuk email Anda.
 ![proton](assets/notext/11.webp)
 

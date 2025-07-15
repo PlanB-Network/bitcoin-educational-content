@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -54,7 +54,7 @@ tags:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language: 
   - fr
@@ -68,7 +68,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-もしまだお使いの組織に"*builder*"識別子がない場合は、この他のチュートリアルに従って追加することができます。
+もしまだお使いの組織に"*project*"識別子がない場合は、この他のチュートリアルに従って追加することができます。
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - このファイルへの変更が完了したら、`Commit changes...`ボタンをクリックして保存してください：
@@ -209,3 +209,4 @@ PRの進捗状況を確認し続けてください。管理者が追加情報を
 ![conference](assets/46.webp)
 
 貴重な貢献をいただき、誠にありがとうございます！ :)
+

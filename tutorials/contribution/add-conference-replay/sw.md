@@ -66,7 +66,7 @@ Jaza faili hii habari inayohusiana na mkutano wako kwa kutumia kiolezo hiki:
 ```yaml
 year:
 name:
-builder:
+project:
 location:
 language:
 -
@@ -85,7 +85,7 @@ Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language:
 - fr

@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,7 +79,7 @@ contributors:
 
 
 
-- `builder`**：表示您的組織在 PlanB Network 上的識別碼。如果您的公司還沒有 "builder "識別碼，您可以按照本教學建立一個。
+- `project`**：表示您的組織在 PlanB Network 上的識別碼。如果您的公司還沒有 "project "識別碼，您可以按照本教學建立一個。
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

@@ -36,7 +36,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -61,7 +61,7 @@ address_line_1: Paris, Frankrike
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -83,7 +83,7 @@ tags:
   - Internasjonal
 ```
 ![event](assets/09.webp)
-Hvis du ennå ikke har en "*builder*" identifikator for din organisasjon, kan du legge den til ved å følge denne andre opplæringen.
+Hvis du ennå ikke har en "*project*" identifikator for din organisasjon, kan du legge den til ved å følge denne andre opplæringen.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 

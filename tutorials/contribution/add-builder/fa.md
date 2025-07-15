@@ -2,7 +2,7 @@
 name: افزودن یک سازنده
 description: چگونه پیشنهاد اضافه کردن یک سازنده جدید در شبکه PlanB را ارائه دهیم؟
 ---
-![builder](assets/cover.webp)
+![project](assets/cover.webp)
 
 
 ماموریت PlanB ارائه منابع آموزشی درجه یک در مورد Bitcoin به بیشترین تعداد زبان ممکن است. تمام محتوای منتشر شده در سایت منبع باز است و در GitHub میزبانی می‌شود، که به هر کسی اجازه می‌دهد در غنی‌سازی این پلتفرم مشارکت کند.
@@ -10,7 +10,7 @@ description: چگونه پیشنهاد اضافه کردن یک سازنده ج�
 
 آیا می‌خواهید یک Bitcoin "سازنده" جدید به سایت شبکه PlanB اضافه کنید و به شرکت یا نرم‌افزار خود دیده‌شدن بدهید، اما نمی‌دانید چگونه؟ این آموزش برای شماست!
 
-![builder](assets/01.webp)
+![project](assets/01.webp)
 
 
 - ابتدا، شما نیاز به یک حساب GitHub دارید. اگر نمی‌دانید چگونه یک حساب ایجاد کنید، ما یک آموزش جامع برای راهنمایی شما تهیه کرده‌ایم.
@@ -20,39 +20,39 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/builders) در بخش `resources/builder/` بروید:
+- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/builders) در بخش `resources/project/` بروید:
 
-![builder](assets/02.webp)
+![project](assets/02.webp)
 
 
 - در بالا سمت راست روی دکمه `Add file` کلیک کنید، سپس روی `Create new file`:
 
-![builder](assets/03.webp)
+![project](assets/03.webp)
 
 
 - اگر تا به حال به محتوای شبکه PlanB کمک نکرده‌اید، نیاز دارید که Fork مخزن اصلی را ایجاد کنید. فورک کردن یک مخزن به معنای ایجاد یک کپی از آن مخزن در حساب GitHub خودتان است که به شما اجازه می‌دهد روی پروژه کار کنید بدون اینکه مخزن اصلی تحت تأثیر قرار گیرد. روی دکمه `Fork this repository` کلیک کنید:
 
-![builder](assets/04.webp)
+![project](assets/04.webp)
 
 
 - سپس به صفحه ویرایش GitHub خواهید رسید:
 
-![builder](assets/05.webp)
+![project](assets/05.webp)
 
 
 - یک پوشه برای شرکت خود ایجاد کنید. برای انجام این کار، در کادر `Name your file...`، نام شرکت خود را با حروف کوچک و به جای فاصله از خط تیره استفاده کنید. به عنوان مثال، اگر شرکت شما "Bitcoin Baguette" نام دارد، باید بنویسید `Bitcoin-baguette`:
 
-![builder](assets/06.webp)
+![project](assets/06.webp)
 
 
 - برای تأیید ایجاد پوشه، به سادگی یک اسلش بعد از نام خود در همان کادر اضافه کنید، به عنوان مثال: `Bitcoin-baguette/`. اضافه کردن یک اسلش به طور خودکار یک پوشه ایجاد می‌کند نه یک فایل:
 
-![builder](assets/07.webp)
+![project](assets/07.webp)
 
 
-- در این پوشه، شما یک فایل YAML به نام `builder.yml` ایجاد خواهید کرد:
+- در این پوشه، شما یک فایل YAML به نام `project.yml` ایجاد خواهید کرد:
 
-![builder](assets/08.webp)
+![project](assets/08.webp)
 
 
 - این فایل را با اطلاعات مربوط به شرکت خود با استفاده از این الگو پر کنید:
@@ -136,138 +136,138 @@ category: education
 ```
 
 
-![builder](assets/09.webp)
+![project](assets/09.webp)
 
 
 - پس از اتمام ایجاد تغییرات در این فایل، با کلیک بر روی دکمه `Commit changes...` آن‌ها را ذخیره کنید:
 
-![builder](assets/10.webp)
+![project](assets/10.webp)
 
 
 - یک عنوان برای تغییرات خود اضافه کنید، همراه با یک توضیح کوتاه:
 
-![builder](assets/11.webp)
+![project](assets/11.webp)
 
 
 - روی دکمه `Propose changes` Green کلیک کنید:
 
-![builder](assets/12.webp)
+![project](assets/12.webp)
 
 
 - سپس به صفحه‌ای خواهید رسید که خلاصه‌ای از تمام تغییرات شما را نشان می‌دهد:
 
-![builder](assets/13.webp)
+![project](assets/13.webp)
 
 
 - روی تصویر پروفایل GitHub خود در بالا سمت راست کلیک کنید، سپس روی `Your Repositories`:
 
-![builder](assets/14.webp)
+![project](assets/14.webp)
 
 
 - مخزن Fork از مخزن PlanB Network خود را انتخاب کنید:
 
-![builder](assets/15.webp)
+![project](assets/15.webp)
 
 
 - باید یک اعلان در بالای پنجره با شاخه جدید خود ببینید. احتمالاً به نام `patch-1` است. روی آن کلیک کنید:
 
-![builder](assets/16.webp)
+![project](assets/16.webp)
 
 
 - شما اکنون در شاخه کاری خود هستید (**اطمینان حاصل کنید که در همان شاخه‌ای هستید که تغییرات قبلی خود را انجام داده‌اید، این مهم است!**):
 
-![builder](assets/17.webp)
+![project](assets/17.webp)
 
 
-- به پوشه `resources/builders/` برگردید و پوشه کسب‌وکار خود را که در کامیت قبلی ایجاد کرده‌اید، انتخاب کنید:
+- به پوشه `resources/projects/` برگردید و پوشه کسب‌وکار خود را که در کامیت قبلی ایجاد کرده‌اید، انتخاب کنید:
 
-![builder](assets/18.webp)
+![project](assets/18.webp)
 
 
 - در پوشه کسب‌وکار خود، روی دکمه `افزودن فایل` کلیک کنید، سپس روی `ایجاد فایل جدید`:
 
-![builder](assets/19.webp)
+![project](assets/19.webp)
 
 
 - این پوشه جدید را `assets` نام‌گذاری کنید و با قرار دادن یک اسلش `/` در انتها، ایجاد آن را تأیید کنید:
 
-![builder](assets/20.webp)
+![project](assets/20.webp)
 
 
 - در این پوشه `assets`، فایلی به نام `.gitkeep` ایجاد کنید:
 
-![builder](assets/21.webp)
+![project](assets/21.webp)
 
 
 - روی دکمه `Commit changes...` کلیک کنید:
 
-![builder](assets/22.webp)
+![project](assets/22.webp)
 
 
-- عنوان کامیت را به صورت پیش‌فرض بگذارید و مطمئن شوید که گزینه `Commit directly to the patch-1 branch` تیک خورده است، سپس روی `Commit changes` کلیک کنید: ![builder](assets/23.webp)
+- عنوان کامیت را به صورت پیش‌فرض بگذارید و مطمئن شوید که گزینه `Commit directly to the patch-1 branch` تیک خورده است، سپس روی `Commit changes` کلیک کنید: ![project](assets/23.webp)
 - به پوشه `assets` برگردید:
 
-![builder](assets/24.webp)
+![project](assets/24.webp)
 
 
 - روی دکمه `Add file` کلیک کنید، سپس روی `Upload files`:
 
-![builder](assets/25.webp)
+![project](assets/25.webp)
 
 
 - صفحه جدیدی باز خواهد شد. تصویر شرکت یا نرم‌افزار خود را به این ناحیه بکشید و رها کنید. این تصویر در سایت PlanB Network نمایش داده خواهد شد:
 
-![builder](assets/26.webp)
+![project](assets/26.webp)
 
 
 - می‌تواند لوگو یا یک آیکون باشد:
 
-![builder](assets/27.webp)
+![project](assets/27.webp)
 
 
 - پس از بارگذاری تصویر، اطمینان حاصل کنید که کادر `Commit directly to the patch-1 branch` علامت‌گذاری شده است، سپس روی `Commit changes` کلیک کنید:
 
-![builder](assets/28.webp)
+![project](assets/28.webp)
 
 
 - مراقب باشید، تصویر شما باید مربع باشد، باید به نام `logo` باشد و باید در فرمت `.webp` باشد. بنابراین نام کامل فایل باید به این صورت باشد: `logo.webp`:
 
-![builder](assets/29.webp)
+![project](assets/29.webp)
 
 
 - به پوشه `assets` خود برگردید و روی فایل میانی `.gitkeep` کلیک کنید:
 
-![builder](assets/30.webp)
+![project](assets/30.webp)
 
 
 - پس از باز کردن فایل، روی سه نقطه کوچک در بالا سمت راست کلیک کنید و سپس روی `Delete file`:
 
-![builder](assets/31.webp)
+![project](assets/31.webp)
 
 
 - تأیید کنید که هنوز در همان شاخه کاری هستید، سپس روی دکمه `Commit changes` کلیک کنید:
 
-![builder](assets/32.webp)
+![project](assets/32.webp)
 
 
 - به تغییرات خود یک عنوان و توضیح اضافه کنید، سپس روی `Commit changes` کلیک کنید:
 
-![builder](assets/33.webp)
+![project](assets/33.webp)
 
 
 - به پوشه شرکت خود برگردید:
 
-![builder](assets/34.webp)
+![project](assets/34.webp)
 
 
 - روی دکمه `Add file` کلیک کنید، سپس روی `Create new file`:
 
-![builder](assets/35.webp)
+![project](assets/35.webp)
 
 
 - یک فایل YAML جدید ایجاد کنید و آن را با نشانگر زبان مادری خود نام‌گذاری کنید. این فایل برای توضیحات سازنده استفاده خواهد شد. به عنوان مثال، اگر بخواهم توضیحات خود را به انگلیسی بنویسم، این فایل را `fa.yml` نام‌گذاری خواهم کرد:
 
-![builder](assets/36.webp)
+![project](assets/36.webp)
 
 
 - لطفاً قالب YAML را ارائه دهید تا بتوانم آن را برای شما پر کنم.
@@ -292,48 +292,48 @@ contributors:
 -
 ```
 
-![builder](assets/37.webp)
+![project](assets/37.webp)
 
 
 - روی دکمه `Commit changes` کلیک کنید:
 
-![builder](assets/38.webp)
+![project](assets/38.webp)
 
 
 - اطمینان حاصل کنید که کادر `Commit directly to the patch-1 branch` علامت‌دار است، یک عنوان اضافه کنید، سپس روی `Commit changes` کلیک کنید:
 
-![builder](assets/39.webp)
+![project](assets/39.webp)
 
 
 - پوشه شرکت شما اکنون باید به این شکل باشد:
 
-![builder](assets/40.webp)
+![project](assets/40.webp)
 
 
 - اگر همه چیز رضایت‌بخش است، به ریشه Fork خود بازگردید:
 
-![builder](assets/41.webp)
+![project](assets/41.webp)
 
 
 - شما باید پیامی ببینید که نشان می‌دهد شاخه شما تغییراتی داشته است. روی دکمه `Compare & pull request` کلیک کنید:
 
-![builder](assets/42.webp)
+![project](assets/42.webp)
 
 
 - یک عنوان و توضیح واضح به درخواست ادغام خود اضافه کنید:
 
-![builder](assets/43.webp)
+![project](assets/43.webp)
 
 
 - روی دکمه `Create pull request` کلیک کنید:
 
-![builder](assets/44.webp)
+![project](assets/44.webp)
 
 تبریک می‌گوییم! درخواست شما با موفقیت ایجاد شد. اکنون یک مدیر آن را بررسی خواهد کرد و در صورت صحت، آن را در مخزن اصلی شبکه PlanB ادغام خواهد کرد. شما باید پروفایل سازنده خود را چند روز بعد در وب‌سایت مشاهده کنید.
 
 
 حتماً پیشرفت PR خود را دنبال کنید. ممکن است یک مدیر نظر بگذارد و اطلاعات بیشتری بخواهد. تا زمانی که PR شما تأیید نشده است، می‌توانید آن را در زبانه `Pull requests` در مخزن GitHub شبکه PlanB مشاهده کنید:
 
-![builder](assets/45.webp)
+![project](assets/45.webp)
 
 خیلی ممنون از مشارکت ارزشمند شما! :)

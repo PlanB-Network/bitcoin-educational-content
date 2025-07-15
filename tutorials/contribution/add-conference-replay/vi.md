@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -54,7 +54,7 @@ Ví dụ, tệp YAML của bạn có thể trông như thế này:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language: 
   - fr
@@ -68,7 +68,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-Nếu bạn chưa có một định danh "*builder*" cho tổ chức của mình, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
+Nếu bạn chưa có một định danh "*project*" cho tổ chức của mình, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Sau khi bạn hoàn thành việc thay đổi tệp này, hãy lưu chúng bằng cách nhấp vào nút `Commit changes...`:
@@ -205,3 +205,4 @@ Hãy chắc chắn theo dõi tiến trình của PR của bạn. Có thể một
 ![hội nghị](assets/46.webp)
 
 Cảm ơn bạn rất nhiều vì đã đóng góp giá trị của mình! :)
+

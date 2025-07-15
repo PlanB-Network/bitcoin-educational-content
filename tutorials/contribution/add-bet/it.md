@@ -97,6 +97,8 @@ type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
   view:
+```
+
 - Nel mio esempio, lascerò i link vuoti per ora, poiché aggiungerò il mio PDF direttamente su GitHub:
 
 ![event](assets/09.webp)

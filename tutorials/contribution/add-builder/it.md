@@ -13,7 +13,7 @@ Vuoi aggiungere un nuovo "project" Bitcoin al sito della rete PlanB e dare visib
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) nella sezione `resources/project/`:
+- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) nella sezione `resources/project/`:
 ![project](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:
 ![project](assets/03.webp)

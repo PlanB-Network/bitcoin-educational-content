@@ -13,7 +13,7 @@ Chcete-li přidat nového Bitcoin "tvůrce" na web síti PlanB Network a zvýši
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Přejděte na [GitHub repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) v sekci `resources/project/`:
+- Přejděte na [GitHub repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) v sekci `resources/project/`:
 ![project](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file` a poté na `Create new file`:
 ![project](assets/03.webp)

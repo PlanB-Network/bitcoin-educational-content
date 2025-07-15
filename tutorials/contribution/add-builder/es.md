@@ -13,7 +13,7 @@ La misión de PlanB es proporcionar recursos educativos de primera categoría so
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) en la sección `resources/project/`:
+- Ve al [repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) en la sección `resources/project/`:
 ![constructor](assets/02.webp)
 - Haz clic en la parte superior derecha en el botón `Add file`, luego en `Create new file`:
 ![constructor](assets/03.webp)

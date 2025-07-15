@@ -9,7 +9,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 Apakah Anda ingin menambahkan "pembangun" Bitcoin baru ke situs Jaringan PlanB dan memberikan visibilitas untuk perusahaan atau perangkat lunak Anda, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
 ![project](assets/01.webp)
 - Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
-- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) di bagian `resources/project/`:
+- Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) di bagian `resources/project/`:
 ![project](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, lalu pada `Create new file`:
 ![project](assets/03.webp)

@@ -20,7 +20,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- [डेटा के लिए समर्पित PlanB के GitHub रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/builders) पर जाएं, `resources/project/` अनुभाग में:
+- [डेटा के लिए समर्पित PlanB के GitHub रिपॉजिटरी](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) पर जाएं, `resources/project/` अनुभाग में:
 
 ![project](assets/02.webp)
 

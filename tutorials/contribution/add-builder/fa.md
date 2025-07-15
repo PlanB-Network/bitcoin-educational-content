@@ -20,7 +20,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/builders) در بخش `resources/project/` بروید:
+- به [مخزن GitHub از PlanB که به داده‌ها اختصاص دارد](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) در بخش `resources/project/` بروید:
 
 ![project](assets/02.webp)
 

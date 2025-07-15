@@ -20,7 +20,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Przejdź do [repozytorium GitHub PlanB poświęconego danym](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/builders) w sekcji `resources/project/`:
+- Przejdź do [repozytorium GitHub PlanB poświęconego danym](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) w sekcji `resources/project/`:
 
 ![project](assets/02.webp)
 

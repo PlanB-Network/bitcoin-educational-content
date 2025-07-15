@@ -13,7 +13,7 @@ PlanB's oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin, på s
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/builders) i `resources/project/`-seksjonen:
+- Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/projects) i `resources/project/`-seksjonen:
 ![project](assets/02.webp)
 - Klikk øverst til høyre på `Add file`-knappen, deretter på `Create new file`:
 ![project](assets/03.webp)

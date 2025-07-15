@@ -24,13 +24,13 @@ Kunjungi situs resmi Proton: https://proton.me/
 Klik tombol "*Create an account (Buat akun)*":
 ![proton](assets/notext/02.webp)
 
-Anda memiliki opsi untuk memilih dari berbagai rencana sesuai dengan kebutuhan Anda. Untuk memulai, Anda dapat memilih akun gratis, yang akan memungkinkan Anda untuk menguji layanan dasar dari ProtonMail. Nanti, jika Anda ingin mengakses fitur tambahan dan perangkat lunak Proton lainnya seperti Kalender, VPN, atau Pengelola Kata Sandi, Anda dapat mempertimbangkan untuk berlangganan rencana berbayar.
+Anda memiliki opsi untuk memilih dari berbagai paket sesuai kebutuhan Anda. Sebagai permulaan, Anda bisa memilih akun gratis, yang memungkinkan Anda menguji layanan dasar ProtonMail. Kemudian, jika Anda ingin mengakses fitur tambahan dan perangkat lunak Proton lainnya seperti Kalender, VPN, atau Pengelola Kata Sandi, Anda dapat mempertimbangkan untuk berlangganan paket berbayar.
 ![proton](assets/notext/03.webp)
 
 Anda kemudian tiba di halaman pembuatan akun.
 ![proton](assets/notext/04.webp)
 
-Anda dapat memilih nama domain yang Anda sukai untuk alamat email Anda dengan mengklik panah kecil. Pilihan ini tidak berdampak pada apa yang mengikuti.
+Anda dapat memilih nama domain yang Anda inginkan untuk alamat email Anda dengan mengklik panah kecil. Pilihan ini tidak memengaruhi langkah selanjutnya.
 ![proton](assets/notext/05.webp)
 
 Juga, pilih nama pengguna untuk alamat email Anda.
@@ -41,7 +41,7 @@ Penggunaan manajer kata sandi adalah praktik yang sangat baik. Ini tidak hanya m
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
-Klik tombol "*Create Account*".
+Klik tombol "*Create Account (Buat akun)*".
 
 ![proton](assets/notext/08.webp)
 

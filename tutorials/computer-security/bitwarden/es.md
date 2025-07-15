@@ -15,7 +15,7 @@ El segundo principio esencial es la fortaleza de la contraseña. Una contraseña
 Aplicar estos dos principios de seguridad de contraseñas (unicidad y robustez) puede resultar difícil en la vida cotidiana, ya que es casi imposible memorizar una contraseña única, aleatoria y fuerte para todas nuestras cuentas. Aquí es donde entra en juego el gestor de contraseñas.
 
 Un gestor de contraseñas genera y almacena de forma segura contraseñas fuertes, permitiéndote acceder a todas tus cuentas en línea sin la necesidad de memorizarlas individualmente. Solo necesitas recordar una contraseña, la contraseña maestra, que te da acceso a todas tus contraseñas guardadas en el gestor. Usar un gestor de contraseñas mejora tu seguridad en línea porque previene la reutilización de contraseñas y genera sistemáticamente contraseñas aleatorias. Pero también simplifica tu uso diario de tus cuentas centralizando el acceso a tu información sensible.
-En este tutorial, exploraremos cómo configurar y usar un gestor de contraseñas para mejorar tu seguridad en línea. Te presentaré a Bitwarden, y en otro tutorial, veremos otra solución llamada KeePass.
+En este tutorial, exploraremos cómo configurar y usar un gestor de contraseñas para mejorar tu seguridad en línea. Te presentaremos Bitwarden, y en otro tutorial, veremos otra solución llamada KeePass.
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Advertencia: Un gestor de contraseñas es excelente para almacenar contraseñas, pero **¡nunca debes almacenar la frase mnemotécnica de tu billetera de Bitcoin en él!** Recuerda, una frase mnemotécnica debe guardarse exclusivamente en un formato físico, como un pedazo de papel o metal.
@@ -30,7 +30,7 @@ Además, Bitwarden es de código abierto, lo que significa que el software puede
 - Una versión premium por $10 al año que incluye características adicionales como almacenamiento de archivos, respaldo de tarjetas bancarias, la capacidad de configurar 2FA con una llave de seguridad física y acceso a la autenticación 2FA TOTP directamente con Bitwarden;
 - Y un plan familiar por $40 al año que extiende los beneficios de la versión premium a seis usuarios diferentes.
 ![BITWARDEN](assets/notext/02.webp)
-En mi opinión, estos precios son justos. La versión gratuita es una excelente opción para principiantes, y la versión premium ofrece una muy buena relación calidad-precio en comparación con otros gestores de contraseñas en el mercado, al ofrecer más características. Además, el hecho de que Bitwarden sea de código abierto es una gran ventaja. Por lo tanto, es un compromiso interesante, especialmente para principiantes.
+En nuestra opinión, estos precios son justos. La versión gratuita es una excelente opción para principiantes, y la versión premium ofrece una muy buena relación calidad-precio en comparación con otros gestores de contraseñas en el mercado, al ofrecer más características. Además, el hecho de que Bitwarden sea de código abierto es una gran ventaja. Por lo tanto, es una opción interesante, especialmente para principiantes.
 Otra característica de Bitwarden es la capacidad de autoalojar tu gestor de contraseñas si posees, por ejemplo, un NAS en casa. Al configurar esta configuración, tus contraseñas no se almacenan en los servidores de Bitwarden, sino en tus propios servidores. Esto te da control completo sobre la disponibilidad de tus contraseñas. Sin embargo, esta opción requiere una gestión rigurosa de respaldos para evitar cualquier pérdida de acceso. Por lo tanto, el autoalojamiento de Bitwarden está más adaptado para usuarios avanzados, y lo discutiremos en otro tutorial.
 ## ¿Cómo crear una cuenta de Bitwarden?
 
@@ -40,9 +40,9 @@ Comienza ingresando tu dirección de correo electrónico así como tu nombre o a
 ![BITWARDEN](assets/notext/04.webp)
 A continuación, necesitarás configurar tu contraseña maestra. Como vimos en la introducción, esta contraseña es muy importante porque te da acceso a todas tus otras contraseñas guardadas en el gestor. Esto presenta dos riesgos principales: pérdida y compromiso. Si pierdes acceso a esta contraseña, ya no podrás acceder a todas tus credenciales. Si tu contraseña es robada, el atacante podrá acceder a todas tus cuentas.
 
-Para minimizar el riesgo de pérdida, recomiendo hacer una copia de seguridad física de tu contraseña maestra en papel y almacenarla en un lugar seguro. Si es posible, sella esta copia de seguridad en un sobre seguro para asegurarte regularmente de que nadie más ha accedido a ella.
+Para minimizar el riesgo de pérdida, recomendamos hacer una copia de seguridad física de tu contraseña maestra en papel y almacenarla en un lugar seguro. Si es posible, sella esta copia de seguridad en un sobre seguro para asegurarte regularmente de que nadie más ha accedido a ella.
 
-Para prevenir el compromiso de tu contraseña maestra, debe ser extremadamente robusta. Debería ser lo más larga posible, usar una amplia variedad de caracteres y ser elegida al azar. En 2024, las recomendaciones mínimas para una contraseña segura son 13 caracteres incluyendo números, letras minúsculas y mayúsculas, así como símbolos, siempre que la contraseña sea verdaderamente aleatoria. Sin embargo, recomiendo optar por una contraseña de al menos 20 caracteres, incluyendo todos los tipos posibles de caracteres, para asegurar su seguridad por más tiempo.
+Para prevenir el compromiso de tu contraseña maestra, debe ser extremadamente robusta. Debería ser lo más larga posible, usar una amplia variedad de caracteres y ser elegida al azar. En 2024, las recomendaciones mínimas para una contraseña segura son 13 caracteres incluyendo números, letras minúsculas y mayúsculas, así como símbolos, siempre que la contraseña sea verdaderamente aleatoria. Sin embargo, recomendamos optar por una contraseña de al menos 20 caracteres, incluyendo todos los tipos posibles de caracteres, para asegurar su seguridad por más tiempo.
 
 Ingresa tu contraseña maestra en el cuadro dedicado y confírmala en el siguiente cuadro.
 ![BITWARDEN](assets/notext/05.webp)
@@ -64,9 +64,9 @@ Luego haz clic en el botón recibido por correo electrónico.
 ![BITWARDEN](assets/notext/12.webp)
 Finalmente, inicia sesión de nuevo.
 ![BITWARDEN](assets/notext/13.webp)
-Antes que nada, te aconsejo encarecidamente configurar la autenticación de dos factores (2FA) para asegurar tu gestor de contraseñas. Tienes la opción de usar una aplicación TOTP o una llave de seguridad física. Al activar 2FA, cada vez que inicies sesión en tu cuenta de Bitwarden, se te pedirá no solo tu contraseña maestra sino también una prueba de tu segundo factor de autenticación. Esto es una capa adicional de seguridad, particularmente útil en el caso de que tu copia de seguridad en papel de la contraseña maestra se vea comprometida.
+Antes que nada, te aconsejamos configurar la autenticación de dos factores (2FA) para asegurar tu gestor de contraseñas. Tienes la opción de usar una aplicación TOTP o una llave de seguridad física. Al activar 2FA, cada vez que inicies sesión en tu cuenta de Bitwarden, se te pedirá no solo tu contraseña maestra sino también una prueba de tu segundo factor de autenticación. Esto es una capa adicional de seguridad, particularmente útil en el caso de que tu copia de seguridad en papel de la contraseña maestra se vea comprometida.
 
-Si no estás seguro de cómo configurar y usar estos dispositivos 2FA, te recomiendo seguir estos otros 2 tutoriales:
+Si no estás seguro de cómo configurar y usar estos dispositivos 2FA, te recomendamos seguir estos otros 2 tutoriales:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -88,7 +88,7 @@ La autenticación de dos factores se ha configurado con éxito en tu cuenta.
 Ahora, si intentas volver a iniciar sesión en tu gestor, primero necesitarás ingresar tu contraseña maestra, luego el código dinámico de 6 dígitos generado por tu aplicación 2FA. Asegúrate de tener siempre acceso a este código dinámico; sin él, no podrás recuperar tus contraseñas.
 ![BITWARDEN](assets/notext/21.webp)
 En la configuración, también tienes la opción de personalizar tu gestor en la pestaña "*Preferencias*". Aquí, puedes cambiar la duración antes de que tu gestor se bloquee automáticamente, así como el idioma y el tema de la interfaz.
-![BITWARDEN](assets/notext/22.webp)Recomiendo encarecidamente ajustar la longitud de las contraseñas generadas por Bitwarden. Por defecto, la longitud está configurada en 14 caracteres, lo cual puede ser insuficiente para una seguridad óptima. Ahora que tienes un gestor para recordar todas tus contraseñas, podrías aprovecharlo para usar contraseñas muy fuertes.
+![BITWARDEN](assets/notext/22.webp) Te recomendamos ajustar la longitud de las contraseñas generadas por Bitwarden. Por defecto, la longitud está configurada en 14 caracteres, lo cual puede ser insuficiente para una seguridad óptima. Ahora que tienes un gestor para recordar todas tus contraseñas, podrías aprovecharlo para usar contraseñas muy fuertes.
 
 Para esto, ve al menú "*Generator*".
 ![BITWARDEN](assets/notext/23.webp)
@@ -102,10 +102,10 @@ En el formulario que se abre, comienza por determinar la naturaleza del elemento
 ![BITWARDEN](assets/notext/26.webp)
 En el campo "*Name*", ingresa un nombre descriptivo para tus credenciales. Esto facilitará la búsqueda y organización de tus contraseñas, especialmente si tienes un gran número. Por ejemplo, si deseas guardar tus credenciales para el sitio de la Red PlanB, puedes nombrar este elemento de una manera que lo haga inmediatamente reconocible durante tus futuras búsquedas.
 ![BITWARDEN](assets/notext/27.webp)
-La opción "*Folder*" te permite clasificar tus credenciales en carpetas. Por ahora, no hemos creado ninguna, pero te mostraré cómo hacerlo más adelante.
+La opción "*Folder*" te permite clasificar tus credenciales en carpetas. Por ahora, no hemos creado ninguna, pero te mostraremos cómo hacerlo más adelante.
 ![BITWARDEN](assets/notext/28.webp)
 En el campo "*Username*", ingresa tu nombre de usuario, que generalmente es tu dirección de correo electrónico. ![BITWARDEN](assets/notext/29.webp)
-A continuación, en el campo "*Password*", puedes ingresar tu contraseña. Sin embargo, recomiendo encarecidamente dejar que Bitwarden genere una contraseña larga, aleatoria y única para ti. Esto asegura que tengas una contraseña fuerte. Para usar esta función, haz clic en el icono de doble flecha arriba del campo a llenar.
+A continuación, en el campo "*Password*", puedes ingresar tu contraseña. Sin embargo, te recomendamos dejar que Bitwarden genere una contraseña larga, aleatoria y única para ti. Esto asegura que tengas una contraseña fuerte. Para usar esta función, haz clic en el icono de doble flecha arriba del campo a llenar.
 ![BITWARDEN](assets/notext/30.webp)
 Puedes ver que tu contraseña ha sido generada.
 ![BITWARDEN](assets/notext/31.webp)
@@ -131,7 +131,7 @@ Tu carpeta ahora aparece en tu gestor.
 Puedes asignar una carpeta a un identificador al crearlo, como hicimos anteriormente, o modificando un identificador existente. Por ejemplo, al hacer clic en mi identificador para PlanB Network, luego puedo elegir clasificarlo en la carpeta "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
 De esta manera, puedes estructurar tu gestor de contraseñas para facilitar la búsqueda de tus identificadores. Puedes organizarlos con carpetas tales como personal, profesional, bancos, correos electrónicos, redes sociales, suscripciones, compras, administración, streaming, almacenamiento, viajes, salud, etc.
-Si prefieres usar solo la versión web de Bitwarden, es totalmente posible apegarse a eso. Entonces recomiendo agregar tu gestor de contraseñas a los favoritos de tu navegador para un fácil acceso y para evitar riesgos de phishing. Sin embargo, Bitwarden también ofrece una gama completa de clientes que te permiten usar tu gestor en varios dispositivos y simplificar su uso diario. Ofrecen notablemente una aplicación móvil, una extensión de navegador y software de escritorio. Veamos cómo configurarlos juntos.
+Si prefieres usar solo la versión web de Bitwarden, es totalmente posible apegarse a eso. Para esto, te recomendamos agregar tu gestor de contraseñas a los favoritos de tu navegador para un fácil acceso y para evitar riesgos de phishing. Sin embargo, Bitwarden también ofrece una gama completa de clientes que te permiten usar tu gestor en varios dispositivos y simplificar su uso diario. Ofrecen notablemente una aplicación móvil, una extensión de navegador y software de escritorio. Veamos cómo configurarlos juntos.
 
 ![BITWARDEN](assets/notext/43.webp)
 
@@ -145,7 +145,7 @@ Comienza yendo a [la página oficial de descarga de Bitwarden](https://bitwarden
 
 ![BITWARDEN](assets/notext/44.webp)
 
-Elige tu navegador de la lista proporcionada. Para este ejemplo, estoy usando Firefox, así que soy redirigido a la extensión oficial de Bitwarden en la Tienda de Complementos de Firefox. El procedimiento es bastante similar para otros navegadores.
+Elige tu navegador de la lista proporcionada. Para este ejemplo, estamos usando Firefox, así que seremos redirigidos a la extensión oficial de Bitwarden en la Tienda de Complementos de Firefox. El procedimiento es bastante similar para otros navegadores.
 
 ![BITWARDEN](assets/notext/45.webp)
 
@@ -172,13 +172,13 @@ Y finalmente, ingresa el código de 6 dígitos de tu aplicación de autenticaci�
 Ahora estás conectado a tu gestor Bitwarden a través de la extensión del navegador.
 
 ![BITWARDEN](assets/notext/51.webp)
-Por ejemplo, si regreso al sitio de PlanB Network e intento iniciar sesión en mi cuenta, puedes ver que la extensión de Bitwarden integrada en el navegador reconoce los campos de inicio de sesión y automáticamente me ofrece seleccionar el identificador que guardé previamente.
+Por ejemplo, si regresamos al sitio de PlanB Network e intentamos iniciar sesión en mi cuenta, puedes ver que la extensión de Bitwarden integrada en el navegador reconoce los campos de inicio de sesión y automáticamente me ofrece seleccionar el identificador que guardé previamente.
 ![BITWARDEN](assets/notext/52.webp)
 Si selecciono este identificador, Bitwarden rellena los campos de inicio de sesión por mí. Esta característica de la extensión permite una rápida conexión a sitios web, sin la necesidad de copiar y pegar credenciales desde la aplicación web o el software de Bitwarden.
 ![BITWARDEN](assets/notext/53.webp)
 La extensión también está diseñada para detectar la creación de nuevas cuentas. Por ejemplo, al crear una nueva cuenta en PlanB Network, Bitwarden automáticamente sugiere guardar el nuevo identificador.
 ![BITWARDEN](assets/notext/54.webp)
-Al hacer clic en esta sugerencia que aparece, se abre la extensión. Me permite ingresar los detalles del nuevo identificador y generar una contraseña fuerte y única.
+Al hacer clic en esta sugerencia que aparece, se abre la extensión. Nos permite ingresar los detalles del nuevo identificador y generar una contraseña fuerte y única.
 ![BITWARDEN](assets/notext/55.webp)
 Después de completar la información y hacer clic en "*Guardar*", la extensión guarda las credenciales.
 ![BITWARDEN](assets/notext/56.webp)
@@ -188,7 +188,7 @@ Luego, la extensión rellena automáticamente nuestras credenciales en los campo
 
 Para instalar el software de escritorio de Bitwarden, comienza yendo a [la página de descarga](https://bitwarden.com/download/#downloads-desktop). Selecciona y descarga la versión correspondiente a tu sistema operativo.
 ![BITWARDEN](assets/notext/58.webp)
-Una vez completada la descarga, procede con la instalación del software en tu computadora. En el primer lanzamiento del software de Bitwarden, necesitarás ingresar tus credenciales para desbloquear tu gestor de contraseñas.
+Una vez completada la descarga, procede con la instalación del software en tu computadora. Al abrir por primera vez el software de Bitwarden, necesitarás ingresar tus credenciales para desbloquear tu gestor de contraseñas.
 ![BITWARDEN](assets/notext/59.webp)
 Luego, llegarás a la página de inicio de tu gestor. La interfaz es casi la misma que en la aplicación web.
 ![BITWARDEN](assets/notext/60.webp)
@@ -200,16 +200,16 @@ Descarga e instala la aplicación móvil oficial de Bitwarden. En la primera ape
 ![BITWARDEN](assets/notext/62.webp)
 Una vez conectado, podrás consultar y gestionar todas tus contraseñas directamente desde la aplicación.
 ![BITWARDEN](assets/notext/63.webp)
-Para mejorar la seguridad de tu aplicación, te aconsejo ir a los ajustes y activar la protección con PIN. Esto añadirá una capa extra de seguridad en caso de pérdida o robo de tu teléfono.
+Para mejorar la seguridad de tu aplicación, te aconsejamos ir a los ajustes y activar la protección con PIN. Esto añadirá una capa extra de seguridad en caso de pérdida o robo de tu teléfono.
 ![BITWARDEN](assets/notext/64.webp)
 ## ¿Cómo hacer una copia de seguridad de Bitwarden?
-Para asegurarte de nunca perder acceso a tus contraseñas, incluso en el caso de perder tu contraseña maestra o un desastre que afecte a los servidores de Bitwarden, te aconsejo realizar regularmente una copia de seguridad cifrada de tu gestor en un medio externo.
+Para asegurarte de nunca perder acceso a tus contraseñas, incluso en el caso de perder tu contraseña maestra o un desastre que afecte a los servidores de Bitwarden, te aconsejamos realizar regularmente una copia de seguridad cifrada de tu gestor en un medio externo.
 La idea es cifrar todas tus credenciales de Bitwarden con una contraseña diferente a tu contraseña maestra y guardar esta copia de seguridad cifrada en una memoria USB o un disco duro que mantengas en tu casa, por ejemplo. Luego, puedes mantener una copia física de la contraseña de descifrado en un lugar separado de donde se almacena el medio de respaldo. Por ejemplo, podrías mantener la memoria USB en casa y confiar la copia física de la contraseña de cifrado a un amigo de confianza.
 Este método asegura que, incluso si tu medio de respaldo es robado, tus datos permanecerán inaccesibles sin la contraseña de descifrado. De manera similar, tu amigo no podrá acceder a tus datos sin tener el medio físico.
 
 Sin embargo, en caso de un problema, puedes usar la contraseña y el medio externo para recuperar el acceso a tus credenciales, independientemente de Bitwarden. Así, incluso si los servidores de Bitwarden fueran destruidos, todavía tendrías la posibilidad de recuperar tus contraseñas.
 
-Por lo tanto, te aconsejo realizar estas copias de seguridad regularmente para que siempre incluyan tus credenciales más recientes. Para evitar molestar a tu amigo, quien posee una copia de la contraseña de cifrado, con cada nueva copia de seguridad, puedes guardar esta contraseña en tu gestor de contraseñas. Esto no se pretende como una copia de seguridad, ya que tu amigo ya tiene una copia física, sino más bien para simplificar tus futuros procedimientos de exportación.
+Por lo tanto, te aconsejamos realizar estas copias de seguridad regularmente para que siempre incluyan tus credenciales más recientes. Para evitar molestar a tu amigo, quien posee una copia de la contraseña de cifrado, con cada nueva copia de seguridad, puedes guardar esta contraseña en tu gestor de contraseñas. Esto no se pretende como una copia de seguridad, ya que tu amigo ya tiene una copia física, sino más bien para simplificar tus futuros procedimientos de exportación.
 
 Para proceder con la exportación, es bastante simple: ve a la sección "*Herramientas*" de tu gestor de Bitwarden, luego selecciona "*Exportar bóveda*".
 ![BITWARDEN](assets/notext/65.webp)

@@ -52,11 +52,7 @@ Kitabu hiki kiliidhinishwa na kufadhiliwa na [Chaincode Labs](https://learning.c
 
 
 
-Hii inachanganua ugatuaji ni nini na kwa nini ni muhimu kwa Bitcoin kufanya kazi. Tunatofautisha kati ya
-
-Ugatuaji wa miners na ule wa full node, na kujadili wanacholeta kwenye jedwali kwa upinzani wa udhibiti, mojawapo ya sifa kuu za Bitcoin.
-
-
+Hii inachanganua ugatuaji ni nini na kwa nini ni muhimu kwa Bitcoin kufanya kazi. Tunatofautisha kati ya Ugatuaji wa miners na ule wa full node, na kujadili wanacholeta kwenye jedwali kwa upinzani wa udhibiti, mojawapo ya sifa kuu za Bitcoin.
 
 Kisha mjadala hubadilika na kuelekea kuelewa kutoegemea upande wowote — au kutokuwa na ruhusa kwa watumiaji, miners na wasanidi programu — ambayo ni nyenzo muhimu ya mfumo wowote wa madaraka. Hatimaye, tunagusia jinsi Hard inavyoweza kuwa kufahamu mfumo uliogatuliwa kama Bitcoin, na kuwasilisha baadhi ya mifano ya kiakili ambayo inaweza kukusaidia kuusumbua.
 
@@ -76,9 +72,7 @@ Ugatuaji wa Miner unarejelea ukweli kwamba uchakataji wa muamala haufanywi wala 
 ![](assets/decentralization-banner.webp)
 
 
-### Miner ugatuaji
-
-
+### Ugatuaji wa Miner 
 
 Kulikuwa na majaribio ya kuunda sarafu za kidijitali kabla ya Bitcoin, lakini nyingi zilishindwa kutokana na ukosefu wa ugatuaji wa utawala na upinzani wa udhibiti.
 
@@ -115,24 +109,21 @@ Iwapo watafaulu, kuna uwezekano mkubwa kwamba masuala yale yale yatatokea tena w
 Hakuna kati ya chaguzi hizi zenye manufaa kwa mtumiaji.
 
 
-Upinzani wa udhibiti kupitia ugatuaji ndio unaotenganisha Bitcoin na mifumo mingine ya pesa, lakini si jambo rahisi kutimiza kutokana na *tatizo la Double-spending*. Hili ni tatizo la kuhakikisha hakuna mtu anayeweza kutumia sarafu moja mara mbili, suala ambalo watu wengi walifikiri kuwa haliwezekani kutatua kwa mtindo wa ugatuzi. Satoshi Nakamoto anaandika katika [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) kuhusu jinsi ya kutatua tatizo la Double-spending:
+Upinzani dhidi ya udhibiti (censorship resistance) kupitia mgawanyiko (decentralization) ndicho kinachotofautisha Bitcoin na mifumo mingine ya fedha, lakini si jambo rahisi kutekeleza kutokana na tatizo la double-spending. Hili ni tatizo la kuhakikisha kuwa hakuna mtu anayeweza kutumia *coin* moja mara mbili, jambo ambalo watu wengi walidhani haliwezekani kutatuliwa kwa njia isiyo ya kati (decentralized). Satoshi Nakamoto aliandika katika *whitepaper* ya Bitcoin kuhusu jinsi ya kutatua tatizo la double-spending:
 
 
-> Katika karatasi hii, tunapendekeza suluhu la tatizo la Double-spending kwa kutumia seva ya Timestamp iliyosambazwa kutoka kwa wenzao kwa generate kwa uthibitisho wa kimahesabu wa mpangilio wa shughuli wa shughuli.
+> Katika karatasi hii, tunapendekeza suluhisho la tatizo la double-spending kwa kutumia seva ya alama ya muda (timestamp server) iliyosambazwa kwa njia ya peer-to-peer ili kuzalisha uthibitisho wa kihakiki wa mpangilio wa muda wa miamala.
 
 
-Hapa anatumia msemo wenye sauti ya kipekee "seva ya Timestamp iliyosambazwa rika-kwa-rika". Neno kuu hapa ni *kusambazwa*, ambalo katika muktadha huu linamaanisha kuwa hakuna sehemu kuu ya udhibiti. Nakamoto kisha anaendelea kueleza jinsi Proof-of-Work ni suluhisho.
+Hapa anatumia msemo wenye sauti ya kipekee "seva ya *timestamp* iliyosambazwa rika-kwa-rika". Neno kuu hapa ni *kusambazwa*, ambalo katika muktadha huu linamaanisha kuwa hakuna sehemu kuu ya udhibiti. Nakamoto kisha anaendelea kueleza jinsi *Proof-of-Work* ni suluhisho.
 
 Bado, hakuna mtu anayeielezea vizuri zaidi kuliko
 
-[Gregory Maxwell kwenye Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), ambapo anajibu mtu anayependekeza kuwawekea kikomo wachimbaji nishati ya Hash ili kuepuka mashambulizi yanayoweza kutokea kwa 51%:
+[Gregory Maxwell kwenye Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), ambapo anajibu mtu anayependekeza kuwawekea kikomo miners wa nishati ya *hash* ili kuepuka mashambulizi yanayoweza kutokea kwa 51%:
+> Mfumo uliogatuliwa kama vile Bitcoin hutumia uchaguzi wa umma. Lakini huwezi tu kuwa na kura ya 'watu' katika mfumo wa ugatuzi kwa sababu hiyo itahitaji chama cha serikali kuu kuidhinisha watu kupiga kura. Badala yake, Bitcoin hutumia kura ya nguvu ya kompyuta kwa sababu inawezekana kuthibitisha nguvu za kompyuta bila usaidizi wa serikali kuu au mtu wa tatu.
 
 
-> Mfumo uliogatuliwa kama vile Bitcoin hutumia uchaguzi wa umma. Lakini huwezi tu kuwa na kura ya 'watu' katika mfumo wa ugatuzi kwa sababu hiyo itahitaji chama cha serikali kuu kuidhinisha watu kupiga kura. Badala yake, Bitcoin hutumia kura ya nguvu ya kompyuta kwa sababu inawezekana kuthibitisha nguvu za kompyuta bila usaidizi wa serikali kuu.
-mtu wa tatu.
-
-
-Chapisho hilo linaeleza jinsi mtandao uliogatuliwa wa Bitcoin unavyoweza kufikia makubaliano ya kuagiza shughuli kupitia matumizi ya Proof-of-Work.
+Chapisho hilo linaeleza jinsi mtandao uliogatuliwa wa Bitcoin unavyoweza kufikia makubaliano ya kuagiza miamala kupitia matumizi ya *Proof-of-Work*.
 
 
 Kisha anahitimisha kwa kusema kwamba shambulio la 51% sio la kutisha sana, ikilinganishwa na watu wasiojali au kutoelewa sifa za ugatuaji za Bitcoin:
@@ -143,34 +134,27 @@ Kisha anahitimisha kwa kusema kwamba shambulio la 51% sio la kutisha sana, ikili
 Hitimisho ni muhimu. Iwapo watu hawatalinda ugatuaji wa Bitcoin, ambao ni wakala wa upinzani wake wa udhibiti, Bitcoin inaweza kuwa mwathirika wa mamlaka ya serikali kuu, hadi iwe katikati kiasi kwamba udhibiti unakuwa kitu. Halafu zaidi, ikiwa sio yote, pendekezo lake la thamani limepita. Hii inatuleta kwenye sehemu inayofuata ya ugatuaji wa Full node.
 
 
-### Full node ugatuaji
+### Ugatuaji wa  Full node 
+
+Katika aya zilizo hapo juu, tumezungumza zaidi juu ya ugatuaji wa *miner* na jinsi *miners* waliogawanyika wanaweza kuruhusu udhibiti. Lakini pia kuna kipengele kingine cha ugatuaji, ambacho ni ugatuaji wa *full node*.
 
 
+Umuhimu wa ugatuaji wa *full node* unahusiana na kutokuwa na uaminifu. Tuseme mtumiaji ataacha kuendesha *full node* yake mwenyewe kutokana na, kwa mfano, ongezeko la marufuku la gharama ya uendeshaji. Katika hali hiyo, wanapaswa kuingiliana na mtandao wa Bitcoin kwa njia nyingine, ikiwezekana kwa kutumia *wallets* za mtandao au *wallets* nyepesi, ambayo inahitaji kiwango fulani cha uaminifu kwa watoa huduma hizi.
 
-Katika aya zilizo hapo juu, tumezungumza zaidi juu ya ugatuaji wa Miner na jinsi wachimbaji wagawanyaji wanaweza kuruhusu udhibiti. Lakini pia kuna kipengele kingine cha ugatuaji, ambacho ni *Full node ugatuaji*.
-
-
-Umuhimu wa ugatuaji wa Full node unahusiana na kutokuwa na uaminifu. Tuseme mtumiaji ataacha kuendesha Full node yake mwenyewe kutokana na, kwa mfano, ongezeko la marufuku la gharama ya uendeshaji. Katika hali hiyo, wanapaswa kuingiliana na mtandao wa Bitcoin kwa njia nyingine, ikiwezekana kwa kutumia pochi za mtandao au pochi nyepesi, ambayo inahitaji kiwango fulani cha uaminifu kwa watoa huduma hizi.
+Mtumiaji huenda kutoka kwa kutekeleza moja kwa moja sheria za makubaliano ya mtandao hadi kuamini kuwa mtu mwingine atafanya hivyo. Sasa chukulia kuwa watumiaji wengi wanakabidhi utekelezaji wa makubaliano kwa huluki inayoaminika. Katika hali hiyo, mtandao unaweza kuzunguka haraka katika *centralization*, na sheria za mtandao zinaweza kubadilishwa kwa kula njama watendaji wabaya.
 
 
-Mtumiaji huenda kutoka kwa kutekeleza moja kwa moja sheria za makubaliano ya mtandao hadi kuamini kuwa mtu mwingine atafanya. Sasa chukulia kuwa watumiaji wengi wanakabidhi utekelezaji wa makubaliano kwa huluki inayoaminika. Katika hali hiyo, mtandao unaweza kuzunguka haraka katika centralization, na sheria za mtandao zinaweza kubadilishwa kwa kula njama watendaji wabaya.
+Katika makala ya [*Bitcoin Magazine*](https://bitcoinmagazine.com), Aaron van Wirdum anawahoji watengenezaji wa Bitcoin kuhusu mitazamo yao juu ya ugatuaji (decentralization) na hatari zinazohusiana na kuongeza block size. Majadiliano haya yalikuwa mada moto katika kipindi cha 2014–2017, wakati ambapo watu wengi walibishana kuhusu kuongeza kikomo cha block size ili kuruhusu ongezeko la muamala kwa wakati mmoja (transaction throughput).
 
-
-Katika [a
-
-Makala ya Jarida la Bitcoin](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum anawahoji wasanidi wa Bitcoin kuhusu maoni yao kuhusu ugatuaji na hatari zinazohusika katika kuongeza ukubwa wa juu wa Bitcoin. Majadiliano haya yalikuwa mada ya Hot wakati wa 2014-2017, wakati watu wengi walibishana juu ya kuongeza kikomo cha ukubwa wa block ili kuruhusu upitishaji zaidi wa shughuli.
-
-
-Hoja yenye nguvu dhidi ya kuongeza ukubwa wa kizuizi ni kwamba huongeza gharama ya uthibitishaji Ikiwa gharama ya uthibitishaji itapanda, itasukuma baadhi ya watumiaji kuacha kuendesha nodi zao kamili. Hii, kwa upande wake, itasababisha watu wengi zaidi kutoweza kutumia mfumo kwa njia ya Trustless.
-
+Hoja yenye nguvu dhidi ya kuongeza block size ni kwamba huongeza gharama ya uthibitishaji. Ikiwa gharama ya uthibitishaji itapanda, itasukuma baadhi ya watumiaji kuacha kuendesha full nodes zao. Hii, kwa upande wake, itasababisha watu wengi zaidi kutoweza kutumia mfumo kwa njia ya trustless.
 
 Pieter Wuille amenukuliwa katika nakala hiyo, ambapo anaelezea hatari za uwekaji kati wa Full node:
 
 
 > Ikiwa kampuni za kura zinaendesha Full node, inamaanisha kuwa zote zinahitaji kushawishiwa kutekeleza sheria tofauti. Kwa maneno mengine: ugatuaji wa uthibitishaji wa vitalu ndio unaopa sheria za makubaliano uzito wao.
-> Lakini ikiwa hesabu ya Full node ingeshuka chini sana, kwa mfano kwa sababu kila mtu anatumia pochi sawa za wavuti, kubadilishana na SPV au pochi za rununu, udhibiti unaweza kuwa ukweli. Na ikiwa mamlaka inaweza kudhibiti sheria za makubaliano, inamaanisha wanaweza kubadilisha chochote kinachofanya Bitcoin Bitcoin. Hata kikomo cha Bitcoin milioni 21.
+> Lakini ikiwa hesabu ya full node ingeshuka chini sana, kwa mfano kwa sababu kila mtu anatumia wallet sawa za wavuti, exchange na SPV au wallet za rununu, udhibiti unaweza kuwa ukweli. Na ikiwa mamlaka inaweza kudhibiti sheria za makubaliano, inamaanisha wanaweza kubadilisha chochote kinachofanya Bitcoin kuwa Bitcoin. Hata kikomo cha Bitcoin milioni 21.
 
-Haya basi. Watumiaji wa Bitcoin wanapaswa kuendesha nodi zao kamili ili kuzuia vidhibiti na mashirika makubwa kujaribu kubadilisha sheria za makubaliano.
+Haya basi. Watumiaji wa Bitcoin wanapaswa kuendesha node zao kamili ili kuzuia vidhibiti na mashirika makubwa kujaribu kubadilisha sheria za makubaliano.
 
 
 ### Kuegemea upande wowote
@@ -180,58 +164,54 @@ Haya basi. Watumiaji wa Bitcoin wanapaswa kuendesha nodi zao kamili ili kuzuia v
 Bitcoin haina upande wowote, au haina ruhusa, kama watu wanapenda kuiita. Hii ina maana kwamba Bitcoin haijali wewe ni nani au unaitumia kwa ajili gani.
 
 
-Bitcoin ni neutral, ambayo ni jambo jema, na njia pekee inaweza kufanya kazi. Iwapo ingedhibitiwa na shirika ingekuwa tu aina nyingine ya kitu pepe na nisingependezwa nayo
-
-
-Alimradi unacheza kulingana na sheria, uko huru kuitumia upendavyo, bila kuuliza ruhusa kwa mtu yeyote. Hii inajumuisha *Mining*, *kufanya miamala* ndani, na *itifaki na huduma za ujenzi* juu ya Bitcoin:
+Bitcoin ni neutral, ambayo ni jambo jema, na njia pekee inayoweza kufanya kazi. Iwapo ingedhibitiwa na shirika, ingekuwa tu aina nyingine ya kitu pepe na nisingependezwa nayo.
 
 
 
-- Ikiwa *Mining* ingekuwa mchakato ulioidhinishwa, tungehitaji mamlaka kuu ili kuchagua ni nani anayeruhusiwa kuchimba madini. Hii inaweza kusababisha wachimbaji kusaini mikataba ya kisheria ambayo watakubali
-
-kukagua shughuli kulingana na matakwa ya mamlaka kuu, ambayo inashinda madhumuni ya Mining kwanza.
+Mradi tu unafuata sheria, uko huru kuitumia utakavyo bila kuomba ruhusa kutoka kwa yeyote. Hii inajumuisha mining, kufanya miamala, na kujenga itifaki na huduma juu ya Bitcoin:
 
 
+- Ikiwa mining ingekuwa mchakato ulioidhinishwa, tungehitaji mamlaka kuu ili kuchagua ni nani anayeruhusiwa kufanya mining. Hii inaweza kusababisha miners kusaini mikataba ya kisheria ambayo watakubali.
 
-- Iwapo watu *wanaofanya miamala* katika Bitcoin walipaswa kutoa maelezo ya kibinafsi, kutangaza shughuli zao zilihusu nini, au kuthibitisha vinginevyo kwamba walistahili kufanya kazi, tutahitaji pia kituo kikuu cha mamlaka ili kuidhinisha watumiaji au miamala. Tena, hii inaweza kusababisha udhibiti na kutengwa.
-
-
-
-- Iwapo wasanidi walilazimika kuomba ruhusa ya *kuunda itifaki* juu ya Bitcoin, ni itifaki tu zinazoruhusiwa na kamati kuu ya upeanaji ya wasanidi programu ndizo zingeweza kutengenezwa. Hii, kutokana na uingiliaji kati wa serikali bila shaka itatenga itifaki zote za kuhifadhi faragha na majaribio yote ya kuboresha ugatuaji.
+kukagua miamala kulingana na matakwa ya mamlaka kuu, ambayo inashinda madhumuni ya Mining kwanza.
 
 
-Katika viwango vyote, kujaribu kuweka vizuizi kwa nani atatumia Bitcoin kwa kile kitakachoumiza Bitcoin hadi kufikia hatua ambayo haiishi kulingana na pendekezo lake la thamani.
+
+- Iwapo watu wanaofanya miamala katika Bitcoin walipaswa kutoa maelezo ya kibinafsi, kutangaza miamala yao ilihusu nini, au kuthibitisha vinginevyo kwamba walistahili kufanya kazi, tutahitaji pia kituo kikuu cha mamlaka ili kuidhinisha watumiaji au miamala. Tena, hii inaweza kusababisha udhibiti na kutengwa.
 
 
-Pieter Wuille https://Bitcoin.stackexchange.com/a/92055/69518[anajibu swali kwenye Stack Exchange] kuhusu jinsi Blockchain inavyohusiana na hifadhidata za kawaida. Anaelezea jinsi ukosefu wa ruhusa unapatikana kupitia matumizi ya Proof-of-Work pamoja na motisha za kiuchumi.
+- Iwapo wasanidi walilazimika kuomba ruhusa ya kuunda protocol juu ya Bitcoin, ni protocol tu zinazoruhusiwa na kamati kuu ya upeanaji ya wasanidi programu ndizo zingeweza kutengenezwa. Hii, kutokana na uingiliaji kati wa serikali, bila shaka itatenga itifaki zote za kuhifadhi faragha na majaribio yote ya kuboresha ugatuaji.
 
+
+Katika viwango vyote, kujaribu kuweka vizuizi kwa nani atatumia Bitcoin kwa ajili ya nini kutaiumiza Bitcoin hadi kufikia hatua ambapo haitatekeleza tena pendekezo lake la thamani.
+
+
+[Pieter Wuille answers a question on Stack Exchange](https://bitcoin.stackexchange.com/a/92055/69518) kuhusu jinsi blockchain inavyohusiana na hifadhidata za kawaida. Anaeleza jinsi kutokuhitaji ruhusa (permissionlessness) kunavyowezekana kupitia matumizi ya proof-of-work pamoja na motisha za kiuchumi.
 
 Anahitimisha:
 
 
-> Kutumia algoriti za makubaliano ya Trustless kama vile PoW haiongezei kitu ambacho hakuna ujenzi mwingine unaokupa (ushiriki bila ruhusa, ikimaanisha kuwa hakuna kikundi maalum cha washiriki ambacho kinaweza kudhibiti mabadiliko yako), Kwa kutumia algoriti za makubaliano ya Trustless kama PoW haiongezei kitu hapana lakini inakuja kwa gharama kubwa, na mawazo yake ya kiuchumi yanaifanya kuwa muhimu sana kwa mifumo yao ya kutafsiri.
+> Kutumia algoridhimu za makubaliano zisizo na uaminifu kama PoW huongeza kitu ambacho hakuna muundo mwingine unaoweza kutoa — ushiriki usiohitaji ruhusa, yaani hakuna kundi maalum la washiriki wanaoweza kudhibiti mabadiliko yako. Hata hivyo, matumizi ya algoridhimu hizi huja kwa gharama kubwa, na kwa kuwa zinategemea mawazo ya kiuchumi, zinakuwa na manufaa hasa kwa mifumo inayojifafanua yenyewe na cryptocurrency yake. Huenda kuwepo nafasi moja au chache tu duniani kwa mifumo ya aina hii inayotumika kwa kweli.
 > Pengine kuna mahali pekee ulimwenguni kwa moja au chache zilizotumika kati ya hizi.
 
-Anafafanua kuwa, ili kufikia kutokuwa na ruhusa, mfumo huo una uwezekano mkubwa unahitaji sarafu yake, na hivyo "kupunguza kesi za utumiaji kwa pesa za siri tu". Hii ni kwa sababu ushiriki bila ruhusa, au Mining, unahitaji motisha za kiuchumi zilizojumuishwa katika mfumo wenyewe.
+Anaeleza kuwa, ili kufikia kutokuwa na ruhusa, mfumo huo kwa uwezekano mkubwa unahitaji sarafu yake yenyewe, na hivyo “kupunguza kesi za utumiaji kwa kiasi kikubwa hadi sarafu-fiche pekee”. Hii ni kwa sababu ushiriki usiohitaji ruhusa, au mining, unahitaji motisha za kiuchumi zilizojengewa moja kwa moja ndani ya mfumo.
+
 
 
 ### Grokking ugatuaji
-
-
 
 Kipengele cha kulazimisha cha Bitcoin ni jinsi Hard ilivyo kufahamu kuwa hakuna anayeidhibiti. Hakuna kamati au watendaji katika Bitcoin. Gregory Maxwell, tena [kwenye subreddit ya Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), analinganisha hii na lugha ya Kiingereza kwa njia ya kushangaza:
 
 
 > Watu wengi wana muda wa Hard kuelewa mifumo ya uhuru, kuna mambo mengi katika maisha yao kama lugha ya Kiingereza-- lakini watu huichukulia kawaida na hata hawafikirii kama mifumo. Wamekwama katika njia kuu ya kufikiria ambapo kila kitu wanachofikiria kama 'kitu' kina mamlaka inayokidhibiti.
->
+> Watu wengi hupata ugumu kuelewa mifumo inayojiendesha yenyewe. Kuna mifumo mingi ya aina hiyo katika maisha yao — kama vile lugha ya Kiingereza — lakini watu huichukulia kawaida tu bila hata kuifikiria kama mifumo. Wanakwama katika mtazamo wa kimamlaka, ambapo kila kitu wanachokiona kama "kitu" lazima kiwe na mamlaka inayokidhibiti.
 
-> Bitcoin haizingatii chochote. Watu mbalimbali ambao wametumia Bitcoin walichagua kwa hiari yao wenyewe kuitangaza, na jinsi wanavyochagua kufanya hivyo ni biashara yao wenyewe. Watu walioidhinishwa na mamlaka wanaweza kuona shughuli hizi na kuamini kuwa zinafanywa na mamlaka ya Bitcoin, lakini hakuna mamlaka kama hayo.
-
+> Bitcoin haina mkazo wa aina yoyote. Watu mbalimbali waliokumbatia Bitcoin walichagua kwa hiari yao kuieneza, na jinsi wanavyoamua kuifanya ni juu yao wenyewe. Watu waliobobea katika fikra za kimamlaka wanaweza kuona shughuli hizi na kudhani kuwa ni juhudi za mamlaka fulani ya Bitcoin — lakini mamlaka hiyo haipo.
 
 Jinsi Bitcoin inavyofanya kazi kupitia ugatuaji inafanana na akili ya pamoja isiyo ya kawaida inayopatikana kati ya spishi nyingi asilia. Mwanasayansi wa kompyuta Radhika Nagpal anazungumza katika [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) kuhusu tabia ya pamoja ya shule za samaki na jinsi wanasayansi wanajaribu kuiga kwa kutumia roboti.
 
 
-> Pili, na jambo ambalo bado naona la kushangaza zaidi, ni kwamba tunajua kwamba hakuna viongozi wanaosimamia shule hii ya samaki. Badala yake, tabia hii ya ajabu ya akili ya pamoja inajitokeza tu kutokana na mwingiliano wa samaki mmoja na mwingine.
+> Pili, na jambo ambalo bado naliona kuwa la kushangaza zaidi, ni kwamba tunajua hakuna viongozi wanaosimamia kundi hili la samaki. Badala yake, tabia hii ya kipekee ya akili ya pamoja inatokea kabisa kutokana na mwingiliano kati ya samaki mmoja na mwingine. Kwa namna fulani, kuna mwingiliano au kanuni za mawasiliano kati ya samaki wa karibu zinazofanya kila kitu kifanye kazi.
 > Kwa namna fulani, kuna mwingiliano huu au sheria za ushiriki kati ya samaki wa jirani ambazo hufanya yote yafanyike.
 
 Anasema kuwa mifumo mingi, ama ya asili au ya bandia, inaweza na kufanya kazi bila viongozi, na ina nguvu na ustahimilivu. Kila mtu huingiliana tu na mazingira yao ya karibu, lakini kwa pamoja huunda kitu kikubwa.
@@ -240,7 +220,6 @@ Anasema kuwa mifumo mingi, ama ya asili au ya bandia, inaweza na kufanya kazi bi
 ![](assets/fishschool.webp)
 
 *Shule za samaki hazina viongozi*
-
 
 Haijalishi unafikiria nini kuhusu Bitcoin, asili yake ya ugatuzi hufanya iwe vigumu kudhibiti. Bitcoin ipo, na hakuna unachoweza kufanya kuihusu. Ni jambo la kuchunguzwa na sio kujadiliwa.
 
@@ -251,13 +230,13 @@ Haijalishi unafikiria nini kuhusu Bitcoin, asili yake ya ugatuzi hufanya iwe vig
 Tunatofautisha kati ya ugatuzi wa Full node na ugatuaji wa Mining. Ugatuaji wa Mining ni njia ya kufikia upinzani wa udhibiti, huku ugatuzi wa Full node ndio unaoweka sheria za makubaliano ya mtandao wa Hard kubadilika bila usaidizi mpana miongoni mwa watumiaji.
 
 
-Asili ya ugatuzi ya Bitcoin inaruhusu kutoegemea upande wowote kwa wasanidi programu, watumiaji na wachimbaji. Mtu yeyote yuko huru kushiriki bila kuomba ruhusa.
+Asili ya ugatuzi ya Bitcoin inaruhusu kutoegemea upande wowote kwa wasanidi programu, watumiaji na miners. Mtu yeyote yuko huru kushiriki bila kuomba ruhusa.
 
 
-Mifumo iliyogatuliwa inaweza kuwa Hard kuzungusha kichwa chako, lakini kuna mifano ya kiakili ambayo inaweza kusaidia, kwa mfano lugha ya Kiingereza, au shule za samaki.
+Mifumo iliyogatuliwa inaweza kuwa ngumu kuielewa, lakini kuna mifano ya kiakili ambayo inaweza kusaidia, kwa mfano lugha ya Kiingereza au shule za samaki.
 
 
-## Kutoaminika
+## Trustlessness
 
 <chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
 
@@ -266,11 +245,7 @@ Mifumo iliyogatuliwa inaweza kuwa Hard kuzungusha kichwa chako, lakini kuna mifa
 ![](assets/trustlessness-banner.webp)
 
 
-Sura hii inatenganisha dhana ya kutokuwa na uaminifu, maana yake kutoka kwa mtazamo wa sayansi ya kompyuta, na kwa nini Bitcoin inapaswa kuwa Trustless ili kuhifadhi pendekezo lake la thamani.
-
-Kisha tunazungumza kuhusu maana ya kutumia Bitcoin kwa njia ya Trustless, na ni aina gani ya dhamana ambayo Full node inaweza na haiwezi kukupa.
-
-Katika sehemu ya mwisho, tunaangalia mwingiliano wa ulimwengu halisi kati ya Bitcoin na programu au watumiaji halisi, na hitaji la kufanya mabadilishano kati ya urahisi na kutokuwa na uaminifu ili kufanya chochote.
+Sura hii inatenganisha dhana ya Trustlessness, maana yake kutoka kwa mtazamo wa sayansi ya kompyuta, na kwa nini Bitcoin inapaswa kuwa trustless ili kuhifadhi pendekezo lake la thamani. Kisha tunazungumza kuhusu maana ya kutumia Bitcoin kwa njia ya trustless, na ni aina gani ya dhamana ambayo full node inaweza na haiwezi kukupa. Katika sehemu ya mwisho, tunaangalia mwingiliano wa ulimwengu halisi kati ya Bitcoin na programu au watumiaji halisi, na hitaji la kufanya mabadilishano kati ya urahisi na kutokuwa na uaminifu ili kufanya chochote.
 
 
 Watu mara nyingi husema mambo kama "Bitcoin ni nzuri kwa sababu ni Trustless".
@@ -281,11 +256,10 @@ Je, wanamaanisha nini kwa Trustless? Pieter Wuille anaelezea neno hili linalotum
 
 > Imani tunayozungumzia katika "Trustless" ni neno dhahania la kiufundi. Mfumo unaosambazwa huitwa Trustless wakati hauhitaji wahusika wowote wanaoaminika kufanya kazi ipasavyo.
 
-Kwa ufupi, neno *Trustless* linarejelea sifa ya itifaki ya Bitcoin ambapo inaweza kufanya kazi kimantiki bila "wahusika wowote wanaoaminika". Hii ni tofauti na uaminifu ambao lazima uweke kwenye programu au maunzi unayoendesha. Zaidi juu ya kipengele hiki cha mwisho cha uaminifu kitajadiliwa zaidi katika sura hii.
+Kwa ufupi, neno trustless linarejelea sifa ya protocol ya Bitcoin ambapo inaweza kufanya kazi kimantiki bila "wahusika wowote wanaoaminika". Hii ni tofauti na uaminifu ambao lazima uweke kwenye programu au maunzi unayoendesha. Zaidi juu ya kipengele hiki cha mwisho cha uaminifu kitajadiliwa zaidi katika sura hii.
 
 
-Katika mifumo ya serikali kuu, tunategemea sifa ya mwigizaji mkuu ili kuhakikisha kuwa atasimamia usalama au kurudisha nyuma masuala yanapotokea, pamoja na mfumo wa kisheria kuidhinisha ukiukaji wowote. Mahitaji haya ya uaminifu yana shida katika mifumo isiyojulikana ya ugatuzi - hakuna uwezekano wa kukimbilia kwa hivyo hakuwezi kuwa na uaminifu wowote. Katika utangulizi wa [karatasi nyeupe ya Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto inaelezea tatizo hili:
-
+Katika mifumo ya serikali kuu, tunategemea sifa ya mwigizaji mkuu ili kuhakikisha kuwa atasimamia usalama au kurudisha nyuma masuala yanapotokea, pamoja na mfumo wa kisheria kuidhinisha ukiukaji wowote. Mahitaji haya ya uaminifu yana shida katika mifumo isiyojulikana ya ugatuzi — hakuna uwezekano wa kukimbilia, kwa hivyo hakuwezi kuwa na uaminifu wowote. Katika utangulizi wa [karatasi nyeupe ya Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto anaelezea tatizo hili:
 
 > Biashara kwenye Mtandao imekuja kutegemea takriban taasisi za fedha zinazotumika kama washirika wengine wanaoaminika kuchakata malipo ya kielektroniki.
 > Ingawa mfumo hufanya kazi vizuri vya kutosha kwa shughuli nyingi, bado unakabiliwa na udhaifu wa asili wa muundo wa msingi wa uaminifu.  Miamala isiyoweza kutenduliwa kabisa haiwezekani, kwa kuwa taasisi za fedha haziwezi kuepuka kupatanisha mizozo. Gharama ya upatanishi huongeza gharama za muamala, kupunguza kiwango cha chini cha ukubwa wa muamala wa vitendo na kukata uwezekano wa miamala midogo ya kawaida, na kuna gharama pana katika kupoteza uwezo wa kufanya malipo yasiyoweza kutenduliwa kwa huduma zisizoweza kutenduliwa.

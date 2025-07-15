@@ -49,8 +49,6 @@ Olvid tersedia di semua platform. Anda dapat mengunduh aplikasi ini langsung dar
 
 Di Android, juga memungkinkan untuk [menginstal melalui APK](https://www.olvid.io/download/).
 
-Dalam tutorial ini, kami akan berkonsentrasi pada versi seluler, tetapi harap dicatat bahwa [versi komputer juga tersedia](https://www.olvid.io/download/) (MacOS, Linux, dan Windows). Jika Anda memilih versi berbayar, Anda akan dapat menyinkronkan akun Anda di beberapa perangkat.
-
 Dalam tutorial ini, kita akan berfokus pada versi seluler. Namun, perlu diketahui bahwa [versi komputer juga tersedia](https://www.olvid.io/download/) (macOS, Linux, dan Windows). Jika Anda memilih versi berbayar, Anda dapat menyinkronkan akun Anda di beberapa perangkat.
 ![Image](assets/fr/01.webp)
 

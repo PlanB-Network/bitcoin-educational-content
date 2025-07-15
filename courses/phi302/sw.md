@@ -268,30 +268,27 @@ Katika mifumo ya serikali kuu, tunategemea sifa ya mwigizaji mkuu ili kuhakikish
 Inaonekana kuwa hatuwezi kuwa na mfumo uliogatuliwa kwa msingi wa uaminifu, na ndiyo maana kutokuwa na uaminifu ni muhimu katika Bitcoin.
 
 
-Ili kutumia Bitcoin kwa njia ya Trustless, lazima uendeshe nodi ya Bitcoin inayothibitisha kikamilifu. Hapo ndipo utaweza kuthibitisha kuwa vizuizi unavyopokea kutoka kwa wengine vinafuata sheria za makubaliano; kwa mfano, kwamba ratiba ya utoaji wa sarafu inatunzwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye Blockchain. Ikiwa hutumii Full node, unatoa uthibitishaji wa vitalu vya Bitcoin kwa mtu mwingine na unamwamini kuwa atakuambia ukweli, kumaanisha kuwa hutumii Bitcoin bila uaminifu.
+Ili kutumia Bitcoin kwa njia ya trustless, lazima uendeshe full node ya Bitcoin inayofanya uthibitishaji kamili. Hapo ndipo utaweza kuthibitisha kuwa block unazopokea kutoka kwa wengine zinafuata sheria za makubaliano — kwa mfano, kwamba ratiba ya utoaji wa sarafu inazingatiwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye blockchain. Ikiwa hutumii full node, unatoa jukumu la uthibitishaji wa block za Bitcoin kwa mtu mwingine na kumwamini akuambie ukweli, jambo linalomaanisha kuwa hutumii Bitcoin kwa njia ya trustless.l
 
 
-David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) akieleza jinsi kuendesha Full node - au kutumia Bitcoin bila uaminifu - kunakusaidia:
+David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) akieleza jinsi kuendesha full node — au kutumia Bitcoin kwa njia ya trustless — kunakusaidia:
 
 
 > Sarafu ya Bitcoin inafanya kazi tu wakati watu wanakubali bitcoins katika Exchange kwa vitu vingine vya thamani. Hiyo ina maana ni watu wanaokubali bitcoins ambao wanaipa thamani na ambao wanapata kuamua jinsi Bitcoin inapaswa kufanya kazi.
 >
 
 > Unapokubali bitcoins, una uwezo wa kutekeleza sheria za Bitcoin, kama vile kuzuia kutwaliwa kwa bitcoins za mtu yeyote bila kufikia funguo za faragha za mtu huyo.
+> Kwa bahati mbaya, watumiaji wengi hutoa nguvu zao za kutekeleza. Hii huacha ugatuaji wa Bitcoin katika hali dhaifu, ambapo miners wachache wanaweza kushirikiana na benki chache na huduma za bila malipo ili kubadilisha sheria za Bitcoin kwa niaba ya watumiaji wote wasiothibitisha waliokabidhi mamlaka yao kwa wengine.
 >
 
-> Kwa bahati mbaya, watumiaji wengi hutoa nguvu zao za kutekeleza. Hii inaacha ugatuaji wa Bitcoin katika hali dhaifu ambapo wachimbaji wachache wanaweza kushirikiana na benki chache na huduma za bure kubadilisha sheria za Bitcoin kwa wale watumiaji wote wasiothibitisha ambao walitumia nguvu zao nje.
->
+> Tofauti na wallet nyingine, Bitcoin Core hutekeleza sheria — kwa hivyo miners na benki wakibadilisha sheria kwa watumiaji wasiothibitisha, watumiaji hao hawataweza kulazimisha uthibitishaji kamili wa watumiaji wa Bitcoin Core kama wewe.
 
-> Tofauti na pochi nyingine, Bitcoin Core hutekeleza sheria—kwa hivyo wachimbaji madini na benki wakibadilisha sheria kwa watumiaji wasiothibitisha, watumiaji hao hawataweza kulipa uthibitishaji kamili wa watumiaji wa Bitcoin Core kama wewe.
-
-
-Anasema kuwa kuendesha Full node kutakusaidia kuthibitisha kila kipengele cha Blockchain bila kumwamini mtu mwingine yeyote, ili kuhakikisha kuwa sarafu unazopokea kutoka kwa wengine ni halisi. Hii ni nzuri, lakini kuna jambo moja muhimu ambalo Full node haiwezi kukusaidia: haiwezi kuzuia matumizi maradufu kupitia kuandika upya kwa mnyororo:
+Anasema kuwa kuendesha full node kutakusaidia kuthibitisha kila sehemu ya blockchain bila kumwamini mtu mwingine yeyote, ili kuhakikisha kuwa sarafu unazopokea kutoka kwa wengine ni halisi. Hii ni nzuri, lakini kuna jambo moja muhimu ambalo full node haiwezi kukusaidia: haiwezi kuzuia matumizi maradufu kupitia kuandika upya kwa mnyororo.
 
 
 > Kumbuka kwamba ingawa programu zote—ikiwa ni pamoja na Bitcoin Core—ziko hatarini kwa kuandikwa upya kwa mfululizo, Bitcoin hutoa mbinu ya ulinzi: kadiri miamala yako inavyokuwa na uthibitisho zaidi, ndivyo unavyokuwa salama. Hakuna ulinzi unaojulikana wa ugatuzi bora kuliko huo.
 
-Haijalishi programu yako ni ya juu kiasi gani, bado unapaswa kuamini kuwa vizuizi vilivyo na sarafu zako hazitaandikwa upya. Walakini, kama ilivyoonyeshwa na Harding, unaweza kungoja uthibitisho kadhaa, baada ya hapo utazingatia uwezekano wa kuandika upya kwa mnyororo mdogo wa kutosha kukubalika.
+Haijalishi programu yako ni ya juu kiasi gani, bado unapaswa kuamini kuwa block zilizo na sarafu zako hazitaandikwa upya. Hata hivyo, kama ilivyoonyeshwa na Harding, unaweza kusubiri uthibitisho kadhaa, na baada ya hapo kuzingatia uwezekano wa kuandika upya chain kuwa mdogo kiasi cha kukubalika.
 
 
 Motisha za kutumia Bitcoin kwa njia ya Trustless zinalingana na hitaji la mfumo la ugatuaji wa Full node. Kadiri watu wanavyozidi kutumia nodi zao kamili, ndivyo ugatuaji wa Full node unavyoongezeka, na hivyo Bitcoin yenye nguvu zaidi inasimama dhidi ya mabadiliko mabaya ya itifaki. Lakini kwa bahati mbaya, kama ilivyoelezwa katika sehemu ya Full node ya ugatuaji, watumiaji mara nyingi huchagua huduma zinazoaminika kama matokeo ya biashara isiyoepukika kati ya kutokuwa na uaminifu na urahisi.
@@ -303,17 +300,15 @@ Kutoaminika kwa Bitcoin ni muhimu kabisa kutoka kwa mtazamo wa mfumo. Mnamo 2018
 ![video](https://youtu.be/66ZoGUAnY9s?t=4019)
 
 
-Kiini cha mazungumzo hayo ni kwamba huwezi kujenga mifumo ya Trustless juu ya mfumo unaoaminika, lakini unaweza kujenga mifumo inayoaminika - kwa mfano, Wallet ya ulinzi - juu ya mfumo wa Trustless.
-
+Kiini cha mazungumzo hayo ni kwamba huwezi kujenga mifumo ya trustless juu ya mfumo unaoaminika, lakini unaweza kujenga mifumo inayoaminika — kwa mfano, custodial wallet — juu ya mfumo wa trustless.
 
 
 ![width=50%](assets/trust.webp)
 
 
-Msingi wa Trustless Layer unaruhusu ubadilishanaji mbalimbali katika viwango vya juu
+Msingi wa trustless layer unaruhusu exchange mbalimbali katika viwango vya juu.
 
-
-Muundo huu wa usalama huruhusu mtengenezaji wa mfumo kuchagua mabadilishano
+Muundo huu wa usalama huruhusu mtengenezaji wa mfumo kuchagua exchange.
 
 ambayo yana mantiki kwao bila kulazimisha biashara hiyo kwa wengine.
 
@@ -322,40 +317,36 @@ ambayo yana mantiki kwao bila kulazimisha biashara hiyo kwa wengine.
 
 
 
-Bitcoin inafanya kazi bila uaminifu, lakini bado unapaswa kuamini programu na maunzi yako kwa kiwango fulani. Hiyo ni kwa sababu programu au maunzi yako yanaweza kuwa hayajaratibiwa kufanya kile kilichotajwa kwenye kisanduku. Kwa mfano:
+Bitcoin inafanya kazi kwa trustlessness, lakini bado unapaswa kuamini programu na maunzi yako kwa kiwango fulani. Hii ni kwa sababu programu au maunzi yako yanaweza kuwa hayajaratibiwa kufanya kile kilichotajwa kwenye kisanduku. Kwa mfano:
 
 
 
 - CPU inaweza kuundwa kwa makusudi ili kugundua utendakazi wa ufunguo wa faragha na kuvuja data ya ufunguo wa faragha.
-- Jenereta ya nambari nasibu ya mfumo wa uendeshaji inaweza isiwe nasibu kama inavyodai.
+- Generator ya nambari nasibu ya mfumo wa uendeshaji inaweza isiwe nasibu kama inavyodai.
 - Bitcoin Core inaweza kuwa iliingia kisiri katika msimbo ambao utatuma funguo zako za faragha kwa mwigizaji fulani mbaya.
 
 
-Kwa hivyo, kando na kuendesha Full node, unahitaji pia kuhakikisha kuwa unaendesha unachokusudia. Mtumiaji wa Reddit brianddk [aliandika makala](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) kuhusu viwango mbalimbali vya uaminifu unavyoweza kuchagua, unapothibitisha programu yako. Katika sehemu "Kuamini wajenzi", anazungumza juu ya ujenzi wa kuzaliana:
+Kwa hivyo, mbali na kuendesha full node, unahitaji pia kuhakikisha kuwa unatekeleza programu uliyokusudia. Mtumiaji wa Reddit brianddk [aliandika makala](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) kuhusu viwango tofauti vya uaminifu unavyoweza kuchagua unapothibitisha programu yako. Katika sehemu ya "Kuamini wajenzi", anazungumzia kuhusu ujenzi unaoweza kurudiwa (reproducible builds).
 
 
-> Miundo inayoweza kurudiwa ni njia ya kuunda programu ili wasanidi wengi wa jumuiya waweze kuunda programu na kuhakikisha kuwa kisakinishi cha mwisho kilichojengwa kinafanana na kile ambacho wasanidi wengine huzalisha. Kwa mradi wa umma sana, unaoweza kutolewa tena kama Bitcoin, hakuna msanidi programu mmoja anayehitaji kuaminiwa kabisa. Watengenezaji wengi wanaweza kutekeleza muundo na kuthibitisha kwamba walitoa faili sawa na ile ambayo mjenzi asilia alitia saini kidijitali.
+> Miundo inayoweza kurudiwa ni njia ya kuunda programu ili wasanidi wengi wa jumuiya waweze kuijenga na kuhakikisha kuwa kisakinishi cha mwisho kilichozalishwa kinafanana na kile ambacho wasanidi wengine wamezalisha. Kwa mradi wa wazi sana unaoweza kurudiwa kama Bitcoin, hakuna msanidi programu mmoja anayehitaji kuaminiwa kabisa. Wasanidi wengi wanaweza kutekeleza muundo huo na kuthibitisha kwamba walizalisha faili ile ile ambayo mjenzi wa awali alitia saini kwa njia ya kidijitali.
 
-Kifungu kinafafanua viwango 5 vya uaminifu: kuamini tovuti, wajenzi, mkusanyaji, kokwa, na maunzi.
-
-
-Ili kuongeza zaidi mada ya miundo inayoweza kuzaliana tena, Carl Dong [alitoa wasilisho kuhusu Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) akieleza kwa nini kuamini mfumo wa uendeshaji, maktaba, na vikusanyaji kunaweza kuwa tatizo, na mfumo gani unaotumiwa na GW-3 unaitwa Guix, na jinsi ya kurekebisha GW3. leo.
+Kifungu kinaeleza kuhusu viwango vitano vya uaminifu: kuamini tovuti, wajenzi wa programu, mkusanyaji wa msimbo (compiler), kokwa ya mfumo (kernel), na maunzi.
 
 
-> Kwa hivyo tunaweza kufanya nini kuhusu ukweli kwamba mnyororo wetu wa zana unaweza kuwa na rundo la jozi zinazoaminika ambazo zinaweza kuwa hasidi? Tunahitaji kuwa zaidi ya kuzaliana. Tunahitaji kuwa bootstrappable. Hatuwezi kuwa na zana nyingi kama hizi ambazo tunahitaji kupakua na kuamini kutoka kwa seva za nje zinazodhibitiwa na mashirika mengine.
->
+Ili kuendeleza zaidi mada ya miundo inayoweza kurudiwa, Carl Dong [alitoa wasilisho kuhusu Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) akieleza kwa nini kuamini mfumo wa uendeshaji, maktaba, na vikusanyaji kunaweza kuwa tatizo, pamoja na mfumo unaotumiwa na GW-3 unaoitwa Guix, na jinsi ya kurekebisha GW-3 leo.
 
-> Tunapaswa kujua jinsi zana hizi zinavyoundwa na jinsi tunavyoweza kupitia mchakato wa kuzijenga tena, ikiwezekana kutoka kwa seti ndogo zaidi za jozi zinazoaminika. Tunahitaji kupunguza seti zetu za jozi tunazoamini kadiri tuwezavyo, na kuwa na njia inayoweza kukaguliwa kwa urahisi kutoka kwa minyororo hiyo ya zana hadi tunayotumia jinsi ya kuunda Bitcoin. Hii huturuhusu kuongeza uthibitishaji na kupunguza uaminifu.
+> Kwa hivyo, tunaweza kufanya nini kuhusu ukweli kwamba chain yetu ya zana inaweza kuwa na jozi nyingi za vitu vinavyoaminika ambavyo vinaweza kuwa hasidi? Tunahitaji kwenda zaidi ya uwezo wa kujirudia. Tunahitaji kuwa bootstrappable. Hatuwezi kutegemea zana nyingi kama hizi ambazo tunalazimika kuzipakua na kuziamini kutoka kwa seva za nje zinazodhibitiwa na mashirika mengine.
+> Tunapaswa kujua jinsi zana hizi zinavyoundwa na jinsi tunavyoweza kupitia mchakato wa kuzijenga tena, ikiwezekana kutoka kwa seti ndogo zaidi za jozi zinazoaminika. Tunahitaji kupunguza seti zetu za jozi tunazoamini kadiri tuwezavyo, na kuwa na njia inayoweza kukaguliwa kwa urahisi kutoka kwa chain hiyo ya zana hadi kwenye tunayotumia kuunda Bitcoin. Hii huturuhusu kuongeza uthibitishaji na kupunguza uaminifu.
 
-Kisha anaelezea jinsi Guix huturuhusu tu kuamini binary ndogo ya baiti 357 ambayo inaweza kuthibitishwa na kueleweka kikamilifu ikiwa unajua jinsi ya kutafsiri maagizo. Hii ni ya kushangaza kabisa: mtu anathibitisha kuwa binary ya 357-byte hufanya inavyopaswa, kisha kuitumia kuunda mfumo kamili wa ujenzi kutoka kwa nambari ya chanzo, na kuishia na binary ya Bitcoin Core ambayo inapaswa kuwa nakala halisi ya muundo wa mtu mwingine yeyote.
+Kisha anaelezea jinsi Guix huturuhusu tu kuamini binary ndogo ya baiti 357 ambayo inaweza kuthibitishwa na kueleweka kikamilifu ikiwa unajua jinsi ya kutafsiri maagizo. Hii ni ya kushangaza kabisa: mtu anathibitisha kuwa binary ya baiti 357 hufanya inavyopaswa, kisha kuitumia kuunda mfumo kamili wa ujenzi kutoka kwa nambari ya chanzo, na kuishia na binary ya Bitcoin Core ambayo inapaswa kuwa nakala halisi ya ile iliyozalishwa na mtu mwingine yeyote.
 
 
 Kuna mantra ambayo bitcoiners wengi hujiandikisha, ambayo inachukua vizuri mengi ya hapo juu:
 
-
 > Usiamini, thibitisha.
 
-Hii inarejelea maneno "[tumaini, lakini thibitisha](https://en.wikipedia.org/wiki/Trust,_but_verify)" ambayo rais wa zamani wa Marekani Ronald Reagan alitumia katika muktadha wa upokonyaji silaha za nyuklia. [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) ilibadilisha ili kuangazia kukataliwa kwa uaminifu na umuhimu wa kuendesha Full node.
+Hii inarejelea maneno "[tumaini, lakini thibitisha](https://en.wikipedia.org/wiki/Trust,_but_verify)" ambayo rais wa zamani wa Marekani Ronald Reagan alitumia katika muktadha wa upokonyaji silaha za nyuklia. [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) walibadilisha msemo huo ili kuangazia kukataliwa kwa uaminifu na umuhimu wa kuendesha full node.
 
 
 Ni juu ya watumiaji kuamua ni kwa kiwango gani wanataka kuthibitisha programu wanayotumia na data ya Blockchain wanayopokea. Kama ilivyo kwa vitu vingine vingi katika Bitcoin, kuna biashara kati ya urahisi na kutoaminiana. Karibu kila wakati ni rahisi zaidi kutumia Wallet ya uangalizi ikilinganishwa na kuendesha Bitcoin Core kwenye maunzi yako mwenyewe. Hata hivyo, kwa kuwa programu ya Bitcoin inapevuka na miingiliano ya watumiaji inaboreka, baada ya muda inapaswa kuwa bora katika kusaidia watumiaji walio tayari kufanya kazi kuelekea kutokuwa na uaminifu. Pia, watumiaji wanapopata maarifa zaidi baada ya muda, wanapaswa kuwa na uwezo wa kuondoa uaminifu hatua kwa hatua kutoka kwa mlinganyo.
@@ -364,22 +355,21 @@ Ni juu ya watumiaji kuamua ni kwa kiwango gani wanataka kuthibitisha programu wa
 Watumiaji wengine hufikiria vibaya na kuthibitisha vipengele vingi vya programu wanayoendesha. Kama matokeo, wanapunguza hitaji la uaminifu kwa kiwango cha chini kabisa, kwani wanahitaji tu kuamini vifaa vyao vya kompyuta na mfumo wa kufanya kazi. Kwa kufanya hivyo, wao pia huwasaidia watu ambao hawathibitishi maunzi yao kwa kina kwa kupaza sauti zao hadharani ili kuonya kuhusu masuala yoyote wanayoweza kupata. Mfano mmoja mzuri wa hili ni [tukio lililotokea mwaka wa 2018](https://bitcoincore.org/en/2018/09/20/notice/), wakati mtu aligundua hitilafu ambayo ingewaruhusu wachimbaji kutumia pato mara mbili katika shughuli hiyo hiyo:
 
 
-> CVE-2018-17144, marekebisho ambayo ilitolewa mnamo Septemba 18 katika matoleo ya Bitcoin Core 0.16.3 na 0.17.0rc4, inajumuisha kipengele cha Kunyimwa Huduma na hatari kubwa ya mfumuko wa bei. Hapo awali iliripotiwa kwa wasanidi programu kadhaa wanaofanya kazi kwenye Bitcoin Core, na pia miradi inayounga mkono sarafu zingine za siri, ikijumuisha ABC na Unlimited mnamo Septemba 17 kama hitilafu ya Kunyimwa Huduma pekee, hata hivyo tulibaini haraka kuwa suala hilo pia lilikuwa hatari ya mfumuko wa bei kwa sababu ya msingi sawa na kurekebisha.
+> CVE-2018-17144, marekebisho ambayo yalitolewa mnamo Septemba 18 katika matoleo ya Bitcoin Core 0.16.3 na 0.17.0rc4, yalihusisha hitilafu ya Kunyimwa Huduma (Denial of Service) pamoja na hatari kubwa ya mfumuko wa bei. Awali, iliripotiwa kwa wasanidi programu kadhaa wanaofanya kazi kwenye Bitcoin Core, pamoja na miradi inayounga mkono sarafu-fiche nyingine, ikiwemo ABC na Unlimited, mnamo Septemba 17 kama hitilafu ya Kunyimwa Huduma pekee. Hata hivyo, tuligundua haraka kuwa suala hilo pia lilikuwa tishio la mfumuko wa bei kwa sababu ya msingi ule ule uliosababisha hitilafu hiyo na uliohitaji kurekebishwa.
 
-Hapa, mtu asiyejulikana aliripoti suala ambalo liligeuka kuwa mbaya zaidi kuliko vile mwandishi wa habari alivyotambua. Hii inaangazia ukweli kwamba watu wanaothibitisha kanuni mara nyingi huripoti dosari za usalama badala ya kuzitumia vibaya. Hii ni manufaa kwa wale ambao hawawezi kuthibitisha kila kitu wao wenyewe.
+Hapa, mtu asiyejulikana aliripoti suala ambalo liligeuka kuwa baya zaidi kuliko vile mwandishi wa habari alivyotambua. Hii inaangazia ukweli kwamba watu wanaothibitisha kanuni mara nyingi huripoti dosari za usalama badala ya kuzitumia vibaya. Hili ni jambo lenye manufaa kwa wale ambao hawawezi kuthibitisha kila kitu wao wenyewe.
 
 
 Hata hivyo, watumiaji hawapaswi kuamini wengine kuwaweka salama, lakini wanapaswa kujithibitisha wenyewe wakati wowote na chochote wanachoweza; hivyo ndivyo mtu anavyobaki kuwa huru kadri awezavyo, na jinsi Bitcoin inavyofanikiwa. Kadiri macho yanavyotazama programu, ndivyo uwezekano mdogo wa msimbo na dosari za usalama kupenya.
 
 
-### Hitimisho kuhusu Kutoaminika
+### Hitimisho kuhusu trustlessness 
 
 
 
-Itifaki ya Bitcoin ni Trustless kwa sababu inaruhusu watumiaji kuingiliana nayo bila kuamini mtu wa tatu. Kiutendaji, hata hivyo, watu wengi hawawezi kuthibitisha rundo kamili la programu na maunzi wanayotumia Bitcoin. Watu wenye ujuzi ambao huthibitisha programu au maunzi wanaweza kuwaonya watu wengine, wasio na ujuzi mdogo, wanapopata msimbo au hitilafu hasidi.
+Itifaki ya Bitcoin ni trustless kwa sababu inaruhusu watumiaji kuingiliana nayo bila kuamini mtu wa tatu. Kiutendaji, hata hivyo, watu wengi hawawezi kuthibitisha rundo kamili la programu na maunzi wanayotumia kwa Bitcoin. Watu wenye ujuzi wanaothibitisha programu au maunzi wanaweza kuwaonya watu wengine, wasio na ujuzi wa kutosha, wanapogundua msimbo au hitilafu hasidi.
 
-
-Bila uaminifu, hatuwezi kuwa na ugatuaji, kwa sababu uaminifu unahusisha sehemu kuu ya mamlaka. Unaweza kuunda mfumo unaoaminika juu ya mfumo wa Trustless, lakini huwezi kuunda mfumo wa Trustless juu ya mfumo unaoaminika.
+Bila trustlessness, hatuwezi kuwa na ugatuaji, kwa sababu uaminifu unahusisha sehemu kuu ya mamlaka. Unaweza kuunda mfumo unaoaminika juu ya mfumo wa trustless, lakini huwezi kuunda mfumo wa trustless juu ya mfumo unaoaminika.
 
 
 ## Faragha
@@ -394,76 +384,63 @@ Bila uaminifu, hatuwezi kuwa na ugatuaji, kwa sababu uaminifu unahusisha sehemu 
 Sura hii inahusu jinsi ya kuweka taarifa zako za kibinafsi za kifedha kwako. Inafafanua ufaragha unasimamia nini katika muktadha wa Bitcoin, kwa nini ni muhimu, na inamaanisha nini kusema kwamba Bitcoin ni jina bandia. Pia inaangalia jinsi data ya kibinafsi inaweza kuvuja, zote mbili za On-Chain na off-chain.
 
 
-Halafu, inazungumza juu ya ukweli kwamba bitcoins zinapaswa kuwa fungible, ikimaanisha kubadilishana kwa bitcoins nyingine yoyote, na jinsi fungibility na faragha zinavyoendana. Hatimaye, sura hii inatanguliza baadhi ya hatua unazoweza kuchukua ili kuboresha faragha yako na ya wengine.
+Kisha, inazungumzia ukweli kwamba bitcoins zinapaswa kuwa fungible, yaani zinaweza kubadilishwa kwa bitcoins nyingine yoyote, na jinsi fungibility na faragha zinavyohusiana kwa karibu. Mwishowe, sura hii inatambulisha baadhi ya hatua unazoweza kuchukua ili kuboresha faragha yako na ya wengine.
 
-
-Bitcoin inaweza kuelezewa kama mfumo usiojulikana, ambapo watumiaji wana majina bandia mengi katika mfumo wa funguo za umma. Kwa mtazamo wa kwanza, hii inaonekana kama njia nzuri sana ya kulinda watumiaji dhidi ya kutambuliwa, lakini kwa kweli ni rahisi sana kuvuja taarifa za kibinafsi za kifedha bila kukusudia.
+Bitcoin inaweza kuelezwa kama mfumo wa kificho majina (pseudonymous), ambapo watumiaji wana majina mengi ya utani kwa kutumia funguo za umma. Kwa mtazamo wa kwanza, hii inaonekana kama njia nzuri ya kulinda watumiaji wasitambuliwe, lakini kwa kweli ni rahisi sana kuvuja taarifa za kifedha binafsi bila kusudi.
 
 
 ### Nini maana ya faragha?
+Faragha inaweza kumaanisha mambo tofauti katika muktadha tofauti. Katika Bitcoin, kwa ujumla inamaanisha kuwa watumiaji hawahitaji kufichua taarifa zao za kifedha kwa wengine, isipokuwa wakifanya hivyo kwa hiari yao.
 
+Kuna njia nyingi ambazo unaweza kuvuja taarifa zako binafsi kwa wengine, iwe kwa kujua au bila kujua. Data inaweza kuvuja kutoka kwenye blockchain ya umma au kupitia njia nyingine, kwa mfano wakati wahalifu wanaposhika mawasiliano yako ya internet.
 
-
-Faragha inaweza kumaanisha vitu tofauti katika miktadha tofauti. Katika Bitcoin, kwa ujumla inamaanisha kuwa watumiaji si lazima wafichue taarifa zao za kifedha kwa wengine, isipokuwa wafanye hivyo kwa hiari.
-
-
-Kuna njia nyingi ambazo unaweza kuvujisha habari zako za kibinafsi kwa wengine, kwa kujua au bila kujua. Data inaweza kuvuja kutoka kwa Blockchain ya umma au kupitia njia zingine, kwa mfano wakati watendaji hasidi wanapoingilia mawasiliano yako ya mtandao.
+Kuna njia nyingi ambazo unaweza kuvujisha habari zako za kibinafsi kwa wengine, kwa kujua au bila kujua. Data inaweza kuvuja kutoka kwa blockchain ya umma au kupitia njia zingine, kwa mfano wakati watendaji hasidi wanapoingilia mawasiliano yako ya mtandao.
 
 
 ### Kwa nini faragha ni muhimu?
 
 
-Inaweza kuonekana wazi kwa nini faragha ni muhimu katika Bitcoin, lakini kuna baadhi ya vipengele vyake ambavyo mtu hawezi kufikiria mara moja. [Kwenye Bitcoin Talk forum](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell hutupitia sababu nyingi nzuri zinazomfanya afikirie kuwa faragha ni muhimu. Miongoni mwao ni soko huria, usalama, na utu wa binadamu:
+Inaweza kuonekana wazi kwa nini faragha ni muhimu katika Bitcoin, lakini kuna baadhi ya vipengele vyake ambavyo mtu hawezi kufikiria mara moja. [Kwenye jukwaa la Bitcoin Talk](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell hutupitia sababu nyingi nzuri zinazomfanya afikirie kuwa faragha ni muhimu. Miongoni mwa hizo sababu ni soko huru, usalama, na heshima ya utu wa binadamu:
 
+> Faragha ya kifedha ni kipengele muhimu cha uendeshaji mzuri wa soko huru: ikiwa unafanya biashara, huwezi kuweka bei kwa ufanisi ikiwa wasambazaji na wateja wako wanaweza kuona miamala yako yote bila idhini yako.
+> Huwezi kushindana kwa ufanisi ikiwa mshindani wako anaweza kufuatilia mauzo yako. Binafsi, kiwango chako cha taarifa kinapotea katika shughuli zako za kibinafsi ikiwa huna faragha kwenye akaunti yako: kwa mfano, ikiwa utamlipa mwenye nyumba kwa Bitcoin bila faragha ya kutosha, mwenye nyumba ataona unavyopokea malipo mengine na anaweza kukulipa kodi zaidi.
 
-> Faragha ya kifedha ni kigezo muhimu cha uendeshaji bora wa soko huria: ikiwa unafanya biashara, huwezi kuweka bei kwa ufanisi ikiwa wasambazaji na wateja wako wanaweza kuona miamala yako yote kinyume na utashi wako.
-> Huwezi kushindana kwa ufanisi ikiwa shindano lako linafuatilia mauzo yako.  Binafsi kiwango chako cha taarifa kinapotea katika shughuli zako za kibinafsi ikiwa huna faragha kwenye akaunti yako: ikiwa utamlipa mwenye nyumba katika Bitcoin bila faragha ya kutosha, mwenye nyumba ataona utakapopokea nyongeza ya malipo na anaweza kukulipa kodi zaidi.
->
-
-> Faragha ya kifedha ni muhimu kwa usalama wa kibinafsi: ikiwa wezi wanaweza kuona matumizi yako, mapato na mali yako, wanaweza kutumia maelezo hayo kukulenga na kukunyonya. Bila ufaragha watu wenye nia mbaya wana uwezo zaidi wa kuiba utambulisho wako, kunyang'anya ununuzi wako mkubwa nje ya mlango wako, au kuiga biashara unayofanya miamala kwako... wanaweza kueleza ni kiasi gani hasa cha kujaribu kukulaghai.
->
-
-> Faragha ya kifedha ni muhimu kwa utu wa binadamu: hakuna mtu anayetaka barista mbovu kwenye duka la kahawa au majirani zao wenye hasira watoe maoni yao juu ya mapato yao au tabia ya matumizi. Hakuna anayetaka wakwe zao wachanga kuuliza kwa nini wananunua vidhibiti mimba (au vinyago vya ngono). Mwajiri wako hana biashara ya kujua unachangia kanisa gani. Ni katika ulimwengu usio na ubaguzi ulioelimika kikamilifu ambapo hakuna mtu aliye na mamlaka isivyofaa juu ya mtu mwingine yeyote tunaweza kuhifadhi hadhi yetu na kufanya miamala yetu halali kwa uhuru bila kujidhibiti ikiwa hatuna faragha.
+> Faragha ya kifedha ni muhimu kwa usalama wa kibinafsi: ikiwa wezi wanaweza kuona matumizi yako, mapato, na mali zako, wanaweza kutumia taarifa hizo kukulenga na kukunyonya. Bila faragha, watu wenye nia mbaya wana uwezo zaidi wa kuiba utambulisho wako, kunyang’anya ununuzi wako mkubwa moja kwa moja, au kuiga biashara unayofanya katika miamala yako... na hivyo kuelewa ni kiasi gani hasa cha kujaribu kukudanganya.
+> Faragha ya kifedha ni muhimu kwa heshima ya utu wa binadamu: hakuna mtu anayependa mhudumu mkali kwenye kahawa au majirani wavamizi wakasema kuhusu mapato yao au tabia za matumizi. Hakuna anayependa kuwa na familia mpendwa wanaouliza kwa nini wanununua viuatilifu au vitu vya ngono. Mwajiri wako hana haki ya kujua unagawia kanisa gani. Ni katika dunia yenye uelewa kamili na huru kutoka ubaguzi ambapo hakuna mtu anayeweza kudhibiti mwingine kupita kiasi ndipo tunaweza kudumisha heshima zetu na kufanya miamala yetu halali kwa uhuru bila kujizuia, ikiwa hatuna faragha.
 
 Maxwell pia anagusia juu ya uwezekano wa kufungika, ambayo itajadiliwa baadaye katika sura hii, na pia jinsi faragha na utekelezaji wa sheria haupingani.
 
 
 ### Jina bandia
 
-
-Tulitaja hapo juu kwamba Bitcoin ni jina bandia, na kwamba majina bandia ni funguo za umma. Katika vyombo vya habari mara nyingi husikia kwamba Bitcoin haijulikani, ambayo si sahihi. Kuna tofauti kati ya kutokujulikana na jina bandia.
-
+Tulitaja hapo juu kwamba Bitcoin ni mfumo wa kificho majina, na kwamba majina bandia ni funguo za umma. Katika vyombo vya habari mara nyingi husikia kwamba Bitcoin ni haijulikani, jambo ambalo si sahihi. Kuna tofauti kati ya kutokujulikana na mfumo wa kificho majina.
 
 Andrew Poelstra [anafafanua katika chapisho la Bitcoin Stack Exchange](https://Bitcoin.stackexchange.com/a/29473/69518) jinsi kutokujulikana kunavyoweza kuonekana katika miamala:
 
 
-> Kutokujulikana kwa jumla, kwa maana ya kwamba unapotumia pesa hakuna dalili ya wapi ilitoka au inakokwenda, inawezekana kinadharia kwa kutumia mbinu ya kriptografia ya uthibitisho usio na maarifa.
+> Kutokujulikana kwa jumla, kwa maana kwamba unapotumia pesa hakuna dalili za wapi zilipotoka au zinaelekea wapi, kinadharia inawezekana kufikiwa kwa kutumia mbinu ya kriptografia ya uthibitisho usio na maarifa.
 
-Tofauti inaonekana kuwa kwa njia isiyojulikana ya pesa unaweza kufuatilia malipo kati ya majina bandia, ambapo kwa njia isiyojulikana ya pesa huwezi. Kwa kuwa malipo ya Bitcoin yanaweza kufuatiliwa kati ya majina bandia, si mfumo usiojulikana.
+Tofauti ni kwamba kwa njia ya kificho majina, unaweza kufuatilia malipo kati ya majina bandia, lakini kwa njia isiyojulikana ya pesa, huwezi kufanya hivyo. Kwa kuwa malipo ya Bitcoin yanaweza kufuatiliwa kati ya majina bandia, si mfumo usiojulikana.
 
+Pia tumesema kwamba majina bandia ni funguo za umma, lakini kwa hakika ni anwani zinazotokana na funguo za umma. Kwa nini tunatumia anwani kama majina bandia badala ya kitu kingine, kama majina ya maelezo, mfano "watchme1984"? Hili [limefafanuliwa vyema](https://Bitcoin.stackexchange.com/a/25175/69518) na mtumiaji Tim S., pia kwenye Bitcoin Stack Exchange:
 
-Pia tumesema kwamba majina bandia ni funguo za umma, lakini kwa hakika ni anwani zinazotokana na funguo za umma. Kwa nini tunatumia anwani kama majina bandia na si kitu kingine, kwa mfano baadhi ya majina ya maelezo, kama "watchme1984"? Hili [limefafanuliwa vyema](https://Bitcoin.stackexchange.com/a/25175/69518) na mtumiaji Tim S., pia kwenye Bitcoin Stack Exchange:
+> Ili wazo la Bitcoin lifanye kazi, lazima uwe na sarafu ambazo zinaweza kutumika tu na mmiliki wa ufunguo wa kibinafsi aliyepewa. Hii inamaanisha kuwa chochote unachotuma lazima kifungwe, kwa njia fulani, kwa ufunguo wa umma.
 
+> Kutumia majina bandia ya kiholela (kwa mfano majina ya watumiaji) kunge maana kwamba itabidi kuunganisha jina bandia hilo na ufunguo wa umma ili kuwezesha kriptografia ya ufunguo wa umma/kibinafsi. Hii ingetoa uwezo wa kuunda kwa usalama anwani/majina bandia nje ya mtandao (kwa mfano, kabla mtu kutuma pesa kwa jina la mtumiaji "tdumidu", itabidi kutangazwa kwenye blockchain kwamba "tdumidu" inamilikiwa na ufunguo wa umma "a1c...", na kujumuisha ada ili wengine wawe na sababu ya kuitangaza).
 
-> Ili wazo la Bitcoin lifanye kazi, lazima uwe na sarafu ambazo zinaweza kutumika tu na mmiliki wa ufunguo uliopewa wa kibinafsi. Hii inamaanisha kuwa chochote unachotuma lazima kifungwe, kwa njia fulani, kwa ufunguo wa umma.
->
+Pia, ingetia chumvi kupunguzwa kwa utambulisho (kwa kukuhimiza kutumia majina bandia mara nyingi), na kuongeza ukubwa wa blockchain bila sababu. Hii pia ingetengeneza hisia potofu ya usalama kwamba unamtumia mtu unayemfikiria (kwa mfano, kama nitachukua jina "Linus Torvalds" kabla hajalichukua, basi ni langu na watu wanaweza kutuma pesa wakidhani wanamlipa muundaji wa Linux, si mimi).
 
-> Kutumia majina bandia ya kiholela (k.m. majina ya watumiaji) kunaweza kumaanisha kwamba itabidi kwa njia fulani kuunganisha jina bandia na ufunguo wa umma ili kuwezesha ufunguo wa umma/faragha. Hili lingeondoa uwezo wa kuunda kwa usalama anwani/majina bandia nje ya mtandao (k.m. kabla ya mtu kutuma pesa kwa jina la mtumiaji "tdumidu", utahitaji kutangaza katika Blockchain kwamba "tdumidu" inamilikiwa na ufunguo wa umma "a1c...", na kujumuisha ada ili wengine wawe na sababu ya kuitangaza), kupunguza utambulisho (kwa kukuhimiza bila kuhitaji), na kukuhimiza bila kuhitaji. Blockchain. Pia inaweza kuunda hali ya uwongo ya usalama ambayo unamtumia unayefikiria kuwa (ikiwa nikichukua jina "Linus Torvalds" kabla hajafanya hivyo, basi ni langu na watu wanaweza kutuma pesa wakidhani wanamlipa muundaji wa Linux, sio mimi).
+Kwa kutumia anwani, au funguo za umma, tunafanikisha malengo muhimu kama kuondoa haja ya kusajili jina bandia kabla, kupunguza hamasa ya kutumia majina bandia mara nyingi, kuepuka kuongezeka kupita kiasi kwa ukubwa wa blockchain, na kufanya iwe vigumu kuigiza watu wengine.
 
-Kwa kutumia anwani, au funguo za umma, tunafikia malengo muhimu, kama vile kuondoa hitaji la kusajili jina bandia mapema, kupunguza vivutio vya kutumia tena majina bandia, kuepuka uvimbe wa Blockchain, na kuifanya iwe vigumu kuiga watu wengine.
+### Faragha ya Blockchain 
 
-
-### Blockchain faragha
-
-
-
-Faragha ya Blockchain inarejelea maelezo unayofichua kwa kufanya miamala kwenye Blockchain. Inatumika kwa miamala yote, ile unayotuma pamoja na ile unayopokea.
+Faragha ya blockchain inarejelea taarifa unazofichua unapofanya miamala kwenye blockchain. Inahusiana na miamala yote, ile unayotuma pamoja na ile unayopokea.
 
 
 Satoshi Nakamoto inatafakari kuhusu faragha ya On-Chain katika sehemu ya 7 ya [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
 
 
-> Kama ngome ya ziada, jozi mpya ya funguo inapaswa kutumika kwa kila shughuli ili kuwazuia kuunganishwa na mmiliki wa kawaida. Baadhi ya kuunganisha bado hakuwezi kuepukika kwa shughuli za pembejeo nyingi, ambazo zinaonyesha kuwa pembejeo zao zilimilikiwa na mmiliki mmoja. Hatari ni kwamba ikiwa mmiliki wa ufunguo atafichuliwa, kuunganisha kunaweza kufichua miamala mingine ambayo ilikuwa ya mmiliki sawa.
+> Kama kinga ya ziada, jozi mpya ya funguo inapaswa kutumika kwa kila muamala ili kuzuia kuhusishwa na mmiliki mmoja. Hata hivyo, kuhusishwa fulani haiwezi kuepukwa katika miamala yenye pembejeo nyingi, ambazo lazima zinaonyesha kuwa pembejeo zote zilimilikiwa na mmiliki mmoja. Hatari ni kwamba kama mmiliki wa funguo atafichuliwa, kuhusishwa kunaweza kufichua miamala mingine ambayo ilikuwa ya mmiliki huyo huyo.
 
 Karatasi hiyo inatoa muhtasari wa shida kuu za faragha ya Blockchain, ambayo ni utumiaji tena wa Address na nguzo za Address. Ya kwanza ni kujieleza, ya mwisho inahusu uwezo wa kuamua, kwa kiwango fulani cha uhakika, kwamba seti ya anwani tofauti ni ya mtumiaji mmoja.
 
@@ -474,43 +451,39 @@ Karatasi hiyo inatoa muhtasari wa shida kuu za faragha ya Blockchain, ambayo ni 
 Uvujaji wa kawaida wa faragha kwenye Blockchain
 
 
-Chris Belcher [aliandika kwa kina](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) kuhusu aina tofauti za uvujaji wa faragha unaoweza kutokea kwenye Bitcoin Blockchain. Tunapendekeza usome angalau vifungu vichache vya kwanza chini ya "Blockchain mashambulizi dhidi ya faragha."
+Chris Belcher [aliandika kwa kina](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) kuhusu aina tofauti za uvujaji wa faragha unaoweza kutokea kwenye Bitcoin blockchain. Tunapendekeza usome angalau vifungu vichache vya kwanza chini ya sehemu ya "Blockchain mashambulizi dhidi ya faragha."
 
 
-Jambo la kuchukua ni kwamba faragha katika Bitcoin sio kamili. Inahitaji kiasi kikubwa cha kazi kufanya shughuli za faragha. Watu wengi hawako tayari kwenda mbali hivyo kwa faragha. Inaonekana kuna biashara ya wazi kati ya faragha na utumiaji.
+Jambo la kuchukua ni kwamba faragha katika Bitcoin sio kamili. Inahitaji juhudi kubwa kufanya miamala yenye faragha. Watu wengi hawako tayari kwenda mbali kiasi hicho kwa ajili ya faragha. Inaonekana kuna biashara wazi kati ya faragha na urahisi wa matumizi.
+
+Kipengele kingine muhimu cha faragha ni kwamba hatua unazochukua kulinda faragha yako huathiri watumiaji wengine pia. Ikiwa huna makini na faragha yako mwenyewe, wengine wanaweza pia kupungukiwa faragha. Gregory Maxwell anafafanua hili kwa uwazi sana kwenye mjadala uleule wa Bitcoin Talk [uliounganisha hapo juu](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), na anahitimisha kwa mfano:
 
 
-Kipengele kingine muhimu cha faragha ni kwamba hatua unazochukua ili kulinda faragha yako huathiri watumiaji wengine pia. Ikiwa huna uzembe na faragha yako mwenyewe, watu wengine wanaweza kukumbana na kupunguzwa kwa faragha pia. Gregory Maxwell anafafanua hili kwa uwazi sana kwenye mjadala uleule wa Bitcoin Talk [uliounganisha hapo juu](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), na anahitimisha kwa mfano:
+> Hii pia hufanya kazi katika vitendo... Mchunguzi mwema wa usalama (whitehat hacker) kwenye IRC alijaribu kuvunjika kwa brainwallet na akagundua maneno yaliyo na takriban BTC 250 ndani yake. Tuliweza kumtambua mmiliki kutokana na anwani tu, kwa sababu alilipwa na huduma ya Bitcoin iliyotumia anwani moja mara nyingi, na mchunguzi huyo aliweza kuwahamasisha kutoa taarifa za mawasiliano za mtumiaji. Kwa kweli alipata mtumiaji kwa simu, walishangaa na kuchanganyikiwa—lakini walifurahia kutopoteza sarafu zao. Hapo ilikuwa mwisho mzuri wa hadithi. (Hii siyo mfano pekee, lakini ni mojawapo ya za kufurahisha zaidi).
 
 
-> Hii inafanya kazi kivitendo, pia... Mdukuzi mzuri wa kofia nyeupe kwenye IRC alikuwa akicheza huku akipasuka pochi ya ubongo na kugonga kifungu chenye ~250 BTC ndani yake.  Tuliweza kutambua mmiliki kutoka kwa Address pekee, kwa sababu walikuwa wamelipwa na huduma ya Bitcoin ambayo ilitumia anwani tena na aliweza kuzungumza nao ili kutoa maelezo ya mawasiliano ya watumiaji. Kwa kweli alimpata mtumiaji kwenye simu, walishtuka na kuchanganyikiwa- lakini wanashukuru kwa kutotoa sarafu yao.  Mwisho wa furaha hapo. (Huu sio mfano pekee wake, kwa mbali ... lakini ni moja wapo ya kufurahisha zaidi).
-
-Katika kesi hii, yote yalikwenda vizuri kutokana na mdukuzi mwenye nia ya uhisani, lakini usitegemee hilo wakati ujao.
-
+Katika kesi hii, yote yalienda vizuri kwa sababu mdukuzi alikuwa na nia ya kusaidia, lakini usitegemee bahati kama hiyo wakati mwingine.
 
 ### Faragha isiyo ya Blockchain
 
 
-Ingawa Blockchain inathibitisha kuwa chanzo mashuhuri cha uvujaji wa faragha, kuna uvujaji mwingine mwingi ambao hautumii Blockchain, wengine wajanja zaidi kuliko wengine. Hizi huanzia kwa viweka kumbukumbu muhimu hadi uchanganuzi wa trafiki ya mtandao. Ili kusoma zaidi kuhusu baadhi ya mbinu hizi, tafadhali rejelea tena [kipande cha Chris Belcher](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), hasa sehemu ya "Mashambulizi yasiyo ya Blockchain dhidi ya faragha".
+Ingawa blockchain ni chanzo mashuhuri cha uvujaji wa faragha, kuna njia nyingi nyingine za uvujaji ambazo hazihusishi blockchain — nyingine zikiwa za ujanja zaidi. Njia hizi zinaweza kuwa kutoka kwa viweka kumbukumbu muhimu hadi kwa uchambuzi wa trafiki ya mtandao. Ili kujifunza zaidi kuhusu mbinu hizi, tafadhali rejelea tena [makala ya Chris Belcher](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), hasa sehemu ya "Mashambulizi yasiyo ya Blockchain dhidi ya faragha".
 
 
-Miongoni mwa mashambulizi mengi, Belcher anataja uwezekano wa mtu kuchungulia muunganisho wako wa intaneti, kwa mfano, Mtoa huduma wako wa Intaneti:
+Miongoni mwa mashambulizi mengi, Belcher anataja uwezekano wa mtu kuchungulia muunganisho wako wa intaneti — kwa mfano, Mtoa Huduma wako wa Intaneti (ISP).
 
-
-> Ikiwa adui ataona shughuli au kizuizi kinatoka kwenye nodi yako ambayo haikuingia hapo awali, basi anaweza kujua kwa uhakika kwamba shughuli hiyo ilifanywa na wewe au kizuizi kilichimbwa na wewe. Miunganisho ya intaneti inapohusika, adui ataweza kuunganisha IP Address na taarifa iliyogunduliwa ya Bitcoin.
-
-Walakini, kati ya uvujaji wa usiri dhahiri zaidi ni kubadilishana. Kutokana na sheria, ambazo kwa kawaida hujulikana kama KYC (Mjue Mteja Wako) na AML (Anti-Money Laundering), ambazo ni halali katika maeneo wanayofanyia kazi, ubadilishanaji na makampuni yanayohusiana mara nyingi hulazimika kukusanya data ya kibinafsi kuhusu watumiaji wao, na kuunda hifadhidata kubwa kuhusu ni watumiaji gani wanamiliki bitcoins. Hifadhidata hizi ni vifuko bora vya asali kwa serikali waovu na wahalifu ambao daima wanatazamia wahasiriwa wapya. Kuna masoko halisi ya aina hii ya data, ambapo wadukuzi
+> Ikiwa mhasimu ataona muamala au block ukitoka kwenye node yako bila kuuona ukiingia awali, basi anaweza kujua kwa karibu uhakika kwamba muamala huo umetoka kwako au block hiyo umetengeneza wewe mwenyewe. Kwa kuwa muunganisho wa intaneti unahusika, mhasimu ataweza kuunganisha anwani yako ya IP na taarifa za Bitcoin zilizogunduliwa.
+Hata hivyo, miongoni mwa vyanzo vya wazi kabisa vya uvujaji wa faragha ni exchanges. Kutokana na sheria, ambazo kawaida hujulikana kama KYC (Know Your Customer) na AML (Anti-Money Laundering, zinazotumika katika maeneo wanakoendesha shughuli zao, exchanges na kampuni zinazohusiana mara nyingi hulazimika kukusanya data binafsi za watumiaji wao, na hivyo kujenga hifadhidata kubwa kuhusu watumiaji gani wanamiliki bitcoins gani. Hifadhidata hizi ni honeypots nzuri kwa serikali dhalimu na wahalifu ambao siku zote hutafuta waathirika wapya. Kuna masoko halisi ya aina hii ya data, ambapo hackers huuza data kwa anayetoa dau kubwa zaidi.
 
 kuuza data kwa mzabuni wa juu zaidi.
 
 
-Ili kufanya mambo kuwa mabaya zaidi, makampuni ambayo yanasimamia hifadhidata hizi mara nyingi huwa na uzoefu mdogo wa kulinda data ya kifedha, kwa kweli wengi wao ni vijana wanaoanza, na tunajua kwa kweli kwamba uvujaji kadhaa tayari umetokea. Mifano michache ni
+Ili kufanya mambo kuwa mabaya zaidi, makampuni ambayo yanasimamia hifadhidata hizi mara nyingi huwa na uzoefu mdogo wa kulinda data ya kifedha, kwa kweli wengi wao ni \[startups], na tunajua kwa uhakika kwamba uvujaji kadhaa tayari umetokea. Mifano michache ni:
 
 [MobiQwik ya India](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-umuhimu-of-Bitcoin-privacy) na [HubSpot](https://bitcoinmagazine.com/business/hubspot-18-data-security-Gusach-Gusach).
 
 
-Tena, kulinda data dhidi ya aina mbalimbali za mashambulizi ni Hard, na kuna uwezekano kwamba hutaweza kufanya hivyo kikamilifu. Itabidi uchague kubadilishana kati ya urahisi na faragha ambayo inakufaa zaidi.
-
+Tena, kulinda data dhidi ya aina mbalimbali za mashambulizi ni ngumu, na kuna uwezekano kwamba hutaweza kufanya hivyo kikamilifu. Itabidi uchague kubadilishana kati ya urahisi na faragha inayokufaa zaidi.
 
 ### Ukungu
 

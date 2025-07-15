@@ -73,10 +73,10 @@ Untuk mencegah hilangnya akses ke akun Olvid Anda, kami sarankan untuk mengatur 
 ⚠️ **Perhatian**: sejak versi 3.7 Olvid, prosedur untuk mencadangkan profil dan kontak Anda telah digantikan dengan yang baru. Tutorial ini masih menyajikan versi lama. Anda dapat menemukan versi baru di FAQ mereka: [💾 Mencadangkan profil Anda](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 ![Image](assets/fr/06.webp)
 
-Buka menu "*Save keys and contacts*".
+Buka menu "*Save keys and contacts (Simpan kunci dan kontak)*".
 ![Image](assets/fr/07.webp)
 
-Kemudian klik "*generate kunci cadangan*". Kunci ini akan mengenkripsi cadangan Anda. Jika Anda perlu memulihkan akun di perangkat lain dan tidak lagi memiliki akses ke sana, Anda akan memerlukan cadangan dan kunci ini untuk mendekripsinya.
+Kemudian klik "*Generate a backup key (hasilkan kunci cadangan)*". Kunci ini akan mengenkripsi cadangan Anda. Jika Anda perlu memulihkan akun di perangkat lain dan tidak lagi memiliki akses ke sana, Anda akan memerlukan cadangan dan kunci ini untuk mendekripsinya.
 ![Image](assets/fr/08.webp)
 
 Simpan kunci ini di tempat yang aman. Anda juga dapat membuat salinan kertas.
@@ -85,7 +85,7 @@ Simpan kunci ini di tempat yang aman. Anda juga dapat membuat salinan kertas.
 Anda kemudian dapat memilih untuk membuat cadangan lokal atau cadangan otomatis pada layanan cloud. Opsi kedua ini sangat direkomendasikan untuk menjamin akses ke akun Olvid Anda dalam segala situasi, bahkan jika Anda kehilangan ponsel Anda.
 ![Image](assets/fr/10.webp)
 
-Pastikan opsi "*Enable automatic backup*" dicentang.
+Pastikan opsi "*Enable automatic backup (aktifkan pencadangan otomatis)*" dicentang.
 ![Image](assets/fr/11.webp)
 
 Anda juga dapat menjelajahi pengaturan lain yang tersedia untuk menyesuaikan aplikasi sesuai kebutuhan Anda.
@@ -93,82 +93,36 @@ Anda juga dapat menjelajahi pengaturan lain yang tersedia untuk menyesuaikan apl
 
 ## Mengirim pesan dengan Olvid
 
-
-
-Untuk dapat mengirim pesan, Anda harus terlebih dahulu menambahkan kontak. Dari halaman beranda, klik tombol "*+*" berwarna biru.
-
-
-
+Untuk dapat mengirim pesan, Anda harus menambahkan kontak terlebih dahulu. Dari halaman utama, klik tombol biru "*+*".
 ![Image](assets/fr/13.webp)
 
+Olvid kemudian akan menampilkan ID pengguna Anda. Anda bisa memberikannya kepada orang yang ingin Anda ajak berkomunikasi agar mereka dapat menambahkan Anda sebagai kontak.
 
-
-Olvid kemudian menampilkan ID pengguna Anda. Anda kemudian dapat meneruskannya ke orang yang ingin Anda ajak berkomunikasi, sehingga mereka dapat menambahkan Anda sebagai kontak.
-
-
-
-Untuk menambahkan seseorang, pindai identitasnya dengan kamera Anda, atau tempelkan secara manual dengan mengeklik tiga titik kecil di sudut kanan atas.
-
-
-
+Untuk menambahkan seseorang, pindai ID mereka dengan kamera Anda, atau tempelkan secara manual dengan mengeklik tiga titik kecil di sudut kanan atas.
 ![Image](assets/fr/14.webp)
 
-
-
-Setelah ID dipindai, Anda dapat meminta kontak Anda untuk memindai kode QR yang ditampilkan, atau mengirimkan permintaan koneksi jarak jauh dengan mengeklik "*Kontak jarak jauh*".
-
-
-
+Setelah ID berhasil dipindai, Anda dapat meminta kontak Anda untuk memindai kode QR yang ditampilkan, atau Anda bisa mengirimkan permintaan koneksi jarak jauh dengan mengeklik "*Remote contact*" (Kontak Jarak Jauh).
 ![Image](assets/fr/15.webp)
 
-
-
-Koneksi sekarang sudah terjalin.
-
-
-
+Koneksi sekarang sudah terbentuk.
 ![Image](assets/fr/16.webp)
 
-
-
-Sekarang Anda bisa mulai bertukar pesan dan konten lainnya dengan koresponden Anda!
-
-
-
+Sekarang Anda bisa mulai bertukar pesan dan konten lainnya dengan kenalan Anda!
 ![Image](assets/fr/17.webp)
 
-
-
 Dari halaman beranda, Anda akan menemukan semua percakapan Anda.
-
-
-
 ![Image](assets/fr/18.webp)
 
-
-
 Tab kedua berisi semua kontak Anda.
-
-
-
 ![Image](assets/fr/19.webp)
 
-
-
 Anda juga dapat membuat diskusi kelompok.
-
-
-
 ![Image](assets/fr/20.webp)
 
+Selamat, Anda sekarang sudah mahir menggunakan pesan Olvid, sebuah alternatif yang bagus selain WathsApp! Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan tanda jempol hijau di bawah ini. Jangan ragu untuk membagikan tutorial ini di jejaring sosial Anda. Terima kasih banyak!
 
+Selamat! Kini Anda telah memahami cara menggunakan Olvid messaging, sebuah alternatif yang hebat selain WhatsApp! Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda dapat memberikan jempol hijau di bawah. Jangan ragu untuk membagikan tutorial ini di sosial media Anda. Terima kasih banyak!
 
-Selamat, Anda sekarang sudah mahir menggunakan pesan Olvid, sebuah alternatif yang bagus untuk WathsApp! Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan tanda jempol Green di bawah ini. Jangan ragu untuk membagikan tutorial ini di jejaring sosial Anda. Terima kasih banyak!
-
-
-
-Saya juga merekomendasikan tutorial lain ini, di mana saya memperkenalkan Anda pada Proton Mail, sebuah alternatif yang jauh lebih ramah privasi daripada Gmail:
-
-
+Saya juga merekomendasikan tutorial lain, di mana saya memperkenalkan Anda pada Proton Mail, sebuah alternatif yang jauh lebih ramah privasi dibandingkan Gmail:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

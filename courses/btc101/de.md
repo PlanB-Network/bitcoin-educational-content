@@ -1,19 +1,19 @@
 ---
 name: Die Bitcoin-Reise
-goal: Entdecken Sie die Grundlagen von Bitcoin, einschließlich des monetären Wertangebots, der Miner, Transaktionen und Wallets.
+goal: Entdecke die Grundlagen von Bitcoin, einschließlich des monetären Wertversprechens, der Miner, Transaktionen und Wallets.
 objectives:
-  - Gewinnen Sie ein allgemeines Verständnis der Bitcoin-Technologie
-  - Verstehen, wie man Bitcoins kauft und sichert
-  - Ein allgemeines Verständnis der Blockchain-Technologie haben
-  - Machen Sie sich mit dem Konzept des Lightning Network vertraut
-  - Erkennen Sie die geopolitischen und sozialen Auswirkungen von Bitcoin
+  - Gewinne ein allgemeines Verständnis der Bitcoin-Technologie
+  - Verstehe, wie man Bitcoins kauft und sichert
+  - Erlange ein allgemeines Verständnis der Blockchain-Technologie
+  - Mache dich mit dem Konzept des Lightning Network vertraut
+  - Erkenne die geopolitischen und sozialen Auswirkungen von Bitcoin
 ---
 
 # Ihr erstes Bitcoin-Abenteuer
 
-In diesem Kurs werden wir die Grundlagen von Bitcoin in 25 Kapiteln erklären, damit Sie diese Technologie auf einfache und effektive Weise verstehen können. Der Kurs erforscht die Grundlagen der gesamten Branche, einschließlich Themen wie Mining, Wallets, Kauf-/Verkaufsplattformen und mehr. Während des gesamten Kurses wird zusätzliches Lehrmaterial zur Verfügung stehen. Außerdem laden wir Sie ein, nach Abschluss des Kurses die "21 Poster" im Ressourcenbereich anzusehen.
+In diesem Kurs werden wir die Grundlagen von Bitcoin in 25 Kapiteln erklären, damit du diese Technologie auf einfache und effektive Weise verstehen kannst. Der Kurs erforscht die Grundlagen der gesamten Branche, einschließlich Themen wie Mining, Wallets, Kauf-/Verkaufsplattformen und mehr. Während des gesamten Kurses wird zusätzliches Lehrmaterial zur Verfügung stehen. Außerdem laden wir dich ein, nach Abschluss des Kurses die "21 Poster" im Ressourcenbereich anzusehen.
 
-Sie brauchen keine besonderen Vorkenntnisse, um loszulegen. Die folgenden Inhalte sind für Schüler aller Niveaus geeignet und sollten in etwa 15 Stunden abgeschlossen sein.
+Du brauchst keine besonderen Vorkenntnisse, um loszulegen. Die folgenden Inhalte sind für Schüler aller Niveaus geeignet und sollten in etwa 15 Stunden abgeschlossen sein.
 
 +++
 
@@ -27,13 +27,13 @@ Sie brauchen keine besonderen Vorkenntnisse, um loszulegen. Die folgenden Inhalt
 
 Willkommen im Kurs BTC101!
 
-Bitcoin ist eine technologische und monetäre Revolution, die unser Verhältnis zu Geld und Gesellschaft in Frage stellen kann. In der Tat ist Bitcoin (BTC) eine **neutrale** und **dezentrale** Währung, was bedeutet, dass sie von keiner Einrichtung oder Institution kontrolliert wird. Es handelt sich um eine Innovation, die über eine bloße "Internetwährung" hinausgeht: Sie ist sowohl ein Computerprotokoll (Bitcoin) als auch eine Geldeinheit (Bitcoin).
+Bitcoin ist eine technologische und monetäre Revolution, die unser Verhältnis zu Geld und Gesellschaft in Frage stellen kann. In der Tat ist Bitcoin (BTC) eine **neutrale** und **dezentrale** Währung, was bedeutet, dass sie von keiner Einrichtung oder Institution kontrolliert wird. Es handelt sich um eine Innovation, die über eine bloße "Internetwährung" hinausgeht: Sie ist sowohl ein Computerprotokoll als auch eine Geldeinheit.
 
 Das Protokoll nutzt zugrundeliegende Technologien wie Kryptografie, Netzwerkkommunikation und die berühmte "Blockchain", während die Bitcoin-Einheit als notwendige Währung für das ordnungsgemäße Funktionieren des Protokolls dient. Im täglichen Leben verwenden Salvadorianer und Bitcoiner auf der ganzen Welt die Bitcoin-Währung, um Waren und Dienstleistungen zu kaufen und zu verkaufen, und verlassen sich auf diese Technologie, um ihr Leben zu verbessern.
 
 **Ein umfassendes, aber zugängliches Studienprogramm:**
 
-In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einschließlich der Frage, wie man Bitcoins kauft und verkauft, sie sicher in digitalen Brieftaschen aufbewahrt und sie für Transaktionen verwendet. Wir werden auch die Rolle der Miner untersuchen, die für die Schaffung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks unerlässlich sind. Schließlich werden wir die Zukunft von Bitcoin erforschen und wie die Lightning Network-Technologie Bitcoin-Transaktionen verbessern kann.
+In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einschließlich der Frage, wie man Bitcoins kauft und verkauft, sie sicher in digitalen Brieftaschen (Wallets) aufbewahrt und sie für Transaktionen verwendet. Wir werden auch die Rolle der Miner untersuchen, die für die Schaffung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks unerlässlich sind. Schließlich werden wir die Zukunft von Bitcoin erforschen und wie die Lightning Network Technologie Bitcointransaktionen verbessern kann.
 
 ![image](assets/en/01.webp)
 
@@ -50,15 +50,15 @@ Es ist wichtig zu verstehen, dass Bitcoin ein neues Geldsystem ist, das unsere B
 - Kapitel 6 - 21 Millionen Bitcoins  
 
 **Abschnitt 3 - Bitcoin-Wallets**  
-- Kapitel 7 - Was ist ein Bitcoin-Wallet?  
+- Kapitel 7 - Was ist eine Bitcoin-Wallet?  
 - Kapitel 8 - Bitcoin-Wallets und Sicherheit  
-- Kapitel 9 - Einrichtung eines Wallets  
-- Kapitel 10 - Die Zeit überdauern  
+- Kapitel 9 - Einrichtung einer Wallets
+- Kapitel 10 - Bitcoins sicher verwahren
 
 **Abschnitt 4 - Die technischen Aspekte von Bitcoin**  
-- Kapitel 11 - Start von Bitcoin  
+- Kapitel 11 - Der Start von Bitcoin  
 - Kapitel 12 - Bitcoin-Transaktionen  
-- Kapitel 13 - Bitcoin-Knoten  
+- Kapitel 13 - Bitcoin-Nodes  
 - Kapitel 14 - Miner  
 - Kapitel 15 - Bitcoin und Ökologie  
 
@@ -73,9 +73,9 @@ Es ist wichtig zu verstehen, dass Bitcoin ein neues Geldsystem ist, das unsere B
 - Kapitel 21 - Anwendungsfälle des Lightning Network  
 - Kapitel 22 - Rote Pille oder blaue Pille?  
 
-Bevor wir die Definition von Geld und seine Funktion in der Gesellschaft vorstellen (Kapitel 1), sollten wir mit der Entstehungsgeschichte von Bitcoin beginnen. Bitcoin wurde 2009 eingeführt und ist eine relativ neue Technologie, die sich von allen anderen unterscheidet. Es ist daher normal, dass man nicht alles auf einmal versteht. Genau wie beim Erlernen der Internetnutzung oder des Autofahrens müssen Sie nicht sofort alle technischen Details kennen: Sie können damit beginnen, zu lernen, wie man Geld empfängt, bezahlt und sichert, und sich dann in kleinen Schritten eingehender damit befassen.
+Bevor wir die Definition von Geld und seine Funktion in der Gesellschaft vorstellen (Kapitel 1), sollten wir mit der Entstehungsgeschichte von Bitcoin beginnen. Bitcoin wurde 2009 eingeführt und ist eine relativ neue Technologie, die sich von allen anderen unterscheidet. Es ist daher normal, dass man nicht alles auf einmal versteht. Genau wie beim Lernen der Internetnutzung oder des Autofahrens müssen Sie nicht sofort alle technischen Details kennen: Du kannst damit beginnen, zu lernen, wie man Geld empfängt, bezahlt und sichert, und sich dann in kleinen Schritten eingehender damit befassen.
 
-Schließlich stehen wir erst am Anfang ihrer Einführung, da wir die Startphase hinter uns gelassen haben: Sie kommen gerade noch rechtzeitig, um sich so viel Wissen wie möglich über diese wichtige Innovation anzueignen.
+Schließlich stehen wir erst am Anfang der Bitcoin-Adaption, nachdem die Startphase nun vorbei ist: Du kommst also genau richtig, um dir so viel Wissen wie möglich über diese wichtige Innovation anzueignen.
 
 ![image](assets/en/02.webp)
 

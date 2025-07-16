@@ -504,18 +504,15 @@ Hapa, anazungumza juu ya hatari inayotokana na ukosefu wa fungibility. Tuseme ku
 Adam Back na Matt Corallo [walitoa wasilisho kuhusu uwezekano](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) wakiwa Scaling Bitcoin mjini Milan mwaka wa 2016. Walikuwa wakifikiria vivyo hivyo:
 
 
-> Unahitaji uwezo wa kubadilika ili Bitcoin ifanye kazi. Ikiwa unapokea sarafu na huwezi kuzitumia, basi unaanza kutilia shaka ikiwa unaweza kuzitumia. Ikiwa kuna mashaka kuhusu sarafu unazopokea, basi watu wataenda kwenye huduma za uchafu na kuangalia kama "sarafu hizi zimebarikiwa" na kisha watu watakataa kufanya biashara. Hii inachofanya ni kubadilisha Bitcoin kutoka kwa mfumo usio na kibali uliogatuliwa hadi mfumo wa kati ulioidhinishwa ambapo una "IOU" kutoka kwa watoa huduma walioidhinishwa.
+> Unahitaji kuwa na uwezo wa kubadilika ili Bitcoin ifanye kazi. Ikiwa unapokea sarafu lakini huwezi kuzitumia, basi unaanza kutilia shaka ikiwa unaweza kuzitumia. Ikiwa kuna mashaka kuhusu sarafu unazopokea, basi watu wataenda kwenye huduma za uchambuzi wa uchafu na kuangalia kama "sarafu hizi zimebarikiwa", na kisha watu watakataa kufanya biashara. Hii inachofanya ni kubadilisha Bitcoin kutoka kwa mfumo usio na kibali uliogatuliwa hadi mfumo wa kati unaohitaji idhini, ambapo una "IOU" kutoka kwa watoa huduma walioidhinishwa.
 
-Inaonekana kwamba ufaragha na uwezekano wa kuvumbua huenda pamoja. Usahihi utadhoofika ikiwa faragha ni dhaifu, kwa mfano kwani sarafu za watu wasiotakikana zinaweza kuorodheshwa. Kwa njia hiyo hiyo, faragha itadhoofika ikiwa uwezekano wa kugundulika ni dhaifu: ikiwa kuna orodha isiyoruhusiwa, itabidi uwaulize watoa huduma walioidhinishwa kuhusu sarafu za kukubali, na hivyo ikiwezekana kufichua IP yako Address, barua pepe Address, na taarifa nyingine nyeti. Vipengele hivi viwili vimeunganishwa sana hivi kwamba ni Hard kuzungumza juu ya mojawapo yao kwa kutengwa.
+Inaonekana kwamba faragha na uwezekano wa kuvumbua huenda pamoja. Usahihi utadhoofika ikiwa faragha ni dhaifu — kwa mfano, sarafu za watu wasiotakikana zinaweza kuorodheshwa. Vivyo hivyo, faragha itadhoofika ikiwa uwezekano wa kugundulika ni dhaifu: ikiwa kuna orodha ya kile ambacho hakiruhusiwi, itakulazimu kuwauliza watoa huduma walioidhinishwa kuhusu sarafu za kukubali, na hivyo kufichua IP Address yako, address ya barua pepe yako, au taarifa nyingine nyeti. Vipengele hivi viwili vimeunganishwa sana hivi kwamba ni Hard kuzungumzia kimoja bila kingine.
 
 
 ### Hatua za faragha
 
-
-
 Mbinu kadhaa zimetengenezwa ili kusaidia watu kujilinda kutokana na uvujaji wa faragha. Kati ya zile zilizo wazi zaidi ni, kama ilivyoonyeshwa na Nakamoto hapo awali, kwa kutumia kipekee
-
-anwani kwa kila shughuli, lakini zingine kadhaa zipo. Hatutakufundisha jinsi ya kuwa ninja wa faragha. Hata hivyo, Bitcoin Q+A ina [muhtasari wa haraka wa teknolojia za kuimarisha faragha](https://bitcoiner.guide/privacytips/), iliyopangwa kwa kiasi fulani kulingana na jinsi Hard wanavyopaswa kutekeleza. Unapoisoma, utagundua kuwa faragha ya Bitcoin mara nyingi inahusiana na vitu nje ya Bitcoin. Kwa mfano, hupaswi kujivunia bitcoins zako, na unapaswa kutumia Tor na VPN.
+address kwa kila muamala, lakini zingine kadhaa zipo. Hatutakufundisha jinsi ya kuwa ninja wa faragha. Hata hivyo, Bitcoin Q+A ina muhtasari wa haraka wa teknolojia za kuimarisha faragha, iliyopangwa kwa kiasi fulani kulingana na jinsi Hard zinavyopaswa kutekelezwa. Unapoisoma, utagundua kuwa faragha ya Bitcoin mara nyingi inahusiana na vitu nje ya Bitcoin. Kwa mfano, hupaswi kujivunia bitcoins zako, na unapaswa kutumia Tor na VPN.
 
 
 Chapisho pia linaorodhesha baadhi ya hatua zinazohusiana moja kwa moja na Bitcoin:
@@ -532,7 +529,7 @@ Katika [mazungumzo](https://btctranscripts.com/breaking-Bitcoin/2019/breaking-Bi
 > Walikuwa kasino ya Bitcoin. Kamari ya mtandaoni hairuhusiwi nchini Marekani. Wateja wowote wa Coinbase ambao waliweka pesa moja kwa moja kwa Bustabit akaunti zao zingefungwa kwa sababu Coinbase ilikuwa ikifuatilia hili. Bustabit alifanya mambo machache. Walifanya kitu kinachoitwa kuepusha mabadiliko unapopitia- na unaona ikiwa unaweza kutengeneza muamala ambao hauna matokeo ya mabadiliko. Hii huokoa ada za Miner na pia huzuia uchanganuzi.
 >
 
-> Pia, waliingiza anwani zao za amana zilizotumika tena katika soko la pamoja. Kwa wakati huu, wateja wa coinbase.com hawakuwahi kupigwa marufuku. Inaonekana huduma ya ufuatiliaji wa Coinbase haikuweza kufanya uchambuzi baada ya hili, kwa hiyo inawezekana kuvunja algorithms hizi.
+> Pia, waliingiza address zao za amana zilizotumika tena katika soko la pamoja. Kwa wakati huu, wateja wa coinbase.com hawakuwahi kupigwa marufuku. Inaonekana huduma ya ufuatiliaji wa Coinbase haikuweza kufanya uchambuzi baada ya hili, kwa hiyo inawezekana kuvunja algorithms hizi.
 
 Pia alitaja mfano huu, miongoni mwa mengine, kwenye [Ukurasa wa Faragha](https://en.Bitcoin.it/Privacy) kwenye Bitcoin wiki.
 
@@ -546,18 +543,18 @@ Kumbuka jinsi ufaragha bora unavyoweza kupatikana kwa kujenga mifumo juu ya Bitc
 Tabaka zilizo juu ya Bitcoin zinaweza kuongeza faragha
 
 
-Tulibainisha katika sura ya mwisho kwamba hitaji la uaminifu linaweza kuongezeka tu kwa tabaka juu, lakini hiyo haionekani kuwa hivyo kwa faragha, ambayo inaweza kuboreshwa au kufanywa kuwa mbaya zaidi kiholela katika tabaka za juu. Kwa nini ni hivyo? Layer yoyote iliyo juu ya Bitcoin, kama ilivyoelezwa katika aya ya Kuongeza Tabaka katika Kuongeza sura ya baadaye, lazima itumie miamala ya On-Chain mara kwa mara, vinginevyo haitakuwa "juu ya Bitcoin". Tabaka za kuimarisha faragha kwa ujumla hujaribu kutumia msingi wa Layer kidogo iwezekanavyo ili kupunguza kiasi cha taarifa iliyofichuliwa.
+Tulibaini katika sura iliyopita kwamba hitaji la kuaminiana linaweza kuongezeka kila unavyojenga tabaka juu ya Bitcoin, lakini hali hiyo haionekani kuwa hivyo kwa faragha — ambayo inaweza kuboreshwa au kuharibiwa kiholela katika tabaka hizo za juu. Kwa nini? Tabaka lolote juu ya Bitcoin, kama ilivyoelezwa katika aya ya "Layered Scaling" kwenye sura ijayo ya Scaling, lazima litumie miamala ya on-chain mara kwa mara, la sivyo lisingekuwa “juu ya Bitcoin”. Tabaka zinazoongeza faragha kwa kawaida hujaribu kutumia safu ya msingi kwa kiwango kidogo kadri inavyowezekana ili kupunguza taarifa zinazofichuliwa.
 
-
-Zilizo hapo juu ni njia za kiufundi za kuboresha faragha yako. Lakini kuna njia nyingine. Mwanzoni mwa sura hii, tulisema kwamba Bitcoin ni mfumo usiojulikana. Hii inamaanisha kuwa watumiaji katika Bitcoin hawajulikani kwa majina yao halisi au data nyingine ya kibinafsi, lakini kwa funguo zao za umma. Ufunguo wa umma ni jina bandia la mtumiaji, na mtumiaji anaweza kuwa na majina bandia mengi. Katika ulimwengu bora, utambulisho wako wa kibinafsi umetenganishwa kutoka kwa majina yako bandia ya Bitcoin. Kwa bahati mbaya, kutokana na matatizo ya faragha yaliyofafanuliwa katika sura hii, utengano huu kwa kawaida hushusha hadhi baada ya muda.
-
+Haya yote ni mbinu za kiufundi za kuboresha faragha yako. Lakini kuna njia nyingine pia. Mwanzoni mwa sura hii, tulisema kwamba Bitcoin ni mfumo wa kisiri bandia (pseudonymous). Hii ina maana kuwa watumiaji wa Bitcoin hawajulikani kwa majina yao halisi au taarifa nyingine binafsi, bali kwa funguo zao za umma. Funguo za umma hutumika kama majina bandia ya watumiaji, na mtumiaji anaweza kuwa na majina bandia mengi. Katika ulimwengu bora, utambulisho wako wa ana kwa ana hutenganishwa kabisa na majina yako bandia ya Bitcoin. Kwa bahati mbaya, kutokana na matatizo ya faragha yaliyoelezwa katika sura hii, utengano huu huwa unazorota kadri muda unavyosonga.
 
 Ili kupunguza hatari za kuwa na data yako ya kibinafsi kufichuliwa ni kutoitoa mara ya kwanza au kuipa huduma za kati, ambazo huunda hifadhidata kubwa ambazo zinaweza kuvuja. Makala ya Bitcoin Q+A [inafafanua KYC](https://bitcoiner.guide/nokyconly/) na hatari zinazotokana nayo. Pia inapendekeza baadhi ya hatua unazoweza kuchukua ili kuboresha hali yako:
 
 
-> Kwa bahati nzuri, kuna chaguzi kadhaa za kununua Bitcoin kupitia hakuna vyanzo vya KYC. Haya yote ni mabadilishano ya P2P (kufanya biashara na programu zingine) ambapo unafanya biashara moja kwa moja na mtu mwingine na si mtu mwingine aliye katikati. Kwa bahati mbaya wengine huuza sarafu zingine pamoja na Bitcoin kwa hivyo tunakusihi utunze.
+> Kwa bahati nzuri, kuna chaguzi kadhaa za kununua Bitcoin kupitia vyanzo visivyo na KYC. Haya yote ni mabadilishano ya P2P (yaani, kufanya biashara moja kwa moja na mtu mwingine kwa kutumia programu fulani) ambapo unafanya biashara bila mtu wa kati. Kwa bahati mbaya, wengine huuza. cryptocurrency nyingine pamoja na Bitcoin, kwa hivyo tunakusihi uwe mwangalifu.
 
-Makala yanapendekeza uepuke kutumia ubadilishanaji unaohitaji KYC/AML na badala yake ufanye biashara kwa faragha, au utumie ubadilishanaji wa madaraka kama vile [bisq](https://bisq.network/).
+
+Makala inapendekeza kuepuka kutumia exchange zinazohitaji KYC/AML, na badala yake kufanya biashara kwa faragha, au kutumia exchange za kidisentralishaji kama Bisq. 
+(https://bisq.network/).
 
 
 https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
@@ -567,10 +564,7 @@ Kwa usomaji wa kina zaidi kuhusu hatua za kupinga, rejelea [makala ya wiki kuhus
 
 ### Hitimisho kuhusu Faragha
 
-
-
 Faragha ni muhimu sana lakini Hard kufikia. Hakuna risasi ya fedha ya faragha.
-
 
 Ili kupata faragha inayostahili katika Bitcoin, unapaswa kuchukua hatua zinazoendelea, ambazo baadhi yake ni za gharama kubwa na zinazotumia muda.
 
@@ -579,12 +573,10 @@ Ili kupata faragha inayostahili katika Bitcoin, unapaswa kuchukua hatua zinazoen
 
 <chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
 
-
-
 ![](assets/finitesupply-banner.webp)
 
 
-Sura hii inaangalia kikomo cha Bitcoin Supply cha BTC milioni 21, au ni kiasi gani kwa kweli? Tunazungumza kuhusu jinsi kikomo hiki kinavyotekelezwa na kile ambacho mtu anaweza kufanya ili kuthibitisha kuwa kinaheshimiwa. Zaidi ya hayo, tunachunguza mpira wa kioo na kujadili mienendo itakayotumika wakati Block reward inapohama kutoka kwa msingi wa ruzuku hadi kulingana na ada.
+Sura hii inaangazia kikomo cha supply ya Bitcoin cha BTC milioni 21 — au je, kweli ni kiasi hicho? Tunajadili jinsi kikomo hiki kinavyotekelezwa na nini mtu anaweza kufanya ili kuthibitisha kama kinaheshimiwa. Zaidi ya hayo, tunachungulia hali ya baadaye na kujadili mienendo itakayoibuka wakati block reward itakapobadilika kutoka kwa msingi wa subsidy hadi msingi wa ada.
 
 
 Supply inayojulikana ya BTC milioni 21 inachukuliwa kuwa mali ya msingi ya Bitcoin. Lakini ni kweli imewekwa kwenye jiwe?
@@ -595,12 +587,12 @@ Wacha tuanze kwa kuangalia sheria za sasa za makubaliano zinasema nini kuhusu Su
 
 > Ukijumlisha nambari hizi zote pamoja, utapata 20999999.9769 BTC.
 
-Lakini kutokana na sababu kadhaa -- kama vile matatizo ya awali ya miamala ya coinbase, wachimbaji madini ambao bila kukusudia wanadai chini ya inavyoruhusiwa, na upotevu wa funguo za kibinafsi -- kikomo hicho cha juu hakitafikiwa kamwe. Wuille anahitimisha:
+Lakini kutokana na sababu kadhaa --  -- kikomo hicho cha juu hakitafikiwa kamwe. Wuille anahitimisha:
 
 
-> Hii inatuacha na 20999817.31308491 BTC (kuchukua kila kitu hadi kuzuia 528333 katika akaunti)
+> Hii inatuacha na 20999817.31308491 BTC (kuchukua kila kitu hadi block 528333 katika akaunti)
 
-Hata hivyo, pochi mbalimbali zimepotea au kuibiwa, shughuli zimetumwa kwa Address isiyo sahihi, watu walisahau kuwa wanamiliki Bitcoin. Jumla ya hii inaweza kuwa mamilioni. Watu wamejaribu kujumlisha hasara zinazojulikana [hapa](https://bitcointalk.org/index.php?topic=7253.0).
+Hata hivyo, wallets mbalimbali zimepotea au kuibiwa, miamala imetumwa kwa Address isiyo sahihi, watu walisahau kuwa wanamiliki Bitcoin. Jumla ya hii inaweza kuwa mamilioni. Watu wamejaribu kujumlisha hasara zinazojulikana [hapa](https://bitcointalk.org/index.php?topic=7253.0).
 
 
 Hii inatuacha na: ??? BTC.
@@ -621,20 +613,19 @@ Muhimu zaidi kuliko idadi kamili ya sarafu katika mzunguko ni jinsi kikomo cha S
 
 > Kwa hivyo jibu ni kwamba sio lazima kumwamini mtu ili asiongeze Supply. Lazima tu utekeleze nambari fulani ambayo itathibitisha kuwa haijafanya.
 
-Hata kama baadhi ya nodi kamili zitageukia upande wa giza na kuamua kukubali vitalu vilivyo na miamala ya thamani ya juu ya coinbase, nodi zote zilizosalia zitazipuuza tu na kuendelea kufanya biashara kama kawaida. Baadhi ya nodi kamili zinaweza, kwa kukusudia au bila kukusudia, kuendesha programu mbovu, lakini kundi litalinda kwa uthabiti Blockchain. Kwa kumalizia, unaweza kuchagua kuamini mfumo bila kulazimika kumwamini mtu yeyote.
+Hata kama baadhi ya full node zitageukia upande wa giza na kuamua kukubali blocks zilivyo na miamala ya thamani ya juu ya coinbase, nodes zote zilizosalia zitazipuuza tu na kuendelea kufanya biashara kama kawaida. Baadhi ya full node zinaweza, kwa kukusudia au bila kukusudia, kuendesha programu mbovu, lakini kundi litalinda kwa uthabiti Blockchain. Kwa kumalizia, unaweza kuchagua kuamini mfumo bila kulazimika kumwamini mtu yeyote.
 
 
-### Zuia ruzuku na ada za muamala
+### block  rewards na ada za muamala
+
+Block reward inaundwa na block reward pamoja na ada za miamala. Block reward inahitaji kulipia gharama za usalama za Bitcoin. Tunaweza kusema kwa uhakika kwamba chini ya masharti ya leo kuhusu block reward, ada za miamala, bei ya Bitcoin, saizi ya Mempool, nguvu ya Hash, kiwango cha ugatuaji, n.k., motisha kwa kila mchezaji kufuata sheria ni kubwa vya kutosha kuhifadhi mfumo salama wa pesa.
 
 
 
-Block reward inaundwa na ruzuku ya kuzuia pamoja na ada za miamala. Block reward inahitaji kulipia gharama za usalama za Bitcoin. Tunaweza kusema kwa uhakika kwamba chini ya masharti ya leo kuhusu ruzuku ya kuzuia, ada za miamala, bei ya Bitcoin, saizi ya Mempool, nguvu ya Hash, kiwango cha ugatuaji n.k., motisha kwa kila mchezaji kucheza kulingana na sheria ni kubwa vya kutosha kuhifadhi mfumo salama wa pesa.
+Ni nini hufanyika wakati block reward inakaribia sifuri? Ili kuweka mambo rahisi, hebu tuchukulie kuwa ni sawa na sifuri. Katika hatua hii, gharama ya usalama ya mfumo italipwa kupitia ada za muamala pekee. Nini wakati ujao unatuwekea wakati hili litatokea, hatuwezi kujua. Sababu za kutokuwa na uhakika ni nyingi, na tumeachwa kwenye uvumi. Kwa mfano, mchango wa Paul Sztorc kwa mada katika blogu yake ya Truthcoin mara nyingi ni wa kiuvumi, lakini ana angalau nukta moja thabiti (tafadhali kumbuka kuwa M2, kama inavyorejelewa na Sztorc, ni kipimo cha pesa supply):
 
+> Ingawa hizi mbili zimeunganishwa katika "bajeti ya usalama", block reward na ada za muamala ni vitu tofauti kabisa. Ni tofauti kabisa, kama ilivyo "jumla ya faida ya VISA mnamo 2017" ikilinganishwa na "ongezeko la jumla la M2 mnamo 2017".
 
-Ni nini hufanyika wakati ruzuku ya block inakaribia sifuri? Ili kuweka mambo rahisi, hebu tuchukulie kuwa ni sawa na sifuri. Katika hatua hii, gharama ya usalama ya mfumo inalipwa kupitia ada za muamala pekee. Nini wakati ujao unatuwekea wakati hii itatokea, hatuwezi kujua. Sababu za kutokuwa na uhakika ni nyingi na tumeachwa kwenye uvumi. Kwa mfano, mchango wa Paul Sztorc kwa mada [katika blogu yake ya Truthcoin](https://www.truthcoin.info/blog/security-budget/) mara nyingi ni uvumi, lakini ana angalau nukta moja thabiti (tafadhali kumbuka kuwa M2, kama inavyorejelewa na Sztorc, ni kipimo cha pesa Supply):
-
-
-> Ingawa hizi mbili zimechanganywa katika "bajeti ya usalama", ruzuku ya kuzuia na ada za txn ni tofauti kabisa. Ni tofauti kutoka kwa kila mmoja, kwani "jumla ya faida ya VISA mnamo 2017" ni kutoka kwa "ongezeko la jumla la M2 mnamo 2017".
 
 Leo, ni wamiliki ambao hulipa usalama (kupitia mfumuko wa bei wa fedha). Kesho itakuwa zamu ya watumiaji kubeba mzigo huu kwa namna fulani, kama inavyoonyeshwa hapa chini.
 
@@ -648,15 +639,15 @@ Kadiri muda unavyosonga, gharama za usalama zitabadilika kutoka kwa wamiliki had
 Wakati ada za ununuzi ndio motisha kuu ya Mining, motisha hubadilika. Hasa zaidi, ikiwa Mempool ya Miner haina ada za kutosha za muamala, inaweza kuwa faida zaidi kwa hiyo Miner kuandika upya historia ya Bitcoin badala ya kuirefusha. Bitcoin Optech ina [sehemu ya tabia hii] mahususi(https://bitcoinops.org/en/topics/fee-sniping/), inayoitwa *fee sniping*, iliyoandikwa na David Harding:
 
 
-> Ubaguzi wa ada ni tatizo ambalo linaweza kutokea huku ruzuku ya Bitcoin ikiendelea kupungua na ada za miamala kuanza kutawala zawadi za kuzuia za Bitcoin. Iwapo ada za muamala ndizo zote muhimu, basi Miner yenye `x` asilimia ya kiwango cha Hash ina nafasi `x` asilimia ya Mining kizuizi kinachofuata, kwa hivyo thamani inayotarajiwa kwao ya Mining ni asilimia `x` ya [seti bora zaidi ya feerate ya miamala](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) katika Mempool yao.
+> Ubaguzi wa ada ni tatizo ambalo linaweza kutokea huku block reward ya Bitcoin ikiendelea kupungua na ada za miamala kuanza kutawala zawadi za block reward za Bitcoin. Iwapo ada za muamala ndizo zote muhimu, basi miner yenye x asilimia ya kiwango cha Hash ina nafasi ya x asilimia ya mining ya block inayofuata, kwa hivyo thamani inayotarajiwa kwao ya mining ni asilimia x ya seti bora zaidi ya feerate ya miamala katika Mempool yao.
 >
 
-> Vinginevyo, Miner inaweza kujaribu kwa uaminifu kuchimba tena kizuizi kilichopita pamoja na kizuizi kipya kabisa ili kupanua mnyororo. Tabia hii inajulikana kama udukuzi wa ada, na nafasi isiyo ya uaminifu ya Miner ya kufaulu ikiwa kila Miner nyingine ni mwaminifu ni `(x/(1-x))^2`. Ijapokuwa udukuzi wa ada una uwezekano mdogo wa kufaulu kuliko Mining ya uaminifu, kujaribu Mining isiyo ya uaminifu inaweza kuwa chaguo la faida zaidi ikiwa miamala katika block iliyotangulia ililipa ada ya juu zaidi kuliko miamala ya sasa katika Mempool-nafasi ndogo kwa kiwango kikubwa inaweza kuwa ya thamani zaidi ya nafasi kubwa kwa kiwango kidogo.
+> Vinginevyo, miner inaweza kujaribu kwa uaminifu mdogo kuchimba tena block iliyopita pamoja na block mpya kabisa ili kupanua mnyororo. Tabia hii inajulikana kama udukuzi wa ada, na nafasi isiyo ya uaminifu ya miner kufaulu ikiwa kila miner mwingine ni mwaminifu ni (x/(1-x))^2. Ijapokuwa udukuzi wa ada una uwezekano mdogo wa kufaulu kuliko mining ya uaminifu, kujaribu mining isiyo ya uaminifu kunaweza kuwa chaguo lenye faida zaidi ikiwa miamala katika block iliyotangulia ililipa ada za juu zaidi kuliko miamala ya sasa katika Mempool — nafasi ndogo kwa kiwango kikubwa inaweza kuwa ya thamani zaidi kuliko nafasi kubwa kwa kiwango kidogo.
 
-Kutupa blanketi lenye unyevunyevu juu ya matumaini yetu ya siku zijazo ni ukweli kwamba ikiwa wachimbaji wataanza kufanya ubadhirifu wa ada, hii itawapa wengine motisha kufanya vivyo hivyo, na kuwaacha wachimba migodi wachache waaminifu. Hii inaweza kuathiri vibaya usalama wa jumla wa Bitcoin. Harding anaendelea kuorodhesha hatua chache za kukabiliana na ambazo zinaweza kuchukuliwa, kama vile kutegemea kufuli za muda wa muamala kuweka vikwazo ambapo katika Blockchain muamala unaweza kuonekana.
+Kutupa blanketi lenye unyevunyevu juu ya matumaini yetu ya siku zijazo ni ukweli kwamba ikiwa miners wataanza kufanya ubadhirifu wa ada, hii itawapa wengine motisha ya kufanya vivyo hivyo, na kuwaacha miners wachache waaminifu. Hali hii inaweza kuathiri vibaya usalama wa jumla wa Bitcoin. Harding anaendelea kuorodhesha hatua chache za kukabiliana nazo ambazo zinaweza kuchukuliwa, kama vile kutegemea kufuli za muda wa muamala ili kuweka vikwazo kuhusu ni wapi katika blockchain muamala unaweza kuonekana.
 
 
-Kwa hivyo, ikizingatiwa kuwa maafikiano kuhusu Supply ya mwisho yamesalia, ruzuku ya kuzuia - shukrani kwa [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) ambayo ilirekebisha hitilafu ya mfumuko wa bei ya muda mrefu - itafikia sifuri karibu mwaka wa 2140. Je!
+Kwa hivyo, ikizingatiwa kuwa maafikiano kuhusu supply ya mwisho yamesalia, block reward — shukrani kwa BIP42 ambayo ilirekebisha hitilafu ya mfumuko wa bei ya muda mrefu — itafikia sifuri karibu mwaka wa 2140. Je?
 
 
 Haiwezekani kusema, lakini tunajua mambo machache:
@@ -664,10 +655,11 @@ Haiwezekani kusema, lakini tunajua mambo machache:
 
 - Karne ni *muda mrefu* kutoka kwa mtazamo wa Bitcoin. Ikiwa bado iko karibu, labda itakuwa imebadilika sana.
 - Iwapo walio wengi wa kiuchumi wataona ni muhimu kubadilisha sheria na kuanzisha kwa mfano mfumuko wa bei wa kila mwaka wa 0.1% au 1% wa kila mwaka, Supply ya Bitcoin haitakuwa na kikomo tena.
-- Kwa ruzuku ya vitalu sifuri na Mempool tupu au karibu tupu, mambo yanaweza kutetereka kwa sababu ya udukuzi wa ada.
+- Kwa block reward ya sifuri na Mempool iliyo tupu au karibu tupu, mambo yanaweza kutetereka kwa sababu ya udukuzi wa ada.
 
 
-Kwa kuwa mabadiliko ya kwenda kwa Block reward ya ada tu ni ya sasa katika siku zijazo, inaweza kuwa busara kutofikia hitimisho na kujaribu kurekebisha masuala yanayoweza kutokea wakati tunaweza. Kwa mfano, Peter Todd anadhani kuna hatari halisi kwamba bajeti ya usalama ya Bitcoin haitatosha katika siku zijazo, na kwa hivyo anabishana kuhusu mfumuko mdogo wa kudumu wa bei katika Bitcoin. Walakini, pia anadhani sio wazo zuri kujadili suala kama hilo kwa wakati huu, kama [alisema kwenye podcast ya Nini Bitcoin Ilifanya](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Kwa kuwa mabadiliko ya kuelekea kwenye block reward inayotegemea ada pekee ni jambo la siku zijazo, inaweza kuwa busara kuepuka kufikia hitimisho mapema na badala yake kujaribu kushughulikia matatizo yanayoweza kutokea kadri muda unavyoruhusu. Kwa mfano, Peter Todd anaamini kuwa kuna hatari halisi kwamba bajeti ya usalama ya Bitcoin haitatosha katika siku zijazo, na kwa hivyo anapendekeza wazo la kuwepo kwa mfumuko mdogo wa bei wa kudumu katika Bitcoin. Hata hivyo, pia anaamini kwamba si wazo zuri kujadili suala hilo kwa sasa, kama alisema kwenye podcast ya What Bitcoin Did:
+
 
 
 > Lakini, hiyo ni hatari kama miaka 10, 20 katika siku zijazo. Hiyo ni muda mrefu sana. Na, kwa wakati huo, ni nani kuzimu anajua hatari ni nini?
@@ -696,7 +688,7 @@ Ikiwa Bitcoin Supply itaongezeka zaidi ya milioni 21 hatuwezi kusema leo, na hiy
 ![](assets/upgrading-banner.webp)
 
 
-Kuboresha Bitcoin kwa njia salama kunaweza kuwa vigumu sana. Baadhi ya mabadiliko huchukua miaka kadhaa kutekelezwa. Katika sura hii, tunajifunza kuhusu msamiati wa kawaida kuhusu kuboresha Bitcoin, na kuchunguza baadhi ya mifano ya uboreshaji wa kihistoria wa itifaki yake pamoja na maarifa tuliyopata kutoka kwao. Mwishowe, tunazungumza juu ya mgawanyiko wa mnyororo na hatari na gharama zinazohusiana nao.
+Kuboresha Bitcoin kwa njia salama kunaweza kuwa jambo gumu sana. Mabadiliko mengine huchukua miaka kadhaa kutekelezwa kikamilifu. Katika sura hii, tutajifunza msamiati wa kawaida unaohusiana na kuboresha Bitcoin, na kuchunguza baadhi ya mifano ya maboresho ya kihistoria kwenye itifaki yake pamoja na maarifa tuliyopata kutoka kwayo. Hatimaye, tutazungumzia kuhusu chain splits na hatari na gharama zinazohusiana nayo.
 
 
 Ili kuelewa sura hii, unapaswa kusoma [kipande cha David Harding kuhusu maelewano na mifarakano](https://bitcointalk.org/dec/p1.html):
@@ -705,12 +697,13 @@ Ili kuelewa sura hii, unapaswa kusoma [kipande cha David Harding kuhusu maelewan
 > Wataalamu wa Bitcoin mara nyingi huzungumza juu ya makubaliano, ambayo maana yake ni ya kufikirika na Hard kubandika. Lakini neno makubaliano lilitokana na neno la Kilatini concentus, "kuimba pamoja kwa maelewano" kwa hivyo tuzungumze sio mwafaka wa Bitcoin bali upatano wa Bitcoin.
 >
 
-> Harmony ndio hufanya Bitcoin kufanya kazi. Maelfu ya nodi kamili kila moja hufanya kazi kivyake ili kuthibitisha miamala wanayopokea ni halali, ikitoa makubaliano ya usawa kuhusu hali ya Bitcoin Ledger bila mwendeshaji wa nodi yoyote anayehitaji kumwamini mtu mwingine yeyote. Ni sawa na kwaya ambapo kila mshiriki huimba wimbo mmoja kwa wakati mmoja ili kutoa kitu kizuri zaidi kuliko yeyote kati yao angeweza kutoa peke yake.
+>Harmony ndio hufanya Bitcoin kufanya kazi. Maelfu ya full node kila moja hufanya kazi kivyake ili kuthibitisha miamala wanayopokea ni halali, na hivyo kutoa makubaliano ya pamoja kuhusu hali ya Bitcoin ledger bila mmiliki wa node yeyote kumhitaji kumwamini mtu mwingine. Ni kama kwaya ambapo kila mshiriki huimba wimbo mmoja kwa wakati mmoja, na kwa pamoja kutoa kitu kizuri zaidi kuliko ambacho kila mmoja angeweza kutoa peke yake.
 >
 
-> Matokeo ya maelewano ya Bitcoin ni mfumo ambapo bitcoins ni salama si tu kutoka kwa wezi wadogo (mradi tu unaweka funguo zako salama) lakini pia kutokana na mfumuko wa bei usioisha, unyakuzi wa wingi au unaolengwa, au kwa urahisi urasimu ambao ni mfumo wa kifedha uliorithiwa.
+> Matokeo ya maelewano ya Bitcoin ni mfumo ambapo bitcoins ni salama, si tu kutoka kwa wezi wadogo (mradi tu umehifadhi funguo zako salama), bali pia dhidi ya mfumuko wa bei usioisha, unyakuzi wa mali kwa wingi au kwa kulenga mtu binafsi, au hata urasimu wa moja kwa moja unaopatikana katika mfumo wa kifedha wa jadi tuliourithi.
+Sura hii inajadili jinsi Bitcoin inaweza kuboreshwa bila kusababisha mifarakano. Kudumisha maelewano — yaani, kuhakikisha maafikiano yanaendelea — ni mojawapo ya changamoto kubwa katika maendeleo ya Bitcoin. Kuna tofauti nyingi za kiufundi katika kuboresha mifumo, ambazo zinaweza kueleweka vyema kwa kusoma mifano halisi ya visasisho vya awali. Kwa sababu hii, sura hii inatoa kipaumbele kikubwa kwa mifano ya kihistoria, na huanza kwa kuweka msingi pamoja na msamiati muhimu.
 
-Sura hii inajadili jinsi Bitcoin inaweza kuboreshwa bila kusababisha mifarakano. Kukaa kwa maelewano, yaani kudumisha maafikiano, kwa hakika ni mojawapo ya changamoto kubwa katika maendeleo ya Bitcoin. Kuna nuances nyingi za kuboresha mifumo, ambayo inaweza kueleweka vyema kwa kusoma visa halisi vya visasisho vya hapo awali. Kwa sababu hii, sura inazingatia sana mifano ya kihistoria, na inaanza kwa kuweka jukwaa na msamiati muhimu.
+
 
 
 ### Msamiati

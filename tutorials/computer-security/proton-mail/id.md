@@ -36,32 +36,31 @@ Anda dapat memilih nama domain yang Anda inginkan untuk alamat email Anda dengan
 Juga, pilih nama pengguna untuk alamat email Anda.
 ![proton](assets/notext/06.webp)
 
-Anda kemudian diminta untuk menetapkan kata sandi. Penting untuk memilih kata sandi yang kuat pada tahap ini, karena itu akan memungkinkan akses ke kotak surat Anda. Kata sandi yang kuat harus sepanjang mungkin, menggunakan berbagai karakter yang luas, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk kata sandi yang aman adalah 13 karakter termasuk angka, huruf kecil dan huruf besar, serta simbol, asalkan kata sandi tersebut benar-benar acak. Namun, saya merekomendasikan untuk memilih kata sandi setidaknya 20 karakter, termasuk semua jenis karakter yang mungkin, untuk memastikan keamanannya lebih lama.
-Penggunaan manajer kata sandi adalah praktik yang sangat baik. Ini tidak hanya memungkinkan Anda untuk menyimpan kata sandi Anda secara aman tanpa harus mengingatnya, tetapi juga dapat menghasilkan kata sandi yang panjang dan acak untuk Anda. Memang benar manusia sangat buruk dalam menciptakan urutan acak, dan kata sandi yang tidak cukup acak dapat rentan terhadap serangan brute force. Saya juga merekomendasikan untuk berkonsultasi dengan tutorial lengkap kami tentang pengaturan manajer kata sandi untuk lebih detail mengenai topik ini:
+Selanjutnya, Anda akan diminta untuk menentukan kata sandi. Penting untuk memilih kata sandi yang kuat pada tahap ini, karena ini akan memberikan akses ke kotak email Anda. Kata sandi yang tangguh sebaiknya sepanjang mungkin, menggunakan beragam jenis karakter, dan dipilih secara acak. Pada tahun 2024, rekomendasi minimum untuk kata sandi yang aman adalah 13 karakter yang mencakup angka, huruf kecil dan besar, serta simbol, dengan syarat kata sandi tersebut benar-benar acak. Namun, saya menyarankan untuk memilih kata sandi minimal 20 karakter, termasuk semua jenis karakter yang mungkin, guna memastikan keamanannya untuk jangka waktu yang lebih panjang.
+
+Penggunaan pengelola kata sandi merupakan praktik yang sangat baik. Ini tidak hanya memungkinkan Anda menyimpan kata sandi dengan aman tanpa harus menghafalnya, tetapi juga dapat membuat kata sandi yang panjang dan acak untuk Anda. Manusia memang sangat buruk dalam menciptakan urutan acak, dan kata sandi yang tidak cukup acak dapat rentan terhadap serangan brute force. Saya juga merekomendasikan untuk melihat tutorial lengkap kami tentang pengaturan pengelola kata sandi untuk detail lebih lanjut mengenai topik ini.
+
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-
 ![proton](assets/notext/07.webp)
-Klik tombol "*Create Account (Buat akun)*".
 
+Klik tombol "*Create Account (Buat akun)*".
 ![proton](assets/notext/08.webp)
 
 Selesaikan CAPTCHA.
 ![proton](assets/notext/09.webp)
 
 Pilih nama tampilan. Ini adalah nama yang akan ditampilkan kepada penerima Anda ketika Anda mengirim email. Pilih nama asli Anda atau nama panggilan.
-![proton](assets/notext/09.webp)
+![proton](assets/notext/10.webp)
 
-Proton juga menawarkan Anda opsi untuk menetapkan metode pemulihan akun Anda, baik melalui nomor telepon Anda atau dengan alamat email alternatif. Penting untuk dipahami bahwa opsi ini dapat meningkatkan permukaan serangan pada kotak masuk email Anda. Bagi Anda, ini adalah langkah keamanan tambahan untuk mendapatkan kembali akses ke akun Anda jika Anda lupa kata sandi, tetapi bagi peretas, ini adalah kesempatan ekstra untuk mencoba membobol akun Anda. Anda tidak diwajibkan untuk memilih opsi pemulihan ini, tetapi jika Anda memutuskan untuk tidak melakukannya, pastikan untuk menyimpan salinan kata sandi Anda yang aman. Tanpanya, jika Anda kehilangan kata sandi, Anda akan tidak dapat memulihkan akses ke kotak masuk email Anda.
+Proton menawarkan opsi untuk mengatur metode pemulihan akun Anda, baik melalui nomor telepon atau alamat email alternatif. Penting untuk dipahami bahwa opsi ini dapat meningkatkan potensi celah serangan pada kotak email Anda. Bagi Anda, ini adalah langkah keamanan tambahan untuk mendapatkan kembali akses ke akun jika lupa kata sandi. Namun, bagi peretas, ini adalah kesempatan ekstra untuk mencoba membobol akun Anda. Anda tidak diwajibkan memilih opsi pemulihan ini. Namun, jika Anda memutuskan untuk tidak menggunakannya, pastikan untuk menyimpan salinan kata sandi Anda di tempat yang aman. Tanpa itu, jika Anda kehilangan kata sandi, Anda tidak akan bisa mendapatkan kembali akses ke kotak email Anda.
 ![proton](assets/notext/11.webp)
 
 ## Mengatur Kotak Surat Proton Anda
 
-Selamat, kotak surat Proton Anda sekarang telah dibuat! Mulailah dengan memilih warna untuk tema kotak surat Anda.
-
+Selamat, kotak email Proton Anda kini telah berhasil dibuat! Mulailah dengan memilih warna untuk tema kotak email Anda.
 ![proton](assets/notext/12.webp)
 
-Jika Anda mau, Anda juga dapat mengatur penerusan email Anda dari akun Gmail lama ke akun ProtonMail baru Anda.
-
+Jika Anda menginginkan, Anda juga dapat mengatur penerusan email dari akun Gmail lama Anda ke akun ProtonMail baru Anda.
 ![proton](assets/notext/13.webp)
 
 Setelah berada di antarmuka kotak surat Anda, saya menyarankan Anda untuk melihat pengaturan untuk menyesuaikannya. Klik pada ikon roda gigi di sudut kanan atas.

@@ -5,9 +5,9 @@ description: Comprendi come Plan ₿ Network rilascia una prova verificabile per
 
 ![cover](assets/cover.webp)
 
-Se stai leggendo questo, c'è un'alta probabilità che tu abbia ricevuto un Certificato del B-CERT o un diploma per aver completato uno dei corsi su Plan ₿ Network, quindi congratulazioni per questo traguardo!
+Se stai leggendo questo, c'è un'alta probabilità che tu abbia ricevuto un Certificato B-CERT o un diploma per aver completato uno dei corsi su Plan ₿ Network, quindi congratulazioni per questo traguardo!
 
-In questo tutorial, vedremo come Plan ₿ Network rilascia una prova verificabile per il tuo Certificato del B-CERT o qualsiasi Diploma di Completamento del Corso. Poi, in una seconda parte, vedremo come verificare l'autenticità di queste prove.
+In questo tutorial, vedremo come Plan ₿ Network rilascia una prova verificabile per il tuo Certificato B-CERT o qualsiasi Diploma per il completamento del Corso. Poi, in una seconda parte, vedremo come verificare l'autenticità di queste prove.
 
 # Quale meccanismo usa Plan ₿ Network
 
@@ -25,27 +25,27 @@ Da notare che, grazie a questo meccanismo, qualsiasi tentativo di alterare anche
 
 ## Come funziona la firma GPG?
 
-La firma GPG è ottenuta con l'uso di un software open-source chiamato GNU Private Guard. Questo software permette a chiunque di creare facilmente chiavi private, firmare e verificare firme e anche criptare e decriptare file. Sappi che Plan ₿ Network utilizza GPG per creare la sua chiave privata/pubblica e per firmare qualsiasi Certificato del B-CERT o Diploma rilasciato alla fine di un corso.
+La firma GPG è ottenuta con l'uso di un software open-source chiamato GNU Private Guard. Questo software permette a chiunque di creare facilmente chiavi private, firmare e verificare firme e anche criptare e decriptare file. Sappi che Plan ₿ Network utilizza GPG per creare la sua chiave privata/pubblica e per firmare qualsiasi certificato B-CERT o diploma rilasciato alla fine di un corso.
 
 D'altra parte, se qualcuno volesse verificare l'autenticità di un file firmato può usare GPG per importare la chiave pubblica dell'emittente e controllare la veridicità della firma. Nella seconda parte del tutorial vedremo come farlo con il terminale.
 
-Per coloro che sono curiosi e vogliono saperne di più su questo fantastico software, potete fare riferimento a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Se sei curioso e vuoi saperne di più su questo fantastico software, puoi fare riferimento a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
 ## Come funziona il Timestamping?
 
 Chiunque può usare OpenTimestamps per marcare temporalmente un file e ottenere una prova verificabile dell'esistenza del file stesso. In altre parole, non ti fornisce una prova di quando il file è stato creato, ma una prova della sua esistenza successiva a un certo momento.
 OpenTimestamps è in grado di offrire questo servizio gratuitamente grazie a un modo altamente efficiente di memorizzare tale prova nella Blockchain di Bitcoin. Utilizza l'hash sha256 del file come identificatore unico e costruisce un Merkle Tree con altri hash di file inviati da altri utenti. Poi ancora solo l'hash della struttura del Merkle Tree in una Transazione OpReturn.
-Una volta che questa transazione è in qualche blocco, chiunque abbia il file iniziale e il file `.ots` ad esso associato può verificare l'autenticità del timestamp. Nella seconda parte del tutorial vedremo come verificare il tuo Certificato del B-CERT o qualsiasi Diploma rilasciato alla fine di un corso con un terminale e con un'interfaccia grafica tramite il sito web di OpenTimestamps.
+Una volta che questa transazione è in qualche blocco, chiunque abbia il file iniziale e il file `.ots` ad esso associato può verificare l'autenticità del timestamp. Nella seconda parte del tutorial vedremo come verificare il tuo certificato B-CERT o qualsiasi diploma rilasciato alla fine di un corso con un terminale e con un'interfaccia grafica tramite il sito web di OpenTimestamps.
 
-# Come verificare un Certificato o Diploma di Plan ₿ Network
+# Come verificare un certificato o diploma di Plan ₿ Network
 
-## Passo 1. Scarica il tuo Certificato o Diploma
+## Passo 1. Scarica il tuo certificato o diploma
 
 Accedi alla tua dashboard personale PBN.
 
 ![image](./assets/login.webp)
 
-Vai alla pagina delle Credenziali cliccando sul menu laterale sinistro, e seleziona la tua sessione d'esame o il tuo Diploma.
+Vai alla pagina delle Credenziali cliccando sul menù laterale sinistro, e seleziona la tua sessione d'esame o il tuo diploma.
 
 ![image](./assets/credential.webp)
 
@@ -53,15 +53,15 @@ Scarica il file zip.
 
 ![image](./assets/download.webp)
 
-Estrai i contenuti facendo clic destro sul file `.zip` e selezionando "Estrai". Troverai tre file diversi all'interno:
+Estrai i contenuti cliccando destro sul file `.zip` e selezionando "Estrai". Troverai tre file diversi all'interno:
 
 - File di testo firmato (ad es., certificate.txt)
 - File Open timestamp (OTS) (ad es., certificate.txt.ots)
 - Certificato PDF (ad es., certificate.pdf)
 
-## Passo 2: Verifica della Firma del File di Testo
+## Passo 2: Verifica della firma del file di testo
 
-Apri prima un terminale nella cartella dove si trovano i file (cliccando con il tasto destro sulla finestra della cartella e clicca su "Apri nel Terminale"). Poi segui le istruzioni sottostanti
+Apri prima un terminale nella cartella dove si trovano i file (clicca con il tasto destro sulla finestra della cartella e poi su "Apri nel Terminale"). Poi segui le istruzioni sottostanti:
 
 1. Importa la chiave pubblica PGP di Plan ₿ Network con il seguente comando:
 
@@ -104,9 +104,9 @@ gpg: Buona firma da "Plan ₿ Network (usata per la piattaforma PBN) <admin@plan
 
 Se vedi un messaggio come "FIRMA NON VALIDA", significa che il file è stato manomesso.
 
-## Passo 3: Verifica dell'Open Timestamp
+## Passo 3: Verifica dell'open timestamp
 
-### Verifica tramite Interfaccia Grafica
+### Verifica tramite interfaccia grafica
 
 1. Visita il sito web di OpenTimestamps: https://opentimestamps.org/
 2. Clicca sulla scheda "Stamp & Verify".
@@ -116,6 +116,7 @@ Se vedi un messaggio come "FIRMA NON VALIDA", significa che il file è stato man
 
 Se vedi un messaggio come il seguente il tuo timestamp è valido:
 ![copertina](assets/opentimestamp_wegui_verified.webp)
+
 ### Metodo CLI
 
 NOTA: questa procedura **richiederà l'esecuzione di un nodo Bitcoin locale**
@@ -147,4 +148,4 @@ Nota che la verifica è riuscita se vengono visualizzati **entrambi** i seguenti
 1. La firma GPG è segnalata come **"Buona firma da Plan ₿ Network"**
 2. La verifica di OpenTimestamps mostra uno specifico timestamp del blocco Bitcoin e riporta **"Successo! Il blocco Bitcoin [altezza del blocco] attesta che i dati esistevano già al [timestamp]"**
 
-Ora che sai come Plan ₿ Network emette una prova verificabile per qualsiasi Certificato del B-CERT e Diploma, puoi facilmente verificarne l'integrità.
+Ora che sai come Plan ₿ Network emette una prova verificabile per qualsiasi certificato B-CERT e diploma, puoi facilmente verificarne l'integrità.

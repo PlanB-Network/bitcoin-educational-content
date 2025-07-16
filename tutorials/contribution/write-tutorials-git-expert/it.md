@@ -15,7 +15,7 @@ A questo punto, hai già:
 - Contattato il team di Plan ₿ Network tramite [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
 - Scelto gli strumenti di contribuzione.
 
-In questo tutorial per utenti esperti di Git, riassumeremo brevemente i passaggi chiave e le linee guida essenziali per offrire un nuovo tutorial Plan ₿ Network. Se non hai familiarità con Git e GitHub, ti consiglio di seguire uno di questi due tutorial più dettagliati che ti accompagneranno passo dopo passo:
+In questo tutorial per utenti esperti di Git, riassumeremo brevemente i passaggi chiave e le linee guida essenziali per creare un nuovo tutorial su Plan ₿ Network. Se non hai familiarità con Git e GitHub, ti consiglio di seguire uno di questi due tutorial più dettagliati che ti accompagneranno passo dopo passo:
 
 
 **- Intermedio (GitHub Desktop)**:
@@ -62,8 +62,8 @@ Per creare diagrammi e immagini:
 
 
 - È necessario disporre di un proprio fork del [repository di Plan ₿ Network su GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
-- Sincronizzare il ramo principale (`dev`) del fork con il repository sorgente.
-- Aggiornare il tuo clone locale.
+- Sincronizza il branch principale (`dev`) del fork con il repository sorgente.
+- Aggiorna il tuo clone locale.
 
 ```
 # Cloner votre fork (si ce n'est pas déjà fait)
@@ -81,12 +81,12 @@ git merge upstream/dev
 git push origin dev
 ```
 
-### 2 - Creare un nuovo ramo
+### 2 - Creare un nuovo branch
 
 
-- Assicurati di essere nel ramo `dev`.
-- Crea un nuovo ramo con un nome descrittivo (ad esempio, `tuto-green-wallet-loic`).
-- Pubblica questo ramo sul tuo fork online.
+- Assicurati di essere nel branch `dev`.
+- Crea un nuovo branch con un nome descrittivo (ad esempio, `tuto-green-wallet-loic`).
+- Pubblica questo branch sul tuo fork online.
 
 ```
 # Assurez-vous d’être sur la branche 'dev'
@@ -165,7 +165,7 @@ Ecco i campi obbligatori:
 
 - **id**: Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
 
-- **project_id**: L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
+- **project_id**: L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial su Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
 
 - **tags**: 2 o 3 parole chiave pertinenti relative al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
@@ -248,7 +248,7 @@ proofreading:
 
 
 - Salva le modifiche localmente creando un commit con un messaggio descrittivo.
-- Spingi le modifiche al proprio fork GitHub.
+- Invia le modifiche relative al tuo fork GitHub.
 
 ```
 # Créez un commit avec un message descriptif
@@ -275,7 +275,7 @@ git push origin tuto-green-wallet-loic
 ```
 
 
-- Una volta che la PR è stata unita, si può cancellare il ramo di lavoro.
+- Una volta che la PR è stata unita, si può cancellare il branch di lavoro.
 
 ## Standard di creazione dei contenuti
 
@@ -304,4 +304,4 @@ print("Hello, Bitcoin!")
         - Nero: `#000000`
         - Bianco: `#FFFFFF`
 
-Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a chi contribuisce](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!
+Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato ai collaboratori Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!

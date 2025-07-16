@@ -15,39 +15,45 @@ Enjoy your discovery!
 
 +++
 
-# Day 1
+# Essential Mathematical Concepts for Bitcoin
 <partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>
-## Day 1 - Part 1 / 4 - PRO 202
+
+## Mathematics for Bitcoin Implementation
 <chapterId>e6eac2b0-6067-5a0b-9fcd-bbe46f4d7346</chapterId>
 ![lecture](https://www.youtube.com/watch?v=OFHNu82g1mI)
 
-## Day 1 - Part 2 / 4 - PRO 202
+## Elliptic Curve Cryptography
 <chapterId>fbbaf4e1-e292-5973-aae8-5d4ba593b9fb</chapterId>
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
-## Day 1 - Part 3 / 4 - PRO 202
+# Bitcoin Transaction Innerworkings
+<partId>5da35ad0-6180-11f0-bd66-13724db9fbbd</partId>
+
+## Bitcoin Transaction Parsing and ECDSA Signatures
 <chapterId>fde364cd-d696-562f-847d-2ef4ffb29a95</chapterId>
 ![lecture](https://www.youtube.com/watch?v=dEArQBDgXgA)
 
-## Day 1 - Part 4 / 4 - PRO 202
+## Bitcoin Script and Transaction Validation
 <chapterId>40b20c16-c21e-5173-9e4f-52620f5840a3</chapterId>
 ![lecture](https://www.youtube.com/watch?v=g1wd-qwbHM8)
 
-# Day 2
-<partId>c058ed10-33b0-58e3-8b81-08e1ebede253</partId>
-## Day 2 - Part 1 / 4 - PRO 202
+## Transaction Construction and Pay-to-Script Hash
+
 <chapterId>860f50fc-0c9d-5767-a2d8-2934bf8181ba</chapterId>
 ![lecture](https://www.youtube.com/watch?v=j0VHdGsFy2o)
 
-## Day 2 - Part 2 / 4 - PRO 202
+# Bitcoin Network Innerworkings
+<partId>c058ed10-33b0-58e3-8b81-08e1ebede253</partId>
+
+## Bitcoin Blocks and Proof of Work
 <chapterId>12d77b0d-7807-52b8-8d86-8e8570300e6d</chapterId>
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
-## Day 2 - Part 3 / 4 - PRO 202
+## Network Communication and Merkle Trees
 <chapterId>dc88b974-e09d-5ae5-ab0d-efc139fc7ffe</chapterId>
 ![lecture](https://www.youtube.com/watch?v=Yq02tjpYmaQ)
 
-## Day 2 - Part 4 / 4 - PRO 202
+## Advanced Node Communication and Segregated Witness
 <chapterId>c7af1f3b-8a8f-5853-b547-3c178bc7f669</chapterId>
 ![lecture](https://www.youtube.com/watch?v=itce1zdUqjQ)
 

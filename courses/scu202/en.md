@@ -860,7 +860,7 @@ Fedora is a Red Hat-backed distribution, oriented towards the latest technologie
 
 ![Image](assets/fr/025.webp)
 
-
+https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 - openSUSE** (Tumbleweed or Leap) :
 
@@ -880,7 +880,7 @@ Debian exists in several branches, including *Stable* (very reliable, but older 
 
 ![Image](assets/fr/027.webp)
 
-
+https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 - Manjaro** :
 
@@ -2498,6 +2498,7 @@ Finally, one of the most important measures you can take to protect yourself fro
 - Windows uses BitLocker, but its activation depends on the machine and OS version;
 - Linux distributions do not automatically encrypt the disk, unless this option is selected during installation. You can use LUKS to encrypt the disk.
 
+https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 In all cases, the decryption password must be strong, distinct from the system password, and stored in a secure manager. If you're using an external disk or USB key containing sensitive data, also consider encrypting them individually with tools like VeraCrypt.
 
@@ -2575,6 +2576,7 @@ This technology is based on a hypervisor, a software program that manages the cr
 
 ![Image](assets/fr/206.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 In terms of IT security, one of the great advantages of virtual machines is their ability to compartmentalize. A VM does not share its files, processes or network access with the host system, unless you explicitly configure these exchanges. So if a VM is infected by malware, or if you test sensitive software inside it, the impact remains confined to that virtual machine: your main system remains intact, provided the isolation parameters are respected (no shared folders, no USB devices passed to the VM...).
 
@@ -2977,6 +2979,7 @@ On a well-maintained Linux machine used for personal purposes, the risks are low
 
 ![Image](assets/fr/218.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Under macOS
 
@@ -3432,6 +3435,7 @@ Full encryption is like a lock: as long as the password is not provided, the dat
 
 Under Linux, the standard solution is LUKS (*Linux Unified Key Setup*). LUKS is an encrypted volume management system integrated into most distributions. When the system is first installed, you will generally be prompted to encrypt the entire computer disk. Of course, I strongly recommend that you activate this option. Once encryption is enabled, the system will ask for the password at every boot, even before the OS loads. This ensures that physical access to the disk cannot bypass security.
 
+https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 If you wish to encrypt an external disk or USB stick, this can also be done from the command line or via the graphical Interface. The disk will have to be formatted, so all existing data will be lost if not backed up first.
 
@@ -4659,6 +4663,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
+https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+
 High-profile VPNs should be avoided. Despite their aggressive marketing, they remain centralized commercial services, often based in less protective jurisdictions, and rarely transparent about their actual technical operation.
 
 
@@ -5308,6 +5314,8 @@ To protect yourself, simply avoid using these public networks, or use a VPN, whi
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 As for your home Wi-Fi network, we'll talk about that in the last part of the SCU 202 course.
 
@@ -6742,6 +6750,10 @@ If your router is no longer maintained but still works correctly from a hardware
 ![Image](assets/fr/196.webp)
 
 
+https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+
 These systems enable finer control of firewall rules, outgoing and incoming connections, network segmentation (VLANs) and DNS management, but are aimed more at advanced users.
 
 
@@ -6946,7 +6958,11 @@ In practical terms, DNS encryption and server switching can be implemented at va
 Also, ISP-supplied modem routers don't always support these features. In the event of router limitations, there are several alternatives. You can install a manually encrypted DNS client on each device, add a personal router behind the ISP's (capable of handling DNS encryption) or deploy a local DNS server (for example, on a Raspberry Pi) responsible for encrypting and redirecting DNS requests to a secure resolver.
 
 
-To take things a step further, you can also set up a local DNS filtering solution such as Pi-hole or AdGuard Home. These tools act like a small DNS server inside your network, blocking requests to domains known to host advertising, browser trackers, phishing or malicious sites. These tools also allow you to create your own blocking lists or customize filtering according to the devices connected.
+To take things a step further, you can also set up a local DNS filtering solution such as Pi-hole or AdGuard Home.
+
+https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+These tools act like a small DNS server inside your network, blocking requests to domains known to host advertising, browser trackers, phishing or malicious sites. These tools also allow you to create your own blocking lists or customize filtering according to the devices connected.
 
 
 ![Image](assets/fr/200.webp)
@@ -7006,6 +7022,7 @@ To go even further, you can install an IDS (*Intrusion Detection System*), or ev
 
 Finally, monitoring bandwidth consumption is also a good indicator of abnormal activity. If a device suddenly consumes a lot of data for no apparent reason, this may betray an unauthorized download, a data leak, or even a compromised device. Tools such as ntopng or vnStat enable you to view incoming and outgoing flows by device.
 
+https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Backup and resilience
 

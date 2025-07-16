@@ -166,7 +166,15 @@ Aujourd’hui, la version la plus utilisée du protocole IP est IPv4, mais ses l
 
 Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de traiter de manière modulaire les différentes problématiques : transmission physique, adressage logique, intégrité des échanges et services applicatifs.
 
-![Image](assets/fr/056.webp)
+| Périphérique estimé    | Description                                                                               | Couche du modèle TCP/IP |
+| ---------------------- | ----------------------------------------------------------------------------------------- | ----------------------- |
+| Serveur web            | Services applicatifs au plus proche des utilisateurs                                      | Application             |
+| Passerelle ou proxy    | Encode, crypte, compresse les données utiles                                              | Application             |
+| Commutateur de session | Établit des sessions entre des applications                                               | Application             |
+| Pare-feu ou routeur L4 | Établit, maintient et termine les sessions entre périphériques terminaux                  | Transport               |
+| Routeur                | Adresse globalement les interfaces et détermine les meilleurs chemins à travers un réseau | Réseau                  |
+| Commutateur (switch)   | Adresse localement les interfaces, transmet localement via MAC                            | Accès au Réseau         |
+| Carte réseau (NIC)     | Encodage du signal, câblage, connecteurs, spécifications physiques                        | Accès au Réseau         |
 
 ## Le protocole QoS IPv5
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
@@ -177,7 +185,18 @@ Le tout premier champ de cet en-tête se nomme "Version". Il occupe 4 bits et in
 
 **Remarque** : la gestion et l’attribution des versions de protocoles IP relèvent de la responsabilité de l’**IANA** (_Internet Assigned Numbers Authority_), l’organisme international chargé d’administrer plusieurs paramètres de l’Internet, tels que les adresses IP, les noms de domaine et les numéros de versions de protocoles. À l’heure actuelle, seules 24 combinaisons binaires peuvent être affectées pour désigner une version de protocole d’interconnexion. Si l’on consulte le tableau des versions actuelles on découvre ceci :
 
-![Image](assets/fr/007.webp)
+| Version Number | Protocol   | Version Description         | Reference   |
+| -------------- | ---------- | --------------------------- | ----------- |
+| 0–1            | Reserved   | Reserved                    | RFC4928     |
+| 2–3            | Unassigned | Unassigned                  |             |
+| 4              | IP         | Internet Protocol           | RFC791      |
+| **5**          | **ST**     | **ST Datagram mode**        | **RFC1190** |
+| 6              | IPv6       | Internet Protocol version 6 | RFC1752     |
+| 7              | TP/IX      | The Next Internet           | RFC1475     |
+| 8              | PIP        | The P Internet Protocol     | RFC1621     |
+| 9              | TUBA       | Tuba                        | RFC1347     |
+| 10–14          | Unassigned | Unassigned                  |             |
+| 15             | Reserved   | Reserved                    |             |
 
 Parmi ces versions figure la version IPv5, qui, bien que méconnue du grand public, a bel et bien existé sous la forme du protocole ST (_Stream Protocol_). Conçu dans les années 1980, IPv5 visait principalement à répondre à un besoin émergent à l’époque : garantir une "_Quality of Service_" ou "QoS" pour certains flux de données nécessitant une transmission continue et stable, comme la voix sur IP ou les flux multimédias. L’objectif était d’offrir une bande passante et une priorité garanties de bout en bout, un concept similaire à ce que propose aujourd’hui le protocole RSVP (_Resource Reservation Protocol_) pour la réservation dynamique de ressources réseau sur les routeurs modernes.
 
@@ -303,11 +322,20 @@ Prenons un cas concret. Soit un réseau de **classe C** : 192.168.1.0/24 avec un
 
 **Étape 3** : Adapter le masque en conséquence. En binaire, on conserve les bits du _netid_ et on réserve les bits nécessaires au _hostid_. Ici, on obtient un masque binaire qui, une fois converti, donne **255.255.255.192**.
 
-![Image](assets/fr/014.webp)
+```
+11111111 11111111 11111111 11000000
+```
+
 
 **Étape 4** : Calculer les plages d’adresses pour chaque sous-réseau en variant les bits réservés à l’hôte.
 
-![Image](assets/fr/015.webp)
+| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+| ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
+| 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
+| 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
+| 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
+| 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
+
 
 **Étape 5** : Ainsi, on obtient quatre sous-réseaux, chacun capable d’héberger jusqu’à 62 machines, tout en conservant l’efficacité du plan d’adressage global. La partie _hostid_ de l’adresse est donc subdivisée en deux : une pour le _subnetid_ et l’autre pour l’hôte proprement dit.
 

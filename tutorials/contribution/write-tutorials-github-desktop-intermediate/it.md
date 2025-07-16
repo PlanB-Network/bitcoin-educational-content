@@ -57,7 +57,7 @@ Apri il browser e vai alla pagina del tuo fork del repository Plan ₿ Network. 
 
 ![TUTO](assets/fr/03.webp)
 
-Assicurati di essere nel branch principale `dev`, quindi clicca sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub ti proporrà di aggiornare il tuo branch. Procedi con l'aggiornamento. Se, al contrario, il tuo brancho è già aggiornato, GitHub ti informerà:
+Assicurati di essere nel branch principale `dev`, quindi clicca sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub ti proporrà di aggiornare il tuo branch. Procedi con l'aggiornamento. Se, al contrario, il tuo branch è già aggiornato, GitHub ti informerà:
 
 ![TUTO](assets/fr/04.webp)
 

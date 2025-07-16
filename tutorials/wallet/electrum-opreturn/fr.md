@@ -52,7 +52,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 ## Étape 3 : Vérifier les fonds disponibles
 
-Assurez-vous que votre wallet contient suffisamment de bitcoins (BTC) ou satoshis (sats) pour :
+Assurez-vous que votre wallet contienne suffisamment de bitcoins (BTC) ou satoshis (sats) pour :
 - Le montant de la transaction (par exemple, 0.00001 BTC ou 1000 sats).
 - Les frais de transaction (fees), qui varient selon l’encombrement du réseau (généralement quelques milliers de sats).
 
@@ -77,7 +77,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 ## Étape 4 : Préparer le message à inscrire
 
-Choisissez le message que vous souhaitez inscrire (par exemple, « Thanks Satoshi »). Note : Les messages OP_RETURN sont limités à 80 octets, soit environ 80 caractères ASCII.
+Choisissez le message que vous souhaitez inscrire (par exemple, `Thanks Satoshi`). Note : Les messages OP_RETURN sont limités à 80 octets, soit environ 80 caractères ASCII.
 
 *Prenez un instant pour réfléchir : ce que vous inscrivez sur la blockchain Bitcoin est éternel et accessible à tous, alors :*
 - *laissez une belle expression de notre humanité,*  
@@ -86,8 +86,26 @@ Choisissez le message que vous souhaitez inscrire (par exemple, « Thanks Satosh
 *L’espace de la blockchain et vos bitcoins sont précieux, utilisez-les avec sagesse et intention.*
 
 Convertissez votre message en hexadécimal :
-- Utilisez un outil en ligne (recherchez "texte vers hexadécimal").
-- Exemple : `Thanks Satoshi` donne `5468616e6b73205361746f736869`.
+- Vous pouvez recourir à un [outil en ligne](https://www.rapidtables.com/convert/number/ascii-to-hex.html), mais veillez à ne pas y traiter de données sensibles (même si, en principe, les informations destinées à être publiées sur la blockchain Bitcoin via un OP_RETURN ne présentent pas d’enjeu de confidentialité) ;
+- Pour davantage de confidentialité, effectuez la conversion localement à l’aide d’un petit script Python :
+
+```py
+#!/usr/bin/env python3
+
+def main():
+    ascii_text = input("Enter ASCII text: ")
+    try:
+        hex_output = ascii_text.encode('ascii').hex()
+        print(hex_output)
+    except UnicodeEncodeError:
+        print("Error: Input contains non-ASCII characters.", file=sys.stderr)
+
+if __name__ == "__main__":
+    import sys
+    main()
+```
+
+Exemple : `Thanks Satoshi` en ASCII donne `5468616e6b73205361746f736869` en hexadécimal.
 
 Préparez le script de transaction. Voici un exemple de format attendu :  
 
@@ -98,8 +116,8 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 qui est constitué ainsi : 
 
-- **Adresse destinataire** : Une adresse Bitcoin valide. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Cela peut être une adresse qui vous appartient, si vous souhaitez vous renvoyer les fonds transférés
-- Montant transféré : Le montant de la transaction. Ici, `0.00001`. **Attention à respecter l’unité utilisée par Electrum !**
+- **Adresse destinataire** : Une adresse Bitcoin valide. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Cela peut être une adresse qui vous appartient, si vous souhaitez vous renvoyer les fonds transférés ;
+- **Montant transféré** : le montant de la transaction, ici `0.00001` BTC. **Attention** : puisque l’unité utilisée dans Electrum est le BTC, le montant indiqué dans le script de la transaction doit également être exprimé en BTC, et non en sats ;
 - **Script OP_RETURN** : Le message converti en hexadécimal précédé de script(`OP_RETURN <messsage>), 0`. Ici, `5468616e6b73205361746f736869` pour le message en hexadécimal.
 
 ⚠️ **Attention** : Il est très important d’indiquer `0` après l’OP_RETURN, car cet opcode marque le script comme invalide, ce qui rend ainsi l’output définitivement non dépensable. Les nœuds du réseau supprimeront cet output de leur UTXO set. Si vous renseignez une autre valeur que `0`, celle-ci sera irrémédiablement perdue : vos bitcoins seront considérés comme brûlés. Il convient donc de toujours inscrire `0` avec un OP_RETURN afin d’enregistrer les données désirées, mais sans y associer des fonds qui seraient perdus.

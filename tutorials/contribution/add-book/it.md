@@ -215,7 +215,7 @@ Scopri il mondo rivoluzionario di Bitcoin con questa guida completa pensata per 
 contributors:
 
   - pretty-private
-
+```
 ![libro](assets/37.webp)
 
 - Clicca sul pulsante `Commit changes...`:

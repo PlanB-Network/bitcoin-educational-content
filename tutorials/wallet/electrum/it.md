@@ -20,17 +20,17 @@ https://electrum.readthedocs.io/
 
 ## Perché Electrum?
 
-Questa è una guida dettagliata su come utilizzare il wallet Bitcoin Electrum, con soluzioni per tutte le sue insidie e particolarità, qualcosa che ho sviluppato dopo diversi anni di utilizzo e insegnamento agli studenti sulla sicurezza/privacy di Bitcoin. Electrum non è il miglior wallet Bitcoin per chi vuole mantenere tutto il più semplice possibile e preferisce rimanere a livello principiante. Invece, è per chi è o aspira ad essere un utente "esperto".
+Questa è una guida dettagliata su come utilizzare Electrum, con soluzioni per tutte le sue insidie e particolarità. Ho raggiunto questa conoscenza dopo diversi anni di utilizzo e insegnamento agli studenti su sicurezza/privacy di Bitcoin. Electrum non è il miglior wallet Bitcoin per chi vuole mantenere tutto il più semplice possibile e preferisce rimanere a livello principiante. Invece, è per chi è o aspira ad essere un utente "esperto".
 
-Per il nuovo utente di Bitcoin, è eccellente solo se sotto la supervisione di un utente esperto che gli mostri la strada. Se si impara ad usarlo da soli, sarebbe sicuro a patto che si prenda il proprio tempo e lo si utilizzi in un ambiente di test con solo un piccolo numero di satoshi all'inizio. Questa guida supporta tale sforzo, ma è anche un buon punto di riferimento per chiunque altro.
+Per il nuovo utente di Bitcoin, è eccellente solo se sotto la supervisione di un utente esperto che gli mostri la strada. Se si impara ad usarlo da solo, sarebbe sicuro a patto che si prenda il proprio tempo e lo si utilizzi in un ambiente di test con pochi satoshi all'inizio. Questa guida ti aiuta in questo, ma è anche un buon punto di riferimento per chiunque altro.
 
 > Avviso: questa guida è lunga. Non cercare di fare tutto questo in un solo giorno. È meglio salvare la guida e procedere gradualmente nel tempo.
 
 ## Scaricare Electrum
 
-L'ideale è utilizzare un computer dedicato a Bitcoin per le proprie transazioni Bitcoin (la mia guida per questo https://armantheparman.com/mint/) _(DISPONIBILE anche nella sezione sulla privacy)_. Va bene esercitarsi con piccole quantità su un computer "sporco" quando si sta imparando (chissà quanti malware nascosti il tuo computer regolare ha accumulato nel corso degli anni - non vuoi esporre i tuoi wallet Bitcoin ad essi).
+L'ideale è utilizzare un computer dedicato a Bitcoin per le proprie transazioni Bitcoin (la mia guida per questo https://armantheparman.com/mint/) _(DISPONIBILE anche nella sezione sulla privacy)_. Va bene esercitarsi con pochi satoshi su un computer "sporco" quando si sta imparando (chissà quanti malware nascosti il tuo computer ha accumulato nel corso degli anni - non vuoi esporre i tuoi wallet Bitcoin ad essi).
 
-Ottieni Electrum da https://electrum.org/.
+Scarica Electrum da https://electrum.org/.
 
 Clicca sulla scheda Download in alto.
 
@@ -51,7 +51,7 @@ Per ottenere la firma, clicca sul link corrispondente al file scaricato (vedi fr
 
 ![image](assets/2.webp)
 
-Cliccando sul link potrebbe scaricare automaticamente il file nella cartella dei download, oppure potrebbe aprirsi nel browser. Se si apre nel browser, è necessario salvare il file. È possibile cliccare con il pulsante destro del mouse e selezionare "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario cliccare con il pulsante destro del mouse nell'area dello spazio bianco, non sul testo.
+Cliccando sul link si potrebbe scaricare automaticamente il file nella cartella dei download, oppure potrebbe aprirsi nel browser. Se si apre nel browser, è necessario salvare il file. È possibile cliccare con il pulsante destro del mouse e selezionare "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario cliccare con il pulsante destro del mouse nell'area dello spazio bianco, non sul testo.
 
 Di seguito è riportato il testo scaricato. Puoi vedere che ci sono più firme, queste sono firme di persone diverse. Puoi verificare ognuna di esse. Ti mostrerò come verificare solo quella dello sviluppatore.
 
@@ -86,7 +86,7 @@ gpg --import ThomasV.asc
 
 Assicurati che il nome del file corrisponda a quello che hai scaricato. Inoltre, nota che ci sono due trattini, non uno solo. Nota anche che c'è uno spazio prima e dopo "--import". Poi premi <enter>.
 
-Il file dovrebbe essere importato. Se ricevi un errore, controlla di essere nella directory in cui il file effettivamente si trova. Per verificare in quale directory ti trovi (su Mac o Linux), digita pwd. Per vedere quali file sono nella directory in cui ti trovi (su Mac o Linux), digita ls. Dovresti vedere elencato il file di testo "ThomasV.asc", eventualmente tra gli altri file.
+Il file dovrebbe essere importato. Se visualizzi un errore, controlla di essere nella directory in cui il file effettivamente si trova. Per verificare in quale directory ti trovi (su Mac o Linux), digita pwd. Per vedere quali file sono nella directory in cui ti trovi (su Mac o Linux), digita ls. Dovresti vedere elencato il file di testo "ThomasV.asc", eventualmente tra gli altri file.
 
 Poi esegui il comando per verificare la firma.
 

@@ -35,7 +35,7 @@ Prerequisiti prima di iniziare il tutorial:
 - Avere un fork del [repository dei sorgenti di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Avere [un profilo docente su Plan ₿ Network](https://planb.network/professors) (solo se vuoi fare un tutorial completo).
 
-Se hai bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercitazioni ti aiuteranno:
+Se hai bisogno di aiuto nel raggiungimento dei prerequisiti elencati sopra, questi altri tutorial ti aiuteranno:
 
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
@@ -46,35 +46,35 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 
 Una volta che tutto è a posto e che hai il tuo fork del repository Plan ₿ Network, puoi iniziare ad aggiungere il tutorial.
 
-## 1 - Creare un nuovo ramo
+## 1 - Creare un nuovo branch
 
 Apri il browser e naviga alla pagina del fork nel repository Plan ₿ Network. Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a questo: `https://github.com/[nomeutente]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
-Assicurati di essere nel ramo principale `dev`, quindi clicca sul pulsante "*Sync fork*". Se il tuo fork non è aggiornato, GitHub ti chiederà di aggiornare il tuo ramo. Procedi con l'aggiornamento:
+Assicurati di essere nel branch principale `dev`, quindi clicca sul pulsante "*Sync fork*". Se il tuo fork non è aggiornato, GitHub ti chiederà di aggiornare il tuo branch. Procedi con l'aggiornamento:
 
 ![GITHUB](assets/fr/02.webp)
 
-Clicca sul ramo `dev`, quindi fornisci un nome al tuo ramo di lavoro in modo che il titolo rifletta chiaramente il suo scopo, usando i trattini per separare le parole. Per esempio, se il nostro obiettivo è scrivere un tutorial sull'uso di Green, il ramo potrebbe chiamarsi: `tuto-green-wallet-loic`. Dopo aver inserito un nome adeguato, clicca su "*Create branch*" per confermare la creazione del nuovo ramo basato su `dev`:
+Clicca sul branch `dev`, quindi nomina il tuo branch usando un titolo esplicativo, usando i trattini per separare le parole. Per esempio, se il nostro obiettivo è scrivere un tutorial sull'uso di Green, il branch potrebbe chiamarsi: `tuto-green-wallet-loic`. Dopo aver inserito un nome adeguato, clicca su "*Create branch*" per confermare la creazione del nuovo branch basato su `dev`:
 
 ![GITHUB](assets/fr/03.webp)
 
-Ora dovresti trovarti nel tuo nuovo ramo di lavoro:
+Ora dovresti trovarti nel tuo nuovo branch di lavoro:
 
 ![GITHUB](assets/fr/04.webp)
 
-Ciò significa che tutte le modifiche apportate saranno salvate solo in quel ramo specifico.
+Ciò significa che tutte le modifiche apportate saranno salvate solo in quel branch specifico.
 
-Per ogni nuovo articolo che intendi pubblicare, crea un nuovo ramo da `dev`.
+Per ogni nuovo articolo che intendi pubblicare, crea un nuovo branch da `dev`.
 
-Un ramo in Git rappresenta una versione parallela del progetto, che consente di lavorare sulle modifiche senza influenzare il ramo principale, finché il lavoro non è pronto per essere integrato.
+Un branch in Git rappresenta una versione parallela del progetto, che consente di lavorare sulle modifiche senza influenzare il branch principale, finché il lavoro non è pronto per essere integrato.
 
 ## 2 - Aggiungere i file del tutorial
 
-Ora che il ramo di lavoro è stato creato, è il momento di integrare il nuovo tutorial.
+Ora che il branch di lavoro è stato creato, è il momento di integrare il nuovo tutorial.
 
-All'interno dei file del tuo ramo, devi trovare la sottocartella appropriata per il posizionamento del tuo tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web Plan ₿ Network. Nel nostro esempio, dato che stiamo aggiungendo un tutorial sul wallet Green, vai nel seguente percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` del sito web:
+All'interno dei file del tuo branch, devi trovare la sottocartella appropriata per il posizionamento del tuo tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web Plan ₿ Network. Nel nostro esempio, dato che stiamo aggiungendo un tutorial su Green, vai nel seguente percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` del sito web:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -91,7 +91,7 @@ In questa nuova sottocartella dedicata al tutorial, è necessario aggiungere div
 
 - Crea una cartella `assets` per contenere tutte le illustrazioni necessarie per il tutorial;
 - All'interno di questa cartella `assets`, crea una sottocartella denominata secondo il codice della lingua originale del tutorial. Ad esempio, se il tutorial è scritto in inglese, questa sottocartella dovrebbe essere denominata `en`. In questa cartella vanno inseriti tutti gli elementi visivi del tutorial (diagrammi, immagini, screenshot, ecc.).
-- È necessario creare un file `tutorial.yml` per registrare i dettagli dell'esercitazione;
+- È necessario creare un file `tutorial.yml` per registrare i dettagli del tutorial;
 - È necessario creare un file markdown per scrivere il contenuto effettivo del tutorial. Questo file deve essere chiamato secondo il codice della lingua in cui è scritto. Ad esempio, per un tutorial scritto in francese, il file deve essere chiamato `fr.md`.
 
 Per riassumere, ecco la gerarchia dei file (continueremo a crearli nella prossima sezione):
@@ -206,7 +206,7 @@ Una volta terminata la modifica del file `tutorial.yml`, salva il documento clic
 
 ![GITHUB](assets/fr/09.webp)
 
-Aggiungi un titolo e una descrizione e assicurati che il commit sia effettuato nel ramo creato all'inizio di questa guida. Quindi conferma cliccando su "*Commit changes*".
+Aggiungi un titolo e una descrizione e assicurati che il commit sia effettuato nel branch creato all'inizio di questa guida. Quindi conferma cliccando su "*Commit changes*".
 
 ![GITHUB](assets/fr/10.webp)
 
@@ -228,7 +228,7 @@ In questa cartella, crea un file fittizio per forzare GitHub a mantenere la cart
 
 ![GITHUB](assets/fr/14.webp)
 
-Controlla di nuovo di essere nel ramo corretto, quindi clicca su "*Commit changes*".
+Controlla di nuovo di essere nel branch corretto, quindi clicca su "*Commit changes*".
 
 ![GITHUB](assets/fr/15.webp)
 
@@ -275,7 +275,7 @@ Clicca sul pulsante "*Commit changes...*" per salvare il file.
 
 ![GITHUB](assets/fr/22.webp)
 
-Controlla di essere nel ramo giusto, quindi conferma il commit.
+Controlla di essere nel branch giusto, quindi conferma il commit.
 
 ![GITHUB](assets/fr/23.webp)
 
@@ -289,7 +289,7 @@ Nella cartella `assets` è necessario aggiungere un file chiamato `logo.webp`, c
 
 È possibile scegliere il logo del software utilizzato nel tutorial o qualsiasi altra immagine pertinente, purché sia libera da diritti d'autore. Inoltre, aggiungi un'immagine intitolata `cover.webp` nello stesso posto. Questa verrà visualizzata nella parte superiore del tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti d'uso e sia appropriata al contesto del tutorial.
 
-Per aggiungere immagini alla cartella `/assets`, è possibile trascinarle dai file locali. Assicurati di essere nella cartella `/assets` e nel ramo giusto, quindi clicca su "*Commit changes*".
+Per aggiungere immagini alla cartella `/assets`, è possibile trascinarle dai file locali. Assicurati di essere nella cartella `/assets` e nel branch giusto, quindi clicca su "*Commit changes*".
 
 ![GITHUB](assets/fr/26.webp)
 
@@ -311,7 +311,7 @@ Alterna le viste "*Edit*" e "*Preview*" per visualizzare meglio il rendering.
 
 ![GITHUB](assets/fr/30.webp)
 
-Per salvare il lavoro, clicca su "*Commit Changes...*", assicurati di essere nel ramo giusto, quindi conferma cliccando nuovamente su "*Commit Changes*".
+Per salvare il lavoro, clicca su "*Commit Changes...*", assicurati di essere nel branch giusto, quindi conferma cliccando nuovamente su "*Commit Changes*".
 
 ![GITHUB](assets/fr/31.webp)
 
@@ -352,7 +352,7 @@ Se desideri creare i tuoi schemi, assicurati di seguire le linee guida grafiche 
  - Nero: #000000
  - Bianco: #FFFFFF
 
-**È indispensabile che tutte le immagini integrate nelle esercitazioni siano libere da copyright o rispettino la licenza del file sorgente**. Pertanto, tutti i diagrammi pubblicati su Plan ₿ Network sono resi disponibili con licenza CC-BY-SA, allo stesso modo del testo.
+**È indispensabile che tutte le immagini integrate nei tutorial siano libere da copyright o rispettino la licenza del file sorgente**. Pertanto, tutti i diagrammi pubblicati su Plan ₿ Network sono resi disponibili con licenza CC-BY-SA, allo stesso modo del testo.
 
 **-> Suggerimento:** Quando si condividono file in pubblico, come le immagini, è importante rimuovere i metadati superflui. Questi possono contenere informazioni sensibili, come dati sulla posizione, date di creazione e dettagli sull'autore. Per proteggere la propria privacy, è bene rimuovere questi metadati. Per semplificare questa operazione, è possibile utilizzare strumenti specializzati come [Exif Cleaner](https://exifcleaner.com/), che consente di ripulire i metadati di un documento con un semplice trascinamento.
 
@@ -364,13 +364,13 @@ Per procedere con la pull request, dopo aver salvato tutte le modifiche, clicca 
 
 ![GITHUB](assets/fr/36.webp)
 
-Una pull request è una richiesta fatta per integrare le modifiche dal proprio ramo nel ramo principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima che vengano unite.
+Una pull request è una richiesta fatta per integrare le modifiche dal proprio branch nel branch principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima che vengano unite.
 
 Prima di continuare, controlla attentamente nella parte inferiore dell'interfaccia che le modifiche apportate corrispondano a quanto previsto:
 
 ![GITHUB](assets/fr/37.webp)
 
-Assicurati, all'inizio dell'interfaccia, che il tuo ramo di lavoro sia unito al ramo `dev' del repository Plan ₿ Network (che è il ramo principale).
+Assicurati, all'inizio dell'interfaccia, che il tuo branch di lavoro sia unito al branch `dev' del repository Plan ₿ Network (che è il branch principale).
 
 Inserisci un titolo che riassuma brevemente le modifiche che desideri unire al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero di issue, ricordati di annotare `Close #{numero di issue}` come commento), quindi clicca sul pulsante verde "*Create pull request*" per confermare la richiesta di unione:
 
@@ -380,7 +380,7 @@ La tua PR sarà quindi visibile nella scheda "*Pull Request*" del repository pri
 
 ![GITHUB](assets/fr/39.webp)
 
-Dopo aver unito la PR al ramo principale, si consiglia di cancellare il ramo di lavoro (nel mio esempio: `tuto-green-wallet`) per mantenere una storia pulita del fork. GitHub ti offrirà automaticamente questa opzione nella pagina della tua PR:
+Dopo aver unito la PR al branch principale, si consiglia di cancellare il branch di lavoro (nel mio esempio: `tuto-green-wallet`) per mantenere una storia pulita del fork. GitHub ti offrirà automaticamente questa opzione nella pagina della tua PR:
 
 ![GITHUB](assets/fr/40.webp)
 
@@ -388,6 +388,6 @@ Se desideri apportare modifiche al tuo contributo dopo aver già presentato la P
 
 
 - Se la PR è ancora aperta e non è ancora stata unito, apporta le modifiche nello stesso workbranch. Le modifiche del commit saranno aggiunte alla PR ancora aperta;
-- Nel caso in cui la vostra PR sia già stata unita al ramo principale, devi rifare il processo dall'inizio creando un nuovo ramo e inviando una nuova PR. Assicurati che il fork sia sincronizzato con il repository sorgente di Plan ₿ Network sul ramo `dev` prima di procedere.
+- Nel caso in cui la vostra PR sia già stata unita al branch principale, devi rifare il processo dall'inizio creando un nuovo branch e inviando una nuova PR. Assicurati che il fork sia sincronizzato con il repository sorgente di Plan ₿ Network sul branch `dev` prima di procedere.
 
 Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a chi contribuisce](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!

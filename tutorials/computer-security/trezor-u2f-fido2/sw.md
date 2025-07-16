@@ -1,4 +1,4 @@
-ke---
+---
 name: Trezor U2F & FIDO2
 description: Imarisha usalama wako mtandaoni ukitumia Trezor
 ---
@@ -6,7 +6,7 @@ description: Imarisha usalama wako mtandaoni ukitumia Trezor
 
 
 
-Vifaa vya Trezor ni pochi za maunzi zilizoundwa awali kulinda Bitcoin Wallet, lakini pia zinaangazia chaguo za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na itifaki za **U2F** na **FIDO2**, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni bila kutegemea manenosiri pekee.
+Vifaa vya Trezor ni wallet za maunzi zilizoundwa awali kulinda Bitcoin Wallet, lakini pia zinaangazia chaguo za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na itifaki za **U2F** na **FIDO2**, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni bila kutegemea manenosiri pekee.
 
 
 
@@ -318,7 +318,7 @@ Mara tu urejeshaji utakapokamilika, ili kuingiza vitambulisho vyako vya FIDO2 kw
 
 
 ```shell
-trezorctl fido credentials add <CREDENTIAL_ID>
+trezorctl fido credentials addÂ <CREDENTIAL_ID>
 ```
 
 
@@ -328,7 +328,7 @@ Badilisha tu `<CREDENTIAL_ID>` kwa vitambulishi vyako. Kwa mfano, katika kesi ya
 
 
 ```shell
-trezorctl fido credentials add f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b620bbbbfc78a51add31475e6acd9a68f77f0a6b12a20c7a41412c488787d41e6ee0bdbf3bb99973c9637d21d3a060808143dd228e0831bbb883fb3afedd3f70596a9f6b98f00703244b76260099a9c044346bf6266d3cb9d90db6fc7cde1142b11c5c8ea
+trezorctl fido credentials addÂ f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b620bbbbfc78a51add31475e6acd9a68f77f0a6b12a20c7a41412c488787d41e6ee0bdbf3bb99973c9637d21d3a060808143dd228e0831bbb883fb3afedd3f70596a9f6b98f00703244b76260099a9c044346bf6266d3cb9d90db6fc7cde1142b11c5c8ea
 ```
 
 

@@ -4,28 +4,28 @@ description: Guida completa per proporre un tutorial su Plan ₿ Network utilizz
 ---
 ![cover](assets/cover.webp)
 
-Prima di seguire questo guida sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passi preliminari. Se non l'hai ancora fatto, ti invito a consultare prima quest'altro tutorial introduttivo e poi a tornare qui:
+Prima di seguire questa guida sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passi preliminari. Se non l'hai ancora fatto, ti invito a consultare prima quest'altro tutorial introduttivo e poi a tornare qui:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-A questo punto, hai già:
 
+A questo punto, hai già:
 
 - Scelto il tema del tutorial;
 - Contatto il team di Plan ₿ Network tramite [il gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
-- Scelto i tuoi strumenti con i quali contribuire.
+- Scelto i tuoi strumenti con i quali fornire il tuo aiuto.
 
-In questa guida vedrai come aggiungere il tuo tutorial alla rete di Plan ₿ configurando il tuo ambiente locale con GitHub Desktop. Se sei già esperto di GitHub, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una descrizione dettagliata passo-passo:
-
+In questa guida vedrai come aggiungere il tuo tutorial su Plan ₿ Netwrok configurando il tuo ambiente locale con GitHub Desktop. Se sei già esperto di GitHub, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una descrizione dettagliata passo-passo:
 
 - Utenti esperti**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
-Se preferisci non configurare il tuo ambiente locale, segui quest'altra guida pensata per i principianti, in cui apportiamo le modifiche direttamente tramite l'interfaccia web di GitHub:
 
+Se preferisci non configurare il tuo ambiente locale di lavoro, segui quest'altra guida pensata per i principianti, in cui apportiamo le modifiche direttamente tramite l'interfaccia web di GitHub:
 
 - Principianti (interfaccia web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Prerequisiti
 
 Software necessari per seguire questo tutorial:
@@ -44,10 +44,11 @@ Prerequisiti prima di iniziare il tutorial:
 - Avere un fork del [repository dei sorgenti di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Avere [un profilo di professore su Plan ₿ Network](https://planb.network/professors) (solo se si propone un tutorial completo).
 
-Se hai bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercitazioni ti aiuteranno:
+Se hai bisogno di aiuto per ottenere i prerequisiti sopra elencati, questi tutorial ti aiuteranno:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Una volta che tutto è a posto e l'ambiente locale è correttamente configurato con il proprio fork Plan ₿ Network, si può iniziare ad aggiungere il tutorial.
+
+Una volta che tutto è a posto e il tuo ambiente di lavoro è correttamente configurato con il fork Plan ₿ Network, puoi iniziare ad aggiungere il tutorial.
 
 
 ## 1 - Creare un nuovo ramo
@@ -60,7 +61,7 @@ Assicurati di essere nel ramo principale `dev`, quindi clicca sul pulsante `Sync
 
 ![TUTO](assets/fr/04.webp)
 
-Apri il software GitHub Desktop e assicurati che il tuo fork sia selezionato correttamente nell'angolo superiore sinistro della finestra:
+Apri il software GitHub Desktop e assicurati che il tuo fork sia selezionato correttamente nell'angolo superiore sinistro della schermata:
 
 ![TUTO](assets/fr/05.webp)
 
@@ -68,7 +69,7 @@ Clicca sul pulsante "Fetch origin". Se il repository locale è già aggiornato, 
 
 ![TUTO](assets/fr/06.webp)
 
-Verifica che ci si trovi effettivamente nel ramo principale `dev`:
+Verifica che ti trovi effettivamente nel ramo principale `dev`:
 
 ![TUTO](assets/fr/07.webp)
 
@@ -78,7 +79,7 @@ Clicca su questo ramo, quindi clicca sul pulsante "New branch":
 
 Assicurati che il nuovo ramo sia basato sul repository sorgente, cioè `PlanB-Network/bitcoin-educational-content`.
 
-Nomina il tuo ramo in modo che il titolo sia chiaro per il suo scopo, usando i trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso del software Sparrow. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito il nome appropriato, clicca su `Create branch` per confermare la creazione del ramo:
+Nomina il tuo ramo usando un titolo esplicativo, ricorrendo ai trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso di Sparrow. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito un titolo appropriato, clicca su `Create branch` per confermare la creazione del ramo:
 
 ![TUTO](assets/fr/09.webp)
 
@@ -90,7 +91,7 @@ Ora, su GitHub Desktop, ci si dovrebbe trovare nel nuovo ramo. Ciò significa ch
 
 ![TUTORIAL](assets/fr/11.webp)
 
-Per ogni nuovo articolo che si desidera pubblicare, è necessario creare un nuovo ramo da `dev`. Un ramo in GitHub è una versione parallela del progetto, che consente di apportare modifiche senza influenzare il ramo principale, finché il lavoro non è pronto per essere unito.
+Per ogni nuovo articolo che desideri pubblicare, è necessario creare un nuovo ramo da `dev`. Un ramo in GitHub è una versione parallela del progetto, che consente di apportare modifiche senza influenzare il ramo principale, finché il lavoro non è pronto per essere unito.
 
 ## 2 - Aggiungere i file del tutorial
 
@@ -121,7 +122,7 @@ Si aprirà un'interfaccia grafica [(GUI)](https://planb.network/resources/glossa
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Inizia inserendo il percorso locale della cartella `/tutorials` nel tuo repository clonato (`.../bitcoin-educational-content/tutorials/`). È possibile inserirlo manualmente o fare clic sul pulsante "Sfoglia" per navigare con il proprio file explorer.
+Inizia inserendo il percorso locale della cartella `/tutorials` nel tuo repository clonato (`.../bitcoin-educational-content/tutorials/`). Puoi inserirlo manualmente o cliccare sul pulsante "Sfoglia" per navigare con il tuo file explorer.
 
 ![DATA-CREATOR-PY](assets/fr/38.webp)
 
@@ -133,7 +134,7 @@ Nel campo "ID GitHub del collaboratore", inserisci il tuo nome utente GitHub.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Successivamente, è necessario compilare il proprio profilo professore. Ci sono diverse opzioni disponibili:
+Successivamente, è necessario compilare il tuo profilo professore. Ci sono diverse opzioni disponibili:
 - Inserisci le prime lettere del tuo nome nel campo "Professor Name". Il tuo nome apparirà nell'elenco a discesa "Prof. Suggestions" situato sotto. Selezionalo cliccando su di esso;
 - In alternativa, puoi cliccare direttamente sul menù a discesa "Prof. Suggestions" e scegliere il tuo nome di professore.
 
@@ -142,9 +143,10 @@ Questa azione riempirà automaticamente il tuo UUID di professore nel campo corr
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Se non hai ancora un profilo di professore, consulta questa guida:
+Se non hai ancora un profilo professore, consulta questa guida:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Clicca quindi sul pulsante "New tutorial".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -153,7 +155,7 @@ Scegli una categoria principale per il tutorial. Quindi, seleziona una sottocate
 
 ![DATA-CREATOR-PY](assets/fr/43.webp)
 
-Determina il livello di difficoltà del tutorial.
+Imposta un livello di difficoltà del tutorial.
 
 ![DATA-CREATOR-PY](assets/fr/44.webp)
 
@@ -167,7 +169,7 @@ Il `project_id` è l'UUID dell'azienda o dell'organizzazione che sta dietro allo
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Per i tag, selezionare 2 o 3 parole chiave pertinenti al contenuto del tutorial, scegliendole esclusivamente dall'[elenco dei tag del Piano ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Il software offre anche una funzione di ricerca per parole chiave con un menù a tendina.
+Per i tag, selezionare 2 o 3 parole chiave pertinenti al contenuto del tutorial, scegliendole esclusivamente dall'[elenco dei tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Il software offre anche una funzione di ricerca per parole chiave con un menù a tendina.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -194,9 +196,9 @@ All'interno della cartella `wallet`, è necessario creare una nuova cartella spe
 In questa nuova sottocartella dedicata al tutorial, è necessario aggiungere diversi elementi:
 
 
-- Creare una cartella `assets`, destinata a ricevere tutte le illustrazioni necessarie per l'esercitazione;
+- Creare una cartella `assets`, destinata a ricevere tutte le illustrazioni necessarie per il tutorial;
 - All'interno di questa cartella `assets`, è necessario creare una sottocartella denominata in base al codice della lingua originale del tutorial. Ad esempio, se il tutorial è scritto in inglese, questa sottocartella deve essere denominata `en`. Inserisci lì tutte le immagini del tutorial (diagrammi, immagini, screenshot, ecc.).
-- È necessario creare un file `tutorial.yml` per registrare i dettagli relativi all'esercitazione;
+- È necessario creare un file `tutorial.yml` per registrare i dettagli relativi al tutorial;
 - È necessario creare un file in formato markdown per scrivere il contenuto effettivo del tutorial. Questo file deve essere intitolato secondo il codice della lingua in cui è scritto. Ad esempio, per un tutorial scritto in francese, il file deve essere chiamato `fr.md`.
 
 ![TUTO](assets/fr/14.webp)
@@ -305,7 +307,7 @@ proofreading:
     reward: 0
 ```
 
-Una volta terminata la modifica del file `tutorial.yml`, salva il documento facendo clic su `File > Save`:
+Una volta terminata la modifica del file `tutorial.yml`, salva il documento cliccando su `File > Save`:
 
 ![TUTO](assets/fr/16.webp)
 
@@ -313,7 +315,7 @@ Ora è possibile chiudere l'editor di codice.
 
 ## 4 - Compilare il file Markdown
 
-A questo punto, si può aprire il file che ospiterà il tutorial, denominato con il codice della propria lingua, ad esempio `fr.md`. Vai in Obsidian, sul lato sinistro della finestra, scorri l'albero delle cartelle fino a trovare la cartella del tuo tutorial e il file che stai cercando:
+A questo punto, puoi aprire il file che contiene il tuo tutorial. Questo viene denominato con il codice della propria lingua. Ad esempio `fr.md`. Vai in Obsidian, sul lato sinistro della finestra, scorri l'albero delle cartelle fino a trovare la cartella del tuo tutorial e il file che stai cercando:
 
 ![TUTO](assets/fr/18.webp)
 
@@ -352,15 +354,15 @@ Questa sintassi è utile quando è necessario aggiungere un'immagine al tutorial
 
 ## 5 - Aggiungere il logo e la copertina
 
-Nella cartella `assets` si deve aggiungere un file chiamato `logo.webp`, che servirà come miniatura per l'articolo. Questa immagine deve essere in formato `.webp` e deve rispettare una dimensione quadrata per armonizzarsi con l'interfaccia utente. È possibile scegliere il logo del software trattato nel tutorial o qualsiasi altra immagine pertinente, a condizione che sia libera da diritti. Inoltre, aggiungi anche un'immagine intitolata `cover.webp` nello stesso posto. Questa immagine verrà visualizzata nella parte superiore del tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti d'uso e sia adatta al contesto del tutorial:
+Nella cartella `assets` si deve aggiungere un file chiamato `logo.webp`, che servirà come miniatura per l'articolo. Questa immagine deve essere in formato `.webp` e deve rispettare una dimensione quadrata per armonizzarsi con l'interfaccia utente. È possibile scegliere il logo del software trattato nel tutorial o qualsiasi altra immagine pertinente, a condizione che sia libera da diritti. Inoltre, aggiungi anche un'immagine intitolata `cover.webp` nello stesso posto. Questa immagine verrà visualizzata nella parte superiore del tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti d'uso e sia adatta al contesto del tutorial.
 
 ## 6 - Scrittura del tutorial e aggiunta di immagini
 
-Continua a scrivere il tutorial redigendo il contenuto. Quando desideri integrare un sottotitolo, applica la formattazione markdown appropriata anteponendo al testo il prefisso `##`:
+Continua a scrivere il contenuto del tuo tutorial. Quando desideri integrare un sottotitolo, applica la formattazione markdown appropriata anteponendo al testo il prefisso `##`:
 
 ![TUTO](assets/fr/24.webp)
 
-La sottocartella Lingua nella cartella `assets` è utilizzata per memorizzare i diagrammi e le immagini che accompagneranno il tutorial. Per quanto possibile, evita di inserire testo nelle immagini per rendere i contenuti accessibili ad un pubblico internazionale. Naturalmente il software presentato conterrà del testo, ma se aggiungi diagrammi o indicazioni aggiuntive alle schermate del software, fallo senza testo o, se risulta indispensabile, usa l'inglese.
+La sottocartella Lingua nella cartella `assets` è utilizzata per memorizzare i diagrammi e le immagini che accompagneranno il tutorial. Per quanto possibile, evita di inserire testo nelle immagini in modo che queste siano accessibili ad un pubblico internazionale. Naturalmente il software presentato conterrà del testo, ma se aggiungi diagrammi o immagini rappresentanti le schermate del software, fallo senza testo o, se risulta indispensabile, usa l'inglese.
 
 ![TUTO](assets/fr/25.webp)
 
@@ -378,7 +380,7 @@ Per inserire un diagramma nel documento, utilizza il seguente comando Markdown, 
 
 Il punto esclamativo all'inizio indica che si tratta di un'immagine. Il testo alternativo, che aiuta l'accessibilità e la SEO, è posto tra le parentesi quadre. Infine, il percorso dell'immagine è indicato tra le parentesi tonde.
 
-Se desideri creare i tuoi diagrammi, assicurati di avere lo stesso formato grafico di Plan ₿ Network per garantire la coerenza visiva:
+Se desideri creare i tuoi diagrammi, assicurati che abbiano lo stesso formato grafico di Plan ₿ Network per garantire una coerenza visiva:
 
 
 - Font**: Utilizza [Rubik](https://fonts.google.com/specimen/Rubik);
@@ -387,7 +389,7 @@ Se desideri creare i tuoi diagrammi, assicurati di avere lo stesso formato grafi
  - Nero: #000000
  - Bianco: #FFFFFF
 
-**È indispensabile che tutte le immagini integrate nelle esercitazioni siano libere da diritti o rispettino la licenza del file sorgente**. Inoltre, tutti i diagrammi pubblicati su Plan ₿ Network sono resi disponibili con licenza CC-BY-SA, allo stesso modo del testo.
+**È indispensabile che tutte le immagini integrate nei tutorial siano libere da diritti o rispettino la licenza del file sorgente**. Inoltre, tutti i diagrammi pubblicati su Plan ₿ Network sono resi disponibili con licenza CC-BY-SA, allo stesso modo del testo.
 
 **-> Suggerimento:** Quando si condividono file pubblicamente, come le immagini, è importante rimuovere i metadati non necessari. Questi possono contenere informazioni sensibili, come dati sulla posizione, date di creazione o dettagli sull'autore. Per proteggere la privacy, è consigliabile eliminare questi metadati. Per semplificare questo processo, è possibile utilizzare strumenti specializzati come [Exif Cleaner](https://exifcleaner.com/), che consente di pulire i metadati di un documento con un semplice drag-and-drop.
 
@@ -409,21 +411,21 @@ Quindi clicca sul pulsante `Push origin`. Questo invierà il commit al proprio f
 
 ![TUTO](assets/fr/30.webp)
 
-Se non si è terminato il tutorial, si può tornare ad esso più tardi e fare nuovi commit. Se hai completato le modifiche per questo ramo, clicca ora sul pulsante `Preview Pull Request`:
+Se non hai terminato il tutorial, puoi tornare ad esso più tardi e fare nuovi commit. Se hai completato le modifiche per questo ramo, clicca ora sul pulsante `Preview Pull Request`:
 
 ![TUTO](assets/fr/31.webp)
 
-Si può controllare un'ultima volta che le modifiche siano corrette, quindi clicca sul pulsante `Create pull request`:
+Puoi controllare un'ultima volta che le modifiche siano corrette, quindi clicca sul pulsante `Create pull request`:
 
 ![TUTO](assets/fr/32.webp)
 
-Una pull request è una richiesta di integrazione delle modifiche dal proprio ramo al ramo principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima della loro fusione.
+Una pull request è una richiesta di integrazione delle modifiche dal tuo ramo al ramo principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima che vengano "mergiati".
 
 Verrai automaticamente reindirizzato nel tuo browser su GitHub alla pagina di preparazione della tua pull request:
 
 ![TUTO](assets/fr/33.webp)
 
-Indica un titolo che riassuma brevemente le modifiche che si desidera unire al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero della issue, ricordati di annotare nel commento `Closes #{numero di issue}`), quindi clicca sul pulsante verde `Create pull request` per confermare la richiesta di unione:
+Indica un titolo che riassuma brevemente le modifiche che desideri unire al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero della issue, ricordati di annotare nel commento `Closes #{numero di issue}`), quindi clicca sul pulsante verde `Create pull request` per confermare la richiesta di unione:
 
 ![TUTO](assets/fr/34.webp)
 
@@ -431,20 +433,20 @@ La tua PR sarà quindi visibile nella scheda "Pull Request" del repository princ
 
 ![TUTO](assets/fr/35.webp)
 
-Dopo che la PR è stata unita al ramo principale, si raccomanda di cancellare il ramo di lavoro (`tuto-sparrow-wallet`) per mantenere una storia pulita sul proprio fork. GitHub offre automaticamente questa opzione nella pagina della PR:
+Dopo che la PR è stata unita al ramo principale, ti consiglio di cancellare il ramo di lavoro (`tuto-sparrow-wallet`) per mantenere una storia pulita sul tuo fork. GitHub offre automaticamente questa opzione nella pagina della PR:
 
 ![TUTO](assets/fr/36.webp)
 
-Sul software GitHub Desktop, è possibile tornare al ramo principale del proprio fork (`dev`).
+Sul software GitHub Desktop, è possibile tornare al ramo principale del tuo fork (`dev`).
 
 ![TUTO](assets/fr/07.webp)
 
-Se desideri apportare modifiche al tuo contributo dopo aver già presentato la PR, la procedura dipende dallo stato attuale della PR:
+Se desideri apportare modifiche al tuo tutorial dopo aver già presentato la PR, la procedura dipende dallo stato attuale della PR:
 
 
 - Se la PR è ancora aperta e non è ancora stata unita, apporta le modifiche localmente rimanendo sullo stesso ramo. Una volta finalizzate le modifiche, usa il pulsante `Push origin` per aggiungere un nuovo commit alla PR ancora aperta;
-- Se la tua PR è già stata unita al ramo principale, devi ricominciare il processo creando un nuovo ramo e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di origine di Plan ₿ Network prima di procedere.
+- Se la tua PR è già stata unita al ramo principale, devi ricominciare il processo creando un nuovo ramo e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di Plan ₿ Network prima di procedere.
 
-Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che contribuiscono a Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
+Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che sostengono il progetto Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
 
 

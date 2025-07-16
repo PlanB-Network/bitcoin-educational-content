@@ -51,13 +51,13 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 Una volta che tutto è a posto e il tuo ambiente di lavoro è correttamente configurato con il fork Plan ₿ Network, puoi iniziare ad aggiungere il tutorial.
 
 
-## 1 - Creare un nuovo ramo
+## 1 - Creare un nuovo branch
 
 Apri il browser e vai alla pagina del tuo fork del repository Plan ₿ Network. Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a: `https://github.com/[nomeutente]/bitcoin-educational-content`:
 
 ![TUTO](assets/fr/03.webp)
 
-Assicurati di essere nel ramo principale `dev`, quindi clicca sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub ti proporrà di aggiornare il tuo ramo. Procedi con l'aggiornamento. Se, al contrario, il tuo ramo è già aggiornato, GitHub ti informerà:
+Assicurati di essere nel branch principale `dev`, quindi clicca sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub ti proporrà di aggiornare il tuo branch. Procedi con l'aggiornamento. Se, al contrario, il tuo brancho è già aggiornato, GitHub ti informerà:
 
 ![TUTO](assets/fr/04.webp)
 
@@ -69,33 +69,33 @@ Clicca sul pulsante "Fetch origin". Se il repository locale è già aggiornato, 
 
 ![TUTO](assets/fr/06.webp)
 
-Verifica che ti trovi effettivamente nel ramo principale `dev`:
+Verifica che ti trovi effettivamente nel branch principale `dev`:
 
 ![TUTO](assets/fr/07.webp)
 
-Clicca su questo ramo, quindi clicca sul pulsante "New branch":
+Clicca su questo branch, quindi clicca sul pulsante "New branch":
 
 ![TUTO](assets/fr/08.webp)
 
-Assicurati che il nuovo ramo sia basato sul repository sorgente, cioè `PlanB-Network/bitcoin-educational-content`.
+Assicurati che il nuovo branch sia basato sul repository sorgente, cioè `PlanB-Network/bitcoin-educational-content`.
 
-Nomina il tuo ramo usando un titolo esplicativo, ricorrendo ai trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso di Sparrow. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito un titolo appropriato, clicca su `Create branch` per confermare la creazione del ramo:
+Nomina il tuo branch usando un titolo esplicativo, ricorrendo ai trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso di Sparrow. In questo caso, il branch di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito un titolo appropriato, clicca su `Create branch` per confermare la creazione del branch:
 
 ![TUTO](assets/fr/09.webp)
 
-Ora clicca sul pulsante `Publish branch` per salvare il nuovo ramo di lavoro nel tuo fork online su GitHub:
+Ora clicca sul pulsante `Publish branch` per salvare il nuovo branch nel tuo fork online su GitHub:
 
 ![TUTORIAL](assets/fr/10.webp)
 
-Ora, su GitHub Desktop, ci si dovrebbe trovare nel nuovo ramo. Ciò significa che tutte le modifiche apportate localmente sul computer saranno salvate esclusivamente su questo ramo specifico. Inoltre, finché questo ramo rimane selezionato su GitHub Desktop, i file visibili localmente sul computer corrispondono a quelli di questo ramo (`tuto-sparrow-wallet-loic`) e non a quelli del ramo principale (`dev`).
+Ora, su GitHub Desktop, ci si dovrebbe trovare nel nuovo branch. Ciò significa che tutte le modifiche apportate localmente sul computer saranno salvate esclusivamente su questo branch specifico. Inoltre, finché questo branch rimane selezionato su GitHub Desktop, i file visibili localmente sul computer corrispondono a quelli di questo branch (`tuto-sparrow-wallet-loic`) e non a quelli del branch principale (`dev`).
 
 ![TUTORIAL](assets/fr/11.webp)
 
-Per ogni nuovo articolo che desideri pubblicare, è necessario creare un nuovo ramo da `dev`. Un ramo in GitHub è una versione parallela del progetto, che consente di apportare modifiche senza influenzare il ramo principale, finché il lavoro non è pronto per essere unito.
+Per ogni nuovo articolo che desideri pubblicare, è necessario creare un nuovo branch da `dev`. Un branch in GitHub è una versione parallela del progetto, che consente di apportare modifiche senza influenzare il branch principale, finché il lavoro non è pronto per essere unito.
 
 ## 2 - Aggiungere i file del tutorial
 
-Ora che il ramo di lavoro è stato creato, è il momento di integrare il nuovo tutorial. Hai due opzioni: usare il mio script Python, che automatizza la creazione dei documenti necessari, oppure creare manualmente ogni file. Vediamo i passi da seguire per ciascuna opzione.
+Ora che il branch di lavoro è stato creato, è il momento di integrare il nuovo tutorial. Hai due opzioni: usare il mio script Python, che automatizza la creazione dei documenti necessari, oppure creare manualmente ogni file. Vediamo i passi da seguire per ciascuna opzione.
 
 ### Con il mio script Python
 
@@ -252,7 +252,7 @@ Ecco i campi obbligatori:
 
 - **id** : Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
 
-- **project_id** : L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
+- **project_id** : L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial su Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
 
 - **tags** : 2 o 3 parole chiave pertinenti relative al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
@@ -397,7 +397,7 @@ Se desideri creare i tuoi diagrammi, assicurati che abbiano lo stesso formato gr
 
 Una volta terminata la stesura del tutorial nella lingua desiderata, il passo successivo consiste nell'inviare una **Pull request**. L'amministratore si occuperà di aggiungere le traduzioni mancanti del tuo tutorial, grazie al nostro metodo di traduzione automatica con revisione umana.
 
-Per procedere con la pull request, apri il software GitHub Desktop. Il software dovrebbe rilevare automaticamente le modifiche apportate localmente al ramo rispetto al repository originale. Prima di continuare, verifica attentamente sul lato sinistro dell'interfaccia che le modifiche corrispondano a quanto previsto:
+Per procedere con la pull request, apri il software GitHub Desktop. Il software dovrebbe rilevare automaticamente le modifiche apportate localmente al branch rispetto al repository originale. Prima di continuare, verifica attentamente sul lato sinistro dell'interfaccia che le modifiche corrispondano a quanto previsto:
 
 ![TUTO](assets/fr/28.webp)
 
@@ -405,13 +405,13 @@ Aggiungi un titolo per il tuo commit, quindi clicca sul pulsante blu `Commit to 
 
 ![TUTO](assets/fr/29.webp)
 
-Un commit è un salvataggio delle modifiche apportate al ramo, accompagnato da un messaggio descrittivo, che permette di seguire l'evoluzione di un progetto nel tempo. È una sorta di checkpoint intermedio.
+Un commit è un salvataggio delle modifiche apportate al branch, accompagnato da un messaggio descrittivo, che permette di seguire l'evoluzione di un progetto nel tempo. È una sorta di checkpoint intermedio.
 
 Quindi clicca sul pulsante `Push origin`. Questo invierà il commit al proprio fork:
 
 ![TUTO](assets/fr/30.webp)
 
-Se non hai terminato il tutorial, puoi tornare ad esso più tardi e fare nuovi commit. Se hai completato le modifiche per questo ramo, clicca ora sul pulsante `Preview Pull Request`:
+Se non hai terminato il tutorial, puoi tornare ad esso più tardi e fare nuovi commit. Se hai completato le modifiche per questo branch, clicca ora sul pulsante `Preview Pull Request`:
 
 ![TUTO](assets/fr/31.webp)
 
@@ -419,7 +419,7 @@ Puoi controllare un'ultima volta che le modifiche siano corrette, quindi clicca 
 
 ![TUTO](assets/fr/32.webp)
 
-Una pull request è una richiesta di integrazione delle modifiche dal tuo ramo al ramo principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima che vengano "mergiati".
+Una pull request è una richiesta di integrazione delle modifiche dal tuo branch al branch principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima che vengano "mergiati".
 
 Verrai automaticamente reindirizzato nel tuo browser su GitHub alla pagina di preparazione della tua pull request:
 
@@ -429,23 +429,23 @@ Indica un titolo che riassuma brevemente le modifiche che desideri unire al repo
 
 ![TUTO](assets/fr/34.webp)
 
-La tua PR sarà quindi visibile nella scheda "Pull Request" del repository principale di Plan ₿ Network. Non devi far altro che attendere che un amministratore ti contatti per confermare l'unione del tuo contributo al ramo principale o per richiedere ulteriori modifiche.
+La tua PR sarà quindi visibile nella scheda "Pull Request" del repository principale di Plan ₿ Network. Non devi far altro che attendere che un amministratore ti contatti per confermare l'unione del tuo contributo al branch principale o per richiedere ulteriori modifiche.
 
 ![TUTO](assets/fr/35.webp)
 
-Dopo che la PR è stata unita al ramo principale, ti consiglio di cancellare il ramo di lavoro (`tuto-sparrow-wallet`) per mantenere una storia pulita sul tuo fork. GitHub offre automaticamente questa opzione nella pagina della PR:
+Dopo che la PR è stata unita al branch principale, ti consiglio di cancellare il branch di lavoro (`tuto-sparrow-wallet`) per mantenere una storia pulita sul tuo fork. GitHub offre automaticamente questa opzione nella pagina della PR:
 
 ![TUTO](assets/fr/36.webp)
 
-Sul software GitHub Desktop, è possibile tornare al ramo principale del tuo fork (`dev`).
+Sul software GitHub Desktop, è possibile tornare al branch principale del tuo fork (`dev`).
 
 ![TUTO](assets/fr/07.webp)
 
 Se desideri apportare modifiche al tuo tutorial dopo aver già presentato la PR, la procedura dipende dallo stato attuale della PR:
 
 
-- Se la PR è ancora aperta e non è ancora stata unita, apporta le modifiche localmente rimanendo sullo stesso ramo. Una volta finalizzate le modifiche, usa il pulsante `Push origin` per aggiungere un nuovo commit alla PR ancora aperta;
-- Se la tua PR è già stata unita al ramo principale, devi ricominciare il processo creando un nuovo ramo e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di Plan ₿ Network prima di procedere.
+- Se la PR è ancora aperta e non è ancora stata unita, apporta le modifiche localmente rimanendo sullo stesso branch. Una volta finalizzate le modifiche, usa il pulsante `Push origin` per aggiungere un nuovo commit alla PR ancora aperta;
+- Se la tua PR è già stata unita al branch principale, devi ricominciare il processo creando un nuovo branch e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di Plan ₿ Network prima di procedere.
 
 Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che sostengono il progetto Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
 

@@ -291,7 +291,14 @@ Une adresse IP est structurée en deux parties distinctes : la première, appe
 
 Historiquement, le système IPv4 s’appuie sur un découpage en classes, notées de A à E, qui détermine l’étendue des plages d’adresses et leur usage. Chaque classe réserve un nombre défini de bits au _netid_ et au _hostid_, ce qui influe directement sur le nombre de réseaux et d’hôtes possibles.
 
-![Image](assets/fr/012.webp)
+| **Class** | **IPv4 Address Range**            | **Usage**                    |
+| --------- | --------------------------------- | ---------------------------- |
+| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
+|           | (127.x.x.x reserved for loopback) | Local loopback               |
+| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
+| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
+| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
+| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
 
 Il faut savoir que toutes les combinaisons binaires ne sont pas exploitables pour identifier des hôtes. Dans une adresse de **classe C**, par exemple, le dernier octet offre 8 bits, soit 256 valeurs possibles. Toutefois, deux d’entre elles ont une fonction spéciale : la valeur 0 désigne le réseau lui-même, tandis que 255 correspond à l’adresse de **diffusion** (_broadcast_), qui permet d’envoyer un paquet à tous les hôtes du réseau en une seule fois. Il reste donc 254 adresses réellement utilisables pour des machines.
 
@@ -357,7 +364,21 @@ Prenons un exemple concret : un bloc **/17** permet de disposer de 2^(32-17) a
 
 Pour faciliter la conversion et la compréhension, on utilise des tableaux de correspondance, tel que celui ci-dessous, qui présente les préfixes CIDR courants et leur équivalence en nombre d’adresses :
 
-![Image](assets/fr/017.webp)
+| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+| ----------- | ------------------- | --------------- | ----------------------------- |
+| /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
+| /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
+| /16         | 16                  | 255.255.0.0     | 2^16 - 2 = 65,534             |
+| /20         | 12                  | 255.255.240.0   | 2^12 - 2 = 4,094              |
+| /24         | 8                   | 255.255.255.0   | 2^8 - 2 = 254                 |
+| /26         | 6                   | 255.255.255.192 | 2^6 - 2 = 62                  |
+| /27         | 5                   | 255.255.255.224 | 2^5 - 2 = 30                  |
+| /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
+| /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
+| /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
+| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
+
 
 **NOTE** : Historiquement, le RFC 950 considérait le sous-réseau zéro comme non standard et déconseillait son usage, principalement pour éviter des confusions lors du routage. Toutefois, cette restriction est devenue obsolète avec le RFC 1878, qui autorise pleinement son exploitation. Les anciennes réserves concernaient avant tout la compatibilité avec du matériel ancien, incapable de gérer correctement les notations CIDR. Aujourd’hui, grâce aux équipements modernes, cette limitation a disparu.
 
@@ -458,7 +479,12 @@ L’architecture en couches repose sur le principe que chaque niveau ne traite q
 
 **Rappel** : pour nommer les unités de données qui transitent entre les couches, une terminologie spécifique a été définie : **message** pour la couche Application, **segment** pour la couche Transport (TCP), **datagramme** pour la couche Internet (IP) et **trame** pour la couche Accès Réseau. Cette distinction s’accompagne de structures adaptées à chaque contexte, comme le montre le schéma suivant :
 
-![Image](assets/fr/025.webp)
+| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+|----------------------|------------------|------------------|
+| Application Layer    | Stream           | Message          |
+| Transport Layer      | Segment          | Packet           |
+| Internet Layer       | Datagram         | Datagram         |
+| Network Access Layer | Frame            | Frame            |
 
 ### Primitives de service et unités de données
 
@@ -502,11 +528,26 @@ _Exemple : l’adresse 172.16.254.1_
 Chaque bit au sein d’un octet a un poids bien défini : le bit de gauche (bit de poids fort) vaut 128, le suivant 64, puis 32, 16, 8, 4, 2 et 1 pour le bit de droite (bit de poids faible). Ainsi, l’écriture binaire est convertie en décimal par simple addition des poids activés.  
 Le tableau ci-dessous rappelle cette correspondance :
 
-![Image](assets/fr/028.webp)
+| Binary Code | Activated Bit Values          | Decimal Value |
+|-------------|-------------------------------|---------------|
+| 00000000    | 0                             | 0             |
+| 00000001    | 1                             | 1             |
+| 00000011    | 1 + 2                         | 3             |
+| 00000111    | 1 + 2 + 4                     | 7             |
+| 00001111    | 1 + 2 + 4 + 8                 | 15            |
+| 00011111    | 1 + 2 + 4 + 8 + 16            | 31            |
+| 00111111    | 1 + 2 + 4 + 8 + 16 + 32       | 63            |
+| 01111111    | 1 + 2 + 4 + 8 + 16 + 32 + 64  | 127           |
+| 11111111    | 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 | 255      |
 
 Par exemple, pour convertir une adresse IP binaire en notation décimale, on additionne les valeurs des bits à 1 pour chaque octet.
 
-![Image](assets/fr/029.webp)
+| Binary     | Decimal Value |
+| ---------- | ------------- |
+| `10101100` | 172           |
+| `00010000` | 16            |
+| `11111110` | 254           |
+| `00000001` | 1             |
 
 Il est important de noter qu’une adresse IP identifie **une interface réseau** et non l’appareil dans sa globalité. Un serveur multi-cartes, comme un pare-feu ou un routeur, possède donc plusieurs interfaces, chacune avec sa propre adresse IP. De plus, une seule interface peut se voir attribuer plusieurs adresses IP, notamment pour répondre à plusieurs réseaux virtuels ou services.
 
@@ -522,7 +563,13 @@ Dans les débuts d’IPv4, les réseaux étaient organisés en **classes** (A, B
 - Classe D : adresses réservées à la multidiffusion (_multicast_)
 - Classe E : adresses expérimentales, non utilisées pour l’adressage classique
 
-![Image](assets/fr/030.webp)
+| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+| ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
+| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
+| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
 
 Certaines adresses ont un rôle bien particulier. L’**adresse de réseau** désigne l’identifiant du réseau lui-même et sert à configurer les tables de routage ; l’**adresse de diffusion** (_broadcast_) permet d’envoyer un paquet à tous les hôtes d’un même sous-réseau en une seule émission : pour cela, tous les bits du HostID sont mis à 1.
 
@@ -581,8 +628,6 @@ Le principe fondamental du DNS est simple : pour tout équipement connecté (qu�
 Un nom de domaine est toujours structuré hiérarchiquement, chaque niveau étant séparé par un point : le nom complet est appelé **FQDN** (_Fully Qualified Domain Name_). L’élément le plus à droite est le **TLD** (_Top Level Domain_) comme `.com`, `.org` ou `.fr`. L’élément le plus à gauche désigne l’hôte, c’est-à‑dire la machine spécifique à laquelle l’adresse IP est liée.
 
 Le système DNS est conçu comme un **arbre de zones**. Chaque **zone** représente une portion de l’espace de noms, gérée par un serveur DNS spécifique. Une même zone peut inclure plusieurs **sous-domaines**, eux-mêmes potentiellement répartis sur d’autres zones administrées par des serveurs distincts. Une zone est donc l’unité administrative de base dont un administrateur est responsable : gestion, mises à jour, délégations éventuelles...
-
-![Image](assets/fr/031.webp)
 
 Ainsi, il devient possible non seulement de pointer vers un domaine principal (par exemple `example.com`) mais aussi de gérer finement chaque hôte (`www`, `mail`, `ftp`, etc.) par des enregistrements précis. À l’origine, cette fonction de résolution était assurée par de simples fichiers statiques (`/etc/hosts` sous Linux) mais cette méthode s’est vite révélée inadaptée pour un Internet mondial, évolutif et interconnecté.
 
@@ -649,7 +694,7 @@ Il est donc important de garder à l’esprit que l’adresse MAC et l’adresse
 
 - Exemple visuel d’adresse IP :
 
-![Image](assets/fr/033.webp)
+![Image](assets/fr/027.webp)
 
 Dans un environnement d’entreprise, ces deux niveaux d’adressage ne peuvent fonctionner séparément. Par exemple, lors de l’attribution automatique d’une adresse IP par un serveur DHCP, c’est l’adresse MAC de l’équipement qui sert de point de départ. L’ordinateur envoie une requête DHCP en broadcast, incluant son adresse MAC, afin de se voir attribuer une adresse IP disponible par le serveur. Sans cette identification matérielle, le serveur DHCP ne saurait pas à quel appareil délivrer l’adresse.
 
@@ -669,7 +714,8 @@ La table de routage, administrée soit manuellement (routage statique), soit dyn
 
 La table de routage agit comme un tableau de correspondance entre les adresses IP cibles et les passerelles suivantes. Elle ne conserve généralement pas toutes les adresses hôtes mais seulement l’identifiant du réseau (_network ID_), ce qui allège considérablement son volume.
 
-![Image](assets/fr/034.webp)
+| Destination Address | Next-Hop Router Address | Interface |
+| ------------------- | ----------------------- | --------- |
 
 Grâce à ces entrées, le routeur peut déterminer rapidement via quelle interface et vers quel nœud il doit transmettre chaque datagramme. Cette logique d’acheminement, combinée au protocole ARP pour résoudre les adresses MAC correspondantes, garantit l’efficacité et la fiabilité du transfert de données sur l’ensemble du réseau.
 
@@ -718,7 +764,11 @@ Ce principe de traduction dynamique repose sur une gestion fine de la table : ch
 
 _Exemple de table de traduction NAT simplifiée :_
 
-![Image](assets/fr/036.webp)
+| Internal IP   | External IP    | Duration (sec) | Reusable? |
+| ------------- | -------------- | -------------- | --------- |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
+| 10.100.0.89   | 193.48.100.46  | 0              | no        |
 
 Dans cet exemple, si aucun paquet n’a transité pour la seconde ligne depuis plus d’une heure (3600 secondes), l’entrée est marquée comme réutilisable. À l’inverse, un champ de durée à zéro indique qu’une communication est en cours et que la correspondance est verrouillée.
 
@@ -745,7 +795,7 @@ Ce principe est identique pour tout autre serveur autorisé à recevoir des conn
 
 **Remarque pratique :** dans les environnements virtualisés, on rencontre fréquemment des interfaces réseau appelées _virbrX_ (pour _Virtual Bridge X_). Ces ponts virtuels, fournis notamment par la bibliothèque libvirt ou l’hyperviseur Xen, servent à relier le réseau interne virtuel des machines invitées au réseau physique, tout en appliquant le NAT. Leur configuration se réalise généralement via des scripts situés dans `/etc/sysconfig/network-scripts/`, comme illustré ci-dessous pour `virbr0` :
 
-```shell
+```ini
 NAME=""
 BOOTPROTO=none
 MACADDR=""
@@ -854,7 +904,24 @@ Les fichiers `ifcfg-*`, situés dans `/etc/sysconfig/network-scripts/`, contienn
 
 Illustration simplifiée d’un fichier de configuration `ifcfg` :
 
-![Image](assets/fr/038.webp)
+*Configuration adressage statique (`/etc/sysconfig/network-scripts/ifcfg-eth0`):*
+
+```ini
+DEVICE=eth0
+BOOTPROTO=none
+ONBOOT=yes
+IPADDR=192.168.2.5
+NETMASK=255.255.255.0
+GATEWAY=192.168.2.1
+```
+
+*Configuration adressage dynamique (`/etc/sysconfig/network-scripts/ifcfg-eth0`):*
+
+```ini
+DEVICE=eth0
+BOOTPROTO=dhcp
+ONBOOT=yes
+```
 
 Cette structuration claire et modulaire rend la gestion des interfaces flexible et facilement automatisable, que ce soit pour un poste individuel ou pour une flotte de serveurs administrés à grande échelle.
 
@@ -931,7 +998,7 @@ Côté configuration permanente, trois fichiers `ifcfg` doivent être créés da
 
 **Fichier `ifcfg-bond0` :**
 
-```shell
+```ini
 DEVICE=bond0
 ONBOOT=yes
 BOOTPROTO=none
@@ -944,7 +1011,7 @@ USERCTL=no
 
 **Fichier `ifcfg-eth0` :**
 
-```shell
+```ini
 DEVICE=eth0
 USERCTL=no
 ONBOOT=yes
@@ -954,7 +1021,7 @@ SLAVE=yes
 
 **Fichier `ifcfg-eth1` :**
 
-```shell
+```ini
 DEVICE=eth1
 USERCTL=no
 ONBOOT=yes
@@ -978,7 +1045,7 @@ ifconfig eth0:1 192.168.1.2 netmask 255.255.255.0 up
 
 Il est alors nécessaire de créer un fichier de configuration pour cet alias :
 
-```shell
+```ini
 DEVICE=eth0:1
 BOOTPROTO=static
 IPADDR=192.168.1.2
@@ -1126,15 +1193,21 @@ Les **adresses unicast** constituent la catégorie la plus courante et englobent
 
 Ce découpage conceptuel se matérialise souvent par une structure binaire où la première partie de l’adresse (les 64 premiers bits) identifie le préfixe réseau et la seconde moitié (64 bits également) identifie de façon unique l’interface de l’équipement sur ce réseau. Cette séparation facilite l’autoconfiguration des adresses grâce aux mécanismes comme SLAAC (_Stateless Address Autoconfiguration_), qui permettent aux machines de générer automatiquement une adresse stable basée sur l’adresse MAC ou un identifiant pseudo-aléatoire.
 
-![Image](assets/fr/041.webp)
+| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+|-----------|--------|---|-----------|--------|---------------|
+| Bits      | 7      | 1 | 40        | 16     | 64            |
 
 L’architecture IPv6 reprend le modèle hiérarchique du routage global de l’Internet actuel : le découpage des préfixes permet aux registres régionaux et aux opérateurs de gérer la distribution d’adresses de façon décentralisée, tout en assurant l’unicité globale. C’est dans ce cadre qu’un même hôte peut posséder simultanément une adresse unicast globale, pour communiquer sur Internet, et une adresse link-local pour interagir localement, par exemple pour le voisinage immédiat ou les messages de découverte de routeur.
 
-![Image](assets/fr/042.webp)
+| Field     | Prefix | Zero | Interface ID |
+|-----------|--------|------|--------------|
+| Bits      | 10     | 54   | 64           |
 
 Les **adresses anycast** représentent une notion intermédiaire qui tire parti du modèle unicast tout en offrant un comportement proche du multicast dans certains cas. Une adresse anycast est, en réalité, une adresse unicast affectée à plusieurs interfaces réparties sur différents nœuds du réseau. Lorsqu’un paquet est émis vers une adresse anycast, le protocole IPv6 s’efforce de le livrer à l’un des hôtes partageant cette adresse, en privilégiant généralement celui qui est le plus proche selon la topologie du routage. Ce principe optimise la rapidité de traitement des requêtes et améliore la résilience des services distribués : l’exemple typique est celui des serveurs DNS racine, pour lesquels l’adressage anycast permet de diriger automatiquement les requêtes vers le point de présence le plus proche.
 
-![Image](assets/fr/043.webp)
+| Field     | Prefix | Subnet | Interface ID |
+|-----------|--------|--------|--------------|
+| Bits      | 48     | 16     | 64           |
 
 Enfin, les **adresses multicast** remplacent dans IPv6 le mécanisme de broadcast, jugé trop coûteux et inadapté à l’échelle d’un réseau mondial. Une adresse multicast identifie un groupe d’interfaces, généralement dispersées sur plusieurs hôtes, qui souhaitent recevoir simultanément les mêmes paquets. Pour chaque adresse multicast, la portée est spécifiée par un champ particulier : les 4 bits de _scope_ inclus dans la structure de l’adresse. Ces bits définissent la limite géographique ou logique de diffusion :
 
@@ -1146,7 +1219,9 @@ Enfin, les **adresses multicast** remplacent dans IPv6 le mécanisme de broadcas
 
 Chaque adresse multicast IPv6 est structurée en plusieurs champs : un champ _Flag_ (4 bits) précise notamment si le groupe est permanent ou transitoire, un champ _Scope_ (4 bits) définit la portée, et un champ d’identification (112 bits) indique le numéro du groupe multicast.
 
-![Image](assets/fr/044.webp)
+| Field      | Prefix | Flags | Scope | Group ID |
+|------------|--------|--------|--------|----------|
+| Bits       | 8      | 4      | 4      | 112      |
 
 Un exemple emblématique de multicast IPv6 est l’utilisation par le protocole _Neighbor Discovery Protocol_ (NDP). Plutôt que de recourir à ARP comme en IPv4, NDP s’appuie sur des adresses multicast comme `ff02::1:ff00:0/104` pour diffuser ses requêtes de découverte de voisinage, en sollicitant uniquement les hôtes concernés sur le même lien.
 

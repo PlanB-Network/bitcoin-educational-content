@@ -1,25 +1,18 @@
 ---
-name: Sinyal
+name: Signal
 description: Ekspresikan diri Anda dengan bebas
 ---
+
 ![cover](assets/cover.webp)
 
-
-
-Signal adalah aplikasi perpesanan terenkripsi ujung ke ujung, yang dirancang untuk menawarkan kerahasiaan yang baik secara default. Setiap pesan, panggilan, dan file dilindungi oleh protokol Signal, yang dikenal sebagai salah satu protokol perpesanan yang paling kuat. Protokol ini digunakan kembali oleh banyak aplikasi lain, termasuk WathsApp, Facebook Messenger, Skype, dan Google Messages untuk komunikasi RCS.
-
-
+Signal adalah aplikasi kirim pesan dengan enkripsi end-to-end yang dirancang untuk menawarkan privasi yang baik secara bawaan. Setiap pesan, panggilan, dan file dilindungi oleh protokol Signal, yang diakui sebagai salah satu protokol kirim pesan paling kuat. Protokol ini bahkan digunakan kembali oleh banyak aplikasi lain, termasuk WhatsApp, Facebook Messenger, Skype, dan Google Messages untuk komunikasi RCS.
 
 Signal diluncurkan pada tahun 2014 oleh Moxie Marlinspike (nama samaran) dan dikembangkan sejak tahun 2018 oleh Signal Foundation, sebuah organisasi nirlaba yang didirikan dengan dukungan Brian Acton (salah satu pendiri WhatsApp).
-
-
-
 ![Image](assets/fr/01.webp)
-
-
 
 Dibandingkan dengan WhatsApp, Signal menonjol dalam hal transparansi: kode aplikasi, baik dari sisi klien maupun server, sepenuhnya open source. Hal ini memungkinkan siapa pun untuk mengauditnya, dan khususnya untuk memeriksa apakah enkripsi diterapkan seperti yang diiklankan.
 
+Dibandingkan dengan WhatsApp, Signal menonjol karena transparansinya: kode aplikasi, baik di sisi klien maupun server, sepenuhnya bersifat sumber terbuka (open source). Hal ini memungkinkan siapa pun untuk mengauditnya, dan secara khusus memeriksa bahwa enkripsi diterapkan sebagaimana diiklankan.
 
 
 Namun, Signal bergantung pada penggunaan nomor telepon, yang merupakan kelemahan utamanya dalam hal anonimitas dibandingkan dengan solusi lainnya. Meskipun demikian, aplikasi ini, menurut pendapat saya, salah satu yang paling dapat diandalkan dalam hal keamanan dan kerahasiaan, berkat arsitekturnya yang sepenuhnya terbuka dan protokol enkripsi yang diadopsi secara luas, dan oleh karena itu telah diuji dan diaudit, tidak seperti aplikasi lain yang lebih marjinal.

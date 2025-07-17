@@ -1,0 +1,11 @@
+question: Wat meet de Hashrate in het Bitcoin netwerk?
+answer: De berekeningen per seconde
+wrong_answers:
+  - Het aantal transacties per seconde
+  - Het aantal actieve knooppunten
+  - De hoeveelheid elektriciteit die door het netwerk wordt verbruikt
+explanation: |
+  De Hashrate in het Bitcoin netwerk meet het aantal
+  berekeningen die per seconde kunnen worden uitgevoerd. Het is een belangrijke
+  indicator voor de gezondheid en veiligheid van het netwerk.
+reviewed: true

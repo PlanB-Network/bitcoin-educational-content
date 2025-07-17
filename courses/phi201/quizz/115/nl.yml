@@ -1,0 +1,9 @@
+question: Welk metaal wordt van oudsher beschouwd als de standaardreferentie voor valuta?
+answer: Goud
+wrong_answers:
+  - Zilver
+  - Koper
+  - Brons
+explanation: |
+  Goud heeft historisch als standaard gediend vanwege zijn schaarste, duurzaamheid en universeel erkende waarde, waardoor het een stabiele basis is voor monetaire systemen.
+reviewed: true

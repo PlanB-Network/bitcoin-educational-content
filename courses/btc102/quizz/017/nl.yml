@@ -1,0 +1,9 @@
+question: Welke term verwijst naar de geprogrammeerde verdeling van de Mining subsidie?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisectie
+  - Coinbase
+explanation: |
+  Halving verwijst naar de Halving van de Mining subsidie om de 210.000 blokken.
+reviewed: false

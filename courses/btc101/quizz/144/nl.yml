@@ -1,0 +1,8 @@
+question: Wat is de vereiste bandbreedte voor een Bitcoin knooppunt, rekening houdend met 1 blok van 1MB elke 10 minuten?
+answer: Ongeveer 5GB per maand.
+wrong_answers:
+  - Ongeveer 1GB per maand.
+  - Ongeveer 10GB per maand.
+  - Ongeveer 20 GB per maand.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van een Bitcoin Wallet?
+answer: Privé sleutels beheren en beveiligen
+wrong_answers:
+  - Bitcoins van de gebruiker opslaan
+  - De vertrouwelijkheid van transacties automatisch waarborgen
+  - generate bitcoins voor elke gebruiker
+explanation: |
+  Een Bitcoin Wallet slaat niet direct bitcoins op, maar beheert de privésleutels die nodig zijn om de UTXO's te ontgrendelen die de bitcoins vertegenwoordigen.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Wat is het belang van individuele verantwoordelijkheid in Bitcoin?
+answer: Het is cruciaal omdat jij de leiding hebt over de back-ups.
+wrong_answers:
+  - Het is essentieel omdat je bitcoins moet delven.
+  - Het is essentieel om bitcoins te kopen.
+  - Dit is cruciaal omdat jij de leiding hebt over het Wallet thema.
+explanation: |
+  In Bitcoin gaat financiële soevereiniteit hand in hand met
+  individuele verantwoordelijkheid, want je moet zelf je
+  door de aanbevolen back-upprocedures te volgen.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wat zijn de typische kosten voor een Miner?
+answer: Elektriciteitsverbruik en aankoop van hardware.
+wrong_answers:
+  - Alleen aanschaf van hardware.
+  - Transactiekosten.
+  - Elektriciteitsverbruik en transactiekosten.
+explanation: >-
+reviewed: false

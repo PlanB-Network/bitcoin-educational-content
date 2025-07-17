@@ -1,0 +1,9 @@
+question: Wat is het hoofddoel van de actieve gebruiker?
+answer: Bitcoin gebruiken als dagelijkse betaalmethode
+wrong_answers:
+  - Investeren in Bitcoin voor de lange termijn
+  - Geleidelijk satoshis verzamelen
+  - Speculeren op de markt
+explanation: |
+  De actieve gebruiker integreert Bitcoin in zijn dagelijks leven om transacties te doen en de adoptie ervan te ondersteunen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is de primaire hardwarevereiste voor een Starterprofiel om Bitcoin-betalingen te accepteren?
+answer: Een smartphone
+wrong_answers:
+  - A Bitcoin Miner ASIC
+  - Een Hardware Wallet
+  - Een zelf gehoste server
+explanation: |
+  Voor het Starter-profiel is alleen een smartphone of tablet met een Lightning Wallet nodig, waardoor het een lichtgewicht oplossing is.
+reviewed: false

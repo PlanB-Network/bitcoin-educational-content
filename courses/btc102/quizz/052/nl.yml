@@ -1,0 +1,9 @@
+question: Welk voordeel biedt het runnen van je eigen Bitcoin knooppunt?
+answer: Onafhankelijkheid
+wrong_answers:
+  - Liquiditeit
+  - Centralisatie
+  - Snelheid
+explanation: |
+  Het runnen van je eigen node zorgt voor onafhankelijkheid van derden en beschermt de privacy van je transacties.
+reviewed: false

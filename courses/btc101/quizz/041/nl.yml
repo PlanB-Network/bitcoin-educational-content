@@ -1,0 +1,13 @@
+question: Wat is het gevolg van het drukken van geld?
+answer: Het leidt tot inflatie, waardoor de bevolking geleidelijk verarmt.
+wrong_answers:
+  - Het leidt tot deflatie, waardoor de bevolking geleidelijk rijker wordt.
+  - Het leidt tot een stabiele economie zonder inflatie of deflatie.
+  - Het leidt tot een daling van het geld Supply.
+explanation: |
+  Monetaire druk, of het creëren van nieuw geld door centrale banken, leidt tot inflatie
+  leidt tot inflatie. Dit komt doordat de toename van
+  geld Supply de koopkracht van geld vermindert,
+  wat leidt tot hogere prijzen en een daling van de waarde van
+  spaargeld.
+reviewed: true

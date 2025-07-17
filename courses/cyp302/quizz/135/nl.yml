@@ -1,0 +1,9 @@
+question: Wat is de grootste kwetsbaarheid van zwakke wachtwoorden als ze gehasht zijn?
+answer: Ze zijn kwetsbaar voor woordenboekaanvallen
+wrong_answers:
+  - Ze kunnen niet worden geverifieerd door hashing
+  - Ze hebben altijd generate botsingen
+  - Ze vereisen langere hashing voor meer veiligheid
+explanation: |
+  Zwakke wachtwoorden kunnen gemakkelijk worden hersteld van hun Hash met behulp van woordenboekaanvallen, waardoor hun selectie belangrijk is om de veiligheid te garanderen.
+reviewed: false

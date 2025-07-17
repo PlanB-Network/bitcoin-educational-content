@@ -1,0 +1,10 @@
+question: Wat is een van de aspecten van cyberbeveiliging die regelmatig gecontroleerd moeten worden?
+answer: De constante evolutie van bedreigingen
+wrong_answers:
+  - De aandelenmarkt
+  - Het weer
+  - Het nieuws
+explanation: |
+  Het hoofdstuk vermeldt dat de constante evolutie van bedreigingen
+  in cyberbeveiliging regelmatige controle vereist.
+reviewed: true

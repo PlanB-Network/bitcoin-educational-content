@@ -1,0 +1,9 @@
+question: Wat was de naam van de software-implementatie die Mike Hearn in maart 2011 uitbracht en waarmee Simplified Payment Verification (SPV) werd geïmplementeerd?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  Hij [publiceerde](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) het onder de open-source licentie (Apache 2.0), die hij toeschreef aan Google (zijn toenmalige werkgever). Deze implementatie maakte het mogelijk om de eerste lichtgewicht Wallet op Android te lanceren.
+reviewed: true

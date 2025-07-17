@@ -1,0 +1,10 @@
+question: Waarom wordt de XOR-operator gebruikt in BIP47?
+answer: Om de payload van de betalingscode van de verzender symmetrisch te versleutelen.
+wrong_answers:
+  - Om de payload van de betalingscode van de verzender asymmetrisch te versleutelen.
+  - Om de metadata van de betalingscode van de verzender symmetrisch te versleutelen.
+  - Om de metadata van de betalingscode van de verzender asymmetrisch te versleutelen.
+explanation: |
+  De XOR-operator wordt gebruikt om de payload van de betalingscode van de verzender symmetrisch te versleutelen in BIP47.
+  
+reviewed: false

@@ -1,0 +1,10 @@
+question: Wat is de maximale entropie van een transactie?
+answer: De hoogste entropie die een transactiestructuur kan bereiken.
+wrong_answers:
+  - De laagste entropie die een transactiestructuur kan bereiken.
+  - De werkelijke entropie van een transactie.
+  - De efficiëntie van een transactie.
+explanation: |
+  Maximale entropie verwijst naar de hoogste entropie die een specifieke transactiestructuur theoretisch kan bereiken.
+  
+reviewed: false

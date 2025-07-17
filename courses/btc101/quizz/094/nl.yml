@@ -1,0 +1,14 @@
+question: Wat is het risico van het gebruik van een Multisig Wallet?
+answer: Geen toegang hebben tot voldoende individuele privésleutels of back-upcomponenten.
+wrong_answers:
+  - Toegang hebben tot voldoende individuele privésleutels of back-upcomponenten.
+  - Uw privésleutels delen met andere partijen.
+  - Het delen van je publieke sleutels met andere partijen.
+explanation: |
+  Als je een Multisig Wallet gebruikt, moet elke private sleutel van de
+  Multisig op verschillende locaties worden opgeslagen. Dit komt
+  omdat de Multisig meerdere handtekeningen nodig heeft om een
+  transactie uit te voeren, dus zijn er een bepaald aantal portemonnees
+  nodig. Elk deel op een andere locatie opslaan
+  een extra Layer beveiliging.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat is het verschil tussen een gecomprimeerde en ongecomprimeerde openbare sleutel?
+answer: De gecomprimeerde openbare sleutel gebruikt alleen de x-coördinaat en de pariteit van y
+wrong_answers:
+  - De gecomprimeerde openbare sleutel is veiliger
+  - De gecomprimeerde openbare sleutel gebruikt alleen de y-coördinaat en de pariteit van x
+  - De gecomprimeerde openbare sleutel vereist een grotere privésleutel
+explanation: |
+  Een gecomprimeerde openbare sleutel behoudt alleen de x-coördinaat en een bit voor de pariteit van y, waardoor de grootte wordt gereduceerd tot 33 bytes.
+reviewed: false

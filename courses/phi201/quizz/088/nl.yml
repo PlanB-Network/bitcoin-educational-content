@@ -1,0 +1,9 @@
+question: Wat is volgens Constant de relatie tussen politieke vrijheid en economische vrijheid?
+answer: De twee vrijheden zijn van elkaar afhankelijk.
+wrong_answers:
+  - Politieke vrijheid is een noodzakelijke voorwaarde voor economische vrijheid.
+  - Economische vrijheid is een noodzakelijke voorwaarde voor politieke vrijheid.
+  - De twee vrijheden zijn onverenigbaar met elkaar.
+explanation: |
+  Voor Benjamin Constant zijn politieke vrijheid en economische vrijheid nauw met elkaar verbonden, omdat individuele autonomie evenzeer afhangt van de mogelijkheid om deel te nemen aan openbare aangelegenheden als van de vrijheid om ongehinderd economische activiteiten te ontplooien.
+reviewed: true

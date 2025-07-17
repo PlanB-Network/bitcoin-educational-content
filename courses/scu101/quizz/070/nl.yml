@@ -1,0 +1,9 @@
+question: Wat is het doel van Lightning-verificatie?
+answer: Het genereert een andere identificatie voor elke service, zonder een e-mail Address of persoonlijke informatie te geven.
+wrong_answers:
+  - Hiermee kan iedereen, zelfs zonder Lightning Wallet, zich authenticeren zonder e-mail Address, als een geldig ID wordt getoond.
+  - Hiermee kun je hetzelfde wachtwoord gebruiken voor alle services.
+  - Het stuurt elke maand herinneringen om wachtwoorden te wijzigen.
+explanation: |
+  Lightning-authenticatie genereert een andere identificatie voor elke dienst, zonder een e-mail Address of persoonlijke informatie te verstrekken. Dit kan de privacy en beveiliging verbeteren door de hoeveelheid persoonlijke informatie die met elke dienst wordt gedeeld te verminderen.
+reviewed: true

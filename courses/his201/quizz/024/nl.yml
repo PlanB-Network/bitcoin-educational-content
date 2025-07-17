@@ -1,0 +1,9 @@
+question: Wie is de persoon die positief reageerde op de publicatie van het witboek in november 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  Op 7 november schreef hij aan de lijst dat Bitcoin een veelbelovend idee [leek]. De anderen waren sceptischer. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: true

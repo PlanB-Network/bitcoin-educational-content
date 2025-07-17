@@ -1,0 +1,15 @@
+question: Wat is het Cantillon-effect?
+answer: Het Cantillon-effect verwijst naar het economische principe dat wanneer er nieuw geld wordt gecreëerd, dit in eerste instantie ten goede komt aan degenen die het dichtst bij de bron van het geld staan, ten koste van degenen die verder weg staan.
+wrong_answers:
+  - Het Cantillon-effect verwijst naar het economische principe dat wanneer nieuw geld wordt gecreëerd, iedereen in de economie daar in gelijke mate van profiteert.
+  - Het Cantillon-effect verwijst naar het economische principe dat wanneer er nieuw geld wordt gecreëerd, dit in eerste instantie ten goede komt aan degenen die het verst van de geldbron af zitten, ten koste van degenen die dichterbij zitten.
+  - Het Cantillon-effect verwijst naar het economische principe dat wanneer nieuw geld wordt gecreëerd, dit geen invloed heeft op de verdeling van welvaart in de economie.
+explanation: |
+  Het Cantillon-effect, genoemd naar de 18e-eeuwse econoom
+  Richard Cantillon, beschrijft hoe de distributie van nieuw
+  geld in een economie kan leiden tot welvaartsverschillen. Degenen
+  die het dichtst bij de bron van het nieuwe geld staan (zoals bankiers en
+  bezitters van activa) profiteren het eerst en het meest, terwijl
+  degenen die verder weg staan (zoals gemiddelde werknemers en spaarders)
+  minder voordeel of zelfs negatieve effecten zien als gevolg van inflatie.
+reviewed: true

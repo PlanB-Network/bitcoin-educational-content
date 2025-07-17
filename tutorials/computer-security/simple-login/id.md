@@ -1,35 +1,25 @@
 ---
-name: Login Sederhana
+name: Simple Login
 description: Identitas dilindungi dengan alias
 ---
+
 ![cover](assets/cover.webp)
 
 ## Login = email = hilangnya privasi
 
+Di dunia digital, telah menjadi praktik yang wajar untuk memiliki akun untuk setiap platform yang ingin diakses. Setiap layanan ini memerlukan informasi masuk (login), yang umumnya terkait dengan kombinasi nama pengguna (_username_) dan kata sandi (_password_). Seringkali, nama pengguna tersebut adalah alamat email pribadi pengguna.
 
-Di dunia digital, sudah menjadi praktik standar untuk memiliki akun untuk setiap platform yang ingin diakses.
+Apabila seseorang menggunakan alamat email pribadinya untuk setiap login, konsekuensi pertama yang dapat dibayangkan adalah hilangnya privasi, bisa menjadi sangat penting jika alamat tersebut tersusun dari _name.surename@servicename.com_.
 
-Setiap layanan ini memerlukan login, biasanya dikaitkan dengan pasangan _username_ dan _password_. Sering kali, nama pengguna adalah email pribadi pengguna.
+Para pengembang program _tools open-source_ telah menciptakan rangkaian paket aplikasi yang tercipta dengan tujuan untuk membantu pengguna memperoleh kembali sedikit privasi: mereka akan dapat masuk,tetapi menggunakan alias, suatu cara yang tidak mengungkapkan identitas pribadi mereka.
 
-
-Ketika menggunakan email pribadi Address untuk setiap login, mudah untuk membayangkan konsekuensi pertama: hilangnya kerahasiaan, yang menjadi sangat penting jika Address terdiri dari _name.surname@serviceemail.com_.
-
-
-Para pengembang peralatan sumber terbuka telah menciptakan serangkaian paket aplikasi, yang lahir dengan tepat untuk membuat para pengguna mendapatkan kembali sedikit privasi: mereka masih akan masuk, tetapi menggunakan alias alih-alih alat yang mengungkapkan identitas pribadi mereka.
-
-
-Yang paling sederhana di antara yang telah saya coba secara pribadi dan masih saya uji adalah [Simple Login] (https://simplelogin.io/).
-
+Yang paling sederhana di antara yang telah saya coba secara pribadi dan masih saya uji adalah [Simple Login](https://simplelogin.io/).
 
 ## Alias
 
+Alias email hanyalah pengganti bagian nama dari alamat email Anda dengan nama fiktif. Bagi pengguna, tidak ada yang berubah; layanan alias meneruskan email ke dan dari alamat email biasa seperti biasa. Setiap orang dapat terus menggunakan kotak masuk mereka seperti biasa, tetapi alih-alih menampilkan nama asli mereka, ia akan menampilkan pengguna yang tidak dapat dikenali. Layanan ini harus efisien, dan sejauh ini, Simple Login telah membuktikannya.
 
-Alias email hanya mengganti bagian _nama.nama_ pada Address email Anda dengan nama fiktif. Bagi pengguna, tidak ada yang berubah; layanan alias meneruskan email ke dan dari Address biasa seperti biasa. Semua orang dapat terus menggunakan kotak masuk mereka seperti biasa, tetapi alih-alih menampilkan nama asli mereka, kotak masuk akan menampilkan pengguna yang tidak dapat dikenali. Layanan ini harus efisien, dan sejauh ini, Simple Login telah terbukti seperti itu.
-
-
-Ketika mengunjungi situs Simple Login untuk pertama kalinya, Anda harus membuat akun (di sini juga!), menggunakan email "resmi" Address. Di sini, Anda harus memasukkan email, kata sandi, dan memecahkan captcha.
-
-
+Saat pertama kali mengunjungi situs Simple Login, Anda harus membuat akun (di sini juga!), menggunakan alamat email "resmi". Di sini, Anda harus memasukkan email, kata sandi, dan memecahkan captcha.
 ![image](assets/it/02.webp)
 
 

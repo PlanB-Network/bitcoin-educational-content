@@ -2791,14 +2791,14 @@ Furthermore, there is no guarantee that Alice will not receive Bob's private key
 
 ![BTC204](assets/fr/196.webp)
 
-To solve these problems and enable exchanges between UTXOs who don't trust each other, we're going to use smart contract systems instead. A smart contract is a program that executes automatically when predefined conditions are met. In our case, this ensures that the exchange of property takes place automatically, without the need for mutual trust.
+To solve these problems and enable exchanges between parties who don't trust each other, we're going to use smart contract systems instead. A smart contract is a program that executes automatically when predefined conditions are met. In our case, this ensures that the exchange of property takes place automatically, without the need for mutual trust.
 
-This can be achieved using HTLC (*Hash Time-Locked Contracts*) or PTLC (*Point Time-Locked Contracts*). These two protocols operate in a similar way, using a time-locking system which ensures that the exchange is either completed successfully or cancelled entirely, thus protecting the integrity of parts' funds. The main difference between HTLC and PTLC is that HTLC uses hashes and preimages to secure the transaction, while PTLC uses Adaptor Signatures.
+This can be achieved using HTLC (*Hash Time-Locked Contracts*) or PTLC (*Point Time-Locked Contracts*). These two protocols operate in a similar way, using a time-locking system which ensures that the exchange is either completed successfully or cancelled entirely, thus protecting the integrity of both parties' funds. The main difference between HTLC and PTLC is that HTLC uses hashes and preimages to secure the transaction, while PTLC uses Adaptor Signatures.
 
 In a coinswap scenario using HTLC or PTLC between Alice and Bob, the exchange takes place securely: either it succeeds and each receives the other's BTC, or it fails and each keeps their own BTC. This makes it impossible for either party to cheat or steal the other's BTC.
 
 > *HTLC is also the mechanism used to securely route payments through the Lightning Network's bidirectional channels*
-The use of Adaptor Signatures is particularly interesting in this context, as it makes it possible to dispense with traditional scripts (a mechanism sometimes referred to as "_scriptless scripts_"). This feature reduces the costs associated with exchange. Another major advantage of Adaptor Signatures is that they do not require the use of a common hash for parts to the transaction, thus avoiding the need to reveal a direct link between them in certain types of exchange.
+The use of Adaptor Signatures is particularly interesting in this context, as it makes it possible to dispense with traditional scripts (a mechanism sometimes referred to as "_scriptless scripts_"). This feature reduces the costs associated with exchange. Another major advantage of Adaptor Signatures is that they do not require the use of a common hash for both parties to the transaction, thus avoiding the need to reveal a direct link between them in certain types of exchange.
 
 ### Adaptor Signatures
 
@@ -2852,7 +2852,7 @@ Note that coinswaps were first proposed by [Gregory Maxwell in October 2013 on B
 
 ### Atomic swap
 
-In a similar way to coinswap, and using the same types of smart contracts, it is also possible to carry out atomic swaps. An atomic swap enables a direct exchange of different cryptocurrencies, such as BTC and XMR, between two users without the need for trust or the intervention of an intermediary. These exchanges are termed "atomic" because they have only two possible outcomes: either the swap is successful and parts are satisfied, or it fails and each retains their original cryptocurrencies, eliminating the need to trust the other party.
+In a similar way to coinswap, and using the same types of smart contracts, it is also possible to carry out atomic swaps. An atomic swap enables a direct exchange of different cryptocurrencies, such as BTC and XMR, between two users without the need for trust or the intervention of an intermediary. These exchanges are termed "atomic" because they have only two possible outcomes: either the swap is successful and both parties are satisfied, or it fails and each retains their original cryptocurrencies, eliminating the need to trust the other party.
 
 ![BTC204](assets/fr/197.webp)
 
@@ -2998,7 +2998,7 @@ The aim of BIP47 is to make it possible to receive a large number of payments wi
 
 A user can therefore share his or her payment code in complete freedom, whether on social networks or on his or her website, without risking any loss of confidentiality, unlike with a conventional recipient address or public key.
 
-To carry out a transaction, parts need a Bitcoin wallet with a BIP47 implementation, such as PayNym on Samurai Wallet or Sparrow Wallet. The joint use of their payment codes creates a secret channel between them. To establish this channel effectively, the issuer must carry out a specific transaction on the Bitcoin blockchain, known as a "notification transaction" (more on this later).
+To carry out a transaction, both parties need a Bitcoin wallet with a BIP47 implementation, such as PayNym on Samurai Wallet or Sparrow Wallet. The joint use of their payment codes creates a secret channel between them. To establish this channel effectively, the issuer must carry out a specific transaction on the Bitcoin blockchain, known as a "notification transaction" (more on this later).
 
 Combining the payment codes of the two users generates shared secrets, which in turn create a large number of unique Bitcoin receiving addresses (exactly 2^32, or around 4 billion). In this way, payments made via BIP47 are not actually addressed to the payment code itself, but rather to classic receipt addresses derived from the payment codes of the users involved.
 
@@ -3186,7 +3186,7 @@ z = g^{ba} \bmod p
 $$
 
 
-- For his UTXO, Bob, having received $A$, also calculates the value of $z$ as follows:
+- From his side, Bob, having received $A$, also calculates the value of $z$ as follows:
 
 $z$ is equal to $A$ raised to the power $b$ modulo $p$:
 
@@ -3279,11 +3279,11 @@ TLS is responsible for the `s` in `https` and the padlock in your browser's addr
 
 ### The notification transaction
 
-As we saw in the previous section, ECDH is a variant of the Diffie-Hellman exchange using key pairs established on an elliptic curve. It's a good thing we already have many key pairs respecting this standard in our Bitcoin wallets! The idea of BIP47 is to use the key pairs of parts' hierarchical deterministic Bitcoin wallets to establish shared, ephemeral secrets between them. BIP47 uses ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) instead.
+As we saw in the previous section, ECDH is a variant of the Diffie-Hellman exchange using key pairs established on an elliptic curve. It's a good thing we already have many key pairs respecting this standard in our Bitcoin wallets! The idea of BIP47 is to use the key pairs of both parties' hierarchical deterministic Bitcoin wallets to establish shared, ephemeral secrets between them. BIP47 uses ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) instead.
 
 ![BTC204](assets/fr/223.webp)
 
-ECDHE is first used in BIP47 to transmit the payment code from the sender to the recipient. This is the famous **notification transaction**. This step is essential, because for BIP47 to work effectively, parts involved (sender and receiver) need to know each other's payment codes. This knowledge enables the derivation of ephemeral public keys and, consequently, the associated blank receiving addresses.
+ECDHE is first used in BIP47 to transmit the payment code from the sender to the recipient. This is the famous **notification transaction**. This step is essential, because for BIP47 to work effectively, parties involved (sender and receiver) need to know each other's payment codes. This knowledge enables the derivation of ephemeral public keys and, consequently, the associated blank receiving addresses.
 
 Prior to this exchange, the sender is logically already aware of the recipient's payment code, having retrieved it off-chain, for example from his or her website, invoice or social networks. However, the recipient is not necessarily aware of the sender's payment code. However, the code must be transmitted to him; otherwise, he won't be able to derive the ephemeral keys needed to identify the addresses where his bitcoins are stored, or access his funds. Although this transmission of the sender's code can technically be carried out off-chain by other means of communication, this poses a problem if the wallet is to be retrieved from the seed only.
 
@@ -3415,7 +3415,7 @@ The most interesting to study is obviously output 0 using `OP_RETURN`. Let's tak
 6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000
 ```
 
-There are several UTXOs to this script. Firstly, the:
+There are several parts to this script. Firstly, the:
 
 ```text
 6a4c

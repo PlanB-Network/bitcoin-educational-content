@@ -22,7 +22,7 @@ Join us to transform your use of Bitcoin and become an informed user, capable of
 +++
 # Introduction
 
-<UTXOId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</UTXOId>
+<partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
 ## Course overview
 
@@ -38,7 +38,7 @@ Bitcoin isn't just about "Number Go Up" and preserving the value of savings. Wit
 
 Bitcoin offers a peaceful escape from the yoke of the state, allowing you to fully enjoy your natural rights, which cannot be challenged by established laws. Thanks to Satoshi Nakamoto's invention, you have the power to enforce respect for your private property and regain the freedom to contract.
 
-However, Bitcoin is not anonymous by default, which can represent a risk for individuals engaged in the counter-economy, UTXOicularly in regions under despotic rule. But this is not the only danger. Since bitcoin is a valuable and incensurable asset, it can be a target for thieves. So protecting your privacy becomes a matter of security too: it can help you prevent hacking and physical assault.
+However, Bitcoin is not anonymous by default, which can represent a risk for individuals engaged in the counter-economy, particularly in regions under despotic rule. But this is not the only danger. Since bitcoin is a valuable and incensurable asset, it can be a target for thieves. So protecting your privacy becomes a matter of security too: it can help you prevent hacking and physical assault.
 
 As we'll see, although the protocol offers certain confidentiality protections in its own right, it's crucial to use additional tools to optimize and defend this confidentiality.
 
@@ -72,7 +72,7 @@ How can we talk about privacy on Bitcoin without mentioning coinjoins? In sectio
 
 **Section 5: Understanding the challenges of other advanced confidentiality techniques**
 
-In the fifth section, we'll take a look at all the other techniques available to protect your privacy on Bitcoin, aUTXO from coinjoin. Over the years, developers have shown remarkable creativity in designing tools dedicated to privacy. We'll look at all these methods, such as payjoin, collaborative transactions, Coin Swap and Atomic Swap, detailing how they work, their objectives and any weaknesses.
+In the fifth section, we'll take a look at all the other techniques available to protect your privacy on Bitcoin, apart from coinjoin. Over the years, developers have shown remarkable creativity in designing tools dedicated to privacy. We'll look at all these methods, such as payjoin, collaborative transactions, Coin Swap and Atomic Swap, detailing how they work, their objectives and any weaknesses.
 
 We'll also look at privacy at the level of the network of nodes and transaction propagation. We'll also discuss the various protocols that have been proposed over the years to enhance user privacy on Bitcoin, including static address protocols.
 
@@ -81,7 +81,7 @@ Ready to explore the intricacies of privacy on Bitcoin? Let's go!
 
 # Definitions and key concepts
 
-<UTXOId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</UTXOId>
+<partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
 ## Bitcoin's UTXO model
 
@@ -94,7 +94,7 @@ Bitcoin is first and foremost a currency, but do you actually know how BTC are r
 
 The Bitcoin protocol is based on the UTXO model, which stands for "Unspent Transaction Output".
 
-This model differs profoundly from traditional banking systems, which rely on a mechanism of accounts and balances to track financial flows. Indeed, in the banking system, individual balances are maintained in accounts attached to an identity. For example, when you buy a baguette from a baker, your bank simply debits the purchase amount from your account, reducing your balance, while the baker's account is credited with the same amount, increasing its balance. In this system, there is no notion of a link between the money entering your account and the money leaving it, aUTXO from transaction records.
+This model differs profoundly from traditional banking systems, which rely on a mechanism of accounts and balances to track financial flows. Indeed, in the banking system, individual balances are maintained in accounts attached to an identity. For example, when you buy a baguette from a baker, your bank simply debits the purchase amount from your account, reducing your balance, while the baker's account is credited with the same amount, increasing its balance. In this system, there is no notion of a link between the money entering your account and the money leaving it, apart from transaction records.
 
 ![BTC204](assets/fr/006.webp)
 
@@ -197,7 +197,7 @@ When a miner succeeds in validating a block, he is authorized to collect these f
 
 ### Creating UTXOs on Bitcoin
 
-If you've followed the previous paragraphs carefully, you'll now know that UTXOs can only be created by consuming other existing UTXOs. In this way, Bitcoin coins form a continuous chain. However, you may be wondering how the first UTXOs in this chain came about. This raises a problem similar to that of the chicken and the egg: where did these original UTXOs come from?
+If you've followed the previous paragraphs carefully, you'll now know that UTXOs can only be created by consuming other existing UTXOs. In this way, Bitcoin coins form a continuous chain. However, you may be wondering how the first parts in this chain came about. This raises a problem similar to that of the chicken and the egg: where did these original UTXOs come from?
 
 The answer is in the **transaction coinbase**.
 
@@ -215,9 +215,9 @@ As for transaction fees, although they also represent newly created BTC, they mu
 
 ### The implications of the UTXO model
 
-First of all, the UTXO model directly influences Bitcoin's transaction fees. Since the capacity of each block is limited, miners favor transactions that offer the best fees in relation to the space they will take up in the block. Indeed, the more UTXOs a transaction includes in its inputs and outputs, the heavier it is, and therefore requires higher fees. This is one of the reasons why we often try to reduce the number of UTXOs in our wallet, which can also affect confidentiality, a subject we'll be tackling in detail in the third UTXO of this course.
+First of all, the UTXO model directly influences Bitcoin's transaction fees. Since the capacity of each block is limited, miners favor transactions that offer the best fees in relation to the space they will take up in the block. Indeed, the more UTXOs a transaction includes in its inputs and outputs, the heavier it is, and therefore requires higher fees. This is one of the reasons why we often try to reduce the number of UTXOs in our wallet, which can also affect confidentiality, a subject we'll be tackling in detail in the third part of this course.
 
-Secondly, as mentioned in the previous sections, Bitcoin coins are essentially a chain of UTXOs. Each transaction thus creates a link between a past UTXO and a future UTXO. UTXOs therefore make it possible to explicitly follow the path of Bitcoins from their creation to their current expenditure. This transparency can be viewed positively, as it enables each user to ascertain the authenticity of the bitcoins received. However, it is also on this principle of traceability and auditability that blockchain analysis is based, a practice designed to compromise your confidentiality. We'll be taking an in-depth look at this practice in the second UTXO of the course.
+Secondly, as mentioned in the previous sections, Bitcoin coins are essentially a chain of UTXOs. Each transaction thus creates a link between a past UTXO and a future UTXO. UTXOs therefore make it possible to explicitly follow the path of Bitcoins from their creation to their current expenditure. This transparency can be viewed positively, as it enables each user to ascertain the authenticity of the bitcoins received. However, it is also on this principle of traceability and auditability that blockchain analysis is based, a practice designed to compromise your confidentiality. We'll be taking an in-depth look at this practice in the second part of the course.
 
 ## Bitcoin's privacy model
 
@@ -234,7 +234,7 @@ That's why we use money to move value in both space and time.
 
 ![BTC204](assets/fr/018.webp)
 
-For coinage to solve this problem, it is essential that the UTXOy providing a good or service is convinced of its ability to spend that sum at a later date. Thus, any rational individual wishing to accept a coin, whether digital or physical, will ensure that it meets two fundamental criteria:
+For coinage to solve this problem, it is essential that the party providing a good or service is convinced of its ability to spend that sum at a later date. Thus, any rational individual wishing to accept a coin, whether digital or physical, will ensure that it meets two fundamental criteria:
 
 
 - The piece must have integrity and authenticity;**
@@ -264,7 +264,7 @@ On Bitcoin, double-spending is prevented in the same way. We seek to confirm the
 
 **The only way to confirm the absence of a transaction is to be aware of all transactions
 
-But unlike the banking model, we don't want to have to trust a central entity on Bitcoin. So all users need to be able to confirm this absence of double spending, without relying on a third UTXOy. So everyone needs to be aware of all Bitcoin transactions. This is why Bitcoin transactions are publicly broadcast on all network nodes and recorded in clear text on the blockchain.
+But unlike the banking model, we don't want to have to trust a central entity on Bitcoin. So all users need to be able to confirm this absence of double spending, without relying on a third party. So everyone needs to be aware of all Bitcoin transactions. This is why Bitcoin transactions are publicly broadcast on all network nodes and recorded in clear text on the blockchain.
 
 It is precisely this public propagation of information that complicates the protection of privacy in Bitcoin. In the traditional banking system, in theory, only the financial institution is aware of the transactions carried out. With Bitcoin, on the other hand, all users are informed of all transactions, via their respective nodes.
 
@@ -274,7 +274,7 @@ In the traditional system, your bank account is linked to your identity. The ban
 
 ![BTC204](assets/fr/022.webp)
 
-For example, your banker knows that you buy your baguette every morning from the local baker, but your neighbor has no knowledge of this transaction. In this way, the flow of information is accessible to the UTXOs concerned, notably the bank, but remains inaccessible to outsiders.
+For example, your banker knows that you buy your baguette every morning from the local baker, but your neighbor has no knowledge of this transaction. In this way, the flow of information is accessible to the parties concerned, notably the bank, but remains inaccessible to outsiders.
 
 ![BTC204](assets/fr/023.webp)
 
@@ -286,11 +286,11 @@ For example, if you buy a baguette from the baker, paying in BTC, your neighbor,
 
 ![BTC204](assets/fr/025.webp)
 
-But since Bitcoin transactions are made public, it is still possible to establish links between them to deduce information about the UTXOs involved. This activity even constitutes a specialty in its own right, known as "blockchain analysis". In the next UTXO of the course, I invite you to explore the fundamentals of blockchain analysis, so that you can understand how your bitcoins are traced and better defend yourself against them.
+But since Bitcoin transactions are made public, it is still possible to establish links between them to deduce information about the parties involved. This activity even constitutes a specialty in its own right, known as "blockchain analysis". In the next part of the course, I invite you to explore the fundamentals of blockchain analysis, so that you can understand how your bitcoins are traced and better defend yourself against them.
 
 # Understanding and protecting against chain analysis
 
-<UTXOId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</UTXOId>
+<partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
 ## What is Bitcoin chain analysis?
 
@@ -321,13 +321,13 @@ One of the aims of blockchain analysis is to group together various activities o
 
 Think back to the previous chapter. I explained why Bitcoin's privacy model was originally based on the separation of user identity from transactions. It would therefore be tempting to think that blockchain analysis is useless, since even if we manage to aggregate onchain activities, we can't associate them with a real identity.
 
-Theoretically, this statement is correct. In the first UTXO of this course, we saw that cryptographic key pairs are used to establish conditions on UTXO. In essence, these key pairs divulge no information about the identity of their holders. So, even if we manage to group together the activities associated with different key pairs, this tells us nothing about the entity behind these activities.
+Theoretically, this statement is correct. In the first part of this course, we saw that cryptographic key pairs are used to establish conditions on UTXO. In essence, these key pairs divulge no information about the identity of their holders. So, even if we manage to group together the activities associated with different key pairs, this tells us nothing about the entity behind these activities.
 
 ![BTC204](assets/fr/028.webp)
 
 However, the practical reality is far more complex. There are a multitude of behaviors that can link a real identity to onchain activity. In analysis, this is called an entry point, and there are a multitude of them.
 
-The most common is KYC (*Know Your Customer*). If you withdraw your Bitcoins from a regulated platform to one of your personal receiving addresses, then some people are able to link your identity to that address. More broadly, an entry point can be any form of interaction between your real life and a Bitcoin transaction. For example, if you publish a receiving address on your social networks, this could be an entry point for analysis. If you make a payment in Bitcoins to your baker, he will be able to associate your face (UTXO of your identity) with a Bitcoin address.
+The most common is KYC (*Know Your Customer*). If you withdraw your Bitcoins from a regulated platform to one of your personal receiving addresses, then some people are able to link your identity to that address. More broadly, an entry point can be any form of interaction between your real life and a Bitcoin transaction. For example, if you publish a receiving address on your social networks, this could be an entry point for analysis. If you make a payment in Bitcoins to your baker, he will be able to associate your face (part of your identity) with a Bitcoin address.
 
 These entry points are virtually unavoidable when using Bitcoin. Although we may seek to restrict their scope, they will always be present. That's why it's crucial to combine methods aimed at preserving your privacy. While maintaining a separation between your real identity and your transactions is an interesting approach, it remains insufficient today. Indeed, if all your onchain activities can be grouped together, then even the smallest entry point is likely to compromise the single layer of confidentiality you've established.
 
@@ -339,7 +339,7 @@ So we also need to be able to cope with blockchain analysis in our use of Bitcoi
 
 ![BTC204](assets/fr/030.webp)
 
-What better way to counter blockchain analysis than to learn about the methods used in it? If you want to know how to improve your privacy on Bitcoin, you need to understand these methods. This will give you a better grasp of techniques such as coinjoin or payjoin (techniques we'll look at in the final UTXOs of the course), and reduce the mistakes you might make.
+What better way to counter blockchain analysis than to learn about the methods used in it? If you want to know how to improve your privacy on Bitcoin, you need to understand these methods. This will give you a better grasp of techniques such as coinjoin or payjoin (techniques we'll look at in the final parts of the course), and reduce the mistakes you might make.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
@@ -362,7 +362,7 @@ These famous heuristics can be grouped into different categories, which we will 
 
 ### Satoshi Nakamoto and chain analysis
 
-The first two chain analysis heuristics were discovered by Satoshi Nakamoto himself. He talks about them in UTXO 10 of Bitcoin's White Paper. They are:
+The first two chain analysis heuristics were discovered by Satoshi Nakamoto himself. He talks about them in part 10 of Bitcoin's White Paper. They are:
 
 
 - cIOH (*Common Input Ownership Heuristic*);
@@ -471,7 +471,7 @@ This model is characterized by the consumption of a few UTXOs as inputs (often j
 
 The interpretation of this model is that we are in the presence of grouped spending. It's a practice that probably reveals a very large economic activity, such as an exchange platform. Grouped spending enables these entities to save costs by combining their expenses in a single transaction.
 
-We can deduce from this model that the UTXO in input comes from a company with a high level of economic activity, and that the UTXOs in output will disperse. Many will belong to the company's customers who have withdrawn bitcoins from the platform. Others may go to UTXOner companies. Finally, there will certainly be one or more changes going back to the issuing company.
+We can deduce from this model that the UTXO in input comes from a company with a high level of economic activity, and that the UTXOs in output will disperse. Many will belong to the company's customers who have withdrawn bitcoins from the platform. Others may go to partner companies. Finally, there will certainly be one or more changes going back to the issuing company.
 
 For example, here's a Bitcoin transaction that adopts the bundled spend pattern (presumably, it's a transaction issued by the Bybit platform):
 
@@ -485,11 +485,11 @@ Source: [Mempool.space](https://mempool.space/tx/8a7288758b6e5d550897beedd13c70b
 
 ### Protocol-specific transactions
 
-Among transaction patterns, we can also identify those that reveal the use of a specific protocol. For example, Whirlpool coinjoins (discussed in UTXO 5) will have an easily identifiable structure that differentiates them from other, more conventional transactions.
+Among transaction patterns, we can also identify those that reveal the use of a specific protocol. For example, Whirlpool coinjoins (discussed in part 5) will have an easily identifiable structure that differentiates them from other, more conventional transactions.
 
 ![BTC204](assets/fr/042.webp)
 
-Analysis of this pattern suggests that we are likely to be in the presence of a collaborative transaction. It is also possible to observe a coinjoin. If this latter hypothesis proves correct, then the number of exits could provide us with a rough estimate of the number of UTXOicipants in the coinjoin.
+Analysis of this pattern suggests that we are likely to be in the presence of a collaborative transaction. It is also possible to observe a coinjoin. If this latter hypothesis proves correct, then the number of exits could provide us with a rough estimate of the number of participants in the coinjoin.
 
 For example, here is a Bitcoin transaction that adopts the coinjoin collaborative transaction pattern:
 
@@ -632,7 +632,7 @@ The interpretation of the reuse of an address is that all UTXOs blocked on that 
 
 ![BTC204](assets/fr/054.webp)
 
-As explained in the introduction to UTXO 3, this heuristic was discovered by Satoshi Nakamoto himself. In the White Paper, he mentions a solution to help users avoid generating it, which is simply to use a blank address for each new transaction:
+As explained in the introduction to part 3, this heuristic was discovered by Satoshi Nakamoto himself. In the White Paper, he mentions a solution to help users avoid generating it, which is simply to use a blank address for each new transaction:
 
 "_As an additional firewall, a new key pair could be used for each transaction to keep them unlinked to a common owner._"
 
@@ -654,7 +654,7 @@ Source: [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuh
 
 In addition to address reuse, there are many other heuristics that allow you to link actions to the same wallet or address cluster.
 
-Firstly, an analyst can look for similarities in script usage. For example, certain minority scripts such as multisig may be easier to spot than SegWit V0 scripts. The larger the group we're hiding in, the harder it is to spot us. This is one of the reasons why, on good Coinjoin protocols, all UTXOicipants use exactly the same type of script.
+Firstly, an analyst can look for similarities in script usage. For example, certain minority scripts such as multisig may be easier to spot than SegWit V0 scripts. The larger the group we're hiding in, the harder it is to spot us. This is one of the reasons why, on good Coinjoin protocols, all participants use exactly the same type of script.
 
 More generally, an analyst can also focus on the characteristic fingerprints of a wallet. These are use-specific processes that can be identified with a view to exploiting them as tracing heuristics. In other words, if we observe an accumulation of the same internal characteristics on transactions attributed to the traced entity, we can attempt to identify these same characteristics on other transactions.
 
@@ -662,7 +662,7 @@ For example, we'll be able to identify that the traced user systematically sends
 
 ![BTC204](assets/fr/057.webp)
 
-As [@LaurentMT](https://twitter.com/LaurentMT) points out in [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (a French-language podcast), the usefulness of wallet fingerprints in chain analysis is increasing significantly over time. Indeed, the growing number of script types and the increasingly progressive deployment of these new features by wallet software accentuate the differences. In some cases, it is even possible to identify the exact software used by the entity being tracked. It is therefore important to understand that the study of wallet footprints is UTXOicularly relevant for recent transactions, rather than those initiated in the early 2010s.
+As [@LaurentMT](https://twitter.com/LaurentMT) points out in [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (a French-language podcast), the usefulness of wallet fingerprints in chain analysis is increasing significantly over time. Indeed, the growing number of script types and the increasingly progressive deployment of these new features by wallet software accentuate the differences. In some cases, it is even possible to identify the exact software used by the entity being tracked. It is therefore important to understand that the study of wallet footprints is particularly relevant for recent transactions, rather than those initiated in the early 2010s.
 
 To sum up, a footprint can be any specific practice, performed automatically by the wallet or manually by the user, that we can find on other transactions to help us in our analysis.
 
@@ -680,13 +680,13 @@ On the other hand, if the transaction doesn't fit into any known collaborative t
 
 ![BTC204](assets/fr/060.webp)
 
-CIOH was discovered by Satoshi Nakamoto. He talks about it in UTXO 10 of the White Paper:
+CIOH was discovered by Satoshi Nakamoto. He talks about it in part 10 of the White Paper:
 
 "_[...] linking is inevitable with multi-entry transactions, which necessarily reveal that their entries were held by the same owner. The risk is that if the owner of a key is revealed, the links may reveal other transactions that belonged to the same owner._"
 
 ![BTC204](assets/fr/061.webp)
 
-It's UTXOicularly fascinating to note that Satoshi Nakamoto, even before the official launch of Bitcoin, had already identified the two main privacy vulnerabilities for users, namely CIOH and address reuse. Such foresight is quite remarkable, as these two heuristics remain, even today, the most useful in blockchain analysis.
+It's particularly fascinating to note that Satoshi Nakamoto, even before the official launch of Bitcoin, had already identified the two main privacy vulnerabilities for users, namely CIOH and address reuse. Such foresight is quite remarkable, as these two heuristics remain, even today, the most useful in blockchain analysis.
 
 To give you an example, here is a transaction on which we can probably apply CIOH:
 
@@ -702,7 +702,7 @@ Source: [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c88
 
 Of course, chain analysis is not limited exclusively to onchain data. Any data from a previous analysis or available on the Internet can also be used to refine an analysis.
 
-For example, if we observe that traced transactions are systematically broadcast from the same Bitcoin node, and we manage to identify its IP address, we may be able to identify other transactions from the same entity, as well as determining UTXO of the issuer's identity. Although this practice is not easily achievable, as it requires the operation of numerous nodes, it may be employed by some companies specializing in blockchain analysis.
+For example, if we observe that traced transactions are systematically broadcast from the same Bitcoin node, and we manage to identify its IP address, we may be able to identify other transactions from the same entity, as well as determining part of the issuer's identity. Although this practice is not easily achievable, as it requires the operation of numerous nodes, it may be employed by some companies specializing in blockchain analysis.
 
 The analyst also has the option of relying on analyses previously made open-source, or on his own previous analyses. Perhaps we'll be able to find an output that points to a cluster of addresses we've already identified. Sometimes, it's also possible to rely on outputs that point to an exchange platform, as the addresses of these companies are generally known.
 
@@ -844,7 +844,7 @@ The model for this transaction is the simple payment model. If we study only its
 
 ***Exercise 2:***
 
-The model for this transaction is that of grouped spending. This model probably reveals a large-scale economic activity, such as an exchange platform. We can deduce that the input UTXO comes from a company with a high level of economic activity, and that the output UTXOs will be scattered. Some will belong to company customers who have withdrawn their bitcoins to self-custody wallets. Others may go to UTXOner companies. Finally, there will undoubtedly be some change that will go back to the issuing company.
+The model for this transaction is that of grouped spending. This model probably reveals a large-scale economic activity, such as an exchange platform. We can deduce that the input UTXO comes from a company with a high level of economic activity, and that the output UTXOs will be scattered. Some will belong to company customers who have withdrawn their bitcoins to self-custody wallets. Others may go to partner companies. Finally, there will undoubtedly be some change that will go back to the issuing company.
 
 ***Exercise 3:***
 
@@ -999,7 +999,7 @@ An analysis of these schedules shows that UTC-7 and UTC-8 are consistent with a 
 
 ![BTC204](assets/fr/066.webp)
 
-The UTC-7 time zone is UTXOicularly relevant in summer, as it includes states and regions such as:
+The UTC-7 time zone is particularly relevant in summer, as it includes states and regions such as:
 
 
 - California (with cities such as Los Angeles, San Francisco, and San Diego);
@@ -1016,15 +1016,15 @@ Analysis of this transaction reveals 5 inputs and a single output, suggesting co
 
 ___
 
-*To write this UTXO 3 on chain analysis, I drew on the following resources:*
+*To write this part 3 on chain analysis, I drew on the following resources:*
 
 
-- The series of four articles entitled: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-UTXO-1-4-8177a40a5923), produced by Samourai Wallet in 2021;*
+- The series of four articles entitled: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produced by Samourai Wallet in 2021;*
 - The various reports from [OXT Research](https://medium.com/oxt-research), as well as their free blockchain analysis tool (no longer available for the moment following the arrest of the founders of Samourai Wallet);*
 - More broadly, my knowledge comes from various tweets and content from [@LaurentMT](https://twitter.com/LaurentMT) and [@ErgoBTC](https://twitter.com/ErgoBTC);*
-- The [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) in which I UTXOicipated in the company of [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) and [@LaurentMT](https://twitter.com/LaurentMT).*
+- The [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) in which I participated in the company of [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) and [@LaurentMT](https://twitter.com/LaurentMT).*
 
-*I'd like to thank their authors, developers and producers. Thanks also to the proofreaders who meticulously corrected the article on which this UTXO 3 is based, and gave me their expert advice:*
+*I'd like to thank their authors, developers and producers. Thanks also to the proofreaders who meticulously corrected the article on which this part 3 is based, and gave me their expert advice:*
 
 
 - [Gilles Cadignan](https://twitter.com/gillesCadignan);*
@@ -1032,16 +1032,16 @@ ___
 
 # Mastering best practices to protect your privacy
 
-<UTXOId>9bd04b63-f1af-4e50-9061-6bc90009df68</UTXOId>
+<partId>9bd04b63-f1af-4e50-9061-6bc90009df68</partId>
 
 ## Address reuse
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
 
-Having studied the techniques that can break your confidentiality on Bitcoin, in this third UTXO we'll now look at the best practices to adopt to protect yourself. The aim of this UTXO is not to explore methods of improving confidentiality, a subject which will be dealt with later, but rather to understand how to interact correctly with Bitcoin to retain the confidentiality it naturally offers, without resorting to additional techniques.
+Having studied the techniques that can break your confidentiality on Bitcoin, in this third part we'll now look at the best practices to adopt to protect yourself. The aim of this part is not to explore methods of improving confidentiality, a subject which will be dealt with later, but rather to understand how to interact correctly with Bitcoin to retain the confidentiality it naturally offers, without resorting to additional techniques.
 
-Obviously, to begin this third UTXO, we're going to talk about address reuse. This phenomenon is the main threat to user confidentiality. This chapter is surely the most important of the entire course.
+Obviously, to begin this third part, we're going to talk about address reuse. This phenomenon is the main threat to user confidentiality. This chapter is surely the most important of the entire course.
 
 ### What's a receiving address?
 
@@ -1084,7 +1084,7 @@ The construction of reception addresses also depends on the script model chosen:
 
 ![BTC204](assets/fr/068.webp)
 
-Addresses displayed on your wallet software also include an HRP (*Human-Readable UTXO*), typically `bc` for post-SegWit addresses, a `1` separator, and a version number `q` for SegWit V0 and `p` for Taproot/SegWit V1. A checksum is also added to guarantee the integrity and validity of the address during transmission.
+Addresses displayed on your wallet software also include an HRP (*Human-Readable part*), typically `bc` for post-SegWit addresses, a `1` separator, and a version number `q` for SegWit V0 and `p` for Taproot/SegWit V1. A checksum is also added to guarantee the integrity and validity of the address during transmission.
 
 Finally, the addresses are put into a standard format:
 
@@ -1157,7 +1157,7 @@ Thanks to BIP32, modern wallets are now deterministic and hierarchical. This mea
 This is why, when you press the "*receive*" button in your wallet software, an unused receiving address is suggested every time. After receiving bitcoins at this address, the software automatically suggests a new one.
 
 > *PS: Recently, some wallet software programs have announced their intention to stop generating blank addresses, fearing that this will be perceived as a form of money laundering by the authorities. If your software is one of these, I strongly advise you to replace it immediately, as this is not acceptable to the user.*
-If you need a static identifier to receive payments, such as donations, it's not advisable to use a classic Bitcoin address because of the risk of reuse. Instead, use a Lightning address, or opt for a static onchain payment identifier, such as BIP47 or Silent Payments. These protocols are explained in detail in UTXO 6 of this course.
+If you need a static identifier to receive payments, such as donations, it's not advisable to use a classic Bitcoin address because of the risk of reuse. Instead, use a Lightning address, or opt for a static onchain payment identifier, such as BIP47 or Silent Payments. These protocols are explained in detail in part 6 of this course.
 
 ## Labeling and checking UTXOs
 
@@ -1223,10 +1223,10 @@ Finally, it's not mandatory to put a date on a label. Most wallet software alrea
 When you perform a transaction, the coin control lets you specifically choose which UTXOs to consume as inputs to satisfy the payment output. There are two aspects to this choice:
 
 
-- The possibility for the recipient of the payment to link UTXO of your identity to the UTXOs used in inputs;
+- The possibility for the recipient of the payment to link part of your identity to the UTXOs used in inputs;
 - The ability of an external observer to establish links between all the UTXOs consumed as inputs.
 
-To illustrate the first point, let's take a concrete example. Suppose you buy a baguette in bitcoins from your baker. You use one or more UTXOs that you hold as inputs to meet at least the price of the baguette in outputs, as well as the transaction fees. Your baker could then potentially associate your face, or any other UTXO of your identity that he knows, with the coins used as inputs. Knowing the existence of this link, you might prefer to choose a specific UTXO rather than another when paying.
+To illustrate the first point, let's take a concrete example. Suppose you buy a baguette in bitcoins from your baker. You use one or more UTXOs that you hold as inputs to meet at least the price of the baguette in outputs, as well as the transaction fees. Your baker could then potentially associate your face, or any other part of your identity that he knows, with the coins used as inputs. Knowing the existence of this link, you might prefer to choose a specific UTXO rather than another when paying.
 
 ![BTC204](assets/fr/074.webp)
 
@@ -1293,13 +1293,13 @@ So, if you don't take other steps to limit the aggregation of your activities on
 
 To illustrate this with a comparison, it's as if your banker at *Bank X* not only had access to all your transactions with *Bank X*, but could also observe your transactions with *Bank Y* and all your cash transactions.
 
-Remember from the first UTXO of this course: Bitcoin's confidentiality model, as conceived by Satoshi Nakamoto, is based on the separation between the user's identity and his key pairs. Although this layer of confidentiality is no longer sufficient today, it is still prudent to limit its degradation as much as possible.
+Remember from the first part of this course: Bitcoin's confidentiality model, as conceived by Satoshi Nakamoto, is based on the separation between the user's identity and his key pairs. Although this layer of confidentiality is no longer sufficient today, it is still prudent to limit its degradation as much as possible.
 
 ### Exposure to state surveillance
 
 The second major problem with KYC is that it reveals to the state that you have owned bitcoin at some point in time. When you buy bitcoins via a regulated actor, it becomes possible for the state to know about this possession. At the moment, this may seem trivial, but it's important to remember that your country's political and economic future is not in your hands.
 
-Firstly, the state can quickly adopt an authoritarian stance. History is full of examples where policies have changed abruptly. Today, in Europe, Bitcoiners can write articles about Bitcoin, take UTXO in conferences, and manage their wallets in self-custody. But who can say what tomorrow holds? If Bitcoin suddenly becomes public enemy number one, being associated with it in government files could prove problematic.
+Firstly, the state can quickly adopt an authoritarian stance. History is full of examples where policies have changed abruptly. Today, in Europe, Bitcoiners can write articles about Bitcoin, take part in conferences, and manage their wallets in self-custody. But who can say what tomorrow holds? If Bitcoin suddenly becomes public enemy number one, being associated with it in government files could prove problematic.
 
 Then, in the face of severe economic crises, the state might consider seizing bitcoins held by citizens. Perhaps tomorrow, bitcoiners will be perceived as crisis profiteers, and will be taxed excessively for their capital gains in the face of fiat currency devaluation.
 
@@ -1343,7 +1343,7 @@ I'm sometimes asked whether it's possible to "go back" after performing a KYC, a
 
 When it comes to the risk of tracing your transactions, the use of coinjoin is a solution. We'll look at this method in detail later in the course, but you should know that coinjoin enables you to break the history of a coin and prevent it from being traced past-present and present-past. Even for BTC obtained via a regulated platform, this technique can prevent their traceability.
 
-However, coinjoin does not erase the second risk associated with KYC: the fact that the state may be informed of your possession of bitcoins. Indeed, even if your coins are no longer traceable, the State, depending on the jurisdiction, may have access to your crypto-asset transfer declarations. As this risk is not technical, but administrative, there are no Bitcoin-specific solutions to eliminate it, aUTXO from not exposing yourself to KYC in the first place. The only legal approach to mitigating this risk is to sell on regulated platforms your Bitcoins acquired via regulated platforms, then repurchase them via KYC-free means. By selling and declaring the transfer, the authorities should see that you no longer own them.
+However, coinjoin does not erase the second risk associated with KYC: the fact that the state may be informed of your possession of bitcoins. Indeed, even if your coins are no longer traceable, the State, depending on the jurisdiction, may have access to your crypto-asset transfer declarations. As this risk is not technical, but administrative, there are no Bitcoin-specific solutions to eliminate it, apart from not exposing yourself to KYC in the first place. The only legal approach to mitigating this risk is to sell on regulated platforms your Bitcoins acquired via regulated platforms, then repurchase them via KYC-free means. By selling and declaring the transfer, the authorities should see that you no longer own them.
 
 As for the risk of leaking your personal data and identity documents, this is a danger external to Bitcoin, and there is no technical solution to avoid it. Once your data has been revealed, it's difficult to undo the operation. You can try to close your account on the platform, but this does not guarantee the deletion of your KYC data, especially when identity verification is outsourced. Verification of complete deletion of your information is impossible. There is therefore no solution to completely prevent this risk and ensure that it no longer exists.
 
@@ -1357,11 +1357,11 @@ For example, if you buy bitcoins on a regulated platform in Switzerland, KYC is 
 
 ![BTC204](assets/fr/081.webp)
 
-However, avoiding regulated platforms and opting for P2P acquisition methods does not totally eliminate the risk of key identification, but merely reduces it. Let's take the example of a purchase on Bisq or another P2P platform. To pay your counterUTXOy, you'll probably use your bank account. If the authorities question the person you've traded with and ask for your name, we're back to risks 1 and 2. Although these risks are much lower than when buying on a platform without KYC, and even lower than when buying with KYC, they are still present to a lesser extent.
+However, avoiding regulated platforms and opting for P2P acquisition methods does not totally eliminate the risk of key identification, but merely reduces it. Let's take the example of a purchase on Bisq or another P2P platform. To pay your counterparty, you'll probably use your bank account. If the authorities question the person you've traded with and ask for your name, we're back to risks 1 and 2. Although these risks are much lower than when buying on a platform without KYC, and even lower than when buying with KYC, they are still present to a lesser extent.
 
 ![BTC204](assets/fr/082.webp)
 
-Finally, even if you acquire your bitcoins through a physical exchange for cash, you're not totally anonymous. The person you exchanged with has seen your face, which is UTXO of your identity. Although minimal in this example, there is still a possibility of key identification.
+Finally, even if you acquire your bitcoins through a physical exchange for cash, you're not totally anonymous. The person you exchanged with has seen your face, which is part of your identity. Although minimal in this example, there is still a possibility of key identification.
 
 ![BTC204](assets/fr/083.webp)
 
@@ -1380,11 +1380,11 @@ As we have seen, the best method in terms of confidentiality remains P2P (person
 
 ![BTC204](assets/fr/084.webp)
 
-Nevertheless, there are risks to personal security. The main danger lies in the fact that, during the exchange, the counterUTXOy will know that you are holding a large sum of money, either in cash or in bitcoins. This information can attract the attention of malicious persons. Indeed, it's generally advisable to be discreet about your bitcoin holdings. This advice could also be applied to cash. However, when exchanging in person, it's inevitable to reveal that you own bitcoins, and this may attract unwelcome attention.
+Nevertheless, there are risks to personal security. The main danger lies in the fact that, during the exchange, the counterparty will know that you are holding a large sum of money, either in cash or in bitcoins. This information can attract the attention of malicious persons. Indeed, it's generally advisable to be discreet about your bitcoin holdings. This advice could also be applied to cash. However, when exchanging in person, it's inevitable to reveal that you own bitcoins, and this may attract unwelcome attention.
 
 ![BTC204](assets/fr/085.webp)
 
-To limit this risk, I'd advise you to favor cash transactions with trusted individuals, such as family members or close friends. Alternatively, you could also consider trading at [local Bitcoin meetups](https://btcmap.org/communities/map), after attending a few times. This will allow you to get to know the other UTXOicipants better and not be alone when physically exchanging. However, it's important to recognize that P2P cash exchanges inherently carry risks to your personal security that don't exist when buying via a regulated platform and your bank account.
+To limit this risk, I'd advise you to favor cash transactions with trusted individuals, such as family members or close friends. Alternatively, you could also consider trading at [local Bitcoin meetups](https://btcmap.org/communities/map), after attending a few times. This will allow you to get to know the other participants better and not be alone when physically exchanging. However, it's important to recognize that P2P cash exchanges inherently carry risks to your personal security that don't exist when buying via a regulated platform and your bank account.
 
 What's more, depending on where you live, transporting and storing large sums of money can be risky, whether it's bitcoin or cash.
 
@@ -1400,7 +1400,7 @@ A less risky alternative in terms of personal security is to carry out P2P excha
 
 ![BTC204](assets/fr/087.webp)
 
-This approach avoids many of the risks associated with cash transactions. However, the risk of the counterUTXOy defaulting on an online exchange is greater. Indeed, in a physical exchange, if you hand over money to the seller who doesn't send you the bitcoins in return, you can immediately call him to account, since he's standing in front of you. Online, on the other hand, it's often impossible to track down someone who has stolen from you.
+This approach avoids many of the risks associated with cash transactions. However, the risk of the counterparty defaulting on an online exchange is greater. Indeed, in a physical exchange, if you hand over money to the seller who doesn't send you the bitcoins in return, you can immediately call him to account, since he's standing in front of you. Online, on the other hand, it's often impossible to track down someone who has stolen from you.
 
 ![BTC204](assets/fr/088.webp)
 
@@ -1412,7 +1412,7 @@ In terms of personal security, this method of purchase is considerably safer tha
 
 ![BTC204](assets/fr/090.webp)
 
-Once again, I wouldn't recommend making too many large trades in a single transaction on these platforms. By splitting up your transactions, you spread the risk of counterUTXOy theft.
+Once again, I wouldn't recommend making too many large trades in a single transaction on these platforms. By splitting up your transactions, you spread the risk of counterparty theft.
 
 Once again, another disadvantage of P2P purchases is that the price is often higher than that observed on regulated platforms. Sellers often charge a mark-up ranging from 1% to sometimes more than 10%. There are several reasons for this price difference. Firstly, this is a common practice among P2P sellers that has become established over time. Secondly, sellers have fees associated with the transaction to send the funds to the buyer. There is also an increased risk of theft in P2P sales compared to platform transactions, which justifies compensation for the risk taken. Finally, the extra cost may be linked to the demand and quality of the exchange in terms of confidentiality. As a buyer, the gain in confidentiality has a price which is reflected in the mark-up applied by the seller. Some bitcoiners also believe that the mark-up price of BTC bought on P2P reflects its true price, and argue that the lower prices on regulated platforms are the result of a compromise on the confidentiality of your personal data.
 
@@ -1450,7 +1450,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 
 ### Regulated platforms without KYC
 
-Depending on the country you live in, you may have access to regulated platforms that don't require KYC procedures to buy or sell bitcoins. In Switzerland, for example, you coukd previously use [Relai](https://relai.app/) and [MtPelerin](https://www.mtpelerin.com/), which now offer its services under KYC regulations.
+Depending on the country you live in, you may have access to regulated platforms that don't require KYC procedures to buy or sell bitcoins. In Switzerland, for example, you could previously use [Relai](https://relai.app/) and [MtPelerin](https://www.mtpelerin.com/), which now offer its services under KYC regulations.
 
 -> See our tutorial on Relai.
 
@@ -1587,8 +1587,8 @@ Owning your bitcoins in self-custody is great, but using your own full node is e
 
 
 - Resistance to censorship**: Your transactions cannot be blocked by anyone;
-- Independence from third UTXOs**: You no longer depend on any external service to verify blockchain data;
-- Active UTXOicipation**: You can define your own validation rules and take UTXO directly in the consensus;
+- Independence from third parties**: You no longer depend on any external service to verify blockchain data;
+- Active participation**: You can define your own validation rules and take part directly in the consensus;
 - Network contribution**: By running a node, you help strengthen and distribute the Bitcoin network;
 - Technical education**: Managing a full node is a great way to deepen your technical knowledge of Bitcoin.
 
@@ -1596,13 +1596,13 @@ In addition to these benefits, using a full node also improves your confidential
 
 ![BTC204](assets/fr/099.webp)
 
-If you don't have your own Bitcoin node, you'll be forced to use a third-UTXOy one, such as the one offered by your wallet software provider. In addition to broadcasting transactions, your wallet requires access to various information such as pending transactions, balances associated with your addresses and the number of confirmations for your transactions. To access all this data, you need to query a node.
+If you don't have your own Bitcoin node, you'll be forced to use a third-party one, such as the one offered by your wallet software provider. In addition to broadcasting transactions, your wallet requires access to various information such as pending transactions, balances associated with your addresses and the number of confirmations for your transactions. To access all this data, you need to query a node.
 
 ![BTC204](assets/fr/100.webp)
 
-The main risk when you're not using your own Bitcoin node is that the operator of the third-UTXOy node could observe your activities on the blockchain, or even share this information with other entities. To limit this risk, an intermediate solution is to use wallet software that masks your connections via Tor. This can reduce the exposure of your data. However, the optimal solution is to have your own Bitcoin node and use it to broadcast your transactions. Of course, you'll also need to be careful not to leak any information through your node, but that's another subject we'll look at in later sections.
+The main risk when you're not using your own Bitcoin node is that the operator of the third-party node could observe your activities on the blockchain, or even share this information with other entities. To limit this risk, an intermediate solution is to use wallet software that masks your connections via Tor. This can reduce the exposure of your data. However, the optimal solution is to have your own Bitcoin node and use it to broadcast your transactions. Of course, you'll also need to be careful not to leak any information through your node, but that's another subject we'll look at in later sections.
 
-Beyond the obvious advantage for your privacy, having your own full node also assures you of the veracity of data on the blockchain, protects you against censorship and allows you to actively UTXOicipate in Bitcoin's governance. By using your own node, you contribute your economic weight to the chain of your choice, which is important during conflicts within the community, such as during the Blocksize War from 2015 to 2017 for example. In the event of a fork, using a third-UTXOy node could lead you to support a chain you don't want to favor, as the node operator makes the choice for you.
+Beyond the obvious advantage for your privacy, having your own full node also assures you of the veracity of data on the blockchain, protects you against censorship and allows you to actively participate in Bitcoin's governance. By using your own node, you contribute your economic weight to the chain of your choice, which is important during conflicts within the community, such as during the Blocksize War from 2015 to 2017 for example. In the event of a fork, using a third-party node could lead you to support a chain you don't want to favor, as the node operator makes the choice for you.
 
 As you can see, in the interests of confidentiality and individual sovereignty, it's essential to run and use your own full node!
 
@@ -1616,7 +1616,7 @@ Generally speaking, it's wiser to opt for the most recent scripting standard, pr
 
 ![BTC204](assets/fr/101.webp)
 
-Source: [txstats.com](https://txstats.com/d/000000054/utxo-set-reUTXOition-by-output-type)
+Source: [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
 Another tip for preserving your confidentiality is to try to bypass internal transaction heuristics. For example, when making a payment, you can try to avoid creating an output with a round amount, as this could signal that the other output represents the change. If you need to send 100 k sats to a friend, consider transferring a slightly higher amount to escape this heuristic. Similarly, try not to create any change outputs that are disproportionately high in relation to the payment made, as this could also reveal which of the outputs represents the change.
 
@@ -1628,14 +1628,14 @@ In addition to all these good practices to be adopted on a daily basis, there ar
 
 # Understanding coinjoin transactions
 
-<UTXOId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</UTXOId>
+<partId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</partId>
 
 ## What's a coinjoin transaction?
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
 
-Having studied the fundamentals of privacy protection, we're now going to look at more sophisticated techniques aimed at actively defending your confidentiality, in UTXOicular by unbundling your bitcoin history. In the next UTXO, we'll be looking at a whole host of little techniques, but first, I'd like to tell you about coinjoin.
+Having studied the fundamentals of privacy protection, we're now going to look at more sophisticated techniques aimed at actively defending your confidentiality, in particular by unbundling your bitcoin history. In the next UTXO, we'll be looking at a whole host of little techniques, but first, I'd like to tell you about coinjoin.
 
 Coinjoin is often considered the most effective method of protecting Bitcoin users' privacy. But what exactly is a coinjoin transaction? Let's find out.
 
@@ -1643,7 +1643,7 @@ Coinjoin is often considered the most effective method of protecting Bitcoin use
 
 Coinjoin is a technique for breaking bitcoin tracking on the blockchain. It is based on a collaborative transaction with a specific structure of the same name: the coinjoin transaction.
 
-As we saw in the first UTXOs of this course, Bitcoin transactions are known to all users via their node. It is therefore easy to check the electronic signature chain of each coin and observe its history. This means that all users can attempt to analyze the transactions of other users. As a result, anonymity at transaction level is impossible. However, anonymity is preserved at the level of individual identification. Unlike the conventional banking system, where each account is linked to a personal identity, on Bitcoin, funds are associated with cryptographic key pairs (or scripts), offering users a form of pseudonymity behind cryptographic identifiers.
+As we saw in the first parts of this course, Bitcoin transactions are known to all users via their node. It is therefore easy to check the electronic signature chain of each coin and observe its history. This means that all users can attempt to analyze the transactions of other users. As a result, anonymity at transaction level is impossible. However, anonymity is preserved at the level of individual identification. Unlike the conventional banking system, where each account is linked to a personal identity, on Bitcoin, funds are associated with cryptographic key pairs (or scripts), offering users a form of pseudonymity behind cryptographic identifiers.
 
 ![BTC204](assets/fr/103.webp)
 
@@ -1714,7 +1714,7 @@ In the first example, we saw how the coinjoin can protect a room's privacy in re
 
 Coinjoins are sometimes described as "mixers", a term that some bitcoiners reject, fearing that it could be confused with custodial mixers. I believe, however, that this apprehension is ill-founded, since, in a mathematical context, the coinjoin embodies precisely the concept of mixing.
 
-In the general field of mathematics, mixing refers to the property of a dynamical system where, after a certain period of time, all portions of the initial space can theoretically become mixed with any other portion. Mixing implies that the position of a UTXOicle or the state of a system evolves in such a way that its future distribution is independent of its initial distribution, thus reaching a state where the characteristics of the initial state are uniformly distributed throughout the system's space. This is exactly what happens in a coinjoin with bitcoins. So, in my opinion, coinjoin is truly a coin mixing method.
+In the general field of mathematics, mixing refers to the property of a dynamical system where, after a certain period of time, all portions of the initial space can theoretically become mixed with any other portion. Mixing implies that the position of a particle or the state of a system evolves in such a way that its future distribution is independent of its initial distribution, thus reaching a state where the characteristics of the initial state are uniformly distributed throughout the system's space. This is exactly what happens in a coinjoin with bitcoins. So, in my opinion, coinjoin is truly a coin mixing method.
 
 ![BTC204](assets/fr/114.webp)
 
@@ -1726,14 +1726,14 @@ On the other hand, it's important to distinguish coinjoin from shufflers. A shuf
 
 ![BTC204](assets/fr/115.webp)
 
-Today's users therefore prefer coinjoin, as it allows them to retain total control over their funds throughout the process. Coinjoin UTXOicipants run no risk of having their bitcoins stolen by the other UTXOs involved. Let's take a look at how all this is possible in the next chapter.
+Today's users therefore prefer coinjoin, as it allows them to retain total control over their funds throughout the process. Coinjoin participants run no risk of having their bitcoins stolen by the other UTXOs involved. Let's take a look at how all this is possible in the next chapter.
 
 ## Zerolink and chaumian coinjoins
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
 
-The privacy provided by a coinjoin is earned by the size of the group in which our piece is hidden. This means finding as many UTXOicipants as possible. It's perfectly possible to create a coinjoin manually, with users we've found ourselves, but this is a complex process, and won't win you any big anonsets.
+The privacy provided by a coinjoin is earned by the size of the group in which our piece is hidden. This means finding as many participants as possible. It's perfectly possible to create a coinjoin manually, with users we've found ourselves, but this is a complex process, and won't win you any big anonsets.
 
 This is why coinjoin coordinators have developed on Bitcoin. Their role is to put the various users in touch with each other and transmit the information needed to complete the collaborative transaction.
 
@@ -1757,7 +1757,7 @@ Chaum's blind signatures can therefore certify the authenticity of a document wi
 
 So-called "Chaumian" coinjoins combine the use of Tor and David Chaum's blind signatures to ensure that the coordinator can't know which output belongs to which user.
 
-The coinjoin transaction construction process involves 3 main stages: input registration, output registration and transaction signature. Let's look at this process through the example of Alice, one of the coinjoin UTXOicipants. All the other UTXOicipants follow the same steps as Alice, each on their own.
+The coinjoin transaction construction process involves 3 main stages: input registration, output registration and transaction signature. Let's look at this process through the example of Alice, one of the coinjoin participants. All the other participants follow the same steps as Alice, each on their own.
 
 **Step 1: Input registration
 
@@ -1786,31 +1786,31 @@ The coinjoin transaction construction process involves 3 main stages: input regi
 **Step 3: Signing the transaction**
 
 
-- In the same way, the coordinator retrieves unmasked outputs from all UTXOicipants. Thanks to the associated signatures, he can check that each anonymously submitted output has been signed by his private key beforehand, thus guaranteeing their legitimacy. He is then ready to build the coinjoin transaction and sends it to the UTXOicipants for signature:
+- In the same way, the coordinator retrieves unmasked outputs from all participants. Thanks to the associated signatures, he can check that each anonymously submitted output has been signed by his private key beforehand, thus guaranteeing their legitimacy. He is then ready to build the coinjoin transaction and sends it to the participants for signature:
 
 ![BTC204](assets/fr/122.webp)
 
 
-- Alice, like the other UTXOicipants, checks that her input and output are correctly included in the transaction constructed by the coordinator. If everything is satisfactory, she sends the signature that unlocks her input script to the coordinator:
+- Alice, like the other participants, checks that her input and output are correctly included in the transaction constructed by the coordinator. If everything is satisfactory, she sends the signature that unlocks her input script to the coordinator:
 
 ![BTC204](assets/fr/123.webp)
 
 
-- After collecting signatures from all coinjoin UTXOicipants, the coordinator can broadcast the transaction on the Bitcoin network, so that it can be added to a block.
+- After collecting signatures from all coinjoin participants, the coordinator can broadcast the transaction on the Bitcoin network, so that it can be added to a block.
 
-In this system, the coordinator is unable to link an input to a specific output. What's more, he can't appropriate UTXOicipants' funds, as he never has access to the private keys needed to unlock their UTXOs. Throughout the process, until the end of step 3, he also has no access to the signatures. When Alice and the other UTXOicipants sign the global transaction, after checking that everything is correct, the coordinator can no longer modify the transaction, including the outputs, without invalidating it. This prevents the coordinator from stealing bitcoins.
+In this system, the coordinator is unable to link an input to a specific output. What's more, he can't appropriate participants' funds, as he never has access to the private keys needed to unlock their UTXOs. Throughout the process, until the end of step 3, he also has no access to the signatures. When Alice and the other participants sign the global transaction, after checking that everything is correct, the coordinator can no longer modify the transaction, including the outputs, without invalidating it. This prevents the coordinator from stealing bitcoins.
 
-Finally, when registering his output in the transaction, the coinjoin user wishes to have guarantees similar to those of a citizen voting in an election. There is a duality between the public and private aspects of these actions. On the one hand, there's what you want to keep private: for the voter, he doesn't want his ballot to be linked to his identity; for the coinjoin user, he doesn't want his output to be associated with his input. Indeed, if the coordinator, or any other UTXOy, manages to establish a link between an input and an output, the coinjoin loses all interest. As explained above, the coinjoin must function as a break in the history of a coin. This stop occurs precisely because of the impossibility of associating a specific input with a specific output in the coinjoin transaction (prospective anonset) and vice versa (retrospective anonset).
+Finally, when registering his output in the transaction, the coinjoin user wishes to have guarantees similar to those of a citizen voting in an election. There is a duality between the public and private aspects of these actions. On the one hand, there's what you want to keep private: for the voter, he doesn't want his ballot to be linked to his identity; for the coinjoin user, he doesn't want his output to be associated with his input. Indeed, if the coordinator, or any other party, manages to establish a link between an input and an output, the coinjoin loses all interest. As explained above, the coinjoin must function as a break in the history of a coin. This stop occurs precisely because of the impossibility of associating a specific input with a specific output in the coinjoin transaction (prospective anonset) and vice versa (retrospective anonset).
 
-On the other hand, there's the public aspect: the voter wants to be sure that his ballot is included in the ballot box; similarly, the coinjoin user wants to be sure that his output is included in the coinjoin transaction. Indeed, coinjoin UTXOicipants absolutely must be able to verify the presence of their output before signing the transaction, otherwise the coordinator could steal the funds.
+On the other hand, there's the public aspect: the voter wants to be sure that his ballot is included in the ballot box; similarly, the coinjoin user wants to be sure that his output is included in the coinjoin transaction. Indeed, coinjoin participants absolutely must be able to verify the presence of their output before signing the transaction, otherwise the coordinator could steal the funds.
 
-It is precisely these 2 public and private aspects, enabled by the use of David Chaum's blind signatures, that guarantee UTXOicipants in Chaumian coinjoins that their bitcoins will not be stolen, and that their funds cannot be traced.
+It is precisely these 2 public and private aspects, enabled by the use of David Chaum's blind signatures, that guarantee participants in Chaumian coinjoins that their bitcoins will not be stolen, and that their funds cannot be traced.
 
 ### Who invented the coinjoin concept?
 
 It's hard to say for sure who first introduced the coinjoin idea to Bitcoin, and who came up with the idea of using David Chaum's blind signatures in this context. It's often thought that it was Gregory Maxwell who first mentioned it in [a message on BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
-> *"Using Chaum's blind signatures: Users log in and provide inputs (and exchange addresses) as well as a cryptographically blinded version of the address to which they wish to send their private UTXOs; the server signs the tokens and sends them back. Users reconnect anonymously, unmask their output addresses and send them back to the server. The server can see that all outputs have been signed by it and that, consequently, all outputs come from valid UTXOicipants. Later, people reconnect and sign in
+> *"Using Chaum's blind signatures: Users log in and provide inputs (and exchange addresses) as well as a cryptographically blinded version of the address to which they wish to send their private UTXOs; the server signs the tokens and sends them back. Users reconnect anonymously, unmask their output addresses and send them back to the server. The server can see that all outputs have been signed by it and that, consequently, all outputs come from valid participants. Later, people reconnect and sign in
 Maxwell, G. (2013, August 22). *CoinJoin: Bitcoin privacy for the real world*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1823,7 +1823,7 @@ In the same thread, we can find [a message from hashcoin in response to Duncan T
 
 ### Zerolink
 
-Zerolink is a comprehensive mixing protocol that incorporates Chaumian coinjoins and various strategies to protect users' anonymity against several forms of chain analysis, in UTXOicular by minimizing errors associated with wallet management. This protocol [was introduced by nopara73 and TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink is a comprehensive mixing protocol that incorporates Chaumian coinjoins and various strategies to protect users' anonymity against several forms of chain analysis, in particular by minimizing errors associated with wallet management. This protocol [was introduced by nopara73 and TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/fr/126.webp)
 
@@ -1873,9 +1873,9 @@ One of JoinMarket's main drawbacks is its complexity of use, which requires a ce
 
 Source: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
-However, the technical barrier remains a major obstacle. In the coinjoin ecosystem, where confidentiality is reinforced by the number of UTXOicipants, any limitation reducing accessibility directly affects the available liquidity, which is a crucial factor in the efficiency of the mix. Bitcoin, being already a niche in financial transactions, sees its use of coinjoins as a sub-niche, and JoinMarket represents an even more specialized fraction of it, which therefore restricts its potential to increase its users' anonsets.
+However, the technical barrier remains a major obstacle. In the coinjoin ecosystem, where confidentiality is reinforced by the number of participants, any limitation reducing accessibility directly affects the available liquidity, which is a crucial factor in the efficiency of the mix. Bitcoin, being already a niche in financial transactions, sees its use of coinjoins as a sub-niche, and JoinMarket represents an even more specialized fraction of it, which therefore restricts its potential to increase its users' anonsets.
 
-Despite its innovative P2P linking model for coinjoiners, JoinMarket has some significant disadvantages, UTXOicularly in terms of transactional structure. Unlike other implementations such as Whirlpool, JoinMarket does not guarantee perfect equality between outputs, and it is possible to trace deterministic links between inputs and outputs. Moreover, it has no tools to prevent UTXOs already mixed together from being mixed again, which could compromise the confidentiality sought by users.
+Despite its innovative P2P linking model for coinjoiners, JoinMarket has some significant disadvantages, particularly in terms of transactional structure. Unlike other implementations such as Whirlpool, JoinMarket does not guarantee perfect equality between outputs, and it is possible to trace deterministic links between inputs and outputs. Moreover, it has no tools to prevent UTXOs already mixed together from being mixed again, which could compromise the confidentiality sought by users.
 
 Finally, while the JoinMarket concept is interesting, especially for those interested in a dynamic liquidity market, its structural weaknesses and technical complexity make it, in my opinion, less interesting for both novices and experts looking for a coinjoin implementation.
 
@@ -1885,13 +1885,13 @@ Wabisabi is another coinjoin implementation, with an approach that centralizes t
 
 ![BTC204](assets/fr/132.webp)
 
-Towards the end of the 2010s, Wasabi adopted a radically different coinjoin transaction structure to Whirlpool. Wasabi used very large coinjoin transactions involving dozens of UTXOicipants to increase the anonsets of its UTXOicipants. In contrast, Whirlpool opted for multiple small transactions, enabling anonsets to grow exponentially with each cycle.
+Towards the end of the 2010s, Wasabi adopted a radically different coinjoin transaction structure to Whirlpool. Wasabi used very large coinjoin transactions involving dozens of participants to increase the anonsets of its participants. In contrast, Whirlpool opted for multiple small transactions, enabling anonsets to grow exponentially with each cycle.
 
 Exchange management methods also distinguished the two implementations. With Whirlpool, the change was excluded and isolated from UTXOs prior to coinjoin cycles thanks to TX0, a concept I'll explain further in the next chapter. With Wasabi, on the other hand, the change formed one of the outputs of the coinjoin transaction, maintaining deterministic links between certain inputs and outputs.
 
 ![BTC204](assets/fr/133.webp)
 
-With Wabisabi, Wasabi version 2.0 has adapted its approach to coinjoins to match that of Whirlpool. Although coinjoin transactions remain very large, it is now possible to chain several successive cycles, following the Whirlpool model. UTXOicular attention has also been paid to exchange rate management: unlike Wasabi 1.0, where the change was directly linked to user inputs, Wabisabi seeks to subdivide the change into several small sums, divided into equal denominations for all UTXOicipants.
+With Wabisabi, Wasabi version 2.0 has adapted its approach to coinjoins to match that of Whirlpool. Although coinjoin transactions remain very large, it is now possible to chain several successive cycles, following the Whirlpool model. particular attention has also been paid to exchange rate management: unlike Wasabi 1.0, where the change was directly linked to user inputs, Wabisabi seeks to subdivide the change into several small sums, divided into equal denominations for all participants.
 
 Let's illustrate this with a simplified example involving just 2 users: Alice wishes to mix 115,000 sats and Bob, 210,000 sats. Ignoring fees, with Wasabi 1.0, a coinjoin transaction would have generated 3 outputs of 100,000 sats, plus 1 change of 15,000 sats for Alice and 1 change of 10,000 sats for Bob. The change outputs would still be linked to the inputs:
 
@@ -1904,7 +1904,7 @@ Under Wabisabi, the same transaction would have produced 3 outputs of 100,000 sa
 Personally, I find that Wabisabi's change management presents several risks that could compromise its effectiveness in terms of confidentiality:
 
 
-- When a user contributes a UTXO that is significantly larger than those of other UTXOicipants, he inevitably ends up with an change amount that will be linked to his input. This runs counter to the original aim of the protocol, which is to eliminate all identifiable changes;
+- When a user contributes a UTXO that is significantly larger than those of other participants, he inevitably ends up with an change amount that will be linked to his input. This runs counter to the original aim of the protocol, which is to eliminate all identifiable changes;
 - The multiplication of denominations with the aim of fragmenting the change can paradoxically be detrimental to mixing efficiency. This process can lead to a reduction in anonsets for certain outputs, as they become more easily identifiable;
 - This method also generates low-value UTXOs which pose a management problem for the user. These small UTXOs, if they become too costly to spend in relation to their value, can become "dust". This phenomenon leads the user to merge several UTXOs into inputs for future transactions, or to consolidate them. In both cases, because of the CIOH, this can either reduce the anonsets obtained, or completely cancel out the confidentiality benefits acquired by the initial coinjoin.
 
@@ -1918,7 +1918,7 @@ As I write these lines, the use of Wabisabi has become significantly more comple
 
 With the discontinuation of this main coordinator, users must now connect to new, independent coordinators. This change raises a number of concerns: on the one hand, new coordinators may not have sufficient liquidity, reducing the effectiveness of coinjoins in terms of confidentiality. On the other hand, there is the risk of running into a malicious coordinator. This situation adds significant new risks for those seeking to use Wabisabi.
 
-Beyond the technical issues, the decision by zkSNACKs, the company behind Wasabi, to use the services of a string analysis company to filter coinjoin UTXOicipants raises serious ethical and strategic questions. The initial idea was to prevent the use of coinjoins on Wasabi by criminals, a move that may seem legitimate. However, it raises a paradox: paying fees to a coordinator whose primary mission is to reinforce user confidentiality, only to have him fund a company whose aim is to compromise that same confidentiality.
+Beyond the technical issues, the decision by zkSNACKs, the company behind Wasabi, to use the services of a string analysis company to filter coinjoin participants raises serious ethical and strategic questions. The initial idea was to prevent the use of coinjoins on Wasabi by criminals, a move that may seem legitimate. However, it raises a paradox: paying fees to a coordinator whose primary mission is to reinforce user confidentiality, only to have him fund a company whose aim is to compromise that same confidentiality.
 
 Even more worrying is the principle of filtering, which contrasts radically with Bitcoin's philosophy of offering an open, uncensored financial system. While it may seem justified to want to exclude criminal activities, this filtering could also affect individuals whose actions, although classified as illegal in certain contexts, could be morally justifiable or socially beneficial. The example of Edward Snowden perfectly illustrates this dichotomy: considered a criminal by some governments for his revelations, he is seen by others as a whistleblower who acted in the public interest. This complexity underlines the potential danger of filtering which, although well-intentioned, can ultimately undermine the rights and security of legitimate users. I could also have mentioned activists and journalists who are persecuted under certain authoritarian regimes.
 
@@ -1929,15 +1929,15 @@ As you'll have gathered by now, my preference is definitely for the Whirlpool mo
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
 
-What sets Whirlpool aUTXO from other coinjoin methods is the use of "_ZeroLink_" transactions, which ensure that there is strictly no possible technical link between all inputs and outputs. This perfect mix is achieved through a structure in which each UTXOicipant contributes an identical amount of input (with the exception of mining fees), generating outputs of perfectly equal amounts.
+What sets Whirlpool apart from other coinjoin methods is the use of "_ZeroLink_" transactions, which ensure that there is strictly no possible technical link between all inputs and outputs. This perfect mix is achieved through a structure in which each participant contributes an identical amount of input (with the exception of mining fees), generating outputs of perfectly equal amounts.
 
-This restrictive approach to inputs gives Whirlpool's coinjoin transactions a unique feature: the total absence of deterministic links between inputs and outputs. In other words, each output has an equal probability of being attributed to any UTXOicipant, relative to all other outputs in the transaction.
+This restrictive approach to inputs gives Whirlpool's coinjoin transactions a unique feature: the total absence of deterministic links between inputs and outputs. In other words, each output has an equal probability of being attributed to any participant, relative to all other outputs in the transaction.
 
 ![BTC204](assets/fr/136.webp)
 
 ### How Whirlpool works
 
-Initially, the number of UTXOicipants in each Whirlpool coinjoin was limited to 5, with 2 new entrants and 3 remixers (we'll explain these concepts later). However, the increase in on-chain transaction fees observed in 2023 prompted Samourai's teams to rethink their model to improve confidentiality while reducing costs. Thus, taking into account the fee market situation and the number of UTXOicipants, the coordinator can now organize coinjoins including 6, 7 or 8 UTXOicipants. These enhanced sessions are known as "Surge Cycles". It's important to note that, whatever the configuration, there are always only 2 new entrants to Whirlpool coinjoins.
+Initially, the number of participants in each Whirlpool coinjoin was limited to 5, with 2 new entrants and 3 remixers (we'll explain these concepts later). However, the increase in on-chain transaction fees observed in 2023 prompted Samourai's teams to rethink their model to improve confidentiality while reducing costs. Thus, taking into account the fee market situation and the number of participants, the coordinator can now organize coinjoins including 6, 7 or 8 participants. These enhanced sessions are known as "Surge Cycles". It's important to note that, whatever the configuration, there are always only 2 new entrants to Whirlpool coinjoins.
 
 Thus, Whirlpool transactions are characterized by an identical number of inputs and outputs, which can be:
 
@@ -1961,11 +1961,11 @@ Thus, Whirlpool transactions are characterized by an identical number of inputs 
 
 ![BTC204](assets/fr/140.webp)
 
-Whirlpool's model is based on small coinjoin transactions. Unlike Wabisabi and JoinMarket, where the robustness of anonsets is based on the volume of UTXOicipants in a single cycle (or on a few cycles), Whirlpool relies on the sequence of several small cycles.
+Whirlpool's model is based on small coinjoin transactions. Unlike Wabisabi and JoinMarket, where the robustness of anonsets is based on the volume of participants in a single cycle (or on a few cycles), Whirlpool relies on the sequence of several small cycles.
 
-In this model, users pay fees only when they first join a pool, enabling them to UTXOicipate in a multitude of remixes at no extra cost. New entrants pay the mining fees for remixers.
+In this model, users pay fees only when they first join a pool, enabling them to participate in a multitude of remixes at no extra cost. New entrants pay the mining fees for remixers.
 
-With each additional coinjoin in which a piece UTXOicipates, as well as its peers encountered in the past, the anonsets will grow exponentially. The aim is to take advantage of these free remixes, which, each time they occur, contribute to reinforcing the density of the anonsets associated with each piece mixed.
+With each additional coinjoin in which a piece participates, as well as its peers encountered in the past, the anonsets will grow exponentially. The aim is to take advantage of these free remixes, which, each time they occur, contribute to reinforcing the density of the anonsets associated with each piece mixed.
 
 ![BTC204](assets/fr/141.webp)
 
@@ -1975,15 +1975,15 @@ Whirlpool has been designed with two important requirements in mind:
 - The accessibility of the implementation on mobile devices, given that Samourai Wallet is first and foremost a smartphone application;
 - Fast remixing cycles to promote a significant increase in anonsets.
 
-These imperatives guided the choices made by Samourai Wallet's developers in designing Whirlpool, leading them to restrict UTXOicipants to a limited number per cycle. Too few would have compromised coinjoin efficiency, drastically reducing the anonsets generated per cycle, while too many would have posed management problems on mobile applications and hampered cycle flow.
+These imperatives guided the choices made by Samourai Wallet's developers in designing Whirlpool, leading them to restrict participants to a limited number per cycle. Too few would have compromised coinjoin efficiency, drastically reducing the anonsets generated per cycle, while too many would have posed management problems on mobile applications and hampered cycle flow.
 
-Finally, there's no need to have a high number of UTXOicipants per coinjoin on Whirlpool, since anonsets are made on the accumulation of several coinjoin cycles. The most important principle here is the homogeneity of the UTXOs of all UTXOicipants, as this ensures perfect mixing, and therefore full benefit from the mixing and remixing cycles.
+Finally, there's no need to have a high number of participants per coinjoin on Whirlpool, since anonsets are made on the accumulation of several coinjoin cycles. The most important principle here is the homogeneity of the UTXOs of all participants, as this ensures perfect mixing, and therefore full benefit from the mixing and remixing cycles.
 
 ### Coinjoin pools and fees
 
 For these multiple cycles to increase the anonsets of the mixed UTXOs, a certain framework is needed to restrict the amounts of UTXOs used. Whirlpool defines different pools.
 
-A pool represents a group of users wishing to mix together, who agree on the amount of UTXOs to be used to optimize the coinjoin process while maintaining perfect UTXO homogeneity. Each pool specifies a fixed UTXO amount, which the user must adhere to in order to UTXOicipate. So, to make coinjoins with Whirlpool, you need to select a pool. The following pools are currently available:
+A pool represents a group of users wishing to mix together, who agree on the amount of UTXOs to be used to optimize the coinjoin process while maintaining perfect UTXO homogeneity. Each pool specifies a fixed UTXO amount, which the user must adhere to in order to participate. So, to make coinjoins with Whirlpool, you need to select a pool. The following pools are currently available:
 
 
 - 0.5 bitcoins;
@@ -1991,7 +1991,7 @@ A pool represents a group of users wishing to mix together, who agree on the amo
 - 0.01 bitcoin;
 - 0.001 bitcoin (= 100,000 sats).
 
-When you enter a pool with your bitcoins, they will be divided up to generate UTXOs that are perfectly homogenous with those of the other UTXOicipants in the pool. Each pool has a maximum limit, so for amounts exceeding this limit, you will either have to make two separate entries into the same pool, or move to another pool with a higher amount:
+When you enter a pool with your bitcoins, they will be divided up to generate UTXOs that are perfectly homogenous with those of the other participants in the pool. Each pool has a maximum limit, so for amounts exceeding this limit, you will either have to make two separate entries into the same pool, or move to another pool with a higher amount:
 
 | Pool (bitcoin) | Maximum amount per entry (bitcoin) |
 |----------------|------------------------------------|
@@ -2004,7 +2004,7 @@ A UTXO is considered to belong to a pool when it is ready to be integrated into 
 
 To join a coinjoin pool, you need to pay a service fee and a mining fee. Service fees are fixed for each pool and are intended to remunerate the teams responsible for Whirlpool's development and maintenance.
 
-The service fee for the use of Whirlpool is payable only once when you join the pool. Once you've joined, you can UTXOicipate in an unlimited number of remixes at no extra charge. Here are the current fixed fees for each pool:
+The service fee for the use of Whirlpool is payable only once when you join the pool. Once you've joined, you can participate in an unlimited number of remixes at no extra charge. Here are the current fixed fees for each pool:
 
 | Pool (bitcoin) | Entry fee (bitcoin) |
 
@@ -2026,11 +2026,11 @@ Before proceeding with Whirlpool coinjoins, the user can choose between 2 strate
 - Opt for a smaller pool to minimize service costs, knowing that he'll get several smaller UTXOs in return;
 - Or opt for a larger pool, willing to pay higher fees, only to end up with a smaller number of higher-value UTXOs.
 
-It's generally not advisable to merge several mixed UTXOs after coinjoin cycles, as this could compromise acquired confidentiality, UTXOicularly due to the common input ownership heuristic (CIOH: *Common-Input-Ownership-Heuristic*). Consequently, it may make sense to choose a larger pool, even if this means paying more, to avoid having too many small-value UTXOs in output. The user must evaluate these trade-offs to choose the pool he prefers.
+It's generally not advisable to merge several mixed UTXOs after coinjoin cycles, as this could compromise acquired confidentiality, particularly due to the common input ownership heuristic (CIOH: *Common-Input-Ownership-Heuristic*). Consequently, it may make sense to choose a larger pool, even if this means paying more, to avoid having too many small-value UTXOs in output. The user must evaluate these trade-offs to choose the pool he prefers.
 
 In addition to the service fee, the mining fee specific to any Bitcoin transaction must also be taken into account. As a Whirlpool user, you will be required to pay the mining fee for the preparation transaction (`Tx0`) as well as for the first coinjoin. All subsequent remixes will be free of charge, thanks to Whirlpool's model based on paying new entrants.
 
-In fact, in each Whirlpool coinjoin, 2 users among the inputs are new entrants. The other inputs come from remixers. As a result, the mining costs for all UTXOicipants in the transaction are borne by these 2 new entrants, who can then also benefit from free remixes:
+In fact, in each Whirlpool coinjoin, 2 users among the inputs are new entrants. The other inputs come from remixers. As a result, the mining costs for all participants in the transaction are borne by these 2 new entrants, who can then also benefit from free remixes:
 
 ![BTC204](assets/fr/142.webp)
 
@@ -2054,7 +2054,7 @@ For wallets adapted to Whirlpool, 4 accounts are used to meet the needs of the Z
 - The **premix** account, identified by the index `2 147 483 645'`;
 - The **postmix** account, identified by the index `2 147 483 646'`.
 
-Each of these accounts fulfills a UTXOicular function in the coinjoin process, which we'll explore in the following sections.
+Each of these accounts fulfills a particular function in the coinjoin process, which we'll explore in the following sections.
 
 All these accounts are linked to a single seed, enabling the user to recover access to all his bitcoins using his recovery phrase and, where applicable, his passphrase. During the recovery operation, however, the software must be informed of the various account indexes used.
 
@@ -2102,9 +2102,9 @@ At the end of these first mixes, the **premix** account will be empty, while our
 
 ### Remixes
 
-After the initial mix, the UTXOs are transferred to the **postmix** account. This account collects UTXOs already mixed and those awaiting remixing. When the Whirlpool customer is active, UTXOs located in the **postmix** account are automatically available for remixes and will be randomly selected to UTXOicipate in these new cycles.
+After the initial mix, the UTXOs are transferred to the **postmix** account. This account collects UTXOs already mixed and those awaiting remixing. When the Whirlpool customer is active, UTXOs located in the **postmix** account are automatically available for remixes and will be randomly selected to participate in these new cycles.
 
-As a reminder, remixes are then 100% free: no additional service charges or mining fees are required. Keeping UTXOs in the **postmix** account therefore keeps their value intact, and improves their anonsets at the same time. That's why it's important to allow these coins to UTXOicipate in several coinjoin cycles. It costs you absolutely nothing, and increases their anonymity levels.
+As a reminder, remixes are then 100% free: no additional service charges or mining fees are required. Keeping UTXOs in the **postmix** account therefore keeps their value intact, and improves their anonsets at the same time. That's why it's important to allow these coins to participate in several coinjoin cycles. It costs you absolutely nothing, and increases their anonymity levels.
 
 When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. We advise you to keep mixed UTXOs in this account to benefit from free remixes and to prevent them from leaving the Whirlpool circuit, which could reduce their confidentiality.
 
@@ -2114,7 +2114,7 @@ After running coinjoin cycles, the best strategy is to keep your UTXOs in the **
 
 Some users might consider transferring their mixed bitcoins to a wallet secured by a hardware wallet. This is possible, but it's important to follow Samourai Wallet's recommendations scrupulously so as not to compromise the confidentiality acquired.
 
-Merging UTXOs is the most common mistake. To avoid CIOH (*Common-Input-Ownership-Heuristic*), you must avoid combining mixed UTXOs with unmixed UTXOs in the same transaction. This requires careful management of your UTXOs within your wallet, UTXOicularly in terms of labeling.
+Merging UTXOs is the most common mistake. To avoid CIOH (*Common-Input-Ownership-Heuristic*), you must avoid combining mixed UTXOs with unmixed UTXOs in the same transaction. This requires careful management of your UTXOs within your wallet, particularly in terms of labeling.
 
 ![BTC204](assets/fr/148.webp)
 
@@ -2136,7 +2136,7 @@ Here are some strategies for using them:
 - Mix them into smaller pools:** If your toxic UTXO is large enough to fit into a smaller pool on its own, consider mixing it. This is often the best option. However, it's not advisable to merge several toxic UTXOs to access a pool, as this could link your different entries;
 - Mark them as "non-spendable":** Another approach is to stop using them, mark them as "non-spendable" in their dedicated account, and just hodl. This ensures that you don't accidentally spend them. If the value of bitcoin rises, new pools more suited to your toxic UTXOs may emerge;
 - Make donations:** Consider making donations, however modest, to developers working on Bitcoin and related software. You can also donate to associations that accept BTC. If managing your toxic UTXOs seems too complicated, you can simply get rid of them and make a donation;
-- Buy gift cards:** Platforms such as [Bitrefill](https://www.bitrefill.com/) allow you to exchange bitcoins for gift cards that can be used at various merchants. This can be a way of UTXOing with your toxic UTXOs without losing the associated value;
+- Buy gift cards:** Platforms such as [Bitrefill](https://www.bitrefill.com/) allow you to exchange bitcoins for gift cards that can be used at various merchants. This can be a way of parting with your toxic UTXOs without losing the associated value;
 - Consolidate them on Monero:** Samourai Wallet offers an atomic swap service between BTC and XMR. This is ideal for managing toxic UTXOs by consolidating them on Monero, without compromising your confidentiality via CIOH, before sending them back to Bitcoin. However, this option can be costly in terms of mining fees and premium due to liquidity constraints;
 - Send them to the Lightning Network:** Transferring these UTXOs to the Lightning Network to benefit from reduced transaction fees can be an attractive option. However, this method may reveal certain information depending on how you use Lightning, and should therefore be used with caution.
 
@@ -2181,7 +2181,7 @@ To assess how difficult it is for an analyst to link the past to the present and
 
 ### Understanding anonsets
 
-Anonsets are used as indicators to assess the degree of confidentiality of a UTXOicular UTXO. More specifically, they measure the number of indistinguishable UTXOs within the set that includes the UTXO under study. The requirement for a homogeneous set of UTXOs means that anonsets are usually calculated on coinjoin cycles. The use of these indicators is UTXOicularly relevant for Whirlpool coinjoints, due to their uniformity.
+Anonsets are used as indicators to assess the degree of confidentiality of a particular UTXO. More specifically, they measure the number of indistinguishable UTXOs within the set that includes the UTXO under study. The requirement for a homogeneous set of UTXOs means that anonsets are usually calculated on coinjoin cycles. The use of these indicators is particularly relevant for Whirlpool coinjoints, due to their uniformity.
 
 If necessary, anonsets can be used to judge the quality of coinjoins. A large anonset means a high level of anonymity, as it becomes difficult to distinguish a specific UTXO within the homogeneous set.
 
@@ -2201,7 +2201,7 @@ This indicator measures the resistance of the room's confidentiality to a past-t
 
 This metric is used to estimate the extent to which your UTXO is protected against attempts to reconstruct its history from its point of entry to its point of exit in the coinjoin process.
 
-For example, if your transaction has UTXOicipated in its first coinjoin cycle and two further descending cycles have been completed, your coin's prospective anonset would be `13`:
+For example, if your transaction has participated in its first coinjoin cycle and two further descending cycles have been completed, your coin's prospective anonset would be `13`:
 
 ![BTC204](assets/fr/153.webp)
 
@@ -2238,7 +2238,7 @@ https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
 
-As we have seen in this section on coinjoins, the homogeneity of UTXOs in input and output plays an important role in improving the confidentiality of a Bitcoin transaction. This parameter creates a plausible deniability in the face of blockchain analysis. Several methods can be used to measure this homogeneity, but one of the most effective, in my opinion, is the use of the indicators provided by the *Boltzmann* tool, developed by the OXT and Samourai Wallet teams, and in UTXOicular the entropy of the transaction. This is what we'll be looking at in detail in this chapter.
+As we have seen in this section on coinjoins, the homogeneity of UTXOs in input and output plays an important role in improving the confidentiality of a Bitcoin transaction. This parameter creates a plausible deniability in the face of blockchain analysis. Several methods can be used to measure this homogeneity, but one of the most effective, in my opinion, is the use of the indicators provided by the *Boltzmann* tool, developed by the OXT and Samourai Wallet teams, and in particular the entropy of the transaction. This is what we'll be looking at in detail in this chapter.
 
 Unlike anonsets, which are calculated on a set of transactions, the indicators presented here focus on a single transaction, be it a coinjoin or a more traditional transaction.
 
@@ -2478,16 +2478,16 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 # Understanding the challenges of other advanced confidentiality techniques
 
-<UTXOId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</UTXOId>
+<partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
 ## Payjoin transactions
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
 
-Coinjoin is currently the most effective method of introducing uncertainty into the tracing of UTXOs in a chain analysis. As we have seen in previous chapters, to obtain a high-performance mix, inputs and outputs must be as homogeneous as possible. In addition, it's important that UTXOs are integrated into as large a group as possible to maximize anonsets. So, for coinjoins to be effective, they must involve a large number of uniform UTXOs. This multitude of requirements means that coinjoin transactions have a very rigid structure: the amounts are fixed in advance, and all UTXOicipants must adhere to them to guarantee the uniformity of the process. In addition, coinjoins require synchronization between all UTXOicipants and the coordinator during transaction construction.
+Coinjoin is currently the most effective method of introducing uncertainty into the tracing of UTXOs in a chain analysis. As we have seen in previous chapters, to obtain a high-performance mix, inputs and outputs must be as homogeneous as possible. In addition, it's important that UTXOs are integrated into as large a group as possible to maximize anonsets. So, for coinjoins to be effective, they must involve a large number of uniform UTXOs. This multitude of requirements means that coinjoin transactions have a very rigid structure: the amounts are fixed in advance, and all participants must adhere to them to guarantee the uniformity of the process. In addition, coinjoins require synchronization between all participants and the coordinator during transaction construction.
 
-These requirements make coinjoin unsuitable for direct payments. For example, if you have a 1M sats coin in a coinjoin pool, using it directly as a payment would be complex. It would require synchronization with the other UTXOicipants and the coordinator to build the collaborative transaction precisely at the moment you need to make a payment, and the purchase amount would have to correspond exactly to the value of your coin, which is virtually unfeasible. The coinjoin transaction is therefore by its very nature a collaborative sweep transaction, i.e. it's usually the same owners of the inputs that we find in the outputs.
+These requirements make coinjoin unsuitable for direct payments. For example, if you have a 1M sats coin in a coinjoin pool, using it directly as a payment would be complex. It would require synchronization with the other participants and the coordinator to build the collaborative transaction precisely at the moment you need to make a payment, and the purchase amount would have to correspond exactly to the value of your coin, which is virtually unfeasible. The coinjoin transaction is therefore by its very nature a collaborative sweep transaction, i.e. it's usually the same owners of the inputs that we find in the outputs.
 
 However, it would be interesting to have transaction structures that allow payments to be made in a practical way, while at the same time introducing doubt into chain analysis. This is precisely what we'll be looking at in this chapter and the next.
 
@@ -2514,7 +2514,7 @@ In this example, Bob the baker enters 15,000 sats in input and exits with 19,000
 
 The payjoin transaction fulfils two objectives, enabling users to enhance the confidentiality of their payment.
 
-Firstly, payjoin aims to mislead an outside observer by creating a lure in the chain analysis. This is made possible by the CIOH heuristic (*Common Input Ownership Heuristic*). As we saw in UTXO 3, usually, when a transaction on the blockchain has several inputs, it is assumed that all these inputs belong to the same entity or user.
+Firstly, payjoin aims to mislead an outside observer by creating a lure in the chain analysis. This is made possible by the CIOH heuristic (*Common Input Ownership Heuristic*). As we saw in part 3, usually, when a transaction on the blockchain has several inputs, it is assumed that all these inputs belong to the same entity or user.
 
 So, when an analyst examines a payjoin transaction, he or she is led to believe that all inputs come from the same person. However, this perception is wrong, because the payee also contributes to the inputs alongside the actual payer. The chain analysis is therefore diverted towards an interpretation that turns out to be wrong.
 
@@ -2558,13 +2558,13 @@ Well-known software programs that support payjoin include Sparrow Wallet, Wasabi
 
 ![BTC204](assets/fr/171.webp)
 
-The most advanced payjoin implementation was only Stowaway on Samourai Wallet. However, since the arrest of the software's founders, this tool is now only UTXOially functional. The advantage of Stowaway is that it's a comprehensive, easy-to-use protocol, which supports both receiving and sending payjoins. UTXOially signed transactions can be exchanged manually by scanning several QR codes, or automatically by Tor via Soroban. The latter communication option is currently out of service.
+The most advanced payjoin implementation was only Stowaway on Samourai Wallet. However, since the arrest of the software's founders, this tool is now only partially functional. The advantage of Stowaway is that it's a comprehensive, easy-to-use protocol, which supports both receiving and sending payjoins. partially signed transactions can be exchanged manually by scanning several QR codes, or automatically by Tor via Soroban. The latter communication option is currently out of service.
 
 ![BTC204](assets/fr/172.webp)
 
-The difficulty in using payjoin lies in its dependence on the merchant's UTXOicipation. As a customer, you can't use a payjoin if the merchant doesn't support it. This adds a further difficulty to the purchase process: not only is it difficult to find merchants who accept bitcoin, but if you also look for those who support payjoins, it becomes even more complicated.
+The difficulty in using payjoin lies in its dependence on the merchant's participation. As a customer, you can't use a payjoin if the merchant doesn't support it. This adds a further difficulty to the purchase process: not only is it difficult to find merchants who accept bitcoin, but if you also look for those who support payjoins, it becomes even more complicated.
 
-One solution would be to use transaction structures that introduce ambiguity into the chain analysis without requiring the cooperation of the recipient. This would enable us to improve the confidentiality of our payments without relying on the active UTXOicipation of merchants. This is precisely what we'll be looking at in the next chapter.
+One solution would be to use transaction structures that introduce ambiguity into the chain analysis without requiring the cooperation of the recipient. This would enable us to improve the confidentiality of our payments without relying on the active participation of merchants. This is precisely what we'll be looking at in the next chapter.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
@@ -2575,7 +2575,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 
-When you want to carry out a payment transaction while maintaining a certain degree of confidentiality, payjoin is a good option. But as we've just seen, payjoin requires the involvement of the recipient. So what do you do if the recipient refuses to UTXOicipate in a payjoin, or if you simply prefer not to involve them? One alternative is to use a Stonewall or Stonewall x2 transaction. Let's take a closer look at these two types of transaction.
+When you want to carry out a payment transaction while maintaining a certain degree of confidentiality, payjoin is a good option. But as we've just seen, payjoin requires the involvement of the recipient. So what do you do if the recipient refuses to participate in a payjoin, or if you simply prefer not to involve them? One alternative is to use a Stonewall or Stonewall x2 transaction. Let's take a closer look at these two types of transaction.
 
 ### The Stonewall transaction
 
@@ -2613,13 +2613,13 @@ This interpretation is inaccurate, because, as you know, one UTXO was sent to Bo
 
 ![BTC204](assets/fr/176.webp)
 
-And what's UTXOicularly interesting about the structure of the Stonewall transaction is that, from the point of view of an outside observer, it resembles that of a Stonewall x2 transaction in every way.
+And what's particularly interesting about the structure of the Stonewall transaction is that, from the point of view of an outside observer, it resembles that of a Stonewall x2 transaction in every way.
 
 ### The Stonewall transaction x2
 
-Stonewall x2 is another specific form of Bitcoin transaction that also aims to increase user confidentiality when making a spend, but this time by collaborating with a third person not involved in that spend. This method works like a pseudo-coinjoin between two UTXOicipants, while simultaneously making a payment to a third person.
+Stonewall x2 is another specific form of Bitcoin transaction that also aims to increase user confidentiality when making a spend, but this time by collaborating with a third person not involved in that spend. This method works like a pseudo-coinjoin between two participants, while simultaneously making a payment to a third person.
 
-The operation of the Stonewall x2 transaction is relatively simple: we use a UTXO in our possession to make the payment, and enlist the help of a third UTXOy who also contributes with a UTXO belonging to him or her. The transaction ends up with four outputs: two of them in equal amounts, one destined for the payee's address, the other for an address belonging to the collaborator. A third UTXO is returned to another address belonging to the collaborator, enabling him to recover the initial amount (a neutral action for him, modulo the mining costs), and a final UTXO returns to an address belonging to us, which constitutes the payment change.
+The operation of the Stonewall x2 transaction is relatively simple: we use a UTXO in our possession to make the payment, and enlist the help of a third party who also contributes with a UTXO belonging to him or her. The transaction ends up with four outputs: two of them in equal amounts, one destined for the payee's address, the other for an address belonging to the collaborator. A third part is returned to another address belonging to the collaborator, enabling him to recover the initial amount (a neutral action for him, modulo the mining costs), and a final UTXO returns to an address belonging to us, which constitutes the payment change.
 
 Three different roles are thus defined in Stonewall x2 transactions:
 
@@ -2652,11 +2652,11 @@ This interpretation is incorrect, because, as you know, one UTXO has been sent t
 
 ![BTC204](assets/fr/180.webp)
 
-And once again, what's UTXOicularly interesting about the structure of the Stonewall x2 transaction is that, from the point of view of an outside observer, it resembles that of a Stonewall transaction in every way.
+And once again, what's particularly interesting about the structure of the Stonewall x2 transaction is that, from the point of view of an outside observer, it resembles that of a Stonewall transaction in every way.
 
 ### What's the difference between Stonewall and Stonewall x2?
 
-A StonewallX2 transaction works exactly like a Stonewall transaction, except that the former is collaborative, whereas the latter is not. As we have seen, a Stonewall x2 transaction involves the UTXOicipation of a third UTXOy (Charles), who is external to the payment, and who will make his bitcoins available to enhance the confidentiality of the transaction. In a classic Stonewall transaction, the role of the collaborator is taken on by the sender.
+A StonewallX2 transaction works exactly like a Stonewall transaction, except that the former is collaborative, whereas the latter is not. As we have seen, a Stonewall x2 transaction involves the participation of a third party (Charles), who is external to the payment, and who will make his bitcoins available to enhance the confidentiality of the transaction. In a classic Stonewall transaction, the role of the collaborator is taken on by the sender.
 
 ![BTC204](assets/fr/181.webp)
 
@@ -2698,7 +2698,7 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
 
-The use of Bitcoin transaction structures that add ambiguity to chain analysis, such as coinjoin, is UTXOicularly beneficial for privacy protection. However, as we discussed in the chapter on payjoins, coinjoin transactions are naturally identifiable on the chain. Remember the analogy we drew between encryption and coinjoins: when a file is encrypted, a third UTXOy who discovers the encrypted file cannot access its contents, but can clearly identify that the file has been modified to hide its contents. The same applies to coinjoin: when an analyst examines a coinjoin transaction, although he or she cannot establish direct links between inputs and outputs (and vice versa), he or she can nevertheless recognize that the observed transaction is a coinjoin.
+The use of Bitcoin transaction structures that add ambiguity to chain analysis, such as coinjoin, is particularly beneficial for privacy protection. However, as we discussed in the chapter on payjoins, coinjoin transactions are naturally identifiable on the chain. Remember the analogy we drew between encryption and coinjoins: when a file is encrypted, a third party who discovers the encrypted file cannot access its contents, but can clearly identify that the file has been modified to hide its contents. The same applies to coinjoin: when an analyst examines a coinjoin transaction, although he or she cannot establish direct links between inputs and outputs (and vice versa), he or she can nevertheless recognize that the observed transaction is a coinjoin.
 
 Depending on how you intend to use your UTXO after coinjoin cycles, the fact that it has undergone this process can be problematic. For example, if you plan to sell your coin on a regulated exchange platform, but it has recently undergone a coinjoin, the platform's chain analysis tool will detect this fact. The platform may then refuse to accept your coinjoined UTXO, or even demand an explanation from you, with the risk of your account being suspended or your funds frozen. In some cases, the platform may also report your behavior to state authorities (this is, for example, what TRACFIN requires of PSANs in France, or the Financial Crimes Enforcement Network (FinCEN) does in USA).
 
@@ -2730,7 +2730,7 @@ Faced with this ricochet method, one might imagine that chain analysis software 
 
 ![BTC204](assets/fr/189.webp)
 
-However, setting this threshold is risky: each extension in the number of observed jumps exponentially increases the volume of false positives, i.e. individuals erroneously marked as UTXOicipants in an event, when in fact the operation was carried out by someone else. This scenario poses a major risk for these companies, as false positives lead to dissatisfaction, which can drive affected customers to the competition. In the long term, too high a detection threshold leads a platform to lose more customers than its competitors, which could threaten its viability. It is therefore complicated for these platforms to increase the number of bounces observed, and 4 is often a sufficient number to counter their analyses.
+However, setting this threshold is risky: each extension in the number of observed jumps exponentially increases the volume of false positives, i.e. individuals erroneously marked as participants in an event, when in fact the operation was carried out by someone else. This scenario poses a major risk for these companies, as false positives lead to dissatisfaction, which can drive affected customers to the competition. In the long term, too high a detection threshold leads a platform to lose more customers than its competitors, which could threaten its viability. It is therefore complicated for these platforms to increase the number of bounces observed, and 4 is often a sufficient number to counter their analyses.
 
 The phenomenon observed here is somewhat analogous to the theory of the six degrees of separation.
 
@@ -2740,7 +2740,7 @@ In the case of Bitcoin transactions, we find a similar phenomenon. By tracing a 
 
 ### When and how to use ricochet?
 
-The most common use case for ricochet occurs when it's necessary to conceal a previous UTXOicipation in a coinjoin on a UTXO you own. Ideally, it's best to avoid transferring bitcoins that have undergone a coinjoin to regulated entities. Nevertheless, in the event that you find yourself with no other option, UTXOicularly in the urgent need to liquidate bitcoins in state currency, ricochet offers an effective solution.
+The most common use case for ricochet occurs when it's necessary to conceal a previous participation in a coinjoin on a UTXO you own. Ideally, it's best to avoid transferring bitcoins that have undergone a coinjoin to regulated entities. Nevertheless, in the event that you find yourself with no other option, particularly in the urgent need to liquidate bitcoins in state currency, ricochet offers an effective solution.
 
 This method is effective not only for coinjoins, but also for any other mark that could compromise a UTXO's fungibility.
 
@@ -2795,16 +2795,16 @@ To solve these problems and enable exchanges between UTXOs who don't trust each 
 
 This can be achieved using HTLC (*Hash Time-Locked Contracts*) or PTLC (*Point Time-Locked Contracts*). These two protocols operate in a similar way, using a time-locking system which ensures that the exchange is either completed successfully or cancelled entirely, thus protecting the integrity of both UTXOs' funds. The main difference between HTLC and PTLC is that HTLC uses hashes and preimages to secure the transaction, while PTLC uses Adaptor Signatures.
 
-In a coinswap scenario using HTLC or PTLC between Alice and Bob, the exchange takes place securely: either it succeeds and each receives the other's BTC, or it fails and each keeps their own BTC. This makes it impossible for either UTXOy to cheat or steal the other's BTC.
+In a coinswap scenario using HTLC or PTLC between Alice and Bob, the exchange takes place securely: either it succeeds and each receives the other's BTC, or it fails and each keeps their own BTC. This makes it impossible for either party to cheat or steal the other's BTC.
 
 > *HTLC is also the mechanism used to securely route payments through the Lightning Network's bidirectional channels*
-The use of Adaptor Signatures is UTXOicularly interesting in this context, as it makes it possible to dispense with traditional scripts (a mechanism sometimes referred to as "_scriptless scripts_"). This feature reduces the costs associated with exchange. Another major advantage of Adaptor Signatures is that they do not require the use of a common hash for both UTXOs to the transaction, thus avoiding the need to reveal a direct link between them in certain types of exchange.
+The use of Adaptor Signatures is particularly interesting in this context, as it makes it possible to dispense with traditional scripts (a mechanism sometimes referred to as "_scriptless scripts_"). This feature reduces the costs associated with exchange. Another major advantage of Adaptor Signatures is that they do not require the use of a common hash for both UTXOs to the transaction, thus avoiding the need to reveal a direct link between them in certain types of exchange.
 
 ### Adaptor Signatures
 
 Adaptor Signatures are a cryptographic method that integrates a valid signature with an additional signature, called the "_adaptor signature_", to reveal secret data. This mechanism is designed in such a way that knowledge of 2 of the 3 following elements: the valid signature, the adaptor signature and the secret, allows us to deduce the missing third element. An interesting property of this method is that, if we know our peer's adaptor signature and the specific point on the elliptic curve associated with the secret used to calculate that adaptor signature, we can derive our own adaptor signature that will be compatible with that same secret, without ever having direct access to the secret itself.
 
-In a coinswap, the use of Adaptor Signatures enables the simultaneous disclosure of two pieces of sensitive information between UTXOicipants, thus avoiding the need for mutual trust. Let's take an example to illustrate this process with Alice and Bob, who wish to exchange possession of 1 BTC each, but don't trust each other. They use Adaptor Signatures to eliminate the need to trust each other in this exchange. Here's how they do it:
+In a coinswap, the use of Adaptor Signatures enables the simultaneous disclosure of two pieces of sensitive information between participants, thus avoiding the need for mutual trust. Let's take an example to illustrate this process with Alice and Bob, who wish to exchange possession of 1 BTC each, but don't trust each other. They use Adaptor Signatures to eliminate the need to trust each other in this exchange. Here's how they do it:
 
 
 - Alice initiates the exchange by creating a $m_A$ transaction that sends 1 BTC to Bob. She generates a signature $s_A$, which validates this transaction, using her private key $p_A$ ($P_A = p_A \cdot G$), a nonce $n_A$ ($N_A = n_A \cdot G$) and a secret $t$ ($T = t \cdot G$):
@@ -2852,7 +2852,7 @@ Note that coinswaps were first proposed by [Gregory Maxwell in October 2013 on B
 
 ### Atomic swap
 
-In a similar way to coinswap, and using the same types of smart contracts, it is also possible to carry out atomic swaps. An atomic swap enables a direct exchange of different cryptocurrencies, such as BTC and XMR, between two users without the need for trust or the intervention of an intermediary. These exchanges are termed "atomic" because they have only two possible outcomes: either the swap is successful and both UTXOs are satisfied, or it fails and each retains their original cryptocurrencies, eliminating the need to trust the other UTXOy.
+In a similar way to coinswap, and using the same types of smart contracts, it is also possible to carry out atomic swaps. An atomic swap enables a direct exchange of different cryptocurrencies, such as BTC and XMR, between two users without the need for trust or the intervention of an intermediary. These exchanges are termed "atomic" because they have only two possible outcomes: either the swap is successful and both UTXOs are satisfied, or it fails and each retains their original cryptocurrencies, eliminating the need to trust the other party.
 
 ![BTC204](assets/fr/197.webp)
 
@@ -2860,7 +2860,7 @@ Atomic swap and coinswap share a similar process and offer the same advantages a
 
 ![BTC204](assets/fr/198.webp)
 
-Beware, however, that unlike coinswap, atomic swap can have imbalances in terms of available liquidity, UTXOicularly in BTC/XMR exchanges. It's generally easier to swap bitcoins for altcoins, as there's strong demand for bitcoins, which keeps premiums low for this conversion direction. However, exchanging altcoins for BTC can be more complex due to lower demand, often resulting in very high premiums.
+Beware, however, that unlike coinswap, atomic swap can have imbalances in terms of available liquidity, particularly in BTC/XMR exchanges. It's generally easier to swap bitcoins for altcoins, as there's strong demand for bitcoins, which keeps premiums low for this conversion direction. However, exchanging altcoins for BTC can be more complex due to lower demand, often resulting in very high premiums.
 
 Finally, when an atomic swap involves onchain bitcoins and bitcoins on the Lightning network, we speak of a "submarine swap".
 
@@ -2893,7 +2893,7 @@ Up to now, we have mainly studied confidentiality methods at the level of the tr
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
 
-In UTXO 4, we discussed the importance of using a full node to protect the confidentiality of your transactions. However, it's important to understand that your node may itself be subject to attacks seeking to extract information about your activities. In this chapter, therefore, we'll look at the various measures you can take to protect your privacy, not at the level of the transactions themselves or the bitcoin flows, but at the level of the network.
+In part 4, we discussed the importance of using a full node to protect the confidentiality of your transactions. However, it's important to understand that your node may itself be subject to attacks seeking to extract information about your activities. In this chapter, therefore, we'll look at the various measures you can take to protect your privacy, not at the level of the transactions themselves or the bitcoin flows, but at the level of the network.
 
 ### Dandelion
 
@@ -2961,7 +2961,7 @@ Tor not only encrypts data, but also masks the origin and destination of communi
 
 The main risk with this method is that Tor is a protocol independent of Bitcoin. If you have a Bitcoin node running under Tor and Tor stops working, then your Bitcoin node will no longer be able to communicate.
 
-Also, it's important to note that communications on Tor are slower. This latency is UTXOicularly annoying during the initial launch of a node, as IBD (*Initial Block Download*) requires a lot of communication. As a result, your initial synchronization with the Bitcoin network could take significantly longer using Tor. It's also possible to perform IBD on the clearnet, then activate Tor as a second step. Although this method discloses the existence of your Bitcoin node to your ISP, it protects your personal transaction information once you switch to Tor.
+Also, it's important to note that communications on Tor are slower. This latency is particularly annoying during the initial launch of a node, as IBD (*Initial Block Download*) requires a lot of communication. As a result, your initial synchronization with the Bitcoin network could take significantly longer using Tor. It's also possible to perform IBD on the clearnet, then activate Tor as a second step. Although this method discloses the existence of your Bitcoin node to your ISP, it protects your personal transaction information once you switch to Tor.
 
 Having explored the various methods of confidentiality at network level, in the next few chapters I'd also like to introduce you to two elegant solutions for avoiding address reuse: BIP47 and Silent Payments.
 
@@ -2970,7 +2970,7 @@ Having explored the various methods of confidentiality at network level, in the 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
 
-As we saw in UTXO 3, address reuse is a serious obstacle to user confidentiality on the Bitcoin protocol. To mitigate these risks, it is strongly recommended to generate a blank receiving address for each new payment received in a wallet. Although generating a new address is now simplified by the use of modern software and hierarchical deterministic wallets, this practice may seem counter-intuitive.
+As we saw in part 3, address reuse is a serious obstacle to user confidentiality on the Bitcoin protocol. To mitigate these risks, it is strongly recommended to generate a blank receiving address for each new payment received in a wallet. Although generating a new address is now simplified by the use of modern software and hierarchical deterministic wallets, this practice may seem counter-intuitive.
 
 ![BTC204](assets/fr/210.webp)
 
@@ -3035,7 +3035,7 @@ These avatars can also be represented as images:
 Although these robots have no specific technical functionality within the BIP47 framework, they do play a role in facilitating user interaction by offering an easily recognizable visual identity.
 
 ---
-*In the following sections of this chapter dedicated to BIP47, we'll take a detailed look at how it works, with UTXOicular emphasis on the cryptographic methods used. To fully grasp these somewhat technical explanations, it's essential to first understand the structure of HD wallets, key derivation procedures and the fundamentals of elliptic curve cryptography. If you'd like to delve deeper into these concepts, another free course is available on Plan ₿ Network:*
+*In the following sections of this chapter dedicated to BIP47, we'll take a detailed look at how it works, with particular emphasis on the cryptographic methods used. To fully grasp these somewhat technical explanations, it's essential to first understand the structure of HD wallets, key derivation procedures and the fundamentals of elliptic curve cryptography. If you'd like to delve deeper into these concepts, another free course is available on Plan ₿ Network:*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
@@ -3133,7 +3133,7 @@ Before we get into the Diffie-Hellman mechanisms, let me briefly remind you of t
 
 - Alice and Bob agree on two common numbers: $p$ and $g$. $p$ is a prime number, and the larger the number, the more secure Diffie-Hellman will be. $g$ is a primitive root of $p$. These two numbers can be communicated in the clear on an unsecured network. They represent the equivalent of **the color yellow** in the previous analogy. It is therefore important that Alice and Bob use exactly the same values for $p$ and $g$.
 - Once these parameters have been defined, Alice and Bob each choose a secret random number. Alice names her secret random number $a$ (equivalent to **the color red**) and Bob names his $b$ (equivalent to **the color blue**). These numbers must remain secret.
-- Instead of directly exchanging the numbers $a$ and $b$, each UTXOy calculates $A$ and $B$ as follows:
+- Instead of directly exchanging the numbers $a$ and $b$, each party calculates $A$ and $B$ as follows:
 
 $A$ is equal to $g$ raised to the power $a$ modulo $p$:
 
@@ -3319,11 +3319,11 @@ Let's take a concrete example: I want to make a donation to a political movement
 
 How can I pass on my code without risk? Using conventional means of communication could lead to information leakage, and thus associate me with this political movement. The notification transaction offers a solution, thanks to a layer of encryption that prevents just such an association between two codes. Although it's not the only method of secretly transmitting the sender's payment code, it's a very effective one.
 
-In the diagram below, the orange lines indicate the points where the flow of information must be interrupted, and the black arrows show the connections potentially observable by third UTXOs:
+In the diagram below, the orange lines indicate the points where the flow of information must be interrupted, and the black arrows show the connections potentially observable by third parts:
 
 ![BTC204](assets/fr/225.webp)
 
-In reality, in Bitcoin's traditional confidentiality model, it is often complex to completely dissociate the flow of information between the key pair and the user, especially in remote transactions. For example, in the context of a donation campaign, the recipient must inevitably disclose an address or public key via his or her website or social networks. The correct use of BIP47, UTXOicularly with the notification transaction, makes it possible to get around this problem thanks to ECDHE and the encryption layer we'll be looking at later.
+In reality, in Bitcoin's traditional confidentiality model, it is often complex to completely dissociate the flow of information between the key pair and the user, especially in remote transactions. For example, in the context of a donation campaign, the recipient must inevitably disclose an address or public key via his or her website or social networks. The correct use of BIP47, particularly with the notification transaction, makes it possible to get around this problem thanks to ECDHE and the encryption layer we'll be looking at later.
 
 Of course, Bitcoin's classic confidentiality model still applies to ephemeral public keys, which are derived from the combination of the two payment codes. The two models are in fact complementary. What I want to emphasize here is that, unlike the usual use of a public key to receive Bitcoins, the payment code can be linked to a specific identity, as the information "_Alice is transacting with Bob_" is broken at another stage. The payment code is used to generate payment addresses, but based solely on observation of the blockchain, it is impossible to link a BIP47 payment transaction to the payment codes used to execute it, unless the UTXOs involved were already linked to an identity previously and the users associated their payment codes with their respective identities.
 
@@ -3397,7 +3397,7 @@ I'll summarize the steps we've just seen together to carry out a notification tr
 
 ### Transaction notification: a practical study
 
-To understand how it works in more detail, and in UTXOicular the use of `OP_RETURN`, let's take a look at a real notification transaction. I carried out such a transaction on the testnet, which you can find [by clicking here](https://mempool.space/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+To understand how it works in more detail, and in particular the use of `OP_RETURN`, let's take a look at a real notification transaction. I carried out such a transaction on the testnet, which you can find [by clicking here](https://mempool.space/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 ![BTC204](assets/fr/227.webp)
 
@@ -3495,7 +3495,7 @@ $$
 010011 \oplus 110110 = 100101
 $$
 
-With ECDH, the use of XOR as an encryption layer is UTXOicularly consistent. Firstly, thanks to this operator, encryption is symmetrical. This means that the recipient can decrypt the payment code with the same key used for encryption. The encryption and decryption keys are calculated from the shared secret using ECDH. This symmetry is made possible by the commutativity and associativity properties of the XOR operator:
+With ECDH, the use of XOR as an encryption layer is particularly consistent. Firstly, thanks to this operator, encryption is symmetrical. This means that the recipient can decrypt the payment code with the same key used for encryption. The encryption and decryption keys are calculated from the shared secret using ECDH. This symmetry is made possible by the commutativity and associativity properties of the XOR operator:
 
 
 - Other properties:
@@ -3830,7 +3830,7 @@ There are two main reasons for the decision to limit Silent Payments exclusively
 
 
 - Firstly, it considerably facilitates implementation and future upgrades in wallet software, since only one standard needs to be respected;
-- Secondly, this approach helps to improve users' anonset by encouraging them not to divide themselves between different types of scripts, which generate distinct wallet fingerprints in chain analysis (for more information on this concept, please refer to chapter 4 of UTXO 2).
+- Secondly, this approach helps to improve users' anonset by encouraging them not to divide themselves between different types of scripts, which generate distinct wallet fingerprints in chain analysis (for more information on this concept, please refer to chapter 4 of part 2).
 
 ### Naive derivation of a Silent Payments public key
 
@@ -3950,7 +3950,7 @@ With this method, we're starting to get a nice protocol, but there are still a f
 
 As we saw in the previous sections, Alice uses the key pair that secures her UTXO, which she will spend to calculate the ECDH shared secret with Bob. This secret enables her to derive the unique address $P_0$. However, the key pair ($a$, $A$) used by Alice can secure several UTXOs if she has reused this address several times. In the event that Alice makes two payments to Bob's static address $B$ using two UTXOs secured by the same key $A$, this would result in address reuse for Bob.
 
-> *Address reuse is a very bad practice in terms of user confidentiality. To find out why, I advise you to review the first UTXOs of this course.*
+> *Address reuse is a very bad practice in terms of user confidentiality. To find out why, I advise you to review the first parts of this course.*
 Indeed, since the unique address $P_0$ is derived from $A$ and $B$, well if Alice derives a second address for a second payment to $B$, with the same key $A$, she'll end up on exactly the same address $P_0$. To avoid this risk and prevent address reuse within Silent Payments, we'll need to modify our calculations a little.
 
 What we want is for each UTXO consumed by Alice as input to a payment to give a unique address on Bob's side, even if several UTXOs are secured by the same key pair. So all we need to do is add a reference to the UTXO when calculating the unique address $P_0$. This reference will simply be the hash of the UTXO consumed as input:
@@ -4158,7 +4158,7 @@ With label $m$:
 
 $$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G $$
 
-Once we have this payload, we add the HRP (*Human-Readable UTXO*) `sp` and the version `q` (= version 0). We also add a checksum and format the address as bech32m.
+Once we have this payload, we add the HRP (*Human-Readable part*) `sp` and the version `q` (= version 0). We also add a checksum and format the address as bech32m.
 
 For example, here is my Silent Payments static address:
 
@@ -4187,7 +4187,7 @@ Since this feature is new, we advise you to exercise caution and avoid using Sil
 
 # Final Section
 
-<UTXOId>2aee56c0-b285-4799-b4f7-373a552ee2b2</UTXOId>
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
 ## Reviews & Ratings
 

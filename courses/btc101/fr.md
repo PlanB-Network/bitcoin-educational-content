@@ -1,6 +1,6 @@
 ---
 name: Le parcours de Bitcoin
-goal: Découvrez les principes fondamentaux du bitcoin, notamment sa valeur monétaire, les mineurs, les transactions et les portefeuilles.
+goal: Découvrez les principes fondamentaux du Bitcoin, notamment sa valeur monétaire, les mineurs, les transactions et les portefeuilles.
 objectives:
   - Acquérir une compréhension générale de la technologie Bitcoin
   - Comprendre comment acheter et sécuriser des bitcoins
@@ -30,7 +30,7 @@ Vous n'avez besoin d'aucune connaissance spécifique pour commencer. En effet, l
 Bienvenue dans le cours BTC101 !
 
 
-Le bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie internet" : c'est à la fois un protocole informatique (le bitcoin) et une unité monétaire (le bitcoin).
+Le Bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie internet" : c'est à la fois un protocole informatique (le Bitcoin) et une unité monétaire (le bitcoin).
 
 Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication en réseau et la fameuse "blockchain", tandis que l'unité bitcoin sert de monnaie nécessaire au bon fonctionnement de ce protocole. Dans la vie de tous les jours, les Salvadoriens et les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, comptant sur cette technologie pour améliorer leur vie.
 
@@ -40,7 +40,7 @@ Dans ce cours, nous aborderons certains aspects monétaires du bitcoin, notammen
 
 ![image](assets/en/01.webp)
 
-Il est essentiel de comprendre que le bitcoin est un nouveau système monétaire qui modifie complètement notre rapport à l'argent. Apprendre à l'utiliser est donc une compétence nécessaire pour quiconque souhaite contrôler ses propres fonds.
+Il est essentiel de comprendre que le Bitcoin est un nouveau système monétaire qui modifie complètement notre rapport à l'argent. Apprendre à l'utiliser est donc une compétence nécessaire pour quiconque souhaite contrôler ses propres fonds.
 
 **Section 1 - Introduction**  
 - Chapitre 1 - Aperçu du cours  
@@ -76,7 +76,7 @@ Il est essentiel de comprendre que le bitcoin est un nouveau système monétaire
 - Chapitre 21 - Cas d'utilisation du Lightning Network  
 - Chapitre 22 - Pilule rouge ou pilule bleue ?  
 
-Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 3), il convient de commencer par la genèse du bitcoin. Lancé en 2009, le bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser Internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
+Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 3), il convient de commencer par la genèse du bitcoin. Lancé en 2009, le Bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser Internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
 
 Après tout, nous n'en sommes qu'au début de son adoption, puisque nous avons dépassé la phase de décollage : vous avez juste le temps d'acquérir autant de connaissances que vous le souhaitez sur cette importante innovation.
 

@@ -76,7 +76,7 @@ Il est essentiel de comprendre que le Bitcoin est un nouveau système monétaire
 - Chapitre 21 - Cas d'utilisation du Lightning Network  
 - Chapitre 22 - Pilule rouge ou pilule bleue ?  
 
-Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 3), il convient de commencer par la genèse du bitcoin. Lancé en 2009, le Bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser Internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
+Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 3), il convient de commencer par la genèse du bitcoin. Lancé en 2009, le Bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
 
 Après tout, nous n'en sommes qu'au début de son adoption, puisque nous avons dépassé la phase de décollage : vous avez juste le temps d'acquérir autant de connaissances que vous le souhaitez sur cette importante innovation.
 
@@ -138,7 +138,7 @@ Mais le bitcoin est plus que cela : il représente l'accomplissement des idéaux
 
 La préhistoire de Bitcoin est profondément ancrée dans le mouvement cypherpunk et la quête collective d'une plus grande liberté à l'ère numérique. En combinant les principes de cryptographie, de décentralisation et d'intégrité, le bitcoin est devenu bien plus qu'une monnaie. Il est en fait le produit d'une révolution philosophique et technologique qui continue à remodeler notre monde.
 
-Le bitcoin est donc un protocole qui s'étend sur de longues périodes et qui nous incite à nous interroger sur notre rapport à l'énergie, au temps et à l'argent.
+Le Bitcoin est donc un protocole qui s'étend sur de longues périodes et qui nous incite à nous interroger sur notre rapport à l'énergie, au temps et à l'argent.
 
 Mais le bitcoin est-il une "vraie" monnaie ? Pour le savoir, il faut d'abord comprendre le concept de monnaie et ses différentes formes, que nous explorerons dans le chapitre suivant.
 
@@ -179,9 +179,9 @@ Sa fonction dans notre monde est difficile à reproduire artificiellement. En ef
 
 Pour ces raisons, l'or en tant que monnaie est le résultat de 4 000 ans de darwinisme monétaire basé sur les fonctions aristotéliciennes suivantes :
 
-- Réserve de valeur\*\* : la monnaie peut être utilisée pour transférer du pouvoir d'achat dans le futur, elle doit donc être un matériau durable ;
-- Moyen d'échange\*\* : la monnaie peut être utilisée pour échanger des biens et des services au lieu de faire du troc, ce qui permet d'éviter la coïncidence des besoins entre les commerçants ;
-- Unité de compte\*\* : la monnaie nous permet également de comparer la valeur de différents biens afin de mieux comprendre leur utilité relative.
+- Réserve de valeur : la monnaie peut être utilisée pour transférer du pouvoir d'achat dans le futur, elle doit donc être un matériau durable ;
+- Moyen d'échange : la monnaie peut être utilisée pour échanger des biens et des services au lieu de faire du troc, ce qui permet d'éviter la coïncidence des besoins entre les commerçants ;
+- Unité de compte : la monnaie nous permet également de comparer la valeur de différents biens afin de mieux comprendre leur utilité relative.
 
 ![image](assets/en/08.webp)
 
@@ -193,15 +193,15 @@ Pour ces raisons, l'or en tant que monnaie est le résultat de 4 000 ans de darw
 
 L'or répond idéalement aux critères d'une monnaie efficace : sa rareté naturelle lui confère de la valeur, tandis que ses propriétés chimiques lui permettent de ne pas s'éroder avec le temps. Ces caractéristiques ont fait de l'or une excellente **magasin de valeur**, mais pas une monnaie courante, car cette forme de monnaie n'est pas facilement divisible ou transportable sur de longues distances. Dans un monde globalisé et numérique, l'or peine à suivre le rythme et a besoin d'une entité centrale pour le rendre divisible et facilement échangeable (c'est-à-dire par le biais de pièces frappées).
 
-A l'inverse, les monnaies fiduciaires étatiques (fiat) sont facilement utilisables, mais sont constamment dévaluées par les entités qui les contrôlent (rois, banques centrales, empereurs, dictateurs).
+À l'inverse, les monnaies fiduciaires étatiques (fiat) sont facilement utilisables, mais sont constamment dévaluées par les entités qui les contrôlent (rois, banques centrales, empereurs, dictateurs).
 
 Pour mieux expliquer ce concept, nous allons explorer les caractéristiques d'une monnaie efficace :
 
 ![image](assets/en/11.webp)
 
-- Fongibilité\*\*, c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
-- Divisibilité\*\*, car il peut être divisé en unités plus petites pour faciliter les transactions de volumes variables ;
-- Liquidité\*\*, ce qui signifie qu'il est facilement convertible en biens ou en services.
+- Fongibilité : c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
+- Divisibilité : car il peut être divisé en unités plus petites pour faciliter les transactions de volumes variables ;
+- Liquidité : ce qui signifie qu'il est facilement convertible en biens ou en services.
 
 Pour répondre à ces critères, la monnaie a évolué historiquement en prenant différentes mesures :
 
@@ -211,7 +211,7 @@ Pour répondre à ces critères, la monnaie a évolué historiquement en prenant
 
 Les monnaies évoluent encore aujourd'hui, adaptant leurs formes pour répondre à différents cas d'utilisation. Comme nous l'avons dit, si l'or est une excellente réserve de valeur, il n'est plus adapté à l'économie mondialisée actuelle. De même, les monnaies fiduciaires telles que le dollar et l'euro sont très liquides et facilement transportables parce qu'elles sont désormais essentiellement numériques, mais leur valeur est constamment diminuée par l'inflation monétaire.
 
-D'autre part, le bitcoin offre de nouvelles possibilités. Ses propriétés, telles que l'offre strictement limitée, en font une excellente réserve de valeur. De plus, en tant que monnaie internet neutre, il sert de **moyen d'échange** viable qui transcende les frontières. Cependant, il n'est toujours pas largement accepté dans le commerce aujourd'hui, malgré son [adoption constante] (https://btcmap.org/map).
+D'autre part, le bitcoin offre de nouvelles possibilités. Ses propriétés, telles que l'offre strictement limitée, en font une excellente réserve de valeur. De plus, en tant que monnaie internet neutre, il sert de **moyen d'échange** viable qui transcende les frontières. Cependant, il n'est toujours pas largement accepté dans le commerce aujourd'hui, malgré son [adoption constante](https://btcmap.org/map).
 
 ## Monnaies fiduciaires
 
@@ -246,7 +246,7 @@ Lorsqu'elle est bien exécutée, cette stratégie peut durer des décennies. Cep
 
 À terme, la monnaie peut ne plus avoir de lien avec l'or, comme les pièces romaines à la fin de l'Empire, voire être réduite à une simple valeur numérique, déconnectée de la réalité tangible.
 
-Nous assistons aujourd'hui à un tournant historique. Le dollar, qui a longtemps dominé, semble être en déclin, tandis que l'or a perdu son rôle central. Nous sommes au seuil d'un nouveau cycle monétaire, qui nous rappelle que les leçons de l'histoire sont souvent oubliées
+Nous assistons aujourd'hui à un tournant historique. Le dollar, qui a longtemps dominé, semble être en déclin, tandis que l'or a perdu son rôle central. Nous sommes au seuil d'un nouveau cycle monétaire, qui nous rappelle que les leçons de l'histoire sont souvent oubliées.
 
 ![image](assets/en/14.webp)
 
@@ -325,13 +325,13 @@ L'un des exemples les plus frappants d'hyperinflation s'est produit dans la Rép
 
 L'Allemagne avait emprunté d'énormes sommes d'argent pour financer la guerre. Cependant, non seulement l'Allemagne l'a perdue, mais elle a dû payer des milliards de dollars en réparations. Le mois où le taux d'inflation a été le plus élevé a été octobre 1923, avec un pic de 29 500 %, ce qui correspond à un taux d'inflation de 20,9 % par jour. Les prix doublaient tous les 3,7 jours !
 
-La monnaie allemande est devenue tellement inutile que certains citoyens préfèrent brûler leur papier-monnaie plutôt que du bois, parce que c'est moins cher. On raconte même que dans les restaurants, les serveurs devaient annoncer les prix du menu toutes les 30 minutes pour tenir compte de l'inflation.
+La monnaie allemande est devenue tellement inutile que certains citoyens préfèrent brûler leur papier-monnaie plutôt que du bois, parce que c'était moins cher. On raconte même que dans les restaurants, les serveurs devaient annoncer les prix du menu toutes les 30 minutes pour tenir compte de l'inflation.
 
 Finalement, les autorités créent une nouvelle monnaie, adossée aux dettes de l'Allemagne, de la France et de l'Angleterre, et garantie par les terres allemandes.
 
 ![image](assets/en/20.webp)
 
-- Hongrie, 1945-1946
+- Hongrie, 1945-1946.
 
 Le pays qui a connu la pire période d'hyperinflation à ce jour est de loin la Hongrie après la Seconde Guerre mondiale.
 
@@ -341,7 +341,7 @@ Le dernier billet mis en circulation fut un 100 millions de milliards de pengo (
 
 ![image](assets/en/21.webp)
 
-- Zimbabwe, 2007-2008
+- Zimbabwe, 2007-2008.
 
 Jusqu'en 2000, le Zimbabwe était autosuffisant pour la quasi-totalité de ses besoins, à l'exception du pétrole.
 
@@ -425,13 +425,13 @@ Une fois cette tâche accomplie avec succès, les mineurs sont récompensés par
 
 | 20 | 4 200 000 | 0.0000476837158203125 BTC | 20 999 979.973 BTC |
 
-Nous reviendrons plus en détail sur le concept d'exploitation minière dans le [chapitre sur les mineurs] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Nous reviendrons plus en détail sur le concept d'exploitation minière dans le [chapitre sur les mineurs](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garantir la rareté numérique
 
 La limite de 21 millions est la base de la rareté du bitcoin et est garantie par deux mécanismes clés : l'ajustement de la difficulté de minage et la théorie des jeux.
 
-- L'ajustement de la difficulté de minage est un processus qui a lieu toutes les 2016 blocs, soit environ deux semaines, afin de garantir qu'un nouveau bloc est ajouté à la blockchain toutes les dix minutes en moyenne. Cette fréquence de création de blocs et la quantité totale de bitcoins sont deux aspects fixes du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
+- L'ajustement de la difficulté de minage est un processus qui a lieu tous les 2016 blocs, soit environ deux semaines, afin de garantir qu'un nouveau bloc est ajouté à la blockchain toutes les dix minutes en moyenne. Cette fréquence de création de blocs et la quantité totale de bitcoins sont deux aspects fixes du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
 
 La difficulté de trouver un hash valide suit une sorte de cycle : si le nombre de mineurs augmente, cela signifie que le nombre de blocs qu'ils trouvent est plus élevé, ce qui entraîne une diminution du temps moyen pour trouver un bloc. De ce fait, la difficulté augmente. En conséquence, le nombre de blocs trouvés par les mineurs est réduit, ce qui signifie que le mécanisme revient à la moyenne de 10 minutes par bloc. Voir l'image ci-dessous pour une représentation visuelle.
 
@@ -451,7 +451,7 @@ L'idée de dévaluer la monnaie va à l'encontre de la philosophie fondamentale 
 
 La rareté du bitcoin est un atout majeur, et la quantité maximale de 21 millions de bitcoins en circulation est publique et vérifiable par tous.
 
-En fait, n'importe qui peut le faire par l'intermédiaire d'un nœud Bitcoin (c'est-à-dire un validateur de transaction) en entrant simplement la commande suivante : `bitcoin-cli gettxoutsetinfo`. Cette transparence renforce la confiance dans le système Bitcoin, qui ne repose pas sur des institutions centrales ou des individus, mais plutôt sur les garanties mathématiques et cryptographiques inhérentes à son protocole (Vous apprendrez à le faire facilement dans le LNP201).
+En fait, n'importe qui peut le faire par l'intermédiaire d'un nœud Bitcoin (c'est-à-dire un validateur de transaction) en entrant simplement la commande suivante : `bitcoin-cli gettxoutsetinfo`. Cette transparence renforce la confiance dans le système Bitcoin, qui ne repose pas sur des institutions centrales ou des individus, mais plutôt sur les garanties mathématiques et cryptographiques inhérentes à son protocole (vous apprendrez à le faire facilement dans le LNP201).
 
 ```json
 {
@@ -469,8 +469,6 @@ En fait, n'importe qui peut le faire par l'intermédiaire d'un nœud Bitcoin (c'
 Le bitcoin garantit une gestion monétaire saine en limitant sa création par conception, ce qui le rend très différent des autres monnaies car il peut protéger l'épargne des utilisateurs. Aligné sur les principes de l'économie autrichienne, sa quantité stable et sa distribution prévisible le protègent des risques d'inflation inhérents aux monnaies traditionnelles (voir le cours ECO201 pour en savoir plus).
 
 En résumé, le bitcoin, de par sa nature décentralisée, sa rareté programmée et sa transparence, offre une alternative unique aux systèmes monétaires traditionnels. Il illustre la manière dont la technologie peut être utilisée pour créer une monnaie qui est non seulement utile et vérifiable, mais qui préserve également la valeur de l'épargne des utilisateurs en limitant strictement son offre.
-
-### Conclusion de la section 1 !
 
 # Portefeuilles Bitcoin
 
@@ -500,7 +498,7 @@ Les portefeuilles peuvent donc être classés en grandes familles d'utilisation,
 
 ### Comment fonctionne un portefeuille Bitcoin ?
 
-Qu'il s'agisse de votre "banquier" bitcoin ou de vous-même, la grande majorité des portefeuilles bitcoin fonctionnent avec une technologie similaire basée sur la cryptographie asymétrique, qui implique un système de paires de clés : une clé privée pour dépenser et une clé publique pour recevoir.
+Qu'il s'agisse de votre "banquier" bitcoin ou de vous-même, la grande majorité des portefeuilles Bitcoin fonctionnent avec une technologie similaire basée sur la cryptographie asymétrique, qui implique un système de paires de clés : une clé privée pour dépenser et une clé publique pour recevoir.
 
 - Clé privée
 
@@ -508,7 +506,7 @@ Lors de l'initialisation d'un portefeuille, une phrase secrète de récupératio
 
 La clé privée est fondamentale car elle constitue la propriété des bitcoins et donc le droit de les utiliser ou de les envoyer. Par conséquent, le détenteur de la clé privée est le véritable propriétaire des bitcoins.
 
-Cette clé doit être gardée secrète et bien protégée, car elle vous permettra d'accéder à la fortune !
+Cette clé doit être gardée secrète et bien protégée, car elle vous permettra d'accéder à vos fonds !
 
 - Clé publique et adresse
 
@@ -536,9 +534,9 @@ Que se passe-t-il si quelqu'un devine accidentellement notre liste de 12 ou 24 m
 
 Ainsi, la probabilité de piratage de votre portefeuille Bitcoin est astronomiquement faible si vous suivez les bonnes pratiques de sécurité que nous détaillerons dans la section suivante.
 
-N'oubliez pas de choisir le bon portefeuille en fonction de vos besoins et de votre utilisation : des tutoriels détaillés sur la gestion et la sécurisation de différents portefeuilles sont disponibles dans la [section tutoriels de notre université] (https://planb.network/tutorials/wallet).
+N'oubliez pas de choisir le bon portefeuille en fonction de vos besoins et de votre utilisation : des tutoriels détaillés sur la gestion et la sécurisation de différents portefeuilles sont disponibles dans la [section tutoriels de notre université](https://planb.network/tutorials/wallet).
 
-Si, au cours de votre voyage dans le trou du lapin, vous souhaitez en savoir plus sur la construction d'un portefeuille Bitcoin, de l'entropie à la réception des adresses, nous vous recommandons le cours CYP 201 consacré à ce sujet :
+Si, au cours de votre voyage dans le terrier du lapin, vous souhaitez en savoir plus sur la construction d'un portefeuille Bitcoin, de l'entropie à la réception des adresses, nous vous recommandons le cours CYP 201 consacré à ce sujet :
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
@@ -565,17 +563,17 @@ Il n'y a pas de réponse ou de solution universelle. Prenez donc le temps de ré
 
 Ci-dessous, nous définirons plusieurs niveaux de sécurité :
 
-- Niveau 0\*\*, vous utilisez un "service de garde" où vous n'êtes pas le seul détenteur de vos bitcoins. Sachez que ce tiers de confiance peut restreindre votre accès à vos fonds à tout moment. Dans ce cas, votre niveau de souveraineté financière est similaire à celui d'un système bancaire traditionnel avec un compte en banque.
+- Niveau 0, vous utilisez un "service de garde" où vous n'êtes pas le seul détenteur de vos bitcoins. Sachez que ce tiers de confiance peut restreindre votre accès à vos fonds à tout moment. Dans ce cas, votre niveau de souveraineté financière est similaire à celui d'un système bancaire traditionnel avec un compte en banque.
 
 ![image](assets/en/31.webp)
 
-- Niveau 1\*\*, vous utilisez un portefeuille Bitcoin sur votre téléphone ou votre ordinateur, où vous êtes le seul détenteur de vos bitcoins et où vous pouvez facilement effectuer vos transactions. L'outil susmentionné est appelé "hot wallet", car la clé privée est stockée sur un appareil disposant d'un accès à Internet. Dans ce cas, il est crucial de sauvegarder votre phrase mnémotechnique pour retrouver l'accès à vos fonds en cas de perte de votre téléphone ou de votre ordinateur.
+- Niveau 1, vous utilisez un portefeuille Bitcoin sur votre téléphone ou votre ordinateur, où vous êtes le seul détenteur de vos bitcoins et où vous pouvez facilement effectuer vos transactions. L'outil susmentionné est appelé "hot wallet", car la clé privée est stockée sur un appareil disposant d'un accès à internet. Dans ce cas, il est crucial de sauvegarder votre phrase mnémotechnique pour retrouver l'accès à vos fonds en cas de perte de votre téléphone ou de votre ordinateur.
 
 Par exemple, vous pouvez utiliser Sparrow Wallet comme hot wallet :
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Niveau 2\*\*, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "cold Wallet", car vos clés sont stockées sur un appareil qui n'est pas connecté à l'internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
+- Niveau 2, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "cold Wallet", car vos clés sont stockées sur un appareil qui n'est pas connecté à internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
 
 Par exemple, vous pouvez utiliser un Ledger, un Satochip ou un Tapsigner :
 
@@ -587,7 +585,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 ![image](assets/en/32.webp)
 
-- Niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2, mais vous avez ajouté une phrase de passe supplémentaire. Dans ce cas, vous devez sauvegarder à la fois la liste des 12/24 mots **et\*\* votre phrase de passe. Idéalement, ces deux informations sont stockées dans deux endroits différents.
+- Niveau 3, vous utilisez un portefeuille de niveau 1 ou 2, mais vous avez ajouté une phrase de passe supplémentaire. Dans ce cas, vous devez sauvegarder à la fois la liste des 12/24 mots **et\*\* votre phrase de passe. Idéalement, ces deux informations sont stockées dans deux endroits différents.
 
 Pour en savoir plus sur l'utilisation et le fonctionnement de la phrase de passe BIP39 :
 
@@ -595,7 +593,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ![image](assets/en/33.webp)
 
-- Niveau 4\*\*, vous utilisez un ensemble de portefeuilles pour créer un portefeuille "multisig", ce qui signifie que plusieurs signatures sont nécessaires pour effectuer une transaction. Dans ce cas, il faut savoir que chaque partie de la signature multiple doit être stockée à des endroits différents. Cette approche est souvent considérée comme une utilisation avancée de Bitcoin, principalement pour la gestion de montants importants et pour les entreprises.
+- Niveau 4, vous utilisez un ensemble de portefeuilles pour créer un portefeuille "multisig", ce qui signifie que plusieurs signatures sont nécessaires pour effectuer une transaction. Dans ce cas, il faut savoir que chaque partie de la multi-signature doit être stockée à des endroits différents. Cette approche est souvent considérée comme une utilisation avancée de Bitcoin, principalement pour la gestion de montants importants et pour les entreprises.
 
 ![image](assets/en/34.webp)
 
@@ -607,7 +605,7 @@ Le montant que l'on est prêt à laisser sur un niveau de sécurité spécifique
 
 En conclusion, la propriété directe de ses bitcoins est un élément essentiel pour assurer sa souveraineté financière. Il est recommandé d'utiliser un portefeuille mobile pour les dépenses quotidiennes et un portefeuille physique hors ligne, ou "froid", pour stocker des montants plus importants. Les entreprises, quant à elles, devraient envisager d'utiliser des systèmes de multi-signature, ou "multisig", pour une sécurité accrue et partagée. Il est également essentiel d'éviter les services de garde, qui peuvent reproduire certaines vulnérabilités du système financier traditionnel.
 
-Ceci étant dit, nous pouvons maintenant passer à la section suivante où nous décrivons comment créer un portefeuille Bitcoin. Toutefois, si vous souhaitez approfondir le sujet de la sécurité, vous pouvez lire cet [article de DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+Ceci étant dit, nous pouvons maintenant passer à la section suivante où nous décrivons comment créer un portefeuille Bitcoin. Toutefois, si vous souhaitez approfondir le sujet de la sécurité, vous pouvez lire cet [article de DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Mise en place d'un portefeuille
 
@@ -632,7 +630,7 @@ Lorsque vous créez un portefeuille, le logiciel crée généralement votre clé
 - Ne laissez jamais vos mots sans surveillance sur votre bureau.
 - Ne cachez jamais votre liste de mots dans un endroit inhabituel.
 
-Vous devez littéralement prendre une feuille blanche ou imprimer ce [modèle] (https://bitcoiner.guide/backup.pdf), et écrire la liste de mots au stylo, en suivant l'ordre présenté de manière nette et claire. Sachez que si l'encre s'efface avec le temps, vous risquez de perdre vos fonds. Il est donc important de conserver cette feuille de papier à l'abri des facteurs environnementaux susceptibles de l'endommager, tels que l'humidité ou le feu.
+Vous devez littéralement prendre une feuille blanche ou imprimer ce [modèle](https://bitcoiner.guide/backup.pdf), et écrire la liste de mots au stylo, en suivant l'ordre présenté de manière nette et claire. Sachez que si l'encre s'efface avec le temps, vous risquez de perdre vos fonds. Il est donc important de conserver cette feuille de papier à l'abri des facteurs environnementaux susceptibles de l'endommager, tels que l'humidité ou le feu.
 
 Vous trouverez ci-dessous un exemple de la manière de rédiger le document : les mots sont faux, ne les utilisez donc pas !
 
@@ -676,7 +674,7 @@ Différentes solutions sont disponibles : certaines sont peu coûteuses, comme l
 
 Parallèlement à cette première pratique, la création d'un plan de succession est une étape cruciale pour assurer la bonne gestion de vos bitcoins après votre décès. Ce plan consiste à rédiger à la main une lettre dans laquelle vous indiquez la nature de vos biens, leurs modalités d'accès et les coordonnées des personnes de confiance qui en ont la charge. Il est également important de discuter de l'héritage des bitcoins avec un notaire pour s'assurer de la conformité fiscale, même si cette personne ne doit jamais se voir confier directement la gestion de vos bitcoins.
 
-Si vous souhaitez approfondir le sujet du plan d'héritage pour vos bitcoins, nous vous recommandons de lire le livre de Pamela Morgan [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) ou de vous inscrire au cours BTC102, dans lequel nous fournissons des conseils sur la création de votre plan.
+Si vous souhaitez approfondir le sujet du plan d'héritage pour vos bitcoins, nous vous recommandons de lire le livre de Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) ou de vous inscrire au cours BTC102, dans lequel nous fournissons des conseils sur la création de votre plan.
 
 ![image](assets/en/38.webp)
 
@@ -686,21 +684,21 @@ Outre la création de sauvegardes physiques ou l'élaboration d'un plan de succe
 
 En ce qui concerne la protection de la vie privée, il est essentiel d'éviter de parler de vos bitcoins à tout le monde. Nous ne pouvons pas prédire comment cette technologie sera perçue à l'avenir, c'est pourquoi il est sage de rester discret sur votre propriété : vous ne voulez pas attirer l'attention sur vous ou sur votre portefeuille.
 
-De même, évitez de donner ouvertement des détails sur votre système de sécurité lors de réunions sur le bitcoin ou de rencontres avec des inconnus...
+De même, évitez de donner ouvertement des détails sur votre système de sécurité lors de réunions sur le Bitcoin ou de rencontres avec des inconnus...
 
 ### Résumé sur la sécurité des portefeuilles Bitcoin
 
 :::video id=3c7b1de8-d1d0-4e22-862b-2fe82fc84609:::
 
-Les portefeuilles bitcoins sont des logiciels qui permettent de stocker des bitcoins et d'effectuer des transactions. Il en existe plusieurs types :
+Les portefeuilles Bitcoin sont des logiciels qui permettent de stocker des bitcoins et d'effectuer des transactions. Il en existe plusieurs types :
 
-- portefeuilles mobiles ou PC, pratiques pour les petits montants et/ou les dépenses régulières ;
+- les portefeuilles mobiles ou PC, pratiques pour les petits montants et/ou les dépenses régulières ;
 - les portefeuilles physiques, plus adaptés au stockage des bitcoins à moyen et long terme ;
-- les portefeuilles multisig, qui sont plus complexes à gérer et nécessitent plusieurs signatures pour effectuer des transactions.
+- les portefeuilles multi-signature, qui sont plus complexes à gérer et nécessitent plusieurs signatures pour effectuer des transactions.
 
 Lors de la création d'un portefeuille, vous devez d'abord sauvegarder votre liste de 12 ou 24 mots sur un morceau de papier ou une plaque de métal. Cette phrase mnémotechnique vous permet de restaurer votre portefeuille à l'aide de n'importe quelle application de portefeuille Bitcoin. Sachez que toute personne ayant accès à cette liste a également accès à vos fonds.
 
-Dans le monde du bitcoin, la souveraineté financière est étroitement liée à la responsabilité individuelle. Il est donc essentiel de sécuriser l'accès à vos portefeuilles et à vos sauvegardes. Pour ce faire, il est important de respecter certaines règles :
+Dans le monde de Bitcoin, la souveraineté financière est étroitement liée à la responsabilité individuelle. Il est donc essentiel de sécuriser l'accès à vos portefeuilles et à vos sauvegardes. Pour ce faire, il est important de respecter certaines règles :
 
 - Créez un plan de succession pour vous assurer que vos proches pourront récupérer l'argent en cas de problème.
 - Évitez de laisser vos bitcoins sur des plateformes d'échange, car elles sont susceptibles d'être attaquées par des pirates informatiques.
@@ -718,41 +716,41 @@ Maintenant que nous avons abordé les bases des portefeuilles Bitcoin et les mei
 
 :::video id=b551f3e8-09e9-400b-9fc6-0af59c4e68b1:::
 
-### Commençons par un peu d'histoire.
+### Commençons par un peu d'histoire
 
 ![image](assets/en/39.webp)
 
-Le 31 octobre 2008 marque la naissance de la nouvelle technologie financière qu'est le bitcoin. Ce jour-là, l'anonyme Satoshi Nakamoto a présenté son innovation au monde entier par l'intermédiaire d'un courriel envoyé à la liste de diffusion des cypherpunks, une communauté de passionnés de cryptographie qui se consacrent à la promotion de la vie privée sur l'internet. Ce courriel contenait un document appelé "Livre blanc", qui présentait le fonctionnement du bitcoin.
+Le 31 octobre 2008 marque la naissance de la nouvelle technologie financière qu'est le Bitcoin. Ce jour-là, l'anonyme Satoshi Nakamoto a présenté son innovation au monde entier par l'intermédiaire d'un courriel envoyé à la liste de diffusion des cypherpunks, une communauté de passionnés de cryptographie qui se consacrent à la promotion de la vie privée sur internet. Ce courriel contenait un document appelé "Livre blanc", qui présentait le fonctionnement de Bitcoin.
 
 Cette initiative n'a pas immédiatement suscité l'enthousiasme, probablement en raison des échecs précédents des tentatives de création d'un système de monnaie numérique. Néanmoins, ce livre blanc est devenu une référence pour les utilisateurs de Bitcoin et a fait l'objet de nombreux débats dans l'écosystème Bitcoin au fil des ans.
 
 ![image](assets/en/40.webp)
 
-Le 3 janvier 2009, Satoshi a officiellement inauguré le réseau Bitcoin en créant le premier bloc, également connu sous le nom de "bloc Genesis", qui a marqué le lancement de la blockchain Bitcoin. Ce bloc contient un message révélateur de la mission de Bitcoin : "03/jan/2009 Chancellor on brink of second bailout for banks"
+Le 3 janvier 2009, Satoshi a officiellement inauguré le réseau Bitcoin en créant le premier bloc, également connu sous le nom de "bloc Genesis", qui a marqué le lancement de la blockchain Bitcoin. Ce bloc contient un message révélateur de la mission de Bitcoin : "03/jan/2009 Chancellor on brink of second bailout for banks".
 
-![image](assets/en/41.webp)
-
-> "Nous pouvons remporter une bataille majeure dans la course aux armements et gagner une place de choix dans l'histoire de l'Europe
-> nouveau territoire de liberté depuis plusieurs années" - Satoshi Nakamoto
-> ![image](assets/en/42.webp)
-
-### Le protocole Bitcoin prend vie
-
-Le 9 janvier 2009, Satoshi a annoncé la sortie de la version 0.1.0 du Bitcoin. Peu après, Hal Finney prend en main le logiciel et rejoint le réseau, ce qui marque la présence de deux nœuds et donc de deux mineurs dans le réseau. Finney a même immortalisé cette étape en tweetant "Running Bitcoin". Le 12 janvier 2009, la première transaction bitcoin de 10 BTC a été effectuée entre Satoshi et Hal Finney, et vous pouvez facilement la retrouver, si vous remontez au bloc 170.
-
-![image](assets/en/43.webp)
-
-L'intérêt pour le bitcoin s'est rapidement développé, amenant de nombreuses personnes à le tester, à participer à des débats, à résoudre des bogues et à réfléchir à ses aspects éthiques, économiques et philosophiques. Les gens étaient tellement captivés que Satoshi a créé le forum BitcoinTalk le 22 novembre 2009, afin de faciliter ce type de confrontation.
-
-Le forum est rapidement devenu le lieu de discussion privilégié des utilisateurs de Bitcoin, à tel point que des mèmes et symboles célèbres associés à Bitcoin en sont nés, tels que le [logo Bitcoin] (https://bitcointalk.org/index.php?topic=64.0), le célèbre [Hodl] (https://bitcointalk.org/index.php?topic=375643.0), ou encore le [Pizza day] (https://bitcointalk.org/index.php?topic=137.msg1195).
-
-\*\*Le 22 mai 2010, Laszlo Hanyecz est entré dans l'histoire en proposant d'acheter deux pizzas pour 10 000 BTC : c'était la première fois que des bitcoins étaient utilisés pour acheter des biens matériels.
+![image](assets/en/41.webp) 
 
 ![image](assets/en/44.webp)
 
+> "Nous pouvons remporter une bataille majeure dans la course aux armements et gagner un nouveau territoire de liberté depuis plusieurs années." - Satoshi Nakamoto
+
+### Le protocole Bitcoin prend vie
+
+Le 9 janvier 2009, Satoshi a annoncé la sortie de la version 0.1.0 de Bitcoin. Peu après, Hal Finney prend en main le logiciel et rejoint le réseau, ce qui marque la présence de deux nœuds et donc de deux mineurs dans le réseau. Finney a même immortalisé cette étape en tweetant "Running bitcoin". Le 12 janvier 2009, la première transaction bitcoin de 10 BTC a été effectuée entre Satoshi et Hal Finney, et vous pouvez facilement la retrouver, si vous remontez au bloc 170.
+
+![image](assets/en/43.webp)
+
+L'intérêt pour le Bitcoin s'est rapidement développé, amenant de nombreuses personnes à le tester, à participer à des débats, à résoudre des bogues et à réfléchir à ses aspects éthiques, économiques et philosophiques. Les gens étaient tellement captivés que Satoshi a créé le forum BitcoinTalk le 22 novembre 2009, afin de faciliter ce type de confrontation.
+
+Le forum est rapidement devenu le lieu de discussion privilégié des utilisateurs de Bitcoin, à tel point que des mèmes et symboles célèbres associés à Bitcoin en sont nés, tels que le [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), le célèbre [Hodl](https://bitcointalk.org/index.php?topic=375643.0), ou encore le [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
+
+Le 22 mai 2010, Laszlo Hanyecz est entré dans l'histoire en proposant d'acheter deux pizzas pour 10 000 BTC : c'était la première fois que des bitcoins étaient utilisés pour acheter des biens matériels.
+
+![image](assets/en/42.webp)
+
 ### La disparition de Satoshi Nakamoto
 
-En 2010, alors que le bitcoin commence à attirer l'attention des médias, Satoshi décide de prendre ses distances en annonçant son départ dans un post de forum le 12 décembre 2010. Le 23 avril 2011, il effectue son dernier échange privé connu par email, puis disparaît, laissant sa création aux mains de la communauté.
+En 2010, alors que le Bitcoin commence à attirer l'attention des médias, Satoshi décide de prendre ses distances en annonçant son départ dans un post de forum le 12 décembre 2010. Le 23 avril 2011, il effectue son dernier échange privé connu par email, puis disparaît, laissant sa création aux mains de la communauté.
 
 > "Les gouvernements sont doués pour couper les têtes d'une économie centralisée
 > les réseaux contrôlés comme Napster, mais les réseaux P2P purs comme Napster

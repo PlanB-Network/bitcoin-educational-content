@@ -94,7 +94,7 @@ Bitcoin is first and foremost a currency, but do you actually know how BTC are r
 
 The Bitcoin protocol is based on the UTXO model, which stands for "Unspent Transaction Output".
 
-This model differs profoundly from traditional banking systems, which rely on a mechanism of accounts and balances to track financial flows. Indeed, in the banking system, individual balances are maintained in accounts attached to an identity. For example, when you buy a baguette from a baker, your bank simply debits the purchase amount from your account, reducing your balance, while the baker's account is credited with the same amount, increasing its balance. In this system, there is no notion of a link between the money entering your account and the money leaving it, apart from transaction records.
+This model differs profoundly from traditional banking systems, which rely on a mechanism of accounts and balances to track financial flows. Indeed, in the banking system, individual balances are maintained in accounts attached to an identity. For example, when you buy bread from a baker, your bank simply debits the purchase amount from your account, reducing your balance, while the baker's account is credited with the same amount, increasing its balance. In this system, there is no notion of a link between the money entering your account and the money leaving it, apart from transaction records.
 
 ![BTC204](assets/fr/006.webp)
 
@@ -164,7 +164,7 @@ The action of a Bitcoin transaction on UTXO can thus be compared to recasting a 
 
 This mechanism is similar to that of a gold coin. Let's say you own a 2-ounce coin and want to make a payment of 1 ounce, assuming the seller can't give you change. You would have to melt your coin and cast 2 new ones of 1 ounce each.
 
-Bitcoin works in a similar way. Let's imagine that Alice has a UTXO of `10,000 SATS` and wishes to buy a baguette costing `4,000 SATS`. Alice will make a transaction with 1 UTXO of `10,000 SATS` as input, which she will consume in full, and 2 UTXOs of `4,000 SATS` and `6,000 SATS` as output. The UTXO of `4,000 SATS` will be sent to the baker in payment for the baguette, while the UTXO of `6,000 SATS` will return to Alice in the form of change. This UTXO, which returns to the original issuer of the transaction, is known as "exchange" in Bitcoin jargon.
+Bitcoin works in a similar way. Let's imagine that Alice has a UTXO of `10,000 SATS` and wishes to buy bread costing `4,000 SATS`. Alice will make a transaction with 1 UTXO of `10,000 SATS` as input, which she will consume in full, and 2 UTXOs of `4,000 SATS` and `6,000 SATS` as output. The UTXO of `4,000 SATS` will be sent to the baker in payment for the baguette, while the UTXO of `6,000 SATS` will return to Alice in the form of change. This UTXO, which returns to the original issuer of the transaction, is known as "exchange" in Bitcoin jargon.
 
 ![BTC204](assets/fr/013.webp)
 
@@ -174,13 +174,13 @@ Now let's imagine that Alice doesn't have a single UTXO of `10,000 SATS`, but ra
 
 ### Transaction fees
 
-Intuitively, one might think that transaction costs also represent the output of a transaction. But in reality, this is not the case. Transaction costs represent the difference between total inputs and total outputs. This means that, after using UTXO of the value of the inputs to cover the desired outputs in a transaction, a certain sum of the inputs remains unused. This residual sum constitutes the transaction costs.
+Intuitively, one might think that transaction costs also represent the output of a transaction. But in reality, this is not the case. Transaction costs represent the difference between total inputs and total outputs. This means that, after using part of the value of the inputs to cover the desired outputs in a transaction, a certain sum of the inputs remains unused. This residual sum constitutes the transaction costs.
 
 ```plaintext
 Frais = total inputs - total outputs
 ```
 
-Let's take the example of Alice, who has a UTXO of `10,000 SATS` and wants to buy a baguette at `4,000 SATS`. Alice creates a transaction with her UTXO of `10,000 SATS` as input. She then generates an output of `4,000 SATS` for the baker to pay for the baguette. To encourage miners to integrate her transaction into a block, Alice allocates `200 SATS` in fees. She then creates a second output, the change, which will be returned to her, amounting to `5,800 SATS`.
+Let's take the example of Alice, who has a UTXO of `10,000 SATS` and wants to buy bread at `4,000 SATS`. Alice creates a transaction with her UTXO of `10,000 SATS` as input. She then generates an output of `4,000 SATS` for the baker to pay for the baguette. To encourage miners to integrate her transaction into a block, Alice allocates `200 SATS` in fees. She then creates a second output, the change, which will be returned to her, amounting to `5,800 SATS`.
 
 ![BTC204](assets/fr/015.webp)
 
@@ -282,7 +282,7 @@ Because of the constraint of public propagation of transactions that we saw in t
 
 ![BTC204](assets/fr/024.webp)
 
-For example, if you buy a baguette from the baker, paying in BTC, your neighbor, who has his own full node, can see your transaction go through, just as he can see all the other transactions in the system. However, if confidentiality principles are respected, he should not be able to link this specific transaction to your identity.
+For example, if you buy bread from the baker, paying in BTC, your neighbor, who has his own full node, can see your transaction go through, just as he can see all the other transactions in the system. However, if confidentiality principles are respected, he should not be able to link this specific transaction to your identity.
 
 ![BTC204](assets/fr/025.webp)
 
@@ -1084,7 +1084,7 @@ The construction of reception addresses also depends on the script model chosen:
 
 ![BTC204](assets/fr/068.webp)
 
-Addresses displayed on your wallet software also include an HRP (*Human-Readable part*), typically `bc` for post-SegWit addresses, a `1` separator, and a version number `q` for SegWit V0 and `p` for Taproot/SegWit V1. A checksum is also added to guarantee the integrity and validity of the address during transmission.
+Addresses displayed on your wallet software also include an HRP (*Human-Readable Part*), typically `bc` for post-SegWit addresses, a `1` separator, and a version number `q` for SegWit V0 and `p` for Taproot/SegWit V1. A checksum is also added to guarantee the integrity and validity of the address during transmission.
 
 Finally, the addresses are put into a standard format:
 
@@ -1226,7 +1226,7 @@ When you perform a transaction, the coin control lets you specifically choose wh
 - The possibility for the recipient of the payment to link part of your identity to the UTXOs used in inputs;
 - The ability of an external observer to establish links between all the UTXOs consumed as inputs.
 
-To illustrate the first point, let's take a concrete example. Suppose you buy a baguette in bitcoins from your baker. You use one or more UTXOs that you hold as inputs to meet at least the price of the baguette in outputs, as well as the transaction fees. Your baker could then potentially associate your face, or any other part of your identity that he knows, with the coins used as inputs. Knowing the existence of this link, you might prefer to choose a specific UTXO rather than another when paying.
+To illustrate the first point, let's take a concrete example. Suppose you buy bread in bitcoins from your baker. You use one or more UTXOs that you hold as inputs to meet at least the price of the baguette in outputs, as well as the transaction fees. Your baker could then potentially associate your face, or any other part of your identity that he knows, with the coins used as inputs. Knowing the existence of this link, you might prefer to choose a specific UTXO rather than another when paying.
 
 ![BTC204](assets/fr/074.webp)
 
@@ -2362,7 +2362,7 @@ An efficiency of $100$ indicates that the transaction is making the most of its 
 
 ### Entropy density
 
-Entropy is a good indicator for measuring the confidentiality of a transaction, but it depends in UTXO on the number of inputs and outputs in the transaction. To compare the entropy of 2 different transactions with different numbers of inputs and outputs, we can calculate the entropy density. This indicator provides a perspective on the entropy relative to each input or output of the transaction. Density is useful for evaluating and comparing the efficiency of transactions of different sizes.
+Entropy is a good indicator for measuring the confidentiality of a transaction, but it depends in part on the number of inputs and outputs in the transaction. To compare the entropy of 2 different transactions with different numbers of inputs and outputs, we can calculate the entropy density. This indicator provides a perspective on the entropy relative to each input or output of the transaction. Density is useful for evaluating and comparing the efficiency of transactions of different sizes.
 
 To calculate it, we simply divide the total entropy of the transaction by the total number of inputs and outputs involved in the transaction:
 
@@ -2504,7 +2504,7 @@ It was in 2015 that LaurentMT first discussed this method under the name "*stega
 
 The special feature of payjoin lies in its ability to generate a transaction that appears ordinary at first glance, but is in fact a mini Coinjoin between two people. To achieve this, the transaction structure involves the payment recipient in the inputs alongside the actual sender. The recipient thus includes a payment to himself in the middle of the transaction which itself enables him to be paid.
 
-Let's take an example to better understand this process. Alice buys a baguette for 4,000 sats using a UTXO of 10,000 sats and opts for a payjoin. Her baker, Bob, adds a UTXO of 15,000 sats belonging to him as input, which he recovers in full as output, in addition to Alice's 4,000 sats.
+Let's take an example to better understand this process. Alice buys bread for 4,000 sats using a UTXO of 10,000 sats and opts for a payjoin. Her baker, Bob, adds a UTXO of 15,000 sats belonging to him as input, which he recovers in full as output, in addition to Alice's 4,000 sats.
 
 ![BTC204](assets/fr/165.webp)
 
@@ -2518,7 +2518,7 @@ Firstly, payjoin aims to mislead an outside observer by creating a lure in the c
 
 So, when an analyst examines a payjoin transaction, he or she is led to believe that all inputs come from the same person. However, this perception is wrong, because the payee also contributes to the inputs alongside the actual payer. The chain analysis is therefore diverted towards an interpretation that turns out to be wrong.
 
-Let's take our example of a payjoin transaction for the payment of a baguette:
+Let's take our example of a payjoin transaction for the payment of bread:
 
 ![BTC204](assets/fr/166.webp)
 
@@ -2536,7 +2536,7 @@ In this way, the external observer's analysis is steered towards an erroneous co
 
 The second purpose of payjoin is to mislead an outside observer about the actual amount of the payment that has been made. By examining the structure of the transaction, the analyst might believe that the payment is equivalent to the amount of one of the outputs.
 
-If we go back to our example of the purchase of a baguette, the analyst will think that the payment amount corresponds either to the UTXO of 6,000 sats, or to the UTXO of 19,000 sats. In this case, the analyst will rather think that the payment amount is 19,000 sats, because there are 2 UTXOs in outputs, at least one of which is greater than 6,000 sats (there is no logical reason to use 2 UTXOs to pay 6,000 sats when a single UTXO would have been sufficient to satisfy this payment).
+If we go back to our example of the purchase of bread, the analyst will think that the payment amount corresponds either to the UTXO of 6,000 sats, or to the UTXO of 19,000 sats. In this case, the analyst will rather think that the payment amount is 19,000 sats, because there are 2 UTXOs in outputs, at least one of which is greater than 6,000 sats (there is no logical reason to use 2 UTXOs to pay 6,000 sats when a single UTXO would have been sufficient to satisfy this payment).
 
 ![BTC204](assets/fr/169.webp)
 
@@ -2619,7 +2619,7 @@ And what's particularly interesting about the structure of the Stonewall transac
 
 Stonewall x2 is another specific form of Bitcoin transaction that also aims to increase user confidentiality when making a spend, but this time by collaborating with a third person not involved in that spend. This method works like a pseudo-coinjoin between two participants, while simultaneously making a payment to a third person.
 
-The operation of the Stonewall x2 transaction is relatively simple: we use a UTXO in our possession to make the payment, and enlist the help of a third party who also contributes with a UTXO belonging to him or her. The transaction ends up with four outputs: two of them in equal amounts, one destined for the payee's address, the other for an address belonging to the collaborator. A third part is returned to another address belonging to the collaborator, enabling him to recover the initial amount (a neutral action for him, modulo the mining costs), and a final UTXO returns to an address belonging to us, which constitutes the payment change.
+The operation of the Stonewall x2 transaction is relatively simple: we use a UTXO in our possession to make the payment, and enlist the help of a third party who also contributes with a UTXO belonging to him or her. The transaction ends up with four outputs: two of them in equal amounts, one destined for the payee's address, the other for an address belonging to the collaborator. A third UTXO is returned to another address belonging to the collaborator, enabling him to recover the initial amount (a neutral action for him, modulo the mining costs), and a final UTXO returns to an address belonging to us, which constitutes the payment change.
 
 Three different roles are thus defined in Stonewall x2 transactions:
 
@@ -2683,7 +2683,7 @@ Stonewall and Stonewall x2 transactions are available on both the Samourai Walle
 
 ![BTC204](assets/fr/183.webp)
 
-However, as with payjoins, following the arrest of Samourai's founders, Stonewall x2 transactions now only work by manually exchanging PSBTs between the UTXOs concerned. Unfortunately, automatic exchange via Soroban is no longer available.
+However, as with payjoins, following the arrest of Samourai's founders, Stonewall x2 transactions now only work by manually exchanging PSBTs between the parties concerned. Unfortunately, automatic exchange via Soroban is no longer available.
 
 It is also possible to carry out this type of transaction manually from any Bitcoin wallet software.
 
@@ -2787,18 +2787,18 @@ However, this naive method presents a high risk in terms of trust. There's nothi
 
 ![BTC204](assets/fr/195.webp)
 
-Furthermore, there is no guarantee that Alice will not receive Bob's private key $B$ and never pass on her private key $A$ in exchange. This exchange therefore relies on excessive trust between the UTXOs, and is ineffective in ensuring a secure secret transfer of ownership.
+Furthermore, there is no guarantee that Alice will not receive Bob's private key $B$ and never pass on her private key $A$ in exchange. This exchange therefore relies on excessive trust between the parties, and is ineffective in ensuring a secure secret transfer of ownership.
 
 ![BTC204](assets/fr/196.webp)
 
 To solve these problems and enable exchanges between UTXOs who don't trust each other, we're going to use smart contract systems instead. A smart contract is a program that executes automatically when predefined conditions are met. In our case, this ensures that the exchange of property takes place automatically, without the need for mutual trust.
 
-This can be achieved using HTLC (*Hash Time-Locked Contracts*) or PTLC (*Point Time-Locked Contracts*). These two protocols operate in a similar way, using a time-locking system which ensures that the exchange is either completed successfully or cancelled entirely, thus protecting the integrity of both UTXOs' funds. The main difference between HTLC and PTLC is that HTLC uses hashes and preimages to secure the transaction, while PTLC uses Adaptor Signatures.
+This can be achieved using HTLC (*Hash Time-Locked Contracts*) or PTLC (*Point Time-Locked Contracts*). These two protocols operate in a similar way, using a time-locking system which ensures that the exchange is either completed successfully or cancelled entirely, thus protecting the integrity of parts' funds. The main difference between HTLC and PTLC is that HTLC uses hashes and preimages to secure the transaction, while PTLC uses Adaptor Signatures.
 
 In a coinswap scenario using HTLC or PTLC between Alice and Bob, the exchange takes place securely: either it succeeds and each receives the other's BTC, or it fails and each keeps their own BTC. This makes it impossible for either party to cheat or steal the other's BTC.
 
 > *HTLC is also the mechanism used to securely route payments through the Lightning Network's bidirectional channels*
-The use of Adaptor Signatures is particularly interesting in this context, as it makes it possible to dispense with traditional scripts (a mechanism sometimes referred to as "_scriptless scripts_"). This feature reduces the costs associated with exchange. Another major advantage of Adaptor Signatures is that they do not require the use of a common hash for both UTXOs to the transaction, thus avoiding the need to reveal a direct link between them in certain types of exchange.
+The use of Adaptor Signatures is particularly interesting in this context, as it makes it possible to dispense with traditional scripts (a mechanism sometimes referred to as "_scriptless scripts_"). This feature reduces the costs associated with exchange. Another major advantage of Adaptor Signatures is that they do not require the use of a common hash for parts to the transaction, thus avoiding the need to reveal a direct link between them in certain types of exchange.
 
 ### Adaptor Signatures
 
@@ -2852,7 +2852,7 @@ Note that coinswaps were first proposed by [Gregory Maxwell in October 2013 on B
 
 ### Atomic swap
 
-In a similar way to coinswap, and using the same types of smart contracts, it is also possible to carry out atomic swaps. An atomic swap enables a direct exchange of different cryptocurrencies, such as BTC and XMR, between two users without the need for trust or the intervention of an intermediary. These exchanges are termed "atomic" because they have only two possible outcomes: either the swap is successful and both UTXOs are satisfied, or it fails and each retains their original cryptocurrencies, eliminating the need to trust the other party.
+In a similar way to coinswap, and using the same types of smart contracts, it is also possible to carry out atomic swaps. An atomic swap enables a direct exchange of different cryptocurrencies, such as BTC and XMR, between two users without the need for trust or the intervention of an intermediary. These exchanges are termed "atomic" because they have only two possible outcomes: either the swap is successful and parts are satisfied, or it fails and each retains their original cryptocurrencies, eliminating the need to trust the other party.
 
 ![BTC204](assets/fr/197.webp)
 
@@ -2935,7 +2935,7 @@ Even in the presence of spy nodes during the stem phase, a doubt always remains,
 
 This routing method blurs the trail leading back to the source node, making it difficult to trace a transaction back through the network to its origin. Dandelion thus improves confidentiality by limiting the ability of adversaries to de-anonymize the network. This method is all the more effective when, during the "stemming" phase, the transaction crosses a node that encrypts its network communications, as with Tor or P2P Transport V2.
 
-BIP156 has not been integrated into Bitcoin Core and is currently classified as "rejected". One of the main concerns with this protocol is that, during the stem phase, transactions must be relayed through intermediate nodes before being verified. As we have seen, in the normal Bitcoin model, each node first verifies the transaction before broadcasting it to its peers. If a transaction does not comply with the node's consensus rules or local standardization rules, the node ignores it and does not distribute it. This process is important to counter DoS attacks, as only valid transactions are broadcast to the entire network. Invalid transactions, potentially generated en masse to overload the network, are stopped at the first node encountered and do not propagate. The main risk with Dandelion is that this new protocol could introduce new vectors for DoS attacks by allowing invalid transactions to be broadcast across UTXO of the network.
+BIP156 has not been integrated into Bitcoin Core and is currently classified as "rejected". One of the main concerns with this protocol is that, during the stem phase, transactions must be relayed through intermediate nodes before being verified. As we have seen, in the normal Bitcoin model, each node first verifies the transaction before broadcasting it to its peers. If a transaction does not comply with the node's consensus rules or local standardization rules, the node ignores it and does not distribute it. This process is important to counter DoS attacks, as only valid transactions are broadcast to the entire network. Invalid transactions, potentially generated en masse to overload the network, are stopped at the first node encountered and do not propagate. The main risk with Dandelion is that this new protocol could introduce new vectors for DoS attacks by allowing invalid transactions to be broadcast across part of the network.
 
 ### P2P transport V2
 
@@ -2998,7 +2998,7 @@ The aim of BIP47 is to make it possible to receive a large number of payments wi
 
 A user can therefore share his or her payment code in complete freedom, whether on social networks or on his or her website, without risking any loss of confidentiality, unlike with a conventional recipient address or public key.
 
-To carry out a transaction, both UTXOs need a Bitcoin wallet with a BIP47 implementation, such as PayNym on Samurai Wallet or Sparrow Wallet. The joint use of their payment codes creates a secret channel between them. To establish this channel effectively, the issuer must carry out a specific transaction on the Bitcoin blockchain, known as a "notification transaction" (more on this later).
+To carry out a transaction, parts need a Bitcoin wallet with a BIP47 implementation, such as PayNym on Samurai Wallet or Sparrow Wallet. The joint use of their payment codes creates a secret channel between them. To establish this channel effectively, the issuer must carry out a specific transaction on the Bitcoin blockchain, known as a "notification transaction" (more on this later).
 
 Combining the payment codes of the two users generates shared secrets, which in turn create a large number of unique Bitcoin receiving addresses (exactly 2^32, or around 4 billion). In this way, payments made via BIP47 are not actually addressed to the payment code itself, but rather to classic receipt addresses derived from the payment codes of the users involved.
 
@@ -3098,7 +3098,7 @@ In concrete terms, to generate the compressed public key and string code associa
 
 The cryptographic protocol at the heart of BIP47 is known by the acronym ECDH, for *Elliptic-Curve Diffie-Hellman*. This method is a variant of the original Diffie-Hellman key exchange.
 
-Introduced in 1976, Diffie-Hellman is a key agreement protocol that enables two UTXOs, each equipped with a key pair (public and private), to agree on a common secret, even when communicating only via a public, unsecured channel.
+Introduced in 1976, Diffie-Hellman is a key agreement protocol that enables two parties, each equipped with a key pair (public and private), to agree on a common secret, even when communicating only via a public, unsecured channel.
 
 ![BTC204](assets/fr/219.webp)
 
@@ -3148,7 +3148,7 @@ B = g^b \bmod p
 $$
 
 
-- The values $A$ (equivalent to **the color orange**) and $B$ (equivalent to **the color green**) are exchanged between the two UTXOs. This exchange can take place in clear text on an unsecured network;
+- The values $A$ (equivalent to **the color orange**) and $B$ (equivalent to **the color green**) are exchanged between the two parties. This exchange can take place in clear text on an unsecured network;
 - Alice, having received $B$, calculates the value of $z$ as follows:
 
 $z$ is equal to $B$ raised to the power $a$ modulo $p$:
@@ -3279,11 +3279,11 @@ TLS is responsible for the `s` in `https` and the padlock in your browser's addr
 
 ### The notification transaction
 
-As we saw in the previous section, ECDH is a variant of the Diffie-Hellman exchange using key pairs established on an elliptic curve. It's a good thing we already have many key pairs respecting this standard in our Bitcoin wallets! The idea of BIP47 is to use the key pairs of both UTXOs' hierarchical deterministic Bitcoin wallets to establish shared, ephemeral secrets between them. BIP47 uses ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) instead.
+As we saw in the previous section, ECDH is a variant of the Diffie-Hellman exchange using key pairs established on an elliptic curve. It's a good thing we already have many key pairs respecting this standard in our Bitcoin wallets! The idea of BIP47 is to use the key pairs of parts' hierarchical deterministic Bitcoin wallets to establish shared, ephemeral secrets between them. BIP47 uses ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) instead.
 
 ![BTC204](assets/fr/223.webp)
 
-ECDHE is first used in BIP47 to transmit the payment code from the sender to the recipient. This is the famous **notification transaction**. This step is essential, because for BIP47 to work effectively, both UTXOs involved (sender and receiver) need to know each other's payment codes. This knowledge enables the derivation of ephemeral public keys and, consequently, the associated blank receiving addresses.
+ECDHE is first used in BIP47 to transmit the payment code from the sender to the recipient. This is the famous **notification transaction**. This step is essential, because for BIP47 to work effectively, parts involved (sender and receiver) need to know each other's payment codes. This knowledge enables the derivation of ephemeral public keys and, consequently, the associated blank receiving addresses.
 
 Prior to this exchange, the sender is logically already aware of the recipient's payment code, having retrieved it off-chain, for example from his or her website, invoice or social networks. However, the recipient is not necessarily aware of the sender's payment code. However, the code must be transmitted to him; otherwise, he won't be able to derive the ephemeral keys needed to identify the addresses where his bitcoins are stored, or access his funds. Although this transmission of the sender's code can technically be carried out off-chain by other means of communication, this poses a problem if the wallet is to be retrieved from the seed only.
 
@@ -3303,9 +3303,9 @@ Before detailing the technical operation of the notification transaction, it is 
 
 The payment code itself does not present a direct risk to confidentiality. Unlike the traditional Bitcoin model, which aims to break the link between the user's identity and his transactions (which are public) by preserving the anonymity of keys and addresses, the payment code can be openly associated with an identity without posing a threat.
 
-This is because the payment code is not used to directly derive the addresses receiving BIP47 payments. Instead, these addresses are generated via the ECDH application between the keys derived from the payment codes of the two UTXOs involved.
+This is because the payment code is not used to directly derive the addresses receiving BIP47 payments. Instead, these addresses are generated via the ECDH application between the keys derived from the payment codes of the two parties involved.
 
-Thus, a payment code in itself does not directly lead to a loss of confidentiality, since only the notification address is derived from it. Although this address can reveal certain information, it does not normally reveal the UTXOs with whom you are transacting, unless a thorough chain analysis is carried out. Indeed, if the sender uses UTXOs that can be linked to his identity to carry out the notification transaction, then it becomes possible to deduce that his identity is probably linked to BIP47 payments to your payment code. This will not reveal the underlying transactions, but will indicate their likely existence.
+Thus, a payment code in itself does not directly lead to a loss of confidentiality, since only the notification address is derived from it. Although this address can reveal certain information, it does not normally reveal the parties with whom you are transacting, unless a thorough chain analysis is carried out. Indeed, if the sender uses UTXOs that can be linked to his identity to carry out the notification transaction, then it becomes possible to deduce that his identity is probably linked to BIP47 payments to your payment code. This will not reveal the underlying transactions, but will indicate their likely existence.
 
 It is therefore essential to maintain this strict separation between users' payment codes. With this in mind, the initial communication of the code is a critical moment for payment confidentiality, yet one that is essential for the protocol to function correctly. If one of the payment codes can be obtained publicly (as on a website), the second code, that of the sender, must under no circumstances be linked to the first.
 
@@ -3319,7 +3319,7 @@ Let's take a concrete example: I want to make a donation to a political movement
 
 How can I pass on my code without risk? Using conventional means of communication could lead to information leakage, and thus associate me with this political movement. The notification transaction offers a solution, thanks to a layer of encryption that prevents just such an association between two codes. Although it's not the only method of secretly transmitting the sender's payment code, it's a very effective one.
 
-In the diagram below, the orange lines indicate the points where the flow of information must be interrupted, and the black arrows show the connections potentially observable by third parts:
+In the diagram below, the orange lines indicate the points where the flow of information must be interrupted, and the black arrows show the connections potentially observable by third parties:
 
 ![BTC204](assets/fr/225.webp)
 
@@ -3570,7 +3570,7 @@ $$ f = \text{HMAC-SHA512}(o, x) $$
 **4-** Bob interprets the OP_RETURN data in the notification transaction as a payment code. He will simply decrypt the payload of this potential payment code using the $f$ blinding factor:
 
 
-- Bob splits the blinding factor $f$ into 2 UTXOs: the first 32 bytes of $f$ will be $f1$ and the last 32 bytes will be $f2$;
+- Bob splits the blinding factor $f$ into 2 parts: the first 32 bytes of $f$ will be $f1$ and the last 32 bytes will be $f2$;
 - Bob decrypts the value of the encrypted abscissa $x'$ from the public key of Alice's payment code:
 
 $$ x = x' \oplus f1 $$
@@ -3580,7 +3580,7 @@ $$ x = x' \oplus f1 $$
 
 $$ c = c' \oplus f2 $$
 
-**5-** Bob checks whether the public key value of Alice's payment code is UTXO of the secp256k1 group. If so, he interprets this as a valid payment code. If not, he ignores the transaction.
+**5-** Bob checks whether the public key value of Alice's payment code is part of the secp256k1 group. If so, he interprets this as a valid payment code. If not, he ignores the transaction.
 
 Now that Bob knows Alice's payment code, Alice can send him up to `2^32` payments, without ever having to repeat a notification transaction of this type.
 
@@ -4089,11 +4089,11 @@ The static address published by Bob will now consist of $B_{\text{scan}}$ and $B
 $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
 > *We only start from label 1 because label 0 is reserved for the change.*
-Alice, for her UTXO, will derive the single payment address $P$ in the same way as before, but using the new $B_1$ instead of $B_{\text{spend}}$:
+Alice, on her side, will derive the single payment address $P$ in the same way as before, but using the new $B_1$ instead of $B_{\text{spend}}$:
 
 $$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G $$
 
-In reality, Alice doesn't even necessarily know that Bob has a labeled address, as she's simply using the second UTXO of the static address he provided, and in this case, it's the value $B_1$ rather than $B_{text{spend}}$.
+In reality, Alice doesn't even necessarily know that Bob has a labeled address, as she's simply using the second part of the static address he provided, and in this case, it's the value $B_1$ rather than $B_{text{spend}}$.
 
 To scan payments, Bob will always use the value of his initial static address with $B_{\text{spend}}$ in this way:
 
@@ -4158,7 +4158,7 @@ With label $m$:
 
 $$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G $$
 
-Once we have this payload, we add the HRP (*Human-Readable part*) `sp` and the version `q` (= version 0). We also add a checksum and format the address as bech32m.
+Once we have this payload, we add the HRP (*Human-Readable Part*) `sp` and the version `q` (= version 0). We also add a checksum and format the address as bech32m.
 
 For example, here is my Silent Payments static address:
 

@@ -698,10 +698,9 @@ Ili kuelewa sura hii, unapaswa kusoma [kipande cha David Harding kuhusu maelewan
 >
 
 >Harmony ndio hufanya Bitcoin kufanya kazi. Maelfu ya full node kila moja hufanya kazi kivyake ili kuthibitisha miamala wanayopokea ni halali, na hivyo kutoa makubaliano ya pamoja kuhusu hali ya Bitcoin ledger bila mmiliki wa node yeyote kumhitaji kumwamini mtu mwingine. Ni kama kwaya ambapo kila mshiriki huimba wimbo mmoja kwa wakati mmoja, na kwa pamoja kutoa kitu kizuri zaidi kuliko ambacho kila mmoja angeweza kutoa peke yake.
->
+> Matokeo ya maelewano ya Bitcoin ni mfumo ambapo bitcoins ni salama, si tu dhidi ya wezi wadogo (mradi tu umehifadhi funguo zako salama), bali pia dhidi ya mfumuko wa bei usioisha, unyakuzi wa mali kwa wingi au kulenga mtu binafsi, au hata udhibiti wa moja kwa moja unaopatikana katika mifumo ya kifedha ya jadi tuliyoirithi.
 
-> Matokeo ya maelewano ya Bitcoin ni mfumo ambapo bitcoins ni salama, si tu kutoka kwa wezi wadogo (mradi tu umehifadhi funguo zako salama), bali pia dhidi ya mfumuko wa bei usioisha, unyakuzi wa mali kwa wingi au kwa kulenga mtu binafsi, au hata urasimu wa moja kwa moja unaopatikana katika mfumo wa kifedha wa jadi tuliourithi.
-Sura hii inajadili jinsi Bitcoin inaweza kuboreshwa bila kusababisha mifarakano. Kudumisha maelewano — yaani, kuhakikisha maafikiano yanaendelea — ni mojawapo ya changamoto kubwa katika maendeleo ya Bitcoin. Kuna tofauti nyingi za kiufundi katika kuboresha mifumo, ambazo zinaweza kueleweka vyema kwa kusoma mifano halisi ya visasisho vya awali. Kwa sababu hii, sura hii inatoa kipaumbele kikubwa kwa mifano ya kihistoria, na huanza kwa kuweka msingi pamoja na msamiati muhimu.
+> Sura hii inajadili jinsi Bitcoin inaweza kuboreshwa bila kusababisha migawanyiko. Kudumisha maelewano — yaani, kuhakikisha maafikiano yanaendelea — ni mojawapo ya changamoto kubwa katika maendeleo ya Bitcoin. Kuna tofauti nyingi za kiufundi katika kuboresha mifumo, ambazo zinaweza kueleweka vyema kwa kusoma mifano halisi ya visasisho vya awali. Kwa sababu hii, sura hii inatoa kipaumbele kikubwa kwa mifano ya kihistoria, na huanza kwa kuweka msingi na msamiati muhimu.
 
 
 
@@ -719,7 +718,9 @@ Kiwango kinatumia uoanifu wa mbele ikiwa bidhaa inayotii matoleo ya awali inawez
 Kinyume chake, [upatanifu wa nyuma](https://en.wikipedia.org/wiki/Backward_compatibility) inarejelea wakati data kutoka kwa programu ya zamani inaweza kutumika kwenye programu mpya zaidi. Mabadiliko yanasemekana kuendana kikamilifu ikiwa yanaoana mbele na nyuma.
 
 
-Mabadiliko ya sheria za makubaliano ya Bitcoin inasemekana kuwa *Soft Fork* ikiwa inaoana kikamilifu. Hii ndiyo njia ya kawaida ya kuboresha Bitcoin, kwa sababu kadhaa ambazo tutajadili zaidi katika sura hii. Ikiwa mabadiliko ya sheria za makubaliano ya Bitcoin yanaoanishwa nyuma lakini hayaambatani na mbele, yanaitwa *Hard Fork*.
+Mabadiliko ya sheria za makubaliano ya Bitcoin huitwa **Soft Fork** ikiwa yanaoana kikamilifu.
+Hii ndiyo njia ya kawaida ya kuboresha Bitcoin, kwa sababu kadhaa ambazo tutajadili zaidi katika sura hii.
+Ikiwa mabadiliko ya sheria za makubaliano ya Bitcoin yanapakana na matoleo ya awali na hayalingani na matoleo mapya, huitwa Hard Fork.
 
 
 Kwa muhtasari wa kiufundi wa uma za Soft na uma za Hard, tafadhali soma [sura ya 11 ya Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Inafafanua masharti haya na pia inaingia kwenye mifumo ya uboreshaji. Inapendekezwa, ingawa si lazima kabisa, kupata mtego juu ya hili kabla ya kuendelea kusoma.
@@ -729,84 +730,110 @@ Kwa muhtasari wa kiufundi wa uma za Soft na uma za Hard, tafadhali soma [sura ya
 
 
 
-Bitcoin sio sawa leo kama ilivyokuwa wakati block ya Genesis iliundwa. Maboresho kadhaa yamefanywa kwa miaka yote. Mnamo mwaka wa 2018, Eric Lombrozo [alizungumza katika mkutano wa Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) kuhusu mifumo tofauti ya uboreshaji ya Bitcoin iliyobadilika kwa muda. Alielezea hata jinsi Satoshi Nakamoto ilivyosasisha Bitcoin kupitia Hard Fork:
+Bitcoin haiko sawa leo na jinsi ilivyokuwa wakati block ya Genesis iliundwa. Maboresho mbalimbali yamefanywa kwa miaka mingi. Mnamo mwaka wa 2018, Eric Lombrozo [alizungumza katika mkutano wa Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) kuhusu mifumo tofauti za uboreshaji wa Bitcoin zilizoibuka kwa muda. Alielezea hata jinsi Satoshi Nakamoto alivyosasisha Bitcoin kupitia Hard Fork:
 
 
-> Kwa kweli kulikuwa na Hard-Fork katika Bitcoin ambayo Satoshi ilifanya ambayo hatungewahi kuifanya kwa njia hii- ni njia mbaya sana kuifanya. Ukiangalia maelezo ya ahadi ya git hapa [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], anasema kitu kuhusu toleo la 6x-configed make. Sawa. Hiyo ndiyo yote inasema. Haina dalili kwamba ina mabadiliko ya kuvunja wakati wote. Kimsingi alikuwa anaificha humo ndani. Pia [alichapisha kwenye bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) na kusema, tafadhali pata toleo jipya la 0.3.6 ASAP. Tulirekebisha hitilafu ya utekelezaji ambapo inawezekana kwamba miamala ya uwongo inaweza kuonyeshwa kama inavyokubaliwa. Usikubali malipo ya Bitcoin hadi upate toleo jipya la 0.3.6. Ikiwa huwezi kuboresha mara moja, basi itakuwa bora kuzima nodi yako ya Bitcoin hadi ufanye. Na kisha juu ya hayo, sijui kwa nini aliamua kufanya hivi pia, aliamua kuongeza uboreshaji katika nambari sawa. Rekebisha hitilafu na uongeze uboreshaji fulani.
+> Kwa kweli kulikuwa na Hard Fork katika Bitcoin ambayo Satoshi alifanya, na ambayo hatungewahi kuifanya hivi — ni njia mbaya sana ya kufanya hivyo. Ukiangalia maelezo ya ahadi ya git hapa [757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446), anasema kitu kuhusu toleo la 6x-configed make. Sawa. Hiyo ndiyo yote inasema; hakuna dalili kwamba inavunja utaratibu wowote. Kimsingi alikuwa ameificha ndani. Pia [alichapisha kwenye bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) akisema, tafadhali pata toleo jipya la 0.3.6 ASAP. Tulirekebisha hitilafu ya utekelezaji ambapo miamala ya uwongo inaweza kuonyeshwa kama inavyokubaliwa. Usikubali malipo ya Bitcoin hadi upate toleo jipya la 0.3.6. Ikiwa huwezi kuboresha mara moja, basi itakuwa bora kuzima nodi yako ya Bitcoin hadi utakapoweza. Na kisha, sijui kwa nini aliamua kufanya hivi pia; aliamua kuongeza uboreshaji katika nambari hiyo hiyo. Rekebisha hitilafu na uongeze uboreshaji fulani.
 
-Anasema kuwa, iwe kwa kukusudia au la, Hard Fork hii iliunda fursa za uma za baadaye za Soft, yaani waendeshaji Hati (opcodes) OP_NOP1-OP_NOP10. Tutaangalia zaidi mabadiliko haya ya nambari katika cve-2010-5141. Opcodes hizi zimetumika kwa uma mbili za Soft hadi sasa:
+Anasema kuwa, iwe kwa kukusudia au la, Hard Fork hii iliunda fursa za Soft Fork zijazo, yaani waendeshaji Hati (opcodes) OP\_NOP1–OP\_NOP10.
+Tutaangalia zaidi mabadiliko haya ya nambari katika CVE-2010-5141.
+Opcodes hizi zimetumika kwa Soft Fork mbili hadi sasa:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo pia hutoa muhtasari wa jinsi mifumo ya uboreshaji imebadilika kwa miaka yote, hadi 2017. Tangu wakati huo, uboreshaji mwingine mmoja tu mkubwa, Taproot, umetumika. Mchakato mrefu na wa mkanganyiko uliosababisha kuwezesha umetusaidia kupata maarifa zaidi kuhusu mbinu za kuboresha katika Bitcoin.
+Lombrozo pia hutoa muhtasari wa jinsi mifumo ya uboreshaji imebadilika kwa miaka yote, hadi 2017.
+Tangu wakati huo, uboreshaji mwingine mkubwa pekee, Taproot, umetumika.
+Mchakato mrefu na changamano wa kuwezesha umetusaidia kupata maarifa zaidi kuhusu mbinu za kuboresha katika Bitcoin.
 
 
 #### Uboreshaji wa SegWit
 
 
-
-Ingawa visasisho vyote vilivyotangulia SegWit vilikuwa visivyo na maumivu, hii ilikuwa tofauti. Wakati msimbo wa uanzishaji wa SegWit ulipotolewa, mnamo Oktoba 2016, ilionekana kuwa na usaidizi mkubwa kwa watumiaji wa Bitcoin, lakini kwa sababu fulani wachimbaji hawakuonyesha msaada kwa uboreshaji huu, ambao ulizuia uanzishaji bila azimio lolote mbele.
-
-
-Aaron van Wirdum anaelezea barabara hii yenye kupindapinda katika makala yake ya Jarida la Bitcoin [Njia Ndefu ya kwenda SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Anaanza kwa kueleza SegWit ni nini na jinsi hiyo inavyoingia kwenye mjadala wa ukubwa wa block. Van Wirdum kisha anaelezea zamu ya matukio ambayo yalisababisha uanzishaji wake wa mwisho. Katikati ya mchakato huu kulikuwa na utaratibu wa kuboresha uitwao *user activated Soft Fork*, au UASF kwa ufupi, ambao ulipendekezwa na mtumiaji Shaolinfry:
+Ingawa visasisho vyote vilivyotangulia SegWit vilikuwa visivyo na maumivu, hii ilikuwa tofauti.
+Wakati msimbo wa uanzishaji wa SegWit ulipotolewa mnamo Oktoba 2016, ilionekana kuwa na usaidizi mkubwa kutoka kwa watumiaji wa Bitcoin, lakini kwa sababu fulani wachimbaji hawakuonyesha msaada kwa uboreshaji huu, jambo lililozuia uanzishaji bila azimio lolote la mbele.
 
 
-> Shaolinfry alipendekeza njia mbadala: mtumiaji aliwezesha Soft Fork (UASF). Badala ya kuwezesha nishati ya Hash, mtumiaji aliyeamilishwa Soft Fork atakuwa na “‘kuwezesha siku ya bendera’ ambapo nodi zitaanza kutekelezwa kwa wakati uliopangwa kimbele katika siku zijazo.” Ilimradi UASF kama hiyo inatekelezwa na wengi wa kiuchumi, hii inapaswa kuwalazimisha wachimbaji wengi kufuata (au kuwezesha) Soft Fork.
+Aaron van Wirdum anaelezea barabara hii yenye kupindapinda katika makala yake ya Jarida la Bitcoin [Njia Ndefu ya kwenda SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality).
+Anaanza kwa kueleza SegWit ni nini na jinsi hiyo inavyoingia kwenye mjadala wa ukubwa wa block.
+Van Wirdum kisha anaelezea zamu ya matukio zilizosababisha uanzishaji wake wa mwisho.
+Katikati ya mchakato huu kulikuwa na utaratibu wa kuboresha uitwao user activated Soft Fork, au UASF kwa ufupi, ambao ulipendekezwa na mtumiaji Shaolinfry:
 
-Miongoni mwa mambo mengine, anataja barua pepe ya Shaolinfry kwa orodha ya barua pepe ya Bitcoin-dev. Katika hafla hiyo Shaolinfry [alibishana dhidi ya uma za Miner zilizowashwa za Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), akiorodhesha shida kadhaa nazo:
+
+> Shaolinfry alipendekeza mbadala: mtumiaji aliyeamsha Soft Fork (UASF).
+Badala ya kutumia hash, mtumiaji aliyeamsha Soft Fork atapanga siku ya bendera ambapo nodi zitaanza kutekeleza sheria kwa wakati uliotangazwa siku zijazo.
+Ilimradi UASF hiyo itatekelezwa na wengi wa kiuchumi, inapaswa kuwafanya wachimbaji wengi kufuata (au kuwezesha) Soft Fork.
+
+Miongoni mwa mambo mengine, anataja barua pepe ya Shaolinfry kwa orodha ya barua pepe ya Bitcoin‑dev.
+Katika hafla hiyo, Shaolinfry [alibishana dhidi ya Miner‑activated Soft Forks](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), akiorodhesha shida kadhaa:
 
 
-> Kwanza, inahitaji kuamini kwamba nguvu ya Hash itathibitishwa baada ya kuwezesha.  BIP66 Soft Fork ilikuwa kesi ambapo 95% ya Hashrate ilikuwa ikiashiria utayari lakini kwa kweli karibu nusu haikuwa kweli kuthibitisha sheria zilizoboreshwa na kuchimbwa kwenye kizuizi batili kimakosa.
+> Kwanza, inahitaji kuamini kwamba nguvu ya Hash itathibitishwa baada ya kuwezesha Soft Fork.
+BIP66 Soft Fork ilikuwa kesi ambapo 95% ya Hashrate ilionyesha utayari, lakini kwa kweli karibu nusu haikuithibitisha sheria iliyoboreeshwa na ilichimbwa kwenye block batili kwa makosa.
 >
 
-> Pili, kuashiria Miner kuna kura ya turufu ya asili ambayo inaruhusu asilimia ndogo ya Hashrate kuamilisha nodi ya veto ya uboreshaji kwa kila mtu. Hadi sasa, uma za Soft zimechukua fursa ya mandhari ya kati ya Mining ambapo kuna madimbwi machache ya Mining yanayojenga vitalu halali; tunapoelekea kwenye ugatuaji zaidi wa Hashrate, kuna uwezekano kwamba tutateseka zaidi na zaidi kutokana na "inertia ya kuboresha" ambayo itapinga masasisho mengi zaidi.
+> Pili, kuashiria kwa Miner ni aina ya kura ya turufu inayoruhusu asilimia ndogo ya hashrate kuamsha veto node ya uboreshaji kwa wote.
+Hadi sasa, Soft Forks zimechukua fursa ya mazingira ya kati kati ya Mining, ambapo kuna madimbwi machache ya Mining yanayojenga Blocks halali; tunapoelekea katika mgawanyiko mkubwa zaidi wa hashrate, kuna uwezekano tutakabiliana na “inertia ya kuboresha” itakayopinga masasisho zaidi.
 
-Shaolinfry pia aliangazia tafsiri potofu ya kawaida ya kuashiria Miner: watu kwa ujumla walidhani kuwa ilikuwa njia ambayo wachimbaji wangeweza kuamua juu ya uboreshaji wa itifaki, badala ya hatua ambayo ilisaidia kuratibu uboreshaji. Kwa sababu ya kutokuelewana huku, wachimba migodi pia walihisi kulazimika kutangaza hadharani maoni yao kuhusu Soft Fork fulani, kana kwamba hiyo iliipa pendekezo hilo uzito.
-
-
-Pendekezo la UASF ni, kwa ufupi, "siku ya bendera" ambayo nodi huanza kutekeleza sheria mpya maalum. Kwa njia hiyo, wachimbaji si lazima wafanye juhudi ya pamoja ili kuratibu usasishaji, lakini *inaweza* kuanzisha kuwezesha mapema kuliko siku ya kuripoti ikiwa msaada wa vitalu vya kutosha huzuia:
-
-
-> Maoni yangu ni kuwa na ulimwengu bora zaidi. Kwa kuwa mtumiaji aliyeamilishwa Soft Fork anahitaji muda mrefu kiasi kabla ya kuwezesha, tunaweza kuchanganya na BIP9 ili kutoa chaguo la kuwezesha uratibu wa nishati ya Hash au kuwezesha kufikia siku ya bendera, yoyote itakayokuja hivi karibuni.
-> Katika visa vyote viwili, tunaweza kutumia mifumo ya maonyo katika BIP9. Mabadiliko hayo ni rahisi kiasi, na kuongeza kigezo cha muda wa kuwezesha ambacho kitabadilisha hali ya BIP9 hadi LOCKED_IN kabla ya mwisho wa muda wa BIP9 wa utumiaji kuisha.
-
-Wazo hili lilivutia watu wengi, lakini halikuweza kufikia usaidizi wa pamoja, ambayo ilisababisha wasiwasi kwa uwezekano wa mgawanyiko wa mnyororo. Makala ya Aaron van Wirdum yanaeleza jinsi hili hatimaye lilivyotatuliwa kutokana na [BIP91](https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki), iliyoandikwa na James Hilliard:
+Shaolinfry pia aliangazia tafsiri potofu ya kawaida ya kuashiria Miner: watu kwa ujumla walidhani kuwa ilikuwa njia ambayo wachimbaji wangeweza kuamua juu ya uboreshaji wa itifaki, badala ya hatua iliyokusudiwa kusaidia kuratibu uboreshaji.
+Kutokana na kutokuelewana huku, wachimbaji walihisi kulazimika kutangaza maoni yao hadharani kuhusu Soft Fork fulani, kana kwamba hiyo iliongezea uzito pendekezo hilo.
 
 
-> Hilliard alipendekeza suluhisho changamano lakini la busara ambalo lingefanya kila kitu kipatane: Uwezeshaji wa Mashahidi waliotengwa kama ilivyopendekezwa na timu ya ukuzaji ya Bitcoin Core, BIP148 UASF na utaratibu wa kuwezesha Makubaliano ya New York. BIP91 yake inaweza kuweka Bitcoin nzima - angalau katika kuwezesha SegWit.
+Pendekezo la UASF ni, kwa ufupi, “Siku ya Bendera” ambapo nodi huanza kutekeleza sheria mpya maalum.
+Kwa njia hiyo, wachimbaji hawahitaji kufanya juhudi za pamoja kuratibu uboreshaji, lakini inaweza kuchochea kuwezesha mapema kabla ya Siku ya Bendera ikiwa msaada wa vitalu vya kutosha hautazuia utekelezaji.
 
-Kulikuwa na mambo mengine magumu zaidi yaliyohusika (k.m. yale yanayoitwa "Mkataba wa New York"), ambayo BIP hii ilibidi izingatiwe. Tunakuhimiza usome makala ya Van Wirdum kikamilifu ili kujifunza kuhusu maelezo mengi ya kuvutia katika hadithi hii.
 
+> Maoni yangu ni kwamba ulimwengu uwe bora zaidi. Kwa kuwa mtumiaji aliyeamsha Soft Fork anahitaji muda mrefu kabla ya kuwezesha, tunaweza kuchanganya na BIP9 ili kutoa chaguo la kuwezesha kupitia uratibu wa nguvu ya Hash au kuwezesha ifikapo Siku ya Bendera, chaguo lolote litakaloanza kwanza.
+
+> Katika visa vyote viwili,
+tunaweza kutumia mifumo ya maonyo katika BIP9. Mabadiliko hayo ni rahisi kiasi, na kuongeza kigezo cha muda wa kuwezesha ambacho kitabadilisha hali ya BIP9 hadi LOCKED_IN kabla ya mwisho wa muda wa BIP9 wa utumiaji kuisha.
+
+Wazo hili lilivutia watu wengi, lakini halikuweza kupata usaidizi wa pamoja, jambo lililosababisha wasiwasi juu ya uwezekano wa mgawanyiko wa mnyororo. Makala ya Aaron van Wirdum inaeleza jinsi hili hatimaye lilivyotatuliwa kutokana na BIP91, iliyoandikwa na James Hilliard:
+
+
+> Hilliard alipendekeza suluhisho changamano lakini la busara ambalo lingengeuza kila kitu kuwa sawa: pamoja na Uwezeshaji wa Mashahidi waliotengwa kama ilivyopendekezwa na timu ya ukuzaji ya Bitcoin Core, BIP148 UASF, na utaratibu wa kuwezesha Makubaliano ya New York.
+BIP91 inaweza kuweka Bitcoin nzima — angalau linapokuja suala la kuwezesha SegWit.
+
+Kulikuwa na mambo mengine magumu zaidi yaliyohusishwa (k.m. yale yanayoitwa "Mkataba wa New York"), ambayo BIP hii ilibidi izingatiwe.
+Tunakuhimiza usome makala ya Van Wirdum kikamilifu ili ujifunze kuhusu maelezo mengi ya kuvutia katika hadithi hii.
 
 #### Majadiliano ya baada ya SegWit
 
 
-Baada ya uwekaji wa SegWit, mjadala kuhusu mbinu za upelekaji uliibuka. Kama ilivyobainishwa na Eric Lombrozo katika [mazungumzo yake kwenye mkutano wa Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) na Shaolinfry, Miner-3 iliyoamilishwa Soft bora imeamilishwa Miner utaratibu:
+Baada ya utekelezaji wa SegWit, mjadala kuhusu mbinu za utekelezaji uliibuka.
+Kama ilivyobainishwa na Eric Lombrozo katika [mazungumzo yake kwenye mkutano wa Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) na Shaolinfry, Miner-activated Soft Fork bora ingetekelezwa kwa utaratibu ulioamilishwa na Miner:
 
 
-> Wakati fulani pengine tutataka kuongeza vipengele zaidi kwenye itifaki ya Bitcoin. Hili ni swali kubwa la kifalsafa tunajiuliza. Je, tunafanya UASF kwa ijayo? Vipi kuhusu mbinu ya mseto? Miner iliyowashwa yenyewe imeondolewa. bip9 hatutatumia tena.
+> Wakati mwingine pengine tutahitaji kuongeza vipengele zaidi kwenye itifaki ya Bitcoin.
+Hili ni swali kubwa la kifalsafa la kujiuliza.
+Je, tutatumia UASF ijayo?
+Vipi kuhusu mbinu ya mseto?
+Mbinu ya Miner-activated imeondolewa kabisa.
+Hatutatumia tena BIP9.
 
-Mnamo Januari 2020, Matt Corallo [alituma barua pepe](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) kwa orodha ya Bitcoin-dev ya kutuma barua pepe ambayo ilianza mjadala kuhusu mbinu za utumaji za Soft Fork za siku zijazo. Aliorodhesha malengo matano ambayo alifikiri ni muhimu katika kuboresha. David Harding [anazifupisha katika jarida la Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) kama:
+Mnamo Januari 2020, Matt Corallo alituma barua pepe kwa orodha ya barua pepe ya [Bitcoin‑dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html), ambayo ilizindua mjadala kuhusu mbinu za uanzishaji wa Soft Fork za siku zijazo.Aliorodhesha malengo matano aliyoyaona kuwa muhimu katika sasisho.David Harding ameifupisha katika jarida la [Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) kama ifuatavyo:
 
-
-> Uwezo wa kutoa mimba ikiwa pingamizi kali kwa sheria za makubaliano inayopendekezwa inabadilishwa. Ugawaji wa muda wa kutosha baada ya kutolewa kwa programu iliyosasishwa ili kuhakikisha kuwa nodi nyingi za kiuchumi zimeboreshwa ili kutekeleza sheria hizo. Matarajio kwamba kiwango cha mtandao cha Hash kitakuwa sawa kabla na baada ya mabadiliko, na vile vile wakati wa mpito wowote. Uzuiaji, iwezekanavyo, wa kuundwa kwa vitalu ambavyo ni batili chini ya sheria mpya, ambayo inaweza kusababisha uthibitisho wa uongo katika nodes zisizoboreshwa na wateja wa SPV . Uhakikisho kwamba mbinu za uavyaji mimba haziwezi kutumiwa vibaya na walio na huzuni au wafuasi ili kuzuia uboreshaji unaotakikana bila matatizo yoyote yanayojulikana.
+> Uwezo wa kukomesha uanzishaji ikiwa kuna pingamizi makali dhidi ya sheria mpya za makubaliano zinazopendekezwa.
+Ugawaji wa muda wa kutosha baada ya kuachiliwa kwa programu iliyosasishwa ili kuhakikisha kuwa nodi nyingi za kiuchumi zimesasishwa na toleo jipya ili kutekeleza sheria hizo.
+Matarajio kwamba kiwango cha Hashrate ya mtandao kitabakia sawa kabla na baada ya mabadiliko, pamoja na wakati wowote wa mpito.
+Uzuiaji, inapowezekana, wa kuundwa kwa vitalu vinavyokiuka sheria mpya, jambo ambalo linaweza kusababisha uthibitisho wa uongo katika nodes zisizoboreshwa na wateja wa SPV.
+Uhakikisho kwamba mbinu za kukomesha uanzishaji haziwezi kutumiwa vibaya na wapinzani au wafuasi kuzuia uboreshaji unaohitajika bila matatizo yoyote yanayojulikana.
 
 Kile ambacho Corallo anapendekeza ni mchanganyiko wa Miner iliyoamilishwa Soft Fork na mtumiaji aliyeamilishwa Soft Fork:
 
 
-> Kwa hivyo, kama kitu halisi zaidi, nadhani njia ya uanzishaji ambayo inaweka kielelezo sahihi na inazingatia ipasavyo malengo yaliyo hapo juu, itakuwa:
+> Kwa hivyo, kama chaguo halisi zaidi, nadhani njia ya uanzishaji inayoweka kielelezo sahihi na inazingatia ipasavyo malengo yaliyo hapo juu itakuwa:
+
 >
 
 > 1) uwekaji wa kawaida wa BIP 9 na upeo wa muda wa mwaka mmoja kwa
 uanzishaji na utayari wa 95% wa Miner, +
 
-> 2) katika kesi kwamba hakuna uanzishaji hutokea ndani ya mwaka, miezi sita
-kipindi cha utulivu ambacho jamii inaweza kuchanganua na kujadili
-
-sababu za kutokuwa na uanzishaji na, +
+> 2) Katika kesi ambapo hakuna uanzishaji unapotokea ndani ya mwaka, kuna kipindi cha miezi sita
+cha utulivu ambacho jamii inaweza kuchanganua na kujadili.
+sababu za kutokuwa na uanzishaji na
 
 > 3) katika hali ambayo inaeleweka, kigezo rahisi cha mstari wa amri/Bitcoin.conf ambacho kilitumika tangu toleo la awali la uwekaji kuwezesha watumiaji kujijumuisha katika utumaji wa BIP 8 na upeo wa muda wa miezi 24 kwa ajili ya kuwezesha siku ya bendera (pamoja na toleo jipya la Bitcoin linalowezesha uwasilishaji wa bendera kwa ulimwengu wote).
 >
@@ -820,20 +847,20 @@ sababu za kutokuwa na uanzishaji na, +
 Wakati Taproot ilikuwa tayari kutumwa mnamo Oktoba 2020, kumaanisha kuwa maelezo yote ya kiufundi kuhusu sheria zake za maafikiano yalikuwa yametekelezwa na kufikia kibali kikubwa ndani ya jumuiya, mijadala kuhusu jinsi ya kuipeleka ilianza kupamba moto. Majadiliano haya yalikuwa muhimu sana hadi wakati huo.
 
 
-Mapendekezo mengi ya mifumo ya kuwezesha yalianza kuelea, na David Harding
-
-[alizifupisha kwenye Bitcoin Wiki](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Katika makala yake alielezea baadhi ya mali ya BIP8, ambayo wakati huo ilikuwa na mabadiliko ya hivi karibuni yaliyofanywa ili kuifanya iwe rahisi zaidi.
+Mapendekezo mengi ya mifumo ya kuwezesha yalianza kuelea, na David Harding [alizifupisha kwenye Bitcoin Wiki](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Katika makala yake alielezea baadhi ya mali ya BIP8, ambayo wakati huo ilikuwa na mabadiliko ya hivi karibuni yaliyofanywa ili kuifanya iwe rahisi zaidi.
 
 
-> Wakati waraka huu unaandikwa, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) imetayarishwa kulingana na mafunzo tuliyojifunza mwaka wa 2017. Mabadiliko moja muhimu kufuatia BIPs 9+148 ni kwamba uanzishaji wa kulazimishwa sasa unategemea urefu wa kizuizi; badala ya muda wa wastani. mabadiliko ya pili mashuhuri ni kwamba uanzishaji wa kulazimishwa ni kigezo cha boolean kilichochaguliwa wakati vigezo vya kuwezesha Soft Fork vimewekwa ama kwa ajili ya kupelekwa kwa awali au kusasishwa katika utumiaji wa baadaye.
+> Wakati waraka huu unaandikwa, \[BIP8] imetayarishwa kulingana na mafunzo tuliyojifunza mwaka wa 2017. Mabadiliko moja muhimu kufuatia BIPs 9+148 ni kwamba uanzishaji wa kulazimishwa sasa unategemea urefu wa kizuizi badala ya wakati wa wastani. Mabadiliko ya pili mashuhuri ni kwamba uanzishaji wa kulazimishwa ni kigezo cha boolean kilichochaguliwa wakati vigezo vya kuwezesha Soft Fork vimewekwa, iwe kwa ajili ya kupelekwa awali au kusasishwa kwa matumizi ya baadaye.
 
-BIP8 bila kuwezesha kulazimishwa ni sawa na [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) biti za toleo la muda na kuchelewa, tofauti kubwa pekee ikiwa ni matumizi ya BIP8 ya urefu wa block ikilinganishwa na matumizi ya BIP9 ya muda wa wastani uliopita. Mpangilio huu huruhusu jaribio kushindwa (lakini linaweza kujaribiwa tena baadaye).
-
-
-BIP8 na uanzishaji wa kulazimishwa huhitimisha kwa kipindi cha lazima cha kuashiria ambapo vitalu vyote vinavyozalishwa kwa kuzingatia sheria zake lazima zionyeshe utayari wa Soft Fork kwa njia ambayo itasababisha uanzishaji katika kupelekwa mapema kwa Soft Fork sawa na uanzishaji usio wa lazima. Kwa maneno mengine, ikiwa toleo la nodi la x litatolewa bila kuwezesha kulazimishwa na, baadaye, toleo la y litatolewa ambalo kwa mafanikio huwalazimisha wachimbaji kuanza kuashiria utayarifu ndani ya muda huo huo, matoleo yote mawili yataanza kutekeleza sheria mpya za makubaliano kwa wakati mmoja.
+BIP8 bila kuwezesha kulazimishwa ni sawa na BIP9 biti za utekelezaji za muda na kucheleweshwa; tofauti kubwa pekee ni matumizi ya urefu wa block katika BIP8 ikilinganishwa na matumizi ya wastani wa muda uliopita katika BIP9.
+Mpangilio hili huruhusu jaribio kushindwa (lakini linaweza kujaribiwa tena baadaye).
 
 
-Unyumbufu huu wa pendekezo lililorekebishwa la BIP8 huwezesha kueleza mawazo mengine kulingana na jinsi yanavyoweza kuonekana kwa kutumia BIP8. Hii hutoa sababu ya kawaida ya kutumia kwa kuainisha mapendekezo mengi tofauti.
+BIP8 yenye uanzishaji wa kulazimishwa inahitimisha kwa kipindi cha lazima cha kuashiria, ambapo vitalu vyote vilivyozalishwa kwa kuzingatia sheria zake lazima visaidie kuashiria utayari kwa Soft Fork kwa njia itakayochochea uanzishaji katika utekelezaji wa awali wa Soft Fork hiyo usiolazimishwa.
+Kwa maneno mengine, ikiwa toleo la node x litatolewa bila uanzishaji wa kulazimishwa na, baadaye, toleo la y litatolewa ambalo linafanikiwa kulazimisha wachimbaji kuanza kuashiria utayari katika kipindi hicho hicho, matoleo yote mawili yataanza kutekeleza sheria mpya za makubaliano kwa wakati mmoja.
+
+Unyumbufu huu wa pendekezo lililorekebishwa la BIP8 huwezesha kufafanua mawazo mengine kulingana na jinsi yanavyoweza kuonekana kwa BIP8.
+Hii inatoa msingi wa pamoja wa matumizi kwa kuainisha mapendekezo mengi tofauti.
 
 
 Kuanzia hatua hii na kuendelea majadiliano yalizidi kuwa motomoto, hasa kuhusu iwapo `lockinontimeout` inapaswa kuwa `kweli` (kama ilivyo kwa mtumiaji aliyeamilishwa Soft Fork, inayojulikana kama "BIP8 yenye kuwezesha kulazimishwa" na Harding) au `sivyo` (kama ilivyo katika Miner iliyowashwa Soft Fork, inayorejelewa kuwa "Harding" IP-359 IP.

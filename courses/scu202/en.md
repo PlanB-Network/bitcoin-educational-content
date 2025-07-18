@@ -6,7 +6,7 @@ objectives:
   - Understand how modern operating systems work and make an informed choice
   - Gain technical autonomy in Linux
   - Implement the best security practices on a personal computer
-  - Enhance the security of web browsing and mobile usage using open-source tools and appropriate settings
+  - Enhance the security of web browsing and mobile usage through open-source tools and appropriate settings
   - Implement the necessary protections on a home network
 
 ---
@@ -17,7 +17,7 @@ objectives:
 In a world where digital devices are everywhere but rarely mastered, learning how to secure your own IT environment is a necessity. Whether it's your computer, browser, phone, or home network, each of these elements can be a potential gateway to your privacy. This course helps you regain control of your digital devices.
 
 
-It's not just about knowing best practices: it's about understanding what you're using, how you're using it, and what that means for your security. This SCU 202 course provides an in-depth introduction to the technical fundamentals of operating systems, introduces you to the practical use of Linux, and guides you in setting up a stable, functional, and resilient work environment.
+It's not just about knowing best practices: it's about understanding what you're using, how you're using it, and what that means for your security. This SCU202 course provides an in-depth introduction to the technical fundamentals of operating systems, introduces you to the practical use of Linux, and guides you in setting up a stable, functional, and resilient work environment.
 
 
 Throughout the modules of the course,you will discover how to verify the integrity of the software you install, encrypt your data effectively, use your browser and phone with minimum data leakage, and strengthen the security of your home network.
@@ -38,13 +38,13 @@ This course targets intermediate users who want to go further in mastering their
 <chapterId>7bf90137-7387-462d-884f-fe48e812b739</chapterId>
 
 
-Welcome to the SCU 202 course, the follow-up to the SCU 101 course, which will take you further in your mastery of IT security by emphasizing individual sovereignty, privacy protection, and secure management of your personal data. Here's an overview of what you'll discover throughout SCU 202 course.
+Welcome to the SCU202 course, the follow-up to the SCU101 course, which will take you further in your mastery of IT security by emphasizing individual sovereignty, privacy protection, and secure management of your personal data. Here's an overview of what you'll discover throughout SCU202 course.
 
 
 ### Part 1 - Introduction
 
 
-The course begins with a brief review of the concepts covered in SCU 101 which will ensure that you're  fully up to date on the fundamental principles necessary to properly approach what follows.
+The course begins with a brief review of the concepts covered in SCU101 which will ensure that you're  fully up to date on the fundamental principles necessary to properly approach what follows.
 
 
 ### Part 2 - From click to terminal: mastering Linux
@@ -121,18 +121,18 @@ Are you ready to fully take control of your IT security, strengthen your individ
 *N.B.: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions
 
 
-## Essential recap of SCU 101
+## Essential recap of SCU101
 
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
 
 
-Before starting the SCU 202 course, I'd like to briefly review the fundamental concepts covered in the previous course("SCU 101") in this chapter.
+Before starting the SCU202 course, I'd like to briefly review the fundamental concepts covered in the previous course("SCU101") in this chapter.
 
 
-Moreover, if you're still a computer beginner and haven't taken SCU 101, I strongly recommend starting with that first course before moving on to this one. The basics covered in SCU 101 will not be repeated here. I will therefore not return to basic security practices, nor on the use of VPNs, password managers, or two-factor authentication. And yet, all these concepts are essential to master before moving on to more advanced uses, which we'll cover in the following chapters.
+Moreover, if you're still a computer beginner and haven't taken SCU101, I strongly recommend starting with that first course before moving on to this one. The basics covered in SCU101 will not be repeated here. I will therefore not return to basic security practices, nor on the use of VPNs, password managers, or two-factor authentication. And yet, all these concepts are essential to master before moving on to more advanced uses, which we'll cover in the following chapters.
 
 
-The SCU 101 course was an introductory course designed to establish a solid base in digital hygiene for beginner and intermediate users in IT. Its aim was to improve daily security, privacy and digital sovereignty.
+The SCU101 course was an introductory course designed to establish a solid base in digital hygiene for beginner and intermediate users in IT. Its aim was to improve daily security, privacy and digital sovereignty.
 
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
@@ -140,7 +140,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 ### Secure online browsing
 
 
-Internet browsing is often the main entry point for cybersecurity threats. In SCU 101, we saw that it is important to stay vigilant, especially when it comes to downloads. Download only files from reliable sources, and prefer open-source software, which often benefits from greater transparency and community control.
+Internet browsing is often the main entry point for cybersecurity threats. In SCU101, we saw that it is important to stay vigilant, especially when it comes to downloads. Download only files from reliable sources, and prefer open-source software, which often benefits from greater transparency and community control.
 
 
 Another good practice covered in the course involved cookies, those little files stored on your computer when you visit websites. You should regularly delete or limit them to protect your privacy.
@@ -155,7 +155,7 @@ Generally speaking, secure browsing requires a certain amount of caution: avoid 
 ### Understanding VPNs and securing your Internet connection
 
 
-SCU 101 introduced you to the concept of a VPN (Virtual Private Network). In practical terms, a VPN encrypts your internet traffic by creating a secure tunnel between your device and a remote server. However, not all VPNs are the same:  prioritize transparent, reliable providers that allow anonymous signup, such as Mullvad, ProtonVPN or IVPN. These VPNs ensure you optimal privacy without collecting your personal data unnecessarily.
+SCU101 introduced you to the concept of a VPN (Virtual Private Network). In practical terms, a VPN encrypts your internet traffic by creating a secure tunnel between your device and a remote server. However, not all VPNs are the same:  prioritize transparent, reliable providers that allow anonymous signup, such as Mullvad, ProtonVPN or IVPN. These VPNs ensure you optimal privacy without collecting your personal data unnecessarily.
 
 
 Moreover, we had seen that on public Wi-Fi networks, the connection is particularly exposed. That's why using a VPN is essential. If you can't use one, connect only to HTTPS sites to protect your data exchanges.
@@ -173,13 +173,13 @@ Security also means knowing your operating system (OS). You've explored the thre
 ![Image](assets/fr/270.webp)
 
 
-SCU 101 also warned you to never plug in unknown USB drives into your computer, as they may contain malware that could infect your system.
+SCU101 also warned you to never plug in unknown USB drives into your computer, as they may contain malware that could infect your system.
 
 
 ### Protecting against cyber attacks and managing backups
 
 
-An essential part of SCU 101 training was understanding cyber attacks. Viruses don't just appear on their own: they usually require your unintentional intervention, such as downloading an infected file or opening a fraudulent link in an e-mail.
+An essential part of SCU101 training was understanding cyber attacks. Viruses don't just appear on their own: they usually require your unintentional intervention, such as downloading an infected file or opening a fraudulent link in an e-mail.
 
 
 One of the most common attacks is phishing, in which fraudulent messages are sent to encourage you to disclose sensitive data. When facing these attacks, systematically check the sender, and avoid clicking on links or opening attachments from unknown or suspicious sources.
@@ -194,7 +194,7 @@ Another major threat is ransomware, which blocks your data by encrypting it and 
 ### Secure your mailboxes effectively
 
 
-SCU 101 particularly emphasized the importance of securing your e-mail, the gateway to all your other online accounts. A compromised mailbox allows the hackers to reset the passwords of almost all your accounts via the usual e-mail recovery procedures.
+SCU101 particularly emphasized the importance of securing your e-mail, the gateway to all your other online accounts. A compromised mailbox allows the hackers to reset the passwords of almost all your accounts via the usual e-mail recovery procedures.
 
 
 So you've seen the importance of creating secure, dedicated e-mail addresses. It is wise to have a specific e-mail address reserved for account recovery, separate from your main address.
@@ -206,7 +206,7 @@ So you've seen the importance of creating secure, dedicated e-mail addresses. It
 ### The importance of password managers
 
 
-Digital security heavily relies on the quality of your passwords. SCU 101 explained why using a password manager is essential: these tools enable you to generate and store complex, unique and random passwords for each service you use.
+Digital security heavily relies on the quality of your passwords. SCU101 explained why using a password manager is essential: these tools enable you to generate and store complex, unique and random passwords for each service you use.
 
 
 Password managers greatly simplify the task for you, since you only have to remember one master password for all the others.
@@ -218,7 +218,7 @@ Password managers greatly simplify the task for you, since you only have to reme
 ### Two-factor authentication (2FA)
 
 
-Finally, SCU 101 introduced you to two-factor authentication (2FA). The principle consists of performing authentication in two separate steps: your usual password and a second factor, like a temporary code generated by an application like Google Authenticator or Authy, or a hardware key like YubiKey.
+Finally, SCU101 introduced you to two-factor authentication (2FA). The principle consists of performing authentication in two separate steps: your usual password and a second factor, like a temporary code generated by an application like Google Authenticator or Authy, or a hardware key like YubiKey.
 
 
 2FA protects your accounts considerably better: even if your password is compromised, access remains impossible without the second factor. Be aware that codes sent by SMS or e-mail are less secure, as they can be intercepted or diverted.
@@ -227,7 +227,7 @@ Finally, SCU 101 introduced you to two-factor authentication (2FA). The principl
 ___
 
 
-This reminder of the fundamentals will serve as a base for our SCU 202 course, where we'll go much deeper into mastering cybersecurity techniques, to better protect your individual sovereignty, your privacy and your personal data overall.
+This reminder of the fundamentals will serve as a base for our SCU202 course, where we'll go much deeper into mastering cybersecurity techniques, to better protect your individual sovereignty, your privacy and your personal data overall.
 
 
 # From click to terminal: mastering Linux
@@ -240,7 +240,7 @@ This reminder of the fundamentals will serve as a base for our SCU 202 course, w
 <chapterId>598cdecb-f90c-4382-b13c-0ba5a9dfeede</chapterId>
 
 
-Let's start this SCU 202 course with the basics: your computer's operating system (OS). Not only does it determine your choice of hardware, but also your security, ease of use and ability to customize your machine.
+Let's start this SCU202 course with the basics: your computer's operating system (OS). Not only does it determine your choice of hardware, but also your security, ease of use and ability to customize your machine.
 
 
 Before going into the technical details of Linux in the next chapters, it's important to understand the major differences between the three most common systems: Windows, macOS and GNU/Linux. In this chapter, we'll study each solution, identifying its strengths and limitations, and then making an informed choice that's right for your needs.
@@ -341,7 +341,7 @@ In my opinion, Windows occupies an unasserted central position: it can be secure
 ![Image](assets/fr/006.webp)
 
 
-When it comes to digital sovereignty and technical mastery, Windows quickly shows its limitations. Its model is based on an unbalanced relationship between the user and the publisher, to the benefit of the latter. For those who deeply want to understand, personalize and secure their computer, it's not a very suitable operating system.That is why, we won't dwell further on Windows in SCU 202.
+When it comes to digital sovereignty and technical mastery, Windows quickly shows its limitations. Its model is based on an unbalanced relationship between the user and the publisher, to the benefit of the latter. For those who deeply want to understand, personalize and secure their computer, it's not a very suitable operating system.That is why, we won't dwell further on Windows in SCU202.
 
 
 ### macOS: integration and optimization
@@ -371,7 +371,7 @@ However, this integration has the disadvantage of being increasingly locked into
 In terms of privacy, although macOS is less intrusive than Windows, it remains tied to a logic of data collection, cloud synchronization and dependence on centralized services. Most of the system's advanced functions rely on a permanent connection to the Apple ecosystem (iCloud, App Store, Siri...), which limits the user's independence.
 
 
-macOS may suit users who value the performance, stability and comfort of a well-integrated system, without having to dive into the technical details. On the other hand, when it comes to digital sovereignty and control of your IT environment, it's too closed, too dependent on a single company, and not conducive to fine-tuned customization. That's why we won't discuss it further in this SCU 202 course.
+macOS may suit users who value the performance, stability and comfort of a well-integrated system, without having to dive into the technical details. On the other hand, when it comes to digital sovereignty and control of your IT environment, it's too closed, too dependent on a single company, and not conducive to fine-tuned customization. That's why we won't discuss it further in this SCU202 course.
 
 
 ### GNU/Linux: freedom, control and security
@@ -386,7 +386,7 @@ Linux's main assets are its robustness, stability and high level of security. Be
 ![Image](assets/fr/010.webp)
 
 
-However, Linux also presents a certain complexity for beginners. The large number of Linux available distributions can be confusing for uninitiated users. Similarly, the initial handling of the system, although simplified by some distributions, may require some prior learning to master it properly, particularly in view of the regular use of the terminal (command line). And that's just what this first part of the SCU 202 course is all about!
+However, Linux also presents a certain complexity for beginners. The large number of Linux available distributions can be confusing for uninitiated users. Similarly, the initial handling of the system, although simplified by some distributions, may require some prior learning to master it properly, particularly in view of the regular use of the terminal (command line). And that's just what this first part of the SCU202 course is all about!
 
 
 ### Which operating system should you choose?
@@ -789,7 +789,7 @@ The choice of a Linux distribution depends on your specific needs, your technica
 - **Ubuntu**:
 
 
-Developed by Canonical and launched in 2004, Ubuntu is one of the world's most popular distributions. Based on Debian, it offers a regular release cycle, with stable LTS (*Long Term Support*) versions maintained for five years. Ubuntu stands out for its excellent hardware compatibility, large community and abundant documentation, making it a very safe choice for beginners. In fact, we'll be using Ubuntu for the rest of the SCU 202 training course, as it's a solid entry point into the world of GNU/Linux. Ubuntu integrates the GNOME desktop environment by default, with a few specific adjustments.
+Developed by Canonical and launched in 2004, Ubuntu is one of the world's most popular distributions. Based on Debian, it offers a regular release cycle, with stable LTS (*Long Term Support*) versions maintained for five years. Ubuntu stands out for its excellent hardware compatibility, large community and abundant documentation, making it a very safe choice for beginners. In fact, we'll be using Ubuntu for the rest of the SCU202 training course, as it's a solid entry point into the world of GNU/Linux. Ubuntu integrates the GNOME desktop environment by default, with a few specific adjustments.
 
 
 ![Image](assets/fr/020.webp)
@@ -992,7 +992,7 @@ Whonix combines Debian with the Tor network in a two-VM architecture (gateway + 
 This panorama gives you an overview of the current Linux distribution ecosystem, enabling you to select the distribution best suited to your technical profile and objectives.
 
 
-In the next chapter of SCU 202, we'll take a closer look at the practical Linux environment, starting with the graphical environments that form the basis of your day-to-day interactions with the system.
+In the next chapter of SCU202, we'll take a closer look at the practical Linux environment, starting with the graphical environments that form the basis of your day-to-day interactions with the system.
 
 
 ## Linux desktop environments
@@ -2751,7 +2751,7 @@ Some software is more sensitive than others, because it interacts directly with 
 
 
 
-- *Web browsers*: they are at the front line of attacks, as they process unverified content in real time and have a particularly large attack surface. What's more, they play a central role in protecting your personal data. And, above all, they tend to replace many software applications formerly used locally (e-mail clients, office suites, media players...). But we'll come back to this point in the next section of the SCU 202 course;
+- *Web browsers*: they are at the front line of attacks, as they process unverified content in real time and have a particularly large attack surface. What's more, they play a central role in protecting your personal data. And, above all, they tend to replace many software applications formerly used locally (e-mail clients, office suites, media players...). But we'll come back to this point in the next section of the SCU202 course;
 
 
 
@@ -3933,7 +3933,7 @@ We've come to the end of this section on securing your computer. In the next sec
 The web browser is the software that allows you to access websites and content available on the *World Wide Web*. Its role is to interpret the languages used to create web pages, notably HTML, CSS and JavaScript, in order to display site content in a readable and interactive way. It acts as a Interface between the user and web servers, sending requests and receiving responses via the HTTP or HTTPS protocol.
 
 
-But nowadays, the browser has become much more than just a piece of software: it's often the main interface in computing, especially for novice users. That is why it is sometimes considered as a "secondary operating system" within the actual operating system (which we studied in the first section of SCU 202). Indeed, many tasks that used to be carried out using specialized local software are now performed directly online via the browser: entertainment, office work (word processing, spreadsheets, presentation), e-mail management, messaging, file storage and collaborative working.
+But nowadays, the browser has become much more than just a piece of software: it's often the main interface in computing, especially for novice users. That is why it is sometimes considered as a "secondary operating system" within the actual operating system (which we studied in the first section of SCU202). Indeed, many tasks that used to be carried out using specialized local software are now performed directly online via the browser: entertainment, office work (word processing, spreadsheets, presentation), e-mail management, messaging, file storage and collaborative working.
 
 
 Yet it has not always held this central role. The history of browsers is marked by cycles of innovation, technological competition, and sometimes monopolistic domination. Tracing this history will help us understand how browsers became so complex, and why their security is such an important issue today.
@@ -4521,7 +4521,7 @@ Chrome, despite its popularity, cannot be recommended as part of a digital sover
 Today, your choice of browser plays an important role in your online security and privacy. So take the time to identify the one that best suits your risk profile and priorities.
 
 
-Here's a quick summary to help you make your choice (bear in mind, however, that this comparison may have evolved over time since SCU 202 was written, and evaluation of the interface and its features is primarily a matter of personal appreciation):
+Here's a quick summary to help you make your choice (bear in mind, however, that this comparison may have evolved over time since SCU202 was written, and evaluation of the interface and its features is primarily a matter of personal appreciation):
 
 
 | Browser      | Privacy | Speed | Features | Interface | Open source | Resource consumption |
@@ -4958,7 +4958,7 @@ Android experienced a rapid rise: it overtook iOS in market share as early as Ju
 
 ![Image](assets/fr/130.webp)
 
-#### open-source vs. Google
+#### Open-source vs. Google
 
 The Android project is based on a structural duality. On the one hand, the AOSP (*Android open-source Project*) represents the system's open-source base: it includes the Linux kernel, the system software stack, a minimal interface graphics and a set of APIs. This base is published under the Apache 2.0 license, and remains accessible to all. On the other hand, the environment actually used by the majority of Android users relies almost entirely on proprietary components developed by Google: *Google Mobile Services* (GMS).
 
@@ -6120,7 +6120,7 @@ After reviewing the theoretical basics, this chapter will guide you through clea
 
 ### Choosing and securing your network equipment
 
-The security of your home network starts with the right choice of hardware: The router, or in some cases a modem router. This device provides the link between your local network and the Internet. It therefore plays a central role in protecting your data.
+The security of your home network starts with the right choice of hardware: the router, or in some cases a modem router. This device provides the link between your local network and the Internet. It therefore plays a central role in protecting your data.
 
 It's important to choose modern equipment, maintained by its manufacturer, and compliant with recent security standards. Today (June 2025), it is recommended to opt for a device compatible with the WPA3 (*Wi-Fi Protected Access 3*) encryption protocol, which succeeds WPA2 and corrects several of its flaws. In particular, WPA3 improves resistance to brute-force attacks on Wi-Fi passwords, and introduces better isolation between network clients.
 

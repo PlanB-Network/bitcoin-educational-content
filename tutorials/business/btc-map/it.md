@@ -6,11 +6,11 @@ description: Trovare luoghi dove spendere sats
 
 
 
-Mentre molti associano ancora Bitcoin solo come strumento di investimento e speculazione, il suo creatore Satoshi Nakamoto lo ha concepito principalmente come sistema di pagamento elettronico Peer-to-Peer. Tuttavia, è difficile sapere dove si possono spendere i bitcoin. Ma questo era prima di BTC Map.
+Mentre molti associano ancora Bitcoin solo come strumento di investimento e speculazione, il suo creatore Satoshi Nakamoto lo ha concepito principalmente come sistema di pagamento elettronico Peer-to-Peer. Tuttavia, è difficile sapere dove puoi spendere i tuoi bitcoin. Ma questo era prima di BTC Map.
 
 
 
-Basata su OSM (OpenStreetMap), uno strumento di mappatura partecipativa open-source, BTC Map offre un modo semplice per elencare le attività che accettano pagamenti in BTC, Lightning o On-Chain. Un database globale, ancora agli inizi ma già essenziale, popolato da e per bitcoiners.
+Basata su OSM (OpenStreetMap), una mappa open-source dove chiunque può apportare le proprie modifiche, BTC Map offre un modo semplice per elencare le attività che accettano pagamenti in BTC, Lightning o On-Chain. Un database globale, ancora agli inizi ma che contiene già tutto il necessario, popolato da e per bitcoiners.
 
 
 
@@ -92,7 +92,7 @@ Il sito offre due schede con obiettivi diversi. Ma iniziamo a descrivere gli str
 
 
 
-*nota: i locali potenziati sono quelli che hanno ricevuto un suggerimento da un visitatore o da un utente soddisfatto, il che conferisce loro una maggiore visibilità per un certo periodo di tempo*
+*nota: i locali potenziati sono quelli che hanno ricevuto una mancia da un visitatore o da un utente soddisfatto, il che conferisce loro una maggiore visibilità per un certo periodo di tempo*
 
 
 
@@ -152,7 +152,7 @@ Infine,
 
 
 - "Last Surveyed" indica la data in cui il file è stato creato o aggiornato per l'ultima volta
-- "Boost" ti permette, a fronte di una tariffa in sats, di offrire al tuo sito un vantaggio di visibilità per un certo periodo di tempo
+- "Boost" ti permette, a fronte di un pagamento in sats, di offrire al tuo sito più visibilità per un certo periodo di tempo
 - infine, "Verify Location" porta a un modulo di BTC Map per proporre un aggiornamento dell'inserzione. Vediamo come si presenta:
 
 
@@ -205,7 +205,7 @@ Noterai subito le aree colorate di arancione. Come puoi vedere, si tratta delle 
 
 
 - Dashboard: statistiche sul feed del database, come il numero di sedi elencate o il numero di verifiche recenti effettuate
-- Tagger Leaderboard: tabella degli utenti classificati per volume di contributi (unisciti a loro!)
+- Tagger Leaderboard: tabella degli utenti classificati in base al volume di collaborazioni (unisciti a loro!)
 - Classifica delle comunità: Posizionamento delle varie comunità all'interno di BTC Map
 - Classifica per Paese: Posizionamento dei vari Paesi all'interno di BTC Map
 
@@ -239,7 +239,7 @@ Noterai subito le aree colorate di arancione. Come puoi vedere, si tratta delle 
 
 
 
-**Support us**: Questa pagina spiega come effettuare una donazione (in sats) o diventare sponsor di un progetto.
+**Support us**: Questa pagina spiega come effettuare una donazione (in sats) o diventare sponsor del progetto.
 
 
 
@@ -258,15 +258,15 @@ BTC Map consente di [aggiungere la propria comunità] (https://btcmap.org/commun
 
 
 
-- 1: La zona corrispondente alla vostra comunità
+- 1: La zona corrispondente alla tua comunità
 - 2: Nome della comunità
 - 3: URL del sito web
 - 4: Un Lightning Address sul quale ricevere donazioni
-- 5: Riferimenti ai social network su cui è presente la vostra comunità
-- 6: Il vostro indirizzo e-mail in modo che la piattaforma possa chiederti ulteriori informazioni, se necessario
+- 5: Riferimenti ai social network sui quali è presente la tua comunità
+- 6: Il tuo indirizzo e-mail in modo che la piattaforma possa chiederti ulteriori informazioni, se necessario
 - 7: Una descrizione concisa (ad es. comunità di lingua tedesca, regione di Francoforte)
 - 8: Inseirimento codice captcha (sensibile alle maiuscole)
-- 9: Cliccare su "Submit Community" per inviare il modulo
+- 9: Clicca su "Submit Community" per inviare il modulo
 
 
 

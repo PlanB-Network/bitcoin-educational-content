@@ -34,7 +34,7 @@ In questo tutorial scopriremo come attivare U2F o FIDO2 per l'autenticazione a d
 
 
 
-**Nota:** U2F è compatibile con tutti i modelli Trezor, ma FIDO2 è supportato solo da Safe 3, Safe 5 e Model T, non dal Model One.
+**Nota:** U2F è compatibile con tutti i modelli Trezor, ma FIDO2 è supportato solo da Safe 3, Safe 5 e Model T, non dal Model One. Nell'esempio che segue, viene preso come riferimento Trezor Safe 5.
 
 
 

@@ -12,7 +12,7 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-> "Devo dire che quando ho trovato questa guida sono rimasto scioccato. Congratulazioni ad Arman the Parman per questo. Sarebbe stato un peccato non ospitarlo qui e tradurlo in quante più lingue possibili. Quel ragazzo è consigliato, davvero." Rogzy
+> "Devo dire che quando ho trovato questo tutorial sono rimasto scioccato. Congratulazioni ad Arman the Parman per questo. Sarebbe stato un peccato non pubblicare qui il tutorial e tradurlo in quante più lingue possibili. Quel ragazzo è un grande." Rogzy
 
 ![Portafoglio desktop Electrum (Mac / Linux) - download, verifica, connessione al tuo nodo.](https://youtu.be/wHmQNcRWdHM)
 
@@ -20,15 +20,15 @@ https://electrum.readthedocs.io/
 
 ## Perché Electrum?
 
-Questa è una guida dettagliata su come utilizzare Electrum, con soluzioni per tutte le sue insidie e particolarità. Ho raggiunto questa conoscenza dopo diversi anni di utilizzo e insegnamento agli studenti su sicurezza/privacy di Bitcoin. Electrum non è il miglior wallet Bitcoin per chi vuole mantenere tutto il più semplice possibile e preferisce rimanere a livello principiante. Invece, è per chi è o aspira ad essere un utente "esperto".
+Questa è una guida dettagliata su come utilizzare Electrum, con soluzioni per tutte le sue insidie e particolarità. Ho raggiunto questa conoscenza dopo diversi anni di utilizzo e insegnamento agli studenti su sicurezza/privacy su Bitcoin. Electrum non è il miglior wallet Bitcoin per chi vuole mantenere tutto il più semplice possibile e preferisce rimanere a livello principiante. Invece, è per chi è o aspira ad essere un utente "esperto".
 
-Per il nuovo utente di Bitcoin, è eccellente solo se sotto la supervisione di un utente esperto che gli mostri la strada. Se si impara ad usarlo da solo, sarebbe sicuro a patto che si prenda il proprio tempo e lo si utilizzi in un ambiente di test con pochi satoshi all'inizio. Questa guida ti aiuta in questo, ma è anche un buon punto di riferimento per chiunque altro.
+Per il nuovo utente Bitcoin, è eccellente solo se sotto la supervisione di un utente esperto che gli mostri la strada. Se si impara ad usarlo da solo, sarebbe sicuro a patto che si prenda il proprio tempo e lo si utilizzi in un ambiente di test con pochi satoshi all'inizio. Questa guida ti aiuta a fare ciò, ma è anche un buon punto di riferimento per chiunque altro.
 
 > Avviso: questa guida è lunga. Non cercare di fare tutto questo in un solo giorno. È meglio salvare la guida e procedere gradualmente nel tempo.
 
 ## Scaricare Electrum
 
-L'ideale è utilizzare un computer dedicato a Bitcoin per le proprie transazioni Bitcoin (la mia guida per questo https://armantheparman.com/mint/) _(DISPONIBILE anche nella sezione sulla privacy)_. Va bene esercitarsi con pochi satoshi su un computer "sporco" quando si sta imparando (chissà quanti malware nascosti il tuo computer ha accumulato nel corso degli anni - non vuoi esporre i tuoi wallet Bitcoin ad essi).
+L'ideale è utilizzare un computer dedicato a Bitcoin per le proprie transazioni (la mia guida per questo https://armantheparman.com/mint/) _(DISPONIBILE anche nella sezione sulla privacy)_. Va bene esercitarsi con pochi satoshi su un computer "sporco" quando si sta imparando (chissà quanti malware nascosti il tuo computer ha accumulato nel corso degli anni - non vuoi esporre i tuoi wallet ad essi).
 
 Scarica Electrum da https://electrum.org/.
 
@@ -40,10 +40,10 @@ Clicca sul link di download corrispondente al tuo computer. Qualsiasi computer L
 
 ## Verifica di Electrum
 
-Lo scopo della "verifica" del download è assicurarsi che nemmeno un singolo bit di dati sia stato manomesso. Ciò impedisce di utilizzare una versione "hackerata" e dannosa del software. Va bene saltare questa fase a patto che si utilizzi la copia scaricata solo per esercitarsi, ovvero non utilizzare wallet che contengono denaro reale. Quindi, una volta pronti a utilizzare Electrum per i propri fondi reali, è necessario eliminare la propria copia e ricominciare, questa volta verificando il download.
+Lo scopo della "verifica" del download è assicurarsi che nemmeno un singolo bit di dati sia stato manomesso. Ciò impedisce di utilizzare una versione "hackerata" e dannosa del software. Puoi saltare questa fase a patto che utilizzi la copia scaricata solo per esercitarti, ovvero senza caricare nel wallet fondi reali. Mentre, una volta che sei pronto a utilizzare Electrum con denaro vero, dovrai eliminare la tua copia e ricominciare, questa volta verificando il download di Electrum.
 
 Per fare ciò, utilizziamo strumenti di crittografia a chiave pubblica/privata - gpg, di cui abbiamo scritto una guida qui (https://armantheparman.com/gpg/). Lo strumento gpg viene fornito con tutti i sistemi operativi Linux. Per Mac e Windows, consulta il link gpg per le istruzioni di download.
-Oltre al download del software Electrum, per motivi di sicurezza, è necessaria anche la FIRMA digitale del software. Si tratta di una stringa di testo (in realtà un numero codificato usando il testo) che lo sviluppatore ha prodotto con la sua chiave gpg PRIVATA. Utilizzando il programma gpg, possiamo quindi "testare" la FIRMA rispetto alla sua chiave PUBBLICA (creata dalla chiave privata dello sviluppatore) a cui tutti hanno accesso, rispetto al FILE di download.
+Oltre al download di Electrum, per motivi di sicurezza, è necessaria anche la FIRMA digitale del software. Si tratta di una stringa di testo (in realtà un numero codificato usando il testo) che lo sviluppatore ha prodotto con la sua chiave gpg PRIVATA. Utilizzando il programma gpg, possiamo quindi "testare" la FIRMA rispetto alla sua chiave PUBBLICA (creata dalla chiave privata dello sviluppatore) a cui tutti hanno accesso, rispetto al FILE di download.
 
 In altre parole, con i tre input (firma, chiave pubblica e file di dati), otteniamo un output vero o falso per confermare che il file non è stato manomesso.
 
@@ -51,9 +51,9 @@ Per ottenere la firma, clicca sul link corrispondente al file scaricato (vedi fr
 
 ![image](assets/2.webp)
 
-Cliccando sul link si potrebbe scaricare automaticamente il file nella cartella dei download, oppure potrebbe aprirsi nel browser. Se si apre nel browser, è necessario salvare il file. È possibile cliccare con il pulsante destro del mouse e selezionare "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario cliccare con il pulsante destro del mouse nell'area dello spazio bianco, non sul testo.
+Cliccando sul link si potrebbe scaricare automaticamente il file nella cartella download, oppure potrebbe aprirsi nel browser. Se si apre nel browser, è necessario salvare il file. È possibile cliccare con il pulsante destro del mouse e selezionare "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario cliccare con il pulsante destro del mouse nell'area dello spazio bianco, non sul testo.
 
-Di seguito è riportato il testo scaricato. Puoi vedere che ci sono più firme, queste sono firme di persone diverse. Puoi verificare ognuna di esse. Ti mostrerò come verificare solo quella dello sviluppatore.
+Di seguito è riportato il testo scaricato. Puoi vedere che ci sono più firme che sono di persone diverse. Puoi verificare ognuna di esse se vuoi. In questo tutorial ti mostrerò come verificare solo quella dello sviluppatore.
 
 ![image](assets/3.webp)
 
@@ -61,7 +61,7 @@ Successivamente, è necessario ottenere la chiave pubblica di ThomasV, che è il
 
 Ottenerla dal sito web di Electrum è in realtà il modo meno sicuro, perché se questo sito web è malintenzionato (proprio ciò che stiamo verificando), perché dovremmo ottenere una chiave pubblica da esso (la chiave pubblica potrebbe essere falsa)?
 
-Per farla semplice per ora, ti mostrerò come ottenerla comunque dal sito web, ma tieni presente questo. Ecco la copia (https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc) su GitHub con cui puoi confrontarla.
+Semplificando, ti mostrerò come ottenere la chiave pubblica di ThomasV dal sito web di Electrum. Tuttavia, ricorda quello che ti ho scritto sopra. Ecco la copia (https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc) su GitHub con cui puoi confrontarla.
 
 Scorri un po' verso il basso nella pagina per trovare il link alla chiave pubblica di ThomasV (cerchio rosso sotto). Clicca su di esso e scaricalo, o se si apre del testo in un browser, clicca con il pulsante destro del mouse per salvarlo.
 
@@ -86,7 +86,7 @@ gpg --import ThomasV.asc
 
 Assicurati che il nome del file corrisponda a quello che hai scaricato. Inoltre, nota che ci sono due trattini, non uno solo. Nota anche che c'è uno spazio prima e dopo "--import". Poi premi <enter>.
 
-Il file dovrebbe essere importato. Se visualizzi un errore, controlla di essere nella directory in cui il file effettivamente si trova. Per verificare in quale directory ti trovi (su Mac o Linux), digita pwd. Per vedere quali file sono nella directory in cui ti trovi (su Mac o Linux), digita ls. Dovresti vedere elencato il file di testo "ThomasV.asc", eventualmente tra gli altri file.
+Il file dovrebbe essere importato. Se ti viene mostrato un messaggio di errore, controlla di essere nella directory in cui il file effettivamente si trova. Per verificare in quale directory ti trovi (su Mac o Linux), digita pwd. Per vedere quali file sono nella directory in cui ti trovi (su Mac o Linux), digita ls. Dovresti vedere elencato il file di testo "ThomasV.asc", insieme ad altri file.
 
 Poi esegui il comando per verificare la firma.
 
@@ -101,13 +101,13 @@ Nota che ci sono 4 "elementi" qui, separati da uno spazio. Ho messo in grassetto
 3. il nome del file della firma
 4. il nome del programma
 
-A volte puoi omettere il quarto elemento e il computer indovina cosa intendi. Non sono sicuro, ma credo che funzioni solo se i nomi dei file differiscono solo per "asc" alla fine.
+A volte puoi omettere il quarto elemento e il computer capisce lo stesso cosa intendi. Non sono sicuro, ma credo che funzioni solo se i nomi dei file differiscono solo per "asc" alla fine.
 
 Non copiare semplicemente i nomi dei file che ho mostrato qui - assicurati che corrispondano al nome del file che hai sul tuo sistema.
 
-Premi <enter> per eseguire il comando. Dovresti vedere una "buona firma da ThomasV" per indicare che è andato a buon fine. Ci saranno alcuni errori perché non abbiamo le chiavi pubbliche per le firme delle altre persone che sono contenute nel file di firma (questo sistema di combinare le firme in un unico file potrebbe cambiare nelle versioni successive). Inoltre, c'è un avviso in fondo che possiamo ignorare (questo ci avvisa che non abbiamo esplicitamente detto al computer di fidarci della chiave pubblica di ThomasV).
+Premi <enter> per eseguire il comando. Ti dovrebbe apparire il messaggio "buona firma da ThomasV" per indicare che il processo di verifica è andato a buon fine. Ci saranno alcuni errori perché non abbiamo le chiavi pubbliche per le firme delle altre persone che sono contenute nel file di firma (questo sistema di combinare le firme in un unico file potrebbe cambiare nelle versioni successive). Inoltre, c'è un avviso in fondo che possiamo ignorare (questo ci avvisa che non abbiamo esplicitamente detto al computer di fidarci della chiave pubblica di ThomasV).
 
-Ora abbiamo una copia verificata di Electrum che è sicura da usare.
+Ora abbiamo una copia verificata di Electrum sicura da usare.
 
 ## Esecuzione di Electrum
 
@@ -124,7 +124,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Copia il testo giallo evidenziato, incollalo nel terminale e premi <enter>. Ti verrà chiesta la password, eventualmente una conferma per continuare, e poi installerà quei file ("dipendenze").
+Copia il testo giallo evidenziato, incollalo nel terminale e premi <enter>. Ti verrà chiesta la password, eventualmente una conferma per continuare, e poi verranno installati dei file conosciuti come "dipendenze" in Linux.
 
 Dovrai anche estrarre il file zippato in una directory a tua scelta. Puoi farlo con l'interfaccia utente grafica o dalla riga di comando (comando evidenziato in rosa) - ricorda che i nomi dei tuoi file potrebbero essere diversi. (Nota che quando abbiamo verificato il download nella sezione precedente, abbiamo verificato il file zip, non la directory estratta.)
 
@@ -135,17 +135,17 @@ I passaggi (Linux) sono:
 1. vai alla directory in cui sono estratti i file
 2. digita: ./run_electrum
 
-Su un Mac, i passaggi sono gli stessi ma potrebbe essere necessario installare prima Python3 e utilizzare questo comando per eseguire:
+Su Mac, i passaggi sono gli stessi ma potrebbe essere necessario installare prima Python3 e utilizzare questo comando per eseguire:
 
 ````
 ```python3 ./run_electrum```
 ````
 
-Una volta che Electrum è in esecuzione, la finestra del terminale rimarrà aperta. Se la chiudi, terminerà il programma Electrum. Riducila al minimo mentre usi Electrum.
+Una volta che Electrum è in esecuzione, la finestra del terminale rimarrà aperta. Se la chiudi, terminerà Electrum. Riducila al minimo mentre usi Electrum.
 
 ### Esecuzione di Electrum con l'Appimage
 
-Questo è un po' più semplice, ma non così facile come un file eseguibile di Windows. A seconda della versione di Linux che stai utilizzando, di default i file Appimage potrebbero avere attributi impostati in modo che l'esecuzione sia vietata dal sistema. Dobbiamo cambiarlo. Se il tuo Appimage funziona, puoi saltare questo passaggio. Vai alla posizione del file, utilizzando il terminale, quindi esegui questo comando:
+Questo è un po' più semplice, ma non così facile come un file eseguibile su Windows. A seconda della versione di Linux che stai utilizzando, di default i file Appimage potrebbero avere attributi impostati in modo che l'esecuzione sia vietata dal sistema. Dobbiamo cambiare questa cosa. Se il tuo Appimage funziona, puoi saltare questo passaggio. Altrimenti, vai alla posizione del file, utilizzando il terminale, quindi esegui questo comando:
 
 ```
 sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
@@ -155,11 +155,11 @@ sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
 
 Modifica il nome del file in modo che corrisponda alla tua versione.
 
-Quindi, Electrum verrà eseguito facendo doppio clic sull'icona dell'Appimage.
+A questo punto, Electrum verrà eseguito facendo doppio clic sull'icona dell'Appimage.
 
 ### Esecuzione di Electrum con Mac
 
-Basta fare doppio clic sul file scaricato (è un "drive"). Si aprirà una finestra. Trascina l'icona di Electrum nella finestra sul desktop o ovunque tu voglia conservare il programma. Puoi quindi "espellere" il drive e cancellare il drive (file scaricato).
+Basta fare doppio clic sul file scaricato (è un "drive"). Si aprirà una finestra. Trascina l'icona di Electrum nella finestra sul desktop o ovunque tu voglia conservare il programma. Puoi quindi "espellere" il drive e cancellarlo (si tratta del file scaricato).
 
 Per eseguire il programma, basta fare doppio clic su di esso. Potresti ricevere alcuni errori "nanny" specifici di Mac che devono essere bypassati.
 
@@ -175,7 +175,7 @@ Quando carichi per la prima volta Electrum, si aprirà una finestra come questa:
 
 Successivamente, seleziona manualmente il tuo server, ma per ora lascia le impostazioni predefinite e connessione automatica.
 
-Successivamente, crea un wallet fittizio: non mettere mai fondi in questo wallet. Lo scopo di questo wallet fittizio è quello di procedere attraverso il software e assicurarsi che tutto funzioni correttamente prima di caricare il tuo vero wallet. Stiamo cercando di evitare di rivelare accidentalmente la privacy con un wallet reale. Se stai solo facendo pratica, il wallet che crei può essere considerato comunque un wallet fittizio.
+Successivamente, crea un wallet fittizio: non mettere mai fondi reali in questo wallet. Lo scopo di questo wallet fittizio è quello di procedere attraverso il software e assicurarsi che tutto funzioni correttamente prima di caricare il tuo vero wallet. Stiamo cercando di evitare di rivelare accidentalmente la privacy con un wallet reale. Se stai solo facendo pratica, il wallet che crei può essere considerato comunque un wallet fittizio.
 
 Puoi lasciare il nome come "default_wallet" o cambiarlo a tuo piacimento e cliccare su Avanti. In seguito, se hai più wallet, puoi trovarli e aprirli in questa fase cliccando prima su "Choose..."
 
@@ -185,11 +185,11 @@ Scegli "Standard wallet" e <Next>:
 
 ![image](assets/8.webp)
 
-Quindi, seleziona "I already have a seed". Non voglio che tu prenda l'abitudine di creare una frase di recupero con Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri wallet: ecco perché non clicchiamo su "new seed".
+Quindi, seleziona "I already have a seed". Non voglio che tu prenda l'abitudine di creare la frase di recupero con Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri wallet: ecco perché non clicchiamo su "new seed".
 
 ![image](assets/9.webp)
 
-Vai su https://iancoleman.io/bip39/ e crea una frase di recupero fittizia. Prima, cambia il numero di parole a 12 (che è una pratica comune), quindi clicca su "generate" e copia le parole nella casella negli appunti.
+Vai su https://iancoleman.io/bip39/ e crea una frase di recupero fittizia. Prima, cambia il numero di parole a 12 (che è la versione di seed più utilizzata), quindi clicca su "generate" e copia le parole nella casella negli appunti.
 
 ![image](assets/10.webp)
 
@@ -201,7 +201,7 @@ Electrum cercherà parole che corrispondano al suo protocollo. Dobbiamo bypassar
 
 ![image](assets/12.webp)
 
-Il seed diventa quindi valido. (Prima di fare ciò, Electrum si aspettava un seed di Electrum, quindi questo seed era considerato non valido). Prima di cliccare su "next", nota il messaggio che dice "Checksum OK". È importante (per il wallet reale che potresti utilizzare in seguito) fare caso a questo prima di procedere, poiché conferma la validità del seed inserito. L'avvertimento in fondo può essere ignorato. Si tratta soltanto di una lamentela dello sviluppatore di Electrum riguardo a BIP39 e alle loro affermazioni "FUD" che la loro versione (che non è compatibile con altri wallet) è superiore.
+Il seed diventa quindi valido. (Prima di fare ciò, Electrum si aspettava un seed di Electrum, quindi questo seed era considerato non valido). Prima di cliccare su "next", nota il messaggio che dice "Checksum OK". È importante (per il wallet reale che potresti utilizzare in seguito) fare caso a questo aspetto prima di procedere, poiché conferma la validità del seed inserito. L'avvertimento in fondo può essere ignorato. Si tratta soltanto di una lamentela dello sviluppatore di Electrum riguardo a BIP39 e alle loro affermazioni "FUD" (Fear, Uncertainty, and Doubt = Paura, Incertezza e Dubbio) che la loro versione (non compatibile con altri wallet) sia superiore.
 
 > Piccolo approfondimento importante. Lo scopo del [checksum](https://planb.network/resources/glossary/checksum) è assicurarsi di aver inserito il seed senza errori di battitura. Il checksum è la parte finale del seed (la 12ª parola diventa la parola di checksum) che viene determinata matematicamente dalla prima parte del seed (11 parole). Se si dovesse digitare qualcosa di sbagliato all'inizio, la parola di checksum non corrisponderà matematicamente e il software del wallet ti avviserà con un avvertimento. Ciò non significa che il seed non possa essere utilizzato per creare un wallet Bitcoin funzionale. Immagina di creare un wallet con un errore di battitura, caricare il wallet con bitcoin e poi un giorno potresti aver bisogno di ripristinare il wallet, ma quando lo fai, non ricreerai l'errore di battitura: ripristinerai il wallet sbagliato! È piuttosto pericoloso che Electrum ti permetta di procedere con la creazione di un wallet se il checksum non è valido, quindi fai attenzione, è tua responsabilità assicurarti che il Checksum si corretto. Altri wallet non ti permetteranno di procedere, il che è molto più sicuro. Questo è uno dei motivi per cui dico che Electrum è sicuro da usare, una volta che impari ad usarlo correttamente (gli sviluppatori di Electrum dovrebbero risolvere questo problema).
 
@@ -213,7 +213,7 @@ Se non hai richiesto la passphrase, vedrai questa schermata successiva contenent
 
 ![image](assets/13.webp)
 
-> Ulteriori informazioni sulla schermata che vedi sopra: la prima opzione ti consente di scegliere tra legacy (indirizzi che iniziano con "1"), pay-to-script-hash (indirizzi che iniziano con "3") o bech32/native segwit (indirizzi che iniziano con "bc1q"). Al momento della stesura, Electrum non supporta ancora taproot (indirizzi che iniziano con "bc1p"). La seconda opzione ti consente di modificare il percorso di derivazione. Ti consiglio di non modificarlo mai, soprattutto se non sai cosa stai facendo. Molti affermano l'importanza di scrivere il percorso di derivazione in modo da poter recuperare il tuo wallet se necessario. Ma se lo lasci come predefinito, probabilmente andrà tutto bene, quindi non preoccuparti. Ad ogni modo è una buona pratica appuntarsi il percorso di derivazione.
+> Ulteriori informazioni sulla schermata che vedi sopra: la prima opzione ti consente di scegliere tra legacy (indirizzi che iniziano con "1"), pay-to-script-hash (indirizzi che iniziano con "3") o bech32/native segwit (indirizzi che iniziano con "bc1q"). Al momento della stesura, Electrum non supporta ancora taproot (indirizzi che iniziano con "bc1p"). La seconda opzione ti consente di modificare il percorso di derivazione. Ti consiglio di non modificarlo mai, soprattutto se non sai cosa stai facendo. Molti affermano l'importanza di scrivere il percorso di derivazione in modo da poter recuperare il tuo wallet se necessario. Ma se lo lasci come predefinito, probabilmente andrà tutto bene, quindi non preoccuparti. Ad ogni modo, è consigliato appuntarsi il percorso di derivazione.
 
 Successivamente, ti verrà data la possibilità di aggiungere una PASSWORD. Questa non deve essere confusa con "PASSPHRASE". Una password blocca il file sul tuo computer. Una passphrase fa parte della composizione della chiave privata. Poiché si tratta di un wallet fittizio, puoi lasciare la password vuota e procedere.
 
@@ -314,7 +314,7 @@ A proposito, trovi tutte le istruzioni per lanciare il tuo nodo personale e le r
 
 L'unico motivo per farlo sarebbe se devi accedere alla blockchain e non hai a disposizione il tuo nodo (o quello di un amico).
 
-Connettiamoci al nodo di Bitaroo - Ci dicono che non raccolgono dati. Sono un Exchange Bitcoin-only, gestito da un appassionato di Bitcoin. Connettersi al loro nodo richiede un po' di fiducia, ma è meglio che connettersi a un nodo casuale, che potrebbe essere una società di sorveglianza.
+Connettiamoci al nodo di Bitaroo - Ci dicono che non raccolgono dati. Sono un Exchange Bitcoin-only, gestito da un appassionato Bitcoin. Connettersi al loro nodo richiede un po' di fiducia, ma è meglio che connettersi a un nodo casuale, che potrebbe essere una società di sorveglianza.
 
 Accedi alle impostazioni di rete cliccando sul cerchio nella parte inferiore destra della finestra di Electrum (il rosso indica non connesso, il verde indica connesso e il blu indica connesso tramite Tor).
 
@@ -360,7 +360,7 @@ Per MyNode, puoi digitare nella finestra del browser:
 mynode.local
 ```
 
-A volte, "mynode.local" non funziona (assicurati di non digitarlo nella barra di ricerca di Google). Per far sì che la barra di navigazione riconosca il tuo testo come un indirizzo e non come una ricerca, precedi il testo con http://
+A volte, "mynode.local" non funziona (assicurati di non digitarlo nella barra di ricerca di Google). Per far sì che la barra di navigazione riconosca il tuo testo come un indirizzo e non come una ricerca, inserisci prima http://
 
 così:
 
@@ -395,9 +395,9 @@ Se sei in grado di effettuare l'accesso, vedrai i tuoi dispositivi connessi e da
 
 ### Se i primi due metodi falliscono, l'ultimo funzionerà ma è noioso:
 
-Prima di tutto, trova l'indirizzo IP di qualsiasi dispositivo sulla tua rete (il computer che stai usando va bene).
+Prima di tutto, trova l'indirizzo IP di un qualsiasi dispositivo sulla tua rete (il computer che stai usando va bene).
 
-Su un Mac, lo troverai nelle preferenze di Rete:
+Su Mac, lo troverai nelle preferenze di Rete:
 
 ![image](assets/21.webp)
 
@@ -441,7 +441,7 @@ Ora ci siamo collegati con successo a un solo nodo. Questo è come Electrum si c
 
 ## Crea un wallet di pratica
 
-Dopo aver eliminato il wallet fittizio, ricomincia e creane uno nuovo, allo stesso modo, solo che questa volta, annota le parole del seed e tienile abbastanza al sicuro.
+Dopo aver eliminato il wallet fittizio, ricomincia e creane uno nuovo, allo stesso modo, solo che questa volta, annota le parole del seed e tienile al sicuro.
 
 È una buona idea imparare come Electrum funziona con questo wallet di pratica, senza l'ingombrante hardware wallet (necessario per una sicurezza elevata). Metti solo una piccola quantità di bitcoin in questo wallet - Supponi che perderai questi soldi. Una volta diventato esperto, impara ad usare Electrum con un hardware wallet.
 
@@ -478,19 +478,19 @@ Vai su Electrum e confronta che corrispondano. C'è un menù in alto, wallet -> 
 
 ![image](assets/26.webp)
 
-Questo compare:
+Vedrai questo:
 
 ![image](assets/27.webp)
 
-Nota che le due chiavi pubbliche corrispondono.
+Verifica che le due chiavi pubbliche corrispondono.
 
 Successivamente, confronta gli indirizzi. Torna al sito di Ian Coleman e scorri fino in fondo:
 
 ![image](assets/28.webp)
 
-Nota che corrispondono agli indirizzi in Electrum.
+Anche qui, verifica che corrispondono agli indirizzi in Electrum.
 
-Ora verificheremo gli indirizzi di cambio. Scorri un po' verso l'alto fino al percorso di derivazione e cambia l'ultimo 0 in un 1:
+Ora verificheremo gli indirizzi di resto. Scorri un po' verso l'alto fino al percorso di derivazione e cambia l'ultimo 0 in un 1:
 
 ![image](assets/29.webp)
 
@@ -498,7 +498,7 @@ Ora scorri verso il basso e confronta che gli indirizzi corrispondano agli indir
 
 Perché abbiamo fatto tutto questo?
 
-Abbiamo preso le parole seed e le abbiamo inserite in due diversi programmi software indipendenti per assicurarci che ci stessero dando le stesse informazioni. Questo riduce significativamente il rischio che un codice malintenzionato si nasconda all'interno e ci dia false chiavi private o pubbliche, o indirizzi.
+Abbiamo preso le parole seed e le abbiamo inserite in due diversi programmi software indipendenti per assicurarci che ci stessero dando le stesse informazioni. Questo riduce significativamente il rischio che un codice malintenzionato si nasconda all'interno e ci dia false chiavi private, pubbliche, o falsi indirizzi.
 
 La prossima cosa da fare è ricevere un po di satoshi come test e spenderli usando Electrum.
 
@@ -524,7 +524,7 @@ Accedi e clicca sul pulsante Send/Receive, che oggi si trova nell'angolo in alto
 
 ![image](assets/31.webp)
 
-Ovviamente non ho fondi su Coinbase, ma immagina solo che ci siano fondi qui e segui il procedimento: Incolla l'indirizzo preso da Electrum nel campo "A" come ho fatto io. Dovrai anche selezionare una quantità (suggerisco circa 50.000 sats). Non inserire un "messaggio opzionale" - Coinbase sta già raccogliendo molti dati che ti riguardano (e li sta vendendo), non c'è bisogno di aiutarli. Infine, clicca su "Continue". Dopo di ciò, non so quali altre finestre popup potresti ricevere, sei da solo, ma il metodo è simile per tutti gli exchange.
+Ovviamente non ho fondi su Coinbase, ma immagina solo che ci siano fondi qui e segui il procedimento: Incolla l'indirizzo preso da Electrum nel campo "A" come ho fatto io. Dovrai anche selezionare una quantità (suggerisco circa 50.000 sats). Non inserire un "messaggio opzionale" - Coinbase sta già raccogliendo molti dati che ti riguardano (e li sta vendendo), non c'è bisogno di aiutarli. Infine, clicca su "Continue". Fatto questo, non so quali altre finestre popup potresti ricevere, sei da solo, ma il metodo è simile per tutti gli exchange.
 
 ![image](assets/32.webp)
 
@@ -532,7 +532,7 @@ A seconda dell'exchange, potresti vedere i sats nel tuo wallet immediatamente o 
 
 Nota che Electrum ti mostrerà gli UTXO ricevuti anche se non sono stati confermati sulla blockchain. Gli UTXO che hai vengono letti dalla lista di attesa di un nodo Bitcoin, o "mempool". Quando viene inserito in un blocco, vedrai i fondi come confermati.
 
-Ora che abbiamo un UTXO nel nostro WALLET, dovremmo etichettarlo. Solo noi possiamo vedere questa etichetta, non ha nulla a che fare con il registro pubblico. Tutte le nostre etichette Electrum sono visibili solo sul computer che stiamo utilizzando. Possiamo anche salvare tutto su file e usarlo per ripristinare le nostre etichette su un computer diverso che esegue Electrum.
+Ora che abbiamo un UTXO nel nostro WALLET, dovremmo etichettarlo. Solo noi possiamo vedere questa etichetta, non ha nulla a che fare con il registro pubblico. Tutte le nostre etichette Electrum sono visibili solo sul computer che stiamo utilizzando. Possiamo anche salvare tutto su file e usarlo per ripristinare le nostre etichette su un computer diverso con Electrum installato.
 
 ### Crea un'etichetta per un UTXO
 
@@ -558,7 +558,7 @@ Successivamente, spendiamo gli UTXO dal primo indirizzo al secondo indirizzo. Cl
 
 Una volta fatto ciò, ci sarà una barra verde in fondo alla finestra del wallet che indica il numero di UTXO che hai selezionato e il totale disponibile da spendere.
 
-Puoi anche spendere singoli UTXO all'interno di un indirizzo ed escluderne altrI nello stesso indirizzo, ma questo è sconsigliato perché stai lasciando UTXO in un indirizzo che è stato indebolito criptograficamente a causa della spesa di uno degli UTXO (un'altra ragione per non mettere più UTXO in un unico indirizzo, oltre alle ragioni di privacy, è che dato che dovresti spenderli tutte se ne spendi uno, questo diventa inutilmente costoso). Ecco come selezionare un singolo UTXO da un indirizzo condiviso, ma non farlo:
+Puoi anche spendere singoli UTXO all'interno di un indirizzo ed escluderne altri nello stesso indirizzo, ma questo è sconsigliato perché stai lasciando UTXO in un indirizzo che è stato indebolito criptograficamente a causa della spesa di uno degli UTXO (un'altra ragione per non mettere più UTXO in un unico indirizzo, oltre alle ragioni di privacy, è che dato che dovresti spenderli tutte se ne spendi uno, questo diventa inutilmente costoso). Ecco come selezionare un singolo UTXO da un indirizzo condiviso, ma non farlo:
 
 ![image](assets/37.webp)
 
@@ -576,7 +576,7 @@ Clicca sempre su "advanced" in questa fase in modo da avere un controllo preciso
 
 Vediamo due finestre/box bianche interne. Quella superiore è la finestra degli input (quali UTXO vengono spesi) e quella inferiore è degli output (dove vanno gli UTXO).
 Nota, lo stato (in alto a sinistra) è "non firmato" per ora. L'"Importo inviato" è 0 perché gli UTXO vengono trasferiti all'interno del wallet. La commissione è di 481 sats. Nota che se fossero stati 480 sats, lo zero finale sarebbe stato omesso, come questo, 0.0000048 e per l'occhio stanco, questo può sembrare 48 sats - fai attenzione (questa cosa andrebbe corretta dagli sviluppatori di Electrum).
-La dimensione della transazione si riferisce alla dimensione dei dati in byte, non all'importo di bitcoin. Il "[replace by fee](https://planb.network/resources/glossary/rbf-replacebyfee)" è attivo per impostazione predefinita e ti consente di inviare nuovamente la transazione con una commissione più alta se necessario. Il LockTime ti consente di regolare quando la transazione è valida - non l'ho ancora provato, ma consiglio di non usarlo a meno che non comprendi appieno cosa stai facendo e dopo aver fatto un po' di pratica con qualche sats.
+La dimensione della transazione si riferisce alla dimensione dei dati in byte, non all'importo di bitcoin. Il "[replace by fee](https://planb.network/resources/glossary/rbf-replacebyfee)" è attivo per impostazione predefinita e ti consente di inviare nuovamente la transazione con una commissione più alta se necessario. Il LockTime ti consente di regolare quando la transazione diventa valida - non l'ho ancora provato, ma consiglio di non usarlo a meno che non comprendi appieno cosa stai facendo e dopo aver fatto un po' di pratica con qualche sats.
 
 In fondo, abbiamo alcuni strumenti sofisticati per la regolazione delle commissioni di mining. Tutto ciò che devi fare per i trasferimenti interni è impostarlo alla commissione minima di 1 sat/byte. Digita manualmente il numero nel campo della commissione target. Per verificare una commissione appropriata per un pagamento esterno, puoi consultare https://mempool.space per vedere quanto è occupata la mempool e vengono visualizzate alcune commissioni suggerite.
 
@@ -600,20 +600,20 @@ Una volta che hai controllato tutto nella transazione e sei sicuro degli UTXO se
 
 ![image](assets/42.webp)
 
-Dopo aver cliccato su "finalize", non è più possibile apportare modifiche: se ne hai bisogno, devi chiudere questa finestra e ricominciare da capo. Nota che il pulsante "finalize" è cambiato in "export" e sono comparsi nuovi pulsanti: "save", "combine", "sign" e "broadcast". Il pulsante "broadcast" è disattivato perché la transazione non è firmata e quindi non valida in questa fase.
-Una volta che hai cliccato su "sign", se hai una password per il wallet, ti verrà richiesta e lo stato (in alto a destra) passerà da "non firmata" a "firmata". A questo punto, il pulsante "broadcast" sarà disponibile.
+Dopo aver cliccato su "finalize", non è più possibile apportare modifiche: se ne hai bisogno, devi chiudere questa finestra e ricominciare da capo. Nota che il pulsante "finalize" è cambiato in "export" e sono comparsi nuovi pulsanti: "save", "combine", "sign" e "broadcast". Il pulsante "broadcast" è disattivato perché la transazione non è firmata e quindi non cliccabile in questa fase.
+Una volta che hai cliccato su "sign", se hai una password per il wallet, ti verrà richiesta e lo stato (in alto a destra) passerà da "non firmata" a "firmata". A questo punto, il pulsante "broadcast" sarà cliccabile.
 
 Dopo aver cliccato su "broadcast", puoi chiudere la finestra della transazione. Se vai alla scheda degli indirizzi, vedrai che il primo indirizzo è vuoto e il secondo indirizzo ha 1 UTXO.
 
 Nota: Vedrai tutti questi cambiamenti anche prima che la transazione venga inserita in un blocco o "confermata". Questo perché Electrum aggiorna i saldi/le transazioni non solo in base ai dati della blockchain, ma anche ai dati della mempool. Non tutti i wallet fanno questo.
 
-Un'altra cosa da notare è che, invece di trasmettere, possiamo salvare la transazione per dopo. Può essere salvata sia nello stato non firmato che in quello firmato.
+Un'altra cosa da notare è che, invece di trasmettere la transazione, possiamo salvarla per dopo. Può essere salvata sia nello stato non firmato che in quello firmato.
 
 Clicca sul pulsante "export" (paradossalmente, NON cliccare sul pulsante "save") e vedrai una serie di opzioni. La transazione è codificata con del testo e quindi può essere salvata in diversi modi.
 
 ![image](assets/43.webp)
 
-Salvare in un codice QR è molto interessante. Se scegli questa opzione, apparirà un codice QR:
+Salvare in un codice QR è molto interessante. Se scegli questa opzione, apparirà appunto un codice QR:
 
 ![image](assets/44.webp)
 
@@ -627,7 +627,7 @@ Non è intuitivo come caricare transazioni salvate, quindi fai attenzione. Caric
 
 Un processo simile è possibile con una transazione salvata come file. Prova a esercitarti con uno dei due metodi, all'interno dello stesso wallet. Non lo spiegherò qui, ma puoi utilizzare questa funzione per passare una transazione tra lo stesso wallet su computer diversi, tra wallet multi-firma e da e verso hardware wallet.
 
-Ora, torniamo al pulsante "salva": questo non serve a salvare il testo della transazione. In realtà, dice al wallet Electrum di riconoscere questa transazione sul computer locale come un pagamento effettuato. Se lo fai per errore, vedrai la transazione con un'icona di un computer. Puoi cliccare con il tasto destro e cancellare la transazione: non preoccuparti, non puoi cancellare i bitcoin in questo modo. Electrum dimenticherà quindi che questa transazione è mai avvenuta e "rimborserà" i satoshi e li mostrerà nella posizione corretta in cui si trovano effettivamente.
+Ora, torniamo al pulsante "salva": questo non serve a salvare il testo della transazione. In realtà, dice al wallet Electrum di riconoscere questa transazione sul computer locale come un pagamento effettuato. Se lo fai per errore, vedrai la transazione con un'icona di un computer. Puoi cliccare con il tasto destro e cancellare la transazione: non preoccuparti, non puoi cancellare i bitcoin in questo modo. Electrum dimenticherà quindi che questa transazione sia mai avvenuta e "rimborserà" i satoshi, mostrandoli nella posizione corretta in cui si trovano.
 
 ### Indirizzi di resto
 
@@ -640,7 +640,7 @@ Nella schermata della transazione, nella finestra di input, vedresti l'UTXO da 6
 
 Nota che, mentre regoli la fee di mining, l'importo dell'output di cambio si regolerà automaticamente, non l'importo del pagamento.
 
-### Cambio manuale o pagamento a molti
+### Resto manuale o pagamento a molti
 
 Questa è una caratteristica davvero interessante di Electrum. Puoi accedervi in questo modo.
 
@@ -652,7 +652,7 @@ Puoi quindi inserire più destinazioni per l'UTXO che stai spendendo, come quest
 
 Incolla l'indirizzo, digita una virgola, quindi uno spazio, quindi l'importo, quindi <invio>, quindi fallo di nuovo. NON INSERIRE GLI IMPORTI NELLE FINESTRE "AMOUNT" - Electrum popolerà il totale qui mentre digiti gli importi singoli nella finestra "Pay to".
 
-Ciò ti consente di determinare manualmente dove va il cambio (ad esempio un indirizzo specifico nel tuo wallet o un altro wallet), oppure puoi pagare molte persone contemporaneamente. Se il tuo totale non è sufficientemente alto per coprire l'UTXO, Electrum creerà comunque un output di cambio aggiuntivo per te.
+Ciò ti consente di determinare manualmente dove va il resto (ad esempio un indirizzo specifico nel tuo wallet o un altro wallet), oppure puoi pagare molte persone contemporaneamente. Se il tuo totale non è sufficientemente alto per coprire l'UTXO, Electrum creerà comunque un output di resto aggiuntivo per te.
 
 La funzione Pay to Many consente anche la possibilità di creare i tuoi "PayJoins" o "CoinJoins" - al di fuori dello scopo di questo articolo, ma ho una guida qui. (https://armantheparman.com/cj/)
 
@@ -669,9 +669,9 @@ Quale tipo si sta riferendo quando si utilizza la parola "wallet" è ovvio dal c
 ## Wallet di sola visualizzazione - un esercizio
 
 Non è del tutto ovvio a cosa serve un wallet di sola visualizzazione, ma inizierò spiegando cos'è, come crearne uno di prova e poi torneremo al suo scopo più avanti quando spiegherò di più sugli hardware wallet. (Per una recensione approfondita su come utilizzare un hardware wallet e varie marche specifiche, vedi qui.)
-Creeremo un wallet regolare fittizio (questa volta aggiungendo un po' più di complessità con una frase segreta) e poi il corrispondente wallet di sola visualizzazione. Se vuoi, puoi copiare esattamente quello che ho fatto io o crearne uno tuo: questo wallet deve essere scartato, non utilizzarlo effettivamente. Inizia generando un seed di 12 parole utilizzando il sito di Ian Coleman.
+Creeremo un normale wallet fittizio (questa volta aggiungendo un po' più di complessità con una frase segreta) e poi il corrispondente wallet di sola visualizzazione. Se vuoi, puoi copiare esattamente quello che ho fatto io o crearne uno tuo: questo wallet deve essere poi cancellato, non utilizzarlo. Inizia generando un seed di 12 parole utilizzando il sito di Ian Coleman.
 
-Osserva le 12 parole casuali nella schermata sottostante e che ho inserito una frase segreta nel campo della frase segreta:
+Osserva le 12 parole casuali nella schermata sottostante e nota che ho inserito una frase segreta nel campo della frase segreta:
 
 FRASE SEGRETA: "Craig Wright is a liar and a fraud and belongs in jail. Also, Ross Ulbricht should be released from prison immediately."
 
@@ -716,7 +716,7 @@ Quindi vai su Electrum, lascia aperto il wallet che abbiamo creato in precedenza
 - Non è necessario inserire la semantica dello script e il percorso di derivazione
 - Non è necessario aggiungere una password (blocca il wallet)
   Quando il wallet si carica, dovresti notare che vengono caricati esattamente gli stessi indirizzi di prima quando è stato inserito il seed. Dovresti anche notare in alto nella barra del titolo che dice "watching wallet". Questo wallet può mostrarti i tuoi indirizzi e i tuoi saldi (controllando i saldi tramite un nodo), ma non sei in grado di FIRMARE transazioni (perché il wallet di sola lettura non ha chiavi private).
-  Allora qual è il punto?
+  Allora a cosa serve questo wallet di sola lettura?
 
 Una ragione, e non la principale, è che potenzialmente puoi osservare il tuo wallet e il suo saldo su un computer senza esporre le tue chiavi private a malware sul computer.
 
@@ -735,7 +735,7 @@ Per saperne di più su PSBTS, consulta questa guida. (https://armantheparman.com
 
 ## Utilizzare hardware wallet con Electrum
 
-Ho una guida sull'utilizzo degli hardware wallet in generale, che penso sia importante per le persone che sono nuove agli hardware wallet, da leggere. (https://armantheparman.com/using-hwws/)
+Ho una guida sull'utilizzo degli hardware wallet in generale, che penso sia importante per le persone che sono agli inizi sull'utilizzo di hardware wallet, da leggere. (https://armantheparman.com/using-hwws/)
 
 Ci sono anche guide su varie marche di hardware wallet che si collegano a Sparrow, che puoi trovare qui. (https://armantheparman.com/hwws/)
 
@@ -753,7 +753,7 @@ Quindi seleziona la semantica dello script. La maggior parte delle persone selez
 
 Dirà "Electrum wallet file written" e ti mostrerà il nome del file. Ricordatelo.
 
-Quindi togli la scheda micro SD e inseriscila nel computer con Electrum.
+A questo punto, togli la scheda micro SD e inseriscila nel computer con Electrum.
 
 Alcuni sistemi operativi apriranno automaticamente l'esplora file quando inserisci la microSD. Molte persone vedranno il nuovo file del wallet e lo apriranno facendo doppio clic su di esso, e si chiederanno perché non funziona. Non è un ottimo design. In realtà, devi ignorare l'esplora file (chiudilo) e aprire il file del wallet utilizzando Electrum:
 
@@ -761,7 +761,7 @@ Apri Electrum. Se è già aperto con un altro wallet, seleziona file -> new. Sti
 
 ![image](assets/52.webp)
 
-Ecco il trucco, non è intuitivo. Clicca su "Choose". Quindi naviga nel sistema di file sulla scheda microSD e trova il file del wallet e aprilo.
+Ecco un trucco, non è intuitivo. Clicca su "Choose". Quindi naviga nel sistema di file sulla scheda microSD e trova il file del wallet e aprilo.
 
 Ora hai aperto il wallet di sola visualizzazione corrispondente al tuo hardware wallet. Ottimo.
 
@@ -808,7 +808,7 @@ Se ricevi un messaggio "group plugdev" già esistente, va bene, procedi. Dopo il
 
 Potrebbe essere necessario scollegare e ricollegare ColdCard al computer.
 
-Se non riesci ancora a connettere ColdCard nonostante tutto ciò, ti consiglierei di provare ad aggiornare il firmware (guida disponibile a breve, ma per ora puoi trovare istruzioni sul sito del produttore).
+Se nonostante tutto non riesci ancora a connettere ColdCard, ti consiglierei di provare ad aggiornare il firmware (guida disponibile a breve, ma per ora puoi trovare istruzioni sul sito del produttore).
 
 Successivamente, crea un nuovo wallet:
 
@@ -826,7 +826,7 @@ Se utilizzi il dispositivo in modo isolato, dovrai passare manualmente la transa
 
 Dopo aver creato e inviato una transazione, devi cliccare sul pulsante di esportazione nell'angolo in basso a sinistra. Vedrai "save to file" che, in modo controintuitivo, non è ciò che vogliamo. In realtà, devi prima andare all'ultima opzione di menù che dice "for hardware wallets" e quindi, all'interno di quella selezione, trovare l'altro "save to file" e selezionarlo. Quindi salva il file sulla microSD, togli la scheda e inseriscila nel ColdCard. Ricorda che potresti dover applicare una passphrase per selezionare il wallet corretto. Lo schermo indicherà "ready to sign". Clicca sul segno di spunta, controlla la transazione e procedi confermando con il segno di spunta. Una volta fatto, togli la scheda e reinseriscila nel computer.
 
-Quindi dobbiamo aprire la transazione utilizzando Electrum. La funzione è nascosta nel menù tools -> load transaction. Naviga nel file system e trova il file. Ogni volta che firmi, ci saranno tre file. Il file originale salvato che ha creato il wallet di sola visualizzazione e due file creati da ColdCard (non so perché lo faccia). Uno dirà "firmato" e uno dirà "finale". Non è intuitivo, ma quello "firmato" non è utile, dobbiamo aprire la transazione "finale".
+Ora dobbiamo aprire la transazione utilizzando Electrum. La funzione è nascosta nel menù tools -> load transaction. Naviga nel file system e trova il file. Ogni volta che firmi, ci saranno tre file. Il file originale salvato che ha creato il wallet di sola visualizzazione e due file creati da ColdCard (non so perché lo faccia). Uno dirà "firmato" e uno dirà "finale". Non è intuitivo, ma quello "firmato" non è utile, dobbiamo aprire la transazione "finale".
 
 Una volta caricata la transazione "finale", puoi cliccare su "Broadcast" e il pagamento verrà effettuato.
 
@@ -847,7 +847,7 @@ Linux:
 > /home/il_tuo_nome_utente/.electrum
 
 Nota il "." prima di "electrum" in Linux e Mac: indica che la cartella è nascosta. Inoltre, nota che questa directory viene creata (automaticamente) solo dopo aver eseguito Electrum per la prima volta. La directory contiene il file di configurazione di Electrum e anche la directory che contiene eventuali wallet salvati.
-Se elimini il programma Electrum dal tuo computer, la cartella nascosta rimarrà, a meno che non la elimini attivamente anche tu.
+Se elimini il programma Electrum dal tuo computer, la cartella nascosta rimarrà, a meno che non la elimini attivamente tu.
 Per aggiornare Electrum, segui la stessa procedura che ho descritto all'inizio per scaricare e verificare. Avrai quindi due copie del programma sul tuo computer e potrai eseguire entrambe: ogni programma accederà alla stessa cartella nascosta di Electrum sia per la sua configurazione che per l'accesso al wallet. Tutto ciò che abbiamo salvato, come l'unità di base, il nodo predefinito a cui connettersi, altre preferenze e l'accesso ai wallet, rimarrà perché tutto ciò è salvato in quella cartella.
 
 ### Spostare Electrum e i wallet su un altro computer

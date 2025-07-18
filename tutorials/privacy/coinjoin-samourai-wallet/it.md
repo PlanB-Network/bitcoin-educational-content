@@ -193,7 +193,7 @@ Ricorda che i remix sono completamente gratuiti: non sono richieste commissioni 
 Quando decidi di spendere UTXO mescolati, puoi farlo direttamente dal conto **postmix**. Si consiglia di mantenere gli UTXO mescolati in questo conto per beneficiare dei remix gratuiti e per evitare che escano dal circuito Whirlpool, riducendo così la loro privacy.
 Come vedremo nel tutorial seguente, esiste anche l’opzione `mix to`, che consente di inviare automaticamente le monete mescolate a un altro wallet, come un cold wallet, dopo un numero definito di coinjoin.
 
-Dopo aver esaminato la teoria, passiamo alla pratica con un tutorial sull'uso di Whirlpool tramite l'app Android Samourai Wallet!
+Dopo aver studiato la teoria, passiamo alla pratica con un tutorial sull'uso di Whirlpool tramite l'app Android Samourai Wallet!
 
 ## Tutorial: Coinjoin Whirlpool su Samourai Wallet
 Ci sono numerose opzioni per utilizzare Whirlpool.

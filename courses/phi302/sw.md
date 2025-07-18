@@ -906,34 +906,25 @@ Kwa kuzingatia matatizo ya uma za hivi majuzi za Soft, SegWit na Taproot, haijul
 
 ### Hatari
 
+Wakati wa uanzishaji wa fork yoyote, iwe ni hard au soft, iwe imeanzishwa na miners au watumiaji, kuna hatari ya kutokea kwa mgawanyiko wa mnyororo wa muda mrefu. Mgawanyiko unaodumu kwa zaidi ya blocks chache unaweza kuleta madhara makubwa kwa mtazamo kuhusu Bitcoin na hata kwa bei yake. Lakini zaidi ya yote, unaweza kusababisha mkanganyiko mkubwa kuhusu nini hasa ni Bitcoin. Je, Bitcoin ni mnyororo huu au ule?
 
-Wakati wa kuwezesha Fork yoyote, iwe Hard au Soft, Miner iliyowashwa au mtumiaji kuwezeshwa, kuna hatari ya mgawanyiko wa muda mrefu. Mgawanyiko ambao hudumu kwa zaidi ya vizuizi vichache unaweza kusababisha uharibifu mkubwa kwa hisia karibu na Bitcoin na pia kwa bei yake. Lakini juu ya yote, inaweza kusababisha mkanganyiko mkubwa juu ya Bitcoin ni nini. Bitcoin ni mnyororo huu au mnyororo ule?
+Hatari ya user activated soft fork ni kwamba sheria mpya zinaweza kuanza kutumika hata kama sehemu kubwa ya hash power haiungi mkono. Hali kama hii inaweza kusababisha mgawanyiko wa mnyororo wa muda mrefu, ambao utaendelea hadi wakati ambapo sehemu kubwa ya hash power itakubali kutumia sheria mpya. Itakuwa vigumu zaidi kuwashawishi miners kuhamia kwenye mnyororo mpya ikiwa tayari wamechimba blocks baada ya mgawanyiko katika mnyororo wa zamani, kwa sababu kwa kufanya hivyo wangeacha rewards zao wenyewe. Hata hivyo, inafaa kutaja tukio la kipekee: mnamo Machi 2013 kulikuwa na mgawanyiko wa muda mrefu uliotokana na hard fork isiyokusudiwa, na kinyume na msukumo wa maslahi binafsi, pools mbili kubwa za mining ziliamua kuacha tawi lao la mgawanyiko ili kurejesha makubaliano.
 
-
-Hatari ya mtumiaji iliyowashwa Soft Fork ni kwamba sheria mpya zinaamilishwa hata kama nguvu nyingi za Hash haziauni. Hali hii ingesababisha mgawanyiko wa mnyororo wa muda mrefu, ambao ungeendelea hadi nguvu nyingi za Hash zipitishe sheria mpya. Inaweza kuwa Hard haswa kuwahamasisha wachimbaji kuhamia mnyororo mpya ikiwa tayari walikuwa wamechimba vitalu baada ya mgawanyiko wa mnyororo wa zamani, kwa sababu kwa kubadilisha tawi watakuwa wakiacha zawadi zao za block. Walakini, inafaa kutaja kipindi cha kushangaza: mnamo Machi 2013 mgawanyiko wa muda mrefu, ulitokea kwa sababu ya Hard Fork isiyo na nia na, kinyume na motisha hii, mabwawa mawili makubwa ya Mining yalifanya uamuzi wa kuachana na tawi lao la mgawanyiko ili kurejesha maelewano.
-
-
-Kwa upande mwingine, hatari na Miner iliyoamilishwa Soft Fork ni matokeo ya ukweli kwamba wachimbaji wanaweza kushiriki katika ishara za uongo, ambayo ina maana kwamba sehemu halisi ya nguvu ya Hash inayounga mkono mabadiliko inaweza kuwa ndogo kuliko inaonekana. Ikiwa usaidizi halisi haujumuishi nguvu nyingi za Hash, labda tungeona mgawanyiko wa muda mrefu sawa na ule ulioelezewa katika aya iliyotangulia. Hili, au angalau suala kama hilo, limetokea katika hali halisi wakati BIP66 ilipotumwa, lakini ilitatuliwa ndani ya vitalu 6 hivi.
-
+Kwa upande mwingine, hatari ya miner activated soft fork inatokana na ukweli kwamba miners wanaweza kutoa ishara ya uongo, ikimaanisha kuwa kiwango halisi cha hash power kinachounga mkono mabadiliko kinaweza kuwa kidogo kuliko inavyoonekana. Ikiwa uungwaji mkono halisi haujafikia wingi wa hash power, kuna uwezekano mkubwa wa kuona mgawanyiko wa mnyororo wa muda mrefu kama ulioelezwa katika aya iliyopita. Tatizo hili, au linalofanana nalo, liliwahi kutokea wakati BIP66 ilipowekwa, lakini lilitatuliwa ndani ya blocks kama sita.
 
 #### Gharama za kugawanyika
 
-
-
 Jimmy Song [alizungumza kuhusu gharama zinazohusishwa na uma za Hard](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) katika Breaking Bitcoin mjini Paris, lakini mengi ya aliyosema yanatumika kwa mgawanyiko wa GW39 ambao haukufaulu kwa 399. Alizungumza kuhusu *mambo ya nje hasi*, na kuyafafanua kama gharama ambayo mtu mwingine anapaswa kulipa kwa ajili ya matendo yako mwenyewe:
-
 
 > Mfano wa kawaida wa hali mbaya ya nje ni kiwanda. Labda wanazalisha- labda ni kiwanda cha kusafisha mafuta na wanazalisha kitu kizuri kwa uchumi lakini pia wanazalisha kitu ambacho ni cha nje hasi, kama uchafuzi wa mazingira. Sio tu kitu ambacho kila mtu anapaswa kulipia, kusafisha, au kuteseka. Lakini pia ni athari za mpangilio wa 2 na wa 3, kama vile msongamano mkubwa wa magari kuelekea kiwandani kutokana na wafanyakazi zaidi wanaohitaji kwenda huko. Unaweza pia kuwa- unaweza kuhatarisha baadhi ya wanyamapori karibu na huko. Sio kwamba kila mtu anapaswa kulipia vitu hasi vya nje, inaweza kuwa watu maalum, kama watu ambao hapo awali walikuwa wakitumia barabara hiyo au wanyama ambao walikuwa karibu na kiwanda hicho, na pia wanalipia gharama ya kiwanda hicho.
 
 Katika muktadha wa Bitcoin, anatoa mfano wa hali hasi za nje kwa kutumia Bitcoin Cash (bcash), ambayo ni Hard Fork ya Bitcoin iliyoundwa muda mfupi kabla ya mkutano huo mnamo 2017. Anaainisha hali mbaya za nje za Hard Fork kwa gharama za wakati mmoja.
 
 
-Miongoni mwa mifano mingi ya gharama za wakati mmoja, anataja zile zinazotokana na kubadilishana:
+Miongoni mwa mifano mingi ya gharama za wakati mmoja, anataja zile zinazotokana na exchanges:
 
-
-> Kwa hivyo tuna rundo la kubadilishana na walikuwa na gharama nyingi za wakati mmoja ambazo walipaswa kulipa. Jambo la kwanza lililotokea ni kwamba amana na uondoaji ulilazimika kusimamishwa kwa siku moja au mbili kwa mabadilishano haya kwa sababu hawakujua nini kitatokea. Mengi ya mabadilishano haya yalilazimika kutumbukiza kwenye hifadhi ya Cold kwa sababu watumiaji wao walikuwa wakidai bcash. Ni sehemu ya wajibu wao wa uaminifu, wanapaswa kufanya hivyo. Pia unapaswa kukagua programu mpya. Hili ni jambo ambalo tulipaswa kufanya wakati wa itbit. Tunataka kutumia bcash- tunafanyaje? Je, tunapaswa kupakua fedha za elektroni? Je, ina programu hasidi? Inabidi twende tukakague. Tulikuwa na kama siku 10 kubaini kama hii ilikuwa sawa au la. Na kisha unapaswa kuamua, je, tutaruhusu tu uondoaji wa mara moja, au tutaorodhesha sarafu hii mpya? Kwa Exchange ili kuorodhesha sarafu mpya, si rahisi- kuna kila aina ya taratibu mpya za kuhifadhi, kusaini, kuweka na kutoa pesa za Cold. Au unaweza kuwa na tukio hili la mara moja ambapo unawapa bcash yao wakati fulani na kisha hutafikiria tena juu yake. Lakini hiyo ina matatizo yake pia. Na hatimaye, na kwa njia yoyote ile, uondoaji au uorodheshaji- utahitaji miundombinu mipya ili kufanya kazi na token hii kwa njia fulani, hata ikiwa ni kujiondoa mara moja. Unahitaji njia fulani ya kutoa tokeni hizi kwa watumiaji wako. Tena, taarifa fupi. Kweli? Hakuna wakati wa kufanya hivi, lazima ufanyike haraka.
-
-Pia anaorodhesha gharama za mara moja zinazoletwa na wafanyabiashara, wasindikaji wa malipo, pochi, wachimba migodi na watumiaji, pamoja na baadhi ya gharama za kudumu, kwa mfano upotevu wa faragha na hatari kubwa ya kupanga upya.
+> Kwa hivyo tuna rundo la exchanges na walikuwa na gharama nyingi za wakati mmoja ambazo walipaswa kulipa. Jambo la kwanza lililotokea ni kwamba amana na uondoaji ulilazimika kusimamishwa kwa siku moja au mbili kwa exchanges hizi kwa sababu hawakujua nini kitatokea. Mengi ya exchanges haya yalilazimika kutumbukiza kwenye hifadhi ya Cold kwa sababu watumiaji wao walikuwa wakidai bcash. Ni sehemu ya wajibu wao wa uaminifu, wanapaswa kufanya hivyo. Pia unapaswa kukagua programu mpya. Hili ni jambo ambalo tulipaswa kufanya wakati wa itbit. Tunataka kutumia bcash – tunafanyaje? Je, tunapaswa kupakua fedha za elektroni? Je, ina programu hasidi? Inabidi twende tukakague. Tulikuwa na kama siku 10 kubaini kama hii ilikuwa sawa au la. Na kisha unapaswa kuamua, je, tutaruhusu tu uondoaji wa mara moja, au tutaorodhesha sarafu hii mpya? Kwa exchange ili kuorodhesha sarafu mpya, si rahisi – kuna kila aina ya taratibu mpya za kuhifadhi, kusaini, kuweka na kutoa pesa za Cold. Au unaweza kuwa na tukio hili la mara moja ambapo unawapa bcash yao wakati fulani na kisha hutafikiria tena juu yake. Lakini hiyo ina matatizo yake pia. Na hatimaye, na kwa njia yoyote ile, uondoaji au uorodheshaji – utahitaji miundombinu mipya ili kufanya kazi na token hii kwa njia fulani, hata ikiwa ni kujiondoa mara moja. Unahitaji njia fulani ya kutoa tokeni hizi kwa watumiaji wako. Tena, taarifa fupi. Kweli? Hakuna wakati wa kufanya hivi, lazima ufanyike haraka.
+Pia anaorodhesha gharama za mara moja zinazoletwa na wafanyabiashara, wasindikaji wa malipo, wallet, miners na watumiaji, pamoja na baadhi ya gharama za kudumu, kwa mfano upotevu wa faragha na hatari kubwa ya kupanga upya.
 
 
 Hakika, wakati mgawanyiko unatokea na mlolongo ulio na sheria za jumla zaidi unakuwa na nguvu zaidi kuliko mnyororo na sheria kali, reorg itatokea. Hii itakuwa na athari kali kwa shughuli zote zinazofanywa katika tawi lililofutwa. Kwa sababu hizi ni muhimu sana kujaribu kuzuia mgawanyiko wa minyororo wakati wote.
@@ -948,7 +939,7 @@ Bitcoin hukua na kubadilika kulingana na wakati. Mbinu tofauti za uboreshaji zim
 Ili kuweka Bitcoin katika maelewano, uma za Soft zimethibitishwa kuwa njia ya kusonga mbele, lakini swali kubwa bado halijajibiwa kikamilifu: tunawezaje kupeleka uma za Soft kwa usalama bila kusababisha ugomvi?
 
 
-## Mawazo ya adui
+## Fikra za kiulinzi dhidi ya wapinzani
 
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
@@ -956,11 +947,9 @@ Ili kuweka Bitcoin katika maelewano, uma za Soft zimethibitishwa kuwa njia ya ku
 ![](assets/adversarialthinking-banner.webp)
 
 
-Sura hii inaangazia *mawazo ya kiadui*, mawazo ambayo yanazingatia kile kinachoweza kwenda vibaya na jinsi wapinzani wanaweza kutenda. Tunaanza kwa kujadili dhana za usalama za Bitcoin na modeli ya usalama, kisha tunaeleza jinsi watumiaji wa kawaida wanaweza kuboresha uhuru wao wa kujitegemea na ugatuaji wa Bitcoin wa Full node kwa kufikiria vibaya. Kisha, tunaangalia baadhi ya vitisho halisi kwa Bitcoin na vile vile katika akili ya adui. Hatimaye, tunazungumza kuhusu *axiom of resistance* ambayo inaweza kukusaidia kuelewa ni kwa nini watu wanafanyia kazi Bitcoin kwanza.
+Sura hii inazungumzia fikra za kiulinzi dhidi ya wapinzani, mtazamo unaolenga kile kinachoweza kwenda vibaya na jinsi wapinzani wanaweza kutenda. Tunaanza kwa kujadili dhana za usalama wa Bitcoin na mfumo wake wa usalama, kisha tunaeleza jinsi watumiaji wa kawaida wanaweza kuboresha mamlaka yao binafsi na usanifu wa nodi kamili wa Bitcoin kwa kufikiri kwa mtazamo wa kiulinzi. Kisha tunaangazia baadhi ya vitisho halisi kwa Bitcoin pamoja na kuingia katika mawazo ya mpinzani. Hatimaye, tunazungumza kuhusu kanuni ya upinzani ambayo inaweza kukusaidia kuelewa kwa nini watu wanafanyia kazi Bitcoin tangu awali.
 
-
-Wakati wa kujadili usalama ndani ya mifumo mbalimbali, ni muhimu kuelewa mawazo ya usalama ni nini. Dhana ya kawaida ya usalama katika Bitcoin ni "tatizo la logarithm ya kipekee ni Hard kusuluhisha", ambayo, kwa maneno rahisi, inamaanisha kuwa haiwezekani kupata ufunguo wa kibinafsi unaolingana na ufunguo fulani wa umma. Dhana nyingine nzuri ya usalama ni kwamba nguvu nyingi za mtandao ni za uaminifu, kumaanisha kuwa wanacheza kwa sheria. Ikiwa mawazo haya yamethibitishwa kuwa sio sawa, basi Bitcoin iko kwenye shida.
-
+Wakati wa kujadili usalama ndani ya mifumo mbalimbali, ni muhimu kuelewa mawazo ya usalama ni nini. Dhana ya kawaida ya usalama katika Bitcoin ni "tatizo la logarithm ya kipekee ni ngumu kusuluhisha", ambayo, kwa maneno rahisi, inamaanisha kuwa haiwezekani kupata ufunguo wa kibinafsi unaolingana na ufunguo fulani wa umma. Dhana nyingine nzuri ya usalama ni kwamba nguvu nyingi za mtandao ni za uaminifu, kumaanisha kuwa wanacheza kwa sheria. Ikiwa mawazo haya yamethibitishwa kuwa sio sawa, basi Bitcoin iko kwenye shida.
 
 Mnamo 2015 Andrew Poelstra [alitoa hotuba](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) katika mkutano wa Kuongeza Bitcoin huko Hong Kong, ambapo alichambua mawazo ya usalama ya Bitcoin. Anaanza kwa kuona kwamba mifumo mingi huwapuuza wapinzani kwa kiasi fulani; kwa mfano, ni kweli Hard kulinda jengo dhidi ya aina zote za matukio ya uhasama. Badala yake, kwa ujumla tunakubali uwezekano kwamba mtu anaweza kuchoma jengo, na kwa kiasi fulani kuzuia tabia hii na tabia nyingine potofu kupitia utekelezaji wa sheria n.k.
 
@@ -994,31 +983,27 @@ utata wa mfumo yenyewe.
 
 ### Sio tu kwa wataalam wa Bitcoin
 
-
-
-Umuhimu wa fikra pinzani pia unaenea kwa watumiaji wa kila siku wa Bitcoin kwa kiwango fulani, sio tu kwa wasanidi na wataalamu wagumu wa Bitcoin. Ragnar Lifthasir anataja katika [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) jinsi masimulizi sahili kuhusu Bitcoin - kwa mfano, "HODL tu" - yanaweza kudhalilisha Bitcoin yenyewe, na kuhitimisha kwa kusema.
+Umuhimu wa fikra pinzani pia unaenea kwa watumiaji wa kila siku wa Bitcoin kwa kiwango fulani, sio tu kwa wasanidi na wataalamu wagumu wa Bitcoin. Ragnar Lifthasir anataja katika [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) jinsi masimulizi sahili kuhusu Bitcoin – kwa mfano, "HODL tu" – yanaweza kudhalilisha Bitcoin yenyewe, na kuhitimisha kwa kusema.
 
 
 > Ili kufanya Bitcoin na sisi wenyewe kuwa na nguvu tunahitaji kufikiria kama wahandisi wa programu wanaochangia Bitcoin. Wanakagua rika, wakitafuta dosari bila huruma. Katika hafla zao za teknolojia wanazungumza juu ya kila njia ambayo pendekezo linaweza kutofaulu. Wanafikiri kinyume. Wao ni wahafidhina
 
-Anarejelea masimulizi haya sahili kama monomania. Kupitia ufafanuzi huu anasema kwamba kwa kuangazia jambo moja - kwa mfano, "HODL tu" - una hatari ya kupuuza mambo muhimu zaidi, kama vile kuweka Bitcoin yako salama au kufanya uwezavyo kutumia Bitcoin kwa njia ya Trustless.
 
+Anarejelea masimulizi haya sahili kama monomania. Kupitia ufafanuzi huu anasema kwamba kwa kuangazia jambo moja – kwa mfano, "HODL tu" – una hatari ya kupuuza mambo muhimu zaidi, kama vile kuweka Bitcoin yako salama au kufanya uwezavyo kutumia Bitcoin kwa njia ya Trustless.
 
 ### Vitisho
-
-
 
 Kuna udhaifu mwingi unaojulikana katika Bitcoin, na wengi wao wanatumiwa kikamilifu. Ili kupata muhtasari wa hilo, angalia [Ukurasa wa Udhaifu](https://en.Bitcoin.it/wiki/Weaknesses) kwenye Bitcoin wiki. Kuna aina mbalimbali za matatizo zilizotajwa, kama vile
 
 Wizi wa Wallet na mashambulizi ya kunyimwa huduma:
 
 
-> Mshambulizi akijaribu kujaza mtandao na wateja wanaowadhibiti, basi utakuwa na uwezekano mkubwa wa kuunganisha kwenye nodi za washambuliaji pekee. Ingawa Bitcoin haitumii hesabu ya nodi kwa chochote, kutenganisha kabisa nodi kutoka kwa mtandao wa uaminifu kunaweza kusaidia katika utekelezaji wa mashambulizi mengine.
+> Mshambulizi akijaribu kujaza mtandao na wateja wanaowadhibiti, basi utakuwa na uwezekano mkubwa wa kuunganisha kwenye nodi za washambuliaji pekee. Ingawa Bitcoin haitumii hesabu ya node kwa chochote, kutenganisha kabisa nodi kutoka kwa mtandao wa uaminifu kunaweza kusaidia katika utekelezaji wa mashambulizi mengine.
 
 Aina hii ya shambulio huitwa *Sybil attack*, na hutokea wakati wowote huluki moja inapodhibiti nodi nyingi kwenye mtandao na kuzitumia kuonekana kama huluki nyingi.
 
 
-Kama vile nukuu inavyotaja pia, shambulio la Sybil halifai kwenye mtandao wa Bitcoin kwa sababu hakuna upigaji kura kupitia nodi au vyombo vingine vinavyoweza kuhesabika, bali kupitia nguvu za kompyuta. Walakini, muundo huu wa gorofa huacha mfumo kushambuliwa na mashambulizi mengine. Ukurasa wa Bitcoin wiki pia unaangazia mashambulizi mengine yanayoweza kutokea, kama vile kuficha taarifa (mara nyingi hujulikana kama *shambulio la kupatwa kwa jua*), na jinsi Bitcoin Core inavyotekeleza baadhi ya hatua za kukabiliana na mashambulizi hayo.
+Kama vile nukuu inavyotaja pia, shambulio la Sybil halifai kwenye mtandao wa Bitcoin kwa sababu hakuna upigaji kura kupitia node au vyombo vingine vinavyoweza kuhesabika, bali kupitia nguvu za kompyuta. Walakini, muundo huu wa gorofa huacha mfumo kushambuliwa na mashambulizi mengine. Ukurasa wa Bitcoin wiki pia unaangazia mashambulizi mengine yanayoweza kutokea, kama vile kuficha taarifa (mara nyingi hujulikana kama *shambulio la kupatwa kwa jua*), na jinsi Bitcoin Core inavyotekeleza baadhi ya hatua za kukabiliana na mashambulizi hayo.
 
 
 Ya hapo juu ni mifano ya vitisho vya kweli ambavyo vinahitaji kutunzwa.
@@ -1038,7 +1023,7 @@ Ili kuelewa vyema mawazo ya adui, inaweza kusaidia kupata muhtasari wa jinsi wan
 ufanisi.
 
 
-Kwa mfano, kuna sehemu kuhusu jinsi mtu anayeingia anaweza kuvuruga mashirika. Sio Hard kuona jinsi mbinu kama hizo zinavyoweza kutumika kulenga mchakato wa ukuzaji wa Bitcoin, ambao uko wazi kwa mtu yeyote kushiriki. Mshambulizi aliyejitolea anaweza kuweka maendeleo ya kukwama kwa wasiwasi usio na kikomo wa masuala yasiyo na umuhimu, kuhangaika juu ya maneno sahihi, na kujaribu kurudia majadiliano ambayo tayari yameshughulikiwa kwa kina. Mshambulizi pia anaweza kuajiri jeshi la troli ili kuzidisha ufanisi wao wenyewe; tunaweza kuliita hili shambulio la kijamii la Sybil. Kwa kutumia shambulio la kijamii la Sybil, wanaweza kuifanya ionekane kama kuna upinzani zaidi dhidi ya mabadiliko yanayopendekezwa kuliko ilivyo.
+Kwa mfano, kuna sehemu kuhusu jinsi mtu anayeingia anaweza kuvuruga mashirika. Sio ngumu kuona jinsi mbinu kama hizo zinavyoweza kutumika kulenga mchakato wa ukuzaji wa Bitcoin, ambao uko wazi kwa mtu yeyote kushiriki. Mshambulizi aliyejitolea anaweza kuweka maendeleo ya kukwama kwa wasiwasi usio na kikomo wa masuala yasiyo na umuhimu, kuhangaika juu ya maneno sahihi, na kujaribu kurudia majadiliano ambayo tayari yameshughulikiwa kwa kina. Mshambulizi pia anaweza kuajiri jeshi la troli ili kuzidisha ufanisi wao wenyewe; tunaweza kuliita hili shambulio la kijamii la Sybil. Kwa kutumia shambulio la kijamii la Sybil, wanaweza kuifanya ionekane kama kuna upinzani zaidi dhidi ya mabadiliko yanayopendekezwa kuliko ilivyo.
 
 
 Hii inaangazia jinsi hali iliyodhamiriwa inaweza na itafanya kila kitu katika uwezo wake kumwangamiza adui, pamoja na kuivunja kutoka ndani. Kwa kuwa Bitcoin ni aina ya pesa ambayo hushindana na sarafu za kawaida za sarafu, kuna uwezekano kwamba mataifa yatachukulia Bitcoin kama adui.
@@ -1050,7 +1035,9 @@ Hii inaangazia jinsi hali iliyodhamiriwa inaweza na itafanya kila kitu katika uw
 Eric Voskuil [anaandika kwenye ukurasa wake wa Cryptoeconomics wiki](https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) kuhusu kile anachokiita "axiom ya upinzani":
 
 
-> Kwa maneno mengine kuna dhana kwamba inawezekana kwa mfumo kupinga udhibiti wa serikali. Hili halikubaliwi kama ukweli lakini linachukuliwa kuwa wazo linalofaa, kwa sababu ya uchunguzi wa kimatibabu wa tabia ya mifumo kama hiyo, ambayo juu yake itaegemeza mfumo.
+>Kwa maneno mengine kuna dhana kwamba inawezekana kwa mfumo kupinga udhibiti wa serikali. Hili halikubaliwi kama ukweli lakini linachukuliwa kuwa wazo linalofaa, kwa sababu ya uchunguzi wa kimantiki wa tabia ya mifumo kama hiyo, ambayo juu yake itaegemeza mfumo.
+
+
 >
 
 > Mtu ambaye hakubali axiom ya upinzani anatafakari mfumo tofauti kabisa kuliko Bitcoin. Iwapo mtu anadhani kuwa haiwezekani kwa mfumo kupinga udhibiti wa serikali, hitimisho halina maana katika muktadha wa Bitcoin - vile vile hitimisho katika jiometri ya duara hukinzana na Euclidean. Je, Bitcoin inawezaje kutoruhusiwa au kustahimili udhibiti bila axiom? Mkanganyiko huo hupelekea mtu kufanya makosa ya wazi katika kujaribu kurekebisha mzozo huo.

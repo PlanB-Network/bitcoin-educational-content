@@ -1635,7 +1635,7 @@ In addition to all these good practices to be adopted on a daily basis, there ar
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
 
-Having studied the fundamentals of privacy protection, we're now going to look at more sophisticated techniques aimed at actively defending your confidentiality, in particular by unbundling your bitcoin history. In the next UTXO, we'll be looking at a whole host of little techniques, but first, I'd like to tell you about coinjoin.
+Having studied the fundamentals of privacy protection, we're now going to look at more sophisticated techniques aimed at actively defending your confidentiality, in particular by unbundling your bitcoin history. In the next part, we'll be looking at a whole host of little techniques, but first, I'd like to tell you about coinjoin.
 
 Coinjoin is often considered the most effective method of protecting Bitcoin users' privacy. But what exactly is a coinjoin transaction? Let's find out.
 

@@ -1,0 +1,9 @@
+question: Waarom wordt asymmetrische cryptografie minder gebruikt dan symmetrische cryptografie bij grote gegevensuitwisselingen?
+answer: Het is minder efficiënt voor een gelijkwaardig beveiligingsniveau
+wrong_answers:
+  - Het garandeert de authenticiteit van berichten niet
+  - Het vereist meerdere publieke sleutels voor elke Exchange
+  - Het is niet compatibel met moderne communicatieprotocollen
+explanation: |
+  Asymmetrische cryptografie, hoewel krachtig voor authenticatie en initiële versleuteling, vereist meer bronnen, waardoor het gebruik ervan inefficiënt is voor omvangrijke gegevensoverdrachten.
+reviewed: false

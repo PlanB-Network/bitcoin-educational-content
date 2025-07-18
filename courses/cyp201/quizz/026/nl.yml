@@ -1,0 +1,9 @@
+question: Wat is het uitgangspunt voor het berekenen van een ECDSA-handtekening?
+answer: Het bericht Hash
+wrong_answers:
+  - De openbare sleutel
+  - Een vaste Nonce
+  - Een aangepaste elliptische curve
+explanation: |
+  Een ECDSA-handtekening begint met het berekenen van de Hash van het te ondertekenen bericht, vaak met SHA256.
+reviewed: false

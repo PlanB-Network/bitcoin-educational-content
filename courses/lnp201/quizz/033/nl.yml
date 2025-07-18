@@ -1,0 +1,9 @@
+question: Wat houdt onion routing in de Lightning Network in?
+answer: Dit betekent dat elk tussenliggend knooppunt alleen zijn directe buren op het pad kent.
+wrong_answers:
+  - Om geld rechtstreeks van knooppunt naar knooppunt te sturen, waarbij de uiteindelijke ontvanger bekend is
+  - Om de vergoedingen voor elk tussenliggend knooppunt onafhankelijk te berekenen
+  - Om tegelijkertijd geld naar alle knooppunten op het pad te sturen
+explanation: |
+  Onion routing betekent dat elk tussenliggend knooppunt alleen het vorige en het volgende knooppunt kent, waardoor de vertrouwelijkheid van de uiteindelijke ontvanger behouden blijft.
+reviewed: false

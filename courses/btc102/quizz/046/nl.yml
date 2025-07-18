@@ -1,0 +1,9 @@
+question: Met welke tool kun je je Wallet monitoren zonder je privésleutels bloot te geven?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Bliksem Wallet
+  - Huishoudelijk Wallet
+explanation: |
+  Een Watch-only wallet gebruikt alleen openbare sleutels om saldi en transacties weer te geven, zonder het risico te lopen dat privé-sleutels worden onthuld.
+reviewed: false

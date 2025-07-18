@@ -1,0 +1,13 @@
+question: Wat is fractioneel reservebankieren?
+answer: Fractional reserve banking is een bankpraktijk waarbij banken niet verplicht zijn om evenveel reserves aan te houden als ze aan deposito's ontvangen, waardoor ze nieuwe koopkracht kunnen creëren wanneer ze leningen verstrekken.
+wrong_answers:
+  - Fractional reserve banking is een bankpraktijk waarbij banken meer reserves moeten aanhouden dan ze aan deposito's ontvangen.
+  - Fractional reserve banking is een bankpraktijk waarbij banken geen leningen mogen verstrekken.
+  - Fractional reserve banking is een bankpraktijk waarbij banken precies evenveel reserves moeten aanhouden als ze aan deposito's ontvangen.
+explanation: |
+  Fractioneel reservebankieren is een systeem waarin banken
+  slechts een fractie van het geld van hun deposanten in reserve houden,
+  en de rest uitlenen. Dit systeem stelt banken in staat om
+  nieuw geld creëren in de vorm van leningen, waardoor de totale geldhoeveelheid Supply in de economie toeneemt
+  gW-0 in de economie toeneemt.
+reviewed: true

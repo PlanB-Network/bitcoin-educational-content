@@ -1,0 +1,9 @@
+question: Wat is de primaire rol van een Bitcoin Address in een transactie?
+answer: UTXO's vergrendelen in het scriptPubKey
+wrong_answers:
+  - Ontgrendel de UTXO's in het scriptSig
+  - Het einde van de transactie aangeven
+  - Identificeer het bevestigingsblok
+explanation: |
+  Een Bitcoin Address is ingebed in de scriptPubKey om de UTXO's te vergrendelen. Het bepaalt de noodzakelijke voorwaarden om de fondsen te ontgrendelen.
+reviewed: false

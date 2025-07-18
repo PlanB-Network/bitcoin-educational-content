@@ -1,0 +1,9 @@
+question: Welke rol speelt de byte-vervangingsoperatie (S-Box) in AES-encryptie?
+answer: Het introduceert verwarring door elke byte te vervangen door een andere
+wrong_answers:
+  - Het waarborgt de integriteit door de bytes van het bericht te controleren
+  - Het schudt de kolommen om de verspreiding te vergroten
+  - Het verdeelt de klaartekst in blokken van 128 bits
+explanation: |
+  De byte substitutie operatie (S-Box) in AES zorgt voor verwarring door elke byte te vervangen door een andere waarde volgens een tabel, waardoor de versleutelde tekst moeilijker te analyseren is.
+reviewed: false

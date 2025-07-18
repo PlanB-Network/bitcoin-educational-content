@@ -1,0 +1,9 @@
+question: Welke sleutelgrootte wordt beschouwd als veilig tegen brute kracht aanvallen voor moderne encryptie?
+answer: 128 bits
+wrong_answers:
+  - 16 bits
+  - 64 bits
+  - 100 bits
+explanation: |
+  Met een sleutel van minstens 128 bits wordt moderne encryptie momenteel als veilig beschouwd tegen brute force aanvallen, omdat het aantal pogingen onrealistisch zou zijn.
+reviewed: false

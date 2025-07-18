@@ -1,0 +1,9 @@
+question: Welk voordeel biedt een veilige e-mailprovider als ProtonMail?
+answer: Privacybescherming en verbeterde beveiliging.
+wrong_answers:
+  - Eenvoudiger Interface voor beginners.
+  - Vermindering van functies om aanvalsoppervlak te minimaliseren.
+  - Integratie van een algoritme voor het automatisch generate maken van je e-mails.
+explanation: |
+  ProtonMail onderscheidt zich door zijn privacybeleid en versterkte beveiligingsmaatregelen.
+reviewed: true

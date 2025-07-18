@@ -1,0 +1,9 @@
+question: Wat betekent diepte 0 in de hiërarchie van HD-wallets?
+answer: De hoofdsleutel en de hoofd-chain code
+wrong_answers:
+  - De externe adresketen
+  - De standaardaccount
+  - De muntsoort
+explanation: |
+  Diepte 0 komt overeen met de hoofdsleutel en de hoofd chain code, die de startpunten zijn voor alle afleidingen in een HD Wallet.
+reviewed: false

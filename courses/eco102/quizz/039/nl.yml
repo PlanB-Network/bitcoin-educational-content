@@ -1,0 +1,9 @@
+question: Wat is het principe van juristen volgens Bastiat?
+answer: Het is het principe van de voorrang van de wet op eigendom
+wrong_answers:
+  - Het is het principe dat eigendom boven de wet gaat
+  - Het is het principe van gelijkheid voor de wet
+  - Het is het recht op eigendom zonder staatsinmenging
+explanation: |
+  Voor Bastiat plaatst het principe van de juristen, in tegenstelling tot dat van de economen, de wet als voorgaand eigendom, een positie die hij bekritiseert vanwege het potentieel om onrechtvaardigheden tot stand te brengen.
+reviewed: false

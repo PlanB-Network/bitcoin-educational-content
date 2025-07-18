@@ -1,0 +1,10 @@
+question: Wat is de rol van de publieke sleutel in een Bitcoin Wallet?
+answer: Het wordt gebruikt om generate Bitcoin adressen en dus geld te ontvangen.
+wrong_answers:
+  - Het wordt gebruikt om Bitcoin transacties te versleutelen.
+  - Deze wordt gebruikt om toegang te krijgen tot de Bitcoin Wallet.
+  - Het wordt gebruikt als back-up voor de Bitcoin Wallet.
+explanation: |
+  De publieke sleutel is afgeleid van de private sleutel en wordt gebruikt
+  om generate Bitcoin adressen te gebruiken om geld te ontvangen.
+reviewed: true

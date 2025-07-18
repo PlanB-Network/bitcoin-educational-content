@@ -1,0 +1,9 @@
+question: Waarom is het persoonlijk uitwisselen van sleutels onpraktisch voor veilige online communicatie?
+answer: Het leidt tot hoge organisatiekosten en is inefficiënt
+wrong_answers:
+  - Het maakt versleutelde communicatie onbruikbaar
+  - Het vereist het gebruik van meerdere sleutels per client
+  - Het voorkomt het hergebruik van sleutels voor herhaalde transacties
+explanation: |
+  Het persoonlijk uitwisselen van sleutels is duur en inefficiënt, vooral op grote schaal, omdat het transacties vertraagt en aanzienlijke logistieke kosten met zich meebrengt voor elke nieuwe klant.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is de rol van het principe van Kerckhoff in cryptografie?
+answer: Om ervoor te zorgen dat de veiligheid afhangt van de geheime sleutel, niet van de geheimhouding van het schema
+wrong_answers:
+  - Om ervoor te zorgen dat de veiligheid berust op de geheimhouding van het schema, niet op de geheime sleutel
+  - Een zeer lange coderingssleutel vereisen
+  - Om te garanderen dat elk bericht een unieke sleutel heeft
+explanation: |
+  Volgens het principe van Kerckhoff moet de veiligheid van een cryptografisch systeem alleen berusten op de geheime sleutel en niet op de geheimhouding van het algoritme zelf.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke dienst maakt het mogelijk om liquiditeit naar de andere kant van een kanaal te verplaatsen terwijl geld On-Chain wordt opgehaald?
+answer: Uitlussen
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  De Loop Out service van Lightning Labs maakt de overdracht van fondsen van een Lightning-kanaal naar de On-Chain Blockchain mogelijk, waardoor de ontvangstcapaciteit wordt geoptimaliseerd terwijl bitcoins op de hoofdketen worden opgehaald.
+reviewed: false

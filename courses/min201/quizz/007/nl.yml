@@ -1,0 +1,13 @@
+question: Wat gebeurt er ongeveer elke vier jaar met de Mining beloning in het Bitcoin netwerk?
+answer: Het ondergaat een Halving
+wrong_answers:
+  - Het verdubbelt
+  - Het verdrievoudigt
+  - Het blijft hetzelfde
+explanation: |
+  De Mining beloning in het Bitcoin netwerk ondergaat een
+  Halving elke 210.000 blokken, ongeveer elke vier jaar
+  jaar. Deze beloning dient als een krachtige stimulans om
+  mijnwerkers aan te moedigen om deel te nemen aan het Mining proces
+  ondanks de energiekosten.
+reviewed: true

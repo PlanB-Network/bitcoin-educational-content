@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste kenmerk van een cryptografische Hash functie?
+answer: Het produceert een uitvoer met een vaste lengte voor elke invoer, ongeacht de grootte.
+wrong_answers:
+  - Het versleutelt gegevens met een symmetrische sleutel.
+  - Het produceert een variabele uitvoer afhankelijk van de lengte van de invoer.
+  - Het decodeert berichten met behulp van een openbare sleutel.
+explanation: |
+  Een Hash functie genereert een Hash met een vaste lengte, ongeacht de grootte van de invoer.
+reviewed: false

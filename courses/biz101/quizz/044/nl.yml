@@ -1,0 +1,9 @@
+question: Wat is een van de grootste voordelen voor winkeliers die de Lightning Network gebruiken?
+answer: Lagere transactiekosten
+wrong_answers:
+  - Door banken gegarandeerde betalingen
+  - Automatische omzetstijging
+  - Afschaffing van commerciële belastingen
+explanation: |
+  De transactiekosten op de Lightning Network zijn erg laag, waardoor het een kosteneffectieve oplossing is voor winkeliers.  
+reviewed: false

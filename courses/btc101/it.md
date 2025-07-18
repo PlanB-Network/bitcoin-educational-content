@@ -83,7 +83,7 @@ L'importante è capire questa nuova tecnologia in modo generale, quindi vi augur
 
 Pronto a tuffarti nell'affascinante universo di Bitcoin e a comprenderne tutti i meccanismi? Andiamo!
 
-## La preistoria del Bitcoin
+## La preistoria di Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
@@ -929,7 +929,7 @@ Il consumo di elettricità rappresenta la quasi totalità dei costi per un miner
 
 ### Un dibattito senza fine
 
-In linea di principio il dibattito sull'impatto ecologico di Bitcoin è spesso fuorviante, soprattutto a causa di una insufficiente comprensione della sua utilità. Bitcoin non può essere valutato semplicemente in termini di costi energetici per transazione, perché i miner proteggono sia la rete attuale che quella storica e le transazioni sono raggruppate e non tutte equivalenti. Inoltre non si tiene nemmeno conto dell'impatto di Lightning Network. Chi sostiene che Bitcoin consuma troppa energia può avere motivazioni politiche o cercare di vendere la propria blockchain alternativa. Spesso il pretesto ecologico viene utilizzato per giustificare la messa al bando del Bitcoin.
+In linea di principio il dibattito sull'impatto ecologico di Bitcoin è spesso fuorviante, soprattutto a causa di una insufficiente comprensione della sua utilità. Bitcoin non può essere valutato semplicemente in termini di costi energetici per transazione, perché i miner proteggono sia la rete attuale che quella storica e le transazioni sono raggruppate e non tutte equivalenti. Inoltre non si tiene nemmeno conto dell'impatto di Lightning Network. Chi sostiene che Bitcoin consuma troppa energia può avere motivazioni politiche o cercare di vendere la propria blockchain alternativa. Spesso il pretesto ecologico viene utilizzato per giustificare la messa al bando di Bitcoin.
 
 È importante sottolineare che Bitcoin, in quanto invenzione rivoluzionaria, fornisce agli individui che vivono sotto l'oppressione finanziaria o i regimi dittatoriali, un mezzo di lotta per la propria libertà. Come ulteriore vantaggio, Bitcoin offre un percorso verso l'indipendenza finanziaria aggirando la censura e le restrizioni bancarie. Più che una semplice valuta, Bitcoin è una forma di comunicazione e un simbolo di libertà e l'energia spesa dai miner svolge un ruolo cruciale nella difesa di questa libertà, consentendo l'emancipazione da un sistema finanziario dominato dal debito e dall'eccessiva creazione monetaria da parte delle banche centrali.
 
@@ -1013,7 +1013,7 @@ Sulla base dei cicli passati, sembra che la cadenza dei cicli economici di Bitco
 
 Queste considerevoli fluttuazioni hanno fatto guadagnare a Bitcoin la reputazione di asset altamente volatile, che spesso porta a perdite sostanziali per i suoi utenti. Sebbene il prezzo possa calare del 10%, del 20% o addirittura del 50% in pochi giorni, è importante capire che il protocollo Bitcoin stesso non è influenzato dalle variazioni di prezzo.
 
-L'elevata volatilità è oggi pienamente accettata dagli attori Bitcoin e può essere mitigata da diverse soluzioni, come le coperture finanziarie (stablecoin), una forte convinzione a lungo termine (hodling) o semplicemente evitando il rischio di investire il 100% dei propri fondi in Bitcoin senza una solida comprensione. Capire perché il prezzo del Bitcoin fluttua così tanto è quindi essenziale per progredire in questo settore, poiché sono proprio i movimenti e i cicli del prezzo che aiutano a moderare e regolare il mercato in una certa misura. È fondamentale notare che, con la crescita e la maturazione di Bitcoin, la volatilità diventa meno impattante.
+L'elevata volatilità è oggi pienamente accettata dagli attori Bitcoin e può essere mitigata da diverse soluzioni, come le coperture finanziarie (stablecoin), una forte convinzione a lungo termine (hodling) o semplicemente evitando il rischio di investire il 100% dei propri fondi in Bitcoin senza una solida comprensione. Capire perché il prezzo di Bitcoin fluttua così tanto è quindi essenziale per progredire in questo settore, poiché sono proprio i movimenti e i cicli del prezzo che aiutano a moderare e regolare il mercato in una certa misura. È fondamentale notare che, con la crescita e la maturazione di Bitcoin, la volatilità diventa meno impattante.
 
 ![image](assets/it/69.webp)
 
@@ -1175,7 +1175,7 @@ Infine, è importante sottolineare che gli obblighi fiscali possono variare a se
 
 ### La corsa sfrenata è appena iniziata!
 
-Come ogni nuova tecnologia, l'adozione del Bitcoin segue una curva a S, che illustra la progressione dagli early adopters a una più ampia accettazione. Abbiamo superato l'era degli early adopters e gli indicatori suggeriscono una potenziale diffusione di Bitcoin. Si tratta dopo tutto di una tecnologia virale che non può essere fermata facilmente. Da un lato El Salvador ha compiuto il passo coraggioso di adottare pienamente Bitcoin come moneta legale. Dall'altro, invece, altri Paesi hanno risposto vietandolo e criminalizzandone l'uso, il che dimostra che l'adozione di Bitcoin è complessa nonché influenzata da fattori culturali, storici e nazionali.
+Come ogni nuova tecnologia, l'adozione di Bitcoin segue una curva a S, che illustra la progressione dagli early adopters a una più ampia accettazione. Abbiamo superato l'era degli early adopters e gli indicatori suggeriscono una potenziale diffusione di Bitcoin. Si tratta dopo tutto di una tecnologia virale che non può essere fermata facilmente. Da un lato El Salvador ha compiuto il passo coraggioso di adottare pienamente Bitcoin come moneta legale. Dall'altro, invece, altri Paesi hanno risposto vietandolo e criminalizzandone l'uso, il che dimostra che l'adozione di Bitcoin è complessa nonché influenzata da fattori culturali, storici e nazionali.
 
 ![image](assets/it/02.webp)
 
@@ -1193,7 +1193,7 @@ Se volete ampliare le vostre conoscenze su Bitcoin questo è il momento giusto: 
 
 > "Penso che Internet sarà una delle forze principali per ridurre il ruolo del governo. L'unica cosa che manca, ma che sarà presto sviluppata, è un e-cash affidabile - un metodo con cui su Internet si possono trasferire fondi da A a B senza che A conosca B o B conosca A" - Previsione di Milton Friedman nel 1999
 
-# Il futuro del Bitcoin: Lightning Network
+# Il futuro di Bitcoin: Lightning Network
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 

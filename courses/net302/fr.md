@@ -102,7 +102,7 @@ Cette organisation hiérarchique est particulièrement adaptée aux réseaux ét
 
 Dans une topologie en bus, tous les équipements partagent un même support de transmission, généralement une ligne coaxiale ou une fibre optique. Chaque unité est connectée de manière passive, sans modification active du signal, et peut émettre ou recevoir des données sur ce canal commun.
 
-Le principal avantage d’un réseau en bus est son coût d’installation réduit grâce à un câblage simplifié. De plus, la panne d’un poste isolé ne compromet pas la communication des autres. En revanche, le support physique unique représente un point critique : toute coupure ou dysfonctionnement de ce média entraîne l’arrêt complet du trafic pour l’ensemble du réseau.
+Le principal avantage d’un réseau en bus est son coût d’installation réduit grâce à un câblage simplifié. Cependant, dans les implémentations historiques reposant sur un support coaxial (Ethernet 10BASE2/10BASE5), la déconnexion ou la panne d’une station peut perturber, voire interrompre, l’ensemble du trafic : la continuité électrique du bus et son impédance de terminaison ne sont alors plus respectées. Aussi, le support physique unique représente un point critique : toute coupure ou dysfonctionnement de ce média entraîne l’arrêt complet de la communication pour l’ensemble du réseau.
 
 ![Image](assets/fr/003.webp)
 
@@ -131,9 +131,9 @@ Il existe par ailleurs d’autres variantes topologiques, telles que les réseau
 ## Les origines de TCP/IP
 <chapterId>266b6864-8789-48d7-bc85-001cb9f1651f</chapterId>
 
-À l’origine du protocole TCP, on trouve la **DARPA** (*Defense Advanced Research Projects Agency*), une agence de recherche et développement du département de la Défense des États-Unis, qui initia dans les années 1970 le projet ARPANET. Ce projet visait à relier entre eux des centres de recherche et des universités par un réseau capable de résister aux coupures physiques et d’assurer la transmission fiable des données, même en cas de défaillance partielle de l’infrastructure.
+À l’origine du protocole TCP, on trouve l’**ARPA** (*Advanced Research Projects Agency*, renommée "DARPA" en 1972), qui lança dès 1966 le projet **ARPANET**. Le premier segment d’ARPANET devient opérationnel en octobre 1969, et interconnecte les universités de l’UCLA et de Stanford. L’objectif était de relier des centres de recherche au moyen d’un réseau à commutation de paquets capable de poursuivre ses communications même en cas de défaillance partielle de l’infrastructure.
 
-Dans cette dynamique, la DARPA finança notamment l'université de Berkeley afin d’intégrer les premiers protocoles TCP/IP au sein de son système Unix BSD, ce qui a contribué à la diffusion et à la normalisation de ce protocole dans le monde académique et plus tard dans le monde industriel.
+Dans cette dynamique, l'ARPA finança notamment l'université de Berkeley afin d’intégrer les premiers protocoles TCP/IP au sein de son système Unix BSD, ce qui a contribué à la diffusion et à la normalisation de ce protocole dans le monde académique et plus tard dans le monde industriel.
 
 **Remarque** : à cette époque, les informaticiens ne disposaient pas encore de Linux, qui ne verra le jour qu’au début des années 1990, ni même réellement de Minix, le système éducatif conçu par Andrew TANNENBAUM. Les options se limitaient essentiellement à Unix, ou parfois à des systèmes centraux propriétaires comme OpenVMS. Unix, grâce à sa souplesse et son ouverture, joua donc un rôle essentiel dans la propagation des premiers concepts de mise en réseau.
 
@@ -148,7 +148,7 @@ La gouvernance et l’évolution de ces protocoles sont supervisées par l’***
 - **IRTF** (_Internet Research Task Force_), qui mène des recherches de fond sur l’évolution et l’amélioration des protocoles ;
 - **IETF** (_Internet Engineering Task Force_), qui élabore, standardise et documente les protocoles opérationnels déployés sur Internet.
 
-Pour la distribution des ressources réseau, telles que les plages d’adresses IP ou les noms de domaine, des organismes spécifiques interviennent. À l’échelle internationale, ces missions sont assurées par le **NIC** (_Network Information Center_), tandis qu’en France par exemple, l’**INRIA** (_Institut National de Recherche en Informatique et en Automatique_) y contribue également pour la gestion et l’attribution de certaines ressources nationales.
+Pour la distribution des ressources réseau (plages d’adresses IP, numéros de systèmes autonomes, noms de domaine racine...) la coordination internationale relève aujourd’hui de l’**IANA/ICANN**. La gestion opérationnelle s’appuie sur cinq **RIR** (*Regional Internet Registries*) : **RIPE NCC** (Europe, Moyen-Orient, Asie centrale), **ARIN**, **APNIC**, **LACNIC** et **AFRINIC**.
 
 L’ensemble des spécifications des protocoles TCP/IP est consigné dans des documents appelés **RFC** (_Request For Comments_), véritables références techniques, dont la numérotation est en perpétuelle évolution pour refléter l’enrichissement constant de la suite protocolaire.
 
@@ -179,24 +179,24 @@ Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de
 ## Le protocole QoS IPv5
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
 
-L’en-tête d’un paquet IP est une structure de données essentielle, organisée en plusieurs champs distincts, chacun remplissant une fonction précise pour assurer la bonne transmission et le traitement des paquets tout au long de leur parcours sur le réseau. Parmi ces champs, on trouve notamment l’adresse IP de destination, indispensable pour aiguiller correctement le paquet vers son destinataire final, mais aussi la longueur totale de l’en-tête, des informations de contrôle et de vérification, et d’autres paramètres permettant de gérer le flux et la qualité de la communication.
+L’en-tête d’un paquet IP est une structure de données essentielle, organisée en plusieurs champs distincts, chacun remplissant une fonction précise pour assurer la bonne transmission et le traitement des paquets tout au long de leur parcours sur le réseau. Parmi ces champs, on trouve notamment l’adresse IP de destination, indispensable pour aiguiller correctement le paquet vers son destinataire final, mais aussi la longueur de l’en-tête, indiquée par le champ IHL (*Internet Header Length*), et la longueur totale du paquet, stockée dans le champ *Total Length*, des informations de contrôle et de vérification, et d’autres paramètres permettant de gérer le flux et la qualité de la communication.
 
 Le tout premier champ de cet en-tête se nomme "Version". Il occupe 4 bits et indique clairement la version du protocole IP à laquelle le paquet se conforme. Cette version est importante, car elle informe chaque routeur ou équipement intermédiaire de la manière dont il doit interpréter et manipuler les données encapsulées.
 
-**Remarque** : la gestion et l’attribution des versions de protocoles IP relèvent de la responsabilité de l’**IANA** (_Internet Assigned Numbers Authority_), l’organisme international chargé d’administrer plusieurs paramètres de l’Internet, tels que les adresses IP, les noms de domaine et les numéros de versions de protocoles. À l’heure actuelle, seules 24 combinaisons binaires peuvent être affectées pour désigner une version de protocole d’interconnexion. Si l’on consulte le tableau des versions actuelles on découvre ceci :
+**Remarque** : la gestion et l’attribution des versions de protocoles IP relèvent de l’**IANA**. Un champ de 4 bits permet 16 combinaisons binaires (valeurs 0 à 15). À ce jour, leur affectation est la suivante :
 
-| Version Number | Protocol   | Version Description         | Reference   |
-| -------------- | ---------- | --------------------------- | ----------- |
-| 0–1            | Reserved   | Reserved                    | RFC4928     |
-| 2–3            | Unassigned | Unassigned                  |             |
-| 4              | IP         | Internet Protocol           | RFC791      |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC1190** |
-| 6              | IPv6       | Internet Protocol version 6 | RFC1752     |
-| 7              | TP/IX      | The Next Internet           | RFC1475     |
-| 8              | PIP        | The P Internet Protocol     | RFC1621     |
-| 9              | TUBA       | Tuba                        | RFC1347     |
-| 10–14          | Unassigned | Unassigned                  |             |
-| 15             | Reserved   | Reserved                    |             |
+| Version Number | Protocol   | Version Description         | Reference               |
+| -------------- | ---------- | --------------------------- | ----------------------- |
+| 0–1            | Reserved   | Reserved                    |                         |
+| 2–3            | Unassigned | Unassigned                  |                         |
+| 4              | IP         | Internet Protocol           | RFC 791                 |
+| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
+| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
+| 7              | TP/IX      | The Next Internet           | RFC 1475                |
+| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
+| 9              | TUBA       | Tuba                        | RFC 1347                |
+| 10–14          | Unassigned | Unassigned                  |                         |
+| 15             | Reserved   | Reserved                    |                         |
 
 Parmi ces versions figure la version IPv5, qui, bien que méconnue du grand public, a bel et bien existé sous la forme du protocole ST (_Stream Protocol_). Conçu dans les années 1980, IPv5 visait principalement à répondre à un besoin émergent à l’époque : garantir une "_Quality of Service_" ou "QoS" pour certains flux de données nécessitant une transmission continue et stable, comme la voix sur IP ou les flux multimédias. L’objectif était d’offrir une bande passante et une priorité garanties de bout en bout, un concept similaire à ce que propose aujourd’hui le protocole RSVP (_Resource Reservation Protocol_) pour la réservation dynamique de ressources réseau sur les routeurs modernes.
 
@@ -217,7 +217,7 @@ Le protocole IP, ou "***Internet Protocol***", constitue la pierre angulaire du 
 
 Au niveau physique, la transmission repose sur des interfaces matérielles qui établissent les connexions point à point entre les nœuds. Toutefois, c’est bien le protocole IP qui rend possible la communication de bout en bout en fournissant à chaque paquet les informations nécessaires pour trouver sa route parmi un ensemble de chemins possibles.
 
-Trois éléments principaux contenus dans l’en-tête IP permettent de définir précisément la destination finale d’un paquet :
+Grâce à trois éléments de configuration réseau, il est possible de déterminer comment orienter un paquet vers sa destination :
 
 - **L’adresse IP** : identifie de manière unique l’hôte de destination dans le réseau.
 - **Le masque de sous-réseau** : précise la partie de l’adresse qui désigne le réseau et celle qui identifie l’hôte, ce qui facilite le découpage logique en sous-réseaux.

@@ -976,6 +976,7 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 ## La bataille pour Pay to Script Hash
 
 https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war
+https://gnusha.org/pi/bitcoindev/4F01C9D8.10107@justmoon.de/ (résumé par justmoon)
 https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/
 
 Après le départ de Satoshi Nakamoto, le développement du logiciel a été pris en charge par la communauté, qui a dû se coordonner, sous la supervision de Gavin Andresen. Il est en particulier question d'améliorer la programmabilité de Bitcoin, celle-ci ayant été temporairement restreinte par l'instauration de règles de relai sur le réseau.
@@ -1074,17 +1075,7 @@ Il est ainsi décidé d'étudier les alternatives avant de prendre une quelconqu
 
 ### Pay to Script Hash
 
-Résumé par justmoon : https://gnusha.org/pi/bitcoindev/4F01C9D8.10107@justmoon.de/
-
-Russell O'Connor "Alternative to OP_EVAL" [29/12/2011](https://gnusha.org/pi/bitcoindev/alpine.LRH.2.00.1112290111310.22327@theorem.ca/) : OP\_CODEHASH
-
-Russell O'Connor : docteur en mathématique canadien et chercheur en informatique à l'université Radboud de Nimègue aux Pays-Bas,
-
-Pieter Wuille, [29/12/2011](https://gnusha.org/pi/bitcoindev/20111229190838.GA29609@ulyssis.org/) : OP\_CHECKEDEVAL
-
-Le principe derrière OP_EVAL est de payer une empreinte de script et d'inclure le dit script. D'où sa désignation de *Pay to Script Hash*, ou P2SH, calqué sur le schéma *Pay to Public Key Hash* (P2PKH). Gregory Maxwell, [17-12-2011](https://buildingbitcoin.org/bitcoin-dev/log-2011-12-17.html).
-
-Le 2 janvier 2012, Gavin Andresen [a l'idée](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-02.html) de reprendre le principe d'OP\_EVAL, à l'exception que la machine virtuelle reconnaitrait la forme du script. Amir Taaki commente en écrivant que « l'idée est un hack » mais qu'il « aime bien » . Gavin [intitule](https://gnusha.org/pi/bitcoindev/CABsx9T3gNNmPen=WtCpG8RCChSwpJ73r7WU2Kz_fP31wAQ+jQg@mail.gmail.com/) son idée « pay to script hash », un nom calqué sur le schéma *Pay to Public Key Hash* (P2PKH) qui est une forme standard de script.
+Le principe derrière `OP_EVAL` est de payer une empreinte de script et de fournir le dit script lors du déverrouillage des fonds. Le 2 janvier 2012, Gavin Andresen [a l'idée](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-02.html#l-760) de reprendre ce principe, à l'exception que la machine virtuelle reconnaitrait la forme du script. Amir Taaki commente en écrivant que « l'idée est un hack » mais qu'il « aime bien » . Gavin [intitule](https://gnusha.org/pi/bitcoindev/CABsx9T3gNNmPen=WtCpG8RCChSwpJ73r7WU2Kz_fP31wAQ+jQg@mail.gmail.com/) son idée « pay to script hash », un nom [calqué](https://buildingbitcoin.org/bitcoin-dev/log-2011-12-17.html#l-715) sur le schéma *Pay to Public Key Hash* (P2PKH) qui est une forme standarde de script.
 
 Le lendemain, le 3 janvier à 21 heures UTC, une réunion est [organisée](https://bitcointalk.org/index.php?topic=56376.msg670964#msg670964) sur le canal IRC \#bitcoin-dev par Amir Taaki, pour que les développeurs se mettent d'accord. Une grande majorité est favorable à Pay to Script Hash, [y compris](https://gnusha.org/pi/bitcoindev/alpine.LRH.2.00.1201021134030.21247@theorem.ca/) Russell O'Connor. Gavin [décrira](https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219) la proposition comme « une alternative plus simple, plus sûre mais moins puissante pour créer des adresses bitcoin pour les transactions multisignatures et les futures transactions plus complexes » (original: "a simpler, safer-but-less-powerful alternative for creating bitcoin addresses for multisignature and future more-complex transactions.").
 
@@ -1120,9 +1111,7 @@ Un autre membre du forum, un mineur allemand utilisant le pseudonyme Nachtwind, 
 
 ### Le débat parmi les développeurs
 
-À mesure que la fin du mois de janvier s'approche...
-
-https://bitcointalk.org/index.php?action=profile;u=224;sa=showPosts;start=820
+Ces différentes propositions créent
 
 Amir Taaki, qui [se déclare](https://github.com/bitcoin/bitcoin/issues/729#issuecomment-3325652) « de nature conservatrice sur le plan du protocole, et de nature progressive vis-à-vis des implémentations » (original: "protocol-conservative implementation-liberal by nature"), se montre particulièrement prudent à propos de l'adoption de Pay to Script Hash.
 
@@ -1139,29 +1128,46 @@ Trad. Bitcoin.fr : « Je préférerais que les gens aient leur mot à dire en l
 https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/
 
 
-![Avis des développeurs sur les différentes propositions, le 6 février 2012](assets/en/p2sh-votes-feb-2012.webp)
+![Avis des développeurs sur les différentes propositions, le 2 février 2012](assets/en/p2sh-votes-feb-2012.webp)
 
-Avis des développeurs sur les différentes propositions, le 6 février 2012 (source : [Bitcoin.it](https://en.bitcoin.it/w/index.php?title=P2SH_Votes&oldid=23487))
+Avis des développeurs sur les différentes propositions, le 2 février 2012 (source : [Bitcoin.it](https://en.bitcoin.it/w/index.php?title=P2SH_Votes&oldid=23259))
 
-Le BIP 22 est [proposé](https://bitcointalk.org/index.php?topic=62181.msg725161#msg725161) par Mike Caldwell le 1er février 2012.
+Le débat est tranché par Gavin Andresen
 
+Le 1er février 2012, Mike Caldwell remet une pièce dans la machine en [proposant](https://bitcointalk.org/index.php?topic=62181.msg725161#msg725161) un BIP (improprement assigné au numéro 22) qui reprend son idée de modifier le code opération `OP_CHECKSIG`. Gavin lui [demande](https://bitcointalk.org/index.php?topic=62181.msg725876#msg725876) immédiatement d'arrêter, en précisant que Pay to Script Hash « bénéficie d'un soutien massif » et qu'il « sera la solution » (original: "BIP 16 has overwhelming support, it will be the solution"). Il ajoute :
+
+> « Tu proposes un changement qui n'est pas rétrocompatible, ce qui signifierait une scission « dure » de la blockchain. **Tout le monde** s'accorde à dire que c'est une mauvaise idée. La confusion et le potentiel de piratage si une partie significative des utilisateurs de bitcoins se retrouvait sur une chaîne séparée sont considérables ; tu ne tiens pas compte de tout ça dans ta proposition. »
+>
+> original: "You are proposing a non-backwards-compatible change, which would mean a "hard" blockchain split. Everybody agrees that is a bad idea. The confusion and potential for hacks if a significant fraction of bitcoin users were on a separate chain is massive; you gloss over all of that in your proposal."
+
+
+
+Gavin Andresen tranche en faveur du BIP16 :
+
+[3/2](https://bitcointalk.org/index.php?topic=62181.msg729444#msg729444) : "I used my Phone-a-Friend and Ask the Audience, and I'm locking in BIP 16 as my Final Answer (follow the link if you don't get the stale pop culture reference)."
+
+Quelques jours plus tard, Gavin [expliquera](https://bitcointalk.org/index.php?topic=62181.msg729444#msg729444) (en référence à l'émission *Qui veut gagner des millions ?*) :
+
+> « J'ai utilisé l'appel à un ami et l'avis du public ; j'ai choisi le BIP 16 et c'est mon dernier mot. »
+>
+> original: "I used my Phone-a-Friend and Ask the Audience, and I'm locking in BIP 16 as my Final Answer"
 
 ### Le signalement des mineurs
 
-Coopératives de minage : DeepBit, BTC Guild, Slush Pool/Bitcoin.cz Mining
+Un autre problème concerne l'activation de Pay to Script Hash en tant que telle. Pour que la mise à niveau soit rétrocompatible, il faut qu'une majorité du taux de hachage l'applique. Mais, à mesure que la fin du mois de janvier s'approche, les espoirs activer Pay to Script Hash s'amenuisent.
+
+À l'époque, la puissance de calcul se répartit entre une \[dizaine/vingtaine\] de coopératives de minage, dont trois sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
 
 - [blockchain.info, 19/12](https://web.archive.org/web/20111219124912/http://blockchain.info/pools), 144 blocs : 24 %, 14 %, 2 %
 - [blockchain.info, 20/1](https://web.archive.org/web/20120120152812/http://blockchain.info/pools), 144 blocs : 42 %, 13 %, 4 %
 - [blockorigin.pfoe.be, 18/3](https://web.archive.org/web/20120318030111/http://blockorigin.pfoe.be/), 2 016 blocs : 33,63 %, 11,90 %, 12,05 %
 - [blockchain.info, 7/4](https://web.archive.org/web/20120407204745/http://blockchain.info/pools), 144 blocs : 32 %, 15 %, 11 %
 
-Deepbit, la coopérative dominante, qui [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011,
-
 ![Proportion des blocs minés par les coopératives de minage durant la journée du 19 décembre 2011](assets/en/blockchain-info-mining-pools-20111219.webp)
 
 Proportion des blocs minés par les coopératives de minage durant la journée du 19 décembre 2011 (source : [Blockchain.info](https://web.archive.org/web/20111219124912/http://blockchain.info/pools))
 
-Signalement des mineurs, [25/1](https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) : 2 % est pour (EclipseMC), 2,8 % est contre (Eligius), 95,2 % ne s'exprime pas
+Le 25 janvier, alors que l'évaluation du signalement commence, quelques petites coopératives [se prononcent en faveur](https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) de Pay to Script Hash. Eligius, la coopérative de Luke-Jr, vote contre.
 
 Gavin Andresen, [25/1](https://bitcointalk.org/index.php?topic=61125.msg712822#msg712822) : "Right now, it looks like one person/pool (Tycho/deepbit) has enough hashing power to veto any change. I believe Tycho liked, and planned to support, the original OP\_EVAL proposal, but doesn't like/support either BIP 16 or BIP 17 (he does like/support BIP 11, the multisignature-as-standard-transactions part of all this), so unless he changes his mind or there is a mass exodus from his pool short, multisignature bitcoin addresses will have to wait." — Trad Bitcoin.fr « À l'heure actuelle, il semble qu'une seule personne ait suffisamment de pouvoir de hachage pour opposer son veto à tout changement »
 
@@ -1189,9 +1195,7 @@ Maxwell [31/1](https://bitcointalk.org/index.php?topic=61922.msg723476#msg723476
 [30/1](https://bitcointalk.org/index.php?topic=61922.msg722508#msg722508), date repoussée : "To give more time for testing and deployment, there will be a new go/no-go deadline for evaluating BIP 16/17 support. The new deadline for BIP 16 shall be March 1, 2012. If 55+% support the new feature (as described in the BIP), then March 15 shall be the switchover date."
 
 
-Gavin Andresen tranche en faveur du BIP16 :
 
-[3/2](https://bitcointalk.org/index.php?topic=62181.msg729444#msg729444) : I used my Phone-a-Friend and Ask the Audience, and I'm locking in BIP 16 as my Final Answer (follow the link if you don't get the stale pop culture reference).
 
 Version 0.6 Release Candidate 1, [8/2](https://gnusha.org/pi/bitcoindev/CABsx9T3Wst0e1-ya2tjAnXe=RkZZAz06NKjuZbv3zpS5OLmjyw@mail.gmail.com/), [forum](https://bitcointalk.org/index.php?topic=63165.msg738756#msg738756) : "Short multisignature address support is included in this release, as specified in BIP 16. Run with -bip16=0 to turn off support for BIP 16."
 
@@ -1225,7 +1229,11 @@ Deux versions préliminaires supplémentaires (rc5, rc6) sont publiées dans les
 
 ### La première discorde majeure
 
-La bataille pour P2SH a constitué la première discorde majeure de l'histoire de Bitcoin. Elle a résulté d'un développement.
+La bataille pour Pay to Script Hash a constitué la première discorde majeure de l'histoire de Bitcoin. Elle a résulté d'un élargissement du développement, ce qui a fait qu'il y avait assez de techniciens pour se disputer. Gavin Andresen, qui avait une approche beaucoup plus consensuelle que Satoshi, a pourtant fini par trancher en privilégiant le schéma P2SH aux alternatives proposées.
+
+Cette « bataille » a démontré que le développement de Bitcoin n'était pas un long fleuve tranquille, à cause de son caractère ouvert et libre et des enjeux impliqués. Elle présageait ainsi un conflit autrement plus violent, qu'a été la guerre des blocs entre 2015 et 2017. Et elle ouvrait la question plus ardue de la gouvernance de Bitcoin.
+
+De plus, le débat sur l'évolution du protocole n'est pas la seule conséquence du caractère ouvert et libre de Bitcoin. Celui-ci permet aussi de mettre en œuvre des versions plus ou moins différentes de Bitcoin, en reprenant le code ou le concept, qu'on appellerait vite des « cryptomonnaies alternatives ». Ces cryptomonnaies alternatives, qui participent à leur manière à l'essor de Bitcoin, feront l'objet du prochain chapitre.
 
 ## L'apparition des premières cryptomonnaies alternatives
 

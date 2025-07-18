@@ -17,7 +17,7 @@ Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vou
 
 Pour aller plus loin, vous découvrirez en fin de cours les principaux outils de diagnostic réseau : analyser, auditer, ajuster… vous saurez enfin agir avec méthode et précision sur vos équipements.
 
-NET 302 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
+NET 302 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions de base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
 
 Rejoignez-nous et transformez vos connaissances en véritable expertise opérationnelle !
 
@@ -135,7 +135,7 @@ Il existe par ailleurs d’autres variantes topologiques, telles que les réseau
 
 Dans cette dynamique, l'ARPA finança notamment l'université de Berkeley afin d’intégrer les premiers protocoles TCP/IP au sein de son système Unix BSD, ce qui a contribué à la diffusion et à la normalisation de ce protocole dans le monde académique et plus tard dans le monde industriel.
 
-**Remarque** : à cette époque, les informaticiens ne disposaient pas encore de Linux, qui ne verra le jour qu’au début des années 1990, ni même réellement de Minix, le système éducatif conçu par Andrew TANNENBAUM. Les options se limitaient essentiellement à Unix, ou parfois à des systèmes centraux propriétaires comme OpenVMS. Unix, grâce à sa souplesse et son ouverture, joua donc un rôle essentiel dans la propagation des premiers concepts de mise en réseau.
+**Remarque** : à cette époque, les informaticiens ne disposaient pas encore de Linux, qui ne verra le jour qu’au début des années 1990, ni même réellement de Minix, le système éducatif conçu par Andrew Tanenbaum. Les options se limitaient essentiellement à Unix, ou parfois à des systèmes centraux propriétaires comme OpenVMS. Unix, grâce à sa souplesse et son ouverture, joua donc un rôle essentiel dans la propagation des premiers concepts de mise en réseau.
 
 Le protocole TCP/IP (qui devrait plus justement être désigné comme une suite de protocoles articulés autour de TCP et IP) s’est imposé grâce à sa capacité à offrir une interface de programmation standardisée pour l’échange de données entre machines sur un même réseau. Cette interface qui repose sur l’utilisation de primitives appelées "*sockets*", facilite la création de connexions fiables et flexibles, tout en intégrant des protocoles applicatifs essentiels.
 
@@ -749,11 +749,9 @@ Le NAT peut être mis en œuvre sous différentes formes, adaptées à des besoi
 
 **Attention :** si ce mécanisme permet d’isoler le réseau interne, il ne résout en rien le problème de pénurie d’adresses IP publiques, car il faut toujours autant d’adresses publiques que de machines à exposer. La traduction statique est donc surtout utilisée lorsque certaines ressources internes doivent impérativement rester joignables depuis l’extérieur (serveur web, serveur mail…).
 
-**La traduction dynamique**, quant à elle, est plus souple et économique en adresses IP publiques. Dans ce scénario, plusieurs machines internes partagent simultanément une même adresse IP routable pour accéder à Internet. Du point de vue du monde extérieur, l’ensemble du réseau interne se présente sous une seule identité. Cette mutualisation est rendue possible grâce à une technique complémentaire : la traduction de ports, appelée _Port Address Translation_ (PAT).
+La traduction dynamique, quant à elle, met à disposition un pool d’adresses IP publiques. Lorsqu’un hôte interne initie une connexion, le routeur sélectionne provisoirement l’une de ces adresses et l’associe à l’adresse privée de l’hôte pour toute la durée de la session. Le lien est 1-vers-1, mais temporaire : dès que le flux s’interrompt, l’adresse publique redevient disponible pour un autre poste. Le Dynamic NAT économise donc le nombre d’adresses publiques quand toutes les machines n’ont pas besoin d’être connectées en même temps, mais il requiert tout de même un bloc d’adresses externes de taille au moins égale au nombre maximal de connexions simultanées.
 
-Le PAT, souvent désigné sous le terme _IP masquerading_ ou encore _NAT Overloading_, consiste à ajouter un identifiant supplémentaire (le numéro de port source) pour chaque connexion sortante. Ainsi, lorsque plusieurs machines du réseau local établissent des connexions simultanées vers Internet, la passerelle NAT attribue à chacune un port unique. Elle conserve ensuite une table de correspondance interne liant chaque couple (adresse IP privée, port source) à l’adresse publique et au port de sortie effectivement utilisé. Lorsque la réponse revient, le routeur NAT consulte cette table pour acheminer les paquets vers la machine interne appropriée.
-
-Ce mécanisme est aujourd’hui omniprésent dans les routeurs domestiques, car il permet à des dizaines de terminaux (ordinateurs, smartphones, objets connectés...) de partager la même adresse IP publique, tout en maintenant une communication fluide.
+La traduction de ports (PAT), appelée aussi *NAT overload* ou *IP masquerading*, va plus loin : toutes les machines privées partagent une seule adresse IP publique (ou un très petit nombre). Pour différencier les sessions, la passerelle modifie non seulement l’adresse source mais aussi le port source. Elle maintient alors une table qui associe chaque couple *(adresse privée, port privé)* à un couple *(adresse publique, port public)* unique. C’est cette forme de NAT qui équipe la quasi-totalité des box et routeurs domestiques, car il permet à des dizaines de terminaux (ordinateurs, smartphones, objets connectés...) de partager la même adresse IP publique, tout en maintenant une communication fluide.
 
 Le NAT prolonge donc la durée de vie d’IPv4 tout en ajoutant un niveau de cloisonnement et de sécurité appréciable. Toutefois, avec l’adoption progressive d’IPv6 et son espace d’adressage immense, le rôle du NAT tendra à se réduire, même si, pour des raisons de compatibilité et de contrôle, il restera encore utilisé dans certains environnements pour segmenter et filtrer les flux.
 
@@ -792,7 +790,7 @@ _Pour illustrer le fonctionnement concret, prenons l’exemple suivant :_
 
 ![Image](assets/fr/037.webp)
 
-Dans ce scénario, un poste interne peut accéder au serveur web interne en appelant directement l’URL `http://192.168.1.20:80`. Ici, l’indication du port est optionnelle puisque `80` est le port standard pour le HTTP. À l’inverse, si une requête est initiée depuis l’extérieur, l’utilisateur saisira l’adresse publique `http://85.152.44.14:80`. Le routeur NAT réceptionne la requête, consulte sa table de correspondance et traduit automatiquement l’adresse publique en adresse privée, redirigeant la connexion vers` http://192.168.1.20:80`.
+Dans ce scénario, un poste interne peut accéder au serveur web interne en appelant directement l’URL `http://192.168.1.20:80`. Ici, l’indication du port est optionnelle puisque `80` est le port standard pour le HTTP. À l’inverse, si une requête est initiée depuis l’extérieur, l’utilisateur saisira l’adresse publique `http://85.152.44.14:80`. Le routeur NAT réceptionne la requête, consulte sa table de correspondance et traduit automatiquement l’adresse publique en adresse privée, redirigeant la connexion vers `http://192.168.1.20:80`.
 
 Ce principe est identique pour tout autre serveur autorisé à recevoir des connexions depuis Internet, comme le serveur Extranet (circuit bleu sur le schéma).
 
@@ -826,88 +824,63 @@ Grâce à cette configuration, le trafic sortant est routé et la traduction NAT
 
 Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées adaptées à différents contextes d’administration.
 
-## Comment configurer le réseau avec ifconfig ?
+## Comment configurer le réseau avec `ip` ?
 <chapterId>8ba7e946-d2a0-4841-8d54-e85ba96baa25</chapterId>
 
 ### Configuration standard
 
-Après avoir posé les bases théoriques du réseau et compris comment s’articulent adresses IP, masques, routage et traduction, il est important de passer à la mise en pratique. Sous GNU/Linux, la configuration du réseau peut se faire de plusieurs façons, mais la commande historique et universelle reste `ifconfig`. Bien qu’aujourd’hui remplacée par `ip` dans les distributions modernes, `ifconfig` reste incontournable pour comprendre la configuration bas niveau des interfaces réseau.
+Après avoir posé les bases théoriques du réseau et compris comment s’articulent adresses IP, masques, routage et traduction, il est temps de passer à la pratique. Sous GNU/Linux, la configuration réseau se fait aujourd’hui avec la commande **`ip`** (paquet _iproute2_), qui remplace l’historique `ifconfig`.
 
-Cette commande, véritable couteau suisse, permet d’attribuer ou de modifier une adresse IP, de changer un masque de sous-réseau, de démarrer ou d’arrêter une interface, ou encore de consulter son état à tout moment.
+Véritable couteau suisse, `ip` permet d’attribuer ou de modifier une adresse IP, de changer un masque, de démarrer ou d’arrêter une interface, ou encore de consulter son état à tout moment.
 
-**ASTUCE :** pour visualiser toutes les interfaces (même celles qui sont désactivées) la commande `ip addr` est plus complète et désormais recommandée. Elle est compatible avec les environnements récents et offre des informations détaillées.
+**ASTUCE :** pour visualiser toutes les interfaces (actives ou non) :  `ip addr show`
 
-Prenons un premier exemple concret : pour activer une interface Ethernet nommée `eth0` et lui attribuer l’adresse IP `192.168.1.2` avec le masque `255.255.255.0`, on saisira :
+Exemple concret : attribution d’une adresse statique et activation de l’interface
 
-```shell
-ifconfig eth0 inet 192.168.1.2 netmask 255.255.255.0
-```
-
-Une fois l’adresse configurée, l’interface doit être activée pour que le système l’exploite effectivement. Cela se fait grâce aux options `up` ou `down` :
+Ajouter l’adresse `192.168.1.2/24` à l’interface `eth0` :
 
 ```shell
-ifconfig eth0 up
+ip addr add 192.168.1.2/24 dev eth0
 ```
 
-Pour désactiver l’interface, la même commande s’utilise avec `down` :
+Activer l’interface :
 
 ```shell
-ifconfig eth0 down
+ip link set dev eth0 up
 ```
 
-Si l’on souhaite simplement vérifier l’état d’une interface spécifique, il suffit de préciser son nom :
+Pour désactiver la même interface :
 
 ```shell
-ifconfig eth2
+ip link set dev eth0 down
 ```
 
-Sans aucun argument, `ifconfig` liste uniquement les interfaces actives. Pour obtenir une vue exhaustive, y compris celles qui sont présentes mais désactivées, on ajoute l’option `-a` :
+Pour afficher l’état d’une interface précise :
 
 ```shell
-ifconfig -a
+ip addr show dev eth2
 ```
 
-**Astuce pratique :** `ifconfig` offre également la possibilité de configurer une adresse IP supplémentaire sur une interface existante en créant un alias. Cela peut être utile pour associer plusieurs adresses IP à une même carte réseau, par exemple pour faire cohabiter différents sous-réseaux ou services.
+**Astuce pratique :** avec `ip`, l’ajout d’une adresse supplémentaire sur une interface ne requiert plus de suffixe `:1`. Il suffit d’ajouter une seconde ligne `ip addr add …` :
 
 ```shell
-ifconfig eth2:en1 172.18.2.39
+ip addr add 172.18.2.39/24 dev eth2
 ```
 
-En complément direct, les commandes `ifup` et `ifdown` permettent, quant à elles, de démarrer ou stopper une interface réseau en s’appuyant sur les fichiers de configuration statiques situés dans `/etc/sysconfig/network-scripts/`. Ces scripts décrivent la configuration permanente des interfaces et assurent leur initialisation correcte au démarrage du système.
+### Scripts d’activation : `ifup` / `ifdown`
 
-Exemple pour activer une interface via son fichier de configuration :
+Les utilitaires `ifup` et `ifdown` lisent les fichiers statiques de `/etc/sysconfig/network-scripts/` (sur RHEL, CentOS, Rocky Linux, AlmaLinux…) ou `/etc/network/interfaces` (sur Debian/Ubuntu) afin d'activer ou de désactiver proprement les interfaces.
 
 ```shell
 ifup eth1
-```
-
-Et pour la désactiver proprement :
-
-```shell
 ifdown eth2
 ```
 
-Dans la plupart des distributions Linux basées sur Red Hat (RHEL, CentOS, Fedora), la gestion du réseau repose sur deux éléments : le fichier global `network` et les fichiers individuels `ifcfg-*`.
+Fichiers de configuration (RHEL-like) :
+- **/etc/sysconfig/network** : paramètres globaux (NETWORKING, HOSTNAME, GATEWAY…).
+- **ifcfg-*** : paramètres spécifiques à chaque interface.
 
-Le fichier `/etc/sysconfig/network` fixe les paramètres généraux du réseau pour le système tout entier. Parmi les directives que l’on peut y définir, on retrouve notamment :
-
-- `NETWORKING` : pour indiquer si le réseau doit être activé au démarrage du système.
-    
-- `HOSTNAME` : pour spécifier le nom d’hôte pleinement qualifié (FQDN) de la machine.
-    
-- `GATEWAY` : pour déclarer l’adresse IP de la passerelle par défaut utilisée pour acheminer le trafic sortant.
-    
-- `GATEWAYDEV` : pour indiquer l’interface associée à cette passerelle.
-    
-- `NISDOMAIN` : pour intégrer la machine dans un domaine NIS si nécessaire.
-    
-- `DNS1` et `DNS2` : pour définir les adresses IP des serveurs DNS primaire et secondaire.
-
-Les fichiers `ifcfg-*`, situés dans `/etc/sysconfig/network-scripts/`, contiennent quant à eux la configuration spécifique de chaque interface. Ces fichiers précisent si l’interface utilise une adresse IP statique, que l’administrateur définit manuellement, ou si elle doit obtenir dynamiquement ses paramètres via un serveur DHCP. Ils incluent également d’autres informations comme le masque, le nom de l’interface, son état (`ONBOOT`), et parfois les options liées à la gestion VLAN ou au bridging.
-
-Illustration simplifiée d’un fichier de configuration `ifcfg` :
-
-*Configuration adressage statique (`/etc/sysconfig/network-scripts/ifcfg-eth0`):*
+Exemple statique (ifcfg-eth0) :
 
 ```ini
 DEVICE=eth0
@@ -918,7 +891,7 @@ NETMASK=255.255.255.0
 GATEWAY=192.168.2.1
 ```
 
-*Configuration adressage dynamique (`/etc/sysconfig/network-scripts/ifcfg-eth0`):*
+Exemple DHCP :
 
 ```ini
 DEVICE=eth0
@@ -926,80 +899,82 @@ BOOTPROTO=dhcp
 ONBOOT=yes
 ```
 
-Cette structuration claire et modulaire rend la gestion des interfaces flexible et facilement automatisable, que ce soit pour un poste individuel ou pour une flotte de serveurs administrés à grande échelle.
+Cette structuration modulaire reste valable et facilement automatisable sur les systèmes actuels.
 
+### Configuration avancée : le bonding
 
-### Configuration avancée : le teaming
-
-Dans les environnements réseau professionnels, il est fréquent de chercher à garantir une continuité de service même en cas de défaillance matérielle. Pour cela, on met en place des mécanismes de redondance et d’agrégation de liens. On parle alors de _teaming_ ou de _bonding_. Ces techniques consistent à combiner plusieurs interfaces physiques pour les faire fonctionner comme une seule interface logique, appelée généralement `bond0`. L’objectif est double : augmenter la bande passante disponible et assurer une tolérance aux pannes.
+Dans les environnements professionnels, on cherche à garantir la continuité de service et/ou à agréger la bande passante. Les mécanismes de *bonding* (ou *teaming* avec _teamd_) répondent à ces besoins : plusieurs interfaces physiques fonctionnent comme une seule interface logique, souvent nommée `bond0` ou `team0`.
 
 ![Image](assets/fr/039.webp)
 
-**Attention :** pour activer le bonding, le noyau Linux doit disposer du module `bonding`. Sans ce module, il est impossible de créer l’interface agrégée. De plus, il faut au minimum deux interfaces physiques actives pour constituer le lien redondant. Dans l’exemple ci-dessus, la pseudo-interface `bond0` agrège `eth0` et `eth1`.
+Prérequis :
+- Charger le module `bonding` (ou utiliser `teamd`) ;
+- Disposer d’au moins deux interfaces physiques.
 
-Pour configurer un bonding, on crée trois fichiers `ifcfg*` dans le répertoire `/etc/sysconfig/network-scripts` : un pour chaque interface physique et un pour l’interface bondée.
+#### Les différents modes de bonding courants :
 
-Les modes de bonding définissent le comportement du regroupement de liens. Il en existe sept principaux :
+|Mode|Nom|Principe|
+|---|---|---|
+|0|balance-rr|Round-robin, répartition circulaire des trames|
+|1|active-backup|Une seule interface active, bascule à chaud|
+|2|balance-xor|Sélection via XOR MAC src/dst|
+|3|broadcast|Diffusion simultanée sur toutes les interfaces|
+|4|802.3ad (LACP)|Agrégation dynamique normalisée, nécessite switch compatible|
+|5|tlb (Transmit Load Balancing)|Répartition selon la charge d’émission|
+|6|alb (Adaptive Load Balancing)|Répartition adaptative, équilibre aussi la réception via ARP|
 
-- **Mode 0 :** équilibrage de charge (_balance round robin_) – envoie les paquets de manière circulaire sur chaque interface pour optimiser la bande passante.
-- **Mode 1 :** _active-backup_ – seule une interface est active à la fois, l’autre prend le relais en cas de panne.
-- **Mode 2 :** _balance XOR_ – sélection de l’interface selon une règle de XOR entre l’adresse MAC source et destination.
-- **Mode 3 :** _broadcast_ – envoie les paquets sur toutes les interfaces simultanément.
-- **Mode 4 :** 802.3ad (_Link Aggregation Control Protocol_) – agrégation dynamique standardisée, nécessite un switch compatible.
-- **Mode 5 :** _Traffic Load Balancing (TLB)_ – répartition de la charge selon la charge réelle.
-- **Mode 6 :** _Adaptive Load Balancing (ALB)_ – ajuste dynamiquement la répartition de charge et permet même de gérer la négociation ARP pour équilibrer les flux en réception.
 
-**Dans les infrastructures de production, on privilégie souvent les modes 5 ou 6, car ils combinent souplesse et performance.** Une fois le module `bonding` chargé, on le configure dans `/etc/modprobe.d/bond0.conf` :
+#### Mise en place avec `ip link`
 
-```shell
-alias bond0 bonding
-```
-
-```shell
-options bond0 miimon=100 mode=5
-```
-
-Le paramètre `miimon` définit l’intervalle de surveillance en millisecondes pour vérifier l’état des interfaces esclaves.
-
-On commence par désactiver les interfaces physiques pour les basculer en mode esclave :
+- Désactiver les interfaces physiques :
 
 ```shell
-ifconfig eth0 down
+ip link set eth0 down
+ip link set eth1 down
 ```
+
+- Créer l’interface bondée :
 
 ```shell
-ifconfig eth1 down
+ip link add bond0 type bond mode balance-alb
 ```
 
-Ensuite, on crée l’interface `bond0` et on lui attribue une adresse MAC (souvent reprise de l’interface `eth0`) et une adresse IP statique :
+- Configuration des options après création
 
 ```shell
-ifconfig bond0 hw ether 00:17:56:BC:02:3A
+ip link set bond0 type bond miimon 100
 ```
+
+- Attribuer adresse MAC et IP :
 
 ```shell
-ifconfig bond0 192.168.2.3 netmask 255.255.255.0 gateway 192.168.2.1
+ip link set dev bond0 address 00:17:56:BC:02:3A
+ip addr add 192.168.2.3/24 dev bond0
+ip route add default via 192.168.2.1
 ```
 
-Il faut maintenant lier les interfaces physiques au bonding avec l’utilitaire `ifenslave` :
+- Attacher les interfaces esclaves :
 
 ```shell
-ifenslave bond0 eth0
+ip link set eth0 master bond0
+ip link set eth1 master bond0
 ```
+
+- Remettre tout en service :
 
 ```shell
-ifenslave bond0 eth1
+ip link set bond0 up
+ip link set eth0 up
+ip link set eth1 up
 ```
 
-**Astuce :** pour retirer une interface du groupe sans arrêter l’ensemble, on utilise l’option `-d` :
+**Astuce :** pour détacher un esclave sans couper le bond :  `ip link set eth1 nomaster`
 
-```shell
-ifenslave -d bond0 eth1
-```
+#### Configuration permanente (RHEL-like)
 
-Côté configuration permanente, trois fichiers `ifcfg` doivent être créés dans `/etc/sysconfig/network-scripts` :
+Créer trois fichiers dans `/etc/sysconfig/network-scripts` :
 
-**Fichier `ifcfg-bond0` :**
+_ifcfg-bond0_
 
 ```ini
 DEVICE=bond0
@@ -1009,62 +984,47 @@ IPADDR=192.168.2.3
 NETMASK=255.255.255.0
 BROADCAST=192.168.2.255
 GATEWAY=192.168.2.1
-USERCTL=no
+BONDING_OPTS="mode=balance-alb miimon=100"
 ```
 
-**Fichier `ifcfg-eth0` :**
+_ifcfg-eth0_
 
 ```ini
 DEVICE=eth0
-USERCTL=no
 ONBOOT=yes
 MASTER=bond0
 SLAVE=yes
 ```
 
-**Fichier `ifcfg-eth1` :**
+_ifcfg-eth1_
 
 ```ini
 DEVICE=eth1
-USERCTL=no
 ONBOOT=yes
 MASTER=bond0
 SLAVE=yes
 ```
 
-Une fois les fichiers prêts, on relance le service réseau pour activer la nouvelle configuration :
+Puis :
 
 ```shell
 systemctl restart network
 ```
 
-**Remarque :** en plus du bonding, Linux permet d’attribuer plusieurs adresses IP à une même interface via le mécanisme des alias. Ces alias se créent en ajoutant un suffixe à l’interface principale, séparé par `:`.
+#### Adresse IP supplémentaire (alias moderne)
 
-Exemple pour ajouter un alias `eth0:1` avec une IP supplémentaire :
-
-```shell
-ifconfig eth0:1 192.168.1.2 netmask 255.255.255.0 up
-```
-
-Il est alors nécessaire de créer un fichier de configuration pour cet alias :
-
-```ini
-DEVICE=eth0:1
-BOOTPROTO=static
-IPADDR=192.168.1.2
-NETMASK=255.255.255.0
-ONBOOT=yes
-```
-
-Et pour activer l’alias :
+Avec `ip`, il suffit d’ajouter une seconde adresse sur le même périphérique :
 
 ```shell
-ifup eth0:1
+ip addr add 192.168.1.2/24 dev eth0
 ```
 
-Le bonding et le système d’alias IP offrent ainsi une grande flexibilité pour construire une architecture réseau robuste et adaptée aux besoins de haute disponibilité.
+Pour que cet alias survive au redémarrage, créez un deuxième bloc `IPADDR2=…` / `PREFIX2=…` dans `ifcfg-eth0`, ou une nouvelle connexion *NetworkManager* via `nmcli`.
+
+Grâce à `ip` et aux commandes connexes (`ip link`, `ip addr`, `ip route`), la configuration réseau gagne en cohérence, en scriptabilité et en clarté. Le bonding est un pilier des architectures haute disponibilité et l’ajout d’adresses multiples par interface se simplifie nettement.
 
 Dans la suite de ce cours, nous aborderons les particularités et la mise en œuvre de l’adressage IPv6.
+
 
 # L’adressage IPv6
 <partId>9b1d87f1-2a68-496e-b5dd-76cf74fb8cde</partId>
@@ -1076,11 +1036,11 @@ Nous abordons à présent la nouvelle génération d’adressage IP : le protoco
 
 Les motivations qui ont conduit à l’adoption d’IPv6 sont multiples et répondent à des besoins critiques pour l’évolution d’Internet. Tout d’abord, IPv6 devait permettre de supporter la croissance exponentielle du nombre d’équipements connectés (un objectif inatteignable avec l’espace d’adressage limité d’IPv4). Ensuite, le protocole vise à réduire la taille des tables de routage, ce qui contribue à rendre les échanges plus efficaces et allège le travail des routeurs sur le long terme.
 
-IPv6 ambitionne également de simplifier certains aspects du traitement des paquets, afin de fluidifier la circulation des datagrammes et d’optimiser la vitesse de transfert entre les réseaux. Du point de vue de la sécurité, IPv6 intègre nativement des fonctionnalités améliorées d’authentification et de confidentialité qui, bien qu’elles puissent être complétées par des mécanismes externes, représentent une avancée notable par rapport à IPv4.
+IPv6 ambitionne également de simplifier certains aspects du traitement des paquets, afin de fluidifier la circulation des datagrammes et d’optimiser la vitesse de transfert entre les réseaux. Du point de vue de la sécurité, les en-têtes AH/ESP du protocole *IPsec* font partie du jeu de base, et tous les nœuds IPv6 doivent pouvoir les prendre en charge (RFC 6434). Leur usage reste toutefois optionnel : l’administrateur décide de les activer ou non selon le contexte.
 
 Parmi les autres objectifs, on note une prise en compte plus fine des types de services, notamment pour garantir une meilleure qualité pour les applications temps réel (voix sur IP, visioconférence...). IPv6 doit également permettre une gestion plus souple de la mobilité : un appareil peut ainsi changer de point d’accès sans changer d’adresse de manière visible pour ses correspondants.
 
-Enfin, IPv6 a été conçu pour coexister avec les protocoles historiques. S’il n’est pas directement compatible avec IPv4 sur le plan binaire, il reste parfaitement interopérable avec les couches supérieures comme TCP, UDP, ICMPv6, DNS, ainsi qu’avec les protocoles de routage tels qu’OSPF, BGP ou IGMP, moyennant certains ajustements pour la gestion des adresses étendues.
+Enfin, IPv6 a été conçu pour coexister avec les protocoles historiques. S’il n’est pas directement compatible avec IPv4 sur le plan binaire, il reste parfaitement interopérable avec les couches supérieures comme TCP, UDP, ICMPv6, DNS, ainsi qu’avec les protocoles de routage tels qu’OSPF ou BGP, moyennant certains ajustements. Pour la gestion du multicast, IPv6 emploie le protocole MLD (*Multicast Listener Discovery*), l’équivalent fonctionnel d’IGMP en environnement IPv4.
 
 ### Règles d’écriture
 
@@ -1154,7 +1114,6 @@ Certaines plages IPv6 sont explicitement réservées et ne doivent pas être uti
 - **`::1/128`** : l’adresse de _loopback_, équivalent direct de `127.0.0.1` en IPv4, qui permet à une machine de s’adresser à elle-même.
 - **`64:ff9b::/96`** : bloc réservé aux traducteurs de protocoles pour l’interconnexion IPv4/IPv6, tel que défini dans la RFC6052.
 - **`::ffff:0:0/96`** : bloc de compatibilité pour représenter une adresse IPv4 dans une structure IPv6 spécifique, souvent utilisé en interne par les applications.
-- **`::ffff:0:0:0/96`** : bloc similaire pour les adresses IPv4 traduites, défini par la RFC2765, principalement pour des usages précis de transition.
 
 Ces blocs garantissent l’interopérabilité et facilitent la migration entre les deux versions du protocole.
 
@@ -1241,7 +1200,11 @@ Pour attribuer des adresses aux équipements, deux approches principales sont ut
 - La configuration manuelle, dans laquelle l’administrateur spécifie précisément l’adresse de chaque interface ;
 - La configuration automatique, qui permet aux équipements de générer ou d’obtenir dynamiquement leur propre adresse.
 
-Dans le cas d’une configuration manuelle, l’administrateur définit l’adresse IPv6 complète sur chaque interface. Les adresses composées uniquement de zéros ou de uns n’ont pas de signification particulière en IPv6, contrairement à IPv4 où certaines valeurs réservées existent pour les adresses de réseau ou de diffusion. Cette approche reste pertinente dans des environnements maîtrisés, mais elle devient vite lourde à maintenir à grande échelle.
+En configuration manuelle, l’administrateur définit l’adresse IPv6 complète sur chaque interface. Attention : certaines valeurs restent toutefois réservées :
+- `::/128` : adresse non spécifiée, jamais attribuée de façon permanente ;
+- `::1/128` : adresse de bouclage (_loopback_), équivalent IPv4 : `127.0.0.1`.
+
+Il n’existe en revanche aucun concept de diffusion générale (_broadcast_) comme en IPv4 ; les autres combinaisons "tout à 0" ou "tout à 1" dans la partie hôte n’ont pas de rôle particulier. Cette approche manuelle reste pertinente dans des environnements maîtrisés, mais elle devient vite lourde à maintenir à grande échelle.
 
 En configuration automatique, plusieurs méthodes existent pour permettre aux équipements d’obtenir une adresse IPv6 fonctionnelle sans intervention manuelle. Le protocole **NDP** (_Neighbor Discovery Protocol_), spécifié par la RFC4862, permet l’auto-configuration *stateless*. Dans ce mode, l’hôte reçoit un préfixe réseau depuis un routeur local, et complète lui-même l’adresse avec un identifiant basé sur son adresse MAC. Cette méthode est extrêmement simple à mettre en œuvre et ne nécessite aucun serveur central.
 
@@ -1284,7 +1247,7 @@ Les cinq RIR existants sont :
 
 L’IANA attribue à chaque RIR des blocs IPv6 de taille variable, généralement compris entre /23 et /12. Ces tailles permettent une grande souplesse tout en assurant l’évolutivité à long terme. Une fois ces blocs reçus, les RIR sont chargés de les redistribuer aux fournisseurs d’accès à Internet (FAI), aux grandes entreprises ou à des institutions publiques.
 
-Les FAI se voient le plus souvent attribuer des blocs de type /32, bien que cette taille puisse varier selon la taille du FAI et sa zone géographique. À leur tour, ils peuvent allouer à chacun de leurs clients un bloc de /48, ce qui offre à chaque organisation 65 536 sous-réseaux distincts de /64 (ce qui est extrêmement généreux comparé à IPv4).
+L’IANA attribue à chaque RIR un bloc IPv6 /12. Cette taille unique, fixée depuis 2006, assure à chaque registre régional une réserve stable et suffisamment large pour ses besoins de long terme. Une fois ce /12 reçu, le RIR le subdivise typiquement en /23, /26 ou /29. Les FAI se voient le plus souvent attribuer des blocs de type /32, bien que cette taille puisse varier selon la taille du FAI et sa zone géographique. À leur tour, ils peuvent allouer à chacun de leurs clients un bloc de /48, ce qui offre à chaque organisation 65 536 sous-réseaux distincts de /64 (ce qui est extrêmement généreux comparé à IPv4).
 
 **Remarque importante :** un bloc /32 contient exactement 65 536 sous-blocs /48. On comprend ainsi que chaque FAI peut desservir plusieurs dizaines de milliers de clients sans manquer d’adresses. Chaque client disposera alors, grâce à son /48, d’un espace gigantesque pour structurer son propre réseau interne avec autant de segments /64 qu’il le souhaite.
 
@@ -1361,15 +1324,14 @@ Les quatre premiers champs de cet en-tête sont les suivants :
 - **Segments Left** : nombre de segments restant à parcourir ;
 - **Address[n]** : liste des adresses intermédiaires.
 
-Le champ "Segments Left" débute à zéro, puis est incrémenté à chaque étape pour indiquer quelle adresse doit être atteinte en priorité.
+Le champ "Segments Left" est initialisé au nombre total de segments restant et est décrémenté d’une unité à chaque saut.
+
 
 ![Image](assets/fr/048.webp)
 
 #### En-tête de fragmentation
 
-Contrairement à IPv4, où les routeurs pouvaient fragmenter les paquets, seul l’hôte source est autorisé à fragmenter les datagrammes en IPv6. Cela permet d’alléger la charge des routeurs intermédiaires et d’optimiser la transmission.
-
-Tous les nœuds IPv6 doivent néanmoins pouvoir transmettre des datagrammes d’au moins 576 octets. Si un datagramme trop volumineux ne peut être acheminé, le routeur renvoie un message ICMPv6 à la source, l’informant que le paquet est trop grand. L’hôte source ajuste alors sa taille.
+Contrairement à IPv4, où les routeurs pouvaient fragmenter les paquets, seul l’hôte source est autorisé à fragmenter un datagramme IPv6. Tous les nœuds IPv6 doivent pouvoir transmettre des paquets d’au moins 1280 octets. Si un routeur rencontre un paquet plus grand que la MTU du lien suivant, il renvoie un message *ICMPv6 Packet Too Big* à la source, qui ajuste alors la taille de ses envois.
 
 L’en-tête de fragmentation contient les champs suivants :
 - **Identification** : identifiant du datagramme pour reconstitution.
@@ -1422,16 +1384,16 @@ La résolution inverse d’une adresse IPv6 suit une règle stricte : on transfo
 2001:66c:2a8:22::c100:68b
 ```
 
-Sa version complète serait :
+On l’étend d’abord sur 32 chiffres hexadécimaux :
 
 ```shell
 2001:066c:02a8:0022:0000:0000:c100:068b
 ```
 
-Et sa résolution inverse se présente ainsi :
+On inverse ensuite chaque nibble et on les sépare par des points, puis on termine par `ip6.arpa` :
 
 ```shell
-b.8.6.0.0.1.c.0.0.0.0.0.0.0.0.2.2.8.a.2.c.6.6.1.0.0.2.ip6.arpa. IN PTR    ipv6.mydmn.org.
+b.8.6.0.0.0.1.c.0.0.0.0.0.0.0.0.2.2.0.0.8.a.2.0.c.6.6.0.1.0.0.2.ip6.arpa  IN PTR  ipv6.mydmn.org
 ```
 
 Cette méthode garantit l’unicité et la standardisation des résolutions inverses dans l’espace d’adressage IPv6.
@@ -1506,7 +1468,7 @@ Cela permet de vérifier si une adresse IP en particulier est bien connue du cac
 De même, pour afficher uniquement les entrées ARP associées à une interface réseau donnée (comme une carte Ethernet nommée `eth0`), on peut écrire :
 
 ```bash
-arp -a -N eth0
+arp -a -i eth0
 ```
 
 Cette option est utile pour cibler des cas particuliers, notamment dans des environnements multicarte où une machine possède plusieurs interfaces réseau (filaire, sans fil, VPN...).
@@ -1514,7 +1476,7 @@ Cette option est utile pour cibler des cas particuliers, notamment dans des envi
 L’utilitaire `arp` ne se limite pas à la consultation. Il permet également de manipuler manuellement le cache ARP, ce qui peut s’avérer précieux dans certains cas de diagnostic avancé ou de simulation de situations spécifiques. Il est par exemple possible d’ajouter manuellement une association IP/MAC :
 
 ```bash
-arp -s 192.168.1.7 00:17:BC:56:4F:25 eth2
+arp -s 192.168.1.7 00:17:BC:56:4F:25 -i eth2
 ```
 
 Cette commande crée une entrée statique dans la table ARP locale, qui associe l’adresse IP `192.168.1.7` à l’adresse MAC `00:17:BC:56:4F:25` sur l’interface `eth2`. Si l’interface n’est pas précisée, la première interface réseau jugée applicable est utilisée par défaut.
@@ -1957,7 +1919,7 @@ Dans les couches supérieures du modèle TCP/IP, et notamment à la couche Appli
 
 #### La commande `nslookup`
 
-Le plus simple des outils d’interrogation DNS est `nslookup`, pour "*Name System Lookup*". Il permet de soumettre une requête à un serveur DNS et d’obtenir en retour l’adresse IP associée à un nom de domaine (ou inversement). Utilisé sans option, il interroge par défaut le serveur DNS configuré sur le système, mais on peut lui indiquer explicitement un serveur à interroger en le précisant directement dans la commande.
+Le plus simple des outils d’interrogation DNS est `nslookup`. Il permet de soumettre une requête à un serveur DNS et d’obtenir en retour l’adresse IP associée à un nom de domaine (ou inversement). Utilisé sans option, il interroge par défaut le serveur DNS configuré sur le système, mais on peut lui indiquer explicitement un serveur à interroger en le précisant directement dans la commande.
 
 Exemple d’utilisation simple avec résolution directe :
 
@@ -2089,7 +2051,7 @@ Ce type de commande liste tous les processus en cours qui utilisent une socket r
 Pour affiner la recherche, il est possible de spécifier une adresse IP et un port. Cela permet d’isoler précisément un flux réseau, par exemple une communication SMTP (port 25) avec une machine donnée :
 
 ```bash
-lsof -ni @192.168.2.1:25
+lsof -n -i @192.168.2.1:25
 ```
 
 Cela affichera uniquement les connexions réseau actives avec l’hôte `192.168.2.1` sur le port 25, ce qui peut être utile pour diagnostiquer une activité suspecte ou un blocage SMTP.
@@ -2153,7 +2115,7 @@ Aux niveaux supérieurs, l’objectif est de diagnostiquer services et processus
 - **nmap** : exploration des ports ouverts et des services exposés afin d’évaluer la surface d’attaque ;
 - **lsof** : recensement des fichiers et sockets ouverts par les processus, pour corréler activités système et réseau.
 
-La maîtrise conjointe de ces outils, chacun dédié à une étape précise du modèle TCP/IP, permet d’adopter une démarche méthodique : partir de la couche physique, remonter vers le routage, puis jusqu’aux services applicatifs. Cette chaîne d’expertise assure à l’administrateur la capacité de diagnostiquer, de sécuriser et d’optimiser l’infrastructure, ce qui garantie ainsi la performance et la disponibilité du réseau.
+La maîtrise conjointe de ces outils, chacun dédié à une étape précise du modèle TCP/IP, permet d’adopter une démarche méthodique : partir de la couche physique, remonter vers le routage, puis jusqu’aux services applicatifs. Cette chaîne d’expertise assure à l’administrateur la capacité de diagnostiquer, de sécuriser et d’optimiser l’infrastructure, ce qui garantit ainsi la performance et la disponibilité du réseau.
 
 
 # Partie finale

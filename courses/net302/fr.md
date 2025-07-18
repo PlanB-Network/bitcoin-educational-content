@@ -397,7 +397,7 @@ sudo apt install ipcalc
 Le **protocole TCP** (_Transmission Control Protocol_) occupe une place centrale au sein de la **couche TRANSPORT** du modèle TCP/IP. Il constitue un maillon entre les applications et la couche Internet, en organisant le transfert fiable des données échangées entre deux machines distantes. Là où le protocole IP se contente de transmettre des paquets sans garantie de livraison ni d’ordre, TCP prend en charge l’intégrité et la cohérence du flux de données, ce qui garantit ainsi aux applications une communication sans perte, sans doublon et dans l’ordre d’envoi.
 
 Les principales responsabilités de TCP peuvent se résumer ainsi :
-- il réordonne les datagrammes IP reçus,
+- il réordonne les segments reçus,
 - il surveille le flux de données pour éviter la congestion,
 - il segmente ou recompose les blocs de données en unités adaptées (appelées **segments**),
 - il gère les étapes d’établissement et de terminaison de la connexion entre les deux extrémités de la communication.
@@ -426,13 +426,13 @@ L’échange de synchronisation des séquences repose sur le fameux mécanisme d
 
 Ce protocole d’échange garantit que les deux parties partagent la même base de numérotation avant de transmettre des données utiles. Une fois cette synchronisation réalisée, la session est ouverte : les segments peuvent circuler dans les deux sens, chacun étant accusé de réception, ce qui assure une fiabilité maximale du flux.
 
-Il convient de noter que ce ***three-way handshake*** est également utilisé pour la fermeture de la connexion, afin de s’assurer qu’aucun segment en transit ne soit perdu ou interrompu brutalement.
+Ce ***three-way handshake*** concerne uniquement l’établissement de la connexion. Pour la fermeture, TCP utilise un *four-way handshake* : FIN → ACK → FIN → ACK, qui garantie qu’aucun segment en transit n’est perdu avant la libération complète de la session.
 
 Enfin, bien que conçu pour la robustesse et la fiabilité, ce processus a aussi donné naissance à certaines vulnérabilités exploitables : des attaques comme l’**IP Spoofing** visent à contourner ou corrompre cette relation de confiance, en se faisant passer pour une machine autorisée grâce à la falsification des numéros de séquence, ouvrant ainsi une brèche pour intercepter ou manipuler le flux de données échangé.
 
 Afin de limiter ces risques liés au détournement du mécanisme de synchronisation des séquences et de maîtriser la charge réseau, le protocole TCP a recours à une technique de gestion du flux appelée "**méthode de la fenêtre glissante**" ("_Sliding Window_"). Ce système permet de réguler la quantité de données qui peuvent être envoyées sans nécessiter immédiatement d’accusé de réception pour chaque segment, ce qui réduit ainsi la surcharge inutile sur le réseau tout en maintenant une bonne fiabilité.
 
-Concrètement, la fenêtre glissante définit une plage de numéros de séquence autorisés à circuler librement entre l’émetteur et le récepteur sans que chaque segment individuel ne doive être accusé réception. À mesure que des accusés de réception parviennent au système émetteur, la fenêtre "glisse" : elle se décale vers la droite pour inclure de nouveaux segments à transmettre. La taille de cette fenêtre (importante pour optimiser le débit tout en évitant la congestion) est précisée dans le champ **"fenêtre"** de l’en-tête TCP/IP.
+Concrètement, la fenêtre glissante définit une plage de numéros de séquence autorisés à circuler librement entre l’émetteur et le récepteur sans que chaque segment individuel ne doive être accusé réception. À mesure que des accusés de réception parviennent au système émetteur, la fenêtre "glisse" : elle se décale vers la droite pour inclure de nouveaux segments à transmettre. La taille de cette fenêtre (importante pour optimiser le débit tout en évitant la congestion) est précisée dans le champ "*Window*" de l’en-tête TCP.
 
 **Exemple** : si le numéro de séquence initial est 3 et que la fenêtre autorise jusqu’à la séquence 5, les segments compris entre 3 et 5 peuvent être envoyés sans attendre d’accusé de réception pour chacun.
 
@@ -450,7 +450,7 @@ Cette gestion précise, qui allie la souplesse de l’acheminement IP au contrô
 
 Cependant, dans certaines situations, la priorité n’est pas donnée à la fiabilité absolue mais à la vitesse de transmission et à la simplicité. C’est notamment le cas pour des applications comme le streaming en direct ou la voix sur IP, qui tolèrent quelques pertes de paquets sans impact majeur sur l’expérience utilisateur. Dans ces cas, on privilégie le recours au **protocole UDP** (_User Datagram Protocol_).
 
-UDP fonctionne sur un principe radicalement différent de TCP : il est **orienté sans connexion**, c’est-à‑dire qu’il ne met en place aucune relation préalable entre l’émetteur et le destinataire. Lorsqu’une machine émet des paquets via UDP, elle les envoie de façon unidirectionnelle : le destinataire reçoit les données sans jamais renvoyer d’accusé de réception, et l’émetteur ne sait pas précisément si le message est bien arrivé. L’en-tête UDP est volontairement minimaliste : il ne transporte pas d’informations de contrôle sur l’état de la connexion, hormis l’adresse IP et le port de destination.
+UDP fonctionne sur un principe radicalement différent de TCP : il est **orienté sans connexion**, c’est-à‑dire qu’il ne met en place aucune relation préalable entre l’émetteur et le destinataire. Lorsqu’une machine émet des paquets via UDP, elle les envoie de façon unidirectionnelle : le destinataire reçoit les données sans jamais renvoyer d’accusé de réception, et l’émetteur ne sait pas précisément si le message est bien arrivé. L’en-tête UDP est volontairement minimaliste : il ne contient que le port source, le port destination, la longueur du segment et une checksum, sans mécanisme interne d’accusé de réception ni de contrôle d’état ; les adresses IP sont, comme toujours, portées par l’en-tête IP sous-jacent.
 
 Cette logique est souvent comparée à une analogie du quotidien : le protocole TCP ressemble à un **appel téléphonique**, où un circuit est établi, suivi, et contrôlé tout au long de la conversation. À l’inverse, le protocole UDP s’apparente à l’envoi d’un **message par courrier**, où l’expéditeur glisse une lettre dans une boîte aux lettres sans garantie immédiate que le destinataire l’a bien reçue, ni retour d’information systématique.
 
@@ -504,7 +504,7 @@ L’adressage IP constitue un autre pilier de cette infrastructure. Chaque équi
 
 Nous avons également abordé la notion de **sous-réseaux**, qui permet de fractionner un réseau en segments plus petits pour mieux gérer les ressources IP et optimiser la circulation des données. Si le découpage manuel à l’aide des masques de sous-réseaux reste un principe important, il a été largement modernisé grâce au **CIDR** (_Classless Inter-Domain Routing_). Cette méthode a transformé la gestion de l’adressage en permettant une attribution plus souple et plus rationnelle des plages IP, tout en réduisant la taille des tables de routage.
 
-En maîtrisant ces concepts : couches, protocoles, primitives de services, adressage et sous-réseautage, on dispose des bases solides pour comprendre le fonctionnement technique des réseaux modernes et pour configurer efficacement une infrastructure réseau adaptée aux besoins actuels. Dans la prochaine partie, nous allons étudié plus précisément l'adressage IPv4.
+En maîtrisant ces concepts : couches, protocoles, primitives de services, adressage et sous-réseautage, on dispose des bases solides pour comprendre le fonctionnement technique des réseaux modernes et pour configurer efficacement une infrastructure réseau adaptée aux besoins actuels. Dans la prochaine partie, nous allons étudier plus précisément l'adressage IPv4.
 
 
 # L’adressage IPv4
@@ -595,15 +595,17 @@ Pour conclure, l’adresse de diffusion reste une fonction pratique pour envoyer
 ## Les différents types d’adresses IPv4
 <chapterId>2adfad24-a90d-45b5-b808-3d2f6598bebf</chapterId>
 
-L’adressage IPv4 se divise principalement en deux grandes catégories : les adresses **publiques**, directement accessibles sur Internet, et les adresses **privées**, destinées à un usage interne dans un réseau local.
+L’adressage IPv4 se divise principalement en deux grandes catégories : les adresses publiques, directement accessibles sur Internet, et les adresses privées, destinées à un usage interne dans un réseau local.
 
-Une **adresse IPv4 publique** est une adresse unique au niveau mondial. Elle est enregistrée auprès d’un organisme officiel et est routable sur l’ensemble du réseau Internet. Les entreprises et organisations s’en servent pour rendre accessibles leurs services : serveurs web, infrastructures de messagerie, services de cloud public, etc. L’unicité mondiale de ces adresses est indispensable pour éviter tout conflit ou collision d’acheminement. C’est l’**IANA** (_Internet Assigned Numbers Authority_), qui, depuis 2005, relève de l’**ICANN** (_Internet Corporation for Assigned Names and Numbers_), qui gère la distribution de ces plages. Concrètement, l’IANA divise l’espace IPv4 en **256 blocs de taille /8**, selon la notation CIDR. Chaque bloc représente un peu plus de 16,7 millions d’adresses (2³²/2⁸).
+Une adresse IPv4 publique est une adresse unique au niveau mondial. Elle est enregistrée auprès d’un organisme officiel et est routable sur l’ensemble du réseau Internet. Les entreprises et organisations s’en servent pour rendre accessibles leurs services : serveurs web, infrastructures de messagerie, services de cloud public, etc. L’unicité mondiale de ces adresses est indispensable pour éviter tout conflit ou collision d’acheminement.
+
+C’est l’**IANA** (_Internet Assigned Numbers Authority_), opérant sous l’égide de l’**ICANN** (_Internet Corporation for Assigned Names and Numbers_), qui gère la distribution de ces plages. Concrètement, l’IANA divise l’espace IPv4 en 256 blocs de taille /8, selon la notation CIDR. Chaque bloc représente un peu plus de 16,7 millions d’adresses (2³² / 2⁸).
 
 Ces blocs d’adresses unicast sont confiés par l’IANA aux **Registres Internet Régionaux** (_Regional Internet Registries_ ou RIR). Ces RIR se chargent de redistribuer les adresses au niveau régional, en fonction des besoins réels des fournisseurs d’accès, des entreprises ou des administrations. L’espace d’adressage unicast s’étend des blocs **1/8 à 223/8**, avec des portions soit réservées pour des usages particuliers (recherche, documentation, tests), soit attribuées directement à un réseau final ou à un RIR pour redistribution.
 
 Pour vérifier à qui appartient une adresse IP publique, il est possible de consulter les bases des RIR grâce à la commande **whois** ou en utilisant les interfaces web mises à disposition par chaque registre. Ces outils permettent de remonter à l’organisation ou au fournisseur ayant déclaré cette adresse.
 
-À l’opposé, on trouve les **adresses IPv4 privées**, qui constituent une réponse pragmatique à la pénurie d’adresses publiques. Ces adresses, non routables sur Internet, sont réservées à des environnements locaux : réseaux d’entreprises, LAN domestiques, datacenters ou clusters de calcul. Elles ne sont pas uniques au niveau mondial : de nombreux réseaux privés peuvent réutiliser les mêmes plages sans interférence tant qu’ils restent isolés ou qu’ils passent par un dispositif de traduction d’adresses pour sortir sur Internet.
+À l’opposé, on trouve les adresses IPv4 privées, qui constituent une réponse pragmatique à la pénurie d’adresses publiques. Ces adresses, non routables sur Internet, sont réservées à des environnements locaux : réseaux d’entreprises, LAN domestiques, datacenters ou clusters de calcul. Elles ne sont pas uniques au niveau mondial : de nombreux réseaux privés peuvent réutiliser les mêmes plages sans interférence tant qu’ils restent isolés ou qu’ils passent par un dispositif de traduction d’adresses pour sortir sur Internet.
 
 Pour qu’un équipement interne, configuré avec une adresse privée, puisse accéder au réseau global, on recourt au mécanisme de **NAT** (_Network Address Translation_). Le NAT joue un rôle important : il traduit l’adresse privée en adresse publique à la volée, ce qui permet à des dizaines, voire des centaines de postes internes de partager une seule adresse publique. Cette méthode optimise l’utilisation de l’espace IPv4 tout en ajoutant une couche de sécurité par dissimulation des topologies internes.
 
@@ -621,7 +623,7 @@ Ces différentes catégories et stratégies illustrent à quel point l’adressa
 
 Il faut bien admettre que pour nous autres humains, mémoriser de longues suites de chiffres binaires ou décimaux n’est pas chose aisée. Cette difficulté devient encore plus marquée lorsque l’on considère la complexité de l’adressage IP et la multiplicité des adresses qu’une seule peut parfois masquer, notamment lorsqu’on emploie des mécanismes comme le NAT ou l’hébergement virtuel.
 
-Pour pallier cette limite naturelle, la couche Application s’appuie sur un système capable de faire le lien entre une **adresse IP** et un **nom logique** plus compréhensible et surtout plus simple à manipuler. C’est précisément le rôle du **DNS**, pour ***Domain Name System***, un immense annuaire hiérarchique et distribué qui associe des noms de domaine lisibles à des adresses IP. Ce système repose sur un ensemble de protocoles et de services, dont le plus connu est **BIND** (_Berkeley Internet Name Daemon_), un logiciel libre servant de référence pour la majorité des serveurs DNS dans le monde.
+Pour pallier cette limite naturelle, la couche Application s’appuie sur un système capable de faire le lien entre une adresse IP et un nom logique plus compréhensible et surtout plus simple à manipuler. C’est précisément le rôle du **DNS**, pour *Domain Name System*, un immense annuaire hiérarchique et distribué qui associe des noms de domaine lisibles à des adresses IP. Ce système repose sur un ensemble de protocoles et de services, dont le plus connu est **BIND** (_Berkeley Internet Name Domain_), un logiciel libre servant de référence pour la majorité des serveurs DNS dans le monde.
 
 Le principe fondamental du DNS est simple : pour tout équipement connecté (qu’il s’agisse d’un site web, d’un serveur de messagerie ou d’un service réseau) on enregistre une correspondance entre un nom de domaine et une ou plusieurs adresses IP. Cette correspondance est bidirectionnelle : on peut résoudre un nom en adresse (résolution directe) ou retrouver un nom à partir d’une adresse IP (résolution inverse). Cela rend l’adressage humainement exploitable tout en maintenant la précision technique indispensable pour le routage.
 
@@ -633,7 +635,7 @@ Ainsi, il devient possible non seulement de pointer vers un domaine principal (p
 
 Il est important de comprendre qu’un **serveur DNS** peut avoir un périmètre limité : un DNS interne à une entreprise, par exemple, peut ne pas être accessible directement depuis Internet. Si ce DNS n’est pas configuré pour déléguer les requêtes ou n’a pas de relation de confiance avec d’autres serveurs, certaines requêtes échoueront : ni le nom ni l’adresse IP ne pourront alors être résolus en dehors de la zone définie.
 
-Un serveur DNS contient également des informations spécifiques au routage des courriels. Par exemple, un enregistrement de type **MX** (_Mail Exchange_) désigne les serveurs de messagerie responsables de recevoir les e-mails pour un domaine donné. Ces enregistrements définissent des priorités (facteur de pondération) et des solutions de basculement en cas de panne. Le fichier de zone d’un serveur DNS débute toujours par une déclaration **SOA** (_Start Of Authority_) : cette étiquette désigne le serveur comme source officielle de l’information pour la zone qu’il administre.
+Un serveur DNS contient également des informations spécifiques au routage des courriels. Par exemple, un enregistrement de type **MX** (_Mail Exchange_) désigne les serveurs de messagerie responsables de recevoir les e-mails pour un domaine donné. Ces enregistrements définissent des priorités (facteur de pondération) et des solutions de basculement en cas de panne. Le fichier de zone d’un serveur DNS contient obligatoirement un enregistrement **SOA** (_Start Of Authority_), qui désigne le serveur comme source officielle de l’information pour la zone qu’il administre.
 
 Le DNS, grâce à sa structure hiérarchique et distribuée, reste aujourd’hui une brique incontournable d'Internet, et permet à chaque utilisateur de se connecter à des services en utilisant des noms de domaine clairs au lieu de longues adresses IP techniques.
 
@@ -655,7 +657,8 @@ Il est essentiel de rappeler que toute interface réseau, qu’elle soit câblé
 
 Par exemple : `5A:BC:17:A2:AF:15`
 
-Dans cette structure, les trois premiers octets servent à identifier le fabricant de la carte réseau : c’est ce que l’on appelle l’OUI (_Organisationally Unique Identifier_), un identifiant unique attribué à chaque constructeur, également utilisé dans d’autres protocoles comme SNMP pour garantir l’unicité. Les trois octets restants constituent le numéro de série proprement dit du contrôleur réseau, appelé NIC (_Network Interface Controller_), qui différencie chaque carte produite par ce constructeur.
+Dans cette structure, les trois premiers octets servent à identifier le fabricant de la carte réseau : c’est ce que l’on appelle l’**OUI** (*Organisationally Unique Identifier*). Ces préfixes, attribués par l’IEEE, sont réutilisés dans d’autres schémas d’adressage matériel, par exemple pour le Bluetooth ou le protocole LLDP, afin de garantir l’unicité mondiale des identifiants.
+
 
 ### Modification de l’adresse MAC
 
@@ -702,7 +705,7 @@ Le protocole ARP est donc fondamental : il assure la liaison entre les adresses 
 
 Cette table ARP agit donc comme un mini-annuaire de correspondance, mis à jour dynamiquement, un peu comme le DNS le fait pour associer des noms de domaine à des adresses IP. Sans ARP, aucun échange local ne serait possible car la couche liaison de données doit impérativement connaître l’adresse MAC pour encapsuler correctement les trames Ethernet.
 
-À l’inverse, le protocole RARP (_Reverse Address Resolution Protocol_) a été conçu pour résoudre la situation opposée : permettre à une machine qui ne connaît que son adresse MAC de découvrir son adresse IP. C’était notamment le cas pour les anciennes stations de travail sans disque dur local, qui devaient démarrer via le réseau et réclamer une adresse IP. Cependant, RARP présentait des limites en matière de flexibilité et de maintenance, et a été progressivement remplacé par DRARP (_Dynamic Reverse ARP_) puis par BOOTP et DHCP, beaucoup plus évolués et automatisés.
+À l’inverse, le protocole RARP (_Reverse Address Resolution Protocol_) a été conçu pour résoudre la situation opposée : permettre à une machine qui ne connaît que son adresse MAC de découvrir son adresse IP. C’était notamment le cas pour les anciennes stations de travail sans disque dur local, qui devaient démarrer via le réseau et réclamer une adresse IP. Il a toutefois été rapidement supplanté par **BOOTP**, puis par **DHCP**, des solutions plus souples et automatisées.
 
 Ces protocoles d’association jouent un rôle important dans le routage. Un routeur est en réalité une machine dotée de plusieurs interfaces réseau, reliant différents segments. Quand un routeur reçoit une trame, il la traite pour extraire le datagramme IP, puis examine l’entête IP pour déterminer la destination. Si la destination se trouve sur un réseau directement connecté, le datagramme est remis en remise directe après mise à jour de l’entête. Si la destination appartient à un autre réseau, le routeur consulte sa table de routage pour identifier le meilleur chemin, ou _next hop_, vers la destination.
 

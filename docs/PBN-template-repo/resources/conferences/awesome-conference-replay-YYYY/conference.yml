@@ -36,14 +36,14 @@ original_language: en
 proofreading:
   - language: en
     last_contribution_date: YYYY-MM-DD
-    urgency: # leave as empty
+    urgency: 1 # default value
     contributor_names:
       - author_github_username #insert your github username
-    reward: # leave as empty
+    reward: 0 # default value
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - adoption
   - lightning

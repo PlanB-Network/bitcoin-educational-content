@@ -79,6 +79,12 @@
       "code_translator": "NB"
     },
     {
+      "code": "nl",
+      "name": "Dutch",
+      "translator": "deepl",
+      "code_translator": "NL"
+    },
+    {
       "code": "pl",
       "name": "Polish",
       "translator": "deepl",

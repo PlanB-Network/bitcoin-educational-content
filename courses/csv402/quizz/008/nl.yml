@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van deterministische Bitcoin verplichtingen?
+answer: Zorg ervoor dat een enkele Commitment wordt ingevoegd in een transactie
+wrong_answers:
+  - De structuur van Bitcoin transacties vereenvoudigen
+  - Transactiekosten RGB verlagen
+  - RGB multisignatuurgeneratie optimaliseren
+explanation: |
+  Bitcoin deterministische verbintenissen garanderen dat een enkele Commitment wordt ingevoegd in een transactie, om verborgen concurrerende verbintenissen te vermijden.
+reviewed: false

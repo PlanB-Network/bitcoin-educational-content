@@ -345,7 +345,7 @@ Zeus consente poi di aggiungere una nota per denominare il pagamento o di visual
 
 
 
-Si noti che, a differenza di un Wallet come [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), con Zeus il percorso viene calcolato localmente e non delegato a terzi (ACINQ nel caso di Phoenix). Quindi siete gli unici a conoscere il destinatario del pagamento. Perdiamo un po' di efficienza (i pagamenti richiedono un po' più di tempo per essere completati, ma guadagniamo molto in termini di privacy).
+Si noti che, a differenza di un Wallet come [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), con Zeus il percorso viene calcolato localmente e non delegato a terzi (ACINQ nel caso di Phoenix). Quindi siete gli unici a conoscere il destinatario del pagamento. Perdiamo un po' di efficienza (i pagamenti richiedono un po' più di tempo per essere completati, ma guadagniamo molto in termini di privacy).
 
 
 

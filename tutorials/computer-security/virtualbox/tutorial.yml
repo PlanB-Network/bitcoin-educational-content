@@ -1,0 +1,25 @@
+id: 6472f5be-10ce-4a07-8b24-097bfbcedd65
+
+credit_link: https://www.it-connect.fr/installer-virtualbox-sur-windows-11-et-creer-sa-premiere-vm/
+
+tags:
+  - personal-security
+  - experimental
+  - guides
+
+category: operating system
+
+level: intermediate
+
+professor_id: 8183a534-4acf-40e6-afb4-b36e54c7705b
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-05
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

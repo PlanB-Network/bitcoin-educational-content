@@ -345,7 +345,7 @@ Zeuksen avulla voit sitten lisätä maksun nimellisarvoksi setelin tai tarkastel
 
 
 
-Huomaa, että toisin kuin Wallet:ssa, kuten [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), Zeuksen tapauksessa reitti lasketaan paikallisesti eikä sitä delegoida kolmannelle osapuolelle (Phoenixin tapauksessa ACINQ:lle). Olet siis ainoa, joka tietää maksun vastaanottajan. Menetämme hieman tehokkuutta (maksujen suorittaminen kestää hieman kauemmin, mutta voitamme paljon yksityisyyden kannalta).
+Huomaa, että toisin kuin Wallet:ssa, kuten [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), Zeuksen tapauksessa reitti lasketaan paikallisesti eikä sitä delegoida kolmannelle osapuolelle (Phoenixin tapauksessa ACINQ:lle). Olet siis ainoa, joka tietää maksun vastaanottajan. Menetämme hieman tehokkuutta (maksujen suorittaminen kestää hieman kauemmin, mutta voitamme paljon yksityisyyden kannalta).
 
 
 

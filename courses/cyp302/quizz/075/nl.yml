@@ -1,0 +1,9 @@
+question: Hoe vergemakkelijkt het principe van Kerckhoff de veiligheid van open systemen zoals Linux?
+answer: Potentiële kwetsbaarheden kunnen openbaar worden geverifieerd
+wrong_answers:
+  - Het maakt versleutelingsalgoritmen onzichtbaar
+  - Het beperkt het aantal potentiële gebruikers
+  - Het garandeert het gebruik van unieke sleutels
+explanation: |
+  Het principe van Kerckhoff maakt publieke verificatie van beveiligingslekken mogelijk, zoals in open-source systemen, waardoor de systemen betrouwbaarder worden door transparantie. Veiligheid wordt alleen gegarandeerd door de sleutel, niet door het encryptieproces zelf.
+reviewed: false

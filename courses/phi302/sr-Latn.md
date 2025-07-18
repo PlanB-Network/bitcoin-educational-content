@@ -114,7 +114,7 @@ Ako uspeju, isti problemi će se najverovatnije ponovo pojaviti u nekom trenutku
 Nijedna od ovih opcija nije korisna za korisnika.
 
 
-Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *Double-spending problema*. Ovo je problem osiguravanja da niko ne može potrošiti isti novčić dvaput, pitanje za koje su mnogi mislili da je nemoguće rešiti na decentralizovan način. Satoshi Nakamoto piše u svom [Bitcoin belom papiru](https://planb.network/Bitcoin.pdf) o tome kako rešiti Double-spending problem:
+Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *Double-spending problema*. Ovo je problem osiguravanja da niko ne može potrošiti isti novčić dvaput, pitanje za koje su mnogi mislili da je nemoguće rešiti na decentralizovan način. Satoshi Nakamoto piše u svom [Bitcoin belom papiru](https://planb.network/bitcoin.pdf) o tome kako rešiti Double-spending problem:
 
 
 > U ovom radu predlažemo rešenje za problem Double-spending koristeći peer-to-peer distribuirani Timestamp server za generate računsku proveru hronološkog reda transakcija.

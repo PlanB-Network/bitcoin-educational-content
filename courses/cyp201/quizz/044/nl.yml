@@ -1,0 +1,9 @@
+question: Wat is entropie in de context van cryptografie?
+answer: Een maat voor onvoorspelbaarheid geassocieerd met een willekeurig proces
+wrong_answers:
+  - Een methode voor het versleutelen van gevoelige gegevens
+  - Een algoritme voor het berekenen van openbare sleutels
+  - Een techniek voor gegevenscompressie
+explanation: |
+  In cryptografie kwantificeert entropie het niveau van onzekerheid of chaos in een willekeurige bron, wat essentieel is voor het genereren van veilige sleutels.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat is de privésleutel in een Bitcoin Wallet?
+answer: Een geheime sleutel waarmee je je transacties kunt ondertekenen.
+wrong_answers:
+  - Een openbare sleutel die gebruikt wordt om generate Bitcoin adressen.
+  - Een geheime lijst met woorden om een Wallet te vernietigen in geval van nood.
+  - Een geheime sleutel om Bitcoin transacties te versleutelen.
+explanation: >-
+reviewed: true

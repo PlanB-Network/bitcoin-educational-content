@@ -18,7 +18,7 @@ U ovom vodiču pokazaćemo vam kako lako doprineti prevođenju statičkog Elemen
 Da bismo preveli obrazovni sadržaj, koristimo [veštačku inteligenciju](https://github.com/Asi0Flammeus/LLM-Translator). Zatim, da bismo ispravili eventualne greške u ovim fajlovima, pozivamo lektore da doprinesu. Ako želite da lektorišete neki sadržaj, pogledajte sledeći tutorijal:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 S druge strane, ako ste zainteresovani za prevođenje statičkog Elements sajta (isključujući edukativni sadržaj), na pravom ste mestu! Za efikasno prevođenje frontend-a koristimo alat Weblate, koji je veoma jednostavan za korišćenje i olakšava pristup prevođenju.
 

@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste tekortkoming van de ECB-methode met een blokcijfer?
+answer: Het is deterministisch en kan patronen in de gegevens blootleggen
+wrong_answers:
+  - Het vereist sleutels van variabele lengte
+  - Het werkt niet met berichten van meer dan 128 bits
+  - Het werkt niet met berichten van meer dan 256 bits
+explanation: |
+  De ECB-methode (Electronic Code Book) is deterministisch: identieke blokken gegevens worden op dezelfde manier versleuteld, waardoor patronen kunnen worden gedetecteerd in de versleutelde tekst.
+reviewed: false

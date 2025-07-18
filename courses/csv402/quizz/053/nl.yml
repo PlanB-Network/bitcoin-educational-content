@@ -1,0 +1,9 @@
+question: Hoe maakt RGB de weg vrij voor DEX Layer-2?
+answer: Door Exchange van off-chain activa mogelijk te maken via Lightning-kanalen en atomaire swaps
+wrong_answers:
+  - Door het gebruik van een gecentraliseerde Exchange voor alle RGB transacties mogelijk te maken
+  - Door Exchange van activa mogelijk te maken via On-Chain slimme contracten
+  - Door tussen Blockchain activa Exchange mogelijk te maken via atomaire swaps
+explanation: |
+  De mogelijkheid om atomaire swaps en uitwisselingen uit te voeren via Lightning-kanalen biedt de mogelijkheid om gedecentraliseerde DEX'en te creëren, zonder de nadelen van On-Chain uitwisselingen.
+reviewed: false

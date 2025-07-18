@@ -1,0 +1,10 @@
+question: Wat zijn enkele van de vaardigheden die nodig zijn in cyberbeveiliging?
+answer: Logboekanalyse, reactie op incidenten
+wrong_answers:
+  - Grafisch ontwerp, videobewerking
+  - Verkoop, marketing
+  - Koken, bakken
+explanation: |
+  Het hoofdstuk noemt logboekanalyse en reactie op incidenten als
+  enkele van de vaardigheden die nodig zijn in cyberbeveiliging.
+reviewed: true

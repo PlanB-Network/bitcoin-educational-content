@@ -1,0 +1,9 @@
+question: Wie was de belangrijkste persoonlijkheid achter de oprichting van PayPal?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  Het PayPal-product werd in 1999 ontwikkeld door Confinity Inc., dat in december 1998 in San Francisco werd opgericht door Peter Thiel en Max Levchin.
+reviewed: true

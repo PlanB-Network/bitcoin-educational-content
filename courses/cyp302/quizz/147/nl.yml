@@ -1,0 +1,9 @@
+question: Als een geheel getal N het product is van twee priemgetallen p en q, hoe wordt de orde van N dan berekend?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  Voor N gelijk aan het product van twee priemgetallen p en q, wordt de orde van N berekend als (p - 1) * (q - 1).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk type symmetrische encryptie wordt voornamelijk gebruikt voor continue communicatie, zoals audio- of videostreams?
+answer: Stream encryptie
+wrong_answers:
+  - Blokversleuteling
+  - Verificatiecode
+  - Hashen van berichten
+explanation: |
+  Streamversleuteling is bijzonder geschikt voor continue communicatie omdat het gegevens continu versleutelt, in tegenstelling tot blokversleuteling, die ze opdeelt in blokken.
+reviewed: false

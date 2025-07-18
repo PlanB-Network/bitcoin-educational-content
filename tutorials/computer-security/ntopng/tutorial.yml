@@ -1,0 +1,25 @@
+id: 77435bd3-674a-4f35-81d9-0a5325bbdcbd
+
+credit_link: https://www.it-connect.fr/monitorer-son-reseau-avec-ntopng/
+
+tags:
+  - network-security
+  - software
+  - guides
+
+category: data
+
+level: advanced
+
+professor_id: bcc40a22-9d0d-4596-a1bd-2a00da7f8d64
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-07
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

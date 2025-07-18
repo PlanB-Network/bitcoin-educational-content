@@ -1,5 +1,5 @@
 ---
-nimi : Blitz Wallet
+name: Blitz Wallet
 
 
 description: Yksinkertaisin Bitcoin-salkku.

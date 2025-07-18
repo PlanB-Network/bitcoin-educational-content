@@ -1,0 +1,14 @@
+question: Wat is het potentiële nadeel van Mining voor het netwerk?
+answer: Zonder voldoende financiële stimulans kan het moeilijk zijn voor miners om het netwerk te blijven ondersteunen
+wrong_answers:
+  - Het kan leiden tot een daling van de prijs van Bitcoin
+  - Het kan leiden tot een toename van de Hashrate van het netwerk
+  - Het kan leiden tot een afname van het aantal actieve knooppunten in het netwerk
+explanation: |
+  Mining voor het netwerk is een nobel initiatief dat
+  bijdraagt aan de veiligheid en decentralisatie van het
+  Bitcoin netwerk. Zonder voldoende financiële
+  stimulans, kan het moeilijk zijn voor mijnwerkers om het netwerk te blijven steunen
+  het netwerk te blijven ondersteunen, vooral als ze met
+  verlies draaien.
+reviewed: true

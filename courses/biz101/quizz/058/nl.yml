@@ -1,0 +1,9 @@
+question: Wat is een voordeel van het gebruik van een Wallet voor het Starterprofiel?
+answer: Minder technische verantwoordelijkheden
+wrong_answers:
+  - Meer controle over privésleutels
+  - Verbeterde privacy met volledige autonomie over transacties
+  - Afschaffing van transactiekosten
+explanation: |
+  Portemonnees beheren privésleutels, wat de technische last voor gebruikers verlicht.
+reviewed: false

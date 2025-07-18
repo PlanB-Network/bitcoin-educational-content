@@ -94,7 +94,7 @@ Speed поставляется с набором средств разработ
 
 
 
-Если вы еще не владеете Bitcoin и/или Lightning Wallet, рекомендуем вам ознакомиться с нашими учебниками по [мобильным кошелькам] (https://planb.network/tutorials/Wallet).
+Если вы еще не владеете Bitcoin и/или Lightning Wallet, рекомендуем вам ознакомиться с нашими учебниками по [мобильным кошелькам] (https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Speed Business имеет комплект для разработчиков, к
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

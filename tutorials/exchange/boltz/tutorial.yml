@@ -1,0 +1,19 @@
+id: 34ad778e-6dc7-41c2-8219-e11e3361a43d
+project_id: 26613673-ceaf-48d2-b3ee-c0008f9ffc8b
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+level: beginner
+category: centralized
+tags:
+  - onchain
+  - lightning
+  - scalability
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-11
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

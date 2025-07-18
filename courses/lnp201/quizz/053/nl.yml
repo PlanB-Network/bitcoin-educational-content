@@ -1,0 +1,9 @@
+question: Waarom moet een router een goede liquiditeitsverdeling in zijn kanalen handhaven?
+answer: Om het aantal betalingen te maximaliseren die het kan routeren
+wrong_answers:
+  - Transactiekosten verlagen
+  - Om het openen van nieuwe kanalen te vermijden
+  - Om het gebruik van de Bitcoin Blockchain te beperken
+explanation: |
+  Een router streeft ernaar zoveel mogelijk betalingen te routeren om vergoedingen te innen, wat een goede verdeling van liquiditeit aan beide kanten van de kanalen vereist om de routeringscapaciteit te garanderen.
+reviewed: false

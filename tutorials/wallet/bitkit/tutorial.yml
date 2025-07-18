@@ -1,0 +1,24 @@
+id: a7224674-85c4-4045-9baf-37018d89550c
+
+level: beginner
+
+category: mobile
+
+professor_id: 6308f931-4e97-401c-87b0-fe2d3159501c
+credit_link: https://help.bitkit.to
+
+# Proofreading metadata
+project_id: 86dbcf83-e4ea-4dbe-be90-b92f73eaa526
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-07-10
+    urgency: 1
+    contributor_names:
+      - jacobo-synonym
+    reward: 0
+
+tags:
+  - wallets
+  - guides
+  - lightning

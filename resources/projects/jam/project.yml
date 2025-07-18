@@ -1,0 +1,25 @@
+id: 46061207-3b2a-49a6-b933-2fc698c1c353
+name: Jam
+
+links:
+  website: https://jamdocs.org/
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - privacy
+  - software
+  - protocols
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-01
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

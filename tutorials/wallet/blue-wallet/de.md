@@ -11,7 +11,7 @@ Der Einstieg in Bitcoin scheint eine große Herausforderung für Menschen zu sei
 
 
 
-In diesem Tutorial werden wir einen Blick auf Blue Wallet werfen, ein einfaches, aber hocheffektives Bitcoin Wallet, das es Ihnen ermöglicht, Ihre Bitcoins persönlich zu verwalten und auch Verwaltungsgenossenschaften auf der Basis von [Multisig] (https://planb.network/resources/glossary/Multisig) zu gründen (keine Sorge, wir kommen darauf zurück).
+In diesem Tutorial werden wir einen Blick auf Blue Wallet werfen, ein einfaches, aber hocheffektives Bitcoin Wallet, das es Ihnen ermöglicht, Ihre Bitcoins persönlich zu verwalten und auch Verwaltungsgenossenschaften auf der Basis von [Multisig] (https://planb.network/resources/glossary/multisig) zu gründen (keine Sorge, wir kommen darauf zurück).
 
 
 
@@ -264,7 +264,7 @@ Wenn Sie Ihre Transaktion validieren, benötigen Sie eine zweite Unterschrift, u
 
 
 
-Der zweite Wallet-Unterzeichner kann, wenn er ebenfalls ein Nutzer ist, die Transaktion unterzeichnen, auch wenn er nicht im Internet ist (kein Wi-Fi, keine mobilen Daten), indem er den QR-Code der [teilweise unterzeichneten Transaktion] (https://planb.network/resources/glossary/PSBT) scannt, die Sie gerade erstellt haben.
+Der zweite Wallet-Unterzeichner kann, wenn er ebenfalls ein Nutzer ist, die Transaktion unterzeichnen, auch wenn er nicht im Internet ist (kein Wi-Fi, keine mobilen Daten), indem er den QR-Code der [teilweise unterzeichneten Transaktion] (https://planb.network/resources/glossary/psbt) scannt, die Sie gerade erstellt haben.
 
 
 

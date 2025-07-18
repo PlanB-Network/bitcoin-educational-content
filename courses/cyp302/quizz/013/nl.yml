@@ -1,0 +1,9 @@
+question: Wat vormt de fysieke basis van de meeste communicatie in de ontwikkelde wereld?
+answer: Glasvezelkabelnetwerken
+wrong_answers:
+  - Satellieten voor elke verbinding
+  - Alleen coaxiale kabels
+  - Alleen koperdraden
+explanation: |
+  Het merendeel van de moderne communicatie verloopt via glasvezelkabelnetwerken, die zorgen voor een snelle gegevensuitwisseling, hoewel satellieten en coaxkabels nog wel worden gebruikt.
+reviewed: false

@@ -179,9 +179,9 @@ Sa fonction dans notre monde est difficile à reproduire artificiellement. En ef
 
 Pour ces raisons, l'or en tant que monnaie est le résultat de 4 000 ans de darwinisme monétaire basé sur les fonctions aristotéliciennes suivantes :
 
-- Réserve de valeur : la monnaie peut être utilisée pour transférer du pouvoir d'achat dans le futur, elle doit donc être un matériau durable ;
-- Moyen d'échange : la monnaie peut être utilisée pour échanger des biens et des services au lieu de faire du troc, ce qui permet d'éviter la coïncidence des besoins entre les commerçants ;
-- Unité de compte : la monnaie nous permet également de comparer la valeur de différents biens afin de mieux comprendre leur utilité relative.
+- **Réserve de valeur** : la monnaie peut être utilisée pour transférer du pouvoir d'achat dans le futur, elle doit donc être un matériau durable ;
+- **Moyen d'échange** : la monnaie peut être utilisée pour échanger des biens et des services au lieu de faire du troc, ce qui permet d'éviter la coïncidence des besoins entre les commerçants ;
+- **Unité de compte** : la monnaie nous permet également de comparer la valeur de différents biens afin de mieux comprendre leur utilité relative.
 
 ![image](assets/en/08.webp)
 
@@ -199,9 +199,9 @@ Pour mieux expliquer ce concept, nous allons explorer les caractéristiques d'un
 
 ![image](assets/en/11.webp)
 
-- Fongibilité : c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
-- Divisibilité : car il peut être divisé en unités plus petites pour faciliter les transactions de volumes variables ;
-- Liquidité : ce qui signifie qu'il est facilement convertible en biens ou en services.
+- **Fongibilité** : c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
+- **Divisibilité** : car il peut être divisé en unités plus petites pour faciliter les transactions de volumes variables ;
+- **Liquidité** : ce qui signifie qu'il est facilement convertible en biens ou en services.
 
 Pour répondre à ces critères, la monnaie a évolué historiquement en prenant différentes mesures :
 
@@ -563,17 +563,17 @@ Il n'y a pas de réponse ou de solution universelle. Prenez donc le temps de ré
 
 Ci-dessous, nous définirons plusieurs niveaux de sécurité :
 
-- Niveau 0, vous utilisez un "service de garde" où vous n'êtes pas le seul détenteur de vos bitcoins. Sachez que ce tiers de confiance peut restreindre votre accès à vos fonds à tout moment. Dans ce cas, votre niveau de souveraineté financière est similaire à celui d'un système bancaire traditionnel avec un compte en banque.
+- **Niveau 0**, vous utilisez un "service de garde" où vous n'êtes pas le seul détenteur de vos bitcoins. Sachez que ce tiers de confiance peut restreindre votre accès à vos fonds à tout moment. Dans ce cas, votre niveau de souveraineté financière est similaire à celui d'un système bancaire traditionnel avec un compte en banque.
 
 ![image](assets/en/31.webp)
 
-- Niveau 1, vous utilisez un portefeuille Bitcoin sur votre téléphone ou votre ordinateur, où vous êtes le seul détenteur de vos bitcoins et où vous pouvez facilement effectuer vos transactions. L'outil susmentionné est appelé "hot wallet", car la clé privée est stockée sur un appareil disposant d'un accès à internet. Dans ce cas, il est crucial de sauvegarder votre phrase mnémotechnique pour retrouver l'accès à vos fonds en cas de perte de votre téléphone ou de votre ordinateur.
+- **Niveau 1**, vous utilisez un portefeuille Bitcoin sur votre téléphone ou votre ordinateur, où vous êtes le seul détenteur de vos bitcoins et où vous pouvez facilement effectuer vos transactions. L'outil susmentionné est appelé "hot wallet", car la clé privée est stockée sur un appareil disposant d'un accès à internet. Dans ce cas, il est crucial de sauvegarder votre phrase mnémotechnique pour retrouver l'accès à vos fonds en cas de perte de votre téléphone ou de votre ordinateur.
 
 Par exemple, vous pouvez utiliser Sparrow Wallet comme hot wallet :
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Niveau 2, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "cold Wallet", car vos clés sont stockées sur un appareil qui n'est pas connecté à internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
+- **Niveau 2**, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "cold Wallet", car vos clés sont stockées sur un appareil qui n'est pas connecté à internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
 
 Par exemple, vous pouvez utiliser un Ledger, un Satochip ou un Tapsigner :
 
@@ -585,7 +585,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 ![image](assets/en/32.webp)
 
-- Niveau 3, vous utilisez un portefeuille de niveau 1 ou 2, mais vous avez ajouté une phrase de passe supplémentaire. Dans ce cas, vous devez sauvegarder à la fois la liste des 12/24 mots **et\*\* votre phrase de passe. Idéalement, ces deux informations sont stockées dans deux endroits différents.
+- **Niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2, mais vous avez ajouté une phrase de passe supplémentaire. Dans ce cas, vous devez sauvegarder à la fois la liste des 12/24 mots **et** votre phrase de passe. Idéalement, ces deux informations sont stockées dans deux endroits différents.
 
 Pour en savoir plus sur l'utilisation et le fonctionnement de la phrase de passe BIP39 :
 
@@ -593,7 +593,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ![image](assets/en/33.webp)
 
-- Niveau 4, vous utilisez un ensemble de portefeuilles pour créer un portefeuille "multisig", ce qui signifie que plusieurs signatures sont nécessaires pour effectuer une transaction. Dans ce cas, il faut savoir que chaque partie de la multi-signature doit être stockée à des endroits différents. Cette approche est souvent considérée comme une utilisation avancée de Bitcoin, principalement pour la gestion de montants importants et pour les entreprises.
+- **Niveau 4**, vous utilisez un ensemble de portefeuilles pour créer un portefeuille "multisig", ce qui signifie que plusieurs signatures sont nécessaires pour effectuer une transaction. Dans ce cas, il faut savoir que chaque partie de la multi-signature doit être stockée à des endroits différents. Cette approche est souvent considérée comme une utilisation avancée de Bitcoin, principalement pour la gestion de montants importants et pour les entreprises.
 
 ![image](assets/en/34.webp)
 
@@ -698,7 +698,7 @@ Les portefeuilles Bitcoin sont des logiciels qui permettent de stocker des bitco
 
 Lors de la création d'un portefeuille, vous devez d'abord sauvegarder votre liste de 12 ou 24 mots sur un morceau de papier ou une plaque de métal. Cette phrase mnémotechnique vous permet de restaurer votre portefeuille à l'aide de n'importe quelle application de portefeuille Bitcoin. Sachez que toute personne ayant accès à cette liste a également accès à vos fonds.
 
-Dans le monde de Bitcoin, la souveraineté financière est étroitement liée à la responsabilité individuelle. Il est donc essentiel de sécuriser l'accès à vos portefeuilles et à vos sauvegardes. Pour ce faire, il est important de respecter certaines règles :
+Dans le monde du Bitcoin, la souveraineté financière est étroitement liée à la responsabilité individuelle. Il est donc essentiel de sécuriser l'accès à vos portefeuilles et à vos sauvegardes. Pour ce faire, il est important de respecter certaines règles :
 
 - Créez un plan de succession pour vous assurer que vos proches pourront récupérer l'argent en cas de problème.
 - Évitez de laisser vos bitcoins sur des plateformes d'échange, car elles sont susceptibles d'être attaquées par des pirates informatiques.
@@ -720,7 +720,7 @@ Maintenant que nous avons abordé les bases des portefeuilles Bitcoin et les mei
 
 ![image](assets/en/39.webp)
 
-Le 31 octobre 2008 marque la naissance de la nouvelle technologie financière qu'est le Bitcoin. Ce jour-là, l'anonyme Satoshi Nakamoto a présenté son innovation au monde entier par l'intermédiaire d'un courriel envoyé à la liste de diffusion des cypherpunks, une communauté de passionnés de cryptographie qui se consacrent à la promotion de la vie privée sur internet. Ce courriel contenait un document appelé "Livre blanc", qui présentait le fonctionnement de Bitcoin.
+Le 31 octobre 2008 marque la naissance de la nouvelle technologie financière qu'est le Bitcoin. Ce jour-là, l'anonyme Satoshi Nakamoto a présenté son innovation au monde entier par l'intermédiaire d'un courriel envoyé à la liste de diffusion des cypherpunks, une communauté de passionnés de cryptographie qui se consacrent à la promotion de la vie privée sur internet. Ce courriel contenait un document appelé "Livre blanc", qui présentait le fonctionnement du Bitcoin.
 
 Cette initiative n'a pas immédiatement suscité l'enthousiasme, probablement en raison des échecs précédents des tentatives de création d'un système de monnaie numérique. Néanmoins, ce livre blanc est devenu une référence pour les utilisateurs de Bitcoin et a fait l'objet de nombreux débats dans l'écosystème Bitcoin au fil des ans.
 
@@ -744,7 +744,7 @@ L'intérêt pour le Bitcoin s'est rapidement développé, amenant de nombreuses 
 
 Le forum est rapidement devenu le lieu de discussion privilégié des utilisateurs de Bitcoin, à tel point que des mèmes et symboles célèbres associés à Bitcoin en sont nés, tels que le [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), le célèbre [Hodl](https://bitcointalk.org/index.php?topic=375643.0), ou encore le [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
-Le 22 mai 2010, Laszlo Hanyecz est entré dans l'histoire en proposant d'acheter deux pizzas pour 10 000 BTC : c'était la première fois que des bitcoins étaient utilisés pour acheter des biens matériels.
+**Le 22 mai 2010**, Laszlo Hanyecz est entré dans l'histoire en proposant d'acheter deux pizzas pour 10 000 BTC : c'était la première fois que des bitcoins étaient utilisés pour acheter des biens matériels.
 
 ![image](assets/en/42.webp)
 
@@ -782,7 +782,7 @@ Pour que Bob puisse transférer des bitcoins à Alice, celle-ci doit lui fournir
 
 Concrètement, lorsque Alice ouvre son portefeuille et appuie sur "recevoir", un code QR ou une adresse (comme celle-ci bc1q7957h3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr) s'affiche. Il s'agit en quelque sorte de son "IBAN Bitcoin", qu'elle fournit ensuite à Bob.
 
-Ensuite, Bob effectue la transaction en ouvrant son portefeuille Bitcoin et en appuyant sur "envoyer". Il copie et colle l'adresse d'Alice dans le champ requis, ajoute le montant qu'il souhaite envoyer et décide des frais de transaction, qui incitent les mineurs à inclure la transaction dans le bloc suivant. En effet, plus les frais payés par Bob sont élevés, plus il a de chances que la transaction soit incluse dans le prochain bloc et ajouté à la blockchain, c'est-à-dire un registre public et immuable dans lequel sont enregistrées toutes les transactions en bitcoins.
+Ensuite, Bob effectue la transaction en ouvrant son portefeuille Bitcoin et en appuyant sur "envoyer". Il copie et colle l'adresse d'Alice dans le champ requis, ajoute le montant qu'il souhaite envoyer et décide des frais de transaction, qui incitent les mineurs à inclure la transaction dans le bloc suivant. En effet, plus les frais payés par Bob sont élevés, plus il a de chances que la transaction soit incluse dans le prochain bloc ajouté à la blockchain, c'est-à-dire un registre public et immuable dans lequel sont enregistrées toutes les transactions en bitcoins.
 
 Pour finaliser la transaction, Bob doit la signer avec sa clé privée afin de vérifier qu'il est bien le propriétaire des bitcoins qu'il souhaite transférer. Cette étape est généralement automatique sur les portefeuilles mobiles ou prend la forme d'une confirmation sur votre portefeuille physique : "Êtes-vous sûr de vouloir envoyer X à Y ? Oui ou non".
 
@@ -885,7 +885,7 @@ Suite à cette victoire, les nœuds ont activé une mise à jour appelée SegWit
 
 :::video id=47c5a6f2-5b27-48b7-8656-a322cade9acc:::
 
-Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs. Ils utilisent de l'électricité grâce à des machines ASIC pour résoudre la preuve de travail de Bitcoin.
+**Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs. Ils utilisent de l'électricité grâce à des machines ASIC pour résoudre la preuve de travail de Bitcoin.**
 
 ![image](assets/en/55.webp)
 
@@ -970,7 +970,7 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 Dans la section précédente, nous avons compris que la sécurité du protocole Bitcoin repose sur une forte consommation d'énergie pour produire un registre public des transactions sans tiers de confiance. Dans les médias grand public, le coût global de l'énergie est souvent comparé à la consommation d'électricité d'un petit pays. Mais cette comparaison a-t-elle un sens ? Est-il pertinent de comprendre les raisons de ces coûts ?
 
-### Les coûts énergétiques de Bitcoin
+### Les coûts énergétiques du Bitcoin
 
 Tout d'abord, évaluons qualitativement le coût environnemental de l'exploitation minière. Un mineur doit disposer d'une machine comme un ASIC et d'une source d'énergie sous forme d'électricité pour alimenter ces machines. Les ASIC sont principalement fabriqués en aluminium et peuvent être recyclés ou réutilisés à d'autres fins (comme le montre le projet Attakaï décrit dans notre cours MIN201, qui transforme un Antminer S9 en chauffage d'appoint). La principale préoccupation est donc la consommation d'énergie.
 
@@ -994,7 +994,7 @@ Pour ceux qui vivent dans des pays où les taux d'inflation sont élevés, le Bi
 
 ### Le Bitcoin pourrait être un atout pour l'environnement
 
-Enfin, il est essentiel de discuter des conséquences économiques et environnementales de l'adoption de Bitcoin.
+Enfin, il est essentiel de discuter des conséquences économiques et environnementales de l'adoption du Bitcoin.
 
 Si on le compare au système financier actuel, ce dernier, en raison de son encouragement à la surconsommation et à l'endettement, pose de sérieux problèmes. Des facteurs tels que l'accès facile au crédit, l'émission monétaire par les banques et la pratique des réserves fractionnaires contribuent au surendettement et, par conséquent, à la surconsommation.
 
@@ -1010,7 +1010,7 @@ D'autre part, les hommes politiques ont généralement une vision à court terme
 
 Ils ne savent pas que Bitcoin encourage l'utilisation d'énergies vertes. Par exemple, les flammes allumées sur les sites de puits de pétrole pour brûler le méthane et éviter la pollution peuvent être éteintes par les mineurs de Bitcoin, car le méthane peut être converti en électricité pour alimenter les machines de minage, ce qui est bénéfique pour l'environnement.
 
-\*\*Suivez l'une des maximes de Bitcoin : Ne faites pas confiance, vérifiez par vous-même !**
+**Suivez l'une des maximes de Bitcoin : Ne faites pas confiance, vérifiez par vous-même !**
 
 ### Bref résumé des caractéristiques techniques de Bitcoin
 
@@ -1038,7 +1038,7 @@ Le cours du bitcoin est souvent caractérisé par une importante volatilité. Sa
 
 ![image](assets/en/67.webp)
 
-Pour simplifier, les humains ont tendance à tout acheter en même temps et à tout vendre en même temps. \*\*Le bitcoin n'échappe pas à la nature humaine.**
+Pour simplifier, les humains ont tendance à tout acheter en même temps et à tout vendre en même temps. **Le bitcoin n'échappe pas à la nature humaine.**
 
 ### Comprendre les vagues d'adoption
 

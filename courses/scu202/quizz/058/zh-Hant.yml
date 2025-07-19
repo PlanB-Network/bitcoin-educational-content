@@ -1,0 +1,9 @@
+question: Internet Explorer 從第 4 版開始使用哪種渲染引擎，並在 2000 年代初期主導市場？
+answer: 三叉戟
+wrong_answers:
+  - 壁虎
+  - WebKit
+  - 閃爍
+explanation: |
+  Trident 由 Microsoft 開發，於 1997 年與 Internet Explorer 4.0 一同推出，在 Internet Explorer 幾乎壟斷網路的時期，Trident 一枝獨秀。
+reviewed: false

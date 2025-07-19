@@ -1,0 +1,9 @@
+question: Which macOS tool enables full system disk encryption?
+answer: FileVault
+wrong_answers:
+  - Disk Utility
+  - iCloud Keychain
+  - BitLocker
+explanation: |
+  FileVault is the native disk encryption solution integrated into macOS.
+reviewed: false

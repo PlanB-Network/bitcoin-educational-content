@@ -1,0 +1,9 @@
+question: Koja komanda se može koristiti za ažuriranje svih paketa na Ubuntu distribuciji?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  Na Ubuntu (i Debian), komanda "sudo apt update && sudo apt upgrade" sinhronizuje listu paketa i instalira sve dostupne ažuriranja.
+reviewed: false

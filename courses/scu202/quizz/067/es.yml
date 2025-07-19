@@ -1,0 +1,9 @@
+question: ¿Para qué sirve una VPN cuando se navega por una red Wi-Fi pública?
+answer: Cifrar el tráfico entre el dispositivo y el servidor VPN
+wrong_answers:
+  - Anonimizar su conexión a Internet
+  - Instalar actualizaciones automáticamente
+  - generate contraseñas seguras
+explanation: |
+  Una VPN encripta todo el tráfico de red, protegiendo sus datos de la interceptación en redes no seguras como las Wi-Fi públicas.
+reviewed: false

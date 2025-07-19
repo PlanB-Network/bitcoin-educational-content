@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unapaswa kuwezeshwa katika UEFI ili kuzuia utekelezwaji wa nambari ambayo haijatiwa saini wakati wa kuwasha?
+answer: Boot salama
+wrong_answers:
+  - Fast Boot
+  - Uanzishaji wa haraka
+  - Mfumo wa Mfumo Unaoaminika (TPM)
+explanation: |
+  Secure Boot huhakikisha kuwa programu iliyoidhinishwa pekee ndiyo inayoweza kuwasha mfumo, hivyo basi kupunguza hatari ya maambukizi ya bootkit/rootkit.
+reviewed: false

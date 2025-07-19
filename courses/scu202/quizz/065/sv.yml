@@ -1,0 +1,9 @@
+question: Vilket påstående beskriver bäst läget för privat surfning?
+answer: Det begränsar registreringen av lokala spår
+wrong_answers:
+  - Det gör det anonymt att surfa på Internet
+  - Blockerar alla skadliga spårare och skript
+  - Det raderar aktiva tillägg
+explanation: |
+  Privat läge förhindrar helt enkelt lokal loggning av historik och cookies, men garanterar inte anonymitet på Internet.
+reviewed: false

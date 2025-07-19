@@ -1,0 +1,9 @@
+question: Koji lokalni podaci omogućavaju oglašivačima da prate vaše navike pretraživanja na više sajtova?
+answer: Kolačići treće strane
+wrong_answers:
+  - JavaScript kod
+  - Lokalna istorija
+  - SSL sertifikat
+explanation: |
+  Kolačići treće strane, koje postavljaju spoljne agencije za oglašavanje, koriste se za praćenje aktivnosti korisnika na različitim sajtovima i uspostavljanje profila za oglašavanje.
+reviewed: false

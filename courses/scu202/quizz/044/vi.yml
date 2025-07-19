@@ -1,0 +1,9 @@
+question: Hoạt động nào đảm bảo phần mềm đã tải xuống không bị sửa đổi kể từ khi phát hành chính thức?
+answer: Xác minh tính toàn vẹn thông qua Hash
+wrong_answers:
+  - Xác minh tính xác thực thông qua chữ ký của nhà phát triển
+  - Phân tích phần mềm thông qua tường lửa
+  - Chạy chương trình ở chế độ an toàn
+explanation: |
+  Kiểm tra tính toàn vẹn dựa trên việc so sánh Hash của tệp đã tải xuống với Hash do nhà phát triển phát hành. Bất kỳ sửa đổi nào đối với tệp đều làm thay đổi Hash này.
+reviewed: false

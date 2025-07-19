@@ -1,0 +1,9 @@
+question: Mengapa disarankan untuk menghapus perangkat lunak yang tidak digunakan atau usang dari komputer Anda?
+answer: Untuk mengurangi permukaan serangan
+wrong_answers:
+  - Untuk mempercepat koneksi Internet Anda
+  - Untuk meningkatkan vektor pelindung
+  - Untuk meningkatkan masa pakai baterai
+explanation: |
+  Semakin sedikit perangkat lunak yang terinstal, semakin sedikit pula potensi kerentanan yang dapat dieksploitasi oleh penyerang.
+reviewed: false

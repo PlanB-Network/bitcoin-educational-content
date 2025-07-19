@@ -1,0 +1,9 @@
+question: Welcher Vorgang stellt sicher, dass heruntergeladene Software seit ihrer offiziellen Veröffentlichung nicht verändert wurde?
+answer: Integritätsprüfung über Hash
+wrong_answers:
+  - Überprüfung der Authentizität durch die Unterschrift des Entwicklers
+  - Software-Analyse über eine Firewall
+  - Ausführen des Programms im abgesicherten Modus
+explanation: |
+  Die Integritätsprüfung basiert auf einem Vergleich des Hash der heruntergeladenen Datei mit dem vom Entwickler veröffentlichten Hash. Jede Änderung an der Datei modifiziert diese Hash.
+reviewed: false

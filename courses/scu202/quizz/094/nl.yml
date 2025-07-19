@@ -1,0 +1,9 @@
+question: Welk project legde eind jaren '60 de basis voor het moderne internet?
+answer: ARPANET
+wrong_answers:
+  - Wereldwijd web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET was het eerste onderling verbonden netwerk, ontworpen om verschillende onderzoekscentra met elkaar te verbinden, en is de directe voorloper van het internet.
+reviewed: false

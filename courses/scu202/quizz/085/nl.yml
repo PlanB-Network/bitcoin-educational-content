@@ -1,0 +1,9 @@
+question: Welke open source toepassing wordt aanbevolen voor het scannen van voedingsmiddelen met een gezamenlijke database?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts is een gratis, gemeenschapsgebaseerd project dat transparant is over zijn gegevens, terwijl Yuka gebaseerd is op een ondoorzichtig, niet-open source model.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil der Rolling-Release-Verteilung?
+answer: Verwenden Sie die neueste Software
+wrong_answers:
+  - Größere Kompatibilität mit Windows
+  - Eine Umgebung ohne Interface-Grafiken
+  - Obligatorische Verkaufsunterstützung
+explanation: |
+  Rolling Releases integrieren kontinuierliche Software-Updates und gewährleisten den ständigen Zugriff auf die neuesten Versionen.
+reviewed: false

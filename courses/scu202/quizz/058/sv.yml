@@ -1,0 +1,9 @@
+question: Vilken renderingsmotor användes av Internet Explorer från version 4 och framåt och dominerade marknaden i början av 2000-talet?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Blinka
+explanation: |
+  Trident, som utvecklats av Microsoft, introducerades med Internet Explorer 4.0 1997 och dominerade webben under den period då Internet Explorer hade monopolställning.
+reviewed: false

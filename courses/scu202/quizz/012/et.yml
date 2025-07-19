@@ -1,0 +1,9 @@
+question: Milline organisatsioon asutati 1998. aastal, et edendada mõistet "avatud lähtekood"?
+answer: Avatud lähtekoodiga algatus (OSI)
+wrong_answers:
+  - Vaba Tarkvara Sihtasutus (FSF)
+  - Projekti Debian
+  - Mozilla Foundation
+explanation: |
+  OSI loodi selleks, et rõhutada koodi avatuse pragmaatilist, tehnilist aspekti, erinevalt vaba tarkvara filosoofiast.
+reviewed: false

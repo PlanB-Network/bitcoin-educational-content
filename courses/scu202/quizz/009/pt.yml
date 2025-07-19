@@ -1,0 +1,9 @@
+question: Qual é a principal função de um sistema operativo?
+answer: Intermediário entre hardware, utilizador e aplicações
+wrong_answers:
+  - Antivírus integrado
+  - Software gráfico
+  - Servidor de mensagens instantâneas
+explanation: |
+  O sistema operativo funciona como um software central Layer que permite que as aplicações e o utilizador acedam e controlem o hardware.
+reviewed: false

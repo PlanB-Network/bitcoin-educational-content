@@ -1,0 +1,9 @@
+question: کدام ابزارک گرافیکی توسط GNOME و Xfce استفاده می‌شود؟
+answer: GTK
+wrong_answers:
+  - کیوت
+  - تکینتر
+  - الگو
+explanation: |
+  GNOME، Xfce، Cinnamon و MATE بر پایه GTK هستند، یک کتابخانه نرم‌افزاری اختصاص داده شده به رابط‌های کاربری گرافیکی تحت لینوکس.
+reviewed: false

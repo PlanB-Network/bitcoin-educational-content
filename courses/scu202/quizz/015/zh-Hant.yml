@@ -1,0 +1,9 @@
+question: 滾動發佈的主要優勢是什麼？
+answer: 使用最新軟體
+wrong_answers:
+  - 與 Windows 更為相容
+  - 沒有 Interface 圖形的環境
+  - 強制性銷售支援
+explanation: |
+  滾動發佈整合持續的軟體更新，確保永久存取最新版本。
+reviewed: false

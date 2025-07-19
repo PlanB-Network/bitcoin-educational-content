@@ -1,0 +1,9 @@
+question: 現在も維持されている最も古いディストリビューションは？
+answer: スラックウェア
+wrong_answers:
+  - フェドラ
+  - ジェンツー
+  - マンジャロ
+explanation: |
+  Slackwareは、1993年にPatrick Volkerdingによって作成され、現在も活動している最も古いLinuxディストリビューションである。
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué tipo de software se recomienda para las descargas transparentes?
+answer: Software gratuito
+wrong_answers:
+  - Software propietario
+  - Software en versión beta
+  - Software con publicidad integrada
+explanation: |
+  Se recomienda el software de código abierto porque su código puede ser auditado por la comunidad, lo que aumenta la seguridad y la transparencia.
+reviewed: false

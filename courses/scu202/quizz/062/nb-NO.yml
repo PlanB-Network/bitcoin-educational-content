@@ -1,0 +1,9 @@
+question: Hvilken nettleser garanterer anonymitet ved å omdirigere trafikken gjennom et desentralisert nettverk med høy latenstid?
+answer: Tor-nettleser
+wrong_answers:
+  - Mullvad nettleser
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser bruker Tor-nettverket til å anonymisere surfing, noe som går på bekostning av ytelsen.
+reviewed: false

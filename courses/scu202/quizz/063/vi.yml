@@ -1,0 +1,9 @@
+question: Trình duyệt văn bản nào không hỗ trợ đồ họa Interface hoặc JavaScript mà vẫn được duy trì lâu đời nhất?
+answer: Linh miêu
+wrong_answers:
+  - Trình duyệt Mullvad
+  - Polypane
+  - Vivaldi
+explanation: |
+  Lynx, xuất hiện vào năm 1992, hoạt động ở chế độ văn bản, không hỗ trợ JavaScript và vẫn được sử dụng cho những mục đích rất cụ thể.
+reviewed: false

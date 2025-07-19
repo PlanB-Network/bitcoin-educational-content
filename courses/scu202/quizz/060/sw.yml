@@ -1,0 +1,9 @@
+question: Ni kivinjari gani cha chanzo huria, kilichotengenezwa na shirika lisilo la faida, ni kielelezo kikuu cha injini ya Gecko?
+answer: Firefox ya Mozilla
+wrong_answers:
+  - Jasiri
+  - Safari
+  - Chrome
+explanation: |
+  Mozilla Firefox, iliyotengenezwa na Wakfu wa Mozilla, ndicho kivinjari kinachoongoza chenye msingi wa Gecko, maarufu kwa Commitment yake ya faragha.
+reviewed: false

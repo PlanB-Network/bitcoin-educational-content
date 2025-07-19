@@ -1,0 +1,9 @@
+question: 哪個 Android 元件仍然完全開放原始碼，並可由社群審核？
+answer: AOSP
+wrong_answers:
+  - Google 行動服務
+  - Play 商店
+  - iOSP
+explanation: |
+  只有 Android 的 AOSP 基礎是免費的。廣泛使用的 Google 行動服務是專屬且不可稽核的。
+reviewed: false

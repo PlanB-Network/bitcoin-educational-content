@@ -1,0 +1,9 @@
+question: Ni shirika gani lilianzishwa mnamo 1998 ili kukuza neno "chanzo huria"?
+answer: Mpango wa Open Source (OSI)
+wrong_answers:
+  - Wakfu wa Programu Bila Malipo (FSF)
+  - Mradi wa Debian
+  - Wakfu wa Mozilla
+explanation: |
+  OSI iliundwa ili kusisitiza pragmatiki, kipengele cha kiufundi cha uwazi wa msimbo, tofauti na falsafa ya programu huria.
+reviewed: false

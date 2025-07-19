@@ -1,0 +1,9 @@
+question: Format paket apa yang dikembangkan Canonical untuk mengisolasi aplikasi dan ketergantungannya?
+answer: Jepret
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Format Snap, yang dikembangkan oleh Canonical, memungkinkan instalasi perangkat lunak mandiri, terisolasi dari sistem dan diperbarui secara independen.
+reviewed: false

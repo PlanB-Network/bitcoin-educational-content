@@ -1,0 +1,9 @@
+question: Jaký typ softwaru se doporučuje pro transparentní stahování?
+answer: Bezplatný software
+wrong_answers:
+  - Vlastní software
+  - Software v beta verzi
+  - Software s integrovanou reklamou
+explanation: |
+  Software s otevřeným zdrojovým kódem se doporučuje, protože jeho kód může být kontrolován komunitou, což zvyšuje bezpečnost a transparentnost.
+reviewed: false

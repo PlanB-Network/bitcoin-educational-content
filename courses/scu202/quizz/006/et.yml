@@ -1,0 +1,9 @@
+question: Milline on operatsioonisüsteemi tuuma peamine ülesanne?
+answer: Hallata juurdepääsu seadmetele
+wrong_answers:
+  - Näita reklaami
+  - Kasutajakontode haldamine
+  - Rakenduste automaatne paigaldamine
+explanation: |
+  Kernel organiseerib riistvara juurdepääsu, protsesside samaaegset täitmist ja turvalisust, varjates samal ajal kasutaja eest keerukaid ahelaid.
+reviewed: false

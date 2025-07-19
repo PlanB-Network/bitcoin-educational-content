@@ -1,0 +1,9 @@
+question: 您應該避免使用 USB 隨身碟做哪些事？
+answer: 連接未知的 USB 隨身碟
+wrong_answers:
+  - 使用 NTFS 格式的 USB 隨身碟
+  - 加密您自己的 USB 隨身碟
+  - 使用新的 USB 隨身碟
+explanation: |
+  插入不明 USB 隨身碟可能會使電腦感染惡意軟體或竊取敏感資料。
+reviewed: false

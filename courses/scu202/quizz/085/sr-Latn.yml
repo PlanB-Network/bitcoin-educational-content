@@ -1,0 +1,9 @@
+question: Koja open source aplikacija se preporučuje za skeniranje prehrambenih proizvoda sa kolaborativnom bazom podataka?
+answer: OpenFoodFacts
+wrong_answers:
+  - Juka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts je besplatan, zajednički projekat, transparentan u pogledu svojih podataka, dok je Yuka zasnovana na neprozirnom, zatvorenom modelu.
+reviewed: false

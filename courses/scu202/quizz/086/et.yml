@@ -1,0 +1,9 @@
+question: Milline avatud lähtekoodiga tõlkerakendus töötab erinevate mootoritega ja ei kogu teie tõlgitud tekste?
+answer: TranslateYou
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou tegutseb Interface-na mitmete mootorite jaoks, ilma et ta jälgiks või koguks isikuandmeid, erinevalt patenteeritud teenustest.
+reviewed: false

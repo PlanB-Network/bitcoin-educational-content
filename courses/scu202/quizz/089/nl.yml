@@ -1,0 +1,9 @@
+question: Welke kaartendienst is volledig offline te gebruiken en bevat geen advertentietracking?
+answer: Organische kaarten
+wrong_answers:
+  - Google-kaarten
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps is een open source applicatie gebaseerd op OpenStreetMap die offline werkt, zonder trackers of gegevensverzameling, in tegenstelling tot propriëtaire alternatieven.
+reviewed: false

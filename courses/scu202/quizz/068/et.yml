@@ -1,0 +1,9 @@
+question: Milline suur turvaviga paneb andmete lekke doominoefekti?
+answer: Sama parooli korduvkasutamine mitmel saidil
+wrong_answers:
+  - Avaliku VPN-i kasutamine
+  - Kustuta liiga sageli sirvimisajalugu
+  - Navigeerimine tekstirežiimis
+explanation: |
+  Parooli korduvkasutamine erinevatel saitidel võimaldab ründajal teenuse rikkumise korral pääseda teiste kontode juurde sama parooliga.
+reviewed: false

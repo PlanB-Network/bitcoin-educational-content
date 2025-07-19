@@ -1,0 +1,9 @@
+question: 驗證下載軟體的完整性需要什麼文件，通常稱為 SHA256SUMS 或 MANIFEST？
+answer: 列出軟體足跡的檔案
+wrong_answers:
+  - 使用手冊
+  - 列出開發人員簽名的檔案
+  - 完整的專案原始碼
+explanation: |
+  清單或 SHA256SUMS 檔案包含專案散佈的每個檔案的 Hash，並可驗證其完整性。
+reviewed: false

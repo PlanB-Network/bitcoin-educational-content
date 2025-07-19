@@ -1,0 +1,9 @@
+question: Vad behöver du ofta göra efter att du har installerat en kritisk OS-uppdatering för att tillämpa korrigeringarna fullt ut?
+answer: Starta om datorn
+wrong_answers:
+  - Återställ lösenord
+  - Koppla bort Wi-Fi-nätverket
+  - Ta bort temporära filer
+explanation: |
+  Vissa uppdateringar av operativsystemet, t.ex. för kärnan eller kritiska bibliotek, träder i kraft först efter en omstart av maskinen.
+reviewed: false

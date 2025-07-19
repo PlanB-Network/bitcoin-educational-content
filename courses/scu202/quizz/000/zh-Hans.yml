@@ -1,0 +1,9 @@
+question: 建议使用哪种软件进行透明下载？
+answer: 免费软件
+wrong_answers:
+  - 专利软件
+  - 测试版软件
+  - 集成广告的软件
+explanation: |
+  建议使用开放源码软件，因为其代码可由社区审核，从而提高安全性和透明度。
+reviewed: false

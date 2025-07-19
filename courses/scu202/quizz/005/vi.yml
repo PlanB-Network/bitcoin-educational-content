@@ -1,0 +1,9 @@
+question: Hệ điều hành nào đang thống trị thị trường PC hiện nay?
+answer: Cửa sổ
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Hệ điều hành Chrome
+explanation: |
+  Windows chiếm 71% thị phần máy tính cá nhân nhờ vào cài đặt mặc định và hệ sinh thái phần mềm rộng lớn.
+reviewed: false

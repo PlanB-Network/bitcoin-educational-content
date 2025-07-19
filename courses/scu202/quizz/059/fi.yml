@@ -1,0 +1,9 @@
+question: Kuka keksi World Wide Webin ja kehitti ensimmäisen verkkoselaimen?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee on World Wide Webin keksijä, ja hän kehitti ensimmäisen selaimen, WorldWideWebin (nykyinen Nexus), vuonna 1990.
+reviewed: false

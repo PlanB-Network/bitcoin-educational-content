@@ -1,0 +1,9 @@
+question: Vilket operativsystem dominerar dagens PC-marknad?
+answer: Fönster
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows har en marknadsandel på 71% på persondatorer, tack vare standardinstallationen och det omfattande ekosystemet för programvara.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni tukio gani lililolazimisha Google kuelekeza upya Android kuelekea Interface inayoweza kuguswa?
+answer: Kutolewa kwa iPhone ya kwanza
+wrong_answers:
+  - Microsoft kuchukua Nokia
+  - Uundaji wa CyanogenMod
+  - Uzinduzi wa Play Store
+explanation: |
+  Kuwasili kwa iPhone mwaka wa 2007 kulilazimisha Google kufikiria upya Android ili kuifanya iendane na skrini ya kugusa, na kuachana na wazo la kifaa kilicho na kibodi halisi.
+reviewed: false

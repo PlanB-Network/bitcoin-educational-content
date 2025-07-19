@@ -1,0 +1,9 @@
+question: Welk platform verwijdert automatisch metadata wanneer een foto wordt geüpload?
+answer: Signaal
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Uw blog
+explanation: |
+  Signal schoont (net als Session en andere beveiligde berichtendiensten) de metadata van gedeelde afbeeldingen op om de privacy van gebruikers te beschermen.
+reviewed: false

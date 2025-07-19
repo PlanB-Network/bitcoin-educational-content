@@ -1,0 +1,9 @@
+question: Mikä väite kuvaa parhaiten yksityistä selaustilaa?
+answer: Se rajoittaa paikallisten jälkien tallentamista
+wrong_answers:
+  - Se tekee Internetissä surffaamisesta anonyymiä
+  - Estää kaikki haitalliset jäljittäjät ja skriptit
+  - Se poistaa aktiiviset laajennukset
+explanation: |
+  Yksityinen tila yksinkertaisesti estää historian ja evästeiden paikallisen kirjaamisen, mutta ei takaa anonymiteettiä Internetissä.
+reviewed: false

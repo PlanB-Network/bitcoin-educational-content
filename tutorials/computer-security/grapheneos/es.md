@@ -41,7 +41,7 @@ Si adoptas este enfoque, sé estricto contigo mismo y corta tu dependencia de la
 
 **En lugar de pagar con tus datos personales, elegiste pagar con tu tiempo y, a veces, con tu dinero ganado con esfuerzo (dependiendo de las aplicaciones alternativas que instales).**
 
-## Empezando
+## Comenzando
 
 Actualmente, GrapheneOS solo está disponible para la gama de teléfonos [Google Pixel](https://grapheneos.org/faq#supported-devices) (lo cual es irónico). Sin embargo, esto es por una buena razón. Los Pixel ofrecen la mejor seguridad basada en hardware para complementar el trabajo realizado para fortalecer el sistema operativo. Esto incluye cosas como aislamientos de componentes específicos y arranque verificado.
 

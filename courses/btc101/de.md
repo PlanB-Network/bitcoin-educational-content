@@ -253,12 +253,14 @@ Tatsächlich präsentiert sich Bitcoin als Antwort auf diese systemischen Heraus
 
 ![image](assets/en/16.webp)
 
-Ein weiterer Grund, warum Bitcoin Aufmerksamkeit erregt hat, ist das Aufkommen digitaler Zentralbankwährungen (CBDC), das unvermeidlich scheint. Diese neue Form des Geldes würde zu einer stärker zentral geplanten Wirtschaft führen und könnte sowohl die finanzielle Freiheit des Einzelnen einschränken als auch autoritäre Missbräuche erleichtern.
+Ein weiterer Grund, warum Bitcoin Aufmerksamkeit erregt hat, ist das Aufkommen digitaler Zentralbankwährungen (CBDC), welches unvermeidlich scheint. Diese neue Form des Geldes würde zu einer stärker zentral geplanten Wirtschaft führen und könnte sowohl die finanzielle Freiheit des Einzelnen einschränken als auch autoritäre Missbräuche erleichtern.
 
 Wir können dieses Kapitel mit einem Zitat des Nobelpreisträgers F. A. Hayek aus dem Jahr 1984 abschließen:
 
-> "Ich glaube nicht, dass wir jemals wieder ein gutes Geld haben sollten, bevor wir es nicht der Regierung aus den Händen nehmen. Wenn wir es der Regierung nicht gewaltsam aus den Händen nehmen können, können wir nur auf schlaue oder umständliche Weise etwas einführen, das sie nicht aufhalten kann."
-> Um mehr über wirtschaftliche Irrtümer und Freiheit zu erfahren, laden wir Sie ein, unseren Kurs ECO 102 zu besuchen, der das Leben und die Ideen von Frédéric Bastiat nachzeichnet, einem französischen Denker aus dem 19:
+> "Ich glaube nicht, dass wir je wieder gutes Geld haben, bis wir das Geld den Staaten wegnehmen. Aber wir können das nicht mit Gewalt tun. Alles was wir tun können, ist heimlich und über Umwege etwas einzuführen, das sie nicht stoppen können."
+
+> Um mehr über wirtschaftliche Irrtümer und Freiheit zu erfahren, laden wir dich ein, unseren Kurs ECO 102 zu besuchen, der das Leben und die Ideen von Frédéric Bastiat, einem französischen Denker aus dem 19. Jahrhundert, nachzeichnet:
+
 
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
@@ -278,7 +280,7 @@ Um die Auswirkungen der Inflation auf das Sparen zu verstehen, müssen wir unter
 
 Wenn es zu einer Hyperinflation kommt, sprechen wir nicht mehr von 20 % pro Jahr, sondern von 20 % pro Monat oder, in der Spitze, sogar pro Tag. Eine Inflation von 100 % pro Tag über drei Tage hinweg ist ein realistisches Szenario, das in unserer Welt bereits eingetreten ist und weiterhin eintritt.
 
-Es ist von entscheidender Bedeutung zu verstehen, dass eine Hyperinflation nicht durch Zufall, durch den Kapitalismus oder durch politische Angriffe der Gegner entsteht. Hyperinflation ist die direkte Folge schlechter geldpolitischer Entscheidungen von Zentralbankern und Politikern. Ihre Nachwirkungen betreffen jeden Bürger und wirken sich sogar auf die nächsten Generationen aus. Wir laden Sie ein, sich fünf Minuten Zeit zu nehmen, um die folgende Tabelle zu lesen und sich die tatsächlichen Auswirkungen dieses Phänomens vor Augen zu führen (der ECO204-Kurs befasst sich eingehender mit diesem Thema). Wie Sie sehen können, ist kein Land und keine Währung potenziell sicher.
+Es ist von entscheidender Bedeutung zu verstehen, dass eine Hyperinflation nicht durch Zufall, durch den Kapitalismus oder durch politische Angriffe der Gegner entsteht. Hyperinflation ist die direkte Folge schlechter geldpolitischer Entscheidungen von Zentralbankern und Politikern. Ihre Nachwirkungen betreffen jeden Bürger und wirken sich sogar auf die nächsten Generationen aus. Wir laden dich ein, dir fünf Minuten Zeit zu nehmen, um die folgende Tabelle zu lesen und sich die tatsächlichen Auswirkungen dieses Phänomens vor Augen zu führen (der ECO204-Kurs befasst sich eingehender mit diesem Thema). Wie Sie sehen können, ist kein Land und keine Währung potenziell sicher.
 
 ![image](assets/en/17.webp)
 
@@ -312,13 +314,13 @@ Die Bewältigung einer Hyperinflationskrise erfordert oft radikale Veränderunge
 
 - Deutschland, 1922-1923.
 
-Eines der markantesten Beispiele für eine Hyperinflation war die deutsche Weimarer Republik nach dem Ersten Weltkrieg.
+Eines der markantesten Beispiele für eine Hyperinflation war die Deutsche Weimarer Republik nach dem Ersten Weltkrieg.
 
-Deutschland hatte sich enorme Summen geliehen, um den Krieg zu finanzieren. Doch Deutschland verlor es nicht nur, sondern musste auch Milliarden von Dollar an Reparationen zahlen. Der Monat mit der höchsten Inflationsrate war der Oktober 1923 mit einem Höchststand von 29.500 %, was einer Inflationsrate von 20,9 % pro Tag entsprach. Die Preise verdoppelten sich alle 3,7 Tage!
+Deutschland hatte sich enorme Summen geliehen, um den Krieg zu finanzieren. Doch Deutschland verlor nicht nur den Krieg, sondern musste auch Milliarden von Dollar an Reparationen zahlen. Der Monat mit der höchsten Inflationsrate war der Oktober 1923 mit einem Höchststand von 29.500 %, was einer Inflationsrate von 20,9 % pro Tag entsprach. Die Preise verdoppelten sich alle 3,7 Tage!
 
 Die deutsche Währung war so unbrauchbar geworden, dass einige Bürger es vorzogen, ihr Papiergeld statt Holz zu verbrennen, weil das tatsächlich billiger war. Es wird sogar erzählt, dass die Kellner in Restaurants alle 30 Minuten die Preise der Speisekarte ansagen mussten, um der Inflation Rechnung zu tragen.
 
-Schließlich schufen die Behörden eine neue Währung, die durch die Schulden Deutschlands, Frankreichs und Englands gedeckt und durch deutschen Boden garantiert war.
+Schließlich schufen die Behörden eine neue Währung, die durch die Schulden Deutschlands, Frankreichs und Englands gedeckt und durch deutschen Boden abgesichert war.
 
 ![image](assets/en/20.webp)
 
@@ -338,17 +340,15 @@ Bis zum Jahr 2000 war Simbabwe mit Ausnahme von Öl in fast allen Bereichen auta
 
 1997 brach der simbabwische Dollar um mehr als 72 % ein, nachdem sich die Regierung bereit erklärt hatte, Kriegsveteranen mit dem Gegenwert von 450 Millionen US-Dollar zu entschädigen. Da die Regierung nicht über einen solchen Betrag verfügte, griff sie zur Druckerpresse. Im Jahr 2005 erreichte die Inflation 586 %, doch der Höhepunkt wurde Mitte November 2008 mit einer Rate von schätzungsweise 79.600.000.000 % pro Monat erreicht.
 
-Im Juni 2007 hatte die Regierung bereits mit der Einführung von Preiskontrollen reagiert, aber diese Maßnahme hatte keinen Einfluss auf die Wirtschaft. Die Läden wurden buchstäblich "geplündert", und die Händler hatten nicht mehr die Mittel, ihre Geschäfte wieder aufzufüllen.
+Im Juni 2007 hatte die Regierung bereits mit der Einführung von Preiskontrollen reagiert, aber diese Maßnahme hatte keinen Einfluss auf die Wirtschaft. Die Läden wurden buchstäblich geplündert, und die Händler hatten nicht mehr die Mittel, ihre Geschäfte wieder aufzufüllen.
 
-Im April 2009 verkündete der Finanzminister die Aussetzung des simbabwischen Dollars und genehmigte die Verwendung anderer Fremdwährungen für den Handel. Die Guthaben aller Bankkonten, Renten und Finanzinstitute wurden über Nacht eingefroren.
+Im April 2009 verkündete der Finanzminister die Aussetzung des simbabwischen Dollars und genehmigte die Verwendung anderer Fremdwährungen für den Handel. Die Guthaben aller Bankkonten, Renten und Finanzinstitute wurden über Nacht aufgelöst.
 
 ![image](assets/en/15.webp)
 
-Zusammenfassend lässt sich sagen, dass eine Hyperinflation eine rasche Wertminderung der Währung zur Folge hat, was zu einer Erosion der Ersparnisse und einem Vertrauensverlust in das Geldsystem führt. Wie Voltaire einst sagte, wird eine Fiat-Währung immer irgendwann ihren inneren Wert verlieren und gegen Null konvergieren.
+Zusammenfassend lässt sich sagen, dass eine Hyperinflation eine rasche Wertminderung der Währung zur Folge hat, was zu einer Erosion der Ersparnisse und einem Vertrauensverlust in das Geldsystem führt. Wie Voltaire einst sagte, wird eine Fiat-Währung immer irgendwann ihren inneren Wert verlieren und gegen Null konvergieren. Eine Währung, die sich auf eine vertrauenswürdige dritte Partei wie ein Finanzinstitut stützt, ist in der Praxis und auf lange Sicht fehlerhaft, da sie nicht in der Lage ist, die Kaufkraft zu garantieren oder Ersparnisse zu erhalten.
 
-Eine Währung, die sich auf eine vertrauenswürdige dritte Partei wie ein Finanzinstitut stützt, ist in der Praxis und auf lange Sicht fehlerhaft, da sie nicht in der Lage ist, die Kaufkraft zu garantieren oder Ersparnisse zu erhalten.
-
-Zur Vertiefung des Themas Hyperinflation empfehlen wir Ihnen den Kurs ECO 204 von David St-Onge, in dem Sie lernen, was Hyperinflationszyklen sind und welche Auswirkungen sie tatsächlich auf unser Leben haben. Sie werden auch die Gemeinsamkeiten zwischen diesen Zyklen entdecken und vor allem erfahren, wie Sie sich vor ihnen schützen können.
+Zur Vertiefung des Themas Hyperinflation empfehlen wir dir den Kurs ECO 204 von David St-Onge, in dem du lernst, was Hyperinflationszyklen sind und welche Auswirkungen sie tatsächlich auf unser Leben haben. Du wirst auch die Gemeinsamkeiten zwischen diesen Zyklen entdecken und vor allem erfahren, wie du dich vor ihnen schützen kannst.
 
 https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
@@ -358,19 +358,19 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ### Die Geldpolitik von Bitcoin
 
-Bitcoin ist eine dezentralisierte digitale Währung mit einer vordefinierten Höchstmenge von **21 Millionen Einheiten**. Diese immanente Eigenschaft der Knappheit wird durch den Computercode bestimmt und durch den Konsens aller am Protokoll teilnehmenden Nutzer verstärkt.
+Bitcoin ist eine dezentralisierte digitale Währung mit einer vordefinierten Höchstmenge von **21 Millionen Einheiten**. Diese intrinsische Eigenschaft der Knappheit wird durch den Computercode bestimmt und durch den Konsens aller am Protokoll teilnehmenden Nutzer verstärkt.
 
 ![image](assets/en/22.webp)
 
-Die Geldausgabe kann durch eine Kurve veranschaulicht werden, die die Menge der im Laufe der Zeit geschaffenen Bitcoins darstellt. So waren beispielsweise im Jahr 2022 etwa 18,5 Millionen Bitcoins im Umlauf. Prognosen zufolge wird es im Jahr 2025 etwa 19,5 Millionen Bitcoins geben, was etwa 93 % des Gesamtangebots entspricht, und im Jahr 2037 wird diese Zahl 20,4 Millionen erreichen.
+Die Geldausgabe kann durch eine Kurve veranschaulicht werden, die die Menge der im Laufe der Zeit geschaffenen Bitcoins darstellt. So waren beispielsweise im Jahr 2022 etwa 18,5 Millionen Bitcoins im Umlauf. Hochrechnungen ergeben, dass es im Jahr 2025 etwa 19,5 Millionen Bitcoins geben wird, was etwa 93 % des Gesamtangebots entspricht, und im Jahr 2037 wird diese Zahl 20,4 Millionen erreichen.
 
 ### Wie werden neue Bitcoins erzeugt?
 
-Die Schaffung neuer Bitcoins ist das Ergebnis des Mining-Prozesses. Kurz gesagt, verwenden Miner leistungsstarke Computer, die komplexe mathematische Probleme lösen, die Transaktionen validieren und sichern. Sobald ein Problem gelöst ist, fügt der Miner einen neuen Transaktionsblock zur Blockchain hinzu, einem dezentralen und verteilten Hauptbuch, das alle im Netzwerk getätigten Transaktionen aufzeichnet. Die Blockchain gewährleistet Transparenz und Sicherheit, da jeder Block mit dem vorhergehenden verknüpft ist, was es nahezu unmöglich macht, frühere Daten ohne Zustimmung des Netzwerks zu ändern.
+Die Schaffung neuer Bitcoins ist das Ergebnis des Mining-Prozesses. Kurz gesagt, verwenden Miner leistungsstarke Computer, die komplexe mathematische Probleme lösen (hash), die Transaktionen validieren und sichern. Sobald ein Problem gelöst ist (ein gültiger Hash ist gefunden), fügt der Miner einen neuen Block mit Transaktionen zur Blockchain hinzu, einem dezentralen und verteilten Hauptbuch, das alle im Netzwerk getätigten Transaktionen aufzeichnet. Die Blockchain gewährleistet Transparenz und Sicherheit, da jeder Block mit dem vorhergehenden verknüpft ist, was es nahezu unmöglich macht, frühere Daten ohne Zustimmung des Netzwerks zu ändern.
 
 ![image](assets/en/23.webp)
 
-Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "Halbierung" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
+Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "halving" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
 
 | Halbierungsnummer | Blockhöhe | BTC-Belohnung nach Halbierung | Geschätzte BTC im Umlauf nach Halbierung |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -395,7 +395,7 @@ Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minut
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Wir werden das Konzept des Bergbaus im Kapitel [Bergarbeiter] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf) näher erläutern.
+Wir werden das Konzept des Minings im [Mining Kapitel](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf) näher erläutern.
 
 ### Gewährleistung der digitalen Knappheit
 
@@ -403,11 +403,13 @@ Die Grenze von 21 Millionen ist die Grundlage der Bitcoin-Knappheit und wird dur
 
 - Die Anpassung der Mining-Schwierigkeit ist ein Prozess, der alle 2016 Blöcke oder etwa zwei Wochen stattfindet, um sicherzustellen, dass im Durchschnitt alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird. Diese Häufigkeit der Blockerstellung und die Gesamtmenge der Bitcoins sind beides feste Bestandteile des Bitcoin-Protokolls und können im Gegensatz zu den willkürlichen Entscheidungen, die in traditionellen Geldsystemen getroffen werden, nicht ohne allgemeinen Konsens geändert werden.
 
-Die Schwierigkeit, einen gültigen Hash zu finden, folgt einer Art Zyklus: Wenn die Anzahl der Miner steigt, bedeutet dies, dass die Anzahl der Blöcke, die sie finden, höher ist, was zu einer Verringerung der durchschnittlichen Zeit zum Finden eines Blocks führt. Dadurch erhöht sich die Schwierigkeit. Infolgedessen sinkt die Anzahl der Blöcke, die die Miner finden, was bedeutet, dass der Mechanismus auf den Durchschnitt von 10 Minuten pro Block zurückgeht. Eine visuelle Darstellung finden Sie in der Abbildung unten.
+Die Schwierigkeit, einen gültigen Hash zu finden, folgt einer Art Zyklus: Wenn die Anzahl der Miner steigt, bedeutet dies, dass die Anzahl der Blöcke, die sie finden, höher ist, was zu einer Verringerung der durchschnittlichen Zeit zum Finden eines Blocks führt. Dadurch erhöht sich die Schwierigkeit. Infolgedessen sinkt die Anzahl der Blöcke, die die Miner finden, was bedeutet, dass der Mechanismus auf den Durchschnitt von 10 Minuten pro Block zurückgeht. Eine visuelle Darstellung findest du in der Abbildung unten.
 
 ![image](assets/en/24.webp)
 
-Wussten Sie, dass Miner einen Anreiz haben, einen Block zu minen, um neue Bitcoins durch die Blocksubvention zu verdienen, sowie durch Transaktionsgebühren aus den Transaktionen, die sie in diesen Block aufnehmen?
+Wenn im Gegenzug weniger Miner arbeiten und neue Blöcke länger brauchen, wird die Schwierigkeit reduziert und die durchschnittliche Blockzeit sinkt wieder.
+
+Wusstest du, dass Miner einen Anreiz haben, einen Block zu minen, um neue Bitcoins durch die Blocksubvention zu verdienen, sowie durch Transaktionsgebühren aus den Transaktionen, die sie in diesen Block aufnehmen?
 
 Wenn sich also die Zahl der ausgegebenen Bitcoins der 21-Millionen-Grenze nähert, werden die Miner mehr über ihre Transaktionsgebühren als über die Blocksubvention entlohnt.
 

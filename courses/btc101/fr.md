@@ -1094,15 +1094,15 @@ Aujourd'hui, le bitcoin continue de survivre et de se développer en s'intégran
 
 ### Une économie parallèle se développe
 
-Le bitcoin peut être considéré comme l'outil permettant de créer une économie parallèle aux monnaies fiduciaires, car il est possible de vendre des biens ou des services et d'être payé en bitcoins. Les transactions peuvent être effectuées directement en bitcoins, sans passer par une plateforme d'échange, mais simplement en allant d'un portefeuille bitcoin à un autre.
+Le bitcoin peut être considéré comme l'outil permettant de créer une économie parallèle aux monnaies fiduciaires, car il est possible de vendre des biens ou des services et d'être payé en bitcoins. Les transactions peuvent être effectuées directement en bitcoins, sans passer par une plateforme d'échange, mais simplement en allant d'un portefeuille Bitcoin à un autre.
 
-L'économie du Bitcoin existe et se développe dans certaines régions du monde, comme au Salvador, où le Bitcoin est devenu une monnaie légale en 2021. Malheureusement, en janvier 2025, l'assemblée a adopté une nouvelle loi qui a retiré au Bitcoin son titre de "monnaie légale", prétendument après avoir subi des pressions du Fonds monétaire international. Selon la nouvelle loi, les gens ne sont plus obligés d'accepter le Bitcoin dans leurs entreprises et ne peuvent plus payer leurs impôts avec. L'acceptation reste volontaire.
+L'économie du Bitcoin existe et se développe dans certaines régions du monde, comme au Salvador, où le bitcoin est devenu une monnaie légale en 2021. Malheureusement, en janvier 2025, l'assemblée a adopté une nouvelle loi qui a retiré au bitcoin son titre de "monnaie légale", prétendument après avoir subi des pressions du Fonds monétaire international. Selon la nouvelle loi, les gens ne sont plus obligés d'accepter le bitcoin dans leurs entreprises et ne peuvent plus payer leurs impôts avec. L'acceptation reste volontaire.
 
-Néanmoins, au Salvador et dans d'autres parties du monde, de plus en plus d'individus, d'entreprises et d'organisations acceptent le Bitcoin comme moyen de paiement pour leurs produits ou services.
+Néanmoins, au Salvador et dans d'autres parties du monde, de plus en plus d'individus, d'entreprises et d'organisations acceptent le bitcoin comme moyen de paiement pour leurs produits ou services.
 
 ![image](assets/en/72.webp)
 
-Par ailleurs, un projet open-source et collaboratif a été lancé, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), pour faciliter l'utilisation de Bitcoin dans les transactions quotidiennes. Cette plateforme recense tous les commerçants qui acceptent le bitcoin, ainsi que les différentes communautés bitcoin à travers le monde, vous pouvez donc visiter leur site pour découvrir l'écosystème bitcoin autour de vous. Ainsi, malgré les difficultés et les hésitations, il existe des initiatives comme BTCMap qui contribuent à rendre l'économie bitcoin plus accessible et plus pratique pour tous.
+Par ailleurs, un projet open-source et collaboratif a été lancé, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), pour faciliter l'utilisation de Bitcoin dans les transactions quotidiennes. Cette plateforme recense tous les commerçants qui acceptent le bitcoin, ainsi que les différentes communautés Bitcoin à travers le monde, vous pouvez donc visiter leur site pour découvrir l'écosystème Bitcoin autour de vous. Ainsi, malgré les difficultés et les hésitations, il existe des initiatives comme BTCMap qui contribuent à rendre l'économie Bitcoin plus accessible et plus pratique pour tous.
 
 ### Pourquoi devrions-nous accepter le bitcoin au lieu de l'acheter ?
 
@@ -1147,11 +1147,11 @@ Le bitcoin est devenu un actif financier majeur, principalement en raison de son
 - Les performances passées ne sont pas un indicateur fiable des performances futures.
 - Contactez votre conseiller financier si nécessaire.
 
-**Le Réseau Plan ₿ ne fournit pas de conseils en matière d'investissement et rien de ce qui est dit ici ne doit être considéré comme tel**
+**Le Réseau Plan ₿ ne fournit pas de conseils en matière d'investissement et rien de ce qui est dit ici ne doit être considéré comme tel.**
 
 ### Mini liste de contrôle avant de franchir le pas
 
-Avant de vous lancer dans l'achat de bitcoins, assurez-vous d'avoir.. :
+Avant de vous lancer dans l'achat de bitcoins, assurez-vous d'avoir :
 
 - Un portefeuille sécurisé.
 - Une bonne compréhension de Bitcoin.
@@ -1181,7 +1181,7 @@ Un [UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent T
 
 L'achat spontané, qui permet de se familiariser immédiatement avec le bitcoin, peut être une solution "tout-en-un". Qu'il s'agisse d'acheter pendant un krach ou de profiter d'un bonus, la décision vous appartient. Il vous faudra prendre votre courage à deux mains et appuyer sur le bouton d'achat.
 
-Dans ce cas, vous devez être prudent et contrôler vos émotions, car le prix du bitcoin peut être très volatile. En fait, le FOMO (Fear of Missing Out) et le FUD (Fear, Uncertainty, Doubt) sont vos pires ennemis ! N'oubliez pas de rester calme et de suivre la stratégie que vous avez établie à l'avance, afin d'éviter toute prise de décision impulsive et potentiellement dangereuse.
+Dans ce cas, vous devez être prudent et contrôler vos émotions, car le prix du bitcoin peut être très volatile. En fait, le FOMO (Fear of Missing Out) et le FUD (Fear Uncertainty Doubt) sont vos pires ennemis ! N'oubliez pas de rester calme et de suivre la stratégie que vous avez établie à l'avance, afin d'éviter toute prise de décision impulsive et potentiellement dangereuse.
 
 ### À qui devons-nous acheter nos bitcoins ?
 
@@ -1199,7 +1199,7 @@ Pour les investissements à grande échelle, les plateformes réglementées et r
 
 Leur utilisation est simple et accessible à tous :
 
-1. Ouvrir un compte KYC/\*
+1. Ouvrir un compte KYC
 
 2. Virement de fonds sur votre compte
 
@@ -1211,7 +1211,7 @@ Leur utilisation est simple et accessible à tous :
 
 Après l'achat, il est conseillé de retirer immédiatement les bitcoins des plateformes d'échange afin de minimiser les risques de piratage et de blocage des fonds. Attention, les frais de retrait peuvent être élevés, parfois jusqu'à 25 euros selon les plateformes.
 
-**La réglementation relative à la connaissance du client (KYC) exige des utilisateurs qu'ils s'identifient afin de lutter contre le financement du terrorisme, l'évasion fiscale et le blanchiment d'argent**
+**La réglementation relative à la connaissance du client (KYC) exige des utilisateurs qu'ils s'identifient afin de lutter contre le financement du terrorisme, l'évasion fiscale et le blanchiment d'argent.**
 
 Il est essentiel de reconnaître que le KYC est un sujet de discussion important dans l'industrie du Bitcoin. Alors que de nombreuses personnes débattent de son efficacité, il y a de nombreuses préoccupations qui y sont associées. Dans de nombreux programmes de formation et contenus de notre académie, nous conseillons aux utilisateurs avancés d'éviter les plateformes qui exigent un KYC, car il existe souvent des alternatives plus respectueuses de la vie privée.
 
@@ -1224,8 +1224,8 @@ En outre, il existe plusieurs [places de marché](https://planb.network/tutorial
 - DAB Bitcoin
 - Rencontres physiques avec d'autres passionnés de bitcoins
 - Plateformes illégales et non réglementées
-- Solutions de mise en relation peer-to-peer
-- Les néobanques opérant dans des pays favorables au bitcoin.
+- Solutions de mise en relation pair à pair
+- Les néobanques opérant dans des pays favorables au bitcoin
 
 ![image](assets/en/76.webp)
 
@@ -1247,11 +1247,11 @@ L'essor du Bitcoin oblige les entreprises, les universités, les régulateurs et
 
 ### Le bitcoin est une valeur de 0 à 1
 
-Au final, nous vous invitons à réfléchir à cette nouvelle révolution monétaire. Il y a tellement de choses à explorer avec le bitcoin qu'il est compliqué de tout assimiler en même temps. Prenez votre temps, le bitcoin ne va pas disparaître. Au contraire, la révolution ne fait que commencer. Nous croyons que nous sommes capables de créer le monde que nous voulons confier à nos enfants : un monde où la souveraineté humaine est un droit, où la vie privée est respectée par défaut, et où l'argent n'est pas manipulé. Nous espérons qu'ensemble, nous y parviendrons.
+Au final, nous vous invitons à réfléchir à cette nouvelle révolution monétaire. Il y a tellement de choses à explorer avec le Bitcoin qu'il est compliqué de tout assimiler en même temps. Prenez votre temps, le Bitcoin ne va pas disparaître. Au contraire, la révolution ne fait que commencer. Nous croyons que nous sommes capables de créer le monde que nous voulons confier à nos enfants : un monde où la souveraineté humaine est un droit, où la vie privée est respectée par défaut, et où l'argent n'est pas manipulé. Nous espérons qu'ensemble, nous y parviendrons.
 
 ![image](assets/en/77.webp)
 
-Si vous souhaitez approfondir vos connaissances sur Bitcoin, c'est le bon moment : un grand nombre d'auteurs, de penseurs et d'essayistes ont créé des contenus pédagogiques sur Bitcoin. Depuis quelques années, nous répertorions et classons ces travaux afin d'offrir une [bibliothèque de ressources] (https://planb.network/resources) aux plus curieux d'entre vous. Dans cette section, vous trouverez les meilleurs podcasts, sites web, articles, tutoriels, livres et autres contenus.
+Si vous souhaitez approfondir vos connaissances sur Bitcoin, c'est le bon moment : un grand nombre d'auteurs, de penseurs et d'essayistes ont créé des contenus pédagogiques sur Bitcoin. Depuis quelques années, nous répertorions et classons ces travaux afin d'offrir une [bibliothèque de ressources](https://planb.network/resources) aux plus curieux d'entre vous. Dans cette section, vous trouverez les meilleurs podcasts, sites web, articles, tutoriels, livres et autres contenus.
 
 > "Je pense qu'Internet sera l'un des principaux facteurs de réduction du rôle de l'État. La seule chose qui manque, mais qui sera bientôt développée, c'est une monnaie électronique fiable - une méthode par laquelle, sur Internet, vous pouvez transférer des fonds de A à B sans que A ne connaisse B ou que B ne connaisse A." - Prédiction de Milton Friedman en 1999
 
@@ -1273,13 +1273,13 @@ Si vous souhaitez en savoir plus, nous vous invitons à consulter notre cours LN
 
 Le Lightning Network est une technologie révolutionnaire qui a profondément changé notre perception de Bitcoin, car il résout le problème de l'évolutivité de Bitcoin.
 
-Pour bien comprendre le Lightning Network, il est essentiel de comprendre comment le bitcoin évolue et se développe en couches d'infrastructure : la première couche est la blockchain, et la seconde est le Lightning Network.
+Pour bien comprendre le Lightning Network, il est essentiel de comprendre comment le Bitcoin évolue et se développe en couches d'infrastructure : la première couche est la blockchain, et la seconde est le Lightning Network.
 
 ![image](assets/en/78.webp)
 
 ### Une blockchain ne peut pas se développer indéfiniment
 
-Le Lightning Network a été validé et mis en œuvre en 2017 pour résoudre le problème d'évolutivité du bitcoin, car il permet des transactions bitcoin instantanées et peu coûteuses.
+Le Lightning Network a été validé et mis en œuvre en 2017 pour résoudre le problème d'évolutivité du Bitcoin, car il permet des transactions bitcoin instantanées et peu coûteuses.
 
 Le problème de l'évolutivité fait référence au défi que représente la mise en œuvre d'un système monétaire capable de fournir un nombre toujours croissant de transactions par seconde pour faire face à l'augmentation de l'adoption. Ce problème est lié au trilemme de la blockchain. Imaginez un triangle dont les sommets sont la décentralisation, la sécurité et l'évolutivité.
 
@@ -1287,7 +1287,7 @@ Le problème de l'évolutivité fait référence au défi que représente la mis
 
 Selon elle, un protocole basé sur une blockchain ne peut satisfaire que deux de ces trois caractéristiques. Au sein du protocole Bitcoin, les développeurs ont fait des choix pour favoriser la décentralisation et la sécurité. D'une part, la taille des blocs de 1MB et le temps entre deux blocs (en moyenne 10 minutes) permettent de faire fonctionner un nœud Bitcoin à moindre coût, ce qui favorise la décentralisation. D'autre part, la production de blocs par preuve de travail rend la fraude au sein du protocole extrêmement coûteuse, tout en facilitant la vérification par les nœuds du réseau et en favorisant la sécurité. Cependant, ces choix imposent une limite au nombre moyen de transactions dans un bloc, correspondant approximativement à quelques transactions par seconde. Ce nombre est ridicule par rapport à la capacité de calcul de processeurs de paiement comme VISA (1700/s), mais cette limite est nécessaire pour effectuer des transactions avec Bitcoin sans censure et sans confiance. Néanmoins, les développeurs de Bitcoin ont réfléchi à ce problème depuis le début.
 
-### La foudre en couche supérieure
+### Le Lightning en couche supérieure
 
 Après des années de réflexion et de multiples tentatives, le protocole Lightning a vu le jour. À partir d'un certain nombre de spécifications, ce protocole construit un réseau de paiement de pair à pair en s'appuyant sur la sécurité et la programmabilité du protocole de transaction de Bitcoin. Le Lightning Network agit comme un réseau de canaux de paiement, permettant des transactions instantanées avec de faibles frais pour l'expéditeur, et il crée même des routes d'échange entre des individus qui n'ont pas de connexion directe à un canal.
 
@@ -1313,11 +1313,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Comme nous venons de le voir, le protocole Bitcoin, bien que révolutionnaire, est confronté à des défis importants en termes d'évolutivité nécessaire pour traiter toutes nos transactions quotidiennes. Pour résoudre ces problèmes, le Lightning Network a été proposé et s'est depuis développé en plusieurs implémentations différentes, toutes interopérables :
 
-- L'éclairage par le cœur par Blockstream
+- Core-lightning par Blockstream
 - Eclair par Acinq
-- LND par la foudre
+- LND par Lightning strike
 
-Ce réseau peer-to-peer vise à faciliter les micro-transactions (de très faible valeur) qui seraient autrement irréalisables en raison des frais élevés et des longs délais de confirmation sur la blockchain Bitcoin.
+Ce réseau pair à pair vise à faciliter les micro-transactions (de très faible valeur) qui seraient autrement irréalisables en raison des frais élevés et des longs délais de confirmation sur la blockchain Bitcoin.
 
 ### Quels sont les cas d'utilisation du réseau ?
 
@@ -1337,7 +1337,7 @@ Un autre exemple pourrait être le "money streaming" : grâce au Lightning Netwo
 
 ![image](assets/en/85.webp)
 
-En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation passionnants pour les utilisateurs de Bitcoin. Les modèles économiques et les opportunités commerciales qui en découlent sont nombreux et variés, et nous vous encourageons à le vérifier par vous-même en essayant l'application de podcast [Fountain] (https://www.fountain.fm/), qui vous permet d'être récompensé par quelques sats pour l'écoute de vos podcasts préférés !
+En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation passionnants pour les utilisateurs de Bitcoin. Les modèles économiques et les opportunités commerciales qui en découlent sont nombreux et variés, et nous vous encourageons à le vérifier par vous-même en essayant l'application de podcast [Fountain](https://www.fountain.fm/), qui vous permet d'être récompensé par quelques sats pour l'écoute de vos podcasts préférés !
 
 ## Pilule rouge ou pilule bleue ?
 
@@ -1345,11 +1345,11 @@ En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation pas
 
 :::video id=07537fe1-1eca-4ad9-a198-6b2523dc34fc:::
 
-Comme Morpheus l'a dit à Néo : "Tu prends la pilule bleue, l'histoire se termine, tu te réveilles dans ton lit et tu crois ce que tu veux croire. Si tu prends la pilule rouge, tu restes au pays des merveilles et je te montre jusqu'où va le terrier du lapin" Êtes-vous prêt à explorer le terrier du bitcoin ? Soyez prudent, car vous pourriez redécouvrir votre liberté financière !
+Comme Morpheus l'a dit à Néo : "Tu prends la pilule bleue, l'histoire se termine, tu te réveilles dans ton lit et tu crois ce que tu veux croire. Si tu prends la pilule rouge, tu restes au pays des merveilles et je te montre jusqu'où va le terrier du lapin". Êtes-vous prêt à explorer le terrier du Bitcoin ? Soyez prudent, car vous pourriez redécouvrir votre liberté financière !
 
 ### L'avenir technologique et ses implications
 
-La technologie évolue de manière exponentielle et personne ne peut prédire avec certitude ses développements futurs. La connectivité mondiale et l'intelligence artificielle continuent de progresser, et les connaissances qu'un individu peut acquérir grâce à l'internet deviennent de plus en plus incommensurables au fil du temps.
+La technologie évolue de manière exponentielle et personne ne peut prédire avec certitude ses développements futurs. La connectivité mondiale et l'intelligence artificielle continuent de progresser, et les connaissances qu'un individu peut acquérir grâce à internet deviennent de plus en plus incommensurables au fil du temps.
 
 Si nous prenons l'exemple de l'IA, ces technologies ont déjà dépassé ou approchent les performances humaines dans un nombre croissant de domaines, tels que les jeux vidéo, la production d'images et de textes, et l'analyse de données. L'une des conséquences potentielles est que plus de 80 % des emplois disparaîtront en raison de l'IA et de l'automatisation. Par conséquent, plusieurs options s'offrent à nous, telles que la limitation du progrès technologique ou l'exploitation du capital accru résultant des gains de productivité créés par l'IA.
 
@@ -1360,14 +1360,14 @@ Nous devons nous poser des questions essentielles :
 - A-t-on besoin d'autant d'enseignants ?
 - Les conséquences géopolitiques, politiques et humaines de l'automatisation ne sont pas suffisamment discutées.
 
-L'informatique, l'internet, le streaming et la RV vont changer l'éducation. Nous pourrions avoir un cours universel pour tous les étudiants français géré par le gouvernement et des enseignants qui ne donneraient plus de cours magistraux mais accompagneraient directement les étudiants. Les enfants pourraient entrer dans un monde virtuel et être accompagnés dans l'apprentissage de l'histoire.
+L'informatique, internet, le streaming et la RV vont changer l'éducation. Nous pourrions avoir un cours universel pour tous les étudiants français géré par le gouvernement et des enseignants qui ne donneraient plus de cours magistraux mais accompagneraient directement les étudiants. Les enfants pourraient entrer dans un monde virtuel et être accompagnés dans l'apprentissage de l'histoire.
 
 - Où se situe la frontière entre un enseignant et une personnification de l'IA ?
 - Comment garantir une société qui vit dans la prospérité ?
 
 Ces questions fondamentales pour notre avenir doivent être débattues et décidées collectivement.
 
-Quel est le lien avec le bitcoin ? Tout comme Internet a révolutionné les modes de communication, Bitcoin représente une révolution technologique pour de nouvelles formes d'organisation à grande échelle, permettant d'échanger de la valeur sans dépendre d'un tiers de confiance. Voulons-nous freiner l'évolution technologique du système monétaire ou voulons-nous embrasser le potentiel d'augmentation du capital grâce aux gains de productivité décuplés offerts par l'utilisation des protocoles Bitcoin et Lightning ?
+Quel est le lien avec le Bitcoin ? Tout comme Internet a révolutionné les modes de communication, Bitcoin représente une révolution technologique pour de nouvelles formes d'organisation à grande échelle, permettant d'échanger de la valeur sans dépendre d'un tiers de confiance. Voulons-nous freiner l'évolution technologique du système monétaire ou voulons-nous embrasser le potentiel d'augmentation du capital grâce aux gains de productivité décuplés offerts par l'utilisation des protocoles Bitcoin et Lightning ?
 
 ### Quel est l'avenir de la finance ?
 
@@ -1383,7 +1383,7 @@ L'acceptation de ces nouvelles technologies pourrait générer des économies d'
 
 La question de savoir qui doit contrôler le système bancaire est cruciale car les règles du jeu bancaire ne sont pas transparentes et compréhensibles par tous, ce qui permet à une caste de politiciens et de régulateurs de maintenir leur emprise sur le système. Il est donc important de se demander si c'est le marché libre ou un groupe d'intellectuels qui doit avoir le pouvoir.
 
-### Notre liberté est en jeu.
+### Notre liberté est en jeu
 
 La censure doit également être remise en question : qui a le savoir pour décider de ce qui doit être censuré ou non ? Les médias ont changé leur position sur certaines informations et celles qui étaient censurées auparavant ne le sont plus aujourd'hui.
 
@@ -1394,7 +1394,7 @@ Nous sommes convaincus que la tolérance de la censure peut détruire la libert�
 
 Il y a 2,4 milliards de personnes dans le monde qui n'ont pas de compte bancaire, ce qui crée nécessairement des inégalités géographiques. En revanche, le bitcoin garantit l'égalité des transactions, indépendamment du statut social ou de la position politique. Le protocole est apolitique et n'accorde pas de privilèges spécifiques aux dirigeants ou autres personnalités influentes, ce qui garantit que tout le monde a les mêmes chances de faire avancer le développement, plutôt que de permettre à quelques-uns de rester au sommet tandis que d'autres sont laissés pour compte. Tout le monde devrait-il avoir accès à la même monnaie, quel que soit son statut social ? Il est essentiel de réfléchir au monde que nous voulons laisser à nos enfants, et nous aspirons à créer un monde ouvert où ils sont libres de gérer leur argent comme ils l'entendent.
 
-Le bitcoin est important et ne doit pas être considéré comme un simple jeu de hasard. Il est donc essentiel de continuer à poser des questions sur le bitcoin et ses conséquences sur le monde.
+Le Bitcoin est important et ne doit pas être considéré comme un simple jeu de hasard. Il est donc essentiel de continuer à poser des questions sur le Bitcoin et ses conséquences sur le monde.
 
 ### Bitcoin : un protocole révolutionnaire
 
@@ -1406,7 +1406,7 @@ Le bitcoin possède toutes les caractéristiques nécessaires pour être une mon
 
 Il est adopté par divers groupes de personnes, des cryptographes aux libertaires, en passant par les entreprises traditionnelles et même des pays entiers. Cependant, Bitcoin s'adresse à tout le monde et, à mesure que le nombre d'utilisateurs augmente, le nombre de nœuds Bitcoin qui servent de gardiens de l'historique des transactions, garantissant ainsi sa décentralisation, augmente lui aussi.
 
-Le bitcoin ne peut plus être arrêté ni censuré. Il s'agit d'une révolution pacifique qui modifie le système monétaire et permet l'inclusion financière. Les utilisateurs peuvent obtenir des bitcoins en les acceptant pour leurs échanges ou en les achetant par l'intermédiaire de plateformes réglementées ou non. Ils peuvent stocker des fonds dans leurs portefeuilles, leurs applications mobiles ou leurs appareils physiques, sans avoir besoin d'intermédiaires de confiance. Le bitcoin prône la transparence, la liberté et la responsabilité individuelle : comme le dit le proverbe, "ne faites pas confiance, vérifiez".
+Le bitcoin ne peut plus être arrêté ni censuré. Il s'agit d'une révolution pacifique qui modifie le système monétaire et permet l'inclusion financière. Les utilisateurs peuvent obtenir des bitcoins en les acceptant pour leurs échanges ou en les achetant par l'intermédiaire de plateformes réglementées ou non. Ils peuvent stocker des fonds dans leurs portefeuilles, leurs applications mobiles ou leurs appareils physiques, sans avoir besoin d'intermédiaires de confiance. Le Bitcoin prône la transparence, la liberté et la responsabilité individuelle : comme le dit le proverbe, "ne faites pas confiance, vérifiez".
 
 Satoshi a créé le Bitcoin en 2008 pour proposer un changement du système financier, à travers le changement de la monnaie, parce qu'il savait que l'accès à l'argent facile et "magique" mène facilement à la corruption. Le Bitcoin est donc une alternative pour construire un nouveau système monétaire neutre, car il permet de s'émanciper du système bancaire. Finalement, c'est un phénomène social qui nous encourage à participer à une révolution pacifique.
 

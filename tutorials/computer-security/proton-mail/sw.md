@@ -1,202 +1,210 @@
---- 
-Name: Maelezo ya Barua pepe ya Proton: Kuweka kisanduku salama cha barua pepe 
---- 
-![cover](assets/cover.webp) 
+---
+name: Proton Mail
+description: Kuweka kisanduku salama cha barua pepe
+---
+![cover](assets/cover.webp)
 
-Sanduku la barua pepe ni kipengele kikuu cha shughuli yako ya mtandaoni na mara nyingi huwa na jukumu muhimu katika usalama wa kompyuta yako. Mshambulizi akifanikiwa kuhatarisha kisanduku chako cha barua pepe, atapata ufikiaji rahisi wa akaunti zako zingine kupitia kitendakazi cha "*sahau nenosiri*". Hii inaweza kuwaruhusu kudhibiti mitandao yako ya kijamii, akaunti zako za benki na huduma zingine za mtandaoni, kwa sababu leo, anwani ya barua pepe mara nyingi hutumiwa kama kitambulisho cha kipekee cha utambulisho wako mtandaoni. Kwa hiyo, kupata sanduku lako la barua pepe ni muhimu sana ili kujilinda kutokana na mashambulizi. 
+Kisanduku cha barua pepe ni kipengele muhimu cha shughuli zako mtandaoni na mara nyingi huwa na jukumu muhimu katika usalama wa kompyuta yako. Iwapo mshambuliaji ataweza kuvuruga kisanduku chako cha barua pepe, atapata kwa urahisi ufikiaji wa akaunti zako nyingine kupitia kipengele cha "*umesahau nywila*". Hii inaweza kumwezesha kudhibiti mitandao yako ya kijamii, akaunti zako za benki, na huduma nyingine mtandaoni, kwa sababu leo hii, anwani ya barua pepe mara nyingi hutumika kama kitambulisho pekee cha utambulisho wako mtandaoni. Kwa hivyo, kuhakikisha usalama wa kisanduku chako cha barua pepe ni muhimu sana ili kujilinda dhidi ya mashambulizi.
 
-Ili kuhakikisha usalama wa kisanduku chako cha barua pepe, ni muhimu kutumia baadhi ya mbinu nzuri rahisi ambazo tunasoma katika mafunzo haya yanayolenga wanaoanza katika kompyuta. Pia ni muhimu kuchagua mtoa huduma salama wa barua pepe anayetoa chaguo za ulinzi wa hali ya juu na sera thabiti ya ulinzi wa faragha. Ndio maana ninapendekeza katika somo hili kugundua ProtonMail. Hata kama hupendi kutomtumia mtoa huduma huyu, mbinu nzuri zilizoonyeshwa hapa zinaweza kutumika kwa kisanduku chochote cha barua pepe ili kuimarisha usalama wake. 
+Ili kuhakikisha usalama wa barua pepe yako, ni muhimu kufuata mbinu rahisi na bora ambazo tunazijadili katika somo hili linalowalenga wanaoanza kutumia kompyuta. Pia ni muhimu kuchagua mtoa huduma wa barua pepe mwenye chaguo za ulinzi wa hali ya juu na sera imara ya faragha. Ndiyo maana ninapendekeza katika mafunzo haya utambue ProtonMail. Hata kama hupendelei kutumia huduma hii, mbinu bora zilizotolewa hapa zinaweza kutumika katika kisanduku chochote cha barua pepe ili kuongeza usalama wake.
 
-## Kwa nini utumie ProtonMail? 
+## Kwa nini utumie ProtonMail?
 
-ProtonMail ni suluhisho salama la kutuma ujumbe kwa shukrani kwa vipengele kadhaa. Kwanza, ProtonMail huhakikisha usimbaji fiche kutoka mwisho hadi mwisho wa barua pepe zako, ambayo ina maana kwamba ni mtumaji na mpokeaji pekee ndiye anayeweza kusoma maudhui yao. Kinadharia, hata ProtonMail haiwezi kufikia barua pepe za watumiaji wake. Usimbaji fiche huu unatumika kiotomatiki, bila kuhitaji ujuzi wowote maalum wa kiufundi kutoka kwa watumiaji. 
+ProtonMail ni suluhisho salama la ujumbe wa barua pepe kutokana na sifa kadhaa. Kwanza, ProtonMail huhakikisha usimbaji fiche kutoka mwisho hadi mwisho (end-to-end encryption) wa barua pepe zako, ambayo ina maana kuwa ni mtumaji na mpokeaji tu wanaoweza kusoma yaliyomo. Kimsingi, hata ProtonMail haiwezi kufikia barua pepe za watumiaji wake. Usimbaji huu hufanyika kiotomatiki bila kuhitaji ujuzi maalum wa kiufundi kutoka kwa mtumiaji.
 
-Zaidi ya hayo, ProtonMail inaunganisha teknolojia za hali ya juu ili kulinda faragha yako, ikiwa ni pamoja na kuzuia mifumo fulani ya ufuatiliaji na kuficha anwani yako ya IP. Kwa kuwa nchini Uswizi, kampuni ya Proton inanufaika kutokana na baadhi ya sheria za ulinzi wa data ambazo hazipatikani katika nchi nyingine. Zaidi ya hayo, ProtonMail ni chanzo-wazi, ambayo inaruhusu wataalam wa kujitegemea kukagua kwa uhuru msimbo wa programu. 
+Zaidi ya hayo, ProtonMail hujumuisha teknolojia za hali ya juu kulinda faragha yako, ikiwemo kuzuia mifumo ya ufuatiliaji na kuficha anwani yako ya IP. Kwa kuwa kampuni ya Proton iko nchini Uswizi, inanufaika na baadhi ya sheria bora za kulinda data ambazo hazipatikani katika nchi nyingine. Aidha, ProtonMail ni chanzo huria (open-source), hivyo wataalamu huru wanaweza kukagua msimbo wa programu hiyo kwa uhuru.
 
-Muundo wa biashara wa Proton unatokana na mfumo wa usajili, ambao unatia moyo kwani unaonyesha kuwa kampuni inafadhiliwa bila kutumia vibaya data ya watumiaji wake. Katika somo hili, tutachunguza jinsi ya kutumia toleo lisilolipishwa la ProtonMail, lakini pia kuna viwango kadhaa vya usajili vinavyotoa vipengele zaidi. Mtindo huu wa biashara unapendekezwa zaidi kuliko mfumo wa bure kabisa, ambao unaweza kusababisha wasiwasi kuhusu ikiwa data yetu ya kibinafsi inatumiwa kwa faida. Kwa bahati nzuri, hii haionekani kuwa hivyo na ProtonMail. 
+Mfumo wa biashara wa Proton unategemea usajili wa kulipia, jambo linalotia moyo kwani linaonyesha kuwa kampuni inafadhiliwa bila kulazimika kutumia data za watumiaji wake. Katika somo hili, tutaangazia jinsi ya kutumia toleo la bure la ProtonMail, ingawa kuna viwango tofauti vya usajili vinavyotoa huduma zaidi. Mfumo huu wa usajili ni bora zaidi kuliko ule wa bure kabisa, ambao unaweza kuibua wasiwasi kuhusu matumizi ya data binafsi kwa faida. Kwa bahati nzuri, hili halionekani kuwa tatizo kwa ProtonMail.
 
-## Kufungua akaunti ya Protoni 
 
-Tembelea tovuti rasmi ya protoni: https://proton.me/ 
+## Kuunda akaunti ya Proton
+
+Tembelea tovuti rasmi ya Proton: https://proton.me/
 
 ![proton](assets/notext/01.webp)
- 
-Bofya kitufe cha "*Fungua akaunti*":
-Una chaguo la kuchagua kutoka kwa mipango tofauti kulingana na mahitaji yako. Kuanza, unaweza kuchagua akaunti ya bure, ambayo itawawezesha kupima huduma za msingi za ProtonMail. Baadaye, ikiwa ungependa kufikia vipengele vya ziada na programu nyingine za Protoni kama vile Kalenda, VPN, au Kidhibiti cha Nenosiri, unaweza kufikiria kujisajili kwenye mpango unaolipishwa. 
 
-Kisha unafika kwenye ukurasa wa kuunda akaunti. 
+Bonyeza kitufe cha "*Create an account*":  
+Una chaguo la kuchagua mipango tofauti kulingana na mahitaji yako. Kwa kuanza, unaweza kuchagua akaunti ya bure, ambayo itakuwezesha kujaribu huduma za msingi za ProtonMail. Baadaye, ukitaka kupata vipengele vya ziada na programu zingine za Proton kama Calendar, VPN, au Password Manager, unaweza kufikiria kujisajili kwa mpango wa kulipia.
 
-Unaweza kuchagua jina la kikoa unalopendelea kwa anwani yako ya barua pepe kwa kubofya kishale kidogo. Chaguo hili halina athari kwa kile kinachofuata. 
+Utaelekezwa kwenye ukurasa wa kuunda akaunti.
 
-Pia, chagua jina la mtumiaji kwa anwani yako ya barua pepe. 
+Unaweza kuchagua jina la domain unalopendelea kwa anwani yako ya barua pepe kwa kubofya mshale mdogo. Chaguo hili halitaathiri hatua zinazofuata.
 
-Kisha unaulizwa kuweka nenosiri. Ni muhimu kuchagua nenosiri kali katika hatua hii, kwani itawawezesha kufikia sanduku lako la barua. Nenosiri thabiti linapaswa kuwa refu iwezekanavyo, kutumia aina mbalimbali za wahusika, na kuchaguliwa kwa nasibu. Mnamo mwaka wa 2024, mapendekezo ya chini ya nenosiri salama ni herufi 13 ikijumuisha nambari, herufi ndogo na kubwa, pamoja na alama, mradi tu nenosiri ni nasibu. Hata hivyo, ninapendekeza kuchagua nenosiri la angalau wahusika 20, ikiwa ni pamoja na aina zote zinazowezekana za wahusika, ili kuhakikisha usalama wake kwa muda mrefu. 
+Pia chagua jina la mtumiaji kwa anwani yako ya barua pepe.
 
-Matumizi ya kidhibiti nenosiri ni mazoezi bora. Sio tu kwamba hukuruhusu kuhifadhi manenosiri yako kwa usalama bila kulazimika kuyakariri, lakini pia inaweza kukutengenezea manenosiri marefu na nasibu. Wanadamu ni wabaya sana katika kuunda mfuatano nasibu, na nenosiri ambalo si nasibu vya kutosha linaweza kuathiriwa na mashambulizi ya nguvu. Pia ninapendekeza uangalie mafunzo yetu kamili ya kusanidi kidhibiti cha nenosiri kwa maelezo zaidi kuhusu mada hii: 
+Utaombwa kuweka nenosiri. Ni muhimu kuchagua nenosiri thabiti katika hatua hii, kwani ndilo litakalotumika kufikia kisanduku chako cha barua pepe. Nenosiri thabiti linapaswa kuwa refu kadri inavyowezekana, lenye mchanganyiko mpana wa herufi ndogo na kubwa, nambari, na alama, na lichaguliwe kwa njia ya nasibu. Mwaka 2024, mapendekezo ya chini kabisa kwa nenosiri salama ni angalau herufi 13, lakini ninapendekeza lenye angalau herufi 20 kwa usalama wa muda mrefu.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9 
+Kutumia meneja wa nywila (password manager) ni mbinu bora. Hukuwezesha kuhifadhi nywila zako kwa usalama bila kuzikumbuka na pia hukusaidia kutengeneza nywila ndefu na zisizotabirika. Wanadamu si wazuri kuunda nywila za nasibu, na nywila isiyo ya nasibu ya kutosha inaweza kushambuliwa kwa kutumia brute force. Ninapendekeza usome pia somo letu kamili kuhusu jinsi ya kusanidi meneja wa nywila hapa:
 
-Bofya kitufe cha "*Fungua Akaunti*". 
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Tatua CAPTCHA. 
+Bonyeza kitufe cha "*Create Account*".
 
-Chagua jina la kuonyesha. Hili ndilo jina litakaloonyeshwa kwa mpokeaji wako unapotuma barua pepe. Chagua jina lako halisi au lakabu. 
-Proton pia inakupa chaguo la kusanidi mbinu ya kurejesha akaunti yako, ama kupitia nambari yako ya simu au kwa kutumia anwani mbadala ya barua pepe. Ni muhimu kuelewa kwamba chaguo hili linaweza kuongeza sehemu ya mashambulizi ya kikasha chako cha barua pepe. Kwako wewe, ni hatua ya ziada ya usalama ili kupata tena ufikiaji wa akaunti yako ikiwa utasahau nenosiri lako, lakini kwa mdukuzi, ni fursa ya ziada ya kujaribu kuingia katika akaunti yako. Huhitajiki kuchagua chaguo hili la urejeshi, lakini ukiamua kutofanya hivyo, hakikisha kuwa umehifadhi nakala salama ya nenosiri lako. Bila hivyo, ukipoteza nenosiri lako, hutaweza kurejesha ufikiaji wa kikasha chako cha barua pepe. 
-![proton](assets/notext/11.webp) 
+Tatuatisha CAPTCHA.
 
-## Kuweka Sanduku Lako la Barua la Protoni 
+Chagua jina la kuonyeshwa. Hili ndilo jina litakaloonekana kwa mpokeaji wa barua zako. Chagua jina lako halisi au jina la utani.
 
-Hongera, kisanduku chako cha barua cha Protoni sasa kimeundwa! Anza kwa kuchagua rangi za mandhari ya kisanduku chako cha barua.
+Proton pia inakupa chaguo la kuweka njia ya kurejesha akaunti yako, ama kwa kutumia nambari ya simu au barua pepe mbadala. Ni muhimu kuelewa kuwa chaguo hili linaweza kuongeza uso wa shambulio kwa kisanduku chako. Kwa upande wako ni njia ya ziada ya kiusalama, lakini kwa mdukuzi, ni njia nyingine ya kujaribu kuingia. Hauhitajiki kuchagua njia hii ya kurejesha, lakini ukikataa, hakikisha umehifadhi nenosiri lako mahali salama. Bila hilo, ukilisahau, huwezi kurejesha akaunti yako.
 
-![proton](assets/notext/12.webp) 
+![proton](assets/notext/11.webp)
 
-Ukipenda, unaweza pia kusanidi usambazaji wa barua pepe zako kutoka kwa akaunti yako ya zamani ya Gmail hadi akaunti yako mpya ya ProtonMail. 
 
-![proton](assets/notext/13.webp) 
+## Kusanidi Kisanduku chako cha Proton Mail
 
-Nikiwa kwenye kiolesura cha kisanduku chako cha barua, ninakushauri uangalie mipangilio ili kubinafsisha. Bofya kwenye ikoni ya gia kwenye kona ya juu kulia. 
+Hongera, sasa umeunda kisanduku chako cha Proton Mail! Anza kwa kuchagua rangi ya mandhari ya kisanduku chako.
 
-![proton](assets/notext/14.webp) 
+![proton](assets/notext/12.webp)
 
-Kisha ubofye kitufe cha "*Mipangilio yote*". 
+Ikiwa unataka, unaweza pia kuweka usafirishaji wa barua zako kutoka akaunti yako ya zamani ya Gmail hadi akaunti yako mpya ya ProtonMail.
 
-![proton](assets/notext/15.webp) 
+![proton](assets/notext/13.webp)
 
-Katika kichupo cha "*Dashibodi*", utapata maelezo yanayohusiana na akaunti yako. Kwa kusogeza chini katika sehemu hii, una chaguo la kuchagua aina za barua pepe ambazo uko tayari kupokea kutoka kwa Proton. Ikiwa hupendi kupokea arifa za utangazaji au taarifa, unaweza kuchagua kuondoa zote. 
+Ukishaingia kwenye kiolesura cha kisanduku chako cha barua, ninakushauri kuchunguza mipangilio ili kubinafsisha. Bonyeza alama ya gia upande wa juu kulia.
 
-![proton](assets/notext/16.webp) 
+![proton](assets/notext/14.webp)
 
-Katika kichupo cha "*Boresha mpango*", unaweza kuchagua mpango unaolipiwa wenye vipengele vipya. 
+Kisha bonyeza kitufe cha "*All settings*".
 
-![proton](assets/notext/17.webp) 
+![proton](assets/notext/15.webp)
 
-Katika kichupo cha "*Recovery*", unaweza kuongeza au kurekebisha mbinu zako za urejeshaji. 
+Katika kichupo cha "*Dashboard*", utapata taarifa kuhusu akaunti yako. Ukishuka chini, unaweza kuchagua aina ya barua unazotaka kupokea kutoka kwa Proton. Ikiwa hutaki kupokea taarifa au matangazo, unaweza kuondoa alama zote.
 
-![proton](assets/notext/18.webp) 
+![proton](assets/notext/16.webp)
 
-Katika kichupo cha "*Akaunti na nenosiri*", unaweza kubadilisha majina yako ya watumiaji, pamoja na mbinu za kulinda akaunti yako. 
+Katika kichupo cha "*Upgrade plan*", unaweza kuchagua mpango wa kulipia wenye vipengele vipya.
 
-![proton](assets/notext/19.webp) 
+![proton](assets/notext/17.webp)
 
-Kwa sasa, kisanduku chako cha barua kimelindwa kwa nenosiri pekee. Ninakushauri angalau uongeze ulinzi wa uthibitishaji wa vipengele viwili na programu. Ili kufanya hivyo, bofya kisanduku cha kuteua. 
+Katika kichupo cha "*Recovery*", unaweza kuongeza au kubadilisha njia zako za kurejesha akaunti.
 
-![proton](assets/notext/20.webp) 
+![proton](assets/notext/18.webp)
 
-Thibitisha nenosiri lako. 
+Katika kichupo cha "*Account and password*", unaweza kubadilisha majina ya watumiaji pamoja na njia za kuimarisha usalama wa akaunti yako.
 
-![proton](assets/notext/21.webp) 
+![proton](assets/notext/19.webp)
 
-Kisha changanua msimbo wa QR ukitumia programu yako ya 2FA. 
+Kwa sasa, akaunti yako inalindwa tu kwa nywila. Ninapendekeza uongeze ulinzi wa uthibitisho wa hatua mbili (2FA) kwa kutumia programu. Ili kufanya hivyo, bonyeza kisanduku cha tiki.
 
-![proton](assets/notext/22.webp) 
+![proton](assets/notext/20.webp)
 
-Kwa maelezo zaidi, nakushauri uangalie mafunzo yetu kuhusu jinsi ya kutumia programu ya 2FA. 
-Katika kichupo cha "*Lugha na saa*", unaweza kubadilisha lugha ya kiolesura pamoja na eneo la saa. 
+Thibitisha nenosiri lako.
 
-![proton](assets/notext/23.webp) 
+![proton](assets/notext/21.webp)
 
-Katika kichupo cha "*Muonekano*", unaweza kurekebisha rangi za kiolesura chako. 
+Kisha changanua msimbo wa QR kwa kutumia programu yako ya 2FA.
 
-![proton](assets/notext/24.webp) 
+![proton](assets/notext/22.webp)
 
-Katika kichupo cha "*Usalama na faragha*", unaweza kufikia chaguo mbalimbali za usalama. Baadhi ya chaguo hizi zinapatikana tu na mpango unaolipwa. Pia una chaguo la kuzima mkusanyiko wa data yako na Proton, ambayo hutumia maelezo haya kwa uchunguzi na utatuzi wa hitilafu. 
+Kwa maelezo zaidi, tafadhali angalia somo letu kuhusu jinsi ya kutumia programu ya 2FA.
 
-![proton](assets/notext/25.webp) 
+Katika kichupo cha "*Language and time*", unaweza kubadilisha lugha ya kiolesura pamoja na eneo la saa.
 
-Katika kichupo cha "*Leta*", una chaguo la kudhibiti uhamishaji wa barua pepe zako za zamani hadi kwenye akaunti yako mpya ya ProtonMail. Ikiwa ungependa kuanza na kisanduku cha barua kipya kabisa, bila kuleta barua pepe zako za zamani, unaweza kuchagua kupuuza chaguo hili. 
+![proton](assets/notext/23.webp)
+
+Katika kichupo cha "*Appearance*", unaweza kubadilisha rangi za kiolesura chako.
+
+![proton](assets/notext/24.webp)
+
+Katika kichupo cha "*Security and privacy*", utapata chaguo mbalimbali za usalama. Baadhi zinapatikana tu kwenye mipango ya kulipia. Unaweza pia kuzima ukusanyaji wa data zako na Proton.
+
+![proton](assets/notext/25.webp)
+
+Katika kichupo cha "*Import*", unaweza kuhamisha barua zako za zamani hadi kwenye akaunti yako mpya ya ProtonMail.
 
 ![proton](assets/notext/26.webp)
 
-Kichupo cha "*Pata programu*" hukuruhusu kupakua programu za simu za mkononi za Proton na programu ya eneo-kazi ili kudhibiti kisanduku chako cha barua kwenye mifumo hii. Ukipenda, unaweza kuendelea kutumia tu toleo la wavuti la kisanduku chako cha barua, ambacho unatumia kwa sasa, kwani kina vipengele sawa. 
+Kichupo cha "*Get the apps*" kinakuruhusu kupakua programu za simu na kompyuta za Proton.
 
-![proton](assets/notext/27.webp) 
+![proton](assets/notext/27.webp)
 
-Katika kichupo cha "*Messages and composing*", una maelfu ya chaguzi za kubinafsisha kwa kisanduku chako cha barua. 
+Katika kichupo cha "*Messages and composing*", kuna chaguzi nyingi za kubinafsisha uandishi wa barua pepe zako.
 
-![proton](assets/notext/28.webp) 
+![proton](assets/notext/28.webp)
 
-Katika kichupo cha "*Faragha ya barua pepe*", unaweza kuchagua chaguo kuhusu faragha ya barua pepe zako. 
+Katika kichupo cha "*Email privacy*", unaweza kuchagua mipangilio ya faragha ya barua zako.
 
-![proton](assets/notext/29.webp) 
+![proton](assets/notext/29.webp)
 
-Katika kichupo cha "*Kitambulisho na anwani*", una chaguo la kubinafsisha sahihi yako ya barua pepe. Ikiwa una akaunti inayolipishwa, unaweza pia kuunda barua pepe tofauti ambazo zote zitadhibitiwa kutoka kwa akaunti moja. Hii inaweza kuwa muhimu sana kwa kutenganisha matumizi yako tofauti. 
+Katika kichupo cha "*Identity and addresses*", unaweza kuweka sahihi ya barua pepe. Watumiaji wa kulipia wanaweza kuunda anwani nyingi.
 
-![proton](assets/notext/30.webp) 
+![proton](assets/notext/30.webp)
 
-Katika kichupo cha "*Folda na lebo*", unaweza kuunda folda na lebo ili kupanga kisanduku chako cha barua. 
+Katika kichupo cha "*Folders and labels*", unaweza kuunda folda na lebo kwa ajili ya kupanga barua zako.
 
-![proton](assets/notext/31.webp) 
+![proton](assets/notext/31.webp)
 
-Kichupo cha "*Vichujio*" hukuruhusu kudhibiti vichujio vya barua pepe unazopokea. 
+Kichupo cha "*Filters*" kinakuruhusu kudhibiti vichujio vya barua unazopokea.
 
-![proton](assets/notext/32.webp) 
+![proton](assets/notext/32.webp)
 
-Kichupo cha "*Sambaza na jibu otomatiki*" hukuruhusu kudhibiti usambazaji na majibu ya kiotomatiki kwa barua pepe zako. 
+Kichupo cha "*Forward and auto-reply*" kinakuruhusu kuweka usafirishaji na majibu ya moja kwa moja.
 
-![proton](assets/notext/33.webp) 
+![proton](assets/notext/33.webp)
 
-Katika kichupo cha "*Majina ya kikoa*", una chaguo la kusanidi barua pepe kwa kutumia kikoa chako, ambacho kinaweza kuwa muhimu ikiwa unamiliki tovuti. Kwa matumizi ya kibinafsi, si lazima kutumia kipengele hiki. 
+Katika kichupo cha "*Domain names*", unaweza kusanidi anwani ya barua pepe kwa kutumia domain yako binafsi.
 
-![proton](assets/notext/34.webp) 
+![proton](assets/notext/34.webp)
 
-Kichupo cha "*Usimbaji na vitufe*" hukuruhusu kudhibiti chaguo za usimbaji barua pepe zako. Kwa watumiaji wanaoanza, kwa ujumla sio lazima kurekebisha mipangilio katika sehemu hii. 
-![proton](assets/notext/35.webp) 
-Na hatimaye, kichupo cha "*IMAP/SMTP*" hukupa uwezekano wa kusanidi daraja la kutumia ProtonMail yenye programu ya barua pepe kama vile Outlook au Apple Mail. 
+Kichupo cha "*Encryption and keys*" kinakuruhusu kudhibiti chaguo za usimbaji fiche wa barua zako. Kwa wanaoanza, si lazima kubadilisha chochote hapa.
 
-![proton](assets/notext/36.webp) 
+![proton](assets/notext/35.webp)
 
-Ili kurudi kwenye ukurasa wa nyumbani wa kisanduku chako cha barua, bofya kitufe cha "*Kikasha*" kilicho juu kushoto. 
+Na mwisho, kichupo cha "*IMAP/SMTP*" kinakuruhusu kutumia ProtonMail kwa kutumia programu kama Outlook au Apple Mail.
 
-![proton](assets/notext/37.webp) 
+![proton](assets/notext/36.webp)
 
-## Kwa kutumia Protoni Mailbox yako 
+Ili kurudi kwenye ukurasa wa nyumbani wa kisanduku chako, bonyeza kitufe cha "*Inbox*" upande wa juu kushoto.
 
-Kutuma barua pepe, ni rahisi sana, bofya tu kitufe cha "*Ujumbe Mpya*" kilicho juu kushoto. 
+![proton](assets/notext/37.webp)
 
-![proton](assets/notext/38.webp) 
+## Kutumia Kisanduku chako cha Proton Mail
 
-Katika sehemu ya "*To*", weka barua pepe ya mpokeaji wako. 
+Kutuma barua pepe ni rahisi sana, bonyeza kitufe cha "*New Message*" juu kushoto.
 
-![proton](assets/notext/39.webp) 
+![proton](assets/notext/38.webp)
 
-Katika sehemu ya "*Subject*", weka mada ya barua pepe yako. 
+Katika sehemu ya "*To*", andika anwani ya barua pepe ya unayemtumia.
 
-![proton](assets/notext/40.webp) 
+![proton](assets/notext/39.webp)
 
-Andika ujumbe wako. 
+Katika sehemu ya "*Subject*", weka kichwa cha barua.
 
-![proton](assets/notext/41.webp) 
+![proton](assets/notext/40.webp)
 
-Hatimaye,bofya kitufe cha "*Tuma*" ili kutuma barua pepe yako. 
+Andika ujumbe wako.
+
+![proton](assets/notext/41.webp)
+
+Kisha bonyeza "*Send*" kutuma barua pepe yako.
 
 ![proton](assets/notext/42.webp)
 
-Kisha unaweza kupata ujumbe uliotumwa kwenye kichupo cha "*Iliyotumwa*". 
+Unaweza kuzipata barua ulizotuma kwenye kichupo cha "*Sent*".
 
-![proton](assets/notext/43.webp) 
+![proton](assets/notext/43.webp)
 
-Kichupo cha "*Kikasha*" kina barua pepe ulizopokea. 
+Kichupo cha "*Inbox*" kinaonyesha barua pepe ulizopokea.
 
-![proton](assets/notext/44.webp) 
+![proton](assets/notext/44.webp)
 
-Unaweza kusoma barua pepe zako kwa kubofya, na kisha kuzipanga katika folda tofauti ulizounda. 
+Unaweza kusoma barua zako kwa kubofya juu yake, na kuzipanga kwenye folda ulizotengeneza.
 
-...
+![proton](assets/notext/45.webp)
 
-​ 
+## Kuingia kwenye Kisanduku chako cha Proton Mail
 
-​Ili kupakua programu, unaweza kutembelea ukurasa rasmi: https://proton.me/mail/download 
+Kama ilivyotajwa awali, unaweza kutumia ProtonMail kupitia toleo la wavuti, programu ya kompyuta, au programu ya simu. Kupakua programu, tembelea: https://proton.me/mail/download
 
-Ikiwa unapendelea kutumia toleo la wavuti la ProtonMail pekee, zingatia kuongeza ukurasa kwenye vipendwa vya kivinjari chako kwa ufikiaji rahisi katika siku zijazo na epuka majaribio ya kuhadaa ili kupata maelezo ya kibinafsi. 
+Ikiwa unapendelea kutumia tu toleo la wavuti, weka alama kwenye kivinjari chako ili kuepuka tovuti ghushi (phishing).
 
-Ili kuifikia, nenda kwenye URL ifuatayo: https://account.proton.me/mail 
+Ili kufikia, tembelea: https://account.proton.me/mail
 
-![proton](assets/notext/46.webp) 
+![proton](assets/notext/46.webp)
 
-Weka jina lako la mtumiaji na nenosiri, kisha ubofye kitufe cha "*Ingia*". Ikiwa umewasha uthibitishaji wa vipengele viwili (2FA), pia utaombwa kuweka tarakimu 6 zinazobadilika zinazozalishwa na programu yako. 
+Weka jina la mtumiaji na nenosiri, kisha bonyeza "*Sign in*". Ikiwa umewezeshwa 2FA, utaombwa pia kuingiza nambari 6 kutoka kwenye programu yako ya uthibitisho.
 
-![proton](assets/notext/47.webp) 
+![proton](assets/notext/47.webp)
 
-Utawasili tena kwenye kikasha chako cha ProtonMail. 
+Utarudi kwenye kisanduku chako cha ProtonMail.
 
 ![proton](assets/notext/48.webp)

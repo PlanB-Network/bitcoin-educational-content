@@ -29,7 +29,7 @@ Mwongozo wa https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.m
 
 Simu za kisasa ni $500-$1000 kufuatilia na kuvuna data. Kila sehemu ya maisha yetu hupitia mambo hayo, na kwa bahati mbaya data hii nyingi hushirikiwa na washirika wengine kwa namna fulani.
 
-GrapheneOS imeundwa mahususi ili kupunguza ushiriki huu wa data na kuboresha usalama wa kifaa chako kutoka kwa vekta zinazoweza kushambulia. Hakuna kitu kama akaunti ya GrapheneOS. Huhitaji moja kupakua programu au kuingiliana na Mfumo wa Uendeshaji. Kwa ufupi, wewe sio bidhaa.
+GrapheneOS imeundwa mahususi ili kupunguza ushiriki huu wa data na kuboresha usalama wa kifaa chako kutoka kwa vekta zinazoweza kushambulia. Hakuna akaunti ya GrapheneOS. Huhitaji moja kupakua programu au kuingiliana na Mfumo wa Uendeshaji. Kwa ufupi, wewe sio bidhaa.
 
 
 GrapheneOS hutoa usalama zaidi kwa matumizi yako ya Android kupitia baadhi ya kanuni rahisi za msingi.
@@ -92,7 +92,7 @@ Unachohitaji kwa mkono ni:
 
 - Pixel
 - Kebo ya USB ya kwenda kutoka kwa simu hadi kwenye kompyuta yako
-- Kompyuta ya kuendesha kivinjari (kivinjari chochote kinachotegemea Chromium: Chrome, Edge, Jasiri, n.k.)
+- Kompyuta ya kuendesha kivinjari (kivinjari chochote kinachotumia msingi wa Chromium: Chrome, Edge, Jasiri, n.k.)
 
 
 Hebu tuzame ndani yake:
@@ -106,7 +106,7 @@ Hebu tuzame ndani yake:
 
 4. Unganisha simu kwenye kompyuta yako ya mkononi na ukiombwa uidhinishaji, ruhusu muunganisho.
 
-5. Kwenye ukurasa wa kisakinishi cha wavuti, bofya kwenye 'Fungua kipakiaji cha kuanza'.
+5. Katika ukurasa wa kisakinishi cha wavuti, bofya kwenye 'Fungua kipakiaji cha kuanza'.
 
 6. Kisha utaona chaguzi za simu zikibadilika. Tumia kitufe cha sauti kubadilisha uteuzi kuwa `fungua` na utumie kitufe cha kuwasha/kuzima kukubali.
 
@@ -114,9 +114,9 @@ Hebu tuzame ndani yake:
 
 8. Baada ya kupakuliwa kikamilifu, nenda kwenye hatua inayofuata na ubofye 'Toleo la Mweko'. Hii itachukua dakika moja au mbili na huhitaji kugusa simu hata kidogo.
 
-9. Hatimaye, nenda kwenye hatua inayofuata ya kisakinishi cha wavuti na ubofye **Funga Kipakiaji cha Kianzisha**. Utahitaji kubadilisha uteuzi na uthibitishe kwa kitufe cha kuwasha/kuzima kwa njia sawa na ulivyofanya awali katika mchakato.
+9. Hatimaye, nenda kwenye hatua inayofuata ya kisakinishi cha wavuti na ubofye **Funga Kipakiaji cha Kianzisha**. Utahitaji kubadilisha uteuzi na uthibitishe kwa kitufe cha kuwasha/kuzima kwa njia ile ile kama ulivyofanya awali katika mchakato.
 
-10. Unapoona neno `Anza`, thibitisha hili kwa kitufe cha kuwasha/kuzima na kifaa kitaingia kwenye mfumo wako mpya wa uendeshaji bila Google.
+10. Unapoona neno `Anza`, thibitisha hili kwa kitufe cha kuwasha/kuzima na kifaa kitaanza kutumia mfumo wako mpya wa uendeshaji bila Google.
 
 
 ![image](assets/2.webp)
@@ -150,7 +150,7 @@ Sasa kwa kuwa umesanidiwa, unaweza kugundua jinsi mifupa tupu ya GrapheneOS inav
 ![image](assets/3.webp)
 
 
-Programu chaguomsingi
+Programu chaguo-msingi
 
 
 Wawili pekee ambao huenda hujui ni 'Mkaguzi' na 'Vanadium'.
@@ -215,13 +215,13 @@ Kwa sababu tu programu ni Programu Huria na Huria (FOSS) haimaanishi kuwa haina 
 ### F-Droid
 
 
-[F-Droid](https://f-droid.org/) ni katalogi inayoweza kusakinishwa ya programu za FOSS za Android. Kiteja hurahisisha kuvinjari, kusakinisha na kusasisha programu kwenye kifaa chako. Inafaa kutaja kuwa masasisho kupitia F-Droid wakati mwingine yanaweza kuwa polepole kuliko maduka mengine ya programu. Hii inategemea sana ikiwa programu inapatikana au la kupitia hazina kuu ya F-Droid au maalum.
+[F-Droid](https://f-droid.org/) ni katalogi inayoweza kusakinishwa ya programu za FOSS za Android. Programu hii hurahisisha kuvinjari, kusakinisha na kusasisha programu kwenye kifaa chako. Inafaa kutaja kuwa masasisho kupitia F-Droid wakati mwingine yanaweza kuwa polepole kuliko maduka mengine ya programu. Hii inategemea sana ikiwa programu inapatikana au la kupitia hazina kuu ya F-Droid au maalum.
 
 
 Ili kusakinisha F-Droid nenda tu kwenye tovuti yao kupitia kivinjari kwenye simu yako ya GrapheneOS na ugonge pakua. Hii itapakua faili ya `.apk`. Kisha utaulizwa ikiwa ungependa kusakinisha programu.
 
 
-Pamoja na programu zinazopatikana ndani ya hazina chaguomsingi katika F-Droid, miradi mingi ya Open Source pia itapangisha hazina yao ambayo inaweza kuongezwa katika mipangilio ya programu ya F-Droid. Ikiwa hii ndio kesi, mradi unaohusika utakupitisha hatua rahisi sana zinazohitajika kufanikisha hili kwenye wavuti yao.
+Pamoja na programu zinazopatikana ndani ya hazina chaguomsingi katika F-Droid, miradi mingi ya Open Source pia itapangisha hazina yao ambayo unaweza kuongeza kwenye mipangilio ya F-Droid. Ikiwa hii ndio kesi, mradi unaohusika utakupitisha hatua rahisi sana zinazohitajika kufanikisha hili kwenye wavuti yao.
 
 
 ![image](assets/5.webp)
@@ -422,7 +422,7 @@ Kushoto: Hali ya Hewa ya Kijiometri, Kulia: Kalenda ya Protoni
 - [Proton Pass](https://proton.me/pass/download) inatoa huduma sawa bila malipo kwa Bitwarden, lakini wateja wa [Proton Unlimited](https://proton.me/pricing) wanaweza kufikia vipengele vya juu zaidi. Proton Pass inapatikana kupitia APK au Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) ni programu ya uthibitishaji wa vipengele viwili kwa mifumo inayotumia itifaki za nenosiri za wakati mmoja. Tokeni zinaweza kuongezwa kwa urahisi kwa kuchanganua msimbo wa QR. FreeOTP inapatikana kupitia F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) ni programu isiyolipishwa, salama na ya Open Source ya Android ili kudhibiti tokeni zako za uthibitishaji wa hatua 2 za huduma zako za mtandaoni. Aegis inapatikana kupitia F-Droid.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) ni huduma ya mfumo tofauti inayolipishwa ambayo husimba data yako ndani ya nchi kwa njia fiche ili uweze kuipakia kwa usalama kwenye huduma yako ya wingu uipendayo. Cryptomator inaweza kupakuliwa kupitia F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) ni huduma ya mfumo tofauti inayolipishwa ambayo husimba data yako ndani ya nchi kwa njia fiche ili uweze kuipakia kwa usalama kwenye huduma yako ya wingu uipendayo. Cryptomator inapatikana kupitia F-Droid.
 
 
 ![image](assets/21.webp)
@@ -503,7 +503,7 @@ Skrini ya usimamizi wa wasifu wa mtumiaji
 ### e-Sims
 
 
-Iwapo ungependa kupeleka ufaragha wa simu yako kwenye kiwango kinachofuata na kuwa na huduma ya simu ambayo imetengwa na utambulisho wako wa ulimwengu halisi, eSIM inaweza kuwa kwa ajili yako. ESIM ni SIM pepe ambayo unaweza kununua mtandaoni na kuongeza kwenye simu yako kupitia msimbo wa QR. Kampuni zinazotoa huduma kama hizo ambazo zinaweza kulipiwa bila kujulikana kwa kutumia Bitcoin ni pamoja na [Silent.Link](https://silent.link/) na [Bitrefill](https://www.bitrefill.com/gb/en/esms/).
+Iwapo ungependa kupeleka ufaragha wa simu yako kwenye kiwango kinachofuata na kuwa na huduma ya simu ambayo haitambuliki kirahisi, eSIM inaweza kuwa kwa ajili yako. ESIM ni SIM pepe ambayo unaweza kununua mtandaoni na kuongeza kwenye simu yako kupitia msimbo wa QR. Kampuni zinazotoa huduma kama hizo ambazo zinaweza kulipiwa bila kujulikana kwa kutumia Bitcoin ni pamoja na [Silent.Link](https://silent.link/) na [Bitrefill](https://www.bitrefill.com/gb/en/esms/).
 
 
 eSIM hazipaswi kuangaliwa kama tiba kamili ya faragha ya simu. Zinaweza kuwa zana muhimu zikiwa katika mikono ya kulia, lakini tafadhali fanya utafiti wako kuhusu [tradeoffs](https://grapheneos.org/faq#cellular-tracking) ya kutumia aina yoyote ya huduma ya seli ikiwa unakusudia 'kutoka nje ya gridi ya taifa' kabisa.
@@ -539,7 +539,7 @@ Ili kuunda nakala yako ya kwanza:
 Cheleza skrini
 
 
-Kumbuka kwamba ikiwa unahifadhi nakala za nje ya mtandao kwenye hifadhi ya nje, ni jambo la busara kukamilisha hatua hii mara kwa mara ili kuhakikisha kuwa masasisho yoyote muhimu ya hivi majuzi kwenye simu yako hayapotei ikiwa mabaya zaidi yangetokea.
+Kumbuka kwamba ikiwa unahifadhi nakala za nje ya mtandao kwenye hifadhi ya nje, ni busara kukamilisha hatua hii mara kwa mara ili kuhakikisha kuwa masasisho yoyote muhimu ya hivi majuzi kwenye simu yako hayapotei ikiwa mabaya zaidi yangetokea.
 
 
 ![video](https://www.youtube.com/embed/eyWmcItzisk)

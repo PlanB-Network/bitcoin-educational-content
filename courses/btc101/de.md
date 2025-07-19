@@ -79,7 +79,7 @@ Schließlich stehen wir erst am Anfang der Bitcoin-Adaption, nachdem die Startph
 
 ![image](assets/en/02.webp)
 
-Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen Ihnen viel Spaß mit diesem Kurs und hoffen, dass Sie in diesem neuen globalen Währungsparadigma weitere Fortschritte machen.
+Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen dir viel Spaß mit diesem Kurs und hoffen, dass du in diesem neuen globalen Währungsparadigma weitere Fortschritte machst.
 
 Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
 
@@ -93,25 +93,25 @@ Bevor der Begriff "Bitcoin" zum Synonym für digitale Währung und Finanztransfo
 
 ![image](assets/en/03.webp)
 
-Mitten in der technologischen Entwicklung der 1980er und 1990er Jahre begann eine Gruppe von Menschen, die Rolle der Privatsphäre und der Freiheit im digitalen Zeitalter gründlich in Frage zu stellen. Diese Personen, die später als "Cypherpunks" bekannt wurden, waren der festen Überzeugung, dass die Kryptografie als Instrument zum Schutz der Rechte des Einzelnen gegen die Einmischung von Regierungen und Großunternehmen dienen könnte.
+Mitten in der technologischen Entwicklung der 1980er und 1990er Jahre begann eine Gruppe von Menschen, die Rolle der Privatsphäre und der Freiheit im digitalen Zeitalter grundlegend in Frage zu stellen. Diese Personen, die später als "Cypherpunks" bekannt wurden, waren der festen Überzeugung, dass die Kryptografie als Instrument zum Schutz der Rechte des Einzelnen gegen die Einmischung von Regierungen und Großunternehmen dienen könnte.
 
 Berühmte Persönlichkeiten wie Julian Assange, Wei Dai, Tim May und David Chaum spielten eine entscheidende Rolle bei der Gestaltung der Philosophie und Vision der Bewegung. Diese Denker tauschten ihre Ideen auf einer einflussreichen Mailingliste aus, auf der Teilnehmer aus der ganzen Welt über die besten Möglichkeiten zur Nutzung der Technologie für mehr individuelle Freiheit diskutierten.
 
-### Die drei grundlegenden Papiere der Cypherpunks
+### Die drei grundlegenden Schriften der Cypherpunks
 
 ![image](assets/en/04.webp)
 
 Die Cypherpunk-Bewegung, die tief im digitalen Aktivismus und in der Kryptografie verwurzelt ist, stützte sich auf mehrere grundlegende Texte, um ihre Prinzipien und ihre Vision für die Zukunft zu formulieren. Unter diesen Schriften sind drei besonders hervorzuheben:
 
-- Das "Cypherpunk-Manifest":
+- "A Cypherpunk's Manifesto":
 
-in dem 1993 von Eric Hughes verfassten "Cypherpunk Manifesto" wird behauptet, dass die Privatsphäre ein Grundrecht ist. Der Autor argumentiert, dass die Fähigkeit, frei und vertraulich zu kommunizieren, für eine freie Gesellschaft unerlässlich ist. Im Manifest heißt es: "Wir können nicht von Regierungen, Unternehmen oder anderen großen, gesichtslosen Organisationen erwarten, dass sie uns Privatsphäre gewähren [...]. Wir müssen unsere eigene Privatsphäre verteidigen, wenn wir überhaupt eine haben wollen".
+in dem 1993 von Eric Hughes verfassten "A Cypherpunk's Manifesto" wird behauptet, dass die Privatsphäre ein Grundrecht ist. Der Autor argumentiert, dass die Fähigkeit, frei und vertraulich zu kommunizieren, für eine freie Gesellschaft unerlässlich ist. Im Manifest heißt es: "Wir können nicht von Regierungen, Unternehmen oder anderen großen, gesichtslosen Organisationen erwarten, dass sie uns Privatsphäre gewähren [...]. Wir müssen unsere eigene Privatsphäre verteidigen, wenn wir überhaupt eine haben wollen".
 
-- Das "Krypto-Anarchistische Manifest":
+- "The Crypto Anarchist Manifesto":
 
 dieses 1992 von Timothy C. May verfasste Dokument erklärt, wie die Nutzung der Kryptographie zu einer Ära der kryptographischen Anarchie führen könnte, in der Regierungen sich nicht mehr in die privaten Angelegenheiten der Bürger einmischen könnten. May stellte sich eine Zukunft vor, in der Menschen anonym Informationen und Geld austauschen, ohne dass eine dritte Partei eingreift.
 
-- Die "Erklärung der Unabhängigkeit des Cyberspace":
+- "A Declaration of the Independence of Cyberspace":
 
 dieser Text ist zwar nicht ausschließlich dem Cypherpunk zuzuordnen, spiegelt aber die Gefühle vieler Teilnehmer der Bewegung wider. Er wurde 1996 von John Perry Barlow verfasst und ist eine Reaktion auf die zunehmende Regulierung des Internets durch die Regierungen. In der Erklärung wird behauptet, dass der Cyberspace ein von der physischen Sphäre getrennter Bereich ist und nicht denselben Gesetzen unterworfen werden sollte. Wir haben keine gewählte Regierung und werden wahrscheinlich auch keine haben", heißt es darin.
 
@@ -119,13 +119,13 @@ dieser Text ist zwar nicht ausschließlich dem Cypherpunk zuzuordnen, spiegelt a
 
 Vor dem Aufkommen von Bitcoin gab es bereits mehrere Versuche, eine digitale Währung zu schaffen. So führte David Chaum in den 1980er Jahren mit seinem Projekt "DigiCash" das Konzept des "anonymen elektronischen Geldes" ein. Leider wurde DigiCash aufgrund verschiedener Zwänge nie ein Erfolg.
 
-Ein weiterer wichtiger Vorläufer ist das "B-Geld" von Wei Dai. Obwohl es nie umgesetzt wurde, stellte es die Idee einer anonymen digitalen Währung vor, bei der die Betrugserkennung von einer Gemeinschaft von Bewertern und nicht von einer zentralen Behörde durchgeführt wird.
+Ein weiterer wichtiger Vorläufer ist das "B-Money" von Wei Dai. Obwohl es nie umgesetzt wurde, stellte es die Idee einer anonymen digitalen Währung vor, bei der die Betrugserkennung von einer Gemeinschaft von Bewertern und nicht von einer zentralen Behörde durchgeführt wird.
 
 Die nachstehende Abbildung veranschaulicht die Entwicklung der Bewegung durch ihre zahlreichen technischen Innovationen.
 
 ![image](assets/en/05.webp)
 
-In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den Arbeitsnachweis und kryptografische Zeitstempel, um eine dezentrale und zensurresistente digitale Währung zu schaffen.
+In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den Arbeitsnachweis (proof of work) und kryptografische Zeitstempel (cryptographic timestamps), um eine dezentrale und zensurresistente digitale Währung zu schaffen.
 
 Bitcoin war jedoch mehr als nur das: Er repräsentierte die Verwirklichung der Cypherpunk-Ideale. Über seine Technologie hinaus symbolisierte er eine Revolution gegen traditionelle Finanzsysteme und bot eine Alternative, die auf Transparenz, Dezentralisierung und individueller Souveränität basierte.
 
@@ -137,7 +137,7 @@ Daher ist Bitcoin ein Protokoll, das sich über lange Zeiträume erstreckt und u
 
 Aber ist Bitcoin eine "echte" Währung? Um dies zu verstehen, müssen wir zunächst das Konzept des Geldes und seine verschiedenen Formen verstehen, die wir im nächsten Kapitel untersuchen werden.
 
-Wenn Sie die Geschichte von Bitcoin genauer erforschen möchten, empfehlen wir Ihnen unseren Kurs HIS 201, in dem Sie die Ursprünge und die langsame Entstehung von Bitcoin sowie die Anfänge seiner Geschichte und seiner Gemeinschaft entdecken werden. Dieser Kurs ist vollständig dokumentiert und mit Quellen belegt, natürlich mit vielen Anekdoten:
+Wenn du die Geschichte von Bitcoin genauer erforschen möchtest, empfehlen wir dir unseren Kurs HIS 201, in dem du die Ursprünge und die langsame Entstehung von Bitcoin sowie die Anfänge seiner Geschichte und seiner Gemeinschaft entdecken wirst. Dieser Kurs ist vollständig dokumentiert, mit Quellen belegt und natürlich mit vielen Anekdoten:
 
 https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
@@ -149,7 +149,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
-Die Entwicklung des Geldes ist ein faszinierender Aspekt der menschlichen Geschichte, der den Erfindungsreichtum der Zivilisationen im Laufe der Jahrhunderte bei der Erfüllung der sich ständig verändernden wirtschaftlichen Bedürfnisse widerspiegelt.
+Die Entwicklung des Geldes ist ein faszinierender Aspekt der menschlichen Geschichte, der den Erfindungsreichtum der Zivilisationen im Laufe der Zeit bei der Erfüllung der sich ständig verändernden wirtschaftlichen Bedürfnisse widerspiegelt.
 
 ![image](assets/en/06.webp)
 
@@ -157,7 +157,7 @@ Die Entwicklung des Geldes ist ein faszinierender Aspekt der menschlichen Geschi
 
 Ursprünglich war die Währung ein materieller Vermögenswert, wie z. B. Getreide, Vieh oder eine andere Ware. Diese Güter hatten jedoch den großen Nachteil, dass sie verderblich waren, was ihre Verwendung als langfristiges Sparmedium schwierig machte. Beispielsweise konnten Missernten oder Tierkrankheiten das Vermögen einer Person über Nacht vernichten.
 
-Als sich die Zivilisationen weiterentwickelten und der Handel sich auf neue Regionen ausdehnte, entstand der Bedarf an einem universellen Tauschmittel. Die Menschen experimentierten zunächst mit Objekten wie Muscheln und Edelsteinen, die jedoch nicht so haltbar und selten waren, wie sie glaubten. Schließlich wurde Gold aufgrund seiner Seltenheit, Haltbarkeit und Teilbarkeit zum Standard. Es war und ist bis heute ein Symbol für Reichtum und Macht.
+Als sich die Zivilisationen weiterentwickelten und der Handel sich auf neue Regionen ausdehnte, entstand der Bedarf an einem universellen Tauschmittel. Die Menschen experimentierten zunächst mit Objekten wie Muscheln und Edelsteinen, die jedoch nicht so haltbar und selten waren, wie sie dachten. Schließlich wurde Gold aufgrund seiner Seltenheit, Haltbarkeit und Teilbarkeit zum Standard. Es war und ist bis heute ein Symbol für Reichtum und Macht.
 
 ![image](assets/en/07.webp)
 
@@ -165,16 +165,16 @@ Als sich die Zivilisationen weiterentwickelten und der Handel sich auf neue Regi
 
 Geld ist ein hochentwickeltes Kommunikationsmittel:
 
-- Sie ermöglicht die Kommunikation zwischen der Gegenwart und der Zukunft, denn sie verwandelt unsere Zeit und Energie in einen Vermögenswert, der in der Zukunft ohne das Risiko der Entwertung wiederverwendet werden kann.
-- Sie erleichtert die Kommunikation in einer universellen Sprache: Ohne sich zu kennen oder dieselbe Sprache zu sprechen, können zwei Fremde sich austauschen, handeln und sich über den Wert von Dingen einigen.
+- Es ermöglicht die Kommunikation zwischen der Gegenwart und der Zukunft, denn es verwandelt unsere Zeit und Energie in einen Vermögenswert, der in der Zukunft ohne das Risiko der Entwertung wiederverwendet werden kann.
+- Es erleichtert die Kommunikation in einer universellen Sprache: Ohne sich zu kennen oder dieselbe Sprache zu sprechen, können zwei Fremde sich austauschen, handeln und sich über den Wert von Dingen einigen.
 
 Seine Funktion in unserer Welt lässt sich nur schwer künstlich nachbilden. Tatsächlich kann kein Einzelner oder eine Gruppe Geld schaffen, da es ein natürliches Phänomen ist, das aus dem Markt und einem freiwilligen Konsens hervorgehen muss. In diesem Sinne dienen Preise als Signale und Informationen, die die Gesellschaft bei der Verteilung der Ressourcen leiten.
 
 Aus diesen Gründen ist Gold als Geld das Ergebnis von 4.000 Jahren monetärem Darwinismus, der auf den folgenden aristotelischen Funktionen beruht:
 
-- Wertaufbewahrungsmittel\*\*: Geld kann verwendet werden, um Kaufkraft in die Zukunft zu übertragen, daher muss es ein dauerhaftes Material sein;
-- Tauschmittel\*\*: Geld kann anstelle von Tauschgeschäften zum Austausch von Waren und Dienstleistungen verwendet werden, wodurch das Zusammentreffen von Bedürfnissen zwischen Händlern vermieden wird;
-- Rechnungseinheit\*\*: Geld ermöglicht es uns auch, den Wert verschiedener Güter zu vergleichen, um ihren relativen Nutzen besser zu verstehen.
+- **Wertaufbewahrungsmittel**: Geld kann verwendet werden, um Kaufkraft in die Zukunft zu übertragen, daher muss es ein dauerhaftes Material sein;
+- **Tauschmittel**: Geld kann anstelle von Tauschgeschäften zum Austausch von Waren und Dienstleistungen verwendet werden, wodurch das Zusammentreffen von Bedürfnissen zwischen Händlern vermieden wird;
+- **Rechnungseinheit**: Geld ermöglicht es uns auch, den Wert verschiedener Güter zu vergleichen, um ihren relativen Nutzen besser zu verstehen.
 
 ![image](assets/en/08.webp)
 
@@ -186,15 +186,15 @@ Aus diesen Gründen ist Gold als Geld das Ergebnis von 4.000 Jahren monetärem D
 
 Gold erfüllt in idealer Weise die Kriterien einer effizienten Währung: Seine natürliche Seltenheit macht es wertvoll, und seine chemischen Eigenschaften sorgen dafür, dass es im Laufe der Zeit nicht erodiert. Diese Eigenschaften haben Gold zu einem großartigen **Wertaufbewahrungsmittel** gemacht, aber nicht zu einer gängigen Währung, da diese Form von Geld nicht leicht teilbar oder über große Entfernungen transportierbar ist. In einer globalisierten und digitalen Welt hat Gold Schwierigkeiten, Schritt zu halten, und benötigt eine zentrale Instanz, die es teilbar und leicht austauschbar macht (z. B. durch geprägte Münzen).
 
-Im Gegensatz dazu sind staatliche Treuhandwährungen (Fiat-Währungen) leicht verwendbar, werden aber von den sie kontrollierenden Instanzen (Königen, Zentralbanken, Kaisern, Diktatoren) ständig entwertet.
+Im Gegensatz dazu sind staatliche Treuhandwährungen (Fiat-Währungen) leicht verwendbar, werden aber von den ihnen kontrollierenden Instanzen (Könige, Zentralbanken, Kaiser, Diktatoren) ständig entwertet.
 
 Um dieses Konzept besser zu erklären, werden wir die Merkmale einer effektiven Währung untersuchen:
 
 ![image](assets/en/11.webp)
 
-- Fungibilität\*\*, d. h. Austauschbarkeit mit einer anderen Einheit der gleichen Art ohne Wertverlust;
-- Teilbarkeit\*\*, da er in kleinere Einheiten unterteilt werden kann, um Transaktionen mit unterschiedlichem Volumen zu erleichtern;
-- Liquidität\*\*, d. h. sie sind leicht in Waren oder Dienstleistungen umwandelbar.
+- **Fungibilität**, d. h. Austauschbarkeit mit einer anderen Einheit der gleichen Art ohne Wertverlust;
+- **Teilbarkeit**, da sie in kleinere Einheiten unterteilt werden kann, um Transaktionen mit unterschiedlichem Volumen zu erleichtern;
+- **Liquidität**, d. h. sie ist leicht in Waren oder Dienstleistungen umwandelbar.
 
 Um diese Kriterien zu erfüllen, hat sich die Währung in der Vergangenheit in verschiedenen Schritten entwickelt:
 
@@ -202,9 +202,9 @@ Um diese Kriterien zu erfüllen, hat sich die Währung in der Vergangenheit in v
 - Banknote -> Bankkarte
 - Blockchain -> Lightning Network
 
-Währungen entwickeln sich auch heute noch weiter und passen ihre Formen an die verschiedenen Verwendungszwecke an. Wie wir bereits sagten, ist Gold zwar ein ausgezeichneter Wertaufbewahrer, aber für die heutige globalisierte Wirtschaft nicht mehr geeignet. Auch Treuhandwährungen wie der Dollar und der Euro sind sehr liquide und leicht zu transportieren, da sie heute größtenteils digital sind, aber ihr Wert wird durch die Geldinflation ständig gesenkt.
+Währungen entwickeln sich auch heute noch weiter und passen ihre Formen an die verschiedenen Verwendungszwecke an. Wie wir bereits sagten, ist Gold zwar ein ausgezeichneter Wertaufbewahrer, aber für die heutige globalisierte Wirtschaft nicht mehr geeignet. Auch Fiat-Währungen wie der Dollar und der Euro sind sehr liquide und leicht zu transportieren, da sie heute größtenteils digital sind, aber ihr Wert wird durch die Geldinflation ständig gesenkt.
 
-Andererseits bietet der Bitcoin neue Möglichkeiten. Seine Eigenschaften, wie das streng begrenzte Angebot, machen ihn zu einem hervorragenden Wertaufbewahrungsmittel. Außerdem dient er als neutrale Internetwährung als praktikables **Tauschmittel**, das Grenzen überschreitet. Allerdings ist er trotz seiner [ständigen Verbreitung] (https://btcmap.org/map) im Handel noch nicht weithin akzeptiert.
+Andererseits bietet der Bitcoin neue Möglichkeiten. Seine Eigenschaften, wie das streng begrenzte Angebot, machen ihn zu einem hervorragenden Wertaufbewahrungsmittel. Außerdem dient er als neutrale Internetwährung als praktikables **Tauschmittel**, das Grenzen überschreitet. Allerdings ist er trotz seiner [ständigen Verbreitung](https://btcmap.org/map) im Handel noch nicht weithin akzeptiert.
 
 ## Treuhandwährungen
 

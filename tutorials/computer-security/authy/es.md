@@ -74,4 +74,4 @@ Cada vez que inicies sesión en la cuenta, necesitarás proporcionar el código 
 ![AUTHY 2FA](assets/notext/23.webp)
 Luego haz clic en "*Add Account*".
 ![AUTHY 2FA](assets/notext/24.webp)
-Sigue los mismos pasos que los utilizados para la primera cuenta. Tus diversos códigos dinámicos serán visibles en la página de inicio de Authy.
+Sigue los mismos pasos que los utilizados para la primera cuenta. Todos tus códigos dinámicos serán visibles en la página de inicio de Authy.

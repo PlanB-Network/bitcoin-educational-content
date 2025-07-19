@@ -221,4 +221,4 @@ Aquí, es importante elegir una contraseña fuerte, única y generada aleatoriam
 ![BITWARDEN](assets/notext/68.webp)
 Haz clic en "*Confirmar formato*" e ingresa tu contraseña maestra para proceder con la exportación.
 ![BITWARDEN](assets/notext/69.webp)
-Una vez completada la exportación, encontrarás tu archivo de copia de seguridad cifrado en tus descargas. Transfiérelo a un dispositivo de almacenamiento externo seguro, como una memoria USB o un disco duro. Repite esta operación periódicamente dependiendo de tu uso. Por ejemplo, puedes renovar la copia de seguridad cada semana o cada mes, según tus necesidades.
+Una vez completada la exportación, encontrarás tu archivo de copia de seguridad cifrado en tus descargas. Transfiérelo a un dispositivo de almacenamiento externo seguro, como una memoria USB o un disco duro. Repite esta operación periódicamente dependiendo de tu uso. Por ejemplo, puedes renovar tu copia de seguridad cada semana o cada mes, según tus necesidades.

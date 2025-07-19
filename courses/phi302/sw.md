@@ -1074,10 +1074,10 @@ Bitcoin imeundwa kwa kutumia programu huria. Katika sura hii tunachanganua maana
 Programu nyingi za Bitcoin, na haswa Bitcoin Core, ni chanzo wazi. Hii ina maana kwamba msimbo wa chanzo wa programu unapatikana kwa umma kwa ujumla kwa uchunguzi, kuchezea, kurekebisha na kusambaza upya. Ufafanuzi wa chanzo huria katika [](https://opensource.org/osd) unajumuisha, miongoni mwa mengine, mambo muhimu yafuatayo:
 
 
-> Ugawaji Upya Bila Malipo: Leseni haitazuia mhusika yeyote kuuza au kutoa programu kama sehemu ya usambazaji wa programu iliyojumlishwa iliyo na programu kutoka vyanzo kadhaa tofauti. Leseni haitahitaji mrahaba au ada nyingine kwa mauzo hayo.
+> Ugawaji Upya Bila Malipo: Leseni haitazuia upande wowote kuuza au kusambaza programu kama sehemu ya usambazaji wa programu uliounganishwa unaojumuisha programu kutoka vyanzo mbalimbali. Leseni haitahitaji mrahaba au ada nyingine kwa mauzo hayo.
 >
 
-> Msimbo wa Chanzo: Mpango lazima ujumuishe msimbo wa chanzo, na lazima uruhusu usambazaji katika msimbo wa chanzo pamoja na fomu iliyokusanywa. Ambapo aina fulani ya bidhaa haijasambazwa na msimbo wa chanzo, lazima kuwe na njia iliyotangazwa vyema ya kupata msimbo wa chanzo kwa si zaidi ya gharama ifaayo ya utayarishaji, ikiwezekana kupakua kupitia Mtandao bila malipo. Msimbo wa chanzo lazima uwe fomu inayopendelewa ambayo mtayarishaji programu angerekebisha programu. Msimbo wa chanzo uliofichwa kimakusudi hauruhusiwi. Fomu za kati kama vile utoaji wa kichakataji awali au mfasiri haziruhusiwi.
+> Msimbo wa Chanzo: Programu lazima ijumuishwe na msimbo wa chanzo, na lazima iruhusu usambazaji katika msimbo wa chanzo pamoja na fomu iliyokusanywa. Ambapo bidhaa fulani haijasambazwa na msimbo wa chanzo, lazima kuwe na njia iliyotangazwa vyema ya kupata msimbo wa chanzo kwa gharama isiyozidi ya utayarishaji, ikiwezekana kwa kupakua kupitia Mtandao bila malipo. Msimbo wa chanzo lazima uwe fomu inayopendelewa ambayo mtayarishaji programu angeitumia kurekebisha programu. Msimbo wa chanzo uliofichwa kimakusudi hauruhusiwi. Fomu za kati kama vile matokeo ya kichakataji awali au ya mfasiri haziruhusiwi.
 >
 
 > Kazi Zilizotolewa: Leseni lazima iruhusu marekebisho na kazi zinazotokana, na lazima iruhusu kusambazwa chini ya masharti sawa na leseni ya programu asili.
@@ -1097,6 +1097,7 @@ The above copyright notice and this permission notice shall be included in all c
 ```
 
 
+
 Kama ilivyobainishwa katika Sura ya "Usiamini, Thibitisha", ni muhimu kwa watumiaji kuwa na uwezo wa kuthibitisha kuwa programu ya Bitcoin wanayoendesha "inafanya kazi kama inavyotangazwa". Ili kufanya hivyo, lazima wawe na ufikiaji usio na kikomo wa msimbo wa chanzo wa programu wanayotaka kuthibitisha.
 
 
@@ -1113,7 +1114,7 @@ Msimbo wa chanzo wa Bitcoin Core hudumishwa katika hazina ya Git iliyopangishwa 
 Bitcoin na mtaalamu wa usalama Jameson Lopp anaelezea hili vizuri sana katika [chapisho la blogu](https://blog.lopp.net/who-controls-Bitcoin-core-/) yenye kichwa "Nani Anayedhibiti Bitcoin Core?":
 
 
-> Bitcoin Core ni kitovu cha ukuzaji wa itifaki ya Bitcoin badala ya hatua ya amri na udhibiti. Iwapo itakoma kuwepo kwa sababu yoyote ile, msingi mpya ungeibuka — jukwaa la mawasiliano ya kiufundi ambalo limeegemezwa (kwa sasa ni hazina ya GitHub) ni suala la urahisi badala ya kufafanua/uadilifu wa mradi. Kwa kweli, tayari tumeona kitovu cha Bitcoin cha majukwaa ya mabadiliko ya maendeleo na hata majina!
+> Bitcoin Core ni kitovu cha ukuzaji wa protocol ya Bitcoin badala ya hatua ya amri na udhibiti. Iwapo itakoma kuwepo kwa sababu yoyote ile, msingi mpya ungeibuka — jukwaa la mawasiliano ya kiufundi ambalo limeegemezwa (kwa sasa ni hazina ya GitHub) ni suala la urahisi badala ya kufafanua/uadilifu wa mradi. Kwa kweli, tayari tumeona kitovu cha Bitcoin kikibadilika kutoka kwenye majukwaa ya maendeleo hadi hata majina!
 
 Anaendelea kueleza jinsi programu ya Bitcoin Core inavyodumishwa na kulindwa dhidi ya mabadiliko mabaya ya msimbo. Muhtasari wa jumla kutoka kwa nakala hii kamili ni muhtasari wa mwisho wake:
 
@@ -1126,27 +1127,18 @@ Anaendelea kueleza jinsi programu ya Bitcoin Core inavyodumishwa na kulindwa dhi
 Msanidi wa Bitcoin Core Eric Lombrozo anazungumza zaidi kuhusu mchakato wa ukuzaji katika [chapisho lake la Kati](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) yenye jina "Mchakato wa Kuunganisha Msingi wa Bitcoin":
 
 
-> Mtu yeyote anaweza Fork hazina msingi wa msimbo na kufanya mabadiliko ya kiholela kwenye hazina yao wenyewe. Wanaweza kujenga mteja kutoka kwa hazina yao wenyewe na kuendesha badala yake ikiwa wanataka. Wanaweza pia kutengeneza miundo ya binary kwa watu wengine kuendesha.
+> Mtu yeyote anaweza ku-fork hazina ya msimbo na kufanya mabadiliko ya kiholela kwenye hazina yake mwenyewe. Anaweza kujenga mteja (client) kutoka kwenye hazina hiyo na kuiendesha badala ya kutumia Bitcoin Core ikiwa atataka. Pia anaweza kutengeneza matoleo ya binary kwa watu wengine kuendesha.
 >
+>Iwapo mtu anataka kuunganisha mabadiliko aliyoyafanya kwenye hazina yake ndani ya Bitcoin Core, anaweza kuwasilisha pull request. Mara tu inapowasilishwa, mtu yeyote anaweza kupitia mabadiliko hayo na kutoa maoni, bila kujali kama ana ruhusa ya commit kwenye Bitcoin Core au la.
 
-> Iwapo mtu anataka kuunganisha mabadiliko ambayo amefanya katika hazina yake katika Bitcoin Core, anaweza kuwasilisha ombi la kuvuta. Baada ya kuwasilishwa, mtu yeyote anaweza kukagua mabadiliko na kutoa maoni kuyahusu bila kujali kama amejitolea kufikia Bitcoin Core yenyewe.
+Ni muhimu kutambua kwamba pull requests zinaweza kuchukua muda mrefu sana kabla ya kuunganishwa kwenye hazina na waendelezaji wanaosimamia, na mara nyingi hii husababishwa na ukosefu wa mapitio, ambao nao hutokana na ukosefu wa wakaguzi wa msimbo.
 
-Ikumbukwe kwamba maombi ya kuvuta yanaweza kuchukua muda mrefu sana kabla ya kuunganishwa kwenye hazina na watunzaji, na hiyo ni kawaida kutokana na ukosefu wa ukaguzi, ambao mara nyingi husababishwa na ukosefu wa *wakaguzi*.
+Lombrozo pia anazungumzia kuhusu mchakato unaohusiana na mabadiliko ya consensus, lakini hilo linazidi upeo wa sura hii. Tazama Sura iliyotangulia ya "Upgrading" kwa maelezo zaidi kuhusu jinsi protocol ya Bitcoin huboreshwa.
 
+### Maendeleo Yasiyohitaji Ruhusa  
+Tumeweka wazi kwamba mtu yeyote anaweza kuandika msimbo kwa ajili ya Bitcoin Core bila kuhitaji ruhusa yoyote, ingawa si lazima mabadiliko hayo yaunganishwe kwenye hazina kuu ya Git. Hii inahusiana na aina yoyote ya marekebisho, kuanzia kubadilisha rangi za muonekano wa kiolesura cha picha, hadi namna ujumbe wa peer-to-peer unavyopangwa, na hata sheria za consensus, yaani seti ya sheria zinazofafanua blockchain halali.
 
-Lombrozo pia inazungumza juu ya mchakato unaozunguka mabadiliko ya makubaliano, lakini hiyo ni zaidi ya upeo wa sura hii. Tazama Sura ya awali "Kuboresha" kwa maelezo zaidi kuhusu jinsi itifaki ya Bitcoin inavyosasishwa.
-
-
-### Maendeleo bila ruhusa
-
-
-
-Tumegundua kuwa mtu yeyote anaweza kuandika msimbo wa Bitcoin Core bila kuomba ruhusa yoyote, lakini si lazima iwe imeunganishwa kwenye hazina kuu ya Git. Hii inaathiri urekebishaji wowote, kutoka kwa kubadilisha mipangilio ya rangi ya mtumiaji wa picha Interface, hadi jinsi ujumbe wa kati-ka-rika hupangwa, na hata sheria za makubaliano, yaani, seti ya sheria zinazofafanua Blockchain halali.
-
-
-Pengine muhimu sawa ni kwamba watumiaji wako huru kutengeneza mifumo juu ya Bitcoin, bila kuomba ruhusa yoyote. Tumeona miradi mingi ya programu iliyofanikiwa ambayo ilijengwa juu ya Bitcoin, kama vile:
-
-
+Labda jambo la muhimu vilevile ni kwamba watumiaji wako huru kuunda mifumo juu ya Bitcoin bila kuomba ruhusa yoyote. Tumeshuhudia miradi mingi ya programu iliyofanikiwa ambayo imejengwa juu ya Bitcoin, kama vile:
 
 - Lightning Network: Mtandao wa malipo unaoruhusu malipo ya haraka ya kiasi kidogo sana. Inahitaji shughuli chache sana za On-Chain Bitcoin. Utekelezaji mbalimbali unaoweza kutekelezwa upo, kama vile [Umeme wa Msingi](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), na [Lightning Devkining Kit](Lightning Devkit).
 - CoinJoin: Vyama vingi hushirikiana ili kuchanganya malipo yao katika shughuli moja ili kufanya Address kuunganishwa kuwa ngumu zaidi. Utekelezaji mbalimbali upo.
@@ -1154,18 +1146,13 @@ Pengine muhimu sawa ni kwamba watumiaji wako huru kutengeneza mifumo juu ya Bitc
 - OpenTimestamps: Inakuruhusu [Timestamp hati](https://opentimestamps.org/) kwenye Blockchain ya Bitcoin kwa njia ya faragha. Kisha unaweza kutumia hiyo Timestamp kuthibitisha kwamba hati lazima iwepo kabla ya muda fulani.
 
 
-Bila maendeleo yasiyo na kibali, mingi ya miradi hii isingewezekana. Kama ilivyoelezwa katika sura ya Kutoegemea upande wowote, ikiwa wasanidi programu walipaswa kuomba ruhusa ya kuunda itifaki juu ya Bitcoin, ni itifaki tu zinazoruhusiwa na kamati kuu ya upeanaji ya wasanidi programu ndizo zitatayarishwa.
-
+Bila maendeleo yasiyo na kibali, mingi ya miradi hii isingewezekana. Kama ilivyoelezwa katika sura ya Kutoegemea upande wowote, ikiwa wasanidi programu walipaswa kuomba ruhusa ya kuunda protocol juu ya Bitcoin, basi ni protocol tu zinazoorodheshwa na kamati kuu ya upeanaji ya wasanidi programu ndizo zitatayarishwa.
 
 Ni kawaida kwa mifumo kama ile iliyoorodheshwa hapo juu kujipatia leseni yenyewe kama programu huria, ambayo nayo inaruhusu watu kuchangia, kutumia tena, au kukagua misimbo yao bila kuomba ruhusa yoyote. Chanzo huria kimekuwa kiwango cha dhahabu cha utoaji leseni ya programu ya Bitcoin.
 
-
 ### Maendeleo ya jina bandia
 
-
-
 Kutolazimika kuomba ruhusa ya kutengeneza programu ya Bitcoin huleta chaguo la kuvutia na muhimu kwenye jedwali: unaweza kuandika na kuchapisha msimbo, katika Bitcoin Core au mradi wowote wa chanzo huria, bila kufichua utambulisho wako.
-
 
 Wasanidi wengi huchagua chaguo hili kwa kufanya kazi chini ya jina bandia na kujaribu kuliweka mbali na utambulisho wao wa kweli. Sababu za kufanya hivi zinaweza kutofautiana kutoka kwa msanidi programu hadi msanidi programu. Mtumiaji mmoja asiyejulikana ni ZmnSCPxj. Miongoni mwa miradi mingine, anachangia Bitcoin Core na Core Lightning, mojawapo ya utekelezaji kadhaa wa Lightning Network. [Anaandika](https://zmnscpxj.github.io/about.html) kwenye ukurasa wake wa wavuti:
 
@@ -1192,14 +1179,14 @@ Kwa ubishi, jina bandia linalojulikana zaidi katika Bitcoin ni Satoshi Nakamoto.
 
 
 - Kwa vile watu wengi wanakisia kuwa Nakamoto anamiliki Bitcoin nyingi, ni muhimu kwa usalama wake wa kifedha na kibinafsi kuweka utambulisho wake usijulikane.
-- Kwa kuwa utambulisho wake haujulikani, hakuna uwezekano wa kushtaki mtu yeyote, jambo ambalo linawapa mamlaka mbalimbali za serikali muda wa Hard.
+- Kwa kuwa utambulisho wake haujulikani, hakuna uwezekano wa kushtaki mtu yeyote, jambo ambalo linawapa mamlaka mbalimbali za serikali muda mgumu.
 - Hakuna mtu mwenye mamlaka wa kumtegemea, na kuifanya Bitcoin kuwa ya sifa na ustahimilivu zaidi dhidi ya udukuzi.
 
 
 Kumbuka kwamba pointi hizi hazishiki tu kwa Satoshi Nakamoto, lakini kwa mtu yeyote anayefanya kazi katika Bitcoin au anayeshikilia kiasi kikubwa cha sarafu, kwa viwango tofauti.
 
 
-### Uteuzi wa kriptografia
+### Uteuzi wa cryptography 
 
 
 Wasanidi programu huria mara nyingi hutumia maktaba huria zilizotengenezwa na watu wengine. Hii ni sehemu ya asili na ya kushangaza ya mfumo wowote wa ikolojia wenye afya. Lakini programu ya Bitcoin inahusika na pesa halisi na, kwa kuzingatia hili, watengenezaji wanahitaji kuwa waangalifu zaidi wakati wa kuchagua ni maktaba ya tatu ambayo inapaswa kutegemea.
@@ -1208,12 +1195,12 @@ Wasanidi programu huria mara nyingi hutumia maktaba huria zilizotengenezwa na wa
 Katika [mazungumzo kuhusu usimbaji fiche](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), Gregory Maxwell anataka kufafanua upya neno "cryptography" ambalo anaamini kuwa ni finyu sana. Anafafanua kuwa kimsingi *habari inataka kuwa huru*, na hufanya ufafanuzi wake wa kriptografia kwa kuzingatia hilo:
 
 
-> Siri za siri ni sanaa na sayansi tunayotumia kupigana na asili ya kimsingi ya habari, kuipinda kwa utashi wetu wa kisiasa na kiadili, na kuielekeza kwenye malengo ya wanadamu dhidi ya bahati nasibu na juhudi zote za kuzipinga.
+> Cryptography ni sanaa na sayansi tunayoyatumia kupambana na asili ya msingi ya taarifa, kuipinda kulingana na matakwa yetu ya kisiasa na kimaadili, na kuielekeza kwa malengo ya kibinadamu dhidi ya kila aina ya bahati nasibu na juhudi za kuipinga.
 
-Kisha anatanguliza neno *uteuzi wa kriptografia*, linalorejelewa kama sanaa ya kuchagua zana za kriptografia, na anaeleza kwa nini ni sehemu muhimu ya kriptografia. Inahusu jinsi ya kuchagua maktaba za kriptografia, zana, na mazoea, au kama asemavyo "mfumo wa siri wa kuchagua mifumo ya siri".
+Kisha anatambulisha dhana ya selection cryptography, ambayo inaelezwa kama sanaa ya kuchagua zana za cryptography, na anaeleza kwa nini ni sehemu muhimu ya cryptography. Inahusu jinsi ya kuchagua maktaba, zana, na mbinu za cryptographic — au kama asemavyo, "mfumo wa cryptographic wa kuchagua mifumo ya cryptographic".
 
 
-Kwa kutumia mifano madhubuti, anaonyesha jinsi kriptografia ya uteuzi inaweza kwenda vibaya kwa urahisi, na pia anapendekeza orodha ya maswali unayoweza kujiuliza unapoifanyia mazoezi. Ifuatayo ni toleo la distilled la orodha hiyo:
+Kwa kutumia mifano halisi, anaonyesha jinsi selection cryptography inaweza kwenda vibaya kwa urahisi, na pia anapendekeza orodha ya maswali ambayo unaweza kujiuliza unapoitekeleza. Hapa chini kuna toleo lililofupishwa la orodha hiyo:
 
 
 - Je, programu imekusudiwa kwa madhumuni yako?
@@ -1229,14 +1216,12 @@ Kwa kutumia mifano madhubuti, anaonyesha jinsi kriptografia ya uteuzi inaweza kw
 Ingawa huu sio mwongozo wa mwisho wa mafanikio, inaweza kusaidia sana kupitia vidokezo hivi wakati wa kuchagua kriptografia.
 
 
-Kutokana na masuala yaliyotajwa hapo juu na Maxwell, Bitcoin Core inajaribu Hard kwa kweli [kupunguza udhihirisho wake kwa maktaba za watu wengine](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Kwa kweli, huwezi kuondoa utegemezi wote wa nje, vinginevyo itabidi uandike kila kitu peke yako, kutoka kwa utoaji wa fonti hadi utekelezaji wa simu za mfumo.
+Kwa sababu ya changamoto zilizotajwa hapo juu na Maxwell, Bitcoin Core hujitahidi sana kupunguza utegemezi wake kwa maktaba kutoka kwa wahusika wa tatu. Bila shaka, huwezi kuondoa utegemezi wote wa nje kabisa, la sivyo ingebidi uandike kila kitu mwenyewe, kuanzia uonyeshaji wa fonti hadi utekelezaji wa system calls.
 
 
-### Kagua
+### Mapitio
 
-
-
-Sehemu hii inaitwa "Kagua", badala ya "Mapitio ya Msimbo", kwa sababu usalama wa Bitcoin unategemea sana ukaguzi katika viwango vingi, sio tu msimbo wa chanzo. Zaidi ya hayo, mawazo tofauti yanahitaji ukaguzi katika viwango tofauti: mabadiliko ya sheria ya makubaliano yatahitaji ukaguzi wa kina katika viwango zaidi ikilinganishwa na mabadiliko ya mpango wa rangi au kurekebisha makosa.
+Sehemu hii inaitwa "Mapitio" badala ya "Mapitio ya Msimbo" kwa sababu usalama wa Bitcoin unategemea sana mapitio katika ngazi mbalimbali, si tu katika msimbo wa chanzo. Zaidi ya hayo, mawazo tofauti yanahitaji mapitio katika viwango tofauti: mabadiliko ya sheria za consensus yanahitaji mapitio ya kina zaidi katika ngazi nyingi ikilinganishwa na mabadiliko ya rangi ya muonekano au marekebisho ya tahajia.
 
 
 Katika kuelekea kupitishwa kwa mwisho, wazo kawaida hutiririka kupitia awamu kadhaa za majadiliano na mapitio. Baadhi ya awamu hizi zimeorodheshwa hapa chini:
@@ -1245,14 +1230,14 @@ Katika kuelekea kupitishwa kwa mwisho, wazo kawaida hutiririka kupitia awamu kad
 
 - Wazo limechapishwa kwenye orodha ya barua pepe ya Bitcoin-dev
 - Wazo hilo limerasimishwa kuwa Pendekezo la Uboreshaji la Bitcoin (BIP)
-- BIP inatekelezwa katika ombi la kuvuta (PR) kwa Bitcoin Core
+- BIP inatekelezwa katika Pull request (PR) kwa Bitcoin Core
 - Mbinu za upelekaji zinajadiliwa
 - Baadhi ya mbinu shindani za uwekaji zinatekelezwa katika maombi ya kuvuta kwa Bitcoin Core
 - Maombi ya kuvuta yanaunganishwa kwa tawi kuu
 - Watumiaji huchagua kama watatumia programu au la
 
 
-Katika kila moja ya awamu hizi watu walio na maoni na asili tofauti hukagua taarifa inayopatikana, iwe msimbo wa chanzo, BIP, au wazo lililofafanuliwa kwa urahisi. Awamu kwa kawaida hazifanywi kwa namna yoyote kali ya juu-chini, kwa hakika awamu nyingi zinaweza kutokea kwa wakati mmoja, na wakati mwingine unarudi na kurudi kati yao. Watu tofauti wanaweza pia kutoa maoni wakati wa awamu tofauti.
+Katika kila moja ya awamu hizi, watu walio na maoni na asili tofauti hukagua taarifa inayopatikana, iwe ni msimbo wa chanzo, BIP, au wazo lililofafanuliwa kwa urahisi. Awamu kwa kawaida hazifanywi kwa namna yoyote kali ya juu-chini; kwa hakika, awamu nyingi zinaweza kutokea kwa wakati mmoja, na wakati mwingine kuna kurudi na kurudia kati yao. Watu tofauti wanaweza pia kutoa maoni wakati wa awamu tofauti.
 
 
 Mmoja wa wakaguzi mahiri wa msimbo kwenye Bitcoin Core ni Jon Atack. Aliandika [chapisho la blogu](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) kuhusu jinsi ya kukagua maombi ya kuvuta katika Bitcoin Core. Anasisitiza kuwa mhakiki mzuri wa msimbo huzingatia jinsi ya kuongeza thamani.
@@ -1285,8 +1270,6 @@ inapendekeza orodha ya maswali ambayo unaweza kujiuliza katika viwango mbalimbal
 
 ### Ufadhili
 
-
-
 Watu wengi hufanya kazi na ukuzaji wa chanzo huria cha Bitcoin, ama kwa Bitcoin Core au kwa miradi mingine. Wengi hufanya hivyo kwa muda wao wa ziada bila kupata fidia yoyote, lakini watengenezaji wengine pia wanalipwa kuifanya.
 
 
@@ -1296,19 +1279,17 @@ Makampuni, watu binafsi na mashirika ambayo yana nia ya kuendelea kwa mafanikio 
 ### Mshtuko wa kitamaduni
 
 
-
 Wakati mwingine watu hupata hisia kuwa kuna mijadala mingi na mijadala mikali isiyoisha kati ya wasanidi wa Bitcoin, na kwamba hawana uwezo wa kufanya maamuzi.
 
 
-Kwa mfano, utaratibu wa kupeleka Taproot, ulijadiliwa kwa muda mrefu ambapo "kambi" mbili ziliunda. Mmoja alitaka "kushindwa" uboreshaji ikiwa wachimbaji hawakupiga kura kwa wingi kwa sheria mpya baada ya muda fulani, wakati mwingine alitaka kutekeleza sheria baada ya wakati huo bila kujali. Michael Folkson anatoa muhtasari wa hoja kutoka kwa kambi hizo mbili katika [barua pepe](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) hadi orodha ya Bitcoin-dev.
+Kwa mfano, mbinu ya utekelezaji ya Taproot ilijadiliwa kwa muda mrefu ambapo "makundi" mawili yaliibuka. Moja lilitaka uboreshaji "ushindwe" ikiwa wachimbaji hawangepiga kura kwa wingi kuunga mkono sheria mpya baada ya muda fulani, huku jingine likitaka sheria hizo zitekelezwe baada ya muda huo bila kujali. Michael Folkson anatoa muhtasari wa hoja kutoka kwa makundi hayo mawili katika barua pepe kwa orodha ya barua ya Bitcoin-dev.
 
-
-Mjadala uliendelea kuonekana kuwa wa milele, na ilikuwa kweli Hard kuona makubaliano yoyote juu ya kuunda hii wakati wowote hivi karibuni. Hili liliwakatisha tamaa watu na matokeo yake joto likaongezeka. Gregory Maxwell (kama mtumiaji nullc) akiwa na wasiwasi [kwenye Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3):
+Mjadala uliendelea kuonekana kuwa wa milele, na ilikuwa kweli ngumu kuona makubaliano yoyote juu ya kuunda hii wakati wowote hivi karibuni. Hili liliwakatisha tamaa watu na matokeo yake joto likaongezeka. Gregory Maxwell (kama mtumiaji nullc) akiwa na wasiwasi [kwenye Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3):
 
 
 > Kwa wakati huu, kusubiri zaidi hakuongezi ukaguzi na uhakika zaidi. Badala yake, ucheleweshaji wa ziada unapunguza hali na uwezekano wa kuongeza hatari kwa kiasi fulani kadiri watu wanavyoanza kusahau maelezo, kuchelewesha kazi ya utumiaji wa mkondo wa chini (kama vile usaidizi wa Wallet), na kutowekeza juhudi nyingi zaidi za ukaguzi kama wangekuwa wakiwekeza ikiwa wanahisi uhakika kuhusu muda wa kuwezesha.
 
-Hatimaye, mzozo huu ulitatuliwa kutokana na pendekezo jipya la David Harding na Russel O'Connor liitwalo Speedy Trial, ambalo lilihusisha kipindi kifupi cha kuashiria kwa wachimbaji kufunga kuwezesha Taproot, au kushindwa haraka. Ikiwa wangeiwasha katika kipindi hicho cha muda, basi Taproot ingetumwa takriban miezi 6 baadaye.
+Hatimaye, mzozo huu ulitatuliwa kutokana na pendekezo jipya la David Harding na Russel O'Connor liitwalo Speedy Trial, ambalo lilihusisha kipindi kifupi cha kuashiria kwa miners kufunga kuwezesha Taproot, au kushindwa haraka. Ikiwa wangeiwasha katika kipindi hicho cha muda, basi Taproot ingetumwa takriban miezi 6 baadaye.
 
 
 Mtu ambaye hajazoea mchakato wa ukuzaji wa Bitcoin anaweza kufikiria kuwa mijadala hii mikali inaonekana mbaya na hata yenye sumu. Kuna angalau sababu mbili zinazowafanya waonekane mbaya, kwa macho ya watu wengine:

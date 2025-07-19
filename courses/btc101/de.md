@@ -206,32 +206,32 @@ Währungen entwickeln sich auch heute noch weiter und passen ihre Formen an die 
 
 Andererseits bietet der Bitcoin neue Möglichkeiten. Seine Eigenschaften, wie das streng begrenzte Angebot, machen ihn zu einem hervorragenden Wertaufbewahrungsmittel. Außerdem dient er als neutrale Internetwährung als praktikables **Tauschmittel**, das Grenzen überschreitet. Allerdings ist er trotz seiner [ständigen Verbreitung](https://btcmap.org/map) im Handel noch nicht weithin akzeptiert.
 
-## Treuhandwährungen
+## Fiat-Währungen
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 > "Diejenigen, die sich nicht an die Vergangenheit erinnern können, sind dazu verdammt, sie zu wiederholen", sagte George Santayana.
-> Eine Wahrheit, die in Bezug auf das derzeitige Währungssystem durchaus ihre Berechtigung hat.
+> Eine Wahrheit, die in Bezug auf das derzeitige Währungssystem überzeugend nachhallt.
 
-### Treuhänder = Trust
+### Fiat = Vertrauen
 
-Heute gelten wichtige Währungen wie der Euro und der Dollar als Treuhandwährungen. Das bedeutet, dass sie keinen inneren Wert haben und vollständig von dem Vertrauen abhängen, das wir in die Institutionen setzen, die sie verwalten.
+Heute gelten wichtige Währungen wie der Euro und der Dollar als Fiat-Währungen. Das bedeutet, dass sie keinen inneren Wert haben und vollständig von dem Vertrauen abhängen, das wir in die Institutionen setzen, die sie verwalten.
 
-Eine Treuhandwährung ist eine Geldform, die von einer Institution, d. h. einem Staat, wie China mit dem Yuan, oder einer politisch-wirtschaftlichen Union, wie die Europäische Union mit dem Euro, als solche dekretiert wird. Die für seine Ausgabe zuständige Stelle ist die Zentralbank (z. B. die People's Bank of China, die Federal Reserve of the United States oder die Zentralbank der Republik Guinea). Genau diese Stellen sind für die Festlegung der Geldpolitik zuständig und bestimmen somit, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
+Eine Fiat-Währung ist eine Geldform, die von einer Institution, d. h. einem Staat, wie China mit dem Yuan, oder einer politisch-wirtschaftlichen Union, wie die Europäische Union mit dem Euro, als solche dekretiert wird. Die für seine Ausgabe zuständige Stelle ist die Zentralbank (z. B. die People's Bank of China, die Federal Reserve of the United States oder die Central Bank of the Republic of Guinea). Genau diese Stellen sind für die Festlegung der Geldpolitik zuständig und bestimmen somit, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
 
 ![image](assets/en/12.webp)
 
 ### Geldentwertung: eine Strategie so alt wie das Römische Reich
 
-Seit der Antike diente Gold als monetäre Referenz, aber seine Starrheit hat die Regierenden, ob römische Kaiser oder moderne Regierungen, oft dazu veranlasst, alternative Währungen einzuführen, die oft treuhänderisch sind.
+Seit der Antike diente Gold als monetäre Referenz, aber seine Starre hat die Regierenden, ob römische Kaiser oder moderne Regierungen, oft dazu veranlasst, alternative Währungen einzuführen, heufig vertrauensbasiertes Fiat-Geld.
 
 Der Mechanismus ist einfach und beruht auf Praktiken, die seit den Anfängen der Zivilisation bestehen. Staatsoberhäupter, die die Kontrolle über den Reichtum ausüben wollen, beginnen mit der Zentralisierung des Goldes, wobei sie häufig ihre Macht ausnutzen und Schutz und Sicherheit versprechen. Mit dieser wertvollen Reserve in der Hand führen sie eine neue Währung ein, deren Wert dem des Goldes entspricht, die aber nach ihrem Abbild geprägt wird. Diese Währung beginnt dann zu zirkulieren, und die Menschen gewöhnen sich schnell an die Bequemlichkeit ihrer einfachen Verwendung.
 
-Allerdings beginnen diese Führer dann, die neue Währung schrittweise abzuwerten, indem sie ihren Wert de facto jedes Jahr um einige Prozent im Vergleich zum ursprünglichen Goldpreis senken. Diese stillschweigende Abwertung wird oft damit begründet, dass sie im Interesse des Volkes sei. In Wirklichkeit sehen diejenigen, die in dieser Treuhandwährung sparen, den Wert ihrer Ersparnisse schwinden, während der Staat seine Projekte durch Inflation finanziert. Außerdem erleichtert diese Abwertung die Rückzahlung der Schulden.
+Allerdings beginnen diese Führer dann, die neue Währung schrittweise abzuwerten, indem sie ihren Wert de facto jedes Jahr um einige Prozent im Vergleich zum ursprünglichen Goldpreis senken. Diese stillschweigende Abwertung wird oft damit begründet, dass sie im Interesse des Volkes sei. In Wirklichkeit sehen diejenigen, die in dieser vertrauensbasierten Währung sparen, den Wert ihrer Ersparnisse schwinden, während der Staat seine Projekte durch Inflation finanziert. Außerdem erleichtert diese Abwertung die Rückzahlung der Schulden.
 
 ![image](assets/en/13.webp)
 
-In einem kritischen Moment verkündet der Führer: Die Währung ist nicht mehr durch Gold gedeckt. Die Öffentlichkeit, die inzwischen an die Treuhandwährung gewöhnt und in Finanzfragen oft falsch informiert ist, akzeptiert diese Realität und erlaubt dem Staat, die Geldmenge frei zu manipulieren und enorme Geldsummen fast ohne Kosten zu drucken.
+In einem kritischen Moment verkündet der Führer: Die Währung ist nicht mehr durch Gold gedeckt. Die Öffentlichkeit, die inzwischen an die Fiat-Währung gewöhnt und in Finanzfragen oft falsch informiert ist, akzeptiert diese Realität und erlaubt dem Staat, die Geldmenge frei zu manipulieren und enorme Geldsummen fast ohne Kosten zu drucken.
 
 Gelddrucken führt dann zu Inflation und allmählicher Verarmung der Bevölkerung. Außerdem wird das Finanzsystem reguliert und eingeschränkt, um seinen Zusammenbruch zu verhindern, da jede Störung eine große Wirtschaftskrise auslösen könnte. Im Gegensatz zu den Massen profitieren Finanzinstitute und reiche Einzelpersonen in hohem Maße von diesem System, das eine Kluft der Ungleichheit schafft und den Autoritarismus begünstigt. Vor diesem Hintergrund besteht für sie kein Anreiz, radikale Veränderungen vorzunehmen, so dass das System seinen Kurs bis zu einer möglichen Implosion fortsetzen kann.
 

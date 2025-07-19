@@ -413,17 +413,17 @@ Wusstest du, dass Miner einen Anreiz haben, einen Block zu minen, um neue Bitcoi
 
 Wenn sich also die Zahl der ausgegebenen Bitcoins der 21-Millionen-Grenze nähert, werden die Miner mehr über ihre Transaktionsgebühren als über die Blocksubvention entlohnt.
 
-- Die Spieltheorie ist ein mathematisches Konzept, das sich auf die menschliche Rationalität stützt. Sie geht davon aus, dass Individuen logisch handeln und versuchen, ihren eigenen Nutzen zu maximieren, während sie die möglichen Entscheidungen anderer berücksichtigen. In Bitcoin hilft die Spieltheorie dabei, sicherzustellen, dass die Mehrheit der Miner und Nutzer im besten Interesse des Netzwerks handelt. Da Protokolländerungen von den Nutzern abgestimmt werden, würde jede Änderung des Bitcoin-Protokolls die Zustimmung der gesamten Nutzergemeinschaft erfordern, was sehr komplex ist. Wenn also jemand einen 22-Millionen-Bitcoin schaffen wollte, müsste er alle Nutzer davon überzeugen, ihre eigenen Ersparnisse freiwillig zu entwerten, was unwahrscheinlich ist, da Bitcoin global ist und nicht von einer zentralen Gruppe gesteuert wird.
+- Die Spieltheorie ist ein mathematisches Konzept, das sich auf die menschliche Rationalität stützt. Sie geht davon aus, dass Individuen logisch handeln und versuchen, ihren eigenen Nutzen zu maximieren, während sie die möglichen Entscheidungen anderer berücksichtigen. In Bitcoin hilft die Spieltheorie dabei, sicherzustellen, dass die Mehrheit der Miner und Nutzer im besten Interesse des Netzwerks handelt. Da Protokolländerungen von den Nutzern abgestimmt werden, würde jede Änderung des Bitcoin-Protokolls die Zustimmung der gesamten Nutzergemeinschaft erfordern, was sehr komplex ist. Wenn also jemand einen 22-millionsten Bitcoin schaffen wollte, müsste er alle Nutzer davon überzeugen, ihre eigenen Ersparnisse freiwillig zu entwerten, was unwahrscheinlich ist, da Bitcoin global ist und nicht von einer zentralen Gruppe gesteuert wird.
 
 ![image](assets/en/25.webp)
 
 Die Idee, die Währung abzuwerten, widerspricht der grundlegenden Philosophie von Bitcoin, so dass eine Änderung der Gesamtmenge höchst unwahrscheinlich ist.
 
-### Eine prüfbare Geldmolalität: jede Sekunde, von Anfang an und für immer!
+### Eine überprüfbare Geldpolitik: jede Sekunde, von Anfang an und für immer!
 
 Die Knappheit von Bitcoin ist ein großer Vorteil, und die Höchstmenge von 21 Millionen Bitcoins im Umlauf ist öffentlich und für jedermann überprüfbar.
 
-Tatsächlich kann jeder dies über einen Bitcoin-Knoten (d.h. einen Transaktionsvalidierer) tun, indem er einfach den folgenden Befehl eingibt: `bitcoin-cli gettxoutsetinfo`. Diese Transparenz stärkt das Vertrauen in das Bitcoin-System, das nicht auf zentralen Institutionen oder Einzelpersonen beruht, sondern auf den mathematischen und kryptografischen Garantien, die dem Protokoll innewohnen (wie das geht, erfahren Sie in LNP201).
+Tatsächlich kann dies jeder über eine Bitcoin-Node (d.h. einen Transaktionsvalidierer) tun, indem er einfach den folgenden Befehl eingibt: `bitcoin-cli gettxoutsetinfo`. Diese Transparenz stärkt das Vertrauen in das Bitcoin-System, das nicht auf zentralen Institutionen oder Einzelpersonen beruht, sondern auf den mathematischen und kryptografischen Garantien, die dem Protokoll innewohnen (wie das geht, erfahren Sie in LNP201).
 
 ```json
 {
@@ -442,7 +442,7 @@ Bitcoin garantiert eine solide Geldverwaltung, da seine Schöpfung von vornherei
 
 Zusammenfassend lässt sich sagen, dass Bitcoin mit seiner dezentralen Natur, seiner programmierten Knappheit und seiner Transparenz eine einzigartige Alternative zu traditionellen Geldsystemen bietet. Er veranschaulicht, wie Technologie genutzt werden kann, um eine Währung zu schaffen, die nicht nur nützlich und überprüfbar ist, sondern auch den Wert der Ersparnisse der Nutzer durch eine strikte Begrenzung des Angebots bewahrt.
 
-### Abschluss von Abschnitt 1!
+### Abschluss von Abschnitt 2!
 
 # Bitcoin-Geldbörsen
 

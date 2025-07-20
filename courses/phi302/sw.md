@@ -38,11 +38,34 @@ Kitabu hiki kiliidhinishwa na kufadhiliwa na [Chaincode Labs](https://learning.c
 
 
 +++
+# Utangulizi  
 
-# Bitcoin Maadili ya Kati
+<partId>58c48e9b-e285-4dc6-8952-6cc5140b1313</partId>
 
+## Muhtasari wa Kozi  
+
+<chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
+
+Karibu kwenye kozi hii ya PHI 301 kuhusu falsafa ya maendeleo ya Bitcoin.
+
+Bitcoin ni zaidi ya sarafu-fiche; inawakilisha maono ya kifalsafa kuhusu ugatuaji, faragha, Trustlessness, na ustahimilivu. Kozi hii imeundwa mahsusi kwa watengenezaji ambao tayari wanaelewa misingi ya kiufundi ya Bitcoin na sasa wanataka kuimarisha uelewa wao wa kanuni zinazosimamia muundo na uongozi wa Bitcoin.
+
+Katika kozi hii, utapata uelewa wazi wa maadili na mikakati msingi ambayo imeiongoza Bitcoin kwa zaidi ya muongo mmoja. Kwa kuchunguza kwa kina mada hizi, utajenga mtazamo muhimu unaohitajika ili kutathmini na kuchangia maendeleo ya baadaye kwa kujiamini.
+
+### Maadili ya Msingi ya Bitcoin
+
+Ni nini kinachofanya Bitcoin kuwa ya kipekee? Sehemu hii inafichua maadili ya msingi yaliyo katika muundo wa Bitcoin. Utachunguza **ugatuaji**, msingi unaohakikisha kuwa hakuna taasisi moja inayodhibiti mtandao; **Trustlessness**, ufunguo wa kuondoa utegemezi wa wahusika wa kati; **faragha**, muhimu kwa uhuru wa mtu binafsi na uadilifu wa mfumo; na **Finite Supply**, uhaba uliowekwa kimakodi unaounda utambulisho wa kiuchumi wa Bitcoin. Ukifahamu dhana hizi kikamilifu, utaweza kuelewa vyema nguvu na udhaifu wa Bitcoin.
+
+### Uongozi wa Bitcoin
+
+Kuongoza katika mazingira changamano ya uongozi wa Bitcoin kunahitaji zaidi ya ujuzi wa kiufundi—kunahitaji uelewa wa njia ya kipekee ya Bitcoin kuhusu makubaliano na maamuzi. Katika sehemu hii, utachunguza taratibu na falsafa zilizo nyuma ya michakato muhimu kama maboresho ya itifaki, umuhimu wa fikra za kiadui (adversarial thinking), nguvu ya ushirikiano wa wazi (open-source), changamoto zinazoendelea za scaling, na mikakati ya kina ya kushughulikia changamoto zinapotokea. Ukiwa na maarifa haya, utakuwa tayari si tu kushiriki, bali pia kuunda mustakabali wa Bitcoin kwa ufanisi na uwajibikaji.
+
+Tayari kuchukua hatua inayofuata katika safari yako ya Bitcoin? Twende kazi!
+
+***Kumbuka**: Ikiwa utakutana na maneno yoyote yasiyoeleweka yanayohusiana na Bitcoin wakati wa kozi, tafadhali tazama [kamusi](https://planb.network/resources/glossary) kwa maana zake.*
+
+# Maadili ya Msingi ya Bitcoin  
 <partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
-
 
 
 ## Ugatuaji

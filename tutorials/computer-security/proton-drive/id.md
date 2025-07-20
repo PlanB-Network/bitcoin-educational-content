@@ -11,7 +11,7 @@ Untuk mencegah masalah ini, saya menyarankan untuk menjaga beberapa salinan cada
 - Disimpan setidaknya pada **2** jenis media yang berbeda;
 - Dengan setidaknya **1** salinan disimpan di lokasi lain.
 
-Dengan kata lain, sangat disarankan untuk menyimpan berkas Anda di 3 lokasi berbeda, menggunakan jenis media yang bervariasi, seperti komputer Anda, hard drive eksternal, USB stick, atau layanan penyimpanan online. Dan terakhir, memiliki salinan di lokasi lain berarti Anda harus menyimpan cadangan di luar rumah atau tempat bisnis Anda. Poin terakhir ini membantu menghindari kerugian total berkas Anda jika terjadi bencana lokal seperti kebakaran atau banjir. Salinan eksternal, yang jauh dari lokasi utama Anda, memastikan data Anda akan tetap bertahan terlepas dari risiko lokal.
+Dengan kata lain, sangat disarankan untuk menyimpan berkas Anda di 3 lokasi berbeda, menggunakan jenis media yang bervariasi, seperti komputer Anda, hard drive eksternal, USB stick, atau layanan penyimpanan online. Dan terakhir, memiliki salinan di lokasi lain berarti Anda harus menyimpan cadangan di luar rumah atau tempat bisnis Anda. Poin terakhir ini membantu menghindari kerugian total berkas Anda jika terjadi bencana lokal seperti kebakaran atau banjir. Salinan eksternal, yang jauh dari rumah atau bisnis Anda, memastikan data Anda akan tetap bertahan terlepas dari risiko lokal.
 
 Untuk memfasilitasi implementasi strategi pencadangan 3-2-1, Anda dapat memanfaatkan layanan penyimpanan online. Solusi ini, yang secara umum disebut "cloud", menawarkan perlindungan tambahan dengan menyimpan data Anda pada server yang aman dan dapat diakses dari perangkat mana pun. Istilah "cloud" sendiri merujuk pada penyimpanan data pada server eksternal.
 

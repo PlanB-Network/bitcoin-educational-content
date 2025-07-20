@@ -41,6 +41,7 @@ Kemudian instal GPG dengan perintah ini:
 ```bash
 brew install gnupg
 ```
+
 Untuk **Windows**, jika Anda tidak memiliki GPG, Anda dapat menginstal perangkat lunak [Gpg4win](https://www.gpg4win.org/).
 ![GnuPG](assets/notext/01.webp)
 
@@ -59,10 +60,11 @@ Anda juga akan membutuhkan hash file, sering disebut "*SHA256SUMS*" atau "*MANIF
 ![GnuPG](assets/notext/05.webp)
 
 Unduh juga tanda tangan PGP dari file tersebut. Ini adalah dokumen dalam format `.asc`.
-
 ![GnuPG](assets/notext/06.webp)
+
 Pastikan untuk menempatkan semua file ini dalam folder yang sama untuk langkah-langkah berikutnya.
-Akhirnya, Anda akan memerlukan kunci publik pengembang, yang akan kita gunakan untuk memverifikasi tanda tangan PGP. Kunci ini sering tersedia baik di situs web perangkat lunak, di repositori GitHub proyek, terkadang di media sosial pengembang, atau di situs khusus seperti Keybase. Dalam kasus Sparrow Wallet, Anda dapat menemukan kunci publik pengembang Craig Raw [di Keybase](https://keybase.io/craigraw). Untuk mengunduhnya langsung dari terminal, eksekusi perintah:
+
+Terakhir, Anda akan membutuhkan kunci publik pengembang yang akan kita gunakan untuk memverifikasi tanda tangan PGP. Kunci ini sering kali tersedia di situs web perangkat lunak, di repositori GitHub proyek, terkadang di media sosial pengembang, atau di situs khusus seperti Keybase. Untuk Sparrow Wallet, Anda bisa menemukan kunci publik pengembang Craig Raw [di Keybase](https://keybase.io/craigraw). Untuk mengunduhnya langsung dari terminal, jalankan perintah:
 
 ```bash
 curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
@@ -79,7 +81,6 @@ gpg --import [lokasi kunci]
 ```
 
 Ganti `[lokasi kunci]` dengan lokasi file kunci publik pengembang.
-
 ![GnuPG](assets/notext/08.webp)
 
 Verifikasi tanda tangan dengan perintah berikut:
@@ -88,16 +89,15 @@ Verifikasi tanda tangan dengan perintah berikut:
 gpg --verify [file.asc]
 ```
 
-Ganti `[file.asc]` dengan jalur file tanda tangan. Dalam kasus Sparrow, file ini disebut "*sparrow-2.0.0-manifest.txt.asc*" untuk versi 2.0.0.
-
+Ganti `[file.asc]` dengan jalur (path) file tanda tangan. Dalam kasus Sparrow, file ini disebut "*sparrow-2.0.0-manifest.txt.asc*" untuk versi 2.0.0.
 ![GnuPG](assets/notext/09.webp)
 
-Jika tanda tangan valid, GPG akan mengindikasikan hal ini kepada Anda. Anda kemudian dapat melanjutkan ke langkah selanjutnya, karena ini mengonfirmasi keaslian file.
-
+Jika tanda tangan itu valid, GPG akan memberi tahu Anda. Dengan begitu, Anda bisa lanjut ke langkah berikutnya, karena ini mengonfirmasi keaslian file tersebut.
 ![GnuPG](assets/notext/10.webp)
 
 ## Memverifikasi Hash
-Sekarang keaslian perangkat lunak telah dikonfirmasi, juga perlu untuk memverifikasi integritasnya. Kita akan membandingkan hash perangkat lunak dengan hash yang disediakan oleh pengembang. Jika keduanya cocok, ini menjamin bahwa kode perangkat lunak tidak telah diubah.
+
+Setelah keaslian perangkat lunak dikonfirmasi, Anda juga perlu memverifikasi integritasnya. Kita akan membandingkan hash perangkat lunak tersebut dengan hash yang disediakan oleh pengembang. Jika keduanya cocok, ini menjamin bahwa kode perangkat lunak tidak diubah.
 
 Di **Windows**, buka terminal dan eksekusi perintah berikut:
 
@@ -106,17 +106,14 @@ CertUtil -hashfile [lokasi file] SHA256 | findstr /v "hash"
 ```
 
 Ganti `[lokasi file]` dengan lokasi installer.
-
 ![GnuPG](assets/notext/11.webp)
 
 Terminal akan mengembalikan hash dari perangkat lunak yang diunduh.
-
 ![GnuPG](assets/notext/12.webp)
 
 Perlu diketahui, untuk beberapa perangkat lunak, mungkin perlu menggunakan fungsi hash yang berbeda dari SHA256. Dalam kasus ini, cukup ganti nama fungsi hash dalam perintah.
 
 Kemudian bandingkan hasilnya dengan nilai yang sesuai dalam file "*sparrow-2.0.0-manifest.txt*".
-
 ![GnuPG](assets/notext/13.webp)
 
 Dalam kasus saya, kita melihat bahwa kedua hash cocok dengan sempurna.
@@ -151,9 +148,9 @@ Dan jika hash cocok, Anda seharusnya melihat keluaran berikut:
 sparrow_2.0.0-1_amd64.deb: OK
 ```
 
-Anda sekarang dapat yakin bahwa perangkat lunak yang telah Anda unduh adalah asli dan utuh. Anda dapat melanjutkan dengan instalasi pada mesin Anda.
+Sekarang Anda sudah yakin bahwa perangkat lunak yang Anda unduh asli dan tidak rusak. Anda bisa melanjutkan dengan instalasinya di komputer Anda.
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jempol ke atas di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!
+Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jempol ke atas di bawah ini. Jangan ragu untuk membagikan artikel ini di media sosial Anda. Terima kasih banyak!
 
 Saya juga merekomendasikan untuk memeriksa tutorial lain tentang VeraCrypt, sebuah perangkat lunak yang memungkinkan Anda untuk mengenkripsi dan mendekripsi perangkat penyimpanan.
 

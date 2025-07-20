@@ -1,11 +1,9 @@
-question: Jaka jest główna cecha Blockchain bez Proof of Work?
-answer: Nie ma żadnej realnej wartości
+question: Jaka strategia inwestycyjna jest głównie wykorzystywana przez układacza?
+answer: Uśrednianie kosztów w dolarach
 wrong_answers:
-  - Jest bardziej bezpieczny
-  - Jest szybszy
-  - Jest bardziej zdecentralizowany
+  - Handel dzienny
+  - Arbitraż
+  - Ryczałt
 explanation: |
-  Treść rozdziału stwierdza, że bez Proof of Work, Blockchain
-  nie ma rzeczywistej wartości. Jest to kluczowa cecha, która odróżnia Bitcoin od innych kryptowalut
-  kryptowalut.
+  DCA obejmuje regularne inwestowanie stałej kwoty w celu zmniejszenia wpływu zmienności rynku na portfel.
 reviewed: false

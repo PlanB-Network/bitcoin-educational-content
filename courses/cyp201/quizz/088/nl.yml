@@ -1,0 +1,9 @@
+question: Welk voorvoegsel wordt gebruikt om een gecomprimeerde openbare sleutel met een oneven y-coördinaat aan te geven?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Het voorvoegsel 0x03 geeft een gecomprimeerde openbare sleutel met een oneven y-coördinaat aan.
+reviewed: false

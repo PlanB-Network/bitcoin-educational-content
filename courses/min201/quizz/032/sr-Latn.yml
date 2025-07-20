@@ -1,0 +1,11 @@
+question: Kakva je nagrada za rudare u Bitcoin mreži?
+answer: Novi bitkoini i naknade za transakcije.
+wrong_answers:
+  - Samo novi bitkoini.
+  - Samo naknade za transakciju.
+  - Nema nagrade za rudare.
+explanation: |
+  Rudari u mreži Bitcoin su nagrađeni novim
+  bitcoinima i naknadama za transakcije za njihov rad u
+  validaciji i kreiranju blokova.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Šta se dešava ako Alisa ne dobije Bobov potpis za transakciju povlačenja?
+answer: Ona rizikuje da izgubi pristup svojim sredstvima deponovanim u multisignature Address.
+wrong_answers:
+  - Ona više ne može komunicirati sa Bobom na Lightning Network
+  - Kanal se otvara sa ograničenim kapacitetom
+  - Bob automatski prima sredstva u kanalu
+explanation: |
+  Bez Bobovog potpisa na transakciji povlačenja, Alisa ne može osigurati povrat svojih sredstava u slučaju problema, što predstavlja rizik od gubitka.
+reviewed: false

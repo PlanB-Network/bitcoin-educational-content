@@ -1,12 +1,9 @@
-question: Co oznacza brak klucza prywatnego do Bitcoin Wallet?
-answer: Strona trzecia jest odpowiedzialna za bezpieczeństwo bitcoinów użytkownika
+question: Jakie rozwiązanie pamięci masowej Cold jest zalecane dla paranoicznego użytkownika?
+answer: Hardware Wallet z przepustem powietrznym lub DIY
 wrong_answers:
-  - Straciłeś wszystkie swoje bitcoiny
-  - Nie można już dokonywać transakcji przy użyciu bitcoinów
-  - Twoje bitcoiny są automatycznie konwertowane na inną kryptowalutę
+  - Mobilny Hot Wallet
+  - Usługa dozoru na platformie Exchange
+  - Hardware Wallet o zamkniętym kodzie źródłowym ogólnego przeznaczenia
 explanation: |
-  Jeśli nie posiadasz klucza prywatnego do Bitcoin Wallet, oznacza to, że
-  strona trzecia jest odpowiedzialna za bezpieczeństwo Twoich bitcoinów. Podlegają one
-  na takie samo ryzyko jak platformy Exchange, takie jak hakowanie, przejęcie, regulacja lub
-  bankructwo.
+  Paranoiczny użytkownik preferuje przechowywanie offline z rozwiązaniami open-source, aby zminimalizować ryzyko narażenia.
 reviewed: false

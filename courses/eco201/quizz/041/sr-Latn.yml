@@ -1,0 +1,9 @@
+question: Koja je uloga bankarskog sektora u pokretanju recesije prema Austrijskoj teoriji poslovnog ciklusa?
+answer: Bankarski sektor izaziva recesiju kada odluči da smanji svoj rizik i stoga umanji tok kredita.
+wrong_answers:
+  - Bankarski sektor izaziva recesiju kada odluči da poveća svoj rizik i stoga poveća protok kredita.
+  - Bankarski sektor pokreće recesiju kada odluči da zadrži svoj rizik i stoga održava tok kredita.
+  - Bankarski sektor nema ulogu u izazivanju recesije prema Austrijskoj teoriji poslovnog ciklusa.
+explanation: |
+  Prema austrijskoj teoriji poslovnog ciklusa, bankarski sektor pokreće recesiju kada odluči da smanji svoj rizik i stoga smanji tok kredita. To dovodi do mnogih bankrota, pooštravanja kredita, smanjenja dostupne kupovne moći i finansijskih kolapsa.
+reviewed: true

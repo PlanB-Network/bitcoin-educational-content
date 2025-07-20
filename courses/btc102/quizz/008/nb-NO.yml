@@ -1,10 +1,9 @@
-question: Hva er hovedformålet med en programvareoppdatering?
-answer: Å fikse feil og forbedre sikkerheten til programvaren din
+question: Hvorfor er det viktig å oppdatere systemet og programvaren regelmessig?
+answer: Å fikse kjente sikkerhetshull
 wrong_answers:
-  - Å legge til nye funksjoner
-  - Å endre programvaregrensesnittet
-  - Å øke programvarens størrelse
+  - For å øke PC-hastigheten og dermed reagere raskere på dataangrep
+  - Slik legger du til hackingfunksjoner
+  - For å optimalisere videospillkompatibiliteten med Bitcoin
 explanation: |
-  Selv om programvareoppdateringer ofte kommer med nye funksjoner, er deres hovedformål
-  å fikse feil og forbedre sikkerheten til programvaren. Dette er avgjørende for å holde
-  datamaskinen din i optimal arbeidstilstand.
+  Oppdateringer retter ofte kjente sårbarheter som utnyttes av hackere.
+reviewed: false

@@ -38,7 +38,7 @@ Wyprodukowany przez BTCPay Server Foundation
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
 
-Witamy w kursie BTC305 na serwerze BTCPay!
+Witamy w kursie POS 305 na serwerze BTCPay!
 
 
 Celem tego szkolenia jest nauczenie, jak zainstalować, skonfigurować i używać BTCPay Server w swojej firmie lub organizacji. BTCPay Server to rozwiązanie typu open source, które umożliwia autonomiczne, bezpieczne i ekonomiczne przetwarzanie płatności Bitcoin. Ten kurs jest skierowany przede wszystkim do zaawansowanych użytkowników, którzy chcą opanować samodzielne hostowanie BTCPay Server w celu pełnej integracji z codziennymi operacjami.

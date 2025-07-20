@@ -1,0 +1,11 @@
+question: Koje je zlatno pravilo za zaštitu od lažnih e-mailova?
+answer: Pažljivo proverite puno ime pošiljaoca kao i poreklo emaila.
+wrong_answers:
+  - Uvek odgovarajte na sumnjive e-poruke.
+  - Otvorite sve priloge e-pošte da proverite njihov sadržaj.
+  - Delite svoje lične informacije samo sa poznatim pošiljaocima.
+explanation: |
+  Zlatno pravilo za zaštitu od prevarantskih emailova
+  je pažljivo proveriti puno ime pošiljaoca kao i
+  poreklo emaila. Kada ste u nedoumici, obrišite ga!
+reviewed: true

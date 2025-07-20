@@ -1,0 +1,9 @@
+question: Koje su dve glavne varijante pametnih ugovora korišćenih u coinswaps?
+answer: HTLC i PTLC
+wrong_answers:
+  - Višestruki potpis i Jednostruki potpis
+  - Pametni ugovori i DApps
+  - SegWit i Taproot
+explanation: |
+  Da bi se izvršio coinswap, mogu se koristiti HTLC-ovi (Hash Time-Locked Contracts) ili PTLC-ovi (Point Time-Locked Contracts).
+reviewed: false

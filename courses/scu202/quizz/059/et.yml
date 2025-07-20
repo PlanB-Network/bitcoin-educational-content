@@ -1,0 +1,9 @@
+question: Kes leiutas World Wide Webi ja töötas välja esimese veebibrauseri?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee on World Wide Webi leiutaja ja töötas 1990. aastal välja esimese brauseri WorldWideWeb (praegu Nexus).
+reviewed: false

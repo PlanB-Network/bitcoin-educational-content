@@ -1,11 +1,9 @@
-question: Je, ni kashfa gani ya kawaida inayohusiana na michango ya mtandaoni katika sekta ya crypto?
-answer: Ofa zinazodai kuongeza mara mbili au kuzidisha bitcoins unazotuma.
+question: Sheria ya 3-2-1 inamaanisha nini katika suala la kuhifadhi nakala ya data?
+answer: Nakala 3 kwenye media 2 tofauti, na 1 iliyohifadhiwa nje ya tovuti
 wrong_answers:
-  - Inatoa madai ya kuongeza mara mbili au kuzidisha bidhaa zako halisi.
-  - Ofa zinazodai kuongeza mara mbili au kuzidisha sarafu yako ya fiat.
-  - Inatoa kudai kuongeza mara mbili au kuzidisha bidhaa za programu yako.
+  - Nakala 3 kwenye midia 2 ya mtandaoni na kifaa 1 halisi
+  - Vyombo vya habari 3 vilivyo na nakala 2, moja ikiwa nje ya tovuti
+  - Nakala 3, 2 kati yake zimesimbwa kwa njia fiche na 1 kuhifadhiwa nje ya tovuti
 explanation: |
-  Mfano wa kawaida wa aina hii ya ulaghai ni ofa inayodai kuongezeka maradufu
-  au zidisha bitcoins unazotuma. Ni muhimu kuelewa kwamba hakuna
-  suluhisho la uchawi kuwa tajiri mara moja.
+  Sheria hii inapendekeza kuwa na nakala 3 za data kwenye aina 2 tofauti za media, na nakala 1 ikihifadhiwa nje ya tovuti kwa ustahimilivu zaidi.
 reviewed: false

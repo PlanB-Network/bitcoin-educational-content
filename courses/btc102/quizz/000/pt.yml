@@ -1,9 +1,9 @@
-question: Qual é uma característica comum dos esquemas de Ponzi no domínio das criptomoedas?
-answer: Eles usam o dinheiro de novos investidores para pagar participantes mais antigos.
+question: Quais são as caraterísticas típicas de um esquema Ponzi no ecossistema criptográfico?
+answer: Rendimentos garantidos, levantamentos difíceis e referências
 wrong_answers:
-  - Eles sempre envolvem Bitcoin.
-  - Eles são sempre legais e regulamentados.
-  - Eles sempre envolvem ativos físicos.
+  - Rendimentos baixos, levantamentos difíceis e transparência total
+  - Retornos garantidos, levantamentos difíceis e nenhum sistema de referência
+  - Retornos garantidos, levantamentos fáceis e nenhum sistema de referência
 explanation: |
-  Os esquemas de Ponzi no domínio das criptomoedas frequentemente operam usando o dinheiro de novos investidores para pagar participantes mais antigos. Essa natureza insustentável e dependência de novas chegadas faz com que eles sejam propensos a colapsar inevitavelmente.
+  Estas caraterísticas podem indicar um esquema em pirâmide. Se as observar num projeto, tenha muito cuidado.
 reviewed: false

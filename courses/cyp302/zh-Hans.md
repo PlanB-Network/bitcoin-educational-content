@@ -29,7 +29,8 @@ objectives:
 
 本书深入浅出地介绍了密码学的科学与实践。在可能的情况下，它侧重于概念性而非形式性的材料阐述。
 
-> 本课程基于 [JWBurgers's repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography)。版权归他所有。内容尚未完成，仅在此展示如果 JWBurger 同意，我们可以如何将其整合。
+本教育内容改编自书籍和repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography)。虽然作者已慷慨允许将其用于教育目的，但所有知识产权仍属于原创作者。
+
 **动机和目标**
 
 在密码学教育中，很难找到许多能提供良好中间立场的教材。

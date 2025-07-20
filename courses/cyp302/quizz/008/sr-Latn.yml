@@ -1,0 +1,9 @@
+question: Koji je ogranak kriptografije koji koristi par javnih i privatnih ključeva?
+answer: Asimetrična kriptografija
+wrong_answers:
+  - Simetrična kriptografija
+  - Mono-algoritamska kriptografija
+  - Integrativna kriptografija
+explanation: |
+  Asimetrična kriptografija zasniva se na korišćenju para ključeva, javnog i privatnog, omogućavajući šifrovanje bez deljenja tajnog ključa.
+reviewed: false

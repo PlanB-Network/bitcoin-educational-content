@@ -1,12 +1,9 @@
-question: 在選擇 Bitcoin 投資計劃前提出這四個問題的目的是什麼？
-answer: 選擇最適合自己的道路
+question: 當您轉移比特幣存取權時，不建議使用哪些方式？
+answer: 將 Mnemonic 詞組給予一人
 wrong_answers:
-  - 要確定您應該購買的 Bitcoin 數量
-  - 要確定您應該使用的 Bitcoin Wallet 類型
-  - 要確定您的 Bitcoin 投資期限
+  - 將資訊分割給多人使用
+  - 使用密封的不透明信封
+  - 撰寫說明信函
 explanation: |
-  在選擇 Bitcoin 之前詢問這四個問題的目的是
-  投資
-  的目的是選擇最適合您的投資途徑。這些問題有助於您瞭解
-  您的投資目標和偏好。
+  將 Mnemonic 短語託付給一個人而沒有額外的安全措施，會大大增加在您有生之年被盜的風險。
 reviewed: false

@@ -1,17 +1,17 @@
 ---
 name: Muhimu wa Liquid Bootcamp
-goal: Pata ufahamu wa kina wa Liquid Network na mradi wa Elements, na ujifunze jinsi ya kutekeleza masuluhisho ya hali ya juu katika Confidential Transactions, uwekaji alama, na usanifu wa mtandao uliogatuliwa.
+goal: Pata ufahamu wa kina wa Liquid Network na mradi wa Elements, na ujifunze jinsi ya kutekeleza masuluhisho ya hali ya juu katika  shughuli za siri, uwekaji alama, na usanifu wa mtandao uliogatuliwa.
 objectives: 
 
   - Fahamu misingi ya usanifu wa Liquid na uhusiano wake na Bitcoin.
   - Jifunze kusanidi na kuendesha nodi za Liquid kwa kutumia programu ya Elements.
   - Kagua matumizi ya Confidential Transactions na utoaji wa mali kwenye Liquid Network.
-  - Fahamu vipengele vya biashara na kiufundi vya Liquid kwa matumizi katika masoko ya mitaji.
+  - Fahamu Elements vya biashara na kiufundi vya Liquid kwa matumizi katika masoko ya mitaji.
 
 ---
 # Kuanzisha kwa Liquid Network
 
-Anza safari ya kielimu iliyoundwa ili kutoa uelewa wa kina wa Liquid Network na mradi wa Elements. Kambi hii ya buti inachanganya nadharia na mazoezi ili kukufundisha misingi ya kiufundi, usanifu, na biashara muhimu ili kutekeleza na kuongeza uwezo wa Liquid. Kuanzia Confidential Transactions hadi muundo wa mfumo ikolojia, kozi hii ni bora kwa wale wanaotaka kupanua ujuzi wao wa zana za kina ndani ya mfumo ikolojia wa Bitcoin.
+Anza safari ya kielimu iliyoundwa ili kutoa uelewa wa kina wa Liquid Network na mradi wa kipengele. Kambi hii ya buti inachanganya nadharia na mazoezi ili kukufundisha misingi ya kiufundi, usanifu, na biashara muhimu ili kutekeleza na kuongeza uwezo wa Liquid. Kuanzia shughuli ya siri (confidential transactions) hadi muundo wa mfumo ikolojia, kozi hii ni bora kwa wale wanaotaka kupanua ujuzi wao wa zana za kina ndani ya mfumo ikolojia wa Bitcoin.
 
 Kwa mawasilisho ya wataalamu wa sekta hiyo, kozi hii inashughulikia mada kama vile usanifu wa Liquid, matumizi ya tokeni, dhana za kiufundi za Elements, na hali bunifu za matumizi kama vile Breeze SDK. Iliyoundwa ili kufikiwa kwa wanaoanza na watumiaji wa kati, kozi hii pia inatoa thamani kwa wasanidi programu wenye uzoefu wanaotafuta ujuzi wa Liquid kama jukwaa la kuboresha miradi yao.
 
@@ -24,13 +24,13 @@ Kwa mawasilisho ya wataalamu wa sekta hiyo, kozi hii inashughulikia mada kama vi
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
-Karibu kwenye Liquid Bootcamp, mafunzo ya kina yaliyoundwa ili kukupa maarifa na ujuzi ili kutumia vyema mradi wa Liquid Network na Elements. Kozi hii hutoa ufahamu wa kina katika vipengele vya kipekee vya Liquid, kama vile Confidential Transactions, utoaji wa mali, na muundo wake wa mtandao ulioshirikishwa, huku pia ikishughulikia dhana za msingi za Elements, programu inayotumia Liquid.
+Karibu kwenye kampi ya boot ya kioevu, mafunzo ya kina yaliyoundwa ili kukupa maarifa na ujuzi ili kutumia vyema mradi wa Liquid Network na Elements. Kozi hii hutoa ufahamu wa kina katika Elements vya kipekee vya Liquid, kama vile shughuli za mtandao, utoaji wa mali, na muundo wake wa mtandao ulioshirikishwa, huku pia ikishughulikia dhana za msingi za Elements, programu inayotumia kipengele.
 
-Katika kambi nzima ya boot, utachunguza matumizi ya vitendo ya Liquid Network, kutoka kwa kuweka na kuendesha nodi hadi kuelewa matumizi yake katika masoko ya mitaji ya Bitcoin na uwekaji tokeni. Kwa mawasilisho kutoka kwa wataalamu wa sekta, utapata maarifa pia kuhusu mada za kina kama vile HTLC, Breeze SDK, na mradi wa Blockstream AMP.
+Katika kambi nzima ya boot, utachunguza matumizi ya vitendo vya mtandao wa Liquid, kutoka kwa kuweka na kuendesha nodi hadi kuelewa matumizi yake katika masoko ya mitaji ya Bitcoin na uwekaji tokeni. Kwa mawasilisho kutoka kwa wataalamu wa sekta, utapata maarifa pia kuhusu mada za kina kama vile HTLC, Breeze SDK, na mradi wa Blockstream AMP.
 
 Kambi hii ya mafunzo iliendeshwa kama tukio la ana kwa ana, kufuatia ratiba iliyopangwa (kama inavyoonyeshwa kwenye picha) iliyoundwa kwa vipindi vya moja kwa moja. Hata hivyo, kwa urekebishaji huu wa kozi, maudhui yamepangwa upya ili kuendana vyema na umbizo la mtandaoni na kuwezesha ufahamu kwa wanafunzi. Agizo jipya linahakikisha maendeleo ya kimantiki kutoka kwa dhana za msingi hadi mada za kiufundi na za juu zaidi, na kuongeza uzoefu wa kujifunza.
 
-Safari hii imeundwa ili kuwashughulikia washiriki walio na viwango tofauti vya utaalam, ikitoa mchanganyiko wa maarifa ya kinadharia na uzoefu wa vitendo. Kufikia mwisho wa kambi hii ya boot, utakuwa na ufahamu thabiti wa usanifu wa Liquid, ushirikiano wake na Bitcoin, na jinsi ya kutumia vipengele vyake vya ubunifu kujenga na kuboresha ufumbuzi wa kifedha.
+Safari hii imeundwa ili kuwashughulikia washiriki walio na viwango tofauti vya utaalam, ikitoa mchanganyiko wa maarifa ya kinadharia na uzoefu wa vitendo. Kufikia mwisho wa kambi hii ya boot, utakuwa na ufahamu thabiti wa usanifu wa Liquid, ushirikiano wake na Bitcoin, na jinsi ya kutumia Elements vyake vya ubunifu kujenga na kuboresha ufumbuzi wa kifedha.
 
 # Misingi
 
@@ -42,7 +42,7 @@ Safari hii imeundwa ili kuwashughulikia washiriki walio na viwango tofauti vya u
 
 :::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
-Pablo anatanguliza usanifu wa Liquid Network, akisisitiza jukumu lake kama Sidechain iliyoshirikishwa hadi Bitcoin. Vipengele muhimu kama vile Confidential Transactions, muundo wa shirikisho, na kazi yake kama sanduku la mchanga kwa uvumbuzi hufunikwa. Washiriki watapata maarifa kuhusu jinsi Liquid inavyokamilisha Bitcoin kwa kutoa miamala ya haraka na ya faragha zaidi.
+Pablo anatanguliza usanifu wa Mtandao wa Liquid, akisisitiza jukumu lake kama mnyororo wa upande iliyoshirikishwa hadi Bitcoin. Elements muhimu kama vile shughuli za siri, muundo wa shirikisho, na kazi yake kama sanduku la mchanga kwa uvumbuzi hufunikwa. Washiriki watapata maarifa kuhusu jinsi Liquid inavyokamilisha Bitcoin kwa kutoa miamala ya haraka na ya faragha zaidi.
 
 ## Misingi ya Elements
 
@@ -58,7 +58,7 @@ James anatanguliza programu ya Elements na ushirikiano wake na Liquid Network. K
 
 :::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
-Michael anajadili jinsi teknolojia za Layer nyingi, ikiwa ni pamoja na Liquid, Umeme, na Bitcoin, kuboresha ufanisi wa muamala na kutegemewa. Mada kuu ni pamoja na HTLC kwa miamala salama ya Layer na vipengele vya hali ya juu vya uandishi vinavyoboresha mfumo ikolojia wa Bitcoin.
+Michael anajadili jinsi teknolojia za safu (layer) nyingi, ikiwa ni pamoja na Liquid, Umeme, na Bitcoin, kuboresha ufanisi wa muamala na kutegemewa. Mada kuu ni pamoja na HTLC kwa miamala salama ya safu (layer) na Elements vya hali ya juu vya uandishi vinavyoboresha mfumo ikolojia wa Bitcoin.
 
 ## Muhtasari wa Liquid Network
 
@@ -66,7 +66,7 @@ Michael anajadili jinsi teknolojia za Layer nyingi, ikiwa ni pamoja na Liquid, U
 
 :::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
-Bozza inashughulikia muundo wa shirikisho wa Liquid Network na vipengele vyake vya kiufundi. Mada ni pamoja na ubunifu uliojaribiwa kwenye Liquid, kama vile saini za Schnorr na uandishi wa Urahisi, na usuluhishi unaohusishwa katika kutumia Layer suluhu Mbili.
+Bozza inashughulikia muundo wa shirikisho wa Mtandao wa Liquid na Elements vyake vya kiufundi. Mada ni pamoja na ubunifu uliojaribiwa kwenye Liquid, kama vile sahihi za Schnorr na uandishi wa Urahisi, na usuluhishi unaohusishwa katika kutumia safu (layer) suluhu Mbili.
 
 ## Mfumo wa Ikolojia na Masoko ya Mitaji
 
@@ -96,7 +96,7 @@ Nardo hutoa muhtasari wa Blockstream AMP, jukwaa la kudhibiti mali ya kidijitali
 
 :::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
-Antonio anawasilisha Breeze, SDK ya chanzo huria iliyoundwa kwa ajili ya shughuli zilizogatuliwa kwenye Liquid Network. Anashughulikia vipengele vyake, ikiwa ni pamoja na usaidizi wa vifungo vya lugha nyingi na michakato salama ya shughuli, huku akisisitiza lengo lake la kurahisisha teknolojia ya kifedha kwa watengenezaji.
+Antonio anawasilisha Breeze, SDK ya chanzo huria iliyoundwa kwa ajili ya shughuli zilizogatuliwa kwenye Liquid wa mtandao. Anashughulikia Elements vyake, ikiwa ni pamoja na usaidizi wa vifungo vya lugha nyingi na michakato salama ya shughuli, huku akisisitiza lengo lake la kurahisisha teknolojia ya kifedha kwa watengenezaji.
 
 # Hitimisho
 

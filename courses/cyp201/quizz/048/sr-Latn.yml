@@ -1,0 +1,9 @@
+question: Zašto se 24-reči Mnemonic fraza često smatra suvišnom za Bitcoin Wallet?
+answer: Izvedeni ključevi nude samo 128 bita sigurnosti
+wrong_answers:
+  - Softver ne podržava fraze od 24 reči
+  - Ne omogućava izvođenje javnih ključeva
+  - Kraće fraze nisu standardizovane
+explanation: |
+  Iako fraza od 24 reči nudi 256 bita sigurnosti, izvedeni Bitcoin privatni ključevi garantuju samo 128 bita sigurnosti, čineći višak nepotrebnim.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Was ist die Hauptcharakteristik einer DIY (Do It Yourself) Geldbörse?
-answer: Es handelt sich um eine zu 100% Open-Source-Lösung, die zu Hause erstellt werden kann, um das Vertrauensrisiko gegenüber anderen Akteuren in der Produktions- oder Erstellungskette zu verringern.
+question: Was ist das Hauptziel des Stapelns?
+answer: Allmähliche Anhäufung von Satoshis
 wrong_answers:
-  - Es handelt sich um ein Hardware-Gerät zum Speichern von Bitcoins.
-  - Es handelt sich um eine Software zum Minen von Bitcoins.
-  - Es handelt sich um eine Plattform zum Kauf und Verkauf von Bitcoins.
+  - Kurzfristige Spekulation
+  - Kauf einer großen Menge von Satoshis auf einmal
+  - Verwendung von Bitcoin für tägliche Zahlungen
 explanation: |
-  Der Kapitelinhalt erklärt, dass DIY (Do It Yourself) Geldbörsen zu 100% Open-Source-Lösungen sind, die zu Hause erstellt werden können, um das Vertrauensrisiko gegenüber anderen Akteuren in der Produktions- oder Erstellungskette zu verringern.
+  Der Stacker investiert in regelmäßigen Abständen kleine Beträge, so dass sich der Kaufpreis im Laufe der Zeit ausgleicht.
 reviewed: false

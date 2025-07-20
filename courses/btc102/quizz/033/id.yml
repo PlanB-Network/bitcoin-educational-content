@@ -1,11 +1,9 @@
-question: Apa dua ideologi yang bertentangan dalam dunia Bitcoin?
-answer: Membawa orang-orang yang tidak memiliki rekening bank ke dalam sistem perbankan dan mengeluarkan mereka yang berada dalam sistem perbankan darinya
+question: Siapakah penemu Lightning Network?
+answer: Thaddeus Dryja dan Joseph Poon
 wrong_answers:
-  - Membuat semua orang kaya dan membuat semua orang miskin
-  - Memusatkan kekuasaan dan mendesentralisasi kekuasaan
-  - Mempromosikan privasi dan mempromosikan transparansi
+  - Andreas Antonopoulos dan Adam Back
+  - Pieter Wuille dan Gregory Maxwell
+  - Satoshi Nakamoto dan Hal Finney
 explanation: |
-  Bab ini menyebutkan dua ideologi yang bertentangan dalam dunia Bitcoin.
-  Satu adalah untuk membawa miliaran orang yang tidak berada dalam sistem perbankan ke dalamnya.
-  Yang lain adalah untuk mengeluarkan miliaran orang yang berada dalam sistem perbankan darinya.
+  Thaddeus Dryja dan Joseph Poon menciptakan Lightning Network pada tahun 2016 untuk meningkatkan skalabilitas Bitcoin.
 reviewed: false

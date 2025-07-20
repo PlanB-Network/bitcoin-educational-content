@@ -1,0 +1,9 @@
+question: Koja je glavna svrha pametnih ugovora u RGB okruženju?
+answer: Implementirajte automatizovane Bitcoin ugovore bez centralizovanog registra
+wrong_answers:
+  - Olakšavanje kreiranja centralizovanih Bitcoin registara
+  - Obezbedite javni Interface za sve Bitcoin transakcije
+  - Pojednostavljivanje izvršavanja ERC-20 tokena na Bitcoin
+explanation: |
+  RGB pametni ugovori omogućavaju automatizaciju sporazuma dok izbegavaju korišćenje centralizovanih registara, oslanjajući se na Bitcoin za kriptografske ankere.
+reviewed: false

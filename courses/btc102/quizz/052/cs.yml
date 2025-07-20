@@ -1,11 +1,9 @@
-question: Jaká je role společností jako OpenNode, Swiss Bitcoin Pay a BTCPay v ekosystému Bitcoinu?
-answer: Poskytují nástroje, které usnadňují podnikům přijímání Bitcoinu.
+question: Jakou výhodu přináší provoz vlastního uzlu Bitcoin?
+answer: Nezávislost
 wrong_answers:
-  - Těží Bitcoin.
-  - Regulují Bitcoin.
-  - Vydávají Bitcoin.
+  - Likvidita
+  - Centralizace
+  - Rychlost
 explanation: |
-  Společnosti jako OpenNode, Swiss Bitcoin Pay a BTCPay poskytují nástroje,
-  které usnadňují podnikům přijímání Bitcoinu, čímž přispívají k jeho adopci
-  a používání v běžných transakcích.
+  Provozování vlastního uzlu zajišťuje nezávislost na třetích stranách a chrání soukromí vašich transakcí.
 reviewed: false

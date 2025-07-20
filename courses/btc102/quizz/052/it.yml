@@ -1,9 +1,9 @@
-question: Qual è il ruolo delle aziende come OpenNode, Swiss Bitcoin Pay e BTCPay nell'ecosistema Bitcoin?
-answer: Forniscono strumenti che facilitano alle aziende l'accettazione di Bitcoin.
+question: Quali vantaggi offre la gestione del proprio nodo Bitcoin?
+answer: L'indipendenza
 wrong_answers:
-  - Minano Bitcoin.
-  - Regolamentano Bitcoin.
-  - Emettono Bitcoin.
+  - Liquidità
+  - Centralizzazione
+  - Velocità
 explanation: |
-  Aziende come OpenNode, Swiss Bitcoin Pay e BTCPay forniscono strumenti che facilitano alle aziende l'accettazione di Bitcoin, contribuendo alla sua adozione e al suo utilizzo nelle transazioni quotidiane.
+  La gestione di un proprio nodo garantisce l'indipendenza da terzi e protegge la privacy delle transazioni.
 reviewed: false

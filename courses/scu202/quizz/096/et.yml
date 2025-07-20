@@ -1,0 +1,9 @@
+question: Millist tüüpi protokoll tuleks aktiveerida DNS-päringute krüpteerimiseks kohaliku võrgu skaalal?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) ja DoT (DNS over TLS) krüpteerivad DNS päringud, takistades nende pealtkuulamist.
+reviewed: false

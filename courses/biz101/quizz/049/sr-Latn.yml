@@ -1,0 +1,9 @@
+question: Koja je ključna prednost papirnog novca u odnosu na kovanice u tradicionalnim platnim sistemima?
+answer: Povećana prenosivost i efikasnost
+wrong_answers:
+  - Poboljšana intrinzična vrednost kroz plemenite metale
+  - Automatska verifikacija svake transakcije
+  - Potpuno eliminisanje rizika od falsifikata
+explanation: |
+  Papirni novac, budući da je lakši i lakši za transport od kovanica, omogućio je efikasniju trgovinu na velike udaljenosti i smanjio logističke izazove.
+reviewed: false

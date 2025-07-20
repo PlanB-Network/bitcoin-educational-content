@@ -1,0 +1,9 @@
+question: Koja je jedna prednost korišćenja skrbničkog Wallet za Starter profil?
+answer: Smanjene tehničke odgovornosti
+wrong_answers:
+  - Povećana kontrola nad privatnim ključevima
+  - Poboljšana privatnost uz potpunu autonomiju nad transakcijama
+  - Eliminacija transakcionih naknada
+explanation: |
+  Skrbnički novčanici upravljaju privatnim ključevima, olakšavajući tehničke terete za korisnike.
+reviewed: false

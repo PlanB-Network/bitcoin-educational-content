@@ -1,0 +1,9 @@
+question: 誰發明了萬維網，並開發了第一個網頁瀏覽器？
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee 是萬維網的發明者，並於 1990 年開發了第一個瀏覽器 WorldWideWeb (現為 Nexus)。
+reviewed: false

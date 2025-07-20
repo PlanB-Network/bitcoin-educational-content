@@ -1,0 +1,9 @@
+question: Kako stabilni novčići pomažu u smanjenju troškova povezanih sa doznakama?
+answer: Nudeći niže naknade od tradicionalnih usluga
+wrong_answers:
+  - Pružanjem besplatnih usluga prenosa novca
+  - Davanjem pojedincima boljih Exchange stopa od tradicionalnih usluga
+  - Digitalizacijom fiat valuta
+explanation: |
+  Stablecoini, za razliku od tradicionalnih usluga prenosa novca, imaju značajno niže naknade jer ne zahtevaju posrednike kao što su banke ili usluge prenosa novca.
+reviewed: true

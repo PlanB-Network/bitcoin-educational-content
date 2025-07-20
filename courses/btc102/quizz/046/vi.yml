@@ -1,10 +1,9 @@
-question: Rủi ro chính khi để bitcoin của bạn trên một nền tảng giao dịch là gì?
-answer: Nền tảng có thể bị hack, bị tịch thu, phá sản, hoặc đơn giản là biến mất cùng với tiền của bạn
+question: Công cụ nào cho phép bạn theo dõi Wallet của mình mà không tiết lộ khóa riêng tư?
+answer: Watch-only wallet
 wrong_answers:
-  - Giá của Bitcoin có thể đột ngột giảm
-  - Nền tảng có thể tăng phí của mình
-  - Nền tảng có thể hạn chế số lượng bitcoin bạn có thể mua hoặc bán
+  - Hot Wallet
+  - Tia sét Wallet
+  - Bảo vệ Wallet
 explanation: |
-  Nội dung chương cảnh báo rằng các nền tảng giao dịch đều tiềm ẩn rủi ro đáng kể
-  và nên tránh xa nếu có thể. Chúng có thể bị hack, bị tịch thu, phá sản, hoặc đơn giản là biến mất cùng với tiền của bạn.
+  Watch-only wallet chỉ sử dụng khóa công khai để hiển thị số dư và giao dịch mà không có nguy cơ tiết lộ khóa riêng tư.
 reviewed: false

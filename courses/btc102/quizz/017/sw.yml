@@ -1,11 +1,9 @@
-question: Je, kanuni ya dhahabu ya uwekezaji wa Bitcoin ni ipi?
-answer: Sio ufunguo wako, sio Bitcoins zako.
+question: Ni neno gani linalorejelea mgawanyo ulioratibiwa wa ruzuku ya Mining?
+answer: Halving
 wrong_answers:
-  - Kamwe usiwekeze zaidi ya unaweza kumudu kupoteza.
-  - Epuka kile ambacho ni mtindo.
-  - Kupanga na kuwa na maono ya muda mrefu ni muhimu kwa mafanikio katika fedha.
+  - Fork
+  - Sehemu mbili
+  - Coinbase
 explanation: |
-  Kanuni ya dhahabu ya uwekezaji wa Bitcoin sio ufunguo wako, sio Bitcoins zako.
-  Hii inamaanisha kuwa ikiwa huna udhibiti wa ufunguo wako wa faragha, huna udhibiti wa kweli
-  kumiliki Bitcoins yako.
+  Halving inarejelea Halving ya ruzuku ya Mining kila vitalu 210,000.
 reviewed: false

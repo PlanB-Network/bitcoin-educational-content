@@ -1,0 +1,9 @@
+question: Vilket svårt beräkningsproblem är förknippat med asymmetriska system som RSA?
+answer: Faktorisering av primtal
+wrong_answers:
+  - Exponentiell multiplikation av heltal
+  - Skapandet av långa slumpmässiga tal
+  - Säker nyckel Exchange
+explanation: |
+  RSA bygger på svårigheten med primtalsfaktorisering, en beräkningsmässigt svår uppgift som gör kryptosystemet säkert mot attacker.
+reviewed: false

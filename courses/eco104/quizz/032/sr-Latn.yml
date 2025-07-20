@@ -1,0 +1,11 @@
+question: U kom scenariju bi stabilni novac mogao trgovati iznad svoje vezane cene?
+answer: Kada potražnja za stabilnim koinima premaši kapacitet Exchange
+wrong_answers:
+  - Kada izdavalac stabilnog novčića zamrzne sredstva
+  - Kada je stablecoin u potpunosti podržan gotovinskim rezervama
+  - Kada postoji snažan pritisak prodaje od strane korisnika
+explanation: |
+  Stablecoini mogu trgovati iznad svoje vezane cene kada 
+  potražnja za stablecoinima premaši kapacitet Exchange da 
+  zadovolji zahteve kupaca, obično na manjim berzama.
+reviewed: true

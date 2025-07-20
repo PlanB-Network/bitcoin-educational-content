@@ -297,9 +297,14 @@ Bastiat considera infatti Rousseau il vero precursore del socialismo e del colle
 
 Inizialmente, l'uomo è semplicemente un borghese. Ma il borghese è un calcolatore; vuole il suo piacere immediato, è schiavo dei suoi sensi, dei suoi desideri, del suo interesse particolare. In breve, non è razionale, quindi non è libero. Ha bisogno di essere educato, di capire che il suo vero interesse è l'interesse generale. Ecco perché Rousseau ha scritto nel Contratto Sociale:
 
-> Chiunque rifiuti di obbedire alla volontà generale sarà costretto dall'intero corpo: ciò non significa altro che saranno costretti ad essere liberi.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Chiunque rifiuti di obbedire alla volontà generale sarà costretto dall'intero corpo: ciò non significa altro che saranno costretti ad essere liberi.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una volontà che tende verso l'interesse personale, quella del borghese, e una volontà che tende verso l'interesse generale, quella del cittadino. Condurre gli uomini, anche con la forza, a volere un fine razionale, l'interesse generale, è condurli a diventare liberi. Quello che veramente vogliono è un fine razionale, anche se non lo sanno.
 È quindi perfettamente legittimo, secondo Rousseau, costringere gli uomini in nome di un fine che essi stessi, se fossero stati più illuminati, avrebbero perseguito, ma che non perseguono perché sono ciechi, ignoranti o corrotti. La società è fondata per costringerli a fare ciò che dovrebbero desiderare spontaneamente se fossero illuminati. E facendo ciò, non si fa violenza a loro poiché li si porta ad essere "liberi", cioè a fare le scelte giuste, scelte che sono in linea con il loro vero sé.
@@ -490,6 +495,12 @@ Nel 1840, la Camera dei Deputati votò per una legge che aumentava le tasse di i
 Bastiat compose allora un testo satirico che in seguito divenne uno dei suoi lavori più famosi: "la petizione dei fabbricanti di candele". Illustra come certi gruppi di pressione di produttori ben organizzati ottengano privilegi indebiti dallo stato, a detrimento dei cittadini. Allo stesso tempo, dimostra la natura assurda e distruttiva della legislazione protezionistica.
 
 ![image](assets/en/079.webp)
+
+---
+
+>PROTEGGIAMO LE NOSTRE CANDELE!
+
+---
 
 In questa petizione, i fabbricanti di candele chiedono ai deputati protezione legale contro un pericoloso rivale:
 
@@ -749,6 +760,12 @@ Il male genera sofferenza, e la sofferenza ci fa comprendere la colpa o l'errore
 
 ![image](assets/en/110.webp)
 
+---
+
+>Errare è umano.
+
+---
+
 Così, è chiaro che Bastiat è ben lungi dall'essere cieco. Non nega l'esistenza del male. L'uomo è debole, incline all'errore e alla colpa. Da nessuna parte si vedrà Bastiat negare il fatto che l'esercizio della libertà individuale sia associato alla possibilità di errore, alla possibilità di una scelta irragionevole o insensata.
 
 Afferma semplicemente che se la fonte del male risiede nell'assenza di libertà, il rimedio è nella libertà stessa, e più specificamente nel pieno e intero esercizio della responsabilità personale.
@@ -789,6 +806,15 @@ Eppure questa perversione della legge ha un nome, è il socialismo, cioè l'ideo
 
 ![image](assets/en/116.webp)
 
+---
+
+>Società  
+>di Mutuo Soccorso  
+>di GUISY  
+>1899
+
+---
+
 Tuttavia, secondo Bastiat, esiste un'alternativa alla solidarietà statale obbligatoria: "la società di mutuo soccorso"
 
 l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di mutuo soccorso. Ma prevedeva anche che lo Stato avrebbe finito per impadronirsi di queste mutualità per renderle un organismo unico e centralizzato, incoraggiando la spesa e lo spreco.
@@ -798,6 +824,16 @@ l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di
 In un opuscolo intitolato "Giustizia e Fraternità", Bastiat esplora anche l'idea di un sistema fiscale semplificato ed equo per finanziare i bisogni collettivi (polizia, giustizia, esercito): redditi e profitti sarebbero soggetti a un'unica aliquota fiscale proporzionale. Questo è ciò che oggi è conosciuto come la "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Le fondazioni – un  
+>**valore aggiunto**  
+>per la **società**  
+>
+>SwissFoundations
+
+---
 
 Infatti, la solidarietà intrafamiliare, la solidarietà locale o la filantropia organizzata sono molto più sviluppate nei paesi che hanno un sistema fiscale leggero e un grado relativamente alto di libertà economica, come la Svizzera e gli Stati Uniti, mentre è largamente soffocata nei paesi dove lo Stato ha in gran parte sostituito la responsabilità individuale, come la Francia o la Germania.
 Spesso è di moda lamentarsi del "egoismo" che prevalerebbe nelle società liberali. Ma è vero esattamente il contrario. Quando una società è gravata dalle tasse e gli individui non possiedono più la loro proprietà, non sono incoraggiati a dare, ma piuttosto a ritirarsi in se stessi.

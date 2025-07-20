@@ -1,9 +1,9 @@
-question: Mục đích của ví Bitcoin là gì?
-answer: Để gửi và nhận bitcoins
+question: Chuỗi bên Bitcoin là gì?
+answer: Liquid và Rootstock
 wrong_answers:
-  - Để đào bitcoins
-  - Để lưu trữ bitcoins dưới dạng vật lý
-  - Để chuyển đổi bitcoins sang các loại tiền tệ khác
+  - Đa giác và Arbitrum
+  - Sao Mộc và Fantom
+  - Bitcoin Cash và Bitcoin Satoshi Vision
 explanation: |
-  Ví Bitcoin được sử dụng để gửi và nhận bitcoins. Chúng là ví điện tử lưu trữ các thông tin xác thực số cần thiết để truy cập vào địa chỉ bitcoin và tiêu bitcoins.
+  Liquid và RSK là các sidechain có chốt 2 chiều với Bitcoin. Các tùy chọn khác không phải là sidechain hoặc không có 2WP với Bitcoin Blockchain.
 reviewed: false

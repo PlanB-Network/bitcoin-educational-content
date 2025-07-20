@@ -1,0 +1,9 @@
+question: Koja je centralna teza Lorda Aktona o istoriji?
+answer: Sukob između slobode i moći je pokretačka snaga napretka i evolucije društava.
+wrong_answers:
+  - Napredak je linearan i neizbežan, što vodi ka društvu slobode i jednakosti.
+  - Istorija je ciklus ponavljanja sa periodima slobode praćenim periodima tiranije.
+  - Ekonomski faktori su glavni determinanti toka istorije.
+explanation: |
+  Lord Acton tvrdi da je istorija prvenstveno obeležena sukobom između slobode i moći, smatrajući ovu borbu ključnom za napredak i evoluciju društava ka većoj individualnoj slobodi.
+reviewed: false

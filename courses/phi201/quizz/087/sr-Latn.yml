@@ -1,0 +1,9 @@
+question: Prema Constantu, koje su oblasti u kojima politička moć nema uticaja?
+answer: Svi gore pomenuti domeni (religija, nauka, industrija).
+wrong_answers:
+  - Religija
+  - Nauka
+  - Industrija
+explanation: |
+  Constant veruje da politička moć ne treba da interveniše u oblastima kao što su religija, nauka i industrija, kako bi se očuvala individualna sloboda i autonomija ljudskih aktivnosti koje spadaju u privatnu sferu.
+reviewed: false

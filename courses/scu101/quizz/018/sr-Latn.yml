@@ -1,0 +1,12 @@
+question: Koja je preporučena praksa za korišćenje administratorskog naloga na Windows-u?
+answer: Kreirajte dva odvojena naloga; administratorski nalog i nalog za svakodnevnu upotrebu.
+wrong_answers:
+  - Koristite administratorski nalog za svakodnevnu upotrebu, ako računar nije povezan na internet.
+  - Kreirajte dva odvojena administratorska naloga; jedan za svakodnevnu upotrebu i jedan za administraciju operativnog sistema.
+  - Nemojte kreirati administratorski nalog.
+explanation: |
+  Korišćenje administratorskog naloga za svakodnevnu upotrebu na Windows-u može
+  izložiti sistem većim bezbednosnim rizicima. Preporučuje se
+  kreiranje dva odvojena naloga; jedan za administrativne
+  zadate i drugi za svakodnevnu upotrebu.
+reviewed: true

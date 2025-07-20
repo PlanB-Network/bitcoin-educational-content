@@ -1,9 +1,9 @@
-question: Ni nini lengo la kozi ya chuo kikuu hiki?
-answer: Ulimwengu wa Bitcoin.
+question: Kwa nini uthibitishaji wa mambo mawili unapendekezwa?
+answer: Inaongeza Layer ya ziada ya usalama
 wrong_answers:
-  - Sekta ya kimataifa ya cryptocurrency.
-  - Sekta ya fintech.
-  - Sekta ya Blockchain.
+  - Inarahisisha ufikiaji kwa kupunguza idadi ya misimbo
+  - Inaruhusu kuingia bila nenosiri
+  - Inachukua nafasi ya matumizi ya kidhibiti nenosiri
 explanation: |
-  Lengo zima la chuo kikuu hiki ni ulimwengu wa Bitcoin, sio crypto.
+  2FA inahitaji msimbo wa muda pamoja na nenosiri, ambalo huimarisha sana ulinzi wa akaunti ya mtandaoni.
 reviewed: false

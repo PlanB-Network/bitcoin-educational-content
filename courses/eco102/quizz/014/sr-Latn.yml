@@ -1,0 +1,9 @@
+question: Kako je Say-ev zakon artikulisan prema Jean-Baptiste Say-u i Bastiat-u?
+answer: Roba i usluge se razmenjuju za robu i usluge
+wrong_answers:
+  - Ponuda stvara sopstvenu potražnju
+  - Što se više robe proizvodi, to se više troši.
+  - Potražnja određuje ponudu
+explanation: |
+  Say-ev zakon kaže da proizvodnja dobara omogućava međusobne razmene, čime se vrednuje tržišna ekonomija.
+reviewed: false

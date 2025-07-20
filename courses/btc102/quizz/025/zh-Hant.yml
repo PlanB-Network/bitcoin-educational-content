@@ -1,11 +1,9 @@
-question: 礦工在 Bitcoin 網路中扮演什麼角色？
-answer: 在 Bitcoin Blockchain 中記錄傳播的交易
+question: Bitcoin 與其他代幣的主要區別是什麼？
+answer: 權力下放
 wrong_answers:
-  - 要建立新的 bitcoins
-  - 監管比特幣的價值
-  - 驗證 Bitcoin 使用者的身分
+  - 流動性
+  - 信譽
+  - 隱私權
 explanation: |
-  Bitcoin 網路中的礦工負責記錄在整個網路中傳播到 Bitcoin Blockchain 中的交易。
-  已在整個網路中傳播到 Bitcoin Blockchain。這可確保
-  交易的終局性。
+  Bitcoin 以其分散性而聞名，不像大多數其他代幣或多或少都是集中式的。
 reviewed: false

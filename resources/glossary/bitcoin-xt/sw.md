@@ -1,0 +1,5 @@
+---
+term: Bitcoin XT
+---
+
+Bitcoin XT ni Fork ya Bitcoin iliyozinduliwa mwaka wa 2015 na msanidi programu maarufu Mike Hearn na kuungwa mkono na Gavin Andresen (msimamizi mkuu wa zamani wa Bitcoin kufuatia kuondoka kwa Satoshi). Awali, Bitcoin XT ilikuwa utekelezaji wa itifaki ya Bitcoin inayoendana na Bitcoin Core. Hata hivyo, mnamo Agosti 2015, toleo la Bitcoin XT 0.11A lilipitisha BIP101: Hard Fork iliyopendekezwa ili kuongeza kikomo cha ukubwa wa block kutoka MB 1 hadi 8 MB, na mipango ya kuongeza mara mbili ya ukubwa huu kila baada ya miaka miwili hadi kufikia zaidi ya GB 8 kwa kila block mwaka 2036. Pendekezo hili lilikuwa mojawapo ya sababu kuu za Vita 201 ambazo zilifanyika kati ya 201 na Block 201. Iliungwa mkono na sehemu kubwa ya wachimba migodi, na makampuni mashuhuri kama BitPay, Blockchain.info, na Circle. Hatimaye, Bitcoin XT ilishindwa kupata usaidizi wa kutosha kutoka kwa jumuiya, na Mike Hearn hatimaye angetangaza kuondoka kwake kutoka kwa jumuiya na uuzaji wa bitcoins zake. Alielezea kusikitishwa kwake katika chapisho la blogi, haswa akisema kwamba Bitcoin imeshindwa.

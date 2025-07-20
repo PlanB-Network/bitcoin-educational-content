@@ -1,0 +1,9 @@
+question: Koji je glavni argument Ludwiga von Misesa u njegovom članku Ekonomska kalkulacija u socijalističkoj zajednici?
+answer: Racionalna ekonomska organizacija je nemoguća bez cena za posredne faktore proizvodnje.
+wrong_answers:
+  - Socijalizam je moralno superiorniji od kapitalizma.
+  - Kapitalizam je jedini održiv ekonomski sistem.
+  - Socijalizam može proizvesti pojedince lišene kapitalističkih instinkta.
+explanation: |
+  Mises je tvrdio da bez tržišta za određivanje cena za posredne faktore proizvodnje postaje nemoguće racionalizovati upotrebu resursa kroz industrije. To znači da čak i ako postoji savršena organizacija unutar svake firme ili dela ekonomije, cela ekonomija ne može efikasno da se prilagodi promenama u dostupnosti resursa, uslovima proizvodnje i preferencijama potrošača.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između Američke revolucije i Francuske revolucije?
+answer: Američka revolucija dovela je do formiranja decentralizovane vladavine prava, dok je Francuska revolucija dovela do perioda Terora i diktature.
+wrong_answers:
+  - Američka revolucija bila je inspirisana idejama prosvetiteljstva, dok je Francuska revolucija bila inspirisana religijskim idejama.
+  - Američku revoluciju su predvodili kolonisti, dok su Francusku revoluciju predvodili plemići.
+  - Američka revolucija je bila duga, dok je Francuska revolucija bila kratka.
+explanation: |
+  Američka revolucija rezultirala je decentralizovanim i stabilnim sistemom zasnovanim na vladavini prava, dok je Francuska revolucija brzo prešla u Teror i diktaturu zbog unutrašnjih podela i centralizacije moći.
+reviewed: false

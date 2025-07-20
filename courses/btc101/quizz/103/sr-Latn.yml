@@ -1,0 +1,9 @@
+question: Koja je svrha kreiranja plana nasleđivanja za vaše bitkoine?
+answer: Da biste osigurali da će vaši bitkoini biti pravilno upravljani nakon vaše smrti.
+wrong_answers:
+  - Da izbegnete poreze na vaše bitkoine.
+  - Da smanjite vrednost vaših bitkoina.
+  - Da biste sprečili krađu vaših bitkoina.
+explanation: |
+  Plan nasledstva osigurava da će vaši bitkoini biti pravilno upravljani nakon vaše smrti. Može uključivati ručno pisano pismo koje detaljno opisuje vašu imovinu, metode pristupa i kontakt informacije pouzdanih osoba koje treba kontaktirati.
+reviewed: true

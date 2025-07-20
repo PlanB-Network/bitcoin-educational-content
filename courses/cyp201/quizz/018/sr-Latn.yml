@@ -1,0 +1,9 @@
+question: Zašto eliptička kriva secp256r1 nije korišćena u Bitcoin?
+answer: Potencijalno da bi se izbegla zadnja vrata
+wrong_answers:
+  - Zato što je previše sporo
+  - Zato što nije standardizovano
+  - Zato što zahteva specijalizovani hardver
+explanation: |
+  Satoshi Nakamoto je verovatno preferirao krivu secp256k1, jer parametri secp256r1 mogu sadržati skrivenu ranjivost.
+reviewed: false

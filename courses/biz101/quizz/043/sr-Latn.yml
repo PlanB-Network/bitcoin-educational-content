@@ -1,0 +1,9 @@
+question: Šta vam Bitcoin omogućava da radite bez posrednika?
+answer: Exchange vrednost na Internetu
+wrong_answers:
+  - Kreirajte centralizovane aplikacije
+  - Dobijanje bankarskih kredita
+  - Čuvanje ličnih podataka
+explanation: |
+  Bitcoin omogućava Exchange vrednost na Internetu bez posrednika putem svog peer-to-peer protokola.
+reviewed: false

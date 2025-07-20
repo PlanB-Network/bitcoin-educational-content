@@ -1,12 +1,9 @@
-question: 如果您不擁有 Bitcoin Wallet 的私人金鑰，這代表什麼？
-answer: 第三方負責您的比特幣安全
+question: 建議偏執狂使用者使用哪種 Cold 儲存解決方案？
+answer: 空氣澆口或 DIY Hardware Wallet
 wrong_answers:
-  - 您失去了所有的 bitcoins
-  - 您無法再使用比特幣進行交易
-  - 您的比特幣會自動轉換成另一種加密貨幣
+  - 移動 Hot Wallet
+  - Exchange 平台上的保管服務
+  - 通用封閉式 Hardware Wallet
 explanation: |
-  如果您不擁有 Bitcoin Wallet 的私人密碼匙，這意味著
-  您的比特幣安全由第三方負責。它們會受到
-  與 Exchange 平台相同的風險，如駭客入侵、扣押、規管或
-  破產。
+  偏執的使用者偏好使用開放原始碼解決方案進行離線儲存，以盡量降低暴露的風險。
 reviewed: false

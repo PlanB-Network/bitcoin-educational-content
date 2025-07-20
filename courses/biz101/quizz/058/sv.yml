@@ -1,0 +1,9 @@
+question: Vad är en fördel med att använda en depå Wallet för Starter-profilen?
+answer: Minskat tekniskt ansvar
+wrong_answers:
+  - Ökad kontroll över privata nycklar
+  - Förbättrad integritet med full kontroll över transaktionerna
+  - Eliminering av transaktionsavgifter
+explanation: |
+  Förvaltarplånböcker hanterar privata nycklar, vilket underlättar den tekniska bördan för användarna.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Za fiziokrate, koja je razlika između proizvodnje i profita?
+answer: Industrijalac i trgovac mogu pobediti, ali samo farmer proizvodi, jer proizvodnja je stvaranje korisne materije
+wrong_answers:
+  - Proizvođači i trgovci možda neće ostvariti profit. Samo poljoprivreda nužno donosi profit.
+  - Poljoprivrednik može zaraditi, ali samo industrijalac i trgovac proizvode, jer proizvoditi znači pružati uslugu.
+  - Proizvodnja i profit su ista stvar
+explanation: |
+  Fiziokrati su verovali da je samo poljoprivreda produktivna, jer stvara novu materiju. Industrija i trgovina su smatrane sterilnim aktivnostima, jer samo transformišu ili premještaju postojeće bogatstvo.

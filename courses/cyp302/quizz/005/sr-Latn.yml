@@ -1,0 +1,9 @@
+question: Koji je glavni cilj klasične kriptografije koji je i dalje prisutan u modernoj kriptografiji?
+answer: Poverljivost poruka
+wrong_answers:
+  - Pojednostavljenje poruka
+  - Ponavljanje poruka
+  - Automatizacija slanja poruka
+explanation: |
+  Klasična kriptografija je bila prvenstveno fokusirana na poverljivost, i ovaj cilj ostaje suštinski u modernoj kriptografiji, iako su dodate i druge teme, kao što su integritet i autentičnost.
+reviewed: false

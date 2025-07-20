@@ -1,10 +1,9 @@
-question: Dla czego pochodzi Bitcoin?
-answer: Internet
+question: Jaki jest przybliżony maksymalny Supply bitcoinów w obiegu?
+answer: 21 milionów
 wrong_answers:
-  - Blockchain
-  - System bankowy
-  - Rynek akcji
+  - 10 milionów
+  - 47 milionów
+  - 150 milionów
 explanation: |
-  Rozdział stwierdza, że Bitcoin jest natywny dla Internetu, dzięki czemu jest
-  dostępny dla każdego, kto ma dostęp do Internetu.
+  Bitcoin jest zaprogramowany tak, aby mieć ograniczony Supply wynoszący około 21 milionów bitcoinów.
 reviewed: false

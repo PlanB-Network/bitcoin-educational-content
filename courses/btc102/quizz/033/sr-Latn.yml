@@ -1,0 +1,12 @@
+question: Koje su dve suprotstavljene ideologije u svetu Bitcoin?
+answer: Dovođenje ljudi bez bankovnih usluga u bankarski sistem i iznošenje onih u bankarskom sistemu iz njega
+wrong_answers:
+  - Učiniti sve bogatima i učiniti sve siromašnima
+  - Centralizacija moći i decentralizacija moći
+  - Promovisanje privatnosti i promovisanje transparentnosti
+explanation: |
+  Poglavlje pominje dve suprotstavljene ideologije u svetu Bitcoin.
+  Jedna je da se milijarde ljudi koji nisu u bankarskom sistemu uvedu u njega.
+  Druga je da se milijarde ljudi koji su u bankarskom sistemu izvuku iz
+  njega.
+reviewed: false

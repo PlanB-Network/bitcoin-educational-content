@@ -1,0 +1,12 @@
+question: Koja je potencijalna pretnja korišćenja hakovanog softvera koji ne može biti ažuriran?
+answer: Dolazak virusa tokom njegovog ilegalnog preuzimanja i nesigurna upotreba protiv novih oblika napada.
+wrong_answers:
+  - Softver će prestati da radi nakon određenog perioda.
+  - Softver neće imati nove funkcije.
+  - Softver će trošiti više sistemskih resursa.
+explanation: |
+  Krekovani softver koji se ne može ažurirati predstavlja dvostruku
+  potencijalnu pretnju. Može doneti virus tokom ilegalnog
+  preuzimanja sa sumnjivog sajta i može biti nesiguran
+  protiv novih oblika napada.
+reviewed: true

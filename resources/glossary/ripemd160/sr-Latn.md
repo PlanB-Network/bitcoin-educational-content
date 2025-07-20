@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+---
+
+Akronim za *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. To je kriptografska Hash funkcija koja generiše 160-bitni sažetak iz proizvoljnog ulaza. Koristi se u Bitcoin za transformaciju javnog ključa u prijemni Address za Legacy i SegWit v0 standarde (za SegWit v1, javni ključ se ne hešira). Proces prvo uključuje primenu `SHA256` Hash funkcije na javni ključ, nakon čega sledi primena `RIPEMD160` na rezultat. Ova kombinacija dve različite Hash funkcije poznata je kao `HASH160` u kontekstu Bitcoin. `RIPEMD160` se takođe koristi u determinističkim i hijerarhijskim novčanicima za izračunavanje otisaka ključeva. Konkretno, `HASH160` se koristi za izračunavanje otiska roditeljskog ključa, koji se zatim uključuje u metapodatke proširenog ključa (xpub, xprv...).

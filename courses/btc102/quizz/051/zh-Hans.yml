@@ -1,8 +1,9 @@
-question: Lightning Network在比特币生态系统中的功能是什么？
-answer: 它通过作为第二层来允许比特币扩展并获得更多功能。
+question: 哪种方法既能抵消花掉的比特币，又能保留储蓄？
+answer: 支出和替换
 wrong_answers:
-  - 它是一个与比特币竞争的独立加密货币。
-  - 它是一个用于挖掘比特币的工具。
-  - 它是一个用于交易比特币的平台。
+  - HODLing 和替换
+  - 消费和 HODLing
+  - 交易与支出
 explanation: |
-  Lightning Network是应用于比特币的第二层技术，它使用微支付通道来扩展其区块链的能力，以更高效地进行交易。
+  花费和替换法包括花费比特币，然后回购相同数量的比特币以保持持有量。
+reviewed: false

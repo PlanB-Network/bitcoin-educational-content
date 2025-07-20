@@ -1,10 +1,9 @@
-question: Hva er betydningen av Bitcoins knapphet?
-answer: Det vil bare finnes 21 millioner bitcoins i verden, og aldri mer
+question: Hvilken stor aktør designer ASIC-er for Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - Verdien av Bitcoin vil alltid øke
-  - Bitcoin er vanskelig å utvinne
-  - Bitcoin-transaksjoner er begrenset i antall
+  - Trezor
+  - Ledger
+  - Støperi USA
 explanation: |
-  Bitcoins knapphet refererer til det faktum at det bare noensinne vil finnes 21
-  millioner bitcoins. Denne egenskapen, lik gull, forhindrer utvanning av
-  Bitcoins verdi gjennom overdreven pengetrykking.
+  Bitmain er en av de ledende produsentene av spesialisert maskinvare for Bitcoin Mining.
+reviewed: false

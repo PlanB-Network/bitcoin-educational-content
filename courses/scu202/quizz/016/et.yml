@@ -1,0 +1,9 @@
+question: Milline distributsiooniperekond kasutab RPM-pakettide haldurit?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Arch
+  - Slackware
+explanation: |
+  RPM-formaadi algatas Red Hat ja see on Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux ja teiste seotud distributsioonide aluseks.
+reviewed: false

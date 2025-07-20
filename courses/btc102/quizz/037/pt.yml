@@ -1,9 +1,9 @@
-question: O que é o Bitcoin de acordo com o movimento cyberpunk?
-answer: O equivalente eletrônico do dinheiro em espécie
+question: O que deve ser absolutamente evitado para garantir a segurança dos seus bitcoins?
+answer: Manter os seus bitcoins numa plataforma Exchange
 wrong_answers:
-  - Uma forma de ouro digital
-  - Uma nova forma de cartão de crédito
-  - Um tipo de criptomoeda
+  - Utilizar um Hardware Wallet de código aberto
+  - Utilização de um Hot Wallet para transacções diárias
+  - Diversificação dos métodos de armazenagem
 explanation: |
-  O capítulo menciona que, do ponto de vista cyberpunk, o Bitcoin se opõe a uma sociedade sem dinheiro em espécie. Ele permite a criação de transações financeiras digitais totalmente privadas e sem intermediários. Para o movimento cyberpunk, o Bitcoin é o equivalente eletrônico do dinheiro em espécie.
+  O princípio "Not your keys, not your bitcoins" sublinha a importância de possuir as suas próprias chaves privadas. Numa plataforma Exchange, os seus bitcoins estão expostos a riscos desnecessários.
 reviewed: false

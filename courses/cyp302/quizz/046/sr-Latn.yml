@@ -1,0 +1,9 @@
+question: Koja funkcija se koristi za izračunavanje broja celih brojeva manjih od N koji su međusobno prosti sa N?
+answer: Eulerova Fi funkcija
+wrong_answers:
+  - Eulerova Gamma funkcija
+  - Eulerova Sigma funkcija
+  - Dirichletova Beta funkcija
+explanation: |
+  Eulerova funkcija Phi određuje broj celih brojeva manjih od N koji su relativno prosti sa N, što je centralni koncept u teoremama kriptografije zasnovanim na prostim brojevima.
+reviewed: false

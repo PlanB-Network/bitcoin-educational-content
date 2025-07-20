@@ -1,10 +1,9 @@
-question: Quel était le taux d'inflation en Allemagne en octobre 1923 ?
-answer: 29,50 %.
+question: Quel était approximativement le taux d'inflation en Allemagne en octobre 1923, au plus fort de l'hyperinflation ?
+answer: 29 500 %
 wrong_answers:
-  - 200,9 %.
-  - 50,51 %.
-  - 25,98 %.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Le mois ayant connu le taux d'inflation le plus élevé en Allemagne était
-  octobre 1923, atteignant un pic de 29,50 %.
-reviewed: true
+  Le mois ayant connu le taux d'inflation le plus élevé en Allemagne était octobre 1923, atteignant un pic de 29 500 %.
+reviewed: false

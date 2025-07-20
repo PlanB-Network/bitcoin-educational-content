@@ -1,0 +1,5 @@
+---
+term: BARE-Multisig
+---
+
+Standardowy model skryptu P2MS używany do ustalania warunków wydatków na UTXO. Umożliwia blokowanie bitcoinów za pomocą wielu kluczy publicznych. Aby wydać te bitcoiny, należy dostarczyć podpis z predefiniowaną liczbą powiązanych kluczy prywatnych. Na przykład, P2MS `2/3` ma `3` klucze publiczne z `3` powiązanymi tajnymi kluczami prywatnymi. Aby wydać bitcoiny zablokowane za pomocą tego skryptu P2MS, należy złożyć podpis z co najmniej `2` z `3` kluczy prywatnych. Jest to progowy system bezpieczeństwa. Skrypt ten został wymyślony w 2011 roku przez Gavina Andresena, gdy właśnie przejął on opiekę nad głównym klientem Bitcoin. Obecnie P2MS jest tylko marginalnie wykorzystywany przez niektóre aplikacje. Zdecydowana większość nowoczesnych multisignature korzysta z innych modeli skryptów, takich jak P2SH lub P2WSH. W porównaniu do nich, P2MS jest niezwykle trywialny. Klucze publiczne, z których się składa, są ujawniane po otrzymaniu transakcji. Korzystanie z P2MS jest również droższe niż w przypadku innych skryptów wielopodpisowych.

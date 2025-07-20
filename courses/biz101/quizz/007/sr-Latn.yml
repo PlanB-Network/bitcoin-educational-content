@@ -1,0 +1,9 @@
+question: Koji od sledećih odgovora najbolje opisuje kako Bitcoin transakcije postižu konačnost?
+answer: Jednom zabeležene na Blockchain, transakcije su nepromenljive i ne mogu se menjati.
+wrong_answers:
+  - Transakcije mogu biti poništene od strane banaka ako dođe do spora.
+  - Korisnici moraju dobiti odobrenje od više vladinih entiteta da bi finalizirali transakciju.
+  - Bilo koji učesnik može uređivati prošle transakcije po želji, ako ima poseban kod.
+explanation: |
+  Bitcoin s Blockchain je otporan na manipulacije Ledger. Kada je transakcija potvrđena i uključena u blok, postaje deo trajnog zapisa, osiguravajući konačnost.
+reviewed: false

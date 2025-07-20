@@ -1,0 +1,9 @@
+question: Koja je glavna prednost zlata kao valute?
+answer: Izuzetno je izdržljiv.
+wrong_answers:
+  - Lako je deljiv ili prenosiv na velike udaljenosti.
+  - To je lako proverljivo.
+  - Nije regulisano od strane vlade.
+explanation: |
+  Iako se ne može lako deliti ili transportovati na velike udaljenosti, zlato je veoma izdržljiv materijal, što ga čini dobrim čuvarom vrednosti. Zlatnici su se koristili kao valuta u prošlosti, ali ne bi služili istoj svrsi u današnjoj digitalnoj eri.
+reviewed: true

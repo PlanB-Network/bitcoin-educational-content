@@ -29,7 +29,9 @@ Bem-vindo ao curso CYP302!
 
 Este livro oferece uma introdução aprofundada à ciência e à prática da criptografia. Sempre que possível, centra-se na exposição concetual, em vez de formal, do material.
 
-> Este curso é baseado no repositório de [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Tudo bem para ele. O conteúdo ainda não está terminado e só está aqui para mostrar como o podemos integrar se o JWburger concordar.
+
+Este conteúdo educacional é adaptado do livro e repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Embora o autor tenha gentilmente permitido seu uso educacional, todos os direitos de propriedade intelectual permanecem com o criador original.
+
 **Motivação e objectivos**
 
 É difícil encontrar muitos materiais que ofereçam um bom meio-termo no ensino da criptografia.

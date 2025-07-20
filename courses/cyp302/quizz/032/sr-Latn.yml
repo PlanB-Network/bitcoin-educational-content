@@ -1,0 +1,9 @@
+question: Zašto se kaže da je pseudonasumični niz neodvojiv od istinski nasumičnog niza?
+answer: Zato što je gotovo nemoguće odrediti njegovo poreklo bez dodatnih informacija
+wrong_answers:
+  - Jer sadrži determinističke segmente identične pravom nasumičnom nizu
+  - Zato što koristi brojeve sa pokretnim zarezom u svojoj konstrukciji
+  - Jer je generisano isključivo iz prirodnih događaja
+explanation: |
+  Pseudonasumičan niz je dizajniran da blisko podseća na pravi nasumičan niz, čineći razliku nemogućom bez pristupa seed ili algoritmu koji je korišćen.
+reviewed: false

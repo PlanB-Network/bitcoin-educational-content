@@ -1,0 +1,9 @@
+question: در RGB، Commitment کجا است وقتی که یک Single-Use Seal بسته است؟
+answer: در خروجی تراکنش خرج کردن نقطه خروج
+wrong_answers:
+  - در ورودی تراکنش که نقطه خروجی را خرج می‌کند
+  - در اسکریپت theSig از تراکنش خرج کردن outpoint
+  - در شاهد تراکنش خرج کردن نقطه خروج
+explanation: |
+  Commitment در خروجی تراکنشی که نقطه خروجی تعریف‌کننده Single-Use Seal را خرج می‌کند، وارد می‌شود.
+reviewed: false

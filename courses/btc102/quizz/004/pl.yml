@@ -1,10 +1,9 @@
-question: Jaka jest wspólna cecha oszustw w domenie kryptowalut?
-answer: Obietnice nierealistycznych zysków.
+question: Jaki jest główny mechanizm schematu Ponziego?
+answer: Pierwsi inwestorzy są opłacani pieniędzmi od nowych inwestorów
 wrong_answers:
-  - Obietnice towarów fizycznych.
-  - Obietnice dotyczące oprogramowania.
-  - Obietnice dotyczące waluty fiducjarnej.
+  - Zwroty pochodzą z rzeczywistego produktu na rynku
+  - Inwestorzy otrzymują dywidendy od spółek
+  - Zyski są generowane przez inteligentne kontrakty na Blockchain
 explanation: |
-  Oszustwa w domenie kryptowalut często obiecują nierealistyczne zyski.
-  Ważne jest, aby nie ufać ślepo, zwłaszcza jeśli chodzi o baner internetowy.
+  W schemacie Ponziego nie jest tworzony żaden rzeczywisty produkt, a wypłaty zależą wyłącznie od napływu nowych uczestników.
 reviewed: false

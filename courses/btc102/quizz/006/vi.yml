@@ -1,9 +1,9 @@
-question: Một kiểu lừa đảo phổ biến trong lĩnh vực đầu tư tài chính là gì?
-answer: Hệ thống bán hàng đa cấp.
+question: Lợi ích chính của việc sử dụng trình quản lý mật khẩu là gì?
+answer: Nó lưu trữ và tạo ra mật khẩu phức tạp
 wrong_answers:
-  - Bán hàng hóa vật lý.
-  - Bán sản phẩm phần mềm.
-  - Bán tiền tệ fiat.
+  - Nó cung cấp gợi ý để ghi nhớ mật khẩu của bạn
+  - Nó sử dụng lại cùng một mật khẩu trên nhiều tài khoản trực tuyến khác nhau
+  - Nó thay thế nhu cầu sử dụng phần mềm diệt vi-rút
 explanation: |
-  Trong lĩnh vực đầu tư tài chính, hệ thống bán hàng đa cấp và các kế hoạch Ponzi nổi bật như là những mô hình bất hợp pháp. Chúng hoạt động bằng cách sử dụng tiền của nhà đầu tư mới để trả cho những người tham gia trước đó.
+  Trình quản lý mật khẩu tạo ra các mật khẩu mạnh và lưu trữ chúng một cách an toàn, cho phép dễ dàng truy xuất mà không cần phải ghi nhớ chúng.
 reviewed: false

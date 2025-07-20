@@ -1,0 +1,9 @@
+question: Koji Bitcoin standard uvodi hijerarhijske determinističke novčanike?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 definiše rad HD novčanika, omogućavajući hijerarhijsko izvođenje privatnih ključeva iz seed.
+reviewed: false

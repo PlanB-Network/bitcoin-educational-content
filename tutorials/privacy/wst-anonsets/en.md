@@ -57,7 +57,7 @@ Anonsets allow, where appropriate, to judge the quality of the coinjoins. A larg
 There are two types of anonsets:
 - **The prospective anonymity set;**
 - **The retrospective anonymity set.**
-The first indicator shows the size of the group among which the studied UTXO is hidden at the end of the cycle, knowing the UTXO at the entry, that is, the number of indistinguishable coins present within this group. This indicator allows measuring the resistance of the coin's confidentiality against an analysis from past to present (entry to exit). In English, the name of this indicator is "*forward anonset*", or "*forward-looking metrics*". 
+The first indicator shows the size of the group among which the studied UTXO is hidden at the end of the cycle, knowing the UTXO at the entry, that is, the number of indistinguishable coins present within this group. This indicator allows measuring the resistance of the coin's privacy against an analysis from past to present (entry to exit). In English, the name of this indicator is "*forward anonset*", or "*forward-looking metrics*". 
 ![coinjoin](assets/en/4.webp)
 
 This metric estimates the extent to which your UTXO is protected against attempts to reconstruct its history from its entry point to its exit point in the coinjoin process.
@@ -66,7 +66,7 @@ For example, if your transaction participated in its first coinjoin cycle and tw
 
 ![coinjoin](assets/en/5.webp)
 
-The second indicator shows the number of possible sources for a given coin, knowing the UTXO at the end of the cycle. This indicator measures the resistance of the coin's confidentiality against an analysis from present to past (exit to entry), that is, how difficult it is for an analyst to trace back to the origin of your coin, before the coinjoin cycles. In English, the name of this indicator is "*backward anonset*", or "*backward-looking metrics*".
+The second indicator shows the number of possible sources for a given coin, knowing the UTXO at the end of the cycle. This indicator measures the resistance of the coin's privacy against an analysis from present to past (exit to entry), that is, how difficult it is for an analyst to trace back to the origin of your coin, before the coinjoin cycles. In English, the name of this indicator is "*backward anonset*", or "*backward-looking metrics*".
 
 ![coinjoin](assets/en/6.webp)
 

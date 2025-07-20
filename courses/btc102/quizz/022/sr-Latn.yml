@@ -1,0 +1,11 @@
+question: Koja je razlika između trgovanja i investiranja u kontekstu Bitcoin?
+answer: Trgovanje uključuje kratkoročne ugovore sa visokim rizikom, dok investiranje podrazumeva kupovinu BTC-a za kratkoročni do srednjoročni period sa ograničenim rizikom.
+wrong_answers:
+  - Trgovanje podrazumeva kupovinu BTC-a za kratkoročni do srednjoročni period, dok investiranje podrazumeva kratkoročne ugovore sa visokim rizikom.
+  - Trgovanje podrazumeva kupovinu BTC za dugoročno, dok investiranje podrazumeva kratkoročne ugovore sa visokim rizikom.
+  - Trgovanje podrazumeva kupovinu BTC-a na kratak do srednji rok, dok investiranje podrazumeva kupovinu BTC-a na duži rok.
+explanation: |
+  U kontekstu Bitcoin, trgovanje uključuje kratkoročne ugovore sa
+  visokim rizikom, dok investiranje podrazumeva kupovinu BTC za kratkoročni do srednjoročni period sa ograničenim
+  rizikom.
+reviewed: false

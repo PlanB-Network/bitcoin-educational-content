@@ -1,0 +1,9 @@
+question: Šta je spajanje u transakciji?
+answer: To je radnja konzumiranja više UTXO-a kao ulaza.
+wrong_answers:
+  - To je radnja kreiranja više UTXO-a kao izlaza.
+  - To je čin kombinovanja više adresa u jednu.
+  - To je čin kombinovanja više blokova u Blockchain.
+explanation: |
+  Kada korisnik nema nijedan UTXO veći ili jednak iznosu koji želi poslati, mora koristiti nekoliko svojih UTXO-a da zadovolji izlaze. Ova praksa se naziva spajanje.
+reviewed: false

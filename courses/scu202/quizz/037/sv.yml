@@ -1,0 +1,9 @@
+question: Vilken programvarukategori utgör en av de mest kritiska ingångspunkterna för attacker mot en dator?
+answer: Webbläsaren
+wrong_answers:
+  - PDF-läsaren
+  - Textredigerare
+  - Filhanteraren
+explanation: |
+  Webbläsaren är ständigt exponerad för externt innehåll, vilket gör den till en utmärkt attackvektor för cyberbrottslingar.
+reviewed: false

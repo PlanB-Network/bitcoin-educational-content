@@ -1,0 +1,9 @@
+question: Koji digitalni potpisni algoritam je korišćen prilikom lansiranja Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin je inicijalno koristio ECDSA, protokol za potpisivanje zasnovan na eliptičkim krivama, pre uvođenja Schnorr potpisa 2021. godine.
+reviewed: false

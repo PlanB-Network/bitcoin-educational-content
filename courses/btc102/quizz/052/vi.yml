@@ -1,10 +1,9 @@
-question: Vai trò của các công ty như OpenNode, Swiss Bitcoin Pay và BTCPay trong hệ sinh thái Bitcoin là gì?
-answer: Họ cung cấp các công cụ giúp việc chấp nhận Bitcoin trở nên dễ dàng đối với các doanh nghiệp.
+question: Việc chạy nút Bitcoin của riêng bạn mang lại lợi ích gì?
+answer: Độc lập
 wrong_answers:
-  - Họ đào Bitcoin.
-  - Họ quản lý Bitcoin.
-  - Họ phát hành Bitcoin.
+  - Tính thanh khoản
+  - Tập trung hóa
+  - Tốc độ
 explanation: |
-  Các công ty như OpenNode, Swiss Bitcoin Pay và BTCPay cung cấp các công cụ
-  giúp việc chấp nhận Bitcoin trở nên dễ dàng đối với các doanh nghiệp, góp phần vào việc
-  thúc đẩy việc sử dụng Bitcoin trong các giao dịch hàng ngày.
+  Việc chạy nút của riêng bạn đảm bảo tính độc lập với bên thứ ba và bảo vệ tính riêng tư của các giao dịch của bạn.
+reviewed: false

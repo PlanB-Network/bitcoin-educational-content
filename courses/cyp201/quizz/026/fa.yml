@@ -1,0 +1,9 @@
+question: نقطه شروع برای محاسبه یک امضای ECDSA چیست؟
+answer: پیام Hash
+wrong_answers:
+  - کلید عمومی
+  - یک Nonce ثابت
+  - یک منحنی بیضوی سفارشی
+explanation: |
+  یک امضای ECDSA با محاسبه Hash پیام برای امضا شروع می‌شود، که اغلب با SHA256 انجام می‌شود.
+reviewed: false

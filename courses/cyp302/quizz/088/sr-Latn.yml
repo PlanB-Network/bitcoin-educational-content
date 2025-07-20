@@ -1,0 +1,9 @@
+question: Koji je algoritam blokovskog šifrovanja usvojen kao AES standard?
+answer: Rijndael šifra
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndael šifra je usvojena kao simetrični standard za šifrovanje (AES) od strane NIST-a, zbog svoje visoke performanse i sigurnosti.
+reviewed: false

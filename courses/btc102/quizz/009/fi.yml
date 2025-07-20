@@ -1,12 +1,9 @@
-question: Mikä on salasananhallintaohjelman pääasiallinen tehtävä?
-answer: Tallentaa ja hallinnoida salasanojasi
+question: Miksi verkkoturvallisuus on ratkaisevan tärkeää Bitcoin-käyttäjille?
+answer: Koska hakkerointi johtaa bitcoinien peruuttamattomaan menetykseen
 wrong_answers:
-  - Generoida satunnaisia salasanoja
-  - Muistaa käyttäjätunnuksesi
-  - Suojata tietokoneesi viruksilta
+  - Koska pankit vakuuttavat varat Bitcoin:n täydellisen tappion varalta
+  - Koska bitcoinien menettämisestä voi joutua vankilaan..
+  - Koska hyökkäykset johtavat erittäin raskaaseen hallinnolliseen taakkaan
 explanation: |
-  Salasananhallintaohjelma on ohjelmisto, joka tallentaa ja hallinnoi salasanojasi.
-
-  Se auttaa sinua olemaan käyttämättä samaa salasanaa kahdesti, valitsemaan monimutkaisia ja turvallisia salasanoja,
-
-  ja helpottaa online-turvallisuuden hallintaa.
+  Ilman välikäsiä hakkerointi tarkoittaa bitcoinien lopullista menetystä.
+reviewed: false

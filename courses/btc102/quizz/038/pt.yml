@@ -1,9 +1,9 @@
-question: O que o Bitcoin oferece a cada indivíduo?
-answer: Uma chance de sair do sistema financeiro tradicional
+question: Que perfil favorece a aquisição sem KYC e a utilização de carteiras altamente seguras?
+answer: O paranoico
 wrong_answers:
-  - Uma chance de enriquecer rapidamente
-  - Uma chance de investir em ações
-  - Uma chance de abrir uma conta bancária
+  - O hodler
+  - O empilhador
+  - O utilizador ativo
 explanation: |
-  O capítulo afirma que o Bitcoin oferece a cada indivíduo uma chance de sair do sistema financeiro tradicional. É uma escolha ética que todos provavelmente terão que fazer um dia.
+  O paranoico dá prioridade à privacidade e à segurança, utilizando métodos de aquisição e armazenamento altamente seguros.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Qual é o principal benefício de usar um gerenciador de senhas de acordo com o capítulo?
-answer: Ele ajuda você a nunca usar a mesma senha duas vezes.
+question: Que sistema permite transacções rápidas e de baixo custo no Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Ele ajuda você a lembrar seus nomes de usuário.
-  - Ele protege seu computador contra vírus.
-  - Ele gera senhas aleatórias.
+  - SegWit
+  - Rede Ripple
+  - RGB
 explanation: |
-  De acordo com o capítulo, um gerenciador de senhas ajuda você a nunca usar a mesma senha duas vezes, escolher senhas complexas e seguras e facilitar a gestão da sua segurança online.
+  O Lightning Network é uma solução de segundo Layer que permite uma liquidação rápida e reduz o custo das transacções BTC.
 reviewed: false

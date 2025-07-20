@@ -1,11 +1,9 @@
-question: Hva betyr det å si at Bitcoin er som et sort hull?
-answer: Det vil ikke forsvinne og vil absorbere alt på sin vei over tid.
+question: Hvilken tjeneste viser forhandlere som godtar Bitcoin over hele verden?
+answer: BTC-kart
 wrong_answers:
-  - Det vil til slutt kollapse under sin egen vekt.
-  - Det er en trussel mot det globale finanssystemet.
-  - Det er et mysterium som vitenskapsmenn fortsatt prøver å forstå.
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Sveitsisk Bitcoin-lønn
 explanation: |
-  Uttalelsen om at Bitcoin er som et sort hull refererer til dets motstandsdyktighet
-  og dets potensial til å bli det dominerende finanssystemet, ved å absorbere alle andre systemer
-  på sin vei.
+  BTC Map er en dedikert plattform som lokaliserer selgere som aksepterer Bitcoin rundt om i verden.
 reviewed: false

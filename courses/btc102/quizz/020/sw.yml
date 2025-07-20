@@ -1,12 +1,9 @@
-question: Je, kanuni ya dhahabu ya kuwekeza ni ipi?
-answer: Kamwe usiwekeze zaidi ya unaweza kumudu kupoteza.
+question: Je, kunaweza kuwa na madhara ya kuporomoka kwa thamani ya fedha za kitaifa?
+answer: Kukosekana kwa utulivu wa kijamii na kuongezeka kwa itikadi kali za kisiasa
 wrong_answers:
-  - Daima wekeza katika kile ambacho ni mtindo.
-  - Wekeza kila wakati kwa pesa zilizokopwa.
-  - Siku zote wekeza kwenye usichokielewa.
+  - Ukuaji wa uchumi na ustawi wa taifa
+  - Uboreshaji wa biashara ya kimataifa
+  - Kuimarishwa kwa demokrasia na haki za asili za watu binafsi
 explanation: |
-  Kanuni ya dhahabu ya kuwekeza ni kamwe kuwekeza zaidi kuliko unaweza kumudu
-  kupoteza. Hii ni kwa sababu uwekezaji daima hubeba kiwango fulani cha hatari, na wewe
-  unapaswa kuwekeza pesa tu ambazo unaweza kumudu kupoteza bila kuathiri kifedha yako
-  utulivu.
+  Kushuka kwa thamani kunaweza kusababisha mgogoro wa kiuchumi kupitia mfumuko wa bei, kuchochea kutoridhika kwa jamii na kuongezeka kwa itikadi kali za kisiasa.
 reviewed: false

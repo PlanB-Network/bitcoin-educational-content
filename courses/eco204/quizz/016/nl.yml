@@ -1,0 +1,10 @@
+question: Wat is de drempel voor hyperinflatie volgens de definitie van Philip Cagan?
+answer: Maandelijkse inflatie meer dan 50%
+wrong_answers:
+  - Maandelijkse inflatie meer dan 40%
+  - Maandelijkse inflatie meer dan 60%
+  - Maandelijkse inflatie meer dan 70%
+explanation: |
+  Volgens de definitie van Philip Cagan begint hyperinflatie wanneer de maandelijkse
+  inflatie meer dan 50% bedraagt.
+reviewed: false

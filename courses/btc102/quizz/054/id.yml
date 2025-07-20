@@ -1,8 +1,9 @@
-question: Siapa yang memperkenalkan ide Jalan Raya Bitcoin?
-answer: Andreas Antonopoulos
+question: Apa tujuan utama dari pengguna aktif?
+answer: Untuk menggunakan Bitcoin sebagai metode pembayaran harian
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - Untuk berinvestasi di Bitcoin dalam jangka panjang
+  - Untuk mengumpulkan satoshi secara bertahap
+  - Untuk berspekulasi di pasar
 explanation: |
-  Andreas Antonopoulos, seorang pendukung dan pendidik Bitcoin yang terkenal, memperkenalkan ide Jalan Raya Bitcoin.
+  Pengguna aktif memasukkan Bitcoin ke dalam kehidupan sehari-hari mereka untuk melakukan transaksi dan mendukung pengadopsiannya.
+reviewed: false

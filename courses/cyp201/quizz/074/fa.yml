@@ -1,0 +1,9 @@
+question: شاخص /84'/ در عمق 1 یک مسیر مشتق‌سازی به چه چیزی اشاره دارد؟
+answer: استاندارد P2WPKH (SegWit v0)
+wrong_answers:
+  - استاندارد P2TR (SegWit v1)
+  - Bitcoin Testnet ارز
+  - یک ارز Bitcoin Mainnet
+explanation: |
+  شاخص /84'/ در BIP84 تعریف شده است تا استفاده از استاندارد SegWit v0 با آدرس‌های P2WPKH در عمق 1 (که هدف مشتق‌گیری است) را نشان دهد.
+reviewed: false

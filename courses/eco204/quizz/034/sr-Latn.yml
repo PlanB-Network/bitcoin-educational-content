@@ -1,0 +1,9 @@
+question: Šta je zombirana kompanija?
+answer: Kompanija koja bi, u normalnim tržišnim uslovima, bila nesolventna ili blizu bankrota, ali nastavlja da posluje uglavnom kroz niskokamatno zaduživanje.
+wrong_answers:
+  - Kompanija koja posluje više od 100 godina.
+  - Kompanija koja posluje u sektoru tehnologije.
+  - Kompanija koju je vlada spasila finansijskom pomoći.
+explanation: |
+  Zombi kompanija je kompanija koja bi, pod normalnim tržišnim uslovima, bila nesolventna ili blizu bankrota, ali nastavlja da posluje uglavnom kroz niskokamatno zaduživanje. Ove kompanije zarađuju dovoljno novca da pokriju svoje dugove, ali nisu u mogućnosti da značajno rastu.
+reviewed: false

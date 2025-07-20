@@ -1,0 +1,13 @@
+question: Šta je princip Attakai u kontekstu Bitcoin Mining?
+answer: Princip Attakai odnosi se na produktivnu upotrebu toplote generisane iz Bitcoin Mining.
+wrong_answers:
+  - Princip Attakai odnosi se na korišćenje obnovljivih izvora energije za Bitcoin Mining.
+  - Princip Attakai odnosi se na korišćenje naprednih sistema hlađenja u Bitcoin Mining.
+  - Princip Attakai odnosi se na korišćenje hardvera sa niskom potrošnjom energije u Bitcoin Mining.
+explanation: |
+  Princip Attakai odnosi se na ideju
+  decentralizacije Mining kroz produktivnu upotrebu
+  generisane toplote. Ovaj koncept sugeriše da bi energetski
+  intenzivni objekti mogli imati koristi od toplote koju
+  proizvode rudari za grejanje svojih objekata.
+reviewed: true

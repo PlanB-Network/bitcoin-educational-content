@@ -1,11 +1,9 @@
-question: Co je řešení bez KYC v kontextu Bitcoinu?
-answer: Řešení, které umožňuje anonymní transakce s Bitcoinem
+question: Proč se doporučuje psát dědický dopis inkoustem na papír?
+answer: Abyste se vyhnuli rizikům spojeným s ohrožením digitálních dokumentů
 wrong_answers:
-  - Řešení, které umožňuje transakce s Bitcoinem bez internetu
-  - Řešení, které umožňuje transakce s Bitcoinem bez peněženky
-  - Řešení, které umožňuje transakce s Bitcoinem bez poplatků
+  - Snížení nákladů na tisk
+  - Získání právně uznávaného podpisu
+  - Zvýšení právní hodnoty dokumentu
 explanation: |
-  Řešení bez KYC (Know Your Customer) je řešení, které umožňuje
-  anonymní transakce s Bitcoinem. Nevyžaduje od uživatele poskytnutí osobních
-  identifikačních informací.
+  Ručně psaný dopis je méně náchylný ke kybernetickým útokům a zajišťuje důvěrnost pokynů.
 reviewed: false

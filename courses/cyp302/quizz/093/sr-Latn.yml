@@ -1,0 +1,9 @@
+question: Koja je tipična veličina bloka za šifrovanje blok šifrom?
+answer: 64, 128, 192, ili 256 bita
+wrong_answers:
+  - 8, 16, 32, ili 64 bita
+  - 4, 8, 16, ili 32 bita
+  - 256, 512, 1024, ili 2048 bita
+explanation: |
+  Blok šifre obrađuju podatke u blokovima fiksne veličine, obično 64, 128, 192 ili 256 bita, kako bi se osigurala optimalna sigurnost i integritet enkripcije.
+reviewed: false

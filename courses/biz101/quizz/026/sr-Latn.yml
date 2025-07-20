@@ -1,0 +1,9 @@
+question: Koji je jedan ključni faktor koji treba uzeti u obzir prilikom odabira platforme ili brokera za kupovinu Bitcoin za poslovanje?
+answer: Reputacija provajdera, mere bezbednosti i sposobnost izvoza istorije transakcija za računovodstvo.
+wrong_answers:
+  - Osiguravanje da platforma podržava samo nepoznate kriptovalute.
+  - Pronalaženje provajdera koji odbija da ponudi bilo kakvu korisničku podršku.
+  - Korišćenje usluge koja zabranjuje povlačenje Bitcoin na samostalno čuvanje Wallet.
+explanation: |
+  Pouzdana platforma treba da ima solidnu reputaciju, dobru sigurnost i alate za vođenje evidencije. Mogućnost povlačenja Bitcoin i integracija sa računovodstvenim softverom takođe su ključni za poslovne operacije.
+reviewed: false

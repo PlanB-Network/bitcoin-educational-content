@@ -1,0 +1,9 @@
+question: Šta je inicijativa Attakai u kontekstu Bitcoin Mining?
+answer: Inicijativa koja ima za cilj da Mining učini pristupačnijim i manje štetnim, dok doprinosi mreži
+wrong_answers:
+  - Inicijativa koja ima za cilj povećanje cene Bitcoin
+  - Inicijativa koja ima za cilj smanjenje Hashrate mreže
+  - Inicijativa koja ima za cilj centralizaciju hashing snage
+explanation: |
+  Inicijativa Attakai ima za cilj da učini Bitcoin Mining pristupačnijim i manje štetnim. Podstiče ljude da rudare kod kuće sa pristupačnijim hardverom i rešenjima za smanjenje zagađenja bukom. Inicijativa takođe naglašava važnost doprinosa bezbednosti i decentralizaciji Bitcoin mreže.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Šta znači ako ne posedujete privatni ključ za vaš Bitcoin Wallet?
+answer: Treća strana je odgovorna za sigurnost vaših bitkoina.
+wrong_answers:
+  - Izgubio si sve svoje bitkoine
+  - Više ne možete obavljati transakcije sa svojim bitcoinima.
+  - Vaši bitkoini se automatski konvertuju u drugu kriptovalutu
+explanation: |
+  Ako ne posedujete privatni ključ za vaš Bitcoin Wallet, to znači da je treća strana odgovorna za sigurnost vaših bitkoina. Oni su podložni istim rizicima kao i Exchange platforme kao što su hakovanje, zaplena, regulacija ili bankrot.
+reviewed: false

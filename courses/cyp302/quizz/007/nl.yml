@@ -1,0 +1,9 @@
+question: Wat onderscheidt een modern cryptografieschema van een eenvoudig encryptieschema?
+answer: De garantie van integriteit en authenticiteit van berichten
+wrong_answers:
+  - Het gebruik van één geheime sleutel
+  - De decentralisatie van de sleutel
+  - Anonimiseren van berichten
+explanation: |
+  Moderne cryptografie omvat regelingen die verder gaan dan vertrouwelijkheid om integriteit en authenticiteit te garanderen, evenals onweerlegbaarheid, in tegenstelling tot eenvoudige versleutelingsregelingen.
+reviewed: false

@@ -28,7 +28,7 @@ Sản phẩm của BTCPay Server Foundation
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
-Chào mừng bạn đến với khóa học BTC305 về BTCPay Server!
+Chào mừng bạn đến với khóa học POS 305 về BTCPay Server!
 
 Mục tiêu của khóa học này là hướng dẫn bạn cách cài đặt, cấu hình và sử dụng BTCPay Server trong doanh nghiệp hoặc tổ chức của bạn. BTCPay Server là một giải pháp mã nguồn mở cho phép xử lý các thanh toán bằng bitcoin một cách tự chủ, an toàn và tiết kiệm. Khóa học này chủ yếu dành cho những người dùng nâng cao muốn làm chủ việc tự lưu trữ BTCPay Server để tích hợp hoàn toàn vào các hoạt động hàng ngày của họ.
 

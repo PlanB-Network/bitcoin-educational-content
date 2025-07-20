@@ -1,0 +1,9 @@
+question: Šta znači termin difuzija u kontekstu AES enkripcije?
+answer: Promena u otvorenom tekstu rezultira značajnom promenom u šifrovanom tekstu
+wrong_answers:
+  - Šifrovani tekst je uvek iste dužine
+  - Ključni bajtovi su ravnomerno raspoređeni
+  - Osetljive informacije su pomešane u svakom bloku šifrovanog teksta
+explanation: |
+  Difuzija znači da mala promena u otvorenom tekstu rezultira značajnom promenom u šifrovanom tekstu, što otežava napadaču da zaključi otvoreni tekst.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Mikä on merkittävää siinä, että Bitcoin on 0 to 1 -innovaatio?
-answer: Se mullistaa normimme ja tottumuksemme
+question: Millä RGB-mekanismilla varmistetaan kaksinkertaisen käytön vastustaminen?
+answer: Single-Use Seal
 wrong_answers:
-  - Se on ensimmäinen digitaalinen valuutta
-  - Sen arvo on noussut 0: sta 1; een
-  - Se on ensimmäinen askel kohti käteisettömää yhteiskuntaa
+  - Monikäyttö Seal
+  - Kaksinkertainen allekirjoitus
+  - Proof-of-Stake
 explanation: |
-  Termi 0 to 1 viittaa merkittävään innovaatioon, joka mullistaa olemassa olevat normit ja tottumukset. Bitcoinia pidetään tällaisena innovaationa sen ainutlaatuisten ominaisuuksien ja potentiaalisen vaikutuksen vuoksi yhteiskuntaan.
+  Single-Use Seal hyödyntää sitä, että UTXO voidaan käyttää vain kerran, mikä varmistaa kaksinkertaisen käytön estämisen RGB-älysopimuksissa.
 reviewed: false

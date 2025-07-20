@@ -1,0 +1,13 @@
+question: Wat is het belangrijkste probleem met het fractionele reservesysteem?
+answer: Het belangrijkste probleem met het systeem van fractionele reserves is dat grote onttrekkingen aan een bepaalde bank mogelijk kunnen leiden tot het faillissement van die bank.
+wrong_answers:
+  - Het belangrijkste probleem met het fractionele reservesysteem is dat het banken verhindert om geld uit te lenen.
+  - Het belangrijkste probleem met het fractionele reservesysteem is dat het vereist dat banken meer reserves aanhouden dan ze aan deposito's ontvangen.
+  - Het belangrijkste probleem met het fractionele reservesysteem is dat het banken verhindert om nieuw geld te creëren.
+explanation: |
+  In een fractioneel reservesysteem houden banken slechts een fractie
+  van het geld van hun deposanten in reserve en lenen ze de rest uit
+  de rest uit. Als veel klanten tegelijkertijd hun geld
+  op te nemen, kan het zijn dat de bank niet genoeg reserves heeft om aan deze vraag te voldoen
+  te voldoen, wat tot een faillissement kan leiden.
+reviewed: true

@@ -1,8 +1,9 @@
-question: Apa arti dari kelangkaan Bitcoin?
-answer: Hanya akan ada 21 juta bitcoin di dunia dan tidak akan lebih
+question: Pemain utama mana yang mendesain ASIC untuk Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - Nilai Bitcoin akan selalu meningkat
-  - Bitcoin sulit untuk ditambang
-  - Transaksi Bitcoin terbatas jumlahnya
+  - Trezor
+  - Ledger
+  - Pengecoran AS
 explanation: |
-  Kelangkaan Bitcoin merujuk pada fakta bahwa hanya akan ada 21 juta bitcoin. Karakteristik ini, serupa dengan emas, mencegah penurunan nilai Bitcoin melalui pencetakan uang secara berlebihan.
+  Bitmain adalah salah satu produsen perangkat keras khusus terkemuka untuk Bitcoin Mining.
+reviewed: false

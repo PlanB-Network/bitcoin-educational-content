@@ -1,11 +1,9 @@
-question: 2FA là viết tắt của từ gì?
-answer: Xác Thực Hai Yếu Tố
+question: Tại sao bạn nên giữ bí mật về khoản nắm giữ Bitcoin của mình?
+answer: Để tránh thu hút sự chú ý của tội phạm và chính phủ
 wrong_answers:
-  - Ủy Quyền Hai Yếu Tố
-  - Xác Thực Hai Tính Năng
-  - Xác Thực Hai Chức Năng
+  - Để được hưởng mức giá Exchange tốt hơn ở một số quốc gia nhất định
+  - Để tránh thu hút sự chú ý của các doanh nhân đang tìm kiếm nguồn tài trợ
+  - Để nâng cao năng lực vay vốn
 explanation: |
-  2FA là viết tắt của Xác Thực Hai Yếu Tố. Nó cung cấp một lớp bảo mật bổ sung
-
-  cho các tài khoản nhạy cảm nhất của bạn.
+  Sự thận trọng sẽ bảo vệ bạn khỏi nguy cơ bị kẻ lừa đảo, kẻ đố kỵ hoặc kẻ trộm nhắm tới.
 reviewed: false

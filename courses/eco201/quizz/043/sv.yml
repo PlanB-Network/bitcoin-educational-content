@@ -1,0 +1,13 @@
+question: Vilket är Ludwig von Mises huvudargument i hans artikel Economic Calculation in a Socialist Commonwealth?
+answer: En rationell ekonomisk organisation är omöjlig utan priser på de insatsvaror som ingår i produktionen.
+wrong_answers:
+  - Socialismen är moraliskt överlägsen kapitalismen.
+  - Kapitalismen är det enda hållbara ekonomiska systemet.
+  - Socialismen kan skapa individer som saknar kapitalistiska instinkter.
+explanation: |
+  Mises hävdade att utan en marknad för att bestämma priserna på mellanliggande
+  produktionsfaktorer blir det omöjligt att rationalisera användningen av resurser
+  mellan olika branscher. Detta innebär att även om det finns en perfekt organisation inom
+  varje företag eller del av ekonomin, kan inte hela ekonomin effektivt anpassa sig
+  till förändringar i resurstillgång, produktionsförhållanden och konsumentpreferenser.
+reviewed: true

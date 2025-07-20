@@ -1,0 +1,15 @@
+question: Šta je osnovni uzrok hiperinflacije koji redenominacija ne rešava Address?
+answer: Ekspanzija novca Supply.
+wrong_answers:
+  - Smanjenje novca Supply.
+  - Povećanje potražnje za robama i uslugama.
+  - Smanjenje potražnje za robama i uslugama.
+explanation: |
+  Osnovni uzrok hiperinflacije je širenje novčane mase Supply.
+  
+  Redenominacija je uobičajena mera koju vlade preduzimaju tokom perioda inflacije,
+  
+  ali ne rešava ovaj osnovni problem. To je samo način da se valuta preimenuje
+  
+  i uklone nule.'
+reviewed: false

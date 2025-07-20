@@ -1,0 +1,9 @@
+question: Šta omogućava ključ za opoziv u slučaju varanja?
+answer: Povrati sve fondove kažnjavanjem varalice
+wrong_answers:
+  - Otkaži Commitment Transaction
+  - Udvostruči kapacitet kanala
+  - Spreči bilo kakve dalje transakcije u kanalu
+explanation: |
+  Ključ za opoziv omogućava oštećenoj strani da povrati sva sredstva u slučaju pokušaja prevare od strane druge strane.
+reviewed: false

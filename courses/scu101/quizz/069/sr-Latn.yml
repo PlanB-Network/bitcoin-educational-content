@@ -1,0 +1,14 @@
+question: Koje su prednosti korišćenja DOH (DNS over HTTPS) i DOT (DNS over TLS)?
+answer: Oni šifriraju DNS vezu, pružajući veću privatnost i sigurnost, i izbegavaju napade čoveka u sredini.
+wrong_answers:
+  - Oni ubrzavaju internet vezu.
+  - Oni blokiraju sve reklame.
+  - Oni omogućavaju pristup blokiranim vebsajtovima.
+explanation: |
+  DOH (DNS over HTTPS) i DOT (DNS over TLS) šifruju DNS
+  vezu, pružajući veću privatnost i sigurnost. Ovi
+  protokoli su široko korišćeni u preduzećima zbog svoje
+  poboljšane sigurnosti i nativno su podržani od strane Windows,
+  Android i iPhone sistema. Oni poboljšavaju privatnost i sigurnost
+  izbegavanjem napada čoveka u sredini.
+reviewed: true

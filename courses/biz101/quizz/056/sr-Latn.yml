@@ -1,0 +1,9 @@
+question: Kako se funkcionalnost nekustodijalnog Wallet razlikuje za Starter korisnike?
+answer: Omogućava vlasniku preduzeća potpunu kontrolu nad privatnim ključevima
+wrong_answers:
+  - Može automatski konvertovati bitkoine u fiat valutu
+  - Ne zahteva rezervne procedure ili mere bezbednosti
+  - Upravlja svim transakcijama putem usluge treće strane
+explanation: |
+  Novčanici bez starateljstva stavljaju kontrolu nad privatnim ključevima i transakcijama u potpunosti u ruke korisnika.
+reviewed: false

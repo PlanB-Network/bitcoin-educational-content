@@ -1,0 +1,11 @@
+question: Koji je rizik prekomernog komplikovanja sigurnosti i pristupačnosti vaših bitkoina?
+answer: Možete se povrediti ako nepravilno rukujete rezervnim novčanicima.
+wrong_answers:
+  - Možete se povrediti ako nepažljivo rukujete fizičkim novčanicima.
+  - Možete se povrediti ako nepravilno rukujete digitalnim novčanicima.
+  - Možete se povrediti ako nepažljivo rukujete Multisig novčanicima.
+explanation: |
+  Prekomplikovanje sigurnosti i pristupačnosti vaših
+  bitkoina može vam naškoditi ako, na primer, pogrešno
+  rukujete rezervnim kopijama vaših novčanika. Ovo je zato što su jednostavne procedure pravljenja rezervnih kopija ključne za ponovno dobijanje pristupa vašim sredstvima u slučaju gubitka vašeg telefona ili računara.
+reviewed: true

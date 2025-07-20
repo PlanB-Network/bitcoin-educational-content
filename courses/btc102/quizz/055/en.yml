@@ -1,11 +1,9 @@
-question: What is the Lightning Network?
-answer: It is the second layer of Bitcoin.
+question: What medium is recommended for securely backing up your mnemonic phrase?
+answer: Metal backup with sealed opaque envelope
 wrong_answers:
-  - It is a cryptocurrency exchange.
-  - It is a type of Bitcoin wallet.
-  - It is a Bitcoin mining pool.
+  - Encrypted USB drive storage
+  - Paper backup with transparent sleeve
+  - Backup on a secure cloud
 explanation: |
-  The Lightning Network is a second layer technology applied to bitcoin
-  that uses micropayment channels to scale its blockchain's capability to conduct
-  transactions.
+  A disaster-resistant metal backup offers long-lasting protection against damage and unauthorized access. The sealed opaque envelope allows you to verify whether anyone has accessed the mnemonic phrase.
 reviewed: false

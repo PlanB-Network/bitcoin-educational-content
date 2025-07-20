@@ -1,0 +1,9 @@
+question: Gde je Nick Szabo prvi put predstavio svoj koncept bit golda 1998. godine?
+answer: Libtech-l mailing lista
+wrong_answers:
+  - Cypherpunks mailing lista
+  - Lista za kriptografiju
+  - Extropians mailing list
+explanation: |
+  Ovo je bila njegova privatna mailing lista, koja je uključivala cypherpunks kao što su Wei Dai i Hal Finney, i ekonomiste poput Larry Whitea i Georgea Selgina.
+reviewed: false

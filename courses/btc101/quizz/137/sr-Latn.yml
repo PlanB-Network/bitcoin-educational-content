@@ -1,0 +1,12 @@
+question: Kako korisnici prenose vlasništvo svog novca u Bitkoin mreži?
+answer: Digitalnim potpisivanjem transakcija svojim privatnim ključevima.
+wrong_answers:
+  - Fizičkim predavanjem svojih Bitkoina.
+  - Slanjem e-pošte primaocu.
+  - Pružanjem njihove Bitkoin adrese primaocu.
+explanation: |
+  Korisnici u Bitkoin mreži prenose vlasništvo svog
+  novca digitalnim potpisivanjem transakcija svojim privatnim
+  ključevima. Ovo potvrđuje da su oni vlasnici
+  bitkoina koje žele preneti.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je svrha korišćenja mamca Wallet sa passphrase?
+answer: Da simulirate Wallet sa malom količinom u slučaju fizičke prinude
+wrong_answers:
+  - Dodajte automatsku rezervnu kopiju transakcija
+  - generate dodatna Mnemonic fraza
+  - Zaštiti UTXO-ove od dvostrukog trošenja
+explanation: |
+  Mamcni Wallet se koristi za skretanje pažnje napadača pružanjem pristupa Wallet koji sadrži malu količinu bitkoina.
+reviewed: false

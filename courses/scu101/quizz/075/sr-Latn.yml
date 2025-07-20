@@ -1,0 +1,9 @@
+question: Koje karakteristike definišu dobru lozinku?
+answer: Dugo, složeno i jedinstveno.
+wrong_answers:
+  - Kratko, jednostavno i lako za pamćenje.
+  - Na osnovu ličnih informacija.
+  - Identično za sve naloge.
+explanation: |
+  Dobra lozinka treba da bude dovoljno dugačka, složena i ne bi trebalo da se ponovo koristi.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Je, kuna umuhimu gani wa kuwa mnyenyekevu na mwenye busara katika uwekezaji wa Bitcoin?
-answer: Kwa kujiweka wazi, unaweza kuwa shabaha inayowezekana, na kuongeza hatari kwako na kwa familia yako.
+question: Je, Barack Obama alielezeaje Bitcoin?
+answer: Benki ya Uswizi katika mfuko wako
 wrong_answers:
-  - Kwa kukaa mnyenyekevu na mwenye busara, unaweza kuepuka kuvutia tahadhari kutoka kwa wawekezaji wengine.
-  - Kwa kukaa mnyenyekevu na mwenye busara, unaweza kuepuka kuvutia tahadhari kutoka kwa jumuiya ya Bitcoin.
-  - Kwa kukaa mnyenyekevu na mwenye busara, unaweza kuepuka kuvutia usikivu kutoka kwa vyombo vya habari.
+  - Dhahabu ya digital
+  - Mali ya kubahatisha sana
+  - Sarafu iliyogatuliwa
 explanation: |
-  Katika uwekezaji wa Bitcoin, ni muhimu kukaa mnyenyekevu na mwenye busara kwa sababu
-  kwa kujiweka wazi, unaweza kuwa shabaha inayowezekana, na kuongeza hatari
-  kwa ajili yako na familia yako.
+  Barack Obama aliwahi kuitaja Bitcoin kama "benki ya Uswizi katika mfuko wako." Hakika, Bitcoin inatoa fursa sawa kwa kila mtu, bila kujali hali, na inaruhusu Confidential Transactions.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Šta razlikuje modernu kriptografsku šemu od jednostavne šeme šifrovanja?
+answer: Osiguranje integriteta i autentičnosti poruke
+wrong_answers:
+  - Korišćenje jednog tajnog ključa
+  - Decentralizacija ključa
+  - Anonimizacija poruka
+explanation: |
+  Moderna kriptografija uključuje šeme koje prevazilaze poverljivost kako bi osigurale integritet i autentičnost, kao i nemogućnost poricanja, za razliku od jednostavnih šema šifrovanja.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Kan iemand de Bitcoin code dupliceren?
+answer: ja, maar je kunt de waarde van het Bitcoin netwerk niet kopiëren
+wrong_answers:
+  - ja en je zou ook de waarde van het Bitcoin netwerk kopiëren
+  - nee en je kunt de waarde van het Bitcoin netwerk kopiëren
+  - nee, omdat de Bitcoin-code closed source is
+explanation: |
+  Hoewel de code voor Bitcoin open source is en gekopieerd kan worden,
+  is de waarde van Bitcoin niet afgeleid van de code. Die komt voort uit
+  het netwerk van gebruikers en het vertrouwen en de adoptie die het in de loop der tijd heeft opgebouwd.
+reviewed: true

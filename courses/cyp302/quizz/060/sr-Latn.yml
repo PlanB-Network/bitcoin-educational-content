@@ -1,0 +1,9 @@
+question: Koji odgovor predstavlja jednu od dve glavne grane kriptografije?
+answer: Simetrična kriptografija
+wrong_answers:
+  - Kriptologija
+  - Homomorfno šifrovanje
+  - Kriptoanaliza
+explanation: |
+  Simetrična kriptografija je glavna grana kriptografije, koja uključuje šeme šifrovanja gde se jedan ključ koristi za šifrovanje i dešifrovanje poruka.
+reviewed: false

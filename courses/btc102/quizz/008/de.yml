@@ -1,11 +1,9 @@
-question: Was ist der Hauptzweck eines Software-Updates?
-answer: Um Fehler zu beheben und die Sicherheit Ihrer Software zu verbessern.
+question: Warum ist es wichtig, Ihr System und Ihre Software regelmäßig zu aktualisieren?
+answer: Behebung bekannter Sicherheitsschwachstellen
 wrong_answers:
-  - Um neue Funktionen hinzuzufügen
-  - Um die Benutzeroberfläche der Software zu ändern
-  - Um die Größe der Software zu erhöhen
+  - Verbesserung der PC-Geschwindigkeit und damit schnellere Reaktion auf Cyberangriffe
+  - So fügen Sie Hacking-Funktionen hinzu
+  - Zur Optimierung der Kompatibilität von Videospielen mit Bitcoin
 explanation: |
-  Obwohl Software-Updates oft mit neuen Funktionen einhergehen, ist ihr Hauptzweck
-  das Beheben von Fehlern und die Verbesserung der Sicherheit der Software. Dies ist entscheidend, um
-  Ihren Computer in optimaler Arbeitsbedingung zu halten.
+  Updates beheben häufig bekannte Sicherheitslücken, die von Hackern ausgenutzt werden.
 reviewed: false

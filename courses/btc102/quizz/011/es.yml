@@ -1,9 +1,9 @@
-question: ¿Cuál es el principal beneficio de usar una VPN?
-answer: Protege tu privacidad al ocultar tu dirección IP.
+question: ¿Por qué es importante proteger su frase Mnemonic?
+answer: Porque perderlo supone la pérdida permanente de bitcoins
 wrong_answers:
-  - Acelera tu conexión a internet.
-  - Proporciona acceso gratuito a servicios de pago.
-  - Protege tu computadora de virus.
+  - Porque la Blockchain es demasiado larga para regenerarla
+  - Porque perderlo conlleva una fuga de datos personales
+  - Porque las plataformas Exchange requieren muchos documentos para regenerarla
 explanation: |
-  Una VPN, o Red Privada Virtual, protege tu privacidad al ocultar tu dirección IP. Aunque no te hace completamente anónimo, sigue siendo un paso simple y efectivo para mejorar tu privacidad en línea.
+  La frase Mnemonic permite recuperar el acceso. Si se pierde y la Wallet deja de ser accesible en su dispositivo, los bitcoins se pierden definitivamente.
 reviewed: false

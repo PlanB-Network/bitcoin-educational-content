@@ -1,0 +1,9 @@
+question: Welcher Befehl zeigt den detaillierten Inhalt eines Ordners an, einschließlich versteckter Dateien?
+answer: ls -lah
+wrong_answers:
+  - zeige-ordner
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" zeigt Dateien und Verzeichnisse im Detail an, einschließlich versteckter Dateien (die mit einem Punkt beginnen).
+reviewed: false

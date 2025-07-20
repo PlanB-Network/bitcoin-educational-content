@@ -1,12 +1,9 @@
-question: Co je Bitcoin podle hnutí kyberpunk?
-answer: Elektronický ekvivalent hotovosti
+question: Čemu byste se měli bezpodmínečně vyhnout, abyste zajistili bezpečnost svých bitcoinů?
+answer: Uchovávání bitcoinů na platformě Exchange
 wrong_answers:
-  - Forma digitálního zlata
-  - Nová forma kreditní karty
-  - Typ kryptoměny
+  - Použití otevřeného zdroje Hardware Wallet
+  - Použití Hot Wallet pro denní transakce
+  - Diverzifikace způsobů skladování
 explanation: |
-  Kapitola uvádí, že z perspektivy kyberpunku se Bitcoin staví proti
-  společnosti bez hotovosti. Umožňuje vytváření zcela soukromých a bezprostředníků
-  volných digitálních finančních transakcí. Pro hnutí kyberpunk je Bitcoin elektronickým
-  ekvivalentem hotovosti.
+  Zásada "Ne vaše klíče, ne vaše bitcoiny" zdůrazňuje důležitost držení vlastních soukromých klíčů. Na platformě Exchange jsou vaše bitcoiny vystaveny zbytečným rizikům.
 reviewed: false

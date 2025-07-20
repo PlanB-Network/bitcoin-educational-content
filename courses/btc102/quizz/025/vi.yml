@@ -1,11 +1,9 @@
-question: Vai trò của các thợ mỏ trong mạng lưới Bitcoin là gì?
-answer: Để ghi lại các giao dịch được lan truyền trong blockchain Bitcoin
+question: Đặc điểm nào chủ yếu phân biệt Bitcoin với các altcoin?
+answer: Phân cấp
 wrong_answers:
-  - Để tạo ra bitcoin mới
-  - Để điều chỉnh giá trị của bitcoin
-  - Để xác minh danh tính của người dùng Bitcoin
+  - Tính thanh khoản
+  - Danh tiếng
+  - Sự riêng tư
 explanation: |
-  Các thợ mỏ trong mạng lưới Bitcoin có trách nhiệm ghi lại các giao dịch
-  đã được lan truyền khắp mạng vào blockchain Bitcoin. Điều này đảm bảo
-  tính chắc chắn của các giao dịch.
+  Bitcoin nổi tiếng vì tính phi tập trung, không giống như hầu hết các altcoin ít nhiều mang tính tập trung.
 reviewed: false

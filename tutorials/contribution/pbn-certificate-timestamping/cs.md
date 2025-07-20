@@ -1,5 +1,5 @@
 ---
-name: Časové razítko certifikátů a diplomů Plan ₿ Network
+name: Časové razítko diplomů Plan ₿ Network
 description: Porozumění tomu, jak síť Plan ₿ vydává ověřitelný důkaz pro váš certifikát a diplomy
 ---
 
@@ -147,4 +147,3 @@ Vězte, že ověření je úspěšné, pokud jsou zobrazeny **obě** následují
 2. Ověření OpenTimestamps ukazuje specifické časové razítko Bitcoinového bloku a hlásí **"Úspěch! Bitcoinový blok [výška bloku] potvrzuje, že data existovala ke dni [časové razítko]"**
 
 Nyní, když víte, jak Plan ₿ Network vydává ověřitelný důkaz pro jakýkoliv Bitcoinový certifikát a diplom o dokončení kurzu, můžete snadno ověřit jeho integritu.
-

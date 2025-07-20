@@ -1,0 +1,9 @@
+question: Koja je jedna glavna razlika između tretiranja Bitcoin kao digitalne imovine naspram tretiranja kao valute u računovodstvu?
+answer: Kao digitalna imovina, osnovica troškova i dobici/gubici svake transakcije moraju biti praćeni, dok bi, ako bi se tretirala kao valuta, revalorizacije bile jednostavnije i ređe.
+wrong_answers:
+  - Kada se tretira kao digitalna imovina, potpuno je oslobođena svih poreza.
+  - Kada se tretira kao valuta, nije potrebno voditi evidenciju o transakcijama.
+  - Tretiranje toga kao valute zahteva trenutni prelazak na novi računovodstveni softver.
+explanation: |
+  Tretman digitalne imovine obično uključuje izračunavanje kapitalnih dobitaka ili gubitaka za svaku transakciju, što dodaje složenost. Ako bi se Bitcoin računao kao valuta, bilo bi jednostavnije; samo periodično ažurirajte vrednost u fiat valuti, kao što se radi za druge valute.
+reviewed: false

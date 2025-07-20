@@ -1,9 +1,9 @@
-question: Bitcoin bản địa thuộc về đâu?
-answer: Internet
+question: Tổng số Supply bitcoin tối đa đang lưu hành là bao nhiêu?
+answer: 21 triệu
 wrong_answers:
-  - Blockchain
-  - Hệ thống ngân hàng
-  - Thị trường chứng khoán
+  - 10 triệu
+  - 47 triệu
+  - 150 triệu
 explanation: |
-  Chương này nói rằng Bitcoin bản địa thuộc về internet, làm cho nó có thể truy cập được bởi bất kỳ ai có kết nối internet.
+  Bitcoin được lập trình để có Supply giới hạn khoảng 21 triệu bitcoin.
 reviewed: false

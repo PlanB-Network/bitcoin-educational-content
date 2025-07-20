@@ -1,9 +1,9 @@
-question: Một loại lừa đảo phổ biến liên quan đến các cuộc thi trực tuyến hoặc quyên góp trong lĩnh vực tiền mã hóa là gì?
-answer: Quảng cáo hứa hẹn tặng bitcoin miễn phí.
+question: Bạn nên làm gì để phát hiện hành vi lừa đảo trong lĩnh vực tiền điện tử?
+answer: Xác minh danh tính người gửi
 wrong_answers:
-  - Quảng cáo hứa hẹn tặng hàng hóa vật lý.
-  - Quảng cáo hứa hẹn tặng tiền tệ fiat miễn phí.
-  - Quảng cáo hứa hẹn tặng phần mềm miễn phí.
+  - Chỉ nhấp vào các liên kết nhận được trong email
+  - Chia sẻ khóa riêng của bạn để xác nhận tính xác thực
+  - Chỉ dựa vào logo và hình ảnh trong email
 explanation: |
-  Lừa đảo liên quan đến các cuộc thi trực tuyến hoặc quyên góp rất phổ biến trong lĩnh vực tiền mã hóa. Quảng cáo hứa hẹn tặng bitcoin miễn phí thường được sử dụng để lừa gạt người dùng không có kinh nghiệm.
+  Bạn nên luôn đảm bảo rằng bạn đang tương tác với đúng người và không bao giờ sử dụng các liên kết được cung cấp trong email. Thay vào đó, hãy truy cập trực tiếp vào trang web theo cách thủ công, sử dụng dấu trang trình duyệt của bạn.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Sekvencijalni broj može sprečiti napad ponovnim presretanjem (replay attack) u sigurnoj komunikacionoj sesiji.
+answer: Napadi ponovnog puštanja i preuređivanja
+wrong_answers:
+  - Pasivni napadi presretanja
+  - Napadi uskraćivanjem usluge
+  - Napadi lažnog predstavljanja ključeva
+explanation: |
+  Broj sekvence u svakoj poruci sprečava napade ponovnog slanja i preuređivanja, jer omogućava verifikaciju reda i jedinstvenosti poruka.
+reviewed: false

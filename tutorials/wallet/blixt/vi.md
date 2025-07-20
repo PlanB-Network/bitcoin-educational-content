@@ -1,353 +1,679 @@
 ---
-name: Blixt
+name: Blixt Wallet
+description: Làm thế nào để bắt đầu sử dụng nút LN mạnh mẽ trên thiết bị di động của bạn?
+---
+![cover](cover.webp)
 
-description: Ví Lightning Network Node Di Động
+
+Hướng dẫn này dành cho tất cả người dùng mới muốn bắt đầu sử dụng Bitcoin Lightning Network (LN) theo cách MIỄN PHÍ MÃ NGUỒN MỞ, HOÀN TOÀN KHÔNG CÓ BẢO VỆ.
+
+
+Sử dụng [Blixt Wallet](https://blixtwallet.com/), một nút LN đầy đủ trên thiết bị di động của bạn, bất kể bạn ở đâu.
+
+
+Nếu bạn chưa từng sử dụng Bitcoin Lightning Network, trước khi bắt đầu, [vui lòng đọc phần giải thích đơn giản về phép loại suy Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+
+
+## CÁC ĐIỀU QUAN TRỌNG:
+
+
+
+- Blixt là một nút riêng tư, KHÔNG phải là một nút định tuyến! Hãy ghi nhớ điều đó: Điều đó có nghĩa là, tất cả các kênh LN trong Blixt sẽ không được thông báo đến biểu đồ LN (còn gọi là kênh riêng tư). Điều đó có nghĩa là, NÚT NÀY SẼ KHÔNG ĐỊNH TUYẾN các khoản thanh toán khác thông qua nút Blixt. Nút Blixt này KHÔNG dùng để định tuyến, tôi nhắc lại. Chủ yếu là để có thể quản lý các kênh LN của riêng bạn và thực hiện các khoản thanh toán LN của bạn một cách riêng tư, bất cứ khi nào bạn cần. Nút Blixt này cần phải trực tuyến và được đồng bộ hóa CHỈ TRƯỚC KHI bạn thực hiện giao dịch của mình. Đó là lý do tại sao bạn sẽ thấy một biểu tượng ở trên cùng cho biết trạng thái đồng bộ hóa. Chỉ mất vài phút, tùy thuộc vào thời gian bạn giữ nó ngoại tuyến.
+
+
+
+- Blixt đang sử dụng LND (aezeed) làm backend Wallet, vì vậy đừng cố gắng nhập các loại ví Bitcoin khác vào đó. [Tại đây, bạn đã giải thích các loại hạt giống Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Và đây là [danh sách mở rộng hơn về tất cả các loại ví](https://walletsrecovery.org/). Vì vậy, nếu trước đây bạn đã có một nút LND, bạn có thể nhập seed và backup.channels vào Blixt, [như được giải thích trong hướng dẫn này](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+
+
+
+- Ở cuối hướng dẫn này, bạn sẽ tìm thấy một phần đặc biệt với ["mẹo và thủ thuật"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+
+
+
+- Blixt các liên kết quan trọng - xem chúng ở cuối hướng dẫn này, vui lòng đánh dấu chúng.
+
+
 ---
 
-![presentation](assets/blixt_intro_en.webp)
+## Blixt - Tiếp xúc đầu tiên
 
-## Một BTC/Lightning Node mạnh mẽ trong túi bạn, ở bất cứ đâu
 
-Tôi muốn giới thiệu với bạn một Node và ví di động BTC/LN mới, thú vị và mạnh mẽ - Blixt. Tên gọi này có nguồn gốc từ tiếng Thụy Điển và có nghĩa là "tia chớp".
-Nếu bạn chưa bao giờ sử dụng Bitcoin Lightning Network, trước khi bắt đầu, vui lòng đọc bài này về [giải thích đơn giản bằng cách so sánh tương tự về Lightning Network (LN)](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport).
+Vậy thì… Mẹ của Darth quyết định bắt đầu sử dụng LN với Blixt. Quyết định Hard, nhưng khôn ngoan. Blixt chỉ dành cho những người thông minh và những người thực sự muốn tìm hiểu thêm, sử dụng sâu LN.
 
-## CÁC KHÍA CẠNH QUAN TRỌNG:
 
-### 1. Blixt là một node riêng tư, KHÔNG phải là một node định tuyến! Hãy nhớ điều này.
+![blixt](assets/en/01.webp)
 
-Điều đó có nghĩa, tất cả các kênh LN trong Blixt sẽ không được công bố trên bản đồ LN (các kênh riêng tư). Điều đó có nghĩa, NODE NÀY SẼ KHÔNG THỰC HIỆN ĐỊNH TUYẾN các khoản thanh toán của người khác qua node Blixt. [Đọc thêm về kênh riêng tư và kênh công khai tại đây](https://voltage.cloud/blog/lightning-network-faq/what-are-the-differences-between-public-and-private-channels/).
 
-Node di động Blixt KHÔNG dành cho định tuyến, tôi nhắc lại. Nó chủ yếu được dùng để bạn có thể quản lý các kênh LN của mình và thực hiện các khoản thanh toán LN một cách riêng tư, bất cứ khi nào bạn cần.
+Darth cảnh báo mẹ mình:
 
-  Node di động Blixt, CHỈ CẦN phải trực tuyến và đồng bộ ngay TRƯỚC khi bạn thực hiện giao dịch của mình. Đó là lý do tại sao bạn sẽ thấy một biểu tượng phia trên hiển thị trạng thái đồng bộ. Việc này chỉ mất vài khoảnh khắc, tùy thuộc vào thời gian bạn giữ nó ngoại tuyến và đồng bộ lại bản đồ LN (LN graph).
 
-### 2. Blixt sử dụng LND (aezeed) làm ví backend, vì vậy đừng cố gắng nhập vào các loại ví bitcoin khác.
+"*Mẹ ơi, nếu mẹ bắt đầu sử dụng Blixt LN Node, trước tiên mẹ cần biết Lightning Network là gì và nó hoạt động như thế nào, ít nhất là ở mức cơ bản. [Ở đây, con đã tổng hợp một danh sách đơn giản các tài nguyên về Lightning Network](https://blixtwallet.github.io/faq#what-is-LN). Mẹ hãy đọc chúng trước nhé.*"
 
-[Tại đây bạn có hướng dẫn về các loại ví](https://coldbit.com/what-types-of-mnemonic-seeds-are-used-in-bitcoin/). Vì vậy, nếu trước đây bạn đã có một LND Node, bạn có thể nhập hạt giống và file channels.backup vào Blixt, [như được chỉ ra trong hướng dẫn này](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario).
 
-### 3. Các liên kết quan trọng của Blixt (vui lòng đánh dấu chúng):
+Mẹ của Darth đã đọc các tài nguyên và thực hiện bước đầu tiên: cài đặt Blixt trên thiết bị Android hoàn toàn mới của bà. Blixt cũng khả dụng cho iOS và macOS (máy tính để bàn). Nhưng những ứng dụng đó không dành cho mẹ của Darth… Tuy nhiên, nên sử dụng phiên bản Android mới hơn, ít nhất là 9 hoặc 10 để có khả năng tương thích và trải nghiệm tốt hơn. Chạy một nút LN đầy đủ trên thiết bị di động không phải là một nhiệm vụ dễ dàng và có thể chiếm một số dung lượng (tối thiểu 600MB) và bộ nhớ.
 
-- [Kho lưu trữ Github của Blixt](https://github.com/hsjoberg/blixt-wallet) | [Phát hành trên Github](https://github.com/hsjoberg/blixt-wallet/releases) (tải trực tiếp tệp apk)
-- [Trang các tính năng của Blixt](https://blixtwallet.github.io/features) - giải thích từng tính năng và chức năng của Blixt một cách chi tiết.
-- [Trang FAQ của Blixt](https://blixtwallet.github.io/faq) - Danh sách câu hỏi thường gặp & trả lời và cách khắc phục sự cố của Blixt
-- [Trang Hướng dẫn của Blixt](https://blixtwallet.github.io/guides) - demos, video hướng dẫn, hướng dẫn bổ sung và ứng dụng của Blixt vào thực tế
-- [Tờ rơi giới thiệu trên một trang A4 có thể in](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer) -  các bước đầu tiên để sử dụng Blixt, bằng nhiều ngôn ngữ.
-- Blixt cũng cung cấp một bản demo đầy đủ các chức năng ngay trên [trang web của mình](https://blixtwallet.com) hoặc trên một [phiên bản web chuyên dụng](https://blixt-wallet-git-master-hsjoberg.vercel.app/), để người dùng có thể trải nghiệm đầy đủ trước khi bắt đầu sử dụng Blixt trong thế giới thực.
-- [Trang gây quỹ Geyser](https://geyser.fund/project/blixt) - quyên góp số lượng sat tùy thích để hỗ trợ dự án
-- [Nhóm hỗ trợ Telegram](https://t.me/blixtwallet)
-# Các tính năng chính có sẵn
 
-## Neutrino Node
+Sau khi bạn mở Blixt, màn hình “Chào mừng” sẽ cung cấp cho bạn một số tùy chọn:
 
-Blixt mặc định kết nối với máy chủ của Blixt để đồng bộ hóa các block và chỉ mục với Neutrino (chế độ SPV cho Simplified Payment Verification), nhưng người dùng cũng có thể kết nối với node của riêng họ. Thật ngạc nhiên khi thấy rằng việc đồng bộ hóa một node SPV mất ít hơn 5 phút để sẵn sàng sử dụng ví node đầy đủ (on-chain và LN), trong trường hợp của tôi thao tác trên Android 11.
 
-## Node tự quản hoàn chỉnh
+![blixt](assets/en/02.webp)
 
-Người dùng có thể quản lý các kênh của mình với giao diện dễ sử dụng và với đẩy đủ thông tin hiển thị để có trải nghiệm tốt. Trong menu kéo ở góc trên bên trái, bạn có thể đi đến các kênh Lightning để bắt đầu mở kênh với các node khác, tùy ý bạn. Đừng quên kích hoạt Tor trong cài đặt. Nó tốt hơn cho quyền riêng tư và cũng vì là một node di động, nếu bạn thay đổi kết nối internet / IP clearnet thường xuyên, các đối tác của bạn có thể bị gián đoạn. Với URI node Tor, bạn sẽ luôn có cùng một định danh riêng tư bất kể vị trí / IP của bạn.
 
-## Sao lưu/Phục hồi một LND Node
+Ở góc trên bên phải, bạn sẽ thấy 3 dấu chấm kích hoạt menu với:
 
-Một tính năng mạnh mẽ, dễ quản lý và hữu ích là khôi phục các LND Node đã chết, chỉ với danh sách 24 từ khóa và tệp channels.backup.
 
-> [Đây là hướng dẫn về cách khôi phục các node Umbrel đã chết trong Blixt trong trường hợp SHTF.](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario)
 
-Người dùng cũng có tùy chọn lưu sao lưu kênh Blixt vào Google Drive và/hoặc bộ nhớ cục bộ trên thiết bị di động của riêng họ (để sau này chuyển nó đến một nơi an toàn, cách biệt với điện thoại của họ).
+- “bật Tor” - người dùng có thể bắt đầu với mạng Tor, đặc biệt nếu muốn khôi phục một nút LND cũ đang chạy với các đối tác chỉ có Tor.
+- “Set Bitcoin node” - nếu người dùng muốn kết nối trực tiếp đến node của mình, để đồng bộ các khối thông qua Neutrino, có thể thực hiện ngay từ màn hình chào mừng. Tùy chọn này cũng tốt trong trường hợp kết nối internet hoặc Tor của bạn không ổn định để kết nối đến node Bitcoin mặc định (node.blixtwallet.com).
+- Sẽ sớm thêm ngôn ngữ vào đó, vì vậy người dùng có thể bắt đầu ngay với ngôn ngữ mà họ thấy thoải mái. Nếu bạn muốn đóng góp cho dự án nguồn mở này bằng bản dịch sang các ngôn ngữ khác, [vui lòng tham gia tại đây](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
 
-Quy trình khôi phục khá đơn giản: chèn danh sách 24 từ khóa, thêm tệp sao lưu (đã trước đó được sao chép vào bộ nhớ di động), và nhấp khôi phục. Sẽ mất một thời gian để đồng bộ và quét tất cả các khối cho các giao dịch trước đó của bạn. Các kênh sẽ được đóng tự động và tiền sẽ được trả về ví on-chain của bạn (xem menu kéo ở góc trên bên trái - on-chain).
 
-> Nếu trước đó bạn đã mở các kênh với node cũ của mình qua Tor, trước tiên, bạn phải kích hoạt tùy chọn Tor (và khởi động lại ứng dụng) từ menu cài đặt. Như vậy, quy trình đóng sẽ không thất bại và/hoặc tùy chọn đóng ép buộc sẽ không được sử dụng.
+### TÙY CHỌN A - Tạo Wallet mới
 
-Nhớ sao lưu các kênh LN của bạn sau khi mở và/hoặc đóng các kênh. Chỉ mất vài giây để đảm bảo an toàn. Sau đó, bạn có thể chuyển tệp sao lưu đến một nơi an toàn cách biệt với thiết bị di động của mình.
-Để kiểm tra hạt giống của bạn trong một kịch bản khôi phục, trước khi thêm tiền, chỉ cần sử dụng cùng một danh sách 24 từ khóa (aezeed) trong BlueWallet. Nếu địa chỉ BTC được tạo ra giống nhau trong Blixt, bạn đã sẵn sàng. Sau đó, không cần sử dụng ví BlueWallet đó nữa, bạn có thể xóa ví đã được kiểm tra cho việc khôi phục.
 
-## Tor được tích hợp
+Nếu bạn chọn “tạo Wallet mới”, bạn sẽ được chuyển hướng thẳng đến màn hình chính của Blixt Wallet.
 
-Một khi bạn đã kích hoạt nó, ứng dụng sẽ khởi động lại qua mạng Tor. Từ đây, bạn có thể thấy trong menu cài đặt ID node của mình với địa chỉ onion, để các node khác có thể mở kênh với node Blixt di động của bạn. Hoặc giả sử bạn có node của riêng mình tại nhà và bạn muốn có các kênh nhỏ với node di động Blixt của bạn. Một sự kết hợp hoàn hảo.
 
-## Dunder LSP - Nhà cung cấp dịch vụ thanh khoản - Liquidity Service Provider
+Đây là “buồng lái” của bạn và cũng là “Main LN Wallet”, vì vậy hãy lưu ý, nó sẽ chỉ hiển thị cho bạn số dư của LN Wallet của bạn. Wallet trên chuỗi được hiển thị riêng (xem C).
 
-Một tính năng đơn giản và tuyệt vời cho phép người dùng mới có thể bắt đầu chấp nhận BTC trên Lightning Network ngay lập tức, mà không cần phải gửi tiền on-chain và sau đó mở các kênh LN.
-Đây là tin tốt lành dành cho người mới, bởi vì họ có thể bắt đầu từ con số không, trực tiếp trên LN. Để làm điều này, chỉ cần tạo một hóa đơn LN từ màn hình chính trên nút "nhận", nhập số lượng, mô tả, v.v., và thanh toán từ một ví khác. Blixt sẽ mở một kênh lên đến 400k sat cho mỗi giao dịch nhận được. Bạn có thể mở nhiều kênh nếu cần thiết.
-Một trường hợp thú vị và hữu ích như sau: giả sử số tiền bạn nhận đầu tiên là 200k sat. Blixt sẽ mở một kênh 400k sat với 200k (trừ phí mở kênh) ở phía bạn, nhưng vì bạn vẫn còn 200k "không gian trống" để bạn có thể nhận thêm. Vậy nên, giao dịch tiếp theo, giả sử là 100k, sẽ đến trực tiếp qua kênh này, không phát sinh thêm phí, và bạn vẫn còn 100k không gian để nhận thêm.
 
-Nhưng nếu bạn chọn nhận, giả sử, 300k cho giao dịch thứ ba, nó sẽ tạo một kênh mới 400k khác và chuyển 300k này vào phía bạn.
+![blixt](assets/en/03.webp)
 
-Nếu có quá nhiều yêu cầu, node Blixt có thể điều chỉnh dung lượng kênh trong quá trình mở.
 
-## Mở kênh tự động
+A - Biểu tượng chỉ báo đồng bộ hóa khối Blixt. Đây là điều quan trọng nhất đối với một nút LN: được đồng bộ hóa với mạng. Nếu biểu tượng đó vẫn còn hoạt động, nghĩa là nút của bạn CHƯA SẴN SÀNG! Vì vậy, hãy kiên nhẫn, đặc biệt là đối với lần đồng bộ hóa ban đầu đầu tiên. Có thể mất tới 6-8 phút, tùy thuộc vào thiết bị và kết nối internet của bạn.
 
-Trong cài đặt, người dùng có thể kích hoạt tùy chọn này và có một dịch vụ tự động mở kênh với các node và tuyến (route) tốt nhất dựa trên số dư có sẵn trong ví on-chain của ứng dụng Blixt. Đây là tính năng có lợi cho người dùng mới, khi họ không chắc chắn nên mở kênh với node nào và/hoặc làm thế nào để mở một kênh LN. Nó giống như một hệ thống lái tự động cho LN.
 
-> Nhớ rằng: tùy chọn này chỉ được sử dụng một lần, khi bạn tạo ví Blixt mới của mình, và được kích hoạt theo mặc định. Vì vậy, nếu người dùng mới quét mã QR on-chain trên màn hình chính và gửi những sat đầu tiên đến địa chỉ đó, Blixt sẽ tự động mở một kênh với số sat đó, với node công khai của Blixt.
+Bạn có thể nhấp vào đó và xem trạng thái đồng bộ hóa:
 
-## Dịch vụ thanh khoản nhận vào
 
-Tính năng dành riêng cho các nhà bán hàng cần nhiều thanh khoản NHẬN VÀO hơn, dễ sử dụng. Để làm điều này, chỉ cần chọn một trong số các nhà cung cấp thanh khoản từ danh sách, thanh toán số tiền bạn muốn cho kênh, và cung cấp ID của node của bạn, và từ đó, một kênh sẽ được mở đến node Blixt của bạn.
+![blixt](assets/en/04.webp)
 
-## Danh sách liên lạc
 
-Tính năng hữu ích nếu bạn muốn có một danh sách bền vững của người nhận mà bạn giao dịch trong phần lớn thời gian. Danh sách này có thể bao gồm LNURLs, địa chỉ Lightning, hoặc thông tin/ hóa đơn thanh toán tĩnh trong tương lai. Hiện tại, danh sách này không thể được lưu bên ngoài ứng dụng, nhưng đang có kế hoạch để có một tùy chọn xuất nó.
+Bạn cũng có thể nhấp vào nút “Show LND Log” (A) nếu bạn muốn xem và đọc thêm thông tin chi tiết kỹ thuật của nhật ký LND theo thời gian thực. Rất hữu ích để gỡ lỗi và tìm hiểu thêm về cách LN hoạt động.
 
-## LNURL và Địa chỉ Lightning
 
-Hỗ trợ đầy đủ LNURL. Bạn có thể thanh toán đến LNURL, LN-auth, yêu cầu LN-chan với LNURL.
-Bạn cũng có thể gửi đến bất kỳ địa chỉ LN nào và thêm nó vào danh sách liên lạc của mình.
-Bắt đầu từ phiên bản 0.6.9, cũng có thể nhận vào địa chỉ LN của riêng bạn *@blixtwallet.com* qua tính năng [Blixt Lightning Box](https://github.com/hsjoberg/lightning-box).
+B - Tại đây, bạn có thể truy cập tất cả các Cài đặt Blixt và rất nhiều! Blixt cung cấp nhiều tính năng và tùy chọn phong phú để quản lý nút LN của bạn như một chuyên gia. Tất cả các tùy chọn đó đều được giải thích chi tiết trong “[Trang tính năng Blixt](https://blixtwallet.github.io/features#blixt-options) - Menu Tùy chọn”.
 
-## Keysend
 
-Một tính năng mạnh mẽ mà ít ví di động có. Bạn có thể gửi/đẩy tiền trực tiếp qua một kênh hoặc chỉ đến một node khác, thêm một tin nhắn nếu cần. Giống như một cuộc trò chuyện bí mật qua LN. Tính năng này rất hữu ích để hiển thị tin nhắn trên bảng thông báo Amboss.space ([đây là hướng dẫn về bảng thông báo Amboss này](https://darthcoin.substack.com/p/amboss-billboard-amazing-tool)).
+C - Tại đây bạn có menu “Magic Drawer”, [cũng được giải thích chi tiết tại đây](https://blixtwallet.github.io/features#blixt-drawer). Đây là “Onchain Wallet” (B), Lightning Channels (C), Contacts, biểu tượng trạng thái Channels (A), Keysend (D).
 
-## Ký tin nhắn
-Công cụ rất hữu ích để ký các tin nhắn bằng khóa riêng của Node Blixt của bạn, xác thực tin nhắn. Rất ít ví di động có tính năng này, gần như không có.
 
-## Thanh toán đa kênh - Thanh toán đa đường dẫn (MPP)
+![blixt](assets/en/05.webp)
 
-Tính năng hữu ích cho thanh toán LN, cho phép bạn chia một thanh toán LN thành nhiều phần, qua nhiều kênh. Đây là cách tốt để cân bằng tính thanh khoản trên mạng và cải thiện quyền riêng tư.
 
-## Trìnhduyệt Lightning
+D - Là menu trợ giúp, có liên kết đến trang Câu hỏi thường gặp/Hướng dẫn, liên hệ với nhà phát triển, trang Github và nhóm hỗ trợ Telegram.
 
-Một loạt các dịch vụ của bên thứ ba với LN, được gói gém sắp xếp trong một trình duyệt đơn giản, dễ tiếp cận và thân thiện với người dùng. Đây cũng là cách tốt để quảng bá các doanh nghiệp chấp nhận BTC trên LN. Đây là một tính năng sẽ được phát triển thêm trong tương lai. Hiện tại, nó không hoạt động phía sau Tor, vì vậy việc duyệt các ứng dụng này sẽ dùng clearnet.
 
-## Trình duyệt nhật ký
+E - Chỉ ra BTC Address đầu tiên của bạn, nơi bạn có thể gửi Sats thử nghiệm đầu tiên của mình. ĐIỀU NÀY LÀ TÙY CHỌN! Nếu bạn gửi thẳng vào Address đó, sẽ mở một kênh LN hướng đến Blixt Node. Điều đó có nghĩa là bạn sẽ thấy Sats đã gửi của mình, đi vào một giao dịch onchain (tx) khác, để mở kênh LN đó. Bạn có thể kiểm tra điều đó trong Blixt onchain Wallet (xem điểm C), nhấp vào menu TX trên cùng bên phải.
 
-Đây là công cụ mạnh mẽ để kiểm tra nhật ký LND (LND log) và trạng thái node của bạn nói chung. Có một tùy chọn để lưu file nhật ký. Rất hữu ích khi có những thông tin nhật ký này trong tay nếu bạn cần sự hỗ trợ của nhà phát triển để xác định một số vấn đề.
 
-## Bảo mật
+![blixt](assets/en/06.webp)
 
-Bạn có thể thiết lập trong cài đặt ứng dụng, để tăng cường bảo mật cho ví/node của mình, có thể khởi động ứng dụng bằng mã PIN và/hoặc dấu vân tay.
 
-## Ví On-chain
+Như bạn có thể thấy trong Nhật ký giao dịch Onchain, các bước rất chi tiết chỉ ra nơi Sats sẽ đến (gửi tiền, mở, đóng kênh).
 
-Tính năng này hơi ẩn, trong menu kéo ở góc trên bên trái. Vì nó không thường xuyên được sử dụng bởi người dùng LN, nó không hiển thị trên màn hình chính. Nhưng không sao, bạn có thể có nó trên một ví riêng biệt nơi bạn có thể quản lý địa chỉ và xem nhật ký giao dịch, bằng cách nhập hạt giống của bạn trên Sparrow chẳng hạn. Có thể trong tương lai, ví Blixt cũng sẽ bao gồm tính năng quản lý UTXO. Nhưng hiện tại, CHỈ sử dụng ví on-chain này để mở hoặc đóng các kênh trên LN.
 
-## Tính năng đặc biệt
+SỰ GIỚI THIỆU:
 
-- Với phiên bản 0.6.9 đã giới thiệu "chế độ bền bỉ - persistent mode" cho phép người dùng chạy Blixt như một node LN luôn trực tuyến, giữ cho dịch vụ LND hoạt động và ví LN sẵn sàng nhận/gửi bất cứ lúc nào.
-- Kênh Taproot đơn giản - cho phép mở kênh Taproot để tăng cường quyền riêng tư và các tính năng nâng cao
-- Kênh không cần xác nhận với Blixt Dunder LSP
-- Speedloader ("đồng bộ kênh LN") - Điều này có nghĩa là tất cả các kênh sẽ được đồng bộ nhanh chóng khi khởi động, để tìm đường đi tốt hơn. Mặc dù hơi khó chịu khi bạn phải xem màn hình đồng bộ ở đầu, nhưng điều này sẽ đảm bảo rằng ví biết về tất cả các kênh nên các giao dịch sẽ nhanh chóng và đáng tin cậy hơn.
-- Đã dịch sang 25+ ngôn ngữ!
 
-## "Trứng phục sinh - Easter Eggs"
+Sau khi thử nghiệm một số tình huống, chúng tôi đi đến kết luận rằng mở các kênh giữa 1 và 5 M Sats hiệu quả hơn nhiều. Các kênh nhỏ hơn có xu hướng cạn kiệt nhanh chóng và phải trả mức phí cao hơn so với các kênh lớn hơn.
 
-Vâng, trong ứng dụng Blixt, có một số tính năng ẩn, những điều nhỏ nhặt làm cho ứng dụng trở nên quyến rũ, kích hoạt các hành động/phản ứng vui vẻ/thú vị.
-Gợi ý: thử nhấp hai lần liên tục vào logo Blixt trong menu kéo 🙂 Tôi sẽ để bạn khám phá phần còn lại.
 
-# Hướng dẫn từng bước để bắt đầu với Blixt
+F - Chỉ ra số dư Lightning Wallet chính của bạn. Đây KHÔNG phải là số dư Blixt Wallet tổng thể của bạn, nó chỉ đại diện cho Sats bạn có trong Lightning Channels, có thể gửi. Như đã chỉ ra trước đó, Onchain Wallet là riêng biệt. Hãy ghi nhớ khía cạnh này. Onchain Wallet là riêng biệt vì một lý do quan trọng: nó chủ yếu được sử dụng để mở/đóng các kênh LN.
 
-> Là người dùng LN mới, nếu bạn bắt đầu sử dụng Node LN Blixt, bạn sẽ cần phải biết Lightning Network là gì và cách hoạt động của nó, ít nhất ở cấp độ cơ bản. [Ở đây chúng tôi đã tổng hợp một danh sách nhỏ về các nguồn tài liệu về Lightning Network](https://blixtwallet.github.io/faq#what-is-ln). Vui lòng đọc chúng trước.”
 
-Chạy một node LN đầy đủ trên một thiết bị di động không phải là một nhiệm vụ dễ dàng và có thể sẽ chiếm một khoản không gian bộ nhớ (tối thiểu 600MB). Chúng tôi khuyên bạn nên có một thiết bị di động tốt, được cập nhật và sử dụng ít nhất là hệ điều hành Android 11.
+Được rồi, vậy thì giờ Darth’s Mom đã gửi một số Sats vào Address trên chuỗi được hiển thị trên màn hình chính. Khi bạn làm như vậy, bạn nên giữ ứng dụng Blixt của mình trực tuyến và hoạt động trong một thời gian, cho đến khi giao dịch BTC được thợ đào đưa vào khối đầu tiên.
 
-Khi bạn mở Blixt, màn hình “Chào mừng - Welcome” sẽ cung cấp cho bạn một số tùy chọn:
 
-![Demo Blixt 01](assets/blixt_t01.webp)
-Ở góc trên bên phải, bạn sẽ thấy 3 chấm kích hoạt một menu với:
-- “enable Tor” - người dùng có thể bắt đầu với mạng Tor, đặc biệt nếu muốn khôi phục một node LND cũ đang chạy chỉ với các đối tác ngang hàng (peer) trên Tor.
+Sau đó có thể mất đến 20-30 phút cho đến khi được xác nhận đầy đủ và kênh mở và bạn sẽ thấy nó trong Magic Drawer - Lightning Channels là đang hoạt động. Ngoài ra, chấm màu nhỏ ở trên cùng của ngăn kéo, nếu là Green sẽ chỉ ra rằng kênh LN của bạn đang trực tuyến và sẵn sàng để sử dụng để gửi Sats qua LN.
 
-- “Set Bitcoin Node” - nếu người dùng muốn kết nối trực tiếp với Node của mình, để đồng bộ các khối thông qua Neutrino, có thể thực hiện ngay từ màn hình chào mừng. Tùy chọn này cũng tốt trong trường hợp kết nối internet hoặc Tor của bạn không ổn định để kết nối với Node Bitcoin mặc định (node.blixtwallet.com).
 
-## Bước đầu tiên - Tạo ví mới
+Address và tin nhắn chào mừng hiển thị sẽ biến mất. Bây giờ không cần phải mở kênh tự động nữa. Bạn cũng có thể hủy kích hoạt tùy chọn trong menu Cài đặt.
 
-Nếu bạn chọn “Tạo một ví mới - Create a new wallet”, bạn sẽ được chuyển thẳng đến màn hình chính của Blixt Wallet.
 
-Đây là “bảng điều khiển” của bạn và cũng là “Ví LN Chính”, vì vậy hãy lưu ý, nó chỉ hiển thị số dư ví LN của bạn. Ví onchain được hiển thị riêng biệt (xem C).
+Đã đến lúc tiếp tục, thử nghiệm các tính năng và tùy chọn khác để mở kênh LN.
 
-![Demo Blixt 02](assets/blixt_t02.webp)
 
-A - Biểu tượng chỉ báo đồng bộ khối Blixt. Đây là điều quan trọng nhất cho một node LN: phải được đồng bộ hóa với mạng. Nếu biểu tượng đó vẫn đang hoạt động, có nghĩa là node của bạn CHƯA SẴN SÀNG! Vì vậy hãy kiên nhẫn, đặc biệt là cho lần đồng bộ đầu tiên. Nó có thể mất khoảng 6-8 phút, tùy thuộc vào thiết bị và kết nối internet của bạn.
+Bây giờ, hãy mở một kênh khác với một node ngang hàng khác. Cộng đồng Blixt đã cùng nhau đưa ra [danh sách các node tốt để bắt đầu sử dụng với Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033).
 
-Bạn có thể nhấp vào đó và xem trạng thái của việc đồng bộ:
 
-![Demo Blixt 03](assets/blixt_t03.webp)
+**Quy trình mở kênh LN trong Blixt**
 
-Bạn cũng có thể nhấp vào nút “Xem nhật ký LND - Show LND Log” (A) nếu bạn muốn xem và đọc thêm chi tiết kỹ thuật của nhật ký LND, theo thời gian thực. Rất hữu ích cho việc gỡ lỗi và học hỏi thêm về cách LN hoạt động.
 
-B - Tại đây bạn có thể truy cập tất cả các Cài đặt của Blixt, và có rất nhiều! Blixt cung cấp nhiều tính năng và tùy chọn phong phú để quản lý node LN của bạn như một chuyên gia. Tất cả các tùy chọn này được giải thích chi tiết trong [“Trang tính năng Blixt - Menu tùy chọn”](https://blixtwallet.github.io/features#blixt-options).
+Điều này rất đơn giản, chỉ cần thực hiện vài bước và một chút kiên nhẫn:
 
-C - Tại đây bạn có menu “Ngăn kéo ma thuật - Magic Drawer”, cũng được giải thích chi tiết ở đây. Đây là “Ví Onchain” (B), Kênh Lightning (C), Liên hệ, Biểu tượng trạng thái kênh (A), Keysend (D).
 
-![Demo Blixt 04](assets/blixt_t04.webp)
 
-D - Là menu trợ giúp, với các liên kết đến trang FAQ / Hướng dẫn, liên hệ nhà phát triển, trang Github và nhóm hỗ trợ Telegram.
+- Đã đến danh sách đồng nghiệp của [Cộng đồng Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
+- Chọn một nút và nhấp vào liên kết tiêu đề tên của nó, nó sẽ mở trang Amboss của nó
+- Nhấp để hiển thị mã QR cho nút URI Address
 
-E - Chỉ địa chỉ BTC đầu tiên của bạn, nơi bạn có thể gửi số sat thử nghiệm đầu tiên của mình. ĐIỀU NÀY LÀ TÙY CHỌN! Nếu bạn gửi trực tiếp vào địa chỉ đó, bạn đang mở một kênh LN với Node của Blixt. Điều đó có nghĩa là bạn sẽ thấy số sat của mình, chuyển vào một giao dịch onchain khác (tx), để mở kênh LN đó. Bạn có thể kiểm tra điều đó trong ví onchain của Blixt (xem điểm C), bằng cách nhấp vào menu TX ở góc trên bên phải.
 
-![Demo Blixt 05](assets/blixt_t05.webp)
+![blixt](assets/en/07.webp)
 
-Như bạn có thể thấy trong Nhật ký giao dịch onchain, các bước được chỉ ra rất chi tiết, chỉ ra nơi mà sat đang đi (gửi tiền, mở, đóng kênh)
 
-> KHUYẾN NGHỊ: Sau khi thử nghiệm nhiều tình huống, chúng tôi đã đến kết luận rằng việc mở kênh ở khoảng giữa 1 và 5 triệu sat là hiệu quả hơn nhiều. Các kênh nhỏ hơn có xu hướng cạn kiệt nhanh chóng và phải trả một tỷ lệ phí cao hơn so với các kênh lớn hơn.
-F - Chỉ ra số dư ví Lightning chính của bạn. Đây KHÔNG phải là tổng số dư ví Blixt của bạn, nó chỉ đại diện cho số sat bạn có trong các kênh Lightning, có sẵn để gửi. Như đã chỉ ra trước đó, ví onchain là riêng biệt. Hãy nhớ về khía cạnh này. Ví onchain được tách biệt vì một lý do quan trọng: nó chủ yếu được sử dụng để mở/đóng các kênh LN.
+Mở Blixt và đi đến ngăn kéo trên cùng - Kênh Lightning và nhấp vào nút “+”
 
-Vậy giờ bạn đã gửi một số sat vào địa chỉ onchain được hiển thị trên màn hình chính. Khi làm điều đó, bạn được khuyến nghị giữ ứng dụng Blixt của bạn trực tuyến và hoạt động một thời gian, cho đến khi giao dịch BTC được các thợ đào đưa vào khối đầu tiên.
 
-Sau đó có thể mất đến 20-30 phút cho đến khi được xác nhận hoàn toàn và kênh được mở, bạn sẽ thấy nó trong Magic Drawer - Lightning Channels ở trạng thái kích hoạt. Cũng như dấu chấm màu nhỏ ở trên cùng của ngăn kéo, nếu là màu xanh lá cây sẽ chỉ ra rằng kênh LN của bạn đang trực tuyến và sẵn sàng để được sử dụng để gửi sat qua LN.
+![blixt](assets/en/08.webp)
 
-Địa chỉ và thông điệp chào mừng hiển thị sẽ biến mất. Không cần thiết phải mở một kênh tự động nữa. Bạn cũng có thể vô hiệu hóa tùy chọn trong menu Cài đặt.
 
-Đã đến lúc chuyển sang, thử nghiệm các tính năng và tùy chọn khác để mở kênh LN.
+Bây giờ, hãy nhấp vào camera (A) để quét mã QR từ trang Amboss và các chi tiết về nút sẽ được điền vào. Thêm số tiền Sats cho kênh bạn muốn và sau đó chọn mức phí cho giao dịch. Bạn có thể để tự động (B) để xác nhận nhanh hơn hoặc điều chỉnh thủ công bằng cách trượt nút. Bạn cũng có thể nhấn và giữ số và chỉnh sửa theo ý muốn.
 
-Bây giờ, hãy mở một kênh khác với một node ngang hàng khác. Cộng đồng Blixt đã tổng hợp [một danh sách các node chất lượng để bắt đầu sử dụng với Blixt.](https://github.com/hsjoberg/blixt-wallet/issues/1033)
 
-### Quy trình mở một kênh LN riêng tư bình thường trong node di động Blixt của bạn
+Không đặt ít hơn 1 sat/vbyte! Thường thì tốt hơn là nên tham khảo [phí Mempool](https://Mempool.space/) trước khi mở kênh và chọn mức phí thuận tiện.
 
-Điều này rất đơn giản, chỉ cần thực hiện một số bước và một chút kiên nhẫn:
-- Đi đến [danh sách Cộng đồng Blixt](https://github.com/hsjoberg/blixt-wallet/issues/1033) của các đối tác ngang hàng chất lượng
-- Chọn một node và nhấp vào tiêu đề liên kết của nó, nó sẽ mở trang Amboss của nó
-- Nhấp để hiển thị mã QR cho địa chỉ URI của node
 
-![Demo Blixt 06](assets/blixt_t06.webp)
+Xong, bây giờ chỉ cần nhấp vào nút “mở kênh” và đợi 3 lần xác nhận, thường mất 30 phút (khoảng 1 khối mỗi 10 phút).
 
-Bây giờ, mở Blixt và đi đến ngăn kéo trên cùng - Kênh Lightning (Lightning Channels) và nhấp vào nút “+”
 
-![Demo Blixt 07](assets/blixt_t07.webp)
+Sau khi xác nhận, bạn sẽ thấy kênh đang hoạt động trong phần “Kênh Lightning”.
 
-Bây giờ, nhấp vào (A) camera để quét mã QR từ trang Amboss và thông tin chi tiết của node sẽ được điền. Thêm số lượng sat cho kênh bạn muốn và sau đó chọn mức phí cho giao dịch. Bạn có thể để tự động (B) để nhanh được xác nhận hơn hoặc điều chỉnh nó bằng cách trượt nút. Bạn cũng có thể nhấn và giữ số và chỉnh sửa nó theo ý bạn.
 
-Đừng đặt ít hơn 1 sat/vbyte! Thông thường tốt hơn là [tham khảo phí mempool](https://mempool.space/) trước khi mở một kênh và chọn một mức phí hợp lý.
+---
 
-Xong, bây giờ chỉ cần nhấp vào nút “Mở kênh - Open Channel” và chờ 3 xác nhận, thường mất 30 phút (1 khối khoảng mỗi 10 phút).
+## Blixt - Liên lạc lần thứ hai
 
-Một khi được xác nhận, bạn sẽ thấy kênh hoạt động trong phần “Kênh Lightning - Lightning Channels” của mình.
 
-## Bước thứ hai - Nhận thêm thanh khoản đầu vào
+Được rồi, bây giờ chúng ta có kênh LN chỉ có thanh khoản OUTBOURGE. Điều đó có nghĩa là chúng ta chỉ có thể GỬI, chúng ta vẫn không thể NHẬN Sats qua LN.
 
-Ok vậy giờ chúng ta đã có một kênh LN chỉ với thanh khoản ĐẦU RA. Điều đó có nghĩa là chúng ta chỉ có thể GỬI, chúng ta vẫn chưa thể NHẬN sat qua LN. Tại sao? Bạn đã đọc các hướng dẫn được chỉ ra ở đầu không? Không? Quay lại và đọc chúng. Rất quan trọng để hiểu cách hoạt động của các kênh LN.
 
-![Demo Blixt 08](assets/blixt_t08.webp)
-Như bạn có thể thấy trong ví dụ này, kênh mở với khoản tiền gửi đầu tiên, không có quá nhiều tính thanh khoản ĐẦU VÀO ("Có thể nhận") nhưng lại có rất nhiều tính thanh khoản ĐẦU RA ("Có thể gửi").
-Vậy bạn có những lựa chọn nào, nếu bạn muốn nhận được nhiều sat hơn qua LN?
-- Tiêu một số sat từ kênh hiện tại. Đúng vậy, LN là một mạng lưới thanh toán của Bitcoin, chủ yếu được sử dụng để bạn có thể chi tiêu số sat của mình nhanh chóng, rẻ hơn, kín đáo và dễ dàng. LN KHÔNG phải là nới để giữ sat, cho mục đích đó bạn có ví onchain.
-- Chuyển đổi một số sat, trở lại ví onchain của bạn, sử dụng dịch vụ chuyển đổi tàu ngầm. Theo cách này, bạn không tiêu sat của mình, mà là chuyển chúng trở lại ví onchain của bạn. Tại đây bạn có thể xem chi tiết một số phương pháp, trong [Trang hướng dẫn Blixt](https://blixtwallet.github.io/guides).
-- Mở một kênh ĐẦU VÀO từ bất kỳ nhà cung cấp dịch vụ LSP nào. Đây là một video demo về [cách sử dụng LNBig LSP để mở một kênh đầu vào](https://blixtwallet.github.io/assets/images/blixt-lnbig.mp4). Điều này có nghĩa, bạn sẽ trả một khoản phí nhỏ cho một kênh TRỐNG (về phía bạn) và bạn sẽ có thể nhận được nhiều sat hơn vào kênh đó. Nếu bạn là một người bán hàng nhận được nhiều hơn là chi tiêu, đây là một lựa chọn tốt. Cũng như nếu bạn đang mua sat qua LN, sử dụng Robosat hoặc bất kỳ sàn giao dịch LN nào khác.
-- Mở một kênh Dunder, với node Blixt hoặc bất kỳ nhà cung cấp dịch vụ LSP Dunder nào khác. Một kênh Dunder là một cách đơn giản để nhận được một lượng thanh khoản ĐẦU VÀO, nhưng đồng thời bạn cũng gửi một số sat vào kênh đó. Điều này cũng tốt vì nó sẽ mở kênh với một [UTXO](https://en.bitcoin.it/wiki/UTXO) không phải từ ví Blixt của bạn. Điều này tăng thêm tính riêng tư.
-Điều này cũng tốt vì, nếu bạn không có sat trong ví onchain để mở một kênh LN bình thường, nhưng bạn có chúng trong một ví LN khác, bạn có thể chỉ cần thanh toán từ ví khác đó qua LN cho việc mở và gửi tiền (về phía bạn) của kênh Dunder đó. [Xem thêm chi tiết về cách Dunder hoạt động và cách chạy máy chủ của riêng bạn tại đây.](https://github.com/hsjoberg/dunder-lsp)
+![blixt](assets/en/09.webp)
 
-![Demo Blixt 09](assets/blixt_t09.webp)
 
-Dưới đây là các bước để kích hoạt việc mở một kênh Dunder:
-- Vào Cài đặt, trong mục “Thử nghiệm - Experiments” kích hoạt ô cho “Kích hoạt Dunder LSP - Enable Dunder LSP”.
-- Sau khi bạn làm điều đó, quay lại mục “Lightning Network” và bạn sẽ thấy xuất hiện tùy chọn “Thiết lập Máy chủ Dunder LSP - Set Dunder LSP Server”. Tại đây, mặc định được đặt là “https://dunder.blixtwallet.com” nhưng bạn có thể thay đổi nó bằng bất kỳ địa chỉ nhà cung cấp Dunder LSP nào khác. [Đây là danh sách cộng đồng Blixt](https://github.com/hsjoberg/blixt-wallet/issues/1033) với các node có thể cung cấp kênh LSP Dudner cho Blixt của bạn.
-- Bây giờ bạn có thể quay lại màn hình chính và nhấn vào nút “Nhận - Receive”. Sau đó làm theo quy trình này được giải thích [trong hướng dẫn này](https://blixtwallet.github.io/guides#guide-lsp).
+Tại sao? Bạn đã đọc hướng dẫn được chỉ ra ở phần đầu chưa? Chưa? Hãy quay lại và đọc chúng. Điều rất quan trọng là phải hiểu cách kênh LN hoạt động.
 
-OK, vậy là sau khi kênh Dunder được xác nhận (sẽ mất vài phút) bạn sẽ kết thúc với việc có 2 kênh LN: một được mở ban đầu với autopilot (kênh A) và một với tính thanh khoản đầu vào nhiều hơn, được mở với Dunder (kênh B).
-![Demo Blixt 10](assets/blixt_t10.webp)
-Tốt, bây giờ bạn đã sẵn sàng để gửi và nhận đủ sat qua LN!
 
-## Bước thứ ba - Quy trình khôi phục Node
+![blixt](assets/en/10.webp)
 
-Vậy bây giờ, chúng ta hãy thảo luận về cách khôi phục ví Blixt hoặc bất kỳ node LND bị hỏng nào khác. Đây là phần kỹ thuật hơn một chút, nhưng xin hãy chú ý. Nó không quá khó.
 
-> NHẮC NHỞ: Trước đây, tôi đã viết một bài hướng dẫn chi tiết với nhiều lựa chọn [cách khôi phục một node LND bị hỏng](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), nơi tôi cũng đã đề cập đến phương pháp sử dụng Blixt để khôi phục nhanh, sử dụng hạt giống + tệp channel.backup từ node LND đã chết của bạn. Tôi cũng đã viết một hướng dẫn cách khôi phục node Blixt của bạn hoặc chuyển node Blixt sang một thiết bị khác, [tại đây](https://blixtwallet.github.io/faq#blixt-restore).
+Như bạn có thể thấy trong ví dụ này, kênh mở với khoản tiền gửi đầu tiên không có quá nhiều thanh khoản ĐẾN (“Có thể nhận”) nhưng có rất nhiều thanh khoản ĐI (“Có thể gửi”).
 
-![Demo Blixt 11](assets/blixt_t11.webp)
 
-Nhưng hãy diễn giải quy trình này bằng các bước đơn giản. Như bạn có thể thấy trong hình trên, có 2 việc bạn cần làm để khôi phục node Blixt/LND trước đó của bạn:
-- Ô trên cùng (A) là nơi bạn phải điền tất cả 24 từ hạt giống (node cũ / đã chết)
-- Phía dưới (B) là hai nút tùy chọn để chèn / tải lên tệp channel.backup, đã được lưu trước đó từ node Blixt/LND cũ của bạn. Nó có thể từ một tệp cục bộ (bạn đã tải nó vào thiết bị của mình trước đó) hoặc có thể từ một vị trí tách biệt trên Google Drive / iCloud. Blixt có tùy chọn này để lưu bản sao lưu kênh của bạn trực tiếp vào Google / iCloud Drive. Xem thêm chi tiết tại [Trang tính năng Blixt](https://blixtwallet.github.io/features#blixt-options).
+Vậy bạn có những lựa chọn nào nếu muốn nhận được nhiều Sats hơn LN?
 
-Cần phải nói thêm, nếu trước đó bạn không có bất kỳ kênh LN nào đang mở, thì không cần phải tải lên bất kỳ tệp channel.backup nào. Chỉ cần nhập 24 từ hạt giống và nhấn nút khôi phục.
 
-Đừng quên kích hoạt Tor, từ menu 3 chấm ở trên cùng, như chúng tôi đã giải thích trong chương "Bước đầu tiên" của hướng dẫn này. Đó là trường hợp khi bạn CHỈ có các đối tác ngang hàng Tor và không thể được liên hệ qua clearnet (domain/IP). Nếu không thì không cần thiết.
 
-Một tính năng hữu ích khác là thiết lập một node Bitcoin cụ thể từ menu trên cùng. Theo mặc định, nó đồng bộ các block từ node.blixtwallet.com (chế độ neutrino) nhưng bạn có thể thiết lập bất kỳ node Bitcoin nào khác cung cấp đồng bộ neutrino.
+- Chi tiêu một số Sats từ kênh hiện có. Đúng vậy, LN là mạng lưới thanh toán của Bitcoin, chủ yếu được sử dụng để chi tiêu Sats của bạn nhanh hơn, rẻ hơn, riêng tư và dễ dàng hơn. LN KHÔNG phải là cách hodling, vì vậy bạn có Wallet trên chuỗi.
 
-Như vậy một khi bạn điền những tùy chọn đó, và nhấn nút khôi phục, Blixt sẽ bắt đầu đồng bộ các khối thông qua Neutrino như chúng ta đã giải thích trong chương "Bước đầu tiên" của hướng dẫn này. Vì vậy, hãy kiên nhẫn và theo dõi quá trình khôi phục trên màn hình chính, bằng cách nhấp vào biểu tượng đồng bộ.
 
-![Demo Blixt 12](assets/blixt_t12.webp)
 
-Như bạn có thể thấy trong ví dụ này, nó cho thấy các khối bitcoin đã được đồng bộ hóa 100% (A) và quá trình khôi phục đang diễn ra (B). Điều đó có nghĩa là các kênh LN mà bạn đã có trước đó, sẽ được đóng và các quỹ sẽ được khôi phục vào ví onchain Blixt của bạn.
+- Hoán đổi một số Sats, trở lại Wallet trên chuỗi của bạn, bằng cách sử dụng dịch vụ hoán đổi ngầm. Theo cách này, bạn không chi tiêu Sats của mình mà trả lại cho Wallet trên chuỗi của riêng bạn. Tại đây, bạn có thể xem chi tiết một số phương pháp, trong [Trang hướng dẫn Blixt](https://blixtwallet.github.io/guides).
 
-Quá trình này sẽ tốn thời gian! Vì vậy, xin hãy kiên nhẫn và cố gắng giữ cho Blixt của bạn hoạt động và trực tuyến. Đồng bộ ban đầu có thể mất khoản 6-8 phút và đóng các kênh có thể mất khoảng 10-15 phút. Vì vậy, bạn nên sạc thiết bị đầy đủ.
-Khi quá trình này được bắt đầu, bạn có thể kiểm tra trong Magic Drawer - Lightning Channels, trạng thái của từng kênh trước đó của bạn, cho thấy chúng đang ở trạng thái “đang chờ đóng”. Khi mỗi kênh được đóng, bạn có thể thấy giao dịch đóng trong ví onchain (xem Magic Drawer - Onchain), và mở menu nhật ký giao dịch.
 
-![Demo Blixt 13](assets/blixt_t13.webp)
 
-Cũng sẽ tốt nếu bạn kiểm tra và thêm vào, nếu chưa có, các đối tác trước đây bạn đã có trong node LN cũ của mình. Vì vậy, hãy vào menu Cài đặt, xuống “Lightning Network” và chọn tùy chọn “Show Lightning Peers”.
+- Mở một kênh INBOUND từ bất kỳ nhà cung cấp LSP nào. Đây là video demo về cách sử dụng LSP LNBig để mở một kênh inbound. Điều đó có nghĩa là bạn sẽ trả một khoản phí nhỏ cho một kênh EMPTY (về phía bạn) và bạn sẽ có thể nhận được nhiều Sats hơn vào kênh đó. Nếu bạn là một thương gia nhận được nhiều hơn số tiền chi tiêu, thì đó là một lựa chọn tốt. Ngoài ra, nếu bạn đang mua Sats thay vì LN, sử dụng Robosats hoặc bất kỳ LN Exchange nào khác.
 
-![Demo Blixt 14](assets/blixt_t14.webp)
 
-Trong phần này, bạn sẽ thấy các đối tác bạn đang kết nối tại thời điểm đó và bạn có thể thêm, tốt hơn là thêm những người bạn đã có kênh trước đó. Chỉ cần vào trang Amboss, tìm kiếm tên bí danh của node đối tác hoặc nodeID và quét URI node của họ.
 
-![Demo Blixt 15](assets/blixt_t15.webp)
+- Mở một kênh Dunder, với nút Blixt hoặc bất kỳ nhà cung cấp Dunder LSP nào khác. Kênh Dunder là một cách đơn giản để có được một số thanh khoản ĐẾN, nhưng đồng thời bạn gửi một số Sats vào kênh đó. Cũng tốt vì nó sẽ mở kênh bằng một [UTXO](https://en.Bitcoin.it/wiki/UTXO) không phải từ Blixt Wallet của bạn. Điều đó thêm một số quyền riêng tư. Cũng tốt vì, nếu bạn không có Sats vào Wallet trên chuỗi, để mở một kênh LN bình thường, nhưng bạn có chúng vào một LN Wallet khác, bạn chỉ có thể trả từ Wallet khác đó thông qua LN để mở và gửi tiền (về phía bạn) của kênh Dunder đó. [Thông tin chi tiết hơn về cách Dunder hoạt động và cách chạy máy chủ của riêng bạn tại đây](https://github.com/hsjoberg/dunder-lsp).
 
-Như bạn có thể thấy trong hình trên, có 3 phần:
 
-A - đại diện cho địa chỉ URI node clearnet (domain/IP)
+![blixt](assets/en/11.webp)
 
-B - đại diện cho địa chỉ URI node Tor onion (.onion)
+
+Sau đây là các bước để kích hoạt mở kênh Dunder:
+
+
+
+- Vào Cài đặt, trong phần “Thử nghiệm”, kích hoạt hộp “Bật Dunder LSP”.
+- Sau khi thực hiện xong, hãy quay lại phần “Lightning Network” và bạn sẽ thấy tùy chọn “Đặt máy chủ LSP Dunder” xuất hiện. Theo mặc định, tùy chọn này được đặt là “https://dunder.blixtwallet.com” nhưng bạn có thể thay đổi tùy chọn này bằng bất kỳ nhà cung cấp LSP Dunder nào khác Address. [Đây là danh sách cộng đồng Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033) với các nút có thể cung cấp kênh LSP Dudner cho Blixt của bạn.
+- Bây giờ bạn có thể vào màn hình chính và nhấp vào nút “Nhận”. Sau đó làm theo quy trình này [được giải thích trong hướng dẫn này](https://blixtwallet.github.io/guides#guide-lsp).
+
+
+Được rồi, sau khi kênh Dunder được xác nhận (sẽ mất vài phút), bạn sẽ có 2 kênh LN: một kênh được mở ban đầu bằng chế độ lái tự động (kênh A) và một kênh có nhiều thanh khoản hơn, được mở bằng Dunder (kênh B).
+
+
+![blixt](assets/en/12.webp)
+
+
+Tốt, bây giờ bạn đã có thể gửi và nhận đủ Sats so với LN!
+
+
+CHÚC MỪNG Bitcoin LIGHTNING!
+
+
+---
+
+## Blixt - Liên lạc lần thứ ba
+
+
+Hãy nhớ rằng, trong chương một “Liên hệ đầu tiên” có 2 tùy chọn trên màn hình Chào mừng:
+
+
+- [Tùy chọn A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Tạo Wallet mới
+- Tùy chọn B - Khôi phục Wallet
+
+
+Bây giờ chúng ta hãy thảo luận về cách khôi phục Blixt Wallet hoặc bất kỳ nút nào khác bị sập LND. Điều này hơi kỹ thuật hơn một chút, nhưng hãy chú ý. Không phải là Hard sao.
+
+
+### TÙY CHỌN B - Khôi phục Wallet
+
+
+Trước đây, tôi đã viết một hướng dẫn chuyên sâu về [cách khôi phục nút Umbrel bị sập](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), trong đó tôi cũng đề cập đến phương pháp sử dụng Blixt làm quy trình khôi phục nhanh, bằng cách sử dụng tệp seed + channel.backup từ Umbrel.
+
+
+Tôi cũng đã viết hướng dẫn về cách khôi phục nút Blixt hoặc di chuyển Blixt của bạn sang thiết bị khác, [tại đây](https://blixtwallet.github.io/faq#blixt-restore).
+
+
+![blixt](assets/en/13.webp)
+
+
+Nhưng chúng ta hãy giải thích quy trình này theo các bước đơn giản. Như bạn có thể thấy trong hình ảnh trên, có 2 điều bạn nên làm để khôi phục nút Blixt/LND trước đó của mình:
+
+
+
+- hộp trên cùng là nơi bạn phải điền tất cả 24 từ từ seed của bạn (nút cũ / chết)
+- bên dưới là hai tùy chọn nút để chèn/tải lên tệp channel.backup, đã lưu trước đó từ nút Blixt/LND cũ của bạn. Tệp này có thể là tệp cục bộ (bạn đã tải tệp này lên thiết bị trước đó) hoặc có thể là tệp từ xa Google Drive/iCloud. Blixt có tùy chọn này để lưu bản sao lưu kênh của bạn trực tiếp vào Google Drive/iCloud Drive. Xem thêm chi tiết trong [Trang tính năng của Blixt](https://blixtwallet.github.io/features#blixt-options).
+
+
+Tuy nhiên, nếu trước đây bạn không có bất kỳ kênh LN mở nào, thì không cần phải tải lên bất kỳ tệp channels.backup nào. Chỉ cần chèn 24 từ seed và nhấn nút khôi phục.
+
+
+Đừng quên kích hoạt Tor, từ menu 3 chấm trên cùng, như chúng tôi đã giải thích trong phần Tùy chọn A. Đó là trường hợp khi bạn CHỈ có Tor ngang hàng và không thể liên lạc qua clearnet (tên miền/IP). Nếu không thì không cần thiết.
+
+
+Một tính năng hữu ích khác là thiết lập một nút Bitcoin cụ thể từ menu trên cùng đó. Theo mặc định, nó đồng bộ các khối từ node.blixtwallet.com (chế độ neutrino) nhưng bạn có thể thiết lập bất kỳ nút Bitcoin nào khác cung cấp đồng bộ neutrino.
+
+
+Vì vậy, sau khi bạn điền các tùy chọn đó và nhấn nút khôi phục, Blixt sẽ bắt đầu đồng bộ các khối thông qua Neutrino như chúng tôi đã giải thích trong chương First Contact. Vì vậy, hãy kiên nhẫn và theo dõi quá trình khôi phục trên màn hình chính bằng cách nhấp vào biểu tượng đồng bộ.
+
+
+![blixt](assets/en/14.webp)
+
+
+Như bạn có thể thấy trong ví dụ này, nó cho thấy các khối Bitcoin được đồng bộ hóa 100% (A) và quá trình khôi phục đang diễn ra (B). Điều đó có nghĩa là các kênh LN mà bạn đã có trước đó sẽ bị đóng và tiền được khôi phục vào Blixt onchain Wallet của bạn.
+
+
+Quá trình này mất thời gian! Vì vậy, hãy kiên nhẫn và cố gắng giữ Blixt của bạn hoạt động và trực tuyến. Đồng bộ ban đầu có thể mất tới 6-8 phút và đóng kênh có thể mất tới 10-15 phút. Vì vậy, tốt hơn là bạn nên sạc thiết bị thật kỹ.
+
+
+Sau khi quá trình này bắt đầu, bạn có thể kiểm tra trong Magic Drawer - Lightning Channels, trạng thái của từng kênh trước đó của bạn, hiển thị trạng thái "đang chờ đóng". Sau khi từng kênh đóng, bạn có thể thấy giao dịch đóng trong onchain Wallet (xem Magic Drawer - Onchain) và mở nhật ký menu tx.
+
+
+![blixt](assets/en/15.webp)
+
+
+Cũng sẽ tốt nếu kiểm tra và thêm nếu không có ở đó, các đồng nghiệp trước đây của bạn đã có trong nút LN cũ của bạn. Vì vậy, hãy vào menu Cài đặt, xuống “Lightning Network” và nhập vào tùy chọn “Hiển thị Lightning Peers”.
+
+
+![blixt](assets/en/16.webp)
+
+
+Bên trong phần này, bạn sẽ thấy các đối tác mà bạn đã kết nối vào thời điểm đó và bạn có thể thêm nhiều hơn, tốt hơn là thêm những đối tác mà bạn đã có kênh trước đó. Chỉ cần vào [Trang Amboss](https://amboss.space/), tìm kiếm các bí danh nút đối tác hoặc nodeID của bạn và quét URI nút của họ.
+
+
+![blixt](assets/en/17.webp)
+
+
+Như bạn có thể thấy trong hình ảnh trên, có 3 khía cạnh:
+
+
+A - biểu thị nút clearnet Address URI (tên miền/IP)
+
+
+B - biểu thị nút Tor onion Address URI (.onion)
+
 
 C - là mã QR để quét bằng camera Blixt hoặc nút sao chép.
 
-Địa chỉ URI node này bạn phải thêm vào danh sách đối tác ngang hàng của mình. Vì vậy, hãy lưu ý rằng chỉ có tên bí danh của node hoặc nodeID là không đủ.
 
-Bây giờ bạn có thể vào Magic Drawer (menu trên cùng bên trái) - Lightning Channels, và bạn có thể thấy ở độ cao khối "trưởng thành" mà tiền sẽ được trả lại vào địa chỉ onchain của bạn.
+Bạn phải thêm URI Address của nút này vào danh sách các nút ngang hàng của bạn. Vì vậy, hãy lưu ý rằng chỉ tên bí danh nút hoặc nodeID là không đủ.
 
-![Demo Blixt 16](assets/blixt_t16.webp)
 
-Số khối 764272 là khi tiền sẽ có thể sử dụng trong địa chỉ bitcoin onchain của bạn. Và nó có thể mất đến 144 khối từ khối xác nhận đầu tiên cho đến khi được giải phóng. Vì vậy, hãy kiểm tra điều đó trong [mempool](https://mempool.space/).
+Bây giờ bạn có thể vào Magic Drawer (menu trên cùng bên trái) - Lightning Channels và bạn có thể xem số tiền sẽ được trả lại vào Address trên chuỗi của bạn ở độ cao khối đáo hạn nào.
 
-Và đó là tất cả. Chỉ cần kiên nhẫn chờ đợi cho đến khi tất cả các kênh được đóng và tiền trở lại ví onchain của bạn.
 
-## Bước thứ tư - Tùy chỉnh
+![blixt](assets/en/18.webp)
 
-Chương này nói về việc tùy chỉnh và hiểu rõ hơn về node Blixt của bạn. Tôi sẽ không mô tả tất cả các tính năng có sẵn, có quá nhiều và đã được giải thích trước đó trong [Trang tính năng Blixt](https://blixtwallet.github.io/features).
 
-Nhưng tôi sẽ chỉ ra một số tính năng cần thiết để bạn tiếp tục sử dụng Blixt và có trải nghiệm tốt.
+Khối số 764272 là thời điểm tiền có thể sử dụng được trong Bitcoin onchain Address của bạn. Và có thể mất tới 144 khối từ khối xác nhận đầu tiên cho đến khi được giải phóng. [Vì vậy, hãy kiểm tra điều đó trong Mempool](https://Mempool.space/).
+
+
+Và thế là xong. Chỉ cần kiên nhẫn chờ cho đến khi tất cả các kênh được đóng lại và tiền sẽ được chuyển trở lại Wallet trên chuỗi của bạn.
+
+
+👉 **Phương pháp khôi phục bí mật:**
+
+
+Có một phương pháp khác để khôi phục nút Blixt LND của bạn mà không cần đóng kênh. Nhưng phương pháp này bị ẩn khỏi người dùng noob thông thường, vì phương pháp này CHỈ dành cho những người biết họ đang làm gì.
+
+
+Trong trường hợp bạn cần di chuyển nút Blixt hiện tại (đang hoạt động) sang một thiết bị mới khác mà không đóng các kênh LN hiện có, bạn sẽ phải thực hiện các bước sau:
+
+
+
+- Chúng tôi cho rằng bạn đã lưu Blixt Wallet seed (24 từ aezeed)
+- Trên thiết bị cũ, hãy vào "Cài đặt" - phần gỡ lỗi - "Thu gọn cơ sở dữ liệu LND". Bước này là tùy chọn nhưng được khuyến nghị nếu bạn muốn tệp channel.db có kích thước nhỏ hơn. Thường thì khá lớn, tùy thuộc vào hoạt động của nút. Thao tác này sẽ khởi động lại Blixt và thu gọn kích thước tệp db.
+- Sau khi khởi động lại, hãy vào "Cài đặt" và đổi tên bí danh thường dùng của bạn thành "Hampus". Thao tác này sẽ kích hoạt các tùy chọn ẩn, chỉ dành cho người dùng nâng cao.
+- Đi xuống phần "Debug" và bạn sẽ thấy tùy chọn mới "Export channel.db file". CẢNH BÁO! Sau khi bạn thực hiện thao tác xuất này, nút Blixt LN hiện tại sẽ bị vô hiệu hóa trên thiết bị cũ này và sẽ xuất toàn bộ cơ sở dữ liệu nút (channel.db) sẵn sàng để nhập vào thiết bị mới.
+- Tệp db này sẽ được lưu vào một thư mục được chỉ định trên thiết bị cũ của bạn (Tài liệu hoặc Tải xuống) và từ đó bạn sẽ phải di chuyển tệp đó theo nguyên trạng sang thiết bị mới của mình. Ví dụ, bạn có thể sử dụng [ứng dụng FOSS LocalSend](https://github.com/localsend/localsend) để chuyển tệp trực tiếp giữa các thiết bị.
+- Vào lúc này, chiếc Blixt cũ của bạn PHẢI tắt hẳn. ĐỪNG MỞ LẠI!
+- Sau khi bạn chuyển tệp channel.db sang thiết bị mới, hãy bắt đầu cài đặt Blixt mới và chọn "Khôi phục Wallet" ở màn hình đầu tiên.
+- Trên nút có ghi "Chọn tệp SCB", nhấn và giữ (KHÔNG phải nhấp chuột đơn giản!) và sau đó bạn sẽ thấy tùy chọn để chọn tệp channel.db nơi bạn lưu tệp cục bộ trong thiết bị mới. Nếu bạn chỉ cần nhấn nút đó, theo mặc định, tệp SCB sẽ được sử dụng (với các kênh đóng), không hoạt động đối với các kênh trực tiếp sao lưu đầy đủ.
+- Nhập 24 từ seed rồi nhấp vào "Khôi phục"
+- Bạn sẽ thấy Blixt sẽ bắt đầu đồng bộ hóa với Neutrino. Bạn cũng có thể xem nhật ký đồng bộ hóa.
+- LƯU Ý! Cố gắng giữ Blixt luôn mở trong giai đoạn này! Không để nó ở chế độ ngủ hoặc đóng màn hình ứng dụng. Điều đó có thể làm gián đoạn quá trình đồng bộ ban đầu và bạn phải thực hiện lại. Hãy kiên nhẫn chờ đợi, không mất quá vài phút.
+- Sau khi quá trình đồng bộ khối ban đầu hoàn tất, nó sẽ nhanh chóng quét các địa chỉ Wallet trước đó của bạn và sau đó các kênh của bạn sẽ trực tuyến trở lại, hoạt động bình thường.
+- Thật không may là lịch sử thanh toán và danh bạ trước đó vẫn chưa thể khôi phục được. Nhưng dù sao thì điều đó cũng không quá quan trọng.
+
+
+Và XONG! Bây giờ bạn đã khôi phục hoàn toàn nút Blixt LN. Nó cũng có thể hoạt động với các bản sao lưu LND khác (Umbrel, Raspiblitz, v.v.) nếu bạn đã lưu đúng tệp channel.db trước đó. Vì vậy, Blixt có thể lưu bất kỳ nút LND chết nào.
+
+
+---
+
+## Blixt - Liên lạc lần thứ tư
+
+
+Chương này nói về tùy chỉnh và hiểu rõ hơn về Blixt Node. Tôi sẽ không mô tả tất cả các tính năng có sẵn, vì có quá nhiều và đã được giải thích trong [Trang tính năng Blixt](https://blixtwallet.github.io/features).
+
+
+Nhưng tôi sẽ chỉ ra một số điều cần thiết để bạn có thể tiếp tục sử dụng Blixt và có được trải nghiệm tuyệt vời.
+
 
 ### A - Tên (NameDesc)
 
-![Demo Blixt 17](assets/blixt_t17.webp)
 
-[NameDesc](https://github.com/lightning/blips/blob/master/blip-0011.md) là một tiêu chuẩn để truyền đạt "tên người nhận" trong hóa đơn BOLT11.
+![blixt](assets/en/19.webp)
 
-Đây có thể là bất kỳ tên nào và có thể được thay đổi bất cứ lúc nào.
 
-Tùy chọn này thực sự hữu ích trong nhiều trường hợp, khi bạn muốn gửi một tên cùng với mô tả hóa đơn, để người nhận có thể biết được ai đã gửi những sat đó. Đây là tùy chọn hoàn toàn và cũng có trên màn hình thanh toán, người dùng phải đánh dấu vào ô để báo hiệu rằng gửi tên bí danh.
+[NamDesc](https://github.com/lightning/blips/blob/master/blip-0011.md) là tiêu chuẩn để truyền đạt "tên người nhận" trong hóa đơn BOLT11.
 
-Dưới đây là một ví dụ về cách hiển thị khi bạn sử dụng [chat.blixtwallet.com](https://chat.blixtwallet.com/)
 
-![Demo Blixt 18](assets/blixt_t18.webp)
+Đây có thể là bất kỳ tên nào và có thể thay đổi bất cứ lúc nào.
 
-Đây là một ví dụ khác khi gửi đến một ứng dụng ví khác hỗ trợ NameDesc:
 
-![Demo Blixt 19](assets/blixt_t19.webp)
+Tùy chọn này thực sự hữu ích trong nhiều trường hợp, khi bạn muốn gửi tên cùng với mô tả Invoice, để người nhận có thể biết được ai đã nhận được Sats. Tùy chọn này hoàn toàn tùy chọn và trên màn hình thanh toán, người dùng phải tích vào ô cho biết muốn gửi tên bí danh.
 
-### B - Sao lưu Kênh LN và cụm từ hạt giống
+
+Sau đây là ví dụ về cách hiển thị khi bạn sử dụng [chat.blixtwallet.com](https://chat.blixtwallet.com/)
+
+
+![blixt](assets/en/20.webp)
+
+
+Đây là một ví dụ khác về việc gửi đến ứng dụng Wallet khác hỗ trợ NameDesc:
+
+
+![blixt](assets/en/21.webp)
+
+
+### B - Hộp sét
+
+
+Bắt đầu với phiên bản v0.6.9-420 mới [mới được công bố](https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420), Blixt đã giới thiệu một tính năng mạnh mẽ mới cho Lightning Address trong Blixt.
+
+
+Tính năng mới này là tùy chọn, không được BẬT theo mặc định!
+
+
+Hiện tại, LN Box mặc định được chạy bởi máy chủ Blixt và cung cấp LN Address @blixtwallet.com. Nhưng BẤT KỲ AI có nút công khai LND đều có thể chạy máy chủ Lightning Box và cung cấp LN Address cho tên miền riêng của mình, tự lưu giữ.
+
+
+Hiện tại, máy chủ Blixt chỉ chuyển tiếp các khoản thanh toán được gửi đến địa chỉ LN @blixtwallet.com đến người dùng Blixt đã đặt LN Address của họ. Người dùng phải đặt nút Blixt Wallet của họ ở "chế độ liên tục" để nhận các khoản thanh toán này đến địa chỉ LN @blixtwallet.com của họ.
+
+
+Xem video demo về cách thiết lập LN Address của bạn trong Blixt trong ghi chú phát hành.
+
+
+LN Address này được triển khai vào ứng dụng Blixt Wallet, giống như một cuộc trò chuyện qua LN, tức thời và thú vị, đồng thời hỗ trợ [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (thêm tên bí danh vào thanh toán). Bạn có thể thêm vào danh sách liên lạc tất cả các địa chỉ LN thông thường mà bạn thường xuyên sử dụng và có sẵn để trò chuyện. Bây giờ Blixt có thể được coi là một ứng dụng trò chuyện LN đầy đủ 😂😂.
+
+
+Một tính năng hữu ích khác là hỗ trợ đầy đủ cho LUD-18 (cũng được [Stacker.News](https://stacker.news/r/DarthCoin) và những người khác hỗ trợ).
+
+
+![blixt](assets/en/22.webp)
+
+
+Như bạn có thể thấy trong ảnh chụp màn hình ở trên, khi gửi từ tài khoản Stacker News, nó hiển thị đẹp logo + LN Address + tin nhắn. Cách tương tự cũng áp dụng khi gửi từ Blixt, bạn có thể đính kèm Blixt LN Address hoặc chỉ cần thêm tên bí danh (đã đặt trước trong cài đặt Blixt) hoặc thậm chí cả hai.
+
+
+Tùy chọn này từ LUD-18 cũng có thể hữu ích cho các dịch vụ đăng ký, nơi người dùng có thể gửi một bí danh cụ thể (KHÔNG phải là bí danh nút của bạn hoặc tên thật của bạn!) và dựa trên đó, bạn có thể được đăng ký hoặc nhận lại một tin nhắn cụ thể hoặc bất kỳ thứ gì khác. Việc đính kèm tên bí danh ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md))+ bình luận ([LUD-12](https://github.com/lnurl/luds/blob/luds/12.md)) vào thanh toán LN có thể có nhiều trường hợp sử dụng!
+
+
+Sau đây là mã cho [Lightning Box](https://github.com/hsjoberg/lightning-box) nếu bạn chạy nó cho chính mình, cho gia đình và bạn bè, trên chính nút của bạn.
+
+
+Tại đây, bạn cũng có thể chạy [máy chủ LSP Dunder](https://github.com/hsjoberg/dunder-lsp) cho các nút di động Blixt và cung cấp tính thanh khoản cho người dùng Blixt nếu bạn có nút LN công khai tốt (chỉ hoạt động với LND).
+
+
+### C - Kênh LN dự phòng và từ seed
+
 
 Đây là một tính năng rất quan trọng!
-Sau khi mở hoặc đóng một kênh LN, bạn nên thực hiện sao lưu. Việc này có thể được thực hiện thủ công bằng cách lưu một tệp nhỏ vào thiết bị cục bộ (thường là thư mục tải xuống) hoặc sử dụng tài khoản Google Drive hoặc iCloud.
-![Demo Blixt 20](assets/blixt_t20.webp)
 
-Đi tới Cài đặt Blixt - mục Ví. Tại đây, bạn có các tùy chọn để lưu tất cả dữ liệu quan trọng cho ví Blixt của mình:
-- “Hiển thị mnemonic - Show mnemonic” - sẽ hiển thị 24 từ khóa để bạn ghi chú lại
-- “Xóa mnemonic khỏi thiết bị - Remove mnemonic from device” - đây là tùy chọn không bắt buộc và chỉ sử dụng nếu bạn thực sự muốn loại bỏ các từ khóa khỏi thiết bị của mình. Điều này sẽ KHÔNG xóa ví của bạn, chỉ xóa các từ khóa hạt giống. Nhưng hãy cẩn thận! Không có cách nào để khôi phục chúng nếu bạn không ghi chú lại trước.
-- “Xuất sao lưu kênh - Export channel backup” - tùy chọn này sẽ lưu một tệp nhỏ vào thiết bị cục bộ của bạn, thường là vào thư mục “tải xuống”, từ đó bạn có thể lấy nó và di chuyển ra khỏi thiết bị của mình để bảo quản an toàn.
-- “Xác minh sao lưu kênh - Verify channel backup” - đây là tùy chọn tốt nếu bạn sử dụng Google Drive hoặc iCloud để kiểm tra tính toàn vẹn của bản sao lưu thực hiện từ xa.
-- “Sao lưu kênh trên Google Drive - Google drive channel backup” - sẽ sao lưu tệp sao lưu vào Google Drive cá nhân của bạn. Tệp được mã hóa và được lưu trữ trong một kho lưu trữ riêng biệt so với các tệp google thông thường của bạn. Vì vậy, không có lo ngại nào về việc tệp có thể được đọc bởi bất kỳ ai. Dù sao thì tệp đó cũng hoàn toàn vô dụng nếu không có các cụm từ hạt giống, vì vậy không ai có thể lấy tiền từ tệp đó cả.
 
-Tôi sẽ đưa ra lời khuyên cho phần này như sau:
-- Sử dụng một trình quản lý mật khẩu để lưu trữ an toàn cụm từ hạt giống và tệp sao lưu của bạn. [KeePass](https://keepass.info/) hoặc Bitwarden rất tốt cho việc này và có thể được sử dụng trên nhiều nền tảng và tự lưu trữ hoặc ngoại tuyến.
-- THỰC HIỆN SAO LƯU MỖI KHI bạn mở hoặc đóng một kênh. Tệp đó được cập nhật với thông tin của các kênh. Không cần phải thực hiện sau mỗi giao dịch bạn đã thực hiện trên LN. Sao lưu kênh không lưu trữ thông tin đó, chỉ lưu trữ trạng thái của kênh.
+Sau khi mở hoặc đóng kênh LN, bạn nên sao lưu. Có thể thực hiện sao lưu thủ công một tệp nhỏ trên thiết bị cục bộ (thường là thư mục tải xuống) hoặc sử dụng tài khoản Google Drive hoặc iCloud.
 
-![Demo Blixt 21](assets/blixt_t21.webp)
 
-## Kết luận
+![blixt](assets/en/23.webp)
 
-OK, có nhiều tính năng tuyệt vời khác mà Blixt cung cấp, tôi sẽ để bạn khám phá từng cái một và tận hưởng hành trình đó.
 
-Ứng dụng này thực sự bị đánh giá thấp, chủ yếu vì không được tài trợ bởi bất kỳ quỹ đầu tư mạo hiểm nào, được điều hành bởi cộng đồng, xây dựng với tình yêu và đam mê dành cho Bitcoin và Lightning Network.
+Vào mục Blixt Settings - Wallet. Ở đó bạn có các tùy chọn để lưu tất cả dữ liệu quan trọng cho Blixt Wallet của bạn:
 
-Node LN di động này, Blixt, là một công cụ rất mạnh mẽ trong tay của nhiều người dùng, nếu họ biết cách sử dụng nó một cách hiệu quả. Chỉ cần tưởng tượng, bạn đang đi khắp thế giới với một node LN trong túi của mình và không ai biết điều đó.
 
-Và chưa nói đến tất cả các tính năng phong phú khác đi kèm, mà rất ít hoặc không có ứng dụng ví nào khác có thể cung cấp.
 
-Tôi hy vọng bạn thích sử dụng nó. Cá nhân tôi, tôi yêu thích nó và nó rất hữu ích đối với tôi (tôi xem ở đây một trường hợp sử dụng mà ví này là một công cụ tuyệt vời).
+- “Show Mnemonic” - sẽ hiển thị 24 từ seed để ghi lại
+- “Xóa Mnemonic khỏi thiết bị” - tùy chọn này là tùy chọn và chỉ sử dụng nếu bạn thực sự muốn xóa các từ seed khỏi thiết bị của mình. Thao tác này KHÔNG xóa Wallet của bạn, chỉ xóa seed. Nhưng hãy lưu ý! Không có cách nào để khôi phục chúng nếu bạn không ghi chúng ra trước.
+- “Xuất bản sao lưu kênh” - tùy chọn này sẽ lưu một tệp nhỏ trên thiết bị cục bộ của bạn, thường là vào thư mục “tải xuống”, nơi bạn có thể lấy và di chuyển tệp đó ra bên ngoài thiết bị để giữ an toàn.
+- “Xác minh kênh sao lưu” - đây là tùy chọn tốt nếu bạn sử dụng Google Drive hoặc iCloud để kiểm tra tính toàn vẹn của bản sao lưu được thực hiện từ xa.
+- “Google Drive Channel Backup” - sẽ lưu tệp sao lưu vào Google Drive cá nhân của bạn. Tệp được mã hóa và được lưu trữ trong một kho lưu trữ riêng biệt so với các tệp Google thông thường của bạn. Vì vậy, không có mối lo ngại nào có thể bị bất kỳ ai đọc được. Dù sao thì tệp đó hoàn toàn vô dụng nếu không có các từ seed, vì vậy không ai có thể lấy tiền của bạn từ tệp đó.
 
-CHÚC MỪNG BITCOIN LIGHTNING!
 
-Nguyện Mong ₿ITCOIN Ở Bên Bạn!
+Tôi xin đề xuất phần này như sau:
 
-> LƯU Ý: Tôi không được trả tiền hoặc hỗ trợ bằng bất kỳ cách nào từ các nhà phát triển của ứng dụng này. Tôi viết hướng dẫn này vì tôi thấy rằng sự quan tâm đến ứng dụng ví này đang tăng lên và người dùng mới vẫn không hiểu cách bắt đầu với nó. Cũng để giúp Hampus (nhà phát triển chính) có tài liệu về việc sử dụng ví node này. Tôi không có bất kỳ lợi ích nào khác trong việc quảng bá ứng dụng LN này, ngoài việc thúc đẩy việc áp dụng Bitcoin và LN. Đây là cách duy nhất!
+
+
+- sử dụng trình quản lý mật khẩu để lưu trữ an toàn seed và tệp sao lưu của bạn. KeePass hoặc Bitwarden rất tốt cho việc đó và có thể sử dụng trên nhiều nền tảng và tự lưu trữ hoặc ngoại tuyến.
+- SAO LƯU MỖI LẦN bạn mở hoặc đóng kênh. Tệp đó được cập nhật thông tin kênh. Không cần phải làm điều đó sau mỗi giao dịch bạn thực hiện trên LN. Sao lưu kênh không lưu trữ thông tin đó, chỉ lưu trữ trạng thái của kênh.
+
+
+![blixt](assets/en/24.webp)
+
+
+---
+
+## Blixt - Mẹo và thủ thuật
+
+
+### TRƯỜNG HỢP 1 - VẤN ĐỀ ĐỒNG BỘ
+
+
+"_Blixt của tôi không đồng bộ hóa... Blixt của tôi không hiển thị số dư... Blixt của tôi không mở được kênh... Tôi đã thử khôi phục nó trên một thiết bị khác... v.v._"
+
+
+Tất cả những vấn đề này bắt đầu vì THIẾT BỊ CỦA BẠN KHÔNG ĐỒNG BỘ ĐÚNG CÁCH. Vui lòng hiểu khía cạnh quan trọng này: Blixt là một nút LND di động, sử dụng Neutrino để đồng bộ hóa / đọc các khối.
+
+
+
+- Sau đây là lời giải thích ít mang tính kỹ thuật hơn từ [Tạp chí Bitcoin](https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
+- Sau đây là thêm các tài nguyên kỹ thuật từ [Bitcoin Optech](https://bitcoinops.org/en/topics/compact-block-filters/)
+- Sau đây là cách bạn có thể kích hoạt Neutrino trên nút home của riêng bạn và phục vụ các bộ lọc khối cho nút di động của bạn, từ [Docs Lightning Engineering](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core)
+
+
+NHẮC NHỞ: Sử dụng Neutrino qua clearnet hoàn toàn an toàn, IP hoặc xpub của bạn không bị rò rỉ. Bạn chỉ đang đọc các khối từ một nút từ xa bằng neutrino. Chỉ vậy thôi. Mọi thứ còn lại được thực hiện trên thiết bị cục bộ của bạn.
+
+
+Vì vậy, KHÔNG CẦN sử dụng nó với Tor. Tor sẽ làm tăng độ trễ rất lớn trong quá trình đồng bộ hóa của bạn và sẽ khiến Blixt của bạn rất không ổn định. Nếu bạn thực sự muốn sử dụng qua Tor, hãy chắc chắn về những gì bạn đang làm và có kết nối tốt và kiên nhẫn. Tương tự như khi sử dụng VPN. Hãy cẩn thận với độ trễ mà VPN đó cung cấp cho bạn.
+
+
+Bạn có thể kiểm tra độ trễ của máy chủ neutrino bằng cách ping nó từ máy tính hoặc điện thoại di động.
+
+
+![blixt](assets/en/25.webp)
+
+
+Đây là lệnh ping thông thường tới máy chủ neutrino europe.blixtwallet.com, điều này cho thấy kết nối rất tốt với thời gian phản hồi trung bình là 50ms và TTL là 51. Thời gian phản hồi có thể thay đổi nhưng không quá nhiều. TTL phải ổn định.
+
+
+Nếu các giá trị này cao hơn 100-150ms thì quá trình đồng bộ hóa của bạn sẽ chậm lại hoặc thậm chí tệ hơn, nó có thể khiến các kênh bị đóng bởi các đối tác! Đừng bỏ qua khía cạnh này.
+
+
+Nếu không đồng bộ đúng cách, bạn cũng không thể thấy được sự cân bằng chính xác hoặc các kênh LN của bạn sẽ không trực tuyến và hoạt động. Cho dù bạn có bao nhiêu giga ultra terra mbps tốc độ tải xuống, ĐIỀU ĐÓ KHÔNG QUAN TRỌNG. Điều quan trọng là phản hồi thời gian và TTL (thời gian sống).
+
+
+Đây giống như trường hợp chung của người dùng LATAM. Tôi không biết chuyện gì xảy ra ở đó nhưng các bạn có kết nối tệ với ping hơn 200ms có thể làm gián đoạn bất kỳ quá trình đồng bộ nào.
+
+
+Vậy giải pháp cho những người dùng tuyệt vọng này là gì?
+
+
+
+- ngừng sử dụng Blixt với Tor. Hoàn toàn vô dụng
+- bạn có thể sử dụng VPN nhưng hãy chọn một cách khôn ngoan và theo dõi ping mọi lúc. Sử dụng VPN gần với vị trí địa lý của bạn hơn. Khoảng cách có nghĩa là thời gian phản hồi ms nhiều hơn, hãy nhớ nhé.
+- hãy lựa chọn một cách khôn ngoan các máy chủ neutrino ngang hàng của bạn, sau đây là danh sách các máy chủ neutrino công cộng nổi tiếng:
+
+
+```txt
+For US region
+btcd1.lnolymp.us | btcd2.lnolymp.us
+btcd-mainnet.lightning.computer
+swest.blixtwallet.com (Seattle)
+node.eldamar.icu
+noad.sathoarder.com
+bb1.breez.technology | bb2.breez.technology
+neutrino.shock.network
+For EU region
+europe.blixtwallet.com (Germany)
+For Asia region
+sg.lnolymp.us
+asia.blixtwallet.com
+```
+
+
+Một cách khác là chọn một nút từ danh sách các nút thông báo "bộ lọc nhỏ gọn" (BIP157 / neutrino) - [Bộ lọc Neutrino của Bitnodes Page](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Chọn nút gần với vị trí địa lý của bạn hơn.
+
+
+Một cách khác (cách tốt nhất) là kết nối với một nút cộng đồng cục bộ, do một người bạn hoặc nhóm mà bạn biết điều hành và đang cung cấp kết nối neutrino. [Sau đây là hướng dẫn cách thực hiện.](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Nút của họ sẽ không bị ảnh hưởng theo bất kỳ cách nào, họ chỉ cần một kết nối ổn định và công khai.
+
+
+Cần có nhiều máy chủ neutrino hơn trong khu vực LATAM để đồng bộ hóa nhanh hơn và tốt hơn. Vì vậy, hãy tự tổ chức, với cộng đồng Bitcoin địa phương của bạn và quyết định xem ai và ở đâu đang chạy Bitcoin Core + Neutrino cho mục đích sử dụng của riêng bạn. Chỉ cần một IP công khai là đủ. Nếu bạn không có quyền truy cập vào IP công khai, bạn có thể sử dụng IP VPS và tạo đường hầm wireguard đến nút home của mình. Theo cách đó, bạn sẽ chuyển hướng tất cả lưu lượng truy cập đến IP VPS cục bộ của mình mà không tiết lộ bất kỳ thông tin riêng tư nào về nút home của bạn.
+
+
+### TRƯỜNG HỢP 2 - KHÔNG BAO GIỜ HOÀN THÀNH ĐỒNG BỘ
+
+
+"_Blixt của tôi có kết nối tốt với máy chủ neutrino nhưng bị kẹt khi đồng bộ hóa._"
+
+
+#### Máy chủ thời gian
+
+
+Đôi khi mọi người sử dụng nhiều thiết bị cũ hoặc không kết nối đúng với máy chủ thời gian. Neutrino đang đồng bộ hóa bình thường cho đến khi đạt đến các khối thực tế không tương ứng với thời gian địa phương thực tế. Bạn sẽ thấy trong nhật ký Blixt LND lỗi nói rằng "dấu thời gian khối còn lâu mới đến" hoặc một cái gì đó liên quan đến "tiêu đề không vượt qua kiểm tra tính hợp lệ".
+
+
+Sửa lỗi nhanh: đặt đúng thời gian và ngày tháng cho thiết bị của bạn và khởi động lại Blixt.
+
+
+#### Không gian trên thiết bị thấp
+
+
+Đôi khi sử dụng thiết bị cũ, có dung lượng thấp, nó có thể đạt đến ngưỡng giới hạn và bị kẹt. Thật vậy, đối với những người sử dụng nút LND di động này, các tệp neutrino sẽ lớn hơn và tệp channel.db cũng vậy.
+
+
+Sửa lỗi nhanh: Vào mục Tùy chọn Blixt - Gỡ lỗi - Chọn "dừng LND và xóa các tệp neutrino". Nó sẽ khởi động lại ứng dụng và bắt đầu đồng bộ mới. Đôi khi, bản sửa lỗi nhanh này cũng có thể sửa dữ liệu bị hỏng. Hãy nhớ rằng sẽ mất một khoảng thời gian, từ 1 đến 3 phút để đồng bộ lại hoàn toàn. Nó KHÔNG xóa các quỹ hoặc kênh hiện có, nhưng đúng vậy, sau khi đồng bộ lại, nó có thể kích hoạt quét lại các địa chỉ Bitcoin của bạn và điều đó có thể mất nhiều thời gian hơn.
+
+
+Bước tiếp theo là kiểm tra xem còn bao nhiêu dữ liệu đang chiếm dụng. Bạn có thể xem thông tin này trong Android App info - data. Nếu vẫn lớn hơn 400-500MB, bạn có thể nén các tệp LND. Vì vậy, hãy vào Blixt Options - Debug section - Chọn "Compact DB LND". Khởi động lại ứng dụng Blixt nếu không tự động thực hiện. Quá trình nén diễn ra khi khởi động và chỉ diễn ra một lần. Bây giờ bạn sẽ thấy dữ liệu Blixt ít bị chiếm dụng hơn.
+
+
+#### Chế độ liên tục
+
+
+Đôi khi mọi người không mở Blixt trong thời gian dài, vì vậy đồng bộ hóa đã quá cũ. Nhưng họ mong đợi được đồng bộ hóa ngay lập tức khi họ mở nó.
+
+
+Xin hãy kiên nhẫn và nhìn vào bánh xe quay trên cùng. Tùy chọn, bạn có thể vào Options - See Node Info và xem liệu có đồng bộ với chain và đồng bộ với biểu đồ được đánh dấu là "true" hay không. Nếu không có "true" đó, bạn không thể sử dụng Blixt đúng cách, bạn không thể xem số dư chính xác, bạn không thể xem kênh LN trực tuyến, bạn không thể thanh toán.
+
+
+Sửa lỗi nhanh: Có một tùy chọn mạnh mẽ để "duy trì" nút Blixt của bạn. Vào Options - Experiments - Chọn "Activate Persistent Mode". Tùy chọn này sẽ khởi động lại Blixt của bạn và sẽ đặt dịch vụ LND ở chế độ liên tục, tức là luôn hoạt động và giữ cho đồng bộ trực tuyến, ngay cả khi bạn chuyển sang ứng dụng khác hoặc chỉ cần đóng Blixt (không phải đóng bắt buộc hoặc tắt tác vụ). Bạn có thể giữ nguyên như vậy cả ngày nếu bạn có kết nối ổn định và cần sử dụng Blixt nhiều lần. Nó sẽ không tiêu tốn quá nhiều pin.
+
+
+### TRƯỜNG HỢP 3 - TÔI MUỐN DI CHUYỂN SANG THIẾT BỊ KHÁC
+
+
+Được rồi, về tình huống này, tôi đã viết hướng dẫn chi tiết trên trang [Câu hỏi thường gặp](https://blixtwallet.github.io/faq#blixt-restore): với 2 tùy chọn, nhanh (hợp tác đóng các kênh trước khi di chuyển) và chậm (buộc đóng các kênh vì thiết bị cũ đã chết).
+
+
+Nhưng tôi muốn nhắc lại ở đây một số khía cạnh quan trọng và thêm một thủ tục "bí mật" mới.
+
+
+LỜI NHẮC NHỞ:
+
+
+
+- Luôn sao lưu trạng thái kênh (SCB) của bạn SAU mỗi lần bạn mở hoặc đóng kênh. Chỉ mất vài giây để thực hiện.
+- Không giữ lại các tệp SCB cũ, để không bị nhầm lẫn và khôi phục chúng. Hoàn toàn vô dụng và có thể kích hoạt quy trình phạt nếu bạn thấy chúng. Luôn sử dụng phiên bản mới nhất của tệp SCB nếu bạn tiến hành khôi phục.
+- Lưu tệp SCB (là văn bản được mã hóa có phần mở rộng .bin) ra khỏi thiết bị của bạn, ở nơi an toàn. Bạn có thể sử dụng [LocalSend](https://github.com/localsend/localsend) để di chuyển tệp này vào PC hoặc thiết bị khác.
+- Lưu seed của Blixt Wallet ở nơi an toàn, ví dụ như trình quản lý mật khẩu ngoại tuyến/USB được mã hóa.
+
+
+Phương pháp bí mật: Cách di chuyển nút Blixt mà không đóng các kênh hiện có. Đối với điều này, bạn sẽ cần đọc kỹ phần trước "Liên hệ thứ ba" trong hướng dẫn này về "Khôi phục Wallet".
+
+
+Quy trình này KHÔNG DÀNH CHO NGƯỜI MỚI BẮT ĐẦU, nó chỉ dành cho người dùng nâng cao! Đó là lý do tại sao nó không được công khai rộng rãi và tôi khuyên bạn chỉ nên thực hiện với sự hỗ trợ từ các nhà phát triển Blixt hoặc bộ phận hỗ trợ của tôi. Vui lòng không bỏ qua lời khuyên này.
+
+
+### TRƯỜNG HỢP 4 - SỬ DỤNG PERFECTS NÀO ĐỂ MỞ KÊNH?
+
+
+Như tôi đã viết trong [Trang hướng dẫn Blixt](https://blixtwallet.github.io/guides) có nhiều cách để mở kênh bằng nút LND di động này. Nhưng có một số khía cạnh quan trọng mà tôi muốn nhắc bạn ở đây:
+
+
+
+- mở với các nút LSP nổi tiếng và với các đối tác được cộng đồng bảo lãnh. [Xem danh sách tại đây](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
+- không mở bằng các nút Tor ngẫu nhiên. Những nút đó vô giá trị và bạn sẽ chỉ gặp vấn đề là không thể thanh toán. Cho dù bạn của bạn "người chạy nút" giỏi đến đâu với một nút Tor tệ hại trong rừng rậm, nó sẽ không bao giờ cung cấp cho bạn các tuyến đường tốt nhất cho một nút riêng tư di động. Bạn không mở kênh với ai đó vì đó là bạn của bạn. Đây không phải là Facebook! Bạn mở kênh vì: các tuyến đường tốt, phí nhỏ, khả dụng.
+- không cần phải mở một đống kênh nhỏ, 2-3 hoặc tối đa là 4, nhưng phải có một lượng Sats tốt. Không mở các kênh nhỏ, chúng hoàn toàn vô dụng. Nhỏ hơn 200k cho một thiết bị di động không có nhiều tác dụng.
+- hãy ghi nhớ các LSP cung cấp các kênh đến và các kênh JIT (đúng lúc). Chúng rất hữu ích vì bạn không cần sử dụng bất kỳ UTXO nào, bạn có thể thanh toán kênh mở bằng số tiền bạn đã có trong các ví LN khác, xếp chồng và chuẩn bị chúng để mở một kênh lớn hơn. Bạn nên sử dụng các kênh JIT này theo hướng có lợi cho mình. [Tôi đã giải thích trong hướng dẫn này](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) nhiều tùy chọn hơn cho các đối tác đối với các nút riêng tư như Blixt. Ngoài ra, [trong hướng dẫn này được đăng trên SN](https://stacker.news/items/679242/r/DarthCoin), tôi đã giải thích cách quản lý tính thanh khoản của các nút di động riêng tư.
+
+
+---
+
+## Phần kết luận
+
+
+Vâng, Blixt còn nhiều tính năng tuyệt vời khác nữa, tôi sẽ cho bạn khám phá từng tính năng một và tận hưởng nhé.
+
+
+Ứng dụng này thực sự bị đánh giá thấp, chủ yếu là vì không được hỗ trợ bởi bất kỳ nguồn tài trợ VC nào, do cộng đồng thúc đẩy, được xây dựng bằng tình yêu và niềm đam mê dành cho Bitcoin và Lightning Network.
+
+
+Nút LN di động này, Blixt là một công cụ rất mạnh mẽ trong tay nhiều người dùng, nếu họ biết cách sử dụng tốt. Hãy tưởng tượng, bạn đang đi khắp thế giới với một nút LN trong túi của mình và không ai biết điều đó.
+
+
+Và chưa kể đến những tính năng phong phú khác đi kèm mà rất ít hoặc không có ứng dụng Wallet nào có thể cung cấp.
+
+
+Trong khi đó, đây là tất cả các liên kết về Bitcoin Lightning Node tuyệt vời này:
+
+
+
+- [Trang web chính thức của Blixt](https://blixtwallet.com/)
+- [Trang Blixt Github](https://github.com/hsjoberg/blixt-Wallet/)
+- [Trang tính năng của Blixt](https://blixtwallet.github.io/features) - giải thích từng tính năng và chức năng.
+- [Trang câu hỏi thường gặp của Blixt](https://blixtwallet.github.io/faq) - Danh sách câu hỏi và trả lời cũng như cách khắc phục sự cố của Blixt
+- [Trang hướng dẫn Blixt](https://blixtwallet.github.io/guides) - bản demo, hướng dẫn bằng video, hướng dẫn bổ sung và các trường hợp sử dụng cho Blixt
+- Tải xuống: [Android Play Store](https://play.google.com/store/apps/details?id=com.blixtwallet) |  [iOS](https://testflight.apple.com/join/EXvGhRzS) |  [Tải xuống trực tiếp APK](https://github.com/hsjoberg/blixt-Wallet/releases)
+- [Nhóm Telegram để được hỗ trợ trực tiếp](https://t.me/blixtwallet)
+- [Twitter](https://twitter.com/BlixtWallet)
+- [Trang gây quỹ cộng đồng Geyser](https://geyser.fund/project/blixt) - hãy quyên góp Sats tùy thích để hỗ trợ dự án
+- [LNURL Chat Blixt](https://chat.blixtwallet.com/) - trò chuyện ẩn danh LN
+- [Bài thuyết trình của Blixt - video quảng cáo](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
+- [Lịch Blixt Girls](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - video quảng cáo (bạn có thể kiểm tra lần đầu sử dụng LN)
+- [Tờ rơi A4 có thể in với các bước đầu tiên sử dụng Blixt, bằng nhiều ngôn ngữ khác nhau](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
+- [Blixt cũng cung cấp bản demo đầy đủ chức năng](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) ngay trên trang web của mình hoặc trên phiên bản web chuyên dụng để có trải nghiệm thử nghiệm đầy đủ trước khi bắt đầu sử dụng trong thế giới thực.
+
+
+---
+**TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM:**
+
+
+*Tôi không được trả tiền hoặc hỗ trợ theo bất kỳ cách nào bởi các nhà phát triển ứng dụng này. Tôi viết hướng dẫn này vì tôi thấy rằng sự quan tâm đến ứng dụng Wallet này đang tăng lên và người dùng mới vẫn chưa hiểu cách bắt đầu với nó. Ngoài ra, để giúp Hampus (nhà phát triển chính) với tài liệu hướng dẫn về cách sử dụng nút Wallet này.*
+
+
+*Tôi không có bất kỳ mối quan tâm nào khác trong việc quảng bá ứng dụng LN này, ngoài việc thúc đẩy việc áp dụng Bitcoin và LN. Đây là cách duy nhất!*
+
+
+---

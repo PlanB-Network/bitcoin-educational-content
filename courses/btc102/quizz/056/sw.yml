@@ -1,11 +1,9 @@
-question: Je, maono ya mwisho ya Bitcoin ni yapi kulingana na sitiari ya barabara kuu ya Bitcoin?
-answer: Itakuwa barabara kuu ya trafiki ya mtandao na kwa 90% ya idadi ya watu duniani.
+question: Ni njia gani inatumika kulinda ufuatiliaji wa On-Chain wa miamala?
+answer: Kwa kutumia mbinu za CoinJoin na PayJoin
 wrong_answers:
-  - Itakuwa nzuri ya anasa kupatikana tu kwa matajiri.
-  - Itakuwa chombo cha shughuli haramu.
-  - Itapitwa na wakati na kubadilishwa na fedha zingine za siri.
+  - Kutumia tena kupokea Address sawa
+  - Ujumuishaji wa mara kwa mara wa UTXO
+  - Kuweka kwenye Wallet iliyohifadhiwa
 explanation: |
-  Sitiari ya barabara kuu ya Bitcoin inawaza Bitcoin kuwa barabara kuu ya
-  trafiki ya mtandao na kwa 90% ya idadi ya watu duniani, na bidhaa na huduma
-  kufikiwa moja kwa moja kwenye barabara hii kuu.
+  Saini na viungo vya malipo husaidia kuboresha faragha ya shughuli za On-Chain.
 reviewed: false

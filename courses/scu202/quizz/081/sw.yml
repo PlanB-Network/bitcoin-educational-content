@@ -1,0 +1,9 @@
+question: Je, kizuizi kikuu cha Telegram ni kipi linapokuja suala la usiri wa ujumbe?
+answer: Ubadilishanaji wa siri pekee ndio unaosimbwa kwa njia fiche kutoka mwanzo hadi mwisho kwa chaguomsingi
+wrong_answers:
+  - Inaweka ada ya usajili isiyojulikana
+  - Haihakikishi uhalisi wa faili zilizopokelewa
+  - Hakuna kiteja huria kinachopatikana
+explanation: |
+  Kwa chaguo-msingi, ujumbe wa Telegramu huhifadhiwa kwenye seva za kampuni, huku gumzo za siri pekee zikifaidika na usimbaji fiche wa mwanzo hadi mwisho.
+reviewed: false

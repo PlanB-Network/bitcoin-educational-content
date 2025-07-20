@@ -1,0 +1,9 @@
+question: Koja su tri osnovna koraka u MAC šemi?
+answer: Generisanje ključa, generisanje oznake, verifikacija
+wrong_answers:
+  - Enkripcija, dekripcija, prenos
+  - Generisanje javnog ključa, šifrovanje privatnog ključa, validacija
+  - Heširanje poruka, šifrovanje oznaka, distribucija oznaka
+explanation: |
+  Šema MAC sastoji se od tri glavna koraka: generisanje tajnog ključa, proizvodnja oznake za poruku i verifikacija da se primljena poruka i njena oznaka podudaraju.
+reviewed: false

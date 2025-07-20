@@ -1,0 +1,11 @@
+question: Koje su tri kanonske funkcije novca?
+answer: Sredstvo očuvanja vrednosti, Sredstvo razmene, Obračunska jedinica.
+wrong_answers:
+  - Sredstvo očuvanja vrednosti, Sredstvo razmene, Sredstvo proizvodnje.
+  - Sredstvo očuvanja vrednosti, Sredstvo proizvodnje, Obračunska jedinica.
+  - Sredstvo razmene, Sredstva za proizvodnju, Obračunska jedinica.
+explanation: |
+  Prema Aristotelu, novac služi tri funkcije: on je
+  sredstvo očuvanja vrednosti, sredstvo razmene i jedinica
+  računa. Danas se funkcija sredstva razmene široko prepoznaje kao glavna, pre ostale dve.
+reviewed: true

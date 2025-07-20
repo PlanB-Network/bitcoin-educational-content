@@ -1,0 +1,13 @@
+question: Koji je primarni cilj kursa Bitcoin pomenutog u poglavlju?
+answer: Primarni cilj kursa je edukacija novih entuzijasta Bitcoin o zdravim ekonomskim principima.
+wrong_answers:
+  - Primarni cilj kursa je da nauči nove entuzijaste Bitcoin kako da kopaju Bitcoin.
+  - Primarni cilj kursa je da nauči nove entuzijaste Bitcoin kako da investiraju u Bitcoin.
+  - Primarni cilj kursa je da nauči nove entuzijaste Bitcoin kako da kreiraju sopstvene kriptovalute.
+explanation: |
+  Kurs ima za cilj da edukuje nove entuzijaste Bitcoin o
+  osnovnim principima ekonomije, posebno onima
+  Austrijske škole ekonomije. Ovo znanje je
+  ključno za razumevanje vrednosti i potencijala
+  Bitcoin kao alternative tradicionalnim monetarnim sistemima.
+reviewed: true

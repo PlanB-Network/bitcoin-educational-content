@@ -1,0 +1,14 @@
+question: Kada preuzimate samostalno čuvanje, šta je prva stvar koju treba da uradite kako biste smanjili rizik od gubitka?
+answer: Napravite rezervnu kopiju vaše Wallet recovery seed fraze
+wrong_answers:
+  - Podelite svoje privatne ključeve sa pouzdanom stranom
+  - Zapišite svoju seed frazu za oporavak i sačuvajte je na svom računaru.
+  - Onemogući dvofaktorsku autentifikaciju (2FA)
+explanation: |
+  Prvo i najvažnije, napravite rezervnu kopiju vašeg Wallet kada preuzimate samostalno čuvanje.
+  Hardverski novčanici dolaze sa seed frazom za oporavak, skupom reči koje 
+  se mogu koristiti za oporavak vaših privatnih ključeva u slučaju da vaš uređaj bude izgubljen ili oštećen.
+  Napravite fizičku kopiju, kao što je metalna [seed ploča](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), ove seed fraze i 
+  čuvajte je na sigurnom mestu. Važno je da ovu seed frazu za oporavak držite sigurnom. 
+  NIKADA je ne delite sa bilo kim.
+reviewed: true

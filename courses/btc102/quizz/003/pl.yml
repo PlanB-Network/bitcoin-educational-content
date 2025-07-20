@@ -1,12 +1,9 @@
-question: Jaka jest powszechna taktyka stosowana przez influencerów lub guru kryptowalut?
-answer: Promowanie niewiarygodnych kryptowalut.
+question: Na czym polega Pump and Dump w przestrzeni kryptowalutowej?
+answer: Manipulowanie aktywami poprzez kampanię sprzedaży w szczytowym momencie
 wrong_answers:
-  - Promowanie aktywów fizycznych.
-  - Promowanie walut fiducjarnych.
-  - Promowanie oprogramowania.
+  - Masowe kupowanie aktywów w celu podtrzymania ich ceny bez sprzedaży
+  - Stabilizacja rynku w długim okresie poprzez transakcje przeciwstawne
+  - Dokonywanie powtarzających się zakupów w celu uzyskania długoterminowej ekspozycji na aktywa
 explanation: |
-  Kryptowalutowi influencerzy lub guru często mają osobiste plany i mogą być zaangażowani w liczne projekty, które starają się promować
-  w liczne projekty, które starają się promować, nawet jeśli nie zawsze leżą one w najlepszym interesie inwestorów
-  najlepszym interesie inwestorów. Ci influencerzy mogą próbować promować niewiarygodne kryptowaluty lub
-  kryptowaluty lub shitcoiny.
+  Ta oszukańcza technika polega na sztucznym zawyżaniu ceny w celu sprzedaży w krytycznym momencie i spowodowania krachu wartości.
 reviewed: false

@@ -4,6 +4,8 @@ description: Setting up and using a wallet on Liana
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/rTId6hfiRm0)
+
 In this tutorial, we'll explain step-by-step how to use the Liana application on a computer. Among other things, you'll learn how to set up an automated succession plan, receive and send bitcoins in normal situations, and retrieve funds from an existing wallet after a given period.
 
 In January 2025, the hardware wallets compatible with Liana were: BitBox02, Blockstream Jade, Blockstream Jade Plus, COLDCARD MK4, COLDCARD Q, Ledger Nano S, Ledger Nano S Plus, Ledger Nano X, Ledger Flex, Specter DIY.

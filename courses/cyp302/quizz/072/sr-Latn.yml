@@ -1,0 +1,9 @@
+question: Zašto se šifrovanje pomeranjem smatra simetričnim šifrovanjem?
+answer: Zato što se isti ključ koristi za šifrovanje i dešifrovanje
+wrong_answers:
+  - Zato što koristi dva ključa, javni i privatni
+  - Jer dešifruje bez korišćenja ključa
+  - Zato što se ključ menja sa svakim šifrovanjem
+explanation: |
+  Šifrovanje pomeranjem smatra se simetričnim šifrovanjem jer koristi isti ključ za šifrovanje i dešifrovanje poruke, čime se obezbeđuje poverljivost između strana koje dele ovaj ključ.
+reviewed: false

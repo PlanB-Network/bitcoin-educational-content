@@ -1,11 +1,9 @@
-question: 沒有 Proof of Work 的 Blockchain 的主要特性是什麼？
-answer: 沒有實際價值
+question: 堆高機主要使用何種投資策略？
+answer: 美元成本平均法
 wrong_answers:
-  - 更安全
-  - 速度更快
-  - 更分散
+  - 日間交易
+  - 套利
+  - 一次付清
 explanation: |
-  本章內容指出，如果沒有 Proof of Work，Blockchain
-  就沒有真正的價值。這是 Bitcoin 有別於其他
-  加密貨幣。
+  DCA 涉及定期投資固定金額，以減少市場波動對投資組合的影響。
 reviewed: false

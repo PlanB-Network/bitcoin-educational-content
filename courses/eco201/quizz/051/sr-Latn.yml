@@ -1,0 +1,10 @@
+question: Koji je jedan od temeljnih aksioma u austrijskoj ekonomiji?
+answer: Jedan od fundamentalnih aksioma je preferencija pozitivnog vremena, koja se zasniva na individualnim izborima dobara ili usluga danas, a ne sutra.
+wrong_answers:
+  - Jedan od fundamentalnih aksioma je proizvoljno postavljanje kamatnih stopa.
+  - Jedan od fundamentalnih aksioma je oslanjanje na empirijske podatke.
+  - Jedan od fundamentalnih aksioma je korišćenje privremenih eksperimenata za potvrdu ili
+explanation: |
+  U austrijskoj ekonomiji, jedan od temeljnih aksioma je pozitivna vremenska
+  preferencija, koja se zasniva na individualnim izborima dobara ili usluga danas, a ne sutra, zbog neizvesnosti u vezi sa budućnošću.
+reviewed: true

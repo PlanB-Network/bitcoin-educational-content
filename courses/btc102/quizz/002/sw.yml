@@ -1,11 +1,9 @@
-question: Ni mfano gani mashuhuri wa Bitcoin Hard Fork?
-answer: Bitcoin Cash (BCH)
+question: Ni tahadhari gani inapaswa kuchukuliwa dhidi ya ulaghai wa michango na bahati nasibu za ulaghai?
+answer: Kamwe usitume pesa kupokea bitcoins
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Kila mara tuma kiasi kidogo ili kujaribu ofa
+  - Wekeza ili kupata faida ya haraka na isiyo na nguvu
+  - Shiriki maelezo ya kibinafsi ili kulinda muamala
 explanation: |
-  Bitcoin imepitia uma kadhaa wa Hard kwa wakati, na kusababisha anuwai
-  matoleo mbadala ya sarafu halisi. Mifano mashuhuri ya mikengeuko hii
-  ni pamoja na Bitcoin Cash (BCH) na Bitcoin Satoshi Vision (BSV).
+  Ombi la malipo ya mapema ni ishara ya kawaida ya ulaghai katika aina hii ya ulaghai.
 reviewed: false

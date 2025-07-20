@@ -1,0 +1,9 @@
+question: Koja je glavna uloga Bitcoin Wallet?
+answer: Upravljajte i osigurajte privatne ključeve
+wrong_answers:
+  - Skladišti korisnikove bitkoine
+  - Osigurajte poverljivost transakcija automatski
+  - generate bitcoina za svakog korisnika
+explanation: |
+  Bitcoin Wallet ne skladišti direktno bitkoine, već upravlja privatnim ključevima neophodnim za otključavanje UTXO-a koji predstavljaju bitkoine.
+reviewed: false

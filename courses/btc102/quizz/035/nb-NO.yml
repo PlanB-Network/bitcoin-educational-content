@@ -1,9 +1,9 @@
-question: Hvem beskrev Bitcoin som en sveitsisk bank i lommen din?
-answer: Barack Obama
+question: Hvilken lagringsløsning anbefales for en hodler?
+answer: A Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - En vaktmestertjeneste
+  - Et papir Wallet
 explanation: |
-  Kapittelet nevner at Barack Obama en gang beskrev Bitcoin som en sveitsisk bank i lommen din.
+  En hodler, som holder bitcoins på lang sikt, bør bruke en Hardware Wallet for å maksimere sikkerheten.
 reviewed: false

@@ -1,11 +1,9 @@
-question: Ni sababu gani kuu kwa nini serikali na benki kuu zinachunguza uwezekano wa kuunda toleo la dijiti la sarafu yao ya fiat?
-answer: Ili kuhakikisha udhibiti na kuzingatia kanuni za mitaa
+question: Je, lengo kuu la mshikaji ni lipi?
+answer: Ili kushikilia bitcoins zao kwa muda mrefu
 wrong_answers:
-  - Ili kushindana na Bitcoin
-  - Ili kutoa ulinzi wa faragha
-  - Kuongeza ufuatiliaji wa watu wengi
+  - Ili kubashiri kwa muda mfupi
+  - Kufanya miamala ya mara kwa mara ya Bitcoin
+  - Ili kuongeza faragha ya miamala yao ya Bitcoin
 explanation: |
-  Maudhui ya sura yanaeleza kuwa wakati miradi hii inadai kushindana
-  na Bitcoin, wanabaki kuwa serikali kuu ili kuhakikisha udhibiti na kuzingatia
-  kanuni za mitaa.
+  Hodler inalenga kuweka bitcoins zao kwa miaka mingi ili kufaidika na ukuaji wa kudhaniwa wa mali.
 reviewed: false

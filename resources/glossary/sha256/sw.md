@@ -1,0 +1,5 @@
+---
+term: SHA256
+---
+
+Kifupi cha "*Secure Hash Algorithm 256 bits*". Ni kazi ya kriptografia ya Hash inayozalisha digest ya 256-bit. Iliyoundwa na *Shirika la Usalama la Kitaifa* (NSA) mwanzoni mwa miaka ya 2000, imekuwa kiwango cha shirikisho cha kuchakata data nyeti. Katika itifaki ya Bitcoin, kitendakazi cha `SHA256` kinapatikana kila mahali. Inatumika kuzuia vichwa vya Hash kama sehemu ya Proof of Work. `SHA256` pia inatumika katika mchakato wa kupata Address inayopokea kutoka kwa ufunguo wa umma. Inatumika pia kwa ujumlishaji wa miamala na mashahidi ndani ya miti ya Merkle kwenye vitalu. `SHA256` inapatikana pia katika kukokotoa alama za vidole muhimu, kukokotoa hesabu fulani za hundi, na katika michakato mingine mingi karibu na Bitcoin. Inapotumika mara mbili mfululizo, inarejelewa kama `HASH256`. Programu hii maradufu ndiyo inayotumiwa sana kwenye Bitcoin. `SHA256` inapotumika pamoja na chaguo za kukokotoa za `RIPEMD160`, inarejelewa kama `HASH160`. Hashing hii maradufu inatumika kwa alama za vidole muhimu na kwa funguo za hashing za umma. Chaguo za kukokotoa `SHA256` ni sehemu ya familia ya SHA 2.

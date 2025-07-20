@@ -1,12 +1,9 @@
-question: Mikä on Bitcoinin pääominaisuus, joka erottaa sen muista kryptovaluutoista?
-answer: Bitcoin on ainoa todella hajautettu, sensuroimaton, vapaa ja vakavasti otettava kryptovaluutta.
+question: Mitä ratkaisua suositellaan edullisten Bitcoin-maksujen suorittamiseen?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin on ainoa kryptovaluutta, jota voidaan louhia.
-  - Bitcoin on ainoa kryptovaluutta, jota voidaan ostaa tai myydä vaihtoalustoilla.
-  - Bitcoin on ainoa kryptovaluutta, jota voidaan säilyttää lompakossa.
+  - Hardware Wallet
+  - Pankkitili
+  - RGB Layer
 explanation: |
-  Luvun sisältö toteaa, että Bitcoin on ainoa todella hajautettu,
-  sensuroimaton, vapaa ja vakavasti otettava kryptovaluutta, mikä oikeuttaa tuhansien
-  tuntien työhön. Tämä on keskeinen ominaisuus, joka erottaa Bitcoinin muista
-  kryptovaluutoista.
+  Lightning mahdollistaa nopeat ja edulliset maksutapahtumat päivittäisissä ostoksissa. Se on ihanteellinen työkalu aktiiviselle käyttäjälle.
 reviewed: false

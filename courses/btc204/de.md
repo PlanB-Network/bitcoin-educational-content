@@ -2060,7 +2060,7 @@ Um einen Coinjoin über Whirlpool zu erstellen, muss die Wallet mehrere separate
 
 ![BTC204](assets/fr/143.webp)
 
-Eine HD-Wallet kann theoretisch bis zu 2^(32/2)` verschiedene Konten ableiten. Das erste Konto, das standardmäßig bei allen Bitcoin-Wallets verwendet wird, entspricht dem Index "0".
+Eine HD-Wallet kann theoretisch bis zu `2^(31)` verschiedene Konten ableiten. Das erste Konto, das standardmäßig bei allen Bitcoin-Wallets verwendet wird, entspricht dem Index "0".
 
 Für Portfolios, die an Whirlpool angepasst sind, werden 4 Konten verwendet, um den Anforderungen des ZeroLink-Prozesses gerecht zu werden:
 
@@ -2525,8 +2525,7 @@ Es wäre jedoch interessant, über Transaktionsstrukturen zu verfügen, die es e
 
 Payjoin ist eine spezielle Bitcoin-Transaktionsstruktur, die die Privatsphäre des Nutzers beim Ausgeben von Geld erhöht, indem sie mit dem Zahlungsempfänger zusammenarbeitet.
 
-LaurentMT bezeichnete diese Methode erstmals 2015 als "*steganografische Transaktionen*", wie aus einem [hier] zugänglichen Dokument hervorgeht (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Die Technik wurde anschließend von Samourai Wallet übernommen, das sie 2018 als erster Kunde mit dem Stowaway-Tool implementierte. Das Konzept des Payjoin findet sich auch in [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) und [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Es werden mehrere Begriffe zur Bezeichnung eines Payjoin verwendet:
-
+Im Jahr 2015 sprach LaurentMT erstmals über diese Methode unter dem Begriff "*steganographic transactions*", wie in einem Dokument [hier](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) einsehbar. Diese Technik wurde später von der Wallet Samourai übernommen, die 2018 als erster Client das Verfahren mit dem Tool Stowaway implementierte. Das Konzept von Payjoin findet sich auch im [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) und [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Für Payjoin werden mehrere Begriffe verwendet:
 
 - Payjoin ;
 - Blinder Passagier;
@@ -2950,13 +2949,13 @@ Das Ziel von BIP156 ist es, dieses Problem zu lösen. Zu diesem Zweck führt es 
 
 ![BTC204](assets/fr/205.webp)
 
-Die Transaktion wird dann in der "Kapitulationsphase" an das gesamte Netz verteilt.
+Die Transaktion wird anschließend im „Fluff“-Stadium an das gesamte Netzwerk gesendet.
 
 ![BTC204](assets/fr/206.webp)
 
-Der Stängel und der Blütenkopf verweisen auf das Verhalten bei der Ausbreitung der Transaktion im Netz, das der Form einer Pusteblume ähnelt.
+Der Stiel und die „Fluff“-Phase beziehen sich auf das Verhalten der Transaktionsverbreitung im Netzwerk, das an die Form und Entwicklung eines Löwenzahns („Dandelion“ auf Englisch) erinnert.
 
-Somit können die Spionageknoten die Transaktion möglicherweise zu dem Knoten zurückverfolgen, der die Kapitulationsphase (die Massenübertragung) eingeleitet hat, aber dieser Knoten ist nicht derjenige, der die Transaktion zuerst übertragen hat, da er sie vom letzten Knoten im Stamm erhalten hat. Wenn die Spionageknoten den Stamm nicht zurückverfolgen können, können sie auch den Ursprungsknoten nicht identifizieren.
+Spionage-Knoten können die Transaktion möglicherweise bis zu dem Knoten zurückverfolgen, der die „Fluff“-Phase (die Massenverbreitung) gestartet hat, aber dieser Knoten ist nicht der ursprüngliche Sender der Transaktion, da er sie vom letzten Knoten des Stiels empfangen hat. Wenn die Spionage-Knoten den Stiel nicht zurückverfolgen können, können sie auch den Ursprungsknoten nicht identifizieren.
 
 ![BTC204](assets/fr/207.webp)
 

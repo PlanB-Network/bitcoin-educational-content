@@ -1,0 +1,9 @@
+question: Lỗi bảo mật lớn nào có thể gây ra hiệu ứng domino khi rò rỉ dữ liệu?
+answer: Sử dụng lại cùng một mật khẩu trên nhiều trang web
+wrong_answers:
+  - Sử dụng VPN công cộng
+  - Xóa lịch sử duyệt web quá thường xuyên
+  - Điều hướng ở chế độ văn bản
+explanation: |
+  Việc sử dụng lại mật khẩu trên nhiều trang web khác nhau cho phép kẻ tấn công, trong trường hợp dịch vụ bị xâm phạm, có thể truy cập vào các tài khoản khác bằng cùng một mật khẩu.
+reviewed: false

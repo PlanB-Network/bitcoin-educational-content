@@ -393,49 +393,28 @@ Việc tạo ra bitcoin mới là kết quả của quá trình khai thác. Nói
 
 Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "halving"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
 
-| Số lượng Halving | Chiều cao khối | Phần thưởng BTC sau khi Halving | Ước tính BTC lưu hành sau khi Halving |
-
+| Halving Number | Chiều cao khối |Phần thưởng BTC sau khi Halving  | Ước tính BTC lưu hành sau khi Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 | 210.000 | 25 BTC | 10.500.000 BTC |
-
-| 2 | 420.000 | 12,5 BTC | 15.750.000 BTC |
-
-| 3 | 630.000 | 6,25 BTC | 18.375.000 BTC |
-
-| 4 | 840.000 | 3,125 BTC | 19.687.500 BTC |
-
-| 5 | 1.050.000 | 1,5625 BTC | 20.343.750 BTC |
-
-| 6 | 1.260.000 | 0,78125 BTC | 20.671.875 BTC |
-
-| 7 | 1.470.000 | 0,390625 BTC | 20.835.937,5 BTC |
-
-| 8 | 1.680.000 | 0,1953125 BTC | 20.917.968,75 BTC |
-
-| 9 | 1.890.000 | 0,09765625 BTC | 20.958.984,375 BTC |
-
-| 10 | 2.100.000 | 0,048828125 BTC | 20.979.492,188 BTC |
-
-| 11 | 2.310.000 | 0,0244140625 BTC | 20.989.746,094 BTC |
-
-| 12 | 2.520.000 | 0,01220703125 BTC | 20.994.873,047 BTC |
-
-| 13 | 2.730.000 | 0,006103515625 BTC | 20.997.436,523 BTC |
-
-| 14 | 2.940.000 | 0,0030517578125 BTC | 20.998.718,262 BTC |
-
-| 15 | 3.150.000 | 0,00152587890625 BTC | 20.999.359,131 BTC |
-
-| 16 | 3.360.000 | 0,000762939453125 BTC | 20.999.679,566 BTC |
-
-| 17 | 3.570.000 | 0,0003814697265625 BTC | 20.999.839,783 BTC |
-
-| 18 | 3.780.000 | 0,00019073486328125 BTC | 20.999.919,892 BTC |
-
-| 19 | 3.990.000 | 0,000095367431640625 BTC | 20.999.959,946 BTC |
-
-| 20 | 4.200.000 | 0,0000476837158203125 BTC | 20.999.979,973 BTC |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [chương về khai thác](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
@@ -1093,7 +1072,9 @@ Ngày nay, Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng 
 
 Bitcoin có thể được xem là công cụ tạo ra nền kinh tế song song với tiền pháp định, vì có thể bán hàng hóa hoặc dịch vụ và được thanh toán bằng bitcoin. Giao dịch có thể được thực hiện trực tiếp bằng Bitcoin, không cần phải thông qua nền tảng trao đổi, mà chỉ cần chuyển từ ví Bitcoin này sang ví Bitcoin khác.
 
-Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu vực trên thế giới, như ở El Salvador, nơi Bitcoin đã là phương tiện thanh toán hợp pháp kể từ năm 2021. Xung quanh chúng ta luôn có những cá nhân, doanh nghiệp và tổ chức đã chấp nhận Bitcoin làm phương tiện thanh toán cho sản phẩm hoặc dịch vụ của họ.
+Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu vực trên thế giới, như ở El Salvador, nơi Bitcoin trở thành tiền tệ hợp pháp vào năm 2021. Thật không may, vào tháng 1 năm 2025, quốc hội đã thông qua một luật mới tước bỏ danh hiệu "tiền tệ hợp pháp" của Bitcoin, được cho là sau khi nhận được áp lực từ Quỹ Tiền tệ Quốc tế. Theo luật mới, mọi người không còn bị buộc phải chấp nhận Bitcoin trong doanh nghiệp của họ nữa và không thể thanh toán thuế bằng Bitcoin. Việc chấp nhận vẫn là tự nguyện.
+
+Tuy nhiên, ở El Salvador và ở những nơi khác trên thế giới, ngày càng có nhiều cá nhân, doanh nghiệp và tổ chức chấp nhận Bitcoin như một phương tiện thanh toán cho sản phẩm hoặc dịch vụ của họ.
 
 ![image](assets/en/72.webp)
 
@@ -1176,7 +1157,7 @@ Chiến lược này liên quan đến việc mua định kỳ, nghĩa là mua m
 
 Một [UTXO]((https://planb.network/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
 
 - Mua tự phát
 

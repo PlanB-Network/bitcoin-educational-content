@@ -1,0 +1,11 @@
+question: Koje je glavno ograničenje klasičnih tabela hiperinflacije?
+answer: Oni isključuju određene istorijske periode visoke inflacije zbog strogih kriterijuma klasifikacije
+wrong_answers:
+  - Oni uključuju previše epizoda inflacije koje se ne kvalifikuju kao hiperinflacija
+  - Oni su zastareli i neprimenljivi na moderne ekonomije
+  - Oni ne uzimaju u obzir uticaj inflacije na ekonomiju
+explanation: |
+  Klasične tabele hiperinflacije, kao što je Hanke-Krus tabela, često
+  isključuju određene istorijske periode visoke inflacije zbog strogih kriterijuma
+  klasifikacije, kao što je prag od 50% mesečne inflacije koji je propisan Kaganovom definicijom.
+reviewed: false

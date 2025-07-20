@@ -1,0 +1,19 @@
+question: Šta razlikuje Bitcoin od tradicionalnih valuta koje kontrolišu centralne banke ili vlade?
+answer: Svi oni
+wrong_answers:
+  - Bitcoin zahteva saradnju između rudara, čvorova i programera
+  - Bitcoin omogućava svakome da učestvuje u mreži i obavlja ključne uloge
+  - Bitcoin se oslanja na decentralizovani sistem konsenzusa
+explanation: |
+  Ono što razlikuje Bitcoin od tradicionalnih fiat valuta je to što je to 
+  zajednički napor između tri ključne uloge i zajednice.
+  Čvorovi osiguravaju integritet i sigurnost mreže služeći kao čuvari.
+  Rudari su odgovorni za obradu transakcija i održavanje Blockchain.
+  Programeri su visoko kvalifikovani članovi Bitcoin zajednice koji rade zajedno 
+  na održavanju i poboljšanju softvera koji pokreće mrežu.
+  Zajednica, kroz korišćenje Bitcoin, je ono što mu daje vrednost.
+  Svaka od ovih uloga je ključna za funkcionalnost i uspeh Bitcoin kao 
+  digitalne valute. Poveravanjem ovih ključnih zadataka ključnim igračima, Bitcoin može 
+  funkcionisati kao decentralizovan, siguran, transparentan i odgovoran medij Exchange za 
+  sve korisnike, čineći ga značajno drugačijim od centralizovanih valuta koje danas koristimo.
+reviewed: true

@@ -1,0 +1,10 @@
+title: "Budowanie Bitcoin w Rust"
+publication_year: 2024
+cover: cover_en.webp
+original: true
+description: |
+  "Budowanie Bitcoin w Rust" autorstwa Lukáša Hozdy to przystępny przewodnik dla osób
+  zainteresowanych zarówno językiem programowania Rust, jak i technologią Bitcoin.
+  Zaprojektowana dla studentów i profesjonalistów IT, książka ta prowadzi czytelników przez proces
+  przez proces zrozumienia podstawowych koncepcji Bitcoin, jednocześnie ucząc
+  jednocześnie ucząc ich tworzenia projektów w Rust.

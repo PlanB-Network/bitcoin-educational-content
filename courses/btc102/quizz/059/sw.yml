@@ -1,10 +1,9 @@
-question: Cold Wallet ni nini katika muktadha wa Bitcoin?
-answer: Wallet ya kuhifadhi kiasi kikubwa cha Bitcoin nje ya mtandao
+question: Je, lengo kuu la bitcoiner ya paranoid ni nini?
+answer: Ili kulinda usiri wao
 wrong_answers:
-  - Wallet ambayo inatumika kwa shughuli katika hali ya hewa ya Cold
-  - Wallet ambayo hutumika kuhifadhi kiasi kidogo cha Bitcoin
-  - Wallet ambayo hutumika kuhifadhi Bitcoin kwa muda mfupi
+  - Ili kukusanya satoshis haraka
+  - Ili kuongeza faida ya biashara
+  - Ili kushikilia bitcoins zao kwa muda mrefu
 explanation: |
-  Cold Wallet ni Wallet ya kuhifadhi kiasi kikubwa cha Bitcoin nje ya mtandao.
-  Inachukuliwa kuwa salama zaidi kuliko Hot Wallet kwani haiathiriwi sana na udukuzi.
+  Bitcoiner ya mkanganyiko kimsingi inatafuta kuzuia ufuatiliaji wowote wa miamala na utambulisho wao.
 reviewed: false

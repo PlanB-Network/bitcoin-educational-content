@@ -1,11 +1,9 @@
-question: Jaki jest główny powód utraty bitcoinów według rozdziału?
-answer: Słabe zarządzanie bezpieczeństwem online
+question: Co oznacza pojęcie samoopieki w świecie Bitcoin?
+answer: Samodzielne przechowywanie kluczy prywatnych
 wrong_answers:
-  - Oszustwa związane z kryptowalutami
-  - Oszustwa finansowe
-  - Awaria komputera
+  - Powierzenie kluczy wyspecjalizowanej platformie Exchange
+  - Powierzenie kluczy bankowi inwestycyjnemu
+  - Samodzielne przechowywanie kluczy publicznych
 explanation: |
-  W rozdziale wspomniano, że oprócz oszustw związanych z kryptowalutami i finansami
-  
-  oszustw finansowych, głównym powodem utraty bitcoinów jest złe zarządzanie bezpieczeństwem online"
+  Self-custody zapewnia, że użytkownik zachowuje pełną kontrolę nad swoimi bitcoinami za pomocą własnych kluczy prywatnych.
 reviewed: false

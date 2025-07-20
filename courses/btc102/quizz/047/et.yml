@@ -1,8 +1,9 @@
-question: Mis on rahakott Bitcoini kontekstis?
-answer: Digitaalne seif sinu bitcoinide jaoks
+question: Millist seadet soovitatakse pikaajaliste kogutud vahendite tagamiseks?
+answer: Hardware Wallet
 wrong_answers:
-  - Füüsiline seade bitcoinide hoiustamiseks
-  - Tarkvara bitcoinide kaevandamiseks
-  - Platvorm bitcoinide ostuks ja müügiks
+  - Hot Wallet
+  - Välk Wallet
+  - Exchange platvorm
 explanation: |
-  Peatüki sisu selgitab, et bitcoine hoitakse nn rahakotis, mis on digitaalne seif sinu raha jaoks. Juurdepääsu sellele omab ainult võtme omanik.
+  Hardware Wallet salvestab privaatseid võtmeid võrguühenduseta, pakkudes pikaajaliselt suuremat turvalisust märkimisväärsete summade jaoks.
+reviewed: false

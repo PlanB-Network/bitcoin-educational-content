@@ -1,0 +1,9 @@
+question: U koji digitalni valutni sistem je bio zainteresovan Google inženjer Mike Hearn pre nego što je otkrio Bitcoin?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Bilo je na Google Grupi projekta Ryana Fuggera da je prvi put čuo za Bitcoin u aprilu 2009. Odmah je kontaktirao Satoshi da postavi pitanja.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Koji je glavni rizik ostavljanja svojih bitkoina na Exchange platformi?
+answer: Platforma može biti hakovana, zaplenjena, bankrotirati ili jednostavno nestati sa vašim novcem.
+wrong_answers:
+  - Cena Bitcoin može iznenada pasti
+  - Platforma može povećati svoje naknade
+  - Platforma može ograničiti broj bitkoina koje možete kupiti ili prodati.
+explanation: |
+  Sadržaj poglavlja upozorava da Exchange platforme predstavljaju značajne
+  rizike i treba ih izbegavati što je više moguće. Mogu biti hakovane, zaplenjene, bankrotirati ili jednostavno nestati sa vašim novcem.
+reviewed: false

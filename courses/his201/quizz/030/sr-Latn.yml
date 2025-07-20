@@ -1,0 +1,9 @@
+question: Koji je datum rođenja naveo Satoshi Nakamoto na forumu P2P Foundation?
+answer: 5. april 1975.
+wrong_answers:
+  - 3. april 1973.
+  - 5. april 1973.
+  - 3. april 1975.
+explanation: |
+  Ovaj složeni datum odnosi se na zabranu američkim građanima da poseduju zlato između 1933. i 1975: 5. april je dan kada je ova zabrana uvedena 1933. godine (Izvršna naredba 6102), a 1975. godina je kada je ukinuta (Javni zakon 93-373).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk Android-onderdeel blijft volledig open source en controleerbaar door de gemeenschap?
+answer: AOSP
+wrong_answers:
+  - Google mobiele services
+  - De Play Store
+  - De iOSP
+explanation: |
+  Alleen de AOSP-basis van Android is gratis. De veelgebruikte Google Mobile Services zijn propriëtair en oncontroleerbaar.
+reviewed: false

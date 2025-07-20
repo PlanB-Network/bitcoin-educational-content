@@ -1,0 +1,12 @@
+question: Koji je rizik deljenja javnog ključa Bitkoin novčanika?
+answer: Gubljenje privatnosti.
+wrong_answers:
+  - Uništavanje Bitkoin novčanika.
+  - Gubljenje Bitkoina.
+  - Hakovanje Bitkoin novčanika.
+explanation: |
+  Deljenje javnog ključa uključuje rizike po privatnost, ali ne i
+  po sigurnost. To je zato što se javni ključ koristi za
+  generisanje Bitkoin adrese i tako prima novac, ali ne
+  predstavlja vlasništvo Bitkoina.
+reviewed: true

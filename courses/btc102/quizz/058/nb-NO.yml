@@ -1,11 +1,9 @@
-question: Hva betyr det hvis du ikke har den private nøkkelen til din Bitcoin-lommebok?
-answer: En tredjepart er ansvarlig for sikkerheten til dine bitcoins
+question: Hvilken Cold-lagringsløsning anbefales for den paranoide brukeren?
+answer: Luftforseglet eller DIY Hardware Wallet
 wrong_answers:
-  - Du har mistet alle dine bitcoins
-  - Du kan ikke lenger gjøre transaksjoner med dine bitcoins
-  - Dine bitcoins blir automatisk konvertert til en annen kryptovaluta
+  - Mobil Hot Wallet
+  - Vaktmestertjeneste på en Exchange-plattform
+  - Hardware Wallet med lukket kildekode for generelle formål
 explanation: |
-  Hvis du ikke har den private nøkkelen til din Bitcoin-lommebok, betyr det
-  at en tredjepart er ansvarlig for sikkerheten til dine bitcoins. De er underlagt
-  de samme risikoene som børsplattformer, som hacking, beslagleggelse, reguleringer eller
-  konkurs.
+  Den paranoide brukeren foretrekker offline-lagring med åpen kildekode-løsninger for å minimere risikoen for eksponering.
+reviewed: false

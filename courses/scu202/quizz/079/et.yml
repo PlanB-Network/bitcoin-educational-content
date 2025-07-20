@@ -1,0 +1,9 @@
+question: Milline on uuendamata nutitelefoni peamine risk?
+answer: See muutub haavatavaks teadaolevate haavatavuste suhtes
+wrong_answers:
+  - See kasutab rohkem aku energiat
+  - Ta kaotab Wi-Fi ühenduse
+  - See muutub tundlikumaks andmepüügi suhtes
+explanation: |
+  Uuendamata nutitelefon on avatud avalikult parandatud haavatavustele, mida ründajad võivad kergesti ära kasutada.
+reviewed: false

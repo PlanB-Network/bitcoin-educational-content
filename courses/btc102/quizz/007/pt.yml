@@ -1,9 +1,9 @@
-question: Qual é um golpe comum relacionado a doações online no setor de criptomoedas?
-answer: Ofertas que afirmam dobrar ou multiplicar os bitcoins que você envia.
+question: O que significa a regra 3-2-1 em termos de cópia de segurança dos dados?
+answer: 3 cópias em 2 suportes diferentes, sendo 1 armazenada fora do local
 wrong_answers:
-  - Ofertas que afirmam dobrar ou multiplicar seus bens físicos.
-  - Ofertas que afirmam dobrar ou multiplicar sua moeda fiduciária.
-  - Ofertas que afirmam dobrar ou multiplicar seus produtos de software.
+  - 3 cópias em 2 suportes online e 1 dispositivo físico
+  - 3 suportes com 2 cópias, uma das quais noutro local
+  - 3 cópias, 2 das quais encriptadas e 1 armazenada fora do local
 explanation: |
-  Um exemplo clássico desse tipo de golpe é uma oferta que afirma dobrar ou multiplicar os bitcoins que você envia. É importante entender que não há uma solução mágica para ficar instantaneamente rico.
+  Esta regra recomenda a existência de 3 cópias de dados em 2 tipos diferentes de suportes, com 1 cópia armazenada fora do local para maior resiliência.
 reviewed: false

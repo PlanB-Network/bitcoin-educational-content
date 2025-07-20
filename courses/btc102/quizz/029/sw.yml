@@ -1,11 +1,9 @@
-question: Je, kuna umuhimu gani wa uhaba wa Bitcoin?
-answer: Kutakuwa na bitcoins milioni 21 tu duniani na kamwe zaidi
+question: Ni mchezaji gani mkuu anayebuni ASICs kwa Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - Thamani ya Bitcoin itaongezeka kila wakati
-  - Bitcoin ni ngumu kuchimba
-  - Shughuli za Bitcoin ni chache kwa idadi
+  - Trezor
+  - Ledger
+  - Foundry USA
 explanation: |
-  Uhaba wa Bitcoin unarejelea ukweli kwamba kutakuwa na 21 tu
-  bitcoins milioni. Tabia hii, sawa na dhahabu, inazuia dilution ya
-  Thamani ya Bitcoin kupitia uchapishaji wa pesa nyingi.
+  Bitmain ni mmoja wa watengenezaji wakuu wa vifaa maalum vya Bitcoin Mining.
 reviewed: false

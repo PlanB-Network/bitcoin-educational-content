@@ -1,0 +1,9 @@
+question: ¿Qué protocolo asigna dinámicamente una IP Address local a los dispositivos conectados a una red?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP asigna automáticamente una IP Address a cada nuevo dispositivo conectado a la red local.
+reviewed: false

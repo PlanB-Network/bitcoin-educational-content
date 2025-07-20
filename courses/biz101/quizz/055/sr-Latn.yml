@@ -1,0 +1,9 @@
+question: Koji je glavni cilj specijalizovanih Bitcoin računovodstvenih alata?
+answer: Da pojednostavimo automatsko prikupljanje i obradu podataka vezanih za Bitcoin
+wrong_answers:
+  - Da bi se poboljšala sigurnost privatnih ključeva Bitcoin
+  - Da bi se olakšala direktna trgovina Bitcoin na decentralizovanim berzama za preduzeća
+  - Da postavite PoS sistem za prihvatanje Bitcoin uplata
+explanation: |
+  Ovi alati su dizajnirani da automatizuju prikupljanje podataka, konverziju formata, obračun poreza i kategorizaciju transakcija.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Tầm nhìn cuối cùng cho Bitcoin theo ẩn dụ đại lộ Bitcoin là gì?
-
-answer: Nó sẽ trở thành một đại lộ cho lưu lượng internet và cho 90% dân số thế giới.
-
+question: Phương pháp nào được sử dụng để bảo vệ khả năng truy xuất nguồn gốc giao dịch On-Chain?
+answer: Sử dụng kỹ thuật CoinJoin và PayJoin
 wrong_answers:
-  - Nó sẽ trở thành một hàng hóa xa xỉ chỉ dành cho người giàu có.
-  - Nó sẽ trở thành công cụ cho các hoạt động bất hợp pháp.
-  - Nó sẽ trở nên lỗi thời và được thay thế bởi các loại tiền mã hóa khác.
-
-explanation:
-  Ẩn dụ đại lộ Bitcoin mường tượng Bitcoin sẽ trở thành một đại lộ cho lưu lượng internet và cho 90% dân số thế giới, với hàng hóa và dịch vụ trực tiếp có thể truy cập trên con đại lộ này.
+  - Tái sử dụng cùng một Address nhận
+  - Thường xuyên hợp nhất UTXO
+  - Gửi vào tài khoản lưu ký Wallet
+explanation: |
+  Coinjoin và payjoin giúp cải thiện tính riêng tư của hoạt động On-Chain.
+reviewed: false

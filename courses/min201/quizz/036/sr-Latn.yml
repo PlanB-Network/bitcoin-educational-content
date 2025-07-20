@@ -1,0 +1,9 @@
+question: Kakva je veza između troškova proizvodnje Bitcoin i njegove tržišne cene?
+answer: Trošak Bitcoin mogao bi biti općenito proporcionalan njegovoj ceni.
+wrong_answers:
+  - Cena Bitcoin je obrnuto proporcionalna njegovoj ceni.
+  - Cena Bitcoin je fiksna, unutar određenog odnosa, prema njegovoj ceni.
+  - Cena Bitcoin je uvek viša od njegove cene
+explanation: |
+  Trošak Bitcoin, koji je povezan sa električnom energijom potrebnom za rad Mining mašina, generalno može biti proporcionalan njegovoj ceni. Ovaj odnos pruža bolje razumevanje fluktuacija cena i budućih perspektiva.
+reviewed: true

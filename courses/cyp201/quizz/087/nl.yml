@@ -1,0 +1,9 @@
+question: Wat is de unieke eigenschap van SegWit v1-adressen (P2TR) in vergelijking met SegWit v0-adressen?
+answer: Ze gebruiken direct de ruwe publieke sleutel in de Address.
+wrong_answers:
+  - Ze zijn gecodeerd in base58check.
+  - Ze vereisen twee handtekeningen om geldig te zijn.
+  - Ze gebruiken de publieke sleutel Hash in de Address.
+explanation: |
+  SegWit v1 (P2TR) adressen gebruiken geen Hash van de openbare sleutel, maar direct de Taproot openbare sleutel.
+reviewed: false

@@ -40,7 +40,7 @@ Dieses Training ist eine gemeinsame Anstrengung von drei unserer Professoren:
 
 - Renaud Lifchitz, Experte für Cybersicherheit
 - Théo Pantamis, Doktor der angewandten Mathematik
-- Rogzy, CEO von DécouvreBitcoin
+- Rogzy, Mitbegründer des Plan ₿ Network
 
 Ihre digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und sich zu schützen.
 Dans dieser Schulung streben wir nicht danach, Sie zu Experten zu machen, anonym oder unangreifbar, das ist unmöglich. Stattdessen bieten wir Ihnen einige einfache und zugängliche Lösungen an, um Ihre Online-Gewohnheiten zu ändern und die Kontrolle über Ihre digitale Souveränität zurückzugewinnen.
@@ -416,18 +416,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Einrichtung eines Back-ups
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Das Schützen Ihrer persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt Ihnen, wie Sie eine effektive Backup-Strategie mit Proton Drive einrichten. Erfahren Sie, wie Sie diese sichere Cloud-Lösung nutzen, um die 3-2-1-Methode anzuwenden: drei Kopien Ihrer Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb des Standorts ist. So gewährleisten Sie die Zugänglichkeit und Sicherheit Ihrer sensiblen Dateien:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Und um Ihre auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich Ihnen auch, wie Sie diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln können:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Browserwechsel & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -443,6 +431,18 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 Erfahren Sie außerdem, wie Sie den Tor Browser verwenden, einen speziell entwickelten Browser zum Schutz Ihrer Online-Privatsphäre:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Einrichtung eines Back-ups
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Das Schützen Ihrer persönlichen Dateien ist ebenfalls ein wesentlicher Punkt. Dieses Tutorial zeigt Ihnen, wie Sie eine effektive Backup-Strategie mit Proton Drive einrichten. Erfahren Sie, wie Sie diese sichere Cloud-Lösung nutzen, um die 3-2-1-Methode anzuwenden: drei Kopien Ihrer Daten auf zwei verschiedenen Medien, von denen eine Kopie außerhalb des Standorts ist. So gewährleisten Sie die Zugänglichkeit und Sicherheit Ihrer sensiblen Dateien:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Und um Ihre auf Wechseldatenträgern wie einem USB-Stick oder einer externen Festplatte gespeicherten Dateien zu sichern, zeige ich Ihnen auch, wie Sie diese Medien einfach mit VeraCrypt verschlüsseln und entschlüsseln können:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Gehen Sie weiter
 
@@ -489,7 +489,7 @@ Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um e
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 
-Im Schulungsmodul "Sicherheit 101" von Découvre Bitcoin an der Akademie haben wir die Bedeutung von Passwortmanagern behandelt. Drei Dimensionen sind dabei wesentlich zu beachten: die Erstellung, Aktualisierung und Implementierung von Passwörtern auf Websites.
+Es gibt drei wichtige Dimensionen, die man berücksichtigen sollte, wenn man über Passwortmanager spricht: die Erstellung, Aktualisierung und Implementierung von Passwörtern auf Websites.
 
 Es wird im Allgemeinen davon abgeraten, Browsererweiterungen zur automatischen Passworteingabe zu verwenden. Diese Tools können den Benutzer anfälliger für Phishing-Angriffe machen. Renaud, ein anerkannter Experte für Cybersicherheit, bevorzugt eine manuelle Verwaltung mit KeePass, was eine manuelle Kopier- und Einfügeaktion des Passworts bedeutet. Erweiterungen neigen dazu, die Angriffsfläche zu vergrößern, können die Leistung des Browsers verlangsamen und stellen daher ein nicht zu vernachlässigendes Risiko dar. Daher wird empfohlen, den Einsatz von Erweiterungen im Browser auf ein Minimum zu beschränken.
 
@@ -516,7 +516,7 @@ Alternativen zu aufdringlicher Werbung sind unter anderem [Google DNS](https://d
 
 Weitere Schlüsselüberlegungen
 
-Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
+Es ist auch erwähnenswert, dass es ein System namens "Lightning authentication" gibt. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
 # Abschluss
 

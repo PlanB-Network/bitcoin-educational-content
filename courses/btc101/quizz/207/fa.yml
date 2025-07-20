@@ -1,0 +1,8 @@
+question: یکی از خطرات احتمالی باقی گذاشتن Bitcoin بر روی پلتفرم Exchange چیست؟
+answer: خطرات هک و مسدود شدن وجوه.
+wrong_answers:
+  - خطر افزایش قیمت Bitcoin توسط پلتفرم.
+  - خطر کنترل پلتفرم Supply توسط Bitcoin.
+  - خطر پیشی گرفتن قیمت یک ارز دیجیتال از Bitcoin.
+explanation: >-
+reviewed: true

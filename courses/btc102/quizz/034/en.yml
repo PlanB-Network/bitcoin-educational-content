@@ -1,11 +1,9 @@
-question: What is the limit of bitcoins that will ever be?
-answer: 21 million
+question: Which second-layer protocol enables near-instant payments?
+answer: Lightning Network
 wrong_answers:
-  - 100 million
-  - 1 billion
-  - No limit
+  - Sidechains
+  - RGB
+  - Bitcoin Core
 explanation: |
-  The chapter states that there will never be more than 21 million bitcoins.
-  This limit was established in the Bitcoin protocol by Satoshi and cannot be changed
-  today.
+  The Lightning Network enables fast and low-cost transactions through off-chain operations outside the Bitcoin blockchain.
 reviewed: false

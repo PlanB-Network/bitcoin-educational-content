@@ -1,10 +1,9 @@
-question: Mikä on yleinen huijaus liittyen online-lahjoituksiin kryptoalalla?
-answer: Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa lähettämäsi bitcoinit.
+question: Mitä 3-2-1-sääntö tarkoittaa tietojen varmuuskopioinnin kannalta?
+answer: 3 kappaletta kahdella eri tallennusvälineellä, joista yksi tallennetaan muualla kuin toimipaikassa
 wrong_answers:
-  - Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa fyysiset tavarasi.
-  - Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa fiat-valuuttasi.
-  - Tarjoukset, jotka väittävät kaksinkertaistavansa tai moninkertaistavansa ohjelmistotuotteesi.
+  - 3 kappaletta kahdella verkkovälineellä ja yhdellä fyysisellä laitteella
+  - 3 tallennusvälinettä ja 2 kopiota, joista toinen on muualla kuin toimipaikassa
+  - 3 kopiota, joista 2 on salattu ja 1 säilytetään muualla kuin toimipaikassa
 explanation: |
-  Klassinen esimerkki tämän tyyppisestä huijauksesta on tarjous, joka väittää kaksinkertaistavansa
-  tai moninkertaistavansa lähettämäsi bitcoinit. On tärkeää ymmärtää, että oikotietä rikastumiseen ei ole olemassa.
+  Tässä säännössä suositellaan, että tiedoista on kolme kopiota kahdella erityyppisellä tietovälineellä, ja yksi kopio on tallennettu muualle, jotta se olisi varmempi.
 reviewed: false

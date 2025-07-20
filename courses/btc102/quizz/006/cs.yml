@@ -1,8 +1,9 @@
-question: Jaký je běžný podvod v oblasti finančních investic?
-answer: Pyramidové prodejní systémy.
+question: Jaká je hlavní výhoda používání správce hesel?
+answer: Ukládá a generuje složitá hesla
 wrong_answers:
-  - Prodej fyzického zboží.
-  - Prodej softwarových produktů.
-  - Prodej fiat měny.
+  - Poskytuje nápovědy k zapamatování hesel
+  - Opakovaně používá stejná hesla k různým online účtům
+  - Nahrazuje potřebu antivirového softwaru
 explanation: |
-  V oblasti finančních investic se jako nelegální modely vymykají pyramidové prodejní systémy a Ponziho schémata. Fungují tak, že používají peníze nových investorů k vyplacení starších účastníků.
+  Správce hesel vytváří silná hesla, bezpečně je ukládá a umožňuje jejich snadné vyhledání bez nutnosti pamatovat si je.
+reviewed: false

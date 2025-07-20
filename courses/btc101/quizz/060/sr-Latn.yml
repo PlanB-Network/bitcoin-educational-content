@@ -1,0 +1,9 @@
+question: Koji je proces koji verifikuje transakcije na Bitkoin mreži?
+answer: Rudarenje
+wrong_answers:
+  - Kopanje
+  - Žetva
+  - Poljoprivreda
+explanation: |
+  Proces koji verifikuje transakcije na Bitkoin mreži naziva se Rudarenje. Rudari obavljaju kriptografski zadatak i nagrađuju se izdavanjem novih bitkoina.
+reviewed: true

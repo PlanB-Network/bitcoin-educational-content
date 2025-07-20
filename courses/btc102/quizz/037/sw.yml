@@ -1,12 +1,9 @@
-question: Bitcoin ni nini kulingana na harakati ya cyberpunk?
-answer: Sawa ya kielektroniki ya pesa taslimu
+question: Ni nini kinapaswa kuepukwa kabisa ili kuhakikisha usalama wa bitcoins zako?
+answer: Kuweka bitcoins zako kwenye jukwaa la Exchange
 wrong_answers:
-  - Aina ya dhahabu ya dijiti
-  - Aina mpya ya kadi ya mkopo
-  - Aina ya cryptocurrency
+  - Kwa kutumia chanzo-wazi Hardware Wallet
+  - Kutumia Hot Wallet kwa shughuli za kila siku
+  - Njia anuwai za kuhifadhi
 explanation: |
-  Sura hiyo inataja kwamba kutoka kwa mtazamo wa Cyberpunk, Bitcoin inapinga
-  jamii isiyo na pesa. Inaruhusu kuunda faragha kamili na bila mpatanishi
-  shughuli za kifedha za kidijitali. Kwa harakati ya cyberpunk, Bitcoin ni ya kielektroniki
-  sawa na pesa taslimu.
+  Kanuni "Sio funguo zako, si bitcoins zako" inaonyesha umuhimu wa kushikilia funguo zako za kibinafsi. Kwenye jukwaa la Exchange, bitcoins zako zinakabiliwa na hatari zisizo za lazima.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koje je glavni razlog za gubitak bitkoina prema poglavlju?
+answer: Loše upravljanje onlajn bezbednošću
+wrong_answers:
+  - Prevare sa kriptovalutama
+  - Finansijske prevare
+  - Računarski kvar
+explanation: |
+  Poglavlje pominje da pored prevara sa kriptovalutama i finansijskih prevara, glavni razlog za gubitak bitkoina je povezan sa lošim upravljanjem bezbednošću na mreži.'
+reviewed: false

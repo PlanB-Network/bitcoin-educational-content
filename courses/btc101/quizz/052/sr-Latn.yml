@@ -1,0 +1,9 @@
+question: Kakav je uticaj inflacije od 20% na kupovnu moć tokom 3 godine?
+answer: Gubiš 50% svoje kupovne moći.
+wrong_answers:
+  - Izgubiš 100% svoje kupovne moći.
+  - Izgubiš 60% svoje kupovne moći.
+  - Gubite 30% svoje kupovne moći.
+explanation: |
+  Sa inflacijom od 20%, izgubite skoro polovinu svoje kupovne moći za 3 godine.
+reviewed: true

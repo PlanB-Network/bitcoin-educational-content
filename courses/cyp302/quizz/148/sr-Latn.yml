@@ -1,0 +1,9 @@
+question: Koja funkcija se koristi za izračunavanje broja međusobno prostih celih brojeva sa celim brojem N?
+answer: Eulerova Fi funkcija
+wrong_answers:
+  - Logaritamska funkcija
+  - Eulerova Gamma funkcija
+  - Gaussova funkcija
+explanation: |
+  Eulerova Fi funkcija (ili totijent funkcija) se koristi za izračunavanje broja međusobno prostih brojeva sa celim brojem N, posebno za složene brojeve.
+reviewed: false

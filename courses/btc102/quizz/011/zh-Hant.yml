@@ -1,14 +1,9 @@
-question: 使用 VPN 的主要好處是什麼？
-answer: 它透過遮蔽您的 IP Address 來保護您的隱私。
+question: 為何要保護您的 Mnemonic 詞組？
+answer: 因為失去它會導致比特幣的永久損失
 wrong_answers:
-  - 可加快您的網際網路連線速度
-  - 它提供免費的付費服務
-  - 可保護您的電腦不受病毒侵害
+  - 因為 Blockchain 的再生時間太長了
+  - 因為遺失會導致個人資料外洩
+  - 因為 Exchange 平台需要大量的文件來再生它
 explanation: |
-  VPN (虛擬私人網路) 透過隱藏您的個人資料來保護您的隱私。
-  您的
-  
-  IP Address。雖然它不會讓您完全匿名，但仍是一個簡單的
-  
-  有效的步驟來改善您的線上隱私。
+  Mnemonic 短語允許恢復存取。如果丟失，Wallet 在其裝置上無法再存取，比特幣就會永久遺失。
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koje su tri metode zatvaranja kanala na Lightning Network?
+answer: Kooperativno zatvaranje, prisilno zatvaranje, zatvaranje sa varanjem
+wrong_answers:
+  - Brzo zatvaranje, sporo zatvaranje, zatvaranje sa dvostrukim potpisom
+  - Sigurno zatvaranje, automatsko zatvaranje, zatvaranje sa gubitkom sredstava
+  - Direktno zatvaranje, indirektno zatvaranje, zatvaranje sa zahtevom
+explanation: |
+  Postoje tri metode: kooperativno zatvaranje gde se strane dogovore, prisilno zatvaranje bez odgovora jedne strane i zatvaranje sa prevarom gde jedna strana pokušava da objavi staru transakciju.
+reviewed: false

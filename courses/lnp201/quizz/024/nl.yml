@@ -1,0 +1,9 @@
+question: Wat is het gecombineerde effect van het tijdslot en de revocatiesleutel op Commitment transacties?
+answer: Ze weerhouden deelnemers ervan vals te spelen door een onmiddellijke straf te bieden
+wrong_answers:
+  - Ze verminderen de capaciteit van het kanaal in het geval van valsspelen
+  - Ze vergrendelen automatisch de fondsen van de schuldige partij
+  - Ze dwingen het openen van een nieuw kanaal af als de transactie onjuist is
+explanation: |
+  Het tijdslot en de herroepingssleutel weerhouden deelnemers ervan vals te spelen door ervoor te zorgen dat elke poging om vals te spelen resulteert in een onmiddellijk verlies van fondsen voor de schuldige partij.
+reviewed: false

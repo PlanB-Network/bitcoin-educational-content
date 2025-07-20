@@ -1,10 +1,9 @@
-question: Apa peran perusahaan seperti OpenNode, Swiss Bitcoin Pay, dan BTCPay dalam ekosistem Bitcoin?
-answer: Mereka menyediakan alat yang memudahkan bisnis untuk menerima Bitcoin.
+question: Apa keuntungan menjalankan node Bitcoin Anda sendiri?
+answer: Kemandirian
 wrong_answers:
-  - Mereka menambang Bitcoin.
-  - Mereka mengatur Bitcoin.
-  - Mereka menerbitkan Bitcoin.
+  - Likuiditas
+  - Sentralisasi
+  - Kecepatan
 explanation: |
-  Perusahaan seperti OpenNode, Swiss Bitcoin Pay, dan BTCPay menyediakan alat
-  yang memudahkan bisnis untuk menerima Bitcoin, berkontribusi pada adopsinya
-  dan penggunaan dalam transaksi sehari-hari.
+  Menjalankan node Anda sendiri memastikan independensi dari pihak ketiga dan melindungi privasi transaksi Anda.
+reviewed: false

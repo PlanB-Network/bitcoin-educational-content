@@ -1,0 +1,9 @@
+question: نقش اصلی PBKDF2 در Bitcoin چیست؟
+answer: generate the seed of an HD Wallet
+wrong_answers:
+  - تأیید تراکنش‌ها
+  - کلیدهای خصوصی را رمزگذاری کنید
+  - ایجاد آدرس‌های Bitcoin
+explanation: |
+  PBKDF2 برای استخراج یک seed از یک عبارت Mnemonic و یک passphrase اختیاری استفاده می‌شود.
+reviewed: false

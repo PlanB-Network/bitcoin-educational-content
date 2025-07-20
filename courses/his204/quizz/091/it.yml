@@ -1,0 +1,8 @@
+question: Quale famoso detenuto ha difeso Condorcet?
+answer: Il cavaliere della Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - Il Conte di Lally
+explanation: |
+  Condorcet difese lo Chevalier de la Barre, un giovane condannato a morte per blasfemia.

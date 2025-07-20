@@ -1,0 +1,9 @@
+question: مفهوم اساسی پشت پروتکل RGB چیست؟
+answer: اعتبارسنجی سمت مشتری از طریق تعهدات رمزنگاری On-Chain
+wrong_answers:
+  - اعتبارسنجی On-Chain توسط قراردادهای هوشمند تورینگ کامل
+  - استفاده انحصاری از تراکنش‌های Bitcoin بدون رمزگذاری
+  - اجرای Contract بر روی Blockchain اختصاص داده شده به قراردادهای هوشمند
+explanation: |
+  RGB بر اساس مدل Client-side Validation است که در آن تعهدات (از طریق Taproot یا OP_RETURN) وارد On-Chain می‌شوند، در حالی که بیشتر منطق و داده‌ها در off-chain نگهداری می‌شوند.
+reviewed: false

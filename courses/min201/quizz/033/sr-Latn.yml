@@ -1,0 +1,12 @@
+question: Koji je potencijalni rizik od smanjenja broja korisnika, čvorova ili rudara u Bitcoin mreži?
+answer: To bi moglo oslabiti mrežu, povećavajući rizik od centralizacije i ranjivosti na napade.
+wrong_answers:
+  - To bi moglo povećati cenu Bitcoin.
+  - To bi moglo smanjiti brzinu transakcije kao i težinu Mining.
+  - To bi moglo povećati težinu Mining i ranjivost na napade, dok bi smanjilo rizik od centralizacije.
+explanation: |
+  Smanjenje broja korisnika, čvorova ili rudara moglo bi
+  oslabiti Bitcoin mrežu. To bi moglo povećati rizik od
+  centralizacije i učiniti mrežu podložnijom
+  napadima.
+reviewed: true

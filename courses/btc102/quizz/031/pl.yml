@@ -1,11 +1,9 @@
-question: Jaki jest cel portfeli Bitcoin?
-answer: Aby wysyłać i odbierać bitcoiny
+question: Które z nich to łańcuchy boczne Bitcoin?
+answer: Liquid i podkładka
 wrong_answers:
-  - Aby wydobywać bitcoiny
-  - Aby przechowywać fizyczne bitcoiny
-  - Aby wymienić bitcoiny na inne waluty
+  - Polygon i Arbitrum
+  - Jupiter i Fantom
+  - Bitcoin Gotówka i Bitcoin Satoshi Wizja
 explanation: |
-  Portfele Bitcoin służą do wysyłania i odbierania bitcoinów. Są to cyfrowe
-  portfele, które przechowują cyfrowe dane uwierzytelniające niezbędne do uzyskania dostępu do Bitcoin Address
-  i wydawania bitcoinów.
+  Liquid i RSK to łańcuchy boczne, które mają 2-kierunkowy kołek z Bitcoin. Pozostałe opcje nie są sidechainami lub nie mają 2WP z Bitcoin Blockchain.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koji mrežni port se koristi podrazumevano za P2P konekcije na Bitcoin glavnoj mreži?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  Port 8333 je standardni port koji koriste Bitcoin čvorovi za peer-to-peer konekcije ka Mainnet.
+reviewed: false

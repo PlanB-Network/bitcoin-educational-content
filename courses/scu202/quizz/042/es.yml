@@ -1,0 +1,9 @@
+question: ¿Por qué debe comprobar siempre la integridad y autenticidad del software descargado de Internet?
+answer: Para evitar la instalación de malware
+wrong_answers:
+  - Para mejorar el rendimiento del sistema
+  - Para ahorrar ancho de banda
+  - Para acelerar la instalación
+explanation: |
+  Verificar la integridad y autenticidad ayuda a evitar la instalación de software corrupto, infectado o no legítimo.
+reviewed: false

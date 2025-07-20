@@ -1,0 +1,8 @@
+question: Kakav je opšti trend Bitkoina, s obzirom na njegovu ograničenu ponudu i proces Halving-a?
+answer: Opšti trend rasta.
+wrong_answers:
+  - Opšti trend opadanja.
+  - Nema trenda uopšte.
+  - Trend koji divlja bez prepoznatljivog obrasca.
+explanation: >-
+reviewed: true

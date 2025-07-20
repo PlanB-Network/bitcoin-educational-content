@@ -1,0 +1,5 @@
+---
+term: FABRYKI KANAŁÓW
+---
+
+Zaawansowany mechanizm opracowywany obecnie w Lightning, umożliwiający tworzenie i zarządzanie wieloma kanałami płatności z jednego UTXO. Fabryki kanałów wykorzystują adresy `n-of-n` Multisig, dzięki czemu grupa użytkowników może wspólnie posiadać pojedynczy UTXO. Stamtąd mogą otwierać i zamykać kanały płatności między sobą bez dodatkowych transakcji On-Chain, z wyjątkiem sytuacji, gdy chcą wypłacić swoje środki z fabryki. Ta metoda może znacznie obniżyć koszty i przestrzeń zajmowaną na Bitcoin dla transakcji Lightning. W praktyce oznacza to, że operacje, które normalnie wymagałyby transakcji On-Chain dla każdego otwarcia lub zamknięcia kanału, mogą być wykonywane off-chain, z bezpieczeństwem gwarantowanym przez możliwość publikowania niepublikowanych transakcji w razie potrzeby. Używając słów Davida A. Hardinga, fabryki kanałów można opisać jako kanały Lightning używane do generate innych kanałów Lightning.

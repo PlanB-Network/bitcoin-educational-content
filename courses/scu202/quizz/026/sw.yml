@@ -1,0 +1,9 @@
+question: Ni amri gani inayoonyesha yaliyomo kwenye folda, pamoja na faili zilizofichwa?
+answer: ls -la
+wrong_answers:
+  - onyesha-folda
+  - orodha-faili -ndani
+  - viewdir -a
+explanation: |
+  "ls -lah" huonyesha faili na folda kwa undani, ikiwa ni pamoja na faili zilizofichwa (kuanzia na nukta).
+reviewed: false

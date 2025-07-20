@@ -1,0 +1,9 @@
+question: Šta je austrijska teorija poslovnog ciklusa?
+answer: Austrijska teorija poslovnog ciklusa je teorija koja objašnjava ekonomske cikluse kao endogene dinamike sistema bankarstva sa frakcionalnim rezervama, naglašavajući sekvencijalnu prirodu ljudske akcije i uticaj fluktuacija kamatnih stopa na intertemporalnu koordinaciju ekonomskih agenata.
+wrong_answers:
+  - Austrijska teorija poslovnog ciklusa je teorija koja objašnjava ekonomske cikluse kao rezultat spoljašnjih događaja i animalnih duhova.
+  - Austrijska teorija poslovnog ciklusa je teorija koja objašnjava ekonomske cikluse kao rezultat promena u agregatnoj tražnji i Supply.
+  - Austrijska teorija poslovnog ciklusa je teorija koja objašnjava ekonomske cikluse kao rezultat promena u nivou zaposlenosti, BDP-u ili indeksu potrošačkih cena.
+explanation: |
+  Austrijska teorija poslovnog ciklusa, koju su razvili Ludwig Von Mises i Friedrich Hayek, objašnjava ekonomske cikluse kao endogene dinamike sistema frakcionalnog rezervnog bankarstva. Naglašava sekvencijalnu prirodu ljudskog delovanja i uticaj fluktuacija kamatnih stopa na intertemporalnu koordinaciju ekonomskih agenata.
+reviewed: true

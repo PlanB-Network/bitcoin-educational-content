@@ -1,0 +1,9 @@
+question: Công cụ kết xuất nào được Internet Explorer sử dụng từ phiên bản 4 trở đi và thống trị thị trường vào đầu những năm 2000?
+answer: Cây đinh ba
+wrong_answers:
+  - Thằn lằn
+  - WebKit
+  - Chớp mắt
+explanation: |
+  Trident, do Microsoft phát triển, được giới thiệu cùng với Internet Explorer 4.0 vào năm 1997 và thống trị web trong thời kỳ Internet Explorer gần như độc quyền.
+reviewed: false

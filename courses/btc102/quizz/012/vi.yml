@@ -1,8 +1,9 @@
-question: Nguyên nhân chính dẫn đến việc mất bitcoin theo chương này là gì?
-answer: Quản lý an ninh trực tuyến kém
+question: Khái niệm tự quản có ý nghĩa gì trong thế giới Bitcoin?
+answer: Tự giữ chìa khóa riêng của bạn
 wrong_answers:
-  - Lừa đảo tiền ảo
-  - Lừa đảo tài chính
-  - Sự cố máy tính
+  - Giao phó chìa khóa của bạn cho nền tảng Exchange chuyên dụng
+  - Giao phó chìa khóa của bạn cho một ngân hàng đầu tư
+  - Tự giữ khóa công khai của bạn
 explanation: |
-  Chương này đề cập rằng ngoài lừa đảo tiền ảo và lừa đảo tài chính, nguyên nhân chính dẫn đến việc mất bitcoin liên quan đến việc quản lý an ninh trực tuyến kém.
+  Quyền tự lưu giữ đảm bảo rằng người dùng duy trì toàn quyền kiểm soát bitcoin của mình thông qua khóa riêng của họ.
+reviewed: false

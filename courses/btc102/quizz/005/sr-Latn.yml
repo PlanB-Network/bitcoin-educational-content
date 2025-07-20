@@ -1,0 +1,9 @@
+question: Koji je fokus kursa na ovom univerzitetu?
+answer: Bitcoin univerzum.
+wrong_answers:
+  - Globalna industrija kriptovaluta.
+  - Fintech industrija.
+  - Blockchain industrija.
+explanation: |
+  Ceo fokus ovog univerziteta je na Bitcoin univerzumu, ne na kriptu.
+reviewed: false

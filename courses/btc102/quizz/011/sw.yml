@@ -1,12 +1,9 @@
-question: Ni faida gani kuu ya kutumia VPN?
-answer: Inalinda faragha yako kwa kuficha IP yako Address
+question: Kwa nini ni muhimu kulinda maneno yako ya Mnemonic?
+answer: Kwa sababu kupoteza husababisha hasara ya kudumu ya bitcoins
 wrong_answers:
-  - Inaharakisha muunganisho wako wa mtandao
-  - Inatoa ufikiaji wa bure kwa huduma zinazolipwa
-  - Inalinda kompyuta yako kutoka kwa virusi
+  - Kwa sababu Blockchain ni ndefu sana kuifanya upya
+  - Kwa sababu kuipoteza husababisha kuvuja kwa data ya kibinafsi
+  - Kwa sababu majukwaa ya Exchange yanahitaji hati nyingi ili kuirejesha
 explanation: |
-  VPN, au Mtandao Pepe wa Kibinafsi, hulinda faragha yako kwa kuficha
-  yako
-  IP Address. Ingawa haikufanyi usijulikane kabisa, bado ni rahisi
-  na hatua madhubuti ya kuboresha ufaragha wako mtandaoni.'
+  Kifungu cha maneno cha Mnemonic kinaruhusu ufikiaji kurejeshwa. Ikiwa imepotea na Wallet haipatikani tena kwenye kifaa chake, bitcoins hupotea kabisa.
 reviewed: false

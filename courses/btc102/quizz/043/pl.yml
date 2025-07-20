@@ -1,11 +1,9 @@
-question: Jaki jest główny powód, dla którego rządy i banki centralne badają możliwość stworzenia cyfrowej wersji swojej waluty fiducjarnej?
-answer: Zapewnienie kontroli i zgodności z lokalnymi przepisami
+question: Jaki jest główny cel hodlera?
+answer: Aby utrzymać swoje bitcoiny przez długi czas
 wrong_answers:
-  - Aby konkurować z Bitcoin
-  - Zapewnienie ochrony prywatności
-  - Zwiększenie masowego nadzoru
+  - Spekulować w krótkim okresie
+  - Aby dokonywać częstych transakcji Bitcoin
+  - Aby zmaksymalizować prywatność transakcji Bitcoin
 explanation: |
-  Treść rozdziału wyjaśnia, że chociaż projekty te twierdzą, że konkurują
-  z Bitcoin, pozostają scentralizowane w celu zapewnienia kontroli i zgodności z lokalnymi przepisami
-  lokalnymi przepisami.
+  Hodler zamierza przechowywać swoje bitcoiny przez wiele lat, aby czerpać korzyści z przypuszczalnego wzrostu aktywów.
 reviewed: false

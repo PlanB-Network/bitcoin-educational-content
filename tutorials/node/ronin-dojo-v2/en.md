@@ -373,7 +373,7 @@ The following command prompt will be displayed:
 If you wish to exit this interface and return to the RoninCLI menu, simply enter:
 `quit`
 
-First, it's necessary to configure the proxy to use Tor, to ensure confidentiality when extracting data from OXT. Enter the command:
+First, it's necessary to configure the proxy to use Tor, to ensure privacy when extracting data from OXT. Enter the command:
 `socks5 127.0.0.1:9050`
 
 Subsequently, proceed to download the pool information containing your transaction:
@@ -459,17 +459,17 @@ $$ED = 1.054 \text{ bits}$$
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
 
-Here, it is clear that each input has an equal chance of being associated with any output, which reinforces the ambiguity and confidentiality of the transaction. However, in the case of a simple transaction with a single input and two outputs, the situation is different:
+Here, it is clear that each input has an equal chance of being associated with any output, which reinforces the ambiguity and privacy of the transaction. However, in the case of a simple transaction with a single input and two outputs, the situation is different:
 
 | %       | Output 0 | Output 1 |
 |---------|----------|----------|
 | Input 0 | 100%     | 100%     |
 
-Here, we see that the probability for each output to come from input 0 is 100%. A lower probability thus translates to greater confidentiality, by diluting the direct links between inputs and outputs.
+Here, we see that the probability for each output to come from input 0 is 100%. A lower probability thus translates to greater privacy, by diluting the direct links between inputs and outputs.
 
 **The sixth piece of information** provided is the number of deterministic links, complemented by the ratio of these links. This indicator reveals how many connections between the inputs and outputs in the analyzed transaction are indisputable, with a 100% probability. The ratio, in turn, offers a perspective on the weight of these deterministic links within the total links of the transaction.
 
-For example, a Whirlpool-type coinjoin transaction presents no deterministic links, and therefore displays an indicator and ratio of 0%. On the other hand, in our second examined transaction (with one input and two outputs), the indicator is set at 2 and the ratio reaches 100%. Thus, a null indicator signals excellent confidentiality thanks to the absence of direct and indisputable links between inputs and outputs.
+For example, a Whirlpool-type coinjoin transaction presents no deterministic links, and therefore displays an indicator and ratio of 0%. On the other hand, in our second examined transaction (with one input and two outputs), the indicator is set at 2 and the ratio reaches 100%. Thus, a null indicator signals excellent privacy thanks to the absence of direct and indisputable links between inputs and outputs.
 
 **How to access the Boltzmann Calculator on RoninDojo?**
 To access the *Boltzmann Calculator* tool, go to RoninCLI. To do this, open a terminal on your personal computer and establish an SSH connection with your node using the following command: `SSH ronindojo@[IP]`

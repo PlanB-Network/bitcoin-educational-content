@@ -1,0 +1,9 @@
+question: Koja dubina u putanji derivacije specificira tip valute?
+answer: Dubina 2
+wrong_answers:
+  - Dubina 1
+  - Dubina 3
+  - Dubina 4
+explanation: |
+  Dubina 2 se koristi za identifikaciju valute u novčanicima sa više valuta, kao što su Bitcoin (indeks 0') ili Litecoin (indeks 2').
+reviewed: false

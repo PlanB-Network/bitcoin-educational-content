@@ -151,6 +151,14 @@ Mida Adam Smith näitab, on see, et saab teenida ainult oma huve, teenides teist
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Iga üksikisiku loomulik pingutus oma olukorra parandamiseks... on nii võimas, et see suudab üksinda, ilma igasuguse abita, mitte ainult viia ühiskonna rikkuse ja õitsenguni, vaid ka ületada sadu tüütuid takistusi, millega inimseaduste rumalus selle toimimist sageli raskendab.“  
+>_Rahvaste rikkus_  
+>_IV raamat, V peatükk_
+
+---
+
 Vahetus on positiivse-summa mäng. Mida üks võidab, võidab ka teine. Seega erineb see poliitilisest ümberjaotamisest, kus alati on võitja ja kaotaja. Kui me vaatleme inglise kooli, siis Smithi, Ricardo ja enne neid Locke'i jaoks, on väärtus seotud tööga. Marxile on see sama.
 
 ![image](assets/en/018.webp)
@@ -163,6 +171,12 @@ Kuid Bastiat täpsustas ka Sayd selles punktis. Asi pole asjade kasulikkuses, va
 Majandus allub mitmele lihtsale seadusele, mis tulenevad inimkäitumisest. Üks neist, mida nimetatakse "Say seaduseks", on järgmine: "Tooted ja teenused vahetatakse toodete ja teenuste vastu." Tema idee on, et rahvad ja üksikisikud saavad kasu tootmise taseme tõusust, sest see pakub suurenenud võimalusi vastastikku kasulikeks vahetusteks.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Individuaalne vabadus = Sotsiaalne harmoonia
+
+---
 
 Tõepoolest, tooteid ostetakse ainult teenuste ootuses, mida ostja eeldab: ma ostan plaadi muusika kuulamiseks, mida kuulan, ma ostan kinopileti filmi vaatamiseks, mida näen. Ja vahetuses otsustab iga pool, sest ta arvab, et saab sellest, mida ta omandab, rohkem teenuseid kui sellest, millest loobub. Selles kontekstis on raha lihtsalt vahendav kaup, see kompenseerib osutatud teenuse ja avab teisi teenuseid.
 
@@ -339,9 +353,14 @@ Bastiat peab tõepoolest Rousseau'd sotsialismi ja kollektivismi tõeliseks eelk
 
 Algselt on inimene lihtsalt kodanik. Kuid kodanik on arvutaja; ta ihkab oma otsest naudingut, ta on orjastatud oma meeltele, oma soovidele, oma erihuvi(de)le. Lühidalt, ta ei ole ratsionaalne, seega ei ole ta vaba. Teda on vaja harida, et mõista, et tema tõeline huvi on üldine huvi. Sellepärast kirjutas Rousseau Sotsiaallepingus:
 
-> Igaüks, kes keeldub üldist tahet kuuletumast, sunnitakse terve kogukonna poolt: see tähendab midagi muud, kui et neid sunnitakse olema vabad.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Kes iganes keeldub allumast üldisele tahtele, sunnitakse teda kogu keha poolt: mis ei tähenda midagi muud kui seda, et teda sunnitakse olema vaba.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Selle doktriini kohaselt on inimeses kaks tahet: tahe, mis kaldub isikliku huvi poole, see on kodaniku tahe, ja tahe, mis kaldub üldise huvi poole, see on kodaniku tahe. Inimesi, isegi jõuga, ratsionaalse eesmärgi, üldise huvi poole juhtida, tähendab inimesi vabaks teha. Mida nad tõeliselt tahavad, on ratsionaalne eesmärk, isegi kui nad seda ei tea.
 
@@ -418,6 +437,15 @@ Nagu me juba nägime, oli esmajoones Cobdeni võitlus protektsionismi vastu Ingl
 Protektsionism on tegelikult majandusliku rahvusluse vorm. Selle eesmärk on kõrvaldada väliskonkurents, teeseldes, et "kaitstakse rahvuslikke huve". Nad püüavad siis saada avaliku võimu nõusolekut puhtalt demagoogiliste valede kogumile, mis esitatakse vooruslikena: töökohtade kaitse, konkurentsivõime jne. Loomulikult alluvad valitud ametnikud tootjate survele, sest see on neile kuldne võimalus oma klientuuri konsolideerida ja võimu laiendada.
 
 ![image](assets/en/058.webp)
+
+---
+
+>Meie kohtumine Arnaud Montebourgiga  
+>Made in France,  
+>ta usub sellesse, meie katsetasime seda
+
+---
+
 Töökaitse argumendi nimetab Bastiat eksituseks. Tegelikkuses on see võrdne maksuga. Sellel on mõju, mis muudab tooted kallimaks. Võtame näite, mille Bastiat ise andis.
 Kujutage ette inglise nuga, mis meie riigis müüakse 2 euro eest, ja Prantsusmaal valmistatud nuga maksab 3. Kui me laseme tarbijal vabalt osta nuga, mida ta soovib, säästab ta franki, mida ta saab investeerida mujale (raamatusse või pliiatsisse).
 
@@ -445,8 +473,17 @@ Ja ta jätkaks selle pärastisi perversseid mõjusid analüüsida. Siin on üks 
 > Inimhinge loomulike kalduvuste tõttu hakkas igaüks nõudma riigilt endale suuremat heaolu osa. See tähendab, et riik või riigikassa pandi rüüstamisele. Kõik klassid nõudsid riigilt justkui õigusega eksistentsi vahendeid. Riigi selles suunas tehtud pingutused viisid ainult maksude ja takistuste ning vaesuse suurenemiseni.
 
 - 3° Bastiat lisab, et tema vaates oli protektsionism selle häire esimene ilming. Kapitalistid alustasid seaduse sekkumise palumisega, et suurendada oma rikkuse osa. Paratamatult soovisid töölised sama teha.
-  ![image](assets/en/063.webp)
-  Kokkuvõtteks, Bastiati sõnul jagavad protektsionistid ja sotsialistid ühist seisukohta: mida nad seaduselt otsivad, ei ole mitte kõigile vaba võimekuse rakendamise ja nende pingutuste õiglase tasu tagamine, vaid pigem ühe kodanikuklassi rohkem või vähem täielik ärakasutamine teise poolt. Protektsionismi korral on vähemus see, kes enamust ära kasutab. Sotsialismi puhul on enamik see, kes vähemust ära kasutab. Mõlemal juhul on õiglus rikutud ja üldine huvi on ohus. Bastiat seab need üksteise vastu.
+
+![image](assets/en/063.webp)
+
+---
+
+>EDUKS  
+>HÄÄLETA SOTSIALISTLIKU SFIO POOLT
+
+---
+
+Kokkuvõtteks, Bastiati sõnul jagavad protektsionistid ja sotsialistid ühist seisukohta: mida nad seaduselt otsivad, ei ole mitte kõigile vaba võimekuse rakendamise ja nende pingutuste õiglase tasu tagamine, vaid pigem ühe kodanikuklassi rohkem või vähem täielik ärakasutamine teise poolt. Protektsionismi korral on vähemus see, kes enamust ära kasutab. Sotsialismi puhul on enamik see, kes vähemust ära kasutab. Mõlemal juhul on õiglus rikutud ja üldine huvi on ohus. Bastiat seab need üksteise vastu.
 
 > Riik on suur väljamõeldis, mille kaudu kõik püüavad elada teiste arvelt.
 
@@ -556,11 +593,19 @@ Bastiat koostas seejärel satiirilise teksti, mis hiljem sai üheks tema kuulsai
 
 ![image](assets/en/079.webp)
 
+---
+
+>KAITSEME OMA KÜÜNLAID!
+
+---
+
 Selles petitsioonis paluvad küünlatootjad deputaatidelt õiguslikku kaitset ohtliku rivaali vastu:
 
 > Me kannatame talumatu konkurentsi all välismaise rivaali poolt, kes, nagu näib, on valguse tootmiseks nii ülekaalukates tingimustes, et ta ujutab meie riikliku turu üle uskumatult madala hinnaga.
-> Niisiis, kes on see ebaõiglane väliskonkurent? See on keegi muu kui päike. Tootjad rõhutavad seejärel võimalust reserveerida "rahvuslik turg rahvuslikule tööjõule", tellides seadusega sulgeda "kõik aknad, katuseaknad, varjud, luugid, rulood, kardinad, fassaadiaknad, ühesõnaga kõik avad, augud, praod ja lõhed, mille kaudu päikesevalgus on harjunud majadesse sisenema".
-> Teisisõnu, küünlatootjad üritavad demonstreerida "väliskonkurendi" (päike) kahjulikke mõjusid Prantsusmaa majandusele. Sest mitte ainult ei suuda päike pakkuda sama "toodet" nagu küünlad, vaid teeb seda tasuta. Kakssada aastat hiljem on see lugu uskumatult asjakohane. Mõelge taksojuhtidele, kes paluvad seadusel keelata VTC-d ja Uberi. Mõelge raamatupoodidele, mis tahavad keelata Amazoni.
+
+Niisiis, kes on see ebaõiglane väliskonkurent? See on keegi muu kui päike. Tootjad rõhutavad seejärel võimalust reserveerida "rahvuslik turg rahvuslikule tööjõule", tellides seadusega sulgeda "kõik aknad, katuseaknad, varjud, luugid, rulood, kardinad, fassaadiaknad, ühesõnaga kõik avad, augud, praod ja lõhed, mille kaudu päikesevalgus on harjunud majadesse sisenema".
+
+Teisisõnu, küünlatootjad üritavad demonstreerida "väliskonkurendi" (päike) kahjulikke mõjusid Prantsusmaa majandusele. Sest mitte ainult ei suuda päike pakkuda sama "toodet" nagu küünlad, vaid teeb seda tasuta. Kakssada aastat hiljem on see lugu uskumatult asjakohane. Mõelge taksojuhtidele, kes paluvad seadusel keelata VTC-d ja Uberi. Mõelge raamatupoodidele, mis tahavad keelata Amazoni.
 
 ![image](assets/en/080.webp)
 
@@ -828,6 +873,12 @@ Kuna inimene riskib eksimise või valesti tegutsemise ja selle tagajärgede kand
 
 ![image](assets/en/110.webp)
 
+---
+
+>Eksida on inimlik.
+
+---
+
 Niisiis, on selge, et Bastiat ei ole pime. Ta ei eita kurjuse olemasolu. Inimene on nõrk, altid eksimustele ja süütele. Kusagil ei näe, et Bastiat eitaks asjaolu, et individuaalse vabaduse kasutamine on seotud eksimise võimalusega, mõistusevastase või mõttetu valiku võimalusega.
 Ta väidab lihtsalt, et kui kurjuse allikas peitub vabaduse puudumises, siis ravim on vabaduses endas, ja täpsemalt isikliku vastutuse täies ja terviklikus rakendamises.
 
@@ -866,6 +917,15 @@ Ja veel:
 
 ![image](assets/en/116.webp)
 
+---
+
+>GUISY  
+>Ühiskondlik  
+>vastastikuse abi selts  
+>1899
+
+---
+
 Siiski, Bastiati sõnul on riiklikule kohustuslikule solidaarsusele alternatiiv: "vastastikuse abi ühing"
 vastastikuse ja spontaanse abi osutamine inimeste vahel tänu vastastikuse abistamise ühingutele. Kuid ta nägi ette ka, et riik haarab lõpuks need vastastikused ühingud, et muuta need ühtseks ja tsentraliseeritud organiks, julgustades kulutamist ja raiskamist.
 ![image](assets/en/117.webp)
@@ -873,6 +933,16 @@ vastastikuse ja spontaanse abi osutamine inimeste vahel tänu vastastikuse abist
 Pamfletis nimega "Õiglus ja Vendlus" uurib Bastiat ka lihtsustatud ja õiglase maksusüsteemi ideed kollektiivsete vajaduste (politsei, õigussüsteem, armee) rahastamiseks: sissetulekud ja kasumid oleksid allutatud ühtsele ja proportsionaalsele maksustamismäärale. Tänapäeval tuntakse seda kui "ühtset tulumaksu".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Sihtasutused –  
+>**lisandväärtus**  
+>ühiskonnale  
+>
+>SwissFoundations
+
+---
 
 Tõepoolest, peresisene solidaarsus, kohalik solidaarsus või organiseeritud filantroopia on palju arenenumad riikides, kus on kerge maksusüsteem ja suhteliselt kõrge majandusvabaduse aste, nagu Šveits ja Ameerika Ühendriigid, samas kui see on suuresti pärssitud riikides, kus riik on suuresti asendanud individuaalse vastutuse, nagu Prantsusmaa või Saksamaa.
 

@@ -1,11 +1,9 @@
-question: Ni kikomo gani cha bitcoins ambacho kitawahi kuwa?
-answer: milioni 21
+question: Ni itifaki gani ya pili ya Layer inayowezesha malipo ya karibu ya papo hapo?
+answer: Lightning Network
 wrong_answers:
-  - milioni 100
-  - bilioni 1
-  - Hakuna kikomo
+  - Minyororo ya pembeni
+  - RGB
+  - Msingi wa Bitcoin
 explanation: |
-  Sura hiyo inasema kuwa hakutakuwa na bitcoins zaidi ya milioni 21.
-  Kikomo hiki kilianzishwa katika itifaki ya Bitcoin na Satoshi na haiwezi kubadilishwa
-  leo.
+  Lightning Network huwezesha miamala ya haraka na ya gharama nafuu kupitia utendakazi wa off-chain nje ya Bitcoin Blockchain.
 reviewed: false

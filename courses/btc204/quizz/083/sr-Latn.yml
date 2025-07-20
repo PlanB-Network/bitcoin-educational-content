@@ -1,0 +1,9 @@
+question: Zašto koordinator ne može da izmeni CoinJoin transakciju nakon prikupljanja potpisa od svih učesnika?
+answer: Izmena bi poništila transakciju.
+wrong_answers:
+  - Nemaju pristup adresama primatelja učesnika.
+  - Potpisi su šifrovani.
+  - Transakcija je već emitovana na Bitcoin mreži.
+explanation: |
+  Jednom kada učesnici potpišu celokupnu transakciju, nakon što se uvere da je sve ispravno, koordinator više ne može da izmeni ovu transakciju, uključujući izlaze, bez njenog poništavanja, jer potpis pokriva celu transakciju.
+reviewed: false

@@ -1,0 +1,9 @@
+question: نقش اصلی AluVM در پروتکل RGB چیست؟
+answer: اسکریپت‌ها و عملیات Contract را در یک محیط ماشین مجازی اجرا کنید
+wrong_answers:
+  - تجزیه و تحلیل تراکنش‌های Bitcoin On-Chain در یک محیط ماشین مجازی
+  - کلیدهای عمومی generate برای کاربران RGB در یک محیط ماشین مجازی
+  - بهینه‌سازی اعتبارسنجی عمومی Blockchain در محیط ماشین مجازی
+explanation: |
+  AluVM برای اعتبارسنجی Smart contract و محاسبات توزیع‌شده در چارچوب RGB طراحی شده است.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koje je rešenje Zimbabve usvojio da bi se suprotstavio inflaciji?
+answer: Dolariizacija
+wrong_answers:
+  - Štampanje više novca
+  - Uvođenje nove valute
+  - Smanjenje novca Supply
+explanation: |
+  Zimbabve je usvojio dolarizaciju kako bi se suprotstavio inflaciji. To znači da su usvojili američki dolar ili druge valute iz susednih zemalja, što sprečava vladu da štampa novac po volji.
+reviewed: false

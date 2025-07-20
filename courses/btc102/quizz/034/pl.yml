@@ -1,11 +1,9 @@
-question: Jaki jest limit bitcoinów, które kiedykolwiek będą dostępne?
-answer: 21 milionów
+question: Który protokół second-Layer umożliwia niemal natychmiastowe płatności?
+answer: Lightning Network
 wrong_answers:
-  - 100 milionów
-  - 1 miliard
-  - Bez limitu
+  - Łańcuchy boczne
+  - RGB
+  - Rdzeń Bitcoin
 explanation: |
-  Rozdział ten stanowi, że nigdy nie będzie więcej niż 21 milionów bitcoinów.
-  Limit ten został ustalony w protokole Bitcoin przez Satoshi i nie można go zmienić
-  dzisiaj.
+  Lightning Network umożliwia szybkie i tanie transakcje poprzez operacje off-chain poza Bitcoin Blockchain.
 reviewed: false

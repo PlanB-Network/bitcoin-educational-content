@@ -1,11 +1,9 @@
-question: Apa peran utama penambang dalam jaringan Bitcoin?
-answer: Mereka mengamankan jaringan dengan melakukan proses proof-of-work Bitcoin
+question: Bagaimana asal mula istilah hodler?
+answer: Kesalahan pengejaan kata "tahan"
 wrong_answers:
-  - Mereka menciptakan bitcoin baru
-  - Mereka mengatur harga Bitcoin
-  - Mereka mengontrol jaringan Bitcoin
+  - Akronim untuk "tahan"
+  - Singkatan dari "Hot Wallet"
+  - Kontraksi dari "rantai HODL"
 explanation: |
-  Konten bab menjelaskan bahwa penambang bertanggung jawab untuk mengamankan
-  jaringan Bitcoin. Mereka menggunakan listrik untuk melakukan proses proof-of-work Bitcoin,
-  yang menciptakan blok baru.
+  Istilah "hodler" berasal dari kesalahan ketik di Bitcoin Talk, di mana "hold" salah eja menjadi "HODL" untuk menyatakan kepemilikan jangka panjang.
 reviewed: false

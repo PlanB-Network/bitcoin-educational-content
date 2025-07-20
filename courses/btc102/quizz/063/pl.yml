@@ -1,10 +1,9 @@
-question: Jakie jest ryzyko nieposiadania klucza prywatnego do Bitcoin Wallet?
-answer: Bitcoiny użytkownika podlegają ryzyku, takiemu jak włamanie, przejęcie, regulacja lub bankructwo
+question: Jakie główne ryzyko wiąże się z ujawnieniem zbyt wielu informacji w planie spadkowym?
+answer: Ryzyko kradzieży
 wrong_answers:
-  - Twoje bitcoiny zostaną automatycznie przekonwertowane na inną kryptowalutę
-  - Twoje bitcoiny stracą na wartości
-  - Twoje bitcoiny zostaną przeniesione do innego Wallet
+  - Ryzyko straty
+  - Ryzyko dewaluacji
+  - Ryzyko regulacji
 explanation: |
-  Jeśli użytkownik nie posiada klucza prywatnego do swojego Bitcoin Wallet, jego bitcoiny
-  są narażone na ryzyko, takie jak włamanie, przejęcie, regulacja lub bankructwo.
+  Zbyt duża ilość informacji może ułatwić działanie złośliwym osobom, które uzyskają dostęp do planu spadkowego.
 reviewed: false

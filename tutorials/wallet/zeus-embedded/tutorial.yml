@@ -1,0 +1,120 @@
+id: c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+project_id: 79942e25-335d-45ae-bf81-799317f7d6bd
+
+tags:
+  - lightning
+  - wallets
+  - node
+
+category: mobile
+
+level: intermediate
+
+professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-28
+    urgency: 1
+    contributor_names:
+      - Skyman21m
+    reward: 1.76
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.07
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.79
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.93
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.51
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.65
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.93
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.79
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.79

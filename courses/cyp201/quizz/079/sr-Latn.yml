@@ -1,0 +1,8 @@
+question: Koja je glavna funkcija deskriptora izlaznog skripta?
+answer: Da biste u potpunosti opisali izlazni skript i obezbedili informacije potrebne za vraćanje Wallet
+wrong_answers:
+  - Automatski generate višepotpisne adrese
+  - Zamenite frazu Mnemonic u Wallet rezervnim kopijama
+  - Pojednostavite izračunavanje digitalnih potpisa
+explanation: |
+  Deskriptori obuhvataju sve neophodne informacije za praćenje određenog skripta, uključujući put derivacije i korišćene ključeve, ali ne i frazu za oporavak.

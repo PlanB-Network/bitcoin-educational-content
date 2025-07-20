@@ -1,0 +1,9 @@
+question: Zašto se UTXO-i često porede sa novčanicama?
+answer: Moraju biti potrošeni u celosti
+wrong_answers:
+  - Mogu se koristiti više puta dok se ne potroše
+  - Oni su upotrebljivi samo u određenim specifičnim transakcijama
+  - Oni predstavljaju male fiksne iznose bitkoina
+explanation: |
+  Kao novčanica, UTXO mora biti potrošen u celosti u transakciji, a svaki višak se vraća pošiljaocu kao kusur.
+reviewed: false

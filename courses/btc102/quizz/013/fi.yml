@@ -1,12 +1,9 @@
-question: Mikä on yksi perustoimenpiteistä parantaa verkkoturvallisuustottumuksia?
-answer: Ota käyttöön kaksivaiheinen tunnistautuminen (2FA)
+question: Mikä on tärkein ero kaupankäynnin ja sijoittamisen välillä?
+answer: Kaupankäynti on lyhytaikaista ja spekulatiivista, sijoittaminen on pitkäaikaista ja strategista
 wrong_answers:
-  - Käytä samaa salasanaa kaikille tileille
-  - Älä säännöllisesti varmuuskopioi tietoja
-  - Jaa salasanasi
+  - Kaupankäyntiin liittyy kiinteitä palkkioita, sijoittamiseen vaihtelevia palkkioita
+  - Kaupankäynti perustuu perusanalyysiin, sijoittaminen makrotrendeihin
+  - Kaupankäynti on vähemmän riskialtista kuin sijoittaminen
 explanation: |
-  Kaksivaiheisen tunnistautumisen (2FA) käyttöönotto on yksi perustoimenpiteistä
-
-  parantaa verkkoturvallisuustottumuksia. Se tarjoaa lisäkerroksen turvaa
-
-  kaikkein arkaluonteisimmille tileillesi.
+  Kaupankäynti edellyttää jatkuvaa seurantaa ja teknisiä taitoja, kun taas sijoittaminen perustuu pitkän aikavälin näkemykseen.
+reviewed: false

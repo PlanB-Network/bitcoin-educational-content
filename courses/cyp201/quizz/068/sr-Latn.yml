@@ -1,0 +1,9 @@
+question: Koje je ograničenje za izvođenje javnog ključa deteta iz javnog ključa roditelja?
+answer: Dečiji ključ mora biti normalan
+wrong_answers:
+  - Dečiji ključ mora biti očvrsnut
+  - Kôd lanca mora biti identičan onom matičnog ključa
+  - Proces mora uključivati privatni ključ roditelja
+explanation: |
+  Javni ključ deteta može se izvesti iz javnog ključa roditelja samo ako je normalan, ne i ojačan.
+reviewed: false

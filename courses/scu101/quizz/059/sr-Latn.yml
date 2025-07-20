@@ -1,0 +1,9 @@
+question: Koje su neke od veština potrebnih u sajber bezbednosti?
+answer: Analiza logova, odgovor na incidente
+wrong_answers:
+  - Grafički dizajn, video montaža
+  - Prodaja, marketing
+  - Kuvanje, pečenje
+explanation: |
+  Poglavlje pominje analizu logova i odgovor na incidente kao neke od veština potrebnih u sajber bezbednosti.
+reviewed: true

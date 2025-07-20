@@ -1,10 +1,9 @@
-question: Je! ni tabia gani ya kawaida ya ulaghai katika kikoa cha sarafu-fiche?
-answer: Ahadi za kurudi zisizo za kweli.
+question: Je! ni utaratibu gani kuu wa mpango wa Ponzi?
+answer: Wawekezaji wa mapema hulipwa na pesa kutoka kwa wapya
 wrong_answers:
-  - Ahadi za bidhaa za kimwili.
-  - Ahadi za bidhaa za programu.
-  - Ahadi za fedha za fiat.
+  - Marejesho hutoka kwa bidhaa halisi kwenye soko
+  - Wawekezaji hupokea gawio kutoka kwa makampuni
+  - Faida hutolewa na mikataba mahiri kwenye Blockchain
 explanation: |
-  Ulaghai katika kikoa cha sarafu-fiche mara nyingi huahidi mapato yasiyo ya kweli.
-  Ni muhimu kutokuamini kwa upofu, haswa linapokuja suala la bango la mtandao.
+  Katika mpango wa Ponzi, hakuna bidhaa halisi iliyoundwa, na malipo yanategemea tu kuwasili kwa washiriki wapya.
 reviewed: false

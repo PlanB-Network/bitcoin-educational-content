@@ -1,0 +1,9 @@
+question: Koje stvari treba uzeti u obzir pri odabiru DCA platforme?
+answer: Dostupnost u vašoj zemlji.
+wrong_answers:
+  - Boja logotipa platforme.
+  - Broj korisnika na platformi.
+  - Starost platforme.
+explanation: |
+  Ovaj tekst kursa pominje da će pri odabiru DCA platforme pravi izbor više zavisiti od njene dostupnosti u vašoj zemlji.
+reviewed: true

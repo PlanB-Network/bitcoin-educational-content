@@ -1,10 +1,9 @@
-question: 不擁有 Bitcoin Wallet 私密金鑰的風險為何？
-answer: 您的比特幣會受到黑客入侵、扣押、監管或破產等風險的影響
+question: 在繼承計劃中披露太多資訊會招致什麼重大風險？
+answer: 盜竊風險
 wrong_answers:
-  - 您的比特幣會自動轉換成另一種加密貨幣
-  - 您的比特幣將會貶值
-  - 您的比特幣將會轉移到另一個 Wallet
+  - 損失風險
+  - 貶值風險
+  - 法規風險
 explanation: |
-  如果您不擁有 Bitcoin Wallet 的私人密碼匙，您的 bitcoins
-  會受到黑客入侵、扣押、規管或破產等風險的影響。
+  如果惡意個人取得您的繼承計畫，過多的資訊會讓他們更容易採取行動。
 reviewed: false

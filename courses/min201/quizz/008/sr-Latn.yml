@@ -1,0 +1,9 @@
+question: Koja je glavna prednost ASIC-a u kontekstu Bitcoin Mining?
+answer: Oni mogu veoma efikasno izvršiti jednu specifičnu vrstu proračuna
+wrong_answers:
+  - Oni mogu izvršiti mnoštvo različitih vrsta proračuna
+  - Troše manje električne energije od CPU-ova
+  - Oni su jeftiniji od CPU-ova
+explanation: |
+  ASIC-i su čipovi, uporedivi sa CPU čipom, međutim, oni su razvijeni da obavljaju samo jednu specifičnu vrstu proračuna na najefikasniji mogući način. U slučaju Bitcoin ASIC-a, oni su dizajnirani za proračun SHA256 algoritma.
+reviewed: true

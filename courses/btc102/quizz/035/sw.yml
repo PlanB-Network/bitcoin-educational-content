@@ -1,10 +1,9 @@
-question: Nani alielezea Bitcoin kama benki ya Uswizi katika mfuko wako?
-answer: Barack Obama
+question: Ni suluhisho gani la uhifadhi linalopendekezwa kwa hodler?
+answer: Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - Hot Wallet
+  - Huduma ya uhifadhi
+  - Karatasi ya Wallet
 explanation: |
-  Sura hiyo inataja kwamba Barack Obama aliwahi kuelezea Bitcoin kama Uswizi
-  benki mfukoni mwako.
+  Hodler, ambaye anashikilia bitcoins kwa muda mrefu, anapaswa kutumia Hardware Wallet ili kuongeza usalama.
 reviewed: false

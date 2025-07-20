@@ -1,0 +1,12 @@
+question: Šta je čest uzrok sigurnosnih ranjivosti?
+answer: Ljudski nemar.
+wrong_answers:
+  - Nestanci struje.
+  - Spor internet.
+  - Zastarela oprema.
+explanation: |
+  Sigurnosne ranjivosti su često rezultat ljudske
+  nepažnje, kao što je korišćenje podrazumevanih lozinki ili zapisivanje
+  lozinki na nesigurnim mestima. Sofisticirani napadi nisu uvek
+  neophodni da bi se ugrozila bezbednost računara.
+reviewed: true

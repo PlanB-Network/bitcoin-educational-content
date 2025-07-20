@@ -1,12 +1,9 @@
-question: Je, ni sifa gani kuu ya Bitcoin inayoitofautisha na fedha zingine za siri?
-answer: Bitcoin ndiyo sarafu pekee iliyogatuliwa, inayostahimili udhibiti, isiyolipishwa na yenye umakini mkubwa.
+question: Ni suluhisho gani linalopendekezwa kwa kufanya malipo ya gharama ya chini ya Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin ndiyo sarafu-fiche pekee inayoweza kuchimbwa
-  - Bitcoin ndiyo sarafu-fiche pekee inayoweza kununuliwa au kuuzwa kwenye majukwaa ya Exchange
-  - Bitcoin ndiyo sarafu-fiche pekee inayoweza kuhifadhiwa kwenye Wallet
+  - Hardware Wallet
+  - Akaunti ya benki
+  - RGB Layer
 explanation: |
-  Yaliyomo kwenye sura yanasema kuwa Bitcoin ndiyo pekee iliyogatuliwa kwa kweli,
-  inayostahimili udhibiti, isiyolipishwa, na sarafu ya siri kali ambayo inahalalisha maelfu
-  ya saa za kazi. Hii ni sifa kuu inayoweka Bitcoin kando na nyingine
-  fedha za siri.
+  Umeme huwezesha miamala ya haraka na ya bei nafuu kwa ununuzi wa kila siku. Ni zana bora kwa mtumiaji anayefanya kazi.
 reviewed: false

@@ -1,0 +1,8 @@
+question: هزینه‌های تراکنش‌ها در Lightning Network بسیار پایین است، اغلب کمتر از...?
+answer: ۰.۵٪.
+wrong_answers:
+  - ۱٪.
+  - ۲٪.
+  - ۳٪.
+explanation: >-
+reviewed: true

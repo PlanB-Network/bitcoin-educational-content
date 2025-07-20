@@ -1,0 +1,10 @@
+question: Jedan od nedostataka zlata kao oblika novca je njegova težina i nepraktičnost za svakodnevne transakcije.
+answer: Nije lako deljivo.
+wrong_answers:
+  - Ne zadržava svoju vrednost kroz prostor.
+  - Vremenom se erodira.
+  - Lako je proizvesti.
+explanation: |
+  Jedan od glavnih nedostataka zlata kao oblika novca je
+  teškoća u deljenju na manje jedinice kada se za tim ukaže potreba, što ga čini manje praktičnim za korišćenje.
+reviewed: true

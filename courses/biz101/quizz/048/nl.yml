@@ -1,0 +1,9 @@
+question: Wat is de primaire functie van traditionele betalingssystemen?
+answer: Om de overdracht van geld tussen twee partijen mogelijk te maken
+wrong_answers:
+  - Een enkele wereldmunt creëren die wordt gereguleerd door een centrale autoriteit
+  - Internationale handel vergemakkelijken
+  - Geldovermakingen beperken tot contante geldwissels in persoon
+explanation: |
+  Traditionele betalingssystemen bieden mechanismen en infrastructuur voor het overmaken van geld tussen betalers en begunstigden in zowel lokale als internationale contexten.
+reviewed: false

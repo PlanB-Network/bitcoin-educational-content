@@ -1,0 +1,9 @@
+question: Koja je glavna ideja iza koncepta vremenske vrednosti novca?
+answer: Vreme ima vrednost
+wrong_answers:
+  - Novac gubi vrednost tokom vremena
+  - Novac se može zameniti za vreme
+  - Vreme se može zameniti za novac
+explanation: |
+  Glavna ideja iza koncepta vremenske vrednosti novca je da vreme ima vrednost. Ako neko odluči da plati menicu vrednu $100 mesec dana unapred, može je dobiti, na primer, za $98 i primiti $100 na datum dospeća.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Šta je Halving u kontekstu Bitcoin?
+answer: Funkcija u kodu Bitcoin koja prepolovljava nagradu Mining svake četiri godine
+wrong_answers:
+  - Proces povećanja globalnog usvajanja Bitcoin
+  - Mehanizam koji sprečava kolaps vrednosti Bitcoin
+  - Termin koji se koristi za opisivanje događaja kada cena Bitcoin naglo poraste.
+explanation: |
+  Halving je funkcija u kodu Bitcoin koja prepolovljava nagradu Mining otprilike svake četiri godine. Ovaj događaj utiče na prihod rudara i vrši pritisak na povećanje cene Bitcoin.
+reviewed: true

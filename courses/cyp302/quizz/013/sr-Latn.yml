@@ -1,0 +1,9 @@
+question: Šta čini fizičku osnovu većine komunikacija u razvijenom svetu?
+answer: Mreže optičkih kablova
+wrong_answers:
+  - Sateliti za svaku vezu
+  - Samo koaksijalni kablovi
+  - Samo bakarne žice
+explanation: |
+  Većina modernih komunikacija oslanja se na mreže optičkih kablova, koje omogućavaju brzu razmenu podataka, iako neka upotreba satelita i koaksijalnih kablova i dalje postoji.
+reviewed: false

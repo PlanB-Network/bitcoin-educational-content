@@ -1,8 +1,9 @@
-question: Mis on levinud pettus finantsinvesteeringute valdkonnas?
-answer: Püramiidskeemid.
+question: Mis on paroolihalduri kasutamise peamine eelis?
+answer: See salvestab ja genereerib keerulisi paroole
 wrong_answers:
-  - Füüsiliste kaupade müük.
-  - Tarkvaratoodete müük.
-  - Fiat-raha müük.
+  - See annab vihjeid paroolide meelespidamiseks
+  - Ta kasutab samu paroole erinevates veebikontodes uuesti
+  - See asendab vajaduse viirusetõrjetarkvara järele
 explanation: |
-  Finantsinvesteeringute valdkonnas paistavad silma püramiidskeemid ja Ponzi skeemid kui ebaseaduslikud mudelid. Need toimivad, kasutades uute investorite raha vanemate osalejate maksmiseks.
+  Paroolihaldur loob tugevad paroolid ja salvestab need turvaliselt, võimaldades hõlpsasti kätte saada, ilma et neid oleks vaja meelde jätta.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hashrate چیست؟
+answer: تعداد محاسبات Hash که یک دستگاه Mining می‌تواند در هر ثانیه برای حل Proof of Work انجام دهد.
+wrong_answers:
+  - سرعتی که دستگاه Mining می‌تواند Proof of Work را حل کند.
+  - تعداد کل ماینرها در شبکه Bitcoin.
+  - مقدار کل بیت‌کوین‌های استخراج‌شده با انجام تعداد معینی تلاش در ثانیه برای حل Proof of Work.
+explanation: >-
+reviewed: true

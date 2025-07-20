@@ -1,0 +1,9 @@
+question: Vad är en lösenordshanterare?
+answer: Ett verktyg som lagrar, genererar och hanterar lösenord.
+wrong_answers:
+  - Ett antivirusprogram mot hackingattacker.
+  - En säker e-posttjänst.
+  - Ett verktyg för säkerhetskopiering av personliga identitetsuppgifter.
+explanation: |
+  En lösenordshanterare centraliserar lagring och skapande av lösenord.
+reviewed: true

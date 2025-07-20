@@ -1,0 +1,9 @@
+question: Kovertibilna marka
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Nemačka marka
+explanation: |
+  Tokom ekonomske krize u Nemačkoj, Notgeld (hitni novac) je korišćen da Address nedostatak uobičajene valute.
+reviewed: false

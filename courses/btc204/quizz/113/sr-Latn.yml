@@ -1,0 +1,9 @@
+question: Koji element sprečava spoljnog posmatrača da razlikuje između Stonewall i Stonewall x2 transakcija?
+answer: Obrazac transakcija je isti
+wrong_answers:
+  - Transakcije su šifrovane
+  - Iznosi uključeni u transakcije su uvek identični
+  - Digitalni potpisi transakcija generišu se istim algoritmom
+explanation: |
+  Sa spoljnog stanovišta, obrazac transakcije je potpuno isti. Bez dodatnih informacija o kontekstu, stoga je nemoguće razlikovati Stonewall transakciju od Stonewall x2 transakcije, jer usvajaju isti obrazac.
+reviewed: false

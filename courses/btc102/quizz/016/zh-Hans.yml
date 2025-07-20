@@ -1,8 +1,9 @@
-question: 保持计算机处于最佳工作状态的措施之一是什么？
-answer: 定期备份您的数据
+question: Bitcoin 最多可以除到小数点后多少位？
+answer: 八
 wrong_answers:
-  - 分享您的密码
-  - 为所有账户使用相同的密码
-  - 忽略更新您的计算机
+  - 六
+  - 十二
+  - 七
 explanation: |
-  定期备份您的数据是保持计算机处于最佳工作状态的措施之一。这也是改善在线安全习惯的基本措施。
+  Bitcoin 可以精确到小数点后第八位，一个单位称为 Satoshi 或 sat。
+reviewed: false

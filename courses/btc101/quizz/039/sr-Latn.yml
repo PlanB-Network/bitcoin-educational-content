@@ -1,0 +1,9 @@
+question: Koji je glavni cilj iza stvaranja Bitkoina?
+answer: Da se država odvoji od novca.
+wrong_answers:
+  - Da se eliminiše zlatni standard.
+  - Da transakcije budu brže i jeftinije.
+  - Da svi budu bogati.
+explanation: |
+  Bitkoin je stvoren sa ciljem da odvoji državu od novca. To je odgovor na sistemske izazove trenutnog finansijskog sistema, gde država ima potpunu kontrolu nad ponudom novca i može manipulisati njom u svoju korist.
+reviewed: true

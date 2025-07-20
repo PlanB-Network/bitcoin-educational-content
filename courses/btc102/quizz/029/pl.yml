@@ -1,11 +1,9 @@
-question: Jakie znaczenie ma niedobór Bitcoin?
-answer: Na świecie będzie tylko 21 milionów bitcoinów i nigdy więcej
+question: Który główny gracz projektuje układy ASIC dla Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - Wartość Bitcoin zawsze będzie wzrastać
-  - Bitcoin jest trudny do wydobycia
-  - Liczba transakcji Bitcoin jest ograniczona
+  - Trezor
+  - Ledger
+  - Foundry USA
 explanation: |
-  Niedobór Bitcoin odnosi się do faktu, że kiedykolwiek będzie tylko 21 milionów bitcoinów
-  milionów bitcoinów. Ta cecha, podobnie jak w przypadku złota, zapobiega rozcieńczaniu
-  Bitcoin poprzez nadmierne drukowanie pieniędzy.
+  Bitmain jest jednym z wiodących producentów specjalistycznego sprzętu dla Bitcoin Mining.
 reviewed: false

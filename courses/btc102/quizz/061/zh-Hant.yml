@@ -1,11 +1,9 @@
-question: 在 Bitcoin 的背景下，什麼是非 KYC 解決方案？
-answer: 允許匿名 Bitcoin 交易的解決方案
+question: 為什麼建議在紙上用墨水寫繼承書？
+answer: 為了避免數位文件外洩所造成的風險
 wrong_answers:
-  - 無需網際網路即可進行 Bitcoin 交易的解決方案
-  - 允許 Bitcoin 交易而無需 Wallet 的解決方案
-  - 無須付費即可進行 Bitcoin 交易的解決方案
+  - 降低印刷成本
+  - 要取得法律承認的簽名
+  - 增加文件的法律價值
 explanation: |
-  非 KYC（認識您的客戶）解決方案是允許
-  匿名 Bitcoin 交易。它不需要使用者提供個人
-  識別資訊。
+  手寫信件較不易受到網路攻擊，並可確保指示的機密性。
 reviewed: false

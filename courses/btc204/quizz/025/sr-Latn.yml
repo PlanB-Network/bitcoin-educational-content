@@ -1,0 +1,9 @@
+question: Šta je KYC?
+answer: Postupak za verifikaciju i evidentiranje identiteta klijenata.
+wrong_answers:
+  - Sistem kriptografije za osiguranje finansijskih transakcija.
+  - Metod validacije za finansijske transakcije.
+  - Tehnika marketinga za analizu ponašanja kupaca.
+explanation: |
+  KYC znači "Upoznaj svog klijenta". To je zaista regulatorni postupak za verifikaciju identiteta klijenta.
+reviewed: false

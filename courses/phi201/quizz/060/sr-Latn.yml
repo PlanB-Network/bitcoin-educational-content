@@ -1,0 +1,9 @@
+question: U kom religijskom kontekstu je kapitalizam rođen?
+answer: U kontekstu hrišćanstva.
+wrong_answers:
+  - U kontekstu islama.
+  - U kontekstu judaizma.
+  - U kontekstu paganizma.
+explanation: |
+  Kapitalizam je nastao u kontekstu srednjovekovnog hrišćanstva u Evropi, gde su trgovački gradovi i ekonomske prakse evoluirali uprkos verskim ograničenjima na zajmove s kamatom i lihvarenje.
+reviewed: false

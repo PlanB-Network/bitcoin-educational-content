@@ -1,0 +1,9 @@
+question: Qual è il ruolo principale di un sistema operativo?
+answer: Intermediario tra hardware, utente e applicazioni
+wrong_answers:
+  - Antivirus integrato
+  - Software di grafica
+  - Server di messaggistica istantanea
+explanation: |
+  Il sistema operativo funge da software centrale Layer che consente alle applicazioni e all'utente di accedere e controllare l'hardware.
+reviewed: false

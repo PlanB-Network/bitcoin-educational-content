@@ -1,0 +1,9 @@
+question: Hvilken type protokoll bør aktiveres for å kryptere DNS-forespørsler i et lokalt nettverk?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) og DoT (DNS over TLS) krypterer DNS-forespørsler, slik at de ikke kan avlyttes.
+reviewed: false

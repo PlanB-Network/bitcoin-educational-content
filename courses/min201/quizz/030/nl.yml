@@ -1,0 +1,12 @@
+question: Wat is de potentiële bedreiging van Proof of Stake in het Bitcoin netwerk?
+answer: Degenen die al een groot deel van de valuta bezitten, hebben onevenredig veel macht, wat de bestaande machtsongelijkheid weerspiegelt.
+wrong_answers:
+  - Het zou een aanzienlijke belemmering vormen voor valideerders die een groot bedrag aan valuta bezitten.
+  - Kleinschalige deelname is niet mogelijk.
+  - Er zijn geen tastbare middelen voor nodig.
+explanation: |
+  In een Proof of Stake-netwerk hebben degenen die al een groot
+  hoeveelheid van de valuta onevenredig veel macht. Deze
+  dynamiek kan mogelijk centralisatie en
+  concentratie van macht in de handen van enkelen.
+reviewed: true

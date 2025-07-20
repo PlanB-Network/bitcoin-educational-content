@@ -1,0 +1,9 @@
+question: Wat zijn de belangrijkste functies van een RGB Contract?
+answer: State Transition, Genesis en State Extension
+wrong_answers:
+  - Seal Definition, Commitment en validatie
+  - Anchor aanmaken, DAG bijwerken en transactie ondertekenen
+  - Genesis Blok, UTXO Toewijzing en Scriptvalidatie
+explanation: |
+  Deze bewerkingen wijzigen of voltooien de status van een Contract volgens zijn Schema.
+reviewed: false

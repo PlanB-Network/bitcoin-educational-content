@@ -1,0 +1,5 @@
+---
+term: bitcoind
+---
+
+Kifupi cha "*Bitcoin daemon*". Ni programu inayotumia itifaki ya Bitcoin na inaruhusu watumiaji kuendesha nodi kwa ajili ya shughuli zinazojulikana kama RPC (*Simu ya Utaratibu wa Mbali*). Ni mpango wa mstari wa amri (bila GUI) ambao hutumika kama mawasiliano ya Interface na Bitcoin. Kwa maneno mengine, ni programu inayoendesha chinichini ambayo mtumiaji anaweza kuingiliana nayo (daemon). `bitcoind` ilikuwa sehemu ya mteja wa awali wa Satoshi Nakamoto. Wengine huiona kama mteja wa pili katika historia ya Bitcoin, baada ya Satoshi ya kwanza, kwa kuwa toleo la programu 0.2.6 liliruhusu utekelezaji kama daemon bila Interface ya picha. Baadaye iliwekwa pamoja na Bitcoin QT mwaka wa 2011, mteja ambaye baadaye alipewa jina la "Bitcoin Core" mwaka wa 2014. Leo, `bitcoind` imeunganishwa kikamilifu katika mteja wa Bitcoin Core.

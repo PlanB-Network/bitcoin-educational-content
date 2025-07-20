@@ -1,10 +1,9 @@
-question: Jaká je hlavní role vývojářů Bitcoin Core?
-answer: Jsou zodpovědní za hlavní vývoj protokolu Bitcoin a jeho základních funkcí.
+question: Proč se doporučuje pravidelně převádět prostředky z účtu Hot Wallet do účtu Hardware Wallet?
+answer: Snížení rizika hackerského útoku
 wrong_answers:
-  - Ovládají síť Bitcoin
-  - Vytvářejí nové bitcoiny
-  - Regulují cenu Bitcoinu
+  - Zvýšení likvidity Wallet
+  - Snížení transakčních poplatků
+  - Optimalizace ochrany soukromí UTXO
 explanation: |
-  Obsah kapitoly vysvětluje, že vývojáři Bitcoin Core jsou zodpovědní
-  za hlavní vývoj protokolu Bitcoin a jeho základních funkcí. Neovládají síť Bitcoin, nevytvářejí nové bitcoiny ani neregulují cenu Bitcoinu.
+  Převod na Hardware Wallet zabezpečuje prostředky uložením soukromých klíčů v režimu offline.
 reviewed: false

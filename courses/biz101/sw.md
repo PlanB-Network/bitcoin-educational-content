@@ -589,7 +589,7 @@ Kwa kuwa Bitcoin hufanya kazi kama njia ya Exchange, inawezekana kuwazia uchumi 
 
 Hii inahusisha kupata zawadi kutokana na uendeshaji wa mashine za Mining. Kwa biashara zisizo maalum, hii inasalia kuwa ndogo. Unaweza kushiriki kupitia waamuzi ambao watakuuzia au kukukodisha komputa, mtandao na matengenezo. Ikiwa unamiliki mashine, unaweza kuzihesabu kama mali zinazoweza kupunguzwa thamani. Kwa kiwango kikubwa, utahitaji kuhesabu kwa uangalifu mapato ya uwekezaji kwa sababu soko lina ushindani mkubwa na linahitaji matarajio mazuri ya gharama, hasa umeme.
 
-Ili kupata maelezo zaidi kuhusu mbinu za Mining, unaweza [kupata sehemu ya "Mining" katika mafunzo yetu](https://planb.network/tutorials/Mining).
+Ili kupata maelezo zaidi kuhusu mbinu za Mining, unaweza [kupata sehemu ya "Mining" katika mafunzo yetu](https://planb.network/tutorials/mining).
 
 - **Kununua Bitcoin:**
 
@@ -599,7 +599,7 @@ Ili kujifunza jinsi ya kufungua akaunti ya biashara na kuitumia kununua, kuuza n
 
 https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Ili kupata maelezo zaidi kuhusu mbinu za kupata bitcoins kupitia Exchange au peer-to-peer, unaweza [kupata sehemu ya "Exchange" katika mafunzo yetu](https://planb.network/tutorials/Exchange).
+Ili kupata maelezo zaidi kuhusu mbinu za kupata bitcoins kupitia Exchange au peer-to-peer, unaweza [kupata sehemu ya "Exchange" katika mafunzo yetu](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
 
@@ -849,13 +849,13 @@ Kwa mafunzo ya kina kuhusu pochi zinazopendekezwa na usanidi msingi, tafadhali s
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Pochi za LN za uhifadhi:**
 
@@ -1341,3 +1341,6 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+

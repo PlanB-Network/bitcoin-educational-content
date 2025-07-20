@@ -1,0 +1,9 @@
+question: Šta omogućava funkcija LNURL-withdraw korisnicima da urade?
+answer: Povucite sredstva sa usluge skeniranjem QR koda
+wrong_answers:
+  - Izvršite direktno plaćanje bez naknada za usmeravanje.
+  - Povežite njihov Lightning Wallet bez lozinke
+  - Pošalji sredstva bez potvrde primaoca
+explanation: |
+  LNURL-withdraw omogućava korisnicima da povuku sredstva sa usluge skeniranjem QR koda, čime se pojednostavljuje proces povlačenja.
+reviewed: false

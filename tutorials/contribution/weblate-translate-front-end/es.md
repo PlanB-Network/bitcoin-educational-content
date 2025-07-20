@@ -14,7 +14,7 @@ En este tutorial, le mostraremos cómo contribuir fácilmente a la traducción d
 
 Para traducir los contenidos educativos, utilizamos [inteligencia artificial](https://github.com/Asi0Flammeus/LLM-Translator). Luego, para corregir los eventuales errores de estos archivos, invitamos a los correctores a contribuir. Si desea corregir algún contenido, consulte el siguiente tutorial:
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Por otro lado, si está interesado en traducir los elementos estáticos del sitio web (excluidos los contenidos educativos), ¡está en el lugar adecuado! Para traducir eficazmente el frontend, utilizamos la herramienta Weblate, que es muy sencilla de utilizar y facilita el planteamiento de la traducción.
 
 Si deseas añadir un idioma completamente nuevo a Plan ₿ Network, asegúrate de ponerte en contacto con el equipo de Plan ₿ Network a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
@@ -158,3 +158,4 @@ Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los
 ![weblate](assets/23.webp)
 
 ¡Gracias de antemano por tu contribución a la traducción de Plan ₿ Network! Si tienes alguna pregunta o comentario específico para nosotros, no dudes en ponerte en contacto con nosotros a través del [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+

@@ -1,0 +1,9 @@
+question: U konačnom polju, koja je uloga ireducibilnog polinoma?
+answer: Definišite operacije množenja u polju
+wrong_answers:
+  - Definišite aditivni inverz svakog elementa
+  - Osigurajte zatvaranje polja
+  - Odredi multiplikativni identitet
+explanation: |
+  Nesvodivi polinomi se koriste za strukturiranje množenja u konačnim poljima, osiguravajući da svaki element ostane unutar polja.
+reviewed: false

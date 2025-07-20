@@ -1,0 +1,9 @@
+question: What is MicroG, integrated into CalyxOS?
+answer: A free reimplementation of Google services
+wrong_answers:
+  - A permissions manager
+  - An open source VPN for Android
+  - Google's proprietary antivirus
+explanation: |
+  MicroG is an open source alternative that lets you run Google API-dependent applications without installing the official binaries.
+reviewed: false

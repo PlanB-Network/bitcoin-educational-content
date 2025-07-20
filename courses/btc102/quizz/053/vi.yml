@@ -1,11 +1,9 @@
-question: Nói rằng Bitcoin giống như một hố đen có ý nghĩa là gì?
-answer: Nó sẽ không biến mất và sẽ hấp thụ mọi thứ trên đường đi của mình theo thời gian.
+question: Dịch vụ nào liệt kê các thương gia chấp nhận Bitcoin trên toàn thế giới?
+answer: Bản đồ BTC
 wrong_answers:
-  - Nó cuối cùng sẽ sụp đổ dưới trọng lượng của chính mình.
-  - Nó là một mối đe dọa đối với hệ thống tài chính toàn cầu.
-  - Nó là một bí ẩn mà các nhà khoa học vẫn đang cố gắng hiểu.
+  - CoinMarketCap
+  - Bitcoin Nói chuyện
+  - Thụy Sĩ Bitcoin Pay
 explanation: |
-  Phát biểu rằng Bitcoin giống như một hố đen ám chỉ sự kiên cường
-  và khả năng trở thành hệ thống tài chính thống trị, hấp thụ tất cả các hệ thống khác
-  trên đường đi của mình.
+  BTC Map là nền tảng chuyên dụng giúp xác định vị trí các đơn vị chấp nhận Bitcoin trên toàn thế giới.
 reviewed: false

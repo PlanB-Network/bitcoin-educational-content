@@ -1,9 +1,9 @@
-question: Was ist laut dem Kapitel der Hauptgrund für den Verlust von Bitcoins?
-answer: Schlechtes Online-Sicherheitsmanagement
+question: Was bedeutet der Begriff der Selbstverwahrung in der Bitcoin-Welt?
+answer: Ihre privaten Schlüssel selbst aufbewahren
 wrong_answers:
-  - Kryptowährungsbetrug
-  - Finanzbetrug
-  - Computerfehler
+  - Anvertrauen Ihrer Schlüssel an eine spezialisierte Exchange-Plattform
+  - Ihre Schlüssel einer Investmentbank anvertrauen
+  - Ihre öffentlichen Schlüssel selbst aufbewahren
 explanation: |
-  Im Kapitel wird erwähnt, dass neben Kryptowährungsbetrug und Finanzbetrug der Hauptgrund für den Verlust von Bitcoins mit schlechtem Online-Sicherheitsmanagement zusammenhängt.
+  Die Selbstverwahrung stellt sicher, dass der Nutzer die volle Kontrolle über seine Bitcoins durch seine eigenen privaten Schlüssel behält.
 reviewed: false

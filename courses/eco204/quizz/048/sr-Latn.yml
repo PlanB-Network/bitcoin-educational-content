@@ -1,0 +1,9 @@
+question: Koja je posledica višestrukih redenominacija na populaciju?
+answer: Gubitak ušteđevine i problemi sa hranom.
+wrong_answers:
+  - Povećanje bogatstva i obilja hrane.
+  - Povećanje ušteđevine i nestašica hrane.
+  - Smanjenje bogatstva i obilja hrane.
+explanation: |
+  Redenominacija više puta, uklanjanje nula ili promena imena valute ima direktne posledice na stanovništvo, u rasponu od gubitka pomoći do problema sa hranom.'
+reviewed: false

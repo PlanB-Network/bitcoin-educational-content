@@ -1,13 +1,9 @@
-question: Jaka jest główna przewaga Bitcoin nad tradycyjnymi kontami bankowymi?
-answer: Pełna kontrola nad pieniędzmi
+question: Jaką strategię akwizycji może przyjąć hodowca hybrydowy?
+answer: Uśrednianie kosztów w dolarach
 wrong_answers:
-  - Wyższe stopy procentowe
-  - Niższe opłaty transakcyjne
-  - Szybsze czasy transakcji
+  - Handel algorytmiczny
+  - Arbitraż
+  - Hakowanie
 explanation: |
-  Rozdział ten wyjaśnia, że Bitcoin oferuje potężną alternatywę dla
-  tradycyjnych
-  systemów finansowych. Pozwala każdemu zachować prywatność, chronić się przed inflacją i dewaluacją waluty, ominąć autorytarne reżimy i odzyskać suwerenność
-  inflacją i dewaluacją waluty, ominąć autorytarne reżimy i odzyskać suwerenność
-  nad swoimi pieniędzmi.
+  Uśrednianie kosztów w dolarach pozwala na regularne zakupy Bitcoin w celu wyrównania średniej ceny zakupu w czasie. Hodowca może połączyć to z okazjonalnymi zakupami ryczałtowymi.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je fundamentalna razlika između teorija Turgota i onih Adama Smitha o vrednosti?
+answer: Turgot je verovao da vrednost određuje rad, dok je Smit verovao da je određuje korisnost.
+wrong_answers:
+  - Turgot je verovao da je slobodna trgovina najbolja ekonomska politika, dok je Smith verovao u protekcionizam.
+  - Turgot je verovao da je uloga države da ostavi tržište slobodnim, dok je Smit verovao da vlada treba da interveniše u ekonomiji.
+  - Ne postoji suštinska razlika između Turgotovih i Smithovih teorija o vrednosti.
+explanation: |
+  Turgot je smatrao rad glavnim odrednikom vrednosti, dok je Adam Smit uveo pojam vrednosti pod uticajem korisnosti i potražnje, nagoveštavajući subjektivnu ekonomiju.
+reviewed: false

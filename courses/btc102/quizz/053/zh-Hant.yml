@@ -1,11 +1,9 @@
-question: 說 Bitcoin 就像黑洞是什麼意思？
-answer: 它不會消失，並會隨著時間的推移吸收沿途的一切。
+question: 哪項服務會列出全球接受 Bitcoin 的商家？
+answer: BTC 地圖
 wrong_answers:
-  - 它最終會在自身重量下倒塌。
-  - 這是對全球金融體系的威脅。
-  - 這是一個科學家仍在嘗試了解的謎。
+  - CoinMarketCap
+  - Bitcoin 談話
+  - 瑞士 Bitcoin 薪資
 explanation: |
-  說 Bitcoin 就像一個黑洞，是指它的彈性
-  以及其成為主導金融系統的潛力，並吸收其路徑上的所有其他系統。
-  的潛力。
+  BTC Map 是一個專用平台，可定位世界各地接受 Bitcoin 的商家。
 reviewed: false

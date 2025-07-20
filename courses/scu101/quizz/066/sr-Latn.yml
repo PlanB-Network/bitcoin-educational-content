@@ -1,0 +1,9 @@
+question: Koje su prednosti korišćenja Passkeys kao alternative tradicionalnim lozinkama?
+answer: Oni nude šifrovane nasumične ključeve kombinovane sa lokalnim faktorom, koji su hostovani kod provajdera, ali ostaju van njihovog domašaja.
+wrong_answers:
+  - Oni su lakši za pamćenje od tradicionalnih lozinki.
+  - Oni ne zahtevaju nikakve dodatne faktore autentifikacije.
+  - Mogu se koristiti na svim veb-sajtovima bez ikakvih ažuriranja.
+explanation: |
+  Passkeys nude šifrovane nasumične ključeve, u kombinaciji sa lokalnim faktorom (biometrija ili PIN), koji su hostovani kod provajdera, ali ostaju van njihovog domašaja. Ovaj pristup eliminiše potrebu za lozinkama, pružajući visok nivo sigurnosti bez ograničenja povezanih sa tradicionalnim lozinkama.
+reviewed: true

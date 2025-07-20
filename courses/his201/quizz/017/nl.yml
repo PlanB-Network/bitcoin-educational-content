@@ -1,0 +1,9 @@
+question: Waar presenteerde Nick Szabo voor het eerst zijn concept van bitgoud in 1998?
+answer: De mailinglijst libtech-l
+wrong_answers:
+  - De cypherpunks-mailinglijst
+  - De mailinglijst voor cryptografie
+  - De extropians mailinglijst
+explanation: |
+  Dit was zijn privé-mailinglijst, waar cypherpunks als Wei Dai en Hal Finney en economen als Larry White en George Selgin op stonden.
+reviewed: true

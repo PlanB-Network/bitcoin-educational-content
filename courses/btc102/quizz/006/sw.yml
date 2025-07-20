@@ -1,11 +1,9 @@
-question: Ni kashfa gani ya kawaida katika uwanja wa uwekezaji wa kifedha?
-answer: Mifumo ya kuuza piramidi.
+question: Je, ni faida gani kuu ya kutumia kidhibiti nenosiri?
+answer: Huhifadhi na kutengeneza nywila changamano
 wrong_answers:
-  - Kuuza bidhaa za kimwili.
-  - Uuzaji wa bidhaa za programu.
-  - Kuuza fedha za fiat.
+  - Inatoa vidokezo kukumbuka manenosiri yako
+  - Hutumia tena manenosiri yale yale kwenye akaunti tofauti za mtandaoni
+  - Inachukua nafasi ya hitaji la programu ya antivirus
 explanation: |
-  Katika uwanja wa uwekezaji wa kifedha, mifumo ya kuuza piramidi na Ponzi
-  miradi inajitokeza kama mifano haramu. Wanafanya kazi kwa kutumia pesa za wawekezaji wapya
-  kuwalipa washiriki wazee.
+  Kidhibiti cha nenosiri huunda manenosiri dhabiti na kuyahifadhi kwa usalama, kuwezesha urejeshaji rahisi bila hitaji la kukariri.
 reviewed: false

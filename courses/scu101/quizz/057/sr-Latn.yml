@@ -1,0 +1,9 @@
+question: Koja je jedna od prednosti prisustvovanja konferencijama i radionicama o sajber bezbednosti?
+answer: Omogućava vam da uspostavite veze sa profesionalcima iz industrije
+wrong_answers:
+  - To je zahtev za sve poslove u sajber bezbednosti.
+  - To garantuje posao u sajber bezbednosti
+  - To je jedini način da se nauči o sajber bezbednosti.
+explanation: |
+  Poglavlje pominje da prisustvovanje konferencijama i radionicama o sajber bezbednosti ne samo da vam omogućava da učite, već vam takođe pomaže da uspostavite veze sa profesionalcima iz industrije.
+reviewed: true

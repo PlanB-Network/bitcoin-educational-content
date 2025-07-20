@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda VPN?
+answer: Šifrování internetového provozu
+wrong_answers:
+  - Zrychlení internetového připojení
+  - Zvýšení skladovací kapacity
+  - Integrovaný antivirus
+explanation: |
+  VPN vytváří zabezpečený tunel a šifruje výměnu dat mezi vaším zařízením a zprostředkujícím serverem, čímž posiluje důvěrnost.
+reviewed: false

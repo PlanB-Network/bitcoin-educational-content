@@ -1,8 +1,8 @@
 ---
 name: BitAxe seadistamine
-Kirjeldus: Kuidas seadistada BitAxe'i?
+description: Kuidas seadistada BitAxe'i?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Sissejuhatus
 
 BitAxe on Skoti loodud avatud lähtekoodiga projekt, mis on [saadaval GitHubis](https://github.com/skot/bitaxe) ja võimaldab kuluefektiivset kaevandamise eksperimenteerimist.

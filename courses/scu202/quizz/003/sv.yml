@@ -1,0 +1,9 @@
+question: Vad bör du undvika att göra med USB-minnen?
+answer: Ansluta okända USB-minnen
+wrong_answers:
+  - Använd NTFS-formaterade USB-minnen
+  - Kryptera dina egna USB-minnen
+  - Använd nya USB-minnen
+explanation: |
+  Om du ansluter ett okänt USB-minne kan det infektera datorn med skadlig kod eller stjäla känsliga data.
+reviewed: false

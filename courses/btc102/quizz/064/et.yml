@@ -1,12 +1,9 @@
-question: Mis on soovitatud lahendus korduvateks Bitcoin'i ostudeks ilma stressita?
-answer: Kasutage DCA lahendust
+question: Milline tegevus on teie pärijatele hädavajalik, et teie bitcoinid vigadeta tagasi saada?
+answer: Selgete juhiste andmine
 wrong_answers:
-  - Kasutage kuumat rahakotti
-  - Kasutage külma rahakotti
-  - Kasutage mitte-KYC lahendust
+  - Kõigi privaatvõtmete usaldamine
+  - Sageli muutuvad paroolid
+  - KYC Exchange platvormi kasutamine
 explanation: |
-  Soovitatud lahendus korduvateks Bitcoin'i ostudeks ilma stressita
-  on kasutada DCA (Dollar Cost Averaging) lahendust. See strateegia hõlmab
-  kogu investeerimissoovi summa jaotamist perioodiliste ostude vahel, et vähendada
-  volatiilsuse mõju.
+  Üksikasjalikud ja arusaadavad juhised tagavad, et teie lähedased saavad rahalistele vahenditele nõuetekohaselt ligi.
 reviewed: false

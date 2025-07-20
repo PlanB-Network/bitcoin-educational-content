@@ -1,0 +1,9 @@
+question: Šta znači akronim UTXO na engleskom?
+answer: Neutrošeni izlaz transakcije
+wrong_answers:
+  - Ujedinjeni izlaz transakcije
+  - Samo korisnička transakcija
+  - Opcija razmene utility tokena
+explanation: |
+  UTXO je izlaz transakcije koji još nije potrošen.
+reviewed: false

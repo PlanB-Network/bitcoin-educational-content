@@ -1,9 +1,9 @@
-question: Was ist ein häufiger Betrug im Bereich der finanziellen Investition?
-answer: Pyramidensysteme.
+question: Was ist der Hauptvorteil der Verwendung eines Passwortmanagers?
+answer: Es speichert und generiert komplexe Passwörter
 wrong_answers:
-  - Verkauf von physischen Gütern.
-  - Verkauf von Softwareprodukten.
-  - Verkauf von Fiat-Währung.
+  - Es bietet Hinweise, um sich an Ihre Passwörter zu erinnern
+  - Es werden dieselben Passwörter für verschiedene Online-Konten wiederverwendet
+  - Ersetzt die Notwendigkeit von Antiviren-Software
 explanation: |
-  Im Bereich der finanziellen Investitionen sind Pyramidensysteme und Ponzi-Systeme als illegale Modelle bekannt. Sie funktionieren, indem sie das Geld neuer Investoren verwenden, um ältere Teilnehmer auszuzahlen.
+  Der Passwort-Manager erstellt starke Passwörter und speichert sie sicher, so dass sie leicht abgerufen werden können, ohne dass man sie sich merken muss.
 reviewed: false

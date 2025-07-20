@@ -1,14 +1,9 @@
-question: Jaka jest główna korzyść z korzystania z VPN?
-answer: Chroni prywatność użytkownika, maskując jego adres IP Address
+question: Dlaczego ochrona frazy Mnemonic jest ważna?
+answer: Ponieważ jego utrata skutkuje trwałą utratą bitcoinów
 wrong_answers:
-  - Przyspiesza połączenie internetowe
-  - Zapewnia bezpłatny dostęp do płatnych usług
-  - Chroni komputer przed wirusami
+  - Ponieważ Blockchain jest zbyt długi, aby go zregenerować
+  - Ponieważ jego utrata prowadzi do wycieku danych osobowych
+  - Ponieważ platformy Exchange wymagają wielu dokumentów do regeneracji
 explanation: |
-  VPN, czyli wirtualna sieć prywatna, chroni prywatność użytkownika poprzez maskowanie
-  użytkownika
-  
-  IP Address. Chociaż nie zapewnia to całkowitej anonimowości, jest to nadal proste rozwiązanie
-  
-  i skuteczny krok w celu poprawy prywatności w Internecie"
+  Fraza Mnemonic umożliwia odzyskanie dostępu. Jeśli zostanie utracony, a Wallet nie będzie już dostępny na jego urządzeniu, bitcoiny zostaną trwale utracone.
 reviewed: false

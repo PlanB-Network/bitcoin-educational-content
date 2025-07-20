@@ -1,0 +1,12 @@
+question: Koje je predloženo rešenje za ponavljajuće kupovine Bitcoin bez stresa?
+answer: Koristite DCA rešenje
+wrong_answers:
+  - Koristite Hot Wallet
+  - Koristi Cold Wallet
+  - Koristite rešenje bez KYC-a
+explanation: |
+  Predloženo rešenje za ponavljajuće kupovine Bitcoin bez stresa
+  je korišćenje DCA (Dollar Cost Averaging) rešenja. Ova strategija podrazumeva
+  podelu ukupnog iznosa koji želite da investirate na periodične kupovine kako biste smanjili uticaj
+  volatilnosti.
+reviewed: false

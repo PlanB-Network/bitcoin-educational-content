@@ -1,0 +1,9 @@
+question: ファイルやフォルダを視覚的にナビゲートするために使用されるデスクトップ環境のコンポーネントは？
+answer: ファイルマネージャー
+wrong_answers:
+  - セッションマネージャー
+  - コンポーザーX11
+  - パッケージマネージャー
+explanation: |
+  ファイル・マネージャー（Nautilus、Dolphin、Thunarなど）は、グラフィカルなInterfaceでファイルやフォルダを管理できる。
+reviewed: false

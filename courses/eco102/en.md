@@ -79,6 +79,18 @@ When he was elected as a deputy, it was during the Second Republic, and from tha
 
 ![image](assets/en/006.webp)
 
+---
+
+>**NATIONAL WORKSHOPS**  
+>**AGENDA.**
+>Whereas the workers enrolled in the National Workshops have justly requested that the available work be distributed among them as equally and fairly as possible;  
+>Whereas work exists only for 16,000 men, and the number of enrolled men exceeds 50,000;  
+>It is agreed that, until further notice and pending better arrangements, each company shall work two days per week starting Monday the 17th.  
+>_The Commissioner of the Republic, Director of the National Workshops,_  
+>**Émile THOMAS.**
+
+---
+
 And he realized that fundamentally, nothing had really changed. People disposed of others' property through voting and the law, what he called legal plunder. This phenomenon of legal plunder was at the center of his work, especially in this short text he wrote towards the end of his life, "The Law," where he contrasts legal plunder with property, the right to property. He shows that, fundamentally, the real solution to the social problem is freedom, that is, property, the control over oneself and the fruits of one's labor.
 
 In this course, we will travel together through the thought of Frédéric Bastiat, starting from the influences of the authors who shaped him very early on in his youth, then we will look into his economic sophisms, and finally, we will conclude with this great text, "The Law," which will introduce us to the analysis of the political market, to the analysis of society.
@@ -158,6 +170,14 @@ What Adam Smith shows is that one can only serve one's own interest by serving t
 > Give me what I need, and you will have from me what you need yourselves. (...) It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.  
 
 ![image](assets/en/017.webp)
+
+---
+
+>“The natural effort of every individual to better his own condition... is so powerful, that it is alone, and without any assistance, not only capable of carrying on the society to wealth and prosperity, but of surmounting a hundred impertinent obstructions with which the folly of human laws too often encumbers its operations.”  
+>_The Wealth of Nations_  
+>_Book IV, Chapter V_
+
+---
 
 Exchange is a positive-sum game. What one gains, the other also gains. It thus differs from political redistribution where there is always a winner and a loser. If we consider the English school, for Smith, for Ricardo, and for Locke before them, value is linked to labor. For Marx, it is the same.
 
@@ -365,9 +385,14 @@ Bastiat indeed considers Rousseau to be the true precursor of socialism and coll
 
 Initially, man is merely a bourgeois. But the bourgeois is a calculator; he wants his immediate pleasure, he is enslaved to his senses, to his desires, to his particular interest. In short, he is not rational, therefore he is not free. He needs to be educated, to understand that his true interest is the general interest. This is why Rousseau wrote in The Social Contract:
 
-> Whoever refuses to obey the general will shall be compelled by the whole body: this means nothing else but that they will be forced to be free.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Whoever refuses to obey the general will shall be compelled to do so by the entire body: which means nothing else than that he will be forced to be free.  
+>(Jean-Jacques Rousseau)
+
+---
 
 According to this doctrine, man has two wills within him: a will that tends towards personal interest, that of the bourgeois, and a will that tends towards the general interest, that of the citizen. Leading men, even by force, to want a rational end, the general interest, is leading men to become free. What they truly want is a rational end, even if they do not know it.
 
@@ -445,6 +470,14 @@ Protectionism is, in reality, a form of economic nationalism. It aims to elimina
 ![image](assets/en/058.webp)
 _an example of promotional advertising of a blender produced in France_
 
+---
+
+>Our meeting with Arnaud Montebourg  
+>Made in France,  
+>he believes in it, we tested it
+
+---
+
 The argument for job protection is what Bastiat calls a fallacy. Because in reality, it is equivalent to a tax. It has the effect of making products more expensive. Let's take the example given by Bastiat himself.
 
 Imagine an English knife that sells in our country for 2 euros, and a knife made in France costs € 3. If we let the consumer freely buy the knife he wants, he saves 1 euro, which he can invest elsewhere (in a book, or a pencil).
@@ -480,6 +513,14 @@ And he would continue to analyze its perverse effects thereafter. Here is one ex
 - 3° Bastiat adds that in his view, protectionism was the first manifestation of this disorder. The capitalists began by asking for the law's intervention to increase their share of wealth. Inevitably, the workers wanted to do the same.
 
 ![image](assets/en/063.webp)
+
+---
+
+>TO SUCCEED  
+>VOTE SOCIALIST SFIO
+
+---
+
 To conclude, protectionists and socialists share a common point, according to Bastiat: what they seek from the law is not to ensure everyone the free exercise of their faculties and the fair reward for their efforts, but rather to favor the more or less complete exploitation of one class of citizens by another. With protectionism, it is the minority that exploits the majority. With socialism, it is the majority that exploits the minority. In both cases, justice is violated and the general interest is compromised. Bastiat sets them against each other.
 
 > The state is the great fiction through which everyone endeavors to live at the expense of everyone else.  
@@ -593,6 +634,12 @@ _above: Marine Le Pen, a French politician_
 Bastiat then composed a satirical text that later became one of his most famous works: "the petition of the candle makers". It illustrates how certain well-organized pressure groups of producers obtain undue privileges from the state, to the detriment of the citizens. At the same time, it demonstrates the absurd and destructive nature of protectionist legislation.
 
 ![image](assets/en/079.webp)
+
+---
+
+>PROTECT OUR CANDLES!
+
+---
 
 In this petition, the candle makers ask the deputies for legal protection against a dangerous rival:
 
@@ -895,6 +942,12 @@ It is because man risks making mistakes or acting wrongly and suffering the cons
 
 ![image](assets/en/110.webp)
 
+---
+
+>To err is human.
+
+---
+
 Thus, it is clear that Bastiat is far from being blind. He does not deny the existence of evil. Man is weak, prone to error and fault. Nowhere will one see Bastiat deny the fact that the exercise of individual freedom is associated with the possibility of error, the possibility of an unreasonable or senseless choice.
 
 He simply asserts that if the source of evil lies in the absence of freedom, the remedy is in freedom itself, and more specifically in the full and entire exercise of personal responsibility.
@@ -934,6 +987,14 @@ And again:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Mutual Aid  
+>Society of GUISY  
+>1899
+
+---
+
 However, according to Bastiat, there is an alternative to mandatory state solidarity: "mutual aid society", the mutual and spontaneous assistance of men among themselves thanks to mutual aid societies. But he also foresaw that the State would eventually seize these mutuals to make them a unique and centralized body, encouraging spending and waste.
 
 ![image](assets/en/117.webp)
@@ -941,6 +1002,16 @@ However, according to Bastiat, there is an alternative to mandatory state solida
 In a pamphlet named "Justice and Fraternity", Bastiat also explores the idea of a simplified and fair tax system for financing collective needs (police, justice, army): incomes and profits would be subject to a single and proportional tax rate. This is what is known today as the "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Foundations –  
+>**added value**  
+>for **society**  
+>
+>SwissFoundations
+
+---
 
 Indeed, intra-family solidarity, local solidarity, or organized philanthropy are much more developed in countries that have a light tax system and a relatively high degree of economic freedom, such as Switzerland and the United States, whereas it is largely stifled in countries where the State has largely replaced individual responsibility, like France or Germany.
 

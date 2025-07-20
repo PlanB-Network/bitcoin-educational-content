@@ -1,0 +1,9 @@
+question: Jaka jest główna funkcja jądra w systemie operacyjnym?
+answer: Zarządzanie dostępem do urządzeń
+wrong_answers:
+  - Pokaż reklamy
+  - Zarządzanie kontami użytkowników
+  - Automatyczne instalowanie aplikacji
+explanation: |
+  Jądro zarządza dostępem do sprzętu, współbieżnym wykonywaniem procesów i bezpieczeństwem, jednocześnie ukrywając złożoność obwodu przed użytkownikiem.
+reviewed: false

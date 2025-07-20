@@ -1,0 +1,9 @@
+question: Waar publiceerde Satoshi Nakamoto het Bitcoin witboek op 31 oktober 2008?
+answer: De mailinglijst voor cryptografie
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Als opvolger van de cypherpunks mailinglijst werd deze e-mail mailinglijst sinds 1996 beheerd door ontwikkelaar Perry Metzger.
+reviewed: true

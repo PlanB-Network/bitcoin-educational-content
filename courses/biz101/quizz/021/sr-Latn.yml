@@ -1,0 +1,9 @@
+question: Zašto bi kompanija razmotrila držanje Bitcoin umesto tradicionalnih "sigurnih" sredstava kao što je nekretnina?
+answer: Bitcoin potencijalno može nadmašiti stvarnu inflaciju i nije vezan za nelikvidnost i troškove održavanja nekretnina.
+wrong_answers:
+  - Nekretnine su uvek jeftinije od Bitcoin i nikada ne zahtevaju održavanje.
+  - Bitcoin pruža državne garancije koje nekretnine ne nude.
+  - Nekretnine rastu brže od Bitcoin u svim tržišnim uslovima.
+explanation: |
+  Nekretnine često uključuju ograničenja likvidnosti i stalne troškove, i možda neće pratiti skrivenu inflaciju u monetarnom sistemu zasnovanom na dugu. Osnovna vrednost retkosti i globalnog dosega Bitcoin nudi jedinstvenu ponudu za očuvanje vrednosti koja može nadmašiti tradicionalne aktive na duži rok.
+reviewed: false

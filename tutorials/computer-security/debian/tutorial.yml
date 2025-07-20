@@ -1,0 +1,19 @@
+id: d09a57ec-8372-40ca-bcff-499415209e1f
+project_id: 546548af-8e2f-4878-a4fb-1080bc048b81
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+category: operating system
+level: beginner
+tags:
+  - software
+  - guides
+  - user-friendly
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-16
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

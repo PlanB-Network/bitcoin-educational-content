@@ -1,0 +1,8 @@
+question: Koja je svrha prilagođavanja težine u rudarenju bitkoina?
+answer: Ona ponovo uspostavlja ravnotežu globalne igre rudarenja na osnovu broja učesnika.
+wrong_answers:
+  - Povećava nagradu za rudarenje.
+  - Smanjuje broj bitkoina u opticaju.
+  - Povećava sigurnost Bitkoin mreže.
+explanation: >-
+reviewed: true

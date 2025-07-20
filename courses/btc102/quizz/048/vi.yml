@@ -1,11 +1,9 @@
-question: Đặc điểm chính của một blockchain không có bằng chứng công việc là gì?
-answer: Nó không có giá trị thực sự
+question: Chiến lược đầu tư nào thường được các nhà đầu tư sử dụng?
+answer: Trung bình chi phí đô la
 wrong_answers:
-  - Nó an toàn hơn
-  - Nó nhanh hơn
-  - Nó phân quyền hơn
+  - Giao dịch trong ngày
+  - Trọng tài
+  - Tổng số tiền
 explanation: |
-  Nội dung chương chỉ ra rằng không có bằng chứng công việc, một blockchain
-  không có giá trị thực sự. Đây là một đặc điểm quan trọng làm nên sự khác biệt của Bitcoin so với các
-  loại tiền mã hóa khác.
+  DCA liên quan đến việc đầu tư một số tiền cố định thường xuyên để giảm tác động của biến động thị trường lên danh mục đầu tư.
 reviewed: false

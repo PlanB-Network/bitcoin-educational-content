@@ -1,11 +1,9 @@
-question: Je, kazi kuu ya kidhibiti nenosiri ni nini?
-answer: Ili kuhifadhi na kudhibiti manenosiri yako
+question: Kwa nini usalama wa mtandaoni ni muhimu kwa watumiaji wa Bitcoin?
+answer: Kwa sababu utapeli husababisha upotezaji usioweza kutenduliwa wa bitcoins
 wrong_answers:
-  - Kwa generate nywila nasibu
-  - Ili kukumbuka majina yako ya watumiaji
-  - Ili kulinda kompyuta yako kutoka kwa virusi
+  - Kwa sababu benki huhakikisha fedha katika kesi ya hasara ya jumla ya Bitcoin
+  - Kwa sababu mtu anaweza kwenda jela kwa kupoteza bitcoins
+  - Kwa sababu mashambulizi husababisha mizigo mizito sana ya kiutawala
 explanation: |
-  Kidhibiti cha nenosiri ni programu inayohifadhi na kudhibiti manenosiri yako.
-  Inakusaidia usiwahi kutumia nenosiri sawa mara mbili, kuchagua nywila ngumu na salama,
-  na kuwezesha usimamizi wako wa usalama mtandaoni.'
+  Bila waamuzi, utapeli unamaanisha upotezaji wa uhakika wa bitcoins.
 reviewed: false

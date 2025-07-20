@@ -1,0 +1,21 @@
+id: a2d1684c-67b0-4b16-b7e5-277a82c31483
+name: African Bitcoiners
+category: education
+
+links:
+  website: https://bitcoiners.africa
+  twitter: https://twitter.com/afribitcoiners
+
+tags:
+  - adoption
+  - easy-explain
+  - evaluation
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-05-11
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

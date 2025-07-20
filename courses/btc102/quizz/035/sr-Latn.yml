@@ -1,0 +1,9 @@
+question: Ko je opisao Bitcoin kao švajcarsku banku u vašem džepu?
+answer: Barack Obama
+wrong_answers:
+  - Donald Trump
+  - Bill Gates
+  - Elon Musk
+explanation: |
+  Poglavlje pominje da je Barack Obama jednom opisao Bitcoin kao švajcarsku banku u vašem džepu.
+reviewed: false

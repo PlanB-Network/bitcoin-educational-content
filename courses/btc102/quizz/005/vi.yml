@@ -1,9 +1,9 @@
-question: Khóa học của trường đại học này tập trung vào vấn đề gì?
-answer: Vũ trụ Bitcoin.
+question: Tại sao nên sử dụng xác thực hai yếu tố?
+answer: Nó bổ sung thêm một Layer về bảo mật
 wrong_answers:
-  - Ngành công nghiệp tiền mã hóa toàn cầu.
-  - Ngành công nghiệp fintech.
-  - Ngành công nghiệp blockchain.
+  - Nó đơn giản hóa việc truy cập bằng cách giảm số lượng mã
+  - Nó cho phép đăng nhập mà không cần mật khẩu
+  - Nó thay thế việc sử dụng trình quản lý mật khẩu
 explanation: |
-  Toàn bộ sự tập trung của trường đại học này là vào vũ trụ Bitcoin, không phải tiền mã hóa.
+  2FA yêu cầu một mã tạm thời ngoài mật khẩu, giúp tăng cường đáng kể khả năng bảo vệ tài khoản trực tuyến.
 reviewed: false

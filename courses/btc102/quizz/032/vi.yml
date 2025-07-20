@@ -1,9 +1,9 @@
-question: Ý nghĩa của việc Bitcoin được coi là một sự đổi mới từ 0 đến 1 là gì?
-answer: Nó làm thay đổi các chuẩn mực và thói quen của chúng ta
+question: Cơ chế RGB nào đảm bảo khả năng chống lại chi tiêu gấp đôi?
+answer: Single-Use Seal
 wrong_answers:
-  - Đó là đồng tiền kỹ thuật số đầu tiên
-  - Giá trị của nó đã tăng từ 0 lên 1
-  - Đó là bước đầu tiên hướng tới một xã hội không dùng tiền mặt
+  - Seal đa dụng
+  - Chữ ký kép
+  - Bằng chứng cổ phần
 explanation: |
-  Thuật ngữ từ 0 đến 1 ám chỉ một sự đổi mới lớn làm xáo trộn các chuẩn mực và thói quen hiện tại. Bitcoin được coi là một sự đổi mới như vậy do các đặc tính độc đáo và khả năng ảnh hưởng tiềm năng đến xã hội.
+  Single-Use Seal tận dụng thực tế là UTXO chỉ có thể được chi tiêu một lần, đảm bảo khả năng chống lại việc chi tiêu gấp đôi trong các hợp đồng thông minh RGB.
 reviewed: false

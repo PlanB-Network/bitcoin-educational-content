@@ -1,0 +1,9 @@
+question: Koji detalj NIJE eksplicitno dokumentovan u tipičnoj Bitcoin transakciji csv datoteci kako je opisano u kursu?
+answer: Tip korišćenog pisma
+wrong_answers:
+  - Datum transakcije
+  - Ekvivalentna fiat vrednost
+  - Bitcoin adrese uključene
+explanation: |
+  Tipična Bitcoin transakcija u csv fajlu obično navodi datum, iznos, fiat ekvivalent i Bitcoin adrese, ali ne i tip skripte koji je korišćen.
+reviewed: false

@@ -1,11 +1,9 @@
-question: 政府和中央銀行探索創造法定貨幣數位版本可能性的主要原因是什麼？
-answer: 確保控制並符合當地法規
+question: hodler 的主要目標是什麼？
+answer: 長期持有比特幣
 wrong_answers:
-  - 與 Bitcoin 競爭
-  - 提供隱私權保護
-  - 加強大規模監控
+  - 短線投機
+  - 進行頻繁的 Bitcoin 交易
+  - 為了最大化其 Bitcoin 交易的隱私性
 explanation: |
-  本章內容說明，雖然這些專案聲稱與 Bitcoin
-  與 Bitcoin 競爭，但為了確保控制和遵守當地法規，這些專案仍維持集中管理。
-  當地法規。
+  囤積者的目的是將其比特幣保存多年，以便從資產的假定增長中獲益。
 reviewed: false

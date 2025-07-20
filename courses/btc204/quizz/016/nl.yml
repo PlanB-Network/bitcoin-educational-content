@@ -1,0 +1,9 @@
+question: Welke van de antwoorden vertegenwoordigt een van de belangrijkste doelen van ketenanalyse?
+answer: Groepeer verschillende activiteiten op Bitcoin om de uniciteit van de gebruiker te bepalen.
+wrong_answers:
+  - Mining prestaties op het netwerk optimaliseren.
+  - Rechtspraak toepassen op het protocol om de wet te handhaven volgens de jurisdictie.
+  - De vertrouwelijkheid van Bitcoin transacties verhogen.
+explanation: |
+  Eén van de doelen van ketenanalyse is het groeperen van verschillende activiteiten op Bitcoin om de uniciteit van de gebruiker die ze uitvoerde te bepalen. Vervolgens kan geprobeerd worden deze bundel activiteiten te koppelen aan een echte identiteit.
+reviewed: false

@@ -2060,7 +2060,7 @@ Whirlpoolin kautta tapahtuvaa kolikkoliitosta varten lompakon on luotava useita 
 
 ![BTC204](assets/fr/143.webp)
 
-HD-lompakko voi teoriassa johtaa jopa `2^(32/2)` eri tilejä. Alkuperäinen tili, jota käytetään oletuksena kaikissa Bitcoin-lompakoissa, vastaa `0'`-indeksiä.
+HD-lompakko voi teoriassa johtaa jopa `2^(31)` eri tilejä. Alkuperäinen tili, jota käytetään oletuksena kaikissa Bitcoin-lompakoissa, vastaa `0'`-indeksiä.
 
 Whirlpooliin mukautetuissa salkuissa käytetään 4 tiliä ZeroLink-prosessin tarpeiden täyttämiseksi:
 
@@ -2525,8 +2525,7 @@ Olisi kuitenkin mielenkiintoista, että transaktiorakenteet mahdollistaisivat ma
 
 Payjoin on erityinen Bitcoin-tapahtumarakenne, joka parantaa käyttäjän yksityisyyttä rahankäytön yhteydessä tekemällä yhteistyötä maksun vastaanottajan kanssa.
 
-LaurentMT viittasi tähän menetelmään ensimmäisen kerran nimellä "*steganografiset transaktiot*" vuonna 2015 [täällä] olevan asiakirjan mukaan (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Sittemmin tekniikan otti käyttöön Samourai Wallet, josta tuli vuonna 2018 ensimmäinen asiakas, joka otti sen käyttöön Stowaway-työkalulla. Payjoinin käsite löytyy myös [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) ja [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Payjoinista käytetään useita termejä:
-
+Vuonna 2015 LaurentMT esitteli ensimmäisen kerran tämän menetelmän nimellä "*steganographic transactions*", kuten tässä [dokumentissa](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) näkyy. Tämän tekniikan otti myöhemmin käyttöön Samourai Wallet, joka vuonna 2018 oli ensimmäinen asiakas, joka toteutti sen Stowaway-työkalulla. Payjoin-käsite esiintyy myös [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) ja [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/) asiakirjoissa. Useita termejä käytetään viittaamaan payjoiniin:
 
 - Payjoin ;
 - Salamatkustaja;
@@ -2950,13 +2949,13 @@ BIP156:n tavoitteena on puuttua tähän ongelmaan. Tätä varten siinä otetaan 
 
 ![BTC204](assets/fr/205.webp)
 
-Tämän jälkeen transaktio jaetaan koko verkolle "antautumisvaiheessa".
+Tämän jälkeen tapahtuma lähetetään koko verkkoon "Fluff"-vaiheessa.
 
 ![BTC204](assets/fr/206.webp)
 
-Varsi ja kukkapää viittaavat transaktion etenemiseen verkossa, joka muistuttaa voikukan muotoa.
+Varsi ja "Fluff"-vaihe viittaavat tapahtuman leviämiskäyttäytymiseen verkossa, joka muistuttaa voikukan (englanniksi "Dandelion") muotoa ja kehitystä.
 
-Näin ollen vakoilusolmut voivat mahdollisesti jäljittää tapahtuman takaisin kapitulaatiovaiheen (joukkolähetys) aloittaneeseen solmuun, mutta tämä solmu ei ole se, joka lähetti tapahtuman ensimmäisenä, sillä se sai sen varren viimeiseltä solmulta. Jos vakoilusolmut eivät voi jäljittää varren kulkua, ne eivät voi myöskään tunnistaa lähdesolmua.
+Vakoilunoodit voivat siten mahdollisesti jäljittää tapahtuman siihen noodin, joka aloitti "Fluff"-vaiheen (massalähetyksen), mutta kyseinen noodi ei ole se, joka alun perin lähetti tapahtuman, koska se vastaanotti sen varren viimeiseltä noodilta. Jos vakoilunoodit eivät pysty jäljittämään vartta, ne eivät voi myöskään tunnistaa lähdenoodia.
 
 ![BTC204](assets/fr/207.webp)
 

@@ -1,0 +1,9 @@
+question: Koja metoda se koristi u RGB za definisanje Single-Use Seal?
+answer: Određeni outpoint
+wrong_answers:
+  - Određeni javni ključ
+  - A specific Bitcoin Address
+  - Kombinacija nekoliko UTXO-a
+explanation: |
+  RGB definiše Single-Use Seal kao specifičnu tačku, koja se zatim može zatvoriti trošenjem ove tačke (txid + izlazni broj).
+reviewed: false

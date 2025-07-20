@@ -1,9 +1,9 @@
-question: Was ist der Zweck von Bitcoin-Wallets?
-answer: Um Bitcoins zu senden und zu empfangen
+question: Welche sind Bitcoin-Seitenketten?
+answer: Liquid und Wurzelstock
 wrong_answers:
-  - Um Bitcoins zu schürfen
-  - Um physische Bitcoins zu speichern
-  - Um Bitcoins in andere Währungen umzuwandeln
+  - Polygon und Arbitrum
+  - Jupiter und Fantom
+  - Bitcoin Cash und Bitcoin Satoshi Vision
 explanation: |
-  Bitcoin-Wallets werden verwendet, um Bitcoins zu senden und zu empfangen. Es handelt sich um digitale Wallets, die die digitalen Zugangsdaten speichern, die erforderlich sind, um auf eine Bitcoin-Adresse zuzugreifen und die Bitcoins auszugeben.
+  Liquid und RSK sind Sidechains, die eine 2-Wege-Verbindung mit Bitcoin haben. Die anderen Optionen sind keine Sidechains oder haben keinen 2WP mit dem Bitcoin Blockchain.
 reviewed: false

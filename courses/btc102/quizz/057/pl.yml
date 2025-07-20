@@ -1,10 +1,9 @@
-question: Co oznacza skrót DCA w kontekście inwestycji Bitcoin?
-answer: Uśrednianie kosztu dolara
+question: Której metody pozyskiwania unika paranoiczny użytkownik?
+answer: Scentralizowane platformy z KYC
 wrong_answers:
-  - Bezpośrednie nabycie waluty
-  - Alokacja monet cyfrowych
-  - Zdecentralizowane aktywa kryptograficzne
+  - Platformy dobierania graczy w P2P
+  - Bankomaty Bitcoin
+  - Bezpośrednie zakupy gotówkowe na spotkaniach
 explanation: |
-  Dollar Cost Averaging (DCA) to strategia polegająca na dzieleniu całkowitej
-  kwotę, którą chcesz zainwestować, na okresowe zakupy, aby zmniejszyć wpływ zmienności.
+  Aby zachować anonimowość, paranoiczny użytkownik unika platform, które wymagają weryfikacji tożsamości.
 reviewed: false

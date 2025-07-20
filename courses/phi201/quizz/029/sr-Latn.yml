@@ -1,0 +1,9 @@
+question: Ko su bili prvi filozofi koji su nastojali da razumeju prirodu kroz razum?
+answer: Predsokratski filozofi
+wrong_answers:
+  - Grčki sveštenici
+  - Grčki pesnici
+  - Grčki matematičari
+explanation: |
+  Predsokratski filozofi su prvi koristili razum kako bi pokušali da razumeju prirodu, tražeći racionalne i univerzalne principe za objašnjenje sveta, nezavisno od mitoloških objašnjenja.
+reviewed: false

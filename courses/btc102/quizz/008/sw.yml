@@ -1,11 +1,9 @@
-question: Kusudi kuu la sasisho la programu ni nini?
-answer: Ili kurekebisha hitilafu na kuboresha usalama wa programu yako
+question: Kwa nini ni muhimu kusasisha mfumo na programu yako mara kwa mara?
+answer: Ili kurekebisha udhaifu wa usalama unaojulikana
 wrong_answers:
-  - Ili kuongeza vipengele vipya
-  - Ili kubadilisha programu Interface
-  - Ili kuongeza saizi ya programu
+  - Ili kuboresha kasi ya Kompyuta na hivyo kujibu kwa haraka zaidi mashambulizi ya mtandaoni
+  - Ili kuongeza vipengele vya udukuzi
+  - Ili kuboresha uoanifu wa mchezo wa video na Bitcoin
 explanation: |
-  Ingawa masasisho ya programu mara nyingi huja na vipengele vipya, madhumuni yao kuu
-  ni kurekebisha hitilafu na kuboresha usalama wa programu. Hii ni muhimu kutunza
-  kompyuta yako katika hali bora ya kufanya kazi.
+  Masasisho mara nyingi hurekebisha udhaifu unaojulikana ambao hutumiwa na wadukuzi.
 reviewed: false

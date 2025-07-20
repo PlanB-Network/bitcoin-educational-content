@@ -83,6 +83,18 @@ Quand il a été élu député, c'était donc la Seconde République et désorma
 
 ![image](assets/en/006.webp)
 
+---
+
+>**ATELIERS NATIONAUX**  
+>**ORDRE DU JOUR.**
+>Attendu que les travailleurs embrigadés aux Ateliers Nationaux ont demandé, avec justice, que le travail disponible fût réparti entre eux de la manière la plus égale et la plus équitable ;
+>Attendu qu’il n’existe de travaux que pour 16,000 hommes, et que le nombre d’hommes embrigadés dépasse 50,000 ;
+>Il est convenu que jusqu’à nouvel ordre, et en attendant mieux, chaque compagnie, à partir de Lundi 17, travaillera 2 jours par semaine.
+>_Le Commissaire de la République, Directeur des Ateliers Nationaux,_
+>**Émile THOMAS.**
+
+---
+
 Et il s'est rendu compte qu'au fond, rien n'avait vraiment changé. On disposait des biens des autres par le vote, par la loi, ce qu'il a appelé la spoliation légale. Et ce phénomène de la spoliation légale a été au centre de son œuvre et notamment de ce petit texte qu'il a écrit à la fin de sa vie, La loi, où il oppose la spoliation légale et la propriété, le droit de propriété. Et il montre qu'au fond, la véritable solution du problème social, c'est la liberté, c'est-à-dire la propriété, la disposition de soi et du fruit de son travail.
 
 Dans ce cours, nous allons donc voyager ensemble à travers la pensée de Frédéric Bastiat, en partant des influences de ses auteurs qui l'ont formé très tôt dès sa jeunesse, puis nous intéresserons à ses sophismes économiques, et enfin nous terminerons avec ce grand texte qui est La loi et qui nous introduira à l'analyse du marché politique, à l'analyse de la société.
@@ -172,6 +184,14 @@ Ce que montre Adam Smith, c’est qu’on ne peut servir son propre intérêt qu
 
 ![image](assets/en/017.webp)
 
+---
+
+>« L'effort naturel de chaque individu pour améliorer sa propre condition... est si puissant qu’il est, à lui seul et sans aucune aide, non seulement capable de conduire la société vers la richesse et la prospérité, mais aussi de surmonter une centaine d'obstacles importuns que la folie des lois humaines entrave trop souvent dans son fonctionnement. »  
+>_La Richesse des Nations_  
+>_Livre IV, Chapitre V_
+
+---
+
 L’échange est un jeu à somme positive. Ce que l’un gagne, l’autre le gagne aussi. Il se distingue ainsi de la redistribution politique où il y a toujours un gagnant et un perdant. Si l’on considère l’école anglaise, pour Smith, pour Ricardo et pour Locke avant eux, la valeur est liée au travail. Pour Marx il en va de même.
 
 ![image](assets/en/018.webp)
@@ -184,6 +204,12 @@ Mais Bastiat va également nuancer Say sur ce point. Il ne s'agit pas de l'utili
 L’économie obéit à un certain nombre de lois simples tirées du comportement humain. L’une d’elles, appelée « loi de Say », est la suivante : « Les produits et les services s’échangent contre des produits et des services ». Son idée c’est que les nations et les personnes profitent de la hausse du niveau de production car elle offre des possibilités accrues d’échanges mutuellement bénéfiques.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Liberté individuelle = Harmonie sociale
+
+---
 
 En effet, les produits ne sont achetés qu’en vue des services qu’en escompte l’acheteur : j’achète un disque pour la musique que j’écouterai, j’achète un ticket de cinéma pour le film que j’irai voir. Et dans un échange, chaque partie se décide parce qu’elle juge pouvoir tirer, de ce qu’elle acquiert, plus de services que ce qu’elle cède. Dans ce cadre, la monnaie n’est qu’une marchandise intermédiaire, elle rémunère un service rendu et ouvre sur d’autres services.
 

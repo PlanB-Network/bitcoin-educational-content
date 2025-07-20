@@ -1,0 +1,12 @@
+question: Koja je bila uloga svetskih banaka tokom perioda hiperinflacije u Zimbabveu i Vajmarskoj Republici?
+answer: Pružili su utočište onima koji žele zaštititi svoju imovinu od devalvacije.
+wrong_answers:
+  - Oni su štampali nove novčanice da preplave tržište.
+  - Regulisali su Exchange kurs nacionalne valute.
+  - Oni su obezbedili zajmove vladi.
+explanation: |
+  U situacijama hiperinflacije ili monetarne krize, paralelni i neregulisani
+  tržišta za strane valute imaju tendenciju da se šire. Ove neformalne banke, često
+  humoristično nazivane svetskim bankama ili drugim lokalnim imenima, pružaju utočište
+  onima koji žele da zaštite svoju imovinu od devalvacije.
+reviewed: false

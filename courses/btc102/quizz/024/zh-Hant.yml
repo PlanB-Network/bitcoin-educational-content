@@ -1,11 +1,9 @@
-question: 在 Bitcoin 投資中保持謙虛和謹慎的重要性是什麼？
-answer: 如果您暴露自己，您就會成為潛在的目標，增加自己和家人的風險。
+question: Barack Obama 如何形容 Bitcoin？
+answer: 口袋裡的瑞士銀行
 wrong_answers:
-  - 只要保持謙虛和謹慎，就能避免引起其他投資人的注意。
-  - 只要保持謙虛和謹慎，就能避免引起 Bitcoin 社群的注意。
-  - 只要保持謙虛和謹慎，就能避免引起媒體的注意。
+  - 數位黃金
+  - 高度投機性資產
+  - 分散式貨幣
 explanation: |
-  在 Bitcoin 投資中，保持謙虛和謹慎是很重要的，因為
-  暴露自己，您就會成為潛在的目標，增加自己和家人的風險。
-  自己和家人的風險。
+  巴拉克-奧巴馬曾將 Bitcoin 稱為 「口袋裡的瑞士銀行」。事實上，Bitcoin 為每個人提供相同的機會，不論其身份如何，並允許 Confidential Transactions 的存在。
 reviewed: false

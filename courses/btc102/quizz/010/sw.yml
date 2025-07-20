@@ -1,11 +1,9 @@
-question: 2FA inawakilisha nini?
-answer: Uthibitishaji wa Mambo Mbili
+question: Kwa nini inashauriwa kuwa mwangalifu kuhusu umiliki wako wa Bitcoin?
+answer: Ili kuzuia kuvutia umakini wa wahalifu na serikali
 wrong_answers:
-  - Uidhinishaji wa Mambo Mbili
-  - Uthibitishaji wa Vipengele Mbili
-  - Uthibitishaji wa Kazi Mbili
+  - Ili kufaidika na viwango bora vya Exchange katika nchi fulani
+  - Ili kuzuia kuvutia umakini wa wajasiriamali wanaotafuta ufadhili
+  - Ili kuboresha uwezo wa kukopa
 explanation: |
-  2FA inasimamia Uthibitishaji wa Mambo Mbili. Inatoa nyongeza
-  Layer
-  ya usalama kwa akaunti zako nyeti zaidi.'
+  Busara hulinda dhidi ya hatari ya kulengwa na walaghai, watu wenye wivu au wezi.
 reviewed: false

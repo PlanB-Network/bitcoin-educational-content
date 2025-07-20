@@ -1,0 +1,9 @@
+question: Kakav je uticaj inflacije od 2% na kupovnu moć tokom 5 godina?
+answer: Gubite 10% svoje kupovne moći.
+wrong_answers:
+  - Gubite 2% svoje kupovne moći.
+  - Gubite 5% svoje kupovne moći.
+  - Izgubiš 20% svoje kupovne moći.
+explanation: |
+  Sa inflacijom od 2%, godišnje gubite 2% svoje kupovne moći, što iznosi 10% tokom 5 godina.
+reviewed: true

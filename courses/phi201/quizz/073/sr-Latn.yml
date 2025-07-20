@@ -1,0 +1,9 @@
+question: Koja je osnovna razlika između merkantilizma i slobodne trgovine prema fiziokratima?
+answer: Merkantilizam obogaćuje jednu naciju na račun drugih, dok slobodna trgovina obogaćuje sve nacije.
+wrong_answers:
+  - Merkantilizam je igra pozitivne sume, dok je slobodna trgovina igra nulte sume.
+  - Merkantilizam promoviše konkurenciju.
+  - Slobodna trgovina podstiče razmenu.
+explanation: |
+  Za fiziokrate, merkantilizam se zasniva na ideji da se nacija obogaćuje na račun drugih, dok slobodna trgovina omogućava uzajamne koristi, obogaćujući sve nacije kroz međusobno korisne razmene.
+reviewed: false

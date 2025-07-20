@@ -1,11 +1,9 @@
-question: Jakie są dwie cechy, które sprawiają, że Bitcoin jest tym, czym jest dzisiaj?
-answer: Jego otwarty kod źródłowy i jego rzadkość
+question: Co użytkownicy muszą przechowywać, aby naprawdę posiadać swoje bitcoiny?
+answer: Klucze prywatne
 wrong_answers:
-  - Jego anonimowość i decentralizacja
-  - Jego wysoka wartość i zmienność
-  - Łatwość użytkowania i globalna akceptacja
+  - Adresy odbioru
+  - Hasła platformy Exchange
+  - Bloki Blockchain
 explanation: |
-  Dwie główne cechy, które definiują Bitcoin, to jego otwarty kod źródłowy
-  który sprawia, że jest on przejrzysty, możliwy do skontrolowania i może być używany przez każdego, a także jego rzadkość,
-  co oznacza, że na świecie będzie tylko 21 milionów bitcoinów.
+  Bez posiadania kluczy prywatnych nie jesteś właścicielem swoich bitcoinów.
 reviewed: false

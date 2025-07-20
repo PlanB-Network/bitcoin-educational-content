@@ -1,0 +1,9 @@
+question: Koje su četiri komponente koje definišu RGB Contract?
+answer: Genesis, Schema, Interface i Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Transition and Interface Implementation
+  - Genesis, Interface, Transition and Extension
+  - Genesis, Interface, Interface Implementation i Extension
+explanation: |
+  An RGB Contract se sastoji od četiri različita Elements; Genesis, Schema, Interface i Interface Implementation.
+reviewed: false

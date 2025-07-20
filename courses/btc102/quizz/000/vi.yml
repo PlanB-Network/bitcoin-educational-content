@@ -1,9 +1,9 @@
-question: Đặc điểm chung của các kế hoạch Ponzi trong lĩnh vực tiền mã hóa là gì?
-answer: Họ sử dụng tiền của nhà đầu tư mới để trả cho những người tham gia trước đó.
+question: Những đặc điểm điển hình của mô hình Ponzi trong hệ sinh thái tiền điện tử là gì?
+answer: Lợi nhuận được đảm bảo, rút tiền khó khăn và giới thiệu
 wrong_answers:
-  - Luôn luôn liên quan đến Bitcoin.
-  - Luôn luôn hợp pháp và được quản lý.
-  - Luôn luôn liên quan đến tài sản vật lý.
+  - Lợi nhuận thấp, rút tiền khó khăn và minh bạch hoàn toàn
+  - Lợi nhuận được đảm bảo, rút tiền khó khăn và không có hệ thống giới thiệu
+  - Đảm bảo lợi nhuận, rút tiền dễ dàng và không có hệ thống giới thiệu
 explanation: |
-  Các kế hoạch Ponzi trong lĩnh vực tiền mã hóa thường hoạt động bằng cách sử dụng tiền của nhà đầu tư mới để trả cho những người tham gia trước đó. Bản chất không bền vững và sự phụ thuộc vào người mới khiến chúng có khả năng sẽ sụp đổ không thể tránh khỏi.
+  Những đặc điểm này có thể chỉ ra một mô hình kim tự tháp. Nếu bạn quan sát thấy chúng trong một dự án, hãy hết sức thận trọng.
 reviewed: false

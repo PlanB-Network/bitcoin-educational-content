@@ -1,11 +1,9 @@
-question: Qual é a principal característica de uma blockchain sem prova de trabalho?
-answer: Ela não tem valor real
+question: Que estratégia de investimento é utilizada principalmente por um empilhador?
+answer: Média do custo do dólar
 wrong_answers:
-  - É mais segura
-  - É mais rápida
-  - É mais descentralizada
+  - Negociação diária
+  - Arbitragem
+  - Montante fixo
 explanation: |
-  O conteúdo do capítulo afirma que, sem prova de trabalho, uma blockchain
-  não tem valor real. Essa é uma característica fundamental que diferencia o Bitcoin de outras
-  criptomoedas.
+  A DCA consiste em investir regularmente um montante fixo para reduzir o impacto da volatilidade do mercado na sua carteira.
 reviewed: false

@@ -1,0 +1,13 @@
+question: Vilka är de slutliga konsekvenserna av en räntesänkning till följd av en ökning av kreditgivningen enligt den österrikiska teorin om konjunkturcykeln?
+answer: Ekonomin går in i en recession; tillgångspriserna faller, reallönerna minskar, konsumentpriserna sjunker och lagren hopar sig.
+wrong_answers:
+  - Ekonomin går in i en högkonjunktur; tillgångspriserna stiger, reallönerna ökar, konsumentpriserna stiger och lagren minskar.
+  - Ekonomin går in i en stagnation; tillgångspriserna är oförändrade, reallönerna är oförändrade, konsumentpriserna är oförändrade och lagren är oförändrade.
+  - Ekonomin går in i en deflation; tillgångspriserna faller, reallönerna ökar, konsumentpriserna faller och lagren ökar.
+explanation: |
+  Enligt den österrikiska teorin om konjunkturcykeln, när det sker en
+  räntorna sjunker på grund av en ökning av kreditgivningen går ekonomin in i en
+  recession; tillgångspriserna faller, reallönerna minskar, konsumentpriserna sjunker och lagren
+  staplas på hög. Detta beror på att räntesänkningen leder till en felallokering av
+  av kapital, vilket i slutändan leder till en recession.
+reviewed: true

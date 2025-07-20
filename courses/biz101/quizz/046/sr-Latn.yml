@@ -1,0 +1,9 @@
+question: Koja je primarna funkcija valute?
+answer: Da deluje kao posrednik koji pojednostavljuje Exchange vrednosti
+wrong_answers:
+  - Da se unutrašnja vrednost sačuva u fizičkom obliku
+  - Da bi se potpuno zamenila razmena direktnom robom-za-robu Exchange
+  - Da centralizuje sve ekonomske transakcije kroz jedan autoritet
+explanation: |
+  Valuta pojednostavljuje trgovinu služeći kao zajedničko sredstvo koje smanjuje složenu mrežu Exchange kurseva potrebnih u sistemu razmene, čime se olakšavaju transakcije.
+reviewed: false

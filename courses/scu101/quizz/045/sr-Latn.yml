@@ -1,0 +1,12 @@
+question: Koja je glavna prednost korišćenja menadžera lozinki?
+answer: Pomaže vam da kreirate jake lozinke i zapamtite ih, tako da vi ne morate.
+wrong_answers:
+  - Automatski vas prijavljuje na vaše online naloge.
+  - Štiti vaš računar od virusa.
+  - Čuva sve vaše lozinke na jednom mestu, što ih čini lakšim za pronalaženje.
+explanation: |
+  Menadžer lozinki pomaže vam da kreirate jake lozinke i
+  zapamtite ih, tako da vi ne morate. On čuva sve vaše
+  lozinke na siguran način i generiše jake lozinke
+  za vas.
+reviewed: true

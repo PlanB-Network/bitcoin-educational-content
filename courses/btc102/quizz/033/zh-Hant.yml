@@ -1,12 +1,9 @@
-question: 在 Bitcoin 的世界中，有哪兩種對立的意識形態？
-answer: 將沒有銀行帳戶的人帶入銀行體系，並將銀行體系內的人帶出銀行體系
+question: 誰是 Lightning Network 的發明者？
+answer: Thaddeus Dryja 和 Joseph Poon
 wrong_answers:
-  - 讓每個人都變得富有，讓每個人都變得貧窮
-  - 集權與分權
-  - 促進隱私權和提高透明度
+  - Andreas Antonopoulos 和 Adam Back
+  - Pieter Wuille 和 Gregory Maxwell
+  - Satoshi Nakamoto 和 Hal Finney
 explanation: |
-  本章提到了 Bitcoin 世界中兩種對立的意識形態。
-  其一是將未進入銀行體系的數十億人帶入銀行體系。
-  另一種是把銀行體系中的數十億人從銀行體系中剔除。
-  它。
+  Thaddeus Dryja 和 Joseph Poon 在 2016 年發明了 Lightning Network，以改善 Bitcoin 的擴充性。
 reviewed: false

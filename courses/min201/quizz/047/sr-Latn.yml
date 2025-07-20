@@ -1,0 +1,11 @@
+question: Koji je glavni rizik povezan s ulaganjem u kompanije koje prodaju Mining hardver i upravljaju mašinama na lokacijama s niskom cenom energije?
+answer: Problemi sa Power Supply i kvarovi mašina mogu ostaviti investitore nemoćnima, sa skupom opremom koju ne kontrolišu.
+wrong_answers:
+  - Kompanije mogu bankrotirati i investitori mogu izgubiti svoj novac.
+  - Kompanije mogu biti prevare i investitori mogu izgubiti svoj novac.
+  - Kompanije možda neće moći prodati iskopane bitkoine i investitori mogu izgubiti svoj novac.
+explanation: |
+  Glavni rizik povezan sa ulaganjem u kompanije koje
+  prodaju Mining hardver i upravljaju mašinama na lokacijama
+  sa niskim troškovima energije je taj što problemi sa Supply napajanjem i kvarovi mašina mogu ostaviti investitore nemoćnim, sa skupom opremom koju ne kontrolišu.
+reviewed: true

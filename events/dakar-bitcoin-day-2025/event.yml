@@ -1,0 +1,24 @@
+id: 9edaa4af-bc77-4427-932d-997f7ac0be59
+start_date: 2025-10-29
+end_date: 2025-10-31
+address_city_country: Dakar, Senegal
+address_line_2: Azalaï Hôtel, Cotonou
+address_line_3:
+name: Dakar Bitcoin Days 2025
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Depuis 2022. Un Forum 100% Bitcoin
+language:
+  - fr
+  - en
+links:
+  website: https://dakarbitcoindays.com/
+  replay_url:
+  live_url:
+project_id: b2cdb3d7-9f8a-4452-8715-dc91bac82345
+tags:
+  - adoption
+  - user-friendly
+  - case-studies

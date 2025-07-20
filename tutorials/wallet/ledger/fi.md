@@ -6,6 +6,10 @@ description: Kuinka otat käyttöön Ledger Nano S -laitteesi
 
 ![kuva](assets/cover.webp)
 
+*Ledger on ilmoittanut lopettavansa klassisen Nano S -laitteen ohjelmistotuen 25. kesäkuuta 2025 alkaen: laite ei enää saa tietoturvapäivityksiä eikä tue uusia ominaisuuksia, mikä altistaa käyttäjät haavoittuvuuksille ja yhteensopivuusongelmille tulevaisuudessa. Varat pysyvät kuitenkin saatavilla palautuslauseen avulla, mutta on erittäin suositeltavaa siirtyä uudempaan malliin turvallisuuden ja bitcoinien pitkäaikaisen käytettävyyden varmistamiseksi. Huomioithan, että tämä koskee **vanhaa Nano S:ää**, ei **Nano S Plus** -mallia, joka saa edelleen tukea.*
+
+___
+
 Kylmä fyysinen lompakko – 60€ – Aloittelija – Turvaa 2 000€ - 50 000€
 
 Ledger on ranskalainen ratkaisu bitcoinien turvaamiseen yksinkertaisella tavalla.

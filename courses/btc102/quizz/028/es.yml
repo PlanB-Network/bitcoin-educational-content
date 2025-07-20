@@ -1,9 +1,9 @@
-question: ¿Qué significa que Bitcoin sea de código abierto?
-answer: Cualquiera puede ver cómo funciona Bitcoin, es transparente y, por lo tanto, auditable.
+question: ¿Qué plataformas se recomiendan para evitar el CSC al comprar bitcoins?
+answer: Plataformas P2P Exchange
 wrong_answers:
-  - Cualquiera puede crear su propia versión de Bitcoin.
-  - Bitcoin es gratuito para usar.
-  - El código de Bitcoin está disponible públicamente para su modificación.
+  - Plataformas Exchange de uso general
+  - Sólo Bitcoin Plataformas Exchange
+  - Plataformas Exchange centradas en el comercio
 explanation: |
-  Ser de código abierto significa que el código de Bitcoin está disponible públicamente para que cualquiera lo revise. Esto lo hace transparente y auditable, asegurando que el protocolo sea igual para todos.
+  Las plataformas P2P permiten a los usuarios comprar bitcoins directamente unos a otros sin necesidad de CSC.
 reviewed: false

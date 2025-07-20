@@ -1,0 +1,9 @@
+question: Welke stap is niet opgenomen in het veiligheidsbewijs van een modern cryptografisch schema?
+answer: Een gebruiker Interface instellen
+wrong_answers:
+  - Veiligheidsdefinities vermelden
+  - De aannames voor wiskundige complexiteit
+  - Het wiskundige bewijs van veiligheid
+explanation: |
+  Het veiligheidsbewijs in moderne cryptografie richt zich op doelstellingen en wiskundige aannames, en sluit aspecten zoals de gebruiker Interface uit, wat niet relevant is voor cryptografische veiligheid.
+reviewed: false

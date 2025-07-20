@@ -1,0 +1,5 @@
+---
+term: BIP0152
+---
+
+Pendekezo la "Compact Block Relay" inayolenga kupunguza kipimo data kinachohitajika kwa usambazaji wa block kwenye mtandao wa Bitcoin. Ilikubaliwa mnamo Novemba 2016 katika toleo la 0.13.0 la Bitcoin Core, itifaki hii inaruhusu mawasiliano ya habari ya kuzuia kwa njia ya kuunganishwa, kulingana na dhana kwamba nodi tayari zina sehemu kubwa ya shughuli za hivi karibuni za block katika Mempool yao. Badala ya kusambaza kila muamala kwa ukamilifu, ambayo ingesababisha kurudiwa, BIP152 inapendekeza kutuma vitambulishi vifupi pekee vya miamala ambayo tayari inajulikana kwa wenzao, ikiambatana na miamala michache iliyochaguliwa (haswa Coinbase Transaction na zile ambazo nodi ina uwezekano wa kutojua). Njia basi inaweza kuomba shughuli zozote zinazokosekana kutoka kwa wenzao. Compact Block Relay hivyo hupunguza kiasi cha data kubadilishana wakati wa uenezi wa kuzuia, ambayo inapunguza spikes bandwidth na kuboresha ufanisi wa jumla wa mtandao.

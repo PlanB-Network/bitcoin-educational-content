@@ -1,0 +1,9 @@
+question: Šta je algebarska struktura u apstraktnoj algebri?
+answer: Skup Elements sa jednom ili više operacija koje se pridržavaju određenih aksioma
+wrong_answers:
+  - Skup prostih brojeva organizovan u redove koji se pridržavaju određenih aksioma
+  - Niz algoritama za rešavanje linearnih jednačina
+  - Grupa nasumičnih geometrijskih transformacija uređenih u skladu sa određenim aksiomima
+explanation: |
+  Algebarska struktura je skup definisanih Elements sa jednom ili više operacija, kao što su sabiranje ili množenje, koje se pridržavaju određenih aksioma, i ona je ključna za strukturiranje pojmova u teoriji brojeva.
+reviewed: false

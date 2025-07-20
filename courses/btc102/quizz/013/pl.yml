@@ -1,13 +1,9 @@
-question: Jaki jest jeden z podstawowych środków poprawy nawyków bezpieczeństwa online?
-answer: Włącz uwierzytelnianie dwuskładnikowe (2FA)
+question: Jaka jest główna różnica między handlem a inwestowaniem?
+answer: Handel jest krótkoterminowy i spekulacyjny, inwestowanie jest długoterminowe i strategiczne
 wrong_answers:
-  - Używanie tego samego hasła dla wszystkich kont
-  - Zaniedbanie regularnego tworzenia kopii zapasowych danych
-  - Udostępnianie haseł
+  - Handel wiąże się z opłatami stałymi, inwestowanie wiąże się z opłatami zmiennymi
+  - Handel opiera się na analizie fundamentalnej, inwestowanie na trendach makroekonomicznych
+  - Handel jest mniej ryzykowny niż inwestowanie
 explanation: |
-  Włączenie uwierzytelniania dwuskładnikowego (2FA) jest jednym z podstawowych środków
-  
-  w celu poprawy nawyków bezpieczeństwa online. Zapewnia dodatkowe Layer bezpieczeństwa dla
-  
-  najbardziej wrażliwych kont"
+  Handel wymaga stałego monitorowania i umiejętności technicznych, podczas gdy inwestowanie opiera się na długoterminowej wizji.
 reviewed: false

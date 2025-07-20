@@ -1,4 +1,4 @@
-question: Quali informazioni può includere Bob in una fattura per facilitare il routing?
+question: Quali informazioni può includere Bob in una invoice per facilitare il routing?
 answer: Canali vicini con sufficiente liquidità o l'esistenza di canali privati
 wrong_answers:
   - La chiave privata dei nodi intermedi
@@ -6,4 +6,4 @@ wrong_answers:
   - L'importo esatto della liquidità disponibile per ogni canale
 explanation: |
   Indicando canali vicini con liquidità o rivelando canali privati, Bob aiuta Alice a scegliere percorsi con una migliore probabilità di successo.
-reviewed: false
+reviewed: true

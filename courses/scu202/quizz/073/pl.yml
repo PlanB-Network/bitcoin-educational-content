@@ -1,0 +1,9 @@
+question: Który komponent Androida pozostaje całkowicie open source i może być kontrolowany przez społeczność?
+answer: AOSP
+wrong_answers:
+  - Usługi mobilne Google
+  - Sklep Play
+  - IOSP
+explanation: |
+  Tylko baza AOSP Androida jest darmowa. Powszechnie używane usługi Google Mobile Services są zastrzeżone i nie podlegają kontroli.
+reviewed: false

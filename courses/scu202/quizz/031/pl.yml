@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta uruchamiania aplikacji w piaskownicy lub maszynie wirtualnej?
+answer: Ograniczenie wpływu kompromisu
+wrong_answers:
+  - Przyspieszenie wykonywania programu
+  - Zmniejszenie zużycia pamięci RAM
+  - Zwiększenie szybkości połączenia sieciowego
+explanation: |
+  Sandboxing i wirtualizacja służą przede wszystkim do izolowania aplikacji lub systemów od potencjalnych ataków.
+reviewed: false

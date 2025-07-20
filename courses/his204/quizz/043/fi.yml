@@ -1,0 +1,8 @@
+question: Minkä kirjan vuoksi Mirabeau vangittiin?
+answer: Verotuksen teoria
+wrong_answers:
+  - L'Ami des Hommes
+  - Essee kaupan luonteesta yleensä
+  - Sosiaalinen Contract
+explanation: |
+  Mirabeau vangittiin teoksensa "La Théorie de l'Impôt" vuoksi, jossa hän arvosteli Ranskan verojärjestelmää.

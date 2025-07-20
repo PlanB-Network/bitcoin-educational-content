@@ -1,11 +1,9 @@
-question: Đặc điểm chính của ví DIY (Tự làm) là gì?
-answer: Đó là một giải pháp 100% mã nguồn mở có thể được tạo ra tại nhà để giảm thiểu rủi ro tin cậy đối với các bên khác trong chuỗi sản xuất hoặc tạo ra
+question: Mục đích chính của việc xếp chồng là gì?
+answer: Dần dần tích lũy satoshi
 wrong_answers:
-  - Đó là một thiết bị phần cứng để lưu trữ bitcoin
-  - Đó là một phần mềm để đào bitcoin
-  - Đó là một nền tảng để mua và bán bitcoin
+  - Đầu cơ ngắn hạn
+  - Mua một lượng lớn satoshi cùng một lúc
+  - Sử dụng Bitcoin cho các khoản thanh toán hàng ngày
 explanation: |
-  Nội dung chương giải thích rằng ví DIY (Tự làm) là các giải pháp 100%
-  mã nguồn mở có thể được tạo ra tại nhà để giảm thiểu rủi ro tin cậy đối với
-  các bên khác trong chuỗi sản xuất hoặc tạo ra.
+  Người xếp chồng đầu tư những khoản tiền nhỏ theo định kỳ để tính trung bình giá mua theo thời gian.
 reviewed: false

@@ -1,12 +1,9 @@
-question: What is the purpose of asking the four questions before choosing a Bitcoin investment plan?
-answer: To choose the path that suits you best
+question: What is NOT recommended when passing on access to your bitcoins?
+answer: Giving the mnemonic phrase to one person
 wrong_answers:
-  - To determine the amount of Bitcoin you should buy
-  - To determine the type of Bitcoin wallet you should use
-  - To determine the duration of your Bitcoin investment
+  - Splitting the information between multiple people
+  - Using sealed opaque envelopes
+  - Writing an explanatory letter
 explanation: |
-  The purpose of asking the four questions before choosing a Bitcoin
-  investment
-  plan is to choose the path that suits you best. The questions help you understand
-  your investment goals and preferences.
+  Entrusting the mnemonic phrase to a single person without additional security greatly increases the risk of theft during your lifetime.
 reviewed: false

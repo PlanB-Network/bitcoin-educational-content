@@ -1,0 +1,9 @@
+question: Koji je glavni nedostatak fiat valuta?
+answer: Njihova vrednost je stalno narušena monetarnom inflacijom.
+wrong_answers:
+  - Oni nisu lako prenosivi.
+  - Njihova vrednost se stalno povećava zbog monetarne inflacije.
+  - Oni nisu deljivi.
+explanation: |
+  Glavni nedostatak fiat valuta, kao što su dolar i evro, je to što njihova vrednost konstantno erodira zbog monetarne inflacije. Ovo je posledica devalvacije izazvane od strane entiteta koji ih kontrolišu (kralj, centralna banka, car, diktator).
+reviewed: true

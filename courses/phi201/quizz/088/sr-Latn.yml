@@ -1,0 +1,9 @@
+question: Kakva je veza između političke slobode i ekonomske slobode prema Constantu?
+answer: Dve slobode su međuzavisne.
+wrong_answers:
+  - Politička sloboda je neophodan preduslov za ekonomsku slobodu.
+  - Ekonomska sloboda je neophodan preduslov za političku slobodu.
+  - Dve slobode su međusobno nespojive.
+explanation: |
+  Za Benjamina Constanta, politička sloboda i ekonomska sloboda su usko povezane, jer individualna autonomija zavisi podjednako od sposobnosti učestvovanja u javnim poslovima kao i od slobode obavljanja ekonomskih aktivnosti bez prepreka.
+reviewed: false

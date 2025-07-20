@@ -1,10 +1,9 @@
-question: Je, DCA inasimamia nini katika muktadha wa uwekezaji wa Bitcoin?
-answer: Wastani wa Gharama ya Dola
+question: Ni njia gani ya kupata pesa inayoepukwa na mtumiaji mwenye hofu?
+answer: Majukwaa ya kati na KYC
 wrong_answers:
-  - Upataji wa Sarafu ya Moja kwa Moja
-  - Ugawaji wa Sarafu ya Dijiti
-  - Mali ya Crypto Iliyogatuliwa
+  - P2P majukwaa ya kulinganisha
+  - ATM za Bitcoin
+  - Ununuzi wa pesa taslimu moja kwa moja kwenye mikutano
 explanation: |
-  Wastani wa Gharama ya Dola (DCA) ni mkakati ambapo unagawanya jumla
-  kiasi unachotaka kuwekeza katika ununuzi wa mara kwa mara ili kupunguza athari za tete.
+  Ili kuhifadhi kutokujulikana, mtumiaji mwenye dhana potofu huepuka mifumo inayohitaji uthibitishaji wa utambulisho.
 reviewed: false

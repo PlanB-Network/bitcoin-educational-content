@@ -1,0 +1,9 @@
+question: Waarom wordt shift encryptie als symmetrische encryptie beschouwd?
+answer: Omdat dezelfde sleutel wordt gebruikt voor zowel vercijfering als ontcijfering
+wrong_answers:
+  - Omdat het twee sleutels gebruikt, publiek en privé
+  - Omdat het ontcijfert zonder een sleutel te gebruiken
+  - Omdat de sleutel bij elke versleuteling verschilt
+explanation: |
+  Shiftversleuteling wordt beschouwd als symmetrische versleuteling omdat dezelfde sleutel wordt gebruikt om een bericht te versleutelen en te ontsleutelen, waardoor vertrouwelijkheid wordt gegarandeerd tussen de partijen die deze sleutel delen.
+reviewed: false

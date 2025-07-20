@@ -1,0 +1,9 @@
+question: Koja tehnologija se može koristiti za spajanje različitih verzija Stash u slučaju neslaganja?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - Replikacija zasnovana na dnevniku
+explanation: |
+  CRDT-i osiguravaju doslednost podataka omogućavajući spajanje više verzija Stash bez konflikata na strani klijenta.
+reviewed: false

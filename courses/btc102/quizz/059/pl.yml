@@ -1,10 +1,9 @@
-question: Czym jest Cold Wallet w kontekście Bitcoin?
-answer: Wallet do przechowywania dużych ilości Bitcoin offline
+question: Jaki jest główny cel paranoicznego bitcoinera?
+answer: Aby chronić ich prywatność
 wrong_answers:
-  - Wallet używany do transakcji w klimacie Cold
-  - Wallet używany do przechowywania niewielkich ilości Bitcoin
-  - Wallet używany do przechowywania Bitcoin przez krótki okres czasu
+  - Aby szybko zgromadzić satoshis
+  - Aby zmaksymalizować zyski handlowe
+  - Długoterminowe przechowywanie bitcoinów
 explanation: |
-  Cold Wallet to Wallet do przechowywania dużych ilości Bitcoin w trybie offline.
-  Jest uważany za bezpieczniejszy niż Hot Wallet, ponieważ jest mniej podatny na ataki hakerskie.
+  Paranoiczny bitcoiner stara się przede wszystkim uniknąć możliwości śledzenia swoich transakcji i tożsamości.
 reviewed: false

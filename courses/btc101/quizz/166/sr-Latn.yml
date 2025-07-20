@@ -1,0 +1,12 @@
+question: Šta rudari mogu učiniti za one elektrane koje još nisu povezane na mrežu?
+answer: Oni mogu delovati kao kupac poslednje instance.
+wrong_answers:
+  - Oni mogu obezbediti elektranama električnu energiju.
+  - Oni mogu povezati elektrane na mrežu.
+  - Oni mogu regulisati cenu električne energije.
+explanation: |
+  Rudari mogu delovati kao kupci poslednjeg utočišta za elektrane koje
+  još nisu povezane na mrežu. Ovo omogućava elektranama
+  da obezbede finansiranje čak i pre nego što budu povezane na
+  električnu mrežu.
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: TUMBLEBIT
+---
+
+TumbleBit je koncept anonimnog platnog čvorišta kompatibilnog sa Bitcoin, predložen 2016. godine od strane Ethan Heilman, Leen AlShenibr, Foteini Baldimtsi, Alessandra Scafuro i Sharon Goldberg. TumbleBit je Bitcoin sistem za mešanje koji ne zahteva poverenje u posrednika. Omogućava korisnicima da izvrše brze, anonimne i off-chain uplate preko koordinatora zvanog Tumbler. TumbleBit obezbeđuje anonimnost tako što osigurava da čak ni Tumbler ne može povezati uplatu platioca sa njenim primaocem. Protokol TumbleBit osigurava da Tumbler ne može ni ukrasti bitkoine niti izdati lažne bitkoine vršeći uplate sebi. Anonimnost koju pruža TumbleBit je uporediva sa sistemom Chaum eCash. Međutim, ovaj koncept nikada nije bio široko prihvaćen, s obzirom da su tehnike privatnosti kao što je Chaumian CoinJoin bile preferirane.

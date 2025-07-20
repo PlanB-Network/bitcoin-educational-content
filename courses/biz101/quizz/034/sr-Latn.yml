@@ -1,0 +1,9 @@
+question: Koji trend je primećen među učesnicima koji upravljaju čvorovima na Lightning Network?
+answer: Profesionalni operateri čvorova sve više obezbeđuju likvidnost, dok se pojedinačni korisnici fokusiraju na „ivica“ čvorove, menjajući sastav mreže.
+wrong_answers:
+  - Pojedinačni hobisti su u potpunosti zamenili sve profesionalne operatere.
+  - Velike banke sada centralno upravljaju svim Lightning čvorovima.
+  - Mreža je isključila lične čvorove kako bi omogućila samo velikim korporacijama.
+explanation: |
+  Postoji pomak ka većoj likvidnosti i stabilnosti koju obezbeđuju profesionalni entiteti, dok se svakodnevni korisnici oslanjaju na pojednostavljena ili hostovana rešenja, čineći mrežu robusnijom i pristupačnijom.
+reviewed: false

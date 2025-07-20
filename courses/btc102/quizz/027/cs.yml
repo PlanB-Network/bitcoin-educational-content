@@ -1,10 +1,9 @@
-question: Co znamená neměnnost Bitcoin blockchainu?
-answer: Nelze jej změnit v průběhu času
+question: Kolik správců bude mít Bitcoin Core v roce 2025?
+answer: 5
 wrong_answers:
-  - Nelze jej hacknout
-  - Nelze jej kopírovat
-  - Nelze jej smazat
+  - 7
+  - 12
+  - 23
 explanation: |
-  Neměnnost Bitcoin blockchainu znamená, že jakmile je transakce zaznamenána, nemůže být změněna nebo smazána. To zajišťuje integritu a
-  spolehlivost blockchainu.
+  V roce 2025 je pět správců: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao a Ryan Ofsky.
 reviewed: false

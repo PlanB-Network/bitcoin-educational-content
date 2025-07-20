@@ -1,0 +1,9 @@
+question: Welke diepte in het afleidingspad specificeert het valutatype?
+answer: Diepte 2
+wrong_answers:
+  - Diepte 1
+  - Diepte 3
+  - Diepte 4
+explanation: |
+  Diepte 2 wordt gebruikt om de valuta te identificeren in multi-valuta wallets, zoals Bitcoin (index 0') of Litecoin (index 2').
+reviewed: false

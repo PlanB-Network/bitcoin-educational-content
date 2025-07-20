@@ -1,0 +1,9 @@
+question: Waarom is geauthenticeerde encryptie bestand tegen chosen-ciphertext aanvallen?
+answer: Omdat elke wijziging van de cijfertekst door een aanvaller de tag ongeldig maakt
+wrong_answers:
+  - Omdat het één encryptie-algoritme gebruikt
+  - Omdat elke wijziging van de cijfertekst door een aanvaller de sleutel ongeldig maakt
+  - Omdat het alleen het bericht zonder tag versleutelt
+explanation: |
+  Een geauthenticeerd versleutelingsschema is ontworpen om wijzigingen in de cijfertekst te detecteren, waardoor de tag ongeldig wordt in geval van sabotagepogingen en weerstand wordt geboden tegen "chosen-ciphertext"-aanvallen.
+reviewed: false

@@ -1,0 +1,8 @@
+question: ¿Dónde se encontraron Adam Smith y los fisiócratas?
+answer: En París
+wrong_answers:
+  - En Glasgow
+  - En Londres
+  - Nunca se han visto
+explanation: |
+  Adam Smith conoció a los fisiócratas en París durante un viaje a Europa. Se dejó influir por sus ideas, pero también desarrolló su propia teoría económica, que difería de la fisiocracia en algunos aspectos.

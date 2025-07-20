@@ -1,0 +1,9 @@
+question: Koja karakteristika čini Swiss Bitcoin Pay rešenje posebno pogodnim za mala preduzeća u Essential profilu?
+answer: Korisnička aplikacija za PoS
+wrong_answers:
+  - Napredne funkcije trgovanja u više valuta
+  - Višepotpisno upravljanje Wallet
+  - Potpuna integracija Blockchain analitike
+explanation: |
+  Swiss Bitcoin Pay je dizajniran sa jednostavnim PoS Interface koji pojednostavljuje svakodnevne operacije.
+reviewed: false

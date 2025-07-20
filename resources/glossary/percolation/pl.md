@@ -1,0 +1,5 @@
+---
+term: PERKOLACJA
+---
+
+Odnosi się do modelu, który pomaga zrozumieć rozprzestrzenianie się informacji (transakcji i bloków) w sieci węzłów Bitcoin. Teoria perkolacji jest pierwotnie matematycznym i fizycznym modelem, który bada ruch i filtrację płynów przez porowate materiały. Analizuje, w jaki sposób, po przekroczeniu pewnego progu, połączona sieć umożliwia ciągły przepływ płynu przez materiał. Można to zastosować do sieci komputerowych, aby zobaczyć, jak rozprzestrzeniają się informacje, traktując węzły jako miejsca, które mogą być aktywne lub nieaktywne. W Bitcoin węzły odgrywają rolę porów w teorii perkolacji. Każdy aktywny węzeł odbiera i przesyła informacje do innych węzłów, które albo kontynuują transmisję, albo ją blokują. Rozprzestrzenianie się niektórych rodzajów transakcji można analizować w kategoriach progów perkolacji, gdzie pewien procent aktywnych węzłów jest niezbędny, aby dotrzeć do Miner, który włączy je do bloku. Teoria ta zapewnia ramy do oceny, w jaki sposób zmiany w sieci, takie jak modyfikacja zasad standaryzacji przez niektóre węzły, wpływają na kaskadowy mechanizm propagacji transakcji w celu dotarcia do Miner.

@@ -1,0 +1,9 @@
+question: Koje dodatke u leto 2010. godine su omogućile Soft viljuške u Bitcoin naknadno?
+answer: OP_NOP operativni kodovi
+wrong_answers:
+  - Sistem upozorenja
+  - Ograničenje veličine bloka
+  - Standardni format transakcije
+explanation: |
+  Ovo su bile no-op instrukcije koje nisu poništavale skriptu ako su izvršene. Omogućile su dodavanje OP_CHECKLOCKTIMEVERIFY i OP_CHECKSEQUENCEVERIFY u protokol 2015/2016.
+reviewed: false

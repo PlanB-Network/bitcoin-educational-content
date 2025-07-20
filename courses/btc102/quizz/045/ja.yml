@@ -1,9 +1,9 @@
-question: Bitcoin Core開発者の主な役割は何ですか？
-answer: Bitcoinプロトコルとそのコア機能の主要な開発を担当しています
+question: Hot WalletからHardware Walletへの定期的な資金移動が推奨されるのはなぜですか？
+answer: ハッキングのリスクを減らすために
 wrong_answers:
-  - Bitcoinネットワークを制御しています
-  - 新しいビットコインを作成しています
-  - Bitcoinの価格を規制しています
+  - Walletの流動性を高める
+  - 取引手数料の削減
+  - UTXOのプライバシーを最適化する
 explanation: |
-  この章の内容では、Bitcoin Core開発者はBitcoinプロトコルとそのコア機能の主要な開発を担当していると説明されています。彼らはBitcoinネットワークを制御したり、新しいビットコインを作成したり、Bitcoinの価格を規制するわけではありません。
+  Hardware Walletへの移行は、秘密鍵をオフラインで保管することで資金を保護する。
 reviewed: false

@@ -1,0 +1,9 @@
+question: Ko je inaugurisao sistem Bitcoin Improvement Proposals, proces usmeren na koordinaciju poboljšanja Bitcoin, u septembru 2011?
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Džef Garzik
+  - Nils Schneider
+explanation: |
+  Ovaj sistem je modelovan prema Python Enhancement Proposals (PEP) specifičnim za programski jezik Python.
+reviewed: false

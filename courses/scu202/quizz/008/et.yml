@@ -1,0 +1,9 @@
+question: Mis on macOSi ökosüsteemi peamine puudus?
+answer: Piiratus ja sõltuvus Apple'ist
+wrong_answers:
+  - Liiga palju tarkvara avatust
+  - Nõrk graafika optimeerimine
+  - Uuenduste puudumine
+explanation: |
+  MacOSi tihe integratsioon Apple'i riistvaraga toob kaasa sõltuvuse ja kinnistumise brändi enda ökosüsteemi.
+reviewed: false

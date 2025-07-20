@@ -1,0 +1,12 @@
+question: Zašto se biometrijski podaci smatraju manje sigurnim od kombinacije znanja i posjedovanja za 2FA?
+answer: Biometrijski podaci treba da ostanu na uređaju za autentifikaciju i ne treba ih objavljivati na internetu.
+wrong_answers:
+  - Biometrijske podatke je lakše izdvojiti čak i ako se čuvaju van mreže na uređaju za autentifikaciju.
+  - Biometrijski podaci su teži za pamćenje i korišćenje kada se koristi uređaj za autentifikaciju.
+  - Alati za biometrijske podatke su skuplje za implementaciju i stoga nisu isplative u poređenju sa drugim rešenjima.
+explanation: |
+  Biometrijski podaci su manje sigurni jer bi trebalo da ostanu na
+  uređaju za autentifikaciju i ne bi trebalo da budu otkriveni na mreži. Ako
+  se otkriju na mreži, mogu biti ukradeni i korišćeni za
+  neovlašćen pristup.
+reviewed: true

@@ -1,11 +1,9 @@
-question: Je, ni jukumu gani kuu la wachimbaji madini katika mtandao wa Bitcoin?
-answer: Wanalinda mtandao kwa kutekeleza michakato ya Bitcoin ya Proof-of-Work
+question: Nini asili ya neno hodler?
+answer: Ukosefu wa tahajia ya kushikilia
 wrong_answers:
-  - Wanaunda bitcoins mpya
-  - Wanadhibiti bei ya Bitcoin
-  - Wanadhibiti mtandao wa Bitcoin
+  - Kifupi cha kushikilia
+  - Kifupi cha Hot Wallet
+  - Mkazo wa mnyororo wa HODL
 explanation: |
-  Yaliyomo kwenye sura yanaeleza kuwa wachimbaji wana jukumu la kupata
-  mtandao wa Bitcoin. Wanatumia umeme kutekeleza michakato ya Bitcoin ya Proof-of-Work,
-  ambayo inaunda kizuizi kipya.
+  Neno "hodler" linatokana na kosa la kuandika kwenye Bitcoin Talk, ambapo neno "shikilia" liliandikwa kimakosa kama "HODL" ili kuonyesha kushikilia kwa muda mrefu.
 reviewed: false

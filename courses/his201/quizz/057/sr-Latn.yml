@@ -1,0 +1,9 @@
+question: Koji nemački Miner je držao 20% Hash stope Bitcoin mreže nekoliko meseci u 2010?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mčil
+  - knightmb
+explanation: |
+  Tokom leta 2010. godine, postavio je farmu Mining sastavljenu od grafičkih kartica (nazvanu ArtFarm), čime je do jeseni stekao značajnu prednost nad konkurentima.
+reviewed: false

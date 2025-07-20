@@ -1,12 +1,9 @@
-question: Mis on üks meetmetest, et hoida oma arvuti optimaalses töökorras?
-answer: Varunda oma andmeid regulaarselt
+question: Mitme kümnendikuni saab Bitcoin jagada?
+answer: Kaheksa
 wrong_answers:
-  - Jaga oma paroole
-  - Kasuta kõikide kontode jaoks sama parooli
-  - Eira oma arvuti uuendamist
+  - Kuus
+  - Kaksteist
+  - Seitse
 explanation: |
-  Oma andmete regulaarne varundamine on üks meetmetest, et hoida oma arvuti
-  
-  optimaalses töökorras. See on samuti põhimeede, et parandada oma veebiturvalisuse
-  
-  harjumusi.
+  Bitcoin saab jagada kaheksanda kümnendkohani, kusjuures üks ühik on Satoshi või sat.
+reviewed: false

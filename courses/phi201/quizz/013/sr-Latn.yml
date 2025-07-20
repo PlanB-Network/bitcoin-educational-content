@@ -1,0 +1,9 @@
+question: Koja je definicija slobode koju je dao Lord Acton?
+answer: Moć da se postupa prema sopstvenoj savesti čak i protiv mišljenja većine
+wrong_answers:
+  - Sposobnost da radi šta god želi
+  - Odsustvo bilo kakvog ograničenja
+  - Zaštita od spoljašnjih invazija
+explanation: |
+  Lord Acton definiše slobodu kao moć da se deluje u skladu sa sopstvenom savešću, ističući važnost sposobnosti pojedinca da donosi lične odluke, čak i kada su one suprotne mišljenju većine.
+reviewed: false

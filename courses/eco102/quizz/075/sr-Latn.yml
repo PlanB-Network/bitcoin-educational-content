@@ -1,0 +1,9 @@
+question: Kako je bankarska neodgovornost bila dozvoljena?
+answer: Po garancijama da bi gubici bili mutualizovani u slučaju bankrota zbog nepromišljenog preuzimanja rizika
+wrong_answers:
+  - Zbog nedostatka propisa protiv nepromišljenog preuzimanja rizika
+  - Deregulacijom 90-ih
+  - Od kapitalističkog sistema
+explanation: |
+  Bastiat objašnjava da obećanje o uzajamnom pokrivanju gubitaka podstiče banke da preuzimaju prekomerne rizike, jer su uverene da će biti spašene u slučaju neuspeha, što promoviše neodgovornost.
+reviewed: false

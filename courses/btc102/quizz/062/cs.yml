@@ -1,9 +1,9 @@
-question: Jaký je účel pokládání čtyř otázek před výběrem investičního plánu do Bitcoinu?
-answer: Vybrat cestu, která vám nejlépe vyhovuje
+question: Co se NEdoporučuje při předávání přístupu k bitcoinům?
+answer: Poskytnutí fráze Mnemonic jedné osobě
 wrong_answers:
-  - Určit množství Bitcoinu, které byste měli koupit
-  - Určit typ Bitcoinové peněženky, kterou byste měli použít
-  - Určit dobu trvání vaší investice do Bitcoinu
+  - Rozdělení informací mezi více osob
+  - Používání zalepených neprůhledných obálek
+  - Psaní vysvětlujícího dopisu
 explanation: |
-  Účelem pokládání čtyř otázek před výběrem investičního plánu do Bitcoinu je vybrat cestu, která vám nejlépe vyhovuje. Otázky vám pomáhají pochopit vaše investiční cíle a preference.
+  Svěření věty Mnemonic jediné osobě bez dalšího zabezpečení výrazně zvyšuje riziko krádeže během vašeho života.
 reviewed: false

@@ -341,8 +341,6 @@ Bastiat anser faktisk Rousseau for å være den sanne forløperen til sosialisme
 
 I utgangspunktet er mennesket bare en borger. Men borgeren er en kalkulator; han ønsker sin umiddelbare nytelse, han er slave for sine sanser, for sine ønsker, for sin særinteresse. Kort sagt, han er ikke rasjonell, derfor er han ikke fri. Han trenger å bli utdannet, for å forstå at hans sanne interesse er den generelle interessen. Dette er grunnen til at Rousseau skrev i "Samfunnskontrakten":
 
-> Den som nekter å adlyde den generelle viljen, skal tvinges av hele kroppen: dette betyr ikke annet enn at de vil bli tvunget til å være frie.
-
 ![bilde](assets/en/048.webp)
 
 Ifølge denne doktrinen har mennesket to viljer inni seg: en vilje som tenderer mot personlig interesse, det til borgeren, og en vilje som tenderer mot den generelle interessen, det til statsborgeren. Å lede menn, selv med makt, til å ønske en rasjonell ende, den generelle interessen, er å lede menn til å bli frie. Det de virkelig ønsker er en rasjonell ende, selv om de ikke vet det.
@@ -415,6 +413,14 @@ _(Richard Cobden)_
 Som vi allerede har sett, var det først og fremst Cobdens kamp mot proteksjonisme med den engelske ligaen for avskaffelse av kornlovene som ledet Bastiat til å skrive artikler og deretter bøker.
 Proteksjonisme er i virkeligheten en form for økonomisk nasjonalisme. Den har som mål å eliminere utenlandsk konkurranse mens den later som den "forsvarer nasjonale interesser." Deretter prøver de å få offentlige myndigheter til å akseptere et sett med rent demagogiske usannheter, presentert som dydige: forsvar av arbeidsplasser, konkurranseevne, osv. Selvfølgelig gir valgte tjenestemenn etter for produsentenes press, fordi det for dem er en gylden mulighet til å konsolidere sin kundebase og utvide sin makt.
 ![image](assets/en/058.webp)
+
+---
+
+>Vårt møte med Arnaud Montebourg  
+>Made in France,  
+>han tror på det, vi har testet det
+
+---
 
 Argumentet for jobbeskyttelse er det Bastiat kaller en feilslutning. Fordi i virkeligheten er det tilsvarende en skatt. Det har effekten av å gjøre produkter dyrere. La oss ta eksempelet gitt av Bastiat selv.
 
@@ -556,6 +562,12 @@ I 1840 stemte Deputertkammeret for en lov som økte importskattene for å beskyt
 Bastiat komponerte deretter en satirisk tekst som senere ble et av hans mest berømte verk: "lysprodusentenes bønnskrift". Den illustrerer hvordan visse velorganiserte pressgrupper av produsenter oppnår ufortjente privilegier fra staten, til skade for borgerne. Samtidig demonstrerer den det absurde og destruktive ved proteksjonistisk lovgivning.
 ![image](assets/en/079.webp)
 
+---
+
+>BESKYTT VÅRE LYS!
+
+---
+
 I denne bønnskriften ber lysprodusentene deputatene om juridisk beskyttelse mot en farlig rival:
 
 > Vi lider under den uutholdelige konkurransen fra en utenlandsk rival som, det ser ut til, er i så overlegne forhold for å produsere lys at han oversvømmer vårt nasjonale marked til en eventyrlig redusert pris.
@@ -629,6 +641,13 @@ Problemet er at skatter, slik de er oppfattet, er underlagt vilkårligheten til 
 Det er derfor Bastiat allerede hadde forstått Laffer-kurven. Arthur Laffer er en amerikansk økonom kjent for sin berømte "kurve" (en ellipse), publisert i 1974, som viser at inntektene fra skatter øker med senking av skattesatsen. Dette er teorien om den avtagende avkastningen av overdreven beskatning.
 
 ![image](assets/en/087.webp)
+
+---
+
+>«For mye skatt dreper skatteinntektene»  
+>Arthur Laffer
+
+---
 
 Politikere antar naivt at det er et automatisk og fast forhold mellom skattesatser og skatteinntekter. De tror de kan doble skatteinntektene ved å doble skattesatsen. Ifølge Laffer overser en slik tilnærming det faktum at skattebetalere kan endre sin oppførsel som respons på nye insentiver.
 Laffer-kurven viser at regjeringen samler inn ingen inntekter når skattesatsene er på 100%. Tvert imot, enhver reduksjon i skatter tjener til å stimulere økonomisk aktivitet og dermed statens inntekter. Faktisk stimulerer reduksjon av marginale skattesatser investeringer, arbeid, kreativitet og fremmer dermed økonomisk vekst. En tilstrekkelig reduksjon kunne produsere nok økonomisk stimulans til å øke offentlige inntekter ved betydelig utvidelse av skattegrunnlaget.
@@ -818,6 +837,12 @@ Det er fordi mennesket risikerer å gjøre feil eller handle galt og lide konsek
 
 ![bilde](assets/en/110.webp)
 
+---
+
+>Å feile er menneskelig.
+
+---
+
 Således er det klart at Bastiat er langt fra å være blind. Han benekter ikke eksistensen av ondskap. Mennesket er svakt, tilbøyelig til feil og feilskjær. Ingensteder vil man se Bastiat benekte det faktum at utøvelsen av individuell frihet er forbundet med muligheten for feil, muligheten for et urimelig eller meningsløst valg.
 
 Han hevder ganske enkelt at hvis kilden til ondskap ligger i fraværet av frihet, er løsningen i friheten selv, og mer spesifikt i den fullstendige og hele utøvelsen av personlig ansvar.
@@ -856,6 +881,15 @@ Og igjen:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Gjensidig  
+>hjelpeforening  
+>i GUISY  
+>1899
+
+---
+
 Men ifølge Bastiat finnes det et alternativ til obligatorisk statlig solidaritet: "gjensidig hjelpesamfunn"
 
 den gjensidige og spontane assistansen av menn blant seg selv takket være gjensidige hjelpesamfunn. Men han forutså også at Staten til slutt ville gripe disse gjensidige for å gjøre dem til en unik og sentralisert kropp, som oppmuntrer til utgifter og sløsing.
@@ -865,6 +899,16 @@ den gjensidige og spontane assistansen av menn blant seg selv takket være gjens
 I en pamflett med navnet "Rettferdighet og Brorskap", utforsker Bastiat også ideen om et forenklet og rettferdig skattesystem for finansiering av kollektive behov (politi, rettsvesen, hær): inntekter og profitter ville være underlagt en enkelt og proporsjonal skattesats. Dette er det som i dag er kjent som "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Stiftelser – en  
+>**merverdi**  
+>for **samfunnet**  
+>
+>SwissFoundations
+
+---
 
 Faktisk er intrafamiliær solidaritet, lokal solidaritet, eller organisert filantropi mye mer utviklet i land som har et lett skattesystem og en relativt høy grad av økonomisk frihet, som Sveits og USA, mens det i stor grad er kvalt i land hvor Staten i stor grad har erstattet individuelt ansvar, som Frankrike eller Tyskland.
 

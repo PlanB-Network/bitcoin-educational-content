@@ -1,0 +1,8 @@
+question: Vad är en fördel med att acceptera Bitcoin som handlare?
+answer: Motstånd mot censur.
+wrong_answers:
+  - Höjda transaktionsavgifter.
+  - Skydd mot deflation.
+  - Finansiell begränsning.
+explanation: >-
+reviewed: true

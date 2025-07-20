@@ -1,0 +1,11 @@
+question: Jedan od razloga zašto je važno sprovesti temeljno istraživanje pre nego što se poveri stabilkoinu je da se proceni njegova stabilnost i sigurnost.
+answer: Neki stabilni novčići nemaju transparentnost i pažljivost
+wrong_answers:
+  - Stablecoini nemaju rizike povezane sa njima
+  - Stablecoini su uvek potpuno podržani rezervama
+  - Neki stablecoini su regulisani od strane vlade
+explanation: |
+  Nisu svi stablecoini jednako transparentni.  
+  Stoga je važno sprovesti temeljno istraživanje  
+  pre nego što poverite značajno bogatstvo bilo kojem određenom stablecoinu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je razlika između enterprise VPN-ova i consumer VPN-ova?
+answer: Enterprise VPN-ovi su skuplji i složeniji, dok su potrošački VPN-ovi pristupačniji i jednostavniji za korišćenje.
+wrong_answers:
+  - Enterprise VPN-ovi su obično sigurniji od potrošačkih VPN-ova, jer su uvek skuplji.
+  - Potrošački VPN-ovi su uvek skuplji od poslovnih VPN-ova zbog ekonomske skale kojoj potonji imaju pristup.
+  - Zbog svoje zahtevnije ciljne publike, VPN-ovi za preduzeća uvek šifruju podatke, dok potrošački VPN-ovi to ne čine.
+explanation: |
+  Enterprise VPN-ovi su dizajnirani za preduzeća i obično su skuplji i složeniji za postavljanje i upravljanje. S druge strane, potrošački VPN-ovi su dizajnirani za individualne korisnike i generalno su pristupačniji i lakši za korišćenje.
+reviewed: true

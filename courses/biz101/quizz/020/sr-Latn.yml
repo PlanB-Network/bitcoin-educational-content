@@ -1,0 +1,9 @@
+question: Šta je „skrivena inflacija“ u kontekstu monetarnog sistema zasnovanog na dugu?
+answer: To je povećanje novca Supply (oko 7% godišnje) koje smanjuje vaš udeo u ukupnoj vrednosti ako ne investirate ili ne povećavate imovinu u skladu s tim.
+wrong_answers:
+  - To je zvanični ekonomski termin za fiksne kamatne stope.
+  - Odnosi se na brojeve inflacije koje centralne banke nisu objavile.
+  - To znači da cene nikada ne rastu, čak i kada se novac Supply širi.
+explanation: |
+  Skrivena inflacija se javlja kada se novčana masa Supply širi, smanjujući kupovnu moć štednje. Ako preduzeće ne investira proaktivno ili ne zaštiti svoje bogatstvo, rizikuje da izgubi vrednost zbog ovog tihog oblika monetarnog razvodnjavanja.
+reviewed: false

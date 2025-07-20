@@ -1,0 +1,9 @@
+question: در یک RGB Contract، عملکرد Interface چیست؟
+answer: داده‌های Contract را به‌گونه‌ای ساده و قابل‌خواندن و دستکاری کنید.
+wrong_answers:
+  - اجرای اسکریپت‌های اعتبارسنجی بر روی Blockchain
+  - ذخیره‌سازی داده‌های Genesis در سمت مشتری
+  - تعریف سیستم نوع سختگیرانه برای گزارش‌ها
+explanation: |
+  هدف Interface این است که اطلاعات Contract را به گونه‌ای ارائه دهد که برای کاربران و نرم‌افزارها واضح باشد، بدون اینکه بر Business Logic تأثیر بگذارد.
+reviewed: false

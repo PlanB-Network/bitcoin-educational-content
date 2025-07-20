@@ -1,11 +1,9 @@
-question: Inamaanisha nini kuwa Bitcoin ni chanzo wazi?
-answer: Mtu yeyote anaweza kuangalia jinsi Bitcoin inavyofanya kazi, ni ya uwazi na kwa hiyo inaweza kukaguliwa
+question: Ni majukwaa gani yanapendekezwa kuzuia KYC wakati wa kununua bitcoins?
+answer: Majukwaa ya Exchange ya rika-kwa-rika
 wrong_answers:
-  - Mtu yeyote anaweza kuunda toleo lake la Bitcoin
-  - Bitcoin ni bure kutumia
-  - Msimbo wa Bitcoin unapatikana kwa umma ili kurekebishwa
+  - Jukwaa la madhumuni ya jumla ya Exchange
+  - Majukwaa ya Bitcoin-pekee ya Exchange
+  - Majukwaa ya Exchange yanayolenga biashara
 explanation: |
-  Kuwa chanzo huria kunamaanisha kuwa msimbo wa Bitcoin unapatikana kwa umma
-  mtu yeyote kukagua. Hii inafanya uwazi na ukaguzi, kuhakikisha kwamba itifaki
-  ni sawa kwa kila mtu.
+  Majukwaa ya P2P huruhusu watumiaji kununua bitcoins moja kwa moja kutoka kwa mtu mwingine bila kuhitaji KYC.
 reviewed: false

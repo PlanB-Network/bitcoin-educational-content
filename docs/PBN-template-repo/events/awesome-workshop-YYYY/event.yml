@@ -22,11 +22,12 @@ address_line_3: Room No. 7
 # with year (at the end) to avoid duplication
 name: The ₿ Workshop in Lugano Bitcoin Event 2026
 
-# define the event category, 4 options:
+# define the event category, 5 options:
 # - workshop
 # - course
 # - conference
 # - lecture
+# - meetup
 type: workshop
 
 # Description
@@ -53,7 +54,7 @@ project_id: cd62a137-baad-4133-b90d-711963e510c7
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - historical
   - case-studies

@@ -1,11 +1,9 @@
-question: Je, ni jukumu gani kuu la watengenezaji wa Bitcoin Core?
-answer: Wao ni wajibu wa maendeleo kuu ya itifaki ya Bitcoin na vipengele vyake vya msingi
+question: Kwa nini inashauriwa kuhamisha fedha mara kwa mara kutoka kwa Hot Wallet hadi Hardware Wallet?
+answer: Ili kupunguza hatari ya hacking
 wrong_answers:
-  - Wanadhibiti mtandao wa Bitcoin
-  - Wanaunda bitcoins mpya
-  - Wanadhibiti bei ya Bitcoin
+  - Kuongeza ukwasi wa Wallet
+  - Ili kupunguza ada za manunuzi
+  - Ili kuboresha faragha ya UTXO
 explanation: |
-  Maudhui ya sura yanaeleza kuwa watengenezaji wa Bitcoin Core wanawajibika
-  kwa ajili ya maendeleo kuu ya itifaki ya Bitcoin na vipengele vyake vya msingi. Wanafanya hivyo
-  si kudhibiti mtandao wa Bitcoin, kuunda bitcoins mpya, au kudhibiti bei ya Bitcoin.
+  Kuhamisha hadi Hardware Wallet hulinda pesa kwa kuhifadhi funguo za kibinafsi nje ya mtandao.
 reviewed: false

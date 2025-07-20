@@ -1,0 +1,9 @@
+question: Šta je RGBlib u ekosistemu RGB?
+answer: Biblioteka za kreiranje aplikacija za upravljanje RGB sredstvima
+wrong_answers:
+  - Android Wallet posvećen upravljanju imovinom RGB
+  - Alternativni klijent za RGB protokol
+  - Veb-sajt za prikaz RGB NFT-ova
+explanation: |
+  RGBlib nudi pojednostavljeni Interface za programere, omogućavajući im upravljanje emisijom, prenosom i validacijom RGB sredstava bez potrebe da ovladaju svim tehničkim detaljima.
+reviewed: false

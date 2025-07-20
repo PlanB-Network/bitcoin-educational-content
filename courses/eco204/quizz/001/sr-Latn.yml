@@ -1,0 +1,11 @@
+question: Koje su bile dve glavne metode istorijski korišćene za povećanje novca Supply?
+answer: Monetarna štampa i smanjenje sadržaja metala
+wrong_answers:
+  - Monetarna štampa i povećanje sadržaja metala
+  - Monetarna redukcija i povećanje sadržaja metala
+  - Monetarna Redukcija i Redukcija Sadržaja Metala
+explanation: |
+  Istorijski gledano, postojale su dve glavne metode za povećanje novca
+  
+  Supply; Monetarno štampanje i smanjenje sadržaja metala.'
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kakva je istorijska veza između novca i roba poput zlata?
+answer: Zlato je oskudno i široko prihvaćeno kao sredstvo očuvanja vrednosti
+wrong_answers:
+  - Zlato čini da novac izgleda privlačnije
+  - Zlato je lako deljivo
+  - Zlato je jedinstveno
+explanation: |
+  S obzirom na globalizovanu oskudicu zlata u prirodi i značajna ulaganja potrebna za rudarenje, rafiniranje i skladištenje, zlato se dosledno trgovalo po premiji u odnosu na druge oblike novca.
+reviewed: true

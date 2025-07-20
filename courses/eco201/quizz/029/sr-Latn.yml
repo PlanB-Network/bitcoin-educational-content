@@ -1,0 +1,9 @@
+question: Šta je koncept vremenske preferencije?
+answer: Vremenska preferencija je subjektivna procena vrednosti budućih dobara u poređenju sa sadašnjim dobrima. Sve ostalo jednako, sadašnja dobra su inherentno preferirana u odnosu na buduća dobra.
+wrong_answers:
+  - Vremenska preferencija je objektivna procena vrednosti budućih dobara u poređenju sa sadašnjim dobrima.
+  - Vremenska preferencija je inherentna preferencija za buduća dobra u odnosu na sadašnja dobra.
+  - Vremenska preferencija je subjektivna procena vrednosti sadašnjih dobara u poređenju sa budućim dobrima.
+explanation: |
+  Vremenska preferencija je subjektivna procena vrednosti budućih dobara u poređenju sa sadašnjim dobrima. Pošto smo smrtni, a budućnost je uvek neizvesna, prirodno preferiramo da imamo pristup dobru sada, a ne kasnije. Iako vremenska preferencija može da se razlikuje među pojedincima, zbog mnoštva faktora kao što su kultura, bogatstvo, obrazovanje, fiziologija, itd., vremenske preferencije su uvek pozitivne, što znači da, uz sve ostale jednake uslove, uvek više cenimo sadašnja dobra nego buduća dobra.
+reviewed: true

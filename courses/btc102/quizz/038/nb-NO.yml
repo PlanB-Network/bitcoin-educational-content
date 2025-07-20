@@ -1,10 +1,9 @@
-question: Hva tilbyr Bitcoin til hver enkelt person?
-answer: En mulighet til å forlate det tradisjonelle finanssystemet
+question: Hvilken profil favoriserer anskaffelse uten kjennskap til kunden og bruk av svært sikre lommebøker?
+answer: Den paranoide
 wrong_answers:
-  - En mulighet til å bli raskt rik
-  - En mulighet til å investere i aksjer
-  - En mulighet til å åpne en bankkonto
+  - Hodleren
+  - Stableren
+  - Den aktive brukeren
 explanation: |
-  Kapittelet sier at Bitcoin tilbyr hver enkelt person en mulighet til å forlate
-  det tradisjonelle finanssystemet. Det er et etisk valg som alle sannsynligvis
-  må ta en dag.
+  Den paranoide prioriterer personvern og sikkerhet, og bruker svært sikre anskaffelses- og lagringsmetoder.
+reviewed: false

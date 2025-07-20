@@ -1,0 +1,9 @@
+question: Kada se prvi Exchange između Bitcoin i dolara dogodio?
+answer: 12. oktobar 2009.
+wrong_answers:
+  - 8. maj 2009.
+  - 30. decembar 2009.
+  - 11. mart 2010.
+explanation: |
+  Martti je prebacio 5,050 bitkoina na NLS, koji je zatim prebacio $5.02 na njegov PayPal račun. Ovo je odgovaralo jediničnoj ceni od oko $0.001.
+reviewed: false

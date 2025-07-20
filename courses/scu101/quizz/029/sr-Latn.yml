@@ -1,0 +1,9 @@
+question: Koje je jednostavno rešenje za zaštitu vaših podataka od ransomware napada?
+answer: Redovno pravite rezervne kopije važnih podataka na eksterni uređaj za skladištenje ili sigurnu online uslugu skladištenja.
+wrong_answers:
+  - Instalirajte više antivirusnih softvera na vaš računar i periodično vršite skeniranje.
+  - Redovno menjajte svoj računar ili ponovo instalirajte operativni sistem (OS).
+  - Možete koristiti javnu Wi-Fi mrežu ako nemate šta da sakrijete na svom uređaju.
+explanation: |
+  Redovno pravljenje rezervnih kopija vaših podataka omogućava vam da povratite vaše podatke u slučaju sajber napada ili kvara hardvera, bez gubitka ključnih informacija.
+reviewed: true

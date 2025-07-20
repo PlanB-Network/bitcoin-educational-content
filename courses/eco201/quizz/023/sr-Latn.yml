@@ -1,0 +1,14 @@
+question: Zašto se problem koordinacije u podeli rada ponovo javlja u većim zajednicama?
+answer: Zbog toga što su ljudi ograničeni svojim kognitivnim sposobnostima, društveno prihvaćeno merenje vrednosti doprinosa u Exchange je netrivijalan problem.
+wrong_answers:
+  - Zato što ljudi nisu zainteresovani za rad u većim grupama i preferiraju manje zajednice.
+  - Zbog toga što veće zajednice imaju više resursa, što dovodi do manje potrebe za podelom rada.
+  - Zbog toga što veće zajednice imaju više sukoba, što otežava koordinaciju.
+explanation: |
+  U većim zajednicama, nemoguće je da osoba
+  održi i zapamti stabilne društvene odnose sa više
+  od 150 pojedinaca, što čini sistem reputacije
+  nedovoljnim za prevazilaženje zatvorenikove dileme u velikim razmerama.
+  Takođe, procena vrednosti doprinosa u Exchange je
+  složen problem u većim zajednicama.
+reviewed: true

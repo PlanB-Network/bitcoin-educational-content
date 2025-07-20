@@ -1,0 +1,11 @@
+question: Koja je glavna odgovornost centralnih banaka prema kejnzijanskoj doktrini?
+answer: Proizvodnja i upravljanje novcem
+wrong_answers:
+  - Decentralizacija monetarne moći
+  - Promocija trezvene vizije rasta i ljudske racionalnosti
+  - Nijedno od navedenog
+explanation: |
+  Poglavlje pominje da je prema kejnzijanskoj doktrini,
+  proizvodnja i upravljanje novcem
+  odgovornost centralnih banaka.
+reviewed: true

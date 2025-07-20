@@ -1,0 +1,9 @@
+question: Koja je funkcija privatnog ključa d u RSA kriptosistemu?
+answer: Koristi se za dešifrovanje poruka koristeći moduo N
+wrong_answers:
+  - Koristi se samo za šifrovanje poruka
+  - Koristi se za otključavanje bitkoina
+  - Koristi se za izračunavanje φ(N)
+explanation: |
+  Privatni ključ d se koristi za dešifrovanje šifrovanih poruka, dovršavanjem izračunavanja sa modulom N.
+reviewed: false

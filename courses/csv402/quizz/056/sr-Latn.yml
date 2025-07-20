@@ -1,0 +1,9 @@
+question: Koje su glavne komponente potrebne za pokretanje RGB-kompatibilnog Lightning čvora?
+answer: bitcoind, indeksator i RGB proxy server
+wrong_answers:
+  - Lightning čvor, indeksator i IPFS server
+  - An RGB mobilni Wallet, an RGB proxy server i bitcoind
+  - Web klijent, indeksator i RGB proxy server
+explanation: |
+  Da biste pokrenuli Lightning čvor sa omogućenim RGB, potreban vam je bitcoind čvor za interakciju sa Bitcoin Blockchain, indeksator za rudarenje On-Chain transakcija i RGB proxy server za olakšavanje Exchange pošiljki između vršnjaka.
+reviewed: false

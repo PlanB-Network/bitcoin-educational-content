@@ -1,0 +1,11 @@
+question: Koja je funkcija Lightning Network u ekosistemu Bitcoin?
+answer: Omogućava Bitcoin da se proširi i dobije više funkcija delujući kao drugi Layer.
+wrong_answers:
+  - To je zasebna kriptovaluta koja se takmiči sa Bitcoin.
+  - To je alat za Mining Bitcoin.
+  - To je platforma za trgovanje Bitcoin.
+explanation: |
+  Lightning Network je druga Layer tehnologija primenjena na Bitcoin
+  koja koristi kanale za mikroplaćanja kako bi povećala sposobnost Blockchain za obavljanje
+  transakcija efikasnije.
+reviewed: false

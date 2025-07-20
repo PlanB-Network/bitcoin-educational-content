@@ -1,0 +1,9 @@
+question: منشأ اصطلاح hodler چیست؟
+answer: یک غلط املایی از hold
+wrong_answers:
+  - مخفف برای "نگه داشتن"
+  - اختصاری از Hot Wallet
+  - انقباض زنجیره HODL
+explanation: |
+  اصطلاح "hodler" از یک اشتباه تایپی در Bitcoin Talk آمده است، جایی که "hold" به اشتباه به صورت "HODL" نوشته شد تا نگهداری بلندمدت را بیان کند.
+reviewed: false

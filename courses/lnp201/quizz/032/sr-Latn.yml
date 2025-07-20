@@ -1,0 +1,9 @@
+question: Koja je uloga naknada za usmeravanje u Lightning Network?
+answer: Da bi se posrednički čvorovi podstakli da obezbede svoju likvidnost za prenos uplata
+wrong_answers:
+  - Da se ograniči broj transakcija na mreži
+  - Da se obezbedi da svaki kanal ima dovoljno sredstava
+  - Da automatski izračunate najkraći put
+explanation: |
+  Naknade za usmeravanje koriste se za kompenzaciju posredničkih čvorova koji prenose uplate nudeći svoju likvidnost kako bi omogućili transfer sredstava preko mreže.
+reviewed: false

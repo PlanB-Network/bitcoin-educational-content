@@ -1,9 +1,9 @@
-question: Bitcoinウォレットの目的は何ですか？
-answer: ビットコインを送受信すること
+question: Bitcoinのサイドチェーンはどれですか？
+answer: Liquidと台木
 wrong_answers:
-  - ビットコインを採掘すること
-  - 物理的なビットコインを保管すること
-  - ビットコインを他の通貨に変換すること
+  - ポリゴンとアービトラム
+  - ジュピターとファンタム
+  - Bitcoin キャッシュとBitcoin Satoshi ビジョン
 explanation: |
-  Bitcoinウォレットは、ビットコインを送受信するために使用されます。これらはデジタルウォレットであり、ビットコインアドレスにアクセスし、ビットコインを使用するために必要なデジタル認証情報を保管します。
+  LiquidとRSKはBitcoinと2WAYペグを持つサイドチェーン。他の選択肢はサイドチェーンではないか、Bitcoin Blockchainとの2WPがない。
 reviewed: false

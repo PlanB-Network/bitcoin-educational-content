@@ -1,0 +1,8 @@
+question: Koji je jedan od potencijalnih rizika ostavljanja vašeg Bitkoina na menjačnici?
+answer: Rizici hakovanja i blokiranja sredstava.
+wrong_answers:
+  - Rizik da platforma poveća cenu Bitkoina.
+  - Rizik od platforme koja kontroliše ponudu Bitkoina.
+  - Rizik da Bitkoin bude premašen u ceni od strane kriptovalute.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kako Kerckhoffov princip olakšava sigurnost otvorenih sistema kao što je Linux?
+answer: Omogućava javnu verifikaciju potencijalnih ranjivosti
+wrong_answers:
+  - Čini algoritme šifrovanja nevidljivim
+  - Ograničava broj potencijalnih korisnika
+  - Osigurava korišćenje jedinstvenih ključeva
+explanation: |
+  Kerckhoffov princip omogućava javnu verifikaciju sigurnosnih nedostataka, kao u sistemima otvorenog koda, što čini sisteme pouzdanijim kroz transparentnost. Sigurnost je osigurana isključivo ključem, a ne samim procesom enkripcije.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Jaka jest rola górników w sieci Bitcoin?
-answer: Aby zarejestrować propagowane transakcje w Bitcoin Blockchain
+question: Jaka cecha przede wszystkim odróżnia Bitcoin od altcoinów?
+answer: Decentralizacja
 wrong_answers:
-  - Aby utworzyć nowe bitcoiny
-  - Regulacja wartości bitcoinów
-  - Aby zweryfikować tożsamość użytkowników Bitcoin
+  - Płynność
+  - Reputacja
+  - Prywatność
 explanation: |
-  Górnicy w sieci Bitcoin są odpowiedzialni za rejestrowanie transakcji
-  które zostały rozpropagowane w sieci do Bitcoin Blockchain. Zapewnia to
-  ostateczność transakcji.
+  Bitcoin słynie ze swojej decentralizacji, w przeciwieństwie do większości altcoinów, które są mniej lub bardziej scentralizowane.
 reviewed: false

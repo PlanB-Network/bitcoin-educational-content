@@ -1,0 +1,9 @@
+question: What are the main limitations of mobile antivirus applications?
+answer: They are limited in the face of real threats
+wrong_answers:
+  - They make the phone incompatible with mobile networks
+  - They remove messaging applications
+  - They increase battery life
+explanation: |
+  Mobile antivirus software offers no protection against phishing or bad authorizations, and only limited security against the main threats.
+reviewed: false

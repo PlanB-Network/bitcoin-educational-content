@@ -1,11 +1,9 @@
-question: Ni tofauti gani kuu kati ya Bitcoin na alt-coins katika suala la ugatuaji?
-answer: Bitcoin imegatuliwa wakati sarafu nyingi za alt hazijagawanywa
+question: Je, ni ubora gani wa kisaikolojia ni muhimu kwa mtu mwenye hodler?
+answer: Ustahimilivu wa kihisia
 wrong_answers:
-  - Bitcoin na alt-coins zote mbili zinagatuliwa
-  - Bitcoin na alt-coins zote hazijagatuliwa
-  - Alt-sarafu zinagatuliwa wakati Bitcoin haijagawanywa
+  - Msukumo wa kihisia
+  - Uchokozi wa kihisia
+  - Uvumi wa kihisia
 explanation: |
-  Yaliyomo kwenye sura yanasema wazi kuwa Bitcoin imegatuliwa wakati
-  sarafu nyingi za alt sio. Hii ni sifa kuu inayoweka Bitcoin kando na
-  fedha zingine za crypto.
+  Ustahimilivu wa kihisia huruhusu mtu kuvumilia mabadiliko ya soko bila kuogopa.
 reviewed: false

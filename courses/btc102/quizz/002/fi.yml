@@ -1,11 +1,9 @@
-question: Mikä on merkittävä esimerkki Bitcoinin kovasta haarautumisesta?
-answer: Bitcoin Cash (BCH)
+question: Mihin varotoimiin olisi ryhdyttävä lahjoitushuijauksia ja vilpillisiä arpajaisia vastaan?
+answer: Älä koskaan lähetä rahaa saadaksesi bitcoineja
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Lähetä aina pieni määrä testataksesi tarjousta
+  - Sijoita saadaksesi nopeaa ja vaivatonta voittoa
+  - Jaa henkilökohtaisia tietoja tapahtuman turvaamiseksi
 explanation: |
-  Bitcoin on ajan myötä kokenut useita kovia haarautumisia, jotka ovat johtaneet erilaisiin
-  alkuperäisen valuutan vaihtoehtoisiin versioihin. Merkittäviä esimerkkejä näistä poikkeamista
-  ovat Bitcoin Cash (BCH) ja Bitcoin Satoshi Vision (BSV).
+  Ennakkomaksun pyytäminen on yleinen merkki tämäntyyppisistä huijauksista.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koje su glavne operacije RGB Contract?
+answer: State Transition, Genesis, i State Extension
+wrong_answers:
+  - Seal Definition, Commitment, i Validacija
+  - Anchor Creation, DAG Update, and Transaction Signing
+  - Genesis Blok, UTXO Alokacija, i Validacija Skripte
+explanation: |
+  Ove operacije modifikuju ili kompletiraju status Contract prema njegovom Schema.
+reviewed: false

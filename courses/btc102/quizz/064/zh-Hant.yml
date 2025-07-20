@@ -1,12 +1,9 @@
-question: 對於無壓力的重複性 Bitcoin 購買，建議的解決方案是什麼？
-answer: 使用 DCA 解決方案
+question: 對於您的繼承人來說，什麼行動是無誤地收回您的 bitcoins 必須的？
+answer: 提供清楚的指示
 wrong_answers:
-  - 使用 Hot Wallet
-  - 使用 Cold Wallet
-  - 使用非 KYC 解決方案
+  - 託管所有私人金鑰
+  - 經常變更密碼
+  - 使用 KYC Exchange 平台
 explanation: |
-  對於無壓力的重複性 Bitcoin 購買，建議的解決方案是使用 DCA（平均美元成本）解決方案。
-  是使用 DCA（平均成本法）解決方案。此策略包括將
-  您要投資的總金額，以減少定期購買的影響。
-  波動的影響。
+  詳細且易懂的指示可確保您的親人能夠正確地使用資金。
 reviewed: false

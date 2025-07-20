@@ -1,9 +1,9 @@
-question: Apa itu dompet dingin dalam konteks Bitcoin?
-answer: Sebuah dompet untuk menyimpan jumlah besar Bitcoin secara offline
+question: Apa tujuan utama dari bitcoiner yang paranoid?
+answer: Untuk melindungi privasi mereka
 wrong_answers:
-  - Sebuah dompet yang digunakan untuk transaksi di iklim dingin
-  - Sebuah dompet yang digunakan untuk menyimpan jumlah kecil Bitcoin
-  - Sebuah dompet yang digunakan untuk menyimpan Bitcoin dalam jangka waktu pendek
+  - Untuk mengumpulkan satoshi dengan cepat
+  - Untuk memaksimalkan keuntungan trading
+  - Untuk menyimpan bitcoin mereka dalam jangka panjang
 explanation: |
-  Dompet dingin adalah dompet untuk menyimpan jumlah besar Bitcoin secara offline.
-  Ini dianggap lebih aman daripada dompet panas karena lebih sedikit rentan terhadap peretasan.
+  Bitcoiner yang paranoid terutama berusaha untuk menghindari pelacakan transaksi dan identitas mereka.
+reviewed: false

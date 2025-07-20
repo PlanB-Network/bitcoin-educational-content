@@ -1,11 +1,9 @@
-question: Je, kuna umuhimu gani wa Bitcoin kuwa uvumbuzi wa 0 hadi 1?
-answer: Inavuruga kanuni na tabia zetu
+question: Je! ni utaratibu gani wa RGB unahakikisha upinzani dhidi ya matumizi mara mbili?
+answer: Single-Use Seal
 wrong_answers:
-  - Ni sarafu ya kwanza ya kidijitali
-  - Thamani imeongezeka kutoka 0 hadi 1
-  - Ni hatua ya kwanza kuelekea jamii isiyo na pesa
+  - Seal ya matumizi mengi
+  - Sahihi mara mbili
+  - Ushahidi-wa-Dau
 explanation: |
-  Neno 0 hadi 1 linarejelea uvumbuzi mkubwa unaotatiza uliopo
-  kanuni na mazoea. Bitcoin inachukuliwa kuwa uvumbuzi kama huo kwa sababu ya sifa zake za kipekee
-  na athari zinazowezekana kwa jamii.
+  Single-Use Seal inaongeza ukweli kwamba UTXO inaweza kutumika mara moja tu, kuhakikisha upinzani wa matumizi mara mbili ndani ya mikataba smart ya RGB.
 reviewed: false

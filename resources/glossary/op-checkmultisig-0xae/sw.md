@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+---
+
+Hukagua saini nyingi dhidi ya funguo nyingi za umma. Inachukua kama ingizo mfululizo wa vitufe vya `N` vya umma na sahihi `M`, ambapo `M` inaweza kuwa chini ya au sawa na `N`. `OP_CHECKMULTISIG` huthibitisha ikiwa angalau saini za `M` zinalingana na `M` ya funguo za umma `N`. Kumbuka kuwa kutokana na hitilafu ya kihistoria ya kutoweka kwa moja, kipengele cha ziada kinaondolewa na `OP_CHECKMULTISIG` kutoka kwenye rafu. Kipengele hiki kinaitwa "*dummy element*". Ili kuepuka hitilafu katika `scriptSig`, `OP_0`, ambayo ni kipengele kisichofaa, kwa hivyo hujumuishwa ili kukidhi uondoaji na kukwepa hitilafu. Kwa kuwa BIP147 (iliyoletwa kwa SegWit mwaka wa 2017), kipengele kisicho na maana kilichotumiwa kwa sababu ya hitilafu lazima iwe `OP_0` ili hati iweze kuwa halali, kwa kuwa ilikuwa vekta inayoweza kuharibika. Opcode hii iliondolewa kwenye Tapscript.

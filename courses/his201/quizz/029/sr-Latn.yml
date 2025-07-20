@@ -1,0 +1,9 @@
+question: Kakvu kritiku je osnivač cypherpunks-a, John Gilmore, uputio na račun izuma Satoshi Nakamota u januaru 2009?
+answer: Bitcoin zagađuje planetu
+wrong_answers:
+  - Bitcoin olakšava utaju poreza
+  - Bitcoin je ranjiv na Sybil napade
+  - Bitcoin je deflatoran
+explanation: |
+  On je [kritikovao](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin zbog potrošnje električne energije i generisanja ugljen-dioksida (gas sa efektom staklene bašte).
+reviewed: false

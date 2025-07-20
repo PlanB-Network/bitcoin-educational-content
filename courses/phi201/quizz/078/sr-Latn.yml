@@ -1,0 +1,9 @@
+question: Koji je najpoznatiji doprinos Adama Smitha ekonomiji?
+answer: Razvio je teoriju nevidljive ruke.
+wrong_answers:
+  - Razvio je teoriju vidljivog prsta.
+  - Razvio je teoriju nevidljivog prsta.
+  - Razvio je teoriju vidljive ruke.
+explanation: |
+  Adam Smith je poznat po svojoj teoriji nevidljive ruke, koja tvrdi da individualne akcije motivisane ličnim interesom nenamerno doprinose ekonomskom blagostanju društva u celini.
+reviewed: false

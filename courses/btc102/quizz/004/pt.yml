@@ -1,10 +1,9 @@
-question: Qual é uma característica comum de golpes no domínio das criptomoedas?
-answer: Promessas de retornos irreais.
+question: Qual é o principal mecanismo de um esquema Ponzi?
+answer: Os primeiros investidores são pagos com o dinheiro dos novos investidores
 wrong_answers:
-  - Promessas de bens físicos.
-  - Promessas de produtos de software.
-  - Promessas de moeda fiduciária.
+  - Os retornos provêm de um produto real no mercado
+  - Os investidores recebem dividendos das empresas
+  - Os lucros são gerados por contratos inteligentes no Blockchain
 explanation: |
-  Golpes no domínio das criptomoedas frequentemente prometem retornos irreais.
-  É crucial não confiar cegamente, especialmente quando se trata de um banner na internet.
+  Num esquema Ponzi, não é criado nenhum produto real e os pagamentos dependem apenas da chegada de novos participantes.
 reviewed: false

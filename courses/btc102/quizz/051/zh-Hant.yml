@@ -1,11 +1,9 @@
-question: Lightning Network 在 Bitcoin 生態系統中的功能是什麼？
-answer: 它允許 Bitcoin 作為第二個 Layer 來擴充並獲得更多功能。
+question: 哪種方法可以讓您抵銷已花費的 bitcoins，同時保留您的儲蓄？
+answer: 花費與替換
 wrong_answers:
-  - 它是與 Bitcoin 競爭的獨立加密貨幣。
-  - 它是 Mining Bitcoin 的工具。
-  - 這是一個交易 Bitcoin 的平台。
+  - HODLing 和取代
+  - 花費與 HODLing
+  - 交易與花費
 explanation: |
-  Lightning Network 是應用於 Bitcoin 的第二個 Layer 技術。
-  的第二個 Layer 技術，利用微型付款通道來擴展其 Blockchain 的能力，以更有效率地進行交易。
-  更有效率地進行交易。
+  花費與取代」方法是先花費比特幣，然後再回購相同數額的比特幣，以維持您的持有量。
 reviewed: false

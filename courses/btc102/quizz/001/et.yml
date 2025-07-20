@@ -1,8 +1,9 @@
-question: Mis on levinud pettus seoses veebivõistluste või annetustega krüptovaldkonnas?
-answer: Reklaamid, mis lubavad tasuta bitcoine.
+question: Mida peaksite tegema, et tuvastada andmepüügikatsed krüptosektoris?
+answer: Kontrollida saatja isikusamasust
 wrong_answers:
-  - Reklaamid, mis lubavad füüsilisi kaupu.
-  - Reklaamid, mis lubavad tasuta fiat-raha.
-  - Reklaamid, mis lubavad tasuta tarkvara.
+  - Klõpsake ainult e-kirjas saadud linkidel
+  - Jagage oma isiklikke võtmeid autentsuse kinnitamiseks
+  - Tugineda e-kirjades ainult logodele ja piltidele
 explanation: |
-  Pettused, mis on seotud veebivõistluste või annetustega, on krüptosektoris väga levinud. Reklaamid, mis lubavad tasuta bitcoine, kasutatakse sageli kogenematute kasutajate petmiseks.
+  Peaksite alati veenduma, et suhtlete õige isikuga, ja ärge kunagi kasutage e-kirjades esitatud linke. Selle asemel minge otse veebilehele käsitsi, kasutades oma brauseri järjehoidjaid.
+reviewed: false

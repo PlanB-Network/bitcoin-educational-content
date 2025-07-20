@@ -1,0 +1,9 @@
+question: Które narzędzie wiersza poleceń jest zalecane dla systemu Linux do usuwania wszystkich metadanych z obrazu lub pliku PDF?
+answer: exiftool
+wrong_answers:
+  - notatnik
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool to potężne narzędzie do wyświetlania i usuwania metadanych z szerokiej gamy plików (obrazów, plików PDF, audio itp.).
+reviewed: false

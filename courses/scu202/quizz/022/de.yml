@@ -1,0 +1,9 @@
+question: Welche Distribution verwendet standardmäßig die Desktop-Umgebung Cinnamon?
+answer: Linux Minze
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon wurde vom Linux Mint-Team entwickelt, um ein modernes, klassisches Interface zu bieten, das Windows sehr ähnlich ist.
+reviewed: false

@@ -1,11 +1,9 @@
-question: 在 Exchange 平台上儲存比特幣有什麼風險？
-answer: 平台可能會破產，您的比特幣可能會被沒收，或者平台可能會被黑客入侵。
+question: 誰出版了 Bitcoin 白皮書？
+answer: Satoshi Nakamoto
 wrong_answers:
-  - 平台可能會增加費用，您的比特幣可能會貶值，或者平台可能會被黑客入侵。
-  - 平台可能破產，您的比特幣可能升值，或者平台可能被駭客入侵。
-  - 平台可能會破產，您的比特幣可能會被沒收，或者平台可能會增加費用。
+  - David Chaum
+  - Tim May
+  - Eric Hughes
 explanation: |
-  在 Exchange 平台上儲存比特幣會有風險，例如平台
-  破產、您的比特幣被沒收或平台被黑客入侵。
-  這就是控制您的私人密碼匙的重要性。
+  白皮書由 Satoshi Nakamoto（化名）於 2008 年底發表。
 reviewed: false

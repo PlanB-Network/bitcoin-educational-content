@@ -1,0 +1,12 @@
+question: Koji je glavni alat koji danas koriste rudari u Bitcoin mreži?
+answer: ASICs
+wrong_answers:
+  - CPU-ovi
+  - GPU-ovi
+  - FPGAs
+explanation: |
+  Danas rudari isključivo koriste ASIC-ove posvećene ovoj
+  operaciji, optimizovane da testiraju maksimalan broj
+  kombinacija uz najmanju moguću potrošnju energije
+  i što je brže moguće.
+reviewed: true

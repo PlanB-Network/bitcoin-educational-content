@@ -1,0 +1,10 @@
+question: Wat is het belang van een sterk wachtwoord voor computerbeveiliging?
+answer: Om ongeautoriseerde toegang tot het systeem te voorkomen.
+wrong_answers:
+  - Om het systeem sneller te laten werken.
+  - Om de opslagcapaciteit te vergroten.
+  - De gebruiker Interface verbeteren.
+explanation: |
+  Een sterk wachtwoord is cruciaal voor computerbeveiliging om
+  onbevoegde toegang tot het systeem te voorkomen.
+reviewed: true

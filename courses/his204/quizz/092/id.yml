@@ -1,0 +1,8 @@
+question: Pada subjek apa yang tidak ditulis oleh Condorcet?
+answer: Bank-bank
+wrong_answers:
+  - Kebebasan perdagangan biji-bijian
+  - Tugas-tugas
+  - Perbudakan
+explanation: |
+  Condorcet menulis tentang kebebasan perdagangan biji-bijian, corvée, dan perbudakan, tetapi ia tidak menulis tentang bank.

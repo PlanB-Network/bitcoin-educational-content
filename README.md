@@ -10,8 +10,8 @@
 
 <div align="center">
   <h1 style="margin-top: 0;"></h1>
-  <a href="https://planb.network/en/node-network">
-    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Become a P₿N Node&color=ff5c00">
+    <a href="https://planb.network/">
+    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Website&color=ff5c00">
   </a>
   <a href="https://twitter.com/planb_network">
     <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/planb_network">
@@ -19,13 +19,10 @@
   <a href="https://t.me/PlanBNetwork_ContentBuilder">
     <img alt="Static Badge" src="https://img.shields.io/badge/community-telegram-blue?logo=telegram">
   </a>
-  <a href="https://planb.network">
-    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20P₿N Platform&color=ff5c00">
-  </a>
   <a href="https://weblate.planb.network/engage/planb-network-website/">
     <img src="https://weblate.planb.network/widget/planb-network-website/website-elements/svg-badge.svg" alt="Translation status" />
   </a>
-  <a href="https://github.com/PlanB-Network/bitcoin-educational-content">
+  <a href="https://github.com/PlanB-Network/bitcoin-educational-content/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/DecouvreBitcoin/sovereign-university-data?label=Contributors&color=ff5c00" alt="Contributors">
   </a>
 </div>
@@ -142,7 +139,7 @@ If you are enthusiastic about this initiative and you would like to help us, ple
 4. Then, you can [start translating the static elements](https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
 5. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) or reach out to the translation coordinator to inform them you have completed the task.
 6. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), or other tools, we will translate the BTC101 course to benchmark with you the automatic translation accuracy.
-7. [Start proofreading](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
+7. [Start proofreading](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
 8. After you finish and we merge the PR, we will send you the reward in sats for both contributions, using a Lightning Network invoice or LN address.
 9. If the automatic translation is good enough, we will translate all the educational content of Plan ₿ Network and publish it on the website.
 10. Then, anyone will be able to choose any content in that language to proofread and receive the associated reward.
@@ -182,4 +179,5 @@ If you believe you are one of them, [reach out](https://t.me/PlanBNetwork_Conten
     <img src="docs/assets/doing-my-part.jpg" alt="Doing my Part meme" width="75%">
   </a></p>
 <br />
+
 

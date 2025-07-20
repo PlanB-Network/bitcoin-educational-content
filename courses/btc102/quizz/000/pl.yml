@@ -1,11 +1,9 @@
-question: Jaka jest wspólna cecha schematów Ponziego w domenie kryptowalut?
-answer: Wykorzystują oni pieniądze nowych inwestorów, aby płacić starszym uczestnikom.
+question: Jakie są typowe cechy schematu Ponziego w ekosystemie kryptowalut?
+answer: Gwarantowane zwroty, trudne wypłaty i polecenia
 wrong_answers:
-  - Zawsze dotyczą Bitcoin.
-  - Są one zawsze legalne i regulowane.
-  - Zawsze wiążą się one z aktywami fizycznymi.
+  - Niskie zwroty, trudne wypłaty i pełna przejrzystość
+  - Gwarantowane zwroty, trudne wypłaty i brak systemu poleceń
+  - Gwarantowane zwroty, łatwe wypłaty i brak systemu poleceń
 explanation: |
-  Schematy Ponzi w domenie kryptowalut często działają poprzez wykorzystywanie pieniędzy nowych
-  pieniędzy nowych inwestorów, aby płacić starszym uczestnikom. Ten niezrównoważony charakter i zależność
-  od nowych uczestników sprawiają, że mogą one nieuchronnie upaść.
+  Cechy te mogą wskazywać na piramidę finansową. Jeśli zaobserwujesz je w projekcie, zachowaj szczególną ostrożność.
 reviewed: false

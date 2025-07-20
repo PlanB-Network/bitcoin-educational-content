@@ -10,7 +10,7 @@ Muun (https://muun.com/) on itsehallinnollinen lompakko Bitcoinille ja Lightning
 
 ## video-opas
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun-lompakko - Kattava käyttöopas
 

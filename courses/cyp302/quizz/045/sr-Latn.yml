@@ -1,0 +1,9 @@
+question: U konačnoj grupi, koji termin se odnosi na broj Elements u grupi?
+answer: Redosled grupe
+wrong_answers:
+  - Kapacitet grupe
+  - Dužina grupe
+  - Stepen grupe
+explanation: |
+  Redosled grupe je ukupan broj Elements koji sadrži.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Šta se dešava ako Bob pošalje Invoice Alisi za 30,000 satoshija?
+answer: Alice kreira Commitment Transaction da prebaci 30.000 satoshija Bobu u kanalu.
+wrong_answers:
+  - Alice mora otvoriti novi kanal da bi izvršila ovaj prenos.
+  - Bob automatski prima 30.000 satoshija u svoj Wallet.
+  - Invoice se plaća putem On-Chain transakcije na Bitcoin.
+explanation: |
+  Kada Bob pošalje Invoice Alisi, ona kreira i potpisuje novi Commitment Transaction kako bi prilagodila distribuciju sredstava, čime prenosi 30.000 satoshija u kanalu.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Koja je svrha HTTPS protokola?
+answer: Šifruje podatke na veb-sajtovima kako bi osigurao bezbedan Exchange između korisnika i veb-sajta.
+wrong_answers:
+  - Omogućava korisnicima da zaobiđu geografska ograničenja kada je u pitanju plaćanje putem debitne ili kreditne kartice.
+  - Omogućava korisnicima da delimično blokiraju onlajn oglašavanje.
+  - Omogućava korisnicima pristup internetu bez korišćenja privatnih akreditiva.
+explanation: |
+  HTTPS protokol se koristi za šifrovanje podataka na veb-sajtovima,
+  osiguravajući da su podaci razmenjeni između korisnika i
+  veb-sajta sigurni. Ovo pomaže u zaštiti od presretanja podataka
+  od strane trećih lica.
+reviewed: true

@@ -373,48 +373,27 @@ Die Schaffung neuer Bitcoins ist das Ergebnis des Mining-Prozesses. Kurz gesagt,
 Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "Halbierung" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
 
 | Halbierungsnummer | Blockhöhe | BTC-Belohnung nach Halbierung | Geschätzte BTC im Umlauf nach Halbierung |
-
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 | 210.000 | 25 BTC | 10.500.000 BTC |
-
-| 2 | 420.000 | 12,5 BTC | 15.750.000 BTC |
-
-| 3 | 630.000 | 6,25 BTC | 18.375.000 BTC |
-
-| 4 | 840.000 | 3,125 BTC | 19.687.500 BTC |
-
-| 5 | 1.050.000 | 1,5625 BTC | 20.343.750 BTC |
-
-| 6 | 1.260.000 | 0,78125 BTC | 20.671.875 BTC |
-
-| 7 | 1.470.000 | 0,390625 BTC | 20.835.937,5 BTC |
-
-| 8 | 1.680.000 | 0,1953125 BTC | 20.917.968,75 BTC |
-
-| 9 | 1.890.000 | 0,09765625 BTC | 20.958.984,375 BTC |
-
-| 10 | 2.100.000 | 0,048828125 BTC | 20.979.492,188 BTC |
-
-| 11 | 2.310.000 | 0,0244140625 BTC | 20.989.746,094 BTC |
-
-| 12 | 2.520.000 | 0,01220703125 BTC | 20.994.873,047 BTC |
-
-| 13 | 2.730.000 | 0,006103515625 BTC | 20.997.436,523 BTC |
-
-| 14 | 2.940.000 | 0,0030517578125 BTC | 20.998.718,262 BTC |
-
-| 15 | 3.150.000 | 0,00152587890625 BTC | 20.999.359,131 BTC |
-
-| 16 | 3.360.000 | 0,000762939453125 BTC | 20.999.679,566 BTC |
-
-| 17 | 3.570.000 | 0,0003814697265625 BTC | 20.999.839,783 BTC |
-
-| 18 | 3.780.000 | 0,00019073486328125 BTC | 20.999.919,892 BTC |
-
-| 19 | 3.990.000 | 0,000095367431640625 BTC | 20.999.959,946 BTC |
-
-| 20 | 4.200.000 | 0,0000476837158203125 BTC | 20.999.979,973 BTC |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Wir werden das Konzept des Bergbaus im Kapitel [Bergarbeiter] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf) näher erläutern.
 
@@ -1061,7 +1040,9 @@ Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den tr
 
 Bitcoin kann als Instrument zur Schaffung einer Parallelwirtschaft zu Fiat-Währungen angesehen werden, da es möglich ist, Waren oder Dienstleistungen zu verkaufen und in Bitcoin bezahlt zu werden. Transaktionen können direkt in Bitcoin getätigt werden, ohne dass der Weg über eine Tauschplattform notwendig ist, sondern einfach von einer Bitcoin-Wallet zu einer anderen.
 
-Die Bitcoin-Wirtschaft existiert und entwickelt sich in bestimmten Regionen der Welt, wie in El Salvador, wo Bitcoin seit 2021 ein gesetzliches Zahlungsmittel ist. Überall um uns herum gibt es einige Einzelpersonen, Unternehmen und Organisationen, die Bitcoin bereits als Zahlungsmittel für ihre Produkte oder Dienstleistungen akzeptieren.
+Die Bitcoin-Ökonomie existiert und entwickelt sich in bestimmten Regionen der Welt, wie zum Beispiel in El Salvador, wo Bitcoin 2021 gesetzliches Zahlungsmittel wurde. Leider verabschiedete die Versammlung im Januar 2025 ein neues Gesetz, das Bitcoin den Titel "gesetzliches Zahlungsmittel" entzieht, angeblich nach Druck des Internationalen Währungsfonds. Nach dem neuen Gesetz sind die Menschen nicht mehr verpflichtet, Bitcoin in ihren Geschäften zu akzeptieren, und können damit auch keine Steuern mehr zahlen. Die Akzeptanz bleibt freiwillig.
+
+Dennoch gibt es in El Salvador und in anderen Teilen der Welt immer mehr Einzelpersonen, Unternehmen und Organisationen, die Bitcoin als Zahlungsmittel für ihre Produkte oder Dienstleistungen akzeptieren.
 
 ![image](assets/en/72.webp)
 
@@ -1136,7 +1117,7 @@ Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kle
 
 **Vorsicht vor UTXOs**: Denken Sie daran, Ihre UTXOs von Zeit zu Zeit in Ihren Geldbörsen zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
 
-Ein [UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
+Ein [UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
 
 - Spontankauf
 

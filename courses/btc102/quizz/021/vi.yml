@@ -1,13 +1,9 @@
-question: Một trong những sai lầm phổ biến mà nhà đầu tư mới mắc phải khi bước vào thế giới Bitcoin là gì?
-
-answer: Đầu tư quá mức
-
+question: Ý nghĩa chính trị quan trọng của Bitcoin là gì?
+answer: Giảm sự kiểm soát của nhà nước đối với tiền tệ
 wrong_answers:
-  - Đầu tư không đủ
-  - Chỉ đầu tư vào Bitcoin
-  - Không đầu tư vào Bitcoin
-
+  - Tăng cường tập trung ngân hàng
+  - Thúc đẩy lạm phát
+  - Tăng cường các quy định tài chính
 explanation: |
-  Một trong những sai lầm phổ biến mà nhà đầu tư mới mắc phải khi bước vào thế giới Bitcoin là đầu tư quá mức, nghĩa là đầu tư nhiều tiền hơn họ có thể chấp nhận mất. Điều này có thể dẫn đến vấn đề tài chính nếu giá trị của Bitcoin giảm.
-
+  Bitcoin là một giải pháp thay thế làm suy yếu quyền lực của các tổ chức nhà nước đối với tiền tệ thông qua việc phát hành tiền và kiểm duyệt giao dịch.
 reviewed: false

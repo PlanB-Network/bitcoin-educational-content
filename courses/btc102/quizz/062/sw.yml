@@ -1,12 +1,9 @@
-question: Je, ni madhumuni gani ya kuuliza maswali manne kabla ya kuchagua mpango wa uwekezaji wa Bitcoin?
-answer: Ili kuchagua njia inayokufaa zaidi
+question: Ni nini kisichopendekezwa wakati wa kupitisha ufikiaji wa bitcoins zako?
+answer: Kutoa maneno ya Mnemonic kwa mtu mmoja
 wrong_answers:
-  - Kuamua kiasi cha Bitcoin unapaswa kununua
-  - Kuamua aina ya Bitcoin Wallet unapaswa kutumia
-  - Ili kubainisha muda wa uwekezaji wako wa Bitcoin
+  - Kugawanya habari kati ya watu wengi
+  - Kwa kutumia bahasha za opaque zilizofungwa
+  - Kuandika barua ya maelezo
 explanation: |
-  Madhumuni ya kuuliza maswali manne kabla ya kuchagua Bitcoin
-  uwekezaji
-  mpango ni kuchagua njia inayokufaa zaidi. Maswali yanakusaidia kuelewa
-  malengo na mapendeleo yako ya uwekezaji.
+  Kukabidhi maneno ya Mnemonic kwa mtu mmoja bila usalama wa ziada huongeza sana hatari ya wizi wakati wa maisha yako.
 reviewed: false

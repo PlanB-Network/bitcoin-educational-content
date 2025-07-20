@@ -1,0 +1,9 @@
+question: Šta je refleksioni napad u komunikacionoj sesiji?
+answer: Napadač šalje Alisi poruku koju su presreli između Alise i Boba nazad.
+wrong_answers:
+  - Napadač preokreće redosled poruka u komunikaciji
+  - Napadač šalje izmenjenu poruku bez oznake
+  - Napadač koristi staru poruku da kreira novu
+explanation: |
+  U refleksionom napadu, napadač presreće poruku od Alise ka Bobu i šalje istu poruku nazad Alisi, izazivajući konfuziju u sesiji.
+reviewed: false

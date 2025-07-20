@@ -27,7 +27,7 @@ Produkováno nadací BTCPay Server
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
-Vítejte v kurzu BTC305 o BTCPay Serveru!
+Vítejte v kurzu POS 305 o BTCPay Serveru!
 
 Cílem tohoto kurzu je naučit vás instalovat, konfigurovat a používat BTCPay Server ve vaší firmě nebo organizaci. BTCPay Server je open-source řešení umožňující zpracovávat bitcoinové platby samostatně, bezpečně a ekonomicky. Tento kurz je určen především pokročilým uživatelům, kteří chtějí zvládnout samo-hostování BTCPay Serveru pro plnou integraci do své každodenní činnosti.
 

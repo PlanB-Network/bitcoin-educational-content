@@ -1,9 +1,9 @@
-question: ¿Qué significa DCA en el contexto de la inversión en Bitcoin?
-answer: Promedio de Costo en Dólares
+question: ¿Qué método de adquisición evita el usuario paranoico?
+answer: Plataformas centralizadas con KYC
 wrong_answers:
-  - Adquisición Directa de Moneda
-  - Asignación de Monedas Digitales
-  - Activo Criptográfico Descentralizado
+  - Plataformas de matchmaking de P2P
+  - Cajeros Bitcoin
+  - Compras directas en efectivo en las reuniones
 explanation: |
-  El Promedio de Costo en Dólares (DCA) es una estrategia en la que divides la cantidad total que deseas invertir en compras periódicas para reducir el impacto de la volatilidad.
+  Para preservar el anonimato, el usuario paranoico evita las plataformas que requieren verificación de identidad.
 reviewed: false

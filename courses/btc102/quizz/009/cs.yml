@@ -1,12 +1,9 @@
-question: Jaká je hlavní funkce správce hesel?
-answer: Ukládat a spravovat vaše hesla
+question: Proč je online zabezpečení pro uživatele Bitcoin klíčové?
+answer: Protože hacking vede k nevratné ztrátě bitcoinů
 wrong_answers:
-  - Generovat náhodná hesla
-  - Pamatoval si vaše uživatelská jména
-  - Chránit váš počítač před viry
+  - Protože banky pojišťují finanční prostředky pro případ úplné ztráty Bitcoin
+  - Protože za ztrátu bitcoinů lze jít do vězení
+  - Protože útoky vedou k velmi vysoké administrativní zátěži
 explanation: |
-  Správce hesel je software, který ukládá a spravuje vaše hesla.
-
-  Pomáhá vám nikdy nepoužívat stejné heslo dvakrát, vybírat složitá a bezpečná hesla,
-
-  a usnadňuje správu vaší online bezpečnosti.
+  Bez zprostředkovatelů znamená hack definitivní ztrátu bitcoinů.
+reviewed: false

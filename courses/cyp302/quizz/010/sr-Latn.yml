@@ -1,0 +1,9 @@
+question: Zašto je kriptografija ključna u otvorenom komunikacionom okruženju?
+answer: Štiti podatke, čak i ako je komunikacioni kanal presretnut.
+wrong_answers:
+  - Čini komunikacije nevidljivim za sve mreže.
+  - Sprečava napade na lokalne mreže.
+  - Zamenjuje fizičke kablove sigurnim komunikacijama.
+explanation: |
+  U otvorenom komunikacionom okruženju, gde kanali mogu biti nadgledani, kriptografija obezbeđuje sigurnost štiteći razmenjene podatke, čak i u prisustvu potencijalnih napada.
+reviewed: false

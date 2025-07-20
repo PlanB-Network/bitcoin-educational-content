@@ -1,0 +1,12 @@
+question: Hur beskriver den här kursen Bitcoin?
+answer: Ett tvärvetenskapligt ämne.
+wrong_answers:
+  - Ett enkelt ämne.
+  - Ett fysiskt ämne.
+  - Ett ämne med en enda disciplin.
+explanation: |
+  Bitcoin beskrivs som ett tvärvetenskapligt ämne eftersom
+  det väcker frågor som rör olika områden, bland annat
+  kryptografi, spelteori, ekonomi och penningpolitik,
+  datavetenskap, filosofi, energi, lagar och regler.
+reviewed: true

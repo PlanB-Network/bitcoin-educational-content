@@ -1,0 +1,12 @@
+question: Koje su preporučene prakse za optimalnu sigurnost sa snažnom autentifikacijom?
+answer: Koristite sigurni email Address, sigurni menadžer lozinki i usvojite 2FA koristeći YubiKeys.
+wrong_answers:
+  - Koristite uobičajenu lozinku za sve naloge i izbegavajte 2FA
+  - Koristite jednostavnu lozinku i oslonite se na biometrijske podatke za 2FA
+  - Koristite sigurni email Address, ali izbegavajte menadžere lozinki i 2FA
+explanation: |
+  Za optimalnu sigurnost, preporučuje se korišćenje sigurnog
+  email Address, sigurnog menadžera lozinki i usvajanje 2FA
+  koristeći YubiKeys. Takođe je preporučljivo kupiti dva
+  YubiKey-a kako bi se predvideli gubitak ili krađa.
+reviewed: true

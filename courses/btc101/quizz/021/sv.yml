@@ -1,0 +1,11 @@
+question: Vad är en av nackdelarna med guld som en form av pengar?
+answer: Den är inte lätt delbar.
+wrong_answers:
+  - Den behåller inte sitt värde i rymden.
+  - Det eroderar med tiden.
+  - Det är lätt att producera.
+explanation: |
+  En av de största nackdelarna med guld som en form av pengar är
+  att det är svårt att dela upp i små enheter när behovet uppstår
+  uppstår, vilket gör det mindre praktiskt att använda.
+reviewed: true

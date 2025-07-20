@@ -1,9 +1,9 @@
-question: Ai đã đưa ra ý tưởng về đại lộ Bitcoin?
-answer: Andreas Antonopoulos
+question: Mục tiêu chính của người dùng tích cực là gì?
+answer: Để sử dụng Bitcoin làm phương thức thanh toán hàng ngày
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - Để đầu tư vào Bitcoin trong dài hạn
+  - Để tích lũy satoshi dần dần
+  - Để đầu cơ trên thị trường
 explanation: |
-  Andreas Antonopoulos, một người ủng hộ và giáo dục về Bitcoin nổi tiếng, đã đưa ra ý tưởng về đại lộ Bitcoin.
+  Người dùng tích cực kết hợp Bitcoin vào cuộc sống hàng ngày của họ để thực hiện giao dịch và hỗ trợ việc áp dụng nó.
 reviewed: false

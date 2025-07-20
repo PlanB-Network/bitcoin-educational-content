@@ -1,12 +1,9 @@
-question: Biện pháp nào là một trong những cách để giữ máy tính của bạn hoạt động ở điều kiện tốt nhất?
-answer: Thường xuyên sao lưu dữ liệu của bạn
+question: Bitcoin có thể chia được tới bao nhiêu chữ số thập phân?
+answer: Tám
 wrong_answers:
-  - Chia sẻ mật khẩu của bạn
-  - Sử dụng cùng một mật khẩu cho tất cả các tài khoản
-  - Bỏ qua việc cập nhật máy tính của bạn
+  - Sáu
+  - Mười hai
+  - Bảy
 explanation: |
-  Việc thường xuyên sao lưu dữ liệu là một trong những biện pháp để giữ máy tính
-
-  hoạt động ở điều kiện tốt nhất. Đây cũng là một biện pháp cơ bản để cải thiện
-
-  thói quen bảo mật trực tuyến.
+  Bitcoin có thể được chia nhỏ đến chữ số thập phân thứ tám, với một đơn vị được gọi là Satoshi hoặc sat.
+reviewed: false

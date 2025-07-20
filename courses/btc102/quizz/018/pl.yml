@@ -1,12 +1,9 @@
-question: Jaka jest różnica między handlem, inwestowaniem i posiadaniem w kontekście Bitcoin?
-answer: Handel obejmuje krótkoterminowe kontrakty o wysokim ryzyku, inwestowanie obejmuje kupowanie BTC na krótki lub średni okres z ograniczonym ryzykiem, a trzymanie obejmuje trzymanie BTC przez bardzo długi okres z ograniczonym ryzykiem.
+question: W którym roku powstał blok Genesis w Bitcoin?
+answer: 2009
 wrong_answers:
-  - Handel wiąże się z długoterminowym zakupem BTC, inwestowanie wiąże się z krótkoterminowymi kontraktami o wysokim ryzyku, a posiadanie wiąże się z utrzymywaniem BTC przez krótki lub średni okres z ograniczonym ryzykiem.
-  - Handel polega na kupowaniu BTC na krótki lub średnioterminowy okres, inwestowanie obejmuje krótkoterminowe kontrakty o wysokim ryzyku, a trzymanie polega na trzymaniu BTC przez bardzo długi okres z wysokim ryzykiem.
-  - Handel obejmuje kupowanie BTC na krótki lub średnioterminowy okres, inwestowanie obejmuje krótkoterminowe kontrakty o wysokim ryzyku, a utrzymywanie obejmuje utrzymywanie BTC przez bardzo długi okres z ograniczonym ryzykiem.
+  - 2008
+  - 2010
+  - 2011
 explanation: |
-  Handel, inwestowanie i posiadanie to trzy różne strategie stosowane na rynku Bitcoin
-  na rynku Bitcoin. Handel obejmuje krótkoterminowe kontrakty o wysokim ryzyku, inwestowanie
-  polega na kupowaniu BTC w krótkim lub średnim okresie z ograniczonym ryzykiem, a trzymanie obejmuje
-  przechowywanie BTC przez bardzo długi czas z ograniczonym ryzykiem.
+  Blok Genesis, pierwszy blok Blockchain, został wydobyty w styczniu 2009 roku.
 reviewed: false

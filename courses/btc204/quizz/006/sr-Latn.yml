@@ -1,0 +1,9 @@
+question: Šta kusur predstavlja u transakciji?
+answer: Izlaz koji se vraća originalnom pošiljaocu transakcije.
+wrong_answers:
+  - Naknada koju uzima Bitcoin mreža.
+  - Izlaz prenet primaocu transakcije.
+  - Bonus dodeljen pošiljaocu za brze transakcije.
+explanation: |
+  Kusur je izlaz koji predstavlja deo ulaza koji nije iskorišćen za ispunjenje plaćanja, i stoga se vraća originalnom pošiljaocu transakcije.
+reviewed: false

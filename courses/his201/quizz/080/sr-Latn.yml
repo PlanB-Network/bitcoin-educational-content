@@ -1,0 +1,9 @@
+question: Na koji domen je Bitcoin forum premešten 1. avgusta 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Nakon što je 17. maja premešten na forum.Bitcoin.org, prešao je na URL bitcointalk.org počevši od 1. avgusta. Tokom godina, postao je poznat kao BitcoinTalk.
+reviewed: false

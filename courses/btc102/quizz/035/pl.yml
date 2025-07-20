@@ -1,10 +1,9 @@
-question: Kto opisał Bitcoin jako szwajcarski bank w kieszeni?
-answer: Barack Obama
+question: Jakie rozwiązanie pamięci masowej jest zalecane dla hodlera?
+answer: Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - Usługa dozoru
+  - Papier Wallet
 explanation: |
-  Rozdział wspomina, że Barack Obama opisał kiedyś Bitcoin jako szwajcarski bank w kieszeni
-  bank w kieszeni.
+  Hodowca, który przechowuje bitcoiny przez dłuższy czas, powinien używać Hardware Wallet, aby zmaksymalizować bezpieczeństwo.
 reviewed: false

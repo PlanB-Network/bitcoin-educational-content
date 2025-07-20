@@ -1,0 +1,12 @@
+question: Koja je uobičajena posledica hiperinflacije kao što je viđeno u slučajevima Zimbabvea i Vajmarske Republike?
+answer: Unutrašnja vrednost novčanice može postati niža od vrednosti papira na kojem je odštampana.
+wrong_answers:
+  - Vrednost valute raste.
+  - Potražnja za novčanicama opada.
+  - Vrednost materijalne imovine opada.
+explanation: |
+  U određenim ekonomskim okolnostima, kao što je hiperinflacija, intrinzična
+  vrednost novčanice može postati niža od vrednosti papira na kojem je odštampana.
+  Ova drastična deprecijacija pretvara novčanice, koje su inače simboli vrednosti i
+  kupovne moći, u obične komade bezvrednog papira.
+reviewed: false

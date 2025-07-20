@@ -1,10 +1,9 @@
-question: Mis on Bitcoin'i plokiahel?
-answer: Andmebaas, mis salvestab kõik Bitcoin'i tehingud
+question: Millist suurt eelist pakub Bitcoin jaoks mitmekihiline lähenemisviis?
+answer: Baasprotokolli turvalisuse säilitamine
 wrong_answers:
-  - Digitaalse valuuta tüüp
-  - Bitcoin'i kasutajate võrgustik
-  - Meetod bitcoin'ide kaevandamiseks
+  - Põhivõrgu suurenev tsentraliseerimine
+  - Kiire innovatsioon põhiprotokollis
+  - Kihtidel on samad omadused kui alusprotokollis
 explanation: |
-  Bitcoin'i plokiahel on andmebaas, mis salvestab kõik Bitcoin'i tehingud.
-  Seda hooldavad kaevurid, kes lisavad uusi tehinguid plokiahelasse.
+  Mitmekihiline lähenemisviis võimaldab lisada funktsioone, ilma et see kahjustaks põhiprotokolli turvalisust ja lihtsust.
 reviewed: false

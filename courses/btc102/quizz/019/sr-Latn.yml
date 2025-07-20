@@ -1,0 +1,9 @@
+question: Koji je rizik povezan sa čuvanjem Bitcoina na Exchange platformi?
+answer: Platforma bi mogla bankrotirati, vaši Bitcoini bi mogli biti konfiskovani, ili bi platforma mogla biti hakovana.
+wrong_answers:
+  - Platforma bi mogla povećati svoje naknade, vaši Bitcoini bi mogli izgubiti vrednost ili bi platforma mogla biti hakovana.
+  - Platforma bi mogla bankrotirati, vaši Bitcoini bi mogli porasti u vrednosti, ili bi platforma mogla biti hakovana.
+  - Platforma bi mogla bankrotirati, vaši Bitcoini bi mogli biti konfiskovani, ili bi platforma mogla povećati svoje naknade.
+explanation: |
+  Skladištenje Bitcoina na Exchange platformi nosi rizike kao što su bankrot platforme, konfiskacija vaših Bitcoina ili hakovanje platforme. Zato je važno imati kontrolu nad vašim privatnim ključem.
+reviewed: false

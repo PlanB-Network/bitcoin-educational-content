@@ -1,14 +1,9 @@
-question: What is the main benefit of using a VPN?
-answer: It protects your privacy by masking your IP address
+question: Why is it important to protect your mnemonic phrase?
+answer: Because losing it results in the permanent loss of bitcoins
 wrong_answers:
-  - It speeds up your internet connection
-  - It provides free access to paid services
-  - It protects your computer from viruses
+  - Because the blockchain is too long to regenerate it
+  - Because losing it leads to a leak of personal data
+  - Because exchange platforms require a lot of documents to regenerate it
 explanation: |
-  A VPN, or Virtual Private Network, protects your privacy by masking
-  your
-
-  IP address. While it doesn''t make you completely anonymous, it is still a simple
-
-  and effective step to improve your online privacy.'
+  The mnemonic phrase allows access to be recovered. If it is lost and the wallet is no longer accessible on its device, the bitcoins are permanently lost.
 reviewed: false

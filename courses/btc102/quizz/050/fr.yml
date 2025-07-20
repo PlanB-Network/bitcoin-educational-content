@@ -1,9 +1,9 @@
-question: Quelle est la principale caractéristique de Bitcoin qui le distingue des autres cryptomonnaies ?
-answer: Bitcoin est la seule cryptomonnaie véritablement décentralisée, résistante à la censure, libre et sérieuse.
+question: Quelle solution est recommandée pour faire des dépenses en bitcoins à faible coût ?
+answer: Le Lightning Network
 wrong_answers:
-  - Bitcoin est la seule cryptomonnaie qui peut être minée.
-  - Bitcoin est la seule cryptomonnaie qui peut être achetée ou vendue sur des plateformes d'échange.
-  - Bitcoin est la seule cryptomonnaie qui peut être stockée dans un portefeuille.
+  - Le hardware wallet
+  - Le compte bancaire
+  - La surcouche RGB
 explanation: |
-  Le contenu du chapitre indique que Bitcoin est la seule cryptomonnaie véritablement décentralisée, résistante à la censure, libre et sérieuse, ce qui justifie des milliers d'heures de travail. C'est une caractéristique clé qui distingue Bitcoin des autres cryptomonnaies.
+  Lightning offre la possibilité de réaliser des transactions rapides et à faible coût pour les achats quotidiens. Il s'agit de l'outil idéal pour l'utilisateur actif.
 reviewed: false

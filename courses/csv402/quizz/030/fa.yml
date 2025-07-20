@@ -1,0 +1,9 @@
+question: اجزای موجود در یک RGB Consignment که Bob (گیرنده) برای یک Contract دریافت می‌کند چیست؟
+answer: Genesis، Schema، Interface و Interface Implementation
+wrong_answers:
+  - Genesis، Schema، انتقال و گسترش
+  - Schema، Interface، Signature و PSBT
+  - Genesis، Interface، PSBT و تاریخ
+explanation: |
+  Consignment یک RGB Contract شامل Genesis، Schema، Interface و Interface Implementation است که تمام داده‌های مورد نیاز برای اعتبارسنجی Contract را فراهم می‌کند.
+reviewed: false

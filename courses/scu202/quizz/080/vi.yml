@@ -1,0 +1,9 @@
+question: Tiêu chí quan trọng nhất cần kiểm tra trước khi chọn ứng dụng nhắn tin là gì?
+answer: Mã hóa đầu cuối và mã nguồn mở
+wrong_answers:
+  - Xác thực mạnh mẽ và mã nguồn mở
+  - Mã hóa đầu cuối và máy chủ phi tập trung
+  - Xác thực mạnh mẽ và máy chủ phi tập trung
+explanation: |
+  Mã hóa đầu cuối đảm bảo tính bảo mật của các cuộc trao đổi và mã nguồn mở giúp xác minh việc triển khai chính xác biện pháp bảo mật này.
+reviewed: false

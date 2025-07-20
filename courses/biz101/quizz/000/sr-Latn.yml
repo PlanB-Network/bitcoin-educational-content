@@ -1,0 +1,9 @@
+question: Sistemi plaćanja izgrađeni na tradicionalnim valutama su ?
+answer: U suštini plaćeno od strane trgovaca kroz naknade procesora plaćanja
+wrong_answers:
+  - U suštini besplatno jer kupac plaća cenu koju prikazuje trgovac
+  - Plaćeno od strane kupca povrh tražene cene trgovca
+  - Plaćeno od strane kompanija za kartice koje preprodaju podatke kupaca
+explanation: |
+  Ništa nije besplatno. Platni sistemi izgrađeni u tradicionalnim valutnim sistemima upravljani su od strane različitih dobavljača kao što su kartičarske kompanije i banke koje prihvataju transakcije, a koji naplaćuju fiksnu naknadu i/ili procenat naknade za svaku transakciju.
+reviewed: false

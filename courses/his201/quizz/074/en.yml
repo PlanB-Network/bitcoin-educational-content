@@ -1,4 +1,4 @@
-question: What was the first name of the telecommunications engineer from Temple City who was mistakenly identified by a Newsweek journalist as Satoshi Nakamoto in March 2014?
+question: What was the first name of the telecommunications engineer from Temple City who a Newsweek journalist mistakenly identified as Satoshi Nakamoto in March 2014?
 answer: Dorian
 wrong_answers:
   - Prentice
@@ -6,4 +6,4 @@ wrong_answers:
   - Patoshi
 explanation: |
   His full name was Dorian Prentice Satoshi Nakamoto. He was of Japanese origin. See [the Newsweek article](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html).
-reviewed: false
+reviewed: true

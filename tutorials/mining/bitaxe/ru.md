@@ -1,8 +1,8 @@
 ---
 name: Настройка BitAxe
-Description: Как настроить BitAxe?
+description: Как настроить BitAxe?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Введение
 
 BitAxe - это проект с открытым исходным кодом, созданный Skot и [доступный на GitHub](https://github.com/skot/bitaxe), который позволяет экспериментировать с майнингом с минимальными затратами.

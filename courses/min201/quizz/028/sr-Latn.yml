@@ -1,0 +1,13 @@
+question: Koji je potencijalni rizik od centralizacije proizvodnje Mining hardvera u Kini?
+answer: Odbijanje izvoza Mining mašina ili akumulacija Hashrate za potencijalni 51% napad.
+wrong_answers:
+  - Kina bi mogla monopolizovati Bitcoin mrežu.
+  - Kina bi mogla kontrolisati cenu Bitcoin.
+  - Kina bi mogla zabraniti Bitcoin Mining.
+explanation: |
+  Centralizacija proizvodnje Mining hardvera u Kini
+  predstavlja rizik za Bitcoin mrežu. Ako Kina odbije da
+  izvozi Mining mašine ili akumulira Hashrate za
+  potencijalni 51% napad, to bi moglo ugroziti sigurnost i
+  decentralizaciju mreže.
+reviewed: true

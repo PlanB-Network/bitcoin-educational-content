@@ -1,13 +1,9 @@
-question: Jaki jest jeden ze sposobów na utrzymanie komputera w optymalnym stanie?
-answer: Regularne tworzenie kopii zapasowych danych
+question: Do ilu miejsc po przecinku można podzielić Bitcoin?
+answer: Osiem
 wrong_answers:
-  - Udostępnianie haseł
-  - Używanie tego samego hasła dla wszystkich kont
-  - Zaniedbanie aktualizacji komputera
+  - Sześć
+  - Dwanaście
+  - Siedem
 explanation: |
-  Regularne tworzenie kopii zapasowych danych jest jednym ze sposobów na utrzymanie komputera w dobrym stanie
-  
-  w optymalnych warunkach pracy. Jest to również podstawowy środek poprawy bezpieczeństwa online
-  
-  nawyków w zakresie bezpieczeństwa online
+  Bitcoin można podzielić do ósmego miejsca po przecinku, z jedną jednostką zwaną Satoshi lub sat.
 reviewed: false

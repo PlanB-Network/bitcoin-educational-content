@@ -1,9 +1,9 @@
-question: Rủi ro liên quan đến việc lưu trữ Bitcoin trên một nền tảng giao dịch là gì?
-answer: Nền tảng có thể phá sản, Bitcoin của bạn có thể bị tịch thu, hoặc nền tảng có thể bị hack.
+question: Ai đã xuất bản Sách trắng Bitcoin?
+answer: Satoshi Nakamoto
 wrong_answers:
-  - Nền tảng có thể tăng phí, Bitcoin của bạn có thể mất giá, hoặc nền tảng có thể bị hack.
-  - Nền tảng có thể phá sản, Bitcoin của bạn có thể tăng giá, hoặc nền tảng có thể bị hack.
-  - Nền tảng có thể phá sản, Bitcoin của bạn có thể bị tịch thu, hoặc nền tảng có thể tăng phí.
+  - David Chaum
+  - Tim tháng năm
+  - Eric Hughes
 explanation: |
-  Việc lưu trữ Bitcoin trên một nền tảng giao dịch mang lại rủi ro như nền tảng có thể phá sản, Bitcoin của bạn có thể bị tịch thu, hoặc nền tảng có thể bị hack. Đó là lý do tại sao việc kiểm soát khóa riêng của bạn rất quan trọng.
+  Sách trắng này được xuất bản vào cuối năm 2008 bởi Satoshi Nakamoto (một bút danh).
 reviewed: false

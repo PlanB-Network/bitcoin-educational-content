@@ -1,0 +1,9 @@
+question: Quelle est la meilleure méthode de verrouillage d’écran recommandée pour un smartphone ?
+answer: Mot de passe alphanumérique
+wrong_answers:
+  - Schéma graphique
+  - Reconnaissance faciale
+  - Aucun verrouillage
+explanation: |
+  Le mot de passe alphanumérique offre la meilleure résistance aux tentatives d’accès non autorisé, contrairement aux schémas graphiques ou à la biométrie.
+reviewed: false

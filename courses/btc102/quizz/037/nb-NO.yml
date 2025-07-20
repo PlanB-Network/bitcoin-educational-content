@@ -1,12 +1,9 @@
-question: Hva er Bitcoin ifølge cyberpunk-bevegelsen?
-answer: Den elektroniske ekvivalenten til kontanter
+question: Hva bør absolutt unngås for å sikre sikkerheten til bitcoinsene dine?
+answer: Oppbevar bitcoinsene dine på en Exchange-plattform
 wrong_answers:
-  - En form for digitalt gull
-  - En ny form for kredittkort
-  - En type kryptovaluta
+  - Ved hjelp av en Hardware Wallet med åpen kildekode
+  - Bruk av en Hot Wallet for daglige transaksjoner
+  - Diversifisering av lagringsmetoder
 explanation: |
-  Kapittelet nevner at fra et Cyberpunk-perspektiv, motsier Bitcoin
-  et kontantløst samfunn. Det muliggjør skapelsen av fullstendig private og mellommannsfrie
-  digitale finanstransaksjoner. For cyberpunk-bevegelsen er Bitcoin den elektroniske
-  ekvivalenten til kontanter.
+  Prinsippet "Ikke dine nøkler, ikke dine bitcoins" understreker viktigheten av å ha dine egne private nøkler. På en Exchange-plattform utsettes bitcoinsene dine for unødvendig risiko.
 reviewed: false

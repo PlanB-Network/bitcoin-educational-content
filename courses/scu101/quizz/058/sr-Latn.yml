@@ -1,0 +1,10 @@
+question: Koji su neki od alata koji se koriste u sajber bezbednosti?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  Poglavlje navodi Wireshark, Metasploit i Nmap kao neke
+  od alata koji se koriste u sajber bezbednosti.
+reviewed: true

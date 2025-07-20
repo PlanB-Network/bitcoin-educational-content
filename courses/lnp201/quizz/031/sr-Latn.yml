@@ -1,0 +1,9 @@
+question: Šta ograničava iznos indirektnog plaćanja na Lightning Network?
+answer: Najmanja likvidnost dostupna u kanalu odabranog puta
+wrong_answers:
+  - Broj posredničkih čvorova uključenih
+  - Ukupni kapacitet Lightning Network
+  - Naknade za usmeravanje koje postavlja svaki čvor
+explanation: |
+  Maksimalni iznos koji indirektno plaćanje može preneti zavisi od najniže dostupne likvidnosti u korišćenim kanalima, jer svaki kanal mora prilagoditi sredstva na svakoj strani.
+reviewed: false

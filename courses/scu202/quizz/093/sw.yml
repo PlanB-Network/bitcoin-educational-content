@@ -1,0 +1,9 @@
+question: Ni itifaki gani hutumika hasa kutambua kila kipande cha kifaa kwenye mtandao?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Itifaki ya Mtandao (IP) hupa kila kifaa Address ya kipekee na kuwezesha pakiti za data kuelekezwa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni programu gani huria ya tafsiri inayofanya kazi na injini tofauti na haikusanyi maandishi yako yaliyotafsiriwa?
+answer: TafsiriWewe
+wrong_answers:
+  - Google Tafsiri
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou hufanya kazi kama Interface kwa injini kadhaa, bila kufuatilia au kukusanya data ya kibinafsi, tofauti na huduma za wamiliki.
+reviewed: false

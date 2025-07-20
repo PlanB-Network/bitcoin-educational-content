@@ -1,0 +1,11 @@
+question: Koji su neki od aspekata znanja o mrežama potrebni u sajber bezbednosti?
+answer: TCP/IP, VPN, firewall
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Poglavlje pominje TCP/IP, VPN i firewall kao neke od
+  aspekata znanja o mrežama potrebnih u
+  kibernetičkoj sigurnosti.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je važnost korišćenja slučajnog Nonce u CBC i OFB metodama?
+answer: Osigurava da je svaka sesija šifrovanja jedinstvena, čak i za identične podatke.
+wrong_answers:
+  - Smanjuje dužinu ključa tokom celog procesa šifrovanja.
+  - To čini enkripciju bržom.
+  - Čini da kod algoritma bude lepši za ljude.
+explanation: |
+  Korišćenjem nasumičnog Nonce za svaku sesiju, CBC i OFB metode osiguravaju da je svako šifrovanje jedinstveno, što sprečava napade koji iskorišćavaju identične podatke.
+reviewed: false

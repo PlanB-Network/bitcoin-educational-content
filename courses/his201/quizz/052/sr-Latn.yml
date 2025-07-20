@@ -1,0 +1,9 @@
+question: Koja je bila maksimalna veličina bloka dodata od strane Satoshi protokolu Bitcoin u septembru 2010?
+answer: 1 MB
+wrong_answers:
+  - 2 MB
+  - 4 MB
+  - 8 MB
+explanation: |
+  Parametar MAX_BLOCK_SIZE dodat je u julu, a zatim je ograničenje primenjeno na sve mrežne čvorove počevši od 12. septembra.
+reviewed: false

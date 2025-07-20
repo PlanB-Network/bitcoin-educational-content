@@ -1,11 +1,9 @@
-question: Một loại lừa đảo phổ biến liên quan đến việc quyên góp trực tuyến trong lĩnh vực tiền mã hóa là gì?
-answer: Các lời đề nghị tuyên bố sẽ nhân đôi hoặc tăng gấp nhiều lần số bitcoin bạn gửi.
+question: Nguyên tắc 3-2-1 có ý nghĩa gì khi sao lưu dữ liệu?
+answer: 3 bản sao trên 2 phương tiện khác nhau, với 1 bản được lưu trữ ngoài trang web
 wrong_answers:
-  - Các lời đề nghị tuyên bố sẽ nhân đôi hoặc tăng gấp nhiều lần hàng hóa vật lý của bạn.
-  - Các lời đề nghị tuyên bố sẽ nhân đôi hoặc tăng gấp nhiều lần tiền tệ pháp định của bạn.
-  - Các lời đề nghị tuyên bố sẽ nhân đôi hoặc tăng gấp nhiều lần sản phẩm phần mềm của bạn.
+  - 3 bản sao trên 2 phương tiện trực tuyến và 1 thiết bị vật lý
+  - 3 phương tiện truyền thông với 2 bản sao, một trong số đó là ngoài trang web
+  - 3 bản sao, 2 bản được mã hóa và 1 bản được lưu trữ ngoài trang web
 explanation: |
-  Một ví dụ điển hình của loại lừa đảo này là lời đề nghị tuyên bố sẽ nhân đôi
-  hoặc tăng gấp nhiều lần số bitcoin bạn gửi. Điều quan trọng là phải hiểu rằng không có
-  giải pháp kỳ diệu nào để trở nên giàu có tức thì.
+  Quy tắc này khuyến nghị nên có 3 bản sao dữ liệu trên 2 loại phương tiện khác nhau, với 1 bản sao được lưu trữ ngoài cơ sở dữ liệu để có khả năng phục hồi tốt hơn.
 reviewed: false

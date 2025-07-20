@@ -1,0 +1,9 @@
+question: Koje su glavne karakteristike efektivne valute?
+answer: Zamenljivost, deljivost, likvidnost.
+wrong_answers:
+  - zamenljivost, Deljivost, Kvarljivost.
+  - zamenljivost, Nedeljivost, Likvidnost.
+  - Nezamenljivost, Deljivost, Likvidnost.
+explanation: |
+  Efektivna valuta mora biti zamenljiva (zamenljiva bez gubitka vrednosti), deljiva (razdvojiva na manje delove radi olakšavanja transakcija različitih obima) i likvidna (lako konvertibilna u robu ili usluge).
+reviewed: true

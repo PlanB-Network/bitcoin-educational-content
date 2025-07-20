@@ -1,0 +1,9 @@
+question: نام اولین برنامه نگهداری که استفاده ساده از Bitcoin روی موبایل را در آوریل 2010 امکان‌پذیر کرد چه بود؟
+answer: مای‌بیت‌کوین
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - حریم خصوصی شارک
+explanation: |
+  در تاریخ ۳۰ آوریل ۲۰۱۰ توسط شخصی به نام komoto در [انجمن](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) تبلیغ شد.
+reviewed: false

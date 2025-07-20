@@ -1,0 +1,9 @@
+question: Koji uređaj deluje kao granica između Interneta i vaše privatne kućne mreže?
+answer: Modem-ruter
+wrong_answers:
+  - Ethernet switch
+  - NAS server
+  - USB čvorište
+explanation: |
+  Modem ruter povezuje mrežu ISP-a sa vašom lokalnom mrežom i upravlja dodelom lokalnih IP adresa.
+reviewed: false

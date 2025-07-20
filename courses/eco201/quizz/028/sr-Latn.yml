@@ -1,0 +1,9 @@
+question: Kakva je veza između vremenske preferencije i kamatnih stopa u ekonomiji sa nemanipulisanim tržištima kapitala?
+answer: Povećanje kamatnih stopa rezultat je relativnog povećanja potražnje za kapitalom u poređenju sa Supply, što ukazuje na veće vremenske preferencije. Suprotno tome, smanjenje kamatnih stopa događa se zbog povećanja štednje, što je povećanje Supply kapitala, što ukazuje na smanjenje vremenskih preferencija.
+wrong_answers:
+  - Povećanje kamatnih stopa ukazuje na smanjenje vremenskih preferencija, dok smanjenje kamatnih stopa ukazuje na povećanje vremenskih preferencija.
+  - Vremenska preferencija i kamatne stope su obrnuto proporcionalne.
+  - Vremenska preferencija i kamatne stope nemaju direktan odnos.
+explanation: |
+  U ekonomiji sa nemanipulisanim tržištima kapitala, referentne kamatne stope se određuju na preseku kapitala Supply i potražnje. Stoga, ove stope predstavljaju stanje vremenskih preferencija za celu ekonomiju. Povećanje kamatne stope je rezultat relativnog povećanja potražnje za kapitalom u poređenju sa Supply, što ukazuje na više vremenske preferencije. Suprotno tome, smanjenje kamatnih stopa nastaje zbog povećanja štednje, što je povećanje Supply kapitala, što ukazuje na smanjenje vremenskih preferencija.
+reviewed: true

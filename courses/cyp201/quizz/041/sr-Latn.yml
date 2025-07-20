@@ -1,0 +1,9 @@
+question: Koji je glavni rizik korišćenja loše dizajniranog PRNG-a za generate entropiju?
+answer: Privatni ključevi bi mogli biti pogođeni od strane napadača
+wrong_answers:
+  - Mnemonic fraza može sadržati netačne reči
+  - Digitalni potpisi bi postali nevažeći
+  - Bitcoin adrese bile bi nekompatibilne sa mrežom
+explanation: |
+  Loše dizajniran PRNG može proizvesti predvidljive sekvence, čineći ključeve podložnijim napadima.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - 4 MB
   - 8 MB
 explanation: |
-  The MAX_BLOCK_SIZE parameter was added in July, then the limit was enforced on all network nodes starting from September 12.
-reviewed: false
+  The MAX_BLOCK_SIZE parameter was added in July, and the limit was enforced on all network nodes on September 12.
+reviewed: true

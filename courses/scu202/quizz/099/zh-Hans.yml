@@ -1,0 +1,9 @@
+question: 哪种 Wi-Fi 加密协议最适合保护家庭网络安全？
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - 快速 BSS
+explanation: |
+  WPA3 是最新、最安全的协议，修正了以前版本的缺陷，提供了更好的防攻击保护。
+reviewed: false

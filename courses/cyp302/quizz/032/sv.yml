@@ -1,0 +1,9 @@
+question: Varför sägs en pseudoslumpmässig sträng vara omöjlig att skilja från en verkligt slumpmässig sträng?
+answer: Eftersom det är nästan omöjligt att fastställa dess ursprung utan ytterligare information
+wrong_answers:
+  - Eftersom den innehåller deterministiska segment som är identiska med en verkligt slumpmässig sträng
+  - Eftersom den använder flyttal i sin konstruktion
+  - Eftersom den genereras enbart från naturliga händelser
+explanation: |
+  En pseudoslumpmässig sträng är utformad för att likna en riktig slumpmässig sträng, vilket gör det omöjligt att skilja den åt utan tillgång till seed eller den algoritm som används.
+reviewed: false

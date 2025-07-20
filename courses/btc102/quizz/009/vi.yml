@@ -1,12 +1,9 @@
-question: Chức năng chính của trình quản lý mật khẩu là gì?
-answer: Lưu trữ và quản lý mật khẩu của bạn
+question: Tại sao bảo mật trực tuyến lại quan trọng đối với người dùng Bitcoin?
+answer: Bởi vì việc hack dẫn đến mất bitcoin không thể phục hồi
 wrong_answers:
-  - Tạo mật khẩu ngẫu nhiên
-  - Nhớ tên người dùng của bạn
-  - Bảo vệ máy tính của bạn khỏi virus
+  - Bởi vì các ngân hàng bảo hiểm tiền trong trường hợp mất toàn bộ Bitcoin
+  - Bởi vì người ta có thể vào tù vì mất bitcoin
+  - Bởi vì các cuộc tấn công dẫn đến gánh nặng hành chính rất lớn
 explanation: |
-  Trình quản lý mật khẩu là một phần mềm lưu trữ và quản lý mật khẩu của bạn.
-
-  Nó giúp bạn không bao giờ sử dụng lại mật khẩu cũ, chọn mật khẩu phức tạp và an toàn,
-
-  và hỗ trợ quản lý an ninh trực tuyến của bạn.
+  Nếu không có trung gian, việc hack sẽ đồng nghĩa với việc mất bitcoin vĩnh viễn.
+reviewed: false

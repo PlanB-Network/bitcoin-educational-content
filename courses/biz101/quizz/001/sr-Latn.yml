@@ -1,0 +1,9 @@
+question: Zašto se oskudica smatra važnom osobinom dobre valute?
+answer: Jer ograničeni Supply štiti svoju vrednost od razblaživanja prekomernom proizvodnjom.
+wrong_answers:
+  - Zato što osigurava da svako može lako da kreira sopstvenu valutu.
+  - Zato što otežava prepoznavanje valute.
+  - Zato što obeshrabruje upotrebu valute u trgovini na daljinu.
+explanation: |
+  Valuta sa kontrolisanom oskudicom održava svoju kupovnu moć tokom vremena. Bez oskudice, prekomerno izdavanje moglo bi dovesti do inflacije, narušavajući vrednost valute.
+reviewed: false

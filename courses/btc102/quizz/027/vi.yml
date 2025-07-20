@@ -1,11 +1,9 @@
-question: Tính bất biến của blockchain Bitcoin có ý nghĩa gì?
-answer: Nó không thể được thay đổi theo thời gian
+question: Có bao nhiêu người bảo trì Bitcoin Core vào năm 2025?
+answer: 5
 wrong_answers:
-  - Nó không thể bị hack
-  - Nó không thể được sao chép
-  - Nó không thể bị xóa
+  - 7
+  - 12
+  - 23
 explanation: |
-  Tính bất biến của blockchain Bitcoin có nghĩa là một khi một giao dịch
-  đã được ghi lại, nó không thể được thay đổi hoặc xóa bỏ. Điều này đảm bảo tính toàn vẹn và
-  độ tin cậy của blockchain.
+  Năm 2025, có năm người bảo trì: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao và Ryan Ofsky.
 reviewed: false

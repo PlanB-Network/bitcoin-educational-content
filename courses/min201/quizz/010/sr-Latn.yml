@@ -1,0 +1,9 @@
+question: Kako Bitcoin rudari mogu pomoći u upravljanju viškovima energije i stabilizaciji elektroenergetskih mreža?
+answer: Bitcoin rudari mogu apsorbovati energetske viškove, delujući kao fleksibilni bafer, prilagođavajući potražnju umesto Supply. U svetu gde proizvodnja električne energije iz obnovljivih (nekontrolisanih) izvora konstantno raste, rudari mogu igrati ključnu ulogu u osiguravanju ravnoteže naših elektroenergetskih mreža, dok istovremeno koriste jeftinu ili višak električne energije za napajanje svojih Mining operacija.
+wrong_answers:
+  - Bitcoin rudari mogu pomoći u upravljanju viškovima energije skladištenjem viška energije u baterijama.
+  - Bitcoin mineri mogu pomoći u upravljanju viškovima energije prodajom viška energije nazad u mrežu.
+  - Bitcoin rudari mogu pomoći u upravljanju viškovima energije pretvaranjem viška energije u toplotu.
+explanation: |
+  Poglavlje objašnjava da rudari Bitcoin mogu apsorbovati viškove energije, delujući kao fleksibilni bafer, prilagođavajući potražnju umesto Supply. Ovo može pomoći u upravljanju viškovima energije i stabilizaciji elektroenergetskih mreža.
+reviewed: true

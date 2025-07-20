@@ -1,0 +1,9 @@
+question: Ako transakcija ima 2 UTXO-a od 5,000 Sats kao ulaze i 3 UTXO-a od 3,000 Sats kao izlaze, kolike su transakcione naknade?
+answer: 1,000 Sats
+wrong_answers:
+  - 1,500 Sats
+  - 2,500 Sats
+  - 3,000 Sats
+explanation: |
+  Naknade transakcije predstavljaju razliku između ukupnih ulaza i ukupnih izlaza. To je ono što ostaje nakon konzumiranja svih ulaza i kreiranja svih izlaza. Izračunavanje je stoga; naknade = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

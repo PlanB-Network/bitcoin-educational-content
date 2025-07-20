@@ -1,14 +1,20 @@
-This script is used to get the word count of all the courses and tutorials in the repo, in order to extract all the rewards for any language. It inserts the results in an Excel file.
+These scripts are designed to calculate the word count for all courses and tutorials in the repository, enabling the extraction of rewards for any language. The results are then saved in an Excel file.
 
-In order to use it: 
-- activate the environment as explained in the "readme" file of the previous folder;
-- activate the dependency to use the excel file with the bash command 
+Specifically:
+
+- **pending_rewards.py** generates a report of all available rewards for the content.
+- **total_reward_budget.py** provides the total budget allocated for a specific language.
+
+To use these scripts, follow these steps:
+
+- Activate the environment as outlined in the "README" file of the previous directory.
+- Install the necessary dependencies for Excel file handling by running the following command in your terminal:
 
 ```
 pip install pandas openpyxl
 ```
 
-- activate the dependency to read yaml files
+Install the dependency for reading YAML files with this command:
 
 ```
 pip install pyyaml

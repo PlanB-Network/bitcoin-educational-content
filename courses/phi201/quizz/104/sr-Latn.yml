@@ -1,0 +1,8 @@
+question: Zašto Austrijanci tvrde da je socijalizam nemoguće postići?
+answer: Oni tvrde da je socijalizam ekonomski neefikasan, ali moralno pravedan.
+wrong_answers:
+  - Socijalizam je suprotan prirodi.
+  - Socijalizam je ekonomski efikasan, ali nemoralan.
+  - Austrijanci kritikuju socijalizam jer ne omogućava inovacije i stvaranje bogatstva.
+explanation: |
+  Ekonomisti iz austrijske škole smatraju da je socijalizam ekonomski neefikasan zbog odsustva slobodnih mehanizama cena, koji su neophodni za efikasnu koordinaciju ekonomije, iako ponekad priznaju njegove moralne namere.

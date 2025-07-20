@@ -1,0 +1,9 @@
+question: Kako možemo minimizirati uticaje COIH prilikom konsolidacije UTXO-a?
+answer: Konsolidovanjem samo UTXO-a iz istog izvora.
+wrong_answers:
+  - Slanjem UTXO-a na adrese trećih strana.
+  - Nasumičnim odabirom UTXO-a kako bi se izbegli prepoznatljivi obrasci.
+  - Konsolidovanjem UTXO-a tokom perioda niske aktivnosti.
+explanation: |
+  Ako se nađete u situaciji da trebate konsolidovati svoje bitkoine, prvo dajte prioritet konsolidaciji UTXO-a iz istog izvora.
+reviewed: false

@@ -1,0 +1,8 @@
+---
+term: BIP0352
+---
+
+Propozycja ulepszenia autorstwa Josibake i Rubena Somsena, która wprowadza Silent Payments, metodę używania statycznych adresów Bitcoin do otrzymywania płatności bez ponownego użycia Address, interakcji i bez widocznego powiązania On-Chain między różnymi płatnościami. Technika ta eliminuje potrzebę generate nowych, nieużywanych adresów odbiorczych dla każdej transakcji, unikając w ten sposób zwykłych interakcji w Bitcoin, w których odbiorca musi dostarczyć nowy Address płatnikowi.
+
+
+W tym systemie płatnik używa klucza publicznego odbiorcy i własnego klucza prywatnego do generate nowego Address dla każdej płatności. Tylko odbiorca, za pomocą swojego klucza prywatnego, może obliczyć klucz prywatny odpowiadający temu Address. ECDH (*Elliptic-Curve Diffie-Hellman*), algorytm Exchange klucza kryptograficznego, jest używany do ustanowienia wspólnego sekretu, który jest następnie wykorzystywany do wyprowadzenia otrzymanego Address i klucza prywatnego (tylko po stronie odbiorcy). Aby zidentyfikować przeznaczone dla nich Ciche Płatności, odbiorcy muszą zeskanować Blockchain i sprawdzić każdą transakcję spełniającą kryteria Cichej Płatności. W przeciwieństwie do BIP47, który wykorzystuje transakcję powiadomienia do ustanowienia kanału płatności, Silent Payments eliminuje ten krok, oszczędzając transakcję. Kompromis polega jednak na tym, że odbiorca musi przeskanować wszystkie potencjalne transakcje, aby ustalić, stosując ECDH, czy są one do niego adresowane.

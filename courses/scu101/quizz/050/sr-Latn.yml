@@ -1,0 +1,11 @@
+question: Koja je prednost jednokratnih lozinki (HOTP i TOTP) u odnosu na SMS za 2FA?
+answer: Oni zahtevaju kriptografske proračune i skladište se lokalno umesto u memoriji.
+wrong_answers:
+  - Oni zahtevaju kriptografski proračun i čuvaju se u memoriji umesto lokalno.
+  - Oni ne zahtevaju kriptografske proračune i čuvaju se i lokalno i u memoriji.
+  - Oni su lakši za pamćenje i brži za kucanje.
+explanation: |
+  Jednokratne lozinke (HOTP i TOTP) su sigurnije od SMS-a
+  jer zahtevaju kriptografski proračun i čuvaju se lokalno
+  umesto u memoriji.
+reviewed: true

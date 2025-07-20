@@ -1,9 +1,9 @@
-question: Was ist der Schwerpunkt des Kurses dieser Universität?
-answer: Das Bitcoin-Universum.
+question: Warum wird eine Zwei-Faktor-Authentifizierung empfohlen?
+answer: Es bietet ein zusätzliches Layer an Sicherheit
 wrong_answers:
-  - Die globale Kryptowährungsindustrie.
-  - Die Fintech-Industrie.
-  - Die Blockchain-Industrie.
+  - Es vereinfacht den Zugang durch die Verringerung der Anzahl der Codes
+  - Ermöglicht die Anmeldung ohne Passwort
+  - Es ersetzt die Verwendung eines Passwortmanagers
 explanation: |
-  Der gesamte Fokus dieser Universität liegt auf dem Bitcoin-Universum, nicht auf Krypto.
+  2FA erfordert zusätzlich zum Passwort einen temporären Code, der den Schutz eines Online-Kontos erheblich verstärkt.
 reviewed: false

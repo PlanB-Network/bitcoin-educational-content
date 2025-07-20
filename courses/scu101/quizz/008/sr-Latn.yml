@@ -1,0 +1,13 @@
+question: Šta je TOR mreža?
+answer: Mreža koja nudi anonimnost maskiranjem korisnikovog IP Address i omogućava pristup Darknetu.
+wrong_answers:
+  - Mreža koja štiti vaš uređaj od virusa i drugog zlonamernog softvera.
+  - Mreža koja skriva vašu online aktivnost od vašeg internet provajdera.
+  - Mreža koja vam omogućava brže pretraživanje interneta.
+explanation: |
+  Mreža TOR (The Onion Router) je mreža koja nudi
+  anonimnost maskiranjem korisnikovog IP Address i omogućava
+  pristup Darknetu. Koriste je novinari, aktivisti za slobodu
+  i drugi koji žele da izbegnu cenzuru u
+  autoritarnim zemljama.
+reviewed: true

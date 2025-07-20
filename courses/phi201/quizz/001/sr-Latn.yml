@@ -1,0 +1,9 @@
+question: Koja je razlika između istorije i filozofije?
+answer: Svi ostali odgovori
+wrong_answers:
+  - Istorija opisuje prošlost dok je filozofija prosuđuje
+  - Istorija je činjenična dok je filozofija normativna
+  - Istorija se fokusira na događaje dok se filozofija fokusira na pojmove
+explanation: |
+  Razlika između istorije i filozofije leži u njihovim odgovarajućim pristupima: istorija se fokusira na opisivanje i analiziranje prošlih događaja, dok filozofija nastoji da sudi, tumači i uspostavlja norme na osnovu apstraktnih pojmova.
+reviewed: false

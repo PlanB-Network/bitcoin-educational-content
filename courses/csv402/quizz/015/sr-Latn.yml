@@ -1,0 +1,9 @@
+question: Koji istorijski koncept RGB primenjuje na digitalni svet?
+answer: Instrumenti po donosiocu
+wrong_answers:
+  - Centralizovane baze podataka
+  - Mreže od tačke do tačke bez validacije
+  - Otvoreni registri dostupni svima
+explanation: |
+  RGB prenosi ideju instrumenata na donosioca u digitalni oblik.
+reviewed: false

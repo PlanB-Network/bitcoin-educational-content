@@ -1,12 +1,9 @@
-question: Hva er den største fordelen med å bruke en passordbehandler ifølge kapittelet?
-answer: Den hjelper deg med å aldri bruke samme passord to ganger
+question: Hvilket system muliggjør raske og rimelige transaksjoner på Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Den hjelper deg med å huske brukernavnene dine
-  - Den beskytter datamaskinen din mot virus
-  - Den genererer tilfeldige passord
+  - SegWit
+  - Ripple-nettverket
+  - RGB
 explanation: |
-  Ifølge kapittelet hjelper en passordbehandler deg med å aldri bruke
-
-  samme passord to ganger, velge komplekse og sikre passord, og letter din online
-
-  sikkerhetsstyring.
+  Lightning Network er en andre Layer-løsning som muliggjør rask oppgjør og reduserer kostnadene ved BTC-transaksjoner.
+reviewed: false

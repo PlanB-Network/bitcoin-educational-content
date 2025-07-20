@@ -1,0 +1,9 @@
+question: Koja je glavna prednost posedovanja sopstvene Mining opreme?
+answer: Sticanje netaknutih bitkoina.
+wrong_answers:
+  - Izbegavanje potrebe za direktnom kupovinom Bitcoin.
+  - Ostvarivanje profita od kasnije prodaje opreme.
+  - Izbegavanje potrebe za poverenjem drugim rudarima.
+explanation: |
+  Posedovanje sopstvene Mining opreme nudi značajne prednosti. Pored ličnog zadovoljstva aktivnog doprinosa bezbednosti Bitcoin mreže i posmatranja kako nagrade dolaze u vaš Wallet, postoji i privlačan aspekt "virgin" bitkoina. Ovo su sveže iskopani bitkoini koji nikada nisu potrošeni i nemaju istoriju vezanu za njih.
+reviewed: true

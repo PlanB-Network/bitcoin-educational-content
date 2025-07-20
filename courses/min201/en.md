@@ -15,7 +15,7 @@ In this training, we will delve into the mining industry to demystify this compl
 The first section will be theoretical, where Ajelex and I will have an in-depth discussion on various topics related to mining. This will help us better understand this industry and the economic and geopolitical issues associated with it.
 In the second section, we will tackle a practical case. Indeed, we will learn how to transform a used S9 miner into a home heating system! Through written guides and videos, we will show and explain all the steps to achieve this at your home :)
 
-Through this video, we hope to show you that the mining industry is more complex than it seems, and studying it helps to nuance the ecological debate that is linked to it!
+Through this course, we hope to show you that the mining industry is more complex than it seems, and studying it helps to nuance the ecological debate that is linked to it!
 If you need help with your setup, a Telegram group has been created for students, and all the necessary components can be found on our e-commerce platform!
 
 +++

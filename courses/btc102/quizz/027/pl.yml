@@ -1,11 +1,9 @@
-question: Co oznacza niezmienność Bitcoin Blockchain?
-answer: Nie można go zmienić w czasie
+question: Ilu opiekunów ma Bitcoin Core w 2025 roku?
+answer: 5
 wrong_answers:
-  - Nie można go zhakować
-  - Nie można go skopiować
-  - Nie można go usunąć
+  - 7
+  - 12
+  - 23
 explanation: |
-  Niezmienność Bitcoin Blockchain oznacza, że po zarejestrowaniu transakcji
-  nie może zostać zmieniona ani usunięta. Zapewnia to integralność i
-  niezawodność Blockchain.
+  W 2025 r. jest pięciu opiekunów: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao i Ryan Ofsky.
 reviewed: false

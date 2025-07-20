@@ -1,5 +1,5 @@
 ---
-name: Passport - Foundation
+name: Passport Core
 description: Configurer et utiliser le hardware wallet Passport en mode manuel
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Configurer et utiliser le hardware wallet Passport en mode manuel
 Le Passport est un hardware wallet Bitcoin-only, conçu par Foundation Devices, une entreprise américaine fondée en avril 2020 à Boston.
 
 Le Passport "*Batch 2*" que nous présentons dans ce tutoriel est le successeur de l'édition "*Founder's Edition*". Il se distingue par son design premium, un écran couleur de haute définition et un clavier physique ergonomique. Il fonctionne en mode "*Air-Gap*", ce qui garantit que les clés privées de votre portefeuille restent totalement isolées, avec des échanges possibles via une carte MicroSD ou par QR codes. L'appareil est équipé d'une batterie rechargeable amovible Nokia BL-5C de 1200 mAh. Cette batterie non propriétaire peut être facilement remplacée, car le modèle BL-5C se trouve facilement dans le commerce.
+
+💡 **Mise à jour :** Depuis mars 2025, le nom de ce hardware wallet n’est plus "Passport" ou "Passport V2", mais bien "Passport Core".
 
 Pour ce qui est de la connectivité, le Passport est équipé d'un port MicroSD, d'un port USB-C pour le chargement, et d'une caméra arrière pour scanner les QR codes.
 
@@ -477,4 +479,6 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Passpor
 Pour aller plus loin, vous pouvez également consulter notre tutoriel sur le logiciel Liana :
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+
+
 

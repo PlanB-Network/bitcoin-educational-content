@@ -1,11 +1,9 @@
-question: Giới hạn số lượng bitcoin sẽ tồn tại là bao nhiêu?
-answer: 21 triệu
+question: Giao thức Layer thứ hai nào cho phép thanh toán gần như ngay lập tức?
+answer: Lightning Network
 wrong_answers:
-  - 100 triệu
-  - 1 tỷ
-  - Không giới hạn
+  - Chuỗi bên
+  - RGB
+  - Lõi Bitcoin
 explanation: |
-  Chương này nói rằng sẽ không bao giờ có nhiều hơn 21 triệu bitcoin.
-  Giới hạn này được thiết lập trong giao thức Bitcoin bởi Satoshi và không thể thay đổi
-  ngày nay.
+  Lightning Network cho phép thực hiện các giao dịch nhanh chóng và chi phí thấp thông qua các hoạt động của off-chain bên ngoài Bitcoin Blockchain.
 reviewed: false

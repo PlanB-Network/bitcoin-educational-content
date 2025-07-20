@@ -1,0 +1,9 @@
+question: Milline platvorm kustutab foto üleslaadimisel automaatselt metaandmed?
+answer: Signaal
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Teie blogi
+explanation: |
+  Signal (nagu Session ja teised turvalised sõnumiteenused) puhastab jagatud piltide metaandmed, et kaitsta kasutajate privaatsust.
+reviewed: false

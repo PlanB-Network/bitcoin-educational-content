@@ -1,0 +1,9 @@
+question: Kako se zvao mladi Finac koji je 2009. godine pomogao Satoshi u komunikaciji o njegovom projektu, posebno upravljajući Bitcoin vebsajtom i forumom?
+answer: Martti Malmi
+wrong_answers:
+  - Majk Hern
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Kontaktirao je Satoshi u aprilu 2009. Satoshi ga je odmah zadužio da napiše FAQ i prezentaciju za vebsajt. Martti Malmi je bio desna ruka Satoshi više od godinu dana.
+reviewed: false

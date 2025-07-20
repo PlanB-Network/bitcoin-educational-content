@@ -1,8 +1,9 @@
-question: 在比特币的背景下，什么是钱包？
-answer: 用于存放比特币的数字保险箱
+question: 建议使用什么设备来确保长期积累资金的安全？
+answer: Hardware Wallet
 wrong_answers:
-  - 用于存储比特币的物理设备
-  - 用于挖掘比特币的软件
-  - 用于买卖比特币的平台
+  - Hot Wallet
+  - 闪电 Wallet
+  - Exchange 平台
 explanation: |
-  章节内容解释了比特币是存储在所谓的“钱包”中，这是一个用于存放你的货币的数字保险箱。只有持有钥匙的人才能访问它。
+  Hardware Wallet 可以离线存储私人密钥，长期为大量数据提供更高的安全性。
+reviewed: false

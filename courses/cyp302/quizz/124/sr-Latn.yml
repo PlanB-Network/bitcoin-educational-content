@@ -1,0 +1,9 @@
+question: Zašto je razmena ključeva lično nepraktična za bezbedne onlajn komunikacije?
+answer: To dovodi do visokih organizacionih troškova, a istovremeno je neefikasno.
+wrong_answers:
+  - Čini šifrovanu komunikaciju neupotrebljivom
+  - Zahteva korišćenje više ključeva po klijentu
+  - Sprečava ponovnu upotrebu ključeva za ponovljene transakcije
+explanation: |
+  Razmena ključeva lično je skupa i neefikasna, posebno u velikom obimu, jer usporava transakcije i nameće značajne logističke troškove za svakog novog klijenta.
+reviewed: false

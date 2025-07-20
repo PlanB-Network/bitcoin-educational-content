@@ -1,11 +1,9 @@
-question: Jakie jest powszechne oszustwo związane z konkursami online lub darowiznami w sektorze kryptowalut?
-answer: Reklamy obiecujące darmowe bitcoiny.
+question: Co należy zrobić, aby zidentyfikować próbę phishingu w sektorze kryptowalut?
+answer: Weryfikacja tożsamości nadawcy
 wrong_answers:
-  - Reklamy obiecujące towary fizyczne.
-  - Reklamy obiecujące darmową walutę fiducjarną.
-  - Reklamy obiecujące darmowe oprogramowanie.
+  - Klikaj tylko linki otrzymane w wiadomości e-mail
+  - Udostępnianie kluczy prywatnych w celu potwierdzenia autentyczności
+  - Poleganie wyłącznie na logo i obrazach w wiadomościach e-mail
 explanation: |
-  Oszustwa związane z konkursami online lub darowiznami są bardzo powszechne w sektorze
-  sektorze kryptowalut. Reklamy obiecujące darmowe bitcoiny są często wykorzystywane do oszukiwania niedoświadczonych użytkowników
-  niedoświadczonych użytkowników.
+  Zawsze powinieneś upewnić się, że kontaktujesz się z właściwą osobą i nigdy nie korzystaj z linków podanych w wiadomościach e-mail. Zamiast tego należy przejść bezpośrednio do strony ręcznie, korzystając z zakładek przeglądarki.
 reviewed: false

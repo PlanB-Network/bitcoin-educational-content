@@ -1,0 +1,9 @@
+question: توسعه‌دهندگان Bitcoin کجا برای بحث‌های فنی غیررسمی ملاقات می‌کنند؟
+answer: در کانال IRC \#Bitcoin-dev
+wrong_answers:
+  - در یک بخش ویژه از انجمن
+  - در فهرست پستی Bitcoin-development
+  - در ساب‌ردیت r/Bitcoin
+explanation: |
+  این [ایجاد شد](https: //mmalmi.github.io/Satoshi/#email-27) در آگوست 2009 توسط مارتتی مالمی. پس از انتشار در Slashdot در جولای 2010، محبوبیت خاصی پیدا کرد.
+reviewed: false

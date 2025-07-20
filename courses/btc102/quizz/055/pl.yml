@@ -1,11 +1,9 @@
-question: Czym jest Lightning Network?
-answer: Jest to drugi Layer z Bitcoin.
+question: Jaki nośnik jest zalecany do bezpiecznego tworzenia kopii zapasowych frazy Mnemonic?
+answer: Metalowa kopia zapasowa z zapieczętowaną nieprzezroczystą kopertą
 wrong_answers:
-  - Jest to kryptowaluta Exchange.
-  - Jest to typ Bitcoin Wallet.
-  - Jest to Bitcoin Mining pool.
+  - Szyfrowana pamięć USB
+  - Papierowa kopia zapasowa z przezroczystym etui
+  - Tworzenie kopii zapasowych w bezpiecznej chmurze
 explanation: |
-  Lightning Network to druga technologia Layer zastosowana w Bitcoin
-  która wykorzystuje kanały mikropłatności do skalowania zdolności Blockchain do przeprowadzania transakcji
-  transakcji.
+  Odporna na awarie metalowa kopia zapasowa zapewnia długotrwałą ochronę przed uszkodzeniem i nieautoryzowanym dostępem. Zapieczętowana nieprzezroczysta koperta pozwala zweryfikować, czy ktokolwiek uzyskał dostęp do frazy Mnemonic.
 reviewed: false

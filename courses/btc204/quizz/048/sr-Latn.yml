@@ -1,0 +1,9 @@
+question: Šta je OP_RETURN u Bitcoin transakciji?
+answer: Opcode koji označava izlaz kao nevažeći i omogućava skladištenje podataka.
+wrong_answers:
+  - Opcode koji proverava validnost potpisa u Bitcoin transakciji.
+  - Opcode koji sadrži hipervezu do datoteke pohranjene na IPFS-u.
+  - Komanda koja briše transakciju sa Bitcoin Blockchain.
+explanation: |
+  OP_RETURN je opcode koji signalizira nevažeći skript, čineći izlaz koji sadrži dokazivo nepotrošivim. Tako mrežni čvorovi mogu ukloniti ovaj izlaz iz svog UTXO skupa. OP_RETURN se često koristi za beleženje proizvoljnih podataka u Blockchain.
+reviewed: false

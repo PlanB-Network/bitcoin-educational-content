@@ -1,0 +1,9 @@
+question: Hur beskrev Barack Obama Bitcoin?
+answer: En schweizisk bank i fickan
+wrong_answers:
+  - Digitalt guld
+  - En mycket spekulativ tillgång
+  - En decentraliserad valuta
+explanation: |
+  Barack Obama kallade en gång Bitcoin för "en schweizisk bank i din ficka" Bitcoin erbjuder faktiskt samma möjligheter för alla, oavsett status, och möjliggör Confidential Transactions.
+reviewed: false

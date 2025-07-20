@@ -1,0 +1,9 @@
+question: ¿Qué herramienta de código abierto puede cifrar completamente un disco en Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - Bóveda de archivos
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) es la solución estándar en Linux para el cifrado completo del disco durante la instalación.
+reviewed: false

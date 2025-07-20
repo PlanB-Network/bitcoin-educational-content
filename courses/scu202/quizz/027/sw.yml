@@ -1,0 +1,9 @@
+question: Ni zana gani ya picha katika Ubuntu inafanya iwe rahisi kudhibiti sheria za firewall?
+answer: GUFW
+wrong_answers:
+  - GEedit
+  - Nautilus
+  - Synaptic
+explanation: |
+  GUFW ni picha ya Interface ya ngome ya UFW, inayokuwezesha kuwezesha, kuzima na kusanidi sheria bila kupitia terminal.
+reviewed: false

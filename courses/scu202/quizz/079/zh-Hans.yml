@@ -1,0 +1,9 @@
+question: 未更新智能手机的主要风险是什么？
+answer: 易受已知漏洞的影响
+wrong_answers:
+  - 使用更多电池电量
+  - 他失去了 Wi-Fi 连接
+  - 更容易受到网络钓鱼的攻击
+explanation: |
+  未经更新的智能手机会暴露在已公开修正的漏洞中，很容易被攻击者利用。
+reviewed: false

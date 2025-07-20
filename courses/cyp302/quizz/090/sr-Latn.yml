@@ -1,0 +1,9 @@
+question: Zašto je teško konstruisati blok mod enkripcije iz strim šifre?
+answer: Zato što strim šifre obrađuju podatke kontinuirano
+wrong_answers:
+  - Zato što strim šifre ne koriste privatne ključeve
+  - Zato što blok modovi zahtevaju duže ključeve
+  - Zato što su strim šifre uvek sporije
+explanation: |
+  Strim šifre su dizajnirane da kontinuirano šifruju podatke (bit po bit ili bajt po bajt), što otežava njihovu upotrebu u blok modu koji zahteva obradu u blokovima fiksne veličine.
+reviewed: false

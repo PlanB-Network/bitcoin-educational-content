@@ -1,0 +1,9 @@
+question: Millise arvutirünnaku puhul kasutatakse teabe väljapressimiseks pettuse teel saadetud sõnumeid?
+answer: Phishing
+wrong_answers:
+  - Lunavara
+  - DDoS
+  - SQL-süstimine
+explanation: |
+  Phishing kasutab petlikke e-kirju või sõnumeid, et meelitada inimesi avaldama konfidentsiaalset teavet või installima pahavara.
+reviewed: false

@@ -1,8 +1,8 @@
-id: ae6e0ec8-96be-49e3-8b0d-83d4a346eac1
+id: 6113273c-8b76-4021-81a5-0b6746db6b0d
 name: Bitcoin Saigon
 category: communities
 address_city_country: Ho Chi Minh City, Vietnam
-address_line_2: 
+address_line_2:
 address_line_3:
 language:
   - en
@@ -11,76 +11,12 @@ links:
 
 original_language: en
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2834
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2667
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-07-02
     urgency: 1
-    contributor_names:
-    reward: 0.1
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2750
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2834
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2667
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2750
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3001
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2667
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2834
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3001
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2917
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2917
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2834
+    contributor_names: 
+      - Anh-La
+    reward: 0
 tags:
   - guides
   - adoption

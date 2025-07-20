@@ -1,0 +1,8 @@
+question: Jenis pajak apa yang dianjurkan Vauban dalam tulisannya?
+answer: Pajak proporsional setiap orang harus memberikan persentase yang sama dari pendapatan mereka kepada Negara
+wrong_answers:
+  - Pajak progresif tarif pajak untuk orang kaya harus lebih tinggi daripada tarif pajak untuk orang miskin
+  - Pajak dengan tarif tetap, berapa pun penghasilan Anda, Anda membayar jumlah yang sama setiap tahun kepada pemerintah
+  - Tarif pajak regresif untuk orang miskin harus lebih tinggi daripada tarif pajak untuk orang kaya
+explanation: |
+  Vauban menganjurkan pajak proporsional, "persepuluhan kerajaan", yang terdiri dari pungutan sepersepuluh (10%) dari pendapatan semua orang Prancis, terlepas dari status sosial mereka. Ia percaya bahwa pajak ini akan lebih adil dan lebih efisien daripada sistem pajak yang ada.

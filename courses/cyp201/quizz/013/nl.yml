@@ -1,0 +1,9 @@
+question: Wat is de primaire rol van PBKDF2 in Bitcoin?
+answer: generate de seed van een HD Wallet
+wrong_answers:
+  - Transacties authenticeren
+  - Privé sleutels coderen
+  - Bitcoin adressen aanmaken
+explanation: |
+  PBKDF2 wordt gebruikt om een seed af te leiden uit een Mnemonic zin en een optionele passphrase.
+reviewed: false

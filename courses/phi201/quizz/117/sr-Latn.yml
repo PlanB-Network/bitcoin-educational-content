@@ -1,0 +1,9 @@
+question: Prema Keynesu, koji je glavni problem sa zlatnim standardom?
+answer: Ograničava sposobnost vlade da finansira svoje rashode
+wrong_answers:
+  - To podstiče inflaciju
+  - To ometa međunarodnu trgovinu
+  - Svi ostali odgovori su tačni.
+explanation: |
+  Keynes je verovao da je zlatni standard ograničavao sposobnost vlade da prilagodi novčanu Supply, sprečavajući ih da lako finansiraju svoje rashode, posebno tokom ekonomskih kriza.
+reviewed: false

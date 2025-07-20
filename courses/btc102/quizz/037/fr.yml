@@ -1,9 +1,9 @@
-question: Qu'est-ce que Bitcoin selon le mouvement cyberpunk ?
-answer: L'équivalent électronique de l'argent liquide
+question: Que faut-il absolument éviter pour garantir la sécurité de ses bitcoins ?
+answer: Conserver ses bitcoins sur une plateforme d'échange
 wrong_answers:
-  - Une forme d'or numérique
-  - Une nouvelle forme de carte de crédit
-  - Un type de cryptomonnaie
+  - Utiliser un hardware wallet open-source
+  - Utiliser un hot wallet pour les transactions quotidiennes
+  - Diversifier les méthodes de stockage
 explanation: |
-  Le chapitre mentionne que du point de vue cyberpunk, Bitcoin s'oppose à une société sans argent liquide. Il permet la création de transactions financières numériques entièrement privées et sans intermédiaire. Pour le mouvement cyberpunk, Bitcoin est l'équivalent électronique de l'argent liquide.
+  Le principe "Pas vos clés, pas vos bitcoins" souligne l'importance de détenir soi-même ses clés privées. Sur une plateforme d'échange, vos bitcoins sont exposés à des risques inutiles.
 reviewed: false

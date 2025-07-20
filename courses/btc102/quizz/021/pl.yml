@@ -1,11 +1,9 @@
-question: Jaki jest jeden z najczęstszych błędów popełnianych przez początkujących inwestorów wchodzących w świat Bitcoin?
-answer: Przeinwestowanie
+question: Jakie są główne implikacje polityczne Bitcoin?
+answer: Ograniczenie kontroli państwa nad pieniędzmi
 wrong_answers:
-  - Niedoinwestowanie
-  - Inwestowanie tylko w Bitcoin
-  - Brak inwestycji w Bitcoin
+  - Rosnąca centralizacja bankowości
+  - Promowanie inflacji
+  - Wzmocnienie regulacji finansowych
 explanation: |
-  Jednym z najczęstszych błędów popełnianych przez początkujących inwestorów przy wkraczaniu w świat Bitcoin jest przeinwestowanie
-  w świat Bitcoin jest przeinwestowanie, co oznacza inwestowanie większej ilości pieniędzy, niż mogą stracić
-  pozwolić sobie na stratę. Może to prowadzić do problemów finansowych, jeśli wartość Bitcoin spadnie.
+  Bitcoin jest alternatywą, która osłabia władzę instytucji państwowych nad pieniędzmi poprzez seigniorage i cenzurę transakcji.
 reviewed: false

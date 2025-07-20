@@ -1,0 +1,9 @@
+question: Šta podrazumeva onion routing u Lightning Network?
+answer: To znači da svaki posredni čvor poznaje samo svoje neposredne susede na putu.
+wrong_answers:
+  - Da direktno prenesete sredstva sa čvora na čvor znajući konačnog primaoca
+  - Da se izračunaju naknade za svaki posrednički čvor nezavisno
+  - Da pošaljete sredstva svim čvorovima na putu istovremeno
+explanation: |
+  Onion routing znači da svaki posrednički čvor zna samo prethodni i sledeći čvor, čime se čuva poverljivost krajnjeg primaoca.
+reviewed: false

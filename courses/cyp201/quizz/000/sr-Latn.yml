@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija Hash funkcije?
+answer: Pretvara informacije proizvoljne dužine u otisak fiksne veličine
+wrong_answers:
+  - Šifruje poruke kako bi postale nečitljive
+  - Koristi se samo za verifikaciju integriteta Bitcoin softvera
+  - Generiše privatne ključeve za Bitcoin novčanike
+explanation: |
+  Funkcija Hash transformiše podatke bilo koje veličine u fiksnu veličinu Hash, što je ključno za mnoge primene u Bitcoin.
+reviewed: false

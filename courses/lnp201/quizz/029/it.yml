@@ -3,7 +3,7 @@ answer: Quando una delle parti non risponde più
 wrong_answers:
   - Quando è necessario aumentare la capacità del canale
   - Quando il timelock è insufficiente
-  - Quando le commissioni sulle transazioni sono troppo alte
+  - Quando le fee sulle transazioni sono troppo alte
 explanation: |
   La chiusura forzata viene utilizzata come ultima risorsa se una delle parti, ad esempio a causa di un problema tecnico, non risponde più ai messaggi dell'altra.
-reviewed: false
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mikä on yleinen taktiikka, jota kryptovaluuttojen vaikuttajat tai gurut käyttävät?
-answer: Epäluotettavien kryptovaluuttojen mainostaminen.
+question: Mitä Pump and Dump tarkoittaa kryptovaluutta-alalla?
+answer: Omaisuuserän manipulointi kampanjan avulla, jotta se voidaan myydä huipulla
 wrong_answers:
-  - Fyysisten omaisuuksien mainostaminen.
-  - Fiat-valuuttojen mainostaminen.
-  - Ohjelmistotuotteiden mainostaminen.
+  - Omaisuuserän ostaminen massiivisesti sen hinnan tukemiseksi myymättä sitä koskaan
+  - Markkinoiden vakauttaminen pitkällä aikavälillä vastakkaisten kauppojen avulla
+  - Toistuvien ostojen tekeminen pitkäaikaisen altistumisen saamiseksi omaisuuserälle
 explanation: |
-  Kryptovaluuttojen vaikuttajilla tai guruilla on usein henkilökohtaisia tavoitteita, ja he saattavat olla mukana lukuisissa projekteissa, joita he pyrkivät mainostamaan, vaikka ne eivät aina olisikaan sijoittajien parhaaksi. Nämä vaikuttajat saattavat yrittää mainostaa epäluotettavia kryptovaluuttoja eli shitcoineja.
+  Tässä petollisessa tekniikassa hintaa nostetaan keinotekoisesti, jotta se voitaisiin myydä kriittisellä hetkellä ja saada arvo romahtamaan.
 reviewed: false

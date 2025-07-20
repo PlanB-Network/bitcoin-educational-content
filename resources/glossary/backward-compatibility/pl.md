@@ -1,0 +1,5 @@
+---
+term: KOMPATYBILNOŚĆ WSTECZNA
+---
+
+Odnosi się do zdolności aktualizacji reguł protokołu do zachowania kompatybilności z poprzednimi wersjami. Oznacza to, że zmiany są zaprojektowane w taki sposób, że starsze węzły (węzły działające w wersjach sprzed zmiany reguł) mogą nadal wchodzić w interakcje z siecią i śledzić łańcuch z największą ilością zgromadzonej pracy. Dlatego ważne jest, aby starsze węzły nie odrzucały nowych bloków ani nowych transakcji. Kompatybilność wsteczna znacznie zmniejsza prawdopodobieństwo, że aktualizacja spowoduje fragmentację sieci, unikając w ten sposób podziału węzłów na podgrupy w różnych łańcuchach. Aby zapewnić kompatybilność z poprzednimi wersjami protokołu, aktualizacja musi zaostrzyć istniejące zasady lub wprowadzić nowe. Zasada ta definiuje "Soft Fork". I odwrotnie, jeśli aktualizacja złagodzi istniejące zasady lub wyeliminuje niektóre z nich, wówczas nie będzie kompatybilna wstecz. Będzie to "Hard Fork".

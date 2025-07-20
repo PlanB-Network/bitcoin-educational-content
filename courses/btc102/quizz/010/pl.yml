@@ -1,12 +1,9 @@
-question: Co oznacza skrót 2FA?
-answer: Uwierzytelnianie dwuskładnikowe
+question: Dlaczego zaleca się zachowanie dyskrecji na temat posiadanych Bitcoin?
+answer: Aby uniknąć przyciągania uwagi przestępców i rządów
 wrong_answers:
-  - Autoryzacja dwuskładnikowa
-  - Uwierzytelnianie dwuskładnikowe
-  - Uwierzytelnianie dwufunkcyjne
+  - Aby skorzystać z lepszych stawek Exchange w niektórych krajach
+  - Aby uniknąć przyciągania uwagi przedsiębiorców poszukujących finansowania
+  - Poprawa zdolności kredytowej
 explanation: |
-  2FA oznacza uwierzytelnianie dwuskładnikowe. Zapewnia ono dodatkowy
-  Layer
-  
-  bezpieczeństwa dla najbardziej wrażliwych kont"
+  Dyskrecja chroni przed ryzykiem bycia celem oszustów, zazdrosnych osób lub złodziei.
 reviewed: false

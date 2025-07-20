@@ -1,0 +1,9 @@
+question: Kako se zvala prva skrbnička aplikacija koja je omogućila jednostavno korišćenje Bitcoin na mobilnom telefonu, kreirana u aprilu 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privatnost Ajkula
+explanation: |
+  Bilo je [promovisano](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) na forumu 30. aprila 2010. od strane nekoga po imenu komoto.
+reviewed: false

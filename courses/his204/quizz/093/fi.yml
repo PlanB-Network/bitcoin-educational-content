@@ -1,0 +1,8 @@
+question: Minkä syyn Condorcet antoi Turgot'n epäonnistumiselle?
+answer: Hän oli liian ehdoton periaatteissaan
+wrong_answers:
+  - Hän oli liian taitamaton poliittisessa manöövereissä -
+  - Hänen fyysinen kuntonsa oli liian heikko
+  - Hän oli liian nuori
+explanation: |
+  Condorcet oli sitä mieltä, että Turgot oli liian jäykkä periaatteissaan eikä halunnut tehdä kompromisseja.

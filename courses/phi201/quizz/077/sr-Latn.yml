@@ -1,0 +1,9 @@
+question: Koji je naslov knjige Tomasa Pejna?
+answer: Zdrav razum.
+wrong_answers:
+  - Jedinstveni osećaj.
+  - Opšte dobro.
+  - Nijedan od gorenavedenih odgovora nije tačan.
+explanation: |
+  Knjiga Thomasa Painea, pod naslovom Common Sense (Le sens commun na francuskom), je uticajna brošura koja se zalagala za američku nezavisnost i osuđivala britansku tiraniju, igrajući ključnu ulogu u mobilizaciji kolonista.
+reviewed: false

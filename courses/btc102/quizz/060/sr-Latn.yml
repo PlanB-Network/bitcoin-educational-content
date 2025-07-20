@@ -1,0 +1,10 @@
+question: Šta je Hot Wallet u kontekstu Bitcoin?
+answer: Wallet za skladištenje malih količina Bitcoin na mreži
+wrong_answers:
+  - Wallet koji se koristi za transakcije u Hot klimama
+  - Wallet koji se koristi za skladištenje velikih količina Bitcoin
+  - Wallet koji se koristi za skladištenje Bitcoin tokom dužeg vremenskog perioda
+explanation: |
+  Hot Wallet je Wallet za skladištenje malih količina Bitcoin na mreži.
+  Smatra se manje sigurnim od Cold Wallet jer je podložniji hakovanju.
+reviewed: false

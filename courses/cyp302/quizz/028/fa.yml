@@ -1,0 +1,9 @@
+question: نتیجه 0 XOR 1 چیست؟
+answer: ۱
+wrong_answers:
+  - ۰
+  - ۲
+  - -1
+explanation: |
+  با XOR، 0 XOR 1 نتیجه‌اش 1 است زیرا بیت‌ها متفاوت هستند.
+reviewed: false

@@ -27,6 +27,7 @@ Mine [ametlikule Sparrow Wallet allalaadimislehele](https://sparrowwallet.com/do
 Oluline on kontrollida tarkvara terviklikkust ja autentsust enne selle paigaldamist. Kui te ei tea, kuidas seda teha, leiate täieliku õpetuse siit :
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Kui Sparrow on paigaldatud, võite jätta esialgsed selgitavad ekraanid vahele ja minna otse ühenduse haldamise ekraanile.
 
 ![Image](assets/fr/02.webp)
@@ -69,7 +70,9 @@ Pange tähele, et kui te kasutate kärbitud Bitcoin tuumasõlme, ei saa te taast
 Bitcoin Core-sõlme konfigureerimiseks saate sõltuvalt teie operatsioonisüsteemist tutvuda ühega järgmistest juhendmaterjalidest:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 Mine Sparrow's vahekaardile "*Bitcoin Core*".
 
 ![Image](assets/fr/07.webp)
@@ -218,6 +221,7 @@ Võite selle graveerida paberile või täiendava turvalisuse tagamiseks graveeri
 Lisateabe saamiseks selle kohta, kuidas oma Mnemonic fraasi õigesti salvestada ja hallata, soovitan tungivalt jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidist Wallet kasutatakse ainult Testnet-l ja see kustutatakse õpetuse lõpus.**
@@ -225,6 +229,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Võite valida ka passphrase BIP39 lisamise, klõpsates kastil "*Kasutage passphrase*". Hoiatus: passphrase kasutamine võib olla väga kasulik, kuid kui te ei mõista, kuidas see töötab, võib see olla väga riskantne. Seepärast soovitan tungivalt lugeda seda lühikest teoreetilist artiklit sel teemal:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Kui olete salvestanud oma Mnemonic ja kõik passphrase füüsilisele andmekandjale, klõpsake "*Kinnitage varukoopia*".
 
 ![Image](assets/fr/27.webp)
@@ -376,6 +381,7 @@ See viib teid lehele, kus on üksikasjalikult kirjeldatud teie tehingu Elements.
 Oluline on säilitada vaikimisi Sighash. Et mõista, miks, vaadake seda koolituskursust, kus ma selgitan teile kõike, mida te peate Sighashist teadma:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Järgmisel ekraanil varieeruvad valikud sõltuvalt kasutatava Wallet tüübist:
 
 

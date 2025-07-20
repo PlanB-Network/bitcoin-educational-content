@@ -1,0 +1,13 @@
+question: Koja je primarna funkcija VPN-a u profesionalnom kontekstu?
+answer: Omogućava zaposlenima siguran daljinski pristup internoj mreži kompanije.
+wrong_answers:
+  - Omogućava zaposlenima da bezbedno zaobiđu geografska ograničenja.
+  - Omogućava zaposlenima da potpuno blokiraju online oglašavanje.
+  - Omogućava zaposlenima da bezbedno koriste javne Wi-Fi mreže.
+explanation: |
+  U profesionalnom kontekstu, VPN-ovi se prvenstveno koriste za
+  obezbeđivanje sigurnog daljinskog pristupa internoj mreži
+  kompanije. Ovo se postiže enkripcijom podataka razmenjenih
+  između zaposlenog i mreže kompanije, što otežava
+  presretanje od strane trećih lica.
+reviewed: true

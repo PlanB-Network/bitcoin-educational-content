@@ -1,10 +1,9 @@
-question: Mục đích chính của việc sử dụng các công cụ như Signal, Tor và ProtonMail là gì?
-answer: Để coi trọng và bảo vệ quyền riêng tư của bạn
+question: Tại sao người ta khuyên chỉ nên đầu tư số tiền mà bạn có thể mất?
+answer: Để bảo vệ an ninh tài chính của bạn trong trường hợp mất mát
 wrong_answers:
-  - Để tăng tốc độ kết nối internet của bạn
-  - Để bảo vệ máy tính của bạn khỏi virus
-  - Để cung cấp quyền truy cập miễn phí vào các dịch vụ trả phí
+  - Để tối đa hóa lợi nhuận nhanh chóng trong thị trường giá xuống
+  - Để đa dạng hóa các khoản đầu tư của bạn một cách mạnh mẽ
+  - Vay để đầu tư nhiều hơn
 explanation: |
-  Các công cụ như Signal, Tor và ProtonMail được sử dụng để coi trọng và bảo vệ
-
-  quyền riêng tư của bạn. Chúng là một phần của các biện pháp nhằm cải thiện thói quen bảo mật trực tuyến.
+  Đầu tư vượt quá khả năng của mình (tức là vượt quá khả năng tiết kiệm) sẽ khiến bạn phải chịu rủi ro tài chính cực kỳ cao.
+reviewed: false

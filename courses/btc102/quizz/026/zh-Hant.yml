@@ -1,11 +1,9 @@
-question: 是什麼兩個特點讓 Bitcoin 成為今天的樣子？
-answer: 其開放源碼及其稀缺性
+question: 使用者必須自行儲存什麼才能真正擁有自己的比特幣？
+answer: 私密金鑰
 wrong_answers:
-  - 其匿名性和分散性
-  - 它的高價值及其波動性
-  - 其易用性和全球接受度
+  - 收件地址
+  - Exchange 平台密碼
+  - Blockchain 區塊
 explanation: |
-  Bitcoin 的兩個主要特徵是其開放原始碼。
-  代碼，這使得它透明、可審計且任何人都可以使用，以及它的稀缺性、
-  這意味著世界上只有 2100 萬個比特幣。
+  如果不持有私人金鑰，您就無法真正擁有您的 bitcoins。
 reviewed: false

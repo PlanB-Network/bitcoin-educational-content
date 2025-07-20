@@ -1,0 +1,5 @@
+---
+term: EREBUS (SHAMBULIZI)
+---
+
+Aina ya kisasa ya mashambulizi dhidi ya mtandao wa Bitcoin ambayo huruhusu Mtoa Huduma wa Intaneti hasidi kutenga nodi mahususi za Bitcoin. Kwa hivyo, ni aina ya shambulio la Eclipse. Mashambulizi ya Erebus hutumia muundo wa mtandao wa Intaneti, hasa sehemu za lazima za kupita (au "vijiti") katika uelekezaji kati ya Mifumo ya Kujiendesha (AS). Mshambulizi, kwa kudhibiti mfumo wa uhuru, anaweza kuendesha trafiki ya mtandao ili kutenga nodi ya Bitcoin kutoka kwa mtandao wote, na hivyo kuifanya kuamini katika hali ya uongo ya Blockchain (vitalu au shughuli zisizojulikana na nodi). Kutengwa huku kunaweza kusababisha matumizi mara mbili au udhibiti dhidi ya nodi iliyotengwa. Shambulio hili limefanywa kuwa gumu zaidi tangu kutolewa kwa toleo la Bitcoin Core 0.20.0 na kuanzishwa kwa Asmap.

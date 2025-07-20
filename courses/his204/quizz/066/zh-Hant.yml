@@ -1,0 +1,8 @@
+question: 這位法國經濟學家的兒子所創立的 Dupont de Nemours et Cie 公司從事何種事業？
+answer: 化學與生物
+wrong_answers:
+  - 銀行與保險
+  - 紡織品
+  - 食品工業
+explanation: |
+  Dupont de Nemours 是由經濟學家 Pierre-Samuel Dupont de Nemours 之子所創立的化學與生物公司。

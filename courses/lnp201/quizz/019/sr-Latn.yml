@@ -1,0 +1,9 @@
+question: Šta Commitment Transaction sistem garantuje učesnicima Lightning kanala?
+answer: Da svako može povratiti svoja sredstva objavljivanjem poslednje potpisane transakcije
+wrong_answers:
+  - Te transakcije su vidljive na Bitcoin Blockchain
+  - Da se kapacitet kanala povećava sa svakom transakcijom
+  - Da se naknade dele između dva učesnika
+explanation: |
+  Potpisane Commitment transakcije osiguravaju da svaki učesnik može povratiti svoja sredstva objavljivanjem najnovije verzije u slučaju zatvaranja kanala.
+reviewed: false

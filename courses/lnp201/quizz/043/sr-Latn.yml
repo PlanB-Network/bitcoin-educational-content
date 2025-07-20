@@ -1,0 +1,9 @@
+question: Koje informacije Bob može uključiti u Invoice da olakša usmeravanje?
+answer: Obližnji kanali sa dovoljnom likvidnošću ili postojanje privatnih kanala
+wrong_answers:
+  - Privatni ključ međučvorova
+  - Kompletna mapa svih kanala mreže
+  - Tačan iznos dostupne likvidnosti za svaki kanal
+explanation: |
+  Ukazujući obližnje kanale sa likvidnošću ili otkrivajući privatne kanale, Bob pomaže Alisi da izabere rute sa boljom verovatnoćom uspeha.
+reviewed: false

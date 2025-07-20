@@ -1,0 +1,5 @@
+---
+term: VIWANDA VYA CHANNEL
+---
+
+Utaratibu wa hali ya juu unaoendelezwa kwa sasa kwenye Umeme, unaoruhusu uundaji na usimamizi wa njia nyingi za malipo kutoka kwa UTXO moja. Viwanda vya idhaa hutumia `n-of-n` anwani za Multisig ili kundi la watumiaji kwa pamoja liweze kushikilia UTXO moja. Kuanzia hapo, wanaweza kufungua na kufunga njia za malipo kati yao wenyewe bila shughuli za ziada za On-Chain, isipokuwa wakati wanataka kutoa pesa zao kutoka kwa kiwanda. Njia hii inaweza kupunguza gharama kwa kiasi kikubwa na nafasi iliyochukuliwa kwenye Bitcoin kwa shughuli za Umeme. Kiutendaji, hii inamaanisha kuwa shughuli ambazo kwa kawaida zingehitaji miamala ya On-Chain kwa kila ufunguzi au kufungwa kwa chaneli zinaweza kufanywa kwa off-chain, huku usalama ukihakikishwa na uwezo wa kuchapisha miamala ambayo haijachapishwa ikihitajika. Ili kutumia maneno ya David A. Harding, viwanda vya chaneli vinaweza kuelezewa kama njia za Umeme zinazotumiwa kwa generate chaneli zingine za Umeme.

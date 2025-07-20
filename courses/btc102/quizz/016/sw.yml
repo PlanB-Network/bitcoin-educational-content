@@ -1,11 +1,9 @@
-question: Ni ipi mojawapo ya hatua za kuweka kompyuta yako katika hali bora ya kufanya kazi?
-answer: Hifadhi nakala ya data yako mara kwa mara
+question: Bitcoin inaweza kugawanywa hadi nafasi ngapi za desimali?
+answer: Nane
 wrong_answers:
-  - Shiriki manenosiri yako
-  - Tumia nenosiri sawa kwa akaunti zote
-  - Puuza kusasisha kompyuta yako
+  - Sita
+  - Kumi na mbili
+  - Saba
 explanation: |
-  Kucheleza data yako mara kwa mara ni mojawapo ya hatua za kuweka kompyuta yako
-  katika hali bora ya kufanya kazi. Pia ni hatua ya msingi ya kuboresha usalama mtandaoni
-  mazoea.'
+  Bitcoin inaweza kugawanywa chini hadi nafasi ya nane ya desimali, kwa kitengo kimoja kinachoitwa Satoshi au sat.
 reviewed: false

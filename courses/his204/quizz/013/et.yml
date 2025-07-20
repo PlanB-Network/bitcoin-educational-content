@@ -1,0 +1,8 @@
+question: Mida ta "headele hingedele" ette heidab?
+answer: Alati madalate hindade kehtestamisega põhjustavad nad viletsust
+wrong_answers:
+  - Põllumajanduse toetamine töötleva tööstuse arvelt
+  - Avaliku raha liiga hooletu kulutamine vaeste toetamiseks
+  - Vaeseid ei aidata piisavalt
+explanation: |
+  Boisguilbert kritiseeris neid, kes püüdsid hindu kunstlikult madalal hoida, sest uskus, et see pärsib tootmist, tekitab puudujääke ja lõppkokkuvõttes põhjustab viletsust. Ta uskus, et hinnad peaks määrama turg, vastavalt Supply ja nõudlusele.

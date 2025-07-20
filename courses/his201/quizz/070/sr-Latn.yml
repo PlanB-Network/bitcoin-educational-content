@@ -1,0 +1,9 @@
+question: Ko je predložio da se kontaktira organizacija WikiLeaks kako bi ih podstakli da prihvate Bitcoin u novembru 2010?
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  Opravdao je to time što je napisao da je organizaciji više puta zamrznuta sredstva. Naime, Moneybookers je zamrznuo WikiLeaksov račun u oktobru.
+reviewed: false

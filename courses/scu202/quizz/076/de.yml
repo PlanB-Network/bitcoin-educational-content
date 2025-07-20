@@ -1,0 +1,9 @@
+question: Warum eine Firewall-Anwendung wie NetGuard oder RethinkDNS auf Android verwenden?
+answer: Kontrolle einzelner Internetverbindungen
+wrong_answers:
+  - Automatisches Speichern aller Daten
+  - Alle Wi-Fi-Netzwerke entsperren
+  - Deinstallieren Sie alle Viren
+explanation: |
+  Diese Anwendungen fungieren als lokale Firewalls, die es ermöglichen, den ausgehenden Datenverkehr anwendungsspezifisch zu blockieren oder zuzulassen.
+reviewed: false

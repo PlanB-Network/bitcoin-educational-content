@@ -1,9 +1,9 @@
-question: ¿Qué es una billetera en el contexto de Bitcoin?
-answer: Un lugar seguro digital para tus bitcoins
+question: ¿Qué dispositivo se recomienda para asegurar los fondos acumulados a largo plazo?
+answer: Hardware Wallet
 wrong_answers:
-  - Un dispositivo físico para almacenar bitcoins
-  - Un software para minar bitcoins
-  - Una plataforma para comprar y vender bitcoins
+  - Hot Wallet
+  - Rayo Wallet
+  - Plataforma Exchange
 explanation: |
-  El contenido del capítulo explica que los bitcoins se almacenan en lo que se llama una billetera, que es un lugar seguro digital para tu dinero. Solo el titular de la clave puede acceder a ella.
+  Una Hardware Wallet almacena claves privadas fuera de línea, lo que proporciona una mayor seguridad para cantidades significativas a largo plazo.
 reviewed: false

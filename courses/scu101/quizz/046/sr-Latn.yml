@@ -1,0 +1,9 @@
+question: Koji je glavni nedostatak korišćenja menadžera lozinki koji se samostalno hostuje?
+answer: Za korišćenje je potrebno više tehničkog znanja.
+wrong_answers:
+  - Skuplje je od usluga trećih strana.
+  - Ne nudi toliko funkcija kao usluge trećih strana.
+  - Nije tako sigurno kao usluge trećih strana.
+explanation: |
+  Menadžer lozinki koji se samostalno hostuje zahteva više tehničkog znanja za korišćenje, jer je potrebno postaviti i upravljati sopstvenim serverom. Međutim, može ponuditi veću kontrolu i sigurnost.
+reviewed: true

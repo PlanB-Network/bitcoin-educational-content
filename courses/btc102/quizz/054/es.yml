@@ -1,9 +1,9 @@
-question: ¿Quién introdujo la idea de la autopista Bitcoin?
-answer: Andreas Antonopoulos
+question: ¿Cuál es el objetivo principal del usuario activo?
+answer: Para utilizar Bitcoin como método de pago diario
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - Invertir en Bitcoin a largo plazo
+  - Para acumular gradualmente satoshis
+  - Especular sobre el mercado
 explanation: |
-  Andreas Antonopoulos, un conocido defensor y educador de Bitcoin, introdujo la idea de la autopista Bitcoin.
+  El usuario activo incorpora la Bitcoin a su vida cotidiana para realizar transacciones y apoyar su adopción.
 reviewed: false

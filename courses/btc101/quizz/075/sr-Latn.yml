@@ -1,0 +1,13 @@
+question: Šta je Mnemonic fraza u Bitkoin novčaniku?
+answer: Lista od 12 ili 24 reči koja vam omogućava pristup vašim bitkoinima.
+wrong_answers:
+  - Izabrana lozinka za pristup Bitkoin novčaniku.
+  - Kod za šifrovanje Bitkoin transakcija.
+  - Tajna fraza za oporavak koja uništava Bitkoin novčanik u slučaju potrebe.
+explanation: |
+  Od 2017. godine, privatni ključ može biti kodiran u jednostavnu listu
+  od 12 ili 24 reči, nazvanu Mnemonic fraza. Ova fraza
+  je rezervna kopija vašeg Bitkoin novčanika, tako da vam omogućava
+  pristup vašim bitkoinima korišćenjem bilo kog Bitkoin novčanika
+  softvera/aplikacije.
+reviewed: true

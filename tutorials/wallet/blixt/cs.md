@@ -1,351 +1,679 @@
 ---
-name: Blixt
-
-description: Mobilní LN Node Peněženka
+name: Blixt Wallet
+description: Jak začít používat výkonný uzel LN v mobilním telefonu?
 ---
+![cover](cover.webp)
 
-![prezentace](assets/blixt_intro_en.webp)
 
-## Výkonný BTC/Lightning node ve vaší kapse, kdekoliv jste
+Tato příručka je věnována všem novým uživatelům, kteří chtějí začít používat Bitcoin Lightning Network (LN) ZDARMA OPEN SOURCE, ÚPLNĚ NEKUSTODIÁLNÍM způsobem.
 
-Rád bych vám představil zajímavý a výkonný nový BTC/LN mobilní node a peněženku – Blixt. Název pochází ze švédštiny a znamená "blesk".
-Pokud jste nikdy nepoužívali Bitcoin Lightning Network, před začátkem si prosím přečtěte [tuto jednoduchou analogii vysvětlující Lightning Network (LN)](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport).
+
+Pomocí [Blixt Wallet](https://blixtwallet.com/), plnohodnotného uzlu LN na mobilním telefonu, ať jste kdekoli.
+
+
+Pokud jste nikdy nepoužili Bitcoin Lightning Network, než začnete, [přečtěte si prosím tuto jednoduchou analogii vysvětlení o Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+
 
 ## DŮLEŽITÉ ASPEKTY:
 
-### 1. Blixt je soukromý node, NENÍ to směrovací node! Mějte to na paměti.
 
-To znamená, že všechny LN kanály v Blixtu budou neohlášené do LN grafu (tzv. soukromé kanály). To znamená, TENTO NODE NEBUDE SMĚROVAT platby ostatních přes Blixt node. [Zde si přečtěte více o soukromých a veřejných kanálech](https://voltage.cloud/blog/lightning-network-faq/what-are-the-differences-between-public-and-private-channels/).
 
-Mobilní node Blixt NENÍ pro směrování, opakuji. Je hlavně pro to, abyste mohli spravovat vlastní LN kanály a provádět vaše LN platby soukromě, kdykoliv potřebujete.
+- Blixt je privátní uzel, nikoliv směrovací uzel! Mějte to na paměti : To znamená, že všechny kanály LN v Blixt budou neohlášené do grafu LN (tzv. soukromé kanály). To znamená, že tento uzel NEBUDE provádět směrování ostatních plateb přes uzel Blixt. Tento uzel Blixt NENÍ určen ke směrování, opakuji. Je hlavně proto, abyste mohli spravovat své vlastní kanály LN a provádět své platby LN soukromě, kdykoli potřebujete. Tento uzel Blixt je nutné mít online a synchronizovaný POUZE PŘED tím, než se chystáte provádět transakce. Proto se nahoře zobrazí ikona, která indikuje stav synchronizace. Trvá to jen několik okamžiků v závislosti na tom, jak dlouho jste jej drželi offline.
 
-Mobilní node Blixt, je nutné mít online a synchronizovaný JEN PŘED tím, než budete provádět vaše transakce. Proto uvidíte ikonu nahoře, která indikuje stav synchronizace. Trvá to jen chvíli, v závislosti na tom, jak dlouho jste ho měli offline a znovu synchronizujete LN graf.
 
-### 2. Blixt používá LND (aezeed) jako backend peněženky, takže se nepokoušejte importovat jiné typy bitcoinových peněženek do něj.
 
-[Zde máte vysvětlené typy peněženek](https://coldbit.com/what-types-of-mnemonic-seeds-are-used-in-bitcoin/). Takže pokud jste měli dříve LND node, můžete importovat seed a backup.channels do Blixtu, [jak je vysvětleno v tomto průvodci](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario).
+- Blixt používá LND (aezeed) jako backend Wallet, takže se do něj nepokoušejte importovat jiné typy peněženek Bitcoin. [Zde jste vysvětlili typy semen Wallet Mnemonic] (https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). A zde je [rozsáhlejší seznam všech typů peněženek](https://walletsrecovery.org/). Pokud jste tedy dříve měli uzel LND, můžete do Blixt importovat seed a záložní.kanály, [jak je vysvětleno v této příručce](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
 
-### 3. Důležité odkazy Blixt (prosím, přidejte si je do záložek):
 
-- [Blixt Github repository](https://github.com/hsjoberg/blixt-wallet) | [Github Releases](https://github.com/hsjoberg/blixt-wallet/releases) (přímé stažení apk souboru)
-- [Stránka s funkcemi Blixt](https://blixtwallet.github.io/features) - vysvětlení jednotlivých funkcí a možností.
-- [FAQ stránka Blixt](https://blixtwallet.github.io/faq) - Seznam otázek a odpovědí a řešení problémů s Blixt
-- [Průvodci Blixt](https://blixtwallet.github.io/guides) - demo, video tutoriály, další průvodci a případové studie pro Blixt
-- [Tisknutelný A4 leták](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer) s prvními kroky používání Blixtu, v různých jazycích.
-- Blixt také nabízí plně funkční demo přímo na [svých webových stránkách](https://blixtwallet.com) nebo na věnované [webové verzi](https://blixt-wallet-git-master-hsjoberg.vercel.app/), abyste měli plný zážitek z testování, předtím než začnete Blixt používat ve skutečném světě.
-- [Stránka pro crowdfunding Geyser](https://geyser.fund/project/blixt) - darujte sats, jak chcete, na podporu projektu
-- [Skupina pro podporu na Telegramu](https://t.me/blixtwallet)
-# Dostupné klíčové funkce
 
-## Neutrino Node
+- Na konci této příručky najdete speciální část s ["tipy a triky"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
 
-Blixt se standardně připojuje k serveru Blixt pro synchronizaci bloků a indexaci pomocí Neutrino (SPV režim pro zjednodušené ověření plateb), ale uživatel se může také připojit ke svému vlastnímu uzlu. Je překvapivé, že synchronizace SPV uzlu trvá méně než 5 minut, v mém případě na Androidu 11, než je možné plně využívat peněženku s plným uzlem (on-chain a LN).
 
-## Kompletně Nespravovaný Uzel
 
-Uživatel může spravovat vlastní kanály prostřednictvím snadno použitelného rozhraní a s dostatečným množstvím zobrazených informací pro dobrý uživatelský zážitek. V menu v levém horním rohu můžete přejít na Lightning kanály a začít je otevírat s jinými uzly, jak si přejete. Nezapomeňte v nastaveních povolit Tor. Je to mnohem lepší pro soukromí a také proto, že jako mobilní uzel, pokud často měníte internetové připojení / IP adresu v clearnetu, vaši partneři mohou být narušeni. S URI uzlu Tor budete mít vždy stejný soukromý identifikátor bez ohledu na vaši polohu / IP.
+- Další důležité odkazy - najdete je na konci této příručky a přidejte si je do záložek.
 
-## Zálohování/Obnovení LND Uzlu
 
-Silná, snadno spravovatelná a užitečná funkce je obnovení jiných mrtvých LND uzlů, pouze s 24-slovným seznamem seed a souborem channels.backup.
+---
 
-> [Zde je návod, jak obnovit mrtvé Umbrel uzly v Blixt v případě SHTF.](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario)
+## Blixt - První kontakt
 
-Uživatel má také možnost uložit zálohu kanálů Blixt na Google Drive a/nebo na lokální úložiště svého mobilního zařízení (a později ji přesunout na bezpečné místo, daleko od vašeho telefonu).
 
-Proces obnovy je poměrně jednoduchý: vložte 24-slovný seed, přidejte záložní soubor (předtím zkopírovaný do paměti mobilu) a klikněte na obnovit. Synchronizace a skenování všech bloků pro vaše minulé transakce zabere nějaký čas. Kanály budou automaticky uzavřeny a prostředky vráceny do vaší on-chain peněženky (viz menu v levém horním rohu - on-chain).
+Takže... Darthova máma se rozhodla začít používat LN s Blixtem. Rozhodnutí Hard, ale moudré. Blixt je jen pro chytré lidi a ty, kteří se chtějí opravdu naučit více, hlubší využití LN.
 
-> Pokud jste měli předtím otevřené kanály se svým starým uzlem za Tor, musíte nejprve povolit možnost Tor (a restartovat aplikaci) v nastavení menu. Tímto způsobem nebude procedura uzavírání selhat a/nebo nebude použita možnost vynuceného uzavření.
 
-Nezapomeňte zálohovat své LN kanály po jejich otevření a/nebo uzavření. Stačí pár sekund, abyste byli v bezpečí. Později můžete záložní soubor přesunout na bezpečné místo daleko od vašeho mobilního zařízení.
-Pokud chcete otestovat svůj seed v scénáři obnovy, před přidáním prostředků, jednoduše použijte stejný 24-slovný seed (aezeed) v BlueWallet. Pokud je generovaná BTC adresa stejná jako v Blixt, můžete pokračovat. Po tomto testu již není potřeba používat BlueWallet, testovanou peněženku pro obnovu můžete jednoduše smazat.
+![blixt](assets/en/01.webp)
 
-## Vestavěný Tor
 
-Jakmile jej aktivujete, aplikace se restartuje v síti Tor. Od tohoto okamžiku můžete v nastavení menu vidět ID vašeho uzlu s onion adresou, takže jiné uzly mohůou otevírat kanály k vašemu malému mobilnímu uzlu Blixt. Nebo řekněme, že máte vlastní uzel doma a chcete mít malé kanály se svým mobilním uzlem Blixt. Perfektní kombinace.
+Darth varuje svou matku:
 
-## Dunder LSP - Poskytovatel Likvidity
 
-Jednoduchá a fantastická funkce, která novým uživatelům nabízí možnost okamžitě začít přijímat BTC na Lightning Network, bez nutnosti vkládat prostředky on-chain a poté otevírat LN kanály.
-Pro nové uživatele je to skvělá zpráva, protože by měli být schopni začít od nuly, přímo na LN. K tomu jednoduše vytvořte LN fakturu z hlavní obrazovky na tlačítku "přijmout", zadejte částku, popis atd. a zaplaťte z jiné peněženky. Blixt otevře kanál až do 400k sats za každou přijatou transakci. Pokud je to nutné, můžete otevřít více kanálů.
+"*Maminko, pokud začnete používat uzel Blixt LN, musíte nejprve vědět, co je to Lightning Network a jak funguje, alespoň na základní úrovni. [Zde jsem sestavil jednoduchý seznam zdrojů o Lightning Network](https://blixtwallet.github.io/faq#what-is-LN). Nejprve si je prosím přečtěte.*"
 
-Zajímavý a užitečný případ je následující: řekněme, že vaše první přijatá částka je 200k. Blixt otevře kanál s 400k sats, kde už na vaší straně bude 200k (minus poplatky za otevření), ale protože stále máte 200k "místa" dostupného, můžete přijmout více. Takže další platba, řekněme 100k, přijde přímo tímto kanálem, bez dalších poplatků, a stále máte 100k místa pro přijetí dalších.
 
-Ale pokud se rozhodnete přijmout, řekněme, 300k za třetí platbu, vytvoří se další nový kanál s 400k a tyto 300k budou přesunuty na vaši stranu.
+Darthova máma si přečetla zdroje a udělala první krok: nainstalovala si Blixt do svého zbrusu nového zařízení se systémem Android. Blixt je k dispozici také pro iOS a macOS (desktop). Ty však nejsou pro Darthovu mámu... Nicméně pro lepší kompatibilitu a zážitek se doporučuje používat novější verzi systému Android, alespoň 9 nebo 10. Spuštění plného uzlu LN na mobilním zařízení není snadný úkol a mohlo by zabrat nějaké místo (min. 600 MB) a paměť.
 
-Pokud je příliš mnoho požadavků, uzel Blixt může upravit kapacitu kanálu během otevírání.
 
-## Automatické otevírání kanálů
+Po otevření aplikace Blixt se na obrazovce "Vítejte" zobrazí několik možností:
 
-V nastavení může uživatel aktivovat tuto možnost a mít automatizovanou službu, která otevírá kanály s nejlepšími uzly a trasami na základě dostupného zůstatku v on-chain peněžence aplikace Blixt. Tato funkce je velmi výhodná pro nové uživatele, kteří nevědí, s kterým uzlem otevřít kanál a/nebo jak otevřít LN kanál. Je to jako autopilot pro LN.
 
-> Pamatujte: tato možnost se používá pouze jednou, když vytváříte svou novou peněženku Blixt, a je ve výchozím nastavení povolena. Takže pokud nový uživatel naskenuje on-chain QR kód na hlavní obrazovce a vloží své první sats na tuto adresu, Blixt automaticky otevře kanál s těmito sats, s veřejným uzlem Blixt.
+![blixt](assets/en/02.webp)
 
-## Služby příchozí likvidity
 
-Funkce určená pro obchodníky, kteří potřebují více PŘÍCHOZÍ likvidity, snadno použitelná. K tomu jednoduše vyberte jednoho z poskytovatelů likvidity ze seznamu, zaplaťte částku, kterou chcete za kanál, a poskytněte své ID uzlu, a odtud se otevře kanál do vašeho uzlu Blixt.
+V pravém horním rohu se zobrazí 3 tečky, které aktivují nabídku s:
 
-## Seznamy kontaktů
 
-Užitečná funkce, pokud chcete mít trvalý seznam příjemců, se kterými obchodujete většinou času. Tento seznam může obsahovat LNURL, Lightning adresy nebo budoucí statické platební informace/faktury. Zatím tento seznam nelze uložit mimo aplikaci, ale plánuje se možnost jeho exportu.
 
-## LNURL a Lightning adresa
+- "enable Tor" - uživatel může začít se sítí Tor, zejména pokud chce obnovit starý uzel LND, který byl spuštěn pouze s Tor peery.
+- "Nastavit uzel Bitcoin" - pokud se uživatel chce připojit přímo k vlastnímu uzlu, aby mohl synchronizovat bloky prostřednictvím Neutrina, může to udělat hned na úvodní obrazovce. Tato možnost je také vhodná v případě, že vaše internetové připojení nebo Tor není tak stabilní, aby se dalo připojit k výchozímu uzlu Bitcoin (node.blixtwallet.com).
+- Brzy tam bude přidán jazyk, takže uživatel může začít rovnou s jazykem, který mu vyhovuje. Pokud chcete do tohoto open source projektu přispět překladem do dalších jazyků, [připojte se prosím zde](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
 
-Plná podpora LNURL. Můžete platit na LNURL, LN-auth, LN-chan požadavek s LNURL.
-Můžete posílat na jakoukoli Lightning adresu a také ji přidat do svého seznamu kontaktů.
-Také od verze 0.6.9 je možné přijímat na vaši vlastní Lightning adresu *@blixtwallet.com* typu, prostřednictvím funkce [Blixt Lightning Box](https://github.com/hsjoberg/lightning-box).
 
-## Keysend
+### MOŽNOST A - Vytvoření nového Wallet
 
-Velmi silná funkce, kterou má málo mobilních peněženek. Můžete posílat/tlačit finanční prostředky přímo přes kanál nebo směřovat na jiný uzel, přidat zprávu, pokud je to nutné. Je to jako tajný chat přes LN. Tato funkce je velmi užitečná pro zobrazování zpráv na billboardu Amboss.space ([zde je průvodce k tomuto billboardu Amboss](https://darthcoin.substack.com/p/amboss-billboard-amazing-tool)).
 
-## Podpis zpráv
-Velmi užitečný nástroj pro podepisování zpráv vaším soukromým klíčem uzlu Blixt, ověřování zpráv a tak dále. Velmi málo mobilních peněženek má tuto funkci, skoro žádná.
-## Multi-Channel Payments - Multi-Path Payments (MPP)
+Pokud zvolíte možnost "vytvořit nový Wallet", budete přesměrováni přímo na hlavní obrazovku aplikace Blixt Wallet.
 
-Užitečná funkce pro platby přes LN, která umožňuje rozdělit LN platbu na několik částí přes více kanálů. Je to dobrý způsob, jak vyvážit likviditu v síti a zlepšit soukromí.
 
-## Lightning Browser
+Toto je váš "kokpit" a také "hlavní LN Wallet", takže si uvědomte, že vám ukáže pouze rovnováhu vašeho LN Wallet. Zapnutý řetězec Wallet se zobrazuje samostatně (viz C).
 
-Série služeb třetích stran s LN, organizovaných v jednoduchém, přístupném a uživatelsky přívětivém prohlížeči. Je to také dobrý způsob, jak propagovat podniky, které přijímají BTC na LN. Tato funkce bude v budoucnu dále vyvíjena. Zatím nefunguje za Tor, takže prohlížení těchto aplikací bude na clearnetu (otevřeném internetu).
 
-## Log Explorers
+![blixt](assets/en/03.webp)
 
-Toto je mocný nástroj pro kontrolu LND logů a obecného stavu vašeho uzlu. Existuje možnost uložit logovací soubor. Je velmi užitečné mít tyto logy po ruce v případě, že potřebujete pomoc vývojáře při identifikaci určitých problémů.
 
-## Bezpečnost
+A - Ikona indikátoru synchronizace bloků Blixt. To je pro uzel LN nejdůležitější: být synchronizován se sítí. Pokud je tato ikona stále funkční, znamená to, že váš uzel NENÍ PŘIPRAVEN! Mějte tedy trpělivost, speciálně pro první počáteční synchronizaci. Může to trvat až 6-8 minut, v závislosti na vašem zařízení a připojení k internetu.
 
-V nastavení aplikace můžete pro větší bezpečnost vaší peněženky/uzlu nastavit možnost spustit aplikaci s PIN kódem a/nebo otiskem prstu.
 
-## On-chain Wallet
+Můžete na něj kliknout a zobrazit stav synchronizace:
 
-Tato funkce je trochu skrytá, v zásuvném menu vlevo nahoře. Jelikož není často používána uživatelem LN, není viditelná na hlavní obrazovce. Ale to nevadí, můžete ji mít na samostatné peněžence, kde můžete spravovat adresy a zobrazit log transakcí, například importem vašeho seedu do Sparrow. Možná v budoucnu bude peněženka Blixt také zahrnovat funkci pro správu UTxO. Ale prozatím POUŽÍVEJTE tuto on-chain peněženku POUZE pro otevírání nebo zavírání kanálů na LN.
 
-## Speciální funkce
+![blixt](assets/en/04.webp)
 
-- S verzí 0.6.9 byl představen "persistent mode", který umožňuje uživatelům provozovat Blixt jako vždy online LN uzel, udržující služby LND aktivní a LN peněženku připravenou k přijímání/odesílání kdykoliv.
-- Jednoduché Taproot kanály - umožňují otevírání Taproot kanálů pro větší soukromí a pokročilé funkce
-- Kanály bez potvrzení s Blixt Dunder LSP
-- Speedloader ("synchronizace LN kanálů") - To znamená, že všechny kanály budou rychle synchronizovány při spuštění, pro lepší hledání cest. I když je trochu otravné vidět na začátku obrazovku synchronizace, zajistí to, že peněženka bude vědět o všech kanálech a platby budou rychlejší a spolehlivější.
-- Přeloženo do 25+ jazyků!
 
-## "Velikonoční vajíčka"
+Pokud si chcete prohlédnout a přečíst další technické podrobnosti protokolu LND v reálném čase, můžete také kliknout na tlačítko "Zobrazit protokol LND" (A). Je velmi užitečné pro ladění a další informace o tom, jak LN funguje.
 
-Ano, v aplikaci Blixt jsou některé skryté funkce, malé věci, které činí aplikaci půvabnou, aktivují zábavné/zajímavé akce a reakce.
-Tip: zkuste kliknout dvakrát na logo Blixt v zásuvném menu 🙂 Nechám na vás, abyste zbytek objevili.
 
-# Průvodce prvními kroky s Blixt
+B - Zde máte přístup ke všem Blixt nastavení, a jsou hodně! Blixt nabízí mnoho bohatých funkcí a možností, jak spravovat uzel LN jako profesionál. Všechny tyto možnosti jsou podrobně vysvětleny v části "[Blixt Features Page](https://blixtwallet.github.io/features#blixt-options) - Options Menu".
 
-> Jako nový uživatel LN, pokud začnete používat Blixt LN Node, budete nejprve potřebovat vědět, co je Lightning Network a jak funguje, alespoň na základní úrovni. [Zde jsme dali dohromady jednoduchý seznam zdrojů o Lightning Network](https://blixtwallet.github.io/faq#what-is-ln). Prosím, nejprve je přečtěte.”
 
-Provozování plnohodnotného LN uzlu na mobilním zařízení není snadný úkol a může zabrat nějaké místo (min 600MB) a paměť. Doporučujeme mít dobré mobilní zařízení, aktualizované a používající alespoň Android 11 jako OS.
+C - Zde je k dispozici nabídka "Kouzelná zásuvka" [podrobněji vysvětleno také zde](https://blixtwallet.github.io/features#blixt-drawer). Zde je "Onchain Wallet" (B), Kanály blesků (C), Kontakty, ikona stavu kanálů (A), Keysend (D).
 
-Jakmile otevřete Blixt, obrazovka „Vítejte“ vám nabídne několik možností:
 
-![Demo Blixt 01](assets/blixt_t01.webp)
-V pravém horním rohu uvidíte 3 tečky, které aktivují menu s:
-- "enable Tor" - uživatel může začít používat síť Tor, zejména pokud chce obnovit starý LND uzel, který běžel pouze s Tor peers.
+![blixt](assets/en/05.webp)
 
-- "Set Bitcoin node" - pokud uživatel chce připojit k vlastnímu uzlu přímo, aby synchronizoval bloky prostřednictvím Neutrino, může tak učinit přímo z úvodní obrazovky. Tato možnost je také dobrá v případě, že vaše internetové připojení nebo Tor není dostatečně stabilní pro připojení k výchozímu bitcoinovému uzlu (node.blixtwallet.com).
 
-## První krok - Vytvoření nové peněženky
+D - je nabídka nápovědy s odkazy na stránku s nejčastějšími dotazy / návody, kontakt na vývojáře, stránku Github a skupinu podpory Telegramu.
 
-Pokud se rozhodnete "vytvořit novou peněženku", budete přesměrováni přímo na hlavní obrazovku Blixt Wallet.
 
-To je váš "kokpit" a také je to "Hlavní LN peněženka", takže buďte pozorní, zobrazí se vám zde pouze zůstatek vaší LN peněženky. Onchain peněženka je zobrazena samostatně (viz C).
+E - Uveďte svůj první BTC Address, kam můžete vložit svůj první testovací Sats. TENTO ÚDAJ JE NEPOVINNÝ! Pokud vložíte přímo do tohoto Address, je otevření kanálu LN směrem k uzlu Blixt. To znamená, že uvidíte svůj vložený Sats, který jde do další onchain transakce (tx), pro otevření tohoto LN kanálu. To můžete zkontrolovat do onchainu Blixt Wallet (viz bod C), kliknutím na menu TX vpravo nahoře.
 
-![Demo Blixt 02](assets/blixt_t02.webp)
 
-A - Ikona indikátoru synchronizace Blixt bloků. To je nejdůležitější věc pro LN uzel: být synchronizován se sítí. Pokud je tato ikona stále aktivní, znamená to, že váš uzel NENÍ PŘIPRAVEN! Takže mějte trpělivost, zejména při první počáteční synchronizaci. Může to trvat až 6-8 minut, v závislosti na vašem zařízení a internetovém připojení.
+![blixt](assets/en/06.webp)
 
-Můžete na ni kliknout a vidět stav synchronizace:
 
-![Demo Blixt 03](assets/blixt_t03.webp)
+Jak vidíte v protokolu transakcí Onchain, kroky jsou velmi podrobné a je v nich uvedeno, kam Sats směřují (vklad, otevření, uzavření kanálu).
 
-Také můžete kliknout na tlačítko "Show LND Log" (A), pokud chcete vidět a číst více technických detailů z LND logu v reálném čase. Je to velmi užitečné pro ladění a učení se více o tom, jak LN funguje.
 
-B - Zde máte přístup ke všem nastavením Blixt, a je jich hodně! Blixt nabízí mnoho bohatých funkcí a možností, jak spravovat váš LN uzel jako profesionál. Všechny tyto možnosti jsou podrobně vysvětleny na [“Stránce s funkcemi Blixt - Menu možností”](https://blixtwallet.github.io/features#blixt-options).
+DOPORUČENÍ:
 
-C - Zde máte menu "Magic Drawer", také podrobně vysvětlené zde. Zde je "Onchain Wallet" (B), Lightning Channels (C), Kontakty, ikona stavu kanálů (A), Keysend (D).
 
-![Demo Blixt 04](assets/blixt_t04.webp)
+Po otestování několika situací jsme dospěli k závěru, že je mnohem účinnější otevřít kanály mezi 1 a 5 M Sats. Menší kanály mají tendenci být rychle vyčerpány a platit vyšší % poplatků ve srovnání s většími kanály.
 
-D - Je to pomocné menu s odkazy na stránku FAQ / Průvodce, kontaktování vývojáře, Github stránku a skupinu podpory na Telegramu.
 
-E - Ukazuje vaši první BTC adresu, kam můžete vložit vaše první testovací satoshi. TO JE VOLITELNÉ! Pokud vložíte přímo na tuto adresu, otevře se LN kanál směrem k Blixt uzlu. To znamená, že uvidíte vaše vložené satoshi, jak jdou do další onchain transakce (tx), pro otevření tohoto LN kanálu. Můžete to zkontrolovat v onchain peněžence Blixt (viz bod C), kliknutím na horní pravé menu TX.
+F - Uveďte hlavní zůstatek blesku Wallet. NEJEDNÁ se o celkový zůstatek na účtu Blixt Wallet, ale pouze o zůstatek Sats, který máte v kanálech Lightning a který můžete odeslat. Jak bylo uvedeno dříve, Onchain Wallet je samostatný. Mějte na paměti tento aspekt. Onchain Wallet je oddělený z důležitého důvodu: používá se hlavně pro otevírání/uzavírání kanálů LN.
 
-![Demo Blixt 05](assets/blixt_t05.webp)
 
-Jak můžete vidět v Logu onchain transakcí, kroky jsou velmi podrobně indikovány, kam satoshi jdou (vklad, otevření, uzavření kanálu)
+Dobře, takže Darthova máma teď uložila nějaký Sats do toho řetězce Address zobrazeného na hlavní obrazovce. Doporučuje se, abyste při tomto úkonu nechali aplikaci Blixt chvíli online a aktivní, dokud těžaři nepřijmou BTC tx do prvního bloku.
 
-> DOPORUČENÍ: Po testování několika situací jsme dospěli k závěru, že je mnohem efektivnější otevírat kanály mezi 1 a 5 M satoshi. Menší kanály mají tendenci rychle se vyčerpat a platit vyšší % poplatků ve srovnání s většími kanály.
-F - Uveďte zůstatek vaší hlavní peněženky Lightning. To NENÍ celkový zůstatek vaší peněženky Blixt, reprezentuje pouze sats, které máte v Lightning kanálech, dostupné k odeslání. Jak bylo uvedeno dříve, peněženka Onchain je oddělená. Mějte na paměti tento aspekt. Peněženka Onchain je oddělena z důležitého důvodu: používá se hlavně pro otevírání/zavírání LN kanálů.
-Takže teď jste vložili nějaké sats na tu onchain adresu zobrazenou na hlavní obrazovce. Doporučuje se, když to uděláte, nechat vaši aplikaci Blixt online a aktivní po nějakou dobu, dokud BTC transakce není přijata těžaři do prvního bloku.
 
-Poté může trvat až 20-30 minut, než je plně potvrzena a kanál je otevřen a uvidíte ho v Magic Drawer - Lightning Channels jako aktivní. Také malá barevná tečka na vrchu zásuvky, pokud je zelená, bude indikovat, že váš LN kanál je online a připraven k použití pro odesílání sats přes LN.
+Poté může trvat až 20-30 minut, než se plně potvrdí a kanál bude otevřen a zobrazí se v Magické zásuvce - Kanály blesků jako aktivní. Také malá barevná tečka v horní části zásuvky, pokud je Green, bude indikovat, že váš kanál LN je online a je připraven k použití pro odeslání Sats přes LN.
 
-Adresa a uvítací zpráva zobrazená zmizí. Není již nutné nyní otevírat automatický kanál. Tuto možnost můžete také deaktivovat v menu Nastavení.
 
-Je čas pokračovat, testovat další funkce a možnosti otevření LN kanálů.
+Zobrazené okno Address a uvítací zpráva zmizí. Nyní již není nutné otevírat automatický kanál. Tuto možnost můžete také deaktivovat v nabídce Nastavení.
 
-Nyní, otevřeme další kanál s dalším uzlovým peerem. Komunita Blixt dala dohromady [seznam dobrých uzlů pro začátek používání s Blixt.](https://github.com/hsjoberg/blixt-wallet/issues/1033)
 
-### Postup otevření normálního neohlášeného (soukromého) LN kanálu ve vašem mobilním uzlu Blixt
+Je čas přejít na testování dalších funkcí a možností otevření kanálů LN.
 
-Je to velmi jednoduché, stačí jen několik kroků a trochu trpělivosti:
-- Přejděte na [seznam komunity Blixt](https://github.com/hsjoberg/blixt-wallet/issues/1033) dobrých peerů
-- Vyberte uzl a klikněte na jeho název, otevře se jeho stránka Amboss
-- Klikněte pro zobrazení QR kódu pro adresu URI uzlu
 
-![Demo Blixt 06](assets/blixt_t06.webp)
+Nyní otevřeme další kanál s jiným uzlem peer. Komunita Blixt sestavila [seznam dobrých uzlů, které lze začít používat s Blixtem](https://github.com/hsjoberg/blixt-Wallet/issues/1033).
 
-Nyní otevřete Blixt a přejděte na horní zásuvku - Lightning Channels a klikněte na tlačítko “+”
 
-![Demo Blixt 07](assets/blixt_t07.webp)
+**Postup pro otevření kanálu LN v aplikaci Blixt**
 
-Nyní klikněte na (A) kameru pro skenování QR kódu ze stránky Amboss a detaily uzlu budou vyplněny. Přidejte množství sats pro kanál, který chcete, a poté vyberte sazbu poplatku za tx. Můžete nechat auto (B) pro rychlejší potvrzení nebo ji upravit ručně posunutím tlačítka. Můžete také dlouze stisknout číslo a upravit ho, jak chcete.
 
-Nedávejte méně než 1 sat/vbyte! Obvykle je lepší [konzultovat poplatky mempoolu](https://mempool.space/) před otevřením kanálu a vybrat vhodný poplatek.
+Je to velmi jednoduché, stačí jen několik kroků a trocha trpělivosti:
 
-Hotovo, nyní stačí jen kliknout na tlačítko “otevřít kanál” a počkat na 3 potvrzení, což obvykle trvá 30 minut (1 blok přibližně každých 10min).
 
-Jakmile je potvrzeno, uvidíte kanál aktivní ve vaší sekci “Lightning Channels”.
 
-## Druhý krok - Získání více příchozí likvidity
+- Dostal jsem se do seznamu [Blixt Community](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
+- Vyberte uzel a klikněte na jeho název odkaz, otevře se jeho stránka Amboss
+- Kliknutím zobrazíte QR kód pro uzel URI Address
 
-Takže teď máme LN kanál pouze s ODCHOZÍ likviditou. To znamená, že můžeme pouze ODESÍLAT, stále nemůžeme PŘIJÍMAT sats přes LN. Proč? Četli jste průvodce uvedené na začátku? Ne? Vraťte se a přečtěte je. Je velmi důležité pochopit, jak LN kanály fungují.
 
-![Demo Blixt 08](assets/blixt_t08.webp)
-Jak můžete vidět na tomto příkladu, kanál otevřený s prvním vkladem nemá příliš mnoho vstupní likvidity ("Může přijímat"), ale má hodně výstupní likvidity ("Může posílat").
-Jaké tedy máte možnosti, pokud chcete přes LN přijímat více satoshi?
-- Utratit nějaké satoshi z existujícího kanálu. Ano, LN je platební síť Bitcoinu, používaná hlavně k rychlejšímu, levnějšímu, soukromému a snadnému utrácení vašich satoshi. LN NENÍ způsob, jak držet satoshi, pro to máte onchain peněženku.
-- Vyměnit nějaké satoshi zpět do vaší onchain peněženky pomocí služby submarine swap. Tímto způsobem neutrácíte své satoshi, ale vracíte je zpět do vaší vlastní onchain peněženky. Zde můžete vidět podrobně některé metody na [stránce Blixt Guides](https://blixtwallet.github.io/guides).
-- Otevřít vstupní kanál od jakéhokoli poskytovatele LSP. Zde je video demo o [tom, jak používat LNBig LSP pro otevření vstupního kanálu](https://blixtwallet.github.io/assets/images/blixt-lnbig.mp4). To znamená, že zaplatíte malý poplatek za prázdný kanál (na vaší straně) a budete moci do tohoto kanálu přijímat více satoshi. Pokud jste obchodník, který přijímá více než utrácí, je to dobrá možnost. Také pokud kupujete satoshi přes LN, používáte Robosats nebo jakoukoli jinou LN burzu.
-- Otevřít Dunder kanál, s Blixt nodem nebo jakýmkoli jiným poskytovatelem Dunder LSP. Dunder kanál je jednoduchý způsob, jak získat nějakou vstupní likviditu, ale zároveň do tohoto kanálu vložíte nějaké satoshi. Je to také dobré, protože kanál otevře s [UTXO](https://en.bitcoin.it/wiki/UTXO), které není z vaší Blixt peněženky. To přidává určitou míru soukromí.
-Je to také dobré, protože pokud nemáte satoshi v onchain peněžence, abyste mohli otevřít normální LN kanál, ale máte je v jiné LN peněžence, můžete jednoduše zaplatit z této jiné peněženky přes LN otevření a vklad (na vaší straně) tohoto Dunder kanálu. [Zde jsou podrobnosti o tom, jak Dunder funguje a jak spustit vlastní server.](https://github.com/hsjoberg/dunder-lsp)
+![blixt](assets/en/07.webp)
 
-![Demo Blixt 09](assets/blixt_t09.webp)
 
-Zde jsou kroky, jak aktivovat otevření Dunder kanálu:
-- Přejděte do Nastavení, v sekci "Experiments" aktivujte políčko pro "Enable Dunder LSP".
-- Jakmile to uděláte, vraťte se zpět do sekce "Lightning Network" a uvidíte, že se objevila možnost "Set Dunder LSP Server". Tam je standardně nastaveno "https://dunder.blixtwallet.com", ale můžete to změnit na jakoukoli jinou adresu poskytovatele Dunder LSP. [Zde je seznam komunity Blixt](https://github.com/hsjoberg/blixt-wallet/issues/1033) s uzly, které mohou poskytovat kanály Dudner LSP pro vaši Blixt.
-- Nyní můžete jít na hlavní obrazovku a kliknout na tlačítko "Přijmout". Poté postupujte podle tohoto postupu vysvětleného [v tomto průvodci](https://blixtwallet.github.io/guides#guide-lsp).
+Otevřete aplikaci Blixt, přejděte do horní zásuvky - Lightning Channels a klikněte na tlačítko "+"
 
-Takže po potvrzení Dunder kanálu (což zabere několik minut) skončíte s tím, že máte 2 LN kanály: jeden otevřený původně s autopilotem (kanál A) a jeden s větší vstupní likviditou, otevřený s Dunder (kanál B).
-![Demo Blixt 10](assets/blixt_t10.webp)
-Dobře, nyní jste připraveni posílat a přijímat dostatečné množství satoshi přes LN!
 
-## Třetí krok - Procedura obnovení uzlu
+![blixt](assets/en/08.webp)
 
-Nyní se podíváme na to, jak obnovit peněženku Blixt nebo jakýkoliv jiný havarovaný uzel LND. Je to trochu techničtější, ale prosím, věnujte pozornost. Není to tak těžké.
 
-> PŘIPOMÍNKA: V minulosti jsem napsal speciální příručku s několika možnostmi [jak obnovit havarovaný uzel LND](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), kde jsem také zmínil metodu použití Blixtu jako rychlého procesu obnovy, použitím seedu + souboru channel.backup z vašeho mrtvého uzlu LND. Také jsem napsal příručku, jak obnovit váš uzel Blixt nebo přemigrovat váš Blixt na jiné zařízení, [zde](https://blixtwallet.github.io/faq#blixt-restore).
+Nyní klikněte na fotoaparát (A) a naskenujte QR kód ze stránky Amboss, čímž se vyplní údaje o uzlu. Přidejte částku Sats pro požadovaný kanál a poté vyberte sazbu poplatku za tx. Pro rychlejší potvrzení ji můžete ponechat automatickou (B) nebo ji nastavit ručně posunutím tlačítka. Číslo můžete také dlouze stisknout a upravit podle svých představ.
 
-![Demo Blixt 11](assets/blixt_t11.webp)
 
-Ale pojďme tento proces vysvětlit jednoduchými kroky. Jak můžete vidět na obrázku výše, jsou zde 2 věci, které musíte udělat pro obnovení vašeho předchozího uzlu Blixt/LND:
-- horní pole, kam musíte vložit všech 24 slov z vašeho seedu (starý / mrtvý uzel)
-- dole jsou dvě možnosti tlačítek pro vložení / nahrání souboru channel.backup, který jste dříve uložili z vašeho starého uzlu Blixt/LND. Může to být z lokálního souboru (dříve jste ho nahráli do vašeho zařízení) nebo může být z vzdálené lokace Google Drive / iCloud. Blixt má možnost uložit zálohu vašich kanálů přímo na Google / iCloud Drive. Více detailů najdete na [stránce s funkcemi Blixt](https://blixtwallet.github.io/features#blixt-options).
+Nevkládejte méně než 1 sat/vbyte ! Obvykle je lepší se před otevřením kanálu podívat do [Mempool fees](https://Mempool.space/) a vybrat vhodný poplatek.
 
-Není třeba zmiňovat, že pokud jste předtím neměli žádné otevřené LN kanály, není třeba nahrávat žádný soubor channel.backup. Jednoduše vložte 24 slovní seed a stiskněte tlačítko obnovit.
 
-Nezapomeňte aktivovat Tor z horního menu se třemi tečkami, jak jsme vysvětlili v kapitole "První krok" tohoto průvodce. To je případ, kdy jste měli pouze Tor peers a nemohli být kontaktováni přes clearnet (doména/IP). V opačném případě to není nutné.
+Hotovo, nyní stačí kliknout na tlačítko "otevřít kanál" a počkat na 3 potvrzení, což obvykle trvá 30 min (1 blok přibližně každých 10 min).
 
-Další užitečnou funkcí je nastavit konkrétní Bitcoin uzel z tohoto horního menu. Ve výchozím nastavení synchronizuje bloky z node.blixtwallet.com (režim neutrino), ale můžete nastavit jakýkoliv jiný Bitcoin uzel, který poskytuje synchronizaci neutrino.
 
-Jakmile vyplníte tyto možnosti a stisknete tlačítko obnovit, Blixt začne nejprve synchronizovat bloky prostřednictvím Neutrino, jak jsme vysvětlili v kapitole "První krok" tohoto průvodce. Buďte tedy trpěliví a sledujte proces obnovy na hlavní obrazovce kliknutím na ikonu synchronizace.
+Po potvrzení se kanál zobrazí aktivní v sekci "Lightning Channels".
 
-![Demo Blixt 12](assets/blixt_t12.webp)
 
-Jak můžete vidět na tomto příkladu, ukazuje, že bitcoinové bloky jsou synchronizovány na 100% (A) a proces obnovy probíhá (B). To znamená, že LN kanály, které jste dříve měli, budou uzavřeny a prostředky obnoveny do vaší onchain peněženky Blixt.
+---
 
-Tento proces trvá čas! Buďte prosím trpěliví a snažte se udržet váš Blixt aktivní a online. Počáteční synchronizace může trvat až 6-8 minut a uzavírání kanálů až 10-15 minut. Takže je lepší mít zařízení dobře nabité.
-Jakmile tento proces začne, můžete zkontrolovat ve "Magic Drawer - Lightning Channels" stav každého z vašich předchozích kanálů, které ukazují, že jsou ve stavu "pending to close". Jakmile se každý kanál uzavře, můžete vidět uzavírací transakci v onchain peněžence (viz "Magic Drawer - Onchain") a otevřít log menu transakce.
-![Demo Blixt 13](assets/blixt_t13.webp)
+## Blixt - Druhý kontakt
 
-Také bude dobré zkontrolovat a přidat, pokud tam nejsou, vaše dřívější protějšky, které jste měli ve vašem starém LN uzlu. Takže jděte do menu Nastavení, dolů na "Lightning Network" a vstupte do možnosti "Show Lightning Peers".
 
-![Demo Blixt 14](assets/blixt_t14.webp)
+Dobře, takže nyní máme kanál LN pouze s likviditou OUTBOUND. To znamená, že můžeme pouze ODESÍLAT, ale stále nemůžeme PŘIJÍMAT Sats přes LN.
 
-V této sekci uvidíte protějšky, se kterými jste v daném okamžiku spojeni, a můžete přidat další, lépe ty, se kterými jste měli dříve kanály. Stačí jít na stránku Amboss, vyhledat aliasy vašich protějšků nebo nodeID a naskenovat jejich node URI.
 
-![Demo Blixt 15](assets/blixt_t15.webp)
+![blixt](assets/en/09.webp)
 
-Jak můžete vidět na obrázku výše, jsou zde 3 aspekty:
 
-A - představuje URI adresu uzlu v clearnetu (doména/IP)
+Proč? Četli jste průvodce uvedené na začátku? Ne? Vraťte se k nim a přečtěte si je. Je velmi důležité pochopit, jak kanály LN fungují.
 
-B - představuje URI adresu uzlu v Tor onion (.onion)
 
-C - je QR kód pro skenování vaší Blixt kamerou nebo tlačítko pro kopírování.
+![blixt](assets/en/10.webp)
 
-Tuto URI adresu uzlu musíte přidat do seznamu vašich protějšků. Takže si uvědomte, že nestačí jen alias uzlu nebo nodeID.
 
-Nyní můžete jít do "Magic Drawer" (menu vlevo nahoře) - Lightning Channels, a můžete vidět, při které výšce bloku maturita budou prostředky vráceny na vaši onchain adresu.
+Jak vidíte v tomto příkladu, kanál otevřený prvním vkladem nemá příliš velkou likviditu INBOUND ("Can receive"), ale má velkou likviditu OUTBOUND ("Can send").
 
-![Demo Blixt 16](assets/blixt_t16.webp)
 
-Tento blokový číslo 764272 je, kdy budou prostředky použitelné na vaší bitcoinové onchain adrese. A může to trvat až 144 bloků od prvního potvrzovacího bloku, než budou uvolněny. Takže to zkontrolujte na [the mempool](https://mempool.space/).
+Jaké máte možnosti, pokud chcete získat více Sats než LN?
 
-A to je vše. Jen trpělivě čekejte, dokud nebudou všechny kanály uzavřeny a prostředky zpět ve vaší onchain peněžence.
 
-## Čtvrtý krok - Přizpůsobení
 
-Tato kapitola je o přizpůsobení a lepším poznání vašeho Blixt uzlu. Nebudu popisovat všechny dostupné funkce, jsou jich příliš mnoho a již byly vysvětleny na [stránce s funkcemi Blixt](https://blixtwallet.github.io/features).
+- Strávit nějaké Sats ze stávajícího kanálu. Ano, LN je platební síť Bitcoin, která slouží především k rychlejšímu, levnějšímu, soukromému a snadnému utrácení Sats. LN NENÍ způsob hodlingu, na to máte onchain Wallet.
 
-Ale poukážu na některé z nich, které jsou nezbytné pro další používání vašeho Blixtu a pro zajištění skvělého zážitku.
 
-### A - Jméno (NameDesc)
 
-![Demo Blixt 17](assets/blixt_t17.webp)
+- Vyměňte některé Sats zpět do řetězce Wallet pomocí služby výměny ponorek. Tímto způsobem neutrácíte své Sats, ale vracíte je zpět do svého vlastního onchainu Wallet. Některé metody si můžete podrobně prohlédnout zde, na stránce [Blixt Guides Page](https://blixtwallet.github.io/guides).
 
-[The NameDesc](https://github.com/lightning/blips/blob/master/blip-0011.md) je standard pro předávání "jména příjemce" v BOLT11 fakturách.
 
-To může být jakékoli jméno a lze ho kdykoli změnit.
 
-Tato možnost je velmi užitečná v různých případech, kdy chcete poslat jméno společně s popisem faktury, aby příjemce měl nápovědu, od koho ty sats obdržel. Toto je zcela volitelné a také na obrazovce platby musí uživatel zaškrtnout políčko, které indikuje odeslání aliasu jména.
+- Otevřete kanál INBOUND od libovolného poskytovatele LSP. Zde je video ukázka, jak používat LNBig LSP pro otevření příchozího kanálu. To znamená, že zaplatíte malý poplatek za EMPTY kanál (na vaší straně) a budete moci přijímat další Sats do tohoto kanálu. Pokud jste obchodník, který přijímá více než utrácí, je to dobrá možnost. Také pokud kupujete Sats přes LN, používáte Robosaty nebo jakýkoli jiný LN Exchange.
 
-Zde je příklad, jak by to vypadalo, když použijete [chat.blixtwallet.com](https://chat.blixtwallet.com/)
 
-![Demo Blixt 18](assets/blixt_t18.webp)
 
-Toto je další příklad odesílání do jiné peněženkové aplikace, která podporuje NameDesc:
+- Otevřete kanál Dunder s uzlem Blixt nebo jiným poskytovatelem LSP Dunder. Kanál Dunder je jednoduchý způsob, jak získat nějakou likviditu INBOUND, ale zároveň do tohoto kanálu vložíte nějaký Sats. Je také dobré, protože otevře kanál s [UTXO](https://en.Bitcoin.it/wiki/UTXO), který není z vašeho Blixt Wallet. To přidá trochu soukromí. Je také dobré, protože pokud nemáte Sats do onchainu Wallet, abyste otevřeli normální kanál LN, ale máte je do jiného LN Wallet, můžete prostě zaplatit z tohoto jiného Wallet prostřednictvím LN otevření a vklad (na vaší straně) tohoto dunderského kanálu. [Více informací o tom, jak Dunder funguje a jak provozovat vlastní server, najdete zde] (https://github.com/hsjoberg/dunder-lsp).
 
-![Demo Blixt 19](assets/blixt_t19.webp)
 
-### B - Zálohování LN kanálů a seed slov
+![blixt](assets/en/11.webp)
 
-Toto je velmi důležitá funkce!
-Po otevření nebo uzavření LN kanálu byste měli provést zálohu. Lze to udělat ručně uložením malého souboru na lokálním zařízení (obvykle ve složce ke stažení) nebo použitím účtu Google Drive nebo iCloud.
-![Demo Blixt 20](assets/blixt_t20.webp)
 
-Přejděte do nastavení Blixt - sekce Peněženka. Zde máte možnosti uložit všechna důležitá data pro vaši peněženku Blixt:
-- “Zobrazit mnemoniku” - zobrazí 24 slov semínka, abyste si je mohli zapsat
-- “Odstranit mnemoniku ze zařízení” - toto je volitelné a použijte to pouze, pokud opravdu chcete odstranit slova semínka ze svého zařízení. To NEsmaže vaši peněženku, pouze semínko. Ale buďte opatrní! Pokud jste si je nezapsali, není možné je obnovit.
-- “Exportovat zálohu kanálu” - tato možnost uloží malý soubor na vaše lokální zařízení, obvykle do složky “stažené soubory”, odkud si jej můžete vzít a přesunout mimo vaše zařízení pro bezpečné uchování.
-- “Ověřit zálohu kanálu” - to je dobrá možnost, pokud používáte Google Drive nebo iCloud, abyste zkontrolovali integritu vzdáleně provedené zálohy.
-- “Záloha kanálu na Google Drive” - uloží záložní soubor do vašeho osobního Google Drive. Soubor je šifrován a je uložen v samostatném úložišti než vaše obvyklé google soubory. Takže nejsou žádné obavy, že by mohl být čten kýmkoli. Každopádně bez slov semínka je tento soubor zcela k ničemu, takže nikdo nemůže vzít vaše prostředky pouze z tohoto souboru.
+Zde jsou uvedeny kroky k aktivaci otevření kanálu Dunder:
 
-Pro tuto sekci bych doporučil následující:
-- použijte správce hesel pro bezpečné uložení vašeho semínka a záložního souboru. [KeePass](https://keepass.info/) nebo Bitwarden jsou pro to velmi dobré a mohou být použity na více platformách a self-hosted nebo offline.
-- DĚLEJTE ZÁLOHU VŽDY, když otevřete nebo zavřete kanál. Ten soubor je aktualizován s informacemi o kanálech. Není potřeba to dělat po každé transakci, kterou jste na LN provedli. Záloha kanálu neukládá tyto informace, ukládá pouze stav kanálu.
 
-![Demo Blixt 21](assets/blixt_t21.webp)
+
+- Přejděte do Nastavení a v části Experimenty aktivujte políčko "Povolit Dunder LSP".
+- Jakmile tak učiníte, vraťte se do sekce "Lightning Network" a uvidíte, že se objevila možnost "Set Dunder LSP Server". Tam je ve výchozím nastavení nastaven "https://dunder.blixtwallet.com", ale můžete jej změnit pomocí libovolného jiného poskytovatele Dunder LSP Address. [Zde je seznam komunity Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033) s uzly, které mohou poskytovat kanály Dudner LSP pro váš Blixt.
+- Nyní můžete přejít na hlavní obrazovku a kliknout na tlačítko "Receive". Poté postupujte podle tohoto postupu [vysvětleného v této příručce](https://blixtwallet.github.io/guides#guide-lsp).
+
+
+OK, takže po potvrzení kanálu Dunder (bude trvat několik minut) budete mít 2 kanály LN: jeden otevřený původně s autopilotem (kanál A) a druhý s větší příchozí likviditou, otevřený s Dunderem (kanál B).
+
+
+![blixt](assets/en/12.webp)
+
+
+Dobře, nyní můžete odesílat a přijímat dostatečné množství Sats přes LN!
+
+
+ŠŤASTNÝ BLESK Bitcoin!
+
+
+---
+
+## Blixt - Třetí kontakt
+
+
+Pamatujte si, že v první kapitole "První kontakt" byly na uvítací obrazovce 2 možnosti:
+
+
+- [Možnost A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Vytvoření nového Wallet
+- Možnost B - Obnovení Wallet
+
+
+Nyní si tedy řekneme, jak obnovit havarovaný uzel Blixt Wallet nebo jakýkoli jiný uzel LND. Je to trochu techničtější, ale věnujte tomu prosím pozornost. Není to Hard.
+
+
+### MOŽNOST B - Obnovení Wallet
+
+
+V minulosti jsem napsal speciální návod [jak obnovit havarovaný uzel Umbrel](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), kde jsem se zmínil také o metodě použití Blixtu jako rychlého procesu obnovy pomocí souboru seed + channel.backup z Umbrelu.
+
+
+Napsal jsem také návod, jak obnovit uzel Blixt nebo migrovat uzel Blixt na jiné zařízení, [zde](https://blixtwallet.github.io/faq#blixt-restore).
+
+
+![blixt](assets/en/13.webp)
+
+
+Vysvětleme si však tento proces v jednoduchých krocích. Jak vidíte na obrázku výše, pro obnovení předchozího uzlu Blixt/LND byste měli udělat dvě věci:
+
+
+
+- v horním poli je třeba vyplnit všech 24 slov z vašeho seed (starý / mrtvý uzel)
+- dole jsou dvě možnosti tlačítek pro vložení / nahrání souboru channel.backup, dříve uloženého ze starého uzlu Blixt/LND. Může být z místního souboru (nahrajete jej do zařízení dříve) nebo může být ze vzdáleného umístění na disku Google / iCloud. Blixt má tuto možnost uložit zálohu kanálů přímo na disk Google / iCloud. Další podrobnosti naleznete na stránce [Blixt Features Page](https://blixtwallet.github.io/features#blixt-options).
+
+
+Nicméně pokud jste dříve neměli otevřené žádné kanály LN, není třeba nahrávat žádný soubor channels.backup. Stačí vložit 24 slov seed a stisknout tlačítko obnovit.
+
+
+Nezapomeňte aktivovat Tor v horní nabídce se třemi tečkami, jak jsme vysvětlili v části Možnost A. To je případ, kdy jste měli POUZE Tor peery a nemohli jste být kontaktováni přes clearnet (doména/IP). V opačném případě není nutné.
+
+
+Další užitečnou funkcí je nastavení konkrétního uzlu Bitcoin z této horní nabídky. Ve výchozím nastavení synchronizuje bloky z node.blixtwallet.com (režim neutrino), ale můžete nastavit jakýkoli jiný uzel Bitcoin, který poskytuje synchronizaci neutrino.
+
+
+Jakmile tedy vyplníte tyto možnosti a stisknete tlačítko obnovit, Blixt začne nejprve synchronizovat bloky prostřednictvím Neutrina, jak jsme vysvětlili v kapitole První kontakt. Buďte tedy trpěliví a sledujte proces obnovy na hlavní obrazovce kliknutím na ikonu synchronizace.
+
+
+![blixt](assets/en/14.webp)
+
+
+Jak vidíte na tomto příkladu, bloky Bitcoin jsou 100% synchronizovány (A) a proces obnovy probíhá (B). To znamená, že kanály LN, které jste měli dříve, budou uzavřeny a prostředky obnoveny do vašeho Blixt onchainu Wallet.
+
+
+Tento proces vyžaduje čas! Buďte prosím trpěliví a snažte se udržovat svůj Blixt aktivní a online. Počáteční synchronizace může trvat až 6-8 minut a uzavření kanálů může trvat až 10-15 minut. Proto raději mějte zařízení dobře nabité.
+
+
+Po spuštění tohoto procesu můžete zkontrolovat stav všech svých předchozích kanálů v zásuvce Magic Drawer - Lightning Channels,kde se zobrazují kanály ve stavu "čekající na uzavření". Jakmile je každý kanál uzavřen, mohli byste v onchainu Wallet (viz Magická zásuvka - Onchain) zobrazit uzavírací tx a otevřít protokol nabídky tx.
+
+
+![blixt](assets/en/15.webp)
+
+
+Také bude dobré zkontrolovat a přidat, pokud tam nejsou, vaše dřívější vrstevníky, které jste měli ve starém uzlu LN. Přejděte tedy do nabídky Nastavení, dolů na "Lightning Network" a zadejte možnost "Zobrazit vrstevníky Lightning".
+
+
+![blixt](assets/en/16.webp)
+
+
+Uvnitř sekce uvidíte kolegy, které máte v danou chvíli připojené, a můžete přidat další, lépe přidat ty, které jste měli kanály předtím. Stačí přejít na stránku [Amboss page](https://amboss.space/), vyhledat aliasy uzlů vašich peerů nebo nodeID a naskenovat jejich URI uzlu.
+
+
+![blixt](assets/en/17.webp)
+
+
+Jak můžete vidět na obrázku výše, jsou 3 aspekty:
+
+
+A - představuje URI uzlu clearnetu Address (doména/IP)
+
+
+B - představuje uzel Tor onion Address URI (.onion)
+
+
+C - je QR kód, který naskenujete pomocí fotoaparátu Blixt nebo tlačítka kopírování.
+
+
+Tento uzel Address URI musíte přidat do seznamu partnerů. Proto si uvědomte, že nestačí jen název aliasu uzlu nebo nodeID.
+
+
+Nyní můžete přejít do zásuvky Magic Drawer (menu vlevo nahoře) - Lightning Channels a uvidíte, při jaké výšce bloku splatnosti budou prostředky vráceny do vašeho onchainu Address.
+
+
+![blixt](assets/en/18.webp)
+
+
+Tento blok číslo 764272 je okamžik, kdy budou prostředky použitelné ve vašem řetězci Bitcoin onchain Address. A může to trvat až 144 bloků od 1. potvrzovacího bloku, než budou uvolněny. [Takže si to zkontrolujte v Mempool] (https://Mempool.space/).
+
+
+A to je vše. Stačí trpělivě počkat, až se uzavřou všechny kanály a prostředky se vrátí zpět do řetězce Wallet.
+
+
+👉 **Tajná metoda obnovy :**
+
+
+Existuje ještě jedna metoda, jak obnovit uzel Blixt LND, aniž byste museli zavírat kanály. Je však skryta běžným uživatelům-noobům, protože tato metoda je určena POUZE pro ty, kteří vědí, co dělají.
+
+
+V případě, že potřebujete migrovat stávající (funkční) uzel Blixt na jiné nové zařízení, aniž byste museli uzavřít stávající kanály LN, musíte provést tyto kroky:
+
+
+
+- Předpokládáme, že jste již uložili Blixt Wallet seed (24 slov aezeed)
+- Ve starém zařízení přejděte do části "Nastavení" - ladění - "Kompaktní databáze LND". Tento krok je nepovinný, ale doporučuje se, pokud chcete menší velikost souboru channel.db. Obvykle je poměrně velký, v závislosti na aktivitě vašeho uzlu. Tím se restartuje program Blixt a zkomprimuje se velikost souboru db.
+- Po restartu přejděte do "Nastavení" a změňte svůj běžný alias na "Hampus". Tím aktivujete skryté možnosti, které jsou určeny pouze pro pokročilé uživatele.
+- Přejděte dolů do sekce "Ladění" a uvidíte novou možnost "Exportovat soubor channel.db". POZOR! Jakmile provedete tento export, stávající uzel Blixt LN bude v tomto starém zařízení deaktivován a bude exportována celá databáze uzlů (channel.db) připravená k importu do nového zařízení.
+- Tento soubor db bude uložen do určené složky ve starém zařízení (Dokumenty nebo Stažené soubory) a odtud jej budete muset v nezměněné podobě přesunout do nového zařízení. K přenosu souboru přímo mezi zařízeními můžete použít například aplikaci [LocalSend FOSS](https://github.com/localsend/localsend).
+- V tuto chvíli MUSÍ váš starý Blixt zůstat vypnutý. NEOTEVÍREJTE JEJ ZNOVU!
+- Po přenesení souboru channel.db do nového zařízení spusťte novou instalaci aplikace Blixt a na první obrazovce vyberte možnost "Obnovit Wallet".
+- Na tlačítku, kde je napsáno "Vybrat soubor SCB", dlouze stiskněte (NE jednoduše klikněte!) a poté se zobrazí možnost vybrat soubor channel.db, který uložíte lokálně do nového zařízení. Pokud toto tlačítko pouze jednoduše stisknete, použije se ve výchozím nastavení soubor SCB (s uzavíracími kanály), nefunguje to pro plné zálohy živých kanálů.
+- Vložte 24 slov seed a klikněte na tlačítko "Obnovit"
+- Uvidíte, že se služba Blixt začne synchronizovat se službou Neutrino. Můžete také sledovat protokoly synchronizace.
+- MĚJTE NA PAMĚTI! V této fázi se snažte mít neustále otevřený Blixt! Nenechávejte jej přejít do režimu spánku ani nezavírejte obrazovku aplikace. To by mohlo narušit počáteční synchronizaci a museli byste ji provést znovu. Trpělivě vyčkejte, netrvá to déle než několik minut.
+- Po dokončení synchronizace počátečních bloků rychle prohledá vaše předchozí adresy Wallet a vaše kanály budou opět online, živé a zdravé.
+- Bohužel předchozí historii plateb a kontaktů (zatím) není možné obnovit. Ale to stejně není tak důležité.
+
+
+A hotovo! Nyní máte plně obnovený uzel Blixt LN. Mohlo by to fungovat i s jinými zálohami LND (Umbrel, Raspiblitz atd.), pokud jste předtím správně uložili soubor channel.db. Blixt tedy může doslova zachránit jakýkoli mrtvý uzel LND.
+
+
+---
+
+## Blixt - Čtvrtý kontakt
+
+
+Tato kapitola se zabývá přizpůsobením a poznáním Blixt Node. Nebudu popisovat všechny dostupné funkce, je jich příliš mnoho a byly již vysvětleny v [Blixt Features Page](https://blixtwallet.github.io/features).
+
+
+Upozorním však na některé z nich, které jsou nezbytné pro to, abyste mohli Blixt používat a mít s ním skvělé zkušenosti.
+
+
+### A - Název (NameDesc)
+
+
+![blixt](assets/en/19.webp)
+
+
+[NamDesc](https://github.com/lightning/blips/blob/master/blip-0011.md) je standard pro vyjádření "názvu příjemce" ve fakturách BOLT11.
+
+
+Toto jméno může být libovolné a lze je kdykoli změnit.
+
+
+Tato možnost je opravdu užitečná v různých případech, kdy chcete spolu s popisem Invoice odeslat i jméno, aby příjemce mohl mít nápovědu, kdo tyto Sats přijal. Tato možnost je plně volitelná a také na obrazovce platby musí uživatel zaškrtnout políčko označující odeslání jména přezdívky.
+
+
+Zde je příklad, jak by se zobrazil, kdybyste použili [chat.blixtwallet.com](https://chat.blixtwallet.com/)
+
+
+![blixt](assets/en/20.webp)
+
+
+Toto je další příklad odeslání do jiné aplikace Wallet, která podporuje NameDesc:
+
+
+![blixt](assets/en/21.webp)
+
+
+### B - Lightning Box
+
+
+Počínaje novou verzí v0.6.9-420 [nedávno oznámenou](https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420) zavedl Blixt novou výkonnou funkci pro Lightning Address v Blixt.
+
+
+Tato nová funkce je volitelná, není ve výchozím nastavení zapnutá!
+
+
+V současné době je výchozí LN Box provozován serverem Blixt a nabízí @blixtwallet.com LN Address. Ale KAŽDÝ, kdo má veřejný uzel LND, může provozovat server Lightning Box a nabízet LN Address pro svou vlastní doménu, self-custody.
+
+
+V současné době server Blixt přeposílá platby zaslané na adresy LN @blixtwallet.com pouze uživatelům služby Blixt, kteří si nastavili LN Address. Uživatelé musí svůj uzel Blixt Wallet uvést do "trvalého režimu", aby mohli tyto platby přijímat na své adresy @blixtwallet.com LN.
+
+
+V poznámkách k vydání naleznete videoukázku, jak nastavit LN Address v aplikaci Blixt.
+
+
+Tento LN Address implementovaný do aplikace Blixt Wallet je jako chat přes LN, okamžitý a zábavný, také podporuje [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (přidání jména aliasu k platbě). Do seznamu kontaktů si můžete přidat všechny své běžné adresy LN, které volně používáte, a mít je po ruce pro chatování. Nyní lze Blixt považovat za plnohodnotnou chatovací aplikaci LN 😂😂.
+
+
+Další užitečnou funkcí je plná podpora LUD-18 (kterou podporuje i [Stacker.News](https://stacker.news/r/DarthCoin) a další).
+
+
+![blixt](assets/en/22.webp)
+
+
+Jak vidíte na výše uvedeném snímku obrazovky, při odesílání z účtu Stacker News se pěkně zobrazilo logo + LN Address + zpráva. Stejně funguje i odesílání z Blixt, můžete připojit svůj Blixt LN Address nebo jednoduše přidat jméno aliasu (dříve nastavené v nastavení Blixt) nebo dokonce obojí.
+
+
+Tato možnost z LUD-18 by mohla být užitečná také pro služby předplatného, kde uživatel může poslat určitý alias (NENÍ to alias vašeho uzlu nebo vaše skutečné jméno!) a na základě toho by mohl být zaregistrován nebo obdržet zpět určitou zprávu nebo cokoli jiného. Připojení jména aliasu ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md))+komentáře ([LUD-12](https://github.com/lnurl/luds/blob/luds/12.md)) k platbě LN může mít více případů použití!
+
+
+Zde je kód pro [Lightning Box](https://github.com/hsjoberg/lightning-box), pokud jej spustíte pro sebe, pro svou rodinu a přátele, na svém vlastním uzlu.
+
+
+Zde také můžete spustit [LSP Dunder server](https://github.com/hsjoberg/dunder-lsp) pro mobilní uzly Blixt a nabízet likviditu pro uživatele Blixt, pokud máte dobrý veřejný uzel LN (funguje pouze s LND).
+
+
+### C - Záložní kanály LN a slova seed
+
+
+To je velmi důležitá funkce!
+
+
+Po otevření nebo uzavření kanálu LN byste měli provést zálohu. To lze provést ručně uložením malého souboru na místní zařízení (obvykle do složky ke stažení) nebo pomocí účtu Google Drive nebo iCloud.
+
+
+![blixt](assets/en/23.webp)
+
+
+Přejděte do části Nastavení Blixt - Wallet. Zde máte k dispozici možnosti uložení všech důležitých údajů pro váš Blixt Wallet:
+
+
+
+- "Zobrazit Mnemonic" - zobrazí 24 slov seed pro jejich zapsání
+- "Remove Mnemonic from device" - tato možnost je volitelná a použijte ji pouze v případě, že chcete slova seed ze zařízení skutečně odstranit. Tímto způsobem NEBUDE vymazáno slovo Wallet, ale pouze slovo seed. Dávejte však pozor ! Neexistuje způsob, jak je obnovit, pokud jste je předtím nezapsali.
+- "Exportovat zálohu kanálu" - tato možnost uloží malý soubor do místního zařízení, obvykle do složky "Downloads", odkud jej můžete pro jistotu vzít a přesunout mimo zařízení.
+- "Ověřit zálohu kanálu" - tato možnost je vhodná, pokud používáte Google drive nebo iCloud pro kontrolu integrity zálohy provedené na dálku.
+- " Záloha kanálu Google drive" - uloží soubor zálohy na váš osobní disk Google. Soubor je zašifrován a je uložen v jiném úložišti než vaše běžné soubory Google. Nehrozí tedy žádné obavy, že by jej mohl kdokoli přečíst. Každopádně je tento soubor bez slov seed zcela nepoužitelný, takže nikdo nemůže vzít vaše prostředky pouze z tohoto souboru.
+
+
+Pro tuto část bych doporučil následující:
+
+
+
+- použijte správce hesel k bezpečnému uložení souboru seed a zálohy. KeePass nebo Bitwarden jsou k tomu velmi dobré a lze je používat na více platformách a na vlastním hostingu nebo offline.
+- ZÁLOHUJTE VŽDY, když otevřete nebo zavřete kanál. Tento soubor se aktualizuje o informace o kanálech. Není nutné ji provádět po každé transakci, kterou jste provedli v LN. Záloha kanálu tyto informace neukládá, ukládá pouze stav kanálu.
+
+
+![blixt](assets/en/24.webp)
+
+
+---
+
+## Blixt - Tipy a triky
+
+
+### PŘÍPAD 1 - PROBLÉMY SE SYNCHRONIZACÍ
+
+
+"_Můj Blixt se nesynchronizuje... Můj Blixt nezobrazuje zůstatek... Můj Blixt nemůže otevřít kanály... Zkoušel jsem ho obnovit v jiném zařízení... atd_"
+
+
+Všechny tyto problémy začínají tím, že vaše zařízení není správně synchronizováno. Pochopte prosím tento důležitý aspekt: Blixt je mobilní uzel LND, který pro synchronizaci / čtení bloků používá Neutrino.
+
+
+
+- Zde je méně technické vysvětlení z časopisu [Bitcoin](https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
+- Zde jsou další technické zdroje z [Bitcoin Optech](https://bitcoinops.org/en/topics/compact-block-filters/)
+- Zde je návod, jak můžete aktivovat Neutrino na svém domovském uzlu a servírovat filtry bloků pro svůj mobilní uzel, z [Docs Lightning Engineering](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core)
+
+
+UPOZORNĚNÍ: Používání Neutrina přes clearnet je naprosto bezpečné, vaše IP nebo xpub nejsou prozrazeny. Pomocí neutrina pouze čtete bloky ze vzdáleného uzlu. To je vše. Vše ostatní se provádí na vašem lokálním zařízení.
+
+
+Není tedy nutné jej používat s aplikací Tor. Tor přidá do procesu synchronizace obrovské zpoždění a způsobí, že váš Blixt bude velmi nestabilní. Pokud opravdu chcete používat přes Tor, ujistěte se, co děláte, a mějte dobré připojení a trpělivost. Stejný případ platí i pro používání VPN. Dávejte si pozor, jakou latenci vám tato VPN poskytuje.
+
+
+Zpoždění neutrinového serveru můžete otestovat jednoduchým pingem z počítače nebo z mobilního telefonu.
+
+
+![blixt](assets/en/25.webp)
+
+
+Toto je obvyklý ping na server neutrino europe.blixtwallet.com, který ukazuje, že připojení je velmi dobré s dobou odezvy avg 50 ms a TTL 51. Doba odezvy se může lišit, ale ne příliš. TTL musí být stabilní.
+
+
+Pokud jsou tyto hodnoty vyšší než 100-150 ms, váš synchronizační proces bude zastaralý, nebo ještě hůře, může to způsobit uzavření kanálů ze strany peerů! Neignorujte tento aspekt.
+
+
+Bez správné synchronizace se také nezobrazí správné vyvážení nebo se kanály LN nedostanou online a nebudou funkční. Nezáleží na tom, kolik giga ultra terra mbps máte rychlost stahování NEMÁ význam. Záleží na časové odezvě a TTL (time to live).
+
+
+To je jako obecný případ pro uživatele z LATAM. Nevím, co se tam dole děje, ale vy máte příšerné připojení s pingy přes 200 ms, které mohou narušit jakoukoli synchronizaci.
+
+
+Jaké je tedy řešení pro tyto zoufalé uživatele?
+
+
+
+- přestat používat Blixt s Tor. Je naprosto k ničemu
+- můžete použít VPN, ale zvolte ji s rozmyslem a neustále sledujte ping. Použijte takovou, která je blíže vaší zeměpisné poloze. Vzdálenost znamená delší dobu odezvy ms, nezapomeňte.
+- vyberte si moudře své neutrinové partnery, zde je seznam známých veřejných neutrinových serverů:
+
+
+```txt
+For US region
+btcd1.lnolymp.us | btcd2.lnolymp.us
+btcd-mainnet.lightning.computer
+swest.blixtwallet.com (Seattle)
+node.eldamar.icu
+noad.sathoarder.com
+bb1.breez.technology | bb2.breez.technology
+neutrino.shock.network
+For EU region
+europe.blixtwallet.com (Germany)
+For Asia region
+sg.lnolymp.us
+asia.blixtwallet.com
+```
+
+
+Dalším způsobem je vybrat jeden z tohoto seznamu uzlů oznamujících "kompaktní filtry" (BIP157 / neutrino) - [Bitnodes Page Neutrino filter](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Vyberte si ten, který je blíže vaší zeměpisné poloze.
+
+
+Dalším způsobem (nejlepším) je připojení k místnímu komunitnímu uzlu, který provozuje váš přítel nebo skupina, kterou znáte a která nabízí neutrinové připojení. [Zde je návod, jak to udělat] (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Jejich uzel nebude nijak ovlivněn, potřebují jen stabilní a veřejné připojení.
+
+
+V regionu LATAM je potřeba více neutrinových serverů pro lepší a rychlejší synchronizaci. Zorganizujte se proto, prosím, s místní komunitou Bitcoin a rozhodněte, kdo a kde provozuje jádro Bitcoin + neutrino pro vlastní potřebu. Stačí k tomu jen veřejná IP adresa. Pokud nemáte přístup k veřejné IP, můžete použít IP VPS a vytvořit wireguard tunel do svého domovského uzlu. Tímto způsobem přesměrujete veškerý provoz na místní IP adresu VPS, aniž byste odhalili jakékoli soukromé informace o svém domácím uzlu.
+
+
+### PŘÍPAD 2 - NIKDY NEDOKONČIT SYNCHRONIZACI
+
+
+"_Můj Blixt má dobré spojení s neutrinovým serverem, ale zasekla se synchronizace._"
+
+
+#### Časový server
+
+
+Někdy lidé používají různá stará zařízení nebo nejsou správně připojeni k časovému serveru. Neutrino synchronizuje v pořádku, dokud se nedostane k aktuálním blokům, které neodpovídají skutečnému místnímu času. V protokolech Blixt LND se objeví chyba, která říká, že "časové razítko bloku je daleko od budoucnosti" nebo něco souvisejícího s "hlavička neprošla kontrolou přípustnosti".
+
+
+Rychlá oprava: nastavte správný čas a datum pro své zařízení a restartujte aplikaci Blixt.
+
+
+#### Málo místa v zařízení
+
+
+Někdy se může stát, že při použití starého zařízení s malým prostorem dosáhne prahové hodnoty a zasekne se. Skutečně pro více používáte tento mobilní uzel LND, neutrální soubory se zvětšují a také soubor channel.db.
+
+
+Rychlá oprava: Přejděte na Blixt Options - Debug section - Vyberte "stop LND and delete neutrino files". Tím se aplikace restartuje a spustí se nová čerstvá synchronizace. Někdy tato rychlá oprava může opravit i poškozená data. Mějte na paměti, že úplná resynchronizace bude nějakou dobu trvat, 1 až 3 minuty. NEMÁ to za následek odstranění stávajících fondů nebo kanálů, ale ano, po obnovení synchronizace to může vyvolat opětovné skenování adres Bitcoin a to může trvat déle.
+
+
+V dalším kroku zkontrolujte, kolik dat je ještě obsazeno. To můžete zjistit v informacích o aplikaci Android - data. Pokud je stále větší než 400-500 MB, můžete soubory LND zkomprimovat. Přejděte tedy do sekce Blixt Options - Debug - vyberte možnost "Compact DB LND". Pokud se tak neděje automaticky, restartujte aplikaci Blixt. Kompaktování probíhá při spuštění a je pouze jednorázové. Nyní uvidíte, že data Blixt jsou více méně obsazena.
+
+
+#### Trvalý režim
+
+
+Někdy lidé neotevřou Blixt po dlouhou dobu, takže je příliš stará synchronizace. Očekávají však, že po otevření bude synchronizován okamžitě.
+
+
+Mějte prosím trpělivost a podívejte se na horní otočné kolo. Volitelně můžete přejít do nabídky Možnosti - Zobrazit informace o uzlu a podívat se, zda je synchronizace s řetězcem a synchronizace s grafem označena jako "true". Bez této zmínky "true" nemůžete správně používat Blixt, nevidíte správně zůstatek, nevidíte online kanály LN, nemůžete provádět platby.
+
+
+Rychlá oprava: K dispozici je výkonná možnost "udržet při životě" uzel Blixt. Přejděte na Možnosti - Experimenty - Vyberte "Aktivovat trvalý režim". Tím restartujete svůj uzel Blixt a přepnete službu LND do trvalého režimu, tj. bude vždy aktivní a udrží online vaši synchronizaci, i když přepnete na jinou aplikaci nebo jednoduše zavřete uzel Blixt (nikoli násilně zavřít nebo zabít úlohu). Můžete to tak nechat celý den, pokud jste ve stabilním připojení a potřebujete Blixt použít několikrát. Nebude to příliš spotřebovávat baterii.
+
+
+### PŘÍPAD 3 - CHCI PŘEJÍT NA JINÉ ZAŘÍZENÍ
+
+
+OK o tomto scénáři jsem napsal rozsáhlý návod na [FAQ stránku](https://blixtwallet.github.io/faq#blixt-restore): s 2 možnostmi, rychlé (kooperativní uzavření kanálů před migrací) a pomalé (vynutit uzavření kanálů, protože staré zařízení je mrtvé).
+
+
+Chci zde však zopakovat některé důležité aspekty a přidat nový "tajný" postup.
+
+
+UPOZORNĚNÍ:
+
+
+
+- Vždy po každém otevření nebo zavření kanálu proveďte zálohu jeho stavu (SCB). Zabere to jen několik sekund.
+- Neuchovávejte staré soubory SCB, abyste je nezmátli a neobnovili. Jsou naprosto nepoužitelné a mohly by vyvolat sankční řízení, pokud je se. Pokud přistoupíte k obnově, vždy použijte poslední verzi souboru SCB.
+- Uložte soubor SCB (jedná se o zašifrovaný text s příponou .bin) mimo zařízení na bezpečné místo. Pro přesun tohoto souboru do počítače nebo jiného zařízení můžete použít funkci [LocalSend](https://github.com/localsend/localsend).
+- Uložte si také seed svého zařízení Blixt Wallet na bezpečné místo, například do offline správce hesel / šifrovaného USB.
+
+
+Tajná metoda: Jak migrovat uzel Blixt bez uzavření stávajících kanálů. K tomu si musíte pozorně přečíst předchozí část "Třetí kontakt" v této příručce o "Obnovení Wallet".
+
+
+Tento postup NENÍ PRO NOOBS, je určen pouze pro pokročilé uživatele! Proto není široce přístupný a doporučuji jej provádět pouze s pomocí vývojářů Blixt nebo mé podpory. Prosím, neignorujte tuto radu.
+
+
+### PŘÍPAD 4 - JAKÉ PEERY POUŽÍT K OTEVŘENÍ KANÁLŮ?
+
+
+Jak jsem napsal na stránce [Blixt guides page](https://blixtwallet.github.io/guides), existuje mnoho způsobů, jak otevřít kanály s tímto mobilním uzlem LND. Některé důležité aspekty bych zde ale rád připomněl:
+
+
+
+- otevřené se známými uzly LSP a s rovnocennými uzly, za které ručí komunita. [Viz seznam zde](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
+- neotevírejte pouze s náhodnými uzly Tor. Ty jsou bezcenné a budete mít jen problémy s nemožností provádět platby. Bez ohledu na to, jak dobrý je váš kamarád "uzlový běžec" se shity Tor uzlem v džungli, nikdy vám nedá nejlepší trasy pro mobilní privátní uzel. Neotevíráte kanály s někým, protože je váš přítel. Tohle není Facebook! Kanál si otevíráte kvůli: dobrým trasám, malým poplatkům, dostupnosti.
+- není třeba otevírat tunu malých kanálů, 2-3 nebo maximálně 4, ale s dobrým množstvím Sats. Neotvírejte malé kanály, jsou úplně k ničemu. Menší než 200k pro mobil nemají moc využití.
+- mějte na paměti LSP, které nabízejí příchozí kanály a kanály JIT (just in time). Ty jsou velmi užitečné, protože nemusíte používat žádné své UTXO, otevírací kanál můžete zaplatit prostředky, které již máte v jiných peněženkách LN, střádat je a připravit na otevření většího kanálu. Tyto JIT kanály byste měli využívat ve svůj prospěch. [V této příručce jsem vysvětlil](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) více možností peerů pro privátní uzly, jako je Blixt. Také [zde v tomto průvodci zveřejněném na SN](https://stacker.news/items/679242/r/DarthCoin) jsem vysvětlil, jak spravovat likviditu soukromých mobilních uzlů.
+
+
+---
 
 ## Závěr
 
-OK, Blixt nabízí mnoho dalších úžasných funkcí, nechám na vás, abyste je objevovali jeden po druhém a bavili se.
 
-Tato aplikace je opravdu podceňovaná, hlavně proto, že není podporována žádným financováním od VC, je řízena komunitou, vytvořena s láskou a vášní pro Bitcoin a Lightning Network.
+OK, existuje mnoho dalších úžasných funkcí, které Blixt nabízí, nechám vás je objevovat jednu po druhé a bavte se.
 
-Tento mobilní LN uzel, Blixt, je velmi mocným nástrojem v rukou mnoha uživatelů, pokud vědí, jak ho správně používat. Jen si představte, že se pohybujete po světě s LN uzlem ve vlastní kapse a nikdo o tom nebude vědět.
 
-A nemluvě o všech ostatních bohatých funkcích, které s sebou přináší, které velmi málo nebo žádné jiné aplikace peněženky nemohou nabídnout.
+Tato aplikace je opravdu podceňována, hlavně proto, že není podporována žádným financováním VCs, je řízena komunitou, budována s láskou a vášní pro Bitcoin a Lightning Network.
 
-Doufám, že si její používání užijete. Osobně ji miluji a je pro mě velmi užitečná (viz zde případ použití, kde je tato peněženka skvělým nástrojem).
 
-ŠŤASTNÉ BITCOINOVÉ BLESKOVÁNÍ!
+Tento mobilní uzel LN, Blixt je velmi mocným nástrojem v rukou mnoha uživatelů, pokud vědí, jak jej dobře používat. Jen si představte, že chodíte po světě s uzlem LN ve vlastní kapse a nikdo to nepozná.
 
-Ať je s vámi ₿ITCOIN!
 
-> UPOZORNĚNÍ: Za psaní tohoto průvodce nejsem nijak placen ani podporován vývojáři této aplikace. Napsal jsem tento průvodce, protože jsem viděl, že zájem o tuto aplikaci peněženky roste a noví uživatelé stále nerozumí, jak s ní začít. Také pomoci Hampusovi (hlavnímu vývojáři) s dokumentací o používání této peněženky uzlu. Nemám žádný jiný zájem na propagaci této LN aplikace, než posunout vpřed adopci Bitcoinu a LN. To je jediná cesta!
+A to nemluvím o všech dalších bohatých funkcích, které jsou součástí, a které může nabídnout jen velmi málo nebo žádná jiná aplikace Wallet.
+
+
+Mezitím zde najdete všechny odkazy na tento úžasný bleskový uzel Bitcoin:
+
+
+
+- [Oficiální webová stránka společnosti Blixt](https://blixtwallet.com/)
+- [stránka Blixt Github](https://github.com/hsjoberg/blixt-Wallet/)
+- [Blixt Features page](https://blixtwallet.github.io/features) - vysvětlení jednotlivých funkcí a vlastností.
+- [Blixt FAQ page](https://blixtwallet.github.io/faq) - Seznam otázek a odpovědí a řešení problémů s Blixtem
+- [Blixt Guides page](https://blixtwallet.github.io/guides) - demoverze, videonávody, další návody a případy použití pro Blixt
+- Stáhnout: [Android Play Store](https://play.google.com/store/apps/details?id=com.blixtwallet) | [iOS](https://testflight.apple.com/join/EXvGhRzS) | [APK přímo ke stažení](https://github.com/hsjoberg/blixt-Wallet/releases)
+- [Telegramová skupina pro přímou podporu](https://t.me/blixtwallet)
+- [Twitter](https://twitter.com/BlixtWallet)
+- [crowdfundingová stránka Gejzír](https://geyser.fund/project/blixt) - přispějte na projekt Sats podle svých možností
+- [LNURL Chat Blixt](https://chat.blixtwallet.com/) - anonymní chat s LN
+- [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
+- [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - promo video (můžete si vyzkoušet 1. použití LN)
+- [Leták formátu A4 k vytištění s prvními kroky při používání nástroje Blixt v různých jazycích](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
+- [Blixt také nabízí plně funkční demo](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) přímo na svých webových stránkách nebo na vyhrazené webové verzi, abyste si mohli vyzkoušet všechny zkušenosti, než začnete používat v reálném světě.
+
+
+---
+**DISCLAIMER:**
+
+
+*Vývojáři této aplikace mě nijak neplatí ani nepodporují. Tuto příručku jsem napsal, protože jsem viděl, že zájem o tuto aplikaci Wallet roste a noví uživatelé stále nechápou, jak s ní začít pracovat. Také proto, abych pomohl Hampusovi (hlavnímu vývojáři) s dokumentací o používání tohoto uzlu Wallet.*
+
+
+*Nemám žádný jiný zájem na propagaci této aplikace LN, než prosazovat přijetí Bitcoin a LN. To je jediná cesta!
+
+
+---

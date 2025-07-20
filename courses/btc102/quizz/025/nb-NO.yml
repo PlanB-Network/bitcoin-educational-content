@@ -1,10 +1,9 @@
-question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
-answer: Å registrere de spredte transaksjonene i Bitcoin-blockchainen
+question: Hvilken egenskap skiller primært Bitcoin fra altcoins?
+answer: Desentralisering
 wrong_answers:
-  - Å skape nye bitcoins
-  - Å regulere verdien av bitcoins
-  - Å verifisere identiteten til Bitcoin-brukere
+  - Likviditet
+  - Omdømme
+  - Personvern
 explanation: |
-  Gruvearbeidere i Bitcoin-nettverket er ansvarlige for å registrere transaksjonene
-  som har blitt spredt over nettverket i Bitcoin-blockchainen. Dette sikrer
-  endeligheten av transaksjoner.
+  Bitcoin er kjent for sin desentralisering, i motsetning til de fleste altcoins som er mer eller mindre sentraliserte.
+reviewed: false

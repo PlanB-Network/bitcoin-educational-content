@@ -1,11 +1,9 @@
-question: Quy tắc vàng của đầu tư Bitcoin là gì?
-answer: Không phải chìa khóa của bạn, không phải Bitcoin của bạn.
+question: Thuật ngữ nào đề cập đến sự phân chia theo chương trình của trợ cấp Mining?
+answer: Halving
 wrong_answers:
-  - Đừng bao giờ đầu tư nhiều hơn số tiền bạn có thể chấp nhận mất.
-  - Tránh những gì đang thịnh hành.
-  - Lập kế hoạch và có tầm nhìn dài hạn là cần thiết cho thành công trong tài chính.
+  - Fork
+  - Chia đôi
+  - Tiền điện tử
 explanation: |
-  Quy tắc vàng của đầu tư Bitcoin là Không phải chìa khóa của bạn, không phải Bitcoin của bạn.
-  Điều này có nghĩa là nếu bạn không kiểm soát được chìa khóa riêng tư của mình, bạn không thực sự
-  sở hữu Bitcoin của mình.
+  Halving đề cập đến Halving của khoản trợ cấp Mining sau mỗi 210.000 khối.
 reviewed: false

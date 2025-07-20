@@ -1,0 +1,9 @@
+question: Ko je pojedinac koji je pozitivno reagovao na objavljivanje bele knjige u novembru 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  Dana 7. novembra, napisao je na listi da je Bitcoin [izgledao] kao veoma obećavajuća ideja. Ostali su bili skeptičniji. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

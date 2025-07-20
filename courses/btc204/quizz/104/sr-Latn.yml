@@ -1,0 +1,9 @@
+question: Koja je maksimalna entropija transakcije?
+answer: Najveća entropija koju struktura transakcije može postići.
+wrong_answers:
+  - Najniža entropija koju struktura transakcije može postići.
+  - Stvarna entropija transakcije.
+  - Efikasnost transakcije.
+explanation: |
+  Maksimalna entropija odnosi se na najvišu entropiju koju određena struktura transakcije teoretski može postići.
+reviewed: false

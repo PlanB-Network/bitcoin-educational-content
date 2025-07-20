@@ -1,0 +1,9 @@
+question: Koja druga britanska otkrića istraživača u GCHQ su prethodila onima Diffieja i Hellmana, ali su ostala tajna?
+answer: Koncepti asimetrične kriptografije i ključa Exchange
+wrong_answers:
+  - Simetrični protokol šifrovanja napredovao bez potrebe za ključem
+  - Nova metoda asimetričnog kriptografskog heširanja
+  - Metod za kreiranje elektronskog novca
+explanation: |
+  Britanski kriptografi, radeći za GCHQ, nezavisno su razvili ideje slične onima Diffieja i Hellmana, ali su ti napreci ostali poverljivi sve dok nisu otkriveni 1997. godine.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale gestore di password open-source consente di archiviare le credenziali in locale senza bisogno di un cloud?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Gestione password di Google
+explanation: |
+  KeePassDX funziona sulla base di file locali crittografati, senza la necessità di un cloud o di un abbonamento a un servizio centralizzato.
+reviewed: false

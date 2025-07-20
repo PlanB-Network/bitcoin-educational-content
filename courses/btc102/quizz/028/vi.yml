@@ -1,11 +1,9 @@
-question: Ý nghĩa của việc Bitcoin là mã nguồn mở là gì?
-answer: Bất kỳ ai cũng có thể xem cách Bitcoin hoạt động, nó minh bạch và do đó có thể được kiểm toán
+question: Nền tảng nào được khuyến nghị để tránh KYC khi mua bitcoin?
+answer: Nền tảng ngang hàng Exchange
 wrong_answers:
-  - Bất kỳ ai cũng có thể tạo ra phiên bản Bitcoin của riêng mình
-  - Bitcoin miễn phí sử dụng
-  - Mã của Bitcoin có sẵn công khai để chỉnh sửa
+  - Nền tảng Exchange đa năng
+  - Nền tảng Bitcoin chỉ dành cho Exchange
+  - Nền tảng Exchange tập trung vào giao dịch
 explanation: |
-  Việc là mã nguồn mở có nghĩa là mã của Bitcoin có sẵn công khai cho
-  bất kỳ ai để xem xét. Điều này làm cho nó minh bạch và có thể kiểm toán, đảm bảo rằng giao thức
-  công bằng cho mọi người.
+  Nền tảng P2P cho phép người dùng mua bitcoin trực tiếp từ người khác mà không cần KYC.
 reviewed: false

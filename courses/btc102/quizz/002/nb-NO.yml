@@ -1,11 +1,9 @@
-question: Hva er et bemerkelsesverdig eksempel på en Bitcoin hard fork?
-answer: Bitcoin Cash (BCH)
+question: Hvilke forholdsregler bør man ta mot donasjonssvindel og falske lotterier?
+answer: Send aldri penger for å motta bitcoins
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Send alltid et lite beløp for å teste tilbudet
+  - Invester for å få rask og uanstrengt fortjeneste
+  - Del personlig informasjon for å sikre transaksjonen
 explanation: |
-  Bitcoin har gjennomgått flere hard forks over tid, noe som har ført til ulike
-  alternative versjoner av den opprinnelige valutaen. Bemerkelsesverdige eksempler på disse avvikene
-  inkluderer Bitcoin Cash (BCH) og Bitcoin Satoshi Vision (BSV).
+  Forespørsler om forhåndsbetaling er et vanlig tegn på svindel i denne typen svindel.
 reviewed: false

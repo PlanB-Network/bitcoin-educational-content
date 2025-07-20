@@ -1,0 +1,10 @@
+question: Koji su neki od programskih jezika koji se koriste u sajber bezbednosti?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  Poglavlje navodi Python, C i Java kao neke od
+  programskih jezika korišćenih u sajber bezbednosti.
+reviewed: true

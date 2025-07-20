@@ -1,0 +1,11 @@
+question: Koji je potencijalni rizik centralizacije Mining u Bitcoin?
+answer: Centralizacija Mining u Bitcoin može potencijalno dovesti do cenzure transakcija i učiniti mrežu ranjivom na napade, uključujući napad od 51%, gde akter ili grupa kontroliše više od 50% snage heširanja mreže, omogućavajući im da kontrolišu i manipulišu mrežom.
+wrong_answers:
+  - Centralizacija Mining u Bitcoin može potencijalno dovesti do smanjenja vrednosti Bitcoin i učiniti mrežu ranjivom na inflaciju.
+  - Centralizacija Mining u Bitcoin može potencijalno dovesti do smanjenja Block reward i učiniti mrežu podložnom stagnaciji.
+  - Centralizacija Mining u Bitcoin može potencijalno dovesti do smanjenja brzine transakcija i učiniti mrežu podložnom zagušenju.
+explanation: |
+  Poglavlje objašnjava da centralizacija Mining u Bitcoin
+  može potencijalno dovesti do cenzure transakcija i učiniti
+  mrežu ranjivom na napade, uključujući napad od 51%.
+reviewed: true

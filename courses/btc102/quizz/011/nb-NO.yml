@@ -1,12 +1,9 @@
-question: Hva er den viktigste fordelen med å bruke en VPN?
-answer: Den beskytter personvernet ditt ved å maskere IP-adressen din
+question: Hvorfor er det viktig å beskytte Mnemonic-frasen din?
+answer: Fordi det å miste den resulterer i permanent tap av bitcoins
 wrong_answers:
-  - Den øker internettforbindelsen din
-  - Den gir gratis tilgang til betalte tjenester
-  - Den beskytter datamaskinen din mot virus
+  - Fordi Blockchain er for lang til å regenerere den
+  - Fordi tap av den fører til lekkasje av personopplysninger
+  - Fordi Exchange-plattformer krever mange dokumenter for å regenerere den
 explanation: |
-  En VPN, eller Virtuelt Privat Nettverk, beskytter personvernet ditt ved å maskere
-  
-  IP-adressen din. Selv om det ikke gjør deg helt anonym, er det fortsatt et enkelt
-  
-  og effektivt skritt for å forbedre personvernet ditt på nettet.
+  Mnemonic-frasen gjør det mulig å gjenopprette tilgangen. Hvis den går tapt og Wallet ikke lenger er tilgjengelig på enheten, går bitcoinsene tapt permanent.
+reviewed: false

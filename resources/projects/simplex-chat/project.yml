@@ -1,0 +1,26 @@
+id: 6be1fd89-b731-4841-a9d9-8c2fcd45b44f
+name: SimpleX Chat
+
+links:
+  website: https://simplex.chat/
+  twitter: https://x.com/simplexchat
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - personal-security
+  - privacy
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-30
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

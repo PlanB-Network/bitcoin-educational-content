@@ -2060,7 +2060,7 @@ Chcete-li vytvořit coinjoin přes Whirlpool, musí peněženka vygenerovat něk
 
 ![BTC204](assets/fr/143.webp)
 
-Z peněženky HD lze teoreticky odvodit až `2^(32/2)` různých účtů. Počáteční účet, který se ve výchozím nastavení používá ve všech bitcoinových peněženkách, odpovídá indexu `0`.
+Z peněženky HD lze teoreticky odvodit až `2^(31)` různých účtů. Počáteční účet, který se ve výchozím nastavení používá ve všech bitcoinových peněženkách, odpovídá indexu `0`.
 
 U portfolií přizpůsobených systému Whirlpool se pro potřeby procesu ZeroLink používají 4 účty:
 
@@ -2525,8 +2525,7 @@ Bylo by však zajímavé mít takové struktury transakcí, které by umožňova
 
 Payjoin je specifická struktura transakce Bitcoin, která zvyšuje soukromí uživatele při utrácení tím, že spolupracuje s příjemcem platby.
 
-LaurentMT tuto metodu poprvé označil jako "*steganografické transakce*" v roce 2015, podle dokumentu dostupného [zde](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Tuto techniku následně přijala peněženka Samourai, která ji v roce 2018 jako první zákazník implementovala pomocí nástroje Stowaway. Koncept payjoin lze nalézt také v dokumentech [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) a [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Pro označení payjoinu se používá několik termínů:
-
+Poprvé v roce 2015 LaurentMT popsal tuto metodu pod označením "*steganographic transactions*", jak je uvedeno v dokumentu dostupném [zde](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Tuto techniku následně převzala peněženka Samourai Wallet, která ji v roce 2018 jako první klient implementovala pomocí nástroje Stowaway. Koncept payjoinu lze rovněž nalézt v [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) a [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Pro označení payjoinu se tak používá několik různých termínů:
 
 - Payjoin ;
 - Černý pasažér;
@@ -2950,13 +2949,13 @@ Cílem BIP156 je tento problém řešit. Za tímto účelem zavádí dodatečnou
 
 ![BTC204](assets/fr/205.webp)
 
-Transakce je poté distribuována do celé sítě ve fázi "kapitulace".
+Transakce je poté rozeslána celé síti ve fázi „Fluff“.
 
 ![BTC204](assets/fr/206.webp)
 
-Stonek a květní hlavička odkazují na chování transakce při jejím šíření sítí, které připomíná tvar pampelišky.
+Stonek a fáze „Fluff“ odkazují na chování šíření transakce v síti, které připomíná tvar a vývoj pampelišky (v angličtině „Dandelion“).
 
-Špehovací uzly tedy mohou potenciálně vysledovat transakci zpět k uzlu, který zahájil fázi kapitulace (hromadné vysílání), ale tento uzel není tím, který transakci vysílal jako první, protože ji obdržel od posledního uzlu na kmeni. Pokud špionážní uzly nemohou vystopovat kmen, nemohou identifikovat ani zdrojový uzel.
+Špionážní uzly tak potenciálně mohou sledovat transakci zpět k uzlu, který zahájil fázi „Fluff“ (hromadné šíření), ale tento uzel není tím, kdo transakci vyslal jako první, protože ji obdržel od posledního uzlu stonku. Pokud špionážní uzly nedokážou vystopovat stonek, nemohou identifikovat zdrojový uzel.
 
 ![BTC204](assets/fr/207.webp)
 

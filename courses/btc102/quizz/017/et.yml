@@ -1,11 +1,9 @@
-question: Mis on Bitcoini investeerimise kuldreegel?
-answer: Kui võti pole sinu, pole ka Bitcoini sinu.
+question: Milline termin viitab Mining toetuse programmeeritud jagamisele?
+answer: Halving
 wrong_answers:
-  - Ära kunagi investeeri rohkem, kui sa kaotada jõuad.
-  - Väldi seda, mis on moes.
-  - Planeerimine ja pikaajaline visioon on finantsedus eduks hädavajalikud.
+  - Fork
+  - Poolitamine
+  - Coinbase
 explanation: |
-  Bitcoini investeerimise kuldreegel on Kui võti pole sinu, pole ka Bitcoini sinu.
-  See tähendab, et kui sul ei ole kontrolli oma privaatvõtme üle, siis sa tegelikult
-  ei oma oma Bitcoine.
+  Halving viitab Halving Mining toetusele iga 210 000 ploki kohta.
 reviewed: false

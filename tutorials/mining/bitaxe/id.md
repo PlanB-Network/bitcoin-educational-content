@@ -1,8 +1,8 @@
 ---
 name: Mengatur BitAxe
-Description: Bagaimana cara mengatur BitAxe?
+description: Bagaimana cara mengatur BitAxe?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Pendahuluan
 
 BitAxe adalah proyek open-source yang dibuat oleh Skot dan [tersedia di GitHub](https://github.com/skot/bitaxe) yang memungkinkan eksperimen penambangan dengan biaya efektif.

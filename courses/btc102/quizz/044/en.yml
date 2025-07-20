@@ -1,11 +1,9 @@
-question: What is the main role of miners in the Bitcoin network?
-answer: They secure the network by performing Bitcoin's proof-of-work processes
+question: What is the origin of the term hodler?
+answer: A misspelling of hold
 wrong_answers:
-  - They create new bitcoins
-  - They regulate the price of Bitcoin
-  - They control the Bitcoin network
+  - An acronym for hold
+  - An abbreviation of hot wallet
+  - A contraction of hodl chain
 explanation: |
-  The chapter content explains that miners are responsible for securing
-  the Bitcoin network. They use electricity to perform Bitcoin's proof-of-work processes,
-  which creates a new block.
+  The term "hodler" comes from a typo on Bitcoin Talk, where "hold" was misspelled as "hodl" to express long-term holding.
 reviewed: false

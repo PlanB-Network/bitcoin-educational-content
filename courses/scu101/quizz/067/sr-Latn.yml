@@ -1,0 +1,13 @@
+question: Koja je glavna zabrinutost u vezi sa Single Sign-On (SSO) uslugom koju nude internet giganti?
+answer: To predstavlja probleme u pogledu dostupnosti i rizika od cenzure.
+wrong_answers:
+  - Teško je koristiti.
+  - To zahteva mnogo prostora za skladištenje.
+  - Nije kompatibilan sa svim veb-sajtovima.
+explanation: |
+  Jedinstvena prijava (SSO) koju nude internet giganti predstavlja
+  probleme u pogledu dostupnosti i rizika od cenzure.
+  To je zato što, ako provajder SSO-a doživi prekid
+  ili odluči da blokira korisnika, korisnik bi mogao izgubiti pristup
+  svim uslugama koje koriste taj SSO za autentifikaciju.
+reviewed: true

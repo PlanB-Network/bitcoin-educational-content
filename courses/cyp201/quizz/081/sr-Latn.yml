@@ -1,0 +1,8 @@
+question: Koja je glavna novina P2WPKH skripti u poređenju sa P2PKH?
+answer: Potpisi su premešteni u polje za Svedoka.
+wrong_answers:
+  - Adrese su kodirane u base58check.
+  - scriptPubKey uključuje Hash privatnog ključa.
+  - P2WPKH nije kompatibilan sa SegWit.
+explanation: |
+  P2WPKH, uveden sa SegWit, premješta potpise u poseban odjeljak nazvan Witness kako bi se spriječila promjenljivost transakcija.

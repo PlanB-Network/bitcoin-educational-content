@@ -1,0 +1,5 @@
+---
+term: NATURAL Fork
+---
+
+Privremena razdvajanja Blockchain koja nastaju usled skoro istovremenog emitovanja nekoliko blokova od strane različitih rudara na istoj visini. Ova situacija se dešava kada se dva bloka, označena kao $A$ i $B$, pronađu skoro u isto vreme, što dovodi do privremene podele mreže. Pošto svaki čvor smatra prvi blok koji je primio kao važeći, ali ne primaju svi isti blok prvi, deo čvorova prati lanac koji sadrži blok $A$, dok drugi deo prati onaj sa blokom $B$. Ovaj Fork se rešava kada jedan od dva konkurentska lanca nadmaši drugi u smislu akumuliranog rada. U tom trenutku, svi čvorovi u mreži automatski se slažu sa dužim lancem (sa najviše akumuliranog rada), proces poznat kao reorganizacija ili resinhronizacija. Ove prirodne račve su svojstvene distribuiranom radu Bitcoin. One su potpuno normalne i spontano se rešavaju nakon nekoliko blokova (obično samo jednog). Međutim, ako se javljaju prečesto, ove račve i dalje mogu biti štetne, jer dovode do rasipanja računarske snage na grani koja će na kraju postati zastarela.

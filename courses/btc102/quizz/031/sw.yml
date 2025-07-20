@@ -1,11 +1,9 @@
-question: Madhumuni ya pochi za Bitcoin ni nini?
-answer: Kutuma na kupokea bitcoins
+question: Je, ni minyororo gani ya kando ya Bitcoin?
+answer: Liquid na Mizizi
 wrong_answers:
-  - Ili kuchimba bitcoins
-  - Ili kuhifadhi bitcoins za kimwili
-  - Kubadilisha bitcoins kuwa sarafu zingine
+  - Polygon na Arbitrum
+  - Jupiter na Fantom
+  - Bitcoin Cash na Bitcoin Satoshi Maono
 explanation: |
-  Pochi za Bitcoin hutumiwa kutuma na kupokea bitcoins. Wao ni digital
-  pochi ambazo huhifadhi kitambulisho cha dijitali muhimu ili kufikia Bitcoin Address
-  na kutumia bitcoins.
+  Liquid na RSK ni minyororo ya kando ambayo ina kigingi cha njia 2 na Bitcoin. Chaguzi zingine sio minyororo ya kando, au hazina 2WP na Bitcoin Blockchain.
 reviewed: false

@@ -1,11 +1,9 @@
-question: Je, maneno Si funguo yako, si Bitcoins yako kusisitiza nini?
-answer: Umuhimu wa kumiliki ufunguo wa kibinafsi kwa Bitcoin Wallet
+question: Kusudi kuu la kufafanua wasifu wako wa mtumiaji ni nini?
+answer: Kupitisha mkakati unaofaa kwa mahitaji yako
 wrong_answers:
-  - Umuhimu wa kuwa na ufunguo wa kimwili kufikia Bitcoins zako
-  - Umuhimu wa kuweka Bitcoins zako mahali salama
-  - Umuhimu wa kutoshiriki maelezo ya akaunti yako ya Bitcoin
+  - Ili kuongeza uvumi na kwa hivyo faida
+  - Kupitisha mkakati wa jumla ambao unafanya kazi kwa kila mtu
+  - Ili kujua ni mshawishi gani wa Bitcoin wa kufuata kwenye mitandao ya kijamii
 explanation: |
-  Sura hiyo inaeleza kuwa maneno Sio funguo zako, sio Bitcoins zako
-  inasisitiza umuhimu wa kumiliki ufunguo wa kibinafsi wa Bitcoin Wallet. Kwa kumiliki
-  ufunguo wa kibinafsi, una udhibiti kamili juu ya Bitcoins iliyomo.
+  Kujua wasifu wako na kuweza kuurekebisha hukuruhusu kuchagua suluhu za kupata na kuhifadhi zinazolingana na hali yako ya kibinafsi.
 reviewed: false

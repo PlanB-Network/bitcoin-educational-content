@@ -1,0 +1,8 @@
+question: Por que livro é que Mirabeau foi preso?
+answer: A teoria da tributação
+wrong_answers:
+  - O Amigo dos Homens
+  - Ensaio sobre a natureza do comércio em geral
+  - O Contract social
+explanation: |
+  Mirabeau foi preso por "La Théorie de l'Impôt", uma obra em que criticava o sistema fiscal francês.

@@ -1,10 +1,9 @@
-question: ¿Qué es la Red Lightning?
-answer: Es la segunda capa de Bitcoin.
+question: ¿Qué soporte se recomienda para realizar copias de seguridad de su frase Mnemonic?
+answer: Respaldo metálico con sobre opaco sellado
 wrong_answers:
-  - Es un intercambio de criptomonedas.
-  - Es un tipo de billetera de Bitcoin.
-  - Es un grupo de minería de Bitcoin.
+  - Almacenamiento cifrado en unidades USB
+  - Respaldo de papel con funda transparente
+  - Copias de seguridad en una nube segura
 explanation: |
-  La Red Lightning es una tecnología de segunda capa aplicada a Bitcoin
-  que utiliza canales de micropagos para aumentar la capacidad de su cadena de bloques para realizar transacciones.
+  Un respaldo metálico resistente a catástrofes ofrece protección duradera contra daños y accesos no autorizados. El sobre opaco sellado permite verificar si alguien ha accedido a la frase Mnemonic.
 reviewed: false

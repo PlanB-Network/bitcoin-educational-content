@@ -1,8 +1,8 @@
 ---
 name: Nastavení BitAxe
-Description: Jak nastavit BitAxe?
+description: Jak nastavit BitAxe?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Úvod
 
 BitAxe je open-source projekt vytvořený Skotem a [dostupný na GitHubu](https://github.com/skot/bitaxe), který umožňuje cenově efektivní experimentování s těžbou.

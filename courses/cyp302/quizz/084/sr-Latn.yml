@@ -1,0 +1,9 @@
+question: Koje je glavno praktično ograničenje jednokratne lozinke?
+answer: Ključ mora biti dug kao poruka i nikada se ne sme ponovo koristiti
+wrong_answers:
+  - Ključ mora biti promenjen svaki dan
+  - Ključ mora biti tri puta duži od poruke
+  - Ključ mora nužno biti sačuvan na francuskom Minitelu
+explanation: |
+  Ključ u jednokratnoj šifri mora biti dug koliko i poruka i nikada se ne sme ponovo koristiti, što značajno komplikuje njegovu upotrebu u praktičnim kontekstima. Ovo je zato što, ako je moguće preneti podatke dužine poruke na siguran način, bilo bi logičnije direktno preneti poruku umesto ključa.
+reviewed: false

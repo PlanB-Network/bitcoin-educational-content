@@ -1,10 +1,9 @@
-question: Czym jest Bitcoin Blockchain?
-answer: Baza danych rejestrująca wszystkie transakcje Bitcoin
+question: Jaką główną zaletę oferuje podejście warstwowe dla Bitcoin?
+answer: Utrzymanie bezpieczeństwa protokołu bazowego
 wrong_answers:
-  - Rodzaj waluty cyfrowej
-  - Sieć użytkowników Bitcoin
-  - Metoda Mining bitcoinów
+  - Rosnąca centralizacja głównej sieci
+  - Szybkie innowacje w protokole podstawowym
+  - Posiadanie tych samych funkcji w warstwach, co w protokole podstawowym
 explanation: |
-  Bitcoin Blockchain to baza danych, która rejestruje wszystkie transakcje Bitcoin.
-  Jest ona utrzymywana przez górników, którzy dodają nowe transakcje do Blockchain.
+  Podejście warstwowe pozwala na dodawanie funkcjonalności bez uszczerbku dla bezpieczeństwa i prostoty protokołu bazowego.
 reviewed: false

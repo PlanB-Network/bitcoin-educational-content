@@ -1,0 +1,8 @@
+question: ¿Por qué cree que el contrabando está tan extendido en Francia?
+answer: Dado que la normativa impide el comercio legal de determinados productos, la apertura de un mercado paralelo
+wrong_answers:
+  - Como Francia tiene tantos pobres, su único recurso es el contrabando
+  - Porque la emigración protestante es un caldo de cultivo para el contrabando
+  - Porque los funcionarios de aduanas son corruptos
+explanation: |
+  Gournay creía que una reglamentación excesiva fomentaba el contrabando al crear mercados paralelos para mercancías cuyo comercio estaba prohibido o gravado con fuertes impuestos.

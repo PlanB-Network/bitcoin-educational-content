@@ -1,9 +1,9 @@
-question: Lý do chính khiến các chính phủ và ngân hàng trung ương khám phá khả năng tạo ra phiên bản số của tiền tệ pháp định của họ là gì?
-answer: Để đảm bảo kiểm soát và tuân thủ các quy định địa phương
+question: Mục tiêu chính của người nắm giữ là gì?
+answer: Để giữ bitcoin của họ trong thời gian dài
 wrong_answers:
-  - Để cạnh tranh với Bitcoin
-  - Để bảo vệ quyền riêng tư
-  - Để tăng cường giám sát hàng loạt
+  - Để đầu cơ trong ngắn hạn
+  - Để thực hiện các giao dịch Bitcoin thường xuyên
+  - Để tối đa hóa tính riêng tư của các giao dịch Bitcoin của họ
 explanation: |
-  Nội dung chương giải thích rằng mặc dù những dự án này tuyên bố cạnh tranh với Bitcoin, chúng vẫn duy trì tính trung tâm để đảm bảo kiểm soát và tuân thủ các quy định địa phương.
+  Người nắm giữ muốn giữ bitcoin của mình trong nhiều năm để hưởng lợi từ sự tăng trưởng dự kiến của tài sản này.
 reviewed: false

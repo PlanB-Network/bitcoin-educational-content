@@ -2060,7 +2060,7 @@ Para crear una coinjoin a través de Whirlpool, el monedero debe generar varias 
 
 ![BTC204](assets/fr/143.webp)
 
-Un monedero HD puede teóricamente derivar hasta `2^(32/2)` cuentas diferentes. La cuenta inicial, utilizada por defecto en todos los monederos Bitcoin, corresponde al índice `0'`.
+Un monedero HD puede teóricamente derivar hasta `2^(31)` cuentas diferentes. La cuenta inicial, utilizada por defecto en todos los monederos Bitcoin, corresponde al índice `0'`.
 
 Para las carteras adaptadas a Whirlpool, se utilizan 4 cuentas para satisfacer las necesidades del proceso ZeroLink:
 
@@ -2525,8 +2525,7 @@ Sin embargo, sería interesante disponer de estructuras de transacción que perm
 
 El payjoin es una estructura de transacción específica de Bitcoin que mejora la privacidad del usuario a la hora de gastar colaborando con el receptor del pago.
 
-LaurentMT se refirió por primera vez a este método como "*transacciones esteganográficas*" en 2015, según un documento accesible [aquí](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). La técnica fue adoptada posteriormente por Samourai Wallet, que en 2018 se convirtió en el primer cliente en implementarla con la herramienta Stowaway. El concepto de payjoin también se puede encontrar en [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) y [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Se utilizan varios términos para designar un payjoin:
-
+Fue en 2015 cuando LaurentMT mencionó por primera vez este método bajo la denominación de "*steganographic transactions*", según un documento disponible [aquí](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Esta técnica fue adoptada posteriormente por el monedero Samourai Wallet, que en 2018 fue el primer cliente en implementarla con la herramienta Stowaway. El concepto de payjoin también se encuentra en el [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), el [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) y el [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Así, se utilizan varios términos para referirse a un payjoin:
 
 - Payjoin ;
 - Polizón;
@@ -2950,13 +2949,13 @@ El objetivo de BIP156 es resolver este problema. Para ello, introduce una fase a
 
 ![BTC204](assets/fr/205.webp)
 
-A continuación, la transacción se distribuye a toda la red en la fase de "capitulación".
+La transacción se transmite posteriormente a toda la red durante la fase de "Fluff".
 
 ![BTC204](assets/fr/206.webp)
 
-El tallo y la cabeza de la flor son referencias al comportamiento de la propagación de la transacción a través de la red, que se asemeja a la forma de un diente de león.
+El tallo y la fase de "Fluff" hacen referencia al comportamiento de la propagación de la transacción a través de la red, que se asemeja a la forma y evolución de un diente de león ("Dandelion" en inglés).
 
-Así, los nodos espía pueden rastrear potencialmente la transacción hasta el nodo que lanzó la fase de capitulación (la emisión masiva), pero este nodo no es el que emitió primero la transacción, ya que la recibió del último nodo del tallo. Si los nodos espía no pueden rastrear el tallo, tampoco pueden identificar el nodo de origen.
+Así, los nodos espía pueden potencialmente rastrear la transacción hasta el nodo que inició la fase de "Fluff" (la difusión masiva), pero ese nodo no es el que la transmitió primero, ya que la recibió del último nodo del tallo. Si los nodos espía no pueden rastrear el tallo, tampoco pueden identificar el nodo fuente.
 
 ![BTC204](assets/fr/207.webp)
 

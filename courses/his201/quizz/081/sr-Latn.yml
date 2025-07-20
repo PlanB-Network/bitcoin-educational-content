@@ -1,0 +1,9 @@
+question: Ko je proizveo prvi visokokvalitetni video o Bitcoin u martu 2011?
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  Video, jednostavno nazvan Šta je Bitcoin?, proizveden je putem crowdfunding-a od strane zajednice.
+reviewed: false

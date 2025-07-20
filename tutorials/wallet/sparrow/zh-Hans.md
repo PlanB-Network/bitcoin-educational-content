@@ -27,6 +27,7 @@ Sparrow 支持单签名和多签名钱包，可以流畅地管理多个钱包。
 在安装软件之前，检查软件的完整性和真实性非常重要。如果您不知道如何操作，请点击此处查看完整教程：
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Sparrow 安装完成后，您可以跳过初始说明屏幕，直接进入连接管理屏幕。
 
 ![Image](assets/fr/02.webp)
@@ -69,7 +70,9 @@ Sparrow 安装完成后，您可以跳过初始说明屏幕，直接进入连接
 要配置 Bitcoin Core 节点，可根据操作系统参考以下教程之一：
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 在 Sparrow 上，转到 "*Bitcoin 核心*"选项卡。
 
 ![Image](assets/fr/07.webp)
@@ -218,6 +221,7 @@ rpcpassword=my_password
 有关保存和管理 Mnemonic 短语的正确方法的更多信息，我强烈推荐您阅读本教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。本例 Wallet 将仅用于 Testnet，并将在教程结束时删除。
@@ -225,6 +229,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 您也可以点击 "*使用 passphrase*"方框，选择添加 passphrase BIP39。警告：使用 passphrase 可能非常有用，但如果您不了解它的工作原理，就会有很大风险。因此，我强烈建议您阅读这篇相关的理论短文：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 将 Mnemonic 和任何 passphrase 保存到物理介质后，单击 "*确认备份*"。
 
 ![Image](assets/fr/27.webp)
@@ -376,6 +381,7 @@ Sparrow 会显示一个摘要图，显示您的输入、输出和交易费用（
 保持 Sighash 的默认状态非常重要。要了解原因，请参阅本培训课程，我将在课程中为您讲解有关 Sighash 的所有知识：
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 在下一个屏幕中，选项会根据您使用的 Wallet 类型而有所不同：
 
 

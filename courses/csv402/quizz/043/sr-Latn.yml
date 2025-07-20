@@ -1,0 +1,9 @@
+question: Šta predstavlja "RGB State Transition" u kontekstu Lightning Network?
+answer: Ažurirana alokacija sredstava RGB integrisana u Commitment transakcije
+wrong_answers:
+  - Novo stanje Multisig 2/2 onchain
+  - Ažurirana RGB alokacija sredstava integrisana u transakciju finansiranja
+  - On-Chain validacioni skript zamenjen sa HTLC
+explanation: |
+  RGB State Transition ažurira distribuciju RGB sredstava u kanalu koristeći Commitment transakcije.
+reviewed: false

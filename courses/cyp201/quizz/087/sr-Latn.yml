@@ -1,0 +1,9 @@
+question: Koja je jedinstvena karakteristika SegWit v1 (P2TR) adresa u poređenju sa SegWit v0 adresama?
+answer: Oni direktno koriste sirovi javni ključ u Address.
+wrong_answers:
+  - Oni su kodirani u base58check.
+  - Za validnost su potrebna dva potpisa.
+  - Oni koriste javni ključ Hash u Address.
+explanation: |
+  SegWit v1 (P2TR) adrese ne koriste Hash javnog ključa, već direktno Taproot javni ključ.
+reviewed: false

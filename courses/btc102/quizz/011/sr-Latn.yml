@@ -1,0 +1,15 @@
+question: Koja je glavna prednost korišćenja VPN-a?
+answer: Štiti vašu privatnost maskiranjem vašeg IP Address
+wrong_answers:
+  - Ubrzava vašu internet konekciju
+  - Omogućava besplatan pristup plaćenim uslugama
+  - Štiti vaš računar od virusa
+explanation: |
+  VPN, ili Virtuelna Privatna Mreža, štiti vašu privatnost maskiranjem
+  
+  vašeg
+  
+  IP Address. Iako vas ne čini potpuno anonimnim, i dalje je jednostavan
+  
+  i efikasan korak za poboljšanje vaše privatnosti na mreži.'
+reviewed: false

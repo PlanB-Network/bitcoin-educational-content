@@ -1,0 +1,12 @@
+question: Koji je cilj Bitcoin zajednice u pogledu upravljanja mrežom?
+answer: Da ojača distribuciju, otpornost na cenzuru i antifragilnost mreže.
+wrong_answers:
+  - Da se poveća cena Bitcoin.
+  - Da bi transakcije bile brže.
+  - Da bi se povećala težina Mining.
+explanation: |
+  Zajednica Bitcoin neprestano teži jačanju
+  distribucije, otpornosti na cenzuru i antifragilnosti
+  mreže. Ovo je u skladu sa osnovnom misijom Bitcoin
+  da bude mreža vrednosti Exchange otporna na cenzuru.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ko je poverio gvozdenu kutiju gostioničaru Robertu Morisu na čuvanje?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  Bio je to Thomas J. Beale koji je predao gvozdenu kutiju sa šifrovanim dokumentima i beleškom Robertu Morrissu, dajući mu instrukcije u slučaju da se ne vrati.
+reviewed: false

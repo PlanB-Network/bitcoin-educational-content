@@ -1,0 +1,8 @@
+question: Warum wurde er Dupont de Nemours genannt, obwohl er als Pierre-Samuel Du Pont geboren wurde?
+answer: Um ihn von den anderen Duponts der Versammlung von 1789 zu unterscheiden
+wrong_answers:
+  - Er ist von edler Herkunft
+  - Er heiratete die Gräfin de Nemours
+  - Es war ein Pseudonym
+explanation: |
+  der Zusatz "de Nemours" wurde dem Namen von Pierre-Samuel Dupont hinzugefügt, um ihn von den anderen Duponts zu unterscheiden, die 1789 in der Assemblée Constitante saßen.

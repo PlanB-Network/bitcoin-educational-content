@@ -372,49 +372,28 @@ Výsledkem procesu těžby je vznik nových bitcoinů. Stručně řečeno, těž
 
 Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "halving"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
 
-| Číslo půlení | Výška bloku | Odměna za BTC po půlení | Odhadovaný počet BTC v oběhu po půlení |
-
+| Číslo půlení | Výška bloku | Odměna za BTC po půlení  | Odhadovaný počet BTC v oběhu po půlení |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 | 210 000 | 25 BTC | 10 500 000 BTC |
-
-| 2 | 420 000 | 12,5 BTC | 15 750 000 BTC |
-
-| 3 | 630 000 | 6,25 BTC | 18 375 000 BTC |
-
-| 4 | 840 000 | 3,125 BTC | 19 687 500 BTC |
-
-| 5 | 1 050 000 | 1,5625 BTC | 20 343 750 BTC |
-
-| 6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC |
-
-| 7 | 1 470 000 | 0,390625 BTC | 20 835 937,5 BTC |
-
-| 8 | 1 680 000 | 0,1953125 BTC | 20 917 968,75 BTC |
-
-| 9 | 1 890 000 | 0,09765625 BTC | 20 958 984,375 BTC |
-
-| 10 | 2 100 000 | 0,048828125 BTC | 20 979 492,188 BTC |
-
-| 11 | 2 310 000 | 0,0244140625 BTC | 20 989 746,094 BTC |
-
-| 12 | 2 520 000 | 0,01220703125 BTC | 20 994 873,047 BTC |
-
-| 13 | 2 730 000 | 0,006103515625 BTC | 20 997 436,523 BTC |
-
-| 14 | 2 940 000 | 0,0030517578125 BTC | 20 998 718 262 BTC |
-
-| 15 | 3 150 000 | 0,00152587890625 BTC | 20 999 359,131 BTC |
-
-| 16 | 3 360 000 | 0,000762939453125 BTC | 20 999 679,566 BTC |
-
-| 17 | 3 570 000 | 0,0003814697265625 BTC | 20 999 839,783 BTC |
-
-| 18 | 3 780 000 | 0,00019073486328125 BTC | 20 999 919,892 BTC |
-
-| 19 | 3 990 000 | 0,000095367431640625 BTC | 20 999 959,946 BTC |
-
-| 20 | 4 200 000 | 0,0000476837158203125 BTC | 20 999 979,973 BTC |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Ke konceptu těžby se podrobněji vrátíme v kapitole [miner](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
@@ -1061,7 +1040,9 @@ V současné době bitcoin stále přežívá a ještě více roste díky tomu, 
 
 Bitcoin lze považovat za nástroj k vytvoření paralelní ekonomiky k fiat měnám, protože je možné prodávat zboží nebo služby a nechat si platit v bitcoinech. Transakce lze provádět přímo v bitcoinech, aniž by bylo nutné procházet směnnou platformou, ale jednoduše přecházet z bitcoinové peněženky do jiné.
 
-Bitcoinová ekonomika existuje a rozvíjí se v některých regionech světa, například v Salvadoru, kde je Bitcoin od roku 2021 zákonným platidlem. Všude kolem nás existují jednotlivci, podniky a organizace, které již přijímají Bitcoin jako platební prostředek za své produkty nebo služby.
+Bitcoinová ekonomika existuje a vyvíjí se v určitých regionech světa, jako je například El Salvador, kde se Bitcoin stal zákonným platidlem v roce 2021. Bohužel, v lednu 2025 shromáždění schválilo nový zákon, který Bitcoin zbavil titulu "zákonné platidlo", údajně po tlaku Mezinárodního měnového fondu. Podle nového zákona nejsou lidé povinni přijímat Bitcoin ve svých podnicích a již nemohou platit daně pomocí něj. Přijetí zůstává dobrovolné.
+
+Nicméně, v El Salvadoru a v dalších částech světa je stále více jednotlivců, podniků a organizací, které přijímají Bitcoin jako prostředek platby za své produkty nebo služby.
 
 ![image](assets/en/72.webp)
 
@@ -1136,7 +1117,7 @@ Postupná strategie zahrnuje opakované nákupy, což znamená nákup malých mn
 
 **Pozor na UTXO**: Nezapomeňte čas od času konsolidovat své UTXO v peněženkách. Tento postup je nezbytný pro efektivní správu vašich bitcoinů a vyhnutí se zbytečným poplatkům při transakcích.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) je výstup transakce, který dosud nebyl utracen, což znamená, že nebyl použit jako vstup pro novou transakci. Konsolidace UTXO znamená sloučení několika malých UTXO do jednoho většího, aby se snížila "hmotnost" transakce a tím se platily nižší poplatky.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) je výstup transakce, který dosud nebyl utracen, což znamená, že nebyl použit jako vstup pro novou transakci. Konsolidace UTXO znamená sloučení několika malých UTXO do jednoho většího, aby se snížila "hmotnost" transakce a tím se platily nižší poplatky.
 
 - Spontánní nákup
 

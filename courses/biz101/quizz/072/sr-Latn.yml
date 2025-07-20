@@ -1,0 +1,9 @@
+question: Kako Enterprise sistemi automatski ažuriraju inventar?
+answer: Kroz okidače toka posla
+wrong_answers:
+  - Ručno ažuriranje
+  - Krajnje dnevno otpremanje
+  - Zakazani izveštaji
+explanation: |
+  Okidači toka posla ažuriraju sisteme u realnom vremenu.
+reviewed: false

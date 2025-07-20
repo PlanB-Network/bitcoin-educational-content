@@ -1,0 +1,9 @@
+question: Koja eliptička kriva se koristi u Bitcoin protokolu?
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin koristi krivu secp256k1, definisanu jednačinom y² = x³ + 7, za svoje kriptografske operacije.
+reviewed: false

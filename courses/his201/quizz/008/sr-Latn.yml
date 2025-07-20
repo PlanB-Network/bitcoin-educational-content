@@ -1,0 +1,9 @@
+question: Šta je bio e-gold?
+answer: Digitalna valuta podržana ekvivalentnom količinom zlata pohranjenog u trezoru
+wrong_answers:
+  - Jedinica valute u univerzumu World of Warcraft
+  - Koncept digitalne valute čije je izdavanje zasnovano na Proof of Work
+  - Onlajn Exchange sistem za zlatni nakit
+explanation: |
+  Sistem su suosnovali Douglas Jackson i Barry Downey 1996. godine i bio je dostupan putem jednostavnog web pregledača.
+reviewed: false

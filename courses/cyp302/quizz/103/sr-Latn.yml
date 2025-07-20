@@ -1,0 +1,9 @@
+question: Zašto je autentifikovano šifrovanje otporno na napade sa izabranim šifro tekstom?
+answer: Jer svaka modifikacija šifrovanog teksta od strane napadača čini oznaku nevažećom
+wrong_answers:
+  - Zato što koristi jedan algoritam za šifrovanje
+  - Jer bilo kakva modifikacija šifrovanog teksta od strane napadača čini ključ nevažećim
+  - Zato što šifrira samo poruku bez oznake
+explanation: |
+  Šema autentifikovane enkripcije je dizajnirana da detektuje izmene šifrovanog teksta, što čini oznaku nevažećom u slučaju pokušaja manipulacije i osigurava otpornost na napade sa izabranim šifrovanim tekstom.
+reviewed: false

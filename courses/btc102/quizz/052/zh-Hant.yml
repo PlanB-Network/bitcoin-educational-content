@@ -1,11 +1,9 @@
-question: OpenNode、Swiss Bitcoin Pay 和 BTCPay 等公司在 Bitcoin 生態系統中扮演什麼角色？
-answer: 他們提供的工具可讓企業輕鬆接受 Bitcoin。
+question: 運行自己的 Bitcoin 節點有什麼優勢？
+answer: 獨立性
 wrong_answers:
-  - 他們開採 Bitcoin。
-  - 他們監管 Bitcoin。
-  - 他們發行 Bitcoin。
+  - 流動性
+  - 集中化
+  - 速度
 explanation: |
-  OpenNode、Swiss Bitcoin Pay 和 BTCPay 等公司提供工具，讓企業可以輕鬆接受 Bitcoin。
-  等公司提供的工具，讓企業可以輕鬆接受 Bitcoin，有助於在日常交易中採用
-  和日常交易中的使用。
+  運行您自己的節點可以確保獨立於第三方，並保護您的交易隱私。
 reviewed: false

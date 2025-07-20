@@ -372,49 +372,28 @@ Opprettelsen av nye bitcoins er resultatet av utvinningsprosessen. Kort fortalt 
 
 Etter å ha utført denne oppgaven blir utvinnerne belønnet med utstedelse av nye bitcoins hvert tiende minutt. Denne belønningen er programmert til å halveres hvert 210 000. blokk, altså omtrent hvert fjerde år (en hendelse som kalles "halvering"), noe som gir den monetære utstedelseskurven en trappelignende form. På grunn av denne mekanismen kan det matematisk forutsies at utstedelsen av nye bitcoins vil opphøre rundt år 2140, når det totale antallet når sin grense på 21 millioner.
 
-halveringsnummer | Blokkhøyde | BTC-belønning etter halvering | Estimert BTC i omløp etter halvering | BTC-belønning etter halvering | BTC-belønning etter halvering
-
+| halveringsnummer | Blokkhøyde | BTC-belønning etter halvering  | Estimert BTC i omløp etter halvering |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 | 210 000 | 25 BTC | 10 500 000 BTC | 10 500 000 BTC
-
-| 2 420 000 12,5 BTC 15 750 000 BTC
-
-| 3 630 000 6,25 BTC 18 375 000 BTC
-
-| 4 840 000 3,125 BTC 19 687 500 BTC
-
-5 | 1 050 000 | 1,5625 BTC | 20 343 750 BTC | 5 | 1 050 000 | 1,5625 BTC | 20 343 750 BTC | 5
-
-6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC | 6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC | 6
-
-7 | 1 470 000 | 0,390625 BTC | 20 835 937,5 BTC | 20 835 937,5 BTC | 1 470 000 | 0,390625 BTC
-
-| 8 | 1 680 000 | 0,1953125 BTC | 20 917 968,75 BTC | 20 917 968,75 BTC | 20 917 968,75 BTC
-
-| 9 | 1 890 000 | 0,09765625 BTC | 20 958 984,375 BTC | 20 958 984,375 BTC | 20 958 984,375 BTC
-
-| 10 | 2 100 000 | 0,048828125 BTC | 20 979 492,188 BTC | 20 979 492,188 BTC | 20 979 492,188 BTC
-
-| 11 | 2 310 000 | 0,0244140625 BTC | 20 989 746,094 BTC | 20 989 746,094 BTC | 20 989 746,094 BTC
-
-| 12 | 2 520 000 | 0,01220703125 BTC | 20 994 873,047 BTC | 20 994 873,047 BTC | 20 994 873,047 BTC
-
-13 | 2 730 000 | 0,006103515625 BTC | 20 997 436,523 BTC | 20 997 436,523 BTC | 20 997 436,523 BTC
-
-| 14 | 2 940 000 | 0,0030517578125 BTC | 20 998 718,262 BTC | 20 998 718,262 BTC | 20 998 718,262 BTC
-
-15 | 3 150 000 | 0,00152587890625 BTC | 20 999 359,131 BTC | 15 | 3 150 000 | 0,00152587890625 BTC | 20 999 359,131 BTC | 20 999 359,131 BTC
-
-16 | 3 360 000 | 0,000762939453125 BTC | 20 999 679,566 BTC | 20 999 679,566 BTC | 20 999 679,566 BTC
-
-17 | 3 570 000 | 0,0003814697265625 BTC | 20 999 839,783 BTC | 20 999 839,783 BTC | 20 999 839,783 BTC
-
-18 | 3 780 000 | 0,00019073486328125 BTC | 20 999 919,892 BTC | 20 999 919,892 BTC | 20 999 919,892 BTC
-
-| 19 | 3 990 000 | 0,000095367431640625 BTC | 20 999 959,946 BTC | 20 999 959,946 BTC | 20 999 959,946 BTC
-
-| 20 | 4 200 000 | 0,0000476837158203125 BTC | 20 999 979,973 BTC | 20 999 979,973 BTC | 20 999 979,973 BTC
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Vi kommer tilbake til gruvedriftsbegrepet i [miner-kapittelet] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
@@ -1060,7 +1039,9 @@ I dag fortsetter Bitcoin å overleve og vokse enda mer ved å bli integrert mer 
 
 Bitcoin kan ses på som et verktøy for å skape en parallell økonomi til fiat-valutaer, fordi det er mulig å selge varer eller tjenester og få betalt i bitcoin. Transaksjoner kan gjøres direkte i bitcoin, uten å måtte gå gjennom en vekslingsplattform, men ganske enkelt gå fra en bitcoin-lommebok til en annen.
 
-Bitcoin-økonomien eksisterer og utvikler seg i visse regioner i verden, som i El Salvador, der Bitcoin har vært et lovlig betalingsmiddel siden 2021. Rundt oss finnes det enkeltpersoner, bedrifter og organisasjoner som allerede aksepterer Bitcoin som betalingsmiddel for sine produkter eller tjenester.
+Bitcoin-økonomien eksisterer og utvikler seg i visse regioner av verden, som i El Salvador, hvor Bitcoin ble en lovlig valuta i 2021. Dessverre, i januar 2025, vedtok forsamlingen en ny lov som fratok Bitcoin tittelen "lovlig valuta", angivelig etter å ha mottatt press fra Det internasjonale pengefondet. I henhold til den nye loven er folk ikke lenger forpliktet til å akseptere Bitcoin i sine virksomheter, og de kan ikke lenger betale skatt med det. Aksepten forblir frivillig.
+
+Likevel, i El Salvador og i andre deler av verden, er det stadig flere enkeltpersoner, bedrifter og organisasjoner som aksepterer Bitcoin som betalingsmiddel for produktene eller tjenestene sine.
 
 ![image](assets/en/72.webp)
 
@@ -1135,7 +1116,7 @@ En gradvis strategi innebærer gjentatte kjøp, det vil si å kjøpe små mengde
 
 **Pass deg for UTXO-er**: Husk å konsolidere UTXO-er i lommebøkene dine fra tid til annen. Denne praksisen er viktig for å administrere bitcoinsene dine effektivt og unngå unødvendige gebyrer under transaksjoner.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
 
 - Spontankjøp
 

@@ -1,0 +1,9 @@
+question: 有哪些免費的跨平台軟體可用來建立可像虛擬磁碟一樣掛載的加密容器檔案？
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - 同步
+  - WinRAR
+explanation: |
+  VeraCrypt 可讓您在所有主要作業系統上建立可作為虛擬磁碟存取的加密容器。
+reviewed: false

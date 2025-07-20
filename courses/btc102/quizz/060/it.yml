@@ -1,10 +1,9 @@
-question: Cosa è un portafoglio caldo nel contesto di Bitcoin?
-answer: Un portafoglio per conservare piccole quantità di Bitcoin online.
+question: Qual è il ruolo della lettera di successione Bitcoin in un piano successorio?
+answer: Guidare gli eredi nell'accesso ai fondi
 wrong_answers:
-  - Un portafoglio utilizzato per transazioni in climi caldi.
-  - Un portafoglio utilizzato per conservare grandi quantità di Bitcoin.
-  - Un portafoglio utilizzato per conservare Bitcoin per un lungo periodo di tempo.
+  - Servire come Contract per trasferire i bitcoin agli eredi
+  - Per determinare la distribuzione fiscale dei beni
+  - Per ottimizzare le commissioni di trasferimento tra portafogli
 explanation: |
-  Un portafoglio caldo è un portafoglio per conservare piccole quantità di Bitcoin online.
-  È considerato meno sicuro di un portafoglio freddo in quanto è più vulnerabile agli attacchi informatici.
+  La lettera di successione fornisce istruzioni chiare e precise per consentire ai propri cari di recuperare i bitcoin.
 reviewed: false

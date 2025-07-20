@@ -1,0 +1,9 @@
+question: Zašto Alice kreira transakciju povlačenja pre nego što objavi transakciju depozita?
+answer: Da povrati svoja sredstva u slučaju problema sa Bobom
+wrong_answers:
+  - Da se poveća kapacitet kanala sa svakom transakcijom
+  - Da izvršite Lightning transakciju odmah nakon otvaranja
+  - Da bi se Bobu omogućilo da direktno troši sredstva
+explanation: |
+  Alisa kreira transakciju povlačenja kako bi povratila svoja sredstva ako dođe do problema sa Bobom, čime osigurava sigurnost svog depozita.
+reviewed: false

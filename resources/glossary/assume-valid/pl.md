@@ -1,0 +1,8 @@
+---
+term: ZAKŁADAĆ WAŻNOŚĆ
+---
+
+Parametr konfiguracyjny w większościowym kliencie Bitcoin Core, który pozwala węzłowi, który właśnie został zainicjowany (ale jeszcze nie wykonał IBD), pominąć weryfikację podpisów dla wszystkich transakcji zawartych w blokach przed określonym blokiem. Ten słynny blok jest zdefiniowany przez odcisk jego nagłówka, czyli jego Hash. Wybrany blok jest odnawiany z każdą nową wersją Bitcoin Core. Po inicjalizacji, jeśli węzeł aktywował ten parametr, sprawdzi łańcuch nagłówków bloków, aby znaleźć gałąź z największą ilością zgromadzonej pracy. Jeśli węzeł wykryje Hash dostarczony przez Core w wybranej gałęzi, pominie weryfikację podpisów dla poprzednich bloków. W przeciwnym razie węzeł przejdzie do tradycyjnej synchronizacji (IBD), aby zweryfikować wszystko samodzielnie.
+
+
+Celem Assume Valid jest przyspieszenie procesu początkowej synchronizacji węzła bez narażania bezpieczeństwa, zakładając, że większość sieci już zweryfikowała te transakcje w przeszłości. Jedynym prawdziwym kompromisem dla węzła jest to, że w przypadku wcześniejszej kradzieży bitcoinów nie zostanie on powiadomiony. Jednak nadal może zapewnić dokładność ilości wydanych bitcoinów. Węzły kontynuują weryfikację podpisów dla transakcji następujących po bloku Assume Valid. Podejście to opiera się na założeniu, że jeśli transakcja została zaakceptowana przez sieć przez wystarczająco długi czas bez sporu, jest mało prawdopodobne, aby była nieuczciwa.

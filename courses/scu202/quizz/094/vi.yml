@@ -1,0 +1,9 @@
+question: Dự án nào đã đặt nền móng cho Internet hiện đại vào cuối những năm 1960?
+answer: ARPANET
+wrong_answers:
+  - Mạng lưới toàn cầu
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET là mạng lưới kết nối đầu tiên, được thiết kế để liên kết nhiều trung tâm nghiên cứu và là tiền thân trực tiếp của Internet.
+reviewed: false

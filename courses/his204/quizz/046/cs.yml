@@ -1,0 +1,8 @@
+question: Jaké bylo Quesnayovo lékařské povolání před ekonomií?
+answer: Chirurg
+wrong_answers:
+  - Zubař
+  - Zdravotní sestra
+  - Lékárník
+explanation: |
+  François Quesnay byl předtím, než se stal ekonomem, chirurgem. Byl dokonce chirurgem madame de Pompadour.

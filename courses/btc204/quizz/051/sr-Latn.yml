@@ -1,0 +1,9 @@
+question: Koja je mana diskretnih plaćanja (eng. Silent Payments-a) u poređenju sa BIP47?
+answer: Prijemnik mora skenirati gotovo čitav Blockchain.
+wrong_answers:
+  - Generišu veće naknade za transakcije za pošiljaoca.
+  - Oraničavaju broj mogućih transakcija.
+  - Manje su anonimni.
+explanation: |
+  U zamenu za odustajanje od obaveštavajuće transakcije, primalac mora da skenira sve Bitcoin transakcije koje su u skladu sa standardom u pokušaju da pronađe uplate namenjene njima.
+reviewed: false

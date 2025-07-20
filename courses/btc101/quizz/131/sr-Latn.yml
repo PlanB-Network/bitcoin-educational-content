@@ -1,0 +1,12 @@
+question: Koja je uloga Bitkoin čvora u Bitkoin mreži?
+answer: Ona potvrđuje nove blokove i uključene transakcije.
+wrong_answers:
+  - Stvara nove Bitkoine i stavlja ih u blokove.
+  - Reguliše cenu Bitkoina.
+  - Upravlja Bitkoin mrežom.
+explanation: |
+  Bitkoin čvor u mreži Bitkoin rukuje
+  validacijom novih blokova i uključenih transakcija. Upravo
+  ova mreža Bitkoin čvorova čini je istinski
+  decentralizovanom.
+reviewed: true

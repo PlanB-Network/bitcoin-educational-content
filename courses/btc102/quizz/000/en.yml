@@ -1,11 +1,9 @@
-question: What is a common characteristic of Ponzi schemes in the cryptocurrency domain?
-answer: They use new investors' money to pay older participants.
+question: What are the typical characteristics of a Ponzi scheme in the crypto ecosystem?
+answer: Guaranteed returns, difficult withdrawals, and referrals
 wrong_answers:
-  - They always involve Bitcoin.
-  - They are always legal and regulated.
-  - They always involve physical assets.
+  - Low returns, difficult withdrawals, and full transparency
+  - Guaranteed returns, difficult withdrawals, and no referral system
+  - Guaranteed returns, easy withdrawals, and no referral system
 explanation: |
-  Ponzi schemes in the cryptocurrency domain often operate by using new
-  investors' money to pay older participants. This unsustainable nature and dependence
-  on new arrivals make them likely to inevitably collapse.
+  These characteristics may indicate a pyramid scheme. If you observe them in a project, be very cautious.
 reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BIP0016
+---
+
+BIP16 ilianzisha dhana ya *Pay-to-Script-Hash* (P2SH), ambayo hutafsiriwa "kulipa kwa hati ya Hash". Iliyopendekezwa hapo awali mnamo 2012 na kuamilishwa mnamo 2013, BIP16 ililenga kurahisisha utumiaji wa miamala inayohitaji hati ngumu, kama vile miamala ya saini nyingi, kwa kuruhusu watumiaji kulipa kwa Hash ya hati inayohitajika kutumia bitcoins hizo badala ya hati yenyewe. Ubunifu huu ulipunguza kiwango cha data kinachohitajika katika shughuli ya awali, na kuhamisha mzigo wa kutoa hati kamili kwa mhusika anayetumia bitcoins. Pia iliruhusu script kufunuliwa tu wakati bitcoins zilitumiwa, badala ya wakati wa kupokea. BIP16 ina umuhimu wa kihistoria kwa vile inawakilisha mojawapo ya marekebisho makubwa ya kwanza kwa itifaki ya Bitcoin baada ya kujiondoa kwa Nakamoto mnamo 2011. BIP hii ilikuwa kitovu cha mijadala mikali ambayo hata ilisababisha Gavin Andresen, mrithi wa Satoshi kama msimamizi mkuu, kuchukua muda wa likizo. Mapendekezo mengine mengi yalikuwepo, na mengine yalikuwa karibu kuamilishwa badala ya BIP16.

@@ -1,0 +1,9 @@
+question: Prema Keynesu, koja je uloga novca u ekonomiji?
+answer: Instrument ekonomske politike
+wrong_answers:
+  - Samo sredstvo Exchange
+  - Kočnica za rast
+  - Alat za spekulaciju
+explanation: |
+  Za Keynesa, novac je poluga ekonomske politike koja omogućava vladama da regulišu ekonomiju uticajem na investicije, zaposlenost i ukupnu tražnju.
+reviewed: false

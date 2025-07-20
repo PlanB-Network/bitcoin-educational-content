@@ -1,0 +1,11 @@
+question: Koja je uloga relativnih cena u Austrijskoj teoriji privrednog ciklusa?
+answer: Relativne cene su važne za koordinaciju ekonomskih agenata.
+wrong_answers:
+  - Relativne cene su irelevantne u Austrijskoj teoriji poslovnog ciklusa.
+  - Relativne cene su važne za određivanje nivoa zaposlenosti.
+  - Relativne cene su važne za određivanje nivoa BDP-a.
+explanation: |
+  Austrijska škola insistira na važnosti relativnih cena za
+  koordinaciju ekonomskih agenata. Relativne cene odražavaju stvarnu oskudicu
+  faktora proizvodnje i omogućavaju ekonomskim agentima da racionalizuju svoje odluke.
+reviewed: true

@@ -1,12 +1,9 @@
-question: 根據賽博龐克運動，什麼是 Bitcoin？
-answer: 現金的電子等價物
+question: 為了確保您比特幣的安全，有哪些事情是絕對應該避免的？
+answer: 將您的比特幣保存在 Exchange 平台上
 wrong_answers:
-  - 數位黃金的一種形式
-  - 新形式的信用卡
-  - 一種加密貨幣
+  - 使用開放原始碼 Hardware Wallet
+  - 使用 Hot Wallet 進行日常交易
+  - 儲存方式多樣化
 explanation: |
-  本章提到，從賽博朋克的角度來看，Bitcoin 反對
-  無現金社會。它允許建立完全隱私且無中介的
-  數位金融交易。對賽博朋克運動而言，Bitcoin 是電子
-  等同於現金。
+  不是您的鑰匙，就不是您的比特幣」這一原則強調了持有您自己的私人鑰匙的重要性。在 Exchange 平台上，您的比特幣會暴露在不必要的風險中。
 reviewed: false

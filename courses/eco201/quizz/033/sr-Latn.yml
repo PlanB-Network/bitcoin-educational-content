@@ -1,0 +1,9 @@
+question: Kakva je veza između štednje i životnog standarda prema austrijskim ekonomistima?
+answer: Što više štedimo, više kapitala ćemo moći akumulirati, što će se zauzvrat prevesti u dobitke u produktivnosti koji donose više dobara. Tako se postiže viši životni standard.
+wrong_answers:
+  - Što više štedimo, naš standard života postaje niži.
+  - Ne postoji veza između štednje i životnog standarda.
+  - Što manje štedimo, naš standard života postaje viši.
+explanation: |
+  Austrijski ekonomisti smatraju da je snižavanje vremenskih preferencija početna tačka za vrlinski ciklus štednje → više kapitalnih dobara → više produktivnosti → više dobara = viši životni standard → niža vremenska preferencija. Dakle, što više štedimo, više kapitala ćemo moći akumulirati, što će zauzvrat rezultirati dobitcima u produktivnosti koji donose više dobara. Ovo vodi ka višem životnom standardu.
+reviewed: true

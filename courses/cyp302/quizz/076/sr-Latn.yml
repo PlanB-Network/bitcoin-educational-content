@@ -1,0 +1,9 @@
+question: Koja veličina ključa se smatra sigurnom protiv napada grube sile za modernu enkripciju?
+answer: 128 bita
+wrong_answers:
+  - 16 bita
+  - 64 bita
+  - 100 bita
+explanation: |
+  Sa ključem od najmanje 128 bita, moderna enkripcija se trenutno smatra sigurnom protiv napada grube sile, jer bi broj pokušaja bio nerealan.
+reviewed: false

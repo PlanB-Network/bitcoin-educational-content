@@ -1,0 +1,5 @@
+---
+term: MAANDIKO YASIYO NA MAANDIKO
+---
+
+Iliyoundwa awali na Andrew Poelstra, dhana hii inaruhusu utekelezaji wa mikataba mahiri bila kufichua kwa uwazi mantiki ya Contract kwenye Bitcoin Blockchain. Kama jina "hati zisizo na maandishi" linavyopendekeza, wazo hilo linatokana na kutekeleza hati (au mikataba) bila kutumia hati wazi. Mikataba hii hutumia sifa za sahihi za Schnorr, ambazo huwezesha matumizi ya *Sahihi za Adapta*, haswa kwa kufanya *Mabadilishano ya Atomiki*. Masharti ya Contract yanatumiwa na kutekelezwa off-chain na wahusika wanaohusika, ambao ndio pekee wanaofahamu masharti hayo. Tofauti na mikataba mahiri ya jadi, *Scriptless Scripts* hupunguza alama zao kwenye Blockchain, hivyo basi kupunguza gharama ya uendeshaji. Mikataba hii pia ni ya busara zaidi kuliko mikataba mahiri ya jadi, ambayo huacha alama kwenye Blockchain. Kwa hivyo, zinafanana na shughuli za kawaida, ambazo huongeza kuweka kutokujulikana kwao.

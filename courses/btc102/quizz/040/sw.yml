@@ -1,13 +1,9 @@
-question: Je, ni faida gani kuu ya Bitcoin juu ya akaunti za kawaida za benki?
-answer: Udhibiti kamili juu ya pesa zako
+question: Je, ni mkakati gani wa kupata unaweza kupitishwa na mmiliki mseto?
+answer: Wastani wa Gharama ya Dola
 wrong_answers:
-  - Viwango vya juu vya riba
-  - Ada za chini za muamala
-  - Nyakati za ununuzi wa haraka
+  - Biashara ya algorithmic
+  - Usuluhishi
+  - Udukuzi
 explanation: |
-  Sura hiyo inaeleza kuwa Bitcoin inatoa njia mbadala yenye nguvu ya
-  jadi
-  mifumo ya kifedha. Inaruhusu kila mtu kuhifadhi faragha yake, kulinda dhidi ya
-  mfumuko wa bei na kushuka kwa thamani ya sarafu, kupita tawala za kimabavu, na kurejesha mamlaka
-  juu ya pesa zao.
+  Wastani wa Gharama ya Dola huruhusu ununuzi wa kawaida wa Bitcoin ili kulainisha bei ya wastani ya ununuzi kadri muda unavyopita. Mchuuzi anaweza kuchanganya hii na manunuzi ya mara kwa mara ya mkupuo.
 reviewed: false

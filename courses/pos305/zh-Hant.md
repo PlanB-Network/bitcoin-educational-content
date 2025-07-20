@@ -27,7 +27,7 @@ objectives:
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
-歡迎來到 BTC305 課程：BTCPay Server 教學！
+歡迎來到 POS 305 課程：BTCPay Server 教學！
 
 本課程的目標是教您如何在您的業務或組織中安裝、設定及使用 BTCPay Server。BTCPay Server 是一個開源解決方案，可讓您以自主、安全且低成本的方式處理比特幣付款。本課程主要針對希望精通自我託管 BTCPay Server 並將其整合至日常營運的進階使用者。
 

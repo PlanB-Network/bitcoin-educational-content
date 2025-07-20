@@ -1,10 +1,9 @@
-question: 是誰形容 Bitcoin 為您口袋裡的瑞士銀行？
-answer: 奧巴馬
+question: 建議為 hodler 採用何種儲存解決方案？
+answer: A Hardware Wallet
 wrong_answers:
-  - 唐納德-川普
-  - 比爾蓋茲
-  - Elon Musk
+  - A Hot Wallet
+  - 託管服務
+  - 紙張 Wallet
 explanation: |
-  本章提到，奧巴馬曾經形容 Bitcoin 是您口袋裡的瑞士銀行。
-  你口袋裡的瑞士銀行。
+  長期持有比特幣的 Hodler 應該使用 Hardware Wallet 來最大化安全性。
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je centralna ideja Voltaireovog odlomka o Londonskoj berzi Exchange?
+answer: Biznismeni svih religija ostavljaju po strani svoje razlike kako bi se fokusirali na zajednički profit.
+wrong_answers:
+  - Različite religije sveta okupljaju se na Stock Exchange kako bi u miru praktikovali svoju veru.
+  - Londonska berza Exchange je mesto špekulacija i korupcije gde se moralne vrednosti zanemaruju.
+  - Religija nema mesta u poslovnom svetu kojim dominira duh konkurencije i individualizma.
+explanation: |
+  Voltaire ističe da, na Londonskoj berzi Exchange, poslovni ljudi prevazilaze svoje verske razlike kako bi sarađivali ka zajedničkom ekonomskom cilju, ilustrujući primat materijalnog interesa nad verskim podelama.
+reviewed: false

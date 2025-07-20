@@ -1,11 +1,9 @@
-question: Je, ni nini nafasi ya wachimbaji katika mtandao wa Bitcoin?
-answer: Kurekodi shughuli zilizoenezwa katika Bitcoin Blockchain
+question: Ni tabia gani kimsingi hutofautisha Bitcoin kutoka kwa altcoins?
+answer: Ugatuaji
 wrong_answers:
-  - Ili kuunda bitcoins mpya
-  - Ili kudhibiti thamani ya bitcoins
-  - Ili kuthibitisha utambulisho wa watumiaji wa Bitcoin
+  - Ukwasi
+  - Sifa
+  - Faragha
 explanation: |
-  Wachimbaji madini katika mtandao wa Bitcoin wanawajibika kurekodi miamala
-  ambazo zimeenezwa kwenye mtandao hadi kwenye Bitcoin Blockchain. Hii inahakikisha
-  mwisho wa shughuli.
+  Bitcoin inajulikana kwa ugatuaji wake, tofauti na altcoyins nyingi ambazo ziko katikati au chini.
 reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BARE-Multisig
+---
+
+Muundo wa hati wa kawaida wa P2MS unaotumika kuweka masharti ya matumizi kwenye UTXO. Inaruhusu kufunga bitcoins na funguo nyingi za umma. Ili kutumia bitcoins hizi, saini iliyo na nambari iliyobainishwa ya funguo za kibinafsi zinazohusiana lazima itolewe. Kwa mfano, `2/3` P2MS ina funguo `3` za umma zenye `3` funguo za faragha zinazohusiana. Ili kutumia bitcoins zikiwa zimefungwa kwa hati hii ya P2MS, saini iliyo na angalau `2` ya funguo za faragha `3` lazima iwekwe. Huu ni mfumo wa usalama wa kizingiti. Hati hii ilivumbuliwa mwaka wa 2011 na Gavin Andresen wakati alikuwa amechukua tu matengenezo ya mteja mkuu wa Bitcoin. Leo, P2MS inatumiwa kidogo tu na baadhi ya programu. Idadi kubwa ya sahihi za kisasa hutumia miundo mingine ya hati kama P2SH au P2WSH. Ikilinganishwa na hizi, P2MS ni ndogo sana. Vifunguo vya umma vilivyomo hufichuliwa unapopokea muamala. Kutumia P2MS pia ni ghali zaidi kuliko hati zingine nyingi.

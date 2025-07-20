@@ -1,0 +1,8 @@
+question: Mis vahe on füsiokraatide jaoks tootmise ja kasumi vahel?
+answer: Tööstusettevõtja ja kaupmees võivad võita, kuid ainult põllumees toodab, sest tootmine on kasuliku aine loomine
+wrong_answers:
+  - Tootjad ja kauplejad ei pruugi teenida kasumit. Ainult põllumajandus toob tingimata kasumit.
+  - Põllumees võib teenida, kuid toota saab ainult tööstur ja kaupmees, sest tootmine on teenuse osutamine
+  - Tootmine ja kasum on üks ja sama asi
+explanation: |
+  Füsiokraadid uskusid, et ainult põllumajandus on produktiivne, sest see loob uut ainet. Tööstust ja kaubandust peeti steriilseks tegevuseks, kuna need üksnes muundasid või asendasid olemasolevat rikkust.

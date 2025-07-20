@@ -1,0 +1,12 @@
+question: Zašto je važno verifikovati javni ključ sajta koristeći sistem sertifikata?
+answer: Da potvrdite autentičnost sajta.
+wrong_answers:
+  - Da se osigura da ne može doći do prevare, ali samo kada ste povezani putem javne Wi-Fi mreže.
+  - Da delimično blokirate online reklame.
+  - Da bi se osiguralo da nijedna zlonamerna entitet ne lažira vebsajt.
+explanation: |
+  Proveravanje javnog ključa sajta koristeći sistem sertifikata
+  je važno za potvrdu autentičnosti sajta. Ovo
+  pomaže u zaštiti od zlonamernih pojedinaca koji se predstavljaju
+  kao sajt i prenose podatke u običnom tekstu.
+reviewed: true

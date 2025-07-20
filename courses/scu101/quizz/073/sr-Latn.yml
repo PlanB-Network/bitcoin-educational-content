@@ -1,0 +1,9 @@
+question: Koja je glavna prednost korišćenja menadžera lozinki?
+answer: Pamćenje samo jedne glavne lozinke.
+wrong_answers:
+  - Više ne kreirate nove lozinke.
+  - Pomoć pri pamćenju svih lozinki korišćenjem Mnemonic tehnika.
+  - Eliminisanje potrebe za online nalozima.
+explanation: |
+  Korisnik treba da zapamti samo jednu lozinku da bi pristupio svim ostalim.
+reviewed: false

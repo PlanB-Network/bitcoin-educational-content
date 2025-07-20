@@ -1,0 +1,9 @@
+question: نقش post-mix Wallet در پروتکل Zerolink چیست؟
+answer: برای ذخیره UTXOها پس از مخلوط کردن.
+wrong_answers:
+  - برای ذخیره UTXOها قبل از مخلوط کردن.
+  - برای ذخیره UTXOهای تغییر.
+  - برای ذخیره‌سازی UTXOهای تجمیعی.
+explanation: |
+  پست‌میکس Wallet برای سکه‌هایی که مخلوط شده‌اند رزرو شده است.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - $8
 explanation: |
   On June 8th, the price of Bitcoin reached a historic high of $32 on Mt. Gox. However, it quickly fell after that.
-reviewed: false
+reviewed: true

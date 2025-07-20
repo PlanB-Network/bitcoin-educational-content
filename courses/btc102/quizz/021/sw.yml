@@ -1,11 +1,9 @@
-question: Je, ni makosa gani ya kawaida ambayo wawekezaji wanaoanza kufanya wanapoingia kwenye ulimwengu wa Bitcoin?
-answer: Uwekezaji kupita kiasi
+question: Nini maana kuu ya kisiasa ya Bitcoin?
+answer: Kupunguza udhibiti wa serikali juu ya pesa
 wrong_answers:
-  - Uwekezaji mdogo
-  - Kuwekeza katika Bitcoin pekee
-  - Si kuwekeza katika Bitcoin wakati wote
+  - Kuongeza uwekaji kati wa benki
+  - Kukuza mfumuko wa bei
+  - Kuimarisha kanuni za fedha
 explanation: |
-  Moja ya makosa ya kawaida wawekezaji Beginner kufanya wakati wa kuingia
-  ulimwengu wa Bitcoin ni uwekezaji kupita kiasi, ambayo inamaanisha kuwekeza pesa nyingi kuliko wanavyoweza
-  kumudu kupoteza. Hii inaweza kusababisha matatizo ya kifedha ikiwa thamani ya Bitcoin itapungua.
+  Bitcoin ni njia mbadala ambayo inadhoofisha uwezo wa taasisi za serikali juu ya pesa kupitia udhibiti na udhibiti wa shughuli.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Mitä ajatusta on kutsuttu Montaignen sofismiksi?
+answer: Exchange on nollasummapeli
+wrong_answers:
+  - Exchange on positiivisen summan peli
+  - Ajasta ja paikasta riippuen Exchange on joskus nollasummapeli ja joskus positiivinen peli
+  - Exchange on aina epäedullinen heikommalle osapuolelle
+explanation: |
+  Montaignen harhaluulo on ajatus siitä, että Exchange on nollasummapeli, eli mitä toinen voittaa, sitä toinen menettää. Tämä ajatus on väärä, koska vapaaehtoinen Exchange hyödyttää molempia osapuolia.

@@ -1,0 +1,9 @@
+question: Wat is het doel van de index bij het afleiden van kindsleutels?
+answer: Sibling sleutelparen onderscheiden
+wrong_answers:
+  - Identificeer de aard van de sleutel (publiek of privaat)
+  - Geef het beveiligingsniveau van de sleutel op
+  - Voeg een extra Layer aan beveiliging toe
+explanation: |
+  Met de index kunnen kindsleutels van hetzelfde ouderpaar worden onderscheiden.
+reviewed: false

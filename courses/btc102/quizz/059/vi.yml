@@ -1,10 +1,9 @@
-question: Ví lạnh trong bối cảnh của Bitcoin là gì?
-answer: Một ví dùng để lưu trữ lượng lớn Bitcoin ngoại tuyến
+question: Mục tiêu chính của những người chơi bitcoin hoang tưởng là gì?
+answer: Để bảo vệ sự riêng tư của họ
 wrong_answers:
-  - Một ví được sử dụng cho các giao dịch ở khí hậu lạnh
-  - Một ví được sử dụng để lưu trữ lượng nhỏ Bitcoin
-  - Một ví được sử dụng để lưu trữ Bitcoin trong một khoảng thời gian ngắn
+  - Để tích lũy satoshi nhanh chóng
+  - Để tối đa hóa lợi nhuận giao dịch
+  - Để giữ bitcoin của họ lâu dài
 explanation: |
-  Ví lạnh là một ví dùng để lưu trữ lượng lớn Bitcoin ngoại tuyến.
-  Nó được coi là an toàn hơn ví nóng vì ít dễ bị hack hơn.
+  Những người chơi bitcoin hoang tưởng chủ yếu muốn tránh mọi khả năng truy xuất nguồn gốc các giao dịch và danh tính của họ.
 reviewed: false

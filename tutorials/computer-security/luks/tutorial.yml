@@ -1,0 +1,25 @@
+id: 13d9928b-08b1-478c-a1b4-67617978584a
+
+credit_link: https://www.it-connect.fr/creer-une-cle-usb-chiffree-via-luks-avec-cryptsetup/
+
+tags:
+  - personal-security
+  - software
+  - DIY-IT
+
+category: data
+
+level: intermediate
+
+professor_id: 5ce53b80-c842-4ae9-b0f7-fb542aeb425f
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-07
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

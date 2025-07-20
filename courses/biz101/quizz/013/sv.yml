@@ -1,0 +1,9 @@
+question: Enligt österrikisk ekonomi, varför anses vinster vara en nyckelindikator för ett företags hälsa?
+answer: Vinsten visar nämligen att verksamheten tillgodoser konsumenternas behov på ett effektivt och hållbart sätt.
+wrong_answers:
+  - Eftersom vinsterna säkerställer att företagets personalstyrka är den största i sin bransch.
+  - För vinster är bara ett tecken på att företaget fått statliga subventioner.
+  - Eftersom vinsterna återspeglar slumpmässiga marknadshändelser som inte är relaterade till konsumenternas efterfrågan.
+explanation: |
+  Inom österrikisk ekonomi signalerar vinster att ett företag producerar varor eller tjänster som värderas av konsumenterna till ett pris som överstiger produktionskostnaden. Detta resultat tyder på ett effektivt resursutnyttjande och anpassning till marknadens behov.
+reviewed: false

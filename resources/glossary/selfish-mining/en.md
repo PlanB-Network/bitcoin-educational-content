@@ -1,0 +1,9 @@
+---
+term: SELFISH Mining
+---
+
+Strategy (or attack) in mining, where a miner or group of miners intentionally holds blocks with a valid proof of work without immediately releasing them to the network. The aim is to stay ahead of other miners in terms of proof of work, potentially enabling them to Miner several blocks in a row and publish them all at once, thus maximizing their gains. In other words, the attacking group of miners does not mine on the last block validated by the entire network, but rather on a block they have created themselves, which differs from the one validated by the network.
+
+This process generates a kind of secret branch of the Blockchain, which remains unknown to the whole network until this alternative chain potentially exceeds the honest Blockchain. Once the attacking miners' secret chain becomes longer (i.e. contains more accumulated work) than the honest, public chain, it is then broadcast to the entire network. At this point, the nodes in the network following the longest chain (with the most accumulated work) will synchronize to this new chain. So there's a reorganization.
+
+Mining selfishness is annoying for users, as it reduces system security by wasting some of the network's computing power. If successful, it also leads to Blockchain reorganizations, affecting the reliability of transaction confirmations for users. Still, this practice remains risky for the attacking group of miners, as it is often more profitable to Miner normally above the last publicly known block than to allocate computing power to a secret branch that will probably never exceed the honest Blockchain. The greater the number of blocks in the reorganization, the lower the probability of a successful attack.

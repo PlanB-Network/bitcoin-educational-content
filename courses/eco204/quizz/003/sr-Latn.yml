@@ -1,0 +1,13 @@
+question: Koja je strategija korišćena od strane Sjedinjenih Američkih Država 1933-1934 za devalvaciju dolara?
+answer: Vlada je zaplenila zlato građana, a zatim promenila pravila igre revalorizacijom vrednosti zlata kako bi koristila državnoj kasi i nanela štetu onima koji su prvobitno zamenili svoje zlato za novčanice.
+wrong_answers:
+  - Vlada je povećala Supply zlata, a zatim promenila pravila igre devalvacijom vrednosti zlata kako bi koristila trezoru i nanela štetu onima koji su prvobitno zamenili svoje zlato za novčanice.
+  - Vlada je zaplenila zlato građana, a zatim promenila pravila igre devalvacijom vrednosti zlata kako bi koristila državnoj kasi i nanela štetu onima koji su prvobitno zamenili svoje zlato za novčanice.
+  - Vlada je povećala Supply zlata, a zatim promenila pravila igre revalorizacijom vrednosti zlata kako bi koristila trezoru i nanela štetu onima koji su prvobitno zamenili svoje zlato za novčanice.
+explanation: |
+  Godine 1933, vlada SAD-a zaplenila je zlato građana. Zatim su 1934. godine
+  revalorizovali cenu zlata na $35 po unci, umesto $20.67. U suštini, vlada je
+  devalvirala dolar koji su ljudi posedovali. Kupovinom zlata od stanovništva
+  po $20.67 po unci 1933. godine, a zatim revalorizacijom cene zlata 1934. godine, vlada je
+  ostvarila značajan profit dok je devalvirala ušteđevinu svojih građana.
+reviewed: false

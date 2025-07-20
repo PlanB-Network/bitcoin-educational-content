@@ -1,11 +1,9 @@
-question: Apa perbedaan antara berdagang dan berinvestasi dalam konteks Bitcoin?
-answer: Berdagang melibatkan kontrak jangka pendek dengan risiko tinggi, sementara berinvestasi melibatkan pembelian BTC untuk jangka pendek hingga menengah dengan risiko terbatas.
+question: Apa dampak kebijakan moneter ekspansif terhadap mata uang fiat?
+answer: Mereka melemahkan nilai tabungan
 wrong_answers:
-  - Berdagang melibatkan pembelian BTC untuk jangka pendek hingga menengah, sementara berinvestasi melibatkan kontrak jangka pendek dengan risiko tinggi.
-  - Berdagang melibatkan pembelian BTC untuk jangka panjang, sementara berinvestasi melibatkan kontrak jangka pendek dengan risiko tinggi.
-  - Berdagang melibatkan pembelian BTC untuk jangka pendek hingga menengah, sementara berinvestasi melibatkan pembelian BTC untuk jangka panjang.
+  - Mereka meningkatkan daya beli
+  - Mereka menstabilkan suku bunga
+  - Mereka menjamin pertumbuhan ekonomi
 explanation: |
-  Dalam konteks Bitcoin, berdagang melibatkan kontrak jangka pendek dengan
-  risiko tinggi, sementara berinvestasi melibatkan pembelian BTC untuk jangka pendek hingga menengah dengan risiko
-  terbatas.
+  Pencetakan uang secara besar-besaran menyebabkan depresiasi daya beli, yang secara bertahap mengikis daya beli penabung.
 reviewed: false

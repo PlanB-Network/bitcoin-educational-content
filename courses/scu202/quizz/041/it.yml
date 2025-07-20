@@ -1,0 +1,9 @@
+question: Quale documento, spesso chiamato SHA256SUMS o MANIFEST, è necessario per verificare l'integrità del software scaricato?
+answer: Il file che elenca le impronte del software
+wrong_answers:
+  - Il manuale d'uso
+  - Il file che elenca le firme degli sviluppatori
+  - Il codice sorgente completo del progetto
+explanation: |
+  Il file manifest o SHA256SUMS contiene il Hash di ogni file distribuito dal progetto e consente di verificarne l'integrità.
+reviewed: false

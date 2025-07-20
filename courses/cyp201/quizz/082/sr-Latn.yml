@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između P2PK i P2PKH?
+answer: P2PK direktno koristi sirovi javni ključ, dok P2PKH koristi Hash javnog ključa.
+wrong_answers:
+  - P2PK je kompatibilan sa SegWit, dok P2PKH nije.
+  - P2PK koristi Schnorr potpis, dok P2PKH koristi ECDSA potpis.
+  - P2PK je namenjen za multisigs, dok je P2PKH za jednostavne skripte.
+explanation: |
+  P2PK zaključava sredstva sa sirovim javnim ključem, dok P2PKH koristi Hash javnog ključa.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Koji je glavni pristup austrijske ekonomije razumevanju ekonomije?
+answer: Austrijska ekonomija razume ekonomiju iz perspektive ljudske logike i sociologije.
+wrong_answers:
+  - Austrijska ekonomija razume ekonomiju kroz matematičke jednačine.
+  - Austrijska ekonomija razume ekonomiju iz perspektive štampanja novca i potrošnje.
+  - Austrijska ekonomija razume ekonomiju iz perspektive centralnih banaka.
+explanation: |
+  Poglavlje objašnjava da austrijska ekonomija razume
+  ekonomiju iz perspektive ljudske logike i
+  sociologije, umesto da pristupa ovoj disciplini kroz
+  matematičke jednačine.
+reviewed: true

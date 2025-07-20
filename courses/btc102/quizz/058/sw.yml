@@ -1,12 +1,9 @@
-question: Inamaanisha nini ikiwa huna ufunguo wa faragha wa Bitcoin Wallet yako?
-answer: Mtu wa tatu anawajibika kwa usalama wa bitcoins zako
+question: Je, ni suluhisho gani la uhifadhi la Cold linalopendekezwa kwa mtumiaji mwenye paranoid?
+answer: Haina hewa au DIY Hardware Wallet
 wrong_answers:
-  - Umepoteza bitcoins zako zote
-  - Huwezi tena kufanya miamala na bitcoins zako
-  - Bitcoins zako hubadilishwa kiotomatiki kuwa cryptocurrency nyingine
+  - Simu ya Hot Wallet
+  - Huduma ya uangalizi kwenye jukwaa la Exchange
+  - Kusudi la jumla chanzo funge Hardware Wallet
 explanation: |
-  Ikiwa huna ufunguo wa faragha wa Bitcoin Wallet yako, inamaanisha
-  mtu wa tatu anawajibika kwa usalama wa bitcoins zako. Wao ni chini
-  kwa hatari sawa na majukwaa ya Exchange kama vile udukuzi, ukamataji, udhibiti, au
-  kufilisika.
+  Mtumiaji mbishi hupendelea hifadhi ya nje ya mtandao kwa kutumia suluhu huria ili kupunguza hatari ya kukaribiana.
 reviewed: false

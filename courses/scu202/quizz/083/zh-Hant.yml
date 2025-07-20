@@ -1,0 +1,9 @@
+question: 哪種訊息服務可讓您完全匿名註冊，不需要電話號碼或永久登入帳號？
+answer: SimpleX 聊天
+wrong_answers:
+  - 訊號
+  - 電報
+  - WhatsApp
+explanation: |
+  SimpleX Chat 擺脫了唯一識別碼的概念：通過短暫連結或 QR 代碼來新增連絡人，而且不需要個人資料。
+reviewed: false

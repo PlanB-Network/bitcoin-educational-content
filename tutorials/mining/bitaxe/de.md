@@ -1,8 +1,8 @@
 ---
 name: Einrichtung eines BitAxe
-Description: Wie richtet man ein BitAxe ein?
+description: Wie richtet man ein BitAxe ein?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Einführung
 
 BitAxe ist ein Open-Source-Projekt, das von Skot erstellt und [auf GitHub verfügbar ist](https://github.com/skot/bitaxe), welches kosteneffektive Experimente im Mining ermöglicht.

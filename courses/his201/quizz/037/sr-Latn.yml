@@ -1,0 +1,9 @@
+question: Koja Exchange usluga kreirana u martu 2010. je bila najpopularnija pre pojave Mt. Gox-a u julu?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Ovo je bila peer-to-peer pijaca koristeći PayPal koja je pokrenuta 16. marta 2010. od strane pojedinca poznatog kao dwdollar i bila je glavna platforma pre Mt. Gox.
+reviewed: false

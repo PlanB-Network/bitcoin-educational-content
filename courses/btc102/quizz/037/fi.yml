@@ -1,11 +1,9 @@
-question: Mikä on Bitcoin kyberpunk-liikkeen mukaan?
-answer: Käteisen sähköinen vastine
+question: Mitä pitäisi ehdottomasti välttää bitcoinien turvallisuuden varmistamiseksi?
+answer: Bitcoinien säilyttäminen Exchange-alustalla
 wrong_answers:
-  - Digitaalisen kullan muoto
-  - Uudenlainen luottokortti
-  - Eräänlainen kryptovaluutta
+  - Avoimen lähdekoodin Hardware Wallet:n käyttö
+  - Hot Wallet:n käyttäminen päivittäisiin liiketoimiin
+  - Varastointimenetelmien monipuolistaminen
 explanation: |
-  Luvussa mainitaan, että kyberpunk-näkökulmasta Bitcoin vastustaa
-  käteisettömää yhteiskuntaa. Se mahdollistaa täysin yksityisten ja välittäjättömien
-  digitaalisten rahoitustransaktioiden luomisen. Kyberpunk-liikkeelle Bitcoin on käteisen sähköinen vastine.
+  Periaate "Not your keys, not your bitcoins" korostaa omien yksityisten avainten hallussapidon tärkeyttä. Exchange-alustalla bitcoinisi ovat alttiina tarpeettomille riskeille.
 reviewed: false

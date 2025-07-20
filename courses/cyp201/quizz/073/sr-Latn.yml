@@ -1,0 +1,9 @@
+question: Koji indeks predstavlja eksterni lanac naloga u putanji derivacije?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Spoljni lanac je identifikovan indeksom /0/ na dubini 4 putanje derivacije.
+reviewed: false

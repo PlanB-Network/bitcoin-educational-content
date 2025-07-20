@@ -1,0 +1,9 @@
+question: Šta omogućava sinhronizaciju podataka u realnom vremenu između Enterprise Bitcoin sistema i ERP softvera?
+answer: API-jevi
+wrong_answers:
+  - CSV datoteke
+  - Grupno otpremanje
+  - Izveštaji e-pošte
+explanation: |
+  API-ji omogućavaju kontinuiranu, realnu vremensku integraciju.
+reviewed: false

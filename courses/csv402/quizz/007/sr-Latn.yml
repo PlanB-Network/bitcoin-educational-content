@@ -1,0 +1,9 @@
+question: Kako RGB minimizira svoju vidljivost?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig tweak
+  - Ključna izmena
+explanation: |
+  Taproot (Tapret) omogućava da se obaveze diskretno i efikasno ubace u transakciju, uz osiguranje kompatibilnosti sa trenutnim standardima.
+reviewed: false

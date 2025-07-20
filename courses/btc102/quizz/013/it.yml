@@ -1,9 +1,9 @@
-question: Qual è una delle misure di base per migliorare le abitudini di sicurezza online?
-answer: Abilitare l'autenticazione a due fattori (2FA)
+question: Qual è la principale differenza tra trading e investimento?
+answer: Il trading è a breve termine e speculativo, l'investimento è a lungo termine e strategico
 wrong_answers:
-  - Utilizzare la stessa password per tutti gli account
-  - Trascurare di eseguire regolarmente il backup dei dati
-  - Condividere le password
+  - Il trading prevede commissioni fisse, l'investimento commissioni variabili
+  - Il trading si basa sull'analisi fondamentale, l'investimento sulle tendenze macro
+  - Il trading è meno rischioso dell'investimento
 explanation: |
-  Abilitare l'autenticazione a due fattori (2FA) è una delle misure di base per migliorare le abitudini di sicurezza online. Fornisce un ulteriore livello di sicurezza ai tuoi account più sensibili.
+  Il trading richiede un monitoraggio costante e competenze tecniche, mentre l'investimento si basa su una visione a lungo termine.
 reviewed: false

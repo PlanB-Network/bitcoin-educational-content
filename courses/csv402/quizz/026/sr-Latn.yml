@@ -1,0 +1,9 @@
+question: Koja je svrha Interface Implementation u RGB arhitekturi?
+answer: Mapirajte Schema polja na imena definisana u Interface
+wrong_answers:
+  - Kompajliraj AluVM skripte za validaciju
+  - Da definišete globalna stanja i vlasnička stanja Contract
+  - Da se čuvaju kriptografski dokazi na strani klijenta
+explanation: |
+  Interface Implementation uspostavlja vezu između Schema-ovog Business Logic i prezentacije čitljive od strane Interface.
+reviewed: false

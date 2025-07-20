@@ -1,11 +1,9 @@
-question: Mis on peamine põhjus diktatuurirežiimide loomiseks vastavalt peatükile?
-answer: Halvenevad varanduslikud ebavõrdsused maailmas
+question: Milline kasutaja profiil kogub regulaarselt bitcoine läbi Dollar-Cost Averaging?
+answer: Stacker
 wrong_answers:
-  - Hariduse puudumine maailmas
-  - Ressursside puudumine maailmas
-  - Demokraatia puudumine maailmas
+  - Hodler
+  - Aktiivne kasutaja
+  - Paranoiline
 explanation: |
-  Peatükis mainitakse, et halvenevad varanduslikud ebavõrdsused maailmas
-  on viinud ekstremismi tõusuni, mis on mõnikord viinud diktatuurirežiimide
-  loomiseni.
+  Ladustaja ostab regulaarselt väikeseid koguseid, et ostuhinda pikema aja jooksul keskmiselt tasa teha.
 reviewed: false

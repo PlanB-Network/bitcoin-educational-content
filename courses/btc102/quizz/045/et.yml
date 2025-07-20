@@ -1,9 +1,9 @@
-question: Mis on Bitcoin Core arendajate peamine ülesanne?
-answer: Nad vastutavad Bitcoin protokolli ja selle põhifunktsioonide peamise arenduse eest
+question: Miks on soovitatav regulaarselt kanda raha Hot Wallet-st Hardware Wallet-sse?
+answer: Häkkimisohu vähendamiseks
 wrong_answers:
-  - Nad kontrollivad Bitcoin võrku
-  - Nad loovad uusi bitcoine
-  - Nad reguleerivad Bitcoini hinda
+  - Wallet likviidsuse suurendamiseks
+  - Tehingutasude vähendamiseks
+  - UTXO privaatsuse optimeerimiseks
 explanation: |
-  Peatüki sisu selgitab, et Bitcoin Core arendajad vastutavad Bitcoin protokolli ja selle põhifunktsioonide peamise arenduse eest. Nad ei kontrolli Bitcoin võrku, ei loo uusi bitcoine ega reguleeri Bitcoini hinda.
+  Ülekandmine Hardware Wallet-le kindlustab raha, salvestades privaatvõtmed võrguühenduseta.
 reviewed: false

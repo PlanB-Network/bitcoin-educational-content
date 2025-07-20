@@ -1,9 +1,9 @@
-question: DCA viết tắt của từ gì trong bối cảnh đầu tư Bitcoin?
-answer: Trung bình giá đồng đô la
+question: Người dùng hoang tưởng tránh sử dụng phương pháp thu thập nào?
+answer: Nền tảng tập trung với KYC
 wrong_answers:
-  - Mua Tiền Tệ Trực Tiếp
-  - Phân Bổ Tiền Điện Tử
-  - Tài Sản Crypto Phi Tập Trung
+  - Nền tảng ghép đôi P2P
+  - Máy ATM Bitcoin
+  - Mua tiền mặt trực tiếp tại buổi gặp mặt
 explanation: |
-  Trung bình giá đồng đô la (DCA) là một chiến lược mà bạn chia tổng số tiền bạn muốn đầu tư qua các lần mua hàng kỳ hạn để giảm bớt tác động của biến động giá.
+  Để bảo vệ tính ẩn danh, người dùng hoang tưởng sẽ tránh các nền tảng yêu cầu xác minh danh tính.
 reviewed: false

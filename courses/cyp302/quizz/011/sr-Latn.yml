@@ -1,0 +1,9 @@
+question: Šta omogućava presretanje lokalnih komunikacija od strane slabo opremljenih napadača?
+answer: Korišćenje radio talasa za bežične veze
+wrong_answers:
+  - Usmeravanje svih podataka preko satelita
+  - Korišćenje samo koaksijalnih kablova za prenos podataka
+  - Slanje podataka putem optičkih vlakana samo
+explanation: |
+  Bežične veze, koje prenose podatke putem radio talasa, olakšavaju presretanje napadačima, jer ne zahtevaju fizički pristup mreži.
+reviewed: false

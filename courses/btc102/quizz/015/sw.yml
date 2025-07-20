@@ -1,11 +1,9 @@
-question: Je, ni faida gani kuu ya kutumia kidhibiti nenosiri kulingana na sura?
-answer: Inakusaidia usiwahi kutumia nenosiri sawa mara mbili
+question: Je, ni mfumo gani unaowezesha miamala ya haraka na ya bei nafuu kwenye Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Inakusaidia kukumbuka majina yako ya watumiaji
-  - Inalinda kompyuta yako kutoka kwa virusi
-  - Inazalisha nywila za nasibu
+  - SegWit
+  - Mtandao wa Ripple
+  - RGB
 explanation: |
-  Kulingana na sura, kidhibiti cha nenosiri hukusaidia kamwe kutumia
-  nenosiri sawa mara mbili, chagua manenosiri tata na salama, na kuwezesha mtandao wako
-  usimamizi wa usalama.'
+  Lightning Network ni suluhisho la pili-Layer ambayo inaruhusu kutatua haraka na kupunguza gharama ya shughuli za BTC.
 reviewed: false

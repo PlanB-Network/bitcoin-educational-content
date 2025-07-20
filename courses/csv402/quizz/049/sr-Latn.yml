@@ -1,0 +1,9 @@
+question: Kako RGB osigurava poverljivost u upravljanju digitalnom imovinom?
+answer: Registracijom samo kriptografskih obaveza na Blockchain
+wrong_answers:
+  - Šifrovanjem svih end-to-end transakcija na Blockchain
+  - Sakrivanjem identiteta korisnika putem decentralizovanih miksera
+  - Koristeći samo privremene Bitcoin adrese za svaki transfer
+explanation: |
+  Čuvanjem samo kriptografskih dokaza On-Chain, RGB drži poverljive informacije Contract i informacije o transferu.
+reviewed: false

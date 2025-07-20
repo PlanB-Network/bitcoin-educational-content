@@ -1,10 +1,9 @@
-question: Mikä on yksi yleisistä virheistä, joita aloittelevat sijoittajat tekevät astuessaan Bitcoinin maailmaan?
-answer: Ylisijoittaminen
+question: Mikä on Bitcoin:n tärkein poliittinen vaikutus?
+answer: Valtion rahan hallinnan vähentäminen
 wrong_answers:
-  - Alisijoittaminen
-  - Sijoittaminen pelkästään Bitcoiniin
-  - Ei sijoittaminen Bitcoiniin ollenkaan
+  - Pankkitoiminnan lisääntyvä keskittäminen
+  - Inflaation edistäminen
+  - Rahoitusalan sääntelyn vahvistaminen
 explanation: |
-  Yksi yleisistä virheistä, joita aloittelevat sijoittajat tekevät astuessaan
-  Bitcoinin maailmaan, on ylisijoittaminen, mikä tarkoittaa enemmän rahan sijoittamista kuin mitä heillä on varaa menettää. Tämä voi johtaa taloudellisiin ongelmiin, jos Bitcoinin arvo laskee.
+  Bitcoin on vaihtoehto, joka heikentää valtion instituutioiden valtaa rahaan seigniorage- ja transaktiosensuurin avulla.
 reviewed: false

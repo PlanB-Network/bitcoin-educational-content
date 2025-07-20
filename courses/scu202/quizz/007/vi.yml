@@ -1,0 +1,9 @@
+question: Hệ thống nào nổi bật nhờ mô hình mã nguồn mở, dựa trên cộng đồng?
+answer: GNU/Linux
+wrong_answers:
+  - Cửa sổ
+  - macOS
+  - Hệ điều hành Chrome
+explanation: |
+  GNU/Linux là hệ điều hành miễn phí và được phát triển bởi cộng đồng toàn thế giới, đảm bảo tính minh bạch, bảo mật và linh hoạt cho người dùng.
+reviewed: false

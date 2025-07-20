@@ -1,13 +1,9 @@
-question: Biện pháp cơ bản nào giúp cải thiện thói quen bảo mật trực tuyến?
-answer: Kích hoạt xác thực hai yếu tố (2FA)
+question: Sự khác biệt chính giữa giao dịch và đầu tư là gì?
+answer: Giao dịch là ngắn hạn và đầu cơ, đầu tư là dài hạn và chiến lược
 wrong_answers:
-  - Sử dụng cùng một mật khẩu cho tất cả các tài khoản
-  - Không thường xuyên sao lưu dữ liệu
-  - Chia sẻ mật khẩu của bạn
+  - Giao dịch liên quan đến phí cố định, đầu tư liên quan đến phí thay đổi
+  - Giao dịch dựa trên phân tích cơ bản, đầu tư theo xu hướng vĩ mô
+  - Giao dịch ít rủi ro hơn đầu tư
 explanation: |
-  Kích hoạt xác thực hai yếu tố (2FA) là một trong những biện pháp cơ bản
-
-  để cải thiện thói quen bảo mật trực tuyến. Nó cung cấp một lớp bảo mật bổ sung cho
-
-  các tài khoản nhạy cảm nhất của bạn.
+  Giao dịch đòi hỏi phải theo dõi liên tục và có kỹ năng chuyên môn, trong khi đầu tư đòi hỏi tầm nhìn dài hạn.
 reviewed: false

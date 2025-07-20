@@ -1,0 +1,8 @@
+question: Avant l’économie, quelle profession médicale Quesnay avait-il ?
+answer: Chirurgien
+wrong_answers:
+  - Dentiste
+  - Infirmier
+  - Pharmacien
+explanation: |
+  François Quesnay était chirurgien avant de devenir économiste. Il a même été le chirurgien de Madame de Pompadour.

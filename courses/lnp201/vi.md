@@ -86,7 +86,7 @@ Hãy lấy một ví dụ về một giao dịch Lightning. Nếu Alice muốn g
 
 **Công suất kênh**, ở mức 130,000 satoshis, vẫn giữ nguyên. Điều thay đổi là sự phân bổ tiền. Hệ thống này không cho phép gửi nhiều tiền hơn số tiền một người sở hữu. Ví dụ, nếu Bob muốn gửi lại 80,000 satoshis cho Alice, anh ta không thể, bởi vì anh ta chỉ có 70,000.
 
-Một cách khác để hình dung sự phân bổ tiền là nghĩ về một **cái trượt** chỉ ra vị trí của tiền trong kênh. Ban đầu, với 100,000 satoshis cho Alice và 30,000 cho Bob, cái trượt một cách lô-gic ở phía Alice. Sau giao dịch 40,000 satoshis, cái trượt sẽ di chuyển nhẹ về phía Bob, người giờ đây có 70,000 satoshis.
+Một cách khác để hình dung việc phân bổ quỹ là tưởng tượng một **con trỏ** chỉ ra vị trí quỹ nằm trong kênh. Ban đầu, với 100.000 satoshi cho Alice và 30.000 cho Bob, con trỏ nghiêng nhiều hơn về phía Bob vì Alice có nhiều quỹ hơn. Sau giao dịch 40.000 satoshi, con trỏ sẽ dịch nhẹ sang phía Alice, người giờ đây sở hữu 60.000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 

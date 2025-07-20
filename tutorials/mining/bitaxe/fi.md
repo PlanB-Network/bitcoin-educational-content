@@ -1,8 +1,8 @@
 ---
 name: BitAxen asennus
-Description: Kuinka asentaa BitAxe?
+description: Kuinka asentaa BitAxe?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### Johdanto
 
 BitAxe on Skotin luoma avoimen lähdekoodin projekti, joka on [saatavilla GitHubissa](https://github.com/skot/bitaxe) ja mahdollistaa kustannustehokkaan louhintaeksperimentoinnin.

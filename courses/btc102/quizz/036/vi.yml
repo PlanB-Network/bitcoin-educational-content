@@ -1,15 +1,9 @@
-question: Cụm từ Không phải chìa khóa của bạn, không phải Bitcoin của bạn nhấn mạnh điều gì?
-
-answer: Tầm quan trọng của việc sở hữu khóa riêng của ví Bitcoin
-
+question: Mục đích chính của việc xác định hồ sơ người dùng là gì?
+answer: Để áp dụng một chiến lược phù hợp với nhu cầu của bạn
 wrong_answers:
-  - Tầm quan trọng của việc có một chìa khóa vật lý để truy cập Bitcoin của bạn
-  - Tầm quan trọng của việc giữ Bitcoin của bạn ở một nơi an toàn
-  - Tầm quan trọng của việc không chia sẻ thông tin tài khoản Bitcoin của bạn
-
+  - Để tối đa hóa đầu cơ và do đó lợi nhuận
+  - Để áp dụng một chiến lược chung có hiệu quả với mọi người
+  - Để biết người có ảnh hưởng Bitcoin nào nên theo dõi trên mạng xã hội
 explanation: |
-  Chương này giải thích rằng cụm từ Không phải chìa khóa của bạn, không phải Bitcoin của bạn
-  nhấn mạnh tầm quan trọng của việc sở hữu khóa riêng của ví Bitcoin. Bằng cách sở hữu
-  khóa riêng, bạn có toàn quyền kiểm soát số Bitcoin mà nó chứa.
-
+  Biết được hồ sơ của mình và có thể điều chỉnh hồ sơ đó cho phép bạn lựa chọn các giải pháp thu thập và lưu trữ phù hợp với hoàn cảnh cá nhân của mình.
 reviewed: false

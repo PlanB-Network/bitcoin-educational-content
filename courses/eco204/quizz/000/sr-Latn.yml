@@ -1,0 +1,9 @@
+question: Kakva je intrinzična veza između monetarne ekspanzije i inflacije prema Miltonu Friedmanu?
+answer: Inflacija je uvek i svuda monetarni fenomen.
+wrong_answers:
+  - Inflacija je uvek i svuda fiskalni fenomen.
+  - Inflacija je uvek i svuda politički fenomen.
+  - Inflacija je uvek i svuda društveni fenomen.
+explanation: |
+  Milton Friedman, poznati ekonomista, je poznato izjavio da je Inflacija uvek i svuda monetarni fenomen. Ova izjava naglašava suštinsku vezu između monetarnog širenja i inflacije.
+reviewed: false

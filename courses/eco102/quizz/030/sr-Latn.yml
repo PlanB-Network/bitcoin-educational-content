@@ -1,0 +1,9 @@
+question: Bastiat smatra da je Rousseau preteča kojeg političkog pokreta?
+answer: Socijalizma
+wrong_answers:
+  - Komunizma
+  - Mutualizma
+  - Anarhizma
+explanation: |
+  Bastiat vidi Rousseau-a kao preteču socijalizma, zbog njegovog kolektivnog pristupa društvu, gde se pojedinac mora pokoriti opštoj volji.
+reviewed: false

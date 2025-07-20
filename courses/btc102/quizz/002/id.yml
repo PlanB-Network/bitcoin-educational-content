@@ -1,11 +1,9 @@
-question: Apa contoh terkenal dari hard fork Bitcoin?
-answer: Bitcoin Cash (BCH)
+question: Tindakan pencegahan apa yang harus dilakukan terhadap penipuan donasi dan lotere palsu?
+answer: Jangan pernah mengirim uang untuk menerima bitcoin
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Selalu kirim dalam jumlah kecil untuk menguji penawaran
+  - Berinvestasi untuk mendapatkan keuntungan yang cepat dan mudah
+  - Berbagi informasi pribadi untuk mengamankan transaksi
 explanation: |
-  Bitcoin telah mengalami beberapa hard fork seiring waktu, menghasilkan berbagai
-  versi alternatif dari mata uang asli. Contoh terkenal dari penyimpangan ini
-  termasuk Bitcoin Cash (BCH) dan Bitcoin Satoshi Vision (BSV).
+  Permintaan pembayaran di muka adalah tanda umum penipuan dalam jenis penipuan ini.
 reviewed: false

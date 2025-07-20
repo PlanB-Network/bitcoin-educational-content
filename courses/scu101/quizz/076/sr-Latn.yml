@@ -1,0 +1,9 @@
+question: Zašto se preporučuje korišćenje nasumično generisanih lozinki?
+answer: Da se oduprete napadima grube sile.
+wrong_answers:
+  - Da bi ih bilo lakše zapamtiti.
+  - Da smanje njihovu složenost.
+  - Da se odupre Sybil napadima.
+explanation: |
+  Nasumičnost čini lozinke težim za pogađanje metodom pokušaja i greške, čime se pojačava njihova sigurnost protiv napada grube sile.
+reviewed: false

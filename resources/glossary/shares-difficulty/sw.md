@@ -1,0 +1,5 @@
+---
+term: HISA UGUMU
+---
+
+Ugumu lengwa ulio juu zaidi ya ule wa Bitcoin (hivyo ugumu kidogo), unaofafanuliwa na Mining pool ili kuhitimu Hash ya hisa na kutathmini mchango wa kila Miner binafsi ndani ya bwawa. Ili kudhibiti kwa ufanisi mzigo wa uthibitishaji na kuhakikisha kwamba kila Miner, bila kujali uwezo wao wa kukokotoa, inawasilisha hisa mara kwa mara, vikundi vinarekebisha ugumu wa hisa. Ugumu uliopewa kila Miner huamua idadi ya hisa wanazokusanya: kwa mfano, ikiwa Miner ina ugumu uliopewa wa 10 na inawasilisha uthibitisho 5 halali wa kazi katika ugumu huu, wanapata hisa 50. Miner yenye nguvu zaidi yenye ugumu wa 100 anayewasilisha vithibitisho 7 halali vya kazi atapata hisa 700. Mfumo huu unaruhusu ukadiriaji sahihi wa kila Miner ya Hashrate na usambazaji wa zawadi kulingana na mbinu iliyochaguliwa ya kukokotoa fidia (PPS, PPLNS, TIDES...).

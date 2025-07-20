@@ -1,0 +1,9 @@
+question: Koji koncept nije isključivo povezan sa simetričnim ili asimetričnim kriptografskim šemama?
+answer: Hash funkcije
+wrong_answers:
+  - Javni i privatni parovi ključeva
+  - Asimetrična kriptografija
+  - Simetrična kriptografija
+explanation: |
+  Funkcije Hash su ključna komponenta moderne kriptografije, ali nisu specifično povezane ni sa simetričnim ni sa asimetričnim šemama, za razliku od javnih i privatnih ključeva.
+reviewed: false

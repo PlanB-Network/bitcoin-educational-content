@@ -1,11 +1,9 @@
-question: Lợi ích chính của việc sử dụng VPN là gì?
-answer: Nó bảo vệ sự riêng tư của bạn bằng cách ẩn địa chỉ IP của bạn
+question: Tại sao việc bảo vệ cụm từ Mnemonic của bạn lại quan trọng?
+answer: Bởi vì việc mất nó sẽ dẫn đến mất bitcoin vĩnh viễn
 wrong_answers:
-  - Nó tăng tốc độ kết nối internet của bạn
-  - Nó cung cấp quyền truy cập miễn phí vào các dịch vụ trả phí
-  - Nó bảo vệ máy tính của bạn khỏi virus
+  - Bởi vì Blockchain quá dài để có thể tái tạo nó
+  - Bởi vì việc mất nó sẽ dẫn đến rò rỉ dữ liệu cá nhân
+  - Bởi vì nền tảng Exchange yêu cầu rất nhiều tài liệu để tạo lại nó
 explanation: |
-  Một VPN, hay Mạng Riêng Ảo, bảo vệ sự riêng tư của bạn bằng cách ẩn
-  địa chỉ IP của bạn. Mặc dù nó không làm cho bạn hoàn toàn ẩn danh, nhưng đây vẫn là một bước đơn giản
-  và hiệu quả để cải thiện sự riêng tư trực tuyến của bạn.
+  Cụm từ Mnemonic cho phép khôi phục quyền truy cập. Nếu cụm từ này bị mất và Wallet không còn có thể truy cập được trên thiết bị của nó nữa, thì bitcoin sẽ bị mất vĩnh viễn.
 reviewed: false

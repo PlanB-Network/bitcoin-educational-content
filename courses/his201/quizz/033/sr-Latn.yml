@@ -1,0 +1,9 @@
+question: Koji Miner iz 2009. je izgubio sve svoje bitkoine bacivši svoj računar na deponiju 2013. godine?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NewLibertyStandard
+explanation: |
+  Ovaj britanski inženjer generisao je 8.000 bitkoina svojim računarom između februara i aprila 2009. Njegov slučaj je [objavljen](https: //www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site) od strane Guardiana.
+reviewed: false

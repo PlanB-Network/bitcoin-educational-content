@@ -1,0 +1,11 @@
+question: Kolika je učestalost prilagođavanja težine?
+answer: Svakih 2016 blokova.
+wrong_answers:
+  - Svakih 1048 blokova.
+  - Svakih 512 blokova.
+  - Svakih 4032 blokova.
+explanation: |
+  Podešavanje težine je mehanizam koji se dešava
+  svakih 2016 blokova, ili otprilike svake dve nedelje, kako bi se osiguralo da se
+  novi blok doda u Blockchain svakih deset minuta u proseku, bez obzira na globalni Hashrate.
+reviewed: true

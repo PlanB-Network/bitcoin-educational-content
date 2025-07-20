@@ -1,9 +1,9 @@
-question: Cosa si intende per soluzione non-KYC nel contesto di Bitcoin?
-answer: Una soluzione che consente transazioni Bitcoin anonime.
+question: Perché si consiglia di scrivere la lettera di successione con inchiostro su carta?
+answer: Per evitare i rischi associati alla compromissione dei documenti digitali
 wrong_answers:
-  - Una soluzione che consente transazioni Bitcoin senza internet.
-  - Una soluzione che consente transazioni Bitcoin senza un portafoglio.
-  - Una soluzione che consente transazioni Bitcoin senza commissioni.
+  - Per ridurre i costi di stampa
+  - Per ottenere una firma legalmente riconosciuta
+  - Per aumentare il valore legale del documento
 explanation: |
-  Una soluzione non-KYC (Know Your Customer) è una soluzione che consente transazioni Bitcoin anonime. Non richiede all'utente di fornire informazioni personali di identificazione.
+  Una lettera scritta a mano è meno vulnerabile agli attacchi informatici e garantisce la riservatezza delle istruzioni.
 reviewed: false

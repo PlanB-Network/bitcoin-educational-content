@@ -1,0 +1,11 @@
+question: Koji su neki od aspekata kriptografije korišćeni u sajber bezbednosti?
+answer: SSL/TLS, simetrično/asimetrično šifrovanje
+wrong_answers:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+explanation: |
+  Poglavlje navodi SSL/TLS i simetrično/asimetrično
+  šifrovanje kao neke od aspekata kriptografije korišćene u
+  sajber bezbednosti.
+reviewed: true

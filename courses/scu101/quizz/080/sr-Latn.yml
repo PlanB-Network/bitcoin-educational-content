@@ -1,0 +1,9 @@
+question: Zašto se savetuje kreiranje dve odvojene email adrese?
+answer: Da se odvoje opšte komunikacije od oporavka naloga.
+wrong_answers:
+  - Da se odvoje profesionalne i lične komunikacije.
+  - Da biste kreirali više naloga i povećali online vidljivost.
+  - Da primate više neželjene pošte.
+explanation: |
+  Razdvajanje email adresa pomaže u ograničavanju rizika i boljoj zaštiti pristupa kritičnim nalozima.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad innebär Mining för Bitcoin?
+answer: Ett lägsta pris
+wrong_answers:
+  - Ett takpris
+  - Ett fast pris
+  - Ett rörligt pris
+explanation: |
+  Mining fastställer ett golvpris för Bitcoin, under vilket
+  gruvarbetare skulle sälja med förlust. Kostnaden för Mining
+  påverkar i hög grad priset på Bitcoin.
+reviewed: true

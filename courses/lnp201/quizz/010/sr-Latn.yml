@@ -1,0 +1,9 @@
+question: Koji je prvi korak u otvaranju Lightning kanala između dva učesnika?
+answer: Poruke Exchange koje sadrže iznose i javne ključeve
+wrong_answers:
+  - Odmah objavite transakciju depozita na Blockchain
+  - Kreiraj 2/2 multisignature Address bez prethodnog Exchange
+  - Potpiši transakciju povlačenja pre Exchange javnih ključeva
+explanation: |
+  Otvaranje kanala počinje sa Exchange poruka između dve strane, gde dele iznose koje žele da ulože i svoje javne ključeve.
+reviewed: false

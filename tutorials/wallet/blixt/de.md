@@ -1,228 +1,679 @@
 ---
-name: Blixt
+name: Blixt Wallet
+description: Wie können Sie einen leistungsstarken LN-Knoten auf Ihrem Mobiltelefon verwenden?
+---
+![cover](cover.webp)
 
-description: LN-Multifunktions-Wallet
+
+Dieser Leitfaden ist all jenen neuen Nutzern gewidmet, die Bitcoin Lightning Network (LN) in einer KOSTENLOSEN, VOLLSTÄNDIG NICHT KUNDENORIENTIERTEN Weise nutzen wollen.
+
+
+Mit [Blixt Wallet] (https://blixtwallet.com/), einem vollständigen LN-Knoten auf Ihrem Handy, wo immer Sie sind.
+
+
+Wenn Sie Bitcoin Lightning Network noch nie benutzt haben, lesen Sie bitte zunächst diese einfache Erklärung über Lightning Network (LN) (https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+
+
+## WICHTIGE ASPEKTE:
+
+
+
+- Blixt ist ein privater Knoten, KEIN Routing-Knoten! Behalten Sie das im Hinterkopf: Das bedeutet, dass alle LN-Kanäle in Blixt dem LN-Graphen unangekündigt zur Verfügung stehen (so genannte private Kanäle). Das bedeutet, dass dieser Knoten KEIN ROUTING von anderen Zahlungen durch den Blixt-Knoten durchführt. Dieser Blixt-Knoten ist NICHT für das Routing, ich wiederhole. Er dient hauptsächlich dazu, Ihre eigenen LN-Kanäle zu verwalten und Ihre LN-Zahlungen privat abzuwickeln, wann immer Sie es brauchen. Dieser Blixt-Knoten muss online sein und synchronisiert werden, NUR BEVOR Sie Ihre Transaktionen durchführen. Aus diesem Grund sehen Sie oben ein Symbol, das den Synchronisierungsstatus anzeigt. Es dauert nur wenige Augenblicke, je nachdem, wie lange Sie ihn offline gehalten haben.
+
+
+
+- Blixt verwendet LND (aezeed) als Wallet-Backend, versuchen Sie also nicht, andere Arten von Bitcoin-Geldbörsen in es zu importieren. [Hier haben Sie die Arten von Wallet Mnemonic Samen erklärt] (https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Und hier ist [eine ausführlichere Liste aller Arten von Geldbörsen](https://walletsrecovery.org/). Wenn du also vorher einen LND-Knoten hattest, kannst du die seed- und die backup.channels in Blixt importieren, [wie es in diesem Leitfaden erklärt wird](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+
+
+
+- Am Ende dieses Leitfadens finden Sie einen speziellen Abschnitt mit ["Tipps und Tricks"] (https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+
+
+
+- Blixt wichtige Links - siehe am Ende dieses Leitfadens, bitte bookmarken Sie sie.
+
+
 ---
 
-![Präsentation](assets/1.webp)
+## Blixt - Erster Kontakt
 
-## Ein leistungsstarker BTC/Lightning-Node in Ihrer Tasche, egal wo Sie sind
 
-Ich möchte Ihnen einen interessanten und gleichzeitig leistungsstarken neuen BTC/LN-Node und mobilen Wallet vorstellen - Blixt. Der Name stammt aus dem Schwedischen und bedeutet "Blitz".
+Also... Darths Mom hat beschlossen, LN mit Blixt zu verwenden. Hard Entscheidung, aber weise. Blixt ist nur für schlaue Leute und diejenigen, die wirklich mehr und tieferen Gebrauch von LN lernen wollen.
 
-## Wie habe ich dieses kleine Juwel entdeckt?
 
-Ich habe einen Umbrel LND-Node und wollte eine Backup-Lösung haben, um meinen Node im Falle eines SHTF1 schnell wiederherstellen zu können. Also habe ich dieses mobile Wallet gefunden, mit dem sich alle Node-Fonds aus SCB-Backups wiederherstellen lassen. Danach habe ich angefangen, es genauer zu testen und festgestellt, dass ES EIN VOLLSTÄNDIGER NODE IN IHRER EIGENEN TASCHE IST.
+![blixt](assets/en/01.webp)
 
-Vergessen Sie das nicht, denn das ist sehr wichtig!
 
-> Am Ende dieses Artikels finden Sie einige einfache und schnelle Tutorials, wie Sie es verwenden und sich mit anderen Nodes verbinden können.
+Darth warnt seine Mutter:
 
-Es handelt sich um eine erstaunliche Anwendung für Android und iOS, mit der Sie einen BTC-LND-Node in Ihrer eigenen Tasche betreiben können. Unglaublich, oder? Auf Ihrem eigenen Telefon können Sie in weniger als 10 Minuten einen einsatzbereiten BTC LN-Node haben, mit umfangreichen Funktionen für erfahrene Benutzer, aber auch für neue Benutzer oder solche, die nicht so technikaffin sind, da die Verwendung einfach und nahtlos ist.
 
-Blixt Wallet ist ein Open-Source-Projekt unter der MIT-Lizenz und konzentriert sich auf eine Nische von Benutzern, die mit BTC/LN beginnen möchten, aber nicht die Mittel haben, eine vollständige Maschine zu betreiben, oder einfach einen mobilen Node betreiben möchten.
+"*Mama, wenn du anfängst, Blixt LN Node zu benutzen, musst du zuerst wissen, was Lightning Network ist und wie es funktioniert, zumindest auf grundlegender Ebene. [Hier habe ich eine einfache Liste von Ressourcen über Lightning Network zusammengestellt (https://blixtwallet.github.io/faq#what-is-LN). Bitte lesen Sie diese zuerst.*"
 
-Links
 
-Hier sind einige Links zu dieser neuen Node/Wallet-App:
+Darth's Mom hat die Ressourcen gelesen und ihren ersten Schritt getan: Blixt auf ihrem brandneuen Android-Gerät installiert. Blixt ist auch für iOS und macOS (Desktop) verfügbar. Aber das ist nichts für Darths Mutter... Trotzdem wird empfohlen, eine neuere Version von Android zu verwenden, mindestens 9 oder 10 für bessere Kompatibilität und Erfahrung. Die Ausführung eines vollständigen LN-Knotens auf einem mobilen Gerät ist keine leichte Aufgabe und könnte etwas Platz (mindestens 600 MB) und Speicherplatz beanspruchen.
 
-> Offizielle Website - mit einer charmanten interaktiven Demo
 
-> GitHub-Repository: Überprüfen Sie den Entwicklungsstand und/oder laden Sie die Quellen herunter
->
-> Telegram-Hilfegruppe - Hier können Sie dem Entwickler und der Community direkt Fragen stellen
->
-> Download der Android-App Blixt
->
-> Download der Testflight-App für iOS
->
-> Twitter-Feed mit Demos
+Wenn du Blixt öffnest, werden dir auf dem "Willkommen"-Bildschirm einige Optionen angezeigt:
 
-![Hauptbild](assets/2.webp)
 
-# Hauptfunktionen verfügbar
+![blixt](assets/en/02.webp)
 
-## Neutrino-Node
 
-Blixt verbindet sich standardmäßig mit dem Blixt-Server, um Blöcke und den Index mit Neutrino (SPV-Modus für vereinfachte Zahlungsverifikation) zu synchronisieren, aber der Benutzer kann sich auch mit seinem eigenen Node verbinden. Es ist erstaunlich, dass die Synchronisierung eines SPV-Nodes in meinem Fall auf Android 11 weniger als 5 Minuten dauert, um das volle Node-Wallet (On-Chain und LN) nutzen zu können.
-**Vollständiger nicht verwahrter Knoten**
+In der rechten oberen Ecke sehen Sie 3 Punkte, die ein Menü mit aktivieren:
 
-Der Benutzer kann seine eigenen Kanäle mit einer benutzerfreundlichen Oberfläche verwalten und ausreichend angezeigte Informationen für eine gute Erfahrung erhalten. Im linken oberen Schubladenmenü können Sie zu den Lightning-Kanälen gehen und mit anderen Knoten öffnen, wie Sie möchten. Vergessen Sie nicht, Tor in den Einstellungen zu aktivieren. Dies ist sowohl für die Privatsphäre als auch für den Fall, dass Sie als mobiler Knoten Ihre Internetverbindung / Clearnet-IP häufig ändern, besser, da Ihre Peers gestört werden können. Mit der Tor-Knoten-URI haben Sie immer dieselbe private Kennung, unabhängig von Ihrem Standort / Ihrer IP.
 
-## LND-Knoten sichern / wiederherstellen
 
-Eine leistungsstarke, einfach zu verwaltende und nützliche Funktion ist die Wiederherstellung anderer ausgefallener LND-Knoten mit nur der 24-Wörter-Samenliste und der Datei "channels.backup".
+- "enable Tor" - Nutzer können mit dem Tor-Netzwerk starten, insbesondere wenn sie einen alten LND-Knoten wiederherstellen wollen, der nur mit Tor-Peers lief.
+- "Bitcoin-Knoten einstellen" - wenn der Benutzer sich direkt mit seinem eigenen Knoten verbinden möchte, um die Blöcke über Neutrino zu synchronisieren, kann er dies direkt auf dem Willkommensbildschirm tun. Diese Option ist auch gut für den Fall, dass Ihre Internetverbindung oder Tor nicht so stabil ist, um sich mit dem Standard-Bitcoin-Knoten (node.blixtwallet.com) zu verbinden.
+- Bald wird die Sprache dort hinzugefügt, so dass der Benutzer direkt mit einer Sprache beginnen kann, die ihm angenehm ist. Wenn Sie zu diesem Open-Source-Projekt mit Übersetzungen in anderen Sprachen beitragen möchten, [bitte hier](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
 
-> Hier ist eine Anleitung, wie Sie ausgefallene Umbrel-Knoten in Blixt wiederherstellen können, falls es zu einer Notsituation kommt.
 
-Der Benutzer hat auch die Möglichkeit, die Sicherung der Blixt-Kanäle in Google Drive und / oder im lokalen Speicher auf seinem eigenen Mobilgerät zu speichern (um sie später an einen sicheren Ort außerhalb des Telefons zu verschieben).
+### OPTION A - Neue Wallet erstellen
 
-Der Wiederherstellungsprozess ist ziemlich einfach: Geben Sie den 24-Wörter-Samen ein, fügen Sie die Sicherungsdatei (zuvor in den Speicher des Mobilgeräts kopiert) hinzu und klicken Sie auf "Wiederherstellen". Es dauert eine Weile, um alle Blöcke für Ihre vergangenen Transaktionen zu synchronisieren und zu scannen. Die Kanäle werden automatisch geschlossen und die Mittel in Ihre Onchain-Brieftasche zurückgeführt (siehe das Schubladenmenü oben links - Onchain).
 
-> Wenn Sie zuvor offene Kanäle mit Ihrem alten Knoten hinter Tor hatten, müssen Sie zuerst die Tor-Option aktivieren (und die Anwendung neu starten) in den Einstellungen des Menüs. Auf diese Weise schlägt der Schließvorgang nicht fehl und/oder die Option zum erzwungenen Schließen wird nicht verwendet.
+Wenn Sie "ein neues Wallet erstellen" wählen, werden Sie direkt zum Hauptbildschirm von Blixt Wallet weitergeleitet.
 
-Vergessen Sie nicht, Ihre LN-Kanäle nach dem Öffnen und/oder Schließen von Kanälen zu sichern. Es dauert nur wenige Sekunden, um sicher zu sein. Später können Sie die Sicherungsdatei an einen sicheren Ort außerhalb Ihres Mobilgeräts verschieben.
-Um Ihre Saatgut in einem Wiederherstellungsszenario zu testen, bevor Sie Mittel hinzufügen, verwenden Sie einfach dasselbe 24-Wörter-Saatgut (aezeed) in BlueWallet. Wenn die generierte BTC-Adresse in Blixt dieselbe ist, sind Sie bereit. Sie müssen BlueWallet danach nicht mehr verwenden, Sie können die getestete Brieftasche einfach für die Wiederherstellung löschen.
-Integriertes Tor
-'Einmal aktiviert, startet die Anwendung hinter dem Tor-Netzwerk neu. Ab diesem Zeitpunkt können Sie in den Einstellungen des Menüs Ihre Knoten-ID mit einer Onion-Adresse sehen, so dass andere Knoten Kanäle zu Ihrem kleinen mobilen Blixt-Knoten öffnen können. Oder sagen wir, Sie haben Ihren eigenen Knoten zu Hause und möchten kleine Kanäle mit Ihrem mobilen Blixt-Knoten haben. Eine perfekte Kombination.
 
-## Dunder LSP - Liquidity Service Provider oder Liquiditätsdienstleister
+Dies ist Ihr "Cockpit" und auch der "Haupt-LN Wallet". Beachten Sie also, dass hier nur der Saldo Ihres LN Wallet angezeigt wird. Der angeschlossene Wallet wird separat angezeigt (siehe C).
 
-Eine einfache und fantastische Funktion, die es neuen Benutzern ermöglicht, sofort BTC im Lightning Network zu akzeptieren, ohne Gelder auf die On-Chain-Brieftasche einzuzahlen und dann LN-Kanäle zu öffnen.
 
-Für neue Benutzer ist dies eine großartige Nachricht, da sie angeblich direkt im LN von Null anfangen können. Dazu müssen Sie lediglich eine LN-Rechnung (oder Rechnung) vom Hauptbildschirm aus über die Schaltfläche "Empfangen" erstellen, den Betrag, die Beschreibung usw. eingeben und von einer anderen Brieftasche aus bezahlen. Blixt öffnet einen Kanal von maximal 500k Sats pro empfangener Transaktion. Sie können bei Bedarf mehrere Kanäle öffnen.
+![blixt](assets/en/03.webp)
 
-Ein interessanter und nützlicher Fall ist folgender: Angenommen, der erste empfangene Betrag beträgt 200k. Blixt öffnet einen Kanal von 500k Sats und hat bereits 200k (abzüglich der Öffnungsgebühren) auf Ihrer Seite. Da Sie jedoch noch 300k "Platz" haben, können Sie weitere empfangen. Daher wird die nächste Zahlung, sagen wir 100k, direkt über diesen Kanal ohne zusätzliche Gebühren erfolgen und Sie haben immer noch 200k Platz für weitere Zahlungen.
 
-Wenn Sie sich jedoch für die dritte Zahlung entscheiden und zum Beispiel 300k empfangen möchten, wird ein weiterer neuer Kanal von 500k erstellt und diese 300k werden auf Ihre Seite geschoben.
+A - Blixt blockiert das Symbol der Synchronisationsanzeige. Dies ist das Wichtigste für einen LN Knoten: mit dem Netzwerk synchronisiert zu sein. Wenn dieses Symbol noch funktioniert, bedeutet das, dass dein Knoten NICHT BEREIT ist! Haben Sie also Geduld, besonders bei der ersten Synchronisation. Es kann bis zu 6-8 Minuten dauern, abhängig von Ihrem Gerät und Ihrer Internetverbindung.
 
-Wenn zu viele Anfragen vorliegen, kann der Blixt-Knoten die Kanalkapazität bei der Eröffnung ändern.
 
-## Automatisches Öffnen von Kanälen
+Sie können darauf klicken und den Status der Synchronisierung sehen:
 
-In den Einstellungen kann der Benutzer diese Option aktivieren und einen automatisierten Dienst haben, der Kanäle mit den besten Knoten und Routen aus dem verfügbaren Guthaben in der On-Chain-Brieftasche der Blixt-Anwendung öffnet. Dies ist eine vorteilhafte Funktion für neue Benutzer, die nicht wissen, mit welchem Knoten sie einen Kanal öffnen sollen und/oder wie sie einen LN-Kanal öffnen können. Es ist wie ein Autopilot für LN.
 
-> Denken Sie daran: Diese Option wird nur einmal verwendet, wenn Sie Ihre neue Blixt-Brieftasche erstellen, und ist standardmäßig aktiviert. Wenn der neue Benutzer den On-Chain-QR-Code auf dem Hauptbildschirm scannt und seine ersten Sats an diese Adresse einzahlt, öffnet Blixt automatisch einen Kanal mit diesen Sats und dem öffentlichen Blixt-Knoten.
+![blixt](assets/en/04.webp)
 
-## Eingehende Liquiditätsdienste'
 
-## Funktion für Händler, die mehr eingehende Liquidität benötigen, einfach zu bedienen. Dazu wählen Sie einfach einen der Liquiditätsanbieter aus der Liste aus, zahlen den gewünschten Betrag für den Kanal und geben die ID Ihres Knotens an. Von dort aus wird ein Kanal zu Ihrem Blixt-Knoten geöffnet.
+Sie können auch auf die Schaltfläche "LND-Protokoll anzeigen" (A) klicken, wenn Sie weitere technische Details des LND-Protokolls in Echtzeit sehen und lesen möchten. Dies ist sehr nützlich für die Fehlersuche und um mehr über die Funktionsweise des LN zu erfahren.
 
-## Kontaktlisten
 
-Nützliche Funktion, wenn Sie eine dauerhafte Liste von Empfängern haben möchten, mit denen Sie die meiste Zeit handeln. Diese Liste kann aus LNURLs, Lightning-Adressen oder zukünftigen statischen Zahlungsinformationen/Rechnungen bestehen. Diese Liste kann derzeit nicht außerhalb der Anwendung gespeichert werden, aber es ist geplant, eine Exportoption zu haben.
+B - Hier können Sie auf alle Blixt-Einstellungen zugreifen, und das sind eine Menge! Blixt bietet viele Funktionen und Optionen, um deinen LN-Knoten wie ein Profi zu verwalten. Alle diese Optionen werden im Detail auf der "[Blixt Features Page](https://blixtwallet.github.io/features#blixt-options) - Options Menu" erklärt.
 
-## An Lightning-Adresse senden
 
-Sie können an jede LN-Adresse senden, die nicht in Ihrer Kontaktliste steht. Möglicherweise gibt es bald eine Option, eine eigene LN-Adresse vom Typ @blixtwallet.com zu haben.
+C - Hier haben Sie das "Magic Drawer"-Menü, [auch hier im Detail erklärt] (https://blixtwallet.github.io/features#blixt-drawer). Hier ist die "Onchain Wallet" (B), Lightning Channels (C), Kontakte, Channels Status Symbol (A), Keysend (D).
 
-Unterstützung von LNURL
 
-Sie können LNURL scannen/bezahlen/verbinden, aber derzeit funktioniert dies nicht, wenn LNURL hinter Tor liegt.
+![blixt](assets/en/05.webp)
 
-## Keysend
 
-Eine sehr leistungsstarke Funktion, die nur wenige mobile Wallets haben. Sie können direkt über einen Kanal Geld senden/überweisen, indem Sie eine Nachricht hinzufügen, wenn nötig. Diese Funktion ist sehr nützlich, um Nachrichten auf dem Amboss.space-Anzeigetafel anzuzeigen (hier ist eine Anleitung zu dieser Amboss-Anzeigetafel).
+D - Ist das Hilfe-Menü, mit Links zu FAQ / Guides Seite, Kontakt Entwickler, Github Seite und Telegram Support Gruppe.
 
-## Nachrichten signieren
 
-Sehr nützliches Werkzeug zum Signieren von Nachrichten mit Ihrem privaten Schlüssel des Blixt-Knotens, z. B. Authentifizierungsnachrichten und so weiter. Nur sehr wenige mobile Wallets verfügen über diese Funktion, praktisch keine.
+E - Geben Sie Ihre ersten BTC Address an, wo Sie Ihre ersten Tests Sats einzahlen können. DIES IST OPTIONAL! Wenn Sie direkt in diesen Address einzahlen, wird ein LN-Kanal zum Blixt Node geöffnet. Das bedeutet, dass Ihr eingezahltes Sats in eine andere Onchain-Transaktion (tx) geht, um diesen LN-Kanal zu öffnen. Sie können das in Blixt onchain Wallet überprüfen (siehe Punkt C), indem Sie auf das TX-Menü oben rechts klicken.
 
-## Multi-Kanal-Zahlungen - Multi-Path Payments (MPP)
 
-Nützliche Funktion für LN-Zahlungen, die eine LN-Zahlung in mehrere Teile aufteilt, über mehrere Kanäle hinweg. Dies ist eine gute Möglichkeit, die Liquidität im Netzwerk auszugleichen und die Privatsphäre zu verbessern.
+![blixt](assets/en/06.webp)
 
-## Lightning-Browser
 
-Eine Reihe von Drittanbieterdiensten mit LN, die in einem einfachen, zugänglichen und benutzerfreundlichen Browser organisiert sind. Dies ist auch eine gute Möglichkeit, Unternehmen zu fördern, die BTC auf LN akzeptieren. Dies ist eine Funktion, die in Zukunft weiterentwickelt wird. Derzeit funktioniert sie nicht hinter Tor, daher erfolgt das Surfen in diesen Anwendungen im Klartext (Clearnet).
+Wie Sie im Onchain-Transaktionsprotokoll sehen können, sind die Schritte sehr detailliert und geben an, wohin die Sats gehen (einzahlen, Kanal öffnen, schließen).
 
-## Log-Explorer
 
-Ein leistungsstolles Tool zum Überprüfen der LND-Logs und des Zustands Ihres Knotens im Allgemeinen. Es gibt eine Option zum Speichern der Log-Datei. Es ist sehr nützlich, diese Logs zur Hand zu haben, falls Sie die Hilfe des Entwicklers benötigen, um bestimmte Probleme zu identifizieren.
+EMPFEHLUNG:
 
-## Sicherheit
 
-Vous pouvez in den Anwendungseinstellungen die Möglichkeit einstellen, die Anwendung für eine höhere Sicherheit Ihrer Wallet/Node mit einer PIN und/oder Fingerabdruck zu starten.
+Nachdem wir mehrere Situationen getestet haben, sind wir zu dem Schluss gekommen, dass es viel effizienter ist, Kanäle zwischen 1 und 5 Mio. Sats zu öffnen. Kleinere Kanäle neigen dazu, schnell erschöpft zu sein und einen höheren Prozentsatz an Gebühren im Vergleich zu größeren Kanälen zu zahlen.
 
-## On-Chain Wallet
 
-Diese Funktion ist etwas versteckt im linken oberen Menüschubfach. Da sie von einem LN-Benutzer nicht oft verwendet wird, ist sie nicht auf dem Hauptbildschirm sichtbar. Aber das ist nicht schlimm, Sie können es auf einer separaten Wallet haben, auf der Sie Adressen verwalten und das Transaktionsprotokoll anzeigen können, indem Sie beispielsweise Ihren Seed auf Sparrow importieren. Möglicherweise wird Blixt Wallet in Zukunft auch eine Funktion zum Verwalten von UTxO enthalten. Verwenden Sie jedoch NUR diese On-Chain Wallet, um LN-Kanäle zu öffnen oder zu schließen.
+F - Zeigt Ihren Haupt-Wallet-Saldo in Lightning an. Dies ist NICHT Ihr gesamter Blixt Wallet Saldo, sondern nur der Sats, den Sie in Lightning Channels haben und der zum Senden verfügbar ist. Wie bereits erwähnt, ist der Onchain-Wallet separat. Behalten Sie diesen Aspekt im Auge. Das Onchain-Wallet ist aus einem wichtigen Grund separat: Es wird hauptsächlich zum Öffnen/Schließen von LN-Kanälen verwendet.
 
-"Ostereier"
 
-Ja, in der Blixt-App gibt es einige versteckte Funktionen, kleine Dinge, die die App liebenswert machen und lustige/interessante Aktionen und Antworten auslösen.
-Hinweis: Versuchen Sie zweimal auf das Blixt-Logo im Schubfach zu klicken 🙂 Den Rest können Sie selbst entdecken.
+Ok, jetzt hat Darth's Mom etwas Sats in das auf dem Hauptbildschirm angezeigte onchain Address eingezahlt. Es wird empfohlen, dass Sie, wenn Sie das tun, Ihre Blixt-App online und aktiv für eine Weile zu halten, bis die BTC tx von den Minern in den ersten Block genommen wird.
 
-# Mini-Leitfaden für typische Anwendungsfälle mit Blixt
 
-A. Öffnen von Kanälen zu Ihrem Blixt-Mini-Node von Ihrem Umbrel-Node aus
+Danach kann es bis zu 20-30 Minuten dauern, bis der Kanal vollständig bestätigt ist und Sie ihn im Magic Drawer - Lightning Channels als aktiv sehen. Auch der kleine farbige Punkt oben in der Schublade, wenn Green ist, zeigt an, dass Ihr LN-Kanal online ist und bereit ist, Sats über LN zu senden.
 
-## Für Android-Benutzer:
 
-1. Gehen Sie zu den Blixt-Einstellungen - aktivieren Sie Tor - starten Sie die Anwendung neu (schließen Sie sie erzwungenermaßen, wenn sie nicht automatisch neu startet).
+Der Address und die angezeigte Willkommensnachricht verschwinden. Es ist nun nicht mehr notwendig, einen automatischen Kanal zu öffnen. Sie können die Option auch im Menü Einstellungen deaktivieren.
 
-2. Warten Sie, bis Blixt hinter Tor geöffnet ist und die neuesten Blöcke synchronisiert.
 
-3. Gehen Sie zu den Einstellungen - klicken Sie auf "Tor Onion Service anzeigen", kopieren Sie es, das ist die URI Ihres Blixt-Nodes.
+Es ist an der Zeit, weiterzugehen und andere Funktionen und Optionen zu testen, um LN-Kanäle zu öffnen.
 
-4a. Gehen Sie zu Ihrer Umbrel RideTheLightning- oder ThunderHub-Anwendung (ich bevorzuge letztere) - fügen Sie einen Peer hinzu und fügen Sie die Onion-Adresse, die Blixt-URI, ein.
 
-4b. Gehen Sie zum Dashboard Ihres Umbrel- oder RTL/TH-Nodes - öffnen Sie einen Kanal und wählen Sie einen bekannten Peer aus der Liste aus, indem Sie Ihre Blixt-Node-ID suchen.
+Nun wollen wir einen weiteren Kanal mit einem anderen Node-Peer öffnen. Die Blixt-Community hat [eine Liste guter Nodes für die Nutzung von Blixt] (https://github.com/hsjoberg/blixt-Wallet/issues/1033) zusammengestellt.
 
-5. Geben Sie die Satoshimenge für den Kanal ein und klicken Sie auf "Öffnen".
 
-6. Warten Sie auf 3 Bestätigungen, um einen neuen Kanal mit Ihrem "Mini-Node" Blixt zu haben.
+**Vorgehensweise zum Öffnen eines LN-Kanals in Blixt**
 
-## Für iOS-Benutzer:
 
-1. Gehen Sie zu den Blixt-Einstellungen - aktivieren Sie Tor - starten Sie die Anwendung neu.
+Das ist ganz einfach, man braucht nur ein paar Schritte und ein bisschen Geduld:
 
-2. Warten Sie, bis Blixt hinter Tor geöffnet ist und die neuesten Blöcke synchronisiert.
 
-3. Gehen Sie zu Ihrem Umbrel-Node, kopieren Sie die Tor-URI oder zeigen Sie den QR-Code an.
 
-4. In der Blixt Wallet gehen Sie zu Einstellungen - Lightning Peers anzeigen - Peer hinzufügen und scannen oder fügen Sie die URI Ihres Umbrel-Nodes ein. Es wird als bekannter Peer hinzugefügt.
+- Aufnahme in die [Blixt Community](https://github.com/hsjoberg/blixt-Wallet/issues/1033) Liste der Gleichgestellten
+- Wählen Sie einen Knoten aus und klicken Sie auf den Link mit dem Namen des Knotens, um dessen Amboss-Seite zu öffnen
+- Klicken Sie auf , um den QR-Code für den Knoten URI Address anzuzeigen
 
-5. Gehen Sie zurück zur Thunderhub-App von Umbrel, öffnen Sie das Kanalmenü und wählen Sie einen Peer aus der Dropdown-Liste der vorhandenen Peers aus.
 
-6. Geben Sie alle anderen Details ein, um den Kanal zu öffnen, und klicken Sie auf "Öffnen".
+![blixt](assets/en/07.webp)
 
-7. Warten Sie auf 3 Bestätigungen, um diesen Kanal zu öffnen, und voilà, Sie haben jetzt mehr eingehende Liquidität auf Ihrer Blixt-Seite.
 
-## B. Öffnen von Kanälen zu einem Umbrel-Knoten
+Öffnen Sie Blixt und gehen Sie zur obersten Schublade - Lightning Channels und klicken Sie auf die Schaltfläche "+"
 
-Dieses Mal werden wir einen Kanal VON Ihrem Blixt-Knoten zu Ihrem eigenen Umbrel-Knoten (zum Beispiel) öffnen, um die Verbindung und die Verwendung von Tor zu testen. Später können Sie diesen Kanal ausgleichen, indem Sie die Hälfte oder den gewünschten Betrag auf die Umbrel-Seite schieben. Dies kann auch als "Entlastungsventil" verwendet werden, wenn Ihr Haupt-Umbrel-Knoten mehr Liquidität benötigt.
 
-1. Gehen Sie zu Ihrem Umbrel-Knoten und kopieren Sie die URI Ihres Knotens oder zeigen Sie einfach den QR-Code für die Onion-Adresse an.
+![blixt](assets/en/08.webp)
 
-2. Gehen Sie zu Blixt - Einstellungen - Lightning-Peers - neuen Peer hinzufügen.
 
-3. Scannen Sie den QR-Code Ihres Umbrel-Knotens oder fügen Sie die Onion-URI ein, und Ihr Umbrel-Knoten wird als Peer hinzugefügt.
+Klicken Sie nun auf die Kamera (A), um den QR-Code von der Amboss-Seite zu scannen, und die Daten des Knotens werden ausgefüllt. Fügen Sie den Betrag des Sats für den gewünschten Kanal hinzu und wählen Sie dann den Gebührensatz für den Sender. Für eine schnellere Bestätigung können Sie die Einstellung auf Auto (B) belassen oder sie manuell durch Schieben der Taste anpassen. Sie können auch lange auf die Nummer drücken und sie nach Belieben bearbeiten.
 
-4. Gehen Sie zurück zum Hauptbildschirm - oberer linker Schubladenbereich - Lightning-Kanäle.
 
-5. Klicken Sie auf das "+"-Zeichen, um einen neuen Kanal zu öffnen, und fügen Sie die URI ein oder scannen Sie den QR-Code Ihres Umbrel-Knotens. Geben Sie die Anzahl der Sats für den Kanal, die Gebühren ein und klicken Sie auf "Öffnen".
+Setzen Sie nicht weniger als 1 sat/vbyte ein! In der Regel ist es besser, die [Mempool Gebühren] (https://Mempool.space/) zu konsultieren, bevor Sie einen Kanal öffnen, und eine günstige Gebühr zu wählen.
 
-6. Fertig! Der Kanal wird 3 Bestätigungen benötigen, um geöffnet zu werden, und ... Viel Spaß mit Lightning und Ihrem eigenen Umbrel-Knoten.
 
-C. Direkter Empfang von Geldern in der LN-Wallet
+Fertig, jetzt nur noch auf den Button "Kanal öffnen" klicken und auf 3 Bestätigungen warten, das dauert in der Regel 30 min (1 Block ca. alle 10min).
 
-Es ist eine einfache und angenehme Erfahrung, Gelder direkt in Ihre frisch eröffnete Blixt-Knoten-Wallet zu erhalten, ohne zuvor Geld einzahlen und manuell Kanäle mit bestimmten Knoten öffnen zu müssen.
 
-1. Sobald Sie die Wallet erstellt und den Seed gesichert haben, gehen Sie zu den Einstellungen und aktivieren Sie die Dunder LSP-Funktion.
+Sobald dies bestätigt ist, wird der Kanal in Ihrem Bereich "Blitzkanäle" als aktiv angezeigt.
 
-2. Gehen Sie zurück zum Hauptbildschirm - klicken Sie auf "Empfangen", geben Sie den Betrag ein (ich habe es mit 200k Sats getestet).
 
-3. Es wird eine LN-Rechnung erstellt, die von einer anderen LN-Wallet bezahlt werden soll.
+---
 
-4. Der Dunder LSP-Service erstellt einen Kanal von maximal 500k Sats und schiebt die von Ihnen gesendeten Gelder (in unserem Fall 200k) auf die Seite Ihres Kanals. So haben Sie einen schönen Kanal zum Senden und Empfangen bereit.
-5. Wenn Sie mehr erhalten möchten, werden zukünftige Zahlungen über denselben Kanal empfangen, bis das Maximum von 500k erreicht ist. Wenn es keinen "Platz" mehr gibt, um über denselben Kanal zu empfangen, wird Dunder LSP gemäß demselben Verfahren einen neuen Kanal erstellen.
-6. Sichern Sie Ihre geöffneten neuen Kanäle. Immer nach dem Öffnen oder Schließen eines neuen Kanals durchführen. Es ist sehr einfach und schnell und kann viele Probleme vermeiden.
+## Blixt - Zweiter Kontakt
 
-Dies ist ein perfektes Anwendungsszenario für neue kleine Händler, die mit dem Akzeptieren von BTC beginnen möchten.
 
-Wichtige Hinweise
+Jetzt haben wir also einen LN-Kanal mit nur OUTBOUND-Liquidität. Das bedeutet, dass wir nur SENDEN können, wir können immer noch nicht Sats über LN EMPFANGEN.
 
-> Bevor Sie Ihre Kanäle hinter Tor verwenden und wenn die Blixt-App lange Zeit geschlossen/nicht synchronisiert war, warten Sie, bis das Synchronisationssymbol oben auf dem Bildschirm verschwindet, und stellen Sie sicher, dass alle Ihre Kanäle aktiv sind. Wenn alles in Ordnung ist, können Sie Ihre Transaktionen durchführen.
->
-> Wenn die Kanäle immer noch nicht aktiv sind, fügen Sie die öffentlichen Schlüssel (URIs) Ihrer Peers erneut in den Blixt-Optionen - Show peers hinzu. Sie können auch versuchen, diese Liste zu aktualisieren, wenn das Gossip unter Tor Ihre Peers findet, werden die Kanäle wieder aktiviert. Wenn nicht, fügen Sie sie erneut hinzu, um den Gossip zur Kommunikation zu zwingen.
->
-> Aber denken Sie daran: Führen Sie nicht sofort eine Transaktion aus, nachdem Sie die Blixt-App geöffnet haben. Es dauert einen Moment, um zu überprüfen, ob Ihre Kanäle aktiv sind, und es warnt Sie, wenn es einen Fehler in der Zahlungsroute oder einen Liquiditätsmangel auf der Route gibt.
->
-> Das Öffnen von LN-Kanälen mit Blixt hat einen Preis, wie jeder andere LN-Knoten, der Kanäle öffnet. Dies hat einen Namen: "commit_fees" (oder Engagementgebühren), die wie eine Reserve zum Schließen der Kanäle dienen, um die Gebühren für die Miner bezahlen zu können. Seien Sie sich also bewusst, dass der Betrag, den Sie in Ihre Blixt-On-Chain-Wallet einzahlen und Kanäle öffnen (unabhängig davon, ob Sie den LSP Dunder verwenden, automatisches Öffnen der Kanäle oder manuelles Öffnen), geringfügig niedriger sein wird als der Gesamtbetrag, mit dem Sie den Kanal geöffnet haben. Aus diesem Grund wird NICHT EMPFOHLEN, sehr kleine Kanäle wie 20-50-100k Sats zu öffnen.
->
-> Darüber hinaus fallen für jede LN-Transaktion geringe Netzwerkgebühren an. Dies sind keine Gebühren für Blixt, sondern Kosten, die Ihre Transaktionen durch das Netzwerk sicher und geschützt machen. Sie sind jedoch sehr gering, manchmal sogar in Milli-Sats, oft weniger als 0,5% des Transaktionsbetrags.
-> '> Als LN-Knoten wird dringend davon abgeraten, dieselbe Seed auf zwei verschiedenen Geräten zu verwenden. Dieser Vorgang kann NUR durchgeführt werden, wenn Sie sich in einem Wiederherstellungsprozess befinden. Wenn die On-Chain-Wallet aus dem Seed generiert wird, beginnt sie mit der Synchronisierung der vorherigen Transaktionen und Salden. Wenn Sie keine LN.backup Ihrer Kanäle haben, wird der vollständige Wiederherstellungsprozess nicht gestartet. Ja, Sie werden dieselbe On-Chain-Wallet auf beiden Geräten sehen, aber NICHT den LN-Saldo. Und vor allem VERSUCHEN SIE NICHT, dieselben LN-Kanäle auf beiden Geräten wiederherzustellen, da Sie sonst alle Ihre LN-Fonds verlieren würden!>
-> Beachten Sie, dass das Schließen von Kanälen Zeit in Anspruch nimmt, bis die Mittel freigegeben werden. So funktioniert LN (um mehr zu erfahren, gehen Sie hierhin). Im Allgemeinen dauert es bei einer kooperativen (normalen) Schließung mindestens 40 Blöcke, bis die Mittel in Ihrer On-Chain-Wallet freigegeben werden. Bei erzwungen geschlossenen Kanälen beträgt dieser Sperrzeitraum manchmal 144 Blöcke oder mehr. Seien Sie also geduldig und machen Sie sich keine Sorgen, die Mittel sind sicher.
 
-## Fazit
+![blixt](assets/en/09.webp)
 
-Nun, das sind einige der Hauptfunktionen (für eine mobile Wallet ist das viel, oder?) und es werden bald noch mehr hinzukommen.
 
-Die Erfahrung mit dieser LN-Wallet/Node-App ist sehr angenehm und benutzerfreundlich, eine sehr reaktionsfähige App, keine größeren Probleme, nur kleine Dinge, die hinzugefügt werden müssen (aber nicht so wichtig). Es handelt sich immer noch um eine junge App, die unter realen Bedingungen umfangreich getestet werden muss. Also zögern Sie nicht, sie auszuprobieren und dem Entwickler etwaige Probleme mitzuteilen, die behoben oder verbessert werden können.
+Warum? Haben Sie die eingangs erwähnten Leitfäden gelesen? Nein? Gehen Sie zurück und lesen Sie sie. Es ist sehr wichtig zu verstehen, wie LN-Kanäle funktionieren.
 
-Vergessen Sie auch nicht, dass es sich um ein Open-Source-Projekt handelt und die Wartung von einem einzigen Entwickler durchgeführt wird, der die gesamte Arbeit leistet! Bitte helfen Sie ihm mit Tests und Feedback und vor allem melden Sie ihm detailliert Probleme oder Verbesserungsvorschläge, die die App benötigt.
 
-Ich hoffe, Sie werden die Verwendung genießen. Persönlich liebe ich sie und sie ist sehr nützlich für mich (hier ist ein Anwendungsfall, in dem diese Wallet ein großartiges Werkzeug ist).
+![blixt](assets/en/10.webp)
 
-Möge ₿ITCOIN mit dir sein!
+
+Wie Sie in diesem Beispiel sehen können, hat der Kanal, der mit der ersten Einzahlung geöffnet wurde, nicht allzu viel INBOUND-Liquidität ("Kann empfangen"), aber viel OUTBOUND-Liquidität ("Kann senden").
+
+
+Welche Möglichkeiten haben Sie also, wenn Sie mehr Sats als LN erhalten möchten?
+
+
+
+- Geben Sie einige Sats aus bestehenden Kanälen aus. Ja, LN ist ein Zahlungsnetzwerk von Bitcoin, das hauptsächlich dazu dient, Ihre Sats schneller, billiger, privat und einfach auszugeben. LN ist KEIN Hodling-Weg, dafür gibt es das onchain Wallet.
+
+
+
+- Tauschen Sie einige Sats mit Hilfe eines U-Boot-Tauschdienstes zurück in Ihr Onchain-Wallet. Auf diese Weise geben Sie Ihr Sats nicht aus, sondern geben es Ihrem eigenen Onchain-Wallet zurück. Hier können Sie einige Methoden im Detail sehen, in der [Blixt Guides Page] (https://blixtwallet.github.io/guides).
+
+
+
+- Öffnen Sie einen INBOUND-Kanal von einem beliebigen LSP-Anbieter. Hier ist eine Video-Demo über die Verwendung von LNBig LSP zur Eröffnung eines Inbound-Kanals. Das heißt, Sie zahlen eine kleine Gebühr für einen LEEREN Kanal (auf Ihrer Seite) und können mehr Sats in diesem Kanal empfangen. Wenn Sie ein Händler sind, der mehr einnimmt als ausgibt, ist das eine gute Option. Auch wenn Sie Sats über LN kaufen, Robosats oder einen anderen LN Exchange verwenden.
+
+
+
+- Eröffnen Sie einen Dunder-Kanal mit dem Blixt-Knoten oder einem anderen Dunder-LSP-Anbieter. Ein Dunder-Kanal ist ein einfacher Weg, um etwas INBOUND-Liquidität zu erhalten, aber gleichzeitig zahlen Sie etwas Sats in diesen Kanal ein. Das ist auch deshalb gut, weil der Kanal mit einem [UTXO](https://en.Bitcoin.it/wiki/UTXO) geöffnet wird, das nicht von Ihrem Blixt Wallet stammt. Das sorgt für etwas mehr Privatsphäre. Es ist auch gut, weil, wenn Sie keine Sats in einem onchain Wallet haben, um einen normalen LN Kanal zu öffnen, aber Sie haben sie in einem anderen LN Wallet, können Sie einfach von diesem anderen Wallet durch LN die Öffnung und die Kaution (auf Ihrer Seite) dieses Dunder Kanals bezahlen. [Weitere Details, wie Dunder funktioniert und wie Sie Ihren eigenen Server betreiben können, finden Sie hier](https://github.com/hsjoberg/dunder-lsp).
+
+
+![blixt](assets/en/11.webp)
+
+
+Hier sind die Schritte zur Aktivierung der Öffnung eines Dunder-Kanals:
+
+
+
+- Gehen Sie zu Einstellungen, aktivieren Sie im Abschnitt "Experimente" das Kästchen "Dunder LSP aktivieren".
+- Sobald Sie das getan haben, gehen Sie zurück zum Abschnitt "Lightning Network" und Sie werden sehen, dass die Option "Set Dunder LSP Server" erscheint. Dort ist standardmäßig "https://dunder.blixtwallet.com" eingestellt, aber Sie können es mit jedem anderen Dunder LSP Provider Address ändern. [Hier ist eine Blixt-Community-Liste](https://github.com/hsjoberg/blixt-Wallet/issues/1033) mit Knoten, die Dudner LSP-Kanäle für Ihr Blixt bereitstellen können.
+- Jetzt können Sie zum Hauptbildschirm gehen und auf die Schaltfläche "Empfangen" klicken. Gehen Sie dann wie folgt vor [wie in dieser Anleitung erklärt] (https://blixtwallet.github.io/guides#guide-lsp).
+
+
+OK, nachdem der Dunder-Kanal bestätigt wurde (das dauert ein paar Minuten), haben Sie am Ende zwei LN-Kanäle: einen, der zunächst mit Autopilot geöffnet wurde (Kanal A), und einen mit mehr eingehender Liquidität, geöffnet mit Dunder (Kanal B).
+
+
+![blixt](assets/en/12.webp)
+
+
+Gut, jetzt sind Sie startklar, um genügend Sats über LN zu senden und zu empfangen!
+
+
+GLÜCKLICHE Bitcoin BLITZ!
+
+
+---
+
+## Blixt - Dritter Kontakt
+
+
+Erinnern Sie sich, im ersten Kapitel "Erster Kontakt" gab es 2 Optionen auf dem Willkommensbildschirm:
+
+
+- [Option A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Neues Wallet erstellen
+- Option B - Wiederherstellung von Wallet
+
+
+Lassen Sie uns nun besprechen, wie man einen abgestürzten Blixt Wallet oder einen anderen LND Knoten wiederherstellt. Dies ist etwas technischer, aber bitte passen Sie auf. Das ist nicht der Hard.
+
+
+### OPTION B - Wiederherstellung von Wallet
+
+
+In der Vergangenheit habe ich eine spezielle Anleitung über [wie man einen abgestürzten Umbrel-Knoten wiederherstellt] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html) geschrieben, in der ich auch die Methode der Verwendung von Blixt als Schnellwiederherstellungsprozess unter Verwendung der seed + channel.backup-Datei von Umbrel erwähnt habe.
+
+
+Ich habe auch eine Anleitung geschrieben, wie du deinen Blixt-Knoten wiederherstellen oder dein Blixt auf ein anderes Gerät migrieren kannst, [hier](https://blixtwallet.github.io/faq#blixt-restore).
+
+
+![blixt](assets/en/13.webp)
+
+
+Aber lassen Sie uns diesen Prozess in einfachen Schritten erklären. Wie Sie auf dem Bild oben sehen können, gibt es 2 Dinge, die Sie tun sollten, um Ihren vorherigen Blixt/LND-Knoten wiederherzustellen:
+
+
+
+- in das obere Feld müssen Sie alle 24 Wörter aus Ihrem seed (alter/toter Knoten) eintragen
+- unten gibt es zwei Schaltflächen zum Einfügen/Hochladen der channel.backup-Datei, die zuvor von Ihrem alten Blixt/LND-Knoten gespeichert wurde. Es kann von einer lokalen Datei (Sie laden es in Ihr Gerät zuvor) oder kann von einem Google-Laufwerk / iCloud Remote-Speicherort sein. Blixt bietet die Möglichkeit, das Backup Ihrer Kanäle direkt in einem Google- oder iCloud-Laufwerk zu speichern. Weitere Details finden Sie auf der [Blixt Features Page] (https://blixtwallet.github.io/features#blixt-options).
+
+
+Wenn Sie vorher keine offenen LN-Kanäle hatten, müssen Sie keine channels.backup-Datei hochladen. Fügen Sie einfach die 24 Wörter seed ein und klicken Sie auf die Schaltfläche Wiederherstellen.
+
+
+Vergessen Sie nicht, Tor zu aktivieren, und zwar über das Menü mit den 3 Punkten oben, wie wir im Abschnitt Option A erklärt haben. Das ist der Fall, wenn Sie NUR Tor-Peers hatten und nicht über Clearnet (Domain/IP) kontaktiert werden konnten. Ansonsten ist das nicht notwendig.
+
+
+Eine weitere nützliche Funktion ist die Einstellung eines bestimmten Bitcoin-Knotens in diesem oberen Menü. Standardmäßig werden Blöcke von node.blixtwallet.com synchronisiert (Neutrino-Modus), aber Sie können jeden anderen Bitcoin-Knoten einstellen, der Neutrino-Synchronisation bietet.
+
+
+Wenn du diese Optionen ausfüllst und auf die Schaltfläche Wiederherstellen klickst, beginnt Blixt zunächst damit, die Blöcke über Neutrino zu synchronisieren, wie wir es im Kapitel Erster Kontakt erklärt haben. Sei also geduldig und beobachte den Wiederherstellungsprozess auf dem Hauptbildschirm, indem du auf das Sync-Symbol klickst.
+
+
+![blixt](assets/en/14.webp)
+
+
+Wie Sie in diesem Beispiel sehen können, zeigt es, dass die Bitcoin Blöcke zu 100% synchronisiert sind (A) und der Wiederherstellungsprozess im Gange ist (B). Das bedeutet, dass die LN-Kanäle, die Sie zuvor hatten, geschlossen werden und die Mittel in Ihrem Blixt onchain Wallet wiederhergestellt werden.
+
+
+Dieser Prozess braucht Zeit! Bitte haben Sie also Geduld und versuchen Sie, Ihr Blixt aktiv und online zu halten. Die erste Synchronisierung kann bis zu 6-8 Minuten dauern und das Schließen der Kanäle kann bis zu 10-15 Minuten dauern. Es ist also besser, wenn du das Gerät gut aufgeladen hast.
+
+
+Sobald dieser Prozess gestartet wurde, können Sie im Magic Drawer - Lightning Channels den Status jedes Ihrer vorherigen Kanäle überprüfen, der den Status "zum Schließen anstehend" hat. Sobald jeder Kanal geschlossen ist, können Sie im Onchain Wallet (siehe Magic Drawer - Onchain) die schließenden TX sehen und das TX-Menüprotokoll öffnen.
+
+
+![blixt](assets/en/15.webp)
+
+
+Außerdem sollten Sie überprüfen, ob Ihre früheren Peers, die Sie in Ihrem alten LN-Knoten hatten, noch nicht vorhanden sind, und diese hinzufügen. Gehen Sie also in das Menü "Einstellungen", gehen Sie zu "Lightning Network" und geben Sie die Option "Lightning Peers anzeigen" ein.
+
+
+![blixt](assets/en/16.webp)
+
+
+In diesem Abschnitt sehen Sie die Peers, mit denen Sie zu diesem Zeitpunkt verbunden sind, und Sie können weitere hinzufügen, am besten solche, mit denen Sie zuvor Kanäle hatten. Gehen Sie einfach auf die [Amboss-Seite] (https://amboss.space/), suchen Sie nach den Aliasen oder der NodeID Ihrer Peer-Knoten und scannen Sie deren Node-URI.
+
+
+![blixt](assets/en/17.webp)
+
+
+Wie Sie auf dem Bild oben sehen können, gibt es 3 Aspekte:
+
+
+A - steht für den Clearnetzknoten Address URI (Domäne/IP)
+
+
+B - steht für den Tor-Zwiebelknoten Address URI (.onion)
+
+
+C - ist der QR-Code zum Scannen mit Ihrer Blixt-Kamera oder die Kopierschaltfläche.
+
+
+Diesen Knoten Address URI müssen Sie in Ihre Peers-Liste aufnehmen. Beachten Sie also, dass es nicht ausreicht, nur den Knotenaliasnamen oder die Knoten-ID anzugeben.
+
+
+Jetzt können Sie auf Magic Drawer (Menü oben links) - Lightning Channels gehen und sehen, bei welcher Höhe des Fälligkeitsblocks die Gelder in Ihre Onchain Address zurückgegeben werden.
+
+
+![blixt](assets/en/18.webp)
+
+
+Die Blocknummer 764272 ist der Zeitpunkt, an dem die Gelder in Ihrem Bitcoin auf der Kette Address verwendet werden können. Und es könnte bis zu 144 Blöcke ab dem 1. Bestätigungsblock dauern, bis sie freigegeben werden. [Überprüfen Sie das also im Mempool] (https://Mempool.space/).
+
+
+Und das war's. Warten Sie einfach geduldig, bis alle Kanäle geschlossen sind und das Geld zurück in Ihr Wallet fließt.
+
+
+👉 **Geheime Wiederherstellungsmethode :**
+
+
+Es gibt eine weitere Methode, um Ihren Blixt LND Knoten wiederherzustellen, ohne die Kanäle zu schließen. Aber es ist vor den üblichen Noob-Benutzern versteckt, weil diese Methode NUR für diejenigen ist, die wissen, was sie tun.
+
+
+Wenn Sie Ihren bestehenden (funktionierenden) Blixt-Knoten auf ein anderes neues Gerät migrieren möchten, ohne die bestehenden LN-Kanäle zu schließen, müssen Sie die folgenden Schritte ausführen:
+
+
+
+- Wir gehen davon aus, dass Sie bereits den Blixt Wallet seed (24 Wörter aezeed) gespeichert haben
+- Gehen Sie auf dem alten Gerät zu "Einstellungen" - Abschnitt Debug - "LND-Datenbank kompaktieren". Dieser Schritt ist optional, wird aber empfohlen, wenn Sie eine kleinere Größe der channel.db-Datei wünschen. Normalerweise ist sie ziemlich groß, abhängig von der Aktivität Ihres Knotens. Dadurch wird Blixt neu gestartet und die Größe der db-Datei reduziert.
+- Gehen Sie nach dem Neustart zu "Einstellungen" und ändern Sie Ihren normalen Alias-Namen in "Hampus". Dadurch werden die versteckten Optionen aktiviert, die nur für fortgeschrittene Benutzer gelten.
+- Gehen Sie ganz nach unten zum Abschnitt "Debug" und Sie werden eine neue Option "Export channel.db file" sehen. WARNUNG! Sobald Sie diesen Export durchführen, wird der bestehende Blixt LN-Knoten auf diesem alten Gerät deaktiviert und die gesamte Knotendatenbank (channel.db) wird exportiert, damit sie in ein neues Gerät importiert werden kann.
+- Diese db-Datei wird in einem bestimmten Ordner auf Ihrem alten Gerät gespeichert (Dokumente oder Downloads) und von dort aus müssen Sie sie unverändert auf Ihr neues Gerät übertragen. Sie können zum Beispiel [LocalSend FOSS app] (https://github.com/localsend/localsend) verwenden, um die Datei direkt zwischen den Geräten zu übertragen.
+- In diesem Moment MUSS Ihr altes Blixt ausgeschaltet bleiben. ÖFFNE ES NICHT WIEDER!
+- Sobald Sie die Datei channel.db auf das neue Gerät übertragen haben, starten Sie die Neuinstallation von Blixt und wählen Sie auf dem ersten Bildschirm "Wallet wiederherstellen".
+- Auf die Schaltfläche, wo es heißt "Select SCB file" lange drücken (NICHT einfach klicken!) und dann sehen Sie die Möglichkeit, eine channel.db Datei zu wählen, wo Sie es lokal in das neue Gerät zu speichern. Wenn Sie nur einfach auf diese Schaltfläche drücken, wird standardmäßig eine SCB-Datei (mit geschlossenen Kanälen) verwendet, es funktioniert nicht für vollständige Backup-Live-Kanäle.
+- Geben Sie die 24 Wörter seed ein und klicken Sie dann auf "Wiederherstellen"
+- Sie werden sehen, dass Blixt die Synchronisierung mit Neutrino beginnt. Du kannst auch die Synchronisationsprotokolle sehen.
+- BEHALTEN SIE DAS IM HINTERKOPF! Versuchen Sie, Blixt in dieser Phase ständig geöffnet zu halten! Lass es nicht in den Ruhezustand gehen oder den Bildschirm der App schließen. Das könnte die anfängliche Synchronisierung stören und du musst sie erneut durchführen. Warten Sie geduldig, es dauert nicht länger als ein paar Minuten.
+- Sobald die anfängliche Blocksynchronisierung abgeschlossen ist, werden Ihre früheren Wallet-Adressen schnell gescannt, und Ihre Kanäle sind wieder online, lebendig und gesund.
+- Leider ist es (noch) nicht möglich, den bisherigen Zahlungsverlauf und die Kontakte wiederherzustellen. Aber das ist ja auch nicht so wichtig.
+
+
+Und FERTIG! Jetzt haben Sie einen vollständig wiederhergestellten Blixt LN Knoten. Es könnte auch mit anderen LND-Backups (Umbrel, Raspiblitz usw.) funktionieren, wenn Sie vorher die channel.db-Datei korrekt gespeichert haben. Blixt kann also buchstäblich jeden toten LND-Knoten retten.
+
+
+---
+
+## Blixt - Vierter Kontakt
+
+
+In diesem Kapitel geht es um die Anpassung und das bessere Kennenlernen von Blixt Node. Ich werde nicht alle verfügbaren Funktionen beschreiben, es sind zu viele und wurden bereits in der [Blixt Features Page] (https://blixtwallet.github.io/features) erklärt.
+
+
+Aber ich werde auf einige dieser Punkte hinweisen, die notwendig sind, um mit Blixt voranzukommen und eine gute Erfahrung zu machen.
+
+
+### A - Name (NameDesc)
+
+
+![blixt](assets/en/19.webp)
+
+
+[NamDesc] (https://github.com/lightning/blips/blob/master/blip-0011.md) ist ein Standard für die Übermittlung des "Empfängernamens" in BOLT11-Rechnungen.
+
+
+Dies kann ein beliebiger Name sein, der jederzeit geändert werden kann.
+
+
+Diese Option ist in verschiedenen Fällen sehr nützlich, wenn Sie einen Namen zusammen mit der Invoice-Beschreibung senden möchten, so dass der Empfänger einen Hinweis darauf erhalten kann, wer diese Sats erhalten hat. Dies ist völlig optional und auch im Zahlungsbildschirm muss der Benutzer das Kästchen ankreuzen, das angibt, dass der Aliasname gesendet werden soll.
+
+
+Hier ist ein Beispiel für die Verwendung von [chat.blixtwallet.com](https://chat.blixtwallet.com/)
+
+
+![blixt](assets/en/20.webp)
+
+
+Dies ist ein weiteres Beispiel für das Senden an eine andere Wallet-Anwendung, die NameDesc unterstützt:
+
+
+![blixt](assets/en/21.webp)
+
+
+### B - Blitzableiter
+
+
+Mit der neuen Version 0.6.9-420 [kürzlich angekündigt] (https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420) hat Blixt eine neue leistungsstarke Funktion für Lightning Address in Blixt eingeführt.
+
+
+Diese neue Funktion ist eine optionale Option, die nicht standardmäßig aktiviert ist!
+
+
+Im Moment wird die Standard-LN-Box von Blixt-Server betrieben und bietet ein @blixtwallet.com LN Address. Aber JEDER mit einem LND öffentlichen Knoten kann die Lightning Box Server laufen und bieten LN Address für seine eigene Domain, self-custody.
+
+
+Im Moment leitet der Blixt-Server die an LN-Adressen @blixtwallet.com gesendeten Zahlungen nur an die Blixt-Benutzer weiter, die ihren LN auf Address gesetzt haben. Benutzer müssen ihren Blixt-Knoten Wallet in den "dauerhaften Modus" versetzen, um diese Zahlungen an ihre LN-Adressen @blixtwallet.com zu erhalten.
+
+
+In den Versionshinweisen finden Sie eine Video-Demo, wie Sie Ihren LN Address in Blixt einrichten.
+
+
+Dieses LN Address in Blixt Wallet App implementiert, ist wie ein Chat über LN, sofort und Spaß, auch die Unterstützung [LUD-18] (https://github.com/lnurl/luds/blob/luds/18.md) (Hinzufügen eines Alias-Namen zu einer Zahlung). Sie können in der Kontaktliste all Ihre regulären LN-Adressen hinzufügen, die Sie häufig verwenden, und haben sie zum Chatten zur Hand. Jetzt kann Blixt als vollwertige LN Chat-App betrachtet werden 😂😂.
+
+
+Eine weitere nützliche Funktion ist die volle Unterstützung von LUD-18 (die auch [Stacker.News](https://stacker.news/r/DarthCoin) und andere unterstützen).
+
+
+![blixt](assets/en/22.webp)
+
+
+Wie Sie auf dem Screenshot oben sehen können, wird beim Senden von einem Stacker News-Konto das Logo + LN Address + Nachricht angezeigt. Das Gleiche gilt für das Senden von Blixt. Sie können Ihren Blixt LN Address anhängen oder einfach den Alias-Namen hinzufügen (zuvor in den Blixt-Einstellungen festgelegt) oder sogar beides.
+
+
+Diese Option von LUD-18 könnte auch für Abonnementdienste nützlich sein, bei denen der Benutzer einen bestimmten Aliasnamen (NICHT seinen Knotenalias oder seinen echten Namen!) senden kann, auf dessen Grundlage er registriert werden kann oder eine bestimmte Nachricht zurückerhält oder was auch immer. Das Anhängen eines Alias-Namens ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md))+ eines Kommentars ([LUD-12](https://github.com/lnurl/luds/blob/luds/12.md)) an eine LN-Zahlung kann mehrere Anwendungsfälle haben!
+
+
+Hier ist der Code für [Lightning Box] (https://github.com/hsjoberg/lightning-box), wenn Sie es für sich selbst, für Ihre Familie und Freunde, auf Ihrem eigenen Knotenpunkt ausführen.
+
+
+Hier können Sie auch den [LSP Dunder Server](https://github.com/hsjoberg/dunder-lsp) für Blixt-Mobilknoten betreiben und Liquidität für Blixt-Nutzer anbieten, wenn Sie einen guten öffentlichen LN-Knoten haben (funktioniert nur mit LND).
+
+
+### C - Sicherung von LN-Kanälen und seed-Wörtern
+
+
+Dies ist ein sehr wichtiges Merkmal!
+
+
+Nach dem Öffnen oder Schließen eines LN-Kanals sollten Sie ein Backup erstellen. Dies kann manuell erfolgen, indem Sie eine kleine Datei auf dem lokalen Gerät (normalerweise im Download-Ordner) oder über ein Google Drive- oder iCloud-Konto speichern.
+
+
+![blixt](assets/en/23.webp)
+
+
+Gehen Sie zum Abschnitt Blixt-Einstellungen - Wallet. Dort haben Sie die Möglichkeit, alle wichtigen Daten für Ihr Blixt Wallet zu speichern:
+
+
+
+- "Mnemonic anzeigen" - zeigt die 24 Wörter seed an, um sie aufzuschreiben
+- "Mnemonic vom Gerät entfernen" - diese Option ist optional und sollte nur verwendet werden, wenn Sie die seed-Wörter wirklich von Ihrem Gerät entfernen möchten. Dadurch wird Ihr Wallet NICHT gelöscht, sondern nur das seed. Aber Achtung! Es gibt keine Möglichkeit, sie wiederherzustellen, wenn Sie sie nicht vorher aufgeschrieben haben.
+- "Kanalsicherung exportieren" - diese Option speichert eine kleine Datei auf Ihrem lokalen Gerät, normalerweise im Ordner "Downloads", von wo aus Sie sie zur sicheren Aufbewahrung außerhalb Ihres Geräts verschieben können.
+- "Kanal-Backup überprüfen" - eine gute Option, wenn Sie Google Drive oder iCloud verwenden, um die Integrität des Backups aus der Ferne zu überprüfen.
+- " Google drive channel backup" - speichert die Sicherungsdatei in Ihrem persönlichen Google-Laufwerk. Die Datei ist verschlüsselt und wird in einem anderen Speicherort als Ihre üblichen Google-Dateien gespeichert. Es gibt also keine Bedenken, dass sie von jemandem gelesen werden kann. Außerdem ist diese Datei ohne die seed-Wörter völlig nutzlos, so dass niemand Ihr Geld nur aus dieser Datei nehmen kann.
+
+
+Ich würde für diesen Abschnitt Folgendes empfehlen:
+
+
+
+- verwenden Sie einen Passwort-Manager, um Ihre seed und die Backup-Datei sicher zu speichern. KeePass oder Bitwarden sind sehr gut dafür geeignet und können auf mehreren Plattformen und selbst gehostet oder offline verwendet werden.
+- Machen Sie JEDESMAL, wenn Sie einen Kanal öffnen oder schließen, eine Sicherungskopie. Diese Datei wird mit den Informationen über die Kanäle aktualisiert. Es ist nicht nötig, dies nach jeder Transaktion, die Sie im LN durchgeführt haben, zu tun. Die Kanalsicherung speichert diese Informationen nicht, sondern nur den Status des Kanals.
+
+
+![blixt](assets/en/24.webp)
+
+
+---
+
+## Blixt - Tipps und Tricks
+
+
+### FALL 1 - SYNCHRONISIERUNGSPROBLEME
+
+
+"Mein Blixt wird nicht synchronisiert... Mein Blixt zeigt den Kontostand nicht an... Mein Blixt kann keine Kanäle öffnen... Ich habe versucht, es auf einem anderen Gerät wiederherzustellen... etc_"
+
+
+All diese Probleme beginnen damit, dass IHR GERÄT NICHT RICHTIG SYNCHRONISIERT. Bitte verstehen Sie diesen wichtigen Aspekt: Blixt ist ein mobiler LND-Knoten, der Neutrino zum Synchronisieren/Lesen der Blöcke verwendet.
+
+
+
+- Hier ist eine weniger technische Erklärung aus dem [Bitcoin Magazin] (https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
+- Hier finden Sie weitere technische Ressourcen von [Bitcoin Optech] (https://bitcoinops.org/en/topics/compact-block-filters/)
+- Hier sehen Sie, wie Sie Neutrino auf Ihrem eigenen Heimknoten aktivieren und Blockfilter für Ihren mobilen Knoten bereitstellen können, aus [Docs Lightning Engineering] (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core)
+
+
+ERINNERUNG: Die Verwendung von Neutrino über das Clearnetz ist absolut sicher, Ihre IP oder xpub werden nicht weitergegeben. Sie lesen lediglich Blöcke von einem entfernten Knoten mit Neutrino. Das ist alles. Der ganze Rest wird auf Ihrem lokalen Gerät erledigt.
+
+
+Es gibt also KEINE Notwendigkeit, es mit Tor zu benutzen. Tor führt zu einer enormen Latenz bei der Synchronisierung und macht dein Blixt sehr instabil. Wenn du Blixt wirklich über Tor benutzen willst, solltest du dir sicher sein, was du tust und eine gute Verbindung und Geduld haben. Dasselbe gilt für die Verwendung eines VPN. Sei vorsichtig, was für eine Latenz dir von diesem VPN gegeben wird.
+
+
+Sie können die Latenzzeit eines Neutrino-Servers testen, indem Sie ihn einfach anpingen, von einem PC oder von Ihrem Handy aus.
+
+
+![blixt](assets/en/25.webp)
+
+
+Dies ist ein gewöhnlicher Ping zum Neutrino-Server europe.blixtwallet.com, der zeigt, dass die Verbindung mit einer Antwortzeit von durchschnittlich 50 ms und einer TTL von 51 sehr gut ist. Die Antwortzeit kann variieren, aber nicht zu sehr. Die TTL muss stabil sein.
+
+
+Wenn diese Werte höher als 100-150ms sind, dann wird Ihr Synchronisierungsprozess stocken oder noch schlimmer, es könnte zu geschlossenen Kanälen bei den Peers führen! Ignorieren Sie diesen Aspekt nicht.
+
+
+Ohne eine ordnungsgemäße Synchronisierung können Sie auch nicht die richtige Balance sehen oder Ihre LN-Kanäle werden nicht online und betriebsbereit. Es spielt keine Rolle, wie viele Giga-Ultra-Terraps Sie die Download-Geschwindigkeit haben, es spielt keine Rolle. Es kommt auf das Zeitverhalten und die TTL (time to live) an.
+
+
+Dies ist wie ein allgemeiner Fall für LATAM Benutzer. Ich weiß nicht, was dort passiert, aber ihr habt eine schreckliche Verbindung mit Pings von über 200ms, die jede Synchronisation stören können.
+
+
+Was ist also die Lösung für diese verzweifelten Nutzer?
+
+
+
+- blixt nicht mehr mit Tor benutzen. Ist völlig nutzlos
+- sie können ein VPN verwenden, aber wählen Sie es mit Bedacht aus und überwachen Sie die ganze Zeit den Ping. Verwenden Sie eines, das näher an Ihrem geografischen Standort liegt. Entfernung bedeutet mehr ms Antwortzeit, denken Sie daran.
+- wählen Sie Ihre Neutrino-Peers mit Bedacht aus. Hier finden Sie eine Liste bekannter öffentlicher Neutrino-Server:
+
+
+```txt
+For US region
+btcd1.lnolymp.us | btcd2.lnolymp.us
+btcd-mainnet.lightning.computer
+swest.blixtwallet.com (Seattle)
+node.eldamar.icu
+noad.sathoarder.com
+bb1.breez.technology | bb2.breez.technology
+neutrino.shock.network
+For EU region
+europe.blixtwallet.com (Germany)
+For Asia region
+sg.lnolymp.us
+asia.blixtwallet.com
+```
+
+
+Eine andere Möglichkeit ist, einen Knoten aus dieser Liste auszuwählen, der die "Kompaktfilter" (BIP157 / Neutrino) ankündigt - [Bitnodes Page Neutrino filter](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Wählen Sie einen, der näher an Ihrem geografischen Standort liegt.
+
+
+Eine andere Möglichkeit (die beste) besteht darin, sich mit einem lokalen Gemeinschaftsknoten zu verbinden, der von einem Freund oder einer Gruppe betrieben wird, die Sie kennen, und der eine Neutrino-Verbindung anbietet. (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Ihr Knoten wird in keiner Weise beeinträchtigt, sie brauchen nur eine stabile und öffentliche Verbindung.
+
+
+Es besteht ein Bedarf an mehr Neutrino-Servern in der LATAM-Region, um eine bessere und schnelle Synchronisierung zu ermöglichen. Also organisieren Sie sich bitte mit Ihrer lokalen Bitcoin-Community und entscheiden Sie, wer und wo einen Bitcoin Core + Neutrino für Ihren eigenen Gebrauch betreibt. Eine öffentliche IP reicht aus. Wenn Sie keinen Zugang zu einer öffentlichen IP haben, können Sie eine VPS-IP verwenden und einen Wireguard-Tunnel zu Ihrem Home-Node einrichten. Auf diese Weise leiten Sie den gesamten Datenverkehr zu Ihrer lokalen VPS-IP um, ohne private Informationen über Ihren Heimatknoten preiszugeben.
+
+
+### FALL 2 - SYNCHRONISIERUNG NIE BEENDEN
+
+
+"_Mein Blixt hat eine gute Verbindung mit dem Neutrino-Server, aber die Synchronisierung bleibt stecken."
+
+
+#### Zeit-Server
+
+
+Manchmal benutzen Leute verschiedene alte Geräte oder sind nicht richtig mit einem Zeitserver verbunden. Neutrino synchronisiert so lange, bis es die aktuellen Blöcke erreicht, die nicht der realen Ortszeit entsprechen. In den Blixt LND Protokollen werden Sie einen Fehler sehen, der besagt, dass "der Zeitstempel des Blocks weit von der Zukunft entfernt ist" oder etwas, das mit "der Header hat die Plausibilitätsprüfung nicht bestanden" zu tun hat.
+
+
+Schnelle Lösung: Stellen Sie die richtige Uhrzeit und das richtige Datum für Ihr Gerät ein und starten Sie Blixt neu.
+
+
+#### Wenig Platz auf dem Gerät
+
+
+Manchmal kann bei der Verwendung eines alten Geräts mit wenig Speicherplatz ein Schwellenwert erreicht werden, an dem es hängen bleibt. Je mehr Sie diesen mobilen LND-Knoten verwenden, desto größer werden die Neutrinodateien und auch die channel.db-Datei.
+
+
+Schnelle Lösung: Gehen Sie zu Blixt Optionen - Abschnitt Debug - Wählen Sie "LND stoppen und Neutrino-Dateien löschen". Dadurch wird die App neu gestartet und eine neue, frische Synchronisierung durchgeführt. Manchmal kann diese schnelle Lösung auch beschädigte Daten reparieren. Denken Sie daran, dass die vollständige Neusynchronisierung zwischen 1 und 3 Minuten dauern wird. Vorhandene Fonds oder Kanäle werden NICHT gelöscht, aber ja, nach der Neusynchronisierung könnte ein erneuter Scan der Bitcoin-Adressen ausgelöst werden, was mehr Zeit in Anspruch nehmen könnte.
+
+
+Der nächste Schritt besteht darin, zu prüfen, wie viele Daten noch belegt sind. Sie können dies in Android App Info - Daten sehen. Wenn die Datenmenge immer noch größer als 400-500MB ist, können Sie die LND Dateien komprimieren. Gehen Sie dazu in die Blixt-Optionen - Abschnitt Debug - Wählen Sie "Compact DB LND". Starten Sie die Blixt-App neu, falls dies nicht automatisch geschieht. Die Komprimierung findet beim Start statt und wird nur einmal durchgeführt. Jetzt werden Sie sehen, dass die Blixt-Daten mehr oder weniger belegt sind.
+
+
+#### Dauermodus
+
+
+Manchmal öffnen die Leute Blixt lange Zeit nicht, so dass die Synchronisierung viel zu alt ist. Aber sie erwarten, dass sie sofort synchronisiert werden, wenn sie es öffnen.
+
+
+Bitte haben Sie Geduld und sehen Sie sich das sich drehende Rad an. Optional können Sie auf Optionen - Knoteninfo anzeigen gehen und sehen, ob "wahr" als "mit Kette synchronisiert" und "mit Diagramm synchronisiert" markiert ist. Ohne diese "true"-Angabe können Sie Blixt nicht richtig nutzen, Sie können den Kontostand nicht richtig sehen, Sie können die LN-Kanäle nicht online sehen, Sie können keine Zahlungen vornehmen.
+
+
+Schnelle Lösung: Es gibt eine leistungsstarke Option, um Ihren Blixt-Knoten "am Leben zu erhalten". Gehen Sie zu Optionen - Experimente - Wählen Sie "Persistenten Modus aktivieren". Dadurch wird Ihr Blixt neu gestartet und der LND-Dienst in den persistenten Modus versetzt, d. h. er bleibt immer aktiv und hält Ihre Synchronisierung online, auch wenn Sie zu einer anderen Anwendung wechseln oder Blixt einfach schließen (nicht zwangsweise schließen oder die Aufgabe beenden). Das kann den ganzen Tag so bleiben, wenn Sie eine stabile Verbindung haben und Blixt mehrmals verwenden müssen. Es wird nicht zu viel Akku verbrauchen.
+
+
+### FALL 3 - ICH MÖCHTE AUF EIN ANDERES GERÄT MIGRIEREN
+
+
+OK, zu diesem Szenario habe ich eine ausführliche Anleitung auf der [FAQ-Seite] (https://blixtwallet.github.io/faq#blixt-restore) geschrieben: mit 2 Optionen, schnell (kooperatives Schließen der Kanäle vor der Migration) und langsam (erzwungenes Schließen der Kanäle, weil das alte Gerät tot ist).
+
+
+Ich möchte hier jedoch einige wichtige Aspekte wiederholen und ein neues "geheimes" Verfahren hinzufügen.
+
+
+ERINNERUNG:
+
+
+
+- Erstellen Sie immer eine Sicherungskopie des Status Ihrer Kanäle (SCB), NACHDEM Sie einen Kanal geöffnet oder geschlossen haben. Dies dauert nur wenige Sekunden.
+- Bewahren Sie die alten SCB-Dateien nicht auf, um sie nicht zu verwechseln und wiederherzustellen. Sie sind völlig nutzlos und könnten ein Strafverfahren auslösen, wenn Sie sie wiederherstellen. Verwenden Sie immer die letzte Version der SCB-Datei, wenn Sie zur Wiederherstellung fortfahren.
+- Speichern Sie die SCB-Datei (es handelt sich um einen verschlüsselten Text mit der Erweiterung .bin) außerhalb Ihres Geräts an einem sicheren Ort. Sie können [LocalSend](https://github.com/localsend/localsend) verwenden, um diese Datei auf einen PC oder ein anderes Gerät zu übertragen.
+- Speichern Sie auch den seed Ihres Blixt Wallet an einem sicheren Ort, z. B. in einem Offline-Passwortmanager/verschlüsselten USB.
+
+
+Geheime Methode: Wie man den Blixt-Knoten migriert, ohne die bestehenden Kanäle zu schließen. Dazu müssen Sie den vorherigen Abschnitt "Dritter Kontakt" in diesem Leitfaden über "Wallet wiederherstellen" sorgfältig lesen.
+
+
+Dieses Verfahren ist nicht für Anfänger, sondern nur für fortgeschrittene Benutzer! Deshalb ist es nicht allgemein zugänglich und ich empfehle, es nur mit Hilfe der Blixt-Entwickler oder meines Supports durchzuführen. Bitte ignorieren Sie diesen Rat nicht.
+
+
+### FALL 4 - WELCHE PEERS SOLLEN DIE KANÄLE ÖFFNEN?
+
+
+Wie ich in [Blixt guides page] (https://blixtwallet.github.io/guides) geschrieben habe, gibt es viele Möglichkeiten, Kanäle mit diesem mobilen LND Knoten zu öffnen. Aber einige wichtige Aspekte möchte ich Ihnen hier in Erinnerung rufen:
+
+
+
+- offen mit bekannten LSP-Knoten und mit von der Gemeinschaft verbürgten Gleichrangigen. [Siehe hier eine Liste](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
+- öffnen Sie nicht mit zufälligen Tor-Nodes. Diese sind wertlos und du wirst nur Probleme bekommen, weil du keine Zahlungen tätigen kannst. Egal wie gut dein Freund "the node runner" mit einem schäbigen Tor-Knoten im Dschungel ist, er wird dir niemals die besten Routen für einen mobilen privaten Knoten geben. Du öffnest keine Kanäle mit jemandem, weil er dein Freund ist. Wir sind hier nicht bei Facebook! Du öffnest einen Kanal für: gute Routen, geringe Gebühren, Verfügbarkeit.
+- es gibt keine Notwendigkeit, eine Scheiße Tonne von kleinen Kanälen zu öffnen, 2-3 oder max 4, aber mit einer guten Menge von Sats. Öffnen Sie nicht kleine Kanäle, sind völlig nutzlos. Kleiner als 200k für eine mobile haben nicht viel nutzen.
+- denken Sie an die LSPs, die Inbound-Kanäle und JIT-Kanäle (just in time) anbieten. Diese sind sehr nützlich, weil Sie keine Ihrer UTXOs verwenden müssen. Sie können den Eröffnungskanal mit Geldern bezahlen, die Sie bereits in anderen LN-Geldbörsen haben, und diese stapeln und für die Eröffnung eines größeren Kanals vorbereiten. Sie sollten diese JIT-Kanäle zu Ihren Gunsten nutzen. [Ich habe in diesem Leitfaden](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) mehr Optionen für Peers für private Nodes wie Blixt erklärt. Außerdem habe ich [hier in diesem Leitfaden auf SN](https://stacker.news/items/679242/r/DarthCoin) erklärt, wie man die Liquidität der privaten mobilen Nodes verwaltet.
+
+
+---
+
+## Schlussfolgerung
+
+
+OK, es gibt noch viele andere erstaunliche Funktionen, die Blixt bietet. Ich werde sie dir nach und nach zeigen und dir viel Spaß dabei wünschen.
+
+
+Diese App wird wirklich unterschätzt, vor allem, weil sie nicht von VCs finanziert wird, sondern von der Community betrieben wird und mit Liebe und Leidenschaft für Bitcoin und Lightning Network entwickelt wurde.
+
+
+Dieser mobile LN-Knoten, Blixt, ist ein sehr leistungsfähiges Werkzeug in den Händen vieler Nutzer, wenn sie wissen, wie man es richtig einsetzt. Stellen Sie sich vor, Sie laufen mit einem LN-Knoten in Ihrer Tasche durch die Welt und niemand wird es bemerken.
+
+
+Ganz zu schweigen von den vielen anderen Funktionen, die nur wenige oder gar keine anderen Wallet-Anwendungen bieten können.
+
+
+In der Zwischenzeit finden Sie hier alle Links zu diesem erstaunlichen Bitcoin Lightning Node:
+
+
+
+- [Offizielle Blixt-Webseite](https://blixtwallet.com/)
+- [Blixt Github-Seite](https://github.com/hsjoberg/blixt-Wallet/)
+- [Blixt Features page](https://blixtwallet.github.io/features) - erklärt jedes einzelne Feature und jede einzelne Funktion.
+- [Blixt-FAQ-Seite](https://blixtwallet.github.io/faq) - Liste der Fragen und Antworten und der Fehlerbehebung bei Blixt
+- [Blixt Guides page](https://blixtwallet.github.io/guides) - Demos, Video-Tutorials, zusätzliche Anleitungen und Anwendungsfälle für Blixt
+- Download: [Android Play Store](https://play.google.com/store/apps/details?id=com.blixtwallet) | [iOS](https://testflight.apple.com/join/EXvGhRzS) | [APK direkt herunterladen](https://github.com/hsjoberg/blixt-Wallet/releases)
+- [Telegrammgruppe für direkte Unterstützung] (https://t.me/blixtwallet)
+- [Twitter] (https://twitter.com/BlixtWallet)
+- [Geyser Crowdfunding-Seite](https://geyser.fund/project/blixt) - spenden Sie Sats, um das Projekt zu unterstützen
+- [LNURL Chat Blixt](https://chat.blixtwallet.com/) - anonymer LN Chat
+- [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
+- [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - Promo-Video (Sie können Ihre 1. Verwendung von LN testen)
+- [Druckbarer A4-Flyer mit ersten Schritten mit Blixt, in verschiedenen Sprachen] (https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
+- [Blixt bietet auch eine voll funktionsfähige Demoversion (https://blixt-Wallet-git-master-hsjoberg.vercel.app/) direkt auf der Website oder auf einer speziellen Webversion an, mit der Sie alle Funktionen testen können, bevor Sie sie in der realen Welt einsetzen.
+
+
+---
+**DISCLAIMER:**
+
+
+*Ich werde von den Entwicklern dieser App weder bezahlt noch in irgendeiner Weise unterstützt. Ich habe diesen Leitfaden geschrieben, weil ich gesehen habe, dass das Interesse an dieser Wallet-App zunimmt und neue Benutzer immer noch nicht verstehen, wie sie damit anfangen sollen. Außerdem möchte ich Hampus (dem Hauptentwickler) mit der Dokumentation über die Verwendung dieses Knotens Wallet.* helfen
+
+
+*Ich habe kein anderes Interesse daran, diese LN-App zu fördern, als die Einführung von Bitcoin und LN voranzutreiben. Das ist der einzige Weg!*
+
+
+---

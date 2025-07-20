@@ -1,0 +1,9 @@
+question: Ni injini gani ya uwasilishaji iliyotumiwa na Internet Explorer kuanzia toleo la 4 na kuendelea na ilitawala soko mapema miaka ya 2000?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Blink
+explanation: |
+  Trident, iliyotengenezwa na Microsoft, ilianzishwa na Internet Explorer 4.0 mwaka wa 1997 na ilitawala wavuti wakati wa ukiritimba wa mtandaoni wa Internet Explorer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kakva je veza između slobode i odgovornosti?
+answer: Odgovornost proizlazi iz slobode individualnih izbora
+wrong_answers:
+  - Sloboda je ograničena odgovornošću drugih
+  - Sloboda i odgovornost su dva nezavisna pojma
+  - Odgovornost je prepreka slobodi
+explanation: |
+  Odnos između slobode i odgovornosti je intrinzičan, jer sloboda donošenja odluka takođe podrazumeva odgovornost za posledice tih odluka, čime se ističe da svaki slobodan čin prati moralna obaveza.
+reviewed: false

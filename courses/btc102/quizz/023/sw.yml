@@ -1,11 +1,9 @@
-question: FOMO ni nini katika muktadha wa uwekezaji wa Bitcoin?
-answer: Hofu ya Kukosa, ambayo inaweza kusababisha uwekezaji wa haraka.
+question: Je, ni faida gani kuu ya Bitcoin katika uso wa migogoro ya kifedha?
+answer: Kuhifadhi akiba dhidi ya mfumuko wa bei
 wrong_answers:
-  - Hofu ya Kutoa Ofa, ambayo inaweza kusababisha kusitasita katika kuwekeza.
-  - Hofu ya Oscillations ya Soko, ambayo inaweza kusababisha wasiwasi juu ya tete ya soko.
-  - Hofu ya Kuongezeka kwa Fedha, ambayo inaweza kusababisha uwekezaji kupita kiasi.
+  - Kuongezeka kwa viwango vya riba
+  - Kuhakikisha kurudi kwa kudumu
+  - Kutoa bima ya benki
 explanation: |
-  Katika muktadha wa uwekezaji wa Bitcoin, FOMO inasimamia Hofu ya Kukosa
-  Nje. Hii inaweza kusababisha uwekezaji wa haraka kwani wawekezaji hukimbilia kununua Bitcoin nje
-  hofu ya kukosa faida inayoweza kutokea.
+  Bitcoin inatoa ulinzi dhidi ya kushuka kwa thamani ya sarafu kutokana na sera yake ya utoaji inayoweza kutabirika.
 reviewed: false

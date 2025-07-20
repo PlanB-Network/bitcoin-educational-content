@@ -1,9 +1,9 @@
-question: Qual è il rischio di non possedere la chiave privata del tuo portafoglio Bitcoin?
-answer: I tuoi bitcoin sono soggetti a rischi come hacking, sequestro, regolamentazione o fallimento.
+question: Quale rischio maggiore si corre divulgando troppe informazioni nel piano successorio?
+answer: Rischio di furto
 wrong_answers:
-  - I tuoi bitcoin verranno automaticamente convertiti in un'altra criptovaluta.
-  - I tuoi bitcoin perderanno il loro valore.
-  - I tuoi bitcoin verranno trasferiti in un altro portafoglio.
+  - Rischio di perdita
+  - Rischio di svalutazione
+  - Rischio di regolamentazione
 explanation: |
-  Se non possiedi la chiave privata del tuo portafoglio Bitcoin, i tuoi bitcoin sono soggetti a rischi come hacking, sequestro, regolamentazione o fallimento.
+  Un numero eccessivo di informazioni può facilitare l'azione di malintenzionati che si impossessano del vostro piano ereditario.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koji prefiks se koristi za označavanje kompresovanog javnog ključa sa neparnom y-koordinatom?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Prefiks 0x03 označava kompresovani javni ključ sa neparnom y-koordinatom.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Koja je svrha čvorova u Bitcoin mreži?
+answer: Da održite i osigurate Blockchain
+wrong_answers:
+  - Da obradim transakcije
+  - Da predložiš i implementiraš promene u Bitcoin kodnoj bazi
+  - Da se takmiči sa drugim rudarima
+explanation: |
+  Čvorovi su ključni za integritet i sigurnost Bitcoin mreže. 
+  Oni služe kao čuvari sistema, osiguravajući da se transakcije 
+  obrađuju tačno i u skladu sa pravilima.
+reviewed: true

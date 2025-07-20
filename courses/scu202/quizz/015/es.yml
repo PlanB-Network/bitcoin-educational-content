@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal ventaja de la distribución rolling release?
+answer: Utilice el software más reciente
+wrong_answers:
+  - Mayor compatibilidad con Windows
+  - Un entorno sin gráficos Interface
+  - Apoyo obligatorio a las ventas
+explanation: |
+  Los Rolling Releases integran actualizaciones continuas del software, lo que garantiza el acceso permanente a las últimas versiones.
+reviewed: false

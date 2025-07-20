@@ -1,0 +1,9 @@
+question: Kako da instaliram alat RGB putem Cargo-a?
+answer: cargo install RGB-contracts --all-features
+wrong_answers:
+  - cargo install RGB --features all
+  - cargo install RGB-Bitcoin --all
+  - cargo build RGB-lightning --release
+explanation: |
+  Instalacija se vrši komandom "cargo install RGB-contracts --all-features", pri čemu se paket zove "RGB-contracts", što instalira alat RGB.
+reviewed: false

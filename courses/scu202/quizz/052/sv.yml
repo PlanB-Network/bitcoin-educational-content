@@ -1,0 +1,9 @@
+question: Vilken rutin rekommenderas innan du delar en fil online eller via e-post?
+answer: Rengör alla metadata
+wrong_answers:
+  - Kryptera alla metadata
+  - Autentisera alla metadata
+  - Byt namn på alla metadata
+explanation: |
+  Rensning av metadata förhindrar oavsiktlig spridning av känslig information när filer delas.
+reviewed: false

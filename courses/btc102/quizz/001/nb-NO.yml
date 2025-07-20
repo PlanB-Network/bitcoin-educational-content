@@ -1,10 +1,9 @@
-question: Hva er et vanlig svindelforsøk knyttet til online konkurranser eller donasjoner i krypto-sektoren?
-answer: Annonser som lover gratis bitcoins.
+question: Hva bør du gjøre for å identifisere et phishing-forsøk i kryptosektoren?
+answer: Bekreft avsenderens identitet
 wrong_answers:
-  - Annonser som lover fysiske varer.
-  - Annonser som lover gratis fiat-valuta.
-  - Annonser som lover gratis programvare.
+  - Klikk bare på lenker som du har mottatt i e-posten
+  - Del dine private nøkler for å bekrefte ektheten
+  - Stol utelukkende på logoer og bilder i e-poster
 explanation: |
-  Svindelforsøk knyttet til online konkurranser eller donasjoner er veldig vanlige i
-  krypto-sektoren. Annonser som lover gratis bitcoins brukes ofte for å lure
-  uerfarne brukere.
+  Du bør alltid forsikre deg om at du kommuniserer med riktig person, og aldri bruke lenker i e-poster. Gå i stedet direkte til nettstedet manuelt ved å bruke bokmerkene i nettleseren din.
+reviewed: false

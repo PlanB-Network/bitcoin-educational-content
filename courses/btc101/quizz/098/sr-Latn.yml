@@ -1,0 +1,11 @@
+question: Jedna preporučena alternativa korišćenju papira za čuvanje vaše Mnemonic fraze je korišćenje metalne pločice ili uređaja specijalno dizajniranog za čuvanje fraza.
+answer: Urezivanje na metalnu ploču.
+wrong_answers:
+  - Čuvanje u digitalnoj datoteci.
+  - Pisanje na beloj tabli.
+  - Čuvanje kao kontakt u vašem telefonu.
+explanation: |
+  Jedna od preporučenih alternativa papiru za čuvanje
+  vaše Mnemonic fraze je graviranje na metalnoj ploči. Ovo
+  rešenje je izdržljivije i dugotrajnije.
+reviewed: true

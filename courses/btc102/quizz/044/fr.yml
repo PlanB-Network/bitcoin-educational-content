@@ -1,9 +1,9 @@
-question: Quel est le rôle principal des mineurs dans le réseau Bitcoin ?
-answer: Ils sécurisent le réseau en effectuant les processus de preuve de travail de Bitcoin.
+question: Quel est l'origine du terme hodler ?
+answer: Une déformation de hold
 wrong_answers:
-  - Ils créent de nouveaux bitcoins.
-  - Ils régulent le prix du Bitcoin.
-  - Ils contrôlent le réseau Bitcoin.
+  - Un acronyme de hold
+  - Une abréviation de hot wallet
+  - Une contraction de hodl chain
 explanation: |
-  Le contenu du chapitre explique que les mineurs sont responsables de la sécurisation du réseau Bitcoin. Ils utilisent de l'électricité pour effectuer les processus de preuve de travail de Bitcoin, ce qui crée un nouveau bloc.
+  Le terme hodler provient d'une faute de frappe sur Bitcoin Talk, transformant "hold" en "hodl" pour signifier la conservation à long terme.
 reviewed: false

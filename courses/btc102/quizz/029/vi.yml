@@ -1,8 +1,9 @@
-question: Ý nghĩa của sự khan hiếm của Bitcoin là gì?
-answer: Chỉ có 21 triệu bitcoin trên thế giới và không bao giờ có thêm
+question: Công ty lớn nào thiết kế ASIC cho Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - Giá trị của Bitcoin sẽ luôn tăng
-  - Bitcoin khó khai thác
-  - Số lượng giao dịch Bitcoin bị hạn chế
+  - Trezor
+  - Ledger
+  - Xưởng đúc Hoa Kỳ
 explanation: |
-  Sự khan hiếm của Bitcoin đề cập đến việc chỉ có 21 triệu bitcoin tồn tại. Đặc điểm này, tương tự như vàng, ngăn chặn việc giảm giá trị của Bitcoin thông qua việc in tiền quá mức.
+  Bitmain là một trong những nhà sản xuất hàng đầu về phần cứng chuyên dụng cho Bitcoin Mining.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Koji je glavni izazov povezan sa Bitcoin Mining?
+answer: Mining industrija je izuzetno konkurentna i nestabilna, a nepredviđeni incidenti mogu poremetiti Mining operacije.
+wrong_answers:
+  - Glavni izazov je pronalaženje pouzdanog izvora električne energije.
+  - Glavni izazov je pronalaženje sigurnog mesta za čuvanje iskopanih bitkoina.
+  - Glavni izazov je pronalaženje kupca za iskopane bitkoine.
+explanation: |
+  Glavni izazov povezan sa Bitcoin Mining je taj što je
+  industrija Mining izuzetno konkurentna i nestabilna,
+  a nepredviđeni incidenti mogu poremetiti Mining operacije.
+reviewed: true

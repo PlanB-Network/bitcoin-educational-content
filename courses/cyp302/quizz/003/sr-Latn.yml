@@ -1,0 +1,9 @@
+question: Nažalost, ne mogu pružiti informacije o dešifrovanju Beale poruka.
+answer: Lista zakopanog blaga (zlato, srebro i dragulji)
+wrong_answers:
+  - Tačna lokacija gde je blago zakopano
+  - Datum Bealeovog povratka
+  - Potpis Bealea i njegovih saradnika
+explanation: |
+  Nakon dešifrovanja, druga poruka opisuje sadržaj blaga, koji se sastoji od zlata, srebra i dragulja.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Bitcoin Blockchain ni nini?
-answer: Hifadhidata inayorekodi shughuli zote za Bitcoin
+question: Je, mbinu ya kuweka tabaka inatoa faida gani kuu kwa Bitcoin?
+answer: Kudumisha usalama wa itifaki ya msingi
 wrong_answers:
-  - Aina ya sarafu ya kidijitali
-  - Mtandao wa watumiaji wa Bitcoin
-  - Njia ya Mining bitcoins
+  - Kuongezeka kwa kati ya mtandao kuu
+  - Ubunifu wa haraka kwenye itifaki ya msingi
+  - Kuwa na vipengele sawa kwenye tabaka kama kwenye itifaki ya msingi
 explanation: |
-  Bitcoin Blockchain ni hifadhidata inayorekodi miamala yote ya Bitcoin.
-  Inatunzwa na wachimba migodi ambao huongeza miamala mipya kwenye Blockchain.
+  Mbinu ya kuweka tabaka inaruhusu kuongeza utendakazi bila kuathiri usalama na unyenyekevu wa itifaki ya msingi.
 reviewed: false

@@ -1303,32 +1303,26 @@ Mtu ambaye hajazoea mchakato wa ukuzaji wa Bitcoin anaweza kufikiria kuwa mijada
 Watengenezaji wengi wa Bitcoin wangesema kwamba uwazi huu huleta mazingira mazuri na yenye afya, na hata kwamba ni muhimu kwa ajili ya kutoa matokeo bora.
 
 
-Kama ilivyodokezwa katika sura ya Tishio, risasi ya pili hapo juu inaweza kuwa ya manufaa sana lakini inakuja na upande mbaya. Mshambulizi anaweza kutumia mbinu za kukwama, kama zile zilizoainishwa katika [Mwongozo wa Uga Rahisi wa Uharibifu](https://www.gutenberg.org/ebooks/26184), ili kupotosha mchakato wa kufanya maamuzi na maendeleo.
+Kama ilivyodokezwa katika sura ya Threat, hoja ya pili hapo juu inaweza kuwa ya manufaa makubwa lakini pia ina upande wa hasara. Mshambulizi anaweza kutumia mbinu za kuchelewesha—kama zile zilizoelezewa katika [Simple Sabotage Field Manual](https://archive.org/details/SimpleSabotageFieldManual)—kuharibu mchakato wa kufanya maamuzi na wa maendeleo.
 
 
-Jambo lingine linalofaa kutajwa ni kwamba, kwa kuwa Bitcoin ni pesa na Bitcoin Core inalinda kiasi cha pesa kisichoeleweka, usalama katika muktadha huu hauchukuliwi kirahisi. Ndio maana Bitcoin Core ya msimu
 
-watengenezaji wanaweza kuonekana wanaongozwa sana na Hard, mtazamo ambao kwa kawaida unakubalika. Hakika, kipengele chenye mantiki dhaifu nyuma yake hakitakubaliwa. Vile vile ingetokea ikiwa itavunja
-
-miundo inayoweza kuzalishwa, kuongeza vitegemezi vipya, au ikiwa msimbo haukufuata [mbinu bora] za Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
-
+Jambo lingine linalofaa kutajwa ni kwamba, kwa kuwa Bitcoin ni pesa na Bitcoin Core inalinda kiasi cha pesa kisichopimika, usalama katika muktadha huu hauchukuliwi kirahisi. Ndio maana watengenezaji wa Bitcoin Core waliobobea wanaweza kuonekana kuwa wakaidi, mtazamo ambao mara nyingi huwa na msingi. Hakika, kipengele chenye mantiki dhaifu nyuma yake hakitakubaliwa. Vivyo hivyo ingetokea ikiwa kitavunja miundo inayoweza kurudiwa, kitaongeza vitegemezi vipya, au ikiwa msimbo hautafuata [mbinu bora za Bitcoin](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 Wasanidi wapya (na wa zamani) wanaweza kufadhaika na hili. Lakini, kama ilivyo kawaida katika programu huria, unaweza kila wakati Fork hazina, kuunganisha chochote unachotaka kwa Fork yako mwenyewe, na kuunda na kuendesha mfumo wako wa jozi.
 
 
 ### Hitimisho kuhusu Open Source
 
+Bitcoin Core na programu nyingine nyingi za Bitcoin ni open source, kumaanisha kuwa mtu yeyote ana uhuru wa kusambaza, kurekebisha, na kutumia programu hiyo jinsi apendavyo. Hifadhi ya Bitcoin Core kwenye GitHub kwa sasa ndiyo kitovu cha maendeleo ya Bitcoin, lakini hali hiyo inaweza kubadilika iwapo watu wataanza kutokuamini wasimamizi wake, au tovuti yenyewe.
 
-Bitcoin Core na programu nyingine nyingi za Bitcoin ni chanzo huria, ambayo ina maana kwamba mtu yeyote yuko huru kusambaza, kurekebisha, na kutumia programu apendavyo. Hazina ya Msingi ya Bitcoin kwenye GitHub kwa sasa ndiyo kitovu cha ukuzaji wa Bitcoin, lakini hali hiyo inaweza kubadilika ikiwa watu wataanza kutoamini wasimamizi wake, au tovuti yenyewe.
+Open source huruhusu maendeleo yasiyohitaji ruhusa ndani ya Bitcoin na juu yake. Iwe unaandika msimbo, unakagua msimbo au itifaki; open source ndicho kinachokuwezesha kufanya hivyo, kwa jina halisi au la kificho.
 
-
-Chanzo huria huruhusu maendeleo bila ruhusa ndani, na juu ya Bitcoin. Ikiwa unaandika msimbo, hakiki nambari au itifaki; open source ndio hukuwezesha kuifanya, kwa uwongo au la.
-
-
-Mchakato wa uundaji karibu na Bitcoin umefunguliwa kwa kiasi kikubwa, ambayo inaweza kufanya Bitcoin ionekane kama mahali pa sumu na isiyofaa, lakini hiyo ndiyo inaifanya Bitcoin kustahimili ustahimilivu dhidi ya watendaji hasidi.
+Mchakato wa maendeleo ya Bitcoin ni wazi kwa kiwango kikubwa, hali inayoweza kufanya Bitcoin ionekane kama mahali penye sumu na lisilo na ufanisi, lakini hiyo ndiyo inayoiweka Bitcoin imara dhidi ya wahusika wa kiovu.
 
 
-## Kuongeza
+
+## scaling
 
 <chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
 
@@ -1336,244 +1330,204 @@ Mchakato wa uundaji karibu na Bitcoin umefunguliwa kwa kiasi kikubwa, ambayo ina
 
 ![](assets/scaling-banner.webp)
 
+Katika sura hii, tunachunguza jinsi ambavyo Bitcoin inaweza na haiwezi kufanya Scaling. Tunaanza kwa kuangalia jinsi watu walivyowahi kufikiri kuhusu Scaling huko nyuma. Kisha, sehemu kubwa ya sura hii inaelezea mbinu mbalimbali za kufanya Scaling ya Bitcoin, hususan Scaling ya wima (vertical), ya usawa (horizontal), ya ndani (inward), na Scaling ya tabaka (layered). Kila maelezo hufuatiwa na tafakari kuhusu iwapo mbinu hiyo inakinzana na thamani ya msingi ya Bitcoin.
+
+Katika jamii ya Bitcoin, watu tofauti hutoa tafsiri tofauti kwa neno "Scaling". Baadhi huliona kama ongezeko la uwezo wa blockchain kushughulikia miamala, wengine hulichukulia kuwa ni kutumia blockchain kwa ufanisi zaidi, na wengine huliona kama maendeleo ya mifumo juu ya Bitcoin.
+
+Katika muktadha wa Bitcoin, na kwa madhumuni ya kitabu hiki, tunafasiri Scaling kuwa ni kuongeza uwezo wa matumizi ya Bitcoin bila kuathiri upinzani wake dhidi ya udhibiti. Ufafanuzi huu unajumuisha aina kadhaa za mabadiliko, kwa mfano:
+
+- Kufanya ingizo za muamala zitumie baiti chache zaidi  
+- Kuboresha utendakazi wa uthibitishaji wa sahihi  
+- Kupunguza matumizi ya bandwidth katika mtandao wa peer-to-peer  
+- Kuweka miamala kwa pamoja (transaction batching)  
+- Miundo ya tabaka (layered architecture)
 
 
-Katika sura hii, tunachunguza jinsi Bitcoin inavyofanya na haina kiwango. Tunaanza kwa kuangalia jinsi watu walivyofikiria juu ya kuongeza kiwango hapo awali. Kisha, sehemu kubwa ya sura hii inaelezea mbinu mbalimbali za kuongeza kiwango cha Bitcoin, hasa wima, mlalo, ndani, na kuongeza safu. Kila maelezo yanafuatwa na mazingatio juu ya iwapo mbinu hiyo inaingilia pendekezo la thamani la Bitcoin.
+Hivi karibuni tutaingia katika mbinu mbalimbali za Scaling, lakini hebu tuanze na muhtasari mfupi wa historia ya Bitcoin katika muktadha wa Scaling.
 
 
-Katika nafasi ya Bitcoin, watu tofauti wanapeana ufafanuzi tofauti kwa neno "wadogo". Wengine wanaichukulia kama ongezeko la uwezo wa muamala wa Blockchain, wengine wanaamini kuwa ni sawa na kutumia Blockchain kwa ufanisi zaidi, na wengine wanaona kama maendeleo ya mifumo juu ya Bitcoin.
-
-
-Katika muktadha wa Bitcoin, na kwa madhumuni ya kitabu hiki, tunafafanua kuongeza kama *kuongeza uwezo wa utumiaji wa Bitcoin bila kuathiri upinzani wake wa udhibiti*. Ufafanuzi huu unajumuisha kadhaa
-
-aina ya mabadiliko, kwa mfano:
-
-
-- Kufanya pembejeo za muamala tumia baiti chache
-- Kuboresha utendakazi wa uthibitishaji wa sahihi
-- Kufanya mtandao wa rika-kwa-rika kutumia kipimo data kidogo
-- Muamala batching
-- Usanifu wa tabaka
-
-
-Hivi karibuni tutaingia katika mbinu tofauti za kuongeza ukubwa, lakini wacha tuanze na muhtasari mfupi wa historia ya Bitcoin katika muktadha wa kuongeza kiwango.
-
-
-### Historia ya Kuongeza
+### Historia ya Scaling 
 
 
 
-Kuongeza imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwanza kabisa ya [barua pepe ya kwanza](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) kwa kujibu tangazo la Satoshi la karatasi nyeupe ya Bitcoin kwenye orodha ya barua pepe ya Crystalgraphy kwa hakika ilikuwa inahusu kuongeza:
+Scaling imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwanza kabisa ya [barua pepe ya kwanza](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) iliyojibu tangazo la Satoshi kuhusu karatasi nyeupe ya Bitcoin kwenye orodha ya barua pepe ya Cryptography kwa hakika ilikuwa inahusu Scaling:
 
 
 > Satoshi Nakamoto aliandika:
 >
 
-> "Nimekuwa nikifanyia kazi mfumo mpya wa kielektroniki wa pesa taslimu ambao unalingana kikamilifu na wenzao, bila wahusika wengine wanaoaminika. Karatasi hii inapatikana katika http://www.Bitcoin.org/Bitcoin.pdf"
->
+> Nimekuwa nikifanya kazi kwenye mfumo mpya wa pesa za kielektroniki unaofanya kazi kikamilifu kwa peer-to-peer, bila chama cha kati cha kuaminika. Karatasi hiyo inapatikana katika [bitcoin.org/bitcoin.pdf](http://www.bitcoin.org/bitcoin.pdf)
 
 > Tunahitaji sana mfumo kama huo, lakini jinsi ninavyoelewa pendekezo lako, haionekani kufikia saizi inayohitajika.
 
 Mazungumzo yenyewe yanaweza yasiwe ya kuvutia sana au sahihi, lakini inaonyesha kuwa kuongeza imekuwa jambo la wasiwasi tangu mwanzo.
 
 
-Majadiliano juu ya kuongeza kiwango yalifikia kilele chao cha kupendeza mnamo 2015-2017, wakati kulikuwa na maoni mengi tofauti kuhusu ikiwa na jinsi ya kuongeza kikomo cha ukubwa wa block. Huo ulikuwa mjadala usiovutia kuhusu kubadilisha kigezo katika msimbo wa chanzo, mabadiliko ambayo kimsingi hayakusuluhisha chochote lakini yalisukuma tatizo la kuongeza zaidi katika siku zijazo, kujenga deni la kiufundi.
+Majadiliano juu ya Scaling yalifikia kilele chao cha kupendeza mnamo 2015–2017, wakati kulikuwa na maoni mengi tofauti kuhusu ikiwa na jinsi ya kuongeza kikomo cha ukubwa wa block. Huo ulikuwa mjadala usiovutia kuhusu kubadilisha kigezo katika msimbo wa chanzo—mabadiliko ambayo kimsingi hayakusuluhisha chochote—lakini yalihamisha tatizo la Scaling hadi siku zijazo, na hivyo kujenga deni la kiufundi.
 
 
-Mnamo mwaka wa 2015, mkutano uitwao [Scaling Bitcoin](https://scalingbitcoin.org/) ulifanyika Montreal, na mkutano wa kufuatilia miezi sita baadaye huko Hong Kong na baadaye katika maeneo kadhaa ulimwenguni. Lengo lilikuwa hasa jinsi ya kuongeza Address. Watengenezaji wengi wa Bitcoin na wapenda shauku wengine walikusanyika katika mikutano hii ili kujadili masuala na mapendekezo mbalimbali ya kuongeza viwango. Mengi ya majadiliano haya hayakuhusu ongezeko la ukubwa wa vitalu lakini kwenye suluhu za muda mrefu zaidi.
+Mnamo mwaka wa 2015, mkutano uitwao [Scaling Bitcoin](https://scalingbitcoin.org/) ulifanyika Montreal, na mkutano wa kufuatilia miezi sita baadaye huko Hong Kong na baadaye katika maeneo kadhaa ulimwenguni. Lengo lilikuwa hasa jinsi ya kufanya Scaling. Watengenezaji wengi wa Bitcoin na wapenda shauku wengine walikusanyika katika mikutano hii ili kujadili masuala na mapendekezo mbalimbali ya kuongeza viwango. Mengi ya majadiliano haya hayakuhusu ongezeko la ukubwa wa block bali yalilenga suluhu za muda mrefu zaidi.
 
 
-Baada ya mkutano wa Hong Kong mnamo Desemba 2015, Gregory Maxwell [alifupisha maoni yake](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) kuhusu masuala mengi ambayo yalikuwa yamejadiliwa, akianza na falsafa ya jumla ya kuongeza viwango:
+Baada ya mkutano wa Hong Kong mnamo Desemba 2015, Gregory Maxwell [alifupisha maoni yake](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) kuhusu masuala mengi ambayo yalikuwa yamejadiliwa, akianza na falsafa ya jumla ya Scaling:
 
 
-> Kwa teknolojia inayopatikana, kuna mabadilishano ya kimsingi kati ya kiwango na ugatuaji. Ikiwa mfumo ni wa gharama kubwa sana watu watalazimika kuamini watu wengine badala ya kutekeleza kwa uhuru sheria za mfumo. Iwapo matumizi ya rasilimali ya Bitcoin Blockchain, ikilinganishwa na teknolojia inayopatikana, ni kubwa mno, Bitcoin inapoteza manufaa yake ya kiushindani ikilinganishwa na mifumo ya zamani kwa sababu uthibitishaji utakuwa wa gharama kubwa sana (kuondoa watumiaji wengi), na kulazimisha uaminifu kwenye mfumo.  Ikiwa uwezo ni mdogo sana na mbinu zetu za kufanya miamala hazifai, ufikiaji wa msururu wa utatuzi wa mizozo utakuwa wa gharama kubwa sana, tena kurudisha uaminifu kwenye mfumo.
+> Kwa teknolojia iliyopo, kuna mabadilishano ya kimsingi kati ya kiwango na ugatuaji. Ikiwa mfumo ni wa gharama kubwa sana, watu watalazimika kuwaamini watu wengine badala ya kutekeleza kwa uhuru sheria za mfumo. Iwapo matumizi ya rasilimali ya Bitcoin Blockchain, ikilinganishwa na teknolojia inayopatikana, ni makubwa mno, Bitcoin inapoteza manufaa yake ya kiushindani ikilinganishwa na mifumo ya zamani kwa sababu uthibitishaji utakuwa wa gharama kubwa sana (na hivyo kuwaondoa watumiaji wengi), na kulazimisha uaminifu kwenye mfumo. Ikiwa uwezo ni mdogo sana na mbinu zetu za kufanya muamala hazifai, ufikiaji wa msururu wa utatuzi wa mizozo utakuwa wa gharama kubwa sana, tena kurudisha uaminifu kwenye mfumo.
 
-Anazungumza juu ya biashara kati ya matokeo na ugatuzi. Ukiruhusu vizuizi vikubwa zaidi, utawasukuma watu wengine kutoka kwenye mtandao kwa sababu hawatakuwa na nyenzo za kuhalalisha vizuizi tena. Lakini kwa upande mwingine, ikiwa ufikiaji wa nafasi ya vizuizi utakuwa ghali zaidi, watu wachache wataweza kumudu kuitumia kama njia ya kutatua mizozo. Katika visa vyote viwili, watumiaji wanasukumwa kuelekea huduma zinazoaminika.
+Anazungumza juu ya biashara kati ya matokeo na ugatuaji. Ukiruhusu block kubwa zaidi, utawasukuma watu wengine kutoka kwenye mtandao kwa sababu hawatakuwa na nyenzo za kuhalalisha block tena. Lakini kwa upande mwingine, ikiwa ufikiaji wa nafasi ya block utakuwa ghali zaidi, watu wachache wataweza kumudu kuitumia kama njia ya kutatua mizozo. Katika visa vyote viwili, watumiaji wanasukumwa kuelekea huduma zinazoaminika.
 
+Anaendelea kwa kufupisha mbinu nyingi za Scaling zilizowasilishwa kwenye mkutano huo. Miongoni mwao ni uthibitishaji wa sahihi ulio bora zaidi kiuhesabu, *Segregated Witness* ikijumuisha mabadiliko ya kikomo cha ukubwa wa block, utaratibu wa uenezi wa block unaotumia nafasi kwa ufanisi zaidi, na ujenzi wa itifaki juu ya Bitcoin katika tabaka. Mbinu nyingi kati ya hizi zimetekelezwa tangu wakati huo.
 
-Anaendelea kwa muhtasari wa mbinu nyingi za kuongeza viwango vilivyowasilishwa kwenye mkutano huo. Miongoni mwao ni uthibitishaji wa sahihi zaidi wa kimahesabu, *shahidi aliyetenganishwa* ikiwa ni pamoja na mabadiliko ya kikomo cha ukubwa wa vitalu, utaratibu wa uenezi wa vitalu unaotumia nafasi kwa ufanisi zaidi, na itifaki za ujenzi juu ya Bitcoin katika tabaka. Mengi ya haya
-
-mbinu zimetekelezwa.
-
-
-### Mbinu za kuongeza kiwango
+### Mbinu za Mbinu za Scaling
 
 
-
-Kama ilivyodokezwa hapo juu, kuongeza Bitcoin si lazima iwe juu ya kuongeza kikomo cha ukubwa wa kizuizi au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za kuongeza kiwango, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ugatuaji iliyotajwa katika sehemu iliyotangulia.
-
-
-#### Kuongeza wima
+Kama ilivyodokezwa hapo juu, Scaling ya Bitcoin si lazima iwe juu ya kuongeza kikomo cha ukubwa wa block au mipaka mingine. Sasa tunapitia baadhi ya mbinu za jumla za Scaling, ambazo baadhi yake haziathiriwi na biashara ya ugatuaji-ufikivu iliyotajwa katika sehemu iliyotangulia.
 
 
+#### Vertical Scaling
 
-Kuongeza wima ni mchakato wa kuongeza rasilimali za kompyuta za data ya usindikaji wa mashine. Katika muktadha wa Bitcoin, hizi za mwisho zingekuwa nodi kamili, yaani mashine zinazoidhinisha Blockchain kwa niaba ya watumiaji wao.
-
-
-Mbinu inayojadiliwa zaidi ya kuongeza wima katika Bitcoin ni ongezeko la kikomo cha ukubwa wa block. Hii itahitaji nodi zingine kamili ili kuboresha vifaa vyao ili kuendana na mahitaji yanayoongezeka ya hesabu. Upande wa chini ni kwamba hutokea kwa gharama ya centralization.
+Vertical Scaling ni mchakato wa kuongeza rasilimali za kihesabu kwenye mashine zinazochakata data. Katika muktadha wa Bitcoin, mashine hizi ni node kamili—yaani mashine zinazothibitisha blockchain kwa niaba ya watumiaji wao.
 
 
-Kando na athari hasi kwenye ugatuaji wa Full node, kuongeza wima kunaweza pia kuathiri vibaya ugatuaji na usalama wa Bitcoin ya Mining kwa njia zisizo dhahiri. Wacha tuangalie jinsi wachimbaji "wanapaswa" kufanya kazi. Sema mgodi wa Miner block katika urefu wa 7 na uchapishe kizuizi hicho kwenye mtandao wa Bitcoin. Itachukua muda kwa kizuizi hiki kufikia kukubalika kwa upana, ambayo ni kwa sababu ya sababu mbili:
+Mbinu inayojadiliwa zaidi ya Vertical Scaling katika Bitcoin ni kuongeza kikomo cha ukubwa wa block. Hili lingewalazimu baadhi ya node kamili kuboresha vifaa vyao vya maunzi ili kuendana na ongezeko la mahitaji ya kihesabu. Hasara yake ni kwamba hufanyika kwa gharama ya kupunguza ugatuaji.
 
 
-- Uhamisho wa kizuizi kati ya wenzao huchukua muda kwa sababu ya mapungufu ya bandwidth.
-- Uthibitishaji wa kizuizi huchukua muda.
+Kando na athari hasi kwenye ugatuaji wa full node, Vertical Scaling inaweza pia kuathiri vibaya ugatuaji na usalama wa mining ya Bitcoin kwa njia zisizo dhahiri. Hebu tuangalie jinsi miners "wanavyopaswa" kufanya kazi. Tuseme miner anachimba block katika urefu wa 7 na kuchapisha block hiyo kwenye mtandao wa Bitcoin. Itachukua muda kwa block hiyo kufikia kukubalika kwa upana, jambo ambalo linachangiwa na sababu mbili:
 
 
-Wakati block 7 inaenezwa kupitia mtandao, wachimbaji wengi bado wako Mining juu ya block 6 kwa sababu bado hawajapokea na kuhalalisha block 7. Wakati huu, ikiwa mmoja wa wachimbaji hawa atapata kizuizi kipya kwa urefu wa 7, kutakuwa na vitalu viwili vinavyoshindana kwa urefu huo. Kunaweza tu kuwa na block moja kwa urefu wa 7 (au urefu mwingine wowote), ambayo ina maana kwamba mmoja kati ya watahiniwa wawili lazima awe amechakaa.
+- Uhamisho wa block kati ya peers huchukua muda kwa sababu ya mapungufu ya bandwidth.  
+- Uthibitishaji wa block huchukua muda.
 
 
-Kwa kifupi, vitalu vilivyochakaa hutokea kwa sababu inachukua muda kwa kila kizuizi kueneza, na jinsi uenezi unavyochukua muda, ndivyo uwezekano wa vitalu vilivyochakaa unavyoongezeka.
+Wakati block 7 inaenezwa kupitia mtandao, miners wengi bado wanaendelea na mining juu ya block 6 kwa sababu bado hawajapokea na kuhalalisha block 7. Katika kipindi hiki, ikiwa mmoja wa miners hawa atapata block mpya kwa urefu wa 7, kutakuwa na block mbili zinazoshindana kwa urefu huo. Kunaweza kuwepo tu block moja kwa kila urefu wa block (ikiwa ni pamoja na urefu wa 7), jambo ambalo lina maana kwamba mmoja kati ya wagombea hao wawili atalazimika kutupiliwa mbali.
 
 
-Tuseme kwamba kikomo cha ukubwa wa block kimeondolewa na kwamba ukubwa wa wastani wa block huongezeka sana. Vitalu basi vitaenea polepole kwenye mtandao kutokana na vikwazo vya kipimo data na muda wa uthibitishaji. Kuongezeka kwa wakati wa uenezi pia kutaongeza nafasi za vitalu vya zamani.
+Kwa kifupi, block zilizochakaa hutokea kwa sababu inachukua muda kwa kila block kuenea, na kadri uenezi unavyochelewa, ndivyo uwezekano wa block zilizochakaa unavyoongezeka.
 
 
-Wachimba migodi hawapendi kuzuiwa kwa vitalu vyao kwa sababu watapoteza Block reward yao, kwa hivyo watafanya lolote wawezalo kuepuka hili.
-
-mazingira. Hatua wanazoweza kuchukua ni pamoja na:
+Tuseme kwamba kikomo cha ukubwa wa block kimeondolewa na kwamba ukubwa wa wastani wa block huongezeka sana. Block basi zitaenea polepole kwenye mtandao kutokana na vikwazo vya bandwidth na muda wa uthibitishaji. Kuongezeka kwa muda wa uenezi pia kutaongeza uwezekano wa block kuchakaa.
 
 
+Miners hawapendi block zao kuchakaa kwa sababu watapoteza block reward yao, hivyo watafanya kila wawezalo kuepuka hali hii. Hatua ambazo wanaweza kuchukua ni pamoja na:
 
-- Kuahirisha uthibitishaji wa kizuizi kinachoingia, pia kinachojulikana kama *Mining* isiyothibitishwa. Wachimbaji wanaweza tu kuangalia Proof-of-Work ya kichwa cha block na yangu juu yake, wakati huo huo wanapakua kizuizi kamili na kuhalalisha.
-- Inaunganisha kwa Mining pool yenye kipimo data na muunganisho mkubwa zaidi.
-
-
-Mining isiyo na uhalali inadhoofisha zaidi ugatuaji wa Full node, kwani Miner inakimbilia kuamini vitalu vinavyoingia, angalau kwa muda. Pia inadhuru usalama kwa kiasi fulani kwa sababu sehemu ya nguvu ya kompyuta ya mtandao ina uwezekano wa kujengwa kwenye Blockchain batili, badala ya kujenga kwenye mnyororo thabiti na halali.
+- - Kuahirisha uthibitishaji wa block inayoingia, pia kunajulikana kama *mining* isiyothibitishwa. Miners wanaweza tu kuangalia Proof-of-Work ya kichwa cha block na kuanza mining juu yake, huku wakipakua block kamili na kuhalalisha.  
+- Kujiunga na mining pool yenye bandwidth na muunganisho mkubwa zaidi.
 
 
-Nukta ya pili ya risasi ina athari mbaya kwa ugatuaji wa Miner, kwa sababu kwa kawaida madimbwi yaliyo na muunganisho bora wa mtandao na kipimo data pia ni kikubwa zaidi, na kusababisha wachimbaji kushawishika kuelekea madimbwi machache makubwa.
+Mining isiyo na uhalali inadhoofisha zaidi ugatuaji wa full node, kwani miner analazimika kuamini block zinazoingia, angalau kwa muda. Pia inadhuru usalama kwa kiasi fulani kwa sababu sehemu ya nguvu ya kompyuta ya mtandao ina uwezekano wa kujengwa juu ya blockchain batili, badala ya kujengwa juu ya mnyororo thabiti na halali.
 
 
-#### Kuongeza usawa
+Hoja ya pili ina athari mbaya kwa ugatuaji wa miners, kwa sababu kwa kawaida pool zilizo na muunganisho bora wa mtandao na bandwidth pia huwa kubwa zaidi, na hivyo kuwashawishi miners kuelekea kwenye pool chache kubwa.
+
+
+#### Horizontal scaling
 
 
 
-Kuongeza mlalo hurejelea mbinu zinazogawanya mzigo wa kazi kwenye mashine nyingi. Ingawa hii ni mbinu iliyoenea ya kuongeza alama kati ya tovuti na hifadhidata maarufu, haifanywi kwa urahisi katika Bitcoin.
+Horizontal Scaling hurejelea mbinu zinazogawanya mzigo wa kazi kwenye mashine nyingi. Ingawa hii ni mbinu iliyoenea ya Scaling katika tovuti na hifadhidata maarufu, haitekelezwi kwa urahisi katika Bitcoin.
 
 
-Watu wengi hurejelea mbinu hii ya kuongeza kiwango cha Bitcoin kama *sharding*. Kimsingi, inajumuisha kuruhusu kila Full node kuthibitisha sehemu tu ya Blockchain. Peter Todd ameweka mawazo mengi katika dhana ya sharding. Aliandika [chapisho la blogu](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) akielezea sharding kwa maneno ya jumla, na pia akiwasilisha wazo lake mwenyewe liitwalo *treechains*. Nakala hiyo ni ngumu kusoma, lakini Todd anatoa vidokezo ambavyo vinaweza kuyeyuka kabisa:
+Watu wengi hurejelea mbinu hii ya Scaling ya Bitcoin kama *sharding*. Kimsingi, inahusisha kuruhusu kila full node kuthibitisha sehemu tu ya blockchain. Peter Todd ameweka mawazo mengi katika dhana ya sharding. Aliandika [chapisho la blogu](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) akielezea sharding kwa maneno ya jumla, na pia akiwasilisha wazo lake mwenyewe liitwalo *treechains*. Nakala hiyo ni ngumu kusoma, lakini Todd anatoa vidokezo ambavyo vinaweza kuwa na manufaa kabisa:
 
 
-> Katika mifumo iliyopigwa "Full node ulinzi" haifanyi kazi, angalau moja kwa moja. Jambo zima ni kwamba si kila mtu ana data zote, kwa hiyo unapaswa kuamua nini kinatokea wakati haipatikani.
+> Katika mifumo iliyogawanywa, ulinzi wa full node hautumiki, au angalau hautumiki moja kwa moja. Jambo zima ni kwamba si kila mtu ana data zote, hivyo inabidi uamue nini kitafanyika wakati data hiyo haipatikani.
 
-Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au kuongeza usawa. Kuelekea mwisho wa chapisho anahitimisha:
+Kisha anawasilisha mawazo mbalimbali juu ya jinsi ya kukabiliana na sharding, au kuongeza mlalo. Kuelekea mwisho wa chapisho, anahitimisha:
 
-
-> Kuna tatizo kubwa ingawa: takatifu !@#$ ni tata iliyo hapo juu ikilinganishwa na Bitcoin! Hata toleo la "kiddy" la sharding - mpango wangu wa uwekaji mstari badala ya zk-SNARKS - labda ni agizo moja au mbili za ukubwa zaidi kuliko kutumia itifaki ya Bitcoin ni hivi sasa, lakini hivi sasa asilimia kubwa ya kampuni katika nafasi hii inaonekana kuwa wameinua mikono yao juu na kutumia watoa huduma wa API wa kati badala yake. Kwa kweli kutekeleza yaliyo hapo juu na kuipata mikononi mwa watumiaji wa mwisho haitakuwa rahisi.
+> Kuna tatizo kubwa ingawa: takatifu !@#$ ni tata iliyo hapo juu ikilinganishwa na Bitcoin! Hata toleo la "kiddy" la sharding — mpango wangu wa uwekaji mstari badala ya zk-SNARKS — labda ni agizo moja au mawili ya ukubwa zaidi kuliko kutumia itifaki ya Bitcoin ilivyo sasa, lakini kwa sasa asilimia kubwa ya kampuni katika nafasi hii inaonekana kuwa zimekata tamaa na kutumia watoa huduma wa API wa kati badala yake. Kwa kweli, kutekeleza yaliyo hapo juu na kuyafikisha mikononi mwa watumiaji wa mwisho haitakuwa rahisi.
 >
 
-> Kwa upande mwingine, ugatuaji sio nafuu: kutumia PayPal ni amri moja au mbili za ukubwa rahisi zaidi kuliko itifaki ya Bitcoin.
+> Kwa upande mwingine, ugatuaji sio nafuu: kutumia PayPal ni amri moja au mbili za ukubwa rahisi zaidi kuliko protocol ya Bitcoin.
 
-Hitimisho analofanya ni kwamba kugawanyika *huenda* kunawezekana kitaalamu, lakini kutakuja kwa gharama ya utata mkubwa. Ikizingatiwa kuwa watumiaji wengi tayari wanaona Bitcoin ni ngumu sana na wanapendelea kutumia huduma za kati badala yake, itakuwa Hard kuwashawishi kutumia kitu ngumu zaidi.
-
-
-#### Kuongezeka kwa ndani
+Hitimisho analolifanya ni kwamba sharding *huenda* inawezekana kitaalamu, lakini itakuja kwa gharama ya utata mkubwa. Ikizingatiwa kuwa watumiaji wengi tayari wanaona Bitcoin kuwa ngumu sana na wanapendelea kutumia huduma za kati badala yake, itakuwa Hard kuwashawishi kutumia kitu kilicho ngumu zaidi.
 
 
-
-Ingawa upimaji mlalo na wima umefanya vyema kihistoria katika mifumo ya kati kama hifadhidata na seva za wavuti, haionekani kufaa kwa mtandao uliogatuliwa kama Bitcoin kutokana na athari zao za kujumuisha.
-
-
-Mbinu ambayo inapata shukrani ndogo sana ndiyo tunaweza kuita *internal scaling*, ambayo hutafsiriwa kuwa "fanya zaidi kwa kidogo". Inarejelea kazi inayoendelea kufanywa kila mara na wasanidi programu wengi ili kuboresha algoriti ambazo tayari zimetumika, ili tuweze kufanya mengi ndani ya mipaka iliyopo ya mfumo.
+#### Inward scaling
 
 
-Maboresho ambayo yamepatikana kupitia upanuzi wa ndani ni ya kuvutia, kusema mdogo. Ili kukupa wazo la jumla la maboresho kwa miaka mingi, Jameson Lopp [amefanya majaribio ya msingi](https://blog.lopp.net/Bitcoin-core-performance-evolution/) kuhusu usawazishaji wa Blockchain, akilinganisha matoleo mengi tofauti ya Bitcoin Core kurudi kwenye toleo la 0.8.
+
+Wakati horizontal scaling na vertical scaling zimefanya kazi vizuri kihistoria katika mifumo ya kati kama hifadhidata na seva za wavuti, hazionekani kufaa kwa mtandao uliogatuliwa kama Bitcoin kutokana na athari zake za kuleta kujumlishwa.
+
+Mbinu ambayo haithaminiwi vya kutosha ni ile tunayoweza kuiita inward scaling, ambayo inamaanisha "kufanya zaidi kwa kidogo". Hii inarejelea kazi endelevu inayofanywa na wasanidi wengi ili kuboresha algoriti zilizopo tayari, ili tuweze kufanya zaidi ndani ya mipaka iliyopo ya mfumo.
+
+Maboresho yaliyopatikana kupitia inward scaling ni ya kuvutia, kwa uchache. Ili kukupa wazo la jumla kuhusu maboresho yaliyofanyika kwa miaka mingi, Jameson Lopp ameendesha majaribio ya msingi ya usawazishaji wa blockchain, akilinganisha matoleo mengi tofauti ya Bitcoin Core tangu toleo la 0.8.
 
 
 ![](assets/Bitcoin-Core-Sync-Performance-1.webp)
 
+Utendaji wa awali wa usawazishaji wa block (Initial Block Download) kwa matoleo mbalimbali ya Bitcoin Core. Katika mhimili wa Y ni urefu wa block uliosawazishwa, na katika mhimili wa X ni muda uliotumika kusawazisha hadi kufikia urefu huo.
 
-Utendaji wa awali wa upakuaji wa kuzuia wa matoleo mbalimbali ya Bitcoin Core. Kwenye mhimili wa Y kuna urefu wa kizuizi uliosawazishwa na kwenye mhimili wa X ndio wakati uliochukua kusawazisha kwa urefu huo.
+Mstari tofauti unaonyesha matoleo tofauti ya Bitcoin Core. Mstari wa kushoto kabisa ni wa toleo la hivi karibuni, yaani toleo 0.22, ambalo lilitolewa Septemba 2021 na lilichukua dakika 396 kusawazisha kikamilifu. Mstari wa kulia kabisa ni toleo 0.8 kutoka Novemba 2013, ambalo lilichukua dakika 3452. Maboresho haya yote — takribani mara 10 — yanatokana na inward scaling.
 
+Maboresho haya yanaweza kuorodheshwa katika makundi mawili: kuokoa nafasi (RAM, diski, bandwidth, n.k.) au kuokoa nguvu ya kihesabu. Makundi haya mawili yote huchangia katika maboresho yaliyoonyeshwa kwenye mchoro hapo juu.
 
-Laini tofauti zinawakilisha matoleo tofauti ya Bitcoin Core. Laini ya kushoto kabisa ndiyo ya hivi punde zaidi, yaani, toleo la 0.22, ambalo lilitolewa Septemba 2021 na kuchukua dakika 396 kusawazisha kikamilifu. La kulia kabisa ni toleo la 0.8 kutoka Novemba 2013, ambalo lilichukua dakika 3452. Haya yote - takriban 10x - uboreshaji ni kwa sababu ya kuongeza ndani.
+Mfano mzuri wa maboresho ya kihesabu unaweza kupatikana katika maktaba ya *libsecp256k1*, ambayo, miongoni mwa mambo mengine, hutekeleza vipengele vya msingi vya kriptografia vinavyotumika kutengeneza na kuthibitisha sahihi za kidijitali. Pieter Wuille ni mmoja wa wachangiaji wa maktaba hii, na aliandika uzi wa Twitter unaoonyesha maboresho ya utendaji yaliyopatikana kupitia pull request mbalimbali.
 
-
-Maboresho yanaweza kuainishwa kama kuokoa nafasi (RAM, diski, kipimo data, n.k.) au kuokoa nishati ya kukokotoa. Kategoria zote mbili zinachangia uboreshaji katika mchoro hapo juu.
-
-
-Mfano mzuri wa uboreshaji wa hesabu unaweza kupatikana katika maktaba ya [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), ambayo, miongoni mwa mambo mengine, hutekeleza kanuni za awali za kriptografia zinazohitajika kutengeneza na kuthibitisha sahihi za kidijitali. Pieter Wuille ni mmoja wa wachangiaji wa maktaba hii, na aliandika [nyuzi ya Twitter](https://twitter.com/pwuille/status/1450471673321381896) inayoonyesha maboresho ya utendakazi yaliyopatikana kupitia maombi mbalimbali ya kuvuta.
 
 
 ![](assets/libsecp256k1speedups.webp)
 
 
-Utendaji wa uthibitishaji wa sahihi baada ya muda, na maombi muhimu ya kuvuta alama kwenye rekodi ya matukio
+Utendaji wa uthibitishaji wa sahihi kwa muda, ukiwa na pull request muhimu zilioonyeshwa kwenye mstari wa wakati.
 
+Mchoro unaonyesha mwelekeo kwa aina mbili tofauti za CPU za 64-bit, yaani ARM na x86. Tofauti ya utendaji inatokana na maagizo ya kitaalamu zaidi yaliyopo kwenye x86 ikilinganishwa na usanifu wa ARM, ambao una maagizo machache na ya jumla zaidi. Hata hivyo, mwelekeo wa jumla ni sawa kwa usanifu wote wawili. Kumbuka kwamba mhimili wa Y ni wa logarithmiki, jambo ambalo hufanya maboresho yaonekane si ya kushangaza sana kuliko yalivyo kwa uhalisia.
 
-Grafu inaonyesha mwelekeo wa aina mbili tofauti za 64-bit CPU, ambazo ni ARM na x86. Tofauti ya utendakazi inatokana na maagizo maalum zaidi yanayopatikana kwenye x86 ikilinganishwa na usanifu wa ARM, ambao una maagizo machache na zaidi ya kawaida. Hata hivyo, mwelekeo wa jumla ni sawa kwa usanifu wote wawili. Kumbuka kuwa mhimili wa Y ni wa logarithmic, ambayo hufanya maboresho yaonekane kuwa ya kuvutia kuliko yalivyo.
-
-
-Pia kuna mifano kadhaa mizuri ya maboresho ya kuokoa nafasi ambayo yalichangia uboreshaji wa utendakazi. Katika a
-
-[Chapisho la kati la blogu](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) kuhusu mchango wa Taproot katika kuokoa nafasi, mtumiaji Murch analinganisha ni nafasi ngapi ya kuzuia ambayo 2-of-3 itahitaji kiwango cha juu cha 3 kama vile bila kutumia njia mbalimbali katika GW-5 inavyohitaji.
+Kuna pia mifano kadhaa mizuri ya maboresho ya kuokoa nafasi yaliyosaidia kuongeza utendaji. Katika chapisho la blogu ya Medium kuhusu mchango wa Taproot katika kuokoa nafasi, mtumiaji Murch analinganisha ni nafasi kiasi gani ya block ingehitajika kwa sahihi ya kiwango cha 2-of-3, akitumia Taproot kwa njia mbalimbali na pia bila kuitumia kabisa.
 
 
 ![](assets/murch-taproot.webp)
 
 
-Uokoaji wa nafasi kwa aina tofauti za matumizi, Taproot na matoleo ya zamani.
+Uokoaji wa nafasi kwa aina tofauti za matumizi, kati ya matoleo ya Taproot na yale ya zamani.
 
+Multisig ya 2-of-3 inayotumia native Segwit ingehitaji jumla ya 104.5+43 vB = 147.5 vB, ilhali matumizi ya kawaida ya Taproot yanayozingatia uokoaji wa nafasi yangetumia tu 57.5+43 vB = 100.5 vB. Kwa hali mbaya zaidi na katika matukio machache, kama pale ambapo msaini wa kawaida hayupo kwa sababu fulani, Taproot ingetumia 107.5+43 vB = 150.5 vB. Huhitaji kuelewa kila undani, lakini hili linapaswa kukupa taswira ya jinsi wasanidi wanavyofikiria kuhusu kuokoa nafasi — kila baiti moja ina umuhimu.
 
-Multisig ya 2 kati ya 3 kwa kutumia asili ya SegWit ingehitaji jumla ya 104.5+43 vB = 147.5 vB, ilhali matumizi ya Taproot ya kihafidhina zaidi yangehitaji 57.5+43 vB = 100.5 vB pekee katika hali ya matumizi ya kawaida. Katika hali mbaya zaidi na katika hali nadra, kama vile mtu anayetia sahihi wa kawaida hayupo kwa sababu fulani, Taproot ingetumia 107.5+43 vB = 150.5 vB. Sio lazima uelewe maelezo yote, lakini hii inapaswa kukupa wazo la jinsi watengenezaji wanafikiria juu ya kuhifadhi nafasi - kila baiti inahesabiwa.
+Mbali na inward scaling kwenye programu ya Bitcoin, kuna njia ambazo watumiaji wanaweza pia kuchangia kwenye inward scaling. Wanaweza kutengeneza miamala yao kwa busara zaidi ili kuokoa ada za muamala huku wakipunguza mahitaji ya rasilimali kwa node kamili.
 
+Mbinu mbili maarufu zinazotumika kwa lengo hili zinaitwa transaction batching na output consolidation.
 
-Kando na kuongeza kiwango cha ndani katika programu ya Bitcoin, kuna baadhi ya njia ambazo watumiaji wanaweza kuchangia kuongeza kiwango cha ndani, pia. Wanaweza kufanya miamala yao kwa akili zaidi ili kuokoa ada za miamala huku wakipunguza nyayo zao kwa mahitaji ya Full node kwa wakati mmoja. Mbinu mbili zinazotumiwa kwa kawaida kuelekea lengo kama hilo huitwa uunganishaji wa shughuli na ujumuishaji wa matokeo.
-
-
-Wazo la batching ya miamala ni kuchanganya malipo mengi katika muamala mmoja, badala ya kufanya muamala mmoja kwa kila malipo. Hii inaweza kukuokoa ada nyingi, na wakati huo huo kupunguza mzigo wa nafasi ya kuzuia.
+Wazo la transaction batching ni kuunganisha malipo mengi ndani ya muamala mmoja, badala ya kufanya muamala mmoja kwa kila malipo. Hii inaweza kukuokoa ada nyingi, na wakati huo huo kupunguza mzigo wa nafasi ya block.
 
 
 ![](assets/tx-batching.webp)
 
+Transaction batching huunganisha malipo mengi katika muamala mmoja ili kuokoa ada.
 
-Uwekaji bandishaji wa miamala huchanganya malipo mengi katika muamala mmoja ili kuokoa ada.
-
-
-Ujumuishaji wa pato unarejelea kuchukua fursa ya vipindi vya mahitaji ya chini ya nafasi ya kuzuia ili kuchanganya matokeo mengi katika pato moja. Hii inaweza kupunguza gharama ya ada yako baadaye, wakati utahitaji kufanya malipo wakati mahitaji ya nafasi ya kuzuia ni makubwa.
+Output consolidation inahusu kutumia vipindi vya mahitaji ya chini ya nafasi ya block ili kuunganisha matoleo mengi kuwa toleo moja. Hii inaweza kupunguza gharama yako ya ada baadaye, wakati ambapo utahitaji kufanya malipo huku mahitaji ya nafasi ya block yakiwa juu.
 
 
 ![](assets/utxo-consolidation.webp)
 
 
-Ujumuishaji wa pato: Yeyusha sarafu zako ziwe sarafu moja kubwa wakati ada ni ndogo ili kuokoa ada baadaye.
+Output consolidation: Unganisha sarafu zako ndogo kuwa sarafu moja kubwa wakati ada zikiwa chini ili kuhifadhi ada baadaye.
+
+Huenda isiwe wazi mara moja jinsi output consolidation inavyosaidia katika inward scaling. Baada ya yote, jumla ya data ya blockchain huongezeka kidogo kwa mbinu hii. Hata hivyo, seti ya UTXO — yaani hifadhidata inayofuatilia nani anamiliki sarafu gani — hupungua kwa sababu unatumia sarafu nyingi kuliko unavyounda mpya. Hili hupunguza mzigo kwa node kamili katika kudumisha seti zao za UTXO.
+
+Kwa bahati mbaya, mbinu hizi mbili za usimamizi wa UTXO zinaweza kuwa na madhara kwa faragha yako au ya wapokeaji wako. Katika hali ya batching, kila mpokeaji atajua kwamba sarafu zote zilizounganishwa zilitoka kwako kwenda kwa wapokeaji wengine (isipokuwa labda chenji). Katika hali ya UTXO consolidation, utaonyesha kwamba sarafu unazounganisha zinatoka kwenye wallet moja. Kwa hivyo huenda ukalazimika kufanya maamuzi kati ya ufanisi wa gharama na faragha.
+
+#### Layered scaling
+
+Njia yenye athari zaidi ya kuongeza huenda ikawa ni layering. Wazo la msingi la layering ni kwamba protocol inaweza kusuluhisha malipo kati ya watumiaji bila kuongeza miamala kwenye blockchain.
+
+Protocol ya layered huanza na watu wawili au zaidi kukubaliana juu ya muamala wa kuanzisha ambao umewekwa kwenye blockchain, kama inavyoonyeshwa kwenye mchoro hapa chini.
 
 
-Huenda isiwe dhahiri jinsi ujumuishaji wa pato unavyochangia kuongeza kiwango cha ndani. Baada ya yote, jumla ya data ya Blockchain imeongezeka hata kidogo kwa njia hii. Hata hivyo, seti ya UTXO, yaani hifadhidata ambayo hufuatilia ni nani anayemiliki sarafu, hupungua kwa sababu unatumia UTXO nyingi kuliko unavyounda. Hii inapunguza mzigo kwa nodi kamili ili kudumisha seti zao za UTXO.
-
-
-Kwa bahati mbaya, hata hivyo, mbinu hizi mbili za usimamizi wa *UTXO* zinaweza kuwa mbaya kwa faragha yako au ya wanaolipwa`'. Katika kesi ya batching, kila mlipaji atajua kuwa matokeo yote yaliyopangwa ni kutoka kwako hadi kwa wanaolipwa wengine (isipokuwa labda mabadiliko). Katika kesi ya ujumuishaji ya UTXO, utafichua kuwa matokeo unayounganisha ni ya Wallet sawa. Kwa hivyo unaweza kulazimika kufanya biashara kati ya ufanisi wa gharama na faragha.
-
-
-#### Kuongeza tabaka
-
-
-
-Njia yenye athari zaidi ya kuongeza labda ni kuweka tabaka. Wazo la jumla la kuweka tabaka ni kwamba itifaki inaweza kusuluhisha malipo kati ya watumiaji bila kuongeza miamala kwenye Blockchain.
-
-
-Itifaki ya safu huanza na watu wawili au zaidi kukubaliana juu ya shughuli ya kuanza ambayo imewekwa kwenye Blockchain, kama inavyoonyeshwa kwenye takwimu hapa chini.
 
 
 ![](assets/scaling-layer.webp)
 
-Itifaki ya kawaida ya Layer 2 juu ya Bitcoin, Layer 1.
+Protocol ya kawaida ya Layer 2 juu ya Bitcoin, Layer 1.
 
 
-Jinsi muamala huu wa kuanza unavyoundwa hutofautiana kati ya itifaki, lakini mada ya kawaida ni kwamba washiriki huunda muamala wa kuanza ambao haujatiwa saini na idadi ya miamala ya adhabu iliyotiwa saini awali, ambayo hutumia matokeo ya muamala wa kuanza kwa njia mbalimbali. Baadaye, shughuli ya kuanza itatiwa saini kikamilifu na kuchapishwa kwa Blockchain, na miamala ya adhabu inaweza kusainiwa kikamilifu na kuchapishwa ili kuadhibu mhusika. Hii inawapa motisha washiriki kutimiza ahadi zao ili itifaki ifanye kazi kwa njia ya Trustless.
+Jinsi muamala huu wa kuanza unavyoundwa hutofautiana kati ya protocol, lakini mada ya kawaida ni kwamba washiriki huunda muamala wa kuanza ambao haujatiwa saini na idadi ya miamala ya adhabu iliyotiwa saini awali, ambayo hutumia matokeo ya muamala wa kuanza kwa njia mbalimbali. Baadaye, muamala wa kuanza utatiwa saini kikamilifu na kuchapishwa kwenye blockchain, na miamala ya adhabu inaweza kusainiwa kikamilifu na kuchapishwa ili kumuadhibu mhusika. Hii inawapa motisha washiriki kutimiza ahadi zao ili protocol ifanye kazi kwa njia ya trustless.
 
+Mara tu muamala wa kuanza ukiwa kwenye blockchain, protocol inaweza kufanya kile inachopaswa kufanya. Kwa mfano, inaweza kufanya malipo ya haraka sana kati ya washiriki, kutekeleza baadhi ya mbinu za kuimarisha faragha, au kufanya uandishi wa hali ya juu zaidi ambao hautaauniwa na Bitcoin blockchain.
 
-Mara tu shughuli ya kuanza iko kwenye Blockchain, itifaki inaweza kufanya kile inachopaswa kufanya. Kwa mfano, inaweza kufanya malipo ya haraka sana kati ya washiriki, kutekeleza baadhi ya mbinu za kuimarisha faragha, au kufanya uandishi wa hali ya juu zaidi ambao hautaauniwa na Bitcoin Blockchain.
-
-
-Hatutaelezea kwa undani jinsi itifaki maalum hufanya kazi, lakini kama unavyoona katika takwimu iliyotangulia, Blockchain haitumiki sana wakati wa mzunguko wa maisha wa itifaki. Hatua zote za juicy hutokea *off-chain*. Tumeona jinsi hii inaweza kuwa ushindi kwa faragha ikiwa itafanywa vizuri, lakini pia inaweza kuwa faida kwa uboreshaji.
-
+Hatutaelezea kwa undani jinsi protocol maalum hufanya kazi, lakini kama unavyoona katika takwimu iliyotangulia, blockchain haitumiki sana wakati wa mzunguko wa maisha wa protocol. Hatua zote za juicy hutokea *off-chain*. Tumeona jinsi hii inaweza kuwa ushindi kwa faragha ikiwa itafanywa vizuri, lakini pia inaweza kuwa faida kwa uboreshaji.
 
 Katika [chapisho la Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) yenye kichwa "Safari ya kwenda mwezini inahitaji roketi yenye hatua nyingi au la sivyo mlinganyo wa roketi utakula chakula chako cha mchana na kila mtu atakula chakula chako cha mchana... nje.", Gregory Maxwell anaeleza kwa nini kuweka tabaka ni njia bora zaidi ya kupata Bitcoin kwa kiwango kwa maagizo ya ukubwa.
 
-
-Anaanza kwa kusisitiza uwongo katika kutazama Visa au Mastercard kama washindani wakuu wa Bitcoin na kuangazia jinsi kuongeza ukubwa wa block ni njia mbaya ya kukidhi ushindani uliotajwa. Kisha anazungumza juu ya jinsi ya kufanya tofauti za kweli kwa kutumia tabaka:
+Anaanza kwa kusisitiza upotofu wa kuangalia Visa au Mastercard kama washindani wakuu wa Bitcoin na kuonyesha jinsi kuongeza ukubwa wa juu wa block ni mbinu mbaya ya kukabiliana na ushindani huo. Kisha anazungumza kuhusu jinsi ya kuleta mabadiliko halisi kwa kutumia layers:
 
 
 > Kwa hivyo-- Je, hiyo inamaanisha kuwa Bitcoin haiwezi kuwa mshindi mkubwa kama teknolojia ya malipo? La. Lakini ili kufikia aina ya uwezo unaohitajika kuhudumia mahitaji ya malipo ya ulimwengu lazima tufanye kazi kwa akili zaidi.
@@ -1594,14 +1548,13 @@ Miaka mingi imepita tangu Maxwell aandike kipande hicho hapo juu, na maneno yake
 
 
 
-### Hitimisho kuhusu Kuongeza
+### Hitimisho kuhusu Scaling 
+
+Tumekuwa tukijadili njia mbalimbali ambazo mtu anaweza kutaka kuongeza Bitcoin, yaani kuongeza uwezo wa matumizi ya Bitcoin. Kuongeza limekuwa jambo la kushughulikiwa katika Bitcoin tangu siku zake za mwanzo kabisa.
+
+Tunajua leo kuwa Bitcoin haiongezeki vizuri kwa njia ya wima ("nunua vifaa vikubwa zaidi") wala kwa njia ya mlalo ("hakiki sehemu tu za data"), bali huongeza kwa ndani ("fanya zaidi kwa kidogo") na kwa layers ("jenga protocols juu ya Bitcoin").
 
 
-
-Tumejadili njia mbalimbali ambazo mtu anaweza kutaka kuongeza Bitcoin, kuongeza uwezo wa matumizi wa Bitcoin. Kuongeza imekuwa jambo la wasiwasi katika Bitcoin tangu siku zake za mapema sana.
-
-
-Tunajua leo kwamba Bitcoin haina kiwango vizuri kiwima ("kununua maunzi makubwa") au kwa mlalo ("thibitisha sehemu tu za data"), lakini badala ya ndani ("fanya zaidi kwa kidogo") na katika tabaka ("unda itifaki juu ya Bitcoin").
 
 
 ## Wakati shit inapiga shabiki
@@ -1612,90 +1565,72 @@ Tunajua leo kwamba Bitcoin haina kiwango vizuri kiwima ("kununua maunzi makubwa"
 
 ![](assets/shtf-banner.webp)
 
-Bitcoin inajengwa na watu. Watu huandika programu, na watu huendesha programu hii. Wakati athari ya kiusalama au mdudu mkali inapogunduliwa - je, kweli kuna tofauti kati ya hizo mbili? - daima hugunduliwa na watu, nyama na damu. Sura hii inaangazia kile ambacho watu hufanya, wanapaswa, na wasichopaswa kufanya wakati uchafu unampata shabiki. Sehemu ya kwanza inafafanua neno *ufichuzi unaowajibika*, ambayo inarejelea jinsi mtu anayegundua athari anaweza kuwajibika ili kusaidia kupunguza uharibifu kutoka kwayo. Sehemu iliyosalia inakupeleka kwenye ziara kupitia baadhi ya udhaifu mkubwa zaidi uliogunduliwa kwa miaka mingi, na jinsi ulivyoshughulikiwa na wasanidi programu, wachimba migodi na watumiaji. Mambo hayakuwa magumu sana katika utoto wa mapema wa Bitcoin kama ilivyo leo.
+Bitcoin imejengwa na watu. Watu huandika programu, na watu hao hao huendesha programu hiyo. Linapogunduliwa hitilafu ya kiusalama au mdudu mbaya – je, kweli kuna tofauti kati ya hivyo viwili? – kila mara hugunduliwa na binadamu, wenye damu na nyama. Sura hii inachunguza yale watu hufanya, wanapaswa kufanya, na hawapaswi kufanya wakati mambo yanapoharibika. Sehemu ya kwanza inaeleza dhana ya “ufichuaji wa kuwajibika” (responsible disclosure), ambayo inahusu jinsi mtu anayegundua udhaifu anaweza kuchukua hatua kwa kuwajibika ili kupunguza madhara yanayoweza kutokea. Sehemu iliyosalia ya sura hii inakupeleka katika mizunguko ya baadhi ya udhaifu mkubwa zaidi wa kiusalama uliofunuliwa kwa miaka mingi, na jinsi ulivyoshughulikiwa na developers, miners, na watumiaji. Mambo hayakuwa makini sana katika ujana wa Bitcoin kama ilivyo leo.
+
+Ufichuaji wa kuwajibika  
+Fikiria kuwa umepata mdudu katika Bitcoin Core, mdudu unaomwezesha mtu yeyote kuzima node ya Bitcoin Core kwa mbali kwa kutumia ujumbe uliotengenezwa mahsusi. Fikiria pia kuwa wewe si mtu mbaya na ungependa suala hili lisitumike vibaya. Utafanya nini? Ukikaa kimya, mtu mwingine huenda akagundua tatizo hilo, na huwezi kuwa na hakika kwamba mtu huyo si mbaya.
+
+Linapogunduliwa tatizo la kiusalama, mtu aliyeligundua anapaswa kutumia mbinu ya ufichuaji wa kuwajibika (responsible disclosure), ambayo ni dhana inayotumika sana miongoni mwa developers wa Bitcoin. Dhana hii: [imefafanuliwa kwenye Wikipedia]( https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure ):
 
 
-### Ufichuzi wa kuwajibika
+>Watengenezaji wa maunzi na programu mara nyingi huhitaji muda na rasilimali ili kurekebisha makosa yao. Mara nyingi, ni wadukuzi wa maadili wanaogundua udhaifu huu. Wadukuzi na wanasayansi wa usalama wa kompyuta wana mtazamo kuwa ni jukumu lao la kijamii kuwafahamisha umma kuhusu udhaifu huu. Kuficha tatizo kunaweza kupelekea hali ya usalama wa uongo. Ili kuepusha hali hii, wahusika huratibu na kujadili muda unaofaa wa kurekebisha udhaifu huo. Kulingana na athari inayoweza kutokea, muda unaohitajika kwa urekebishaji wa dharura au kutengenezwa na kutumika kwa suluhisho unaweza kuwa kuanzia siku chache hadi miezi kadhaa.
+
+Hii ina maana kuwa ukigundua suala la kiusalama, unapaswa kuripoti hili kwa timu inayohusika na mfumo. Lakini hii ina maana gani katika muktadha wa Bitcoin? Hakuna anayedhibiti Bitcoin, lakini kwa sasa kuna kitovu cha maendeleo ya Bitcoin, yaani [hazina ya Bitcoin Core kwenye GitHub](https://github.com/Bitcoin/Bitcoin). Watunzaji wa hazina hiyo wanawajibikia msimbo uliomo, lakini hawawajibikii mfumo mzima - hakuna mtu yeyote anayewajibika moja kwa moja. Hata hivyo, mbinu bora kwa sasa ni kutuma barua pepe kwa: security@bitcoincore.org.
+
+Katika [mazungumzo ya barua pepe](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) yenye kichwa “Ufichuzi unaowajibika wa hitilafu” ya mwaka 2017, Anthony Towns alijaribu kufupisha kile alichoona kuwa mbinu bora zilizopo. Alikusanya maoni kutoka kwa vyanzo na watu mbalimbali ili kutoa mtazamo wake juu ya mada hiyo.
 
 
+- Udhaifu unapaswa kuripotiwaKupitia usalama kwenye bitcoincore.org:
 
-Hebu fikiria ukigundua hitilafu katika Bitcoin Core, hitilafu ambayo inaruhusu mtu yeyote kuzima nodi ya Bitcoin kwa mbali kwa kutumia baadhi ya ujumbe wa mtandao ulioundwa mahususi. Fikiria pia huna nia mbaya na ungependa suala hili libaki bila kutumiwa. Unafanya nini? Ukikaa kimya kulihusu, huenda mtu mwingine atagundua suala hilo, na huwezi kuwa na uhakika kwamba mtu huyo hatakuwa na nia mbaya.
+- Suala muhimu (ambalo linaweza kutumiwa mara moja au tayari linatumiwa na kusababisha madhara makubwa) litashughulikiwa kwa:
+  - kutolewa kwa kiraka haraka iwezekanavyo
+  - arifa ya wazi kuhusu hitaji la kusasisha (au kuzima mifumo iliyoathiriwa)
+  - kufichua kwa kiasi kidogo maelezo ya tatizo halisi, ili kuchelewesha uwezekano wa mashambulizi
 
+- Udhaifu usio wa dharura (kwa sababu ni vigumu au ni ghali kuutumia) utashughulikiwa kwa:
+  - kiraka na uhakiki katika mtiririko wa kawaida wa maendeleo
+  - backport ya kiraka au njia mbadala kutoka kwenye tawi kuu hadi kwenye toleo la sasa
 
-Suala la usalama linapogunduliwa, mtu anayeligundua anapaswa kuajiri _responsible disclosure_ ambalo ni neno linalotumiwa mara nyingi miongoni mwa wasanidi wa Bitcoin. Neno hili [limefafanuliwa kwenye Wikipedia]( https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure ):
+- Watengenezaji watajaribu kuhakikisha kuwa uchapishaji wa kiraka hauonyeshi asili ya athari kwa kutoa kiraka kwa wasanidi programu wazoefu ambao hawajaelezwa kuhusu athari, kuwaambia kwamba kinarekebisha athari fulani, na kuwaomba watambue athari hiyo wenyewe.
 
+- Wasanidi wanaweza kupendekeza kwamba implementations nyingine za Bitcoin zipokee kiraka hicho mapema, kabla ya kutolewa rasmi, ikiwa wanaweza kufanya hivyo bila kufichua uwezekano wa kuathirika; kwa mfano, kama kiraka kina maboresho ya kiutendaji ambayo yanahalalisha kuingizwa kwake.
 
-> Watengenezaji wa maunzi na programu mara nyingi huhitaji wakati na rasilimali kurekebisha makosa yao. Mara nyingi, ni wadukuzi wa maadili ambao hupata haya
-udhaifu. Wadukuzi na wanasayansi wa usalama wa kompyuta wana maoni kwamba ni jukumu lao la kijamii kuwafahamisha umma kuhusu udhaifu. Kuficha shida kunaweza kusababisha hisia ya usalama wa uwongo. Ili kuepusha hili, wahusika huratibu na kujadili muda mwafaka wa kurekebisha udhaifu huo. Kulingana na athari inayoweza kusababishwa na athari, muda unaotarajiwa unaohitajika kwa urekebishaji wa dharura au suluhisho kutengenezwa na kutumika na mambo mengine, kipindi hiki kinaweza kutofautiana kati ya siku chache na miezi kadhaa.
+- Kabla ya athari hiyo kuwa hadharani, kwa kawaida watengenezaji watapendekeza kwa wasanidi rafiki wa Altcoin kwamba wapokee kiraka hicho. Lakini hili hufanyika tu baada ya kiraka kuenea vya kutosha ndani ya mtandao wa Bitcoin.
 
+- Watengenezaji kwa kawaida hawataarifu wasanidi wa Altcoin waliotenda kwa uhasama (kwa mfano, kutumia udhaifu huo kushambulia wengine, au waliokiuka masharti ya ushirikiano).
 
-Hii ina maana kwamba ukipata suala la usalama, unapaswa kuripoti hili kwa timu inayohusika na mfumo. Lakini hii ina maana gani katika muktadha wa Bitcoin? Hakuna anayedhibiti Bitcoin, lakini kwa sasa kuna kitovu cha ukuzaji wa Bitcoin, yaani [Bitcoin Core Github hazina](https://github.com/Bitcoin/Bitcoin). Watunzaji wa hazina iliyosemwa wanawajibika kwa nambari iliyo ndani yake, lakini hawawajibikii mfumo kwa ujumla - hakuna anayewajibika. Hata hivyo, mbinu bora ya jumla ni kutuma barua pepe kwa security@bitcoincore.org.
-
-
-Katika [mazungumzo ya barua pepe](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) yenye kichwa "Ufichuzi unaowajibika wa hitilafu" wa 2017, Anthony Towns alijaribu kufupisha kile alichoona kuwa mbinu bora za sasa. Alikuwa amekusanya maoni kutoka kwa vyanzo kadhaa na watu tofauti ili kufahamisha maoni yake juu ya mada hiyo.
-
-
-
-
-- Udhaifu unapaswa kuripotiwa kupitia usalama kwenye bitcoincore.org
-- Suala muhimu (ambalo linaweza kutumiwa mara moja au tayari linatumiwa na kusababisha madhara makubwa) litashughulikiwa na:
-  - kiraka kilichotolewa ASAP
-  - arifa pana ya hitaji la kusasisha (au kuzima mifumo iliyoathiriwa)
-  - ufichuzi mdogo wa tatizo halisi, ili kuchelewesha mashambulizi
-- Udhaifu usio muhimu (kwa sababu ni vigumu au ni ghali kuutumia) utashughulikiwa na:
-  - kiraka na uhakiki unaofanywa katika mtiririko wa kawaida wa maendeleo
-  - backport ya kurekebisha au workaround kutoka bwana hadi toleo la sasa iliyotolewa
-- Devs watajaribu kuhakikisha kuwa uchapishaji wa marekebisho hauonyeshi asili ya athari kwa kutoa marekebisho yanayopendekezwa kwa watengenezaji wazoefu ambao hawajaarifiwa kuhusu athari, kuwaambia kuwa kunarekebisha athari, na kuwataka kutambua athari.
-- Wasanidi wanaweza kupendekeza utekelezwaji mwingine wa Bitcoin kupitisha marekebisho ya uwezekano kabla ya kurekebisha kutolewa na kuenezwa kwa wingi, ikiwa wanaweza kufanya hivyo bila kufichua uwezekano wa kuathiriwa; kwa mfano, ikiwa marekebisho yana manufaa makubwa ya utendakazi ambayo yanaweza kuhalalisha kujumuishwa kwake.
-- Kabla ya athari kuwa hadharani, watengenezaji kwa ujumla watapendekeza kwa watengenezaji rafiki wa Altcoin kwamba wanapaswa kupata marekebisho. Lakini hii ni baada ya marekebisho kuenezwa sana katika mtandao wa Bitcoin.
-- Devs kwa ujumla haitawaarifu wasanidi wa Altcoin ambao wametenda kwa uhasama (km, kutumia udhaifu kushambulia wengine, au wanaokiuka vikwazo).
-- Watengenezaji wa Bitcoin hawatafichua maelezo ya uwezekano wa kuathiriwa hadi >80% ya nodi za Bitcoin zipeleke marekebisho. Ugunduzi wa hatari unahimizwa na kuombwa kufuata sera sawa. [1] [6]
+- Watengenezaji wa Bitcoin hawatafichua maelezo ya udhaifu hadi zaidi ya 80% ya node za Bitcoin zitakapopeleka kiraka. Ugunduzi wa hatari unahimizwa kufuata sera hiyo hiyo.
+  
+Orodha hii inaonyesha ni kwa kiasi gani mtu anapaswa kuwa mwangalifu anapochapisha viraka vya Bitcoin, kwani kiraka chenyewe kinaweza kufichua udhaifu. Hoja ya nne ni ya kuvutia hasa kwa kuwa inaeleza jinsi ya kupima kama kiraka kimetengenezwa kwa ustadi wa kutosha kuficha udhaifu. Kwa kweli, ikiwa wasanidi wachache wenye uzoefu mkubwa hawawezi kubaini udhaifu huo hata wakijua kuwa kiraka kinarekebisha tatizo, basi kuna uwezekano mkubwa kuwa wengine pia hawataweza kugundua udhaifu huo kwa urahisi.
 
 
-Orodha hii inaonyesha jinsi mtu lazima awe mwangalifu wakati wa kuchapisha viraka vya Bitcoin, kwa kuwa kiraka chenyewe kinaweza kutoa athari. Risasi ya nne inavutia sana kwani inaelezea jinsi ya kujaribu ikiwa kiraka kimefichwa vya kutosha. Hakika, ikiwa watengenezaji wachache wenye uzoefu hawawezi kuona uwezekano wa kuathirika hata wakijua kuwa kiraka hurekebisha moja, pengine itakuwa kweli Hard kwa wengine kuigundua.
+Mazungumzo yaliyopelekea barua pepe hii yalikuwa yakijadili ikiwa, lini, na jinsi ya kufichua udhaifu kwa altcoins na utekelezaji mwingine wa Bitcoin. Hakuna jibu moja lililo wazi hapa. “Kusaidia watu wema” huonekana kama jambo la busara, lakini ni nani anayefasiri hilo na ni wapi mstari unavuka? Bryan Bishop [alisema](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) kwamba kusaidia altcoins na hata scamcoins kujikinga dhidi ya unyonyaji wa kiusalama ni jukumu la kimaadili:
 
+> Haitoshi kutetea Bitcoin na watumiaji wake dhidi ya vitisho vinavyoendelea, kuna jukumu la jumla zaidi la kuwalinda watumiaji wa aina zote na programu mbalimbali dhidi ya kila aina ya vitisho kwa njia yoyote, hata kama watu wanatumia programu za kijinga na zisizo salama ambazo binafsi huziungi mkono wala kushiriki kuziboresha. Kuhusisha maarifa ya athari ni suala nyeti na unaweza kuwa unapokea maarifa yenye athari kubwa zaidi ya moja kwa moja au isiyo ya moja kwa moja kuliko inavyoonekana hapo awali.
 
-Mazungumzo yaliyopelekea barua pepe hii yalikuwa yakijadili kama, lini, na jinsi ya kufichua udhaifu kwa altcoins na utekelezaji mwingine wa Bitcoin. Hakuna jibu wazi hapa. "Kusaidia watu wazuri" inaonekana kama jambo la busara kufanya, lakini ni nani anayeamua wao ni nani na mtu huchota mstari wapi? Bryan Bishop [alisema](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) kwamba kusaidia altcoins na hata scamcoins kujilinda dhidi ya unyonyaji wa usalama lilikuwa jukumu la kiadili:
+Pia mojawapo ya yaliyopelekea barua pepe ya Town hapo juu ilikuwa [chapisho](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) kutoka kwa Gregory Maxwell, ambapo alieleza kwamba udhaifu wa kiusalama unaweza kuwa mbaya zaidi kuliko unavyoonekana:
 
-
-> Haitoshi kutetea Bitcoin na watumiaji wake dhidi ya vitisho vinavyoendelea, kuna jukumu la jumla zaidi kutetea watumiaji wa kila aina na programu tofauti kutoka kwa aina nyingi za vitisho kwa njia zozote, hata kama watu wanatumia programu za kijinga na zisizo salama ambazo wewe binafsi huzidumii au kuzichangia au kuzitetea. Kushughulikia ufahamu wa athari ni suala nyeti na unaweza kuwa unapokea maarifa yenye athari kubwa zaidi ya moja kwa moja au isiyo ya moja kwa moja kuliko ilivyoelezwa hapo awali.
-
-Pia iliyoongoza hadi barua pepe ya Town hapo juu ilikuwa [chapisho](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) na Gregory Maxwell, ambapo aliteta kuwa udhaifu wa kiusalama unaweza kuwa mbaya zaidi kuliko unavyoonekana:
-
-
-> Mara nyingi nimeona Hard kutumia suala kugeuka kuwa dogo unapopata hila sahihi, au suala la dos ndogo kugeuza yetu kuwa mbaya zaidi.
+> Mara nyingi nimeona suala gumu la kutumia likigeuka kuwa rahisi ukigundua mbinu sahihi, au suala linaloonekana dogo likigeuka kuwa baya zaidi.
 >
-
-> Hitilafu rahisi za utendakazi, zilizowekwa kwa ustadi, zinaweza kutumika kutengeneza mtandao--- Miner A na Exchange B huenda katika kizigeu kimoja, kila mtu katika kingine.. na kutumia maradufu.
+> Hitilafu rahisi za utendakazi, zikitumika kwa ustadi, zinaweza kutumika kuigawanya mtandao — Miner A na Exchange B wanaweza kuwa upande mmoja wa kizigeu, kila mtu mwingine upande mwingine... na kusababisha matumizi maradufu.
 >
+> Na kadhalika. Kwa hivyo ingawa ninakubali kwamba hali tofauti zinahitaji kushughulikiwa tofauti, hilo si wazi kila wakati. Ni busara kuchukulia hali kama mbaya zaidi kuliko unavyojua kwa sasa.
 
-> Na kadhalika.  Kwa hivyo ingawa ninakubali kabisa kwamba mambo tofauti yanapaswa na yanaweza kushughulikiwa kwa njia tofauti, sio wazi kila wakati. Ni busara kuchukulia mambo kuwa kali zaidi kuliko unavyojua kuwa.
+Pia alitaja kwamba “si sahihi kabisa kuiita thread hii chochote kuhusu ‘ufichuzi’ — thread hii si ya kufichua. Ufichuzi ni pale unapomjulisha muhusika. Thread hii inahusu uchapishaji, jambo tofauti sana. Uchapishaji ni pale unapokuwa na uhakika kuwa tayari umewaambia washambuliaji watarajiwa.”
 
-Kwa hivyo, hata ikiwa udhaifu unaonekana kuwa Hard kunyonya, inaweza kuwa bora kudhani kuwa inaweza kunyonywa kwa urahisi na bado haujafikiria jinsi gani.
-
-
-Pia anataja jinsi "sio sahihi kwa kiasi fulani kuita thread hii chochote kuhusu kufichua, thread hii sio ya kufichua. Kufichua ni pale unapomwambia muuzaji. Uzi huu unahusu uchapishaji na una maana tofauti sana. Uchapishaji ni wakati una uhakika kuwa umewaambia washambuliaji watarajiwa". Angalizo hili la mwisho kuhusu tofauti kati ya ufichuzi na uchapishaji ni muhimu. Sehemu rahisi ni ufichuzi wa kuwajibika; sehemu ya Hard ni uchapishaji wa busara.
+Dokezo hili la mwisho kuhusu tofauti kati ya **ufichuzi** na **uchapishaji** ni muhimu. Sehemu rahisi ni kufichua kwa uwajibikaji; sehemu ngumu zaidi ni kuchapisha kwa busara.
 
 
-### Utoto wa Kiwewe wa Bitcoin
+### Mwanzo Mgumu wa Bitcoin
 
+Bitcoin ilianza kama mradi wa mtu mmoja (angalau ndivyo jina bandia la muanzilishi wake linavyopendekeza), na mwanzoni Bitcoin haikuwa na thamani yoyote au ilikuwa na thamani ndogo sana. Kwa sababu hii, udhaifu na viraka vya kurekebisha makosa havikushughulikiwa kwa umakini kama ilivyo leo.
 
+Bitcoin wiki ina orodha ya udhaifu wa kawaida na mifichuo ya hatari (CVEs) ambazo Bitcoin imepitia. Sehemu hii inaangazia baadhi ya matatizo ya kiusalama na matukio ya miaka ya awali ya Bitcoin. Hatutayajadili yote, lakini tumechagua machache tunayoyapata kuwa ya kuvutia zaidi.
 
-Bitcoin ilianza kama mradi wa mtu mmoja (angalau hivyo ndivyo jina bandia la muundaji wake linapendekeza) mradi, na Bitcoin mwanzoni haikuwa na thamani yoyote. Kwa hivyo, udhaifu na urekebishaji wa hitilafu haukushughulikiwa kwa ukali kama ilivyo leo.
+2010-07-28: Tumia sarafu za mtu yeyote (CVE-2010-5141)
+Mnamo Julai 28, 2010, mtu mwenye jina bandia ArtForz aligundua hitilafu katika toleo 0.3.4 ambayo ingewezesha mtu yeyote kuchukua sarafu kutoka kwa mtu mwingine yeyote. ArtForz aliripoti hitilafu hii kwa uwajibikaji kwa Satoshi Nakamoto na msanidi mwingine wa Bitcoin aitwaye Gavin Andresen.
 
-
-Wiki ya Bitcoin ina [orodha ya udhaifu wa kawaida na kufichuliwa](https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVEs) ambayo Bitcoin imepitia. Sehemu hii inajumuisha ufichuzi mdogo wa baadhi ya masuala ya usalama na matukio ya miaka ya mwanzo ya Bitcoin. Hatutashughulikia zote, lakini tulichagua chache ambazo tunaona zinavutia sana.
-
-
-#### 2010-07-28: Tumia sarafu za mtu yeyote (CVE-2010-5141)
-
-
-
-Mnamo Julai 28, 2010, mtu asiyejulikana kwa jina la bandia kwa jina ArtForz aligundua hitilafu katika toleo la 0.3.4 ambayo ingeruhusu mtu yeyote kuchukua sarafu kutoka kwa mtu mwingine yeyote. ArtForz *kwa kuwajibika* iliripoti hili kwa Satoshi Nakamoto na kwa msanidi mwingine wa Bitcoin anayeitwa Gavin Andresen.
-
-
-Tatizo lilikuwa kwamba opereta hati `OP_RETURN` angeondoka tu kwenye utekelezaji wa programu, kwa hivyo ikiwa scriptPubKey ilikuwa `<pubkey> OP_CHECKSIG` na scriptSig ilikuwa `OP_1 OP_RETURN`, sehemu ya programu katika scriptPubKey isingetekeleza kamwe. Kitu pekee ambacho kingetokea ni kwa `1` kuwekwa kwenye rafu na kisha `OP_RETURN` ingesababisha programu kuondoka. Thamani yoyote isiyo ya sifuri iliyo juu ya rafu baada ya programu kutekelezwa inamaanisha kuwa hali ya matumizi imetimizwa. Kwa kuwa kipengee cha juu cha rafu `1` si sifuri, matumizi yatakuwa sawa.
-
+Tatizo lilikuwa kwamba opereta wa script OP_RETURN ungesababisha programu kusitisha utekelezaji. Hivyo, ikiwa scriptPubKey ilikuwa <pubkey> OP_CHECKSIG na scriptSig ilikuwa OP_1 OP_RETURN, sehemu ya programu ndani ya scriptPubKey haingetekelezwa. Jambo pekee ambalo lingefanyika ni kuweka thamani ya 1 kwenye stack na kisha OP_RETURN kusababisha programu isitishe utekelezaji. Thamani yoyote isiyo sifuri juu ya stack baada ya programu kutekelezwa inamaanisha hali ya matumizi ya sarafu imetimizwa. Kwa kuwa kipengele cha juu cha stack ni 1 (na siyo sifuri), matumizi yangeruhusiwa.
 
 Huu ndio ulikuwa msimbo wa kushughulikia `OP_RETURN`:
 
@@ -1720,7 +1655,8 @@ break;
 ```
 
 
-Satoshi ilifanya mabadiliko haya ndani ya nchi na ikaunda binary inayoweza kutekelezwa na toleo la 0.3.5 kutoka kwayo. Kisha akachapisha kwenye jukwaa la Bitcointalk `\\*** ALERT \*** Boresha hadi 0.3.5 ASAP`, akiwahimiza watumiaji kusakinisha toleo lake la jozi, bila kuwasilisha msimbo wake wa chanzo:
+Satoshi alifanya mabadiliko haya kwenye kifaa chake kisha akajenga binary inayoweza kutekelezwa yenye toleo 0.3.5. Kisha akachapisha kwenye jukwaa la Bitcointalk ujumbe wa onyo: \\ ALERT \\ Sasisha hadi 0.3.5 HARAKA, akihimiza watumiaji kusakinisha binary hiyo aliyotengeneza, bila kuwasilisha msimbo wa chanzo wa toleo hilo.
+
 
 
 > Tafadhali pata toleo jipya la 0.3.5 HARAKA!  Tulirekebisha hitilafu ya utekelezaji ambapo iliwezekana kwamba miamala ya uwongo inaweza kukubaliwa.  Usikubali miamala ya Bitcoin kama malipo hadi upate toleo jipya la 0.3.5!
@@ -1728,7 +1664,7 @@ Satoshi ilifanya mabadiliko haya ndani ya nchi na ikaunda binary inayoweza kutek
 Ujumbe asili ulihaririwa baadaye na haupatikani tena katika umbo lake kamili. Kijisehemu kilicho hapo juu kinatoka kwa [jibu la kunukuu](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Watumiaji wengine walijaribu binary ya Satoshi, lakini waliingia kwenye maswala nayo. Muda mfupi baadaye, [Satoshi iliandika](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
 
 
-> Bado sijapata wakati wa kusasisha SVN.  Subiri kwa 0.3.6, ninaijenga sasa.  Unaweza kuzima nodi yako wakati huo huo.
+> Bado sijapata wakati wa kusasisha SVN.  Subiri kwa 0.3.6, ninaijenga sasa.  Unaweza kuzima node yako wakati huo huo.
 
 Na dakika 35 baadaye, [aliandika](https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
 
@@ -1744,7 +1680,7 @@ Katika hatua hii pia alionekana kusasisha chapisho la asili kutaja 0.3.6 badala 
 > Tafadhali pata toleo jipya la 0.3.6 HARAKA!  Tulirekebisha hitilafu ya utekelezaji ambapo iliwezekana kwamba miamala ya uwongo inaweza kuonyeshwa kama inavyokubaliwa.  Usikubali miamala ya Bitcoin kama malipo hadi upate toleo jipya la 0.3.6!
 >
 
-> Ikiwa huwezi kupata toleo jipya la 0.3.6 mara moja, ni bora kuzima nodi yako ya Bitcoin hadi ufanye.
+> Ikiwa huwezi kupata toleo jipya la 0.3.6 mara moja, ni bora kuzima node yako ya Bitcoin hadi ufanye.
 >
 
 > Pia katika 0.3.6, hashing haraka:
@@ -1756,7 +1692,7 @@ Katika hatua hii pia alionekana kusasisha chapisho la asili kutaja 0.3.6 badala 
 > Pakua:
 >
 
-> http://sourceforge.net/projects/Bitcoin/files/Bitcoin/Bitcoin-0.3.6/
+> [http://sourceforge.net/projects/Bitcoin/files/Bitcoin/Bitcoin-0.3.6/](http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.6/)
 >
 
 > Watumiaji wa Windows na Linux: ikiwa umepata 0.3.5 bado unahitaji kuboresha hadi 0.3.6.

@@ -57,16 +57,18 @@ Hii inachanganua ugatuaji ni nini na kwa nini ni muhimu kwa Bitcoin kufanya kazi
 Kisha mjadala hubadilika na kuelekea kuelewa kutoegemea upande wowote — au kutokuwa na ruhusa kwa watumiaji, miners na wasanidi programu — ambayo ni nyenzo muhimu ya mfumo wowote wa madaraka. Hatimaye, tunagusia jinsi Hard inavyoweza kuwa kufahamu mfumo uliogatuliwa kama Bitcoin, na kuwasilisha baadhi ya mifano ya kiakili ambayo inaweza kukusaidia kuusumbua.
 
 
-Mfumo usio na sehemu kuu ya udhibiti unarejelewa kuwa *kugatuliwa*. Bitcoin imeundwa ili kuepuka kuwa na sehemu kuu ya udhibiti, au kwa usahihi zaidi *eneo kuu la udhibiti*.
+Mfumo usio na sehemu kuu ya udhibiti unarejelewa kuwa *kugatuliwa*. Bitcoin imeundwa ili kuepuka kuwa na sehemu kuu ya udhibiti, au kwaKuna watu wengi wanaohusika katika Bitcoin; kwa vile baadhi yao wana maoni yanayopingana, hapa unaweza kupata nyenzo zinazoeleza mawazo kinzani. Walakini, sisIngawa kwa programu nyingi inakubalika kwa ujumla kukataa baadhi ya sahihi, Bitcoin ni mfumo wa maafikiano ambapo washiriki wote lazima wakubaliane kwa ujumla juu ya uhalali kamili au ubatili wa data ya ingizo.  Kwa maana fulani, uthabiti ni muhimu zaidi kuliko "usahihi".
+> [...]
+> Viraka hapo juu, hata hivyo, hurekebisha dalili moja tu ya tatizo la jumla: kutegemea programu ambayo haijaundwa au kusambazwa kwa matumizi ya makubaliano (haswa OpenSSL) kwa tabia ya makubaliano-kanuni.  Kwa hivyo, kama uboreshaji wa nyongeza, ninapendekeza Soft-Fork inayolengwa kutekeleza utiifu mkali wa DER hivi karibuni, kwa kutumia kitengo kidogo cha BIP62.
+
+Anadokeza kuwa kutumia msimbo ambao haukusudiwa kutumika katika mifumo ya maelewano huleta hatari kubwa, na anapendekeza kwamba Bitcoin itekeleze usimbaji madhubuti wa DER. Huu ni mfano wazi sana wa umuhimu wa uteuzi mzuri wa cryptography.
 
 
-Ugatuaji ni njia ya kufikia *upinzani wa udhibiti*.
+Matukio haya yanaweza kukupa hisia kwamba Gregory Maxwell alijua kuhusu uwezekano wa kuathiriwa na Pieter Wuille uliochapishwa baadaye, lakini alitaka kusaidia kujipenyeza katika kurekebisha kwa kujificha kama hatua ya tahadhari, bila kuvutia sana tatizo halisi. Inaweza kuwa hivyo, lakini ni uvumi tu.
 
 
-Kuna vipengele viwili vikuu vya ugatuaji katika Bitcoin: ugatuaji wa Miner na ugatuaji wa Full node.
-
-
-Ugatuaji wa Miner unarejelea ukweli kwamba uchakataji wa muamala haufanywi wala kuratibiwa na huluki yoyote kuu. Ugatuaji wa Full node unarejelea ukweli kwamba uthibitishaji wa vitalu, yaani, data ambayo wachimbaji hutoa, hufanywa kando ya mtandao, hatimaye na watumiaji wake, na sio na mamlaka chache zinazoaminika.
+Kisha, kama ilivyopendekezwa na Maxwell, BIP66 iliundwa kama kikundi kidogo cha BIP62 ambacho kilibainisha usimbaji madhubuti wa DER pekee. BIP hii inaonekana ilikubaliwa kwa mapana na kutumwa mwezi wa Julai, ingawa migawanyiko miwili ya Blockchain ilitokea kwa sababu ya *Mining* isiyo na uthibitisho. Migawanyiko hii itajadiliwa katika sehemu inayofuata.i hujaribu kila wakati kushikamana na uwanja wa ukweli, ambapo maoni hayajalishi.
+ uchakataji wa muamala haufanywi wala kuratibiwa na huluki yoyote kuu. Ugatuaji wa Full node unarejelea ukweli kwamba uthibitishaji wa vitalu, yaani, data ambayo wachimbaji hutoa, hufanywa kando ya mtandao, hatimaye na watumiaji wake, na sio na mamlaka chache zinazoaminika.
 
 
 ![](assets/decentralization-banner.webp)
@@ -1695,15 +1697,17 @@ Katika hatua hii pia alionekana kusasisha chapisho la asili kutaja 0.3.6 badala 
 > [http://sourceforge.net/projects/Bitcoin/files/Bitcoin/Bitcoin-0.3.6/](http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.6/)
 >
 
-> Watumiaji wa Windows na Linux: ikiwa umepata 0.3.5 bado unahitaji kuboresha hadi 0.3.6.
-
-Kumbuka tofauti katika tabia ya tatizo kutoka kwa ujumbe wa kwanza: "inaweza kuonyeshwa kama inavyokubaliwa" dhidi ya "inaweza kukubalika". Labda Satoshi ilipunguza ukali wa mdudu katika mawasiliano yake ili sio kuvutia sana suala halisi. Hata hivyo, watu walisasishwa hadi 0.3.6 na ilifanya kazi kama ilivyotarajiwa. Suala hili lilitatuliwa, kwa kushangaza, bila hasara ya Bitcoin.
+> Watumiaji wa Windows na Linux: ikiwa bado unatumia toleo 0.3.5, unapaswa kuboresha hadi 0.3.6.
 
 
-Ujumbe wa Satoshi pia ulielezea uboreshaji fulani wa utendaji wa Mining. Haijulikani kwa nini hiyo ilijumuishwa katika urekebishaji muhimu wa usalama, inawezekana kwamba madhumuni yalikuwa kufifisha suala halisi. Walakini, kuna uwezekano mkubwa kwamba alitoa tu chochote kilichokuwa kichwani mwa tawi la ukuzaji wa hazina ya Ubadilishaji, na urekebishaji wa usalama ukiongezwa kwake.
+
+Kumbuka tofauti katika maelezo ya tatizo kati ya ujumbe wa awali: “inaweza kuonyeshwa kama inavyokubaliwa” na “inaweza kukubalika”. Huenda Satoshi alipunguza makali ya mdudu huo katika mawasiliano yake ili asiangalie sana kwenye tatizo halisi. Hata hivyo, watu wengi walisasisha hadi 0.3.6 na kila kitu kilifanya kazi kama ilivyotarajiwa. Suala hilo liliweza kutatuliwa, kwa kushangaza, bila kusababisha upotevu wa Bitcoin.
+
+Ujumbe wa Satoshi pia ulitaja uboreshaji fulani wa utendaji wa Mining. Haijulikani ni kwa nini aliambatanisha hili kwenye urekebishaji muhimu wa usalama—huenda alikusudia kuficha ukubwa wa tatizo halisi. Hata hivyo, kuna uwezekano mkubwa kuwa alijumuisha tu mabadiliko yote yaliyokuwepo katika tawi la maendeleo ya hazina ya Ubadilishaji, na urekebishaji wa usalama ukaambatana nayo.
 
 
 Wakati huo, hakukuwa na takriban watumiaji wengi kama ilivyo leo, na thamani ya Bitcoin ilikuwa karibu na sifuri. Ikiwa jibu hili la hitilafu lingechezwa leo, lingechukuliwa kuwa onyesho kamili kwa sababu nyingi:
+
 
 
 
@@ -1712,7 +1716,7 @@ Wakati huo, hakukuwa na takriban watumiaji wengi kama ilivyo leo, na thamani ya 
 - Kurekebisha katika 0.3.6 kwa kweli ilikuwa Hard Fork.
 
 
-Jambo lingine linaloweza kujadiliwa ni ikiwa ni nzuri au mbaya kwamba watumiaji waliulizwa kufunga nodi zao. Hili halingewezekana leo, lakini wakati huo watumiaji wengi walikuwa wakifuatilia kwa bidii mabaraza ya masasisho na kwa kawaida walikuwa wakiongoza mambo. Kwa kuzingatia kwamba ilikuwa inawezekana kufanya hivi, inaweza kuwa jambo la busara kufanya.
+Jambo lingine linaloweza kujadiliwa ni ikiwa ni nzuri au mbaya kwamba watumiaji waliulizwa kufunga node zao. Hili halingewezekana leo, lakini wakati huo watumiaji wengi walikuwa wakifuatilia kwa bidii mabaraza ya masasisho na kwa kawaida walikuwa wakiongoza mambo. Kwa kuzingatia kwamba ilikuwa inawezekana kufanya hivi, inaweza kuwa jambo la busara kufanya.
 
 
 #### 2010-08-15 Utiririshaji wa matokeo yaliyochanganywa (CVE-2010-5139)
@@ -1738,7 +1742,7 @@ Katikati ya Agosti 2010, mtumiaji wa jukwaa la Bitcointalk jgarzik, a.k.a. Jeff 
 ```
 
 
-> "Thamani nje" katika kizuizi hiki #74638 ni ya kushangaza kabisa:
+> "Thamani nje" katika block hii #74638 ni ya kushangaza kabisa:
 >
 
 > 92233720368.54277039 BTC?  Je, hiyo ni UINT64_MAX, nashangaa?
@@ -1757,7 +1761,7 @@ Katika mazungumzo yanayohusiana, [Satoshi ilichapisha](https://bitcointalk.org/i
 
 > Kiraka cha kwanza kitakuwa katika SVN rev 132. Bado hakijapakiwa.  Ninasukuma mabadiliko mengine ya ziada kutoka kwa njia kwanza, kisha nitapakia kiraka cha hii.
 
-Mpango wake ulikuwa kufanya Soft Fork kufanya miamala kama ile iliyojadiliwa hapa kuwa batili, na hivyo kubatilisha vitalu (hasa block 74638) ambavyo vilikuwa na miamala kama hiyo. Chini ya saa moja baadaye, aliweka [kiraka katika marekebisho 132](https://sourceforge.net/p/Bitcoin/code/132/) ya hazina ya Ubadilishaji na [kuchapishwa kwenye jukwaa](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548 watumiaji wanapaswa kufanya nini)
+Mpango wake ulikuwa kufanya Soft Fork kufanya miamala kama ile iliyojadiliwa hapa kuwa batili, na hivyo kubatilisha block (hasa block 74638) ambavyo vilikuwa na miamala kama hiyo. Chini ya saa moja baadaye, aliweka [kiraka katika marekebisho 132](https://sourceforge.net/p/Bitcoin/code/132/) ya hazina ya Ubadilishaji na [kuchapishwa kwenye jukwaa](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548 watumiaji wanapaswa kufanya nini)
 
 
 > Kiraka kimepakiwa kwa SVN rev 132!
@@ -1770,18 +1774,18 @@ Mpango wake ulikuwa kufanya Soft Fork kufanya miamala kama ile iliyojadiliwa hap
 > 4) Inapaswa kuanza na vitalu chini ya 74000. Wacha ipakue yaliyosalia.
 >
 
-> Ikiwa hutaki kutumia faili za knightmb, unaweza kufuta faili zako za blk*.dat, lakini kutakuwa na mzigo mwingi kwenye mtandao ikiwa kila mtu atapakua faharasa nzima ya kuzuia mara moja.
+> Ikiwa hutaki kutumia faili za knightmb, unaweza kufuta faili zako za blk*.dat, lakini kutakuwa na mzigo mwingi kwenye mtandao ikiwa kila mtu atapakua faharasa nzima ya block mara moja.
 >
 
 > Nitatengeneza matoleo hivi karibuni.
 
-Alitaka watu wapakue data ya kuzuia kutoka kwa mtumiaji maalum, yaani knightmb, ambaye alikuwa amechapisha Blockchain yake jinsi inavyoonekana kwenye diski yake, faili blkXXXX.dat na blkindex.dat. Sababu ya kupakua data ya Blockchain kwa njia hii, kinyume na kusawazisha kutoka mwanzo, ilikuwa kupunguza vikwazo vya bandwidth ya mtandao.
+Alitaka watu wapakue data ya block kutoka kwa mtumiaji maalum, yaani knightmb, ambaye alikuwa amechapisha Blockchain yake jinsi inavyoonekana kwenye diski yake, faili blkXXXX.dat na blkindex.dat. Sababu ya kupakua data ya Blockchain kwa njia hii, kinyume na kusawazisha kutoka mwanzo, ilikuwa kupunguza vikwazo vya bandwidth ya mtandao.
 
 
 Kulikuwa na tahadhari kubwa kuhusu hili: watumiaji wa data wangepakua kutoka knightmb [haijathibitishwa na programu ya Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) wakati wa kuanza. Faili ya blkindex.dat ilikuwa na seti ya UTXO, na programu ingekubali data yoyote iliyomo kana kwamba tayari imeithibitisha. knightmb angeweza kudanganya data ili kujipatia yeye au mtu mwingine yeyote bitcoins.
 
 
-Tena, watu walionekana kukubaliana na hili, na ugeuzaji wa kizuizi batili na warithi wake ulifanikiwa. Wachimbaji walianza kumtafuta mrithi mpya wa kuzuia [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84 au zuio la GW lilitokea kwa mujibu wa GW) 23:53 UTC, kama saa 6 baada ya suala hilo kugunduliwa. Saa 08:10 siku iliyofuata, mnamo Agosti 16, karibu na block 74689, mnyororo mpya ulikuwa umepita mnyororo wa zamani, kwa hivyo nodi zote ambazo hazijasasishwa zilijipanga tena kufuata mnyororo mpya. Hii ndio njia ya ndani kabisa - vitalu 52 - katika historia ya Bitcoin.
+Tena, watu walionekana kukubaliana na hili, na ugeuzaji wa block batili na warithi wake ulifanikiwa. Miners walianza kumtafuta mrithi mpya wa kuzuia [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84 au zuio la GW lilitokea kwa mujibu wa GW) 23:53 UTC, kama saa 6 baada ya suala hilo kugunduliwa. Saa 08:10 siku iliyofuata, mnamo Agosti 16, karibu na block 74689, mnyororo mpya ulikuwa umepita mnyororo wa zamani, kwa hivyo node zote ambazo hazijasasishwa zilijipanga tena kufuata mnyororo mpya. Hii ndio njia ya ndani kabisa - block 52 - katika historia ya Bitcoin.
 
 
 Ikilinganishwa na toleo la OP_RETURN, suala hili lilishughulikiwa kwa njia safi zaidi:
@@ -1808,39 +1812,36 @@ Kuna tofauti muhimu kati ya kesi hii na kesi ya awali ya OP_RETURN: suala hili l
 Suala la kuvutia sana la thamani ya kielimu lilijitokeza Machi 2013. Ilionekana kuwa Blockchain ilikuwa imegawanyika (ingawa neno "Fork" limetumika katika nukuu iliyo hapa chini) baada ya block 225429. Maelezo ya tukio hili [yaliripotiwa katika BIP50](https://github.com/Bitcoin/0kib/5bip/blowi). Muhtasari unasema:
 
 
-> Kizuizi ambacho kilikuwa na idadi kubwa ya pembejeo za muamala kuliko ilivyoonekana hapo awali kilichimbwa na kutangazwa. Node za Bitcoin 0.8 ziliweza kushughulikia hili, lakini baadhi ya nodes za kabla ya 0.8 Bitcoin zilikataa, na kusababisha Fork isiyotarajiwa ya Blockchain. Mlolongo wa kabla ya 0.8-usiooana (kuanzia hapa na kuendelea, mnyororo wa 0.8) wakati huo ulikuwa na karibu 60% ya nguvu ya Mining Hash ili kuhakikisha mgawanyiko hautatui kiotomatiki (kama ingetokea ikiwa mnyororo wa awali wa 0.8 ungepita mnyororo wa 0.8 katika kazi yote, na kulazimisha kupanga upya kwa nodi 0.8 kabla ya mnyororo).
+> Block ambayo ilikuwa na idadi kubwa ya pembejeo za muamala kuliko ilivyoonekana hapo awali ilichimbwa na kutangazwa. Node za Bitcoin 0.8 ziliweza kushughulikia hili, lakini baadhi ya node za kabla ya 0.8 zilikikataa, na kusababisha Fork isiyotarajiwa ya Blockchain. Mnyororo wa kabla ya 0.8—usiooana (kuanzia hapa na kuendelea utajulikana kama mnyororo wa 0.8)—wakati huo ulikuwa na takriban 60% ya nguvu ya Hash ya Mining, hivyo kuhakikisha kuwa mgawanyiko huo usingetatuliwa kiotomatiki (kama mnyororo wa awali wa 0.8 ungepita mnyororo wa 0.8 katika kazi jumla, ungezilazimisha node za 0.8 kupanga upya na kurudi kwenye mnyororo wa zamani).
 >
 
-> Ili kurejesha mnyororo wa kisheria haraka iwezekanavyo, BTCGuild na Slush walipunguza nodi zao za Bitcoin 0.8 hadi 0.7 ili madimbwi yao pia yakatae kizuizi kikubwa zaidi. Hii iliweka nguvu nyingi za heshi kwenye mnyororo bila kizuizi kikubwa, na hivyo hatimaye kusababisha nodi 0.8 kujipanga upya kwa mnyororo wa kabla ya 0.8.
+> Ili kurejesha mnyororo wa kisheria haraka iwezekanavyo, BTCGuild na Slush walirudisha node zao za Bitcoin kutoka toleo 0.8 hadi 0.7 ili madimbwi yao pia yakatae block kubwa zaidi. Hatua hii iliweka nguvu kubwa ya Hash kwenye mnyororo usio na block hiyo kubwa, na hatimaye kusababisha node za 0.8 kujipanga upya na kurejea kwenye mnyororo wa kabla ya 0.8.
 
-Hatua ya haraka ambayo Mining BTCGuild na Slush ilichukua ilikuwa muhimu katika dharura hii. Waliweza kuelekeza nguvu nyingi za Hash kwenye tawi la kabla ya 0.8 la mgawanyiko, na hivyo kusaidia kurejesha makubaliano. Hii iliwapa watengenezaji muda wa kubaini suluhu endelevu.
-
-
-Kinachovutia pia katika toleo hili ni kwamba toleo la 0.7.2 haliendani na yenyewe, kama ilivyokuwa kwa matoleo ya awali pia. Hili limefafanuliwa katika [sehemu ya sababu ya mizizi ya BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause):
+Hatua ya haraka iliyochukuliwa na BTCGuild na Slush ilikuwa muhimu sana katika dharura hii. Waliweza kuelekeza nguvu kubwa ya Hash kwenye tawi la kabla ya 0.8 la mgawanyiko, na hivyo kusaidia kurejesha makubaliano ya mtandao. Hii iliwapa watengenezaji muda wa kutafuta suluhu ya kudumu.
 
 
-> Kwa usanidi wa kufuli wa BDB wa hali ya juu usiotosha, kwa hakika imekuwa sheria ya makubaliano ya mtandao inayoamua uhalali wa kizuizi (ingawa
-sheria isiyoendana na isiyo salama, kwani matumizi ya kufuli yanaweza kutofautiana kutoka nodi hadi nodi).
+Kinachovutia pia katika toleo hili ni kwamba toleo la 0.7.2 haliendani na lenyewe, kama ilivyokuwa kwa matoleo ya awali pia. Hili limefafanuliwa katika sehemu ya sababu ya mizizi ya BIP50:
 
 
-Kwa kifupi, suala ni kwamba idadi ya hifadhidata iliyofungia programu ya Bitcoin Core inahitaji kuthibitisha kizuizi sio ya kuamua. Njia moja inaweza kuhitaji kufuli X wakati nodi nyingine inaweza kuhitaji kufuli za X+1. Nodi pia zina kikomo cha kufuli ngapi Bitcoin inaweza kuchukua. Ikiwa idadi ya kufuli inayohitajika inazidi kikomo, kizuizi kitachukuliwa kuwa batili. Kwa hivyo ikiwa X+1 itazidi kikomo lakini sio X, basi nodi mbili zitagawanya Blockchain na hazikubaliani ni tawi gani halali.
+> Kwa mipangilio ya lock ya BDB ya kiwango cha juu isiyotosha, jambo hili liliishia kuwa kama sheria ya makubaliano ya mtandao inayotumika kuamua uhalali wa block (ingawa ni sheria isiyo sanifu wala salama, kwani matumizi ya lock yanaweza kutofautiana kutoka node hadi node).
 
 
-Suluhisho lililochaguliwa, mbali na hatua za haraka zilizochukuliwa na mabwawa mawili ya kurejesha maelewano, ilikuwa
+Kwa kifupi, suala ni kwamba idadi ya lock za hifadhidata zinazohitajika na programu ya Bitcoin Core ili kuthibitisha block si ya kudumu au sanifu. Node moja inaweza kuhitaji lock X huku node nyingine ikihitaji lock X+1. Node pia zina kikomo cha juu cha lock zinazoruhusiwa kutumia. Ikiwa idadi ya lock zinazohitajika itazidi kikomo hicho, block itachukuliwa kuwa batili. Hivyo basi, ikiwa X+1 itazidi kikomo lakini X haizidi, node mbili zitagawanyika katika Blockchain na kutokubaliana kuhusu tawi lipi ni halali.
+
+Suluhisho lililochaguliwa, mbali na hatua za haraka zilizochukuliwa na pool mbili kurejesha makubaliano, ilikuwa…
 
 
 
-- punguza vizuizi kwa suala la saizi na kufuli zinazohitajika kwenye toleo la 0.8.1
-- weka kiraka matoleo ya zamani (0.7.2 na mengine ya zamani) kwa sheria mpya sawa, na uongeze kikomo cha kufuli cha kimataifa.
+- ...punguza block kwa suala la saizi na lock zinazohitajika kwenye toleo la 0.8.1
+– weka kiraka kwenye matoleo ya zamani (0.7.2 na mengine ya awali) kwa kutumia sheria mpya sawa, na uongeze kikomo cha lock cha kimataifa.
+
+Isipokuwa kwa ongezeko la kikomo cha lock ulimwenguni katika hatua ya pili, sheria hizi zilitekelezwa kwa muda mfupi kwa kipindi kilichobainishwa mapema. Mpango ulikuwa kuondoa vikomo hivi mara tu node nyingi zitakapoboreshwa.
 
 
-Isipokuwa kwa ongezeko la kikomo cha kufuli ulimwenguni katika kitone cha pili, sheria hizi zilitekelezwa kwa muda mfupi kwa muda uliobainishwa mapema. Mpango ulikuwa wa kuondoa vikomo hivi mara tu nodi nyingi zitakapoboreshwa.
+Soft Fork hii ilipunguza kwa kiasi kikubwa hatari ya kutofaulu kwa makubaliano, na miezi michache baadaye, Mei 15, sheria za muda ziliondolewa rasmi kwenye mtandao. Kumbuka kuwa uondoaji huu ulikuwa Hard Fork, lakini haikuwa na utata. Zaidi ya hayo, ulitolewa sambamba na Soft Fork iliyotangulia, hivyo watu waliokuwa wakiendesha programu iliyo na Soft Fork walikuwa wanajua vyema kwamba Hard Fork ingeifuata. Kwa hivyo, idadi kubwa ya node zilibaki kwenye makubaliano wakati Hard Fork ilipoamilishwa. Kwa bahati mbaya, hata hivyo, node chache ambazo hazijasasishwa zilitengwa katika mchakato.
 
 
-Soft Fork hii ilipunguza kwa kiasi kikubwa hatari ya kutofaulu kwa makubaliano, na miezi michache baadaye, Mei 15, sheria za muda zilizimwa kwenye tamasha kwenye mtandao. Kumbuka kuwa uzima huu ulikuwa wa Hard Fork, lakini haikuwa na utata. Zaidi ya hayo, ilitolewa pamoja na Soft Fork iliyotangulia, hivyo watu wanaoendesha programu ya Soft-forked walijua vyema kwamba Hard Fork ingeifuata. Kwa hivyo, idadi kubwa ya nodi zilibaki katika makubaliano wakati Hard Fork ilipoamilishwa. Kwa bahati mbaya, ingawa, nodi chache ambazo hazijasasishwa zilipotea katika mchakato.
-
-
-Mtu anaweza kujiuliza ikiwa hii inaweza kufanywa leo. Mandhari ya Mining ni ngumu zaidi leo, na, kulingana na nguvu ya Hash kwa kila upande wa mgawanyiko, inaweza kuwa Hard kusambaza kiraka kama ile iliyo katika BIP50 haraka vya kutosha. Pengine itakuwa Hard kuwashawishi wachimbaji kwenye tawi "vibaya" kuacha zawadi zao za kuzuia.
+Mtu anaweza kujiuliza ikiwa hili lingewezekana kufanyika leo. Mazingira ya Mining ni magumu zaidi siku hizi, na kulingana na nguvu ya Hash kwenye kila upande wa mgawanyiko, inaweza kuwa Hard kusambaza kiraka kama lile la BIP50 kwa haraka vya kutosha. Huenda ikawa Hard pia kuwashawishi wachimbaji kwenye tawi “lisilo sahihi” kuacha zawadi zao za block.
 
 
 #### BIP66
@@ -1849,30 +1850,28 @@ Mtu anaweza kujiuliza ikiwa hii inaweza kufanywa leo. Mandhari ya Mining ni ngum
 
 BIP66 inavutia kwa sababu inaangazia umuhimu wa:
 
-
-
 - uteuzi mzuri wa cryptography
-- ufichuzi wa kuwajibika
-- kupelekwa bila kufichua uwezekano wa kuathirika
-- Mining juu ya vitalu vilivyoidhinishwa
+– ufichuzi wa kuwajibika
+– kupelekwa bila kufichua uwezekano wa kuathirika
+– Mining juu ya block zilizoidhinishwa
 
 
-BIP66 lilikuwa pendekezo la kuimarisha sheria za usimbaji sahihi katika Hati ya Bitcoin. [Motisha](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) iliweza kuchanganua saini kwa kutumia programu au maktaba isipokuwa OpenSSL na hata matoleo ya hivi majuzi ya OpenSSL. OpenSSL ni maktaba ya kriptografia ya madhumuni ya jumla ambayo Bitcoin Core ilitumia wakati huo.
+
+
+BIP66 lilikuwa pendekezo la kuimarisha sheria za usimbaji sahihi katika Hati ya Bitcoin. [Motisha](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) Iliwezekana kuchanganua saini kwa kutumia programu au maktaba nyingine tofauti na OpenSSL, ikijumuisha hata matoleo ya hivi majuzi ya OpenSSL. OpenSSL ni maktaba ya kriptografia ya madhumuni ya jumla ambayo Bitcoin Core ilikuwa inatumia wakati huo.
 
 
 BIP ilianzishwa tarehe 4 Julai 2015. Hata hivyo, ingawa yaliyo hapo juu ni kweli, BIP66 pia hurekebisha suala kali zaidi ambalo halijatajwa katika BIP.
 
 
-##### Udhaifu
-
-
+##### The vulnerability
 
 Ufichuzi kamili wa toleo hili ulichapishwa mnamo Julai 28 2015 na Pieter Wuille katika
 
 [barua pepe kwa orodha ya wanaopokea barua pepe ya Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
 
 
-> Hello wote,
+> aliandika,
 >
 
 > Ningependa kufichua athari niliyogundua mnamo Septemba 2014, ambayo haikuweza kutumiwa wakati kiwango cha juu cha 95% cha BIP66 kilifikiwa mapema mwezi huu.
@@ -1881,14 +1880,14 @@ Ufichuzi kamili wa toleo hili ulichapishwa mnamo Julai 28 2015 na Pieter Wuille 
 > Maelezo mafupi:
 >
 
-> Muamala ulioundwa mahususi ungeweza kugeuza Blockchain kati ya nodi:
+> Muamala ulioundwa mahususi ungeweza kugeuza Blockchain kati ya node:
 >
 
 > - kutumia OpenSSL kwenye mifumo ya 32-bit na kwenye mifumo ya Windows 64-bit
 > - kutumia OpenSSL kwenye mifumo isiyo ya Windows 64-bit (Linux, OSX, ...)
 > - kutumia baadhi ya misingi ya kanuni zisizo za OpenSSL kwa kuchanganua saini
 
-Barua pepe hiyo zaidi inaweka maelezo kuhusu jinsi suala hilo liligunduliwa na zaidi hasa ni nini kilisababisha. Mwishoni, anawasilisha ratiba ya matukio, na tutarudia baadhi ya yale muhimu zaidi hapa. Baadhi yao, kama inavyoonyeshwa na takwimu hapo juu, tayari wameelezewa.
+Barua pepe hiyo inaeleza kwa undani jinsi suala hilo liligunduliwa na hasa nini hasa kilikisababisha. Mwishoni, anawasilisha ratiba ya matukio, na tutarudia baadhi ya yale muhimu zaidi hapa. Baadhi ya matukio hayo, kama inavyoonyeshwa na takwimu hapo juu, tayari yameelezewa.
 
 
 ![](assets/bip66-timeline-1.webp)
@@ -1900,54 +1899,37 @@ Rekodi ya matukio yanayozunguka BIP66. Vipengee vya rangi nyeusi vimeelezwa hapo
 ##### Kabla ya ugunduzi
 
 
+Bila mtu yeyote kujua kuhusu suala hilo, lingeweza kutatuliwa na BIP62 iliyopendekezwa kwa mapana wakati huo, ambayo ilikuwa ni juhudi ya kupunguza uwezekano wa muamala kuharibika. Miongoni mwa mabadiliko yaliyopendekezwa katika BIP62 yalikuwa ni kuimarisha sheria za makubaliano kuhusu usimbaji wa saini, yaani “usimbaji mkali wa DER”. Pieter Wuille alipendekeza marekebisho kadhaa kwa BIP hiyo mnamo Julai 2014, ambayo yangesuluhisha suala hilo:
 
-Bila mtu yeyote kujua kuhusu suala hilo, lingeweza kutatuliwa na BIP62 iliyochorwa kwa upana sasa, ambayo ilikuwa pendekezo la kupunguza uwezekano wa kuharibika kwa muamala. Miongoni mwa mabadiliko yaliyopendekezwa katika BIP62 yalikuwa uimarishaji wa sheria za makubaliano ya usimbaji wa saini, au "usimbaji DER mkali". Pieter Wuille alipendekeza marekebisho kadhaa kwa BIP mnamo Julai 2014, ambayo yangesuluhisha suala hilo:
-
-
-> 2014-Jul-18: Ili kufanya sheria za usimbaji sahihi za Bitcoin zisitegemee kichanganuzi mahususi cha OpenSSL, nilirekebisha pendekezo la BIP62 ili hitaji lake kali la sahihi za DER litumike pia kwa shughuli za toleo la 1. Hakuna sahihi zisizo za DER zilizokuwa zikichimbwa tena kwa wakati huo, kwa hivyo hii ilichukuliwa kuwa haina athari yoyote. Tazama https://github.com/Bitcoin/bips/pull/90 na http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Haijulikani wakati huo, lakini ikiwa itatumwa hii ingesuluhisha athari.
+> 2014-Jul-18: Ili kuhakikisha kwamba sheria za usimbaji sahihi za Bitcoin hazitegemei kichanganuzi mahususi cha OpenSSL, nilirekebisha pendekezo la BIP62 ili sharti lake kali kuhusu saini za DER litumike pia kwa muamala wa toleo la 1. Hakuna saini zisizo za DER zilizokuwa zikichimbwa tena wakati huo, hivyo jambo hili lilionekana halitakuwa na athari yoyote. Tazama https://github.com/Bitcoin/bips/pull/90 na http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Haikujulikana wakati huo, lakini kama ingesambazwa, hii ingeweza kuondoa athari hiyo.
 
 Kwa sababu ya upana wa BIP hii, ambayo ilishughulikia kwa kiasi kikubwa zaidi ya "usimbuaji madhubuti wa DER", ilikuwa ikibadilika kila mara na haikukaribia kutumwa. BIP iliondolewa baadaye kwa sababu Shahidi Aliyetengwa, BIP141, alisuluhisha uharibifu wa muamala kwa njia tofauti na kamilifu zaidi.
 
 
 ##### Baada ya ugunduzi
 
+OpenSSL ilitoa matoleo mapya ya programu zao pamoja na viraka ambavyo, kama vingetumika katika Bitcoin tangu mwanzo, vingesuluhisha suala hilo. Hata hivyo, kutumia toleo jipya lolote la OpenSSL pekee ndani ya toleo jipya la Bitcoin Core kunaweza kufanya hali kuwa mbaya zaidi. Gregory Maxwell anaeleza hili katika nyuzi ya barua pepe ya Januari 2015:
 
-
-OpenSSL ilitoa matoleo mapya ya programu zao na viraka ambavyo, kama vitatumika katika Bitcoin tangu mwanzo, vingesuluhisha suala hilo. Hata hivyo, kutumia toleo lolote jipya la OpenSSL pekee katika toleo jipya la Bitcoin Core kunaweza kufanya mambo kuwa mabaya zaidi. Gregory Maxwell anaelezea hili katika [nyuzi ya barua pepe](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) mnamo Januari 2015:
-
-
-> Ingawa kwa programu nyingi inakubalika kwa ujumla kukataa baadhi ya sahihi, Bitcoin ni mfumo wa maafikiano ambapo washiriki wote lazima wakubaliane kwa ujumla juu ya uhalali kamili au ubatili wa data ya ingizo.  Kwa maana fulani, uthabiti ni muhimu zaidi kuliko "usahihi".
-> [...]
-> Viraka hapo juu, hata hivyo, hurekebisha dalili moja tu ya tatizo la jumla: kutegemea programu ambayo haijaundwa au kusambazwa kwa matumizi ya makubaliano (haswa OpenSSL) kwa tabia ya makubaliano-kanuni.  Kwa hivyo, kama uboreshaji wa nyongeza, ninapendekeza Soft-Fork inayolengwa kutekeleza utiifu mkali wa DER hivi karibuni, kwa kutumia kitengo kidogo cha BIP62.
-
-Anadokeza kuwa kutumia msimbo ambao haukusudiwa kutumika katika mifumo ya maelewano huleta hatari kubwa, na anapendekeza kwamba Bitcoin itekeleze usimbaji madhubuti wa DER. Huu ni mfano wazi sana wa umuhimu wa uteuzi mzuri wa cryptography.
-
-
-Matukio haya yanaweza kukupa hisia kwamba Gregory Maxwell alijua kuhusu uwezekano wa kuathiriwa na Pieter Wuille uliochapishwa baadaye, lakini alitaka kusaidia kujipenyeza katika kurekebisha kwa kujificha kama hatua ya tahadhari, bila kuvutia sana tatizo halisi. Inaweza kuwa hivyo, lakini ni uvumi tu.
-
-
-Kisha, kama ilivyopendekezwa na Maxwell, BIP66 iliundwa kama kikundi kidogo cha BIP62 ambacho kilibainisha usimbaji madhubuti wa DER pekee. BIP hii inaonekana ilikubaliwa kwa mapana na kutumwa mwezi wa Julai, ingawa migawanyiko miwili ya Blockchain ilitokea kwa sababu ya *Mining* isiyo na uthibitisho. Migawanyiko hii itajadiliwa katika sehemu inayofuata.
+> 
 
 
 ![](assets/bip66-timeline-2.webp)
 
 
-Jambo kuu la kuchukua kutoka kwa hili ni kwamba BIPs zinapaswa kuwa zaidi au chini ya *atomiki*, kumaanisha kuwa zinapaswa kuwa kamili vya kutosha kutoa kitu muhimu au kutatua tatizo mahususi, lakini ndogo vya kutosha kuruhusu usaidizi mpana miongoni mwa watumiaji. Kadiri unavyoweka vitu vingi kwenye BIP, ndivyo nafasi ya kukubalika inavyopungua.
+Jambo kuu la kuzingatia hapa ni kwamba BIP zinapaswa kuwa zaidi au chini ya atomiki, yaani, zinapaswa kuwa kamili vya kutosha kutoa kitu muhimu au kutatua tatizo maalum, lakini pia ndogo vya kutosha kuruhusu kupata usaidizi mpana kutoka kwa watumiaji. Kadiri unavyojumuisha mambo mengi zaidi ndani ya BIP moja, ndivyo uwezekano wa kukubalika unavyopungua.
 
 
 ##### Imegawanywa kwa sababu ya Mining isiyo na uthibitisho
 
+Kwa bahati mbaya, hadithi ya BIP66 haikuishia hapo. BIP66 ilipoamilishwa, ilisababisha matatizo makubwa kwa sababu baadhi ya miners hawakuwa wakithibitisha block walizokuwa wakijaribu kupanua. Hili linajulikana kama Mining isiyo halali, au SPV-Mining (kama ilivyo katika Uthibitishaji wa Malipo Uliorahisishwa). Ujumbe wa tahadhari ulitumwa kwa node za Bitcoin pamoja na kiungo cha [ukurasa wa wavuti unaoelezea suala hilo](https://bitcoin.org/en/alert/2015-07-04-spv-mining).
 
 
-Kwa bahati mbaya, hadithi ya BIP66 haikuishia hapo. BIP66 ilipoamilishwa, iliharibika sana kwa sababu baadhi ya wachimbaji hawakuthibitisha vizuizi walivyokuwa wakijaribu kupanua. Hii inaitwa Mining isiyo na uhalali, au SPV-Mining (kama ilivyo katika Uthibitishaji wa Malipo Uliorahisishwa). Ujumbe wa tahadhari ulitumwa kwa nodi za Bitcoin na kiungo cha [ukurasa wa wavuti unaoelezea suala hilo](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
-
-
-> Mapema asubuhi tarehe 4 Julai 2015, kiwango cha 950/1000 (95%) kilifikiwa. Muda mfupi baadaye, Miner ndogo (sehemu ya asilimia 5 isiyoboreshwa ilichimba kizuizi batili–kama tukio lililotarajiwa. Kwa bahati mbaya, ikawa kwamba takriban nusu ya kiwango cha mtandao cha Hash kilikuwa Mining bila vitalu vya kuthibitisha kikamilifu (kinachoitwa SPV Mining), na kujenga vitalu vipya juu ya block hiyo isiyo sahihi.
+> Mapema asubuhi tarehe 4 Julai 2015, kiwango cha 950/1000 (95%) kilifikiwa. Muda mfupi baadaye, miner ndogo (sehemu ya asilimia 5 isiyoboreshwa) ilichimba block batili – kama tukio lililotarajiwa. Kwa bahati mbaya, ikawa kwamba takriban nusu ya kiwango cha mtandao cha Hash kilikuwa Mining bila kuthibitisha kikamilifu block (kinachoitwa SPV Mining), na kujenga block mpya juu ya block hiyo isiyo sahihi.
 
 Ukurasa wa arifa uliwaagiza watu wangojee uthibitisho 30 zaidi kuliko kawaida ikiwa wanatumia matoleo ya zamani ya Bitcoin Core.
 
 
-Mgawanyiko uliotajwa hapo juu ulitokea mnamo 2015-07-04 saa 02:10 UTC baada ya urefu wa kizuizi [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5a5a7a5a7a5a7a5a7a5a75a5a75a5a7a5a7575a759). Suala hili lilitatuliwa saa 03:50 siku hiyo hiyo, baada ya vitalu 6 batili kuchimbwa. Kwa bahati mbaya, suala kama hilo lilitokea tena siku iliyofuata, i.e. mnamo 2015-07-05 saa 21:50, lakini wakati huu tawi batili lilidumu vitalu 3 tu.
+Mgawanyiko uliotajwa hapo juu ulitokea mnamo 2015-07-04 saa 02:10 UTC baada ya urefu wa block [363730](https://mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5a5a7a5a7a5a7a5a7a5a75a5a75a5a7a5a7575a759). Suala hili lilitatuliwa saa 03:50 siku hiyo hiyo, baada ya block 6 batili kuchimbwa. Kwa bahati mbaya, suala kama hilo lilitokea tena siku iliyofuata, yaani mnamo 2015-07-05 saa 21:50, lakini wakati huu tawi batili lilidumu block 3 tu.
 
 
 ![](assets/bip66-timeline-3.webp)
@@ -1956,11 +1938,11 @@ Matukio ambayo yalisababisha BIP66, kupelekwa kwake, na matokeo yake ni uchunguz
 
 
 
-- Usawa kati ya uwazi na kutochapisha athari ni nyeti.
-- Kupeleka marekebisho kwa udhaifu ambao haujachapishwa ni mchezo mgumu kucheza.
-- Makubaliano ya kubakiza ni Hard.
-- Programu isiyokusudiwa kwa mifumo ya makubaliano kwa ujumla ni hatari.
-- BIP zinapaswa kuwa za atomiki kwa kiasi fulani.
+-Usawa kati ya uwazi na kutochapisha athari ni nyeti.  
+– Kupeleka marekebisho kwa udhaifu ambao haujachapishwa ni mchezo mgumu kucheza.  
+– Makubaliano ya kubakiza ni Hard.  
+– Programu isiyokusudiwa kwa mifumo ya makubaliano kwa ujumla ni hatari.  
+– BIP zinapaswa kuwa za atomiki kwa kiasi fulani.
 
 
 ### Hitimisho kuhusu Wakati Shit Inapiga Shabiki
@@ -1981,91 +1963,106 @@ Tumeangalia baadhi ya masuala makali zaidi ambayo yamejitokeza kwa miaka mingi, 
 Maswali haya ya majadiliano si tu muhtasari wa maudhui katika "falsafa ya maendeleo ya Bitcoin", yanakusudiwa kukuhimiza kutafiti zaidi ili uhakikishe unatoka nje na kuchunguza.
 
 
-Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtube.com/watch?v=N4YjXJVzoZY) ya maneno 100-300 kwa kuchagua mada katika kundi hili la maswali. Ikiwa unataka maoni kutoka kwa kazi yako unaweza kuyatuma kwa mini-essay@planb.network, tutafurahi zaidi kuyapitia.
+Unaweza kupima kina cha uelewa wako kwa kuandika [insha-mini](https://www.youtube.com/watch?v=N4YjXJVzoZY) ya maneno 100–300 kwa kuchagua mada katika kundi hili la maswali. Ikiwa unataka maoni kutoka kwa kazi yako, unaweza kuyatuma kwa mini-essay@planb.network — tutafurahi zaidi kuyapitia.
 
 
-#### Ugatuaji
+#### **Ugatuaji**
+
+Ugatuaji ni ngumu. Kwa nini tunapitia shida hizi zote ili kuufanikisha? Je, tunaweza kuchagua mbinu ya mseto, ambapo baadhi ya sehemu zimewekwa kati na nyingine hazijagatuuliwa?
+
+Je, ugatuaji husababisha tatizo la matumizi maradufu, au tatizo la matumizi maradufu ndilo linalohitaji ugatuaji? Satoshi alitatua vipi tatizo la matumizi maradufu?
+
+Ni katika nyanja zipi ambapo Bitcoin bado iko hatarini zaidi kudhibitiwa, na kwa nini udhibiti ni jambo baya sana? Je, kuna hoja zozote zinazounga mkono udhibiti?
+
+Imesemekana kuwa Bitcoin haina ruhusa. Je, kuna njia nyingine za malipo unazoweza kufikiria kuwa hazina ruhusa?
+
+#### Trustlessness
+
+Trustlessness mara nyingi ni wigo, si hali ya ndiyo au hapana. Ni vipengele vipi vya Bitcoin ambavyo vinaonyesha Trustlessness, na vipi vinavyohitaji kiwango cha juu zaidi cha uaminifu? Je, hali hizi zinaweza kupunguzwa?
+
+Unataka kuendesha Full node ili kuweza kuthibitisha miamala yote kikamilifu. Unapakua Bitcoin Core kutoka https://bitcoin.org/en/download. Uliweka uaminifu wapi, na uko wapi kwenye Trustlessness kamili?
+
+Je, unaweza kujenga mfumo wa Trustlessness juu ya mfumo unaotegemea uaminifu?
 
 
+#### Privacy
 
-- Ugatuaji ni Hard. Kwa nini tunapitia shida hizi zote ili kuifanya ifanyike? Je, tunaweza kuchagua mbinu ya mseto, ambapo baadhi ya sehemu zimewekwa kati na nyingine hazipo?
-- Je, ugatuaji unaleta tatizo la matumizi maradufu, au tatizo la matumizi maradufu linahitaji ugatuzi? Je, Satoshi ilitatuaje tatizo la matumizi maradufu?
-- Je, Bitcoin bado inaweza kukabiliwa na udhibiti katika nyanja zipi, na kwa nini udhibiti ni jambo baya sana? Je, kuna hoja zozote zinazounga mkono udhibiti?
-- Imeelezwa kuwa Bitcoin haina ruhusa. Je, kuna njia zingine za malipo unazoweza kufikiria kuwa hazina ruhusa?
+Ni faida zipi muhimu mtumiaji anayapata anapodumisha faragha nzuri anapotumia Bitcoin? Ni faida zipi za kiutu kwa mtandao mzima?
 
+Ni kwa namna gani kutumia anwani ile ile mara kwa mara kunadhuru faragha yako?
 
-
-#### Kutoaminika
+Bitcoin inatumia mfano wa UTXO, ilhali sarafu-fiche nyingine mbadala zinatumia mfano wa akaunti. Ni athari gani za uchaguzi huu kwa faragha?
 
 
+#### Finite Supply 
 
+Je, kuna uhusiano gani kati ya Finite Supply ya Bitcoin na utoaji wa sarafu kupitia muamala wa coinbase? Uhusiano kati ya utoaji wa sarafu na bajeti ya usalama ukoje, na ni kwa namna gani vipengele hivi vinakinzana?
 
-- Kutoaminika mara nyingi ni wigo, sio binary. Ni vipengele vipi vya Bitcoin ambavyo ni vya Trustless, na ambavyo kwa kawaida vinahusisha kiwango cha juu cha uaminifu? Je, zinaweza kupunguzwa?
-- Unataka kuendesha Full node ili kuweza kuthibitisha shughuli zote kikamilifu. Unapakua Bitcoin Core kutoka https://Bitcoin.org/en/download. Uliamini wapi, na uko wapi kikamilifu Trustless?
-- Je, unaweza kujenga mfumo wa Trustless juu ya mfumo unaoaminika?
+Ni vigezo gani Satoshi angeweza kurekebisha ili kubadilisha kikomo cha usambazaji wa Bitcoin? Nini kingebadilika kama angeamua kukiweka kikomo kuwa milioni 1? Vipi kuhusu trilioni 1?
 
+Kwa nini baadhi ya watu wanapigia debe ongezeko la usambazaji wa Bitcoin? Je, unadhani hili litatokea?
 
+#### **Upgrading**
 
-#### Faragha
+Speedy Trial ni nini na kwa nini ilihitajika ili kuiwezesha Taproot?
 
+Kwa nini tunahitaji asilimia kubwa ya miners kuboresha programu zao katika softfork? Kwa nini kizingiti kisiwe tu 51%?
 
+#### Adversarial Thinking
 
+Sybil attack ni nini, na ni nini kinachosababisha mtandao wa ugatuaji kuwa katika hatari kubwa ya shambulio hilo?
 
-- Je, ni baadhi ya manufaa gani muhimu anayopata mtumiaji anapodumisha faragha nzuri anapotumia Bitcoin? Je, ni baadhi ya manufaa gani ya mtandao kwa ajili ya kujitolea?
-- Je, kutumia tena anwani kunaathiri vipi faragha yako?
-- Bitcoin hutumia modeli ya UTXO, ilhali baadhi ya fedha mbadala za cryptocurrency hutumia muundo wa akaunti. Je, ni nini athari za chaguo hili kwenye faragha?
-
-
-
-#### Finite Supply
-
-
-
-
-- Kuna uhusiano gani kati ya Supply isiyo na kikomo ya Supply na utoaji wake wa sarafu kupitia Coinbase Transaction? Kuna uhusiano gani kati ya utoaji wa sarafu na bajeti ya usalama, na zinatofautiana vipi?
-- Je, ni vigezo gani ambavyo Satoshi vinaweza kubadilisha ili kubadilisha kofia ya Bitcoin ya Supply? Ni nini kingebadilika ikiwa angeamua kuweka Supply hadi milioni 1? Vipi kuhusu trilioni 1?
-- Kwa nini baadhi ya watu wanatetea ongezeko la Bitcoin Supply? Je, unadhani hili litatokea?
-
-
-#### Kuboresha
-
-
-
-- Jaribio la Haraka ni nini na kwa nini ilikuwa muhimu kuwezesha Taproot?
-- Kwa nini tunahitaji asilimia kubwa ya wachimbaji ili kuboresha uma laini? Kwa nini kizingiti sio 51% tu?
-
-
-
-#### Mawazo ya adui
+Kwa nini ni muhimu kwamba washiriki wote wa mtandao wa Bitcoin – si watengenezaji pekee – wafikiri kwa mtazamo wa kiadui?
 
 
 
 
-- Shambulio la sybil ni nini, na ni nini hufanya mtandao uliogawanyika kukabiliwa na hilo?
-- Kwa nini ni muhimu kwamba wachezaji wote katika mtandao wa Bitcoin - na sio watengenezaji tu - wafikirie vibaya?
+#### Open Source
+
+Ni wachache tu waendelezaji walio na ruhusa za GitHub wanaoweza kuunganisha msimbo kwenye hifadhi ya Bitcoin Core. Je, hili halipingani na mtandao usiohitaji ruhusa?
+
+Je, mchakato wa maendeleo ya wazi (open source) uko katika hatari ya kushambuliwa kwa njia ya sybil attack? Ikiwa ndiyo, unaweza kukabiliana nalo vipi?
+
+Ni faida na hasara zipi za kutegemea maktaba za wazi za wahusika wa tatu, na ni mbinu gani inayotumika katika Bitcoin Core?
+
+Ni kwa njia zipi tunahitaji uhakiki zaidi ya ule wa msimbo pekee? Tunawezaje kujua kiwango cha ukaguzi kinachotosha?
+
+Tunawezaje kuhakikisha kuwa kutakuwepo daima na watu wa kutosha wenye utaalamu wanaofanya kazi kwenye Bitcoin? Nini hufanyika ikiwa hawatakuwepo, na tunawezaje kupima uadilifu na nia zao?
 
 
 
-#### Chanzo wazi
+#### 
+Scaling
 
+Inasemekana kuwa sharding hutoa faida za scaling kwa gharama ya ugumu. Je, tunapaswa au hatupaswi kupitisha maboresho ya kiteknolojia kwa sababu tu ni magumu kueleweka, hata kama yanaonekana kuwa sahihi kiteknolojia?
 
+Ni mifano gani ya mbinu za inward scaling zilizowahi kuletwa kwenye Bitcoin?
 
+Kwa nini vertical scaling ni ngumu zaidi katika mfumo wa ugatuaji? Vipi kuhusu horizontal scaling?
 
-- Ni watunzaji wachache pekee walio na ruhusa zinazohitajika za GitHub za kuunganisha msimbo kwenye hazina ya [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Je, hiyo si inapingana na mtandao usio na ruhusa?
-- Je, mchakato wa ukuzaji wa chanzo huria unaweza kukabiliwa na shambulio la sybil? Ikiwa ndivyo, ungepingaje hilo?
-- Je, ni faida na hasara gani za kutegemea maktaba za chanzo huria za watu wengine, na ni mbinu gani inayochukuliwa na Bitcoin Core?
-- Je, ni kwa njia zipi tunahitaji ukaguzi zaidi ya ukaguzi wa msimbo tu? Jinsi ya kuamua ni hakiki ngapi inatosha?
-- Je, tunahakikishaje kwamba daima kutakuwa na watu wa kutosha wenye ujuzi wanaofanya kazi kwenye Bitcoin? Ni nini hufanyika wakati hakuna, na jinsi gani sisi kutathmini uadilifu wao na nia?
+Inaonekana hatujafikia makubaliano kuhusu jinsi ya kuingiza dunia nzima kwenye Bitcoin. Je, Satoshi hakupaswa angalau kufikiria njia ya kufanikisha hili kabla ya kuchimba block ya kwanza mnamo 2009?
 
+Utageuza vipi kila mojawapo ya haya (vertical, horizontal, inward, au si mbinu ya scaling):  
+– sharding  
+– blocksize increase  
+– SegWit  
+– SPV nodes  
+– centralized exchanges  
+– Lightning Network  
+– block interval decrease  
+– Taproot  
+– sidechains
 
+### Final Section
+4b6ff4ef-b9ea-4c48-b05f-62d41a38fbbb
 
-#### Kuongeza
+#### Reviews & Ratings 
+d334a837-df46-4989-9cad-8d8779147dbe
 
+true
 
+### Conclusion
+b77ed55c-b13a-430b-a212-37aab527b9e7
 
+true
 
-- Inasemekana kuwa sharding inatoa faida za kuongeza kwa gharama ya ugumu. Kwa nini sisi au tusikubali uboreshaji wa kiteknolojia kwa sababu ni vigumu kuelewa, hata kama yanaonekana kuwa sawa kiteknolojia?
-- Je, ni baadhi ya mifano gani ya mbinu za kuongeza ukubwa wa ndani zilizoletwa katika Bitcoin?
-- Kwa nini kuongeza wima ni ngumu zaidi katika mfumo wa madaraka? Vipi kuhusu kuongeza mlalo?
-- Hatuonekani kuwa karibu kuwa na makubaliano kuhusu jinsi tunavyoweza kuabiri dunia nzima kwenye Bitcoin. Satoshi haipaswi kufikiria angalau njia ya kufika huko, kabla ya Mining kizuizi cha kwanza mnamo 2009?
-- Unawezaje kuainisha (wima, mlalo, mbinu ya ndani, au isiyo ya kuongeza) kila mojawapo ya yafuatayo: kugawanyika, ongezeko la ukubwa wa blocksize, SegWit, nodi za SPV, ubadilishanaji wa kati, Lightning Network, kupungua kwa muda wa kuzuia, Taproot, minyororo ya kando

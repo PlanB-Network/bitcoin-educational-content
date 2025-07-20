@@ -151,7 +151,7 @@ Nei wallet compatibili con Whirlpool, come Samourai o Sparrow, vengono utilizzat
 
 Ciascuno di questi account svolge una funzione specifica all’interno del coinjoin.
 
-Tutti questi account sono collegati a un unico seed, che consente all’utente di recuperare l’accesso a tutti i propri bitcoin utilizzando la recovery phrase e, se impostata, anche la passphrase.
+Tutti questi account sono collegati a un unico seed, che consente all’utente di recuperare l’accesso a tutti i propri bitcoin utilizzando la frase di recupero e, se impostata, anche la passphrase.
 Tuttavia, durante questa operazione di recupero, è necessario indicare al software gli indici degli account che sono stati effettivamente utilizzati.
 
 Esaminiamo ora le diverse fasi di un coinjoin Whirlpool all'interno di questi account.

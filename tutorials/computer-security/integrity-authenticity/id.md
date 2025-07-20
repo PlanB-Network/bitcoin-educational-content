@@ -4,15 +4,15 @@ description: Bagaimana cara memverifikasi integritas dan keaslian perangkat luna
 ---
 ![cover](assets/cover.webp)
 
-Saat mengunduh perangkat lunak, sangat penting untuk memastikan bahwa perangkat lunak tersebut tidak telah diubah dan memang berasal dari sumber resmi. Hal ini terutama berlaku untuk perangkat lunak yang terkait dengan Bitcoin, seperti perangkat lunak dompet, yang memungkinkan Anda untuk mengamankan kunci yang memberikan akses ke dana Anda. Dalam tutorial ini, kita akan melihat cara memverifikasi integritas dan keaslian perangkat lunak sebelum menginstalnya. Kita akan menggunakan Sparrow Wallet sebagai contoh, sebuah perangkat lunak dompet favorit di kalangan pengguna bitcoin, tetapi prosedurnya akan sama untuk perangkat lunak lainnya.
+Saat mengunduh perangkat lunak, sangat penting untuk memastikan bahwa perangkat lunak tersebut belum diubah dan memang berasal dari sumber resmi. Hal ini terutama berlaku untuk perangkat lunak yang terkait dengan Bitcoin, seperti perangkat lunak dompet, yang memungkinkan Anda mengamankan kunci yang memberikan akses ke dana Anda. Dalam tutorial ini, kita akan melihat cara memverifikasi integritas dan keaslian perangkat lunak sebelum menginstalnya. Kita akan menggunakan Sparrow Wallet sebagai contoh, perangkat lunak dompet favorit di kalangan bitcoiner, tetapi prosedur ini akan sama untuk perangkat lunak lainnya.
 
-Memverifikasi integritas melibatkan memastikan bahwa file yang diunduh tidak telah dimodifikasi dengan membandingkan sidik digitalnya (yaitu, hashnya) dengan yang disediakan oleh pengembang resmi. Jika keduanya cocok, itu berarti bahwa file tersebut identik dengan aslinya dan tidak telah rusak atau dimodifikasi oleh penyerang.
+Memverifikasi integritas melibatkan pemeriksaan apakah file yang diunduh belum dimodifikasi dengan membandingkan sidik jari digitalnya (yaitu, hash-nya) dengan yang disediakan oleh pengembang resmi. Jika keduanya cocok, berarti file tersebut sama dengan aslinya dan belum rusak atau dimodifikasi oleh penyerang.
 
-Di sisi lain, memverifikasi keaslian memastikan bahwa file tersebut memang berasal dari pengembang resmi dan bukan peniru. Hal ini dilakukan dengan memverifikasi tanda tangan digital. Tanda tangan ini membuktikan bahwa perangkat lunak telah ditandatangani dengan kunci privat pengembang yang sah.
+Di sisi lain, memverifikasi keaslian, memastikan bahwa file tersebut memang berasal dari pengembang resmi dan bukan peniru. Ini dilakukan dengan memverifikasi tanda tangan digital. Tanda tangan ini membuktikan bahwa perangkat lunak tersebut ditandatangani dengan kunci privat pengembang yang sah.
 
-Jika pemeriksaan ini tidak dilakukan, ada risiko menginstal malware yang dapat berisi kode yang dimodifikasi. Kode ini dapat mencuri informasi seperti kunci privat Anda atau memblokir akses ke file Anda. Jenis serangan ini cukup umum, terutama dalam konteks perangkat lunak sumber terbuka di mana versi palsu dapat didistribusikan.
+Jika pemeriksaan ini tidak dilakukan, ada risiko menginstal malware yang mungkin berisi kode yang dimodifikasi. Kode ini dapat mencuri informasi seperti kunci privat Anda atau memblokir akses ke file Anda. Jenis serangan ini cukup umum, terutama dalam konteks perangkat lunak open-source di mana versi palsu dapat didistribusikan.
 
-Untuk melakukan verifikasi ini, kita akan menggunakan dua alat: fungsi hashing untuk memverifikasi integritas, dan GnuPG, sebuah alat sumber terbuka yang mengimplementasikan protokol PGP, untuk memverifikasi keaslian.
+Untuk melakukan verifikasi ini, kita akan menggunakan dua alat: fungsi hashing untuk memverifikasi integritas, dan GnuPG, alat open-source yang mengimplementasikan protokol PGP, untuk memverifikasi keaslian.
 
 ## Prasyarat
 
@@ -46,20 +46,16 @@ Untuk **Windows**, jika Anda tidak memiliki GPG, Anda dapat menginstal perangkat
 
 ## Mengunduh Dokumen
 
-Untuk memulai, kita akan membutuhkan berbagai dokumen. Kunjungi situs resmi [Sparrow Wallet di bagian "*Download*"](https://sparrowwallet.com/download/). Jika Anda ingin memverifikasi perangkat lunak lain, kunjungi situs web perangkat lunak tersebut.
-
+Untuk memulai, kita akan membutuhkan berbagai dokumen. Kunjungi situs resmi [Sparrow Wallet di bagian "*Download / Unduh*"](https://sparrowwallet.com/download/). Jika Anda ingin memverifikasi perangkat lunak lain, kunjungi situs web perangkat lunak tersebut.
 ![GnuPG](assets/notext/02.webp)
 
-Anda juga dapat pergi [ke repositori GitHub dari proyek tersebut](https://github.com/sparrowwallet/sparrow/releases).
-
+Anda juga dapat mengunjungi [repositori GitHub dari proyek tersebut](https://github.com/sparrowwallet/sparrow/releases).
 ![GnuPG](assets/notext/03.webp)
 
 Unduh pemasang untuk perangkat lunak yang sesuai dengan sistem operasi Anda.
-
 ![GnuPG](assets/notext/04.webp)
 
 Anda juga akan membutuhkan hash file, sering disebut "*SHA256SUMS*" atau "*MANIFEST*".
-
 ![GnuPG](assets/notext/05.webp)
 
 Unduh juga tanda tangan PGP dari file tersebut. Ini adalah dokumen dalam format `.asc`.

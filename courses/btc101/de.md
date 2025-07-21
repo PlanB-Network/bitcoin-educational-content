@@ -444,11 +444,11 @@ Zusammenfassend lässt sich sagen, dass Bitcoin mit seiner dezentralen Natur, se
 
 ### Abschluss von Abschnitt 2!
 
-# Bitcoin-Geldbörsen
+# Bitcoin-Wallets
 
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
-## Was sind Bitcoin-Geldbörsen?
+## Was sind Bitcoin-Wallets?
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
@@ -459,40 +459,40 @@ In Abschnitt 2 werden wir die Speicherung und Sicherheit von Bitcoin durch die V
 Wir verwenden Wallets, um mit dem Bitcoin-Netzwerk auf drei Arten zu interagieren:
 
 - Um Bitcoins zu erhalten
-- So senden Sie Bitcoins
-- Schutz vor Hackerangriffen und Diebstahlsversuchen
+- Um Bitcoins zu senden
+- Um Bitcoins vor Hacking und Raub zu schützen
 
-Eine Bitcoin-Brieftasche kann viele Formen haben: eine Software auf Ihrem Computer, eine Anwendung auf Ihrem Smartphone, ein physisches Gerät wie ein USB-Stick oder sogar ein Stück Papier. Jede dieser Formen dient unterschiedlichen Zwecken. Einige sind für große Transaktionen mit dem Schwerpunkt auf Sicherheit konzipiert, während bei anderen die Privatsphäre im Vordergrund steht, oder sie sind für tägliche Zahlungen kleiner Beträge gedacht.
+Eine Bitcoin-Wallet kann viele Formen haben: eine Software auf Ihrem Computer, eine App auf Ihrem Smartphone, ein physisches Gerät wie ein USB-Stick oder sogar ein Stück Papier. Jede dieser Formen dient unterschiedlichen Zwecken. Einige sind für große Transaktionen mit dem Schwerpunkt auf Sicherheit konzipiert, während bei anderen die Privatsphäre im Vordergrund steht, oder sie sind für tägliche Zahlungen kleiner Beträge gedacht.
 
-Portfolios lassen sich also in breite Nutzungsfamilien einteilen, in deren Mittelpunkt immer eine Schlüsselfrage steht: Sind Sie der Eigentümer der Mittel oder überlassen Sie die Kontrolle über Ihr Geld einem Dritten? Wir werden dieses Thema im nächsten Kapitel im Detail untersuchen, aber die Frage bleibt einfach: Ist das Geld in Ihrer Tasche oder in der Tasche Ihres Bankers?
+Portfolios lassen sich also in breite Nutzungsfamilien einteilen, in deren Mittelpunkt immer eine Schlüsselfrage steht: Bist du der Eigentümer der Mittel oder überlässt du die Kontrolle über dein Geld einem Dritten? Wir werden dieses Thema im nächsten Kapitel im Detail untersuchen, aber die Frage bleibt einfach: Ist das Geld in deiner Tasche oder in der Tasche deines Bankers?
 
 ![image](assets/en/26.webp)
 
-### Wie funktioniert eine Bitcoin-Brieftasche?
+### Wie funktioniert eine Bitcoin-Wallet?
 
-Egal, ob es sich um Ihren Bitcoin-"Banker" oder um Sie selbst handelt, die überwiegende Mehrheit der Bitcoin-Wallets arbeitet mit einer ähnlichen Technologie, die auf asymmetrischer Kryptographie basiert, die ein System von Schlüsselpaaren umfasst: einen privaten Schlüssel für die Ausgabe und einen öffentlichen Schlüssel für den Empfang.
+Egal, ob es sich um deinen Bitcoin-"Banker" oder um dich selbst handelt, die überwiegende Mehrheit der Bitcoin-Wallets arbeitet mit einer ähnlichen Technologie, die auf asymmetrischer Kryptographie basiert, die ein System von Schlüsselpaaren umfasst: einen privaten Schlüssel (private key) für die Ausgabe und einen öffentlichen Schlüssel (public key) für den Empfang.
 
 - Privater Schlüssel
 
 Bei der Initialisierung einer Brieftasche wird eine geheime Wiederherstellungsphrase (privater Schlüssel) generiert und Ihnen in Form von 12 oder 24 Wörtern präsentiert.
 
-Der private Schlüssel ist von grundlegender Bedeutung, da er das Eigentum an den Bitcoins und somit das Recht, sie zu verwenden oder zu versenden, begründet. Daher ist der Inhaber des privaten Schlüssels der wahre Eigentümer der Bitcoins.
+Der private Schlüssel ist von enormer Bedeutung, da er das Eigentum an den Bitcoins und somit das Recht, sie zu verwenden oder zu versenden, erteilt. Daher ist der Inhaber des privaten Schlüssels der wahre Eigentümer der Bitcoins.
 
-Dieser Schlüssel muss geheim gehalten und gut geschützt werden, denn er erschließt Ihr Vermögen!
+Dieser Schlüssel muss geheim gehalten und gut geschützt werden, denn er erschließt dein Vermögen!
 
 - Öffentlicher Schlüssel & Adresse
 
-Der öffentliche Schlüssel wird aus dem privaten Schlüssel generiert und ist mit diesem verknüpft. Die Weitergabe des öffentlichen Schlüssels birgt Risiken für die Privatsphäre (weil andere Nutzer Ihr Guthaben sehen können), nicht aber für die Sicherheit (weil sie Ihr Geld nicht ausgeben können, ohne den privaten Schlüssel zu besitzen). Der öffentliche Schlüssel wiederum wird verwendet, um Bitcoin-Adressen zu erstellen und somit Geld zu erhalten.
+Der öffentliche Schlüssel wird aus dem privaten Schlüssel generiert und ist mit diesem verknüpft. Die Weitergabe des öffentlichen Schlüssels birgt Risiken für die Privatsphäre (weil andere Nutzer dein Guthaben sehen können), nicht aber für die Sicherheit (weil sie dein Geld nicht ausgeben können, ohne den privaten Schlüssel zu besitzen). Der öffentliche Schlüssel wiederum wird verwendet, um Bitcoin-Adressen zu erstellen und somit Geld zu erhalten.
 
-Diese Adressen werden automatisch von Ihrer Brieftasche erstellt und können auf sichere Weise weitergegeben werden. Um Ihre Privatsphäre zu maximieren, ist es ratsam, sie nur einmal zu verwenden.
+Diese Adressen werden automatisch von deiner Brieftasche erstellt und können auf sichere Weise weitergegeben werden. Um deine Privatsphäre zu maximieren, ist es ratsam, sie nur einmal zu verwenden.
 
-Zusammenfassend lässt sich sagen, dass diese Technologie es uns ermöglicht, Bitcoins zu empfangen, ohne dass der Empfänger unsere Gelder stehlen kann! Ein Briefkasten könnte eine passende Metapher sein: Andere können Geld einwerfen, aber nur Sie selbst können ihn öffnen.
+Zusammenfassend lässt sich sagen, dass diese Technologie es uns ermöglicht, Bitcoins zu empfangen, ohne dass der Empfänger unsere Gelder stehlen kann! Eine Mailbox könnte eine passende Metapher sein: Andere können Geld einwerfen, aber nur du selbst kannst sie öffnen.
 
 ![image](assets/en/27.webp)
 
-### Sind Bitcoins in der Brieftasche?
+### Sind Bitcoins in der Wallet?
 
-Obwohl Ihre Schlüssel in Ihrer Wallet gespeichert sind, werden die Bitcoins selbst in der Bitcoin-Blockchain "gespeichert", die ein öffentliches verteiltes Hauptbuch innerhalb des Bitcoin-Peer-to-Peer-Netzwerks ist (wir werden in Abschnitt 3 näher darauf eingehen). Das bedeutet, dass der Verlust des Geräts, in dem sich Ihre Brieftasche befindet, nicht unbedingt zum Verlust Ihrer Bitcoins führt. Was es Ihnen ermöglicht, Ihre Wallet wiederherzustellen und Ihre Bitcoins auszugeben, ist der private Schlüssel, also denken Sie immer daran, ihn richtig zu sichern!
+Obwohl deine Schlüssel in deiner Wallet gespeichert sind, werden die Bitcoins selbst in der Bitcoin-Blockchain "gespeichert", die ein öffentliches verteiltes Hauptbuch (public distributed ledger) innerhalb des Bitcoin-Peer-to-Peer-Netzwerks ist (wir werden in Abschnitt 3 näher darauf eingehen). Das bedeutet, dass der Verlust des Geräts, in dem sich deine Brieftasche befindet, nicht unbedingt zum Verlust deiner Bitcoins führt. Was es dir ermöglicht, deine Wallet wiederherzustellen und deine Bitcoins auszugeben, ist der private Schlüssel, also denk immer daran, ihn richtig zu sichern!
 
 ![image](assets/en/28.webp)
 
@@ -500,15 +500,15 @@ Glücklicherweise kann der private Schlüssel seit 2017 durch eine einfache List
 
 ### Was ist mit Hackern?
 
-Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und 2 hoch 256, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn Sie jedoch mit dieser Standardsicherheit nicht zufrieden sind, können Sie sie jederzeit erhöhen, indem Sie eine Passphrase (ein zusätzliches Wort) zu Ihrer Bitcoin-Brieftasche hinzufügen.
+Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und 2 hoch 256, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn du jedoch mit dieser Standardsicherheit nicht zufrieden bist, kannst du sie jederzeit erhöhen, indem du ein Passphrase (ein zusätzliches Wort) zu deiner Bitcoin-Wallet hinzufügst.
 
 ![image](assets/en/29.webp)
 
-Daher ist die Wahrscheinlichkeit, dass Ihr Bitcoin-Wallet gehackt wird, astronomisch gering, wenn Sie die guten Sicherheitspraktiken befolgen, auf die wir im nächsten Abschnitt eingehen werden.
+Daher ist die Wahrscheinlichkeit, dass deine Bitcoin-Wallet gehackt wird, astronomisch gering, wenn du die richtigen Sicherheitspraktiken befolgst, auf die wir im nächsten Abschnitt eingehen werden.
 
-Denken Sie daran, die richtige Geldbörse für Ihre Bedürfnisse und Ihre Nutzung zu wählen: Ausführliche Anleitungen zur Verwaltung und Sicherung verschiedener Geldbörsen finden Sie im [Tutorial-Bereich unserer Universität] (https://planb.network/tutorials/wallet).
+Denk daran, die richtige Geldbörse für deine Bedürfnisse und deine Nutzung zu wählen: Ausführliche Anleitungen zur Verwaltung und Sicherung verschiedener Geldbörsen findest du im [Tutorial-Bereich unserer Universität](https://planb.network/tutorials/wallet).
 
-Wenn Sie auf Ihrer Reise in den Kaninchenbau mehr über den Aufbau einer Bitcoin-Wallet erfahren möchten, von der Entropie bis zum Empfang von Adressen, empfehlen wir Ihnen den Kurs CYP 201, der diesem Thema gewidmet ist:
+Wenn du auf deiner Reise in den Kaninchenbau mehr über den Aufbau einer Bitcoin-Wallet erfahren möchtest, von der Entropie bis zum Empfang von Adressen, empfehlen wir dir den Kurs CYP 201, der diesem Thema gewidmet ist:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
@@ -518,34 +518,34 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Vor dem Start die richtigen Fragen stellen
 
-Wenn Sie Bitcoins besitzen, ist die Sicherheit Ihres Geldes ein wichtiges Anliegen. Der beste Weg, um ein für Ihre Situation geeignetes Sicherheitsniveau zu bestimmen, ist, sich eine Reihe von Fragen zu stellen:
+Wenn du Bitcoins besitzt, ist die Sicherheit deines Geldes ein wichtiges Anliegen. Der beste Weg, um ein für deine Situation geeignetes Sicherheitsniveau zu bestimmen, ist, sich eine Reihe von Fragen zu stellen:
 
-- Wer kann auf Ihr Geld zugreifen? Mit anderen Worten: Haben Sie alleinigen Zugriff auf Ihre Bitcoins, oder gewährt Ihnen ein Dritter (z. B. ein Unternehmen) Zugang zu Ihren Geldern?
-- Wie wollen Sie die Bitcoins in dieser bestimmten Brieftasche verwenden? Regelmäßig? Für mittelfristige oder langfristige Ersparnisse?
-- Was sind Ihre technischen Fähigkeiten?
-- Wie hoch ist Ihr Sicherheitsbudget?
+- Wer kann auf dein Geld zugreifen? Mit anderen Worten: Hast du alleinigen Zugriff auf deine Bitcoins, oder gewährt dir ein Dritter (z. B. ein Unternehmen) Zugang zu deinen Geldern?
+- Wie willst du die Bitcoins in deiner bestimmten Wallet verwenden? Regelmäßig? Für mittelfristige oder langfristige Ersparnisse?
+- Was sind deine technischen Fähigkeiten?
+- Wie hoch ist dein Sicherheitsbudget?
 
-Es gibt eigentlich keine allgemeingültige Antwort oder Lösung. Nehmen Sie sich also die Zeit, diese Fragen zu beantworten, denn so können Sie Ihre Sicherheitsmaßnahmen auf Ihre Bedürfnisse abstimmen.
+Es gibt eigentlich keine allgemeingültige Antwort oder Lösung. Nimm dir also die Zeit, diese Fragen zu beantworten, denn so kannst du deine Sicherheitsmaßnahmen auf deine Bedürfnisse abstimmen.
 
 ![image](assets/en/30.webp)
 
-### Über Bitcoin-Wallets in Bezug auf die Komplexität nachdenken
+### Gedanken über Bitcoin-Wallets in Bezug auf die Komplexität
 
 Im Folgenden werden wir verschiedene Sicherheitsstufen definieren:
 
-- Bei Level 0\*\* nutzen Sie einen sogenannten "Verwahrungsdienst", bei dem Sie nicht der alleinige Inhaber Ihrer Bitcoins sind. Seien Sie sich bewusst, dass diese vertrauenswürdige Drittpartei Ihren Zugang zu Ihren Geldern jederzeit einschränken kann. In diesem Fall ist Ihr Grad an finanzieller Souveränität vergleichbar mit dem eines traditionellen Banksystems mit einem Bankkonto.
+- Bei **Level 0** nutzt du einen sogenannten "Verwahrungsdienst", bei dem du nicht der alleinige Inhaber deiner Bitcoins bist. Sei dir bewusst, dass diese vertrauenswürdige Drittpartei deinen Zugang zu deinen Geldern jederzeit einschränken kann. In diesem Fall ist dein Grad an finanzieller Souveränität vergleichbar mit dem eines traditionellen Banksystems mit einem Bankkonto.
 
 ![image](assets/en/31.webp)
 
-- Stufe 1\*\*: Sie verwenden eine Bitcoin-Wallet auf Ihrem Telefon oder Computer, in der Sie der alleinige Inhaber Ihrer Bitcoins sind und Ihre Transaktionen problemlos durchführen können. Das vorgenannte Tool wird als "Hot Wallet" bezeichnet, weil der private Schlüssel auf einem Gerät mit Internetzugang gespeichert wird. In diesem Fall ist es wichtig, eine Sicherungskopie Ihres Merksatzes zu erstellen, damit Sie bei einem Verlust Ihres Telefons oder Computers wieder Zugriff auf Ihr Geld haben.
+- **Stufe 1**: Du verwendest eine Bitcoin-Wallet auf deinem Telefon oder Computer, in der du der alleinige Inhaber deiner Bitcoins bist und deine Transaktionen problemlos durchführen kannst. Das vorgenannte Tool wird als "Hot-Wallet" bezeichnet, weil der private Schlüssel auf einem Gerät mit Internetzugang gespeichert wird. In diesem Fall ist es wichtig, eine Sicherungskopie deiner 12 bzw. 24 Wörter zu erstellen, damit du bei einem Verlust deines Telefons oder Computers wieder Zugriff auf dein Geld hast.
 
-Sie können zum Beispiel Sparrow Wallet als Hot Wallet verwenden:
+Du kannst zum Beispiel die Sparrow Wallet als Hot-Wallet verwenden:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Stufe 2\*\*: Sie verwenden eine physische Geldbörse und haben Ihre Liste mit 12/24 Wörtern gesichert. Sie wird oft als "Cold Wallet" bezeichnet, weil Ihre Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall müssen Sie jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf Ihr Geld erschwert.
+- **Stufe 2**: Du verwendest eine physische Wallet und hast deine Liste mit 12/24 Wörtern gesichert. Dies wird oft als "Cold Wallet" bezeichnet, weil deine Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall musst du jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf dein Geld erschwert.
 
-Sie könnten zum Beispiel ein Ledger, einen Satochip oder einen Tapsigner verwenden:
+Du kannst zum Beispiel ein Ledger, einen Satochip oder einen Tapsigner verwenden:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
@@ -555,15 +555,14 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 ![image](assets/en/32.webp)
 
-- Stufe 3**: Sie verwenden eine Brieftasche der Stufe 1 oder 2, haben aber eine zusätzliche Passphrase hinzugefügt. In diesem Fall müssen Sie sowohl die Liste der 12/24 Wörter **als auch\*\* Ihre Passphrase sichern. Idealerweise werden diese beiden Informationen an zwei verschiedenen Orten gespeichert.
+- **Stufe 3**: Du verwendest eine Brieftasche der Stufe 1 oder 2, hast aber eine zusätzliche Passphrase hinzugefügt. In diesem Fall musst du sowohl die Liste der 12/24 Wörter **als auch** deine Passphrase sichern. Idealerweise werden diese beiden Informationen an zwei verschiedenen Orten gespeichert.
 
-Um mehr über die Verwendung und Funktionsweise des BIP39-Passphrases zu erfahren:
-
+Erfahre mehr über die Verwendung und Funktionsweise des BIP39-Passphrases:
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/33.webp)
 
-- Stufe 4\*\*: Sie verwenden eine Reihe von Brieftaschen, um eine "Multisig"-Brieftasche zu erstellen, was bedeutet, dass mehrere Signaturen erforderlich sind, um eine Transaktion durchzuführen. In diesem Fall ist zu beachten, dass jeder Teil der Multisig an verschiedenen Orten gespeichert werden sollte. Dieser Ansatz wird oft als fortschrittliche Nutzung von Bitcoin angesehen, vor allem für die Verwaltung großer Beträge und für Unternehmenszwecke.
+- **Stufe 4**: Du verwendest eine Reihe von Brieftaschen, um eine "Multisig"-Wallet zu erstellen, was bedeutet, dass mehrere Signaturen erforderlich sind, um eine Transaktion durchzuführen. In diesem Fall ist zu beachten, dass jeder Teil der Multisig an verschiedenen Orten gespeichert werden sollte. Dieser Ansatz wird oft als fortschrittliche Nutzung von Bitcoin angesehen, vor allem für die Verwaltung großer Beträge und für Unternehmenszwecke.
 
 ![image](assets/en/34.webp)
 
@@ -571,76 +570,76 @@ Natürlich erfordern unterschiedliche Anwendungsfälle auch unterschiedliche Bit
 
 ### Die Sicherheit muss angepasst werden
 
-Der Betrag, den man bereit ist, auf einer bestimmten Sicherheitsstufe zu hinterlassen, hängt von jedem Einzelnen ab. Für manche ist es vernünftig, 1 BTC auf einer Hot Wallet zu lassen, während es für andere das Gegenteil ist. Wenn Sie einen kleinen Betrag sichern wollen, raten wir Ihnen auf jeden Fall, nicht zu viel für die Sicherheit auszugeben, indem Sie eine physische Wallet kaufen. Außerdem sollten Sie bedenken, dass eine übermäßige Komplizierung der Sicherheit und Zugänglichkeit Ihrer Bitcoins nachteilig sein kann, insbesondere wenn Sie die Backups Ihrer Wallets falsch handhaben.
+Der Betrag, den man bereit ist, auf einer bestimmten Sicherheitsstufe zu hinterlassen, hängt von jedem Einzelnen ab. Für manche ist es vernünftig, 1 BTC auf einer Hot Wallet zu lassen, während es für andere das Gegenteil ist. Wenn du einen kleinen Betrag sichern willst, raten wir dir auf jeden Fall, nicht zu viel für die Sicherheit auszugeben, indem du eine physische Wallet kaufst. Außerdem solltest du bedenken, dass eine übermäßige Komplizierung der Sicherheit und Zugänglichkeit deiner Bitcoins nachteilig sein kann, insbesondere wenn du die Backups deiner Wallets falsch handhabst.
 
-Abschließend lässt sich sagen, dass der direkte Besitz der eigenen Bitcoins ein wesentliches Element zur Gewährleistung der finanziellen Souveränität ist. Es wird empfohlen, für die täglichen Ausgaben eine mobile Geldbörse und für die Aufbewahrung größerer Beträge eine physische Offline-Geldbörse zu verwenden. Unternehmen hingegen sollten die Verwendung von Systemen mit mehreren Signaturen oder "Multisig" in Betracht ziehen, um die Sicherheit zu erhöhen und zu teilen. Es ist auch wichtig, Verwahrungsdienste zu vermeiden, die einige Schwachstellen des traditionellen Finanzsystems replizieren können.
+Abschließend lässt sich sagen, dass der direkte Besitz der eigenen Bitcoins ein wesentliches Element zur Gewährleistung der finanziellen Souveränität ist. Es wird empfohlen, für die täglichen Ausgaben eine mobile Geldbörse und für die Aufbewahrung größerer Beträge eine physische Offline-Wallet zu verwenden. Unternehmen hingegen sollten die Verwendung von Systemen mit mehreren Signaturen oder "Multisig" in Betracht ziehen, um die Sicherheit zu erhöhen und zu teilen. Es ist auch wichtig, Verwahrungsdienste zu vermeiden, die einige Schwachstellen des traditionellen Finanzsystems replizieren können.
 
-Mit diesem Wissen können wir nun zum nächsten Abschnitt übergehen, in dem wir beschreiben, wie man eine Bitcoin-Brieftasche erstellt. Wenn Sie sich jedoch weiter mit dem Thema Sicherheit befassen möchten, können Sie diesen [Artikel von DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque) lesen.
+Mit diesem Wissen können wir nun zum nächsten Abschnitt übergehen, in dem wir beschreiben, wie man eine Bitcoin-Wallet erstellt. Wenn du dich jedoch weiter mit dem Thema Sicherheit befassen möchtest, kannst du diesen [Artikel von DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque) lesen.
 
-## Einrichten einer Brieftasche
+## Einrichten einer Wallet
 
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
-Die Sicherheit Ihrer Bitcoins ist von entscheidender Bedeutung, und ein einfacher Fehler kann katastrophale Folgen haben. Deshalb müssen wir lernen, wie man am besten vorgeht, wenn man ein neues Bitcoin-Wallet erstellt.
+Die Sicherheit deiner Bitcoins ist von entscheidender Bedeutung, und ein einfacher Fehler kann katastrophale Folgen haben. Deshalb müssen wir lernen, wie man am besten vorgeht, wenn man eine neue Bitcoin-Wallet erstellt.
 
-Bitte beachten Sie, dass der Kurs BTC102 Sie durch diesen Schritt führen wird.
+Bitte beachte, dass der Kurs BTC102 dich durch diesen Schritt führen wird.
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Dieser Schritt ist kein Scherz!
 
-Wenn Sie eine Wallet einrichten, erstellt die Software in der Regel Ihren privaten Schlüssel, der in der Regel durch eine Liste von 12/24 Wörtern (oft als "Seed Phrase" oder "Mnemonic Phrase" bezeichnet) repräsentiert wird: Diese Wörter stellen den Zugang zu Ihrem Geld dar. Wenn dieser Schlüssel jemals an einen Dritten weitergegeben wird, sollten Sie davon ausgehen, dass die damit verbundenen Gelder gefährdet sind. Bei der Einrichtung Ihrer Brieftasche sollten Sie daher unbedingt diese Regeln beachten:
+Wenn du eine Wallet einrichtest, erstellt die Software in der Regel deinen privaten Schlüssel, der in der Regel durch eine Liste von 12/24 Wörtern (oft als "seed phrase" oder "mnemonic phrase" bezeichnet) repräsentiert wird: Diese Wörter stellen den Zugang zu deinem Geld dar. Wenn dieser Schlüssel jemals an einen Dritten weitergegeben wird, solltest du davon ausgehen, dass die damit verbundenen Gelder gefährdet sind. Bei der Einrichtung deiner Wallet solltest du daher unbedingt diese Regeln beachten:
 
-- Decken Sie alle Kameras ab.
-- Machen Sie kein Foto von der Wortliste.
-- Geben Sie sie nicht über einen Computer oder ein Telefon ein.
-- Speichern Sie ihn nicht als Kontakt und senden Sie ihn nicht per SMS an sich selbst.
-- Lassen Sie Ihre Texte nie unbeaufsichtigt auf Ihrem Schreibtisch liegen.
-- Verstecken Sie Ihre Wortliste nie an einem ungewöhnlichen Ort.
+- Decke alle Kameras ab.
+- Mache kein Foto von der Wortliste.
+- Gebe sie nicht über einen Computer oder ein Telefon ein.
+- Speichere sie nicht als Kontakt und sende sie nicht per SMS an dich selbst.
+- Lasse deinen Wortliste nie unbeaufsichtigt auf deinem Schreibtisch liegen.
+- Verstecke deine Wortliste nie an einem ungewöhnlichen Ort.
 
-Nehmen Sie ein leeres Blatt Papier oder drucken Sie diese [Vorlage] (https://bitcoiner.guide/backup.pdf) aus, und schreiben Sie die Wortliste mit einem Stift in der vorgegebenen Reihenfolge sauber und deutlich ab. Beachten Sie, dass die Tinte mit der Zeit verblasst und Sie Ihre Mittel verlieren können. Daher ist es wichtig, dieses Blatt Papier vor Umwelteinflüssen zu schützen, die es beschädigen könnten, wie Feuchtigkeit oder Feuer.
+Nehme ein leeres Blatt Papier oder drucke diese [Vorlage](https://bitcoiner.guide/backup.pdf) aus, und schreibe die Wortliste mit einem Stift in der vorgegebenen Reihenfolge sauber und deutlich ab. Beachte, dass die Tinte mit der Zeit verblasst und du deine Ersparnisse verlieren kannst. Daher ist es wichtig, dieses Blatt Papier vor Umwelteinflüssen zu schützen, die es beschädigen könnten, wie Feuchtigkeit oder Feuer.
 
-Nachstehend finden Sie ein Beispiel für die Erstellung des Papiers: Die Wörter sind gefälscht, verwenden Sie sie also nicht!
+Nachstehend findest du ein Beispiel für die Erstellung des Papiers: Die Wörter sind gefälscht, verwenden Sie sie also nicht!
 
 ![image](assets/en/35.webp)
 
 ### Unsere Tipps für die richtige Vorgehensweise
 
-Achten Sie außerdem darauf, dass Ihnen bei der Kopie keine Fehler unterlaufen, da es sonst für Ihre Erben schwierig sein könnte, sie zu lesen, und sie das Geld nicht zurückerhalten könnten. Sobald Sie den Text gespeichert haben, ist es ratsam, eine zweite Kopie zu erstellen und diese an einem anderen Ort als die erste Kopie aufzubewahren. So haben Sie eine Sicherheitskopie für den Fall, dass das Original verloren geht oder beschädigt wird.
+Achte außerdem darauf, dass dir bei der Kopie keine Fehler unterläuft, da es sonst für deine Erben schwierig sein könnte, sie zu lesen, und sie nicht auf das Geld zugreifen könnten. Sobald du den Text gespeichert hast, ist es ratsam, eine zweite Kopie zu erstellen und diese an einem anderen Ort als die erste Kopie aufzubewahren. So hast du eine Sicherheitskopie für den Fall, dass das Original verloren geht oder beschädigt wird.
 
 ![image](assets/en/36.webp)
 
 Die Wortlisten sollten an einem sicheren Ort aufbewahrt werden, den Sie sich leicht merken können. Vermeiden Sie es, zu komplizierte Versteckpläne zu erstellen, die dazu führen könnten, dass sie verloren gehen.
 
-\*_Ihre Worte = Ihr Geld_
+**Deine Worte = Dein Geld.**
 
-Sowohl "kalte" als auch "heiße" Geldbörsen verwenden die Wortlistenmethode als Standard für die Sicherung privater Schlüssel. Folglich können Sie Ihre mnemonische Phrase in jede kompatible Walletsoftware oder jedes kompatible Gerät eingeben, um Ihren Zugang wiederherzustellen. Andererseits raten wir dringend davon ab, Wallets zu verwenden, die keine Seed-Phrase bereitstellen, da sie von Ihnen die Angabe eines Kontos, einer E-Mail-Adresse oder, noch schlimmer, einer ID verlangen können.
+Sowohl "Cold-" als auch "Hot-" Wallets verwenden die Wortlistenmethode als Standard für die Sicherung privater Schlüssel. Folglich kannst du deinen Wiederherstellungssatz (Seed-Phrase) in jede kompatible Walletsoftware oder jedes kompatible Gerät eingeben, um deinen Zugang wiederherzustellen. Andererseits raten wir dringend davon ab, Wallets zu verwenden, die keine Wiederherrstellungssatz bereitstellen, da sie von dir die Angabe eines Kontos, einer E-Mail-Adresse oder, noch schlimmer, einer ID verlangen können.
 
 **Achtung: Das Fehlen einer Liste von 12/24 Wörtern sollte Sie darauf aufmerksam machen.**
 
-Wenn Sie dann Schritt für Schritt erfahren möchten, wie Sie Ihr eigenes Wallet einrichten und Ihre ersten Bitcoins bekommen, empfehlen wir Ihnen auch diesen anderen Kurs zu besuchen:
+Wenn du Schritt für Schritt erfahren möchtest, wie du dein eigenes Wallet einrichten und deine ersten Bitcoins bekommst, empfehlen wir dir auch diesen anderen Kurs zu besuchen:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-## Den Test der Zeit bestehen
+## Bitcoins sicher Verwahren
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
-Wie jede Form von Reichtum müssen auch Ihre Bitcoins vor Verlust, Diebstahl und Verfall geschützt werden, insbesondere auf lange Sicht. Der Schutz Ihrer Bitcoins erfordert einige technische Kenntnisse und ein Verständnis der damit verbundenen Risiken, was den Weg für zwei Hauptstrategien eröffnet: die Gravur Ihrer Bitcoins auf einer Stahlplatte und die Erstellung eines Erbschaftsplans.
+Wie jede Form von Reichtum müssen auch deine Bitcoins vor Verlust, Diebstahl und Verfall geschützt werden, insbesondere auf lange Sicht. Der Schutz deiner Bitcoins erfordert einige technische Kenntnisse und ein Verständnis der damit verbundenen Risiken, was den Weg für zwei Hauptstrategien eröffnet: die Gravur Ihrer Bitcoins auf einer Stahlplatte und die Erstellung eines Erbschaftsplans.
 
 ### Gravur in Stahl
 
-Eine Methode, um Ihre Bitcoins langfristig zu sichern, ist die Gravur Ihrer mnemonischen Phrase auf einem widerstandsfähigen Material wie Stahl, indem Sie eine physische Sicherung Ihrer Schlüssel erstellen, die sowohl gegen Wasser- als auch Feuerschäden resistent ist.
+Eine Methode, um deine Bitcoins langfristig zu sichern, ist die Gravur deines mnemonischen Satzes auf einem widerstandsfähigen Material wie Stahl, indem du eine physische Sicherung deiner Schlüssel erstellst, die sowohl gegen Wasser- als auch Feuerschäden resistent ist.
 
-Es gibt verschiedene Lösungen: einige davon sind kostengünstig, wie z. B. der "Blockmit", während andere eine speziellere Ausrüstung erfordern. Sie können dieses Thema im Abschnitt [tutorials](https://planb.network/en/tutorials/wallet) unserer Akademie weiter erforschen.
+Es gibt verschiedene Lösungen: einige davon sind kostengünstig, wie z. B. der "Blockmit", während andere eine speziellere Ausrüstung erfordern. Du kannst dieses Thema im Abschnitt [Tutorials](https://planb.network/en/tutorials/wallet) unserer Akademie weiter erforschen.
 
 ![image](assets/en/37.webp)
 
-### Denken Sie an die nächste Generation!
+### Denke an die nächste Generation!
 
-Neben dieser ersten Maßnahme ist die Erstellung eines Nachlassplans ein wichtiger Schritt, um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden. Zu diesem Plan gehört ein handschriftlicher Brief, in dem Sie die Art Ihrer Vermögenswerte, die Zugriffsmethoden und die Kontaktinformationen der vertrauenswürdigen Personen, die die Verantwortung für sie tragen, darlegen. Es ist auch wichtig, die Vererbung von Bitcoins mit einem Notar zu besprechen, um die Einhaltung der Steuerbestimmungen zu gewährleisten, auch wenn diese Person niemals direkt mit der Verwaltung Ihrer Bitcoins betraut werden sollte.
+Neben dieser ersten Maßnahme ist die Erstellung eines Nachlassplans ein wichtiger Schritt, um sicherzustellen, dass deine Bitcoins nach deinem Tod ordnungsgemäß verwaltet werden. Zu diesem Plan gehört ein handschriftlicher Brief, in dem du die Art deiner Vermögenswerte, die Zugriffsmethoden und die Kontaktinformationen der vertrauenswürdigen Personen, die die Verantwortung für dich tragen, darlegen. Es ist auch wichtig, die Vererbung von Bitcoins mit einem Notar zu besprechen, um die Einhaltung der Steuerbestimmungen zu gewährleisten, auch wenn diese Person niemals direkt mit der Verwaltung Ihrer Bitcoins betraut werden sollte.
 
-Wenn Sie sich eingehender mit dem Thema Erbschaftsplan für Ihre Bitcoins beschäftigen möchten, empfehlen wir Ihnen die Lektüre von Pamela Morgans Buch [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) oder die Teilnahme am Kurs BTC102, in dem wir Sie bei der Erstellung Ihres Plans unterstützen.
+Wenn du dich eingehender mit dem Thema Erbschaftsplan für deine Bitcoins beschäftigen möchtest, empfehlen wir dir die Lektüre von Pamela Morgans Buch [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) oder die Teilnahme am Kurs BTC102, in dem wir dich bei der Erstellung deines Plans unterstützen.
 
 ![image](assets/en/38.webp)
 

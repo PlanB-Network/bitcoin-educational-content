@@ -51,18 +51,17 @@ GrapheneOS saat ini hanya diproduksi untuk _(agak ironis)_ lini ponsel [Google P
 
 Saat memilih ponsel Pixel yang ingin Anda instal GrapheneOS, pastikan Anda memeriksa berapa lama perangkat tersebut akan terus mendapatkan [pembaruan keamanan](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) standar.
 
-Saat penulisan ini, Pixel 6a adalah model termurah yang tersedia dengan dukungan jangka panjang yang baik, dijamin hingga Juli 2027. Jika Anda memilih model ini, OEM unlocking tidak akan berfungsi dengan versi OS bawaan dari pabrik. Anda perlu memperbaruinya ke rilis Juni 2022 atau lebih baru melalui pembaruan over-the-air. Setelah Anda memperbaruinya, Anda juga perlu melakukan reset pabrik pada perangkat untuk memperbaiki OEM unlocking. Semua model lain yang tidak terkunci oleh operator akan siap untuk GrapheneOS langsung dari kotak.
+Pada saat penulisan ini, Pixel 6a adalah model termurah yang tersedia dengan dukungan jangka panjang yang baik, dijamin hingga Juli 2027. Jika Anda memilih model ini, pembukaan kunci OEM tidak akan berfungsi dengan versi OS bawaan dari pabrik. Anda perlu memperbaruinya ke rilis Juni 2022 atau yang lebih baru melalui pembaruan over-the-air. Setelah diperbarui, Anda juga perlu melakukan factory reset perangkat untuk memperbaiki pembukaan kunci OEM. Semua model lain yang tidak terkunci operator akan siap untuk GrapheneOS langsung dari kotak.
 
-Saat memilih perangkat, Anda juga ingin memastikan Anda membeli versi yang tidak terkunci. Beberapa operator seperti Verizon mengirimkan unit mereka yang terkunci bootloader yang sepenuhnya mencegah proses berikut.
+Saat memilih perangkat, Anda juga ingin memastikan membeli versi yang tidak terkunci (unlocked). Operator tertentu seperti Verizon mengirimkan unit mereka yang bootloader-nya terkunci, yang sepenuhnya mencegah proses selanjutnya.
 
 ### Memasang GrapheneOS
 
-Pemasang web GrapheneOS [web installer](https://grapheneos.org/install/web) membuat seluruh proses menjadi sangat mudah, dan bisa diselesaikan oleh siapa saja dalam waktu kurang dari 10 menit.
+GrapheneOS [web installer](https://grapheneos.org/install/web) membuat seluruh proses menjadi sangat mudah, dan bisa diselesaikan oleh siapa saja dalam waktu kurang dari 10 menit.
 Instruksi berikut adalah versi ringkas yang diambil dari tautan di atas.
 
 Yang Anda butuhkan adalah:
-
-- Pixel
+- Ponsel Pixel
 - Kabel USB untuk menghubungkan telepon ke komputer Anda
 - Komputer untuk menjalankan browser web (browser berbasis Chromium: Chrome, Edge, Brave, dll.)
 
@@ -71,81 +70,78 @@ Yang Anda butuhkan adalah:
 3. Sekarang reboot perangkat dan tahan tombol volume bawah saat telepon sedang menyala kembali.
 4. Hubungkan telepon ke laptop Anda dan jika diminta otorisasi, izinkan koneksi.
 5. Di halaman web installer, klik 'Unlock the bootloader'.
-6. Anda kemudian akan melihat opsi telepon berubah. Gunakan tombol volume untuk mengubah seleksi menjadi `unlock` dan gunakan tombol daya untuk menerima.
-7. Selanjutnya klik unduh rilis di halaman web installer.
-8. Setelah sepenuhnya diunduh, lanjutkan ke langkah berikutnya dan klik 'Flash release'. Ini akan memakan waktu satu atau dua menit dan Anda tidak perlu menyentuh telepon sama sekali.
-9. Akhirnya, lanjutkan ke langkah berikutnya dari web installer dan klik **Lock Bootloader**. Anda perlu mengubah seleksi dan konfirmasi dengan tombol daya dengan cara yang sama seperti yang Anda lakukan sebelumnya dalam proses.
-10. Ketika Anda melihat kata `Start`, konfirmasi ini dengan tombol daya dan perangkat akan boot ke sistem operasi baru Anda tanpa Google.
-
+6. Anda kemudian akan melihat opsi ponsel berubah. Gunakan tombol volume untuk mengubah seleksi menjadi `unlock` dan tekan tombol power untuk menerima.
+7. Selanjutnya klik unduh rilisan di halaman web installer.
+8. Setelah sepenuhnya diunduh, lanjutkan ke langkah berikutnya dan klik 'Flash release'. Ini akan memakan waktu satu atau dua menit dan Anda tidak perlu menyentuh ponsel sama sekali.
+9. Akhirnya, lanjutkan ke langkah berikutnya dari web installer dan klik **Lock Bootloader**. Anda perlu mengubah seleksi dan konfirmasi dengan tombol power dengan cara yang sama seperti yang Anda lakukan sebelumnya dalam proses.
+10. Ketika Anda melihat kata `Start`, konfirmasi ini dengan tombol power dan perangkat akan boot ke sistem operasi baru Anda tanpa Google.
 ![image](assets/2.webp)
 
 Layar awal GrapheneOS
+_Setelah boot awal dan pengaturan, adalah saat yang baik untuk menonaktifkan OEM unlocking dari Settings > System > Developer Options._
 
-_Setelah boot awal dan pengaturan, adalah praktik yang baik untuk menonaktifkan OEM unlocking dari Settings > System > Developer Options._
-
-_Anda mungkin juga ingin mengambil langkah tambahan, opsional tapi disarankan untuk memverifikasi instalasi melalui aplikasi Auditor. Anda akan membutuhkan telepon Android terpisah dengan aplikasi terinstal untuk menyelesaikan langkah ini. Instruksi untuk ini dapat ditemukan [di sini](https://attestation.app/tutorial)._
+_Anda mungkin juga ingin mengambil langkah ekstra, opsional tetapi direkomendasikan, yaitu memverifikasi instalasi melalui aplikasi Auditor. Anda akan membutuhkan ponsel Android terpisah yang sudah terinstal aplikasi tersebut untuk menyelesaikan langkah ini. Instruksi lengkap untuk ini dapat ditemukan [di sini](https://attestation.app/tutorial)._
 
 ![video](https://www.youtube.com/embed/L1KZWjZVnAw)
 
-Video yang menjelaskan langkah-langkah sederhana di atas
+Video ini menjelaskan langkah-langkah sederhana di atas
 
-Jika langkah-langkah sederhana tersebut terasa terlalu jauh, Anda bisa mempertimbangkan untuk membeli Pixel dengan perangkat lunak GrapheneOS [terpasang sebelumnya](https://ronindojo.io/en/roninmobile). Hanya perlu diingat bahwa Anda menaruh sedikit kepercayaan pada penyedia.
+Jika langkah-langkah sederhana tersebut terasa terlalu sulit, Anda bisa mempertimbangkan untuk membeli Pixel dengan perangkat lunak GrapheneOS yang sudah [terinstal sebelumnya](https://ronindojo.io/en/roninmobile). Namun, perlu diingat bahwa Anda memberikan sedikit kepercayaan kepada penyedia tersebut.
 
 ### Aplikasi yang Terpasang Sebelumnya
 
-Sekarang setelah Anda siap, Anda mungkin memperhatikan betapa kosongnya GrapheneOS tampak pada pemasangan pertama. Secara default Anda akan memiliki aplikasi-aplikasi ini terpasang:
-
-![image](assets/3.webp)
+Sekarang setelah pengaturan selesai, Anda mungkin menyadari betapa minimalisnya GrapheneOS saat pertama kali diinstal. Secara default, Anda akan memiliki aplikasi-aplikasi berikut yang terpasang:
 
 Aplikasi bawaan
-Dua istilah yang mungkin belum Anda kenal adalah 'Auditor' dan 'Vanadium'.
-- Aplikasi [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) menggunakan fitur keamanan berbasis perangkat keras untuk memvalidasi identitas suatu perangkat bersama dengan keaslian dan integritas sistem operasi. Aplikasi ini akan memverifikasi bahwa perangkat menjalankan sistem operasi bawaan dengan bootloader yang terkunci dan tidak ada manipulasi yang terjadi pada sistem operasi.
-- [Vanadium](https://github.com/GrapheneOS/Vanadium) adalah varian dari peramban web Chromium yang diperkuat untuk privasi dan keamanan.
+![image](assets/3.webp)
+
+Dua nama yang mungkin belum Anda kenal adalah 'Auditor' dan 'Vanadium'.
+- Aplikasi [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) menggunakan fitur keamanan berbasis perangkat keras (hardware-based security features) untuk memvalidasi identitas sebuah perangkat, serta keaslian dan integritas sistem operasinya. Aplikasi ini akan memverifikasi bahwa perangkat menjalankan sistem operasi bawaan (stock operating system) dengan bootloader yang terkunci, dan bahwa tidak ada manipulasi atau perubahan yang terjadi pada sistem operasi.
+- [Vanadium](https://github.com/GrapheneOS/Vanadium) adalah varian dari browser web Chromium yang diperkuat untuk privasi dan keamanan.
 
 ## Kustomisasi
 
-Pengaturan telepon adalah hal yang personal, tetapi berikut adalah beberapa item pertama yang saya ubah ketika menginstal GrapheneOS untuk membuat diri saya merasa lebih nyaman.
+Pengaturan ponsel adalah hal yang personal, tetapi berikut adalah beberapa item pertama yang saya ubah ketika menginstal GrapheneOS untuk membuat diri saya merasa lebih nyaman.
 
 ### Mengatur wallpaper dan memperbarui tema
 
-Menuju ke Pengaturan > Wallpaper dan Gaya. Dari sini saya:
-
+Menuju ke Pengaturan > Wallpaper dan Gaya (Wallpaper and Style). Dari sini saya:
 - Memperbarui latar belakang layar utama dan layar kunci dengan gambar yang diunduh dari web.
 - Memilih warna aksen yang digunakan di seluruh UI.
 - Mengaktifkan tema Gelap.
 
 ### Menampilkan persentase baterai
 
-Menuju ke **Pengaturan** > **Baterai**, kemudian aktifkan **Tampilkan persentase baterai** di bilah status.
+Menuju ke **Settings / Pengaturan** > **Battery / Baterai**, kemudian aktifkan **Show battery percentage / Tampilkan persentase baterai** di bilah status.
 
 ### Mengimpor kontak
 
-**Dari telepon Android lain** - Menuju ke aplikasi Kontak dan cari opsi Ekspor ke VCF.
+**Dari ponsel Android lain** - Menuju ke aplikasi Kontak dan cari opsi Ekspor ke VCF.
 
-**Dari iOS** - Gunakan aplikasi seperti Export Contact dan gunakan opsi ekspor 'vCard' untuk mengekspor file VCF.
-Setelah Anda memiliki file VCF, Anda dapat mentransfernya ke perangkat GrapheneOS Anda dengan opsi penyimpanan eksternal seperti kartu microSD atau USB drive. Jika Anda tidak memiliki salah satu dari itu, Anda bisa memilih untuk berbagi melalui salah satu dari banyak aplikasi yang tercantum di bawah ini.
-
-![image](assets/4.webp)
+**Dari iOS** - Gunakan aplikasi seperti Export Contacts dan pilih opsi ekspor 'vCard' untuk membuat file VCF. Setelah Anda memiliki file VCF tersebut, Anda bisa memindahkannya ke perangkat GrapheneOS Anda menggunakan opsi penyimpanan eksternal seperti kartu microSD atau USB drive. Jika Anda tidak memiliki salah satu dari itu, Anda bisa memilih untuk membagikan melalui salah satu dari banyak aplikasi yang tercantum di bawah ini.
 
 Layar utama yang dipersonalisasi
+![image](assets/4.webp)
+
 
 ## Aplikasi Alternatif
 
-Untuk membuat telepon Anda berguna, Anda akan ingin menginstal beberapa aplikasi! Opsi yang diikuti termasuk karena saya telah menggunakannya secara pribadi atau karena mereka menerima rekomendasi kuat dari komunitas privasi yang lebih luas. Ada banyak alternatif bagus lainnya yang tidak disebutkan, dan [Awesome Privacy](https://awesome-privacy.xyz) menawarkan daftar aplikasi yang menjaga privasi secara luas untuk semua jenis perangkat.
+Agar ponsel Anda bisa berfungsi dengan baik, Anda pasti ingin menginstal beberapa aplikasi! Pilihan yang akan saya sertakan di sini karena saya telah menggunakannya sendiri secara pribadi, atau karena sangat direkomendasikan oleh komunitas privasi yang lebih luas. Ada banyak alternatif bagus lainnya yang tidak disebutkan, dan [Awesome Privacy](https://awesome-privacy.xyz) menawarkan daftar aplikasi penjaga privasi yang sangat lengkap untuk semua jenis perangkat.
 
-Hanya karena sebuah aplikasi adalah Perangkat Lunak Bebas dan Sumber Terbuka (FOSS) tidak berarti bebas dari potensi kebocoran privasi. Gunakan [Exodus](https://reports.exodus-privacy.eu.org/en/) untuk melihat bagaimana aplikasi pilihan Anda berkinerja terhadap audit privasi mereka.
+Hanya karena aplikasi tersebut Perangkat Lunak Bebas dan Open Source (FOSS), bukan berarti aplikasi tersebut bebas dari potensi kebocoran privasi. Gunakan [Exodus](https://reports.exodus-privacy.eu.org/en/) untuk melihat bagaimana kinerja aplikasi pilihan Anda terhadap audit privasi mereka.
 
 ### F-Droid
 
-[F-Droid](https://f-droid.org/) adalah katalog yang dapat diinstal dari aplikasi FOSS untuk Android. Klien memudahkan untuk menjelajah, menginstal, dan memperbarui aplikasi di perangkat Anda. Penting untuk disebutkan bahwa pembaruan melalui F-Droid terkadang bisa lebih lambat dibandingkan dengan toko aplikasi lain. Ini terutama tergantung pada apakah aplikasi ditemukan melalui repositori utama F-Droid atau yang khusus.
+[F-Droid](https://f-droid.org/) adalah katalog aplikasi FOSS (Perangkat Lunak Bebas dan Open Source) yang dapat diinstal untuk Android. Aplikasi ini memudahkan penelusuran, instalasi, dan pembaruan aplikasi di perangkat Anda. Perlu disebutkan bahwa pembaruan melalui F-Droid terkadang bisa lebih lambat dibandingkan dengan toko aplikasi lain. Ini terutama bergantung pada apakah aplikasi ditemukan melalui repositori utama F-Droid atau repositori khusus.
 
-Untuk menginstal F-Droid cukup menuju ke situs web mereka melalui browser di telepon GrapheneOS Anda dan ketuk unduh. Ini akan mengunduh file `.apk`. Kemudian Anda akan diminta apakah Anda ingin menginstal aplikasi tersebut.
+Untuk menginstal F-Droid cukup menuju ke situs web mereka melalui browser di ponsel GrapheneOS Anda dan ketuk unduh. Ini akan mengunduh file `.apk`. Kemudian Anda akan diminta apakah Anda ingin menginstal aplikasi tersebut.
 
-Selain aplikasi yang ditemukan dalam repositori default di F-Droid, banyak proyek Sumber Terbuka juga akan menghosting repositori mereka sendiri yang dapat ditambahkan dalam pengaturan aplikasi F-Droid. Jika ini kasusnya, proyek yang bersangkutan akan memandu Anda melalui langkah-langkah yang sangat sederhana yang diperlukan untuk mencapai ini di situs web mereka.
-
-![image](assets/5.webp)
+Selain aplikasi yang ditemukan di repositori default F-Droid, banyak proyek open source juga yang memiliki host repositori mereka sendiri yang dapat ditambahkan di pengaturan aplikasi F-Droid. Jika ini terjadi, proyek yang bersangkutan akan memandu Anda melalui langkah-langkah yang sangat sederhana yang diperlukan untuk mencapai ini di situs web mereka.
 
 Layar utama F-Droid
+![image](assets/5.webp)
+
+
 
 ### Aurora Store
 [Aurora Store](https://auroraoss.com/) adalah versi FOSS dari Google Play Store. Aurora memiliki tampilan dan nuansa yang sangat mirip dengan Play Store tradisional dan memungkinkan Anda untuk mengunduh dan memperbarui aplikasi apa pun yang biasanya Anda temukan melalui opsi Google.

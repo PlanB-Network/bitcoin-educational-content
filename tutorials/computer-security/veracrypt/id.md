@@ -80,32 +80,31 @@ Untuk mengenkripsi perangkat penyimpanan pilihan Anda, mulailah dengan menghubun
 Di VeraCrypt, klik pada tab "*Volumes*".
 ![VeraCrypt](assets/notext/15.webp)
 
-Kemudian pada menu "*Create New Volume...*".
+Kemudian pada menu "*Create New Volume... / Buat volume baru*".
 ![VeraCrypt](assets/notext/16.webp)
 
-Di tampilan baru yang terbuka, pilih opsi "*Encrypt a non-system partition/drive*" dan klik pada "*Next*".
+Di tampilan baru yang terbuka, pilih opsi "*Encrypt a non-system partition/drive*" dan klik pada "*Next / lanjut*".
 ![VeraCrypt](assets/notext/17.webp)
 
 Anda sebelumnya harus memilih antara "*Standard VeraCrypt volume*" dan "*Hidden VeraCrypt Volume*". Opsi pertama akan membuat volume terenkripsi standar pada perangkat Anda. Opsi "*Hidden VeraCrypt Volume*" memungkinkan pembuatan volume (area terformat) tersembunyi di dalam volume (area terformat) VeraCrypt standar. Metode ini memungkinkan Anda untuk meniadakan volume (area terformat) tersembunyi ini dalam kasus pemaksaan. Sebagai contoh, jika seseorang secara fisik memaksa Anda untuk mendekripsi perangkat Anda, Anda dapat mendekripsi hanya bagian standar untuk memenuhi permintaan penyerang tetapi tidak mengungkapkan bagian yang tersembunyi. Dalam contoh ini, saya akan menggunakan volume (area terformat) standar.
-
 ![VeraCrypt](assets/notext/18.webp)
 
-Pada halaman berikutnya, klik tombol "*Select Device...*".
+Pada halaman berikutnya, klik tombol "*Select Device... / Pilih perangkat*".
 ![VeraCrypt](assets/notext/19.webp)
 
 Sebuah panel baru akan terbuka, di mana Anda bisa memilih partisi perangkat penyimpanan Anda dari daftar disk yang tersedia di komputer. Biasanya, partisi yang ingin Anda enkripsi akan terdaftar di bawah baris berlabel "Removable Disk N". Setelah memilih partisi yang sesuai, klik tombol "OK".
 ![VeraCrypt](assets/notext/20.webp)
 
-Partisi yang dipilih muncul di kotak. Anda sekarang dapat klik tombol "*Next*".
+Partisi yang dipilih muncul di kotak. Anda sekarang dapat klik tombol "*Next / lanjut*".
 ![VeraCrypt](assets/notext/21.webp)
 
 Selanjutnya, Anda perlu memilih antara opsi "*Create encrypted volume and format it*" atau "*Encrypt partition in place*". Seperti yang disebutkan sebelumnya, opsi pertama akan menghapus secara permanen semua data yang ada di USB stick atau hard drive Anda. Pilih opsi ini hanya jika perangkat Anda kosong; jika tidak, Anda akan kehilangan semua data yang terkandung di dalamnya. Jika Anda ingin mempertahankan data yang sudah ada, Anda bisa memindahkannya sementara ke tempat lain, lalu pilih "*Create encrypted volume and format it*" untuk proses yang lebih cepat (yang akan menghapus semuanya), atau pilih "*Encrypt partition in place*". Opsi terakhir ini memungkinkan Anda mengenkripsi volume tanpa menghapus data yang sudah ada, namun prosesnya akan jauh lebih lama. Untuk contoh ini, karena USB stick saya kosong, saya memilih "*Create encrypted volume and format it*", yaitu opsi yang menghapus semuanya.
 ![VeraCrypt](assets/notext/22.webp)
 
-Selanjutnya, Anda akan memiliki opsi untuk memilih algoritma enkripsi dan fungsi hash. Kecuali Anda memiliki kebutuhan spesifik, saya menyarankan Anda untuk mempertahankan opsi default. Klik "*Next*" untuk melanjutkan.
+Selanjutnya, Anda akan memiliki opsi untuk memilih algoritma enkripsi dan fungsi hash. Kecuali Anda memiliki kebutuhan spesifik, saya menyarankan Anda untuk mempertahankan opsi default. Klik "*Next / lanjut*" untuk melanjutkan.
 ![VeraCrypt](assets/notext/23.webp)
 
-Pastikan ukuran yang ditunjukkan untuk volume (area terformat) Anda benar, untuk mengenkripsi seluruh ruang yang tersedia pada USB stick, dan bukan hanya sebagian. Setelah diverifikasi, klik "*Next*".
+Pastikan ukuran yang ditunjukkan untuk volume (area terformat) Anda benar, untuk mengenkripsi seluruh ruang yang tersedia pada USB stick, dan bukan hanya sebagian. Setelah diverifikasi, klik "*Next / lanjut*".
 ![VeraCrypt](assets/notext/24.webp)
 
 Pada tahap ini, Anda perlu menetapkan kata sandi untuk mengenkripsi dan mendekripsi perangkat Anda. Penting untuk memilih kata sandi yang kuat guna mencegah penyerang mendekripsi konten Anda dengan serangan brute force. Kata sandi harus acak, sepanjang mungkin, dan mencakup beberapa jenis karakter. Saya menyarankan Anda untuk memilih kata sandi acak setidaknya 20 karakter yang mencakup huruf kecil, huruf besar, angka, dan simbol.
@@ -116,43 +115,57 @@ Untuk informasi lebih lanjut tentang pengelolaan kata sandi, saya menyarankan An
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Masukkan kata sandi Anda di 2 kolom yang ditentukan, kemudian klik pada "*Next*".
+Masukkan kata sandi Anda di 2 kolom yang ditentukan, kemudian klik pada "*Next / lanjut*".
 ![VeraCrypt](assets/notext/25.webp)
 
 Kemudian, VeraCrypt akan menanyakan apakah Anda berencana menyimpan file yang ukurannya lebih besar dari 4 GiB di volume (area terformat) terenkripsi. Pertanyaan ini bertujuan agar perangkat lunak dapat memilih sistem file yang paling sesuai. Secara umum, sistem FAT digunakan karena kompatibel dengan sebagian besar sistem operasi. Namun, sistem ini memiliki batasan ukuran file maksimum 4 GiB. Jika Anda perlu mengelola file yang lebih besar, Anda bisa memilih sistem exFAT.
 ![VeraCrypt](assets/notext/26.webp)
 
-Selanjutnya, Anda akan mencapai halaman yang memungkinkan Anda untuk menghasilkan kunci acak. Kunci ini penting, karena akan digunakan untuk mengenkripsi dan mendekripsi data Anda. Kunci ini akan disimpan dalam bagian tertentu dari media Anda, yang sendiri diamankan oleh kata sandi yang Anda tetapkan sebelumnya. Untuk menghasilkan kunci enkripsi yang kuat, VeraCrypt membutuhkan entropi. Itulah mengapa perangkat lunak meminta Anda untuk menggerakkan mouse Anda secara acak di atas jendela; gerakan-gerakan ini kemudian digunakan untuk menghasilkan kunci. Terus gerakkan mouse sampai pengukur entropi sepenuhnya terisi. Kemudian, klik pada "*Format*" untuk mulai membuat volume terenkripsi.
+Selanjutnya, Anda ada pada halaman yang memungkinkan Anda menghasilkan kunci acak. Kunci ini penting, karena akan digunakan untuk mengenkripsi dan mendekripsi data Anda. Kunci ini akan disimpan di bagian khusus pada media Anda, yang keamanannya sendiri dilindungi oleh kata sandi yang telah Anda tetapkan sebelumnya. Untuk menghasilkan kunci enkripsi yang kuat, VeraCrypt membutuhkan entropi. Itulah mengapa perangkat lunak ini meminta Anda untuk menggerakkan mouse secara acak di atas jendela; gerakan-gerakan ini kemudian digunakan untuk menghasilkan kunci. Lanjutkan menggerakkan mouse hingga pengukur entropi terisi penuh. Setelah itu, klik "_Format_" untuk mulai membuat volume terenkripsi.
 ![VeraCrypt](assets/notext/27.webp)
 
 Tunggu selama pemformatan dilakukan. Ini bisa memakan waktu lama untuk volume besar.
 ![VeraCrypt](assets/notext/28.webp)
+
 Anda kemudian akan menerima konfirmasi.
 ![VeraCrypt](assets/notext/29.webp)
+
 ## Bagaimana cara menggunakan drive terenkripsi dengan VeraCrypt?
 
 Untuk saat ini, media Anda terenkripsi dan oleh karena itu Anda tidak dapat membukanya. Untuk mendekripsinya, buka VeraCrypt.
 ![VeraCrypt](assets/notext/30.webp)
+
 Pilih huruf drive dari daftar. Sebagai contoh, saya memilih "*L:*".
 ![VeraCrypt](assets/notext/31.webp)
-Klik pada tombol "*Select Device...*".
+
+Klik pada tombol "*Select Device... / Pilih perangkat*".
 ![VeraCrypt](assets/notext/32.webp)
-Dari daftar semua disk di mesin Anda, pilih volume terenkripsi pada media Anda, kemudian klik pada tombol "*OK*".
+
+Dari daftar semua disk di komputer Anda, pilih volume terenkripsi pada media Anda, kemudian klik pada tombol "*OK*".
 ![VeraCrypt](assets/notext/33.webp)
+
 Anda dapat melihat bahwa volume Anda telah terpilih dengan baik.
 ![VeraCrypt](assets/notext/34.webp)
-Klik pada tombol "*Mount*".
+
+Klik pada tombol "*Mount / Memasang*".
 ![VeraCrypt](assets/notext/35.webp)
+
 Masukkan kata sandi yang dipilih selama pembuatan volume, kemudian klik pada "*OK*".
 ![VeraCrypt](assets/notext/36.webp)
+
 Anda dapat melihat bahwa volume Anda sekarang telah didekripsi dan dapat diakses pada huruf drive "*L:*".
 ![VeraCrypt](assets/notext/37.webp)
-Untuk mengaksesnya, buka penjelajah file Anda dan pergi ke drive "*L:*" (atau huruf lain tergantung pada yang Anda pilih dalam langkah sebelumnya). ![VeraCrypt](assets/notext/38.webp)
-Setelah menambahkan file pribadi Anda ke media, untuk mengenkripsi volume lagi, cukup klik pada tombol "*Dismount*".
+
+Untuk mengaksesnya, buka penjelajah file Anda dan pergi ke drive "*L:*" (atau huruf lain tergantung pada yang Anda pilih dalam langkah sebelumnya). 
+![VeraCrypt](assets/notext/38.webp)
+
+Setelah menambahkan file pribadi Anda ke media, untuk mengenkripsi volume lagi, cukup klik pada tombol "*Dismount / lepaskan*".
 ![VeraCrypt](assets/notext/39.webp)
-Volume Anda tidak lagi muncul di bawah huruf "*L:*". Dengan demikian, ia terenkripsi lagi.
+
+Volume Anda tidak lagi muncul di bawah huruf "*L:*". Dengan demikian, Volume terenkripsi lagi.
 ![VeraCrypt](assets/notext/40.webp)
+
 Anda sekarang dapat melepas media penyimpanan Anda.
 
-Selamat, Anda sekarang memiliki media terenkripsi untuk menyimpan data pribadi Anda dengan aman, sehingga memiliki strategi lengkap 3-2-1 selain salinan di komputer Anda dan solusi penyimpanan online Anda.
-Jika Anda ingin mendukung pengembangan VeraCrypt, Anda juga dapat membuat donasi dalam bitcoin [di halaman ini](https://www.veracrypt.fr/en/Donation.html).
+Selamat, Anda sekarang memiliki media terenkripsi untuk menyimpan data pribadi Anda dengan aman, sehingga memiliki strategi lengkap 3-2-1 selain salinan di komputer Anda dan penyimpanan online Anda.
+Jika Anda ingin mendukung pengembangan VeraCrypt, Anda juga dapat meberikan donasi dalam bitcoin [di halaman ini](https://www.veracrypt.fr/en/Donation.html).

@@ -1,0 +1,16 @@
+id: c2efefdb-159b-41b8-b95d-5ed0853b96ef
+chapterId: 4c9c3e52-59bc-499a-af0a-6dd369a9e029
+difficulty: intermediate
+duration: 15
+author: b0dc9504-0d3a-48a3-8347-5ab2f85238bc
+original_language: fr
+
+# Proofreading metadata
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-21
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -975,10 +975,6 @@ Dans le prochain chapitre, nous continuerons à traiter la question du développ
 
 ## La bataille pour Pay to Script Hash
 
-https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war
-https://gnusha.org/pi/bitcoindev/4F01C9D8.10107@justmoon.de/ (résumé par justmoon)
-https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/
-
 Après le départ de Satoshi Nakamoto, le développement du logiciel a été pris en charge par la communauté, qui a dû se coordonner, sous la supervision de Gavin Andresen. Il est en particulier question d'améliorer la programmabilité de Bitcoin, celle-ci ayant été temporairement restreinte par l'instauration de règles de relai sur le réseau.
 
 Au cours de l'hiver 2011–2012, une controverse a eu lieu autour de la mise en œuvre de la signature multipartite dans Bitcoin. Celle-ci concernait, entre autres, le schéma appelé « Pay to Script Hash » (P2SH). Pete Rizzo et Aaron van Wirdum [appeleraient](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) la controverse « la bataille pour P2SH » (original: "the Battle for P2SH"). Cette première discorde majeure a posé la question de la gouvernance : qui décide comment le protocole est modifié ?
@@ -1111,40 +1107,27 @@ Un autre membre du forum, un mineur allemand utilisant le pseudonyme Nachtwind, 
 
 ### Le débat parmi les développeurs
 
-Ces différentes propositions créent
+Ces différentes propositions créent un débat parmi les développeurs.
 
-Amir Taaki, qui [se déclare](https://github.com/bitcoin/bitcoin/issues/729#issuecomment-3325652) « de nature conservatrice sur le plan du protocole, et de nature progressive vis-à-vis des implémentations » (original: "protocol-conservative implementation-liberal by nature"), se montre particulièrement prudent à propos de l'adoption de Pay to Script Hash.
-
-"The solution to this needs to be consensus of the interested and compentent. Not a bigger dispute decided by whomever can convince more people to come to their side. i'd rather people have a say in the matter even if it makes life tougher for developers to explain their decisions. (...) but i feel a bit apprehensive about telling our users this is how it will be, you have no say and then giving them the finger" [genjix, 28/1](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-28.html)
-
-Trad. Bitcoin.fr : « Je préférerais que les gens aient leur mot à dire en la matière même si cela complique le travail des développeurs et que ça les oblige à expliquer leurs décisions », a-t-il déclaré à d'autres développeurs. « J'appréhende de dire aux utilisateurs que ce sera ainsi, qu'ils n'ont pas leur mot à dire, et de le faire un doigt d'honneur. »
-
-29 janvier 2012, **commentaire d'Amir Taaki**. https://bitcointalk.org/index.php?topic=61705.msg719790#msg719790 Amir Taaki, le père du systèmes des BIP, qui ne soutient aucune des deux propositions (CHV vs P2SH), appelle à la discussion et déclare le 29 janvier 2012 :
+Amir Taaki, qui [se déclare](https://github.com/bitcoin/bitcoin/issues/729#issuecomment-3325652) « de nature conservatrice sur le plan du protocole, et de nature progressive vis-à-vis des implémentations » (original: "protocol-conservative implementation-liberal by nature"), se montre particulièrement prudent à propos de l'adoption de Pay to Script Hash. Il est favorable à une prise décision plus large. Le 28 janvier, il [écrit](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-28.html) sur IRC qu'il préfère que « les gens aient leur mot à dire en la matière, même si ça complique le travail des développeurs et que ça les oblige à expliquer leurs décisions » (original: "i'd rather people have a say in the matter even if it makes life tougher for developers to explain their decisions"). Le 29 janvier, il [publie](https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/) un long article sur Bitcoin Media, intitulé « La vérité sur les BIP 16 et 17 » (original: "The Truth behind BIP 16 and 17"), dans lequel il résume la situation et les différentes propositions. Il [fait](https://bitcointalk.org/index.php?topic=61705.msg719790#msg719790) le commentaire suivant :
 
 > « Ma crainte c'est qu'un jour Bitcoin soit corrompu. Développeurs : considérez cet examen supplémentaire comme une opportunité de construire une culture d'ouverture. »
 >
 > original: "My worry is bitcoin someday becomes corrupted. Developers: see this extra scrutiny as an opportunity to build a culture of openness. It is not at all bad."
 
-https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/
+Toutefois, ce n'est pas l'avis de Gavin Andresen qui choisit de trancher le débat en faveur du BIP 16. Il considère qu'il y a eu suffisamment de discussions, et ne veut pas que les développeurs continuent à se disputer sur les détails, à l'instar de « [la couleur de l'abri à vélos](https://en.wikipedia.org/wiki/Law_of_triviality) ». Le 30 janvier, il [déclare](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-30.html#l-1766) sur IRC ne plus vouloir « perdre \[son\] temps avec le BIP 17 ».
 
+Luke-Jr [crée](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-30.html#l-2147) une page sur le wiki de Bitcoin recensant les positions des développeurs, à la suite de la suggestion d'un certain Userjj. Le refus de Gavin contre CHV (BIP 17) est formel, et contraste avec les autres techniciens qui approuvent Pay to Script ou qui considèrent que c'est mieux que rien.
 
 ![Avis des développeurs sur les différentes propositions, le 2 février 2012](assets/en/p2sh-votes-feb-2012.webp)
 
 Avis des développeurs sur les différentes propositions, le 2 février 2012 (source : [Bitcoin.it](https://en.bitcoin.it/w/index.php?title=P2SH_Votes&oldid=23259))
 
-Le débat est tranché par Gavin Andresen
-
 Le 1er février 2012, Mike Caldwell remet une pièce dans la machine en [proposant](https://bitcointalk.org/index.php?topic=62181.msg725161#msg725161) un BIP (improprement assigné au numéro 22) qui reprend son idée de modifier le code opération `OP_CHECKSIG`. Gavin lui [demande](https://bitcointalk.org/index.php?topic=62181.msg725876#msg725876) immédiatement d'arrêter, en précisant que Pay to Script Hash « bénéficie d'un soutien massif » et qu'il « sera la solution » (original: "BIP 16 has overwhelming support, it will be the solution"). Il ajoute :
 
 > « Tu proposes un changement qui n'est pas rétrocompatible, ce qui signifierait une scission « dure » de la blockchain. **Tout le monde** s'accorde à dire que c'est une mauvaise idée. La confusion et le potentiel de piratage si une partie significative des utilisateurs de bitcoins se retrouvait sur une chaîne séparée sont considérables ; tu ne tiens pas compte de tout ça dans ta proposition. »
 >
-> original: "You are proposing a non-backwards-compatible change, which would mean a "hard" blockchain split. Everybody agrees that is a bad idea. The confusion and potential for hacks if a significant fraction of bitcoin users were on a separate chain is massive; you gloss over all of that in your proposal."
-
-
-
-Gavin Andresen tranche en faveur du BIP16 :
-
-[3/2](https://bitcointalk.org/index.php?topic=62181.msg729444#msg729444) : "I used my Phone-a-Friend and Ask the Audience, and I'm locking in BIP 16 as my Final Answer (follow the link if you don't get the stale pop culture reference)."
+> original: "You are proposing a non-backwards-compatible change, which would mean a "hard" blockchain split. **Everybody** agrees that is a bad idea. The confusion and potential for hacks if a significant fraction of bitcoin users were on a separate chain is massive; you gloss over all of that in your proposal."
 
 Quelques jours plus tard, Gavin [expliquera](https://bitcointalk.org/index.php?topic=62181.msg729444#msg729444) (en référence à l'émission *Qui veut gagner des millions ?*) :
 
@@ -1167,49 +1150,27 @@ Un autre problème concerne l'activation de Pay to Script Hash en tant que telle
 
 Proportion des blocs minés par les coopératives de minage durant la journée du 19 décembre 2011 (source : [Blockchain.info](https://web.archive.org/web/20111219124912/http://blockchain.info/pools))
 
-Le 25 janvier, alors que l'évaluation du signalement commence, quelques petites coopératives [se prononcent en faveur](https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) de Pay to Script Hash. Eligius, la coopérative de Luke-Jr, vote contre.
+Le 25 janvier, alors que l'évaluation du signalement commence, quelques petites coopératives [se prononcent en faveur](https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) de Pay to Script Hash. Eligius, la coopérative de Luke-Jr, vote contre. Toutefois, il apparait que l'opérateur de Deepbit, Tycho, refuse de déployer Pay to Script Hash au sein de sa coopérative, comme il [l'explique](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-23.html#l-851) sur IRC. En réaction, Gavin [écrit](https://bitcointalk.org/index.php?topic=61125.msg712822#msg712822) un long message sur le forum, où il explique la situation « en termes simples » (original: "in layman's terms") et où il note en particulier :
 
-Gavin Andresen, [25/1](https://bitcointalk.org/index.php?topic=61125.msg712822#msg712822) : "Right now, it looks like one person/pool (Tycho/deepbit) has enough hashing power to veto any change. I believe Tycho liked, and planned to support, the original OP\_EVAL proposal, but doesn't like/support either BIP 16 or BIP 17 (he does like/support BIP 11, the multisignature-as-standard-transactions part of all this), so unless he changes his mind or there is a mass exodus from his pool short, multisignature bitcoin addresses will have to wait." — Trad Bitcoin.fr « À l'heure actuelle, il semble qu'une seule personne ait suffisamment de pouvoir de hachage pour opposer son veto à tout changement »
+> « À l'heure actuelle, il semble qu'une personne / coopérative (Tycho / deepbit) ait suffisamment de pouvoir de hachage pour opposer son veto à tout changement. Je crois que Tycho appréciait et prévoyait de soutenir la proposition originale d'OP\_EVAL, mais il ne soutient ni le BIP 16 ni le BIP 17 (il soutient en revanche le BIP 11, la partie multisignature comme standard des transactions), donc à moins qu'il ne change d'avis ou qu'il y ait un exode massif de sa coopérative, les adresses bitcoin multisignatures courtes devront attendre. »
+>
+> original: "Right now, it looks like one person/pool (Tycho/deepbit) has enough hashing power to veto any change. I believe Tycho liked, and planned to support, the original OP\_EVAL proposal, but doesn't like/support either BIP 16 or BIP 17 (he does like/support BIP 11, the multisignature-as-standard-transactions part of all this), so unless he changes his mind or there is a mass exodus from his pool short, multisignature bitcoin addresses will have to wait."
 
-Gavin, [23/1](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-23.html), IRC : "Tycho: I think it is wrong of you to use your position as the biggest pool operator to go against the general consensus." — Trad Bitcoin.fr  « Je pense que vous avez tort d'utiliser votre position de plus grand opérateur de pool pour aller à l'encontre du consensus général »
+Tycho répond en [écrivant](https://bitcointalk.org/index.php?topic=61125.msg714209#msg714209) que c'est faux, qu'il ne peut pas bloquer la mise à niveau avec les 32 % de puissance de calcul dont il dispose. Il [justifie](https://bitcointalk.org/index.php?topic=61125.msg714231#msg714231) son attitude en donnant trois raisons : qu'il n'y a pas de « consensus entre les développeurs ou entre les mineurs » (original: "consensus between devs or miners") sur la manière dont implémenter le paiement aux scripts ; que la solution proposée est un peu « bricolée » (original: "hackish") ; qu'il ne souhaite pas « devenir la seule entité à décider de cette question » (original: "to become the single entity to decide on this").
 
-Gavin, [27/1](https://bitcointalk.org/index.php?topic=61429.msg717353#msg717353) "A few of the big mining pools have started supporting BIP 16, and I feel pretty confident that they've shaken out any major bugs. (...) Finally, if you do decide to support BIP 16, upgrade your code, and start mining with it, let me know and I'll be happy to thank you publicly in my signature  (offer good until I run into the 300-characters-in-the-signature forum limit)."
+Gavin continue de soutenir l'adoption de Pay to Script Hash par les coopératives. Néanmoins, le 30 janvier, il est contraint de reconnaitre que l'activation n'aura pas lieu tout de suite. Il [repousse](https://bitcointalk.org/index.php?topic=61922.msg722508#msg722508) alors le signalement à la dernière semaine de février, et l'éventuel basculement au 15 mars.
 
+Ce rôle des mineurs dans l'activation de la mise à niveau fait naitre une conception spéciale : celle que les mineurs dirigent l'évolution du protocole grâce à leur puissance de calcul. Cette conception est [soutenue](https://web.archive.org/web/20120203023138/http://bitcoinmedia.com/cathartic-progress/) par Amir Taaki. Pour lui, la prise de décision est « définie comme une élection » (original: "exactly and correctly characterised as an election") et « chaque unité de puissance de minage *est* un vote » (original: "Each unit of mining power *is* a vote") conformément au principe du « un processeur, une voix » (original: "one-CPU-one-vote") énoncé par Satoshi dans le livre blanc.
 
-Tycho, [26/1](https://bitcointalk.org/index.php?topic=61125.msg714209#msg714209) : "I really didn't expected to see such a lie from Gavin. Other pools have at least 50% of hashing power, just Slush and BTCguild are 27% combined. How can I outhash all the network with my current 32% ? (according to blockchaininfo's pie chart)"
+Cette interprétation est largement contestée par Gregory Maxwell qui s'insurge [sur IRC](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-28.html#l-1038), puis [sur le forum](https://bitcointalk.org/index.php?topic=61922.msg723476#msg723476). Il écrit :
 
-Tycho, [26/1](https://bitcointalk.org/index.php?topic=61125.msg714231#msg714231s)  "I don't want to become the single entity to decide on this. That's exactly the opposite of what Gavin says. With current 2% of /P2SH/ support Deepbit would be the force to push /P2SH/ into existence, not the other way around." — « Je ne veux pas devenir la seule entité à décider de cela ». Bitcoin.fr trad
-
-Amir, [29/1](https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/) : "\[Tycho\] runs the largest pool of bitcoin miners; Deepbit. He will vote against the proposals and not contribute his power. He views the proposal as being too risky without the necessary due diligence. \[Tycho\] believes the changes to be immature before they can move into the production environment. He objects on the ground that among developers there is no clear consensus."
-
-Tycho (cité dans l'article) : "I would like to add something about one of the reasons why I don't want to be the FIRST to adopt P2SH: I don't like doing beta tests in a production environment. In last 2 days I already got 3 messages from Gavin about new bugs found in his implementation: one 'minor bug' and one 'major bug' ('one critical line was dropped in a merge and missed in my testing'). Also some coins were possibly destroyed in the process because a bug caused block fees to be lost."
-
-- Vote des mineurs
-
-Taaki, [29/1](https://web.archive.org/web/20120131212150/http://bitcoinmedia.com/the-truth-behind-bip-16-and-17/) : "Voting is based on mining power."
-
-Maxwell [31/1](https://bitcointalk.org/index.php?topic=61922.msg723476#msg723476), "Re: Deadlines and moving forward (BIP 16/17 support)" : "The Bitcoin system is _NOT_ up for a majority election. Not a majority of hashpower, not a majority of people, not a majority of money."
-
-
-
-[30/1](https://bitcointalk.org/index.php?topic=61922.msg722508#msg722508), date repoussée : "To give more time for testing and deployment, there will be a new go/no-go deadline for evaluating BIP 16/17 support. The new deadline for BIP 16 shall be March 1, 2012. If 55+% support the new feature (as described in the BIP), then March 15 shall be the switchover date."
-
-
-
-
-Version 0.6 Release Candidate 1, [8/2](https://gnusha.org/pi/bitcoindev/CABsx9T3Wst0e1-ya2tjAnXe=RkZZAz06NKjuZbv3zpS5OLmjyw@mail.gmail.com/), [forum](https://bitcointalk.org/index.php?topic=63165.msg738756#msg738756) : "Short multisignature address support is included in this release, as specified in BIP 16. Run with -bip16=0 to turn off support for BIP 16."
-
-« bikeshedding » : consiste à parler de la couleur de l'abri à vélos plutôt que de prendre de réelles décisions : https://fr.wikipedia.org/wiki/Loi_de_futilit%C3%A9_de_Parkinson
-
-[27/2](https://gnusha.org/pi/bitcoindev/CABsx9T3748C0LiZETf=dRN5z0-izN=wh6vhuUSB+crXCXcuyAQ@mail.gmail.com/), date repoussée : "Mining support for BIP 16 is still under 50%, and won't possibly be over 50% by March 1.  Which means we need a new evaluation/switchover date: Re-evaluate support: March 15'th; Target switchover: April 1 (...) Tycho has told me that deepbit will support BIP16 as soon as he's able to merge and test the changes, which will put support at well over 55%."
-
-0.6 release candidate 2, [1/3](https://bitcointalk.org/index.php?topic=66887.msg777279#msg777279)
-
-Signalement des mineurs, [7/3](https://web.archive.org/web/20120307015754/http://blockchain.info/P2SH) : 37,9 % pour (BTC Guild 15,2 %, Slush 12,9 %) ; 3,2 % contre (Eligius seule) ; 58,9 % s'abstient (Deepbit)
+> « Le système Bitcoin n'est _PAS_ soumis à un scrutin majoritaire. Ni à une majorité de pouvoir, ni à une majorité de personnes, ni à une majorité d'argent. Par exemple, que se passerait-il si une majorité qualifiée — voire 100 % — des mineurs actuels décidaient que la subvention devait être de 50 BTC pour toujours ?  **RIEN**. Les mineurs qui modifieraient cette règle dans leur logiciel cesseraient tout simplement d'exister du point de vue du réseau de bitcoin. »
+>
+> original: "The Bitcoin system is _NOT_ up for a majority election. Not a majority of hashpower, not a majority of people, not a majority of money. For example, what happens if a super-majority—even 100%—of the current miners decide that the subsidy should be 50 BTC forever?  **NOTHING**. Miners who change that rule in their software simply stop existing from the perspective of the bitcoin network."
 
 ### Le BIP 30
 
-Début mars, la situation [est](https://web.archive.org/web/20120307015754/http://blockchain.info/P2SH) bloquée : 38 % de la puissance de calcul signale son soutien à Pay to Script Hash, tandis que 59 % s'abstient, dont la fameuse coopérative Deepbit. Le 6, Marek Palatinus [s'en inquiète](https://gnusha.org/pi/bitcoindev/201203061429.16460.luke@dashjr.org/T/) sur la liste de diffusion et demande si Deepbit a changé sa position. Luke-Jr lui répond qu'il pense que « personne n'a discuté de P2SH avec Tycho récemment, puisque la priorité est de déployer le BIP 30 d'abord » (original: "I think nobody has discussed P2SH with Tycho recently, since the priority is to get BIP 30 deployed first."). Et, en effet, cette mise à niveau d'urgence cause une interruption dans l'activation de Pay to Script Hash.
+À la fin du mois de février, la situation semble toujours bloquée. Le signalement des mineurs en faveur de Pay to Script Hash est toujours minoritaire, [avoisinant](https://web.archive.org/web/20120307015754/http://blockchain.info/P2SH) les 40 %. Gavin Andresen est obligé de [repousser](https://gnusha.org/pi/bitcoindev/CABsx9T3748C0LiZETf=dRN5z0-izN=wh6vhuUSB+crXCXcuyAQ@mail.gmail.com/) à nouveau les dates d'évaluation et d'activation, de deux semaines, pour que le basculement se fasse le 1er avril. Cette fois-ci semble être la bonne : d'après Gavin, Tycho a l'intention soutenir la mise à niveau après avoir intégré et testé les modifications. Mais il faut d'abord régler un problème autrement plus urgent : comme l'[écrira](https://gnusha.org/pi/bitcoindev/201203061429.16460.luke@dashjr.org/) Luke-Jr le 6 mars, « la priorité est de déployer le BIP 30 d'abord » (original: "the priority is to get BIP 30 deployed first"). Le déploiement de Pay to Script est donc interrompu par cette mise à niveau d'urgence.
 
 Le problème est celui des « transactions en double » (original: "duplicated transactions") présentes sur la chaine de blocs : des transactions de récompenses possédant le même identifiant et incluses dans des blocs différents. Quatre blocs minés en novembre 2010 contiennent de telles transactions : la transaction d'identifiant `d5d27987d2a3dfc724e359870c6644b40e497bdc0589a033220fe15429d88599` est à la fois incluse dans les blocs [91 812](https://mempool.space/block/00000000000af0aed4792b1acee3d966af36cf5def14935db8de83d6f9306f2f) et [91 842](https://mempool.space/block/00000000000a4d0a398161ffc163c503763b1f4360639393e0e4c8e300e0caec) ; et la transaction d'identifiant `e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468` fait à la fois partie du bloc [91 722](https://mempool.space/block/00000000000271a2dc26e7667f8419f2e15416dc6955e5a6c6cdf3f2574dd08e) et du bloc [91 880](https://mempool.space/block/00000000000743f190a18c5577a3c2d2a1f610ae9601ac046a38084ccb7cd721). Ce problème avait été remarqué, mais avait été réglé par les mineurs eux-mêmes. De manière générale, la résolution de ce problème ne semblait pas être urgente, car on ne pensait pas qu'il puisse perturber fondamentalement le fonctionnement de Bitcoin.
 
@@ -1217,7 +1178,7 @@ Cependant, le 4 février 2012, Russell O'Connor [découvre](https://buildingbitc
 
 ### L'activation de Pay to Script Hash
 
-Après le hiatus lié à l'application du BIP 30 (qui demande de gros efforts aux mineurs), le signalement pour Pay to Script Hash redevient d'actualité. Le 10 mars, Tycho réalise les premiers tests pour mettre en place le signalement au sein de Deepbit. Le 15 mars, il [déclare](https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) qu'il a « essayé de le retarder \[P2SH\] autant que possible » (original: "I tried to delay \[P2SH\] as much as possible"), mais que « ce n'est plus très productif maintenant » (original: "this is not productive already"). De ce fait, il abandonne le combat et déploie le changement au sein de sa coopérative.
+Après le hiatus lié à l'application du BIP 30 (qui demande de gros efforts aux mineurs), le signalement pour Pay to Script Hash redevient d'actualité. Le 10 mars, Tycho réalise les premiers tests pour mettre en place le signalement au sein de Deepbit. Le 15 mars, il [déclare](https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) qu'il a « essayé de retarder \[P2SH\] autant que possible » (original: "I tried to delay \[P2SH\] as much as possible"), mais que « ce n'est plus très productif maintenant » (original: "this is not productive already"). De ce fait, il abandonne le combat et déploie le changement au sein de sa coopérative.
 
 Une semaine plus tard, le 21 mars, le signalement pour P2SH dépasse les 70 %. Gavin Andresen [écrit](https://bitcointalk.org/index.php?topic=71226.msg812897#msg812897) sur le forum :
 
@@ -1225,11 +1186,11 @@ Une semaine plus tard, le 21 mars, le signalement pour P2SH dépasse les 70 %. 
 >
 > original: "Therefore I'd like to announce that support for BIP16 has acquired a majority of mining support needed to prevent a potential permanent fork and will be activated on April 1st as previously planned. \[...\] So if you are a pool operator, solo miner, or p2pool miner you need to upgrade your Bitcoin-Qt/bitcoind before April 1st. Running a version of bitcoind earlier than 0.6 release candidate 3 past this date means running the risk of potentially wasting your hashing power mining invalid blocks since earlier versions will accept invalid spends of BIP16 transactions into their memory pools and will put them into blocks considered invalid by the majority."
 
-Deux versions préliminaires supplémentaires (rc5, rc6) sont publiées dans les jours qui suivent. La version 0.6 officielle [sort](https://bitcointalk.org/index.php?topic=74737.msg827484#msg827484) le 30 mars. Elle rend le schéma de multisignature brute standard (BIP 11), met en place les adresses courtes pour Pay to Script Hash (BIP 13) et applique Pay to Script Hash lui-même (BIP 16). La mise à niveau a lieu le 1er avril à minuit, sans incident majeur. Comme prévu, aucune scission de chaine n'a lieu.
+Deux versions préliminaires supplémentaires sont publiées dans les jours qui suivent, et la version 0.6 officielle [sort](https://bitcointalk.org/index.php?topic=74737.msg827484#msg827484) le 30 mars. Elle ajoute le schéma standard de multisignature brute (BIP 11), met en place les adresses courtes pour Pay to Script Hash (BIP 13) et applique Pay to Script Hash lui-même (BIP 16). La mise à niveau a lieu le 1er avril à minuit, sans incident majeur. Comme prévu, aucune scission de chaine n'a lieu.
 
 ### La première discorde majeure
 
-La bataille pour Pay to Script Hash a constitué la première discorde majeure de l'histoire de Bitcoin. Elle a résulté d'un élargissement du développement, ce qui a fait qu'il y avait assez de techniciens pour se disputer. Gavin Andresen, qui avait une approche beaucoup plus consensuelle que Satoshi, a pourtant fini par trancher en privilégiant le schéma P2SH aux alternatives proposées.
+La bataille pour Pay to Script Hash a constitué la première discorde majeure de l'histoire de Bitcoin. Elle a résulté d'un élargissement du développement, ce qui a fait qu'il y avait assez de techniciens pour se disputer. Gavin Andresen, qui avait une approche beaucoup plus consensuelle que Satoshi, a pourtant fini par trancher en privilégiant le schéma P2SH aux alternatives proposées. C'était la première grande décision de la communauté technique vis-à-vis du protocole.
 
 Cette « bataille » a démontré que le développement de Bitcoin n'était pas un long fleuve tranquille, à cause de son caractère ouvert et libre et des enjeux impliqués. Elle présageait ainsi un conflit autrement plus violent, qu'a été la guerre des blocs entre 2015 et 2017. Et elle ouvrait la question plus ardue de la gouvernance de Bitcoin.
 

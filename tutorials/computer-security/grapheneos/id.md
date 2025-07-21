@@ -22,33 +22,35 @@ Panduan oleh https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.
 ## Mengapa menggunakan GrapheneOS?
 
 Ponsel modern adalah perangkat pelacak dan pengumpul data seharga $500-$1000. Setiap aspek kehidupan kita berjalan melaluinya, dan sayangnya banyak dari data ini dibagikan kepada pihak ketiga dalam satu bentuk atau lainnya.
-GrapheneOS dibangun khusus untuk mengurangi pembagian data ini dan meningkatkan keamanan perangkat Anda dari vektor serangan potensial. Tidak ada yang namanya akun GrapheneOS. Anda tidak memerlukannya untuk mengunduh aplikasi atau berinteraksi dengan OS. Singkatnya, Anda bukan produknya.
 
-GrapheneOS memberikan keamanan tambahan pada pengalaman Android Anda melalui beberapa prinsip inti yang sederhana.
+Ponsel modern adalah perangkat pelacak dan pengumpul data seharga $500-$1000. Setiap aspek kehidupan kita berjalan melaluinya, dan sayangnya sebagian besar data ini dibagikan kepada pihak ketiga dalam satu atau lain bentuk. GrapheneOS dibuat khusus untuk mengurangi pembagian data ini dan meningkatkan keamanan perangkat Anda dari metode-metode serangan berbahaya. Tidak ada yang namanya akun GrapheneOS. Anda tidak memerlukannya untuk mengunduh aplikasi atau berinteraksi dengan OS. Sederhananya, Anda bukanlah produknya.
 
-1. **Pengurangan permukaan serangan** - Menghapus kode yang tidak perlu (atau bloatware).
-2. **Pencegahan paparan kerentanan** - Memungkinkan pengguna cukup granularitas untuk memilih kompromi yang mereka nyaman dengan.
-3. **Pengurungan sandbox** - GrapheneOS memperkuat sandbox Android yang ada, lebih lanjut mengunci kemampuan setiap aplikasi untuk berkomunikasi dengan sisa telepon Anda.
+GrapheneOS memberikan keamanan tambahan pada pengunaan Android Anda melalui beberapa prinsip inti yang sederhana.
 
-Pelajari lebih lanjut tentang detail teknis dari set fitur GrapheneOS [di sini](https://grapheneos.org/features).
+1. **Pengurangan serangan awal** - Menghapus kode yang tidak perlu (atau bloatware).
+2. **Pencegahan paparan kerentanan** - Memungkinkan pengguna memiliki kendali yang cukup untuk memilih kelonggaran yang nyaman bagi mereka.
+3. **Pembatasan sandbox** -GrapheneOS memperkuat sandbox Android yang ada, lebih lanjut mengunci kemampuan setiap aplikasi untuk berkomunikasi dengan bagian lain dari ponsel Anda.
+
+Pelajari lebih lanjut tentang detail teknis semua fitur GrapheneOS [di sini](https://grapheneos.org/features).
 
 ### Mempermudah Transisi
 
-Jika Anda telah terjebak dalam ekosistem Google atau Apple selama bertahun-tahun, pemikiran kehilangan semua kemudahan itu dalam semalam bisa menjadi hal yang menakutkan. Namun, dengan beberapa keputusan pemasangan aplikasi yang dipertimbangkan dengan baik (dibahas nanti), banyak kesulitan yang diharapkan ini dapat dikurangi atau dihilangkan.
+Jika Anda sudah bertahun-tahun tenggelam dalam ekosistem Google atau Apple, gagasan kehilangan semua kenyamanan itu dalam semalam bisa jadi menakutkan. Namun, dengan melakukan instalasi aplikasi dengan cermat (akan dibahas nanti), sebagian besar kesulitan yang diperkirakan ini bisa dikurangi atau dihilangkan.
 
-Sebagus apa pun alternatifnya menjadi, pemikiran tentang perubahan seperti itu masih bisa menimbulkan keberatan. Jika Anda menemukan diri Anda dalam situasi ini, saran terbaik saya adalah menjalankan perangkat GrapheneOS baru Anda bersamaan dengan telepon Anda yang ada untuk sementara waktu. Dari sana Anda dapat perlahan-lahan mengurangi ketergantungan Anda pada 2-3 aplikasi per minggu sampai Anda menemukan diri Anda hanya mencapai perangkat GrapheneOS Anda.
+Sebagus apa pun alternatif yang bermunculan, gagasan tentang perubahan semacam itu masih bisa membuat keengganan. Jika Anda menemukan diri dalam situasi ini, saran terbaik saya adalah menggunakan perangkat GrapheneOS baru Anda secara paralel dengan ponsel lama Anda untuk sementara waktu. Dari sana, Anda bisa perlahan-lahan melepaskan diri dari 2-3 aplikasi per minggu hingga Anda menyadari hanya menggunakan perangkat GrapheneOS Anda.
 
-Jika Anda mengambil pendekatan ini, bersikaplah ketat dengan diri sendiri dan putuskan ketergantungan Anda pada alternatif yang diawasi secepat mungkin. Kita manusia adalah makhluk yang malas dan sering mengambil jalan dengan hambatan terkecil. Ingatlah mengapa Anda melakukan perubahan ini di tempat pertama.
+Jika Anda mengambil pendekatan ini, bersikaplah tegas pada diri sendiri dan hentikan ketergantungan Anda pada alternatif yang memantau data secepat mungkin. Kita sebagai manusia cenderung malas dan sering memilih jalan termudah. Ingatlah mengapa Anda membuat keputusan untuk beralih sejak awal.
 
-**Alih-alih membayar dengan data pribadi Anda, Anda memilih untuk membayar dengan waktu Anda, dan terkadang uang Anda yang diperoleh dengan susah payah (tergantung pada aplikasi alternatif yang Anda instal).**
+**Alih-alih membayar dengan data pribadi Anda, Anda memilih untuk membayar dengan waktu Anda, dan terkadang dengan uang hasil jerih payah Anda (tergantung pada aplikasi alternatif yang Anda instal).**
 
 ## Memulai
 
-GrapheneOS saat ini hanya diproduksi untuk _(agak ironis)_ jajaran telepon [Google Pixel](https://grapheneos.org/faq#supported-devices). Ini tidak tanpa alasan yang baik. Pixel menawarkan keamanan berbasis perangkat keras terbaik untuk melengkapi pekerjaan yang dilakukan untuk menguatkan OS. Ini termasuk hal-hal seperti isolasi komponen spesifik dan boot yang diverifikasi.
+GrapheneOS saat ini hanya diproduksi untuk _(agak ironis)_ lini ponsel [Google Pixel](https://grapheneos.org/faq#supported-devices). Namun, ini bukan tanpa alasan yang kuat. Ponsel Pixel menawarkan keamanan berbasis hardware terbaik untuk melengkapi upaya penguatan OS. Ini mencakup hal-hal seperti isolasi komponen spesifik dan verified boot.
 
 ### Memilih perangkat
 
-Saat memilih Pixel yang ingin Anda instal GrapheneOS, pastikan Anda memeriksa berapa lama perangkat akan terus mendapatkan [pembaruan keamanan](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) secara default.
+Saat memilih ponsel Pixel yang ingin Anda instal GrapheneOS, pastikan Anda memeriksa berapa lama perangkat tersebut akan terus mendapatkan [pembaruan keamanan](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) standar.
+
 Saat penulisan ini, Pixel 6a adalah model termurah yang tersedia dengan dukungan jangka panjang yang baik, dijamin hingga Juli 2027. Jika Anda memilih model ini, OEM unlocking tidak akan berfungsi dengan versi OS bawaan dari pabrik. Anda perlu memperbaruinya ke rilis Juni 2022 atau lebih baru melalui pembaruan over-the-air. Setelah Anda memperbaruinya, Anda juga perlu melakukan reset pabrik pada perangkat untuk memperbaiki OEM unlocking. Semua model lain yang tidak terkunci oleh operator akan siap untuk GrapheneOS langsung dari kotak.
 
 Saat memilih perangkat, Anda juga ingin memastikan Anda membeli versi yang tidak terkunci. Beberapa operator seperti Verizon mengirimkan unit mereka yang terkunci bootloader yang sepenuhnya mencegah proses berikut.

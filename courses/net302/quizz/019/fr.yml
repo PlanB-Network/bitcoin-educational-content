@@ -1,0 +1,9 @@
+question: Quel est le rôle principal du protocole IP dans le modèle TCP/IP ?
+answer: Acheminer les paquets de données d’un hôte à un autre
+wrong_answers:
+  - Gérer le chiffrement des communications réseau
+  - Assurer la connexion persistante entre les applications
+  - Traduire les adresses MAC en adresses IP
+explanation: |
+  Le protocole IP prend en charge l’adressage logique des équipements et garantit l’acheminement des paquets à travers des réseaux interconnectés.
+reviewed: false

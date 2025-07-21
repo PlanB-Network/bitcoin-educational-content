@@ -790,74 +790,74 @@ Schauen wir uns genauer an, wie eine Bitcoin-Node funktioniert.
 
 Nodes sind ein grundlegendes Element der Bitcoin-Netzwerkarchitektur, da sie verschiedene wichtige Funktionen erfüllen:
 
-- Beibehaltung einer Kopie der Bitcoin-Blockchain
+- Speicherung einer Kopie der Bitcoin-Blockchain
 - Validierung von Transaktionen
-- Übermittlung von Informationen an andere Knotenpunkte
+- Übermittlung von Informationen an andere Nodes
 - Durchsetzung der Regeln des Bitcoin-Protokolls.
 
-Daher trägt jedes Gerät, auf dem ein Teil der Bitcoin-Software läuft, genannt Bitcoin-Knoten (oft mit [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), zur Dezentralisierung des Netzwerks bei.
+Daher trägt jedes Gerät, auf dem ein Teil der Bitcoin-Software läuft, genannt Bitcoin-Node (oft mit [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), zur Dezentralisierung des Netzwerks bei.
 
 ![image](assets/en/51.webp)
 
 ### Nodes sind der zentrale Kern von Bitcoin.
 
-Jeder Knoten besitzt eine Kopie der Blockchain, die die Überprüfung von Transaktionen ermöglicht und Betrugsversuche verhindert. Die dezentrale Natur des Netzwerks verleiht Bitcoin außergewöhnliche Widerstandsfähigkeit und Robustheit. Um das Bitcoin-Protokoll zu stoppen, müssten alle Knotenpunkte auf der ganzen Welt abgeschaltet werden. Zu Ihrer Information: Im September 2023 gab es etwa [45.000 Knoten] (https://bitnodes.io/nodes/all/), die über den gesamten Globus verteilt waren.
+Jede Node besitzt eine Kopie der Blockchain, die die Überprüfung von Transaktionen ermöglicht und Betrugsversuche verhindert. Die dezentrale Natur des Netzwerks verleiht Bitcoin außergewöhnliche Widerstandsfähigkeit und Robustheit. Um das Bitcoin-Protokoll zu stoppen, müssten alle Nodes auf der ganzen Welt abgeschaltet werden. Zu deiner Information: Im September 2023 gab es etwa [45.000 Knoten](https://bitnodes.io/nodes/all/), die über den gesamten Globus verteilt waren.
 
-Die Knoten sind in der Lage, die Gültigkeit von Blöcken und Transaktionen zu überprüfen, weil sie den Regeln des Bitcoin-Konsenses folgen. Diese Regeln legen die Bitcoin-Geldpolitik fest, wie z. B. die Höhe der Miner-Belohnung (auf die wir im nächsten Abschnitt näher eingehen werden) und die Menge der im Umlauf befindlichen Bitcoins. In gewisser Weise fungieren die Knoten als das Rechtssystem des Netzwerks, da alle Netzwerkteilnehmer aufgrund der Knoten die gleichen Regeln befolgen und somit die Neutralität des Bitcoin-Protokolls gewährleisten. Die Konsensregeln variieren kaum oder gar nicht, denn um Änderungen vorzunehmen, ist die Zustimmung aller Knotenpunkte erforderlich.
+Die Nodes sind in der Lage, die Gültigkeit von Blöcken und Transaktionen zu überprüfen, weil sie den Regeln des Bitcoin-Konsenses folgen. Diese Regeln legen die Bitcoin-Geldpolitik fest, wie z. B. die Höhe der Miner-Belohnung (auf die wir im nächsten Abschnitt näher eingehen werden) und die Menge der im Umlauf befindlichen Bitcoins. In gewisser Weise fungieren die Nodes als das Rechtssystem des Netzwerks, da alle Netzwerkteilnehmer aufgrund der Nodes die gleichen Regeln befolgen und somit die Neutralität des Bitcoin-Protokolls gewährleisten. Die Konsensregeln variieren kaum oder gar nicht, denn um Änderungen vorzunehmen, ist die Zustimmung aller Nodes erforderlich.
 
 ![image](assets/en/52.webp)
 
-Die Steuerung innerhalb des Protokolls geht über den Rahmen dieses Grundkurses hinaus, aber es ist wichtig zu wissen, dass jeder Nutzer, der einen Bitcoin-Knoten betreibt, entscheiden kann, welchen Regeln er folgt. Ein Benutzer kann sich entscheiden, andere Regeln zu befolgen (d.h. Änderungen am Code vorzunehmen), aber wenn diese Änderungen die aktuellen Konsensregeln ungültig machen, wird dieser Knoten nicht länger Teil des Bitcoin-Netzwerks sein. Folglich sind größere Änderungen selten und erfordern eine erhebliche Koordination zwischen Tausenden von Teilnehmern mit unterschiedlichen Ideologien und Interessen, was sie dazu zwingt, Updates zu liefern, die von allen Bitcoin-Nutzern als "besser" angesehen werden.
+Die Steuerung innerhalb des Protokolls geht über den Rahmen dieses Grundkurses hinaus, aber es ist wichtig zu wissen, dass jeder Nutzer, der eine Bitcoin-Node betreibt, entscheiden kann, welchen Regeln er folgt. Ein Benutzer kann sich entscheiden, andere Regeln zu befolgen (d.h. Änderungen am Code vorzunehmen), aber wenn diese Änderungen die aktuellen Konsensregeln ungültig machen, wird diese Node nicht länger Teil des Bitcoin-Netzwerks sein. Folglich sind größere Änderungen selten und erfordern eine erhebliche Koordination zwischen Tausenden von Teilnehmern mit unterschiedlichen Ideologien und Interessen, was sie dazu zwingt, Updates zu liefern, die von allen Bitcoin-Nutzern als "besser" angesehen werden.
 
-### Wie sieht ein Knotenpunkt aus?
+### Wie sieht eine Node aus?
 
-Es gibt mehrere Optionen, wenn Sie Ihren eigenen Knotenpunkt installieren möchten, mit unterschiedlichen Wartungskosten. Sie können einfach die Bitcoin Core Software auf Ihrem Computer laufen lassen, aber das erfordert eine beträchtliche Menge an Speicherplatz, da die Blockchain ca. 500 GB groß ist. Um diese Einschränkung zu überwinden, können Sie sich dafür entscheiden, nur die letzten N Blöcke im Speicher zu behalten, indem Sie einen "pruned node" erstellen. Bei dieser zweiten Lösung sind die Kosten vernachlässigbar, da der Knoten nur dann aktiv ist, wenn Sie ihn benötigen.
+Es gibt mehrere Optionen mit unterschiedlichen Wartungskosten, wenn du deine eigene Node installieren möchtest. Du kannst einfach die Bitcoin Core Software auf deinem Computer laufen lassen, aber das erfordert eine beträchtliche Menge an Speicherplatz, da die Blockchain ca. 500 GB groß ist. Um diese Einschränkung zu überwinden, kannst du dich dafür entscheiden, nur die letzten N Blöcke im Speicher zu behalten, indem du eine "pruned node" erstellst. Bei dieser zweiten Lösung sind die Kosten vernachlässigbar, da die Node nur dann aktiv ist, wenn du sie benötigst.
 
 ![image](assets/en/53.webp)
 
-Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. eines Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 2 TB). Diese andere Option ist zwar teurer, wenn Sie die Hardware kaufen müssen, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
+Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. ein Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 2 TB). Diese andere Option ist zwar teurer, wenn du die Hardware kaufen musst, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
 
 Aus Sicht der Bandbreite entspricht ein Block von 1 MB alle 10 Minuten ungefähr 5 GB pro Monat.
 
-### Die Knotenpunkte müssen für alle zugänglich bleiben!
+### Die Nodes müssen für alle zugänglich bleiben!
 
-Die erschwinglichen Kosten und die Zugänglichkeit eines Bitcoin-Knotens in Bezug auf Hardwareressourcen, Speicher und Bandbreite sind ein sehr wichtiges Merkmal, da sie die Dezentralisierung des Netzwerks erleichtern.
+Die erschwinglichen Kosten und die Zugänglichkeit einer Bitcoin-Node in Bezug auf Hardwareressourcen, Speicher und Bandbreite sind ein sehr wichtiges Merkmal, da sie die Dezentralisierung des Netzwerks erleichtern.
 
-In der Tat hat jeder einen guten Grund, einen Knotenpunkt zu betreiben! Die Kosten und der Aufwand sind im Vergleich zum erzielten Nutzen minimal. Man muss sich nur auf das Abenteuer einlassen und sich Tausenden von anderen Bitcoinern anschließen, um gemeinsam das Bitcoin-Netzwerk zu bilden.
+In der Tat hat jeder einen guten Grund, eine Node zu betreiben! Die Kosten und der Aufwand sind im Vergleich zum erzielten Nutzen minimal. Man muss sich nur auf das Abenteuer einlassen und sich Tausenden von anderen Bitcoinern anschließen, um gemeinsam das Bitcoin-Netzwerk zu bilden.
 
 ![image](assets/en/54.webp)
 
-Im Gegenteil, wenn die Blöcke 100-mal größer wären, könnten wir sicherlich 100-mal mehr Transaktionen alle 10 Minuten durchführen, aber der Betrieb eines Bitcoin-Knotens würde eine 50-TB-Festplatte, eine Bandbreite von über 500 GB/Monat und ein Stück Hardware erfordern, das in der Lage ist, Hunderttausende von Transaktionen in weniger als 10 Minuten zu validieren. In dieser hypothetischen Situation mit 100-mal größeren Blöcken wäre der Betrieb eines Bitcoin-Knotens für die Durchschnittsperson nicht zugänglich, was sowohl die Dezentralisierung des Protokolls als auch die Unveränderlichkeit der Transaktionen und Konsensregeln gefährden würde.
+Im Gegenteil, wenn die Blöcke 100-mal größer wären, könnten wir sicherlich 100-mal mehr Transaktionen alle 10 Minuten durchführen, aber der Betrieb einer Bitcoin-Node würde eine 50-TB-Festplatte, eine Bandbreite von über 500 GB/Monat und ein Stück Hardware erfordern, das in der Lage ist, Hunderttausende von Transaktionen in weniger als 10 Minuten zu validieren. In dieser hypothetischen Situation mit 100-mal größeren Blöcken wäre der Betrieb einer Bitcoin-Node für die Durchschnittsperson nicht zugänglich, was sowohl die Dezentralisierung des Protokolls als auch die Unveränderlichkeit der Transaktionen und Konsensregeln gefährden würde.
 
-Daher wurden die Beschränkungen des Protokolls so gestaltet, dass möglichst viele Menschen ihre eigenen Bitcoin-Knoten betreiben können. Tatsächlich war das Jahr 2017 von einer heftigen Kontroverse geprägt, die als "Blocksize War" bekannt wurde. In diesem Konflikt standen sich diejenigen, die Bitcoin durch eine Vergrößerung der Blockgröße verändern wollten, um die Transaktionskapazität zu erhöhen (Miner, Tauschplattformen und Institutionen), und diejenigen gegenüber, die die Unabhängigkeit und Macht der Nutzer (Nodes und Nutzer) erhalten wollten. Am Ende hat die zweite Partei gesiegt.
+Daher wurden die Beschränkungen des Protokolls so gestaltet, dass möglichst viele Menschen ihre eigenen Bitcoin-Nodes betreiben können. Tatsächlich war das Jahr 2017 von einer heftigen Kontroverse geprägt, die als "Blocksize War" bekannt wurde. In diesem Konflikt standen sich diejenigen, die Bitcoin durch eine Vergrößerung der Blockgröße verändern wollten, um die Transaktionskapazität zu erhöhen (Miner, Tauschplattformen und Institutionen), und diejenigen gegenüber, die die Unabhängigkeit und Macht der Nutzer (Nodes und Nutzer) erhalten wollten. Am Ende hat die zweite Partei gesiegt.
 
-Nach diesem Sieg aktivierten die Nodes ein Update namens SegWit und ebneten damit den Weg für die Implementierung des Lightning Network, eines sofortigen Bitcoin-Zahlungsnetzwerks, das als zweite Schicht der Bitcoin-Blockchain aufgebaut wurde. Diese Situation zeigt, dass die Nutzer durch ihre Knotenpunkte eine echte Macht innerhalb von Bitcoin haben, die es ihnen ermöglicht, sich in Zeiten von Meinungsverschiedenheiten gegen große Institutionen zu behaupten.
+Nach diesem Sieg aktivierten die Nodes ein Update namens SegWit und ebneten damit den Weg für die Implementierung des Lightning Network, eines sofortigen Bitcoin-Zahlungsnetzwerks, das als zweite Schicht der Bitcoin-Blockchain aufgebaut wurde. Diese Situation zeigt, dass die Nutzer durch ihre Nodes eine echte Macht innerhalb von Bitcoin haben, die es ihnen ermöglicht, sich in Zeiten von Meinungsverschiedenheiten gegen große Institutionen zu behaupten.
 
-## Bergleute
+## Miner
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis zu lösen.**
+**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
 
 ![image](assets/en/55.webp)
 
-### Erläuterung des Arbeitsnachweises
+### Erläuterung des Proof-of-Work
 
 Der "Proof of Work" (POW) ist der Sicherheits-Konsensmechanismus des Bitcoin-Protokolls. Er ist die Grundlage von allem und spielt eine entscheidende Rolle in der Spieltheorie von Bitcoin.
 
-Um zu erklären, wie es funktioniert, stellen Sie sich eine universelle Lotterie vor, an der jeder teilnehmen kann. Das Ziel ist es, eine bestimmte Zahl zu finden, die es dem Gewinner ermöglicht, einen gültigen Block zu signieren und eine Belohnung in Bitcoin zu erhalten. Diese Zahl ist mit der Hash-Funktion SHA-256 sehr einfach zu verifizieren, aber schwer zu finden: Die Teilnehmer (Miner) werden Milliarden von Möglichkeiten ausprobieren, wie z. B. 1, 52, 2648, 26874615, 15344854131318631 und so weiter, bis sie die richtige Zahl finden.
+Um zu erklären, wie er funktioniert, stell dir eine universelle Lotterie vor, an der jeder teilnehmen kann. Das Ziel ist es, eine bestimmte Zahl zu finden, die es dem Gewinner ermöglicht, einen gültigen Block zu signieren und eine Belohnung in Bitcoin zu erhalten. Diese Zahl ist mit der Hash-Funktion SHA-256 sehr einfach zu verifizieren, aber schwer zu finden: Die Teilnehmer (Miner) werden Milliarden von Möglichkeiten ausprobieren, wie z. B. 1, 52, 2648, 26874615, 15344854131318631 und so weiter, bis sie die richtige Zahl finden.
 
 Wenn die gewählte Zahl richtig ist: Jackpot! Ansonsten geht die Suche weiter.
 
 Um die Anzahl der Versuche zu optimieren, werden spezielle Maschinen, so genannte ASICs, eingesetzt, deren einzige Aufgabe es ist, Milliarden von Möglichkeiten pro Sekunde zu berechnen (die Gesamtmenge der Versuche wird "HashRate" genannt). Für den Betrieb dieser Maschinen müssen große Mengen an Strom verbraucht werden. POW wandelt daher Energie in Währung um und verbindet die reale mit der digitalen Welt, um die erste energiebasierte Währung zu schaffen.
 
-Die Maschinen arbeiten ununterbrochen, und nach durchschnittlich 10 Minuten steht ein Gewinner fest: Dieser Teilnehmer hat erfolgreich den richtigen Hash gefunden, der unter der Schwierigkeitsschwelle liegt. Der große und einzige Gewinner signiert dann den neuen Block des Zeitstempelservers und fügt ihn der Blockchain hinzu. Er erhält seine Belohnung und kehrt zurück, um sein Glück beim Mining des nächsten Blocks zu versuchen. Dieser Prozess läuft seit mehr als zehn Jahren, wobei ein Gewinner alle 10 Minuten Bitcoin-Transaktionen bestätigt und gleichzeitig vergangene Transaktionen sichert, wodurch die Bitcoin-Blockchain robuster und sicherer wird.
+Die Maschinen arbeiten ununterbrochen, und nach durchschnittlich 10 Minuten steht ein Gewinner fest: Dieser Teilnehmer hat erfolgreich den richtigen Hash gefunden, der unter der Schwierigkeitsschwelle liegt. Der einzige Gewinner signiert dann den neuen Block des Zeitstempelservers und fügt ihn der Blockchain hinzu. Er erhält seine Belohnung und kehrt zurück, um sein Glück beim Mining des nächsten Blocks zu versuchen. Dieser Prozess läuft seit mehr als zehn Jahren, wobei ein Gewinner alle 10 Minuten Bitcoin-Transaktionen bestätigt und gleichzeitig vergangene Transaktionen sichert, wodurch die Bitcoin-Blockchain robuster und sicherer wird.
 
-Alle 2016 Blöcke (etwa alle zwei Wochen) wird das globale Mining-Spiel durch die **Schwierigkeitsanpassung** anhand der Anzahl der Teilnehmer neu ausbalanciert. Diese Anpassung ist notwendig, weil die Anzahl der Miner und ihre kombinierte Rechenleistung im Laufe der Zeit erheblich schwanken können. Um die angestrebte Blockzeit beizubehalten, passt das Netzwerk den Schwierigkeitsgrad an die Geschwindigkeit an, mit der die letzten Blöcke aus dem Jahr 2016 abgebaut wurden. Wurden die Blöcke zu schnell geschürft, erhöht sich der Schwierigkeitsgrad, wodurch es schwieriger wird, den richtigen Hash zu finden. Wurden sie hingegen zu langsam abgebaut, sinkt der Schwierigkeitsgrad und macht es einfacher.
+Alle 2016 Blöcke (etwa alle zwei Wochen) wird das globale Mining-Spiel durch die **Schwierigkeitsanpassung** anhand der Anzahl der Teilnehmer neu ausbalanciert. Diese Anpassung ist notwendig, weil die Anzahl der Miner und ihre kombinierte Rechenleistung im Laufe der Zeit erheblich schwanken können. Um die angestrebte Blockzeit beizubehalten, passt das Netzwerk den Schwierigkeitsgrad an die Geschwindigkeit an, mit der die letzten 2016 Blöcke gefunden wurden. Wurden die Blöcke zu schnell gefunden, erhöht sich der Schwierigkeitsgrad, wodurch es schwieriger wird, den richtigen Hash zu finden. Wurden sie hingegen zu langsam gefunden, sinkt der Schwierigkeitsgrad und macht es einfacher.
 
 ![image](assets/en/24.webp)
 
-### Der Bergbau entwickelt sich ständig weiter
+### Mining entwickelt sich ständig weiter
 
 Im Laufe der Jahre haben sich Miner mit immer leistungsfähigerer Computerhardware ausgestattet, um so viele Hashes wie möglich pro Sekunde (HashRate) zu erzeugen und dabei möglichst wenig Energie zu verbrauchen. Die ersten Miner wie Satoshi oder Hal Finney schürften nur mit ihrer CPU, dann begannen andere mit ihren Grafikkarten zu schürfen. Heutzutage verwenden Miner ASICs (Application-Specific Integrated Circuit): Maschinen, die ausschließlich für die Anwendung des SHA256-Algorithmus entwickelt wurden.
 
@@ -869,20 +869,20 @@ Die Hashrate des Bitcoin-Netzwerks gibt die Anzahl der Versuche pro Sekunde an, 
 
 ### Was kann in einem Block gefunden werden?
 
-Der Blockkopf enthält mehrere Elemente wie die Zeit, das Schwierigkeitsziel, die Nummer des letzten Blocks, die verwendete Version und die Merkle-Wurzel der vorherigen Transaktionen.
+Der Blockheader enthält mehrere Elemente wie die Zeit, das Schwierigkeitsziel, die Nummer des letzten Blocks, die verwendete Version und die Merkle-Wurzel der vorherigen Transaktionen.
 
-Die **coinbase-Transaktion** ist immer die erste, die in den Block aufgenommen wird: Sie enthält die Belohnung des Miners für die Arbeit des Validierers. Dann folgen die validierten Transaktionen. Die Miner werden sich dafür entscheiden, die Transaktionen einzufügen, die ihnen den größten Gewinn bringen, nämlich kleine Transaktionen mit maximalen Gebühren.
+Die **coinbase-Transaktion** ist immer die erste, die in den Block aufgenommen wird: Sie enthält die Belohnung des Miners für den Arbeitsnachweis (Proof-of-Work). Dann folgen die validierten Transaktionen. Die Miner werden sich dafür entscheiden, die Transaktionen einzufügen, die ihnen den größten Gewinn bringen, nämlich kleine Transaktionen mit maximalen Gebühren.
 
-### Entschädigung der Bergleute
+### Entschädigung der Miner
 
 Zunächst wird ein Miner entschädigt, wenn er einen gültigen Block findet. Genauer gesagt, werden sie auf zwei Arten belohnt:
 
-- durch die im Block enthaltene Subvention (neu geprägte Bitcoins);
+- durch die im Block enthaltene Prämie (neue Bitcoins);
 - durch Transaktionsgebühren aus den im Block enthaltenen Transaktionen.
 
-Die Höhe der Subvention wird durch die Konsensregeln festgelegt und hängt von der Epoche ab: **Blockbelohnung = Blockzuschuss + Transaktionsgebühren**.
+Die Höhe der Prämie wird durch die Konsensregeln festgelegt und hängt von der Epoche ab: **Blockbelohnung = Blockprämie + Transaktionsgebühren**.
 
-Bei den ersten Blöcken betrug die Blocksubvention tatsächlich 50 Bitcoins. Alle 210.000 Blöcke (etwa alle 4 Jahre) wird dieser Betrag halbiert. Heute (im Jahr 2024) befinden wir uns in der 5. Epoche, was bedeutet, dass die Subvention 3,125 Bitcoins beträgt. Kurz gesagt, dies ist der automatische Mechanismus, der neue Bitcoins im System freisetzt. Die Förderung nimmt im Laufe der Zeit ab, bis sie die Grenze der Ausgabe von 21 Millionen Bitcoins erreicht. Es sind bereits über 19,4 Millionen Bitcoins im Umlauf, das sind über 92 %.
+Bei den ersten Blöcken betrug die Blockprämie 50 Bitcoins. Alle 210.000 Blöcke (etwa alle 4 Jahre) wird dieser Betrag halbiert. Heute (im Jahr 2024) befinden wir uns in der 5. Epoche, was bedeutet, dass die Prämie 3,125 Bitcoins beträgt. Kurz gesagt, dies ist der automatische Mechanismus, der neue Bitcoins im System freisetzt. Die Prämie nimmt im Laufe der Zeit ab, bis sie die Grenze der Ausgabe von 21 Millionen Bitcoins erreicht. Es sind bereits über 19,4 Millionen Bitcoins im Umlauf, was über  92 % entspricht.
 
 ![image](assets/en/58.webp)
 
@@ -892,25 +892,25 @@ Die zweite Methode der Entschädigung wird durch den von den Nutzern gewählten 
 
 Um ihr Geschäftsmodell zu stabilisieren, das auf den Belohnungen beruht, die sie für jeden gültigen Block erhalten, bilden Miner oft Gruppen in Form von "Mining-Pools", in denen sie ihre Rechenressourcen zusammenlegen.
 
-### Warum machen Sie sich die Mühe?
+### Warum überhaupt diese ganze Mühe?
 
-Kurz gesagt, die Innovation von Bitcoin besteht darin, eine Lösung für das Problem der doppelten Ausgaben vorzuschlagen, und zwar durch die Verwendung einer Blockchain, die auf einem Proof of Work mit einer variablen Schwierigkeit basiert. In der digitalen Welt unterscheidet sich das Konzept des Eigentums von dem der physischen Welt. In der Tat kann in der digitalen Welt alles kopiert und eingefügt werden, was das Risiko mit sich bringt, dass digitale Wertgegenstände mehrfach verwendet werden. Um dieses technologische Problem zu lösen und sicherzustellen, dass ein Vermögenswert nicht mehr dem Absender gehört, wenn er übertragen wird, wurden vertrauenswürdige Vermittler, wie Banken, geschaffen.
+Kurz gesagt, die Innovation von Bitcoin besteht darin, eine Lösung für das Problem der doppelten Ausgaben (double spending) vorzuschlagen, und zwar durch die Verwendung einer Blockchain, die auf einem Proof-of-Work mit einer variablen Schwierigkeit basiert. In der digitalen Welt unterscheidet sich das Konzept des Eigentums von dem der physischen Welt. In der Tat kann in der digitalen Welt alles kopiert und eingefügt werden, was das Risiko mit sich bringt, dass digitale Wertgegenstände mehrfach verwendet werden. Um dieses technologische Problem zu lösen und sicherzustellen, dass ein Vermögenswert nicht mehr dem Absender gehört, wenn er übertragen wird, wurden vertrauenswürdige Vermittler, wie Banken, geschaffen.
 
 Aber wie kann dies ohne einen vertrauenswürdigen Vermittler geschehen? Dieses Problem wird gut durch das Paradoxon der byzantinischen Generäle beschrieben, ein Problem der Koordinierung von Informationen in einem System, in dem verschiedenen Akteuren nicht vertraut werden kann. Beim Problem der byzantinischen Generäle muss eine Gruppe von Generälen einen Angriff auf eine Stadt koordinieren, aber einige könnten Verräter sein, die versuchen, den Plan zu stören. Die Herausforderung besteht darin, dass die loyalen Generäle einen Konsens darüber erzielen müssen, ob sie angreifen oder sich zurückziehen sollen, obwohl sie möglicherweise irreführende Nachrichten von den Verrätern erhalten.
 
 ![image](assets/en/60.webp)
 
-Bitcoin ist daher eine Art Lösung, um dieses Problem zu lösen oder zumindest zu umgehen. Die "Generäle" von Bitcoin, die Miner, produzieren Blöcke (mit Informationen), und die Bitcoin-Knoten überprüfen die Finanztransaktionen anhand von Konsensregeln, um die Authentizität der Informationen zu gewährleisten. Die Asymmetrie der Energiekosten zwischen Informationsproduktion und -überprüfung gewährleistet die Zuverlässigkeit der Informationen, ohne dass eine vertrauenswürdige dritte Partei erforderlich ist.
+Bitcoin ist daher eine Art Lösung, um dieses Problem zu lösen oder zumindest zu umgehen. Die "Generäle" von Bitcoin, die Miner, produzieren Blöcke (mit Informationen), und die Bitcoin-Nodes überprüfen die Finanztransaktionen anhand von Konsensregeln, um die Authentizität der Informationen zu gewährleisten. Die Asymmetrie der Energiekosten zwischen Informationsproduktion und -überprüfung gewährleistet die Zuverlässigkeit der Informationen, ohne dass eine vertrauenswürdige dritte Partei erforderlich ist.
 
 Die Miner sind die Erbauer der Sicherheit des Bitcoin-Netzwerks. Indem sie Energie aufwenden, um Hashes zu erzeugen, bauen sie eine Mauer, die es für einen böswilligen Agenten extrem kostspielig macht, den Transaktionsverlauf umzuschreiben, und dieser wirtschaftliche Abschreckungsfaktor hält andere davon ab, sich unehrlich zu verhalten.
 
-Selbst im Falle eines 51%-Angriffs, bei dem ein Agent mehr als die Hälfte der Hash-Rate besitzt, bleibt das Netzwerk sicher, da der Angreifer so viel Energie aufwenden muss wie alle Miner zusammen, um die Blockchain zu verändern. Dieser energieintensive Proof-of-Work-Mechanismus ist es, der die Sicherheit des Netzwerks gewährleistet.
+Selbst im Falle eines 51%-Angriffs, bei dem ein Agent mehr als die Hälfte der Hash-Rate besitzt, bleibt das Netzwerk sicher, da der Angreifer so viel Energie aufwenden muss wie alle Miner zusammen, um die Blockchain zu verändern. Dieser energieintensive Proof-of-Work Mechanismus ist es, der die Sicherheit des Netzwerks gewährleistet.
 
 ### Zusammengefasst
 
-Die auf Bitcoin angewandte Spieltheorie schließt unehrliche Miner aus, die ASIC-Maschinen zum Mining verwenden und im Erfolgsfall eine Belohnung erhalten. Außerdem schließen sie sich oft Mining-Pools an, um ihre Rechenleistung zu teilen und kleinere, aber regelmäßigere Belohnungen zu erhalten. Obwohl das Bitcoin-Mining hohe Energiekosten verursacht, ist es für den Betrieb und die Sicherheit des Bitcoin-Netzwerks von entscheidender Bedeutung. Der Proof-of-Work-Mechanismus und die Blockchain-Technologie lösen das Problem der doppelten Ausgaben und gewährleisten die Integrität der Informationen, ohne sich auf eine vertrauenswürdige dritte Partei zu verlassen. Während die Erzeugung von Informationen einen erheblichen Energieaufwand erfordert, ist die Überprüfung dieser Informationen mit vernachlässigbaren Kosten verbunden. Diese Asymmetrie stärkt die Sicherheit des Netzes und macht es wirtschaftlich rentabler, sich an die Konsensregeln zu halten, als zu versuchen, sie zu brechen.
+Die auf Bitcoin angewandte Spieltheorie schließt unehrliche Miner aus, die ASIC-Maschinen zum Mining verwenden und im Erfolgsfall eine Belohnung erhalten. Außerdem schließen sie sich oft Mining-Pools an, um ihre Rechenleistung zu teilen und kleinere, aber regelmäßigere Belohnungen zu erhalten. Obwohl das Bitcoin-Mining hohe Energiekosten verursacht, ist es für den Betrieb und die Sicherheit des Bitcoin-Netzwerks von entscheidender Bedeutung. Der Proof-of-Work Mechanismus und die Blockchain-Technologie lösen das Problem der doppelten Ausgaben und gewährleisten die Integrität der Informationen, ohne sich auf eine vertrauenswürdige dritte Partei zu verlassen. Während die Erzeugung von Informationen einen erheblichen Energieaufwand erfordert, ist die Überprüfung dieser Informationen mit vernachlässigbaren Kosten verbunden. Diese Asymmetrie stärkt die Sicherheit des Netzes und macht es wirtschaftlich rentabler, sich an die Konsensregeln zu halten, als zu versuchen, sie zu brechen.
 
-Wenn Sie tiefer in das Thema Bitcoin-Mining einsteigen wollen, können Sie unseren Kurs MIN 201 besuchen. Sie werden die Funktionsweise und die Rolle des Proof-of-Work sowie die Mechanismen der Mining-Industrie kennenlernen. Wir erklären Ihnen auch, wie Sie einen ASIC in eine Heizung umwandeln können, so dass Sie Ihre ersten Satoshis schürfen können, während Sie Ihr Haus heizen!
+Wenn du tiefer in das Thema Bitcoin-Mining einsteigen willst, kannst du unseren Kurs MIN 201 besuchen. Du wirst die Funktionsweise und die Rolle des Proof-of-Work sowie die Mechanismen der Mining-Industrie kennenlernen. Wir erklären dir auch, wie du einen ASIC in eine Heizung umwandeln kannst, so dass du deine ersten Satoshis schürfen kannst, während du dein Haus heizt!
 
 https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

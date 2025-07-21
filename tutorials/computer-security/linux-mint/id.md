@@ -8,68 +8,73 @@ description: Menyiapkan komputer untuk transaksi bitcoin
 
 ## Apa yang salah jika Anda menggunakan komputer biasa?
 
-Saat melakukan transaksi Bitcoin, idealnya komputer Anda tidak terinfeksi malware. Tentu saja.
+Saat melakukan transaksi Bitcoin, idealnya komputer Anda bebas dari malware. Tentu saja.
 
-Jika Anda menyimpan frasa seed Bitcoin Anda (biasanya 12 atau 24 kata) di luar komputer dengan perangkat penandatanganan (misalnya dompet perangkat keras - tujuan utamanya), maka Anda mungkin berpikir tidak terlalu penting untuk memiliki komputer yang "bersih" - ini tidak benar.
+Meskipun Anda menyimpan seed phrase Bitcoin (umumnya terdiri dari 12 atau 24 kata) terpisah dari komputer dengan menggunakan perangkat penanda tangan (misalnya, dompet perangkat keras—yang merupakan fungsi utamanya), anggapan bahwa memiliki komputer "bersih" menjadi tidak terlalu penting adalah keliru.
 
-Komputer yang terinfeksi malware dapat membaca alamat Bitcoin Anda, memaparkan saldo Anda kepada penyerang - mereka tidak dapat mengambil bitcoin hanya dengan mengetahui alamatnya, tetapi mereka dapat melihat berapa banyak yang Anda miliki, dan menghitung dari situ apakah Anda target yang layak. Mereka juga mungkin dapat mengetahui di mana Anda tinggal, misalnya, dan mengambil kuku atau anak-anak Anda untuk membuat Anda membayar tebusan.
+Komputer yang terinfeksi malware dapat membaca alamat Bitcoin Anda, sehingga mengekspos saldo Anda kepada penyerang. Walaupun mereka tidak dapat mengambil Bitcoin hanya dengan mengetahui alamatnya, mereka dapat melihat jumlah kepemilikan Anda dan dari sana menilai apakah Anda merupakan target yang menguntungkan. Mereka mungkin dapat mengidentifikasi lokasi domisili Anda, dan menggunakan informasi tersebut untuk melakukan pemerasan, misalnya dengan mengancam keselamatan fisik atau anggota keluarga Anda demi mendapatkan tebusan.
 
 ## Apa solusinya?
 
-Saya mendorong kebanyakan pengguna Bitcoin untuk menggunakan komputer khusus bebas malware (dengan akses internet) untuk melakukan transaksi Bitcoin. Saya menyarankan orang menggunakan sistem operasi open-source seperti Linux Mint, tetapi gunakan Windows atau Mac jika Anda harus - itu lebih baik daripada menggunakan komputer biasa yang sering digunakan yang pasti memiliki malware tersembunyi di dalamnya.
+Saya sangat menganjurkan sebagian besar Bitcoiner untuk menggunakan komputer khusus yang bebas malware (dengan akses internet) untuk melakukan transaksi Bitcoin. Saya menyarankan penggunaan sistem operasi open-source seperti Linux Mint, namun jika harus, gunakan Windows atau Mac – lebih baik daripada menggunakan komputer pribadi daripada yang sering dipakai bersama, yang hampir selalu memiliki malware tersembunyi di dalamnya.
 
-Salah satu hambatan yang dihadapi orang adalah menginstal sistem operasi baru pada komputer tersebut. Panduan ini untuk membantu dengan itu.
+Salah satu kendala yang dihadapi banyak orang adalah instalasi sistem operasi baru pada komputer tersebut. Panduan ini bertujuan untuk membantu mengatasi hal tersebut.
 
-Ada banyak varietas Linux dan saya telah mencoba beberapa. Rekomendasi saya untuk pengguna Bitcoin adalah Linux Mint, karena mudah diinstal, sangat cepat (terutama saat bootup dan shutdown), tidak berat (setiap perangkat lunak tambahan adalah risiko), dan jarang crash pada saya atau berperilaku aneh (dibandingkan dengan versi lain seperti Ubuntu dan Debian).
+Terdapat banyak varian Linux, dan saya telah mencoba beberapa di antaranya. Rekomendasi saya bagi para Bitcoiner adalah Linux Mint, karena mudah diinstal, sangat cepat (terutama saat bootup dan shutdown), tidak berat (setiap perangkat lunak tambahan adalah risiko), dan jarang sekali mengalami crash atau berperilaku aneh (dibandingkan dengan versi lain seperti Ubuntu dan Debian).
 
-Beberapa mungkin sangat resisten terhadap sistem operasi baru, lebih memilih Windows atau Mac OS. Saya mengerti, tetapi sistem operasi Windows dan Apple bersifat closed source, jadi kita harus mempercayai apa yang mereka lakukan; Saya tidak berpikir itu kebijakan yang baik, tetapi tidak semua-atau-tidak sama sekali. Saya lebih suka orang menggunakan komputer Windows atau Mac OS yang baru diinstal daripada komputer yang sering digunakan (dengan siapa tahu malware apa yang telah terakumulasi di dalamnya). Satu langkah lebih baik adalah menggunakan komputer Linux yang baru diinstal, yang akan saya demonstrasikan.
+Beberapa orang mungkin sangat enggan beralih ke sistem operasi baru, lebih memilih Windows atau macOS. Saya memahami hal tersebut, namun sistem operasi Windows dan Apple adalah sumber tertutup (closed source), sehingga kita harus memercayai apa yang mereka lakukan; saya tidak menganggap itu keputusan yang baik, tetapi bukan berarti ini adalah pilihan "semua atau tidak sama sekali". Saya jauh lebih memilih orang menggunakan komputer Windows atau macOS yang baru diinstal secara pribadi daripada komputer yang sering digunakan (dengan malware yang mungkin sudah menumpuk di dalamnya). Satu langkah lebih baik adalah menggunakan komputer Linux yang baru diinstal, yang akan saya demonstrasikan.
 
-Jika Anda gugup menggunakan Linux karena ketidakdiketahuiannya, itu alami, tetapi begitu juga menghabiskan waktu untuk belajar. Banyak informasi tersedia secara online. Berikut adalah video pendek yang sangat saya rekomendasikan yang memperkenalkan dasar-dasar baris perintah.
+Jika Anda merasa cemas menggunakan Linux karena ketidakpahaman, itu wajar, tetapi meluangkan waktu untuk belajar juga merupakan hal yang wajar. Banyak sekali informasi yang tersedia secara online. Berikut adalah video singkat yang sangat saya rekomendasikan untuk memperkenalkan dasar-dasar command line.
+
 Pilih komputer
 
 Saya akan mulai dengan apa yang saya pikir adalah opsi terbaik. Kemudian saya akan memberikan pendapat saya tentang alternatifnya.
 
 Opsi ideal:
 
-Rekomendasi saya, jika Anda mampu membelinya, dan jika ukuran tumpukan bitcoin Anda membenarkannya, adalah mendapatkan laptop entry-level baru. Model paling dasar yang dibangun saat ini cukup baik untuk menangani apa yang akan digunakan. Spesifikasi prosesor dan RAM tidak relevan, karena semuanya akan cukup baik.
+Rekomendasi saya, jika Anda mampu, dan jika ukuran simpanan Bitcoin Anda mencukupi, adalah memilih laptop entry-level yang benar-benar baru. Model paling dasar yang dibuat saat ini sudah cukup untuk menangani apa yang akan digunakan. Spesifikasi prosesor dan RAM tidak terlalu berpengaruh, karena semuanya akan cukup baik.
 
 Hindari:
-
 - Kombinasi tablet apa pun, termasuk Surface Pro
 - Chromebook – sering kali kapasitas penyimpanannya terlalu rendah
 - Komputer apa pun dengan drive eMMC; Jika memiliki drive SSD, itu sempurna
 - Mac – mereka mahal, dan perangkat kerasnya tidak cocok dengan sistem operasi Linux menurut pengalaman saya
-- Apa pun yang direnovasi atau bekas (meskipun bukan penghentian kesepakatan mutlak)
+- Apa pun yang diperbaharui (refurbished) atau bekas (2nd hand) (meskipun bukan penghalang mutlak)
 
-Sebagai gantinya, carilah laptop Windows 11 (Saat ini Windows 11 adalah rilis terbaru. Kita akan menghilangkan perangkat lunak itu, jangan khawatir.). Saya mencari di amazon.com untuk "Laptop Windows 11" dan menemukan contoh yang baik ini:
-Harga dari yang di atas ini bagus. Spesifikasinya cukup memadai. Ini memiliki kamera terintegrasi yang bisa kita gunakan untuk transaksi PSBT kode QR (jika tidak, Anda harus membeli kamera USB untuk melakukan itu). Jangan khawatir tentang fakta bahwa ini bukan merek yang terkenal (harganya murah). Jika Anda ingin merek yang lebih baik, itu akan menelan biaya, misalnya:
+Sebaliknya, carilah laptop Windows 11 (Saat ini Windows 11 adalah rilis terbaru. Kita akan menyingkirkan perangkat lunak itu, jangan khawatir.). Saya mencari di amazon.com untuk "Windows 11 Laptop" dan menemukan contoh yang baik ini:
+![image](assets/1.webp)
 
-Beberapa yang lebih murah hanya memiliki ruang penyimpanan 64Gb; Saya belum menguji laptop dengan penyimpanan sekecil itu - mungkin OK untuk memiliki 64Gb, tapi mungkin sedikit berisiko.
+Harga laptop yang di atas ini bagus. Spesifikasinya cukup memadai. Laptop ini memiliki kamera bawaan yang bisa kita gunakan untuk transaksi QR code PSBT (jika tidak ada, Anda perlu membeli kamera USB). Jangan khawatir jika mereknya kurang dikenal, karena harganya memang terjangkau. Jika Anda menginginkan merek yang lebih ternama, tentu biayanya akan lebih tinggi, contohnya:
+![image](assets/2.webp)
+
+Beberapa laptop dengan harga lebih murah hanya memiliki ruang penyimpanan 64GB. Saya belum menguji laptop dengan drive sekecil itu—mungkin OK hanya 64Gb, tapi mungkin cukup berisiko.
 
 ## Opsi Lain – Tails
 
-Tails adalah sistem operasi yang boot dari USB thumb drive, dan sementara mengambil alih perangkat keras dari komputer apapun. Ini hanya menggunakan koneksi Tor, jadi Anda harus nyaman menggunakan Tor. Tidak ada data yang Anda tulis ke memori selama sesi Anda disimpan ke drive (dimulai segar setiap kali) kecuali Anda mengubah pengaturan dan membuat opsi penyimpanan permanen (di USB thumb drive) – yang Anda kunci dengan kata sandi.
+Tails adalah sistem operasi yang dapat di-boot dari flash drive USB dan mengambil alih perangkat keras komputer mana pun secara sementara. Sistem ini hanya menggunakan koneksi Tor, jadi Anda harus merasa nyaman menggunakan Tor. Tidak ada data yang Anda tulis ke memori selama sesi akan disimpan ke drive (selalu mulai dari awal setiap kali) kecuali Anda mengubah pengaturan dan membuat opsi penyimpanan permanen (pada flash drive USB) – yang Anda kunci dengan kata sandi.
 
-Ini bukan pilihan yang buruk dan gratis, tapi sedikit kaku untuk tujuan kita. Memasang perangkat lunak baru di dalamnya bukanlah hal yang mudah. Satu fitur bagus adalah bahwa itu datang dengan Electrum, tapi kekurangannya adalah bahwa Anda tidak menginstalnya sendiri. Pastikan USB drive yang Anda gunakan setidaknya 8Gb.
+Ini bukan pilihan yang buruk dan gratis, tetapi sedikit kaku untuk tujuan kita. Menginstal perangkat lunak baru di dalamnya tidaklah mudah. Salah satu fitur bagusnya adalah sudah dilengkapi dengan Electrum, tetapi kekurangannya adalah Anda tidak menginstalnya sendiri. Pastikan flash drive USB yang Anda gunakan berkapasitas minimal 8 GB.
 
-Fleksibilitas Anda berkurang jika Anda menggunakan Tails. Anda mungkin tidak akan bisa mengikuti berbagai panduan untuk mengatur apa yang Anda butuhkan dan membuatnya bekerja dengan benar. Misalnya, jika Anda mengikuti panduan saya untuk menginstal Bitcoin Core, ada modifikasi yang diperlukan untuk membuatnya bekerja. Saya tidak berpikir saya akan membuat panduan khusus Tails, jadi Anda perlu membangun keterampilan Anda dan melakukannya sendiri.
+Fleksibilitas Anda berkurang jika Anda menggunakan Tails. Anda mungkin tidak dapat mengikuti berbagai panduan untuk menyiapkan apa yang Anda butuhkan dan membuatnya berfungsi dengan benar. Misalnya, jika Anda mengikuti panduan saya untuk menginstal Bitcoin Core, ada modifikasi yang diperlukan agar berfungsi. Saya rasa saya tidak akan membuat panduan khusus Tails, jadi Anda perlu membangun keterampilan dan melakukannya sendiri.
 
 Saya juga tidak yakin seberapa baik dompet perangkat keras akan berinteraksi dengan OS ini.
 
-Setelah mengatakan semua ini, komputer Tails untuk transaksi Bitcoin adalah opsi tambahan yang bagus, dan pasti akan membantu keterampilan privasi keseluruhan Anda untuk belajar menggunakan Tails.
+Setelah mengatakan semua ini, komputer Tails untuk transaksi Bitcoin adalah opsi tambahan yang bagus, dan pasti akan membantu keterampilan privasi Anda secara keseluruhan untuk belajar menggunakan Tails.
 
 ## Opsi Lain – Boot OS Langsung
 
-Ini sangat mirip dengan Tails, kecuali sistem operasinya tidak didedikasikan untuk privasi. Cara dasar untuk menggunakan ini adalah dengan mem-flash USB drive dengan sistem operasi Linux pilihan Anda dan membuat komputer boot dari itu alih-alih drive internal. Cara melakukan ini dijelaskan nanti.
+Ini sangat mirip dengan Tails, hanya saja sistem operasinya tidak didedikasikan untuk privasi. Cara dasar untuk menggunakannya adalah dengan mengisi drive USB dengan sistem operasi Linux pilihan Anda, dan membuat komputer boot dari drive tersebut, bukan dari drive internal. Cara melakukannya akan dijelaskan nanti.
 
-Keuntungannya adalah Anda kurang dibatasi dan segala sesuatu akan bekerja tanpa tweak lanjutan.
+Keuntungannya adalah Anda kurang dibatasi dan segalanya akan berfungsi tanpa penyesuaian (tweak) tingkat lanjut.
 
-Saya tidak yakin seberapa baik sistem seperti itu mengisolasi malware di komputer yang ada dari USB boot drive yang Anda gunakan yang menyimpan sistem operasi baru. Mungkin melakukan pekerjaan dengan baik dan mungkin tidak sebaik Tails. Karena saya tidak tahu, preferensi saya adalah laptop khusus.
-Opsi Lain – Laptop atau komputer desktop bekas Anda
+Saya tidak yakin seberapa baik sistem semacam ini mengisolasi malware pada komputer yang ada dari drive boot USB yang Anda gunakan (yang berisi sistem operasi baru). Kemungkinan besar ini bekerja dengan baik, namun mungkin tidak sebaik Tails. Karena saya tidak yakin, preferensi saya adalah laptop khusus yang baru.
+
+## Opsi Lain – Laptop atau komputer desktop bekas Anda
 
 Menggunakan komputer bekas bukanlah ide yang ideal, terutama karena saya tidak mengetahui kerja dari malware yang canggih, atau jika menghapus drive cukup untuk menyingkirkan itu. Mungkin iya tapi saya tidak ingin meremehkan seberapa cerdik hacker jahat bisa. Anda bisa memutuskan, saya tidak ingin berkomitmen.
+Menggunakan komputer bekas tidaklah ideal, terutama karena saya tidak memahami cara kerja malware canggih, juga apakah penghapusan (wiping) drive sudah cukup untuk menyingkirkannya. Kemungkinan besar cukup, tetapi saya tidak ingin meremehkan betapa cerdiknya para peretas jahat. Anda bisa memutuskan sendiri, saya tidak ingin melakukannya.
 
-Jika Anda memilih untuk menggunakan desktop lama alih-alih laptop lama, ini akan baik-baik saja, kecuali itu akan secara permanen mengambil ruang untuk transaksi bitcoin Anda yang mungkin jarang; Anda seharusnya tidak menggunakannya untuk hal lain. Sedangkan dengan laptop, Anda bisa saja menyimpannya, dan bahkan menyembunyikannya untuk keamanan ekstra.
+Jika Anda memilih untuk menggunakan komputer desktop lama daripada laptop lama, ini akan baik-baik saja, kecuali bahwa hal ini akan secara permanen memakan ruang untuk transaksi Bitcoin Anda yang mungkin jarang terjadi; Anda tidak boleh menggunakannya untuk hal lain. Sedangkan dengan laptop, Anda bisa menyimpannya, bahkan menyembunyikannya untuk keamanan ekstra.
 
 ## Menginstal Linux Mint di komputer apa pun
 Berikut adalah instruksi untuk menghapus sistem operasi apa pun dari laptop baru Anda dan menginstal Linux Mint, tetapi Anda dapat menyesuaikannya untuk menginstal hampir semua versi Linux di hampir semua komputer.

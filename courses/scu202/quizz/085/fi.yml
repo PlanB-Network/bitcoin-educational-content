@@ -1,0 +1,9 @@
+question: Mitä avoimen lähdekoodin sovellusta suositellaan elintarviketuotteiden skannaamiseen yhteistietokannan avulla?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts on ilmainen, yhteisöpohjainen hanke, joka on avoin tietojensa suhteen, kun taas Yuka perustuu vaikeaselkoiseen, ei-avoimen lähdekoodin malliin.
+reviewed: false

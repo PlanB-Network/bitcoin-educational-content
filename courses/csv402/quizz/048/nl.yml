@@ -1,0 +1,9 @@
+question: Wat is het fundamentele concept achter het RGB protocol?
+answer: Validatie door de klant via On-Chain cryptografische verplichtingen
+wrong_answers:
+  - On-Chain validatie door Turing-complete slimme contracten
+  - Exclusief gebruik van onversleutelde Bitcoin transacties
+  - Contract uitvoering op een Blockchain speciaal voor slimme contracten
+explanation: |
+  RGB is gebaseerd op een Client-side Validation model waarbij vastleggingen (via Taproot of OP_RETURN) On-Chain worden ingevoerd, terwijl de meeste logica en gegevens off-chain blijven.
+reviewed: false

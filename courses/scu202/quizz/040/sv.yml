@@ -1,0 +1,9 @@
+question: Vilket gratisverktyg, tillgängligt på alla system, kan användas för att verifiera signaturen för en fil och dess korrespondens med en publik nyckel?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) är ett referensverktyg för verifiering av digitala signaturer och hantering av offentliga nycklar.
+reviewed: false

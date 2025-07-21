@@ -1,0 +1,14 @@
+question: Waarom duikt het probleem van coördinatie bij arbeidsverdeling weer op in grotere gemeenschappen?
+answer: Omdat mensen beperkt zijn door hun cognitieve capaciteiten, is het sociaal aanvaard meten van de waarde van bijdragen in Exchange een niet-triviaal probleem.
+wrong_answers:
+  - Omdat mensen niet geïnteresseerd zijn in het werken met grotere groepen en de voorkeur geven aan kleinere gemeenschappen.
+  - Omdat grotere gemeenschappen meer middelen hebben, is er minder behoefte aan arbeidsverdeling.
+  - Omdat grotere gemeenschappen meer conflicten hebben, is coördinatie moeilijk.
+explanation: |
+  In grotere gemeenschappen is het onmogelijk voor een persoon om
+  stabiele sociale relaties te onderhouden en te onthouden met meer
+  dan 150 individuen, waardoor een reputatiesysteem
+  onvoldoende om het gevangenendilemma op schaal te overwinnen.
+  Ook is het evalueren van de waarde van bijdragen in Exchange
+  een complex probleem in grotere gemeenschappen.
+reviewed: true

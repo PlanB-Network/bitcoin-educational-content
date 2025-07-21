@@ -1,0 +1,9 @@
+question: Je, ni kivinjari kipi kinachohakikisha kutokujulikana kwa kuelekeza trafiki kwingine kupitia mtandao uliogatuliwa lakini wenye muda wa juu wa kusubiri?
+answer: Kivinjari cha Tor
+wrong_answers:
+  - Kivinjari cha Mullvad
+  - Lynx
+  - LibreWolf
+explanation: |
+  Kivinjari cha Tor kinategemea mtandao wa Tor kuficha utambulisho wa kuvinjari, kwa gharama ya kushuka kwa kiasi kikubwa kwa utendakazi.
+reviewed: false

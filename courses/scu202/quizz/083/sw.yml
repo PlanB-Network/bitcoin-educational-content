@@ -1,0 +1,9 @@
+question: Ni huduma gani ya kutuma ujumbe hukuruhusu kujiandikisha bila kujulikana, bila nambari ya simu au kuingia kwa kudumu?
+answer: SimpleX Chat
+wrong_answers:
+  - Mawimbi
+  - Telegramu
+  - WhatsApp
+explanation: |
+  SimpleX Chat huondoa dhana ya kitambulisho cha kipekee: anwani huongezwa kupitia viungo vya muda mfupi au misimbo ya QR, na hakuna data ya kibinafsi inayohitajika.
+reviewed: false

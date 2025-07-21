@@ -1,0 +1,9 @@
+question: What component of a desktop environment is used to visually navigate files and folders?
+answer: File manager
+wrong_answers:
+  - Session manager
+  - Composer X11
+  - Package manager
+explanation: |
+  The file manager (like Nautilus, Dolphin, Thunar) lets the user manage files and folders via a graphical Interface.
+reviewed: false

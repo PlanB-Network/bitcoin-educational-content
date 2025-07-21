@@ -1,0 +1,9 @@
+question: 有什麼免費工具可用於所有系統，以驗證檔案的簽章及其與公開金鑰的對應關係？
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) 是數位簽章驗證及公開金鑰管理的參考工具。
+reviewed: false

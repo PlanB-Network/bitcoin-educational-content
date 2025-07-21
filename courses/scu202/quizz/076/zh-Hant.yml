@@ -1,0 +1,9 @@
+question: 為什麼要在 Android 上使用 NetGuard 或 RethinkDNS 等防火牆應用程式？
+answer: 控制個別網際網路連線
+wrong_answers:
+  - 自動儲存所有資料
+  - 解除封鎖所有 Wi-Fi 網路
+  - 解除安裝任何病毒
+explanation: |
+  這些應用程式可作為本機防火牆，允許依據個別應用程式封鎖或授權外向流量。
+reviewed: false

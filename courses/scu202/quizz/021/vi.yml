@@ -1,0 +1,9 @@
+question: Thành phần nào của môi trường máy tính để bàn được sử dụng để điều hướng trực quan các tệp và thư mục?
+answer: Trình quản lý tập tin
+wrong_answers:
+  - Quản lý phiên
+  - Nhà soạn nhạc X11
+  - Trình quản lý gói
+explanation: |
+  Trình quản lý tệp (như Nautilus, Dolphin, Thunar) cho phép người dùng quản lý tệp và thư mục thông qua Interface đồ họa.
+reviewed: false

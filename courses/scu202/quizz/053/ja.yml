@@ -1,0 +1,9 @@
+question: 写真がアップロードされるとメタデータが自動的に削除されるプラットフォームは？
+answer: 信号
+wrong_answers:
+  - Gmail
+  - 展望
+  - ブログ
+explanation: |
+  Signalは（Sessionや他のセキュアなメッセージングサービスと同様に）ユーザーのプライバシーを保護するために、共有画像のメタデータを消去する。
+reviewed: false

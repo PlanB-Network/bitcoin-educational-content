@@ -1,0 +1,9 @@
+question: Que serviço de mensagens permite registar-se de forma completamente anónima, sem número de telefone ou login permanente?
+answer: SimpleX Chat
+wrong_answers:
+  - Sinal
+  - Telegrama
+  - WhatsApp
+explanation: |
+  O SimpleX Chat elimina a noção de um identificador único: os contactos são adicionados através de ligações efémeras ou códigos QR e não são necessários dados pessoais.
+reviewed: false

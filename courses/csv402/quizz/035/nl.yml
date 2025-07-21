@@ -1,0 +1,9 @@
+question: Hoe installeer ik de RGB tool via Cargo?
+answer: cargo installeer RGB-contracten --alle-functies
+wrong_answers:
+  - cargo installeer RGB --features all
+  - cargo-installatie RGB-Bitcoin --all
+  - cargo bouw RGB-bliksem --release
+explanation: |
+  De installatie wordt uitgevoerd met het commando "cargo install RGB-contracts --all-features", waarbij het krat "RGB-contracts" heet en het RGB gereedschap installeert.
+reviewed: false

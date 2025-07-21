@@ -1,0 +1,9 @@
+question: Wat is de primaire rol van een private sleutel in het Bitcoin systeem?
+answer: Transacties ondertekenen om aan een script te voldoen
+wrong_answers:
+  - Dienen als identificatie om bitcoins te ontvangen
+  - Geld veilig opslaan op de Blockchain
+  - Vergrendelingsscripts maken om bitcoins te beschermen
+explanation: |
+  De privésleutel wordt gebruikt om transacties te ondertekenen om aan een script te voldoen en de bitcoins te ontgrendelen.
+reviewed: false

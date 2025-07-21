@@ -1,0 +1,9 @@
+question: Hoe werkt een 2/2-multisignatuur Address in Bitcoin?
+answer: Er zijn twee handtekeningen nodig om het geld vrij te geven en uit te geven.
+wrong_answers:
+  - Je kunt het geld uitgeven met slechts één van de twee toetsen.
+  - Het autoriseert transacties alleen in specifieke gevallen van vergrendeling.
+  - Het wordt alleen gebruikt om geld naar openbare adressen te sturen.
+explanation: |
+  Een 2/2 Address met meerdere handtekeningen vereist de handtekeningen van beide betrokken partijen voor het uitgeven van het geld, wat gebruikt wordt voor de beveiliging van Lightning-kanalen.
+reviewed: false

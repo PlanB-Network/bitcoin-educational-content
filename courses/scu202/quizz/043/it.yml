@@ -1,0 +1,9 @@
+question: Qual è il vantaggio di verificare una firma PGP su un file Hash o su un manifesto software?
+answer: Garantisce che il file provenga da una fonte ufficiale
+wrong_answers:
+  - Garantisce un'installazione del software priva di bug
+  - Garantisce l'aggiornamento automatico dei programmi
+  - Garantisce che il file sia completo e non sia stato modificato
+explanation: |
+  La firma PGP, convalidata utilizzando la chiave pubblica dello sviluppatore, garantisce che il file autenticato proviene dalla fonte originale.
+reviewed: false

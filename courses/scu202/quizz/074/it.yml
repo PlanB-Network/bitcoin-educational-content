@@ -1,0 +1,9 @@
+question: Quale evento ha costretto Google a riorientare Android verso un Interface sensibile al tocco?
+answer: L'uscita del primo iPhone
+wrong_answers:
+  - L'acquisizione di Nokia da parte di Microsoft
+  - La creazione di CyanogenMod
+  - Il lancio del Play Store
+explanation: |
+  L'arrivo dell'iPhone nel 2007 ha costretto Google a ripensare Android per renderlo compatibile con il touchscreen, abbandonando l'idea di un dispositivo con tastiera fisica.
+reviewed: false

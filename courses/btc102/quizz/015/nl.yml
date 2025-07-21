@@ -1,0 +1,9 @@
+question: Welk systeem maakt snelle en goedkope transacties op Bitcoin mogelijk?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Ripple netwerk
+  - RGB
+explanation: |
+  De Lightning Network is een tweede Layer oplossing die snelle vereffening mogelijk maakt en de kosten van BTC-transacties verlaagt.
+reviewed: false

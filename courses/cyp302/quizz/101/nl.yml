@@ -1,0 +1,9 @@
+question: Wat is een HMAC?
+answer: Een berichtauthenticatiecode gebaseerd op een Hash-functie
+wrong_answers:
+  - Een asymmetrisch versleutelingsalgoritme gebaseerd op een Hash functie
+  - Een asymmetrisch versleutelingsalgoritme gebaseerd op Diffie-Hellman
+  - Een berichtauthenticatiecode gebaseerd op Diffie-Hellman
+explanation: |
+  Een HMAC is een berichtauthenticatiecode die een Hash functie gebruikt, zoals SHA-256, om een tag te maken die de integriteit en authenticiteit van een bericht verifieert.
+reviewed: false

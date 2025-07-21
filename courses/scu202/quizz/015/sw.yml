@@ -1,0 +1,9 @@
+question: Je, ni faida gani kuu ya usambazaji wa toleo linaloendelea?
+answer: Tumia programu mpya zaidi
+wrong_answers:
+  - Utangamano mkubwa na Windows
+  - Mazingira bila michoro ya Interface
+  - Msaada wa lazima wa mauzo
+explanation: |
+  Matoleo ya Rolling huunganisha masasisho ya programu yanayoendelea, kuhakikisha ufikiaji wa kudumu kwa matoleo mapya zaidi.
+reviewed: false

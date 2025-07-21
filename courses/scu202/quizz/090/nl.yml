@@ -1,0 +1,9 @@
+question: Welke netwerkpoort wordt standaard gebruikt voor P2P verbindingen op het Bitcoin hoofdnetwerk?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  Poort 8333 is de standaardpoort die Bitcoin knooppunten gebruiken voor peer-to-peer verbindingen met Mainnet.
+reviewed: false

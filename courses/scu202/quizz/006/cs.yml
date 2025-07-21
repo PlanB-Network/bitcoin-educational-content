@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce jádra v operačním systému?
+answer: Správa přístupu k zařízení
+wrong_answers:
+  - Zobrazit reklamy
+  - Správa uživatelských účtů
+  - Automatická instalace aplikací
+explanation: |
+  Jádro organizuje přístup k hardwaru, souběžné spouštění procesů a zabezpečení a zároveň skrývá složitost obvodů před uživatelem.
+reviewed: false

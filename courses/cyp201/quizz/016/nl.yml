@@ -1,0 +1,9 @@
+question: Welk handtekeningalgoritme werd geïntroduceerd in Bitcoin met Taproot?
+answer: Schnorr-handtekeningschema
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Het Schnorr handtekeningenschema werd in november 2021 geïntroduceerd met de Taproot update.
+reviewed: false

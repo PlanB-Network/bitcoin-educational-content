@@ -1,0 +1,9 @@
+question: Wat is het voordeel van een zelfgehoste wachtwoordmanager zoals Bitwarden of KeePass?
+answer: Je kunt bepalen waar je wachtwoorden worden opgeslagen, wat meer veiligheid en controle biedt.
+wrong_answers:
+  - Ze zijn eenvoudiger en altijd veiliger te gebruiken dan services van derden.
+  - Ze bieden meestal meer functies dan services van derden, hoewel ze duurder zijn.
+  - Ze zijn goedkoper en sneller dan services van derden.
+explanation: |
+  Met zelf gehoste wachtwoordmanagers zoals Bitwarden of KeePass kun je zelf bepalen waar je wachtwoorden worden opgeslagen, wat meer veiligheid en controle kan bieden. Ze vereisen echter meer technische kennis om te gebruiken.
+reviewed: true

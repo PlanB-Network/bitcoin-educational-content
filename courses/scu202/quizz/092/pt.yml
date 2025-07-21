@@ -1,0 +1,9 @@
+question: Que dispositivo actua como limite entre a Internet e a sua rede doméstica privada?
+answer: Modem-router
+wrong_answers:
+  - Comutador Ethernet
+  - Servidor NAS
+  - Concentrador USB
+explanation: |
+  O router do modem liga a rede do ISP à sua rede local e gere a atribuição de endereços IP locais.
+reviewed: false

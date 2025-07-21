@@ -1,0 +1,9 @@
+question: 操作系统的主要作用是什么？
+answer: 硬件、用户和应用程序之间的中介
+wrong_answers:
+  - 集成杀毒软件
+  - 图形软件
+  - 即时消息服务器
+explanation: |
+  操作系统作为中央软件 Layer，使应用程序和用户能够访问和控制硬件。
+reviewed: false

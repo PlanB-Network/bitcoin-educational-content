@@ -1,0 +1,9 @@
+question: Giao thức nào được sử dụng chủ yếu để xác định từng thiết bị trên Internet?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Giao thức Internet (IP) gán cho mỗi thiết bị một Address duy nhất và cho phép định tuyến các gói dữ liệu.
+reviewed: false

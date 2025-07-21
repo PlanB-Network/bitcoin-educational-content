@@ -1,0 +1,9 @@
+question: 哪一種軟體是攻擊電腦的最重要入口之一？
+answer: 網頁瀏覽器
+wrong_answers:
+  - PDF 閱讀器
+  - 文字編輯器
+  - 檔案管理員
+explanation: |
+  網頁瀏覽器會不斷接觸到外部內容，因此成為網路罪犯的主要攻擊媒介。
+reviewed: false

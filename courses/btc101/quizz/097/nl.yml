@@ -1,0 +1,11 @@
+question: Wat gebeurt er als uw privésleutel wordt onthuld aan een derde partij?
+answer: De derde partij kan jouw bitcoins uitgeven.
+wrong_answers:
+  - De derde partij kan alleen je transactiegeschiedenis bekijken.
+  - De derde partij kan je privésleutel wijzigen.
+  - De derde partij heeft toegang tot uw persoonlijke gegevens.
+explanation: |
+  Als uw privésleutel bekend wordt gemaakt aan een derde partij, zijn de bijbehorende
+  geassocieerde fondsen niet langer veilig, omdat de privé
+  sleutel hen toegang geeft tot uw fondsen.
+reviewed: true

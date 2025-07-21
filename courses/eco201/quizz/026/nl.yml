@@ -1,0 +1,11 @@
+question: Wat betekent het voor een goed om een hoge verkoopbaarheid te hebben?
+answer: Het zou door zoveel mogelijk mensen gewenst moeten zijn, meestal.
+wrong_answers:
+  - Het zou meestal gewenst moeten zijn door een paar mensen.
+  - Het zou door zoveel mogelijk mensen gewenst moeten zijn, een deel van de tijd.
+  - Het zou door een paar mensen gewenst moeten zijn, soms.
+explanation: |
+  Een goed met een hoge verkoopbaarheid is een goed dat alom gewild is
+  en gemakkelijk kan worden geruild voor andere goederen of diensten.
+  Dit maakt het geschikt om als geld te gebruiken.
+reviewed: true

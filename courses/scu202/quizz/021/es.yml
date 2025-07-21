@@ -1,0 +1,9 @@
+question: ¿Qué componente de un entorno de escritorio se utiliza para navegar visualmente por archivos y carpetas?
+answer: Gestor de archivos
+wrong_answers:
+  - Director de sesión
+  - Compositor X11
+  - Gestor de paquetes
+explanation: |
+  El gestor de archivos (como Nautilus, Dolphin, Thunar) permite al usuario gestionar archivos y carpetas mediante un Interface gráfico.
+reviewed: false

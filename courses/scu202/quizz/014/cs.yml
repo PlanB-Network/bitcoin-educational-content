@@ -1,0 +1,9 @@
+question: Kdo byli dva hlavní tvůrci systému Unix?
+answer: Ken Thompson a Dennis Ritchie
+wrong_answers:
+  - Richard Stallman a Linus Torvalds
+  - Andrew S. Tanenbaum a Larry Ewing
+  - Steve Jobs a Bill Gates
+explanation: |
+  Systém Unix vyvinuli Ken Thompson a Dennis Ritchie v laboratořích AT&T Bell Labs na přelomu 60. a 70. let.
+reviewed: false

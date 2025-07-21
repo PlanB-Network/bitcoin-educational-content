@@ -1,0 +1,9 @@
+question: Ni hitilafu gani kuu ya usalama inayofichua uvujaji wa data kwa athari ya domino?
+answer: Kutumia tena nenosiri sawa kwenye tovuti nyingi
+wrong_answers:
+  - Kutumia VPN ya umma
+  - Futa historia ya kuvinjari mara nyingi sana
+  - Nenda katika hali ya maandishi
+explanation: |
+  Kutumia tena nenosiri kwenye tovuti tofauti huruhusu mshambulizi, katika tukio la maelewano ya huduma, kufikia akaunti nyingine kwa nenosiri sawa.
+reviewed: false

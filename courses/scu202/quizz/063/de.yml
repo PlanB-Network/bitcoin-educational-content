@@ -1,0 +1,9 @@
+question: Welcher Textbrowser ohne Interface-Grafiken oder JavaScript-Unterstützung ist der älteste, der noch gepflegt wird?
+answer: Luchs
+wrong_answers:
+  - Mullvad-Browser
+  - Polypan
+  - Vivaldi
+explanation: |
+  Lynx, das 1992 erschien, arbeitet im Textmodus, unterstützt kein JavaScript und wird immer noch für sehr spezielle Zwecke verwendet.
+reviewed: false

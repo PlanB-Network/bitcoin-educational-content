@@ -1,0 +1,9 @@
+question: Aplikasi sumber terbuka apa yang direkomendasikan untuk memindai produk makanan dengan basis data kolaboratif?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts adalah proyek berbasis komunitas yang gratis dan transparan mengenai datanya, sedangkan Yuka didasarkan pada model yang tidak jelas dan tidak terbuka.
+reviewed: false

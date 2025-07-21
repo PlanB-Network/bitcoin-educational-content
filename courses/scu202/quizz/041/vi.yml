@@ -1,0 +1,9 @@
+question: Tài liệu nào, thường được gọi là SHA256SUMS hoặc MANIFEST, là cần thiết để xác minh tính toàn vẹn của phần mềm đã tải xuống?
+answer: Tệp liệt kê dấu vết phần mềm
+wrong_answers:
+  - Hướng dẫn sử dụng
+  - Tệp liệt kê chữ ký của nhà phát triển
+  - Mã nguồn dự án hoàn chỉnh
+explanation: |
+  Tệp kê khai hoặc SHA256SUMS chứa Hash của mỗi tệp do dự án phân phối và cho phép xác minh tính toàn vẹn của chúng.
+reviewed: false

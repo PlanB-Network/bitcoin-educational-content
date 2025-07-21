@@ -1,0 +1,14 @@
+question: Wat zijn de belangrijkste soorten stablecoins die in de tekst worden genoemd?
+answer: Fiat-gebaseerde, commodity-gebaseerde en algoritmische stablecoins.
+wrong_answers:
+  - Digitale en fysieke stablecoins
+  - Gecentraliseerde en gedecentraliseerde stablecoins
+  - Stablecoins gedekt door banken en stablecoins gedekt door particulieren
+explanation: |
+  In de vorige hoofdstukken hebben we drie hoofdtypen stablecoins gezien;
+  fiat stablecoins, die gedekt worden door traditionele valuta's
+  zoals de Amerikaanse dollar; commodity-backed stablecoins, die worden gedekt door
+  grondstoffen zoals goud of olie; en algoritmische stablecoins, die vertrouwen op
+  op een set regels of algoritmes om hun waarde te behouden. Echter,
+  er wordt echter opgemerkt dat succesvolle algoritmische stablecoins nog niet op de markt zijn gekomen.
+reviewed: true

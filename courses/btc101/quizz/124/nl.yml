@@ -1,0 +1,8 @@
+question: Wat is de versie van de eerste Bitcoin software die werd uitgebracht?
+answer: Bitcoin-0.1.0.
+wrong_answers:
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
+reviewed: true

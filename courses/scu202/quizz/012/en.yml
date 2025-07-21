@@ -1,0 +1,9 @@
+question: Which organization was founded in 1998 to promote the term "open source"?
+answer: Open Source Initiative (OSI)
+wrong_answers:
+  - Free Software Foundation (FSF)
+  - Debian Project
+  - Mozilla Foundation
+explanation: |
+  The OSI was created to emphasize the pragmatic, technical aspect of code openness, as distinct from the free software philosophy.
+reviewed: false

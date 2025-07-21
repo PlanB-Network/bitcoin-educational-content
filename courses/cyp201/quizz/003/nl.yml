@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen SHA256 en RIPEMD160?
+answer: RIPEMD160 produceert kortere hashes dan SHA256
+wrong_answers:
+  - SHA256 is verouderd in tegenstelling tot RIPEMD160
+  - RIPEMD160 wordt alleen gebruikt in het Proof-of-Work mechanisme
+  - SHA256 wordt nooit gecombineerd met andere hashingfuncties
+explanation: |
+  RIPEMD160 genereert 160-bits hashes, terwijl SHA256 256-bits hashes produceert.
+reviewed: false

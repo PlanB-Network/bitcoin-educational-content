@@ -1,0 +1,9 @@
+question: Wat is de rol van de K-array in RC4-codering?
+answer: Het initialiseert en transformeert de S-array naar generate de keystream
+wrong_answers:
+  - Het versleutelt de platte tekst direct
+  - Het slaat de versleutelde tekst op
+  - Het dient alleen als tijdelijke opslag voor gegevens tot het einde van het proces
+explanation: |
+  De K-array wordt gebruikt om de S-array te transformeren in het sleutelplanningsproces, waardoor een pseudo-willekeurige sleutelstroom kan worden gegenereerd om de onbewerkte tekst te versleutelen.
+reviewed: false

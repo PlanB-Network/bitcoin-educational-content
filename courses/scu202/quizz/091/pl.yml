@@ -1,0 +1,9 @@
+question: Który protokół dynamicznie przypisuje lokalny adres IP Address do urządzeń podłączonych do sieci?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP automatycznie przypisuje adres IP Address każdemu nowemu urządzeniu podłączonemu do sieci lokalnej.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Wat zijn cookies in de context van online surfen?
+answer: Bestanden die door websites worden gemaakt om informatie op uw apparaat op te slaan.
+wrong_answers:
+  - Kleine stukjes gegevens die vanaf een website worden verzonden en door de webbrowser van de gebruiker op de computer van de gebruiker worden opgeslagen.
+  - Programma's die je online activiteiten bijhouden.
+  - Virussen die je apparaat kunnen beschadigen.
+explanation: |
+  In de context van online browsen zijn cookies bestanden
+  die door websites worden aangemaakt om informatie op uw apparaat op te slaan.
+  Ze worden gebruikt om uw voorkeuren, login
+  informatie en andere gegevens om uw surfervaring te verbeteren
+  ervaring te verbeteren.
+reviewed: true

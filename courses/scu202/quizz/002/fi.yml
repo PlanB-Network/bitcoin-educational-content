@@ -1,0 +1,9 @@
+question: Mikä on VPN:n tärkein etu?
+answer: Internet-liikenteen salaaminen
+wrong_answers:
+  - Nopeuta Internet-yhteyttäsi
+  - Varastointikapasiteetin lisääminen
+  - Integroitu virustorjunta
+explanation: |
+  VPN luo suojatun tunnelin ja salaa laitteesi ja välittäjäpalvelimen välisen viestinnän, mikä vahvistaa luottamuksellisuutta.
+reviewed: false

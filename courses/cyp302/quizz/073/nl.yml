@@ -1,0 +1,9 @@
+question: Hoe kan een sleutel worden gedefinieerd in shiftversleuteling?
+answer: Een getal van 0 tot 25
+wrong_answers:
+  - Een willekeurig woord
+  - Elk willekeurig getal zonder beperking
+  - Een getal van 1 tot 26
+explanation: |
+  Bij verschuivingsversleuteling is de sleutel een getal tussen 0 en 25, wat overeenkomt met het aantal verschuivingsposities dat wordt toegepast op elke letter van het bericht in een alfabet van 26 letters.
+reviewed: false

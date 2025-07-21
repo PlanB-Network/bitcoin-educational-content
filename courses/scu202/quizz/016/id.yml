@@ -1,0 +1,9 @@
+question: Keluarga distribusi mana yang menggunakan manajer paket RPM?
+answer: Topi Merah
+wrong_answers:
+  - Debian
+  - Lengkungan
+  - Slackware
+explanation: |
+  Format RPM diprakarsai oleh Red Hat dan merupakan dasar dari Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux, dan distribusi terkait lainnya.
+reviewed: false

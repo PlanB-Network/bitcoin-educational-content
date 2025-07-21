@@ -1,0 +1,9 @@
+question: Mikä Ubuntun graafinen työkalu helpottaa palomuurisääntöjen hallintaa?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptinen
+explanation: |
+  GUFW on UFW-palomuurin graafinen Interface, jonka avulla voit aktivoida, deaktivoida ja määrittää sääntöjä ilman päätelaitteen käyttöä.
+reviewed: false

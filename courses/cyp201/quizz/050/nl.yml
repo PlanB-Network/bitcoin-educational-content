@@ -1,0 +1,9 @@
+question: Wat is een goede praktijk voor het beveiligen van een passphrase?
+answer: Sla het op een ander fysiek medium op dan de Mnemonic zin
+wrong_answers:
+  - Leer het alleen uit je hoofd zonder het op te schrijven
+  - Sla het op hetzelfde fysieke medium op als de Mnemonic zin
+  - Leg het vast op een digitaal medium zoals Google Drive
+explanation: |
+  De passphrase moet fysiek en gescheiden van de Mnemonic zin worden opgeslagen om gelijktijdige diefstal van beide te voorkomen.
+reviewed: false

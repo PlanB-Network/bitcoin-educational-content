@@ -1,0 +1,9 @@
+question: ¿Por qué los metadatos de los archivos digitales representan un riesgo para la privacidad?
+answer: Pueden revelar información sensible
+wrong_answers:
+  - Ralentizan la apertura del antivirus en algunos sistemas
+  - Impiden compartir archivos por correo electrónico
+  - Pueden alojar ransomware
+explanation: |
+  Los metadatos pueden contener información confidencial que no es visible al abrir el archivo, como las coordenadas GPS, el nombre del autor, un identificador o un historial de modificaciones, que pueden ser explotados sin su conocimiento.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji sistem se ističe po svom open-source modelu zasnovanom na zajednici?
+answer: GNU/Linux
+wrong_answers:
+  - Prozori
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux je besplatan i razvijen od strane svetske zajednice, garantujući transparentnost, sigurnost i fleksibilnost za korisnika.
+reviewed: false

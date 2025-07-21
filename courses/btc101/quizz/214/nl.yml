@@ -1,0 +1,12 @@
+question: Wat voorspelde Milton Friedman in 1999?
+answer: De ontwikkeling van een betrouwbare e-cash.
+wrong_answers:
+  - De ondergang van fysiek geld.
+  - De opkomst van Bitcoin.
+  - Het einde van overheidscontrole over geld.
+explanation: |
+  Milton Friedman, een bekende econoom, voorspelde in 1999
+  dat er snel een betrouwbare e-cash zou worden ontwikkeld, een methode
+  waarbij je via internet geld kunt overmaken van A naar B,
+  zonder dat A B kent of andersom.
+reviewed: true

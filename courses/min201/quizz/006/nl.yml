@@ -1,0 +1,14 @@
+question: Wat is de belangrijkste taak van mijnwerkers in het Bitcoin netwerk?
+answer: Een digitale puzzel oplossen en een nieuw blok valideren
+wrong_answers:
+  - Om nieuwe bitcoins te creëren
+  - Om de prijs van Bitcoin te controleren
+  - Om de identiteit van Bitcoin gebruikers te verifiëren
+explanation: |
+  In de context van Bitcoin Mining streven mijnwerkers naar het snel
+  digitale puzzel op te lossen. De eerste Miner die de puzzel oplost
+  presenteert zijn oplossing aan het hele netwerk, dat
+  dan gemakkelijk de geldigheid ervan kan verifiëren. Deze succesvolle
+  verificatie kan de Miner een nieuw blok valideren en
+  toevoegen aan de Bitcoin Timechain.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welk historisch concept past RGB toe op de digitale wereld?
+answer: Instrumenten aan toonder
+wrong_answers:
+  - Gecentraliseerde databases
+  - Peer-to-peer-netwerken zonder validatie
+  - Open registers toegankelijk voor iedereen
+explanation: |
+  RGB vertaalt het idee van instrumenten aan toonder naar digitaal.
+reviewed: false

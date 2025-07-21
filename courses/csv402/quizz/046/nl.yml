@@ -1,0 +1,9 @@
+question: Met welke RGB standaard kun je unieke activa of "NFT's" creëren?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  De RGB21-standaard is ontworpen om unieke activa te beheren, zodat private metadata aan NFT's kunnen worden gekoppeld.
+reviewed: false

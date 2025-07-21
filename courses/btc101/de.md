@@ -645,35 +645,35 @@ Wenn du dich eingehender mit dem Thema Erbschaftsplan für deine Bitcoins besch�
 
 ### Datenschutz ist wichtig
 
-Neben der Erstellung physischer Sicherungskopien oder der Ausarbeitung eines Nachlassplans ist die Privatsphäre ein weiteres wichtiges Thema, wenn es um die langfristige Sicherheit Ihrer Bitcoins geht. So ist es zum Beispiel besser, Bitcoins zu kaufen, ohne sich zu identifizieren, um das Risiko eines Identitätsdiebstahls oder des Aufspürens Ihrer Gelder durch Unternehmen mit den richtigen Tools zu minimieren.
+Neben der Erstellung physischer Sicherungskopien oder der Ausarbeitung eines Nachlassplans ist die Privatsphäre ein weiteres wichtiges Thema, wenn es um die langfristige Sicherheit deiner Bitcoins geht. So ist es zum Beispiel besser, Bitcoins zu kaufen, ohne sich zu identifizieren, um das Risiko eines Identitätsdiebstahls oder des Aufspürens deiner Gelder durch Unternehmen mit den richtigen Tools zu minimieren.
 
-Was die Privatsphäre betrifft, so ist es wichtig, dass Sie nicht mit jedem über Ihre Bitcoins sprechen. Wir können nicht vorhersagen, wie diese Technologie in der Zukunft wahrgenommen werden wird, daher ist es eine kluge Entscheidung, Diskretion über Ihren Besitz zu wahren: Sie wollen keine Aufmerksamkeit auf sich oder Ihre Geldbörse lenken.
+Was die Privatsphäre betrifft, so ist es wichtig, dass du nicht mit jedem über deine Bitcoins sprichst. Wir können nicht vorhersagen, wie diese Technologie in der Zukunft wahrgenommen werden wird, daher ist es eine kluge Entscheidung, Diskretion über deinen Besitz zu wahren: Du willst keine Aufmerksamkeit auf dich oder deine Wallet lenken.
 
-Vermeiden Sie es auch, bei Bitcoin-Treffen oder Begegnungen mit Fremden offen Details über Ihr Sicherheitssystem preiszugeben...
+Vermeide es auch, bei Bitcoin-Treffen oder Begegnungen mit Fremden offen Details über deine Sicherheitssystem preiszugeben...
 
 ### Zusammenfassung über Bitcoin Wallet Sicherheit
 
-Bitcoin-Wallets sind Software, mit der Sie Bitcoins speichern und Transaktionen durchführen können. Es gibt verschiedene Arten:
+Bitcoin-Wallets ermöglichen es Bitcoins zu speichern und Transaktionen durchzuführen. Es gibt verschiedene Arten:
 
-- mobile oder PC-Geldbörsen, die für kleine Beträge und/oder regelmäßige Ausgaben geeignet sind;
-- physische Geldbörsen, die für die mittel- und langfristige Aufbewahrung von Bitcoins besser geeignet sind;
-- multisig-Geldbörsen, die komplexer zu verwalten sind und mehrere Unterschriften zur Durchführung von Transaktionen erfordern.
+- mobile oder PC-Wallets, die für kleine Beträge und/oder regelmäßige Ausgaben geeignet sind;
+- physische Wallets, die für die mittel- und langfristige Aufbewahrung von Bitcoins besser geeignet sind;
+- multisig-Wallets, die komplexer zu verwalten sind und mehrere Unterschriften zur Durchführung von Transaktionen erfordern.
 
-Wenn Sie eine Wallet erstellen, müssen Sie zunächst Ihre Liste von 12 oder 24 Wörtern auf einem Stück Papier oder einer Metallplatte sichern. Diese so genannte mnemonische Phrase ermöglicht es Ihnen, Ihre Wallet über jede Bitcoin-Wallet-Anwendung wiederherzustellen. Seien Sie sich bewusst, dass jeder, der Zugang zu dieser Liste erhält, auch Zugang zu Ihrem Geld hat.
+Wenn du eine Wallet erstellst, musst du zunächst deine Liste von 12 oder 24 Wörtern auf einem Stück Papier oder einer Metallplatte sichern. Diese so genannte mnemonische phrase ermöglicht es dir, deine Wallet über jede Bitcoin-Wallet-Anwendung wiederherzustellen. Sei dir bewusst, dass jeder, der Zugang zu diesen 12/24 Wörtern erhält, auch Zugang zu deinem Geld hat.
 
-In der Welt von Bitcoin ist die finanzielle Souveränität eng mit der Verantwortung des Einzelnen verbunden, weshalb es unerlässlich ist, den Zugang zu Ihren Wallets und Backups zu sichern. Um dies zu erreichen, ist es wichtig, bestimmte Richtlinien zu befolgen:
+In der Welt von Bitcoin ist die finanzielle Souveränität eng mit der Verantwortung des Einzelnen verbunden, weshalb es unerlässlich ist, den Zugang zu deinen Wallets und Backups zu sichern. Um dies zu erreichen, ist es wichtig, bestimmte Richtlinien zu befolgen:
 
-- Erstellen Sie einen Nachlassplan, um sicherzustellen, dass Ihre Angehörigen im Falle eines Problems auf das Geld zugreifen können.
-- Vermeiden Sie es, Ihre Bitcoins auf Tauschbörsen zu hinterlassen, da diese anfällig für Hackerangriffe sein können.
-- Passen Sie Ihr Sicherheitsniveau an Ihre Bedürfnisse und Anwendungsfälle an, um eine gute Wahl unter den verschiedenen verfügbaren Bitcoin-Wallets zu treffen.
+- Erstelle einen Nachlassplan, um sicherzustellen, dass deine Angehörigen im Falle eines Problems auf das Geld zugreifen können.
+- Vermeide es, deine Bitcoins auf Tauschbörsen liegen zu lassen, da diese anfällig für Hackerangriffe sein können.
+- Passe dein Sicherheitsniveau an deine Bedürfnisse und Anwendungsfälle an, um eine gute Wahl unter den verschiedenen verfügbaren Bitcoin-Wallets zu treffen.
 
-Nachdem wir nun die Grundlagen von Bitcoin-Wallets und die besten Praktiken für deren Absicherung behandelt haben, werden wir im nächsten Kapitel die technischen Eigenschaften von Bitcoin erkunden. Auch hier gilt: Wenn Sie die Grundlagen des Bitcoin-Protokolls verstehen, werden Sie besser verstehen, wie es funktioniert und können es besser nutzen.
+Nachdem wir nun die Grundlagen von Bitcoin-Wallets und die besten Praktiken für deren Absicherung behandelt haben, werden wir im nächsten Kapitel die technischen Eigenschaften von Bitcoin erkunden. Auch hier gilt: Wenn du die Grundlagen des Bitcoin-Protokolls verstehst, wirst du besser verstehen, wie es funktioniert und kannst es besser nutzen.
 
 # Die technischen Aspekte von Bitcoin.
 
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
-## Einführung von Bitcoin
+## Der Start von Bitcoin
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
@@ -683,7 +683,7 @@ Nachdem wir nun die Grundlagen von Bitcoin-Wallets und die besten Praktiken für
 
 Der 31. Oktober 2008 markiert die Geburtsstunde der neuen Finanztechnologie Bitcoin. An diesem Tag stellte der anonyme Satoshi Nakamoto der Welt seine Innovation in einer E-Mail an die Mailingliste der Cypherpunks vor, einer Gemeinschaft von Kryptographie-Enthusiasten, die sich für den Schutz der Privatsphäre im Internet einsetzen. Diese E-Mail enthielt ein Dokument namens "White Paper", in dem die Funktionsweise von Bitcoin erläutert wurde.
 
-Diese Initiative löste nicht sofort Begeisterung aus, wahrscheinlich wegen der früheren Fehlschläge bei den Versuchen, ein digitales Bargeldsystem zu schaffen. Nichtsdestotrotz wurde dieses Weißbuch schließlich zu einer Referenz für Bitcoin-Nutzer und war im Laufe der Jahre Gegenstand vieler Debatten im Bitcoin-Ökosystem.
+Diese Initiative löste nicht sofort Begeisterung aus, wahrscheinlich wegen der früheren Fehlschläge bei den Versuchen, ein digitales Bargeldsystem zu schaffen. Nichtsdestotrotz wurde dieses White Paper schließlich zu einer Referenz für Bitcoin-Nutzer und war im Laufe der Jahre Gegenstand vieler Debatten im Bitcoin-Ökosystem.
 
 ![image](assets/en/40.webp)
 
@@ -691,41 +691,40 @@ Am 3. Januar 2009 eröffnete Satoshi offiziell das Bitcoin-Netzwerk, indem er de
 
 ![image](assets/en/41.webp)
 
-> "Wir können eine wichtige Schlacht im Wettrüsten gewinnen und eine
-> ein neues Territorium der Freiheit für mehrere Jahre" - Satoshi Nakamoto
+> "Wir können eine wichtige Schlacht im Wettrüsten und ein neues Territorium der Freiheit für mehrere Jahre gewinnen" - Satoshi Nakamoto
 > ![image](assets/en/42.webp)
 
 ### Das Bitcoin-Protokoll erwacht zum Leben
 
-Am 9. Januar 2009 kündigte Satoshi die Veröffentlichung der Version 0.1.0 von Bitcoin an. Kurz darauf übernahm Hal Finney die Software und schloss sich dem Netzwerk an, was das Vorhandensein von zwei Knoten und damit von zwei Minern im Netzwerk markierte. Finney verewigte diesen Schritt sogar, indem er twitterte: "Running Bitcoin". Am 12. Januar 2009 wurde die erste Bitcoin-Transaktion in Höhe von 10 BTC zwischen Satoshi und Hal Finney getätigt, und Sie können sie leicht finden, wenn Sie zum Block 170 zurückgehen.
+Am 9. Januar 2009 kündigte Satoshi die Veröffentlichung der Version 0.1.0 von Bitcoin an. Kurz darauf übernahm Hal Finney die Software und schloss sich dem Netzwerk an, was das Vorhandensein von zwei Nodes und damit von zwei Minern im Netzwerk markierte. Finney verewigte diesen Schritt sogar, indem er twitterte: "Running Bitcoin". Am 12. Januar 2009 wurde die erste Bitcoin-Transaktion in Höhe von 10 BTC zwischen Satoshi und Hal Finney getätigt, und du kannst sie leicht finden, wenn du zum Block 170 zurückgehst.
 
 ![image](assets/en/43.webp)
 
-Das Interesse an Bitcoin wuchs schnell und veranlasste viele Menschen dazu, ihn zu testen, sich an Debatten zu beteiligen, Bugs zu lösen und über seine ethischen, wirtschaftlichen und philosophischen Aspekte nachzudenken. Die Menschen waren so fasziniert, dass Satoshi am 22. November 2009 das BitcoinTalk-Forum gründete, um diese Art der Auseinandersetzung zu erleichtern.
+Das Interesse an Bitcoin wuchs schnell und veranlasste viele Menschen dazu, es zu testen, sich an Debatten zu beteiligen, Bugs zu lösen und über seine ethischen, wirtschaftlichen und philosophischen Aspekte nachzudenken. Die Menschen waren so fasziniert, dass Satoshi am 22. November 2009 das BitcoinTalk Forum gründete, um diese Art der Auseinandersetzung zu erleichtern.
 
-Das Forum wurde schnell zum bevorzugten Diskussionsort für Bitcoin-Nutzer, und zwar so sehr, dass berühmte Meme und Symbole, die mit Bitcoin in Verbindung gebracht werden, daraus hervorgingen, wie das [Bitcoin-Logo] (https://bitcointalk.org/index.php?topic=64.0), der berühmte [Hodl] (https://bitcointalk.org/index.php?topic=375643.0) oder sogar der [Pizza-Tag] (https://bitcointalk.org/index.php?topic=137.msg1195).
+Das Forum wurde schnell zum bevorzugten Diskussionsort für Bitcoin-Nutzer, und zwar so sehr, dass berühmte Memes und Symbole, die mit Bitcoin in Verbindung gebracht werden, daraus hervorgingen, wie das [Bitcoin-Logo](https://bitcointalk.org/index.php?topic=64.0), der berühmte [Hodl](https://bitcointalk.org/index.php?topic=375643.0) oder sogar der [Pizza-Tag](https://bitcointalk.org/index.php?topic=137.msg1195).
 
-**Wussten Sie schon?** Am 22. Mai 2010 schrieb Laszlo Hanyecz Geschichte, als er anbot, zwei Pizzen für 10.000 BTC zu kaufen: Es war das erste Mal, dass Bitcoin zum Kauf physischer Güter verwendet wurde.
+**Wusstest du schon?** Am 22. Mai 2010 schrieb Laszlo Hanyecz Geschichte, als er anbot, zwei Pizzen für 10.000 BTC zu kaufen: Es war das erste Mal, dass Bitcoin zum Kauf physischer Güter verwendet wurde.
 
 ![image](assets/en/44.webp)
 
 ### Das Verschwinden von Satoshi Nakamoto
 
-Im Jahr 2010, als Bitcoin die Aufmerksamkeit der Medien auf sich zog, beschloss Satoshi, sich zu distanzieren, indem er am 12. Dezember 2010 in einem Forenbeitrag seinen Rücktritt ankündigte. Am 23. April 2011 machte er seinen letzten bekannten privaten Austausch per E-Mail und verschwand dann, wobei er seine Schöpfung in den Händen der Gemeinschaft hinterließ.
+Im Jahr 2010, als Bitcoin die Aufmerksamkeit der Medien auf sich zog, beschloss Satoshi, sich zu distanzieren, indem er am 12. Dezember 2010 in einem Forenbeitrag seinen Rücktritt ankündigte. Am 23. April 2011 machte er seinen letzten bekannten privaten Austausch per E-Mail und verschwand dann, wobei er seine Schöpfung in den Händen der Gemeinschaft ließ.
 
-> "Regierungen sind gut darin, die Köpfe von zentral gesteuerten Unternehmen abzuschneiden
-> kontrollierte Netzwerke wie Napster, sondern reine P2P-Netzwerke wie
-> Gnutella und Tor scheinen sich zu behaupten." - Satoshi Nakamoto
-> Trotz Satoshis Abwesenheit wurde Bitcoin weiter entwickelt: Die Geschichte von Bitcoin wird alle 10 Minuten geschrieben, und das Protokoll funktioniert bis heute wie vorgesehen. Ungeachtet aller Ängste, Unsicherheiten oder Zweifel entwickelt sich Bitcoin weiter, mit einer sehr starken Online-Verfügbarkeit. Tatsächlich hat Bitcoin laut dieser [Website] (https://bitcoinuptime.com/) 99,988% der Zeit seit seiner Entstehung ohne massive Probleme funktioniert und gelaufen.
+> "Regierungen sind gut darin, die Köpfe von zentral gesteuerten Unternehmen wie Napster abzuschneiden, aber reine P2P Netzwerke wie Gnutella und Tor scheinen sich zu behaupten." - Satoshi Nakamoto
 
-Für die einen ist Bitcoin ein pilzartiges Gebilde wie ein [Myzel] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), während andere es als [schwarzes Loch] (https://dergigi.com/) bezeichnen. Ob man ihn liebt oder hasst, Bitcoin existiert weiter, mit seinem konstanten Rhythmus von 10 Minuten pro Block, wie der Herzschlag eines neuen Geldsystems.
+Trotz Satoshis Abwesenheit wurde Bitcoin weiter entwickelt: Die Geschichte von Bitcoin wird alle 10 Minuten geschrieben, und das Protokoll funktioniert bis heute wie vorgesehen. Ungeachtet aller Ängste, Unsicherheiten oder Zweifel entwickelt sich Bitcoin weiter, mit einer sehr starken Online-Verfügbarkeit. Tatsächlich ist Bitcoin laut dieser [Website](https://bitcoinuptime.com/) 99,988% der Zeit seit seiner Entstehung ohne massive Probleme gelaufen.
 
-Um mehr über Satoshi Nakamotos Schriften zu erfahren, empfehlen wir die Lektüre von ["The Book of Satoshi"] (https://planb.network/en/resources/books/98) von Phil Champagne oder die ARTE-Dokumentation "Le mystaire Satoshi".
+Für die einen ist Bitcoin ein pilzartiges Gebilde wie ein [Myzel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), während andere es als [Schwarzes Loch](https://dergigi.com/) bezeichnen. Ob man es liebt oder hasst, Bitcoin existiert weiter, mit seinem konstanten Rhythmus von 10 Minuten pro Block, wie der Herzschlag eines neuen Geldsystems.
+
+Um mehr über Satoshi Nakamotos Schriften zu erfahren, empfehlen wir die Lektüre von ["The Book of Satoshi"](https://planb.network/en/resources/books/98) von Phil Champagne oder die ARTE-Dokumentation "Le mystaire Satoshi".
 
 ![image](assets/en/45.webp)
 
-> "Das Hauptproblem bei konventionellen Währungen ist das Vertrauen, das erforderlich ist, damit sie funktionieren. Man muss der Zentralbank vertrauen, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voll von Verstößen gegen dieses Vertrauen. Man muss den Banken vertrauen, dass sie unser Geld aufbewahren und elektronisch überweisen, aber sie verleihen es in Wellen von Kreditblasen, ohne auch nur einen Bruchteil davon in Reserve zu haben" - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
-> Nachdem wir nun etwas Hintergrundwissen haben, wollen wir nun untersuchen, wie eine Bitcoin-Transaktion im Allgemeinen funktioniert.
+> "Das Hauptproblem bei konventionellen Währungen ist das Vertrauen, das erforderlich ist, damit sie funktionieren. Man muss der Zentralbank vertrauen, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voll von Verstößen gegen dieses Vertrauen. Man muss den Banken vertrauen, dass sie unser Geld aufbewahren und elektronisch überweisen, aber sie verleihen es in Wellen von Kreditblasen, ohne auch nur einen Bruchteil davon in Reserve zu haben" - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+
+Nachdem wir nun etwas Hintergrundwissen haben, wollen wir nun untersuchen, wie eine Bitcoin-Transaktion im Allgemeinen funktioniert.
 
 ## Bitcoin-Transaktionen
 
@@ -733,13 +732,13 @@ Um mehr über Satoshi Nakamotos Schriften zu erfahren, empfehlen wir die Lektür
 
 Eine Bitcoin-Transaktion ist einfach eine Übertragung des Eigentums an Bitcoins durch die Verwendung einer Bitcoin-Adresse. Um diesen Prozess zu beschreiben, stellen wir zwei Protagonisten vor: Alice und Bob. Alice möchte Bitcoins erwerben, während Bob bereits einige besitzt.
 
-### Schritt 1 - Erstellen der Transaktion über die Brieftasche
+### Schritt 1 - Erstellen der Transaktion über die Wallet
 
-Damit Bob Bitcoins an Alice überweisen kann, muss sie ihm eine ihrer Bitcoin-Adressen mitteilen, die für ihre Bitcoin-Brieftasche eindeutig sind. Genauso wie der private Schlüssel zur Erzeugung des öffentlichen Schlüssels verwendet wird, wird letzterer zur Erzeugung von Adressen verwendet.
+Damit Bob Bitcoins an Alice überweisen kann, muss sie ihm eine ihrer Bitcoin-Adressen mitteilen, die für ihre Bitcoin-Wallet eindeutig sind. Genauso wie der private Schlüssel zur Erzeugung des öffentlichen Schlüssels verwendet wird, wird letzterer zur Erzeugung von Adressen verwendet.
 
-Konkret: Wenn Alice ihre Geldbörse öffnet und auf "Empfangen" drückt, wird ein QR-Code oder eine Adresse (wie diese bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr) angezeigt. Dies dient ihr als eine Art "Bitcoin-IBAN", die sie dann Bob zur Verfügung stellt.
+Konkret: Wenn Alice ihre Wallet öffnet und auf "Empfangen" drückt, wird ein QR-Code oder eine Adresse (wie diese bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr) angezeigt. Dies dient ihr als eine Art "Bitcoin-IBAN", die sie dann Bob zur Verfügung stellt.
 
-Anschließend führt Bob die Transaktion durch, indem er seine Bitcoin-Brieftasche öffnet und auf "Senden" drückt. Dann kopiert er Alices Adresse und fügt sie in das erforderliche Feld ein, fügt den Betrag hinzu, den er senden möchte, und legt die Transaktionsgebühren fest, die den Minern als Anreiz dienen, die Transaktion in den nächsten Block aufzunehmen. Je höher die Gebühren sind, die Bob zahlt, desto größer sind seine Chancen, dass die Transaktion in den nächsten Block aufgenommen wird, der der Blockchain hinzugefügt wird, d. h. einem öffentlichen und unveränderlichen Hauptbuch, in dem alle Bitcoin-Transaktionen aufgezeichnet werden.
+Anschließend führt Bob die Transaktion durch, indem er seine Bitcoin-Wallet öffnet und auf "Senden" drückt. Dann kopiert er Alice's Adresse und fügt sie in das erforderliche Feld ein, fügt den Betrag hinzu, den er senden möchte, und legt die Transaktionsgebühren fest, die den Minern als Anreiz dienen, die Transaktion in den nächsten Block aufzunehmen. Je höher die Gebühren sind, die Bob zahlt, desto größer sind seine Chancen, dass die Transaktion in den nächsten Block aufgenommen wird, der der Blockchain hinzugefügt wird, d. h. einem öffentlichen und unveränderlichen Hauptbuch, in dem alle Bitcoin-Transaktionen aufgezeichnet werden.
 
 Um die Transaktion abzuschließen, muss Bob sie mit seinem privaten Schlüssel signieren, um zu bestätigen, dass er der Eigentümer der Bitcoins ist, die er übertragen möchte. Dieser Schritt erfolgt bei mobilen Wallets in der Regel automatisch oder in Form einer Bestätigung auf Ihrer physischen Wallet: "Sind Sie sicher, dass Sie X an Y senden wollen? Ja oder nein".
 
@@ -747,9 +746,9 @@ Um die Transaktion abzuschließen, muss Bob sie mit seinem privaten Schlüssel s
 
 **Warum zahlen wir Gebühren?** Die Gebühren sind unerlässlich, um einen freien Markt für die Aufnahme von Transaktionen in Blöcke zu schaffen. Tatsächlich hat ein Block eine Größe von 1 MB (die nach dem Segwit-Update auf 4 MB erweitert wurde), so dass die Anzahl der Transaktionen, die in einen Block "eingefügt" werden können, auf einige tausend Transaktionen pro Block begrenzt ist. Die Größe einer Transaktion hängt von ihrer Komplexität ab. Daher sind komplexere Transaktionen in der Regel mit höheren Gebühren verbunden.
 
-### Schritt 2: Weiterleitung der Transaktion über die Knotenpunkte
+### Schritt 2: Weiterleitung der Transaktion über die Nodes
 
-In diesem Stadium wurde die Transaktion erstellt und Bobs Wallet teilt sie mit dem Bitcoin-Netzwerk. Zu diesem Zweck kommuniziert sein Wallet mit einem Knoten des Bitcoin-Netzwerks, der diese Information an andere Knoten weitergibt. Diese Art von Prozess ermöglicht es dem gesamten Netzwerk, diese neue Transaktion zu sehen und zu berücksichtigen.
+In diesem Stadium wurde die Transaktion erstellt und Bobs Wallet teilt sie mit dem Bitcoin-Netzwerk. Zu diesem Zweck kommuniziert seine Wallet mit einer Node des Bitcoin-Netzwerks, der diese Information an andere Nodes weitergibt. Diese Art von Prozess ermöglicht es dem gesamten Netzwerk, diese neue Transaktion zu sehen und zu berücksichtigen.
 
 ![image](assets/en/47.webp)
 
@@ -765,27 +764,27 @@ Das Proof-of-Work-System erfordert, dass ein gültiger "Hash" für den fragliche
 
 ![image](assets/en/49.webp)
 
-### Schritt 4: Der Block ist gültig und wird von Alices Referenzknoten überprüft.
+### Schritt 4: Der Block ist gültig und wird von Alice's Referenz-Node überprüft.
 
-In diesem Stadium wird die Transaktion als gültig betrachtet: Der Miner verbreitet den neuen Block über seinen Knoten im Netzwerk, und Alices Brieftasche wird aktualisiert.
+In diesem Stadium wird die Transaktion als gültig betrachtet: Der Miner verbreitet den neuen Block über seine Node im Netzwerk, und Alices Wallet wird aktualisiert.
 
 ![image](assets/en/50.webp)
 
-**Anmerkung:** Selbst wenn Alice benachrichtigt wird, dass sie Bitcoins an einer ihrer Adressen erhalten hat, ist es ratsam, die Transaktion erst dann als unveränderlich zu betrachten, wenn sie **sechs** Bestätigungen erhalten hat. Das bedeutet, dass zusätzlich zu dem Block, der Bobs Transaktion enthält, sechs weitere Blöcke gemined werden müssen. Mit anderen Worten: Je älter eine Transaktion in der Blockchain ist, desto unveränderlicher wird sie.
+**Anmerkung:** Selbst wenn Alice benachrichtigt wird, dass sie Bitcoins an einer ihrer Adressen erhalten hat, ist es ratsam, die Transaktion erst dann als unveränderlich zu betrachten, wenn sie **sechs** Bestätigungen erhalten hat. Das bedeutet, dass zusätzlich zu dem Block, der Bobs Transaktion enthält, sechs weitere Blöcke gefunden werden müssen. Mit anderen Worten: Je älter eine Transaktion in der Blockchain ist, desto unveränderlicher wird sie.
 
 ### Welche Bedeutung hat dieser Prozess?
 
-Das Bitcoin-Transaktionssystem ist dezentralisiert und arbeitet peer-to-peer, ohne vertrauenswürdige Vermittler.
+Das Bitcoin-Transaktionssystem ist dezentralisiert und arbeitet peer-to-peer (person-zu-person), ohne vertrauenswürdige Vermittler.
 
 Bob sendet seine Transaktion an das Bitcoin-Netzwerk, und wenn ein Miner einen gültigen Block mit Bobs Transaktion veröffentlicht, kann Alice davon ausgehen, dass die Bitcoins ihr gehören. Vertrauen ist bei keinem Schritt der Bitcoin-Eigentumsübertragung erforderlich: Allein die Protokollregeln und die wirtschaftlichen Anreize machen es unerschwinglich, im Bitcoin-System böswillig zu handeln.
 
-Tatsächlich übertragen die Nutzer das Eigentum an ihren Geldern, indem sie Transaktionen mit ihren eigenen privaten Schlüsseln digital signieren. Auf der anderen Seite haben die Miner nur begrenzte Macht, und die Nutzer behalten die Kontrolle, indem sie Bitcoin-Knoten verwenden, um die neuen Blöcke und die enthaltenen Transaktionen zu validieren. Jeder Knoten hat entweder eine vollständige oder eine teilweise Kopie des Hauptbuchs, so dass das von den Bitcoin-Knoten gebildete Netzwerk das System wirklich dezentralisiert macht.
+Tatsächlich übertragen die Nutzer das Eigentum an ihren Geldern, indem sie Transaktionen mit ihren eigenen privaten Schlüsseln digital signieren. Auf der anderen Seite haben die Miner nur begrenzte Macht, und die Nutzer behalten die Kontrolle, indem sie Bitcoin-Nodes verwenden, um die neuen Blöcke und die enthaltenen Transaktionen zu validieren. Jede Node hat entweder eine vollständige oder eine teilweise Kopie des Hauptbuchs, so dass das von den Bitcoin-Knoten gebildete Netzwerk das System wirklich dezentralisiert ist.
 
-Um das Bitcoin-Netzwerk vollständig zu zerstören, müsste folglich jede Kopie der Blockchain auf allen Bitcoin-Knoten eliminiert werden, was aufgrund der geografischen Verteilung dieser Knoten und der Schwierigkeit, sie physisch zu beschlagnahmen, eine praktisch unmögliche Aufgabe ist.
+Um das Bitcoin-Netzwerk vollständig zu zerstören, müsste folglich jede Kopie der Blockchain auf allen Bitcoin-Nodes eliminiert werden, was aufgrund der geografischen Verteilung dieser Knoten und der Schwierigkeit, sie physisch zu beschlagnahmen, eine praktisch unmögliche Aufgabe ist.
 
-Schauen wir uns genauer an, wie ein Bitcoin-Knoten funktioniert.
+Schauen wir uns genauer an, wie eine Bitcoin-Node funktioniert.
 
-## Bitcoin-Knoten
+## Bitcoin-Nodes
 
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 

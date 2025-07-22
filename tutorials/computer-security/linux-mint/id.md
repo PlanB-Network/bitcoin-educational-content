@@ -63,7 +63,7 @@ Setelah mengatakan semua ini, komputer Tails untuk transaksi Bitcoin adalah opsi
 
 ## Opsi Lain – Boot OS Langsung
 
-Ini sangat mirip dengan Tails, hanya saja sistem operasinya tidak didedikasikan untuk privasi. Cara dasar untuk menggunakannya adalah dengan mengisi drive USB dengan sistem operasi Linux pilihan Anda, dan membuat komputer boot dari drive tersebut, bukan dari drive internal. Cara melakukannya akan dijelaskan nanti.
+Ini sangat mirip dengan Tails, hanya saja sistem operasinya tidak didedikasikan untuk privasi. Cara dasar untuk menggunakannya adalah dengan mem-flash drive USB dengan sistem operasi Linux pilihan Anda, dan membuat komputer boot dari drive tersebut, bukan dari drive internal. Cara melakukannya akan dijelaskan nanti.
 
 Keuntungannya adalah Anda kurang dibatasi dan segalanya akan berfungsi tanpa penyesuaian (tweak) tingkat lanjut.
 
@@ -77,36 +77,32 @@ Menggunakan komputer bekas tidaklah ideal, terutama karena saya tidak memahami c
 Jika Anda memilih untuk menggunakan komputer desktop lama daripada laptop lama, ini akan baik-baik saja, kecuali bahwa hal ini akan secara permanen memakan ruang untuk transaksi Bitcoin Anda yang mungkin jarang terjadi; Anda tidak boleh menggunakannya untuk hal lain. Sedangkan dengan laptop, Anda bisa menyimpannya, bahkan menyembunyikannya untuk keamanan ekstra.
 
 ## Menginstal Linux Mint di komputer apa pun
-Berikut adalah instruksi untuk menghapus sistem operasi apa pun dari laptop baru Anda dan menginstal Linux Mint, tetapi Anda dapat menyesuaikannya untuk menginstal hampir semua versi Linux di hampir semua komputer.
-Kita akan menggunakan komputer apa pun untuk mem-flash sistem operasi ke sebuah perangkat memori jenis apa pun. Tidak masalah perangkat memori apa, selama itu kompatibel dengan port USB, dan saya sarankan minimal 16Gb.
+
+Instruksi ini bertujuan untuk menghapus sistem operasi apa pun dari laptop baru Anda dan menginstal Linux Mint, namun Anda dapat mengadaptasinya untuk menginstal hampir semua versi Linux pada hampir semua komputer.
+
+Kita akan menggunakan komputer mana pun untuk mem-flash sistem operasi ke memory stick tertentu. Jenis memory stick tidak menjadi masalah, asalkan kompatibel dengan port USB, dan saya menyarankan kapasitas minimal 16GB.
 
 Dapatkan salah satu dari benda ini:
-
 ![image](assets/3.webp)
 
 Atau Anda bisa menggunakan sesuatu seperti ini:
-
 ![image](assets/4.webp)
 
-Selanjutnya, navigasikan ke linuxmint.com
-
+Selanjutnya, menuju ke [linuxmint.com](https://linuxmint.com/)
 ![image](assets/5.webp)
 
 Arahkan mouse ke menu Download di bagian atas, lalu klik tautan, “Linux Mint 20.3” atau versi terbaru yang direkomendasikan pada saat Anda melakukan ini.
-
 ![image](assets/6.webp)
 
-Akan ada beberapa “rasa” yang bisa dipilih. Ikuti “Cinnamon” untuk mengikuti panduan ini. Klik tombol Download.
-
+Akan ada beberapa “rasa” yang bisa dipilih. Ikuti “Cinnamon” untuk mengikuti panduan ini. Klik tombol Download / Unduh.
 ![image](assets/7.webp)
 
-Di halaman berikutnya, Anda dapat menggulir ke bawah untuk melihat mirror (Mirror adalah berbagai server yang menyimpan salinan file yang kita inginkan). Anda dapat memverifikasi unduhan menggunakan SHA256 dan gpg (disarankan), tetapi saya akan melewatkan menjelaskan itu di sini karena saya sudah menulis panduan tentang ini.
-
+Pada halaman berikutnya, Anda dapat bergeser ke bawah untuk melihat mirror (mirror adalah berbagai server yang menyimpan salinan file yang kita inginkan). Anda dapat memverifikasi unduhan menggunakan SHA256 dan gpg (disarankan), tetapi saya tidak akan menjelaskan hal itu di sini karena saya sudah menulis panduan tentangnya.
 ![image](assets/8.webp)
 
-Pilih mirror yang paling dekat dengan Anda dan klik tautannya (teks hijau di kolom mirror). File akan mulai diunduh – versi yang saya unduh adalah 2.1 gigabyte.
+Pilih mirror yang paling dekat dengan Anda, lalu klik tautannya (teks hijau pada kolom mirror). File akan mulai diunduh (versi yang saya unduh berukuran 2,1 gigabyte).
 
-Setelah diunduh, Anda dapat mem-flash file ke perangkat memori portabel dan membuatnya bootable. Cara termudah adalah menggunakan Balena Etcher. Unduh dan instal jika Anda belum memilikinya.
+Setelah terunduh, Anda dapat mem-flash file tersebut ke perangkat memori portabel dan menjadikannya bootable. Untuk melakukannya, cara termudah adalah menggunakan Balena Etcher. Unduh dan instal jika Anda belum memilikinya.
 
 Kemudian jalankan:
 
@@ -114,27 +110,32 @@ Kemudian jalankan:
 
 Klik flash from file, dan pilih file LinuxMint yang Anda unduh.
 
-Kemudian klik Select target. Pastikan perangkat memori terpasang dan pastikan Anda memilih drive yang benar, jika tidak Anda mungkin menghancurkan isi drive yang salah!
+Selanjutnya, klik Select target. Pastikan perangkat memori Anda sudah terpasang dan pastikan Anda memilih drive yang benar, jika tidak, Anda bisa merusak isi drive yang salah!
 
-Setelah itu, pilih Flash! Anda mungkin perlu memasukkan kata sandi Anda. Ketika selesai, drive kemungkinan tidak akan bisa dibaca oleh komputer Windows atau Mac Anda karena telah diubah menjadi perangkat Linux. Cukup cabut.
+Setelah itu, pilih Flash! Anda mungkin perlu memasukkan kata sandi. Setelah selesai, drive tersebut kemungkinan besar tidak akan bisa dibaca oleh komputer Windows atau Mac Anda karena telah diubah menjadi perangkat Linux. Cukup cabut saja.
+
 Menyiapkan komputer tujuan
 
-Nyalakan laptop baru, dan saat sedang menyala, tahan tombol BIOS. Ini biasanya F2, tetapi bisa juga F1, F8, F10, F11, F12 atau Delete. Coba satu per satu sampai Anda mendapatkannya, atau cari di internet untuk model komputer Anda dan ajukan pertanyaan yang tepat.
+Nyalakan laptop baru Anda, dan saat sedang booting, tekan dan tahan tombol BIOS. Biasanya ini adalah F2, tetapi bisa juga F1, F8, F10, F11, F12, atau Delete. Coba setiap tombol sampai berhasil, atau cari di internet model komputer Anda dan tanyakan pertanyaan yang tepat.
 
-Misalnya “BIOS key Dell laptops”.
+Contoh: "Tombol BIOS laptop Dell."
 
-Setiap komputer akan memiliki menu BIOS yang berbeda. Jelajahi dan temukan menu mana yang memungkinkan Anda untuk mengonfigurasi urutan boot. Untuk tujuan kita, kita ingin komputer mencoba boot dari perangkat yang terhubung ke USB (jika ada yang terhubung), sebelum mencoba boot dari hard drive internal (jika tidak Windows akan dimuat). Setelah Anda mengatur itu, Anda mungkin perlu menyimpan sebelum keluar atau mungkin disimpan secara otomatis.
+Setiap komputer akan memiliki menu BIOS yang berbeda. Jelajahi dan temukan menu mana yang memungkinkan Anda mengonfigurasi urutan boot. Untuk tujuan kita, kita ingin komputer mencoba boot dari perangkat yang terhubung via USB (jika ada yang terhubung), sebelum mencoba boot dari hard drive internal (jika tidak, Windows akan dimuat). Setelah Anda mengaturnya, Anda mungkin perlu menyimpan sebelum keluar atau mungkin tersimpan secara otomatis.
 
 Reboot komputer dan seharusnya akan dimuat dari perangkat memori USB. Kita sekarang dapat menginstal Linux di drive internal dan Windows akan dihapus untuk selamanya.
+Reboot komputer dan seharusnya akan memuat dari perangkat memori USB. Kita tidak dapat menginstal Linux di drive internal dan Windows akan dihapus secara permanen.
 
-Ketika Anda sampai ke layar berikut, pilih “OEM install (untuk produsen)”. Jika Anda malah memilih “Start Linux Mint”, Anda akan mendapatkan sesi Linux Mint yang dimuat dari perangkat memori, tetapi setelah Anda mematikan komputer, tidak ada informasi Anda yang disimpan – ini pada dasarnya sesi sementara sehingga Anda dapat mencobanya.
-Anda akan dibawa melalui wizard grafis yang akan mengajukan sejumlah pertanyaan yang seharusnya mudah dijawab. Salah satunya adalah pengaturan Bahasa, yang lain adalah koneksi jaringan internet rumah Anda dan kata sandi. Jika diminta untuk menginstal perangkat lunak tambahan, tolak. Ketika Anda sampai pada pertanyaan tentang jenis instalasi, beberapa orang mungkin ragu-ragu - Anda perlu memilih "Hapus disk dan instal Linux Mint". Juga, jangan mengenkripsi drive dan jangan pilih LVM.
+Ketika Anda mencapai layar berikut, pilih "OEM install (for manufacturers)". Jika Anda memilih "Start Linux Mint" sebagai gantinya, Anda akan mendapatkan sesi Linux Mint yang dimuat dari perangkat memori, tetapi setelah Anda mematikan komputer, tidak ada informasi Anda yang tersimpan – ini pada dasarnya adalah sesi sementara agar Anda bisa mencobanya.
+![image](assets/10.webp)
 
-Anda akhirnya akan sampai ke desktop. Pada titik ini, Anda belum selesai. Anda sebenarnya bertindak sebagai produsen (yaitu, seseorang yang membangun komputer dan menyiapkan Linux untuk pelanggan). Anda perlu mengklik dua kali ikon desktop, "Instal Linux Mint", untuk menyelesaikannya.
+Anda akan dipandu melalui wizard grafis yang akan mengajukan sejumlah pertanyaan yang seharusnya mudah dijawab. Salah satunya adalah pengaturan Bahasa, yang lain adalah koneksi jaringan internet rumah Anda dan kata sandi. Jika diminta untuk menginstal perangkat lunak tambahan, tolaklah. Ketika Anda sampai pada pertanyaan mengenai jenis instalasi, beberapa orang mungkin ragu—Anda perlu memilih "Erase disk and install Linux Mint" (Hapus disk dan instal Linux Mint). Selain itu, jangan enkripsi drive dan jangan pilih LVM.
 
-Ingat untuk mengeluarkan memory stick, dan kemudian reboot. Setelah reboot, Anda akan menggunakan sistem operasi untuk pertama kalinya sebagai pengguna baru. Selamat.
+Anda akhirnya akan sampai ke desktop. Pada titik ini, Anda belum sepenuhnya selesai. Anda sebenarnya bertindak sebagai produsen (yaitu seseorang yang membangun komputer dan menyiapkan Linux untuk pelanggan). Anda perlu mengeklik dua kali ikon desktop, "Install Linux Mint", untuk menyelesaikannya.
+![image](assets/11.webp)
 
-Salah satu hal pertama yang harus dilakukan (dan dilakukan secara teratur), adalah menjaga sistem agar tetap terbaru.
+Ingat untuk mencabut memory stick, dan kemudian reboot. Setelah reboot, Anda akan menggunakan sistem operasi untuk pertama kalinya sebagai pengguna baru. Selamat.
+
+Salah satu hal pertama yang perlu dilakukan (dan dilakukan secara teratur) adalah menjaga sistem tetap up-to-date.
 
 Buka aplikasi Terminal, dan ketikkan berikut ini:
 
@@ -142,22 +143,22 @@ Buka aplikasi Terminal, dan ketikkan berikut ini:
 sudo apt-get update
 ```
 
-tekan <enter>, konfirmasi pilihan Anda, dan kemudian perintah ini:
+tekan "Enter", konfirmasi pilihan Anda, dan kemudian ketik perintah ini:
 
 ```bash
 sudo apt-get upgrade
 ```
 
-tekan <enter> dan konfirmasi pilihan Anda.
+tekan "Enter" dan konfirmasi pilihan Anda.
 
-Biarkan ia melakukan tugasnya, ini bisa memakan waktu beberapa menit.
+Biarkan perintah dijalankan, ini bisa memakan waktu beberapa menit.
 
-Selanjutnya, saya suka menginstal Tor (sensitif huruf besar-kecil):
+Selanjutnya, saya suka menginstal Tor (sensitif huruf besar-kecil / case sensitive):
 
 ```bash
 sudo apt-get install tor
 ```
 
-> _TAMBAHAN: Anda juga dapat menjalankan boot Linux Mint dari “OEM install” (Pastikan Anda terhubung ke internet, jika tidak Anda bisa mendapatkan kesalahan). Jika Anda melakukan ini, nanti Anda perlu mengklik ikon “kirim ke pengguna akhir” yang seharusnya ada di desktop. Kemudian Anda reboot dan memulai sistem operasi seolah-olah Anda membuka komputer untuk pertama kalinya._
+> _TAMBAHAN: Anda juga dapat menjalankan boot Linux Mint dari "OEM install" (pastikan Anda terhubung ke internet, jika tidak, Anda bisa mendapatkan error). Jika Anda melakukan ini, Anda nanti perlu mengeklik ikon "ship to end user" yang seharusnya ada di desktop. Kemudian, Anda akan me-reboot dan memulai sistem operasi seolah-olah Anda membuka komputer untuk pertama kalinya._
 
 Panduan ini menjelaskan mengapa Anda mungkin memerlukan komputer khusus untuk transaksi Bitcoin, dan bagaimana menginstal sistem operasi Linux Mint yang baru di dalamnya.

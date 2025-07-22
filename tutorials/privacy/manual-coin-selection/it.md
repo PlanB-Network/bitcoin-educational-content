@@ -6,6 +6,7 @@ description: Guida esaustiva alla selezione manuale degli UTXO. Capire perché �
 _Questo tutorial è importato da [una lezione di Officine Bitcoin_](https://officinebitcoin.it/lezioni/coinco/)_
 
 ## Introduzione
+
 La solidità del protocollo Bitcoin è garantita da concetti cardine semplici. Tra questi, spicca la trasparenza: tutte le transazioni Bitcoin sono pubbliche e facilmente verificabili da chiunque. Sebbene questa caratteristica sia una pietra miliare del protocollo, perché previene frodi e garantisce la genuinità dei fondi, può rappresentare anche una sfida per la confidenzialità. **Ti sei domandato se tanta trasparenza può inficiare la tua privacy?**
 
 Dovresti farlo. Se da una parte accumulare satoshi non-kyc è piuttosto semplice, la tua privacy è maggiormente a rischio proprio nella fase si spesa.
@@ -60,11 +61,9 @@ Con una situazione finale nel tuo wallet, a livello di UTXO, che ha un aspetto d
 
 Nei due esempi precedenti, il saldo è di fatto lo stesso `108.280 sats`. Dopo la spesa di 24.000 sats, senza selezione manuale avremmo 2 UTXO nel wallet; con il coin control manuale ne abbiamo 3 totali.
 
-**Perché fare tutto questo?**
+La domanda che ci potremmo porre è la seguente: **perché fare tutto questo?** Ci sono, o potrebbero esserci, diversi motivi per cui non abbiamo usato l'`UTXO1` **e sono tutti alla base del perché - in fase di spesa - attivare il coin control manuale è una delle buone pratiche da seguire**.
 
-Ci sono, o potrebbero esserci, diversi motivi per cui non abbiamo usato l'`UTXO1` **e sono tutti alla base del perché - in fase di spesa - attivare il coin control manuale è una delle buone pratiche da seguire**.
-
-Selezionare gli UTXO permette di privilegiare alcuni aspetti, rispetto ad altri.  La scelta dipende proprio dagli obiettivi che vuoi far prevalere.
+Selezionare gli UTXO permette di privilegiare alcuni aspetti, rispetto ad altri. La scelta dipende proprio dagli obiettivi che vuoi raggiungere.
 
 ### Privacy
 
@@ -168,6 +167,7 @@ Dopodiché potrai inserire l'indirizzo di destinazione e impostare l'importo e l
 Per completezza, anche Nunchuk permette tra le sue funzionalità, di segregare uno (o più) UTXO e lo fa con due modalità differenti. Accedi al menu _View coins_ e scegli manualmente nell'elenco delle coins. Poi clicca il menu _More_ in basso a destra: ti comparirà un elenco di opzioni, tra cui puoi scegliere _Lock coins_.
 
 ![img](assets/en/39.webp)
+
 ![img](assets/en/40.webp)
 
 Puoi anche cliccare nello spazio riservato all'UTXO, per accedere alla finestra _Coin details_. Qui compare in alto a destra il comando per bloccare/sbloccare l'UTXO in questione.
@@ -196,9 +196,11 @@ Imposta l'importo e le fee e poi procedi normalmente con la tua transazione.
 
 ## Wallet mobile
 
+Anche da mobile è possibile scegliere wallet che permettono di selezionare manualmente gli UTXO. Vediamo Blue Wallet come primo esempio.
+
 ### Blue Wallet
 
-Anche da mobile è possibile scegliere wallet che permettono di selezionare manualmente gli UTXO. Vediamo per primo Blue Wallet. Se sei un utente di questo wallet, aprilo e clicca per entrare nelle schermate dei comandi relativi ad uno dei tuoi wallet. Per accedere al coin control manuale si deve entrare nella fase di spesa, quindi clicca _Send_.
+Se sei un utente di questo wallet, aprilo e clicca per entrare nelle schermate dei comandi relativi ad uno dei tuoi wallet. Per accedere al coin control manuale si deve entrare nella fase di spesa, quindi clicca _Send_.
 
 ![img](assets/en/21.webp)
 

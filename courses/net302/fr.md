@@ -62,7 +62,7 @@ Prêt à plonger dans l’univers des réseaux informatiques ? Allons-y !
 *N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour en trouver les définitions.*
 
 
-# Protocole TCP/IP
+# Les protocoles TCP/IP
 <partId>53fd4b73-cdf1-4865-ba29-1ac8ec3e9e9a</partId>
 
 

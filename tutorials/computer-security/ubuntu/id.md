@@ -10,40 +10,35 @@ Sistem operasi (OS) adalah perangkat lunak utama yang mengelola semua sumber day
 
 ### Mengapa Ubuntu?
 
-
-- Keamanan yang lebih baik** : Distribusi Linux terkenal dengan keamanan dan ketangguhannya
-- Tanpa biaya**: Ubuntu dan sebagian besar distribusi Linux tidak dipungut biaya
-- Komunitas yang besar**: Komunitas pengguna yang siap membantu melalui forum dan tutorial
-- Menghormati privasi**: Sistem sumber terbuka untuk transparansi yang lebih baik
-- Kesederhanaan**: Antarmuka yang ramah pengguna dan mudah digunakan
-- Ekosistem yang kaya** : Katalog perangkat lunak sumber terbuka yang luas
-- Dukungan reguler**: Pembaruan yang aman dari Canonical
+- **Keamanan yang Ditingkatkan**: Distribusi Linux terkenal karena keamanan dan ketahanannya.
+- **Tanpa Biaya**: Ubuntu dan sebagian besar distribusi Linux tersedia tanpa biaya.
+- **Komunitas yang besar**: Komunitas pengguna yang siap membantu melalui forum dan tutorial
+- **Menghargai privasi**: Sistem open source untuk transparansi yang lebih baik
+- **Kesederhanaan**: tampilan yang ramah pengguna dan mudah digunakan
+- **Ekosistem yang kaya** : Katalog perangkat lunak open source yang luas
+- **Dukungan reguler**: Pembaruan yang aman dari Canonical
 
 ## Instalasi dan konfigurasi
 
 ### 1. Prasyarat
 
 **Peralatan yang dibutuhkan:**
-
-
-- Kunci USB minimal 12 GB
+- Flash Drive USB minimal 12 GB
 - Komputer dengan setidaknya 25 GB tersedia
 
 ### 2. Unduh
 
-
 - Buka [ubuntu.com/download](https://ubuntu.com/download)
 - Pilih versi stabil (disarankan LTS)
-- Unduh gambar ISO
+- Unduh ISO image
 
 ![Page de téléchargement Ubuntu](assets/fr/01.webp)
 
 ![Sélection de la version Ubuntu](assets/fr/02.webp)
 
-### 3. Membuat kunci USB yang dapat di-boot
+### 3. Membuat Flash Drive USB yang dapat di-boot
 
 Anda dapat menggunakan beberapa alat bantu, seperti Balena Etcher :
-
 
 - Unduh dan instal [Balena Etcher](https://etcher.balena.io/)
 
@@ -51,29 +46,27 @@ Anda dapat menggunakan beberapa alat bantu, seperti Balena Etcher :
 
 ![Installation de Balena Etcher](assets/fr/04.webp)
 
-
-- Buka Balena Etcher, lalu pilih citra ISO Ubuntu
-- Pilih kunci USB sebagai media tujuan
-- Klik pada Flash dan tunggu sampai prosesnya selesai
+- Buka Balena Etcher, lalu pilih ISO image Ubuntu
+- Pilih Flash Drive USB sebagai media tujuan
+- Klik tombol Flash dan tunggu sampai prosesnya selesai
 
 ![Utilisation de Balena Etcher](assets/fr/05.webp)
 
 ### 4. Menginstal dan mengamankan Ubuntu
 
-**4.1 Mem-boot dari stik memori USB** (dalam bahasa Prancis)
-
+**4.1 Mem-boot dari Flash Drive USB** (dalam bahasa Prancis)
 
 - Matikan komputer
-- Colokkan kunci USB (berisi Ubuntu)
-- Hidupkan komputer Anda. Pada PC terbaru, sistem akan secara otomatis mengenali kunci boot USB. Jika tidak demikian, lakukan boot ulang dengan menahan tombol akses BIOS/UEFI (biasanya F2, F12, atau Delete, tergantung merek)
- - Di menu BIOS/UEFI, pilih kunci USB Anda sebagai perangkat boot
+- Masukkan Flash Drive USB (berisi Ubuntu)
+- Hidupkan komputer Anda. Pada PC terbaru, sistem akan secara otomatis mengenali Flash Drive USB. Jika tidak demikian, lakukan boot ulang dengan menahan tombol akses BIOS/UEFI (biasanya F2, F12, atau Delete, tergantung merek)
+ - Di menu BIOS/UEFI, pilih Flash Drive USB Anda sebagai perangkat boot
  - Simpan dan mulai ulang
 
 **4.2 Meluncurkan penginstalan** (dalam bahasa Prancis)
 
-*layar pengaktifan** *Layar awal
+**Tampilan Awal**
 
-Saat booting dari kunci USB, Anda akan melihat layar ini, yang memungkinkan Anda memulai Ubuntu.
+Saat booting dari Flash Drive USB, Anda akan melihat layar ini, yang memungkinkan Anda memulai Ubuntu.
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 

@@ -918,19 +918,19 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
-Im vorigen Abschnitt haben wir verstanden, dass die Sicherheit des Bitcoin-Protokolls auf einem hohen Energieverbrauch beruht, um ein öffentliches Buch der Transaktionen ohne eine vertrauenswürdige dritte Partei zu erstellen. In den Mainstream-Medien werden die Gesamtenergiekosten oft mit dem Stromverbrauch eines kleinen Landes verglichen. Aber ist dieser Vergleich sinnvoll? Ist es wichtig, die Gründe für derartige Kosten zu verstehen?
+Im vorigen Abschnitt haben wir verstanden, dass die Sicherheit des Bitcoin-Protokolls auf einem hohen Energieverbrauch beruht, um ein öffentliches Hauptbuch der Transaktionen ohne eine vertrauenswürdige dritte Partei zu erstellen. In den Mainstream-Medien werden die Gesamtenergiekosten oft mit dem Stromverbrauch eines kleinen Landes verglichen. Aber ist dieser Vergleich sinnvoll? Ist es wichtig, die Gründe für derartige Kosten zu verstehen?
 
 ### Die Energiekosten von Bitcoin.
 
-Lassen Sie uns zunächst die Umweltkosten des Bergbaus qualitativ bewerten. Ein Schürfer braucht eine Maschine wie einen ASIC und eine Energiequelle in Form von Strom, um diese Maschinen zu betreiben. ASICs bestehen meist aus Aluminium und können entweder recycelt oder für einen anderen Zweck wiederverwendet werden (wie das in unserem Kurs MIN201 beschriebene Attakaï-Projekt zeigt, bei dem ein Antminer S9 in eine Heizung verwandelt wird). Das Hauptaugenmerk liegt also auf dem Energieverbrauch.
+Lass uns zunächst die Umweltkosten des Mining qualitativ bewerten. Ein Miner braucht eine Maschine wie einen ASIC und eine Energiequelle in Form von Strom, um diese Maschinen zu betreiben. ASIC's bestehen meist aus Aluminium und können entweder recycelt oder für einen anderen Zweck wiederverwendet werden (wie das in unserem Kurs MIN201 beschriebene Attakaï-Projekt zeigt, bei dem ein Antminer S9 in eine Heizung verwandelt wird). Das Hauptaugenmerk liegt also auf dem Energieverbrauch.
 
 ![image](assets/en/61.webp)
 
-Der Stromverbrauch macht fast die gesamten Kosten für einen Bergmann aus. Daher werden sie ermutigt, eine billige Stromquelle zu finden, so dass sie sich an Orte begeben können, an denen Kraftwerke installiert sind, die aber noch nicht an das Stromnetz des Gebiets angeschlossen sind. In diesem Fall fungieren die Bergleute als letzte Instanz und ermöglichen es den Kraftwerken, ihre Finanzierung zu sichern, noch bevor sie an das Stromnetz angeschlossen werden. Sobald sie angeschlossen sind, wird die Nachfrage nach Strom steigen, was den Preis in die Höhe treibt und es für die Bergleute weniger rentabel macht, an diesen Orten Strom zu beziehen. Da die Maschinen leicht zu verlagern sind, werden die Bergleute dann beschließen, sich mit ihrer Anlage weiter weg niederzulassen, wo die Nachfrage und damit der Preis niedrig sind, meist in Gebieten, in denen sie Energie aus grünen Kraftwerken beziehen können.
+Der Stromverbrauch macht fast die gesamten Kosten für einen Miner aus. Daher werden sie ermutigt, eine billige Stromquelle zu finden, so dass sie sich an Orte begeben können, an denen Kraftwerke installiert sind, die aber noch nicht an das Stromnetz des Gebiets angeschlossen sind. In diesem Fall fungieren die Miner als letzte Instanz und ermöglichen es den Kraftwerken, ihre Finanzierung zu sichern, noch bevor sie an das Stromnetz angeschlossen werden. Sobald sie angeschlossen sind, wird die Nachfrage nach Strom steigen, was den Preis in die Höhe treibt und es für die Miner weniger rentabel macht, an diesen Orten Strom zu beziehen. Da die Maschinen leicht zu verlagern sind, werden die Miner dann beschließen, sich mit ihrer Anlage weiter weg niederzulassen, wo die Nachfrage und damit der Preis niedrig sind. Die ist meist in Gebieten, in denen sie Energie aus grünen Kraftwerken beziehen können, der Fall.
 
 ### Eine endlose Debatte
 
-Daher ist die Debatte über die ökologischen Auswirkungen von Bitcoin oft fehlgeleitet, was hauptsächlich auf ein unzureichendes Verständnis seines Nutzens zurückzuführen ist. Bitcoin kann nicht einfach anhand der Energiekosten pro Transaktion bewertet werden, da die Miner sowohl das aktuelle als auch das historische Netzwerk sichern und die Transaktionen gruppiert und nicht alle gleichwertig sind. Außerdem werden die Auswirkungen des Lightning Network nicht einmal berücksichtigt. Diejenigen, die behaupten, dass Bitcoin zu viel Energie verbraucht, haben vielleicht politische Motive oder wollen ihre eigene Blockchain-Lösung verkaufen. Oft wird der ökologische Vorwand benutzt, um das Verbot von Bitcoin zu rechtfertigen.
+Daher ist die Debatte über die ökologischen Auswirkungen von Bitcoin oft fehlgeleitet, was hauptsächlich auf ein unzureichendes Verständnis seines Nutzens zurückzuführen ist. Bitcoin kann nicht einfach anhand der Energiekosten pro Transaktion bewertet werden, da die Miner sowohl das aktuelle als auch das historische Netzwerk sichern und die Transaktionen gruppiert und nicht alle gleichwertig sind. Außerdem werden die Auswirkungen des Lightning-Netzwerkes nicht einmal berücksichtigt. Diejenigen, die behaupten, dass Bitcoin zu viel Energie verbraucht, haben vielleicht politische Motive oder wollen ihre eigene Blockchain-Lösung verkaufen. Oft wird der ökologische Vorwand benutzt, um das Verbot von Bitcoin zu rechtfertigen.
 
 Es ist wichtig zu betonen, dass Bitcoin als revolutionäre Erfindung Menschen, die unter finanzieller Unterdrückung oder diktatorischen Regimen leben, eine Möglichkeit bietet, für ihre Freiheit zu kämpfen. Als letzter Ausweg bietet Bitcoin einen Weg zur finanziellen Unabhängigkeit, indem er Zensur und Bankbeschränkungen umgeht. Bitcoin ist mehr als nur eine Währung, er ist eine Form der Kommunikation und ein Symbol der Freiheit, und die von den Minern aufgewendete Energie spielt eine entscheidende Rolle bei der Verteidigung dieser Freiheit und ermöglicht die Emanzipation von einem Finanzsystem, das von Schulden und exzessiver Geldschöpfung durch die Zentralbanken beherrscht wird.
 
@@ -946,7 +946,7 @@ Für diejenigen, die in Ländern mit hohen Inflationsraten leben, ist Bitcoin ei
 
 Schließlich ist es wichtig, die wirtschaftlichen und ökologischen Folgen der Einführung von Bitcoin zu erörtern.
 
-Vergleicht man es mit dem derzeitigen Finanzsystem, so wirft letzteres aufgrund seiner Förderung von übermäßigem Konsum und Verschuldung ernsthafte Probleme auf. Faktoren wie der leichte Zugang zu Krediten, die Geldschöpfung der Banken und die Praxis des Mindestreserve-Bankwesens tragen alle zur Überschuldung und damit zum übermäßigen Konsum bei.
+Vergleicht man es mit dem derzeitigen Finanzsystem, so wirft letzteres aufgrund seiner Förderung von übermäßigem Konsum und Verschuldung ernsthafte Probleme auf. Faktoren wie der leichte Zugang zu Krediten, die Geldschöpfung der Banken und die Praxis des Mindestreserve-Bankwesens (fractional reserve banking) tragen alle zur Überschuldung und damit zum übermäßigen Konsum bei.
 
 ![image](assets/en/65.webp)
 
@@ -960,17 +960,17 @@ Andererseits haben Politiker in der Regel eine kurzfristige Vision und brauchen 
 
 Sie wissen nicht, dass Bitcoin die Nutzung von grüner Energie fördert. Zum Beispiel können die Flammen, die in Ölquellen gezündet werden, um Methan zu verbrennen und Umweltverschmutzung zu vermeiden, von Bitcoin-Minern gelöscht werden, weil Methan in Strom umgewandelt werden kann, um Mining-Maschinen anzutreiben, was der Umwelt zugute kommt.
 
-**Befolgen Sie eine der Maximen von Bitcoin: Don't trust, verify for yourself!**
+**Befolgen Sie eine der Maximen von Bitcoin: Don't trust, verify for yourself! (Vertraue niemanden, überprüfe selber!)**
 
 ### Kurze Zusammenfassung der technischen Merkmale von Bitcoin
 
-Satoshi Nakamoto veröffentlichte das Bitcoin-Protokoll im Januar 2009, das sich seitdem dank einer wachsenden Gemeinschaft von Entwicklern, Minern und Nutzern mit Bitcoin-Knoten weiterentwickelt hat. Durch das Führen einer eigenen Kopie der Bitcoin-Blockchain, einem öffentlichen Buch aller Bitcoin-Transaktionen, können diese Knoten die Gültigkeit der Transaktionen gemäß den Bitcoin-Konsensregeln sicherstellen. Dazu gehört auch, dass die Miner gültige Blöcke erzeugen, die Tausende von anstehenden Transaktionen enthalten.
+Satoshi Nakamoto veröffentlichte das Bitcoin-Protokoll im Januar 2009, das sich seitdem dank einer wachsenden Gemeinschaft von Entwicklern, Minern und Nutzern mit Bitcoin-Nodes weiterentwickelt hat. Durch das Führen einer eigenen Kopie der Bitcoin-Blockchain, einem öffentlichen Buch aller Bitcoin-Transaktionen, können diese Nodes die Gültigkeit der Transaktionen gemäß den Bitcoin-Konsensregeln sicherstellen. Dazu gehört auch, dass die Miner gültige Blöcke erzeugen, die Tausende von anstehenden Transaktionen enthalten.
 
-Im Durchschnitt wird alle 10 Minuten ein Block erstellt, und der Miner, der einen gültigen Hash für den nächsten Block findet, wird vom Protokoll sowohl mit einem Betrag, der durch die Konsensregeln festgelegt wird, als auch mit den Transaktionsgebühren aller im gültigen Block enthaltenen Transaktionen belohnt. Da das Ergebnis des Hash-Algorithmus (SHA256) für eine gegebene Eingabe als unvorhersehbar gilt, umfasst der Mining-Prozess die Erstellung zahlreicher Kandidatenblöcke und die Prüfung, ob ihr Hash gültig ist oder nicht. Um jedoch sicherzustellen, dass die durchschnittliche Zeit zwischen zwei Blöcken konstant bleibt (~10 Minuten), unabhängig von der Anzahl der Miner und ihrer Rechenleistung, wird die Schwierigkeit, einen gültigen Hash zu finden, alle 2016 Blöcke, also etwa alle 2 Wochen, angepasst. Miner haben im Laufe der Zeit spezielle SHA256-Maschinen entwickelt, die ASICS genannt werden, um die Hash-Rate pro Joule zu erhöhen, d. h. die Anzahl der Versuche pro Sekunde und pro verbrauchter Energie.
+Im Durchschnitt wird alle 10 Minuten ein Block erstellt, und der Miner, der einen gültigen Hash für den nächsten Block findet, wird vom Protokoll sowohl mit einem Betrag, der durch die Konsensregeln festgelegt wird, als auch mit den Transaktionsgebühren aller im gültigen Block enthaltenen Transaktionen belohnt. Da das Ergebnis des Hash-Algorithmus (SHA256) für eine gegebene Eingabe als unvorhersehbar gilt, umfasst der Mining-Prozess die Erstellung zahlreicher möglicher Blöcke und die Prüfung, ob ihr Hash gültig ist oder nicht. Um jedoch sicherzustellen, dass die durchschnittliche Zeit zwischen zwei Blöcken konstant bleibt (~10 Minuten), unabhängig von der Anzahl der Miner und ihrer Rechenleistung, wird die Schwierigkeit, einen gültigen Hash zu finden, alle 2016 Blöcke, also etwa alle 2 Wochen, angepasst. Miner haben im Laufe der Zeit spezielle SHA256-Maschinen entwickelt, die ASICS genannt werden, um die Hash-Rate pro Joule zu erhöhen, d. h. die Anzahl der Versuche pro Sekunde und pro verbrauchter Energie.
 
-Damit die Bergleute ihre Tätigkeit so rentabel wie möglich ausüben können, müssen sie sich mit möglichst billigem Strom versorgen, der oft an abgelegenen Orten in Kraftwerken erzeugt wird, die noch nicht an das Stromnetz angeschlossen sind. Der Miner fungiert dann als Käufer der letzten Instanz, und sobald der Strompreis aufgrund eines Anstiegs der Nachfrage steigt, wird der Miner dazu neigen, seine Tätigkeit an einen anderen Ort zu verlagern.
+Damit die Miner ihre Tätigkeit so rentabel wie möglich ausüben können, müssen sie sich mit möglichst billigem Strom versorgen, der oft an abgelegenen Orten in Kraftwerken erzeugt wird, die noch nicht an das Stromnetz angeschlossen sind. Der Miner fungiert dann als Käufer der letzten Instanz, und sobald der Strompreis aufgrund eines Anstiegs der Nachfrage steigt, wird der Miner dazu neigen, seine Tätigkeit an einen anderen Ort zu verlagern.
 
-Somit ist das Bitcoin-Protokoll ein unzensierbares und unaufhaltsames Geldsystem, da jede Komponente des Protokolls geografisch über den gesamten Globus verteilt ist. Zum Beispiel gibt es mehr als 40.000 Bitcoin-Knoten auf allen Kontinenten. Die Konsensregeln von Bitcoin sind so gestaltet, dass es wirtschaftlich profitabler ist, sie zu befolgen, als zu versuchen, sie zu brechen, und daher ist kein Vertrauen zwischen den Akteuren erforderlich. Bitcoin hat keinen Anführer und kann nicht aufgehalten werden. Selbst wenn es möglich ist, Tauschplattformen zu regulieren, um Bitcoin zu begrenzen, hat dieser Ansatz nur marginale Auswirkungen auf das System. Kurz gesagt, kein Richter oder Staat kann Bitcoin zensieren oder stoppen.
+Somit ist das Bitcoin-Protokoll ein unzensierbares und unaufhaltsames Geldsystem, da jede Komponente des Protokolls geografisch über den gesamten Globus verteilt ist. Zum Beispiel gibt es mehr als 40.000 Bitcoin-Nodes auf allen Kontinenten. Die Konsensregeln von Bitcoin sind so gestaltet, dass es wirtschaftlich profitabler ist, sie zu befolgen, als zu versuchen, sie zu brechen, und daher ist kein Vertrauen zwischen den Akteuren erforderlich. Bitcoin hat keinen Anführer und kann nicht aufgehalten werden. Selbst wenn es möglich ist, Tauschplattformen zu regulieren, um Bitcoin zu begrenzen, hat dieser Ansatz nur marginale Auswirkungen auf das System. Kurz gesagt, kein Richter oder Staat kann Bitcoin zensieren oder stoppen.
 
 # Wie kommt man an Bitcoin heran?
 
@@ -980,11 +980,11 @@ Somit ist das Bitcoin-Protokoll ein unzensierbares und unaufhaltsames Geldsystem
 
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
-Der Preis von Bitcoin ist oft durch eine erhebliche Volatilität gekennzeichnet. Sein Wert kann je nach Marktschwankungen oder Hausse- und Baisse-Phasen erheblich schwanken, genau wie jeder andere Finanzmarkt.
+Der Preis von Bitcoin ist oft durch eine erhebliche Volatilität gekennzeichnet. Sein Wert kann je nach Marktschwankungen oder Bullen- und Bären-Phasen erheblich schwanken, genau wie jeder andere Finanzmarkt.
 
 ![image](assets/en/67.webp)
 
-Vereinfacht gesagt, neigen Menschen dazu, alles auf einmal zu kaufen und alles auf einmal zu verkaufen. \*_Bitcoin ist nicht immun gegen die menschliche Natur._
+Vereinfacht gesagt, neigen Menschen dazu, alles auf einmal zu kaufen und alles auf einmal zu verkaufen. **Bitcoin ist nicht immun gegen die menschliche Natur.**
 
 ### Verständnis der Adoptionswellen
 
@@ -1018,7 +1018,7 @@ Diese beträchtliche Volatilität wird heute von den Bitcoin-Akteuren voll und g
 
 ![image](assets/en/69.webp)
 
-Obwohl das Paar btc/Dollar kurzfristig schwankt, folgt bitcoin aufgrund seiner begrenzten Menge von 21 Millionen Bitcoins und seines Halbierungsprozesses (Halbierung der Geldschöpfung im Durchschnitt alle 4 Jahre) quasi mechanisch einem allgemeinen Aufwärtstrend. Natürlich unterliegt der Bitcoin, wie jeder andere finanzielle Vermögenswert auch, wirtschaftlichen Zyklen, einschließlich Zeiten der Euphorie, Spekulationsblasen und Korrekturen. Dieses Phänomen ist bei aufstrebenden Technologien, bei denen der Markt nicht immer rational oder effizient ist, durchaus üblich.
+Obwohl das btc/Dollar Paar kurzfristig schwankt, folgt Bitcoin aufgrund seiner begrenzten Menge von 21 Millionen Bitcoins und seines Halbierungsprozesses (Halbierung der Geldschöpfung im Durchschnitt alle 4 Jahre) quasi mechanisch einem allgemeinen Aufwärtstrend. Natürlich unterliegt der Bitcoin, wie jeder andere finanzielle Vermögenswert auch, wirtschaftlichen Zyklen, einschließlich Zeiten der Euphorie, Spekulationsblasen und Korrekturen. Dieses Phänomen ist bei aufstrebenden Technologien, bei denen der Markt nicht immer rational oder effizient ist, durchaus üblich.
 
 ### Ein einzigartiger Markt
 
@@ -1026,13 +1026,13 @@ Diese Zyklen von Spekulationsblasen sind in der Welt ziemlich einzigartig, denn 
 
 ![image](assets/en/70.webp)
 
-Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den traditionellen Markt integriert wird. Die Einführung von Bitcoin-ETFs, klarere Vorschriften und verbesserte Werkzeuge für den Erwerb und die Lagerung tragen alle zu dieser positiven Dynamik bei. Bitcoin hat seine Spekulationsblase EINMAL überlebt, also ist es vielleicht doch nicht nur heiße Luft!
+Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den traditionellen Markt integriert wird. Die Einführung von Bitcoin-ETFs, klarere Vorschriften und verbesserte Werkzeuge für den Erwerb und die Lagerung tragen alle zu dieser positiven Dynamik bei. Bitcoin hat seine Spekulationsblase EINMAL MEHR überlebt, also ist es vielleicht doch nicht nur heiße Luft!
 
 ![image](assets/en/71.webp)
 
 
 
-## Bitcoins durch Arbeit erhalten
+## Bitcoins durch Arbeit verdienen
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
@@ -1046,19 +1046,19 @@ Dennoch gibt es in El Salvador und in anderen Teilen der Welt immer mehr Einzelp
 
 ![image](assets/en/72.webp)
 
-Darüber hinaus wurde ein Open-Source- und Gemeinschaftsprojekt ins Leben gerufen, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), um die Verwendung von Bitcoin bei alltäglichen Transaktionen zu erleichtern. Diese Plattform listet alle Händler auf, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften auf der ganzen Welt, so dass Sie ihre Website besuchen können, um das Bitcoin-Ökosystem um Sie herum zu entdecken. Trotz der Schwierigkeiten und des Zögerns gibt es also Initiativen wie BTCMap, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen.
+Darüber hinaus wurde ein Open-Source- und Gemeinschaftsprojekt ins Leben gerufen, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), um die Verwendung von Bitcoin bei alltäglichen Transaktionen zu erleichtern. Diese Plattform listet alle Händler auf, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften auf der ganzen Welt, so dass du ihre Website besuchen kannst, um das Bitcoin-Ökosystem um dich herum zu entdecken. Trotz der Schwierigkeiten und des Zögerns gibt es also Initiativen wie BTCMap, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen.
 
-### Warum sollten wir Bitcoin akzeptieren, anstatt sie zu kaufen?
+### Warum sollten wir Bitcoins akzeptieren, anstatt sie zu kaufen?
 
-Um Bitcoins zu erhalten, können Sie sie auf Plattformen kaufen, die von Organisationen wie der AMF (Autorité des Marchés Financiers) in Frankreich oder der Securities & Exchange Commission (SEC) in den USA reguliert werden, aber diese Lösung erfordert die Rückverfolgbarkeit Ihrer Transaktionen. Eine andere Methode, Bitcoins zu erhalten, ist, sie als Zahlungsmittel für die von Ihnen angebotenen Produkte oder Dienstleistungen zu akzeptieren. So können Sie Bitcoins durch Ihre Arbeit erwerben, ohne sich ständig um den Bitcoin-Preis sorgen zu müssen.
+Um Bitcoins zu erhalten, kannst du sie auf Plattformen kaufen, die von Organisationen wie der AMF (Autorité des Marchés Financiers) in Frankreich oder der Securities & Exchange Commission (SEC) in den USA reguliert werden, aber diese Lösung erfordert die Rückverfolgbarkeit deiner Transaktionen. Eine andere Methode, Bitcoins zu erhalten, ist, sie als Zahlungsmittel für die von deinen angebotenen Produkten oder Dienstleistungen zu akzeptieren. So kannst du Bitcoins durch deine Arbeit erwerben, ohne dich ständig um den Bitcoin-Preis sorgen zu müssen.
 
 Darüber hinaus hat die Akzeptanz von Bitcoin als Zahlungsmittel mehrere Vorteile, darunter Zensurresistenz, geringere Transaktionsgebühren, höhere Effizienz, Schutz vor Inflation sowie finanzielle Freiheit und Souveränität.
 
 ![image](assets/en/73.webp)
 
-### Wie können Sie vorgehen?
+### Wie kannst du vorgehen?
 
-Um Bitcoin zu akzeptieren, müssen Sie die verschiedenen verfügbaren Lösungen prüfen und diejenige auswählen, die am besten zu Ihrem Unternehmen passt. Es gibt keine perfekte Lösung, und bei der Auswahl müssen mehrere Faktoren berücksichtigt werden, wie das erwartete Transaktionsvolumen, das zugewiesene Budget und die Art des Geschäfts (online oder physisch).
+Um Bitcoin zu akzeptieren, musst du die verschiedenen verfügbaren Lösungen prüfen und diejenige auswählen, die am besten zu deinem Unternehmen passen. Es gibt keine perfekte Lösung, und bei der Auswahl müssen mehrere Faktoren berücksichtigt werden, wie das erwartete Transaktionsvolumen, das zugewiesene Budget und die Art des Geschäfts (online oder physisch).
 
 Wir werden dieses Thema in einem anderen Kurs ausführlich behandeln, aber um es einfach zu halten, können wir mehrere Kategorien von Unternehmen und damit verbundene Lösungen betrachten.
 
@@ -1066,13 +1066,13 @@ Wir werden dieses Thema in einem anderen Kurs ausführlich behandeln, aber um es
 
 https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-- Lösung für Hobby-Händler: Swiss Bitcoin Pay
+- Lösung für nicht-professionelle Händler: Swiss Bitcoin Pay
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-- Lösung für große Strukturen oder passionierte Bitcoiner: BTCpay Server
+- Lösung für große Unternehmen oder passionierte Bitcoiner: BTCpay Server
 
-Um dieses Thema weiter zu vertiefen, empfehlen wir Ihnen unseren Kurs BIZ101! Erfahren Sie, wie Sie Bitcoin effektiv in Ihre Unternehmensfinanzen integrieren, Bitcoin als Zahlungsmittel je nach Profil Ihrer Organisation akzeptieren und die damit verbundenen steuerlichen und buchhalterischen Anforderungen verstehen:
+Um dieses Thema weiter zu vertiefen, empfehlen wir dir unseren Kurs BIZ101! Erfahre, wie du Bitcoin effektiv in deinem Unternehmensfinanzen integrieren, Bitcoin als Zahlungsmittel je nach Profil deiner Organisation akzeptieren und die damit verbundenen steuerlichen und buchhalterischen Anforderungen verstehen kannst:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
@@ -1084,46 +1084,46 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin hat sich zu einem wichtigen Finanzwert entwickelt, vor allem aufgrund des begrenzten Angebots und der steigenden Nachfrage. Der Kauf von Bitcoin birgt jedoch Risiken, die besondere Aufmerksamkeit erfordern. Es wird daher empfohlen, eigene Nachforschungen anzustellen und mehr über das Thema zu erfahren, um sich mit der Technologie vertraut zu machen, bevor man Geld investiert.
 
-- Investieren Sie nur das, was Sie sich leisten können, zu verlieren.
+- Investiere nur das, was du dir leisten kannst, zu verlieren.
 - Bitcoin ist ein sehr volatiler Finanzwert, dessen Preis bis auf 0 fallen kann.
 - In der Vergangenheit erzielte Ergebnisse sind kein zuverlässiger Indikator für künftige Ergebnisse.
-- Wenden Sie sich bei Bedarf an Ihren Finanzberater.
+- Wende dich bei Bedarf an deinen Finanzberater.
 
 **Plan ₿ Network bietet keine Anlageberatung an, und nichts, was hier gesagt wird, sollte als solche betrachtet werden**
 
-### Mini-Checkliste, bevor Sie den Sprung wagen
+### Mini-Checkliste, bevor du den Sprung wagst
 
-Bevor Sie sich in den Kauf von Bitcoin stürzen, sollten Sie sich vergewissern:
+Bevor du dich in den Kauf von Bitcoin stürzst, solltest du folgende Dinge haben:
 
-- Eine sichere Brieftasche.
+- Eine sichere Wallet.
 - Ein solides Verständnis von Bitcoin.
-- Ein Sparplan zum Mitmachen.
+- Ein Sparplan dem du folgen möchtest.
 - Eine langfristige Vision.
 
-Wenn Ihnen das Thema noch unklar ist, sollten Sie wissen, dass der Kurs BTC102 Sie bei der Sicherung und dem Erwerb Ihrer ersten Bitcoins unterstützen wird. Wir werden hier nur die Oberfläche des Themas anreißen.
+Wenn dir das Thema noch unklar ist, solltest du wissen, dass der Kurs BTC102 dir bei der Sicherung und dem Erwerb deiner ersten Bitcoins unterstützen wird. Wir werden hier nur die Oberfläche des Themas anreißen.
 
-Konkret geht es um zwei Fragen, die Sie sich stellen sollten:
+Konkret geht es um zwei Fragen, die du dir stellen solltest:
 
-- Sollten Sie eine schrittweise oder eine auf einmalige Akquisitionsstrategie verfolgen?
-- Sollten Sie eine regulierte oder eine unregulierte Plattform nutzen?
+- Solltest du eine schrittweise oder eine einmalige Anlagestrategie verfolgen?
+- Solltest du eine regulierte oder eine unregulierte Plattform nutzen?
 
-### Akquisitionsstrategien
+### Anlagestrategien
 
 - Dollar Cost Average
 
-Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kleiner Bitcoin-Beträge in regelmäßigen Abständen. Diese Methode glättet den Preis im Laufe der Zeit und sorgt für ein kontinuierliches Wachstum der Bitcoin-Menge, die man besitzt. Es ist eine ideale Lösung für langfristiges Sparen und mindert die Bedenken wegen der Preisschwankungen von Bitcoin. Einmal eingerichtet, können Sie es einfach vergessen und Ihre Investition wachsen sehen.
+Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kleiner Bitcoin-Beträge in regelmäßigen Abständen. Diese Methode glättet den Preis im Laufe der Zeit und sorgt für ein kontinuierliches Wachstum der Bitcoin-Menge, die man besitzt. Es ist eine ideale Lösung für langfristiges Sparen und mindert die Bedenken wegen der Preisschwankungen von Bitcoin. Einmal eingerichtet, kannst du es einfach vergessen und deine Investition wachsen sehen.
 
 ![image](assets/en/74.webp)
 
-**Vorsicht vor UTXOs**: Denken Sie daran, Ihre UTXOs von Zeit zu Zeit in Ihren Geldbörsen zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
+**Vorsicht vor UTXO's**: Denk daran, deine UTXOs von Zeit zu Zeit in deinen Wallets zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
 
 Ein [UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
 
 - Spontankauf
 
-Eine Sofortlösung könnte ein Spontankauf sein, der genutzt wird, um sofort mit Bitcoin in Kontakt zu kommen. Ob Sie während eines Börsencrashs kaufen oder einen Bonus nutzen - die Entscheidung liegt bei Ihnen. Sie müssen nur den Mut aufbringen und auf den Kauf-Knopf drücken.
+Eine Sofortlösung könnte ein Spontankauf sein, der genutzt wird, um sofort mit Bitcoin in Kontakt zu kommen. Ob du während eines Börsencrashs kaufst oder einen Bonus nutzt - die Entscheidung liegt bei dir. Du musst nur den Mut aufbringen und auf den Kauf-Knopf drücken.
 
-In diesem Fall sollten Sie vorsichtig sein und Ihre Emotionen kontrollieren, da der Bitcoin-Kurs sehr volatil sein kann. In der Tat sind FOMO (Fear of Missing Out) und FUD (Fear, Uncertainty, Doubt) Ihre schlimmsten Feinde! Denken Sie daran, ruhig zu bleiben und der Strategie zu folgen, die Sie im Voraus festgelegt haben, um impulsive und potenziell schädliche Entscheidungen zu vermeiden.
+In diesem Fall solltest du vorsichtig sein und deine Emotionen kontrollieren, da der Bitcoin-Kurs sehr volatil sein kann. In der Tat sind FOMO (Fear of Missing Out, z.D. Angst etwas zu verpassen) und FUD (Fear, Uncertainty, Doubt, z.D. Angst, Unsicherheit, Zweifel) deine schlimmsten Feinde! Denke daran, ruhig zu bleiben und der Strategie zu folgen, die du im Voraus festgelegt hast, um impulsive und potenziell schädliche Entscheidungen zu vermeiden.
 
 ### Von wem sollten wir unsere Bitcoin kaufen?
 
@@ -1131,9 +1131,9 @@ Es gibt mehrere Möglichkeiten, Bitcoins zu erwerben, die jeweils eigenen Vorsch
 
 - DCA-Plattformen
 
-Wie bereits erwähnt, ist eine gängige Methode zum Sammeln von Bitcoins das Dollar Cost Averaging (DCA), bei dem regelmäßig kleine Beträge gekauft werden. Mehrere Plattformen bieten diesen Service an, wie z.B. die auf unserer [speziellen Seite](https://planb.network/tutorials/exchange) aufgeführten. Abgesehen von der Einfachheit, mit der ein DCA eingerichtet wird, erfolgen die Abhebungen auf Ihre Geldbörse im Allgemeinen automatisch, was bedeutet, dass Sie immer die Kontrolle über Ihr Vermögen haben.
+Wie bereits erwähnt, ist eine gängige Methode zum Sammeln von Bitcoins das Dollar Cost Averaging (DCA), bei dem regelmäßig kleine Beträge gekauft werden. Mehrere Plattformen bieten diesen Service an, wie z.B. die auf unserer [speziellen Seite](https://planb.network/tutorials/exchange) aufgeführten. Abgesehen von der Einfachheit, mit der ein DCA eingerichtet wird, erfolgen die Abhebungen auf Ihre Wallet im Allgemeinen automatisch, was bedeutet, dass du immer die Kontrolle über dein Vermögen hast.
 
-Heute sind fast alle DCA-Lösungen relativ effizient und haben fast ähnliche Gebühren, so dass die Wahl eher von der Verfügbarkeit in Ihrem Land abhängt.
+Heute sind fast alle DCA-Lösungen relativ effizient und haben fast ähnliche Gebühren, so dass die Wahl eher von der Verfügbarkeit in deinem Land abhängt.
 
 - Makler-Plattformen
 
@@ -1141,25 +1141,25 @@ Für große Investitionen werden regulierte und anerkannte Plattformen wie Krake
 
 Ihre Nutzung ist einfach und für jedermann zugänglich:
 
-1. Ein KYC/\*-Konto einrichten
+1. Ein KYC-Konto einrichten
 
-2. Geld auf Ihr Konto überweisen
+2. Geld auf dein Konto überweisen
 
 3. Bitcoin kaufen
 
-4. Bitcoin in Ihr Portemonnaie abheben
+4. Bitcoin auf deine Wallet senden
 
 ![image](assets/en/75.webp)
 
-Nach dem Kauf ist es ratsam, die Bitcoins sofort von den Börsenplattformen abzuheben, um das Risiko von Hackerangriffen und Geldsperrungen zu minimieren. Seien Sie sich bewusst, dass die Abhebungsgebühren hoch sein können, manchmal bis zu 25 Euro, je nach Plattform.
+Nach dem Kauf ist es ratsam, die Bitcoins sofort von den Börsenplattformen abzuheben, um das Risiko von Hackerangriffen und Geldsperrungen zu minimieren. Sei dir bewusst, dass die Abhebungsgebühren hoch sein können, manchmal bis zu 25 Euro, je nach Plattform.
 
-\*\*Die KYC-Vorschriften (Know Your Customer) verlangen von den Nutzern eine Identifizierung, um Terrorismusfinanzierung, Steuerhinterziehung und Geldwäsche zu bekämpfen
+**Die KYC-Vorschriften (Know Your Customer) verlangen von den Nutzern eine Identifizierung, um Terrorismusfinanzierung, Steuerhinterziehung und Geldwäsche zu bekämpfen.**
 
 Es ist wichtig zu erkennen, dass KYC ein wichtiges Diskussionsthema in der Bitcoin-Branche ist. Während viele Menschen über seine Effektivität diskutieren, gibt es zahlreiche Bedenken, die damit verbunden sind. In vielen Schulungsprogrammen und Inhalten unserer Akademie raten wir fortgeschrittenen Nutzern, Plattformen zu meiden, die KYC verlangen, da es oft datenschutzfreundlichere Alternativen gibt.
 
 ### Nicht-KYC-Lösungen
 
-Darüber hinaus gibt es mehrere [Marktplätze](https://planb.network/tutorials/exchange), auf denen man Bitcoins in einem Peer-to-Peer-Austausch kaufen und verkaufen kann. Im Allgemeinen sollten Sie Folgendes beachten:
+Darüber hinaus gibt es mehrere [Marktplätze](https://planb.network/tutorials/exchange), auf denen man Bitcoins in einem Peer-to-Peer-Austausch kaufen und verkaufen kann. Im Allgemeinen solltest du folgende Optionen in Betracht ziehen:
 
 - Bitcoin-Geldautomaten
 - Physische Treffen mit anderen Bitcoin-Enthusiasten
@@ -1169,7 +1169,7 @@ Darüber hinaus gibt es mehrere [Marktplätze](https://planb.network/tutorials/e
 
 ![image](assets/en/76.webp)
 
-Abschließend sei darauf hingewiesen, dass die steuerlichen Verpflichtungen je nach Land variieren können. Wir empfehlen Ihnen daher dringend, sich über die Vorschriften Ihres Landes zu informieren, bevor Sie Maßnahmen ergreifen, die Sie einem Risiko aussetzen könnten.
+Abschließend sei darauf hingewiesen, dass die steuerlichen Verpflichtungen je nach Land variieren können. Wir empfehlen dir daher dringend, dich über die Vorschriften deines Landes zu informieren, bevor du Maßnahmen ergreifst, die dich einem Risiko aussetzen könnten.
 
 ## Hyper-Bitcoinisierung
 

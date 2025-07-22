@@ -67,106 +67,85 @@ Anda dapat menggunakan beberapa alat bantu, seperti Balena Etcher :
 **Tampilan Awal**
 
 Saat booting dari Flash Drive USB, Anda akan melihat layar ini, yang memungkinkan Anda memulai Ubuntu.
-
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Pilihan bahasa
+**Pilihan bahasa**
 
 Pilih bahasa yang Anda sukai untuk instalasi dan sistem.
-
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Opsi aksesibilitas
+**Opsi aksesibilitas**
 
 Konfigurasikan opsi aksesibilitas jika perlu (pembaca layar, kontras tinggi, dll.).
-
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Konfigurasi keyboard
+**Konfigurasi keyboard**
 
-Pilih tata letak keyboard Anda. Bidang uji tersedia untuk memeriksa apakah tombol-tombol tersebut sesuai dengan konfigurasi Anda.
-
+Pilih tata letak keyboard Anda. Tersedia kolom pengujian untuk memeriksa apakah tombol-tombol sesuai dengan konfigurasi Anda.
 ![Configuration du clavier](assets/fr/09.webp)
 
 **Koneksi jaringan**
 
 Sambungkan ke Wi-Fi atau jaringan kabel Anda untuk mengunduh pembaruan selama penginstalan.
-
 ![Configuration réseau](assets/fr/10.webp)
 
-**Jenis pemasangan
+**Jenis pemasangan**
 
-Pilih antara "Coba Ubuntu" (untuk menguji tanpa menginstal) atau "Instal Ubuntu".
-
+Pilih antara "Try Ubuntu / Coba Ubuntu" (untuk menguji tanpa menginstal) atau "Install Ubuntu".
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Metode instalasi
+**Metode instalasi**
 
 Pilih instalasi interaktif.
-
 ![Mode d'installation](assets/fr/12.webp)
 
-**Pemilihan aplikasi
+**Pemilihan aplikasi**
 
-Pilih antara instalasi default atau pilihan aplikasi yang diperluas.
-
+Pilih antara instalasi default atau pilihan aplikasi yang lebih banyak.
 ![Sélection des applications](assets/fr/13.webp)
 
-**Aplikasi pihak ketiga
+**Aplikasi pihak ketiga**
 
-Memutuskan apakah akan menginstal driver tambahan dan perangkat lunak berpemilik atau tidak.
-
+Pilihan apakah akan menginstal driver tambahan dan perangkat lunak brand tertentu atau tidak.
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Jenis partisi
+**Jenis partisi**
 
 Anda memiliki dua opsi utama:
-
-
 - "Hapus disk dan instal Ubuntu": menggunakan seluruh disk untuk Ubuntu
 - "Instalasi manual: buat dual boot dengan Windows atau sesuaikan partisi Anda
-
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**Pembuatan akun pengguna
+**Pembuatan akun pengguna**
 
 Tetapkan nama pengguna dan kata sandi untuk akun Ubuntu Anda.
-
 ![Création du compte](assets/fr/16.webp)
 
-**Zona waktu
+**Zona waktu**
 
 Pilih area geografis Anda untuk mengatur waktu sistem.
-
 ![Sélection du fuseau horaire](assets/fr/17.webp)
 
 **Ringkasan instalasi**
-
-Periksa semua pilihan Anda sebelum memulai instalasi akhir. Setelah Anda mengklik "Instal", prosesnya akan dimulai.
-
+Periksa semua pilihan Anda sebelum memulai instalasi akhir. Setelah Anda mengklik "Install", prosesnya akan dimulai.
 ![Résumé de l'installation](assets/fr/18.webp)
 
-**4.3 Memutakhirkan Ubuntu setelah instalasi** (dalam bahasa Prancis)
+**4.3 Memperbarui Ubuntu setelah instalasi** (dalam bahasa Prancis)
 
 Memperbarui sistem Anda adalah langkah penting setelah instalasi baru. Anda memiliki dua opsi:
 
 **Opsi 1: Melalui antarmuka pengguna grafis**
-
-
 - Cari "Perangkat lunak dan pembaruan" di menu aplikasi
 - Aplikasi akan secara otomatis memeriksa pembaruan yang tersedia
 - Ikuti petunjuk di layar untuk menginstal pembaruan
 
-**Opsi 2: Melalui Terminal
-
-
+**Opsi 2: Melalui Terminal**
 - Buka Terminal (Ctrl + Alt + T)
 - Ketik perintah berikut untuk memeriksa pembaruan yang tersedia:
 
 ```bash
 sudo apt update
 ```
-
 
 - Masukkan kata sandi Anda saat diminta
 - Untuk menginstal pembaruan, ketik :
@@ -175,30 +154,28 @@ sudo apt update
 sudo apt upgrade
 ```
 
-
 - Konfirmasikan instalasi dengan mengetik 'Y' lalu Enter
 
 ### 5. Menemukan tugas-tugas dasar
 
-**5.1 Menjelajahi Internet
+**5.1** Menjelajahi Internet
 
-Secara default, Anda akan sering menemukan Firefox di bilah peluncuran.
+Secara default, Anda akan sering menemukan Firefox di baris peluncuran.
 
 Luncurkan Firefox dan mulai menjelajah.
+Browser lain (Chrome, Brave, dll.) dapat diinstal melalui Pengelola Perangkat Lunak atau melalui paket `.deb`.
 
-Peramban lain (Chrome, Brave, dll.) dapat diinstal melalui Pengelola Perangkat Lunak atau melalui paket .deb.
-
-**5.2 Pengolah kata
+**5.2 Pengolah kata**
 
 Ubuntu dilengkapi dengan paket LibreOffice (Writer untuk pengolah kata).
 
-Untuk membukanya: Aktivitas > Cari "LibreOffice Writer" atau klik ikonnya jika muncul di bar.
+Untuk membukanya: Activities/ Aktivitas > Search / Cari "LibreOffice Writer"  atau klik ikonnya jika muncul di bar.
 
 Anda dapat membuat, mengedit, dan menyimpan dokumen dalam berbagai format (termasuk .docx).
 
-**5.3 Menginstal aplikasi
+**5.3 Menginstal aplikasi**
 
-Manajer perangkat lunak (disebut "Perangkat Lunak Ubuntu"): antarmuka grafis untuk mencari dan menginstal aplikasi.
+Manajer perangkat lunak (disebut "Perangkat Lunak Ubunt / Ubuntu Software"): tampilan grafis untuk mencari dan menginstal aplikasi.
 
 Dari Terminal, gunakan perintah :
 
@@ -214,8 +191,8 @@ sudo apt install vlc
 
 ### 6. Kesimpulan dan sumber daya tambahan
 
-Sekarang Anda siap untuk menggunakan Ubuntu setiap hari: mengamankan sistem Anda, menjelajah, melakukan pekerjaan kantor, menginstal perangkat lunak, dan selalu memperbarui OS Anda!
+Anda kini siap menggunakan Ubuntu sehari-hari: mengamankan sistem, menjelajah internet, melakukan pekerjaan kantor, menginstal perangkat lunak, dan menjaga OS Anda tetap terbaru!
 
-Untuk meningkatkan keamanan kehidupan digital Anda selangkah lebih maju, kami sarankan Anda untuk melihat layanan pesan terenkripsi kami, yang sangat cocok untuk melindungi privasi Anda dan melengkapi instalasi Ubuntu Anda:
+Untuk meningkatkan keamanan kehidupan digital Anda selangkah lebih maju, kami merekomendasikan untuk melihat layanan pesan terenkripsi kami, yang sangat sesuai untuk melindungi privasi Anda dan melengkapi instalasi Ubuntu Anda:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -1,28 +1,28 @@
 ---
 name: Tails
 
-description: Menginstal Tails pada kunci USB
+description: Menginstal Tails pada Flash Drive
 ---
 
 ![image](assets/cover.webp)
 
-Sistem operasi portabel dan amnesia yang melindungi Anda dari pengawasan dan sensor.
+Sistem operasi portabel dan amnesik yang melindungi Anda dari pengawasan dan sensor.
 
-## Mengapa memiliki kunci USB dengan Tails terinstal?
+## Mengapa kita harus memiliki Flash Drive dengan Tails terinstal?
 
-Tails (https://tails.boum.org/) adalah cara termudah untuk memiliki komputer aman yang selalu tersedia kapan saja, yang tidak akan meninggalkan jejak apa pun pada komputer yang Anda gunakan bersamanya.
+Tails (https://tails.boum.org/) adalah cara termudah untuk selalu memiliki komputer aman yang siap digunakan kapan saja, yang tidak akan meninggalkan jejak apa pun di komputer yang Anda gunakan.
 
-Untuk menggunakan Tails, matikan komputer yang Anda miliki akses kepadanya (di rumah orang tua Anda, di rumah teman Anda, di kafe internet...) dan mulailah dengan kunci USB Tails Anda sebagai gantinya dari Windows, macOS, atau Linux.
+Untuk menggunakan Tails, matikan komputer yang Anda akses (di rumah orang tua, di rumah teman, di kafe internet...) lalu nyalakan dengan flash drive USB Tails Anda, bukan dengan Windows, macOS, atau Linux.
 
-Setelah itu, Anda akan memiliki lingkungan kerja dan komunikasi yang independen dari sistem operasi biasa dan tidak pernah menggunakan hard drive.
+Setelah itu, Anda akan memiliki lingkungan kerja dan komunikasi yang mandiri dari sistem operasi biasa, dan tidak membutuhkan hard drive.
 
-Tails tidak pernah menulis ke hard drive dan hanya menggunakan RAM komputer untuk berfungsi. Memori ini sepenuhnya dihapus ketika Tails dimatikan, sehingga menghilangkan semua jejak yang mungkin ada.
+Tails tidak pernah menulis ke hard drive dan hanya memakai RAM komputer untuk berfungsi. Memori ini sepenuhnya terhapus saat Tails dimatikan, sehingga menghilangkan semua jejak yang mungkin ada.
 
 ## Beberapa kasus penggunaan konkret
 
-Untuk memberi Anda ide konkret tentang manfaat selalu memiliki kunci USB dengan Tails, berikut adalah daftar kecil yang tidak lengkap yang disusun oleh tim Agora256:
+Untuk memberi Anda gambaran nyata tentang manfaat memiliki flash drive USB berisi Tails, berikut adalah daftar singkat dan tidak lengkap yang disusun oleh tim Agora256:
 
-- Terhubung ke Internet dan Tor secara tidak disensor dan anonim untuk menjelajahi situs web tanpa meninggalkan jejak;
+- Terhubung ke Internet dan Tor secara tanpa sensor dan anonim untuk menjelajahi situs web tanpa meninggalkan jejak;
 - Membuka PDF dari situs web yang mencurigakan;
 - Menguji cadangan kunci pribadi Bitcoin Anda dengan dompet Electrum;
 - Menggunakan paket office (LibreOffice) dan bekerja di komputer yang bukan milik Anda;
@@ -30,7 +30,7 @@ Untuk memberi Anda ide konkret tentang manfaat selalu memiliki kunci USB dengan 
 
 ## Bagaimana cara mempercayai Tails?
 
-Selalu ada elemen kepercayaan dalam menggunakan perangkat lunak, tetapi itu tidak harus buta. Alat seperti Tails harus berusaha untuk memberikan penggunanya sarana untuk dapat dipercaya. Untuk Tails, ini berarti:
+Selalu ada elemen kepercayaan dalam menggunakan perangkat lunak, tetapi itu tidak harus buta. Aplikasi seperti Tails harus berupaya untuk memberikan penggunanya sarana untuk dapat dipercaya. Untuk Tails, ini berarti:
 
 - Kode sumber publik: https://gitlab.tails.boum.org/;
 - Proyek berbasis pada proyek terkemuka: Tor dan Debian;
@@ -39,17 +39,16 @@ Selalu ada elemen kepercayaan dalam menggunakan perangkat lunak, tetapi itu tida
 
 ## Panduan Instalasi dan Penggunaan
 
-Tujuan dari panduan instalasi ini adalah untuk memandu Anda melalui setiap langkah instalasi. Kami tidak akan mendeskripsikan tindakan yang harus diambil lebih dari panduan resmi, tetapi kami akan menunjukkan Anda arah yang benar sambil memberi Anda tips dan trik.
+Tujuan dari panduan instalasi ini adalah untuk memandu Anda melalui setiap langkah instalasi. Kami tidak akan menjelaskan tindakan lebih dari panduan resmi, namun kami akan mengarahkan Anda ke arah yang benar sambil memberikan tips dan trik.
 
-Untuk alasan pengalaman praktis, tips ini akan difokuskan pada platform macOS dan Linux.
-🛠️
-Sebelum memulai prosedur ini, pastikan Anda memiliki kunci USB dengan kecepatan baca minimal 150 MB/s dan kapasitas minimal 8 GB, idealnya USB 3.0.
+Untuk alasan pengalaman praktis, tips ini akan difokuskan pada platform macOS dan Linux. 
+🛠️ Sebelum memulai prosedur ini, pastikan Anda memiliki Flash Drive dengan kecepatan baca minimal 150 MB/s dan kapasitas minimal 8 GB, idealnya USB 3.0.
 
 Prasyarat:
 
-- 1 kunci USB, hanya untuk Tails, dengan kapasitas minimal 8 GB
+- 1 Flash Drive, hanya untuk Tails, dengan kapasitas minimal 8 GB
 - Komputer yang terhubung ke Internet dengan Linux, macOS, (atau Windows)
-- Sekitar satu jam waktu luang, tergantung pada kecepatan koneksi Internet Anda, termasuk ½ jam untuk instalasi (file 1.3 GB untuk diunduh)
+- Waktu luang sekitar satu jam, tergantung pada kecepatan koneksi internet Anda, termasuk 30 menit untuk instalasi (file berukuran 1,3 GB untuk diunduh)
 
 ## Langkah 1: Unduh Tails dari komputer Anda
 

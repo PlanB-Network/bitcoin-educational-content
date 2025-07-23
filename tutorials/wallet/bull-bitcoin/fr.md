@@ -2,7 +2,6 @@
 name: Wallet Bull Bitcoin
 description: Comment utiliser le wallet Bull Bitcoin
 ---
-
 ![cover](assets/cover.webp)
 
 Ce guide vous accompagne dans l’installation, la configuration, et l’utilisation de Bull Bitcoin Mobile. Vous apprendrez à recevoir et envoyer des fonds sur les trois réseaux onchain, Liquid et Lightning et à transférer vos Bitcoin d’un réseau à l’autre. Des annexes fournissent les ressources et contacts, apportent du contexte, et expliquent succinctement les concepts techniques.
@@ -67,7 +66,8 @@ Avant de commencer à utiliser **Bull Bitcoin Mobile**, assurez-vous de disposer
   * **‘Instant Payments’ Wallet** : Pour les transactions sur le réseau Liquid et Lightning
 
  A l'ouverture, vous êtes donc invité à importer une phrase de récupération existante, ou à créer un nouveau wallet :
-<img src="Pasted image 20250720225531.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
+ 
+![image](assets/fr/2.webp)
 
 ### 3.2 Phrase de récupération :
 
@@ -91,16 +91,7 @@ Sinon, cliquez sur “**Create New Wallet**”
 * Configurez un **code PIN** robuste pour protéger l’accès à l’application.
 * Cette étape est facultative mais fortement recommandée pour empêcher un accès non autorisé.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720230145.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720230313.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720230405.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
-
+![image](assets/fr/3.webp)
   
 ### 3.4 Connexion à un nœud personnel (optionnel):
 
@@ -122,26 +113,15 @@ L’application génère automatiquement des adresses ou factures selon le rése
 Sur l’écran d’accueil, vous pouvez :
 * soit sélectionner le **Secure Bitcoin Wallet** puis cliquer sur “**Receive”** :
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720230822.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720231036.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
+![image](assets/fr/4.webp)
 
 * soit cliquer sur “**Receive”**, et ensuite choisir le réseau **Bitcoin** :
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720231240.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720231343.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
+![image](assets/fr/5.webp)
 
 #### 4.1.1. Option "Copy or scan address only" désactivée (par défaut)
-<img src="Pasted image 20250720231625.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
+
+![image](assets/fr/6.webp)
 
 - Ceci donne accès à des paramètres avancés, optionnels. Vous pouvez préciser :
 	- Un **montant** en BTC, en sats ou en fiat.
@@ -153,7 +133,9 @@ Sur l’écran d’accueil, vous pouvez :
 - **Utilisation** : Copiez l’URI pour le partager à l'expéditeur, ou laissez-le scannez le QR code.
 
 #### 4.1.2. Option "Copy or scan address only" activée
-<img src="Pasted image 20250720232020.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
+
+![image](assets/fr/7.webp)
+
 - Avec l’option **"Copy or scan address only"** activée, l’application génère une adresse Bitcoin simple au format SegWit (bech32).
 
 - Exemple : `bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq`.
@@ -175,29 +157,15 @@ Sur l’écran d’accueil, vous pouvez :
 Sur l’écran d’accueil, vous pouvez :
 * soit sélectionner le **Instant payments Wallet** puis cliquer sur **"Receive”** puis **"Liquid"** :
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720232600.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720232918.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720233018.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
+![image](assets/fr/8.webp)
 
 * soit cliquer sur “**Receive”**, et ensuite choisir le réseau **Liquid** :
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720231240.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720233018.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
+![image](assets/fr/9.webp)
   
-Une fois que vous êtes sur l'écran **"Receive"**, copier une adresse Liquid simple
+Une fois que vous êtes sur l'écran **"Receive"**, copier une adresse Liquid :
 
-- sans montant ni note.
+- Sans montant ni note.
   Exemple : `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz`.
 
 * Ou en précisant un **montant** (en BTC, en sats ou en fiat) et/ou une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code. 
@@ -210,25 +178,11 @@ Une fois que vous êtes sur l'écran **"Receive"**, copier une adresse Liquid si
 Sur l’écran d’accueil, vous pouvez :
 * soit sélectionner le **Instant payments Wallet** puis cliquer sur “**Receive”** :
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720232600.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720232918.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720234749.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
+![image](assets/fr/10.webp)
 
 * soit cliquer sur “**Receive”**, et ensuite choisir le réseau **Lightning** :
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720231240.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720234749.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
+![image](assets/fr/11.webp)
 
 #### 4.3.1. Fonctionnement, limites et avantages
 
@@ -260,18 +214,12 @@ Sur l’écran d’accueil, vous pouvez :
 
 Soit à partir de la page d'accueil, soit à partir des wallets :
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250720235931.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720235807.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250720235851.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
+![image](assets/fr/12.webp)
 
 vous accédez à l'écran d'envoi :
-<img src="Pasted image 20250721000213.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
+
+![image](assets/fr/13.webp)
+
 **Bull Bitcoin Mobile** facilite l’envoi de fonds en détectant automatiquement le réseau (Bitcoin, Liquid, ou Lightning) à partir de l’adresse ou de la facture saisie (copiée ou scannée via QR code).
   
 ### 5.2. Envoi onchain (réseau Bitcoin)
@@ -285,7 +233,7 @@ vous accédez à l'écran d'envoi :
 	* Le montant en BTC, en sat ou en fiat. Montant minimal : 546 satoshis au 22/07/2025.
 	* Une note optionnelle pour identifier la transaction. Uniquement visible par vous, dans les détails de la transaction. 
   
-<img src="Pasted image 20250721003402.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
+![image](assets/fr/14.webp)
 
 * Si le montant a déjà été défini, par exemple : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
   alors vous arrivez directement à l'écran de confirmation ci-après.  
@@ -293,26 +241,19 @@ vous accédez à l'écran d'envoi :
 
 Prenez bien le temps de vérifier tous les paramètres, particulièrement le montant, l'adresse de destination et les frais.
 Puis vous pouvez ajuster des paramètres :
-<img src="Pasted image 20250721003620.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
 
+![image](assets/fr/15.webp)
 - **Frais** : Vous pouvez choisir :
     * **Soit la vitesse d’exécution** de votre transaction, et les frais associés seront estimés
     * **Soit les frais**, en mode Absolute fees (frais totaux en satoshis) ou Relative fees (frais par byte), et la vitesse d’exécution de votre transaction sera estimée
 
 - **Paramètres avancés** :
 
-    - **Replace-by-Fee (RBF)** : Activé par défaut, cette fonction permet de remplacer une transaction envoyée mais encore non confirmée par une autre avec des frais plus élevés pour accélérer la confirmation (voir Annexe 4 pour détails). 
+    - **Replace-by-Fee (RBF)** : Activé par défaut, cette fonction permet d'accélérer la transaction en payant des frais plus élevés (voir Annexe 4 pour détails). 
 
     - **Sélection manuelle des UTXO** : Si vos fonds sont stockés sur plusieurs adresses différentes de ton wallet, vous pouvez choisir les adresses à partir desquelles envoyer les fonds. Pourquoi ? Avec l’adoption croissante de Bitcoin, les frais de transfert augmentent. Envoyer depuis plusieurs adresses avec de petits montants est plus coûteux qu’un envoi depuis une adresse unique, mais le faire maintenant évite de devoir le faire plus tard, lorsque les frais seront encore plus élevés. On parle de **consolidation d’UTXO.**
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="Pasted image 20250721004533.png" alt="Description de l'image 2" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-  <img src="Pasted image 20250721004605.png" alt="Description de l'image 1" height="400" style="border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
-</div>
-
+![image](assets/fr/16.webp)
 
 - **Envoi avec Payjoin** : Si la fonction a été activée par le destinataire qui a fourni l'URI, par exemple : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
   alors Bull Bitcoin Mobile va configurer l'envoi en combinant en entrée vos UTXO avec des UTXO du destinataire, améliorant la confidentialité (voir Annexe 3 pour détails).
@@ -330,7 +271,7 @@ Le réseau **Liquid** permet des transactions rapides (~2 minutes grâce à un b
 	* Le montant en BTC, en sat ou en fiat. Pas de minimum, 1 satoshi possible
 	* Une note optionnelle pour identifier la transaction. Uniquement visible par vous, dans les détails de la transaction. 
   
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-17
+![image](assets/fr/17.webp)
 
 * Si le montant a déjà été défini, par exemple : `liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d`
   alors vous arrivez directement à l'écran de confirmation ci-après.  
@@ -339,7 +280,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-17
 
 Prenez bien le temps de vérifier tous les paramètres, particulièrement le montant et l'adresse de destination.
 
-XXXXXXXXXXXXXXXXXX-18
+![image](assets/fr/18.webp)
 
 * **Frais** : Proportionnels à la complexité de la transaction, généralement sur une base 0.1 sat/vB, soit 20-40 satoshis pour une transaction simple (33 sats au 22/07/2025).
   
@@ -357,9 +298,9 @@ Le réseau **Lightning** permet des paiements instantanés à faible coût pour 
 	* Le montant en BTC, en sat ou en fiat. Montant minimal de 1000 satoshis au 23/07/2025
 	* Une note optionnelle pour identifier la transaction. Elle sera transmise au destinataire.
   
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-19
+![image](assets/fr/19.webp)
 
-* Si vous scannée une facture Lightning qui contient un montant défini
+* Si vous scannez une facture Lightning qui contient un montant défini
   Exemple : `lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72`
   alors vous arrivez directement à l'écran de confirmation ci-après. 
   Nota : le montant doit être supérieur à 21 sats au 23/07/2025
@@ -382,7 +323,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-19
 
 Prenez bien le temps de vérifier tous les paramètres, particulièrement le montant et l'adresse de destination.
 
-XXXXXXXXXXXXXXXXXX-20
+![image](assets/fr/20.webp)
 
 
 ## 6. Consultation de l’historique
@@ -391,22 +332,22 @@ XXXXXXXXXXXXXXXXXX-20
 ### 6.1. Accéder à l’historique  
 
 * **Via l’écran d’accueil** :
-    * Cliquez sur le **Secure Bitcoin Wallet** pour voir les transactions **onchain** ou sur l’**Instant Payments Wallet** pour les transactions **Liquid** et **Lightning**.
+    * Cliquez sur le **Secure Bitcoin Wallet** pour voir les transactions **onchain**, ou sur l’**Instant Payments Wallet** pour les transactions **Liquid** et **Lightning**.
     * L’historique s’affiche directement sous le montant total du portefeuille, filtré selon le type de wallet sélectionné.
 
-XXXXXXXXXXXXXXXXXX-21
-
+![image](assets/fr/21.webp)
 
 * **Via la page dédiée** :
     * Sur l’écran d’accueil, cliquez sur le **symbole de l’historique** (icône d’horloge ou similaire).
     * Accédez à une page listant toutes les transactions, avec des filtres par type d’action : **Send**, **Receive**, **Swap**, **Payjoin**, **Sell**, **Buy** (note : Sell et Buy sont en cours de développement et non disponibles à ce jour, 20 juillet 2025).
 
-XXXXXXXXXXXXXXXXXX-22
+![image](assets/fr/22.webp)
+
 ### 6.2. Détails des transactions
 
 Chaque transaction affiche des informations spécifiques selon le réseau et le type d’action (envoi ou réception). Voici les détails disponibles pour une **transaction onchain** :
 
-XXXXXXXXXXXXXXXXXX-23
+![image](assets/fr/23.webp)
   
 ### 6.3. Vérification via explorateurs de blocs
 
@@ -419,19 +360,21 @@ Pour **Lightning**, les transactions ne sont pas visibles sur des explorateurs p
 
 La page "Settings" est accessible directement depuis la page d'accueil de l'application Bull Bitcoin et permet de configurer et gérer divers aspects du portefeuille et de l'expérience utilisateur.
 
+![image](assets/fr/24.webp)
+
 * **Wallet Backup** : Affiche la phrase de récupération du portefeuille pour permettre une sauvegarde sécurisée. Consultez la section 3. sur la création du portefeuille pour les bonnes pratiques liées à la gestion et au stockage de la phrase de récupération.
 
 * **Wallet Details** :
     * **Pubkey** : Clé publique associée au portefeuille, utilisée pour générer des adresses de réception Bitcoin.
     * **Derivation Path** : Chemin de dérivation utilisé pour générer les adresses du portefeuille à partir de la clé privée.
 
-* **Electrum Server (Bitcoin Node)** : Permet de configurer une connexion à un nœud Bitcoin personnalisé pour les transactions onchain. XXXXXXXXXXXXXXXXXXXXXXXXx
+* **Electrum Server (Bitcoin Node)** : Permet de configurer une connexion à un nœud Bitcoin personnalisé pour les transactions onchain. 
 
 * **PIN Code** : Activation et/ou modification du code de sécurité pour protéger l'accès à l'application et aux fonctionnalités du portefeuille.
 
 * **Currency** : Permet de choisir l'affichage des montants en BTC ou en sats, ainsi que la monnaie fiat par défaut (dollar, euro, etc.).
 
-* **Auto Swap Settings** : XXXXXXXXXXXXXXXXXXXXXXXXx
+* **Auto Swap Settings** : La fonction _Auto Swap_ permet d’automatiser le transfert de vos BTC depuis le **Instant Payments Wallet (Liquid)** vers votre portefeuille **Bitcoin on-chain**, dès que le montant atteint un seuil que vous jugez suffisamment élevé pour justifier les frais de transaction.
 
 * **Logs** : Journaux d'activité consultables, pouvant être partagés avec le support technique pour faciliter le dépannage.
 
@@ -447,7 +390,7 @@ La page "Settings" est accessible directement depuis la page d'accueil de l'appl
 # ANNEXES
 
 ## A1. Explication de Payjoin (P2EP)
-  <img src="Pasted image 20250721004825.png" alt="Description de l'image" height="300" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
+![image](assets/fr/25.webp)
 **Définition** : 
 - Payjoin, ou **Pay-to-EndPoint (P2EP)**, est une technique de transaction Bitcoin qui améliore la confidentialité sur le réseau **onchain**. Elle combine les entrées de l’expéditeur et du destinataire dans une seule transaction, rendant les montants et les adresses plus difficiles à tracer.
   
@@ -553,7 +496,11 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 
 ### Aperçu de l'entreprise
 
- **[Bull Bitcoin](https://www.bullbitcoin.com/fr)** ([créer votre compte](https://app.bullbitcoin.com/registration/orangepeel) avec de **0,25 % de réduction sur vos achats et ventes de Bitcoin**), est une plateforme d'échange non dépositaire dédiée exclusivement au Bitcoin, fondée en 2013 à l'Ambassade Bitcoin de Montréal, Canada. Dirigée par Francis Pouliot, un pionnier reconnu dans l'écosystème Bitcoin, l'entreprise se positionne comme un acteur clé dans la promotion de la souveraineté financière et de l'autonomie des utilisateurs. Sa mission est de permettre aux individus de reprendre le contrôle de leur argent en utilisant Bitcoin comme outil de liberté et de paiement, tout en rejetant les monnaies fiat et les cryptomonnaies autres que Bitcoin.
+ **[Bull Bitcoin](https://www.bullbitcoin.com/fr)** , est une plateforme d'échange non dépositaire dédiée exclusivement au Bitcoin, fondée en 2013 à l'Ambassade Bitcoin de Montréal, Canada. Dirigée par Francis Pouliot, un pionnier reconnu dans l'écosystème Bitcoin, l'entreprise se positionne comme un acteur clé dans la promotion de la souveraineté financière et de l'autonomie des utilisateurs. Sa mission est de permettre aux individus de reprendre le contrôle de leur argent en utilisant Bitcoin comme outil de liberté et de paiement, tout en rejetant les monnaies fiat et les cryptomonnaies autres que Bitcoin.
+ 
+![image](assets/fr/26.webp)
+
+[Créer votre compte](https://app.bullbitcoin.com/registration/orangepeel) avec de 0,25 % de réduction sur vos achats et ventes de Bitcoin
 
 ### Valeurs et philosophie
 

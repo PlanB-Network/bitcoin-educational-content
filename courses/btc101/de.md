@@ -1177,7 +1177,7 @@ Abschließend sei darauf hingewiesen, dass die steuerlichen Verpflichtungen je n
 
 ### Das wilde Rennen hat gerade erst begonnen!
 
-Wie jede neue Technologie folgt die Akzeptanz von Bitcoin einer S-Kurve, die die Entwicklung von den frühen Anwendern hin zu einer breiteren Akzeptanz veranschaulicht. Wir haben die Ära der Early Adopters hinter uns gelassen, und die Indikatoren deuten auf eine potenzielle Demokratisierung von Bitcoin hin. Schließlich handelt es sich um eine virale Technologie, die sich nicht so leicht aufhalten lässt. Einerseits hat El Salvador den mutigen Schritt unternommen, Bitcoin vollständig als gesetzliches Zahlungsmittel einzuführen. Auf der anderen Seite haben andere Länder mit einem Verbot und der Kriminalisierung der Nutzung reagiert, was zeigt, dass die Akzeptanz von Bitcoin komplex ist und dem Einfluss kultureller, historischer und nationaler Faktoren ausgesetzt ist.
+Wie jede neue Technologie folgt die Akzeptanz von Bitcoin einer S-Kurve, die die Entwicklung von den frühen Anwendern (early adopters) hin zu einer breiteren Akzeptanz veranschaulicht. Wir haben die Zeit der Early-Adopters hinter uns gelassen, und die Indikatoren deuten auf eine potenzielle Demokratisierung von Bitcoin hin. Schließlich handelt es sich um eine virale Technologie, die sich nicht so leicht aufhalten lässt. Einerseits hat El Salvador den mutigen Schritt unternommen, Bitcoin vollständig als gesetzliches Zahlungsmittel einzuführen. Auf der anderen Seite haben andere Länder mit einem Verbot und der Kriminalisierung der Nutzung reagiert, was zeigt, dass die Akzeptanz von Bitcoin komplex ist und dem Einfluss kultureller, historischer und nationaler Faktoren ausgesetzt ist.
 
 ![image](assets/en/02.webp)
 
@@ -1185,101 +1185,101 @@ Der Aufstieg von Bitcoin zwingt Unternehmen, Universitäten, Regulierungsbehörd
 
 ![image](assets/en/01.webp)
 
-### Bitcoin ist eine 0 bis 1
+### Bitcoin ist eine '0 to 1' Technologie
 
-Abschließend laden wir Sie dazu ein, über diese neue Währungsrevolution nachzudenken. Es gibt so viel mit Bitcoin zu erforschen, dass es kompliziert ist, alles auf einmal zu verinnerlichen. Nehmen Sie sich Zeit, Bitcoin wird nicht verschwinden. Im Gegenteil, die Revolution hat gerade erst begonnen. Wir glauben, dass wir in der Lage sind, die Welt zu schaffen, die wir unseren Kindern anvertrauen wollen: eine Welt, in der die menschliche Souveränität ein Recht ist, in der die Privatsphäre standardmäßig respektiert wird und in der Geld nicht manipuliert wird. Wir hoffen, dass wir dies gemeinsam erreichen werden.
+Abschließend laden wir dich dazu ein, über diese neue Währungsrevolution nachzudenken. Es gibt so viel mit Bitcoin zu erforschen, dass es kompliziert ist, alles auf einmal zu verinnerlichen. Nimm dir Zeit, Bitcoin wird nicht verschwinden. Im Gegenteil, die Revolution hat gerade erst begonnen. Wir glauben, dass wir in der Lage sind, die Welt zu schaffen, die wir unseren Kindern anvertrauen wollen: eine Welt, in der die menschliche Souveränität ein Recht ist, in der die Privatsphäre standardmäßig respektiert wird und in der Geld nicht manipuliert wird. Wir hoffen, dass wir dies gemeinsam erreichen werden.
 
 ![image](assets/en/77.webp)
 
-Wenn Sie Ihr Wissen über Bitcoin erweitern möchten, ist dies der richtige Zeitpunkt: eine große Anzahl von Autoren, Denkern und Essayisten haben Bildungsinhalte über Bitcoin erstellt. In den letzten Jahren haben wir diese Werke aufgelistet und kategorisiert, um den Neugierigen unter Ihnen eine [Bibliothek der Ressourcen](https://planb.network/resources) anzubieten. In diesem Abschnitt finden Sie die besten Podcasts, Websites, Artikel, Tutorials, Bücher und andere Inhalte.
+Wenn du dein Wissen über Bitcoin erweitern möchtest, ist dies der richtige Zeitpunkt: eine große Anzahl von Autoren, Denkern und Essayisten haben Bildungsinhalte über Bitcoin erstellt. In den letzten Jahren haben wir diese Werke aufgelistet und kategorisiert, um den Neugierigen unter euch eine [Bibliothek von Ressourcen](https://planb.network/resources) anzubieten. In diesem Abschnitt findest du die besten Podcasts, Websites, Artikel, Tutorials, Bücher und andere Inhalte.
 
 > "Ich glaube, dass das Internet eine der wichtigsten Kräfte sein wird, die die Rolle des Staates reduzieren wird. Das Einzige, was noch fehlt, aber bald entwickelt werden wird, ist ein zuverlässiges elektronisches Bargeld - eine Methode, mit der man über das Internet Geld von A nach B überweisen kann, ohne dass A B oder B A kennt." - Vorhersage von Milton Friedman im Jahr 1999
 
-# Die Zukunft von Bitcoin: Das Lightning Network
+# Die Zukunft von Bitcoin: Das Lightning-Netzwek
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Eine kurze Einführung in das Lightning Network
+## Eine kurze Einführung in das Lightning-Netzwerk
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nachdem wir nun die Grundlagen des Bitcoin-Protokolls kennen, werden wir ein Zahlungsnetzwerk vorstellen, das das Bitcoin-Protokoll nutzt, um blitzschnelle Transaktionen zu ermöglichen: Lightning Network!
+Nachdem wir nun die Grundlagen des Bitcoin-Protokolls kennen, werden wir ein Zahlungsnetzwerk vorstellen, das das Bitcoin-Protokoll nutzt, um blitzschnelle Transaktionen zu ermöglichen: Lightning-Netzwerk!
 
-Bitte beachten Sie, dass es sich bei den folgenden Ausführungen nur um eine allgemeine Beschreibung handelt. Wenn Sie sich eingehender damit befassen möchten, empfehlen wir Ihnen unseren LNP201-Kurs.
+Bitte beachte, dass es sich bei den folgenden Ausführungen nur um eine allgemeine Beschreibung handelt. Wenn du dich eingehender damit befassen möchten, empfehlen wir dir unseren LNP201-Kurs.
 
 ### Kurz und bündig
 
-Das Lightning Network ist eine revolutionäre Technologie, die unsere Wahrnehmung von Bitcoin tiefgreifend verändert hat, da sie das Problem der Skalierbarkeit von Bitcoin angeht.
+Das Lightning-Netzwerk ist eine revolutionäre Technologie, die unsere Wahrnehmung von Bitcoin tiefgreifend verändert hat, da sie das Problem der Skalierbarkeit von Bitcoin angeht.
 
-Um das Lightning Network vollständig zu verstehen, ist es wichtig zu wissen, wie sich Bitcoin in Infrastrukturschichten entwickelt: Die erste Schicht ist die Blockchain, die zweite ist das Lightning Network.
+Um das Lightning-Netzwerk vollständig zu verstehen, ist es wichtig zu wissen, wie sich Bitcoin in Infrastrukturschichten entwickelt: Die erste Schicht ist die Blockchain, die zweite ist das Lightning-Netzwerk.
 
 ![image](assets/en/78.webp)
 
 ### Eine Blockchain kann nicht unbegrenzt wachsen
 
-Das Lightning Network wurde 2017 validiert und implementiert, um das Problem der Skalierbarkeit von Bitcoin zu lösen, da es sofortige, kostengünstige Bitcoin-Transaktionen ermöglicht.
+Das Lightning-Netzwerk wurde 2017 validiert und implementiert, um das Problem der Skalierbarkeit von Bitcoin zu lösen, da es sofortige, kostengünstige Bitcoin-Transaktionen ermöglicht.
 
-Das Skalierbarkeitsproblem bezieht sich auf die Herausforderung, ein Geldsystem zu implementieren, das in der Lage ist, eine ständig steigende Anzahl von Transaktionen pro Sekunde durchzuführen, um der zunehmenden Akzeptanz gerecht zu werden. Dieses Problem bezieht sich auf das Blockchain-Trilemma. Stellen Sie sich ein Dreieck mit Dezentralisierung, Sicherheit und Skalierbarkeit als Eckpunkte vor.
+Das Skalierbarkeitsproblem bezieht sich auf die Herausforderung, ein Geldsystem zu implementieren, das in der Lage ist, eine ständig steigende Anzahl von Transaktionen pro Sekunde durchzuführen, um der zunehmenden Akzeptanz gerecht zu werden. Dieses Problem bezieht sich auf das Blockchain-Trilemma. Stell sich ein Dreieck mit Dezentralisierung, Sicherheit und Skalierbarkeit als Eckpunkte vor.
 
 ![image](assets/en/79.webp)
 
-Demnach kann ein Protokoll, das auf einer Blockchain basiert, nur zwei dieser drei Merkmale erfüllen. Innerhalb des Bitcoin-Protokolls haben die Entwickler Entscheidungen zugunsten von Dezentralisierung und Sicherheit getroffen. Einerseits ermöglichen die Blockgröße von 1 MB und die Zeit zwischen zwei Blöcken (im Durchschnitt 10 Minuten) den Betrieb eines Bitcoin-Knotens zu geringeren Kosten, was die Dezentralisierung begünstigt. Andererseits macht die Erzeugung von Blöcken durch Proof-of-Work den Betrug innerhalb des Protokolls extrem kostspielig, während die Überprüfung durch Netzwerkknoten erleichtert und die Sicherheit begünstigt wird. Diese Entscheidungen erzwingen jedoch eine Begrenzung der durchschnittlichen Anzahl von Transaktionen in einem Block, was ungefähr einigen wenigen Transaktionen pro Sekunde entspricht. Diese Zahl ist lächerlich, wenn man sie mit der Rechenkapazität von Zahlungsverarbeitern wie VISA (1700/s) vergleicht, aber diese Begrenzung ist notwendig, um mit Bitcoin auf eine zensurresistente und vertrauenswürdige Weise zu handeln. Dennoch haben die Entwickler von Bitcoin von Anfang an über dieses Problem nachgedacht.
+Demnach kann ein Protokoll, das auf einer Blockchain basiert, nur zwei dieser drei Merkmale erfüllen. Innerhalb des Bitcoin-Protokolls haben die Entwickler Entscheidungen zugunsten von Dezentralisierung und Sicherheit getroffen. Einerseits ermöglichen die Blockgröße von 1 MB und die Zeit zwischen zwei Blöcken (im Durchschnitt 10 Minuten) den Betrieb einer Bitcoin-Node zu geringeren Kosten, was die Dezentralisierung begünstigt. Andererseits macht die Erzeugung von Blöcken durch Proof-of-Work den Betrug innerhalb des Protokolls extrem kostspielig, während die Überprüfung durch Netzwerkknoten erleichtert und die Sicherheit begünstigt wird. Diese Entscheidungen erzwingen jedoch eine Begrenzung der durchschnittlichen Anzahl von Transaktionen in einem Block, was ungefähr einigen wenigen Transaktionen pro Sekunde entspricht. Diese Zahl ist lächerlich, wenn man sie mit der Rechenkapazität von Zahlungsverarbeitern wie VISA (1700/s) vergleicht, aber diese Begrenzung ist notwendig, um mit Bitcoin auf einer zensurresistenten und vertrauenswürdigen Weise zu handeln. Dennoch haben die Entwickler von Bitcoin von Anfang an über dieses Problem nachgedacht.
 
-### Blitze als Überlagerungsschicht
+### Lightning als Überlagerungsschicht
 
-Nach jahrelangen Überlegungen und mehreren Versuchen wurde das Lightning-Protokoll entwickelt. Unter Verwendung einer bestimmten Anzahl von Spezifikationen konstruiert dieses Protokoll ein Peer-to-Peer-Zahlungsnetzwerk, indem es die Sicherheit und Programmierbarkeit des Transaktionsprotokolls von Bitcoin nutzt. Das Lightning Network fungiert als Netzwerk von Zahlungskanälen, das sofortige Transaktionen mit niedrigen Gebühren für den Absender ermöglicht und sogar Austauschrouten zwischen Personen schafft, die keine direkte Kanalverbindung haben.
+Nach jahrelangen Überlegungen und mehreren Versuchen wurde das Lightning-Protokoll entwickelt. Unter Verwendung einer bestimmten Anzahl von Spezifikationen konstruiert dieses Protokoll ein Peer-to-Peer-Zahlungsnetzwerk, indem es die Sicherheit und Programmierbarkeit des Transaktionsprotokolls von Bitcoin nutzt. Das Lightning-Netzwerk fungiert als Netzwerk von Zahlungskanälen, das sofortige Transaktionen mit niedrigen Gebühren für den Absender ermöglicht und sogar Austauschrouten zwischen Personen schafft, die keine direkte Kanalverbindung haben.
 
 ![image](assets/en/80.webp)
 
-Traditionelle Geldtransferdienste wie Western Union, Zentralbanken, Visa und Mastercard könnten verschwinden, wenn sie nicht die Lightning Network-Technologie übernehmen, die effizienter und kostengünstiger ist als die derzeitigen Zahlungssysteme. Das Lightning Network ermöglicht nahezu unbegrenzte Transaktionen zwischen zwei Peers, die sich einen Kanal teilen. Dabei fallen nur die mit der Transaktion verbundenen Energiekosten an, um die Einrichtung des Kanals anzukündigen, und nicht für jede einzelne Transaktion.
+Traditionelle Geldtransferdienste wie Western Union, Zentralbanken, Visa und Mastercard könnten verschwinden, wenn sie nicht die Lightning Netzwerk-Technologie übernehmen, die effizienter und kostengünstiger ist als die derzeitigen Zahlungssysteme. Das Lightning-Netzwerk ermöglicht nahezu unbegrenzte Transaktionen zwischen zwei Nutzern, die sich einen Kanal teilen. Dabei fallen nur die mit der Transaktion verbundenen Energiekosten an, um die Einrichtung des Kanals anzukündigen, und nicht für jede einzelne Transaktion.
 
 ![image](assets/en/81.webp)
 
 Die Transaktionen sind durch Kryptographie und indirekt durch die von den Bitcoin-Minern verbrauchte Energie gesichert. Sie können sofort, ohne geografische Einschränkungen und mit extrem niedrigen Gebühren (oft weniger als 0,5 %) durchgeführt werden.
 
-Zusammenfassend lässt sich sagen, dass Lightning Network ein vielversprechender Versuch ist, ein effizientes Zahlungssystem für den Kauf und Verkauf von Bitcoin zu entwickeln. Es gibt bereits zahlreiche Lightning-Wallets, die Sie in unserem Tutorial-Bereich oder in unseren Lightning Network-Kursen entdecken können.
+Zusammenfassend lässt sich sagen, dass das Lightning-Netzwerk ein vielversprechender Versuch ist, ein effizientes Zahlungssystem für den Kauf und Verkauf von Bitcoin zu entwickeln. Es gibt bereits zahlreiche Lightning-Wallets, die du in unserem Tutorial-Bereich oder in unseren Lightning-Netzwerk-Kursen entdecken kannst.
 
-Wenn Sie über diese Einführung hinausgehen und die gesamte Funktionsweise des Lightning Network verstehen möchten, empfehlen wir Ihnen diesen ausgezeichneten Kurs von Fanis Michalakis zu diesem Thema:
+Wenn du über diese Einführung hinausgehen und die gesamte Funktionsweise des Lightning-Netzwerk's verstehen möchtest, empfehlen wir dir diesen ausgezeichneten Kurs von Fanis Michalakis zu diesem Thema:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-## Lightning Network Anwendungsfälle
+## Lightning-Netzwerk Anwendungsfälle
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-Wie wir soeben gesehen haben, steht das Bitcoin-Protokoll, obwohl es revolutionär ist, vor erheblichen Herausforderungen in Bezug auf die Skalierbarkeit, die für die Abwicklung all unserer täglichen Transaktionen erforderlich ist. Um diese Probleme zu lösen, wurde das Lightning Network vorgeschlagen und hat sich seitdem zu mehreren verschiedenen Implementierungen entwickelt, die alle interoperabel sind:
+Wie wir soeben gesehen haben, steht das Bitcoin-Protokoll, obwohl es revolutionär ist, vor erheblichen Herausforderungen in Bezug auf die Skalierbarkeit, die für die Abwicklung all unserer täglichen Transaktionen erforderlich ist. Um diese Probleme zu lösen, wurde das Lightning-Netzwerk vorgeschlagen und hat sich seitdem zu mehreren verschiedenen Implementierungen entwickelt, die alle miteinander kompatibel sind:
 
-- Kernblitz von Blockstream
+- Core-lightning von Blockstream
 - Eclair von Acinq
-- LND durch Blitzschlag
+- LND von Lightning strike
 
 Dieses Peer-to-Peer-Netzwerk zielt darauf ab, Mikrotransaktionen (mit sehr geringem Wert) zu erleichtern, die ansonsten aufgrund hoher Gebühren und langer Bestätigungszeiten auf der Bitcoin-Blockchain unpraktisch wären.
 
 ### Was sind die Anwendungsfälle des Netzes?
 
-Diese Technologie öffnet die Tür zu einer breiten Palette potenzieller Anwendungen für Bitcoin, die zuvor aufgrund der notwendigen Einschränkungen zur Gewährleistung der Sicherheit und Dezentralisierung von Bitcoin unerreichbar waren. Zu diesen alltäglichen Anwendungsfällen gehören die sofortige Rechnungsstellung im physischen und im Online-Handel, Streaming-Geld für Echtzeit-Zahlungen und Mikrospenden für Urheber von Inhalten. Durch die Ermöglichung eines Netzwerks von nahezu sofortigen, sicheren und kostengünstigen Transaktionen (im Durchschnitt weniger als 0,5 %) können viele bisher unvorstellbare Geschäftsmodelle realisiert werden. Dies ist möglich, weil das Lightning Network mit Satoshis (sats) arbeitet, der kleinsten Einheit von Bitcoin.
+Diese Technologie öffnet die Tür zu einer breiten Palette potenzieller Anwendungen für Bitcoin, die zuvor aufgrund der notwendigen Einschränkungen zur Gewährleistung der Sicherheit und Dezentralisierung von Bitcoin unerreichbar waren. Zu diesen alltäglichen Anwendungsfällen gehören die sofortige Rechnungsstellung im physischen und im Online-Handel, Streaming-Geld für Echtzeit-Zahlungen und Mikrospenden für Urheber von Inhalten. Durch die Ermöglichung eines Netzwerks von nahezu sofortigen, sicheren und kostengünstigen Transaktionen (im Durchschnitt weniger als 0,5 %) können viele bisher unvorstellbare Geschäftsmodelle realisiert werden. Dies ist möglich, weil das Lightning-Netzwerk mit Satoshis (sats) arbeitet, der kleinsten Einheit von Bitcoin.
 
 ![image](assets/en/82.webp)
 
-Die Videospielindustrie ist ein besonders interessantes Beispiel dafür, wie das Lightning Network genutzt werden kann, um bestehende Geschäftsmodelle zu verändern. Das Konzept des "skin in the game" ist eine Idee, die in diesem Zusammenhang kürzlich an Popularität gewonnen hat. Dabei geht es im Wesentlichen um eine finanzielle Beteiligung am Ausgang eines Spiels. Das Lightning Network ermöglicht es den Spielern, bei Spielen sehr kleine Geldbeträge zu setzen, z. B. ein paar Satoshis (etwa ein Bruchteil eines Euro-Cent), um einen Einsatz festzulegen, der den Wettbewerb anregt und gleichzeitig die Kosten für die Nutzung von Bots deutlich erhöht.
+Die Videospielindustrie ist ein besonders interessantes Beispiel dafür, wie das Lightning-Netzwerk genutzt werden kann, um bestehende Geschäftsmodelle zu verändern. Das Konzept des "skin in the game" ist eine Idee, die in diesem Zusammenhang kürzlich an Popularität gewonnen hat. Dabei geht es im Wesentlichen um eine finanzielle Beteiligung am Ausgang eines Spiels. Das Lightning-Netzwerk ermöglicht es den Spielern, bei Spielen sehr kleine Geldbeträge zu setzen, z. B. ein paar Satoshis (etwa ein Bruchteil eines Euro-Cent), um einen Einsatz festzulegen, der den Wettbewerb anregt und gleichzeitig die Kosten für die Nutzung von Bots deutlich erhöht.
 
 ![image](assets/en/83.webp)
 
-Zusammenfassend lässt sich sagen, dass die Zukunft von Mikrotransaktionen mit Bitcoin dank Innovationen wie Lightning Network vielversprechend aussieht. Da sich diese Technologien weiter entwickeln und reifen, können wir in naher Zukunft mit neuen und spannenden Anwendungen rechnen.
+Zusammenfassend lässt sich sagen, dass die Zukunft von Mikrotransaktionen mit Bitcoin dank Innovationen wie dem Lightning-Netzwerk vielversprechend aussieht. Da sich diese Technologien weiter entwickeln und reifen, können wir in naher Zukunft mit neuen und spannenden Anwendungen rechnen.
 
 ![image](assets/en/84.webp)
 
-Ein weiteres Beispiel könnte das "Geldstreaming" sein: Über das Lightning Network können wir jede Minute Mikrotransaktionen tätigen (möglicherweise ohne eine vertrauenswürdige dritte Partei), was die Möglichkeit eröffnet, mit Wirtschaftsmodellen zu experimentieren, bei denen die Verbraucher für Inhalte auf der Grundlage ihres tatsächlichen Verbrauchs bezahlen. Es ist sogar denkbar, dieses System für die Vermietung von Gütern zu nutzen. In einem solchen System wird das Geld automatisch auf der Grundlage eines vorher festgelegten Prozentsatzes auf die verschiedenen Mitwirkenden an einer Dienstleistung oder einem Produkt aufgeteilt. Dies könnte die Art und Weise, wie wir über Zahlungsmodelle nachdenken, revolutionieren: Anstatt ein monatliches Abonnement für einen Dienst zu bezahlen, könnten die Nutzer pro Minute oder sogar pro Sekunde für die Zeit, die sie mit der Nutzung des Dienstes verbringen, abgerechnet werden. Ein solches Wirtschaftsmodell könnte tiefgreifende Auswirkungen auf die Ersteller von Inhalten haben, die einen Anreiz hätten, hochwertige Inhalte zu produzieren, um die Aufmerksamkeit der Nutzer zu erhalten.
+Ein weiteres Beispiel könnte das "Geldstreaming" sein: Über das Lightning-Netzwerk können wir jede Minute Mikrotransaktionen tätigen (möglicherweise ohne eine vertrauenswürdige dritte Partei), was die Möglichkeit eröffnet, mit Wirtschaftsmodellen zu experimentieren, bei denen die Verbraucher für Inhalte auf der Grundlage ihres tatsächlichen Verbrauchs bezahlen. Es ist sogar denkbar, dieses System für die Vermietung von Gütern zu nutzen. In einem solchen System wird das Geld automatisch auf der Grundlage eines vorher festgelegten Prozentsatzes auf die verschiedenen Mitwirkenden an einer Dienstleistung oder einem Produkt aufgeteilt. Dies könnte die Art und Weise, wie wir über Zahlungsmodelle nachdenken, revolutionieren: Anstatt ein monatliches Abonnement für einen Dienst zu bezahlen, könnten die Nutzer pro Minute oder sogar pro Sekunde für die Zeit, die sie mit der Nutzung des Dienstes verbringen, abgerechnet werden. Ein solches Wirtschaftsmodell könnte tiefgreifende Auswirkungen auf die Ersteller von Inhalten haben, die einen Anreiz hätten, hochwertige Inhalte zu produzieren, um die Aufmerksamkeit der Nutzer zu erhalten.
 
 ![image](assets/en/85.webp)
 
-Zusammenfassend lässt sich sagen, dass das Lightning Network eine Vielzahl von spannenden Anwendungsfällen für Bitcoin-Nutzer eröffnet. Die sich daraus ergebenden Wirtschaftsmodelle und Geschäftsmöglichkeiten sind zahlreich und vielfältig, und wir ermutigen Sie, sich selbst davon zu überzeugen, indem Sie die Podcast-Anwendung [Fountain] (https://www.fountain.fm/) ausprobieren, die es Ihnen ermöglicht, mit ein paar Sats für das Anhören Ihrer Lieblingspodcasts belohnt zu werden!
+Abschließend lässt sich sagen, dass das Lightning-Netzwerk eine Vielzahl von spannenden Anwendungsfällen für Bitcoin-Nutzer eröffnet. Die sich daraus ergebenden Wirtschaftsmodelle und Geschäftsmöglichkeiten sind zahlreich und vielfältig, und wir ermutigen dich, dich selbst davon zu überzeugen, indem du die Podcast-App [Fountain](https://www.fountain.fm/) ausprobierst, die es dir ermöglicht, mit ein paar Sats für das Anhören Anhören Lieblingspodcasts belohnt zu werden!
 
 ## Rote Pille oder blaue Pille?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
-Wie Morpheus zu Neo sagte: "Du nimmst die blaue Pille, die Geschichte endet, du wachst in deinem Bett auf und glaubst, was immer du glauben willst. Nimmst du die rote Pille, bleibst du im Wunderland, und ich zeige dir, wie tief der Kaninchenbau ist." Sind Sie bereit, den Kaninchenbau von Bitcoin zu erkunden? Seien Sie vorsichtig, denn Sie könnten Ihre finanzielle Freiheit wiederentdecken!
+Wie Morpheus zu Neo sagte: "Nimmst die blaue Pille, endet die Geschichte, du wachst in deinem Bett auf und glaubst, was immer du glauben willst. Nimmst du die rote Pille, bleibst du im Wunderland, und ich zeige dir, wie tief der Kaninchenbau ist." Bist du bereit, den Kaninchenbau von Bitcoin zu erkunden? Sei vorsichtig, denn du könntest deine finanzielle Freiheit wiederentdecken!
 
 ### Die technologische Zukunft und ihre Auswirkungen
 
@@ -1290,18 +1290,13 @@ Nehmen wir das Beispiel der KI: In immer mehr Bereichen wie Videospiele, Bild- u
 Wir müssen uns einige wichtige Fragen stellen:
 
 - Wie gehen wir mit einer Gesellschaft um, in der 80 % der Arbeitsplätze verschwinden werden?
-- Wie können wir eine Bevölkerung wiederbeleben?
+- Wie können wir eine Bevölkerung wieder aufleben lassen?
 - Werden so viele Lehrer benötigt?
-- Die geopolitischen, politischen und menschlichen Folgen der Automatisierung werden nicht ausreichend diskutiert.
-
-Computer, Internet, Streaming und VR werden die Bildung verändern. Wir könnten einen universellen Kurs für alle französischen Schüler haben, der von der Regierung und den Lehrern verwaltet wird, die keine Vorträge mehr halten, sondern die Schüler direkt begleiten. Kinder könnten in eine virtuelle Welt eintauchen und beim Erlernen der Geschichte begleitet werden.
-
+- Die geopolitischen, politischen und menschlichen Folgen der Automatisierung werden nicht ausreichend diskutiert. Computer, Internet, Streaming und VR (Virtual Reality) werden die Bildung verändern. Wir könnten einen universellen Kurs für alle französischen Schüler haben, der von der Regierung und den Lehrern verwaltet wird, die keine Vorträge mehr halten, sondern die Schüler direkt begleiten. Kinder könnten in eine virtuelle Welt eintauchen und beim Erlernen der Geschichte begleitet werden.
 - Wo liegt die Grenze zwischen einem Lehrer und einer KI-Personifikation?
 - Wie können wir eine Gesellschaft garantieren, die in Wohlstand lebt?
 
-Diese grundlegenden Fragen für unsere Zukunft müssen erörtert und gemeinsam entschieden werden.
-
-Was ist der Zusammenhang mit Bitcoin? So wie das Internet die Kommunikationsformen revolutioniert hat, stellt Bitcoin eine technologische Revolution für neue Formen der Organisation in großem Maßstab dar, die es uns ermöglicht, Werte auszutauschen, ohne auf eine vertrauenswürdige dritte Partei angewiesen zu sein. Wollen wir die technologische Entwicklung des Geldsystems behindern oder wollen wir das Potenzial zur Kapitalvermehrung durch die zehnfachen Produktivitätsgewinne nutzen, die die Verwendung von Bitcoin und Lightning-Protokollen bietet?
+Diese grundlegenden Fragen für unsere Zukunft müssen erörtert und gemeinsam entschieden werden. Was ist der Zusammenhang mit Bitcoin? So wie das Internet die Kommunikationsformen revolutioniert hat, stellt Bitcoin eine technologische Revolution für neue Formen der Organisation in großem Maßstab dar, die es uns ermöglicht, Werte auszutauschen, ohne auf eine vertrauenswürdige dritte Partei angewiesen zu sein. Wollen wir die technologische Entwicklung des Geldsystems behindern oder wollen wir das Potenzial zur Kapitalvermehrung durch die zehnfachen Produktivitätsgewinne nutzen, die die Verwendung von Bitcoin und Lightning-Protokollen bietet?
 
 ### Was ist die Zukunft des Finanzwesens?
 
@@ -1326,23 +1321,23 @@ Auch die Zensur muss hinterfragt werden: Wer hat das Wissen, um zu entscheiden, 
 
 Wir sind der festen Überzeugung, dass die Duldung von Zensur das Recht auf freie Meinungsäußerung und das Versammlungsrecht zerstören kann, da sie sich negativ auf die Innovation und den freien Willen auswirken kann. Die Durchsetzung von Zensur ist technisch schwierig, ohne eine vollständige Dystopie zu schaffen. Welche Stelle sollte also die Zensurbefugnis haben? Die Angelegenheit ist kompliziert, und es ist auch schwierig zu entscheiden, wer eingeschränkt werden sollte oder nicht.
 
-Es gibt 2,4 Milliarden Menschen auf der Welt, die kein Bankkonto haben, was zwangsläufig zu geografischen Ungleichheiten führt. Auf der anderen Seite gewährt Bitcoin bei Transaktionen Gleichheit, unabhängig von Ihrem sozialen Status oder Ihrer politischen Position. Das Protokoll ist unpolitisch und gewährt keine besonderen Privilegien für Staatsoberhäupter oder andere einflussreiche Persönlichkeiten, wodurch sichergestellt wird, dass alle die gleichen Möglichkeiten haben, die Entwicklung voranzutreiben, anstatt einigen wenigen zu erlauben, an der Spitze zu bleiben, während andere zurückgelassen werden. Sollten alle Menschen unabhängig von ihrem sozialen Status Zugang zur gleichen Währung haben? Es ist wichtig, sich Gedanken über die Welt zu machen, die wir unseren Kindern hinterlassen wollen, und wir streben eine offene Welt an, in der sie ihr Geld nach eigenem Ermessen verwalten können.
+Es gibt 2,4 Milliarden Menschen auf der Welt, die kein Bankkonto haben, was zwangsläufig zu geografischen Ungleichheiten führt. Auf der anderen Seite gewährt Bitcoin bei Transaktionen Gleichheit, unabhängig von Ihrem sozialen Status oder Ihrer politischen Position. Das Protokoll ist unpolitisch und gewährt keine besonderen Privilegien für Staatsoberhäupter oder andere einflussreiche Persönlichkeiten, wodurch sichergestellt wird, dass alle die gleichen Möglichkeiten haben, die Entwicklung voranzutreiben, anstatt einigen wenigen zu erlauben, an der Spitze zu bleiben, während andere zurückgelassen werden. Sollten alle Menschen unabhängig von ihrem sozialen Status Zugang zur gleichen Währung haben? Es ist wichtig, sich Gedanken über die Welt zu machen, die wir unseren Kindern hinterlassen wollen, und wir streben eine offene Welt an, in der du dein Geld nach eigenem Ermessen verwalten kannst.
 
 Bitcoin ist wichtig und sollte nicht nur als Glücksspiel betrachtet werden. Deshalb ist es wichtig, immer wieder Fragen über Bitcoin und seine Auswirkungen auf die Welt zu stellen.
 
 ### Bitcoin: ein revolutionäres Protokoll
 
-Wie wir im vorigen Kapitel gesehen haben, ist das Bitcoin-Protokoll gegenüber allen seinen Nutzern neutral. Dank der Konsensregeln und der Kryptographie können wir Transaktionen unveränderlich in einem globalen öffentlichen Hauptbuch aufzeichnen und so Geldwerttransfers ohne eine vertrauenswürdige dritte Partei garantieren. Die Infrastruktur der zweiten Schicht (und bald der dritten Schicht mit RGB) wird für die Skalierbarkeit des Netzwerks und die Entwicklung neuer Funktionen genutzt.
+Wie wir im vorherigen Kapitel gesehen haben, ist das Bitcoin-Protokoll gegenüber allen seinen Nutzern neutral. Dank der Konsensregeln und der Kryptographie können wir Transaktionen unveränderlich in einem globalen öffentlichen Hauptbuch aufzeichnen und so Geldwerttransfers ohne eine vertrauenswürdige dritte Partei garantieren. Die Infrastruktur der zweiten Schicht (und bald der dritten Schicht mit RGB, "Really Good Bitcoin") wird für die Skalierbarkeit des Netzwerks und die Entwicklung neuer Funktionen genutzt.
 
-Bitcoin hat alle notwendigen Eigenschaften, um eine effiziente und gesunde Währung zu sein: teilbar, sofort transportierbar, unzensierbar, vernachlässigbare Verifizierungskosten und mit einer Geldpolitik, die bereits auf 21 Millionen Einheiten für die nächsten Jahrhunderte festgelegt ist. Bitcoin ist pseudonym und kann überall auf der Welt ohne Autorisierung durch irgendeine Einrichtung getauscht werden. Sie müssen nur Ihre eigenen privaten Schlüssel besitzen und sich an das Sprichwort "Nicht Ihre Schlüssel, nicht Ihre Bitcoins" erinnern.
+Bitcoin hat alle notwendigen Eigenschaften, um eine effiziente und gesunde Währung zu sein: teilbar, sofort transportierbar, unzensierbar, vernachlässigbare Verifizierungskosten und mit einer Geldpolitik, die bereits auf 21 Millionen Einheiten für die nächsten Jahrhunderte festgelegt ist. Bitcoin ist pseudonym und kann überall auf der Welt ohne Autorisierung durch irgendeine Einrichtung getauscht werden. Du musst nur deine eigenen privaten Schlüssel besitzen und dich an das Sprichwort "Nicht deine Schlüssel, nicht deine Bitcoins" erinnern.
 
-Bitcoin wird von den unterschiedlichsten Personengruppen angenommen, von Kryptographen über Libertäre bis hin zu traditionellen Unternehmen und sogar ganzen Ländern. Bitcoin ist jedoch für alle da, und mit der wachsenden Zahl von Nutzern wächst auch die Zahl der Bitcoin-Knoten, die als Hüter der Transaktionshistorie dienen und die Dezentralität des Systems gewährleisten.
+Bitcoin wird von den unterschiedlichsten Personengruppen angenommen, von Kryptographen über Libertäre bis hin zu traditionellen Unternehmen und sogar ganzen Ländern. Bitcoin ist jedoch für alle da, und mit der wachsenden Zahl von Nutzern wächst auch die Zahl der Bitcoin-Nodes, die als Hüter der Transaktionshistorie dienen und die Dezentralität des Systems gewährleisten.
 
-Bitcoin kann nicht aufgehalten und nicht mehr zensiert werden. Es handelt sich um eine friedliche Revolution, die das Geldsystem verändert und finanzielle Teilhabe ermöglicht. Nutzer können Bitcoins erhalten, indem sie sie für ihren Handel akzeptieren oder sie über regulierte oder unregulierte Plattformen kaufen. Sie können Gelder in ihren Geldbörsen, mobilen Anwendungen oder physischen Geräten speichern, ohne dass sie auf vertrauenswürdige Vermittler angewiesen sind. Bitcoin steht für Transparenz, Freiheit und Eigenverantwortung: "Don't Trust, Verify", heißt es.
+Bitcoin kann nicht aufgehalten und nicht mehr zensiert werden. Es handelt sich um eine friedliche Revolution, die das Geldsystem verändert und finanzielle Inklusion ermöglicht. Nutzer können Bitcoins erhalten, indem sie sie für ihren Handel akzeptieren oder sie über regulierte oder unregulierte Plattformen kaufen. Sie können Gelder in ihren Geldbörsen, mobilen Anwendungen oder physischen Geräten speichern, ohne dass sie auf vertrauenswürdige Vermittler angewiesen sind. Bitcoin steht für Transparenz, Freiheit und Eigenverantwortung: "Don't Trust, Verify", heißt es.
 
-Satoshi schuf Bitcoin im Jahr 2008, um eine Änderung des Finanzsystems durch die Änderung der Währung vorzuschlagen, weil er wusste, dass der Zugang zu einfachem und "magischem" Geld leicht zu Korruption führt. Bitcoin ist daher eine Alternative zum Aufbau eines neuen neutralen Geldsystems, da es die Emanzipation vom Bankensystem ermöglicht. Letztendlich handelt es sich um ein soziales Phänomen, das uns ermutigt, an einer friedlichen Revolution teilzunehmen.
+Satoshi schuf Bitcoin im Jahr 2008, um eine Änderung des Finanzsystems durch die Änderung der Währung vorzuschlagen, weil er wusste, dass der Zugang zu einfach herzustellenden Geld leicht zu Korruption führt. Bitcoin ist daher eine Alternative zum Aufbau eines neuen neutralen Geldsystems, da es uns aus der Abhängigkeit vom Bankensystem befreit. Letztendlich handelt es sich um ein Phänomen, das uns ermutigt, an einer friedlichen Revolution teilzunehmen.
 
-Sind Sie bereit, mitzumachen?
+Bist du bereit mitzumachen?
 
 # Abschließender Abschnitt
 

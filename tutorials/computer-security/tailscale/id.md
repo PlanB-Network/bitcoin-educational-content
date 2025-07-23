@@ -39,9 +39,7 @@ Berkat WireGuard, semua komunikasi di Tailscale terenkripsi secara end-to-end. T
 
 Namun, arsitektur ini bergantung pada Tailscale Inc. untuk koordinasi jaringan. Untuk menghilangkan ketergantungan ini, Headscale menawarkan alternatif open sorce yang memungkinkan Anda melakukan self-host server kontrol sambil tetap menggunakan aplikasi Tailscale resmi. Dengan begitu, Anda memiliki kedaulatan penuh atas infrastruktur jaringan Anda, meskipun dengan biaya konfigurasi yang lebih teknis.
 
-**Untuk penjelasan rinci tentang cara kerja Tailscale, termasuk manajemen bidang kontrol, penjelajahan NAT, dan relay DERP, kami merekomendasikan artikel yang sangat bagus [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) di blog resminya. Artikel ini menjelaskan secara mendalam konsep teknis yang membuat Tailscale begitu kuat.
-
-Untuk penjelasan lebih rinci tentang cara kerja Tailscale, termasuk manajemen bidang kontrol, NAT traversal, dan relai DERP, kami merekomendasikan artikel luar biasa [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) di blog resmi mereka. Artikel ini menjelaskan secara mendalam konsep teknis yang menjadikan Tailscale begitu kuat.
+**Untuk penjelasan lebih rinci tentang cara kerja Tailscale**, termasuk manajemen bidang kontrol, NAT traversal, dan relai DERP, kami merekomendasikan artikel luar biasa [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) di blog resmi mereka. Artikel ini menjelaskan secara mendalam konsep teknis yang menjadikan Tailscale begitu kuat.
 
 ## 3. Memasang Tailscale
 
@@ -150,7 +148,7 @@ Web administrasi Konsol memungkinkan Anda melihat dan mengelola semua perangkat 
 
 CLI sangat bermanfaat pada server tanpa tampilan grafis dan untuk penulisan script tindakan tertentu.
 
-**Perbedaan Penggunaan: ** Sebagian besar konfigurasi dasar dapat dilakukan baik melalui tampilan web maupun CLI. Contohnya, penambahan perangkat dapat dilakukan dengan prompt melalui konsol, atau dengan menjalankan `tailscale up` pada perangkat dan memvalidasinya melalui web. Demikian pula, penggantian nama perangkat dapat dilakukan melalui konsol atau dengan perintah `tailscale set --hostname`.
+**Perbedaan Penggunaan:** Sebagian besar konfigurasi dasar dapat dilakukan baik melalui tampilan web maupun CLI. Contohnya, penambahan perangkat dapat dilakukan dengan prompt melalui konsol, atau dengan menjalankan `tailscale up` pada perangkat dan memvalidasinya melalui web. Demikian pula, penggantian nama perangkat dapat dilakukan melalui konsol atau dengan perintah `tailscale set --hostname`.
 
 **Singkatnya**, konsol web ideal untuk administrasi jaringan global (terutama dengan banyak perangkat/pengguna), sedangkan CLI berguna untuk kontrol terperinci atas perangkat tertentu, script otomatisasi, atau penggunaan pada sistem tanpa GUI.
 

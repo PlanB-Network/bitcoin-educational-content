@@ -402,7 +402,7 @@ La question du libre-échange continue de se poser aujourd’hui. Les manuels de
 
 :::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
 
-Frédéric Bastiat, qui s'est exprimé dans les années 1840, est l'héritier d'une génération de philosophes des Lumières qui se sont battus contre la censure et pour la liberté de débattre. Pensons ici à Montesquieu, Diderot, Voltaire, Condorcet mais aussi à Rousseau .
+Frédéric Bastiat, qui s'est exprimé dans les années 1840, est l'héritier d'une génération de philosophes des Lumières qui se sont battus contre la censure et pour la liberté de débattre. Pensons ici à Montesquieu, Diderot, Voltaire, Condorcet mais aussi à Rousseau.
 
 Pour eux, l'idée était simple : plus on laisse les idées s'exprimer, plus la vérité progresse et plus les erreurs se réfutent facilement. La science progresse d'ailleurs toujours de cette manière.
 
@@ -578,7 +578,7 @@ Proudhon voit dans l’intérêt du capital la cause initiale du paupérisme et 
 
 ![image](assets/en/070.webp)
 
-Bastiat réfute son adversaire en plusieurs temps. D’abord il analyse les effets pervers de la gratuité du crédit et de la création monétaire. Un tel système ne peut qu’inciter les actions les plus risquées et les plus folles des banques et des acteurs privés car ils se savent couverts par l'État, c’est-à-dire par l'argent des contribuables : « C'est une chose grave que de placer tous les hommes en situation de se dire : Tentons la fortune avec le bien d'autrui; si je réussis, tant mieux pour moi ; si j'échoue, tant pis pour les autres ». Phrase prémonitoire tant elle pourrait s’appliquer à notre époque.
+Bastiat réfute son adversaire en plusieurs temps. D’abord il analyse les effets pervers de la gratuité du crédit et de la création monétaire. Un tel système ne peut qu’inciter les actions les plus risquées et les plus folles des banques et des acteurs privés car ils se savent couverts par l'État, c’est-à-dire par l'argent des contribuables : « C'est une chose grave que de placer tous les hommes en situation de se dire : Tentons la fortune avec le bien d'autrui ; si je réussis, tant mieux pour moi ; si j'échoue, tant pis pour les autres ». Phrase prémonitoire tant elle pourrait s’appliquer à notre époque.
 
 ![image](assets/en/071.webp)
 

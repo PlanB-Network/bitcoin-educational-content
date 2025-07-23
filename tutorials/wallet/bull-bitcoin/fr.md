@@ -13,7 +13,7 @@ Ce guide vous accompagne dans l’installation, la configuration, et l’utilisa
 
 ## Introduction
 
-**Bull Bitcoin Mobile**, développé par **[Bull Bitcoin](https://www.bullbitcoin.com/fr)** ([créer son compte](https://app.bullbitcoin.com/registration/orangepeel)), est un portefeuille Bitcoin **self-custodial**, ce qui signifie que vous contrôlez entièrement vos clés privées et donc vos fonds, sans dépendre d’un tiers. Open-source et ancré dans une philosophie cypherpunk, ce wallet combine simplicité, confidentialité, et fonctionnalités avancées comme les swaps entre réseaux et le support de Payjoin. Il permet de gérer vos bitcoins sur trois réseaux : **Bitcoin onchain**, **Liquid**, et **Lightning**, chacun adapté à des usages spécifiques.
+**Bull Bitcoin Mobile**, développé par **[Bull Bitcoin](https://www.bullbitcoin.com/fr)** ([créer son compte](https://app.bullbitcoin.com/registration/orangepeel)), est un portefeuille Bitcoin **self-custodial**, ce qui signifie que vous contrôlez entièrement vos clés privées et donc vos fonds, sans dépendre d’un tiers. Open-source et ancré dans une philosophie cypherpunk, ce wallet combine simplicité, confidentialité, et fonctionnalités avancées comme les swaps entre réseaux et le support de Payjoin. Il permet de gérer vos bitcoins sur trois réseaux : **Bitcoin onchain**, **Liquid** et **Lightning**, chacun adapté à des usages spécifiques.
 
 ### Contexte du développement
 
@@ -25,14 +25,14 @@ Le wallet répond à un défi majeur : les frais du réseau Bitcoin sont inadapt
 
 Ainsi avec Bull Bitcoin Mobile, vous pouvez par exemple accumuler de petits montants sur les portefeuilles **Liquid** ou **Lightning** puis, une fois un montant significatif atteint, vous pouvez :
 
-* Transférer vers le réseau onchain pour une conservation sécurisée à moyen ou long terme, en ayant amélioré votre vie privée
+* Transférer vers le réseau onchain pour une conservation sécurisée à moyen ou long terme, en ayant amélioré la confidentialité grâce à Liquid et/ou Lightning en amont, et avec des frais onchain pour une seule transaction
 * Ouvrir un canal Lightning auto-géré sur un wallet compatible, rendant les frais d'ouverture de canal ou de gestion de liquidité négligeables par rapport au montant transféré.
 
 ### Évolution continue
 
 Le wallet évolue constamment, donc ne soyez pas surpris si vous constatez des écarts entre ce tutoriel et votre application à jour.
-Par exemple, au 19/07/2025, les boutons **"Buy / Sell / Pay"** sont visibles mais grisés dans l’application, car ces options, disponibles sur [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), seront bientôt intégrées pour une expérience unifiée. Beaucoup d’autres évolutions sont en cours ou planifiées : gestion multi wallets, passphrase, configuration d’un noeud Electrum, ...
-Vous pouvez consulter sur le [GitHub de BullBitcoin](https://github.com/orgs/SatoshiPortal/projects/49) les sujets en cours et les prochaines évolutions.
+- Par exemple, au 19/07/2025, les boutons **"Buy / Sell / Pay"** sont visibles mais grisés dans l’application, car ces options, disponibles sur [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), seront bientôt intégrées pour une expérience unifiée. Beaucoup d’autres évolutions sont en cours ou planifiées : gestion multi wallets, passphrase, configuration d’un noeud Electrum, ...
+- Vous pouvez consulter sur le [GitHub de BullBitcoin](https://github.com/orgs/SatoshiPortal/projects/49) les sujets en cours et les prochaines évolutions.
 
 
 ## 1. Prérequis
@@ -48,14 +48,14 @@ Avant de commencer à utiliser **Bull Bitcoin Mobile**, assurez-vous de disposer
 
 ## 2. Installation
 
-1. **Téléchargez l’application** :
+- **Téléchargez l’application** :
     * **[Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** (Android)
     * **App Store** (iOS) : au 22/07 la version iOS est en beta testing
     * Vérifiez le nom du développeur (Bull Bitcoin) pour éviter les applications frauduleuses.
     * Assurez-vous que la version téléchargée correspond à la dernière version stable indiquée sur GitHub.
     * Bull Bitcoin Mobile est **open-source**. Pour consulter le code : [GitHub de BullBitcoin](https://github.com/orgs/SatoshiPortal/projects/49) 
 
-2. **Installez l’application**
+- **Installez l’application**
 
 
 ## 3. Configuration initiale
@@ -110,7 +110,7 @@ Pour plus de confidentialité, vous pouvez connecter l’application à votre pr
 
 ## 4. Recevoir des fonds
 
-  Recevoir des fonds avec **Bull Bitcoin Mobile** est simple et adapté à vos besoins, que vous utilisiez :
+ Recevoir des fonds avec **Bull Bitcoin Mobile** est simple et adapté à vos besoins, que vous utilisiez :
   - le réseau **Bitcoin (onchain)** pour la conservation à long terme,
   - le réseau **Liquid** pour des transactions rapides et plus confidentielles,
   - le réseau **Lightning** pour des paiements instantanés de faibles montants.  
@@ -143,21 +143,21 @@ Sur l’écran d’accueil, vous pouvez :
 #### 4.1.1. Option "Copy or scan address only" désactivée (par défaut)
 <img src="Pasted image 20250720231625.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
 
-* Ceci donne accès à des paramètres avancés, optionnels. Vous pouvez préciser :
-    * Un **montant** en BTC, en sats ou en fiat.
-    * Une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code.
-    * L’activation de **Payjoin** (voir Annexe 3 pour détails), qui améliore la confidentialité en combinant les entrées de l’expéditeur et du destinataire.
+- Ceci donne accès à des paramètres avancés, optionnels. Vous pouvez préciser :
+	- Un **montant** en BTC, en sats ou en fiat.
+	- Une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code.
+	* L’activation de **Payjoin** (voir Annexe 3 pour détails), qui améliore la confidentialité en combinant les entrées de l’expéditeur et du destinataire.
 
-* **Exemple d’URI** automatiquement généré : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q`
+- **Exemple d’URI** automatiquement généré : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q`
 
-* **Utilisation** : Copiez l’URI pour le partager à l'expéditeur, ou laissez-le scannez le QR code.
+- **Utilisation** : Copiez l’URI pour le partager à l'expéditeur, ou laissez-le scannez le QR code.
 
 #### 4.1.2. Option "Copy or scan address only" activée
 <img src="Pasted image 20250720232020.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-* Avec l’option **"Copy or scan address only"** activée, l’application génère une adresse Bitcoin simple au format SegWit (bech32).
-  Exemple : `bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq`.
+- Avec l’option **"Copy or scan address only"** activée, l’application génère une adresse Bitcoin simple au format SegWit (bech32).
 
-* Même si vous saisissez un montant ou une note, ils ne seront pas intégrés au QR Code ou dans la copie de l'adresse
+- Exemple : `bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq`.
+  Même si vous saisissez un montant ou une note, ils ne seront pas intégrés au QR Code ou dans la copie de l'adresse
 
 - **Utilisation** : Copiez l’adresse pour la partager à l'expéditeur, ou laissez-le scannez le QR code.
 
@@ -168,7 +168,7 @@ Sur l’écran d’accueil, vous pouvez :
 	- Vous pouvez forcer la création d’une nouvelle adresse en cliquant sur **“New Address”** en bas de l'écran.
 	- Toutes vos adresses sont liées à votre seed phrase : quel que soit le nombre d’adresses utilisées, votre portefeuille affichera un solde unique et pourra regrouper automatiquement les fonds lors d’un envoi.
 
-* **Conseil : Utilisez systématiquement la nouvelle adresse** fournie par Bull Bitcoin, sauf en cas de besoin spécifique (ex. : adresse publique pour recevoir des dons).
+- **Conseil : Utilisez systématiquement la nouvelle adresse** fournie par Bull Bitcoin, sauf en cas de besoin spécifique (ex. : adresse publique pour recevoir des dons).
 
 ### 4.2. Liquid
 
@@ -195,15 +195,15 @@ Sur l’écran d’accueil, vous pouvez :
 
 </div>
   
-* Une fois que vous êtes sur l'écran **"Receive"**, vous pouvez :
+Une fois que vous êtes sur l'écran **"Receive"**, copier une adresse Liquid simple
 
-    * Copier une adresse Liquid simple (bech32 confidentielle) sans montant ni note.
-      Exemple d’adresse simple : `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz`.
+- sans montant ni note.
+  Exemple : `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz`.
 
-    * Ou renseigner un **montant** (en BTC, en sats ou en fiat) et/ou une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code. 
-      Exemple avec paramètres : `liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d`
+* Ou en précisant un **montant** (en BTC, en sats ou en fiat) et/ou une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code. 
+  Exemple : `liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d`
 
-* **Utilisation** : Copiez l’adresse/URI pour la partager à l'expéditeur, ou laissez-le scannez le QR code.
+**Utilisation** : Copiez l’adresse/URI pour la partager à l'expéditeur, ou laissez-le scannez le QR code.
 
 ### 4.3. Lightning
 
@@ -232,25 +232,26 @@ Sur l’écran d’accueil, vous pouvez :
 
 #### 4.3.1. Fonctionnement, limites et avantages
 
-* **Mécanisme** : Les fonds reçus via Lightning sont stockés sur le réseau **Liquid** (dans le Instant Payments Wallet) grâce à un swap automatique via **Boltz**.
+- **Mécanisme** : Les fonds reçus via Lightning sont stockés sur le réseau **Liquid** (dans le Instant Payments Wallet) grâce à un swap automatique via **Boltz**.
 
-* **Limites :**
-    * **Un montant minimal** de 100 satoshis (au 19/07/2025) lorsque vous générez la facture.
-    * **Des frais à votre charge** qui seront soustraits du montant envoyé par l'expéditeur, contrairement à une réception avec wallet Lightning native, où seul l’expéditeur paie les frais de transfert en plus du montant envoyé. Par exemple, au 19/07/2025, 47 sats sont déduits du montant envoyé.
+- **Limites :**
+	- **Un montant minimal** de 100 satoshis (au 19/07/2025) lorsque vous générez la facture.
+	* **Des frais à votre charge** qui seront soustraits du montant envoyé par l'expéditeur, contrairement à une réception avec wallet Lightning native, où seul l’expéditeur paie les frais de transfert en plus du montant envoyé. Au 19/07/2025, 47 sats sont déduits du montant envoyé.
 
-* **Avantages** :
-    * **Self-custodial** : Vos fonds restent sous votre contrôle, stockés sur le réseau Liquid.
-    * **Pas de frais onchain élevés** : Le stockage sur Liquid évite les dépôts onchain coûteux pour ouvrir votre canal Lightning ou ajouter des liquidités, ou pour transférer ces fonds onchain pour un stockage moyen-long terme. Ces opérations peuvent se faire plus tard, lorsque le montant accumulé sur Liquid justifie les frais.
+- **Avantages** :
+	* **Self-custodial** : Vos fonds restent sous votre contrôle, stockés sur le réseau Liquid.
+	* **Pas de frais onchain élevés** : Le stockage sur Liquid évite les dépôts onchain coûteux pour ouvrir votre canal Lightning ou ajouter des liquidités. Ces opérations peuvent se faire plus tard, lorsque le montant accumulé sur Liquid justifie les frais.
 
-* **Astuce :** si l’expéditeur possède le Wallet Bull Bitcoin, utilisez directement le réseau Liquid pour éviter les frais de swap
+- **Astuce :** Si l’expéditeur possède le Wallet Bull Bitcoin, utilisez directement le réseau Liquid pour éviter les frais de swap
+
 #### 4.3.2. Générer une facture
 
-* Renseignez un **montant** (en BTC, sats ou fiat)
-* Ajoutez une **note personnelle** qui sera intégrée dans la facture. Si l'expéditeur règle la facture, elle sera aussi reprise par votre wallet dans les détails de la transaction.
+- Renseignez un **montant** (en BTC, sats ou fiat)
+- Ajoutez une **note personnelle** qui sera intégrée dans la facture. Si l'expéditeur règle la facture, elle sera aussi reprise par votre wallet dans les détails de la transaction.
 
-* **Validité de la facture :** La facture Lightning est valide pendant **12 heures**. Après ce délai, elle expire et ne peut plus être payée, une nouvelle facture doit être générée.
+- **Validité de la facture :** La facture Lightning est valide pendant **12 heures**. Après ce délai, elle expire et ne peut plus être payée, une nouvelle facture doit être générée.
 
-* **Utilisation** : Copiez la facture pour la partager à l'expéditeur, ou laissez-le scannez le QR code.
+- **Utilisation** : Copiez la facture pour la partager à l'expéditeur, ou laissez-le scannez le QR code.
  
 
 ## 5. Envoyer des fonds
@@ -271,23 +272,23 @@ Soit à partir de la page d'accueil, soit à partir des wallets :
 
 vous accédez à l'écran d'envoi :
 <img src="Pasted image 20250721000213.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-
 **Bull Bitcoin Mobile** facilite l’envoi de fonds en détectant automatiquement le réseau (Bitcoin, Liquid, ou Lightning) à partir de l’adresse ou de la facture saisie (copiée ou scannée via QR code).
   
 ### 5.2. Envoi onchain (réseau Bitcoin)
 
 #### 5.2.1. Ecran d'envoi
 
-**Action** : Entrez ou scannez une adresse Bitcoin onchain, par exemple :
-- sans montant défini :`bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq`
-- avec montant défini : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
+**Action** : Entrez ou scannez une adresse Bitcoin onchain
 
-ce qui vous fait arriver à l'écran d'envoi :
+* Si le montant n'a pas été défini, par exemple : `bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq`
+  alors vous pourrez choisir sur l'écran d'envoi : 
+	* Le montant en BTC, en sat ou en fiat. Montant minimal : 546 satoshis au 22/07/2025.
+	* Une note optionnelle pour identifier la transaction. Uniquement visible par vous, dans les détails de la transaction. 
+  
 <img src="Pasted image 20250721003402.png" alt="Description de l'image" height="500" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-* **Montant** : Si non prédéfini, indiquez le montant en BTC, en sats ou en fiat.
-  Montant minimal : 546 satoshis au 22/07/2025
 
-* **Note** (optionnelle) : Ajoutez une note pour identifier la transaction (ex. : "Paiement pour services"). Uniquement visible par vous, dans les détails de la transaction. 
+* Si le montant a déjà été défini, par exemple : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
+  alors vous arrivez directement à l'écran de confirmation ci-après.  
 #### 5.2.2 Ecran de confirmation
 
 Prenez bien le temps de vérifier tous les paramètres, particulièrement le montant, l'adresse de destination et les frais.
@@ -313,7 +314,7 @@ Puis vous pouvez ajuster des paramètres :
 </div>
 
 
-- **Envoi avec Payjoin** si la fonction a été activée par le destinataire qui a fourni l'URI, par exemple : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
+- **Envoi avec Payjoin** : Si la fonction a été activée par le destinataire qui a fourni l'URI, par exemple : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
   alors Bull Bitcoin Mobile va configurer l'envoi en combinant en entrée vos UTXO avec des UTXO du destinataire, améliorant la confidentialité (voir Annexe 3 pour détails).
 
 ### 5.3. Envoi sur Liquid
@@ -322,47 +323,66 @@ Puis vous pouvez ajuster des paramètres :
 
 Le réseau **Liquid** permet des transactions rapides (~2 minutes grâce à un bloc par minute), plus confidentielles (montants masqués) que sur le réseau onchain, et avec des frais très faibles. Les fonds sont prélevés du **Instant Payments Wallet**. 
 
-* **Action** : Entrez ou scannez une adresse Liquid au format bech32 confidentielle, par exemple : 
-* sans montant défini : `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz`
-* avec montant défini : liquidnetwork: `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d`
+ **Action** : Entrez ou scannez une adresse Liquid
+
+* Si le montant n'a pas été défini, par exemple : `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz`
+  alors vous pourrez choisir sur l'écran d'envoi : 
+	* Le montant en BTC, en sat ou en fiat. Pas de minimum, 1 satoshi possible
+	* Une note optionnelle pour identifier la transaction. Uniquement visible par vous, dans les détails de la transaction. 
   
-  ce qui vous fait arriver à l'écran d'envoi :
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-17
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-* **Montant** : Si non pré-défini, indiquez le montant en BTC, en sat ou en fiat
-  Pas de minimum, 1 satoshi possible.
-
-* **Note** (optionnelle) : Ajoutez une note pour identifier la transaction (ex. : "Paiement pour services"). Uniquement visible par vous, dans les détails de la transaction. 
+* Si le montant a déjà été défini, par exemple : `liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d`
+  alors vous arrivez directement à l'écran de confirmation ci-après.  
 
 #### 5.3.2 Ecran de confirmation
 
 Prenez bien le temps de vérifier tous les paramètres, particulièrement le montant et l'adresse de destination.
 
-XXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXX-18
 
 * **Frais** : Proportionnels à la complexité de la transaction, généralement sur une base 0.1 sat/vB, soit 20-40 satoshis pour une transaction simple (33 sats au 22/07/2025).
   
 ### 5.4. Envoi sur Lightning
 
-Le réseau **Lightning** permet des paiements instantanés à faible coût pour les transactions de faibles montants, idéaux pour les petites transactions quotidiennes. Les fonds sont prélevés du **Instant Payments Wallet** (Liquid) et convertis via un swap **Liquid → Lightning** avec **Boltz**. Ce swap implique un montant minimal et des frais plus élevés qu’en utilisant un wallet Lightning native, mais cette solution offre des avantages : contrôle total des fonds (self-custodial) et absence de frais onchain élevés pour ouvrir ou gérer la liquidité des canaux Lightning (voir section 4.3.3 pour détails).
+#### 5.3.1 Ecran d'envoi
 
-* **Action** : Entrez ou scannez 
-	* une facture Lightning qui contient un montant défini
-	  Exemple : `lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72`
-	* une adresse LN-URL qui vous laisse définir le montant
-	  Exemple : `orangepeel@walletofsatoshi.com`.
+Le réseau **Lightning** permet des paiements instantanés à faible coût pour les transactions de faibles montants, idéaux pour les petites transactions quotidiennes. 
 
-  ce qui vous fait arriver à l'écran d'envoi :
+**Action** : Entrez ou scannez une facture Lightning
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+* Si vous scannez une adresse LN-URL qui vous laisse définir le montant
+  Exemple : `orangepeel@walletofsatoshi.com`.
+  alors vous pourrez choisir sur l'écran d'envoi : 
+	* Le montant en BTC, en sat ou en fiat. Montant minimal de 1000 satoshis au 23/07/2025
+	* Une note optionnelle pour identifier la transaction. Elle sera transmise au destinataire.
+  
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-19
 
-- **Montant** : Si non pré-défini, indiquez le montant en BTC, en sat ou en fiat
-  Montant minimum : 1000 satoshis au 23/07/2025.
+* Si vous scannée une facture Lightning qui contient un montant défini
+  Exemple : `lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72`
+  alors vous arrivez directement à l'écran de confirmation ci-après. 
+  Nota : le montant doit être supérieur à 21 sats au 23/07/2025
 
-* **Frais** : Variables selon le montant à transférer sur Lightning, et augmentés du swap Liquid → Lightning via Boltz.
+#### 5.3.2 Fonctionnement, limites et avantages
 
-- **Conseil :** Si vous envoyez vos satoshi à un utilisateur du wallet BullBitcoin, privilégiez Liquid  plutôt que Lightning pour vous économiser les frais de swap.
+* **Mécanisme** : Les fonds sont prélevés du **Instant Payments Wallet** (Liquid) et convertis via un swap **Liquid → Lightning** avec **Boltz**. 
+
+* **Limites :**
+    * **Un montant minimal** supérieur à un wallet Lightning native (voir ci-avant)
+    * **Frais** augmentés du swap Liquid → Lightning via Boltz
+
+* **Avantages** :
+    * **Self-custodial** : Vos fonds restent sous votre contrôle, stockés sur le réseau Liquid, et transférables via Lightning si besoin
+    * **Pas de frais onchain élevés** : Le stockage sur Liquid vous a évité des dépôts onchain coûteux pour ouvrir votre canal Lightning ou ajouter des liquidités. Ces opérations peuvent se faire plus tard, lorsque le montant accumulé sur Liquid justifie les frais.
+
+* **Astuce :** si le destinataire possède le Wallet Bull Bitcoin, utilisez directement le réseau Liquid pour vous éviter les frais de swap
+
+#### 5.3.3 Ecran de confirmation
+
+Prenez bien le temps de vérifier tous les paramètres, particulièrement le montant et l'adresse de destination.
+
+XXXXXXXXXXXXXXXXXX-20
 
 
 ## 6. Consultation de l’historique
@@ -374,42 +394,25 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     * Cliquez sur le **Secure Bitcoin Wallet** pour voir les transactions **onchain** ou sur l’**Instant Payments Wallet** pour les transactions **Liquid** et **Lightning**.
     * L’historique s’affiche directement sous le montant total du portefeuille, filtré selon le type de wallet sélectionné.
 
+XXXXXXXXXXXXXXXXXX-21
+
+
 * **Via la page dédiée** :
     * Sur l’écran d’accueil, cliquez sur le **symbole de l’historique** (icône d’horloge ou similaire).
     * Accédez à une page listant toutes les transactions, avec des filtres par type d’action : **Send**, **Receive**, **Swap**, **Payjoin**, **Sell**, **Buy** (note : Sell et Buy sont en cours de développement et non disponibles à ce jour, 20 juillet 2025).
 
-* **Conseil** : Utilisez les filtres pour trier les transactions par réseau ou type d’action pour une analyse rapide.
-
+XXXXXXXXXXXXXXXXXX-22
 ### 6.2. Détails des transactions
 
 Chaque transaction affiche des informations spécifiques selon le réseau et le type d’action (envoi ou réception). Voici les détails disponibles pour une **transaction onchain** :
+
+XXXXXXXXXXXXXXXXXX-23
   
-* **Send (envoi)** :
-    * **Transaction ID (TXID)** : Identifiant unique de la transaction.
-    * **From wallet** : Secure Bitcoin Wallet.
-    * **Adresse** : Adresse du destinataire.
-    * **Amount sent** : Montant envoyé (en BTC ou fiat).
-    * **Amount received** : Montant reçu par le destinataire (après frais).
-    * **Transaction fee** : Frais payés (estimés via mempool.space).
-    * **Status** : Pending, Confirmed, ou autre.
-    * **Confirmation time** : Date et heure de la confirmation (si confirmée).
-      
-* **Receive (réception)** :
-    * **To wallet** : Secure Bitcoin Wallet.
-    * **Amount received** : Montant reçu (en BTC ou fiat).
-    * **Payjoin status** : Indique si Payjoin a été requis (Requested) ou non.
-    * **Payjoin creation time** : Date et heure de création de la transaction Payjoin (si applicable).
-
-Pour une **transaction Liquid** : idem, sans le payjoin.
-Pour une **transaction Lightning** : idem, sans le payjoin, et avec le swap Liquid &lt;> Lightning en plus.  
-
 ### 6.3. Vérification via explorateurs de blocs
 
-* **Bitcoin (onchain)** : Copiez le TXID et vérifiez sur[ mempool.space](https://mempool.space/fr/) ou[ blockstream.info](https://blockstream.info/) pour voir les confirmations et détails.
+La liste des explorateurs pour les réseaux **Bitcoin onchain**, **Liquid** et **Lightning** sont en Annexe 4.
 
-* **Liquid** : Consultez sur[ blockstream.info/liquid](https://blockstream.info/liquid). Seuls le TXID et le statut sont visibles (montants masqués pour confidentialité).
-
-* **Lightning** : Les transactions Lightning ne sont pas visibles sur des explorateurs publics. Vérifiez les détails (y compris Swap ID pour Boltz) dans l’application.
+Pour **Lightning**, les transactions ne sont pas visibles sur des explorateurs publics. Vérifiez les détails (y compris Swap ID pour Boltz) dans l’application.
 
 
 ## 7. Settings
@@ -528,10 +531,11 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 * Apprentissage et tutoriels : 
     * **[Plan ₿ Network](https://planb.network/)** : Ressources éducatives sur Bitcoin
     * **Liquid Network** Documentation
+	    * [Liquid Bootcamp Essentials](https://planb.network/fr/courses/liquid-bootcamp-essentials-6d26bcff-51a3-405f-bcdd-9af8297ce727)
+	    * 
     * **Lightning Network** Documentation
     * **Sécuriser sa phrase de récupération**
 
-  
   
 
 ## A5. Bull Bitcoin

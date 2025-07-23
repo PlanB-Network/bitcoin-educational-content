@@ -511,7 +511,7 @@ L’argument de la protection des emplois est ce que Bastiat appelle un sophisme
 
 Imaginons un couteau anglais qui se vend dans notre pays pour 2 euros, et qu’un couteau fabriqué en France en vaut 3. Si on laisse le consommateur libre d’acheter le couteau qu’il veut, il gagne un franc, qu’il peut investir ailleurs (dans un livre, ou un crayon).
 
-Si on interdit le produit anglais, le consommateur paiera un franc de plus son couteau. Le protectionnisme se traduit donc par un profit, pour une industrie nationale et par deux pertes, l’une pour une autre industrie (celle des crayons) et l’autre pour le consommateur. Au contraire, l’échange libre fait deux heureux gagnants.
+Si on interdit le produit anglais, le consommateur paiera un franc de plus son couteau. Le protectionnisme se traduit donc par un profit pour une industrie nationale et par deux pertes, l’une pour une autre industrie (celle des crayons) et l’autre pour le consommateur. Au contraire, l’échange libre fait deux heureux gagnants.
 
 ![image](assets/en/059.webp)
 
@@ -926,7 +926,7 @@ Illustrons cette question avec quelques grands sujets d’actualité. Premier ex
 
 _(Alan Greenspan, président de la FED, la banque centrale américaine, de 1987 à 2006)_
 
-Pendant des années, les dirigeants de la politique monétaire ont expliqué que si les gains sont privatisés lorsque tout va bien, les pertes seront mutualisées en cas de faillite (renflouements, plans de sauvetage, manipulation des taux d’intérêts, planche à billet etc.). Ce faisant, ils ont créé un aléa moral, ils ont facilité la prise de risque déraisonnable et ils ont incité le monde de la finance à se comporter de façon irresponsable. Ils ont donc précipité la finance dans la crise que nous avons connue.
+Pendant des années, les dirigeants de la politique monétaire ont expliqué que si les gains sont privatisés lorsque tout va bien, les pertes seront mutualisées en cas de faillite (renflouements, plans de sauvetage, manipulation des taux d’intérêts, planche à billets etc.). Ce faisant, ils ont créé un aléa moral, ils ont facilité la prise de risque déraisonnable et ils ont incité le monde de la finance à se comporter de façon irresponsable. Ils ont donc précipité la finance dans la crise que nous avons connue.
 
 ![image](assets/en/104.webp)
 
@@ -1090,7 +1090,7 @@ Le droit n’est donc pas la même chose que la loi. Le droit ne s’identifie p
 
 Le droit « ne se crée pas ». Il ne s’invente pas à partir d’une vision idéale de ce que devraient être les lois de la société, il se découvre dans la nature de l’homme et dans les règles de la civilité, transmises par la sagesse des coutumes.
 
-Ainsi les individus ont des droits naturels qui préexistent à la loi les individus ont des droits naturels qui préexistent à la loi : la Propriété, la Liberté, la Personnalité. Le rôle de la Loi doit être de préserver ces droits naturels de l’individu. Par conséquent l’État doit être limité. Nous dirions aujourd’hui que Bastiat est un adepte de l’État minimum.
+Ainsi les individus ont des droits naturels qui préexistent à la loi : la Propriété, la Liberté, la Personnalité. Le rôle de la Loi doit être de préserver ces droits naturels de l’individu. Par conséquent l’État doit être limité. Nous dirions aujourd’hui que Bastiat est un adepte de l’État minimum.
 
 ![image](assets/en/121.webp)
 
@@ -1144,7 +1144,7 @@ Chaque homme est autorisé à défendre sa vie et à faire usage de ses faculté
 
 Or quand la loi cesse d’être négative pour devenir positive, le sentiment d’inégalité s’accroît dans la société et génère les conflits. Si on élargit indéfiniment le domaine de la Loi, c'est-à-dire la responsabilité du gouvernement, on ouvre la porte à « une série sans fin de plaintes, de haines, de troubles et de révoltes », écrit-il.
 
-La fausse philanthropie dit Bastiat est l’une des grandes causes de la perversion de la loi. Certains hommes se considèrent au-dessus du reste de l’humanité et capables de faire de meilleurs choix que les autres.
+La fausse philanthropie, dit Bastiat, est l’une des grandes causes de la perversion de la loi. Certains hommes se considèrent au-dessus du reste de l’humanité et capables de faire de meilleurs choix que les autres.
 
 ![image](assets/en/127.webp)
 

@@ -448,55 +448,60 @@ La page "Settings" est accessible directement depuis la page d'accueil de l'appl
 
 ## A1. Explication de Payjoin (P2EP)
   <img src="Pasted image 20250721004825.png" alt="Description de l'image" height="300" style="display: block; margin: 0 auto; border: 2px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);">
-* **Définition** : Payjoin, ou **Pay-to-EndPoint (P2EP)**, est une technique de transaction Bitcoin qui améliore la confidentialité sur le réseau **onchain**. Elle combine les entrées de l’expéditeur et du destinataire dans une seule transaction, rendant les montants et les adresses plus difficiles à tracer.
-
-* **Fonctionnement** :
-    * Dans une transaction Payjoin, l’expéditeur et le destinataire collaborent via un serveur Payjoin compatible pour créer une transaction conjointe.
-    * Au lieu que seul l’expéditeur fournisse en entrée des satoshis, le destinataire va aussi en envoyer, ce qui brouille les informations visibles sur la blockchain : au lieu que le destinataire reçoive uniquement le montant ‘réel’ échangé, il va recevoir ce montant augmenté des satoshi qu’il a fourni en entrée.
-    * Ainsi, au lieu d’avoir une seule entrée, et le montant réel déplacé, il y a désormais deux entrées, et deux montants déplacés, qui ne correspondent pas directement au montant réel.
-    * La transaction finale ressemble à une transaction Bitcoin standard, mais elle masque le montant réel envoyé et les liens entre les adresses.
-
-* **Utilisation dans Bull Bitcoin Mobile** :
-    * Réception (fourniture d’une adresse) : activé par défaut sur le réseau Bitcoin. Voir la section 4.1.2.
-    * Envoi : L’application configure automatiquement la transaction si Payjoin est détecté. Voir section 5.2.3.
-
-* **Limites** :
-    * Payjoin nécessite que l’expéditeur et le destinataire utilisent des portefeuilles compatibles. Si ce n’est pas le cas, une transaction onchain standard est utilisée.
-    * La transaction, légèrement plus complexe qu’une transaction où seule une adresse d’expédition est utilisée, coûtera légèrement plus cher.
-
-* **Traçabilité :**
-    * Payjoin est conçu pour ressembler à une transaction Bitcoin standard (multi-entrées/multi-sorties), sans marqueur explicite. Cependant, des heuristiques avancées (ex. : sorties ambiguës, serveurs connus) peuvent faire suspecter son utilisation, sans certitude. La confidentialité est renforcée, mais pas absolue.
+**Définition** : 
+- Payjoin, ou **Pay-to-EndPoint (P2EP)**, est une technique de transaction Bitcoin qui améliore la confidentialité sur le réseau **onchain**. Elle combine les entrées de l’expéditeur et du destinataire dans une seule transaction, rendant les montants et les adresses plus difficiles à tracer.
   
+**Fonctionnement :**
+- Dans une transaction Payjoin, l’expéditeur et le destinataire collaborent via un serveur Payjoin compatible pour générer une transaction conjointe.
+- Au lieu que seul l’expéditeur fournisse des entrées (UTXO), le destinataire contribue également avec un de ses propres UTXO. Cela brouille les informations visibles sur la blockchain : au lieu d’une seule entrée correspondant au montant réel, il y a désormais deux entrées, et les sorties ne reflètent pas directement le montant échangé.
+- La transaction finale ressemble à une transaction Bitcoin standard (multi-entrées/multi-sorties), mais elle masque le montant réel envoyé et les liens entre les adresses grâce à une structure stéganographique.
+
+**Utilisation dans Bull Bitcoin Mobile**
+- **Réception** (fourniture d’une adresse) : Payjoin est activé par défaut. 
+- **Envoi** : Le wallet détecte automatiquement un URI Payjoin (ex. : `bitcoin:bc1qp2nxfqdcztq40zt6m0r2qf9wtx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...`) et configure la transaction en conséquence.
+ 
+**Avantages**
+- **Confidentialité renforcée** : Payjoin invalide l'hypothèse qui suppose que toutes les entrées d’une transaction appartiennent à une seule entité. Avec Payjoin, les entrées proviennent de l’expéditeur et du destinataire, brisant cette assumption.
+- **Masquage du montant** : Le montant réel échangé n’apparaît pas directement dans les sorties. Il est calculé comme la différence entre l’UTXO du destinataire en entrée et en sortie, rendant l’analyse trompeuse.
+
+**Limites**
+- Payjoin nécessite que l’expéditeur et le destinataire utilisent des portefeuilles compatibles, Sinon, une transaction onchain standard est utilisée.
+- La transaction est légèrement plus complexe (plus d’entrées et de sorties), ce qui entraîne des frais légèrement plus élevés.
+- Bien que conçue pour ressembler à une transaction standard, des heuristiques avancées (ex. : sorties ambiguës, serveurs Payjoin connus) peuvent faire suspecter son utilisation, bien que sans certitude absolue.
+
+**Plus d'info :**
+- [Glossaire](https://planb.network/fr/resources/glossary/payjoin)
+- Chapitre [Les transactions Payjoin](https://planb.network/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-transactions-payjoin-c1e90b95-f709-4574-837b-2ec26b11286f)
+
 
 ## A2. Explication de Replace-by-Fee (RBF)
 
-* **Définition** : **Replace-by-Fee (RBF)** est une fonctionnalité du réseau Bitcoin qui permet de remplacer une transaction **onchain** qui n’a pas encore été confirmée par une nouvelle transaction offrant des frais plus élevés, afin d’accélérer sa confirmation.
+**Définition** : Replace-by-Fee (RBF) est une fonctionnalité du réseau Bitcoin qui permet à l'expéditeur d'accélérer la confirmation d'une transaction **onchain** en acceptant de payer des frais plus élevés.
 
-* **Fonctionnement** :
-    * Lorsqu’une transaction onchain est envoyée avec des frais trop bas, elle peut rester en attente (pending) si le réseau est congestionné.
-    * Avec RBF activé (par défaut dans Bull Bitcoin Mobile, voir section 5.2.2), vous pouvez créer une nouvelle transaction avec les mêmes entrées mais des frais plus élevés, remplaçant l’originale dans le mempool (pool de transactions en attente).
-    * Les mineurs privilégient la transaction avec les frais les plus élevés, accélérant la confirmation.
+**Limites** :
+- RBF n’est pas disponible pour les transactions Liquid ou Lightning.
+* La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Bull Bitcoin Mobile fait automatiquement sauf si désactivé.
 
-* **Limites** :
-    * RBF n’est pas disponible pour les transactions Liquid ou Lightning.
-    * La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Bull Bitcoin Mobile fait automatiquement sauf si désactivé.
+**Plus d'info :** 
+- [Glossaire](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
-  
+
 ## A3. Bonnes pratiques
 
 Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suivez ces recommandations. Elles vous aideront à protéger vos fonds, optimiser vos transactions, et préserver votre confidentialité sur les réseaux **Bitcoin (onchain)**, **Liquid**, et **Lightning**.
 
 * **Sécurisez votre phrase de récupération** :
-    * Voir la section 3.2, le [Tutoriel "Sauvegarder sa phrase mnémonique](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) ou le [Cours "La phrase mnémonique"](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
+    * Tutoriel : [Sauvegarder sa phrase mnémonique](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 
+    * Cours [La phrase mnémonique](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
 
 * **Utilisez l’authentification sécurisée** : 
     * Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.
     * Ne partagez jamais votre PIN ou vos données biométriques.
 
 - **Protégez votre confidentialité** : 
-    * Générez une nouvelle adresse pour chaque réception onchain ou Liquid (voir section 4.1.3) afin de limiter le traçage sur la blockchain.
-    * Utilisez Payjoin (voir Annexe 3) lorsque disponible pour augmenter la confidentialité quant au montant envoyé onchain
-    * Pour une confidentialité maximale, connectez votre wallet à votre propre nœud Bitcoin via un serveur Electrum (voir section 3) au lieu d’utiliser le nœud public 
+    * Générez une nouvelle adresse pour chaque réception onchain ou Liquid afin de limiter le traçage sur la blockchain.
+    * Utilisez Payjoin lorsque disponible pour augmenter la confidentialité quant au montant envoyé onchain
+    * Pour une confidentialité maximale, connectez votre wallet à votre propre nœud Bitcoin via un serveur Electrum au lieu d’utiliser le nœud public 
 
 * **Choisissez le réseau adapté à vos besoins** : 
     * **Onchain** : Privilégiez pour la conservation à long terme ou les transactions de montants élevés (frais négligeables par rapport au montant).
@@ -516,25 +521,31 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 
 ## A4. Ressources supplémentaires
 
-* Liens officiels et support : 
+* **Liens officiels et support :** 
     * **[staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : email du support
     * **[Site officiel de Bull Bitcoin](https://bullbitcoin.com/) :** Informations sur les services Bull Bitcoin, création de compte, accès à l'application
     * **[GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Consulter le code, les évolution et la roadmap, contribuer au développement...
     * **[Compte X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
     * **Groupe Telegram** pour le wallet mobile : chat collectif avec support, voir la page “Settings”.
 
-* Explorateurs de blocs :
+* **Explorateurs de blocs :**
     * On chain : **[Mempool.space](https://mempool.space/)**
     * Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
     * Lightning : **[1ML (Lightning Network)](https://1ml.com/) 
 
-* Apprentissage et tutoriels : 
-    * **[Plan ₿ Network](https://planb.network/)** : Ressources éducatives sur Bitcoin
-    * **Liquid Network** Documentation
-	    * [Liquid Bootcamp Essentials](https://planb.network/fr/courses/liquid-bootcamp-essentials-6d26bcff-51a3-405f-bcdd-9af8297ce727)
-	    * 
-    * **Lightning Network** Documentation
+* **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
     * **Sécuriser sa phrase de récupération**
+	    * Tutoriel : [Sauvegarder sa phrase mnémonique](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 
+	    * Cours [La phrase mnémonique](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
+    * **Liquid Network** : 
+	    * **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
+	    * Cours : **[Liquid Bootcamp Essentials](https://planb.network/fr/courses/liquid-bootcamp-essentials-6d26bcff-51a3-405f-bcdd-9af8297ce727)**
+    * **Lightning Network** :
+	    * **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
+	    * Chapitre : **[Une brève introduction](https://planb.network/fr/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/une-breve-introduction-au-reseau-lightning-b403f1e4-f1ff-572b-a242-9b58cb3736d0)**
+	    * Cours : **[Introduction théorique](https://planb.network/fr/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb)**
+    
+
 
   
 
@@ -542,37 +553,33 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 
 ### Aperçu de l'entreprise
 
-Bull Bitcoin est une plateforme d'échange non dépositaire dédiée exclusivement au Bitcoin, fondée en 2013 à l'Ambassade Bitcoin de Montréal, Canada. Dirigée par Francis Pouliot, un pionnier reconnu dans l'écosystème Bitcoin, l'entreprise se positionne comme un acteur clé dans la promotion de la souveraineté financière et de l'autonomie des utilisateurs. Sa mission est de permettre aux individus de reprendre le contrôle de leur argent en utilisant Bitcoin comme outil de liberté et de paiement, tout en rejetant les monnaies fiat et les cryptomonnaies autres que Bitcoin. Bull Bitcoin opère principalement au Canada, en Europe (via l'acquisition de Bitcoin Lyon en 2024), au Costa Rica et au Mexique.
-
-### Création de votre compte Bull Bitcoin
-
-Créez votre compte via ce lien de parrainage pour bénéficier de **0,25 % de réduction sur vos achats et ventes de Bitcoin : [www.bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel)  
+ **[Bull Bitcoin](https://www.bullbitcoin.com/fr)** ([créer votre compte](https://app.bullbitcoin.com/registration/orangepeel) avec de **0,25 % de réduction sur vos achats et ventes de Bitcoin**), est une plateforme d'échange non dépositaire dédiée exclusivement au Bitcoin, fondée en 2013 à l'Ambassade Bitcoin de Montréal, Canada. Dirigée par Francis Pouliot, un pionnier reconnu dans l'écosystème Bitcoin, l'entreprise se positionne comme un acteur clé dans la promotion de la souveraineté financière et de l'autonomie des utilisateurs. Sa mission est de permettre aux individus de reprendre le contrôle de leur argent en utilisant Bitcoin comme outil de liberté et de paiement, tout en rejetant les monnaies fiat et les cryptomonnaies autres que Bitcoin.
 
 ### Valeurs et philosophie
 
 Bull Bitcoin se distingue par son engagement envers les principes cypherpunk et l'éthique Bitcoin :
 
-* **Non-dépositaire** : Les utilisateurs conservent le contrôle total de leurs Bitcoin via l’envoi des fonds vers leurs propres portefeuilles, conformément au principe "Not your keys, not your Bitcoin".
+* **Focus exclusif sur Bitcoin** : La plateforme est fidèle à la vision d'une monnaie décentralisée et résistante à la censure.
 
-* **Focus exclusif sur Bitcoin** : La plateforme ne propose aucune autre cryptomonnaie pour rester fidèle à la vision d'une monnaie décentralisée et résistante à la censure.
+* **Non-dépositaire** : Les utilisateurs conservent le contrôle total de leurs Bitcoin via l’envoi des fonds vers leurs propres portefeuilles.
 
 * **Confidentialité** : Minimisation de la collecte de données personnelles, avec des options d'achat sans KYC pour des transactions inférieures à 999 USD. Les données sont protégées conformément aux réglementations (FINTRAC au Canada, AMF en France).
 
-* **Transparence** : Pas de frais cachés ; les coûts sont intégrés dans le spread (écart entre prix d'achat et de vente).
+* **Transparence** : Pas de frais cachés, les coûts sont intégrés dans le spread (écart entre prix d'achat et de vente).
 
 * **Souveraineté financière** : Bull Bitcoin promeut l'indépendance vis-à-vis des systèmes bancaires traditionnels et des institutions centralisées.  
 
 ### Services principaux
 
-* **Dépôt de fiat **: Les utilisateurs peuvent approvisionner leur compte Bull Bitcoin en devises fiat (CAD, EUR, etc.) via des virements bancaires, SEPA (en Europe), Interac e-Transfer (Canada), ou en espèces/carte de débit dans certains bureaux de poste canadiens.
+* **Dépôt de fiat** : Les utilisateurs peuvent approvisionner leur compte Bull Bitcoin en devises fiat (CAD, EUR, etc.) via des virements bancaires ou en espèces/carte de débit dans certains bureaux de poste canadiens.
 
-* **Achat de Bitcoin **: Les utilisateurs peuvent acheter du Bitcoin qui est envoyé directement à leur portefeuille non dépositaire, garantissant un contrôle total de leurs fonds.
+* **Achat de Bitcoin** : Les utilisateurs peuvent acheter du Bitcoin qui est envoyé directement à leur portefeuille non dépositaire, garantissant un contrôle total de leurs fonds.
 
 * **Achat de Bitcoin programmé** : Bull Bitcoin propose un service d'achat récurrent automatisé (DCA - Dollar Cost Averaging) à intervalles réguliers, avec transfert direct des Bitcoins vers un portefeuille contrôlé par l'utilisateur, réduisant l'impact de la volatilité des prix.
 
-* **Achat de Bitcoin à un prix fixé ‘Buy Limit’ : **Permet d'acheter du Bitcoin à un prix spécifié à l’avance par l’utilisateur, qui est automatiquement exécuté lorsque le prix de l'indice Bull Bitcoin atteint ou tombe en dessous de la limite fixée.
+* **Achat de Bitcoin à un prix fixé ‘Buy Limit’** : Permet d'acheter du Bitcoin à un prix spécifié à l’avance par l’utilisateur, qui est automatiquement exécuté lorsque le prix de l'indice Bull Bitcoin atteint ou tombe en dessous de la limite fixée.
 
-* **Vente de Bitcoin **: Les utilisateurs peuvent vendre leurs Bitcoins et recevoir les fonds en devise fiat directement sur leur compte bancaire via virement bancaire ou SEPA.
+* **Vente de Bitcoin** : Les utilisateurs peuvent vendre leurs Bitcoins et recevoir les fonds en devise fiat directement sur leur compte bancaire via virement bancaire ou SEPA.
 
 * **Paiements de tiers** : Bull Bitcoin permet à l’utilisateur d'envoyer de l'argent fiat à des comptes bancaires à partir de ses Bitcoin, de façon entièrement transparente pour le destinataire.
 

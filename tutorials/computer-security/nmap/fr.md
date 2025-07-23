@@ -39,7 +39,7 @@ Les points forts de Nmap sont nombreux :
 
 Nmap est l’un des rares outils de sécurité à avoir acquis une certaine notoriété grand public. Il apparaît notamment dans le film _Matrix Reloaded_, dans une scène emblématique où Trinity l’utilise pour pirater un système :
 
-01
+![nmap-image](assets/fr/01.webp)
 
 _Scène de Matrix : Reloaded faisant apparaître Nmap._
 
@@ -93,7 +93,7 @@ La commande et le résultat suivant permettent, par exemple, de savoir rapidemen
 nmap --open -p 80 192.168.1.18
 ```
 
-02
+![nmap-image](assets/fr/02.webp)
 
 *Utilisation de Nmap pour récupérer l’état du service web sur un serveur distant.*
 
@@ -111,7 +111,7 @@ nmap -sn 192.168.1.0/24
 
 *Remarque : l’option `-sP` est obsolète et a été remplacée par `-sn`.*
 
-03
+![nmap-image](assets/fr/03.webp)
 
 *Utilisation de Nmap pour découvrir les hôtes joignables d’un réseau.*
 
@@ -141,7 +141,7 @@ Par exemple, cette commande permet de vérifier si un service FTP permet une con
 nmap --script ftp-anon -p 21 192.168.1.18
 ```
 
-04
+![nmap-image](assets/fr/04.webp)
 
 *Utilisation d’un script NSE pour vérifier la présence d’une authentification anonyme FTP via Nmap.*
 
@@ -196,7 +196,7 @@ nmap --version
 
 Voici le résultat attendu :
 
-05
+![nmap-image](assets/fr/05.webp)
 
 _Résultat de l’affichage de la version actuelle de Nmap._
 
@@ -211,7 +211,7 @@ Pour une installation sur un système d’exploitation Windows, il faut commence
 
 Il faudra alors télécharger le binaire nommé `nmap-<VERSION>-setup.exe` :
 
-06
+![nmap-image](assets/fr/06.webp)
 
 _Page de téléchargement du binaire d’installation Nmap pour Windows._
 
@@ -219,13 +219,13 @@ Une fois ce binaire présent sur votre système, il vous suffit de l’exécuter
 
 J’ai pour réflexe de décocher la case “zenmap (GUI Frontend)”, il s’agit d’une interface graphique pour Nmap que je n’utilise pas et qui ne sera pas couverte dans ce tutoriel, mais libre à vous de tenter l’expérience une fois que vous maîtriserez l’outil Nmap en ligne de commande !
 
-07
+![nmap-image](assets/fr/07.webp)
 
 _Désélection optionnelle de Zenmap lors de l’installation de Nmap sous Windows._
 
 À la fin de l’installation de Nmap, vous aurez une seconde installation de proposée : celle de la librairie “Npcap” :
 
-08
+![nmap-image](assets/fr/08.webp)
 
 _Installation de la librairie “Npcap” lors de l’installation de Nmap sous Windows._
 
@@ -239,7 +239,7 @@ nmap --version
 
 Voici le résultat attendu :
 
-09
+![nmap-image](assets/fr/09.webp)
 
 _Résultat de l’affichage de la version actuelle de Nmap._
 
@@ -251,7 +251,7 @@ Mais au fait, lors de l’utilisation de Nmap, **est-il nécessaire d’avoir de
 
 Dans son utilisation très basique, c’est-à-dire sans aller très loin dans l’usage de ses options, Nmap ne requiert pas forcément de droits privilégiés. Néanmoins, vous vous apercevrez vite qu’il est mieux d’utiliser Nmap dans un contexte privilégié (“root” sous Linux, “administrateur” ou équivalent sous Windows) pour pouvoir l’utiliser avec toutes ses capacités, au risque d’obtenir un message d’erreur comme celui-ci :
 
-10
+![nmap-image](assets/fr/10.webp)
 
 _Message d’erreur sous Linux lorsque les options de Nmap nécessitent les droits “root”._
 
@@ -315,7 +315,7 @@ nmap 192.168.1.18
 
 Voici un résultat possible, nous y voyons un retour tout à fait classique de Nmap avec de nombreuses informations :
 
-11
+![nmap-image](assets/fr/11.webp)
 
 _Résultat d’un scan TCP simple réalisé via Nmap._
 
@@ -375,7 +375,7 @@ Pourquoi 998 ports “closed” ? Si l’on ajoute les 2 ports ouverts cela fait
 
 Si l’on jette un oeil au fichier “/etc/services” sur un système Linux, on retrouve un lien “port/protocole – service” similaire à celui affiché par Nmap :
 
-12
+![nmap-image](assets/fr/12.webp)
 
 _Extrait du contenu du fichier “/etc/services” sous Linux._
 
@@ -393,13 +393,13 @@ Dans le cadre de ce test, mon hôte de scan (192.168.1.18) et mon hôte cible (1
 
 Nmap commence par chercher à savoir si l’hôte cible est actif sur le réseau local en émettant une requête ARP. En cas de réponse, il sait alors que l’hôte est actif et commence son scan réseau :
 
-13
+![nmap-image](assets/fr/13.webp)
 
 _ARP request émise par Nmap pour déterminer si un hôte cible est présent sur le réseau local._
 
 Si l’hôte à scanner est sur un réseau distant, Nmap commence par émettre un ping request et tente de joindre quelques ports très fréquemment exposés (TCP/80, TCP/443) :
 
-14
+![nmap-image](assets/fr/14.webp)
 
 _Ping request émis par Nmap pour déterminer si un hôte cible est joignable sur un réseau distant._
 
@@ -407,19 +407,19 @@ S’il obtient une réponse à l’un de ces différents essais, il considère l
 
 Une fois que Nmap a déterminé que sa cible était belle et bien active, il va chercher à résoudre son nom de domaine auprès du serveur DNS configuré sur la carte réseau, c’est vrai que l’on ne lui a pas demandé de ne pas le faire :
 
-15
+![nmap-image](assets/fr/15.webp)
 
 _Résolution DNS sur la cible du scan par Nmap._
 
 Maintenant que Nmap a bien identifié sa cible et qu’il l’a sait active, il commence à faire son scan de port TCP :
 
-16
+![nmap-image](assets/fr/16.webp)
 
 _Émission de paquet TCP SYN et réception de RST/ACK lors d’un scan Nmap._
 
 Il va pour cela, sur chaque port TCP faisant partie de son range par défaut, **envoyer des paquets TCP SYN et attendre une réponse**. Sur la capture ci-dessus, il reçoit de la part du serveur scanné des paquets TCP RST/ACK signifiant “circulez, il n’y a rien à voir”, autrement dit, ces ports sont fermés. Ce sera, nous l’avons vu dans le résultat, le cas de la plupart des ports scannés. Ceci à l’exception de deux :
 
-17
+![nmap-image](assets/fr/17.webp)
 
 _Réponse à l’envoi d’un packet TCP SYN sur le port 22, actif sur la cible du scan._
 
@@ -443,7 +443,7 @@ nmap -sU 192.168.1.19
 
 Ici, le retour obtenu a le même format que pour un scan TCP, les services actifs affichés sont cependant en `<port>/UDP`, comme demandé !
 
-18
+![nmap-image](assets/fr/18.webp)
 
 _Résultat d’un scan UDP simple réalisé via Nmap._
 
@@ -463,19 +463,19 @@ Comme lors de notre scan TCP, regardons de plus près ce qu’il se passe au niv
 
 La seule vraie différence lors d’un scan UDP est que Nmap n’attendra pas un “Three Way Handshake”, puisque ce mécanisme n’existe pas en UDP (protocole sans état) :
 
-19
+![nmap-image](assets/fr/19.webp)
 
 _Émission de paquet UDP et réception de ICMP (port unreachable) lors d’un scan Nmap._
 
 Nous voyons sur la capture ci-dessus que Nmap va émettre un grand nombre de paquets UDP, et recevoir pour la plupart d’entre eux un paquet ICMP “Destination unreachable (Port unreachable)” en réponse. C’est normal, puisqu’il s’agit de la réponse appropriée et définie par le [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") lorsqu’un port UDP n’est pas joignable :
 
-20
+![nmap-image](assets/fr/20.webp)
 
 _Extrait du RFC 1122._
 
 Regardons de plus près cette capture Wireshark, qui expose **les trois cas de figure possibles** en UDP :
 
-21
+![nmap-image](assets/fr/21.webp)
 
 _Capture réseau lors d’un scan UDP sur différents ports avec Nmap._
 
@@ -490,7 +490,7 @@ Ces trois cas de figure sont les suivants :
 
 Voici donc le résultat affiché par Nmap suite à ces trois cas de figure :
 
-22
+![nmap-image](assets/fr/22.webp)
 
 _Résultats possibles d’un scan UDP réalisé via Nmap._
 
@@ -506,7 +506,7 @@ Comme nous l’avons vu, Nmap choisit lui-même le nombre et les ports à scanne
 
 Les 1000 ports scannés dans le mode par défaut sont choisis en fonction de leur fréquence d’apparition. Il s’agit de statistiques maintenues par Nmap et mises à jour au même titre que le binaire lui-même et de ses scripts (modules). Vous pouvez vous-même consulter ces statistiques dans le fichier “/usr/shares/nmap/nmap-services” :
 
-23
+![nmap-image](assets/fr/23.webp)
 
 _Extrait du fichier “/usr/shares/nmap/nmap-services”._
 
@@ -548,7 +548,7 @@ nmap -sU 192.168.1.19 -p 161,23,69
 
 Peu importe l’ordre, Nmap vérifiera tous ces ports, et uniquement ceux-ci sur l’hôte ciblé. Vous remarquerez dans le résultat affiché par Nmap que celui-ci **nous indique explicitement tous les ports et leur état**, même s’ils sont “closed”. À l’inverse du comportement par défaut où cette sortie complète aurait pris beaucoup trop de place :
 
-24
+![nmap-image](assets/fr/24.webp)
 
 *Résultat d’un scan Nmap TCP sur les ports indiqués.*
 
@@ -596,7 +596,7 @@ sudo nmap 192.168.1.19 -sT -sU -p U:161,T:22
 
 Vous remarquerez dans ce dernier exemple la présence des “U:” pour indiquer un port UDP et “T:” pour indiquer un port TCP. Voici une sortie possible de ce type de scan :
 
-25
+![nmap-image](assets/fr/25.webp)
 
 *Résultat d’un scan sur des ports TCP et UDP avec Nmap.*
 
@@ -685,7 +685,7 @@ nmap 192.168.0.0/24 192.168.1.3 192.168.1.10-20
 
 Voici un exemple de résultat que nous pourrions avoir lors de l’exécution d’un scan sur un réseau :
 
-26
+![nmap-image](assets/fr/26.webp)
 
 _Résultat d’un scan Nmap pour cartographier plusieurs réseaux._
 
@@ -709,7 +709,7 @@ Nous allons à présent regarder un peu plus en détail ce qu’il se passe au n
 
 Comme nous l’avons vu dans la section précédente, Nmap va par défaut utiliser le protocole ARP pour détecter la présence d’hôtes sur le réseau local :
 
-27
+![nmap-image](assets/fr/27.webp)
 
 _Paquets ARP capturés lors du scan d’un réseau local via Nmap et avec ses options par défaut._
 
@@ -717,7 +717,7 @@ Il est ainsi en capacité de détecter la quasi-totalité des hôtes du réseau 
 
 Pour les réseaux distants, Nmap va utiliser une combinaison de techniques :
 
-28
+![nmap-image](assets/fr/28.webp)
 
 _Paquets ICMP et TCP capturés lors du scan d’un réseau distant via Nmap et avec ses options par défaut._
 
@@ -750,7 +750,7 @@ nmap 192.168.1.0/24 -sn
 
 Voici le résultat d’une découverte réseau Nmap réalisée sans scan de port :
 
-29
+![nmap-image](assets/fr/29.webp)
 
 Résultat d’une découverte réseau sans scan de port avec Nmap.
 
@@ -782,7 +782,7 @@ Dans l’exemple ci-dessus, je spécifie les ports que je considère être les p
 
 Voici ce que l’on peut observer dans une capture réseau réalisée au moment d’un tel scan, il s’agit ici d’un extrait sur un seul hôte cible :
 
-30
+![nmap-image](assets/fr/30.webp)
 
 _Paquets envoyés par Nmap lors d’une découverte réseau avancée, sans scan de port._
 
@@ -794,7 +794,7 @@ La spécification des cibles peut vite s’avérer complexe dans des systèmes d
 
 Pour commencer, il faut créer un simple fichier contenant une entrée par ligne :
 
-31
+![nmap-image](assets/fr/31.webp)
 
 _Fichier contenant une cible (hôte ou réseau) par ligne._
 
@@ -902,7 +902,7 @@ L’identification d’une technologie et d’une version consiste à récupére
 
 La méthodologie classique pour connaître cette information est le _banner grabbing_ (récupération de bannière) qui consiste simplement à repérer où le service en question affiche cette information et à lire la donnée. Bien souvent, dans leur configuration ou traitement par défaut, les services affichent leur nom et même leur version en première réponse après une connexion.
 
-32
+![nmap-image](assets/fr/32.webp)
 
 _Affichage d’une version dès l’établissement d’une connexion TCP par un service FTP._
 
@@ -927,7 +927,7 @@ Ce fichier est composé de nombreuses entrées, toutes sont organisées autour d
 
 Il existe quelques autres directives pour des cas spécifiques, mais les principales pour comprendre le fonctionnement de Nmap et personnaliser son utilisation sont celles-ci. Pour que cette partie théorie soit plus concrète, voici un exemple :
 
-33
+![nmap-image](assets/fr/33.webp)
 
 _Exemple de Probe présent dans le fichier `/usr/share/nmap/nmap-service-probes` de Nmap._
 
@@ -939,7 +939,7 @@ Enfin, nous avons deux exemples de `match`. Le premier par exemple catégorisera
 
 Pour comprendre à quoi peuvent ressembler les Probes, voici une liste de quelques Probes que vous pourrez trouver dans ce fichier (il y en a 188 en tout en date d’écriture de ce tutoriel).
 
-34
+![nmap-image](assets/fr/34.webp)
 
 _Exemple de plusieurs Probes utilisés par Nmap et présents dans le fichier `/usr/share/nmap/nmap-service-probes`._
 
@@ -973,7 +973,7 @@ nmap 192.168.1.0/24 -sV
 
 Voici un exemple complet du résultat d’une telle commande :
 
-35
+![nmap-image](assets/fr/35.webp)
 
 _Résultat de la détection de versions des applications exposées sur le réseau par Nmap._
 
@@ -1000,7 +1000,7 @@ Nous voyons très clairement quels _Probes_ ont permis la détection de technolo
 
 Nous allons à présent revenir sur une directive du fichier `/usr/share/nmap/nmap-service-probes` sur laquelle nous ne nous sommes pas attardés tout à l’heure :
 
-36
+![nmap-image](assets/fr/36.webp)
 
 _Directive `rarity` des Probes dans le fichier `/usr/share/nmap/nmap-service-probes`._
 
@@ -1036,7 +1036,7 @@ nmap 192.168.1.0/24 -sV --version-intensity 9
 
 Pour finir sur ce sujet, voici un exemple de _Probe_ 9 et 8:
 
-37
+![nmap-image](assets/fr/37.webp)
 
 _Exemples de Probe à rarity 8 et 9 dans le fichier `/usr/share/nmap/nmap-service-probes`._
 
@@ -1055,13 +1055,13 @@ nmap -O 10.10.10.0/24
 
 Voici un exemple de résultat, ici Nmap nous indique qu’il s’agit probablement d’un OS Linux, il nous propose différentes statistiques concernant sa version exacte.
 
-38
+![nmap-image](assets/fr/38.webp)
 
 _Détection de la probabilité d’identification d’un système d’exploitation par Nmap._
 
 Pour établir ce résultat, Nmap va utiliser une multitude de techniques qui fonctionnent de manière très similaire aux _Probes_ et _Matches_ pour la détection de technologies et versions. La différence principale étant que Nmap utilisera des paramètres assez “bas niveau” des protocoles ICMP, TCP, UDP, etc. Voici deux exemples de test pour la détection d’un système d’exploitation Microsoft Windows 11 :
 
-39
+![nmap-image](assets/fr/39.webp)
 
 _Exemples de tests réalisés par Nmap pour la détection d’un OS Windows 11._
 
@@ -1133,7 +1133,7 @@ nmap -sC -p- 10.10.10.152
 
 Voici le résultat d’un scan Nmap utilisant les scripts NSE :
 
-40
+![nmap-image](assets/fr/40.webp)
 
 _Exemple de résultat d’un scan de vulnérabilités sur un hôte via Nmap._
 
@@ -1214,7 +1214,7 @@ Ces scripts sont organisés par catégorie et un seul script peut faire partie d
 
 Techniquement, les catégories auxquelles appartient un script sont indiquées directement dans son code.
 
-41
+![nmap-image](assets/fr/41.webp)
 
 _Indication des catégories du script NSE `ftp-anon`._
 
@@ -1224,13 +1224,13 @@ Cet exemple montre une partie du code du script NSE `ftp-anon.nse`, dont nous av
 
 Les scripts NSE de Nmap sont par défaut situés dans le répertoire `/usr/share/nmap/scripts/`, sans arborescence ou hiérarchie spécifique. Voici un aperçu du contenu de ce répertoire :
 
-42
+![nmap-image](assets/fr/42.webp)
 
 _Extrait du contenu du répertoire `/usr/share/nmap/scripts/` contenant les scripts NSE._
 
 Ce répertoire contient plus de 5 000 scripts NSE. Dans la majorité des cas, la première partie du nom de script contient le protocole ou la catégorie à laquelle il se rattache. Cela nous permet de faire un tri, par exemple si l’on souhaite lister tous les scripts qui visent le service FTP :
 
-43
+![nmap-image](assets/fr/43.webp)
 
 _Liste des scripts NSE Nmap dont le nom commence par `ftp-`._
 
@@ -1246,7 +1246,7 @@ nmap --script-help=discovery
 
 Cependant, le résultat de sortie sera l’affichage du nom de chaque script et sa description, ce qui n’est pas optimal si la recherche ressort plusieurs dizaines de scripts :
 
-44
+![nmap-image](assets/fr/44.webp)
 
 _Résultat de l’utilisation de la commande `--script-help` de Nmap._
 
@@ -1319,7 +1319,7 @@ nmap --script ftp-anon -p 21 10.10.10.152
 
 Nous avons alors un résultat très précis :
 
-45
+![nmap-image](assets/fr/45.webp)
 
 _Résultat de l’utilisation du script NSE `ftp-anon` sur un port FTP par Nmap._
 
@@ -1334,7 +1334,7 @@ Ainsi, Nmap aurait également exécuté ce test de connexion anonyme s’il avai
 
 Pour avoir une petite description de ce que fait un script NSE, vous pouvez utiliser l’option `--script-help` évoquée précédemment :
 
-46
+![nmap-image](assets/fr/46.webp)
 
 _Résultat de l’affichage de l’aide pour le script NSE `sshv1`._
 
@@ -1350,13 +1350,13 @@ Une attaque par brute force classique consiste à tester plusieurs mots de passe
 
 Ce script possède des options “par défaut”, que nous pourrions personnaliser en fonction de notre contexte. Dans le cadre de cette attaque, nous pouvons par exemple fournir à Nmap la liste des utilisateurs et le dictionnaire de mot de passe à utiliser. À ma connaissance, il n’est pas possible de facilement lister les arguments nécessaires pour un script, le moyen le plus fiable reste le site web officiel de Nmap. Un lien direct vers la documentation d’un script NSE peut être obtenu en réponse à l’option `--script-help` :
 
-47
+![nmap-image](assets/fr/47.webp)
 
 _Résultat de l’affichage de l’aide pour le script NSE `ssh-brute` avec un lien vers nmap.org._
 
 En cliquant sur le lien indiqué, nous arrivons sur cette page web du site [https://nmap.org](https://nmap.org/) :
 
-48
+![nmap-image](assets/fr/48.webp)
 
 _Liste des arguments pouvant être passés au script NSE `ssh-brute` de Nmap._
 
@@ -1377,7 +1377,7 @@ nmap --script ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist 
 
 Comme vous pouvez le voir dans cette dernière commande, nous pouvons spécifier les arguments nécessaires à un script Nmap en utilisant l’option `--scripts-args clé=valeur,clé=valeur`. Voici un résultat possible de la sortie Nmap lors de la réalisation d’un brute force SSH via le script NSE `ssh-brute` :
 
-49
+![nmap-image](assets/fr/49.webp)
 
 _Résultat de l'exécution d'un bruteforce SSH via Nmap._
 
@@ -1429,7 +1429,7 @@ Il existe également un second format de sortie dans le style “texte” et int
 
 Ce format a été créé afin de fournir une vue “condensée” de la sortie Nmap, notamment structurée de manière à faciliter son traitement par des outils comme `grep`. Voyons un exemple de ce type de résultat :
 
-50
+![nmap-image](assets/fr/50.webp)
 
 _Scan réseau Nmap et sortie au format "greppable"._
 
@@ -1489,7 +1489,7 @@ Vous trouverez alors en résultat la sortie standard de Nmap dans votre terminal
 
 Le format XML n’est bien sûr pas fait pour être lu et interprété par un humain. Néanmoins, si vous souhaitez faire du scripting ou de l’analyse automatisée sur ce format de la sortie Nmap, il faut quand même avoir une idée des balises et de la structure utilisée. Par exemple, voici une partie du contenu du fichier XML créé par Nmap, il expose les résultats du scan pour 1 hôte :
 
-51
+![nmap-image](assets/fr/51.webp)
 
 _Exemple d’un enregistrement au format XML pour 1 hôte lors d’un scan Nmap._
 
@@ -1511,7 +1511,7 @@ Nous avons rapidement mentionné le CPE dans la section 2 du module 2, cette inf
 
 Cela nous permet par la suite de réutiliser cette information avec les bases de données et applications qui l’utilisent. Je pense notamment à la base NVD qui référence les CVE. Elle contient, pour chaque CVE, les CPE concernés par la vulnérabilité. Voici un exemple de CVE concernant le `a:microsoft:internet_information_services:7.5` venant de la base NVD :
 
-52
+![nmap-image](assets/fr/52.webp)
 
 _Présence d’un CPE dans les détails d’une CVE de la base NVD._
 
@@ -1544,7 +1544,7 @@ firefox "Nmap – rapport web 05-2024.html"
 
 En résultat, nous aurons l’intégralité de notre scan joliment structuré, avec même quelques couleurs et des liens cliquables dans le sommaire !
 
-53
+![nmap-image](assets/fr/53.webp)
 
 _Extrait d’un rapport de scan Nmap au format HTML généré par xsltproc._
 
@@ -1568,7 +1568,7 @@ Nous allons à présent passer en revue quelques options qui vous permettront de
 
 La première option que l’on peut mentionner est l’option `-v`, qui permet d’augmenter la verbosité de Nmap, voici un exemple :
 
-54
+![nmap-image](assets/fr/54.webp)
 
 _Sortie verbeuse de Nmap grâce à l’option `-v`._
 
@@ -1576,7 +1576,7 @@ Sur un scan ciblant de nombreux hôtes et ports, la sortie terminal deviendra di
 
 Pour aller plus loin sur le suivi de l’activité de Nmap pendant son scan, il est possible d’utiliser l’option `--packet-trace`. Avec l’option `-v`, nous obtenons en live les ports ouverts découverts par Nmap alors qu’avec cette option, nous aurons une ligne de log pour chaque paquet envoyé sur un port. Cela produit naturellement une sortie très verbeuse, mais permet un suivi détaillé de l’activité de Nmap, voici un exemple :
 
-55
+![nmap-image](assets/fr/55.webp)
 
 _Suivi détaillé de l’activité de Nmap via `--packet-trace`._
 
@@ -1584,7 +1584,7 @@ _Suivi détaillé de l’activité de Nmap via `--packet-trace`._
 
 Enfin, Nmap dispose également de deux options de debug qui sont `-d` et `-dd`. Ces options ont un comportement similaire à l’option de verbosité `-v`, mais ajoutent des informations techniques supplémentaires, comme une synthèse des paramètres techniques en début de scan :
 
-56
+![nmap-image](assets/fr/56.webp)
 
 _Affichage des options de Timing par la vue “debug” de Nmap._
 
@@ -1592,7 +1592,7 @@ Nous verrons notamment dans les prochaines sections ce que sont les options de �
 
 Enfin, pour avoir uniquement un suivi basique et synthétique de l’avancée du scan Nmap, nous pouvons utiliser l’option `--stats-every 5s`, le "5s" signifie ici 5 secondes et peut être modifié en fonction de vos besoins. Il s’agit de la fréquence à laquelle nous aurons un retour de Nmap sur son avancement :
 
-57
+![nmap-image](assets/fr/57.webp)
 
 _Informations affichées par l’option `--stats-every` de Nmap._
 
@@ -1654,19 +1654,19 @@ msf6> db_import /tmp/nmap_10.10.10.0.xml
 
 Voici le résultat de l’exécution de l’ensemble de ces commandes :
 
-58
+![nmap-image](assets/fr/58.webp)
 
 _Import d’un scan Nmap au format XML dans la base de données Metasploit._
 
 Vous voyez ici que chaque hôte est importé, avec ses services. Ces données peuvent alors être affichées via la commande `services` ou `services -p <port>` pour un service spécifique :
 
-59
+![nmap-image](assets/fr/59.webp)
 
 _Liste des services importés du fichier XML dans la base de données Metasploit._
 
 Enfin, nous pouvons très facilement et rapidement réutiliser ces données dans un module grâce à l’option `-R`, qui va “convertir” la liste des services obtenue en entrée pour la directive `RHOSTS`, qui permet justement de spécifier les cibles de l’attaque à mener. Voici un exemple avec le module `ssh_login` qui permet d’effectuer une attaque par brute force sur les services [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/) :
 
-60
+![nmap-image](assets/fr/60.webp)
 
 _Utilisation de l’option `services -R` pour importer les services spécifiés comme cible de l’attaque._
 
@@ -1692,13 +1692,13 @@ cat /tmp/nmap_10.10.10.0.xml | ./aquatone -nmap
 
 Là où Aquatone fait normalement une découverte des ports sur les hôtes pour y trouver des services web, il va dans ce contexte uniquement se baser sur les résultats de Nmap qui a déjà fait cette opération, ce qui représente un gain de temps :
 
-61
+![nmap-image](assets/fr/61.webp)
 
 _Utilisation d’un résultat Nmap au format XML avec `aquatone`._
 
 Voici, pour information, un extrait du rapport produit par Aquatone :
 
-62
+![nmap-image](assets/fr/62.webp)
 
 _Exemple de rapport `aquatone`._
 
@@ -1731,7 +1731,7 @@ En fonction des contextes, il peut être intéressant de chercher à optimiser t
 
 Dans tous les cas, sachez que vous pouvez consulter les valeurs par défaut des paramètres que nous allons voir ainsi que la bonne prise en compte des options que vous allez utiliser via le debug de Nmap (option `-d` vue dans un précédent chapitre) :
 
-63
+![nmap-image](assets/fr/63.webp)
 
 _Visualisation des options de Timing via l’option `-d` de Nmap._
 
@@ -1804,7 +1804,7 @@ nmap 10.10.10.0/24 -sV --top-ports 2000 -T4 -d
 
 Voici ce que nous affichent les informations de debug concernant ce scan :
 
-64
+![nmap-image](assets/fr/64.webp)
 
 _Utilisation du préparamétrage `-T4` lors d’un scan Nmap._
 
@@ -1863,7 +1863,7 @@ Ainsi, Nmap peut être vu comme un composant sensible du système sur lequel il 
 
 Si vous avez opté pour une utilisation de Nmap non pas via une session en tant que `root`, mais en accordant des privilèges spécifiques à un utilisateur privilégié pour qu’il ait tout ce dont il a besoin pour utiliser Nmap (`sudo` ou _capabilities_), sachez que Nmap peut être utilisé dans le cadre d’une élévation de privilège complète :
 
-65
+![nmap-image](assets/fr/65.webp)
 
 _Élévation de privilèges Nmap via `sudo`._
 
@@ -1885,7 +1885,7 @@ Dans ce chapitre et le suivant, nous allons étudier plus en profondeur les diff
 
 Vous l’aurez peut-être remarqué, mais Nmap propose plusieurs options en ce qui concerne les scans TCP :
 
-66
+![nmap-image](assets/fr/66.webp)
 
 _Techniques de scan disponibles dans Nmap._
 
@@ -1899,13 +1899,13 @@ La traduction aide bien à comprendre le fonctionnement de ce scan. En effet, un
 
 En revanche, si le port est fermé, le serveur nous renverra un paquet `TCP` avec les flags RST et ACK à 1 pour mettre fin à la demande de connexion, on saura alors qu'aucun service ne semble être actif derrière ce port :
 
-67
+![nmap-image](assets/fr/67.webp)
 
 _Schéma des comportements lors d'un TCP SYN Scan pour un port ouvert et fermé._
 
 Pour avoir une vue plus concrète du `TCP SYN Scan`, j'ai effectué un scan du port TCP/80 vers un hôte qui avait un serveur web actif sur ce port. En effectuant une analyse réseau avec Wireshark, nous pouvons voir le flux suivant (source de scan : `10.10.14.84`) :
 
-68
+![nmap-image](assets/fr/68.webp)
 
 _Capture réseau lors d'un TCP SYN scan pour un port ouvert._
 
@@ -1917,13 +1917,13 @@ Notre hôte renvoie ensuite un paquet RST pour fermer la connexion, cela permet 
 
 Vous pourrez voir plus précisément dans Wireshark, pour chaque test que nous allons faire, l’état des flags TCP. Cela afin de savoir s’il s’agit d’un paquet SYN, SYN/ACK, ACK, etc :
 
-69
+![nmap-image](assets/fr/69.webp)
 
 _Visualisation des flags TCP d’un paquet dans Wireshark (TCP SYN ici)._
 
 À l'inverse, j'ai effectué le même test entre les deux machines, mais cette fois-ci en scannant un port TCP/81 sur lequel aucun service n'est actif (source de scan : `10.10.14.84`) :
 
-70
+![nmap-image](assets/fr/70.webp)
 
 _Capture réseau lors d'un TCP SYN scan pour un port fermé._
 
@@ -1943,13 +1943,13 @@ Néanmoins, cela permet d'avoir un scan un peu plus rapide, car il ne s'encombre
 
 De plus, le TCP SYN scan est capable de détecter si un port est filtré (protégé) par un pare-feu. En effet, un pare-feu devant l'hôte visé peut être détecté via le comportement qu'il a lorsqu'il reçoit un paquet TCP SYN sur un port qu'il est censé protéger. Celui-ci ne va tout simplement pas répondre. Or nous avons vu que dans les deux cas (port ouvert ou port fermé), il y a une réponse de l'hôte. Ce troisième comportement va alors révéler la présence d'un pare-feu entre l'hôte scanné et la machine qui lance le scan. Voici le résultat que Nmap peut nous retourner lorsqu'un port scanné est filtré par un pare-feu :
 
-71
+![nmap-image](assets/fr/71.webp)
 
 _Affichage Nmap lors du scan d'un port filtré._
 
 Lorsque l'on effectue une capture réseau au moment du scan, nous pouvons effectivement voir qu'aucune réponse n'est donnée :
 
-72
+![nmap-image](assets/fr/72.webp)
 
 _Capture réseau lors d'un TCP SYN scan pour un port filtré par un pare-feu._
 
@@ -1959,19 +1959,19 @@ La différence entre un port fermé et un port filtré est la suivante : un port
 
 Le second type de scan TCP est le `TCP Connect scan`, aussi nommé _Full Open Scan_. Il reprend le même fonctionnement que le TCP SYN scan, mais cette fois-ci en renvoyant un `TCP ACK` après une réponse positive du serveur (un SYN/ACK). C'est pourquoi il est nommé `"Full Open"`, car l'on ouvre et initie complètement la connexion sur chaque port ouvert lors du scan, respectant ainsi le _Three Way Handshake_ TCP :
 
-73
+![nmap-image](assets/fr/73.webp)
 
 _Schéma des comportements lors d'un TCP Connect Scan pour un port ouvert et fermé._
 
 Voici ce que l'on peut voir transiter sur le réseau lors d'un `TCP Connect scan` ciblant un port ouvert :
 
-74
+![nmap-image](assets/fr/74.webp)
 
 _Sniff réseau lors d’un TCP Connect scan pour un port ouvert._
 
 Nous voyons que le premier paquet TCP envoyé est un `TCP SYN` envoyé par le client, le serveur va ensuite répondre par un `TCP SYN/ACK` ce qui nous indiquera que le port est ouvert et héberge un service actif. Pour simuler un client légitime jusqu'au bout, Nmap va ensuite renvoyer un `TCP ACK` au serveur. À l'inverse, lors d'un scan sur un port fermé :
 
-75
+![nmap-image](assets/fr/75.webp)
 
 _Capture réseau lors d’un TCP Connect scan pour un port fermé._
 
@@ -1996,13 +1996,13 @@ Le `TCP FIN Scan`, aussi nommé _Stealth Scan_, utilise quant à lui le comporte
 
 En effet, en TCP, une fin de session se traduit par l'envoi d'un paquet TCP avec le flag FIN à 1. Dans un échange habituel, le serveur cesse donc toute communication avec le client (aucune réponse). Si le serveur n'avait aucune connexion TCP active avec le client, il renverra en revanche un `RST/ACK`. On saura donc différencier un port ouvert d'un port fermé en envoyant des paquets `TCP FIN` à un ensemble de ports :
 
-76
+![nmap-image](assets/fr/76.webp)
 
 _Schéma des comportements lors d'un TCP FIN scan pour un port ouvert et fermé._
 
 J'ai à nouveau effectué une capture du réseau lors d'un _Stealth scan_ et voilà ce que l'on voit lorsque le port scanné est ouvert :
 
-77
+![nmap-image](assets/fr/77.webp)
 
 _Capture réseau lors d’un TCP FIN scan pour un port ouvert._
 
@@ -2010,7 +2010,7 @@ On voit donc que le client envoie un ou deux paquets pour mettre fin à une conn
 
 Voici ce que l'on peut voir maintenant lorsque l'on scanne un port fermé :
 
-78
+![nmap-image](assets/fr/78.webp)
 
 _Capture réseau lors d'un TCP FIN scan pour un port fermé._
 
@@ -2029,7 +2029,7 @@ C'est là l'intérêt de connaître à la fois plusieurs méthodes de scan, mais
 
 Voici donc un exemple de résultat de scan TCP FIN par Nmap :
 
-79
+![nmap-image](assets/fr/79.webp)
 
 _Résultat d’un scan TCP FIN par Nmap._
 
@@ -2055,25 +2055,25 @@ Le `TCP XMAS Scan` est un peu particulier, car il ne simule pas du tout un compo
 
 Le nom XMAS vient du fait que voir ces flags allumés est inhabituel. Lorsque ces trois drapeaux sont activés simultanément dans un paquet TCP, il ressemble à un sapin de Noël allumé :
 
-80
+![nmap-image](assets/fr/80.webp)
 
 _Schéma des flags TCP utilisés dans un XMAS scan._
 
 Sans détailler le rôle de ces flags ici, il faut savoir que lors d'un envoi de paquet avec ces trois flags activés, un service actif derrière le port visé ne renverra aucun paquet. En revanche, si le port est fermé, nous recevrons un paquet `TCP RST/ACK`. On saura alors différencier le comportement d'un port ouvert et d'un port fermé pour lister les ports sur une machine :
 
-81
+![nmap-image](assets/fr/81.webp)
 
 _Schéma des comportements lors d’un TCP XMAS Scan pour un port ouvert et fermé._
 
 En suivant toujours la même logique, un scan réseau sur le port TCP/80 d'un hôte avec un serveur web actif montre le comportement suivant lors de la détection d'un port ouvert (source de scan `10.10.14.84`) :
 
-82
+![nmap-image](assets/fr/82.webp)
 
 _Capture réseau lors d’un TCP XMAS scan pour un port ouvert._
 
 On voit donc que la source de scan envoie deux paquets TCP XMAS (avec les flags `FIN`, `PSH` et `URG` à 1) à l’hôte `10.10.10.203` et qu'il n'y a aucun retour de la cible, ce qui indique que le port est ouvert. À l'inverse, lors d'un `TCP XMAS Scan` sur un port fermé, voici le résultat observé :
 
-83
+![nmap-image](assets/fr/83.webp)
 
 _Capture réseau lors d'un TCP XMAS scan pour un port fermé._
 
@@ -2094,19 +2094,19 @@ _Remarque : le support des scans XMAS/FIN/NULL sur les versions récentes de Win
 
 L'utilisation de ce scan peut, comme le TCP XMAS scan, perturber certains firewalls ou modules de filtrage et alors laisser passer les paquets :
 
-84
+![nmap-image](assets/fr/84.webp)
 
 _Schéma des comportements lors d’un TCP Null Scan pour un port ouvert et fermé._
 
 Voici ce que l'on peut observer sur le réseau lors d’un `TCP Null scan` sur un port ouvert :
 
-85
+![nmap-image](assets/fr/85.webp)
 
 _Capture réseau lors d'un TCP Null scan pour un port ouvert._
 
 La machine de scan envoie un paquet sans flag (`[<None>]` dans Wireshark) sans aucune réponse du serveur. À l'inverse, lorsque le port visé est fermé :
 
-86
+![nmap-image](assets/fr/86.webp)
 
 _Capture réseau lors d'un TCP Null scan pour un port fermé._
 
@@ -2125,19 +2125,19 @@ Le `TCP ACK scan` est utilisé pour détecter la présence d'un pare-feu sur l�
 
 Contrairement aux autres scans, le TCP ACK scan ne va pas chercher à identifier les ports ouverts sur l’hôte, mais plutôt à savoir si un système de filtrage est actif en répondant pour chaque port par `filtered` ou `unfiltered`. Certains scans TCP comme les `TCP SYN` ou `TCP Connect` peuvent faire les deux en même temps, alors que d'autres comme `TCP FIN` ou `TCP XMAS` ne permettent pas du tout de déterminer la présence d'un filtrage. C'est pourquoi le TCP ACK scan peut avoir un intérêt :
 
-87
+![nmap-image](assets/fr/87.webp)
 
 _Schéma des comportements lors d'un TCP ACK Scan pour un port filtré et non filtré._
 
 On utilisera l'option `-sA` de Nmap pour effectuer ce type de scan. Voici le résultat que l’on peut obtenir lors de l'exécution d’un TCP ACK scan dans le cas où le port est filtré, c'est-à-dire bloqué et protégé par un pare-feu :
 
-88
+![nmap-image](assets/fr/88.webp)
 
 _Affichage Nmap lors du TCP ACK Scan._
 
 Exemple de résultat pour un hôte disposant d’un pare-feu et un autre n’en disposant pas. Nmap retourne `filtered` sur les ports TCP/80 et TCP/81 de l’hôte `10.10.10.203`. Sur une analyse réseau via Wireshark, le comportement est le suivant :
 
-89
+![nmap-image](assets/fr/89.webp)
 
 _Capture réseau lors d'un TCP ACK scan pour un port non filtré par un pare-feu._
 

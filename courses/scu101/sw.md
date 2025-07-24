@@ -12,7 +12,7 @@ objectives:
 
 Karibu kila mtu kwenye mpango huu wa elimu unaolenga usalama wa kidijitali. Mafunzo haya yameundwa ili yaweze kufikiwa na kila mtu, kwa hivyo hakuna ujuzi wa awali wa sayansi ya kompyuta unaohitajika. Lengo letu kuu ni kukupa maarifa na ujuzi unaohitajika ili kuvinjari ulimwengu wa kidijitali kwa usalama na faragha zaidi.
 
-Hili litahusisha utekelezaji wa zana kadhaa kama vile huduma salama ya barua pepe, zana ya kudhibiti vyema manenosiri yako, na programu mbalimbali ili kulinda shughuli zako za mtandaoni.
+Hili litahusisha utekelezaji wa zana kadhaa kama vile huduma salama ya barua pepe, zana ya kudhibiti vyema manenosiri yako, na programu mbalimbali ili kulinda miamala yako za mtandaoni.
 
 Katika mafunzo haya, hatulengi kukufanya uwe mtaalam, usijulikane, au usiwe hatarini, kwani hii haiwezekani. Badala yake, tunakupa baadhi ya suluhu rahisi na zinazoweza kufikiwa ili kuanza kubadilisha tabia zako za mtandaoni na kurejesha udhibiti wa mamlaka yako ya kidijitali.
 
@@ -37,7 +37,7 @@ Théo; mchango
 
 Karibu kila mtu kwenye mpango huu wa elimu unaolenga usalama wa kidijitali. Mafunzo haya yameundwa ili yaweze kufikiwa na kila mtu, kwa hivyo hakuna ujuzi wa awali wa sayansi ya kompyuta unaohitajika. Lengo letu kuu ni kukupa maarifa na ujuzi unaohitajika ili kuvinjari ulimwengu wa kidijitali kwa usalama na faragha zaidi.
 
-Hii itahusisha utekelezaji wa zana kadhaa kama vile huduma salama ya barua pepe, zana ya kudhibiti vyema manenosiri yako, na programu mbalimbali ili kulinda shughuli zako za mtandaoni.
+Hii itahusisha utekelezaji wa zana kadhaa kama vile huduma salama ya barua pepe, zana ya kudhibiti vyema manenosiri yako, na programu mbalimbali ili kulinda miamala yako ya mtandaoni.
 
 Mafunzo haya ni juhudi shirikishi za maprofesa wetu watatu:
 
@@ -116,7 +116,7 @@ Vidakuzi ni faili zilizoundwa na tovuti ili kuhifadhi maelezo kwenye kifaa chako
 
 Kuna familia mbili kuu za vivinjari: zile zinazotegemea Chrome na zile zinazotegemea Firefox.
 
-Ingawa familia zote mbili hutoa kiwango sawa cha usalama, inashauriwa kuepuka kivinjari cha Google Chrome kutokana na wafuatiliaji wake. Nyepesi mbadala za Chrome, kama vile Chromium au Brave, zinaweza kupendekezwa. Jasiri inapendekezwa haswa kwa kizuizi chake cha matangazo kilichojengwa. Inaweza kuhitajika kutumia vivinjari vingi kufikia tovuti fulani.
+Ingawa familia zote mbili hutoa kiwango sawa cha usalama, inashauriwa kuepuka kivinjari cha Google Chrome kutokana na wafuatiliaji wake.Vivinjari mbadala nyepesi, kama vile Chromium au Brave, vinaweza kupendekezwa.Brave inapendekezwa hasa kwa block yake ya matangazo iliyojengwa.
 
 ![](assets/notext/6.webp)
 
@@ -126,7 +126,7 @@ Kuvinjari kwa faragha, ingawa hakufichi kuvinjari kutoka kwa mtoa huduma wako wa
 
 Njia mbadala ya kisasa zaidi ni mtandao wa TOR (The Onion Router), ambao hutoa kutokujulikana kwa kuficha IP ya mtumiaji Anwani na kuruhusu ufikiaji wa Darknet. Kivinjari cha TOR ni kivinjari iliyoundwa mahsusi kutumia mtandao wa TOR. Inakuruhusu kutembelea tovuti za kawaida na tovuti za .onion, ambazo kwa kawaida huendeshwa na watu binafsi na zinaweza kuwa ni za kinyume cha sheria.
 
-TOR ni halali na inatumiwa na wanahabari, wanaharakati wa uhuru, na wengine wanaotaka kuepuka udhibiti katika nchi zenye mamlaka. Hata hivyo, ni muhimu kuelewa kwamba TOR haihifadhi tovuti zilizotembelewa au kompyuta yenyewe. Zaidi ya hayo, kutumia TOR kunaweza kupunguza kasi ya muunganisho wa intaneti data inapopita kwenye kompyuta za watu wengine watatu kabla ya kufika inakoenda. Pia ni muhimu kutambua kwamba TOR si suluhu la kijinga ili kuhakikisha kutokujulikana kwa 100% na haipaswi kutumiwa kwa shughuli haramu.
+TOR ni halali na inatumiwa na wanahabari, wanaharakati wa uhuru, na wengine wanaotaka kuepuka udhibiti katika nchi zenye mamlaka. Hata hivyo, ni muhimu kuelewa kwamba TOR haihifadhi tovuti zilizotembelewa au kompyuta yenyewe. Zaidi ya hayo, kutumia TOR kunaweza kupunguza kasi ya muunganisho wa intaneti, kwani data inapita kupitia kompyuta za watu wengine watatu kabla ya kufika mahali inapokwenda. Pia ni muhimu kutambua kwamba TOR si suluhu la kijinga ili kuhakikisha kutokujulikana kwa 100% na haipaswi kutumiwa kwa muamala haramu.
 
 ![](assets/notext/7.webp)
 
@@ -157,7 +157,7 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 ### HTTPS na mitandao ya umma ya Wi-Fi'
 
-Kwa upande wa usalama wa mtandaoni, ni muhimu kuelewa kwamba 4G kwa ujumla ni salama zaidi kuliko Wi-Fi ya umma. Hata hivyo, kutumia 4G kunaweza kufuta haraka mpango wako wa data ya simu. Itifaki ya HTTPS imekuwa kiwango cha kusimba data kwenye tovuti. Inahakikisha kwamba data iliyobadilishwa kati ya mtumiaji na tovuti ni salama. Kwa hivyo, ni muhimu kuthibitisha kuwa tovuti unayotembelea inatumia itifaki ya HTTPS.
+Kwa upande wa usalama wa mtandaoni, ni muhimu kuelewa kwamba 4G kwa ujumla ni salama zaidi kuliko Wi-Fi ya umma. Hata hivyo, kutumia 4G kunaweza kufuta haraka mpango wako wa data. Protocol ya HTTPS imekuwa kiwango cha kusimba data kwenye tovuti; inahakikisha kwamba data iliyosimbwa kati ya mtumiaji na tovuti ni salama. Kwa hivyo, ni muhimu kuthibitisha kuwa tovuti unayotembelea inatumia protocol ya HTTPS.
 
 Katika Umoja wa Ulaya, ulinzi wa data unadhibitiwa na Kanuni ya Jumla ya Ulinzi wa Data (GDPR). Kwa hivyo, ni salama zaidi kutumia watoa huduma wa Wi-Fi wa Ulaya, kama vile SNCF, ambao hawauzi data ya muunganisho wa mtumiaji. Hata hivyo, ukweli kwamba tovuti inaonyesha kufuli hauhakikishi uhalisi wake. Ni muhimu kuthibitisha ufunguo wa umma wa tovuti kwa kutumia mfumo wa cheti ili kuthibitisha uhalisi wake. Ingawa usimbaji fiche wa data huzuia wahusika wengine kuingilia data iliyobadilishwa, bado inawezekana kwa mtu hasidi kuiga tovuti na kuhamisha data kwa maandishi wazi.
 
@@ -261,7 +261,7 @@ Suluhisho rahisi:
 
 ### Je, unapaswa kuwalipa wadukuzi?
 
-HAPANA, kwa ujumla haipendekezwi kuwalipa wavamizi katika kesi ya ransomware au aina nyingine za mashambulizi. Kulipa fidia hakuhakikishi urejeshaji wa data yako na kunaweza kuwahimiza wahalifu wa mtandaoni kuendelea na shughuli zao hasidi. Badala yake, weka kipaumbele uzuiaji na uhifadhi nakala mara kwa mara wa data yako ili kujilinda.
+HAPANA, kwa ujumla haipendekezwi kuwalipa wavamizi katika kesi ya ransomware au aina nyingine za mashambulizi. Kulipa fidia hakuhakikishi urejeshaji wa data yako na kunaweza kuwahimiza wahalifu wa mtandaoni kuendelea na miamala yao ya hasidi. Badala yake, weka kipaumbele kuzuia na uhifadhi nakala mara kwa mara za data yako ili kujilinda.
 
 Ukigundua virusi kwenye kompyuta yako, iondoe kwenye mtandao, fanya uchunguzi kamili wa antivirus na ufute faili zilizoambukizwa. Kisha, sasisha programu yako na mfumo wa uendeshaji, na ubadilishe nenosiri lako ili kuzuia kuingiliwa zaidi.
 
@@ -277,19 +277,19 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 ### Kuanzisha akaunti mpya ya barua pepe!
 
-Akaunti ya barua pepe ndiyo sehemu kuu ya shughuli yako ya mtandaoni: ikiwa imeingiliwa, mdukuzi anaweza kuitumia kuweka upya nenosiri lako kupitia kipengele cha "umesahau nenosiri" na kupata ufikiaji wa tovuti nyingine nyingi. Ndiyo sababu unahitaji kuilinda vizuri.
+Akaunti ya barua pepe ndiyo sehemu kuu ya miamala yako ya mtandaoni; ikiwa imeingiliwa, mdukuzi anaweza kuitumia kuweka upya nenosiri lako kupitia kipengele cha “umesahau nenosiri” na kupata ufikiaji wa tovuti nyingine nyingi. Ndiyo sababu unahitaji kuilinda vizuri.
 
 Akaunti ya barua pepe inapaswa kuundwa na nenosiri la kipekee na dhabiti (maelezo katika sura ya 7) na kwa hakika kwa mfumo wa uthibitishaji wa vipengele viwili (maelezo katika sura ya 8).
 
 Ingawa sote tayari tuna akaunti ya barua pepe, ni muhimu kuzingatia kuunda mpya, ya kisasa zaidi ili kuanza upya.
 
-### Kuchagua mtoaji wa barua pepe na kudhibiti anwani za barua pepe
+### Kuchagua mtoaji wa barua pepe na kudhibiti address za barua pepe
 
-Usimamizi sahihi wa anwani zetu za barua pepe ni muhimu ili kuhakikisha usalama wa ufikiaji wetu mtandaoni. Ni muhimu kuchagua mtoa huduma wa barua pepe salama na anayeheshimu faragha. Kwa mfano, ProtonMail ni huduma ya barua pepe salama na inayoheshimu faragha.
+Usimamizi sahihi wa address zetu za barua pepe ni muhimu ili kuhakikisha usalama wa ufikiaji wetu mtandaoni. Ni muhimu kuchagua mtoa huduma wa barua pepe salama na anayeheshimu faragha. Kwa mfano, ProtonMail ni huduma ya barua pepe salama na inayoheshimu faragha.
 
 ![](assets/notext/15.webp)
 
-Wakati wa kuchagua mtoa huduma wa barua pepe na kuunda nenosiri, ni muhimu kutotumia tena nenosiri lile lile kwa huduma tofauti za mtandaoni. Inapendekezwa kuunda mara kwa mara anwani mpya za barua pepe na matumizi tofauti kwa kutumia anwani tofauti za barua pepe. Ni vyema kuchagua huduma salama ya barua pepe kwa akaunti muhimu. Inapaswa pia kuzingatiwa kuwa baadhi ya huduma hupunguza urefu wa nywila, kwa hiyo ni muhimu kufahamu kizuizi hiki. Huduma zinapatikana pia kwa kuunda anwani za barua pepe za muda, ambazo zinaweza kutumika kwa akaunti za muda mfupi.
+Wakati wa kuchagua mtoa huduma wa barua pepe na kuunda nenosiri, ni muhimu kuto­tumia tena nenosiri lile­lile kwa huduma mbalimbali mtandaoni. Inapendekezwa kuunda mara kwa mara Address mpya za barua pepe na kutumia Address tofauti kwa akaunti tofauti. Ni vyema kuchagua huduma ya barua pepe salama na inayoheshimu faragha kwa akaunti zako muhimu. Pia, inapaswa kuzingatiwa kuwa baadhi ya huduma huweka kikomo kwa urefu wa nywila, kwa hiyo ni muhimu kufahamu kizuizi hiki. Huduma pia hutolewa Address za barua pepe za muda, ambazo zinaweza kutumika kwa akaunti za muda mfupi.
 
 Ni muhimu kuzingatia kwamba watoa huduma wa barua pepe wakubwa kama vile La Poste, Arobase, Wig, Hotmail, bado wanatumika, lakini mbinu zao za usalama huenda zisiwe nzuri kama zile za Gmail. Kwa hiyo, inashauriwa kuwa na anwani mbili tofauti za barua pepe, moja kwa ajili ya mawasiliano ya jumla na nyingine kwa ajili ya kurejesha akaunti, huku ya pili ikiwa imelindwa vyema. Ni vyema kuepuka kuchanganya barua pepe ya Anwani na opereta wa simu yako au mtoa huduma wa mtandao, kwani hii inaweza kuwa vekta ya mashambulizi.
 

@@ -1,3 +1,22 @@
+# Introduction
+
+Welcome to this course on JavaScript and NodeJS.
+
+JavaScript is the most popular programming language in the world: it is the scripting language of modern browsers, so it's basically impossible to build a modern web application without writing *some* JavaScript; and with the NodeJS runtime it can be used outside browsers too, to create scripts and applications that run directly on your computer.
+
+This course is designed for people who are completely new to programming, or who have used other languages before but want to understand how JavaScript works, especially in the context of NodeJS. 
+
+It is divided into four main sections:
+
+1) **Basic JavaScript**: how to write JavaScript, how to run it, and the basic operations it can do. 
+2) **Intermediate JavaScript**: features that will make your code easier to write and to debug
+3) **Advanced JavaScript**: not really "advanced", but mostly things that new developers tend to find tricky, like iterators, async, async iterators...
+4) **Introducing NodeJS**: what NodeJS is and how to use it to interface JavaScript with the operating system
+
+The explanations are written in a no-nonsense way. We'll go straight to the point and try to explain things in simple terms, with practical examples and lots of code you can try yourself.
+
+By the end of the course, you should be able to write your own programs in JavaScript, use the NodeJS standard library, and install and use third-party packages to build useful tools.
+
 # Basic JavaScript
 
 ## Setup
@@ -12,6 +31,8 @@ The commands they contain are written in the JavaScript programming language.
 
 A JavaScript runtime is a special program that executes these files.
 
+![](assets/en/1.png)
+
 ### NodeJS installation
 
 The most common JavaScript runtime is NodeJS.
@@ -23,6 +44,8 @@ The download page will provide you with instructions for all three of the major 
 Since NodeJS is available for all three OSs, the programs that you write will be able to be executed on all of them (barring some edge cases).
 
 This means you can, for example, write a simple videogame in JavaScript on your Windows PC and pass it to your friend to run it on his Mac.
+
+![](assets/en/2.png)
 
 ### Text editing
 
@@ -484,6 +507,8 @@ You can combine booleans using logic operators:
 * `&&` means “and”, and it will return `true` only if **both** values are `true`, otherwise it will return `false`
 * `||` means “or”, and it will return `true` if **at least one** of the values is `true`, otherwise (if they're both false) it will return `false`
 * `!` means “not”, it's applied before a boolean,  and it will flip it: if the boolean it's `true` it will return `false`, and vice versa.
+
+![](assets/en/3.png)
 
 Examples:
 
@@ -1748,6 +1773,8 @@ class Car extends Vehicle {
 
 The `Car` class now **inherits** everything from `Vehicle`. It gets the `brand` property, and we’ve replaced the `start()` method with our own version.
 
+![](assets/en/4.png)
+
 Let’s try it out:
 
 ```javascript
@@ -1791,6 +1818,9 @@ class Car extends Vehicle {
 const myCar = new Car("Toyota", "Corolla")
 myCar.start()
 ```
+
+![](assets/en/5.png)
+
 
 This prints:
 
@@ -3987,3 +4017,1171 @@ console.log(updated) // { name: "Alice", age: 31 }
 ```
 
 This is very useful when updating objects without changing the original.
+
+# NodeJS
+
+## How did we get to Node
+
+In this chapter we will learn a little of historical context about JavaScript and NodeJS. 
+
+Historical context is very important in software, because we're often using tools built by other people, and we're therefore influenced by decisions taken in the past by them. 
+
+Understanding the reason for those decisions, and how the tools we use came to be the way they are, will help us feel a little less confused about what we're doing.
+
+### Origins of JavaScript
+
+JavaScript started as a simple language designed to make web pages interactive. 
+
+In the 1990s, web browsers like Netscape Navigator added JavaScript so that developers could write code that runs directly in the browser.
+
+The original idea was to have Java as the core language for making websites (with the so called "Java applets"), and JavaScript just for minor stuff. 
+
+The core design was done by Brendan Eich, who at the time was an employee at Netscape, in less than 2 weeks. 
+
+But most people preferred using JavaScript to Java, and also Java applets had some security issues at the time, so eventually Java was dropped as an option and JavaScript became the de facto standard for web development.
+
+### The V8 engine
+
+JavaScript is an interpreted language, as opposed to compiled languages like C. 
+
+Code written in a compiled language gets turned into a binary, and the binary gets fed directly to the CPU of the computer.
+
+![](assets/en/6.png)
+
+Interpred languages, on the other hand, tend to be more user-friendly, and are closer to how humans think ("high level") rather than to how machines work ("low level"); so they usually have a virtual machine built to run their code. 
+
+A virtual machine is a special program that sits between the code you write and the CPU, and executes your code (because the CPU cannot understand it). 
+
+This allows you to program without knowing too much about the underlying machine, but it also has a cost in terms of performance, because the computer is not running just your program; it's running a program (the virtual machine) that runs your program.
+
+As web applications became more and more complex, there was demand to improve the performance of JavaScript. The V8 engine is the interpreter that powers JavaScript in Google Chrome. It was developed at Google and released in 2008. 
+
+While the older JavaScript engines were mostly traditional virtual machines, the V8 engine is a JIT (just-in-time) compiler.
+
+The JavaScript code gets fed to the V8 engine, and the engine tries to compile parts of it as native binaries on the fly. This allows you to have the experience of a high level language, with performance that it's a little closer to low level languages. This has made JavaScript the fastest high level language in the world, bit of a "best of both worlds" thing.
+
+### The NodeJS runtime
+
+While being easy to use and quite fast to execute, after the release of the V8 JavaScript kept having a huge limitation: it could only run inside a browser. 
+
+Why is that a problem? 
+
+Well, since browsers execute code fetched from millions of different sources on the internet, they can easily incur into malware, so they're "sandboxed" from the rest of the operating system. 
+
+![](assets/en/7.png)
+
+JavaScript could not access the file system and other local resources on your computer (at least not easily like other languages could), so that was a significant limitation on what kind of applications you could build with it.
+
+In 2009, Ryan Dahl published NodeJS, which is a runtime that allows you to use the V8 engine outside the browser, directly on the native operating system of your computer. It also adds many features that are useful for writing server-side and command-line programs. For example, you can use NodeJS to create a web server, read and write files, or build tools that automate tasks. 
+
+![](assets/en/8.png)
+
+In this course so far, we've explored the JavaScript features that are present in both the browser and in NodeJS. Those features allowed us to define data and manipulate it in abstract ways. In the next few lessons, we'll explore the features that are specific to NodeJS and allow us to interact with the operating system.
+
+## Command line arguments
+
+NodeJS allows us, among other things, to build CLIs (Command Line Interfaces). 
+
+For that we need a way to receive command line arguments, which in Node is done using the built-in `process` object.
+
+### `process`
+
+NodeJS provides a special object called `process` that represents the current running program.
+
+You can use it to inspect the environment, the current working directory, and even exit the program when needed.
+
+For example:
+
+```javascript
+console.log(process.platform)
+```
+
+This prints the operating system platform, like `win32`, `linux`, or `darwin` (Mac).
+
+### `process.argv`
+
+When you run a NodeJS program from the terminal, you can pass extra words (arguments) after the script name. These are stored in `process.argv`.
+
+For example, if you run this command:
+
+```
+node my_script.js alpha beta
+```
+
+You can print the arguments like this:
+
+```javascript
+console.log(process.argv)
+```
+
+The output might look like this:
+
+```
+[ '/path/to/node', '/path/to/my_script.js', 'alpha', 'beta' ]
+```
+
+The first two items are always the Node path and your script path. Any additional words you passed to the script come after that. 
+
+The `process.argv` array can be cut as any other array using the `.slice()` method, so to get just the arguments that were passed you can do 
+
+```javascript
+const args = process.argv.slice(2)
+
+console.log(args)
+```
+
+Having access to the arguments that the user is passing is fundamental to develop command-line applications.
+
+## Modules
+
+JavaScript runtimes like NodeJS usually treat each JavaScript file as a separate module.
+
+Think of a module as a box. The box has its own private space, so the variables and functions you declared in it don’t interfere with the code in other boxes. Basically, each module has its own scope.
+
+A module can export some of its content, making it available to other modules, and it can import the content that other modules have exported. JavaScript allows you to export and import content between modules, to connect different files.
+
+A JavaScript program is often composed of multiple modules, that are connected with each other.
+
+Why use modules? By splitting your code into modules, you can organize your program into smaller, clearer, and reusable parts. Each module can focus on just one type of task, like handling math calculations, working with files, or formatting text.
+
+### CommonJS modules
+
+In NodeJS, the most common system to manage modules is called **CommonJS**.
+
+In this system, you can share (export) code from a module using `module.exports` and load (import) it in another file using `require()`.
+
+To make something available outside a module, you assign it to `module.exports`:
+
+```javascript
+const greeting = "Hello!"
+
+module.exports = greeting
+```
+
+Here, the string `"Hello!"` is what this module exports.
+
+To use the exported code from another file, you use the `require()` function with the path to that file:
+
+```javascript
+const greeting = require("./greeting.js")
+
+console.log(greeting)
+```
+
+This prints:
+
+```
+Hello!
+```
+
+You can export multiple things by bundling them together in an anonymous object, like
+
+```javascript
+const greeting1 = "hello"
+
+const greeting2 = "hi"
+
+module.exports = {
+    greeting1, greeting2
+}
+```
+
+CommonJS was the module system that was initially adopted by NodeJS. Later on ES modules were also added.
+
+### ES Modules
+
+NodeJS also supports another type of module called **ES Modules**, which are popular in web development. They use the keywords `export` and `import`.
+
+ES modules were developed for the browser and only later added to Node. If you want to use them, you might have to use `.mjs` as a file extension instead of `.js`, depending on which Node version you're using.
+
+In one file callled `greeting.mjs` we write
+
+```javascript
+export const greeting = "Hello!"
+```
+As you can see, we're exporting the constant directly where it gets defined
+
+In another file called `index.mjs`, we import it:
+
+```javascript
+import { greeting } from "./greeting.mjs"
+
+console.log(greeting)
+```
+
+You can export different declarations in different parts of the file, like
+
+```javascript
+export const num = 10
+
+export function double (x) {
+  return x*2
+}
+```
+
+### The NodeJS standard library
+
+NodeJS also includes many built-in modules. These are ready-made modules provided by NodeJS that help with common tasks like reading files, working with the operating system, or connecting to the network.
+
+For example, the `os` module gives you information about your operating system:
+
+```javascript
+const os = require("os")
+
+console.log(os.platform()) 
+```
+
+You don’t have to install these built-in modules, they come with NodeJS. They form the "standard library" of the runtime, and are used by most Node applications to do stuff like reading files or communicating via the internet. 
+
+The next chapters will show you some useful examples of their usage.
+
+## The `fs` module
+
+The `fs` module (short for **file system**) is part of the NodeJS standard library. It allows you to work with files and directories on your computer: you can read files, write files, delete them, rename them, and more.
+
+To use it, you first need to import it at the top of your file:
+
+```javascript
+const fs = require("fs")
+```
+
+### Sync API
+
+The simplest way to use `fs` is with its **sync** methods.
+
+These methods block the program until they finish (so the next line of code doesn’t run until the operation is complete).
+
+Here’s an example of reading a file synchronously:
+
+```javascript
+const fs = require("fs")
+
+const data = fs.readFileSync("example.txt", "utf8")
+
+console.log(data)
+```
+
+If there’s a file called `example.txt` in the same directory as your script, this will print its contents.
+
+You can also write to a file synchronously:
+
+```javascript
+const fs = require("fs")
+
+fs.writeFileSync("output.txt", "Hello from Node!")
+
+console.log("File written!")
+```
+
+This creates (or overwrites) a file called `output.txt` with the text.
+
+Here are some common operations you can do with this API:
+
+```javascript
+const fs = require("fs")
+
+// List files and folders
+const items = fs.readdirSync(".")
+console.log("Items in current directory:", items)
+
+// Create folder
+fs.mkdirSync("my_folder")
+console.log("Folder created")
+
+// Delete folder
+fs.rmdirSync("my_folder")
+console.log("Folder deleted")
+
+// Create & write file
+fs.writeFileSync("my_file.txt", "Hello world")
+console.log("File created & written")
+
+// Read file
+const content = fs.readFileSync("my_file.txt", "utf8")
+console.log("File content:", content)
+
+// Delete file
+fs.unlinkSync("my_file.txt")
+console.log("File deleted")
+```
+
+The Sync API is simple and good for small scripts, but because it blocks the program until it’s done, it can slow things down if you’re working with big files or a server.
+
+### Callback async API
+
+The **callback API** is non-blocking: it lets NodeJS keep doing other things while the file operation happens.
+
+Instead of returning the result directly, it takes a function (a **callback**) which gets called when the operation is done.
+
+```javascript
+const fs = require("fs")
+
+fs.readFile("example.txt", "utf8", (err, data) => {
+  if (err) {
+    console.error("Error reading file:", err)
+  } else { 
+    console.log(data)
+  }
+})
+```
+
+Here’s what happens:
+
+* `fs.readFile` starts reading `example.txt`.
+* NodeJS does not wait, it moves on to to execute other code you might have written.
+* When the file is done reading, the callback runs:
+
+  * If there was an error, `err` contains the error.
+  * Otherwise, `data` contains the contents.
+
+Here's how you write to a file:
+
+```javascript
+const fs = require("fs")
+
+fs.writeFile("output.txt", "Hello async!", (err) => {
+  if (err) {
+    console.error("Error writing file:", err)
+  } else {
+    console.log("File written!")
+  }
+})
+```
+
+Same idea: the program doesn’t stop while writing the file.
+
+Some examples of things you can do with this API:
+
+```javascript
+const fs = require("fs")
+
+// List files and folders
+fs.readdir(".", (err, items) => {
+  if (err) return console.error(err)
+  console.log("Items in current directory:", items)
+})
+
+// Create folder
+fs.mkdir("my_folder", (err) => {
+  if (err) return console.error(err)
+  console.log("Folder created")
+})
+
+// Delete folder
+fs.rmdir("my_folder", (err) => {
+  if (err) return console.error(err)
+  console.log("Folder deleted")
+})
+
+// Create & write file
+fs.writeFile("my_file.txt", "Hello world", (err) => {
+  if (err) return console.error(err)
+  console.log("File created & written")
+})
+
+// Read file
+fs.readFile("my_file.txt", "utf8", (err, content) => {
+  if (err) return console.error(err)
+  console.log("File content:", content)
+})
+
+// Delete file
+fs.unlink("my_file.txt", (err) => {
+  if (err) return console.error(err)
+  console.log("File deleted")
+})
+```
+
+The callback API is better for servers and big tasks because it doesn’t block the program, but nested callbacks can get messy if you chain many operations. That's why a promise-based async API was added.
+
+### Promise async API
+
+The Promise-based API is modern and works great with `.then()` and `async/await`. It’s available as `fs.promises`.
+
+You need to import the `promises` property:
+
+```javascript
+const fs = require("fs").promises
+```
+
+Using `.then()`:
+
+```javascript
+const fs = require("fs").promises
+
+fs.readFile("example.txt", "utf8")
+  .then(data => {
+    console.log(data)
+  })
+  .catch(err => {
+    console.error("Error reading file:", err)
+  })
+```
+
+Or even better, using `async/await`:
+
+```javascript
+const fs = require("fs").promises
+
+async function readFile(fileName) {
+  try {
+    const data = await fs.readFile(fileName, "utf8")
+    console.log(data)
+  } catch (err) {
+    console.error("Error reading file:", err)
+  }
+}
+
+readFile("example.txt")
+```
+
+Writing to a file:
+
+```javascript
+const fs = require("fs").promises
+
+async function writeFile(fileName, content) {
+  try {
+    await fs.writeFile(fileName, content)
+    console.log("File written!")
+  } catch (err) {
+    console.error("Error writing file:", err)
+  }
+}
+
+writeFile("output.txt", "Hello from promises!")
+```
+
+The usual list of examples for the API:
+
+```javascript
+const fs = require("fs").promises
+
+// Use an async function to await operations
+async function main() {
+  // List files and folders
+  const items = await fs.readdir(".")
+  console.log("Items in current directory:", items)
+
+  // Create folder
+  await fs.mkdir("my_folder")
+  console.log("Folder created")
+
+  // Delete folder
+  await fs.rmdir("my_folder")
+  console.log("Folder deleted")
+
+  // Create & write file
+  await fs.writeFile("my_file.txt", "Hello world")
+  console.log("File created & written")
+
+  // Read file
+  const content = await fs.readFile("my_file.txt", "utf8")
+  console.log("File content:", content)
+
+  // Delete file
+  await fs.unlink("my_file.txt")
+  console.log("File deleted")
+}
+
+main().catch(err => console.error(err))
+```
+
+
+## NPM
+
+When you write code , you will often need to use code written by other people; for example, libraries to help you work with dates, colors, servers, or almost anything else.
+
+Instead of downloading and copying files manually, you can use a **package manager**.
+
+A package manager is a tool that:
+
+* downloads packages 
+* keeps track of which packages your project needs
+* makes sure everyone on your team has the same versions of the packages
+
+### What is NPM
+
+In the NodeJS world, the most popular package manager is **NPM**, which stands for *Node Package Manager*.
+
+You get NPM automatically when you install NodeJS.
+
+You can check if you have NPM by running this in your terminal:
+
+```
+npm -v
+```
+
+This prints the version of NPM you have, like:
+
+```
+10.2.1
+```
+
+### Creating a package
+
+In NodeJS, a **package** is just a directory with a `package.json` file in it.
+
+Let’s create one step by step.
+
+1. Make a new folder for your project:
+
+   ```
+   mkdir my_project
+   cd my_project
+   ```
+
+2. Run this command:
+
+   ```
+   npm init
+   ```
+
+This starts an interactive setup, asking you questions like the name of your project, version, description, etc.
+
+If you don’t want to answer everything and just accept the defaults, you can use:
+
+```
+npm init -y
+```
+
+After running it, you will see a new file in your folder called:
+
+```
+package.json
+```
+
+### `package.json`
+
+The `package.json` file is just a JSON file that stores metadata about your project.
+
+Here’s an example:
+
+```json
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
+```
+
+A few important fields:
+
+* `name`: the name of your package
+* `version`: the current version
+* `main`: the entry point file (like `index.js`)
+* `scripts`: commands you can run (like `npm start`)
+* `dependencies`: lists all the packages your project depends on
+
+### Installing a package
+
+Let’s say you want to use a certain package called `picocolors` to add colors to your terminal output.
+
+You can install it by running:
+
+```
+npm install picocolors
+```
+
+You can now use it in your project. Make a `index.js` file with 
+
+```javascript
+const pico = require('picocolors')
+
+console.log(
+  pico.green("This text is green!")
+)
+```
+
+and try running it. The terminal should print a colored version of the text.
+
+What did NPM do ?
+
+* It downloaded the package and stored it in a subfolder called `node_modules/`
+* it added an entry under `dependencies` in your `package.json`
+* it updated the `package-lock.json` file
+
+What is `package-lock.json` ?
+
+### `package-lock.json`
+
+This file is automatically created by NPM.
+
+You might wonder, if we already have `package.json`, why do we need another file?
+Here is the reason:
+
+* `package.json` just says which version **range** of a package your project needs.
+  Example:
+
+  ```json
+  "dependencies": {
+    "picocolors": "^1.1.0"
+  }
+  ```
+
+  The `^1.1.0` means “any version that is compatible with 1.1.x”, so it’s flexible.
+
+* `package-lock.json` **freezes** the exact versions of every single package and their sub-dependencies, so that everyone who installs your project gets the exact same working setup.
+
+Why is this important?
+
+If you work on a team, or you deploy your project to a server, or you come back to it in the future, you want to make sure it still works the same way.
+If the packages have been updated and you reinstall without a lock file, you might get a slightly different version that behaves differently.
+
+By keeping the `package-lock.json` in your project, NPM will always install the exact versions listed there, ensuring that everyone has the same environment.
+
+`package-lock.json` locks everything to a very specific version, to make the project more reproducible on other machines.
+
+But if your package needs to be used by many people, you might instead choose not to commit it, so that NPM only finds the `package.json` file and it's allowed to install automatically the latest versions that are allowed in that file.
+
+But these are things you should worry about later, once you start publishing your own code. For now, we introduced the basics of NPM just to allow you to find and use the libraries published by other developers in your projects.
+
+
+## Networking in NodeJS
+
+NodeJS is often used as a language for backend: you can turn your script into a server, and also use it to make requests to other servers. 
+
+In thi chapter we're gonna introduce some basic networking features that will allow you to do that.
+
+### `fetch()`
+
+If you want your program to download data from a website or an API, you need to make an **HTTP request**.
+
+In modern versions of NodeJS, you can use the built-in `fetch()` function.
+
+Here’s an example of making a GET request to an API:
+
+```javascript
+const response = await fetch("https://jsonplaceholder.typicode.com/posts/1")
+const data = await response.text()
+
+console.log(data)
+```
+
+When you run this, you’ll see something like:
+
+```
+{
+  "userId": 1,
+  "id": 1,
+  "title": "...",
+  "body": "..."
+}
+```
+
+Here is what happens:
+
+1. `fetch()` takes a URL and makes a request.
+2. It returns a **Promise** that resolves to a `Response` object.
+3. `response.text()` reads the response body as a string.
+
+But the string you get back is actually JSON. What is that?
+
+### JSON
+
+When working with web APIs, the data is often sent and received as **JSON**, which stands for JavaScript Object Notation.
+
+JSON is just a text format that looks a lot like JavaScript objects. For example:
+
+```json
+{
+  "name": "Alice",
+  "age": 30,
+  "likes": ["apples", "bananas"]
+}
+```
+
+The `JSON` object is a built-in utility in JavaScript that can be used to work with this data format.
+
+You can convert a JavaScript object into a JSON string using `JSON.stringify()`:
+
+```javascript
+const user = { name: "Alice", age: 30 }
+
+const jsonString = JSON.stringify(user)
+
+console.log(jsonString)
+```
+
+This prints:
+
+```
+{"name":"Alice","age":30}
+```
+
+You can also convert JSON text back into a JavaScript object using `JSON.parse()`:
+
+```javascript
+const jsonText = '{"name":"Bob","age":25}'
+
+const obj = JSON.parse(jsonText)
+
+console.log(obj)
+```
+
+This prints:
+
+```
+{ name: 'Bob', age: 25 }
+```
+
+Be careful: `JSON.parse()` will throw an error if the string is not valid JSON.
+
+```javascript
+JSON.parse("not json") // ❌ Error!
+```
+
+So make sure the string is properly formatted.
+
+### `http` server
+
+NodeJS allows you to create a web server without installing anything else.
+
+You can use the built-in `http` module to handle requests from clients and send responses back.
+
+Here is a very basic example:
+
+```javascript
+const http = require("http")
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200
+  res.end("Hello from NodeJS server!")
+})
+
+server.listen(3000, () => {
+  console.log("Server running at http://localhost:3000/")
+})
+```
+
+When you run this script and open `http://localhost:3000` in your browser, you will see:
+
+```
+Hello from NodeJS server!
+```
+
+This is what's happening in the code:
+
+1. You imported the `http` server from the Node standard library.
+2. `http.createServer()` creates a server. You passed to `http.createServer()` a callback `(req, res) => {...}` to get executed every time someone connects.
+3. You assigned a status code of 200 (which indicates a successful operation) to the response. You can read about http status codes [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) 
+3. `res.end()` sends the response and ends the connection.
+4. `server.listen(3000)` starts the server on port 3000.
+
+You can also check `req.url` and `req.method` in the request to handle different paths or request types.
+
+Example with routing:
+
+```javascript
+const server = http.createServer((req, res) => {
+  if (req.url === "/") { // handle requests for the root of the website
+    res.statusCode = 200
+    res.end("Home page")
+  } else if (req.url === "/about") { // handle requests for the about page
+    res.statusCode = 200
+    res.end("About page")
+  } else {
+    res.statusCode = 404 // we send a 404 status code to signal that the requested page is missing
+    res.end("Not Found")
+  }
+})
+```
+
+These are very basic examples. For building more advanced servers, most devs would probably download a ready-made backend library like [express](https://www.npmjs.com/package/express).
+
+## Processing data: buffers, events, streams
+
+In this chapter we'll introduce primarily three classes of objects:
+
+- `Buffer`, which represents small chunks of binary data
+- `EventEmitter`, which can be used to track somestep by asynchronous process by emitting signals called "events"
+- `Stream`, which allows us to process big portion of data one `Buffer` at the time, and which tracks the process by emitting events
+
+These are extremely common in professional NodeJS code, so even if you might not use them in your first projects, it's good to get a basic understanding for when you'll need to interact with them. of them
+
+### Buffers
+
+In NodeJS, a **buffer** is a type of object used to work with binary data.
+
+You can think of a buffer as a fixed-size container for raw bytes.
+
+Here’s how to create a buffer from a string:
+
+```javascript
+const buf = Buffer.from("hello")
+console.log(buf)
+```
+
+This prints something like:
+
+```
+<Buffer 68 65 6c 6c 6f>
+```
+
+Those numbers (`68`, `65`, `6c`, etc.) are hexadecimal representations of the letters in `"hello"`.
+
+You can convert it back to a string like this:
+
+```javascript
+console.log(buf.toString())
+```
+
+This prints:
+
+```
+hello
+```
+
+You can also create a buffer of a certain size filled with zeros:
+
+```javascript
+const buf = Buffer.alloc(10)
+console.log(buf)
+```
+
+This prints something like:
+
+```
+<Buffer 00 00 00 00 00 00 00 00 00 00>
+```
+
+You can write into the buffer:
+
+```javascript
+buf.write("abc")
+console.log(buf)
+```
+
+And you can access individual bytes:
+
+```javascript
+console.log(buf[0]) // prints the ASCII number for 'a', which is 97
+```
+
+Buffers are especially useful when you need to manipulate data at a very low level.
+
+### Events
+
+In JavaScript, an **event** is something that happens in your program that you can react to.
+
+For example:
+
+* a file finishes loading
+* a timer goes off
+* a user clicks a button
+* a network request returns data
+
+An **event** is just a signal that something happened, and you can write code to listen for those events and react to them.
+
+In NodeJS, many objects can emit events. These objects are called **EventEmitters**.
+
+Here’s an example:
+
+```javascript
+const EventEmitter = require("events")
+
+const emitter = new EventEmitter()
+
+// Listen for an event
+emitter.on("greet", () => {
+  console.log("Hello! An event happened.") // this will get printed when a "greet" event gets fired
+})
+
+// Emit the event
+emitter.emit("greet")
+```
+
+This prints:
+
+```
+Hello! An event happened.
+```
+
+Here’s what:
+
+1. We create an `EventEmitter` object.
+2. We tell it to run a callback whenever the `"greet"` event happens, using `.on("greet")`.
+3. Later, we trigger the `"greet"` event using `.emit()`.
+4. Our callback gets executed
+
+You can pass data along with the event:
+
+```javascript
+emitter.on("greet", 
+  (name) => console.log(`Hello, ${name}!`)
+)
+
+emitter.emit("greet", "Alice") // first argument is the type of event, second argument is the data we pass with this event
+```
+
+This prints:
+
+```
+Hello, Alice!
+```
+
+You can register listeners for other events too:
+
+```javascript
+emitter.on("goodbye", () => {
+  console.log("Goodbye!")
+})
+
+emitter.emit("goodbye")
+```
+
+You can attach as many listeners as you like to a type of event, and you can fire many different types of event from the same emitter.
+
+Many objects in NodeJS emit events to tell the rest of the program that something is happening.
+
+
+### What are streams?
+
+Streams combine buffers and events to help us process data.
+
+When we work with files, data from the network, or even long text, we don’t always need (or want) to load everything into memory all at once. That could be slow, or even crash the program if the data is too big.
+
+Instead, we can process the data **little by little**, as it arrives or is read, kind of like drinking water through a straw instead of trying to drink the whole glass at once. This is called a **stream**.
+
+In NodeJS, a stream is an object that lets you read data from a source or write data to a destination **one piece at a time**.
+
+NodeJS has four main types of streams:
+
+* **Readable**: streams you can read data from (like reading a file)
+* **Writable**: streams you can write data to (like writing to a file)
+* **Duplex**: streams that are both readable and writable
+* **Transform**: like duplex streams, but they can change (transform) the data as it flows
+
+### Readable streams
+
+Let's say you have a `bigfile.txt` to process. You can create a readable stream with the `fs` module to read the file piece by piece.
+
+```javascript
+const fs = require("fs")
+
+const readableStream = fs.createReadStream(
+  "bigfile.txt"
+)
+
+readableStream.on("data", (chunk) => {
+  console.log("Received chunk:", chunk)
+})
+
+readableStream.on("end", () => {
+  console.log("Finished reading file.")
+})
+
+readableStream.on("error", (err) => {
+  console.error("Error reading file:", err)
+})
+```
+
+What happens here?
+
+1. `fs.createReadStream()` creates a readable stream.
+2. Whenever a piece of the file is ready, the stream emits a `data` event and gives us a "chunk" of data (a `Buffer`). We print the chunk.
+3. When the whole file has been read, the `end` event is triggered.
+4. If there’s an error (like the file doesn’t exist), the `error` event is triggered.
+
+This way, you can read giant files without loading them all into memory at once.
+
+If we want the data to arrive in a human-readable form (instead of binary), we can specify the encoding of the stream:
+
+```javascript
+const fs = require("fs")
+
+const readableStream = fs.createReadStream(
+  "bigfile.txt",
+  { encoding: "utf8" } // we tell NodeJS that the file should be read as utf8
+)
+
+readableStream.on("data", (chunk) => {
+  console.log("Received chunk:", chunk)
+})
+
+readableStream.on("end", () => {
+  console.log("Finished reading file.")
+})
+
+readableStream.on("error", (err) => {
+  console.error("Error reading file:", err)
+})
+```
+
+The code will now print the file in human-readable form.
+
+### Writable streams
+
+A writable stream lets you send data somewhere, chunk by chunk.
+
+Here’s an example of writing to a `target.txt` file using a stream:
+
+```javascript
+const fs = require("fs")
+
+const stream = fs.createWriteStream("target.txt")
+
+stream.write("First line\n")
+stream.write("Second line\n")
+stream.end("Finished writing\n")
+
+stream.on("finish", () => {
+  console.log("All data written.")
+})
+
+stream.on("error", err => {
+  console.error("Error:", err)
+})
+```
+
+Here’s what happens:
+
+1. `fs.createWriteStream()` creates a writable stream.
+2. We write some text to it using `.write()`.
+3. When we’re done, we call `.end()` to close the stream.
+4. When all the data has been written, the `finish` event is emitted.
+5. If something goes wrong, the `error` event is triggered.
+
+Just like readable streams, writable streams are good for big data because they don’t need to keep everything in memory at once.
+
+### Piping streams
+
+One of the coolest things about streams is that you can **pipe** them together: connect a readable stream directly to a writable stream.
+
+```javascript
+const fs = require("fs")
+
+const readable = fs.createReadStream("bigfile.txt")
+const writable = fs.createWriteStream("target.txt")
+
+readable.pipe(writable)
+```
+
+Here:
+
+* The readable stream reads from `bigfile.txt`.
+* The writable stream writes to `copy.txt`.
+* `.pipe()` sends the data directly from the readable to the writable stream.
+
+### Duplex streams
+
+A duplex stream is both readable and writable. One example is a network socket: you can send data to it and receive data from it.
+
+Here’s a very simple example using the `net` module:
+
+```javascript
+const net = require("net")
+
+const server = net.createServer((socket) => {
+  socket.write("Welcome!\n")
+
+  socket.on("data", (chunk) => {
+    console.log("Received:", 
+      chunk.toString()  // we convert the chunk of data from Buffer to string
+    )
+  })
+})
+
+server.listen(3000, () => {
+  console.log("Server listening on port 3000")
+})
+```
+
+In this example:
+
+* The `socket` object is a duplex stream.
+* You can `write()` to it and also listen for `data` events from it.
+
+### Transform streams
+
+A transform stream is a duplex stream that also modifies the data that passes through it.
+
+For example, you can use the built-in `zlib` module to compress or decompress data.
+
+Here’s how to compress a file using a transform stream:
+
+```javascript
+const fs = require("fs")
+const zlib = require("zlib")
+
+const readable = fs.createReadStream("bigfile.txt")     // create a readable stream that reads from a file
+const zip = zlib.createGzip()                           // create a transform stream that compresses data
+const writable = fs.createWriteStream("bigfile.txt.gz") // create a writable stream that writes to a file
+
+readable          // take the readable stream
+  .pipe(zip)      // pipe it into the transform stream to compress the data
+  .pipe(writable) // then pipe it into the writable stream that saves the data to a zipped file
+
+writable.on("finish", () => {
+  console.log("File compressed.")
+})
+```
+
+And to decompress it back:
+
+```javascript
+const readable = fs.createReadStream("bigfile.txt.gz")
+const unzip = zlib.createGunzip()
+const writable = fs.createWriteStream("bigfile.txt")
+
+readable.pipe(unzip).pipe(writable)
+
+writable.on("finish", () => {
+  console.log("File decompressed.")
+})
+```
+
+Transform streams are very useful for tasks like compression, encryption, or changing file formats while streaming.
+
+### Backpressure
+
+Sometimes a writable stream is slow at handling data. If we keep pushing data to a writable faster than it can handle, we might run into problems. This is called **backpressure**.
+
+If you call the `.write()` method on a writable stream, it returns a boolean that informs you if the stream needs a pause; you might have to check its return value, like this:
+
+```javascript
+const fs = require("fs")
+
+const readable = fs.createReadStream("example.txt")
+const writable = fs.createWriteStream("copy.txt")
+r
+readable.on("data", chunk => {               // each chunk of data we read from the readable stream...
+
+  const canContinue = writable.write(chunk)  // ...we send it to the writable, which returns us a boolean to confirm we can continue
+
+  if (!canContinue) { readable.pause() }     // ...if we can't, we temporarily pause reading 
+})
+
+writable.on("drain",                // the writable stream emits a "drain" event when the backpressure is gone
+
+   () => { readable.resume() }      // so we resume reading (and writing)
+
+)
+```
+
+This was an illustrative example of manually piping data from a Readable to a Writable, and managing backpressure manually.
+
+Usually we would pipe data using the  `.pipe()` method, which handles backpressure automatically.
+
+So you only need to worry about backpressure when for some reason you're manually calling `.write()`.
+
+# Final note
+
+So, that's it, if you followed along with the lessons, you should now be able to write some simple programs in NodeJS.
+
+I'd suggest doing exactly that: after learning the basics, building a few personal projects is the best way to practice and become a better programmer. 
+
+It doesn't really matter what you build, what matters is that you challenge yourself to solve problems with code. 
+
+Modern programming languages are incredibly powerful, and NodeJS is probably the best toolbox to experiment with in this phase of your journey.
+
+Good luck!

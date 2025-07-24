@@ -390,6 +390,7 @@ La page "Settings" est accessible directement depuis la page d'accueil de l'appl
 # ANNEXES
 
 ## A1. Explication de Payjoin (P2EP)
+
 ![image](assets/fr/25.webp)
 **Définition** : 
 - Payjoin, ou **Pay-to-EndPoint (P2EP)**, est une technique de transaction Bitcoin qui améliore la confidentialité sur le réseau **onchain**. Elle combine les entrées de l’expéditeur et du destinataire dans une seule transaction, rendant les montants et les adresses plus difficiles à tracer.
@@ -401,7 +402,7 @@ La page "Settings" est accessible directement depuis la page d'accueil de l'appl
 
 **Utilisation dans Bull Bitcoin Mobile**
 - **Réception** (fourniture d’une adresse) : Payjoin est activé par défaut. 
-- **Envoi** : Le wallet détecte automatiquement un URI Payjoin (ex. : `bitcoin:bc1qp2nxfqdcztq40zt6m0r2qf9wtx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...`) et configure la transaction en conséquence.
+- **Envoi** : Le wallet détecte automatiquement un URI Payjoin (ex. : `bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...`) et configure la transaction en conséquence.
  
 **Avantages**
 - **Confidentialité renforcée** : Payjoin invalide l'hypothèse qui suppose que toutes les entrées d’une transaction appartiennent à une seule entité. Avec Payjoin, les entrées proviennent de l’expéditeur et du destinataire, brisant cette assumption.

@@ -301,7 +301,7 @@ Inashauriwa kutumia tovuti ya Have I Been Pwned (https://haveibeenpwned.com/) il
 
 Kwa ujumla, kuanza kutumia barua pepe mpya, iliyo salama zaidi ya Anwani sio mazoezi mabaya na hata ni muhimu ikiwa mtu anataka kuanza upya kwa misingi ya afya.
 
-Bonasi Bitcoin: Inaweza kushauriwa kuunda barua pepe mahususi yenye Anwani kwa shughuli zetu za Bitcoin (kuunda akaunti za Ubadilishanaji) ili kutenganisha kikweli maeneo ya shughuli katika maisha yetu.
+Bonasi ya Bitcoin: Inashauriwa kuunda barua pepe maalum yenye Address kwa miamala yetu ya Bitcoin (kuunda akaunti za exchange) ili kutenganisha kwa kweli maeneo ya miamala katika maisha yetu.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ## Kidhibiti cha Nenosiri
@@ -367,7 +367,7 @@ Hatua hii ya pili inaweza kuwa:
 
 ![](assets/notext/19.webp)
 
-Kwa 2FA, hata kama mdukuzi atapata nenosiri lako, hataweza kufikia akaunti yako bila kipengele hiki cha pili cha uthibitishaji. Hii inafanya 2FA kuwa muhimu kwa kulinda akaunti zako za mtandaoni dhidi ya ufikiaji usioidhinishwa.
+Kwa 2FA, hata kama mdukuzi atapata nenosiri lako, hatawezi kufikia akaunti yako bila kipengele cha pili cha uthibitishaji. Hii inafanya 2FA kuwa muhimu kwa kulinda akaunti zako za mtandaoni dhidi ya ufikiaji usioidhinishwa.
 
 ### Chaguo gani la kuchagua?
 
@@ -384,7 +384,7 @@ Kuhusu vitisho vinavyoweza kutokea kwa SIM 2FA, huu ni mfano wa kawaida: shambul
 
 Biometriska inaweza kutumika kama njia mbadala, lakini ni salama kidogo kuliko mchanganyiko wa ujuzi na milki. Data ya kibayometriki inapaswa kubaki kwenye kifaa cha uthibitishaji na isifichuliwe mtandaoni. Ni muhimu kuzingatia mtindo wa tishio unaohusishwa na mbinu tofauti za uthibitishaji na kurekebisha mazoea ipasavyo.
 
-Hatimaye, inaweza kuwa na manufaa kutoa muktadha mfupi kuhusu HOTP na TOTP OTP: HOTP ni nenosiri la mara moja kulingana na algoriti ya HMAC (Msimbo wa Uthibitishaji wa Ujumbe wa Hash), wakati TOTP ni OTP inayotegemea wakati. Sifa muhimu za algoriti kama hizo ni kwamba manenosiri yanaweza kutumika mara moja tu, kila thamani inayozalishwa ni ya kipekee na ipo ufunguo ulioshirikiwa kati ya kifaa cha mtumiaji (mteja) na huduma ya uthibitishaji (seva). Tofauti kati ya mifumo miwili ni jinsi kipengele kinavyosonga: TOTP inategemea wakati, wakati mfumo wa HOTP ni wa kukabiliana.
+Hatimaye, inaweza kuwa na manufaa kutoa muhtasari mfupi kuhusu HOTP na TOTP (OTP):HOTP ni nenosiri la mara moja linalotegemea algoriti ya HMAC (Hash-based Message Authentication Code), wakati TOTP ni nenosiri la mara moja linalotegemea muda. Sifa muhimu za algoriti hizi ni kwamba manenosiri yanaweza kutumika mara moja tu; kila thamani inayozalishwa ni ya kipekee na hutegemea ufunguo ulioshirikiwa kati ya kifaa cha mtumiaji (mteja) na huduma ya uthibitishaji (seva). Tofauti kati ya mifumo miwili ni jinsi kipengele kinavyofanya kazi: TOTP inategemea muda, wakati HOTP inategemea kielelezo cha kuthibitisha.
 
 ### Hitimisho la mafunzo:
 
@@ -410,7 +410,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Kulinda akaunti yako ya barua pepe ni hatua muhimu ya kulinda shughuli zako za mitandaoni na kulinda data yako ya kibinafsi. Mafunzo haya yatakuongoza, hatua kwa hatua, katika kuunda na kusanidi akaunti ya ProtonMail, mtoa huduma anayejulikana kwa kiwango chake cha juu cha usalama ambacho hutoa usimbaji fiche wa mwanzo hadi mwisho wa mawasiliano yako. Iwe wewe ni mgeni au mtumiaji mwenye uzoefu, mbinu bora zilizowasilishwa hapa zitakusaidia kuimarisha usalama wa barua pepe yako, huku ukinufaika na vipengele vya kina vya ProtonMail:
+Kulinda akaunti yako ya barua pepe ni hatua muhimu ya kulinda miamala yako ya mtandaoni na kuhifadhi data yako ya kibinafsi. Mafunzo haya yatakuongoza hatua kwa hatua katika kuunda na kusanidi akaunti ya ProtonMail, mtoa huduma anayejulikana kwa kiwango chake cha juu cha usalama, ambacho hutoa usimbaji fiche kuanzia mwanzo hadi mwisho wa mawasiliano yako. Iwe wewe ni mgeni au mtumiaji mwenye uzoefu, mbinu bora zilizowasilishwa hapa zitakusaidia kuimarisha usalama wa barua pepe yako, huku ukinufaika na vipengele vya kina vya ProtonMail:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ## Kulinda katika 2FA
@@ -420,7 +420,9 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 Uthibitishaji wa vipengele viwili (2FA) umekuwa muhimu ili kupata akaunti zako za mtandaoni. Katika somo hili, utajifunza jinsi ya kusanidi na kutumia programu ya 2FA Authy, ambayo hutengeneza misimbo thabiti ya tarakimu 6 ili kulinda akaunti zako. Authy ni rahisi sana kutumia na inasawazisha kwenye vifaa vingi. Gundua jinsi ya kusakinisha na kusanidi Authy, na hivyo uimarishe usalama wa akaunti zako za mtandaoni hivi sasa:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
-Chaguo jingine ni kutumia ufunguo halisi wa usalama. Mafunzo haya ya ziada yanakuonyesha jinsi ya kusanidi na kutumia ufunguo wa usalama kama kipengele cha pili cha uthibitishaji:
+Chaguo jingine ni kutumia security key.
+
+Mafunzo haya ya ziada yanakuonyesha jinsi ya kusanidi na kutumia security key kama kipengele cha pili cha uthibitishaji:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 ## Inaunda kidhibiti cha nenosiri
@@ -517,9 +519,9 @@ Kwa kufahamu ujuzi na zana hizi, utakuwa na vifaa vya kutosha vya kuvinjari ulim
 
 Kuna vipengele vitatu muhimu vya kuzingatia unapozungumzia wasimamizi wa nywila: kuunda, kusasisha, na utekelezaji wa manenosiri kwenye tovuti.
 
-Kwa ujumla haipendekezi kutumia viendelezi vya kivinjari kwa kujaza nenosiri moja kwa moja. Zana hizi zinaweza kumfanya mtumiaji kuwa katika hatari zaidi ya mashambulizi ya hadaa. Renaud, mtaalam anayetambulika katika usalama wa mtandao, anapendelea usimamizi wa mwongozo kwa kutumia KeePass, ambayo inahusisha kunakili na kubandika nenosiri mwenyewe. Viendelezi vinaelekea kuongeza uso wa mashambulizi, vinaweza kupunguza kasi ya utendakazi wa kivinjari, na kwa hiyo kuwasilisha hatari kubwa. Kwa hivyo, utumiaji mdogo wa viendelezi kwenye kivinjari ni mazoezi yaliyopendekezwa.
+Kwa ujumla, haipendekezwi kutumia viendelezi vya kivinjari kujaza nenosiri moja kwa moja. Zana hizi zinaweza kuongeza eneo la mashambulizi ya hadaa na kuweka mtumiaji hatarini zaidi. Renaud, mtaalam anayetambulika katika usalama wa mtandao, anapendelea kusanidi nenosiri kwa mkono kupitia KeePass, hatua inayohusisha kunakili na kubandika nenosiri mwenyewe. Viendelezi hivyo huongeza eneo la mashambulizi na vinaweza kupunguza kasi ya kivinjari, hivyo kusababisha hatari kuwa kubwa zaidi. Kwa hivyo, matumizi ya viendelezi vichache kwenye kivinjari ndiyo yanayopendekezwa.
 
-Vidhibiti vya nenosiri kwa ujumla huhimiza matumizi ya vipengele vya ziada vya uthibitishaji, kama vile uthibitishaji wa vipengele viwili. Kwa usalama kamili, inashauriwa kuweka OTP (Nenosiri za Wakati Mmoja) kwenye kifaa chako cha rununu. AndoTP inatoa suluhisho la chanzo huria kwa ajili ya kuzalisha na kuhifadhi misimbo ya OTP kwenye simu yako. Ingawa Kithibitishaji cha Google kinaruhusu kusafirisha mbegu za msimbo wa uthibitishaji, imani katika kuhifadhi nakala kwenye akaunti ya Google bado ina kikomo. Kwa hivyo, programu za OTI na AndoTP zinapendekezwa kwa usimamizi huru wa OTP.
+Vidhibiti vya nenosiri kwa ujumla huhimiza matumizi ya vipengele vya ziada vya uthibitishaji, kama uthibitishaji wa vipengele viwili (2FA). Kwa usalama zaidi, inashauriwa kuweka OTP (One-Time Password) kwenye kifaa chako cha rununu. AndOTP inatoa suluhisho la chanzo huria la kuzalisha na kuhifadhi misimbo ya OTP kwenye simu yako. Ingawa Google Authenticator inaruhusu usafirishaji wa seed za uthibitishaji, imani katika kuhifadhi seed kwenye akaunti ya Google bado ina mipaka. Kwa hivyo, programu kama OTI na AndOTP zinapendekezwa kwa usimamizi huru wa OTP.
 
 ![](assets/notext/21.webp)
 
@@ -539,7 +541,7 @@ Uthibitishaji wa moja kwa moja kwa huduma husika ni chaguo la kuvutia kutotegeme
 
 Usalama wa kompyuta unaweza kuathiriwa na mazoea rahisi na utumiaji wa nenosiri chaguo-msingi, kama vile "admin". Mashambulizi ya kisasa sio lazima kila wakati kuhatarisha usalama wa kompyuta. Kwa mfano, manenosiri ya msimamizi wa kituo cha YouTube yaliandikwa katika msimbo wa chanzo wa kibinafsi wa kampuni. Udhaifu wa usalama mara nyingi ni matokeo ya uzembe wa kibinadamu.
 
-Inapaswa pia kuzingatiwa kuwa mtandao ni wa kati na kwa kiasi kikubwa chini ya udhibiti wa Marekani. Seva ya DNS inaweza kuwa chini ya udhibiti na mara nyingi hutumia DNS danganyifu kuzuia ufikiaji wa tovuti fulani. DNS ni itifaki ya zamani na isiyo na usalama wa kutosha, ambayo inaweza kusababisha masuala ya usalama. Itifaki mpya, kama vile DNSsec, zimeibuka lakini bado hazitumiki sana. Ili kuepuka udhibiti na kuzuia matangazo, inawezekana kuchagua watoa huduma mbadala wa DNS.'
+Inapaswa pia kuzingatiwa kuwa mtandao ni wa kati na kwa kiasi kikubwa chini ya udhibiti wa Marekani. Seva ya DNS inaweza kuwa chini ya udhibiti huo, na mara nyingi hutumiwa kwa DNS spoofing ili kuzuia ufikiaji wa tovuti fulani. DNS ni protocol ya zamani na isiyo na usalama wa kutosha, ambayo inaweza kusababisha masuala ya usalama. Protocol mpya, kama DNSSEC, zimebuniwa lakini bado hazitumiki sana. Ili kuepuka udhibiti na kuzuia matangazo, inawezekana kuchagua watoa huduma mbadala wa DNS.
 
 Njia mbadala za matangazo yanayoingiliana ni pamoja na Google DNS, OpenDNS, na huduma zingine huru. Itifaki ya kawaida ya DNS huacha hoja za DNS zionekane kwa mtoa huduma wa intaneti. DOH (DNS juu ya HTTPS) na DOT (DNS juu ya TLS) husimba muunganisho wa DNS kwa njia fiche, hivyo kutoa faragha na usalama zaidi. Itifaki hizi hutumika sana katika makampuni ya biashara kwa sababu ya usalama wao ulioimarishwa na zinaungwa mkono na Windows, Android na iPhone. Ili kutumia DOH na DOT, jina la mpangishi wa TLS lazima liandikwe badala ya IP Address. Watoa huduma za DOH na DOT bila malipo wanapatikana mtandaoni. DOH na DOT huboresha faragha na usalama kwa kuepuka mashambulizi ya "mtu katikati".
 

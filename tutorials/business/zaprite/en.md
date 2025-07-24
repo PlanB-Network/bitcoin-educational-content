@@ -22,9 +22,25 @@ Once you've created your account, the first area of focus is to enter your Busin
 
 ## Connections
 
-![Connections](assets/en/)
+![Connections](assets/en/connections.webp)
 
-For our first stop, let's configure our payment methods. Where is your money going and how can they pay you?
+For our first stop, let's configure our payment methods. This is where you configure the ways that people can pay you.
+
+Payment options you can select include:
+
+1) Cash
+1) Bank Wire and ACH Transfers
+1) Card Payments:
+    - Paypal
+    - Stripe
+1) Bitcoin
+    - Onchain
+    - Lightning
+        - APIs
+        - Lightning Address
+
+Some of these connections are as simple as including a lightning address! Many others will give you an option to Login and give access to Zaprite to your account. Others still may just require a few details: account numbers, xpub, etc.
+
 
 ## Settings 
 

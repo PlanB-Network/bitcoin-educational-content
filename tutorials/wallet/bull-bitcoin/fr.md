@@ -471,7 +471,7 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 * **Explorateurs de blocs :**
 	* On chain : **[Mempool.space](https://mempool.space/)**
 	* Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
-	* Lightning : **[1ML (Lightning Network)](https://1ml.com/) 
+	* Lightning : **[1ML (Lightning Network)](https://1ml.com/)** 
 
 * **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
 	* **Sécuriser sa phrase de récupération**
@@ -480,10 +480,12 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/
 
+
     * **Liquid Network** : 
 	    * **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+
 
     * **Lightning Network** :
 	    * **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**

@@ -1,0 +1,9 @@
+question: Linux 桌面环境的主要作用是什么？
+answer: 提供 Interface 图形
+wrong_answers:
+  - 管理系统启动
+  - 编译 Linux 内核
+  - 防范病毒
+explanation: |
+  桌面环境将可视化和交互式 Elements （窗口、菜单、图标、面板等）组合在一起，使用户能够以图形方式与系统交互。
+reviewed: false

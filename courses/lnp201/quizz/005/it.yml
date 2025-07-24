@@ -6,4 +6,4 @@ wrong_answers:
   - Creare script di blocco per proteggere i bitcoin
 explanation: |
   La chiave privata è utilizzata per firmare le transazioni al fine di soddisfare uno script e sbloccare i bitcoin.
-reviewed: false
+reviewed: true

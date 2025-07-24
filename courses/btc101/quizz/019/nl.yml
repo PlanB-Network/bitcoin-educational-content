@@ -1,0 +1,12 @@
+question: Wat zijn de drie canonieke functies van geld?
+answer: Waardeopslag, Medium van Exchange, Rekeneenheid.
+wrong_answers:
+  - Waardeopslag, Medium van Exchange, Productiemiddel.
+  - Waardeopslag, Productiemiddel, Rekeneenheid.
+  - Exchange, productiemiddel, rekeneenheid.
+explanation: |
+  Volgens Aristoteles heeft geld drie functies: het is
+  een opslagplaats van waarde, een medium van Exchange en een rekeneenheid
+  rekeneenheid. Tegenwoordig wordt de functie van Exchange
+  algemeen erkend als de belangrijkste, vóór de andere twee.
+reviewed: true

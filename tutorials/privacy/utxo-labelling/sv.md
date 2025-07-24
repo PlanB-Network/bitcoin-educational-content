@@ -180,10 +180,10 @@ Skriv in din etikett och bekräfta genom att klicka på den blå knappen "Lägg 
 ![labelling](assets/notext/20.webp)
 
 
-## Självstudier: Märkning på Sparrow Wallet
+## Självstudier: Märkning på Sparrow wallet
 
 
-Med Sparrow Wallet-programvaran är det möjligt att tilldela etiketter på flera olika sätt. Den enklaste metoden är att lägga till en etikett i förväg, när du kommunicerar en mottagande Address till avsändaren. För att göra detta, i menyn `Receive`, klicka på fältet `Label` och ange den etikett du vill ha. Detta kommer att bevaras och vara tillgängligt i hela programvaran så snart bitcoins tas emot på Address.
+Med Sparrow wallet-programvaran är det möjligt att tilldela etiketter på flera olika sätt. Den enklaste metoden är att lägga till en etikett i förväg, när du kommunicerar en mottagande Address till avsändaren. För att göra detta, i menyn `Receive`, klicka på fältet `Label` och ange den etikett du vill ha. Detta kommer att bevaras och vara tillgängligt i hela programvaran så snart bitcoins tas emot på Address.
 
 
 ![labelling](assets/notext/21.webp)
@@ -201,7 +201,7 @@ Du har också möjlighet att lägga till eller ändra dina etiketter från menyn
 ![labelling](assets/notext/23.webp)
 
 
-Slutligen kan du visa dina etiketter i menyn "UTXO". Sparrow Wallet lägger automatiskt till parenteser bakom din etikett om vilken typ av utdata det rör sig om, vilket hjälper till att skilja UTXO:er som härrör från förändringar från dem som tas emot direkt.
+Slutligen kan du visa dina etiketter i menyn "UTXO". Sparrow wallet lägger automatiskt till parenteser bakom din etikett om vilken typ av utdata det rör sig om, vilket hjälper till att skilja UTXO:er som beror på ändringar från dem som tas emot direkt.
 
 
 ![labelling](assets/notext/24.webp)

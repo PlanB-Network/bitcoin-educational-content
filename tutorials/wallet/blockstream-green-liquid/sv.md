@@ -23,7 +23,7 @@ Idag är den mest kända Sidechain förmodligen Liquid. I den här handledningen
 ## Vad är Liquid Network?
 
 
-Liquid är ett federerat Sidechain-överlägg för Bitcoin, utvecklat av Blockstream för att förbättra transaktionshastighet, sekretess och funktionalitet. Den använder en bilateral förankringsmekanism etablerad på en federation för att låsa bitcoins på huvudkedjan och skapa Liquid-bitcoins (L-BTC) i gengäld, tokens som cirkulerar på Liquid medan de förblir uppbackade av de ursprungliga bitcoins.
+Liquid är ett federerat Sidechain-överlägg för Bitcoin, utvecklat av Blockstream för att förbättra transaktionshastighet, integritet och funktionalitet. Den använder en bilateral förankringsmekanism etablerad på en federation för att låsa bitcoins på huvudkedjan och skapa Liquid-bitcoins (L-BTC) i gengäld, tokens som cirkulerar på Liquid medan de fortfarande backas upp av de ursprungliga bitcoins.
 
 
 ![LIQUID GREEN](assets/fr/02.webp)
@@ -245,7 +245,7 @@ Du kan också ändra din Wallet PIN-kod och aktivera en biometrisk anslutning.
 Nu när din Liquid Wallet är konfigurerad är du redo att ta emot din första L-Sats!
 
 
-Om du ännu inte har L-BTC har du flera alternativ. Det första är att få några skickade direkt till dig. Om någon vill betala dig i bitcoins på Liquid ger du dem helt enkelt en mottagande Address. Det andra alternativet är att Exchange dina bitcoins på kedjan eller på Lightning Network för L-BTC. För att göra detta kan du använda [en brygga som Boltz] (https://boltz.Exchange/). Ange helt enkelt din Liquid Address på webbplatsen och gör sedan betalningen antingen via Lightning Network eller onchain.
+Om du ännu inte har L-BTC har du flera alternativ. Det första är att få några skickade direkt till dig. Om någon vill betala dig i bitcoins på Liquid, ger du dem helt enkelt en mottagande Address. Det andra alternativet är att Exchange dina bitcoins på kedjan eller på Lightning Network för L-BTC. För att göra detta kan du använda [en brygga som Boltz] (https://boltz.Exchange/). Ange helt enkelt din Liquid Address på webbplatsen och gör sedan betalningen antingen via Lightning Network eller onchain.
 
 
 ![LIQUID GREEN](assets/fr/30.webp)

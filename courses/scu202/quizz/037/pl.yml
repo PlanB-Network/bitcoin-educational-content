@@ -1,0 +1,9 @@
+question: Która kategoria oprogramowania stanowi jeden z najbardziej krytycznych punktów wejścia dla ataków na komputer?
+answer: Przeglądarka internetowa
+wrong_answers:
+  - Czytnik PDF
+  - Edytor tekstu
+  - Menedżer plików
+explanation: |
+  Przeglądarka internetowa jest stale narażona na kontakt z zewnętrzną zawartością, co czyni ją głównym wektorem ataku dla cyberprzestępców.
+reviewed: false

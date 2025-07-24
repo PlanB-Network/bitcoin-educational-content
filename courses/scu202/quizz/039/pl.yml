@@ -1,0 +1,9 @@
+question: Co często trzeba zrobić po zainstalowaniu krytycznej aktualizacji systemu operacyjnego, aby w pełni zastosować poprawki?
+answer: Uruchom ponownie komputer
+wrong_answers:
+  - Resetowanie hasła
+  - Odłącz sieć Wi-Fi
+  - Usuwanie plików tymczasowych
+explanation: |
+  Niektóre aktualizacje systemu operacyjnego, takie jak te dotyczące jądra lub krytycznych bibliotek, zaczynają obowiązywać dopiero po ponownym uruchomieniu komputera.
+reviewed: false

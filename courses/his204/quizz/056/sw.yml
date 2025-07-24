@@ -1,0 +1,8 @@
+question: Kwa Wanafizikia, kuna tofauti gani kati ya uzalishaji na faida?
+answer: Mfanyabiashara wa viwanda na mfanyabiashara wanaweza kushinda, lakini mkulima pekee ndiye anayezalisha, kwa sababu uzalishaji ni uumbaji wa jambo muhimu
+wrong_answers:
+  - Watengenezaji na wafanyabiashara wanaweza wasipate faida. Kilimo pekee ndio huleta faida.
+  - Mkulima anaweza kupata, lakini ni mfanyabiashara na mfanyabiashara pekee ndiye anayezalisha, kwa sababu kuzalisha ni kutoa huduma.
+  - Uzalishaji na faida ni kitu kimoja
+explanation: |
+  Wanafizikia waliamini kuwa kilimo pekee ndicho kilikuwa na tija, kwani kiliunda jambo jipya. Viwanda na biashara vilionekana kuwa shughuli tasa, kwa vile vilibadilisha tu au kuhamisha utajiri uliokuwepo.

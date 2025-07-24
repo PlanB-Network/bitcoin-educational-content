@@ -1,0 +1,9 @@
+question: Mitä työpöytäympäristön osaa käytetään tiedostojen ja kansioiden visuaaliseen navigointiin?
+answer: Tiedostonhallinta
+wrong_answers:
+  - Istunnon johtaja
+  - Composer X11
+  - Paketinhallinta
+explanation: |
+  Tiedostonhallinta (kuten Nautilus, Dolphin, Thunar) antaa käyttäjän hallita tiedostoja ja kansioita graafisen Interface:n avulla.
+reviewed: false

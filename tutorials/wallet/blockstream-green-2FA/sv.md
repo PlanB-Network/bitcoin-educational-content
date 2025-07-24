@@ -52,7 +52,7 @@ Den här metoden ökar säkerheten för din Hot Wallet avsevärt, samtidigt som 
 Denna begränsning gör 2FA-alternativet mer lämpligt för en Wallet som spenderar, där regelbundna transaktioner automatiskt förnyar tidslås. För en Wallet med långsiktigt sparande kan detta vara problematiskt, eftersom du måste tänka på att göra en sveptransaktion till dig själv varje år innan tidslåset löper ut.
 
 
-En annan nackdel med den här säkerhetsmetoden är att du måste använda skriptmallar för minoriteter. Detta innebär att saker och ting blir mer komplicerade ur sekretesssynpunkt: väldigt få personer använder samma typ av skript som du, vilket gör det lättare för en utomstående observatör att identifiera ditt Wallet-fingeravtryck. Dessutom kommer dessa skript att medföra högre transaktionskostnader på grund av deras större storlek.
+En annan nackdel med den här säkerhetsmetoden är att du måste använda skriptmallar för minoriteter. Detta innebär att saker och ting blir mer komplicerade ur integritetssynpunkt: väldigt få personer använder samma typ av skript som du, vilket gör det lättare för en utomstående observatör att identifiera ditt Wallet-fingeravtryck. Dessutom kommer dessa skript att medföra högre transaktionskostnader på grund av deras större storlek.
 
 
 Om du föredrar att inte använda 2FA-alternativet och helt enkelt vill ställa in en "*singlesig*" Wallet på Green, inbjuder jag dig att konsultera denna andra handledning :
@@ -354,7 +354,7 @@ Välj betalningsbelopp.
 ![GREEN 2FA MULTISIG](assets/fr/44.webp)
 
 
-Längst ner på skärmen kan du välja avgiftssats för den här transaktionen. Du kan välja att följa programmets rekommendationer eller anpassa dina avgifter. Ju högre avgift i förhållande till andra väntande transaktioner, desto snabbare kommer din transaktion att behandlas. För information om avgiftsmarknaden, besök [Mempool.space](https://Mempool.space/) i avsnittet "*Transaktionsavgifter*".
+Längst ner på skärmen kan du välja avgiftssats för den här transaktionen. Du kan välja mellan att följa programmets rekommendationer eller att anpassa dina avgifter. Ju högre avgift i förhållande till andra väntande transaktioner, desto snabbare kommer din transaktion att behandlas. För information om avgiftsmarknaden, besök [Mempool.space](https://Mempool.space/) i avsnittet "*Transaktionsavgifter*".
 
 
 ![GREEN 2FA MULTISIG](assets/fr/45.webp)

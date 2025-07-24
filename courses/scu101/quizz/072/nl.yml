@@ -1,0 +1,9 @@
+question: Wat is een wachtwoordmanager?
+answer: Een hulpprogramma dat wachtwoorden opslaat, genereert en beheert.
+wrong_answers:
+  - Een antivirussoftware tegen hackaanvallen.
+  - Een veilige e-mailservice.
+  - Een back-uptool voor persoonlijke identiteitsgegevens.
+explanation: |
+  Een wachtwoordmanager centraliseert de opslag en aanmaak van wachtwoorden.
+reviewed: true

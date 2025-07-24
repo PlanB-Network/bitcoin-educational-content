@@ -1,0 +1,9 @@
+question: Bản phân phối Linux là gì?
+answer: Một hệ điều hành hoàn chỉnh được xây dựng xung quanh hạt nhân Linux
+wrong_answers:
+  - Một trình quản lý gói
+  - Môi trường máy tính để bàn Linux
+  - Một tập lệnh cài đặt tự động cho hệ điều hành Linux
+explanation: |
+  Bản phân phối Linux tích hợp nhân, công cụ hệ thống, phần mềm, trình khởi động và quản lý gói để cung cấp một hệ thống sẵn sàng sử dụng.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 非営利団体によって開発されたオープンソースのブラウザで、Geckoエンジンの代表的なものはどれか？
+answer: モジラ・ファイアフォックス
+wrong_answers:
+  - 勇敢
+  - サファリ
+  - クローム
+explanation: |
+  Mozilla Foundationによって開発されたMozilla Firefoxは、Geckoベースの代表的なブラウザであり、プライバシーへのCommitmentで有名である。
+reviewed: false

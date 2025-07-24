@@ -1,0 +1,9 @@
+question: 桌面環境的哪個元件用於以視覺化方式導覽檔案和資料夾？
+answer: 檔案管理員
+wrong_answers:
+  - 會話管理員
+  - 作曲家 X11
+  - 套件管理員
+explanation: |
+  檔案管理員 (如 Nautilus、Dolphin、Thunar) 可讓使用者透過圖形化的 Interface 管理檔案和資料夾。
+reviewed: false

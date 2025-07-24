@@ -1,0 +1,10 @@
+question: Wat is de laatste fase die optreedt bij hyperinflatie?
+answer: Er ontstaat een nieuwe valuta.
+wrong_answers:
+  - Verlies van vertrouwen in de munt.
+  - Valuta stort in en prijzen stijgen.
+  - De vicieuze cirkel van het bijdrukken van geld.
+explanation: |
+  De laatste fase van hyperinflatie treedt op wanneer een nieuwe
+  valuta wordt geïntroduceerd om de oude te vervangen.
+reviewed: true

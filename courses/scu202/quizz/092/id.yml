@@ -1,0 +1,9 @@
+question: Perangkat mana yang bertindak sebagai batas antara Internet dan jaringan rumah pribadi Anda?
+answer: Modem-router
+wrong_answers:
+  - Sakelar Ethernet
+  - Server NAS
+  - Hub USB
+explanation: |
+  Router modem menghubungkan jaringan ISP ke jaringan lokal Anda dan mengelola alokasi alamat IP lokal.
+reviewed: false

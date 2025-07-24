@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ -verkon todistusten ja diplomien aikaleimaus
+name: Plan ₿ -verkkotutkintojen aikaleima
 description: Ymmärrä, miten Plan ₿ -verkko myöntää vahvistettavissa olevan todistuksen sertifikaateillesi ja diplomeillesi
 ---
 

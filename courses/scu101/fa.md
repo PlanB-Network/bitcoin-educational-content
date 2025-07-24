@@ -629,22 +629,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## راه‌اندازی پشتیبان‌گیری
-
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-
-محافظت از فایل‌های شما نیز یک نکته حیاتی است. این آموزش به شما نشان می‌دهد که چگونه یک استراتژی پشتیبان‌گیری مؤثر با استفاده از Proton Drive پیاده‌سازی کنید. بیاموزید که چگونه از این راه‌حل ابری امن برای اعمال روش ۳-۲-۱ استفاده کنید: سه نسخه از داده‌های خود بر روی دو رسانه مختلف، با یک نسخه خارج از سایت. این امر دسترسی و امنیت فایل‌های حساس شما را تضمین می‌کند:
-
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-و برای ایمن‌سازی فایل‌های شما که بر روی رسانه‌های قابل حمل مانند درایو USB یا درایو خارجی Hard ذخیره شده‌اند، همچنین به شما نشان می‌دهم که چگونه به راحتی این رسانه‌ها را با استفاده از VeraCrypt رمزگذاری و رمزگشایی کنید:
-
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## تغییر مرورگر و VPN
 
 
@@ -665,6 +649,22 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## راه‌اندازی پشتیبان‌گیری
+
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+
+محافظت از فایل‌های شما نیز یک نکته حیاتی است. این آموزش به شما نشان می‌دهد که چگونه یک استراتژی پشتیبان‌گیری مؤثر با استفاده از Proton Drive پیاده‌سازی کنید. بیاموزید که چگونه از این راه‌حل ابری امن برای اعمال روش ۳-۲-۱ استفاده کنید: سه نسخه از داده‌های خود بر روی دو رسانه مختلف، با یک نسخه خارج از سایت. این امر دسترسی و امنیت فایل‌های حساس شما را تضمین می‌کند:
+
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+و برای ایمن‌سازی فایل‌های شما که بر روی رسانه‌های قابل حمل مانند درایو USB یا درایو خارجی Hard ذخیره شده‌اند، همچنین به شما نشان می‌دهم که چگونه به راحتی این رسانه‌ها را با استفاده از VeraCrypt رمزگذاری و رمزگشایی کنید:
+
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # بیشتر بروید
 

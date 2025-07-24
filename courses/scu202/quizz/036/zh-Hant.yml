@@ -1,0 +1,9 @@
+question: 為什麼建議您移除電腦中未使用或過時的軟體？
+answer: 減少攻擊面
+wrong_answers:
+  - 要加快您的網際網路連線速度
+  - 改善保護性向量
+  - 增加電池壽命
+explanation: |
+  安裝的軟體越少，攻擊者可利用的潛在漏洞就越少。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Enligt Eulers sats, vad blir resultatet av exponentiationen a^ϕ(N) mod N för två heltal a och N som är koprimiska?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Eulers sats säger att för två heltal a och N som är koprim är exponentiationen a^ϕ(N) mod N alltid lika med 1 mod N, en egenskap som används inom kryptografi.
+reviewed: false

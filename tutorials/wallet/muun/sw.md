@@ -13,7 +13,7 @@ Muun (https://muun.com/) ni Wallet inayojitegemea ya Bitcoin na umeme.
 ## mafunzo ya video
 
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 
 ## Muun Wallet - Mwongozo Kamili wa Mtumiaji

@@ -1,0 +1,9 @@
+question: Chiến lược đầu tư nào thường được các nhà đầu tư sử dụng?
+answer: Trung bình chi phí đô la
+wrong_answers:
+  - Giao dịch trong ngày
+  - Trọng tài
+  - Tổng số tiền
+explanation: |
+  DCA liên quan đến việc đầu tư một số tiền cố định thường xuyên để giảm tác động của biến động thị trường lên danh mục đầu tư.
+reviewed: false

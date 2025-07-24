@@ -1,8 +1,8 @@
 ---
-term: Commitment
+term: COMMITMENT
 ---
 
-Sebuah Commitment (dalam pengertian kriptografi) adalah sebuah objek matematis, dilambangkan dengan $C$, yang diturunkan secara deterministik dari sebuah operasi pada data terstruktur $m$ (pesan) dan sebuah nilai acak $r$. Kami menulis :
+Sebuah _Commitment_ (dalam pengertian kriptografi) adalah sebuah objek matematis, dilambangkan dengan $C$, yang diturunkan secara deterministik dari sebuah operasi pada data terstruktur $m$ (pesan) dan sebuah nilai acak $r$. Kami menulis :
 
 
 $$
@@ -15,16 +15,16 @@ Mekanisme ini terdiri dari dua operasi utama:
 
 
 
-- Commit: kita menerapkan fungsi kriptografi pada sebuah pesan $m$ dan sebuah pesan acak $r$ untuk menghasilkan $C$;
-- Verifikasi: kita menggunakan $C$, pesan $m$ dan nilai $r$ untuk memeriksa apakah Commitment ini sudah benar. Fungsi ini mengembalikan `True` atau `False`.
+- _Commit_: Menerapkan fungsi kriptografi pada sebuah pesan $m$ dan sebuah pesan acak $r$ untuk menghasilkan $C$;
+- Verifikasi: Menggunakan $C$, pesan $m$ dan nilai $r$ untuk memeriksa apakah _Commitment_ ini sudah benar. Fungsi ini akan mengembalikan `True` atau `False`.
 
 
-Commitment harus menghormati dua properti:
+_Commitment_ harus memenuhi dua karakteristik:
 
 
 
 
-- Pengikatan: tidak mungkin menemukan dua pesan berbeda yang menghasilkan $C$ yang sama:
+- Pengikatan: tidak mungkin terdapat dua pesan berbeda yang menghasilkan $C$ yang sama:
 
 
 $$
@@ -45,4 +45,4 @@ $$
 - Menyembunyikan: pengetahuan tentang $C$ tidak boleh mengungkapkan isi dari $m$.
 
 
-Dalam kasus protokol RGB, sebuah Commitment disertakan dalam transaksi Bitcoin untuk membuktikan keberadaan informasi tertentu pada waktu tertentu, tanpa mengungkapkan informasi itu sendiri.
+Dalam kasus protokol RGB, sebuah _Commitment_ disertakan dalam transaksi Bitcoin untuk membuktikan keberadaan informasi tertentu pada waktu tertentu, tanpa mengungkapkan informasi itu sendiri.

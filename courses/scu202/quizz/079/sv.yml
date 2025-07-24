@@ -1,0 +1,9 @@
+question: Vilken är den största risken med en smartphone som inte är uppdaterad?
+answer: Den blir sårbar för kända sårbarheter
+wrong_answers:
+  - Den använder mer batterikraft
+  - Han förlorar sin Wi-Fi-anslutning
+  - Den blir mer sårbar för nätfiske
+explanation: |
+  En ouppdaterad smartphone är exponerad för offentligt korrigerade sårbarheter som lätt kan utnyttjas av angripare.
+reviewed: false

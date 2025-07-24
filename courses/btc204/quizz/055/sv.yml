@@ -1,0 +1,10 @@
+question: Vad är en Bitcoin som tar emot Address?
+answer: En teckensträng som används för att ta emot bitcoins.
+wrong_answers:
+  - En kod som används för att skicka bitcoins.
+  - En algoritm för Mining bitcoins.
+  - EN Smart contract.
+explanation: |
+  En mottagande Address används för att ta emot bitcoins till en Wallet.
+  
+reviewed: false

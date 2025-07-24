@@ -1,0 +1,9 @@
+question: Varför räcker det inte med enbart konfidentialitet för att garantera säker kommunikation?
+answer: Eftersom en angripare fortfarande kan avlyssna och ändra meddelandet utan att förstå dess innehåll.
+wrong_answers:
+  - För att det är för svårt att få sekretess.
+  - Eftersom privata nycklar lätt kan gissas.
+  - Eftersom meddelanden inte kan autentiseras utan en digital signatur.
+explanation: |
+  Konfidentialitet skyddar innehållet i meddelanden, men utan en MAC kan en angripare ändå snappa upp och ändra ett meddelande utan att förstå det, vilket äventyrar kommunikationens integritet.
+reviewed: false

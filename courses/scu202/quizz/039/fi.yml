@@ -1,0 +1,9 @@
+question: Mitä sinun on usein tehtävä kriittisen käyttöjärjestelmäpäivityksen asentamisen jälkeen, jotta korjaukset voidaan ottaa täysimääräisesti käyttöön?
+answer: Käynnistä tietokone uudelleen
+wrong_answers:
+  - Nollaa salasana
+  - Katkaise Wi-Fi-verkko
+  - Poista väliaikaiset tiedostot
+explanation: |
+  Jotkin käyttöjärjestelmän päivitykset, kuten ytimen tai kriittisten kirjastojen päivitykset, tulevat voimaan vasta koneen uudelleenkäynnistyksen jälkeen.
+reviewed: false

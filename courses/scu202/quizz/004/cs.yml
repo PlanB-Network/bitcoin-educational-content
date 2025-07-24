@@ -1,0 +1,9 @@
+question: Jaký druh počítačového útoku využívá podvodné zprávy k získání informací?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - Injekce SQL
+explanation: |
+  Phishing využívá klamavé e-maily nebo zprávy, které mají lidi přimět k vyzrazení důvěrných informací nebo k instalaci malwaru.
+reviewed: false

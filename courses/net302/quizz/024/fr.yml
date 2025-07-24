@@ -1,0 +1,9 @@
+question: Quel est le principal rôle du protocole TCP dans le modèle TCP/IP ?
+answer: Garantir un transfert fiable et ordonné des données
+wrong_answers:
+  - Assurer le chiffrement des communications réseau
+  - Attribuer des adresses IP aux machines
+  - Fragmenter les datagrammes au niveau physique
+explanation: |
+  TCP organise la transmission fiable des données, vérifie leur intégrité, gère l’ordre d’arrivée et la reprise en cas de perte.
+reviewed: false

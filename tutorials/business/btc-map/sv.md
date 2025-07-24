@@ -274,7 +274,7 @@ BTC Map låter dig [lägga till ditt eget samhälle] (https://btcmap.org/communi
 
 
 
-[Denna sida](https://btcmap.org/add-location/) visar hur du själv kan lägga till en Bitcoin-kompatibel fastighetsförteckning med hjälp av Open Street Map. Om du har problem finns det ett formulär som du kan fylla i så att någon annan kan skapa listan åt dig (detta kan ta flera veckor). Låt oss ta en titt:
+[Denna sida](https://btcmap.org/add-location/) visar hur du själv kan lägga till en Bitcoin-kompatibel fastighetsförteckning med hjälp av Open Street Map. Om du har problem finns det ett formulär som du kan fylla i, så att någon annan kan skapa listan åt dig (detta kan ta flera veckor). Låt oss ta en titt:
 
 
 

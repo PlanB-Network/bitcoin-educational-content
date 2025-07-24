@@ -5,6 +5,9 @@ description: Konfigurera och använda en Wallet på Liana
 ![cover](assets/cover.webp)
 
 
+![video](https://youtu.be/rTId6hfiRm0)
+
+
 I den här handledningen förklarar vi steg för steg hur du använder Liana-applikationen på en dator. Du får bland annat lära dig hur du skapar en automatiserad successionsplan, tar emot och skickar bitcoins i normala situationer och hämtar medel från en befintlig Wallet efter en viss period.
 
 
@@ -274,7 +277,7 @@ När pengarna har skickats visas transaktionen på huvudskärmen (först som obe
 ![Vérifier solde](assets/fr/23.webp)
 
 
-Du kan kontrollera utgångsstatus för dina pengar genom att gå till fliken "*Coins*". Den här fliken visar de olika mynten (UTXO) i din Wallet. Här kan vi se att det 50 000 satoshis-mynt som skapades av vår transaktion löper ut samma dag (en timmes tid).
+Du kan kontrollera utgångsstatus för dina medel genom att gå till fliken "*Coins*". Den här fliken visar de olika mynten (UTXO) i din Wallet. Här kan vi se att det 50 000 satoshis-mynt som skapades av vår transaktion löper ut samma dag (en timmes tid).
 
 
 ![Obtenir informations pièce](assets/fr/24.webp)
@@ -291,7 +294,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Löpande utgifter är den normala situationen för att använda Liana. Att skicka bitcoins med huvudnyckeln fungerar som i alla klassiska Bitcoin-plånböcker som Electrum eller Sparrow.
 
 
-För att göra en debitering går du till fliken "*Sänd*" och anger den viktigaste informationen: mottagarens BTC Address, beloppet som ska skickas och önskad debiteringssats. En beskrivning (som sparas lokalt) kan också läggas till för din personliga bekvämlighet. I vårt exempel skickade vi 10 000 satoshis till en viss Bob, för en debitering på 4 sat/ov, eller 0,67 USD vid transaktionstillfället.
+För att göra en debitering går du till fliken "*Send*" och anger den viktigaste informationen: mottagarens BTC Address, beloppet som ska skickas och önskad debiteringssats. En beskrivning (som sparas lokalt) kan också läggas till för din personliga bekvämlighet. I vårt exempel skickade vi 10 000 satoshis till en viss Bob, för en debiteringsgrad på 4 sat/ov, eller 0,67 USD vid transaktionstillfället.
 
 
 Liana erbjuder också "myntkontroll": du anger vilket mynt (UTXO) du vill spendera. Här har vi valt det tidigare skapade myntet på 50 000 satoshis.
@@ -321,10 +324,10 @@ Transaktionen kommer att visas på huvudskärmen och ditt saldo kommer att uppda
 ## Uppdatering av portföljen
 
 
-Som förklarats ovan kräver Liana Wallet att du uppdaterar dina medel regelbundet genom att utföra en transaktion på Blockchain. Om du inte gör det kan dina pengar återställas av din arvinge (eller av din andra enhet om det gäller en förbättrad säkerhetskopia). Den här situationen är inte extremt farlig, men den motverkar syftet med att inrätta den här mekanismen: att behålla kontrollen över dina bitcoins utan att behöva vända dig till en betrodd tredje part, samtidigt som du drar nytta av ett skyddsnät.
+Som förklarats ovan kräver Liana Wallet att du uppdaterar dina medel regelbundet genom att utföra en transaktion på Blockchain. Om du inte gör det kan dina medel återställas av din arvinge (eller av din andra enhet om det gäller en förbättrad säkerhetskopia). Den här situationen är inte extremt farlig, men den motverkar syftet med att inrätta den här mekanismen: att behålla kontrollen över dina bitcoins utan att behöva vända dig till en betrodd tredje part, samtidigt som du drar nytta av ett skyddsnät.
 
 
-En varning kommer att visas innan dina medel (eller en del av dem) löper ut och kan spenderas med återställningsnyckeln. Det kommer att indikera att din "återhämtningsväg" (*återhämtningsväg*) snart kommer att vara tillgänglig. Med tanke på den korta återhämtningstiden (en timme) visas detta meddelande direkt i vårt fall.
+En varning visas innan dina medel (eller en del av dem) löper ut och kan spenderas med återställningsnyckeln. Det kommer att indikera att din "återhämtningsväg" (*återhämtningsväg*) snart kommer att vara tillgänglig. Med tanke på den korta återhämtningstiden (en timme) visas detta meddelande direkt i vårt fall.
 
 
 ![Avertissement chemin récupération](assets/fr/29.webp)
@@ -360,7 +363,7 @@ När det har bekräftats är ditt mynt säkert! Du kan vila lugnt fram till näs
 ## Bitcoin återvinning
 
 
-När du återställer medel från Liana Wallet kan du ställas inför en av två situationer. Du kanske har tillgång till den dator där programvaran är installerad, i vilket fall allt du behöver göra är att öppna den (vilket kommer att hända i fallet med den förbättrade säkerhetskopieringsmodellen). Men du kanske inte har tillgång till den här datorn, så vi börjar från början här. Observera att återställningsproceduren är densamma i båda fallen.
+När du återställer medel från Liana Wallet kan du ställas inför en av två situationer. Du kanske har tillgång till den dator där programvaran är installerad, och i så fall behöver du bara öppna den (vilket kommer att ske när det gäller den förbättrade säkerhetskopieringsmodellen). Men du kanske inte har tillgång till den här datorn, så vi börjar från början här. Observera att återställningsproceduren är densamma i båda fallen.
 
 
 För att komma igång, ladda ner Liana från [den officiella Wizardsardine-webbplatsen](https://wizardsardine.com/Liana/), eller från [GitHub-arkivet](https://github.com/wizardsardine/Liana/releases), där du kan kontrollera programvarans äkthet. Installera programvaran och kör den. Den version som används i vårt fall är 0.9, så det visuella kan ha ändrats. På välkomstskärmen väljer du alternativet "Add an existing Liana Wallet" (Lägg till en befintlig Liana Wallet).
@@ -375,7 +378,7 @@ Konfigurera hur du vill ansluta till nätverket. Du kan välja att använda din 
 ![Sélectionner connexion réseau](assets/fr/35.webp)
 
 
-Om du använder din egen nod ska du importera Wallet descriptor. Det här är en teknisk beskrivning av kontot som gör att du kan hämta ut de medel som finns på det. I vårt fall är det följande information:
+Om du använder din egen nod importerar du Wallet-descriptorn. Det här är en teknisk beskrivning av kontot som gör att du kan hämta ut de medel som finns på det. I vårt fall är det följande information:
 
 
 ```plaintext
@@ -395,7 +398,7 @@ I vårt fall använder vi Blockstream Jade Hardware Wallet som en återställnin
 ![Passer phrase mnémotechnique](assets/fr/37.webp)
 
 
-Kontrollera och spara descriptorn i din signaturenhet genom att välja den på skärmen. Om din Hardware Wallet inte visas, kontrollera att den är ansluten och upplåst. Kontrollera och bekräfta att denna information har lagts till i din enhet.
+Kontrollera och spara descriptorn i din signeringsenhet genom att välja den på skärmen. Om din Hardware Wallet inte visas, kontrollera att den är ansluten och upplåst. Kontrollera och bekräfta att denna information har lagts till i din enhet.
 
 
 ![Enregistrer descripteur sur l'appareil de récupération](assets/fr/38.webp)
@@ -413,7 +416,7 @@ För denna handledning använde vi en offentlig Electrum-server. Den hade dock t
 ![Connexion serveur Electrum public](assets/fr/17.webp)
 
 
-När du har konfigurerat din nod kommer du till huvudskärmen för Wallet, där du kan se saldot och tidigare transaktioner som är kopplade till kontot. Du kan också se om det går att hämta ut pengar. Här ser vi att ett mynt kan hämtas.
+När du har konfigurerat din nod kommer du till huvudskärmen i Wallet, där du kan se saldot och tidigare transaktioner som är kopplade till kontot. Du kan även se om det går att hämta ut pengar. Här ser vi att ett mynt kan hämtas.
 
 
 ![Accueil Liana récupération](assets/fr/40.webp)
@@ -468,15 +471,15 @@ Följande information kan utläsas ur denna deskriptor:
 
 
 
-- `wsh` (förkortning för *vittnesmanus Hash*): Detta är den typ av transaktionsutdata som skapats. Om vi hade valt att använda Taproot skulle identifieraren ha varit `tr`.
+- `wsh` (förkortning för *vittnesmanus Hash*): Detta är den typ av transaktionsutdata som skapas. Om vi hade valt att använda Taproot skulle identifieraren ha varit `tr`.
 - `eller_d`: Detta är en logisk operator som anger att *ett av följande två* villkor måste vara uppfyllda för att utlägget ska godkännas (`_d` anger en särskild syntax).
 - `pk` (förkortning för *public key*): Denna operator kontrollerar en given signatur mot följande offentliga nyckel och ger svaret som ett booleskt värde (TRUE eller FALSE).
 - `[3689a8e7/48'/0'/0'/2']`: Detta element innehåller *fingeravtrycket* av huvudnyckeln för den huvudsakliga Hardware Wallet (i detta fall Nano S Plus) och härledningsvägen till den länkade utökade privata nyckeln (från vilken alla andra privata nycklar härleds).
-- `xpub6FKY ... WQa`: Detta är den utökade publika nyckeln som är kopplad till den huvudsakliga Hardware Wallet (här Nano S Plus)
+- `xpub6FKY ... WQa`: Detta är den utökade publika nyckeln som är kopplad till huvud-Hardware Wallet (här Nano S Plus)
 - `/<0;1>/*`: Detta är härledningsvägarna för att erhålla enkla nycklar och adresser: `0` för mottagning, `1` för interna operationer (*ändring*), med ett "jokertecken" (`*`) som möjliggör sekventiell härledning av flera adresser på ett konfigurerbart sätt, liknande "gap limit"-hanteringen i klassisk Wallet-programvara.
 - och_v`: Detta är en logisk operator som anger att *följande två* villkor måste vara uppfyllda för att utlägget ska accepteras (`_v` anger en viss syntax).
 - `v:pkh` (förkortning för *verifiera: offentlig nyckel Hash*): Denna operator verifierar en given signatur och publik nyckel mot den publika nyckeln Hash (*Hash*) som följer. Detta är i princip samma kontroll som för P2PKH- och P2WPKH-skript.
-- `[42e629dd/48'/0'/0'/2']`: Detta är samma element som ovan (som består av spårningen och härledningsvägen), förutom att spårningen av huvudnyckeln för hårdvaruåterställningen Wallet (i detta fall Jade) anges.
+- `[42e629dd/48'/0'/0'/2']`: Detta är samma element som ovan (bestående av spårningen och härledningsvägen), förutom att spårningen av huvudnyckeln för hårdvaruåterställningen Wallet (i detta fall Jade) anges.
 - `xpub6DpQ ... WQd`: Detta är den utökade publika nyckeln som är kopplad till hårdvaruåterställningen Wallet (här Jade).
 - `older(6)` : Denna operator kontrollerar att den transaktionsutskrift som skapas måste ha en ålder som är strikt större än 6 block för att kunna användas.
 
@@ -484,7 +487,7 @@ Följande information kan utläsas ur denna deskriptor:
 Den sista dataposten (`8alrve5h`) är deskriptorns kontrollsumma och motsvarar Wallet-identifieraren.
 
 
-De skript som skapas av denna Wallet kommer att se ut på följande sätt:
+De skript som skapas av denna Wallet kommer att ha följande form:
 
 
 ```plaintext

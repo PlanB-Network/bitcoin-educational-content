@@ -1,0 +1,9 @@
+question: Mesin rendering apa yang digunakan oleh Internet Explorer dari versi 4 dan seterusnya dan mendominasi pasar pada awal tahun 2000-an?
+answer: Trisula
+wrong_answers:
+  - Tokek
+  - WebKit
+  - Berkedip
+explanation: |
+  Trident, yang dikembangkan oleh Microsoft, diperkenalkan dengan Internet Explorer 4.0 pada tahun 1997 dan mendominasi web selama periode monopoli virtual Internet Explorer.
+reviewed: false

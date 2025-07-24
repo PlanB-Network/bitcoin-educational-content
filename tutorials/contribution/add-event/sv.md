@@ -258,7 +258,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-Gratulerar till din PR! Din PR har skapats framgångsrikt. En administratör kommer nu att kontrollera den och, om allt är i sin ordning, sammanfoga den till PlanB Networks huvudarkiv. Du bör se ditt evenemang visas på webbplatsen några dagar senare.
+Gratulerar till din PR! Din PR har skapats på ett framgångsrikt sätt. En administratör kommer nu att kontrollera den och, om allt är i sin ordning, sammanfoga den till PlanB Networks huvudarkiv. Du bör se ditt evenemang visas på webbplatsen några dagar senare.
 
 
 Var noga med att följa utvecklingen av din PR. En administratör kan lämna en kommentar där han eller hon ber om ytterligare information. Så länge din PR inte är validerad kan du se den under fliken "Pull requests" på PlanB Network GitHub-arkivet:

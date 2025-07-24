@@ -372,49 +372,28 @@ Uusien bitcoinien luominen on louhintaprosessin tulos. Lyhyesti sanottuna louhij
 
 Kun louhijat ovat suorittaneet tämän tehtävän onnistuneesti, heidät palkitaan antamalla uusia bitcoineja kymmenen minuutin välein. Palkkio on ohjelmoitu puolittumaan 210 000 lohkon välein eli noin neljän vuoden välein (tapahtuma tunnetaan nimellä "puolitus"), mikä antaa rahan liikkeeseenlaskun käyrälle porrasmaisen muodon. Tämän mekanismin ansiosta voidaan matemaattisesti ennustaa, että uusien bitcoinien luominen loppuu noin vuonna 2140, kun kokonaislukumäärä saavuttaa 21 miljoonan rajan.
 
-| Puolitusnumero | Lohkon korkeus | BTC-palkkio puolituksen jälkeen | Arvioitu BTC-kierto puolituksen jälkeen |
-
+| Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
-
-| 1 | 210,000 | 25 BTC | 10,500,000 BTC | 10,500,000 BTC |
-
-| 2 | 420 000 | 12,5 BTC | 15 750 000 BTC | 15 750 000 BTC |
-
-| 3 | 630 000 | 6,25 BTC | 18 375 000 BTC | 18 375 000 BTC |
-
-| 4 | 840 000 | 3,125 BTC | 19 687 500 BTC | 19 687 500 BTC |
-
-| 5 | 1 050 000 | 1,5625 BTC | 20 343 750 BTC | 20 343 750 BTC |
-
-| 6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC | 20 671 875 BTC |
-
-| 7 | 1 470 000 | 0,390625 BTC | 20 835 937,5 BTC | 20 835 937,5 BTC |
-
-| 8 | 1 680 000 | 0,1953125 BTC | 20 917 968,75 BTC | 20 917 968,75 BTC |
-
-| 9 | 1,890,000 | 0.09765625 BTC | 20,958,984.375 BTC | 20,958,984.375 BTC |
-
-| 10 | 2 100 000 | 0,048828125 BTC | 20 979 492,188 BTC | 20 979 492,188 BTC |
-
-| 11 | 2,310,000 | 0.0244140625 BTC | 20,989,746.094 BTC | 20,989,746.094 BTC |
-
-| 12 | 2 520 000 | 0,01220703125 BTC | 20 994 873,047 BTC | 20 994 873,047 BTC |
-
-| 13 | 2 730 000 | 0,006103515625 BTC | 20 997 436,523 BTC | 20 997 436,523 BTC |
-
-| 14 | 2 940 000 | 0,0030517578125 BTC | 20 998 718,262 BTC | 20 998 718,262 BTC |
-
-| 15 | 3 150 000 | 0,00152587890625 BTC | 20 999 359,131 BTC | 20 999 359,131 BTC |
-
-| 16 | 3 360 000 | 0,000762939453125 BTC | 20 999 679,566 BTC | 20 999 679,566 BTC |
-
-| 17 | 3 570 000 | 0,0003814697265625 BTC | 20 999 839,783 BTC | 20 999 839,783 BTC |
-
-| 18 | 3,780,000 | 0.00019073486328125 BTC | 20,999,919.892 BTC | 20,999,919.892 BTC |
-
-| 19 | 3,990,000 | 0.000095367431640625 BTC | 20,999,959.946 BTC | 20,999,959.946 BTC |
-
-| 20 | 4,200,000 | 0.0000476837158203125 BTC | 20,999,979.973 BTC | 20,999,979.973 BTC |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 

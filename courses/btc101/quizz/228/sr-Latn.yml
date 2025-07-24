@@ -1,4 +1,4 @@
-question: Naknade za transakcije na Lightning Network su izuzetno niske, često manje od...?
+question: Naknade za transakcije na Lightning mreži su izuzetno niske, često manje od...?
 answer: 0,5%.
 wrong_answers:
   - 1%.

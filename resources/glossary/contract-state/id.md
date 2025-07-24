@@ -1,11 +1,11 @@
 ---
-term: Contract State
+term: CONTRACT STATE
 ---
 
-Dalam RGB, Contract State berhubungan dengan kondisi terkini dari Contract pada waktu tertentu. Contract State dapat terdiri dari data publik dan data pribadi, yang mencerminkan keadaan Contract. Dalam RGB, perbedaan dibuat antara :
+Dalam RGB, _Contract State_ berhubungan dengan kondisi terkini dari _Contract_ pada waktu tertentu. _Contract State_ dapat terdiri dari data publik dan data pribadi, yang mencerminkan keadaan _Contract_. Dalam RGB, ada perbedaan di antara:
 
 
 
 
-- Global State, yang mencakup properti publik Contract (diimplementasikan pada Genesis atau ditambahkan melalui pembaruan resmi);
-- Negara Milik, yang dimiliki oleh pemilik tertentu, yang diidentifikasi oleh UTXO mereka.
+- _Global State_, yang mencakup properti publik _Contract_ (diimplementasikan pada _Genesis_ atau ditambahkan melalui pembaruan resmi);
+- _Owned State_, yang dimiliki oleh pemilik tertentu, yang diidentifikasi oleh UTXO mereka.

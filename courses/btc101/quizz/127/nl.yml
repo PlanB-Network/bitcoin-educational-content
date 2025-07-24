@@ -1,0 +1,12 @@
+question: Wat is het doel van transactiekosten bij Bitcoin transacties?
+answer: Ze zijn een stimulans voor miners om de transactie op te nemen in het volgende blok.
+wrong_answers:
+  - Het is een belasting die door de overheid wordt opgelegd.
+  - Ze zijn een vergoeding die het Bitcoin netwerk in rekening brengt voor het gebruik van haar diensten.
+  - Dit is een vergoeding die in rekening wordt gebracht door de Wallet provider.
+explanation: |
+  Transactievergoedingen in Bitcoin transacties dienen als een
+  stimulans voor mijnwerkers om de transactie op te nemen in het volgende
+  blok op te nemen. De vergoedingen creëren een vrije markt voor
+  transacties in blokken.
+reviewed: true

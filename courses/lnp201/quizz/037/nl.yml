@@ -1,0 +1,9 @@
+question: Wat gebeurt er als een betaling via HTLC niet binnen de toegestane tijd is voltooid?
+answer: De betaling wordt geannuleerd en het geld gaat terug naar de verzender.
+wrong_answers:
+  - De betaling wordt bewaard door het laatste tussenliggende knooppunt
+  - De fondsen worden verdeeld over alle knooppunten in het pad
+  - De fondsen zijn permanent geblokkeerd
+explanation: |
+  Als een HTLC verloopt zonder dat het geheim is onthuld, wordt de betaling geannuleerd en gaat het geld terug naar de verzender, waardoor wordt voorkomen dat een tussenliggend knooppunt het geld behoudt.
+reviewed: false

@@ -82,7 +82,7 @@ Alternativet "*Enhanced Privacy*", som endast finns tillgängligt på Android, f
 ![GREEN-WATCH-ONLY](assets/fr/07.webp)
 
 
-För den som vill stärka sin integritet erbjuder applikationen möjligheten att roota sin trafik via Tor, ett nätverk som krypterar alla dina anslutningar och gör det svårt att spåra dina aktiviteter. Även om det här alternativet kan göra applikationen något långsammare rekommenderas det starkt för att skydda din integritet, särskilt om du inte använder din egen kompletta nod.
+För den som vill stärka sin integritet erbjuder applikationen möjligheten att roota sin trafik via Tor, ett nätverk som krypterar alla dina anslutningar och gör dina aktiviteter svåra att spåra. Även om det här alternativet kan göra applikationen något långsammare rekommenderas det starkt för att skydda din integritet, särskilt om du inte använder din egen kompletta nod.
 
 
 ![GREEN-WATCH-ONLY](assets/fr/08.webp)
@@ -139,10 +139,10 @@ Du kommer att bli ombedd att ange antingen en utökad publik nyckel (`xpub`, `zp
 ![GREEN-WATCH-ONLY](assets/fr/16.webp)
 
 
-Du måste därför hämta denna information från den Wallet som du vill spåra via din Watch-only wallet. Den utökade publika nyckeln är inte känslig ur säkerhetssynpunkt, eftersom den inte ger tillgång till privata nycklar, men den är känslig för din sekretess, eftersom den avslöjar alla dina publika nycklar och därmed alla dina Bitcoin-transaktioner.
+Du måste därför hämta denna information från den Wallet som du vill spåra via din Watch-only wallet. Den utökade publika nyckeln är inte känslig ur säkerhetssynpunkt, eftersom den inte ger tillgång till privata nycklar, men den är känslig för din integritet, eftersom den avslöjar alla dina publika nycklar och därmed alla dina Bitcoin-transaktioner.
 
 
-Låt oss säga att du använder Sparrow Wallet för att hantera din Wallet på en Hardware Wallet, du hittar den här informationen i avsnittet "*Settings*". Hur du hittar den här informationen beror på vilken programvara för Wallet-hantering du använder, men den finns vanligtvis i inställningarna.
+Låt oss säga att du använder Sparrow wallet för att hantera din Wallet på en Hardware Wallet, du hittar denna information i avsnittet "*Inställningar*". Hur du hittar den här informationen beror på vilken programvara för Wallet-hantering du använder, men den finns vanligtvis i inställningarna.
 
 
 ![GREEN-WATCH-ONLY](assets/fr/17.webp)
@@ -160,7 +160,7 @@ Du kommer då att kunna se saldot som är kopplat till den här nyckeln samt tra
 ![GREEN-WATCH-ONLY](assets/fr/19.webp)
 
 
-Genom att klicka på "*Receive*" kan du generate en mottagande Address för att ta emot bitcoins på din Hardware Wallet. Jag skulle dock avråda från att använda detta alternativ utan att först kontrollera på Hardware Wallet-skärmen att den har den privata nyckeln som är associerad med den genererade Address, innan du använder den för att låsa bitcoins. Detta är en bra praxis att följa.
+Genom att klicka på "*Receive*" kan du generate en ta emot Address för att ta emot bitcoins på din Hardware Wallet. Jag skulle dock avråda från att använda detta alternativ utan att först kontrollera på Hardware Wallet-skärmen att den har den privata nyckeln som är associerad med den genererade Address, innan du använder den för att låsa bitcoins. Detta är en bra praxis att följa.
 
 
 ![GREEN-WATCH-ONLY](assets/fr/20.webp)
@@ -175,7 +175,7 @@ Med alternativet "*Balayer*" kan du manuellt ange en privat nyckel för att spen
 Så nu vet du hur du enkelt ställer in en Watch-only wallet på din smartphone! Det är ett praktiskt verktyg för att övervaka en Wallet på en Hardware Wallet utan att behöva ansluta och låsa upp den varje gång.
 
 
-Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du lämnar en Green tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!
+Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!
 
 
 Jag rekommenderar också att du kollar in den här andra omfattande handledningen om Blockstream Green-applikationen för att ställa in en Hot Wallet:

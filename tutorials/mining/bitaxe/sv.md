@@ -2,6 +2,8 @@
 name: Konfigurera en BitAxe
 description: Hur ställer man in en BitAxe?
 ---
+![video](https://youtu.be/tvLSK8v0MK8)
+
 
 ### Inledning
 
@@ -68,7 +70,7 @@ Ange därför SSID för Wi-Fi, det vill säga namnet på ditt nätverk, lösenor
 Som du kan se på skärmen måste du ta bort delarna `stratum+tcp://` och `:3333`, så att bara `eu.stratum.braiins.com` återstår. I fältet `Port` anger du sedan de 4 siffrorna i slutet av URL:en som ges av poolen, men utan `:`. Här är det därför `3333`.
 
 
-I den här handledningen använder vi Braiins Mining pool, men du är fri att välja en annan. Du kan hitta våra handledningar om Mining-pooler [på PlanB Network-webbplatsen] (https://planb.network/en/tutorials/mining).
+I den här handledningen använder vi Braiins Mining pool, men du är fri att välja en annan. Du kan hitta våra handledningar om Mining-pooler [på PlanB Network-webbplatsen] (https://planb.network/en/tutorials/Mining).
 
 
 Därefter anger du din identifierare i `User` och sedan `Password`, vanligtvis är det `"x"` eller `"Anything123"`.
@@ -87,7 +89,7 @@ Om du har angett dina uppgifter korrekt ska enheten snabbt ansluta till ditt Wi-
 ### Instrumentpanel och skärm
 
 
-Tre olika skärmar kommer att rulla igenom. På den tredje sidan ser du `IP`-informationen, som är IP Address som gör att du kan ansluta till instrumentpanelen. Här är Address `192.168.1.19`.
+Tre olika skärmar kommer att rulla igenom. På den tredje sidan ser du "IP"-informationen, som är den IP Address som gör att du kan ansluta till instrumentpanelen. Här är Address `192.168.1.19`.
 
 
 ![signup](assets/8.webp) ![signup](assets/9.webp) ![signup](assets/10.webp)

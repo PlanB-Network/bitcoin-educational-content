@@ -1,0 +1,9 @@
+question: 哪款以 Blink 為基礎的瀏覽器以速度和相容性著稱，但卻會收集大量使用者資料用於廣告用途？
+answer: 鉻合金
+wrong_answers:
+  - 勇敢
+  - Firefox
+  - Tor 瀏覽器
+explanation: |
+  雖然 Google Chrome 瀏覽器是個功能強大的工具，但在預設情況下，它會收集大量個人資料，Google 會利用這些資料來做目標性廣告。
+reviewed: false

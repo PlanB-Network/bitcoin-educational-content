@@ -1,6 +1,6 @@
 ---
-name: Ajouter un builder
-description: Comment proposer l'ajout d'un nouveau builder sur PlanB Network ?
+name: Ajouter un projet
+description: Comment proposer l'ajout d'un nouveau projet sur PlanB Network ?
 ---
 ![builder](assets/cover.webp)
 

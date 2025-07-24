@@ -1,0 +1,9 @@
+question: Welke rol spelen tools als Zaprite en Musqet in een professionele betaaloplossing?
+answer: Ze verfijnen de ervaring bij het afrekenen
+wrong_answers:
+  - Ze kunnen meerdere valuta's converteren en fiat uitbetalen
+  - Ze richten zich op het versleutelen van transactiegegevens en het beheren van privésleutels
+  - Ze dienen als basis POS-systemen
+explanation: |
+  Zaprite en Musqet voegen aanpassingen en verfijningen in de rapportage toe aan het afrekenproces, als aanvulling op de kerninfrastructuur voor betalingen.
+reviewed: false

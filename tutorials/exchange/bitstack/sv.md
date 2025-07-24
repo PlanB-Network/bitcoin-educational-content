@@ -205,7 +205,7 @@ Välj startdatum och frekvens för din DCA, med alternativ som sträcker sig fr�
 ![Image](assets/fr/23.webp)
 
 
-Din DCA är nu aktiv. Du kan se eller ändra det från startsidan genom att välja "*Recurring*" igen.
+Ditt DCA är nu aktivt. Du kan se eller ändra det från startsidan genom att välja "*Recurring*" igen.
 
 
 ![Image](assets/fr/24.webp)
@@ -271,7 +271,7 @@ Bestäm transaktionens prioritet. För ett avgiftsfritt uttag väljer du "*Stand
 ![Image](assets/fr/32.webp)
 
 
-Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Network i avsnittet "*Wallet*"] (https://planb.network/tutorials/wallet).
+Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Network i avsnittet "*Wallet*"] (https://planb.network/tutorials/Wallet).
 
 
 ## Säljer Bitcoin

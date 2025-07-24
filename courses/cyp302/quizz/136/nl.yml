@@ -1,0 +1,9 @@
+question: Hoe kan een online service een wachtwoord verifiëren zonder het direct op te slaan?
+answer: Door de Hash van het ingevoerde wachtwoord te vergelijken met het wachtwoord in de database
+wrong_answers:
+  - Door het opgeslagen wachtwoord te ontsleutelen om het te verifiëren
+  - Door een openbare sleutel te gebruiken om de identiteit te verifiëren
+  - Door het wachtwoord direct te vergelijken met dat van andere gebruikers
+explanation: |
+  De service genereert een Hash van het ingevoerde wachtwoord en vergelijkt deze met het opgeslagen wachtwoord, zonder het wachtwoord ooit direct op te slaan, waardoor een betere beveiliging wordt gegarandeerd.
+reviewed: false

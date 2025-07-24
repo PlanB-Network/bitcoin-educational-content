@@ -1,0 +1,9 @@
+question: MicroG ni nini, iliyojumuishwa kwenye CalyxOS?
+answer: Utekelezaji wa bure wa huduma za Google
+wrong_answers:
+  - Msimamizi wa ruhusa
+  - VPN ya chanzo huria ya Android
+  - Kingavirusi inayomilikiwa na Google
+explanation: |
+  MicroG ni mbadala wa chanzo huria ambayo hukuruhusu kuendesha programu zinazotegemea API ya Google bila kusakinisha jozi rasmi.
+reviewed: false

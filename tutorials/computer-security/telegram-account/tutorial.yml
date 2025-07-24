@@ -21,7 +21,7 @@ proofreading:
     urgency:
     contributor_names:
       - f205sats
-    reward:
+    reward: 1
   - language: en
     last_contribution_date:
     urgency: 1

@@ -1,0 +1,9 @@
+question: Wie richtte de eerste Mining coöperatie op om een blok op Bitcoin te produceren?
+answer: dubbelc
+wrong_answers:
+  - slush
+  - puddingpop
+  - m0mchil
+explanation: |
+  Hij promootte het op 1 december. Het blok werd [gevonden](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) op 4 december 2010. Aan de andere kant werd de coöperatie van Slush gelanceerd op 16 december.
+reviewed: true

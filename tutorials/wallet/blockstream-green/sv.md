@@ -146,7 +146,7 @@ När du har spelat in din Mnemonic-fras korrekt på ett fysiskt medium klickar d
 ![GREEN](assets/fr/16.webp)
 
 
-Välj enhetens PIN-kod, som kommer att användas för att låsa upp din Green Wallet. Detta är ditt skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även om du inte har tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras på 12 eller 24 ord.
+Välj enhetens PIN-kod, som kommer att användas för att låsa upp din Green Wallet. Detta är ditt skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även utan tillgång till denna PIN-kod kan du med din Mnemonic-fras på 12 eller 24 ord återfå tillgång till dina bitcoins.
 
 
 Vi rekommenderar att du väljer en 6-siffrig PIN-kod som är så slumpmässig som möjligt. Se till att spara den här koden så att du inte glömmer den, annars tvingas du hämta din Wallet från Mnemonic. Du kan sedan lägga till ett biometriskt blockeringsalternativ för att undvika att behöva ange PIN-koden varje gång du använder den. Generellt sett är biometri mycket mindre säkert än själva PIN-koden. Så som standard rekommenderar jag att du inte ställer in det här upplåsningsalternativet.
@@ -182,7 +182,7 @@ Din Bitcoin Wallet har nu skapats med hjälp av applikationen Green!
 ![GREEN](assets/fr/21.webp)
 
 
-Innan du tar emot dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, till exempel din xpub eller första mottagande Address, och radera sedan din Wallet i Green-appen medan den fortfarande är tom. Försök sedan att återställa din Wallet på Green med hjälp av dina pappersbackuper. Kontrollera att cookieinformationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen:
+Innan du tar emot dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna lite referensinformation, till exempel din xpub eller första mottagande Address, och radera sedan din Wallet i Green-appen medan den fortfarande är tom. Försök sedan att återställa din Wallet på Green med hjälp av dina pappersbackuper. Kontrollera att cookieinformationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen:
 
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895

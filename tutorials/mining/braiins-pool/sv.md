@@ -156,7 +156,7 @@ För tillfället klickar du på "Set up".
 I det nya fönstret kan du välja "Onchain-utbetalning".
 
 
-Namnge denna Wallet, ange en BTC Address och välj vilken typ av trigger du vill ha. "Threshold" innebär att betalningen utlöses när du har samlat en definierad mängd BTC, och med "Time interval" utlöses betalningen med regelbundna intervall (dag/vecka/månad).
+Namnge denna Wallet, ange en BTC Address och välj vilken typ av trigger du vill ha. "Threshold" innebär att betalningen utlöses när du har samlat en viss mängd BTC, och med "Time interval" utlöses betalningen med regelbundna intervall (dag/vecka/månad).
 
 
 Observera att minimibeloppet är 0,0002 BTC och att under 0,005 BTC kommer en avgift på 0,0001 BTC att tillämpas.

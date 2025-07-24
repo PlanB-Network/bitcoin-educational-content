@@ -1,0 +1,13 @@
+question: Vad hindrar alla från att använda samma Bitcoin Wallet?
+answer: Olika individer behöver olika användningsområden.
+wrong_answers:
+  - Det är dyrt att använda en Bitcoin Wallet.
+  - Det är olagligt att använda en Bitcoin Wallet.
+  - Folk kommer aldrig att komma överens om namnet på en sådan Wallet.
+explanation: |
+  En person kan prioritera säkerhet, medan en annan kan
+  användarvänlighet eller specifika funktioner. Därför kan en
+  gW-7 Wallet kanske inte tillgodoser allas krav, vilket
+  krav, vilket gör det nödvändigt att det finns flera Wallet
+  alternativ måste finnas.
+reviewed: true

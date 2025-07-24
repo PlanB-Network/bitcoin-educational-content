@@ -1,0 +1,13 @@
+question: Wat is de mogelijke invloed van regelgeving op Bitcoin Mining?
+answer: Als een land als de Verenigde Staten zou besluiten om bepaalde Bitcoin transacties te reguleren of te verbieden, zou dat een grote impact kunnen hebben op het netwerk, vooral als een groot deel van de hashing macht in dat land gecentraliseerd is.
+wrong_answers:
+  - Als een land als de Verenigde Staten zou besluiten om Bitcoin Mining te reguleren of te verbieden, zou dat kunnen leiden tot een stijging van de waarde van Bitcoin.
+  - Als een land als de Verenigde Staten zou besluiten om Bitcoin en Mining te reguleren of te verbieden, zou dat kunnen leiden tot een toename van Block reward.
+  - Als een land als de Verenigde Staten zou besluiten om Bitcoin Mining te reguleren of te verbieden, zou dat kunnen leiden tot een verhoging van de transactiesnelheid.
+explanation: |
+  Het hoofdstuk legt uit dat als een land als de Verenigde
+  Staten zou besluiten om bepaalde Bitcoin
+  transacties te reguleren of te verbieden, dit een grote impact zou kunnen hebben op het netwerk
+  netwerk, vooral als een groot deel van de hashingkracht
+  gecentraliseerd is in dat land.
+reviewed: true

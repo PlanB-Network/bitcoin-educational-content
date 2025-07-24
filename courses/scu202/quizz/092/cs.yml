@@ -1,0 +1,9 @@
+question: Které zařízení slouží jako hranice mezi internetem a soukromou domácí sítí?
+answer: Modem-směrovač
+wrong_answers:
+  - Přepínač Ethernet
+  - Server NAS
+  - Rozbočovač USB
+explanation: |
+  Modemový směrovač propojuje síť poskytovatele internetu s vaší místní sítí a spravuje přidělování místních IP adres.
+reviewed: false

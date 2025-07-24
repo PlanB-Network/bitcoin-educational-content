@@ -1,0 +1,22 @@
+id: f4536726-ec14-4c69-a3a2-01aacecaaf61
+year: 2017-11
+name: Scaling BItcoin 2017
+builder: Scaling Bitcoin
+location: Stanford, California, USA
+language:
+- en
+links:
+  website: https://scalingbitcoin.org/
+tags:
+- development
+- consensus
+- adoption
+#proofreading_metadata
+original_language: en
+proofreading:
+- language: en
+  last_contribution_date: '2025-06-19'
+  urgency: 0
+  contributors_id:
+  - jramos0
+  reward: 0

@@ -1,5 +1,5 @@
 ---
-name: Carimbo de Tempo de certificados e diplomas da Rede Plan ₿
+name: Carimbo de Tempo de diplomas do Plan ₿ Network
 description: Entenda como a Rede Plan ₿ emite prova verificável para o seu certificado e diplomas
 ---
 
@@ -147,4 +147,3 @@ Note que a verificação é bem-sucedida se **ambas** as mensagens a seguir fore
 2. A verificação do OpenTimestamps mostra um carimbo de data e hora de um bloco específico do Bitcoin e relata **"Sucesso! O bloco do Bitcoin [altura do bloco] atesta que os dados existiam a partir de [carimbo de data e hora]"**
 
 Agora que você sabe como a Rede Plan ₿ emite prova verificável para qualquer Certificado de Bitcoin e Diploma de Conclusão de Curso, você pode facilmente verificar a integridade dele.
-

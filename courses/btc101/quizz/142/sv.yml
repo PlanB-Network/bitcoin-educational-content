@@ -1,0 +1,8 @@
+question: Vad är en beskuren nod i samband med Bitcoin?
+answer: En nod som bara håller de senaste N blocken i minnet.
+wrong_answers:
+  - En nod som endast validerar transaktioner.
+  - En nod som endast sänder information till andra noder.
+  - En nod som endast tillämpar reglerna i Bitcoin-protokollet.
+explanation: >-
+reviewed: true

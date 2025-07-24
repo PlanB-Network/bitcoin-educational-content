@@ -1,0 +1,13 @@
+question: Wat is het TOR-netwerk?
+answer: Een netwerk dat anonimiteit biedt door het IP Address van de gebruiker te maskeren en toegang te verlenen tot het Darknet.
+wrong_answers:
+  - Een netwerk dat je apparaat beschermt tegen virussen en andere kwaadaardige software.
+  - Een netwerk dat je online activiteiten verbergt voor je internetprovider.
+  - Een netwerk waarmee je sneller op het internet kunt surfen.
+explanation: |
+  Het TOR-netwerk (The Onion Router) is een netwerk dat anonimiteit biedt door het IP-adres van de gebruiker te maskeren
+  anonimiteit biedt door het IP Address van de gebruiker te maskeren en toegang te verlenen tot het Darknet
+  toegang geeft tot het Darknet. Het wordt gebruikt door journalisten,
+  activisten en anderen die willen ontsnappen aan censuur in
+  autoritaire landen.
+reviewed: true

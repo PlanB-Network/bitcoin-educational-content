@@ -1,0 +1,13 @@
+question: Wat is het potentiële nadeel van het maken van een cloudback-up met behulp van diensten als ProtonMail Drive, Sync of Google Drive?
+answer: Uw gegevens staan mogelijk op internet en worden bewaard door een vertrouwde derde partij.
+wrong_answers:
+  - Deze diensten zijn mogelijk niet betrouwbaar voor gegevensback-up.
+  - Deze diensten verliezen soms gebruikersgegevens en het kan moeilijk zijn om deze over te zetten naar een andere cloudprovider.
+  - Deze diensten bieden meestal niet voldoende opslagruimte en hebben last van een lage verbindingssnelheid.
+explanation: |
+  Hoewel cloudback-upservices een handige manier zijn om
+  een back-up te maken van uw gegevens, betekenen ze ook dat uw gegevens
+  mogelijk op het internet staan en worden bewaard door een vertrouwde derde partij
+  partij. Dit kan uw gegevens blootstellen aan
+  extra risico's.
+reviewed: true

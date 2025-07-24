@@ -1377,3 +1377,5 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+

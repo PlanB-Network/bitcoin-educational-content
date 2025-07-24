@@ -1,5 +1,5 @@
 ---
-term: Interface Implementation
+term: INTERFACE IMPLEMENTATION
 ---
 
-Dalam protokol RGB, Interface Implementation merujuk pada sekumpulan deklarasi yang menetapkan korespondensi antara Interface dan Schema. Ini memungkinkan terjemahan semantik dari data biner Contract, untuk memastikan interpretasi yang benar oleh pengguna atau aplikasi seperti dompet.
+Dalam protokol RGB, _Interface Implementation_ merujuk pada sekumpulan deklarasi yang menetapkan korespondensi antara _Interface_ dan Schema. Hal ini memungkinkan terjemahan semantik dari data biner _Contract_, untuk memastikan interpretasi yang benar oleh pengguna atau aplikasi seperti dompet.

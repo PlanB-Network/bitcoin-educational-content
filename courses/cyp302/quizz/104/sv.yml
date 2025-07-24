@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med ett system för autentiserad kryptering?
+answer: Säkerställa kommunikationens konfidentialitet och äkthet
+wrong_answers:
+  - generate-nycklar på ett säkert sätt
+  - Ersätta MAC i kryptografiska utbyten
+  - Automatisk dekryptering av avlyssnade meddelanden
+explanation: |
+  Ett system för autentiserad kryptering kombinerar kryptering och en autentiseringskod (MAC) för att garantera både meddelandets konfidentialitet och dess autenticitet.
+reviewed: false

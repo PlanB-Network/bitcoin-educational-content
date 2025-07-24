@@ -1,0 +1,9 @@
+question: Vilken stor händelse markerade slutet på dollarns konvertibilitet till guld?
+answer: Nixon-chocken
+wrong_answers:
+  - Den stora depressionen
+  - Oljechocken
+  - Andra världskriget
+explanation: |
+  Nixonchocken 1971 innebar att dollarns konvertibilitet mot guld upphörde, vilket markerade slutet på Bretton Woods-systemet och början på flytande valutor, eftersom USA inte längre kunde stödja Exchange för guld mot dollar.
+reviewed: true

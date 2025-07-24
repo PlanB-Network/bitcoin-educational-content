@@ -1,0 +1,9 @@
+question: Als in een eenvoudige betalingstransactie wordt waargenomen dat hetzelfde type script wordt gebruikt in de invoer en op slechts een van de 2 uitgangen, welke uitgang vertegenwoordigt dan waarschijnlijk de verandering?
+answer: Degene met hetzelfde type script als de invoer.
+wrong_answers:
+  - Degene met het meest recente scripttype.
+  - Degene met een ander type script dan de invoer.
+  - Degene met een niet-standaard scripttype.
+explanation: |
+  Als een hergebruik van versiebeheer plaatsvindt binnen een transactie, is het redelijk om aan te nemen dat de gebruiker nog steeds de bijbehorende UTXO bezit. Daarom is de uitvoer met dezelfde scriptversie als de invoer waarschijnlijk de wijziging.
+reviewed: false

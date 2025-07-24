@@ -1,0 +1,9 @@
+question: Om det i en enkel betalningstransaktion observeras att samma typ av script används i inmatningen och endast på en av de två utmatningarna, vilken utmatning representerar då sannolikt förändringen?
+answer: Den med samma typ av skript som ingången.
+wrong_answers:
+  - Den med den senaste skripttypen.
+  - Den med en annan typ av manus än ingången.
+  - Den med en icke-standardskriptyp.
+explanation: |
+  Om en återanvändning av versionering sker inom en transaktion är det rimligt att anta att användaren fortfarande har den tillhörande UTXO. Därför är det troligt att det är utdata med samma skriptversion som indata som är förändringen.
+reviewed: false

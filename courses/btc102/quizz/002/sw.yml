@@ -1,0 +1,9 @@
+question: Ni tahadhari gani inapaswa kuchukuliwa dhidi ya ulaghai wa michango na bahati nasibu za ulaghai?
+answer: Kamwe usitume pesa kupokea bitcoins
+wrong_answers:
+  - Kila mara tuma kiasi kidogo ili kujaribu ofa
+  - Wekeza ili kupata faida ya haraka na isiyo na nguvu
+  - Shiriki maelezo ya kibinafsi ili kulinda muamala
+explanation: |
+  Ombi la malipo ya mapema ni ishara ya kawaida ya ulaghai katika aina hii ya ulaghai.
+reviewed: false

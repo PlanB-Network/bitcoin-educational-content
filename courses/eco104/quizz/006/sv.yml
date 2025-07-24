@@ -1,0 +1,12 @@
+question: Varför är det mycket svårare att köpa en bostad idag än på 1980-talet?
+answer: Låga räntor gör det mer lockande att skuldsätta sig och inflationen
+wrong_answers:
+  - Inflation och hyresnivåer
+  - Stigande levnadskostnader och befolkningstillväxt
+  - Brist på fastigheter och pressade räntor gör det mer lockande att skuldsätta sig
+explanation: |
+  Medan inflationen devalverar vår valutas köpkraft, vilket gör det
+  gör det svårare att spara, gör de pressade räntorna skuldkonsumtionen
+  mer lockande. När kapitalkostnaden är så billig lånar folk över sina tillgångar
+  över sina tillgångar, kanaliserar mer kapital till tillgångar och driver upp priserna.
+reviewed: true

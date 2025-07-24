@@ -1,0 +1,9 @@
+question: Wat moet je vaak doen na het installeren van een kritieke OS-update om de patches volledig toe te passen?
+answer: Computer opnieuw opstarten
+wrong_answers:
+  - Wachtwoord opnieuw instellen
+  - Wi-Fi-netwerk verbreken
+  - Tijdelijke bestanden verwijderen
+explanation: |
+  Sommige besturingssysteemupdates, zoals die voor de kernel of kritieke bibliotheken, worden pas van kracht nadat de machine opnieuw is opgestart.
+reviewed: false

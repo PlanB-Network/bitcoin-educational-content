@@ -1,0 +1,9 @@
+question: Mis on Signali peamine viga anonüümsuse osas?
+answer: See nõuab telefoninumbri kasutamist
+wrong_answers:
+  - See ei ole avatud lähtekoodiga
+  - See salvestab sõnumeid keskserveris
+  - See ei krüpteeri vahetatud faile
+explanation: |
+  Signal nõuab registreerimiseks telefoninumbrit, mis toob kaasa võimaliku jälgitavuse, kuigi protokoll tagab tugeva krüpteerimise.
+reviewed: false

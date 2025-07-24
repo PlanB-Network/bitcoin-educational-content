@@ -1,0 +1,9 @@
+question: Vilken ekonom sade 1999 att det enda som saknas, men som snart kommer att utvecklas, är tillförlitliga elektroniska kontanter?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  Han är nobelpristagare i ekonomi och grundare av Chicagoskolan och gjorde denna förutsägelse vid mikrofonen för National Taxpayers Union Foundation. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: true

@@ -1,0 +1,10 @@
+question: Welke risico's zijn verbonden aan het gebruik van een knooppunt van derden?
+answer: Censuur en toezicht op activiteiten.
+wrong_answers:
+  - Verlies van bitcoins.
+  - Verhoging van transactiekosten.
+  - Diefstal van bitcoins en traceren.
+explanation: |
+  Als je een node gebruikt die niet van jou is, loop je het risico dat je transactie-uitzendingen worden geblokkeerd en dat de operator toezicht houdt.
+  
+reviewed: false

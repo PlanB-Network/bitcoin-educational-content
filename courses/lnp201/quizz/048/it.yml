@@ -1,9 +1,9 @@
-question: Come consente la tecnologia Keysend un trasferimento di fondi senza una fattura?
-answer: Il mittente genera un segreto negli HTLCs per sbloccare i fondi
+question: Come può la tecnologia Keysend consentire un trasferimento di fondi senza un'invoice?
+answer: Il mittente genera un segreto negli HTLC per sbloccare i fondi
 wrong_answers:
   - Il destinatario genera un hash per convalidare il trasferimento
   - Il pagamento è convalidato attraverso un canale diretto tra mittente e destinatario
   - I fondi sono accreditati direttamente senza sicurezza aggiuntiva
 explanation: |
-  Keysend consente al mittente di generare un segreto incorporato negli HTLCs, permettendo al destinatario di sbloccare i fondi senza aver emesso una fattura.
-reviewed: false
+  La tecnologia Keysend consente al mittente di generare un segreto incorporato negli HTLC, permettendo al destinatario di sbloccare i fondi senza aver emesso un'invoice.
+reviewed: true

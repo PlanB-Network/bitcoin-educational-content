@@ -1,9 +1,9 @@
-question: Koje su tri glavne funkcije Bitcoin Wallet?
+question: Koje su tri glavne funkcije Bitkoin novčanika?
 answer: Primanje bitkoina, slanje bitkoina, zaštita od pokušaja hakovanja i krađe.
 wrong_answers:
-  - Čuvajte bitkoine, šaljite bitkoine, osigurajte ih protiv pokušaja hakovanja i krađe.
-  - Dozvoli primanje bitkoina, čuvaj bitkoine, osiguraj ih protiv pokušaja hakovanja i krađe.
-  - Dozvoli primanje bitkoina, dozvoli slanje bitkoina, prodaju bitkoina.
+  - Čuvanje bitkoina, slanje bitkoina, osiguravanje protiv pokušaja hakovanja i krađe.
+  - Da dozvoli primanje bitkoina, čuvanje bitkoina, osiguravanje protiv pokušaja hakovanja i krađe.
+  - Da dozvoli primanje bitkoina, slanje bitkoina i prodaju bitkoina.
 explanation: |
-  Bitcoin Wallet se koristi za interakciju sa Bitcoin mrežom. Njegove tri glavne funkcije su omogućavanje primanja bitkoina, omogućavanje slanja bitkoina i njihovo osiguranje protiv pokušaja hakovanja i krađe.
+  Bitcoin novčanik se koristi za interakciju sa Bitkoin mrežom. Njegove tri glavne funkcije su omogućavanje primanja bitkoina, omogućavanje slanja bitkoina i njihovo osiguranje protiv pokušaja hakovanja i krađe.
 reviewed: true

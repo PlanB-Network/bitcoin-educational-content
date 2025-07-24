@@ -1,0 +1,9 @@
+question: Ni amri gani inayoweza kutumika kusanikisha programu kutoka kwa hazina rasmi za Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum kufunga
+  - sudo snap kuunda
+  - sakinisha-programu
+explanation: |
+  Amri ya "sudo apt install" inasanikisha kifurushi cha programu kupitia kidhibiti cha kifurushi cha APT, njia asilia kwenye Ubuntu.
+reviewed: false

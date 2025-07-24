@@ -1,0 +1,9 @@
+question: Vad är den grundläggande skillnaden mellan merkantilism och frihandel enligt fysiokraterna?
+answer: Merkantilism berikar en nation på bekostnad av andra, medan frihandel berikar alla nationer.
+wrong_answers:
+  - Merkantilism är ett plussummespel, medan frihandel är ett nollsummespel.
+  - Merkantilism främjar konkurrens.
+  - Frihandel främjar byten.
+explanation: |
+  För fysiokraterna bygger merkantilismen på idén att en nation berikar sig själv på bekostnad av andra. Frihandel däremot möjliggör ömsesidiga fördelar och berikar alla nationer genom ömsesidigt fördelaktiga utbyten.
+reviewed: true

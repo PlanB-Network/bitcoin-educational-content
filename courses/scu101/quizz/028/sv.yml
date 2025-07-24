@@ -1,0 +1,11 @@
+question: Vilken är den första attackvektorn för hackare?
+answer: E-postmeddelanden
+wrong_answers:
+  - Sociala medier
+  - Webbplatser för online-shopping
+  - Bankers webbplatser
+explanation: |
+  E-postmeddelanden är den första attackvektorn för hackare. De använder
+  phishing-försök för att få ut känslig information som
+  dina inloggningsuppgifter och lösenord.
+reviewed: false

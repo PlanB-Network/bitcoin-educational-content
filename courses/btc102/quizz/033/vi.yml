@@ -1,0 +1,9 @@
+question: Ai là người phát minh ra Lightning Network?
+answer: Thaddeus Dryja và Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos và Adam Back
+  - Pieter Wuille và Gregory Maxwell
+  - Satoshi Nakamoto và Hal Finney
+explanation: |
+  Thaddeus Dryja và Joseph Poon đã phát minh ra Lightning Network vào năm 2016 để cải thiện khả năng mở rộng của Bitcoin.
+reviewed: false

@@ -79,6 +79,12 @@
       "code_translator": "NB"
     },
     {
+      "code": "nl",
+      "name": "Dutch",
+      "translator": "deepl",
+      "code_translator": "NL"
+    },
+    {
       "code": "pl",
       "name": "Polish",
       "translator": "deepl",
@@ -89,6 +95,12 @@
       "name": "Portuguese",
       "translator": "deepl",
       "code_translator": "PT-PT"
+    },
+    {
+      "code": "rn",
+      "name": "Rundi",
+      "translator": "google",
+      "code_translator": "RN"
     },
     {
       "code": "ro",

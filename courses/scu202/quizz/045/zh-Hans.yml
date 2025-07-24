@@ -1,0 +1,9 @@
+question: 哪种 macOS 工具可以实现全系统磁盘加密？
+answer: 文件保险箱
+wrong_answers:
+  - 磁盘工具
+  - iCloud 钥匙串
+  - 比特锁
+explanation: |
+  FileVault 是集成到 macOS 中的原生磁盘加密解决方案。
+reviewed: false

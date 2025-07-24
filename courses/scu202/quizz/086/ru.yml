@@ -1,0 +1,9 @@
+question: Какое приложение для перевода с открытым исходным кодом работает с различными движками и не собирает ваши переведенные тексты?
+answer: TranslateYou
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou выступает в качестве Interface для нескольких движков, не отслеживая и не собирая личные данные, в отличие от проприетарных сервисов.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Om vi observerar en transaktion med 1 UTXO i inmatningen och 43 UTXO i utmatningen, vilket mönster kan vi då se?
+answer: En batchad utgift
+wrong_answers:
+  - En konsolidering
+  - En förenklad betalning
+  - En transaktion som bygger på samarbete
+explanation: |
+  Tolkningen av detta mönster är att vi har att göra med en batchad utgift. Denna struktur gör det möjligt för enheter som Exchange-plattformar att spara på avgifter genom att gruppera sina utgifter i en enda transaktion.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk gebruikersprofiel verzamelt regelmatig bitcoins via Dollar-Cost Averaging?
+answer: De stapelaar
+wrong_answers:
+  - De hodler
+  - De actieve gebruiker
+  - De paranoïde
+explanation: |
+  De stapelaar koopt regelmatig kleine hoeveelheden om de aankoopprijs over de lange termijn uit te middelen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Varför ska du alltid kontrollera integriteten och äktheten hos programvara som laddas ner från Internet?
+answer: För att undvika att installera skadlig kod
+wrong_answers:
+  - För att förbättra systemets prestanda
+  - För att spara bandbredd
+  - För att påskynda installationen
+explanation: |
+  Verifiering av integritet och äkthet hjälper till att förhindra installation av skadad, infekterad eller icke-legitim programvara.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad är den viktigaste rollen för en Linux-skrivbordsmiljö?
+answer: Tillhandahålla Interface-grafik
+wrong_answers:
+  - Hantering av systemstart
+  - Kompilering av Linux-kärnan
+  - Skydd mot virus
+explanation: |
+  Skrivbordsmiljön grupperar visuella och interaktiva Elements (fönster, menyer, ikoner, paneler etc.) för att göra det möjligt för användaren att interagera grafiskt med systemet.
+reviewed: false

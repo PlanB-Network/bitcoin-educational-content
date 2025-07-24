@@ -1,0 +1,9 @@
+question: Je, kuna watunzaji wangapi kwenye Bitcoin Core mnamo 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  Mnamo 2025, kuna watunzaji watano: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao, na Ryan Ofsky.
+reviewed: false

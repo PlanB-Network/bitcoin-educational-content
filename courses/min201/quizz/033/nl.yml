@@ -1,0 +1,12 @@
+question: Wat is het potentiële risico van een afname van het aantal gebruikers, nodes of miners in het Bitcoin netwerk?
+answer: Het kan het netwerk verzwakken, waardoor het risico op centralisatie en kwetsbaarheid voor aanvallen toeneemt.
+wrong_answers:
+  - Het zou de prijs van Bitcoin kunnen verhogen.
+  - Het kan de transactiesnelheid en de Mining moeilijkheidsgraad verlagen.
+  - Het zou Mining moeilijker en kwetsbaarder kunnen maken voor aanvallen, terwijl het risico op centralisatie afneemt.
+explanation: |
+  Een afname van het aantal gebruikers, nodes of miners kan het Bitcoin netwerk
+  het Bitcoin netwerk verzwakken. Dit kan het risico op centralisatie vergroten en het netwerk kwetsbaarder maken voor
+  centralisatie en het netwerk kwetsbaarder maken voor
+  aanvallen.
+reviewed: true

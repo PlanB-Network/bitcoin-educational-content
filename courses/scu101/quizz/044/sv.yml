@@ -1,0 +1,9 @@
+question: Varför är det viktigt att gradvis ersätta dina gamla lösenord med lösenord som genereras av en lösenordshanterare?
+answer: Lösenord som genereras av en lösenordshanterare är starkare och längre, vilket ger högre säkerhet.
+wrong_answers:
+  - Lösenordshanteraren raderar automatiskt gamla lösenord.
+  - Lösenordshanterare kan bara lagra ett begränsat antal lösenord.
+  - Lösenordshanterare kräver att alla lösenord genereras av dem.
+explanation: |
+  En lösenordshanterare genererar starkare och längre lösenord, vilket ger högre säkerhet. Genom att gradvis ersätta dina gamla lösenord med dessa kan du öka säkerheten för dina onlinekonton.
+reviewed: true

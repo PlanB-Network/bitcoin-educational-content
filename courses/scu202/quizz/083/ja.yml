@@ -1,0 +1,9 @@
+question: 電話番号や永久ログインなしで、完全に匿名で登録できるメッセージングサービスは？
+answer: SimpleXチャット
+wrong_answers:
+  - 信号
+  - テレグラム
+  - WhatsApp
+explanation: |
+  SimpleXチャットでは一意な識別子という概念を排除しています。連絡先は刹那的なリンクやQRコードで追加され、個人情報は必要ありません。
+reviewed: false

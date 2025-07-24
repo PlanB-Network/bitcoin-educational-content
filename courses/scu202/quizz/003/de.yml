@@ -1,0 +1,9 @@
+question: Was sollten Sie mit USB-Flash-Laufwerken nicht tun?
+answer: Anschließen unbekannter USB-Sticks
+wrong_answers:
+  - Verwenden Sie NTFS-formatierte USB-Sticks
+  - Verschlüsseln Sie Ihre eigenen USB-Sticks
+  - Neue USB-Flash-Laufwerke verwenden
+explanation: |
+  Das Einstecken eines unbekannten USB-Sticks kann den Computer mit Malware infizieren oder sensible Daten stehlen.
+reviewed: false

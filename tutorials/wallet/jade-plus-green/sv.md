@@ -5,6 +5,9 @@ description: Konfigurera enkelt Jade Plus med Green
 ![cover](assets/cover.webp)
 
 
+![video](https://youtu.be/rv_cN7F7-TM)
+
+
 Jade Plus är en Hardware Wallet för endast Bitcoin som designats av Blockstream. Det är efterföljaren till den klassiska Jade, med mjukvaruförbättringar, fler alternativ och omdesignad ergonomi för mer intuitiv användning. Den här nya versionen har en magnifik 1,9-tums LCD-skärm med ett bredare färgomfång än föregångaren. Knappar och menynavigering har också optimerats.
 
 
@@ -20,18 +23,18 @@ Den finns tillgänglig från 149,99 USD i den svarta grundversionen, och priset 
 Jade Plus är kompatibelt med de flesta programvaror för Wallet-hantering. Här är en sammanfattning av kompatibiliteten i skrivande stund (januari 2025):
 
 
-| Desktop | Mobile | USB | Bluetooth | QR | JadeLink | Management software
-| ------------------- | ------- | ------ | --- | ----------- | --- | -------- |
-| Blockstream Green | 🟢 | 🟢 | 🟢 (Mobile) | 🟢 | 🔴 |
-| Liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 |
-| Sparrow | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 |
-| Nunchuk | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-| Specter | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-| BlueWallet | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-| Electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 |
-| Keeper | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
+| Management Software  | Desktop | Mobile | USB | Bluetooth   | QR  | JadeLink |
+| -------------------- | ------- | ------ | --- | ----------- | --- | -------- |
+| Blockstream Green    | 🟢      | 🟢     | 🟢  | 🟢 (Mobile) | 🟢  | 🔴       |
+| Liana                | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Sparrow              | 🟢      | 🔴     | 🟢  | 🔴          | 🟢  | 🟢       |
+| Nunchuk              | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Specter              | 🟢      | 🔴     | 🔴  | 🔴          | 🟢  | 🟢       |
+| BlueWallet           | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Electrum             | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Keeper               | 🔴      | 🟢     | 🔴  | 🔴          | 🟢  | 🔴       |
 
-I denna handledning kommer vi att konfigurera och använda Jade Plus med Blockstreams mobilapp Green Wallet via en Bluetooth-anslutning. Den här installationen är idealisk för nybörjare. Om du letar efter en mer avancerad metod rekommenderar jag att du tar en titt på den här handledningen där vi använder Jade Plus med Sparrow Wallet i QR-kodläge:
+I denna handledning kommer vi att konfigurera och använda Jade Plus med Blockstreams mobilapp Green Wallet via en Bluetooth-anslutning. Den här installationen är idealisk för nybörjare. Om du letar efter ett mer avancerat tillvägagångssätt rekommenderar jag att du tar en titt på den här handledningen där vi använder Jade Plus med Sparrow wallet i QR-kodläge:
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -49,7 +52,7 @@ Jade Plus använder en säkerhetsmodell som bygger på ett "virtuellt säkert el
 - Och till oraklets hemlighet.
 
 
-Den stora fördelen med detta tillvägagångssätt är att det inte finns någon "single point of failure" på hårdvarunivå, eftersom en angripare som får tillgång till din Jade måste kompromettera både Jade och oraklet för att få ut nycklarna. Denna modell innebär också att Jade Plus är helt öppen källkod, vilket gör att man undviker de begränsningar som är förknippade med användningen av verkligt fysiskt säkra Elements, som till exempel de som används på Ledger.
+Den stora fördelen med detta tillvägagångssätt är att det inte finns någon "single point of failure" på hårdvarunivå, eftersom en angripare som får tillgång till din Jade måste kompromettera både Jade och oraklet för att få ut nycklarna. Den här modellen innebär också att Jade Plus är helt öppen källkod, vilket gör att man undviker de begränsningar som är förknippade med användningen av verkligt fysiskt säkra Elements, som till exempel Ledger.
 
 
 Nackdelen med detta system är att användningen av Jade Plus är beroende av det orakel som Blockstream upprätthåller. Om detta orakel blir oåtkomligt är det inte längre möjligt att använda Hardware Wallet direkt med PIN-koden. Detta innebär dock inte att dina bitcoins går förlorade, eftersom de fortfarande kan återvinnas med hjälp av din återställningsfras, som du kan ange i Jade Plus i "*stateless*"-läge. För att komma runt det här beroendet kan du också konfigurera och hantera din egen oracle-server.
@@ -71,7 +74,7 @@ I lådan hittar du :
 
 - Le Jade Plus;
 - USB-C-kabel;
-- Kort för att registrera din Mnemonic-fras som ord eller som "*CompactSeedQR*";
+- Kort för att spela in din Mnemonic-fras som ord eller som "*CompactSeedQR*";
 - Några instruktioner för användning ;
 - En sladd;
 - Några klistermärken.
@@ -94,7 +97,7 @@ Enheten har 4 navigeringsknappar:
 ![JADE-PLUS-GREEN](assets/fr/04.webp)
 
 
-## Sätta upp en ny Bitcoin Wallet
+## Uppsättning av en ny Bitcoin Wallet
 
 
 Klicka på startknappen.
@@ -127,7 +130,7 @@ Klicka på knappen "*Continue*" för att visa din nya återställningsfras.
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
 
-Din Jade Plus visar din Mnemonic-fras med 12 ord. **Den här Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Jade Plus. Frasen på 12 ord återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Jade. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
+Din Jade Plus visar din Mnemonic-fras med 12 ord. **Den här Mnemonic ger dig full, obegränsad tillgång till alla dina bitcoins. Vem som helst som har tillgång till denna fras kan stjäla dina pengar, även utan fysisk tillgång till din Jade Plus. Den 12 ord långa frasen återställer åtkomsten till dina bitcoins i händelse av förlust, stöld eller brott på din Jade. Det är därför mycket viktigt att spara den noggrant och förvara den på en säker plats.
 
 
 Du kan skriva den på kartongen som medföljer i lådan, eller för extra säkerhet rekommenderar jag att du graverar den på en bas av rostfritt stål för att skydda den mot brand, översvämning eller kollaps.
@@ -141,7 +144,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i denna handledning. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
+***Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
 
 
 Klicka på pilen till höger på skärmen för att visa följande ord.
@@ -159,7 +162,7 @@ När du har sparat din fras ber Jade Plus dig att bekräfta den. Välj rätt ord
 ## Anslutning av Jade Plus till Green Wallet
 
 
-I den här handledningen använder vi programmet Green Wallet för att hantera Wallet som finns på Jade Plus. Den här metoden är särskilt lämplig för nybörjare. Om du vill hantera din Bitcoin Wallet mer i detalj kan du också använda Sparrow Wallet, som vi kommer att behandla i en separat handledning:
+I den här handledningen använder vi applikationen Green Wallet för att hantera Wallet som finns på Jade Plus. Den här metoden är särskilt lämplig för nybörjare. Om du vill hantera din Bitcoin Wallet mer i detalj kan du också använda Sparrow wallet, som vi kommer att behandla i en separat handledning:
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -169,7 +172,7 @@ För instruktioner om hur du installerar och konfigurerar Blockstream Green-prog
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-När du befinner dig i Blockstream Green-programmet klickar du på knappen "*Konfigurera en ny Wallet*".
+När du är i applikationen Blockstream Green klickar du på knappen "*Konfigurera en ny Wallet*".
 
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
@@ -187,7 +190,7 @@ Aktivera Bluetooth på din smartphone och klicka sedan på knappen "*Connect you
 ![JADE-PLUS-GREEN](assets/fr/15.webp)
 
 
-Auktorisera Green-programmet att komma åt Bluetooth-anslutningar.
+Auktorisera Green-programmet att få tillgång till Bluetooth-anslutningar.
 
 
 ![JADE-PLUS-GREEN](assets/fr/16.webp)
@@ -205,7 +208,7 @@ På Jade Plus klickar du på menyn "*Bluetooth*".
 ![JADE-PLUS-GREEN](assets/fr/18.webp)
 
 
-Välj din enhet i applikationen Green.
+Välj din enhet i Green-applikationen.
 
 
 ![JADE-PLUS-GREEN](assets/fr/19.webp)
@@ -244,7 +247,7 @@ Klicka på knappen "*Continue*" för att välja PIN-koden för din Jade.
 ![JADE-PLUS-GREEN](assets/fr/24.webp)
 
 
-PIN-koden låser upp din Jade. Den utgör därför ett skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även om du inte har tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har din Mnemonic-fras med 12 ord. Vi rekommenderar att du väljer en PIN-kod som är så slumpmässig som möjligt. Och se till att spara den här koden på en annan plats än där din Jade lagras (t.ex. i en lösenordshanterare).
+PIN-koden låser upp din Jade. Den utgör därför ett skydd mot obehörig fysisk åtkomst. Denna PIN-kod är inte inblandad i härledningen av din Wallet:s kryptografiska nycklar. Så även om du inte har tillgång till PIN-koden kan du få tillgång till dina bitcoins om du har tillgång till din Mnemonic-fras med 12 ord. Vi rekommenderar att du väljer en PIN-kod som är så slumpmässig som möjligt. Och se till att spara den här koden på en annan plats än där din Jade lagras (t.ex. i en lösenordshanterare).
 
 
 Välj den 6-siffriga PIN-koden på din Jade genom att använda höger- och vänsterknapparna för att bläddra igenom siffrorna och mittknappen för att bekräfta inmatningen av en siffra.
@@ -303,7 +306,7 @@ Med alternativet "*Rename*" kan du anpassa namnet på din Wallet, vilket är sä
 ![JADE-PLUS-GREEN](assets/fr/32.webp)
 
 
-För att återansluta till din Jade efter att du har stängt av den, tryck på på/av-knappen längst ned på enheten. I Green-applikationen väljer du din enhet från startsidan:
+För att återansluta till din Jade efter att ha stängt av den, tryck på på/av-knappen längst ned på enheten. I Green applikationen, välj din enhet från startsidan:
 
 
 ![JADE-PLUS-GREEN](assets/fr/33.webp)
@@ -315,7 +318,7 @@ Ange sedan PIN-koden på din Jade, så är du ansluten igen.
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
 
-Din Jade låses upp via Blockstreams "virtuella säkra element" (se första avsnittet i denna handledning). Detta kräver en Bluetooth-anslutning med Green-applikationen. Om du stöter på problem med Bluetooth-anslutningen under upplåsningen kan du försöka koppla bort och koppla ihop de två enheterna igen. Om problemet kvarstår kan du fortfarande låsa upp din Jade genom att välja alternativet "*QR Scan*" och följa instruktionerna som finns tillgängliga [på Blockstreams webbplats] (https://jadefw.blockstream.com/pinqr/index.html).
+Din Jade låses upp via Blockstreams "virtuella säkra element" (se första avsnittet i denna handledning). Detta kräver en Bluetooth-anslutning med Green-applikationen. Om du stöter på problem med Bluetooth-anslutningen under upplåsningen kan du prova att koppla bort och koppla ihop de två enheterna igen. Om problemet kvarstår kan du fortfarande låsa upp din Jade genom att välja alternativet "*QR Scan*" och följa instruktionerna som finns tillgängliga [på Blockstreams webbplats] (https://jadefw.blockstream.com/pinqr/index.html).
 
 
 Innan du får dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, till exempel din xpub eller första mottagande Address, radera sedan din Wallet i Green-appen och på Jade Plus medan den fortfarande är tom (`Optioner -> Enhet -> Fabriksåterställning`). Försök sedan återställa din Wallet med hjälp av dina pappersbackuper av Mnemonic frasen. Kontrollera att cookieinformationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen :
@@ -332,7 +335,7 @@ Nu när din Bitcoin Wallet är konfigurerad är du redo att ta emot din första 
 ![JADE-PLUS-GREEN](assets/fr/35.webp)
 
 
-Green visar en mottagning Address, men innan du använder den är det viktigt att kontrollera den på Jade för att bekräfta att den faktiskt tillhör vår Wallet. För att göra detta, klicka på knappen "*Verify on device*".
+Green visar en mottagning Address, men innan du använder den är det viktigt att kontrollera den på Jade för att bekräfta att den faktiskt tillhör vår Wallet. För att göra detta, klicka på knappen "*Verifiera på enheten*".
 
 
 ![JADE-PLUS-GREEN](assets/fr/36.webp)
@@ -413,10 +416,10 @@ Din transaktion har signerats och sänts från Green.
 ![JADE-PLUS-GREEN](assets/fr/48.webp)
 
 
-Grattis, du vet nu hur du ställer in och använder Jade Plus med mobilapplikationen Blockstream Green via Bluetooth-anslutning. Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du lämnade en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
+Grattis, du vet nu hur du ställer in och använder Jade Plus med Blockstream Green mobilapplikation, via Bluetooth-anslutning. Om du tyckte att denna handledning var användbar skulle jag vara tacksam om du lämnade en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
 
 
-Om du vill gå ett steg längre rekommenderar jag den här handledningen om Jade Plus, där vi konfigurerar den med Sparrow Wallet-programvaran i QR-läge. Du får också lära dig hur du använder de avancerade inställningarna för din Hardware Wallet:
+För att ta saker ett steg längre rekommenderar jag denna handledning om Jade Plus, där vi konfigurerar den med Sparrow wallet-programvaran i QR-läge. Du får också lära dig hur du använder de avancerade inställningarna för din Hardware Wallet:
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

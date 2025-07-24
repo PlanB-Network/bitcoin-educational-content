@@ -1,0 +1,8 @@
+question: Ni taasisi gani ya benki ndiyo tokeo la mwisho la chaguzi zilizofanywa mnamo 1789, ambazo Dupont de Nemours alizungumza dhidi yake?
+answer: Banque de France
+wrong_answers:
+  - Benki ya Akiba
+  - Mikopo Agricole
+  - Benki Kuu ya Ulaya
+explanation: |
+  Banque de France ni matokeo ya chaguzi zilizofanywa mnamo 1789, ambazo Dupont de Nemours alizikosoa kwa kusababisha ujumuishaji mwingi wa nguvu za kifedha na uingiliaji mwingi wa serikali katika uchumi.

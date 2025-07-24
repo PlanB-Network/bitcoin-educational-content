@@ -40,10 +40,10 @@ Var försiktig, under ett återställningstest måste **du använda samma enhet 
 ## Hur utför man ett återställningstest?
 
 
-I den här handledningen kommer jag att förklara hur man utför ett återställningstest på en Bitcoin Software Wallet, med Sparrow Wallet (för en Hot Wallet). Processen förblir dock densamma för alla andra typer av enheter. Återigen, **om du använder en Hardware Wallet ska du inte utföra återställningstestet på Sparrow Wallet** (se föregående avsnitt).
+I den här handledningen kommer jag att förklara hur man utför ett återställningstest på en Bitcoin Software Wallet med hjälp av Sparrow wallet (för en Hot Wallet). Processen förblir dock densamma för alla andra typer av enheter. Återigen, **om du använder en Hardware Wallet ska du inte utföra återställningstestet på Sparrow wallet** (se föregående avsnitt).
 
 
-Jag har precis skapat en ny Hot Wallet på Sparrow Wallet. För tillfället har jag ännu inte skickat några bitcoins till den. Den är tom.
+Jag har precis skapat en ny Hot Wallet på Sparrow wallet. För tillfället har jag ännu inte skickat några bitcoins till den. Den är tom.
 
 
 ![RECOVERY TEST](assets/notext/02.webp)
@@ -76,7 +76,7 @@ Passphrase: YfaicGzXH9t5C#g&47Kzbc$JL
 ***Självklart ska du aldrig dela din Mnemonic-fras och din passphrase på internet, till skillnad från vad jag gör i den här handledningen. Detta exempel Wallet kommer inte att användas och kommer att raderas i slutet av handledningen.***
 
 
-Jag kommer nu att anteckna ett vittnesinformation från min Wallet på ett utkast. Du kan välja olika uppgifter, till exempel den första mottagande Address, xpuben eller huvudnyckelns fingeravtryck. Personligen rekommenderar jag att du väljer den första mottagande Address. Detta gör att du kan verifiera att du kan hitta den fullständiga första avledningsvägen som leder till denna Address.
+Jag kommer nu att anteckna ett vittnesinformation från min Wallet på ett utkast. Du kan välja olika uppgifter, till exempel den första mottagande Address, xpub eller huvudnyckelns fingeravtryck. Personligen rekommenderar jag att du väljer den första mottagande Address. Detta gör att du kan verifiera att du kan hitta den fullständiga första avledningsvägen som leder till denna Address.
 
 
 På Sparrow klickar du på fliken "*Addresser*".
@@ -85,7 +85,7 @@ På Sparrow klickar du på fliken "*Addresser*".
 ![RECOVERY TEST](assets/notext/03.webp)
 
 
-Anteckna sedan på ett papper den allra första mottagningen Address av din Wallet. I mitt exempel är Address:
+Anteckna sedan på ett papper den allra första mottagande Address av din Wallet. I mitt exempel är Address:
 
 
 ```txt
@@ -135,7 +135,7 @@ Välj rätt antal ord för din seed.
 ![RECOVERY TEST](assets/notext/10.webp)
 
 
-Ange din Mnemonic-fras i programvaran. Om meddelandet "*Invalid Checksum*" visas innebär det att säkerhetskopian av din Mnemonic-fras är felaktig. Du kommer då att behöva börja skapa din Wallet från början, eftersom ditt återställningstest har misslyckats.
+Ange din Mnemonic-fras i programvaran. Om ett meddelande "*Invalid Checksum*" visas indikerar detta att säkerhetskopian av din Mnemonic-fras är felaktig. Du kommer då att behöva börja skapa din Wallet från början, eftersom ditt återställningstest har misslyckats.
 
 
 ![RECOVERY TEST](assets/notext/11.webp)
@@ -173,4 +173,4 @@ Kontrollera slutligen att den första mottagande Address stämmer överens med d
 
 Om de mottagande adresserna matchar är ditt återställningstest framgångsrikt och du kan använda din nya Bitcoin Wallet. Om de inte matchar kan detta tyda på antingen ett fel i valet av skripttyp, vilket gör att härledningsvägen blir felaktig, eller ett problem med säkerhetskopian av din Mnemonic-fras eller din passphrase. I båda fallen rekommenderar jag starkt att du börjar om från början och skapar en ny Bitcoin Wallet från början för att undvika alla risker. Den här gången ska du vara noga med att notera Mnemonic-frasen utan fel.
 
-Grattis, du är nu igång med att genomföra ett återställningstest! Jag råder dig att generalisera denna process för att skapa alla dina Bitcoin plånböcker. Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta om du kunde lämna tummen upp nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!
+Grattis, du har nu kommit igång med att genomföra ett återställningstest! Jag råder dig att generalisera denna process för skapandet av alla dina Bitcoin plånböcker. Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta om du kunde lämna tummen upp nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!

@@ -1,0 +1,35 @@
+id: 4ba0e3de-e67f-4ea1-a514-f111206810d1
+
+topic: security
+
+subtopic: security
+
+level: intermediate
+
+hours: 10
+
+professors_id:
+  - 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+contributor_names:
+  - LoicPandul
+
+published_at: 2025-06-10
+test_only: false
+
+tags:
+  - personal-security
+  - privacy
+  - good-practice
+
+# Proofreading metadata
+
+original_language: fr
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-10
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 52.62

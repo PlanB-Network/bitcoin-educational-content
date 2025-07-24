@@ -1,0 +1,8 @@
+question: Waarom is het aantal bevestigingen in een Bitcoin transactie belangrijk?
+answer: Hoe meer bevestigingen een transactie heeft, hoe onveranderlijker deze wordt.
+wrong_answers:
+  - Hoe meer bevestigingen een transactie heeft, hoe waardevoller deze wordt.
+  - Hoe meer bevestigingen een transactie heeft, hoe sneller deze wordt verwerkt.
+  - Hoe meer bevestigingen een transactie heeft, hoe minder veilig deze is.
+explanation: >-
+reviewed: true

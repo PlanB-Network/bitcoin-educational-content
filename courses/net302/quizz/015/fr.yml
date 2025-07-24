@@ -1,0 +1,9 @@
+question: Quelle est la taille maximale théorique d’un datagramme IP ?
+answer: 65 536 octets
+wrong_answers:
+  - 1 500 octets
+  - 512 octets
+  - 255 octets
+explanation: |
+  La taille maximale d’un datagramme IP est fixée à 65 536 octets par la limite du champ longueur totale dans l’en-tête IP.
+reviewed: false

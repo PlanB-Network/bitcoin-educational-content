@@ -1,0 +1,9 @@
+question: Mikä on Telegramin tärkein rajoitus viestien luottamuksellisuuden suhteen?
+answer: Vain salaiset vaihdot salataan oletusarvoisesti päästä päähän -salattuina
+wrong_answers:
+  - Se määrää nimettömän rekisteröintimaksun
+  - Se ei takaa vastaanotettujen tiedostojen aitoutta
+  - Avoimen lähdekoodin asiakasta ei ole saatavilla
+explanation: |
+  Oletusarvoisesti Telegram-viestit tallennetaan yrityksen palvelimille, ja vain salaiset keskustelut hyötyvät päästä päähän -salauksesta.
+reviewed: false

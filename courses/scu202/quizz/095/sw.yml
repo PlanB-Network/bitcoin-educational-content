@@ -1,0 +1,9 @@
+question: Ni ipi njia bora ya kufikia mtandao wako wa nyumbani ukiwa mbali?
+answer: Kutumia VPN ya kibinafsi
+wrong_answers:
+  - Fungua mlango wa SSH wa umma
+  - Washa wingu la router
+  - Tumia WPS
+explanation: |
+  VPN huunda handaki iliyosimbwa kwa njia fiche ili kufikia mtandao wa ndani bila kufichua mlango muhimu kwenye Mtandao.
+reviewed: false

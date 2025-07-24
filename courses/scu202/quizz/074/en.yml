@@ -1,0 +1,9 @@
+question: What event forced Google to reorient Android towards a touch-sensitive Interface?
+answer: The release of the first iPhone
+wrong_answers:
+  - Microsoft's takeover of Nokia
+  - The creation of CyanogenMod
+  - The launch of the Play Store
+explanation: |
+  The arrival of the iPhone in 2007 forced Google to rethink Android to make it touchscreen-compatible, abandoning the idea of a device with a physical keyboard.
+reviewed: false

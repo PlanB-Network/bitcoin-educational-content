@@ -1,0 +1,9 @@
+question: Který nástroj systému macOS umožňuje úplné šifrování systémového disku?
+answer: FileVault
+wrong_answers:
+  - Nástroj Disk Utility
+  - klíčenka iCloud
+  - BitLocker
+explanation: |
+  FileVault je nativní řešení šifrování disku integrované do systému macOS.
+reviewed: false

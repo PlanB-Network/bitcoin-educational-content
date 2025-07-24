@@ -48,7 +48,7 @@ Som tidigare nämnts är den mest välkända strukturen för en samarbetstransak
 
 En extern observatör av denna transaktion kommer inte att kunna veta vilken output som tillhör vilken användare som input. Om vi tar exemplet med användare #4 (lila) kan vi känna igen deras input UTXO, men vi kommer inte att veta vilken av de 5 outputs som faktiskt är deras. Den initiala informationen är inte dold, utan snarare förvirrad inom en grupp.
 
-Användaren kan förneka innehav av en viss UTXO som utdata. Detta fenomen kallas "plausibel förnekelse" och möjliggör sekretess i en transparent Bitcoin-transaktion.
+Användaren kan förneka innehav av en viss UTXO som utdata. Detta fenomen kallas "plausibel förnekbarhet" och möjliggör integritet i en transparent Bitcoin-transaktion.
 
 
 För att lära dig mer om CoinJoin förklarar jag ALLT i den här långa artikeln: Förstå och använda CoinJoin på Bitcoin.
@@ -60,10 +60,10 @@ För att lära dig mer om CoinJoin förklarar jag ALLT i den här långa artikel
 ## Transaktionen StonewallX2
 
 
-Bland den myriad av utgiftsverktyg som erbjuds på Samourai Wallet finns den samarbetande transaktionen StonewallX2. Det är en mini CoinJoin mellan två användare utformad för betalning. Från utsidan kan denna transaktion leda till flera möjliga tolkningar. Den ger således en trovärdig förnekelse och följaktligen sekretess för användaren.
+Bland den myriad av utgiftsverktyg som erbjuds på Samourai Wallet finns den samarbetande transaktionen StonewallX2. Det är en mini CoinJoin mellan två användare utformad för betalning. Från utsidan kan denna transaktion leda till flera möjliga tolkningar. Den ger således en trovärdig förnekelse och följaktligen integritet för användaren.
 
 
-Denna StonewallX2 samarbetsinställning för transaktioner är tillgänglig på Samourai Wallet och Sparrow Wallet. Detta verktyg är driftskompatibelt mellan de två programvarorna.
+Denna StonewallX2 samarbetsinställning för transaktioner är tillgänglig på Samourai Wallet och Sparrow wallet. Detta verktyg är driftskompatibelt mellan de två programvarorna.
 
 
 Dess mekanism är ganska enkel att förstå. Så här fungerar det i praktiken:
@@ -73,7 +73,7 @@ Dess mekanism är ganska enkel att förstå. Så här fungerar det i praktiken:
 - En användare vill göra en betalning i bitcoins (t.ex. hos en handlare).
 - De hämtar den mottagande Address för den faktiska betalningsmottagaren (handlaren).
 - De konstruerar en specifik transaktion med flera olika ingångar: minst en som tillhör dem själva och en som tillhör en extern samarbetspartner.
-- Transaktionen kommer att ha 4 utgångar, inklusive 2 av samma belopp: en till handlarens Address för betalning, en som växel som återgår till användaren, en utgång av samma värde som betalningen som går till medarbetaren, och en annan utgång som också återgår till medarbetaren.
+- Transaktionen kommer att ha 4 utgångar, inklusive 2 av samma belopp: en till handlarens Address för betalning, en som växel som återgår till användaren, en utgång av samma värde som betalningen som går till medarbetaren och en annan utgång som också återgår till medarbetaren.
 
 
 Här är till exempel en typisk StonewallX2-transaktion där jag gjorde en betalning på 50 125 Sats. Den första inmatningen på 102 588 Sats kommer från min Samourai Wallet. Den andra inmatningen på 104 255 Sats kommer från min samarbetspartners Wallet:
@@ -87,9 +87,9 @@ Vi kan observera 4 utgångar, inklusive 2 av samma belopp för att förvirra sp�
 
 
 - 50 125 Sats` som går till den faktiska mottagaren av min betalning.
-- `52 306 Sats` som representerar min förändring och därför återgår till en Address i min Wallet.
-- `50 125 Sats` som går tillbaka till min samarbetspartner.
-- 53 973 Sats återgår till min samarbetspartner.
+- `52 306 Sats` som representerar min förändring och återgår därför till en Address i min Wallet.
+- 50 125 Sats` som går tillbaka till min samarbetspartner.
+- `53 973 Sats` återgår till min samarbetspartner.
 
 
 I slutet av transaktionen har samarbetspartnern fått sitt ursprungliga saldo återställt (minus Mining-avgifter) och användaren har betalat handlaren. Detta tillför en betydande mängd entropi till transaktionen och bryter de obestridliga länkarna mellan avsändaren och mottagaren av betalningen.
@@ -100,7 +100,7 @@ Styrkan med Stonewall X2-transaktionen är att den helt motverkar en av de empir
 
 > Som en extra brandvägg kan ett nytt nyckelpar användas för varje transaktion för att förhindra att de länkas till en gemensam ägare. Kopplingen är dock oundviklig med transaktioner med flera inmatningar, som med nödvändighet avslöjar att deras inmatningar ägdes av samma ägare.
 
-Detta är en av de många empiriska regler som används i On-Chain-analys för att konstruera Address-kluster. För att lära dig mer om dessa heuristiker rekommenderar jag att du läser den här serien med fyra artiklar av Samourai, som introducerar ämnet underbart.
+Detta är en av de många empiriska regler som används i On-Chain-analysen för att konstruera Address-kluster. För att lära dig mer om dessa heuristiker rekommenderar jag att du läser den här serien med fyra artiklar av Samourai, som introducerar ämnet underbart.
 
 
 Styrkan i StonewallX2-transaktionen ligger i att en utomstående betraktare kommer att tro att transaktionens olika ingångar tillhör en gemensam ägare. I själva verket är det två olika användare som samarbetar. Analysen av betalningen leds alltså till ett lockbete och användarnas integritet bevaras.
@@ -111,7 +111,7 @@ Från utsidan kan en StonewallX2-transaktion inte särskiljas från en Stonewall
 
 Fördelen med StonewallX2 jämfört med en PayJoin av fripassagerartyp är dessutom att den kan användas i alla situationer. Den faktiska mottagaren av betalningen bidrar inte med några inmatningar till transaktionen. Således kan en StonewallX2 användas för att betala hos alla handlare som accepterar Bitcoin, även om handlaren inte använder Samourai eller Sparrow.
 
-Å andra sidan är den största nackdelen med denna transaktionsstruktur att den kräver en samarbetspartner som är villig att använda sina bitcoins för att delta i din betalning. Om du har Bitcoin-vänner som är villiga att hjälpa dig i alla situationer är det här inget problem. Men om du inte känner några andra Samourai Wallet-användare, eller om ingen är tillgänglig för att samarbeta, så är du fast.
+Å andra sidan är den största nackdelen med denna transaktionsstruktur att den kräver en samarbetspartner som är villig att använda sina bitcoins för att delta i din betalning. Om du har Bitcoin-vänner som är villiga att hjälpa dig i alla situationer är detta inte ett problem. Men om du inte känner några andra Samourai Wallet-användare, eller om ingen är tillgänglig för att samarbeta, då är du fast.
 
 
 För att lösa detta problem har Samourai-teamet nyligen lagt till en ny funktion i sin applikation: JoinBot.
@@ -134,10 +134,10 @@ Självklart har JoinBot vissa kompromisser som bör noteras:
 
 
 - Precis som med en klassisk StonewallX2 är din samarbetspartner nödvändigtvis medveten om de UTXO:er som används och deras destination. När det gäller JoinBot känner Samourai till detaljerna i denna transaktion. Detta är inte nödvändigtvis en dålig sak, men det bör hållas i åtanke.
-- För att undvika skräppost tar Samourai ut en serviceavgift på 3,5% på beloppet för den faktiska transaktionen, med en maximal gräns på 0,01 BTC. Om jag till exempel skickar en verklig betalning på 100 kilosats med JoinBot, kommer serviceavgiften att vara 3 500 Sats.
-- För att använda JoinBot måste du ha minst två icke relaterade och tillgängliga UTXO:er i din Wallet.
-- I en klassisk StonewallX2 delas Mining avgifterna lika mellan de två samarbetspartnerna. Med JoinBot kommer du självklart att behöva betala hela Mining avgifterna.
-- För att en JoinBot-transaktion ska vara exakt densamma som en klassisk StonewallX2- eller Stonewall-transaktion sker betalningen av serviceavgifter i en helt separat transaktion. Återbetalningen av hälften av de Mining-avgifter som Samourai ursprungligen betalade kommer att ske under denna andra transaktion. För att optimera din integritet till slutet görs avgiftsavräkningen med hjälp av en Stowaway (PayJoin) strukturerad transaktion.
+- För att undvika skräppost tar Samourai ut en serviceavgift på 3,5 % av beloppet för den faktiska transaktionen, med en högsta gräns på 0,01 BTC. Om jag till exempel skickar en verklig betalning på 100 kilosats med JoinBot, kommer serviceavgiftsbeloppet att vara 3 500 Sats.
+- För att kunna använda JoinBot måste du ha minst två obundna och tillgängliga UTXO:er i din Wallet.
+- I en klassisk StonewallX2 delas Mining-avgifterna lika mellan de två samarbetspartnerna. Med JoinBot kommer du självklart att behöva betala hela Mining-avgiften.
+- För att en JoinBot-transaktion ska vara exakt densamma som en klassisk StonewallX2- eller Stonewall-transaktion sker betalningen av serviceavgifter i en helt separat transaktion. Återbetalningen av hälften av Mining-avgifterna som ursprungligen betalades av Samourai kommer att göras under denna andra transaktion. För att optimera din integritet till slutet görs avgiftsavräkningen med hjälp av en Stowaway (PayJoin) strukturerad transaktion.
 
 
 ## Hur man använder JoinBot?
@@ -146,7 +146,7 @@ Självklart har JoinBot vissa kompromisser som bör noteras:
 För att utföra en JoinBot-transaktion måste du ha en Samourai Wallet. Du kan ladda ner den här, eller från Google Playstore.
 
 
-Till skillnad från de flesta verktyg som utvecklats av Samourai har Sparrow Wallet ännu inte meddelat implementeringen av JoinBot. Detta verktyg är därför endast tillgängligt på Samourai.
+Till skillnad från de flesta verktyg som utvecklats av Samourai har Sparrow wallet ännu inte meddelat implementeringen av JoinBot. Det här verktyget är därför endast tillgängligt på Samourai.
 
 
 Upptäck steg för steg hur du utför en StonewallX2-transaktion med JoinBot i den här videon:
@@ -166,7 +166,7 @@ Vi kan se 5 ingångar:
 
 
 - 3 inmatningar av 100 kilosats kommer från Samourai (JoinBot).
-- 2 ingångar kommer från min personliga Wallet, av 3 524 Sats och 1,8 megasat.
+- 2 ingångar kommer från min personliga Wallet, av 3.524 Sats och 1,8 megasat.
 
 
 Transaktionens 4 utgångar är följande:
@@ -179,7 +179,7 @@ Transaktionens 4 utgångar är följande:
 - 1 förändring som går tillbaka till en annan Address i min Wallet. Det motsvarar skillnaden mellan summan av mina inmatningar och den faktiska betalningen, minus Mining-avgifterna.
 
 
-Som en påminnelse representerar Mining-avgifterna inte transaktionsoutput. De representerar helt enkelt skillnaden mellan de totala inmatningarna och de totala utmatningarna.
+Som en påminnelse representerar Mining-avgifter inte transaktionsutgångar. De representerar helt enkelt skillnaden mellan de totala inmatningarna och de totala utmatningarna.
 
 
 ## Slutsats
@@ -188,7 +188,7 @@ Som en påminnelse representerar Mining-avgifterna inte transaktionsoutput. De r
 JoinBot är ett extra verktyg som ger Samourai-användare fler valmöjligheter och större frihet. Det möjliggör en samarbetande StonewallX2-transaktion direkt med Samourai som samarbetspartner. Denna typ av transaktion hjälper till att förbättra användarnas integritet.
 
 
-Om du kan utföra en klassisk StonewallX2 med en vän rekommenderar jag fortfarande att du använder det här verktyget. Men om du sitter fast och inte kan hitta några samarbetspartners för att göra en betalning, vet du att JoinBot kommer att vara tillgänglig 24/7 för att samarbeta med dig.
+Om du kan utföra en klassisk StonewallX2 med en vän rekommenderar jag fortfarande att du använder det här verktyget. Men om du sitter fast och inte kan hitta några medarbetare för att göra en betalning, vet du att JoinBot kommer att vara tillgänglig 24/7 för att samarbeta med dig.
 
 
 **Externa resurser:**

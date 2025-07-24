@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan en slumpmässig sträng och en pseudoslumpmässig sträng?
+answer: En slumpmässig sträng kommer från en ren slumpmässig process, medan en pseudorandomsträng genereras av en algoritm från en seed.
+wrong_answers:
+  - En pseudorandomsträng använder endast 1 bit.
+  - En slumpmässig sträng är alltid längre än en pseudoslumpmässig sträng eftersom det finns en naturlig verkan på den.
+  - En pseudorandomsträng definieras av en strikt binär modell, medan en slumpmässig sträng definieras av en strikt hexadecimal modell.
+explanation: |
+  En slumpmässig sträng kommer från en direkt slumpmässig process, medan en pseudorandomsträng produceras med hjälp av en expansionsalgoritm och en initial seed.
+reviewed: false

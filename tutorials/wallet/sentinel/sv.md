@@ -84,7 +84,7 @@ När du öppnar applikationen första gången får du välja mellan:
 Dojo, som utvecklats av Samourai-teamet, är en fullständig Bitcoin-nodversion som kan installeras fristående eller läggas till med ett klick till node-in-box-lösningar som [Umbrel] (https://umbrel.com/) och [RoninDojo] (https://ronindojo.io/).
 
 
-[**-> Upptäck hur du installerar RoninDojo v2 på en Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Upptäck hur du installerar RoninDojo v2 på en Raspberry Pi.**](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 Om du har en egen Dojo kan du ansluta den i det här skedet. Genom att göra det kommer du att dra nytta av den högsta sekretessnivån när du kontrollerar transaktionsinformationen för ditt Bitcoin-nätverk.
@@ -127,7 +127,7 @@ Från startsidan trycker du på den blå knappen "NY" för att lägga till en ny
 ![watch-only](assets/notext/9.webp)
 
 
-I allmänhet är `xpub` för din Wallet direkt tillgänglig via den programvara för Wallet-hantering som du använder. Om du t.ex. hanterar din Hardware Wallet med Sparrow finns denna information på fliken "Inställningar" under avsnittet "Keystore".
+I allmänhet är `xpub` för din Wallet direkt tillgänglig via den Wallet-hanteringsprogramvara du använder. Om du t.ex. hanterar din Hardware Wallet med Sparrow finns denna information på fliken "Inställningar" under avsnittet "Keystore".
 
 
 ![watch-only](assets/notext/10.webp)
@@ -153,7 +153,7 @@ Om du vill lägga till en annan utökad publik nyckel klickar du på `NEW` igen 
 
 ![watch-only](assets/notext/13.webp)
 
-Du kommer sedan att uppmanas att välja den samling du vill integrera den här nyckeln i, eller att skapa en ny. I mitt fall har jag till exempel skapat en samling specifikt för min Ledger Wallet.
+Du kommer sedan att uppmanas att välja den samling du vill integrera nyckeln i eller skapa en ny samling. I mitt fall har jag till exempel skapat en samling specifikt för min Ledger Wallet.
 
 ![watch-only](assets/notext/14.webp)
 
@@ -164,7 +164,7 @@ För att se de utökade nycklarna för en samling i detalj klickar du bara på d
 ![watch-only](assets/notext/15.webp)
 
 
-Från en samling, genom att trycka på de tre små prickarna längst upp till höger och sedan på `Visa oanvända utgångar`, kan du komma åt en lista över UTXO som innehas av den spårade Wallet.
+Från en samling, genom att trycka på de tre små prickarna längst upp till höger, sedan på `Visa oanvända utgångar`, kan du komma åt en lista över UTXO som innehas av den spårade Wallet.
 
 
 ![watch-only](assets/notext/16.webp)
@@ -185,7 +185,7 @@ För att ta emot bitcoins via Sentinel väljer du den samling du är intresserad
 ![watch-only](assets/notext/17.webp)
 
 
-Klicka slutligen på pilikonen längst ner till vänster på skärmen. Sentinel genererar då en tom mottagnings Address åt dig. Du kan kopiera den eller skanna den med hjälp av QR-koden.
+Klicka slutligen på pilikonen längst ned till vänster på skärmen. Sentinel genererar då en tom mottagning Address åt dig. Du kan kopiera den eller skanna den med hjälp av QR-koden.
 
 
 ![watch-only](assets/notext/18.webp)
@@ -235,14 +235,14 @@ Du har möjlighet att ange din signerade PSBT på tre olika sätt:
 
 
 - Genom att klistra in det direkt från ditt urklipp;
-- Genom att importera den från en `.PSBT`-fil;
+- Genom att importera den från en fil med namnet `.PSBT`;
 - Genom att skanna den via en QR-kod.
 
 
 ![watch-only](assets/notext/24.webp)
 
 
-När den signerade transaktionen är inlagd i den grå ramen kan du klicka på Green `BROADCAST TRANSACTION`-knappen för att sända den på Bitcoin-nätverket. Sentinel kommer att ge dig sin txid.
+När den signerade transaktionen är inlagd i den grå ramen kan du klicka på Green `BROADCAST TRANSACTION`-knappen för att sända den i Bitcoin-nätverket. Sentinel kommer att ge dig sin txid.
 
 
 ![watch-only](assets/notext/25.webp)

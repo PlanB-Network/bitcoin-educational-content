@@ -1,0 +1,9 @@
+question: Vad måste användarna lagra själva för att verkligen äga sina bitcoins?
+answer: Privata nycklar
+wrong_answers:
+  - Mottagningsadresser
+  - Lösenord för Exchange-plattformen
+  - Blockchain block
+explanation: |
+  Om du inte har dina privata nycklar äger du inte dina bitcoins på riktigt.
+reviewed: false

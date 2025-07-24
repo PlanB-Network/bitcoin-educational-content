@@ -1,0 +1,9 @@
+question: Wat is het doel van SIGHASH_SINGLE?
+answer: Om één ingang en de bijbehorende uitgang te bestrijken
+wrong_answers:
+  - Om alle in- en uitgangen te dekken
+  - Alleen invoer dekken
+  - Voor alle uitgangen behalve één
+explanation: |
+  SIGHASH_SINGLE heeft betrekking op een enkele invoer en een enkele uitvoer die overeenkomt met de index van de ondertekende invoer, en laat de rest aanpasbaar.
+reviewed: false

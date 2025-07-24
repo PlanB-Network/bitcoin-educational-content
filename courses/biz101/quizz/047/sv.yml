@@ -1,0 +1,9 @@
+question: Varför är knapphet en viktig egenskap hos en bra valuta?
+answer: Det bevarar värdet
+wrong_answers:
+  - Det garanterar att endast fysiska tillgångar kan användas som valuta
+  - Det säkerställer att valutan är allmänt tillgänglig för varje individ
+  - Det säkerställer att valutan alltid måste backas upp av en råvara som guld
+explanation: |
+  Knapphet förhindrar överdrivet skapande av valuta och upprätthåller därmed dess värde och köpkraft över tid.
+reviewed: false

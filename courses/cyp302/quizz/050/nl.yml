@@ -1,0 +1,9 @@
+question: Waarom zijn uitbreidingsvelden met een basis van 2 nuttig in cryptografie?
+answer: Hiermee kunnen binaire tekenreeksen veilig worden gemanipuleerd.
+wrong_answers:
+  - Ze vereenvoudigen berekeningen door het aantal bewerkingen te verminderen.
+  - Ze voorkomen rekenfouten door redundantie toe te voegen.
+  - Ze beperken het aantal mogelijkheden door het aantal Elements te verminderen.
+explanation: |
+  Uitbreidingsvelden met een basis van 2 zijn handig omdat hun Elements kan worden gezien als binaire strings, waardoor het gemakkelijker is om bewerkingen uit te voeren op digitale gegevens op binair niveau in systemen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel outil moderne remplace arp sur les distributions Linux récentes ?
+answer: ip neigh
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - route
+explanation: |
+  ip neigh, issu de la suite iproute2, remplace arp pour gérer les associations IP/MAC sur Linux moderne.
+reviewed: false

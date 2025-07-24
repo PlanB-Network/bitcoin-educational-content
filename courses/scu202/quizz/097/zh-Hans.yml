@@ -1,0 +1,9 @@
+question: 哪种服务可取代 ISP DNS 来保护网络请求的机密性？
+answer: Quad9
+wrong_answers:
+  - 谷歌 DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 是一个注重隐私的公共 DNS 服务器，它能过滤恶意域名，并且不保留任何记录。
+reviewed: false

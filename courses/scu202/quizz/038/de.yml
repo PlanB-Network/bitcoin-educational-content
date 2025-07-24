@@ -1,0 +1,9 @@
+question: Welcher Befehl kann verwendet werden, um alle Pakete einer Ubuntu-Distribution zu aktualisieren?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  Unter Ubuntu (und Debian) synchronisiert der Befehl "sudo apt update && sudo apt upgrade" die Paketliste und installiert alle verfügbaren Updates.
+reviewed: false

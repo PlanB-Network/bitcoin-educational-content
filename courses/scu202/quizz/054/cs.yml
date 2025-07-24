@@ -1,0 +1,9 @@
+question: Jaké informace lze obvykle nalézt v metadatech EXIF fotografie?
+answer: Datum, čas, poloha GPS, model zařízení, autor
+wrong_answers:
+  - Zdrojový kód firmwaru fotoaparátu
+  - Heslo Wi-Fi fotografa
+  - Nejnovější výsledky antivirového programu
+explanation: |
+  Metadata EXIF fotografie často obsahují podrobné kontextové informace o snímku a fotoaparátu.
+reviewed: false

@@ -1,0 +1,19 @@
+id: f55903d4-aece-4d59-b193-2eb073e59b67
+project_id: db154f4a-c59d-4afa-a0fb-bfd8715e2720
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+level: beginner
+category: communication
+tags:
+  - privacy
+  - network-security
+  - guides
+
+#proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-11
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

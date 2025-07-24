@@ -1,0 +1,9 @@
+question: Mis on Linuxi distributsioon?
+answer: Täielik operatsioonisüsteem, mis on ehitatud Linuxi tuuma ümber
+wrong_answers:
+  - Paketihaldur
+  - Linuxi töölauakeskkond
+  - Automatiseeritud paigaldusskript Linuxi operatsioonisüsteemi jaoks
+explanation: |
+  Linuxi distributsioon ühendab kerneli, süsteemitööriistad, tarkvara, alglaaduri ja paketihalduse, et pakkuda kasutusvalmis süsteemi.
+reviewed: false

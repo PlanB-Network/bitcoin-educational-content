@@ -629,22 +629,6 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Rezervna postavka
-
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-
-Zaštita vaših ličnih fajlova je takođe ključna tačka. Ovaj vodič vam pokazuje kako da implementirate efikasnu strategiju bekapa koristeći Proton Drive. Otkrijte kako da koristite ovo sigurno cloud rešenje za primenu 3-2-1 metode: tri kopije vaših podataka na dva različita medija, sa jednom kopijom van lokacije. Ovo obezbeđuje dostupnost i sigurnost vaših osetljivih fajlova:
-
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-A da biste osigurali svoje fajlove pohranjene na prenosivim medijima kao što su USB drajv ili eksterni Hard drajv, takođe vam pokazujem kako lako enkriptovati i dekriptovati ove medije koristeći VeraCrypt:
-
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Promena pregledača i VPN-a
 
 
@@ -665,6 +649,22 @@ Takođe, naučite kako da koristite Tor Browser, pregledač posebno dizajniran d
 
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Rezervna postavka
+
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+
+Zaštita vaših ličnih fajlova je takođe ključna tačka. Ovaj vodič vam pokazuje kako da implementirate efikasnu strategiju bekapa koristeći Proton Drive. Otkrijte kako da koristite ovo sigurno cloud rešenje za primenu 3-2-1 metode: tri kopije vaših podataka na dva različita medija, sa jednom kopijom van lokacije. Ovo obezbeđuje dostupnost i sigurnost vaših osetljivih fajlova:
+
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+A da biste osigurali svoje fajlove pohranjene na prenosivim medijima kao što su USB drajv ili eksterni Hard drajv, takođe vam pokazujem kako lako enkriptovati i dekriptovati ove medije koristeći VeraCrypt:
+
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Idi dalje
 

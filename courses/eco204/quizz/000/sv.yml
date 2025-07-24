@@ -1,0 +1,11 @@
+question: Vad är det inneboende sambandet mellan monetär expansion och inflation enligt Milton Friedman?
+answer: Inflation är alltid och överallt ett monetärt fenomen.
+wrong_answers:
+  - Inflation är alltid och överallt ett fiskalt fenomen.
+  - Inflation är alltid och överallt en politisk företeelse.
+  - Inflation är alltid och överallt en social företeelse.
+explanation: |
+  Milton Friedman, en välkänd ekonom, har sagt att inflation
+  alltid och överallt är ett monetärt fenomen. Detta uttalande belyser det inneboende
+  mellan monetär expansion och inflation.
+reviewed: false

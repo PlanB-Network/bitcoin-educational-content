@@ -1,0 +1,9 @@
+question: Vad hette den första ansökan som tillät enkel användning av Bitcoin på mobila enheter som skapades i april 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Sekretess Shark
+explanation: |
+  Den [marknadsfördes](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) på forumet av någon som heter Komodo den 30 april 2010.
+reviewed: true

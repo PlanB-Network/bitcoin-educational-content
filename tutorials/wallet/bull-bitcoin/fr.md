@@ -1,14 +1,11 @@
 ---
-name: Wallet Bull Bitcoin
-description: Comment utiliser le wallet Bull Bitcoin
+name: Bull Bitcoin Wallet
+description: Découvrez comment utiliser le wallet Bull Bitcoin
 ---
+
 ![cover](assets/cover.webp)
 
 Ce guide vous accompagne dans l’installation, la configuration, et l’utilisation de Bull Bitcoin Mobile. Vous apprendrez à recevoir et envoyer des fonds sur les trois réseaux onchain, Liquid et Lightning et à transférer vos Bitcoin d’un réseau à l’autre. Des annexes fournissent les ressources et contacts, apportent du contexte, et expliquent succinctement les concepts techniques.
-
-
-[TOC]
-
 
 ## Introduction
 
@@ -67,7 +64,7 @@ Avant de commencer à utiliser **Bull Bitcoin Mobile**, assurez-vous de disposer
 
  A l'ouverture, vous êtes donc invité à importer une phrase de récupération existante, ou à créer un nouveau wallet :
  
-![image](assets/fr/2.webp)
+![image](assets/fr/02.webp)
 
 ### 3.2 Phrase de récupération :
 
@@ -91,7 +88,7 @@ Sinon, cliquez sur “**Create New Wallet**”
 * Configurez un **code PIN** robuste pour protéger l’accès à l’application.
 * Cette étape est facultative mais fortement recommandée pour empêcher un accès non autorisé.
 
-![image](assets/fr/3.webp)
+![image](assets/fr/03.webp)
   
 ### 3.4 Connexion à un nœud personnel (optionnel):
 
@@ -113,15 +110,15 @@ L’application génère automatiquement des adresses ou factures selon le rése
 Sur l’écran d’accueil, vous pouvez :
 * soit sélectionner le **Secure Bitcoin Wallet** puis cliquer sur “**Receive”** :
 
-![image](assets/fr/4.webp)
+![image](assets/fr/04.webp)
 
 * soit cliquer sur “**Receive”**, et ensuite choisir le réseau **Bitcoin** :
 
-![image](assets/fr/5.webp)
+![image](assets/fr/05.webp)
 
 #### 4.1.1. Option "Copy or scan address only" désactivée (par défaut)
 
-![image](assets/fr/6.webp)
+![image](assets/fr/06.webp)
 
 - Ceci donne accès à des paramètres avancés, optionnels. Vous pouvez préciser :
 	- Un **montant** en BTC, en sats ou en fiat.
@@ -134,7 +131,7 @@ Sur l’écran d’accueil, vous pouvez :
 
 #### 4.1.2. Option "Copy or scan address only" activée
 
-![image](assets/fr/7.webp)
+![image](assets/fr/07.webp)
 
 - Avec l’option **"Copy or scan address only"** activée, l’application génère une adresse Bitcoin simple au format SegWit (bech32).
 
@@ -157,11 +154,11 @@ Sur l’écran d’accueil, vous pouvez :
 Sur l’écran d’accueil, vous pouvez :
 * soit sélectionner le **Instant payments Wallet** puis cliquer sur **"Receive”** puis **"Liquid"** :
 
-![image](assets/fr/8.webp)
+![image](assets/fr/08.webp)
 
 * soit cliquer sur “**Receive”**, et ensuite choisir le réseau **Liquid** :
 
-![image](assets/fr/9.webp)
+![image](assets/fr/09.webp)
   
 Une fois que vous êtes sur l'écran **"Receive"**, copier une adresse Liquid :
 

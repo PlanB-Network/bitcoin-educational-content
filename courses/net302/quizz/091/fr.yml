@@ -1,0 +1,9 @@
+question: Quelle commande permet de scanner les ports ouverts d’un hôte et d’identifier les services accessibles ?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - ip neigh
+explanation: |
+  nmap détecte les ports ouverts, les services exposés et parfois le type de système d'exploitation à distance.
+reviewed: false

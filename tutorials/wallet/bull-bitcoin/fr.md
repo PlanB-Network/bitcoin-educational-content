@@ -13,7 +13,7 @@ Ce guide vous accompagne dans l’installation, la configuration, et l’utilisa
 
 ### Contexte du développement
 
-Le wallet répond à un défi majeur : les frais du réseau Bitcoin sont inadaptés aux petits paiements, ou à l’ouverture de petits canaux Lightning auto-hébergés. Le wallet Bull Bitcoin Mobile propose une solution self-custodial tout en un reposant sur les 3 réseaux majeurs de Bitcoin :
+Le wallet répond à un défi majeur : les frais du réseau Bitcoin sont inadaptés aux petits paiements, ou à l’ouverture de petits canaux Lightning auto-hébergés. Le wallet Bull Bitcoin Mobile propose une solution self-custodial tout en se reposant sur les 3 réseaux majeurs de Bitcoin :
 
 * **Réseau Bitcoin (onchain)** : Idéal pour la conservation à moyen ou long terme et les transactions de montants élevés, où les frais sont proportionnellement négligeables.
 * **Réseau Liquid** : Conçu pour des transactions rapides (~2 minutes), plus confidentielles (montants masqués), et à faible coût, parfait pour accumuler ou protéger sa vie privée.

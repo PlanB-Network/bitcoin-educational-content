@@ -180,7 +180,7 @@ Sur l’écran d’accueil, vous pouvez :
 
 #### 4.3.1. Fonctionnement, limites et avantages
 
-- **Mécanisme** : Les fonds reçus via Lightning sont stockés sur le réseau **Liquid** (dans le Instant Payments Wallet) grâce à un swap automatique via **Boltz**.
+- **Mécanisme** : Bull Bitcoin Wallet est un portefeuille qui permet d'effectuer et de recevoir des paiements via Lightning. Les fonds reçus via Lightning sont stockés sur le réseau **Liquid** (dans le Instant Payments Wallet) grâce à un swap automatique via **Boltz**. Ce qui permet d'avoir les capacités d'interagir avec Lightning sans avoir à gérer de canaux de liquidités, tout en restant en self-custody.
 
 - **Limites :**
 	- **Un montant minimal** de 100 satoshis (au 19/07/2025) lorsque vous générez la facture.

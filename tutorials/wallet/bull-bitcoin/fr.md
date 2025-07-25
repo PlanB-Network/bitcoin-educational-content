@@ -22,7 +22,6 @@ Le wallet répond à un défi majeur : les frais du réseau Bitcoin sont inadapt
 Ainsi avec Bull Bitcoin Mobile, vous pouvez par exemple accumuler de petits montants sur les portefeuilles **Liquid** ou **Lightning** puis, une fois un montant significatif atteint, vous pouvez :
 
 * Transférer vers le réseau onchain pour une conservation sécurisée à moyen ou long terme, en ayant amélioré la confidentialité grâce à Liquid et/ou Lightning en amont, et avec des frais onchain pour une seule transaction
-* Ouvrir un canal Lightning auto-géré sur un wallet compatible, rendant les frais d'ouverture de canal ou de gestion de liquidité négligeables par rapport au montant transféré.
 
 ### Évolution continue
 

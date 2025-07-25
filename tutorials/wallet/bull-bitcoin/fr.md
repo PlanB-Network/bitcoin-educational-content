@@ -58,7 +58,7 @@ Avant de commencer à utiliser **Bull Bitcoin Mobile**, assurez-vous de disposer
 
 L’application utilise une **phrase de récupération** (12 mots) unique pour les deux portefeuilles :
  - **‘Secure Bitcoin’ Wallet** : Pour les transactions sur le réseau Bitcoin (onchain)
- - **‘Instant Payments’ Wallet** : Pour les transactions sur le réseau Liquid et Lightning
+ - **‘Instant Payments’ Wallet** : Pour les transactions instantanées sur les réseaux Liquid et Lightning
 
  A l'ouverture, vous êtes donc invité à importer une phrase de récupération existante, ou à créer un nouveau wallet :
  

@@ -1,6 +1,6 @@
 ---
-name: 
-description: 
+name: SAFU Ninja
+description: Sauvegarder sa seed avec la méthode SAFU Ninja
 ---
 
 ![cover](assets/cover.webp)
@@ -151,15 +151,15 @@ Même bien stockée, votre sauvegarde nécessite un **contrôle régulier** :
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### A.2 Comprendre la Passphrase BIP39
 
-https://planb.network/fr/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ### A.3 Les rouages des portefeuilles Bitcoin
 
-https://planb.network/courses/les-rouages-des-portefeuilles-bitcoin-46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### A.4 Classement de la méthode Ninja SAFU

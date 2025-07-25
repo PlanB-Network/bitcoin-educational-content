@@ -35,7 +35,6 @@ Le wallet évolue constamment, donc ne soyez pas surpris si vous constatez des �
 Avant de commencer à utiliser **Bull Bitcoin Mobile**, assurez-vous de disposer des éléments suivants :
 
 * **Smartphone compatible** : Un appareil **iOS** (iPhone ou iPad) ou **Android**
-  Nota : au 22/07 la version pour iOS est en beta testing
 * **Connexion internet**
 * **Support sécurisé pour la sauvegarde** : Notez votre **phrase de récupération** (12 mots) sur un papier ou du métal et stockez-la dans un endroit sûr.
 * **Connaissances de base** : Une compréhension minimale des concepts Bitcoin (adresses, transactions, frais) est utile, bien que ce tutoriel explique chaque étape pour les débutants.

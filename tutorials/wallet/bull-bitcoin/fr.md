@@ -27,7 +27,7 @@ Ainsi avec Bull Bitcoin Mobile, vous pouvez par exemple accumuler de petits mont
 
 Le wallet évolue constamment, donc ne soyez pas surpris si vous constatez des écarts entre ce tutoriel et votre application à jour.
 - Par exemple, au 19/07/2025, les boutons **"Buy / Sell / Pay"** sont visibles mais grisés dans l’application, car ces options, disponibles sur l'exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), seront bientôt intégrées pour une expérience unifiée. Leur utilisation restera entièrement optionnelle. Beaucoup d’autres évolutions sont en cours ou planifiées : gestion multi wallets, passphrase, compatibilité avec les hardware wallets...
-- Vous pouvez consulter sur le [GitHub de BullBitcoin](https://github.com/orgs/SatoshiPortal/projects/49) les sujets en cours et les prochaines évolutions.
+- Vous pouvez consulter sur le [GitHub de BullBitcoin](https://github.com/orgs/SatoshiPortal/projects/49) les sujets en cours et les prochaines évolutions. Le projet étant 100% open-source et "built in public", vous pouvez également faire remonter vos suggestions et éventuels bugs rencontrés.
 
 
 ## 1. Prérequis

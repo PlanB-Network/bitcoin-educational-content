@@ -529,7 +529,9 @@ Bull Bitcoin se distingue par son engagement envers les principes cypherpunk et 
 
 * **Achat de Bitcoin** : Les utilisateurs peuvent acheter du Bitcoin qui est envoyé directement à leur portefeuille non dépositaire, garantissant un contrôle total de leurs fonds.
 
-* **Achat de Bitcoin programmé** : Bull Bitcoin propose un service d'achat récurrent automatisé (DCA - Dollar Cost Averaging) à intervalles réguliers, avec transfert direct des Bitcoins vers un portefeuille contrôlé par l'utilisateur, réduisant l'impact de la volatilité des prix.
+* **Achat de Bitcoin programmé** : Bull Bitcoin propose un service d'achat récurrent automatisé (DCA - Dollar Cost Averaging) à intervalles réguliers, qui puise dans votre solde disponible, avec transfert direct des Bitcoins vers un portefeuille contrôlé par l'utilisateur, réduisant l'impact de la volatilité des prix.
+Il est à noter qu'une option appelée "AutoBuy" permet de convertir vos fiats dès lors qu'ils touchent votre solde Bull Bitcoin et d'envoyer vos Bitcoins sur votre propre portefeuille. Cette option peut elle aussi être combinée à un virement bancaire récurrent programmé chez votre banque pour réaliser un DCA. Cette option permet d'automatiser votre accumulation de Bitcoin sans jamais avoir besoin d'ouvrir l'application.
+
 
 * **Achat de Bitcoin à un prix fixé ‘Buy Limit’** : Permet d'acheter du Bitcoin à un prix spécifié à l’avance par l’utilisateur, qui est automatiquement exécuté lorsque le prix de l'indice Bull Bitcoin atteint ou tombe en dessous de la limite fixée.
 

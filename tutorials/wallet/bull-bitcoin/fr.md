@@ -85,7 +85,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mne
 
 * Accéder aux paramètres puis cliquez sur **PIN Code**.
 * Configurez un **code PIN** robuste pour protéger l’accès à l’application.
-* Cette étape est facultative mais fortement recommandée pour empêcher un accès non autorisé.
+* Cette étape est facultative mais fortement recommandée pour empêcher quiconque ayant l'accès à votre téléphone de pouvoir accéder à votre wallet.
 
 ![image](assets/fr/03.webp)
   

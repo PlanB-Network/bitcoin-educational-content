@@ -1,7 +1,7 @@
 question: Qu'est-ce que la Déclaration de l'Indépendance du Cyberespace ?
 answer: Un texte affirmant que le cyberespace est un domaine distinct de la sphère physique et ne devrait pas être soumis aux mêmes lois.
 wrong_answers:
-  - Une déclaration affirmant l'indépendance du Bitcoin des systèmes financiers traditionnels.
+  - Une déclaration affirmant l'indépendance de Bitcoin des systèmes financiers traditionnels.
   - Un texte affirmant que le cyberespace devrait être contrôlé par la réglementation gouvernementale.
   - Une déclaration qui garantit l'indépendance du mouvement pirate de toute réglementation.
 explanation: |

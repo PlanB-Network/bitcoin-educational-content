@@ -42,7 +42,8 @@ Avant de commencer à utiliser **Bull Bitcoin Mobile**, assurez-vous de disposer
 ## 2. Installation
 
 - **Téléchargez l’application** :
-	- **[Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** (Android)
+	- **[Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Téléchargez depuis le magasin d'application pour les appareils Android
+	- **[GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Téléchargez directement l'APK pour les appareils Android
 	- **App Store** (iOS) : au 22/07 la version iOS est en beta testing
 	- Vérifiez le nom du développeur (Bull Bitcoin) pour éviter les applications frauduleuses.
 	- Assurez-vous que la version téléchargée correspond à la dernière version stable indiquée sur GitHub.

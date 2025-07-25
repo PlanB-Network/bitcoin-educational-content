@@ -537,7 +537,7 @@ Bull Bitcoin se distingue par son engagement envers les principes cypherpunk et 
 
 * **Paiements de tiers** : Bull Bitcoin permet à l’utilisateur d'envoyer de l'argent fiat à des comptes bancaires à partir de ses Bitcoin, de façon entièrement transparente pour le destinataire.
 
-* **Bull Bitcoin Prime** : Bull Bitcoin Prime est un service premium destiné aux clients à haut volume et aux entreprises, offrant des solutions personnalisées pour l'intégration de Bitcoin. Cela inclut l'accès à des frais réduits, un gestionnaire de compte dédié, et des services sur mesure pour les entreprises. Ce service s'adresse aux institutions, aux traders professionnels et aux entreprises cherchant une expertise approfondie et un traitement prioritaire.
+* **Bull Bitcoin Prime** : Bull Bitcoin Prime est un service premium destiné aux clients à haut patrimoine et aux entreprises, offrant des solutions personnalisées et un accompagnement premium. Cela inclut l'accès à des frais réduits, un gestionnaire de compte dédié, et des services sur mesure pour les entreprises. Ce service s'adresse aux institutions, aux traders professionnels et aux entreprises cherchant une expertise approfondie et un traitement prioritaire.
 
 * **Portefeuille mobile** : Bull Bitcoin propose un portefeuille mobile open-source et self-custodial, disponible sur Android et bientôt sur iOS, qui prend en charge les transactions onchain, Liquid et Lightning Network.
 

@@ -545,6 +545,6 @@ Bull Bitcoin se distingue par son engagement envers les principes cypherpunk et 
 
 #### Conformité et sécurité
 
-* **Réglementation** : Enregistrée auprès de FINTRAC (Canada) et de l'AMF (France), Bull Bitcoin respecte les exigences KYC/AML pour les transactions importantes.
+* **Réglementation** : Enregistrée auprès de FINTRAC (Canada) et de l'AMF (France), Bull Bitcoin respecte les exigences KYC/AML.
 
 * **Sécurité** : Utilisation de portefeuilles sécurisés comme Cyphernode (open-source) et recommandations de stockage hors ligne. Les données personnelles sont protégées avec des partenaires comme Incode Technologies (conforme SOC 2 Type II).

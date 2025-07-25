@@ -79,7 +79,7 @@ Sinon, cliquez sur “**Create New Wallet**” :
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 3.3 Sécurisation de l’accès :
 
@@ -125,7 +125,11 @@ Sur l’écran d’accueil, vous pouvez :
 	- Une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code.
 	* L’activation de **Payjoin** (voir Annexe 3 pour détails), qui améliore la confidentialité en combinant les entrées de l’expéditeur et du destinataire.
 
-- **Exemple d’URI** automatiquement généré : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q`
+- **Exemple d’URI** automatiquement généré :
+
+```
+bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q
+```
 
 - **Utilisation** : Copiez l’URI pour le partager à l'expéditeur, ou laissez-le scannez le QR code.
 
@@ -135,7 +139,13 @@ Sur l’écran d’accueil, vous pouvez :
 
 - Avec l’option **"Copy or scan address only"** activée, l’application génère une adresse Bitcoin simple au format SegWit (bech32).
 
-- Exemple : `bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq`. Même si vous saisissez un montant ou une note, ils ne seront pas intégrés au QR Code ou dans la copie de l'adresse
+- Exemple :
+
+```
+bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
+```
+
+Même si vous saisissez un montant ou une note, ils ne seront pas intégrés au QR Code ou dans la copie de l'adresse
 
 - **Utilisation** : Copiez l’adresse pour la partager à l'expéditeur, ou laissez-le scannez le QR code.
 
@@ -161,9 +171,17 @@ Sur l’écran d’accueil, vous pouvez :
   
 Une fois que vous êtes sur l'écran **"Receive"**, copier une adresse Liquid :
 
-- Sans montant ni note. Exemple : `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz`
+- Sans montant ni note. Exemple :
 
-* Ou en précisant un **montant** (en BTC, en sats ou en fiat) et/ou une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code. Exemple : `liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d`
+```
+lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
+```
+
+* Ou en précisant un **montant** (en BTC, en sats ou en fiat) et/ou une **note personnelle** qui sera intégrée dans la copie de l'URI / dans le QR Code. Exemple :
+
+```
+liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
+```
 
 **Utilisation** : Copiez l’adresse/URI pour la partager à l'expéditeur, ou laissez-le scannez le QR code.
 
@@ -223,7 +241,11 @@ vous accédez à l'écran d'envoi :
 
 **Action** : Entrez ou scannez une adresse Bitcoin onchain
 
-* Si le montant n'a pas été défini, par exemple : `bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq`
+* Si le montant n'a pas été défini, par exemple :
+
+```
+bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
+```
 
 - Alors vous pourrez choisir sur l'écran d'envoi : 
 	* Le montant en BTC, en sat ou en fiat. Montant minimal : 546 satoshis au 22/07/2025.
@@ -231,8 +253,14 @@ vous accédez à l'écran d'envoi :
   
 ![image](assets/fr/14.webp)
 
-* Si le montant a déjà été défini, par exemple : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
-  alors vous arrivez directement à l'écran de confirmation ci-après.  
+* Si le montant a déjà été défini, par exemple :
+
+```
+bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
+```
+
+Alors, vous arrivez directement à l'écran de confirmation ci-après.  
+
 #### 5.2.2 Ecran de confirmation
 
 Prenez bien le temps de vérifier tous les paramètres, particulièrement le montant, l'adresse de destination et les frais.
@@ -250,8 +278,13 @@ Puis vous pouvez ajuster des paramètres :
 
 ![image](assets/fr/16.webp)
 
-- **Envoi avec Payjoin** : Si la fonction a été activée par le destinataire qui a fourni l'URI, par exemple : `bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q`
-  alors Bull Bitcoin Mobile va configurer l'envoi en combinant en entrée vos UTXO avec des UTXO du destinataire, améliorant la confidentialité (voir Annexe 3 pour détails).
+- **Envoi avec Payjoin** : Si la fonction a été activée par le destinataire qui a fourni l'URI, par exemple :
+
+```
+bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
+```
+
+Alors, Bull Bitcoin Mobile va configurer l'envoi en combinant en entrée vos UTXO avec des UTXO du destinataire, améliorant la confidentialité (voir Annexe 3 pour détails).
 
 ### 5.3. Envoi sur Liquid
 
@@ -261,15 +294,25 @@ Le réseau **Liquid** permet des transactions rapides (~2 minutes grâce à un b
 
  **Action** : Entrez ou scannez une adresse Liquid
 
-* Si le montant n'a pas été défini, par exemple : `lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz`
-  alors vous pourrez choisir sur l'écran d'envoi : 
-	* Le montant en BTC, en sat ou en fiat. Pas de minimum, 1 satoshi possible
-	* Une note optionnelle pour identifier la transaction. Uniquement visible par vous, dans les détails de la transaction. 
+* Si le montant n'a pas été défini, par exemple :
+
+```
+lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
+```
+
+Alors, vous pourrez choisir sur l'écran d'envoi : 
+- Le montant en BTC, en sat ou en fiat. Pas de minimum, 1 satoshi possible ;
+- Une note optionnelle pour identifier la transaction. Uniquement visible par vous, dans les détails de la transaction. 
   
 ![image](assets/fr/17.webp)
 
-* Si le montant a déjà été défini, par exemple : `liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d`
-  alors vous arrivez directement à l'écran de confirmation ci-après.  
+* Si le montant a déjà été défini, par exemple :
+
+```
+liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
+```
+
+Alors, vous arrivez directement à l'écran de confirmation ci-après.  
 
 #### 5.3.2 Ecran de confirmation
 
@@ -296,9 +339,15 @@ Le réseau **Lightning** permet des paiements instantanés à faible coût pour 
 ![image](assets/fr/19.webp)
 
 * Si vous scannez une facture Lightning qui contient un montant défini
-  Exemple : `lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72`
-  alors vous arrivez directement à l'écran de confirmation ci-après. 
-  Nota : le montant doit être supérieur à 21 sats au 23/07/2025
+  Exemple :
+
+```
+lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72
+```
+
+Alors, vous arrivez directement à l'écran de confirmation ci-après. 
+
+Nota : le montant doit être supérieur à 21 sats au 23/07/2025
 
 #### 5.4.2 Fonctionnement, limites et avantages
 

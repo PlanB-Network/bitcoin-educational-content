@@ -539,7 +539,7 @@ Bull Bitcoin se distingue par son engagement envers les principes cypherpunk et 
 
 * **Bull Bitcoin Prime** : Bull Bitcoin Prime est un service premium destiné aux clients à haut patrimoine et aux entreprises, offrant des solutions personnalisées et un accompagnement premium. Cela inclut l'accès à des frais réduits, un gestionnaire de compte dédié, et des services sur mesure pour les entreprises. Ce service s'adresse aux institutions, aux traders professionnels et aux entreprises cherchant une expertise approfondie et un traitement prioritaire.
 
-* **Portefeuille mobile** : Bull Bitcoin propose un portefeuille mobile open-source et self-custodial, disponible sur Android et bientôt sur iOS, qui prend en charge les transactions onchain, Liquid et Lightning Network.
+* **Portefeuille mobile** : Bull Bitcoin propose un portefeuille mobile open-source et self-custodial, disponible sur Android et iOS, qui prend en charge les transactions onchain, Liquid et Lightning Network.
 
 * **Support éducatif** : Guides gratuits et accompagnement personnalisé pour aider les utilisateurs à créer, sécuriser et gérer leurs portefeuilles Bitcoin, renforçant l'autonomie financière.
 

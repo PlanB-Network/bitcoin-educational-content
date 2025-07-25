@@ -533,7 +533,7 @@ Bull Bitcoin se distingue par son engagement envers les principes cypherpunk et 
 Il est à noter qu'une option appelée "AutoBuy" permet de convertir vos fiats dès lors qu'ils touchent votre solde Bull Bitcoin et d'envoyer vos Bitcoins sur votre propre portefeuille. Cette option peut elle aussi être combinée à un virement bancaire récurrent programmé chez votre banque pour réaliser un DCA. Cette option permet d'automatiser votre accumulation de Bitcoin sans jamais avoir besoin d'ouvrir l'application.
 
 
-* **Achat de Bitcoin à un prix fixé ‘Buy Limit’** : Permet d'acheter du Bitcoin à un prix spécifié à l’avance par l’utilisateur, qui est automatiquement exécuté lorsque le prix de l'indice Bull Bitcoin atteint ou tombe en dessous de la limite fixée.
+* **Achat de Bitcoin à un prix fixé ‘Limit Order’** : Permet d'acheter du Bitcoin à un prix spécifié à l’avance par l’utilisateur, qui est automatiquement exécuté lorsque le prix de l'indice Bull Bitcoin atteint ou tombe en dessous de la limite fixée.
 
 * **Vente de Bitcoin** : Les utilisateurs peuvent vendre leurs Bitcoins et recevoir les fonds en devise fiat directement sur leur compte bancaire via virement bancaire ou SEPA.
 

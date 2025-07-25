@@ -428,19 +428,10 @@ La page "Settings" est accessible directement depuis la page d'accueil de l'appl
 * **Accès au Github** : Lien vers le [dépôt Github de Bull Bitcoin](https://github.com/SatoshiPortal) pour consulter le code open-source ou signaler des problèmes.
  
 
-
-
 ## ANNEXES
 
 ### A1. Explication de Payjoin (P2EP)
 
-<<<<<<< HEAD
-# ANNEXES
-
-## A1. Explication de Payjoin (P2EP)
-
-=======
->>>>>>> a0d694ed28884cef3faa638a2974687ea29c9b3b
 ![image](assets/fr/25.webp)
 
 **Définition** : 
@@ -453,10 +444,15 @@ La page "Settings" est accessible directement depuis la page d'accueil de l'appl
 
 **Utilisation dans Bull Bitcoin Mobile**
 - **Réception** (fourniture d’une adresse) : Payjoin est activé par défaut. 
-- **Envoi** : Le wallet détecte automatiquement un URI Payjoin (ex. : `bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...`) et configure la transaction en conséquence.
+- **Envoi** : Le wallet détecte automatiquement un URI Payjoin et configure la transaction en conséquence, par exemple :
+
+```
+bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...
+```
+
  
 **Avantages**
-- **Confidentialité renforcée** : Payjoin invalide l'hypothèse qui suppose que toutes les entrées d’une transaction appartiennent à une seule entité. Avec Payjoin, les entrées proviennent de l’expéditeur et du destinataire, brisant cette assumption.
+- **Confidentialité renforcée** : Payjoin invalide l'hypothèse qui suppose que toutes les entrées d’une transaction appartiennent à une seule entité. Avec Payjoin, les entrées proviennent de l’expéditeur et du destinataire, brisant cette assomption.
 - **Masquage du montant** : Le montant réel échangé n’apparaît pas directement dans les sorties. Il est calculé comme la différence entre l’UTXO du destinataire en entrée et en sortie, rendant l’analyse trompeuse.
 
 **Limites**
@@ -579,6 +575,7 @@ Bull Bitcoin se distingue par son engagement envers les principes cypherpunk et 
 * **Achat de Bitcoin** : Les utilisateurs peuvent acheter du Bitcoin qui est envoyé directement à leur portefeuille non dépositaire, garantissant un contrôle total de leurs fonds.
 
 * **Achat de Bitcoin programmé** : Bull Bitcoin propose un service d'achat récurrent automatisé (DCA - Dollar Cost Averaging) à intervalles réguliers, qui puise dans votre solde disponible, avec transfert direct des Bitcoins vers un portefeuille contrôlé par l'utilisateur, réduisant l'impact de la volatilité des prix.
+
 Il est à noter qu'une option appelée "AutoBuy" permet de convertir vos fiats dès lors qu'ils touchent votre solde Bull Bitcoin et d'envoyer vos Bitcoins sur votre propre portefeuille. Cette option peut elle aussi être combinée à un virement bancaire récurrent programmé chez votre banque pour réaliser un DCA. Cette option permet d'automatiser votre accumulation de Bitcoin sans jamais avoir besoin d'ouvrir l'application.
 
 

@@ -503,7 +503,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Aperçu de l'entreprise
 
- **[Bull Bitcoin](https://www.bullbitcoin.com/fr)** , est une plateforme d'échange non dépositaire dédiée exclusivement au Bitcoin, fondée en 2013 à l'Ambassade Bitcoin de Montréal, Canada. Dirigée par Francis Pouliot, un pionnier reconnu dans l'écosystème Bitcoin, l'entreprise se positionne comme un acteur clé dans la promotion de la souveraineté financière et de l'autonomie des utilisateurs. Sa mission est de permettre aux individus de reprendre le contrôle de leur argent en utilisant Bitcoin comme outil de liberté et de paiement, tout en rejetant les monnaies fiat et les cryptomonnaies autres que Bitcoin.
+ **[Bull Bitcoin](https://www.bullbitcoin.com/fr)**, est la plus ancienne plateforme d'échange non dépositaire dédiée exclusivement au Bitcoin, fondée en 2013 à l'Ambassade Bitcoin de Montréal, Canada. Dirigée par Francis Pouliot, un pionnier reconnu dans l'écosystème Bitcoin, l'entreprise se positionne comme un acteur clé dans la promotion de la souveraineté financière et de l'autonomie des utilisateurs. Sa mission est de permettre aux individus de reprendre le contrôle de leur argent en utilisant Bitcoin comme outil de liberté et de paiement, tout en rejetant les monnaies fiat et les cryptomonnaies autres que Bitcoin.
  
 ![image](assets/fr/26.webp)
 

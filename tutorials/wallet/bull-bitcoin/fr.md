@@ -69,7 +69,7 @@ L’application utilise une **phrase de récupération** (12 mots) unique pour l
 Si vous souhaitez ré-utiliser un wallet existant, cliquez sur “**Recover Wallet**” et renseignez les 12 mots de votre phrase de récupération.
 
 Sinon, cliquez sur “**Create New Wallet**” :
-- Notez votre phrase de récupération avec le plus grand soin. Inscrivez-la sur du papier ou du métal et conservez-la dans un endroit sûr (coffre-fort, lieu hors ligne). Cette phrase est votre seule clé pour accéder à vos bitcoins.
+- Notez votre phrase de récupération avec le plus grand soin. Inscrivez-la sur du papier ou du métal et conservez-la dans un endroit sûr (coffre-fort, lieu hors ligne). Cette phrase est votre seul moyen pour accéder à vos bitcoins en cas de perte de votre appareil ou suppression de l'application.
 - Réciproquement, toute personne possédant cette phrase peut voler tous vos bitcoins. Ne la stockez jamais numériquement :
 	- Pas de capture d’écran
 	- Pas de sauvegarde dans le cloud, email ou messagerie

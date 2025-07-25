@@ -103,7 +103,7 @@ Pour plus de confidentialité, vous pouvez connecter l’application à votre pr
   - le réseau **Liquid** pour des transactions rapides et plus confidentielles,
   - le réseau **Lightning** pour des paiements instantanés de faibles montants.  
 
-L’application génère automatiquement des adresses ou factures selon le réseau choisi. Voici comment procéder pour chaque réseau.
+L’application génère automatiquement des adresses de reception ou factures Lightning selon le réseau choisi. Voici comment procéder pour chaque réseau.
 
 ### 4.1. Onchain (réseau Bitcoin)
 

@@ -42,7 +42,7 @@ En revanche, pour BIP-32 comme pour BIP-35, si la seed principale est compromise
 
 BIP-85 permet de créer plusieurs portefeuilles Bitcoin à partir d’une seule seed phrase principale, chacun avec sa propre seed phrase secondaire. Voici cinq cas d’usage pratiques pour organiser et sécuriser vos fonds Bitcoin. Chaque cas explique pourquoi utiliser BIP-85 est plus pratique que de gérer plusieurs comptes avec une seule seed phrase via BIP-32.
 
-### 2.1 Créer un portefeuille moins sécurisé
+### 2.1 Limiter le risque d'un portefeuille moins sécurisé
 
 - **Scénario** : Vous utilisez un portefeuille "hot wallet" (installé sur un appareil connecté à internet), pour des transactions quotidiennes.
 - **Solution BIP-85** : Vous créez une seed phrase secondaire dédiée à ce portefeuille.
@@ -54,7 +54,7 @@ BIP-85 permet de créer plusieurs portefeuilles Bitcoin à partir d’une seule 
 - **Solution BIP-85** : Vous créez une seed phrase secondaire dédiée et partagez uniquement celle-ci.
 - **Avantage par rapport à BIP-32** : Avec BIP-32, créer un compte pour un proche nécessite soit de partager votre seed phrase principale, risquant tous vos fonds et compliquant la gestion pour votre proche (gestion des chemins de dérivation), soit de créer une nouvelle seed phrase à sauvegarder en plus de votre seed phrase principale. 
 
-### 2.3 Gérer clairement des portefeuilles distincts
+### 2.3 Faciliter la gestion de portefeuilles distincts
 
 - **Scénario** : Vous séparez vos bitcoins pour différents objectifs (ex. : épargne à long terme, fonds non-KYC).
 - **Solution BIP-85** : Vous créez des seed phrases secondaires dédiées à chaque objectif.

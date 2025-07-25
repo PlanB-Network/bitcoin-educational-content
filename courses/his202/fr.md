@@ -18,7 +18,7 @@ Même si les gens connaissent parfois Silk Road et Mt. Gox, ils ont tendance à 
 
 Le récit se concentre sur la période qui s'étale du départ de Satoshi Nakamoto au printemps 2011 à la chute de Mt. Gox au cours de l'hiver 2013–2014. Cette période correspond à l'ère dite du « Far West de la finance » (original: "Wild West of finance"), qui est caractérisée par l'absence de règlementation due à l'unicité de l'objet novateur qu'est Bitcoin. La démonstration de faisabilité (*proof of concept*) de Bitcoin est faite, et il bénéficie d'une couverture médiatique croissante. Durant cette période, l'utilisation de Bitcoin s'étend à des gens qui ne sont pas en premier lieu intéressés par la cryptomonnaie. Les cas d'utilisation illégaux se multiplient, donnant à cette « phase de péché » (pour reprendre le terme [employé](https://theses.fr/2024EHES0127) par le sociologue français Maël Rolland) une saveur particulière.
 
-Le terme de Far West revient perpétuellement dans les dires des acteurs du secteur et des journalistes de la période. Dès novembre 2010, Gavin Andresen [désignait](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) l'ère qui s'ouvrait comme l'« époque du Far West de la monnaie libre » (original: "the Wild West days of open-source currency") et disait qu'il s'attendait « à ce que les gens soient victimes d'escroqueries, de contrefaçons, de pyramides de ponzi et de bulles de prix » (original: "expect people will get burned by scams, imitators, ponzi schemes and price bubbles"). Dans un article publié sur Reuters le 2 avril 2012, la journaliste Naomi O'Leary [écrivait](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) que « Bitcoin \[était\] devenu le Far West de la finance, avec une prolifération de sites web offrant des répliques vaguement réglementées de services familiers du secteur financier » (original: "Bitcoin has become the Wild West of finance, with a proliferation of websites offering loosely regulated replicas of the services familiar to those in the financial industry."). À partir de 2013, cette référence au Far West s'est répandue, se retrouvant dans la bouche d'Erik Voorhees et de [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), les deux représentants principaux de la société de change BitInstant, ainsi que dans celle de [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondateur de la plateforme Coinbase. Elle a également été reprise par les détracteurs de Bitcoin, à l'instar de Benjamin Lawsky, le surintendant du Département des services financiers de l'État de New York, qui, en août 2013, [qualifiait](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) les cryptomonnaies de « Far West virtuel pour les narcotrafiquants et autres criminels » (original: "a virtual Wild West for narcotraffickers and other criminals").
+Le terme de Far West revient perpétuellement dans les dires des acteurs du secteur et des journalistes de la période. Dès novembre 2010, Gavin Andresen [désignait](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) l'ère qui s'ouvrait comme l'« époque du Far West de la monnaie open-source » (original: "the Wild West days of open-source currency") et disait qu'il s'attendait « à ce que les gens soient victimes d'escroqueries, de contrefaçons, de pyramides de ponzi et de bulles de prix » (original: "expect people will get burned by scams, imitators, ponzi schemes and price bubbles"). Dans un article publié sur Reuters le 2 avril 2012, la journaliste Naomi O'Leary [écrivait](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) que « Bitcoin \[était\] devenu le Far West de la finance, avec une prolifération de sites web offrant des répliques vaguement réglementées de services familiers du secteur financier » (original: "Bitcoin has become the Wild West of finance, with a proliferation of websites offering loosely regulated replicas of the services familiar to those in the financial industry."). À partir de 2013, cette référence au Far West s'est répandue, se retrouvant dans la bouche d'Erik Voorhees et de [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), les deux représentants principaux de la société de change BitInstant, ainsi que dans celle de [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondateur de la plateforme Coinbase. Elle a également été reprise par les détracteurs de Bitcoin, à l'instar de Benjamin Lawsky, le surintendant du Département des services financiers de l'État de New York, qui, en août 2013, [qualifiait](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) les cryptomonnaies de « Far West virtuel pour les narcotrafiquants et autres criminels » (original: "a virtual Wild West for narcotraffickers and other criminals").
 
 Le Far West a une image forte dans l'imaginaire américain, et par extension dans tout l'Occident américanisé, notamment grâce au western, genre cinématographique très populaire au milieu du XXe siècle. Il représente un idéal d'indépendance, à la fois pour ses attributs positifs (la liberté) que négatifs (le danger). C'est le fondement original du « rêve américain » : pouvoir s'établir dans une contrée inconnue et entreprendre pour réussir à s'enrichir à partir de pas grand chose. C'est tout naturellement que Bitcoin a été comparé à cet espace de liberté, par son indépendance vis-à-vis du système politique en place : Bitcoin permettait le meilleur comme le moins bon. La comparaison a particulièrement inspiré Erik Voorhees qui, dans une entrevue de 2013, [soutenait](https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) Bitcoin était la nouvelle Frontière, l'intermédiaire entre la civilisation établie et les terres inexplorées :
 
@@ -540,7 +540,7 @@ En septembre 2011, un mouvement vient chambouler les choses : il s'agit d'*Occu
 
 Le mouvement doit se financer : les manifestants ont [besoin](https://web.archive.org/web/20111120054617/http://www.expanton.com/index.php/77-other/24-welcome) de nourriture, de vêtements de pluie, et de matériel pour que l'évènement puisse être diffusé en direct sur Internet. Le but est que les gens restent sur place aussi longtemps que possible. Toutefois, ce financement est difficile en raison du caractère radical de la contestation, certaines de ses actions étant illégales comme l'attestent les nombreuses arrestations qui ont lieu. Par conséquent, le mouvement est sensible à la censure financière, ce qui se manifeste par exemple lorsque le compte PayPal de \#FeedtheProtest, groupe d'information rendant compte des évènements, est [gelé](https://web.archive.org/web/20110928152351/http://feedtheprotest.com/node/219) sans préavis le 26 septembre.
 
-Ainsi, les multiples organisations au sein du mouvement décident d'accepter le bitcoin, qu'elles voient comme une monnaie numérique anonyme, qui a notamment été utilisée par WikiLeaks et qui a fait parler d'elle pendant l'été. L'assemblée générale des manifestants à New York [reçoit](https://web.archive.org/web/20111004195625/http://nycga.cc/donate/) des dons dès le 19 septembre, pour un total de 686 BTC soit plus de 3 000 $ au moment de la réception. \#FeedtheProtest [accepte](https://web.archive.org/web/20111004164350/http://feedtheprotest.com/node/223) aussi le bitcoin à partir du 27, en réaction à la fermeture de son compte. Les membres de la communauté de Bitcoin [s'intéressent](https://observer.com/2011/10/bitcoin-community-takes-an-interest-in-occupy-wall-street/) à Occupy Wall Street, car étant opposés au monde financier traditionnel. Ils [font](https://web.archive.org/web/20110929140153/http://btcbusiness.net/?q=node%2F22) donc du prosélytisme auprès du mouvement en faveur de l'utilisation de Bitcoin (quitte à se rendre sur place, comme [Matt Cropp](https://web.archive.org/web/20110929140153/http://btcbusiness.net/?q=node%2F22)) et réalisent également un certain nombre de dons.
+Ainsi, les multiples organisations au sein du mouvement décident d'accepter le bitcoin, qu'elles voient comme une monnaie numérique anonyme, qui a notamment été utilisée par WikiLeaks et qui a fait parler d'elle pendant l'été. L'assemblée générale des manifestants à New York [reçoit](https://web.archive.org/web/20111004195625/http://nycga.cc/donate/) des dons dès le 19 septembre, pour un total de 686 BTC soit plus de 3 000 $ au moment de la réception. \#FeedtheProtest [accepte](https://web.archive.org/web/20111004164350/http://feedtheprotest.com/node/223) aussi le bitcoin à partir du 27, en réaction à la fermeture de son compte. Les membres de la communauté de Bitcoin [s'intéressent](https://observer.com/2011/10/bitcoin-community-takes-an-interest-in-occupy-wall-street/) à Occupy Wall Street, car étant opposés au monde financier traditionnel. Ils font donc du prosélytisme auprès du mouvement en faveur de l'utilisation de Bitcoin (quitte à se rendre sur place, comme [Matt Cropp](https://web.archive.org/web/20110929140153/http://btcbusiness.net/?q=node/22)) et réalisent également un certain nombre de dons.
 
 img: https://x.com/pete_rizzo_/status/1726976400534733056
 
@@ -1196,11 +1196,305 @@ Cette « bataille » a démontré que le développement de Bitcoin n'était pa
 
 De plus, le débat sur l'évolution du protocole n'est pas la seule conséquence du caractère ouvert et libre de Bitcoin. Celui-ci permet aussi de mettre en œuvre des versions plus ou moins différentes de Bitcoin, en reprenant le code ou le concept, qu'on appellerait vite des « cryptomonnaies alternatives ». Ces cryptomonnaies alternatives, qui participent à leur manière à l'essor de Bitcoin, feront l'objet du prochain chapitre.
 
-## L'apparition des premières cryptomonnaies alternatives
+## L'apparition des cryptomonnaies alternatives
+
+La découverte de Satoshi Nakamoto a ouvert la voie à toutes les innovations, bonnes comme mauvaises. Elle a donné niassance à une multitude de cryptomonnaies alternatives, ou *altcoins*, qui ont été créées à partir d'avril 2011, et qui ont commencé à se multiplier à partir de l'automne 2011.
+
+Il a été utile à l'expérimentation : minage combiné, algorithmes de minage résistants aux processeurs graphiques, preuve d'autorité (?), preuve d'enjeu, jetons non fongibles.
+
+### Les noms de domaine : BitDNS et Namecoin
+
+https://news.bitcoin.com/en/the-first-altcoin-network-namecoin-marks-13-years-with-unwavering-hashpower/
+
+appamatto, idée le [14/11/2010](https://web.archive.org/web/20101118020511/http://veritas.maximilianeum.ch/bitcoin/irc/logs/2010/11/14#l1150) sur IRC (\#bitcoin-dev) :
+
+> J'ai eu l'idée d'un système DNS de type bitcoin. En gros, chaque bloc généré permet de définir un nouveau nom, et les transactions sont des rattachements de noms à des adresses IP.
+>
+> original: "I had an idea for a bitcoin-like DNS system. Basically, each generating block allows you to define a new name, and transactions are remappings of the names to ip addresses."
+
+sujet ouvert sur le forum le [15/11/2010](https://bitcointalk.org/index.php?topic=1790.msg22019#msg22019)
+
+> « \[I\]l semble possible de créer un clone de bitcoin (bitDNS) qui offre une solution pour l'attribution et le transfert distribués de noms sans autorité. »
+>
+> original: "\[I\]t seems possible to create a bitcoin clone (bitDNS) that provides a solution to distributed authority-free name allocation and transfer."
+
+triangle de Zooko : un identifiant ne peut réunir que deux de ces propriétés au maximum : Sécurisé (un nom ne doit correspondre qu’à un seul et unique élément) ; Décentralisé (les autorités centralisées ne doivent pas être nécessaires pour déterminer à quel nom correspond quel élément) ; Humainement compréhensible (le nom des éléments doit pouvoir avoir un sens et il doit être possible de le retenir). DNS est sécurisé et humainement compréhensible mais centralisé (ICANN) ; les liens Tor (`.onion`) sont sécurisés et décentralisés mais pas humainement compréhensibles ; les liens I2P pour le troisième ?
+
+https://www.namecoin.org/resources/presentations/36C3/Namecoin_Introduction_36C3_CDC.pdf
+
+Les noms de domaine sont [sujets](https://web.archive.org/web/20110617160904/http://btlj.org/2011/02/23/four-rounds-of-ice-domain-name-seizures-and-related-controversies-and-opposition/) à des saisies régulières.
+
+Satoshi Nakamoto, [10/10/2010](https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917)
+
+> « Le fait de rassembler tous les systèmes de quorum par preuve de travail dans une seule base de données ne passe pas à l'échelle. Bitcoin et BitDNS peuvent être utilisés séparément. \[...\] Les réseaux ont besoin d'avoir des destins différents. Les utilisateurs de BitDNS pourraient être extrêmement tolérants vis-à-vis de l'ajout de fonctionnalités permettant de traiter des données volumineuses, puisque peu de registraires de noms de domaine seraient nécessaires, tandis que les utilisateurs de Bitcoin pourraient devenir de plus en plus sectaires à propos de la limitation de la taille de la chaîne, pour que son accès reste facile pour beaucoup d'utilisateurs et pour les petits appareils. »
+>
+> original: "Piling every proof-of-work quorum system in the world into one dataset doesn't scale.  Bitcoin and BitDNS can be used separately.  \[...\] The networks need to have separate fates.  BitDNS users might be completely liberal about adding any large data features since relatively few domain registrars are needed, while Bitcoin users might get increasingly tyrannical about limiting the size of the chain so it's easy for lots of users and small devices."
+
+Satoshi Nakamoto [9/12/2010 21:02](https://bitcointalk.org/index.php?topic=1790.msg28696#msg28696), à résumer
+
+« Je pense qu’il serait possible que BitDNS forme un réseau complètement séparé et possède une chaîne de blocs distincte, tout en partageant la puissance de calcul avec Bitcoin. Le seul chevauchement consisterait à faire en sorte que les mineurs puissent rechercher des preuves de travail pour les deux réseaux simultanément.
+
+Les réseaux n’auraient besoin d’aucune coordination. Les mineurs adhéreraient aux deux réseaux en parallèle. Ils scanneraient SHA de telle sorte que s’ils obtenaient un résultat, ils pourraient résoudre les deux en même temps. Une solution pourrait concerner un seul des réseaux si l’un d’eux présentait une difficulté moindre.
+
+Je pense qu’un mineur externe pourrait appeler getwork sur les deux programmes et combiner le travail. Peut-être appeler Bitcoin, en tirer un travail, le remettre à getwork sur BitDNS pour le combiner en un travail commun.
+
+Plutôt que de fragmenter l’ensemble, les réseaux partageraient et augmenteraient la puissance de calcul totale de chacun. Cela résoudrait le problème des réseaux multiples, qui constituent un danger les uns pour les autres si la puissance de calcul disponible se concentre sur l’un d’entre eux. Au lieu de cela, tous les réseaux du monde partageraient la puissance de calcul combinée, augmentant ainsi la puissance totale. Il serait plus facile pour les petits réseaux de se lancer en puisant dans une base existante de mineurs . »
+
+"I think it would be possible for BitDNS to be a completely separate network and separate block chain, yet share CPU power with Bitcoin.  The only overlap is to make it so miners can search for proof-of-work for both networks simultaneously.
+
+The networks wouldn't need any coordination.  Miners would subscribe to both networks in parallel.  They would scan SHA such that if they get a hit, they potentially solve both at once.  A solution may be for just one of the networks if one network has a lower difficulty.
+
+I think an external miner could call getwork on both programs and combine the work.  Maybe call Bitcoin, get work from it, hand it to BitDNS getwork to combine into a combined work.
+
+Instead of fragmentation, networks share and augment each other's total CPU power.  This would solve the problem that if there are multiple networks, they are a danger to each other if the available CPU power gangs up on one.  Instead, all networks in the world would share combined CPU power, increasing the total strength.  It would make it easier for small networks to get started by tapping into a ready base of miners."
+
+Aaron Schwartz, proposition indépendante similaire : http://www.aaronsw.com/weblog/squarezooko
+
+Lancement le 18 avril 2011, Vincent Durham (Vinced).
+
+La chaine de Namecoin est minée en combinaison avec Bitcoin.
+
+Les noms de domaines (`.bit`) sont des NFT. Le premier NFT artistique sera créé en mars 2014 : https://twitter.com/lugaxker/status/1699354450064785903
+
+Kiba, "Technological Jailbreak: Bitcoin to Namecoin", [2011-05-28 22:07:15 UTC](https://web.archive.org/web/20111220063505/http://bitcoinweekly.com/articles/technological-jailbreak-bitcoin-to-namecoin)
+
+
+### La première vague des altcoins
+
+La grande bulle de 2011 engendre une [première vague](https://gist.github.com/barbietunnie/2f38b67d2245ac2cd73db68a9aada33c) de création de cryptomonnaies alternatives. La plupart des projets sont purement opportunistes, désirant profiter de l'enthousiasme vis-à-vis de Bitcoin, notamment par le biais du préminage.
+
+Les [bitcoins du réseau de test](https://bitcointalk.org/index.php?topic=1647.msg20643#msg20643) ou les « [BeerTokens](https://web.archive.org/web/20110703101435/http://exchange.beertokens.info/) » ou les « [Weeds](https://web.archive.org/web/20110505081347/http://exchange.surething.biz/) » du projet Multicoin peuvent être qualifiés de cryptomonnaies de test, car elles sont hautement expérimentales et peuvent être facilement réinitialisées à tout moment.
+
+Groupcoin/Devcoin, Unthinkingbit, [annoncé](https://bitcointalk.org/index.php?topic=24813.msg308142#msg308142) le 30 juin, [premiers blocs](https://explorer.devcoin.org/explorer/block/0000000062558fec003bcbf29e915cddfc34fa257dc87573f28e4520d1c7c11e) le 22 juillet ; https://bitcointalk.org/index.php?topic=34586.0
+
+Dans son modèle, 90 % de la création monétaire est [distribuée](https://bitcointalk.org/index.php?topic=24813.msg422068#msg422068) aux développeurs impliqués dans le monde du logiciel libre ; les 10 % restants sont distribués aux mineurs du système. Bien qu'elle soit présentée comme une « monnaie éthique » (original: "ethical currency"), il s'agit d'une aubaine pour les développeurs qui en bénéficient et qui sont choisis par le meneur du projet.
+
+Le premier de ces altcoins opportunistes est Ixcoin, une copie de Bitcoin qui se distingue de son grand frère par un rythme de création monétaire plus rapide. Elle est [lancée](https://bitcointalk.org/index.php?topic=36218.msg446303#msg446303) le 10 août par un certain Thomas Nasakioto. Au cours des trois mois précédents, il a préminé les 6 055 premiers blocs de la chaine, générant plus de 580 000 ixcoins. Même s'il [propose](https://bitcointalk.org/index.php?topic=36220.msg446305#msg446305) des récompenses aux premiers commerçants utilisant sa nouvelle cryptomonnaie, il se garde une bonne partie des unités préminées. Les individus sur le forum en viennent à se [demander](https://bitcointalk.org/index.php?topic=36218.msg446352#msg446352), à juste titre, « qui possède ces 580 000 ixcoins » (original: "\[w\]ho \[...\] has these 580k ixcoins?"), y [compris](https://bitcointalk.org/index.php?topic=36218.msg451681#msg451681) Gavin Andresen lui-même.
+
+La situation [donne l'idée](https://bitcointalk.org/index.php?topic=36425.msg448463#msg448463) à certains de développer I0coin, un fork d'Ixcoin « avec 0 bloc prégénéré » (original: "with 0 pregenerated blocks"). La chaine finit par être [lancée](https://bitcointalk.org/index.php?topic=36425.msg460733#msg460733) par un certain kr105 le 16 août. Elle a un temps de bloc de 5 minutes au lieu de 10. Elle [recueille](https://bitcointalk.org/index.php?topic=36425.msg461312#msg461312) une puissance de calcul de 1 TH/s dès le premier jour, chacun désirant se procurer des unités avant qu'elles ne prennent en valeur.
+
+Un troisième altcoin est SolidCoin [lancé](https://bitcointalk.org/index.php?topic=38453.msg471183#msg471183) publiquement le 21 août 2011 par un individu utilisant les pseudonymes CoinHunter et RealSolid. Il s'est [intéressé](https://bitcointalk.org/index.php?topic=15672.msg381911#msg381911) à Bitcoin pour son « potentiel de \[lui\] faire gagner de l'argent grâce à la spéculation » (original: "the potential to make \[him\] money through speculation"), pour sa facilité à être écoulé et pour son anonymat. SolidCoin se différencie de Bitcoin par un temps de bloc inférieur (3 minutes au lieu de 10), des frais fixes par transaction, et un algorithme d'ajustement modifié facilitant la diminution de la difficulté de minage par rapport à son augmentation. En octobre, une version 2.0 de SolidCoin est publiée. Elle [modifie](https://web.archive.org/web/20111015164358/http://solidcoin.info/solidcoin-most-secure-currency.php) le protocole de façon à faire intervenir des « nœuds de confiance » (original: "trusted nodes") (détenant un certain nombre de SLC sous caution) dans le consensus, en tant que protection contre les attaques des 51 %.
+
+De façon générale, SolidCoin est présenté comme un concurrent à Bitcoin, contrairement aux autres cryptomonnaies qui sont considérées comme complémentaires. Son fondateur critique le modèle de Nakamoto. Il dénonce la « concentration des Bitcoins dans les mains de pionniers élitistes qui n'ont aucun intérêt ou désir d'aider les gens "normaux" à utiliser les Bitcoins » (original: "Concentration of Bitcoins into elitist early adopters that have no interest or desire to help Bitcoins be used by 'normal' people"). Dans un article prédisant l'« effondrement de Bitcoin » (original: "Bitcoin collapse"), il [reproche](https://web.archive.org/web/20110925064226/https://solidcoin.info/solidcoin-ready-for-bitcoin-collapse.php) à Bitcoin sa stagnation techique découlant d'une possible « intervention de l'État » (original: "government involvement") et met en valeur SolidCoin comme la cryptomonnaie de l'innovation.
+
+- Création de la sous-section « Alternate currencies » sur Bitcointalk en septembre 2011 ? présent en oct. 2011 (https://web.archive.org/web/20111006123312/https://bitcointalk.org/) ; capture de janvier 2012 : https://web.archive.org/web/20120105094507/https://bitcointalk.org/index.php?board=67.0
+
+Services de change Bitparking (https://web.archive.org/web/20111026083553/https://exchange.bitparking.com/main) BTCEX.com, [Moonco.in](https://bitcointalk.org/index.php?topic=31768.0), [slc24](https://web.archive.org/web/20111208041556/http://www.slc24.com/)
+
+La plateforme russe BTC-e [se spécialise](https://web.archive.org/web/20111017024937/https://bitcointalk.org/index.php?topic=40889.0) dès le mois d'août dans la négociation de cryptomonnaies alternatives, et intègre au fil des mois Ixcoin, I0coin, Solidcoin, GeistGeld, Tenebrix et Namecoin.
+
+Statistiques (!) : https://bitcointalk.org/index.php?topic=41546.msg505943#msg505943 https://web.archive.org/web/20110923155617/http://allchains.info/
+
+---
+
+Relation avec Mooncoin : https://bitcointalk.org/index.php?topic=40469.0 piraté en septembre : https://bitcointalk.org/index.php?topic=83794.0#post_toc_25
+
+"MoonCoin Exchange (SC <--> BTC): Mooncoin is currently the #1 SolidCoin exchange, it's open source, trading in Solidcoins, Bitcoins, and Namecoins. The 0.2% transaction fee helps pay for continued development and hosting.
+
+BTC-E Exchange (SC <--> BTC)
+
+SolidCoin24 (SC <--> BTC)"
+
+[Moonco.in](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530), juin 2011 (mais dérive rapidement vers un site de paris, piraté en septembre) https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530 https://bitcointalk.org/index.php?topic=31768.0 ;
+
+GeistGeld (Lolcust), « monnaie spirituelle », 9 septembre 2011 : https://bitcointalk.org/index.php?topic=42417.msg516279#msg516279
+
+"Geist Geld is an experimental currency intended to test out the limits of block generation rate empirically, as well as (assuming it does not die due to overly rapid block generation rate) the behavior of a cryptocurrency with (almost) stable generation rate and no upper limit or alteration to supply."
+
+"Lolcust premined 7.7 million coins.  15 second block time is probably a bit extreme" (Charlie Lee)
+
+Taux de génération stable, pas de plafond défini.
+
+Elle se base sur l'infrastructure logicielle MultiCoin, [développée](https://bitcointalk.org/index.php?topic=24209.msg300830#msg300830) par Scott Carlson (Sacarlson).
+
+### La résistance aux GPU : Tenebrix
+
+Jusqu'à là toutes les cryptomonnaies alternatives utilisaient le fonction de hachage de Bitcoin, le double SHA-256, pour le minage, parfois exploitant le minage combiné. Cela profite aux mineurs établis de la chaine de BTC, car ils disposent déjà du matériel pour générer des unités en quantité. Les nouveaux arrivants n'ont pas l'occasion de pouvoir miner ces nouvelles cryptomonnaies avec leurs processeurs centraux, ce qui rejoint le problème déjà existant de la variance.
+
+Le 26 septembre 2011, Lolcust [lance](https://bitcointalk.org/index.php?topic=45667.msg544675#msg544675) Tenebrix, qu'il présente comme « une cryptomonnaie favorable aux CPU et hostile aux GPU » (original: "a CPU-friendly, GPU-hostile cryptocurrency"). Il est aidé par le mineur allemand ArtForz, qui [remplace](https://bitcointalk.org/index.php?topic=46063.msg549768#msg549768) SHA-256 par Scrypt, une fonction de dérivation de clés initialement [conçue](https://web.archive.org/web/20090928073214/http://www.tarsnap.com/scrypt.html) en 2009 par l'informaticien canadien Colin Perceval pour le service de sauvegarde en ligne Tarsnap. Grâce à sa forte demande de mémoire, elle permet de réduire drastiquement l'efficacité des processeurs graphiques dans le minage pour que les processeurs centraux puissent être utilisés de manière profitable. Son nom lui est donné car « il s'agit d'une cryptomonnaie qui prospère à l'ombre de toute exploitation majeure de minage par GPU, profitant harmonieusement des cycles de CPU inutilisés de leurs équipements de minage » (original: "it is a cryptocurrency that thrives in the shade of any major GPU-mining operation, peacefully enjoying the spare cpu cycles of miner rigs ").
+
+Comme GeistGeld, Tenebrix exploite une version modifiée du logiciel MultiCoin. Comme dans le cas de GeistGeld, il n'y a pas de plafond, et l'émission des unités (nommées « brix » par Lolcust) est constante. Point négatif : plus de 7 millions d'unités ont été « préminées », ce qui correspond (si on prend en compte un rythme d'émission de 5 brix par minute) à 2 ans et demi de production minière.
+
+C'est pourquoi Michael McLees [prend l'initiative](https://bitcointalk.org/index.php?topic=46342.msg552146#msg552146), quelques jours plus tard, de développer Fairbrix, une copie de Tenebrix sans préminage massif (seulement 3 775 unités). Après quelques ennuis d'ordre technique, Fairbrix est [lancé](https://bitcointalk.org/index.php?topic=46528.msg554186#msg554186) le 2 octobre par un certain Charlie Lee...
+
+### Le complément à Bitcoin : Litecoin
+
+https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/ "Ex-Googler Gives the World a Better Bitcoin" [30/8/2013](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/)
+
+Charlie Lee [est](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/) un développeur américain d'origine chinoise, qui est né en Côte d'Ivoire en 1977 et a déménagé aux États-Unis avec sa famille à l'âge de 13 ans. Studieux, il a obtenu un master en informatique au MIT. En 2011, il habite dans la Silicon Valley et travaille en tant que développeur pour Google, notamment sur ChromeOS. Sceptique à l'égard de la Réserve Fédérale, il est enthousiaste à propos de l'or.
+
+Il découvre l'existence de Bitcoin en juin 2011 en [lisant](https://twitter.com/satoshilite/status/1020131826369585152) un article sur Silk Road. Assez rapidement, il contacte Mike Hearn (qui travaille aussi pour Google, depuis Zurich) qui le convainc de la solidité de Bitcoin. Il participe à la conférence de Bruce Wagner à New York en août. Il s'intéresse par ailleurs aux cryptomonnaies alternatives, et se retrouve à lancer Fairbrix le 2 octobre.
+
+Toutefois, cela ne le satisfait pas. Fairbrix est basé sur le client MultiCoin, et souffre de nombreux bugs. Charlie décide donc de lancer une nouvelle cryptomonnaie, en copiant le code source de Bitcoin-Qt. Il [l'appelle](https://bitcointalk.org/index.php?topic=47417.msg564414#msg564414) Litecoin, une « version allégée de Bitcoin » (original: "a lite version of Bitcoin"). Il souhaite en faire « une monnaie qui soit à l'argent ce que Bitcoin est à l'or » (original: "a coin that is silver to Bitcoin's gold").
+
+Il intègre l'algorithme de preuve de travail Scrypt, comme Tenebrix. Le temps de bloc est de 2 minutes 30, quatre fois moins que pour Bitcoin, ce qui fait que le plafond d'émission se situe à 84 millions d'unités (et non 21) et que l'ajustement de la difficulté se produit tous les 3 jours et demi (au lieu de 2 semaines). Les halvings ont lieu tous les 840 000 blocs, soit tous les 4 ans environ.
+
+La chaine est lancée le 13 octobre vers 3 heures du matin ([bloc 3](https://blockchair.com/litecoin/block/3)). Toutefois, le lancement ne se passe pas comme escompté : plus de 10 000 blocs sont minés en moins de 24 heures (au lieu de 12,5 jours), ce qui correspond à 500 000 litecoins, soit 0,6 % de la quantité totale planifiée. En cause la difficulté de minage trop basse. Le problème est que l'ajustement de la difficulté est limité : elle ne peut être multipliée (ou divisée) que par 4. En plus de ça, le bloc de genèse est horodaté au 9 octobre, ce qui fait que le premier ajustement a fait en réalité baisser la difficulté au lieu de la faire augmenter.
+
+Tenebrix avait le même problème (6 048 blocs minés en ~2 jours au lieu de 21), mais celui-ci s'est résolu plus vite et l'impact n'était pas aussi grand que pour Litecoin. Charlie a simplement repris le même paramètre.
+
+Un membre du forum utilisant le pseudonyme de Localhost lui [reproche](https://bitcointalk.org/index.php?topic=47417.msg574959#msg574959) de ne [pas l'avoir écouté](https://bitcointalk.org/index.php?topic=47417.msg570772#msg570772) lorsqu'il l'a prévenu du problème. Charlie Lee se [défend](https://bitcointalk.org/index.php?topic=47417.msg574976#msg574976) en écrivant qu'il ne sera pas possible de reproduire cet incident. Il explique de plus que « le fait de commencer à un niveau de difficulté plus bas permet de susciter l'enthousiasme et l'intérêt des gens pour cette monnaie » (original: "starting at a lower difficulty gets people excited and interested in this coin") et qu'« il faut une communauté et du soutien pour lancer une monnaie à succès » (original: "You need a community and support in order to launch a successful coin.").
+
+[localhost, 14/10 19:25:04](https://bitcointalk.org/index.php?topic=47417.msg574959#msg574959): "Well, 10k blocks / 500k coins in the first day and a half of existence. Fails just as much as SC2 in that respect... Did I tell you starting diff was too low? Yes. Did you listen? Barely. Did you take action? Nope. Good job. I'll just sit on my tiny stash and see if this can eventually be worth a cent of 2..."
+
+Malgré ce faux pas, Litecoin rencontre le succès.
+
+Physical Litecoins, déc. 2011 : https://bitcointalk.org/index.php?topic=53596.0
+
+Des litecoins physiques (« de Lealana ») [seront](https://web.archive.org/web/20130807053126/https://bitcointalk.org/index.php?topic=243341.0) même vendus en 2013 par un certain Smoothie : des pièces en argent contenant une clé privée pour un montant de LTC.
+
+![Litecoin physique dit « de Lealana » en 2013](assets/en/litecoin-lealana-wired-201308.webp)
+
+Litecoin physique dit « de Lealana » en 2013 (source : [Wired](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/))
+
+LTC-Charts : https://web.archive.org/web/20120831211413/http://www.ltc-charts.com/
+
+En juillet 2013, Lee quittera Google pour travailler pour Coinbase.
+
+### Les premières réactions de rejet
+
+La possibilité de faire de l'argent en clonant Bitcoin, est évidente. Dès novembre 2010, avant même que l'idée de BitDNS n'émerge, on voit cette éventualité être évoquée sur le forum.
+
+Shadow : "You already have an ability to choose: You can write/fork Your own client, which will use a different chain. It is a little complicated, but choice exists. But adding an option to select different chain from official one.... that would only create unnecessary mess and perhaps even panic on the markets. I think we want bitcoin to be stable before all else, so if somebody wants to use different chain or different network, perhaps simply a forked client should be made for that."
+
+Gavin : "The test network (run bitcoin with the -testnet flag) is a different block chain, implemented so that the two chains never get confused.  If anybody wants to start yet another block chain, it isn't technically hard, and won't cause any problems for 'real bitcoin'. The hard part would be getting anybody to use your alternative; it would have to be better in some way other than just 'I started the new chain, so I've got a lot of the easy-to-generate-at-the-beginning-coins.'"
+
+
+"shitcoin" (Ribuck, [08/11/2010](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646)) (qui par ailleurs invente le terme « shitcoin ») :
+
+> « Tu dis ça maintenant, mais si bitcoin décolle vraiment, je peux voir beaucoup d'imitateurs cherchant à s'enrichir rapidement entrer en scène : le gitcoin, le nitcoin, le witcoin, le titcoin, le shitcoin... Certains d'entre eux ne manqueront pas d'attirer les utilisateurs avec des promesses telles que "Pourquoi utiliser le bitcoin, où vous ne pouvez générer que 50 bitcoins tous les quelques mois ? Utilisez plutôt le shitcoin, et vous obtiendrez 51 shitcoins toutes les 2 minutes". Bien entendu, ces imitations bon marché disparaîtront aussi rapidement que les "monnaies d'Internet" des années 1990, telles que le flooz et le beenz, mais beaucoup de gens se feront avoir en cours de route. »
+>
+> "You say that now, but if bitcoin really takes off I can see lots of get-rich-quick imitators coming on the scene: gitcoin, nitcoin, witcoin, titcoin, shitcoin... Some of them are sure to attract users with promises like 'Why use bitcoin, where you can only generate 50 bitcoins every few months? Use shitcoin instead, and you'll get 51 shitcoins every 2 minutes'. Of course the cheap imitators will disappear as quickly as those 1990s "internet currencies" like flooz and beenz, but lots of people will get burned along the way."
+
+À ceci, Gavin Andresen rétorque que l'économie se trouve dans l'« époque du Far West de la monnaie open-source » (original: "the Wild West days of open-source currency") et qu'il s'attend « à ce que les gens soient victimes d'escroqueries, de contrefaçons, de pyramides de ponzi et de bulles de prix » (original: "expect people will get burned by scams, imitators, ponzi schemes and price bubbles").
+
+"yet another cryptocurrency" (« une cryptomonnaie de plus ») [IRC, avril 2011](https://buildingbitcoin.org/bitcoin-dev/log-2011-04-05.html#l-2226), ["yet another currency, competing with Bitcoin", avr. 2011](https://bitcointalk.org/index.php?topic=6017.msg89440#msg89440) (relatif à Namecoin),[psy: "Yet Another Useless Piece of Shit Currency", 26/9](https://bitcointalk.org/index.php?topic=45667.msg545150#msg545150) (relatif à Tenebrix), [Coiledcoin: yet another cryptocurrency, janv. 2012](https://bitcointalk.org/index.php?topic=56675.msg675166#msg675166), [Matt Corallo, "yet another altcoin", janv. 2012](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-23.html#l-1429) (réaction à [Liquidcoin](https://bitcointalk.org/index.php?topic=60026.msg698484#msg698484))
+
+"yet another" peut être utilisé de manière humoristique : Yet Another Compiler-Compiler (YACC), inventé par l'informaticien Stephen C. Johnson dans les années 1970.
+
+Quand utilisé de manière péjorative (pour parler du travail des autres), [d'après](http://catb.org/jargon/html/Y/Yet-Another.html) le libriste Eric S. Raymond, le terme « décrit quelque chose qui existe déjà en trop grand nombre » (original: "Describes something of which there are already far too many.")
+
+Thomas V : https://bitcointalk.org/index.php?topic=38453.msg471316#msg471316
+
+"Currencies compete when they have different properties. Gold and silver do have different physical properties." [ThomasV](https://bitcointalk.org/index.php?topic=37592.msg463263#msg463263)
+
+
+- Gavin Andresen, scepticisme, conservatisme, [avertissement du 9/9/2011](https://bitcointalk.org/index.php?topic=42465.msg516789#msg516789)
+
+- Luke-Jr : "Litecoin is a scam" [16/11/2011](https://en.bitcoin.it/w/index.php?title=Litecoin&oldid=19470)
+
+6 janvier 2012, attaque de censure par Luke-Jr contre Coiledcoin (qui appliquait OP\_EVAL) : https://bitcointalk.org/index.php?topic=56675.msg678006#msg678006
+
+EDB: Une illustration éclatante de ce fait est l’exemple de Coiledcoin (CLC), une cryptomonnaie alternative créée en janvier 2012 qui a subi une attaque de censure fatale peu de temps après son lancement. L’attaque a été réalisée par le développeur de Bitcoin Luke-Jr par le biais de sa coopérative de minage, Eligius, sans qu’il n’en informe les hacheurs. Dans son message d’explication, il précisait qu’aucun membre de la coopérative n’avait subi de perte, le coût étant surtout le temps qu’il avait passé à configurer le logiciel.
+
+"I don't particularly have any incentive to respond to the scammers that I foiled, given the significant cost (in time) to do so. Nor do I have any financial loss or care particularly if people want to stop mining on Eligius because they were in on the scam (or any other reason). I will clarify that Eligius miners were not adversely impacted by this, and that the CLC mining involved only adding data that I hashed myself to my own transactions; and I was careful to ensure that nobody lost any confirmed CLC. If any Eligius miner wishes to inquire further, I will take the time to answer specific to-the-point questions which are signmessage'd with an active (ie, has mined in the past week) Eligius payout address that has earned at least 2000 TBC (5.36870912 BTC) over all time.
+
+Eligius is a Bitcoin mining pool and I am, as always, committed to doing my best to contribute to and protect the Bitcoin ecosystem. Pyramid schemes built upon forks of the Bitcoin software ultimately discredit and harm Bitcoin's reputation. I hope CoiledCoin will be the last of such scams now that it is clear there are people (not just myself) willing to stand up to them. Namecoin alone demonstrates a legitimate, innovative use of Bitcoin technology, and while I don't personally agree with their ideals/goals, I see it as a good thing for Bitcoin and worth cooperating with.
+
+cablepair, regarding Devcoin, I don't see any reason to treat it as different from any other scamcoin. I will at least discuss it with you on IRC before doing anything other than mining it with the almost-unmodified (zero txn fee, zero post-maturity delay) Devcoin client."
+
+janvier 2012 : "Luke filed DMCA takedown notices to SolidCoin over his infringing use of the bitcoin sourcecode." - « Luke a déposé des avis de retrait DMCA auprès de SolidCoin pour son utilisation illicite du code source de bitcoin. » https://web.archive.org/web/20120115215038/http://bitcoinmedia.com/luke-dashjr-throws-book-at-solidcoin -- https://web.archive.org/web/20120115205346/http://solidcointalk.org/topic/510-bitcoin-developers-attempt-to-kill-open-source-project-sends-dmca-to-linode-and-github/
+
+"I don't view all alternate chains as scams. Namecoin in particular has been designed with a legitimate purpose (albeit one I don't think is a good idea). (...) The reason alternate chains are scams, is not because they are a threat to Bitcoin. It is because all these systems are by default more or less pump-and-dump pyramid schemes." https://web.archive.org/web/20120115215038/http://bitcoinmedia.com/luke-dashjr-throws-book-at-solidcoin
+
+
+- Pierre Noizat, [07/02/2012](https://e-ducat.fr/2012-02-07-bitcoin-et-les-crypto-devises/)
+
+- Gavin Andresen, [19/8/2013](https://gavintech.blogspot.com/2013/08/the-macro-economics-of-alt-coins.html)
+
+- Daniel Krawisz [22/8/2013](https://nakamotoinstitute.org/mempool/the-problem-with-altcoins/)
+
+### La tentation de la preuve d'enjeu : PPCoin
+
+PPCoin, août 2012, Sunny King, Scott Nadal, preuve d'enjeu
+
+Sunny King : [a appris](https://bitcointalk.org/index.php?topic=15672.msg1076876#msg1076876) l'existence de Bitcoin en 2010, mais ne s'y intéressé qu'après la grande bulle de 2011. Commence à travailler sur le modèle de PPCoin en octobre 2011.
+
+Lancement le dimanche 19 août 2012 à 18 heures.
+
+### La banque : Ripple
+
+https://blog.bitmex.com/the-ripple-story/
+
+27 mai 2011, "Bitcoin without mining" : https://bitcointalk.org/index.php?topic=10193.msg146250#msg146250 ; [Mike Hearn](https://bitcointalk.org/index.php?topic=10193.msg146538#msg146538) : "It sounds somewhat like Ripple. ... Your proposed system is quite different, and relies heavily on trust networks."
+
+Jed McCaleb n'est pas vraiment favorable à l'aspect de résistance à la censure. Le 16 mai 2011, il [suggère](https://bitcointalk.org/index.php?topic=8493.msg123935#msg123935) que Bitcoin devrait être présenté comme « un paypal gratuit accessible à tous » (original: "a free paypal that anyone can use"). Le 27 mai 2011, Jed McCaleb [publie](https://bitcointalk.org/index.php?topic=10193.msg146250#msg146250) sur le forum la description d'un protocole sans minage... Mike Hearn lui [fait remarquer](https://bitcointalk.org/index.php?topic=10193.msg146538#msg146538) que son modèle « ressemble un peu à Ripple » (original: "sounds somewhat like Ripple"), mais qu'il « est très différent et s'appuie fortement sur les réseaux de confiance » (original: "is quite different, and relies heavily on trust networks").
+
+Cette idée de « consensus sans minage » est à la base de Ripple.
+
+XRP, juin 2012 (?)
+
+Membres fondateurs :
+
+- Jed McCaleb ([Jed](https://bitcointalk.org/index.php?action=profile;u=5322))
+
+Jed McCaleb s'allie à Chris Larsen...
+
+- Chris Larssen, entrepreneur de la Silicon Vally, cofondateur d'E-Loan en 1997 (service de prêt hypothécaire en ligne) et de Prosper Marketplace en 2006 (plateforme de prêt entre particuliers)
+
+![Chris Larsen en 2011](assets/en/chris-larsen-2011-americanbanker.webp)
+
+Chris Larsen en 2011 (source : [American Banker](https://www.americanbanker.com/payments/slideshow/8-offbeat-career-paths-of-payments-professionals))
+
+Autres :
+
+- David Schwartz ([JoelKatz](https://bitcointalk.org/index.php?action=profile;u=27870)), attiré par le côté philosophique de Bitcoin (contre la répression monétaire), découvert la chose en juin 2011
+
+Commentaire le 29 novembre 2012 : https://bitcointalk.org/index.php?topic=128413.msg1367542#msg1367542
+
+- Arthur Britto : https://web.archive.org/web/20130408174039/https://ripple.com/
+
+Ripple Protocol Consensus Algorithm (RCA), 2014 : https://exponentialstocks.com/wp-content/uploads/wpforo/default_attachments/1634556441-ripple_consensus_whitepaper.pdf
+
+
+
+Septembre 2012 : fondation de NewCoin Inc. (rapidement renommé OpenCoin Inc.) à San Francisco et [recrutement](https://bitcointalk.org/index.php?topic=108782.msg1181945#msg1181945) de développeurs en C++ et en JS, oct. 2012 : [Graphiste](https://bitcointalk.org/index.php?topic=117418.msg1259492#msg1259492)
+
+BitMEX : "In October 2012, Jesse Powell, the founder and CEO of the Kraken exchange (which launched in 2011) and close friend of McCaleb, participated in Ripple's first seed round with an investment believed to total around $200,000. Roger Ver is also said to have been an early investor in Ripple, apparently investing 'before even the creators knew what it was going to be'." (https://bitcointalk.org/index.php?topic=923267.msg10145624#msg10145624)
+
+En novembre 2012, Ryan Fugger [confie](https://groups.google.com/g/rippleusers/c/IVin3Qwrp7k/m/urzaH_VrQcQJ) les rênes de son projet à Jed McCaleb et Chris Larsen. "I've agreed that Jed's project should use the name Ripple and be considered our primary implementation"
+
+https://source-media-brightspot.s3.us-east-1.amazonaws.com/c5/5c/f798eed04e99ad258de989402184/p18a09qhgj1to21j0ap91ag64eua.jpg
+
+Décembre 2012 : https://web.archive.org/web/20121209010627/http://www.americanbanker.com/issues/177_235/disruptor-chris-larsen-returns-with-a-bitcoin-like-payment-system-1055009-1.html https://web.archive.org/web/20160324175636/http://www.americanbanker.com/issues/177_235/disruptor-chris-larsen-returns-with-a-bitcoin-like-payment-system-1055009-1.html?zkPrintable=1&nopagination=1
+
+Novembre / décembre 2012 : Stefan Thomas est [embauché](https://bitcointalk.org/index.php?topic=7357.msg1390636#msg1390636) par OpenCoin Inc., il en [devient](https://bitcointalk.org/index.php?topic=301635.msg3236213#msg3236213) le directeur technique, après le départ de Jed McCaleb.
+
+"Founder of Mt Gox will launch Ripple", [29/11/2012](https://bitcointalk.org/index.php?topic=128413.msg1367142#msg1367142)
+
+"ripple: let's test it!" [22/2/2013](https://bitcointalk.org/index.php?topic=145896.msg1548973#msg1548973)
+
+Vitalik Buterin, évoqué le 3 janv. 2013 : https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984 ; article complet le 27 févr. 2013 : https://bitcoinmagazine.com/business/introducing-ripple ; https://bitcoinmagazine.com/business/ripple-getting-started-guide-1361931573
+
+Le site d'OpenCoin en avril 2013 : https://web.archive.org/web/20130420015842/http://opencoin.com/ ; ripple.com : https://web.archive.org/web/20130427084703/https://ripple.com/how-ripple-works/
+
+Description du XRP, cryptocarburant : "Ripple contains a virtual currency, called ripples (XRP). These are used to pay the small fee required by the network for each transaction. They can also be sent between two accounts, converted into other currencies, or spent at venues that accept them. The network was created with a fixed and finite number of ripples (100 billion). No more can ever be made."
+
+![Comment Ripple fonctionne, avril 2013](assets/en/ripple-how-it-works-april-2013-ripple-com.webp)
+
+Comment Ripple fonctionne, avril 2013 (source : [Ripple.com](https://web.archive.org/web/20130427084703/https://ripple.com/how-ripple-works/))
+
+Levée de fonds OpenCoin Inc. :
+
+- "OpenCoin announced that it has closed an angel round of funding from Andreessen Horowitz, FF Angel IV, Lightspeed Venture Partners, Vast Ventures, and Bitcoin Opportunity Fund, an investment vehicle for Bitcoins and Bitcoin-related companies.", [11/4/2013](https://www.globenewswire.com/news-release/2013/04/11/1146545/0/en/OpenCoin-Developer-of-Ripple-Protocol-Closes-Funding-From-Andreessen-Horowitz-FF-Angel-IV-Lightspeed-Venture-Partners-and-Angel-Investors.html)
+- "IDG Capital Partners and Google Ventures Invest in Ripple Developer OpenCoin", [14/5/2013](https://www.globenewswire.com/news-release/2013/05/14/1146550/0/en/IDG-Capital-Partners-and-Google-Ventures-Invest-in-Ripple-Developer-OpenCoin.html)
+
+BitMEX : "In April 2013, OpenCoin received $1.5 million in funding from Google Ventures, Andreessen Horowitz, IDG Capital Partners, FF Angel, Lightspeed Venture Partners, the Bitcoin Opportunity Fund, and Vast Ventures. This was the first in many rounds of venture funding and it included some of the most respected venture-capital companies in the world."
+
+Juin 2013 : Jed quitte OpenCoin https://archive.is/ZmXph
+
+Jeb McCaleb décide de créer Stellar après des dissensions avec Chris Larsen. https://bitcointalk.org/index.php?topic=719019.0
+
+Le septembre 2013, OpenCoin Inc. devient Ripple Labs Inc.
+
+protocole sensiblement différent du concept initial, reposant sur un algorithme de consensus et sur une unité de compte native, le XRP
+
 
 ## L'essor commercial en 2012 : Silk Road contre BitPay
 
 ## L'information et le lobbying (?)
+
+Comment communiquer à propos de Bitcoin
 
 # 2013
 

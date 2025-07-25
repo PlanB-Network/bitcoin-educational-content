@@ -71,21 +71,21 @@ class TutorialPage(ctk.CTkFrame):
         row += 1
         
         # Project search entry
-        ctk.CTkLabel(self, text="Project Name:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
+        ctk.CTkLabel(self, text="Project Name (optional):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         self.builder_search_entry = ctk.CTkEntry(self, textvariable=self.builder_search_var, width=300, placeholder_text="Find the project ID", font=("Arial", 14, "bold"))
         self.builder_search_entry.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         self.builder_search_entry.bind("<KeyRelease>", self.update_builder_suggestions)
         row += 1
         
         # Project suggestions dropdown
-        ctk.CTkLabel(self, text="Project Suggestions:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
+        ctk.CTkLabel(self, text="Project Suggestions (optional):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         self.builder_suggestions_menu = ctk.CTkOptionMenu(self, values=[], command=self.on_builder_selected, width=300, font=("Arial", 14, "bold"))
         self.builder_suggestions_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         self.update_builder_suggestions()
         row += 1
         
         # Project ID entry
-        ctk.CTkLabel(self, text="Project ID:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
+        ctk.CTkLabel(self, text="Project ID (optional):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         ctk.CTkEntry(self, textvariable=self.project_id_var, width=300, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
@@ -250,9 +250,14 @@ class TutorialPage(ctk.CTkFrame):
         
         project_id = self.project_id_var.get().strip()
         if not project_id:
-            messagebox.showerror("Error", "Please enter the project's ID (UUID).")
-            return
-        
+            proceed = messagebox.askyesno(
+                "No Project Associated",
+                "You did not associate this tutorial with any project.\n\n"
+                "Are you sure you want to continue?"
+            )
+            if not proceed:
+                return
+
         # Validate tutorial difficulty selection
         if not self.level_menu.get():
             messagebox.showerror("Error", "Please select the tutorial's difficulty level.")

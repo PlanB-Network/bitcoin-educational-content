@@ -5,5 +5,5 @@ wrong_answers:
   - Cryptographie quantique.
   - Cryptographie RSA.
 explanation: |
-  Pour dépenser des Bitcoins, le propriétaire doit utiliser l'Algorithme de Signature Numérique à Courbe Elliptique (ECDSA) pour forger une signature permettant la propagation d'une transaction Bitcoin.
+  Pour dépenser des bitcoins, le propriétaire doit utiliser l'Algorithme de Signature Numérique à Courbe Elliptique (ECDSA) pour forger une signature permettant la propagation d'une transaction Bitcoin.
 reviewed: true

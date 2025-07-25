@@ -7,15 +7,15 @@ description: Bitcoin Portafoglio radicalmente semplice e potente
 
 
 
-Iniziare a utilizzare il Bitcoin sembra essere una grande sfida per le persone che sono scettiche sulla semplicità del suo utilizzo. Trovare gli strumenti giusti per garantire questa semplicità diventa quindi di fondamentale importanza per una migliore adozione del Bitcoin come mezzo di comunicazione del Exchange e non solo come riserva di valore.
+Iniziare a utilizzare  Bitcoin sembra una grande sfida per le persone che sono scettiche rispetto la sua semplicità di utilizzo. Trovare gli strumenti giusti per accedervi  semplicemente diventa quindi di fondamentale importanza per una migliore adozione di Bitcoin come mezzo di scambio e non solo come riserva di valore.
 
 
 
-In questo tutorial daremo un'occhiata al Blue Wallet, un semplice ma efficacissimo Bitcoin Wallet che permette di gestire personalmente i propri bitcoin e anche di creare cooperative di gestione basate sul [Multisig](https://planb.network/resources/glossary/multisig) (non preoccupatevi, ci torneremo).
+In questo tutorial daremo un'occhiata a Blue Wallet, un semplice ma efficacissimo  Wallet Bitcoin che permette di gestire personalmente i propri bitcoin e anche di creare soluzioni di gestione cooperativa  basate sul [Multisig](https://planb.network/resources/glossary/multisig) (non preoccupatevi, ci torneremo).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
+![Video Tutorial Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -23,7 +23,7 @@ In questo tutorial daremo un'occhiata al Blue Wallet, un semplice ma efficacissi
 
 
 
-Blue Wallet è un Bitcoin Wallet open source che consente di assumere il controllo dei propri bitcoin. È disponibile come applicazione mobile su entrambe le piattaforme Android e iOS. In questo tutorial ci baseremo sulla versione Android, tuttavia tutti i processi che verranno sviluppati sono ugualmente validi su iOS.
+Blue Wallet è un  Wallet Bitcoin open source che vi consente di prendere il controllo dei vostri bitcoin. È disponibile come applicazione mobile su entrambe le piattaforme Android e iOS. In questo tutorial ci baseremo sulla versione Android, tuttavia tutti i passaggi che verranno analizzati saranno ugualmente validi su iOS.
 
 
 
@@ -31,7 +31,7 @@ Blue Wallet è un Bitcoin Wallet open source che consente di assumere il control
 
 
 
-⚠️ Assicuratevi di scaricare l'applicazione Blue Wallet Bitcoin Wallet su una piattaforma ufficiale per garantirne l'autenticità e proteggere i vostri bitcoin da possibili fughe di notizie e hacking.
+⚠️ Assicuratevi di scaricare l'applicazione Blue Wallet Bitcoin Wallet da una piattaforma ufficiale per garantirne l'autenticità e proteggere i vostri bitcoin da possibili perdite e hacking.
 
 
 
@@ -53,7 +53,7 @@ Con Blue Wallet è possibile creare portafogli Bitcoin separati e dedicati. Ad e
 
 
 
-In Blue Wallet sono presenti due tipi di portafoglio nativi del Bitcoin.
+In Blue Wallet sono  presenti due tipi di portafogli bitcoin.
 
 
 
@@ -61,7 +61,7 @@ In Blue Wallet sono presenti due tipi di portafoglio nativi del Bitcoin.
 
 
 
-Se siete abituati ad altri portafogli Bitcoin, come Phoenix o Aqua, non vi troverete affatto in disaccordo con il Interface con il portafoglio Bitcoin del Blue Wallet.
+Se siete abituati ad altri portafogli Bitcoin, come Phoenix o Aqua, non avrete difficoltà con l' interfaccia  del portafoglio Bitcoin di  Blue Wallet.
 
 
 
@@ -70,11 +70,11 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-Il Wallet blu del Bitcoin Il Wallet rappresenta il Wallet standard nell'ecosistema Bitcoin. È possibile spendere bitcoin a patto di essere in possesso delle parole di recupero che forniranno una firma valida sulla rete per autenticare il possesso dei bitcoin.
+Blue Wallet rappresenta lo standard nell'ecosistema dei portafogli Bitcoin.Ti sarà possibile spendere bitcoin fin quando sarai in possesso delle parole di recupero che  forniranno una firma valida alla rete attestandone il possesso.
 
 
 
-Per creare un portafoglio Bitcoin, cliccare sul pulsante **Aggiungi ora**, inserire il nome del portafoglio e scegliere il tipo Bitcoin.
+Per creare un portafoglio Bitcoin, cliccare sul pulsante **Aggiungi ora**, inserire il nome del portafoglio e scegliere il tipo "Bitcoin".
 
 
 
@@ -82,17 +82,17 @@ Per creare un portafoglio Bitcoin, cliccare sul pulsante **Aggiungi ora**, inser
 
 
 
-Cliccando sull'anteprima del vostro Bitcoin Wallet, potrete visualizzare la cronologia delle transazioni e inviare e ricevere bitcoin.
+Cliccando sull'anteprima del vostro Wallet Bitcoin , potrete visualizzare la cronologia delle transazioni , inviare e ricevere bitcoin.
 
 
 
-⚠️ Tutte le transazioni nel Bitcoin Wallet sono sulla catena principale del protocollo Bitcoin (Mainnet).
+⚠️ Tutte le transazioni nel Wallet Bitcoin  sono sulla blockchain principale del protocollo Bitcoin (Mainnet).
 
 
 
 
 
-- Ricevere bitcoin con il Bitcoin Blue Wallet Wallet è intuitivo. Nella parte inferiore dello schermo, fare clic sul pulsante **Ricevi**. Condividete il codice QR o il vostro Bitcoin Address con il mittente in modo che possa inviarvi i bitcoin.
+- Ricevere bitcoin con  Blue Wallet è intuitivo. Nella parte inferiore dello schermo fai clic sul pulsante **Ricevi**. Condividete il codice QR o il vostro indirizzo Bitcoin  con il mittente in modo che possa inviarvi i bitcoin.
 
 
 
@@ -106,7 +106,7 @@ Cliccando sull'anteprima del vostro Bitcoin Wallet, potrete visualizzare la cron
 
 
 
-- Sul pulsante **Invia**, inviare bitcoin a un Bitcoin Address, impostando l'importo desiderato e convalidando la transazione.
+- Sul pulsante **Invia**, inviare bitcoin ad un indirizzo Bitcoin , imposta l'importo desiderato e convalida la transazione.
 
 
 
@@ -114,11 +114,12 @@ Cliccando sull'anteprima del vostro Bitcoin Wallet, potrete visualizzare la cron
 
 
 
-Blue Wallet consente di configurare i parametri della spedizione Bitcoin come si desidera.
+Blue Wallet consente di configurare i parametri della transazione dei bitcoin come si desidera.
 
 
 
-È quindi possibile selezionare il rapporto delle commissioni di transazione più adatto alle proprie esigenze se si desidera che la propria transazione venga rapidamente convalidata in un Mempool e inclusa in un blocco dai minatori. A seconda del rapporto scelto, i minatori daranno priorità alla vostra transazione in misura maggiore o minore. Per saperne di più, consultate il nostro tutorial sullo spazio Mempool.
+È quindi possibile selezionare il rapporto delle commissioni di transazione più adatto alle proprie esigenze.
+Se si desidera che la propria transazione venga rapidamente convalidata in un Mempool e inclusa in un blocco dai minatori , a seconda del rapporto scelto, i minatori daranno priorità alla vostra transazione in misura maggiore o minore. Per saperne di più, consultate il nostro tutorial sullo spazio Mempool.
 
 
 
@@ -130,11 +131,11 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-- Con Blue Wallet è possibile aggiungere più destinatari a una singola spedizione.
+- Con Blue Wallet è possibile aggiungere più destinatari ad una singola spedizione.
 
 
 
-Quando si aggiunge il Bitcoin Address del primo destinatario, nelle opzioni, fare clic su **Aggiungi destinatario**, aggiungere il Bitcoin Address e quindi impostare l'importo da inviare a questo destinatario, e così via. Blue Wallet invierà i bitcoin per più spedizioni in base alla vostra singola azione.
+Quando si aggiunge l'indirizzo Bitcoin  del primo destinatario, nelle opzioni, fare clic su **Aggiungi destinatario**, aggiungere l'indirizzo Bitcoin e quindi impostare l'importo da inviare a questo destinatario, e così via. Blue Wallet effettuerà le varie spedizioni sulla base di una vostra singola azione.
 
 
 
@@ -152,7 +153,7 @@ Quando si aggiunge il Bitcoin Address del primo destinatario, nelle opzioni, far
 
 
 
-- Gonfiare le commissioni**: Avete effettuato una transazione che richiede molto tempo per essere confermata? Abilitando l'inflazione delle commissioni, è possibile aggiungere ulteriori commissioni alla transazione in sospeso per accelerarne la conferma.
+- Gonfiare le commissioni**: Avete effettuato una transazione che richiede molto tempo per essere confermata? Abilitando l'inflazione delle commissioni, è possibile aggiungere ulteriori satoshi (SATS) alle commissioni  per accelerarne la conferma.
 
 
 
@@ -164,7 +165,7 @@ Quando si aggiunge il Bitcoin Address del primo destinatario, nelle opzioni, far
 
 
 
-Il Multisig (multi-firma) Wallet rappresenta un Wallet creato dal raggruppamento di un certo numero (minimo 2) di portafogli Bitcoin. In questo tipo di Wallet, a seconda della configurazione e del metodo scelto, spendere bitcoin diventa un'azione collettiva e cooperativa.
+Il portafoglio Multisig (multi-firma) rappresenta un Wallet creato dal raggruppamento di un certo numero (minimo 2) di portafogli Bitcoin. In questo tipo di Wallet, a seconda della configurazione e del metodo scelto, spendere bitcoin diventa un'azione collettiva e cooperativa.
 
 
 
@@ -180,11 +181,11 @@ Aggiungere un nuovo portafoglio e selezionare il tipo **Multisig Vault** per cre
 
 
 
-Definire la configurazione m-de-n nella propria organizzazione multi-firma facendo clic su **Impostazioni di sicurezza**.
+Definire la configurazione m-di-n per il portafoglio  multi-firma facendo clic su **Impostazioni di sicurezza**.
 
 
 
-⚠️ In una configurazione m-of-n, **m** rappresenta il numero minimo di firme necessarie per approvare una transazione e **n** il numero di portafogli dell'organizzazione.
+⚠️ In una configurazione m-di-n, **m** rappresenta il numero minimo di firme necessarie per approvare una transazione e **n** il numero di portafogli dell'organizzazione.
 
 
 
@@ -202,13 +203,13 @@ Ecco alcuni esempi di configurazioni ottimali per garantire la sicurezza e l'acc
 
 
 
-- 2-de-3 multi-firma.
+- 2-di-3 multi-firma.
 
 
 
 
 
-- 5-de-7 multi-firma.
+- 5-di-7 multi-firma.
 
 
 
@@ -224,7 +225,7 @@ Attenersi alle migliori pratiche selezionando il formato P2WSH.
 
 
 
-Creare o importare ciascuno degli **n** portafogli della configurazione. Nella nostra esercitazione, utilizzeremo una configurazione a 2 di 3 firme multiple. Assicurarsi di salvare le parole di recupero per ogni portafoglio individualmente.
+Creare o importare ciascuno degli **n** portafogli della configurazione. Nella nostra dimostrazione , utilizzeremo una configurazione a 2 di 3 firme multiple. Assicuratevi di salvare le parole di recupero individualmente per ogni portafoglio.
 
 
 
@@ -242,7 +243,7 @@ Nella pagina Multisig Wallet si trovano la cronologia delle transazioni e i puls
 
 
 
-Ricevere bitcoin in un Wallet multi-firma è lo stesso processo che si svolge in un Bitcoin Wallet standard.
+Ricevere bitcoin in un Wallet multi-firma è lo stesso procedimento che si svolge in un Bitcoin Wallet standard.
 
 
 
@@ -252,19 +253,19 @@ Ricevere bitcoin in un Wallet multi-firma è lo stesso processo che si svolge in
 
 
 
-Gestendo un Wallet a firma multipla, spendere bitcoin diventa un'azione composta, sia con altre persone che con un secondo Wallet proprio. La singola firma del vostro Wallet non è più sufficiente. Questo aggiunge un Layer di sicurezza ai vostri bitcoin, perché un malintenzionato non sarà in grado di spendere quei bitcoin se entra in possesso di una sola delle vostre chiavi private.
+Essendo un Wallet a firma multipla, spendere bitcoin diventa un'azione composta, sia con altre persone o con un vostro secondo Wallet. La singola firma del vostro Wallet non è più sufficiente. Questo aggiunge un Layer di sicurezza ai vostri bitcoin, perché un malintenzionato non sarà in grado di spendere quei bitcoin se entra in possesso di una sola delle vostre chiavi private.
 
 
 
-Come per il portafoglio standard Bitcoin di Blue Wallet, è possibile definire più destinatari nell'opzione **Aggiungi destinatari**.
+Come per il portafoglio standard Bitcoin di Blue Wallet, è possibile impostare  più destinatari  attraverso l'opzione **Aggiungi destinatari**.
 
 
 
-Quando si convalida la transazione, è necessaria una seconda firma per approvare la spesa dei bitcoin. Ricordate che siamo in una configurazione multi-firma 2-de-3.
+Quando si convalida la transazione, è necessaria una seconda firma per approvare la spesa dei bitcoin. Ricordate che siamo in una configurazione multi-firma 2-di-3.
 
 
 
-Il secondo firmatario della Wallet, se è anch'egli un utente, può firmare la transazione anche se è fuori da Internet (senza Wi-Fi, senza dati mobili) scansionando il codice QR della [transazione parzialmente firmata](https://planb.network/resources/glossary/psbt) appena creata.
+Il secondo firmatario della Wallet, se è anch'egli un utente, può firmare la transazione anche da off-line (senza Wi-Fi, senza dati mobili) scansionando il codice QR della [transazione parzialmente firmata](https://planb.network/resources/glossary/psbt) appena creata.
 
 
 
@@ -274,15 +275,15 @@ Il secondo firmatario della Wallet, se è anch'egli un utente, può firmare la t
 
 
 
-- Andate oltre con il portafoglio multi-firma**:
+- Andare oltre con il portafoglio multi-firma**:
 
 
 
-Sul Interface del Wallet a firma multipla, fare clic sul pulsante **Gestione chiavi**.
+Nell'interfaccia  del Wallet a firma multipla, fare clic sul pulsante **Gestione chiavi**.
 
 
 
-Dimenticando una delle parole di recupero di uno dei portafogli firmatari (**Dimentica questo seed...**), si comunica al Wallet blu di cancellare il backup di queste parole dalla sua memoria. Avrete quindi effettuato un backup esterno.
+Rimuovendo  una delle parole di recupero di uno dei portafogli firmatari (**Dimentica questo seed...**), si comunica a Blue Wallet di cancellare il backup di queste parole dalla sua memoria. Avendo quindi precedentemente effettuato un backup esterno.
 
 
 
@@ -290,11 +291,11 @@ Dimenticando una delle parole di recupero di uno dei portafogli firmatari (**Dim
 
 
 
-Eseguendo questa azione, si conserva solo la chiave pubblica associata a queste parole di recupero.
+Eseguendo questa azione, si conserverà solo la chiave pubblica associata a queste parole di recupero.
 
 
 
-⚠️ La conservazione delle sole chiavi pubbliche (XPUB) consente di aggiungere un ulteriore livello di sicurezza alla configurazione multi-firma 2 su 3. In effetti, potrebbe essere dannoso conservare tutte le parole di recupero in un unico posto quando il telefono viene attaccato. Infatti, potrebbe essere dannoso tenere tutte le parole di recupero in un unico posto quando il telefono è sotto attacco. Gli aggressori che hanno accesso a un solo **VAULT** (parola chiave) che utilizzate per firmare le vostre transazioni, non saranno in grado di rubare i vostri bitcoin (è richiesto un minimo di 02 firme) perché le chiavi pubbliche non possono essere utilizzate per firmare le transazioni.
+⚠️ La conservazione delle sole chiavi pubbliche (XPUB) consente di aggiungere un ulteriore livello di sicurezza alla configurazione multi-firma 2 su 3. Sarebbe infatti dannoso tenere tutte le chiavi in un unico posto nel caso in cui il telefono dovesse essere attaccato. Nel caso in cui degli aggressori  dovessero entrare in possesso di un solo **VAULT** (parola chiave) che utilizzate per firmare le vostre transazioni, non saranno comunque in grado di rubare i vostri bitcoin (è infatti richiesto un minimo di 2 firme) poichè le chiavi pubbliche non possono essere utilizzate per firmare le transazioni.
 
 
 
@@ -306,7 +307,7 @@ Eseguendo questa azione, si conserva solo la chiave pubblica associata a queste 
 
 
 
-In Impostazioni, l'opzione **Sicurezza** consente di definire l'uso di un'impronta digitale per effettuare una transazione, esportare o cancellare il Wallet. In questo modo si autentica la persona che utilizza lo smartphone.
+In Impostazioni, l'opzione **Sicurezza** consente di definire l'uso di un'impronta digitale per effettuare una transazione, esportare o cancellare il Wallet. In questo modo si autentica la persona che utilizza il tuo smartphone.
 
 
 
@@ -334,7 +335,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
-Ora avete completato il tour di Blue Wallet e siete pronti a utilizzare Bitcoin in tutta la sua semplicità e potenza. Vi consigliamo di fare il passo successivo e di scoprire come accettare i pagamenti Bitcoin nei vostri negozi, grazie alla potenza di Lightning.
+Avete completato il tour di Blue Wallet e ora siete pronti a utilizzare Bitcoin in tutta la sua semplicità e potenza. Vi consigliamo di fare il passo successivo e scoprire come accettare pagamenti Bitcoin nei vostri negozi, grazie alla potenza di Lightning.
 
 
 

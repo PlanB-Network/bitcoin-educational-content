@@ -4,7 +4,6 @@ description:
 ---
 
 ![cover](assets/cover.webp)
-
 ## 1. Introduction
 
 La méthode **Ninja SAFU** est une solution **DIY (Do It Yourself)** qui vous permet de créer une sauvegarde **durable, sécurisée et discrète** de votre **seed phrase** (phrase mnémonique de 12 ou 24 mots définie par la norme **BIP-39**). Cette phrase est indispensable pour restaurer un portefeuille Bitcoin ou tout autre portefeuille compatible.
@@ -62,7 +61,6 @@ Pour réaliser une sauvegarde Ninja SAFU, vous aurez besoin des composants suiva
 - **Conteneur hermétique** : Pour stocker le bloc de rondelles
 
 ![image](assets/fr/07.webp)
-
 ### 2.3 Sécurité
 
 - **Gants** et **Lunettes de sécurité** recommandés.
@@ -113,7 +111,6 @@ Pour réaliser une sauvegarde Ninja SAFU, vous aurez besoin des composants suiva
 - **Sceller la sauvegarde** (optionnel et conseillé) :
 	- Par bandes de scellage, ou sous pochette scellée.
 	- En cas d'utilisation d'une pochette, notez son numéro d'identification unique, de sorte à pouvoir contrôler qu'il s'agit de la bonne pochette et non d'un leurre remplaçant l'original.
-
 
 
 ## 4. Stockage
@@ -201,3 +198,11 @@ Aucun partenariat commercial n’existe entre Plan B et les vendeurs et fabrican
 La responsabilité de Plan B ne saurait être engagée en cas de défaut, de variation de prix ou de problème lié à la qualité ou à la livraison des produits. **DYOR**
 
 
+### A.6 Crédits photos
+
+https://pleb.style/fr/
+https://x.com/lopp/status/1463155802345193475
+https://bitcointalk.org/index.php?topic=5389446.0
+https://x.com/econoalchemist/status/1329271981712289797
+https://www.waivio.com/@themarkymark/create-your-own-metal-seed-key-backup
+https://github.com/minibolt-guide/minibolt/blob/main/bonus/bitcoin/safu-ninja.md

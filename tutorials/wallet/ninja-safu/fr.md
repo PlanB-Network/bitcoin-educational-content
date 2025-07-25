@@ -18,7 +18,7 @@ L’approche Ninja SAFU présente plusieurs avantages :
 
 - **Fiabilité** : Testée depuis 2020, la méthode a été éprouvée par des experts en sécurité comme [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), qui lui ont fait subir des stress tests rigoureux (chaleur extrême, corrosion, pression mécanique).
 
-Ce guide vous accompagnera pas à pas pour réaliser votre propre sauvegarde Ninja SAFU, afin de mieux protéger vos actifs numériques contre la perte ou la destruction. Pour approfondir vos connaissances en sauvegarde et protection d'une seed phrase, vous pouvez consulter les annexes.
+Ce guide vous accompagnera pas à pas pour réaliser votre propre sauvegarde Ninja SAFU, afin de mieux protéger vos bitcoins contre la perte ou la destruction. Pour approfondir vos connaissances en sauvegarde et protection d'une seed phrase, vous pouvez consulter les annexes.
 
 
 ## 2. Matériel
@@ -48,6 +48,8 @@ Pour réaliser une sauvegarde Ninja SAFU, vous aurez besoin des composants suiva
 - **Enclume ou surface robuste** :
 	- Une surface dure et épaisse (ex. : enclume de 1 kg ou pavé de 10 cm) pour absorber les chocs.
 
+Si vous ne souhaitez pas investir dans un jeu de poinçons, il est également possible de graver vos rondelles avec un stylo graveur. Cette solution, souvent plus économique, requiert toutefois davantage de soin pour obtenir un résultat satisfaisant.
+
 ### 2.2 Outils optionnels
 
 - **Dispositif de frappe** : Maintient la rondelle et guide le poinçon, permettant pour un estampage précis et net, une meilleure orientation et un espacement régulier des lettres
@@ -72,8 +74,8 @@ Pour réaliser une sauvegarde Ninja SAFU, vous aurez besoin des composants suiva
 
 - **Coût total** : 
 	- Rondelles, et boulon/écrou : ~ 15 EUR
-	- + Set de poinçons : ~ 45 EUR
-	- + étui protecteur : ~ 55 EUR
+	- Set de poinçons : ~ 45 EUR
+	- Étui protecteur : ~ 55 EUR
 	- Avec tous les accessoires : ~ 140 EUR
 
 - Exemple de matériel en annexe.
@@ -150,8 +152,6 @@ Même bien stockée, votre sauvegarde nécessite un **contrôle régulier** :
 ### A.1 Sauvegarder sa phrase de récupération
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
-
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### A.2 Comprendre la Passphrase BIP39
 

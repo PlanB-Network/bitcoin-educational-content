@@ -531,7 +531,7 @@ Heureusement, depuis 2017, la clé privée peut être représentée par une simp
 
 ### Qu'en est-il des pirates informatiques ?
 
-Que se passe-t-il si quelqu'un devine accidentellement notre liste de 12 ou 24 mots ? La réponse courte est que c'est très peu probable, grâce à la cryptographie utilisée pour créer le portefeuille. Pour mettre les choses en perspective, découvrir accidentellement votre même phrase mnémotechnique revient à trouver le "bon" nombre entre 1 et 2^256, ce qui est presque équivalent à trouver le "bon" atome dans l'Univers. Toutefois, si vous n'êtes pas satisfait de cette sécurité par défaut, vous pouvez toujours l'améliorer en ajoutant une phrase d'authentification (un mot supplémentaire) à votre portefeuille Bitcoin.
+Que se passe-t-il si quelqu'un devine accidentellement notre liste de 12 ou 24 mots ? La réponse courte est que c'est très peu probable, grâce à la cryptographie utilisée pour créer le portefeuille. Pour mettre les choses en perspective, découvrir accidentellement votre même phrase mnémotechnique revient à trouver le "bon" nombre entre 1 et $2^256$, ce qui est presque équivalent à trouver le "bon" atome dans l'Univers. Toutefois, si vous n'êtes pas satisfait de cette sécurité par défaut, vous pouvez toujours l'améliorer en ajoutant une phrase d'authentification (un mot supplémentaire) à votre portefeuille Bitcoin.
 
 ![image](assets/en/29.webp)
 

@@ -531,7 +531,7 @@ Heureusement, depuis 2017, la clé privée peut être représentée par une simp
 
 ### Qu'en est-il des pirates informatiques ?
 
-Que se passe-t-il si quelqu'un devine accidentellement notre liste de 12 ou 24 mots ? La réponse courte est que c'est très peu probable, grâce à la cryptographie utilisée pour créer le portefeuille. Pour mettre les choses en perspective, découvrir accidentellement votre même phrase mnémotechnique revient à trouver le "bon" nombre entre 1 et $2^256$, ce qui est presque équivalent à trouver le "bon" atome dans l'Univers. Toutefois, si vous n'êtes pas satisfait de cette sécurité par défaut, vous pouvez toujours l'améliorer en ajoutant une phrase d'authentification (un mot supplémentaire) à votre portefeuille Bitcoin.
+Que se passe-t-il si quelqu'un devine accidentellement notre liste de 12 ou 24 mots ? La réponse courte est que c'est très peu probable, grâce à la cryptographie utilisée pour créer le portefeuille. Pour mettre les choses en perspective, découvrir accidentellement votre même phrase mnémotechnique revient à trouver le "bon" nombre entre 1 et 2^256, ce qui est presque équivalent à trouver le "bon" atome dans l'Univers. Toutefois, si vous n'êtes pas satisfait de cette sécurité par défaut, vous pouvez toujours l'améliorer en ajoutant une phrase d'authentification (un mot supplémentaire) à votre portefeuille Bitcoin.
 
 ![image](assets/en/29.webp)
 
@@ -860,7 +860,7 @@ La gouvernance au sein du protocole dépasse le cadre de ce cours de base, mais 
 
 ### À quoi ressemble un nœud ?
 
-Plusieurs options s'offrent à vous lorsque vous souhaitez installer votre propre nœud, avec des coûts de maintenance différents. Vous pouvez simplement exécuter le logiciel Bitcoin Core sur votre ordinateur, mais cela nécessitera un espace de stockage important, car la blockchain pèse environ 760 Go. Pour surmonter cette contrainte, vous pouvez choisir de ne conserver que les N derniers blocs en mémoire en créant un "nœud élagué". Pour cette deuxième solution, le coût est négligeable car le nœud n'est actif que lorsque vous en avez besoin.
+Plusieurs options s'offrent à vous lorsque vous souhaitez installer votre propre nœud, avec des coûts de maintenance différents. Vous pouvez simplement exécuter le logiciel Bitcoin Core sur votre ordinateur, mais cela nécessitera un espace de stockage important, car la blockchain pèse environ 660 Go. Pour surmonter cette contrainte, vous pouvez choisir de ne conserver que les N derniers blocs en mémoire en créant un "nœud élagué". Pour cette deuxième solution, le coût est négligeable car le nœud n'est actif que lorsque vous en avez besoin.
 
 ![image](assets/en/53.webp)
 

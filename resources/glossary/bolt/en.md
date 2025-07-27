@@ -2,4 +2,4 @@
 term: BOLT
 ---
 
-Acronym for "Basis Of Lightning Technology." It is a series of specifications designed to enable interoperability of Lightning across different implementations of this second-layer protocol (LND, Core Lightning, Eclair...). These specifications detail the rules and standards to be followed so that Lightning nodes form a single network.
+Acronym for "Basis Of Lightning Technology." It is a set of specifications designed to ensure interoperability between different implementations of the Lightning Network (LND, Core Lightning, Eclair...). These specifications define the rules, protocols, and standards that all implementations must follow, ensuring that Lightning nodes can interact and operate as part of a single, unified network.

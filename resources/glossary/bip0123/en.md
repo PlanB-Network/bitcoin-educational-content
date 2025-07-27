@@ -2,7 +2,7 @@
 term: BIP0123
 ---
 
-Establishes a new standardized process for the classification of Bitcoin improvement proposals. BIPs must now be classified into 4 categories:
+BIP123 establishes a standardized process for classifying Bitcoin Improvement Proposals (BIPs).BIPs must now be classified into 4 categories:
 * *Consensus*: concerns proposals that require a change in consensus and affect compatibility between previous and future versions of the Bitcoin protocol. These are soft forks and hard forks;
 * *Peer Services*: concerns modifications to services and communication protocols between network nodes, without affecting consensus;
 * *API/RPC*: encompasses proposals aimed at modifying the APIs and RPCs used to interact with Bitcoin nodes;

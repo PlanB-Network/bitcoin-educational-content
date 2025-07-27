@@ -1,5 +1,5 @@
 ---
-term: Assignment
+term: ASSIGNMENT
 ---
 
 In the context of the RGB protocol, an Assignment is the equivalent of a transaction output that modifies, updates or creates specific properties within the contract's state. An Assignment consists of two elements:

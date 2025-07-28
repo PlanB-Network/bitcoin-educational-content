@@ -69,7 +69,7 @@ En la pestaña "*Main*" se accede a los parámetros principales del nodo:
 
 
 - "*Iniciar...*" inicia automáticamente el nodo al arrancar el ordenador para comenzar la sincronización inmediatamente;
-- "*Prune...*" ajusta el límite de almacenamiento si has elegido podar la red para reducir el espacio en tu disco ;
+- "*Prune...*" ajusta el límite de almacenamiento si has elegido podar la red para reducir el espacio en tu disco;
 - "*Caché de base de datos...*" establece la cantidad máxima de RAM permitida a tu nodo;
 - Por último, active "*Habilitar servidor RPC*" si deseas conectar tu nodo Bitcoin Knots a otro software de billetera, como Sparrow Wallet o Liana, por ejemplo.
 
@@ -79,7 +79,7 @@ En la pestaña "*Wallet*" encontrarás la configuración de la billetera integra
 
 ![Image](assets/fr/10.webp)
 
-La pestaña "*Red*" contiene parámetros de red que puedes adaptar a tus necesidades específicas.
+La pestaña "*Network*" contiene parámetros de red que puedes adaptar a tus necesidades específicas.
 
 ![Image](assets/fr/11.webp)
 
@@ -87,7 +87,7 @@ La pestaña "*Mempool*" permite configurar el *Memory Pool*, es decir, la gesti�
 
 ![Image](assets/fr/12.webp)
 
-La pestaña "Filtrado de spam" es una función de Bitcoin Knots. Aquí encontrarás una serie de ajustes que te permitirán elegir qué transacciones aceptará o rechazará transmitir. El objetivo principal es limitar ciertos usos marginales de Bitcoin, en particular los metaprotocolos, para luchar contra estas prácticas evitando al mismo tiempo sobrecargar tu nodo. Es una elección política, dependiendo de tu visión personal de Bitcoin.
+La pestaña "Spam filtering" es una función de Bitcoin Knots. Aquí encontrarás una serie de ajustes que te permitirán elegir qué transacciones aceptará o rechazará transmitir. El objetivo principal es limitar ciertos usos marginales de Bitcoin, en particular los metaprotocolos, para luchar contra estas prácticas evitando al mismo tiempo sobrecargar tu nodo. Es una elección política, dependiendo de tu visión personal de Bitcoin.
 
 También encontrarás parámetros clásicos como la definición del umbral "*Dust*".
 
@@ -99,7 +99,7 @@ La pestaña "*Mining*" le permite configurar la posible participación de tu nod
 
 ![Image](assets/fr/14.webp)
 
-Por último, la pestaña "*Pantalla*" se refiere a los parámetros relativos a los gráficos de Interface, incluido el idioma del software.
+Por último, la pestaña "*Window*" se refiere a los parámetros relativos a los gráficos de Interface, incluido el idioma del software.
 
 ![Image](assets/fr/15.webp)
 
@@ -213,12 +213,9 @@ No olvides reiniciar el programa después de realizar estos cambios.
 A continuación, ve a tu software de gestión de carteras (por ejemplo, Sparrow Wallet o Liana) e introduce la ruta a tu archivo cookie, normalmente ubicado en la misma carpeta que el `Bitcoin.conf`, dependiendo de tu sistema operativo:
 
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 ![Image](assets/fr/35.webp)
 
@@ -237,12 +234,9 @@ server=1
 Después de editar el archivo, asegúrate de guardarlo en la carpeta adecuada para tu sistema operativo:
 
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Esta operación también puede realizarse a través de la Interface gráfica de Bitcoin-QT. Ve al menú "*Configuración*", luego a "*Opciones...*", y activa la opción "*Habilitar servidor RPC*" marcando la casilla correspondiente. Si el archivo `Bitcoin.conf` no existe, puedes crearlo directamente desde ésta Interface pulsando "*Abrir archivo de configuración*".
 

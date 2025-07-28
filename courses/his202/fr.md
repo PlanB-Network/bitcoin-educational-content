@@ -1200,68 +1200,53 @@ De plus, le débat sur l'évolution du protocole n'est pas la seule conséquence
 
 La découverte de Satoshi Nakamoto a ouvert la voie à toutes les innovations, bonnes comme mauvaises. Elle a donné naissance à une multitude de cryptomonnaies alternatives, ou *altcoins*, qui ont été créées à partir d'avril 2011, et qui se sont multipliées lors de l'automne 2011 et au début de l'année 2012. Comme l'[écrivait](https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) Sunny King en mars 2013 :
 
-> « L'ère d'Internet a enfin donné naissance à un nouveau phénomène connu sous le nom de cryptomonnaie. Satoshi Nakamoto a présenté son œuvre révolutionnaire, Bitcoin, au monde entier en 2009, ce qui a marqué l'aube d'une nouvelle ère dans l'histoire financière de la civilisation humaine. La principale avancée de Bitcoin est l'introduction d'un registre public décentralisé. Le terme "cryptomonnaie" fait ainsi référence à la nouvelle classe de monnaies virtuelles dotées d'un degré élevé de décentralisation (également connu sous le nom de "pair à pair" dans la terminologie d'Internet), et donc beaucoup plus résistantes aux tentatives de coupures. »
+> « L'ère d'Internet a enfin donné naissance à un nouveau phénomène connu sous le nom de *cryptomonnaie*. Satoshi Nakamoto a présenté son œuvre révolutionnaire, *Bitcoin*, au monde entier en 2009, marquant le début d'une nouvelle ère dans l'histoire financière de la civilisation humaine. La principale avancée de Bitcoin est l'introduction d'un registre public *décentralisé*. Le terme *cryptomonnaie* fait ainsi référence à la nouvelle classe de monnaies virtuelles dotées d'un degré élevé de *décentralisation* (également appelé *pair à pair* dans la terminologie d'Internet), et donc beaucoup plus résistantes aux tentatives de coupures. »
 >
-> original: "The Age of the Internet has finally brought upon us a new phenomenon known as cryptocurrency. Satoshi Nakamoto introduced his groundbreaking work Bitcoin to the world in 2009, marking the dawn of a new era in the financial history of human civilization. The main breakthrough of Bitcoin is the introduction of decentralized public ledger. The term cryptocurrency then refers to the new class of virtual currencies with high degree of decentralization (also known as peer-to-peer in Internet terminology), thus much more resistant to shutdown attempts."
+> original: "The Age of the Internet has finally brought upon us a new phenomenon known as *cryptocurrency*. Satoshi Nakamoto introduced his groundbreaking work *Bitcoin* to the world in 2009, marking the dawn of a new era in the financial history of human civilization. The main breakthrough of Bitcoin is the introduction of *decentralized* public ledger. The term *cryptocurrency* then refers to the new class of virtual currencies with high degree of *decentralization* (also known as *peer-to-peer* in Internet terminology), thus much more resistant to shutdown attempts."
 
-Cette effervescence a été utile à l'expérimentation. C'est ainsi que de nombreux modèles alternatifs ont émergé : on a vu le minage combiné émerger avec Namecoin, un algorithme résistant aux GPU avec Tenebrix, la preuve dmalintentionnées de cloner Bitcoin et faire un profit avec le préminage, ce qui n'a pas manqué de créer une réaction de rejet dans la communauté de Bitcoin.
+Cette effervescence a été bénéfique à l'expérimentation. C'est ainsi que de nombreux modèles alternatifs ont émergé : on a vu le minage combiné émerger avec Namecoin, la résistance aux GPU avec Tenebrix, la preuve d'enjeu avec PPCoin et la preuve d'autorité avec Ripple. Mais elle a aussi permis aux personnes malintentionnées de cloner Bitcoin et faire un profit avec le préminage, ce qui n'a pas manqué de créer une réaction de rejet dans la communauté de Bitcoin.
 
 ### Les noms de domaine : BitDNS et Namecoin
 
-https://news.bitcoin.com/en/the-first-altcoin-network-namecoin-marks-13-years-with-unwavering-hashpower/
+https://archivist-eth.medium.com/namecoin-expired-names-and-provenance-misconceptions-c55efc03e085 https://www.namecoin.org/resources/presentations/36C3/Namecoin_Introduction_36C3_CDC.pdf https://news.bitcoin.com/en/the-first-altcoin-network-namecoin-marks-13-years-with-unwavering-hashpower/
 
-appamatto, idée le [14/11/2010](https://web.archive.org/web/20101118020511/http://veritas.maximilianeum.ch/bitcoin/irc/logs/2010/11/14#l1150) sur IRC (\#bitcoin-dev) :
+Vers la fin de l'année 2010, l'idée de reprendre le code Bitcoin pour lancer d'autres systèmes émerge. Le réseau de test, lancé en octobre, [constitue](https://bitcointalk.org/index.php?topic=1647.msg20643#msg20643) en effet, pour reprendre les termes de Gavin Andresen, « une chaine de blocs différente, conçue pour que les deux chaines ne soient jamais confondues » (original: "a different block chain, implemented so that the two chains never get confused"), ce qui démontre que lancer une autre chaine n'est « pas difficile techniquement » et « ne posera aucun problème au "vrai bitcoin" » (original: "it isn't technically hard, and won't cause any problems for 'real bitcoin'").
 
-> J'ai eu l'idée d'un système DNS de type bitcoin. En gros, chaque bloc généré permet de définir un nouveau nom, et les transactions sont des rattachements de noms à des adresses IP.
+La première cryptomonnaie alternative va être Namecoin, pour résoudre le problème des noms de domaine.
+
+Le problème des noms de domaine est particulièrement important pour les personnes qui gravitent alors autour de Bitcoin. Le système des noms de domaine, c'est-à-dire des chaines de caractères facilement mémorisables comme apple.com ou bitcoin.org, est en effet centralisé entre les mains de l'ICANN (*Internet Corporation for Assigned Names and Numbers*), une société de droit californien à but non lucratif. De ce fait, ces noms de domaine sont [sujets](https://web.archive.org/web/20110617160904/http://btlj.org/2011/02/23/four-rounds-of-ice-domain-name-seizures-and-related-controversies-and-opposition/) à des saisies régulières.
+
+Le triangle de Zooko, [théorisé](https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html) en 2001 par le cypherpunk Bryce « Zooko » Wilcox, énonce qu'un identifiant ne peut réunir au maximum que deux des propriétés suivantes : la sécurité (un nom ne doit correspondre qu'à un seul et unique élément) ; la décentralisation (les autorités centralisées ne doivent pas être nécessaires pour déterminer à quel nom correspond quel élément) ; l'intelligibilité pour l'homme (le nom des éléments doit pouvoir avoir un sens et il doit être possible de le retenir). Mais l'émergence de Bitcoin, ce triangle n'existe plus : il est possible de « réaliser la quadrature du triangle de Zooko » (original: "you can indeed use BitCoin to square Zooko's triangle") pour reprendre l'[expression](http://www.aaronsw.com/weblog/squarezooko) d'Aaron Schwartz.
+
+Le 14 novembre, un utilisateur se faisant appeler Appamatto propose d'utiliser le modèle de Bitcoin pour mettre en place un système de noms de domaine décentralisé. Il nomme son idée « BitDNS ». Sur le canal IRC \#bitcoin-dev, il [écrit](https://web.archive.org/web/20101118020511/http://veritas.maximilianeum.ch/bitcoin/irc/logs/2010/11/14#l1150) :
+
+> « J'ai eu l'idée d'un système DNS de type bitcoin. En gros, chaque bloc généré permet de définir un nouveau nom, et les transactions sont des rattachements de noms à des adresses IP. »
 >
 > original: "I had an idea for a bitcoin-like DNS system. Basically, each generating block allows you to define a new name, and transactions are remappings of the names to ip addresses."
 
-sujet ouvert sur le forum le [15/11/2010](https://bitcointalk.org/index.php?topic=1790.msg22019#msg22019)
+Quelques heures plus tard, il [rédige](https://bitcointalk.org/index.php?topic=1790.msg22019#msg22019) une description plus approfondie sur le forum Bitcointalk, où il écrit qu'« il semble possible de créer un clone de bitcoin (bitDNS) qui offre une solution pour l'attribution et le transfert distribués de noms sans autorité » (original: "it seems possible to create a bitcoin clone (bitDNS) that provides a solution to distributed authority-free name allocation and transfer").
 
-> « \[I\]l semble possible de créer un clone de bitcoin (bitDNS) qui offre une solution pour l'attribution et le transfert distribués de noms sans autorité. »
->
-> original: "\[I\]t seems possible to create a bitcoin clone (bitDNS) that provides a solution to distributed authority-free name allocation and transfer."
-
-triangle de Zooko : un identifiant ne peut réunir que deux de ces propriétés au maximum : Sécurisé (un nom ne doit correspondre qu’à un seul et unique élément) ; Décentralisé (les autorités centralisées ne doivent pas être nécessaires pour déterminer à quel nom correspond quel élément) ; Humainement compréhensible (le nom des éléments doit pouvoir avoir un sens et il doit être possible de le retenir). DNS est sécurisé et humainement compréhensible mais centralisé (ICANN) ; les liens Tor (`.onion`) sont sécurisés et décentralisés mais pas humainement compréhensibles ; les liens I2P pour le troisième ?
-
-https://www.namecoin.org/resources/presentations/36C3/Namecoin_Introduction_36C3_CDC.pdf
-
-Les noms de domaine sont [sujets](https://web.archive.org/web/20110617160904/http://btlj.org/2011/02/23/four-rounds-of-ice-domain-name-seizures-and-related-controversies-and-opposition/) à des saisies régulières.
-
-Satoshi Nakamoto, [10/10/2010](https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917)
+Le sujet attire l'attention de beaucoup de monde sur le forum, à tel point que Satoshi Nakamoto lui-même y intervient à plusieurs reprises. Il est particulièrement enthousiaste au fait d'utiliser une chaine de blocs tierce. Le 10 décembre, il [écrit](https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917) ainsi :
 
 > « Le fait de rassembler tous les systèmes de quorum par preuve de travail dans une seule base de données ne passe pas à l'échelle. Bitcoin et BitDNS peuvent être utilisés séparément. \[...\] Les réseaux ont besoin d'avoir des destins différents. Les utilisateurs de BitDNS pourraient être extrêmement tolérants vis-à-vis de l'ajout de fonctionnalités permettant de traiter des données volumineuses, puisque peu de registraires de noms de domaine seraient nécessaires, tandis que les utilisateurs de Bitcoin pourraient devenir de plus en plus sectaires à propos de la limitation de la taille de la chaîne, pour que son accès reste facile pour beaucoup d'utilisateurs et pour les petits appareils. »
 >
 > original: "Piling every proof-of-work quorum system in the world into one dataset doesn't scale.  Bitcoin and BitDNS can be used separately.  \[...\] The networks need to have separate fates.  BitDNS users might be completely liberal about adding any large data features since relatively few domain registrars are needed, while Bitcoin users might get increasingly tyrannical about limiting the size of the chain so it's easy for lots of users and small devices."
 
-Satoshi Nakamoto [9/12/2010 21:02](https://bitcointalk.org/index.php?topic=1790.msg28696#msg28696), à résumer
+Satoshi Nakamoto propose aussi de mettre en place ce qu'on appelera le « minage combiné » (*merge mining* en anglais). [9/12/2010 21:02](https://bitcointalk.org/index.php?topic=1790.msg28696#msg28696), à résumer :
 
-« Je pense qu’il serait possible que BitDNS forme un réseau complètement séparé et possède une chaîne de blocs distincte, tout en partageant la puissance de calcul avec Bitcoin. Le seul chevauchement consisterait à faire en sorte que les mineurs puissent rechercher des preuves de travail pour les deux réseaux simultanément.
+> « Je pense qu'il serait possible que BitDNS forme un réseau complètement séparé et possède une chaîne de blocs distincte, tout en partageant la puissance de calcul avec Bitcoin. Le seul chevauchement consisterait à faire en sorte que les mineurs puissent rechercher des preuves de travail pour les deux réseaux simultanément.
+>
+> Les réseaux n'auraient besoin d'aucune coordination. Les mineurs adhéreraient aux deux réseaux en parallèle. Ils scanneraient SHA de telle sorte que s'ils obtenaient un résultat, ils pourraient résoudre les deux en même temps. Une solution pourrait concerner un seul des réseaux si l'un d'eux présentait une difficulté moindre.
+>
+> Je pense qu'un mineur externe pourrait appeler getwork sur les deux programmes et combiner le travail. Peut-être appeler Bitcoin, en tirer un travail, le remettre à getwork sur BitDNS pour le combiner en un travail commun.
+>
+> Plutôt que de fragmenter l'ensemble, les réseaux partageraient et augmenteraient la puissance de calcul totale de chacun. Cela résoudrait le problème des réseaux multiples, qui constituent un danger les uns pour les autres si la puissance de calcul disponible se concentre sur l'un d'entre eux. Au lieu de cela, tous les réseaux du monde partageraient la puissance de calcul combinée, augmentant ainsi la puissance totale. Il serait plus facile pour les petits réseaux de se lancer en puisant dans une base existante de mineurs. »
 
-Les réseaux n’auraient besoin d’aucune coordination. Les mineurs adhéreraient aux deux réseaux en parallèle. Ils scanneraient SHA de telle sorte que s’ils obtenaient un résultat, ils pourraient résoudre les deux en même temps. Une solution pourrait concerner un seul des réseaux si l’un d’eux présentait une difficulté moindre.
+Aaron Schwartz, informaticien et hacktiviste américain, cofondateur de Reddit en 2005, [fait une proposition similaire](http://www.aaronsw.com/weblog/squarezooko) en janvier 2011, qu'il a développé indépendamment, inspiré par son ami Dan Kaminsky. Il [tentera](https://web.archive.org/web/20110521214956/https://squaretriangle.jottit.com/faq) d'implémenter son idée dans un système appelé « Squaretriangle », et surnommé « Nakanames » en hommage au créateur de Bitcoin.
 
-Je pense qu’un mineur externe pourrait appeler getwork sur les deux programmes et combiner le travail. Peut-être appeler Bitcoin, en tirer un travail, le remettre à getwork sur BitDNS pour le combiner en un travail commun.
-
-Plutôt que de fragmenter l’ensemble, les réseaux partageraient et augmenteraient la puissance de calcul totale de chacun. Cela résoudrait le problème des réseaux multiples, qui constituent un danger les uns pour les autres si la puissance de calcul disponible se concentre sur l’un d’entre eux. Au lieu de cela, tous les réseaux du monde partageraient la puissance de calcul combinée, augmentant ainsi la puissance totale. Il serait plus facile pour les petits réseaux de se lancer en puisant dans une base existante de mineurs . »
-
-"I think it would be possible for BitDNS to be a completely separate network and separate block chain, yet share CPU power with Bitcoin.  The only overlap is to make it so miners can search for proof-of-work for both networks simultaneously.
-
-The networks wouldn't need any coordination.  Miners would subscribe to both networks in parallel.  They would scan SHA such that if they get a hit, they potentially solve both at once.  A solution may be for just one of the networks if one network has a lower difficulty.
-
-I think an external miner could call getwork on both programs and combine the work.  Maybe call Bitcoin, get work from it, hand it to BitDNS getwork to combine into a combined work.
-
-Instead of fragmentation, networks share and augment each other's total CPU power.  This would solve the problem that if there are multiple networks, they are a danger to each other if the available CPU power gangs up on one.  Instead, all networks in the world would share combined CPU power, increasing the total strength.  It would make it easier for small networks to get started by tapping into a ready base of miners."
-
-Aaron Schwartz, proposition indépendante similaire : http://www.aaronsw.com/weblog/squarezooko
-
-La chaine est [lancée](https://bitcointalk.org/index.php?topic=6017.msg88356#msg88356) le 19 avril 2011 ([bloc 1](https://chainz.cryptoid.info/nmc/block.dws?1.htm)) par Vincent Durham, qui utilise le pseudonyme Vinced.
-
-La chaine de Namecoin est minée en combinaison avec Bitcoin.
-
-Les noms de domaines (`.bit`) sont des NFT. Le premier NFT artistique sera créé en mars 2014 : https://twitter.com/lugaxker/status/1699354450064785903
+L'idée de BitDNS finit par mener à la création d'un système fonctionnel : Namecoin. La chaine est [lancée](https://bitcointalk.org/index.php?topic=6017.msg88356#msg88356) le 19 avril 2011 ([bloc 1](https://chainz.cryptoid.info/nmc/block.dws?1.htm)) par Vincent Durham, qui utilise le pseudonyme Vinced. La chaine de Namecoin est minée en combinaison avec Bitcoin. Les noms de domaines (`.bit`) sont des NFT : « actifs non fongibles » (original: "non-fungible assets") comme les nommera Vitalik en 2014. Le premier NFT artistique sera créé en mars 2014 : https://twitter.com/lugaxker/status/1699354450064785903
 
 Kiba, "Technological Jailbreak: Bitcoin to Namecoin", [2011-05-28 22:07:15 UTC](https://web.archive.org/web/20111220063505/http://bitcoinweekly.com/articles/technological-jailbreak-bitcoin-to-namecoin)
-
 
 ### La première vague des imitateurs
 
@@ -1314,7 +1299,7 @@ C'est pourquoi Michael McLees [prend l'initiative](https://bitcointalk.org/index
 
 https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/ "Ex-Googler Gives the World a Better Bitcoin" [30/8/2013](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/)
 
-Charlie Lee [est](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/) un développeur américain d'origine chinoise, qui est né en Côte d'Ivoire en 1977 et a déménagé aux États-Unis avec sa famille à l'âge de 13 ans. Studieux, il a obtenu un master en informatique au MIT. En 2011, il habite dans la Silicon Valley et travaille en tant que développeur pour Google, notamment sur ChromeOS. Sceptique à l'égard de la Réserve Fédérale, il est enthousiaste à propos de l'or.
+Charlie Lee [est](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/) un développeur américain d'origine chinoise, qui est né en Côte d'Ivoire en 1977 et a déménagé aux États-Unis avec sa famille à l'âge de 13 ans. Studieux, il a obtenu un master en informatique au MIT. En 2011, il habite dans la Silicon Valley et travaille en tant que développeur pour Google, notamment sur ChromeOS. Sceptique à l'égard de la Réserve Fédérale, il est enthousiaste à propos des métaux précieux.
 
 ![Charlie Lee en mars 2013](assets/en/charlie-lee-march-2013-bitcoin-conf.webp)
 
@@ -1386,7 +1371,7 @@ It is impossible for two currencies to live in that same niche, because one of t
 
 6 janvier 2012, attaque de censure par Luke-Jr contre Coiledcoin (qui appliquait OP\_EVAL) : https://bitcointalk.org/index.php?topic=56675.msg678006#msg678006
 
-EDB: Une illustration éclatante de ce fait est l’exemple de Coiledcoin (CLC), une cryptomonnaie alternative créée en janvier 2012 qui a subi une attaque de censure fatale peu de temps après son lancement. L’attaque a été réalisée par le développeur de Bitcoin Luke-Jr par le biais de sa coopérative de minage, Eligius, sans qu’il n’en informe les hacheurs. Dans son message d’explication, il précisait qu’aucun membre de la coopérative n’avait subi de perte, le coût étant surtout le temps qu’il avait passé à configurer le logiciel.
+EDB: Une illustration éclatante de ce fait est l'exemple de Coiledcoin (CLC), une cryptomonnaie alternative créée en janvier 2012 qui a subi une attaque de censure fatale peu de temps après son lancement. L'attaque a été réalisée par le développeur de Bitcoin Luke-Jr par le biais de sa coopérative de minage, Eligius, sans qu'il n'en informe les hacheurs. Dans son message d'explication, il précisait qu'aucun membre de la coopérative n'avait subi de perte, le coût étant surtout le temps qu'il avait passé à configurer le logiciel.
 
 "I don't particularly have any incentive to respond to the scammers that I foiled, given the significant cost (in time) to do so. Nor do I have any financial loss or care particularly if people want to stop mining on Eligius because they were in on the scam (or any other reason). I will clarify that Eligius miners were not adversely impacted by this, and that the CLC mining involved only adding data that I hashed myself to my own transactions; and I was careful to ensure that nobody lost any confirmed CLC. If any Eligius miner wishes to inquire further, I will take the time to answer specific to-the-point questions which are signmessage'd with an active (ie, has mined in the past week) Eligius payout address that has earned at least 2000 TBC (5.36870912 BTC) over all time.
 

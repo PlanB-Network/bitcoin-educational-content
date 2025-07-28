@@ -2,6 +2,7 @@
 name: BIP-85
 description: Comment utiliser BIP85 pour générer plusieurs seedphrases à partir d'une seed principale
 ---
+![cover](assets/cover.webp)
 
 ## 1. Comprendre BIP-85
 
@@ -37,7 +38,7 @@ Cela permet une stratégie de compartimentation des risques :
 
 En revanche, pour BIP-32 comme pour BIP-35, si la seed principale est compromise, **tous les fonds sont vulnérables**. Il est donc crucial de la protéger avec le plus haut niveau de sécurité.
 
-
+![image](assets/fr/02.webp)
 ## 2. Cas d’usages pratiques de BIP-85
 
 BIP-85 permet de créer plusieurs portefeuilles Bitcoin à partir d’une seule seed phrase principale, chacun avec sa propre seed phrase secondaire. Voici cinq cas d’usage pratiques pour organiser et sécuriser vos fonds Bitcoin. Chaque cas explique pourquoi utiliser BIP-85 est plus pratique que de gérer plusieurs comptes avec une seule seed phrase via BIP-32.
@@ -102,7 +103,7 @@ Allumez votre Coldcard, entrez votre code PIN.
 
 - **1. Si vous avez appliqué une passphrase à votre seed principale :**
 	- Depuis l'écran d'accueil, allez dans `Passphrase`.
-    - Choisissez `Add Word` et entrez votre mot de passe (ex : `able`).
+    - Choisissez `Add Word` et entrez votre mot de passe.
     - Appuyez sur `Apply`.
     - Vérifiez l'identité du portefeuille :  Allez dans `Advanced > View Identity` pour noter l’empreinte (fingerprint) de ce portefeuille.
 
@@ -110,14 +111,17 @@ Allumez votre Coldcard, entrez votre code PIN.
 	- Depuis l'écran d’accueil, allez dans `Advanced > Derive Seed B85` 
 	- Lisez l’avertissement et confirmez.
 	La ColdCard vous informe que les seeds générées sont dérivées mathématiquement de votre seed principale, mais totalement indépendantes sur le plan cryptographique.
+![image](assets/fr/03.webp)
 
 - **3. Choisir un format**  
 	Sélectionnez le format de la seed phrase secondaire : 12, 18 ou 24 mots. Pour une épargne long terme, préférez 24 mots. Vérifiez le nombre de mots acceptés par le wallet dans lequel vous voulez importer votre seed phrase secondaire.
+![image](assets/fr/04.webp)
 
 - **4. Sélectionner l'index**  
 	- Entrez un index entre 0 et 9999.
 	- Cet index est crucial pour pouvoir régénérer la seed secondaire plus tard. Conservez-le soigneusement avec un label du type : “Index 1 = wallet mobile”, "Index 2 = projet famille", "Index 4 = test mixage", ...
 	- Si vous le perdez, vous ne perdez pas l'accès à vos fonds, mais il vous faudra tester les combinaisons de 0 à 9999 pour les retrouver.
+![image](assets/fr/05.webp)
 
 - **5. Noter ou exporter la seed phrase secondaire**  
 	La ColdCard affiche maintenant une nouvelle seed phrase secondaire. Vous pouvez :
@@ -128,7 +132,8 @@ Allumez votre Coldcard, entrez votre code PIN.
 	    - `3` pour afficher un **QR code** (à scanner avec une application mobile comme BlueWallet ou Nunchuck)
 	    - `4` pour l’envoyer par **NFC**
 	💡 À ce stade, vous avez une seed phrase indépendante, utilisable dans n’importe quel wallet BIP39 (Trezor, Ledger, BlueWallet, Nunchuck…).
-
+![image](assets/fr/06.webp)
+![image](assets/fr/07.webp)
 ### 4.2 Utilisation de la seed secondaire
 
 Vous pouvez maintenant utiliser cette seed dérivée pour créer un nouveau portefeuille dans :    
@@ -138,7 +143,7 @@ Vous pouvez maintenant utiliser cette seed dérivée pour créer un nouveau port
 
 ### 4.3 Récupérer une seed phrase secondaire perdue
 
-À tout moment, pour retrouver cette seed :
+À tout moment, pour retrouver une seed secondaire, recommencez le process :
 1. Redémarrez votre ColdCard
 2. Entrez votre PIN
 3. Entrez votre passphrase, si définie
@@ -202,6 +207,7 @@ Plus de ressources en Annexes.
 - [Seed phrase](https://planb.network/fr/resources/glossary/recovery-phrase)
 - [Passphrase](https://planb.network/fr/resources/glossary/passphrase-bip39)
 - [Multisig](https://planb.network/fr/resources/glossary/multisig)
+
 
 ### A.2 Sauvegarder sa phrase de récupération
 

@@ -1106,9 +1106,9 @@ Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, un
 
 - elementares OS**:
 
-
-
 Elementary OS wurde 2011 eingeführt und ist eine Ubuntu-basierte Distribution, die sich vor allem auf das Design und die Konsistenz von Interface konzentriert. Seine Pantheon-Desktop-Umgebung, inspiriert von macOS, ist minimalistisch, elegant und flüssig. Das System ist jedoch weniger anpassbar als andere Distributionen, und einige fortgeschrittene Benutzer könnten sich durch die Auswahlmöglichkeiten von Interface und seine absichtlich festgelegte Struktur eingeschränkt fühlen. Es ist gut geeignet für ästhetisch sensible Benutzer, die ein einfaches, kohärentes System für den täglichen Gebrauch suchen.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

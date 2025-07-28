@@ -1106,9 +1106,9 @@ Asennus on sujuva, olennaiset ohjelmistot on esiasennettu, ja Lite-version avull
 
 - peruskäyttöjärjestelmä**:
 
-
-
 Vuonna 2011 lanseerattu elementary OS on Ubuntu-pohjainen jakelu, joka keskittyy ennen kaikkea Interface:n suunnitteluun ja johdonmukaisuuteen. Sen Pantheon-työpöytäympäristö, joka on saanut vaikutteita macOS:stä, on minimalistinen, tyylikäs ja sujuva. Järjestelmä on kuitenkin edelleen vähemmän muokattavissa kuin muut jakelut, ja jotkut edistyneet käyttäjät saattavat tuntea Interface:n valintojen ja sen tarkoituksellisesti lukitun rakenteen rajoittavan heitä. Se sopii hyvin esteettisesti herkille käyttäjille, jotka etsivät yksinkertaista, yhtenäistä järjestelmää jokapäiväiseen käyttöön.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

@@ -1106,9 +1106,9 @@ Instalacja przebiega sprawnie, niezbędne oprogramowanie jest preinstalowane, a 
 
 - podstawowy system operacyjny**:
 
-
-
 Wprowadzony na rynek w 2011 roku, elementary OS jest dystrybucją opartą na Ubuntu, która skupia się przede wszystkim na designie i spójności Interface. Środowisko graficzne Pantheon, inspirowane systemem macOS, jest minimalistyczne, eleganckie i płynne. System pozostaje jednak mniej konfigurowalny niż inne dystrybucje, a niektórzy zaawansowani użytkownicy mogą czuć się ograniczeni wyborami Interface i jego celowo zablokowaną strukturą. Dobrze nadaje się dla wrażliwych estetycznie użytkowników szukających prostego, spójnego systemu do codziennego użytku.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

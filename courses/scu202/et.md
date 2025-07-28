@@ -1106,9 +1106,9 @@ Paigaldamine on sujuv, oluline tarkvara on eelinstalleeritud ja "Lite" versioon 
 
 - elementaarne operatsioonisüsteem**:
 
-
-
 2011. aastal käivitatud elementaarne OS on Ubuntu-põhine distributsioon, mis keskendub eelkõige Interface disainile ja järjepidevusele. Selle töölauakeskkond Pantheon, mis on inspireeritud macOSist, on minimalistlik, elegantne ja sujuv. Siiski jääb süsteem vähem kohandatavaks kui teised distributsioonid ning mõned edasijõudnud kasutajad võivad tunda end Interface valikute ja selle teadlikult lukustatud struktuuri tõttu piiratud olevat. See sobib hästi esteetiliselt tundlikele kasutajatele, kes otsivad lihtsat ja ühtset süsteemi igapäevaseks kasutamiseks.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

@@ -1106,9 +1106,9 @@ Installationen är smidig, nödvändig programvara är förinstallerad och med "
 
 - elementärt OS**:
 
-
-
 Elementary OS, som lanserades 2011, är en Ubuntu-baserad distribution som framför allt fokuserar på design och konsekvens i Interface. Dess Pantheon-skrivbordsmiljö, inspirerad av macOS, är minimalistisk, elegant och flytande. Systemet är dock fortfarande mindre anpassningsbart än andra distributioner, och vissa avancerade användare kan känna sig begränsade av Interface: s val och dess medvetet låsta struktur. Det passar bra för estetiskt känsliga användare som letar efter ett enkelt, sammanhängande system för daglig användning.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

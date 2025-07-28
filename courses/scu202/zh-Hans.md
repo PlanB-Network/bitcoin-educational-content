@@ -1106,9 +1106,9 @@ Zorin OS 由一个爱尔兰团队于 2008 年创建，其目标用户是希望�
 
 - 初级操作系统**：
 
-
-
 elementary OS 于 2011 年推出，是一款基于 Ubuntu 的发行版，主要侧重于 Interface 的设计和一致性。它的 Pantheon 桌面环境受到 macOS 的启发，简约、优雅、流畅。不过，与其他发行版相比，该系统的可定制性仍然较低，一些高级用户可能会因 Interface 的选择及其刻意锁定的结构而感到受限。它非常适合对美学敏感、寻求简单连贯的日常使用系统的用户。
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

@@ -1106,9 +1106,9 @@ Pemasangannya lancar, perangkat lunak penting sudah terinstal sebelumnya, dan ve
 
 - oS dasar**:
 
-
-
 Diluncurkan pada tahun 2011, elementary OS adalah distribusi berbasis Ubuntu yang berfokus pada desain dan konsistensi Interface. Lingkungan desktop Pantheon-nya, yang terinspirasi oleh macOS, minimalis, elegan, dan lancar. Namun, sistem ini masih kurang dapat dikustomisasi dibandingkan distribusi lainnya, dan beberapa pengguna tingkat lanjut mungkin merasa dibatasi oleh pilihan Interface dan strukturnya yang sengaja dikunci. Distribusi ini sangat cocok untuk pengguna yang sensitif secara estetika yang mencari sistem yang sederhana dan koheren untuk penggunaan sehari-hari.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

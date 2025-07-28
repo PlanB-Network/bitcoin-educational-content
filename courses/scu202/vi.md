@@ -1106,9 +1106,9 @@ Quá trình cài đặt diễn ra suôn sẻ, các phần mềm thiết yếu đ
 
 - hệ điều hành cơ bản**:
 
-
-
 Ra mắt năm 2011, Elementary OS là một bản phân phối dựa trên Ubuntu, tập trung chủ yếu vào thiết kế và tính nhất quán của Interface. Môi trường desktop Pantheon của nó, lấy cảm hứng từ macOS, mang phong cách tối giản, thanh lịch và mượt mà. Tuy nhiên, hệ thống vẫn còn ít tùy chỉnh hơn so với các bản phân phối khác, và một số người dùng nâng cao có thể cảm thấy bị giới hạn bởi các lựa chọn của Interface và cấu trúc cố định của nó. Nó rất phù hợp với những người dùng yêu thích thẩm mỹ, đang tìm kiếm một hệ thống đơn giản, mạch lạc cho nhu cầu sử dụng hàng ngày.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

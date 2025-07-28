@@ -1106,9 +1106,9 @@ L'installazione è agevole, il software essenziale è preinstallato e la version
 
 - oS** elementare:
 
-
-
 Lanciata nel 2011, elementary OS è una distribuzione basata su Ubuntu che si concentra soprattutto sul design e sulla consistenza di Interface. Il suo ambiente desktop Pantheon, ispirato a macOS, è minimalista, elegante e fluido. Tuttavia, il sistema rimane meno personalizzabile di altre distribuzioni e alcuni utenti avanzati potrebbero sentirsi limitati dalle scelte di Interface e dalla sua struttura volutamente chiusa. È adatta agli utenti esteticamente sensibili che cercano un sistema semplice e coerente per l'uso quotidiano.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

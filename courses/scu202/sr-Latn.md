@@ -1106,9 +1106,9 @@ Instalacija je glatka, osnovni softver je unapred instaliran, a "Lite" verzija v
 
 - elementary OS**:
 
-
-
 Pokrenut 2011. godine, elementary OS je distribucija zasnovana na Ubuntu-u koja se pre svega fokusira na dizajn i doslednost Interface. Njegovo radno okruženje Pantheon, inspirisano macOS-om, je minimalističko, elegantno i fluidno. Međutim, sistem ostaje manje prilagodljiv od drugih distribucija, i neki napredni korisnici mogu se osećati ograničeno izborima Interface i njegovom namerno zaključanom strukturom. Dobro je prilagođen estetski osetljivim korisnicima koji traže jednostavan, koherentan sistem za svakodnevnu upotrebu.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

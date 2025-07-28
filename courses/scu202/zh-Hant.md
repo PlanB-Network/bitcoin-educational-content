@@ -1106,9 +1106,9 @@ Zorin OS 由一個愛爾蘭團隊於 2008 年創立，明確以尋求平順過�
 
 - 基本作業系統**：
 
-
-
 elementary OS 於 2011 年推出，是以 Ubuntu 為基礎的發行版，主要著重於 Interface 的設計與一致性。其 Pantheon 桌面環境的靈感來自 macOS，簡約、優雅且流暢。然而，與其他發行版相比，該系統的自訂性仍然較低，一些進階使用者可能會因為 Interface 的選擇及其刻意鎖定的結構而感到受限。Interface 非常適合對美學敏感、尋求簡單連貫系統作日常使用的使用者。
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

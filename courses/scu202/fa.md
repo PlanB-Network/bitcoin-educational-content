@@ -1106,9 +1106,9 @@ https://planb.network/tutorials/computer-security/operating%20system/linux-mint-
 
 - elementary OS**:
 
-
-
 در سال 2011 راه‌اندازی شد، elementary OS یک توزیع مبتنی بر اوبونتو است که بیش از همه بر طراحی و سازگاری Interface تمرکز دارد. محیط دسکتاپ Pantheon آن، که از macOS الهام گرفته شده، مینیمالیستی، زیبا و روان است. با این حال، سیستم کمتر از سایر توزیع‌ها قابل سفارشی‌سازی است و برخی از کاربران پیشرفته ممکن است به دلیل انتخاب‌های Interface و ساختار عمداً قفل‌شده آن احساس محدودیت کنند. این سیستم برای کاربرانی که به زیبایی حساس هستند و به دنبال یک سیستم ساده و منسجم برای استفاده روزمره هستند، بسیار مناسب است.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

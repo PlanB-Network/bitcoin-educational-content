@@ -1106,9 +1106,9 @@ De installatie verloopt soepel, essentiële software is voorgeïnstalleerd en me
 
 - elementair OS**:
 
-
-
 Elementary OS, dat in 2011 werd gelanceerd, is een op Ubuntu gebaseerde distributie die zich vooral richt op het ontwerp en de consistentie van Interface. De desktopomgeving Pantheon is geïnspireerd op macOS. De Pantheon desktopomgeving, geïnspireerd door macOS, is minimalistisch, elegant en vloeiend. Het systeem blijft echter minder aanpasbaar dan andere distributies, en sommige geavanceerde gebruikers kunnen zich beperkt voelen door de keuzemogelijkheden van Interface en de opzettelijk gesloten structuur. Het is zeer geschikt voor esthetisch gevoelige gebruikers die op zoek zijn naar een eenvoudig, samenhangend systeem voor dagelijks gebruik.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

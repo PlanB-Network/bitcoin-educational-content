@@ -1106,9 +1106,9 @@ Instalace je bezproblémová, základní software je předinstalován a verze "L
 
 - základní OS**:
 
-
-
 Elementary OS, který byl uveden na trh v roce 2011, je distribuce založená na Ubuntu, která se zaměřuje především na design a konzistenci Interface. Její desktopové prostředí Pantheon, inspirované systémem macOS, je minimalistické, elegantní a plynulé. Systém však zůstává méně přizpůsobitelný než jiné distribuce a někteří pokročilí uživatelé se mohou cítit omezeni možnostmi Interface a jeho záměrně uzavřenou strukturou. Je vhodný pro esteticky citlivé uživatele, kteří hledají jednoduchý a ucelený systém pro každodenní používání.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

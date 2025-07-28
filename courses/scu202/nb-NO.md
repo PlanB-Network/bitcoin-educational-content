@@ -1106,9 +1106,9 @@ Installasjonen er enkel, viktig programvare er forhåndsinstallert, og "Lite"-ve
 
 - elementært operativsystem**:
 
-
-
 Elementary OS ble lansert i 2011 og er en Ubuntu-basert distribusjon som først og fremst fokuserer på design og konsistens i Interface. Skrivebordsmiljøet Pantheon, som er inspirert av macOS, er minimalistisk, elegant og flytende. Systemet er imidlertid mindre tilpasningsdyktig enn andre distribusjoner, og noen avanserte brukere kan føle seg begrenset av Interfaces valgmuligheter og den bevisst fastlåste strukturen. Den egner seg godt for estetisk sensitive brukere som er ute etter et enkelt, sammenhengende system til hverdagsbruk.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

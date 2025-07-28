@@ -1106,9 +1106,9 @@ Ufungaji ni laini, programu muhimu imesakinishwa awali, na toleo la "Lite" hukuw
 
 - OS ya msingi**:
 
-
-
 Ilizinduliwa mnamo 2011, OS ya msingi ni usambazaji unaotegemea Ubuntu ambao huzingatia zaidi muundo na uthabiti wa Interface. Mazingira yake ya eneo-kazi la Pantheon, yaliyochochewa na macOS, ni ya chini kabisa, ya kifahari na ya maji. Hata hivyo, mfumo unasalia kubinafsishwa kidogo kuliko ugawaji mwingine, na baadhi ya watumiaji wa hali ya juu wanaweza kuhisi wamewekewa mipaka na chaguo za Interface na muundo wake uliofungwa kimakusudi. Inafaa kwa watumiaji nyeti kwa uzuri wanaotafuta mfumo rahisi, unaoshikamana kwa matumizi ya kila siku.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 

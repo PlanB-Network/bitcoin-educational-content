@@ -28,7 +28,7 @@ L'application Cryptomator est disponible sur **Windows** (exe / msi), **Linux**,
 
 Sur votre machine, **Cryptomator va créer un dossier au sein duquel il va créer un coffre-fort**. Au sein du coffre-fort, qui peut être stocké sur votre OneDrive, Google Drive, ou autre, vos données seront chiffrées. Ainsi, si vous stockez toutes vos données dans le coffre hébergé sur votre espace de stockage Drive, elles seront protégées (car chiffrées).
 
-> **Note** : dans cet article, les services de stockage en ligne sont pris comme exemple, mais Cryptomator peut être utilisé pour chiffrer les données sur un disque local, un disque externe ou encore sur un NAS. Il n'y a pas de restriction, en fait.
+**Note** : dans cet article, les services de stockage en ligne sont pris comme exemple, mais Cryptomator peut être utilisé pour chiffrer les données sur un disque local, un disque externe ou encore sur un NAS. Il n'y a pas de restriction, en fait.
 
 ## II. Installer Cryptomator
 

@@ -22,7 +22,7 @@ En este tutorial, instalaremos la implementación Lightning Network Daemon en nu
 Lightning Network Daemon es una implementación Go completa de Lightning Network. Fue creada por Lightning Labs y te permite ejecutar una instancia completa de un nodo Lightning en tu máquina.
 
 
-En otras palabras, con esta aplicación, podrás :
+En otras palabras, con esta aplicación, podrás:
 
 
 
@@ -90,7 +90,7 @@ Para disfrutar de una experiencia fluida y sin problemas, tu máquina deberá te
 
 
 
-Necesitarás :
+Necesitarás:
 
 
 1. **8 GB de RAM** para una fluidez óptima,
@@ -174,25 +174,16 @@ export PATH=$PATH:$GOROOT/bin
 source ~/.bashrc
 ```
 
-
-
-
-
 - **Comprobación de la instalación** (en francés)
-
 
 ```bash
 go version
 ```
 
-
-
 ![go-version](assets/fr/03.webp)
 
 
 ### Clonar el repositorio GitHub de LND
-
-
 
 Utiliza git para obtener una copia del código fuente de LND localmente en tu máquina
 
@@ -211,8 +202,6 @@ git clone https://github.com/lightningnetwork/lnd.git
 
 La herramienta `make`, previamente instalada, le permitirá construir un ejecutable a partir del código fuente de LND y proceder a su instalación.
 
-
-
 ```bash
 # Acceder au repertoire clonné
 cd lnd
@@ -225,18 +214,12 @@ make
 
 Instala LND en tu máquina
 
-
-
 ```bash
 # installer LND
 make install
 ```
 
-
-
 ![make-lnd](assets/fr/06.webp)
-
-
 
 
 - Comprobación de la instalación** (en francés)
@@ -259,11 +242,7 @@ lncli --version
 ![lnd-version](assets/fr/05.webp)
 
 
-
-
 - Mantenimiento y actualizaciones
-
-
 
 ```bash
 cd lnd
@@ -274,9 +253,7 @@ make clean && make && make install
 
 ⚠️ **IMPORTANTE**: Las actualizaciones de LND pueden requerir versiones más recientes de Go, así que asegúrate de actualizar tu sistema para evitar problemas de dependencia durante la instalación.
 
-
 ### Configuración de Lightning Network Daemon
-
 
 
 La configuración de un nodo Lightning LND es similar a la de Bitcoin, y se realiza en un archivo de configuración que contiene todos los parámetros del nodo. Para ello, en la raíz de tu máquina crea una carpeta oculta `.LND` y luego crea un archivo de configuración `LND.conf` en esta carpeta.
@@ -295,11 +272,7 @@ touch lnd.conf
 
 
 
-
-
 En el archivo de configuración, configura tu nodo LND.
-
-
 
 ```
 noseedbackup=0
@@ -318,20 +291,11 @@ bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 
 ```
 
-
-
 ## Comprender la configuración
-
-
 
 Es importante que conozcas la configuración mínima que necesitas para una correcta y completa instalación de tu nodo LND.
 
-
-
 Basándonos en el contenido del fichero `~/.LND/LND.conf`, aquí están los detalles de los campos:
-
-
-
 
 
 - noseedbackup**: Permite elegir si deseas que LND realice copias de seguridad automáticas de tus billeteras.  Establecer esta propiedad a `0` te permite guardar manualmente la información de restauración en una ubicación segura elegida personalmente.
@@ -340,51 +304,27 @@ Basándonos en el contenido del fichero `~/.LND/LND.conf`, aquí están los deta
 
 
 
-- debuglevel**: Permite definir el nivel de detalle de los errores y registros en caso de que se produzcan errores durante una acción.
+- **debuglevel**: Permite definir el nivel de detalle de los errores y registros en caso de que se produzcan errores durante una acción.
 
 
 
 
 
-- Bitcoin.activo**: Ordena a LND que opere como nodo Bitcoin e interactúe con la red Bitcoin.
+- **Bitcoin.activo**: Ordena a LND que opere como nodo Bitcoin e interactúe con la red Bitcoin.
 
+- **Bitcoin.Mainnet**: Especifica que LND se conecte a la red principal de Bitcoin (Mainnet), puedes establecer los valores `bitcoind.signet` y `bitcoind.regtest` respectivamente para las redes Bitcoin Signet y Bitcoin Regtest
+  
+- **Bitcoin.nodo**: Especifica el tipo de nodo Bitcoin al que debe conectarse LND.
 
+- **Bitcoin.rpcuser** y **Bitcoin.rpcpassword**: Representan respectivamente los nombres de usuario (usuario, contraseña) para conectarse a su nodo Bitcoin
 
-
-
-- Bitcoin.Mainnet**: Especifica que LND se conecte a la red principal de Bitcoin (Mainnet), puedes establecer los valores `bitcoind.signet` y `bitcoind.regtest` respectivamente para las redes Bitcoin Signet y Bitcoin Regtest
-
-
-
-
-
-- Bitcoin.nodo**: Especifica el tipo de nodo Bitcoin al que debe conectarse LND.
-
-
-
-
-
-- Bitcoin.rpcuser** y **Bitcoin.rpcpassword** : Representan respectivamente los nombres de usuario (usuario, contraseña) para conectarse a su nodo Bitcoin
-
-
-
-
-
-- bitcoind.zmqpubrawblock** y **bitcoind.zmqpubrawtx**: Definen respectivamente puntos finales ZeroMQ para recibir notificaciones sobre nuevos bloques y transacciones en la red Bitcoin.
-
-
-
+- **bitcoind.zmqpubrawblock** y **bitcoind.zmqpubrawtx**: Definen respectivamente puntos finales ZeroMQ para recibir notificaciones sobre nuevos bloques y transacciones en la red Bitcoin.
 
 ## Comprobación de la instalación con LND
 
-
-
 Probablemente querrás asegurarte de que el proceso se ha realizado correctamente y de que se está sincronizando con Lightning Network para mantener actualizada la información de los nodos.
 
-
-
-Para iniciar la implementación de LND y obtener información sobre tu nodo, simplemente escribe el comando :
-
+Para iniciar la implementación de LND y obtener información sobre tu nodo, simplemente escribe el comando:
 
 ```bash
 lnd getinfo
@@ -403,22 +343,26 @@ Una vez finalizada y comprobada la instalación, puedes empezar a utilizarlo.
 
 Aquí tienes los comandos esenciales para empezar.
 
-
-
 ### Crear una billetera
+584 lines (466 loc) · 16.2 KB
+name 	description
+LAPP bitcoin
+	
+Tutorial para desarrollar tu primera LApp
+
+Aprende a programar tu primera lightning app
+
+Requisitos:
+
+    NodeJs >= 8
+    LND >= 9
 
 
 Una billetera Lightning es el primer paso para gestionar tus fondos.
 
-
-
 ⚠️ **IMPORTANTE**: Toma nota de tu frase de 24 palabras **seed**. La necesitarás para recuperar tus fondos en caso de problemas.
 
-
-
 Guarda también la contraseña de tu billetera para poder desbloquearla con el comando `lncli unlock` cuando reinicies su nodo LND.
-
-
 
 ```bash
 lncli create
@@ -430,23 +374,17 @@ lncli create
 
 ### Comprueba tu saldo
 
-
-
 Consulta tus cuentas directamente desde tu terminal:
-
 
 
 ```bash
 lncli walletbalance
 ```
 
-
 ![solde](assets/fr/09.webp)
 
 
 ### Información sobre tu nodo
-
-
 
 Utiliza el siguiente comando para averiguar qué canales están activos en tu nodo.
 
@@ -460,17 +398,10 @@ lncli listchannels
 
 También puedes obtener una lista de los nodos a los que está conectado.
 
-
-
 ```bash
 lncli listpeers
 ```
-
-
-
 ### Gestión de canales
-
-
 
 Un canal Lightning te permite tener una **conexión directa, par a par, con otro nodo de la Lightning Network**. En este canal, puedes libremente intercambiar Satoshis hasta la capacidad del canal.
 
@@ -489,9 +420,9 @@ Para conectarte a un peer (nodo Lightning), necesitarás tres datos:
 
 
 
-- La clave pública del nodo**: Es el identificador único del nodo en la red Bitcoin;
-- IP** : La IP de la máquina en la que está instalado el nodo;
-- PUERTO** :  El puerto abierto en la máquina que permite la comunicación con este nodo.
+- **La clave pública del nodo**: Es el identificador único del nodo en la red Bitcoin;
+- **IP**: La IP de la máquina en la que está instalado el nodo;
+- **PUERTO**:  El puerto abierto en la máquina que permite la comunicación con este nodo.
 
 
 
@@ -503,7 +434,7 @@ Puedes encontrar nodos a los que conectarte en [amboss](https://amboss.space/), 
 # Se connecter à un noeud
 lncli connect <ID_PUBKEY>@<IP>:<PORT>
 
-# Un exemple  : Connexion au noeud de Wallet of Satoshi
+# Un exemple: Connexion au noeud de Wallet of Satoshi
 lncli connect 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226@170.75.163.209:9735
 ```
 
@@ -516,25 +447,25 @@ Asegúrate de conectarte a **nodos fiables** para preservar la integridad de tu 
 
 
 
-- Diversificación geográfica**: Conéctate a nodos de diferentes regiones.
+- **Diversificación geográfica**: Conéctate a nodos de diferentes regiones.
 
 
 
 
 
-- Reputación**: Elije nodos con buena disponibilidad.
+- **Reputación**: Elije nodos con buena disponibilidad.
 
 
 
 
 
-- Capacidad**: Elije nodos con buena liquidez.
+- **Capacidad**: Elije nodos con buena liquidez.
 
 
 
 
 
-- Cargos**: Comisiones por enrutamiento.
+- **Cargos**: Comisiones por enrutamiento.
 
 
 ### Abrir un canal de pago
@@ -587,7 +518,7 @@ Hay dos formas de cerrar un canal activo en el nodo actual.
 
 
 
-- Cierre cooperativo**: Señala el deseo de tu nodo de retirarse del canal de pago, asegurando que se completan las tareas en curso y que se realiza una copia de seguridad de los datos para evitar la pérdida de fondos.
+- **Cierre cooperativo**: Señala el deseo de tu nodo de retirarse del canal de pago, asegurando que se completan las tareas en curso y que se realiza una copia de seguridad de los datos para evitar la pérdida de fondos.
 
 
 ```
@@ -597,7 +528,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Cierre forzoso**: ⚠️ Debe evitarse en la medida de lo posible, esta acción interrumpe los procesos en curso en tu canal de pago y aumenta el riesgo de pérdida de fondos.
+- **Cierre forzoso**: ⚠️ Debe evitarse en la medida de lo posible, esta acción interrumpe los procesos en curso en tu canal de pago y aumenta el riesgo de pérdida de fondos.
 
 
 ```
@@ -611,13 +542,7 @@ lncli closechannel --force <ID_CANAL>
 La seguridad es primordial cuando se utiliza un nodo Bitcoin/ Lightning. He aquí algunos puntos para reforzar la seguridad de tu instalación:
 
 
-
-
-
 - Guarda tu frase `seed` en un lugar seguro y fuera de línea.
-
-
-
 
 
 - Haz copias de seguridad periódicas del archivo `~/.LND/channel.backup`: Este archivo guarda los estados de tus canales cada vez que se abre un nuevo canal (o se cierra uno antiguo) en tu nodo.
@@ -648,11 +573,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 ### Problemas frecuentes
 
 
-
-
-- bitcoind error de conexión** : Comprueba tus datos de conexión RPC
-- Sincronización bloqueada** : Comprueba tu conexión a Internet
-- Error de permisos**: Comprueba los derechos de la carpeta `~/.LND`
+- **bitcoind error de conexión**: Comprueba tus datos de conexión RPC
+- **Sincronización bloqueada**: Comprueba tu conexión a Internet
+- **Error de permisos**: Comprueba los derechos de la carpeta `~/.LND`
 
 
 

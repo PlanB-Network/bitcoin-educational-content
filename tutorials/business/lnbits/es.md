@@ -460,7 +460,7 @@ Si eres nuevo en el mundo del desarrollo, empieza con estas [presentaciones Make
 - Añadir lightning:lnurl1234xyz creará un QR que solicita abrir la billetera del usuario para este cobro al escanearlo (última aplicación de lightning instalada en iOS, configuración en Android)
 - Si estás flasheando un esp32 vía web sólo funcionará con estos navegadores (TL:DR Chrome, Edge & Opera).
 - Ten en cuenta esta referencia PIN-OUT para el esp
-- Cuando utilices FOSSoftware o FOSGuides, enlaza siempre al autor. A todo el mundo le gusta ver crecer a su bebé y también se inicia una cadena de desarrollo que es bastante impresionante de ver :)
+- Cuando utilices FOSSoftware o FOSGuides, enlaza siempre al autor. A todo el mundo le gusta ver crecer a su bebé y también se inicia una cadena de desarrollo que es bastante impresionante de ver:)
 
 Ven al [Grupo de Telegram de Makerbits](https://t.me/makerbits) si necesitas ayuda con un proyecto: ¡Cuenta con nosotros!
 

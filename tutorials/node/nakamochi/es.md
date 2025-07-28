@@ -26,7 +26,7 @@ Tu nodo Nakamochi se gestiona a través de una aplicación móvil, [BitBanana (A
 
 1. Conecta el Nakamochi a la corriente y al Wi-Fi.
 
-2. Haz clic en **"Configurar nueva cartera "** y guarda de forma segura tu frase de recuperación de 24 palabras.
+2. Haz clic en **"Configurar nueva cartera"** y guarda de forma segura tu frase de recuperación de 24 palabras.
 
 3. Utiliza una aplicación de gestión de nodos (Zeus o BitBanana) para conectarte a tu Nakamochi:
 
@@ -68,7 +68,7 @@ La privacidad es otra ventaja, ya que las transacciones en Lightning se dirigen 
 
 La red Lightning funciona a través de canales de pago, que son conexiones entre dos partes que permiten múltiples transacciones sin interactuar directamente con la blockchain. Cuando un canal está abierto, el saldo entre las dos partes se actualiza en esta solución Lightning de segunda capa para cada transacción, lo que garantiza pagos rápidos y de bajo coste. Este diseño garantiza la escalabilidad y la privacidad, ya que las transacciones individuales no quedan registradas en el libro mayor público.
 
-**Ejemplo:** Alice y Bob abren un canal depositando Bitcoin en él. Alice envía Bitcoins a Bob, y sus balances fuera de la cadena se actualizan instantáneamente sin un registro "on chain". Si Alice paga a Charlie, y Alice no tiene un canal directo con Charlie, el pago puede ser enrutado a través del canal de Bob para llegar a Charlie. El enrutamiento a través de nodos intermediarios garantiza los pagos incluso sin conexiones directas, lo que hace que la red sea muy eficiente.
+**Ejemplo:** Alice y Bob abren un canal depositando Bitcoin en él. Alice envía Bitcoins a Bob, y sus balances fuera de la cadena se actualizan instantáneamente sin un registro"on chain". Si Alice paga a Charlie, y Alice no tiene un canal directo con Charlie, el pago puede ser enrutado a través del canal de Bob para llegar a Charlie. El enrutamiento a través de nodos intermediarios garantiza los pagos incluso sin conexiones directas, lo que hace que la red sea muy eficiente.
 
 ## Abrir canales y realizar transacciones en Lightning Network
 
@@ -76,7 +76,7 @@ Una vez que tu Nakamochi está configurado y conectado a una aplicación de gest
 
 ### Abrir canales en Zeus (iOS):
 
-1. Ve a la pestaña **"Canales "** (menú inferior).
+1. Ve a la pestaña **"Canales"** (menú inferior).
 
 2. Haz clic en el signo **"+"** para abrir un nuevo canal.
 
@@ -84,7 +84,7 @@ Una vez que tu Nakamochi está configurado y conectado a una aplicación de gest
 
 4. Introduce la cantidad bloqueada (elije con tu par o utiliza la cantidad fija mínima para nodos conocidos).
 
-5. Haz clic en **"Abrir canal "**.
+5. Haz clic en **"Abrir canal"**.
 
 ![image](assets/en/06.webp)
 
@@ -96,7 +96,7 @@ Para más información: [Canales | Documentación Zeus](https://docs.zeusln.app/
 
 1. Abre el menú hamburguesa (izquierda).
 
-2. Ve a **"Canales "**.
+2. Ve a **"Canales"**.
 
 3. Haz clic en el signo **"+"** para añadir o abrir un nuevo canal.
 
@@ -112,7 +112,7 @@ Para más información: [BitBanana](https://bitbanana.com)
 
 Una vez abierto tu canal, los pagos pueden enrutarse a través de él a otros participantes en la red. Los saldos se ajustan fuera de la cadena, lo que garantiza que las transacciones sean casi instantáneas e incurran en comisiones mínimas.
 
-Si ya no necesitas un canal, puedes cerrarlo. Esta acción liquida el saldo final entre tú y tu par y lo registra en la cadena. Lo ideal es que ambas partes estén de acuerdo y en línea para un "cierre cooperativo" (más rápido y con menos comisiones que un "cierre forzado" con un peer que no responde o está desconectado).
+Si ya no necesitas un canal, puedes cerrarlo. Esta acción liquida el saldo final entre tú y tu par y lo registra en la cadena. Lo ideal es que ambas partes estén de acuerdo y en línea para un"cierre cooperativo" (más rápido y con menos comisiones que un"cierre forzado" con un peer que no responde o está desconectado).
 
 En general, recomendamos dejar los canales abiertos para reducir costes y aumentar la fiabilidad y eficiencia de la red. Al mantener los canales abiertos, se minimizan las comisiones por transacción en la cadena, se evita el tiempo de inactividad por reconexión de canales y se mantiene una capacidad de enrutamiento estable para un procesamiento de pagos sin problemas. Este enfoque fomenta una red sólida y resistente, al tiempo que mejora la experiencia general del usuario y reduce la sobrecarga operativa.
 

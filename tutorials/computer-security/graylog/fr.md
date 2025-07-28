@@ -1,6 +1,6 @@
 ---
 name: Graylog
-description: Centraliser et analyser vos logs facilement
+description: Centralisez et analysez vos logs facilement
 ---
 ![cover](assets/cover.webp)
 
@@ -29,7 +29,7 @@ Graylog est un outil d'analyse et de surveillance qui va vous permettre d'identi
 
 La **stack Graylog** s'appuie sur **plusieurs composants** que nous devrons installer et configurer. Ici, nous installerons tous les composants sur le même serveur, mais il est possible de créer des clusters basés sur plusieurs nœuds et de répartir les rôles sur plusieurs serveurs. Dans le cadre de ce tutoriel, nous installerons **Graylog 6.1**, soit la version la plus récente à ce jour.
 
-* **MongoDB 6**, qui est la version actuellement recommandée pour Graylog (minimum 5.0.7, maximum 7.x)
+* **MongoDB 7**, qui est la version actuellement recommandée pour Graylog (minimum 5.0.7, maximum 7.x)
 * **OpenSearch**, qui est un fork open source de Elasticsearch créé par Amazon (minimum 1.1.x, maximum 2.15.x)
 * **OpenJDK 17**
 

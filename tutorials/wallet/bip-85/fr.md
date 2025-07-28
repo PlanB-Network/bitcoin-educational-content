@@ -1,6 +1,6 @@
 ---
-name: BIP-85
-description: Comment utiliser BIP85 pour générer plusieurs seedphrases à partir d'une seed principale
+name: BIP0085
+description: Comment utiliser BIP-85 pour générer plusieurs seedphrases à partir d'une seed principale
 ---
 ![cover](assets/cover.webp)
 

@@ -1,6 +1,6 @@
 ---
 name: Cryptomator
-description: Chiffrez vos fichiers dans le Cloud
+description: Chiffrez vos fichiers dans le cloud
 ---
 ![cover](assets/cover.webp)
 

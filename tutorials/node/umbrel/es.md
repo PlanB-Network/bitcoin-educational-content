@@ -46,7 +46,7 @@ Gestionar tu propio nodo Bitcoin es un paso crucial hacia la soberanía financie
 
 
 
-Umbrel es un sistema operativo de código abierto que simplifica la instalación y gestión de un nodo Bitcoin. También transforma tu ordenador en un servidor doméstico personal y privado, facilitando el alojamiento de :
+Umbrel es un sistema operativo de código abierto que simplifica la instalación y gestión de un nodo Bitcoin. También transforma tu ordenador en un servidor doméstico personal y privado, facilitando el alojamiento de:
 
 
 
@@ -156,7 +156,7 @@ UmbrelOS es la versión gratuita y de código abierto del sistema operativo Umbr
 
 
 
-Esta versión es ideal para :
+Esta versión es ideal para:
 
 
 
@@ -168,7 +168,7 @@ Esta versión es ideal para :
 
 
 
-Enlaces oficiales de instalación :
+Enlaces oficiales de instalación:
 
 
 
@@ -191,7 +191,7 @@ En este tutorial, nos centraremos en la instalación de UmbrelOS en una Raspberr
 
 
 
-Para esta instalación necesitarás :
+Para esta instalación necesitarás:
 
 
 
@@ -327,7 +327,7 @@ Para esta instalación necesitarás :
 
 
 
-Si `umbrel.local` no funciona, tendrás que encontrar la dirección IP de tu Raspberry Pi en tu red local. Puedes :
+Si `umbrel.local` no funciona, tendrás que encontrar la dirección IP de tu Raspberry Pi en tu red local. Puedes:
 
 
 
@@ -468,7 +468,7 @@ La "Mempool" (reserva de memoria) es como una sala de espera virtual donde se al
 
 
 
-El número recomendado de confirmaciones depende de la cantidad :
+El número recomendado de confirmaciones depende de la cantidad:
 
 
 
@@ -513,7 +513,7 @@ Una vez encontrada la transacción, Mempool.space presenta un análisis completo
 
 
 
-1. **Información esencial** :
+1. **Información esencial**:
 
 
 
@@ -528,7 +528,7 @@ Una vez encontrada la transacción, Mempool.space presenta un análisis completo
 
 
 
-2. **Estructura de transacción** :
+2. **Estructura de transacción**:
 
 
 
@@ -539,7 +539,7 @@ Una vez encontrada la transacción, Mempool.space presenta un análisis completo
 
 
 
-3. **Datos técnicos** :
+3. **Datos técnicos**:
 
 
 
@@ -691,7 +691,7 @@ Número de puerto: 50001
 **Conexión remota (Tor)**
 
 
-Host : [tu-Address-onion]
+Host: [tu-Address-onion]
 
 
 Número de puerto: 50001
@@ -705,7 +705,7 @@ La conexión Tor es necesaria si quieres acceder a tu nodo fuera de tu red local
 ![Configuration connexion](assets/fr/21.webp)
 
 
-Para más información sobre el software Sparrow Wallet, disponemos de un tutorial completo :
+Para más información sobre el software Sparrow Wallet, disponemos de un tutorial completo:
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

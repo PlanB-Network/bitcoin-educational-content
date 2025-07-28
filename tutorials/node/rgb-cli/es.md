@@ -24,7 +24,7 @@ El comando principal se llama simplemente `rgb`. Está diseñado para recordar a
 
 ### Instalación a través de Cargo
 
-Instalamos la herramienta en Rust con :
+Instalamos la herramienta en Rust con:
 
 ```bash
 cargo install rgb-contracts --all-features
@@ -34,7 +34,7 @@ cargo install rgb-contracts --all-features
 
 La instalación compila un gran número de dependencias (por ejemplo, análisis sintáctico de comandos, integración de Electrum, gestión de pruebas de conocimiento-cero, etc.).
 
-Una vez finalizada la instalación, el archivo :
+Una vez finalizada la instalación, el archivo:
 
 ```bash
 rgb
@@ -52,7 +52,7 @@ Cuando ejecutes el siguiente comando, verás que ya viene integrada por defecto 
 rgb interfaces
 ```
 
-Si esta interfaz no está integrada, clona el archivo :
+Si esta interfaz no está integrada, clona el archivo:
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
@@ -72,7 +72,7 @@ rgb import interfaces/RGB20.rgb
 
 ![RGB-CLI](assets/fr/02.webp)
 
-Sin embargo, nos dicen que todavía no se ha importado ningún esquema al programa. Tampoco hay ningún contrato en el almacén. Para verlo, ejecuta el comando :
+Sin embargo, nos dicen que todavía no se ha importado ningún esquema al programa. Tampoco hay ningún contrato en el almacén. Para verlo, ejecuta el comando:
 
 ```bash
 rgb schemata
@@ -97,7 +97,7 @@ Esto genera varios archivos `.rgb` y `.rgba` correspondientes a los esquemas com
 
 ### Importación de esquemas e interfaces
 
-Ahora puedes importar el esquema en `rgb` :
+Ahora puedes importar el esquema en `rgb`:
 
 ```bash
 rgb import schemata/NonInflatableAssets.rgb
@@ -121,12 +121,12 @@ Existen dos enfoques para crear un nuevo activo:
 
 Puedes encontrar ejemplos en Rust en la carpeta `examples`, que ilustran cómo se construye un `ContractBuilder`, se rellena el `global state` (nombre del activo, ticker, suministro, fecha, etc.), se define el Owned State (a qué UTXO está asignado), y luego se compila todo esto en una *contratación de consignación* que puedes exportar, validar e importar a un alijo.
 
-La otra forma es editar manualmente un archivo YAML para personalizar el `ticker`, el `name`, el `supply`, etc. Supongamos que el archivo se llama `RGB20-demo.yaml`. Puedes especificar :
+La otra forma es editar manualmente un archivo YAML para personalizar el `ticker`, el `name`, el `supply`, etc. Supongamos que el archivo se llama `RGB20-demo.yaml`. Puedes especificar:
 
 
 - `spec`: ticker, nombre, precisión ;
 - `terms`: un campo para avisos legales ;
-- `issuedSupply` : la cantidad de monedas emitidas ;
+- `issuedSupply`: la cantidad de monedas emitidas ;
 - `assignments`: indica el precinto de un solo uso (*definición del precinto*) y la cantidad desbloqueada.
 
 He aquí un ejemplo de archivo YAML a crear:
@@ -152,7 +152,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 
 ![RGB-CLI](assets/fr/05.webp)
 
-A continuación, basta con ejecutar el comando :
+A continuación, basta con ejecutar el comando:
 
 ```bash
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
@@ -160,13 +160,13 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 
 ![RGB-CLI](assets/fr/06.webp)
 
-En mi caso, el identificador único del esquema (que debe ir entre comillas simples) es `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` y no he puesto ningún emisor. Así que mi orden es :
+En mi caso, el identificador único del esquema (que debe ir entre comillas simples) es `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` y no he puesto ningún emisor. Así que mi orden es:
 
 ```txt
 rgb issue 'RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k' ssi:anonymous rgb20-demo.yaml
 ```
 
-Si no conoces el ID del esquema, ejecuta el comando :
+Si no conoces el ID del esquema, ejecuta el comando:
 
 ```bash
 rgb schemata
@@ -190,7 +190,7 @@ rgb state '<ContractId>'
 
 ## Exportación, importación y validación
 
-Para compartir este contrato con otros usuarios, puede exportarse desde el alijo a un archivo :
+Para compartir este contrato con otros usuarios, puede exportarse desde el alijo a un archivo:
 
 ```bash
 rgb export '<ContractId>' myContractPBN.rgb
@@ -198,7 +198,7 @@ rgb export '<ContractId>' myContractPBN.rgb
 
 ![RGB-CLI](assets/fr/09.webp)
 
-El archivo `myContractPBN.rgb` puede pasarse a otro usuario, que puede añadirlo a su alijo con el comando :
+El archivo `myContractPBN.rgb` puede pasarse a otro usuario, que puede añadirlo a su alijo con el comando:
 
 ```bash
 rgb import myContractPBN.rgb
@@ -206,7 +206,7 @@ rgb import myContractPBN.rgb
 
 En la importación, si se trata de un simple *envío de contrato*, obtendremos un mensaje "`Importing consignment rgb`". Si se trata de un *envío de transición de estado* más grande, el comando será diferente (`rgb accept`).
 
-Para garantizar la validez, también se puede utilizar la función de validación local. Por ejemplo, puedes ejecutar :
+Para garantizar la validez, también se puede utilizar la función de validación local. Por ejemplo, puedes ejecutar:
 
 ```bash
 rgb validate myContract.rgb
@@ -214,7 +214,7 @@ rgb validate myContract.rgb
 
 ### Uso, verificación y visualización del alijo
 
-Como recordatorio, el alijo es un inventario local de esquemas, interfaces, implementaciones y contratos (Génesis + transiciones). Cada vez que ejecutas "importar", añades un elemento al alijo. Este alijo puede verse en detalle con el comando :
+Como recordatorio, el alijo es un inventario local de esquemas, interfaces, implementaciones y contratos (Génesis + transiciones). Cada vez que ejecutas "importar", añades un elemento al alijo. Este alijo puede verse en detalle con el comando:
 
 ```bash
 rgb dump
@@ -230,7 +230,7 @@ Para realizar una transferencia, necesitarás usar una billetera Bitcoin local p
 
 ### Generar un recibo
 
-En la mayoría de los casos, la interacción entre los participantes en un contrato (por ejemplo, Alice y Bob) tiene lugar a través de la generación de un recibo. Si Alice quiere que Bob ejecute algo (una transferencia de tokens, una reemisión, una acción en un DAO, etc.), Alice crea un recibo detallando sus instrucciones a Bob. Así tenemos :
+En la mayoría de los casos, la interacción entre los participantes en un contrato (por ejemplo, Alice y Bob) tiene lugar a través de la generación de un recibo. Si Alice quiere que Bob ejecute algo (una transferencia de tokens, una reemisión, una acción en un DAO, etc.), Alice crea un recibo detallando sus instrucciones a Bob. Así tenemos:
 
 
 - **Alice** (el emisor del recibo) ;
@@ -244,7 +244,7 @@ El siguiente comando genera un recibo RGB:
 $ rgb invoice $CONTRACT -i $INTERFACE $ACTION $STATE $SEAL
 ```
 
-Con :
+Con:
 
 
 - `$CONTRACT`: Identificador del contrato (*ContractId*) ;
@@ -261,7 +261,7 @@ alice$ MY_UTXO=4960acc21c175c551af84114541eace09c14d3a1bb184809f7b80916f57f9ef8:
 alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 ```
 
-La CLI generará un recibo como :
+La CLI generará un recibo como:
 
 ```bash
 rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-...
@@ -271,7 +271,7 @@ Puede transmitirse a Bob a través de cualquier canal (texto, código QR, etc.).
 
 ### Realizar una transferencia
 
-Para transferir desde este recibo :
+Para transferir desde este recibo:
 
 
 - Bob (que tiene los tokens en su alijo) tiene una billetera Bitcoin. Necesita preparar una transacción Bitcoin (en forma de PSBT, por ejemplo `tx.psbt`) que gaste los UTXOs donde se encuentran los tokens RGB necesarios, más un UTXO para la moneda (intercambio) ;
@@ -282,12 +282,12 @@ bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 ```
 
 
-- Esto genera un archivo `consignment.rgb` que contiene :
+- Esto genera un archivo `consignment.rgb` que contiene:
  - El historial de transición prueba a Alice que las fichas son auténticas;
  - La nueva transición que transfiere fichas al Sello de un solo uso de Alice ;
  - Una transacción testigo (sin firma).
 - Bob envía este archivo `consignment.rgb` a Alice (por correo electrónico, un servidor de intercambio o un protocolo RGB-RPC, Storm, etc.);
-- Alice recibe `consigna.rgb` y lo acepta en su propio alijo :
+- Alice recibe `consigna.rgb` y lo acepta en su propio alijo:
 
 ```bash
 alice$ rgb accept consignment.rgb

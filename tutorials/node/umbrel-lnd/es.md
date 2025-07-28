@@ -23,7 +23,7 @@ Antes de desplegar Lightning, necesitas tener un nodo Bitcoin completamente oper
 
 
 
-Para instalar Umbrel y configurar tu nodo Bitcoin, te recomendamos que sigas nuestro tutorial dedicado :
+Para instalar Umbrel y configurar tu nodo Bitcoin, te recomendamos que sigas nuestro tutorial dedicado:
 
 
 
@@ -53,7 +53,7 @@ Para funcionar, un nodo Lightning debe estar permanentemente conectado a la red 
 
 
 
-Para una introducción teórica completa a Lightning Network, te recomendamos que sigas nuestro curso específico :
+Para una introducción teórica completa a Lightning Network, te recomendamos que sigas nuestro curso específico:
 
 
 
@@ -71,11 +71,11 @@ Operar tu propio nodo Lightning (LND) en Umbrel te proporciona una soberanía to
 
 
 
-### Comparación de soluciones Lightning :
+### Comparación de soluciones Lightning:
 
 
 
-**Soluciones custodiales (ej: Wallet de Satoshi)** :
+**Soluciones custodiales (ej: Wallet de Satoshi)**:
 
 
 
@@ -87,7 +87,7 @@ Operar tu propio nodo Lightning (LND) en Umbrel te proporciona una soberanía to
 
 
 
-**Billeteras de consumo de productos no básicos (por ejemplo, Phoenix, Breez)** :
+**Billeteras de consumo de productos no básicos (por ejemplo, Phoenix, Breez)**:
 
 
 
@@ -100,7 +100,7 @@ Operar tu propio nodo Lightning (LND) en Umbrel te proporciona una soberanía to
 
 
 
-**Nodo LND autoalojado (Umbrel)** :
+**Nodo LND autoalojado (Umbrel)**:
 
 
 
@@ -198,8 +198,9 @@ Estas opciones son esenciales para la seguridad y la gestión de tu nodo Lightni
 - [Comunidad Umbrel](https://community.umbrel.com) - Foro de debate para que los usuarios compartan problemas y soluciones relacionados con Umbrel y su ecosistema
 
 
-> - [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Descripción de las características de la aplicación Lightning Node en Umbrel
-> - [LND Docs - Quickstart](https://docs.lightning.engineering/lightning-network-tools/LND/run-LND) - Documentación oficial de LND
+- [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Descripción de las características de la aplicación
+- Lightning Node en Umbrel
+- [LND Docs - Quickstart](https://docs.lightning.engineering/lightning-network-tools/LND/run-LND) - Documentación oficial de LND
 
 ### 4.2 Abrir un canal Lightning
 
@@ -233,7 +234,7 @@ Para este tutorial, abriremos un canal con [Swiss Bitcoin Pay](https://amboss.sp
 
 
 
-Para abrir el canal :
+Para abrir el canal:
 
 
 
@@ -249,7 +250,7 @@ En la página de inicio del Nodo Lightning, haz clic en el botón "+ ABRIR CANAL
 
 
 
-En la página de configuración del canal :
+En la página de configuración del canal:
 
 
 
@@ -306,7 +307,7 @@ La Interface principal ofrece tres opciones importantes:
 
 
 
-- " Swaps de liquidez: explora las ofertas de swaps disponibles
+- "Swaps de liquidez": explora las ofertas de swaps disponibles
 - "Abrir para mí": filtra los swaps a los que puedes optar
 - "To Docs": acceso a la documentación
 
@@ -340,7 +341,7 @@ La página "Swaps de liquidez" muestra todas las ofertas de swaps disponibles en
 
 
 
-Ejemplo de datos de intercambio :
+Ejemplo de datos de intercambio:
 
 
 
@@ -360,7 +361,7 @@ Para controlar tu nodo Lightning a distancia (smartphone), puedes utilizar Zeus 
 
 
 
-**Configuración de Zeus con Umbrel :**
+**Configuración de Zeus con Umbrel:**
 
 
 
@@ -387,7 +388,7 @@ Aparecerá un código QR con los datos de acceso a LND en formato lndconnect. Es
 
 
 
-En tu teléfono :
+En tu teléfono:
 
 
 
@@ -426,7 +427,7 @@ Por defecto, la conexión Zeus ↔ Umbrel es vía Tor. Para una conexión más r
 
 
 
-**Lightning Node Connect (LNC)** :
+**Lightning Node Connect (LNC)**:
 
 
 
@@ -504,10 +505,10 @@ Tu nodo Lightning Umbrel requiere dos tipos de copias de seguridad:
 
 
 
-Para guardar tus canales manualmente :
+Para guardar tus canales manualmente:
 
 
-1. Accede al menú del Nodo Lightning (tres puntos "⋮" junto a "+ Abrir canal")
+1. Accede al menú del Nodo Lightning (tres puntos"⋮ "junto a" + Abrir canal")
 
 
 2. Descarga el archivo de copia de seguridad del canal
@@ -524,7 +525,7 @@ Para guardar tus canales manualmente :
 
 
 
-Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que garantiza :
+Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que garantiza:
 
 
 
@@ -568,7 +569,7 @@ Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que g
 
 
 
-Si se pierde el nodo (fallo de hardware, tarjeta SD dañada) :
+Si se pierde el nodo (fallo de hardware, tarjeta SD dañada):
 
 
 
@@ -609,20 +610,18 @@ Lo ideal es dejar el nodo en línea lo más a menudo posible. En caso de ausenci
 
 
 
-Para saber más sobre la configuración y el uso de las torres de vigilancia, te recomendamos que eches un vistazo a nuestro tutorial dedicado :
+Para saber más sobre la configuración y el uso de las torres de vigilancia, te recomendamos que eches un vistazo a nuestro tutorial dedicado:
 
 
 
 https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+
 ### Otras buenas prácticas
 
 
-
-
-
-- Actualizaciones de software:** Mantener Umbrel y LND al día (correcciones de seguridad)
-- Protección del hardware:** Utiliza un sistema estable (Raspberry Pi con SSD, mini-PC) y un SAI
-- Seguridad de la red:** Mantener configuración Tor por defecto, cambiar contraseña admin Umbrel (por defecto: "moneyprintergobrrr")
+- **Actualizaciones de software:** Mantener Umbrel y LND al día (correcciones de seguridad)
+- **Protección del hardware:** Utiliza un sistema estable (Raspberry Pi con SSD, mini-PC) y un SAI
+- **Seguridad de la red:** Mantener configuración Tor por defecto, cambiar contraseña admin Umbrel (por defecto: "moneyprintergobrrr")
 - Cifrado:** Activa el cifrado de disco si es posible
 
 
@@ -691,8 +690,8 @@ RTL es una completa "navaja suiza" para administrar un nodo Lightning con un enf
 
 
 
-- Lightning Shell** : Línea de comandos (lncli) a través del navegador
-- Explorador BTC RPC y Mempool** : Supervisión Blockchain
+- Lightning Shell**: Línea de comandos (lncli) a través del navegador
+- Explorador BTC RPC y Mempool**: Supervisión Blockchain
 - LNmetrics y Torq**: Análisis del rendimiento de las rutas
 - Amboss y 1ML**: gestión "social" de tu nodo (alias, contactos, análisis de redes)
 

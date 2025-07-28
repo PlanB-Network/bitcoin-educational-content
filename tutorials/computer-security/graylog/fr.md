@@ -33,7 +33,7 @@ La **stack Graylog** s'appuie sur **plusieurs composants** que nous devrons inst
 * **OpenSearch**, qui est un fork open source de Elasticsearch créé par Amazon (minimum 1.1.x, maximum 2.15.x)
 * **OpenJDK 17**
 
-Le **serveur Graylog** est sous **Debian 12**, mais l'installation est possible sur d'autres distributions, y compris par l'intermédiaire de Docker. La machine virtuelle est équipée de **8 Go de RAM** et **256 Go d'espace disque**, afin d'avoir assez de ressources pour tous les composants (sinon cela peut avoir un impact important sur les performances). Mais, je l'indique à titre indicatif, car **le dimensionnement de l'architecture Graylog dépend de la quantité d'informations à traiter**. Graylog peut tout à fait traiter 30 Mo ou 300 Mo de données par jour, comme 300 Go de données par jour... C'est une **solution scalable** capable de gérer **des téraoctets de logs** (voir [cette page](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0))
+Le **serveur Graylog** est sous **Debian 12**, mais l'installation est possible sur d'autres distributions, y compris par l'intermédiaire de Docker. La machine virtuelle est équipée de **8 Go de RAM** et **256 Go d'espace disque**, afin d'avoir assez de ressources pour tous les composants (sinon cela peut avoir un impact important sur les performances). Mais, je l'indique à titre indicatif, car **le dimensionnement de l'architecture Graylog dépend de la quantité d'informations à traiter**. Graylog peut tout à fait traiter 30 Mo ou 300 Mo de données par jour, comme 300 Go de données par jour... C'est une **solution scalable** capable de gérer **des téraoctets de logs** (voir [cette page](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0)).
 
 ![Image](assets/fr/032.webp)
 
@@ -45,11 +45,7 @@ Avant de commencer la configuration, attribuez une adresse IP statique à la mac
 sudo timedatectl set-timezone Europe/Paris
 ```
 
-Afin de configurer le client NTP sous Linux, consultez ce tutoriel :
-
-* [Linux - Configurer le client NTP pour la synchronisation date et heure](https://www.it-connect.fr/configurer-un-client-ntp-sous-linux/)
-
-> **Remarque** : l'installation d'**OpenSearch est facultative** si vous utilisez **Graylog Data Node** à la place.
+**Remarque** : l'installation d'**OpenSearch est facultative** si vous utilisez **Graylog Data Node** à la place.
 
 ### III. Installation pas à pas de Graylog
 
@@ -302,7 +298,7 @@ Profitez d'être dans le fichier de configuration pour configurer l'option nomm�
 
 ![Image](assets/fr/024.webp)
 
-Puis, configurez l'option "**elasticsearch_hosts**" avec la valeur "**http://127.0.0.1:9200**" pour déclarer notre instance locale OpenSearch. Ceci est nécessaire, car nous n'utilisons pas de **Graylog Data Node**. Et sans cette option, il ne sera pas possible d'aller plus loin...
+Puis, configurez l'option "**elasticsearch_hosts**" avec la valeur `http://127.0.0.1:9200` pour déclarer notre instance locale OpenSearch. Ceci est nécessaire, car nous n'utilisons pas de **Graylog Data Node**. Et sans cette option, il ne sera pas possible d'aller plus loin...
 
 ![Image](assets/fr/025.webp)
 
@@ -379,7 +375,7 @@ Vous pouvez aussi cocher l'option "**Store full message**" pour que le message d
 Le nouvel Input a été créé et il est désormais actif. Désormais, Graylog peut recevoir les logs Syslog sur le port 12514/UDP, mais nous n'en avons pas fini avec la configuration de l'application.
 
 ![Image](assets/fr/018.webp)
-> **Remarque** : un seul Input peut être utilisé pour stocker les journaux de plusieurs machines Linux.
+**Remarque** : un seul Input peut être utilisé pour stocker les journaux de plusieurs machines Linux.
 
 #### B. Créer un nouvel Index Linux
 
@@ -399,7 +395,7 @@ Désormais, nous devons créer un nouveau stream pour router les messages vers c
 
 Pour créer un nouveau Stream, cliquez sur "**Streams**" dans le menu principal de Graylog. Ensuite, cliquez sur le bouton "**Create stream**" situé sur la droite. Dans la fenêtre qui apparaît, nommez le stream, par exemple "**Linux Stream**" et choisissez l'index "**Linux Index**" pour le champ nommé "**Index Set**". Validez.
 
-> **Remarque** : les messages correspondants à ce stream seront aussi inclus dans le "**Default Stream**", sauf si vous cochez l'option "**Remove matches from 'Default Stream'**".
+**Remarque** : les messages correspondants à ce stream seront aussi inclus dans le "**Default Stream**", sauf si vous cochez l'option "**Remove matches from 'Default Stream'**".
 
 ![Image](assets/fr/002.webp)
 
@@ -460,10 +456,10 @@ Dans ce fichier, insérez cette ligne :
 
 Voici comment interpréter cette ligne :
 
-* **\*.\*** : signifie qu’on doit envoyer tous les logs Syslog de la machine Linux vers Graylog.
-* **@** : indique que le transport est effectué en UDP. Il convient de préciser "**@@**" pour basculer en TCP.
-* **192.168.10.220:12514** : indique l’adresse du serveur Graylog, ainsi que le port sur lequel on envoie les logs (correspondant à l'Input).
-* **RSYSLOG_SyslogProtocol23Format** : correspond au format des messages que l’on veut envoyer à Graylog.
+* `*.*` : signifie qu’on doit envoyer tous les logs Syslog de la machine Linux vers Graylog.
+* `@` : indique que le transport est effectué en UDP. Il convient de préciser "**@@**" pour basculer en TCP.
+* `192.168.10.220:12514` : indique l’adresse du serveur Graylog, ainsi que le port sur lequel on envoie les logs (correspondant à l'Input).
+* `RSYSLOG_SyslogProtocol23Format` : correspond au format des messages que l’on veut envoyer à Graylog.
 
 Quand c'est fait, enregistrez le fichier et redémarrez Rsyslog.
 

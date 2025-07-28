@@ -46,22 +46,41 @@ Swiss Bitcoin Pay se presenta así como una alternativa interesante entre soluci
 ## ¿Cómo crear una cuenta de Swiss Bitcoin Pay?
 
 Visita [el sitio web oficial de Swiss Bitcoin Pay](https://swiss-bitcoin-pay.ch/).
+
 ![SWISS BITCOIN PAY](assets/notext/01.webp)
+
 Haz clic en el botón "*Dashboard*".
+
 ![SWISS BITCOIN PAY](assets/notext/02.webp)
-Haz clic en el botón de "*Sign up*". ![SWISS BITCOIN PAY](assets/notext/03.webp)
-Elige un nombre para tu cuenta. Este puede ser el nombre comercial de tu negocio (este es el nombre que aparecerá en el portafolio de tus clientes en su historial de transacciones).
+
+Haz clic en el botón de "*Sign up*". 
+
+![SWISS BITCOIN PAY](assets/notext/03.webp)
+
+Elige un nombre para tu cuenta. Este puede ser el nombre comercial de tu negocio (este es el nombre que aparecerá en el wallet de tus clientes en su historial de transacciones).
+
 ![SWISS BITCOIN PAY](assets/notext/04.webp)
+
 Proporciona una dirección de correo electrónico.
+
 ![SWISS BITCOIN PAY](assets/notext/05.webp)
+
 Elige una contraseña fuerte para asegurar tu cuenta.
+
 ![SWISS BITCOIN PAY](assets/notext/06.webp)
+
 Establece tu moneda local.
+
 ![SWISS BITCOIN PAY](assets/notext/07.webp)
+
 Luego elige cómo te gustaría recibir tus fondos ajustando el deslizador: ya sea 100% en Bitcoin, 100% en moneda local, o cualquier distribución de tu elección entre las dos.
+
 ![SWISS BITCOIN PAY](assets/notext/08.webp)
+
 Si eliges recibir tus fondos a través del sistema bancario en moneda local, necesitarás proporcionar los detalles de tu cuenta bancaria. Si prefieres recibir tus fondos en Bitcoin, varias opciones de recepción están disponibles para ti.
+
 ![SWISS BITCOIN PAY](assets/notext/09.webp)
+
 La opción "*onchain*" te permite recibir todos tus pagos en una única dirección de Bitcoin. Sin embargo, aconsejamos no usar de esta opción, ya que conlleva a la reutilización de la misma dirección, lo que puede perjudicar gravemente tu privacidad.
 
 Si eliges recibir tus pagos en Bitcoin Onchain, es preferible usar una clave pública extendida con la opción "*x/y/zpub*". De esta manera, Swiss Bitcoin Pay puede utilizar una nueva dirección sin usar para cada retiro.

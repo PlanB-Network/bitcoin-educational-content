@@ -1,0 +1,9 @@
+question: Welke open source VPN-applicatie maakt het mogelijk om anoniem een account aan te maken zonder e-mail en accepteert Bitcoin betalingen?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN onderscheidt zich door een volledig anonieme account aan te maken, zonder e-mail of wachtwoord, en accepteert betaling in Bitcoin of contant geld.
+reviewed: false

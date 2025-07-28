@@ -1,0 +1,9 @@
+question: Jakie są główne ograniczenia mobilnych aplikacji antywirusowych?
+answer: Są one ograniczone w obliczu realnych zagrożeń
+wrong_answers:
+  - Sprawiają, że telefon jest niekompatybilny z sieciami komórkowymi
+  - Usuwają aplikacje do przesyłania wiadomości
+  - Zwiększają żywotność baterii
+explanation: |
+  Mobilne oprogramowanie antywirusowe nie oferuje ochrony przed phishingiem lub złymi autoryzacjami, a jedynie ograniczoną ochronę przed głównymi zagrożeniami.
+reviewed: false

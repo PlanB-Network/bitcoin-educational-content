@@ -1,0 +1,9 @@
+question: Dlaczego metadane plików cyfrowych stanowią zagrożenie dla prywatności?
+answer: Mogą ujawniać poufne informacje
+wrong_answers:
+  - Spowalniają otwieranie programu antywirusowego w niektórych systemach
+  - Uniemożliwiają udostępnianie plików za pośrednictwem poczty e-mail
+  - Mogą one hostować oprogramowanie ransomware
+explanation: |
+  Metadane mogą zawierać poufne informacje, które nie są widoczne po otwarciu pliku, takie jak współrzędne GPS, nazwa autora, identyfikator lub historia modyfikacji, które mogą zostać wykorzystane bez wiedzy użytkownika.
+reviewed: false

@@ -21,7 +21,7 @@ Níže jsem shromáždil nejčastější problémy, se kterými se korektoři se
 Než se ponoříte do podrobností, přečtěte si nejprve tento návod o praktických postupech na Githubu: forkování repozitáře Plan ₿ Network, odevzdávání změn a odesílání PR:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Co je to korektura?
@@ -60,7 +60,7 @@ Především **VŽDY nezapomeňte na SYNCHRONIZACI repozitáře ve větvi "dev "
 
 
 
-Po úspěšné synchronizaci můžete přímo přistupovat k obsahu, který vás zajímá, a odevzdat jej v nové větvi, jak ukazuje tento [tutoriál](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). V opačném případě si můžete otevřít novou větev, ve které budete pracovat, kliknutím na "Branches" (Větve), jak je uvedeno níže.
+Po úspěšné synchronizaci můžete přímo přistupovat k obsahu, který vás zajímá, a odevzdat jej v nové větvi, jak ukazuje tento [tutoriál](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). V opačném případě si můžete otevřít novou větev, ve které budete pracovat, kliknutím na "Branches" (Větve), jak je uvedeno níže.
 
 
 
@@ -131,7 +131,7 @@ V konečném výsledku (obrázek níže) se nezobrazí celý odkaz a slovo se st
 
 
 
-Vezměte prosím na vědomí, že odkaz na glosář, který získáte z webové stránky, obsahuje za slovem "síť" kód jazyka (příklad: ``https://planb.network/en/resources/glossary/UTXO``-> zde si můžete přečíst kód jazyka "cs"). V takovém případě **odstraňte jazykový kód z odkazu**, jak jste viděli v rámečku výše. Tímto způsobem systém čtenáře automaticky přenese do jím určeného jazyka.
+Vezměte prosím na vědomí, že odkaz na glosář, který získáte z webové stránky, obsahuje za slovem "síť" kód jazyka (příklad: ``https://planb.network/en/resources/glossary/utxo``-> zde si můžete přečíst kód jazyka "cs"). V takovém případě **odstraňte jazykový kód z odkazu**, jak jste viděli v rámečku výše. Tímto způsobem systém čtenáře automaticky přenese do jím určeného jazyka.
 
 
 Obsah úložiště je plný hypertextových odkazů, jako jsou tyto výše uvedené. Nyní, když víte, co znamenají, **zajistěte, abyste neodstranili žádný odkaz** vložený původním autorem.

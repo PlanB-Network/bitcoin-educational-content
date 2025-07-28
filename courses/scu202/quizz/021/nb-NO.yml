@@ -1,0 +1,9 @@
+question: Hvilken komponent i et skrivebordsmiljø brukes til å navigere visuelt i filer og mapper?
+answer: Filbehandler
+wrong_answers:
+  - Sesjonsleder
+  - Komponist X11
+  - Pakkeansvarlig
+explanation: |
+  Filbehandleren (som Nautilus, Dolphin, Thunar) lar brukeren administrere filer og mapper via en grafisk Interface.
+reviewed: false

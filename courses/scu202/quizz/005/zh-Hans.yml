@@ -1,0 +1,9 @@
+question: 哪种操作系统主导着当今的个人电脑市场？
+answer: 视窗
+wrong_answers:
+  - MacOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows 凭借其默认安装和广泛的软件生态系统，占据了个人电脑 71% 的市场份额。
+reviewed: false

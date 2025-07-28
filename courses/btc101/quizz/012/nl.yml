@@ -1,0 +1,12 @@
+question: Wie zijn de cypherpunks?
+answer: Een groep mensen die diep begon na te denken over de rol van privacy en vrijheid in het digitale tijdperk.
+wrong_answers:
+  - Een groep hackers die informatie stal van overheden.
+  - Een groep mensen die Bitcoin en andere cryptocurrencies hebben uitgevonden.
+  - Een groep mensen die tegen het gebruik van technologie was.
+explanation: |
+  De cypherpunks zijn een groep individuen die geloofden
+  dat cryptografie kon dienen als een hulpmiddel om
+  individuele rechten tegen de inmenging van overheden
+  en grote bedrijven.
+reviewed: true

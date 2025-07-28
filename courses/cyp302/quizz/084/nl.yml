@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste praktische beperking van de one-time pad?
+answer: De sleutel moet net zo lang zijn als het bericht en mag nooit worden hergebruikt
+wrong_answers:
+  - De sleutel moet elke dag worden vervangen
+  - De sleutel moet drie keer zo lang zijn als het bericht
+  - De sleutel moet noodzakelijkerwijs worden opgeslagen op een Franse Minitel
+explanation: |
+  De sleutel in een one-time pad moet even lang zijn als het bericht en mag nooit hergebruikt worden, wat het gebruik ervan in praktische contexten aanzienlijk bemoeilijkt. Dit is omdat als men in staat is om gegevens zo lang als het bericht op een veilige manier te verzenden, het zinvoller zou zijn om direct het bericht te verzenden in plaats van de sleutel.
+reviewed: false

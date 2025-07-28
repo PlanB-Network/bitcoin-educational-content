@@ -94,7 +94,7 @@ Po deaktivaci testovacího režimu je třeba nakonfigurovat portfolio pro výbě
 
 
 
-Pokud ještě nevlastníte Bitcoin a/nebo Lightning Wallet, doporučujeme vám podívat se na naše návody [mobilní peněženky](https://planb.network/tutorials/Wallet).
+Pokud ještě nevlastníte Bitcoin a/nebo Lightning Wallet, doporučujeme vám podívat se na naše návody [mobilní peněženky](https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Rychlost dobře znáte, začleňte Bitcoin do svého podnikání a rozvíjejte m
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

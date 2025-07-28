@@ -1,0 +1,9 @@
+question: Kdo vynalezl World Wide Web a vyvinul první webový prohlížeč?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee je vynálezcem World Wide Webu a v roce 1990 vyvinul první prohlížeč WorldWideWeb (nyní Nexus).
+reviewed: false

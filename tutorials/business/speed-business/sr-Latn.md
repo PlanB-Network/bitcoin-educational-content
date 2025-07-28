@@ -94,7 +94,7 @@ Kada deaktivirate testni režim, morate konfigurisati svoj portfelj za povlačen
 
 
 
-Ako još uvek ne posedujete Bitcoin i/ili Lightning Wallet, preporučujemo da pogledate naše [mobilne novčanike] tutorijale(https://planb.network/tutorials/Wallet).
+Ako još uvek ne posedujete Bitcoin i/ili Lightning Wallet, preporučujemo da pogledate naše [mobilne novčanike] tutorijale(https://planb.network/tutorials/wallet).
 
 
 
@@ -436,3 +436,4 @@ Imate dobro razumevanje brzine, integrišite Bitcoin u svoj posao i razvijajte s
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

@@ -1,0 +1,9 @@
+question: Tại sao mã hóa toàn bộ ổ đĩa hoặc khóa USB lại quan trọng đối với tính bảo mật dữ liệu của bạn?
+answer: Nó ngăn chặn truy cập trái phép vào các tập tin
+wrong_answers:
+  - Tăng tốc độ đọc và ghi tệp
+  - Bảo vệ chống lại lỗi phần cứng
+  - Nó làm cho việc chia sẻ đĩa dễ dàng hơn
+explanation: |
+  Mã hóa hoàn toàn khiến dữ liệu không thể sử dụng được nếu không có khóa hoặc mật khẩu, ngay cả khi kẻ tấn công sở hữu đĩa.
+reviewed: false

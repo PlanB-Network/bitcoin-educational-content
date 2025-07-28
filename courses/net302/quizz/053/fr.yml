@@ -1,0 +1,9 @@
+question: Quel mode de NAT permet à des dizaines d’appareils de partager une seule adresse IP publique grâce à la modification des ports ?
+answer: PAT
+wrong_answers:
+  - NAT statique
+  - NAT dynamique
+  - Routage statique
+explanation: |
+  Le PAT, appelé aussi NAT overload ou IP masquerading, modifie les ports pour différencier les sessions et permettre à de nombreux équipements d’utiliser la même adresse publique.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je glavna upotreba VLAN zasnovane segmentacije mreže u kućnoj mreži?
+answer: Izolujte različite tipove uređaja ili upotrebe
+wrong_answers:
+  - Povećajte domet Wi-Fi signala za uređaje
+  - Šifrujte mrežne veze pojedinačno za svaki uređaj
+  - Omogući WPA3 automatski
+explanation: |
+  VLAN-ovi se mogu koristiti za razdvajanje uređaja, ograničavajući širenje napada između segmenata.
+reviewed: false

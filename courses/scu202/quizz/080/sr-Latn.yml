@@ -1,0 +1,9 @@
+question: Koji su najvažniji kriterijumi koje treba proveriti pre nego što izaberete aplikaciju za razmenu poruka?
+answer: Šifrovanje od kraja do kraja i otvoreni izvorni kod
+wrong_answers:
+  - Jaka autentifikacija i otvoreni izvorni kod
+  - Šifrovanje od kraja do kraja i decentralizovani serveri
+  - Jaka autentifikacija i decentralizovani serveri
+explanation: |
+  Šifrovanje od kraja do kraja osigurava poverljivost razmene, a otvoreni kod omogućava proveru ispravne implementacije ove sigurnosti.
+reviewed: false

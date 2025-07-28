@@ -1,0 +1,9 @@
+question: Wat gebruikt het Essential-profiel om werknemers te helpen bij het verwerken van betalingen bij de kassa?
+answer: Het maken van een menu met itemprijzen op de PoS-app
+wrong_answers:
+  - Een handmatig Ledger boek voor het registreren van verkopen
+  - Een papieren Invoice systeem voor elke transactie
+  - Een automatisch boekhoudsysteem voor transacties van de PoS
+explanation: |
+  Met de PoS-app in het Essential-profiel kunnen werknemers items selecteren uit een vooraf ingesteld menu, waardoor het factureringsproces wordt gestroomlijnd.
+reviewed: false

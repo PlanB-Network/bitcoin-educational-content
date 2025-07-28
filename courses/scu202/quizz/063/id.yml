@@ -1,0 +1,9 @@
+question: Peramban teks mana, tanpa dukungan grafis Interface atau JavaScript, yang paling tua yang masih dipertahankan?
+answer: Lynx
+wrong_answers:
+  - Browser Mullvad
+  - Polypane
+  - Vivaldi
+explanation: |
+  Lynx, yang muncul pada tahun 1992, beroperasi dalam mode teks, tidak mendukung JavaScript dan masih digunakan untuk tujuan yang sangat spesifik.
+reviewed: false

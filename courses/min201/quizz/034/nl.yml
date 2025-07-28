@@ -1,0 +1,13 @@
+question: Wat is het doel van de Bitcoin gemeenschap op het gebied van netwerkbeheer?
+answer: Distributie, censuurbestendigheid en de antifragiliteit van het netwerk versterken.
+wrong_answers:
+  - De prijs van Bitcoin verhogen.
+  - Om transacties sneller te laten verlopen.
+  - Om de Mining moeilijkheidsgraad te verhogen.
+explanation: |
+  De Bitcoin gemeenschap streeft voortdurend naar het versterken van
+  distributie, censuurbestendigheid en de anti-fragiliteit
+  van het netwerk te versterken. Dit is in lijn met Bitcoin's fundamentele
+  missie om een censuurbestendig Exchange
+  netwerk te zijn.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaká jsou hlavní omezení mobilních antivirových aplikací?
+answer: Tváří v tvář reálným hrozbám jsou omezené
+wrong_answers:
+  - Telefon je kvůli nim nekompatibilní s mobilními sítěmi
+  - Odstraňují aplikace pro zasílání zpráv
+  - Zvyšují životnost baterie
+explanation: |
+  Mobilní antivirový software nenabízí žádnou ochranu proti phishingu nebo špatným autorizacím a pouze omezenou ochranu proti hlavním hrozbám.
+reviewed: false

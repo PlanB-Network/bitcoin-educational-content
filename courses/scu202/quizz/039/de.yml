@@ -1,0 +1,9 @@
+question: Was müssen Sie nach der Installation eines wichtigen Betriebssystem-Updates oft tun, um die Patches vollständig anzuwenden?
+answer: Computer neu starten
+wrong_answers:
+  - Passwort zurücksetzen
+  - Trennen Sie das Wi-Fi-Netzwerk
+  - Temporäre Dateien löschen
+explanation: |
+  Einige Betriebssystem-Updates, z. B. für den Kernel oder wichtige Bibliotheken, werden erst nach einem Neustart des Computers wirksam.
+reviewed: false

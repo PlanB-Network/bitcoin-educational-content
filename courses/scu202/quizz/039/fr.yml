@@ -1,0 +1,9 @@
+question: Après l’installation d’une mise à jour critique de l’OS, que faut-il souvent faire pour appliquer complètement les correctifs ?
+answer: Redémarrer l’ordinateur
+wrong_answers:
+  - Réinitialiser le mot de passe
+  - Déconnecter le réseau Wi-Fi
+  - Effacer les fichiers temporaires
+explanation: |
+  Certaines mises à jour du système d’exploitation, comme celles du noyau ou des bibliothèques critiques, ne prennent effet qu’après un redémarrage de la machine.
+reviewed: false

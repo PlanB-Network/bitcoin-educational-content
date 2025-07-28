@@ -1,7 +1,7 @@
 ---
-name : Blitz Wallet
+name: Blitz Wallet
 
-description: The simplest Bitcoin portfolio.
+description: The simplest Bitcoin wallet.
 ---
 ![cover](assets/cover.webp)
 
@@ -27,10 +27,10 @@ In this tutorial, we'll be basing ourselves on the Android version of Blitz Wall
 ![installation](assets/fr/01.webp)
 
 
-Since Blitz Wallet is a self-holding portfolio of Bitcoin, you can choose to create a new portfolio or import the 12/24 recovery words from a portfolio you already have.
+Since Blitz Wallet is a self-holding wallet of Bitcoin, you can choose to create a new wallet or import the 12/24 recovery words from a wallet you already have.
 
 
-Here, we're starting with the creation of a new portfolio. See below for our recommendations on backing up your backup phrases.
+Here, we're starting with the creation of a new wallet. See below for our recommendations on backing up your backup phrases.
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

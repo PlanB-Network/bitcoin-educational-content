@@ -1,0 +1,9 @@
+question: 什么项目于 1983 年启动，旨在创建一个完全免费的操作系统？
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X 窗口系统项目
+  - 开放源代码倡议
+explanation: |
+  Richard Stallman 于 1983 年发起了 GNU 项目，旨在开发一个完全自由的操作系统。
+reviewed: false

@@ -21,7 +21,7 @@ Ci-dessous, j'ai rassemblé les problèmes les plus courants rencontrés par les
 Avant de plonger dans les détails, la première chose à faire est de lire ce tutoriel sur les actions pratiques à suivre sur Github, en forkant le dépôt Plan ₿ Network, en commettant des changements et en envoyant des PRs :
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Qu'est-ce que la relecture ?
@@ -60,7 +60,7 @@ Tout d'abord, **N'oubliez jamais de SYNCER votre repo, sur la branche "dev "**. 
 
 
 
-Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un commit sur une nouvelle branche, comme le montre ce [tutoriel] (https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur "Branches", comme indiqué ci-dessous.
+Une fois la synchronisation réussie, vous pouvez accéder directement au contenu qui vous intéresse et effectuer un commit sur une nouvelle branche, comme le montre ce [tutoriel] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Sinon, vous pouvez ouvrir une nouvelle branche où travailler, en cliquant sur "Branches", comme indiqué ci-dessous.
 
 
 
@@ -131,7 +131,7 @@ Dans le résultat final (image ci-dessous), vous ne visualiserez pas le lien ent
 
 
 
-Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.network/en/resources/glossary/UTXO`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
+Veuillez noter que le lien vers le glossaire que vous obtiendrez sur le site web contient le code de langue après le mot "réseau" (exemple : `https://planb.network/en/resources/glossary/utxo`-> ici vous pouvez lire le code de langue "en"). Dans ce cas, **supprimez le code de langue du lien**, comme vous l'avez vu dans l'encadré ci-dessus. De cette façon, le système amènera automatiquement le lecteur à la langue qu'il a choisie.
 
 
 Le contenu du référentiel est truffé d'hyperliens comme ceux présentés ci-dessus. Maintenant que vous savez ce qu'ils signifient, **veillez à ne pas supprimer les liens** insérés par l'auteur original.

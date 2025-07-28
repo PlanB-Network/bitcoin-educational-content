@@ -1,0 +1,9 @@
+question: Který šifrovací protokol Wi-Fi je nejlepší pro zabezpečení domácí sítě?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Rychlý BSS
+explanation: |
+  Protokol WPA3 je nejnovější a nejbezpečnější protokol, který odstraňuje nedostatky předchozích verzí a nabízí lepší ochranu proti útokům.
+reviewed: false

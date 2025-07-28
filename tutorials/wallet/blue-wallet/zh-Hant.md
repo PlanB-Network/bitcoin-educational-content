@@ -11,7 +11,7 @@ description: Bitcoin 徹底簡單且功能強大的產品組合
 
 
 
-在本教程中，我們將介紹 Blue Wallet，這是一種簡單但高效的 Bitcoin Wallet，可讓您個人管理比特幣，也可基於 [Multisig](https://planb.network/resources/glossary/Multisig)建立管理合作社 (別擔心，我們會再來介紹)。
+在本教程中，我們將介紹 Blue Wallet，這是一種簡單但高效的 Bitcoin Wallet，可讓您個人管理比特幣，也可基於 [Multisig](https://planb.network/resources/glossary/multisig)建立管理合作社 (別擔心，我們會再來介紹)。
 
 
 
@@ -264,7 +264,7 @@ Multisig (多重簽名) Wallet 代表由一定數量 (最少 2 個) 的 Bitcoin 
 
 
 
-如果第二位 Wallet 簽署人也是使用者，即使他或她不在網際網路中（無 Wi-Fi、無行動資料），他或她也可以透過掃描您剛剛建立的 [部分簽署交易](https://planb.network/resources/glossary/PSBT)的 QR 代碼來簽署交易。
+如果第二位 Wallet 簽署人也是使用者，即使他或她不在網際網路中（無 Wi-Fi、無行動資料），他或她也可以透過掃描您剛剛建立的 [部分簽署交易](https://planb.network/resources/glossary/psbt)的 QR 代碼來簽署交易。
 
 
 

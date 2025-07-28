@@ -1,0 +1,10 @@
+description: |
+  LNbits 是一套免費且開放原始碼的 Bitcoin Lightning 帳號系統與擴充套件。它可以讓您運行自己的 Lightning Network 帳戶系統，無論是為自己、朋友和家人，還是為整個世界。LNbits 支援各種 Lightning Network 資金來源，包括 LND、c-lightning、Spark、LNpay、OpenNode、lntxbot 等。
+  
+  使用 LNbits，您可以建立多個帳戶或錢包，並存取由貢獻者建立的各種延伸功能。這些擴充套件可讓您新增各種功能，例如水龍頭、付費連結、可分享的銷售點、付費牆、活動門票、骰子遊戲、伺服器服務，甚至是可分享的點唱機等等。LNbits 提供簡單的 API，可連結多個節點和資金來源，讓您輕鬆整合至現有的堆疊。
+  
+  LNbits 的優勢之一是您可以直接在瀏覽器中即時使用，無須下載任何額外的應用程式。它的前端利用 Quasar 和 VueJS 框架，提供高效能和回應式使用者介面。在後端，LNbits 使用 FastAPI，這是一個現代化且高效能的 Python API 框架。
+  
+  要開始使用 LNbits，您可以查看他們的 GitHub 文件、YouTube 教學和 Awesome LNbits 資源。LNbits 社群非常活躍且提供支援，提供 Telegram 群組供使用者與開發人員討論 Exchange 想法、提供協助，並為此免費開放原始碼軟體的開發貢獻心力。
+  
+  LNbits 提供靈活且可擴充的解決方案，可管理 Lightning Network 帳戶，並透過其擴充框架整合各種功能。

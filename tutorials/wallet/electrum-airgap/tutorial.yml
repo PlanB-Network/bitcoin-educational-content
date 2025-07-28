@@ -8,10 +8,10 @@ level: intermediate
 
 professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
 
-tags: 
-- onchain
-- DIY-IT
-- good-practice
+tags:
+  - onchain
+  - DIY-IT
+  - good-practice
 
 # Proofreading metadata
 original_language: it
@@ -19,6 +19,101 @@ proofreading:
   - language: it
     last_contribution_date: 2025-06-01
     urgency: 1
-    contributor_names: 
+    contributor_names:
       - f205sats
     reward: 1
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.21
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.89
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.05
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.05
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.89
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.89

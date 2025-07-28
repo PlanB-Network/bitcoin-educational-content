@@ -1,0 +1,12 @@
+question: Wat is een zombiebedrijf?
+answer: Een bedrijf dat onder normale marktomstandigheden insolvent of bijna failliet zou zijn, maar voornamelijk blijft opereren door goedkoop te lenen.
+wrong_answers:
+  - Een bedrijf dat al meer dan 100 jaar bestaat.
+  - Een bedrijf dat actief is in de technologiesector.
+  - Een bedrijf dat gered is door de overheid.
+explanation: |
+  Een zombiebedrijf is een bedrijf dat onder normale marktomstandigheden
+  insolvent of bijna failliet zou zijn, maar voornamelijk blijft opereren door goedkope
+  lenen. Deze bedrijven verdienen net genoeg geld om hun schulden te dekken, maar zijn niet in staat om significant te groeien
+  om significant te groeien.
+reviewed: false

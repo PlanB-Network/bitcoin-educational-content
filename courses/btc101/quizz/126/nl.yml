@@ -1,0 +1,13 @@
+question: Wat is een Bitcoin transactie?
+answer: Een overdracht van Ownership aan bitcoins, met behulp van cryptografie.
+wrong_answers:
+  - Een fysieke Exchange van bitcoins, met behulp van een notaris.
+  - Een overdracht van Ownership aan bitcoins, met behulp van een fysieke Address.
+  - Een overdracht van Ownership aan bitcoins, met een e-mail Address.
+explanation: |
+  Een Bitcoin transactie is een digitale overdracht van de
+  Ownership van bitcoins, door het gebruik van een Bitcoin Address
+  afgeleid dankzij de Elliptic Curve cryptografie. Deze
+  Address is uniek voor de Wallet van de persoon die de
+  bitcoins ontvangt.
+reviewed: true

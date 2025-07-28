@@ -1,0 +1,9 @@
+question: Ni zana gani ya mstari wa amri inayopendekezwa kwa Linux ili kuondoa metadata yote kutoka kwa picha au faili ya PDF?
+answer: exiftool
+wrong_answers:
+  - notepad
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool ni zana yenye nguvu ya kuonyesha na kuondoa metadata kutoka kwa anuwai ya faili (picha, PDF, sauti, n.k.).
+reviewed: false

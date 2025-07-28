@@ -1,0 +1,9 @@
+question: Mikä avoimen lähdekoodin VPN-sovellus mahdollistaa anonyymin tilin luomisen ilman sähköpostia ja hyväksyy Bitcoin-maksut?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN erottuu edukseen täysin anonyymin tilinluonnin ansiosta, sillä se ei vaadi sähköpostia tai salasanaa, ja se hyväksyy maksun Bitcoin:nä tai käteisenä.
+reviewed: false

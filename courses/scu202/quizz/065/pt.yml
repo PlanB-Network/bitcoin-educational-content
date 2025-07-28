@@ -1,0 +1,9 @@
+question: Qual é a afirmação que melhor descreve o modo de navegação privada?
+answer: Limita o registo de traços locais
+wrong_answers:
+  - Torna a navegação na Internet anónima
+  - Bloqueia todos os rastreadores e scripts maliciosos
+  - Elimina as extensões activas
+explanation: |
+  O modo privado impede simplesmente o registo local do histórico e dos cookies, mas não garante o anonimato na Internet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a regra de cópia de segurança recomendada para garantir a resiliência dos seus dados em caso de desastre?
+answer: Ter 3 cópias, em 2 suportes diferentes, incluindo 1 fora do local
+wrong_answers:
+  - 10 cópias, em 5 suportes diferentes, incluindo 3 fora do local
+  - 2 cópias, em 2 suportes diferentes, 2 das quais fora do local
+  - 4 cópias, em 4 suportes diferentes, incluindo 2 fora do local
+explanation: |
+  A regra 3-2-1 implica a manutenção de três cópias dos seus dados, em pelo menos dois suportes diferentes, incluindo um localizado fora do local, para proteção contra perda, roubo ou corrupção de dados.
+reviewed: false

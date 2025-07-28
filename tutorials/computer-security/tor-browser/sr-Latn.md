@@ -1,6 +1,6 @@
 ---
 name: Tor Pregledač
-description: Kako koristiti Tor Browser?
+description: Kako koristiti Tor pregledač?
 ---
 ![cover](assets/cover.webp)
 
@@ -18,28 +18,28 @@ Danas je Google Chrome daleko najkorišćeniji pregledač. On čini oko 65% glob
 *Izvor: [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
 
 
-Postoji nekoliko glavnih porodica pregledača, od kojih je svaka zasnovana na specifičnom render engine-u. Pregledači kao što su Google Chrome, Microsoft Edge, Brave, Opera ili Vivaldi su svi zasnovani na Chromium pregledaču, laganoj i open-source verziji Chrome-a koju je razvio Google. Svi ovi pregledači koriste Blink render engine, koji je Fork WebKit-a, koji je sam izveden iz KHTML-a. Dominacija Chromium-a na tržištu čini pregledače izvedene iz njega posebno efikasnim, jer web developeri imaju tendenciju da optimizuju svoje sajtove prvenstveno za Blink.
+Postoji nekoliko glavnih porodica pregledača, od kojih je svaka zasnovana na specifičnom render engine-u. Pregledači kao što su Google Chrome, Microsoft Edge, Brave, Opera ili Vivaldi su svi zasnovani na Chromium pregledaču, laganoj i open-source verziji Chrome-a koju je razvio Google. Svi ovi pregledači koriste Blink render engine, koji je fork WebKit-a, koji je sam izveden iz KHTML-a. Dominacija Chromium-a na tržištu čini pregledače izvedene iz njega posebno efikasnim, jer web developeri imaju tendenciju da optimizuju svoje sajtove prvenstveno za Blink.
 
 
 Safari, Apple-ov pregledač, koristi WebKit, koji takođe potiče iz KHTML-a.
 
 
-S druge strane, pregledači kao što su Mozilla Firefox, LibreWolf i Tor Browser oslanjaju se na Gecko, drugačiji rendering engine, poreklom iz Netscape pregledača.
+S druge strane, pregledači kao što su Mozilla Firefox, LibreWolf i Tor pregledač oslanjaju se na Gecko, drugačiji rendering engine, poreklom iz Netscape pregledača.
 
 
-Odabir pravog pregledača zavisi od vaših potreba. Ali ako ste barem malo zabrinuti za svoju privatnost, a samim tim i sigurnost, preporučujem da koristite Firefox za opštu upotrebu i Tor Browser za još veću privatnost. U ovom vodiču pokazaću vam kako da lako počnete sa korišćenjem Tor Browser-a.
+Odabir pravog pregledača zavisi od vaših potreba. Ali ako ste barem malo zabrinuti za svoju privatnost, a samim tim i sigurnost, preporučujem da koristite Firefox za opštu upotrebu i Tor pregledač za još veću privatnost. U ovom vodiču pokazaću vam kako da lako počnete sa korišćenjem Tor pregledača.
 
 ![TOR BROWSER](assets/notext/02.webp)
 
 
-## Uvod u Tor Browser
+## Uvod u Tor pregledač
 
 
 Tor Browser je pregledač posebno dizajniran za sigurno i što privatnije pretraživanje Interneta. Pregledač je zasnovan na Firefox-u, a samim tim i na Gecko rendering engine-u.
 
-Tor Browser koristi Tor mrežu za šifrovanje i usmeravanje vašeg saobraćaja kroz više relej servera pre nego što ga prenese do odredišta. Ovaj proces višeslojnog usmeravanja, poznat kao "*onion routing*", pomaže u skrivanju vaše prave IP Address, što otežava identifikaciju vaše lokacije i online aktivnosti. Međutim, pretraživanje je nužno sporije nego sa standardnim pregledačem koji ne koristi Tor mrežu, jer je indirektno.
+Tor Browser koristi Tor mrežu za šifrovanje i usmeravanje vašeg saobraćaja kroz više relej servera pre nego što ga prenese do odredišta. Ovaj proces višeslojnog usmeravanja, poznat kao "*onion routing*", pomaže u skrivanju vaše prave IP adrese, što otežava identifikaciju vaše lokacije i online aktivnosti. Međutim, pretraživanje je nužno sporije nego sa standardnim pregledačem koji ne koristi Tor mrežu, jer je indirektno.
 
-Za razliku od drugih pregledača, Tor Browser integriše specifične funkcije za sprečavanje praćenja vaših online aktivnosti, kao što su izolovanje svake posećene veb stranice i automatsko brisanje kolačića i istorije prilikom zatvaranja. Takođe je dizajniran da minimizira rizike od otiska prsta, čineći da svi korisnici izgledaju što sličnije posećenim sajtovima.
+Za razliku od drugih pregledača, Tor Browser integriše specifične funkcije za sprečavanje praćenja vaših online aktivnosti, kao što su izolovanje svake posećene veb stranice i automatsko brisanje kolačića i istorije prilikom zatvaranja. Takođe je dizajniran da minimizira rizike od "otiska prsta", čineći da svi korisnici izgledaju što sličnije posećenim sajtovima.
 
 
 Možete sasvim dobro koristiti Tor Browser za pristup standardnom vebsajtu (`.com`, `.org`, itd.). U ovom slučaju, vaš saobraćaj je anonimizovan prolaskom kroz nekoliko Tor čvorova pre nego što stigne do izlaznog čvora koji komunicira sa krajnjim sajtom na clearnet-u.
@@ -60,7 +60,7 @@ Tor mreža i Tor pregledač su dve različite stvari koje ne treba mešati, ali 
 Tor pregledač, s druge strane, je specifičan pregledač dizajniran da olakša pristup ovoj mreži na jednostavan način. On integriše po podrazumevanim podešavanjima sve neophodne postavke za povezivanje na Tor mrežu i koristi modifikovanu verziju Firefox-a kako bi pružio poznato iskustvo pregledanja dok maksimizira privatnost i sigurnost.
 
 
-Tor mreža se ne koristi samo putem Tor pregledača. Može se koristiti od strane različitog softvera i aplikacija za osiguranje njihove komunikacije. Na primer, moguće je omogućiti komunikaciju putem Tor mreže na vašem Bitcoin čvoru kako biste sakrili vaš IP Address od drugih korisnika i sprečili nadzor nad saobraćajem povezanim sa vašim Bitcoin od strane vašeg internet provajdera.
+Tor mreža se ne koristi samo putem Tor pregledača. Može se koristiti od strane različitog softvera i aplikacija za osiguranje njihove komunikacije. Na primer, moguće je omogućiti komunikaciju putem Tor mreže na vašem Bitcoin čvoru kako biste sakrili vašu IP adresu od drugih korisnika i sprečili nadzor nad saobraćajem povezanim sa vašim Bitcoin-om od strane vašeg internet provajdera.
 
 Ukratko, Tor mreža je infrastruktura koja obezbeđuje privatnost u našem pretraživanju interneta, a Tor pretraživač je softver koji nam omogućava da koristimo ovu mrežu kao deo našeg pretraživanja interneta.
 
@@ -108,7 +108,7 @@ Prilikom prvog pokretanja, pregledač vam prikazuje stranicu koja vas poziva da 
 
 ![TOR BROWSER](assets/notext/13.webp)
 
-Ako želite da softver automatski povezuje na Tor mrežu tokom vaših budućih korišćenja, označite opciju "*Uvek se automatski poveži*".
+Ako želite da se softver automatski povezuje na Tor mrežu tokom vaših budućih korišćenja, označite opciju "*Always connect automatically (prevod: Uvek se automatski poveži)*".
 
 ![TOR BROWSER](assets/notext/14.webp)
 
@@ -124,7 +124,7 @@ Zatim ćete dobiti rezultate iz svog pretraživača na isti način kao i sa drug
 
 ![TOR BROWSER](assets/notext/17.webp)
 
-Opcija "*Onionize*" na DuckDuckGo omogućava vam da koristite pretraživač putem njegove skrivene usluge na Tor mreži, pristupom njegovom `.onion` Address.
+Opcija "*Onionize*" na DuckDuckGo omogućava vam da koristite pretraživač putem njegove skrivene usluge na Tor mreži, pristupom njegovoj `.onion` adresi.
 
 ![TOR BROWSER](assets/notext/18.webp)
 
@@ -142,7 +142,9 @@ Takođe imate opciju da dodate nove obeleživače klikom na ikonu zvezde koja se
 
 U meniju sa desne strane, pristupate raznim opcijama.
 
-![TOR BROWSER](assets/notext/21.webp)The "*New identity*" button allows you to change your Tor identity. Specifically, this enables you to start a new user session on Tor, meaning changing your IP address and resetting cookies and open sessions.
+![TOR BROWSER](assets/notext/21.webp)
+
+Dugme "*New identity*" omogućava vam da promenite svoj Tor identitet. Konkretno, to znači da započinjete novu korisničku sesiju u Toru, što podrazumeva promenu IP adrese i resetovanje kolačića i otvorenih sesija.
 
 ![TOR BROWSER](assets/notext/22.webp)
 
@@ -150,11 +152,11 @@ Meni "*Bookmarks*" vam omogućava da upravljate svojim obeleživačima.
 
 ![TOR BROWSER](assets/notext/23.webp)
 
-"*Istorija*" vam omogućava pristup istoriji pretraživanja ako ste je omogućili u podešavanjima.
+"*History*" vam omogućava pristup istoriji pretraživanja ako ste je omogućili u podešavanjima.
 
 ![TOR BROWSER](assets/notext/24.webp)
 
-Meni "*Dodaci i teme*" omogućava vam da prilagodite izgled vašeg pregledača ili dodate ekstenzije. Pošto je Tor Browser zasnovan na Mozilla Firefox-u, možete koristiti teme i ekstenzije dostupne za Firefox.
+Meni "*Add-ons and themes (prevod: Dodaci i teme)*" omogućava vam da prilagodite izgled vašeg pregledača ili dodate ekstenzije. Pošto je Tor Browser zasnovan na Mozilla Firefox-u, možete koristiti teme i ekstenzije dostupne za Firefox.
 
 ![TOR BROWSER](assets/notext/25.webp)
 
@@ -162,7 +164,7 @@ Konačno, dugme "*Settings*" vam omogućava pristup podešavanjima vašeg pregle
 
 ![TOR BROWSER](assets/notext/26.webp)
 
-U kartici "*General*" u podešavanjima, postoje razne opcije koje vam omogućavaju da prilagodite korisnički interfejs Tor Browser-a Interface.
+U kartici "*General*" u podešavanjima, postoje razne opcije koje vam omogućavaju da prilagodite korisnički interfejs Tor Browser-a.
 
 ![TOR BROWSER](assets/notext/27.webp)
 
@@ -189,7 +191,7 @@ Ova funkcija zatim vrši pretragu vašeg pojma direktno na Wikipedia sajtu.
 Možete tako postaviti druge prilagođene prečice za različite sajtove.
 
 
-Zatim, u kartici "*Privatnost i sigurnost*", pronaći ćete sve postavke vezane za privatnost i sigurnost.
+Zatim, u kartici "*Privacy & Security*", pronaći ćete sve postavke vezane za privatnost i sigurnost.
 
 ![TOR BROWSER](assets/notext/33.webp)
 
@@ -201,7 +203,19 @@ Takođe možete upravljati dozvolama za pristup koje dajete različitim veb-sajt
 
 ![TOR BROWSER](assets/notext/35.webp)
 
-Za ukupnu sigurnost vašeg pregledača, režimi "*Bezbednije*" i "*Najbezbednije*" omogućavaju vam da prilagodite funkcionalnosti veba i skripte koje izvršavaju sajtovi koje posećujete. Ovo minimizira rizike od iskorišćavanja ranjivosti, ali će takođe uticati na prikaz i interaktivnost sajtova zauzvrat. ![TOR BROWSER](assets/notext/36.webp) Pronaći ćete druge opcije sigurnosti, uključujući blokator opasnog sadržaja i režim samo za HTTPS, koji osigurava da veze sa sajtovima dosledno poštuju ovaj protokol. ![TOR BROWSER](assets/notext/37.webp) Na kraju, u kartici "*Veza*", pronaći ćete sva podešavanja vezana za povezivanje na Tor mrežu. Ovde možete konfigurisati most za pristup Toru iz regiona gde bi njegov pristup mogao biti cenzurisan. ![TOR BROWSER](assets/notext/38.webp) I eto ga, sada ste spremni da pretražujete Internet na bezbedniji i privatniji način! Ako vas tema online privatnosti zanima, takođe preporučujem da otkrijete ovaj drugi vodič o Mullvad VPN:
+Za ukupnu sigurnost vašeg pregledača, režimi "*Safer*" i "*Safest*" omogućavaju vam da prilagodite funkcionalnosti veba i skripte koje izvršavaju sajtovi koje posećujete. Ovo minimizira rizike od iskorišćavanja ranjivosti, ali će takođe uticati na prikaz i interaktivnost sajtova zauzvrat.
+
+![TOR BROWSER](assets/notext/36.webp) 
+
+Pronaći ćete druge opcije sigurnosti, uključujući blokator opasnog sadržaja i režim samo za HTTPS, koji osigurava da veze sa sajtovima dosledno poštuju ovaj protokol. 
+
+![TOR BROWSER](assets/notext/37.webp)
+
+Na kraju, u kartici "*Connection*", pronaći ćete sva podešavanja vezana za povezivanje na Tor mrežu. Ovde možete konfigurisati most za pristup Toru iz regiona gde bi njegov pristup mogao biti cenzurisan. 
+
+![TOR BROWSER](assets/notext/38.webp) 
+
+I eto ga, sada ste spremni da pretražujete Internet na bezbedniji i privatniji način! Ako vas tema online privatnosti zanima, takođe preporučujem da otkrijete ovaj drugi vodič o Mullvad VPN:
 
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

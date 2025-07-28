@@ -1,0 +1,9 @@
+question: Hvilke lokale data gjør det mulig for annonsører å spore surfevanene dine på tvers av flere nettsteder?
+answer: Informasjonskapsler fra tredjeparter
+wrong_answers:
+  - JavaScript-kode
+  - Lokalhistorie
+  - SSL-sertifikatet
+explanation: |
+  Tredjeparts informasjonskapsler, som plasseres av eksterne reklamebyråer, brukes til å spore brukeraktivitet på ulike nettsteder og etablere en reklameprofil.
+reviewed: false

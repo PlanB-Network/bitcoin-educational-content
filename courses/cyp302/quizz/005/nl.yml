@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van klassieke cryptografie dat nog steeds aanwezig is in moderne cryptografie?
+answer: Vertrouwelijkheid van berichten
+wrong_answers:
+  - De vereenvoudiging van berichten
+  - De herhaling van berichten
+  - De automatisering van het verzenden van berichten
+explanation: |
+  Klassieke cryptografie was voornamelijk gericht op vertrouwelijkheid en dit doel blijft essentieel in moderne cryptografie, hoewel andere thema's, zoals integriteit en authenticiteit, zijn toegevoegd.
+reviewed: false

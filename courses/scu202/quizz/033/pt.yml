@@ -1,0 +1,9 @@
+question: Que mecanismo deve ser ativado na UEFI para impedir a execução de código não assinado durante o arranque?
+answer: Arranque seguro
+wrong_answers:
+  - Arranque rápido
+  - Arranque rápido
+  - Módulo de Plataforma Confiável (TPM)
+explanation: |
+  O arranque seguro garante que apenas o software autenticado pode arrancar o sistema, limitando assim o risco de infeção por bootkit/rootkit.
+reviewed: false

@@ -1,20 +1,20 @@
 ---
-name: Session
-description: Send encrypted messages, not metadata
+name: Sesi
+description: Mengirim pesan terenkripsi, bukan metadata
 ---
 ![cover](assets/cover.webp)
 
 
 
-Session is an encrypted messaging application created in 2020, designed to offer a higher level of confidentiality than traditional messaging. It was first developed by the *Oxen Privacy Tech Foundation*, then by the *Session Technology Foundation*.
+Session adalah aplikasi perpesanan terenkripsi yang dibuat pada tahun 2020, yang dirancang untuk menawarkan tingkat kerahasiaan yang lebih tinggi daripada perpesanan tradisional. Pertama kali dikembangkan oleh *Oxen Privacy Tech Foundation*, kemudian oleh *Session Technology Foundation*.
 
 
 
-Session boasts some interesting technical features: end-to-end encryption of messages, a decentralized network organized to guarantee availability and redundancy, and Tor-inspired onion routing. Also, unlike WathsApp or Signal, which require a telephone number for registration, Session asks for no personal information (no number, no email, just a pair of cryptographic keys).
+Session menawarkan beberapa fitur teknis yang menarik: enkripsi pesan dari ujung ke ujung, jaringan terdesentralisasi yang diorganisir untuk menjamin ketersediaan dan redundansi, dan perutean bawang yang terinspirasi dari Tor. Selain itu, tidak seperti WathsApp atau Signal, yang membutuhkan nomor telepon untuk pendaftaran, Session tidak meminta informasi pribadi (tidak ada nomor, tidak ada email, hanya sepasang kunci kriptografi).
 
 
 
-Session lets you send messages, files, voice messages, audio calls, as well as groups of up to 100 members (and communities beyond that), while minimizing metadata leaks.
+Session memungkinkan Anda mengirim pesan, file, pesan suara, panggilan audio, serta grup hingga 100 anggota (dan komunitas lebih dari itu), sekaligus meminimalkan kebocoran metadata.
 
 
 
@@ -22,7 +22,7 @@ Session lets you send messages, files, voice messages, audio calls, as well as g
 
 
 
-Session is aimed above all at users who place confidentiality at the heart of their priorities. This messaging service represents a serious alternative to WhatsApp, with an architecture designed to withstand modern surveillance models.
+Session ditujukan terutama untuk pengguna yang menempatkan kerahasiaan sebagai prioritas utama. Layanan perpesanan ini merupakan alternatif yang serius untuk WhatsApp, dengan arsitektur yang dirancang untuk tahan terhadap model pengawasan modern.
 
 
 
@@ -46,15 +46,15 @@ Session is aimed above all at users who place confidentiality at the heart of th
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
 
-*E2EE = End-to-end encryption*
+*E2EE = Enkripsi ujung ke ujung*
 
 
 
-## Install the Session application
+## Instal aplikasi Sesi
 
 
 
-Session is available on all platforms. You can download the application directly from your phone's application store:
+Session tersedia di semua platform. Anda dapat mengunduh aplikasi ini langsung dari toko aplikasi ponsel Anda:
 
 
 
@@ -65,19 +65,19 @@ Session is available on all platforms. You can download the application directly
 
 
 
-On Android, it is also possible to [install via APK](https://github.com/session-foundation/session-android/releases).
+Di Android, juga memungkinkan untuk [menginstal melalui APK](https://github.com/session-foundation/session-android/releases).
 
 
 
-In this tutorial, we'll concentrate on the mobile version, but please note that [computer versions are also available](https://getsession.org/download) (MacOS, Linux and Windows). Later on, we'll look at how to synchronize an account across multiple devices.
+Dalam tutorial ini, kami akan berkonsentrasi pada versi seluler, tetapi harap dicatat bahwa [versi komputer juga tersedia] (https://getsession.org/download) (MacOS, Linux, dan Windows). Selanjutnya, kita akan melihat cara menyinkronkan akun di beberapa perangkat.
 
 
 
-## Create an account on Session
+## Buat akun di Sesi
 
 
 
-On first launch, click on "*Create account*".
+Saat pertama kali diluncurkan, klik "*Buat akun*".
 
 
 
@@ -85,7 +85,7 @@ On first launch, click on "*Create account*".
 
 
 
-Choose a display name for your profile. This can be a pseudonym or your real name.
+Pilih nama tampilan untuk profil Anda. Nama ini dapat berupa nama samaran atau nama asli Anda.
 
 
 
@@ -93,19 +93,19 @@ Choose a display name for your profile. This can be a pseudonym or your real nam
 
 
 
-You will then have to choose between two notification management modes:
+Anda kemudian harus memilih di antara dua mode manajemen notifikasi:
 
 
 
 
 
-- Fast mode ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: enables you to receive message notifications in near real time, thanks to the notification services provided by Google or Apple (depending on your system). For this to work, your IP Address and a unique notification ID are transmitted to Google or Apple, and the Session account ID is also registered with an STF server (via Tor). This mode involves (admittedly minimal) exposure of metadata, but does not compromise message content or contacts, and does not allow your actual activity to be traced. This mode is therefore more efficient in terms of responsiveness, but relies on a centralized infrastructure and is slightly less effective in terms of confidentiality.
+- Mode cepat ("*Firebase Cloud Messaging/Layanan Pemberitahuan Push Apple*")**: memungkinkan Anda untuk menerima pemberitahuan pesan dalam waktu yang nyaris seketika, berkat layanan pemberitahuan yang disediakan oleh Google atau Apple (tergantung sistem Anda). Agar dapat berfungsi, IP Address dan ID notifikasi unik Anda dikirimkan ke Google atau Apple, dan ID akun Sesi juga didaftarkan ke server STF (melalui Tor). Mode ini melibatkan (memang minimal) pemaparan metadata, tetapi tidak mengorbankan konten pesan atau kontak, dan tidak memungkinkan aktivitas Anda yang sebenarnya dilacak. Oleh karena itu, mode ini lebih efisien dalam hal daya tanggap, tetapi bergantung pada infrastruktur terpusat dan sedikit kurang efektif dalam hal kerahasiaan.
 
 
 
 
 
-- Slow mode (*background polling*)**: the Session application remains active in the background, periodically polling the network for new messages. This approach guarantees greater confidentiality than the first, as no data is transmitted to third-party servers; neither Google, Apple nor STF servers receive any information. On the other hand, this mode has two drawbacks: notifications can be delayed (up to several minutes), and energy consumption is generally higher due to application activity in the background.
+- Mode lambat (*pemungutan suara latar belakang*)**: aplikasi Session tetap aktif di latar belakang, secara berkala melakukan pemungutan suara di jaringan untuk mendapatkan pesan baru. Pendekatan ini menjamin kerahasiaan yang lebih besar daripada yang pertama, karena tidak ada data yang dikirim ke server pihak ketiga; baik server Google, Apple maupun STF tidak menerima informasi apa pun. Di sisi lain, mode ini memiliki dua kekurangan: notifikasi dapat tertunda (hingga beberapa menit), dan konsumsi energi umumnya lebih tinggi karena aktivitas aplikasi di latar belakang.
 
 
 
@@ -113,7 +113,7 @@ You will then have to choose between two notification management modes:
 
 
 
-You are now connected to the Session application and can start exchanging messages.
+Anda sekarang terhubung ke aplikasi Session dan dapat mulai bertukar pesan.
 
 
 
@@ -121,11 +121,11 @@ You are now connected to the Session application and can start exchanging messag
 
 
 
-## Save your Session account
+## Simpan akun Sesi Anda
 
 
 
-The first thing to do before you start using Session is to save your account so that you can restore it if you lose your device. To do this, click on the "*Continue*" button next to "*Save your recovery password*".
+Hal pertama yang harus dilakukan sebelum Anda mulai menggunakan Session adalah menyimpan akun Anda sehingga Anda dapat memulihkannya jika Anda kehilangan perangkat. Untuk melakukannya, klik tombol "*Lanjutkan*" di samping "*Simpan kata sandi pemulihan Anda*".
 
 
 
@@ -133,7 +133,7 @@ The first thing to do before you start using Session is to save your account so 
 
 
 
-Session will then display a Mnemonic phrase. Copy it carefully and keep it in a secure place. This phrase provides full access to your Session account, so it's important not to divulge it. You'll need it to access your account on another device, especially if your current phone is lost or replaced.
+Sesi kemudian akan menampilkan frasa Mnemonic. Salin dengan hati-hati dan simpan di tempat yang aman. Frasa ini memberikan akses penuh ke akun Session Anda, jadi penting untuk tidak membocorkannya. Anda akan membutuhkannya untuk mengakses akun Anda di perangkat lain, terutama jika ponsel Anda saat ini hilang atau diganti.
 
 
 
@@ -141,21 +141,21 @@ Session will then display a Mnemonic phrase. Copy it carefully and keep it in a 
 
 
 
-This phrase works in a similar way to the Mnemonic phrases used in Bitcoin portfolios. I therefore recommend that you consult this other tutorial, in which I explain the best practices for saving a Mnemonic phrase:
+Frasa ini bekerja dengan cara yang mirip dengan frasa Mnemonic yang digunakan di dompet Bitcoin. Oleh karena itu, saya sarankan Anda untuk membaca tutorial lainnya, di mana saya menjelaskan praktik terbaik untuk menyimpan frasa Mnemonic:
 
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-**Please note**: Unlike the Mnemonic phrases used on Bitcoin portfolios, on Session, **you absolutely must save each word in its entirety**. The first 4 letters are not enough!
+**Harap diperhatikan**: Tidak seperti frasa Mnemonic yang digunakan pada dompet Bitcoin, pada Session, **Anda harus menyimpan setiap kata secara keseluruhan**. Empat huruf pertama saja tidak cukup!
 
 
 
-## Setting up the Session application
+## Menyiapkan aplikasi Sesi
 
 
 
-To access the application settings, click on your profile photo at the top left of Interface. This is where you can add a profile photo.
+Untuk mengakses pengaturan aplikasi, klik pada foto profil Anda di kiri atas Interface. Di sinilah Anda dapat menambahkan foto profil.
 
 
 
@@ -163,7 +163,7 @@ To access the application settings, click on your profile photo at the top left 
 
 
 
-In the "*Privacy*" menu, you can enable or disable various features (beware, some may expose your IP Address). I also recommend activating the "*Lock App*" option, which requires authentication to access the application.
+Dalam menu "*Privacy*", Anda dapat mengaktifkan atau menonaktifkan berbagai fitur (hati-hati, beberapa fitur dapat mengekspos IP Address Anda). Saya juga merekomendasikan untuk mengaktifkan opsi "*Lock App*", yang memerlukan autentikasi untuk mengakses aplikasi.
 
 
 
@@ -171,7 +171,7 @@ In the "*Privacy*" menu, you can enable or disable various features (beware, som
 
 
 
-In the "*Notification*" menu, you'll find a choice between "*Fast Mode*" and "*Slow Mode*" (see previous parts of the tutorial). You can also customize notifications to suit your preferences.
+Pada menu "*Notification*", Anda akan menemukan pilihan antara "*Fast Mode*" dan "*Slow Mode*" (lihat bagian tutorial sebelumnya). Anda juga dapat menyesuaikan notifikasi agar sesuai dengan preferensi Anda.
 
 
 
@@ -179,7 +179,7 @@ In the "*Notification*" menu, you'll find a choice between "*Fast Mode*" and "*S
 
 
 
-Finally, go to the "*Appearance*" menu to adapt Interface to your taste. The "*Recovery Password*" menu allows you to retrieve your Mnemonic phrase if you wish to make a new backup.
+Terakhir, masuk ke menu "*Penampilan*" untuk menyesuaikan Interface dengan selera Anda. Menu "*Recovery Password*" memungkinkan Anda untuk mengambil frasa Mnemonic jika Anda ingin membuat cadangan baru.
 
 
 
@@ -187,11 +187,11 @@ Finally, go to the "*Appearance*" menu to adapt Interface to your taste. The "*R
 
 
 
-## Sending messages with Session
+## Mengirim pesan dengan Session
 
 
 
-To contact other people, click on the "*+*" button on the home page.
+Untuk menghubungi orang lain, klik tombol "*+*" di halaman beranda.
 
 
 
@@ -199,7 +199,7 @@ To contact other people, click on the "*+*" button on the home page.
 
 
 
-Several options are available. If you wish to create or join a group, select "*Create Group*" or "*Join Community*".
+Tersedia beberapa opsi. Jika Anda ingin membuat atau bergabung dengan grup, pilih "*Buat Grup*" atau "*Gabung Komunitas*".
 
 
 
@@ -207,7 +207,7 @@ Several options are available. If you wish to create or join a group, select "*C
 
 
 
-If you want someone to add you as a contact, you can have them scan your Session ID as a QR code.
+Jika Anda ingin seseorang menambahkan Anda sebagai kontak, Anda dapat meminta mereka memindai ID Sesi Anda sebagai kode QR.
 
 
 
@@ -215,7 +215,7 @@ If you want someone to add you as a contact, you can have them scan your Session
 
 
 
-To send your login remotely, click on "*Invite a Friend*". You can then copy your Session ID and send it via another communication channel. You can also retrieve this information by clicking on your profile photo from the home page.
+Untuk mengirim login Anda dari jarak jauh, klik "*Unggah Teman*". Anda kemudian dapat menyalin ID Sesi Anda dan mengirimkannya melalui saluran komunikasi lain. Anda juga dapat mengambil informasi ini dengan mengeklik foto profil Anda dari halaman beranda.
 
 
 
@@ -223,7 +223,7 @@ To send your login remotely, click on "*Invite a Friend*". You can then copy you
 
 
 
-If you have another person's Session ID and wish to add it, click on "*New Message*".
+Jika Anda memiliki ID Sesi orang lain dan ingin menambahkannya, klik "*Pesan Baru*".
 
 
 
@@ -231,7 +231,7 @@ If you have another person's Session ID and wish to add it, click on "*New Messa
 
 
 
-You can then paste its identifier in text, or scan it directly if you have it as a QR code.
+Anda kemudian dapat menempelkan pengenalnya dalam teks, atau memindainya secara langsung jika Anda memilikinya dalam bentuk kode QR.
 
 
 
@@ -239,7 +239,7 @@ You can then paste its identifier in text, or scan it directly if you have it as
 
 
 
-Then send an initial message to this person.
+Kemudian kirimkan pesan awal ke orang ini.
 
 
 
@@ -247,7 +247,7 @@ Then send an initial message to this person.
 
 
 
-As soon as the person accepts your request, you'll see their username appear, and you'll be able to chat freely with them.
+Segera setelah orang tersebut menerima permintaan Anda, Anda akan melihat nama pengguna mereka muncul, dan Anda akan dapat mengobrol dengan bebas dengannya.
 
 
 
@@ -255,11 +255,11 @@ As soon as the person accepts your request, you'll see their username appear, an
 
 
 
-## Synchronize Desktop software
+## Menyinkronkan perangkat lunak Desktop
 
 
 
-To synchronize your account on your computer, you need to install the software. [Download it from the official website](https://getsession.org/download). I advise you to check its authenticity and integrity before installing it.
+Untuk menyinkronkan akun Anda di komputer, Anda perlu menginstal perangkat lunak. [Unduh dari situs web resmi (https://getsession.org/download). Saya menyarankan Anda untuk memeriksa keaslian dan integritasnya sebelum menginstalnya.
 
 
 
@@ -267,7 +267,7 @@ To synchronize your account on your computer, you need to install the software. 
 
 
 
-On first launch, click on "*I have an account*".
+Saat pertama kali diluncurkan, klik "*Saya memiliki akun*".
 
 
 
@@ -275,7 +275,7 @@ On first launch, click on "*I have an account*".
 
 
 
-Enter your Mnemonic phrase, making sure to leave a space between each word.
+Masukkan frasa Mnemonic Anda, pastikan untuk menyisakan spasi di antara setiap kata.
 
 
 
@@ -283,7 +283,7 @@ Enter your Mnemonic phrase, making sure to leave a space between each word.
 
 
 
-You can now access your conversations from your computer.
+Sekarang Anda dapat mengakses percakapan Anda dari komputer.
 
 
 
@@ -291,11 +291,11 @@ You can now access your conversations from your computer.
 
 
 
-Congratulations, you've now got the hang of using Session messaging, an excellent alternative to WathsApp!
+Selamat, Anda sekarang sudah terbiasa menggunakan perpesanan Session, sebuah alternatif yang sangat baik untuk WathsApp!
 
 
 
-I also recommend this other tutorial, in which I present Threema, another interesting alternative for your messaging application:
+Saya juga merekomendasikan tutorial lain ini, di mana saya menyajikan Threema, alternatif lain yang menarik untuk aplikasi perpesanan Anda:
 
 
 

@@ -6,6 +6,10 @@ description: Jak nastavit vaše zařízení Ledger Nano S
 
 ![image](assets/cover.webp)
 
+*Ledger oznámil ukončení softwarové podpory pro klasický Nano S od 25. června 2025: toto zařízení již nebude dostávat bezpečnostní aktualizace ani nebude kompatibilní s novými funkcemi, což jeho uživatele vystavuje riziku zranitelností a budoucí nekompatibility. Prostředky však zůstávají přístupné díky mnemotechnické frázi, ale důrazně se doporučuje přejít na novější model, aby byla zajištěna bezpečnost a dlouhodobý přístup k vašim bitcoinům. Pozor, jedná se o **starý Nano S**, nikoliv o **Nano S Plus**, který nadále podporu dostává.*
+
+___
+
 Fyzická peněženka pro chladné uchování – 60 € – Začátečník – Pro zabezpečení od 2 000 € do 50 000 €
 
 Ledger je francouzské řešení pro jednoduché zabezpečení bitcoinů.

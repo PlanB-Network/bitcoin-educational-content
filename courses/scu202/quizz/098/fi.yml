@@ -1,0 +1,9 @@
+question: Mikä on VLAN-pohjaisen verkon segmentoinnin tärkein käyttötarkoitus kotiverkossa?
+answer: Eristää erityyppiset laitteet tai käyttötarkoitukset
+wrong_answers:
+  - Laitteiden Wi-Fi-alueen lisääminen
+  - Salaa verkkoyhteydet erikseen jokaiselle laitteelle
+  - Ota WPA3 automaattisesti käyttöön
+explanation: |
+  VLANeja voidaan käyttää laitteiden lokeroimiseen, mikä rajoittaa hyökkäyksen leviämistä segmenttien välillä.
+reviewed: false

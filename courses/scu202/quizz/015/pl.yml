@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta dystrybucji rolling release?
+answer: Korzystanie z najnowszego oprogramowania
+wrong_answers:
+  - Większa kompatybilność z systemem Windows
+  - Środowisko bez grafiki Interface
+  - Obowiązkowe wsparcie sprzedaży
+explanation: |
+  Rolling releases integrują ciągłe aktualizacje oprogramowania, zapewniając stały dostęp do najnowszych wersji.
+reviewed: false

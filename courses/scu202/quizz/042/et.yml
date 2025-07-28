@@ -1,0 +1,9 @@
+question: Miks peaksite alati kontrollima internetist alla laaditud tarkvara terviklikkust ja autentsust?
+answer: Et vältida pahavara paigaldamist
+wrong_answers:
+  - Süsteemi jõudluse parandamiseks
+  - Sagedusala säästmiseks
+  - Paigaldamise kiirendamiseks
+explanation: |
+  Terviklikkuse ja autentsuse kontrollimine aitab vältida vigastatud, nakatunud või mittelegitiimse tarkvara paigaldamist.
+reviewed: false

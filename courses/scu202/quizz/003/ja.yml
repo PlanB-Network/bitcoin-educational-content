@@ -1,0 +1,9 @@
+question: USBメモリーで避けるべきことは？
+answer: 不明なUSBスティックの接続
+wrong_answers:
+  - NTFSフォーマットのUSBメモリを使用する
+  - 自分のUSBメモリを暗号化する
+  - 新しいUSBメモリーを使う
+explanation: |
+  見知らぬUSBメモリを接続すると、コンピュータがマルウェアに感染したり、機密データが盗まれたりする可能性がある。
+reviewed: false

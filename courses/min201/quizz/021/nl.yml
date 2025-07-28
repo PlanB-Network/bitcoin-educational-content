@@ -1,0 +1,13 @@
+question: Wat is de economische stimulans om een Bitcoin Miner te gebruiken in plaats van een eenvoudige elektrische verwarmer?
+answer: De Miner levert niet alleen warmte, maar ook een Bitcoin beloning.
+wrong_answers:
+  - De Miner verbruikt minder elektriciteit dan een eenvoudige elektrische verwarming.
+  - De Miner produceert meer warmte dan een eenvoudig elektrisch verwarmingselement.
+  - De Miner is goedkoper dan een eenvoudige elektrische verwarming.
+explanation: |
+  Het verschil tussen een Miner en een eenvoudige elektrische
+  ligt in het feit dat de Miner niet alleen
+  warmte levert, maar ook een Bitcoin beloning. Deze extra beloning
+  zou de bezorgdheid over het hoge energieverbruik van mijnwerkers kunnen wegnemen
+  verbruik van mijnwerkers.
+reviewed: true

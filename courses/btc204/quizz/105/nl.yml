@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van een PayJoin transactie in vergelijking met een klassieke betalingstransactie?
+answer: Het verbetert de privacy
+wrong_answers:
+  - Het verhoogt de bevestigingssnelheid
+  - Het verlaagt de transactiekosten
+  - Het misleidt de ontvanger
+explanation: |
+  De PayJoin transactie verbetert de privacy van de belanghebbenden door misleidende ketenanalyse.

@@ -5,7 +5,6 @@ subtopic: protocol
 level: intermediate
 hours: 8
 
-test_only: true
 
 professors_id:
   - 736e2e8e-4e62-11f0-b62a-0f5712b72cd7
@@ -22,6 +21,11 @@ proofreading:
     contributor_names:
       - Asi0Flammeus
     reward: 1
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.21
 tags:
   - proof-of-work
   - onchain

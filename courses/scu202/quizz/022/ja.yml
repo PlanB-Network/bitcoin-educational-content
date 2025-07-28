@@ -1,0 +1,9 @@
+question: デフォルトでCinnamonデスクトップ環境を使用しているディストリビューションは？
+answer: リナックスミント
+wrong_answers:
+  - ウブントゥ
+  - デビアン
+  - フェドラ
+explanation: |
+  CinnamonはLinux Mintチームによって開発され、Windowsに近いモダンでクラシックなInterfaceを提供します。
+reviewed: false

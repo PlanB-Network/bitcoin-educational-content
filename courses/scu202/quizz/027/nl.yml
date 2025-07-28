@@ -1,0 +1,9 @@
+question: Welke grafische tool in Ubuntu maakt het makkelijk om firewallregels te beheren?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptisch
+explanation: |
+  GUFW is een grafische Interface voor de UFW firewall, waarmee je regels kunt activeren, deactiveren en configureren zonder via de terminal te gaan.
+reviewed: false

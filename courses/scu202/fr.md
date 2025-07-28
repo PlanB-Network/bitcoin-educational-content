@@ -526,13 +526,13 @@ Développée par Canonical et lancée en 2004, Ubuntu est l’une des distributi
 
 ![Image](assets/fr/020.webp)
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 - **Linux Mint** :
 
 Lancée en 2006, Linux Mint est une distribution dérivée d’Ubuntu, pensée pour offrir une alternative plus intuitive et plus proche de l’ergonomie de Windows. Elle propose plusieurs environnements de bureau, dont Cinnamon, un fork de GNOME conçu spécifiquement par l’équipe de Mint, qui offre une interface claire, classique et immédiatement familière.
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint se distingue par sa simplicité, la présence par défaut de codecs multimédias et un outil de mise à jour bien conçu. En contrepartie, elle repose étroitement sur l’infrastructure d’Ubuntu, ce qui la rend dépendante de ses choix techniques (notamment au niveau du noyau ou des dépôts). Mint est particulièrement adaptée aux utilisateurs peu techniques ou à ceux qui souhaitent un système prêt à l’emploi, sans trop d’apprentissage.
 
@@ -568,6 +568,8 @@ Fedora est une distribution soutenue par Red Hat, orientée vers les dernières 
 
 ![Image](assets/fr/025.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+
 - **openSUSE** (Tumbleweed ou Leap) :
 
 openSUSE est une distribution disponible en rolling release ou stable. Elle propose l’outil YaST pour la configuration système et permet un usage polyvalent avec plusieurs environnements graphiques. Elle demande un peu plus d’expérience mais reste robuste pour un usage quotidien.
@@ -579,6 +581,8 @@ openSUSE est une distribution disponible en rolling release ou stable. Elle prop
 Debian existe en plusieurs branches, dont *Stable* (très fiable, mais logiciels plus anciens) et *Testing* (plus à jour, mais légèrement moins éprouvée). Elle utilise `apt` et est connue pour sa rigueur, sa philosophie libre et sa grande compatibilité. Debian est un bon choix pour les utilisateurs qui recherchent la stabilité, les administrateurs système...
 
 ![Image](assets/fr/027.webp)
+
+https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 - **Manjaro** :
 
@@ -610,7 +614,7 @@ Parrot OS est également dérivée de Debian. Elle propose un environnement pour
 
 Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est un distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Remarque :** Une distribution live est un système d'exploitation Linux utilisable directement depuis une clé USB ou un CD, sans installation sur le disque dur.
 
@@ -1665,6 +1669,8 @@ Enfin, l’une des mesures les plus importantes pour vous protéger du vol est d
 - Windows utilise BitLocker, mais son activation dépend des machines et des versions de l'OS ;
 - Les distributions Linux ne chiffrent pas automatiquement le disque, sauf si l’option est choisie à l’installation. Vous pouvez utiliser LUKS pour chiffrer le disque.
 
+https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+
 Dans tous les cas, le mot de passe de déchiffrement doit être fort, distinct de celui du système, et stocké dans un gestionnaire sécurisé. Si vous utilisez un disque externe ou une clé USB contenant des données sensibles, pensez également à les chiffrer individuellement avec des outils comme VeraCrypt.
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -1716,6 +1722,8 @@ Les machines virtuelles (ou "VM") permettent de créer des environnements totale
 Cette technologie repose sur un hyperviseur, un logiciel qui gère la création et l’exécution des VM. La solution la plus connue est VirtualBox, un logiciel open source et multiplateforme. Il permet de créer facilement une VM en quelques clics en lui attribuant des ressources spécifiques.
 
 ![Image](assets/fr/206.webp)
+
+https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 En termes de sécurité informatique, un des grands avantages des machines virtuelles est leur capacité de cloisonnement. Une VM ne partage ni ses fichiers, ni ses processus, ni ses accès réseau avec le système hôte, sauf si vous configurez explicitement ces échanges. Donc si une VM est infectée par un malware ou si vous testez un logiciel sensible à l’intérieur, l’impact reste confiné à cette machine virtuelle : votre système principal reste intact, à condition que les paramètres d’isolation soient bien respectés (pas de dossiers partagés, pas de périphériques USB passés à la VM...).
 
@@ -1985,6 +1993,8 @@ Sur une machine Linux bien maintenue et utilisée dans un cadre personnel, les r
 - **Lynis** : un outil d’audit de sécurité complet qui analyse votre système à la recherche de mauvaises configurations, de faiblesses connues ou d’écarts avec les bonnes pratiques. Il génère un rapport simple à lire, avec un score de sécurité et des recommandations.
 
 ![Image](assets/fr/218.webp)
+
+https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Sous macOS
 
@@ -2293,6 +2303,8 @@ Le chiffrement intégral est comme un verrou : tant que le mot de passe n’est 
 - **Linux (Debian) :**
 
 Sous Linux, la solution standard est LUKS (*Linux Unified Key Setup*). LUKS est un système de gestion de volumes chiffrés intégré dans la plupart des distributions. Lors de l'installation initiale du système, on va généralement vous proposer de chiffrer l'intégralité du disque de l'ordinateur. Je vous recommande évidemment vivement de l’activer. Une fois le chiffrement activé, le système demandera le mot de passe à chaque démarrage, avant même que l’OS ne se charge. Cela garantit qu’un accès physique au disque ne permet pas de contourner la sécurité.
+
+https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Si vous souhaitez chiffrer un disque externe ou une clé USB, cela peut également se faire en ligne de commande ou via l'interface graphique. Le disque devra être formaté, donc toutes les données existantes seront perdues si elles ne sont pas sauvegardées au préalable.
 
@@ -3137,6 +3149,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
+https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+
 Les VPN très médiatisés sont à éviter. Malgré leur marketing agressif, ils restent des services commerciaux centralisés, souvent basés dans des juridictions moins protectrices, et rarement transparents sur leur fonctionnement technique réel.
 
 ### Nettoyer régulièrement l’historique et les cookies
@@ -3417,7 +3431,7 @@ GrapheneOS n’intègre aucun composant propriétaire. Vous êtes libre d’ajou
 
 Graphene est uniquement compatible avec les Google Pixel récents (Pixel 6, 7, 8 et 9).
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -3566,6 +3580,8 @@ Pour vous protéger, évitez tout simplement d'utiliser ces réseaux publics ou 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Pour ce qui est de votre réseau Wi-Fi domestique, nous en parlerons dans la dernière partie du cours SCU 202.
 
@@ -4500,6 +4516,10 @@ Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point
 
 ![Image](assets/fr/196.webp)
 
+https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+
 Ces systèmes permettent un contrôle plus fin des règles de pare-feu, des connexions sortantes et entrantes, de la segmentation réseau (VLAN), ou encore de la gestion des DNS, mais ils s’adressent davantage à des utilisateurs avancés.
 
 **En résumé, je vous conseille de :** 
@@ -4625,7 +4645,11 @@ Concrètement, ce chiffrement DNS et changement de serveur peut être mis en pla
 
 Aussi, les routeurs-modems fournis par les ISP ne prennent pas toujours en charge ces fonctionnalités. En cas de limitations au niveau du routeur, plusieurs alternatives existent. Vous pouvez installer un client DNS chiffré manuellement sur chaque appareil, ajouter un routeur personnel derrière celui de l’ISP (capable de gérer le chiffrement DNS) ou bien déployer un serveur DNS local (par exemple, sur un Raspberry Pi) chargé de chiffrer et rediriger les requêtes DNS vers un résolveur sécurisé.
 
-Pour aller plus loin, vous pouvez aussi mettre en place une solution de filtrage DNS locale telle que Pi-hole ou AdGuard Home. Ces outils agissent comme un petit serveur DNS à l’intérieur de votre réseau et bloquent les requêtes vers les domaines connus pour héberger de la publicité, des traqueurs de navigation ou encore des sites de phishing ou malveillants. Ces outils vous permettent également de créer vos propres listes de blocage ou de personnaliser le filtrage selon les appareils connectés.
+Pour aller plus loin, vous pouvez aussi mettre en place une solution de filtrage DNS locale telle que Pi-hole ou AdGuard Home.
+
+https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+Ces outils agissent comme un petit serveur DNS à l’intérieur de votre réseau et bloquent les requêtes vers les domaines connus pour héberger de la publicité, des traqueurs de navigation ou encore des sites de phishing ou malveillants. Ces outils vous permettent également de créer vos propres listes de blocage ou de personnaliser le filtrage selon les appareils connectés.
 
 ![Image](assets/fr/200.webp)
 
@@ -4667,6 +4691,8 @@ Pour aller plus loin, vous pouvez mettre en place un IDS (*Intrusion Detection S
 
 Enfin, surveiller la consommation de bande passante est aussi un bon indicateur d’activité anormale. Si un appareil consomme soudainement beaucoup de données sans raison apparente, cela peut trahir un téléchargement non autorisé, une fuite de données, voire un appareil compromis. Des outils comme ntopng ou vnStat permettent de visualiser les flux entrants et sortants par appareil.
 
+https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+
 ### Sauvegarde et résilience
 
 Même avec un réseau parfaitement sécurisé, les pannes matérielles, les erreurs de configuration ou les événements imprévus (coupure de courant, surtension, défaillance d’un disque dur...) peuvent provoquer des pertes de données ou interrompre vos services. Pour garantir la continuité de votre environnement numérique et éviter de repartir de zéro en cas de problème, il est important de mettre en place une stratégie de sauvegarde et de résilience.
@@ -4693,4 +4719,5 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-<isCourseConclusion>false</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>
+

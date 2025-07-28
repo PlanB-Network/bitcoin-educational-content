@@ -1,0 +1,9 @@
+question: Welke open source vertaalapplicatie werkt met verschillende engines en verzamelt je vertaalde teksten niet?
+answer: VertaalU
+wrong_answers:
+  - Google Vertalen
+  - DeepL
+  - Microsoft vertaler
+explanation: |
+  TranslateYou werkt als een Interface voor verschillende engines, zonder tracking of het verzamelen van persoonlijke gegevens, in tegenstelling tot propriëtaire diensten.
+reviewed: false

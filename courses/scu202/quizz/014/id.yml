@@ -1,0 +1,9 @@
+question: Siapakah dua pencipta utama Unix?
+answer: Ken Thompson dan Dennis Ritchie
+wrong_answers:
+  - Richard Stallman dan Linus Torvalds
+  - Andrew S. Tanenbaum dan Larry Ewing
+  - Steve Jobs dan Bill Gates
+explanation: |
+  Unix dikembangkan oleh Ken Thompson dan Dennis Ritchie di AT&T Bell Labs pada akhir tahun 1960-an dan awal tahun 1970-an.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which text browser, without Interface graphics or JavaScript support, is the oldest still maintained?
+answer: Lynx
+wrong_answers:
+  - Mullvad Browser
+  - Polypane
+  - Vivaldi
+explanation: |
+  Lynx, which appeared in 1992, operates in text mode, does not support JavaScript and is still used for very specific purposes.
+reviewed: false

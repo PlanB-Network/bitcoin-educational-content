@@ -1,0 +1,9 @@
+question: ¿Qué navegador de código abierto, desarrollado por una organización sin ánimo de lucro, es el máximo exponente del motor Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - Valiente
+  - Safari
+  - Cromo
+explanation: |
+  Mozilla Firefox, desarrollado por la Fundación Mozilla, es el principal navegador basado en Gecko, famoso por su Commitment a la privacidad.
+reviewed: false

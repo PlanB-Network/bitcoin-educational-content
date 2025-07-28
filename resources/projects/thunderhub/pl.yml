@@ -1,0 +1,4 @@
+description: |
+  ThunderHub to platforma typu open-source, która umożliwia zarządzanie i monitorowanie węzła Lightning z dowolnego urządzenia.
+  
+  Niektóre z kluczowych funkcji obejmują wysyłanie i odbieranie płatności Lightning i On-Chain, opcje równoważenia, korzystanie z LN-pay i LN-withdraw ze strony głównej oraz zarządzanie kanałami w celu uzyskania optymalnej płynności. ThunderHub jest zintegrowany z BTCPay, RaspiBlitz, MyNode, Voltage, Umbrel i Start9's EmbassyOS i obsługuje najnowsze wersje węzłów LND. Platforma zapewnia również raporty transakcyjne i szczegóły przekazywanych płatności, a dla wygody użytkowników oferuje zarówno tryb nocny, jak i dzienny.

@@ -1,0 +1,9 @@
+question: Którego polecenia można użyć do zainstalowania oprogramowania z oficjalnych repozytoriów Ubuntu?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - install-software
+explanation: |
+  Polecenie "sudo apt install" instaluje pakiet oprogramowania za pośrednictwem menedżera pakietów APT, natywnej metody w Ubuntu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le rôle fondamental d’un réseau en informatique ?
+answer: Permettre l’échange de données
+wrong_answers:
+  - Augmenter la mémoire des ordinateurs
+  - Créer des copies de sauvegarde
+  - Permettre l’échange d'équipements informatiques
+explanation: |
+  Un réseau relie plusieurs équipements afin de permettre la circulation et l’échange d’informations.
+reviewed: false

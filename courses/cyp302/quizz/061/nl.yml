@@ -1,0 +1,9 @@
+question: Welk type encryptie gebruikt vaste gegevensblokken?
+answer: Blokversleuteling
+wrong_answers:
+  - Stream encryptie
+  - Verificatiecode bericht
+  - Openbare sleutel
+explanation: |
+  Blokversleuteling verdeelt de gegevens in blokken met een vaste grootte en versleutelt deze onafhankelijk van elkaar.
+reviewed: false

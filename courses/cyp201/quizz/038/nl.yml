@@ -1,0 +1,9 @@
+question: Waarom wordt hergebruik van een Bitcoin Address afgeraden?
+answer: Het vergemakkelijkt het volgen van transacties door derden
+wrong_answers:
+  - Het onthult de privésleutel vanwege de Nonce
+  - Het maakt transacties duurder
+  - Het maakt digitale handtekeningen ongeldig
+explanation: |
+  Door een Address te hergebruiken, kunnen waarnemers gemakkelijk verschillende transacties koppelen aan dezelfde gebruiker, waardoor hun privacy in het gedrang komt.
+reviewed: false

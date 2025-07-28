@@ -1,0 +1,9 @@
+question: Które narzędzie open source może w pełni zaszyfrować dysk w systemie Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) to standardowe rozwiązanie w systemie Linux do pełnego szyfrowania dysku podczas instalacji.
+reviewed: false

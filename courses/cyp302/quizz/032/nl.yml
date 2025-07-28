@@ -1,0 +1,9 @@
+question: Waarom is een pseudo-willekeurige string niet te onderscheiden van een echt willekeurige string?
+answer: Omdat het bijna onmogelijk is om de oorsprong te bepalen zonder aanvullende informatie
+wrong_answers:
+  - Omdat het deterministische segmenten bevat die identiek zijn aan een echt willekeurige string
+  - Omdat het variabele getallen gebruikt bij de constructie
+  - Omdat het alleen wordt gegenereerd door natuurlijke gebeurtenissen
+explanation: |
+  Een pseudo-willekeurige string is ontworpen om te lijken op een echte willekeurige string, waardoor het onderscheid onmogelijk is zonder toegang tot de seed of het gebruikte algoritme.
+reviewed: false

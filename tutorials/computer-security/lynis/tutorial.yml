@@ -1,0 +1,25 @@
+id: 1cf865b3-a352-4dd2-94d2-f17fa65547af
+
+credit_link: https://www.it-connect.fr/scan-de-votre-systeme-unix-avec-lynis/
+
+tags:
+  - personal-security
+  - software
+  - guides
+
+category: operating system
+
+level: advanced
+
+professor_id: af717972-cc92-4478-9c14-6abb530b4af6
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-07
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

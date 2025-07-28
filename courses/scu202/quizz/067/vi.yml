@@ -1,0 +1,9 @@
+question: Mục đích chính của VPN khi lướt mạng Wi-Fi công cộng là gì?
+answer: Mã hóa lưu lượng giữa thiết bị và máy chủ VPN
+wrong_answers:
+  - Ẩn danh kết nối Internet của bạn
+  - Tự động cài đặt bản cập nhật
+  - Mật khẩu mạnh generate
+explanation: |
+  VPN mã hóa mọi lưu lượng mạng, bảo vệ dữ liệu của bạn khỏi bị chặn trên các mạng không an toàn như Wi-Fi công cộng.
+reviewed: false

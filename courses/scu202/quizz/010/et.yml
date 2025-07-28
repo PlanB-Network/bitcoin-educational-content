@@ -1,0 +1,9 @@
+question: Mis on Linuxi sümboolse maskoti nimi?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux on alates 1996. aastast olnud Linuxi tuuma ametlik maskott, mille on loonud Larry Ewing.
+reviewed: false

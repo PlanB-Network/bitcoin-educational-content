@@ -1,0 +1,13 @@
+question: Hoe komt Bitcoin ten goede aan individuen in door oorlog verscheurde of onstabiele landen?
+answer: Het maakt de opslag van waarde mogelijk op een gedecentraliseerde en veilige manier die beter bestand is tegen diefstal
+wrong_answers:
+  - Het geeft toegang tot traditionele bankdiensten
+  - Het biedt een fysiek actief dat in waarde kan toenemen
+  - Het biedt bescherming tegen deflatie
+explanation: |
+  In door oorlog verscheurde of onstabiele landen kunnen mensen moeite hebben om
+  toegang tot traditionele bankdiensten of lopen ze het risico van diefstal of
+  diefstal of inbeslagname van fysieke bezittingen. Met Bitcoin kunnen mensen waarde opslaan
+  gedecentraliseerd en veilig op te slaan zonder tussenpersonen
+  of fysieke activa die kwetsbaar zijn voor risico's zoals inflatie, diefstal of inbeslagname.
+reviewed: true

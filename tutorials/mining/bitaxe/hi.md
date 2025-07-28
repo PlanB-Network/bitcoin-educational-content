@@ -2,7 +2,7 @@
 name: बिटएक्स की स्थापना
 description: बिटएक्स कैसे स्थापित करें?
 ---
-
+![video](https://youtu.be/tvLSK8v0MK8)
 ### परिचय
 
 

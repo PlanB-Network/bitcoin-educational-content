@@ -69,7 +69,7 @@ Verás su web Interface a través de Umbrel: proporciona información básica y,
 
 
 
-**Para aprovechar su relé Umbrel :**
+**Para aprovechar su relé Umbrel:**
 
 
 
@@ -145,7 +145,7 @@ En esta página, pega la URL de tu relé Umbrel que copiaste anteriormente. Tamb
 
 
 
-Una vez conectado, ya puedes utilizar noStrudel para compartir tus notas a través de Nostr. La interfaz te da acceso a :
+Una vez conectado, ya puedes utilizar noStrudel para compartir tus notas a través de Nostr. La interfaz te da acceso a:
 
 
 
@@ -202,7 +202,7 @@ Snort ofrece varios métodos de conexión. Puedes utilizar la extensión Nostr C
 
 
 
-La Interfaz de _Snort_ ofrece :
+La Interfaz de _Snort_ ofrece:
 
 
 
@@ -276,7 +276,7 @@ Haz clic en "Conectar" para ser redirigido automáticamente a tu sesión de Umbr
 
 
 
-En la página Nostr Wallet Connect, puedes :
+En la página Nostr Wallet Connect, puedes:
 
 
 
@@ -329,7 +329,7 @@ Por razones de seguridad, tu Umbrel sólo es accesible por defecto en tu red loc
 - **Acceso vía Tor:** Umbrel configura automáticamente un **servicio Tor (.onion)** para su Interfaz web y sus aplicaciones. Esto significa que puedes acceder a la Interfaz de Umbrel (incluyendo _noStrudel_ o _Snort_) desde cualquier lugar, usando el navegador Tor, sin exponer tu IP pública. _Tor se utiliza para acceder a tus servicios Umbrel desde fuera de tu red local, sin exponer tu dispositivo a Internet ([Configura Tor en tu sistema - Guías - Comunidad Umbrel](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ Para utilizar esta opción, ve a la configuración de Umbrel y recupera la URL .onion de tu Umbrel (o escanea el código QR proporcionado). En un navegador Tor, accede a esta dirección .onion: Obtendrás la misma Interfaz que localmente. Entonces podrás usar tus aplicaciones Nostr como en casa.
 
 
-**Relé Nostr a través de Tor:** Si quieres que tus clientes (o amigos autorizados) puedan acceder a tu relé Nostr a través de Tor, es posible. Umbrel no proporciona la dirección .onion del relé directamente, pero como se ejecuta en el puerto 4848, puedes :
+**Relé Nostr a través de Tor:** Si quieres que tus clientes (o amigos autorizados) puedan acceder a tu relé Nostr a través de Tor, es posible. Umbrel no proporciona la dirección .onion del relé directamente, pero como se ejecuta en el puerto 4848, puedes:
 
 
 

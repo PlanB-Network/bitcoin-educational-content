@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Cuối cùng, bạn cũng có thể sử dụng VeraCrypt ở chế độ chứa, chế độ này tạo ra một tệp hoạt động như một kho lưu trữ được mã hóa, có thể gắn kết như một đĩa.
-
-
 
 Bây giờ bạn đã biết cách bảo vệ dữ liệu cá nhân của mình khỏi bị mất và trộm cắp, chương tiếp theo sẽ đề cập đến một khía cạnh quan trọng khác: cách ngăn chặn các tệp cá nhân của bạn trở thành mục tiêu tấn công thông qua siêu dữ liệu.
 
-
-
-
 ## Làm sạch siêu dữ liệu
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Mỗi khi bạn tạo một tệp kỹ thuật số, dù là ảnh, tài liệu văn phòng, tệp âm thanh hay video, nó đều chứa siêu dữ liệu ở chế độ nền. Thông tin này không hiển thị trực tiếp khi bạn mở tệp, nhưng nó vẫn tồn tại và có thể chứa mã Elements cực kỳ nhạy cảm.
-
-
 
 ### Tại sao siêu dữ liệu lại là một rủi ro?
 
-
-
 Siêu dữ liệu là dữ liệu được đính kèm vào một tệp, có vai trò cung cấp thông tin ngữ cảnh về nội dung. Trong một hình ảnh, siêu dữ liệu có thể bao gồm ngày và giờ chụp ảnh, tọa độ GPS chính xác, mẫu máy ảnh hoặc điện thoại thông minh được sử dụng, và đôi khi thậm chí cả các cài đặt kỹ thuật. Trong một tài liệu văn bản, siêu dữ liệu có thể bao gồm tên tác giả, tên công ty, ID phiên làm việc của người dùng, dấu thời gian tạo và chỉnh sửa, hoặc thậm chí cả các bình luận nội bộ được để lại trong quá trình chỉnh sửa.
-
-
 
 Siêu dữ liệu này có vẻ vô hại, nhưng kẻ xấu có thể sử dụng nó để xác định tác giả của tệp, định vị một người, tái hiện sự kiện hoặc thói quen, hoặc thậm chí khai thác lỗ hổng phần mềm dựa trên phiên bản phần mềm được sử dụng.
 
-
-
 Hãy lấy một ví dụ cụ thể: bạn đăng một bức ảnh được cho là ẩn danh lên diễn đàn. Nếu bạn chưa xóa siêu dữ liệu EXIF, chỉ cần một cú nhấp chuột là có thể hiển thị tọa độ GPS chính xác của nhà bạn, mẫu điện thoại và ngày chụp ảnh chính xác. Tương tự, một tài liệu PDF được gửi ẩn danh có thể chứa tên đầy đủ của bạn trong thuộc tính của nó.
-
-
 
 Đó là lý do tại sao một số nền tảng xuất bản và truyền thông tự động xóa siêu dữ liệu khỏi ảnh của bạn. Các nền tảng này bao gồm X (Twitter), Instagram, Signal và Session. Mặt khác, các nền tảng khác không xóa siêu dữ liệu: điều này xảy ra với hầu hết các diễn đàn trực tuyến, nhiều ứng dụng email, hoặc thậm chí khi bạn đăng trực tiếp lên trang web.
 
-
-
 Đây là một phản xạ thiết yếu cần áp dụng: ngay khi một tập tin rời khỏi phạm vi riêng tư của bạn, bạn cần nghĩ đến việc dọn dẹp siêu dữ liệu của nó để tránh tiết lộ thông tin cá nhân hoặc thông tin nhạy cảm mà bạn không hề hay biết. Hãy cùng xem cách thực hiện việc này, tùy thuộc vào hệ điều hành của bạn.
-
-
 
 ### Trên Linux (Debian)
 
-
-
 #### Sử dụng ExifTool
-
-
 
 Công cụ quản lý và xóa siêu dữ liệu hoàn chỉnh và đáng tin cậy nhất là ExifTool, do Phil Harvey phát triển. Công cụ này tương thích với nhiều định dạng tệp (JPG, PNG, PDF, MP3, DOCX...) và cho phép hiển thị và xóa siêu dữ liệu.
 
-
-
-
-
 - Bước 1: Cài đặt ExifTool
 
-
-
 Để cài đặt trên bản phân phối Debian (Ubuntu), hãy mở terminal và nhập lệnh:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Gói này cài đặt `exiftool`, sau đó bạn có thể sử dụng trực tiếp từ dòng lệnh.
 

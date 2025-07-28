@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Wreszcie, możliwe jest również użycie VeraCrypt w trybie kontenera, który tworzy plik działający jako zaszyfrowane archiwum, które można zamontować jak dysk.
-
-
 
 Teraz, gdy dowiedziałeś się, jak chronić swoje dane osobowe przed utratą i kradzieżą, w następnym rozdziale przyjrzymy się kolejnemu ważnemu aspektowi: jak zapobiec temu, by pliki osobiste stały się wektorami ataków poprzez ich metadane.
 
-
-
-
 ## Czyszczenie metadanych
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Za każdym razem, gdy tworzysz plik cyfrowy, czy to zdjęcie, dokument biurowy, plik audio lub wideo, zawiera on metadane w tle. Informacje te nie są bezpośrednio widoczne po otwarciu pliku, ale tam są i mogą zawierać niezwykle wrażliwe Elements.
-
-
 
 ### Dlaczego metadane stanowią zagrożenie?
 
-
-
 Metadane to dane dołączone do pliku, których rolą jest dostarczenie kontekstowych informacji o treści. W przypadku obrazu może to obejmować datę i godzinę wykonania zdjęcia, dokładne współrzędne GPS, model używanego aparatu lub smartfona, a czasem nawet ustawienia techniczne. W przypadku dokumentu tekstowego może to być imię i nazwisko autora, nazwa firmy, identyfikator sesji użytkownika, znaczniki czasu utworzenia i modyfikacji, a nawet wewnętrzne komentarze pozostawione podczas edycji.
-
-
 
 Te metadane mogą wydawać się nieszkodliwe, ale mogą być wykorzystywane przez złośliwych aktorów do identyfikacji autora pliku, fizycznej lokalizacji osoby, rekonstrukcji zdarzeń lub nawyków, a nawet wykorzystywania błędów oprogramowania w oparciu o używaną wersję oprogramowania.
 
-
-
 Weźmy konkretny przykład: publikujesz rzekomo anonimowe zdjęcie na forum. Jeśli nie usunąłeś metadanych EXIF, jedno kliknięcie może ujawnić dokładne współrzędne GPS twojego domu, model telefonu i dokładną datę wykonania zdjęcia. Podobnie, dokument PDF wysłany anonimowo może zawierać pełne imię i nazwisko we właściwościach.
-
-
 
 Dlatego niektóre platformy do publikowania mediów i komunikacji automatycznie usuwają metadane ze zdjęć. Należą do nich X (Twitter), Instagram, Signal i Session. Z drugiej strony inne platformy w ogóle nie usuwają metadanych: tak jest w przypadku większości forów internetowych, wielu klientów poczty e-mail, a nawet podczas publikowania bezpośrednio na stronie internetowej.
 
-
-
 Jest to niezbędny odruch do przyjęcia: gdy tylko plik opuści sferę prywatną, musisz pomyśleć o wyczyszczeniu jego metadanych, aby uniknąć ujawnienia danych osobowych lub poufnych informacji bez Twojej wiedzy. Przyjrzyjmy się, jak to zrobić, w zależności od systemu operacyjnego.
-
-
 
 ### W systemie Linux (Debian)
 
-
-
 #### Korzystanie z narzędzia ExifTool
-
-
 
 Najbardziej kompletnym i niezawodnym narzędziem do zarządzania i usuwania metadanych jest ExifTool, opracowany przez Phila Harveya. Jest ono kompatybilne z wieloma formatami plików (JPG, PNG, PDF, MP3, DOCX...) i umożliwia zarówno wyświetlanie, jak i usuwanie metadanych.
 
-
-
-
-
 - Krok 1: Instalacja narzędzia ExifTool
 
-
-
 Aby zainstalować go w dystrybucji Debian (Ubuntu), otwórz terminal i wpisz polecenie:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Pakiet ten instaluje `exiftool`, którego można następnie używać bezpośrednio z linii poleceń.
 

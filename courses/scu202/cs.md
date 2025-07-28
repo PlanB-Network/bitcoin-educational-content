@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 VeraCrypt je také možné používat v režimu kontejneru, který vytvoří soubor fungující jako šifrovaný archiv připojitelný jako disk.
-
-
 
 Nyní, když jste se dozvěděli, jak chránit svá osobní data před ztrátou a krádeží, se v další kapitole věnujeme dalšímu důležitému aspektu: jak zabránit tomu, aby se vaše osobní soubory staly prostřednictvím svých metadat vektory útoku.
 
-
-
-
 ## Čištění metadat
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Pokaždé, když vytvoříte digitální soubor, ať už jde o fotografii, kancelářský dokument, zvukový nebo video soubor, obsahuje na pozadí metadata. Tyto informace nejsou při otevření souboru přímo viditelné, ale jsou tam a mohou obsahovat velmi citlivé informace Elements.
-
-
 
 ### Proč jsou metadata rizikem?
 
-
-
 Metadata jsou data připojená k souboru, jejichž úkolem je poskytovat kontextové informace o obsahu. U obrázku to může být datum a čas pořízení snímku, přesné souřadnice GPS, model použitého fotoaparátu nebo chytrého telefonu a někdy i technická nastavení. U textového dokumentu to může být jméno autora, název společnosti, ID relace uživatele, časové značky vytvoření a modifikace nebo dokonce interní komentáře zanechané během úprav.
-
-
 
 Tato metadata se mohou zdát neškodná, ale záškodníci je mohou využít k identifikaci autora souboru, fyzické lokalizaci osoby, rekonstrukci událostí nebo zvyků, nebo dokonce ke zneužití softwarových chyb na základě verze použitého softwaru.
 
-
-
 Vezměme si konkrétní příklad: na fóru zveřejníte údajně anonymní fotografii. Pokud jste neodstranili metadata EXIF, jediné kliknutí může odhalit přesné GPS souřadnice vašeho domova, model vašeho telefonu a přesné datum pořízení fotografie. Stejně tak anonymně odeslaný dokument PDF může ve svých vlastnostech obsahovat vaše celé jméno.
-
-
 
 Proto některé platformy pro publikování médií a komunikaci automaticky odstraňují metadata z vašich fotografií. Patří mezi ně X (Twitter), Instagram, Signal a Session. Jiné platformy naopak metadata neodstraňují vůbec: to je případ většiny online fór, mnoha e-mailových klientů nebo i při přímém publikování na webových stránkách.
 
-
-
 Je to základní reflex, který je třeba si osvojit: jakmile soubor opustí vaši soukromou sféru, je třeba myslet na vyčištění jeho metadat, aby nedošlo k prozrazení osobních nebo citlivých informací bez vašeho vědomí. Podívejme se, jak to provést v závislosti na vašem operačním systému.
-
-
 
 ### V systému Linux (Debian)
 
-
-
 #### Použití nástroje ExifTool
-
-
 
 Nejúplnějším a nejspolehlivějším prostředkem pro správu a mazání metadat je nástroj ExifTool, který vyvinul Phil Harvey. Je kompatibilní s velkým množstvím formátů souborů (JPG, PNG, PDF, MP3, DOCX...) a umožňuje zobrazení i odstranění metadat.
 
-
-
-
-
 - Krok 1: Instalace nástroje ExifTool
 
-
-
 Chcete-li ji nainstalovat do distribuce Debian (Ubuntu), otevřete terminál a zadejte příkaz:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Tento balíček nainstaluje nástroj `exiftool`, který pak můžete používat přímo z příkazového řádku.
 

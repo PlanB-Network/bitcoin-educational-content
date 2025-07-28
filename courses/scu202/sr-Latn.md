@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Konačno, moguće je koristiti VeraCrypt i u režimu kontejnera, koji kreira fajl koji deluje kao šifrovana arhiva, montabilna kao disk.
-
-
 
 Sada kada ste naučili kako da zaštitite svoje lične podatke od gubitka i krađe, sledeće poglavlje se bavi još jednim važnim aspektom: kako sprečiti da vaši lični fajlovi postanu vektori napada putem njihovih metapodataka.
 
-
-
-
 ## Čišćenje metapodataka
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Svaki put kada kreirate digitalni fajl, bilo da je to fotografija, office dokument, audio ili video fajl, on sadrži metapodatke u pozadini. Ove informacije nisu direktno vidljive kada otvorite fajl, ali su prisutne i mogu sadržati izuzetno osetljive Elements.
-
-
 
 ### Zašto je metapodatak rizik?
 
-
-
 Metapodaci su podaci priloženi datoteci, čija je uloga da pruže kontekstualne informacije o sadržaju. U slici, ovo može uključivati datum i vreme kada je slika snimljena, precizne GPS koordinate, model kamere ili pametnog telefona korišćenog, a ponekad čak i tehnička podešavanja. U tekstualnom dokumentu, može uključivati ime autora, ime kompanije, ID sesije korisnika, vremenske oznake kreiranja i izmene, ili čak interne komentare ostavljene tokom uređivanja.
-
-
 
 Ovi metapodaci mogu izgledati bezopasno, ali ih zlonamerni akteri mogu iskoristiti da identifikuju autora datoteke, fizički lociraju osobu, rekonstruišu događaje ili navike, ili čak iskoriste softverske nedostatke na osnovu verzije korišćenog softvera.
 
-
-
 Hajde da uzmemo konkretan primer: postavite navodno anonimnu fotografiju na forum. Ako niste uklonili EXIF metapodatke, jednim klikom se mogu otkriti tačne GPS koordinate vašeg doma, model vašeg telefona i tačan datum kada je fotografija snimljena. Slično tome, PDF dokument poslat anonimno može sadržati vaše puno ime u svojim svojstvima.
-
-
 
 Zato neke medijske platforme za objavljivanje i komunikaciju automatski uklanjaju metapodatke sa vaših fotografija. To uključuje X (Twitter), Instagram, Signal i Session. S druge strane, druge platforme uopšte ne uklanjaju metapodatke: to je slučaj sa većinom online foruma, mnogim e-mail klijentima, ili čak kada objavljujete direktno na vebsajtu.
 
-
-
 To je suštinski refleks koji treba usvojiti: čim fajl napusti vašu privatnu sferu, potrebno je razmisliti o čišćenju njegovih metapodataka kako biste izbegli otkrivanje ličnih ili osetljivih informacija bez vašeg znanja. Pogledajmo kako to učiniti, u zavisnosti od vašeg operativnog sistema.
-
-
 
 ### Na Linuxu (Debian)
 
-
-
 #### Korišćenje ExifTool-a
-
-
 
 Najkompletniji i najpouzdaniji način za upravljanje i brisanje metapodataka je ExifTool, koji je razvio Phil Harvey. Kompatibilan je sa velikim brojem formata datoteka (JPG, PNG, PDF, MP3, DOCX...) i omogućava i prikaz i uklanjanje metapodataka.
 
-
-
-
-
 - Korak 1: Instalirajte ExifTool
 
-
-
 Da biste ga instalirali na Debian distribuciju (Ubuntu), otvorite terminal i upišite komandu:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Ovaj paket instalira `exiftool`, koji zatim možete koristiti direktno iz komandne linije.
 

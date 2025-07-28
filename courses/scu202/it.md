@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Infine, è anche possibile utilizzare VeraCrypt in modalità container, che crea un file che funge da archivio crittografato, montabile come un disco.
-
-
 
 Dopo aver appreso come proteggere i dati personali da perdite e furti, il prossimo capitolo affronta un altro aspetto importante: come evitare che i file personali diventino vettori di attacco attraverso i loro metadati.
 
-
-
-
 ## Pulizia dei metadati
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Ogni volta che si crea un file digitale, sia esso una foto, un documento d'ufficio, un file audio o video, contiene metadati in background. Queste informazioni non sono direttamente visibili quando si apre il file, ma sono presenti e possono contenere Elements estremamente sensibili.
-
-
 
 ### Perché i metadati sono un rischio?
 
-
-
 I metadati sono dati allegati a un file, il cui ruolo è quello di fornire informazioni contestuali sul contenuto. In un'immagine, possono includere la data e l'ora in cui è stata scattata, le coordinate GPS precise, il modello di fotocamera o di smartphone utilizzato e talvolta anche le impostazioni tecniche. In un documento di testo, può includere il nome dell'autore, il nome dell'azienda, l'ID di sessione dell'utente, i timestamp di creazione e modifica e persino i commenti interni lasciati durante la modifica.
-
-
 
 Questi metadati possono sembrare innocui, ma possono essere utilizzati da soggetti malintenzionati per identificare l'autore di un file, localizzare fisicamente una persona, ricostruire eventi o abitudini o persino sfruttare le falle del software in base alla versione del software utilizzato.
 
-
-
 Facciamo un esempio concreto: pubblicate una foto apparentemente anonima su un forum. Se non avete rimosso i metadati EXIF, un solo clic può rivelare le coordinate GPS precise della vostra casa, il modello del vostro telefono e la data esatta in cui è stata scattata la foto. Allo stesso modo, un documento PDF inviato in forma anonima può contenere il vostro nome e cognome nelle sue proprietà.
-
-
 
 Ecco perché alcune piattaforme di pubblicazione e comunicazione dei media rimuovono automaticamente i metadati dalle foto. Tra queste, X (Twitter), Instagram, Signal e Session. Altre piattaforme, invece, non rimuovono affatto i metadati: è il caso della maggior parte dei forum online, di molti client di posta elettronica o anche quando si pubblica direttamente su un sito web.
 
-
-
 È un riflesso essenziale da adottare: non appena un file lascia la vostra sfera privata, dovete pensare a ripulire i suoi metadati per evitare di divulgare informazioni personali o sensibili a vostra insaputa. Vediamo come fare, a seconda del sistema operativo in uso.
-
-
 
 ### Su Linux (Debian)
 
-
-
 #### Utilizzo di ExifTool
-
-
 
 Il mezzo più completo e affidabile per gestire ed eliminare i metadati è ExifTool, sviluppato da Phil Harvey. È compatibile con un gran numero di formati di file (JPG, PNG, PDF, MP3, DOCX...) e consente di visualizzare e rimuovere i metadati.
 
-
-
-
-
 - Passo 1: Installare ExifTool
 
-
-
 Per installarlo su una distribuzione Debian (Ubuntu), aprire un terminale e digitare il comando:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Questo pacchetto installa `exiftool`, che può essere utilizzato direttamente dalla riga di comando.
 

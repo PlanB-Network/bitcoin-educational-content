@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Lõpuks on võimalik kasutada VeraCrypt'i ka konteinerrežiimis, mis loob faili, mis toimib krüpteeritud arhiivina, mida saab ühendada nagu ketast.
-
-
 
 Nüüd, kui olete õppinud, kuidas kaitsta oma isiklikke andmeid kadumise ja varguse eest, vaadeldakse järgmises peatükis veel üht olulist aspekti: kuidas vältida, et teie isiklikud failid muutuksid metaandmete kaudu rünnakuvektoriteks.
 
-
-
-
 ## Metaandmete puhastamine
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Iga kord, kui loote digitaalse faili, olgu see siis foto, kontoridokument, heli- või videofail, sisaldab see taustal metaandmeid. See teave ei ole faili avamisel otseselt nähtav, kuid see on olemas ja võib sisaldada äärmiselt tundlikku Elements.
-
-
 
 ### Miks on metaandmed ohtlikud?
 
-
-
 Metaandmed on failile lisatud andmed, mille ülesanne on anda kontekstuaalset teavet sisu kohta. Pildi puhul võib see sisaldada pildi tegemise kuupäeva ja kellaaega, täpseid GPS-koordinaate, kasutatud kaamera või nutitelefoni mudelit ja mõnikord isegi tehnilisi seadeid. Tekstidokumendi puhul võib see sisaldada autori nime, ettevõtte nime, kasutaja seansi ID-d, loomise ja muutmise ajatemplit või isegi redigeerimise käigus jäetud sisemisi kommentaare.
-
-
 
 Need metaandmed võivad tunduda ohutud, kuid pahatahtlikud osalejad võivad neid kasutada faili autori tuvastamiseks, isiku füüsiliseks leidmiseks, sündmuste või harjumuste rekonstrueerimiseks või isegi tarkvara vigade ärakasutamiseks kasutatud tarkvara versiooni alusel.
 
-
-
 Võtame konkreetse näite: sa postitad foorumisse väidetavalt anonüümse foto. Kui te ei ole EXIF-metaandmeid eemaldanud, võib üks klõps avaldada teie kodu täpsed GPS-koordinaadid, teie telefoni mudeli ja foto täpse tegemise kuupäeva. Samamoodi võib anonüümselt saadetud PDF-dokument sisaldada oma omadustes teie täielikku nime.
-
-
 
 Seepärast eemaldavad mõned meedia avaldamis- ja suhtlusplatvormid teie fotodelt automaatselt metaandmed. Nende hulka kuuluvad X (Twitter), Instagram, Signal ja Session. Teisalt ei eemalda teised platvormid üldse metaandmeid: nii on see enamiku veebifoorumite, paljude e-posti-klientide või isegi siis, kui avaldate otse veebisaidil.
 
-
-
 See on oluline refleks, mida tuleb omaks võtta: niipea, kui fail lahkub teie privaatsfäärist, peate mõtlema selle metaandmete puhastamisele, et vältida isikliku või tundliku teabe avalikustamist ilma teie teadmata. Vaatame, kuidas seda teha, sõltuvalt teie operatsioonisüsteemist.
-
-
 
 ### Linuxis (Debian)
 
-
-
 #### ExifTool'i kasutamine
-
-
 
 Kõige täielikum ja usaldusväärsem vahend metaandmete haldamiseks ja kustutamiseks on Phil Harvey poolt välja töötatud ExifTool. See ühildub paljude failivormingutega (JPG, PNG, PDF, MP3, DOCX...) ja võimaldab nii metaandmete kuvamist kui ka eemaldamist.
 
-
-
-
-
 - Samm 1: Installige ExifTool
 
-
-
 Selle installimiseks Debian distributsioonile (Ubuntu) avage terminal ja sisestage käsk:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 See pakett installeerib `exiftool`, mida saate seejärel kasutada otse käsurealt.
 

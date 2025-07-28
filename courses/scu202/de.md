@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Schließlich ist es auch möglich, VeraCrypt im Containermodus zu verwenden, der eine Datei erzeugt, die als verschlüsseltes Archiv fungiert und wie ein Datenträger eingehängt werden kann.
-
-
 
 Nachdem Sie nun gelernt haben, wie Sie Ihre persönlichen Daten vor Verlust und Diebstahl schützen können, befasst sich das nächste Kapitel mit einem weiteren wichtigen Aspekt: wie Sie verhindern können, dass Ihre persönlichen Dateien durch ihre Metadaten zu Angriffsvektoren werden.
 
-
-
-
 ## Bereinigung von Metadaten
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Jedes Mal, wenn Sie eine digitale Datei erstellen, sei es ein Foto, ein Office-Dokument, eine Audio- oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn Sie die Datei öffnen, aber sie sind vorhanden und können äußerst sensible Daten enthalten.
-
-
 
 ### Warum sind Metadaten ein Risiko?
 
-
-
 Metadaten sind Daten, die an eine Datei angehängt sind und deren Aufgabe es ist, kontextbezogene Informationen über den Inhalt zu liefern. Bei einem Bild können dies das Datum und die Uhrzeit der Aufnahme, die genauen GPS-Koordinaten, das Modell der verwendeten Kamera oder des Smartphones und manchmal sogar technische Einstellungen sein. Bei einem Textdokument können dies der Name des Autors, der Name des Unternehmens, die Sitzungs-ID des Benutzers, Zeitstempel für die Erstellung und Änderung oder sogar interne Kommentare sein, die während der Bearbeitung hinterlassen wurden.
-
-
 
 Diese Metadaten mögen harmlos erscheinen, aber sie können von böswilligen Akteuren genutzt werden, um den Autor einer Datei zu identifizieren, eine Person physisch zu lokalisieren, Ereignisse oder Gewohnheiten zu rekonstruieren oder sogar Softwarefehler auf der Grundlage der verwendeten Softwareversion auszunutzen.
 
-
-
 Nehmen wir ein konkretes Beispiel: Sie stellen ein vermeintlich anonymes Foto in ein Forum. Wenn Sie die EXIF-Metadaten nicht entfernt haben, kann ein einziger Klick die genauen GPS-Koordinaten Ihres Wohnorts, das Modell Ihres Telefons und das genaue Aufnahmedatum des Fotos verraten. Ebenso kann ein anonym verschicktes PDF-Dokument in seinen Eigenschaften Ihren vollen Namen enthalten.
-
-
 
 Aus diesem Grund entfernen einige Medienveröffentlichungs- und Kommunikationsplattformen automatisch Metadaten aus Ihren Fotos. Dazu gehören X (Twitter), Instagram, Signal und Session. Andere Plattformen hingegen entfernen die Metadaten überhaupt nicht: Dies ist bei den meisten Online-Foren, vielen E-Mail-Clients oder sogar bei der direkten Veröffentlichung auf einer Website der Fall.
 
-
-
 Das ist ein wichtiger Reflex: Sobald eine Datei Ihre Privatsphäre verlässt, müssen Sie daran denken, ihre Metadaten zu bereinigen, um zu vermeiden, dass persönliche oder sensible Informationen ohne Ihr Wissen weitergegeben werden. Schauen wir uns einmal an, wie Sie das je nach Betriebssystem tun können.
-
-
 
 ### Unter Linux (Debian)
 
-
-
 #### Verwendung von ExifTool
-
-
 
 Das vollständigste und zuverlässigste Mittel zur Verwaltung und Löschung von Metadaten ist das von Phil Harvey entwickelte ExifTool. Es ist mit einer großen Anzahl von Dateiformaten kompatibel (JPG, PNG, PDF, MP3, DOCX...) und ermöglicht sowohl die Anzeige als auch das Löschen von Metadaten.
 
-
-
-
-
 - Schritt 1: ExifTool installieren
 
-
-
 Um es auf einer Debian-Distribution (Ubuntu) zu installieren, öffnen Sie ein Terminal und geben Sie den Befehl ein:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Dieses Paket installiert `exiftool`, das Sie dann direkt von der Kommandozeile aus verwenden können.
 

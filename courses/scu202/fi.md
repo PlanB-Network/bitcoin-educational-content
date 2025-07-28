@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Lopuksi on myös mahdollista käyttää VeraCryptiä konttitilassa, jolloin luodaan tiedosto, joka toimii salattuna arkistona, joka on liitettävissä kuten levyke.
-
-
 
 Nyt kun olet oppinut suojaamaan henkilötietojasi katoamiselta ja varastamiselta, seuraavassa luvussa tarkastellaan toista tärkeää näkökohtaa: miten estät henkilötiedostojesi muuttumisen hyökkäysvektoreiksi niiden metatietojen avulla.
 
-
-
-
 ## Metatietojen puhdistus
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Aina kun luot digitaalisen tiedoston, olipa kyseessä valokuva, toimistodokumentti, ääni- tai videotiedosto, se sisältää taustalla metatietoja. Nämä tiedot eivät näy suoraan, kun avaat tiedoston, mutta ne ovat siellä, ja ne voivat sisältää erittäin arkaluonteisia Elements-tietoja.
-
-
 
 ### Miksi metatiedot ovat riski?
 
-
-
 Metatieto on tiedostoon liitettyä tietoa, jonka tehtävänä on antaa sisältöä koskevia yhteystietoja. Kuvan kohdalla nämä tiedot voivat sisältää kuvan ottamispäivämäärän ja -ajan, tarkat GPS-koordinaatit, käytetyn kameran tai älypuhelimen mallin ja joskus jopa tekniset asetukset. Tekstidokumentissa se voi sisältää kirjoittajan nimen, yrityksen nimen, käyttäjän istuntotunnuksen, luonti- ja muokkausajankohdat tai jopa muokkauksen aikana jätetyt sisäiset kommentit.
-
-
 
 Nämä metatiedot voivat vaikuttaa harmittomilta, mutta pahansuovat toimijat voivat käyttää niitä tiedoston tekijän tunnistamiseen, henkilön fyysiseen paikantamiseen, tapahtumien tai tottumusten rekonstruointiin tai jopa ohjelmistovirheiden hyödyntämiseen käytetyn ohjelmistoversion perusteella.
 
-
-
 Otetaanpa konkreettinen esimerkki: lähetät foorumille oletettavasti nimettömän kuvan. Jos et ole poistanut EXIF-metatietoja, yksi napsautus voi paljastaa kotisi tarkat GPS-koordinaatit, puhelimesi mallin ja valokuvan tarkan kuvauspäivän. Vastaavasti nimettömänä lähetetyn PDF-dokumentin ominaisuuksissa voi olla koko nimesi.
-
-
 
 Siksi jotkin median julkaisu- ja viestintäalustat poistavat automaattisesti metatiedot kuvistasi. Tällaisia ovat esimerkiksi X (Twitter), Instagram, Signal ja Session. Toisaalta toiset alustat eivät poista metatietoja lainkaan: näin on useimmilla verkkofoorumeilla, monilla sähköpostiohjelmilla tai jopa silloin, kun julkaiset suoraan verkkosivustolla.
 
-
-
 Tämä on tärkeä refleksi: heti kun tiedosto poistuu yksityiseltä alueeltasi, sinun on ajateltava sen metatietojen siivoamista, jotta vältät henkilökohtaisten tai arkaluonteisten tietojen paljastumisen tietämättäsi. Katsotaanpa, miten tämä tehdään käyttöjärjestelmästäsi riippuen.
-
-
 
 ### Linuxissa (Debian)
 
-
-
 #### ExifToolin käyttäminen
-
-
 
 Kattavin ja luotettavin keino metatietojen hallintaan ja poistamiseen on Phil Harveyn kehittämä ExifTool. Se on yhteensopiva useiden tiedostomuotojen kanssa (JPG, PNG, PDF, MP3, DOCX...) ja mahdollistaa sekä metatietojen näyttämisen että poistamisen.
 
-
-
-
-
 - Vaihe 1: Asenna ExifTool
 
-
-
 Asenna se Debian-jakeluun (Ubuntu) avaamalla terminaali ja kirjoittamalla komento:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Tämä paketti asentaa `exiftoolin`, jota voit käyttää suoraan komentoriviltä.
 

@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Hatimaye, inawezekana pia kutumia VeraCrypt katika modi ya kontena, ambayo huunda faili ambayo hufanya kazi kama kumbukumbu iliyosimbwa, inayoweza kuwekwa kama diski.
-
-
 
 Sasa kwa kuwa umejifunza jinsi ya kulinda data yako ya kibinafsi dhidi ya upotevu na wizi, sura inayofuata inaangalia kipengele kingine muhimu: jinsi ya kuzuia faili zako za kibinafsi zisiwe vekta za mashambulizi kupitia metadata zao.
 
-
-
-
 ## Usafishaji wa metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Kila wakati unapounda faili ya dijiti, iwe picha, hati ya ofisi, faili ya sauti au video, ina metadata chinichini. Maelezo haya hayaonekani moja kwa moja unapofungua faili, lakini yapo, na yanaweza kuwa na Elements nyeti sana.
-
-
 
 ### Kwa nini metadata ni hatari?
 
-
-
 Metadata ni data iliyoambatishwa kwenye faili, ambayo jukumu lake ni kutoa maelezo ya muktadha kuhusu maudhui. Katika picha, hii inaweza kujumuisha tarehe na wakati picha ilipigwa, viwianishi sahihi vya GPS, mfano wa kamera au simu mahiri iliyotumika, na wakati mwingine hata mipangilio ya kiufundi. Katika hati ya maandishi, inaweza kujumuisha jina la mwandishi, jina la kampuni, kitambulisho cha kipindi cha mtumiaji, mihuri ya muda ya kuunda na kurekebisha, au hata maoni ya ndani yaliyoachwa wakati wa kuhariri.
-
-
 
 Metadata hii inaweza kuonekana kuwa haina madhara, lakini inaweza kutumiwa na watendaji hasidi kutambua mtunzi wa faili, kupata mtu binafsi, kuunda upya matukio au tabia, au hata kutumia hitilafu za programu kulingana na toleo la programu iliyotumiwa.
 
-
-
 Wacha tuchukue mfano halisi: unachapisha picha inayodaiwa kutokujulikana kwenye kongamano. Iwapo hujaondoa metadata ya EXIF, mbofyo mmoja unaweza kuonyesha viwianishi sahihi vya GPS vya nyumba yako, muundo wa simu yako na tarehe kamili ambayo picha ilipigwa. Vile vile, hati ya PDF iliyotumwa bila kujulikana inaweza kuwa na jina lako kamili katika sifa zake.
-
-
 
 Ndiyo maana baadhi ya majukwaa ya uchapishaji na mawasiliano ya midia huondoa kiotomatiki metadata kutoka kwa picha zako. Hizi ni pamoja na X (Twitter), Instagram, Signal na Session. Kwa upande mwingine, majukwaa mengine hayaondoi metadata hata kidogo: hivi ndivyo ilivyo kwa mabaraza mengi ya mtandaoni, wateja wengi wa barua pepe, au hata unapochapisha moja kwa moja kwenye tovuti.
 
-
-
 Ni jambo muhimu la kuzingatia: pindi tu faili inapoondoka kwenye nyanja yako ya faragha, unahitaji kufikiria kuhusu kusafisha metadata yake ili kuepuka kufichua taarifa nyeti au za kibinafsi bila wewe kujua. Hebu tuangalie jinsi ya kufanya hivyo, kulingana na mfumo wako wa uendeshaji.
-
-
 
 ### Kwenye Linux (Debian)
 
-
-
 #### Kutumia ExifTool
-
-
 
 Njia kamili na ya kuaminika zaidi ya kudhibiti na kufuta metadata ni ExifTool, iliyotengenezwa na Phil Harvey. Inaoana na idadi kubwa ya umbizo la faili (JPG, PNG, PDF, MP3, DOCX...) na huwezesha kuonyesha na kuondolewa kwa metadata.
 
-
-
-
-
 - Hatua ya 1: Sakinisha ExifTool
 
-
-
 Ili kuiweka kwenye usambazaji wa Debian (Ubuntu), fungua terminal na uandike amri:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Kifurushi hiki husakinisha `exiftool`, ambayo unaweza kutumia moja kwa moja kutoka kwa safu ya amri.
 

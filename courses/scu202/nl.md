@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Ten slotte is het ook mogelijk om VeraCrypt in containermodus te gebruiken, waardoor een bestand wordt gemaakt dat fungeert als een versleuteld archief dat kan worden gemount zoals een schijf.
-
-
 
 Nu je hebt geleerd hoe je je persoonlijke gegevens kunt beschermen tegen verlies en diefstal, kijkt het volgende hoofdstuk naar een ander belangrijk aspect: hoe je kunt voorkomen dat je persoonlijke bestanden aanvalsvectoren worden via hun metadata.
 
-
-
-
 ## Metagegevens opschonen
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Elke keer dat je een digitaal bestand maakt, of het nu een foto, kantoordocument, audio- of videobestand is, bevat het op de achtergrond metadata. Deze informatie is niet direct zichtbaar wanneer je het bestand opent, maar het is er wel en kan extreem gevoelig Elements bevatten.
-
-
 
 ### Waarom zijn metadata een risico?
 
-
-
 Metadata zijn gegevens die aan een bestand zijn gekoppeld en die contextuele informatie geven over de inhoud. In een afbeelding kunnen dit de datum en tijd zijn waarop de foto is genomen, precieze GPS-coördinaten, het gebruikte model camera of smartphone en soms zelfs technische instellingen. In een tekstdocument kan dit de naam van de auteur zijn, de naam van het bedrijf, de sessie-ID van de gebruiker, tijdstempels van aanmaak en wijziging, of zelfs intern commentaar dat tijdens het bewerken is achtergelaten.
-
-
 
 Deze metadata lijken misschien onschuldig, maar kunnen door kwaadwillende actoren worden gebruikt om de auteur van een bestand te identificeren, een persoon fysiek te lokaliseren, gebeurtenissen of gewoonten te reconstrueren of zelfs softwarefouten uit te buiten op basis van de gebruikte softwareversie.
 
-
-
 Laten we een concreet voorbeeld nemen: je post een zogenaamd anonieme foto op een forum. Als je de EXIF metadata niet hebt verwijderd, kan een enkele klik de exacte GPS coördinaten van je huis, het model van je telefoon en de exacte datum waarop de foto is genomen onthullen. Op dezelfde manier kan een PDF-document dat anoniem wordt verzonden, je volledige naam in de eigenschappen bevatten.
-
-
 
 Daarom verwijderen sommige media publishing en communicatieplatformen automatisch metadata van je foto's. Dit zijn bijvoorbeeld X (Twitter), Instagram, Signal en Session. Andere platforms verwijderen daarentegen helemaal geen metadata: dit is het geval bij de meeste online forums, veel e-mailclients of zelfs wanneer je rechtstreeks op een website publiceert.
 
-
-
 Het is een essentiële reflex om aan te nemen: zodra een bestand je privésfeer verlaat, moet je nadenken over het opschonen van de metadata om te voorkomen dat persoonlijke of gevoelige informatie wordt vrijgegeven zonder dat je het weet. Laten we eens kijken hoe je dit kunt doen, afhankelijk van je besturingssysteem.
-
-
 
 ### Op Linux (Debian)
 
-
-
 #### ExifTool gebruiken
-
-
 
 De meest complete en betrouwbare manier om metadata te beheren en te verwijderen is de ExifTool, ontwikkeld door Phil Harvey. Het is compatibel met een groot aantal bestandsformaten (JPG, PNG, PDF, MP3, DOCX...) en maakt zowel weergave als verwijdering van metadata mogelijk.
 
-
-
-
-
 - Stap 1: Installeer ExifTool
 
-
-
 Om het op een Debian-distributie (Ubuntu) te installeren, open je een terminal en typ je het commando:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Dit pakket installeert `exiftool`, dat je vervolgens direct vanaf de commandoregel kunt gebruiken.
 

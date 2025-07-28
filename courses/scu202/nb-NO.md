@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Til slutt er det også mulig å bruke VeraCrypt i container-modus, som oppretter en fil som fungerer som et kryptert arkiv som kan monteres som en disk.
-
-
 
 Nå som du har lært hvordan du kan beskytte personopplysningene dine mot tap og tyveri, tar neste kapittel for seg et annet viktig aspekt: hvordan du kan forhindre at personfilene dine blir angrepsvektorer gjennom metadataene deres.
 
-
-
-
 ## Rensing av metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Hver gang du oppretter en digital fil, enten det er et bilde, et kontordokument, en lyd- eller videofil, inneholder den metadata i bakgrunnen. Denne informasjonen er ikke direkte synlig når du åpner filen, men den er der, og den kan inneholde ekstremt sensitive Elements.
-
-
 
 ### Hvorfor er metadata en risiko?
 
-
-
 Metadata er data som er knyttet til en fil, og som har til hensikt å gi kontekstuell informasjon om innholdet. I et bilde kan dette omfatte dato og klokkeslett for når bildet ble tatt, nøyaktige GPS-koordinater, kameramodellen eller smarttelefonen som ble brukt, og noen ganger til og med tekniske innstillinger. I et tekstdokument kan det omfatte forfatterens navn, selskapets navn, brukerens økt-ID, tidsstempler for opprettelse og endring, eller til og med interne kommentarer som er lagt igjen under redigering.
-
-
 
 Disse metadataene kan virke harmløse, men de kan brukes av ondsinnede aktører til å identifisere forfatteren av en fil, fysisk lokalisere en person, rekonstruere hendelser eller vaner, eller til og med utnytte programvarefeil basert på hvilken versjon av programvaren som brukes.
 
-
-
 La oss ta et konkret eksempel: Du legger ut et tilsynelatende anonymt bilde på et forum. Hvis du ikke har fjernet EXIF-metadataene, kan et enkelt klikk avsløre de nøyaktige GPS-koordinatene til hjemmet ditt, modellen på telefonen din og den nøyaktige datoen bildet ble tatt. På samme måte kan et PDF-dokument som sendes anonymt, inneholde ditt fulle navn i egenskapene.
-
-
 
 Derfor fjerner noen mediepubliserings- og kommunikasjonsplattformer automatisk metadata fra bildene dine. Dette gjelder blant annet X (Twitter), Instagram, Signal og Session. Andre plattformer fjerner derimot ikke metadata i det hele tatt: Dette er tilfellet med de fleste nettfora, mange e-postklienter, eller til og med når du publiserer direkte på et nettsted.
 
-
-
 Det er en viktig refleks å ta i bruk: Så snart en fil forlater din private sfære, må du tenke på å rydde opp i metadataene for å unngå å avsløre personlig eller sensitiv informasjon uten at du vet om det. La oss ta en titt på hvordan du gjør dette, avhengig av operativsystemet ditt.
-
-
 
 ### På Linux (Debian)
 
-
-
 #### Bruke ExifTool
-
-
 
 Den mest komplette og pålitelige måten å håndtere og slette metadata på er ExifTool, utviklet av Phil Harvey. Det er kompatibelt med et stort antall filformater (JPG, PNG, PDF, MP3, DOCX...) og gjør det mulig både å vise og fjerne metadata.
 
-
-
-
-
 - Trinn 1: Installer ExifTool
 
-
-
 For å installere det på en Debian-distribusjon (Ubuntu), åpner du en terminal og skriver inn kommandoen:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Denne pakken installerer `exiftool`, som du deretter kan bruke direkte fra kommandolinjen.
 

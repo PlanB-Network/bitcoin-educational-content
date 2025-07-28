@@ -2502,6 +2502,8 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 ![Image](assets/fr/256.webp)
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Enfin, il est également possible d'utiliser VeraCrypt en mode conteneur, qui permet de créer un fichier agissant comme une archive chiffrée, montable comme un disque.
 
 Maintenant que vous avez appris à protéger vos données personnelles contre la perte et le vol, nous allons nous intéresser dans le prochain chapitre à un autre aspect important : comment éviter que vos fichiers personnels ne deviennent des vecteurs d’attaque à travers leurs métadonnées.

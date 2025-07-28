@@ -4897,78 +4897,44 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Terakhir, Anda juga dapat menggunakan VeraCrypt dalam mode kontainer, yang membuat file yang bertindak sebagai arsip terenkripsi, yang dapat dipasang seperti sebuah disk.
-
-
 
 Setelah Anda mempelajari cara melindungi data pribadi Anda dari kehilangan dan pencurian, bab berikutnya akan membahas aspek penting lainnya: cara mencegah file pribadi Anda menjadi vektor serangan melalui metadatanya.
 
-
-
-
 ## Pembersihan metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Setiap kali Anda membuat file digital, baik itu foto, dokumen kantor, file audio atau video, file tersebut berisi metadata di latar belakang. Informasi ini tidak terlihat secara langsung ketika Anda membuka file, tetapi ada di sana, dan dapat berisi Elements yang sangat sensitif.
-
-
 
 ### Mengapa metadata merupakan risiko?
 
-
-
 Metadata adalah data yang dilampirkan pada file, yang perannya adalah memberikan informasi kontekstual tentang konten. Pada sebuah gambar, hal ini dapat mencakup tanggal dan waktu pengambilan gambar, koordinat GPS yang tepat, model kamera atau ponsel cerdas yang digunakan, dan terkadang bahkan pengaturan teknis. Dalam dokumen teks, informasi ini dapat mencakup nama penulis, nama perusahaan, ID sesi pengguna, stempel waktu pembuatan dan modifikasi, atau bahkan komentar internal yang ditinggalkan selama pengeditan.
-
-
 
 Metadata ini mungkin terlihat tidak berbahaya, tetapi dapat digunakan oleh pelaku kejahatan untuk mengidentifikasi penulis file, menemukan seseorang secara fisik, merekonstruksi peristiwa atau kebiasaan, atau bahkan mengeksploitasi kelemahan perangkat lunak berdasarkan versi perangkat lunak yang digunakan.
 
-
-
 Mari kita ambil contoh konkret: Anda memposting foto yang seharusnya anonim di sebuah forum. Jika Anda belum menghapus metadata EXIF, satu klik saja bisa mengungkap koordinat GPS yang tepat dari rumah Anda, model ponsel Anda, dan tanggal pengambilan foto tersebut. Demikian pula, dokumen PDF yang dikirim secara anonim dapat berisi nama lengkap Anda di propertinya.
-
-
 
 Itulah mengapa beberapa platform penerbitan media dan komunikasi secara otomatis menghapus metadata dari foto Anda. Ini termasuk X (Twitter), Instagram, Signal dan Session. Di sisi lain, platform lain tidak menghapus metadata sama sekali: ini terjadi pada sebagian besar forum online, banyak klien email, atau bahkan ketika Anda mempublikasikan secara langsung di situs web.
 
-
-
 Ini adalah refleks yang penting untuk diterapkan: segera setelah sebuah file meninggalkan ruang pribadi Anda, Anda perlu memikirkan untuk membersihkan metadatanya untuk menghindari pengungkapan informasi pribadi atau informasi sensitif tanpa sepengetahuan Anda. Mari kita lihat bagaimana cara melakukannya, tergantung pada sistem operasi Anda.
-
-
 
 ### Di Linux (Debian)
 
-
-
 #### Menggunakan ExifTool
-
-
 
 Cara yang paling lengkap dan dapat diandalkan untuk mengelola dan menghapus metadata adalah ExifTool, yang dikembangkan oleh Phil Harvey. Alat ini kompatibel dengan sejumlah besar format file (JPG, PNG, PDF, MP3, DOCX...) dan memungkinkan tampilan dan penghapusan metadata.
 
-
-
-
-
 - Langkah 1: Instal ExifTool
 
-
-
 Untuk menginstalnya pada distribusi Debian (Ubuntu), buka terminal dan ketik perintah:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsung dari baris perintah.
 

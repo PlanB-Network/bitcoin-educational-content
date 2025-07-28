@@ -8561,6 +8561,8 @@ Yksityisasiakkaille tarkoitetut kaksi tärkeintä ratkaisua ovat:
 - WireGuard: Moderni, nopea ja kevyt
 - OpenVPN: Vanhempi, mutta erittäin kypsä ja konfiguroitavissa
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Tässä on täydellinen opas Tailscalen, WireGuardia käyttävän helposti konfiguroitavan VPN-ratkaisun, käyttöönotosta:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

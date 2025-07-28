@@ -8561,6 +8561,8 @@ Suluhisho kuu mbili kwa wateja wa kibinafsi ni:
 - WireGuard: Kisasa, haraka na nyepesi
 - OpenVPN: Kongwe, lakini imekomaa sana na inaweza kusanidiwa
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Hapa kuna mafunzo kamili juu ya Tailscale, suluhisho la VPN ambalo ni rahisi kusanidi linalotumia WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

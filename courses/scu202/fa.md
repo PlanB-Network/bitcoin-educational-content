@@ -8561,6 +8561,8 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 - WireGuard: مدرن، سریع و سبک
 - OpenVPN: قدیمی‌تر، اما بسیار بالغ و قابل تنظیم
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 در اینجا یک آموزش کامل درباره Tailscale، یک راه‌حل VPN با پیکربندی آسان که از WireGuard استفاده می‌کند، آورده شده است:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

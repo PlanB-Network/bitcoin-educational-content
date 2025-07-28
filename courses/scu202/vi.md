@@ -8561,6 +8561,8 @@ Hai giải pháp chính dành cho khách hàng cá nhân là:
 - WireGuard: Hiện đại, nhanh và nhẹ
 - OpenVPN: Cũ hơn nhưng rất hoàn thiện và có thể cấu hình được
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Sau đây là hướng dẫn đầy đủ về Tailscale, một giải pháp VPN dễ cấu hình sử dụng WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

@@ -8561,6 +8561,8 @@ Dvě hlavní řešení pro soukromé zákazníky jsou:
 - WireGuard: Moderní, rychlý a lehký
 - OpenVPN: Starší, ale velmi vyspělá a konfigurovatelná síť
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Zde je kompletní návod na Tailscale, snadno konfigurovatelné řešení VPN, které používá WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

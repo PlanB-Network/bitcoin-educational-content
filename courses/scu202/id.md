@@ -8561,6 +8561,8 @@ Dua solusi utama untuk pelanggan pribadi adalah:
 - WireGuard: Modern, cepat dan ringan
 - OpenVPN: Lebih tua, tetapi sangat matang dan dapat dikonfigurasi
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Berikut ini tutorial lengkap tentang Tailscale, solusi VPN yang mudah dikonfigurasi yang menggunakan WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

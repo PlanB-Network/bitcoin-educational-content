@@ -6273,6 +6273,8 @@ The two main solutions for private customers are:
 - WireGuard: Modern, fast and lightweight
 - OpenVPN: Older, but very mature and configurable
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Here's a complete tutorial on Tailscale, an easy-to-configure VPN solution that uses WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

@@ -8561,6 +8561,8 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 - WireGuard：現代、快速、輕量
 - OpenVPN: 較舊，但非常成熟且可設定
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 以下是 Tailscale 的完整教學，這是一個使用 WireGuard 的易於設定 VPN 解決方案：
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

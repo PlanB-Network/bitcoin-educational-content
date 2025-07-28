@@ -8561,6 +8561,8 @@ De to hovedløsningene for privatkunder er
 - WireGuard: Moderne, rask og lett
 - OpenVPN: Eldre, men svært modent og konfigurerbart
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Her er en komplett veiledning om Tailscale, en VPN-løsning som er enkel å konfigurere og som bruker WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

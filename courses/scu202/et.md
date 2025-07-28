@@ -8561,6 +8561,8 @@ Kaks peamist lahendust eraklientidele on järgmised:
 - WireGuard: Kaasaegne, kiire ja kerge
 - OpenVPN: Vanem, kuid väga küps ja konfigureeritav
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Siin on täielik õpetus Tailscale'i kohta, mis on kergesti konfigureeritav VPN-lahendus, mis kasutab WireGuardit:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

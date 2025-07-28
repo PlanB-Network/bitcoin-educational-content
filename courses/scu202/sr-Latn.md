@@ -8561,6 +8561,8 @@ Dva glavna rešenja za privatne korisnike su:
 - WireGuard: Moderan, brz i lagan
 - OpenVPN: Stariji, ali veoma zreo i podesiv
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Evo kompletan vodič o Tailscale-u, jednostavnom VPN rešenju za konfiguraciju koje koristi WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632

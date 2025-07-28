@@ -71,57 +71,170 @@ Si anticipas un volumen relativamente bajo de pagos en Bitcoin, también puedes 
 Obviamente, esta elección solo afecta el método de pago de Swiss Bitcoin Pay a tu negocio. Tus clientes aún pueden pagarte a través de la Lightning Network u onchain, independientemente de la opción que selecciones.
 
 Para este tutorial, elegiremos recibir los pagos a través de Lightning. Por motivos educativos y para preservar la confidencialidad de mi verdadero nodo Lightning, usaré una falsa Wallet of Satoshi para los retiros. Sin embargo, aconsejamos fuertemente no usar una cartera de Bitcoin custodiada, ya sea para retiros en LN o onchain.
+
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
+
 Luego necesitarás pagar 1 Sat para verificar tu dirección Lightning. En el caso de una dirección de Bitcoin, necesitarás proporcionar una firma con la clave privada correspondiente a esa dirección.
+
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
+
 Finalmente, tienes la opción de añadir un código de referido. Si deseas apoyarnos, puedes usar el código "*DiscoverBitcoin*" para que una porción de tus comisiones se comparta con nosotros. ¡Gracias! :)![SWISS BITCOIN PAY](assets/notext/12.webp)
 Una vez que toda la información esté completada, haz clic en el botón de "*Send*".
+
 ![SWISS BITCOIN PAY](assets/notext/13.webp)
+
 ¡Y eso es todo! Tu cuenta de Swiss Bitcoin Pay está ahora lista. ¡Ahora puedes comenzar a recibir pagos en Bitcoin para tu negocio!
+
 ![SWISS BITCOIN PAY](assets/notext/14.webp)
+
 Si lo deseas, puedes promocionar tu negocio haciendo clic en el enlace recibido por correo electrónico.
+
 ![SWISS BITCOIN PAY](assets/notext/15.webp)
+
 ## Cómo instalar Swiss Bitcoin Pay PoS?
+
 Puedes acceder al procesador de pagos en versión web en el siguiente sitio: https://app.swiss-bitcoin-pay.ch/
+
 ![SWISS BITCOIN PAY](assets/notext/16.webp)
+
 Si deseas usar el PoS en un smartphone o tablet, tienes dos opciones: instalar la app o usar la versión web directamente desde tu navegador. Para esta última opción, accede a tu panel de control iniciando sesión en [el sitio de Swiss Bitcoin Pay](https://dashboard.swiss-bitcoin-pay.ch/signin).
+
 ![SWISS BITCOIN PAY](assets/notext/17.webp)
+
 Luego simplemente escanea el código QR presente en tu interfaz con el dispositivo de tu elección.
+
 ![SWISS BITCOIN PAY](assets/notext/18.webp)
+
 Si prefieres tener el PoS en forma de aplicación, ve a tu tienda de aplicaciones [Google Play Store](https://play.google.com/store/apps/details?id=ch.swissbitcoinpay.checkout) o [App Store](https://apps.apple.com/us/app/swiss-bitcoin-pay/id6444370155) e instala Swiss Bitcoin Pay. La aplicación también está disponible directamente en formato `.apk` en su sitio web, o en [la tienda F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
+
 ![SWISS BITCOIN PAY](assets/notext/19.webp)
+
 Al abrir por primera vez, haz clic en el botón "*Escanear el código QR de activación*".
+
 ![SWISS BITCOIN PAY](assets/notext/20.webp)
+
 Escanea el código QR presente en tu panel de control.
+
 ![SWISS BITCOIN PAY](assets/notext/21.webp)
+
 Ahora estás conectado al sistema PoS como empleado, lo que significa que esta máquina solo está autorizada para procesar pagos sin tener la capacidad de modificar los ajustes de tu cuenta empresarial.
+
 ![SWISS BITCOIN PAY](assets/notext/22.webp)
-Si lo deseas, puedes cambiar el nombre del PoS que aparece durante los cobros en tu cuenta de administrador. Puedes nombrar el terminal según su ubicación específica (por ejemplo, "*Bar Mezzanine*", "*Servicio Drive*", "*Jefe de Meseros Cuadrado No. 3*", "*Asistente de Sala No. 2*", "*Caja No. 7*", "*Terraza*", "*Cobro Exprés*", "*Recepción*", "*Conserjería*", "*Spa/Bienestar*...") o por el nombre del empleado que lo utiliza. Para hacer esto, haz clic en el nombre actual del PoS ubicado debajo del nombre de la empresa en la parte superior de la pantalla. ![SWISS BITCOIN PAY](assets/notext/23.webp)
+
+Si lo deseas, puedes cambiar el nombre del PoS que aparece durante los cobros en tu cuenta de administrador. Puedes nombrar el terminal según su ubicación específica (por ejemplo, "*Bar Mezzanine*", "*Servicio Drive*", "*Jefe de Meseros Cuadrado No. 3*", "*Asistente de Sala No. 2*", "*Caja No. 7*", "*Terraza*", "*Cobro Exprés*", "*Recepción*", "*Conserjería*", "*Spa/Bienestar*...") o por el nombre del empleado que lo utiliza. Para hacer esto, haz clic en el nombre actual del PoS ubicado debajo del nombre de la empresa en la parte superior de la pantalla. 
+
+![SWISS BITCOIN PAY](assets/notext/23.webp)
+
 Nota el nuevo nombre de este procesador de pagos, luego haz clic en el botón "*Enviar*".
+
 ![SWISS BITCOIN PAY](assets/notext/24.webp)
+
 ## Cómo cobrar con Swiss Bitcoin Pay?
 
 Para cobrar, es muy simple, una vez en un PoS, ingresa el monto a cobrar.
+
 ![SWISS BITCOIN PAY](assets/notext/25.webp)
+
 En el cuadro "*Nota*", puedes anotar información que se adjuntará al pago, especialmente en tus informes. Por ejemplo, puedes anotar el bien o servicio vendido.
+
 ![SWISS BITCOIN PAY](assets/notext/26.webp)
+
 Luego haz clic en el botón "*OK*".
+
 ![SWISS BITCOIN PAY](assets/notext/27.webp)
+
 Espera unos segundos para que Swiss Bitcoin Pay cree la factura Lightning y la dirección de recepción.
+
 ![SWISS BITCOIN PAY](assets/notext/28.webp)
+
 El sistema PoS mostrará entonces un código QR único que permite a tus clientes realizar su pago ya sea a través de la Lightning Network u Onchain (es el mismo código QR para ambos métodos). Si tu dispositivo lo permite, el pago también se puede realizar mediante una tarjeta Lightning usando tecnología NFC.
+
 ![SWISS BITCOIN PAY](assets/notext/29.webp)
+
 Una vez que se paga la factura, el PoS confirma el éxito del pago.
+
 ![SWISS BITCOIN PAY](assets/notext/30.webp)
+
 También puedes encontrar el pago y todo el historial de transacciones de este PoS específico haciendo clic en el icono en la parte superior izquierda de la pantalla.
+
 ![SWISS BITCOIN PAY](assets/notext/31.webp)
+
 Puedes encontrar el pago que acabas de cobrar.
+
 ![SWISS BITCOIN PAY](assets/notext/32.webp)
+
 Dado que había elegido la opción de retirar pagos a través de una dirección Lightning, puedo ver que los pagos en el PoS de mi negocio ya han llegado a mi billetera LN.
+
 ![SWISS BITCOIN PAY](assets/notext/33.webp)
+
 ## ¿Cómo gestionar tu negocio con Swiss Bitcoin Pay?
 
 Para gestionar tu negocio con mayor precisión, todo sucede en tu panel de control. Visita [el sitio oficial de Swiss Bitcoin Pay](https://swiss-bitcoin-pay.ch/).
+
 ![SWISS BITCOIN PAY](assets/notext/34.webp)
-Haz clic en la parte superior derecha de la pantalla en el botón "*Dashboard*", luego ingresa tu dirección de correo electrónico y tu contraseña. ![SWISS BITCOIN PAY](assets/notext/35.webp) Luego llegarás a esta interfaz. ![SWISS BITCOIN PAY](assets/notext/36.webp) En la pestaña "*Home*", puedes ver el balance de pagos pendientes de retiro así como las últimas actividades de tu cuenta. ![SWISS BITCOIN PAY](assets/notext/37.webp) En la pestaña "*Activity*", puedes consultar los detalles de todas tus transacciones. ![SWISS BITCOIN PAY](assets/notext/38.webp) Por ejemplo, en mi dashboard, puedo ver que el PoS "*Chef de Rang - Carré 3*" cobró una cerveza por €5 el 22/08/2024 a las 17:08. ![SWISS BITCOIN PAY](assets/notext/39.webp) También puedo ver que la recepción cobró un café. ![SWISS BITCOIN PAY](assets/notext/40.webp) Finalmente, puedo ver todas las transacciones de retiro a mi billetera Lightning personal. ![SWISS BITCOIN PAY](assets/notext/41.webp) Para configurar la exportación de informes, haz clic en el botón "*Export*". ![SWISS BITCOIN PAY](assets/notext/42.webp) En la pestaña "*Manual*", puedes hacer una exportación única de tus transacciones. Simplemente elige un período, luego selecciona la información que quieres incluir en tu informe. ![SWISS BITCOIN PAY](assets/notext/43.webp) Luego haz clic en el botón "*Export*" para descargar un archivo `.csv` de tus transacciones. ![SWISS BITCOIN PAY](assets/notext/44.webp) En la pestaña "*Recurring*", puedes programar exportaciones automáticas recurrentes. Selecciona la frecuencia de generación de exportación y selecciona la información que quieres incluir en el informe. ![SWISS BITCOIN PAY](assets/notext/45.webp) Finalmente, ingresa la dirección de correo electrónico donde se enviará el informe. Por ejemplo, puedes ingresar directamente la dirección de correo electrónico de tu contador. Haz clic en el botón "*Save*" para guardar esta exportación programada. ![SWISS BITCOIN PAY](assets/notext/46.webp) La pestaña de factura te permite generar una factura por un pago único. ![SWISS BITCOIN PAY](assets/notext/47.webp) En la pestaña "*Limits & verification*", puedes consultar tus límites de cobro diarios y anuales. También tienes la opción de realizar una verificación de identidad para desbloquear límites más altos. ![SWISS BITCOIN PAY](assets/notext/48.webp) La pestaña "*Referral*" te permite gestionar todo lo relacionado con el patrocinio. ![SWISS BITCOIN PAY](assets/notext/49.webp)Finalmente, en la pestaña "*Settings*", tienes la opción de modificar la información que proporcionaste durante el registro, incluyendo métodos de retiro y la distribución entre bitcoin y fiat. ![SWISS BITCOIN PAY](assets/notext/50.webp)
-¡Felicidades! Has configurado un sistema procesador de pagos para aceptar Bitcoin en tu negocio. Si también quieres explorar BTCPay Server, una solución más avanzada y compleja, te recomiendo seguir nuestro entrenamiento completo específicamente dedicado a este software: [BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).
+
+Haz clic en la parte superior derecha de la pantalla en el botón "*Dashboard*", luego ingresa tu dirección de correo electrónico y tu contraseña. 
+
+![SWISS BITCOIN PAY](assets/notext/35.webp) 
+
+Luego llegarás a esta interfaz. 
+
+![SWISS BITCOIN PAY](assets/notext/36.webp) 
+
+En la pestaña "*Home*", puedes ver el balance de pagos pendientes de retiro así como las últimas actividades de tu cuenta. 
+
+![SWISS BITCOIN PAY](assets/notext/37.webp) 
+
+En la pestaña "*Activity*", puedes consultar los detalles de todas tus transacciones. 
+
+![SWISS BITCOIN PAY](assets/notext/38.webp) 
+
+Por ejemplo, en mi dashboard, puedo ver que el PoS "*Chef de Rang - Carré 3*" cobró una cerveza por €5 el 22/08/2024 a las 17:08. 
+
+![SWISS BITCOIN PAY](assets/notext/39.webp) 
+
+También puedo ver que la recepción cobró un café. 
+
+![SWISS BITCOIN PAY](assets/notext/40.webp) 
+
+Finalmente, puedo ver todas las transacciones de retiro a mi billetera Lightning personal. 
+
+![SWISS BITCOIN PAY](assets/notext/41.webp) Para configurar la exportación de informes, haz clic en el botón "*Export*". 
+
+![SWISS BITCOIN PAY](assets/notext/42.webp) 
+
+En la pestaña "*Manual*", puedes hacer una exportación única de tus transacciones. Simplemente elige un período, luego selecciona la información que quieres incluir en tu informe. 
+
+![SWISS BITCOIN PAY](assets/notext/43.webp) 
+
+Luego haz clic en el botón "*Export*" para descargar un archivo `.csv` de tus transacciones. 
+
+![SWISS BITCOIN PAY](assets/notext/44.webp) 
+
+En la pestaña "*Recurring*", puedes programar exportaciones automáticas recurrentes. Selecciona la frecuencia de generación de exportación y selecciona la información que quieres incluir en el informe. 
+
+![SWISS BITCOIN PAY](assets/notext/45.webp) 
+
+Finalmente, ingresa la dirección de correo electrónico donde se enviará el informe. Por ejemplo, puedes ingresar directamente la dirección de correo electrónico de tu contador. Haz clic en el botón "*Save*" para guardar esta exportación programada. 
+
+![SWISS BITCOIN PAY](assets/notext/46.webp) 
+
+La pestaña de factura te permite generar una factura por un pago único. 
+
+![SWISS BITCOIN PAY](assets/notext/47.webp) 
+
+En la pestaña "*Limits & verification*", puedes consultar tus límites de cobro diarios y anuales. También tienes la opción de realizar una verificación de identidad para desbloquear límites más altos. 
+
+![SWISS BITCOIN PAY](assets/notext/48.webp) 
+
+La pestaña "*Referral*" te permite gestionar todo lo relacionado con el patrocinio. 
+
+![SWISS BITCOIN PAY](assets/notext/49.webp)
+
+Finalmente, en la pestaña "*Settings*", tienes la opción de modificar la información que proporcionaste durante el registro, incluyendo métodos de retiro y la distribución entre bitcoin y fiat. 
+
+![SWISS BITCOIN PAY](assets/notext/50.webp)
+
+¡Felicidades! Has configurado un sistema procesador de pagos para aceptar Bitcoin en tu negocio. Si también quieres explorar BTCPay Server, una solución más avanzada y compleja, te recomiendo seguir nuestro entrenamiento completo específicamente dedicado a este software: 
+
+[BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).

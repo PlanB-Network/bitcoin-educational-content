@@ -3664,9 +3664,7 @@ On macOS, system disk encryption is based on *FileVault*, a native feature acces
 
 Once FileVault has been activated, you'll need to choose a recovery method in the event of password loss: either use your *iCloud* account, or generate a unique backup key. This key must be kept in a safe place, as its loss would render your data permanently inaccessible.
 
-
 For external storage media (hard disks, USB sticks, etc.), encryption is performed using the disk utility. You will need to completely reformat the volume:
-
 
 - Select the device, click on "*Delete*"
 - Select the "GUID* Partition Table" scheme
@@ -3674,32 +3672,25 @@ For external storage media (hard disks, USB sticks, etc.), encryption is perform
 - Choose a strong password
 - Click on "*Delete*" then "*OK*" and encryption is complete
 
-
 Once encryption is in place, the external drive can only be mounted by entering this password. The system will then decrypt it on the fly.
-
 
 #### A few recommendations for your encrypted backups
 
-
 Before encrypting a medium, you need to back up all the data it contains (unless it's empty, of course), as the encryption procedure generally erases the initial contents.
-
 
 The choice of password is also very important: it must be long, complex and unique, as it is the only protection between your data and a malicious third party. You also need to make a backup, for example in a password manager, because unlike online services, there is no recovery mechanism. If you forget your password, the data is lost for good.
 
-
 ### Selective file encryption
-
 
 In some cases, it is neither necessary nor practical to encrypt an entire hard disk or external media. In such cases, you can opt for selective encryption, which involves securing only certain files or directories containing sensitive data.
 
-
 One of the best-known methods for encrypting files is to use GPG. This tool is based on asymmetric cryptography: you have a pair of keys, one public, which you can distribute freely to your correspondents, and the other private, which must remain strictly secret. Files are encrypted using the recipient's public key, but can only be decrypted using his or her private key.
-
 
 This protocol is perfect for exchanging sensitive files securely with others, without sharing a password. For personal or occasional use, GPG also enables symmetrical encryption: the file is then protected by a unique password known only to you.
 
-
 An excellent alternative is Cryptomator. This open source software allows you to create a safe: a special directory in which all files deposited are automatically encrypted. This safe can be synchronized with cloud services such as Dropbox, Google Drive or Nextcloud without the provider ever having access to the unencrypted data. The application is available on all operating systems, including Android and iOS, and requires no special technical skills to use.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 ![Image](assets/fr/256.webp)

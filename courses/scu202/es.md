@@ -4863,12 +4863,7 @@ En macOS, el cifrado del disco del sistema se basa en *FileVault*, una función 
 
 Una vez activado FileVault, tendrás que elegir un método de recuperación en caso de pérdida de la contraseña: utilizar tu cuenta *iCloud* o generate una clave de copia de seguridad única. Esta clave debe guardarse en un lugar seguro, ya que su pérdida dejaría tus datos permanentemente inaccesibles.
 
-
-
 En el caso de soportes de almacenamiento externos (discos Hard, memorias USB, etc.), el cifrado se realiza mediante la utilidad de disco. Será necesario volver a formatear completamente el volumen:
-
-
-
 
 - Seleccione el dispositivo, haga clic en "*Borrar*"
 - Seleccione el esquema "Tabla de particiones GUID*"
@@ -4876,41 +4871,25 @@ En el caso de soportes de almacenamiento externos (discos Hard, memorias USB, et
 - Elija una contraseña segura
 - Haga clic en "*Borrar*" y luego en "*Aceptar*" y el cifrado se habrá completado
 
-
-
 Una vez realizada la encriptación, la unidad externa sólo podrá montarse introduciendo esta contraseña. A continuación, el sistema lo descifrará sobre la marcha.
-
-
 
 #### Algunas recomendaciones para sus copias de seguridad cifradas
 
-
-
 Antes de cifrar un soporte, es necesario hacer una copia de seguridad de todos los datos que contiene (a menos que esté vacío, claro), ya que el procedimiento de cifrado suele borrar el contenido inicial.
-
-
 
 La elección de la contraseña también es muy importante: debe ser larga, compleja y única, ya que es la única protección entre tus datos y un tercero malintencionado. También hay que hacer una copia de seguridad, por ejemplo en un gestor de contraseñas, porque a diferencia de los servicios en línea, no existe ningún mecanismo de recuperación. Si olvidas tu contraseña, los datos se pierden para siempre.
 
-
-
 ### Cifrado selectivo de archivos
-
-
 
 En algunos casos, no es necesario ni práctico cifrar todo un disco Hard o un soporte externo. En esos casos, puedes optar por el cifrado selectivo, que consiste en proteger sólo determinados archivos o directorios que contienen datos confidenciales.
 
-
-
 Uno de los métodos más conocidos para cifrar archivos es utilizar GPG. Esta herramienta se basa en la criptografía asimétrica: tienes un par de claves, una pública, que puedes distribuir libremente a tus corresponsales, y otra privada, que debe permanecer estrictamente secreta. Los archivos se cifran con la clave pública del destinatario, pero sólo pueden descifrarse con su clave privada.
-
-
 
 Este protocolo es perfecto para intercambiar archivos confidenciales de forma segura con otras personas, sin compartir contraseñas. Para un uso personal u ocasional, GPG también permite el cifrado simétrico: el archivo queda así protegido por una contraseña única que sólo tú conoces.
 
-
-
 Una excelente alternativa es Cryptomator. Este software de código abierto permite crear una caja fuerte: un directorio especial en el que todos los archivos depositados se cifran automáticamente. Esta caja fuerte puede sincronizarse con servicios en la nube como Dropbox, Google Drive o Nextcloud sin que el proveedor tenga nunca acceso a los datos sin cifrar. La aplicación está disponible en todos los sistemas operativos, incluidos Android e iOS, y no requiere conocimientos técnicos especiales para utilizarla.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

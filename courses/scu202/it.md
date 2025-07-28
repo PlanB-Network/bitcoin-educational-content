@@ -4863,12 +4863,7 @@ Su macOS, la crittografia del disco di sistema si basa su *FileVault*, una funzi
 
 Una volta attivato FileVault, dovrete scegliere un metodo di recupero in caso di perdita della password: utilizzare il vostro account *iCloud* o generate una chiave di backup unica. Questa chiave deve essere conservata in un luogo sicuro, poiché la sua perdita renderebbe i dati permanentemente inaccessibili.
 
-
-
 Per i supporti di memorizzazione esterni (dischi Hard, chiavette USB, ecc.), la crittografia viene eseguita con l'utility disco. È necessario riformattare completamente il volume:
-
-
-
 
 - Selezionare il dispositivo, fare clic su "*Elimina*"
 - Selezionare lo schema "Tabella di partizione GUID*"
@@ -4876,41 +4871,25 @@ Per i supporti di memorizzazione esterni (dischi Hard, chiavette USB, ecc.), la 
 - Scegliere una password forte
 - Fare clic su "*Elimina*" e poi su "*OK*" per completare la crittografia
 
-
-
 Una volta effettuata la crittografia, l'unità esterna può essere montata solo immettendo questa password. Il sistema la decifrerà al volo.
-
-
 
 #### Alcune raccomandazioni per i vostri backup criptati
 
-
-
 Prima di crittografare un supporto, è necessario eseguire il backup di tutti i dati in esso contenuti (a meno che non sia vuoto, ovviamente), poiché la procedura di crittografia generalmente cancella il contenuto iniziale.
-
-
 
 Anche la scelta della password è molto importante: deve essere lunga, complessa e unica, perché è l'unica protezione tra i vostri dati e un terzo malintenzionato. È inoltre necessario effettuare un backup, ad esempio in un gestore di password, perché, a differenza dei servizi online, non esiste un meccanismo di recupero. Se si dimentica la password, i dati sono persi per sempre.
 
-
-
 ### Crittografia selettiva dei file
-
-
 
 In alcuni casi, non è necessario né pratico criptare un intero disco Hard o un supporto esterno. In questi casi, è possibile optare per la crittografia selettiva, che prevede la protezione solo di alcuni file o directory contenenti dati sensibili.
 
-
-
 Uno dei metodi più noti per criptare i file è l'utilizzo di GPG. Questo strumento si basa sulla crittografia asimmetrica: si dispone di una coppia di chiavi, una pubblica, che si può distribuire liberamente ai propri corrispondenti, e una privata, che deve rimanere strettamente segreta. I file vengono crittografati con la chiave pubblica del destinatario, ma possono essere decifrati solo con la sua chiave privata.
-
-
 
 Questo protocollo è perfetto per scambiare file sensibili in modo sicuro con altri, senza condividere la password. Per un uso personale o occasionale, GPG consente anche la crittografia simmetrica: il file è quindi protetto da una password unica nota solo a voi.
 
-
-
 Un'ottima alternativa è Cryptomator. Questo software open source consente di creare una cassaforte: una directory speciale in cui tutti i file depositati vengono automaticamente crittografati. Questa cassaforte può essere sincronizzata con servizi cloud come Dropbox, Google Drive o Nextcloud senza che il provider abbia mai accesso ai dati non crittografati. L'applicazione è disponibile su tutti i sistemi operativi, compresi Android e iOS, e non richiede particolari competenze tecniche per essere utilizzata.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

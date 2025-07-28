@@ -4863,12 +4863,7 @@ V systému macOS je šifrování systémového disku založeno na *FileVault*, c
 
 Po aktivaci služby FileVault je třeba zvolit metodu obnovy v případě ztráty hesla: buď použít účet *iCloud*, nebo jedinečný zálohovací klíč generate. Tento klíč musí být uložen na bezpečném místě, protože jeho ztráta by trvale znepřístupnila vaše data.
 
-
-
 U externích paměťových médií (disky Hard, klíčenky USB atd.) se šifrování provádí pomocí diskového nástroje. Svazek bude nutné kompletně přeformátovat:
-
-
-
 
 - Vyberte zařízení, klikněte na "*Odstranit*"
 - Vyberte schéma "Tabulka oddílů GUID*"
@@ -4876,41 +4871,25 @@ U externích paměťových médií (disky Hard, klíčenky USB atd.) se šifrov�
 - Zvolte si silné heslo
 - Klikněte na "*Delete*", poté na "*OK*" a šifrování je dokončeno
 
-
-
 Po zavedení šifrování lze externí disk připojit pouze po zadání tohoto hesla. Systém jej pak za běhu dešifruje.
-
-
 
 #### Několik doporučení pro šifrované zálohy
 
-
-
 Před zašifrováním média je třeba zálohovat všechna data, která obsahuje (samozřejmě pokud není prázdné), protože postup šifrování obvykle vymaže původní obsah.
-
-
 
 Velmi důležitá je také volba hesla: musí být dlouhé, složité a jedinečné, protože je jedinou ochranou mezi vašimi údaji a záškodnickou třetí stranou. Je také třeba vytvořit zálohu, například ve správci hesel, protože na rozdíl od online služeb neexistuje žádný mechanismus obnovy. Pokud heslo zapomenete, jsou data nadobro ztracena.
 
-
-
 ### Selektivní šifrování souborů
-
-
 
 V některých případech není nutné ani praktické šifrovat celý disk Hard nebo externí médium. V takových případech se můžete rozhodnout pro selektivní šifrování, které zahrnuje zabezpečení pouze určitých souborů nebo adresářů obsahujících citlivá data.
 
-
-
 Jednou z nejznámějších metod šifrování souborů je použití protokolu GPG. Tento nástroj je založen na asymetrické kryptografii: máte dvojici klíčů, jeden veřejný, který můžete volně distribuovat svým korespondentům, a druhý soukromý, který musí zůstat přísně tajný. Soubory jsou zašifrovány pomocí veřejného klíče příjemce, ale dešifrovat je lze pouze pomocí jeho soukromého klíče.
-
-
 
 Tento protokol je ideální pro bezpečnou výměnu citlivých souborů s ostatními uživateli, aniž by bylo nutné sdílet heslo. Pro osobní nebo příležitostné použití umožňuje GPG také symetrické šifrování: soubor je pak chráněn jedinečným heslem, které znáte pouze vy.
 
-
-
 Vynikající alternativou je Cryptomator. Tento software s otevřeným zdrojovým kódem umožňuje vytvořit trezor: speciální adresář, ve kterém jsou všechny uložené soubory automaticky zašifrovány. Tento trezor lze synchronizovat s cloudovými službami, jako je Dropbox, Disk Google nebo Nextcloud, aniž by měl poskytovatel přístup k nezašifrovaným datům. Aplikace je dostupná ve všech operačních systémech, včetně Androidu a iOS, a její používání nevyžaduje žádné zvláštní technické dovednosti.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

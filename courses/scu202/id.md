@@ -4863,12 +4863,7 @@ Pada macOS, enkripsi disk sistem didasarkan pada *FileVault*, fitur asli yang da
 
 Setelah FileVault diaktifkan, Anda harus memilih metode pemulihan jika terjadi kehilangan kata sandi: gunakan akun *iCloud* Anda, atau generate, sebuah kunci cadangan yang unik. Kunci ini harus disimpan di tempat yang aman, karena jika hilang, data Anda tidak dapat diakses secara permanen.
 
-
-
 Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakukan dengan menggunakan utilitas disk. Anda harus memformat ulang volume sepenuhnya:
-
-
-
 
 - Pilih perangkat, klik "*Hapus*"
 - Pilih skema "Tabel Partisi GUID*"
@@ -4876,41 +4871,25 @@ Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakuka
 - Pilih kata sandi yang kuat
 - Klik "*Hapus*" lalu "*OK*" dan enkripsi selesai
 
-
-
 Setelah enkripsi dilakukan, drive eksternal hanya dapat dipasang dengan memasukkan kata sandi ini. Sistem kemudian akan mendekripsi dengan cepat.
-
-
 
 #### Beberapa rekomendasi untuk cadangan terenkripsi Anda
 
-
-
 Sebelum mengenkripsi sebuah media, Anda perlu mencadangkan semua data yang ada di dalamnya (kecuali jika media itu kosong, tentu saja), karena prosedur enkripsi umumnya menghapus konten awal.
-
-
 
 Pemilihan kata sandi juga sangat penting: kata sandi harus panjang, rumit, dan unik, karena ini adalah satu-satunya perlindungan antara data Anda dan pihak ketiga yang jahat. Anda juga perlu membuat cadangan, misalnya di pengelola kata sandi, karena tidak seperti layanan online, tidak ada mekanisme pemulihan. Jika Anda lupa kata sandi Anda, data akan hilang untuk selamanya.
 
-
-
 ### Enkripsi file selektif
-
-
 
 Dalam beberapa kasus, tidak perlu atau tidak praktis untuk mengenkripsi seluruh disk Hard atau media eksternal. Dalam kasus seperti itu, Anda dapat memilih enkripsi selektif, yang hanya mengamankan file atau direktori tertentu yang berisi data sensitif.
 
-
-
 Salah satu metode yang paling terkenal untuk mengenkripsi file adalah dengan menggunakan GPG. Alat ini didasarkan pada kriptografi asimetris: Anda memiliki sepasang kunci, satu kunci publik, yang dapat Anda distribusikan secara bebas kepada koresponden Anda, dan kunci pribadi, yang harus tetap dirahasiakan. File dienkripsi menggunakan kunci publik penerima, tetapi hanya dapat didekripsi menggunakan kunci pribadinya.
-
-
 
 Protokol ini sangat cocok untuk bertukar file sensitif secara aman dengan orang lain, tanpa berbagi kata sandi. Untuk penggunaan pribadi atau sesekali, GPG juga memungkinkan enkripsi simetris: file kemudian dilindungi oleh kata sandi unik yang hanya diketahui oleh Anda.
 
-
-
 Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak sumber terbuka ini memungkinkan Anda untuk membuat brankas: direktori khusus tempat semua file yang disimpan secara otomatis dienkripsi. Brankas ini bisa disinkronkan dengan layanan awan seperti Dropbox, Google Drive atau Nextcloud tanpa penyedia layanan memiliki akses ke data yang tidak terenkripsi. Aplikasi ini tersedia di semua sistem operasi, termasuk Android dan iOS, dan tidak memerlukan keahlian teknis khusus untuk menggunakannya.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

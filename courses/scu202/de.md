@@ -4863,12 +4863,7 @@ Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, e
 
 Nach der Aktivierung von FileVault müssen Sie eine Wiederherstellungsmethode für den Fall wählen, dass Sie Ihr Passwort verlieren: Entweder verwenden Sie Ihr *iCloud*-Konto oder generate einen eindeutigen Sicherungsschlüssel. Dieser Schlüssel muss an einem sicheren Ort aufbewahrt werden, da sein Verlust Ihre Daten dauerhaft unzugänglich machen würde.
 
-
-
 Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlüsselung mit dem Festplattendienstprogramm durchgeführt. Sie müssen den Datenträger vollständig neu formatieren:
-
-
-
 
 - Wählen Sie das Gerät aus und klicken Sie auf "*Löschen*"
 - Wählen Sie das Schema "GUID* Partitionstabelle"
@@ -4876,41 +4871,25 @@ Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlü
 - Wählen Sie ein sicheres Passwort
 - Klicken Sie auf "*Löschen*" und dann auf "*OK*" und die Verschlüsselung ist abgeschlossen
 
-
-
 Sobald die Verschlüsselung aktiviert ist, kann das externe Laufwerk nur noch durch Eingabe dieses Kennworts eingebunden werden. Das System entschlüsselt es dann im Handumdrehen.
-
-
 
 #### Einige Empfehlungen für Ihre verschlüsselten Backups
 
-
-
 Bevor Sie einen Datenträger verschlüsseln, müssen Sie alle darauf befindlichen Daten sichern (es sei denn, der Datenträger ist leer), da der Verschlüsselungsvorgang im Allgemeinen den ursprünglichen Inhalt löscht.
-
-
 
 Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen Ihren Daten und einem böswilligen Dritten ist. Außerdem müssen Sie eine Sicherungskopie erstellen, zum Beispiel in einem Passwort-Manager, denn anders als bei Online-Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn Sie Ihr Passwort vergessen, sind die Daten für immer verloren.
 
-
-
 ### Selektive Dateiverschlüsselung
-
-
 
 In manchen Fällen ist es weder notwendig noch praktisch, eine gesamte Hard-Festplatte oder ein externes Medium zu verschlüsseln. In solchen Fällen können Sie sich für eine selektive Verschlüsselung entscheiden, bei der nur bestimmte Dateien oder Verzeichnisse mit sensiblen Daten gesichert werden.
 
-
-
 Eine der bekanntesten Methoden zur Verschlüsselung von Dateien ist die Verwendung von GPG. Dieses Tool basiert auf asymmetrischer Kryptographie: Sie haben ein Schlüsselpaar, einen öffentlichen, den Sie frei an Ihre Korrespondenten verteilen können, und einen privaten, der streng geheim bleiben muss. Die Dateien werden mit dem öffentlichen Schlüssel des Empfängers verschlüsselt, können aber nur mit seinem privaten Schlüssel entschlüsselt werden.
-
-
 
 Dieses Protokoll eignet sich hervorragend für den sicheren Austausch sensibler Dateien mit anderen, ohne dass ein Passwort mitgeteilt werden muss. Für den persönlichen oder gelegentlichen Gebrauch ermöglicht GPG auch eine symmetrische Verschlüsselung: Die Datei ist dann durch ein eindeutiges, nur Ihnen bekanntes Passwort geschützt.
 
-
-
 Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open-Source-Software können Sie einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud-Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschließlich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

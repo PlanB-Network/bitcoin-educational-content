@@ -4863,12 +4863,7 @@ I macOS baseras systemdiskkrypteringen på *FileVault*, en inbyggd funktion som 
 
 När FileVault har aktiverats måste du välja en återställningsmetod i händelse av lösenordsförlust: antingen använda ditt *iCloud*-konto eller generate en unik säkerhetskopieringsnyckel. Denna nyckel måste förvaras på en säker plats, eftersom en förlust skulle göra dina data permanent oåtkomliga.
 
-
-
 För externa lagringsmedia (Hard-diskar, USB-minnen etc.) utförs krypteringen med hjälp av diskverktyget. Du måste formatera om volymen helt och hållet:
-
-
-
 
 - Välj enheten och klicka på "*Delete*"
 - Välj "GUID* Partition Table"-schemat
@@ -4876,41 +4871,25 @@ För externa lagringsmedia (Hard-diskar, USB-minnen etc.) utförs krypteringen m
 - Välj ett starkt lösenord
 - Klicka på "*Delete*" och sedan på "*OK*" och krypteringen är klar
 
-
-
 När krypteringen är på plats kan den externa hårddisken endast monteras genom att ange detta lösenord. Systemet kommer sedan att dekryptera den i farten.
-
-
 
 #### Några rekommendationer för dina krypterade säkerhetskopior
 
-
-
 Innan du krypterar ett medium måste du säkerhetskopiera alla data som finns på det (om det inte är tomt, förstås), eftersom krypteringsproceduren i allmänhet raderar det ursprungliga innehållet.
-
-
 
 Valet av lösenord är också mycket viktigt: det måste vara långt, komplext och unikt, eftersom det är det enda skyddet mellan dina uppgifter och en illvillig tredje part. Du måste också göra en säkerhetskopia, t.ex. i en lösenordshanterare, eftersom det till skillnad från onlinetjänster inte finns någon återställningsmekanism. Om du glömmer ditt lösenord är uppgifterna förlorade för gott.
 
-
-
 ### Selektiv kryptering av filer
-
-
 
 I vissa fall är det varken nödvändigt eller praktiskt att kryptera en hel Hard-disk eller ett externt media. I sådana fall kan du välja selektiv kryptering, vilket innebär att du bara säkrar vissa filer eller kataloger som innehåller känsliga data.
 
-
-
 En av de mest välkända metoderna för att kryptera filer är att använda GPG. Detta verktyg bygger på asymmetrisk kryptografi: du har ett par nycklar, en offentlig, som du kan dela ut fritt till dina korrespondenter, och en privat, som måste hållas strikt hemlig. Filerna krypteras med mottagarens publika nyckel, men kan endast dekrypteras med dennes privata nyckel.
-
-
 
 Detta protokoll är perfekt för att utbyta känsliga filer på ett säkert sätt med andra, utan att dela med sig av ett lösenord. För personlig eller tillfällig användning möjliggör GPG även symmetrisk kryptering: filen skyddas då av ett unikt lösenord som bara du känner till.
 
-
-
 Ett utmärkt alternativ är Cryptomator. Med denna programvara med öppen källkod kan du skapa ett kassaskåp: en speciell katalog där alla filer som deponeras automatiskt krypteras. Detta kassaskåp kan synkroniseras med molntjänster som Dropbox, Google Drive eller Nextcloud utan att leverantören någonsin får tillgång till de okrypterade uppgifterna. Applikationen finns tillgänglig på alla operativsystem, inklusive Android och iOS, och kräver inga speciella tekniska färdigheter för att användas.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

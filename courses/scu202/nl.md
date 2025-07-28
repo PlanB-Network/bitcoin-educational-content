@@ -4863,12 +4863,7 @@ Op macOS is de versleuteling van de systeemschijf gebaseerd op *FileVault*, een 
 
 Zodra FileVault is geactiveerd, moet u een herstelmethode kiezen voor het geval u uw wachtwoord verliest: gebruik uw *iCloud* account of generate een unieke back-upsleutel. Deze sleutel moet op een veilige plaats bewaard worden, omdat het verlies ervan uw gegevens permanent ontoegankelijk maakt.
 
-
-
 Voor externe opslagmedia (Hard schijven, USB-sticks, enz.) wordt de codering uitgevoerd met behulp van het schijfhulpprogramma. U moet het volume volledig opnieuw formatteren:
-
-
-
 
 - Selecteer het apparaat en klik op "*Verwijderen*"
 - Selecteer het "GUID*-partitietabel"-schema
@@ -4876,41 +4871,25 @@ Voor externe opslagmedia (Hard schijven, USB-sticks, enz.) wordt de codering uit
 - Kies een sterk wachtwoord
 - Klik op "*Delete*", dan op "*OK*" en de codering is voltooid
 
-
-
 Zodra de versleuteling is ingesteld, kan de externe schijf alleen worden aangekoppeld door dit wachtwoord in te voeren. Het systeem decodeert de schijf dan onmiddellijk.
-
-
 
 #### Een paar aanbevelingen voor je versleutelde back-ups
 
-
-
 Voordat je een medium versleutelt, moet je een back-up maken van alle gegevens die het bevat (tenzij het leeg is natuurlijk), omdat de versleutelingsprocedure over het algemeen de oorspronkelijke inhoud wist.
-
-
 
 De keuze van het wachtwoord is ook erg belangrijk: het moet lang, complex en uniek zijn, omdat het de enige bescherming is tussen je gegevens en een kwaadwillende derde partij. Je moet ook een back-up maken, bijvoorbeeld in een wachtwoordmanager, want in tegenstelling tot online diensten is er geen herstelmechanisme. Als je je wachtwoord vergeet, zijn de gegevens voorgoed verloren.
 
-
-
 ### Selectieve bestandscodering
-
-
 
 In sommige gevallen is het niet nodig of praktisch om een hele Hard schijf of externe media te versleutelen. In zulke gevallen kun je kiezen voor selectieve encryptie, waarbij alleen bepaalde bestanden of mappen met gevoelige data worden beveiligd.
 
-
-
 Een van de bekendste methoden om bestanden te versleutelen is het gebruik van GPG. Deze tool is gebaseerd op asymmetrische cryptografie: je hebt een paar sleutels, één publieke, die je vrij kan verdelen onder je correspondenten, en de andere private, die strikt geheim moet blijven. Bestanden worden versleuteld met de openbare sleutel van de ontvanger, maar kunnen alleen worden ontsleuteld met zijn of haar privésleutel.
-
-
 
 Dit protocol is perfect voor het veilig uitwisselen van gevoelige bestanden met anderen, zonder een wachtwoord te delen. Voor persoonlijk of incidenteel gebruik maakt GPG ook symmetrische encryptie mogelijk: het bestand wordt dan beschermd door een uniek wachtwoord dat alleen jij kent.
 
-
-
 Een uitstekend alternatief is Cryptomator. Met deze open source software kun je een kluis maken: een speciale map waarin alle bestanden die worden opgeslagen automatisch worden versleuteld. Deze kluis kan worden gesynchroniseerd met clouddiensten zoals Dropbox, Google Drive of Nextcloud zonder dat de provider ooit toegang heeft tot de onversleutelde gegevens. De applicatie is beschikbaar op alle besturingssystemen, inclusief Android en iOS, en vereist geen speciale technische vaardigheden om te gebruiken.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

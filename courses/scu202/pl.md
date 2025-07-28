@@ -4863,12 +4863,7 @@ W systemie macOS szyfrowanie dysku systemowego opiera się na *FileVault*, natyw
 
 Po aktywacji FileVault należy wybrać metodę odzyskiwania danych w przypadku utraty hasła: albo użyć konta *iCloud*, albo generate unikalnego klucza kopii zapasowej. Klucz ten musi być przechowywany w bezpiecznym miejscu, ponieważ jego utrata spowoduje, że dane będą trwale niedostępne.
 
-
-
 W przypadku zewnętrznych nośników pamięci (dyski Hard, pamięci USB itp.) szyfrowanie odbywa się za pomocą narzędzia dyskowego. Konieczne będzie całkowite ponowne sformatowanie woluminu:
-
-
-
 
 - Wybierz urządzenie i kliknij "*Usuń*"
 - Wybierz schemat "Tabela partycji GUID*"
@@ -4876,41 +4871,25 @@ W przypadku zewnętrznych nośników pamięci (dyski Hard, pamięci USB itp.) sz
 - Wybierz silne hasło
 - Kliknij "*Usuń*", a następnie "*OK*" i szyfrowanie jest zakończone
 
-
-
 Po zaszyfrowaniu dysk zewnętrzny można zamontować tylko po wprowadzeniu tego hasła. Następnie system odszyfruje go w locie.
-
-
 
 #### Kilka zaleceń dotyczących szyfrowanych kopii zapasowych
 
-
-
 Przed zaszyfrowaniem nośnika należy wykonać kopię zapasową wszystkich zawartych na nim danych (o ile oczywiście nie jest on pusty), ponieważ procedura szyfrowania zazwyczaj usuwa początkową zawartość.
-
-
 
 Wybór hasła jest również bardzo ważny: musi być długie, złożone i unikalne, ponieważ jest to jedyna ochrona między danymi a złośliwą stroną trzecią. Konieczne jest również tworzenie kopii zapasowych, na przykład w menedżerze haseł, ponieważ w przeciwieństwie do usług online nie ma mechanizmu odzyskiwania. Jeśli zapomnisz hasła, dane zostaną utracone na dobre.
 
-
-
 ### Selektywne szyfrowanie plików
-
-
 
 W niektórych przypadkach szyfrowanie całego dysku Hard lub nośnika zewnętrznego nie jest ani konieczne, ani praktyczne. W takich przypadkach można zdecydować się na szyfrowanie selektywne, które polega na zabezpieczeniu tylko niektórych plików lub katalogów zawierających poufne dane.
 
-
-
 Jedną z najbardziej znanych metod szyfrowania plików jest użycie GPG. Narzędzie to opiera się na kryptografii asymetrycznej: masz parę kluczy, jeden publiczny, który możesz swobodnie rozpowszechniać wśród swoich korespondentów, a drugi prywatny, który musi pozostać ściśle tajny. Pliki są szyfrowane przy użyciu klucza publicznego odbiorcy, ale można je odszyfrować tylko przy użyciu jego klucza prywatnego.
-
-
 
 Protokół ten jest idealny do bezpiecznej wymiany poufnych plików z innymi, bez udostępniania hasła. Do użytku osobistego lub okazjonalnego GPG umożliwia również szyfrowanie symetryczne: plik jest wtedy chroniony unikalnym hasłem znanym tylko użytkownikowi.
 
-
-
 Doskonałą alternatywą jest Cryptomator. To oprogramowanie typu open source umożliwia utworzenie sejfu: specjalnego katalogu, w którym wszystkie zdeponowane pliki są automatycznie szyfrowane. Sejf ten może być synchronizowany z usługami w chmurze, takimi jak Dropbox, Google Drive czy Nextcloud, bez dostępu dostawcy do niezaszyfrowanych danych. Aplikacja jest dostępna na wszystkie systemy operacyjne, w tym Android i iOS, i nie wymaga specjalnych umiejętności technicznych.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

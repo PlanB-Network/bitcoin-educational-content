@@ -4863,12 +4863,7 @@ Kwenye macOS, usimbaji fiche wa diski ya mfumo unatokana na *FileVault*, kipenge
 
 Baada ya FileVault kuamilishwa, utahitaji kuchagua mbinu ya kurejesha nenosiri ikiwa nenosiri limepotea: ama utumie akaunti yako ya *iCloud*, au generate ufunguo wa kipekee wa kuhifadhi nakala. Ufunguo huu lazima uhifadhiwe mahali salama, kwa kuwa kupotea kwake kunaweza kufanya data yako isiweze kufikiwa kabisa.
 
-
-
 Kwa vyombo vya habari vya hifadhi ya nje (diski za Hard, vijiti vya USB, nk), usimbuaji unafanywa kwa kutumia matumizi ya diski. Utahitaji kurekebisha kabisa kiasi:
-
-
-
 
 - Chagua kifaa, bonyeza "*Futa*"
 - Chagua mpango wa "GUID* Jedwali la Sehemu".
@@ -4876,41 +4871,25 @@ Kwa vyombo vya habari vya hifadhi ya nje (diski za Hard, vijiti vya USB, nk), us
 - Chagua nenosiri dhabiti
 - Bonyeza "*Futa*" kisha "*Sawa*" na usimbaji fiche umekamilika
 
-
-
 Mara usimbaji fiche unapowekwa, hifadhi ya nje inaweza tu kupachikwa kwa kuingiza nenosiri hili. Mfumo huo utauchambua kwa kuruka.
-
-
 
 #### Mapendekezo machache ya nakala zako zilizosimbwa kwa njia fiche
 
-
-
 Kabla ya kusimba kati, unahitaji kuhifadhi nakala ya data yote iliyo nayo (isipokuwa ni tupu, bila shaka), kwani utaratibu wa usimbaji fiche kwa ujumla hufuta yaliyomo ya awali.
-
-
 
 Uchaguzi wa nenosiri pia ni muhimu sana: lazima iwe ndefu, ngumu na ya kipekee, kwani ndiyo ulinzi pekee kati ya data yako na mtu wa tatu mbaya. Pia unahitaji kufanya nakala, kwa mfano katika meneja wa nenosiri, kwa sababu tofauti na huduma za mtandaoni, hakuna utaratibu wa kurejesha. Ukisahau nenosiri lako, data itapotea kabisa.
 
-
-
 ### Usimbaji fiche wa faili
-
-
 
 Katika baadhi ya matukio, si lazima wala si vitendo kusimba diski nzima ya Hard au vyombo vya habari vya nje. Katika hali kama hizi, unaweza kuchagua usimbaji fiche uliochaguliwa, ambao unahusisha kupata faili au saraka fulani pekee zilizo na data nyeti.
 
-
-
 Mojawapo ya njia zinazojulikana za kusimba faili ni kutumia GPG. Chombo hiki kinategemea kriptografia ya asymmetric: una jozi ya funguo, moja ya umma, ambayo unaweza kusambaza kwa uhuru kwa waandishi wako, na nyingine ya faragha, ambayo lazima ibaki siri madhubuti. Faili husimbwa kwa njia fiche kwa kutumia ufunguo wa umma wa mpokeaji, lakini zinaweza tu kusimbwa kwa kutumia ufunguo wake wa faragha.
-
-
 
 Itifaki hii ni nzuri kwa kubadilishana faili nyeti na wengine kwa usalama, bila kushiriki nenosiri. Kwa matumizi ya kibinafsi au ya mara kwa mara, GPG pia huwezesha usimbaji fiche linganifu: basi faili inalindwa na nenosiri la kipekee linalojulikana kwako tu.
 
-
-
 Njia mbadala bora ni Cryptomator. Programu hii ya chanzo wazi hukuruhusu kuunda salama: saraka maalum ambayo faili zote zilizowekwa zinasimbwa kiatomati. Sefu hii inaweza kusawazishwa na huduma za wingu kama vile Dropbox, Hifadhi ya Google au Nextcloud bila mtoa huduma kuwahi kufikia data ambayo haijasimbwa. Programu inapatikana kwenye mifumo yote ya uendeshaji, ikijumuisha Android na iOS, na haihitaji ujuzi maalum wa kiufundi kutumia.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

@@ -4863,12 +4863,7 @@ Na macOS-u, enkripcija sistemskog diska zasniva se na *FileVault*-u, izvornoj fu
 
 Kada je FileVault aktiviran, moraćete da izaberete metod oporavka u slučaju gubitka lozinke: ili koristite svoj *iCloud* nalog, ili generate jedinstveni rezervni ključ. Ovaj ključ mora biti čuvan na sigurnom mestu, jer bi njegov gubitak učinio vaše podatke trajno nedostupnim.
 
-
-
 Za spoljne medije za skladištenje (Hard diskovi, USB stikovi, itd.), enkripcija se vrši korišćenjem alata za diskove. Biće potrebno potpuno preformatirati volumen:
-
-
-
 
 - Izaberite uređaj, kliknite na "*Delete*"
 - Odaberite šemu "GUID* Partition Table"
@@ -4876,41 +4871,25 @@ Za spoljne medije za skladištenje (Hard diskovi, USB stikovi, itd.), enkripcija
 - Izaberite jaku lozinku
 - Kliknite na "*Delete*" zatim "*OK*" i enkripcija je završena
 
-
-
 Kada je enkripcija postavljena, eksterni disk se može montirati samo unosom ove lozinke. Sistem će ga zatim dekriptovati u hodu.
-
-
 
 #### Nekoliko preporuka za vaše šifrovane rezervne kopije
 
-
-
 Pre nego što šifrujete medijum, potrebno je da napravite rezervnu kopiju svih podataka koje sadrži (osim ako je, naravno, prazan), jer procedura šifrovanja obično briše početni sadržaj.
-
-
 
 Izbor lozinke je takođe veoma važan: mora biti dugačka, složena i jedinstvena, jer je to jedina zaštita između vaših podataka i zlonamernih trećih strana. Takođe treba da napravite rezervnu kopiju, na primer u menadžeru lozinki, jer za razliku od onlajn servisa, ne postoji mehanizam za oporavak. Ako zaboravite lozinku, podaci su zauvek izgubljeni.
 
-
-
 ### Selektivno šifrovanje fajlova
-
-
 
 U nekim slučajevima, nije ni neophodno ni praktično šifrovati ceo Hard disk ili eksterni medijum. U takvim slučajevima, možete se odlučiti za selektivno šifrovanje, koje podrazumeva obezbeđivanje samo određenih fajlova ili direktorijuma koji sadrže osetljive podatke.
 
-
-
 Jedan od najpoznatijih metoda za šifrovanje fajlova je korišćenje GPG-a. Ovaj alat se zasniva na asimetričnoj kriptografiji: imate par ključeva, jedan javni, koji možete slobodno distribuirati svojim korespondentima, i drugi privatni, koji mora ostati strogo tajan. Fajlovi se šifruju koristeći javni ključ primaoca, ali se mogu dešifrovati samo korišćenjem njegovog ili njenog privatnog ključa.
-
-
 
 Ovaj protokol je savršen za sigurno razmenjivanje osetljivih fajlova sa drugima, bez deljenja lozinke. Za ličnu ili povremenu upotrebu, GPG takođe omogućava simetričnu enkripciju: fajl je tada zaštićen jedinstvenom lozinkom poznatom samo vama.
 
-
-
 Odlična alternativa je Cryptomator. Ovaj softver otvorenog koda omogućava vam da kreirate sef: poseban direktorijum u kojem su svi deponovani fajlovi automatski enkriptovani. Ovaj sef može biti sinhronizovan sa cloud servisima kao što su Dropbox, Google Drive ili Nextcloud, a da provajder nikada nema pristup neenkriptovanim podacima. Aplikacija je dostupna na svim operativnim sistemima, uključujući Android i iOS, i ne zahteva posebne tehničke veštine za korišćenje.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

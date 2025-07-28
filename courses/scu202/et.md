@@ -4863,12 +4863,7 @@ MacOS-i puhul põhineb süsteemi ketta krüpteerimine *FileVaultil*, mis on algu
 
 Kui FileVault on aktiveeritud, peate valima taastamismeetodi salasõna kaotamise korral: kas kasutada oma *iCloud*-kontot või generate unikaalset varundusvõtit. Seda võtit tuleb hoida turvalises kohas, sest selle kadumine muudaks teie andmed lõplikult kättesaamatuks.
 
-
-
 Välise andmekandja (Hard kettad, USB-pulgad jne) puhul toimub krüpteerimine ketta utiliidi abil. Te peate andmekandja täielikult ümber vormindama:
-
-
-
 
 - Valige seade, klõpsake nuppu "*Kustuta*"
 - Valige skeem "GUID* Partition Table"
@@ -4876,41 +4871,25 @@ Välise andmekandja (Hard kettad, USB-pulgad jne) puhul toimub krüpteerimine ke
 - Valige tugev parool
 - Klõpsake "*Kustuta*", seejärel "*OK*" ja krüpteerimine on lõpetatud
 
-
-
 Kui krüpteerimine on tehtud, saab välise ketta paigaldada ainult selle parooli sisestades. Seejärel dekrüpteerib süsteem selle jooksvalt.
-
-
 
 #### Mõned soovitused teie krüpteeritud varukoopiate kohta
 
-
-
 Enne andmekandja krüpteerimist tuleb teha varukoopia kõigist selles sisalduvatest andmetest (kui see ei ole muidugi tühi), sest krüpteerimisprotseduur kustutab üldjuhul esialgse sisu.
-
-
 
 Väga oluline on ka salasõna valik: see peab olema pikk, keeruline ja ainulaadne, sest see on ainus kaitse teie andmete ja pahatahtlike kolmandate isikute vahel. Samuti tuleb teha varukoopia, näiteks paroolihalduris, sest erinevalt võrguteenustest puudub taastamismehhanism. Kui unustate oma parooli, on andmed lõplikult kadunud.
 
-
-
 ### Valikuline failide krüpteerimine
-
-
 
 Mõnel juhul ei ole vaja ega otstarbekas krüpteerida kogu Hard ketast või välist andmekandjat. Sellistel juhtudel võite valida valikulise krüpteerimise, mis hõlmab ainult teatavate tundlikke andmeid sisaldavate failide või kataloogide kaitsmist.
 
-
-
 Üks tuntumaid meetodeid failide krüpteerimiseks on GPG kasutamine. See tööriist põhineb asümmeetrilisel krüptograafial: teil on võtmepaar, millest üks on avalik, mida saate oma korrespondentidele vabalt jagada, ja teine on privaatne, mis peab jääma rangelt salajaseks. Failid krüpteeritakse vastuvõtja avaliku võtmega, kuid neid saab dekrüpteerida ainult tema isikliku võtmega.
-
-
 
 See protokoll sobib ideaalselt tundlike failide turvaliseks vahetamiseks teistega, ilma parooli jagamata. Isiklikuks või juhuslikuks kasutamiseks võimaldab GPG ka sümmeetrilist krüpteerimist: fail on siis kaitstud unikaalse parooliga, mida teate ainult teie.
 
-
-
 Suurepärane alternatiiv on Cryptomator. See avatud lähtekoodiga tarkvara võimaldab teil luua seifi: spetsiaalne kataloog, kuhu kõik hoiustatud failid on automaatselt krüpteeritud. Seda seifi saab sünkroniseerida pilveteenustega, nagu Dropbox, Google Drive või Nextcloud, ilma et teenusepakkujal oleks juurdepääs krüpteerimata andmetele. Rakendus on saadaval kõigis operatsioonisüsteemides, sealhulgas Androidis ja iOSis, ning selle kasutamine ei nõua erilisi tehnilisi oskusi.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

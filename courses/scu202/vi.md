@@ -4863,12 +4863,7 @@ Trên macOS, mã hóa ổ đĩa hệ thống dựa trên *FileVault*, một tín
 
 Sau khi FileVault được kích hoạt, bạn sẽ cần chọn phương pháp khôi phục trong trường hợp mất mật khẩu: sử dụng tài khoản *iCloud* của bạn hoặc sử dụng khóa sao lưu duy nhất. Khóa này phải được lưu giữ ở nơi an toàn, vì việc mất nó sẽ khiến dữ liệu của bạn vĩnh viễn không thể truy cập được.
 
-
-
 Đối với phương tiện lưu trữ ngoài (đĩa Hard, USB, v.v.), mã hóa được thực hiện bằng tiện ích đĩa. Bạn sẽ cần định dạng lại hoàn toàn ổ đĩa:
-
-
-
 
 - Chọn thiết bị, nhấp vào "*Xóa*"
 - Chọn sơ đồ "Bảng phân vùng GUID*"
@@ -4876,41 +4871,25 @@ Sau khi FileVault được kích hoạt, bạn sẽ cần chọn phương pháp 
 - Chọn một mật khẩu mạnh
 - Nhấp vào "*Xóa*" rồi "*OK*" và quá trình mã hóa hoàn tất
 
-
-
 Sau khi mã hóa được thiết lập, ổ đĩa ngoài chỉ có thể được gắn kết bằng cách nhập mật khẩu này. Hệ thống sau đó sẽ giải mã ngay lập tức.
-
-
 
 #### Một vài khuyến nghị cho bản sao lưu được mã hóa của bạn
 
-
-
 Trước khi mã hóa một phương tiện, bạn cần sao lưu toàn bộ dữ liệu trong đó (trừ khi phương tiện đó trống), vì quy trình mã hóa thường xóa nội dung ban đầu.
-
-
 
 Việc lựa chọn mật khẩu cũng rất quan trọng: mật khẩu phải dài, phức tạp và duy nhất, vì đây là biện pháp bảo vệ duy nhất giữa dữ liệu của bạn và bên thứ ba độc hại. Bạn cũng cần sao lưu dữ liệu, ví dụ như trong trình quản lý mật khẩu, vì không giống như các dịch vụ trực tuyến, không có cơ chế khôi phục. Nếu bạn quên mật khẩu, dữ liệu sẽ bị mất vĩnh viễn.
 
-
-
 ### Mã hóa tập tin có chọn lọc
-
-
 
 Trong một số trường hợp, việc mã hóa toàn bộ ổ đĩa Hard hoặc thiết bị lưu trữ ngoài là không cần thiết và cũng không thực tế. Trong những trường hợp như vậy, bạn có thể chọn mã hóa chọn lọc, tức là chỉ bảo mật một số tệp hoặc thư mục chứa dữ liệu nhạy cảm.
 
-
-
 Một trong những phương pháp mã hóa tệp tin nổi tiếng nhất là sử dụng GPG. Công cụ này dựa trên mật mã bất đối xứng: bạn có một cặp khóa, một khóa công khai, có thể phân phối tự do cho các đối tác liên lạc, và khóa còn lại là khóa riêng tư, phải được giữ bí mật tuyệt đối. Tệp tin được mã hóa bằng khóa công khai của người nhận, nhưng chỉ có thể được giải mã bằng khóa riêng của người nhận.
-
-
 
 Giao thức này hoàn hảo để trao đổi các tệp nhạy cảm một cách an toàn với người khác mà không cần chia sẻ mật khẩu. Đối với mục đích sử dụng cá nhân hoặc thỉnh thoảng, GPG cũng cho phép mã hóa đối xứng: tệp sau đó được bảo vệ bằng một mật khẩu duy nhất chỉ bạn biết.
 
-
-
 Một lựa chọn thay thế tuyệt vời là Cryptomator. Phần mềm mã nguồn mở này cho phép bạn tạo một "ổ khóa" an toàn: một thư mục đặc biệt, trong đó tất cả các tệp được lưu trữ đều được mã hóa tự động. Ổ khóa này có thể được đồng bộ hóa với các dịch vụ đám mây như Dropbox, Google Drive hoặc Nextcloud mà không cần nhà cung cấp phải truy cập vào dữ liệu chưa được mã hóa. Ứng dụng có sẵn trên tất cả các hệ điều hành, bao gồm Android và iOS, và không yêu cầu kỹ năng chuyên môn đặc biệt nào để sử dụng.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

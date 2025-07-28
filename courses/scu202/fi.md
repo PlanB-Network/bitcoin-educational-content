@@ -4863,12 +4863,7 @@ MacOS:ssä järjestelmän levyn salaus perustuu *FileVault*:iin, joka on natiivi
 
 Kun FileVault on aktivoitu, sinun on valittava palautusmenetelmä salasanan menetyksen varalta: joko *iCloud*-tilisi käyttäminen tai generate:n yksilöllinen varmuuskopioavain. Tämä avain on säilytettävä turvallisessa paikassa, sillä sen menettäminen tekisi tiedoista pysyvästi saavuttamattomissa olevia.
 
-
-
 Ulkoisten tallennusvälineiden (Hard-levyt, USB-muistitikut jne.) salaus suoritetaan levyapuohjelman avulla. Sinun on alustettava tietoväline kokonaan uudelleen:
-
-
-
 
 - Valitse laite ja napsauta "*Poista*"
 - Valitse "GUID*-osiointitaulukko" -järjestelmä
@@ -4876,41 +4871,25 @@ Ulkoisten tallennusvälineiden (Hard-levyt, USB-muistitikut jne.) salaus suorite
 - Valitse vahva salasana
 - Napsauta "*Poista*" ja sitten "*OK*" ja salaus on valmis
 
-
-
 Kun salaus on otettu käyttöön, ulkoinen asema voidaan asentaa vain syöttämällä tämä salasana. Järjestelmä purkaa salauksen sitten lennossa.
-
-
 
 #### Muutama suositus salattuja varmuuskopioita varten
 
-
-
 Ennen tietovälineen salaamista sinun on varmuuskopioitava kaikki sen sisältämät tiedot (paitsi jos tietoväline on tyhjä), koska salausmenettely yleensä poistaa alkuperäisen sisällön.
-
-
 
 Salasanan valinta on myös erittäin tärkeää: sen on oltava pitkä, monimutkainen ja yksilöllinen, sillä se on ainoa suoja tietojesi ja pahantahtoisen kolmannen osapuolen välillä. Sinun on myös tehtävä varmuuskopio esimerkiksi salasanahallintaan, sillä toisin kuin verkkopalveluissa, salasanoista ei ole palautusmekanismia. Jos unohdat salasanasi, tiedot menetetään lopullisesti.
 
-
-
 ### Valikoiva tiedostojen salaus
-
-
 
 Joissakin tapauksissa ei ole tarpeen eikä käytännöllistä salata koko Hard-levyä tai ulkoista tietovälinettä. Tällaisissa tapauksissa voit valita valikoivan salauksen, jossa suojataan vain tietyt arkaluonteisia tietoja sisältävät tiedostot tai hakemistot.
 
-
-
 Yksi tunnetuimmista tiedostojen salausmenetelmistä on GPG. Tämä työkalu perustuu epäsymmetriseen salaukseen: sinulla on avainpari, joista toinen on julkinen, jota voit jakaa vapaasti kirjeenvaihtajillesi, ja toinen yksityinen, jonka on pysyttävä ehdottoman salaisena. Tiedostot salataan vastaanottajan julkisella avaimella, mutta ne voidaan purkaa vain hänen yksityisellä avaimellaan.
-
-
 
 Tämä protokolla sopii erinomaisesti arkaluonteisten tiedostojen turvalliseen vaihtoon muiden kanssa ilman salasanan jakamista. Henkilökohtaiseen tai satunnaiseen käyttöön GPG mahdollistaa myös symmetrisen salauksen: tällöin tiedosto suojataan ainutlaatuisella salasanalla, jonka vain sinä tunnet.
 
-
-
 Erinomainen vaihtoehto on Cryptomator. Tämän avoimen lähdekoodin ohjelmiston avulla voit luoda kassakaapin: erityisen hakemiston, johon kaikki talletetut tiedostot salataan automaattisesti. Tämä kassakaappi voidaan synkronoida Dropboxin, Google Driven tai Nextcloudin kaltaisten pilvipalveluiden kanssa ilman, että palveluntarjoaja pääsee koskaan käsiksi salaamattomiin tietoihin. Sovellus on käytettävissä kaikissa käyttöjärjestelmissä, myös Androidissa ja iOS:ssä, eikä sen käyttö vaadi erityisiä teknisiä taitoja.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

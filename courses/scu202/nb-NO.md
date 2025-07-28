@@ -4863,12 +4863,7 @@ På macOS er systemdiskkryptering basert på *FileVault*, en innebygd funksjon s
 
 Når FileVault er aktivert, må du velge en gjenopprettingsmetode i tilfelle du mister passordet: enten ved å bruke *iCloud*-kontoen din, eller generate en unik sikkerhetskopinøkkel. Denne nøkkelen må oppbevares på et trygt sted, da tap av den vil gjøre dataene dine permanent utilgjengelige.
 
-
-
 For eksterne lagringsmedier (Hard-disker, USB-minnepinner osv.) utføres krypteringen ved hjelp av diskverktøyet. Du må formatere volumet fullstendig på nytt:
-
-
-
 
 - Velg enheten, klikk på "*Delete*"
 - Velg "GUID* Partition Table"-skjemaet
@@ -4876,41 +4871,25 @@ For eksterne lagringsmedier (Hard-disker, USB-minnepinner osv.) utføres krypter
 - Velg et sterkt passord
 - Klikk på "*Delete*" og deretter på "*OK*", og krypteringen er fullført
 
-
-
 Når krypteringen er på plass, kan den eksterne stasjonen bare monteres ved å taste inn dette passordet. Systemet dekrypterer den deretter underveis.
-
-
 
 #### Noen anbefalinger for krypterte sikkerhetskopier
 
-
-
 Før du krypterer et medium, må du ta sikkerhetskopi av alle dataene det inneholder (med mindre det er tomt, selvfølgelig), ettersom krypteringsprosedyren vanligvis sletter det opprinnelige innholdet.
-
-
 
 Valget av passord er også svært viktig: Det må være langt, komplekst og unikt, ettersom det er den eneste beskyttelsen mellom dataene dine og en ondsinnet tredjepart. Du må også ta en sikkerhetskopi, for eksempel i en passordbehandler, for i motsetning til nettbaserte tjenester finnes det ingen gjenopprettingsmekanisme. Hvis du glemmer passordet ditt, er dataene tapt for godt.
 
-
-
 ### Selektiv filkryptering
-
-
 
 I noen tilfeller er det verken nødvendig eller praktisk å kryptere en hel Hard-disk eller et eksternt medium. I slike tilfeller kan du velge selektiv kryptering, som innebærer at du bare sikrer visse filer eller kataloger som inneholder sensitive data.
 
-
-
 En av de mest kjente metodene for å kryptere filer er å bruke GPG. Dette verktøyet er basert på asymmetrisk kryptografi: Du har et par nøkler, en offentlig, som du fritt kan dele ut til dine korrespondenter, og en privat, som må holdes strengt hemmelig. Filer krypteres med mottakerens offentlige nøkkel, men kan bare dekrypteres med hans eller hennes private nøkkel.
-
-
 
 Denne protokollen er perfekt for sikker utveksling av sensitive filer med andre, uten å dele passord. For personlig eller sporadisk bruk muliggjør GPG også symmetrisk kryptering: Filen beskyttes da med et unikt passord som bare du kjenner til.
 
-
-
 Et utmerket alternativ er Cryptomator. Med denne programvaren med åpen kildekode kan du opprette en safe: en spesiell katalog der alle filer som legges inn, automatisk krypteres. Denne safen kan synkroniseres med skytjenester som Dropbox, Google Drive eller Nextcloud uten at leverandøren noen gang får tilgang til de ukrypterte dataene. Applikasjonen er tilgjengelig på alle operativsystemer, inkludert Android og iOS, og krever ingen spesielle tekniske ferdigheter for å brukes.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

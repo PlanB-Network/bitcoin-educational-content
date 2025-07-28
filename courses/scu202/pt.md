@@ -4863,12 +4863,7 @@ No macOS, a encriptação do disco do sistema é baseada no *FileVault*, uma fun
 
 Assim que o FileVault tiver sido ativado, terá de escolher um método de recuperação em caso de perda da palavra-passe: utilizar a sua conta *iCloud* ou generate uma chave de cópia de segurança única. Esta chave deve ser guardada num local seguro, uma vez que a sua perda tornaria os seus dados permanentemente inacessíveis.
 
-
-
 Para suportes de armazenamento externos (discos Hard, pen drives USB, etc.), a encriptação é efectuada utilizando o utilitário de disco. Terá de reformatar completamente o volume:
-
-
-
 
 - Selecione o dispositivo e clique em "*Delete*"
 - Selecionar o esquema "Tabela de partição GUID*"
@@ -4876,41 +4871,25 @@ Para suportes de armazenamento externos (discos Hard, pen drives USB, etc.), a e
 - Escolha uma palavra-passe forte
 - Clique em "*Delete*" e depois em "*OK*" e a encriptação está concluída
 
-
-
 Quando a encriptação estiver implementada, a unidade externa só pode ser montada introduzindo esta palavra-passe. O sistema desencripta-a de imediato.
-
-
 
 #### Algumas recomendações para as suas cópias de segurança encriptadas
 
-
-
 Antes de encriptar um suporte, é necessário fazer uma cópia de segurança de todos os dados nele contidos (a não ser que esteja vazio, claro), uma vez que o procedimento de encriptação geralmente apaga o conteúdo inicial.
-
-
 
 A escolha da palavra-passe também é muito importante: deve ser longa, complexa e única, pois é a única proteção entre os seus dados e um terceiro mal-intencionado. Também é necessário fazer uma cópia de segurança, por exemplo, num gestor de senhas, porque, ao contrário dos serviços em linha, não existe qualquer mecanismo de recuperação. Se se esquecer da sua palavra-passe, os dados perdem-se para sempre.
 
-
-
 ### Encriptação selectiva de ficheiros
-
-
 
 Em alguns casos, não é necessário nem prático encriptar um disco Hard inteiro ou um suporte externo. Nesses casos, pode optar pela encriptação selectiva, que envolve a segurança de apenas determinados ficheiros ou diretórios que contenham dados sensíveis.
 
-
-
 Um dos métodos mais conhecidos para encriptar ficheiros é a utilização do GPG. Esta ferramenta baseia-se na criptografia assimétrica: tem um par de chaves, uma pública, que pode distribuir livremente aos seus correspondentes, e outra privada, que deve permanecer estritamente secreta. Os ficheiros são encriptados com a chave pública do destinatário, mas só podem ser desencriptados com a sua chave privada.
-
-
 
 Este protocolo é perfeito para trocar ficheiros sensíveis de forma segura com outras pessoas, sem partilhar uma palavra-passe. Para uso pessoal ou ocasional, o GPG também permite a encriptação simétrica: o ficheiro é então protegido por uma palavra-passe única que só o utilizador conhece.
 
-
-
 Uma excelente alternativa é o Cryptomator. Este software de código aberto permite-lhe criar um cofre: um diretório especial no qual todos os ficheiros depositados são automaticamente encriptados. Este cofre pode ser sincronizado com serviços na nuvem, como Dropbox, Google Drive ou Nextcloud, sem que o fornecedor tenha acesso aos dados não encriptados. A aplicação está disponível em todos os sistemas operativos, incluindo Android e iOS, e não requer competências técnicas especiais para ser utilizada.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 

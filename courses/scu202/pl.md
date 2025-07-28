@@ -8605,34 +8605,24 @@ Narzędzia te działają jak mały serwer DNS wewnątrz sieci, blokując żądan
 
 ### Bezpieczny zdalny dostęp przez VPN
 
-
 W niektórych przypadkach przydatna jest możliwość dostępu do sieci domowej, gdy jesteś w ruchu: Przeglądać pliki na serwerze NAS, korzystać z Bitcoin i węzła Lightning, uzyskiwać dostęp do serwera hostowanego samodzielnie lub administrować siecią. Takie zdalne połączenie musi być jednak bezpieczne.
-
 
 Pierwszą wskazówką jest to, aby nigdy nie otwierać bezpośrednio portu na routerze w celu uzyskania dostępu do urządzenia (np. poprzez RDP, SSH lub FTP), ponieważ wystawia to tę usługę na cały Internet, co stanowi lukę w zabezpieczeniach. Istnieje wiele zautomatyzowanych ataków ukierunkowanych na otwarte porty.
 
-
 Rozwiązaniem, które polecam, jest korzystanie z VPN (*Virtual Private Network*), czyli szyfrowanego tunelu między urządzeniem zdalnym (komputerem, smartfonem itp.) a siecią lokalną. Po podłączeniu do VPN można uzyskać dostęp do zasobów domu tak, jakby się tam fizycznie znajdowało, i to w bezpieczny sposób.
 
-
 Dwa główne rozwiązania dla klientów prywatnych to:
-
-
 
 - WireGuard: Nowoczesny, szybki i lekki
 - OpenVPN: starsza, ale bardzo dojrzała i konfigurowalna sieć
 
-
 Oto kompletny samouczek dotyczący Tailscale, łatwego w konfiguracji rozwiązania VPN, które wykorzystuje WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Możesz hostować tę sieć VPN bezpośrednio na kompatybilnym routerze, na małym komputerze (takim jak Raspberry Pi) lub na dedykowanym serwerze w domu. Można również zainstalować ją jako klienta bezpośrednio na dowolnym urządzeniu.
 
-
 Ale VPN nie służy tylko do zdalnego dostępu. Możesz także użyć klasycznego klienta VPN na swoich urządzeniach, aby zaszyfrować cały ruch wychodzący, nawet gdy jesteś poza domem (publiczne Wi-Fi, hotel, uniwersytet itp.). W takim przypadku urządzenie łączy się z serwerem VPN innej firmy (komercyjnym lub hostowanym samodzielnie), który następnie przekazuje połączenia do Internetu. Ukrywa to prawdziwy adres IP Address przed dostawcą usług internetowych, chroni dane przed lokalnym szpiegowaniem i pozwala uniknąć niektórych form cenzury.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Wreszcie, możliwe jest również skonfigurowanie VPN bezpośrednio na routerze, co pozwala chronić wszystkie urządzenia w domu bez konieczności instalowania klienta VPN na każdym z nich.
 
-
 ### Monitorowanie i wykrywanie
-
 
 Po prawidłowym skonfigurowaniu i podzieleniu sieci na segmenty, ważne jest, aby wyjść poza pasywne zabezpieczenia. Aktywne monitorowanie sieci lokalnej może wykryć nieprawidłowe zachowanie, nieautoryzowane połączenia lub oznaki włamania. Celem jest wczesne wykrycie problemów, zanim spowodują one szkody.
 
-
 Pierwszym krokiem jest scentralizowanie logów bezpieczeństwa. Każde urządzenie podłączone do sieci generuje dzienniki zawierające informacje o połączeniach, błędach lub podejrzanej aktywności. Zamiast przeglądać te dzienniki pojedynczo, zalecam wysłanie ich do serwera zdolnego do ich grupowania, sortowania i analizowania. Rozwiązania takie jak Graylog lub Elastic Stack (ELK) umożliwiają agregowanie tych dzienników w graficzny Interface, w którym można wyszukiwać określone zdarzenia, tworzyć alerty lub wizualizować aktywność sieci.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Następnie należy regularnie przeprowadzać aktywne skanowanie sieci lokalnej, na przykład za pomocą Nmap. Zapewni to przegląd wszystkich urządzeń w sieci i otwartych przez nie portów. Jeśli zidentyfikujesz nieznane urządzenie lub nietypową usługę, może to być oznaką ataku.
 
-
-
 Aby pójść jeszcze dalej, można zainstalować IDS (*Intrusion Detection System*), a nawet IPS (*Intrusion Prevention System*). Narzędzia te, takie jak Suricata lub Snort, monitorują przepływy sieciowe w czasie rzeczywistym i wykrywają sygnatury znanych ataków (skanowanie portów, wstrzyknięcia, podejrzane połączenia itp.). IDS ostrzega, podczas gdy IPS może automatycznie blokować określone działania.
 
-
-
 Wreszcie, monitorowanie zużycia przepustowości jest również dobrym wskaźnikiem nietypowej aktywności. Jeśli urządzenie nagle zużywa dużo danych bez wyraźnego powodu, może to zdradzać nieautoryzowane pobieranie, wyciek danych lub nawet zainfekowane urządzenie. Narzędzia takie jak ntopng lub vnStat umożliwiają przeglądanie przychodzących i wychodzących przepływów według urządzenia.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Kopia zapasowa i odporność
 
-
 Nawet w przypadku doskonale zabezpieczonej sieci awarie sprzętu, błędy konfiguracji lub nieprzewidziane zdarzenia (awaria zasilania, przepięcie, awaria dysku Hard itp.) mogą spowodować utratę danych lub przerwanie świadczenia usług. Aby zagwarantować ciągłość środowiska cyfrowego i uniknąć rozpoczynania od zera w przypadku wystąpienia problemu, ważne jest wdrożenie strategii tworzenia kopii zapasowych i odporności.
-
 
 Zacznij od regularnego tworzenia kopii zapasowych konfiguracji sprzętu sieciowego, zwłaszcza routera. Te pliki konfiguracyjne można często wyeksportować za pomocą administracyjnego Interface. Przechowywanie kopii umożliwia szybkie przywrócenie funkcjonalności systemu w przypadku resetu lub wymiany urządzenia. Zalecam również szyfrowanie tej kopii zapasowej.
 
-
 Wreszcie, aby zwiększyć odporność sieci w przypadku awarii zasilania, zainwestuj w zasilacz UPS. Urządzenie to zapewnia zapasowe zasilanie przez kilka minut w przypadku awarii zasilania, umożliwiając dalsze korzystanie z Internetu lub zapewniając, że krytyczne urządzenia (NAS, router, punkt dostępowy Wi-Fi itp.) wyłączą się w sposób czysty. Niektóre modele mogą również wysyłać polecenie automatycznego wyłączenia do podłączonych urządzeń, gdy wykryją niski poziom naładowania baterii.
-
 
 Postępując zgodnie z tymi kilkoma krokami, zbudujesz solidne, bezpieczne środowisko sieciowe, które szanuje Twoją prywatność.
 
-
 # Część końcowa
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recenzje i oceny
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Egzamin końcowy
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Wnioski
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

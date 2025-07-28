@@ -8605,34 +8605,24 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 
 ### 透過 VPN 進行安全遠端存取
 
-
 在某些情況下，當您在移動時能夠存取您的家庭網路是非常有用的：諮詢 NAS 上的檔案、使用 Bitcoin 和 Lightning 節點、存取自行託管的伺服器或管理您的網路。但是，此遠端連線必須安全。
-
 
 第一個訣竅是絕對不要直接開啟路由器上的連接埠來存取裝置 (例如透過 RDP、SSH 或 FTP)，因為這樣會將該服務暴露於整個網際網路，構成漏洞。以開啟連接埠為目標的自動化攻擊不勝枚舉。
 
-
 我建議的解決方案是使用 VPN（*虛擬私人網路*），也就是在您的遠端裝置（電腦、智慧型手機等）與本機網路之間建立加密隧道。一旦連線到 VPN，您就可以存取家中的資源，就像您親自在家中一樣，而且是以安全的方式。
 
-
 針對私人客戶的兩種主要解決方案是
-
-
 
 - WireGuard：現代、快速、輕量
 - OpenVPN: 較舊，但非常成熟且可設定
 
-
 以下是 Tailscale 的完整教學，這是一個使用 WireGuard 的易於設定 VPN 解決方案：
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 您可以將此 VPN 直接託管在相容的路由器、小型電腦 (例如 Raspberry Pi) 或家中的專用伺服器上。您也可以直接將它以用戶端方式安裝在任何裝置上。
 
-
 但 VPN 不只是用於遠端存取。您也可以在裝置上使用經典的 VPN 用戶端，即使您不在家（公共 Wi-Fi、旅館、大學等），也能加密您所有的傳出流量。在這種情況下，您的裝置會連線到第三方 VPN 伺服器 (商業或自行託管)，然後它會將您的連線轉發到網際網路。這樣就可以向 ISP 隱藏您的真實 IP Address，保護您的資料不受本地窺探，並避免某些形式的審查。
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 最後，也可以直接在路由器上設定 VPN，讓您可以保護家中的所有裝置，而無需在每個裝置上安裝 VPN 用戶端。
 
-
 ### 監控與偵測
-
 
 當您的網路已正確設定並分割後，重要的是要超越被動式的安全防護。主動監控您的本機網路可以偵測異常行為、未授權連線或入侵跡象。目的是在問題造成損害之前及早發現。
 
-
 第一步是集中管理安全記錄。每個連線到網路的裝置都會產生記錄，其中包含連線、錯誤或可疑活動的資訊。我建議不要單獨諮詢這些記錄，而是將它們傳送至能夠將它們群組、排序和分析的伺服器。Graylog 或 Elastic Stack (ELK) 等解決方案可讓您將這些日誌匯集到圖形化的 Interface，您可以在其中搜尋特定事件、建立警示或視覺化網路活動。
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 接下來，定期主動掃描您的區域網路，例如使用 Nmap。這會讓您概覽網路上的所有裝置，以及它們所開啟的連接埠。如果您發現未知裝置或不尋常的服務，這可能就是攻擊的跡象。
 
-
-
 若要更進一步，您可以安裝 IDS (* 入侵偵測系統*)，甚至是 IPS (* 入侵防禦系統*)。這些工具 (例如 Suricata 或 Snort) 會即時監控網路流量，並偵測已知攻擊的特徵 (連接埠掃描、注入、可疑連線等)。IDS 會發出警告，而 IPS 則可自動封鎖某些動作。
 
-
-
 最後，監控頻寬消耗也是異常活動的良好指標。如果裝置突然無緣無故消耗大量資料，這可能是未經授權的下載、資料洩漏，甚至是裝置受到攻擊。ntopng 或 vnStat 等工具可讓您依裝置檢視流入和流出的流量。
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### 備份與彈性
 
-
 即使擁有完美安全的網路，硬體故障、組態錯誤或不可預見的事件 (停電、電湧、Hard 磁碟故障等) 也可能導致資料遺失或服務中斷。為了保證您數位環境的連續性，並避免在發生問題時從頭開始，執行備份和復原策略是非常重要的。
-
 
 首先要定期備份網路設備的設定，尤其是路由器。這些組態檔案通常可以透過管理 Interface 匯出。保留一份副本可以讓您在重設或更換設備時快速還原功能正常的系統。我也建議將此備份加密。
 
-
 最後，為了提高網路在斷電時的應變能力，請投資購買 UPS。此裝置可在斷電時提供數分鐘的備用電源，讓您可以繼續使用網際網路，或確保關鍵裝置 (NAS、路由器、Wi-Fi 存取點等) 乾淨地關機。某些型號還能在偵測到電池電力不足時，向連接的裝置傳送自動關機指令。
-
 
 只要遵循這幾個步驟，您就可以建立一個尊重您隱私的強大、安全的網路環境。
 
-
 # 最後部分
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## 評論與評分
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## 期末考試
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## 總結
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -8605,34 +8605,24 @@ Các công cụ này hoạt động như một máy chủ DNS nhỏ bên trong m
 
 ### Truy cập từ xa an toàn qua VPN
 
-
 Trong một số trường hợp, việc có thể truy cập mạng gia đình khi đang di chuyển sẽ rất hữu ích: Xem tệp trên NAS, sử dụng nút Bitcoin và Lightning, truy cập máy chủ tự lưu trữ hoặc quản trị mạng. Tuy nhiên, kết nối từ xa này phải được bảo mật.
-
 
 Mẹo đầu tiên là không bao giờ trực tiếp mở một cổng trên bộ định tuyến để truy cập thiết bị (ví dụ: qua RDP, SSH hoặc FTP), vì điều này sẽ khiến dịch vụ đó bị lộ ra toàn bộ Internet, tạo thành một lỗ hổng bảo mật. Các cuộc tấn công tự động nhắm vào các cổng mở rất nhiều.
 
-
 Giải pháp tôi khuyên dùng là sử dụng VPN (Mạng riêng ảo), tức là một đường hầm được mã hóa giữa thiết bị từ xa (máy tính, điện thoại thông minh, v.v.) và mạng cục bộ của bạn. Sau khi kết nối với VPN, bạn có thể truy cập tài nguyên tại nhà như thể bạn đang ở đó, và một cách an toàn.
 
-
 Hai giải pháp chính dành cho khách hàng cá nhân là:
-
-
 
 - WireGuard: Hiện đại, nhanh và nhẹ
 - OpenVPN: Cũ hơn nhưng rất hoàn thiện và có thể cấu hình được
 
-
 Sau đây là hướng dẫn đầy đủ về Tailscale, một giải pháp VPN dễ cấu hình sử dụng WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Bạn có thể lưu trữ VPN này trực tiếp trên bộ định tuyến tương thích, trên máy tính nhỏ (như Raspberry Pi) hoặc trên máy chủ chuyên dụng tại nhà. Bạn cũng có thể cài đặt nó dưới dạng máy khách trực tiếp trên bất kỳ thiết bị nào.
 
-
 Nhưng VPN không chỉ dành cho truy cập từ xa. Bạn cũng có thể sử dụng máy khách VPN cổ điển trên thiết bị của mình để mã hóa toàn bộ lưu lượng truy cập ra, ngay cả khi bạn đang ở xa nhà (Wi-Fi công cộng, khách sạn, trường đại học, v.v.). Trong trường hợp này, thiết bị của bạn sẽ kết nối với máy chủ VPN của bên thứ ba (thương mại hoặc tự lưu trữ), sau đó chuyển tiếp kết nối của bạn lên Internet. Điều này sẽ ẩn địa chỉ IP thực Address của bạn khỏi ISP, bảo vệ dữ liệu của bạn khỏi bị theo dõi cục bộ và tránh một số hình thức kiểm duyệt.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Cuối cùng, bạn cũng có thể thiết lập VPN trực tiếp trên bộ định tuyến, cho phép bạn bảo vệ tất cả các thiết bị trong nhà mà không cần phải cài đặt ứng dụng VPN trên từng thiết bị.
 
-
 ### Giám sát và phát hiện
-
 
 Sau khi mạng của bạn đã được cấu hình và phân đoạn đúng cách, điều quan trọng là phải vượt ra ngoài bảo mật thụ động. Việc giám sát chủ động mạng cục bộ có thể phát hiện các hành vi bất thường, kết nối trái phép hoặc dấu hiệu xâm nhập. Mục đích là phát hiện sớm các vấn đề, trước khi chúng gây ra thiệt hại.
 
-
 Bước đầu tiên là tập trung hóa nhật ký bảo mật. Mỗi thiết bị được kết nối với mạng đều tạo ra nhật ký chứa thông tin về kết nối, lỗi hoặc hoạt động đáng ngờ. Thay vì xem từng nhật ký riêng lẻ, tôi khuyên bạn nên gửi chúng đến một máy chủ có khả năng nhóm, sắp xếp và phân tích. Các giải pháp như Graylog hoặc Elastic Stack (ELK) cho phép bạn tổng hợp các nhật ký này thành một giao diện đồ họa Interface, nơi bạn có thể tìm kiếm các sự kiện cụ thể, tạo cảnh báo hoặc trực quan hóa hoạt động mạng.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Tiếp theo, hãy thường xuyên quét mạng cục bộ của bạn, ví dụ như bằng Nmap. Thao tác này sẽ cung cấp cho bạn cái nhìn tổng quan về tất cả các thiết bị trong mạng và các cổng mà chúng đã mở. Nếu bạn phát hiện một thiết bị không xác định hoặc một dịch vụ bất thường, đây có thể là dấu hiệu của một cuộc tấn công.
 
-
-
 Để tiến xa hơn nữa, bạn có thể cài đặt IDS (Hệ thống Phát hiện Xâm nhập) hoặc thậm chí IPS (Hệ thống Phòng chống Xâm nhập). Các công cụ này, chẳng hạn như Suricata hoặc Snort, giám sát luồng mạng theo thời gian thực và phát hiện dấu hiệu của các cuộc tấn công đã biết (quét cổng, chèn mã độc, kết nối đáng ngờ, v.v.). IDS sẽ cảnh báo, trong khi IPS có thể tự động chặn một số hành động nhất định.
 
-
-
 Cuối cùng, việc theo dõi mức tiêu thụ băng thông cũng là một chỉ báo tốt về hoạt động bất thường. Nếu một thiết bị đột nhiên tiêu thụ nhiều dữ liệu mà không có lý do rõ ràng, điều này có thể cho thấy một hoạt động tải xuống trái phép, rò rỉ dữ liệu, hoặc thậm chí là một thiết bị bị xâm nhập. Các công cụ như ntopng hoặc vnStat cho phép bạn xem các luồng dữ liệu đến và đi theo từng thiết bị.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sao lưu và phục hồi
 
-
 Ngay cả với một mạng lưới an toàn tuyệt đối, lỗi phần cứng, lỗi cấu hình hoặc các sự cố bất ngờ (mất điện, quá áp, lỗi ổ đĩa Hard, v.v.) vẫn có thể gây mất dữ liệu hoặc gián đoạn dịch vụ của bạn. Để đảm bảo tính liên tục của môi trường kỹ thuật số và tránh phải bắt đầu lại từ đầu khi gặp sự cố, điều quan trọng là phải triển khai chiến lược sao lưu và phục hồi.
-
 
 Hãy bắt đầu bằng cách thường xuyên sao lưu cấu hình thiết bị mạng, đặc biệt là bộ định tuyến. Các tệp cấu hình này thường có thể được xuất qua thư mục quản trị Interface. Việc lưu giữ một bản sao cho phép bạn nhanh chóng khôi phục hệ thống đang hoạt động trong trường hợp thiết bị được đặt lại hoặc thay thế. Tôi cũng khuyên bạn nên mã hóa bản sao lưu này.
 
-
 Cuối cùng, để cải thiện khả năng phục hồi của mạng trong trường hợp mất điện, hãy đầu tư vào một bộ lưu điện (UPS). Thiết bị này cung cấp nguồn điện dự phòng trong vài phút khi mất điện, cho phép bạn tiếp tục sử dụng Internet hoặc đảm bảo các thiết bị quan trọng (NAS, bộ định tuyến, điểm truy cập Wi-Fi, v.v.) được tắt hoàn toàn. Một số mẫu máy còn có thể gửi lệnh tắt tự động đến các thiết bị được kết nối khi phát hiện pin yếu.
-
 
 Bằng cách làm theo một số bước sau, bạn sẽ xây dựng được một môi trường mạng mạnh mẽ, an toàn và tôn trọng quyền riêng tư của bạn.
 
-
 # Phần cuối
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Đánh giá & Xếp hạng
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Kỳ thi cuối kỳ
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Phần kết luận
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

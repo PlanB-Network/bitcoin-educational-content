@@ -8605,34 +8605,24 @@ Deze tools werken als een kleine DNS-server in je netwerk en blokkeren verzoeken
 
 ### Veilige toegang op afstand via VPN
 
-
 In sommige gevallen is het handig om toegang te hebben tot je thuisnetwerk wanneer je onderweg bent: Raadpleeg bestanden op een NAS, gebruik een Bitcoin en Lightning node, krijg toegang tot een zelf gehoste server of beheer je netwerk. Deze verbinding op afstand moet echter wel veilig zijn.
-
 
 De eerste tip is om nooit direct een poort op je router te openen om toegang te krijgen tot een apparaat (bijvoorbeeld via RDP, SSH of FTP), omdat dit die dienst blootstelt aan het hele internet, wat een kwetsbaarheid vormt. Geautomatiseerde aanvallen gericht op open poorten zijn talrijk.
 
-
 De oplossing die ik aanbeveel is het gebruik van een VPN (*Virtual Private Network*), d.w.z. een versleutelde tunnel tussen je externe apparaat (computer, smartphone, enz.) en je lokale netwerk. Eenmaal verbonden met het VPN, heb je toegang tot de bronnen van je huis alsof je er fysiek bent, en op een veilige manier.
 
-
 De twee belangrijkste oplossingen voor particuliere klanten zijn:
-
-
 
 - WireGuard: Modern, snel en lichtgewicht
 - OpenVPN: Ouder, maar zeer volwassen en configureerbaar
 
-
 Hier is een complete tutorial over Tailscale, een eenvoudig te configureren VPN-oplossing die WireGuard gebruikt:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Je kunt dit VPN direct hosten op een compatibele router, op een kleine computer (zoals een Raspberry Pi) of op een speciale server thuis. Je kunt het ook als client direct op elk apparaat installeren.
 
-
 Maar een VPN is niet alleen voor toegang op afstand. Je kunt ook een klassieke VPN-client op je apparaten gebruiken om al je uitgaande verkeer te versleutelen, zelfs als je niet thuis bent (openbare Wi-Fi, hotel, universiteit, etc.). In dit geval maakt je apparaat verbinding met een VPN-server van derden (commercieel of zelf gehost), die vervolgens je verbindingen naar het internet doorstuurt. Dit verbergt je echte IP Address voor de ISP, beschermt je gegevens tegen lokale spionage en vermijdt bepaalde vormen van censuur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Tot slot is het ook mogelijk om een VPN rechtstreeks op je router in te stellen, zodat je alle apparaten in je huis kunt beschermen zonder dat je op elk apparaat een VPN-client hoeft te installeren.
 
-
 ### Bewaking en detectie
-
 
 Zodra je netwerk goed geconfigureerd en gesegmenteerd is, is het belangrijk om verder te gaan dan passieve beveiliging. Actieve bewaking van je lokale netwerk kan abnormaal gedrag, ongeautoriseerde verbindingen of tekenen van inbraak detecteren. Het doel is om problemen in een vroeg stadium op te sporen, voordat ze schade veroorzaken.
 
-
 De eerste stap is het centraliseren van beveiligingslogs. Elk apparaat dat verbonden is met het netwerk genereert logs met informatie over verbindingen, fouten of verdachte activiteiten. In plaats van deze logs individueel te raadplegen, raad ik aan om ze naar een server te sturen die ze kan groeperen, sorteren en analyseren. Met oplossingen zoals Graylog of Elastic Stack (ELK) kun je deze logs samenvoegen in een grafische Interface waar je kunt zoeken naar specifieke gebeurtenissen, waarschuwingen kunt aanmaken of netwerkactiviteit kunt visualiseren.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Voer vervolgens regelmatig actieve scans uit van je lokale netwerk, bijvoorbeeld met Nmap. Dit geeft je een overzicht van alle apparaten op je netwerk en de poorten die ze hebben geopend. Als je een onbekend apparaat of een ongebruikelijke service ziet, kan dit een teken zijn van een aanval.
 
-
-
 Om nog verder te gaan, kun je een IDS (*Intrusion Detection System*) of zelfs een IPS (*Intrusion Prevention System*) installeren. Deze tools, zoals Suricata of Snort, monitoren netwerkstromen in realtime en detecteren handtekeningen van bekende aanvallen (poortscans, injecties, verdachte verbindingen, etc.). Het IDS waarschuwt, terwijl het IPS bepaalde acties automatisch kan blokkeren.
 
-
-
 Tot slot is het monitoren van bandbreedteverbruik ook een goede indicator voor abnormale activiteit. Als een apparaat plotseling veel data verbruikt zonder duidelijke reden, kan dit een ongeautoriseerde download, een datalek of zelfs een gecompromitteerd apparaat verraden. Tools zoals ntopng of vnStat stellen je in staat om inkomende en uitgaande stromen per apparaat te bekijken.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Back-up en veerkracht
 
-
 Zelfs met een perfect beveiligd netwerk kunnen hardwarestoringen, configuratiefouten of onvoorziene gebeurtenissen (stroomuitval, stroompiek, Hard schijfstoring, enz.) gegevensverlies veroorzaken of uw diensten onderbreken. Om de continuïteit van uw digitale omgeving te garanderen en te voorkomen dat u bij een probleem helemaal opnieuw moet beginnen, is het belangrijk om een back-up- en veerkrachtstrategie te implementeren.
-
 
 Begin met het regelmatig maken van een back-up van de configuratie van je netwerkapparatuur, vooral van de router. Deze configuratiebestanden kunnen vaak geëxporteerd worden via de Interface administratie. Door een kopie te bewaren kun je snel een functionerend systeem herstellen in het geval van een reset of vervanging van een apparaat. Ik raad ook aan om deze back-up te coderen.
 
-
 Investeer ten slotte in een UPS om de veerkracht van je netwerk bij stroomuitval te verbeteren. Dit apparaat levert back-upstroom voor een paar minuten in het geval van een stroomstoring, zodat je het internet kunt blijven gebruiken of ervoor kunt zorgen dat kritieke apparaten (NAS, router, Wi-Fi-toegangspunt, enz.) netjes worden uitgeschakeld. Sommige modellen kunnen ook een automatisch uitschakelcommando sturen naar aangesloten apparaten wanneer ze detecteren dat de batterij bijna leeg is.
-
 
 Door deze paar stappen te volgen, bouw je een robuuste, veilige netwerkomgeving die je privacy respecteert.
 
-
 # Laatste deel
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Beoordelingen
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Eindexamen
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusie
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

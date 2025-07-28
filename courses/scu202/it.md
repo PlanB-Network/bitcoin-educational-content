@@ -8605,34 +8605,24 @@ Questi strumenti agiscono come un piccolo server DNS all'interno della rete, blo
 
 ### Accesso remoto sicuro tramite VPN
 
-
 In alcuni casi, è utile poter accedere alla rete domestica quando si è in viaggio: Consultare i file su un NAS, utilizzare un nodo Bitcoin e Lightning, accedere a un server self-hosted o amministrare la rete. Tuttavia, questa connessione remota deve essere sicura.
-
 
 Il primo consiglio è di non aprire mai direttamente una porta sul router per accedere a un dispositivo (ad esempio tramite RDP, SSH o FTP), in quanto ciò espone il servizio all'intera rete Internet, il che costituisce una vulnerabilità. Gli attacchi automatici che mirano alle porte aperte sono numerosi.
 
-
 La soluzione che vi consiglio è quella di utilizzare una VPN (*Virtual Private Network*), ovvero un tunnel crittografato tra il vostro dispositivo remoto (computer, smartphone, ecc.) e la vostra rete locale. Una volta connessi alla VPN, potrete accedere alle risorse di casa vostra come se foste fisicamente lì, e in modo sicuro.
 
-
 Le due soluzioni principali per i clienti privati sono:
-
-
 
 - WireGuard: Moderno, veloce e leggero
 - OpenVPN: più vecchio, ma molto maturo e configurabile
 
-
 Ecco un tutorial completo su Tailscale, una soluzione VPN facile da configurare che utilizza WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 È possibile ospitare questa VPN direttamente su un router compatibile, su un piccolo computer (come un Raspberry Pi) o su un server dedicato a casa. È anche possibile installarla come client direttamente su qualsiasi dispositivo.
 
-
 Ma una VPN non serve solo per l'accesso remoto. Potete anche utilizzare un classico client VPN sui vostri dispositivi per crittografare tutto il vostro traffico in uscita, anche quando siete fuori casa (Wi-Fi pubblico, hotel, università, ecc.). In questo caso, il dispositivo si connette a un server VPN di terze parti (commerciale o self-hosted), che poi ritrasmette le connessioni a Internet. In questo modo si nasconde il vostro vero IP Address all'ISP, si proteggono i dati dallo spionaggio locale e si evitano alcune forme di censura.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Infine, è anche possibile configurare una VPN direttamente sul router, consentendo di proteggere tutti i dispositivi di casa senza dover installare un client VPN su ciascuno di essi.
 
-
 ### Monitoraggio e rilevamento
-
 
 Una volta che la rete è stata configurata e segmentata correttamente, è importante andare oltre la sicurezza passiva. Il monitoraggio attivo della rete locale può rilevare comportamenti anomali, connessioni non autorizzate o segni di intrusione. L'obiettivo è individuare tempestivamente i problemi, prima che causino danni.
 
-
 Il primo passo è la centralizzazione dei registri di sicurezza. Ogni dispositivo collegato alla rete genera registri contenenti informazioni su connessioni, errori o attività sospette. Piuttosto che consultare questi log singolarmente, consiglio di inviarli a un server in grado di raggrupparli, ordinarli e analizzarli. Soluzioni come Graylog o Elastic Stack (ELK) consentono di aggregare questi registri in un Interface grafico in cui è possibile cercare eventi specifici, creare avvisi o visualizzare l'attività di rete.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Successivamente, eseguite regolarmente scansioni attive della rete locale, ad esempio con Nmap. In questo modo si ottiene una panoramica di tutti i dispositivi presenti sulla rete e delle porte aperte. Se si identifica un dispositivo sconosciuto o un servizio insolito, questo potrebbe essere il segno di un attacco.
 
-
-
 Per andare oltre, è possibile installare un IDS (*Intrusion Detection System*) o addirittura un IPS (*Intrusion Prevention System*). Questi strumenti, come Suricata o Snort, monitorano i flussi di rete in tempo reale e rilevano le firme di attacchi noti (scansioni di porte, iniezioni, connessioni sospette, ecc.). L'IDS avvisa, mentre l'IPS può bloccare automaticamente determinate azioni.
 
-
-
 Infine, anche il monitoraggio del consumo di banda è un buon indicatore di attività anomale. Se un dispositivo consuma improvvisamente molti dati senza un motivo apparente, ciò potrebbe rivelare un download non autorizzato, una fuga di dati o addirittura un dispositivo compromesso. Strumenti come ntopng o vnStat consentono di visualizzare i flussi in entrata e in uscita per dispositivo.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Backup e resilienza
 
-
 Anche con una rete perfettamente sicura, guasti hardware, errori di configurazione o eventi imprevisti (interruzione di corrente, sbalzo di tensione, guasto del disco Hard, ecc.) possono causare la perdita di dati o l'interruzione dei servizi. Per garantire la continuità del vostro ambiente digitale ed evitare di ripartire da zero in caso di problemi, è importante implementare una strategia di backup e resilienza.
-
 
 Iniziare a eseguire regolarmente il backup della configurazione delle apparecchiature di rete, in particolare del router. Spesso questi file di configurazione possono essere esportati tramite l'amministrazione del Interface. Conservarne una copia consente di ripristinare rapidamente un sistema funzionante in caso di reset o sostituzione del dispositivo. Si consiglia inoltre di criptare questo backup.
 
-
 Infine, per migliorare la resistenza della rete in caso di interruzione di corrente, investite in un gruppo di continuità. Questo dispositivo fornisce un'alimentazione di riserva per alcuni minuti in caso di interruzione di corrente, consentendo di continuare a utilizzare Internet o di garantire che i dispositivi critici (NAS, router, punto di accesso Wi-Fi, ecc.) si spengano senza problemi. Alcuni modelli possono anche inviare un comando di spegnimento automatico ai dispositivi collegati quando rilevano che la batteria è scarica.
-
 
 Seguendo questi pochi passaggi, potrete creare un ambiente di rete solido e sicuro che rispetta la vostra privacy.
 
-
 # Parte finale
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recensioni e valutazioni
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Esame finale
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusione
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

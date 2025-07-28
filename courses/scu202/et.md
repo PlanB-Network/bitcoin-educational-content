@@ -8605,34 +8605,24 @@ Need tööriistad toimivad nagu väike DNS-server teie võrgus, blokeerides taot
 
 ### Turvaline kaugjuurdepääs VPN-i kaudu
 
-
 Mõnel juhul on kasulik, et te saaksite oma koduvõrku kasutada ka siis, kui olete liikvel: Vaadake faile NAS-is, kasutage Bitcoin ja Lightning-sõlme, pääsete ligi iseteenindatavale serverile või hallake oma võrku. See kaugühendus peab aga olema turvaline.
-
 
 Esimene nõuanne on, et ärge kunagi avage oma marsruuteril otse porti, et pääseda ligi seadmele (nt RDP, SSH või FTP kaudu), sest see paljastab selle teenuse kogu internetile, mis kujutab endast haavatavust. Avatud porte sihtivad automaatsed rünnakud on arvukad.
 
-
 Lahenduseks soovitan kasutada VPN-i (*Virtuaalne privaatvõrk*), st krüpteeritud tunnelit teie kaugseadme (arvuti, nutitelefon jne) ja teie kohaliku võrgu vahel. Kui olete VPN-iga ühendatud, saate juurdepääsu oma kodu ressurssidele nii, nagu oleksite füüsiliselt seal, ja seda turvaliselt.
 
-
 Kaks peamist lahendust eraklientidele on järgmised:
-
-
 
 - WireGuard: Kaasaegne, kiire ja kerge
 - OpenVPN: Vanem, kuid väga küps ja konfigureeritav
 
-
 Siin on täielik õpetus Tailscale'i kohta, mis on kergesti konfigureeritav VPN-lahendus, mis kasutab WireGuardit:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Saate seda VPN-i kasutada otse ühilduvas ruuteris, väikeses arvutis (näiteks Raspberry Pi) või spetsiaalses serveris kodus. Samuti saate selle kliendina paigaldada otse mis tahes seadmesse.
 
-
 Kuid VPN ei ole ainult kaugjuurdepääsu jaoks. Võite kasutada oma seadmetes ka klassikalist VPN-klienti, et krüpteerida kogu oma väljaminev liiklus, isegi kui olete kodust eemal (avalik Wi-Fi, hotell, ülikool jne). Sellisel juhul ühendab teie seade end kolmanda osapoole VPN-serveriga (kommerts- või isehostitud), mis seejärel edastab teie ühendused internetti. See varjab teie tegeliku IP Address Interneti-teenuse pakkuja eest, kaitseb teie andmeid kohaliku luuramise eest ja väldib teatavat liiki tsensuuri.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Lõpuks on võimalik luua VPN ka otse ruuterisse, mis võimaldab teil kaitsta kõiki oma kodus olevaid seadmeid, ilma et peaksite paigaldama igale seadmele VPN-kliendi.
 
-
 ### Järelevalve ja tuvastamine
-
 
 Kui teie võrk on nõuetekohaselt konfigureeritud ja segmenteeritud, on oluline minna passiivsest turvalisusest kaugemale. Kohaliku võrgu aktiivne jälgimine võib tuvastada ebanormaalset käitumist, volitamata ühendusi või sissetungi märke. Eesmärk on tuvastada probleemid varakult, enne kui need tekitavad kahju.
 
-
 Esimene samm on turvaprotokollide tsentraliseerimine. Iga võrku ühendatud seade tekitab logisid, mis sisaldavad teavet ühenduste, vigade või kahtlase tegevuse kohta. Selle asemel, et neid logisid ükshaaval vaadata, soovitan saata need serverisse, mis suudab neid rühmitada, sorteerida ja analüüsida. Sellised lahendused nagu Graylog või Elastic Stack (ELK) võimaldavad teil koondada need logid graafiliseks Interface, kus saate otsida konkreetseid sündmusi, luua hoiatusi või visualiseerida võrguaktiivsust.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Järgmiseks kontrollige regulaarselt oma kohalikku võrku aktiivselt, näiteks Nmapiga. See annab teile ülevaate kõigist teie võrgus olevatest seadmetest ja nende avatud porte. Kui tuvastate tundmatu seadme või ebatavalise teenuse, võib see olla märk rünnakust.
 
-
-
 Kui soovite veelgi kaugemale minna, võite paigaldada IDS-i (*Intrusion Detection System*) või isegi IPS-i (*Intrusion Prevention System*). Need vahendid, näiteks Suricata või Snort, jälgivad võrguvooge reaalajas ja tuvastavad teadaolevate rünnakute signatuurid (pordi skaneerimine, süstimine, kahtlased ühendused jne). IDS hoiatab, samas kui IPS võib teatud tegevused automaatselt blokeerida.
 
-
-
 Lõpuks on ka ribalaiuse tarbimise jälgimine hea indikaator ebanormaalse tegevuse kohta. Kui seade tarbib järsku ilma nähtava põhjuseta palju andmeid, võib see reedada loata allalaadimist, andmete lekkimist või isegi ohustatud seadet. Sellised tööriistad nagu ntopng või vnStat võimaldavad vaadata sissetulevaid ja väljaminevaid voogusid seadme kaupa.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Varukoopia ja vastupidavus
 
-
 Isegi täiesti turvalise võrgu puhul võivad riistvararikked, konfiguratsioonivead või ettenägematud sündmused (elektrikatkestus, vooluhoog, Hard kettarike jne) põhjustada andmekaotust või katkestada teenuste osutamise. Et tagada teie digitaalse keskkonna järjepidevus ja vältida probleemide korral nullist alustamist, on oluline rakendada varundus- ja vastupidavusstrateegia.
-
 
 Alustage oma võrguseadmete, eriti ruuteri konfiguratsiooni regulaarsest varundamisest. Neid konfiguratsioonifaile saab sageli eksportida administratsiooni Interface kaudu. Koopia säilitamine võimaldab teil seadme lähtestamise või asendamise korral kiiresti taastada toimiva süsteemi. Samuti soovitan seda varukoopiat krüpteerida.
 
-
 Lõpuks, et parandada oma võrgu vastupidavust elektrikatkestuse korral, investeerige UPSi. See seade tagab elektrikatkestuse korral mõne minuti jooksul varutoite, mis võimaldab teil jätkata Interneti kasutamist või tagab, et kriitilised seadmed (NAS, ruuter, Wi-Fi juurdepääsupunkt jne) lülituvad puhtalt välja. Mõned mudelid võivad ka saata ühendatud seadmetele automaatse väljalülituskäsu, kui nad tuvastavad, et aku on tühi.
-
 
 Järgides neid mõningaid samme, saate luua tugeva ja turvalise võrgukeskkonna, mis austab teie privaatsust.
 
-
 # Viimane osa
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Arvamused ja hinnangud
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Kokkuvõte
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

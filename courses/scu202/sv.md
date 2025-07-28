@@ -8605,34 +8605,24 @@ De här verktygen fungerar som en liten DNS-server i ditt nätverk och blockerar
 
 ### Säker fjärråtkomst via VPN
 
-
 I vissa fall är det bra att kunna komma åt ditt hemnätverk när du är på resande fot: Konsultera filer på en NAS, använda en Bitcoin och Lightning-nod, komma åt en egen server eller administrera ditt nätverk. Den här fjärranslutningen måste dock vara säker.
-
 
 Det första tipset är att aldrig direkt öppna en port på din router för att komma åt en enhet (t.ex. via RDP, SSH eller FTP), eftersom detta exponerar den tjänsten för hela Internet, vilket utgör en sårbarhet. Automatiserade attacker som riktar sig mot öppna portar är många.
 
-
 Den lösning jag rekommenderar är att använda ett VPN (*Virtual Private Network*), dvs. en krypterad tunnel mellan din fjärrenhet (dator, smartphone etc.) och ditt lokala nätverk. När du är ansluten till VPN kan du få åtkomst till ditt hems resurser som om du vore fysiskt där, och på ett säkert sätt.
 
-
 De två huvudsakliga lösningarna för privatkunder är:
-
-
 
 - WireGuard: Modern, snabb och lättviktig
 - OpenVPN: Äldre, men mycket utvecklad och konfigurerbar
 
-
 Här är en komplett handledning om Tailscale, en VPN-lösning som är enkel att konfigurera och som använder WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Du kan hosta detta VPN direkt på en kompatibel router, på en liten dator (t.ex. en Raspberry Pi) eller på en dedikerad server hemma. Du kan också installera det som en klient direkt på vilken enhet som helst.
 
-
 Men ett VPN är inte bara för fjärråtkomst. Du kan också använda en klassisk VPN-klient på dina enheter för att kryptera all din utgående trafik, även när du är borta hemifrån (offentligt Wi-Fi, hotell, universitet etc.). I det här fallet ansluter din enhet till en VPN-server från tredje part (kommersiell eller självhostad), som sedan vidarebefordrar dina anslutningar till Internet. Detta döljer din riktiga IP Address från internetleverantören, skyddar dina data från lokalt spionage och undviker vissa former av censur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Slutligen är det också möjligt att konfigurera ett VPN direkt på din router, så att du kan skydda alla enheter i ditt hem utan att behöva installera en VPN-klient på var och en av dem.
 
-
 ### Övervakning och upptäckt
-
 
 När nätverket har konfigurerats och segmenterats på rätt sätt är det viktigt att gå längre än till passiv säkerhet. Aktiv övervakning av det lokala nätverket kan upptäcka onormalt beteende, obehöriga anslutningar eller tecken på intrång. Målet är att upptäcka problem tidigt, innan de orsakar skada.
 
-
 Det första steget är att centralisera säkerhetsloggar. Varje enhet som är ansluten till nätverket genererar loggar som innehåller information om anslutningar, fel eller misstänkt aktivitet. I stället för att konsultera dessa loggar individuellt rekommenderar jag att du skickar dem till en server som kan gruppera, sortera och analysera dem. Med lösningar som Graylog eller Elastic Stack (ELK) kan du samla dessa loggar i en grafisk Interface där du kan söka efter specifika händelser, skapa varningar eller visualisera nätverksaktivitet.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Utför sedan regelbundna aktiva skanningar av ditt lokala nätverk, till exempel med Nmap. Då får du en överblick över alla enheter i nätverket och vilka portar de har öppnat. Om du identifierar en okänd enhet eller en ovanlig tjänst kan det vara ett tecken på en attack.
 
-
-
 Om du vill gå ännu längre kan du installera ett IDS (*Intrusion Detection System*) eller till och med ett IPS (*Intrusion Prevention System*). Dessa verktyg, t.ex. Suricata eller Snort, övervakar nätverksflöden i realtid och upptäcker signaturer för kända attacker (portskanningar, injektioner, misstänkta anslutningar etc.). IDS varnar, medan IPS automatiskt kan blockera vissa åtgärder.
 
-
-
 Slutligen är övervakning av bandbreddsförbrukningen också en bra indikator på onormal aktivitet. Om en enhet plötsligt förbrukar mycket data utan någon uppenbar anledning kan detta tyda på en obehörig nedladdning, en dataläcka eller till och med en komprometterad enhet. Med verktyg som ntopng eller vnStat kan du visa inkommande och utgående flöden per enhet.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Backup och motståndskraft
 
-
 Även med ett perfekt säkrat nätverk kan hårdvarufel, konfigurationsfel eller oförutsedda händelser (strömavbrott, överspänning, Hard diskfel etc.) orsaka dataförlust eller avbrott i dina tjänster. För att garantera kontinuiteten i din digitala miljö och undvika att börja om från början i händelse av ett problem är det viktigt att implementera en strategi för säkerhetskopiering och motståndskraft.
-
 
 Börja med att regelbundet säkerhetskopiera konfigurationen av din nätverksutrustning, särskilt routern. Dessa konfigurationsfiler kan ofta exporteras via administrationen Interface. Genom att spara en kopia kan du snabbt återställa ett fungerande system i händelse av en återställning eller ett byte av enhet. Jag rekommenderar också att du krypterar den här säkerhetskopian.
 
-
 Slutligen, för att förbättra ditt nätverks motståndskraft vid strömavbrott, investera i en UPS. Den här enheten ger reservkraft under några minuter vid strömavbrott, så att du kan fortsätta använda Internet eller se till att kritiska enheter (NAS, router, Wi-Fi-åtkomstpunkt etc.) stängs av på ett snyggt sätt. Vissa modeller kan även skicka ett automatiskt avstängningskommando till anslutna enheter när de upptäcker att batterinivån är låg.
-
 
 Genom att följa dessa få steg bygger du upp en robust och säker nätverksmiljö som respekterar din integritet.
 
-
 # Sista delen
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recensioner & betyg
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Slutlig examination
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Slutsats
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

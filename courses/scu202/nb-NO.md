@@ -8605,34 +8605,24 @@ Disse verktøyene fungerer som en liten DNS-server i nettverket ditt, og blokker
 
 ### Sikker ekstern tilgang via VPN
 
-
 I noen tilfeller kan det være nyttig å ha tilgang til hjemmenettverket når du er på farten: Du kan konsultere filer på en NAS, bruke en Bitcoin og Lightning-node, få tilgang til en server du selv hoster, eller administrere nettverket. Denne eksterne tilkoblingen må imidlertid være sikker.
-
 
 Det første tipset er å aldri åpne en port på ruteren direkte for å få tilgang til en enhet (f.eks. via RDP, SSH eller FTP), da dette eksponerer den aktuelle tjenesten for hele Internett, noe som utgjør en sårbarhet. Det finnes mange automatiserte angrep rettet mot åpne porter.
 
-
 Løsningen jeg anbefaler er å bruke et VPN (*Virtual Private Network*), dvs. en kryptert tunnel mellom den eksterne enheten din (datamaskin, smarttelefon osv.) og det lokale nettverket ditt. Når du er koblet til VPN-et, kan du få tilgang til hjemmets ressurser som om du var der fysisk, og på en sikker måte.
 
-
 De to hovedløsningene for privatkunder er
-
-
 
 - WireGuard: Moderne, rask og lett
 - OpenVPN: Eldre, men svært modent og konfigurerbart
 
-
 Her er en komplett veiledning om Tailscale, en VPN-løsning som er enkel å konfigurere og som bruker WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Du kan være vert for dette VPN-et direkte på en kompatibel ruter, på en liten datamaskin (for eksempel en Raspberry Pi) eller på en dedikert server hjemme. Du kan også installere det som en klient direkte på en hvilken som helst enhet.
 
-
 Men et VPN er ikke bare for ekstern tilgang. Du kan også bruke en klassisk VPN-klient på enhetene dine for å kryptere all utgående trafikk, selv når du er borte fra hjemmet (offentlig Wi-Fi, hotell, universitet osv.). I dette tilfellet kobler enheten din til en tredjeparts VPN-server (kommersiell eller egenutviklet), som deretter videresender forbindelsene dine til Internett. Dette skjuler din virkelige IP Address fra Internett-leverandøren, beskytter dataene dine mot lokal spionasje og unngår visse former for sensur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Til slutt er det også mulig å sette opp et VPN direkte på ruteren din, slik at du kan beskytte alle enhetene i hjemmet uten å måtte installere en VPN-klient på hver av dem.
 
-
 ### Overvåking og deteksjon
-
 
 Når nettverket er riktig konfigurert og segmentert, er det viktig å gå lenger enn passiv sikkerhet. Aktiv overvåking av det lokale nettverket kan oppdage unormal atferd, uautoriserte tilkoblinger eller tegn på inntrenging. Målet er å oppdage problemer tidlig, før de forårsaker skade.
 
-
 Det første steget er å sentralisere sikkerhetsloggene. Alle enheter som er koblet til nettverket, genererer logger som inneholder informasjon om tilkoblinger, feil eller mistenkelig aktivitet. I stedet for å konsultere disse loggene hver for seg, anbefaler jeg å sende dem til en server som kan gruppere, sortere og analysere dem. Med løsninger som Graylog eller Elastic Stack (ELK) kan du samle disse loggene i en grafisk Interface der du kan søke etter spesifikke hendelser, opprette varsler eller visualisere nettverksaktivitet.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Deretter bør du utføre regelmessige aktive skanninger av det lokale nettverket, for eksempel med Nmap. Da får du oversikt over alle enhetene i nettverket og hvilke porter de har åpnet. Hvis du oppdager en ukjent enhet eller en uvanlig tjeneste, kan dette være tegn på et angrep.
 
-
-
 Hvis du vil gå enda lenger, kan du installere et IDS (*Intrusion Detection System*), eller til og med et IPS (*Intrusion Prevention System*). Disse verktøyene, for eksempel Suricata eller Snort, overvåker nettverksstrømmer i sanntid og oppdager signaturer på kjente angrep (portskanninger, injeksjoner, mistenkelige tilkoblinger osv.). IDS advarer, mens IPS automatisk kan blokkere visse handlinger.
 
-
-
 Til slutt er overvåking av båndbreddeforbruket også en god indikator på unormal aktivitet. Hvis en enhet plutselig bruker mye data uten noen åpenbar grunn, kan dette tyde på uautorisert nedlasting, datalekkasje eller til og med en kompromittert enhet. Med verktøy som ntopng eller vnStat kan du se innkommende og utgående datastrømmer per enhet.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sikkerhetskopiering og robusthet
 
-
 Selv med et perfekt sikret nettverk kan maskinvarefeil, konfigurasjonsfeil eller uforutsette hendelser (strømbrudd, overspenning, Hard-diskfeil osv.) føre til tap av data eller avbrudd i tjenestene dine. For å sikre kontinuiteten i det digitale miljøet og unngå å måtte starte helt fra bunnen av i tilfelle et problem oppstår, er det viktig å implementere en strategi for sikkerhetskopiering og robusthet.
-
 
 Begynn med å sikkerhetskopiere konfigurasjonen av nettverksutstyret regelmessig, spesielt ruteren. Disse konfigurasjonsfilene kan ofte eksporteres via administrasjonsverktøyet Interface. Ved å ta vare på en kopi kan du raskt gjenopprette et funksjonelt system i tilfelle en enhet tilbakestilles eller skiftes ut. Jeg anbefaler også å kryptere denne sikkerhetskopien.
 
-
 Til slutt kan du investere i en UPS for å forbedre nettverkets robusthet i tilfelle strømbrudd. Denne enheten gir reservestrøm i noen minutter i tilfelle strømbrudd, slik at du kan fortsette å bruke Internett eller sørge for at kritiske enheter (NAS, ruter, Wi-Fi-tilgangspunkt osv.) slås av uten problemer. Noen modeller kan også sende en automatisk nedstengningskommando til tilkoblede enheter når de oppdager at batterinivået er lavt.
-
 
 Ved å følge disse få trinnene kan du bygge et robust og sikkert nettverksmiljø som respekterer personvernet ditt.
 
-
 # Siste del
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Anmeldelser og rangeringer
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Konklusjon
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -8605,34 +8605,24 @@ Alat-alat ini bertindak seperti server DNS kecil di dalam jaringan Anda, memblok
 
 ### Akses jarak jauh yang aman melalui VPN
 
-
 Dalam beberapa kasus, akan sangat berguna untuk dapat mengakses jaringan rumah Anda ketika Anda sedang bepergian: Melihat file di NAS, menggunakan Bitcoin dan Lightning node, mengakses server yang dihosting sendiri, atau mengelola jaringan Anda. Namun, koneksi jarak jauh ini harus aman.
-
 
 Tips pertama adalah jangan pernah secara langsung membuka port pada router Anda untuk mengakses sebuah perangkat (misalnya melalui RDP, SSH atau FTP), karena hal ini akan mengekspos layanan tersebut ke seluruh Internet, yang merupakan sebuah kerentanan. Serangan otomatis yang menargetkan port yang terbuka sangat banyak.
 
-
 Solusi yang saya rekomendasikan adalah menggunakan VPN (*Virtual Private Network*), yaitu terowongan terenkripsi antara perangkat jarak jauh Anda (komputer, ponsel cerdas, dll.) dan jaringan lokal Anda. Setelah terhubung ke VPN, Anda dapat mengakses sumber daya rumah Anda seolah-olah Anda berada di sana secara fisik, dan dengan cara yang aman.
 
-
 Dua solusi utama untuk pelanggan pribadi adalah:
-
-
 
 - WireGuard: Modern, cepat dan ringan
 - OpenVPN: Lebih tua, tetapi sangat matang dan dapat dikonfigurasi
 
-
 Berikut ini tutorial lengkap tentang Tailscale, solusi VPN yang mudah dikonfigurasi yang menggunakan WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Anda bisa meng-host VPN ini secara langsung pada router yang kompatibel, pada komputer kecil (seperti Raspberry Pi) atau pada server khusus di rumah. Anda juga bisa menginstalnya sebagai klien secara langsung pada perangkat apa pun.
 
-
 Tetapi VPN tidak hanya untuk akses jarak jauh. Anda juga bisa menggunakan klien VPN klasik pada perangkat Anda untuk mengenkripsi semua lalu lintas keluar Anda, bahkan ketika Anda jauh dari rumah (Wi-Fi publik, hotel, universitas, dll.). Dalam hal ini, perangkat Anda tersambung ke server VPN pihak ketiga (komersial atau host sendiri), yang kemudian merelay koneksi Anda ke Internet. Hal ini menyembunyikan IP asli Anda Address dari ISP, melindungi data Anda dari mata-mata lokal dan menghindari bentuk-bentuk penyensoran tertentu.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Terakhir, Anda juga bisa menyiapkan VPN secara langsung pada router Anda, sehingga Anda bisa memproteksi semua perangkat di rumah Anda tanpa harus memasang klien VPN pada masing-masing perangkat.
 
-
 ### Pemantauan dan deteksi
-
 
 Setelah jaringan Anda dikonfigurasi dan disegmentasi dengan benar, penting untuk melampaui keamanan pasif. Pemantauan aktif jaringan lokal Anda dapat mendeteksi perilaku abnormal, koneksi tidak sah, atau tanda-tanda penyusupan. Tujuannya adalah untuk menemukan masalah lebih awal, sebelum menyebabkan kerusakan.
 
-
 Langkah pertama adalah memusatkan log keamanan. Setiap perangkat yang terhubung ke jaringan menghasilkan log yang berisi informasi tentang koneksi, kesalahan, atau aktivitas yang mencurigakan. Daripada melihat log ini satu per satu, saya sarankan untuk mengirimkannya ke server yang mampu mengelompokkan, menyortir, dan menganalisisnya. Solusi seperti Graylog atau Elastic Stack (ELK) memungkinkan Anda untuk menggabungkan log ini ke dalam Interface grafis di mana Anda dapat mencari peristiwa tertentu, membuat peringatan, atau memvisualisasikan aktivitas jaringan.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Selanjutnya, lakukan pemindaian aktif secara teratur pada jaringan lokal Anda, misalnya dengan Nmap. Ini akan memberi Anda gambaran umum tentang semua perangkat di jaringan Anda, dan port yang telah dibuka. Jika Anda mengidentifikasi perangkat yang tidak dikenal atau layanan yang tidak biasa, ini bisa menjadi tanda adanya serangan.
 
-
-
 Untuk melangkah lebih jauh lagi, Anda bisa memasang IDS (*Intrusion Detection System*), atau bahkan IPS (*Intrusion Prevention System*). Alat-alat ini, seperti Suricata atau Snort, memonitor aliran jaringan secara real time dan mendeteksi tanda tangan serangan yang diketahui (pemindaian port, injeksi, koneksi yang mencurigakan, dll.). IDS memberi peringatan, sedangkan IPS dapat secara otomatis memblokir tindakan tertentu.
 
-
-
 Terakhir, memantau konsumsi bandwidth juga merupakan indikator yang baik untuk mengetahui aktivitas yang tidak normal. Jika sebuah perangkat tiba-tiba mengonsumsi banyak data tanpa alasan yang jelas, ini bisa menjadi petunjuk adanya pengunduhan yang tidak sah, kebocoran data, atau bahkan perangkat yang disusupi. Alat-alat seperti ntopng atau vnStat memungkinkan Anda untuk melihat aliran masuk dan keluar berdasarkan perangkat.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Pencadangan dan ketahanan
 
-
 Bahkan dengan jaringan yang sangat aman, kegagalan perangkat keras, kesalahan konfigurasi, atau kejadian tak terduga (kegagalan daya, lonjakan daya, kegagalan disk Hard, dll.) dapat menyebabkan hilangnya data atau mengganggu layanan Anda. Untuk menjamin kelangsungan lingkungan digital Anda dan menghindari memulai dari awal jika terjadi masalah, penting untuk menerapkan strategi pencadangan dan ketahanan.
-
 
 Mulailah dengan mencadangkan konfigurasi peralatan jaringan Anda secara teratur, terutama router. File konfigurasi ini sering kali dapat diekspor melalui administrasi Interface. Menyimpan salinannya memungkinkan Anda untuk dengan cepat memulihkan sistem fungsional jika terjadi pengaturan ulang atau penggantian perangkat. Saya juga menyarankan untuk mengenkripsi cadangan ini.
 
-
 Terakhir, untuk meningkatkan ketahanan jaringan Anda jika terjadi kegagalan daya, berinvestasilah pada UPS. Perangkat ini menyediakan daya cadangan selama beberapa menit jika terjadi kegagalan daya, sehingga Anda dapat terus menggunakan Internet atau memastikan bahwa perangkat penting (NAS, router, titik akses Wi-Fi, dll.) mati dengan bersih. Beberapa model juga dapat mengirimkan perintah pematian otomatis ke perangkat yang tersambung apabila mendeteksi baterai hampir habis.
-
 
 Dengan mengikuti beberapa langkah berikut ini, Anda akan membangun lingkungan jaringan yang kuat dan aman yang menghormati privasi Anda.
 
-
 # Bagian akhir
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Ulasan & Peringkat
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Ujian akhir
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Kesimpulan
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

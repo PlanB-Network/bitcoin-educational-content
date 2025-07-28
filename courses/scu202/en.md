@@ -6318,11 +6318,11 @@ Once your network has been properly configured and segmented, it's important to 
 
 The first step is to centralize security logs. Every device connected to the network generates logs containing information on connections, errors or suspicious activity. Rather than consulting these logs individually, I recommend sending them to a server capable of grouping, sorting and analyzing them. Solutions such as Graylog or Elastic Stack (ELK) allow you to aggregate these logs into a graphical interface where you can search for specific events, create alerts or visualize network activity.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+
 Next, carry out regular active scans of your local network, for example with Nmap. This will give you an overview of all the devices on your network, and the ports they have opened. If you identify an unknown device or an unusual service, this could be the sign of an attack.
 
-
 To go even further, you can install an IDS (*Intrusion Detection System*), or even an IPS (*Intrusion Prevention System*). These tools, such as Suricata or Snort, monitor network flows in real time and detect signatures of known attacks (port scans, injections, suspicious connections, etc.). The IDS warns, while the IPS can automatically block certain actions.
-
 
 Finally, monitoring bandwidth consumption is also a good indicator of abnormal activity. If a device suddenly consumes a lot of data for no apparent reason, this may betray an unauthorized download, a data leak, or even a compromised device. Tools such as ntopng or vnStat enable you to view incoming and outgoing flows by device.
 

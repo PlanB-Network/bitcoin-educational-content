@@ -8605,34 +8605,24 @@ Zana hizi hufanya kama seva ndogo ya DNS ndani ya mtandao wako, ikizuia maombi k
 
 ### Salama ufikiaji wa mbali kupitia VPN
 
-
 Katika baadhi ya matukio, ni muhimu kuwa na uwezo wa kufikia mtandao wako wa nyumbani wakati uko kwenye harakati: Rejelea faili kwenye NAS, tumia nodi ya Bitcoin na Umeme, fikia seva inayojipangisha yenyewe, au simamia mtandao wako. Hata hivyo, muunganisho huu wa mbali lazima uwe salama.
-
 
 Kidokezo cha kwanza ni kutowahi kufungua mlango wa moja kwa moja kwenye kipanga njia chako ili kufikia kifaa (k.m. kupitia RDP, SSH au FTP), kwa kuwa hii inafichua huduma hiyo kwenye Mtandao mzima, ambayo ni hatari. Mashambulizi ya kiotomatiki yanayolenga bandari zilizo wazi ni mengi.
 
-
 Suluhisho ninalopendekeza ni kutumia VPN (*Virtual Private Network*), yaani, njia iliyosimbwa kwa njia fiche kati ya kifaa chako cha mbali (kompyuta, simu mahiri, n.k.) na mtandao wako wa karibu. Baada ya kuunganishwa kwenye VPN, unaweza kufikia rasilimali za nyumba yako kana kwamba uko hapo kimwili, na kwa njia salama.
 
-
 Suluhisho kuu mbili kwa wateja wa kibinafsi ni:
-
-
 
 - WireGuard: Kisasa, haraka na nyepesi
 - OpenVPN: Kongwe, lakini imekomaa sana na inaweza kusanidiwa
 
-
 Hapa kuna mafunzo kamili juu ya Tailscale, suluhisho la VPN ambalo ni rahisi kusanidi linalotumia WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Unaweza kupangisha VPN hii moja kwa moja kwenye kipanga njia kinachooana, kwenye kompyuta ndogo (kama vile Raspberry Pi) au kwenye seva maalum nyumbani. Unaweza pia kusakinisha kama mteja moja kwa moja kwenye kifaa chochote.
 
-
 Lakini VPN sio tu kwa ufikiaji wa mbali. Unaweza pia kutumia mteja wa kawaida wa VPN kwenye vifaa vyako kusimba kwa njia fiche trafiki yako yote unayotuma, hata ukiwa mbali na nyumbani (Wi-Fi ya umma, hoteli, chuo kikuu, n.k.). Katika hali hii, kifaa chako huunganishwa na seva ya VPN ya mtu wa tatu (ya kibiashara au inayojisimamia), ambayo kisha hutuma miunganisho yako kwenye Mtandao. Hii huficha IP yako halisi ya Address kutoka kwa ISP, hulinda data yako dhidi ya upelelezi wa ndani na kuepuka aina fulani za udhibiti.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Hatimaye, inawezekana pia kusanidi VPN moja kwa moja kwenye kipanga njia chako, kinachokuruhusu kulinda vifaa vyote nyumbani kwako bila kulazimika kusakinisha mteja wa VPN kwenye kila moja.
 
-
 ### Ufuatiliaji na utambuzi
-
 
 Baada ya mtandao wako kusanidiwa vizuri na kugawanywa, ni muhimu kwenda zaidi ya usalama wa hali ya juu. Ufuatiliaji hai wa mtandao wako wa karibu unaweza kugundua tabia isiyo ya kawaida, miunganisho isiyoidhinishwa au ishara za kuingilia. Lengo ni kugundua matatizo mapema, kabla hayajaleta madhara.
 
-
 Hatua ya kwanza ni kuweka kumbukumbu za usalama kati. Kila kifaa kilichounganishwa kwenye mtandao hutengeneza kumbukumbu zilizo na taarifa kuhusu miunganisho, hitilafu au shughuli za kutiliwa shaka. Badala ya kushauriana na kumbukumbu hizi kibinafsi, ninapendekeza kuzituma kwa seva inayoweza kuzipanga, kuzipanga na kuzichanganua. Suluhisho kama vile Graylog au Elastic Stack (ELK) hukuruhusu kujumlisha kumbukumbu hizi kwenye Interface ya picha ambapo unaweza kutafuta matukio mahususi, kuunda arifa au kuibua shughuli za mtandao.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Kisha, chunguza mtandao wako wa karibu mara kwa mara, kwa mfano na Nmap. Hii itakupa muhtasari wa vifaa vyote kwenye mtandao wako, na bandari ambazo wamefungua. Ukitambua kifaa kisichojulikana au huduma isiyo ya kawaida, hii inaweza kuwa ishara ya shambulio.
 
-
-
 Ili kwenda mbali zaidi, unaweza kusakinisha IDS (*Mfumo wa Kugundua Uvamizi*), au hata IPS (*Mfumo wa Kuzuia Kuingilia*). Zana hizi, kama vile Suricata au Snort, hufuatilia mtiririko wa mtandao kwa wakati halisi na kugundua saini za mashambulizi yanayojulikana (skana za bandari, sindano, miunganisho ya kutiliwa shaka n.k.). IDS inaonya, wakati IPS inaweza kuzuia vitendo fulani kiotomatiki.
 
-
-
 Hatimaye, ufuatiliaji wa matumizi ya bandwidth pia ni kiashiria kizuri cha shughuli isiyo ya kawaida. Ikiwa kifaa kinatumia data nyingi ghafla bila sababu dhahiri, hii inaweza kusaliti upakuaji usioidhinishwa, uvujaji wa data, au hata kifaa kilichoathiriwa. Zana kama vile ntopng au vnStat hukuwezesha kutazama mtiririko unaoingia na kutoka kwa kifaa.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Hifadhi nakala na uthabiti
 
-
 Hata kwa mtandao salama kabisa, hitilafu za maunzi, hitilafu za usanidi au matukio yasiyotarajiwa (kushindwa kwa nguvu, kuongezeka kwa nguvu, kushindwa kwa disk ya Hard, nk) kunaweza kusababisha kupoteza data au kukatiza huduma zako. Ili kuhakikisha uendelevu wa mazingira yako ya kidijitali na kuepuka kuanza kutoka mwanzo kukitokea tatizo, ni muhimu kutekeleza mkakati wa kuhifadhi nakala na ustahimilivu.
-
 
 Anza kwa kuunga mkono mara kwa mara usanidi wa vifaa vya mtandao wako, hasa router. Faili hizi za usanidi mara nyingi zinaweza kusafirishwa kupitia usimamizi wa Interface. Kuweka nakala hukuruhusu kurejesha haraka mfumo wa kufanya kazi katika tukio la kuweka upya kifaa au uingizwaji. Ninapendekeza pia kusimba nakala hii kwa njia fiche.
 
-
 Hatimaye, ili kuboresha uthabiti wa mtandao wako iwapo nishati itakatika, wekeza kwenye UPS. Kifaa hiki hutoa nishati ya chelezo kwa dakika chache iwapo nguvu ya umeme itakatika, huku kuruhusu kuendelea kutumia Intaneti au kuhakikisha kuwa vifaa muhimu (NAS, kipanga njia, kituo cha kufikia Wi-Fi, n.k.) huzima kwa njia safi. Baadhi ya miundo pia inaweza kutuma amri ya kuzima kiotomatiki kwa vifaa vilivyounganishwa wanapotambua kuwa chaji ya betri iko chini.
-
 
 Kwa kufuata hatua hizi chache, utaunda mazingira thabiti na salama ya mtandao ambayo yanaheshimu faragha yako.
 
-
 # Sehemu ya mwisho
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Ukaguzi na Ukadiriaji
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Uchunguzi wa mwisho
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Hitimisho
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

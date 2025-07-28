@@ -8605,34 +8605,24 @@ Ovi alati deluju kao mali DNS server unutar vaše mreže, blokirajući zahteve k
 
 ### Siguran daljinski pristup putem VPN-a
 
-
 U nekim slučajevima, korisno je imati pristup kućnoj mreži kada ste u pokretu: Konsultovati fajlove na NAS-u, koristiti Bitcoin i Lightning čvor, pristupiti serveru koji sami hostujete ili administrirati vašu mrežu. Međutim, ova udaljena veza mora biti sigurna.
-
 
 Prvi savet je da nikada direktno ne otvorite port na vašem ruteru za pristup uređaju (npr. putem RDP, SSH ili FTP), jer to izlaže tu uslugu celom Internetu, što predstavlja ranjivost. Automatizovani napadi koji ciljaju otvorene portove su brojni.
 
-
 Rešenje koje preporučujem je korišćenje VPN-a (*Virtual Private Network*), tj. enkriptovanog tunela između vašeg udaljenog uređaja (računara, pametnog telefona, itd.) i vaše lokalne mreže. Kada se povežete na VPN, možete pristupiti resursima vašeg doma kao da ste fizički tamo, i to na siguran način.
 
-
 Dva glavna rešenja za privatne korisnike su:
-
-
 
 - WireGuard: Moderan, brz i lagan
 - OpenVPN: Stariji, ali veoma zreo i podesiv
 
-
 Evo kompletan vodič o Tailscale-u, jednostavnom VPN rešenju za konfiguraciju koje koristi WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Možete hostovati ovaj VPN direktno na kompatibilnom ruteru, na malom računaru (kao što je Raspberry Pi) ili na namenskom serveru kod kuće. Takođe ga možete instalirati kao klijent direktno na bilo koji uređaj.
 
-
 Ali VPN nije samo za daljinski pristup. Možete koristiti i klasični VPN klijent na svojim uređajima da šifrujete sav svoj odlazni saobraćaj, čak i kada ste van kuće (javni Wi-Fi, hotel, univerzitet, itd.). U ovom slučaju, vaš uređaj se povezuje na treću VPN server (komercijalni ili samostalno hostovan), koji zatim prenosi vaše veze na Internet. Ovo skriva vaš pravi IP Address od ISP-a, štiti vaše podatke od lokalnog špijuniranja i izbegava određene oblike cenzure.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Konačno, moguće je postaviti VPN direktno na vašem ruteru, omogućavajući vam da zaštitite sve uređaje u vašem domu bez potrebe za instaliranjem VPN klijenta na svaki od njih.
 
-
 ### Praćenje i detekcija
-
 
 Kada vaša mreža bude pravilno konfigurisana i segmentirana, važno je ići dalje od pasivne sigurnosti. Aktivno praćenje vaše lokalne mreže može otkriti abnormalno ponašanje, neovlašćene veze ili znakove upada. Cilj je uočiti probleme rano, pre nego što prouzrokuju štetu.
 
-
 Prvi korak je centralizacija sigurnosnih logova. Svaki uređaj povezan na mrežu generiše logove koji sadrže informacije o konekcijama, greškama ili sumnjivim aktivnostima. Umesto da se ovi logovi pregledaju pojedinačno, preporučujem da ih pošaljete na server koji je sposoban da ih grupiše, sortira i analizira. Rešenja kao što su Graylog ili Elastic Stack (ELK) omogućavaju vam da agregirate ove logove u grafički Interface gde možete pretraživati specifične događaje, kreirati upozorenja ili vizualizovati mrežnu aktivnost.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Zatim, redovno vršite aktivno skeniranje vaše lokalne mreže, na primer sa Nmap-om. Ovo će vam dati pregled svih uređaja na vašoj mreži i portova koje su otvorili. Ako identifikujete nepoznat uređaj ili neobičnu uslugu, to bi mogao biti znak napada.
 
-
-
 Da biste otišli još dalje, možete instalirati IDS (*Intrusion Detection System*), ili čak IPS (*Intrusion Prevention System*). Ovi alati, kao što su Suricata ili Snort, nadgledaju mrežne tokove u realnom vremenu i detektuju potpise poznatih napada (skeniranje portova, injekcije, sumnjive veze, itd.). IDS upozorava, dok IPS može automatski blokirati određene akcije.
 
-
-
 Konačno, praćenje potrošnje propusnog opsega je takođe dobar pokazatelj abnormalne aktivnosti. Ako uređaj iznenada troši mnogo podataka bez očiglednog razloga, to može ukazivati na neovlašćeno preuzimanje, curenje podataka ili čak kompromitovan uređaj. Alati kao što su ntopng ili vnStat omogućavaju vam da vidite dolazne i odlazne tokove po uređaju.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Bekap i otpornost
 
-
 Čak i uz savršeno sigurnu mrežu, kvarovi hardvera, greške u konfiguraciji ili nepredviđeni događaji (nestanak struje, prenapon, kvar diska Hard, itd.) mogu uzrokovati gubitak podataka ili prekid vaših usluga. Da biste garantovali kontinuitet vašeg digitalnog okruženja i izbegli početak od nule u slučaju problema, važno je implementirati strategiju bekapa i otpornosti.
-
 
 Počnite redovno praviti rezervne kopije konfiguracije vaše mrežne opreme, posebno rutera. Ove konfiguracione datoteke često se mogu izvesti putem administracije Interface. Čuvanje kopije omogućava vam brzo vraćanje funkcionalnog sistema u slučaju resetovanja ili zamene uređaja. Takođe preporučujem šifrovanje ove rezervne kopije.
 
-
 Konačno, da biste poboljšali otpornost vaše mreže u slučaju nestanka struje, investirajte u UPS. Ovaj uređaj obezbeđuje rezervno napajanje na nekoliko minuta u slučaju nestanka struje, omogućavajući vam da nastavite sa korišćenjem Interneta ili osiguravajući da se kritični uređaji (NAS, ruter, Wi-Fi pristupna tačka, itd.) isključe na pravilan način. Neki modeli takođe mogu poslati automatsku komandu za isključivanje povezanim uređajima kada otkriju da je baterija pri kraju.
-
 
 Prateći ovih nekoliko koraka, izgradićete robustno, sigurno mrežno okruženje koje poštuje vašu privatnost.
 
-
 # Završni deo
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recenzije i Ocene
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Završni ispit
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Zaključak
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

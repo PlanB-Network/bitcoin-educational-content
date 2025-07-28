@@ -8605,34 +8605,24 @@ Nämä työkalut toimivat kuin pieni DNS-palvelin verkossasi ja estävät pyynn�
 
 ### Turvallinen etäyhteys VPN:n kautta
 
-
 Joissakin tapauksissa on hyödyllistä, että voit käyttää kotiverkkoasi, kun olet liikkeellä: Tutustu NAS:n tiedostoihin, käytä Bitcoin:tä ja Lightning-solmua, käytä itse isännöimääsi palvelinta tai hallinnoi verkkoasi. Etäyhteyden on kuitenkin oltava turvallinen.
-
 
 Ensimmäinen vinkki on, että älä koskaan avaa suoraan reitittimen porttia, jotta pääset laitteeseen käsiksi (esimerkiksi RDP:n, SSH:n tai FTP:n kautta), sillä tämä altistaa palvelun koko Internetille, mikä on haavoittuvuus. Avoimiin portteihin kohdistuvia automatisoituja hyökkäyksiä on lukuisia.
 
-
 Suosittelemani ratkaisu on käyttää VPN:ää (*Virtual Private Network*) eli salattua tunnelia etälaitteesi (tietokone, älypuhelin jne.) ja lähiverkkosi välillä. Kun olet yhdistetty VPN:ään, voit käyttää kotisi resursseja ikään kuin olisit fyysisesti siellä, ja vieläpä turvallisella tavalla.
 
-
 Yksityisasiakkaille tarkoitetut kaksi tärkeintä ratkaisua ovat:
-
-
 
 - WireGuard: Moderni, nopea ja kevyt
 - OpenVPN: Vanhempi, mutta erittäin kypsä ja konfiguroitavissa
 
-
 Tässä on täydellinen opas Tailscalen, WireGuardia käyttävän helposti konfiguroitavan VPN-ratkaisun, käyttöönotosta:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Voit isännöidä tätä VPN:ää suoraan yhteensopivalla reitittimellä, pienellä tietokoneella (kuten Raspberry Pi) tai erillisellä palvelimella kotona. Voit myös asentaa sen asiakkaana suoraan mihin tahansa laitteeseen.
 
-
 VPN ei kuitenkaan ole vain etäkäyttöä varten. Voit myös käyttää klassista VPN-asiakasta laitteissasi salaamaan kaiken lähtevän tietoliikenteesi, vaikka olisit poissa kotoa (julkinen Wi-Fi, hotelli, yliopisto jne.). Tässä tapauksessa laitteesi muodostaa yhteyden kolmannen osapuolen VPN-palvelimeen (kaupalliseen tai itse isännöimäänsä), joka välittää yhteytesi Internetiin. Tämä piilottaa todellisen IP-osoitteesi Address Internet-palveluntarjoajalta, suojaa tietojasi paikalliselta vakoilulta ja välttää tietyt sensuurin muodot.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 VPN on myös mahdollista asentaa suoraan reitittimeen, jolloin voit suojata kaikki kodin laitteet ilman, että sinun tarvitsee asentaa VPN-asiakasohjelma jokaiseen laitteeseen.
 
-
 ### Seuranta ja havaitseminen
-
 
 Kun verkko on konfiguroitu ja segmentoitu oikein, on tärkeää mennä passiivisen turvallisuuden ohi. Paikallisverkon aktiivisella valvonnalla voidaan havaita epänormaali käyttäytyminen, luvattomat yhteydet tai merkit tunkeutumisesta. Tavoitteena on havaita ongelmat ajoissa, ennen kuin ne aiheuttavat vahinkoa.
 
-
 Ensimmäinen askel on keskittää turvallisuuslokit. Jokainen verkkoon liitetty laite tuottaa lokitietoja, jotka sisältävät tietoja yhteyksistä, virheistä tai epäilyttävästä toiminnasta. Sen sijaan, että näitä lokeja tarkasteltaisiin yksitellen, suosittelen niiden lähettämistä palvelimelle, joka pystyy ryhmittelemään, lajittelemaan ja analysoimaan ne. Graylogin tai Elastic Stackin (ELK) kaltaisten ratkaisujen avulla voit koota nämä lokit graafiseksi Interface:ksi, josta voit etsiä tiettyjä tapahtumia, luoda hälytyksiä tai visualisoida verkon toimintaa.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Suorita seuraavaksi säännöllisiä aktiivisia skannauksia lähiverkossasi esimerkiksi Nmapin avulla. Näin saat yleiskuvan kaikista verkon laitteista ja niiden avaamista porteista. Jos tunnistat tuntemattoman laitteen tai epätavallisen palvelun, se voi olla merkki hyökkäyksestä.
 
-
-
 Jos haluat mennä vielä pidemmälle, voit asentaa IDS:n (*Murtohälytysjärjestelmä*) tai jopa IPS:n (*Murtojen estojärjestelmä*). Nämä työkalut, kuten Suricata tai Snort, valvovat verkkovirtoja reaaliajassa ja havaitsevat tunnettujen hyökkäysten merkit (porttiskannaukset, injektiot, epäilyttävät yhteydet jne.). IDS varoittaa, kun taas IPS voi automaattisesti estää tietyt toimet.
 
-
-
 Kaistanleveyden kulutuksen seuranta on myös hyvä indikaattori epänormaalista toiminnasta. Jos laite kuluttaa yhtäkkiä paljon dataa ilman näkyvää syytä, tämä voi paljastaa luvattoman latauksen, tietovuodon tai jopa vaarantuneen laitteen. Työkalujen, kuten ntopng tai vnStat, avulla voit tarkastella saapuvia ja lähteviä virtoja laitteittain.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Varmuuskopiointi ja häiriönsietokyky
 
-
 Vaikka verkko olisi täysin suojattu, laitteistoviat, konfigurointivirheet tai odottamattomat tapahtumat (sähkökatkos, virtapiikki, Hard-levyn vikaantuminen jne.) voivat aiheuttaa tietojen häviämistä tai keskeyttää palvelut. Varmistaaksesi digitaalisen ympäristösi jatkuvuuden ja välttyäksesi aloittamasta ongelman sattuessa tyhjästä, on tärkeää ottaa käyttöön varmuuskopiointi- ja häiriönsietostrategia.
-
 
 Aloita varmuuskopioimalla säännöllisesti verkkolaitteiden, erityisesti reitittimen, kokoonpanot. Nämä konfiguraatiotiedostot voidaan usein viedä Interface:n hallinnon kautta. Säilyttämällä kopion voit nopeasti palauttaa toimivan järjestelmän, jos laite nollataan tai vaihdetaan. Suosittelen myös tämän varmuuskopion salaamista.
 
-
 Jos haluat parantaa verkon häiriönsietokykyä sähkökatkoksen sattuessa, investoi UPS-laitteeseen. Tämä laite tarjoaa varavirtaa muutaman minuutin ajan sähkökatkoksen sattuessa, jolloin voit jatkaa Internetin käyttöä tai varmistaa, että kriittiset laitteet (NAS, reititin, Wi-Fi-yhteyspiste jne.) sammuvat siististi. Jotkin mallit voivat myös lähettää automaattisen sammutuskomennon liitetyille laitteille, kun ne havaitsevat, että akun varaus on vähissä.
-
 
 Seuraamalla näitä muutamia ohjeita voit rakentaa vankan ja turvallisen verkkoympäristön, joka kunnioittaa yksityisyyttäsi.
 
-
 # Viimeinen osa
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Arvostelut & arvostelut
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Päätelmä
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

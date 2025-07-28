@@ -8605,34 +8605,24 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 
 ### 通过 VPN 实现安全的远程访问
 
-
 在某些情况下，移动时访问家庭网络非常有用：查看 NAS 上的文件、使用 Bitcoin 和 Lightning 节点、访问自托管服务器或管理网络。不过，这种远程连接必须安全。
-
 
 第一个建议是，永远不要直接打开路由器上的端口来访问设备（如通过 RDP、SSH 或 FTP），因为这样会将该服务暴露给整个互联网，从而构成漏洞。针对开放端口的自动攻击不胜枚举。
 
-
 我推荐的解决方案是使用 VPN（*虚拟专用网络*），即在远程设备（电脑、智能手机等）和本地网络之间建立加密隧道。连接到 VPN 后，您就可以访问家里的资源，就像您在家里一样安全。
 
-
 针对私人客户的两种主要解决方案是
-
-
 
 - WireGuard：现代、快速、轻便
 - OpenVPN：较老，但非常成熟且可配置
 
-
 下面是 Tailscale 的完整教程，这是一个使用 WireGuard 的易于配置的 VPN 解决方案：
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 您可以直接在兼容路由器、小型计算机（如 Raspberry Pi）或家中的专用服务器上托管此 VPN。你也可以将它作为客户端直接安装在任何设备上。
 
-
 但是，VPN 并不仅仅用于远程访问。你也可以在设备上使用传统的 VPN 客户端来加密你的所有外向流量，即使你不在家（公共 Wi-Fi、酒店、大学等）也是如此。在这种情况下，你的设备会连接到第三方 VPN 服务器（商业或自托管），然后由它将你的连接转发到互联网。这样就可以向互联网服务提供商隐藏你的真实 IP Address，保护你的数据不被本地间谍窃取，并避免某些形式的审查。
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 最后，还可以直接在路由器上设置 VPN，这样就可以保护家中的所有设备，而无需在每台设备上安装 VPN 客户端。
 
-
 ### 监测和检测
-
 
 一旦网络配置和分段正确，就必须超越被动安全。主动监控本地网络可以发现异常行为、未经授权的连接或入侵迹象。这样做的目的是及早发现问题，以免造成损失。
 
-
 第一步是集中管理安全日志。每个连接到网络的设备都会生成日志，其中包含有关连接、错误或可疑活动的信息。我建议不要单独查阅这些日志，而是将它们发送到能够对其进行分组、分类和分析的服务器上。通过 Graylog 或 Elastic Stack (ELK) 等解决方案，您可以将这些日志汇总到一个图形化的 Interface，在其中搜索特定事件、创建警报或可视化网络活动。
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 接下来，定期对本地网络进行主动扫描，例如使用 Nmap。这将使您对网络上的所有设备及其打开的端口有一个总体了解。如果发现未知设备或异常服务，这可能就是攻击的迹象。
 
-
-
 更进一步，您可以安装 IDS（*入侵检测系统*），甚至 IPS（*入侵防御系统*）。这些工具（如 Suricata 或 Snort）可实时监控网络流，并检测已知攻击的特征（端口扫描、注入、可疑连接等）。IDS 发出警告，而 IPS 可以自动阻止某些行为。
 
-
-
 最后，监控带宽消耗也是异常活动的良好指标。如果一台设备突然无缘无故消耗大量数据，这可能意味着未经授权的下载、数据泄露，甚至是设备被入侵。通过 ntopng 或 vnStat 等工具，您可以按设备查看进出流量。
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### 备份和恢复能力
 
-
 即使网络非常安全，硬件故障、配置错误或意外事件（断电、电涌、Hard 磁盘故障等）也可能导致数据丢失或服务中断。为了保证数字环境的连续性，避免在出现问题时从头开始，实施备份和恢复策略非常重要。
-
 
 首先要定期备份网络设备的配置，尤其是路由器。这些配置文件通常可以通过管理 Interface 导出。保留一份副本可以在重置或更换设备时快速恢复系统功能。我还建议对该备份进行加密。
 
-
 最后，为了提高网络在断电情况下的恢复能力，请投资购买 UPS。这种设备可在断电时提供几分钟的备用电源，让您可以继续使用互联网，或确保关键设备（NAS、路由器、Wi-Fi 接入点等）干净利落地关闭。某些型号还能在检测到电池电量不足时向连接的设备发送自动关机命令。
-
 
 通过以下几个步骤，您就可以建立一个强大、安全且尊重您隐私的网络环境。
 
-
 # 最后部分
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## 评论与评级
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## 结论
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

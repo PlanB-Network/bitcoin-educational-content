@@ -8605,34 +8605,24 @@ Estas ferramentas funcionam como um pequeno servidor DNS dentro da sua rede, blo
 
 ### Acesso remoto seguro através de VPN
 
-
 Em alguns casos, é útil poder aceder à sua rede doméstica quando está em viagem: Consultar ficheiros num NAS, utilizar um nó Bitcoin e Lightning, aceder a um servidor auto-hospedado ou administrar a sua rede. No entanto, essa conexão remota deve ser segura.
-
 
 A primeira dica é nunca abrir diretamente uma porta no seu router para aceder a um dispositivo (por exemplo, através de RDP, SSH ou FTP), uma vez que isso expõe esse serviço a toda a Internet, o que constitui uma vulnerabilidade. Os ataques automatizados que visam portas abertas são numerosos.
 
-
 A solução que recomendo é a utilização de uma VPN (*Virtual Private Network*), ou seja, um túnel encriptado entre o seu dispositivo remoto (computador, smartphone, etc.) e a sua rede local. Uma vez ligado à VPN, pode aceder aos recursos da sua casa como se estivesse fisicamente lá, e de forma segura.
 
-
 As duas principais soluções para os clientes privados são:
-
-
 
 - WireGuard: Moderno, rápido e leve
 - OpenVPN: Mais antigo, mas muito maduro e configurável
 
-
 Aqui está um tutorial completo sobre o Tailscale, uma solução VPN fácil de configurar que utiliza o WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Pode alojar esta VPN diretamente num router compatível, num pequeno computador (como um Raspberry Pi) ou num servidor dedicado em casa. Também pode instalá-la como cliente diretamente em qualquer dispositivo.
 
-
 Mas uma VPN não serve apenas para o acesso remoto. Também pode utilizar um cliente VPN clássico nos seus dispositivos para encriptar todo o seu tráfego de saída, mesmo quando está fora de casa (Wi-Fi público, hotel, universidade, etc.). Neste caso, o seu dispositivo liga-se a um servidor VPN de terceiros (comercial ou auto-hospedado), que depois retransmite as suas ligações à Internet. Deste modo, esconde o seu verdadeiro IP Address do ISP, protege os seus dados da espionagem local e evita certas formas de censura.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Por último, também é possível configurar uma VPN diretamente no seu router, o que lhe permite proteger todos os dispositivos da sua casa sem ter de instalar um cliente VPN em cada um deles.
 
-
 ### Monitorização e deteção
-
 
 Uma vez que sua rede tenha sido configurada e segmentada corretamente, é importante ir além da segurança passiva. A monitorização ativa da sua rede local pode detetar comportamentos anormais, ligações não autorizadas ou sinais de intrusão. O objetivo é detetar problemas atempadamente, antes que causem danos.
 
-
 O primeiro passo é centralizar os registos de segurança. Todos os dispositivos ligados à rede geram registos que contêm informações sobre ligações, erros ou actividades suspeitas. Em vez de consultar estes registos individualmente, recomendo que os envie para um servidor capaz de os agrupar, ordenar e analisar. Soluções como o Graylog ou o Elastic Stack (ELK) permitem agregar estes registos num Interface gráfico onde é possível procurar eventos específicos, criar alertas ou visualizar a atividade da rede.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Em seguida, faça análises activas regulares da sua rede local, por exemplo, com o Nmap. Isto dar-lhe-á uma visão geral de todos os dispositivos na sua rede e das portas que abriram. Se identificar um dispositivo desconhecido ou um serviço invulgar, isso pode ser sinal de um ataque.
 
-
-
 Para ir ainda mais longe, pode instalar um IDS (*Intrusion Detection System*), ou mesmo um IPS (*Intrusion Prevention System*). Estas ferramentas, como o Suricata ou o Snort, monitorizam os fluxos de rede em tempo real e detectam assinaturas de ataques conhecidos (varreduras de portas, injecções, ligações suspeitas, etc.). O IDS avisa, enquanto o IPS pode bloquear automaticamente determinadas acções.
 
-
-
 Finalmente, a monitorização do consumo de largura de banda é também um bom indicador de atividade anormal. Se um dispositivo consumir repentinamente muitos dados sem motivo aparente, isso pode denunciar um download não autorizado, um vazamento de dados ou até mesmo um dispositivo comprometido. Ferramentas como o ntopng ou o vnStat permitem-lhe ver os fluxos de entrada e saída por dispositivo.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Cópia de segurança e resiliência
 
-
 Mesmo com uma rede perfeitamente segura, as falhas de hardware, os erros de configuração ou os imprevistos (falha de energia, picos de corrente, falha do disco Hard, etc.) podem causar a perda de dados ou interromper os seus serviços. Para garantir a continuidade do seu ambiente digital e evitar começar do zero em caso de problema, é importante implementar uma estratégia de backup e resiliência.
-
 
 Comece por fazer regularmente cópias de segurança da configuração do seu equipamento de rede, especialmente do router. Estes ficheiros de configuração podem muitas vezes ser exportados através do Interface de administração. Manter uma cópia permite-lhe restaurar rapidamente um sistema funcional em caso de reinicialização ou substituição de um dispositivo. Recomendo também que esta cópia de segurança seja encriptada.
 
-
 Por fim, para melhorar a resistência da sua rede em caso de falha de energia, invista numa UPS. Este dispositivo fornece energia de reserva durante alguns minutos em caso de falha de energia, permitindo-lhe continuar a utilizar a Internet ou assegurando que os dispositivos críticos (NAS, router, ponto de acesso Wi-Fi, etc.) se desligam sem problemas. Alguns modelos podem também enviar um comando de encerramento automático aos dispositivos ligados quando detectam que a bateria está fraca.
-
 
 Seguindo estes poucos passos, criará um ambiente de rede robusto e seguro que respeita a sua privacidade.
 
-
 # Parte final
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Comentários e classificações
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Exame final
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

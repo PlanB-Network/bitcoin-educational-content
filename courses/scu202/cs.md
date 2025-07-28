@@ -8605,34 +8605,24 @@ Tyto nástroje fungují jako malý server DNS v síti a blokují požadavky na d
 
 ### Zabezpečený vzdálený přístup přes VPN
 
-
 V některých případech je užitečné mít přístup k domácí síti i na cestách: Můžete nahlížet do souborů na NAS, používat uzel Bitcoin a Lightning, přistupovat k vlastnímu serveru nebo spravovat síť. Toto vzdálené připojení však musí být bezpečné.
-
 
 První rada zní: nikdy neotevírejte port na směrovači přímo pro přístup k zařízení (např. přes RDP, SSH nebo FTP), protože tím tuto službu vystavíte celému internetu, což představuje zranitelnost. Automatizovaných útoků zaměřených na otevřené porty je celá řada.
 
-
 Doporučuji použít VPN (*Virtuální privátní síť*), tj. šifrovaný tunel mezi vzdáleným zařízením (počítačem, chytrým telefonem atd.) a místní sítí. Po připojení k síti VPN můžete přistupovat ke zdrojům svého domova, jako byste se tam fyzicky nacházeli, a to bezpečným způsobem.
 
-
 Dvě hlavní řešení pro soukromé zákazníky jsou:
-
-
 
 - WireGuard: Moderní, rychlý a lehký
 - OpenVPN: Starší, ale velmi vyspělá a konfigurovatelná síť
 
-
 Zde je kompletní návod na Tailscale, snadno konfigurovatelné řešení VPN, které používá WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Tuto síť VPN můžete hostovat přímo na kompatibilním směrovači, v malém počítači (například Raspberry Pi) nebo na vyhrazeném domácím serveru. Můžete ji také nainstalovat jako klienta přímo do libovolného zařízení.
 
-
 VPN však neslouží jen ke vzdálenému přístupu. Můžete také používat klasického klienta VPN na svých zařízeních a šifrovat veškerý odchozí provoz, i když jste mimo domov (veřejná Wi-Fi, hotel, univerzita atd.). V takovém případě se vaše zařízení připojí k serveru VPN třetí strany (komerčnímu nebo hostovanému na vlastní pěst), který pak předává vaše připojení k internetu. Tím se před poskytovatelem internetu skryje vaše skutečná IP adresa Address, vaše data jsou chráněna před místním špehováním a vyhnete se některým formám cenzury.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 A konečně je také možné nastavit VPN přímo na routeru, což vám umožní chránit všechna zařízení v domácnosti, aniž byste museli na každé z nich instalovat klienta VPN.
 
-
 ### Monitorování a detekce
-
 
 Po správné konfiguraci a segmentaci sítě je důležité překročit rámec pasivního zabezpečení. Aktivní monitorování místní sítě může odhalit abnormální chování, neoprávněná připojení nebo známky narušení. Cílem je odhalit problémy včas, dříve než způsobí škody.
 
-
 Prvním krokem je centralizace bezpečnostních protokolů. Každé zařízení připojené k síti generuje protokoly obsahující informace o připojeních, chybách nebo podezřelých aktivitách. Místo toho, abyste tyto protokoly konzultovali jednotlivě, doporučuji je odesílat na server, který je schopen je seskupovat, třídit a analyzovat. Řešení, jako je Graylog nebo Elastic Stack (ELK), umožňují sdružovat tyto protokoly do grafického prostředí Interface, kde můžete vyhledávat konkrétní události, vytvářet upozornění nebo vizualizovat síťovou aktivitu.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Dále provádějte pravidelné aktivní skenování místní sítě, například pomocí programu Nmap. Získáte tak přehled o všech zařízeních v síti a o portech, které mají otevřeny. Pokud identifikujete neznámé zařízení nebo neobvyklou službu, může to být známkou útoku.
 
-
-
 Chcete-li jít ještě dál, můžete nainstalovat systém IDS (*Intrusion Detection System*) nebo dokonce IPS (*Intrusion Prevention System*). Tyto nástroje, například Suricata nebo Snort, monitorují síťové toky v reálném čase a detekují signatury známých útoků (skenování portů, injektáže, podezřelá připojení atd.). Systém IDS varuje, zatímco systém IPS může určité akce automaticky blokovat.
 
-
-
 Sledování spotřeby šířky pásma je také dobrým indikátorem abnormální aktivity. Pokud zařízení bez zjevného důvodu náhle spotřebuje velké množství dat, může to prozrazovat neoprávněné stahování, únik dat nebo dokonce napadení zařízení. Nástroje jako ntopng nebo vnStat umožňují zobrazit příchozí a odchozí toky podle zařízení.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Zálohování a odolnost
 
-
 I v případě dokonale zabezpečené sítě mohou selhání hardwaru, chyby konfigurace nebo nepředvídatelné události (výpadek proudu, přepětí, selhání disku Hard atd.) způsobit ztrátu dat nebo přerušení služeb. Abyste zaručili kontinuitu svého digitálního prostředí a v případě problému nemuseli začínat od nuly, je důležité zavést strategii zálohování a odolnosti.
-
 
 Začněte pravidelným zálohováním konfigurace síťového zařízení, zejména směrovače. Tyto konfigurační soubory lze často exportovat prostřednictvím administrace Interface. Uchovávání kopie vám umožní rychle obnovit funkční systém v případě resetu nebo výměny zařízení. Tuto zálohu doporučuji také zašifrovat.
 
-
 Chcete-li zvýšit odolnost své sítě v případě výpadku napájení, investujte do UPS. Toto zařízení poskytuje v případě výpadku proudu záložní napájení po dobu několika minut, což vám umožní pokračovat v používání internetu nebo zajistí, že se kritická zařízení (NAS, směrovač, přístupový bod Wi-Fi atd.) vypnou bez problémů. Některé modely mohou také odeslat příkaz k automatickému vypnutí připojených zařízení, když zjistí, že je baterie vybitá.
-
 
 Dodržením těchto několika kroků vytvoříte robustní a bezpečné síťové prostředí, které respektuje vaše soukromí.
 
-
 # Závěrečná část
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recenze a hodnocení
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

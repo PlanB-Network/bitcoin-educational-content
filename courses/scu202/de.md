@@ -8605,34 +8605,24 @@ Diese Tools funktionieren wie ein kleiner DNS-Server in Ihrem Netzwerk und block
 
 ### Sicherer Fernzugriff über VPN
 
-
 In manchen Fällen ist es nützlich, auch von unterwegs auf Ihr Heimnetzwerk zugreifen zu können: Sie können Dateien auf einem NAS abrufen, einen Bitcoin und einen Lightning-Knoten verwenden, auf einen selbst gehosteten Server zugreifen oder Ihr Netzwerk verwalten. Diese Remote-Verbindung muss jedoch sicher sein.
-
 
 Der erste Tipp ist, niemals direkt einen Port auf Ihrem Router zu öffnen, um auf ein Gerät zuzugreifen (z. B. über RDP, SSH oder FTP), da dies diesen Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
 
-
 Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d. h. eines verschlüsselten Tunnels zwischen Ihrem entfernten Gerät (Computer, Smartphone usw.) und Ihrem lokalen Netzwerk. Sobald Sie mit dem VPN verbunden sind, können Sie auf die Ressourcen Ihres Hauses zugreifen, als wären Sie physisch vor Ort, und zwar auf sichere Weise.
 
-
 Die beiden wichtigsten Lösungen für Privatkunden sind:
-
-
 
 - WireGuard: Modern, schnell und leicht
 - OpenVPN: Älter, aber sehr ausgereift und konfigurierbar
 
-
 Hier finden Sie eine vollständige Anleitung zu Tailscale, einer einfach zu konfigurierenden VPN-Lösung, die WireGuard verwendet:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Sie können dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z. B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Sie können es auch als Client direkt auf einem beliebigen Gerät installieren.
 
-
 Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Sie können auch einen klassischen VPN-Client auf Ihren Geräten verwenden, um Ihren gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn Sie nicht zu Hause sind (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt Ihr Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann Ihre Verbindungen ins Internet weiterleitet. Dies verbirgt Ihre echte IP Address vor dem Internetanbieter, schützt Ihre Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8640,70 +8630,50 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Schließlich ist es auch möglich, ein VPN direkt auf Ihrem Router einzurichten, so dass Sie alle Geräte in Ihrem Haus schützen können, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
 
-
 ### Überwachung und Aufdeckung
-
 
 Sobald Ihr Netzwerk richtig konfiguriert und segmentiert ist, ist es wichtig, über die passive Sicherheit hinauszugehen. Durch die aktive Überwachung Ihres lokalen Netzes können Sie abnormales Verhalten, unbefugte Verbindungen oder Anzeichen eines Eindringens erkennen. Ziel ist es, Probleme frühzeitig zu erkennen, bevor sie Schaden anrichten.
 
-
 Der erste Schritt besteht darin, die Sicherheitsprotokolle zu zentralisieren. Jedes an das Netz angeschlossene Gerät erzeugt Protokolle mit Informationen über Verbindungen, Fehler oder verdächtige Aktivitäten. Anstatt diese Protokolle einzeln einzusehen, empfehle ich, sie an einen Server zu senden, der sie gruppieren, sortieren und analysieren kann. Lösungen wie Graylog oder Elastic Stack (ELK) ermöglichen es Ihnen, diese Protokolle in einem grafischen Interface zusammenzufassen, in dem Sie nach bestimmten Ereignissen suchen, Warnmeldungen erstellen oder die Netzwerkaktivität visualisieren können.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Führen Sie als nächstes regelmäßige aktive Scans Ihres lokalen Netzwerks durch, zum Beispiel mit Nmap. So erhalten Sie einen Überblick über alle Geräte in Ihrem Netzwerk und die von ihnen geöffneten Ports. Wenn Sie ein unbekanntes Gerät oder einen ungewöhnlichen Dienst entdecken, könnte dies ein Anzeichen für einen Angriff sein.
 
-
-
 Um noch weiter zu gehen, können Sie ein IDS (*Intrusion Detection System*) oder sogar ein IPS (*Intrusion Prevention System*) installieren. Diese Tools, wie Suricata oder Snort, überwachen den Netzwerkfluss in Echtzeit und erkennen Signaturen bekannter Angriffe (Port-Scans, Injektionen, verdächtige Verbindungen usw.). Das IDS warnt, während das IPS bestimmte Aktionen automatisch blockieren kann.
 
-
-
 Schließlich ist die Überwachung des Bandbreitenverbrauchs auch ein guter Indikator für anormale Aktivitäten. Wenn ein Gerät plötzlich ohne ersichtlichen Grund eine große Menge an Daten verbraucht, kann dies auf einen nicht autorisierten Download, ein Datenleck oder sogar ein kompromittiertes Gerät hindeuten. Mit Tools wie ntopng oder vnStat können Sie die ein- und ausgehenden Datenströme pro Gerät anzeigen.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sicherung und Ausfallsicherheit
 
-
 Selbst bei einem perfekt gesicherten Netzwerk können Hardwareausfälle, Konfigurationsfehler oder unvorhergesehene Ereignisse (Stromausfall, Überspannung, Hard-Festplattenausfall usw.) zu Datenverlusten oder Unterbrechungen Ihrer Dienste führen. Um die Kontinuität Ihrer digitalen Umgebung zu gewährleisten und zu vermeiden, dass Sie im Falle eines Problems wieder bei Null anfangen müssen, ist es wichtig, eine Backup- und Resilienzstrategie zu implementieren.
-
 
 Beginnen Sie damit, die Konfiguration Ihrer Netzwerkausrüstung, insbesondere des Routers, regelmäßig zu sichern. Diese Konfigurationsdateien können oft über die Verwaltung Interface exportiert werden. Wenn Sie eine Kopie aufbewahren, können Sie im Falle eines Geräte-Resets oder eines Austauschs schnell ein funktionierendes System wiederherstellen. Ich empfehle außerdem, diese Sicherungskopie zu verschlüsseln.
 
-
 Und schließlich sollten Sie in eine USV investieren, um die Widerstandsfähigkeit Ihres Netzwerks bei einem Stromausfall zu verbessern. Dieses Gerät stellt bei einem Stromausfall für einige Minuten eine Notstromversorgung bereit und ermöglicht es Ihnen, das Internet weiter zu nutzen oder sicherzustellen, dass kritische Geräte (NAS, Router, Wi-Fi-Zugangspunkt usw.) sauber heruntergefahren werden. Einige Modelle können auch einen automatischen Abschaltbefehl an angeschlossene Geräte senden, wenn sie feststellen, dass die Batterie schwach ist.
-
 
 Wenn Sie diese wenigen Schritte befolgen, bauen Sie eine stabile, sichere Netzwerkumgebung auf, die Ihre Privatsphäre respektiert.
 
-
 # Letzter Teil
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Rezensionen und Bewertungen
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Schlussfolgerung
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

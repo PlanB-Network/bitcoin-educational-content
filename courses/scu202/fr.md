@@ -2498,6 +2498,8 @@ Ce protocole est parfait pour échanger des fichiers sensibles de manière sécu
 
 Il y a également le logiciel Cryptomator qui est une excellente alternative. Ce logiciel open source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
 
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
 ![Image](assets/fr/256.webp)
 
 Enfin, il est également possible d'utiliser VeraCrypt en mode conteneur, qui permet de créer un fichier agissant comme une archive chiffrée, montable comme un disque.
@@ -4690,6 +4692,8 @@ Enfin, il est aussi possible de configurer un VPN directement sur votre routeur,
 Une fois votre réseau bien configuré et segmenté, il est important de ne pas se contenter d’une sécurité passive. La surveillance active de votre réseau local permet de détecter des comportements anormaux, des connexions non autorisées ou des signes d’intrusion. L’objectif est de repérer rapidement les problèmes avant qu’ils ne causent des dégâts.
 
 La première étape consiste à centraliser les journaux de sécurité (logs). Chaque appareil connecté au réseau génère des logs contenant des informations sur les connexions, les erreurs ou les activités suspectes. Plutôt que de consulter ces journaux individuellement, je vous conseille de les envoyer vers un serveur capable de les regrouper, trier et analyser. Des solutions comme Graylog ou Elastic Stack (ELK) permettent d’agréger ces logs dans une interface graphique où vous pouvez rechercher des événements spécifiques, créer des alertes ou visualiser l’activité du réseau.
+
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Ensuite, effectuez régulièrement un scan actif de votre réseau local, par exemple avec Nmap. Cela vous permet d’obtenir une vue de tous les appareils présents sur votre réseau, ainsi que les ports qu’ils ont ouverts. Si vous identifiez un appareil inconnu ou un service inhabituel, cela peut être le signe d’une attaque.
 

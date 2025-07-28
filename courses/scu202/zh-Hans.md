@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 接下来，定期对本地网络进行主动扫描，例如使用 Nmap。这将使您对网络上的所有设备及其打开的端口有一个总体了解。如果发现未知设备或异常服务，这可能就是攻击的迹象。
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 更进一步，您可以安装 IDS（*入侵检测系统*），甚至 IPS（*入侵防御系统*）。这些工具（如 Suricata 或 Snort）可实时监控网络流，并检测已知攻击的特征（端口扫描、注入、可疑连接等）。IDS 发出警告，而 IPS 可以自动阻止某些行为。
 
 最后，监控带宽消耗也是异常活动的良好指标。如果一台设备突然无缘无故消耗大量数据，这可能意味着未经授权的下载、数据泄露，甚至是设备被入侵。通过 ntopng 或 vnStat 等工具，您可以按设备查看进出流量。

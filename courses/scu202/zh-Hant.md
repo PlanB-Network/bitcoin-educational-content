@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 接下來，定期主動掃描您的區域網路，例如使用 Nmap。這會讓您概覽網路上的所有裝置，以及它們所開啟的連接埠。如果您發現未知裝置或不尋常的服務，這可能就是攻擊的跡象。
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 若要更進一步，您可以安裝 IDS (* 入侵偵測系統*)，甚至是 IPS (* 入侵防禦系統*)。這些工具 (例如 Suricata 或 Snort) 會即時監控網路流量，並偵測已知攻擊的特徵 (連接埠掃描、注入、可疑連線等)。IDS 會發出警告，而 IPS 則可自動封鎖某些動作。
 
 最後，監控頻寬消耗也是異常活動的良好指標。如果裝置突然無緣無故消耗大量資料，這可能是未經授權的下載、資料洩漏，甚至是裝置受到攻擊。ntopng 或 vnStat 等工具可讓您依裝置檢視流入和流出的流量。

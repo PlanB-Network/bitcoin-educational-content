@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Successivamente, eseguite regolarmente scansioni attive della rete locale, ad esempio con Nmap. In questo modo si ottiene una panoramica di tutti i dispositivi presenti sulla rete e delle porte aperte. Se si identifica un dispositivo sconosciuto o un servizio insolito, questo potrebbe essere il segno di un attacco.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Per andare oltre, è possibile installare un IDS (*Intrusion Detection System*) o addirittura un IPS (*Intrusion Prevention System*). Questi strumenti, come Suricata o Snort, monitorano i flussi di rete in tempo reale e rilevano le firme di attacchi noti (scansioni di porte, iniezioni, connessioni sospette, ecc.). L'IDS avvisa, mentre l'IPS può bloccare automaticamente determinate azioni.
 
 Infine, anche il monitoraggio del consumo di banda è un buon indicatore di attività anomale. Se un dispositivo consuma improvvisamente molti dati senza un motivo apparente, ciò potrebbe rivelare un download non autorizzato, una fuga di dati o addirittura un dispositivo compromesso. Strumenti come ntopng o vnStat consentono di visualizzare i flussi in entrata e in uscita per dispositivo.

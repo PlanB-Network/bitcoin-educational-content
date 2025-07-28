@@ -4697,6 +4697,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Ensuite, effectuez régulièrement un scan actif de votre réseau local, par exemple avec Nmap. Cela vous permet d’obtenir une vue de tous les appareils présents sur votre réseau, ainsi que les ports qu’ils ont ouverts. Si vous identifiez un appareil inconnu ou un service inhabituel, cela peut être le signe d’une attaque.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Pour aller plus loin, vous pouvez mettre en place un IDS (*Intrusion Detection System*), voire un IPS (*Intrusion Prevention System*). Ces outils, comme Suricata ou Snort, surveillent en temps réel les flux réseau et détectent les signatures d’attaques connues (scans de ports, injections, connexions suspectes...). L’IDS alerte, tandis que l’IPS peut bloquer automatiquement certaines actions.
 
 Enfin, surveiller la consommation de bande passante est aussi un bon indicateur d’activité anormale. Si un appareil consomme soudainement beaucoup de données sans raison apparente, cela peut trahir un téléchargement non autorisé, une fuite de données, voire un appareil compromis. Des outils comme ntopng ou vnStat permettent de visualiser les flux entrants et sortants par appareil.

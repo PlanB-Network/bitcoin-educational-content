@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Führen Sie als nächstes regelmäßige aktive Scans Ihres lokalen Netzwerks durch, zum Beispiel mit Nmap. So erhalten Sie einen Überblick über alle Geräte in Ihrem Netzwerk und die von ihnen geöffneten Ports. Wenn Sie ein unbekanntes Gerät oder einen ungewöhnlichen Dienst entdecken, könnte dies ein Anzeichen für einen Angriff sein.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Um noch weiter zu gehen, können Sie ein IDS (*Intrusion Detection System*) oder sogar ein IPS (*Intrusion Prevention System*) installieren. Diese Tools, wie Suricata oder Snort, überwachen den Netzwerkfluss in Echtzeit und erkennen Signaturen bekannter Angriffe (Port-Scans, Injektionen, verdächtige Verbindungen usw.). Das IDS warnt, während das IPS bestimmte Aktionen automatisch blockieren kann.
 
 Schließlich ist die Überwachung des Bandbreitenverbrauchs auch ein guter Indikator für anormale Aktivitäten. Wenn ein Gerät plötzlich ohne ersichtlichen Grund eine große Menge an Daten verbraucht, kann dies auf einen nicht autorisierten Download, ein Datenleck oder sogar ein kompromittiertes Gerät hindeuten. Mit Tools wie ntopng oder vnStat können Sie die ein- und ausgehenden Datenströme pro Gerät anzeigen.

@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Suorita seuraavaksi säännöllisiä aktiivisia skannauksia lähiverkossasi esimerkiksi Nmapin avulla. Näin saat yleiskuvan kaikista verkon laitteista ja niiden avaamista porteista. Jos tunnistat tuntemattoman laitteen tai epätavallisen palvelun, se voi olla merkki hyökkäyksestä.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Jos haluat mennä vielä pidemmälle, voit asentaa IDS:n (*Murtohälytysjärjestelmä*) tai jopa IPS:n (*Murtojen estojärjestelmä*). Nämä työkalut, kuten Suricata tai Snort, valvovat verkkovirtoja reaaliajassa ja havaitsevat tunnettujen hyökkäysten merkit (porttiskannaukset, injektiot, epäilyttävät yhteydet jne.). IDS varoittaa, kun taas IPS voi automaattisesti estää tietyt toimet.
 
 Kaistanleveyden kulutuksen seuranta on myös hyvä indikaattori epänormaalista toiminnasta. Jos laite kuluttaa yhtäkkiä paljon dataa ilman näkyvää syytä, tämä voi paljastaa luvattoman latauksen, tietovuodon tai jopa vaarantuneen laitteen. Työkalujen, kuten ntopng tai vnStat, avulla voit tarkastella saapuvia ja lähteviä virtoja laitteittain.

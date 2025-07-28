@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Järgmiseks kontrollige regulaarselt oma kohalikku võrku aktiivselt, näiteks Nmapiga. See annab teile ülevaate kõigist teie võrgus olevatest seadmetest ja nende avatud porte. Kui tuvastate tundmatu seadme või ebatavalise teenuse, võib see olla märk rünnakust.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Kui soovite veelgi kaugemale minna, võite paigaldada IDS-i (*Intrusion Detection System*) või isegi IPS-i (*Intrusion Prevention System*). Need vahendid, näiteks Suricata või Snort, jälgivad võrguvooge reaalajas ja tuvastavad teadaolevate rünnakute signatuurid (pordi skaneerimine, süstimine, kahtlased ühendused jne). IDS hoiatab, samas kui IPS võib teatud tegevused automaatselt blokeerida.
 
 Lõpuks on ka ribalaiuse tarbimise jälgimine hea indikaator ebanormaalse tegevuse kohta. Kui seade tarbib järsku ilma nähtava põhjuseta palju andmeid, võib see reedada loata allalaadimist, andmete lekkimist või isegi ohustatud seadet. Sellised tööriistad nagu ntopng või vnStat võimaldavad vaadata sissetulevaid ja väljaminevaid voogusid seadme kaupa.

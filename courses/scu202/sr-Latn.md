@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Zatim, redovno vršite aktivno skeniranje vaše lokalne mreže, na primer sa Nmap-om. Ovo će vam dati pregled svih uređaja na vašoj mreži i portova koje su otvorili. Ako identifikujete nepoznat uređaj ili neobičnu uslugu, to bi mogao biti znak napada.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Da biste otišli još dalje, možete instalirati IDS (*Intrusion Detection System*), ili čak IPS (*Intrusion Prevention System*). Ovi alati, kao što su Suricata ili Snort, nadgledaju mrežne tokove u realnom vremenu i detektuju potpise poznatih napada (skeniranje portova, injekcije, sumnjive veze, itd.). IDS upozorava, dok IPS može automatski blokirati određene akcije.
 
 Konačno, praćenje potrošnje propusnog opsega je takođe dobar pokazatelj abnormalne aktivnosti. Ako uređaj iznenada troši mnogo podataka bez očiglednog razloga, to može ukazivati na neovlašćeno preuzimanje, curenje podataka ili čak kompromitovan uređaj. Alati kao što su ntopng ili vnStat omogućavaju vam da vidite dolazne i odlazne tokove po uređaju.

@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Tiếp theo, hãy thường xuyên quét mạng cục bộ của bạn, ví dụ như bằng Nmap. Thao tác này sẽ cung cấp cho bạn cái nhìn tổng quan về tất cả các thiết bị trong mạng và các cổng mà chúng đã mở. Nếu bạn phát hiện một thiết bị không xác định hoặc một dịch vụ bất thường, đây có thể là dấu hiệu của một cuộc tấn công.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Để tiến xa hơn nữa, bạn có thể cài đặt IDS (Hệ thống Phát hiện Xâm nhập) hoặc thậm chí IPS (Hệ thống Phòng chống Xâm nhập). Các công cụ này, chẳng hạn như Suricata hoặc Snort, giám sát luồng mạng theo thời gian thực và phát hiện dấu hiệu của các cuộc tấn công đã biết (quét cổng, chèn mã độc, kết nối đáng ngờ, v.v.). IDS sẽ cảnh báo, trong khi IPS có thể tự động chặn một số hành động nhất định.
 
 Cuối cùng, việc theo dõi mức tiêu thụ băng thông cũng là một chỉ báo tốt về hoạt động bất thường. Nếu một thiết bị đột nhiên tiêu thụ nhiều dữ liệu mà không có lý do rõ ràng, điều này có thể cho thấy một hoạt động tải xuống trái phép, rò rỉ dữ liệu, hoặc thậm chí là một thiết bị bị xâm nhập. Các công cụ như ntopng hoặc vnStat cho phép bạn xem các luồng dữ liệu đến và đi theo từng thiết bị.

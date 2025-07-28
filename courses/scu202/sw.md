@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Kisha, chunguza mtandao wako wa karibu mara kwa mara, kwa mfano na Nmap. Hii itakupa muhtasari wa vifaa vyote kwenye mtandao wako, na bandari ambazo wamefungua. Ukitambua kifaa kisichojulikana au huduma isiyo ya kawaida, hii inaweza kuwa ishara ya shambulio.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Ili kwenda mbali zaidi, unaweza kusakinisha IDS (*Mfumo wa Kugundua Uvamizi*), au hata IPS (*Mfumo wa Kuzuia Kuingilia*). Zana hizi, kama vile Suricata au Snort, hufuatilia mtiririko wa mtandao kwa wakati halisi na kugundua saini za mashambulizi yanayojulikana (skana za bandari, sindano, miunganisho ya kutiliwa shaka n.k.). IDS inaonya, wakati IPS inaweza kuzuia vitendo fulani kiotomatiki.
 
 Hatimaye, ufuatiliaji wa matumizi ya bandwidth pia ni kiashiria kizuri cha shughuli isiyo ya kawaida. Ikiwa kifaa kinatumia data nyingi ghafla bila sababu dhahiri, hii inaweza kusaliti upakuaji usioidhinishwa, uvujaji wa data, au hata kifaa kilichoathiriwa. Zana kama vile ntopng au vnStat hukuwezesha kutazama mtiririko unaoingia na kutoka kwa kifaa.

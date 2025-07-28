@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Selanjutnya, lakukan pemindaian aktif secara teratur pada jaringan lokal Anda, misalnya dengan Nmap. Ini akan memberi Anda gambaran umum tentang semua perangkat di jaringan Anda, dan port yang telah dibuka. Jika Anda mengidentifikasi perangkat yang tidak dikenal atau layanan yang tidak biasa, ini bisa menjadi tanda adanya serangan.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Untuk melangkah lebih jauh lagi, Anda bisa memasang IDS (*Intrusion Detection System*), atau bahkan IPS (*Intrusion Prevention System*). Alat-alat ini, seperti Suricata atau Snort, memonitor aliran jaringan secara real time dan mendeteksi tanda tangan serangan yang diketahui (pemindaian port, injeksi, koneksi yang mencurigakan, dll.). IDS memberi peringatan, sedangkan IPS dapat secara otomatis memblokir tindakan tertentu.
 
 Terakhir, memantau konsumsi bandwidth juga merupakan indikator yang baik untuk mengetahui aktivitas yang tidak normal. Jika sebuah perangkat tiba-tiba mengonsumsi banyak data tanpa alasan yang jelas, ini bisa menjadi petunjuk adanya pengunduhan yang tidak sah, kebocoran data, atau bahkan perangkat yang disusupi. Alat-alat seperti ntopng atau vnStat memungkinkan Anda untuk melihat aliran masuk dan keluar berdasarkan perangkat.

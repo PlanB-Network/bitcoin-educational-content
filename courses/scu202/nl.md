@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Voer vervolgens regelmatig actieve scans uit van je lokale netwerk, bijvoorbeeld met Nmap. Dit geeft je een overzicht van alle apparaten op je netwerk en de poorten die ze hebben geopend. Als je een onbekend apparaat of een ongebruikelijke service ziet, kan dit een teken zijn van een aanval.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Om nog verder te gaan, kun je een IDS (*Intrusion Detection System*) of zelfs een IPS (*Intrusion Prevention System*) installeren. Deze tools, zoals Suricata of Snort, monitoren netwerkstromen in realtime en detecteren handtekeningen van bekende aanvallen (poortscans, injecties, verdachte verbindingen, etc.). Het IDS waarschuwt, terwijl het IPS bepaalde acties automatisch kan blokkeren.
 
 Tot slot is het monitoren van bandbreedteverbruik ook een goede indicator voor abnormale activiteit. Als een apparaat plotseling veel data verbruikt zonder duidelijke reden, kan dit een ongeautoriseerde download, een datalek of zelfs een gecompromitteerd apparaat verraden. Tools zoals ntopng of vnStat stellen je in staat om inkomende en uitgaande stromen per apparaat te bekijken.

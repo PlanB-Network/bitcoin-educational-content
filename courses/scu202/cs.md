@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Dále provádějte pravidelné aktivní skenování místní sítě, například pomocí programu Nmap. Získáte tak přehled o všech zařízeních v síti a o portech, které mají otevřeny. Pokud identifikujete neznámé zařízení nebo neobvyklou službu, může to být známkou útoku.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Chcete-li jít ještě dál, můžete nainstalovat systém IDS (*Intrusion Detection System*) nebo dokonce IPS (*Intrusion Prevention System*). Tyto nástroje, například Suricata nebo Snort, monitorují síťové toky v reálném čase a detekují signatury známých útoků (skenování portů, injektáže, podezřelá připojení atd.). Systém IDS varuje, zatímco systém IPS může určité akce automaticky blokovat.
 
 Sledování spotřeby šířky pásma je také dobrým indikátorem abnormální aktivity. Pokud zařízení bez zjevného důvodu náhle spotřebuje velké množství dat, může to prozrazovat neoprávněné stahování, únik dat nebo dokonce napadení zařízení. Nástroje jako ntopng nebo vnStat umožňují zobrazit příchozí a odchozí toky podle zařízení.

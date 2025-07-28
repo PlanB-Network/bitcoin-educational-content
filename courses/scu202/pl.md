@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Następnie należy regularnie przeprowadzać aktywne skanowanie sieci lokalnej, na przykład za pomocą Nmap. Zapewni to przegląd wszystkich urządzeń w sieci i otwartych przez nie portów. Jeśli zidentyfikujesz nieznane urządzenie lub nietypową usługę, może to być oznaką ataku.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Aby pójść jeszcze dalej, można zainstalować IDS (*Intrusion Detection System*), a nawet IPS (*Intrusion Prevention System*). Narzędzia te, takie jak Suricata lub Snort, monitorują przepływy sieciowe w czasie rzeczywistym i wykrywają sygnatury znanych ataków (skanowanie portów, wstrzyknięcia, podejrzane połączenia itp.). IDS ostrzega, podczas gdy IPS może automatycznie blokować określone działania.
 
 Wreszcie, monitorowanie zużycia przepustowości jest również dobrym wskaźnikiem nietypowej aktywności. Jeśli urządzenie nagle zużywa dużo danych bez wyraźnego powodu, może to zdradzać nieautoryzowane pobieranie, wyciek danych lub nawet zainfekowane urządzenie. Narzędzia takie jak ntopng lub vnStat umożliwiają przeglądanie przychodzących i wychodzących przepływów według urządzenia.

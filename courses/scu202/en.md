@@ -6313,6 +6313,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Next, carry out regular active scans of your local network, for example with Nmap. This will give you an overview of all the devices on your network, and the ports they have opened. If you identify an unknown device or an unusual service, this could be the sign of an attack.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 To go even further, you can install an IDS (*Intrusion Detection System*), or even an IPS (*Intrusion Prevention System*). These tools, such as Suricata or Snort, monitor network flows in real time and detect signatures of known attacks (port scans, injections, suspicious connections, etc.). The IDS warns, while the IPS can automatically block certain actions.
 
 Finally, monitoring bandwidth consumption is also a good indicator of abnormal activity. If a device suddenly consumes a lot of data for no apparent reason, this may betray an unauthorized download, a data leak, or even a compromised device. Tools such as ntopng or vnStat enable you to view incoming and outgoing flows by device.

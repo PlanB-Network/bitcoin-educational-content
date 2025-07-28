@@ -8619,6 +8619,8 @@ https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-444
 
 Utför sedan regelbundna aktiva skanningar av ditt lokala nätverk, till exempel med Nmap. Då får du en överblick över alla enheter i nätverket och vilka portar de har öppnat. Om du identifierar en okänd enhet eller en ovanlig tjänst kan det vara ett tecken på en attack.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 Om du vill gå ännu längre kan du installera ett IDS (*Intrusion Detection System*) eller till och med ett IPS (*Intrusion Prevention System*). Dessa verktyg, t.ex. Suricata eller Snort, övervakar nätverksflöden i realtid och upptäcker signaturer för kända attacker (portskanningar, injektioner, misstänkta anslutningar etc.). IDS varnar, medan IPS automatiskt kan blockera vissa åtgärder.
 
 Slutligen är övervakning av bandbreddsförbrukningen också en bra indikator på onormal aktivitet. Om en enhet plötsligt förbrukar mycket data utan någon uppenbar anledning kan detta tyda på en obehörig nedladdning, en dataläcka eller till och med en komprometterad enhet. Med verktyg som ntopng eller vnStat kan du visa inkommande och utgående flöden per enhet.

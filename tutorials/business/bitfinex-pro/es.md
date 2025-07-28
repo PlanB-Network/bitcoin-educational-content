@@ -24,11 +24,11 @@ Complete la información requerida: introduce la dirección de correo electróni
 
 ![BITFINEX](assets/fr/02.webp)
 
-Para obtener consejos sobre cómo utilizar y salvaguardar contraseñas fuertes y únicas, consulta también este tutorial :
+Para obtener consejos sobre cómo utilizar y salvaguardar contraseñas fuertes y únicas, consulta también este tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Ahora vamos a configurar el 2FA para asegurar la cuenta. Utiliza una aplicación de autenticación en tu smartphone, como Google Authenticator o Authy por ejemplo. Encontrarás un tutorial sobre esta herramienta aquí :
+Ahora vamos a configurar el 2FA para asegurar la cuenta. Utiliza una aplicación de autenticación en tu smartphone, como Google Authenticator o Authy por ejemplo. Encontrarás un tutorial sobre esta herramienta aquí:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -64,7 +64,7 @@ En "*Tipo de cuenta*", selecciona "*Corporate*". En mi caso, estoy actualizando 
 
 ![BITFINEX](assets/fr/09.webp)
 
-Complete los pasos proporcionando :
+Complete los pasos proporcionando:
 
 
 - Información sobre la empresa (nombre de la empresa, datos de contacto, sector de actividad, etc.) ;
@@ -77,7 +77,7 @@ Una vez cumplimentada y enviada la solicitud, la plataforma puede tardar varios 
 
 ## 3 - Introducción rápida a la interfaz de Bitfinex
 
-Una vez conectado, verás una barra de navegación en la parte superior de la interfaz con: "*Trading*", "*Derivados*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex ofrece una amplia gama de funcionalidades, incluyendo :
+Una vez conectado, verás una barra de navegación en la parte superior de la interfaz con: "*Trading*", "*Derivados*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex ofrece una amplia gama de funcionalidades, incluyendo:
 
 
 - **Mercado**: mercado "*clásico*" en el que se pueden cursar órdenes de compra y venta de criptomonedas (Bitcoin incluido) ;
@@ -239,6 +239,6 @@ Dependiendo de los objetivos y la estructura de su empresa, el uso de Bitfinex p
 - Guarda Bitcoin en la plataforma o retíralos para su autocustodia. También puedes retirar Euros a tu cuenta bancaria;
 - Exporta los historiales de transacciones según sea necesario.
 
-Para profundizar en este tema, recomiendamos este curso completo de formación sobre la integración de Bitcoin en las empresas, que cubre en detalle la adición al flujo de caja, la aceptación de pagos con Bitcoin, y la contabilidad :
+Para profundizar en este tema, recomiendamos este curso completo de formación sobre la integración de Bitcoin en las empresas, que cubre en detalle la adición al flujo de caja, la aceptación de pagos con Bitcoin, y la contabilidad:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

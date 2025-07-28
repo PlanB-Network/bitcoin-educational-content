@@ -1198,9 +1198,13 @@ De plus, le débat sur l'évolution du protocole n'est pas la seule conséquence
 
 ## L'apparition des cryptomonnaies alternatives
 
-La découverte de Satoshi Nakamoto a ouvert la voie à toutes les innovations, bonnes comme mauvaises. Elle a donné niassance à une multitude de cryptomonnaies alternatives, ou *altcoins*, qui ont été créées à partir d'avril 2011, et qui ont commencé à se multiplier à partir de l'automne 2011.
+La découverte de Satoshi Nakamoto a ouvert la voie à toutes les innovations, bonnes comme mauvaises. Elle a donné naissance à une multitude de cryptomonnaies alternatives, ou *altcoins*, qui ont été créées à partir d'avril 2011, et qui se sont multipliées lors de l'automne 2011 et au début de l'année 2012. Comme l'[écrivait](https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) Sunny King en mars 2013 :
 
-Il a été utile à l'expérimentation : minage combiné, algorithmes de minage résistants aux processeurs graphiques, preuve d'autorité (?), preuve d'enjeu, jetons non fongibles.
+> « L'ère d'Internet a enfin donné naissance à un nouveau phénomène connu sous le nom de cryptomonnaie. Satoshi Nakamoto a présenté son œuvre révolutionnaire, Bitcoin, au monde entier en 2009, ce qui a marqué l'aube d'une nouvelle ère dans l'histoire financière de la civilisation humaine. La principale avancée de Bitcoin est l'introduction d'un registre public décentralisé. Le terme "cryptomonnaie" fait ainsi référence à la nouvelle classe de monnaies virtuelles dotées d'un degré élevé de décentralisation (également connu sous le nom de "pair à pair" dans la terminologie d'Internet), et donc beaucoup plus résistantes aux tentatives de coupures. »
+>
+> original: "The Age of the Internet has finally brought upon us a new phenomenon known as cryptocurrency. Satoshi Nakamoto introduced his groundbreaking work Bitcoin to the world in 2009, marking the dawn of a new era in the financial history of human civilization. The main breakthrough of Bitcoin is the introduction of decentralized public ledger. The term cryptocurrency then refers to the new class of virtual currencies with high degree of decentralization (also known as peer-to-peer in Internet terminology), thus much more resistant to shutdown attempts."
+
+Cette effervescence a été utile à l'expérimentation. C'est ainsi que de nombreux modèles alternatifs ont émergé : on a vu le minage combiné émerger avec Namecoin, un algorithme résistant aux GPU avec Tenebrix, la preuve dmalintentionnées de cloner Bitcoin et faire un profit avec le préminage, ce qui n'a pas manqué de créer une réaction de rejet dans la communauté de Bitcoin.
 
 ### Les noms de domaine : BitDNS et Namecoin
 
@@ -1250,7 +1254,7 @@ Instead of fragmentation, networks share and augment each other's total CPU powe
 
 Aaron Schwartz, proposition indépendante similaire : http://www.aaronsw.com/weblog/squarezooko
 
-Lancement le 18 avril 2011, Vincent Durham (Vinced).
+La chaine est [lancée](https://bitcointalk.org/index.php?topic=6017.msg88356#msg88356) le 19 avril 2011 ([bloc 1](https://chainz.cryptoid.info/nmc/block.dws?1.htm)) par Vincent Durham, qui utilise le pseudonyme Vinced.
 
 La chaine de Namecoin est minée en combinaison avec Bitcoin.
 
@@ -1259,9 +1263,9 @@ Les noms de domaines (`.bit`) sont des NFT. Le premier NFT artistique sera cré�
 Kiba, "Technological Jailbreak: Bitcoin to Namecoin", [2011-05-28 22:07:15 UTC](https://web.archive.org/web/20111220063505/http://bitcoinweekly.com/articles/technological-jailbreak-bitcoin-to-namecoin)
 
 
-### La première vague des altcoins
+### La première vague des imitateurs
 
-La grande bulle de 2011 engendre une [première vague](https://gist.github.com/barbietunnie/2f38b67d2245ac2cd73db68a9aada33c) de création de cryptomonnaies alternatives. La plupart des projets sont purement opportunistes, désirant profiter de l'enthousiasme vis-à-vis de Bitcoin, notamment par le biais du préminage.
+La grande bulle de 2011 engendre une [première vague](https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) de création de cryptomonnaies alternatives. La plupart des projets sont purement opportunistes, désirant profiter de l'enthousiasme vis-à-vis de Bitcoin, notamment par le biais du préminage.
 
 Les [bitcoins du réseau de test](https://bitcointalk.org/index.php?topic=1647.msg20643#msg20643) ou les « [BeerTokens](https://web.archive.org/web/20110703101435/http://exchange.beertokens.info/) » ou les « [Weeds](https://web.archive.org/web/20110505081347/http://exchange.surething.biz/) » du projet Multicoin peuvent être qualifiés de cryptomonnaies de test, car elles sont hautement expérimentales et peuvent être facilement réinitialisées à tout moment.
 
@@ -1269,33 +1273,13 @@ Groupcoin/Devcoin, Unthinkingbit, [annoncé](https://bitcointalk.org/index.php?t
 
 Dans son modèle, 90 % de la création monétaire est [distribuée](https://bitcointalk.org/index.php?topic=24813.msg422068#msg422068) aux développeurs impliqués dans le monde du logiciel libre ; les 10 % restants sont distribués aux mineurs du système. Bien qu'elle soit présentée comme une « monnaie éthique » (original: "ethical currency"), il s'agit d'une aubaine pour les développeurs qui en bénéficient et qui sont choisis par le meneur du projet.
 
-Le premier de ces altcoins opportunistes est Ixcoin, une copie de Bitcoin qui se distingue de son grand frère par un rythme de création monétaire plus rapide. Elle est [lancée](https://bitcointalk.org/index.php?topic=36218.msg446303#msg446303) le 10 août par un certain Thomas Nasakioto. Au cours des trois mois précédents, il a préminé les 6 055 premiers blocs de la chaine, générant plus de 580 000 ixcoins. Même s'il [propose](https://bitcointalk.org/index.php?topic=36220.msg446305#msg446305) des récompenses aux premiers commerçants utilisant sa nouvelle cryptomonnaie, il se garde une bonne partie des unités préminées. Les individus sur le forum en viennent à se [demander](https://bitcointalk.org/index.php?topic=36218.msg446352#msg446352), à juste titre, « qui possède ces 580 000 ixcoins » (original: "\[w\]ho \[...\] has these 580k ixcoins?"), y [compris](https://bitcointalk.org/index.php?topic=36218.msg451681#msg451681) Gavin Andresen lui-même.
+Un autre de ces altcoins opportunistes est Ixcoin, une copie de Bitcoin qui se distingue de son grand frère par un rythme de création monétaire plus rapide. Elle est [lancée](https://bitcointalk.org/index.php?topic=36218.msg446303#msg446303) le 10 août par un certain Thomas Nasakioto. Au cours des trois mois précédents, il a préminé les 6 055 premiers blocs de la chaine, générant plus de 580 000 ixcoins. Même s'il [propose](https://bitcointalk.org/index.php?topic=36220.msg446305#msg446305) des récompenses aux premiers commerçants utilisant sa nouvelle cryptomonnaie, il se garde une bonne partie des unités préminées. Les individus sur le forum en viennent à se [demander](https://bitcointalk.org/index.php?topic=36218.msg446352#msg446352), à juste titre, « qui possède ces 580 000 ixcoins » (original: "\[w\]ho \[...\] has these 580k ixcoins?"), y [compris](https://bitcointalk.org/index.php?topic=36218.msg451681#msg451681) Gavin Andresen lui-même.
 
 La situation [donne l'idée](https://bitcointalk.org/index.php?topic=36425.msg448463#msg448463) à certains de développer I0coin, un fork d'Ixcoin « avec 0 bloc prégénéré » (original: "with 0 pregenerated blocks"). La chaine finit par être [lancée](https://bitcointalk.org/index.php?topic=36425.msg460733#msg460733) par un certain kr105 le 16 août. Elle a un temps de bloc de 5 minutes au lieu de 10. Elle [recueille](https://bitcointalk.org/index.php?topic=36425.msg461312#msg461312) une puissance de calcul de 1 TH/s dès le premier jour, chacun désirant se procurer des unités avant qu'elles ne prennent en valeur.
 
 Un troisième altcoin est SolidCoin [lancé](https://bitcointalk.org/index.php?topic=38453.msg471183#msg471183) publiquement le 21 août 2011 par un individu utilisant les pseudonymes CoinHunter et RealSolid. Il s'est [intéressé](https://bitcointalk.org/index.php?topic=15672.msg381911#msg381911) à Bitcoin pour son « potentiel de \[lui\] faire gagner de l'argent grâce à la spéculation » (original: "the potential to make \[him\] money through speculation"), pour sa facilité à être écoulé et pour son anonymat. SolidCoin se différencie de Bitcoin par un temps de bloc inférieur (3 minutes au lieu de 10), des frais fixes par transaction, et un algorithme d'ajustement modifié facilitant la diminution de la difficulté de minage par rapport à son augmentation. En octobre, une version 2.0 de SolidCoin est publiée. Elle [modifie](https://web.archive.org/web/20111015164358/http://solidcoin.info/solidcoin-most-secure-currency.php) le protocole de façon à faire intervenir des « nœuds de confiance » (original: "trusted nodes") (détenant un certain nombre de SLC sous caution) dans le consensus, en tant que protection contre les attaques des 51 %.
 
 De façon générale, SolidCoin est présenté comme un concurrent à Bitcoin, contrairement aux autres cryptomonnaies qui sont considérées comme complémentaires. Son fondateur critique le modèle de Nakamoto. Il dénonce la « concentration des Bitcoins dans les mains de pionniers élitistes qui n'ont aucun intérêt ou désir d'aider les gens "normaux" à utiliser les Bitcoins » (original: "Concentration of Bitcoins into elitist early adopters that have no interest or desire to help Bitcoins be used by 'normal' people"). Dans un article prédisant l'« effondrement de Bitcoin » (original: "Bitcoin collapse"), il [reproche](https://web.archive.org/web/20110925064226/https://solidcoin.info/solidcoin-ready-for-bitcoin-collapse.php) à Bitcoin sa stagnation techique découlant d'une possible « intervention de l'État » (original: "government involvement") et met en valeur SolidCoin comme la cryptomonnaie de l'innovation.
-
-- Création de la sous-section « Alternate currencies » sur Bitcointalk en septembre 2011 ? présent en oct. 2011 (https://web.archive.org/web/20111006123312/https://bitcointalk.org/) ; capture de janvier 2012 : https://web.archive.org/web/20120105094507/https://bitcointalk.org/index.php?board=67.0
-
-Services de change Bitparking (https://web.archive.org/web/20111026083553/https://exchange.bitparking.com/main) BTCEX.com, [Moonco.in](https://bitcointalk.org/index.php?topic=31768.0), [slc24](https://web.archive.org/web/20111208041556/http://www.slc24.com/)
-
-La plateforme russe BTC-e [se spécialise](https://web.archive.org/web/20111017024937/https://bitcointalk.org/index.php?topic=40889.0) dès le mois d'août dans la négociation de cryptomonnaies alternatives, et intègre au fil des mois Ixcoin, I0coin, Solidcoin, GeistGeld, Tenebrix et Namecoin.
-
-Statistiques (!) : https://bitcointalk.org/index.php?topic=41546.msg505943#msg505943 https://web.archive.org/web/20110923155617/http://allchains.info/
-
----
-
-Relation avec Mooncoin : https://bitcointalk.org/index.php?topic=40469.0 piraté en septembre : https://bitcointalk.org/index.php?topic=83794.0#post_toc_25
-
-"MoonCoin Exchange (SC <--> BTC): Mooncoin is currently the #1 SolidCoin exchange, it's open source, trading in Solidcoins, Bitcoins, and Namecoins. The 0.2% transaction fee helps pay for continued development and hosting.
-
-BTC-E Exchange (SC <--> BTC)
-
-SolidCoin24 (SC <--> BTC)"
-
-[Moonco.in](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530), juin 2011 (mais dérive rapidement vers un site de paris, piraté en septembre) https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530 https://bitcointalk.org/index.php?topic=31768.0 ;
 
 GeistGeld (Lolcust), « monnaie spirituelle », 9 septembre 2011 : https://bitcointalk.org/index.php?topic=42417.msg516279#msg516279
 
@@ -1306,6 +1290,15 @@ GeistGeld (Lolcust), « monnaie spirituelle », 9 septembre 2011 : https://bi
 Taux de génération stable, pas de plafond défini.
 
 Elle se base sur l'infrastructure logicielle MultiCoin, [développée](https://bitcointalk.org/index.php?topic=24209.msg300830#msg300830) par Scott Carlson (Sacarlson).
+
+
+Plusieurs services de change avec le bitcoin apparaissent. Il y a le Bitparking Namecoin Exchange qui est [lancé](https://bitcointalk.org/index.php?topic=11530.msg162730#msg162730) par Doublec le juin. Moonco.in [lance](https://bitcointalk.org/index.php?topic=31768.msg399398#msg399398) son service de change entre le namecoin et le bitcoin en juillet. Un service appelé Solidcoin24 dédié au change entre le solidcoin et le BTC/NMC est [ouvert](https://bitcointalk.org/index.php?topic=40471.msg493032#msg493032) à la fin du mois d'août. Enfin, la plateforme de change russe BTC-e, ouverte en août, [se spécialise](https://web.archive.org/web/20111017024937/https://bitcointalk.org/index.php?topic=40889.0) rapidement dans la négociation de cryptomonnaies alternatives, et en intègre les principales au fil de leur sortie.
+
+Dû à une forte augmentation des sujets concernant les *altcoins*, une sous-section intitulée « Monnaies alternatives » (original: "Alternate currencies") est créée sur le forum en septembre. Un site web, Allchains.info, est également [ouvert](https://bitcointalk.org/index.php?topic=41546.msg505943#msg505943) pour recenser les taux de change, la difficulté et le taux de hachage des différentes chaines.
+
+![Taux de change entre les différentes cryptomonnaies alternatives en janvier 2012](assets/en/allchainsinfo-20120113.webp)
+
+Taux de change entre les différentes cryptomonnaies alternatives en janvier 2012 (source : [archive](https://web.archive.org/web/20120113143526/http://allchains.info/) de Allchains.info)
 
 ### La résistance aux GPU : Tenebrix
 
@@ -1322,6 +1315,10 @@ C'est pourquoi Michael McLees [prend l'initiative](https://bitcointalk.org/index
 https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/ "Ex-Googler Gives the World a Better Bitcoin" [30/8/2013](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/)
 
 Charlie Lee [est](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/) un développeur américain d'origine chinoise, qui est né en Côte d'Ivoire en 1977 et a déménagé aux États-Unis avec sa famille à l'âge de 13 ans. Studieux, il a obtenu un master en informatique au MIT. En 2011, il habite dans la Silicon Valley et travaille en tant que développeur pour Google, notamment sur ChromeOS. Sceptique à l'égard de la Réserve Fédérale, il est enthousiaste à propos de l'or.
+
+![Charlie Lee en mars 2013](assets/en/charlie-lee-march-2013-bitcoin-conf.webp)
+
+Charlie Lee en mars 2013 (source : [archive](https://web.archive.org/web/20130331071808/http://www.bitcoin2013.com/bitcoin-2013-panelists.html) de Bitcoin2013.com)
 
 Il découvre l'existence de Bitcoin en juin 2011 en [lisant](https://twitter.com/satoshilite/status/1020131826369585152) un article sur Silk Road. Assez rapidement, il contacte Mike Hearn (qui travaille aussi pour Google, depuis Zurich) qui le convainc de la solidité de Bitcoin. Il participe à la conférence de Bruce Wagner à New York en août. Il s'intéresse par ailleurs aux cryptomonnaies alternatives, et se retrouve à lancer Fairbrix le 2 octobre.
 
@@ -1374,9 +1371,13 @@ Gavin : "The test network (run bitcoin with the -testnet flag) is a different b
 
 Quand utilisé de manière péjorative (pour parler du travail des autres), [d'après](http://catb.org/jargon/html/Y/Yet-Another.html) le libriste Eric S. Raymond, le terme « décrit quelque chose qui existe déjà en trop grand nombre » (original: "Describes something of which there are already far too many.")
 
-Thomas V : https://bitcointalk.org/index.php?topic=38453.msg471316#msg471316
+- Thomas Voegtlin : "Currencies compete when they have different properties. Gold and silver do have different physical properties. The fiat currencies created by central banks have different properties, mostly linked to the economy of the country that issues them. Peer-to-peer currencies can have different properties too; for example, a Bitcoin variant with a constant inflation rate would be significantly different from Bitcoin, and would be able to compete, although I am not sure if it would easily find early adopters.
 
-"Currencies compete when they have different properties. Gold and silver do have different physical properties." [ThomasV](https://bitcointalk.org/index.php?topic=37592.msg463263#msg463263)
+This is clearly not the case with ixcoin and i0coin; the only difference is in the initial distribution, and a few cosmetic changes. Therefore, these currencies are merely Bitcoin clones. As such, they need to live in the same niche as Bitcoin. That is the niche of 'digital resource with finite supply that will still be valuable in the future'.
+
+It is impossible for two currencies to live in that same niche, because one of them will be perceived as more likely than the other to hold its future value. People will use that currency for long-term storage of value, and they will progressively drop the other one. Thus, Bitcoin clones are mutually exclusive. Bitcoin's historical precedence give it legacy, and strong network effects play for it. It is too late to change that." [17/8](https://bitcointalk.org/index.php?topic=37592.msg463263#msg463263)
+
+"These alternate blockchains are launched by people trying to make quick money before the value drops to nothing." [21/8](https://bitcointalk.org/index.php?topic=38453.msg471316#msg471316)
 
 
 - Gavin Andresen, scepticisme, conservatisme, [avertissement du 9/9/2011](https://bitcointalk.org/index.php?topic=42465.msg516789#msg516789)
@@ -1406,11 +1407,15 @@ janvier 2012 : "Luke filed DMCA takedown notices to SolidCoin over his infringi
 
 ### La tentation de la preuve d'enjeu : PPCoin
 
-PPCoin, août 2012, Sunny King, Scott Nadal, preuve d'enjeu
+Au printemps 2012, les choses se calment. Néanmoins, on voit quand même quelques cryptomonnaies alternatives se développer durant cette année, comme le [Timekoin](https://bitcointalk.org/index.php?topic=88467.msg974001#msg974001) de Michael Brown, le [Qubic](https://bitcointalk.org/index.php?topic=112676.msg1218867#msg1218867) de Come-From-Beyond ou le [Freicoin](https://bitcointalk.org/index.php?topic=133020.msg1416459#msg1416459) de Jorge Timón. Mais les systèmes principaux sont PPCoin et la mise en œuvre de Ripple, qui représentent deux modèles différents à Bitcoin : la preuve d'enjeu et la preuve d'autorité.
 
-Sunny King : [a appris](https://bitcointalk.org/index.php?topic=15672.msg1076876#msg1076876) l'existence de Bitcoin en 2010, mais ne s'y intéressé qu'après la grande bulle de 2011. Commence à travailler sur le modèle de PPCoin en octobre 2011.
+Le premier est PPCoin (« peer-to-peer coin ») qui est lancé en août 2012. Il met en œuvre le procédé de preuve d'enjeu, qui a été [décrit](https://www.links.org/files/decentralised-currencies.pdf) pour la première fois en juillet 2011 par le développeur et activiste britannique Ben Laurie et dont le nom a été [inventé](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) par un certain QuantumMechanic sur le forum de Bitcoin. Le principe consiste à remplacer l'énergie électrique dépensée par la possession d'unités pour déterminer la probabilité de produire un bloc.
 
-Lancement le dimanche 19 août 2012 à 18 heures.
+PPCoin est conçu par un groupe de personnes mené par un développeur [utilisant](https://talk.peercoin.net/t/transcript-of-sunny-king-interview-with-vitalik-buterin-from-bitcoinmagazine/463) le « nom de plume » (original: "pen identity") Sunny King, qui a [appris](https://bitcointalk.org/index.php?topic=15672.msg1076876#msg1076876) l'existence de Bitcoin en 2010 et s'y est impliqué à partir de la grande bulle de 2011. En octobre 2011, ils ont l'idée de reprendre le concept d'« âge des pièces » (*coin age*) pour mettre en place un système de preuve d'enjeu hybride. Certains blocs de la chaine minés par preuve de conservation  plus un UTXO est ancien, plus il a d'influence dans le processus. [Dans le livre blanc](https://web.archive.org/web/20121021014644/http://www.ppcoin.org/static/ppcoin-paper.pdf)), ils décrivent leur solution comme « économe en énergie à long terme » (original: "long-term energy-efficient").
+
+Ils mettent leur projet à exécution en août 2012 : la nouvelle cryptomonnaie est [annoncée](https://bitcointalk.org/index.php?topic=99735.msg1091012#msg1091012) le 10 août et [lancée](https://bitcointalk.org/index.php?topic=101820.msg1113938#msg1113938) le 19 vers 18 heures. La politique monétaire est plutôt avantageuse : il n'y a pas de préminage, le taux de création monétaire par preuve d'enjeu est limité à 1 % par an, le taux de création monétaire par preuve de travail dépend de la difficulté du réseau (si bien qu'il est sensiblement réduit au bout de quelques mois).
+
+PPCoin connait un relatif succès, occupant la quatrième place dans le classement des cryptomonnaies en mai 2013. Toutefois, son système de consensus reste un modèle hybride. Pour avoir un système de preuve d'enjeu pure, il faudra attendre la plateforme [NXT](https://bitcointalk.org/index.php?topic=303898.msg3253022#msg3253022), lancée en novembre 2013. PPCoin [sera](https://bitcointalk.org/index.php?topic=114994.msg3713127#msg3713127) progressivement rebaptisé Peercoin à la fin de l'année 2013.
 
 ### La banque : Ripple
 

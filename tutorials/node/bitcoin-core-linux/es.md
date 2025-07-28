@@ -23,13 +23,13 @@ La siguiente parte de este artículo es una guía de instalación de Bitcoin Cor
 
 ## Guía de instalación de Bitcoin Core en Debian/Ubuntu
 
-> Requisitos previos
->
-> - Al menos 6GB de almacenamiento de datos (nodo podado/pruned node) - 1TB de almacenamiento de datos (nodo completo/full node)
-> - Prever al menos 24 horas para completar el IBD (Initial Block Download o Descarga Inicial de Bloques). Esta operación es obligatoria incluso para un nodo podado.
-> - Prever ~600GB de ancho de banda para el IBD, incluso para un nodo podado.
+**Requisitos previos**
 
-> 💡 Los siguientes comandos están predefinidos para la versión 24.1 de Bitcoin Core.
+- Al menos 6GB de almacenamiento de datos (nodo podado/pruned node) - 1TB de almacenamiento de datos (nodo completo/full node)
+- Prever al menos 24 horas para completar el IBD (Initial Block Download o Descarga Inicial de Bloques). Esta operación es obligatoria incluso para un nodo podado.
+- Prever ~600GB de ancho de banda para el IBD, incluso para un nodo podado.
+
+**💡 Los siguientes comandos están predefinidos para la versión 24.1 de Bitcoin Core.**
 
 ## Descarga y verificación de archivos
 
@@ -45,10 +45,11 @@ La siguiente parte de este artículo es una guía de instalación de Bitcoin Cor
 
 Cada firma devolverá una línea que comienza con: gpg: Good signature y otra que termina con Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (ejemplo de la huella digital de la clave PGP de Pieter Wuille).
 
-> 💡 No es necesario que todas las claves de los firmantes devuelvan un "OK". En realidad, solo una podría ser necesaria. Depende del usuario determinar su propio umbral de validación en relación a la verificación mediante PGP.
->
-> Puedes ignorar los mensajes WARNING: This key is not certified with a trusted signature!
+**💡 No es necesario que todas las claves de los firmantes devuelvan un "OK".** En realidad, solo una podría ser necesaria. Depende del usuario determinar su propio umbral de validación en relación a la verificación mediante PGP.
 
+Puedes ignorar los mensajes WARNING: 
+
+> This key is not certified with a trusted signature!
 > There is no indication that the signature belongs to the owner.
 
 ## Instalación de la interfaz gráfica de Bitcoin Core
@@ -123,11 +124,11 @@ Alternativamente, para permanecer solo en la red Tor y mitigar el riesgo de un a
 
 Para consultar los registros de tu nodo Bitcoin en relación específicamente con su interacción con Tor, agrega: debug=tor al archivo bitcoin.conf. Ahora tendrás la información relevante sobre Tor en el registro de depuración, que puedes consultar en la ventana Información con el botón Archivo de registro de depuración. También es posible consultar estos registros directamente en la terminal con el comando bitcoind -debug=tor.
 
-> 💡 Algunos enlaces interesantes:
->
-> - Página wiki que explica Tor y su relación con Bitcoin
-> - Generador de archivo de configuración de Bitcoin Core por Jameson Lopp
-> - Guía de configuración de Tor por Jon Atack
+**💡 Algunos enlaces interesantes:**
+
+- Página wiki que explica Tor y su relación con Bitcoin
+- Generador de archivo de configuración de Bitcoin Core por Jameson Lopp
+- Guía de configuración de Tor por Jon Atack
 
 Como siempre, si tienes alguna pregunta, no dudes en compartirla con la comunidad Agora256, ¡aprendemos juntos para ser mejores mañana de lo que somos hoy!
 

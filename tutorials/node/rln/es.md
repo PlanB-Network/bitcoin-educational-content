@@ -14,7 +14,7 @@ Entre las notables contribuciones de Bitfinex al ecosistema RGB se encuentra [la
 
 El equipo de Bitfinex también ha diseñado un monedero móvil RGB, llamado "[*Iris Wallet*](https://iriswallet.com/)", disponible en Android. Este monedero integra el uso de un servidor proxy RGB para gestionar fácilmente intercambios de datos fuera de la cadena (*consignaciones*) para *Client-side Validation* en RGB.
 
-Bitfinex también ha desarrollado el proyecto `rgb-lightning-node` (RLN). Se trata de un daemon Rust basado en un fork de `rust-lightning` (LDK), modificado para tener en cuenta la existencia de activos RGB en un canal. Cuando se abre un canal, se puede especificar la presencia de tokens RGB, y cada vez que se actualiza el estado del canal, se crea una transición de estado que refleja la distribución de tokens en las salidas de Lightning. Esto permite :
+Bitfinex también ha desarrollado el proyecto `rgb-lightning-node` (RLN). Se trata de un daemon Rust basado en un fork de `rust-lightning` (LDK), modificado para tener en cuenta la existencia de activos RGB en un canal. Cuando se abre un canal, se puede especificar la presencia de tokens RGB, y cada vez que se actualiza el estado del canal, se crea una transición de estado que refleja la distribución de tokens en las salidas de Lightning. Esto permite:
 
 
 - Abrir canales Lightning en USDT, por ejemplo;
@@ -35,7 +35,7 @@ https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Instalación del nodo Lightning compatible con RGB
 
-Para compilar e instalar el binario `rgb-lightning-node`, comenzamos clonando el repositorio y sus submódulos, luego ejecutamos el archivo :
+Para compilar e instalar el binario `rgb-lightning-node`, comenzamos clonando el repositorio y sus submódulos, luego ejecutamos el archivo:
 
 ```bash
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
@@ -47,7 +47,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 - La opción `--recurse-submodules` también clona los subdispositivos necesarios (incluida la versión modificada de `rust-lightning`);
 - La opción `--shallow-submodules` restringe la profundidad del clon para acelerar la descarga, al tiempo que proporciona acceso a los commits esenciales.
 
-Desde la raíz del proyecto, ejecute el siguiente comando para compilar e instalar el binario :
+Desde la raíz del proyecto, ejecute el siguiente comando para compilar e instalar el binario:
 
 ```bash
 cargo install --locked --debug --path .
@@ -57,14 +57,14 @@ cargo install --locked --debug --path .
 
 
 - `--locked` garantiza que se respete la versión de las dependencias;
-- `--debug` no es obligatorio, pero puede ayudarte a centrarse (puedes utilizar `--release` si lo prefieres) ;
+- `--debug` no es obligatorio, pero puede ayudarte a centrarse (puedes utilizar `--release` si lo prefieres);
 - `--path .` indica a `cargo install` que instale desde el directorio actual.
 
 Al final de este comando, un ejecutable `rgb-lightning-node` estará disponible en tu `$CARGO_HOME/bin/`. Asegúrate de que esta ruta está en tu `$PATH` para que puedas invocar el comando desde cualquier directorio.
 
 ## Requisitos previos
 
-Para funcionar, el daemon `rgb-lightning-node` necesita la presencia y configuración de :
+Para funcionar, el daemon `rgb-lightning-node` necesita la presencia y configuración de:
 
 
 - **Un nodo `bitcoind`**
@@ -89,22 +89,22 @@ Para un uso sencillo, hay un script `regtest.sh` que inicia automáticamente, a 
 
 ![RLN](assets/fr/03.webp)
 
-Permite lanzar un entorno local, aislado y preconfigurado. Crea y destruye contenedores y directorios de datos en cada reinicio. Comenzaremos iniciando el :
+Permite lanzar un entorno local, aislado y preconfigurado. Crea y destruye contenedores y directorios de datos en cada reinicio. Comenzaremos iniciando el:
 
 ```bash
 ./regtest.sh start
 ```
 
-Este script :
+Este script:
 
 
-- Crea un directorio `docker/` para almacenar los archivos ;
-- Ejecuta `bitcoind` en regtest, así como el indexador `electrs` y el `rgb-proxy-server` ;
+- Crea un directorio `docker/` para almacenar los archivos;
+- Ejecuta `bitcoind` en regtest, así como el indexador `electrs` y el `rgb-proxy-server`;
 - Espere hasta que todo esté listo para usar.
 
 ![RLN](assets/fr/04.webp)
 
-A continuación, lanzaremos varios nodos RLN. En shells separados, ejecuta, por ejemplo (para lanzar 3 nodos RLN) :
+A continuación, lanzaremos varios nodos RLN. En shells separados, ejecuta, por ejemplo (para lanzar 3 nodos RLN):
 
 ```bash
 # 1st shell
@@ -126,7 +126,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 - `--ldk-peer-listening-port` especifica en qué puerto Lightning p2p escuchar;
 - `dataldk0/`, `dataldk1/` son las rutas a los directorios de almacenamiento (cada nodo almacena su información por separado).
 
-Ahora puedes ejecutar comandos en tus nodos RLN desde tu navegador, gracias a la API. En particular, aquí es donde puedes *desbloquear* daemons. Simplemente abre un navegador en el mismo ordenador que tus nodos, e introduce la URL :
+Ahora puedes ejecutar comandos en tus nodos RLN desde tu navegador, gracias a la API. En particular, aquí es donde puedes *desbloquear* daemons. Simplemente abre un navegador en el mismo ordenador que tus nodos, e introduce la URL:
 
 ```url
 https://rgb-tools.github.io/rgb-lightning-node/
@@ -142,7 +142,7 @@ La respuesta le proporcionará una dirección.
 
 ![RLN](assets/fr/06.webp)
 
-En el Regtest `bitcoind`, vamos a minar algunos bitcoins. Ejecutar :
+En el Regtest `bitcoind`, vamos a minar algunos bitcoins. Ejecutar:
 
 ```bash
 ./regtest.sh mine 101
@@ -179,7 +179,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network testnet
 ```
 
-Por defecto, si no se encuentra ninguna configuración, el daemon intentará utilizar el archivo :
+Por defecto, si no se encuentra ninguna configuración, el daemon intentará utilizar el archivo:
 
 
 - `bitcoind_rpc_host`: `electrum.iriswallet.com`
@@ -187,7 +187,7 @@ Por defecto, si no se encuentra ninguna configuración, el daemon intentará uti
 - indexer_url`: `ssl://electrum.iriswallet.com:50013`
 - `proxy_endpoint`: `rpcs://proxy.iriswallet.com/0.2/json-rpc`
 
-Con inicio de sesión :
+Con inicio de sesión:
 
 
 - `bitcoind_rpc_username`: `user`
@@ -213,7 +213,7 @@ http://localhost:3001/createutxos
 
 ![RLN](assets/fr/10.webp)
 
-Por supuesto, puedes adaptar el pedido. Para confirmar la transacción, minamos un :
+Por supuesto, puedes adaptar el pedido. Para confirmar la transacción, minamos un:
 
 ```bash
 ./regtest.sh mine 1
@@ -236,7 +236,7 @@ http://localhost:3001/issueassetnia
 
 ![RLN](assets/fr/11.webp)
 
-La respuesta incluye el identificador del activo recién creado. No olvides anotar este identificador. En mi caso, es :
+La respuesta incluye el identificador del activo recién creado. No olvides anotar este identificador. En mi caso, es:
 
 ```txt
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
@@ -256,7 +256,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-El comando devuelve la clave pública de mi nodo n°2 :
+El comando devuelve la clave pública de mi nodo n°2:
 
 ```txt
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
@@ -264,7 +264,7 @@ El comando devuelve la clave pública de mi nodo n°2 :
 
 ![RLN](assets/fr/13.webp)
 
-A continuación, abriremos el canal especificando el activo correspondiente (`PBN`). El comando `/openchannel` permite definir el tamaño del canal en satoshis y optar por incluir el activo RGB. Depende de lo que quieras crear, pero en mi caso, el comando es :
+A continuación, abriremos el canal especificando el activo correspondiente (`PBN`). El comando `/openchannel` permite definir el tamaño del canal en satoshis y optar por incluir el activo RGB. Depende de lo que quieras crear, pero en mi caso, el comando es:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -287,10 +287,10 @@ Más información aquí:
 
 
 - `peer_pubkey_and_opt_addr`: Identificador del peer al que queremos conectarnos (la clave pública que encontramos antes);
-- `capacidad_sat`: Capacidad total del canal en satoshis ;
-- `push_msat`: Cantidad en milisatoshis transferida inicialmente al par cuando se abre el canal (aquí transfiero inmediatamente 10.000 sats para que él pueda hacer una transferencia RGB más tarde) ;
-- `asset_amount`: Cantidad de activos RGB a comprometer en el canal ;
-- `asset_id` : Identificador único del activo RGB involucrado en el canal;
+- `capacidad_sat`: Capacidad total del canal en satoshis;
+- `push_msat`: Cantidad en milisatoshis transferida inicialmente al par cuando se abre el canal (aquí transfiero inmediatamente 10.000 sats para que él pueda hacer una transferencia RGB más tarde);
+- `asset_amount`: Cantidad de activos RGB a comprometer en el canal;
+- `asset_id`: Identificador único del activo RGB involucrado en el canal;
 - público Indica si el canal debe hacerse público para su enrutamiento en la red.
 
 ![RLN](assets/fr/14.webp)
@@ -316,12 +316,12 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3002/lninvoice
 ```
 
-Con :
+Con:
 
 
-- `amt_msat`: Importe del cobro en milisatoshis (mínimo 3000 sats) ;
-- `expiry_sec` : Tiempo de expiración del recibo en segundos ;
-- `asset_id` : Identificador del activo RGB asociado al cobro ;
+- `amt_msat`: Importe del cobro en milisatoshis (mínimo 3000 sats);
+- `expiry_sec`: Tiempo de expiración del recibo en segundos;
+- `asset_id`: Identificador del activo RGB asociado al cobro;
 - `importe_activo`: Importe del activo RGB que se va a transferir con este recibo.
 
 En respuesta, obtendrás un cobro RGB:
@@ -344,7 +344,7 @@ http://localhost:3001/sendpayment
 
 ![RLN](assets/fr/17.webp)
 
-Se ha efectuado el pago. Esto puede verificarse ejecutando el comando :
+Se ha efectuado el pago. Esto puede verificarse ejecutando el comando:
 
 ```bash
 curl -X 'GET' \
@@ -354,14 +354,14 @@ curl -X 'GET' \
 
 ![RLN](assets/fr/18.webp)
 
-He aquí cómo desplegar un nodo Lightning modificado para transportar activos RGB. Esta demostración se basa en :
+He aquí cómo desplegar un nodo Lightning modificado para transportar activos RGB. Esta demostración se basa en:
 
 
-- Un entorno regtest (mediante `./regtest.sh`) o testnet ;
-- Un nodo Lightning (`rgb-lightning-node`) basado en un `bitcoind`, un indexador y un `rgb-proxy-server` ;
+- Un entorno regtest (mediante `./regtest.sh`) o testnet;
+- Un nodo Lightning (`rgb-lightning-node`) basado en un `bitcoind`, un indexador y un `rgb-proxy-server`;
 - Una serie de API REST JSON para abrir/cerrar canales, emitir tokens, transferir activos a través de Lightning, etc.
 
-Gracias a este proceso :
+Gracias a este proceso:
 
 
 - Las transacciones de compromiso Lightning incluyen una salida adicional (OP_RETURN o Taproot) con el anclaje de una transición RGB;

@@ -76,7 +76,7 @@ En las opciones 2FA, puedes elegir utilizar una llave de seguridad física como 
 
 ![KRAKEN](assets/fr/11.webp)
 
-Para más información sobre cómo utilizar este tipo de dispositivo, consulta nuestro tutorial específico :
+Para más información sobre cómo utilizar este tipo de dispositivo, consulta nuestro tutorial específico:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
@@ -88,7 +88,7 @@ Para activar este método, escanea el código QR con la aplicación de tu elecci
 
 ![KRAKEN](assets/fr/13.webp)
 
-Para más información sobre aplicaciones de autenticación, también puedes consultar este tutorial :
+Para más información sobre aplicaciones de autenticación, también puedes consultar este tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -155,12 +155,12 @@ También puedes cambiar tus Bitcoin por otras criptomonedas, como las stablecoin
 
 Selecciona el importe, elije la criptomoneda que deseas obtener y, a continuación, confirme la transacción.
 
-Para estas operaciones, puedes elegir entre diferentes tipos de órdenes: *Mercado*, *Límite* o *Stop-Loss* :
+Para estas operaciones, puedes elegir entre diferentes tipos de órdenes: *Mercado*, *Límite* o *Stop-Loss*:
 
 
-- Mercado* : Permite la compra inmediata al precio actual de mercado;
+- Mercado*: Permite la compra inmediata al precio actual de mercado;
 - Límite*: Permite especificar un precio de compra, y la orden sólo se ejecutará si el precio de mercado alcanza esta cantidad;
-- Stop-Loss* : Vende automáticamente cuando el precio alcanza un umbral determinado.
+- Stop-Loss*: Vende automáticamente cuando el precio alcanza un umbral determinado.
 
 ## 7 - Gestión de transacciones y contabilidad
 
@@ -217,6 +217,6 @@ Dependiendo de los objetivos y la estructura de tu empresa, el uso de Kraken pue
 - Guarda Bitcoin en la plataforma o retíralos para su autocustodia. También puedes retirar Euros a tu cuenta bancaria;
 - Exporta los historiales de transacciones según sea necesario.
 
-Para profundizar en este tema, recomendamos este curso completo de formación sobre la integración de Bitcoin en las empresas, que cubre en detalle la adición al flujo de caja, la aceptación de pagos Bitcoin, y la contabilidad :
+Para profundizar en este tema, recomendamos este curso completo de formación sobre la integración de Bitcoin en las empresas, que cubre en detalle la adición al flujo de caja, la aceptación de pagos Bitcoin, y la contabilidad:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

@@ -1,0 +1,9 @@
+question: Kwa nini utumie programu ya ngome kama NetGuard au RethinkDNS kwenye Android?
+answer: Dhibiti miunganisho ya kibinafsi ya Mtandao
+wrong_answers:
+  - Hifadhi data zote kiotomatiki
+  - Ondoa kizuizi kwa mitandao yote ya Wi-Fi
+  - Sanidua virusi yoyote
+explanation: |
+  Programu hizi hufanya kama ngome za ndani, zinazoruhusu trafiki inayotoka kuzuiwa au kuidhinishwa kwa misingi ya maombi kwa-maombi.
+reviewed: false

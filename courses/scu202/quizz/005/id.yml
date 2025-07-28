@@ -1,0 +1,9 @@
+question: Sistem operasi mana yang mendominasi pasar PC saat ini?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows memiliki pangsa pasar 71% di komputer pribadi, berkat instalasi default dan ekosistem perangkat lunak yang luas.
+reviewed: false

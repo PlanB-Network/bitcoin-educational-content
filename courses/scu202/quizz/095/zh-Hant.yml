@@ -1,0 +1,9 @@
+question: 遠端存取家庭網路的最佳方式是什麼？
+answer: 使用個人 VPN
+wrong_answers:
+  - 開啟公共 SSH 連接埠
+  - 啟動路由器雲端
+  - 使用 WPS
+explanation: |
+  VPN 會建立一個加密隧道來存取本機網路，而不會將關鍵連接埠暴露於網際網路。
+reviewed: false

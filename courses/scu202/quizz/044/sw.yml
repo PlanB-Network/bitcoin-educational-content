@@ -1,0 +1,9 @@
+question: Ni operesheni gani inayohakikisha kuwa programu iliyopakuliwa haijarekebishwa tangu kuchapishwa kwake rasmi?
+answer: Uthibitishaji wa uadilifu kupitia Hash
+wrong_answers:
+  - Uthibitishaji wa uhalisi kupitia sahihi ya msanidi programu
+  - Uchambuzi wa programu kupitia firewall
+  - Kuendesha programu katika hali salama
+explanation: |
+  Kukagua uadilifu kunatokana na kulinganisha Hash ya faili iliyopakuliwa na ile iliyochapishwa na msanidi. Marekebisho yoyote kwenye faili hurekebisha Hash hii.
+reviewed: false

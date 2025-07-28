@@ -1,0 +1,9 @@
+question: Quale meccanismo deve essere attivato nell'UEFI per impedire l'esecuzione di codice non firmato all'avvio?
+answer: Avvio sicuro
+wrong_answers:
+  - Avvio rapido
+  - Avvio veloce
+  - Modulo di piattaforma affidabile (TPM)
+explanation: |
+  Secure Boot garantisce che solo il software autenticato possa avviare il sistema, limitando così il rischio di infezione da parte di bootkit/rootkit.
+reviewed: false

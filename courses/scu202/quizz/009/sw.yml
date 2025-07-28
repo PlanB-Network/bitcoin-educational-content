@@ -1,0 +1,9 @@
+question: Jukumu kuu la mfumo wa uendeshaji ni nini?
+answer: Mpatanishi kati ya maunzi, mtumiaji na programu
+wrong_answers:
+  - Antivirus iliyojumuishwa
+  - Programu ya michoro
+  - Seva ya ujumbe wa papo hapo
+explanation: |
+  Mfumo wa uendeshaji hufanya kazi kama programu kuu ya Layer inayowezesha programu na mtumiaji kufikia na kudhibiti maunzi.
+reviewed: false

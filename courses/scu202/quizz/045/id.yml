@@ -1,0 +1,9 @@
+question: Alat macOS mana yang memungkinkan enkripsi disk sistem penuh?
+answer: FileVault
+wrong_answers:
+  - Utilitas Disk
+  - gantungan Kunci iCloud
+  - BitLocker
+explanation: |
+  FileVault adalah solusi enkripsi disk asli yang terintegrasi ke dalam macOS.
+reviewed: false

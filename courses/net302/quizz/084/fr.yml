@@ -1,0 +1,9 @@
+question: Quelle commande historique permet de consulter le cache ARP sur la plupart des systèmes ?
+answer: arp
+wrong_answers:
+  - dig
+  - nslookup
+  - ping
+explanation: |
+  La commande arp permet de consulter ou modifier le cache ARP, qui stocke les correspondances IP/MAC localement.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Které vykreslovací jádro bylo vytvořeno z Fork KHTML pro Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gekon
+  - Blink
+explanation: |
+  WebKit je Fork jazyka KHTML, který si od roku 2003 vybrala společnost Apple pro prohlížeč Safari a následně jej převzalo mnoho prohlížečů.
+reviewed: false

@@ -1,0 +1,9 @@
+question: GNOMEとXfceで使われているグラフィックツールキットは?
+answer: ジーティーケー
+wrong_answers:
+  - Qt
+  - Tkinter
+  - パターン
+explanation: |
+  GNOME、Xfce、Cinnamon、MATEは、Linuxのグラフィカル・ユーザー・インターフェース専用のソフトウェア・ライブラリであるGTKをベースにしています。
+reviewed: false

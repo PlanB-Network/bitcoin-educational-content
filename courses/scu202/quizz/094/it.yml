@@ -1,0 +1,9 @@
+question: Quale progetto ha gettato le basi del moderno Internet alla fine degli anni '60?
+answer: ARPANET
+wrong_answers:
+  - Il World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET è stata la prima rete interconnessa, progettata per collegare diversi centri di ricerca, ed è il diretto precursore di Internet.
+reviewed: false

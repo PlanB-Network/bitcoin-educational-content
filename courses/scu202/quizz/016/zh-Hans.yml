@@ -1,0 +1,9 @@
+question: 哪个发行版系列使用 RPM 软件包管理器？
+answer: 红帽
+wrong_answers:
+  - Debian
+  - 拱门
+  - Slackware
+explanation: |
+  RPM 格式由 Red Hat 首创，是 Fedora、RHEL、CentOS、AlmaLinux、Rocky Linux 和其他相关发行版的基础。
+reviewed: false

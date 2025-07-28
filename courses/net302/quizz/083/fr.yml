@@ -1,0 +1,9 @@
+question: Quel est l’état d’une entrée dans le cache ip neigh lorsque la correspondance IP/MAC est valide et récente ?
+answer: REACHABLE
+wrong_answers:
+  - CONNECTED
+  - VALID
+  - STALE
+explanation: |
+  L’état REACHABLE signifie que l’association IP/MAC est connue et fonctionnelle dans le cache de voisinage.
+reviewed: false

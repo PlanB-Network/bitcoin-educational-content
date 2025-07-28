@@ -1,0 +1,9 @@
+question: Quelle est la principale faiblesse d’un réseau en anneau ?
+answer: La défaillance d’un seul poste peut interrompre tout le réseau
+wrong_answers:
+  - Il nécessite beaucoup de câbles pour relier chaque équipement
+  - Il est difficile à étendre
+  - Sa gestion est complexe
+explanation: |
+  En topologie en anneau, la panne d’un équipement rompt la boucle et empêche la circulation des données.
+reviewed: false

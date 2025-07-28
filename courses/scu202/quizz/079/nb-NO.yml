@@ -1,0 +1,9 @@
+question: Hva er den største risikoen med en uoppdatert smarttelefon?
+answer: Den blir sårbar for kjente sårbarheter
+wrong_answers:
+  - Den bruker mer batteristrøm
+  - Han mister Wi-Fi-tilkoblingen
+  - Den blir mer sårbar for phishing
+explanation: |
+  En uoppdatert smarttelefon er utsatt for offentlig korrigerte sårbarheter som lett kan utnyttes av angripere.
+reviewed: false

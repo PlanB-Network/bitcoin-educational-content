@@ -1,0 +1,9 @@
+question: Ni ipi kati ya mazingira haya ya kompyuta ya mezani inayopendekezwa haswa kwa mashine za zamani au zisizo na nguvu?
+answer: LXQt
+wrong_answers:
+  - Mbilikimo
+  - Mdalasini
+  - Plasma ya KDE
+explanation: |
+  LXQt, kama Xfce, hutumia rasilimali chache na imeundwa kufanya kazi kwa ufanisi kwenye maunzi yenye utendaji wa chini.
+reviewed: false

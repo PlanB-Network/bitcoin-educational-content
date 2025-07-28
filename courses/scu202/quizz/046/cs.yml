@@ -1,0 +1,9 @@
+question: Jaká zásadní opatření je třeba pravidelně provádět při automatizaci zálohování?
+answer: Obnovení testu
+wrong_answers:
+  - Změna poskytovatele internetových služeb
+  - Zakázat zálohování na dovolenou
+  - Testování šifrování
+explanation: |
+  Je důležité pravidelně obnovovat zálohu, abyste zajistili, že soubory nebudou v případě potřeby poškozeny nebo nedostupné.
+reviewed: false

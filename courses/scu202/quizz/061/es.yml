@@ -1,0 +1,9 @@
+question: ¿Qué navegador ofrece bloqueo de publicidad y rastreadores, protección contra huellas dactilares y está basado en Chromium?
+answer: Valiente
+wrong_answers:
+  - Firefox
+  - Tor
+  - Cromo
+explanation: |
+  Brave incluye bloqueo de anuncios, rastreadores y protección avanzada contra huellas digitales por defecto, todo ello basado en Chromium.
+reviewed: false

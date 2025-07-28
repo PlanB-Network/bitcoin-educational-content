@@ -1,0 +1,9 @@
+question: Welches Protokoll weist den an ein Netzwerk angeschlossenen Geräten dynamisch eine lokale IP Address zu?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP weist jedem neuen Gerät, das an das lokale Netz angeschlossen wird, automatisch eine IP Address zu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tên của linh vật biểu tượng của Linux là gì?
+answer: Tux
+wrong_answers:
+  - Công tước
+  - Quái thú
+  - daemon
+explanation: |
+  Tux là linh vật chính thức của hạt nhân Linux kể từ năm 1996, do Larry Ewing tạo ra.
+reviewed: false

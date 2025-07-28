@@ -1,0 +1,9 @@
+question: Je, ni jukwaa gani hufuta metadata kiotomatiki picha inapopakiwa?
+answer: Mawimbi
+wrong_answers:
+  - Gmail
+  - Mtazamo
+  - Blogu yako
+explanation: |
+  Mawimbi (kama vile Kipindi na huduma zingine salama za ujumbe) husafisha metadata ya picha zinazoshirikiwa ili kulinda faragha ya watumiaji.
+reviewed: false

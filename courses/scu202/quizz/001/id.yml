@@ -1,0 +1,9 @@
+question: Praktik apa yang penting untuk membatasi pemaparan data Anda saat berselancar di Internet?
+answer: Menghapus cookie secara teratur
+wrong_answers:
+  - Simpan semua cookie
+  - Menonaktifkan mode pribadi browser
+  - Menggunakan browser yang sudah usang
+explanation: |
+  Menghapus atau membatasi cookie akan mengurangi pelacakan iklan dan menjaga privasi selama penjelajahan web.
+reviewed: false

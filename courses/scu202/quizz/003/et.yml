@@ -1,0 +1,9 @@
+question: Mida tuleks vältida USB-mäluseadmetega?
+answer: Tundmatute USB-pulkade ühendamine
+wrong_answers:
+  - Kasutage NTFS-formaadiga USB-pulki
+  - Krüpteeri oma USB-pulgad
+  - Kasutage uusi USB-mäluseadmeid
+explanation: |
+  Tundmatu USB-pulga ühendamine võib nakatada arvuti pahavara või varastada tundlikke andmeid.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪种地图服务允许完全离线使用且不包含广告跟踪？
+answer: 有机地图
+wrong_answers:
+  - 谷歌地图
+  - Waze
+  - 城市地图
+explanation: |
+  有机地图是一款基于 OpenStreetMap 的开放源码应用程序，与其他专有应用程序不同，它可以离线运行，无需跟踪器或数据收集。
+reviewed: false

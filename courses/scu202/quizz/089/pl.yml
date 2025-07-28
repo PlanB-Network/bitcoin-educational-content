@@ -1,0 +1,9 @@
+question: Która usługa mapowania umożliwia korzystanie z niej całkowicie offline i nie obejmuje śledzenia reklam?
+answer: Mapy organiczne
+wrong_answers:
+  - Mapy Google
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps to aplikacja typu open source oparta na OpenStreetMap, która działa w trybie offline, bez trackerów i gromadzenia danych, w przeciwieństwie do zastrzeżonych alternatyw.
+reviewed: false

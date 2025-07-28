@@ -1,0 +1,9 @@
+question: Vilken komponent i en skrivbordsmiljö används för att visuellt navigera i filer och mappar?
+answer: Filhanterare
+wrong_answers:
+  - Session manager
+  - Kompositör X11
+  - Paketansvarig
+explanation: |
+  Filhanteraren (som Nautilus, Dolphin, Thunar) låter användaren hantera filer och mappar via en grafisk Interface.
+reviewed: false

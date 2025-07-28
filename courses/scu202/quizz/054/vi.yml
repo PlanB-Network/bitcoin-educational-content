@@ -1,0 +1,9 @@
+question: Thông tin nào thường có thể được tìm thấy trong siêu dữ liệu EXIF của ảnh?
+answer: Ngày, giờ, vị trí GPS, kiểu máy, tác giả
+wrong_answers:
+  - Mã nguồn phần mềm máy ảnh
+  - Mật khẩu Wi-Fi của nhiếp ảnh gia
+  - Kết quả diệt virus mới nhất
+explanation: |
+  Siêu dữ liệu EXIF của ảnh thường chứa thông tin ngữ cảnh chi tiết về bức ảnh và máy ảnh.
+reviewed: false

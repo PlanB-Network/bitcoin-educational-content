@@ -1,0 +1,9 @@
+question: Hvilken cybersikkerhetsregel anbefaler å begrense rettighetene til hver bruker eller programvare til det som er strengt nødvendig?
+answer: Prinsippet om minste privilegium
+wrong_answers:
+  - Dobbel autentisering
+  - Retningslinjer for sterke passord
+  - Regelmessig sikkerhetskopiering
+explanation: |
+  Prinsippet om minste privilegium innebærer at man bare gir de nødvendige rettighetene til hver oppgave, noe som reduserer risikoen for kompromittering.
+reviewed: false

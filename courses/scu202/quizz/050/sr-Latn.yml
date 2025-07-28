@@ -1,0 +1,9 @@
+question: Zašto metapodaci digitalnih fajlova predstavljaju rizik za privatnost?
+answer: Oni mogu otkriti osetljive informacije
+wrong_answers:
+  - Oni usporavaju otvaranje antivirusnog programa na nekim sistemima
+  - Oni sprečavaju deljenje fajlova putem e-pošte
+  - Oni mogu da hostuju ransomware
+explanation: |
+  Metapodaci mogu sadržati poverljive informacije koje nisu vidljive kada se datoteka otvori, kao što su GPS koordinate, ime autora, identifikator ili istorija izmena, što može biti zloupotrebljeno bez vašeg znanja.
+reviewed: false

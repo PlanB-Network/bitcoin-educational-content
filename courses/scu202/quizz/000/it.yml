@@ -1,0 +1,9 @@
+question: Che tipo di software è consigliato per i download trasparenti?
+answer: Software gratuito
+wrong_answers:
+  - Software proprietario
+  - Software in versione beta
+  - Software con pubblicità integrata
+explanation: |
+  Il software open source è consigliato perché il suo codice può essere verificato dalla comunità, migliorando la sicurezza e la trasparenza.
+reviewed: false

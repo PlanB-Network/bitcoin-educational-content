@@ -1,0 +1,9 @@
+question: कौन सा macOS टूल पूर्ण सिस्टम डिस्क एन्क्रिप्शन सक्षम करता है?
+answer: फ़ाइलवॉल्ट
+wrong_answers:
+  - तस्तरी उपयोगिता
+  - आईक्लाउड कीचेन
+  - BitLocker
+explanation: |
+  FileVault macOS में एकीकृत मूल डिस्क एन्क्रिप्शन समाधान है।
+reviewed: false

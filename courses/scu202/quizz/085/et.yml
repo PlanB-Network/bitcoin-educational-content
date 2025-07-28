@@ -1,0 +1,9 @@
+question: Millist avatud lähtekoodiga rakendust soovitatakse toiduainete skaneerimiseks koostööandmebaasiga?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts on tasuta, kogukonnapõhine projekt, mis on oma andmete osas läbipaistev, samas kui Yuka põhineb läbipaistmatul, mitte avatud lähtekoodiga mudelil.
+reviewed: false

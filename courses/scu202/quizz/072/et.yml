@@ -1,0 +1,9 @@
+question: Kuidas paigaldada alternatiivset ROM-i Android nutitelefonile?
+answer: Bootloaderi avamine
+wrong_answers:
+  - Apple'i konto loomine
+  - Spetsiaalse SIM-kaardi paigaldamine
+  - Arendusrežiimi aktiveerimine iOS-is
+explanation: |
+  Androidi nutitelefoni uue süsteemipildi kirjutamiseks on vaja bootloaderit avada.
+reviewed: false

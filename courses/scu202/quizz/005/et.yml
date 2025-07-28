@@ -1,0 +1,9 @@
+question: Milline operatsioonisüsteem domineerib tänasel arvutiturul?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windowsil on 71% turuosa personaalarvutites tänu selle vaikimisi paigaldamisele ja ulatuslikule tarkvara ökosüsteemile.
+reviewed: false

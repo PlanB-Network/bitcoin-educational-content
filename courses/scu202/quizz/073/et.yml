@@ -1,0 +1,9 @@
+question: Milline Androidi komponent jääb täielikult avatud lähtekoodiga ja kogukonna poolt kontrollitavaks?
+answer: AOSP
+wrong_answers:
+  - Google mobiiliteenused
+  - Play Store
+  - IOSP
+explanation: |
+  Ainult Androidi AOSP-baas on tasuta. Laialdaselt kasutatavad Google Mobile Services on patenteeritud ja auditeerimata.
+reviewed: false

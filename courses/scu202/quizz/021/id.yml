@@ -1,0 +1,9 @@
+question: Komponen lingkungan desktop apa yang digunakan untuk menavigasi file dan folder secara visual?
+answer: Manajer file
+wrong_answers:
+  - Manajer sesi
+  - Komposer X11
+  - Manajer paket
+explanation: |
+  Manajer file (seperti Nautilus, Dolphin, Thunar) memungkinkan pengguna mengelola file dan folder melalui Interface grafis.
+reviewed: false

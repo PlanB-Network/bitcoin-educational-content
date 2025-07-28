@@ -1,0 +1,9 @@
+question: Ni faida gani kuu ya VPN?
+answer: Inasimba trafiki ya mtandao
+wrong_answers:
+  - Ongeza kasi ya muunganisho wako wa Mtandao
+  - Kuongeza uwezo wa kuhifadhi
+  - Antivirus iliyojumuishwa
+explanation: |
+  VPN huunda njia salama na husimba ubadilishanaji kwa njia fiche kati ya kifaa chako na seva ya kati, hivyo basi kuimarisha usiri.
+reviewed: false

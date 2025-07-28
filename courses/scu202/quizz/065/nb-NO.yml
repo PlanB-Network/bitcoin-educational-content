@@ -1,0 +1,9 @@
+question: Hvilket utsagn beskriver best den private surfemodus?
+answer: Det begrenser registreringen av lokale spor
+wrong_answers:
+  - Det gjør det anonymt å surfe på Internett
+  - Blokkerer alle ondsinnede trackere og skript
+  - Den sletter aktive utvidelser
+explanation: |
+  Privat modus forhindrer bare lokal loggføring av historikk og informasjonskapsler, men garanterer ikke anonymitet på Internett.
+reviewed: false

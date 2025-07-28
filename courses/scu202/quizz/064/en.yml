@@ -1,0 +1,9 @@
+question: Which Blink-based browser is renowned for its speed and compatibility, but collects massive amounts of user data for advertising purposes?
+answer: Chrome
+wrong_answers:
+  - Brave
+  - Firefox
+  - Tor Browser
+explanation: |
+  Although Google Chrome is a powerful tool, by default it collects a great deal of personal data, which Google uses for targeted advertising.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni injini gani ya uwasilishaji iliundwa kutoka kwa Fork ya KHTML ili kuandaa Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Blink
+explanation: |
+  WebKit ni Fork ya KHTML, iliyochaguliwa na Apple kwa Safari kuanzia 2003 na kuendelea, na ikapitishwa na vivinjari vingi.
+reviewed: false

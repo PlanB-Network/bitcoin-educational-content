@@ -1,0 +1,9 @@
+question: Koji Blink-bazirani pregledač je poznat po svojoj brzini i kompatibilnosti, ali prikuplja ogromne količine korisničkih podataka u svrhe oglašavanja?
+answer: Chrome
+wrong_answers:
+  - Hrabro
+  - Firefox
+  - Tor Pregledač
+explanation: |
+  Iako je Google Chrome moćan alat, po podrazumevanim postavkama prikuplja mnogo ličnih podataka, koje Google koristi za ciljno oglašavanje.
+reviewed: false

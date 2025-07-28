@@ -1,0 +1,9 @@
+question: 使用哪条命令可以更新 Ubuntu 发行版上的所有软件包？
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  在 Ubuntu（和 Debian）上，"sudo apt update && sudo apt upgrade "命令会同步软件包列表并安装所有可用的更新。
+reviewed: false

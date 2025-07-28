@@ -57,3 +57,22 @@ Enjoy your discovery!
 <chapterId>c7af1f3b-8a8f-5853-b547-3c178bc7f669</chapterId>
 ![lecture](https://www.youtube.com/watch?v=itce1zdUqjQ)
 
+
+# Final Section
+
+<partId>ee9a7e68-6ba5-11f0-b313-43b0660e13eb</partId>
+
+## Reviews & Ratings
+
+<chapterId>f551b514-6ba5-11f0-833e-b33af48c067b</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>fb0afb14-6ba5-11f0-8b44-4f0935e15322</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

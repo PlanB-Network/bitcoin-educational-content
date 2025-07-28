@@ -1,0 +1,9 @@
+question: Mikä Android-komponentti on täysin avoimen lähdekoodin ja yhteisön tarkastettavissa?
+answer: AOSP
+wrong_answers:
+  - Googlen mobiilipalvelut
+  - Play Store
+  - IOSP
+explanation: |
+  Vain Androidin AOSP-pohja on ilmainen. Laajasti käytetyt Google Mobile Services -palvelut ovat omistusoikeudellisia ja tarkastamattomia.
+reviewed: false

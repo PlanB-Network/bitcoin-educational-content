@@ -1,0 +1,9 @@
+question: ¿Qué es la aplicación Shelter para Android?
+answer: Crear un perfil aislado para particionar los usos
+wrong_answers:
+  - Cifra automáticamente todos los datos del teléfono
+  - Bloquear llamadas no deseadas
+  - Instalar aplicaciones fuera de Play Store
+explanation: |
+  Shelter le permite utilizar la función Perfil de trabajo para separar aplicaciones y datos en un espacio aislado.
+reviewed: false

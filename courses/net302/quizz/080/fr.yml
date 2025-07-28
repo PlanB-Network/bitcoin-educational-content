@@ -1,0 +1,9 @@
+question: Quel logiciel graphique permet une analyse détaillée et pédagogique des paquets réseau capturés ?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Route
+explanation: |
+  Wireshark est un analyseur de paquets graphique permettant l’examen approfondi des flux réseau capturés.
+reviewed: false

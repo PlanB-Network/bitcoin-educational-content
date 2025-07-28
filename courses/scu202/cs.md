@@ -972,11 +972,9 @@ Rodina Arch Linux se vyznačuje filozofií, která je radikálně odlišná od f
 
 Tento přístup je založen na modelu *rolling release*, kdy jsou balíčky průběžně aktualizovány, aniž by bylo nutné systém přeinstalovávat při každém větším vydání. Správce balíčků Pacman je rychlý a nenáročný, což usnadňuje instalaci a aktualizaci softwaru, a komunitní repozitář AUR (*Arch User Repository*) poskytuje přístup k rozsáhlému množství neoficiálních a vývojových balíčků.
 
-
-
 Arch Linux je určen především pokročilým uživatelům, kteří chtějí mít nad svým prostředím naprostou kontrolu a zároveň se smířit s určitou složitostí instalace a údržby. Tento technický požadavek vedl ke vzniku několika odvozených distribucí, jejichž cílem je demokratizovat jeho používání.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Nejznámější je Manjaro, které si zachovává technický základ Arch a nabízí zjednodušenou instalaci, předkonfigurovaná desktopová prostředí a mírně opožděný cyklus vydávání aktualizací, aby se stabilizoval.
 
@@ -1210,15 +1208,11 @@ Arch Linux je minimalistická, průběžně aktualizovatelná distribuce, dodáv
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Specializovaná distribuce
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux je distribuce založená na Debianu a určená pro penetrační testování a bezpečnostní audit. Obsahuje stovky nástrojů pro pentestování. Tato distribuce není příliš vhodná jako hlavní systém pro každodenní použití.
 

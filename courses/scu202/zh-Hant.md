@@ -972,11 +972,9 @@ Arch Linux 系列的哲學與現成的發行版截然不同。它們是極簡主
 
 此方法是基於*滾動發佈*模式，套件會不斷更新，不需要在每次重大發佈時重新安裝系統。Pacman 套件管理器快速且輕量，可輕鬆安裝和更新軟體，而 AUR (*Arch User Repository*)，一個社群儲存庫，可存取大量非官方和開發套件。
 
-
-
 Arch Linux 首先是針對想要完全控制環境的進階使用者，同時也接受一定的安裝與維護複雜度。此技術需求已導致數個衍生發行版的出現，目的在於使其使用更平民化。
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 最著名的是 Manjaro，它保留了 Arch 的技術基礎，同時提供簡化的安裝、預設的桌面環境，以及稍微延遲的發行週期以穩定更新。
 
@@ -1210,15 +1208,11 @@ Arch Linux 是一個簡約、可持續更新的發行版，沒有 Interface 或�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### 專業配送
 
-
-
-
-
 - Kali Linux**：
-
-
 
 Kali Linux 是基於 Debian 的發行版，專為滲透測試和安全稽核而設計。它包含數百個 pentest 工具。此發行版並不適合作為日常使用的主要系統。
 

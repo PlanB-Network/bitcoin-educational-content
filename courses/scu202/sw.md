@@ -972,11 +972,9 @@ Familia ya Arch Linux inatofautishwa na falsafa inayopingana kabisa na ile ya us
 
 Mbinu hii inatokana na muundo wa *utoleo unaoendelea*, ambapo vifurushi husasishwa kila mara, bila hitaji la kusakinisha upya mfumo kwa kila toleo kuu. Kidhibiti cha kifurushi cha Pacman ni cha haraka na chepesi, na hivyo kurahisisha kusakinisha na kusasisha programu, na AUR (*Arch User Repository*), hazina ya jumuiya, hutoa ufikiaji wa safu kubwa ya vifurushi visivyo rasmi na vya ukuzaji.
 
-
-
 Arch Linux inalenga zaidi ya yote kwa watumiaji wa juu ambao wanataka udhibiti kamili juu ya mazingira yao, huku wakikubali utata fulani katika usakinishaji na matengenezo. Mahitaji haya ya kiufundi yamesababisha kuibuka kwa usambazaji kadhaa wa derivative unaolenga kuleta demokrasia ya matumizi yake.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Inayojulikana zaidi ni Manjaro, ambayo huhifadhi msingi wa kiufundi wa Arch huku ikitoa usakinishaji uliorahisishwa, mazingira ya eneo-kazi yaliyopangwa awali na mzunguko wa uchapishaji uliocheleweshwa kidogo ili kuleta utulivu wa masasisho.
 
@@ -1210,15 +1208,11 @@ Arch Linux ni usambazaji mdogo, unaoendelea kusasishwa, unaotolewa bila Interfac
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Usambazaji maalum
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux ni usambazaji unaotegemea Debian iliyoundwa kwa ajili ya majaribio ya kupenya na ukaguzi wa usalama. Inajumuisha mamia ya zana za pentest. Usambazaji huu haufai kabisa kama mfumo mkuu wa matumizi ya kila siku.
 

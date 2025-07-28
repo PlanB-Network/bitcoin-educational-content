@@ -972,11 +972,9 @@ Dòng Arch Linux nổi bật với triết lý hoàn toàn trái ngược với 
 
 Phương pháp này dựa trên mô hình *phát hành liên tục*, trong đó các gói được cập nhật liên tục mà không cần cài đặt lại hệ thống sau mỗi bản phát hành chính. Trình quản lý gói Pacman nhanh và nhẹ, giúp việc cài đặt và cập nhật phần mềm trở nên dễ dàng, và AUR (*Kho lưu trữ người dùng Arch*), một kho lưu trữ cộng đồng, cung cấp quyền truy cập vào một loạt lớn các gói không chính thức và gói phát triển.
 
-
-
 Arch Linux chủ yếu hướng đến người dùng nâng cao, những người muốn kiểm soát toàn bộ môi trường của mình, đồng thời chấp nhận một số phức tạp nhất định trong việc cài đặt và bảo trì. Yêu cầu kỹ thuật này đã dẫn đến sự ra đời của một số bản phân phối phái sinh nhằm mục đích dân chủ hóa việc sử dụng nó.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Nổi tiếng nhất là Manjaro, vẫn giữ nguyên nền tảng kỹ thuật của Arch trong khi cung cấp quá trình cài đặt đơn giản, môi trường máy tính để bàn được cấu hình sẵn và chu kỳ phát hành chậm hơn một chút để ổn định các bản cập nhật.
 
@@ -1210,15 +1208,11 @@ Arch Linux là một bản phân phối tối giản, có thể cập nhật li�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Phân phối chuyên biệt
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux là một bản phân phối dựa trên Debian được thiết kế cho mục đích kiểm tra xâm nhập và kiểm tra bảo mật. Nó bao gồm hàng trăm công cụ kiểm tra thâm nhập. Tuy nhiên, bản phân phối này không thực sự phù hợp để làm hệ thống chính cho mục đích sử dụng hàng ngày.
 

@@ -972,11 +972,9 @@ Keluarga Arch Linux dibedakan oleh filosofi yang secara radikal berlawanan denga
 
 Pendekatan ini didasarkan pada model *rolling release*, di mana paket-paket diperbarui secara terus menerus, tanpa perlu menginstal ulang sistem pada setiap rilis utama. Manajer paket Pacman cepat dan ringan, membuatnya mudah untuk menginstal dan memperbarui perangkat lunak, dan AUR (*Arch User Repository*), sebuah repositori komunitas, menyediakan akses ke berbagai macam paket tidak resmi dan paket pengembangan.
 
-
-
 Arch Linux ditujukan terutama untuk pengguna tingkat lanjut yang menginginkan kendali penuh atas lingkungan mereka, sambil menerima kerumitan tertentu dalam instalasi dan pemeliharaan. Persyaratan teknis ini telah menyebabkan munculnya beberapa distribusi turunan yang bertujuan untuk mendemokratisasi penggunaannya.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Yang paling terkenal adalah Manjaro, yang mempertahankan basis teknis Arch sambil menawarkan instalasi yang disederhanakan, lingkungan desktop yang telah dikonfigurasi sebelumnya, dan siklus rilis yang sedikit tertunda untuk menstabilkan pembaruan.
 
@@ -1210,15 +1208,11 @@ Arch Linux adalah distribusi minimalis yang dapat diperbarui secara terus-meneru
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Distribusi khusus
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux adalah distribusi berbasis Debian yang dirancang untuk pengujian penetrasi dan audit keamanan. Distribusi ini mencakup ratusan alat pentest. Distribusi ini tidak terlalu cocok sebagai sistem utama untuk penggunaan sehari-hari.
 

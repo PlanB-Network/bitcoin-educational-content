@@ -972,11 +972,9 @@ Die Arch-Linux-Familie zeichnet sich durch eine Philosophie aus, die sich radika
 
 Dieser Ansatz basiert auf einem *Rolling-Release*-Modell, bei dem Pakete kontinuierlich aktualisiert werden, ohne dass das System bei jeder größeren Veröffentlichung neu installiert werden muss. Der Pacman-Paketmanager ist schnell und leichtgewichtig, was die Installation und Aktualisierung von Software vereinfacht, und das AUR (*Arch User Repository*), ein Community-Repository, bietet Zugang zu einer großen Anzahl inoffizieller und Entwicklungspakete.
 
-
-
 Arch Linux richtet sich vor allem an fortgeschrittene Benutzer, die eine vollständige Kontrolle über ihre Umgebung wünschen und dabei eine gewisse Komplexität bei der Installation und Wartung in Kauf nehmen. Diese technische Anforderung hat zur Entstehung mehrerer abgeleiteter Distributionen geführt, die darauf abzielen, seine Nutzung zu demokratisieren.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Am bekanntesten ist Manjaro, das die technische Basis von Arch beibehält, aber eine vereinfachte Installation, vorkonfigurierte Desktop-Umgebungen und einen leicht verzögerten Veröffentlichungszyklus zur Stabilisierung von Updates bietet.
 
@@ -1210,15 +1208,11 @@ Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Spezialisierter Vertrieb
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstests und Sicherheitsprüfungen entwickelt wurde. Sie enthält Hunderte von Pentest-Tools. Diese Distribution ist nicht wirklich als Hauptsystem für den täglichen Gebrauch geeignet.
 

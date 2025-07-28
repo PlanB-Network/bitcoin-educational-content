@@ -972,11 +972,9 @@ Arch Linux -perheelle on ominaista filosofia, joka on radikaalisti vastakkainen 
 
 Tämä lähestymistapa perustuu *kierrettävien julkaisujen* malliin, jossa paketteja päivitetään jatkuvasti ilman, että järjestelmää tarvitsee asentaa uudelleen jokaisen suuremman julkaisun yhteydessä. Pacman-pakettihallinta on nopea ja kevyt, joten ohjelmistojen asentaminen ja päivittäminen on helppoa, ja AUR (*Arch User Repository*), yhteisön arkisto, tarjoaa pääsyn laajaan valikoimaan epävirallisia ja kehityspaketteja.
 
-
-
 Arch Linux on suunnattu ennen kaikkea edistyneille käyttäjille, jotka haluavat hallita ympäristöään täydellisesti, mutta hyväksyvät samalla asennuksen ja ylläpidon tietyn monimutkaisuuden. Tämä tekninen vaatimus on johtanut siihen, että on syntynyt useita johdannaisjakeluja, joiden tarkoituksena on demokratisoida sen käyttöä.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Tunnetuin on Manjaro, joka säilyttää Archin teknisen perustan mutta tarjoaa samalla yksinkertaistetun asennuksen, valmiiksi konfiguroidut työpöytäympäristöt ja hieman viivästyneen julkaisusyklin päivitysten vakauttamiseksi.
 
@@ -1210,15 +1208,11 @@ Arch Linux on minimalistinen, jatkuvasti päivittyvä jakelu, joka toimitetaan i
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Erikoistunut jakelu
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux on Debian-pohjainen jakelu, joka on suunniteltu penetraatiotestaukseen ja tietoturvatarkastukseen. Se sisältää satoja pentestityökaluja. Tämä jakelu ei oikein sovellu pääjärjestelmäksi jokapäiväiseen käyttöön.
 

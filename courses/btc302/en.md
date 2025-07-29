@@ -1615,7 +1615,7 @@ In France and a few other countries, there are also **"boîtes à livres "**.
 These are usually made of wood, and welcome books to be donated free of charge. One possibility would be to **leave a flyer; or better still, a book!
 
 
-![image](assets/fr/043.png)
+![image](assets/fr/043.webp)
 
 ![image](assets/fr/044.webp)
 
@@ -2203,7 +2203,7 @@ But as we are only human, we only have a finite amount of time in our lifetime. 
 **Global Bitcoin communities therefore play a fundamental role in building tomorrow's world**; communities in which bitcoiners can **exchange, build and share**. **Together**.
 
 
-![image](assets/fr/061.png)
+![image](assets/fr/061.webp)
 
 
 

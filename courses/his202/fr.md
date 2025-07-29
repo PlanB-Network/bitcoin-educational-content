@@ -1204,7 +1204,7 @@ La découverte de Satoshi Nakamoto a ouvert la voie à toutes les innovations, b
 >
 > original: "The Age of the Internet has finally brought upon us a new phenomenon known as *cryptocurrency*. Satoshi Nakamoto introduced his groundbreaking work *Bitcoin* to the world in 2009, marking the dawn of a new era in the financial history of human civilization. The main breakthrough of Bitcoin is the introduction of *decentralized* public ledger. The term *cryptocurrency* then refers to the new class of virtual currencies with high degree of *decentralization* (also known as *peer-to-peer* in Internet terminology), thus much more resistant to shutdown attempts."
 
-Cette effervescence a été bénéfique à l'expérimentation. C'est ainsi que de nombreux modèles alternatifs ont émergé : on a vu le minage combiné émerger avec Namecoin, la résistance aux GPU avec Tenebrix, la preuve d'enjeu avec PPCoin et la preuve d'autorité avec Ripple. Mais elle a aussi permis aux personnes malintentionnées de cloner Bitcoin et faire un profit avec le préminage, ce qui n'a pas manqué de créer une réaction de rejet dans la communauté de Bitcoin.
+Cette effervescence a été bénéfique à l'expérimentation. Un cas d'usage différent a pu être essayé : les noms de domaine avec Namecoin. Et plusieurs modèles alternatifs ont émergé : on a vu le minage combiné émerger avec Namecoin, la résistance aux GPU avec Tenebrix et Litecoin, et la preuve d'enjeu avec PPCoin. Mais elle a aussi permis aux personnes malintentionnées de cloner Bitcoin et faire un profit avec le préminage, ce qui n'a pas manqué de créer une réaction de rejet dans la communauté de Bitcoin.
 
 ### Les noms de domaine : BitDNS et Namecoin
 
@@ -1400,84 +1400,13 @@ PPCoin est conçu par un groupe de personnes mené par un développeur [utilisan
 
 Ils mettent leur projet à exécution en août 2012 : la nouvelle cryptomonnaie est [annoncée](https://bitcointalk.org/index.php?topic=99735.msg1091012#msg1091012) le 10 août et [lancée](https://bitcointalk.org/index.php?topic=101820.msg1113938#msg1113938) le 19 vers 18 heures. La politique monétaire est plutôt avantageuse : il n'y a pas de préminage, le taux de création monétaire par preuve d'enjeu est limité à 1 % par an, le taux de création monétaire par preuve de travail dépend de la difficulté du réseau (si bien qu'il est sensiblement réduit au bout de quelques mois).
 
-PPCoin connait un relatif succès, occupant la quatrième place dans le classement des cryptomonnaies en mai 2013. Toutefois, son système de consensus reste un modèle hybride. Pour avoir un système de preuve d'enjeu pure, il faudra attendre la plateforme [NXT](https://bitcointalk.org/index.php?topic=303898.msg3253022#msg3253022), lancée en novembre 2013. PPCoin [sera](https://bitcointalk.org/index.php?topic=114994.msg3713127#msg3713127) progressivement rebaptisé Peercoin à la fin de l'année 2013.
+PPCoin connait un relatif succès, et occupera la quatrième place dans le classement des cryptomonnaies en mai 2013. Toutefois, son système de consensus reste un modèle hybride. Pour avoir un système de preuve d'enjeu pure, il faudra attendre la plateforme [NXT](https://bitcointalk.org/index.php?topic=303898.msg3253022#msg3253022), lancée en novembre 2013. PPCoin [sera](https://bitcointalk.org/index.php?topic=114994.msg3713127#msg3713127) progressivement rebaptisé Peercoin à la fin de l'année 2013.
 
-### La banque : Ripple
+###
 
-https://blog.bitmex.com/the-ripple-story/
+Cette floraison des cryptomonnaies alternatives pose les bases de ce qui se passera par la suite, en 2013 et après. De même, la réaction de rejet se fera de plus en plus insistance, débouchant sur la création du maximalisme du bitcoin à l'automne 2014.
 
-27 mai 2011, "Bitcoin without mining" : https://bitcointalk.org/index.php?topic=10193.msg146250#msg146250 ; [Mike Hearn](https://bitcointalk.org/index.php?topic=10193.msg146538#msg146538) : "It sounds somewhat like Ripple. ... Your proposed system is quite different, and relies heavily on trust networks."
-
-Jed McCaleb n'est pas vraiment favorable à l'aspect de résistance à la censure. Le 16 mai 2011, il [suggère](https://bitcointalk.org/index.php?topic=8493.msg123935#msg123935) que Bitcoin devrait être présenté comme « un paypal gratuit accessible à tous » (original: "a free paypal that anyone can use"). Le 27 mai 2011, Jed McCaleb [publie](https://bitcointalk.org/index.php?topic=10193.msg146250#msg146250) sur le forum la description d'un protocole sans minage... Mike Hearn lui [fait remarquer](https://bitcointalk.org/index.php?topic=10193.msg146538#msg146538) que son modèle « ressemble un peu à Ripple » (original: "sounds somewhat like Ripple"), mais qu'il « est très différent et s'appuie fortement sur les réseaux de confiance » (original: "is quite different, and relies heavily on trust networks").
-
-Cette idée de « consensus sans minage » est à la base de Ripple.
-
-XRP, juin 2012 (?)
-
-Membres fondateurs :
-
-- Jed McCaleb ([Jed](https://bitcointalk.org/index.php?action=profile;u=5322))
-
-Jed McCaleb s'allie à Chris Larsen...
-
-- Chris Larssen, entrepreneur de la Silicon Vally, cofondateur d'E-Loan en 1997 (service de prêt hypothécaire en ligne) et de Prosper Marketplace en 2006 (plateforme de prêt entre particuliers)
-
-![Chris Larsen en 2011](assets/en/chris-larsen-2011-americanbanker.webp)
-
-Chris Larsen en 2011 (source : [American Banker](https://www.americanbanker.com/payments/slideshow/8-offbeat-career-paths-of-payments-professionals))
-
-Autres :
-
-- David Schwartz ([JoelKatz](https://bitcointalk.org/index.php?action=profile;u=27870)), attiré par le côté philosophique de Bitcoin (contre la répression monétaire), découvert la chose en juin 2011
-
-Commentaire le 29 novembre 2012 : https://bitcointalk.org/index.php?topic=128413.msg1367542#msg1367542
-
-- Arthur Britto : https://web.archive.org/web/20130408174039/https://ripple.com/
-
-Ripple Protocol Consensus Algorithm (RCA), 2014 : https://exponentialstocks.com/wp-content/uploads/wpforo/default_attachments/1634556441-ripple_consensus_whitepaper.pdf
-
-
-
-Septembre 2012 : fondation de NewCoin Inc. (rapidement renommé OpenCoin Inc.) à San Francisco et [recrutement](https://bitcointalk.org/index.php?topic=108782.msg1181945#msg1181945) de développeurs en C++ et en JS, oct. 2012 : [Graphiste](https://bitcointalk.org/index.php?topic=117418.msg1259492#msg1259492)
-
-BitMEX : "In October 2012, Jesse Powell, the founder and CEO of the Kraken exchange (which launched in 2011) and close friend of McCaleb, participated in Ripple's first seed round with an investment believed to total around $200,000. Roger Ver is also said to have been an early investor in Ripple, apparently investing 'before even the creators knew what it was going to be'." (https://bitcointalk.org/index.php?topic=923267.msg10145624#msg10145624)
-
-En novembre 2012, Ryan Fugger [confie](https://groups.google.com/g/rippleusers/c/IVin3Qwrp7k/m/urzaH_VrQcQJ) les rênes de son projet à Jed McCaleb et Chris Larsen. "I've agreed that Jed's project should use the name Ripple and be considered our primary implementation"
-
-https://source-media-brightspot.s3.us-east-1.amazonaws.com/c5/5c/f798eed04e99ad258de989402184/p18a09qhgj1to21j0ap91ag64eua.jpg
-
-Décembre 2012 : https://web.archive.org/web/20121209010627/http://www.americanbanker.com/issues/177_235/disruptor-chris-larsen-returns-with-a-bitcoin-like-payment-system-1055009-1.html https://web.archive.org/web/20160324175636/http://www.americanbanker.com/issues/177_235/disruptor-chris-larsen-returns-with-a-bitcoin-like-payment-system-1055009-1.html?zkPrintable=1&nopagination=1
-
-Novembre / décembre 2012 : Stefan Thomas est [embauché](https://bitcointalk.org/index.php?topic=7357.msg1390636#msg1390636) par OpenCoin Inc., il en [devient](https://bitcointalk.org/index.php?topic=301635.msg3236213#msg3236213) le directeur technique, après le départ de Jed McCaleb.
-
-"Founder of Mt Gox will launch Ripple", [29/11/2012](https://bitcointalk.org/index.php?topic=128413.msg1367142#msg1367142)
-
-"ripple: let's test it!" [22/2/2013](https://bitcointalk.org/index.php?topic=145896.msg1548973#msg1548973)
-
-Vitalik Buterin, évoqué le 3 janv. 2013 : https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984 ; article complet le 27 févr. 2013 : https://bitcoinmagazine.com/business/introducing-ripple ; https://bitcoinmagazine.com/business/ripple-getting-started-guide-1361931573
-
-Le site d'OpenCoin en avril 2013 : https://web.archive.org/web/20130420015842/http://opencoin.com/ ; ripple.com : https://web.archive.org/web/20130427084703/https://ripple.com/how-ripple-works/
-
-Description du XRP, cryptocarburant : "Ripple contains a virtual currency, called ripples (XRP). These are used to pay the small fee required by the network for each transaction. They can also be sent between two accounts, converted into other currencies, or spent at venues that accept them. The network was created with a fixed and finite number of ripples (100 billion). No more can ever be made."
-
-![Comment Ripple fonctionne, avril 2013](assets/en/ripple-how-it-works-april-2013-ripple-com.webp)
-
-Comment Ripple fonctionne, avril 2013 (source : [Ripple.com](https://web.archive.org/web/20130427084703/https://ripple.com/how-ripple-works/))
-
-Levée de fonds OpenCoin Inc. :
-
-- "OpenCoin announced that it has closed an angel round of funding from Andreessen Horowitz, FF Angel IV, Lightspeed Venture Partners, Vast Ventures, and Bitcoin Opportunity Fund, an investment vehicle for Bitcoins and Bitcoin-related companies.", [11/4/2013](https://www.globenewswire.com/news-release/2013/04/11/1146545/0/en/OpenCoin-Developer-of-Ripple-Protocol-Closes-Funding-From-Andreessen-Horowitz-FF-Angel-IV-Lightspeed-Venture-Partners-and-Angel-Investors.html)
-- "IDG Capital Partners and Google Ventures Invest in Ripple Developer OpenCoin", [14/5/2013](https://www.globenewswire.com/news-release/2013/05/14/1146550/0/en/IDG-Capital-Partners-and-Google-Ventures-Invest-in-Ripple-Developer-OpenCoin.html)
-
-BitMEX : "In April 2013, OpenCoin received $1.5 million in funding from Google Ventures, Andreessen Horowitz, IDG Capital Partners, FF Angel, Lightspeed Venture Partners, the Bitcoin Opportunity Fund, and Vast Ventures. This was the first in many rounds of venture funding and it included some of the most respected venture-capital companies in the world."
-
-Juin 2013 : Jed quitte OpenCoin https://archive.is/ZmXph
-
-Jeb McCaleb décide de créer Stellar après des dissensions avec Chris Larsen. https://bitcointalk.org/index.php?topic=719019.0
-
-Le septembre 2013, OpenCoin Inc. devient Ripple Labs Inc.
-
-protocole sensiblement différent du concept initial, reposant sur un algorithme de consensus et sur une unité de compte native, le XRP
+Ouverture : Ripple, Bitcoin 2.0
 
 
 ## L'essor commercial (avril–sept. 2012)
@@ -1579,9 +1508,9 @@ Coinbase embauchera Charlie Lee, [30/7/2013](https://web.archive.org/web/2013080
 
 Commerce : https://web.archive.org/web/20110525045712/https://en.bitcoin.it/wiki/Trade
 
-CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis déc. 2011–sept. 2012 : https://en.bitcoin.it/wiki/CoinCard https://www.youtube.com/watch?v=n5uoEqb3VaQ
+WeUseCoins : initiative lancée par Stefan Thomas (justmoon) en mars 2011, pour sa vidéo de présentation. Guide de minage : https://bitcointalk.org/index.php?topic=4938.msg72112#msg72112 https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php ; "Getting Started" : https://bitcointalk.org/index.php?topic=29016.msg365385#msg365385 [05/2011](https://web.archive.org/web/20110325025457/http://www.weusecoins.com/getting-started.php) [07/2011](https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php) ; Q&A : [forum déc. 2011](https://bitcointalk.org/index.php?topic=53924.msg642909#msg642909) [capture 01/2012](https://web.archive.org/web/20120107201808/http://www.weusecoins.com/questions.php) ; "Bitcoin for Merchants" : [23/9/2011](https://web.archive.org/web/20110923184030/http://www.weusecoins.com/merchant-tools.php) [07/01/2012](https://web.archive.org/web/20120107042342/http://www.weusecoins.com/merchant-tools.php)
 
-WeUseCoins, "Bitcoin for Merchants" : https://web.archive.org/web/20120107042342/http://www.weusecoins.com/merchant-tools.php
+CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis déc. 2011–sept. 2012 : https://en.bitcoin.it/wiki/CoinCard https://www.youtube.com/watch?v=n5uoEqb3VaQ
 
 - Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
 
@@ -1620,6 +1549,17 @@ jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#m
 
 BitInstant ? Cash in the mail. BTCKing ?
 
+En 2011, Shrem est entré en contact avec un individu nommé Robert Faiella, qui opérait sous le pseudonyme de BTCKing. Faiella était un courtier en bitcoins bien connu sur Silk Road, le célèbre marché du dark web où les utilisateurs pouvaient acheter des biens et des services illégaux, y compris de la drogue, avec des bitcoins. Faiella utilisait BitInstant pour convertir de grandes quantités d'argent liquide en bitcoins, qu'il acheminait ensuite vers la place de marché Silk Road, facilitant ainsi les transactions illicites.
+
+Robert Faiella se présente comme revendeur (de bitcoins).
+
+[Acte d'accusation](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17), Shrem à Nelson :
+
+> « Il n'a enfreint aucune loi et silk road elle-même n'est pas illégale. Nous ne disposons pas non plus de règles à l'encontre des revendeurs. Nous réalisons de gros bénéfices grâce à lui. »
+>
+> original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
+
+
 ### PorcFest 2012
 
 18–24 juin 2012
@@ -1635,10 +1575,6 @@ Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg9876
 **Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
 
 **betco.in** 11 avril 2012, 3171,5 BTC https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855 https://betco.in/
-
-**L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
-
-Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
 
 **Piratage de BitFloor** 4 septembre 2012 : Piratage de BitFloor https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046 https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510
 
@@ -1662,6 +1598,12 @@ TheEndOfMoney interview: Ryan Zhou about Bitcoinica, CoinJar, Ethereum : https:
 
 Bitfinex créé en remplacement, 22 oct. 2012 : https://bitcointalk.org/index.php?topic=119745.0 ; Raphael Nicolle, technicien informatique français
 
+### La première pyramide de Ponzi : Bitcoin Savings & Trust
+
+**L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
+
+Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
+
 ### La prostitution
 
 - Prostitution : Girls Gone Bitcoin
@@ -1683,25 +1625,3 @@ Rançongiciels, CryptoLocker, 5 septembre 2013–mai 2014
 À la fin de l'année 2012, la part des transactions purement illégales commence déjà à décliner.
 
 Mars 2013 : le volume de BitPay dépasse celui de Silk Road : https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315
-
-## L'information et le lobbying (?)
-
-Comment communiquer à propos de Bitcoin
-
-# 2013
-
-## La professionnalisation du minage (janv. 2013)
-
-## L'enthousiasme du printemps 2013
-
-## Portefeuilles et mouvement Bitcoin 2.0 (avr. 2013–août 2013)
-
-## La légitimisation (mai 2013–janv. 2014)
-
-## La fin du Far West (juil. 2013–févr. 2014)
-
-Poursuites contre Erik Voorhees, arrestation de Ross Ulbricht et fermeture de Silk Road, arrêt de la frappe des bitcoins de Casascius, censure bancaire des différentes plateformes, fin de BitInstant et arrestation de Charlie Shrem
-
-# 2014
-
-## La chute de Mt. Gox

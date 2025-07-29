@@ -1,14 +1,14 @@
 ---
-name: BIP0085
-description: Comment utiliser BIP-85 pour générer plusieurs seedphrases à partir d'une seed principale
+name: BIP-85
+description: Comment utiliser le BIP-85 pour générer plusieurs seedphrases à partir d'une seed principale ?
 ---
 ![cover](assets/cover.webp)
 
-## 1. Comprendre BIP-85
+## 1. Comprendre le BIP-85
 
-### 1.1 Qu’est-ce que BIP-85 ?
+### 1.1 Qu’est-ce que le BIP-85 ?
 
-BIP-85 est une fonction avancée qui permet de créer plusieurs **seed phrases secondaires** à partir d’une **seed phrase principale**.
+Le BIP-85 est une fonction avancée qui permet de créer plusieurs **seed phrases secondaires** à partir d’une **seed phrase principale**.
 
 Chaque seed phrase secondaire permet de créer un portefeuille Bitcoin totalement indépendant. Ces portefeuilles peuvent être utilisés pour différents besoins : un hot wallet sur mobile, un portefeuille pour un proche, un portefeuille d’épargne séparé, etc.
 

@@ -1,10 +1,19 @@
---
-name:
-goal:
+---
+name: Spinoza et Bitcoin
+goal: Découvrez les liens philosophiques entre la pensée de Spinoza et Bitcoin comme outils de liberté à travers les siècles.
 objectives:
+  - Comprendre la philosophie pratique de Spinoza et sa quête de liberté.
+  - Explorer les concepts spinozistes du déterminisme et des illusions humaines.
+  - Analyser les parallèles entre la révolution des idées de Spinoza et la révolution technologique de Bitcoin.
 ---
 
-Course Presentation here
+# Une exploration philosophique de la liberté à travers Spinoza et Bitcoin
+
+Ce cours explore les liens profonds entre la philosophie révolutionnaire de Baruch de Spinoza (1632-1677) et Bitcoin, deux outils de liberté séparés par les siècles mais unis par une même quête : l'émancipation humaine face aux servitudes.
+
+Nous découvrirons comment Spinoza, père de la philosophie rationnelle des Lumières, a développé une éthique pratique pour nous libérer des illusions qui nous enferment - le libre arbitre, le finalisme et les superstitions théologiques. Sa méthode géométrique et sa théorie des affects nous montrent comment comprendre notre place dans le monde et orienter notre existence vers ce qui accroît notre puissance d'agir.
+
+Le cours établit ensuite les parallèles fascinants entre cette révolution copernicienne des idées et Bitcoin : deux systèmes qui ne requièrent ni foi aveugle ni autorité centrale, mais simplement l'exercice de la raison. Comme le spinozisme a libéré la pensée des dogmes religieux, Bitcoin libère la monnaie du contrôle étatique, offrant une nouvelle forme de liberté économique ancrée dans les mathématiques et la cryptographie.
 
 +++
 
@@ -564,9 +573,27 @@ Le White Paper publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen
 Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les État puissent s’y opposer.
 Et de façon pacifique, sans contrainte et donc sans prosélytisme.
 C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et Bitcoin pour montrer qu’il ne sert à rien de convaincre quiconque n’adhère pas à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 
+
 À rien et surtout pas par la contrainte, ni par la violence. Car le fait est que Copernic, Galilée, Newton, Darwin, Einstein, Hayek, Spinoza ou Satoshi Nakamoto n’ont ainsi jamais menacé quiconque ne croyait pas en leurs idées et en leurs démonstrations. 
-Je vous remercie de votre attention.
 
 
+# Section finale
+
+<partId>70a5a3c8-6c88-11f0-8753-db07e26dcaf4</partId>
+
+## Avis & Notes
+
+<chapterId>7945c38c-6c88-11f0-a73f-0f7cdf99f53f</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>a557fd32-6c88-11f0-96ff-cfa532cf76a0</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>ae04ab38-6c88-11f0-a496-3be47119e6b6</chapterId>
+<isCourseConclusion>true</isCourseConclusion>
 
 

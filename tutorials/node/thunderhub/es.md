@@ -10,7 +10,7 @@ description: Interfaz Web de gestión de nodo Lightning LND
 
 
 
-ThunderHub es un **gestor de código abierto para nodos Lightning (LND)**, que ofrece una Interfaz intuitiva accesible desde cualquier dispositivo o navegador.
+ThunderHub es un **gestor de código abierto para nodos Lightning (LND)**, que ofrece una interfaz intuitiva accesible desde cualquier dispositivo o navegador.
 
 
 

@@ -149,7 +149,7 @@ Parfois, ces escroqueries peuvent également prendre la forme d'une arnaque aux 
 
 #### Shitcoins et cryptomonnaies offertes
 
-Des projets de crypto-monnaies centralisés offrent parfois des jetons gratuits ("*airdrops*") pour attirer les utilisateurs. Ces jetons n’ont généralement aucune valeur réelle et servent uniquement à créer une illusion de popularité ou à encourager la spéculation. Soyez extrêmement prudent face à ces offres promotionnelles.
+Des projets de cryptomonnaies centralisés offrent parfois des jetons gratuits ("*airdrops*") pour attirer les utilisateurs. Ces jetons n’ont généralement aucune valeur réelle et servent uniquement à créer une illusion de popularité ou à encourager la spéculation. Soyez extrêmement prudent face à ces offres promotionnelles.
 
 #### Usurpation d’identité et phishing
 
@@ -185,9 +185,9 @@ Face à cette réalité, voici quelques bonnes pratiques à adopter pour éviter
 - **Soyez extrêmement prudent vis-à-vis de toute recommandation d’achat d’une cryptomonnaie**. Une personne honnête et compétente ne vous incitera jamais à acheter précipitamment un actif sans vous encourager à faire vos propres recherches ;
 - **Les formations payantes en trading ou en investissement ne sont pas nécessairement synonymes de qualité**. Souvent, elles présentent des techniques risquées ou simplistes, disponibles gratuitement ailleurs sur internet ;
 - **Gardez à l’esprit qu’il n’existe aucune méthode miracle** pour copier facilement les transactions d'un tiers et obtenir exactement les mêmes résultats. Chaque stratégie d’investissement dépend du contexte personnel, des connaissances spécifiques, du timing et d’une multitude d’autres facteurs qu’il est impossible de reproduire à l’identique ;
-- **Soyez particulièrement vigilant face aux recommandations qui semblent trop belles** pour être vraies. Les promesses irréalistes ou les garanties de gains immédiats sont presque systématiquement des signes de manipulation. Rappelez-vous que ce n'est pas parce qu'une personne dit quelque chose que cela est nécessairement vrai.
+- **Soyez particulièrement vigilant face aux recommandations qui semblent trop belles pour être vraies**. Les promesses irréalistes ou les garanties de gains immédiats sont presque systématiquement des signes de manipulation. Rappelez-vous que ce n'est pas parce qu'une personne dit quelque chose que cela est nécessairement vrai.
 
-Enfin, souvenez-vous que chaque personne que vous rencontrez dans l'écosystème Bitcoin ou crypto a nécessairement un agenda personnel, explicite ou implicite, et qu'il n’y a pas d’information totalement neutre. Même ce cours BTC102 que vous suivez actuellement poursuit l’objectif clair de promouvoir une meilleure compréhension de Bitcoin. Soyez donc attentif aux motivations réelles derrière chaque contenu auquel vous êtes exposé. Gardez toujours à l’esprit ce principe essentiel : Si un produit ou un service semble gratuit, c'est probablement que c'est vous le produit.
+Enfin, souvenez-vous que chaque personne que vous rencontrez dans l'écosystème Bitcoin ou crypto a nécessairement un agenda personnel, explicite ou implicite, et qu'il n’y a pas d’information totalement neutre. Même ce cours BTC102 que vous suivez actuellement poursuit l’objectif clair de promouvoir une meilleure compréhension de Bitcoin. Soyez donc attentif aux motivations réelles derrière chaque contenu auquel vous êtes exposé. Gardez toujours à l’esprit ce principe essentiel : si un produit ou un service semble gratuit, c'est probablement que c'est vous le produit.
 
 La meilleure protection reste l’éducation personnelle, le scepticisme bien placé, et surtout, l’habitude constante de vérifier les faits par vous-même.
 
@@ -226,7 +226,7 @@ De plus, l’attrait économique de Bitcoin en fait une cible de choix pour des 
 
 Un point souvent négligé est la mise à jour régulière de vos logiciels et de votre système d’exploitation. Certaines mises à jour corrigent des failles de sécurité susceptibles d’être exploitées par des pirates. Beaucoup hésitent à les installer, de crainte que leur machine devienne plus lente ; en réalité, ne pas mettre à jour son PC vous expose à des vulnérabilités documentées et déjà corrigées.
 
-De même, l’utilisation d’un antivirus fiable est vivement recommandée. Sur Windows, Windows Defender (installé par défaut) peut convenir aux utilisateurs ordinaires ; si vous le souhaitez, vous pouvez opter pour un antivirus commercial (comme Kaspersky, par exemple). Sur Mac, la menace de malware est historiquement moindre, mais reste possible : il est toujours bon de prendre des précautions.
+De même, l’utilisation d’un antivirus fiable est vivement recommandée. Sur Windows, Windows Defender (installé par défaut) peut convenir aux utilisateurs ordinaires ; si vous le souhaitez, vous pouvez opter pour un antivirus commercial (comme Kaspersky, par exemple). Sur Mac, la menace de malware est historiquement moindre, **mais reste possible** : il est toujours bon de prendre des précautions.
 
 ![BTC102-Bitcoin](assets/fr/012.webp)
 
@@ -287,7 +287,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 La protection de la vie privée et la cybersécurité sont étroitement liées : plus vous laissez d’informations en libre accès, plus vous risquez de devenir une cible.
 
-Un **VPN** (*Virtual Private Network*) peut déjà constituer un pas simple pour masquer votre adresse IP et chiffrer vos échanges sur Internet. Cela ne vous rend pas invisible, puisque le fournisseur de VPN peut encore voir vos actions, mais cela rend la tâche plus compliquée à quiconque chercherait à vous espionner ou à cibler vos habitudes de navigation. L’important est de choisir un VPN de confiance, qui ne vous demande pas votre identité, qui permet un paiement du service en BTC et qui ne conserve pas de journaux d’activité.
+Un **VPN** (*Virtual Private Network*) peut déjà constituer un pas simple pour masquer votre adresse IP et chiffrer vos échanges sur internet. Cela ne vous rend pas invisible, puisque le fournisseur de VPN peut encore voir vos actions, mais cela rend la tâche plus compliquée à quiconque chercherait à vous espionner ou à cibler vos habitudes de navigation. L’important est de choisir un VPN de confiance, qui ne vous demande pas votre identité, qui permet un paiement du service en BTC et qui ne conserve pas de journaux d’activité.
 
 ![BTC102-Bitcoin](assets/fr/015.webp)
 
@@ -404,7 +404,7 @@ Dès lors, la règle d’or sur Bitcoin est : "***Not your keys, not your coin
 
 ![BTC102-Bitcoin](assets/fr/024.webp)
 
-Pour éviter ce scénario, il est vivement recommandé de configurer votre propre portefeuille, où vous seul détenez la phrase mnémonique. Cette dernière doit être notée à la main, sur un support physique, et conservée dans un lieu sûr, à l’abri. Certains optent même pour une double sauvegarde, conservée dans deux endroits géographiquement distincts. Quoi qu’il en soit, veillez à **ne jamais stocker votre phrase mnémonique sur un appareil connecté** à Internet ou sur un service cloud, car un simple piratage ou une fuite de données pourrait se révéler catastrophique.
+Pour éviter ce scénario, il est vivement recommandé de configurer votre propre portefeuille, où vous seul détenez la phrase mnémonique. Cette dernière doit être notée à la main, sur un support physique, et conservée dans un lieu sûr, à l’abri. Certains optent même pour une double sauvegarde, conservée dans deux endroits géographiquement distincts. Quoi qu’il en soit, veillez à **ne jamais stocker votre phrase mnémonique sur un appareil connecté** à internet ou sur un service cloud, car un simple piratage ou une fuite de données pourrait se révéler catastrophique.
 
 Si vous souhaitez approfondir vos connaissances sur la sécurisation de votre phrase mnémonique, je vous recommande de consulter cet article. Il détaille les risques encourus et les bonnes pratiques à adopter pour les éviter :
 

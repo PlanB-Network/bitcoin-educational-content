@@ -1,0 +1,9 @@
+question: 哪种说法最恰当地描述了私人浏览模式？
+answer: 它限制了本地痕迹的记录
+wrong_answers:
+  - 它使匿名上网成为可能
+  - 阻止所有恶意跟踪器和脚本
+  - 它会删除活动扩展名
+explanation: |
+  隐私模式只是防止在本地记录历史记录和 cookie，但不能保证在互联网上的匿名性。
+reviewed: false

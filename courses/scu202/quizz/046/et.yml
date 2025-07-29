@@ -1,0 +1,9 @@
+question: Milliseid olulisi ettevaatusabinõusid tuleb varunduste automatiseerimisel regulaarselt rakendada?
+answer: Katse taastamine
+wrong_answers:
+  - Interneti-teenuse pakkuja vahetamine
+  - Lülita puhkuse varundused välja
+  - Krüpteerimise testimine
+explanation: |
+  Oluline on regulaarselt taastada varukoopiaid, et tagada, et failid ei oleks vajaduse korral kahjustatud või kättesaamatuks muutunud.
+reviewed: false

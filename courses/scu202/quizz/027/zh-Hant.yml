@@ -1,0 +1,9 @@
+question: Ubuntu 中哪個圖形工具可讓您輕鬆管理防火牆規則？
+answer: GUFW
+wrong_answers:
+  - 編輯
+  - 鸚鵡螺
+  - 突觸
+explanation: |
+  GUFW 是 UFW 防火牆的圖形化 Interface，讓您不需透過終端即可啟用、停用及設定規則。
+reviewed: false

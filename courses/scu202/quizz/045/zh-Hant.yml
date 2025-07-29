@@ -1,0 +1,9 @@
+question: 哪種 macOS 工具可啟用完整系統磁碟加密？
+answer: 檔案儲存庫
+wrong_answers:
+  - 磁碟公用程式
+  - iCloud 鑰匙鏈
+  - BitLocker
+explanation: |
+  FileVault 是整合至 macOS 的原生磁碟加密解決方案。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hoe kunnen partijen de juiste volgorde van berichten in een beveiligde sessie garanderen?
+answer: Door het gebruik van volgnummers in elk bericht
+wrong_answers:
+  - Door sleutels uit te wisselen voor elk bericht
+  - Door vertragingen toe te voegen tussen berichten
+  - Door berichten te versleutelen met een ander algoritme
+explanation: |
+  Volgnummers zorgen ervoor dat berichten in de juiste volgorde worden ontvangen en voorkomen dat ze opnieuw worden geordend.
+reviewed: false

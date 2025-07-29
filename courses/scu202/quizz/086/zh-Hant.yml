@@ -1,0 +1,9 @@
+question: 哪種開放原始碼翻譯應用程式可與不同的引擎搭配使用，且不會收集您翻譯的文字？
+answer: 翻譯您
+wrong_answers:
+  - Google 翻譯
+  - DeepL
+  - 微軟翻譯器
+explanation: |
+  TranslateYou 充當數個引擎的 Interface，與專屬服務不同，不會追蹤或收集個人資料。
+reviewed: false

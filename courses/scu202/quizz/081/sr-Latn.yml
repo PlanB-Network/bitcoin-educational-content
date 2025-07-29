@@ -1,0 +1,9 @@
+question: Koje je glavno ograničenje Telegrama kada je u pitanju poverljivost poruka?
+answer: Samo tajne razmene su podrazumevano šifrovane od kraja do kraja
+wrong_answers:
+  - Namenjuje anonimnu naknadu za registraciju
+  - Ne garantuje autentičnost primljenih datoteka
+  - Nema dostupnog klijenta otvorenog koda
+explanation: |
+  Podrazumevano, Telegram poruke se čuvaju na serversima kompanije, dok samo tajni četovi imaju koristi od end-to-end enkripcije.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tại sao nên xóa phần mềm không sử dụng hoặc lỗi thời khỏi máy tính?
+answer: Để giảm bề mặt tấn công
+wrong_answers:
+  - Để tăng tốc kết nối Internet của bạn
+  - Để cải thiện các vectơ bảo vệ
+  - Để tăng tuổi thọ pin
+explanation: |
+  Càng ít phần mềm được cài đặt thì càng ít lỗ hổng tiềm ẩn có thể bị kẻ tấn công khai thác.
+reviewed: false

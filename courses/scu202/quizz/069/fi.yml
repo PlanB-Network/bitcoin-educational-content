@@ -1,0 +1,9 @@
+question: Mikä on tärkein syy siihen, miksi selaimesi on tärkeää pitää ajan tasalla?
+answer: Kriittisten tietoturva-aukkojen korjaaminen
+wrong_answers:
+  - Paranna sivun latausnopeutta
+  - Estä phishing
+  - Muistin kulutuksen optimointi
+explanation: |
+  Päivitykset priorisoivat tietoturva-aukkoja, joiden avulla hyökkääjä voi vaarantaa järjestelmän.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jak zainstalować alternatywną pamięć ROM na smartfonie z Androidem?
+answer: Odblokowanie bootloadera
+wrong_answers:
+  - Utwórz konto Apple
+  - Instalacja specjalnej karty SIM
+  - Aktywacja trybu deweloperskiego w systemie iOS
+explanation: |
+  Odblokowanie bootloadera jest niezbędne do zapisania nowego obrazu systemu na smartfonie z Androidem.
+reviewed: false

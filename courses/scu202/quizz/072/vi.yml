@@ -1,0 +1,9 @@
+question: Làm thế nào để cài đặt ROM thay thế trên điện thoại thông minh Android?
+answer: Mở khóa bộ nạp khởi động
+wrong_answers:
+  - Tạo tài khoản Apple
+  - Cài đặt thẻ SIM đặc biệt
+  - Kích hoạt chế độ nhà phát triển trên iOS
+explanation: |
+  Mở khóa bộ nạp khởi động là điều cần thiết để ghi ảnh hệ thống mới vào điện thoại thông minh Android.
+reviewed: false

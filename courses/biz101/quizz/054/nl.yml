@@ -1,0 +1,9 @@
+question: Welke van de volgende software is geen Bitcoin boekhoudoplossing?
+answer: Sparrow
+wrong_answers:
+  - Muntentracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow is geen Bitcoin boekhoudoplossing, terwijl de andere dat wel zijn (het is een Bitcoin Wallet software).
+reviewed: false

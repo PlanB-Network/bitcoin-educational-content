@@ -1,0 +1,9 @@
+question: Vilken gratis plattformsoberoende programvara kan användas för att skapa en krypterad containerfil som kan monteras som en virtuell disk?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Synkretisering
+  - WinRAR
+explanation: |
+  Med VeraCrypt kan du skapa krypterade behållare som kan nås som virtuella diskar på alla större operativsystem.
+reviewed: false

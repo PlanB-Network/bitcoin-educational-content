@@ -1,0 +1,9 @@
+question: Waarom zijn op de meeste Android-toestellen Google Mobile Services vooraf geïnstalleerd?
+answer: Fabrikanten moeten een licentieovereenkomst met Google tekenen
+wrong_answers:
+  - Diensten vereist door Europese wetgeving
+  - GMS broncode is gratis
+  - GMS is verplicht op alle Linux-apparaten
+explanation: |
+  Om te kunnen profiteren van vlaggenschipapplicaties (Play Store, Maps, enz.) moeten fabrikanten GMS integreren, wat betekent dat ze strikte licentieovereenkomsten met Google moeten ondertekenen.
+reviewed: false

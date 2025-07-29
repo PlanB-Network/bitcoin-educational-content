@@ -1,0 +1,9 @@
+question: Phân phối nào được coi là phân phối lâu đời nhất vẫn còn được duy trì?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, được Patrick Volkerding tạo ra vào năm 1993, là bản phân phối Linux lâu đời nhất vẫn còn hoạt động cho đến ngày nay.
+reviewed: false

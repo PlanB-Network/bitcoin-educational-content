@@ -1,0 +1,9 @@
+question: Która rodzina dystrybucji korzysta z menedżera pakietów RPM?
+answer: Red Hat
+wrong_answers:
+  - Debian
+  - Arch
+  - Slackware
+explanation: |
+  Format RPM został zapoczątkowany przez Red Hat i jest podstawą Fedory, RHEL, CentOS, AlmaLinux, Rocky Linux i innych powiązanych dystrybucji.
+reviewed: false

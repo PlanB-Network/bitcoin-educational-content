@@ -1,0 +1,9 @@
+question: Hoe wordt een groep genoemd die voldoet aan de commutativiteitsvoorwaarde?
+answer: Een abeliaanse groep
+wrong_answers:
+  - Een gesloten groep
+  - Een associatieve groep
+  - Een inverse groep
+explanation: |
+  Een abeliaanse of commutatieve groep is een groep waarin de volgorde van Elements in de binaire operatie geen invloed heeft op de uitkomst. Dit betekent dat voor elke a en b, a ∘ b = b ∘ a.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken är den rekommenderade backup-regeln för att säkerställa att dina data är motståndskraftiga i händelse av en katastrof?
+answer: Ha 3 kopior, på 2 olika medier, varav 1 på annan plats
+wrong_answers:
+  - 10 kopior, på 5 olika medier, varav 3 på annan plats
+  - 2 kopior, på 2 olika medier, varav 2 utanför webbplatsen
+  - 4 kopior, på 4 olika medier, varav 2 på annan plats
+explanation: |
+  3-2-1-regeln innebär att du ska ha tre kopior av dina data på minst två olika medier, varav en ska finnas på annan plats, för att skydda dig mot förlust, stöld eller förvanskning av data.
+reviewed: false

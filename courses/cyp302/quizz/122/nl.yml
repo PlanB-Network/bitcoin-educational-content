@@ -1,0 +1,9 @@
+question: Wat is het probleem bij sleuteldistributie?
+answer: De uitdaging om sleutels veilig te verzenden zonder fysieke Exchange
+wrong_answers:
+  - De noodzaak om meerdere generate sleutelparen per cliënt te gebruiken
+  - De moeilijkheid om de fysieke opslag van sleutels te beveiligen
+  - De verplichting om sleutels te wisselen bij elke communicatie
+explanation: |
+  Het sleuteldistributieprobleem heeft betrekking op de uitdaging om sleutels op een veilige manier te verzenden, een noodzaak die cruciaal is geworden in digitale communicatie waar een fysiek Exchange onpraktisch is.
+reviewed: false

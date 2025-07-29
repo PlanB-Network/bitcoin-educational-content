@@ -1,0 +1,9 @@
+question: Millist töölauakeskkonna komponenti kasutatakse failide ja kaustade visuaalseks navigeerimiseks?
+answer: Failihaldur
+wrong_answers:
+  - Seansside haldur
+  - Composer X11
+  - Pakettide haldaja
+explanation: |
+  Failihaldur (nagu Nautilus, Dolphin, Thunar) võimaldab kasutajal hallata faile ja kaustu graafilise Interface kaudu.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hoe vaak wordt de beloning voor Mining gehalveerd?
+answer: Elke 210.000 blokken.
+wrong_answers:
+  - Elke 120.000 blokken.
+  - Elke 540.000 blokken.
+  - Elke 2.100.000 blokken.
+explanation: |
+  De beloning voor Mining is geprogrammeerd om elke 210.000 blokken te halveren
+  blokken, wat ongeveer elke vier jaar is: een gebeurtenis
+  bekend als Halving.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Which open source application is recommended for scanning food products with a collaborative database?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  OpenFoodFacts is a free, community-based project, transparent about its data, whereas Yuka is based on an opaque, non-open source model.
+reviewed: false

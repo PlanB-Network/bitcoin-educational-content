@@ -1,0 +1,9 @@
+question: 哪個瀏覽器在 1995 年推出 JavaScript？
+answer: Netscape 導覽器
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - 野生動物園
+explanation: |
+  Netscape Navigator 整合了由 Brendan Eich 於 1995 年開發的 JavaScript 語言，可在網頁上實現動態互動。
+reviewed: false

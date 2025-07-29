@@ -1,0 +1,9 @@
+question: Aan welke basisvoorwaarde moet een verzameling S met een binaire operatie voldoen om een groep te zijn?
+answer: De sluitingsvoorwaarde
+wrong_answers:
+  - De commutativiteitsvoorwaarde
+  - De symmetrievoorwaarde
+  - De distributiviteitsvoorwaarde
+explanation: |
+  Een verzameling S met een binaire operatie moet aan verschillende voorwaarden voldoen om een groep te vormen, en de eerste is de afsluitingsvoorwaarde: de operatie tussen twee Elements van S moet een element van S opleveren.
+reviewed: false

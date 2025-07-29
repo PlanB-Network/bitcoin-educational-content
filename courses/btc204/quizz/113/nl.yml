@@ -1,0 +1,10 @@
+question: Welk element verhindert een externe waarnemer om onderscheid te maken tussen Stonewall en Stonewall x2 transacties?
+answer: Het patroon van de transacties is hetzelfde
+wrong_answers:
+  - De transacties zijn versleuteld
+  - De bedragen in de transacties zijn altijd identiek
+  - De digitale handtekeningen van de transacties worden gegenereerd door hetzelfde algoritme
+explanation: |
+  Vanuit een extern gezichtspunt is het transactiepatroon precies hetzelfde. Zonder aanvullende contextinformatie is het daarom onmogelijk om een Stonewall-transactie te onderscheiden van een Stonewall x2-transactie, omdat ze hetzelfde patroon volgen.
+  
+reviewed: false

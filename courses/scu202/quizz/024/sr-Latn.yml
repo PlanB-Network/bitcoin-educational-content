@@ -1,0 +1,9 @@
+question: Koja je glavna uloga Linux desktop okruženja?
+answer: Obezbedi Interface grafiku
+wrong_answers:
+  - Upravljanje pokretanjem sistema
+  - Kompajliranje Linux kernela
+  - Zaštita od virusa
+explanation: |
+  Radno okruženje grupiše vizuelne i interaktivne Elements (prozore, menije, ikone, panele, itd.) kako bi omogućilo korisniku grafičku interakciju sa sistemom.
+reviewed: false

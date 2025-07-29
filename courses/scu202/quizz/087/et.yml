@@ -1,0 +1,9 @@
+question: Milline avatud lähtekoodiga VPN-rakendus võimaldab anonüümset konto loomist ilma e-postita ja aktsepteerib Bitcoin makseid?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN paistab silma täiesti anonüümse konto loomise poolest, mille puhul ei ole vaja e-posti ega salasõna, ning aktsepteerib makseid Bitcoin või sularahas.
+reviewed: false

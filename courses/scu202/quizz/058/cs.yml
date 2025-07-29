@@ -1,0 +1,9 @@
+question: Které vykreslovací jádro používal Internet Explorer od verze 4 a dominovalo trhu na počátku roku 2000?
+answer: Trident
+wrong_answers:
+  - Gekon
+  - WebKit
+  - Blink
+explanation: |
+  Trident, vyvinutý společností Microsoft, byl uveden spolu s prohlížečem Internet Explorer 4.0 v roce 1997 a dominoval na webu v době, kdy měl Internet Explorer prakticky monopol.
+reviewed: false

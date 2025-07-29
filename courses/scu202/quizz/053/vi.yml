@@ -1,0 +1,9 @@
+question: Nền tảng nào tự động xóa siêu dữ liệu khi ảnh được tải lên?
+answer: Tín hiệu
+wrong_answers:
+  - Gmail
+  - Triển vọng
+  - Blog của bạn
+explanation: |
+  Signal (giống như Session và các dịch vụ nhắn tin an toàn khác) xóa siêu dữ liệu của hình ảnh được chia sẻ để bảo vệ quyền riêng tư của người dùng.
+reviewed: false

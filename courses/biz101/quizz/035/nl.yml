@@ -1,0 +1,9 @@
+question: Hoe verhoudt de verbeterde efficiëntie en snelheid van de Lightning Network zich tot traditionele betaalmethoden?
+answer: Het is aanzienlijk sneller, vaak worden transacties in minder dan een seconde afgehandeld, met lagere kosten en zonder afhankelijk te zijn van meerdere tussenpersonen.
+wrong_answers:
+  - Het komt overeen met de traditionele banktijden, waarbij het vaak 2-5 dagen duurt om te betalen.
+  - Het is langzamer dan traditionele kaartbetalingen en brengt hogere kosten met zich mee.
+  - Er zijn meerdere goedkeurende instanties nodig, net als bij huidige bankoverschrijvingen.
+explanation: |
+  Door off-chain transacties mogelijk te maken en betalingen bijna onmiddellijk af te ronden, biedt Lightning een snelheids- en efficiëntievoordeel ten opzichte van traditionele methoden die afhankelijk zijn van verschillende tussenpersonen.
+reviewed: false

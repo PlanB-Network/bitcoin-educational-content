@@ -1,0 +1,9 @@
+question: What's the main advantage of rolling release distribution?
+answer: Use the latest software
+wrong_answers:
+  - Greater compatibility with Windows
+  - An environment without Interface graphics
+  - Mandatory sales support
+explanation: |
+  Rolling releases integrate continuous software updates, ensuring permanent access to the latest versions.
+reviewed: false

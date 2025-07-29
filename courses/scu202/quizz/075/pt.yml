@@ -1,0 +1,9 @@
+question: Quais são as principais limitações das aplicações antivírus para telemóveis?
+answer: São limitados face a ameaças reais
+wrong_answers:
+  - Tornam o telemóvel incompatível com as redes móveis
+  - Removem as aplicações de mensagens
+  - Aumentam a duração da bateria
+explanation: |
+  O software antivírus móvel não oferece proteção contra phishing ou más autorizações e apenas oferece uma segurança limitada contra as principais ameaças.
+reviewed: false

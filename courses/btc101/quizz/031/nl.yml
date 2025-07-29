@@ -1,0 +1,13 @@
+question: Wat is geen voordeel van Bitcoin als valuta?
+answer: Het wordt gebruikt om belastingen te betalen.
+wrong_answers:
+  - Het is deelbaar.
+  - Het is vervoerbaar.
+  - Het is zonder toestemming.
+explanation: |
+  Bitcoin, vanwege zijn eigenschappen zoals deelbaarheid,
+  verifieerbaarheid, permision-less aspect en transporteerbaarheid,
+  een uitstekende waardeopslag. Als neutrale
+  internetvaluta, vertegenwoordigt het een goed medium van Exchange
+  dat geen grenzen kent.
+reviewed: true

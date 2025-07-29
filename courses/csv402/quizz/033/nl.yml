@@ -1,0 +1,9 @@
+question: Wat is het doel van Terminal Consignment in het RGB overdrachtsproces?
+answer: Zorg voor staatsgeschiedenis overgangen
+wrong_answers:
+  - Genesis Contract valideren
+  - Oude overgangen verwijderen
+  - generate een nieuwe Schema voor de overdracht
+explanation: |
+  De Terminal Consignment verzamelt de geschiedenis van de Contract om de legitimiteit van het tot op heden overgedragen vermogen aan te tonen.
+reviewed: false

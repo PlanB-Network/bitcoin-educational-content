@@ -1,0 +1,8 @@
+question: Hoe werkt ontcijfering in shift cipher?
+answer: Door de sleutel van elke versleutelde letter af te trekken en modulo 26 toe te passen
+wrong_answers:
+  - Door de sleutel van elke versleutelde letter af te trekken en modulo 20 toe te passen
+  - Door de sleutel te vermenigvuldigen met elke versleutelde letter
+  - Door de sleutel van elke versleutelde letter te delen en modulo 27 toe te passen
+explanation: |
+  In shift cipher wordt ontcijfering uitgevoerd door de sleutel af te trekken van elke vercijferde letter en dan modulo 26 toe te passen om terug te keren naar de originele tekst. De modulo 26 maakt het mogelijk om terug te keren naar het begin van het alfabet na de letter Z.

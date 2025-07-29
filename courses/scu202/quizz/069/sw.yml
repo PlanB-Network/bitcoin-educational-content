@@ -1,0 +1,9 @@
+question: Je, ni sababu gani kuu kwa nini ni muhimu kusasisha kivinjari chako?
+answer: Sahihisha udhaifu muhimu wa usalama
+wrong_answers:
+  - Boresha kasi ya upakiaji wa ukurasa
+  - Zuia hadaa
+  - Kuboresha matumizi ya kumbukumbu
+explanation: |
+  Masasisho hutanguliza udhaifu wa kiusalama ambao unaweza kuruhusu mvamizi kuathiri mfumo wako.
+reviewed: false

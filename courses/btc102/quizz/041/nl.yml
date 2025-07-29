@@ -1,0 +1,9 @@
+question: Wat is bij benadering de maximale Supply van bitcoins in omloop?
+answer: 21 miljoen
+wrong_answers:
+  - 10 miljoen
+  - 47 miljoen
+  - 150 miljoen
+explanation: |
+  Bitcoin is geprogrammeerd voor een beperkte Supply van ongeveer 21 miljoen bitcoins.
+reviewed: false

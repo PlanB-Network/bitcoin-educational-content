@@ -1,0 +1,9 @@
+question: Wat is de rol van de modulo-operatie in versleuteling met shiftcipher?
+answer: Het zorgt ervoor dat de letters terugkeren naar het begin van het alfabet wanneer ze 26 overschrijden
+wrong_answers:
+  - Het vermenigvuldigt de letterwaarden met de sleutel
+  - Het keert de letters van het alfabet om
+  - Het verwijdert de letters na de letter Z
+explanation: |
+  De modulo 26 bewerking zorgt ervoor dat de letters teruglopen na Z om ervoor te zorgen dat elke versleutelde letter binnen de 26 letters van het alfabet blijft.
+reviewed: false

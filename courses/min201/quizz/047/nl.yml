@@ -1,0 +1,13 @@
+question: Wat is het grootste risico van investeren in bedrijven die Mining hardware verkopen en de machines beheren op locaties met lage energiekosten?
+answer: Stroomproblemen bij Supply en machinestoringen kunnen investeerders machteloos maken, met dure apparatuur waar ze geen controle over hebben.
+wrong_answers:
+  - De bedrijven kunnen failliet gaan en de investeerders kunnen hun geld verliezen.
+  - De bedrijven kunnen oplichterspraktijken zijn en de investeerders kunnen hun geld verliezen.
+  - De bedrijven zijn misschien niet in staat om de gemijnde bitcoins te verkopen en de investeerders kunnen hun geld verliezen.
+explanation: |
+  Het grootste risico van investeren in bedrijven die
+  gW-2 hardware verkopen en de machines beheren in locaties met lage
+  energielocaties is dat Supply stroomproblemen en machineuitval investeerders machteloos kunnen maken
+  storingen investeerders machteloos kunnen achterlaten, met dure
+  dure apparatuur waar ze geen controle over hebben.
+reviewed: true

@@ -1,0 +1,9 @@
+question: macOS 生态系统的主要缺点是什么？
+answer: 封闭和依赖苹果
+wrong_answers:
+  - 软件过于开放
+  - 图形优化较弱
+  - 缺乏更新
+explanation: |
+  MacOS 与苹果硬件的紧密集成导致了对该品牌专有生态系统的依赖和锁定。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 保持浏览器更新至关重要的主要原因是什么？
+answer: 纠正重要的安全漏洞
+wrong_answers:
+  - 提高页面加载速度
+  - 防止网络钓鱼
+  - 优化内存消耗
+explanation: |
+  更新会优先处理可能让攻击者入侵系统的安全漏洞。
+reviewed: false

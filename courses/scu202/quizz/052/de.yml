@@ -1,0 +1,9 @@
+question: Welche Vorgehensweise wird empfohlen, bevor eine Datei online oder per E-Mail weitergegeben wird?
+answer: Alle Metadaten bereinigen
+wrong_answers:
+  - Alle Metadaten verschlüsseln
+  - Alle Metadaten authentifizieren
+  - Alle Metadaten umbenennen
+explanation: |
+  Die Bereinigung von Metadaten verhindert die versehentliche Offenlegung sensibler Informationen beim Austausch von Dateien.
+reviewed: false

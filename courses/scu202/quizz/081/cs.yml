@@ -1,0 +1,9 @@
+question: Jaké je hlavní omezení Telegramu, pokud jde o důvěrnost zpráv?
+answer: Ve výchozím nastavení jsou šifrovány pouze tajné výměny end-to-end
+wrong_answers:
+  - Ukládá anonymní registrační poplatek
+  - Nezaručuje pravost přijatých souborů
+  - Není k dispozici žádný klient s otevřeným zdrojovým kódem
+explanation: |
+  Ve výchozím nastavení jsou zprávy Telegramu ukládány na firemních serverech, přičemž pouze tajné chaty využívají koncové šifrování.
+reviewed: false

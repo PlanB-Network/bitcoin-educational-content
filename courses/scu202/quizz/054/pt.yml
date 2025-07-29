@@ -1,0 +1,9 @@
+question: Que informações podem normalmente ser encontradas nos metadados EXIF de uma fotografia?
+answer: Data, hora, posição GPS, modelo do dispositivo, autor
+wrong_answers:
+  - Código fonte do firmware da câmara
+  - Palavra-passe Wi-Fi do fotógrafo
+  - Resultados mais recentes do antivírus
+explanation: |
+  Os metadados EXIF de uma fotografia contêm frequentemente informações contextuais detalhadas sobre a fotografia e a câmara.
+reviewed: false

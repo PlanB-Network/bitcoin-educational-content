@@ -1,0 +1,9 @@
+question: Jaké je doporučené pravidlo pro zálohování, které zajistí odolnost dat v případě havárie?
+answer: Mějte 3 kopie na 2 různých médiích, z toho 1 mimo pracoviště
+wrong_answers:
+  - 10 kopií na 5 různých médiích, z toho 3 mimo pracoviště
+  - 2 kopie na 2 různých médiích, z toho 2 mimo pracoviště
+  - 4 kopie na 4 různých médiích, z toho 2 mimo lokalitu
+explanation: |
+  Pravidlo 3-2-1 zahrnuje uchovávání tří kopií dat na nejméně dvou různých médiích, včetně jednoho umístěného mimo pracoviště, aby se zabránilo ztrátě, krádeži nebo poškození dat.
+reviewed: false

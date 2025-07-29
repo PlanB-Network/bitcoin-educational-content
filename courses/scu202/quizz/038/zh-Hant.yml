@@ -1,0 +1,9 @@
+question: 哪個指令可用於更新 Ubuntu 發行版上的所有套件？
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  在 Ubuntu (和 Debian) 上，「sudo apt update && sudo apt upgrade」指令會同步套件清單，並安裝所有可用的更新。
+reviewed: false

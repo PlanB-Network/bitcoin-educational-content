@@ -1,0 +1,9 @@
+question: Quale software gratuito e multipiattaforma può essere utilizzato per creare un file contenitore crittografato che può essere montato come un disco virtuale?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Sintassi
+  - WinRAR
+explanation: |
+  VeraCrypt consente di creare contenitori criptati a cui si può accedere come dischi virtuali su tutti i principali sistemi operativi.
+reviewed: false

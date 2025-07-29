@@ -1,0 +1,9 @@
+question: Koja izjava najbolje opisuje režim privatnog pretraživanja?
+answer: Ograničava snimanje lokalnih tragova
+wrong_answers:
+  - Čini surfovanje Internetom anonimnim
+  - Blokira sve zlonamerne tragače i skripte
+  - Briše aktivne ekstenzije
+explanation: |
+  Privatni režim jednostavno sprečava lokalno beleženje istorije i kolačića, ali ne garantuje anonimnost na Internetu.
+reviewed: false

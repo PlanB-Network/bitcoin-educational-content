@@ -1,0 +1,9 @@
+question: Wie heeft het concept van Proof of Work uitgevonden?
+answer: Cynthia Dwork en Moni Naor
+wrong_answers:
+  - Markus Jakobsson en Ari Juels
+  - Adam Terug
+  - Satoshi Nakamoto
+explanation: |
+  Ze beschreven het concept in 1992. Markus Jakobsson en Ari Juels bedachten de term Proof of Work. Adam Back nam het concept later over voor Hashcash.
+reviewed: true

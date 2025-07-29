@@ -1,0 +1,11 @@
+question: In welk scenario kan een stablecoin boven zijn gekoppelde prijs handelen?
+answer: Wanneer de vraag naar stablecoins de capaciteit van een Exchange overstijgt
+wrong_answers:
+  - Wanneer de uitgever van de stablecoin fondsen bevriest
+  - Wanneer de stablecoin volledig wordt gedekt door kasreserves
+  - Wanneer er sterke verkoopdruk is van gebruikers
+explanation: |
+  Stabiele munten kunnen verhandeld worden boven hun gekoppelde prijs wanneer de
+  vraag naar stablecoins groter is dan de capaciteit van een Exchange om aan de vraag van klanten te voldoen
+  om aan de vraag van klanten te voldoen, meestal op kleinere beurzen.
+reviewed: true

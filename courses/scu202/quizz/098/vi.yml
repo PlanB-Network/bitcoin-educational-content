@@ -1,0 +1,9 @@
+question: Công dụng chính của phân đoạn mạng dựa trên VLAN trong mạng gia đình là gì?
+answer: Phân biệt các loại thiết bị hoặc mục đích sử dụng khác nhau
+wrong_answers:
+  - Tăng phạm vi Wi-Fi cho các thiết bị
+  - Mã hóa kết nối mạng riêng lẻ cho từng thiết bị
+  - Tự động bật WPA3
+explanation: |
+  VLAN có thể được sử dụng để phân chia các thiết bị, hạn chế sự lây lan của cuộc tấn công giữa các phân đoạn.
+reviewed: false

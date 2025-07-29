@@ -1,0 +1,9 @@
+question: Waarom is het plafond van 21 miljoen voor de uitgifte van Bitcoin belangrijk?
+answer: Het creëert een deflatoir activum dat zijn waarde beschermt tegen willekeurige inflatie.
+wrong_answers:
+  - Het zorgt ervoor dat overheden zoveel bitcoins kunnen drukken als nodig is.
+  - Het voorkomt dat iemand transacties verstuurt nadat de limiet is bereikt.
+  - Het elimineert alle volatiliteit in de prijs van Bitcoin.
+explanation: |
+  Door een maximum Supply van 21 miljoen te hebben, is de Bitcoin schaarste Hard gecodeerd, waardoor het fundamenteel verschilt van inflatievaluta's waar Supply naar believen kan worden verhoogd.
+reviewed: false

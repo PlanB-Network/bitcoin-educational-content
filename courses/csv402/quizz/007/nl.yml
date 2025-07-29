@@ -1,0 +1,9 @@
+question: Hoe minimaliseert RGB haar zichtbaarheid?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig tweak
+  - Belangrijke aanpassing
+explanation: |
+  Taproot (Tapret) maakt het mogelijk om verbintenissen discreet en efficiënt in een transactie in te voegen, terwijl compatibiliteit met de huidige standaarden gewaarborgd blijft.
+reviewed: false

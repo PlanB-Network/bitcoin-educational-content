@@ -1,0 +1,9 @@
+question: Hva er den beste måten å få tilgang til hjemmenettverket ditt på?
+answer: Bruk av et personlig VPN
+wrong_answers:
+  - Åpne en offentlig SSH-port
+  - Aktiver ruterskyen
+  - Bruk WPS
+explanation: |
+  VPN oppretter en kryptert tunnel for å få tilgang til det lokale nettverket uten å eksponere en kritisk port mot Internett.
+reviewed: false

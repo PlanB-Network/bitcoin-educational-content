@@ -1,0 +1,14 @@
+question: Wat gebeurt er als de rente daalt door een toename van de besparingen volgens de Oostenrijkse theorie van de conjunctuurcyclus?
+answer: De hoeveelheid geconsumeerde consumptiegoederen zal afnemen, de rente zal dalen, ondernemers zullen deze instroom van kapitaal gebruiken om nieuwe investeringsgoederen te creëren en zo de productiestructuur te verlengen.
+wrong_answers:
+  - De hoeveelheid geconsumeerde consumptiegoederen zal toenemen, de rente zal stijgen, ondernemers zullen deze instroom van kapitaal gebruiken om nieuwe investeringsgoederen te creëren en zo de productiestructuur in te korten.
+  - De hoeveelheid geconsumeerde consumptiegoederen zal dalen, de rente zal stijgen, ondernemers zullen deze instroom van kapitaal gebruiken om nieuwe investeringsgoederen te creëren en zo de productiestructuur in te korten.
+  - De hoeveelheid geconsumeerde consumptiegoederen zal toenemen, de rentetarieven zullen dalen, ondernemers zullen deze instroom van kapitaal gebruiken om nieuwe investeringsgoederen te creëren en zo de productiestructuur in te korten.
+explanation: |
+  Volgens de Oostenrijkse theorie van de conjunctuurcyclus, wanneer er sprake is van
+  een daling van de rentevoeten als gevolg van een toename van de besparingen, de hoeveelheid geconsumeerde finale
+  geconsumeerde goederen afnemen, omdat sparen inhoudt dat je een deel van je consumptie uitstelt
+  naar een later tijdstip. Als gevolg daarvan zullen de rentetarieven dalen omdat de Supply van kapitaal
+  toeneemt. Hierdoor kunnen ondernemers deze instroom van kapitaal gebruiken om nieuwe
+  nieuwe investeringsgoederen te creëren en zo de productiestructuur te verlengen.
+reviewed: true

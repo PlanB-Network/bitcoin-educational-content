@@ -1,0 +1,9 @@
+question: Wat is het gevolg van het verliezen van de Stash in het RGB protocol?
+answer: Contract geschiedenis en bijbehorende gegevens worden onherstelbaar
+wrong_answers:
+  - Gegevens kunnen worden gereconstrueerd van de Blockchain als je de seed hebt
+  - Een kopie van de gegevens is beschikbaar op de servers van RGB in Zwitserland
+  - Gegevens worden automatisch gerepliceerd voor alle deelnemers
+explanation: |
+  In Client-side Validation is elke gebruiker verantwoordelijk voor zijn of haar Stash, die niet elders wordt gerepliceerd, waardoor het verlies definitief is.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda spouštění aplikací v sandboxu nebo virtuálním počítači?
+answer: Omezit dopad kompromisu
+wrong_answers:
+  - Urychlení provádění programu
+  - Snížení spotřeby paměti RAM
+  - Zvýšení rychlosti síťového připojení
+explanation: |
+  Sandboxing a virtualizace se používají především k izolaci aplikací nebo systémů od potenciálních útoků.
+reviewed: false

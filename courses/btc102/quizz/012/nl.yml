@@ -1,0 +1,9 @@
+question: Wat betekent het begrip zelfbehoud in de Bitcoin wereld?
+answer: Je privésleutels zelf bijhouden
+wrong_answers:
+  - Uw sleutels toevertrouwen aan een gespecialiseerd Exchange platform
+  - Uw sleutels toevertrouwen aan een investeringsbank
+  - Je publieke sleutels zelf bijhouden
+explanation: |
+  Self-custody zorgt ervoor dat de gebruiker volledige controle behoudt over zijn bitcoins via zijn eigen privésleutels.
+reviewed: false

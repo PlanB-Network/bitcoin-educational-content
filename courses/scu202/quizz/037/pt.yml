@@ -1,0 +1,9 @@
+question: Que categoria de software representa um dos pontos de entrada mais críticos para ataques a um computador?
+answer: O navegador Web
+wrong_answers:
+  - O leitor de PDF
+  - Editor de texto
+  - O gestor de ficheiros
+explanation: |
+  O navegador Web está constantemente exposto a conteúdos externos, o que o torna um vetor de ataque privilegiado para os cibercriminosos.
+reviewed: false

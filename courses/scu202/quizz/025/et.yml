@@ -1,0 +1,9 @@
+question: Millise paketivormingu on Canonical välja töötanud rakenduste ja nende sõltuvuste isoleerimiseks?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Canonicali poolt välja töötatud Snap-formaat võimaldab paigaldada iseseisvat tarkvara, mis on süsteemist isoleeritud ja mida saab iseseisvalt uuendada.
+reviewed: false

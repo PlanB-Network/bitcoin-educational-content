@@ -28,15 +28,15 @@ BIP-85 est utile si vous voulez :
 
 ### 1.3 Avantages par rapport à BIP-32
 
-Avec BIP-32, une seule seed phrase permet de générer une hiérarchie complète de portefeuilles et d’adresses Bitcoin grâce à des chemins de dérivation (par exemple : `m/44'/0'/0'/0/0`). Chaque chemin peut représenter un compte distinct, mais **tous restent liés à la même seed phrase**. Ainsi, si cette seed phrase est compromise, **l’ensemble des portefeuilles dérivés devient accessible**.
+Avec BIP-32, une seule seed phrase permet de générer une hiérarchie complète de comptes et d’adresses Bitcoin grâce à des chemins de dérivation (par exemple : `m/44'/0'/0'/0/0`). Chaque chemin peut représenter un compte distinct, mais **tous restent liés à la même seed phrase**. Ainsi, si cette seed phrase est compromise, **l’ensemble des comptes dérivés devient accessible**.
 
-Avec BIP-35, à partir d’une seed phrase principale, on peut générer plusieurs seed phrases secondaires totalement indépendantes : **si l’une de ces seeds secondaires est compromise, l’attaquant ne pourra jamais remonter à la seed principale ni accéder aux autres portefeuilles**.
+Avec le BIP-85, à partir d’une seed phrase principale, on peut générer plusieurs seed phrases secondaires totalement indépendantes : **si l’une de ces seeds secondaires est compromise, l’attaquant ne pourra jamais remonter à la seed principale ni accéder aux autres portefeuilles**.
 Cela permet une stratégie de compartimentation des risques :
 
 - Vous pouvez utiliser une seed secondaire pour un hot wallet ou un usage temporaire, en acceptant une exposition plus élevée.
 - Même si ce hot wallet est compromis, vos autres fonds, protégés par d’autres seeds secondaires ou conservés hors ligne, **restent en sécurité**.
 
-En revanche, pour BIP-32 comme pour BIP-35, si la seed principale est compromise, **tous les fonds sont vulnérables**. Il est donc crucial de la protéger avec le plus haut niveau de sécurité.
+En revanche, pour BIP-32 comme pour BIP-85, si la seed principale est compromise, **tous les fonds sont vulnérables**. Il est donc crucial de la protéger avec le plus haut niveau de sécurité.
 
 ![image](assets/fr/02.webp)
 ## 2. Cas d’usages pratiques de BIP-85
@@ -110,11 +110,12 @@ Allumez votre Coldcard, entrez votre code PIN.
 - **2. Aller au menu BIP-85**
 	- Depuis l'écran d’accueil, allez dans `Advanced > Derive Seed B85` 
 	- Lisez l’avertissement et confirmez.
-	La ColdCard vous informe que les seeds générées sont dérivées mathématiquement de votre seed principale, mais totalement indépendantes sur le plan cryptographique.
+
+La ColdCard vous informe que les seeds générées sont dérivées mathématiquement de votre seed principale, mais totalement indépendantes sur le plan cryptographique.
 ![image](assets/fr/03.webp)
 
 - **3. Choisir un format**  
-	Sélectionnez le format de la seed phrase secondaire : 12, 18 ou 24 mots. Pour une épargne long terme, préférez 24 mots. Vérifiez le nombre de mots acceptés par le wallet dans lequel vous voulez importer votre seed phrase secondaire.
+	Sélectionnez le format de la seed phrase secondaire : 12, 18 ou 24 mots. Vérifiez le nombre de mots acceptés par le wallet dans lequel vous voulez importer votre seed phrase secondaire.
 ![image](assets/fr/04.webp)
 
 - **4. Sélectionner l'index**  
@@ -131,15 +132,16 @@ Allumez votre Coldcard, entrez votre code PIN.
 	    - `2` pour **passer en mode "utiliser cette seed"** sur la ColdCard (utile pour l’export ou la signer une transaction)
 	    - `3` pour afficher un **QR code** (à scanner avec une application mobile comme BlueWallet ou Nunchuck)
 	    - `4` pour l’envoyer par **NFC**
-	💡 À ce stade, vous avez une seed phrase indépendante, utilisable dans n’importe quel wallet BIP39 (Trezor, Ledger, BlueWallet, Nunchuck…).
+
+💡 À ce stade, vous avez une seed phrase indépendante, utilisable dans n’importe quel wallet BIP39 (Trezor, Ledger, BlueWallet, Nunchuck…).
 ![image](assets/fr/06.webp)
 ![image](assets/fr/07.webp)
 ### 4.2 Utilisation de la seed secondaire
 
 Vous pouvez maintenant utiliser cette seed dérivée pour créer un nouveau portefeuille dans :    
-    - une app mobile
-    - un autre hardware wallet
-    - un portefeuille multisig
+- une app mobile
+- un autre hardware wallet
+- un portefeuille multisig
 
 ### 4.3 Récupérer une seed phrase secondaire perdue
 
@@ -173,17 +175,18 @@ Toutes les applications ne supportent pas directement la dérivation BIP85. Tout
 
 Il est recommandé de tenir à jour un registre personnel des seed phrases secondaires. 
 - Il permet de retrouver rapidement quel index BIP85 correspond à quel portefeuille, sans avoir besoin de conserver les seed phrases secondaires.
-- Ce registre doit rester minimaliste, sans mention explicite de Bitcoin, et doit rester stocké séparément de la graine principale. 
+- Ce registre doit rester minimaliste, sans mention explicite de Bitcoin, et doit rester stocké séparément de la graine principale. Pensez à en faire mention dans votre plan d'héritage.
+
 Le registre peut contenir :
 - l’index BIP85 utilisé (nombre de 0 à 9999)
 - un usage ou un nom de référence (ex : hot wallet, épargne perso, wallet de Maman)
-- éventuellement l’empreinte 'fingerprint' du portefeuille pour vérification dans ColdCard
+- éventuellement l’empreinte "fingerprint" du portefeuille pour vérification dans ColdCard
 
 ### 5.5 Sauvegarde
 
 Les sauvegardes doivent inclure :
 - la graine principale
-- la passphrase
+- la passphrase (si utilisée)
 
 Ne jamais stocker ensemble :
 - la graine principale et la passphrase
@@ -192,37 +195,29 @@ Ne jamais stocker ensemble :
 Plus de ressources en Annexes.
 
 
-
-
-
-
 ## ANNEXES
 
 ## A.1 Glossaire
 
-- [BIP](https://planb.network/fr/resources/glossary/bip)
-- [BIP-32](https://planb.network/fr/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/fr/resources/glossary/bip0039)
-- [BIP-35](https://planb.network/fr/resources/glossary/bip0085)
-- [Seed phrase](https://planb.network/fr/resources/glossary/recovery-phrase)
-- [Passphrase](https://planb.network/fr/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/fr/resources/glossary/multisig)
+- [BIP](https://planb.network/resources/glossary/bip)
+- [BIP-32](https://planb.network/resources/glossary/bip0032)
+- [BIP-39](https://planb.network/resources/glossary/bip0039)
+- [BIP-85](https://planb.network/resources/glossary/bip0085)
+- [Seed phrase](https://planb.network/resources/glossary/recovery-phrase)
+- [Passphrase](https://planb.network/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 ### A.2 Sauvegarder sa phrase de récupération
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5
-
 
 ### A.3 Comprendre la Passphrase BIP39
 
-https://planb.network/fr/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Les rouages des portefeuilles Bitcoin
 
-https://planb.network/courses/les-rouages-des-portefeuilles-bitcoin-46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

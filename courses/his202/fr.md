@@ -1480,7 +1480,209 @@ Le septembre 2013, OpenCoin Inc. devient Ripple Labs Inc.
 protocole sensiblement différent du concept initial, reposant sur un algorithme de consensus et sur une unité de compte native, le XRP
 
 
-## L'essor commercial en 2012 : Silk Road contre BitPay
+## L'essor commercial (avril–sept. 2012)
+
+L'année 2012 est une année assez plate du point de vue de la spéculation. Néanmoins, elle constitue une période d'essor pour l'activité économique réelle.
+
+Développement des processeurs de paiement
+
+2011 :
+
+- OpenCart Bitcoin payment extension, [avr. 2011](https://bitcointalk.org/index.php?topic=5625.msg82684#msg82684)
+- Jeremy West (jeremy.west), Spend Bitcoins, [19 mai 2011](https://bitcointalk.org/index.php?topic=8864.msg128629#msg128629), cartes-cadeaux Amazon, Fishpond, New Egg https://bitcointalk.org/index.php?topic=24653.msg306101#msg306101 https://web.archive.org/web/20110603145425/https://spendbitcoins.com/
+- Chris Brunner de Trucoin (entreprise), BitcoinDeals.com, "over 1,000,000 items", juillet–août 2011 sur invitation (https://bitcointalk.org/index.php?topic=16701.msg217120#msg217120), [Bitcoin Show](https://www.youtube.com/watch?v=UjqJGkuTUpw) présence à la conférence fin août, [lancement](https://web.archive.org/web/20111222184030/http://www.bitcoindeals.com/) plus complet en décembre, [« maintenance »](https://web.archive.org/web/20120901131133/http://www.bitcoindeals.com/) en août 2012, [we "ran Bitcoindeals.com for a year"](https://99bitcoins.com/coinbrief/bitcoin/trucoin-chris-and-brent/) ; ["BitcoinDeals.com is launched!"](https://web.archive.org/web/20120201230557/http://www.trucoin.com/)
+
+
+- Joerg Platzer, Room77 : https://bitcointalk.org/index.php?topic=27191.msg342337#msg342337 https://web.archive.org/web/20121118214011/http://www.room77.de/ https://www.youtube.com/watch?v=rzKdW-au110
+
+- O'Crepes, restaurant à NYC, [juillet 2011]( https://www.youtube.com/watch?v=nXs7ZhVb2aI)
+
+Spéculation (article JDC Gox) : L'année 2012 est une année assez plate du point de vue spéculatif. Du moins, pour le bitcoin. Bien que le prix augmente, il ne fait que doubler en un an, ce qui, pour le bitcoin de cette époque, est peu. Mais cela permet à Mt. Gox de se stabiliser et de redonner confiance à ses utilisateurs après les incidents de 2011.
+
+Récapitulatif par Vitalik Buterin : https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984
+
+
+- TradeHill : [8 juin 2011](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776)–[13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/), relancement en [mars 2013](https://bitcoinmagazine.com/markets/prime-tradehill-comes-back-to-bitcoin-1364507082), fermeture définitive le [30 août 2013](https://bitcoinmagazine.com/business/tradehill-confirms-trading-suspension-1377854467)
+
+
+
+### Silk Road : mouvement politique
+
+Développement de la communauté, ouverture du forum de Silk Road le 18 juin 2011, où les vendeurs peuvent notamment faire leur promotion, partager leurs expériences et se donner des conseils
+
+« discours sur l'état de la Route » (*State of the Road address*), « Que vous le vouliez ou non, je suis le capitaine de ce navire. Vous êtes ici volontairement et si vous n'aimez pas les règles du jeu, ou si vous n'avez pas confiance en votre capitaine, vous pouvez quitter le bateau. »  https://antilop.cc/sr/users/dpr/threads/20120109-0301-State_of_the_Road_Address.html
+
+Dread Pirate Roberts https://antilop.cc/sr/users/dpr/threads/20120205-0102-The_Name_Game_Continued.html
+
+Vitalik : https://bitcoinmagazine.com/culture/the-silk-road-report https://bitcoinmagazine.com/culture/the-silk-road-report-part-ii-1344540669
+
+### Silk Road, une grande entreprise
+
+![](assets/en/silk-road-economic-volume-chainalysis.webp)
+
+source : [Chainalysis](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/), 2020
+
+"Study estimates $2 million a month in Bitcoin drug sales", août 2012 : https://arstechnica.com/tech-policy/2012/08/study-estimates-2-million-a-month-in-bitcoin-drug-sales/
+
+explosive growth, nov. 2012: https://antilop.cc/sr/users/dpr/threads/20121102-0011-explosive_growth.html
+
+Source : https://journalducoin.com/analyses/silk-road-lentreprise-qui-brassait-des-milliers-de-bitcoins/
+
+### BitPay
+
+En septembre, des centaines de commerçants (en ligne) sont référencés sur le wiki : https://web.archive.org/web/20110919161327/https://en.bitcoin.it/wiki/Trade
+
+BitPay, mai 2011, Tony Gallippi (https://bitcointalk.org/index.php?action=profile;u=31293) Stephen Pair (https://bitcointalk.org/index.php?action=profile;u=4399), aperçu en févr. 2012 https://web.archive.org/web/20120210233724/https://bit-pay.com/ https://web.archive.org/web/20120909120601/http://bitpay.com/ ; interview dans le Bitcoin Show : https://www.youtube.com/watch?v=UZAnM4FjTOg
+
+« l'une des innovations les plus importantes pour les entreprises du secteur du bitcoin » — "One of the most significant innovations for Bitcoin businesses is services like BitPay. BitPay functions as a fully fledged merchant system for Bitcoin, and markets itself specifically as a substitute for credit cards and PayPal. It's most important innovation, however, is instantly converting BTC received from customers into conventional currencies, effectively insulating vendors from the chaos of the Bitcoin exchange rate, making Bitcoin attractive to them despite its current instability." (Vitalik Buterin, [16/7](https://web.archive.org/web/20120104013914/http://bitcoinweekly.com/articles/bitcoin-for-merchants-part-ii))
+
+Bitcoin.com by TradeHill, sept. 2011 : https://web.archive.org/web/20110907014134/http://bitcoin.com/
+
+- Martti Malmi, "1000 BTC for getting a major business to accept Bitcoin" (oct. 2011) https://bitcointalk.org/index.php?topic=46646.msg555039#msg555039
+
+Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://www.scientificamerican.com/article/3-years-in-bitcoin-digital-money-gains-momentum/)
+
+12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
+
+### Coinbase & la Silicon Valley
+
+Article de Wired : https://web.archive.org/web/20140326204316/https://www.wired.com/wiredenterprise/2014/03/what-is-bitcoin/ https://www.wired.com/2014/03/what-is-bitcoin/
+
+Coinbase, dont le nom est tiré du nom de la transaction de récompense et signifiant « base de pièce ».
+
+EDB: C'est le cas de Coinbase, fondé en mai 2012 par Brian Armstrong et Fred Ehrsam, qui se développe initialement comme un « portefeuille Bitcoin hébergé ». Coinbase intégrera progressivement les fonctionnalités d'une plateforme de change classique au fil des années.
+
+Brian Armstrong. Né en 1983 à San José, en plein cœur de la Silicon Valley, il a passé une partie de sa jeunesse en Amérique du Sud où il a pu constater les effets de l'hyeprinflation. Il a travaillé pour IBM en tant que développeur, comme consultant pour Deloitte, et, à partir de 2011, comme ingénieur informatique pour AirBNB.
+
+Il lit le livre blanc de Bitcoin en 2010.
+
+"Later, as a coder at Airbnb, Armstrong had his crypto epiphany. His employer was sending money to landlords in Latin America. He describes the process this way: 'High fees ... long delays ... opaque. We'd try sending money to somebody in Uruguay and didn't know how much would show up on the other side.'" [Forbes](https://www.forbes.com/sites/michaeldelcastillo/2020/02/19/coinbase-billionaire-brian-armstrongs-plan-to-make-bitcoin-ethereum-xrp-safe-for-all/#6b85aa39345b)
+
+Mars 2012 : "Armstrong had a prototype, 'PayPal for bitcoin,' an open-source Android wallet called Bitbank that let users send bitcoin via email addresses. Y Combinator showed interest, Armstrong said, but he'd deferred the meeting until he'd found a ride-or-die co-founder." [Blockworks](https://blockworks.co/news/coinbase-bitbank-history-gamestop-bitcoin-gridless-kenya)
+
+Il a profité d'un investissement de 150 000 $ venant de l'incubateur Y Combinator pour lancer Coinbase.
+
+Conflit avec Ben Reeves.
+
+"Fred Ehrsam, a Goldman Sachs alum, joined the venture and gave Coinbase credibility with the banks that would be wiring money to it." [Forbes](https://www.forbes.com/sites/michaeldelcastillo/2020/02/19/coinbase-billionaire-brian-armstrongs-plan-to-make-bitcoin-ethereum-xrp-safe-for-all/#6b85aa39345b)
+
+[Wiki](https://en.bitcoin.it/wiki/Coinbase_(business)): The service was announced on June 29, 2012 and received seed funding from Paul Graham after going through the startup incubator Y-Combinator. On October 26, 2012, the service launched its method to buy and sell bitcoins using a linked bank account. On December 5, 2012, Coinbase launched its Merchant Tools. On May 7, 2013, Coinbase announced that it had received five million dollars in funding led by the venture capital firm Union Square Ventures. It was the largest funding round to date for a bitcoin company. On July 11, 2013, Coinbase launched instant buys for fully verified users. On December 12, 2013, Coinbase announced Series B funding of $25 million dollars led by the venture capital firm Andreessen Horowitz. It is the largest round of funding received by a bitcoin company. On February 27, 2014, Coinbase announced that 1 Million consumer wallet accounts have been opened on their platform.
+
+5 décembre 2012 : "How To Accept Bitcoin On Your Website" https://www.coinbase.com/blog/how-to-accept-bitcoin-on-your-website
+
+Coinbase embauchera Charlie Lee, [30/7/2013](https://web.archive.org/web/20130802015101/http://blog.coinbase.com/post/56906034176/welcome-charlie-lee-creator-of-litecoin-to-the-team)
+
+- CoinLab, incubateur dans le secteur de Bitcoin, Peter Vessenes, Mike Koss, fondé en septembre 2011, levée de fonds en avril 2012 (Tim Draper) : https://www.geekwire.com/2011/coinlab-center-bitcoin-projects-created-seattle/ https://gavinthink.blogspot.com/2012/04/coinlab-and-bitcoin.html https://www.geekwire.com/2012/bitcoin-startup-coinlab-lands-funding-tim-draper-monetize-games/
+
+
+### Commerce
+
+Commerce : https://web.archive.org/web/20110525045712/https://en.bitcoin.it/wiki/Trade
+
+CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis déc. 2011–sept. 2012 : https://en.bitcoin.it/wiki/CoinCard https://www.youtube.com/watch?v=n5uoEqb3VaQ
+
+WeUseCoins, "Bitcoin for Merchants" : https://web.archive.org/web/20120107042342/http://www.weusecoins.com/merchant-tools.php
+
+- Coinabul, Jay Shore et Jon Holmquist, pièces et lingots d'or et d'argent : "Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul https://web.archive.org/web/20120117180603/http://www.thebitcointrader.com/2011/12/interview-jay-from-coinabul.html https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624 https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160
+
+Quickco.in ?
+
+BitcoinStore.com, Roger Ver, [3/11/2012](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366)
+
+15 novembre 2012 : Wordpress accepte les paiements en bitcoins via BitPay https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485 https://wordpress.com/blog/2012/11/15/pay-another-way-bitcoin/
+
+13 décembre 2012 : 4chan accepte les paiements en bitcoins via Coinbase, annonce de Corbin Fraser https://web.archive.org/web/20130107221636/http://www.bitcointrading.com/forum/talk-bitcoin/4chan-now-accepts-bitcoin-for-premium-membership/
+
+15 décembre 2012 : East Coast Bitcoin Summit, Philadelphia, [Tony Gallippi](https://www.youtube.com/watch?v=hH4rH6wu25U) (BitPay)
+
+### SatoshiDICE
+
+SatoshiDICE, concept acheté par Erik Voorhees, [lancement](https://bitcointalk.org/index.php?topic=77870.msg865877#msg865877) le 24 avr. 2012, réaction de Matt Corallo en juin 2012 : https://bitcointalk.org/index.php?topic=87444.msg961132#msg961132
+
+EDB: Le 24 avril 2012, un jeu de hasard en ligne nommé SatoshiDICE est lancé par l'entrepreneur américain Erik Voorhees . Le site repose sur un fonctionnement très simple : le joueur envoie des bitcoins à une adresse spécifique et il a une probabilité prédéfinie de recevoir une récompense qui correspond à un multiple du montant envoyé (il a par exemple une chance sur deux de recevoir un peu moins de deux fois sa mise). Le procédé est instantané et aisément vérifiable, ce qui attire de nombreux parieurs.
+
+En tant que libertarien convaincu vivant dans le New Hampshire, Erik Voorhees voit en SatoshiDICE une manière d'échapper à la réglementation. Le 20 août, il réalise même une IPO pour son entreprise sur la plateforme roumaine MPEx. Il revendra la plateforme le 17 juillet 2013 pour 126 315 bitcoins, soit 12,4 millions de dollars au moment de l'acquisition.
+
+Le succès de SatoshiDICE provoque une augmentation significative du nombre de transactions sur la chaîne, qui triple en quelques mois. Cette activité provenant du site est remarquée et dérange certains développeurs qui la qualifient de « spam ».
+
+SatoshiDICE, 20 août 2012 : IPO sur MPEx : https://web.archive.org/web/20121024050433/https://bitcointalk.org/index.php?topic=101902.0
+
+Bitzino, "provably fair", par libertaad, [8/6](https://www.reddit.com/r/Bitcoin/comments/usa0j/i_coded_up_my_very_own_bitcoin_casino_in_order_to/), [15/6](https://bitcointalk.org/index.php?topic=87656.msg963927#msg963927), https://www.forbes.com/sites/jonmatonis/2012/08/31/bitzino-and-the-dawn-of-provably-fair-casino-gaming/
+
+Chiffres : https://web.archive.org/web/20130125023019/https://www.forbes.com/sites/jonmatonis/2013/01/22/bitcoin-casinos-release-2012-earnings/
+
+Coinapult, avec Ira Miller, envoyer des bitcoins par courriel (et SMS), [13 avr. 2012](https://bitcointalk.org/index.php?topic=76493.msg849026#msg849026)
+
+### Services de change P2P
+
+Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/),
+jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
+
+BitInstant ? Cash in the mail. BTCKing ?
+
+### PorcFest 2012
+
+18–24 juin 2012
+
+"PorcFest 2012 -- Biggest Bitcoin event ever" https://bitcointalk.org/index.php?topic=89714.msg987575#msg987575
+
+Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg987603 https://x.com/CharlieShrem/status/215824423616385025
+
+### Piratages et fermetures scandaleuses
+
+**TradeHill** Fermeture le [13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/)
+
+**Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
+
+**betco.in** 11 avril 2012, 3171,5 BTC https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855 https://betco.in/
+
+**L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
+
+Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
+
+**Piratage de BitFloor** 4 septembre 2012 : Piratage de BitFloor https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046 https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510
+
+19 novembre 2012 : fermeture de Crypto X Change, les clients perdent leur argent, les fondateurs (Ken et Colin Armitt) se font discrets https://web.archive.org/web/20121211201410/https://www.cryptoxchange.com/blog/21/crypto-x-change-suspending-trading-and-returning-client-funds https://www.abc.net.au/news/2013-04-08/darkside-of-billion-dollar-bitcoin-boom/4616992
+
+### La chute de Bitcoinica
+
+**Chute de Bitcoinica** 24 avril 2012, "Bitcoinica joins forces with Bitcoin Consultancy" : https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160
+
+11 mai 2012 Piratage et fermeture de Bitcoinica, 18 547 BTC, 92 000 $ https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html https://journalducoin.com/analyses/affaire-bitcoinica-succes-chute-plateforme-trading-bitcoin/
+
+[26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : Publication de "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
+
+Poursuites contre Zhou Tong et Amir Taaki https://www.theverge.com/2012/8/10/3233711/second-bitcoin-lawsuit-is-filed-in-california
+
+"Bitcoinica was hacked, tens of thousands of Bitcoin were stolen, including over 25,000 of my own. While an offer was on the table to buy the entire company, and make every single user 100% whole again, without permission, Amir released the source code publicly, destroying any chance for the company to be sold, and the users to be made whole again. In short, Amir has a long history of irresponsible behavior in the Bitcoin space and we should be very wary of having him be entrusted with any responsibility at all." [Roger Ver, 2016](https://web.archive.org/web/20201109031604/http://forum.bitcoin.com/bitcoin-discussion/amir-taaki-and-the-segway-in-austria-t7749.html)
+
+JDC: Après sa chute, Bitcoinica a été remplacée par d'autres plateformes de trading sur marge comme Kronos.io, et surtout par Bitfinex qui a été lancée le 22 octobre 2012. Quant à Zhou Tong, il a continué son bout de chemin en co-fondant CoinJar en 2013 avec Asher Tan, entreprise où il travaille toujours.
+
+TheEndOfMoney interview: Ryan Zhou about Bitcoinica, CoinJar, Ethereum : https://www.youtube.com/watch?v=-L-FHB_-qT4
+
+Bitfinex créé en remplacement, 22 oct. 2012 : https://bitcointalk.org/index.php?topic=119745.0 ; Raphael Nicolle, technicien informatique français
+
+### La prostitution
+
+- Prostitution : Girls Gone Bitcoin
+
+Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/culture/bitcoin-gone-wild)
+
+[8/6/2012](https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/): "Then there's 'Girls Gone Bitcoin.' In this reddit subforum (reddit shares a parent company with Ars Technica), women post naked pictures of themselves along with Bitcoin addresses, in hopes of receiving tips. (We're not going to link to it, but we trust interested readers know how to use Google.) Andresen calls this 'the high-tech equivalent of putting a dollar in a G-string.'"
+
+### Misc
+
+"Porn, gambling, and malware", 8 juin 2012 : https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/
+
+Bitcoin botnet mining, [17 06 2011](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining)
+
+Rançongiciels, CryptoLocker, 5 septembre 2013–mai 2014
+
+### Le déclin du Far West
+
+À la fin de l'année 2012, la part des transactions purement illégales commence déjà à décliner.
+
+Mars 2013 : le volume de BitPay dépasse celui de Silk Road : https://bitcoinmagazine.com/technical/bitpay-processes-5-million-in-march-eclipses-silk-road-1364929315
 
 ## L'information et le lobbying (?)
 

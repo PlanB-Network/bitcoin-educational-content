@@ -972,11 +972,9 @@ De Arch Linux familie onderscheidt zich door een filosofie die radicaal tegenove
 
 Deze aanpak is gebaseerd op een *rollende release* model, waarbij pakketten continu worden bijgewerkt, zonder dat het nodig is om het systeem opnieuw te installeren bij elke grote release. De Pacman pakketbeheerder is snel en licht, waardoor het gemakkelijk is om software te installeren en bij te werken, en de AUR (*Arch User Repository*), een gemeenschapsrepository, biedt toegang tot een groot aantal onofficiële en ontwikkelingspakketten.
 
-
-
 Arch Linux is vooral gericht op gevorderde gebruikers die totale controle over hun omgeving willen, maar een zekere complexiteit in installatie en onderhoud accepteren. Deze technische eis heeft geleid tot het ontstaan van verschillende afgeleide distributies die het gebruik ervan willen democratiseren.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 De bekendste is Manjaro, dat de technische basis van Arch behoudt, maar vereenvoudigde installatie, vooraf geconfigureerde bureaubladomgevingen en een iets vertraagde releasecyclus biedt om updates te stabiliseren.
 
@@ -1108,9 +1106,9 @@ De installatie verloopt soepel, essentiële software is voorgeïnstalleerd en me
 
 - elementair OS**:
 
-
-
 Elementary OS, dat in 2011 werd gelanceerd, is een op Ubuntu gebaseerde distributie die zich vooral richt op het ontwerp en de consistentie van Interface. De desktopomgeving Pantheon is geïnspireerd op macOS. De Pantheon desktopomgeving, geïnspireerd door macOS, is minimalistisch, elegant en vloeiend. Het systeem blijft echter minder aanpasbaar dan andere distributies, en sommige geavanceerde gebruikers kunnen zich beperkt voelen door de keuzemogelijkheden van Interface en de opzettelijk gesloten structuur. Het is zeer geschikt voor esthetisch gevoelige gebruikers die op zoek zijn naar een eenvoudig, samenhangend systeem voor dagelijks gebruik.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux is een minimalistische, continu bijwerkbare distributie, geleverd zon
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Gespecialiseerde distributie
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux is een op Debian gebaseerde distributie die is ontworpen voor penetratietesten en beveiligingsaudits. Het bevat honderden pentest tools. Deze distributie is niet echt geschikt als hoofdsysteem voor dagelijks gebruik.
 
@@ -4869,12 +4863,7 @@ Op macOS is de versleuteling van de systeemschijf gebaseerd op *FileVault*, een 
 
 Zodra FileVault is geactiveerd, moet u een herstelmethode kiezen voor het geval u uw wachtwoord verliest: gebruik uw *iCloud* account of generate een unieke back-upsleutel. Deze sleutel moet op een veilige plaats bewaard worden, omdat het verlies ervan uw gegevens permanent ontoegankelijk maakt.
 
-
-
 Voor externe opslagmedia (Hard schijven, USB-sticks, enz.) wordt de codering uitgevoerd met behulp van het schijfhulpprogramma. U moet het volume volledig opnieuw formatteren:
-
-
-
 
 - Selecteer het apparaat en klik op "*Verwijderen*"
 - Selecteer het "GUID*-partitietabel"-schema
@@ -4882,41 +4871,25 @@ Voor externe opslagmedia (Hard schijven, USB-sticks, enz.) wordt de codering uit
 - Kies een sterk wachtwoord
 - Klik op "*Delete*", dan op "*OK*" en de codering is voltooid
 
-
-
 Zodra de versleuteling is ingesteld, kan de externe schijf alleen worden aangekoppeld door dit wachtwoord in te voeren. Het systeem decodeert de schijf dan onmiddellijk.
-
-
 
 #### Een paar aanbevelingen voor je versleutelde back-ups
 
-
-
 Voordat je een medium versleutelt, moet je een back-up maken van alle gegevens die het bevat (tenzij het leeg is natuurlijk), omdat de versleutelingsprocedure over het algemeen de oorspronkelijke inhoud wist.
-
-
 
 De keuze van het wachtwoord is ook erg belangrijk: het moet lang, complex en uniek zijn, omdat het de enige bescherming is tussen je gegevens en een kwaadwillende derde partij. Je moet ook een back-up maken, bijvoorbeeld in een wachtwoordmanager, want in tegenstelling tot online diensten is er geen herstelmechanisme. Als je je wachtwoord vergeet, zijn de gegevens voorgoed verloren.
 
-
-
 ### Selectieve bestandscodering
-
-
 
 In sommige gevallen is het niet nodig of praktisch om een hele Hard schijf of externe media te versleutelen. In zulke gevallen kun je kiezen voor selectieve encryptie, waarbij alleen bepaalde bestanden of mappen met gevoelige data worden beveiligd.
 
-
-
 Een van de bekendste methoden om bestanden te versleutelen is het gebruik van GPG. Deze tool is gebaseerd op asymmetrische cryptografie: je hebt een paar sleutels, één publieke, die je vrij kan verdelen onder je correspondenten, en de andere private, die strikt geheim moet blijven. Bestanden worden versleuteld met de openbare sleutel van de ontvanger, maar kunnen alleen worden ontsleuteld met zijn of haar privésleutel.
-
-
 
 Dit protocol is perfect voor het veilig uitwisselen van gevoelige bestanden met anderen, zonder een wachtwoord te delen. Voor persoonlijk of incidenteel gebruik maakt GPG ook symmetrische encryptie mogelijk: het bestand wordt dan beschermd door een uniek wachtwoord dat alleen jij kent.
 
-
-
 Een uitstekend alternatief is Cryptomator. Met deze open source software kun je een kluis maken: een speciale map waarin alle bestanden die worden opgeslagen automatisch worden versleuteld. Deze kluis kan worden gesynchroniseerd met clouddiensten zoals Dropbox, Google Drive of Nextcloud zonder dat de provider ooit toegang heeft tot de onversleutelde gegevens. De applicatie is beschikbaar op alle besturingssystemen, inclusief Android en iOS, en vereist geen speciale technische vaardigheden om te gebruiken.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Een uitstekend alternatief is Cryptomator. Met deze open source software kun je 
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Ten slotte is het ook mogelijk om VeraCrypt in containermodus te gebruiken, waardoor een bestand wordt gemaakt dat fungeert als een versleuteld archief dat kan worden gemount zoals een schijf.
-
-
 
 Nu je hebt geleerd hoe je je persoonlijke gegevens kunt beschermen tegen verlies en diefstal, kijkt het volgende hoofdstuk naar een ander belangrijk aspect: hoe je kunt voorkomen dat je persoonlijke bestanden aanvalsvectoren worden via hun metadata.
 
-
-
-
 ## Metagegevens opschonen
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Elke keer dat je een digitaal bestand maakt, of het nu een foto, kantoordocument, audio- of videobestand is, bevat het op de achtergrond metadata. Deze informatie is niet direct zichtbaar wanneer je het bestand opent, maar het is er wel en kan extreem gevoelig Elements bevatten.
-
-
 
 ### Waarom zijn metadata een risico?
 
-
-
 Metadata zijn gegevens die aan een bestand zijn gekoppeld en die contextuele informatie geven over de inhoud. In een afbeelding kunnen dit de datum en tijd zijn waarop de foto is genomen, precieze GPS-coördinaten, het gebruikte model camera of smartphone en soms zelfs technische instellingen. In een tekstdocument kan dit de naam van de auteur zijn, de naam van het bedrijf, de sessie-ID van de gebruiker, tijdstempels van aanmaak en wijziging, of zelfs intern commentaar dat tijdens het bewerken is achtergelaten.
-
-
 
 Deze metadata lijken misschien onschuldig, maar kunnen door kwaadwillende actoren worden gebruikt om de auteur van een bestand te identificeren, een persoon fysiek te lokaliseren, gebeurtenissen of gewoonten te reconstrueren of zelfs softwarefouten uit te buiten op basis van de gebruikte softwareversie.
 
-
-
 Laten we een concreet voorbeeld nemen: je post een zogenaamd anonieme foto op een forum. Als je de EXIF metadata niet hebt verwijderd, kan een enkele klik de exacte GPS coördinaten van je huis, het model van je telefoon en de exacte datum waarop de foto is genomen onthullen. Op dezelfde manier kan een PDF-document dat anoniem wordt verzonden, je volledige naam in de eigenschappen bevatten.
-
-
 
 Daarom verwijderen sommige media publishing en communicatieplatformen automatisch metadata van je foto's. Dit zijn bijvoorbeeld X (Twitter), Instagram, Signal en Session. Andere platforms verwijderen daarentegen helemaal geen metadata: dit is het geval bij de meeste online forums, veel e-mailclients of zelfs wanneer je rechtstreeks op een website publiceert.
 
-
-
 Het is een essentiële reflex om aan te nemen: zodra een bestand je privésfeer verlaat, moet je nadenken over het opschonen van de metadata om te voorkomen dat persoonlijke of gevoelige informatie wordt vrijgegeven zonder dat je het weet. Laten we eens kijken hoe je dit kunt doen, afhankelijk van je besturingssysteem.
-
-
 
 ### Op Linux (Debian)
 
-
-
 #### ExifTool gebruiken
-
-
 
 De meest complete en betrouwbare manier om metadata te beheren en te verwijderen is de ExifTool, ontwikkeld door Phil Harvey. Het is compatibel met een groot aantal bestandsformaten (JPG, PNG, PDF, MP3, DOCX...) en maakt zowel weergave als verwijdering van metadata mogelijk.
 
-
-
-
-
 - Stap 1: Installeer ExifTool
 
-
-
 Om het op een Debian-distributie (Ubuntu) te installeren, open je een terminal en typ je het commando:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Dit pakket installeert `exiftool`, dat je vervolgens direct vanaf de commandoregel kunt gebruiken.
 
@@ -8611,34 +8550,26 @@ Deze tools werken als een kleine DNS-server in je netwerk en blokkeren verzoeken
 
 ### Veilige toegang op afstand via VPN
 
-
 In sommige gevallen is het handig om toegang te hebben tot je thuisnetwerk wanneer je onderweg bent: Raadpleeg bestanden op een NAS, gebruik een Bitcoin en Lightning node, krijg toegang tot een zelf gehoste server of beheer je netwerk. Deze verbinding op afstand moet echter wel veilig zijn.
-
 
 De eerste tip is om nooit direct een poort op je router te openen om toegang te krijgen tot een apparaat (bijvoorbeeld via RDP, SSH of FTP), omdat dit die dienst blootstelt aan het hele internet, wat een kwetsbaarheid vormt. Geautomatiseerde aanvallen gericht op open poorten zijn talrijk.
 
-
 De oplossing die ik aanbeveel is het gebruik van een VPN (*Virtual Private Network*), d.w.z. een versleutelde tunnel tussen je externe apparaat (computer, smartphone, enz.) en je lokale netwerk. Eenmaal verbonden met het VPN, heb je toegang tot de bronnen van je huis alsof je er fysiek bent, en op een veilige manier.
 
-
 De twee belangrijkste oplossingen voor particuliere klanten zijn:
-
-
 
 - WireGuard: Modern, snel en lichtgewicht
 - OpenVPN: Ouder, maar zeer volwassen en configureerbaar
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Hier is een complete tutorial over Tailscale, een eenvoudig te configureren VPN-oplossing die WireGuard gebruikt:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Je kunt dit VPN direct hosten op een compatibele router, op een kleine computer (zoals een Raspberry Pi) of op een speciale server thuis. Je kunt het ook als client direct op elk apparaat installeren.
 
-
 Maar een VPN is niet alleen voor toegang op afstand. Je kunt ook een klassieke VPN-client op je apparaten gebruiken om al je uitgaande verkeer te versleutelen, zelfs als je niet thuis bent (openbare Wi-Fi, hotel, universiteit, etc.). In dit geval maakt je apparaat verbinding met een VPN-server van derden (commercieel of zelf gehost), die vervolgens je verbindingen naar het internet doorstuurt. Dit verbergt je echte IP Address voor de ISP, beschermt je gegevens tegen lokale spionage en vermijdt bepaalde vormen van censuur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Tot slot is het ook mogelijk om een VPN rechtstreeks op je router in te stellen, zodat je alle apparaten in je huis kunt beschermen zonder dat je op elk apparaat een VPN-client hoeft te installeren.
 
-
 ### Bewaking en detectie
-
 
 Zodra je netwerk goed geconfigureerd en gesegmenteerd is, is het belangrijk om verder te gaan dan passieve beveiliging. Actieve bewaking van je lokale netwerk kan abnormaal gedrag, ongeautoriseerde verbindingen of tekenen van inbraak detecteren. Het doel is om problemen in een vroeg stadium op te sporen, voordat ze schade veroorzaken.
 
-
 De eerste stap is het centraliseren van beveiligingslogs. Elk apparaat dat verbonden is met het netwerk genereert logs met informatie over verbindingen, fouten of verdachte activiteiten. In plaats van deze logs individueel te raadplegen, raad ik aan om ze naar een server te sturen die ze kan groeperen, sorteren en analyseren. Met oplossingen zoals Graylog of Elastic Stack (ELK) kun je deze logs samenvoegen in een grafische Interface waar je kunt zoeken naar specifieke gebeurtenissen, waarschuwingen kunt aanmaken of netwerkactiviteit kunt visualiseren.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Voer vervolgens regelmatig actieve scans uit van je lokale netwerk, bijvoorbeeld met Nmap. Dit geeft je een overzicht van alle apparaten op je netwerk en de poorten die ze hebben geopend. Als je een onbekend apparaat of een ongebruikelijke service ziet, kan dit een teken zijn van een aanval.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Om nog verder te gaan, kun je een IDS (*Intrusion Detection System*) of zelfs een IPS (*Intrusion Prevention System*) installeren. Deze tools, zoals Suricata of Snort, monitoren netwerkstromen in realtime en detecteren handtekeningen van bekende aanvallen (poortscans, injecties, verdachte verbindingen, etc.). Het IDS waarschuwt, terwijl het IPS bepaalde acties automatisch kan blokkeren.
 
-
-
 Tot slot is het monitoren van bandbreedteverbruik ook een goede indicator voor abnormale activiteit. Als een apparaat plotseling veel data verbruikt zonder duidelijke reden, kan dit een ongeautoriseerde download, een datalek of zelfs een gecompromitteerd apparaat verraden. Tools zoals ntopng of vnStat stellen je in staat om inkomende en uitgaande stromen per apparaat te bekijken.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Back-up en veerkracht
 
-
 Zelfs met een perfect beveiligd netwerk kunnen hardwarestoringen, configuratiefouten of onvoorziene gebeurtenissen (stroomuitval, stroompiek, Hard schijfstoring, enz.) gegevensverlies veroorzaken of uw diensten onderbreken. Om de continuïteit van uw digitale omgeving te garanderen en te voorkomen dat u bij een probleem helemaal opnieuw moet beginnen, is het belangrijk om een back-up- en veerkrachtstrategie te implementeren.
-
 
 Begin met het regelmatig maken van een back-up van de configuratie van je netwerkapparatuur, vooral van de router. Deze configuratiebestanden kunnen vaak geëxporteerd worden via de Interface administratie. Door een kopie te bewaren kun je snel een functionerend systeem herstellen in het geval van een reset of vervanging van een apparaat. Ik raad ook aan om deze back-up te coderen.
 
-
 Investeer ten slotte in een UPS om de veerkracht van je netwerk bij stroomuitval te verbeteren. Dit apparaat levert back-upstroom voor een paar minuten in het geval van een stroomstoring, zodat je het internet kunt blijven gebruiken of ervoor kunt zorgen dat kritieke apparaten (NAS, router, Wi-Fi-toegangspunt, enz.) netjes worden uitgeschakeld. Sommige modellen kunnen ook een automatisch uitschakelcommando sturen naar aangesloten apparaten wanneer ze detecteren dat de batterij bijna leeg is.
-
 
 Door deze paar stappen te volgen, bouw je een robuuste, veilige netwerkomgeving die je privacy respecteert.
 
-
 # Laatste deel
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Beoordelingen
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Eindexamen
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusie
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

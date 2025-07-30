@@ -24,8 +24,8 @@ Bitcoin si basa su un registro distribuito e trasparente. Chiunque può tracciar
 
 L'obiettivo non è nascondere direttamente le informazioni, ma confonderle tra molteplici possibilità. Questa strategia viene usata soprattutto nelle transazioni CoinJoin, che aiutano a interrompere la tracciabilità della storia di un UTXO e a rendere più difficile capire come si muovono i fondi. Per raggiungere questo scopo, la transazione viene costruita con più input e output dello stesso importo.
 
-Ogni transazione Bitcoin "brucia" i suoi input per generare nuovi output, modificando le condizioni di spesa delle monete. Questo è il meccanismo fondamentale con cui i bitcoin vengono trasferiti tra utenti.
-(Ne parlo più nel dettaglio nell' articolo: Meccanismo di una transazione Bitcoin: UTXO, input e output.)
+Ogni transazione Bitcoin "brucia" i suoi input per generare nuovi output, modificando le condizioni di spesa degli UTXO. Questo è il meccanismo fondamentale con cui i bitcoin vengono trasferiti tra utenti.
+(Ne parlo più nel dettaglio nell' articolo: Meccanismo di una transazione Bitcoin: UTXO, input e output).
 
 Una delle modalità per offuscare le tracce all'interno di una transazione è ricorrere a una transazione collaborativa. Come suggerisce il nome, si tratta di un accordo tra più utenti, ciascuno dei quali partecipa con un input e riceve un output nella stessa transazione.
 

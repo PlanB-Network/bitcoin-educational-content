@@ -972,11 +972,9 @@ Arch Linux-familien kjennetegnes av en filosofi som står i radikal motsetning t
 
 Denne tilnærmingen er basert på en *rullende utgivelsesmodell*, der pakkene oppdateres kontinuerlig, uten at det er nødvendig å installere systemet på nytt ved hver større utgivelse. Pakkebehandleren Pacman er rask og lett, noe som gjør det enkelt å installere og oppdatere programvare, og AUR (*Arch User Repository*), et fellesskapsrepositorium, gir tilgang til et stort utvalg av uoffisielle pakker og utviklingspakker.
 
-
-
 Arch Linux er først og fremst rettet mot avanserte brukere som ønsker total kontroll over miljøet sitt, samtidig som de aksepterer en viss kompleksitet i installasjon og vedlikehold. Dette tekniske kravet har ført til fremveksten av flere avledede distribusjoner som tar sikte på å demokratisere bruken.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Den mest kjente er Manjaro, som beholder Archs tekniske base samtidig som den tilbyr forenklet installasjon, forhåndskonfigurerte skrivebordsmiljøer og en noe forsinket utgivelsessyklus for å stabilisere oppdateringene.
 
@@ -1108,9 +1106,9 @@ Installasjonen er enkel, viktig programvare er forhåndsinstallert, og "Lite"-ve
 
 - elementært operativsystem**:
 
-
-
 Elementary OS ble lansert i 2011 og er en Ubuntu-basert distribusjon som først og fremst fokuserer på design og konsistens i Interface. Skrivebordsmiljøet Pantheon, som er inspirert av macOS, er minimalistisk, elegant og flytende. Systemet er imidlertid mindre tilpasningsdyktig enn andre distribusjoner, og noen avanserte brukere kan føle seg begrenset av Interfaces valgmuligheter og den bevisst fastlåste strukturen. Den egner seg godt for estetisk sensitive brukere som er ute etter et enkelt, sammenhengende system til hverdagsbruk.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux er en minimalistisk, kontinuerlig oppdaterbar distribusjon som levere
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Spesialisert distribusjon
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux er en Debian-basert distribusjon som er utviklet for penetrasjonstesting og sikkerhetsrevisjon. Den inneholder hundrevis av pentest-verktøy. Denne distribusjonen egner seg ikke som et hovedsystem for daglig bruk.
 
@@ -4869,12 +4863,7 @@ På macOS er systemdiskkryptering basert på *FileVault*, en innebygd funksjon s
 
 Når FileVault er aktivert, må du velge en gjenopprettingsmetode i tilfelle du mister passordet: enten ved å bruke *iCloud*-kontoen din, eller generate en unik sikkerhetskopinøkkel. Denne nøkkelen må oppbevares på et trygt sted, da tap av den vil gjøre dataene dine permanent utilgjengelige.
 
-
-
 For eksterne lagringsmedier (Hard-disker, USB-minnepinner osv.) utføres krypteringen ved hjelp av diskverktøyet. Du må formatere volumet fullstendig på nytt:
-
-
-
 
 - Velg enheten, klikk på "*Delete*"
 - Velg "GUID* Partition Table"-skjemaet
@@ -4882,41 +4871,25 @@ For eksterne lagringsmedier (Hard-disker, USB-minnepinner osv.) utføres krypter
 - Velg et sterkt passord
 - Klikk på "*Delete*" og deretter på "*OK*", og krypteringen er fullført
 
-
-
 Når krypteringen er på plass, kan den eksterne stasjonen bare monteres ved å taste inn dette passordet. Systemet dekrypterer den deretter underveis.
-
-
 
 #### Noen anbefalinger for krypterte sikkerhetskopier
 
-
-
 Før du krypterer et medium, må du ta sikkerhetskopi av alle dataene det inneholder (med mindre det er tomt, selvfølgelig), ettersom krypteringsprosedyren vanligvis sletter det opprinnelige innholdet.
-
-
 
 Valget av passord er også svært viktig: Det må være langt, komplekst og unikt, ettersom det er den eneste beskyttelsen mellom dataene dine og en ondsinnet tredjepart. Du må også ta en sikkerhetskopi, for eksempel i en passordbehandler, for i motsetning til nettbaserte tjenester finnes det ingen gjenopprettingsmekanisme. Hvis du glemmer passordet ditt, er dataene tapt for godt.
 
-
-
 ### Selektiv filkryptering
-
-
 
 I noen tilfeller er det verken nødvendig eller praktisk å kryptere en hel Hard-disk eller et eksternt medium. I slike tilfeller kan du velge selektiv kryptering, som innebærer at du bare sikrer visse filer eller kataloger som inneholder sensitive data.
 
-
-
 En av de mest kjente metodene for å kryptere filer er å bruke GPG. Dette verktøyet er basert på asymmetrisk kryptografi: Du har et par nøkler, en offentlig, som du fritt kan dele ut til dine korrespondenter, og en privat, som må holdes strengt hemmelig. Filer krypteres med mottakerens offentlige nøkkel, men kan bare dekrypteres med hans eller hennes private nøkkel.
-
-
 
 Denne protokollen er perfekt for sikker utveksling av sensitive filer med andre, uten å dele passord. For personlig eller sporadisk bruk muliggjør GPG også symmetrisk kryptering: Filen beskyttes da med et unikt passord som bare du kjenner til.
 
-
-
 Et utmerket alternativ er Cryptomator. Med denne programvaren med åpen kildekode kan du opprette en safe: en spesiell katalog der alle filer som legges inn, automatisk krypteres. Denne safen kan synkroniseres med skytjenester som Dropbox, Google Drive eller Nextcloud uten at leverandøren noen gang får tilgang til de ukrypterte dataene. Applikasjonen er tilgjengelig på alle operativsystemer, inkludert Android og iOS, og krever ingen spesielle tekniske ferdigheter for å brukes.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Et utmerket alternativ er Cryptomator. Med denne programvaren med åpen kildekod
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Til slutt er det også mulig å bruke VeraCrypt i container-modus, som oppretter en fil som fungerer som et kryptert arkiv som kan monteres som en disk.
-
-
 
 Nå som du har lært hvordan du kan beskytte personopplysningene dine mot tap og tyveri, tar neste kapittel for seg et annet viktig aspekt: hvordan du kan forhindre at personfilene dine blir angrepsvektorer gjennom metadataene deres.
 
-
-
-
 ## Rensing av metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Hver gang du oppretter en digital fil, enten det er et bilde, et kontordokument, en lyd- eller videofil, inneholder den metadata i bakgrunnen. Denne informasjonen er ikke direkte synlig når du åpner filen, men den er der, og den kan inneholde ekstremt sensitive Elements.
-
-
 
 ### Hvorfor er metadata en risiko?
 
-
-
 Metadata er data som er knyttet til en fil, og som har til hensikt å gi kontekstuell informasjon om innholdet. I et bilde kan dette omfatte dato og klokkeslett for når bildet ble tatt, nøyaktige GPS-koordinater, kameramodellen eller smarttelefonen som ble brukt, og noen ganger til og med tekniske innstillinger. I et tekstdokument kan det omfatte forfatterens navn, selskapets navn, brukerens økt-ID, tidsstempler for opprettelse og endring, eller til og med interne kommentarer som er lagt igjen under redigering.
-
-
 
 Disse metadataene kan virke harmløse, men de kan brukes av ondsinnede aktører til å identifisere forfatteren av en fil, fysisk lokalisere en person, rekonstruere hendelser eller vaner, eller til og med utnytte programvarefeil basert på hvilken versjon av programvaren som brukes.
 
-
-
 La oss ta et konkret eksempel: Du legger ut et tilsynelatende anonymt bilde på et forum. Hvis du ikke har fjernet EXIF-metadataene, kan et enkelt klikk avsløre de nøyaktige GPS-koordinatene til hjemmet ditt, modellen på telefonen din og den nøyaktige datoen bildet ble tatt. På samme måte kan et PDF-dokument som sendes anonymt, inneholde ditt fulle navn i egenskapene.
-
-
 
 Derfor fjerner noen mediepubliserings- og kommunikasjonsplattformer automatisk metadata fra bildene dine. Dette gjelder blant annet X (Twitter), Instagram, Signal og Session. Andre plattformer fjerner derimot ikke metadata i det hele tatt: Dette er tilfellet med de fleste nettfora, mange e-postklienter, eller til og med når du publiserer direkte på et nettsted.
 
-
-
 Det er en viktig refleks å ta i bruk: Så snart en fil forlater din private sfære, må du tenke på å rydde opp i metadataene for å unngå å avsløre personlig eller sensitiv informasjon uten at du vet om det. La oss ta en titt på hvordan du gjør dette, avhengig av operativsystemet ditt.
-
-
 
 ### På Linux (Debian)
 
-
-
 #### Bruke ExifTool
-
-
 
 Den mest komplette og pålitelige måten å håndtere og slette metadata på er ExifTool, utviklet av Phil Harvey. Det er kompatibelt med et stort antall filformater (JPG, PNG, PDF, MP3, DOCX...) og gjør det mulig både å vise og fjerne metadata.
 
-
-
-
-
 - Trinn 1: Installer ExifTool
 
-
-
 For å installere det på en Debian-distribusjon (Ubuntu), åpner du en terminal og skriver inn kommandoen:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Denne pakken installerer `exiftool`, som du deretter kan bruke direkte fra kommandolinjen.
 
@@ -8611,34 +8550,26 @@ Disse verktøyene fungerer som en liten DNS-server i nettverket ditt, og blokker
 
 ### Sikker ekstern tilgang via VPN
 
-
 I noen tilfeller kan det være nyttig å ha tilgang til hjemmenettverket når du er på farten: Du kan konsultere filer på en NAS, bruke en Bitcoin og Lightning-node, få tilgang til en server du selv hoster, eller administrere nettverket. Denne eksterne tilkoblingen må imidlertid være sikker.
-
 
 Det første tipset er å aldri åpne en port på ruteren direkte for å få tilgang til en enhet (f.eks. via RDP, SSH eller FTP), da dette eksponerer den aktuelle tjenesten for hele Internett, noe som utgjør en sårbarhet. Det finnes mange automatiserte angrep rettet mot åpne porter.
 
-
 Løsningen jeg anbefaler er å bruke et VPN (*Virtual Private Network*), dvs. en kryptert tunnel mellom den eksterne enheten din (datamaskin, smarttelefon osv.) og det lokale nettverket ditt. Når du er koblet til VPN-et, kan du få tilgang til hjemmets ressurser som om du var der fysisk, og på en sikker måte.
 
-
 De to hovedløsningene for privatkunder er
-
-
 
 - WireGuard: Moderne, rask og lett
 - OpenVPN: Eldre, men svært modent og konfigurerbart
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Her er en komplett veiledning om Tailscale, en VPN-løsning som er enkel å konfigurere og som bruker WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Du kan være vert for dette VPN-et direkte på en kompatibel ruter, på en liten datamaskin (for eksempel en Raspberry Pi) eller på en dedikert server hjemme. Du kan også installere det som en klient direkte på en hvilken som helst enhet.
 
-
 Men et VPN er ikke bare for ekstern tilgang. Du kan også bruke en klassisk VPN-klient på enhetene dine for å kryptere all utgående trafikk, selv når du er borte fra hjemmet (offentlig Wi-Fi, hotell, universitet osv.). I dette tilfellet kobler enheten din til en tredjeparts VPN-server (kommersiell eller egenutviklet), som deretter videresender forbindelsene dine til Internett. Dette skjuler din virkelige IP Address fra Internett-leverandøren, beskytter dataene dine mot lokal spionasje og unngår visse former for sensur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Til slutt er det også mulig å sette opp et VPN direkte på ruteren din, slik at du kan beskytte alle enhetene i hjemmet uten å måtte installere en VPN-klient på hver av dem.
 
-
 ### Overvåking og deteksjon
-
 
 Når nettverket er riktig konfigurert og segmentert, er det viktig å gå lenger enn passiv sikkerhet. Aktiv overvåking av det lokale nettverket kan oppdage unormal atferd, uautoriserte tilkoblinger eller tegn på inntrenging. Målet er å oppdage problemer tidlig, før de forårsaker skade.
 
-
 Det første steget er å sentralisere sikkerhetsloggene. Alle enheter som er koblet til nettverket, genererer logger som inneholder informasjon om tilkoblinger, feil eller mistenkelig aktivitet. I stedet for å konsultere disse loggene hver for seg, anbefaler jeg å sende dem til en server som kan gruppere, sortere og analysere dem. Med løsninger som Graylog eller Elastic Stack (ELK) kan du samle disse loggene i en grafisk Interface der du kan søke etter spesifikke hendelser, opprette varsler eller visualisere nettverksaktivitet.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Deretter bør du utføre regelmessige aktive skanninger av det lokale nettverket, for eksempel med Nmap. Da får du oversikt over alle enhetene i nettverket og hvilke porter de har åpnet. Hvis du oppdager en ukjent enhet eller en uvanlig tjeneste, kan dette være tegn på et angrep.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Hvis du vil gå enda lenger, kan du installere et IDS (*Intrusion Detection System*), eller til og med et IPS (*Intrusion Prevention System*). Disse verktøyene, for eksempel Suricata eller Snort, overvåker nettverksstrømmer i sanntid og oppdager signaturer på kjente angrep (portskanninger, injeksjoner, mistenkelige tilkoblinger osv.). IDS advarer, mens IPS automatisk kan blokkere visse handlinger.
 
-
-
 Til slutt er overvåking av båndbreddeforbruket også en god indikator på unormal aktivitet. Hvis en enhet plutselig bruker mye data uten noen åpenbar grunn, kan dette tyde på uautorisert nedlasting, datalekkasje eller til og med en kompromittert enhet. Med verktøy som ntopng eller vnStat kan du se innkommende og utgående datastrømmer per enhet.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sikkerhetskopiering og robusthet
 
-
 Selv med et perfekt sikret nettverk kan maskinvarefeil, konfigurasjonsfeil eller uforutsette hendelser (strømbrudd, overspenning, Hard-diskfeil osv.) føre til tap av data eller avbrudd i tjenestene dine. For å sikre kontinuiteten i det digitale miljøet og unngå å måtte starte helt fra bunnen av i tilfelle et problem oppstår, er det viktig å implementere en strategi for sikkerhetskopiering og robusthet.
-
 
 Begynn med å sikkerhetskopiere konfigurasjonen av nettverksutstyret regelmessig, spesielt ruteren. Disse konfigurasjonsfilene kan ofte eksporteres via administrasjonsverktøyet Interface. Ved å ta vare på en kopi kan du raskt gjenopprette et funksjonelt system i tilfelle en enhet tilbakestilles eller skiftes ut. Jeg anbefaler også å kryptere denne sikkerhetskopien.
 
-
 Til slutt kan du investere i en UPS for å forbedre nettverkets robusthet i tilfelle strømbrudd. Denne enheten gir reservestrøm i noen minutter i tilfelle strømbrudd, slik at du kan fortsette å bruke Internett eller sørge for at kritiske enheter (NAS, ruter, Wi-Fi-tilgangspunkt osv.) slås av uten problemer. Noen modeller kan også sende en automatisk nedstengningskommando til tilkoblede enheter når de oppdager at batterinivået er lavt.
-
 
 Ved å følge disse få trinnene kan du bygge et robust og sikkert nettverksmiljø som respekterer personvernet ditt.
 
-
 # Siste del
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Anmeldelser og rangeringer
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Konklusjon
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

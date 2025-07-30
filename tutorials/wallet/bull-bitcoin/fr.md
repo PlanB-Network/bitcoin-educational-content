@@ -528,15 +528,15 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 * **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
 	* **Sécuriser sa phrase de récupération**
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/
-
-
-
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
+
  - **Liquid Network** :
+ 
 	 - **[Glossaire](https://planb.network/resources/glossary/liquid-network)**
 
 

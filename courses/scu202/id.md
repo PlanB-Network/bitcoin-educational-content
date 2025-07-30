@@ -972,11 +972,9 @@ Keluarga Arch Linux dibedakan oleh filosofi yang secara radikal berlawanan denga
 
 Pendekatan ini didasarkan pada model *rolling release*, di mana paket-paket diperbarui secara terus menerus, tanpa perlu menginstal ulang sistem pada setiap rilis utama. Manajer paket Pacman cepat dan ringan, membuatnya mudah untuk menginstal dan memperbarui perangkat lunak, dan AUR (*Arch User Repository*), sebuah repositori komunitas, menyediakan akses ke berbagai macam paket tidak resmi dan paket pengembangan.
 
-
-
 Arch Linux ditujukan terutama untuk pengguna tingkat lanjut yang menginginkan kendali penuh atas lingkungan mereka, sambil menerima kerumitan tertentu dalam instalasi dan pemeliharaan. Persyaratan teknis ini telah menyebabkan munculnya beberapa distribusi turunan yang bertujuan untuk mendemokratisasi penggunaannya.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Yang paling terkenal adalah Manjaro, yang mempertahankan basis teknis Arch sambil menawarkan instalasi yang disederhanakan, lingkungan desktop yang telah dikonfigurasi sebelumnya, dan siklus rilis yang sedikit tertunda untuk menstabilkan pembaruan.
 
@@ -1108,9 +1106,9 @@ Pemasangannya lancar, perangkat lunak penting sudah terinstal sebelumnya, dan ve
 
 - oS dasar**:
 
-
-
 Diluncurkan pada tahun 2011, elementary OS adalah distribusi berbasis Ubuntu yang berfokus pada desain dan konsistensi Interface. Lingkungan desktop Pantheon-nya, yang terinspirasi oleh macOS, minimalis, elegan, dan lancar. Namun, sistem ini masih kurang dapat dikustomisasi dibandingkan distribusi lainnya, dan beberapa pengguna tingkat lanjut mungkin merasa dibatasi oleh pilihan Interface dan strukturnya yang sengaja dikunci. Distribusi ini sangat cocok untuk pengguna yang sensitif secara estetika yang mencari sistem yang sederhana dan koheren untuk penggunaan sehari-hari.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux adalah distribusi minimalis yang dapat diperbarui secara terus-meneru
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Distribusi khusus
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux adalah distribusi berbasis Debian yang dirancang untuk pengujian penetrasi dan audit keamanan. Distribusi ini mencakup ratusan alat pentest. Distribusi ini tidak terlalu cocok sebagai sistem utama untuk penggunaan sehari-hari.
 
@@ -4869,12 +4863,7 @@ Pada macOS, enkripsi disk sistem didasarkan pada *FileVault*, fitur asli yang da
 
 Setelah FileVault diaktifkan, Anda harus memilih metode pemulihan jika terjadi kehilangan kata sandi: gunakan akun *iCloud* Anda, atau generate, sebuah kunci cadangan yang unik. Kunci ini harus disimpan di tempat yang aman, karena jika hilang, data Anda tidak dapat diakses secara permanen.
 
-
-
 Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakukan dengan menggunakan utilitas disk. Anda harus memformat ulang volume sepenuhnya:
-
-
-
 
 - Pilih perangkat, klik "*Hapus*"
 - Pilih skema "Tabel Partisi GUID*"
@@ -4882,41 +4871,25 @@ Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakuka
 - Pilih kata sandi yang kuat
 - Klik "*Hapus*" lalu "*OK*" dan enkripsi selesai
 
-
-
 Setelah enkripsi dilakukan, drive eksternal hanya dapat dipasang dengan memasukkan kata sandi ini. Sistem kemudian akan mendekripsi dengan cepat.
-
-
 
 #### Beberapa rekomendasi untuk cadangan terenkripsi Anda
 
-
-
 Sebelum mengenkripsi sebuah media, Anda perlu mencadangkan semua data yang ada di dalamnya (kecuali jika media itu kosong, tentu saja), karena prosedur enkripsi umumnya menghapus konten awal.
-
-
 
 Pemilihan kata sandi juga sangat penting: kata sandi harus panjang, rumit, dan unik, karena ini adalah satu-satunya perlindungan antara data Anda dan pihak ketiga yang jahat. Anda juga perlu membuat cadangan, misalnya di pengelola kata sandi, karena tidak seperti layanan online, tidak ada mekanisme pemulihan. Jika Anda lupa kata sandi Anda, data akan hilang untuk selamanya.
 
-
-
 ### Enkripsi file selektif
-
-
 
 Dalam beberapa kasus, tidak perlu atau tidak praktis untuk mengenkripsi seluruh disk Hard atau media eksternal. Dalam kasus seperti itu, Anda dapat memilih enkripsi selektif, yang hanya mengamankan file atau direktori tertentu yang berisi data sensitif.
 
-
-
 Salah satu metode yang paling terkenal untuk mengenkripsi file adalah dengan menggunakan GPG. Alat ini didasarkan pada kriptografi asimetris: Anda memiliki sepasang kunci, satu kunci publik, yang dapat Anda distribusikan secara bebas kepada koresponden Anda, dan kunci pribadi, yang harus tetap dirahasiakan. File dienkripsi menggunakan kunci publik penerima, tetapi hanya dapat didekripsi menggunakan kunci pribadinya.
-
-
 
 Protokol ini sangat cocok untuk bertukar file sensitif secara aman dengan orang lain, tanpa berbagi kata sandi. Untuk penggunaan pribadi atau sesekali, GPG juga memungkinkan enkripsi simetris: file kemudian dilindungi oleh kata sandi unik yang hanya diketahui oleh Anda.
 
-
-
 Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak sumber terbuka ini memungkinkan Anda untuk membuat brankas: direktori khusus tempat semua file yang disimpan secara otomatis dienkripsi. Brankas ini bisa disinkronkan dengan layanan awan seperti Dropbox, Google Drive atau Nextcloud tanpa penyedia layanan memiliki akses ke data yang tidak terenkripsi. Aplikasi ini tersedia di semua sistem operasi, termasuk Android dan iOS, dan tidak memerlukan keahlian teknis khusus untuk menggunakannya.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Alternatif yang sangat baik adalah Cryptomator. Perangkat lunak sumber terbuka i
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Terakhir, Anda juga dapat menggunakan VeraCrypt dalam mode kontainer, yang membuat file yang bertindak sebagai arsip terenkripsi, yang dapat dipasang seperti sebuah disk.
-
-
 
 Setelah Anda mempelajari cara melindungi data pribadi Anda dari kehilangan dan pencurian, bab berikutnya akan membahas aspek penting lainnya: cara mencegah file pribadi Anda menjadi vektor serangan melalui metadatanya.
 
-
-
-
 ## Pembersihan metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Setiap kali Anda membuat file digital, baik itu foto, dokumen kantor, file audio atau video, file tersebut berisi metadata di latar belakang. Informasi ini tidak terlihat secara langsung ketika Anda membuka file, tetapi ada di sana, dan dapat berisi Elements yang sangat sensitif.
-
-
 
 ### Mengapa metadata merupakan risiko?
 
-
-
 Metadata adalah data yang dilampirkan pada file, yang perannya adalah memberikan informasi kontekstual tentang konten. Pada sebuah gambar, hal ini dapat mencakup tanggal dan waktu pengambilan gambar, koordinat GPS yang tepat, model kamera atau ponsel cerdas yang digunakan, dan terkadang bahkan pengaturan teknis. Dalam dokumen teks, informasi ini dapat mencakup nama penulis, nama perusahaan, ID sesi pengguna, stempel waktu pembuatan dan modifikasi, atau bahkan komentar internal yang ditinggalkan selama pengeditan.
-
-
 
 Metadata ini mungkin terlihat tidak berbahaya, tetapi dapat digunakan oleh pelaku kejahatan untuk mengidentifikasi penulis file, menemukan seseorang secara fisik, merekonstruksi peristiwa atau kebiasaan, atau bahkan mengeksploitasi kelemahan perangkat lunak berdasarkan versi perangkat lunak yang digunakan.
 
-
-
 Mari kita ambil contoh konkret: Anda memposting foto yang seharusnya anonim di sebuah forum. Jika Anda belum menghapus metadata EXIF, satu klik saja bisa mengungkap koordinat GPS yang tepat dari rumah Anda, model ponsel Anda, dan tanggal pengambilan foto tersebut. Demikian pula, dokumen PDF yang dikirim secara anonim dapat berisi nama lengkap Anda di propertinya.
-
-
 
 Itulah mengapa beberapa platform penerbitan media dan komunikasi secara otomatis menghapus metadata dari foto Anda. Ini termasuk X (Twitter), Instagram, Signal dan Session. Di sisi lain, platform lain tidak menghapus metadata sama sekali: ini terjadi pada sebagian besar forum online, banyak klien email, atau bahkan ketika Anda mempublikasikan secara langsung di situs web.
 
-
-
 Ini adalah refleks yang penting untuk diterapkan: segera setelah sebuah file meninggalkan ruang pribadi Anda, Anda perlu memikirkan untuk membersihkan metadatanya untuk menghindari pengungkapan informasi pribadi atau informasi sensitif tanpa sepengetahuan Anda. Mari kita lihat bagaimana cara melakukannya, tergantung pada sistem operasi Anda.
-
-
 
 ### Di Linux (Debian)
 
-
-
 #### Menggunakan ExifTool
-
-
 
 Cara yang paling lengkap dan dapat diandalkan untuk mengelola dan menghapus metadata adalah ExifTool, yang dikembangkan oleh Phil Harvey. Alat ini kompatibel dengan sejumlah besar format file (JPG, PNG, PDF, MP3, DOCX...) dan memungkinkan tampilan dan penghapusan metadata.
 
-
-
-
-
 - Langkah 1: Instal ExifTool
 
-
-
 Untuk menginstalnya pada distribusi Debian (Ubuntu), buka terminal dan ketik perintah:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsung dari baris perintah.
 
@@ -8611,34 +8550,26 @@ Alat-alat ini bertindak seperti server DNS kecil di dalam jaringan Anda, memblok
 
 ### Akses jarak jauh yang aman melalui VPN
 
-
 Dalam beberapa kasus, akan sangat berguna untuk dapat mengakses jaringan rumah Anda ketika Anda sedang bepergian: Melihat file di NAS, menggunakan Bitcoin dan Lightning node, mengakses server yang dihosting sendiri, atau mengelola jaringan Anda. Namun, koneksi jarak jauh ini harus aman.
-
 
 Tips pertama adalah jangan pernah secara langsung membuka port pada router Anda untuk mengakses sebuah perangkat (misalnya melalui RDP, SSH atau FTP), karena hal ini akan mengekspos layanan tersebut ke seluruh Internet, yang merupakan sebuah kerentanan. Serangan otomatis yang menargetkan port yang terbuka sangat banyak.
 
-
 Solusi yang saya rekomendasikan adalah menggunakan VPN (*Virtual Private Network*), yaitu terowongan terenkripsi antara perangkat jarak jauh Anda (komputer, ponsel cerdas, dll.) dan jaringan lokal Anda. Setelah terhubung ke VPN, Anda dapat mengakses sumber daya rumah Anda seolah-olah Anda berada di sana secara fisik, dan dengan cara yang aman.
 
-
 Dua solusi utama untuk pelanggan pribadi adalah:
-
-
 
 - WireGuard: Modern, cepat dan ringan
 - OpenVPN: Lebih tua, tetapi sangat matang dan dapat dikonfigurasi
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Berikut ini tutorial lengkap tentang Tailscale, solusi VPN yang mudah dikonfigurasi yang menggunakan WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Anda bisa meng-host VPN ini secara langsung pada router yang kompatibel, pada komputer kecil (seperti Raspberry Pi) atau pada server khusus di rumah. Anda juga bisa menginstalnya sebagai klien secara langsung pada perangkat apa pun.
 
-
 Tetapi VPN tidak hanya untuk akses jarak jauh. Anda juga bisa menggunakan klien VPN klasik pada perangkat Anda untuk mengenkripsi semua lalu lintas keluar Anda, bahkan ketika Anda jauh dari rumah (Wi-Fi publik, hotel, universitas, dll.). Dalam hal ini, perangkat Anda tersambung ke server VPN pihak ketiga (komersial atau host sendiri), yang kemudian merelay koneksi Anda ke Internet. Hal ini menyembunyikan IP asli Anda Address dari ISP, melindungi data Anda dari mata-mata lokal dan menghindari bentuk-bentuk penyensoran tertentu.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Terakhir, Anda juga bisa menyiapkan VPN secara langsung pada router Anda, sehingga Anda bisa memproteksi semua perangkat di rumah Anda tanpa harus memasang klien VPN pada masing-masing perangkat.
 
-
 ### Pemantauan dan deteksi
-
 
 Setelah jaringan Anda dikonfigurasi dan disegmentasi dengan benar, penting untuk melampaui keamanan pasif. Pemantauan aktif jaringan lokal Anda dapat mendeteksi perilaku abnormal, koneksi tidak sah, atau tanda-tanda penyusupan. Tujuannya adalah untuk menemukan masalah lebih awal, sebelum menyebabkan kerusakan.
 
-
 Langkah pertama adalah memusatkan log keamanan. Setiap perangkat yang terhubung ke jaringan menghasilkan log yang berisi informasi tentang koneksi, kesalahan, atau aktivitas yang mencurigakan. Daripada melihat log ini satu per satu, saya sarankan untuk mengirimkannya ke server yang mampu mengelompokkan, menyortir, dan menganalisisnya. Solusi seperti Graylog atau Elastic Stack (ELK) memungkinkan Anda untuk menggabungkan log ini ke dalam Interface grafis di mana Anda dapat mencari peristiwa tertentu, membuat peringatan, atau memvisualisasikan aktivitas jaringan.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Selanjutnya, lakukan pemindaian aktif secara teratur pada jaringan lokal Anda, misalnya dengan Nmap. Ini akan memberi Anda gambaran umum tentang semua perangkat di jaringan Anda, dan port yang telah dibuka. Jika Anda mengidentifikasi perangkat yang tidak dikenal atau layanan yang tidak biasa, ini bisa menjadi tanda adanya serangan.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Untuk melangkah lebih jauh lagi, Anda bisa memasang IDS (*Intrusion Detection System*), atau bahkan IPS (*Intrusion Prevention System*). Alat-alat ini, seperti Suricata atau Snort, memonitor aliran jaringan secara real time dan mendeteksi tanda tangan serangan yang diketahui (pemindaian port, injeksi, koneksi yang mencurigakan, dll.). IDS memberi peringatan, sedangkan IPS dapat secara otomatis memblokir tindakan tertentu.
 
-
-
 Terakhir, memantau konsumsi bandwidth juga merupakan indikator yang baik untuk mengetahui aktivitas yang tidak normal. Jika sebuah perangkat tiba-tiba mengonsumsi banyak data tanpa alasan yang jelas, ini bisa menjadi petunjuk adanya pengunduhan yang tidak sah, kebocoran data, atau bahkan perangkat yang disusupi. Alat-alat seperti ntopng atau vnStat memungkinkan Anda untuk melihat aliran masuk dan keluar berdasarkan perangkat.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Pencadangan dan ketahanan
 
-
 Bahkan dengan jaringan yang sangat aman, kegagalan perangkat keras, kesalahan konfigurasi, atau kejadian tak terduga (kegagalan daya, lonjakan daya, kegagalan disk Hard, dll.) dapat menyebabkan hilangnya data atau mengganggu layanan Anda. Untuk menjamin kelangsungan lingkungan digital Anda dan menghindari memulai dari awal jika terjadi masalah, penting untuk menerapkan strategi pencadangan dan ketahanan.
-
 
 Mulailah dengan mencadangkan konfigurasi peralatan jaringan Anda secara teratur, terutama router. File konfigurasi ini sering kali dapat diekspor melalui administrasi Interface. Menyimpan salinannya memungkinkan Anda untuk dengan cepat memulihkan sistem fungsional jika terjadi pengaturan ulang atau penggantian perangkat. Saya juga menyarankan untuk mengenkripsi cadangan ini.
 
-
 Terakhir, untuk meningkatkan ketahanan jaringan Anda jika terjadi kegagalan daya, berinvestasilah pada UPS. Perangkat ini menyediakan daya cadangan selama beberapa menit jika terjadi kegagalan daya, sehingga Anda dapat terus menggunakan Internet atau memastikan bahwa perangkat penting (NAS, router, titik akses Wi-Fi, dll.) mati dengan bersih. Beberapa model juga dapat mengirimkan perintah pematian otomatis ke perangkat yang tersambung apabila mendeteksi baterai hampir habis.
-
 
 Dengan mengikuti beberapa langkah berikut ini, Anda akan membangun lingkungan jaringan yang kuat dan aman yang menghormati privasi Anda.
 
-
 # Bagian akhir
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Ulasan & Peringkat
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Ujian akhir
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Kesimpulan
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

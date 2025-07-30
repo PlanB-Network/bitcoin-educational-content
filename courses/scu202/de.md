@@ -972,11 +972,9 @@ Die Arch-Linux-Familie zeichnet sich durch eine Philosophie aus, die sich radika
 
 Dieser Ansatz basiert auf einem *Rolling-Release*-Modell, bei dem Pakete kontinuierlich aktualisiert werden, ohne dass das System bei jeder größeren Veröffentlichung neu installiert werden muss. Der Pacman-Paketmanager ist schnell und leichtgewichtig, was die Installation und Aktualisierung von Software vereinfacht, und das AUR (*Arch User Repository*), ein Community-Repository, bietet Zugang zu einer großen Anzahl inoffizieller und Entwicklungspakete.
 
-
-
 Arch Linux richtet sich vor allem an fortgeschrittene Benutzer, die eine vollständige Kontrolle über ihre Umgebung wünschen und dabei eine gewisse Komplexität bei der Installation und Wartung in Kauf nehmen. Diese technische Anforderung hat zur Entstehung mehrerer abgeleiteter Distributionen geführt, die darauf abzielen, seine Nutzung zu demokratisieren.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Am bekanntesten ist Manjaro, das die technische Basis von Arch beibehält, aber eine vereinfachte Installation, vorkonfigurierte Desktop-Umgebungen und einen leicht verzögerten Veröffentlichungszyklus zur Stabilisierung von Updates bietet.
 
@@ -1108,9 +1106,9 @@ Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, un
 
 - elementares OS**:
 
-
-
 Elementary OS wurde 2011 eingeführt und ist eine Ubuntu-basierte Distribution, die sich vor allem auf das Design und die Konsistenz von Interface konzentriert. Seine Pantheon-Desktop-Umgebung, inspiriert von macOS, ist minimalistisch, elegant und flüssig. Das System ist jedoch weniger anpassbar als andere Distributionen, und einige fortgeschrittene Benutzer könnten sich durch die Auswahlmöglichkeiten von Interface und seine absichtlich festgelegte Struktur eingeschränkt fühlen. Es ist gut geeignet für ästhetisch sensible Benutzer, die ein einfaches, kohärentes System für den täglichen Gebrauch suchen.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Spezialisierter Vertrieb
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstests und Sicherheitsprüfungen entwickelt wurde. Sie enthält Hunderte von Pentest-Tools. Diese Distribution ist nicht wirklich als Hauptsystem für den täglichen Gebrauch geeignet.
 
@@ -4869,12 +4863,7 @@ Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, e
 
 Nach der Aktivierung von FileVault müssen Sie eine Wiederherstellungsmethode für den Fall wählen, dass Sie Ihr Passwort verlieren: Entweder verwenden Sie Ihr *iCloud*-Konto oder generate einen eindeutigen Sicherungsschlüssel. Dieser Schlüssel muss an einem sicheren Ort aufbewahrt werden, da sein Verlust Ihre Daten dauerhaft unzugänglich machen würde.
 
-
-
 Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlüsselung mit dem Festplattendienstprogramm durchgeführt. Sie müssen den Datenträger vollständig neu formatieren:
-
-
-
 
 - Wählen Sie das Gerät aus und klicken Sie auf "*Löschen*"
 - Wählen Sie das Schema "GUID* Partitionstabelle"
@@ -4882,41 +4871,25 @@ Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlü
 - Wählen Sie ein sicheres Passwort
 - Klicken Sie auf "*Löschen*" und dann auf "*OK*" und die Verschlüsselung ist abgeschlossen
 
-
-
 Sobald die Verschlüsselung aktiviert ist, kann das externe Laufwerk nur noch durch Eingabe dieses Kennworts eingebunden werden. Das System entschlüsselt es dann im Handumdrehen.
-
-
 
 #### Einige Empfehlungen für Ihre verschlüsselten Backups
 
-
-
 Bevor Sie einen Datenträger verschlüsseln, müssen Sie alle darauf befindlichen Daten sichern (es sei denn, der Datenträger ist leer), da der Verschlüsselungsvorgang im Allgemeinen den ursprünglichen Inhalt löscht.
-
-
 
 Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen Ihren Daten und einem böswilligen Dritten ist. Außerdem müssen Sie eine Sicherungskopie erstellen, zum Beispiel in einem Passwort-Manager, denn anders als bei Online-Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn Sie Ihr Passwort vergessen, sind die Daten für immer verloren.
 
-
-
 ### Selektive Dateiverschlüsselung
-
-
 
 In manchen Fällen ist es weder notwendig noch praktisch, eine gesamte Hard-Festplatte oder ein externes Medium zu verschlüsseln. In solchen Fällen können Sie sich für eine selektive Verschlüsselung entscheiden, bei der nur bestimmte Dateien oder Verzeichnisse mit sensiblen Daten gesichert werden.
 
-
-
 Eine der bekanntesten Methoden zur Verschlüsselung von Dateien ist die Verwendung von GPG. Dieses Tool basiert auf asymmetrischer Kryptographie: Sie haben ein Schlüsselpaar, einen öffentlichen, den Sie frei an Ihre Korrespondenten verteilen können, und einen privaten, der streng geheim bleiben muss. Die Dateien werden mit dem öffentlichen Schlüssel des Empfängers verschlüsselt, können aber nur mit seinem privaten Schlüssel entschlüsselt werden.
-
-
 
 Dieses Protokoll eignet sich hervorragend für den sicheren Austausch sensibler Dateien mit anderen, ohne dass ein Passwort mitgeteilt werden muss. Für den persönlichen oder gelegentlichen Gebrauch ermöglicht GPG auch eine symmetrische Verschlüsselung: Die Datei ist dann durch ein eindeutiges, nur Ihnen bekanntes Passwort geschützt.
 
-
-
 Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open-Source-Software können Sie einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud-Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschließlich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open-Source-Software
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Schließlich ist es auch möglich, VeraCrypt im Containermodus zu verwenden, der eine Datei erzeugt, die als verschlüsseltes Archiv fungiert und wie ein Datenträger eingehängt werden kann.
-
-
 
 Nachdem Sie nun gelernt haben, wie Sie Ihre persönlichen Daten vor Verlust und Diebstahl schützen können, befasst sich das nächste Kapitel mit einem weiteren wichtigen Aspekt: wie Sie verhindern können, dass Ihre persönlichen Dateien durch ihre Metadaten zu Angriffsvektoren werden.
 
-
-
-
 ## Bereinigung von Metadaten
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Jedes Mal, wenn Sie eine digitale Datei erstellen, sei es ein Foto, ein Office-Dokument, eine Audio- oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn Sie die Datei öffnen, aber sie sind vorhanden und können äußerst sensible Daten enthalten.
-
-
 
 ### Warum sind Metadaten ein Risiko?
 
-
-
 Metadaten sind Daten, die an eine Datei angehängt sind und deren Aufgabe es ist, kontextbezogene Informationen über den Inhalt zu liefern. Bei einem Bild können dies das Datum und die Uhrzeit der Aufnahme, die genauen GPS-Koordinaten, das Modell der verwendeten Kamera oder des Smartphones und manchmal sogar technische Einstellungen sein. Bei einem Textdokument können dies der Name des Autors, der Name des Unternehmens, die Sitzungs-ID des Benutzers, Zeitstempel für die Erstellung und Änderung oder sogar interne Kommentare sein, die während der Bearbeitung hinterlassen wurden.
-
-
 
 Diese Metadaten mögen harmlos erscheinen, aber sie können von böswilligen Akteuren genutzt werden, um den Autor einer Datei zu identifizieren, eine Person physisch zu lokalisieren, Ereignisse oder Gewohnheiten zu rekonstruieren oder sogar Softwarefehler auf der Grundlage der verwendeten Softwareversion auszunutzen.
 
-
-
 Nehmen wir ein konkretes Beispiel: Sie stellen ein vermeintlich anonymes Foto in ein Forum. Wenn Sie die EXIF-Metadaten nicht entfernt haben, kann ein einziger Klick die genauen GPS-Koordinaten Ihres Wohnorts, das Modell Ihres Telefons und das genaue Aufnahmedatum des Fotos verraten. Ebenso kann ein anonym verschicktes PDF-Dokument in seinen Eigenschaften Ihren vollen Namen enthalten.
-
-
 
 Aus diesem Grund entfernen einige Medienveröffentlichungs- und Kommunikationsplattformen automatisch Metadaten aus Ihren Fotos. Dazu gehören X (Twitter), Instagram, Signal und Session. Andere Plattformen hingegen entfernen die Metadaten überhaupt nicht: Dies ist bei den meisten Online-Foren, vielen E-Mail-Clients oder sogar bei der direkten Veröffentlichung auf einer Website der Fall.
 
-
-
 Das ist ein wichtiger Reflex: Sobald eine Datei Ihre Privatsphäre verlässt, müssen Sie daran denken, ihre Metadaten zu bereinigen, um zu vermeiden, dass persönliche oder sensible Informationen ohne Ihr Wissen weitergegeben werden. Schauen wir uns einmal an, wie Sie das je nach Betriebssystem tun können.
-
-
 
 ### Unter Linux (Debian)
 
-
-
 #### Verwendung von ExifTool
-
-
 
 Das vollständigste und zuverlässigste Mittel zur Verwaltung und Löschung von Metadaten ist das von Phil Harvey entwickelte ExifTool. Es ist mit einer großen Anzahl von Dateiformaten kompatibel (JPG, PNG, PDF, MP3, DOCX...) und ermöglicht sowohl die Anzeige als auch das Löschen von Metadaten.
 
-
-
-
-
 - Schritt 1: ExifTool installieren
 
-
-
 Um es auf einer Debian-Distribution (Ubuntu) zu installieren, öffnen Sie ein Terminal und geben Sie den Befehl ein:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Dieses Paket installiert `exiftool`, das Sie dann direkt von der Kommandozeile aus verwenden können.
 
@@ -8611,34 +8550,26 @@ Diese Tools funktionieren wie ein kleiner DNS-Server in Ihrem Netzwerk und block
 
 ### Sicherer Fernzugriff über VPN
 
-
 In manchen Fällen ist es nützlich, auch von unterwegs auf Ihr Heimnetzwerk zugreifen zu können: Sie können Dateien auf einem NAS abrufen, einen Bitcoin und einen Lightning-Knoten verwenden, auf einen selbst gehosteten Server zugreifen oder Ihr Netzwerk verwalten. Diese Remote-Verbindung muss jedoch sicher sein.
-
 
 Der erste Tipp ist, niemals direkt einen Port auf Ihrem Router zu öffnen, um auf ein Gerät zuzugreifen (z. B. über RDP, SSH oder FTP), da dies diesen Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
 
-
 Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d. h. eines verschlüsselten Tunnels zwischen Ihrem entfernten Gerät (Computer, Smartphone usw.) und Ihrem lokalen Netzwerk. Sobald Sie mit dem VPN verbunden sind, können Sie auf die Ressourcen Ihres Hauses zugreifen, als wären Sie physisch vor Ort, und zwar auf sichere Weise.
 
-
 Die beiden wichtigsten Lösungen für Privatkunden sind:
-
-
 
 - WireGuard: Modern, schnell und leicht
 - OpenVPN: Älter, aber sehr ausgereift und konfigurierbar
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Hier finden Sie eine vollständige Anleitung zu Tailscale, einer einfach zu konfigurierenden VPN-Lösung, die WireGuard verwendet:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Sie können dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z. B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Sie können es auch als Client direkt auf einem beliebigen Gerät installieren.
 
-
 Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Sie können auch einen klassischen VPN-Client auf Ihren Geräten verwenden, um Ihren gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn Sie nicht zu Hause sind (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt Ihr Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann Ihre Verbindungen ins Internet weiterleitet. Dies verbirgt Ihre echte IP Address vor dem Internetanbieter, schützt Ihre Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Schließlich ist es auch möglich, ein VPN direkt auf Ihrem Router einzurichten, so dass Sie alle Geräte in Ihrem Haus schützen können, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
 
-
 ### Überwachung und Aufdeckung
-
 
 Sobald Ihr Netzwerk richtig konfiguriert und segmentiert ist, ist es wichtig, über die passive Sicherheit hinauszugehen. Durch die aktive Überwachung Ihres lokalen Netzes können Sie abnormales Verhalten, unbefugte Verbindungen oder Anzeichen eines Eindringens erkennen. Ziel ist es, Probleme frühzeitig zu erkennen, bevor sie Schaden anrichten.
 
-
 Der erste Schritt besteht darin, die Sicherheitsprotokolle zu zentralisieren. Jedes an das Netz angeschlossene Gerät erzeugt Protokolle mit Informationen über Verbindungen, Fehler oder verdächtige Aktivitäten. Anstatt diese Protokolle einzeln einzusehen, empfehle ich, sie an einen Server zu senden, der sie gruppieren, sortieren und analysieren kann. Lösungen wie Graylog oder Elastic Stack (ELK) ermöglichen es Ihnen, diese Protokolle in einem grafischen Interface zusammenzufassen, in dem Sie nach bestimmten Ereignissen suchen, Warnmeldungen erstellen oder die Netzwerkaktivität visualisieren können.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Führen Sie als nächstes regelmäßige aktive Scans Ihres lokalen Netzwerks durch, zum Beispiel mit Nmap. So erhalten Sie einen Überblick über alle Geräte in Ihrem Netzwerk und die von ihnen geöffneten Ports. Wenn Sie ein unbekanntes Gerät oder einen ungewöhnlichen Dienst entdecken, könnte dies ein Anzeichen für einen Angriff sein.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Um noch weiter zu gehen, können Sie ein IDS (*Intrusion Detection System*) oder sogar ein IPS (*Intrusion Prevention System*) installieren. Diese Tools, wie Suricata oder Snort, überwachen den Netzwerkfluss in Echtzeit und erkennen Signaturen bekannter Angriffe (Port-Scans, Injektionen, verdächtige Verbindungen usw.). Das IDS warnt, während das IPS bestimmte Aktionen automatisch blockieren kann.
 
-
-
 Schließlich ist die Überwachung des Bandbreitenverbrauchs auch ein guter Indikator für anormale Aktivitäten. Wenn ein Gerät plötzlich ohne ersichtlichen Grund eine große Menge an Daten verbraucht, kann dies auf einen nicht autorisierten Download, ein Datenleck oder sogar ein kompromittiertes Gerät hindeuten. Mit Tools wie ntopng oder vnStat können Sie die ein- und ausgehenden Datenströme pro Gerät anzeigen.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sicherung und Ausfallsicherheit
 
-
 Selbst bei einem perfekt gesicherten Netzwerk können Hardwareausfälle, Konfigurationsfehler oder unvorhergesehene Ereignisse (Stromausfall, Überspannung, Hard-Festplattenausfall usw.) zu Datenverlusten oder Unterbrechungen Ihrer Dienste führen. Um die Kontinuität Ihrer digitalen Umgebung zu gewährleisten und zu vermeiden, dass Sie im Falle eines Problems wieder bei Null anfangen müssen, ist es wichtig, eine Backup- und Resilienzstrategie zu implementieren.
-
 
 Beginnen Sie damit, die Konfiguration Ihrer Netzwerkausrüstung, insbesondere des Routers, regelmäßig zu sichern. Diese Konfigurationsdateien können oft über die Verwaltung Interface exportiert werden. Wenn Sie eine Kopie aufbewahren, können Sie im Falle eines Geräte-Resets oder eines Austauschs schnell ein funktionierendes System wiederherstellen. Ich empfehle außerdem, diese Sicherungskopie zu verschlüsseln.
 
-
 Und schließlich sollten Sie in eine USV investieren, um die Widerstandsfähigkeit Ihres Netzwerks bei einem Stromausfall zu verbessern. Dieses Gerät stellt bei einem Stromausfall für einige Minuten eine Notstromversorgung bereit und ermöglicht es Ihnen, das Internet weiter zu nutzen oder sicherzustellen, dass kritische Geräte (NAS, Router, Wi-Fi-Zugangspunkt usw.) sauber heruntergefahren werden. Einige Modelle können auch einen automatischen Abschaltbefehl an angeschlossene Geräte senden, wenn sie feststellen, dass die Batterie schwach ist.
-
 
 Wenn Sie diese wenigen Schritte befolgen, bauen Sie eine stabile, sichere Netzwerkumgebung auf, die Ihre Privatsphäre respektiert.
 
-
 # Letzter Teil
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Rezensionen und Bewertungen
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Schlussfolgerung
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

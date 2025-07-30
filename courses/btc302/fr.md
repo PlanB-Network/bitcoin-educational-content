@@ -1029,7 +1029,7 @@ Comme dit précédemment, **ces flyers peuvent être déposés un peu partout**:
 En France et dans quelques autres pays, il existe également **des "boîtes à livres"**.
 Construites généralement en bois, ces dernières accueillent gratuitement des livres à donner. Une possibilité serait donc d'**y laisser un flyer; ou mieux: un livre !**
 
-![image](assets/fr/043.png)
+![image](assets/fr/043.webp)
 ![image](assets/fr/044.webp)
 
 
@@ -1402,7 +1402,7 @@ Mais comme nous ne sommes qu'humains, nous ne disposons que d’une quantité de
 
 **Les communautés Bitcoin mondiales jouent donc un rôle fondamental dans la construction du monde de demain**; communautés dans lesquelles bitcoiners pourront **échanger, construire et partager**. **Ensemble**.
 
-![image](assets/fr/061.png)
+![image](assets/fr/061.webp)
 
 
 Comme vous l’aurez compris dans ce cours, **créer une communauté et un meet-up Bitcoin** demande de l’organisation et de la motivation. Bien évidemment, en fonction des envies et du temps que vous aurez à y consacrer, vous viendrez à aller plus ou moins loin dans les projets. 

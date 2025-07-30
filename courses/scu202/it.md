@@ -972,11 +972,9 @@ La famiglia Arch Linux si distingue per una filosofia radicalmente opposta a que
 
 Questo approccio si basa su un modello di *rilascio continuo*, in cui i pacchetti vengono aggiornati continuamente, senza la necessità di reinstallare il sistema a ogni rilascio principale. Il gestore di pacchetti Pacman è veloce e leggero e rende facile l'installazione e l'aggiornamento del software, mentre AUR (*Arch User Repository*), un archivio della comunità, fornisce l'accesso a una vasta gamma di pacchetti non ufficiali e di sviluppo.
 
-
-
 Arch Linux si rivolge soprattutto a utenti avanzati che desiderano un controllo totale sul proprio ambiente, pur accettando una certa complessità nell'installazione e nella manutenzione. Questo requisito tecnico ha portato alla nascita di diverse distribuzioni derivate volte a democratizzarne l'uso.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Il più noto è Manjaro, che mantiene la base tecnica di Arch offrendo però un'installazione semplificata, ambienti desktop preconfigurati e un ciclo di rilascio leggermente ritardato per stabilizzare gli aggiornamenti.
 
@@ -1108,9 +1106,9 @@ L'installazione è agevole, il software essenziale è preinstallato e la version
 
 - oS** elementare:
 
-
-
 Lanciata nel 2011, elementary OS è una distribuzione basata su Ubuntu che si concentra soprattutto sul design e sulla consistenza di Interface. Il suo ambiente desktop Pantheon, ispirato a macOS, è minimalista, elegante e fluido. Tuttavia, il sistema rimane meno personalizzabile di altre distribuzioni e alcuni utenti avanzati potrebbero sentirsi limitati dalle scelte di Interface e dalla sua struttura volutamente chiusa. È adatta agli utenti esteticamente sensibili che cercano un sistema semplice e coerente per l'uso quotidiano.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux è una distribuzione minimalista, continuamente aggiornabile, fornita
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Distribuzione specializzata
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux è una distribuzione basata su Debian progettata per i test di penetrazione e l'auditing della sicurezza. Include centinaia di strumenti di pentest. Questa distribuzione non è adatta come sistema principale per l'uso quotidiano.
 
@@ -4869,12 +4863,7 @@ Su macOS, la crittografia del disco di sistema si basa su *FileVault*, una funzi
 
 Una volta attivato FileVault, dovrete scegliere un metodo di recupero in caso di perdita della password: utilizzare il vostro account *iCloud* o generate una chiave di backup unica. Questa chiave deve essere conservata in un luogo sicuro, poiché la sua perdita renderebbe i dati permanentemente inaccessibili.
 
-
-
 Per i supporti di memorizzazione esterni (dischi Hard, chiavette USB, ecc.), la crittografia viene eseguita con l'utility disco. È necessario riformattare completamente il volume:
-
-
-
 
 - Selezionare il dispositivo, fare clic su "*Elimina*"
 - Selezionare lo schema "Tabella di partizione GUID*"
@@ -4882,41 +4871,25 @@ Per i supporti di memorizzazione esterni (dischi Hard, chiavette USB, ecc.), la 
 - Scegliere una password forte
 - Fare clic su "*Elimina*" e poi su "*OK*" per completare la crittografia
 
-
-
 Una volta effettuata la crittografia, l'unità esterna può essere montata solo immettendo questa password. Il sistema la decifrerà al volo.
-
-
 
 #### Alcune raccomandazioni per i vostri backup criptati
 
-
-
 Prima di crittografare un supporto, è necessario eseguire il backup di tutti i dati in esso contenuti (a meno che non sia vuoto, ovviamente), poiché la procedura di crittografia generalmente cancella il contenuto iniziale.
-
-
 
 Anche la scelta della password è molto importante: deve essere lunga, complessa e unica, perché è l'unica protezione tra i vostri dati e un terzo malintenzionato. È inoltre necessario effettuare un backup, ad esempio in un gestore di password, perché, a differenza dei servizi online, non esiste un meccanismo di recupero. Se si dimentica la password, i dati sono persi per sempre.
 
-
-
 ### Crittografia selettiva dei file
-
-
 
 In alcuni casi, non è necessario né pratico criptare un intero disco Hard o un supporto esterno. In questi casi, è possibile optare per la crittografia selettiva, che prevede la protezione solo di alcuni file o directory contenenti dati sensibili.
 
-
-
 Uno dei metodi più noti per criptare i file è l'utilizzo di GPG. Questo strumento si basa sulla crittografia asimmetrica: si dispone di una coppia di chiavi, una pubblica, che si può distribuire liberamente ai propri corrispondenti, e una privata, che deve rimanere strettamente segreta. I file vengono crittografati con la chiave pubblica del destinatario, ma possono essere decifrati solo con la sua chiave privata.
-
-
 
 Questo protocollo è perfetto per scambiare file sensibili in modo sicuro con altri, senza condividere la password. Per un uso personale o occasionale, GPG consente anche la crittografia simmetrica: il file è quindi protetto da una password unica nota solo a voi.
 
-
-
 Un'ottima alternativa è Cryptomator. Questo software open source consente di creare una cassaforte: una directory speciale in cui tutti i file depositati vengono automaticamente crittografati. Questa cassaforte può essere sincronizzata con servizi cloud come Dropbox, Google Drive o Nextcloud senza che il provider abbia mai accesso ai dati non crittografati. L'applicazione è disponibile su tutti i sistemi operativi, compresi Android e iOS, e non richiede particolari competenze tecniche per essere utilizzata.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Un'ottima alternativa è Cryptomator. Questo software open source consente di cr
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Infine, è anche possibile utilizzare VeraCrypt in modalità container, che crea un file che funge da archivio crittografato, montabile come un disco.
-
-
 
 Dopo aver appreso come proteggere i dati personali da perdite e furti, il prossimo capitolo affronta un altro aspetto importante: come evitare che i file personali diventino vettori di attacco attraverso i loro metadati.
 
-
-
-
 ## Pulizia dei metadati
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Ogni volta che si crea un file digitale, sia esso una foto, un documento d'ufficio, un file audio o video, contiene metadati in background. Queste informazioni non sono direttamente visibili quando si apre il file, ma sono presenti e possono contenere Elements estremamente sensibili.
-
-
 
 ### Perché i metadati sono un rischio?
 
-
-
 I metadati sono dati allegati a un file, il cui ruolo è quello di fornire informazioni contestuali sul contenuto. In un'immagine, possono includere la data e l'ora in cui è stata scattata, le coordinate GPS precise, il modello di fotocamera o di smartphone utilizzato e talvolta anche le impostazioni tecniche. In un documento di testo, può includere il nome dell'autore, il nome dell'azienda, l'ID di sessione dell'utente, i timestamp di creazione e modifica e persino i commenti interni lasciati durante la modifica.
-
-
 
 Questi metadati possono sembrare innocui, ma possono essere utilizzati da soggetti malintenzionati per identificare l'autore di un file, localizzare fisicamente una persona, ricostruire eventi o abitudini o persino sfruttare le falle del software in base alla versione del software utilizzato.
 
-
-
 Facciamo un esempio concreto: pubblicate una foto apparentemente anonima su un forum. Se non avete rimosso i metadati EXIF, un solo clic può rivelare le coordinate GPS precise della vostra casa, il modello del vostro telefono e la data esatta in cui è stata scattata la foto. Allo stesso modo, un documento PDF inviato in forma anonima può contenere il vostro nome e cognome nelle sue proprietà.
-
-
 
 Ecco perché alcune piattaforme di pubblicazione e comunicazione dei media rimuovono automaticamente i metadati dalle foto. Tra queste, X (Twitter), Instagram, Signal e Session. Altre piattaforme, invece, non rimuovono affatto i metadati: è il caso della maggior parte dei forum online, di molti client di posta elettronica o anche quando si pubblica direttamente su un sito web.
 
-
-
 È un riflesso essenziale da adottare: non appena un file lascia la vostra sfera privata, dovete pensare a ripulire i suoi metadati per evitare di divulgare informazioni personali o sensibili a vostra insaputa. Vediamo come fare, a seconda del sistema operativo in uso.
-
-
 
 ### Su Linux (Debian)
 
-
-
 #### Utilizzo di ExifTool
-
-
 
 Il mezzo più completo e affidabile per gestire ed eliminare i metadati è ExifTool, sviluppato da Phil Harvey. È compatibile con un gran numero di formati di file (JPG, PNG, PDF, MP3, DOCX...) e consente di visualizzare e rimuovere i metadati.
 
-
-
-
-
 - Passo 1: Installare ExifTool
 
-
-
 Per installarlo su una distribuzione Debian (Ubuntu), aprire un terminale e digitare il comando:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Questo pacchetto installa `exiftool`, che può essere utilizzato direttamente dalla riga di comando.
 
@@ -8611,34 +8550,26 @@ Questi strumenti agiscono come un piccolo server DNS all'interno della rete, blo
 
 ### Accesso remoto sicuro tramite VPN
 
-
 In alcuni casi, è utile poter accedere alla rete domestica quando si è in viaggio: Consultare i file su un NAS, utilizzare un nodo Bitcoin e Lightning, accedere a un server self-hosted o amministrare la rete. Tuttavia, questa connessione remota deve essere sicura.
-
 
 Il primo consiglio è di non aprire mai direttamente una porta sul router per accedere a un dispositivo (ad esempio tramite RDP, SSH o FTP), in quanto ciò espone il servizio all'intera rete Internet, il che costituisce una vulnerabilità. Gli attacchi automatici che mirano alle porte aperte sono numerosi.
 
-
 La soluzione che vi consiglio è quella di utilizzare una VPN (*Virtual Private Network*), ovvero un tunnel crittografato tra il vostro dispositivo remoto (computer, smartphone, ecc.) e la vostra rete locale. Una volta connessi alla VPN, potrete accedere alle risorse di casa vostra come se foste fisicamente lì, e in modo sicuro.
 
-
 Le due soluzioni principali per i clienti privati sono:
-
-
 
 - WireGuard: Moderno, veloce e leggero
 - OpenVPN: più vecchio, ma molto maturo e configurabile
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Ecco un tutorial completo su Tailscale, una soluzione VPN facile da configurare che utilizza WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 È possibile ospitare questa VPN direttamente su un router compatibile, su un piccolo computer (come un Raspberry Pi) o su un server dedicato a casa. È anche possibile installarla come client direttamente su qualsiasi dispositivo.
 
-
 Ma una VPN non serve solo per l'accesso remoto. Potete anche utilizzare un classico client VPN sui vostri dispositivi per crittografare tutto il vostro traffico in uscita, anche quando siete fuori casa (Wi-Fi pubblico, hotel, università, ecc.). In questo caso, il dispositivo si connette a un server VPN di terze parti (commerciale o self-hosted), che poi ritrasmette le connessioni a Internet. In questo modo si nasconde il vostro vero IP Address all'ISP, si proteggono i dati dallo spionaggio locale e si evitano alcune forme di censura.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Infine, è anche possibile configurare una VPN direttamente sul router, consentendo di proteggere tutti i dispositivi di casa senza dover installare un client VPN su ciascuno di essi.
 
-
 ### Monitoraggio e rilevamento
-
 
 Una volta che la rete è stata configurata e segmentata correttamente, è importante andare oltre la sicurezza passiva. Il monitoraggio attivo della rete locale può rilevare comportamenti anomali, connessioni non autorizzate o segni di intrusione. L'obiettivo è individuare tempestivamente i problemi, prima che causino danni.
 
-
 Il primo passo è la centralizzazione dei registri di sicurezza. Ogni dispositivo collegato alla rete genera registri contenenti informazioni su connessioni, errori o attività sospette. Piuttosto che consultare questi log singolarmente, consiglio di inviarli a un server in grado di raggrupparli, ordinarli e analizzarli. Soluzioni come Graylog o Elastic Stack (ELK) consentono di aggregare questi registri in un Interface grafico in cui è possibile cercare eventi specifici, creare avvisi o visualizzare l'attività di rete.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Successivamente, eseguite regolarmente scansioni attive della rete locale, ad esempio con Nmap. In questo modo si ottiene una panoramica di tutti i dispositivi presenti sulla rete e delle porte aperte. Se si identifica un dispositivo sconosciuto o un servizio insolito, questo potrebbe essere il segno di un attacco.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Per andare oltre, è possibile installare un IDS (*Intrusion Detection System*) o addirittura un IPS (*Intrusion Prevention System*). Questi strumenti, come Suricata o Snort, monitorano i flussi di rete in tempo reale e rilevano le firme di attacchi noti (scansioni di porte, iniezioni, connessioni sospette, ecc.). L'IDS avvisa, mentre l'IPS può bloccare automaticamente determinate azioni.
 
-
-
 Infine, anche il monitoraggio del consumo di banda è un buon indicatore di attività anomale. Se un dispositivo consuma improvvisamente molti dati senza un motivo apparente, ciò potrebbe rivelare un download non autorizzato, una fuga di dati o addirittura un dispositivo compromesso. Strumenti come ntopng o vnStat consentono di visualizzare i flussi in entrata e in uscita per dispositivo.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Backup e resilienza
 
-
 Anche con una rete perfettamente sicura, guasti hardware, errori di configurazione o eventi imprevisti (interruzione di corrente, sbalzo di tensione, guasto del disco Hard, ecc.) possono causare la perdita di dati o l'interruzione dei servizi. Per garantire la continuità del vostro ambiente digitale ed evitare di ripartire da zero in caso di problemi, è importante implementare una strategia di backup e resilienza.
-
 
 Iniziare a eseguire regolarmente il backup della configurazione delle apparecchiature di rete, in particolare del router. Spesso questi file di configurazione possono essere esportati tramite l'amministrazione del Interface. Conservarne una copia consente di ripristinare rapidamente un sistema funzionante in caso di reset o sostituzione del dispositivo. Si consiglia inoltre di criptare questo backup.
 
-
 Infine, per migliorare la resistenza della rete in caso di interruzione di corrente, investite in un gruppo di continuità. Questo dispositivo fornisce un'alimentazione di riserva per alcuni minuti in caso di interruzione di corrente, consentendo di continuare a utilizzare Internet o di garantire che i dispositivi critici (NAS, router, punto di accesso Wi-Fi, ecc.) si spengano senza problemi. Alcuni modelli possono anche inviare un comando di spegnimento automatico ai dispositivi collegati quando rilevano che la batteria è scarica.
-
 
 Seguendo questi pochi passaggi, potrete creare un ambiente di rete solido e sicuro che rispetta la vostra privacy.
 
-
 # Parte finale
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recensioni e valutazioni
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Esame finale
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusione
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

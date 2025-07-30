@@ -18,7 +18,7 @@ Même si les gens connaissent parfois Silk Road et Mt. Gox, ils ont tendance à 
 
 Le récit se concentre sur la période qui s'étale du départ de Satoshi Nakamoto au printemps 2011 à la chute de Mt. Gox au cours de l'hiver 2013–2014. Cette période correspond à l'ère dite du « Far West de la finance » (original: "Wild West of finance"), qui est caractérisée par l'absence de règlementation due à l'unicité de l'objet novateur qu'est Bitcoin. La démonstration de faisabilité (*proof of concept*) de Bitcoin est faite, et il bénéficie d'une couverture médiatique croissante. Durant cette période, l'utilisation de Bitcoin s'étend à des gens qui ne sont pas en premier lieu intéressés par la cryptomonnaie. Les cas d'utilisation illégaux se multiplient, donnant à cette « phase de péché » (pour reprendre le terme [employé](https://theses.fr/2024EHES0127) par le sociologue français Maël Rolland) une saveur particulière.
 
-Le terme de Far West revient perpétuellement dans les dires des acteurs du secteur et des journalistes de la période. Dès novembre 2010, Gavin Andresen [désignait](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) l'ère qui s'ouvrait comme l'« époque du Far West de la monnaie open-source » (original: "the Wild West days of open-source currency") et disait qu'il s'attendait « à ce que les gens soient victimes d'escroqueries, de contrefaçons, de pyramides de ponzi et de bulles de prix » (original: "expect people will get burned by scams, imitators, ponzi schemes and price bubbles"). Dans un article publié sur Reuters le 2 avril 2012, la journaliste Naomi O'Leary [écrivait](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) que « Bitcoin \[était\] devenu le Far West de la finance, avec une prolifération de sites web offrant des répliques vaguement réglementées de services familiers du secteur financier » (original: "Bitcoin has become the Wild West of finance, with a proliferation of websites offering loosely regulated replicas of the services familiar to those in the financial industry."). À partir de 2013, cette référence au Far West s'est répandue, se retrouvant dans la bouche d'Erik Voorhees et de [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), les deux représentants principaux de la société de change BitInstant, ainsi que dans celle de [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondateur de la plateforme Coinbase. Elle a également été reprise par les détracteurs de Bitcoin, à l'instar de Benjamin Lawsky, le surintendant du Département des services financiers de l'État de New York, qui, en août 2013, [qualifiait](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) les cryptomonnaies de « Far West virtuel pour les narcotrafiquants et autres criminels » (original: "a virtual Wild West for narcotraffickers and other criminals").
+Le terme de Far West revient perpétuellement dans les dires des acteurs du secteur et des journalistes de la période. Dès novembre 2010, Gavin Andresen [désignait](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) l'ère qui s'ouvrait comme l'« époque du Far West de la monnaie open-source » (original: "the Wild West days of open-source currency") et disait qu'il s'attendait « à ce que les gens soient victimes d'escroqueries, de contrefaçons, de pyramides de ponzi et de bulles de prix » (original: "expect people will get burned by scams, imitators, ponzi schemes and price bubbles"). Dans un article publié sur Reuters le 2 avril 2012, la journaliste Naomi O'Leary [écrivait](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) que « Bitcoin \[était\] devenu le Far West de la finance, caractérisé par une prolifération de sites web offrant des répliques vaguement règlementées de services habituels du secteur financier » (original: "Bitcoin has become the Wild West of finance, with a proliferation of websites offering loosely regulated replicas of the services familiar to those in the financial industry."). À partir de 2013, cette référence au Far West s'est répandue, se retrouvant dans la bouche d'Erik Voorhees et de [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), les deux représentants principaux de la société de change BitInstant, ainsi que dans celle de [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondateur de la plateforme Coinbase. Elle a également été reprise par les détracteurs de Bitcoin, à l'instar de Benjamin Lawsky, le surintendant du Département des services financiers de l'État de New York, qui, en août 2013, [qualifiait](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) les cryptomonnaies de « Far West virtuel pour les narcotrafiquants et autres criminels » (original: "a virtual Wild West for narcotraffickers and other criminals").
 
 Le Far West a une image forte dans l'imaginaire américain, et par extension dans tout l'Occident américanisé, notamment grâce au western, genre cinématographique très populaire au milieu du XXe siècle. Il représente un idéal d'indépendance, à la fois pour ses attributs positifs (la liberté) que négatifs (le danger). C'est le fondement original du « rêve américain » : pouvoir s'établir dans une contrée inconnue et entreprendre pour réussir à s'enrichir à partir de pas grand chose. C'est tout naturellement que Bitcoin a été comparé à cet espace de liberté, par son indépendance vis-à-vis du système politique en place : Bitcoin permettait le meilleur comme le moins bon. La comparaison a particulièrement inspiré Erik Voorhees qui, dans une entrevue de 2013, [soutenait](https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) Bitcoin était la nouvelle Frontière, l'intermédiaire entre la civilisation établie et les terres inexplorées :
 
@@ -32,19 +32,11 @@ Le « Far West de la cryptomonnaie » (original: "the Wild West of cryptocurre
 
 On a ainsi pu voir le trafic de drogue être mis à l'honneur, avec la plateforme Silk Road, qui a connu son heure de gloire durant cette période. Fondée par un jeune texan du nom de Ross Ulbricht, il s'agissait de la première place de marché en ligne utilisant Tor et Bitcoin. Elle permettait de se procurer des produits en tous genres, et notamment de la drogue, d'où son surnom d'Amazon de la drogue. Elle a commencé à connaitre le succès à partir de juin 2011, à la suite d'un article publié sur Gawker, à tel point que cela a attiré l'attention des autorités.
 
-À côté de ça, le jeu d'argent en ligne s'est développé considérablement, avec la création de plateformes de poker, de paris et de jeux de casino en tous genres. De nombreux piratages ont eu lieu, des arnaques ont été perpétrées, le premier rançongiciel a émergé. Du côté de la finance, les plateformes de change se sont développées initialement sans licence bancaire, en faisant le pont les monnaies étatiques et le bitcoin, parfois par l'intermédiaire de systèmes alternatifs comme Liberty Reserve. La spéculation avec effet de levier a été essayée à ce moment-là. Des bourses en ligne ont permis à des projets de se développer par l'émission de parts, sans enregistrement auprès des autorités. Enfin, la liberté monétaire apportée par Bitcoin a permis à de nombreux individus de lancer leurs propres cryptomonnaies, avec de plus ou moins bonnes intentions selon le projet. La première « *Initial Coin Offering* » a eu lieu avec Mastercoin, la plateforme de contrats autonomes batie sur Bitcoin.
+À côté de ça, le jeu d'argent en ligne s'est développé considérablement, avec la création de plateformes de poker, de paris et de jeux de casino en tous genres. De nombreux piratages ont eu lieu, des arnaques ont été perpétrées, le premier rançongiciel a émergé. Du côté de la finance, les plateformes de change se sont développées initialement sans licence bancaire, en faisant le pont les monnaies étatiques et le bitcoin, parfois par l'intermédiaire de systèmes alternatifs comme Liberty Reserve. La spéculation avec effet de levier a été essayée à ce moment-là. Des bourses en ligne ont permis à des projets de se développer par l'émission de parts, sans enregistrement auprès des autorités. Enfin, la liberté monétaire apportée par Bitcoin a permis à de nombreux individus de lancer leurs propres cryptomonnaies, avec de plus ou moins bonnes intentions selon le projet.
 
 Bitcoin a attiré à cette époque toutes sortes de profils atypiques, de personnes anticonformistes. Pour Naomi O'Leary en 2012, les utilisateurs de Bitcoin formaient « un drôle de mélange d'ultra-geeks, d'anarchistes, de libertariens, d'escrocs et de traders du Forex » (original: "an odd assortiment of uber-geeks, anarchists, libertarians, scammers and forex traders"). En février 2014, Bruce Fenton [désignait](https://www.coindesk.com/markets/2017/04/18/miami-2014-the-last-days-of-bitcoins-wild-west) la communauté comme le « le groupe de geeks, génies et rebelles le plus intéressant et le plus éclectique que j'aie jamais vu » (original: "the most interesting and eclectic group of geeks, geniuses and rebels I had ever seen").
 
 L'élément marquant est probablement l'âge des principaux promoteurs de Bitcoin lors de cette période. La plupart d'entre eux sont jeunes, voire très jeunes ; ce sont pour une bonne partie des *millenials*, des membres de la génération Y : nés entre 1981 et 1996, ils ont entre 16 et 31 ans en 2011 lorsque Satoshi disparait définitivement. Leur jeunesse relative les rend particulièrement enthousiastes, ce qui fait qu'ils forment en quelque sorte le carburant avec lequel Bitcoin prend son envol. Néanmoins, ils sont aussi particulièrement immatures et imprudents, notamment vis-à-vis de la réponse réglementaire. Bien qu'ils soient encadrés par les membres de la génération précédente (souvent plus discrets), ils font ainsi un nombre considérable d'erreurs, qui en mènent certains à subir la répression des autorités et à finir en prison.
-
-Cependant, cette phase du Far West de la cryptomonnaie a progressivement reculé face à la l'arrivée d'acteurs financiers provenant du monde traditionnel, et en particulier de la Silicon Valley. Ces acteurs se sont rendus compte de la rareté du bitcoin, du potentiel narratif de ce dernier, faisant du bitcoin un « or numérique », destiné à être utilisé comme réserve de valeur. Cet afflux a provoqué une croissance immense des services de change, ces tiers assurant la conversion entre les monnaies étatiques et le bitcoin, qui forment des passerelles entre l'ancien monde et le nouveau monde.le bitcoin Mark Karpelès en mars 2011. C'est notamment le cas de la plateforme Mt. Gox, qui a été reprise par le développeur français et qui a connu un essor fulgurant durant la période. L'afflux massif de capitaux a aussi induit une hausse du prix énorme, le faisant passer de 10 $ en novembre 2012 à 1 240 $ en décembre 2013, soit une multiplication par un facteur 100 en un an.
-
-Cette financiarisation a eu pour effet d'inviter la réglementation. Comme [l'expliquait](https://bitcointalk.org/index.php?topic=17694.msg225658#msg225658) Mark Karpelès en juin 2011 (suite à la révélation de l'existence de Silk Road au grand public) : « en raison de la nature de notre activité de change, nous sommes obligés de traiter avec les banques et, par conséquent, de respecter les limites fixées par les organismes de réglementation » (original: "due to nature of exchanges we are forced to deal with banks and therefor need to stay within the boundaries the regulatory bodies have set"). Ainsi, on voit de plus en plus d'autorités publiques s'intéresser au phénomène de Bitcoin. La directive du FinCEN du 18 mars 2013 fait des plateformes de change des acteurs réglementés, devant obtenir une licence pour exercer aux États-Unis et ayant pour obligation de pratiquer la connaissance du client (KYC).
-
-On voit aussi une collaboration plus aigue avec les autorités, dans le but de rendre le projet « légitime » aux yeux du grand public. Cette collaboration se fait sous la houlette du développeur principal du projet durant cette période, Gavin Andresen. Des initiatives comme la Fondation Bitcoin voient le jour. Enfin, les frères Winklevoss, arrivés en 2012, sont carrément hostiles à Silk Road et appellent de leur vœux un réglementation plus claire. En janvier 2014, Cameron Winklevoss [confiera](https://www.nbcnews.com/id/wbna54204912) à NBC News que « le Far West attire les cow-boys » (original: "the Wild West attracts cowboys") et que « la présence d'un shérif est une bonne chose » (original: "a sheriff is a good thing").
-
-Une conséquence est la répression contre les entreprises et les personnes qui ne respectent pas les règles. L'évènement de plus représentatif est la fermeture de Silk Road le 2 octobre 2013, qui représente alors encore 5 % du volume transationnel total de la chaîne de blocs. On peut aussi citer l'arrestation de Charlie Shrem et les ennuis d'Erik Voorhees avec la SEC. Cette fin du Far West s'est également accompagnée de la faillite de Mt. Gox le 28 février, qui a été l'élément déclencheur d'un mouvement baissier douloureux du taux de change.
 
 ### Plan du cours
 
@@ -608,7 +600,7 @@ Charlie Shrem est [issu](https://fortune.com/2017/06/26/bitcoin-blockchain-crypt
 
 img: Photo de Charlie Shrem en 2011/2012
 
-En 2011, Charlie fréquente encore le *Brooklyn College*, où il étudie pour obtenir une licence en économie et finance. Il vit encore dans le sous-sol de la maison familiale. D'après ses dires, il a [entendu parler](https://www.youtube.com/watch?v=XM2712vOyus&t=96s) de Bitcoin pour la première fois en 2009, lorsque l'organisation caritative pour laquelle il travaille, Tikvot, s'est faite geler son compte PayPal. Toutefois, son intérêt n'a réellement été capté que lorsqu'il a découvert Silk Road par le biais de l'article de Gawker publié le 1er juin 2009. Quelques heures après la parution de l'article, il a [publié](https://twitter.com/CharlieShrem/status/76021290842079232) un tweet pour se procurer du bitcoin ; étant lui-même consommateur de cannabis, il cherchait probablement à essayer la plateforme. Le 10 juin, il s'est [inscrit](https://web.archive.org/web/20111127073246/https://bitcointalk.org/index.php?action=profile;u=21181) sur le forum de Bitcoin, sous le pseudonyme Yankee.
+En 2011, Charlie fréquente le *Brooklyn College*, où il étudie pour obtenir une licence en économie et finance. Il vit encore dans le sous-sol de la maison familiale. D'après ses dires, il a [entendu parler](https://www.youtube.com/watch?v=XM2712vOyus&t=96s) de Bitcoin pour la première fois en 2009, lorsque l'organisation caritative pour laquelle il travaille, Tikvot, s'est faite geler son compte PayPal. Il en a aussi vu la mention dans les cercles de hackers qu'il fréquentait sur IRC \[source ?\]. Toutefois, son intérêt n'est réellement capté que lorsqu'il a découvert Silk Road par le biais de l'article de Gawker publié le 1er juin 2011. Quelques heures après la parution de l'article, il a [publié](https://twitter.com/CharlieShrem/status/76021290842079232) un tweet pour se procurer du bitcoin ; étant lui-même consommateur de cannabis, il cherchait probablement à essayer la plateforme. Le 10 juin, il s'est [inscrit](https://web.archive.org/web/20111127073246/https://bitcointalk.org/index.php?action=profile;u=21181) sur le forum de Bitcoin, sous le pseudonyme Yankee.
 
 Ainsi, lorsque Gareth publie son annonce le 13 juin, Charlie est donc tout à fait à l'écoute. Il contacte ce dernier et ils trouvent un accord rapidement. De son côté, Charlie demande à ses parents de lui accorder un prêt de 10 000 $ ; son père refuse, mais sa mère accepte. Le soir même, Gareth [annonce](https://bitcointalk.org/index.php?topic=16472.msg214518#msg214518) qu'il a trouvé un investisseur en la personne de Charlie Shrem et dévoile le nom du projet : BitInstant.
 
@@ -1139,7 +1131,9 @@ Quelques jours plus tard, Gavin [expliquera](https://bitcointalk.org/index.php?t
 
 Un autre problème concerne l'activation de Pay to Script Hash en tant que telle. Pour que la mise à niveau soit rétrocompatible, il faut qu'une majorité du taux de hachage l'applique. Mais, à mesure que la fin du mois de janvier s'approche, les espoirs activer Pay to Script Hash s'amenuisent.
 
-À l'époque, la puissance de calcul se répartit entre une \[dizaine/vingtaine\] de coopératives de minage, dont trois sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
+À l'époque, la puissance de calcul se répartit entre une \[dizaine/vingtaine\] de coopératives de minage. Historique des coopératives. Stratum, [27/11/2011](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197)
+
+Trois coopératives sortent du lot : DeepBit, BTC Guild, Bitcoin.cz Mining (alias Slush Pool). La coopérative dominante, DeepBit, est gérée par un Russe \[?\] utilisant le pseudonyme Tycho. Elle [approchait](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) des 50 % du taux de hachage en juillet 2011 ; au début de l'année 2012, elle possède autour des 30 % de la puissance de calcul. Les deux autres naviguent autour de 10–15 %.
 
 - [blockchain.info, 19/12](https://web.archive.org/web/20111219124912/http://blockchain.info/pools), 144 blocs : 24 %, 14 %, 2 %
 - [blockchain.info, 20/1](https://web.archive.org/web/20120120152812/http://blockchain.info/pools), 144 blocs : 42 %, 13 %, 4 %
@@ -1402,16 +1396,18 @@ Ils mettent leur projet à exécution en août 2012 : la nouvelle cryptomonnaie
 
 PPCoin connait un relatif succès, et occupera la quatrième place dans le classement des cryptomonnaies en mai 2013. Toutefois, son système de consensus reste un modèle hybride. Pour avoir un système de preuve d'enjeu pure, il faudra attendre la plateforme [NXT](https://bitcointalk.org/index.php?topic=303898.msg3253022#msg3253022), lancée en novembre 2013. PPCoin [sera](https://bitcointalk.org/index.php?topic=114994.msg3713127#msg3713127) progressivement rebaptisé Peercoin à la fin de l'année 2013.
 
-###
+### Une relation fluctuante avec Bitcoin
 
 Cette floraison des cryptomonnaies alternatives pose les bases de ce qui se passera par la suite, en 2013 et après. De même, la réaction de rejet se fera de plus en plus insistance, débouchant sur la création du maximalisme du bitcoin à l'automne 2014.
 
-Ouverture : Ripple, Bitcoin 2.0
+Ouverture : Ripple, Bitcoin 2.0, Ethereum
 
 
 ## L'essor commercial (avril–sept. 2012)
 
 L'année 2012 est une année assez plate du point de vue de la spéculation. Néanmoins, elle constitue une période d'essor pour l'activité économique réelle.
+
+https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984
 
 Développement des processeurs de paiement
 
@@ -1428,7 +1424,8 @@ Développement des processeurs de paiement
 
 Spéculation (article JDC Gox) : L'année 2012 est une année assez plate du point de vue spéculatif. Du moins, pour le bitcoin. Bien que le prix augmente, il ne fait que doubler en un an, ce qui, pour le bitcoin de cette époque, est peu. Mais cela permet à Mt. Gox de se stabiliser et de redonner confiance à ses utilisateurs après les incidents de 2011.
 
-Récapitulatif par Vitalik Buterin : https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984
+
+
 
 
 - TradeHill : [8 juin 2011](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776)–[13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/), relancement en [mars 2013](https://bitcoinmagazine.com/markets/prime-tradehill-comes-back-to-bitcoin-1364507082), fermeture définitive le [30 août 2013](https://bitcoinmagazine.com/business/tradehill-confirms-trading-suspension-1377854467)
@@ -1469,9 +1466,13 @@ Bitcoin.com by TradeHill, sept. 2011 : https://web.archive.org/web/201109070141
 
 - Martti Malmi, "1000 BTC for getting a major business to accept Bitcoin" (oct. 2011) https://bitcointalk.org/index.php?topic=46646.msg555039#msg555039
 
+15 décembre 2012 : East Coast Bitcoin Summit, Philadelphia, [Tony Gallippi](https://www.youtube.com/watch?v=hH4rH6wu25U) (BitPay)
+
 Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://www.scientificamerican.com/article/3-years-in-bitcoin-digital-money-gains-momentum/)
 
 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
+
+
 
 ### Coinbase & la Silicon Valley
 
@@ -1506,6 +1507,12 @@ Coinbase embauchera Charlie Lee, [30/7/2013](https://web.archive.org/web/2013080
 
 ### Commerce
 
+"2012 has been an exciting year for Bitcoin. We have seen BitPay grow from near-irrelevance to processing transactions for over 2000 merchants around the world, Coinabul expand its gold-selling business from nothing in October 2011 to over 120,000 BTC of gold sold this year, entirely new Bitcoin-accepting businesses like Coindl and the Bitcoin Store open their doors, and hundreds more innovative services, of which there are unfortunately far too many to mention." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
+
+
+
+
+
 Commerce : https://web.archive.org/web/20110525045712/https://en.bitcoin.it/wiki/Trade
 
 WeUseCoins : initiative lancée par Stefan Thomas (justmoon) en mars 2011, pour sa vidéo de présentation. Guide de minage : https://bitcointalk.org/index.php?topic=4938.msg72112#msg72112 https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php ; "Getting Started" : https://bitcointalk.org/index.php?topic=29016.msg365385#msg365385 [05/2011](https://web.archive.org/web/20110325025457/http://www.weusecoins.com/getting-started.php) [07/2011](https://web.archive.org/web/20110718193241/http://www.weusecoins.com/mining-guide.php) ; Q&A : [forum déc. 2011](https://bitcointalk.org/index.php?topic=53924.msg642909#msg642909) [capture 01/2012](https://web.archive.org/web/20120107201808/http://www.weusecoins.com/questions.php) ; "Bitcoin for Merchants" : [23/9/2011](https://web.archive.org/web/20110923184030/http://www.weusecoins.com/merchant-tools.php) [07/01/2012](https://web.archive.org/web/20120107042342/http://www.weusecoins.com/merchant-tools.php)
@@ -1516,13 +1523,47 @@ CoinCard (Cartes-cadeaux), Michael Hendricks, Feburary 25, 2011–apr. 2011 puis
 
 Quickco.in ?
 
+
+
+
+### Services de change P2P
+
+Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/),
+jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
+
+BitInstant ? Cash in the mail. BTCKing ?
+
+En 2011, Shrem est entré en contact avec un individu nommé Robert Faiella, qui opérait sous le pseudonyme de BTCKing. Faiella était un courtier en bitcoins bien connu sur Silk Road, le célèbre marché du dark web où les utilisateurs pouvaient acheter des biens et des services illégaux, y compris de la drogue, avec des bitcoins. Faiella utilisait BitInstant pour convertir de grandes quantités d'argent liquide en bitcoins, qu'il acheminait ensuite vers la place de marché Silk Road, facilitant ainsi les transactions illicites.
+
+Robert Faiella se présente comme revendeur (de bitcoins).
+
+[Acte d'accusation](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17), Shrem à Nelson :
+
+> « Il n'a enfreint aucune loi et silk road elle-même n'est pas illégale. Nous ne disposons pas non plus de règles à l'encontre des revendeurs. Nous réalisons de gros bénéfices grâce à lui. »
+>
+> original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
+
+### PorcFest 2012
+
+18–24 juin 2012
+
+"PorcFest 2012 -- Biggest Bitcoin event ever" https://bitcointalk.org/index.php?topic=89714.msg987575#msg987575
+
+Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg987603 https://x.com/CharlieShrem/status/215824423616385025
+
+### Un mouvement vers le commerce plus légitime
+
+"Also, in the last two months alone, Bitcoin has gained a large amount of public legitimacy, as popular services like WordPress and 4Chan began accepting it, and Bitcoin Central partnered with a licensed payment services provider in France to integrate its exchange accounts directly into the traditional banking system. And, last but not least, the Bitcoin price itself increased from $4.72 on Jan 1 to $13.51 on Dec 31, a 186% increase." [récapitulatif de Vitalik](https://bitcoinmagazine.com/markets/the-next-year-in-bitcoin-what-2013-has-in-store-1357247984)
+
 BitcoinStore.com, Roger Ver, [3/11/2012](https://bitcointalk.org/index.php?topic=122190.msg1314366#msg1314366)
 
 15 novembre 2012 : Wordpress accepte les paiements en bitcoins via BitPay https://bitcoinmagazine.com/culture/wordpress-accepts-bitcoin-1353043485 https://wordpress.com/blog/2012/11/15/pay-another-way-bitcoin/
 
 13 décembre 2012 : 4chan accepte les paiements en bitcoins via Coinbase, annonce de Corbin Fraser https://web.archive.org/web/20130107221636/http://www.bitcointrading.com/forum/talk-bitcoin/4chan-now-accepts-bitcoin-for-premium-membership/
 
-15 décembre 2012 : East Coast Bitcoin Summit, Philadelphia, [Tony Gallippi](https://www.youtube.com/watch?v=hH4rH6wu25U) (BitPay)
+## La monnaie du vice et du crime : jeu d'argent, arnaques et piratages
+
+Bitcoin est une monnaie ne nécessitant
 
 ### SatoshiDICE
 
@@ -1542,37 +1583,21 @@ Chiffres : https://web.archive.org/web/20130125023019/https://www.forbes.com/si
 
 Coinapult, avec Ira Miller, envoyer des bitcoins par courriel (et SMS), [13 avr. 2012](https://bitcointalk.org/index.php?topic=76493.msg849026#msg849026)
 
-### Services de change P2P
+### La prostitution
 
-Services de change P2P. Prédécesseurs : [Tradebitcoin.com](https://web.archive.org/web/20110227180718/http://tradebitcoin.com/),
-jesmurf, [février 2011](https://bitcointalk.org/index.php?topic=3795.msg53889#msg53889) ; [BTC NEAR ME](https://web.archive.org/web/20110506141855/http://btcnearme.com/), "Find Bitcoin traders near you... settle in cash.", annonce : https://bitcointalk.org/index.php?topic=7107.msg104204#msg104204). LocalBitcoins, juin 2012. EDB : Troisièmement, les services de change de particulier à particulier se multiplient également. Ceux-ci permettent à deux individus d'échanger du bitcoin via divers moyens de paiement, dont notamment l'échange en personne contre des espèces. La plus connue est la plateforme LocalBitcoins, qui est fondée en juin 2012 par Jeremias Kangas et qui inspirera les autres plateformes du même type. Dans le même esprit, il existe également les marchés de gré à gré (*over the counter*) par lesquels les plus fortunés peuvent procéder à des échanges importants entre eux, en privé, sans affecter instantanément le cours sur les places de marché.
+- Prostitution : Girls Gone Bitcoin
 
-BitInstant ? Cash in the mail. BTCKing ?
+Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/culture/bitcoin-gone-wild)
 
-En 2011, Shrem est entré en contact avec un individu nommé Robert Faiella, qui opérait sous le pseudonyme de BTCKing. Faiella était un courtier en bitcoins bien connu sur Silk Road, le célèbre marché du dark web où les utilisateurs pouvaient acheter des biens et des services illégaux, y compris de la drogue, avec des bitcoins. Faiella utilisait BitInstant pour convertir de grandes quantités d'argent liquide en bitcoins, qu'il acheminait ensuite vers la place de marché Silk Road, facilitant ainsi les transactions illicites.
-
-Robert Faiella se présente comme revendeur (de bitcoins).
-
-[Acte d'accusation](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=17), Shrem à Nelson :
-
-> « Il n'a enfreint aucune loi et silk road elle-même n'est pas illégale. Nous ne disposons pas non plus de règles à l'encontre des revendeurs. Nous réalisons de gros bénéfices grâce à lui. »
->
-> original: "He has not broken a law and silk road itself is not illegal. We also don't have any rules against resellers. We make good profits from him."
-
-
-### PorcFest 2012
-
-18–24 juin 2012
-
-"PorcFest 2012 -- Biggest Bitcoin event ever" https://bitcointalk.org/index.php?topic=89714.msg987575#msg987575
-
-Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg987603 https://x.com/CharlieShrem/status/215824423616385025
+[8/6/2012](https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/): "Then there's 'Girls Gone Bitcoin.' In this reddit subforum (reddit shares a parent company with Ars Technica), women post naked pictures of themselves along with Bitcoin addresses, in hopes of receiving tips. (We're not going to link to it, but we trust interested readers know how to use Google.) Andresen calls this 'the high-tech equivalent of putting a dollar in a G-string.'"
 
 ### Piratages et fermetures scandaleuses
 
+[26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : Publication de "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
+
 **TradeHill** Fermeture le [13 février 2012](https://web.archive.org/web/20120218014025/http://tradehillblog.com/2012/02/13/tradehill-suspending-trading-and-returning-client-funds/)
 
-**Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
+**Linode** 1er mars 2012 : Piratage du service d'hébergement Linode, faisant perdre des bitcoins à la plateforme de trading Bitcoinica, à la coopérative minière Slush (3 000 BTC) et au *Bitcoin Faucet* (qui alors ferme ses portes) https://gavintech.blogspot.com/2012/03/bitcoin-faucet-hacked.html
 
 **betco.in** 11 avril 2012, 3171,5 BTC https://bitcointalk.org/index.php?topic=68066.msg848855#msg848855 https://betco.in/
 
@@ -1582,17 +1607,21 @@ Charlie Shrem : https://bitcointalk.org/index.php?topic=89714.msg987603#msg9876
 
 ### La chute de Bitcoinica
 
+
+Bitcoinica perd 43 000 bitcoins dans le piratage de Linode (1/3/2012) https://bitcoinmagazine.com/business/the-bitcoinica-linode-theft-and-what-it-means-for-bitcoin-1330805009
+
 **Chute de Bitcoinica** 24 avril 2012, "Bitcoinica joins forces with Bitcoin Consultancy" : https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160
 
 11 mai 2012 Piratage et fermeture de Bitcoinica, 18 547 BTC, 92 000 $ https://bitcoinica.blogspot.com/2012/05/bitcoinica-security-breach.html https://journalducoin.com/analyses/affaire-bitcoinica-succes-chute-plateforme-trading-bitcoin/
 
-[26/5/2012](https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) : Publication de "List of Major Bitcoin Heists, Thefts, Hacks, Scams, and Losses", version à jour : https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796
+17 juillet 2012, troisième piratage : https://bitcoinmagazine.com/business/bitcoinica-stolen-from-again
 
 Poursuites contre Zhou Tong et Amir Taaki https://www.theverge.com/2012/8/10/3233711/second-bitcoin-lawsuit-is-filed-in-california
 
 "Bitcoinica was hacked, tens of thousands of Bitcoin were stolen, including over 25,000 of my own. While an offer was on the table to buy the entire company, and make every single user 100% whole again, without permission, Amir released the source code publicly, destroying any chance for the company to be sold, and the users to be made whole again. In short, Amir has a long history of irresponsible behavior in the Bitcoin space and we should be very wary of having him be entrusted with any responsibility at all." [Roger Ver, 2016](https://web.archive.org/web/20201109031604/http://forum.bitcoin.com/bitcoin-discussion/amir-taaki-and-the-segway-in-austria-t7749.html)
 
 JDC: Après sa chute, Bitcoinica a été remplacée par d'autres plateformes de trading sur marge comme Kronos.io, et surtout par Bitfinex qui a été lancée le 22 octobre 2012. Quant à Zhou Tong, il a continué son bout de chemin en co-fondant CoinJar en 2013 avec Asher Tan, entreprise où il travaille toujours.
+
 
 TheEndOfMoney interview: Ryan Zhou about Bitcoinica, CoinJar, Ethereum : https://www.youtube.com/watch?v=-L-FHB_-qT4
 
@@ -1603,14 +1632,6 @@ Bitfinex créé en remplacement, 22 oct. 2012 : https://bitcointalk.org/index.p
 **L'effondrement de la première pyramide de Ponzi** 17 août 2012, Bitcoin Savings & Trust (BST), Trendon Shavers (pirateat40), pyramide de Ponzi (HYIP : *High-Yield Investment Program*, programme d'investissement à haut rendement) promettant 7 %, ouverture en novembre 2011, fermeture le 17 août 2012, condamnation en 2016 https://bitcoinmagazine.com/business/the-pirate-saga-and-so-it-ends https://pastebin.com/yH0jr6KY https://en.bitcoin.it/wiki/Bitcoin_Savings_%26_Trust https://archive.is/yROFI
 
 Mircea Popescu, "Personal responsiblity and the Ponzi scam.", [7/9](https://bitcointalk.org/index.php?topic=106391.msg1167765#msg1167765)
-
-### La prostitution
-
-- Prostitution : Girls Gone Bitcoin
-
-Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/culture/bitcoin-gone-wild)
-
-[8/6/2012](https://arstechnica.com/information-technology/2012/06/porn-gambling-and-malware-bitcoin-as-the-nets-wild-west/): "Then there's 'Girls Gone Bitcoin.' In this reddit subforum (reddit shares a parent company with Ars Technica), women post naked pictures of themselves along with Bitcoin addresses, in hopes of receiving tips. (We're not going to link to it, but we trust interested readers know how to use Google.) Andresen calls this 'the high-tech equivalent of putting a dollar in a G-string.'"
 
 ### Misc
 

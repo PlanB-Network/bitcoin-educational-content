@@ -972,11 +972,9 @@ Porodica Arch Linux se ističe filozofijom koja je radikalno suprotna onoj kod g
 
 Ovaj pristup se zasniva na modelu *rolling release*, gde se paketi kontinuirano ažuriraju, bez potrebe za ponovnom instalacijom sistema sa svakim većim izdanjem. Pacman upravitelj paketa je brz i lagan, što olakšava instalaciju i ažuriranje softvera, a AUR (*Arch User Repository*), zajednički repozitorijum, omogućava pristup velikom broju nezvaničnih i razvojnih paketa.
 
-
-
 Arch Linux je pre svega namenjen naprednim korisnicima koji žele potpunu kontrolu nad svojim okruženjem, uz prihvatanje određene složenosti u instalaciji i održavanju. Ovaj tehnički zahtev doveo je do pojave nekoliko izvedenih distribucija usmerenih na demokratizaciju njegove upotrebe.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Najpoznatiji je Manjaro, koji zadržava tehničku osnovu Archa dok nudi pojednostavljenu instalaciju, unapred konfigurisana radna okruženja i blago odložen ciklus izdanja radi stabilizacije ažuriranja.
 
@@ -1108,9 +1106,9 @@ Instalacija je glatka, osnovni softver je unapred instaliran, a "Lite" verzija v
 
 - elementary OS**:
 
-
-
 Pokrenut 2011. godine, elementary OS je distribucija zasnovana na Ubuntu-u koja se pre svega fokusira na dizajn i doslednost Interface. Njegovo radno okruženje Pantheon, inspirisano macOS-om, je minimalističko, elegantno i fluidno. Međutim, sistem ostaje manje prilagodljiv od drugih distribucija, i neki napredni korisnici mogu se osećati ograničeno izborima Interface i njegovom namerno zaključanom strukturom. Dobro je prilagođen estetski osetljivim korisnicima koji traže jednostavan, koherentan sistem za svakodnevnu upotrebu.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux je minimalistička, kontinuirano ažurirajuća distribucija, isporuč
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Specijalizovana distribucija
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux je distribucija zasnovana na Debianu, dizajnirana za testiranje penetracije i bezbednosnu reviziju. Uključuje stotine alata za pentest. Ova distribucija nije baš pogodna kao glavni sistem za svakodnevnu upotrebu.
 
@@ -4869,12 +4863,7 @@ Na macOS-u, enkripcija sistemskog diska zasniva se na *FileVault*-u, izvornoj fu
 
 Kada je FileVault aktiviran, moraćete da izaberete metod oporavka u slučaju gubitka lozinke: ili koristite svoj *iCloud* nalog, ili generate jedinstveni rezervni ključ. Ovaj ključ mora biti čuvan na sigurnom mestu, jer bi njegov gubitak učinio vaše podatke trajno nedostupnim.
 
-
-
 Za spoljne medije za skladištenje (Hard diskovi, USB stikovi, itd.), enkripcija se vrši korišćenjem alata za diskove. Biće potrebno potpuno preformatirati volumen:
-
-
-
 
 - Izaberite uređaj, kliknite na "*Delete*"
 - Odaberite šemu "GUID* Partition Table"
@@ -4882,41 +4871,25 @@ Za spoljne medije za skladištenje (Hard diskovi, USB stikovi, itd.), enkripcija
 - Izaberite jaku lozinku
 - Kliknite na "*Delete*" zatim "*OK*" i enkripcija je završena
 
-
-
 Kada je enkripcija postavljena, eksterni disk se može montirati samo unosom ove lozinke. Sistem će ga zatim dekriptovati u hodu.
-
-
 
 #### Nekoliko preporuka za vaše šifrovane rezervne kopije
 
-
-
 Pre nego što šifrujete medijum, potrebno je da napravite rezervnu kopiju svih podataka koje sadrži (osim ako je, naravno, prazan), jer procedura šifrovanja obično briše početni sadržaj.
-
-
 
 Izbor lozinke je takođe veoma važan: mora biti dugačka, složena i jedinstvena, jer je to jedina zaštita između vaših podataka i zlonamernih trećih strana. Takođe treba da napravite rezervnu kopiju, na primer u menadžeru lozinki, jer za razliku od onlajn servisa, ne postoji mehanizam za oporavak. Ako zaboravite lozinku, podaci su zauvek izgubljeni.
 
-
-
 ### Selektivno šifrovanje fajlova
-
-
 
 U nekim slučajevima, nije ni neophodno ni praktično šifrovati ceo Hard disk ili eksterni medijum. U takvim slučajevima, možete se odlučiti za selektivno šifrovanje, koje podrazumeva obezbeđivanje samo određenih fajlova ili direktorijuma koji sadrže osetljive podatke.
 
-
-
 Jedan od najpoznatijih metoda za šifrovanje fajlova je korišćenje GPG-a. Ovaj alat se zasniva na asimetričnoj kriptografiji: imate par ključeva, jedan javni, koji možete slobodno distribuirati svojim korespondentima, i drugi privatni, koji mora ostati strogo tajan. Fajlovi se šifruju koristeći javni ključ primaoca, ali se mogu dešifrovati samo korišćenjem njegovog ili njenog privatnog ključa.
-
-
 
 Ovaj protokol je savršen za sigurno razmenjivanje osetljivih fajlova sa drugima, bez deljenja lozinke. Za ličnu ili povremenu upotrebu, GPG takođe omogućava simetričnu enkripciju: fajl je tada zaštićen jedinstvenom lozinkom poznatom samo vama.
 
-
-
 Odlična alternativa je Cryptomator. Ovaj softver otvorenog koda omogućava vam da kreirate sef: poseban direktorijum u kojem su svi deponovani fajlovi automatski enkriptovani. Ovaj sef može biti sinhronizovan sa cloud servisima kao što su Dropbox, Google Drive ili Nextcloud, a da provajder nikada nema pristup neenkriptovanim podacima. Aplikacija je dostupna na svim operativnim sistemima, uključujući Android i iOS, i ne zahteva posebne tehničke veštine za korišćenje.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Odlična alternativa je Cryptomator. Ovaj softver otvorenog koda omogućava vam 
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Konačno, moguće je koristiti VeraCrypt i u režimu kontejnera, koji kreira fajl koji deluje kao šifrovana arhiva, montabilna kao disk.
-
-
 
 Sada kada ste naučili kako da zaštitite svoje lične podatke od gubitka i krađe, sledeće poglavlje se bavi još jednim važnim aspektom: kako sprečiti da vaši lični fajlovi postanu vektori napada putem njihovih metapodataka.
 
-
-
-
 ## Čišćenje metapodataka
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Svaki put kada kreirate digitalni fajl, bilo da je to fotografija, office dokument, audio ili video fajl, on sadrži metapodatke u pozadini. Ove informacije nisu direktno vidljive kada otvorite fajl, ali su prisutne i mogu sadržati izuzetno osetljive Elements.
-
-
 
 ### Zašto je metapodatak rizik?
 
-
-
 Metapodaci su podaci priloženi datoteci, čija je uloga da pruže kontekstualne informacije o sadržaju. U slici, ovo može uključivati datum i vreme kada je slika snimljena, precizne GPS koordinate, model kamere ili pametnog telefona korišćenog, a ponekad čak i tehnička podešavanja. U tekstualnom dokumentu, može uključivati ime autora, ime kompanije, ID sesije korisnika, vremenske oznake kreiranja i izmene, ili čak interne komentare ostavljene tokom uređivanja.
-
-
 
 Ovi metapodaci mogu izgledati bezopasno, ali ih zlonamerni akteri mogu iskoristiti da identifikuju autora datoteke, fizički lociraju osobu, rekonstruišu događaje ili navike, ili čak iskoriste softverske nedostatke na osnovu verzije korišćenog softvera.
 
-
-
 Hajde da uzmemo konkretan primer: postavite navodno anonimnu fotografiju na forum. Ako niste uklonili EXIF metapodatke, jednim klikom se mogu otkriti tačne GPS koordinate vašeg doma, model vašeg telefona i tačan datum kada je fotografija snimljena. Slično tome, PDF dokument poslat anonimno može sadržati vaše puno ime u svojim svojstvima.
-
-
 
 Zato neke medijske platforme za objavljivanje i komunikaciju automatski uklanjaju metapodatke sa vaših fotografija. To uključuje X (Twitter), Instagram, Signal i Session. S druge strane, druge platforme uopšte ne uklanjaju metapodatke: to je slučaj sa većinom online foruma, mnogim e-mail klijentima, ili čak kada objavljujete direktno na vebsajtu.
 
-
-
 To je suštinski refleks koji treba usvojiti: čim fajl napusti vašu privatnu sferu, potrebno je razmisliti o čišćenju njegovih metapodataka kako biste izbegli otkrivanje ličnih ili osetljivih informacija bez vašeg znanja. Pogledajmo kako to učiniti, u zavisnosti od vašeg operativnog sistema.
-
-
 
 ### Na Linuxu (Debian)
 
-
-
 #### Korišćenje ExifTool-a
-
-
 
 Najkompletniji i najpouzdaniji način za upravljanje i brisanje metapodataka je ExifTool, koji je razvio Phil Harvey. Kompatibilan je sa velikim brojem formata datoteka (JPG, PNG, PDF, MP3, DOCX...) i omogućava i prikaz i uklanjanje metapodataka.
 
-
-
-
-
 - Korak 1: Instalirajte ExifTool
 
-
-
 Da biste ga instalirali na Debian distribuciju (Ubuntu), otvorite terminal i upišite komandu:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Ovaj paket instalira `exiftool`, koji zatim možete koristiti direktno iz komandne linije.
 
@@ -8611,34 +8550,26 @@ Ovi alati deluju kao mali DNS server unutar vaše mreže, blokirajući zahteve k
 
 ### Siguran daljinski pristup putem VPN-a
 
-
 U nekim slučajevima, korisno je imati pristup kućnoj mreži kada ste u pokretu: Konsultovati fajlove na NAS-u, koristiti Bitcoin i Lightning čvor, pristupiti serveru koji sami hostujete ili administrirati vašu mrežu. Međutim, ova udaljena veza mora biti sigurna.
-
 
 Prvi savet je da nikada direktno ne otvorite port na vašem ruteru za pristup uređaju (npr. putem RDP, SSH ili FTP), jer to izlaže tu uslugu celom Internetu, što predstavlja ranjivost. Automatizovani napadi koji ciljaju otvorene portove su brojni.
 
-
 Rešenje koje preporučujem je korišćenje VPN-a (*Virtual Private Network*), tj. enkriptovanog tunela između vašeg udaljenog uređaja (računara, pametnog telefona, itd.) i vaše lokalne mreže. Kada se povežete na VPN, možete pristupiti resursima vašeg doma kao da ste fizički tamo, i to na siguran način.
 
-
 Dva glavna rešenja za privatne korisnike su:
-
-
 
 - WireGuard: Moderan, brz i lagan
 - OpenVPN: Stariji, ali veoma zreo i podesiv
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Evo kompletan vodič o Tailscale-u, jednostavnom VPN rešenju za konfiguraciju koje koristi WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Možete hostovati ovaj VPN direktno na kompatibilnom ruteru, na malom računaru (kao što je Raspberry Pi) ili na namenskom serveru kod kuće. Takođe ga možete instalirati kao klijent direktno na bilo koji uređaj.
 
-
 Ali VPN nije samo za daljinski pristup. Možete koristiti i klasični VPN klijent na svojim uređajima da šifrujete sav svoj odlazni saobraćaj, čak i kada ste van kuće (javni Wi-Fi, hotel, univerzitet, itd.). U ovom slučaju, vaš uređaj se povezuje na treću VPN server (komercijalni ili samostalno hostovan), koji zatim prenosi vaše veze na Internet. Ovo skriva vaš pravi IP Address od ISP-a, štiti vaše podatke od lokalnog špijuniranja i izbegava određene oblike cenzure.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Konačno, moguće je postaviti VPN direktno na vašem ruteru, omogućavajući vam da zaštitite sve uređaje u vašem domu bez potrebe za instaliranjem VPN klijenta na svaki od njih.
 
-
 ### Praćenje i detekcija
-
 
 Kada vaša mreža bude pravilno konfigurisana i segmentirana, važno je ići dalje od pasivne sigurnosti. Aktivno praćenje vaše lokalne mreže može otkriti abnormalno ponašanje, neovlašćene veze ili znakove upada. Cilj je uočiti probleme rano, pre nego što prouzrokuju štetu.
 
-
 Prvi korak je centralizacija sigurnosnih logova. Svaki uređaj povezan na mrežu generiše logove koji sadrže informacije o konekcijama, greškama ili sumnjivim aktivnostima. Umesto da se ovi logovi pregledaju pojedinačno, preporučujem da ih pošaljete na server koji je sposoban da ih grupiše, sortira i analizira. Rešenja kao što su Graylog ili Elastic Stack (ELK) omogućavaju vam da agregirate ove logove u grafički Interface gde možete pretraživati specifične događaje, kreirati upozorenja ili vizualizovati mrežnu aktivnost.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Zatim, redovno vršite aktivno skeniranje vaše lokalne mreže, na primer sa Nmap-om. Ovo će vam dati pregled svih uređaja na vašoj mreži i portova koje su otvorili. Ako identifikujete nepoznat uređaj ili neobičnu uslugu, to bi mogao biti znak napada.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Da biste otišli još dalje, možete instalirati IDS (*Intrusion Detection System*), ili čak IPS (*Intrusion Prevention System*). Ovi alati, kao što su Suricata ili Snort, nadgledaju mrežne tokove u realnom vremenu i detektuju potpise poznatih napada (skeniranje portova, injekcije, sumnjive veze, itd.). IDS upozorava, dok IPS može automatski blokirati određene akcije.
 
-
-
 Konačno, praćenje potrošnje propusnog opsega je takođe dobar pokazatelj abnormalne aktivnosti. Ako uređaj iznenada troši mnogo podataka bez očiglednog razloga, to može ukazivati na neovlašćeno preuzimanje, curenje podataka ili čak kompromitovan uređaj. Alati kao što su ntopng ili vnStat omogućavaju vam da vidite dolazne i odlazne tokove po uređaju.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Bekap i otpornost
 
-
 Čak i uz savršeno sigurnu mrežu, kvarovi hardvera, greške u konfiguraciji ili nepredviđeni događaji (nestanak struje, prenapon, kvar diska Hard, itd.) mogu uzrokovati gubitak podataka ili prekid vaših usluga. Da biste garantovali kontinuitet vašeg digitalnog okruženja i izbegli početak od nule u slučaju problema, važno je implementirati strategiju bekapa i otpornosti.
-
 
 Počnite redovno praviti rezervne kopije konfiguracije vaše mrežne opreme, posebno rutera. Ove konfiguracione datoteke često se mogu izvesti putem administracije Interface. Čuvanje kopije omogućava vam brzo vraćanje funkcionalnog sistema u slučaju resetovanja ili zamene uređaja. Takođe preporučujem šifrovanje ove rezervne kopije.
 
-
 Konačno, da biste poboljšali otpornost vaše mreže u slučaju nestanka struje, investirajte u UPS. Ovaj uređaj obezbeđuje rezervno napajanje na nekoliko minuta u slučaju nestanka struje, omogućavajući vam da nastavite sa korišćenjem Interneta ili osiguravajući da se kritični uređaji (NAS, ruter, Wi-Fi pristupna tačka, itd.) isključe na pravilan način. Neki modeli takođe mogu poslati automatsku komandu za isključivanje povezanim uređajima kada otkriju da je baterija pri kraju.
-
 
 Prateći ovih nekoliko koraka, izgradićete robustno, sigurno mrežno okruženje koje poštuje vašu privatnost.
 
-
 # Završni deo
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recenzije i Ocene
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Završni ispit
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Zaključak
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

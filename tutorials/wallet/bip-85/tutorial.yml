@@ -1,0 +1,24 @@
+id: ce35c1d3-9307-413e-8db3-643380019817
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+tags:
+  - keys
+  - guides
+
+category: backup
+
+level: intermediate
+
+professor_id: bb9c6872-75a6-4987-ab72-0fd6e03b5e8d
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-07-25
+    urgency: 1
+    contributor_names:
+      - man-orangepeel
+    reward: 0

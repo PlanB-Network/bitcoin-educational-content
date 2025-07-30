@@ -727,9 +727,9 @@ The Arch Linux family is distinguished by a philosophy radically opposed to that
 
 This approach is based on a *rolling release* model, where packages are updated continuously, without the need to reinstall the system with each major release. The Pacman package manager is fast and lightweight, making it easy to install and update software, and the AUR (*Arch User Repository*), a community repository, provides access to a vast array of unofficial and development packages.
 
-
 Arch Linux is aimed above all at advanced users who want total control over their environment, while accepting a certain complexity in installation and maintenance. This technical requirement has led to the emergence of several derivative distributions aimed at democratizing its use.
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 The best-known is Manjaro, which retains Arch's technical base while offering simplified installation, preconfigured desktop environments and a slightly delayed release cycle to stabilize updates.
 
@@ -828,8 +828,9 @@ Installation is smooth, essential software is pre-installed, and the "Lite" vers
 
 - **elementary OS**:
 
-
 Launched in 2011, elementary OS is an Ubuntu-based distribution that focuses above all on the design and consistency of Interface. Its Pantheon desktop environment, inspired by macOS, is minimalist, elegant and fluid. However, the system remains less customizable than other distributions, and some advanced users may feel limited by Interface's choices and its deliberately locked-down structure. It is well suited to aesthetically sensitive users looking for a simple, coherent system for everyday use.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 ![Image](assets/fr/023.webp)
@@ -901,12 +902,11 @@ Arch Linux is a minimalist, continuously updatable distribution, delivered witho
 ![Image](assets/fr/029.webp)
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Specialized distribution
 
-
-
 - **Kali Linux**:
-
 
 Kali Linux is a Debian-based distribution designed for penetration testing and security auditing. It includes hundreds of pentest tools. This distribution is not really suitable as a main system for everyday use.
 
@@ -3664,9 +3664,7 @@ On macOS, system disk encryption is based on *FileVault*, a native feature acces
 
 Once FileVault has been activated, you'll need to choose a recovery method in the event of password loss: either use your *iCloud* account, or generate a unique backup key. This key must be kept in a safe place, as its loss would render your data permanently inaccessible.
 
-
 For external storage media (hard disks, USB sticks, etc.), encryption is performed using the disk utility. You will need to completely reformat the volume:
-
 
 - Select the device, click on "*Delete*"
 - Select the "GUID* Partition Table" scheme
@@ -3674,91 +3672,68 @@ For external storage media (hard disks, USB sticks, etc.), encryption is perform
 - Choose a strong password
 - Click on "*Delete*" then "*OK*" and encryption is complete
 
-
 Once encryption is in place, the external drive can only be mounted by entering this password. The system will then decrypt it on the fly.
-
 
 #### A few recommendations for your encrypted backups
 
-
 Before encrypting a medium, you need to back up all the data it contains (unless it's empty, of course), as the encryption procedure generally erases the initial contents.
-
 
 The choice of password is also very important: it must be long, complex and unique, as it is the only protection between your data and a malicious third party. You also need to make a backup, for example in a password manager, because unlike online services, there is no recovery mechanism. If you forget your password, the data is lost for good.
 
-
 ### Selective file encryption
-
 
 In some cases, it is neither necessary nor practical to encrypt an entire hard disk or external media. In such cases, you can opt for selective encryption, which involves securing only certain files or directories containing sensitive data.
 
-
 One of the best-known methods for encrypting files is to use GPG. This tool is based on asymmetric cryptography: you have a pair of keys, one public, which you can distribute freely to your correspondents, and the other private, which must remain strictly secret. Files are encrypted using the recipient's public key, but can only be decrypted using his or her private key.
-
 
 This protocol is perfect for exchanging sensitive files securely with others, without sharing a password. For personal or occasional use, GPG also enables symmetrical encryption: the file is then protected by a unique password known only to you.
 
-
 An excellent alternative is Cryptomator. This open source software allows you to create a safe: a special directory in which all files deposited are automatically encrypted. This safe can be synchronized with cloud services such as Dropbox, Google Drive or Nextcloud without the provider ever having access to the unencrypted data. The application is available on all operating systems, including Android and iOS, and requires no special technical skills to use.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 ![Image](assets/fr/256.webp)
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Finally, it is also possible to use VeraCrypt in container mode, which creates a file that acts as an encrypted archive, mountable like a disk.
 
-
 Now that you've learned how to protect your personal data against loss and theft, the next chapter looks at another important aspect: how to prevent your personal files from becoming attack vectors through their metadata.
-
-
 
 ## Metadata cleansing
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
 Every time you create a digital file, be it a photo, office document, audio or video file, it contains metadata in the background. This information isn't directly visible when you open the file, but it's there, and can contain extremely sensitive elements.
-
 
 ### Why is metadata a risk?
 
-
 Metadata is data attached to a file, the role of which is to provide contextual information about the content. In an image, this can include the date and time the image was taken, precise GPS coordinates, the model of camera or smartphone used, and sometimes even technical settings. In a text document, it can include the author's name, the company's name, the user's session ID, creation and modification timestamps, or even internal comments left during editing.
-
 
 This metadata may seem harmless, but it can be used by malicious actors to identify the author of a file, physically locate a person, reconstruct events or habits, or even exploit software flaws based on the version of software used.
 
-
 Let's take a concrete example: you post a supposedly anonymous photo on a forum. If you haven't removed the EXIF metadata, a single click can reveal the precise GPS coordinates of your home, the model of your phone and the exact date the photo was taken. Similarly, a PDF document sent anonymously may contain your full name in its properties.
-
 
 That's why some media publishing and communication platforms automatically remove metadata from your photos. These include X (Twitter), Instagram, Signal and Session. On the other hand, other platforms don't remove metadata at all: this is the case with most online forums, many e-mail clients, or even when you publish directly on a website.
 
-
 It's an essential reflex to adopt: as soon as a file leaves your private sphere, you need to think about cleaning up its metadata to avoid disclosing personal or sensitive information without your knowledge. Let's take a look at how to do this, depending on your operating system.
-
 
 ### On Linux (Debian)
 
-
 #### Using ExifTool
-
 
 The most complete and reliable means of managing and deleting metadata is the ExifTool, developed by Phil Harvey. It is compatible with a large number of file formats (JPG, PNG, PDF, MP3, DOCX...) and enables both display and removal of metadata.
 
-
-
 - Step 1: Install ExifTool
 
-
 To install it on a Debian distribution (Ubuntu), open a terminal and type the command:
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
 
 This package installs `exiftool`, which you can then use directly from the command line.
 
@@ -6298,6 +6273,8 @@ The two main solutions for private customers are:
 - WireGuard: Modern, fast and lightweight
 - OpenVPN: Older, but very mature and configurable
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Here's a complete tutorial on Tailscale, an easy-to-configure VPN solution that uses WireGuard:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -6318,11 +6295,13 @@ Once your network has been properly configured and segmented, it's important to 
 
 The first step is to centralize security logs. Every device connected to the network generates logs containing information on connections, errors or suspicious activity. Rather than consulting these logs individually, I recommend sending them to a server capable of grouping, sorting and analyzing them. Solutions such as Graylog or Elastic Stack (ELK) allow you to aggregate these logs into a graphical interface where you can search for specific events, create alerts or visualize network activity.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+
 Next, carry out regular active scans of your local network, for example with Nmap. This will give you an overview of all the devices on your network, and the ports they have opened. If you identify an unknown device or an unusual service, this could be the sign of an attack.
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 To go even further, you can install an IDS (*Intrusion Detection System*), or even an IPS (*Intrusion Prevention System*). These tools, such as Suricata or Snort, monitor network flows in real time and detect signatures of known attacks (port scans, injections, suspicious connections, etc.). The IDS warns, while the IPS can automatically block certain actions.
-
 
 Finally, monitoring bandwidth consumption is also a good indicator of abnormal activity. If a device suddenly consumes a lot of data for no apparent reason, this may betray an unauthorized download, a data leak, or even a compromised device. Tools such as ntopng or vnStat enable you to view incoming and outgoing flows by device.
 

@@ -972,11 +972,9 @@ A família Arch Linux distingue-se por uma filosofia radicalmente oposta à das 
 
 Esta abordagem baseia-se num modelo de *rolling release*, em que os pacotes são actualizados continuamente, sem necessidade de reinstalar o sistema a cada grande lançamento. O gestor de pacotes Pacman é rápido e leve, facilitando a instalação e atualização de software, e o AUR (*Arch User Repository*), um repositório da comunidade, dá acesso a uma vasta gama de pacotes não oficiais e de desenvolvimento.
 
-
-
 O Arch Linux destina-se sobretudo a utilizadores avançados que pretendem ter um controlo total sobre o seu ambiente, aceitando simultaneamente uma certa complexidade na instalação e manutenção. Esta exigência técnica levou ao aparecimento de várias distribuições derivadas com o objetivo de democratizar a sua utilização.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 O mais conhecido é o Manjaro, que mantém a base técnica do Arch, oferecendo uma instalação simplificada, ambientes de trabalho pré-configurados e um ciclo de lançamento ligeiramente atrasado para estabilizar as actualizações.
 
@@ -1108,9 +1106,9 @@ A instalação é fácil, o software essencial está pré-instalado e a versão 
 
 - sO elementar**:
 
-
-
 Lançado em 2011, o elementary OS é uma distribuição baseada no Ubuntu que se centra sobretudo no design e na consistência do Interface. O seu ambiente de trabalho Pantheon, inspirado no macOS, é minimalista, elegante e fluido. No entanto, o sistema continua a ser menos personalizável do que outras distribuições, e alguns utilizadores avançados podem sentir-se limitados pelas escolhas do Interface e pela sua estrutura deliberadamente fechada. É bem adequado para utilizadores esteticamente sensíveis que procuram um sistema simples e coerente para uso diário.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ O Arch Linux é uma distribuição minimalista, continuamente atualizável, forn
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Distribuição especializada
 
-
-
-
-
 - Kali Linux**:
-
-
 
 O Kali Linux é uma distribuição baseada em Debian concebida para testes de penetração e auditoria de segurança. Inclui centenas de ferramentas de pentest. Esta distribuição não é realmente adequada como um sistema principal para uso quotidiano.
 
@@ -4869,12 +4863,7 @@ No macOS, a encriptação do disco do sistema é baseada no *FileVault*, uma fun
 
 Assim que o FileVault tiver sido ativado, terá de escolher um método de recuperação em caso de perda da palavra-passe: utilizar a sua conta *iCloud* ou generate uma chave de cópia de segurança única. Esta chave deve ser guardada num local seguro, uma vez que a sua perda tornaria os seus dados permanentemente inacessíveis.
 
-
-
 Para suportes de armazenamento externos (discos Hard, pen drives USB, etc.), a encriptação é efectuada utilizando o utilitário de disco. Terá de reformatar completamente o volume:
-
-
-
 
 - Selecione o dispositivo e clique em "*Delete*"
 - Selecionar o esquema "Tabela de partição GUID*"
@@ -4882,41 +4871,25 @@ Para suportes de armazenamento externos (discos Hard, pen drives USB, etc.), a e
 - Escolha uma palavra-passe forte
 - Clique em "*Delete*" e depois em "*OK*" e a encriptação está concluída
 
-
-
 Quando a encriptação estiver implementada, a unidade externa só pode ser montada introduzindo esta palavra-passe. O sistema desencripta-a de imediato.
-
-
 
 #### Algumas recomendações para as suas cópias de segurança encriptadas
 
-
-
 Antes de encriptar um suporte, é necessário fazer uma cópia de segurança de todos os dados nele contidos (a não ser que esteja vazio, claro), uma vez que o procedimento de encriptação geralmente apaga o conteúdo inicial.
-
-
 
 A escolha da palavra-passe também é muito importante: deve ser longa, complexa e única, pois é a única proteção entre os seus dados e um terceiro mal-intencionado. Também é necessário fazer uma cópia de segurança, por exemplo, num gestor de senhas, porque, ao contrário dos serviços em linha, não existe qualquer mecanismo de recuperação. Se se esquecer da sua palavra-passe, os dados perdem-se para sempre.
 
-
-
 ### Encriptação selectiva de ficheiros
-
-
 
 Em alguns casos, não é necessário nem prático encriptar um disco Hard inteiro ou um suporte externo. Nesses casos, pode optar pela encriptação selectiva, que envolve a segurança de apenas determinados ficheiros ou diretórios que contenham dados sensíveis.
 
-
-
 Um dos métodos mais conhecidos para encriptar ficheiros é a utilização do GPG. Esta ferramenta baseia-se na criptografia assimétrica: tem um par de chaves, uma pública, que pode distribuir livremente aos seus correspondentes, e outra privada, que deve permanecer estritamente secreta. Os ficheiros são encriptados com a chave pública do destinatário, mas só podem ser desencriptados com a sua chave privada.
-
-
 
 Este protocolo é perfeito para trocar ficheiros sensíveis de forma segura com outras pessoas, sem partilhar uma palavra-passe. Para uso pessoal ou ocasional, o GPG também permite a encriptação simétrica: o ficheiro é então protegido por uma palavra-passe única que só o utilizador conhece.
 
-
-
 Uma excelente alternativa é o Cryptomator. Este software de código aberto permite-lhe criar um cofre: um diretório especial no qual todos os ficheiros depositados são automaticamente encriptados. Este cofre pode ser sincronizado com serviços na nuvem, como Dropbox, Google Drive ou Nextcloud, sem que o fornecedor tenha acesso aos dados não encriptados. A aplicação está disponível em todos os sistemas operativos, incluindo Android e iOS, e não requer competências técnicas especiais para ser utilizada.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Uma excelente alternativa é o Cryptomator. Este software de código aberto perm
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Finalmente, também é possível utilizar o VeraCrypt em modo contentor, que cria um ficheiro que funciona como um arquivo encriptado, montável como um disco.
-
-
 
 Agora que já aprendeu a proteger os seus dados pessoais contra perda e roubo, o próximo capítulo aborda outro aspeto importante: como evitar que os seus ficheiros pessoais se tornem vectores de ataque através dos seus metadados.
 
-
-
-
 ## Limpeza de metadados
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Sempre que se cria um ficheiro digital, seja uma fotografia, um documento de escritório, um ficheiro de áudio ou de vídeo, este contém metadados em segundo plano. Esta informação não é diretamente visível quando se abre o ficheiro, mas está lá e pode conter Elements extremamente sensível.
-
-
 
 ### Porque é que os metadados são um risco?
 
-
-
 Os metadados são dados anexados a um ficheiro, cuja função é fornecer informações contextuais sobre o conteúdo. Numa imagem, podem incluir a data e a hora em que a imagem foi tirada, as coordenadas GPS precisas, o modelo da câmara ou do smartphone utilizado e, por vezes, até as definições técnicas. Num documento de texto, pode incluir o nome do autor, o nome da empresa, o ID da sessão do utilizador, os carimbos de data/hora de criação e modificação ou mesmo comentários internos deixados durante a edição.
-
-
 
 Estes metadados podem parecer inofensivos, mas podem ser utilizados por agentes maliciosos para identificar o autor de um ficheiro, localizar fisicamente uma pessoa, reconstruir eventos ou hábitos, ou mesmo explorar falhas de software com base na versão do software utilizado.
 
-
-
 Vejamos um exemplo concreto: publica uma fotografia supostamente anónima num fórum. Se não tiver removido os metadados EXIF, um simples clique pode revelar as coordenadas GPS exactas da sua casa, o modelo do seu telemóvel e a data exacta em que a fotografia foi tirada. Da mesma forma, um documento PDF enviado anonimamente pode conter o seu nome completo nas suas propriedades.
-
-
 
 É por isso que algumas plataformas de publicação e comunicação de media removem automaticamente os metadados das suas fotografias. Estas incluem o X (Twitter), o Instagram, o Signal e a Session. Por outro lado, outras plataformas não removem os metadados de todo: é o caso da maioria dos fóruns em linha, de muitos clientes de correio eletrónico ou mesmo quando publica diretamente num sítio Web.
 
-
-
 É um reflexo essencial a adotar: assim que um ficheiro sai da sua esfera privada, é necessário pensar em limpar os seus metadados para evitar a divulgação de informações pessoais ou sensíveis sem o seu conhecimento. Vejamos como o fazer, consoante o seu sistema operativo.
-
-
 
 ### No Linux (Debian)
 
-
-
 #### Utilizar o ExifTool
-
-
 
 O meio mais completo e fiável de gerir e eliminar metadados é o ExifTool, desenvolvido por Phil Harvey. É compatível com um grande número de formatos de ficheiros (JPG, PNG, PDF, MP3, DOCX...) e permite tanto a visualização como a remoção de metadados.
 
-
-
-
-
 - Passo 1: Instalar o ExifTool
 
-
-
 Para instalá-lo em uma distribuição Debian (Ubuntu), abra um terminal e digite o comando:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Este pacote instala o `exiftool`, que pode ser utilizado diretamente a partir da linha de comandos.
 
@@ -8611,34 +8550,26 @@ Estas ferramentas funcionam como um pequeno servidor DNS dentro da sua rede, blo
 
 ### Acesso remoto seguro através de VPN
 
-
 Em alguns casos, é útil poder aceder à sua rede doméstica quando está em viagem: Consultar ficheiros num NAS, utilizar um nó Bitcoin e Lightning, aceder a um servidor auto-hospedado ou administrar a sua rede. No entanto, essa conexão remota deve ser segura.
-
 
 A primeira dica é nunca abrir diretamente uma porta no seu router para aceder a um dispositivo (por exemplo, através de RDP, SSH ou FTP), uma vez que isso expõe esse serviço a toda a Internet, o que constitui uma vulnerabilidade. Os ataques automatizados que visam portas abertas são numerosos.
 
-
 A solução que recomendo é a utilização de uma VPN (*Virtual Private Network*), ou seja, um túnel encriptado entre o seu dispositivo remoto (computador, smartphone, etc.) e a sua rede local. Uma vez ligado à VPN, pode aceder aos recursos da sua casa como se estivesse fisicamente lá, e de forma segura.
 
-
 As duas principais soluções para os clientes privados são:
-
-
 
 - WireGuard: Moderno, rápido e leve
 - OpenVPN: Mais antigo, mas muito maduro e configurável
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Aqui está um tutorial completo sobre o Tailscale, uma solução VPN fácil de configurar que utiliza o WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Pode alojar esta VPN diretamente num router compatível, num pequeno computador (como um Raspberry Pi) ou num servidor dedicado em casa. Também pode instalá-la como cliente diretamente em qualquer dispositivo.
 
-
 Mas uma VPN não serve apenas para o acesso remoto. Também pode utilizar um cliente VPN clássico nos seus dispositivos para encriptar todo o seu tráfego de saída, mesmo quando está fora de casa (Wi-Fi público, hotel, universidade, etc.). Neste caso, o seu dispositivo liga-se a um servidor VPN de terceiros (comercial ou auto-hospedado), que depois retransmite as suas ligações à Internet. Deste modo, esconde o seu verdadeiro IP Address do ISP, protege os seus dados da espionagem local e evita certas formas de censura.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Por último, também é possível configurar uma VPN diretamente no seu router, o que lhe permite proteger todos os dispositivos da sua casa sem ter de instalar um cliente VPN em cada um deles.
 
-
 ### Monitorização e deteção
-
 
 Uma vez que sua rede tenha sido configurada e segmentada corretamente, é importante ir além da segurança passiva. A monitorização ativa da sua rede local pode detetar comportamentos anormais, ligações não autorizadas ou sinais de intrusão. O objetivo é detetar problemas atempadamente, antes que causem danos.
 
-
 O primeiro passo é centralizar os registos de segurança. Todos os dispositivos ligados à rede geram registos que contêm informações sobre ligações, erros ou actividades suspeitas. Em vez de consultar estes registos individualmente, recomendo que os envie para um servidor capaz de os agrupar, ordenar e analisar. Soluções como o Graylog ou o Elastic Stack (ELK) permitem agregar estes registos num Interface gráfico onde é possível procurar eventos específicos, criar alertas ou visualizar a atividade da rede.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Em seguida, faça análises activas regulares da sua rede local, por exemplo, com o Nmap. Isto dar-lhe-á uma visão geral de todos os dispositivos na sua rede e das portas que abriram. Se identificar um dispositivo desconhecido ou um serviço invulgar, isso pode ser sinal de um ataque.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Para ir ainda mais longe, pode instalar um IDS (*Intrusion Detection System*), ou mesmo um IPS (*Intrusion Prevention System*). Estas ferramentas, como o Suricata ou o Snort, monitorizam os fluxos de rede em tempo real e detectam assinaturas de ataques conhecidos (varreduras de portas, injecções, ligações suspeitas, etc.). O IDS avisa, enquanto o IPS pode bloquear automaticamente determinadas acções.
 
-
-
 Finalmente, a monitorização do consumo de largura de banda é também um bom indicador de atividade anormal. Se um dispositivo consumir repentinamente muitos dados sem motivo aparente, isso pode denunciar um download não autorizado, um vazamento de dados ou até mesmo um dispositivo comprometido. Ferramentas como o ntopng ou o vnStat permitem-lhe ver os fluxos de entrada e saída por dispositivo.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Cópia de segurança e resiliência
 
-
 Mesmo com uma rede perfeitamente segura, as falhas de hardware, os erros de configuração ou os imprevistos (falha de energia, picos de corrente, falha do disco Hard, etc.) podem causar a perda de dados ou interromper os seus serviços. Para garantir a continuidade do seu ambiente digital e evitar começar do zero em caso de problema, é importante implementar uma estratégia de backup e resiliência.
-
 
 Comece por fazer regularmente cópias de segurança da configuração do seu equipamento de rede, especialmente do router. Estes ficheiros de configuração podem muitas vezes ser exportados através do Interface de administração. Manter uma cópia permite-lhe restaurar rapidamente um sistema funcional em caso de reinicialização ou substituição de um dispositivo. Recomendo também que esta cópia de segurança seja encriptada.
 
-
 Por fim, para melhorar a resistência da sua rede em caso de falha de energia, invista numa UPS. Este dispositivo fornece energia de reserva durante alguns minutos em caso de falha de energia, permitindo-lhe continuar a utilizar a Internet ou assegurando que os dispositivos críticos (NAS, router, ponto de acesso Wi-Fi, etc.) se desligam sem problemas. Alguns modelos podem também enviar um comando de encerramento automático aos dispositivos ligados quando detectam que a bateria está fraca.
-
 
 Seguindo estes poucos passos, criará um ambiente de rede robusto e seguro que respeita a sua privacidade.
 
-
 # Parte final
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Comentários e classificações
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Exame final
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

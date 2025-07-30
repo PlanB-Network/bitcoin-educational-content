@@ -43,7 +43,7 @@ Avant de commencer à utiliser **Bull Bitcoin Mobile**, assurez-vous de disposer
 
 - **Téléchargez l’application** :
 	- **[Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Téléchargez depuis le magasin d'application pour les appareils Android
-	- **[GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Téléchargez directement l'APK pour les appareils Android
+	- **[GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Téléchargez directement l'APK pour les appareils Android**
 	- **[iOS](https://testflight.apple.com/join/FJbE4JPN)** Téléchargez via TestFlight pour les appareils Apple
 	- Vérifiez le nom du développeur (Bull Bitcoin) pour éviter les applications frauduleuses.
 	- Assurez-vous que la version téléchargée correspond à la dernière version stable indiquée sur GitHub.
@@ -273,8 +273,9 @@ Puis vous pouvez ajuster des paramètres :
 
 - **Paramètres avancés** :
 
-	 - **Replace-by-Fee (RBF)** : Activé par défaut, cette fonction permet d'accélérer la transaction en payant des frais plus élevés (voir Annexe 4 pour détails).
-	 - **Sélection manuelle des UTXO** : Si vos fonds sont stockés sur plusieurs adresses différentes de ton wallet, vous pouvez choisir les adresses à partir desquelles envoyer les fonds. Pourquoi ? Avec l’adoption croissante de Bitcoin, les frais de transfert augmentent. Envoyer depuis plusieurs adresses avec de petits montants est plus coûteux qu’un envoi depuis une adresse unique, mais le faire maintenant évite de devoir le faire plus tard, lorsque les frais seront encore plus élevés. On parle de **consolidation d’UTXO.**
+	- **Replace-by-Fee (RBF)** : Activé par défaut, cette fonction permet d'accélérer la transaction en payant des frais plus élevés (voir Annexe 4 pour détails).
+
+	- **Sélection manuelle des UTXO** : Si vos fonds sont stockés sur plusieurs adresses différentes de ton wallet, vous pouvez choisir les adresses à partir desquelles envoyer les fonds. Pourquoi ? Avec l’adoption croissante de Bitcoin, les frais de transfert augmentent. Envoyer depuis plusieurs adresses avec de petits montants est plus coûteux qu’un envoi depuis une adresse unique, mais le faire maintenant évite de devoir le faire plus tard, lorsque les frais seront encore plus élevés. On parle de **consolidation d’UTXO.**
 
 ![image](assets/fr/16.webp)
 
@@ -529,17 +530,22 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/
 
 
-    * **Liquid Network** : 
-	    * **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
+
+- **Liquid Network** :
+	- **[Glossaire](https://planb.network/resources/glossary/liquid-network)**
+
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
-    * **Lightning Network** :
-	    * **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
+
+- **Lightning Network** :
+	- **[Glossaire](https://planb.network/resources/glossary/lightning-network)**
+
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 

@@ -484,6 +484,8 @@ Cette approche repose sur un modèle *rolling release*, où les paquets sont mis
 
 Arch Linux s’adresse avant tout aux utilisateurs avancés qui souhaitent un contrôle total sur leur environnement, tout en acceptant une certaine complexité d’installation et de maintenance. Cette exigence technique a conduit à l’émergence de plusieurs distributions dérivées visant à démocratiser son usage.
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 La plus connue est Manjaro, qui conserve la base technique d’Arch tout en proposant une installation simplifiée, des environnements de bureau préconfigurés et un cycle de publication légèrement différé pour stabiliser les mises à jour.
 
 ![Image](assets/fr/042.webp)
@@ -550,6 +552,8 @@ L’installation est fluide, les logiciels essentiels sont préinstallés, et la
 
 Lancée en 2011, elementary OS est une distribution basée sur Ubuntu qui mise avant tout sur le design et la cohérence de l’interface. Son environnement de bureau Pantheon, inspiré de macOS, est minimaliste, élégant et fluide. Toutefois, le système reste moins personnalisable que d'autres distributions, et certains utilisateurs avancés peuvent se sentir limités par ses choix d’interface et sa structure volontairement verrouillée. Elle convient bien aux personnes sensibles à l’esthétique, recherchant un système simple et cohérent pour un usage quotidien.
 
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+
 ![Image](assets/fr/023.webp)
 
 - **Pop!OS** :
@@ -595,6 +599,8 @@ Basée sur Arch, Manjaro rend accessible Arch Linux. Cette distribution propose 
 Arch Linux est une distribution minimaliste, en mise à jour continue, livrée sans interface ni logiciels superflus. Elle requiert une installation manuelle, mais offre un contrôle total et une excellente documentation (Arch Wiki). Cette distribution est recommandée aux utilisateurs avancés souhaitant tout maîtriser.
 
 ![Image](assets/fr/029.webp)
+
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Distributions spécialisées
 
@@ -2492,7 +2498,11 @@ Ce protocole est parfait pour échanger des fichiers sensibles de manière sécu
 
 Il y a également le logiciel Cryptomator qui est une excellente alternative. Ce logiciel open source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
 
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+
 ![Image](assets/fr/256.webp)
+
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Enfin, il est également possible d'utiliser VeraCrypt en mode conteneur, qui permet de créer un fichier agissant comme une archive chiffrée, montable comme un disque.
 
@@ -4665,6 +4675,8 @@ Les deux principales solutions pour les particuliers sont :
 - WireGuard : moderne, rapide et léger ;
 - OpenVPN : plus ancien mais très mature et configurable.
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+
 Voici un tutoriel complet sur Tailscale, une solution de VPN facile à configurer qui utilise WireGuard :
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -4685,7 +4697,11 @@ Une fois votre réseau bien configuré et segmenté, il est important de ne pas 
 
 La première étape consiste à centraliser les journaux de sécurité (logs). Chaque appareil connecté au réseau génère des logs contenant des informations sur les connexions, les erreurs ou les activités suspectes. Plutôt que de consulter ces journaux individuellement, je vous conseille de les envoyer vers un serveur capable de les regrouper, trier et analyser. Des solutions comme Graylog ou Elastic Stack (ELK) permettent d’agréger ces logs dans une interface graphique où vous pouvez rechercher des événements spécifiques, créer des alertes ou visualiser l’activité du réseau.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+
 Ensuite, effectuez régulièrement un scan actif de votre réseau local, par exemple avec Nmap. Cela vous permet d’obtenir une vue de tous les appareils présents sur votre réseau, ainsi que les ports qu’ils ont ouverts. Si vous identifiez un appareil inconnu ou un service inhabituel, cela peut être le signe d’une attaque.
+
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Pour aller plus loin, vous pouvez mettre en place un IDS (*Intrusion Detection System*), voire un IPS (*Intrusion Prevention System*). Ces outils, comme Suricata ou Snort, surveillent en temps réel les flux réseau et détectent les signatures d’attaques connues (scans de ports, injections, connexions suspectes...). L’IDS alerte, tandis que l’IPS peut bloquer automatiquement certaines actions.
 

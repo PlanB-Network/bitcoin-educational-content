@@ -972,11 +972,9 @@ Familia ya Arch Linux inatofautishwa na falsafa inayopingana kabisa na ile ya us
 
 Mbinu hii inatokana na muundo wa *utoleo unaoendelea*, ambapo vifurushi husasishwa kila mara, bila hitaji la kusakinisha upya mfumo kwa kila toleo kuu. Kidhibiti cha kifurushi cha Pacman ni cha haraka na chepesi, na hivyo kurahisisha kusakinisha na kusasisha programu, na AUR (*Arch User Repository*), hazina ya jumuiya, hutoa ufikiaji wa safu kubwa ya vifurushi visivyo rasmi na vya ukuzaji.
 
-
-
 Arch Linux inalenga zaidi ya yote kwa watumiaji wa juu ambao wanataka udhibiti kamili juu ya mazingira yao, huku wakikubali utata fulani katika usakinishaji na matengenezo. Mahitaji haya ya kiufundi yamesababisha kuibuka kwa usambazaji kadhaa wa derivative unaolenga kuleta demokrasia ya matumizi yake.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Inayojulikana zaidi ni Manjaro, ambayo huhifadhi msingi wa kiufundi wa Arch huku ikitoa usakinishaji uliorahisishwa, mazingira ya eneo-kazi yaliyopangwa awali na mzunguko wa uchapishaji uliocheleweshwa kidogo ili kuleta utulivu wa masasisho.
 
@@ -1108,9 +1106,9 @@ Ufungaji ni laini, programu muhimu imesakinishwa awali, na toleo la "Lite" hukuw
 
 - OS ya msingi**:
 
-
-
 Ilizinduliwa mnamo 2011, OS ya msingi ni usambazaji unaotegemea Ubuntu ambao huzingatia zaidi muundo na uthabiti wa Interface. Mazingira yake ya eneo-kazi la Pantheon, yaliyochochewa na macOS, ni ya chini kabisa, ya kifahari na ya maji. Hata hivyo, mfumo unasalia kubinafsishwa kidogo kuliko ugawaji mwingine, na baadhi ya watumiaji wa hali ya juu wanaweza kuhisi wamewekewa mipaka na chaguo za Interface na muundo wake uliofungwa kimakusudi. Inafaa kwa watumiaji nyeti kwa uzuri wanaotafuta mfumo rahisi, unaoshikamana kwa matumizi ya kila siku.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux ni usambazaji mdogo, unaoendelea kusasishwa, unaotolewa bila Interfac
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Usambazaji maalum
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux ni usambazaji unaotegemea Debian iliyoundwa kwa ajili ya majaribio ya kupenya na ukaguzi wa usalama. Inajumuisha mamia ya zana za pentest. Usambazaji huu haufai kabisa kama mfumo mkuu wa matumizi ya kila siku.
 
@@ -4869,12 +4863,7 @@ Kwenye macOS, usimbaji fiche wa diski ya mfumo unatokana na *FileVault*, kipenge
 
 Baada ya FileVault kuamilishwa, utahitaji kuchagua mbinu ya kurejesha nenosiri ikiwa nenosiri limepotea: ama utumie akaunti yako ya *iCloud*, au generate ufunguo wa kipekee wa kuhifadhi nakala. Ufunguo huu lazima uhifadhiwe mahali salama, kwa kuwa kupotea kwake kunaweza kufanya data yako isiweze kufikiwa kabisa.
 
-
-
 Kwa vyombo vya habari vya hifadhi ya nje (diski za Hard, vijiti vya USB, nk), usimbuaji unafanywa kwa kutumia matumizi ya diski. Utahitaji kurekebisha kabisa kiasi:
-
-
-
 
 - Chagua kifaa, bonyeza "*Futa*"
 - Chagua mpango wa "GUID* Jedwali la Sehemu".
@@ -4882,41 +4871,25 @@ Kwa vyombo vya habari vya hifadhi ya nje (diski za Hard, vijiti vya USB, nk), us
 - Chagua nenosiri dhabiti
 - Bonyeza "*Futa*" kisha "*Sawa*" na usimbaji fiche umekamilika
 
-
-
 Mara usimbaji fiche unapowekwa, hifadhi ya nje inaweza tu kupachikwa kwa kuingiza nenosiri hili. Mfumo huo utauchambua kwa kuruka.
-
-
 
 #### Mapendekezo machache ya nakala zako zilizosimbwa kwa njia fiche
 
-
-
 Kabla ya kusimba kati, unahitaji kuhifadhi nakala ya data yote iliyo nayo (isipokuwa ni tupu, bila shaka), kwani utaratibu wa usimbaji fiche kwa ujumla hufuta yaliyomo ya awali.
-
-
 
 Uchaguzi wa nenosiri pia ni muhimu sana: lazima iwe ndefu, ngumu na ya kipekee, kwani ndiyo ulinzi pekee kati ya data yako na mtu wa tatu mbaya. Pia unahitaji kufanya nakala, kwa mfano katika meneja wa nenosiri, kwa sababu tofauti na huduma za mtandaoni, hakuna utaratibu wa kurejesha. Ukisahau nenosiri lako, data itapotea kabisa.
 
-
-
 ### Usimbaji fiche wa faili
-
-
 
 Katika baadhi ya matukio, si lazima wala si vitendo kusimba diski nzima ya Hard au vyombo vya habari vya nje. Katika hali kama hizi, unaweza kuchagua usimbaji fiche uliochaguliwa, ambao unahusisha kupata faili au saraka fulani pekee zilizo na data nyeti.
 
-
-
 Mojawapo ya njia zinazojulikana za kusimba faili ni kutumia GPG. Chombo hiki kinategemea kriptografia ya asymmetric: una jozi ya funguo, moja ya umma, ambayo unaweza kusambaza kwa uhuru kwa waandishi wako, na nyingine ya faragha, ambayo lazima ibaki siri madhubuti. Faili husimbwa kwa njia fiche kwa kutumia ufunguo wa umma wa mpokeaji, lakini zinaweza tu kusimbwa kwa kutumia ufunguo wake wa faragha.
-
-
 
 Itifaki hii ni nzuri kwa kubadilishana faili nyeti na wengine kwa usalama, bila kushiriki nenosiri. Kwa matumizi ya kibinafsi au ya mara kwa mara, GPG pia huwezesha usimbaji fiche linganifu: basi faili inalindwa na nenosiri la kipekee linalojulikana kwako tu.
 
-
-
 Njia mbadala bora ni Cryptomator. Programu hii ya chanzo wazi hukuruhusu kuunda salama: saraka maalum ambayo faili zote zilizowekwa zinasimbwa kiatomati. Sefu hii inaweza kusawazishwa na huduma za wingu kama vile Dropbox, Hifadhi ya Google au Nextcloud bila mtoa huduma kuwahi kufikia data ambayo haijasimbwa. Programu inapatikana kwenye mifumo yote ya uendeshaji, ikijumuisha Android na iOS, na haihitaji ujuzi maalum wa kiufundi kutumia.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Njia mbadala bora ni Cryptomator. Programu hii ya chanzo wazi hukuruhusu kuunda 
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Hatimaye, inawezekana pia kutumia VeraCrypt katika modi ya kontena, ambayo huunda faili ambayo hufanya kazi kama kumbukumbu iliyosimbwa, inayoweza kuwekwa kama diski.
-
-
 
 Sasa kwa kuwa umejifunza jinsi ya kulinda data yako ya kibinafsi dhidi ya upotevu na wizi, sura inayofuata inaangalia kipengele kingine muhimu: jinsi ya kuzuia faili zako za kibinafsi zisiwe vekta za mashambulizi kupitia metadata zao.
 
-
-
-
 ## Usafishaji wa metadata
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Kila wakati unapounda faili ya dijiti, iwe picha, hati ya ofisi, faili ya sauti au video, ina metadata chinichini. Maelezo haya hayaonekani moja kwa moja unapofungua faili, lakini yapo, na yanaweza kuwa na Elements nyeti sana.
-
-
 
 ### Kwa nini metadata ni hatari?
 
-
-
 Metadata ni data iliyoambatishwa kwenye faili, ambayo jukumu lake ni kutoa maelezo ya muktadha kuhusu maudhui. Katika picha, hii inaweza kujumuisha tarehe na wakati picha ilipigwa, viwianishi sahihi vya GPS, mfano wa kamera au simu mahiri iliyotumika, na wakati mwingine hata mipangilio ya kiufundi. Katika hati ya maandishi, inaweza kujumuisha jina la mwandishi, jina la kampuni, kitambulisho cha kipindi cha mtumiaji, mihuri ya muda ya kuunda na kurekebisha, au hata maoni ya ndani yaliyoachwa wakati wa kuhariri.
-
-
 
 Metadata hii inaweza kuonekana kuwa haina madhara, lakini inaweza kutumiwa na watendaji hasidi kutambua mtunzi wa faili, kupata mtu binafsi, kuunda upya matukio au tabia, au hata kutumia hitilafu za programu kulingana na toleo la programu iliyotumiwa.
 
-
-
 Wacha tuchukue mfano halisi: unachapisha picha inayodaiwa kutokujulikana kwenye kongamano. Iwapo hujaondoa metadata ya EXIF, mbofyo mmoja unaweza kuonyesha viwianishi sahihi vya GPS vya nyumba yako, muundo wa simu yako na tarehe kamili ambayo picha ilipigwa. Vile vile, hati ya PDF iliyotumwa bila kujulikana inaweza kuwa na jina lako kamili katika sifa zake.
-
-
 
 Ndiyo maana baadhi ya majukwaa ya uchapishaji na mawasiliano ya midia huondoa kiotomatiki metadata kutoka kwa picha zako. Hizi ni pamoja na X (Twitter), Instagram, Signal na Session. Kwa upande mwingine, majukwaa mengine hayaondoi metadata hata kidogo: hivi ndivyo ilivyo kwa mabaraza mengi ya mtandaoni, wateja wengi wa barua pepe, au hata unapochapisha moja kwa moja kwenye tovuti.
 
-
-
 Ni jambo muhimu la kuzingatia: pindi tu faili inapoondoka kwenye nyanja yako ya faragha, unahitaji kufikiria kuhusu kusafisha metadata yake ili kuepuka kufichua taarifa nyeti au za kibinafsi bila wewe kujua. Hebu tuangalie jinsi ya kufanya hivyo, kulingana na mfumo wako wa uendeshaji.
-
-
 
 ### Kwenye Linux (Debian)
 
-
-
 #### Kutumia ExifTool
-
-
 
 Njia kamili na ya kuaminika zaidi ya kudhibiti na kufuta metadata ni ExifTool, iliyotengenezwa na Phil Harvey. Inaoana na idadi kubwa ya umbizo la faili (JPG, PNG, PDF, MP3, DOCX...) na huwezesha kuonyesha na kuondolewa kwa metadata.
 
-
-
-
-
 - Hatua ya 1: Sakinisha ExifTool
 
-
-
 Ili kuiweka kwenye usambazaji wa Debian (Ubuntu), fungua terminal na uandike amri:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Kifurushi hiki husakinisha `exiftool`, ambayo unaweza kutumia moja kwa moja kutoka kwa safu ya amri.
 
@@ -8611,34 +8550,26 @@ Zana hizi hufanya kama seva ndogo ya DNS ndani ya mtandao wako, ikizuia maombi k
 
 ### Salama ufikiaji wa mbali kupitia VPN
 
-
 Katika baadhi ya matukio, ni muhimu kuwa na uwezo wa kufikia mtandao wako wa nyumbani wakati uko kwenye harakati: Rejelea faili kwenye NAS, tumia nodi ya Bitcoin na Umeme, fikia seva inayojipangisha yenyewe, au simamia mtandao wako. Hata hivyo, muunganisho huu wa mbali lazima uwe salama.
-
 
 Kidokezo cha kwanza ni kutowahi kufungua mlango wa moja kwa moja kwenye kipanga njia chako ili kufikia kifaa (k.m. kupitia RDP, SSH au FTP), kwa kuwa hii inafichua huduma hiyo kwenye Mtandao mzima, ambayo ni hatari. Mashambulizi ya kiotomatiki yanayolenga bandari zilizo wazi ni mengi.
 
-
 Suluhisho ninalopendekeza ni kutumia VPN (*Virtual Private Network*), yaani, njia iliyosimbwa kwa njia fiche kati ya kifaa chako cha mbali (kompyuta, simu mahiri, n.k.) na mtandao wako wa karibu. Baada ya kuunganishwa kwenye VPN, unaweza kufikia rasilimali za nyumba yako kana kwamba uko hapo kimwili, na kwa njia salama.
 
-
 Suluhisho kuu mbili kwa wateja wa kibinafsi ni:
-
-
 
 - WireGuard: Kisasa, haraka na nyepesi
 - OpenVPN: Kongwe, lakini imekomaa sana na inaweza kusanidiwa
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Hapa kuna mafunzo kamili juu ya Tailscale, suluhisho la VPN ambalo ni rahisi kusanidi linalotumia WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Unaweza kupangisha VPN hii moja kwa moja kwenye kipanga njia kinachooana, kwenye kompyuta ndogo (kama vile Raspberry Pi) au kwenye seva maalum nyumbani. Unaweza pia kusakinisha kama mteja moja kwa moja kwenye kifaa chochote.
 
-
 Lakini VPN sio tu kwa ufikiaji wa mbali. Unaweza pia kutumia mteja wa kawaida wa VPN kwenye vifaa vyako kusimba kwa njia fiche trafiki yako yote unayotuma, hata ukiwa mbali na nyumbani (Wi-Fi ya umma, hoteli, chuo kikuu, n.k.). Katika hali hii, kifaa chako huunganishwa na seva ya VPN ya mtu wa tatu (ya kibiashara au inayojisimamia), ambayo kisha hutuma miunganisho yako kwenye Mtandao. Hii huficha IP yako halisi ya Address kutoka kwa ISP, hulinda data yako dhidi ya upelelezi wa ndani na kuepuka aina fulani za udhibiti.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Hatimaye, inawezekana pia kusanidi VPN moja kwa moja kwenye kipanga njia chako, kinachokuruhusu kulinda vifaa vyote nyumbani kwako bila kulazimika kusakinisha mteja wa VPN kwenye kila moja.
 
-
 ### Ufuatiliaji na utambuzi
-
 
 Baada ya mtandao wako kusanidiwa vizuri na kugawanywa, ni muhimu kwenda zaidi ya usalama wa hali ya juu. Ufuatiliaji hai wa mtandao wako wa karibu unaweza kugundua tabia isiyo ya kawaida, miunganisho isiyoidhinishwa au ishara za kuingilia. Lengo ni kugundua matatizo mapema, kabla hayajaleta madhara.
 
-
 Hatua ya kwanza ni kuweka kumbukumbu za usalama kati. Kila kifaa kilichounganishwa kwenye mtandao hutengeneza kumbukumbu zilizo na taarifa kuhusu miunganisho, hitilafu au shughuli za kutiliwa shaka. Badala ya kushauriana na kumbukumbu hizi kibinafsi, ninapendekeza kuzituma kwa seva inayoweza kuzipanga, kuzipanga na kuzichanganua. Suluhisho kama vile Graylog au Elastic Stack (ELK) hukuruhusu kujumlisha kumbukumbu hizi kwenye Interface ya picha ambapo unaweza kutafuta matukio mahususi, kuunda arifa au kuibua shughuli za mtandao.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Kisha, chunguza mtandao wako wa karibu mara kwa mara, kwa mfano na Nmap. Hii itakupa muhtasari wa vifaa vyote kwenye mtandao wako, na bandari ambazo wamefungua. Ukitambua kifaa kisichojulikana au huduma isiyo ya kawaida, hii inaweza kuwa ishara ya shambulio.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Ili kwenda mbali zaidi, unaweza kusakinisha IDS (*Mfumo wa Kugundua Uvamizi*), au hata IPS (*Mfumo wa Kuzuia Kuingilia*). Zana hizi, kama vile Suricata au Snort, hufuatilia mtiririko wa mtandao kwa wakati halisi na kugundua saini za mashambulizi yanayojulikana (skana za bandari, sindano, miunganisho ya kutiliwa shaka n.k.). IDS inaonya, wakati IPS inaweza kuzuia vitendo fulani kiotomatiki.
 
-
-
 Hatimaye, ufuatiliaji wa matumizi ya bandwidth pia ni kiashiria kizuri cha shughuli isiyo ya kawaida. Ikiwa kifaa kinatumia data nyingi ghafla bila sababu dhahiri, hii inaweza kusaliti upakuaji usioidhinishwa, uvujaji wa data, au hata kifaa kilichoathiriwa. Zana kama vile ntopng au vnStat hukuwezesha kutazama mtiririko unaoingia na kutoka kwa kifaa.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Hifadhi nakala na uthabiti
 
-
 Hata kwa mtandao salama kabisa, hitilafu za maunzi, hitilafu za usanidi au matukio yasiyotarajiwa (kushindwa kwa nguvu, kuongezeka kwa nguvu, kushindwa kwa disk ya Hard, nk) kunaweza kusababisha kupoteza data au kukatiza huduma zako. Ili kuhakikisha uendelevu wa mazingira yako ya kidijitali na kuepuka kuanza kutoka mwanzo kukitokea tatizo, ni muhimu kutekeleza mkakati wa kuhifadhi nakala na ustahimilivu.
-
 
 Anza kwa kuunga mkono mara kwa mara usanidi wa vifaa vya mtandao wako, hasa router. Faili hizi za usanidi mara nyingi zinaweza kusafirishwa kupitia usimamizi wa Interface. Kuweka nakala hukuruhusu kurejesha haraka mfumo wa kufanya kazi katika tukio la kuweka upya kifaa au uingizwaji. Ninapendekeza pia kusimba nakala hii kwa njia fiche.
 
-
 Hatimaye, ili kuboresha uthabiti wa mtandao wako iwapo nishati itakatika, wekeza kwenye UPS. Kifaa hiki hutoa nishati ya chelezo kwa dakika chache iwapo nguvu ya umeme itakatika, huku kuruhusu kuendelea kutumia Intaneti au kuhakikisha kuwa vifaa muhimu (NAS, kipanga njia, kituo cha kufikia Wi-Fi, n.k.) huzima kwa njia safi. Baadhi ya miundo pia inaweza kutuma amri ya kuzima kiotomatiki kwa vifaa vilivyounganishwa wanapotambua kuwa chaji ya betri iko chini.
-
 
 Kwa kufuata hatua hizi chache, utaunda mazingira thabiti na salama ya mtandao ambayo yanaheshimu faragha yako.
 
-
 # Sehemu ya mwisho
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Ukaguzi na Ukadiriaji
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Uchunguzi wa mwisho
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Hitimisho
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

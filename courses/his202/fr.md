@@ -684,35 +684,13 @@ Le 11 avril 2012, après une [levée de fonds](http://trilema.com/2012/sa-ne-juc
 
 Capture de MPEx, août 2012 (source : [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php))
 
-La plateforme rencontrera un succès certain \[lequel ?\]. Elle hébergera notamment l'« IPO » de SatoshiDICE. Elle évoluera avec le temps, [intégrant](http://trilema.com/2012/futures-on-mpex/) les contrats à terme en décembre.
+La plateforme rencontrera un succès certain \[lequel ?\]. Elle hébergera notamment l'« IPO » de SatoshiDICE \[dire ce que c'est\]. Elle évoluera avec le temps, [intégrant](http://trilema.com/2012/futures-on-mpex/) les contrats à terme en décembre.
 
-### Le poker et le jeu d'argent en ligne
 
-Enfin, l'un des derniers domaines qui se développe dans l'économie de Bitcoin au cours de cette période de baisse du prix est le jeu d'argent en ligne, et en particulier le poker. L'année 2011 est en effet marquée par un mouvement de répression contre le poker en ligne. Le 15 avril a lieu un évènement qui sera surnommé le « vendredi noir » (original: "Black Friday") par les joueurs de poker : les sites de PokerStars, Full Tilt Poker et Absolute Poker (les trois principales plateformes aux États-Unis) sont fermés par le FBI. Les plateformes sont accusés de contourner l'*Unlawful Internet Gambling Enforcement Act*, qui interdit aux banques d'autoriser des virements vers les plateformes de jeu d'argent en ligne. Pour ce faire, elles se [font](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf) passer pour des commerçants qui vendent « des marchandises telles que des bijoux et des balles de golf » (original: "merchandise such as jewelry and golf balls") aux joueurs, afin de ne pas attirer les soucis de leurs banques. Cette fermeture est désastreuse pour le milieu du poker, qui régresse de plusieurs années en ce qui concerne l'activité en ligne.
-
-Bitcoin convient parfaitement. Le jeu d'argent est l'une des possibilités envisagées par Satoshi, lorsqu'il a intégré des fonctions pour une éventuelle application de poker dans la version 0.1 du code du logiciel \[voir HIS201, ch4\]. Bitcoin permet de [résoudre](https://web.archive.org/web/20110429052748/http://bitcoinweekly.com/articles/bitcoin-poker) le problème « en réduisant les risques de rétrofacturation et en limitant la capacité des États à bloquer les paiements ». (original: "Bitcoin seems to resolve many of those issues by reducing the issue of chargebacks and reducing the ability of governments to shut down payments.")
-
-Une plateforme de poker en ligne en bitcoins existe déjà : il s'agit de Betco.in, [lancée](https://bitcointalk.org/index.php?topic=840.msg9795#msg9795) en août 2010 par Pavel Karoukin, un développeur biélorusse alors installé aux États-Unis et utilisant le pseudonyme Hippich. L'interface est rudimentaire, mais fonctionnelle.
-
-![Capture du client de Seals with Clubs en 2013](assets/en/betcoin-screenshot-20110623.webp)
-
-Capture du client de Betco.in en 2011 (source : [Hippich](https://www.youtube.com/watch?v=N6SjCgOY61E) sur Youtube)
-
-En 2011, avec le « vendredi noir », les plateformes se multiplient : Moonco.in [ouvre](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530) en juin (mais dérive rapidement vers un site de paris et est piratée en septembre) et BTC on Tilt [se lance](https://web.archive.org/web/20110722145251/http://btcontilt.com/nice-start) en juillet.
-
-La plateforme la plus emblématique [ouvre ses portes](https://web.archive.org/web/20111128155416/https://bitcointalk.org/index.php?topic=40077.0) à la fin du mois d'août. Il s'agit de Seals With Clubs (littéralement « phoques avec des trèfles »). Elle est lancée par un développeur anonyme, FreeMoney, qui a découvert Bitcoin lors du slashdotting de juillet 2010.
-
-![Capture du client de Seals with Clubs en 2013](assets/en/sealswithclubs-table-2013-thepokerbank.webp)
-
-Capture du client de Seals with Clubs en 2013 (source : [ThePokerBank.com](https://www.thepokerbank.com/rooms/sealswithclubs/))
-
-La plateforme reçoit en particulier le soutien du joueur professionnel Bryan Micon qui a découvert Bitcoin en juin et qui [déclare](https://bitcointalk.org/index.php?topic=11941.msg167263#msg167263) être « totalement fasciné par les bitcoins » (original: "totally enthralled with bitcoins"). Celui-ci [accompagne](https://bitcointalk.org/index.php?topic=40077.msg704795#msg704795) le développement à partir de janvier 2012. En mars, il [met en avant](https://web.archive.org/web/20120308103542/https://www.youtube.com/watch?v=QXNb9h12AE8) Seals with Clubs sur sa chaine Youtube. La plateforme sera exposée aux joueurs normaux, puisqu'elle sera [évoquée](https://forumserver.twoplustwo.com/28/discussion-poker-sites/seals-clubs-closed-see-new-swcpoker-thread-1248197/) en septembre 2012 sur le forum de TwoPlusTwo, l'un des forums les plus populaires pour les discussions relatives au poker.
-
-En dehors du poker, le jeu d'argent avec Bitcoin se développe aussi énormément de manière générale. Les casinos virtuels se multiplient, à tel point qu'un sous-forum consacé au domaine est obligé d'[ouvrir](https://bitcointalk.org/index.php?topic=39621.msg483368#msg483368) sur Bitcointalk en août. Une page de recensement (betwithbtc.com) est [créée](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768) par le tradeur GoWest en septembre. Outre le poker, il y a du blackjack, de la roulette, des machines à sous, de la loterie, des paris sportifs et d'autres jeux originaux.
 
 ### Une phase de construction
 
-L'éclatement de la grande bulle de 2011 à la fin de l'été a été un moment difficile pour la communauté de Bitcoin. Le prix en dollars a en effet connu une baisse de plus de 90 % par rapport à son sommet de juin. Toutefois, la période a été proprice à la construction. C'est ainsi que l'on a vu fleurir une multitude de services financiers qui ont contribué au succès ultérieur de Bitcoin. ... BitInstant, Bitcoinica, GLBSE et MPEx, Seals with Clubs ...
+L'éclatement de la grande bulle de 2011 à la fin de l'été a été un moment difficile pour la communauté de Bitcoin. Le prix en dollars a en effet connu une baisse de plus de 90 % par rapport à son sommet de juin. Toutefois, la période a été proprice à la construction. C'est ainsi que l'on a vu fleurir une multitude de services financiers qui ont contribué au succès ultérieur de Bitcoin : BitInstant, Bitcoinica, GLBSE et MPEx.
 
 Cette construction s'est accompagnée en parallèle d'une amélioration de l'utilisation de Bitcoin, qui s'est faite par le développement des portefeuilles. C'est l'objet du prochain chapitre.
 
@@ -1563,7 +1541,31 @@ BitcoinStore.com, Roger Ver, [3/11/2012](https://bitcointalk.org/index.php?topic
 
 ## La monnaie du vice et du crime : jeu d'argent, arnaques et piratages
 
-Bitcoin est une monnaie ne nécessitant
+Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est pourquoi elle va nécessairement etre utilisée pour le vice (moralement voire légalement réprouvé) et pour le crime.
+
+### Le poker et le jeu d'argent en ligne
+
+Enfin, l'un des derniers domaines qui se développe dans l'économie de Bitcoin au cours de cette période de baisse du prix est le jeu d'argent en ligne, et en particulier le poker. L'année 2011 est en effet marquée par un mouvement de répression contre le poker en ligne. Le 15 avril a lieu un évènement qui sera surnommé le « vendredi noir » (original: "Black Friday") par les joueurs de poker : les sites de PokerStars, Full Tilt Poker et Absolute Poker (les trois principales plateformes aux États-Unis) sont fermés par le FBI. Les plateformes sont accusés de contourner l'*Unlawful Internet Gambling Enforcement Act*, qui interdit aux banques d'autoriser des virements vers les plateformes de jeu d'argent en ligne. Pour ce faire, elles se [font](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf) passer pour des commerçants qui vendent « des marchandises telles que des bijoux et des balles de golf » (original: "merchandise such as jewelry and golf balls") aux joueurs, afin de ne pas attirer les soucis de leurs banques. Cette fermeture est désastreuse pour le milieu du poker, qui régresse de plusieurs années en ce qui concerne l'activité en ligne.
+
+Bitcoin convient parfaitement. Le jeu d'argent est l'une des possibilités envisagées par Satoshi, lorsqu'il a intégré des fonctions pour une éventuelle application de poker dans la version 0.1 du code du logiciel \[voir HIS201, ch4\]. Bitcoin permet de [résoudre](https://web.archive.org/web/20110429052748/http://bitcoinweekly.com/articles/bitcoin-poker) le problème « en réduisant les risques de rétrofacturation et en limitant la capacité des États à bloquer les paiements ». (original: "Bitcoin seems to resolve many of those issues by reducing the issue of chargebacks and reducing the ability of governments to shut down payments.")
+
+Une plateforme de poker en ligne en bitcoins existe déjà : il s'agit de Betco.in, [lancée](https://bitcointalk.org/index.php?topic=840.msg9795#msg9795) en août 2010 par Pavel Karoukin, un développeur biélorusse alors installé aux États-Unis et utilisant le pseudonyme Hippich. L'interface est rudimentaire, mais fonctionnelle.
+
+![Capture du client de Seals with Clubs en 2013](assets/en/betcoin-screenshot-20110623.webp)
+
+Capture du client de Betco.in en 2011 (source : [Hippich](https://www.youtube.com/watch?v=N6SjCgOY61E) sur Youtube)
+
+En 2011, avec le « vendredi noir », les plateformes se multiplient : Moonco.in [ouvre](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530) en juin (mais dérive rapidement vers un site de paris et est piratée en septembre) et BTC on Tilt [se lance](https://web.archive.org/web/20110722145251/http://btcontilt.com/nice-start) en juillet.
+
+La plateforme la plus emblématique [ouvre ses portes](https://web.archive.org/web/20111128155416/https://bitcointalk.org/index.php?topic=40077.0) à la fin du mois d'août. Il s'agit de Seals With Clubs (littéralement « phoques avec des trèfles »). Elle est lancée par un développeur anonyme, FreeMoney, qui a découvert Bitcoin lors du slashdotting de juillet 2010.
+
+![Capture du client de Seals with Clubs en 2013](assets/en/sealswithclubs-table-2013-thepokerbank.webp)
+
+Capture du client de Seals with Clubs en 2013 (source : [ThePokerBank.com](https://www.thepokerbank.com/rooms/sealswithclubs/))
+
+La plateforme reçoit en particulier le soutien du joueur professionnel Bryan Micon qui a découvert Bitcoin en juin et qui [déclare](https://bitcointalk.org/index.php?topic=11941.msg167263#msg167263) être « totalement fasciné par les bitcoins » (original: "totally enthralled with bitcoins"). Celui-ci [accompagne](https://bitcointalk.org/index.php?topic=40077.msg704795#msg704795) le développement à partir de janvier 2012. En mars, il [met en avant](https://web.archive.org/web/20120308103542/https://www.youtube.com/watch?v=QXNb9h12AE8) Seals with Clubs sur sa chaine Youtube. La plateforme sera exposée aux joueurs normaux, puisqu'elle sera [évoquée](https://forumserver.twoplustwo.com/28/discussion-poker-sites/seals-clubs-closed-see-new-swcpoker-thread-1248197/) en septembre 2012 sur le forum de TwoPlusTwo, l'un des forums les plus populaires pour les discussions relatives au poker.
+
+En dehors du poker, le jeu d'argent avec Bitcoin se développe aussi énormément de manière générale. Les casinos virtuels se multiplient, à tel point qu'un sous-forum consacé au domaine est obligé d'[ouvrir](https://bitcointalk.org/index.php?topic=39621.msg483368#msg483368) sur Bitcointalk en août. Une page de recensement (betwithbtc.com) est [créée](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768) par le tradeur GoWest en septembre. Outre le poker, il y a du blackjack, de la roulette, des machines à sous, de la loterie, des paris sportifs et d'autres jeux originaux.
 
 ### SatoshiDICE
 
@@ -1573,7 +1575,7 @@ EDB: Le 24 avril 2012, un jeu de hasard en ligne nommé SatoshiDICE est lancé p
 
 En tant que libertarien convaincu vivant dans le New Hampshire, Erik Voorhees voit en SatoshiDICE une manière d'échapper à la réglementation. Le 20 août, il réalise même une IPO pour son entreprise sur la plateforme roumaine MPEx. Il revendra la plateforme le 17 juillet 2013 pour 126 315 bitcoins, soit 12,4 millions de dollars au moment de l'acquisition.
 
-Le succès de SatoshiDICE provoque une augmentation significative du nombre de transactions sur la chaîne, qui triple en quelques mois. Cette activité provenant du site est remarquée et dérange certains développeurs qui la qualifient de « spam ».
+Le succès de SatoshiDICE provoque une augmentation significative du nombre de transactions sur la chaîne, qui triple en quelques mois. Cette activité provenant du site est remarquée et dérange certains développeurs qui la qualifient de « spam ».
 
 SatoshiDICE, 20 août 2012 : IPO sur MPEx : https://web.archive.org/web/20121024050433/https://bitcointalk.org/index.php?topic=101902.0
 
@@ -1607,7 +1609,6 @@ Nicolas Fischer, Bitcoin Gone Wild, [4/4/2012](https://bitcoinmagazine.com/cultu
 
 ### La chute de Bitcoinica
 
-
 Bitcoinica perd 43 000 bitcoins dans le piratage de Linode (1/3/2012) https://bitcoinmagazine.com/business/the-bitcoinica-linode-theft-and-what-it-means-for-bitcoin-1330805009
 
 **Chute de Bitcoinica** 24 avril 2012, "Bitcoinica joins forces with Bitcoin Consultancy" : https://bitcointalk.org/index.php?topic=77958.msg867160#msg867160
@@ -1621,7 +1622,6 @@ Poursuites contre Zhou Tong et Amir Taaki https://www.theverge.com/2012/8/10/323
 "Bitcoinica was hacked, tens of thousands of Bitcoin were stolen, including over 25,000 of my own. While an offer was on the table to buy the entire company, and make every single user 100% whole again, without permission, Amir released the source code publicly, destroying any chance for the company to be sold, and the users to be made whole again. In short, Amir has a long history of irresponsible behavior in the Bitcoin space and we should be very wary of having him be entrusted with any responsibility at all." [Roger Ver, 2016](https://web.archive.org/web/20201109031604/http://forum.bitcoin.com/bitcoin-discussion/amir-taaki-and-the-segway-in-austria-t7749.html)
 
 JDC: Après sa chute, Bitcoinica a été remplacée par d'autres plateformes de trading sur marge comme Kronos.io, et surtout par Bitfinex qui a été lancée le 22 octobre 2012. Quant à Zhou Tong, il a continué son bout de chemin en co-fondant CoinJar en 2013 avec Asher Tan, entreprise où il travaille toujours.
-
 
 TheEndOfMoney interview: Ryan Zhou about Bitcoinica, CoinJar, Ethereum : https://www.youtube.com/watch?v=-L-FHB_-qT4
 

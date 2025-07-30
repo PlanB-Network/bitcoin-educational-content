@@ -1,7 +1,7 @@
 ---
-İsim: İlk bitcoin sat'larınızı nasil alırsınız?
-Amaç: İlk bitcoin sat'larınızı almak ve güvenli bir şekilde saklamak için yapmanız gerekenleri anlatmak
-Hedefler: 
+name: İlk bitcoin sat'larınızı nasil alırsınız?
+goal: İlk bitcoin sat'larınızı almak ve güvenli bir şekilde saklamak için yapmanız gerekenleri anlatmak
+objectives: 
 
   - Çevrimiçi güvenliğinizi artırın
   - Bitcoin ile ilgili temel kavramları anlayın

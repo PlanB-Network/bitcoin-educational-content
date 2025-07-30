@@ -37,7 +37,7 @@ Dapatkan Electrum dari https://electrum.org/.
 
 Klik tab Unduh di bagian atas.
 
-Klik tautan unduhan yang sesuai dengan komputer kamu. Kalau kamu pakai Linux atau Mac, kamu bisa menggunakan versi Python (ditandai dengan lingkaran merah). Untuk pengguna Linux dengan chip Intel atau AMD, kamu juga bisa pilih AppImage (lingkaran hijau), yang fungsinya mirip seperti file eksekusi di Windows. Kalau kamu pakai Raspberry Pi, karena prosesornya ARM, kamu hanya bisa menggunakan versi Python (lingkaran merah), meskipun sistem operasinya juga Linux. Sementara itu, lingkaran biru ditujukan untuk pengguna Windows, dan lingkaran hitam untuk pengguna Mac.
+Klik tautan unduhan yang sesuai dengan komputer kamu. Kalau kamu pakai Linux atau Mac, kamu bisa menggunakan versi Python (ditandai dengan lingkaran merah). Untuk pengguna Linux yang memiliki komputer dengan chip Intel atau AMD, kamu juga bisa pilih AppImage (lingkaran hijau), yang fungsinya mirip seperti file eksekusi di Windows. Kalau kamu pakai Raspberry Pi, karena prosesornya ARM, kamu hanya bisa menggunakan versi Python (lingkaran merah), meskipun sistem operasinya juga Linux. Sementara itu, lingkaran biru ditujukan untuk pengguna Windows, dan lingkaran hitam untuk pengguna Mac.
 
 ![image](assets/1.webp)
 

@@ -535,9 +535,8 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
- - **Liquid Network** :
- 
-	 - **[Glossaire](https://planb.network/resources/glossary/liquid-network)**
+- **Liquid Network** :
+	- **[Glossaire](https://planb.network/resources/glossary/liquid-network)**
 
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727

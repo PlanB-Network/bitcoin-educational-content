@@ -40,7 +40,7 @@ Pelatihan ini adalah hasil kolaborasi dari tiga profesor kami:
 
 - Renaud Lifchitz, ahli keamanan siber
 - Théo Pantamis, PhD dalam matematika terapan
-- Rogzy, CEO DécouvreBitcoin.
+- Rogzy, Co-founder dari Plan ₿ Network.
 
 Kewaspadaan digital Anda sangat penting di dunia yang semakin digital. Meskipun ada peningkatan konstan dalam peretasan dan pengawasan massal, belum terlambat untuk mengambil langkah pertama dan melindungi diri Anda. 
 Dalam pelatihan ini, kami tidak mencoba menjadikan Anda seorang ahli, anonim sepenuhnya, atau kebal terhadap ancaman digital, karena ini mustahil. Sebaliknya, kami menawarkan beberapa solusi sederhana dan mudah diakses untuk semua orang untuk mulai mengubah kebiasaan online Anda dan mendapatkan kembali kendali atas privasi digital Anda. 
@@ -99,7 +99,7 @@ Sangat disarankan juga untuk memprioritaskan perangkat lunak sumber terbuka (ope
 
 Perangkat lunak "*open-source*" itu adalah jenis perangkat lunak yang kode programnya tersedia dan bisa diakses oleh siapa saja secara publik. Ini memungkinkan, orang-orang lain untuk memverifikasi bahwa tidak ada akses tersembunyi yang bertujuan mencuri data Anda.
 
-> Bonus: Mayoritas perangkat lunak *open-source* seringkali bersifat gratis! Kode pada pembelajaran di universitas ini juga  100% *open source*, jadi Anda juga dapat memeriksa kode kami di Github kami.
+> Bonus: Mayoritas perangkat lunak *open-source* seringkali bersifat gratis! Kode pada pembelajaran di universitas ini juga  100% *open source*, jadi Anda juga dapat memeriksa kode kami di GitHub kami.
 > ![](assets/notext/5.webp)
 
 ### Pengelolaan *Cookie*: Kesalahan dan solusi praktis terbaik

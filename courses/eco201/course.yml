@@ -118,6 +118,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 38.13
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.52
 tags:
   - finance
   - market-trends

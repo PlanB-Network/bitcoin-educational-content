@@ -4,18 +4,18 @@ name: Scaling Bitcoin 2015
 builder: Scaling Bitcoin
 location: Hong Kong
 language:
-- en
+  - en
 links:
   twitter: https://x.com/ScalingBitcoin
   website: https://scalingbitcoin.org/
 tags:
-- adoption
+  - adoption
 #proofreading_metadata
 original_language: en
 proofreading:
-- language: en
-  last_contribution_date: '2025-06-19'
-  urgency: 0
-  contributors_id:
-  - jramos0
-  reward: 0
+  - language: en
+    last_contribution_date: '2025-06-19'
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

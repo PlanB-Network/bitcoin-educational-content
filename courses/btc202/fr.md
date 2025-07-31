@@ -284,12 +284,79 @@ Présentation des options matérielles adaptées : ordinateurs classiques, mini-
 ## Umbrel : un nœud Bitcoin plug-and-play
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
-Introduction à Umbrel comme solution accessible et tout-en-un pour les débutants. Umbrel home + Umbrel OS. Cas d'usages.
+Introduction à Umbrel comme solution accessible et tout-en-un pour les débutants. Umbrel home + UmbrelOS. Cas d'usages.
 
 ## Installation d’un nœud complet avec Umbrel
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
 
-Tutoriel pas à pas pour installer Umbrel sur un barbone. Téléchargement, configuration initiale + IBD.
+
+Maintenant que nous disposons de toutes les informations nécessaires, il est temps de passer à la pratique. Dans ce tutoriel, nous allons découvrir comment installer un nœud complet Bitcoin à l’aide d’UmbrelOS.
+
+### Matériel nécessaire
+
+Dans ce tutoriel, nous allons utiliser l’image UmbrelOS x86, plus précisément la version x86_64. Vous pourrez donc suivre ce guide quelle que soit la machine choisie, à condition qu’elle ne soit pas équipée d’un processeur à architecture ARM (Apple Silicon, Raspberry Pi, etc.). Cela signifie que tout ordinateur doté d’un processeur Intel ou AMD 64 bits conviendra, sous réserve de répondre aux exigences minimales selon l’usage que vous envisagez pour votre instance Umbrel (au moins dual-core, quad-core recommandé).
+
+Si vous avez opté pour un Raspberry Pi 5 (option que je déconseille, comme évoqué dans la partie précédente), l’installation diffère légèrement. Vous pouvez alors suivre ce tutoriel dédié et revenir à mon cours une fois sur l’interface web `http://umbrel.local` :
+
+https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+
+Pour ma part, j’ai choisi de réaliser ce tutoriel sur un petit PC reconditionné que j'ai trouvé à un prix intéressant : un Lenovo ThinkCentre M900 Tiny équipé d’un processeur Intel Core i7 et de 16 Go de RAM. C’est une configuration très confortable pour exécuter Umbrel, surtout pour un nœud Bitcoin. Mais j'ai choisi cette configuration, car par la suite, je souhaite installer un nœud Lightning et diverses applications plus exigeantes. J’ai également ajouté un SSD de 2 To à mon ThinkCentre pour conserver l’intégralité de la blockchain tout en disposant d’une marge confortable. Avec cette configuration, le coût total s’élève à 270 € tout compris.
+
+001
+
+J’apprécie particulièrement la gamme ThinkCentre Tiny de Lenovo, car il s’agit de machines compactes, silencieuses et très robustes. Ces ordinateurs sont très répandus dans les entreprises, et abondent donc sur le marché de l’occasion, ce qui permet de trouver des configurations intéressantes entre 70 € et 200 €.
+
+Si, comme moi, vous avez opté pour un PC dépourvu d’écran, **vous devrez connecter un écran et un clavier** uniquement le temps de l’installation. Par la suite, il sera possible d’y accéder à distance depuis un autre ordinateur sur le même réseau (ou via d’autres méthodes que nous aborderons dans les prochains chapitres). Prévoyez également un câble Ethernet RJ45 pour connecter votre machine au réseau local, ainsi qu’une clé USB d’au moins 4 Go pour y graver l’image d’installation.
+
+Pour récapituler, voici les besoins en matériel :
+- Ordinateur avec processeur x86_64 (minimum Dual-core, recommandé Quad-core) ;
+- Mémoire RAM (4 Go minimum, 8 Go recommandé ou encore plus si usage étendu) ;
+- Un SSD (recommandé + 2 To) ;
+- Clé USB (+ 4 Go) pour l'installation de l’image UmbrelOS ;
+- Écran et clavier (utiles uniquement pour l'installation initiale si le PC n'en est pas équipé) ;
+- Câble Ethernet RJ45.
+
+### Étape 1 - Monter l'ordinateur
+
+Selon le matériel que vous avez choisi, la première étape consiste à assembler les différents composants de votre ordinateur. Par exemple, dans mon cas, le SSD installé d’origine n’offrait qu’une capacité de 256 Go : je vais donc le recycler pour un autre usage et le remplacer par un SSD de 2 To. Si vous souhaitez également remplacer les barrettes de RAM, c’est le moment de le faire.
+
+### Étape 2 : Préparer une clé USB bootable
+
+Avant d’installer UmbrelOS sur votre machine, il vous faudra créer une clé USB bootable contenant le système d’exploitation. Toutes les manipulations de cette étape 2 doivent être effectuées sur votre ordinateur personnel (et non directement sur l’ordinateur destiné à devenir votre nœud).
+
+- Commencez par télécharger la version la plus récente d’UmbrelOS au format USB :
+
+Rendez-vous sur [le site officiel d’Umbrel pour télécharger l’image ISO](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) destinée à l’installation via une clé USB. Assurez-vous de choisir la version compatible avec l’architecture x86_64 (fichier intitulé `umbrelos-amd64-usb-installer.iso`). Le téléchargement peut être relativement long, puisque l’image est volumineuse.
+
+002
+
+- Installez Balena Etcher :
+
+Pour créer la clé USB bootable, vous allez utiliser un outil simple et multiplateforme appelé [Balena Etcher](https://www.balena.io/etcher/). Téléchargez-le et installez-le sur votre ordinateur.
+
+003
+
+- Insérez une clé USB vierge d’au moins 4 Go :
+
+Branchez une clé USB dans votre ordinateur (celui sur lequel vous venez de télécharger l'image d'UmbrelOS et Balena Etcher). **Attention : toutes les données présentes sur la clé seront effacées**. Vérifiez donc qu’elle ne contient aucun fichier important.
+
+- Gravez l’image ISO sur la clé USB avec Balena Etcher :
+
+Lancez Balena Etcher et sélectionnez le fichier ISO `umbrelos-amd64-usb-installer.iso` que vous venez de télécharger en cliquant sur le bouton "*Flash from file*". Puis, sélectionnez la clé USB comme périphérique cible et cliquez sur "*Flash!*" pour lancer l’écriture.
+
+004
+
+Une fois l’opération terminée, vous disposerez d’une clé USB bootable contenant UmbrelOS, prête à être utilisée pour démarrer et installer Umbrel sur votre machine.
+
+005
+
+
+
+
+
+
+
+
 
 ## Tour d’horizon des applications disponibles
 <chapterId>2a5ccfbe-0b17-44c9-863c-b7e8cb4b4594</chapterId>

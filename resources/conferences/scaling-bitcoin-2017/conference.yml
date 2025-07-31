@@ -4,19 +4,19 @@ name: Scaling BItcoin 2017
 builder: Scaling Bitcoin
 location: Stanford, California, USA
 language:
-- en
+  - en
 links:
   website: https://scalingbitcoin.org/
 tags:
-- development
-- consensus
-- adoption
+  - development
+  - consensus
+  - adoption
 #proofreading_metadata
 original_language: en
 proofreading:
-- language: en
-  last_contribution_date: '2025-06-19'
-  urgency: 0
-  contributors_id:
-  - jramos0
-  reward: 0
+  - language: en
+    last_contribution_date: '2025-06-19'
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

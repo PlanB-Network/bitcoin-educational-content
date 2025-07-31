@@ -10,7 +10,7 @@ description: Jinsi ya kusanidi BitAxe?
 BitAxe ni mradi wa programu huria ulioundwa na Skot na [unapatikana kwenye GitHub](https://github.com/skot/bitaxe) unaoruhusu majaribio ya gharama nafuu ya Mining.
 
 
-Imebadilisha utendakazi wa Antminer S19 maarufu na Bitmain, kiongozi wa soko katika ASICs, mashine maalum za Bitcoin Mining. Sasa, inawezekana kutumia chip hizi zenye nguvu katika miradi mipya ya chanzo huria. Tofauti na Nerdminer, BitAxe ina uwezo wa kutosha wa kompyuta kuunganishwa na Mining pool, ambayo itawawezesha kupata mara kwa mara baadhi ya satoshi. Nerdminer, kwa upande mwingine, inaweza tu kuunganishwa kwa kile kinachoitwa solopool, ambayo hufanya kazi kama tikiti ya bahati nasibu: una nafasi ndogo ya kushinda Block reward kamili.
+Imebadilisha utendakazi wa Antminer S19 maarufu na Bitmain, kiongozi wa soko katika ASICs, mashine maalum za uchimbaji wa Bitcoin. Sasa, inawezekana kutumia chip hizi zenye nguvu katika miradi mipya ya chanzo huria. Tofauti na Nerdminer, BitAxe ina uwezo wa kutosha wa kompyuta kuunganishwa na Mining pool, ambayo itawawezesha kupata mara kwa mara baadhi ya satoshi. Nerdminer, kwa upande mwingine, inaweza tu kuunganishwa kwa kile kinachoitwa solopool, ambayo hufanya kazi kama tikiti ya bahati nasibu: una nafasi ndogo ya kushinda Block reward kamili.
 
 
 Kuna matoleo kadhaa ya BitAxe, yenye chips tofauti na maonyesho:

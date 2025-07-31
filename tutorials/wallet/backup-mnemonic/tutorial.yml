@@ -113,6 +113,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.54
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.85
 tags:
   - keys
   - backup

@@ -1,0 +1,9 @@
+question: Vilken organisation grundades 1998 för att främja termen "öppen källkod"?
+answer: Initiativ för öppen källkod (OSI)
+wrong_answers:
+  - Stiftelsen för fri programvara (FSF)
+  - Debian-projektet
+  - Mozilla-stiftelsen
+explanation: |
+  OSI skapades för att betona den pragmatiska, tekniska aspekten av kodöppenhet, till skillnad från filosofin om fri programvara.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja open source VPN aplikacija omogućava anonimno kreiranje naloga bez email-a i prihvata Bitcoin uplate?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN se izdvaja po potpuno anonimnom kreiranju naloga, bez potrebe za emailom ili lozinkom, i prihvata plaćanje u Bitcoin ili gotovini.
+reviewed: false

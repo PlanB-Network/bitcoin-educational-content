@@ -1,0 +1,9 @@
+question: Que práticas são essenciais para limitar a exposição dos seus dados quando navega na Internet?
+answer: Eliminar cookies regularmente
+wrong_answers:
+  - Guardar todos os cookies
+  - Desativar o modo privado do browser
+  - Utilizar um browser obsoleto
+explanation: |
+  A eliminação ou limitação dos cookies reduz o rastreio de publicidade e preserva a privacidade durante a navegação na Web.
+reviewed: false

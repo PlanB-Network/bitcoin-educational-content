@@ -1,0 +1,9 @@
+question: Millised on kõige olulisemad kriteeriumid, mida enne sõnumirakenduse valimist kontrollida?
+answer: Lõppkrüpteerimine ja avatud lähtekood
+wrong_answers:
+  - Tugev autentimine ja avatud lähtekood
+  - Lõppkrüpteerimine ja detsentraliseeritud serverid
+  - Tugev autentimine ja detsentraliseeritud serverid
+explanation: |
+  Lõppkrüpteerimine tagab teabevahetuse konfidentsiaalsuse ja avatud lähtekood võimaldab kontrollida selle turvalisuse õiget rakendamist.
+reviewed: false

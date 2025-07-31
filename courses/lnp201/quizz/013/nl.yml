@@ -1,0 +1,9 @@
+question: Wat gebeurt er als Alice niet de handtekening van Bob krijgt voor de opnametransactie?
+answer: Ze loopt het risico de toegang te verliezen tot haar tegoeden die zijn gestort in de Address met meerdere handtekeningen
+wrong_answers:
+  - Ze kan niet langer communiceren met Bob op Lightning Network
+  - Het kanaal opent met beperkte capaciteit
+  - Bob ontvangt automatisch de fondsen in het kanaal
+explanation: |
+  Zonder de handtekening van Bob op de opnametransactie kan Alice niet garanderen dat haar geld wordt teruggevorderd in geval van een probleem, wat een risico op verlies inhoudt.
+reviewed: false

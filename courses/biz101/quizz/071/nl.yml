@@ -1,0 +1,9 @@
+question: Welke rol speelt een LSP in Bitcoin-betalingen voor ondernemingen?
+answer: Beheer grote volumes transacties op Lightning
+wrong_answers:
+  - Privé sleutels van de Lightning Wallet opslaan
+  - Lightning-facturen afdrukken
+  - Verwerk terugbetalingen handmatig op Lightning
+explanation: |
+  LSP's verwerken complexe en volumineuze operaties op Lightning.
+reviewed: false

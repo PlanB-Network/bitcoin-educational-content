@@ -1,0 +1,9 @@
+question: Wat is de definitie van een willekeurige variabele in de context van cryptografie?
+answer: Een variabele die verschillende mogelijke waarden kan aannemen met een positieve waarschijnlijkheid
+wrong_answers:
+  - Een variabele die op elk moment van waarde verandert
+  - Een variabele waarvan de waarden vast en vooraf gedefinieerd zijn
+  - Een variabele die altijd wordt gedefinieerd in de context van een specifiek fysisch experiment
+explanation: |
+  Een willekeurige variabele kan twee of meer waarden aannemen, elk met een positieve waarschijnlijkheid, en wordt vaak abstract gedefinieerd in de context van cryptografie.
+reviewed: false

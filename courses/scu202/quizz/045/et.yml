@@ -1,0 +1,9 @@
+question: Milline macOS-i tööriist võimaldab süsteemi ketta täielikku krüpteerimist?
+answer: FileVault
+wrong_answers:
+  - Disk Utility
+  - iCloudi võtmehoidja
+  - BitLocker
+explanation: |
+  FileVault on macOS-i integreeritud originaalne ketta krüpteerimise lahendus.
+reviewed: false

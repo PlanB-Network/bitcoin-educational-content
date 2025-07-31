@@ -1,0 +1,9 @@
+question: GNOME 和 Xfce 使用哪个图形工具包？
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - 图案
+explanation: |
+  GNOME、Xfce、Cinnamon 和 MATE 都基于 GTK，这是一个专门用于 Linux 下图形用户界面的软件库。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que versão do Ubuntu é recomendada para principiantes pela sua estabilidade e duração do suporte?
+answer: LTS (Apoio a longo prazo)
+wrong_answers:
+  - Lançamento do Rolling
+  - Primeira versão
+  - Lançamento Alpha
+explanation: |
+  A versão LTS do Ubuntu é mantida durante cinco anos e oferece maior estabilidade, o que a torna ideal para utilizadores principiantes.
+reviewed: false

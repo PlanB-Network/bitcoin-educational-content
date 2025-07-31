@@ -118,3 +118,4 @@ Cliquez sur le module **Create a Federation**, puis débuter le processus de cr�
 Vous venez de faire le tour de Fedi Wallet, vous êtes désormais en mesure d'exploiter le plein potentiel de ce portefeuille dans votre communauté. Si vous avez apprécié ce tutoriel, nous sommes convaincus que vous aimerez notre tutoriel sur Blink (ex Bitcoin Beach), une initiative de portefeuille Bitcoin conçue à la base pour construire et développer une économie circulaire sur Bitcoin au Salvador.
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+

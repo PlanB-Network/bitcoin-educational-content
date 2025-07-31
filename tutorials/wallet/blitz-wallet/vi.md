@@ -1,5 +1,5 @@
 ---
-tên : Blitz Wallet
+name: Blitz Wallet
 
 
 description: Danh mục đầu tư Bitcoin đơn giản nhất.

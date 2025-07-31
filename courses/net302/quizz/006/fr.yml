@@ -1,0 +1,9 @@
+question: Quel organisme supervise la gouvernance technique des protocoles Internet ?
+answer: Internet Architecture Board
+wrong_answers:
+  - Internet Community
+  - World Wide Web Consortium
+  - Institute of Electrical and Electronics Engineers
+explanation: |
+  L’Internet Architecture Board (IAB) coordonne l’évolution technique et la gouvernance des protocoles Internet.
+reviewed: false

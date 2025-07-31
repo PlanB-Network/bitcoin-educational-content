@@ -1,0 +1,13 @@
+question: Wat is het belangrijkste voordeel van het gebruik van open source software?
+answer: Hiermee kan worden geverifieerd dat er geen verborgen toegang is om je persoonlijke gegevens te stelen.
+wrong_answers:
+  - Het is altijd gratis.
+  - Het is altijd veiliger dan closed source software.
+  - Het is altijd gebruiksvriendelijker dan closed source software.
+explanation: |
+  Open source software is software waarvan de code bekend is en
+  voor iedereen toegankelijk is. Hierdoor kan onder andere worden geverifieerd
+  onder andere dat er geen verborgen toegang is om je
+  persoonlijke gegevens te stelen. Het is echter niet altijd gratis, veiliger of gebruiksvriendelijker dan closed source software
+  gebruiksvriendelijker dan closed source software.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Waundaji wakuu wawili wa Unix walikuwa akina nani?
+answer: Ken Thompson na Dennis Ritchie
+wrong_answers:
+  - Richard Stallman na Linus Torvalds
+  - Andrew S. Tanenbaum na Larry Ewing
+  - Steve Jobs na Bill Gates
+explanation: |
+  Unix ilitengenezwa na Ken Thompson na Dennis Ritchie katika AT&T Bell Labs mwishoni mwa miaka ya 1960 na mapema miaka ya 1970.
+reviewed: false

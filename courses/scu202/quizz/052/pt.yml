@@ -1,0 +1,9 @@
+question: Que prática é recomendada antes de partilhar um ficheiro em linha ou por correio eletrónico?
+answer: Limpar todos os metadados
+wrong_answers:
+  - Encriptar todos os metadados
+  - Autenticar todos os metadados
+  - Mudar o nome de todos os metadados
+explanation: |
+  A limpeza de metadados impede a divulgação inadvertida de informações sensíveis ao partilhar ficheiros.
+reviewed: false

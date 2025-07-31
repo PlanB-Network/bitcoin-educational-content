@@ -1,0 +1,9 @@
+question: Wat was de definitie van eigendom in het Latijn volgens de Romeinen?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  In het Romeinse recht definieert jus utendi et abutendi eigendom als het recht op gebruik en misbruik, waarbij de nadruk ligt op het gebruik zonder in te gaan op de oorzaken ervan.
+reviewed: false

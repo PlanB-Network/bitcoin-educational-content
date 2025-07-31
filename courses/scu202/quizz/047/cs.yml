@@ -1,0 +1,9 @@
+question: Jaký bezplatný multiplatformní software lze použít k vytvoření šifrovaného kontejnerového souboru, který lze připojit jako virtuální disk?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Synchronizace
+  - WinRAR
+explanation: |
+  VeraCrypt umožňuje vytvářet šifrované kontejnery, které jsou přístupné jako virtuální disky ve všech hlavních operačních systémech.
+reviewed: false

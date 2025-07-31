@@ -1,0 +1,9 @@
+question: Která aplikace nabízí radikálně decentralizovanou architekturu bez centrálního serveru pro směrování zpráv?
+answer: Keet
+wrong_answers:
+  - Telegram
+  - Signál
+  - Threema
+explanation: |
+  Keet je založen na modelu peer-to-peer, v němž veškerá komunikace probíhá přímo mezi uživateli bez centrálního serveru, což zaručuje vysokou odolnost a důvěrnost.
+reviewed: false

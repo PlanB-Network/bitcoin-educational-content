@@ -13,7 +13,7 @@ https://mynodebtc.com/
 
 Existen varias configuraciones de nodos. MyNode es excelente. Viene con muchas aplicaciones y aún más si pagas por la versión premium. De lo contrario, sería muy tedioso descargar todas esas aplicaciones por tu cuenta. MyNode lo hace bastante fácil, como verás.
 
-Otra opción alternativa y similar es RaspiBlitz. La interfaz gráfica no es tan buena y las aplicaciones se superponen mucho con las aplicaciones que vienen con MyNode, pero RaspiBlitz es software de código abierto gratuito (FOSS) y MyNode no lo es del todo. Otra diferencia es que MyNode se ejecuta en un contenedor Docker. Personalmente, encuentro Docker intimidante y difícil de solucionar problemas. Esto solo es un problema si te encuentras con errores o fallos. El desarrollador ofrece ayuda para los usuarios premium y también hay un grupo de chat en Telegram.
+Otra opción alternativa y similar es RaspiBlitz. La interfaz gráfica no es tan buena y las aplicaciones se superponen mucho con las aplicaciones que vienen con MyNode, pero RaspiBlitz es software de código abierto gratuito (FOSS) y MyNode no lo es del todo. Otra diferencia es que MyNode se ejecuta en un contenedor Docker. Personalmente, encuentro Docker intimidante y difícil al momento de solucionar problemas. Esto solo es un problema si te encuentras con errores o fallos. El desarrollador ofrece ayuda para los usuarios premium y también hay un grupo de chat en Telegram.
 
 RaspiBlitz es simplemente la instalación de varios programas en Linux, sin Docker. El disco duro externo se puede conectar fácilmente a otra máquina Linux con Bitcoin Core, y listo, si es necesario.
 
@@ -70,7 +70,7 @@ Flashea la tarjeta SD
 
 ## Descarga e instala Balena Etcher. Enlace
 
-No pude encontrar la firma digital para esto. Si sabes cómo, por favor avísame y actualizaré este artículo.
+No pude encontrar la firma digital para esto. Si sabes cómo, por favor avísame y actualizaré este tutorial.
 Etcher es fácil de usar. Inserta tu tarjeta micro SD y flashea el software de Raspberry Pi (archivo .img) en la tarjeta SD.
 
 ![image](assets/5.webp)
@@ -104,11 +104,11 @@ Finalmente, conecta la corriente:
 
 ## Encuentra la dirección IP del Pi
 
-Nunca necesitas un monitor con MyNode. Sin embargo, necesitas otra computadora en la red doméstica. Si tu Pi no está conectado por Ethernet y quieres usar WiFi, encontrar la IP requiere habilidades informáticas de alto nivel. No puedo ayudarte, lo siento. Necesitas una conexión Ethernet. (El problema surge de la necesidad de acceder a un monitor y al sistema operativo para conectarse al WiFi e ingresar una contraseña).
+Nunca necesitarás un monitor con MyNode. Sin embargo, necesitas otra computadora en la red local. Si tu Pi no está conectado por Ethernet y quieres usar WiFi, encontrar la IP requiere habilidades informáticas de alto nivel. No puedo ayudarte, lo siento. Necesitas una conexión Ethernet. (El problema surge de la necesidad de acceder a un monitor y al sistema operativo para conectarse al WiFi e ingresar una contraseña).
 
 Verifica tu enrutador para obtener una lista de todas las IP de todos los dispositivos conectados.
 
-Escribí 192.168.0.1 en el navegador (instrucciones que vinieron con mi enrutador), inicié sesión y pude ver un dispositivo "MyNode" con la IP 192.168.0.18. Ten en cuenta que estas direcciones IP no son visibles públicamente en Internet (pasan primero por el enrutador), solo son identificadores para los dispositivos en tu red doméstica.
+Escribe 192.168.0.1 en el navegador (instrucciones que vinieron con mi enrutador), inicié sesión y pude ver un dispositivo "MyNode" con la IP 192.168.0.18. Ten en cuenta que estas direcciones IP no son visibles públicamente en Internet (pasan primero por el enrutador), solo son identificadores para los dispositivos en tu red doméstica.
 
 Encontrar la IP es crucial.
 
@@ -118,7 +118,7 @@ Encontrar la IP es crucial.
 
 Tienes la opción de iniciar sesión en el dispositivo de forma remota mediante el comando SSH, pero no es necesario (sí lo es para RaspiBlitz Node). De todos modos, te mostraré cómo hacerlo, ya que es muy útil.
 
-Abre una computadora Mac o Linux (para Windows, descarga putty, una herramienta SSH) y escribe:
+Abre en una computadora Mac o Linux (para Windows, descarga putty, una herramienta SSH) y escribe:
 
 ```
 ssh admin@192.168.0.18
@@ -184,7 +184,7 @@ Quería continuar con la creación de la guía, así que aquí hay otro MyNode q
 
 ![image](assets/26.webp)
 
-Ten en cuenta que el servidor Electrum también necesita sincronizarse, así que tan pronto como el blockchain de Bitcoin esté sincronizado, haz clic en el botón para iniciar ese proceso, lleva uno o dos días. Todo lo demás se habilita en pocos minutos una vez que lo seleccionas. Puedes hacer clic en cosas y explorar. No romperás nada. Si algo se rompe (esto me pasó a mí, pero creo que fue porque tenía piezas baratas), tendrás que volver a flashear y comenzar a descargar nuevamente. El problema que tengo con MyNode es que si necesitas "reflashear", debes volver a sincronizar el blockchain desde cero. Hay formas técnicas de solucionar esto, pero no es fácil.
+Ten en cuenta que el servidor Electrum también necesita sincronizarse, así que tan pronto como la blockchain de Bitcoin esté sincronizada, haz clic en el botón para iniciar ese proceso, lleva uno o dos días. Todo lo demás se habilita en pocos minutos una vez que lo seleccionas. Puedes hacer clic en cosas y explorar. No romperás nada. Si algo se descompone (esto me pasó a mí, pero creo que fue porque tenía piezas baratas), tendrás que volver a flashear y comenzar a descargar nuevamente. El problema que tengo con MyNode es que si necesitas "reflashear", debes volver a sincronizar la blockchain desde cero. Hay formas técnicas de solucionar esto, pero no es fácil.
 
 Si también quieres probar otro nodo, como un RaspiBlitz, necesitarás un disco duro externo SSD adicional y otra tarjeta micro SD para flashear. De lo contrario, es el mismo equipo, simplemente no puedes ejecutar MyNode y RaspiBlitz simultáneamente, obviamente. Si quieres hacer eso, es hora de comprar otro Raspberry Pi.
 

@@ -1,0 +1,9 @@
+question: Varför kommer de flesta Android-enheter med Google Mobile Services förinstallerade?
+answer: Tillverkare måste teckna ett licensavtal med Google
+wrong_answers:
+  - Tjänster som krävs enligt europeisk lagstiftning
+  - GMS källkod är gratis
+  - GMS är obligatoriskt på alla Linux-enheter
+explanation: |
+  För att kunna dra nytta av flaggskeppsapplikationer (Play Store, Maps etc.) måste tillverkarna integrera GMS, vilket innebär att de måste teckna strikta licensavtal med Google.
+reviewed: false

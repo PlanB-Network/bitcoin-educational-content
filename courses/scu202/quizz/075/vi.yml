@@ -1,0 +1,9 @@
+question: Những hạn chế chính của ứng dụng diệt virus trên thiết bị di động là gì?
+answer: Họ bị hạn chế khi đối mặt với các mối đe dọa thực sự
+wrong_answers:
+  - Họ làm cho điện thoại không tương thích với mạng di động
+  - Họ xóa các ứng dụng nhắn tin
+  - Chúng làm tăng tuổi thọ pin
+explanation: |
+  Phần mềm diệt vi-rút di động không cung cấp khả năng bảo vệ chống lại lừa đảo hoặc ủy quyền không hợp lệ và chỉ có khả năng bảo mật hạn chế trước các mối đe dọa chính.
+reviewed: false

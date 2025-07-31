@@ -1,0 +1,9 @@
+question: Welk kenmerk onderscheidt Bitcoin vooral van altcoins?
+answer: Decentralisatie
+wrong_answers:
+  - Liquiditeit
+  - Reputatie
+  - Privacy
+explanation: |
+  Bitcoin staat bekend om zijn decentralisatie, in tegenstelling tot de meeste altcoins die min of meer gecentraliseerd zijn.
+reviewed: false

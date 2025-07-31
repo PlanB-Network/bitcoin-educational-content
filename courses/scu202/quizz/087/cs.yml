@@ -1,0 +1,9 @@
+question: Která open source aplikace VPN umožňuje anonymní vytvoření účtu bez e-mailu a přijímá platby Bitcoin?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN vyniká zcela anonymním vytvářením účtů, kdy není vyžadován e-mail ani heslo, a přijímá platby v Bitcoin nebo v hotovosti.
+reviewed: false

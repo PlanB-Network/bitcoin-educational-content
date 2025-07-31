@@ -1,0 +1,9 @@
+question: ¿Cuáles son los criterios más importantes que hay que comprobar antes de elegir una aplicación de mensajería?
+answer: Cifrado de extremo a extremo y código fuente abierto
+wrong_answers:
+  - Autenticación robusta y código fuente abierto
+  - Cifrado de extremo a extremo y servidores descentralizados
+  - Autenticación fuerte y servidores descentralizados
+explanation: |
+  El cifrado de extremo a extremo garantiza la confidencialidad de los intercambios, y el código abierto permite verificar la correcta implementación de esta seguridad.
+reviewed: false

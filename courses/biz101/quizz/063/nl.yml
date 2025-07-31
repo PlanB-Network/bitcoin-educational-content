@@ -1,0 +1,9 @@
+question: Welk scenario illustreert het best het gebruik van het Essential-profiel voor Bitcoin-betalingen?
+answer: Een restaurant dat een paar Bitcoin betalingen per maand accepteert
+wrong_answers:
+  - Een multinational die dagelijks duizenden transacties verwerkt
+  - Een onafhankelijke freelancer die betaling van zijn facturen in bitcoins accepteert
+  - Een hoogfrequente Bitcoin handelsdesk
+explanation: |
+  Het Essential-profiel richt zich op kleine tot middelgrote bedrijven met weinig Bitcoin transacties, zoals een restaurant.
+reviewed: false

@@ -11,7 +11,7 @@ Memulai dengan Bitcoin tampaknya menjadi tantangan besar bagi orang-orang yang s
 
 
 
-Dalam tutorial ini kita akan melihat Blue Wallet, Bitcoin Wallet yang sederhana namun sangat efektif yang memungkinkan Anda untuk mengelola bitcoin Anda secara pribadi dan juga untuk membuat koperasi manajemen berdasarkan [Multisig] (https://planb.network/resources/glossary/Multisig) (jangan khawatir, kita akan kembali ke sana).
+Dalam tutorial ini kita akan melihat Blue Wallet, Bitcoin Wallet yang sederhana namun sangat efektif yang memungkinkan Anda untuk mengelola bitcoin Anda secara pribadi dan juga untuk membuat koperasi manajemen berdasarkan [Multisig] (https://planb.network/resources/glossary/multisig) (jangan khawatir, kita akan kembali ke sana).
 
 
 
@@ -264,7 +264,7 @@ Saat memvalidasi transaksi Anda, Anda memerlukan tanda tangan kedua untuk menyet
 
 
 
-Penandatangan Wallet kedua, jika dia juga seorang pengguna, dapat menandatangani transaksi meskipun dia tidak terhubung ke Internet (tidak ada Wi-Fi, tidak ada data seluler) dengan memindai kode QR dari [transaksi yang ditandatangani sebagian] (https://planb.network/resources/glossary/PSBT) yang baru saja Anda buat.
+Penandatangan Wallet kedua, jika dia juga seorang pengguna, dapat menandatangani transaksi meskipun dia tidak terhubung ke Internet (tidak ada Wi-Fi, tidak ada data seluler) dengan memindai kode QR dari [transaksi yang ditandatangani sebagian] (https://planb.network/resources/glossary/psbt) yang baru saja Anda buat.
 
 
 

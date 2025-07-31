@@ -1,0 +1,9 @@
+question: Welk systeem valt op door zijn open-source, community-gebaseerde model?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux is vrij en wordt ontwikkeld door een wereldwijde gemeenschap, wat transparantie, veiligheid en flexibiliteit voor de gebruiker garandeert.
+reviewed: false

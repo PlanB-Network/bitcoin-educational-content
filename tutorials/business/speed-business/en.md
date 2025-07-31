@@ -63,26 +63,26 @@ To make your experience easier, Speed offers a test mode that lets you try out t
 You can test all the aspects covered in this tutorial using the test mode.
 
 
-When you deactivate test mode, you must configure your withdrawal portfolio.
+When you deactivate test mode, you must configure your withdrawal wallet.
 
 
 ![configure-wallet](assets/fr/04.webp)
 
 
-If you don't yet own a Bitcoin and/or Lightning wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/Wallet).
+If you don't yet own a Bitcoin and/or Lightning wallet, we recommend you take a look at our [mobile wallets] tutorials(https://planb.network/tutorials/wallet).
 
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-⚠️ **IMPORTANT**: When configuring your portfolio, choose the **BTC (On-Chain)** type when you receive large amounts, in the order of thousands of euros, to ensure reliable confirmation on Bitcoin, and the **LN Address** type when you wish to receive instant micro-payments in your business.
+⚠️ **IMPORTANT**: When configuring your wallet, choose the **BTC (On-Chain)** type when you receive large amounts, in the order of thousands of euros, to ensure reliable confirmation on Bitcoin, and the **LN Address** type when you wish to receive instant micro-payments in your business.
 
 
 ![setup-wallet](assets/fr/05.webp)
 
 
-Then confirm the addition of your portfolio using the verification e-mail sent by Speed.
+Then confirm the addition of your wallet using the verification e-mail sent by Speed.
 
 
 ![verfication](assets/fr/06.webp)
@@ -189,7 +189,7 @@ You can send this invoice in PDF format, by e-mail, or generate a QR code link t
 ## Make payments from Speed
 
 
-Speed business doesn't just collect payments for your business, it's a portfolio that lets you manage the entire financial side of your business without a hitch.
+Speed business doesn't just collect payments for your business, it's a wallet that lets you manage the entire financial side of your business without a hitch.
 
 
 In the **Send Payments** menu, you'll find all the money transfer options speed has to offer.
@@ -229,16 +229,16 @@ In the **Withdrawal Links** option, create a new withdrawal link, then configure
 ## Explorer Speed Business
 
 
-Speed Business is a multi-currency platform that allows you to hold separate portfolios on a single system.
+Speed Business is a multi-currency platform that allows you to hold separate wallets on a single system.
 
 
-In the **Balances** option, find the balance of your Bitcoin, USDT and USDC portfolios.
+In the **Balances** option, find the balance of your Bitcoin, USDT and USDC wallets.
 
 
 ![balance](assets/fr/24.webp)
 
 
-Like Speed Wallet, in the **Swap** menu, Speed Business allows you to exchange currencies between your different currency portfolios (BTC, USDT, USDC) for as little as Sats 20,000 (around $20 at the current rate).
+Like Speed Wallet, in the **Swap** menu, Speed Business allows you to exchange currencies between your different currency wallets (BTC, USDT, USDC) for as little as Sats 20,000 (around $20 at the current rate).
 
 
 ![swap](assets/fr/25.webp)
@@ -321,3 +321,4 @@ You've got a good grasp of Speed, integrate Bitcoin into your business and devel
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

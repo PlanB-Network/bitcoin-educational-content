@@ -1,0 +1,9 @@
+question: Ứng dụng VPN nguồn mở nào cho phép tạo tài khoản ẩn danh mà không cần email và chấp nhận thanh toán Bitcoin?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN nổi bật với tính năng tạo tài khoản hoàn toàn ẩn danh, không cần email hoặc mật khẩu và chấp nhận thanh toán bằng Bitcoin hoặc tiền mặt.
+reviewed: false

@@ -2111,7 +2111,7 @@ Att köpa Bitcoin utan att avslöja din identitet är ett alternativ för dem so
 - P2P-plattformar**: Plattformar som Bisq, RoboSats och Peach underlättar utbyten mellan privatpersoner utan behov av identitetsverifiering och använder spärrsystem för att säkra transaktioner. Dessa plattformar medför fortfarande en risk för stöld om den andra parten inte samarbetar, men risken minimeras genom spärrtjänster.
 - Bitcoin Automatiserade Teller Machines (ATM) **: I vissa uttagsautomater (kiosker) kan du köpa Bitcoin med kontanter, men avgifterna tenderar att vara höga och vissa kräver ID-verifiering för större transaktioner.
 - KYC-fria Exchange-plattformar**: Vissa plattformar, särskilt i Schweiz, låter dig köpa små mängder Bitcoin utan att kräva ID-verifiering.
-- Mining**: Enskilda personer kan bryta Bitcoin. Äldre eller mindre maskiner är tillgängliga, vilket ger ett icke-traditionellt sätt att förvärva Bitcoin utan KYC. Genom att gå med i en Mining pool kan du tjäna regelbundna utbetalningar, även med grundläggande utrustning. För mer information, [kolla in våra Mining tutorials](https://planb.network/tutorials/Mining).
+- Mining**: Enskilda personer kan bryta Bitcoin. Äldre eller mindre maskiner är tillgängliga, vilket ger ett icke-traditionellt sätt att förvärva Bitcoin utan KYC. Genom att gå med i en Mining pool kan du tjäna regelbundna utbetalningar, även med grundläggande utrustning. För mer information, [kolla in våra Mining tutorials](https://planb.network/tutorials/mining).
 - Betalningar / Lön i bitcoins**: Om du driver ett företag kan du acceptera Bitcoin som betalning. Om du är anställd kan du, beroende på din jurisdiktion, kanske be om att få betalt i Bitcoin. Dessa metoder gör att du kan förvärva Bitcoin utan KYC.
 
 
@@ -3059,7 +3059,7 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-4521-a750-edefb0747db3
+https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
@@ -3654,3 +3654,4 @@ Jag hoppas att vi snart ses igen i en annan kurs på Plan ₿ Network; oavsett o
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

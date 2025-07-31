@@ -1,0 +1,9 @@
+question: Wat gebeurt er als een sleutel van 7 wordt gebruikt om het woord CAT te versleutelen?
+answer: Het woord wordt JHA
+wrong_answers:
+  - Het woord wordt JBA
+  - Het woord wordt JHB
+  - Het woord wordt ZHA
+explanation: |
+  Met een sleutel van 7 wordt elke letter van het woord CAT verschoven met 7 posities in het alfabet, wat het versleutelde woord JHA oplevert.
+reviewed: false

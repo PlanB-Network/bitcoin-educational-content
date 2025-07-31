@@ -1,0 +1,9 @@
+question: Wat is de titel van het boek van Adam Smith?
+answer: Een onderzoek naar de aard en oorzaken van de rijkdom van landen.
+wrong_answers:
+  - Een onderzoek naar de aard en de geest van de rijkdom van landen.
+  - Een onderzoek naar de aard en oorsprong van de rijkdom van landen.
+  - Een onderzoek naar de oorzaak en oorsprong van de rijkdom van landen.
+explanation: |
+  De volledige titel van het boek van Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, onderstreept zijn analyse van de factoren die bijdragen aan economische welvaart, waarbij de mechanismen van de productie en distributie van rijkdom worden onderzocht.
+reviewed: true

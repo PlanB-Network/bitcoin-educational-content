@@ -1,0 +1,9 @@
+question: 分散型だが遅延の大きいネットワークを通じてトラフィックをリダイレクトすることで、匿名性を保証しているブラウザは？
+answer: Torブラウザ
+wrong_answers:
+  - Mullvadブラウザ
+  - リンクス
+  - リブレウルフ
+explanation: |
+  Tor BrowserはTorネットワークに依存してブラウジングを匿名化するが、その代償としてパフォーマンスが大幅に低下する。
+reviewed: false

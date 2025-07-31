@@ -112,6 +112,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.43
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.56
 tags:
   - protocols
   - user-friendly

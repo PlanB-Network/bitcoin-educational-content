@@ -1,0 +1,9 @@
+question: Vad är fördelen med att verifiera en PGP-signatur på en Hash-fil eller ett mjukvarumanifest?
+answer: Det garanterar att filen kommer från den officiella källan
+wrong_answers:
+  - Garanterar buggfri installation av programvara
+  - Det garanterar automatiska programuppdateringar
+  - Det garanterar att filen är komplett och inte har ändrats
+explanation: |
+  PGP-signaturen, som valideras med utvecklarens publika nyckel, säkerställer att den autentiserade filen kommer från den ursprungliga källan.
+reviewed: false

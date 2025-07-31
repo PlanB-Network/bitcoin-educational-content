@@ -1,0 +1,9 @@
+question: Que acontecimento obrigou a Google a reorientar o Android para um Interface sensível ao toque?
+answer: O lançamento do primeiro iPhone
+wrong_answers:
+  - A aquisição da Nokia pela Microsoft
+  - A criação da CyanogenMod
+  - O lançamento da Play Store
+explanation: |
+  A chegada do iPhone em 2007 obrigou a Google a repensar o Android para o tornar compatível com ecrãs tácteis, abandonando a ideia de um dispositivo com um teclado físico.
+reviewed: false

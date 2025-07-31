@@ -1,0 +1,9 @@
+question: Quale strumento open source può criptare completamente un disco in Linux?
+answer: LUCCI
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) è la soluzione standard su Linux per la crittografia completa del disco durante l'installazione.
+reviewed: false

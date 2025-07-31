@@ -1,0 +1,9 @@
+question: Kidhibiti kifurushi kinachotumiwa na Debian na Ubuntu ni nini?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian na Ubuntu hutumia kidhibiti kifurushi cha APT, kulingana na umbizo la .deb, kudhibiti usakinishaji na kusasisha programu.
+reviewed: false

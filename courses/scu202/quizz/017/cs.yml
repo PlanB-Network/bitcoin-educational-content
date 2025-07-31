@@ -1,0 +1,9 @@
+question: Která distribuce je považována za nejstarší stále udržovanou?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, který v roce 1993 vytvořil Patrick Volkerding, je nejstarší dodnes aktivní linuxovou distribucí.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale browser offre il blocco degli annunci e dei tracker, la protezione delle impronte digitali ed è basato su Chromium?
+answer: Coraggioso
+wrong_answers:
+  - Firefox
+  - Tor
+  - Cromo
+explanation: |
+  Brave è dotato di blocco degli annunci, dei tracker e di una protezione avanzata dalle impronte digitali per impostazione predefinita, il tutto basato su Chromium.
+reviewed: false

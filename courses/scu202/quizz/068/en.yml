@@ -1,0 +1,9 @@
+question: What major security error exposes a data leak to the domino effect?
+answer: Reusing the same password on multiple sites
+wrong_answers:
+  - Using a public VPN
+  - Delete browsing history too often
+  - Navigate in text mode
+explanation: |
+  Reusing a password on different sites allows an attacker, in the event of a service compromise, to access other accounts with the same password.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat betekent de term diffusie in de context van AES-encryptie?
+answer: Een verandering in de klaartekst resulteert in een significante verandering in de cijfertekst
+wrong_answers:
+  - De cijfertekst is altijd even lang
+  - De sleutelbytes worden gelijkmatig verdeeld
+  - Gevoelige informatie wordt vervormd in elk blok cijfertekst
+explanation: |
+  Diffusie betekent dat een kleine verandering in de klaartekst resulteert in een significante verandering in de cijfertekst, waardoor het voor een aanvaller moeilijk wordt om de klaartekst af te leiden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hoe helpt de Lightning Network om de kosten voor Bitcoin transacties te verlagen?
+answer: Door de meeste transacties off-chain uit te voeren en alleen kanaalvereffeningstransacties op de hoofd Blockchain te publiceren.
+wrong_answers:
+  - Door alle cryptografische verificatie van betalingen te verwijderen.
+  - Door de controle te centraliseren in één grote betalingshub.
+  - Door handelaren te verplichten om alle netwerkkosten vooraf te betalen.
+explanation: |
+  Omdat Lightning-transacties off-chain gebeuren, worden alleen de laatste kanaaltoestanden op Bitcoin Blockchain verrekend. Dit vermindert de congestie en verlaagt dus de kosten door veel On-Chain transacties te vermijden.
+reviewed: false

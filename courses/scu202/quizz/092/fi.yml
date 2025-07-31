@@ -1,0 +1,9 @@
+question: Mikä laite toimii Internetin ja yksityisen kotiverkkosi välisenä rajana?
+answer: Modeemi-reititin
+wrong_answers:
+  - Ethernet-kytkin
+  - NAS-palvelin
+  - USB-keskitin
+explanation: |
+  Modeemireititin yhdistää Internet-palveluntarjoajan verkon paikallisverkkoon ja hallinnoi paikallisten IP-osoitteiden jakamista.
+reviewed: false

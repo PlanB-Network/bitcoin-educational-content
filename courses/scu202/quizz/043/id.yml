@@ -1,0 +1,9 @@
+question: Apa manfaat memverifikasi tanda tangan PGP pada file Hash atau manifes perangkat lunak?
+answer: Ini menjamin bahwa file tersebut berasal dari sumber resmi
+wrong_answers:
+  - Menjamin instalasi perangkat lunak bebas bug
+  - Ini menjamin pembaruan program otomatis
+  - Ini menjamin bahwa file tersebut lengkap dan belum dimodifikasi
+explanation: |
+  Tanda tangan PGP, yang divalidasi menggunakan kunci publik pengembang, memastikan bahwa berkas yang diautentikasi berasal dari sumber aslinya.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni zana gani ya michoro inayotumiwa na GNOME na Xfce?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - Muundo
+explanation: |
+  GNOME, Xfce, Cinnamon na MATE zinatokana na GTK, maktaba ya programu iliyojitolea kwa miingiliano ya picha ya mtumiaji chini ya Linux.
+reviewed: false

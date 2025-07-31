@@ -1,0 +1,9 @@
+question: Quali sono le pratiche essenziali per limitare l'esposizione dei vostri dati quando navigate in Internet?
+answer: Cancellare regolarmente i cookie
+wrong_answers:
+  - Conservare tutti i cookie
+  - Disattivare la modalità privata del browser
+  - Utilizzo di un browser obsoleto
+explanation: |
+  L'eliminazione o la limitazione dei cookie riduce il tracciamento pubblicitario e preserva la privacy durante la navigazione web.
+reviewed: false

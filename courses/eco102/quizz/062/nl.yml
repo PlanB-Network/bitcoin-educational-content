@@ -1,0 +1,9 @@
+question: Wat gebeurt er volgens Laffer met de belastinginkomsten als de belastingtarieven buitensporig worden verhoogd?
+answer: Ze verminderen
+wrong_answers:
+  - Ze verhogen
+  - Ze blijven stabiel
+  - Ze fluctueren onvoorspelbaar
+explanation: |
+  Volgens de Laffer-curve leidt een buitensporige stijging van de belastingtarieven tot een daling van de belastinginkomsten omdat het werk, investeringen en productie ontmoedigt.
+reviewed: false

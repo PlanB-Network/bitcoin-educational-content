@@ -1,0 +1,9 @@
+question: В каком дистрибутиве по умолчанию используется среда рабочего стола Cinnamon?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon был разработан командой Linux Mint, чтобы предложить современный, классический Interface, близкий к Windows.
+reviewed: false

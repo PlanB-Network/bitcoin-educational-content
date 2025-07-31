@@ -120,6 +120,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 173.12
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 138.52
 tags:
   - privacy
   - personal-security

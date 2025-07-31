@@ -1,0 +1,9 @@
+question: Wer hat das World Wide Web erfunden und den allerersten Webbrowser entwickelt?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee ist der Erfinder des World Wide Web und entwickelte 1990 den ersten Browser, WorldWideWeb (heute Nexus).
+reviewed: false

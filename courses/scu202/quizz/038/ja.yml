@@ -1,0 +1,9 @@
+question: Ubuntuディストリビューションのすべてのパッケージをアップデートするには、どのコマンドを使用できますか？
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  Ubuntu（およびDebian）では、「sudo apt update && sudo apt upgrade」コマンドでパッケージリストを同期し、利用可能なすべてのアップデートをインストールします。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund, warum Sie Ihren Browser unbedingt auf dem neuesten Stand halten sollten?
+answer: Behebung kritischer Sicherheitsschwachstellen
+wrong_answers:
+  - Verbesserung der Seitenladegeschwindigkeit
+  - Verhindern von Phishing
+  - Optimierung des Speicherverbrauchs
+explanation: |
+  Die Updates priorisieren Sicherheitsschwachstellen, die es einem Angreifer ermöglichen könnten, Ihr System zu kompromittieren.
+reviewed: false

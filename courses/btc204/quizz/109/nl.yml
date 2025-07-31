@@ -1,0 +1,10 @@
+question: Waarom is het vaak ingewikkeld om PayJoin te gebruiken voor een betaling?
+answer: Het vereist de actieve medewerking van de ontvanger in de constructie
+wrong_answers:
+  - Het vereist vaste bedragen voor elke transactie
+  - Het dwingt beide partijen om hetzelfde type software te gebruiken
+  - Het vereist dat de betaler ten minste 2 UTXO's heeft die groter zijn dan de waarde van de betaling
+explanation: |
+  De moeilijkheid van het gebruik van PayJoin ligt in de afhankelijkheid van de deelname van de winkelier. Als klant is het gebruik van PayJoin onmogelijk als de winkelier het niet ondersteunt.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which operating system dominates today's PC market?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows has a 71% market share on personal computers, thanks to its default installation and extensive software ecosystem.
+reviewed: false

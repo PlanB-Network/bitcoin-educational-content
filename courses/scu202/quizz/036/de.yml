@@ -1,0 +1,9 @@
+question: Warum ist es ratsam, ungenutzte oder veraltete Software von Ihrem Computer zu entfernen?
+answer: Reduzierung der Angriffsfläche
+wrong_answers:
+  - So beschleunigen Sie Ihre Internetverbindung
+  - Verbesserung des Schutzes von Vektoren
+  - So verlängern Sie die Lebensdauer der Batterie
+explanation: |
+  Je weniger Software installiert ist, desto weniger potenzielle Sicherheitslücken können von Angreifern ausgenutzt werden.
+reviewed: false

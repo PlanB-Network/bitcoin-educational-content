@@ -1,0 +1,9 @@
+question: Quelle plage CIDR typique représente la taille d’un bloc IPv4 alloué par l’IANA à un RIR ?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  L’IANA divise l’espace IPv4 en blocs de taille /8, soit 2^24 adresses par bloc.
+reviewed: false

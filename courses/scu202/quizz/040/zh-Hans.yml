@@ -1,0 +1,9 @@
+question: 有什么免费工具可用于验证文件的签名及其与公开密钥的对应关系？
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) 是数字签名验证和公钥管理的参考工具。
+reviewed: false

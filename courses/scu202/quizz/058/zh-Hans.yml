@@ -1,0 +1,9 @@
+question: Internet Explorer 从第 4 版开始使用哪种渲染引擎，并在 2000 年代初占据市场主导地位？
+answer: 三叉戟
+wrong_answers:
+  - 壁虎
+  - WebKit
+  - 眨眼
+explanation: |
+  由微软公司开发的 Trident 于 1997 年随 Internet Explorer 4.0 一起推出，在 Internet Explorer 几乎处于垄断地位的时期主宰了网络。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nini jukumu kuu la mazingira ya eneo-kazi la Linux?
+answer: Toa michoro ya Interface
+wrong_answers:
+  - Kusimamia uanzishaji wa mfumo
+  - Kukusanya kernel ya Linux
+  - Kinga dhidi ya virusi
+explanation: |
+  Mazingira ya eneo-kazi huweka pamoja Elements inayoonekana na inayoingiliana (dirisha, menyu, aikoni, paneli, n.k.) ili kumwezesha mtumiaji kuingiliana kwa michoro na mfumo.
+reviewed: false

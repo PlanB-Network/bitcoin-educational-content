@@ -1,0 +1,12 @@
+question: Wat is de rol van mijnwerkers in het Bitcoin netwerk?
+answer: Miners spelen een essentiële rol bij het valideren en creëren van blokken.
+wrong_answers:
+  - Miners valideren alleen transacties.
+  - Mijnbouwers bepalen de prijs van Bitcoin.
+  - Mijnwerkers spelen geen rol in het Bitcoin netwerk.
+explanation: |
+  Miners spelen een essentiële rol in het Bitcoin netwerk door
+  het valideren en creëren van blokken. Ze versterken het netwerk
+  tegen censuur door elektriciteit te gebruiken om de
+  Proof of Work voor Bitcoin.
+reviewed: true

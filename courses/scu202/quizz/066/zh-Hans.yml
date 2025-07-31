@@ -1,0 +1,9 @@
+question: 哪些本地数据能让广告商在多个网站上跟踪您的浏览习惯？
+answer: 第三方 cookie
+wrong_answers:
+  - JavaScript 代码
+  - 当地历史
+  - SSL 证书
+explanation: |
+  第三方 cookie 由外部广告公司放置，用于跟踪用户在不同网站上的活动并建立广告档案。
+reviewed: false

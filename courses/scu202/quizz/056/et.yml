@@ -1,0 +1,9 @@
+question: Milline renderdamismootor loodi Fork KHTMLi abil Safari varustamiseks?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Vilkumine
+explanation: |
+  WebKit on KHTMLi Fork, mille Apple valis Safari jaoks alates 2003. aastast ja mille hiljem võtsid paljud brauserid kasutusele.
+reviewed: false

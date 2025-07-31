@@ -1,0 +1,9 @@
+question: Wat is een streamcipher in cryptografie?
+answer: Een symmetrische versleuteling die een stroom sleutels genereert van dezelfde lengte als het bericht
+wrong_answers:
+  - Een asymmetrische versleuteling op basis van priemgetallen
+  - Een versleuteling die meerdere verschillende ontcijferingssleutels gebruikt
+  - Een versleuteling die het bericht opdeelt in gegevensblokken
+explanation: |
+  Een streamcipher is een symmetrische vercijfering waarbij een stroom sleutels van dezelfde lengte als het bericht wordt gecombineerd met het bericht om de vercijferde tekst te produceren.
+reviewed: false

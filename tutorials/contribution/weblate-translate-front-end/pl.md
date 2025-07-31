@@ -18,7 +18,7 @@ W tym samouczku pokażemy, jak w prosty sposób przyczynić się do tłumaczenia
 Do tłumaczenia treści edukacyjnych używamy [sztucznej inteligencji] (https://github.com/Asi0Flammeus/LLM-Translator). Następnie, aby poprawić ewentualne błędy w tych plikach, zapraszamy korektorów do udziału. Jeśli chcesz dokonać korekty niektórych treści, zapoznaj się z poniższym samouczkiem:
 
 
-https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Z drugiej strony, jeśli jesteś zainteresowany tłumaczeniem statycznego Elements strony internetowej (z wyłączeniem treści edukacyjnych), jesteś we właściwym miejscu! Aby skutecznie przetłumaczyć frontend, używamy narzędzia Weblate, które jest bardzo proste w użyciu i ułatwia podejście do tłumaczenia.
 

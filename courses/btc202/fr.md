@@ -139,7 +139,58 @@ Dans la partie 2, nous explorerons plus en détail les bénéfices pratiques et 
 ## Bitcoin Core et les implémentations du protocole
 <chapterId>72381876-9317-4faa-8d41-2b252a945b8a</chapterId>
 
-Présentation de Bitcoin Core en tant qu’implémentation principale du protocole Bitcoin + chiffres actuels de répartition des nœud + leur poids et pouvoir dans la gouvernance du système. Explication de son architecture interne, de son fonctionnement, et courte histoire de son développement. Mention des autres implémentations existantes (notamment Knot).
+Le protocole Bitcoin n’est pas un logiciel : c’est un ensemble de règles tacites partagées entre les utilisateurs du réseau. Il définit les conditions de validité d’une transaction, les mécanismes de création monétaire, le format des blocs, les conditions de preuve de travail et de nombreuses autres spécifications. Pour interagir avec ce protocole, les utilisateurs doivent faire tourner un logiciel qui implémente ces règles : c’est ce que l’on appelle une **implémentation** de Bitcoin.
+
+Une implémentation est donc un logiciel de nœud : un programme capable de s’interfacer avec d’autres machines du réseau Bitcoin, de télécharger, vérifier, stocker et propager des blocs et des transactions, et de faire respecter localement les règles du consensus et des règles de relais. Chaque implémentation est une interprétation concrète du protocole, écrite dans un langage de programmation donné, avec des choix d’architecture, de performances et d’ergonomie propres. Chaque implémentation va aussi avoir sa propre organisation de développement, avec des répartitions de responsabilités.
+
+Parmi ces implémentations, une domine très largement : **Bitcoin Core**.
+
+### Une implémentation historique devenue référence
+
+Bitcoin Core est le logiciel de référence du protocole Bitcoin. Il est issu du code original écrit par Satoshi Nakamoto en 2008-2009, et en constitue la continuité directe. Initialement connu sous le nom de "*Bitcoin*", puis "*Bitcoin QT*" (en raison de l’ajout d’une interface graphique via la bibliothèque Qt), il a été rebaptisé "*Bitcoin Core*" en 2014 pour bien différencier le logiciel du réseau. Depuis la version 0.5, il est distribué avec deux composants : `bitcoin-qt` (l’interface graphique) et `bitcoind` (l'interface en ligne de commande).
+
+Bitcoin Core ne représente théoriquement pas le protocole Bitcoin, mais seulement une implémentation parmi d’autres. Il se distingue toutefois par son adoption massive, son ancienneté, la robustesse de son code, et la rigueur de son processus de développement. En conséquence, dans la pratique, les règles appliquées par Bitcoin Core sont de facto celles du protocole Bitcoin : les utilisateurs, développeurs, mineurs et services de l’écosystème s’y réfèrent presque exclusivement.
+
+### Répartition actuelle des implémentations
+
+Selon [les données collectées en juillet 2025 par Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (développeur bien connu dans l’écosystème), la répartition des implémentations parmi les nœuds publics du réseau est la suivante :
+- **Bitcoin Core** : 89 % des nœuds
+- **Bitcoin Knots** : 10,5 %
+- **Autres implémentations cumulées** : 0,5 % (btcsuite, Bcoin, BTCD...)
+
+Autrement dit, environ 9 nœuds publics sur 10 font tourner Bitcoin Core. Le reste du réseau repose sur des clients plus marginaux (bien que la part de Knots ait fortement progressé ces derniers mois, notamment à la suite des débats concernant la limite de taille des OP_RETURN). Ils sont souvent maintenus par une seule personne ou une petite équipe.
+
+**Note :** Ces chiffres demeurent néanmoins des estimations, car ils se fondent avant tout sur les *listening nodes*, c’est-à-dire les nœuds acceptant les connexions entrantes (avec le port 8333 ouvert). Les *non-listening nodes* sont beaucoup plus complexes à recenser, puisqu’il est impossible de s’y connecter directement : il faut attendre que l’initiative vienne d’eux, sous forme de connexion sortante. Le site de Luke Dashjr affirme tenter de comptabiliser également ces *non-listening nodes*, mais il demeure impossible d’obtenir des données parfaitement exactes à leur sujet, et la mise à jour de ces statistiques accuse forcément un certain retard par rapport à la réalité.
+
+### Fonctionnement interne de Bitcoin Core
+
+Bitcoin Core est un logiciel monolithique (tous les composants sont regroupés en un seul bloc indivisible) écrit en C++. C'est également un projet open-source sans véritable hiérarchie formelle. Il est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin), et le développement suit un modèle rigoureux :
+- Les **contributeurs** soumettent des propositions sous forme de _pull requests_ (PR). En principe, n'importe qui peut proposer une modification, mais celle-ci doit être testée, documentée et passer par un processus de relecture par les pairs ;
+- Les **mainteneurs** ont le droit d’approuver et de fusionner les PR. Ce sont eux qui garantissent la cohérence et la stabilité du projet. En juillet 2025, ils sont cinq : Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao et Ryan Ofsky ;
+- Il n’existe plus de **mainteneur principal** depuis février 2023. Ce rôle avait été tenu naturellement par Satoshi Nakamoto au lancement de Bitcoin, puis par Gavin Andresen suite au départ de Nakamoto début 2011, et enfin par Wladimir J. Van Der Laan de 2014 à 2023.
+
+Le développement de Bitcoin Core suit une logique de méritocratie : les nouveaux contributeurs sont encouragés à relire et tester le code avant d’en proposer eux-mêmes. Les décisions sont fondées sur le consensus technique, et les modifications importantes (notamment en matière de consensus) nécessitent des discussions en amont sur des canaux publics comme les mailing lists ou les clubs de revue de PR.
+
+### Les autres implémentations de Bitcoin
+
+Bien que marginales en termes d’adoption, d’autres clients existent. Le principal est Bitcoin Knots, développé par Luke Dashjr. Il s’agit d’un fork de Bitcoin Core qui intègre des options supplémentaires et une vision plus conservatrice du développement. Il propose notamment des restrictions renforcées en matière de format de transaction.
+
+On peut aussi mentionner :
+- **Libbitcoin** : une bibliothèque C++ modulaire développée par Amir Taaki et maintenue par Eric Voskuil ;
+- **Bcoin** : une implémentation en JavaScript, qui n’est plus maintenue activement ;
+- **BTCD/btcsuite** : une implémentation en Go.
+
+Ces projets contribuent à la diversité de l’écosystème, mais leur adoption reste très limitée, ce qui rend difficile toute évolution indépendante de Bitcoin Core.
+
+### Le pouvoir des développeurs de Core
+
+On pourrait croire que les développeurs de Bitcoin Core ont un contrôle direct sur Bitcoin, mais ce n’est pas le cas. Ils ne peuvent pas imposer une modification du protocole. Leur rôle est de proposer du code. C’est chaque utilisateur, via son nœud, qui décide d'utiliser ce code ou non.
+
+Cela signifie que si un changement dans Bitcoin Core ne fait pas consensus, il peut être ignoré par les nœuds, soit en ne mettant pas à jour Bitcoin Core, soit tout simplement en changeant d'implémentation. À l’inverse, si une fonctionnalité souhaitée par les utilisateurs est bloquée dans le processus de développement de Core, il est toujours possible de passer sur une autre implémentation ou de forker le projet.
+
+Comme nous l’aborderons plus loin dans ce cours, ce sont les nœuds, en fonction de leur poids économique (c’est-à-dire les commerçants) qui confèrent son utilité à une version du protocole (et donc à la monnaie correspondante), en acceptant les unités qui respectent ses règles. Le véritable pouvoir de gouvernance sur Bitcoin appartient donc à ces commerçants, et non aux développeurs.
+
+
 
 
 

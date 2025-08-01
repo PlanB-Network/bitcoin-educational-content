@@ -55,7 +55,8 @@ Setelah instalasi selesai, Anda perlu memasukkan ID akun Anda. Kami akan menunju
 
 ## Bagaimana cara menginstal IVPN di smartphone?
 
-Unduh IVPN dari toko aplikasi Anda, baik itu [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) untuk pengguna iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) untuk Android, atau [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Jika Anda menggunakan Android, Anda juga memiliki opsi untuk mengunduh file '.apk' langsung dari [situs IVPN](https://www.ivpn.net/en/apps-android/)..
+Unduh IVPN dari toko aplikasi Anda, baik itu [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) untuk pengguna iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) untuk Android, atau [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Jika Anda menggunakan Android, Anda juga memiliki opsi untuk mengunduh file `.apk` langsung dari [situs IVPN](https://www.ivpn.net/en/apps-android/)..
+
 ![IVPN](assets/notext/05.webp)
 
 Saat pertama kali menggunakan aplikasi, Anda akan dalam keadaan logout. Anda perlu memasukkan ID akun Anda untuk mengaktifkan layanan ini.

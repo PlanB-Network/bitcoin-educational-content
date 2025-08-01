@@ -214,20 +214,91 @@ Comme nous l’aborderons plus loin dans ce cours, ce sont les nœuds, en foncti
 ## Pourquoi faire tourner son propre nœud ?
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
 
-Analyse des raisons de faire tourner un nœud personnel : indépendance, validation des règles du protocole, confidentialité, résilience... (pas juste de l'altruisme : bénéfices perso).
+Il existe une idée reçue selon laquelle exploiter un nœud Bitcoin relèverait d’un acte purement altruiste, sans bénéfice personnel, simplement au service de la décentralisation du réseau. Certains considèrent ainsi que ce serait une forme de devoir pour les bitcoiners, dans le but de soutenir le système et de témoigner leur reconnaissance envers Bitcoin.
 
+En effet, comme nous l’avons souligné dans les chapitres précédents, faire tourner un nœud ne procure pas de gain financier direct. On pourrait donc penser qu’il n’y a aucun intérêt personnel à le faire. Pourtant, exploiter son propre nœud apporte de nombreux avantages individuels. Pour vous en convaincre, je vais présenter dans ce chapitre l’ensemble des raisons, tant techniques que stratégiques, qui devraient vous inciter à installer et à utiliser votre propre nœud Bitcoin.
 
+### Diffusion plus confidentielle de ses transactions
 
+Lorsqu’un logiciel de portefeuille se connecte à un nœud externe, il transmet ses transactions à une infrastructure qui vous échappe. Cela engendre des risques évidents de surveillance : l’opérateur du nœud distant peut analyser les détails de vos transactions, les montants, la fréquence des opérations et, en recoupant certaines métadonnées (adresse IP, horaires, localisation…), potentiellement les associer à votre identité.
 
+En effet, comme souligné dans un chapitre précédent, les portefeuilles ne communiquent pas avec le réseau Bitcoin par magie : ils doivent obligatoirement se connecter à un nœud pour consulter le solde ou diffuser des transactions. Si vous n’avez jamais configuré votre propre nœud, cela signifie que votre portefeuille dépend de l’infrastructure d’un tiers (le plus souvent celle de l’entreprise à l’origine du logiciel). Or, ce tiers, surtout s’il s’agit d’une entreprise, peut observer, exploiter ou même divulguer ces données : que ce soit dans une logique commerciale, sous contrainte légale, ou à la suite d’un piratage.
 
+En faisant utilisant votre propre nœud, vous diffusez directement vos transactions dans le réseau, sans passer par un intermédiaire. À condition de sécuriser correctement votre nœud (ce que nous aborderons plus loin) ou de respecter certains standards, aucune information n’est alors exposée : ni votre adresse IP, ni les détails de vos transactions ne transitent par une entité que vous ne contrôlez pas. Il s’agit donc d’un prérequis de base pour préserver votre confidentialité sur Bitcoin.
 
-Ce point mérite une attention particulière : l’utilité d’une monnaie, quelle qu’elle soit, découle directement de sa capacité à faciliter les échanges. En effet, si un objet n’est accepté par personne en échange de biens ou de services, il n’a théoriquement aucune utilité monétaire. Par exemple, si aucun commerçant n’accepte les cailloux comme moyen de paiement, ces derniers n’ont aucune utilité en tant que monnaie. L’utilité reste bien sûr une notion subjective à l’échelle individuelle, mais, sur un territoire donné, plus le nombre de commerçants acceptant un objet comme moyen d’échange est élevé, plus il est probable que cet objet ait une utilité monétaire pour les personnes vivant sur ce territoire.
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+### Transactions non censurables
+
+Pour les mêmes raisons que précédemment évoquées, un logiciel de portefeuille reposant sur un nœud tiers s’expose à un risque de censure : l’opérateur du nœud distant peut refuser de relayer certaines transactions pour diverses raisons. Il peut les considérer comme suspectes ou contraires à sa politique. La transaction peut également être bloquée si elle ne respecte pas les règles de relais du nœud. Enfin, l’opérateur pourrait cibler spécifiquement votre adresse IP afin de bloquer la diffusion de vos transactions.
+
+À l’inverse, en utilisant votre propre nœud, vous assurez vous-même la propagation de vos transactions au sein du réseau pair-à-pair. Vous gardez ainsi le contrôle total sur la diffusion de vos transactions, sans dépendance à un intermédiaire. Tant que la transaction est conforme aux règles de consensus et de relais des nœuds connectés au vôtre, elle sera diffusée sur le réseau puis, à condition d’inclure des frais suffisants, intégrée dans un bloc par un mineur. Disposer de votre propre nœud vous garantit ainsi la confirmation neutre et sans permission de vos transactions.
+
+### Vérification indépendante des données
+
+Sans nœud personnel, vous demeurez tributaire d’un tiers pour accéder aux informations : solde de vos adresses, état de confirmation d’une transaction, validité d’un bloc… Cela implique une confiance implicite dans l’exactitude et l’intégrité du nœud externe.
+
+Faire fonctionner un nœud complet permet de vérifier soi-même l’ensemble des règles du protocole, pour chaque transaction et chaque bloc. Ainsi, le solde affiché par votre portefeuille n’est pas une donnée reçue d’un serveur distant, mais un résultat calculé localement à partir d’une copie complète de la blockchain, validée bloc après bloc. Cette démarche donne tout son sens à la maxime des bitcoiners :
+
+> Don’t trust, verify.
+
+### Mieux répartir la sécurité du système
+
+Chaque nœud qui rejoint le réseau renforce la redondance et la résilience de Bitcoin. Il facilite la diffusion des informations et permet à de nouveaux pairs de se connecter. Sans les nœuds, le système serait tout simplement inopérant.
+
+Comme nous l’avons vu, la sécurité de Bitcoin ne tient pas à la décentralisation, au minage ou à la cryptographie : elle repose, comme pour tout système, sur les individus. Plus précisément, elle dépend de la capacité des opérateurs de nœuds à résister à la coercition.
+
+Ce qui distingue les systèmes décentralisés comme Bitcoin, c’est la répartition des risques entre tous ceux qui participent à leur fonctionnement. Faire tourner votre propre nœud Bitcoin, c’est accepter une part de ce risque en assurant la sécurité de votre instance ; ce faisant, vous allégez d’autant le poids du risque pour les autres opérateurs de nœuds.
+
+Ce n’est donc pas un avantage personnel direct : faire tourner un nœud vous rend en partie responsable de la sécurité du réseau. Il s’agit avant tout d’un bénéfice collectif, car votre implication permet de diffuser le risque. Par ricochet, vous accroissez votre propre capacité à utiliser Bitcoin de manière fiable.
+
+### Approfondir sa compréhension du système
+
+Installer un nœud complet n’est pas une opération anodine. Cela implique d’installer un logiciel, d’en comprendre le fonctionnement de base, de surveiller la synchronisation, d’examiner les journaux en cas de problème, voire d’utiliser le terminal. Cette démarche vous amènera nécessairement à approfondir votre compréhension du protocole. Il s’agit là d’un avantage indirect, mais non négligeable.
+
+Acquérir cette connaissance renforce votre confiance dans l’outil et peut réduire les risques d’erreurs ou d’exposition à des arnaques. Faire tourner son propre nœud, c'est aussi apprendre.
+
+### Choisir les règles que l’on applique
+
+Un aspect fondamental, souvent mal compris, réside dans le fait qu’exploiter un nœud permet de choisir localement les règles que l’on applique. On distingue alors deux grands types de règles :
+
+- **Les règles de consensus** :
+
+Il s’agit des règles essentielles du protocole Bitcoin, garantes de l’intégrité du système, qui fixent les critères de validation des transactions et des blocs. Toute transaction qui ne respecte pas ces règles de consensus ne pourra jamais être intégrée dans un bloc valide. Par exemple, une transaction comportant une signature invalide sur l’une de ses entrées sera systématiquement exclue.
+
+Modifier ces règles équivaut à changer de protocole, donc de monnaie (hard fork). Toutefois, même sans chercher à les modifier, le simple fait d’appliquer strictement les règles existantes confère un certains pouvoir : si un bloc viole les règles, le nœud le rejette aussitôt.
+
+- **Les règles de relais** :
+
+Il s’agit des règles propres à chaque nœud Bitcoin, qui viennent s’ajouter aux règles de consensus afin de définir la structure des transactions non confirmées acceptées dans la mempool et relayées aux pairs. Chaque nœud configure et applique ces règles localement, ce qui explique qu’elles puissent différer d’un nœud à l’autre. Elles ne concernent que les transactions non confirmées : une transaction jugée "non standard" par un nœud ne sera acceptée que si elle figure déjà dans un bloc valide. Modifier ces règles n’exclut donc pas le nœud du système Bitcoin.
+
+Par exemple, une transaction sans frais est, selon les règles de consensus, parfaitement valide, mais elle sera rejetée par défaut selon la politique de relais de Bitcoin Core, car le paramètre `minRelayTxFee` est fixé à `0.00001` (en BTC/kB). Néanmoins, il est possible, sur votre propre nœud, d’abaisser ce seuil pour relayer des transactions avec moins de frais, ou, à l’inverse, d’augmenter la limite, par exemple à 2 sats/vB, pour ne pas relayer les transactions à faibles frais.
+
+Faire tourner votre propre nœud, c’est donc affirmer : *"je valide ce que je choisis de valider, selon les règles que j’ai moi-même adoptées"*. Vous devenez ainsi un acteur de la gouvernance du système, capable de rejeter une évolution qui vous semble inacceptable, ou d’approuver une mise à jour selon vos propres critères.
+
+On peut donc rapidement essayer de comprendre à quel point vous avez du pouvoir sur les règles grâce à votre nœud. Et la mesure de ce pouvoir va dépendre du type de règle.
+
+#### Pour les règles de relais
+
+Pour ce qui concerne les règles de relais, l’essentiel réside dans le simple fait de posséder un nœud, quelle que soit son activité économique. Ici, l’enjeu est l’acceptation ou non de relayer certains types de transactions.
+
+Prenons l’exemple où vous estimez que les transactions dont les frais sont inférieurs à 1 sat/vB devraient être acceptées sur Bitcoin : vous pouvez alors ajuster cette règle sur votre nœud pour qu’il diffuse ces transactions, ce qui facilite ainsi leur propagation sur le réseau jusqu’à ce qu’un mineur les inclue éventuellement dans un bloc valide. Il s’agit donc essentiellement d’un pouvoir sur la diffusion des transactions : chaque nœud détient un pouvoir décisionnel, car accepter de relayer un type de transaction revient à en favoriser l’acceptation sur le réseau Bitcoin. Par conséquent, si vous exploitez plusieurs nœuds, vous bénéficiez d’une influence accrue sur la politique de relais, chaque nœud ayant ses propres connexions et zones d’impact sur le réseau.
+
+En effet, posséder un ou plusieurs nœuds configurés avec des règles de relais spécifiques revient à déterminer quelle part du réseau accepte de propager un type donné de transaction. La diffusion d’un message dans un graphe pair-à-pair, comme c’est le cas pour les transactions sur Bitcoin, suit la logique de la théorie de la percolation. Imaginez chaque nœud comme un site qui peut être actif (`p` = il relaie) ou inactif (`1 – p`). Dès lors que la proportion `p` franchit un seuil critique (`p_c`), une composante géante émerge : la transaction parvient à traverser le réseau et a toutes les chances d’atteindre un mineur. Dans un réseau où chaque nœud entretient en moyenne 8 connexions sortantes, le seuil `p_c` s’établit généralement autour de quelques pourcents seulement, d’autant plus bas si certains nœuds disposent de connexions très nombreuses.
+
+Le rapport de force autour des règles de relais ne relève donc pas d’un principe "un nœud = un vote", mais bien de la capacité à faire franchir au réseau ce seuil de percolation : tant que `p` demeure inférieur à `p_c`, une transaction reste confinée à des poches isolées et n’atteint pas un mineur ; dès que ce seuil est dépassé, elle se propage presque instantanément à l’ensemble du réseau.
+
+Ajouter quelques nœuds supplémentaires n’aura donc qu’un impact marginal si le réseau est déjà en phase percolante, mais cela peut s’avérer décisif à l’approche du seuil de percolation. Détenir ou influencer plusieurs nœuds, en particulier s’ils sont bien connectés, permet ainsi d’augmenter ou de réduire la valeur de `p` et, par conséquent, d’orienter de facto les règles de relais qui détermineront les transactions vues et acceptées par les mineurs.
+
+#### Pour les règles de consensus
+
+En ce qui concerne l’influence de votre nœud sur les règles de consensus, c’est avant tout son poids économique qui sera déterminant. Ce concept est très important : l’utilité d’une monnaie, quelle qu’elle soit, découle directement de sa capacité à faciliter les échanges. En effet, si un objet n’est accepté par personne en échange de biens ou de services, il n’a théoriquement aucune utilité monétaire. Par exemple, si aucun commerçant n’accepte les cailloux comme moyen de paiement, ces derniers n’ont aucune utilité en tant que monnaie. L’utilité reste bien sûr une notion subjective à l’échelle individuelle, mais, sur un territoire donné, plus le nombre de commerçants acceptant un objet comme moyen d’échange est élevé, plus il est probable que cet objet ait une utilité monétaire pour les personnes vivant sur ce territoire.
 
 Prenons l’exemple d’un village où de nombreux commerçants acceptent l’or en échange de biens : il y a alors de fortes chances que l’or possède une utilité monétaire pour les habitants du village. On comprend ainsi que l’utilité d’une monnaie dépend directement de la décision des commerçants de l’accepter ou non.
 
 Cette notion est fondamentale pour appréhender les rapports de force à l’œuvre dans le système Bitcoin. Satoshi le précise : Bitcoin est un système de cash électronique, autrement dit il rend le service de proposer une forme de monnaie, le bitcoin (ou BTC). Lorsque les règles du protocole sont modifiées de façon non rétrocompatible (hard fork), cela revient à créer un nouveau système et donc une nouvelle monnaie. Le succès ou l’échec de ce fork dépend alors de la taille de son économie, qui est elle-même déterminée par le nombre de commerçants acceptant cette nouvelle forme de monnaie.
 
-Prenons un exemple : supposons que Bitcoin subisse un hard fork. Il existerait alors deux formes de monnaies distinctes : BTC-1 (la version originelle, inchangée) et BTC-2 (la nouvelle monnaie avec des règles de consensus différentes). Si l’ensemble des commerçants qui acceptaient BTC-1 continuent à le faire, mais refusent le BTC-2, alors ce dernier n’aura, en théorie, qu’une utilité monétaire très limitée. En tant qu’utilisateur, je n’aurais aucun intérêt à conserver et utiliser du BTC-2, sachant qu’aucun commerçant n’en voudra en échange de biens ou de services. À l’inverse, si 50 % des commerçants choisissent d’accepter exclusivement le BTC-2 et les 50 % restants ne prennent que le BTC-1, alors l'utilité du BTC-1 aura, en théorie, diminué de moitié. J’emploie le terme "théoriquement", car l’utilité demeure subjective au niveau individuel, et dépend d’une multitude de facteurs (territoire, habitudes de consommation, etc.) difficiles à appréhender au cas par cas.
+Prenons un exemple : supposons que Bitcoin subisse un hard fork. Il existerait alors deux formes de monnaies distinctes : BTC-1 (la version originelle, inchangée) et BTC-2 (la nouvelle monnaie avec des règles de consensus différentes). Si l’ensemble des commerçants qui acceptaient BTC-1 continuent à le faire, mais refusent le BTC-2, alors ce dernier n’aura, en théorie, qu’une utilité monétaire très limitée. En tant qu’utilisateur, je n’aurais aucun intérêt à conserver et utiliser du BTC-2, sachant qu’aucun commerçant n’en voudra en échange de biens ou de services. À l’inverse, si 50 % des commerçants choisissent d’accepter exclusivement le BTC-2 et les 50 % restants ne prennent que le BTC-1, alors l'utilité du BTC-1 aura, en théorie, diminué de moitié. J’emploie le terme "en théorie", car l’utilité demeure subjective au niveau individuel, et dépend d’une multitude de facteurs (territoire, habitudes de consommation, etc.) difficiles à appréhender au cas par cas.
 
 Concernant les règles de consensus, votre nœud vous permet donc d’orienter votre activité économique vers telle ou telle monnaie. Par exemple, si vous possédez 10 nœuds complets chez vous, mais n’exercez aucune activité économique significative, votre influence lors d’un fork sera quasi nulle. À l’inverse, un seul nœud utilisé pour gérer une chaîne de 50 magasins qui acceptent le bitcoin confère un poids économique important.
 

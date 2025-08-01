@@ -230,7 +230,7 @@ Kanan: ViMusic
 Jika Anda ingin bantuan suara saat mengemudi dan menggunakan aplikasi peta di GrapheneOS, Anda perlu menginstal [RHVoice](https://rhvoice.org/installation/) dan [mengonfigurasinya](https://discuss.grapheneos.org/d/2488-organic-maps-app-voice-instructions-are-not-available).
 
 - [Magic Earth](https://www.magicearth.com/) adalah alternatif peta yang mendukung navigasi belokan demi belokan, peta 3D dan offline. Magic Earth dapat diunduh dari Aurora Store.
-- Organic Maps merupakan alternatif aplikasi peta yang dirancang bagi para pelancong, wisatawan, pendaki, dan pesepeda. Aplikasi ini dikembangkan berdasarkan data OpenStreetMap yang dihimpun dari kontribusi komunitas (crowd-sourced). Organic Maps adalah turunan (fork) open-source dari aplikasi Maps.me (yang sebelumnya dikenal sebagai MapsWithMe). Aplikasi ini mendukung seluruh fiturnya tanpa memerlukan koneksi internet aktif dan tersedia untuk diunduh melalui F-Droid.
+- [Organic Maps]((https://f-droid.org/en/packages/app.organicmaps/)) merupakan alternatif aplikasi peta yang dirancang bagi para pelancong, wisatawan, pendaki, dan pesepeda. Aplikasi ini dikembangkan berdasarkan data OpenStreetMap yang dihimpun dari kontribusi komunitas (crowd-sourced). Organic Maps adalah turunan (fork) open-source dari aplikasi Maps.me (yang sebelumnya dikenal sebagai MapsWithMe). Aplikasi ini mendukung seluruh fiturnya tanpa memerlukan koneksi internet aktif dan tersedia untuk diunduh melalui F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) adalah alternatif peta lain yang mendukung semua fitur yang disebutkan di atas.
 
 ![image](assets/13.webp)

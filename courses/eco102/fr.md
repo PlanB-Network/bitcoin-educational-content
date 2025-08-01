@@ -1028,7 +1028,7 @@ C’est que Bastiat appelle « le sophisme de la fraternité légale ». Citons-
 
 Et encore :
 
-> Les gouvernements n'exercent jamais qu'une action qui a pour sanction la force. Or, il est permis de forcer quelqu'un d'être juste, non de le forcer d'être charitable. La Loi, quand elle veut faire par la force ce que la morale fait faire par la persuasion, bien loin de s'élever à la région de la charité, tombe dans le domaine de la spoliation.
+> Les Gouvernements n'exercent jamais qu'une action qui a pour sanction la Force. Or, il est permis de forcer quelqu'un d'être juste, non de le forcer d'être charitable. La Loi, quand elle veut faire par la force ce que la morale fait faire par la persuasion, bien loin de s'élever à la région de la Charité, tombe dans le domaine de la Spoliation.
 
 Or cette perversion du droit a un nom, c’est le socialisme, c’est-à-dire l’idéologie de la redistribution forcée des richesses par l’État. Le socialisme selon Bastiat, se caractérise par l'idéologie de la spoliation légale. Mais la ruse de cette idéologie c’est qu’elle masque sa violence sous un abus de langage : l’appel à la solidarité ou à la fraternité.
 

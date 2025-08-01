@@ -4,18 +4,18 @@ name: Bitcoin for Corporations 2025
 project_id: 78d93809-a51d-4775-8aa3-e9cd2fb11e7f
 location: Orlando, USA
 language:
-- en
+  - en
 links:
   twitter: https://x.com/microstrategy
   website: https://www.strategysoftware.com/world25/bitcoin-for-corporations
 tags:
-- finance
+  - finance
 #proofreading_metadata
 original_language: en
 proofreading:
-- language: en
-  last_contribution_date: '2025-06-26'
-  urgency: 0
-  contributors_id:
-  - jramos0
-  reward: 0
+  - language: en
+    last_contribution_date: '2025-06-26'
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

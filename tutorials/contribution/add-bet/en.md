@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Fill this file with information related to your content using this template:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -48,11 +48,11 @@ contributors:
 
 Here are the details to fill in for each field:
 
-- **`builder`**: Indicate your organization's identifier on PlanB Network. If you do not yet have a "builder" identifier for your company, you can create one by following this tutorial.
+- **`project`**: Indicate your organization's identifier on PlanB Network. If you do not yet have a "project" identifier for your company, you can create one by following this tutorial.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
- If you do not have one, you can simply use your name, your pseudonym, or the name of your company without having created a builder profile.
+ If you do not have one, you can simply use your name, your pseudonym, or the name of your company without having created a project profile.
 
 - **`type`**: Select the nature of your content among the following two options:
 	- `Educational Content` for educational contents.
@@ -76,7 +76,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 For example, your YAML file could look like this:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -207,3 +207,4 @@ Congratulations! Your PR has been successfully created. An administrator will no
 Be sure to follow the progress of your PR. An administrator may leave a comment asking for additional information. As long as your PR is not validated, you can consult it in the Pull requests tab on the PlanB Network GitHub repository:
 ![event](assets/56.webp)
 Thank you very much for your valuable contribution! :)
+

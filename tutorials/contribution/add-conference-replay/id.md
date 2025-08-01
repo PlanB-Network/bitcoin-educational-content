@@ -29,7 +29,7 @@ Isi file ini dengan informasi terkait konferensi Anda menggunakan template ini:
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -46,7 +46,7 @@ Sebagai contoh, file YAML Anda bisa terlihat seperti ini:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language: 
   - fr
@@ -60,7 +60,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-Jika Anda belum memiliki pengenal "*builder*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
+Jika Anda belum memiliki pengenal "*project*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 - Setelah Anda selesai melakukan perubahan pada file ini, simpan perubahan tersebut dengan mengklik tombol `Commit changes...`:
 ![konferensi](assets/10.webp)
 - Tambahkan judul untuk perubahan Anda, serta deskripsi singkat:
@@ -199,3 +199,4 @@ Pastikan untuk mengikuti perkembangan PR Anda. Mungkin saja seorang administrato
 ![konferensi](assets/46.webp)
 
 Terima kasih banyak atas kontribusi berharga Anda! :)
+

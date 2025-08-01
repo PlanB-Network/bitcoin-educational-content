@@ -5,10 +5,10 @@ description: Jinsi ya kuongeza nyenzo mpya za kielimu kwenye PlanB Network?
 ![event](assets/cover.webp)
 
 
-Dhamira ya PlanB ni kutoa nyenzo kuu za elimu kwenye Bitcoin, katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo-wazi na yamepangishwa kwenye GitHub, ambayo inaruhusu mtu yeyote kushiriki katika kuimarisha jukwaa.
+Dhamira ya PlanB ni kutoa nyenzo kuu za elimu kwenye Bitcoin, kwa lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo-wazi na yamepangishwa kwenye GitHub, ambayo inaruhusu mtu yeyote kushiriki katika kuimarisha jukwaa.
 
 
-Zaidi ya mafunzo na mafunzo, PlanB Network pia inatoa maktaba kubwa ya maudhui mbalimbali ya elimu kwenye Bitcoin, yanayofikiwa na kila mtu, [katika sehemu ya "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Hifadhidata hii inajumuisha mabango ya elimu, meme, mabango ya ucheshi ya propaganda, michoro ya kiufundi, nembo na zana zingine za watumiaji. Lengo la mpango huu ni kusaidia watu binafsi na jumuiya zinazofundisha Bitcoin duniani kote kwa kuwapa nyenzo muhimu za kuona.
+Zaidi ya mafunzo na mafunzo, PlanB Network pia inatoa maktaba makubwa ya maudhui mbalimbali ya elimu kwenye Bitcoin, yanayofikiwa na kila mtu, [katika sehemu ya "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Hifadhidata hii inajumuisha mabango ya elimu, meme, mabango ya ucheshi ya propaganda, michoro ya kiufundi, nembo na zana zingine za watumiaji. Lengo la mpango huu ni kusaidia watu binafsi na jumuiya zinazofundisha Bitcoin duniani kote kwa kuwapa nyenzo muhimu za kuona.
 
 
 Je, unataka kushiriki katika kuimarisha hifadhidata hii, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,12 +79,12 @@ Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
 
-- `mjenzi`**: Onyesha kitambulisho cha shirika lako kwenye PlanB Network. Ikiwa bado huna kitambulisho cha "mjenzi" cha kampuni yako, unaweza kuunda kwa kufuata mafunzo haya.
+- `mjenzi`**: Onyesha kitambulisho cha shirika lako kwenye PlanB Network. Ikiwa bado hauna kitambulisho cha "mjenzi" cha kampuni yako, unaweza kuunda kwa kufuata mafunzo haya.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
-Ikiwa huna, unaweza kutumia jina lako, jina lako bandia, au jina la kampuni yako bila kuunda wasifu wa mjenzi.
+Ikiwa hauna, unaweza kutumia jina lako, jina lako bandia, au jina la kampuni yako bila kuunda wasifu wa mjenzi.
 
 
 
@@ -94,9 +94,9 @@ Ikiwa huna, unaweza kutumia jina lako, jina lako bandia, au jina la kampuni yako
 
 
 
-- `viungo`**: Toa viungo kwa yaliyomo yako. Una chaguzi mbili:
+- `viungo`**: Toa viungo kwa yaliyomo kwako. Una chaguzi mbili:
  - Ukichagua kupangisha maudhui yako moja kwa moja kwenye GitHub ya PlanB, utahitaji kuongeza viungo kwenye faili hii wakati wa hatua zifuatazo.
- - Ikiwa yaliyomo yako yamepangishwa mahali pengine, kama vile kwenye wavuti yako ya kibinafsi, onyesha viungo vinavyolingana hapa:
+ - Ikiwa yaliyomo kwako yamepangishwa mahali pengine, kama vile kwenye wavuti yako ya kibinafsi, onyesha viungo vinavyolingana hapa:
      - `kupakua`: Kiungo cha kupakua maudhui yako.
      - `tazama`: Kiungo cha kutazama maudhui yako (kinaweza kuwa sawa na kiungo cha upakuaji). Ikiwa maudhui yako yanapatikana katika lugha nyingi, ongeza kiungo kwa kila lugha.
 
@@ -118,7 +118,7 @@ Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:
 
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

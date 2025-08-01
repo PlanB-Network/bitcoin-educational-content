@@ -1,0 +1,26 @@
+id: b67c5b26-45ff-11f0-b6fb-bbc978f59aec
+
+topic: social studies
+subtopic: philosophy
+level: advanced
+hours: 5
+
+professors_id:
+  - c42f9cd4-6c91-11f0-81f8-572296da5553
+
+contributor_names:
+  - Asi0Flammeus
+
+published_at: 2025-08-01
+test_only: true
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-15
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 1
+

@@ -1,0 +1,9 @@
+question: De quel courant philosophique Spinoza est-il l'ambassadeur ?
+answer: Le rationalisme.
+wrong_answers:
+- Le courant romantique.
+- La scolastique.
+- Le structuralisme.
+explanation: |
+  Spinoza est considéré comme l'un des plus grands représentants du rationalisme du 17e siècle, aux côtés de Descartes et Leibniz. Il a développé une philosophie basée sur la raison et la logique, cherchant à comprendre le monde à travers des principes rationnels plutôt que par la foi ou la tradition.
+reviewed: false

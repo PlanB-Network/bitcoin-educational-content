@@ -4,19 +4,19 @@ name: bitcoin++ hacking edition
 project_id: 81e4a931-705b-4d28-bbe7-4f4de3196034
 location: Florianopolis, Brasil
 language:
-- en
+  - en
 links:
   twitter: https://x.com/btcplusplus
   website: https://btcpp.dev/
 tags:
-- development
-- software
+  - development
+  - software
 #proofreading_metadata
 original_language: en
 proofreading:
-- language: en
-  last_contribution_date: '2025-06-27'
-  urgency: 0
-  contributors_id:
-  - jramos0
-  reward: 0
+  - language: en
+    last_contribution_date: '2025-06-27'
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

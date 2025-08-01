@@ -1,0 +1,9 @@
+question: Qui est Lamarck ?
+answer: Un naturaliste français qui précède Darwin.
+wrong_answers:
+- Un philosophe hollandais.
+- Un disciple de Spinoza.
+- Un peintre classique.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) était un naturaliste français qui a proposé une théorie de l'évolution avant Darwin. Sa théorie du transformisme incluait l'hérédité des caractères acquis.
+reviewed: false

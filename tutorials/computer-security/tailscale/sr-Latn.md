@@ -80,7 +80,7 @@ Međutim, ova arhitektura zavisi od Tailscale Inc. za koordinaciju mreže. Da bi
 
 
 
-Tailscale radi na **većini uobičajenih** operativnih sistema (Windows, macOS, Linux, iOS, Android). Instalacija je opisana kao "brza i jednostavna" na svim platformama. Počnimo tako što ćemo pogledati Interface i kako kreirati nalog, a zatim preći na procedure instalacije za različita okruženja.
+Tailscale radi na **većini uobičajenih** operativnih sistema (Windows, macOS, Linux, iOS, Android). Instalacija je opisana kao "brza i jednostavna" na svim platformama. Počnimo tako što ćemo pogledati interfejs i kako kreirati nalog, a zatim preći na procedure instalacije za različita okruženja.
 
 
 
@@ -139,7 +139,7 @@ Kada kreirate svoj nalog, možete instalirati Tailscale na svoje uređaje:
 
 
 
-- Na Windows i macOS:** Jednostavno preuzmite grafičku aplikaciju sa zvanične Tailscale veb stranice i instalirajte je (.msi datoteka na Windowsu, .dmg datoteka na Macu). Nakon instalacije, aplikacija pokreće grafički Interface koji vam omogućava da se povežete (putem pregledača) sa vašim Tailscale nalogom kako biste autentifikovali uređaj.
+- **Na Windows i macOS:** Jednostavno preuzmite grafičku aplikaciju sa zvanične Tailscale veb stranice i instalirajte je (.msi datoteka na Windowsu, .dmg datoteka na Macu). Nakon instalacije, aplikacija pokreće grafički interfjes koji vam omogućava da se povežete (putem pregledača) sa vašim Tailscale nalogom kako biste autentifikovali uređaj.
 
 
 
@@ -159,7 +159,7 @@ Kada kreirate svoj nalog, možete instalirati Tailscale na svoje uređaje:
 
 
 
-- Na Linuxu (Debian, Ubuntu, itd.):** Imate nekoliko opcija. Najjednostavnija metoda je pokretanje zvaničnog instalacionog skripta: na primer, na Debian/Ubuntu :
+- **Na Linuxu (Debian, Ubuntu, itd.):** Imate nekoliko opcija. Najjednostavnija metoda je pokretanje zvaničnog instalacionog skripta: na primer, na Debian/Ubuntu :
 
 
 
@@ -175,13 +175,13 @@ Ovaj skript će dodati zvanični Tailscale repozitorijum i instalirati paket. Ta
 
 
 
-- Na sistemima zasnovanim na ARM-u (Raspberry Pi, itd.):** Generalno koristimo Linux, tako da je isti pristup kao gore (skripta ili paket). Imajte na umu da Tailscale podržava ARM32/ARM64 arhitekturu bez ikakvih problema. Mnogi korisnici instaliraju Tailscale na Raspberry Pi OS putem apt-a ili na laganim distribucijama (DietPi, itd.) kako bi pristupili svom Pi uređaju svuda.
+- **Na sistemima zasnovanim na ARM-u (Raspberry Pi, itd.):** Generalno koristimo Linux, tako da je isti pristup kao gore (skripta ili paket). Imajte na umu da Tailscale podržava ARM32/ARM64 arhitekturu bez ikakvih problema. Mnogi korisnici instaliraju Tailscale na Raspberry Pi OS putem apt-a ili na laganim distribucijama (DietPi, itd.) kako bi pristupili svom Pi uređaju svuda.
 
 
 
 
 
-- Na iOS i Android:** Tailscale pruža **zvanične** mobilne aplikacije. Jednostavno instalirajte *Tailscale* sa [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) ili [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- **Na iOS i Android:** Tailscale pruža **zvanične** mobilne aplikacije. Jednostavno instalirajte *Tailscale* sa [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) ili [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -214,7 +214,7 @@ Kada je vaš prvi uređaj povezan, Tailscale vas poziva da dodate druge uređaje
 ![Ajout d'appareils supplémentaires](assets/fr/10.webp)
 
 
-*Interface prikazuje prvi povezan uređaj i čeka druge uređaje*
+*Interfejs prikazuje prvi povezan uređaj i čeka druge uređaje*
 
 
 
@@ -255,19 +255,19 @@ Konzola za administraciju veba omogućava vam da pregledate i upravljate svim va
 
 
 
-**Interface Web vs Interface CLI:** Tailscale nudi dva komplementarna načina interakcije sa mrežom: **Interface web administraciju** i **klijenta komandne linije (CLI)**.
+**Interface Web vs Interface CLI:** Tailscale nudi dva komplementarna načina interakcije sa mrežom: **Interfejs web administraciju** i **klijenta komandne linije (CLI)**.
 
 
 
 
 
-- Interface Web (Admin Console)** : dostupno na [https://login.tailscale.com](https://login.tailscale.com), ova web konzola je centralna kontrolna tabla za vašu Tailscale mrežu. Prikazuje sve uređaje (*Machines*), njihov online/offline status, njihove Tailscale IP adrese i više. Ovde možete **upravljati uređajima** (preimenovati, isteći ključeve, autorizovati rute, onemogućiti čvor), **upravljati korisnicima** (u organizacionom kontekstu) i definisati sigurnosna pravila (ACLs). Takođe, ovde konfigurišete globalne opcije kao što su MagicDNS, oznake ili auth ključevi (pre-generate auth ključevi za automatsko dodavanje uređaja). Interface web je veoma koristan za dobijanje pregleda i primenu promena koje će biti propagirane putem koordinacionog servera na sve čvorove. *Primer:* Aktiviranje **subnet rute** ili **exit čvora** se vrši jednim klikom u konzoli, kada se čvor u pitanju najavi kao takav.
+- **Interface Web (Admin Console)** : dostupno na [https://login.tailscale.com](https://login.tailscale.com), ova web konzola je centralna kontrolna tabla za vašu Tailscale mrežu. Prikazuje sve uređaje (*Machines*), njihov online/offline status, njihove Tailscale IP adrese i više. Ovde možete **upravljati uređajima** (preimenovati, isteći ključeve, autorizovati rute, onemogućiti čvor), **upravljati korisnicima** (u organizacionom kontekstu) i definisati sigurnosna pravila (ACLs). Takođe, ovde konfigurišete globalne opcije kao što su MagicDNS, oznake ili auth ključevi (unapred generisani auth ključevi za automatsko dodavanje uređaja). Interface web je veoma koristan za dobijanje pregleda i primenu promena koje će biti propagirane putem koordinacionog servera na sve čvorove. *Primer:* Aktiviranje **subnet rute** ili **exit čvora** se vrši jednim klikom u konzoli, kada se čvor u pitanju najavi kao takav.
 
 
 
 
 
-- Interface command line (CLI):** Komanda `tailscale` je dostupna u CLI na svakom uređaju gde je Tailscale instaliran. Ovaj CLI vam omogućava da sve radite lokalno: povežete se (`tailscale up`), proverite status (`tailscale status` da vidite koji su vršnjaci povezani), otklonite greške (`tailscale ping <ip>`), i tako dalje. Neke funkcije su čak **ekskluzivne za CLI** ili naprednije, na primer:
+- **Interfejs komandne linije (CLI):** Komanda `tailscale` je dostupna u CLI na svakom uređaju gde je Tailscale instaliran. Ovaj CLI vam omogućava da sve radite lokalno: povežete se (`tailscale up`), proverite status (`tailscale status` da vidite koji su vršnjaci povezani), otklonite greške (`tailscale ping <ip>`), i tako dalje. Neke funkcije su čak **ekskluzivne za CLI** ili naprednije, na primer:
 
 
 
@@ -281,11 +281,11 @@ Konzola za administraciju veba omogućava vam da pregledate i upravljate svim va
   - ili `tailscale file send <node>` da koristite **Taildrop** (prenos fajlova između uređaja).
 
 
-CLI je veoma koristan na serverima bez Interface grafike i za skriptovanje određenih radnji. **Razlike u korišćenju:** Većina osnovnih konfiguracija može se izvršiti ili putem Web-a ili putem CLI. Na primer, dodavanje uređaja se vrši ili putem konzole, ili pokretanjem `tailscale up` na uređaju i validacijom putem web-a. Slično, preimenovanje uređaja može se izvršiti putem konzole ili sa `tailscale set --hostname`. **Ukratko**, web konzola je idealna za globalnu administraciju mreže (posebno sa više mašina/korisnika), dok je CLI zgodan za preciznu kontrolu nad određenom mašinom, automatizovane skripte, ili korišćenje na sistemu bez GUI.
+CLI je veoma koristan na serverima bez grafičkog interfejsa i za skriptovanje određenih radnji. **Razlike u korišćenju:** Većina osnovnih konfiguracija može se izvršiti ili putem Web-a ili putem CLI. Na primer, dodavanje uređaja se vrši ili putem konzole, ili pokretanjem `tailscale up` na uređaju i validacijom putem web-a. Slično, preimenovanje uređaja može se izvršiti putem konzole ili sa `tailscale set --hostname`. **Ukratko**, web konzola je idealna za globalnu administraciju mreže (posebno sa više mašina/korisnika), dok je CLI zgodan za preciznu kontrolu nad određenom mašinom, automatizovane skripte, ili korišćenje na sistemu bez GUI.
 
 
 
-## 4. Korišćenje Tailscale na Umbrel
+## 4. Korišćenje Tailscale na Umbrel-u
 
 
 
@@ -305,7 +305,7 @@ Korišćenje Umbrel-a i Tailscale-a zajedno je posebno zanimljiv slučaj upotreb
 
 
 
-- Instaliranje Tailscale na Umbrel:** Umbrel ima zvaničnu Tailscale aplikaciju u svojoj prodavnici aplikacija. Instalacija ne može biti jednostavnija:
+- **Instaliranje Tailscale na Umbrel:** Umbrel ima zvaničnu Tailscale aplikaciju u svojoj prodavnici aplikacija. Instalacija ne može biti jednostavnija:
 
 
 
@@ -323,7 +323,7 @@ Sa Interface Web Umbrel, otvorite App Store, potražite **Tailscale** i kliknite
 ![Écran de login Tailscale dans Umbrel](assets/fr/17.webp)
 
 
-*Ekran za povezivanje Tailscale u Umbrelovom Interface*
+*Ekran za povezivanje Tailscale u Umbrelovom interfejsu*
 
 
 
@@ -338,7 +338,7 @@ Samo **kliknite na "Log in"**, što će vas preusmeriti na Tailscale stranicu za
 
 
 
-Možete se autentifikovati putem vašeg Tailscale naloga (Google/GitHub/itd.) ili uneti vaš email. Obično, na Umbrel-u, Interface traži da posetite [https://login.tailscale.com](https://login.tailscale.com) i prijavite se - ovo autentifikuje Umbrel Tailscale aplikaciju.
+Možete se autentifikovati putem vašeg Tailscale naloga (Google/GitHub/itd.) ili uneti vaš email. Obično, na Umbrel-u, interfejs traži da posetite [https://login.tailscale.com](https://login.tailscale.com) i prijavite se - ovo autentifikuje Umbrel Tailscale aplikaciju.
 
 
 
@@ -349,7 +349,7 @@ Možete se autentifikovati putem vašeg Tailscale naloga (Google/GitHub/itd.) il
 
 
 
-Jednom kada završite, vaš Umbrel je "u" vašoj Tailscale mreži i pojavljuje se na vašoj konzoli sa imenom (npr. *umbrel*). Zatim možete kliknuti na IP Address vaših uređaja da ga kopirate, preuzmete IPv6 Address ili vaš MagicDNS povezan sa vašim uređajem.
+Jednom kada završite, vaš Umbrel je "u" vašoj Tailscale mreži i pojavljuje se na vašoj konzoli sa imenom (npr. *umbrel*). Zatim možete kliknuti na IP adresu vaših uređaja da ga kopirate, preuzmete IPv6 Address ili vaš MagicDNS povezan sa vašim uređajem.
 
 
 
@@ -365,11 +365,11 @@ Jednom kada završite, vaš Umbrel je "u" vašoj Tailscale mreži i pojavljuje s
 
 
 
-Jednom kada je Umbrel povezan sa Tailscale, **možete pristupiti Interface Umbrel i aplikacijama koje rade na njemu, sa bilo kog mesta, kao da ste na lokalnoj mreži**. Ovo je jedna od glavnih prednosti u odnosu na Tor.
+Jednom kada je Umbrel povezan sa Tailscale, **možete pristupiti Umbrel interfejsu i aplikacijama koje rade na njemu, sa bilo kog mesta, kao da ste na lokalnoj mreži**. Ovo je jedna od glavnih prednosti u odnosu na Tor.
 
 
 
-Pristup je izuzetno jednostavan: umesto korišćenja `umbrel.local` (što funkcioniše samo na vašoj lokalnoj mreži), koristite Tailscale IP vašeg Umbrela Address (`http://100.x.y.z`) direktno sa bilo kog uređaja povezanog na vaš tailnet. Ovo funkcioniše bez obzira na to gde se nalazite ili koju internet konekciju koristite (4G, javni Wi-Fi, korporativna mreža).
+Pristup je izuzetno jednostavan: umesto korišćenja `umbrel.local` (što funkcioniše samo na vašoj lokalnoj mreži), koristite Tailscale IP adresu vašeg Umbrela (`http://100.x.y.z`) direktno sa bilo kog uređaja povezanog na vaš tailnet. Ovo funkcioniše bez obzira na to gde se nalazite ili koju internet konekciju koristite (4G, javni Wi-Fi, korporativna mreža).
 
 
 
@@ -379,11 +379,11 @@ Pristup je izuzetno jednostavan: umesto korišćenja `umbrel.local` (što funkci
 
 
 
-- Interface main Umbrel**: Pristupite svojoj Umbrel kontrolnoj tabli jednostavno tako što ćete uneti `http://100.x.y.z` u vaš pretraživač
-- Bitcoin čvor**: Upravljajte svojim Bitcoin čvorom bez kašnjenja, pregledajte sinhronizaciju i statistiku
-- Lightning Node**: Koristite ThunderHub, RTL ili druge Lightning interfejse za upravljanje sa trenutnom odzivnošću
-- Mempool**: Pogledaj Bitcoin transakcije i Mempool bez Tor kašnjenja
-- noStrudel**: Pristupite vašim Nostr uslugama hostovanim na Umbrel
+- **Interface main Umbrel**: Pristupite svojoj Umbrel kontrolnoj tabli jednostavno tako što ćete uneti `http://100.x.y.z` u vaš pretraživač
+- **Bitcoin čvor**: Upravljajte svojim Bitcoin čvorom bez kašnjenja, pregledajte sinhronizaciju i statistiku
+- **Lightning čvor**: Koristite ThunderHub, RTL ili druge Lightning interfejse za upravljanje sa trenutnom odzivnošću
+- **Mempool**: Pogledaj Bitcoin transakcije i Mempool bez Tor kašnjenja
+- **noStrudel**: Pristupite vašim Nostr uslugama hostovanim na Umbrel
 
 
 
@@ -397,25 +397,25 @@ Tailscale takođe omogućava vašim Bitcoin i Lightning novčanicima instalirani
 
 
 
-- Sparrow wallet (Bitcoin)**: Ovaj eksterni Wallet Bitcoin može se direktno povezati sa vašim Umbrel Electrum serverom koristeći Tailscale IP Address:
+- **Sparrow wallet (Bitcoin)**: Ovaj eksterni Bitcoin novčanik može se direktno povezati sa vašim Umbrel Electrum serverom koristeći Tailscale IP adresu:
 
 
 
 ![Configuration Electrum dans Sparrow](assets/fr/21.webp)
 
 
-*Konfigurisanje privatnog Electrum servera u Sparrow wallet koristeći Umbrelov Tailscale IP Address*
+*Konfigurisanje privatnog Electrum servera u Sparrow novčaniku koristeći Umbrelov Tailscale IP adresu*
 
 
 
 ![Liste des serveurs Electrum dans Sparrow](assets/fr/22.webp)
 
 
-*Lista alias-a za Electrum server u Sparrow sa Umbrel Tailscale IP Address*
+*Lista alias-a za Electrum server u Sparrow sa Umbrel Tailscale IP adresom*
 
 
 
-Pročitajte naš kompletan vodič za konfiguraciju Sparrow wallet sa vašim Bitcoin čvorom:
+Pročitajte naš kompletan vodič za konfiguraciju Sparrow novčanika sa vašim Bitcoin čvorom:
 
 
 
@@ -424,14 +424,14 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (Lightning)**: This Wallet mobile Lightning can connect to your Lightning node on Umbrel. Instead of configuring the endpoint as `.onion', simply set the Tailscale IP of your Umbrel and the Lightning API port. The connection will be instantaneous compared to Tor.
+- **Zeus (Lightning)**: Ovaj mobilni Lightning novčanik može se povezati sa vašim Lightning čvorom na Umbrel-u. Umesto da podešavate endpoint kao .onion, jednostavno postavite Tailscale IP adresu vašeg Umbrel uređaja i Lightning API port. Veza će biti trenutna u poređenju sa Tor-om.
 
 
 
 ![Configuration Zeus avec IP Tailscale](assets/fr/23.webp)
 
 
-*Konfigurisanje Zeusa za povezivanje sa Lightning čvorom preko Tailscale* IP Address
+*Konfigurisanje Zeusa za povezivanje sa Lightning čvorom preko Tailscale* IP adrese
 
 
 
@@ -441,7 +441,7 @@ Da biste konfigurisali Zeus sa vašim Lightning čvorom, pogledajte naš detaljn
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Da biste saznali više o Lightning Network i kako funkcioniše na Umbrel-u, posetite :
+Da biste saznali više o Lightning mređi i kako funkcioniše na Umbrel-u, posetite :
 
 
 
@@ -465,7 +465,7 @@ To je rečeno, Tor ima prednost decentralizacije i "out of the box" na Umbrel-u,
 
 
 
-**Ukratko**, za interaktivnu upotrebu (Lightning novčanici, česta web sučelja), Tailscale nudi značajnu udobnost i brzinu u poređenju sa Tor-om, uz cenu blage spoljne zavisnosti. Mnogi ljudi biraju da koriste *oba*: Tailscale na dnevnoj bazi, a Tor kao rezervu ili za deljenje pristupa sa nekim bez pozivanja u njihov VPN.
+**Ukratko**, za interaktivnu upotrebu (Lightning novčanici, česti web interfejsi), Tailscale nudi značajnu udobnost i brzinu u poređenju sa Tor-om, uz cenu blage spoljne zavisnosti. Mnogi ljudi biraju da koriste *oba*: Tailscale na dnevnoj bazi, a Tor kao rezervu ili za deljenje pristupa sa nekim bez pozivanja u njihov VPN.
 
 
 
@@ -473,7 +473,7 @@ To je rečeno, Tor ima prednost decentralizacije i "out of the box" na Umbrel-u,
 
 
 
-Korišćenjem Tailscale-a sa Umbrel-om, izbegavate izlaganje Umbrel-a Internetu. Umbrel čvor je dostupan samo vašim drugim autentifikovanim uređajima u tailnet-u, što značajno smanjuje površinu napada (nema otvorenih portova za strance, nema rizika od napada na web servis putem Interneta).
+Korišćenjem Tailscale-a sa Umbrel-om, izbegavate izlaganje Umbrel-a internetu. Umbrel čvor je dostupan samo vašim drugim autentifikovanim uređajima u tailnet-u, što značajno smanjuje površinu napada (nema otvorenih portova za strance, nema rizika od napada na web servis putem interneta).
 
 
 
@@ -483,7 +483,7 @@ Komunikacije su šifrovane (WireGuard) pored bilo koje šifrovanja koje vaši se
 
 ---
 
-Da zaključimo ovaj deo, integracija Tailscale-a na Umbrel zahteva samo nekoliko klikova i **značajno poboljšava pristupačnost** vašeg samohostovanog čvora. Moći ćete da upravljate Umbrel-om i njegovim uslugama sa bilo kog mesta, sigurno i efikasno, baš kao da ste kod kuće. Ovo je posebno korisno rešenje za aplikacije u realnom vremenu (Lightning) koje pate od Tor latencije, ili generalno za bilo koji samohost koji traži jednostavnu privatnu vezu. Sve to bez izlaganja ijednog porta** na vašem uređaju, i bez komplikovane mrežne konfiguracije.
+Da zaključimo ovaj deo, integracija Tailscale-a na Umbrel zahteva samo nekoliko klikova i **značajno poboljšava pristupačnost** vašeg samohostovanog čvora. Moći ćete da upravljate Umbrel-om i njegovim uslugama sa bilo kog mesta, sigurno i efikasno, baš kao da ste kod kuće. Ovo je posebno korisno rešenje za aplikacije u realnom vremenu (Lightning) koje pate od Tor latencije, ili generalno za bilo koji samohost koji traži jednostavnu privatnu vezu. Sve to bez izlaganja ijednog **porta** na vašem uređaju, i bez komplikovane mrežne konfiguracije.
 
 
 
@@ -507,7 +507,7 @@ Da zaključimo ovaj deo, integracija Tailscale-a na Umbrel zahteva samo nekoliko
 
 
 
-**Deljenje uređaja omogućava vam da pozovete nekoga da pristupi određenoj mašini bez davanja pristupa celoj vašoj mreži.
+**Deljenje uređaja** omogućava vam da pozovete nekoga da pristupi određenoj mašini bez davanja pristupa celoj vašoj mreži.
 
 
 
@@ -515,11 +515,11 @@ Da zaključimo ovaj deo, integracija Tailscale-a na Umbrel zahteva samo nekoliko
 
 
 
-**Izlazni Čvor:** Koristite mašinu kao Internet prolaz da izađete sa njenom IP adresom. Korisno za javni Wi-Fi ili za zaobilaženje geografskih ograničenja.
+**Izlazni čvor:** Koristite mašinu kao internet prolaz da izađete sa njenom IP adresom. Korisno za javni Wi-Fi ili za zaobilaženje geografskih ograničenja.
 
 
 
-**Taildrop:** Sigurna alternativa za AirDrop, omogućava vam prenos fajlova između vaših Tailscale uređaja, bez obzira na njihovu platformu ili lokaciju. Za razliku od AirDrop-a, koji je ograničen na Apple ekosistem i fizičku blizinu, Taildrop radi između svih vaših uređaja (Windows, Mac, Linux, Android, iOS), čak i ako su u različitim zemljama. Fajlovi se prenose direktno između uređaja sa end-to-end enkripcijom, bez prolaska kroz centralni server. Koristite komandnu liniju `tailscale file cp` ili grafičku aplikaciju Interface u zavisnosti od vašeg sistema.
+**Taildrop:** Sigurna alternativa za AirDrop, omogućava vam prenos fajlova između vaših Tailscale uređaja, bez obzira na njihovu platformu ili lokaciju. Za razliku od AirDrop-a, koji je ograničen na Apple ekosistem i fizičku blizinu, Taildrop radi između svih vaših uređaja (Windows, Mac, Linux, Android, iOS), čak i ako su u različitim zemljama. Fajlovi se prenose direktno između uređaja sa end-to-end enkripcijom, bez prolaska kroz centralni server. Koristite komandnu liniju `tailscale file cp` ili grafičku aplikaciju u zavisnosti od vašeg sistema.
 
 
 
@@ -531,7 +531,7 @@ Da zaključimo ovaj deo, integracija Tailscale-a na Umbrel zahteva samo nekoliko
 
 
 
-**Kao direktni konkurent, ZeroTier radi na Layer 2 (Ethernet), omogućavajući broadcast/multicast, dok Tailscale radi na Layer 3 (IP). ZeroTier nudi veću fleksibilnost mreže, dok Tailscale favorizuje jednostavnost korišćenja.
+**Kao direktni konkurent, ZeroTier** radi na nivou 2 (Ethernet), omogućavajući broadcast/multicast, dok Tailscale radi na nivou 3 (IP). ZeroTier nudi veću fleksibilnost mreže, dok Tailscale favorizuje jednostavnost korišćenja.
 
 
 
@@ -539,7 +539,7 @@ Da zaključimo ovaj deo, integracija Tailscale-a na Umbrel zahteva samo nekoliko
 
 
 
-**Vs WireGuard priručnik:** Tailscale automatizuje sve upravljanje ključevima i vezama koje WireGuard sirovi zahteva da ručno rukujete. To je u suštini WireGuard + pojednostavljeno upravljanje Layer.
+**Vs WireGuard priručnik:** Tailscale automatizuje sve upravljanje ključevima i vezama koje čist WireGuard zahteva da ručno rukujete. To je u suštini WireGuard + pojednostavljeno upravljanje nivoem 3.
 
 
 
@@ -557,8 +557,8 @@ U zaključku, Tailscale se pozicionira kao moderno rešenje usmereno na jednosta
 
 
 
-- Jednostavnost i performanse** - Brza instalacija na svim platformama bez složene mrežne konfiguracije. Saobraćaj prati najdirektniji put između vaših mašina (P2P mesh), uz performanse WireGuard protokola i bez centralnog servera koji bi ograničio protok.
-- Sigurnost i fleksibilnost** - Kraj-do-kraj enkripcija, smanjena površina napada i napredne funkcije (ACL, SSO/MFA autentifikacija). Radi čak i iza NAT-ova ili u pokretu, sa podmrežnim ruterima i izlaznim čvorovima kako bi se mreža prilagodila vašim potrebama.
+- **Jednostavnost i performanse** - Brza instalacija na svim platformama bez složene mrežne konfiguracije. Saobraćaj prati najdirektniji put između vaših mašina (P2P mesh), uz performanse WireGuard protokola i bez centralnog servera koji bi ograničio protok.
+- **Sigurnost i fleksibilnost** - end-to-end enkripcija, smanjena površina napada i napredne funkcije (ACL, SSO/MFA autentifikacija). Radi čak i iza NAT-ova ili u pokretu, sa podmrežnim ruterima i izlaznim čvorovima kako bi se mreža prilagodila vašim potrebama.
 
 
 
@@ -568,16 +568,16 @@ U zaključku, Tailscale se pozicionira kao moderno rešenje usmereno na jednosta
 
 
 
-- Eksterna zavisnost** - U svojoj standardnoj verziji, usluga se oslanja na infrastrukturu Tailscale Inc. Ova zavisnost se može zaobići putem Headscale (alternativa za samostalno hostovanje).
-- Ostala ograničenja** - Delimično zatvoren izvorni kod, ograničenja besplatne verzije za određene napredne upotrebe, nema podrške za Layer 2 (broadcast/multicast), i potreba za pristupom Internetu za uspostavljanje veza.
+- **Eksterna zavisnost** - U svojoj standardnoj verziji, usluga se oslanja na infrastrukturu Tailscale Inc. Ova zavisnost se može zaobići putem Headscale (alternativa za samostalno hostovanje).
+- **Ostala ograničenja** - Delimično zatvoren izvorni kod, ograničenja besplatne verzije za određene napredne upotrebe, nema podrške za Layer 2 (broadcast/multicast), i potreba za pristupom internetu za uspostavljanje veza.
 
 
 
-**Tailscale je idealan za individualne self-hostove i male timove, programere kojima je potreban pristup raspršenim resursima, početnike u korišćenju VPN-a i mobilne korisnike. Za kompanije kojima je potrebna potpuna kontrola, druga rešenja kao što su Headscale ili direktno WireGuard mogu biti pogodnija.
+**Tailscale je idealan za individualne self-hostove i male timove, programere kojima je potreban pristup raspršenim resursima, početnike u korišćenju VPN-a i mobilne korisnike. Za kompanije kojima je potrebna potpuna kontrola, druga rešenja kao što su Headscale ili direktno WireGuard mogu biti pogodnija**.
 
 
 
-**Istražite Headscale za potpuno samostalno hostovanje, API i DevOps integracije (Terraform), ili alternative kao što su Innernet (slično, ali potpuno samostalno hostovano) i Netmaker.
+**Istražite Headscale za potpuno samostalno hostovanje, API i DevOps integracije (Terraform), ili alternative kao što su Innernet (slično, ali potpuno samostalno hostovano) i Netmaker.**
 
 
 
@@ -595,9 +595,9 @@ Tailscale je ključni alat za samostalno hostovanje, zahvaljujući svojoj jednos
 
 
 
-- Tailscale Documentation Center**: [docs.tailscale.com](https://docs.tailscale.com) - Kompletna dokumentacija na engleskom jeziku, vodiči za instalaciju, tutorijali i tehničke reference.
-- Kako Tailscale funkcioniše**: [Kako Tailscale funkcioniše](https://tailscale.com/blog/how-tailscale-works) - Detaljan članak koji objašnjava unutrašnje funkcionisanje Tailscale-a.
-- Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Praćenje ažuriranja i novih funkcija.
+- **Tailscale Documentation Center**: [docs.tailscale.com](https://docs.tailscale.com) - Kompletna dokumentacija na engleskom jeziku, vodiči za instalaciju, tutorijali i tehničke reference.
+- **Kako Tailscale funkcioniše**: [Kako Tailscale funkcioniše](https://tailscale.com/blog/how-tailscale-works) - Detaljan članak koji objašnjava unutrašnje funkcionisanje Tailscale-a.
+- **Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - Praćenje ažuriranja i novih funkcija.
 
 
 
@@ -607,9 +607,9 @@ Tailscale je ključni alat za samostalno hostovanje, zahvaljujući svojoj jednos
 
 
 
-- Homelab** tutorijali: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifični vodiči za samostalno hostovanje.
-- Konfigurisanje izlaznog čvora** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljan vodič za konfigurisanje izlaznih čvorova.
-- Koristite Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Prenosite fajlove između Tailscale uređaja.
+- **Homelab** tutorijali: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifični vodiči za samostalno hostovanje.
+- **Konfigurisanje izlaznog čvora** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Detaljan vodič za konfigurisanje izlaznih čvorova.
+- **Koristite Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Prenosite fajlove između Tailscale uređaja.
 
 
 
@@ -619,7 +619,7 @@ Tailscale je ključni alat za samostalno hostovanje, zahvaljujući svojoj jednos
 
 
 
-- Tailscale vs. other solutions**: [tailscale.com/compare](https://tailscale.com/compare) - Detaljna poređenja sa drugim VPN i mrežnim rešenjima (ZeroTier, OpenVPN, itd.).
+- **Tailscale vs. other solutions**: [tailscale.com/compare](https://tailscale.com/compare) - Detaljna poređenja sa drugim VPN i mrežnim rešenjima (ZeroTier, OpenVPN, itd.).
 
 
 
@@ -629,9 +629,9 @@ Tailscale je ključni alat za samostalno hostovanje, zahvaljujući svojoj jednos
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Diskusije, pitanja i povratne informacije.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Izvorni kod za korisnike, mesto gde možete pratiti razvoj i prijaviti probleme.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Zajednica korisnika i programera.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Diskusije, pitanja i povratne informacije.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Izvorni kod za korisnike, mesto gde možete pratiti razvoj i prijaviti probleme.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Zajednica korisnika i programera.
 
 
 

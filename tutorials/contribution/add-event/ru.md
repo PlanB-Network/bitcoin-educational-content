@@ -36,7 +36,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -61,7 +61,7 @@ address_line_1: Париж, Франция
 address_line_2: 
 address_line_3: 
 name: Парижская Биткоин Конференция 2024
-builder: Парижская Биткоин Конференция
+project: Парижская Биткоин Конференция
 type: conference
 book_online: false
 book_in_person: false
@@ -81,7 +81,7 @@ price_dollars: 0
   - International
 ```
 ![мероприятие](assets/09.webp)
-Если у вашей организации еще нет идентификатора "*builder*", вы можете добавить его, следуя этому другому учебному пособию.
+Если у вашей организации еще нет идентификатора "*project*", вы можете добавить его, следуя этому другому учебному пособию.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -139,3 +139,4 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 Обязательно следите за прогрессом вашего PR. Администратор может оставить комментарий с просьбой предоставить дополнительную информацию. Пока ваш PR не будет подтвержден, вы можете консультироваться с ним во вкладке `Pull requests` на GitHub репозитории сети PlanB: ![event](assets/38.webp)
 Большое спасибо за ваш ценный вклад! :)
+

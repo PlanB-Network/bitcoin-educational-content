@@ -36,7 +36,7 @@ address_line_1:
 address_line_2: 
 address_line_3: 
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -61,7 +61,7 @@ address_line_1: Pariisi, Ranska
 address_line_2: 
 address_line_3: 
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -81,7 +81,7 @@ tagit:
   - Kansainvälinen
 ```
 ![tapahtuma](assets/09.webp)
-Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
+Jos organisaatiollasi ei vielä ole "*project*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -146,3 +146,4 @@ Onnittelut! PR:äsi on luotu onnistuneesti. Ylläpitäjä tarkistaa sen nyt, ja 
 Muista seurata PR:si edistymistä. Ylläpitäjä saattaa jättää kommentin pyytäen lisätietoja. Niin kauan kuin PR:äsi ei ole vahvistettu, voit konsultoida sitä `Vetopyynnöt`-välilehdessä PlanB Networkin GitHub-repositoriossa:
 ![tapahtuma](assets/38.webp)
 Suurkiitokset arvokkaasta panoksestasi! :)
+

@@ -65,7 +65,7 @@ Klik pada file yang diunduh untuk menjalankannya, kemudian ikuti instruksi dari 
 
 Bagi pengguna macOS, instalasinya sedikit lebih rumit. Jika Anda ingin menggunakan versi asli KeePass seperti di Windows, ikuti instruksi di bawah ini. Jika tidak, Anda dapat memilih [KeePassXC](https://keepassxc.org/), versi alternatif yang kompatibel dengan macOS, yang menawarkan antarmuka yang sedikit berbeda.
 
-Untuk menggunakan KeePass, Anda memerlukan *runtime environment* untuk aplikasi .NET. Saya merekomendasikan untuk menginstal Mono untuk tujuan ini. Kunjungi [halaman resmi Mono](https://www.mono-project.com/download/stable/#download-mac) di bagian "macOS", lalu klik tautan untuk mengunduh paket instalasi (.pkg).
+Untuk menggunakan KeePass, Anda memerlukan *runtime environment* untuk aplikasi .NET. Saya merekomendasikan untuk menginstal Mono untuk tujuan ini. Kunjungi [halaman resmi Mono](https://www.mono-project.com/download/stable/#download-mac) di bagian "macOS", lalu klik tautan untuk mengunduh paket instalasi (`.pkg`).
 ![KEEPASS](assets/notext/03.webp)
 
 Buka file `.pkg` yang diunduh dan ikuti instruksi untuk menginstal Mono di Mac Anda.
@@ -74,7 +74,7 @@ Buka file `.pkg` yang diunduh dan ikuti instruksi untuk menginstal Mono di Mac A
 Selanjutnya, kunjungi situs web resmi KeePass dan unduh versi portabel terbaru dalam format `.zip`.
 ![KEEPASS](assets/notext/05.webp)
 
-Setelah mengunduh file '.zip', klik dua kali untuk mengekstraknya. Anda akan mendapatkan sebuah folder yang berisi beberapa file, termasuk 'KeePass.exe'. Buka terminal, lalu navigasikan ke folder KeePass (ganti 'xx' dengan nomor versi):
+Setelah mengunduh file `.zip`, klik dua kali untuk mengekstraknya. Anda akan mendapatkan sebuah folder yang berisi beberapa file, termasuk `KeePass.exe`. Buka terminal, lalu navigasikan ke folder KeePass (ganti `xx` dengan nomor versi):
 
 ```bash
 cd ~/Downloads/KeePass-2.xx
@@ -123,14 +123,14 @@ Kemudian pada menu "*New*".
 Perangkat lunak akan membuat database baru tempat kata sandi Anda akan disimpan. Anda perlu memilih lokasi untuk folder ini. Pilih lokasi yang mudah diakses.
 ![KEEPASS](assets/notext/16.webp)
 
-Setelahnya, Anda sebaiknya memikirkan untuk secara rutin mencadangkan folder ini untuk menghindari kehilangan kredensial Anda jika komputer hilang, rusak, atau dicuri. Sebagai contoh, Anda dapat menyalin basis data ke USB stick setiap minggu. File yang berisi database Anda bernama 'Database.kdbx' (dokumen ini dienkripsi dengan kata sandi utama Anda). Untuk saran lebih lanjut mengenai praktik pencadangan terbaik, saya juga merekomendasikan untuk melihat tutorial ini:
+Setelahnya, Anda sebaiknya memikirkan untuk secara rutin mencadangkan folder ini untuk menghindari kehilangan kredensial Anda jika komputer hilang, rusak, atau dicuri. Sebagai contoh, Anda dapat menyalin basis data ke USB stick setiap minggu. File yang berisi database Anda bernama `Database.kdbx` (dokumen ini dienkripsi dengan kata sandi utama Anda). Untuk saran lebih lanjut mengenai praktik pencadangan terbaik, saya juga merekomendasikan untuk melihat tutorial ini:
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Selanjutnya adalah pembuatan master password Anda.
 ![KEEPASS](assets/notext/17.webp)
 
-Seperti yang telah kita bahas di awal, kata sandi utama (master password) ini sangat penting karena memberikan Anda akses ke semua kata sandi lain yang tersimpan dalam database. Kata sandi ini akan digunakan untuk mengenkripsi Database 'Database.kdbx'. Ada dua risiko utama yang perlu diwaspadai: kehilangan dan penyusupan. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses semua kredensial Anda. Jika kata sandi Anda dicuri, selain database yang terenkripsi, penyerang akan dapat mengakses semua akun Anda.
+Seperti yang telah kita bahas di awal, kata sandi utama (master password) ini sangat penting karena memberikan Anda akses ke semua kata sandi lain yang tersimpan dalam database. Kata sandi ini akan digunakan untuk mengenkripsi Database `Database.kdbx`. Ada dua risiko utama yang perlu diwaspadai: kehilangan dan penyusupan. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses semua kredensial Anda. Jika kata sandi Anda dicuri, selain database yang terenkripsi, penyerang akan dapat mengakses semua akun Anda.
 
 Untuk meminimalkan risiko kehilangan, saya merekomendasikan untuk membuat cadangan fisik kata sandi utama (master password) Anda di kertas dan menyimpannya di tempat yang aman. Jika memungkinkan, segel cadangan ini dalam amplop yang aman untuk secara berkala memastikan tidak ada orang lain yang mengaksesnya.
 

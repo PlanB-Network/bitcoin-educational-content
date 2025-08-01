@@ -53,11 +53,11 @@ Mullvad Browser embarque une série de **fonctionnalités de sécurité et de co
 - **Navigation privée en permanence :** Le mode Navigation Privée est activé par défaut et impossible à désactiver. **Aucun historique, cookie ou cache n'est conservé d'une session à l'autre**. Dès que vous fermez Mullvad Browser, toutes les données de navigation sont effacées.
 
 - **Protection renforcée contre le fingerprinting :** Le navigateur applique des réglages stricts pour contrecarrer l'empreinte numérique. Cela inclut :
-  - **Uniformisation de l'agent utilisateur** et de la version du navigateur
-  - **Fuseau horaire fixé à UTC** pour tous les utilisateurs
-  - **Letterboxing** : technique qui ajoute automatiquement des marges grises autour des pages web pour standardiser la taille d'affichage et empêcher l'identification par les dimensions de votre écran
-  - **Blocage des API de fingerprinting** : les technologies Canvas (dessin 2D), WebGL (graphiques 3D) et AudioContext (traitement audio) sont neutralisées car elles peuvent révéler des détails uniques sur votre matériel
-  - **Polices système normalisées** pour éviter l'identification par les polices installées
+	- **Uniformisation de l'agent utilisateur** et de la version du navigateur
+	- **Fuseau horaire fixé à UTC** pour tous les utilisateurs
+	- **Letterboxing** : technique qui ajoute automatiquement des marges grises autour des pages web pour standardiser la taille d'affichage et empêcher l'identification par les dimensions de votre écran
+	- **Blocage des API de fingerprinting** : les technologies Canvas (dessin 2D), WebGL (graphiques 3D) et AudioContext (traitement audio) sont neutralisées car elles peuvent révéler des détails uniques sur votre matériel
+	- **Polices système normalisées** pour éviter l'identification par les polices installées
 
 - **Blocage des traqueurs et publicités :** Mullvad Browser intègre nativement l'extension **uBlock Origin** (préinstallée) avec des listes de protection supplémentaires afin de bloquer les **trackers tiers, scripts publicitaires et autres contenus malveillants**. Cette protection s'accompagne de l'**isolation des cookies tiers** (First-Party Isolation) : technique qui range les cookies dans des "pots" séparés pour chaque site web, empêchant ainsi un site de lire les cookies déposés par un autre.
 
@@ -98,13 +98,13 @@ Cette extension spécifique à Mullvad offre des fonctionnalités différentes s
 L'extension révèle son plein potentiel avec des fonctionnalités avancées :
 
 - **Proxy SOCKS5 intégré** : connexion directe au proxy du serveur VPN Mullvad avec un clic
-  - **Adresse IP fixe** : contrairement au VPN qui peut changer d'IP, le proxy garantit toujours la même adresse de sortie
-  - **Kill switch automatique** : si le VPN se déconnecte, le trafic navigateur est immédiatement bloqué
-  - **Support IPv6** : connectivité IPv6 même si votre connexion VPN ne l'a pas activée
+	- **Adresse IP fixe** : contrairement au VPN qui peut changer d'IP, le proxy garantit toujours la même adresse de sortie
+	- **Kill switch automatique** : si le VPN se déconnecte, le trafic navigateur est immédiatement bloqué
+	- **Support IPv6** : connectivité IPv6 même si votre connexion VPN ne l'a pas activée
 
 - **Multihop (double VPN)** : possibilité de changer la localisation du proxy pour créer un tunnel dans le tunnel
-  - Votre trafic passe d'abord par votre serveur VPN, puis "saute" vers un autre serveur Mullvad
-  - Permet d'utiliser une localisation différente uniquement pour le navigateur
+	- Votre trafic passe d'abord par votre serveur VPN, puis "saute" vers un autre serveur Mullvad
+	- Permet d'utiliser une localisation différente uniquement pour le navigateur
 
 - **Surveillance de connexion avancée** : monitoring en temps réel de votre statut VPN, serveur connecté, et détection des fuites DNS
 
@@ -126,7 +126,7 @@ Ces trois extensions travaillent ensemble pour créer un écosystème de protect
 
 ### Inconvénients
 
-- **Pas d'anonymat réseau sans VPN :** Le point le plus important est que **Mullvad Browser ne cache pas votre adresse IP par lui-même**. Votre adresse IP est comme votre "adresse postale" sur Internet : elle révèle votre localisation et votre fournisseur d'accès. Il **dépend donc fortement d'un VPN** (réseau privé virtuel) pour masquer cette information cruciale.
+- **Pas d'anonymat réseau sans VPN :** Le point le plus important est que **Mullvad Browser ne cache pas votre adresse IP par lui-même** (comme tous les autres navigateur, sauf Tor Browser). Votre adresse IP est comme votre "adresse postale" sur Internet : elle révèle votre localisation et votre fournisseur d'accès. Il **dépend donc fortement d'un VPN** (réseau privé virtuel) pour masquer cette information cruciale.
 
 - **Pas de version mobile :** À ce jour, Mullvad Browser n'est disponible que sur PC (Windows, Mac, Linux).
 
@@ -136,12 +136,14 @@ Ces trois extensions travaillent ensemble pour créer un écosystème de protect
 
 ## Installation de Mullvad Browser
 
-Mullvad Browser est disponible gratuitement pour Windows, macOS et Linux. Pour l'installer, rendez-vous sur [le site officiel de Mullvad](https://mullvad.net/fr/browser).
+Mullvad Browser est disponible gratuitement pour Windows, macOS et Linux. Pour l'installer, rendez-vous sur [le site officiel de Mullvad](https://mullvad.net/browser).
 
 ![MULLVAD BROWSER](assets/fr/02.webp)
+
 *Page d'accueil officielle de Mullvad Browser avec le bouton de téléchargement mis en évidence.*
 
 ![MULLVAD BROWSER](assets/fr/03.webp)
+
 *Sélectionnez votre système d'exploitation sur la page de téléchargement de Mullvad Browser.*
 
 Cliquez sur le bouton **"Télécharger"** correspondant à votre système d'exploitation.
@@ -162,6 +164,7 @@ Extrayez l'archive `.tar.xz` dans le répertoire de votre choix et exécutez le 
 Lors du premier lancement de Mullvad Browser, vous verrez une interface très similaire à celle de Tor Browser. Le navigateur est préconfiguré pour la confidentialité et ne nécessite aucune modification particulière.
 
 ![MULLVAD BROWSER](assets/fr/04.webp)
+
 *Interface d'accueil de Mullvad Browser avec les extensions, l'icône du balai pour générer une nouvelle identité et le menu de l'application en haut à droite.*
 
 **Important :** Mullvad Browser ne masque pas votre adresse IP par défaut. Pour une protection complète, il est fortement recommandé d'utiliser un VPN en parallèle. Vous pouvez utiliser Mullvad VPN ou tout autre service VPN de confiance.
@@ -173,6 +176,7 @@ Le navigateur inclut également **DNS-over-HTTPS (DoH)** utilisant le service DN
 Vous pouvez ajuster le niveau de sécurité en cliquant sur le **menu de l'application** (trois barres horizontales) en haut à droite, puis **"Paramètres"**, puis l'onglet **"Vie privée et sécurité"**. Descendez jusqu'à la section **"Sécurité"** :
 
 ![MULLVAD BROWSER](assets/fr/05.webp)
+
 *Choix des niveaux de sécurité : les flèches montrent le chemin depuis le menu de l'application vers l'onglet "Vie privée et sécurité" jusqu'aux options de sécurité.*
 
 Mullvad Browser propose trois niveaux de sécurité :
@@ -180,20 +184,21 @@ Mullvad Browser propose trois niveaux de sécurité :
 - **Normal** (niveau actuel par défaut) : Toutes les fonctions du navigateur et des sites Web sont activées
 
 - **Plus sûr** : Désactive les fonctions souvent dangereuses des sites Web, ce qui pourrait entraîner une perte de fonctionnalité de certains sites Web :
-  - JavaScript est désactivé pour les sites non HTTPS
-  - Certaines polices et certains symboles mathématiques sont désactivés
-  - Le son et la vidéo (médias HTML5) ainsi que WebGL sont "cliquer pour lire"
+	- JavaScript est désactivé pour les sites non HTTPS
+	- Certaines polices et certains symboles mathématiques sont désactivés
+	- Le son et la vidéo (médias HTML5) ainsi que WebGL sont "cliquer pour lire"
 
 - **Le plus sûr** : Ne permet que les fonctions de sites Web exigées pour les sites statiques et les services de base :
-  - JavaScript est désactivé par défaut pour tous les sites
-  - Certaines polices, icônes, images et certains symboles mathématiques sont désactivés
-  - Le son et la vidéo (médias HTML5) ainsi que WebGL sont "cliquer pour lire"
+	- JavaScript est désactivé par défaut pour tous les sites
+	- Certaines polices, icônes, images et certains symboles mathématiques sont désactivés
+	- Le son et la vidéo (médias HTML5) ainsi que WebGL sont "cliquer pour lire"
 
 ### Bouton de nouvelle session
 
 Pour redémarrer avec une session vierge sans fermer le navigateur, cliquez sur l'icône du balai ou utilisez le menu de l'application > **"Nouvelle session"**.
 
 ![MULLVAD BROWSER](assets/fr/06.webp)
+
 *Fonction "Réinitialiser votre identité" permettant de redémarrer le navigateur avec une session complètement vierge.*
 
 ## Utilisation au quotidien

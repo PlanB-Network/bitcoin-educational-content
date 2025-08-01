@@ -1,0 +1,9 @@
+question: Milline projekt pani 1960. aastate lõpus aluse kaasaegsele internetile?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET oli esimene ühendatud võrk, mis oli mõeldud mitme teaduskeskuse ühendamiseks ja on Interneti otsene eelkäija.
+reviewed: false

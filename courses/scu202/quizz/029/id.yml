@@ -1,0 +1,9 @@
+question: Versi Ubuntu mana yang direkomendasikan untuk pemula karena stabilitas dan lamanya dukungannya?
+answer: LTS (Dukungan Jangka Panjang)
+wrong_answers:
+  - Rilis Bergulir
+  - Versi pertama
+  - Rilis Alpha
+explanation: |
+  Versi LTS dari Ubuntu dipertahankan selama lima tahun dan menawarkan stabilitas yang lebih baik, membuatnya ideal untuk pengguna pemula.
+reviewed: false

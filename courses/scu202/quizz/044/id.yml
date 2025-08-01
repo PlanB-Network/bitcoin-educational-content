@@ -1,0 +1,9 @@
+question: Operasi apa yang memastikan bahwa perangkat lunak yang diunduh belum dimodifikasi sejak publikasi resminya?
+answer: Verifikasi integritas melalui Hash
+wrong_answers:
+  - Verifikasi keaslian melalui tanda tangan pengembang
+  - Analisis perangkat lunak melalui firewall
+  - Menjalankan program dalam mode aman
+explanation: |
+  Pemeriksaan integritas didasarkan pada perbandingan Hash dari file yang diunduh dengan yang diterbitkan oleh pengembang. Setiap modifikasi pada file akan mengubah Hash ini.
+reviewed: false

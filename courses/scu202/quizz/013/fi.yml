@@ -1,0 +1,9 @@
+question: Mikä hanke aloitettiin vuonna 1983 täysin vapaan käyttöjärjestelmän luomiseksi?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window System -projekti
+  - Avoimen lähdekoodin aloite
+explanation: |
+  Richard Stallman käynnisti GNU-projektin vuonna 1983 kehittääkseen täysin vapaan käyttöjärjestelmän.
+reviewed: false

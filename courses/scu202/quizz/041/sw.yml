@@ -1,0 +1,9 @@
+question: Ni hati gani, ambayo mara nyingi huitwa SHA256SUMS au MANIFEST, inahitajika ili kuthibitisha uadilifu wa programu iliyopakuliwa?
+answer: Faili inayoorodhesha nyayo za programu
+wrong_answers:
+  - Mwongozo wa mtumiaji
+  - Faili inayoorodhesha saini za wasanidi programu
+  - Msimbo kamili wa chanzo cha mradi
+explanation: |
+  Faili ya maelezo au faili ya SHA256SUMS ina Hash ya kila faili inayosambazwa na mradi, na kuwezesha uadilifu wake kuthibitishwa.
+reviewed: false

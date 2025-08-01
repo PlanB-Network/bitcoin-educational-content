@@ -1,0 +1,9 @@
+question: Hvilken type programvare anbefales for transparente nedlastinger?
+answer: Gratis programvare
+wrong_answers:
+  - Egenutviklet programvare
+  - Programvare i betaversjon
+  - Programvare med integrert reklame
+explanation: |
+  Programvare med åpen kildekode anbefales fordi koden kan revideres av fellesskapet, noe som øker sikkerheten og åpenheten.
+reviewed: false

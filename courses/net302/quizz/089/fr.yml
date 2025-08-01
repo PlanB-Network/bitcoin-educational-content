@@ -1,0 +1,9 @@
+question: Quel protocole est utilisé par la commande ping pour tester la connectivité réseau ?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  La commande ping utilise le protocole ICMP pour envoyer des Echo Request et mesurer la latence réseau.
+reviewed: false

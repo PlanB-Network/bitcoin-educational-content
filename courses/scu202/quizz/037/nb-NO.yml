@@ -1,0 +1,9 @@
+question: Hvilken programvarekategori representerer et av de mest kritiske inngangspunktene for angrep på en datamaskin?
+answer: Nettleseren
+wrong_answers:
+  - PDF-leseren
+  - Tekstredigeringsprogram
+  - Filbehandleren
+explanation: |
+  Nettleseren er konstant eksponert for eksternt innhold, noe som gjør den til en viktig angrepsvektor for nettkriminelle.
+reviewed: false

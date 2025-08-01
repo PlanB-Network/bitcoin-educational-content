@@ -1,0 +1,9 @@
+question: Welches Ereignis zwang Google dazu, Android auf ein berührungsempfindliches Interface auszurichten?
+answer: Die Veröffentlichung des ersten iPhone
+wrong_answers:
+  - Die Übernahme von Nokia durch Microsoft
+  - Die Entstehung von CyanogenMod
+  - Der Start des Play Store
+explanation: |
+  Mit dem Erscheinen des iPhones im Jahr 2007 sah sich Google gezwungen, Android zu überarbeiten, um es Touchscreen-kompatibel zu machen und die Idee eines Geräts mit einer physischen Tastatur aufzugeben.
+reviewed: false

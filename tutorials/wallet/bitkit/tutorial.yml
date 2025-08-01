@@ -16,8 +16,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - jacobo-synonym
-    reward: 0
-
+    reward: 0.6
 tags:
   - wallets
   - guides

@@ -1,0 +1,9 @@
+question: Czym jest dystrybucja Linuksa?
+answer: Kompletny system operacyjny zbudowany wokół jądra Linux
+wrong_answers:
+  - Menedżer pakietów
+  - Środowisko graficzne Linux
+  - Zautomatyzowany skrypt instalacyjny dla systemu operacyjnego Linux
+explanation: |
+  Dystrybucja Linuksa integruje jądro, narzędzia systemowe, oprogramowanie, bootloader i zarządzanie pakietami, aby zapewnić gotowy do użycia system.
+reviewed: false

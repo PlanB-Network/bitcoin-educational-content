@@ -1,0 +1,9 @@
+question: Mikä on käyttöjärjestelmän tärkein tehtävä?
+answer: Välittäjä laitteiston, käyttäjän ja sovellusten välillä
+wrong_answers:
+  - Integroitu virustorjunta
+  - Grafiikkaohjelmisto
+  - Pikaviestipalvelin
+explanation: |
+  Käyttöjärjestelmä toimii keskusohjelmistona Layer, jonka avulla sovellukset ja käyttäjä voivat käyttää ja hallita laitteistoa.
+reviewed: false

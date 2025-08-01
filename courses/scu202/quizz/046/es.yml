@@ -1,0 +1,9 @@
+question: Al automatizar las copias de seguridad, ¿qué precauciones esenciales hay que tomar regularmente?
+answer: Prueba de restauración
+wrong_answers:
+  - Cambiar de proveedor de Internet
+  - Desactivar las copias de seguridad de vacaciones
+  - Pruebas de cifrado
+explanation: |
+  Es importante restaurar una copia de seguridad con regularidad para garantizar que los archivos no estén dañados o inaccesibles cuando sea necesario.
+reviewed: false

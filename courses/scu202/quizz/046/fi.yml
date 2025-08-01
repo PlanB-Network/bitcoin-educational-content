@@ -1,0 +1,9 @@
+question: Kun varmuuskopioita automatisoidaan, mitä olennaisia varotoimia on toteutettava säännöllisesti?
+answer: Testin palauttaminen
+wrong_answers:
+  - Vaihda Internet-palveluntarjoajaa
+  - Poista lomavarmuuskopiot käytöstä
+  - Salauksen testaaminen
+explanation: |
+  On tärkeää palauttaa varmuuskopio säännöllisesti, jotta varmistetaan, että tiedostot eivät ole vioittuneet tai että niitä ei voi käyttää silloin, kun niitä tarvitaan.
+reviewed: false

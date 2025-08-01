@@ -1,0 +1,9 @@
+question: À quoi sert la notation IPv4 spéciale 0.0.0.0 ?
+answer: À désigner toutes les interfaces ou une adresse non assignée
+wrong_answers:
+  - À envoyer un message à tous les réseaux
+  - À tester la connexion locale d'un équipement
+  - À indiquer une erreur d’adressage ou de connexion au routeur local
+explanation: |
+  La notation 0.0.0.0 est utilisée localement pour désigner l’absence d’adresse ou l’écoute sur toutes les interfaces.
+reviewed: false

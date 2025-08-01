@@ -1,0 +1,9 @@
+question: Pada mesin Linux, alat apa yang dapat menganalisis keamanan sistem dan generate laporan terperinci dengan rekomendasi?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Sinaptik
+explanation: |
+  Lynis adalah alat audit keamanan yang komprehensif untuk Linux, yang memindai sistem untuk mencari kerentanan dan kesalahan konfigurasi.
+reviewed: false

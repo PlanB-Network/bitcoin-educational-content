@@ -20,7 +20,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Finalstepbitcoin
-    reward: 1
+    reward: 1.35
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -116,3 +116,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.44
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57

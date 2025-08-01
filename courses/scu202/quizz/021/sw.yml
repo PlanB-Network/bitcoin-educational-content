@@ -1,0 +1,9 @@
+question: Ni sehemu gani ya mazingira ya eneo-kazi inatumika kutazama faili na folda?
+answer: Kidhibiti faili
+wrong_answers:
+  - Msimamizi wa kikao
+  - Mtunzi X11
+  - Meneja wa kifurushi
+explanation: |
+  Kidhibiti faili (kama Nautilus, Dolphin, Thunar) huruhusu mtumiaji kudhibiti faili na folda kupitia Interface ya picha.
+reviewed: false

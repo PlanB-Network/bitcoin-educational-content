@@ -1,0 +1,9 @@
+question: 什么操作可以确保下载的软件在正式发布后未被修改？
+answer: 通过 Hash 进行完整性验证
+wrong_answers:
+  - 通过开发人员的签名验证真实性
+  - 通过防火墙进行软件分析
+  - 在安全模式下运行程序
+explanation: |
+  完整性检查基于将下载文件的 Hash 与开发者发布的 Hash 进行比较。对文件的任何修改都会修改该 Hash。
+reviewed: false

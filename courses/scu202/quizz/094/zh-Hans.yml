@@ -1,0 +1,9 @@
+question: 哪个项目在 20 世纪 60 年代末奠定了现代互联网的基础？
+answer: ARPANET
+wrong_answers:
+  - 万维网
+  - TCP/IP
+  - 以太网
+explanation: |
+  ARPANET 是第一个互联网络，旨在连接多个研究中心，是互联网的直接前身。
+reviewed: false

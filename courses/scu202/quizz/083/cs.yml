@@ -1,0 +1,9 @@
+question: Která služba pro zasílání zpráv umožňuje zcela anonymní registraci bez telefonního čísla nebo trvalého přihlášení?
+answer: SimpleX Chat
+wrong_answers:
+  - Signál
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat se obejde bez jedinečného identifikátoru: kontakty se přidávají pomocí efemérních odkazů nebo QR kódů a nejsou vyžadovány žádné osobní údaje.
+reviewed: false

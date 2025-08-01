@@ -1,0 +1,9 @@
+question: Welches Betriebssystem dominiert heute den PC-Markt?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows hat dank seiner Standardinstallation und seines umfangreichen Software-Ökosystems einen Marktanteil von 71 % bei Personalcomputern.
+reviewed: false

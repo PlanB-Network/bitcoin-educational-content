@@ -1,0 +1,9 @@
+question: Hvilken tjeneste erstatter ISP DNS for å beskytte konfidensialiteten til nettforespørsler?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 er en offentlig DNS-server med fokus på personvern, som filtrerer bort ondsinnede domener og ikke lagrer noen nominative logger.
+reviewed: false

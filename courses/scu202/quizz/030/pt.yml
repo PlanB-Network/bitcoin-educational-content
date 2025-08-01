@@ -1,0 +1,9 @@
+question: Que ferramenta de código aberto pode encriptar totalmente um disco no Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - Cofre de ficheiros
+  - SuperCrypt
+explanation: |
+  O LUKS (Linux Unified Key Setup) é a solução padrão no Linux para encriptação total do disco durante a instalação.
+reviewed: false

@@ -120,6 +120,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 221.93
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 177.57
 tags:
   - protocols
   - complex-DIY

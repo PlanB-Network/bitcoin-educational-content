@@ -1,0 +1,9 @@
+question: 哪条网络安全规则建议将每个用户或软件的权利限制在严格必要的范围内？
+answer: 最小特权原则
+wrong_answers:
+  - 双重认证
+  - 强密码政策
+  - 定期备份
+explanation: |
+  最小特权原则是指只授予每项任务必要的权限，从而降低泄密风险。
+reviewed: false

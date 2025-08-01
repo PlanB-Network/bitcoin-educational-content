@@ -126,7 +126,7 @@ $ cargo install --path . --all-features --locked
 
 Como nos indica el compilador de Rust, los binarios se copiaron al directorio $HOME/.cargo/bin, si tu compilador los copió a un lugar diferente, debes asegurarte de que ese directorio esté incluido en $PATH.
 
-Entre los binarios instalados podemos ver tres demonios o servicios (los archivos que terminan en d) y una interfaz de línea de comandos (cli), la cli nos permite interactuar con el demonio principal rgbd. Como en este tutorial vamos a ejecutar dos nodos, también necesitaremos dos clientes, cada uno debe conectarse a su propio nodo, para eso creamos dos alias.
+Entre los binarios instalados podemos ver tres daemons o servicios (los archivos que terminan en d) y una interfaz de línea de comandos (cli), la cli nos permite interactuar con el daemon principal rgbd. Como en este tutorial vamos a ejecutar dos nodos, también necesitaremos dos clientes, cada uno debe conectarse a su propio nodo, para eso creamos dos alias.
 
 ```
 alias rgb0-cli="$HOME/.cargo/bin/rgb-cli -d $HOME/rgbdata/data0 -n testnet"

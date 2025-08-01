@@ -28,15 +28,16 @@ links:
 # Description
 # Write the main description of the content
 description: |
-  The journey from Normie to Bitcoiner.
+  Keep 2 space after each new line, like you can see here;
+  the journey from Normie to Bitcoiner.
   Normal people tell the story of how they found the greatest money ever invented.
-Go to https://planb.network/en/resources/podcasts to see more podcasts
+  Go to https://planb.network/en/resources/podcasts to see more podcasts
 
 # Tags
 # Choose from the list the associated tags to this content
 # The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
-  - bitcoin
+  - adoption
   - finance
   - easy-explain
 

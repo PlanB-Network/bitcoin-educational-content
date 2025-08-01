@@ -1,0 +1,9 @@
+question: Ni huduma gani inachukua nafasi ya ISP DNS ili kulinda usiri wa maombi ya wavuti?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 ni seva ya DNS ya umma inayolenga faragha, ambayo huchuja vikoa hasidi na kuweka kumbukumbu zisizo za kawaida.
+reviewed: false

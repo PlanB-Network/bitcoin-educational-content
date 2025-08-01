@@ -1,0 +1,9 @@
+question: Qual é a principal vantagem da distribuição de lançamentos contínuos?
+answer: Utilizar o software mais recente
+wrong_answers:
+  - Maior compatibilidade com o Windows
+  - Um ambiente sem gráficos Interface
+  - Apoio obrigatório às vendas
+explanation: |
+  Os lançamentos contínuos integram actualizações de software contínuas, garantindo o acesso permanente às versões mais recentes.
+reviewed: false

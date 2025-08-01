@@ -1,0 +1,9 @@
+question: Quelle information fondamentale une passerelle NAT doit-elle enregistrer pour chaque flux réseau ?
+answer: La correspondance entre IP interne et IP publique
+wrong_answers:
+  - Le type de câble réseau utilisé
+  - La correspondance entre adresse IP et serveur DNS
+  - Le type de protocole réseau utilisé
+explanation: |
+  Le fonctionnement du NAT repose sur une table maintenant la correspondance entre adresses internes et adresses publiques pour router correctement les paquets.
+reviewed: false

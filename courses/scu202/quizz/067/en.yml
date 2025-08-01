@@ -1,0 +1,9 @@
+question: What is the main purpose of a VPN when surfing a public Wi-Fi network?
+answer: Encrypt traffic between device and VPN server
+wrong_answers:
+  - Anonymize your Internet connection
+  - Automatically install updates
+  - Generate strong passwords
+explanation: |
+  A VPN encrypts all network traffic, protecting your data from interception on unsecured networks such as public Wi-Fi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué protocolo de cifrado Wi-Fi es mejor para proteger su red doméstica?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - SRS rápido
+explanation: |
+  WPA3 es el protocolo más reciente y seguro, que corrige los fallos de las versiones anteriores y ofrece mayor protección contra los ataques.
+reviewed: false

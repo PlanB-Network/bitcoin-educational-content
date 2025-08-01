@@ -1,0 +1,9 @@
+question: Millä komennolla voidaan päivittää kaikki Ubuntu-jakelun paketit?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf päivitys
+  - sudo update-all
+explanation: |
+  Ubuntussa (ja Debianissa) komento "sudo apt update && sudo apt upgrade" synkronoi pakettiluettelon ja asentaa kaikki saatavilla olevat päivitykset.
+reviewed: false

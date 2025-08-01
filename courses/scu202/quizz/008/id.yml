@@ -1,0 +1,9 @@
+question: Apa kelemahan utama dari ekosistem macOS?
+answer: Keterbatasan dan ketergantungan pada Apple
+wrong_answers:
+  - Terlalu banyak keterbukaan perangkat lunak
+  - Optimalisasi grafis yang lemah
+  - Kurangnya pembaruan
+explanation: |
+  Integrasi MacOS yang ketat dengan perangkat keras Apple menyebabkan ketergantungan dan penguncian pada ekosistem milik merek tersebut.
+reviewed: false

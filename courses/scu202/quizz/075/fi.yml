@@ -1,0 +1,9 @@
+question: Mitkä ovat mobiilivirustorjuntasovellusten tärkeimmät rajoitukset?
+answer: Ne ovat rajallisia todellisten uhkien edessä
+wrong_answers:
+  - Ne tekevät puhelimesta yhteensopimattoman matkapuhelinverkkojen kanssa
+  - Ne poistavat viestisovellukset
+  - Ne lisäävät akun käyttöikää
+explanation: |
+  Mobiilivirustorjuntaohjelmisto ei tarjoa suojaa tietojenkalastelulta tai huonoilta valtuutuksilta, ja se suojaa vain rajoitetusti tärkeimmiltä uhkilta.
+reviewed: false

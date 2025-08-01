@@ -1,0 +1,9 @@
+question: Quale formato di pacchetto ha sviluppato Canonical per isolare le applicazioni e le loro dipendenze?
+answer: Scatto
+wrong_answers:
+  - Immagine dell'applicazione
+  - Portage
+  - NUMERO DI GIRI
+explanation: |
+  Il formato Snap, sviluppato da Canonical, consente l'installazione di software autonomo, isolato dal sistema e aggiornato in modo indipendente.
+reviewed: false

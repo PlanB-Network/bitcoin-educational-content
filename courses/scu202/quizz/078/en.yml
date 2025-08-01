@@ -1,0 +1,9 @@
+question: What is the best recommended screen-locking method for a smartphone?
+answer: Alphanumeric password
+wrong_answers:
+  - Graphic diagram
+  - Facial recognition
+  - No locking
+explanation: |
+  Alphanumeric passwords offer the best resistance to unauthorized access attempts, unlike graphical schemes or biometrics.
+reviewed: false

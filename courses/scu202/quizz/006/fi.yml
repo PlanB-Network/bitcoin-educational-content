@@ -1,0 +1,9 @@
+question: Mikä on käyttöjärjestelmän ytimen tärkein tehtävä?
+answer: Hallitse pääsyä laitteisiin
+wrong_answers:
+  - Näytä mainokset
+  - Käyttäjätilien hallinta
+  - Asenna sovellukset automaattisesti
+explanation: |
+  Ydin hallitsee laitteistokäyttöä, prosessien samanaikaista suorittamista ja tietoturvaa piilottaen samalla piirien monimutkaisuuden käyttäjältä.
+reviewed: false

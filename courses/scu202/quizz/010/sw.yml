@@ -1,0 +1,9 @@
+question: Jina la mascot ya nembo ya Linux ni nini?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Mnyama
+  - daemon
+explanation: |
+  Tux imekuwa mascot rasmi ya Linux kernel tangu 1996, iliyoundwa na Larry Ewing.
+reviewed: false

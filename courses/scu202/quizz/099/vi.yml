@@ -1,0 +1,9 @@
+question: Giao thức mã hóa Wi-Fi nào là tốt nhất để bảo mật mạng gia đình của bạn?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - BSS nhanh
+explanation: |
+  WPA3 là giao thức mới nhất và an toàn nhất, khắc phục các lỗi của phiên bản trước và cung cấp khả năng bảo vệ tốt hơn trước các cuộc tấn công.
+reviewed: false

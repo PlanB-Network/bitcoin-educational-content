@@ -1,0 +1,9 @@
+question: ¿Qué prácticas son esenciales para limitar la exposición de sus datos cuando navega por Internet?
+answer: Borre las cookies regularmente
+wrong_answers:
+  - Guardar todas las cookies
+  - Desactivar el modo privado del navegador
+  - Utilizar un navegador obsoleto
+explanation: |
+  Borrar o limitar las cookies reduce el seguimiento publicitario y preserva la privacidad durante la navegación por la web.
+reviewed: false

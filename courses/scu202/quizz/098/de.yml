@@ -1,0 +1,9 @@
+question: Was ist der Hauptnutzen der VLAN-basierten Netzwerksegmentierung in einem Heimnetzwerk?
+answer: Isolieren Sie verschiedene Arten von Geräten oder Verwendungen
+wrong_answers:
+  - Erhöhung der Wi-Fi-Reichweite für Geräte
+  - Verschlüsseln Sie Netzwerkverbindungen individuell für jedes Gerät
+  - WPA3 automatisch aktivieren
+explanation: |
+  VLANs können zur Abschottung von Geräten verwendet werden, um die Ausbreitung eines Angriffs zwischen den Segmenten zu begrenzen.
+reviewed: false

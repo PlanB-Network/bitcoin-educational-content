@@ -31,7 +31,7 @@ Plan ₿ Network inalenga kuwa uwanja wa umma wa mtandao wa Bitcoin, kuunganisha
 Plan ₿ Network kimsingi inazungumza lugha nyingi, kwa kuwa lengo letu ni kufanya rasilimali za Bitcoin zipatikane na kila mtu duniani kote. Tunaamini kuwa lugha isiwe kikwazo kwa pesa za watawala.
 
 
-Ili kufanikisha hili, tunatumia mbinu ya Human x AI. Kupitia [mpango] wetu (https://github.com/Asi0Flammeus/LLM-Translator), tunaweza kutafsiri kiotomatiki maudhui yetu katika lugha nyingi. Hata hivyo, tunahitaji mzungumzaji fasaha ili kukagua ili kuhakikisha maudhui yanaeleweka na hayana masharti yasiyofaa.
+Ili kufanikisha hili, tunatumia mbinu ya Human x AI. Kupitia [mpango] wetu (https://github.com/Asi0Flammeus/LLM-Translator), tunaweza kutafsiri kiotomatiki maudhui yetu katika lugha nyingi. Hata hivyo, tunahitaji mzungumzaji fasaha ili kukagua na kuhakikisha maudhui yanaeleweka na hayana masharti yasiyofaa.
 
 
 Ikiwa ungependa kusaidia kujenga mradi huu wa elimu ili kukuza elimu ya Bitcoin katika jumuiya yako, unaweza kuanza kwa kukagua kozi au mafunzo.
@@ -43,7 +43,7 @@ Zaidi ya hayo, tunapothamini muundo wa *Value4Value*, tutatuza michango ya ukagu
 ## Je! ninahitaji kujua jinsi GitHub inavyofanya kazi?
 
 
-Huhitaji kuwa mtaalam wa GitHub kukagua yaliyomo. Ingawa daima ni bora kuelewa unachofanya (na kwa nini), unaweza kufuata maagizo hapa chini ili kuchangia.
+Hauhitaji kuwa mtaalam wa GitHub kukagua yaliyomo. Ingawa daima ni bora kuelewa unachofanya (na kwa nini), unaweza kufuata maagizo hapa chini ili kuchangia.
 
 
 Walakini, ikiwa hujui Git na GitHub na unataka kujifunza zaidi, unaweza kuangalia nakala yetu ya utangulizi juu ya zana hizi:
@@ -90,7 +90,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 - Suala hili lina maelezo (cf. \**A\**) yenye viungo vya maudhui asili na faili ya kukagua.
-- Ikiwa ungependa kusimamia ukaguzi, acha maoni kuhusu suala hilo (cf. \**B\**) ili kuashiria kuwa utalifanyia kazi. Hii inazuia juhudi zilizorudiwa.
+- Ikiwa ungependa kusimamia ukaguzi, acha maoni kuhusu suala hilo (cf. \**B\**) ili kuashiria kuwa utalifanyia kazi. Hili linazuia juhudi zilizorudiwa.
 - Bofya kiungo kilicho karibu na faili ili kukagua (cf. \**C\**) ili kufikia maudhui.
 
 
@@ -120,7 +120,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakionyeshwa kwenye dirisha tofauti. Kwa mfano, unaweza kutazama maandishi kwenye tovuti ya Plan ₿ Network au katika hakikisho la GitHub kwenye kichupo cha kivinjari. Tumia `ctrl + F` kutafuta makosa na kufanya masahihisho katika mwonekano wa msimbo unapoendelea.
+NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakionyeshwa kwenye dirisha tofauti. Kwa mfano, unaweza kutazama maandishi kwenye tovuti ya Plan ₿ Network au katika hakikisho la GitHub kwenye kichupo cha kivinjari. Tumia `ctrl + F` kutafuta makosa na kufanya marekebisho katika mwonekano wa msimbo unapoendelea.
 
 
 ## 4. Fanya mabadiliko
@@ -160,7 +160,7 @@ NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakion
 
 
 - Ikiwa hujakamilisha ukaguzi wako na ungependa kuendelea na kazi yako baadaye, unaweza kuondoka.
-- Alimradi umefanya mabadiliko yako, yanahifadhiwa kwenye GitHub Fork yako.
+- Alimradi umefanya mabadiliko yako, yakahifadhiwa kwenye GitHub Fork yako.
 - Ili kuendelea na kazi yako, nenda kwa Fork yako ya hazina ya maudhui ya Plan ₿ Network kupitia wasifu wako wa GitHub.
 
 

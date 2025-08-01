@@ -1,0 +1,9 @@
+question: Androidスマートフォンに代替ROMをインストールするには？
+answer: ブートローダーのアンロック
+wrong_answers:
+  - アップルアカウントを作成する
+  - 専用SIMカードの取り付け
+  - iOSでデベロッパーモードを有効にする
+explanation: |
+  Androidスマートフォンに新しいシステムイメージを書き込むには、ブートローダーのロック解除が不可欠です。
+reviewed: false

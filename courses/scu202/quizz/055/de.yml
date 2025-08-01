@@ -1,0 +1,9 @@
+question: Welche Rendering-Engine ist heute am weitesten verbreitet und wird von den meisten modernen Browsern verwendet?
+answer: Blinken
+wrong_answers:
+  - Gecko
+  - Dreizack
+  - WebKit
+explanation: |
+  Blink, das von Google aus einem WebKit Fork entwickelt wurde, ist heute die vorherrschende Rendering-Engine, die unter anderem Chrome, Edge, Opera, Brave und Vivaldi antreibt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Usambazaji wa Linux ni nini?
+answer: Mfumo kamili wa uendeshaji uliojengwa karibu na kinu cha Linux
+wrong_answers:
+  - Meneja wa kifurushi
+  - Mazingira ya eneo-kazi la Linux
+  - Hati ya usakinishaji otomatiki ya mfumo wa uendeshaji wa Linux
+explanation: |
+  Usambazaji wa Linux huunganisha kernel, zana za mfumo, programu, bootloader na usimamizi wa kifurushi ili kutoa mfumo tayari kutumia.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký je hlavní důvod, proč je nutné udržovat prohlížeč aktualizovaný?
+answer: Oprava kritických bezpečnostních zranitelností
+wrong_answers:
+  - Zlepšení rychlosti načítání stránek
+  - Předcházení phishingu
+  - Optimalizace spotřeby paměti
+explanation: |
+  Aktualizace upřednostňují zranitelnosti zabezpečení, které by mohly útočníkovi umožnit kompromitaci systému.
+reviewed: false

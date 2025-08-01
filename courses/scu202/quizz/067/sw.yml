@@ -1,0 +1,9 @@
+question: Ni nini kusudi kuu la VPN wakati wa kutumia mtandao wa umma wa Wi-Fi?
+answer: Simba trafiki kati ya kifaa na seva ya VPN
+wrong_answers:
+  - Usitambulishe muunganisho wako wa Mtandao
+  - Sakinisha masasisho kiotomatiki
+  - Manenosiri yenye nguvu ya generate
+explanation: |
+  VPN husimba trafiki yote ya mtandao kwa njia fiche, huku ikilinda data yako dhidi ya kunaswa kwenye mitandao isiyolindwa kama vile Wi-Fi ya umma.
+reviewed: false

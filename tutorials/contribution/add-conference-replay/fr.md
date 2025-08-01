@@ -38,7 +38,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -55,7 +55,7 @@ Par exemple, votre fichier YAML pourrait ressembler à celui-ci :
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conférence 2024
-builder: Paris Bitcoin Conférence
+project: Paris Bitcoin Conférence
 location: Paris, France 
 language: 
   - fr
@@ -70,7 +70,7 @@ tags:
 
 ![conference](assets/09.webp)
 
-Si vous n'avez pas encore d'identifiant "*builder*" pour votre organisation, vous pouvez l'ajouter en suivant cet autre tutoriel.
+Si vous n'avez pas encore d'identifiant "*project*" pour votre organisation, vous pouvez l'ajouter en suivant cet autre tutoriel.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -220,4 +220,5 @@ Félicitations ! Votre PR a bien été créée. Un administrateur va maintena
 Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de PlanB Network :
 ![conference](assets/46.webp)
 Merci beaucoup pour votre précieuse contribution ! :)
+
 

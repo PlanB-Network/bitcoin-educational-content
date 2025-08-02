@@ -866,7 +866,7 @@ ip addr show dev eth2
 ip addr add 172.18.2.39/24 dev eth2
 ```
 
-### Scripts d’activation : `ifup` / `ifdown`
+### Scripts d’activation : ifup / ifdown
 
 Les utilitaires `ifup` et `ifdown` lisent les fichiers statiques de `/etc/sysconfig/network-scripts/` (sur RHEL, CentOS, Rocky Linux, AlmaLinux…) ou `/etc/network/interfaces` (sur Debian/Ubuntu) afin d'activer ou de désactiver proprement les interfaces.
 
@@ -1045,7 +1045,7 @@ Enfin, IPv6 a été conçu pour coexister avec les protocoles historiques. S’i
 
 L’un des changements majeurs avec IPv6 est le format même de l’adresse IP. Pour résoudre la pénurie chronique d’adresses IPv4, la longueur de l’adresse a été portée à 128 bits, soit 16 octets, contre seulement 32 bits pour IPv4. En théorie, cela ouvre un champ d'adresses possibles de :
 
-$$3,4 \times 10^{38}$$
+$$3.4 \times 10^{38}$$
 
 Cela garantit ainsi une capacité quasi illimitée pour accueillir tous les équipements actuels et futurs.
 

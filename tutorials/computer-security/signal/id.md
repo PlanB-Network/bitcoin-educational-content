@@ -14,7 +14,7 @@ Dibandingkan dengan WhatsApp, Signal lebih unggul karena transparansinya: kode a
 
 Meskipun demikian, Signal masih bergantung pada penggunaan nomor telepon, yang merupakan kelemahan utamanya dalam hal anonimitas dibandingkan dengan solusi lain. Meskipun demikian, menurut pendapat saya, aplikasi ini adalah salah satu yang paling dapat diandalkan dalam hal keamanan dan privasi. Hal ini berkat arsitekturnya yang sepenuhnya terbuka serta protokol enkripsi yang diadopsi secara luas, sehingga telah teruji dan diaudit, tidak seperti aplikasi lain yang lebih marjinal.
 
-| Aplikasi             | E2EE 1:1       | E2EE grup      | Pendaftaran anonim  | Lisensi klien open-source | Lisensi server open-source | Server terdesentralisasi | Tahun pembuatan   |
+| Aplikasi             | E2EE 1:1       | E2EE grup      | Pendaftaran anonim  | Lisensi open-source Pengguna | Lisensi open-source Server | Server terdesentralisasi | Tahun pembuatan   |
 | -------------------- | -------------- | -------------- | ------------------- | ------------------------- | -------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                         | ❌                          | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                         | ❌                          | ❌                        | 2011              |
@@ -23,18 +23,18 @@ Meskipun demikian, Signal masih bergantung pada penggunaan nomor telepon, yang m
 | LINE                 | ✅              | ✅              | ❌                   | ❌                         | ❌                          | ❌                        | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                         | ✅                          | ❌                        | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                         | ❌                          | ❌                        | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (terfederasi)        | 2016              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (gabungan)        | 2016              |
 | Delta Chat           | ✅              | ✅              | ✅                   | ✅                         | N/A                        | 🟡 (melalui email)      | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (terfederasi)        | 2014              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (gabungan)        | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                         | ✅                          | ✅                        | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                         | ✅                          | ✅                        | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                         | ❌                          | 🟡(tidak ada direktori) | 2019              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                         | ❌                          | 🟡(tidak ada direktori pusat) | 2019              |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                         | N/A                        | ✅                        | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2013              |
 
-*E2EE = End-to-end encryption*
+*E2EE = Enkripsi End-to-end (End-to-end encryption)*
 
 ## Instalasi aplikasi Signal
 

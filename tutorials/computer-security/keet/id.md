@@ -32,7 +32,7 @@ Saat ini (April 2025), Keet belum sepenuhnya *open-source*. Beberapa *source cod
 | Briar                | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2013              |
 
-*E2EE = End-to-end encryption*
+*E2EE = Enkripsi End-to-end*
 
 ## Instal Keet
 

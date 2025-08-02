@@ -15,7 +15,7 @@ SimpleX sepenuhnya open source (klien, protokol dan server), tersedia di Android
 
 SimpleX mengintegrasikan semua fitur klasik aplikasi kirim pesan. Namun, ergonomisnya tetap kurang lancar dibandingkan WhatsApp atau Signal. Penggunaannya juga bisa lebih membatasi, terutama saat menambahkan kontak. Jadi, menurut saya, SimpleX adalah alternatif yang relevan untuk WhatsApp atau Signal bagi pengguna yang menempatkan privasi sebagai inti prioritas mereka, dan yang bersedia, karena alasan tersebut, untuk membuat beberapa kelonggaran pada kenyamanan penggunaan sehari-hari.
 
-| Aplikasi             | E2EE 1:1       | E2EE grup      | Pendaftaran anonim  | Lisensi klien open-source | Lisensi server open-source | Server terdesentralisasi | Tahun pembuatan   |
+| Aplikasi             | E2EE 1:1       | E2EE grup      | Pendaftaran anonim  | Lisensi open-source Pengguna | Lisensi open-source Server | Server terdesentralisasi | Tahun pembuatan   |
 | -------------------- | -------------- | -------------- | ------------------- | ------------------------- | -------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                         | ❌                          | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                         | ❌                          | ❌                        | 2011              |
@@ -24,18 +24,18 @@ SimpleX mengintegrasikan semua fitur klasik aplikasi kirim pesan. Namun, ergonom
 | LINE                 | ✅              | ✅              | ❌                   | ❌                         | ❌                          | ❌                        | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                         | ✅                          | ❌                        | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                         | ❌                          | ❌                        | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (terfederasi)        | 2016              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (gabungan)        | 2016              |
 | Delta Chat           | ✅              | ✅              | ✅                   | ✅                         | N/A                        | 🟡 (melalui email)      | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (terfederasi)        | 2014              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                         | ✅                          | 🟡 (gabungan)        | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                         | ✅                          | ✅                        | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                         | ✅                          | ✅                        | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                         | ❌                          | 🟡(tidak ada direktori) | 2019              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                         | ❌                          | 🟡(tidak ada direktori pusat) | 2019              |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                         | N/A                        | ✅                        | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2013              |
 
-*E2EE = End-to-end encryption*
+*E2EE = Enkripsi End-to-end (End-to-end encryption)*
 
 ## Instalasi Aplikasi SimpleX Chat
 

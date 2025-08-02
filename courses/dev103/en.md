@@ -1,4 +1,14 @@
-# Introduction
+---
+name: JavaScript and NodeJS Fundamentals
+goal: Learn JavaScript programming fundamentals and NodeJS development to build practical applications and tools.
+objectives:
+  - Master basic JavaScript syntax, types, and control flow
+  - Understand functions, objects, and classes in JavaScript
+  - Learn error handling and debugging techniques
+  - Get introduced to NodeJS and its ecosystem
+---
+
+# Start your development journey
 
 Welcome to this course on JavaScript and NodeJS.
 
@@ -6,20 +16,14 @@ JavaScript is the most popular programming language in the world: it is the scri
 
 This course is designed for people who are completely new to programming, or who have used other languages before but want to understand how JavaScript works, especially in the context of NodeJS. 
 
-It is divided into four main sections:
-
-1) **Basic JavaScript**: how to write JavaScript, how to run it, and the basic operations it can do. 
-2) **Intermediate JavaScript**: features that will make your code easier to write and to debug
-3) **Advanced JavaScript**: not really "advanced", but mostly things that new developers tend to find tricky, like iterators, async, async iterators...
-4) **Introducing NodeJS**: what NodeJS is and how to use it to interface JavaScript with the operating system
-
-The explanations are written in a no-nonsense way. We'll go straight to the point and try to explain things in simple terms, with practical examples and lots of code you can try yourself.
-
 By the end of the course, you should be able to write your own programs in JavaScript, use the NodeJS standard library, and install and use third-party packages to build useful tools.
 
++++
 # Basic JavaScript
+<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
 
 ## Setup
+<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 In this section we're gonna setup our machine to write and execute our first JavaScript program.
 
@@ -128,6 +132,7 @@ This will print
 ```
 
 ## Variables and comments
+<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
 
 Programs usually execute operations on data.
 
@@ -344,6 +349,7 @@ And the comment will be ignored.
 You can use comments to add small annotations to your code, so that you might remember what it does and why is it written in a certain way. It can also help other programmers understand it.
 
 ## Basic types: numbers, strings, booleans
+<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
 
 In JavaScript, a “type” tells you what kind of data a value is.
 
@@ -543,6 +549,7 @@ Javascript also has `>=` to mean "bigger or equal" and `<=` to mean "smaller or 
 Booleans, comparison and logical operators are often combined in programs to declare complex conditions, like to ensure "the email has arrived AND it contains the image I need OR the length of the email is longer than 10000 characters". You will find later that these are essential building blocks to construct the logic of the program.
 
 ## Arrays, null, undefined
+<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
 
 In this section, we’ll cover three more types that are very common in JavaScript programs:
 
@@ -728,6 +735,7 @@ Alice
 So `null` is useful when you want to say, for example, “There should be something here later, but right now it’s empty.”
 
 ## Blocks and control flow
+<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
 
 So far, we’ve mostly written lines of code that run one after the other. 
 
@@ -1150,6 +1158,7 @@ console.log(totalDaysInOneYear)  // Print the total number of days in the year (
 This was a very boring example but hopefully it clarified the (occasional) need for labels.
 
 ## Introducing functions
+<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
 
 As your programs grow, you'll often want to **reuse** pieces of code.
 
@@ -1333,6 +1342,7 @@ console.log(x)
 This will print `undefined`. The return value of a function that didn't return anything is `undefined`.
 
 ## Objects and classes
+<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
 
 JavaScript is often called an object-oriented language. 
 
@@ -1877,8 +1887,10 @@ console.log(ourAdmin instanceof User)    // true
 Both lines return `true`. That’s because `Admin` is a subclass of `User`, therefore `ourAdmin` is both an `Admin` and a `User`
 
 # Intermediate JavaScript
+<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
 
 ## Error Handling
+<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
 
 As you write more complex JavaScript programs, you'll encounter **errors**. These are unexpected situations where something goes wrong. Maybe a variable is `undefined` but you try to use it, or some code receives the wrong type of input.
 
@@ -1997,6 +2009,7 @@ This will run no matter what.
 ```
 
 ## Avoiding Bugs
+<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
 
 This chapter shows some of the most common pitfalls in JavaScript, and how to avoid them.
 
@@ -2068,6 +2081,7 @@ Without strict mode, JavaScript would silently create a global variable called `
 Strict mode also disables some outdated features of JavaScript, and makes your code easier to optimize and maintain.
 
 ## Value vs Reference
+<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
 
 JavaScript treats different kinds of values in different ways.
 
@@ -2194,6 +2208,7 @@ It didn’t get a copy. It got access to the original object, and with that it g
 It's important to remember this distinction, because otherwise our code might behave differently from what we expect. For example, we might write a function with the expectation that it will not modify the arguments it receives, and find out later that it was actually modifying them (because they were objects, so they were passed by reference).
 
 ## Working with Functions
+<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
 
 You’ve already learned how to declare and use functions in JavaScript. But JavaScript gives you more tools to work with functions in powerful ways.
 
@@ -2400,6 +2415,7 @@ console.log(result) // 28
 ```
 
 ## Working with Objects
+<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
 
 In this chapter, we'll learn some powerful and slightly more advanced tools for working with objects in JavaScript.
 
@@ -2506,6 +2522,7 @@ When we do `user.fullName = "John Smith"`, it runs the `set` method and updates 
 So even though it feels like we’re just setting a simple variable, we’re actually triggering logic that updates other properties.
 
 ## Keys and Values
+<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
 
 Every property in a JavaScript object has a **key** (also called a property name) and a **value**.
 
@@ -2647,6 +2664,7 @@ console.log(obj) // { name: 'Jimmy', [Symbol(name)]: 'John' }
 As you can see, the original `name` property is somehow preserved this way. This can be useful in certain edge cases.
 
 ## Utility Objects
+<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
 
 JavaScript gives us some useful built-in objects that help us do things like debugging and math operations.
 
@@ -2774,8 +2792,10 @@ console.log(Math.sqrt(16))    // 4
 ```
 
 # Advanced JavaScript
+<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
 
 ## Other collections
+<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
 
 JavaScript gives us some special collection types that go beyond regular arrays and objects. These include `Map` and `Set`.
 
@@ -2899,6 +2919,7 @@ console.log(numberSet) // Set(5) { 1, 2, 3, 4, 5 }
 The `Set` avoids the duplicates for you.
 
 ## Iterators
+<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
 
 Most things in JavaScript that you can loop over (like arrays, strings, maps, sets) are **iterable**: they can provide iterators for their contents.
 
@@ -3167,6 +3188,7 @@ This prints:
 ```
 
 ## Concurrency with callbacks
+<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
 
 Until now, our code has been **synchronous**: it runs one line at a time, in order. But some things in the real world take time, and we don’t want the entire program to pause while waiting.
 
@@ -3261,6 +3283,7 @@ doubleNumbers(input, function(doubled) {
 This is hard to read and messy. This style is called **callback hell**, and it’s exactly what `Promise` was created to fix.
 
 ## Concurrency with Promises
+<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
 
 A `Promise` is a built-in JavaScript object that represents a value that will **be ready in the future**.
 
@@ -3528,6 +3551,7 @@ Let’s walk through what this does:
 Each `.then()` waits for the step before it to finish. So we can build a **chain of actions** without nesting. This makes the code more readable and easier to debug.
 
 ## Concurrency with `async`/`await`
+<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
 We saw how `Promise` chains help us avoid callback hell, but they can still get a little hard to read when there are many steps involved.
 
@@ -3687,6 +3711,7 @@ This is much easier to read than chaining `.then()` or nesting callbacks.
 It looks like a regular step-by-step program, but it still behaves asynchronously.
 
 ## Async Iterators
+<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
 
 You already learned about **iterators** and how we can use `for...of` to loop over arrays and other iterable things.
 
@@ -3830,6 +3855,7 @@ run()
 This allows you to create objects that can be iterated over asynchronously 
 
 ## Assignment syntax sugar
+<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
 
 "Syntax sugar" means writing something in a shorter or easier way, without changing what it does. It’s just a nicer way to say the same thing. 
 
@@ -4019,8 +4045,10 @@ console.log(updated) // { name: "Alice", age: 31 }
 This is very useful when updating objects without changing the original.
 
 # NodeJS
+<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
 
 ## How did we get to Node
+<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
 
 In this chapter we will learn a little of historical context about JavaScript and NodeJS. 
 
@@ -4079,6 +4107,7 @@ In 2009, Ryan Dahl published NodeJS, which is a runtime that allows you to use t
 In this course so far, we've explored the JavaScript features that are present in both the browser and in NodeJS. Those features allowed us to define data and manipulate it in abstract ways. In the next few lessons, we'll explore the features that are specific to NodeJS and allow us to interact with the operating system.
 
 ## Command line arguments
+<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
 
 NodeJS allows us, among other things, to build CLIs (Command Line Interfaces). 
 
@@ -4133,6 +4162,7 @@ console.log(args)
 Having access to the arguments that the user is passing is fundamental to develop command-line applications.
 
 ## Modules
+<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
 
 JavaScript runtimes like NodeJS usually treat each JavaScript file as a separate module.
 
@@ -4236,6 +4266,7 @@ You don’t have to install these built-in modules, they come with NodeJS. They 
 The next chapters will show you some useful examples of their usage.
 
 ## The `fs` module
+<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
 The `fs` module (short for **file system**) is part of the NodeJS standard library. It allows you to work with files and directories on your computer: you can read files, write files, delete them, rename them, and more.
 
@@ -4489,6 +4520,7 @@ main().catch(err => console.error(err))
 
 
 ## NPM
+<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
 
 When you write code , you will often need to use code written by other people; for example, libraries to help you work with dates, colors, servers, or almost anything else.
 
@@ -4647,6 +4679,7 @@ But these are things you should worry about later, once you start publishing you
 
 
 ## Networking in NodeJS
+<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
 
 NodeJS is often used as a language for backend: you can turn your script into a server, and also use it to make requests to other servers. 
 
@@ -4799,6 +4832,7 @@ const server = http.createServer((req, res) => {
 These are very basic examples. For building more advanced servers, most devs would probably download a ready-made backend library like [express](https://www.npmjs.com/package/express).
 
 ## Processing data: buffers, events, streams
+<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
 
 In this chapter we'll introduce primarily three classes of objects:
 
@@ -5174,7 +5208,8 @@ Usually we would pipe data using the  `.pipe()` method, which handles backpressu
 
 So you only need to worry about backpressure when for some reason you're manually calling `.write()`.
 
-# Final note
+## Final note
+<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
 
 So, that's it, if you followed along with the lessons, you should now be able to write some simple programs in NodeJS.
 
@@ -5185,3 +5220,18 @@ It doesn't really matter what you build, what matters is that you challenge your
 Modern programming languages are incredibly powerful, and NodeJS is probably the best toolbox to experiment with in this phase of your journey.
 
 Good luck!
+
+# Final section
+
+<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+
+## Reviews & Ratings
+
+<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Conclusion
+
+<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>

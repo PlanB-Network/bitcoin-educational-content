@@ -46,7 +46,7 @@ Dès le premier lancement, LibreWolf offre un ensemble de fonctionnalités orien
 **Protection anti-fingerprint renforcée :** L'empreinte numérique permet d'identifier un navigateur de façon unique via sa configuration, même sans cookies. Pour contrer cela, LibreWolf active la technologie RFP (Resist Fingerprinting) issue du projet Tor, afin de rendre votre navigateur le plus générique possible. Des tests montrent qu'un Firefox standard est unique à ~90% sur des outils comme coveryourtracks.eff.org, contre seulement ~10-20% pour LibreWolf.
 
 ![LIBREWOLF](assets/fr/07.webp)
-*Page de test Cover Your Tracks de l'EFF avec le bouton TEST YOUR BROWSER mis en avant par une flèche blanche. Cette page permet d'évaluer la protection contre les traqueurs et le fingerprinting.*
+*Page de test [Cover Your Tracks](https://coveryourtracks.eff.org/) de l'EFF avec le bouton TEST YOUR BROWSER. Cette page permet d'évaluer la protection contre les traqueurs et le fingerprinting.*
 
 ![LIBREWOLF](assets/fr/08.webp)
 *Résultat du test Cover Your Tracks. Le message "you have strong protection against Web tracking" s'affiche, montrant l'efficacité des protections de LibreWolf.*
@@ -85,6 +85,8 @@ Dès le premier lancement, LibreWolf offre un ensemble de fonctionnalités orien
 
 ## Installation de LibreWolf
 
+**Site officiel :** [librewolf.net](https://librewolf.net)
+
 LibreWolf est disponible sur les principaux systèmes d'exploitation de bureau : Linux, Windows et macOS. Pour télécharger LibreWolf, rendez-vous sur le site officiel :
 
 ![LIBREWOLF](assets/fr/02.webp)
@@ -111,7 +113,6 @@ Téléchargez l'installeur (.exe) depuis le site officiel ou utilisez les gestio
 ### Sur macOS
 LibreWolf est disponible sous forme de package .dmg pour Mac. Téléchargez l'image disque sur le site officiel et glissez-déposez l'application LibreWolf dans votre dossier Applications. Alternativement, vous pouvez l'installer via Homebrew.
 
-**Lien de téléchargement :** Le site officiel [librewolf.net](https://librewolf.net) centralise les informations de téléchargement pour chaque plateforme.
 
 ## Configuration et première utilisation
 

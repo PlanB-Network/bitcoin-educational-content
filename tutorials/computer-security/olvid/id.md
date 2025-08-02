@@ -38,7 +38,7 @@ Olvid telah tersertifikasi oleh ANSSI (otoritas keamanan siber Prancis). Aplikas
 | Briar                | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2013              |
 
-*E2EE = Enkripsi End-to-end*
+*E2EE = Enkripsi End-to-end (End-to-end encryption)*
 
 ## Instal aplikasi Olvid
 

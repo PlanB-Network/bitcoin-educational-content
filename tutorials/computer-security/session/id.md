@@ -34,7 +34,7 @@ Session utamanya ditujukan bagi pengguna yang memprioritaskan kerahasiaan dalam 
 | Briar                | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2018              |
 | Tox                  | ✅              | ✅              | ✅                   | ✅                         | N/A                        | ✅                        | 2013              |
 
-*E2EE = Enkripsi End-to-end*
+*E2EE = Enkripsi End-to-end (End-to-end encryption)*
 
 ## Instal aplikasi Session
 

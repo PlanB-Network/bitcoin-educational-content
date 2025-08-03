@@ -198,8 +198,6 @@ Mradi tu unafuata sheria, uko huru kuitumia utakavyo bila kuomba ruhusa kutoka k
 
 kukagua miamala kulingana na matakwa ya mamlaka kuu, ambayo inashinda madhumuni ya Mining kwanza.
 
-
-
 - Iwapo watu*wanaofanya miamala* katika Bitcoin walipaswa kutoa maelezo ya kibinafsi, kutangaza miamala yao ilihusu nini, au kuthibitisha vinginevyo kwamba walistahili kufanya kazi, tutahitaji pia kituo kikuu cha mamlaka ili kuidhinisha watumiaji au miamala. Tena, hii inaweza kusababisha udhibiti na kutengwa.
 
 

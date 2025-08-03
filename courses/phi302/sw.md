@@ -225,7 +225,6 @@ Anaeleza kuwa, ili kufikia kutokuwa na ruhusa, mfumo huo kwa uwezekano mkubwa un
 . Hakuna kamati au watendaji katika Bitcoin. Gregory Maxwell, tena [kwenye subreddit ya Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), analinganisha hii na lugha ya Kiingereza kwa njia ya kushangaza:
 
 
-> Watu wengi wana muda wa Hard kuelewa mifumo ya uhuru, kuna mambo mengi katika maisha yao kama lugha ya Kiingereza-- lakini watu huichukulia kawaida na hata hawafikirii kama mifumo. Wamekwama katika njia kuu ya kufikiria ambapo kila kitu wanachofikiria kama 'kitu' kina mamlaka inayokidhibiti.
 > Watu wengi hupata ugumu kuelewa mifumo inayojiendesha yenyewe. Kuna mifumo mingi ya aina hiyo katika maisha yao — kama vile lugha ya Kiingereza — lakini watu huichukulia kawaida tu bila hata kuifikiria kama mifumo. Wanakwama katika mtazamo wa kimamlaka, ambapo kila kitu wanachokiona kama "kitu" lazima kiwe na mamlaka inayokidhibiti.
 
 > Bitcoin haina mkazo wa aina yoyote. Watu mbalimbali waliokumbatia Bitcoin walichagua kwa hiari yao kuieneza, na jinsi wanavyoamua kuifanya ni juu yao wenyewe. Watu waliobobea katika fikra za kimamlaka wanaweza kuona shughuli hizi na kudhani kuwa ni juhudi za mamlaka fulani ya Bitcoin — lakini mamlaka hiyo haipo.
@@ -234,7 +233,10 @@ Jinsi Bitcoin inavyofanya kazi kupitia ugatuaji inafanana na akili ya pamoja isi
 
 
 > Pili, na jambo ambalo bado naliona kuwa la kushangaza zaidi, ni kwamba tunajua hakuna viongozi wanaosimamia kundi hili la samaki. Badala yake, tabia hii ya kipekee ya akili ya pamoja inatokea kabisa kutokana na mwingiliano kati ya samaki mmoja na mwingine. Kwa namna fulani, kuna mwingiliano au kanuni za mawasiliano kati ya samaki wa karibu zinazofanya kila kitu kifanye kazi.
-> Kwa namna fulani, kuna mwingiliano huu au sheria za ushiriki kati ya samaki wa jirani ambazo hufanya yote yafanyike.
+
+
+> Kwa namna fulani, kuna mwingiliano huu au sheria za ushiriki kati ya samaki wa jirani ambazo hufanya yote yafanyike
+
 
 Anasema kuwa mifumo mingi, ama ya asili au ya bandia, inaweza na kufanya kazi bila viongozi, na ina nguvu na ustahimilivu. Kila mtu huingiliana tu na mazingira yao ya karibu, lakini kwa pamoja huunda kitu kikubwa.
 
@@ -267,7 +269,9 @@ Mifumo iliyogatuliwa inaweza kuwa ngumu kuielewa, lakini kuna mifano ya kiakili 
 ![](assets/trustlessness-banner.webp)
 
 
-Sura hii inatenganisha dhana ya Trustlessness, maana yake kutoka kwa mtazamo wa sayansi ya kompyuta, na kwa nini Bitcoin inapaswa kuwa trustless ili kuhifadhi pendekezo lake la thamani. Kisha tunazungumza kuhusu maana ya kutumia Bitcoin kwa njia ya trustless, na ni aina gani ya dhamana ambayo full node inaweza na haiwezi kukupa. Katika sehemu ya mwisho, tunaangalia mwingiliano wa ulimwengu halisi kati ya Bitcoin na programu au watumiaji halisi, na hitaji la kufanya mabadilishano kati ya urahisi na kutokuwa na uaminifu ili kufanya chochote.
+Sura hii inatenganisha dhana ya Trustlessness, maana yake kutoka kwa mtazamo wa sayansi ya kompyuta, na kwa nini Bitcoin inapaswa kuwa trustless ili kuhifadhi pendekezo lake la thamani. 
+
+Kisha tunazungumza kuhusu maana ya kutumia Bitcoin kwa njia ya trustless, na ni aina gani ya dhamana ambayo full node inaweza na haiwezi kukupa. Katika sehemu ya mwisho, tunaangalia mwingiliano wa ulimwengu halisi kati ya Bitcoin na programu au watumiaji halisi, na hitaji la kufanya mabadilishano kati ya urahisi na kutokuwa na uaminifu ili kufanya chochote.
 
 
 Watu mara nyingi husema mambo kama "Bitcoin ni nzuri kwa sababu ni Trustless".
@@ -289,11 +293,10 @@ Katika mifumo ya serikali kuu, tunategemea sifa ya mwigizaji mkuu ili kuhakikish
 
 Inaonekana kuwa hatuwezi kuwa na mfumo uliogatuliwa kwa msingi wa uaminifu, na ndiyo maana kutokuwa na uaminifu ni muhimu katika Bitcoin.
 
-
-Ili kutumia Bitcoin kwa njia ya trustless, lazima uendeshe full node ya Bitcoin inayofanya uthibitishaji kamili. Hapo ndipo utaweza kuthibitisha kuwa block unazopokea kutoka kwa wengine zinafuata sheria za makubaliano — kwa mfano, kwamba ratiba ya utoaji wa sarafu inazingatiwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye blockchain. Ikiwa hutumii full node, unatoa jukumu la uthibitishaji wa block za Bitcoin kwa mtu mwingine na kumwamini akuambie ukweli, jambo linalomaanisha kuwa hutumii Bitcoin kwa njia ya trustless.l
-
+Ili kutumia Bitcoin kwa njia ya trustless, lazima uendeshe full node ya Bitcoin inayofanya uthibitishaji kamili. Hapo ndipo utaweza kuthibitisha kuwa block unazopokea kutoka kwa wengine zinafuata sheria za makubaliano — kwa mfano, kwamba ratiba ya utoaji wa sarafu inazingatiwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye blockchain. Ikiwa hutumii full node, unatoa jukumu la uthibitishaji wa block za Bitcoin kwa mtu mwingine na kumwamini akuambie ukweli, jambo linalomaanisha kuwa hutumii Bitcoin kwa njia ya trustless
 
 David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) akieleza jinsi kuendesha full node — au kutumia Bitcoin kwa njia ya trustless — kunakusaidia:
+
 
 
 > Sarafu ya Bitcoin inafanya kazi tu wakati watu wanakubali bitcoins katika Exchange kwa vitu vingine vya thamani. Hiyo ina maana ni watu wanaokubali bitcoins ambao wanaipa thamani na ambao wanapata kuamua jinsi Bitcoin inapaswa kufanya kazi.

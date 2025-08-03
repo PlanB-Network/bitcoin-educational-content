@@ -201,3 +201,5 @@ Votre transaction apparaîtra maintenant sur le tableau de bord de votre portefe
 ![GREEN](assets/fr/38.webp)
 
 *Ce tutoriel est établi sur [une version originale appartenant à Bitstack](https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet) rédigée par Loïc Morel. Bitstack est une néo-banque Bitcoin française qui offre la possibilité d'épargner en bitcoins, soit en DCA (Dollar Cost Averaging), soit via un système d'arrondi automatique des dépenses quotidiennes.*
+
+

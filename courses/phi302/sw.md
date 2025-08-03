@@ -80,18 +80,15 @@ Hii inachanganua ugatuaji ni nini na kwa nini ni muhimu kwa Bitcoin kufanya kazi
 Kisha mjadala hubadilika na kuelekea kuelewa kutoegemea upande wowote — au kutokuwa na ruhusa kwa watumiaji, miners na wasanidi programu — ambayo ni nyenzo muhimu ya mfumo wowote wa madaraka. Hatimaye, tunagusia jinsi Hard inavyoweza kuwa kufahamu mfumo uliogatuliwa kama Bitcoin, na kuwasilisha baadhi ya mifano ya kiakili ambayo inaweza kukusaidia kuusumbua.
 
 
-Mfumo usio na sehemu kuu ya udhibiti unarejelewa kuwa *kugatuliwa*. Bitcoin imeundwa ili kuepuka kuwa na sehemu kuu ya udhibiti, au kwaKuna watu wengi wanaohusika katika Bitcoin; kwa vile baadhi yao wana maoni yanayopingana, hapa unaweza kupata nyenzo zinazoeleza mawazo kinzani. Walakini, sisIngawa kwa programu nyingi inakubalika kwa ujumla kukataa baadhi ya sahihi, Bitcoin ni mfumo wa maafikiano ambapo washiriki wote lazima wakubaliane kwa ujumla juu ya uhalali kamili au ubatili wa data ya ingizo.  Kwa maana fulani, uthabiti ni muhimu zaidi kuliko "usahihi".
-> [...]
-> Viraka hapo juu, hata hivyo, hurekebisha dalili moja tu ya tatizo la jumla: kutegemea programu ambayo haijaundwa au kusambazwa kwa matumizi ya makubaliano (haswa OpenSSL) kwa tabia ya makubaliano-kanuni.  Kwa hivyo, kama uboreshaji wa nyongeza, ninapendekeza Soft-Fork inayolengwa kutekeleza utiifu mkali wa DER hivi karibuni, kwa kutumia kitengo kidogo cha BIP62.
+Mfumo usio na sehemu kuu ya udhibiti unarejelewa kuwa *kugatuliwa*. Bitcoin imeundwa ili kuepuka kuwa na sehemu kuu ya udhibiti, au kwa usahihi zaidi *eneo kuu la udhibiti*.
 
-Anadokeza kuwa kutumia msimbo ambao haukusudiwa kutumika katika mifumo ya maelewano huleta hatari kubwa, na anapendekeza kwamba Bitcoin itekeleze usimbaji madhubuti wa DER. Huu ni mfano wazi sana wa umuhimu wa uteuzi mzuri wa cryptography.
+Ugatuaji ni njia ya kufikia *upinzani wa udhibiti*.
 
 
-Matukio haya yanaweza kukupa hisia kwamba Gregory Maxwell alijua kuhusu uwezekano wa kuathiriwa na Pieter Wuille uliochapishwa baadaye, lakini alitaka kusaidia kujipenyeza katika kurekebisha kwa kujificha kama hatua ya tahadhari, bila kuvutia sana tatizo halisi. Inaweza kuwa hivyo, lakini ni uvumi tu.
+Kuna vipengele viwili vikuu vya ugatuaji katika Bitcoin: ugatuaji wa Miner na ugatuaji wa Full node.
 
 
-Kisha, kama ilivyopendekezwa na Maxwell, BIP66 iliundwa kama kikundi kidogo cha BIP62 ambacho kilibainisha usimbaji madhubuti wa DER pekee. BIP hii inaonekana ilikubaliwa kwa mapana na kutumwa mwezi wa Julai, ingawa migawanyiko miwili ya Blockchain ilitokea kwa sababu ya *Mining* isiyo na uthibitisho. Migawanyiko hii itajadiliwa katika sehemu inayofuata.i hujaribu kila wakati kushikamana na uwanja wa ukweli, ambapo maoni hayajalishi.
- uchakataji wa muamala haufanywi wala kuratibiwa na huluki yoyote kuu. Ugatuaji wa Full node unarejelea ukweli kwamba uthibitishaji wa vitalu, yaani, data ambayo wachimbaji hutoa, hufanywa kando ya mtandao, hatimaye na watumiaji wake, na sio na mamlaka chache zinazoaminika.
+Ugatuaji wa Miner unarejelea ukweli kwamba uchakataji wa muamala haufanywi wala kuratibiwa na huluki yoyote kuu. Ugatuaji wa Full node unarejelea ukweli kwamba uthibitishaji wa vitalu, yaani, data ambayo wachimbaji hutoa, hufanywa kando ya mtandao, hatimaye na watumiaji wake, na sio na mamlaka chache zinazoaminika.
 
 
 ![](assets/decentralization-banner.webp)
@@ -134,7 +131,7 @@ Iwapo watafaulu, kuna uwezekano mkubwa kwamba masuala yale yale yatatokea tena w
 Hakuna kati ya chaguzi hizi zenye manufaa kwa mtumiaji.
 
 
-Upinzani dhidi ya udhibiti (censorship resistance) kupitia mgawanyiko (decentralization) ndicho kinachotofautisha Bitcoin na mifumo mingine ya fedha, lakini si jambo rahisi kutekeleza kutokana na tatizo la double-spending. Hili ni tatizo la kuhakikisha kuwa hakuna mtu anayeweza kutumia *coin* moja mara mbili, jambo ambalo watu wengi walidhani haliwezekani kutatuliwa kwa njia isiyo ya kati (decentralized). Satoshi Nakamoto aliandika katika *whitepaper* ya Bitcoin kuhusu jinsi ya kutatua tatizo la double-spending:
+Upinzani dhidi ya udhibiti (censorship resistance) kupitia mgawanyiko (decentralization) ndicho kinachotofautisha Bitcoin na mifumo mingine ya fedha, lakini si jambo rahisi kutekeleza kutokana na tatizo la double-spending. Hili ni tatizo la kuhakikisha kuwa hakuna mtu anayeweza kutumia *coin* moja mara mbili, jambo ambalo watu wengi walidhani haliwezekani kutatuliwa kwa njia isiyo ya kati (decentralized). Satoshi Nakamoto anaandika katika [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) kuhusu jinsi ya kutatua tatizo la Double-spending:
 
 
 > Katika karatasi hii, tunapendekeza suluhisho la tatizo la double-spending kwa kutumia seva ya alama ya muda (timestamp server) iliyosambazwa kwa njia ya peer-to-peer ili kuzalisha uthibitisho wa kihakiki wa mpangilio wa muda wa miamala.
@@ -145,6 +142,7 @@ Hapa anatumia msemo wenye sauti ya kipekee "seva ya *timestamp* iliyosambazwa ri
 Bado, hakuna mtu anayeielezea vizuri zaidi kuliko
 
 [Gregory Maxwell kwenye Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), ambapo anajibu mtu anayependekeza kuwawekea kikomo miners wa nishati ya *hash* ili kuepuka mashambulizi yanayoweza kutokea kwa 51%:
+
 > Mfumo uliogatuliwa kama vile Bitcoin hutumia uchaguzi wa umma. Lakini huwezi tu kuwa na kura ya 'watu' katika mfumo wa ugatuzi kwa sababu hiyo itahitaji chama cha serikali kuu kuidhinisha watu kupiga kura. Badala yake, Bitcoin hutumia kura ya nguvu ya kompyuta kwa sababu inawezekana kuthibitisha nguvu za kompyuta bila usaidizi wa serikali kuu au mtu wa tatu.
 
 
@@ -202,7 +200,7 @@ kukagua miamala kulingana na matakwa ya mamlaka kuu, ambayo inashinda madhumuni 
 
 
 
-- Iwapo watu wanaofanya miamala katika Bitcoin walipaswa kutoa maelezo ya kibinafsi, kutangaza miamala yao ilihusu nini, au kuthibitisha vinginevyo kwamba walistahili kufanya kazi, tutahitaji pia kituo kikuu cha mamlaka ili kuidhinisha watumiaji au miamala. Tena, hii inaweza kusababisha udhibiti na kutengwa.
+- Iwapo watu*wanaofanya miamala* katika Bitcoin walipaswa kutoa maelezo ya kibinafsi, kutangaza miamala yao ilihusu nini, au kuthibitisha vinginevyo kwamba walistahili kufanya kazi, tutahitaji pia kituo kikuu cha mamlaka ili kuidhinisha watumiaji au miamala. Tena, hii inaweza kusababisha udhibiti na kutengwa.
 
 
 - Iwapo wasanidi walilazimika kuomba ruhusa ya kuunda protocol juu ya Bitcoin, ni protocol tu zinazoruhusiwa na kamati kuu ya upeanaji ya wasanidi programu ndizo zingeweza kutengenezwa. Hii, kutokana na uingiliaji kati wa serikali, bila shaka itatenga itifaki zote za kuhifadhi faragha na majaribio yote ya kuboresha ugatuaji.
@@ -216,16 +214,16 @@ Katika viwango vyote, kujaribu kuweka vizuizi kwa nani atatumia Bitcoin kwa ajil
 Anahitimisha:
 
 
-> Kutumia algoridhimu za makubaliano zisizo na uaminifu kama PoW huongeza kitu ambacho hakuna muundo mwingine unaoweza kutoa — ushiriki usiohitaji ruhusa, yaani hakuna kundi maalum la washiriki wanaoweza kudhibiti mabadiliko yako. Hata hivyo, matumizi ya algoridhimu hizi huja kwa gharama kubwa, na kwa kuwa zinategemea mawazo ya kiuchumi, zinakuwa na manufaa hasa kwa mifumo inayojifafanua yenyewe na cryptocurrency yake. Huenda kuwepo nafasi moja au chache tu duniani kwa mifumo ya aina hii inayotumika kwa kweli.
+> Kutumia algoriti za makubaliano Trustless kama PoW  kitu ambacho hakuna muundo mwingine unaoweza kutoa — ushiriki usiohitaji ruhusa, yaani hakuna kundi maalum la washiriki wanaoweza kudhibiti mabadiliko yako. Hata hivyo, matumizi ya algoridhimu hizi huja kwa gharama kubwa, na kwa kuwa zinategemea mawazo ya kiuchumi, zinakuwa na manufaa hasa kwa mifumo inayojifafanua yenyewe na cryptocurrency yake. Huenda kuwepo nafasi moja au chache tu duniani kwa mifumo ya aina hii inayotumika kwa kweli.
 > Pengine kuna mahali pekee ulimwenguni kwa moja au chache zilizotumika kati ya hizi.
 
 Anaeleza kuwa, ili kufikia kutokuwa na ruhusa, mfumo huo kwa uwezekano mkubwa unahitaji sarafu yake yenyewe, na hivyo “kupunguza kesi za utumiaji kwa kiasi kikubwa hadi sarafu-fiche pekee”. Hii ni kwa sababu ushiriki usiohitaji ruhusa, au mining, unahitaji motisha za kiuchumi zilizojengewa moja kwa moja ndani ya mfumo.
 
 
 
-### Grokking ugatuaji
+### Ugatuaji wa Grokking 
 
-Kipengele cha kulazimisha cha Bitcoin ni jinsi Hard ilivyo kufahamu kuwa hakuna anayeidhibiti. Hakuna kamati au watendaji katika Bitcoin. Gregory Maxwell, tena [kwenye subreddit ya Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), analinganisha hii na lugha ya Kiingereza kwa njia ya kushangaza:
+. Hakuna kamati au watendaji katika Bitcoin. Gregory Maxwell, tena [kwenye subreddit ya Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), analinganisha hii na lugha ya Kiingereza kwa njia ya kushangaza:
 
 
 > Watu wengi wana muda wa Hard kuelewa mifumo ya uhuru, kuna mambo mengi katika maisha yao kama lugha ya Kiingereza-- lakini watu huichukulia kawaida na hata hawafikirii kama mifumo. Wamekwama katika njia kuu ya kufikiria ambapo kila kitu wanachofikiria kama 'kitu' kina mamlaka inayokidhibiti.

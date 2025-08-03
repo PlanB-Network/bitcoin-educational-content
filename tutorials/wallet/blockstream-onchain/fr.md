@@ -88,28 +88,25 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 
 ### 4.1. Lancer la création
 
-- **Note** : Configurez votre portefeuille dans un environnement privé, sans caméras ni observateurs.
+- **Précaution** : Configurez votre portefeuille dans un environnement privé, sans caméras ni observateurs.
 - Depuis l’écran d’accueil, cliquez sur "Get Started" :
 ![image](assets/fr/04.webp)
-- Si vous voulez non pas utiliser le hot wallet de Blockstream App, mais utiliser Blockstream App pour gérer votre cold wallet, cliquez sur "Connect Jade". Jade est le cold wallet développé par Blockstream, mais l'écran suivant vous permet de connecter d'autres cold wallets pourvu d'avoir le bluetooth : 
+- Si vous voulez gérer un **cold wallet** (portefeuille hors ligne) : cliquez sur **"Connect Jade"** pour utiliser le hardware wallet Blockstream Jade ou d’autres cold wallets compatibles Bluetooth (Ledger, Trezor, ...). 
 ![image](assets/fr/05.webp)
 
 
 - Vous arrivez à l'écran suivant : 
 ![image](assets/fr/06.webp)
-	- (1) Pour créer un nouveau hot wallet, cliquez sur "Setup Mobile Wallet"
-	- (2) Pour importer un compte existant à partir de votre seed phrase (phrase mnémonique de 12 ou 24 mots), cliquez sur "Restore from backup"
-	  Nota : si vous avez un cold wallet, n'importez pas le compte en renseignant votre seed phrase, car elle serait alors stockée sur un appareil connecté à internet, annulant tout l'intérêt de votre cold wallet. A la place, connectez votre cold wallet à l'application comme indiqué à l'étape précédente.
-	- (3) L'option "Watch-only" vous permet d'importer un compte existant, mais en lecture seule, sans pouvoir déplacer les fonds : ceci vous permet par exemple de consulter le solde de votre coldwallet sans que la seed phrase soit exposée. 
+	- (1) **"Setup Mobile Wallet"** : Créer un nouveau portefeuille chaud (hot wallet).
+	- (2) **"Restore from Backup"** : Importer un portefeuille existant via une phrase mnémonique (12 ou 24 mots).
+	  Attention : N’importez pas la phrase d’un cold wallet, car elle serait exposée sur un appareil connecté, annulant sa sécurité.
+	- (3) **"Watch-Only"** : Importer un portefeuille existant en lecture seule, afin de consulter le solde (par exemple de votre cold wallet) sans exposer la phrase mnémonique. Voir en annexe le tutoriel Watch Only.
 
-Dans ce tutoriel, nous nous concentrons sur la création d'un nouveau hot wallet (1).
-En cliquant sur ""Setup Mobile Wallet", votre wallet est automatiquement créé et la page d'accueil du wallet, ici appelé "My Wallet 5", s'affiche : 
+**Dans ce tutoriel** : Cliquez sur **"Setup Mobile Wallet"** pour créer un hot wallet. 
+Votre wallet est automatiquement créé et la page d'accueil du wallet, ici appelé "My Wallet 5", s'affiche : 
 ![image](assets/fr/07.webp)
 
-! Blockstream a simplifié la création d'un wallet en supprimant l'affichage de votre phrase de récupération (seed phrase, phrase mnémonique) et l'étape de vérification : c'est plus simple, mais cela signifie aussi que l'utilisateur n'est plus invité à la sauvegarder précieusement !
-
-Il faut donc absolument passer à cette étape avant d'envoyer des fonds sur ce wallet, sous risque de ne plus jamais y avoir accès. 
-
+**Important** : Blockstream App a simplifié la création d'un wallet en n’affichant pas automatiquement la phrase mnémonique. Même si le porte-feuille est créé en un clic, vous devez faire l'effort de la sauvegarder manuellement avant d’envoyer des fonds, sinon vous risquez de perdre l’accès à vos bitcoins.
 
 ### 4.2. Sauvegarder la phrase mnémonique
 
@@ -123,39 +120,60 @@ La seed phrase sera affichée pour que vous la sauvegardiez.
 	- Pas de sauvegarde dans le cloud, email ou messagerie
 	- Pas de copier/coller (risque d’enregistrement dans le presse-papiers)
 
-**! Ce point est critique**. Pour obtenir plus d'aide :
+**! Ce point est critique**. Pour plus d’informations sur la sauvegarde :
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-
-**Cette phrase mnémonique donne un accès complet et non restreint à tous vos bitcoins.** N'importe qui en possession de cette phrase peut subtiliser vos fonds, même sans accès physique à votre téléphone.
-
-Elle permet de restaurer l'accès à vos bitcoins en cas de perte, de vol ou de casse de votre téléphone. Il est donc très important de la sauvegarder soigneusement **sur un support physique (pas numérique)** et de la stocker dans un endroit sécurisé. Vous pouvez l'inscrire sur un bout de papier, ou bien pour plus de sécurité, si ce portefeuille est important, je vous recommande de la graver sur un support en acier inoxydable afin de la protéger contre les risques d'incendies, d'inondations ou d'écroulements (pour un portefeuille chaud destiné à sécuriser une petite quantité de bitcoins, une simple sauvegarde sur papier est probablement suffisante).
-
-Cliquez sur "Afficher la phrase de récupération" pour voir les mots.
-- **Avertissement** : Cette phrase donne un accès total à vos bitcoins. Ne la stockez jamais numériquement (pas de photos ni cloud) et ne la partagez pas.
-- **Sauvegarde** : Inscrivez-la sur un support physique (papier ou acier inoxydable pour les portefeuilles importants).
-
-
 ### 4.4. Confirmer la phrase mnémonique
 
-Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, il faut absolument tester la sauvegarde de vos 12 mots que vous venez d'effectuer. Pour cela nous allons noter une référence, puis supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
+Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous devez impérativement tester la sauvegarde de vos 12 mots. 
+Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub
+- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub (clé publique étendue) :
 ![image](assets/fr/09.webp)
-Nota : une adresse zpub peut être importée dans votre application Blockstream pour la fonction "Watch Only"
+Nota : une adresse zpub peut être importée dans votre application Blockstream pour la fonction "Watch Only" (voir en Annexe).
 
-- Supprimez l’application, restaurez le portefeuille avec la phrase mnémonique, et vérifiez que la zpub est inchangée. Si oui, alors votre sauvegarde est correcte, et vous pouvez envoyer des fonds sur le wallet.
+- Supprimez l’application, puis restaurez le portefeuille via **"Restore from Backup"** en saisissant la phrase mnémonique, et vérifiez que la zpub est inchangée. Si oui, alors votre sauvegarde est correcte, et vous pouvez envoyer des fonds sur le wallet.
 
+- Pour en savoir plus sur comment effectuer un test de récupération, voici un tutoriel dédié :
+
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.5. Sécuriser l'accès à l'application
 
-Il est fortement conseillé de verrouiller l'accès à l'application par un code PIN robuste ou une authentification biométrique.
-Bien que l'authentification biométrique soit pratique et rapide, il y a eu des cas où un Bitcoiner endormi a laissé quelqu'un scanner son visage / coller son empreinte pour accéder à son téléphone, et à ses fonds.
+Il est fortement conseillé de verrouiller l'accès à l'application par un code PIN robuste
+- Depuis l’écran d’accueil du wallet, allez dans **"Sécurité"** > **"PIN"**
+- Saisissez et confirmez **un code PIN à 6 chiffres aléatoire**
+   
+**Option biométrique** : Disponible pour plus de commodité, mais moins sécurisée (risque d’accès non autorisé, ex. : empreinte ou visage scanné pendant le sommeil). Préférez un PIN robuste.
+ 
+**Note** : Le PIN sécurise l’appareil, mais seule la phrase mnémonique permet de récupérer les fonds.
+![image](assets/fr/09.webp)
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Sécurité", puis sur "Biometrics" ou "PIN".
-- Choisissez un **code PIN à 6 chiffres** aléatoire pour sécuriser l’accès local.
-- **Note** : Le PIN protège l’appareil, mais la phrase mnémonique est requise pour la récupération.
--
+
+## 5. Utiliser le portefeuille onchain
+
+### 5.1. Recevoir des bitcoins
+
+- Depuis l’écran d’accueil du portefeuille, cliquez sur '"**Transact**" puis **"Recevoir"**.  
+![image](assets/fr/10.webp)
+- L’application affiche une **adresse de réception vierge** (format SegWit v0, commençant par `bc1q...`). Recevoir des bitcoins systématiquement sur une nouvelle adresse améliore la confidentialité de votre vie privée.
+- **Options** :
+    - (1) "Bitcoin" : cliquez pour sélectionner un envoi via Liquid.
+    - (2) Cliquez sur les flèches pour choisir une autre nouvelle adresse liée à cette seed phrase. 
+    - (3) Vous pouvez aussi choisir une adresse parmi celles déjà utilisées / affichées, en cliquant sur les trois points en haut à droite puis sur "List of Adresses"
+    - (4) Pour demander un montant spécifique, cliquez sur les trois points en haut à droite, sélectionnez "Montant de la demande", et saisissez le montant souhaité. Le QR sera mis à jour, et l'adresse sera remplacée par un URI de paiement Bitcoin. 
+- Partagez l’adresse/l'URI en cliquant sur "Partager", en copiant le texte ou en scannant le QR code.
+![image](assets/fr/11.webp)
+---
+---
+---
+
+- **Vérification** : Vérifiez l’adresse sur l’écran de l’application avant de la partager pour éviter les erreurs ou attaques (ex. : malwares modifiant le presse-papiers).
+
+- **Confirmation** :
+    - Une fois la transaction diffusée sur le réseau Bitcoin, elle apparaît dans votre portefeuille comme "en attente".
+    - Attendez **1 à 6 confirmations** (10 à 60 minutes environ) pour considérer la transaction comme définitive.  
+        ![image](https://grok.com/chat/assets/fr/30.webp)

@@ -201,6 +201,7 @@ kukagua miamala kulingana na matakwa ya mamlaka kuu, ambayo inashinda madhumuni 
 - Iwapo watu*wanaofanya miamala* katika Bitcoin walipaswa kutoa maelezo ya kibinafsi, kutangaza miamala yao ilihusu nini, au kuthibitisha vinginevyo kwamba walistahili kufanya kazi, tutahitaji pia kituo kikuu cha mamlaka ili kuidhinisha watumiaji au miamala. Tena, hii inaweza kusababisha udhibiti na kutengwa.
 
 
+
 - Iwapo wasanidi walilazimika kuomba ruhusa ya kuunda protocol juu ya Bitcoin, ni protocol tu zinazoruhusiwa na kamati kuu ya upeanaji ya wasanidi programu ndizo zingeweza kutengenezwa. Hii, kutokana na uingiliaji kati wa serikali, bila shaka itatenga itifaki zote za kuhifadhi faragha na majaribio yote ya kuboresha ugatuaji.
 
 

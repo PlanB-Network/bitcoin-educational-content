@@ -293,6 +293,7 @@ Katika mifumo ya serikali kuu, tunategemea sifa ya mwigizaji mkuu ili kuhakikish
 
 Inaonekana kuwa hatuwezi kuwa na mfumo uliogatuliwa kwa msingi wa uaminifu, na ndiyo maana kutokuwa na uaminifu ni muhimu katika Bitcoin.
 
+
 Ili kutumia Bitcoin kwa njia ya trustless, lazima uendeshe full node ya Bitcoin inayofanya uthibitishaji kamili. Hapo ndipo utaweza kuthibitisha kuwa block unazopokea kutoka kwa wengine zinafuata sheria za makubaliano — kwa mfano, kwamba ratiba ya utoaji wa sarafu inazingatiwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye blockchain. Ikiwa hutumii full node, unatoa jukumu la uthibitishaji wa block za Bitcoin kwa mtu mwingine na kumwamini akuambie ukweli, jambo linalomaanisha kuwa hutumii Bitcoin kwa njia ya trustless
 
 David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) akieleza jinsi kuendesha full node — au kutumia Bitcoin kwa njia ya trustless — kunakusaidia:

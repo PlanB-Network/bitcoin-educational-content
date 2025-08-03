@@ -35,8 +35,8 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
     - Transactions sur le réseau **Liquid** (sidechain pour des échanges rapides et confidentiels).
     - Portefeuilles **watch-only** pour surveiller des fonds sans accès aux clés.
     - Options de confidentialité : connexion via **Tor**, connexion à un **nœud personnel** via Electrum, ou vérification **SPV** pour réduire la dépendance aux nœuds tiers.
-    - Fonctions avancées : **Replace-by-Fee (RBF)**, XXXXXXXXX étiquetage des transactions, et contrôle des pièces (UTXO).
-- **Compatibilité** : Intègre des hardware wallets comme **Blockstream Jade**, **Ledger Nano S/X**, et **Trezor**.
+    - Fonctions **Replace-by-Fee (RBF)** pour accélérer les transactions non confirmées.
+- **Compatibilité** : Intègre des hardware wallets comme **Blockstream Jade**.
 - **Interface** : Intuitive pour les débutants, avec des options avancées pour les experts.
 - **Note** : Ce guide se concentre sur l'utilisation onchain. D'autres tutoriels fournis en Annexes couvrent les fonctionnalités Liquid, Watch-Only, et la version desktop.
 
@@ -46,7 +46,7 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 
 - **Pour Android** :
     - Téléchargez [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) depuis le Google Play Store.
-    - Alternative : Installez via le fichier APK disponible sur le [GitHub officiel de Blockstream](github.com/Blockstream/green_android).
+    - Alternative : Installez via le fichier APK disponible sur le [GitHub officiel de Blockstream](https://github.com/Blockstream/green_android).
 - **Pour iOS** :
     - Téléchargez [Blockstream App](https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590) depuis l'App Store.
 - **Note** : Assurez-vous de télécharger depuis des sources officielles pour éviter les applications frauduleuses.
@@ -55,7 +55,7 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 
 - **Écran d'accueil** : À la première ouverture, l'application affiche un écran sans portefeuille configuré. Les portefeuilles créés ou importés apparaîtront ici par la suite.
 ![image](assets/fr/02.webp)
-- **Personnalisation des paramètres** : Cliquez sur "Paramètres de l'application", ajustez les options décrites ci-dessous selon vos besoins, cliquez sur "Sauvegarder", redémarrez l’application pour appliquer les changements, puis créez votre portefeuille.
+- **Personnalisation des paramètres** : Cliquez sur "Paramètres de l'application", ajustez les options ci-dessous, cliquez sur "Sauvegarder", redémarrez l’application puis créez votre portefeuille.
 ![image](assets/fr/03.webp)
 #### 3.2.1. Confidentialité renforcée (Android uniquement)
 
@@ -89,7 +89,7 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 - **Précaution** : Configurez votre portefeuille dans un environnement privé, sans caméras ni observateurs.
 - Depuis l’écran d’accueil, cliquez sur "Get Started" :
 ![image](assets/fr/04.webp)
-- Si vous voulez gérer un **cold wallet** (portefeuille hors ligne) : cliquez sur **"Connect Jade"** pour utiliser le hardware wallet Blockstream Jade ou d’autres cold wallets compatibles Bluetooth (Ledger, Trezor, ...). 
+- Si vous voulez gérer un **cold wallet** (portefeuille hors ligne) : cliquez sur **"Connect Jade"** pour utiliser le hardware wallet Blockstream Jade ou d’autres cold wallets compatibles. 
 ![image](assets/fr/05.webp)
 
 
@@ -104,7 +104,7 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 Votre wallet est automatiquement créé et la page d'accueil du wallet, ici appelé "My Wallet 5", s'affiche : 
 ![image](assets/fr/07.webp)
 
-**Important** : Blockstream App a simplifié la création d'un wallet en n’affichant pas automatiquement la seed phrase de 12 mots. *Même si le porte-feuille est désormais créé en un clic, vous risquez de perdre l'accès à vos fonds si vous ne sauvegardez pas votre seed phrase*.
+**Important** : Blockstream App a simplifié la création d'un wallet en n’affichant pas automatiquement la seed phrase de 12 mots. *Même si le portefeuille est désormais créé en un clic, vous risquez de perdre l'accès à vos fonds si vous ne sauvegardez pas votre seed phrase*.
 
 ### 4.2. Sauvegarder la seed phrase
 
@@ -124,12 +124,12 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-### 4.4. Confirmer la seed phrase
+### 4.3. Confirmer la seed phrase
 
 Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous devez impérativement tester la sauvegarde de vos 12 mots. 
 Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub (clé publique étendue) :
+- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
 ![image](assets/fr/09.webp)
 Nota : une adresse zpub peut être importée dans votre application Blockstream pour la fonction "Watch Only" (voir en Annexe).
 
@@ -141,7 +141,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 ### 4.5. Sécuriser l'accès à l'application
 
-Il est fortement conseillé de verrouiller l'accès à l'application par un code PIN robuste
+Verrouillez l'accès à l'application par un code PIN robuste :
 - Depuis l’écran d’accueil du wallet, allez dans **"Sécurité"** puis cliquez sur **"PIN"**
 - Saisissez et confirmez **un code PIN à 6 chiffres aléatoires**.
    
@@ -158,10 +158,10 @@ Il est fortement conseillé de verrouiller l'accès à l'application par un code
 - Depuis l’écran d’accueil du portefeuille, cliquez sur '"**Transact**" puis **"Recevoir"**.  
 ![image](assets/fr/10.webp)
 
-- L’application affiche une **adresse de réception vierge** (format SegWit v0, commençant par `bc1q...`). Recevoir des bitcoins systématiquement sur une nouvelle adresse améliore la confidentialité de votre vie privée.
+- L’application affiche une **adresse de réception vierge** (format SegWit v0, commençant par `bc1q...`). Utiliser une nouvelle adresse pour chaque réception de Bitcoin améliore votre confidentialité.
 
 - **Options** :
-    - (1) "Bitcoin" : cliquez pour sélectionner un envoi via Liquid.
+    - (1) "Bitcoin" : cliquez pour sélectionner un envoi onchain ou via Liquid, et choisir l'actif.
     - (2) Cliquez sur les flèches pour choisir une autre nouvelle adresse liée à cette seed phrase. 
     - (3) Vous pouvez aussi choisir une adresse parmi celles déjà utilisées / affichées, en cliquant sur les trois points en haut à droite puis sur "List of Adresses"
     - (4) Pour demander un montant spécifique, cliquez sur les trois points en haut à droite, sélectionnez "Montant de la demande", et saisissez le montant souhaité. Le QR sera mis à jour, et l'adresse sera remplacée par un URI de paiement Bitcoin. 
@@ -177,9 +177,9 @@ Il est fortement conseillé de verrouiller l'accès à l'application par un code
 
 - **Saisir les détails** :
     - (1) Entrez l’**adresse du destinataire** en la collant ou en scannant un QR code.
-    - (2) Vérifier l'actif et le compte à partir duquel les fonds sont envoyés.
+    - (2) Vérifiez l'actif et le compte à partir duquel les fonds sont envoyés.
     - (3) Indiquez le **montant** à envoyer. Vous pouvez choisir l'unité : BTC, satoshis, USD, ...
-      Le montant minimal au 03/08/2025 est 546 sats.
+      Le montant minimal (dush limit) au 03/08/2025 est 546 sats.
     - (4) Sélectionnez les **frais de transaction** :
         - Choisissez parmi les options suggérées (ex. : rapide, moyen, lent) selon l’urgence, une durée de transfert approximative sera affichée.
         - Pour des frais personnalisés, ajustez manuellement le nombre de satoshi par vbytes (consultez [Mempool.space](https://mempool.space/) pour les taux du marché).  
@@ -194,16 +194,39 @@ Il est fortement conseillé de verrouiller l'accès à l'application par un code
 - **Suivi** : Dans l'onglet "Transact" du wallet, la transaction apparaît comme "en attente" jusqu’à confirmation (1 à 6 confirmations) :
 ![image](assets/fr/15.webp)
 
-- Tant que la transaction n'est pas confirmée, vous pouvez augmenter sa vitesse de prise en charge en augmentant les fees : 
+- Tant que la transaction n'est pas confirmée, la fonction "Replace by fee" (voir Annexe) vous permet d'accélérer sa prise en charge en augmentant les fees de transaction : 
 ![image](assets/fr/16.webp)
 
-- Vous trouverez plus d'informations sur Replace by fees en Annexes.
 
 
 
 ## Annexes
 
-### A1. Bonnes pratiques
+### A1. Autres tutoriels Blockstream
+
+- Utilisation du réseau Liquid
+*En cours de révision*
+
+- Importer et suivre un wallet en "Watch Only"
+*En cours de révision*
+
+- Version Desktop (ordinateur)
+*En cours de révision*
+
+
+### A2. Explication de Replace-by-Fee (RBF)
+
+**Définition** : Replace-by-Fee (RBF) est une fonctionnalité du réseau Bitcoin qui permet à l'expéditeur d'accélérer la confirmation d'une transaction **onchain** en acceptant de payer des frais plus élevés.
+
+**Limites** :
+- RBF n’est pas disponible pour les transactions Liquid ou Lightning.
+* La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Blokstream App fait automatiquement.
+
+**Plus d'info :** 
+- [Glossaire](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
+
+
+### A3. Bonnes pratiques
 
 Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ces recommandations. Elles vous aideront à protéger vos fonds, optimiser vos transactions, et préserver votre confidentialité sur les réseaux **Bitcoin (onchain)**, **Liquid**, et **Lightning**.
 
@@ -217,33 +240,30 @@ Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ce
 
 - **Protégez votre confidentialité** : 
 	- Générez une nouvelle adresse pour chaque réception onchain ou Liquid afin de limiter le traçage sur la blockchain.
-	- Utilisez Payjoin lorsque disponible pour augmenter la confidentialité quant au montant envoyé onchain
+	- Activez les fonctions "Confidentialité renforcée", "Tor", et "SPV".
 	- Pour une confidentialité maximale, connectez votre wallet à votre propre nœud Bitcoin via un serveur Electrum au lieu d’utiliser le nœud public 
 
 * **Choisissez le réseau adapté à vos besoins** : 
 	* **Onchain** : Privilégiez pour la conservation à long terme ou les transactions de montants élevés (frais négligeables par rapport au montant).
 	* **Liquid** : Utilisez pour des transferts rapides, à faible coût et avec une confidentialité renforcée.
-	* **Lightning** : Optez pour des transferts instantanés et très économiques pour de faibles montants. Si vous êtes deux utilisateurs du wallet Bull Bitcoin, privilégiez Liquid pour éviter les frais de swap Lightning <> Liquid via Boltz. 
-
+	* **Lightning** : Optez pour des transferts instantanés et très économiques pour de faibles montants. 
+  
 * **Vérifiez toujours les adresses d'envoi** :
 	* Avant d’envoyer des fonds, vérifiez soigneusement l’adresse. Les fonds envoyés à une mauvaise adresse sont perdus à jamais. Utilisez un copier/coller ou le scan de QR code, ne recopiez / modifiez jamais une adresse à la main. 
 
 * **Optimisez les frais** :
 	* Pour les transactions onchain, choisissez des frais adaptés (lente, moyenne, rapide) en fonction de l’urgence et de la congestion du réseau.
 	* Utilisez Liquid, ou Lightning pour les petits montants.
-	* Activez Replace-by-Fee (RBF) (voir Annexe 4) pour les envois onchain si vous anticipez un besoin d’accélérer la confirmation. 
 
 * **Tenez l'application à jour**
 
 
 ### A4. Ressources supplémentaires
 
-* **Liens officiels et support :** 
-	* **[staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : email du support
-	* **[Site officiel de Bull Bitcoin](https://bullbitcoin.com/) :** Informations sur les services Bull Bitcoin, création de compte, accès à l'application
-	- **[GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Consulter le code, les évolution et la roadmap, contribuer au développement...
-	- **[Compte X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
-	- **Groupe Telegram** pour le wallet mobile : chat collectif avec support, voir la page “Settings”.
+* **Liens officiels :** 
+	* **[Site officiel](https://blockstream.com/) 
+	* **[Support pour l'application mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentation et tchat
+	- **[GitHub](https://github.com/Blockstream/green_android)
 
 * **Explorateurs de blocs :**
 	* On chain : **[Mempool.space](https://mempool.space/)**
@@ -269,14 +289,3 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-
-### A2. Explication de Replace-by-Fee (RBF)
-
-**Définition** : Replace-by-Fee (RBF) est une fonctionnalité du réseau Bitcoin qui permet à l'expéditeur d'accélérer la confirmation d'une transaction **onchain** en acceptant de payer des frais plus élevés.
-
-**Limites** :
-- RBF n’est pas disponible pour les transactions Liquid ou Lightning.
-* La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Bull Bitcoin Mobile fait automatiquement sauf si désactivé.
-
-**Plus d'info :** 
-- [Glossaire](https://planb.network/fr/resources/glossary/rbf-replacebyfee)

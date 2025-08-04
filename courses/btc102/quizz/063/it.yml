@@ -1,4 +1,4 @@
-question: Quale rischio maggiore si corre divulgando troppe informazioni nel piano successorio?
+question: Qual è il rischio maggiore che si corre divulgando troppe informazioni del piano di successione?
 answer: Rischio di furto
 wrong_answers:
   - Rischio di perdita
@@ -6,4 +6,4 @@ wrong_answers:
   - Rischio di regolamentazione
 explanation: |
   Un numero eccessivo di informazioni può facilitare l'azione di malintenzionati che si impossessano del vostro piano ereditario.
-reviewed: false
+reviewed: true

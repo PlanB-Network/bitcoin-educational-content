@@ -175,6 +175,12 @@ Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de
 | Commutateur (switch)   | Adresse localement les interfaces, transmet localement via MAC                            | Accès au Réseau         |
 | Carte réseau (NIC)     | Encodage du signal, câblage, connecteurs, spécifications physiques                        | Accès au Réseau         |
 
+https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+
 ## Le protocole QoS IPv5
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
 
@@ -389,6 +395,7 @@ Pour faciliter la conversion et la compréhension, on utilise des tableaux de co
 sudo apt install ipcalc
 ```
 
+https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Le protocole TCP
 <chapterId>860bf7d5-a502-4d10-a12c-9827f6c2d393</chapterId>
@@ -822,6 +829,13 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 Grâce à cette configuration, le trafic sortant est routé et la traduction NAT est assurée pour permettre aux machines virtuelles de communiquer avec l’extérieur sans exposer directement leurs adresses IP internes.
 
 Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées adaptées à différents contextes d’administration.
+
+https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+
 
 ## Comment configurer le réseau avec `ip` ?
 <chapterId>8ba7e946-d2a0-4841-8d54-e85ba96baa25</chapterId>
@@ -1995,6 +2009,8 @@ Il est important de rappeler qu’interroger de manière répétée ou intensive
 
 Dans une démarche de surveillance ou de sécurisation d’un réseau local ou étendu, il est important de pouvoir identifier les équipements actifs et les services qu’ils exposent. C’est précisément ce que permet l’outil `nmap` (*Network Mapper*).
 
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 #### Présentation de `nmap`
 
 `nmap` permet d’interroger de manière ciblée un ou plusieurs hôtes afin de détecter les ports ouverts, les services accessibles (HTTP, SSH, DNS...) et parfois même le type de système d’exploitation utilisé. Grâce à ses nombreuses options, il est possible d’obtenir une vision précise et synthétique de l’état de la surface d’exposition d’un réseau, ce qui est essentiel dans les phases d'audit ou de durcissement d'une infrastructure.
@@ -2028,6 +2044,8 @@ Un administrateur peut s’appuyer sur `nmap` pour plusieurs tâches :
 - Inventaire des services exposés : utile pour vérifier que seuls les ports nécessaires sont accessibles (principe du moindre privilège) ;
 - Vérification de la conformité : comparer les ports ouverts avec la politique de sécurité réseau ;
 - Prévention des failles : repérer des services non sécurisés ou obsolètes ouverts sur des machines critiques.
+
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Outils d’interrogation des processus
 

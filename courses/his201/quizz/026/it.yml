@@ -1,4 +1,4 @@
-question: Quale elemento mancava dal design di Bitcoin il 31 ottobre 2008?
+question: Quale elemento mancava nel progetto Bitcoin il 31 ottobre 2008?
 answer: La quantità finita di unità
 wrong_answers:
   - Proof of work

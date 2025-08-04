@@ -4,12 +4,15 @@ description: Postavljanje 2/2 Multisig na Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Napomena:** Od maja 2025. godine neće biti moguće aktivirati nove naloge zaštićene dvofaktorskom autentifikacijom (2FA). Ova funkcija je dostupna samo korisnicima koji su prethodno aktivirali ovu vrstu naloga.*
+
+___
 
 Software Wallet je aplikacija instalirana na računaru, pametnom telefonu ili drugom uređaju povezanom na Internet, koja vam omogućava upravljanje i zaštitu vaših Bitcoin Wallet ključeva. Za razliku od hardverskih novčanika, koji izoluju privatne ključeve, "Hot" novčanici stoga rade u okruženju potencijalno izloženom sajber napadima, povećavajući rizik od piraterije i krađe.
 
-
 Softverski novčanici treba da se koriste za upravljanje razumnim količinama bitkoina, posebno za svakodnevne transakcije. Oni takođe mogu biti zanimljiva opcija za ljude sa ograničenim Bitcoin sredstvima, za koje ulaganje u Hardware Wallet može delovati nesrazmerno. Međutim, njihova stalna izloženost internetu čini ih manje sigurnim za čuvanje dugoročnih ušteđevina ili velikih fondova. Za ovo drugo, najbolje je odlučiti se za sigurnija rešenja, kao što su hardverski novčanici.
-
 
 U ovom vodiču, pokazaću vam kako da poboljšate sigurnost Hot Wallet koristeći opciju "*2FA*" na Blockstream Green.
 

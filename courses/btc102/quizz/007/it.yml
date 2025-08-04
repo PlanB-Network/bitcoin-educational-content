@@ -6,4 +6,4 @@ wrong_answers:
   - 3 copie, di cui 2 criptate e 1 conservata fuori sede
 explanation: |
   Questa regola raccomanda di avere 3 copie dei dati su 2 tipi diversi di supporti, con 1 copia conservata fuori sede per una maggiore resilienza.
-reviewed: false
+reviewed: true

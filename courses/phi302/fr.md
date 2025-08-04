@@ -32,7 +32,7 @@ De nombreuses personnes sont impliquées dans le projet Bitcoin ; comme certaine
 ### Qui a écrit cela ?
 
 
-Ce cours est adapté du livre éponyme dont l'auteur principal est Kalle Rosenbaum, et Linnéa Rosenbaum y a contribué en tant que co-auteur.
+Ce cours est adapté du livre éponyme dont l'auteur principal est Kalle Rosenbaum. Linnéa Rosenbaum y a contribué en tant que co-auteur.
 
 Ce livre a été commandé et financé par [Chaincode Labs](https://learning.chaincode.com/), un centre de développement qui organise des programmes éducatifs à l'intention des développeurs désireux de se familiariser avec le développement de Bitcoin.
 

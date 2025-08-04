@@ -63,7 +63,7 @@ Tout au long de ce cours, vous comprendrez mieux les valeurs et les stratégies 
 ### Les valeurs centrales du Bitcoin
 
 
-Qu'est-ce qui rend Bitcoin unique ? Cette section révèle les valeurs fondamentales qui sont au cœur de la conception de Bitcoin. Vous découvrirez la **décentralisation**, la pierre angulaire qui garantit qu'aucune entité ne contrôle le réseau ; l'**absence de confiance**, la clé qui élimine la dépendance à l'égard des tiers ; la **confidentialité**, essentielle à la fois à la liberté individuelle et à l'intégrité du système ; et la **finite Supply**, la garantie codée de la rareté qui façonne l'identité économique du Bitcoin. La maîtrise de ces concepts vous permettra d'appréhender pleinement les forces et les faiblesses de Bitcoin.
+Qu'est-ce qui rend Bitcoin unique ? Cette section révèle les valeurs fondamentales qui sont au cœur de la conception de Bitcoin. Vous découvrirez la **décentralisation**, la pierre angulaire qui garantit qu'aucune entité ne contrôle le réseau ; l'**absence de confiance**, la clé qui élimine la dépendance à l'égard des tiers ; la **confidentialité**, essentielle à la fois à la liberté individuelle et à l'intégrité du système ; et l'**offre limitée**, la garantie codée de la rareté qui façonne l'identité économique du Bitcoin. La maîtrise de ces concepts vous permettra d'appréhender pleinement les forces et les faiblesses de Bitcoin.
 
 
 ### Bitcoin Gouvernance
@@ -160,9 +160,7 @@ La résistance à la censure grâce à la décentralisation est ce qui différen
 
 Il utilise ici l'expression étrange de "serveur distribué d'horodatage pair à pair". Le mot clé est ici *distribué*, ce qui, dans ce contexte, signifie qu'il n'y a pas de point de contrôle central. Nakamoto explique ensuite comment la preuve de travail est la solution.
 
-Pourtant, personne ne l'explique mieux que
-
-[Gregory Maxwell sur Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), où il répond à quelqu'un qui propose de limiter la puissance de Hash des mineurs pour éviter les attaques potentielles de 51 % :
+Pourtant, personne ne l'explique mieux que [Gregory Maxwell sur Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), où il répond à quelqu'un qui propose de limiter la puissance de Hash des mineurs pour éviter les attaques potentielles de 51 % :
 
 
 > Un système décentralisé comme Bitcoin utilise une élection publique. Mais on ne peut pas se contenter d'un vote des "gens" dans un système décentralisé, car il faudrait alors qu'une partie centralisée autorise les gens à voter. Bitcoin utilise plutôt un vote de puissance informatique, car il est possible de vérifier la puissance informatique sans l'aide d'un système centralisé
@@ -193,17 +191,17 @@ L'importance de la décentralisation des noeuds complets est liée à l'absence 
 L'utilisateur passe de l'application directe des règles de consensus du réseau à la confiance en quelqu'un d'autre. Supposons maintenant que la plupart des utilisateurs délèguent l'application du consensus à une entité de confiance. Dans ce cas, le réseau peut rapidement tomber dans la spirale de la centralisation et les règles du réseau peuvent être modifiées par des acteurs malveillants conspirateurs.
 
 
-Dans [Bitcoin Magazine article](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interroge les développeurs de Bitcoin sur leur point de vue concernant la décentralisation et les risques liés à l'augmentation de la taille maximale des blocs de Bitcoin. Cette discussion a été un sujet de Hot pendant la période 2014-2017, lorsque de nombreuses personnes se sont opposées à l'augmentation de la limite de la taille des blocs pour permettre un plus grand débit de transactions.
+Dans [un article du Bitcoin Magazine](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interroge les développeurs de Bitcoin sur leur point de vue concernant la décentralisation et les risques liés à l'augmentation de la taille maximale des blocs de Bitcoin. Cette discussion a été un sujet chaud pendant la période 2014-2017, lorsque de nombreuses personnes se sont opposées à l'augmentation de la limite de la taille des blocs pour permettre un plus grand débit de transactions.
 
 
-Un argument de poids contre l'augmentation de la taille des blocs est qu'elle augmente le coût de la vérification. Si le coût de la vérification augmente, cela poussera certains utilisateurs à cesser d'exploiter leurs nœuds complets. De ce fait, davantage de personnes ne seront pas en mesure d'utiliser le système d'une manière conforme à la norme Trustless.
+Un argument de poids contre l'augmentation de la taille des blocs est qu'elle augmente le coût de la vérification. Si le coût de la vérification augmente, cela poussera certains utilisateurs à cesser d'exploiter leurs nœuds complets. De ce fait, davantage de personnes ne seront pas en mesure d'utiliser le système d'une manière conforme à la norme sans tiers de confiance.
 
 
-Pieter Wuille est cité dans l'article, où il explique les risques de la centralisation noeud complet :
+Pieter Wuille est cité dans l'article, où il explique les risques de la centralisation des noeuds complets :
 
 
 > Si de nombreuses entreprises gèrent une noeud complet, cela signifie qu'elles doivent toutes être convaincues de mettre en œuvre un ensemble de règles différent. En d'autres termes, la décentralisation de la validation des blocs est ce qui donne du poids aux règles de consensus.
-> Mais si le nombre de noeud complet tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, bourses et SPV ou portefeuilles mobiles, la réglementation pourrait devenir une réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin Bitcoin. Même la limite de 21 millions de Bitcoin.
+> Mais si le nombre de noeuds complets tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, exchanges et SPV ou portefeuilles mobiles, la réglementation pourrait devenir réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin Bitcoin. Même la limite de 21 millions de Bitcoin.
 
 Nous y voilà. Les utilisateurs de Bitcoin devraient gérer leurs propres nœuds complets afin de dissuader les régulateurs et les grandes entreprises d'essayer de changer les règles du consensus.
 
@@ -218,17 +216,15 @@ Bitcoin est neutre, ou sans permission, comme on aime à l'appeler. Cela signifi
 Bitcoin est neutre, ce qui est une bonne chose, et c'est la seule façon dont il peut fonctionner. S'il était contrôlé par une organisation, il ne serait qu'un autre type d'objet virtuel et ne m'intéresserait pas du tout
 
 
-Tant que vous respectez les règles, vous êtes libre de l'utiliser comme bon vous semble, sans demander la permission à qui que ce soit. Cela inclut *Mining*, *transiger* dans, et *construire des protocoles et des services* au-dessus de Bitcoin :
+Tant que vous respectez les règles, vous êtes libre de l'utiliser comme bon vous semble, sans demander la permission à qui que ce soit. Cela inclut *le miner*, *effectuer une transaction* avec, et *construire des protocoles et des services* au-dessus de Bitcoin :
 
 
 
-- Si le *Mining* était un processus soumis à autorisation, il faudrait qu'une autorité centrale sélectionne les personnes autorisées à exploiter les mines. Cela conduirait très probablement les mineurs à devoir signer des contrats légaux dans lesquels ils accepteraient de
-
-de censurer les transactions en fonction des caprices de l'autorité centrale, ce qui va à l'encontre de l'objectif premier du Mining.
+- Si le *minage* était un processus soumis à autorisation, il faudrait qu'une autorité centrale sélectionne les personnes autorisées à miner. Cela conduirait très probablement les mineurs à devoir signer des contrats légaux dans lesquels ils accepteraient de censurer les transactions en fonction des caprices de l'autorité centrale, ce qui va à l'encontre de l'objectif premier du minage.
 
 
 
-- Si les personnes *transigeant* dans Bitcoin devaient fournir des informations personnelles, déclarer l'objet de leurs transactions, ou prouver qu'elles sont dignes de transiger, nous aurions également besoin d'un point central d'autorité pour approuver les utilisateurs ou les transactions. Encore une fois, cela conduirait à la censure et à l'exclusion.
+- Si les personnes *effectuant des transactions* dans Bitcoin devaient fournir des informations personnelles, déclarer l'objet de leurs transactions, ou prouver qu'elles sont dignes d'effectuer une transaction, nous aurions également besoin d'un point central d'autorité pour approuver les utilisateurs ou les transactions. Encore une fois, cela conduirait à la censure et à l'exclusion.
 
 
 
@@ -238,7 +234,7 @@ de censurer les transactions en fonction des caprices de l'autorité centrale, c
 À tous les niveaux, essayer d'imposer des restrictions sur qui peut utiliser Bitcoin pour quoi que ce soit nuira à Bitcoin au point qu'il ne sera plus à la hauteur de sa proposition de valeur.
 
 
-Pieter Wuille https://Bitcoin.stackexchange.com/a/92055/69518 [répond à une question sur la pile Exchange] sur la façon dont la Blockchain est liée aux bases de données normales. Il explique comment l'absence de permission est possible grâce à l'utilisation de la Proof-of-Work en combinaison avec des incitations économiques.
+Pieter Wuille https://Bitcoin.stackexchange.com/a/92055/69518 [répond à une question sur la Stock Exchange] sur la façon dont la Blockchain est liée aux bases de données normales. Il explique comment l'absence de permission est possible grâce à l'utilisation de la preuve de travail en combinaison avec des incitations économiques.
 
 
 Il conclut :
@@ -247,14 +243,14 @@ Il conclut :
 > 
 > Il n'y a probablement qu'un seul endroit au monde où l'on peut trouver un ou quelques exemplaires d'occasion.
 
-Il explique que, pour parvenir à l'absence de permission, le système a très probablement besoin de sa propre monnaie, ce qui "limite les cas d'utilisation aux seules crypto-monnaies". En effet, la participation sans permission, ou Mining, nécessite des incitations économiques intégrées au système lui-même.
+Il explique que, pour parvenir à l'absence de permission, le système a très probablement besoin de sa propre monnaie, ce qui "limite les cas d'utilisation aux seules crypto-monnaies". En effet, la participation sans permission, ou minage, nécessite des incitations économiques intégrées au système lui-même.
 
 
 ### La décentralisation en marche
 
 
 
-L'un des aspects convaincants de la Bitcoin est qu'il est facile de comprendre que personne ne la contrôle. Il n'y a pas de comités ou d'exécutifs dans Bitcoin. Gregory Maxwell, toujours [sur le subreddit Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), compare cela à la langue anglaise d'une manière intrigante :
+L'un des aspects convaincants du Bitcoin est qu'il est facile de comprendre que personne ne le contrôle. Il n'y a pas de comités ou d'exécutifs dans Bitcoin. Gregory Maxwell, toujours [sur le subreddit Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), compare cela à la langue anglaise d'une manière intrigante :
 
 
 > Beaucoup de gens ont du mal à comprendre les systèmes autonomes, il y en a beaucoup dans leur vie, des choses comme la langue anglaise, mais les gens les prennent pour acquis et ne les considèrent même pas comme des systèmes. Ils sont coincés dans un mode de pensée centralisé où tout ce qu'ils considèrent comme une "chose" est contrôlé par une autorité.
@@ -283,7 +279,7 @@ Quelle que soit votre opinion sur le Bitcoin, sa nature décentralisée le rend 
 ### Conclusion sur la décentralisation
 
 
-Nous faisons la distinction entre la décentralisation noeud complet et la décentralisation Mining. La décentralisation Mining est un moyen de résister à la censure, tandis que la décentralisation noeud complet est ce qui empêche les règles consensuelles du réseau Hard d'être modifiées sans un large soutien de la part des utilisateurs.
+Nous faisons la distinction entre la décentralisation des noeuds complets et la décentralisation du minage. La décentralisation du minage est un moyen de résister à la censure, tandis que la décentralisation des noeuds complets est ce qui empêche les règles consensuelles du réseau d'être modifiées sans un large soutien de la part des utilisateurs.
 
 
 La nature décentralisée du Bitcoin permet une neutralité vis-à-vis des développeurs, des utilisateurs et des mineurs. Tout le monde est libre de participer sans demander la permission.

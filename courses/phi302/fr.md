@@ -63,7 +63,7 @@ Tout au long de ce cours, vous comprendrez mieux les valeurs et les stratégies 
 ### Les valeurs centrales du Bitcoin
 
 
-Qu'est-ce qui rend Bitcoin unique ? Cette section révèle les valeurs fondamentales qui sont au cœur de la conception de Bitcoin. Vous découvrirez la **décentralisation**, la pierre angulaire qui garantit qu'aucune entité ne contrôle le réseau ; l'**absence de confiance**, la clé qui élimine la dépendance à l'égard des tiers ; la **confidentialité**, essentielle à la fois à la liberté individuelle et à l'intégrité du système ; et la **finite Supply**, la garantie codée de la rareté qui façonne l'identité économique de la Bitcoin. La maîtrise de ces concepts vous permettra d'appréhender pleinement les forces et les faiblesses de Bitcoin.
+Qu'est-ce qui rend Bitcoin unique ? Cette section révèle les valeurs fondamentales qui sont au cœur de la conception de Bitcoin. Vous découvrirez la **décentralisation**, la pierre angulaire qui garantit qu'aucune entité ne contrôle le réseau ; l'**absence de confiance**, la clé qui élimine la dépendance à l'égard des tiers ; la **confidentialité**, essentielle à la fois à la liberté individuelle et à l'intégrité du système ; et la **finite Supply**, la garantie codée de la rareté qui façonne l'identité économique du Bitcoin. La maîtrise de ces concepts vous permettra d'appréhender pleinement les forces et les faiblesses de Bitcoin.
 
 
 ### Bitcoin Gouvernance

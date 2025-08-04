@@ -5,7 +5,8 @@ timezone: Indian/Mauritius
 address_city_country: Port Louis, Mauritius
 name: Btrust Developer Day
 type: workshop
-description: The Btrust Developer Day is back, and this year we’re heading to
+description: |
+  The Btrust Developer Day is back, and this year we’re heading to
   Mauritius 🇲🇺. Taking place just ahead of the Africa Bitcoin Conference, this
   one-day technical event is designed for Bitcoin developers, builders, and
   open-source contributors across Africa and beyond.​The event dives deep into

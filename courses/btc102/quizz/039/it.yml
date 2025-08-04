@@ -1,9 +1,9 @@
-question: Quale profilo di utente accumula regolarmente bitcoin attraverso il Dollar-Cost Averaging?
-answer: L'impilatore
+question: Quale tipo di utente accumula regolarmente bitcoin attraverso un Dollar-Cost Averaging?
+answer: Lo stacker
 wrong_answers:
   - L'hodler
   - L'utente attivo
   - Il paranoico
 explanation: |
-  L'impilatore acquista regolarmente piccole quantità per calcolare il prezzo di acquisto nel lungo periodo.
-reviewed: false
+  Uno stacker acquista regolarmente piccole quantità per fare una media del prezzo di acquisto nel lungo periodo.
+reviewed: true

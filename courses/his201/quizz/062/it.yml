@@ -1,5 +1,5 @@
-question: Cosa comporta stimare il tasso di hash di un membro cooperativo attraverso la prova parziale del lavoro?
-answer: Recuperare prove di lavoro di grado inferiore rispetto alla difficoltà della rete prodotte dal hasher
+question: Cosa comporta stimare il tasso di hash di un membro cooperativo tramite una prova di lavoro parziale?
+answer: Recuperare prove di lavoro di grado inferiore rispetto alla difficoltà della rete prodotte dall'hasher
 wrong_answers:
   - Recuperare l'impronta di un timbro che include il primo byte di ogni hash di blocco prodotto dal hasher
   - Recuperare la bolletta dell'elettricità del hasher ogni mese

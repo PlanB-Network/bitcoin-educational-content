@@ -5,7 +5,8 @@ timezone: America/El_Salvador
 address_city_country: San Salvador, El Salvador
 name: Bitcoin Historico
 type: conference
-description: Save the date to watch the proof of work of The Bitcoin Country
+description: |
+  Save the date to watch the proof of work of The Bitcoin Country
 language:
   - en
   - es

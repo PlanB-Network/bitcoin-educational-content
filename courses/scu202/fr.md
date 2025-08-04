@@ -484,7 +484,7 @@ Cette approche repose sur un modèle *rolling release*, où les paquets sont mis
 
 Arch Linux s’adresse avant tout aux utilisateurs avancés qui souhaitent un contrôle total sur leur environnement, tout en acceptant une certaine complexité d’installation et de maintenance. Cette exigence technique a conduit à l’émergence de plusieurs distributions dérivées visant à démocratiser son usage.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.network/tutorials/computer-security/operating%20system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 La plus connue est Manjaro, qui conserve la base technique d’Arch tout en proposant une installation simplifiée, des environnements de bureau préconfigurés et un cycle de publication légèrement différé pour stabiliser les mises à jour.
 

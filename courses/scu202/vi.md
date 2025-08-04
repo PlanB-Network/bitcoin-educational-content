@@ -972,11 +972,9 @@ Dòng Arch Linux nổi bật với triết lý hoàn toàn trái ngược với 
 
 Phương pháp này dựa trên mô hình *phát hành liên tục*, trong đó các gói được cập nhật liên tục mà không cần cài đặt lại hệ thống sau mỗi bản phát hành chính. Trình quản lý gói Pacman nhanh và nhẹ, giúp việc cài đặt và cập nhật phần mềm trở nên dễ dàng, và AUR (*Kho lưu trữ người dùng Arch*), một kho lưu trữ cộng đồng, cung cấp quyền truy cập vào một loạt lớn các gói không chính thức và gói phát triển.
 
-
-
 Arch Linux chủ yếu hướng đến người dùng nâng cao, những người muốn kiểm soát toàn bộ môi trường của mình, đồng thời chấp nhận một số phức tạp nhất định trong việc cài đặt và bảo trì. Yêu cầu kỹ thuật này đã dẫn đến sự ra đời của một số bản phân phối phái sinh nhằm mục đích dân chủ hóa việc sử dụng nó.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Nổi tiếng nhất là Manjaro, vẫn giữ nguyên nền tảng kỹ thuật của Arch trong khi cung cấp quá trình cài đặt đơn giản, môi trường máy tính để bàn được cấu hình sẵn và chu kỳ phát hành chậm hơn một chút để ổn định các bản cập nhật.
 
@@ -1064,7 +1062,7 @@ Việc lựa chọn bản phân phối Linux phụ thuộc vào nhu cầu cụ t
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Ra mắt năm 2006, Linux Mint là một bản phân phối bắt nguồn từ U
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint nổi bật nhờ tính đơn giản, mặc định tích hợp sẵn codec đa phương tiện và công cụ cập nhật được thiết kế tốt. Mặt khác, nó phụ thuộc rất nhiều vào cơ sở hạ tầng của Ubuntu, khiến nó phụ thuộc vào các lựa chọn kỹ thuật của Ubuntu (đặc biệt là ở cấp độ kernel và kho lưu trữ). Mint đặc biệt phù hợp với người dùng không chuyên về kỹ thuật hoặc những người muốn có một hệ thống sẵn sàng sử dụng mà không cần quá nhiều kiến thức.
 
@@ -1108,9 +1106,9 @@ Quá trình cài đặt diễn ra suôn sẻ, các phần mềm thiết yếu đ
 
 - hệ điều hành cơ bản**:
 
-
-
 Ra mắt năm 2011, Elementary OS là một bản phân phối dựa trên Ubuntu, tập trung chủ yếu vào thiết kế và tính nhất quán của Interface. Môi trường desktop Pantheon của nó, lấy cảm hứng từ macOS, mang phong cách tối giản, thanh lịch và mượt mà. Tuy nhiên, hệ thống vẫn còn ít tùy chỉnh hơn so với các bản phân phối khác, và một số người dùng nâng cao có thể cảm thấy bị giới hạn bởi các lựa chọn của Interface và cấu trúc cố định của nó. Nó rất phù hợp với những người dùng yêu thích thẩm mỹ, đang tìm kiếm một hệ thống đơn giản, mạch lạc cho nhu cầu sử dụng hàng ngày.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux là một bản phân phối tối giản, có thể cập nhật li�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Phân phối chuyên biệt
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux là một bản phân phối dựa trên Debian được thiết kế cho mục đích kiểm tra xâm nhập và kiểm tra bảo mật. Nó bao gồm hàng trăm công cụ kiểm tra thâm nhập. Tuy nhiên, bản phân phối này không thực sự phù hợp để làm hệ thống chính cho mục đích sử dụng hàng ngày.
 
@@ -1252,7 +1246,7 @@ Tails là một bản phân phối trực tiếp dựa trên Debian, tập trung
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Lưu ý:** Bản phân phối trực tiếp là hệ điều hành Linux có thể sử dụng trực tiếp từ ổ USB hoặc CD mà không cần cài đặt trên đĩa Hard.
 
@@ -4869,12 +4863,7 @@ Trên macOS, mã hóa ổ đĩa hệ thống dựa trên *FileVault*, một tín
 
 Sau khi FileVault được kích hoạt, bạn sẽ cần chọn phương pháp khôi phục trong trường hợp mất mật khẩu: sử dụng tài khoản *iCloud* của bạn hoặc sử dụng khóa sao lưu duy nhất. Khóa này phải được lưu giữ ở nơi an toàn, vì việc mất nó sẽ khiến dữ liệu của bạn vĩnh viễn không thể truy cập được.
 
-
-
 Đối với phương tiện lưu trữ ngoài (đĩa Hard, USB, v.v.), mã hóa được thực hiện bằng tiện ích đĩa. Bạn sẽ cần định dạng lại hoàn toàn ổ đĩa:
-
-
-
 
 - Chọn thiết bị, nhấp vào "*Xóa*"
 - Chọn sơ đồ "Bảng phân vùng GUID*"
@@ -4882,41 +4871,25 @@ Sau khi FileVault được kích hoạt, bạn sẽ cần chọn phương pháp 
 - Chọn một mật khẩu mạnh
 - Nhấp vào "*Xóa*" rồi "*OK*" và quá trình mã hóa hoàn tất
 
-
-
 Sau khi mã hóa được thiết lập, ổ đĩa ngoài chỉ có thể được gắn kết bằng cách nhập mật khẩu này. Hệ thống sau đó sẽ giải mã ngay lập tức.
-
-
 
 #### Một vài khuyến nghị cho bản sao lưu được mã hóa của bạn
 
-
-
 Trước khi mã hóa một phương tiện, bạn cần sao lưu toàn bộ dữ liệu trong đó (trừ khi phương tiện đó trống), vì quy trình mã hóa thường xóa nội dung ban đầu.
-
-
 
 Việc lựa chọn mật khẩu cũng rất quan trọng: mật khẩu phải dài, phức tạp và duy nhất, vì đây là biện pháp bảo vệ duy nhất giữa dữ liệu của bạn và bên thứ ba độc hại. Bạn cũng cần sao lưu dữ liệu, ví dụ như trong trình quản lý mật khẩu, vì không giống như các dịch vụ trực tuyến, không có cơ chế khôi phục. Nếu bạn quên mật khẩu, dữ liệu sẽ bị mất vĩnh viễn.
 
-
-
 ### Mã hóa tập tin có chọn lọc
-
-
 
 Trong một số trường hợp, việc mã hóa toàn bộ ổ đĩa Hard hoặc thiết bị lưu trữ ngoài là không cần thiết và cũng không thực tế. Trong những trường hợp như vậy, bạn có thể chọn mã hóa chọn lọc, tức là chỉ bảo mật một số tệp hoặc thư mục chứa dữ liệu nhạy cảm.
 
-
-
 Một trong những phương pháp mã hóa tệp tin nổi tiếng nhất là sử dụng GPG. Công cụ này dựa trên mật mã bất đối xứng: bạn có một cặp khóa, một khóa công khai, có thể phân phối tự do cho các đối tác liên lạc, và khóa còn lại là khóa riêng tư, phải được giữ bí mật tuyệt đối. Tệp tin được mã hóa bằng khóa công khai của người nhận, nhưng chỉ có thể được giải mã bằng khóa riêng của người nhận.
-
-
 
 Giao thức này hoàn hảo để trao đổi các tệp nhạy cảm một cách an toàn với người khác mà không cần chia sẻ mật khẩu. Đối với mục đích sử dụng cá nhân hoặc thỉnh thoảng, GPG cũng cho phép mã hóa đối xứng: tệp sau đó được bảo vệ bằng một mật khẩu duy nhất chỉ bạn biết.
 
-
-
 Một lựa chọn thay thế tuyệt vời là Cryptomator. Phần mềm mã nguồn mở này cho phép bạn tạo một "ổ khóa" an toàn: một thư mục đặc biệt, trong đó tất cả các tệp được lưu trữ đều được mã hóa tự động. Ổ khóa này có thể được đồng bộ hóa với các dịch vụ đám mây như Dropbox, Google Drive hoặc Nextcloud mà không cần nhà cung cấp phải truy cập vào dữ liệu chưa được mã hóa. Ứng dụng có sẵn trên tất cả các hệ điều hành, bao gồm Android và iOS, và không yêu cầu kỹ năng chuyên môn đặc biệt nào để sử dụng.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Một lựa chọn thay thế tuyệt vời là Cryptomator. Phần mềm mã ng
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Cuối cùng, bạn cũng có thể sử dụng VeraCrypt ở chế độ chứa, chế độ này tạo ra một tệp hoạt động như một kho lưu trữ được mã hóa, có thể gắn kết như một đĩa.
-
-
 
 Bây giờ bạn đã biết cách bảo vệ dữ liệu cá nhân của mình khỏi bị mất và trộm cắp, chương tiếp theo sẽ đề cập đến một khía cạnh quan trọng khác: cách ngăn chặn các tệp cá nhân của bạn trở thành mục tiêu tấn công thông qua siêu dữ liệu.
 
-
-
-
 ## Làm sạch siêu dữ liệu
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Mỗi khi bạn tạo một tệp kỹ thuật số, dù là ảnh, tài liệu văn phòng, tệp âm thanh hay video, nó đều chứa siêu dữ liệu ở chế độ nền. Thông tin này không hiển thị trực tiếp khi bạn mở tệp, nhưng nó vẫn tồn tại và có thể chứa mã Elements cực kỳ nhạy cảm.
-
-
 
 ### Tại sao siêu dữ liệu lại là một rủi ro?
 
-
-
 Siêu dữ liệu là dữ liệu được đính kèm vào một tệp, có vai trò cung cấp thông tin ngữ cảnh về nội dung. Trong một hình ảnh, siêu dữ liệu có thể bao gồm ngày và giờ chụp ảnh, tọa độ GPS chính xác, mẫu máy ảnh hoặc điện thoại thông minh được sử dụng, và đôi khi thậm chí cả các cài đặt kỹ thuật. Trong một tài liệu văn bản, siêu dữ liệu có thể bao gồm tên tác giả, tên công ty, ID phiên làm việc của người dùng, dấu thời gian tạo và chỉnh sửa, hoặc thậm chí cả các bình luận nội bộ được để lại trong quá trình chỉnh sửa.
-
-
 
 Siêu dữ liệu này có vẻ vô hại, nhưng kẻ xấu có thể sử dụng nó để xác định tác giả của tệp, định vị một người, tái hiện sự kiện hoặc thói quen, hoặc thậm chí khai thác lỗ hổng phần mềm dựa trên phiên bản phần mềm được sử dụng.
 
-
-
 Hãy lấy một ví dụ cụ thể: bạn đăng một bức ảnh được cho là ẩn danh lên diễn đàn. Nếu bạn chưa xóa siêu dữ liệu EXIF, chỉ cần một cú nhấp chuột là có thể hiển thị tọa độ GPS chính xác của nhà bạn, mẫu điện thoại và ngày chụp ảnh chính xác. Tương tự, một tài liệu PDF được gửi ẩn danh có thể chứa tên đầy đủ của bạn trong thuộc tính của nó.
-
-
 
 Đó là lý do tại sao một số nền tảng xuất bản và truyền thông tự động xóa siêu dữ liệu khỏi ảnh của bạn. Các nền tảng này bao gồm X (Twitter), Instagram, Signal và Session. Mặt khác, các nền tảng khác không xóa siêu dữ liệu: điều này xảy ra với hầu hết các diễn đàn trực tuyến, nhiều ứng dụng email, hoặc thậm chí khi bạn đăng trực tiếp lên trang web.
 
-
-
 Đây là một phản xạ thiết yếu cần áp dụng: ngay khi một tập tin rời khỏi phạm vi riêng tư của bạn, bạn cần nghĩ đến việc dọn dẹp siêu dữ liệu của nó để tránh tiết lộ thông tin cá nhân hoặc thông tin nhạy cảm mà bạn không hề hay biết. Hãy cùng xem cách thực hiện việc này, tùy thuộc vào hệ điều hành của bạn.
-
-
 
 ### Trên Linux (Debian)
 
-
-
 #### Sử dụng ExifTool
-
-
 
 Công cụ quản lý và xóa siêu dữ liệu hoàn chỉnh và đáng tin cậy nhất là ExifTool, do Phil Harvey phát triển. Công cụ này tương thích với nhiều định dạng tệp (JPG, PNG, PDF, MP3, DOCX...) và cho phép hiển thị và xóa siêu dữ liệu.
 
-
-
-
-
 - Bước 1: Cài đặt ExifTool
 
-
-
 Để cài đặt trên bản phân phối Debian (Ubuntu), hãy mở terminal và nhập lệnh:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Gói này cài đặt `exiftool`, sau đó bạn có thể sử dụng trực tiếp từ dòng lệnh.
 
@@ -6720,7 +6659,7 @@ GrapheneOS không tích hợp bất kỳ thành phần độc quyền nào. Bạ
 Graphene chỉ tương thích với các mẫu Google Pixel mới nhất (Pixel 6, 7, 8 và 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8550,26 @@ Các công cụ này hoạt động như một máy chủ DNS nhỏ bên trong m
 
 ### Truy cập từ xa an toàn qua VPN
 
-
 Trong một số trường hợp, việc có thể truy cập mạng gia đình khi đang di chuyển sẽ rất hữu ích: Xem tệp trên NAS, sử dụng nút Bitcoin và Lightning, truy cập máy chủ tự lưu trữ hoặc quản trị mạng. Tuy nhiên, kết nối từ xa này phải được bảo mật.
-
 
 Mẹo đầu tiên là không bao giờ trực tiếp mở một cổng trên bộ định tuyến để truy cập thiết bị (ví dụ: qua RDP, SSH hoặc FTP), vì điều này sẽ khiến dịch vụ đó bị lộ ra toàn bộ Internet, tạo thành một lỗ hổng bảo mật. Các cuộc tấn công tự động nhắm vào các cổng mở rất nhiều.
 
-
 Giải pháp tôi khuyên dùng là sử dụng VPN (Mạng riêng ảo), tức là một đường hầm được mã hóa giữa thiết bị từ xa (máy tính, điện thoại thông minh, v.v.) và mạng cục bộ của bạn. Sau khi kết nối với VPN, bạn có thể truy cập tài nguyên tại nhà như thể bạn đang ở đó, và một cách an toàn.
 
-
 Hai giải pháp chính dành cho khách hàng cá nhân là:
-
-
 
 - WireGuard: Hiện đại, nhanh và nhẹ
 - OpenVPN: Cũ hơn nhưng rất hoàn thiện và có thể cấu hình được
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Sau đây là hướng dẫn đầy đủ về Tailscale, một giải pháp VPN dễ cấu hình sử dụng WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Bạn có thể lưu trữ VPN này trực tiếp trên bộ định tuyến tương thích, trên máy tính nhỏ (như Raspberry Pi) hoặc trên máy chủ chuyên dụng tại nhà. Bạn cũng có thể cài đặt nó dưới dạng máy khách trực tiếp trên bất kỳ thiết bị nào.
 
-
 Nhưng VPN không chỉ dành cho truy cập từ xa. Bạn cũng có thể sử dụng máy khách VPN cổ điển trên thiết bị của mình để mã hóa toàn bộ lưu lượng truy cập ra, ngay cả khi bạn đang ở xa nhà (Wi-Fi công cộng, khách sạn, trường đại học, v.v.). Trong trường hợp này, thiết bị của bạn sẽ kết nối với máy chủ VPN của bên thứ ba (thương mại hoặc tự lưu trữ), sau đó chuyển tiếp kết nối của bạn lên Internet. Điều này sẽ ẩn địa chỉ IP thực Address của bạn khỏi ISP, bảo vệ dữ liệu của bạn khỏi bị theo dõi cục bộ và tránh một số hình thức kiểm duyệt.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Cuối cùng, bạn cũng có thể thiết lập VPN trực tiếp trên bộ định tuyến, cho phép bạn bảo vệ tất cả các thiết bị trong nhà mà không cần phải cài đặt ứng dụng VPN trên từng thiết bị.
 
-
 ### Giám sát và phát hiện
-
 
 Sau khi mạng của bạn đã được cấu hình và phân đoạn đúng cách, điều quan trọng là phải vượt ra ngoài bảo mật thụ động. Việc giám sát chủ động mạng cục bộ có thể phát hiện các hành vi bất thường, kết nối trái phép hoặc dấu hiệu xâm nhập. Mục đích là phát hiện sớm các vấn đề, trước khi chúng gây ra thiệt hại.
 
-
 Bước đầu tiên là tập trung hóa nhật ký bảo mật. Mỗi thiết bị được kết nối với mạng đều tạo ra nhật ký chứa thông tin về kết nối, lỗi hoặc hoạt động đáng ngờ. Thay vì xem từng nhật ký riêng lẻ, tôi khuyên bạn nên gửi chúng đến một máy chủ có khả năng nhóm, sắp xếp và phân tích. Các giải pháp như Graylog hoặc Elastic Stack (ELK) cho phép bạn tổng hợp các nhật ký này thành một giao diện đồ họa Interface, nơi bạn có thể tìm kiếm các sự kiện cụ thể, tạo cảnh báo hoặc trực quan hóa hoạt động mạng.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Tiếp theo, hãy thường xuyên quét mạng cục bộ của bạn, ví dụ như bằng Nmap. Thao tác này sẽ cung cấp cho bạn cái nhìn tổng quan về tất cả các thiết bị trong mạng và các cổng mà chúng đã mở. Nếu bạn phát hiện một thiết bị không xác định hoặc một dịch vụ bất thường, đây có thể là dấu hiệu của một cuộc tấn công.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Để tiến xa hơn nữa, bạn có thể cài đặt IDS (Hệ thống Phát hiện Xâm nhập) hoặc thậm chí IPS (Hệ thống Phòng chống Xâm nhập). Các công cụ này, chẳng hạn như Suricata hoặc Snort, giám sát luồng mạng theo thời gian thực và phát hiện dấu hiệu của các cuộc tấn công đã biết (quét cổng, chèn mã độc, kết nối đáng ngờ, v.v.). IDS sẽ cảnh báo, trong khi IPS có thể tự động chặn một số hành động nhất định.
 
-
-
 Cuối cùng, việc theo dõi mức tiêu thụ băng thông cũng là một chỉ báo tốt về hoạt động bất thường. Nếu một thiết bị đột nhiên tiêu thụ nhiều dữ liệu mà không có lý do rõ ràng, điều này có thể cho thấy một hoạt động tải xuống trái phép, rò rỉ dữ liệu, hoặc thậm chí là một thiết bị bị xâm nhập. Các công cụ như ntopng hoặc vnStat cho phép bạn xem các luồng dữ liệu đến và đi theo từng thiết bị.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sao lưu và phục hồi
 
-
 Ngay cả với một mạng lưới an toàn tuyệt đối, lỗi phần cứng, lỗi cấu hình hoặc các sự cố bất ngờ (mất điện, quá áp, lỗi ổ đĩa Hard, v.v.) vẫn có thể gây mất dữ liệu hoặc gián đoạn dịch vụ của bạn. Để đảm bảo tính liên tục của môi trường kỹ thuật số và tránh phải bắt đầu lại từ đầu khi gặp sự cố, điều quan trọng là phải triển khai chiến lược sao lưu và phục hồi.
-
 
 Hãy bắt đầu bằng cách thường xuyên sao lưu cấu hình thiết bị mạng, đặc biệt là bộ định tuyến. Các tệp cấu hình này thường có thể được xuất qua thư mục quản trị Interface. Việc lưu giữ một bản sao cho phép bạn nhanh chóng khôi phục hệ thống đang hoạt động trong trường hợp thiết bị được đặt lại hoặc thay thế. Tôi cũng khuyên bạn nên mã hóa bản sao lưu này.
 
-
 Cuối cùng, để cải thiện khả năng phục hồi của mạng trong trường hợp mất điện, hãy đầu tư vào một bộ lưu điện (UPS). Thiết bị này cung cấp nguồn điện dự phòng trong vài phút khi mất điện, cho phép bạn tiếp tục sử dụng Internet hoặc đảm bảo các thiết bị quan trọng (NAS, bộ định tuyến, điểm truy cập Wi-Fi, v.v.) được tắt hoàn toàn. Một số mẫu máy còn có thể gửi lệnh tắt tự động đến các thiết bị được kết nối khi phát hiện pin yếu.
-
 
 Bằng cách làm theo một số bước sau, bạn sẽ xây dựng được một môi trường mạng mạnh mẽ, an toàn và tôn trọng quyền riêng tư của bạn.
 
-
 # Phần cuối
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Đánh giá & Xếp hạng
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Kỳ thi cuối kỳ
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Phần kết luận
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

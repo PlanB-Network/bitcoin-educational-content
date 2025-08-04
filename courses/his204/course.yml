@@ -116,6 +116,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 51.65
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.34
 videos:
   - id: 71603b6d-b9f2-418d-b11e-f5e553041794
     youtube:

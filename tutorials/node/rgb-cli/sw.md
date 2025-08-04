@@ -11,7 +11,7 @@ Katika somo hili, tutafuata mchakato wa hatua kwa hatua wa kuandika Contract, kw
 ## Kikumbusho cha itifaki ya RGB
 
 
-RGB ni itifaki inayoendesha juu ya Bitcoin na kuiga utendaji wa Smart contract na usimamizi wa mali dijitali, bila kupakia Blockchain ambayo msingi wake ni. Tofauti na mikataba mahiri ya On-Chain ya kawaida (kama ilivyo kwa Ethereum, kwa mfano), RGB inategemea mfumo wa "*Client-side Validation*": data na historia nyingi za hali hubadilishwa na kuhifadhiwa na washiriki wanaohusika pekee, ilhali Bitcoin Blockchain huandaa tu ahadi ndogo za kriptografia (kupitia mbinu kama vile *OTapret*). Katika itifaki ya RGB, Bitcoin Blockchain kwa hivyo hutumika tu kama seva ya kukanyaga wakati na mfumo wa ulinzi wa Double-spending.
+RGB ni itifaki inayoendesha juu ya Bitcoin na kuiga utendaji wa Smart contract na usimamizi wa mali ya kidijitali, bila kupakia Blockchain ambayo msingi wake ni. Tofauti na mikataba mahiri ya On-Chain ya kawaida (kama ilivyo kwa Ethereum, kwa mfano), RGB inategemea mfumo wa "*Client-side Validation*": data na historia nyingi za hali hubadilishwa na kuhifadhiwa na washiriki wanaohusika pekee, ilhali Bitcoin Blockchain huandaa tu ahadi ndogo za kriptografia (kupitia mbinu kama vile *OTapret*). Katika itifaki ya RGB, Bitcoin Blockchain kwa hivyo hutumika tu kama seva ya kukanyaga wakati na mfumo wa ulinzi wa Double-spending.
 
 
 RGB Contract imeundwa kama mashine ya hali ya mabadiliko. Huanza na Genesis inayofafanua hali ya awali (inayoelezea, kwa mfano, Supply, ticker au metadata nyingine) kulingana na Schema iliyochapwa kwa ukali na iliyokusanywa. Mpito wa Jimbo na, ikihitajika, Viendelezi vya Jimbo basi hutumika kurekebisha au kupanua hali hii. Kila operesheni, iwe ni kuhamisha vipengee vinavyoweza kuvutwa (RGB20) au kuunda vipengee vya kipekee (RGB21), huhusisha *Mihuri ya Matumizi Moja*. Hizi huunganisha Bitcoin UTXOs kwenye majimbo ya off-chain na kuzuia matumizi maradufu, huku zikihakikisha usiri na hatari.
@@ -301,7 +301,7 @@ rgb dump
 ![RGB-CLI](assets/fr/10.webp)
 
 
-Hii itakuwa generate folda yenye maelezo ya Stash nzima.
+Hii itakuwa inagenerate folda yenye maelezo ya Stash nzima.
 
 
 ## Uhamisho na PSBT
@@ -318,8 +318,8 @@ Mara nyingi, mwingiliano kati ya washiriki katika Contract (k.m. Alice na Bob) h
 
 
 
-- Alice** (mtoaji wa Invoice);
-- Bob** (ambaye anapokea na kutekeleza Invoice).
+- **Alice** (mtoaji wa Invoice);
+- **Bob** (ambaye anapokea na kutekeleza Invoice).
 
 
 Tofauti na mifumo ikolojia mingine, RGB Invoice haizuiliwi na wazo la malipo. Inaweza kupachika ombi lolote lililounganishwa na Contract: kubatilisha ufunguo, kupiga kura, kuunda maandishi (*engraving*) kwenye NFT, nk. Operesheni inayolingana inaweza kuelezewa katika Contract Interface. Operesheni inayolingana inaweza kuelezewa katika Contract Interface.
@@ -412,7 +412,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 
 
-- Mara tu shughuli hii inapothibitishwa On-Chain, Ownership ya mali inachukuliwa kuhamishiwa kwa Alice. Wallet ya Alice, ikifuatilia shughuli ya Mining, inaona Owned State mpya ikionekana kwenye Stash yake.
+- Mara tu shughuli hii inapothibitishwa On-Chain, Ownership ya mali inachukuliwa kuhamishiwa kwa Alice. Wallet ya Alice, ikifuatilia shughuli za Mining, inaona Owned State mpya ikionekana kwenye Stash yake.
 
 
 Sasa unajua jinsi ya kutoa na kuhamisha RGB Contract. Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaweka kidole gumba cha Green hapa chini. Tafadhali jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!

@@ -4,6 +4,14 @@ description: Configuration d'un multisig 2/2 sur Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+
+___
+
+***Remarque :** À compter de mai 2025, il ne sera plus possible d'activer de nouveaux comptes protégés par l'authentification à deux facteurs (2FA). Cette fonctionnalité est uniquement disponible pour les utilisateurs qui avaient déjà activé ce type de compte auparavant.*
+
+___
+
+
 Un portefeuille logiciel est une application installée sur un ordinateur, un smartphone ou tout autre appareil connecté à Internet, permettant de gérer et de sécuriser les clés de son portefeuille Bitcoin. Contrairement aux hardware wallets, qui isolent les clés privées, les portefeuilles "**chauds**" fonctionnent donc dans un environnement potentiellement exposé aux cyberattaques, ce qui augmente les risques de piratage et de vol.
 
 Les portefeuilles logiciels sont à utiliser pour gérer des montants raisonnables de bitcoins, notamment pour les transactions du quotidien. Cela peut être une option intéressante également pour les personnes possédant un patrimoine limité en bitcoins, pour qui l'investissement dans un hardware wallet peut sembler disproportionné. Cependant, leur exposition constante à Internet les rend moins sûrs pour stocker votre épargne de long terme ou des fonds importants. Pour ces derniers, il est préférable d'opter pour des solutions plus sécurisées, comme les hardware wallets.

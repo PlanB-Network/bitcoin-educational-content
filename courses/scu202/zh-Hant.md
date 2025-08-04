@@ -972,11 +972,9 @@ Arch Linux 系列的哲學與現成的發行版截然不同。它們是極簡主
 
 此方法是基於*滾動發佈*模式，套件會不斷更新，不需要在每次重大發佈時重新安裝系統。Pacman 套件管理器快速且輕量，可輕鬆安裝和更新軟體，而 AUR (*Arch User Repository*)，一個社群儲存庫，可存取大量非官方和開發套件。
 
-
-
 Arch Linux 首先是針對想要完全控制環境的進階使用者，同時也接受一定的安裝與維護複雜度。此技術需求已導致數個衍生發行版的出現，目的在於使其使用更平民化。
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 最著名的是 Manjaro，它保留了 Arch 的技術基礎，同時提供簡化的安裝、預設的桌面環境，以及稍微延遲的發行週期以穩定更新。
 
@@ -1064,7 +1062,7 @@ Ubuntu 由 Canonical 開發，於 2004 年推出，是全球最受歡迎的發�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1074,7 @@ Linux Mint 於 2006 年推出，是源自 Ubuntu 的發行版，旨在提供更�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint 以其簡單、預設的多媒體編解碼器和設計良好的更新工具脫穎而出。另一方面，Mint 嚴重依賴 Ubuntu 的基礎架構，使得它必須依賴 Ubuntu 的技術選擇 (尤其是在核心與儲存庫層級)。Mint 特別適合非技術性使用者，或是想要一個不需要太多學習、即開即用的系統的人。
 
@@ -1108,9 +1106,9 @@ Zorin OS 由一個愛爾蘭團隊於 2008 年創立，明確以尋求平順過�
 
 - 基本作業系統**：
 
-
-
 elementary OS 於 2011 年推出，是以 Ubuntu 為基礎的發行版，主要著重於 Interface 的設計與一致性。其 Pantheon 桌面環境的靈感來自 macOS，簡約、優雅且流暢。然而，與其他發行版相比，該系統的自訂性仍然較低，一些進階使用者可能會因為 Interface 的選擇及其刻意鎖定的結構而感到受限。Interface 非常適合對美學敏感、尋求簡單連貫系統作日常使用的使用者。
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux 是一個簡約、可持續更新的發行版，沒有 Interface 或�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### 專業配送
 
-
-
-
-
 - Kali Linux**：
-
-
 
 Kali Linux 是基於 Debian 的發行版，專為滲透測試和安全稽核而設計。它包含數百個 pentest 工具。此發行版並不適合作為日常使用的主要系統。
 
@@ -1252,7 +1246,7 @@ Tails 是一個以 Debian 為基礎、注重隱私的 Live 發行版。所有東
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **註：** Live 發行版是可以直接從 USB 隨身碟或 CD 使用的 Linux 作業系統，無須在 Hard 磁碟上安裝。
 
@@ -4869,12 +4863,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 FileVault 啟用後，您需要選擇密碼遺失時的復原方法：使用您的 *iCloud* 帳戶，或 generate 獨特的備份金鑰。此密鑰必須存放在安全的地方，因為遺失會導致您的資料永久無法存取。
 
-
-
 對於外接式儲存媒體 (Hard 磁碟、USB 隨身碟等)，可使用磁碟公用程式執行加密。您需要完全重新格式化磁碟區：
-
-
-
 
 - 選取裝置，按一下「*刪除*」。
 - 選擇「GUID* 磁碟分割表」方案
@@ -4882,41 +4871,25 @@ FileVault 啟用後，您需要選擇密碼遺失時的復原方法：使用您�
 - 選擇強大的密碼
 - 按一下「*刪除*」，然後按一下「*確定*」，加密就完成了
 
-
-
 加密就位後，只有輸入此密碼才能掛載外接式硬碟機。然後，系統會立即解密。
-
-
 
 #### 有關加密備份的幾項建議
 
-
-
 在加密媒體之前，您需要備份媒體中的所有資料 (當然，除非媒體是空的)，因為加密程序通常會刪除初始內容。
-
-
 
 密碼的選擇也非常重要：密碼必須長、複雜且唯一，因為這是您的資料與惡意第三方之間的唯一保護。您還必須進行備份，例如在密碼管理器中備份，因為與線上服務不同，密碼管理器沒有復原機制。如果您忘記了密碼，資料就會永遠遺失。
 
-
-
 ### 選擇性檔案加密
-
-
 
 在某些情況下，加密整個 Hard 磁碟或外部媒體既無必要也不實際。在這種情況下，您可以選擇選擇性加密，即僅保護包含敏感資料的特定檔案或目錄。
 
-
-
 最著名的檔案加密方法之一是使用 GPG。這個工具是以非對稱加密法為基礎：您有一對金鑰，一對是公開金鑰，您可以自由分發給您的通信者，另一對是私人金鑰，必須嚴格保密。檔案使用收件者的公開金鑰加密，但只能使用其私人金鑰解密。
-
-
 
 此協定非常適合與他人安全地交換敏感檔案，而無需共用密碼。對於個人或偶爾使用的情況，GPG 也能進行對稱加密：檔案會受到只有您知道的獨特密碼保護。
 
-
-
 Cryptomator 是一個極佳的選擇。這個開放原始碼軟體可讓您建立一個保險箱：一個特殊目錄，存放在此目錄中的所有檔案都會自動加密。這個保險箱可以與 Dropbox、Google Drive 或 Nextcloud 等雲端服務同步，而提供者無法存取未加密的資料。此應用程式適用於所有作業系統，包括 Android 和 iOS，使用時不需要特殊的技術能力。
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Cryptomator 是一個極佳的選擇。這個開放原始碼軟體可讓您建�
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 最後，也可以在容器模式下使用 VeraCrypt，它會建立一個檔案，作為加密存檔，可像磁碟一樣掛載。
-
-
 
 現在您已學會如何保護個人資料免於遺失和竊取，下一章將探討另一個重要方面：如何防止個人檔案透過其元資料成為攻擊媒介。
 
-
-
-
 ## 元資料清理
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 每次您建立數位檔案時，不論是照片、辦公室文件、音訊或視訊檔案，都會在背景中包含元資料。這些資訊在您開啟檔案時並不直接可見，但卻存在於檔案中，而且可能包含極度敏感的 Elements。
-
-
 
 ### 為什麼元資料會有風險？
 
-
-
 Metadata 是附加到檔案的資料，其作用是提供內容的相關資訊。在影像中，這可能包括影像拍攝的日期和時間、精確的 GPS 座標、使用的相機或智慧型手機型號，有時甚至包括技術設定。在文字文件中，可能包括作者姓名、公司名稱、使用者的會話 ID、建立和修改時間戳記，甚至是編輯時留下的內部註解。
-
-
 
 這些元資料看似無害，但惡意行為者可利用這些元資料來辨識檔案的作者、實體定位某人、重建事件或習慣，甚至根據所使用的軟體版本來利用軟體缺陷。
 
-
-
 讓我們舉一個具體的例子：您在論壇上張貼了一張據說是匿名的照片。如果您沒有移除 EXIF 元資料，只要點一下就能顯示您家的精確 GPS 座標、您手機的型號以及照片拍攝的確切日期。同樣地，匿名傳送的 PDF 文件也可能在其屬性中包含您的全名。
-
-
 
 這就是為什麼有些媒體出版和通訊平台會自動移除照片中的元資料。這些平台包括 X (Twitter)、Instagram、Signal 和 Session。另一方面，其他平台則完全不會移除元資料：大多數線上論壇、許多電子郵件用戶端，甚至當您直接在網站上發表時，都是這種情況。
 
-
-
 這是一個必要的條件反射：一旦檔案離開您的私人領域，您就需要考慮清理其元資料，以避免在您不知情的情況下洩露個人或敏感資訊。讓我們根據您的作業系統，來看看如何做到這一點。
-
-
 
 ### 在 Linux (Debian) 上
 
-
-
 #### 使用 ExifTool
-
-
 
 管理和刪除 metadata 最完整可靠的方法是 Phil Harvey 開發的 ExifTool。它相容於大量檔案格式 (JPG、PNG、PDF、MP3、DOCX...)，並可顯示和刪除元資料。
 
-
-
-
-
 - 步驟 1：安裝 ExifTool
 
-
-
 若要在 Debian 發行版（Ubuntu）上安裝，請開啟終端機並輸入指令：
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 此套件會安裝 `exiftool`，您可以直接從指令列使用。
 
@@ -6720,7 +6659,7 @@ GrapheneOS 沒有整合任何專屬元件。您可以自由添加或不添加 Go
 Graphene 僅與最近的 Google Pixels (Pixel 6、7、8 和 9) 相容。
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -8611,34 +8550,26 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 
 ### 透過 VPN 進行安全遠端存取
 
-
 在某些情況下，當您在移動時能夠存取您的家庭網路是非常有用的：諮詢 NAS 上的檔案、使用 Bitcoin 和 Lightning 節點、存取自行託管的伺服器或管理您的網路。但是，此遠端連線必須安全。
-
 
 第一個訣竅是絕對不要直接開啟路由器上的連接埠來存取裝置 (例如透過 RDP、SSH 或 FTP)，因為這樣會將該服務暴露於整個網際網路，構成漏洞。以開啟連接埠為目標的自動化攻擊不勝枚舉。
 
-
 我建議的解決方案是使用 VPN（*虛擬私人網路*），也就是在您的遠端裝置（電腦、智慧型手機等）與本機網路之間建立加密隧道。一旦連線到 VPN，您就可以存取家中的資源，就像您親自在家中一樣，而且是以安全的方式。
 
-
 針對私人客戶的兩種主要解決方案是
-
-
 
 - WireGuard：現代、快速、輕量
 - OpenVPN: 較舊，但非常成熟且可設定
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 以下是 Tailscale 的完整教學，這是一個使用 WireGuard 的易於設定 VPN 解決方案：
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 您可以將此 VPN 直接託管在相容的路由器、小型電腦 (例如 Raspberry Pi) 或家中的專用伺服器上。您也可以直接將它以用戶端方式安裝在任何裝置上。
 
-
 但 VPN 不只是用於遠端存取。您也可以在裝置上使用經典的 VPN 用戶端，即使您不在家（公共 Wi-Fi、旅館、大學等），也能加密您所有的傳出流量。在這種情況下，您的裝置會連線到第三方 VPN 伺服器 (商業或自行託管)，然後它會將您的連線轉發到網際網路。這樣就可以向 ISP 隱藏您的真實 IP Address，保護您的資料不受本地窺探，並避免某些形式的審查。
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 最後，也可以直接在路由器上設定 VPN，讓您可以保護家中的所有裝置，而無需在每個裝置上安裝 VPN 用戶端。
 
-
 ### 監控與偵測
-
 
 當您的網路已正確設定並分割後，重要的是要超越被動式的安全防護。主動監控您的本機網路可以偵測異常行為、未授權連線或入侵跡象。目的是在問題造成損害之前及早發現。
 
-
 第一步是集中管理安全記錄。每個連線到網路的裝置都會產生記錄，其中包含連線、錯誤或可疑活動的資訊。我建議不要單獨諮詢這些記錄，而是將它們傳送至能夠將它們群組、排序和分析的伺服器。Graylog 或 Elastic Stack (ELK) 等解決方案可讓您將這些日誌匯集到圖形化的 Interface，您可以在其中搜尋特定事件、建立警示或視覺化網路活動。
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 接下來，定期主動掃描您的區域網路，例如使用 Nmap。這會讓您概覽網路上的所有裝置，以及它們所開啟的連接埠。如果您發現未知裝置或不尋常的服務，這可能就是攻擊的跡象。
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 若要更進一步，您可以安裝 IDS (* 入侵偵測系統*)，甚至是 IPS (* 入侵防禦系統*)。這些工具 (例如 Suricata 或 Snort) 會即時監控網路流量，並偵測已知攻擊的特徵 (連接埠掃描、注入、可疑連線等)。IDS 會發出警告，而 IPS 則可自動封鎖某些動作。
 
-
-
 最後，監控頻寬消耗也是異常活動的良好指標。如果裝置突然無緣無故消耗大量資料，這可能是未經授權的下載、資料洩漏，甚至是裝置受到攻擊。ntopng 或 vnStat 等工具可讓您依裝置檢視流入和流出的流量。
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### 備份與彈性
 
-
 即使擁有完美安全的網路，硬體故障、組態錯誤或不可預見的事件 (停電、電湧、Hard 磁碟故障等) 也可能導致資料遺失或服務中斷。為了保證您數位環境的連續性，並避免在發生問題時從頭開始，執行備份和復原策略是非常重要的。
-
 
 首先要定期備份網路設備的設定，尤其是路由器。這些組態檔案通常可以透過管理 Interface 匯出。保留一份副本可以讓您在重設或更換設備時快速還原功能正常的系統。我也建議將此備份加密。
 
-
 最後，為了提高網路在斷電時的應變能力，請投資購買 UPS。此裝置可在斷電時提供數分鐘的備用電源，讓您可以繼續使用網際網路，或確保關鍵裝置 (NAS、路由器、Wi-Fi 存取點等) 乾淨地關機。某些型號還能在偵測到電池電力不足時，向連接的裝置傳送自動關機指令。
-
 
 只要遵循這幾個步驟，您就可以建立一個尊重您隱私的強大、安全的網路環境。
 
-
 # 最後部分
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## 評論與評分
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## 期末考試
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## 總結
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

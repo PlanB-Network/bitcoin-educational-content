@@ -1,0 +1,9 @@
+question: Qu'est-ce que la philosophie scolastique ?
+answer: Une philosophie chrétienne du Moyen-Âge.
+wrong_answers:
+- Un mouvement politique.
+- Une philosophie anarchiste.
+- Une philosophie rationnelle.
+explanation: |
+  La philosophie scolastique est une philosophie chrétienne du Moyen-Âge qui dominait les universités européennes. Elle cherchait à harmoniser la foi chrétienne avec la philosophie aristotélicienne.
+reviewed: false

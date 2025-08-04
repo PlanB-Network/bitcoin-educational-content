@@ -113,6 +113,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 37.04
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.66
 tags:
   - onchain
   - deep-dive

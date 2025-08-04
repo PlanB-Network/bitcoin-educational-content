@@ -104,6 +104,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.45
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.38
 tags:
   - privacy
   - cypherpunk

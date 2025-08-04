@@ -16,7 +16,7 @@ Kufikia Mei 2024, Braiins Pool ina uwezo wa kompyuta wa 13 EH/s, ikiwakilisha ta
 ### Mfumo wa Fidia
 
 
-Tangu mwisho wa 2023, Braiins Pool imebadilisha mfumo wake wa fidia ili kutumia mfumo wa FPPS (Full Pay Per Share). Hii ina maana kwamba wachimbaji hupokea tuzo kila siku kwa kazi yao yote kutoka siku iliyopita, hata kama bwawa halikupata kizuizi. Hii inatofautiana na mfumo wa zamani ambapo wachimbaji walipokea tuzo tu wakati bwawa lilipata kizuizi.
+Tangu mwisho wa 2023, Braiins Pool imebadilisha mfumo wake wa fidia ili kutumia mfumo wa FPPS (Full Pay Per Share). Hii ina maana kwamba wachimbaji hupokea tuzo kila siku kwa kazi yao yote kutoka siku iliyotangulia, hata kama bwawa halikupata kizuizi. Hii inatofautiana na mfumo wa zamani ambapo wachimbaji walipokea tuzo tu wakati bwawa lilipata kizuizi.
 
 
 **Inafaa kufahamu, [kulingana na tweet ya Mononaut](https://x.com/mononautical/status/1777686545715089605) ambaye anachanganua Bitcoin TimeChain, kwamba madimbwi mengi ya Mining kwa kutumia mfumo wa FPPS yangetuma bitcoins zilizochimbwa kwa Ant Ant Poolnt, Address. Hashrate ya mabwawa haya yote, karibu 47% ya Bitcoin Hashrate ya kimataifa. Hii ni habari mbaya sana kwa ugatuaji wa mtandao.**
@@ -48,7 +48,7 @@ Ada: 10,000 Sats kwa kiasi kilicho chini ya 500,000 Sats
 
 Bila malipo kwa zaidi ya 500,000 Sats
 
-Uondoaji unaweza kusababishwa na muda wa muda au kwa kiasi.
+Uondoaji unaweza kusababishwa na muda au kwa kiasi.
 
 
 ## Uundaji wa Akaunti
@@ -99,7 +99,7 @@ Hapa, **"stratum+tcp://eu.stratum.braiins.com:3333"** ndio URL ya mkusanyiko.
 Na nenosiri daima ni sawa **"chochote123"**
 
 
-Ukishaingiza maelezo haya kwenye ukurasa wako wa wavuti wa Miner na imeanza Mining, utayaona yakionekana baada ya dakika chache kwenye Dashibodi ya Braiins Pool.
+Ukishaingiza maelezo haya kwenye ukurasa wako wa wavuti wa Miner na umeanza Mining, utayaona yakionekana baada ya dakika chache kwenye Dashibodi ya Braiins Pool.
 
 
 ## Muhtasari wa Dashibodi
@@ -165,7 +165,7 @@ Kumbuka kwamba kiasi cha chini ni 0.0002 BTC na kwamba chini ya 0.005 BTC, ada y
 ![signup](assets/18.webp)
 
 
-Ikiwa ungependa kutumia uondoaji wa umeme, utahitaji Wallet ambayo hutoa Umeme Address. Kwa mfano, unaweza kutumia getAlby.
+Ikiwa ungependa kutumia uondoaji wa umeme, utahitaji Wallet ambayo hutoa Umeme wa Address. Kwa mfano, unaweza kutumia getAlby.
 
 
 Bofya juu ya dirisha kwenye "Malipo ya umeme".

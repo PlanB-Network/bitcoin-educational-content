@@ -4,6 +4,12 @@ description: Configurar un multisig 2/2 en Monedero Verde
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Nota:** A partir de mayo de 2025, ya no será posible activar nuevas cuentas protegidas con autenticación de dos factores (2FA). Esta funcionalidad solo está disponible para los usuarios que ya habían activado este tipo de cuenta anteriormente.*
+
+___
+
 Un monedero software es una aplicación instalada en un ordenador, smartphone u otro dispositivo conectado a Internet, que le permite gestionar y proteger las claves de su monedero Bitcoin. A diferencia de los monederos hardware, que aíslan las claves privadas, los monederos "calientes" operan por tanto en un entorno potencialmente expuesto a ciberataques, lo que aumenta el riesgo de piratería y robo.
 
 Los monederos software deberían utilizarse para gestionar cantidades razonables de bitcoins, especialmente para las transacciones cotidianas. También pueden ser una opción interesante para personas con activos limitados en bitcoins, para quienes la inversión en un monedero físico puede parecer desproporcionada. Sin embargo, su exposición constante a Internet las hace menos seguras para almacenar tus ahorros a largo plazo o grandes fondos. Para esto último, es mejor optar por soluciones más seguras, como los monederos físicos.

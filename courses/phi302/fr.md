@@ -51,7 +51,7 @@ Ce livre a été commandé et financé par [Chaincode Labs](https://learning.cha
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bienvenue dans ce cours PHI 301 sur la philosophie de développement de Bitcoin.
+Bienvenue dans ce cours PHI 302 sur la philosophie de développement de Bitcoin.
 
 
 Le Bitcoin est plus qu'une simple crypto-monnaie, il incarne une vision philosophique de la décentralisation, de la vie privée, de l'absence de confiance et de la résilience. Ce cours est conçu spécifiquement pour les développeurs qui connaissent déjà les fondements techniques du Bitcoin et qui cherchent maintenant à approfondir leur compréhension des principes qui sous-tendent la conception et la gouvernance du Bitcoin.

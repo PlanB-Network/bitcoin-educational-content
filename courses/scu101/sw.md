@@ -116,7 +116,7 @@ Vidakuzi ni faili zilizoundwa na tovuti ili kuhifadhi maelezo kwenye kifaa chako
 
 Kuna familia mbili kuu za vivinjari: zile zinazotegemea Chrome na zile zinazotegemea Firefox.
 
-Ingawa familia zote mbili hutoa kiwango sawa cha usalama, inashauriwa kuepuka kivinjari cha Google Chrome kutokana na wafuatiliaji wake.Vivinjari mbadala nyepesi, kama vile Chromium au Brave, vinaweza kupendekezwa.Brave inapendekezwa hasa kwa block yake ya matangazo iliyojengwa.
+Ingawa familia zote mbili hutoa kiwango sawa cha usalama, inashauriwa kuepuka kivinjari cha Google Chrome kutokana na wafuatiliaji wake.Vivinjari mbadala nyepesi, kama vile Chromium au Brave, vinaweza kupendekezwa. Brave inapendekezwa hasa kwa block yake ya matangazo iliyojengwa.
 
 ![](assets/notext/6.webp)
 
@@ -131,6 +131,7 @@ TOR ni halali na inatumiwa na wanahabari, wanaharakati wa uhuru, na wengine wana
 ![](assets/notext/7.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
 ## VPN na unganisho la mtandao
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -155,6 +156,7 @@ Hatimaye, VPN inaweza pia kutumika kuzuia matangazo ya mtandaoni, kutoa hali ya 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
 ### HTTPS na mitandao ya umma ya Wi-Fi'
 
 Kwa upande wa usalama wa mtandaoni, ni muhimu kuelewa kwamba 4G kwa ujumla ni salama zaidi kuliko Wi-Fi ya umma. Hata hivyo, kutumia 4G kunaweza kufuta haraka mpango wako wa data. Protocol ya HTTPS imekuwa kiwango cha kusimba data kwenye tovuti; inahakikisha kwamba data iliyosimbwa kati ya mtumiaji na tovuti ni salama. Kwa hivyo, ni muhimu kuthibitisha kuwa tovuti unayotembelea inatumia protocol ya HTTPS.
@@ -267,6 +269,7 @@ Ukigundua virusi kwenye kompyuta yako, iondoe kwenye mtandao, fanya uchunguzi ka
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 # Utekelezaji wa ufumbuzi.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -304,6 +307,7 @@ Kwa ujumla, kuanza kutumia barua pepe mpya, iliyo salama zaidi ya Anwani sio maz
 Bonasi ya Bitcoin: Inashauriwa kuunda barua pepe maalum yenye Address kwa miamala yetu ya Bitcoin (kuunda akaunti za exchange) ili kutenganisha kwa kweli maeneo ya miamala katika maisha yetu.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Kidhibiti cha Nenosiri
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
@@ -350,6 +354,7 @@ Nenosiri zinazozalishwa bila mpangilio hutoa kiwango cha juu cha usalama, ingawa
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ## Uthibitishaji wa Mambo Mbili
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
@@ -384,7 +389,7 @@ Kuhusu vitisho vinavyoweza kutokea kwa SIM 2FA, huu ni mfano wa kawaida: shambul
 
 Biometriska inaweza kutumika kama njia mbadala, lakini ni salama kidogo kuliko mchanganyiko wa ujuzi na milki. Data ya kibayometriki inapaswa kubaki kwenye kifaa cha uthibitishaji na isifichuliwe mtandaoni. Ni muhimu kuzingatia mtindo wa tishio unaohusishwa na mbinu tofauti za uthibitishaji na kurekebisha mazoea ipasavyo.
 
-Hatimaye, inaweza kuwa na manufaa kutoa muhtasari mfupi kuhusu HOTP na TOTP (OTP):HOTP ni nenosiri la mara moja linalotegemea algoriti ya HMAC (Hash-based Message Authentication Code), wakati TOTP ni nenosiri la mara moja linalotegemea muda. Sifa muhimu za algoriti hizi ni kwamba manenosiri yanaweza kutumika mara moja tu; kila thamani inayozalishwa ni ya kipekee na hutegemea ufunguo ulioshirikiwa kati ya kifaa cha mtumiaji (mteja) na huduma ya uthibitishaji (seva). Tofauti kati ya mifumo miwili ni jinsi kipengele kinavyofanya kazi: TOTP inategemea muda, wakati HOTP inategemea kielelezo cha kuthibitisha.
+Hatimaye, inaweza kuwa na manufaa kutoa muhtasari mfupi kuhusu HOTP na TOTP (OTP): HOTP ni nenosiri la mara moja linalotegemea algoriti ya HMAC (Hash-based Message Authentication Code), wakati TOTP ni nenosiri la mara moja linalotegemea muda. Sifa muhimu za algoriti hizi ni kwamba manenosiri yanaweza kutumika mara moja tu; kila thamani inayozalishwa ni ya kipekee na hutegemea ufunguo ulioshirikiwa kati ya kifaa cha mtumiaji (mteja) na huduma ya uthibitishaji (seva). Tofauti kati ya mifumo miwili ni jinsi kipengele kinavyofanya kazi: TOTP inategemea muda, wakati HOTP inategemea kielelezo cha kuthibitisha.
 
 ### Hitimisho la mafunzo:
 
@@ -402,6 +407,7 @@ Kanuni ya dhahabu: Usalama wa Mtandao ni lengo linalosonga ambalo litaendana na 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 # Sehemu ya Vitendo
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -413,6 +419,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 Kulinda akaunti yako ya barua pepe ni hatua muhimu ya kulinda miamala yako ya mtandaoni na kuhifadhi data yako ya kibinafsi. Mafunzo haya yatakuongoza hatua kwa hatua katika kuunda na kusanidi akaunti ya ProtonMail, mtoa huduma anayejulikana kwa kiwango chake cha juu cha usalama, ambacho hutoa usimbaji fiche kuanzia mwanzo hadi mwisho wa mawasiliano yako. Iwe wewe ni mgeni au mtumiaji mwenye uzoefu, mbinu bora zilizowasilishwa hapa zitakusaidia kuimarisha usalama wa barua pepe yako, huku ukinufaika na vipengele vya kina vya ProtonMail:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Kulinda katika 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
@@ -420,11 +427,13 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 Uthibitishaji wa vipengele viwili (2FA) umekuwa muhimu ili kupata akaunti zako za mtandaoni. Katika somo hili, utajifunza jinsi ya kusanidi na kutumia programu ya 2FA Authy, ambayo hutengeneza misimbo thabiti ya tarakimu 6 ili kulinda akaunti zako. Authy ni rahisi sana kutumia na inasawazisha kwenye vifaa vingi. Gundua jinsi ya kusakinisha na kusanidi Authy, na hivyo uimarishe usalama wa akaunti zako za mtandaoni hivi sasa:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Chaguo jingine ni kutumia security key.
 
 Mafunzo haya ya ziada yanakuonyesha jinsi ya kusanidi na kutumia security key kama kipengele cha pili cha uthibitishaji:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 ## Inaunda kidhibiti cha nenosiri
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
@@ -434,9 +443,11 @@ Kudhibiti nenosiri ni changamoto katika enzi ya kidijitali. Sote tuna akaunti ny
 Katika somo hili, jifunze jinsi ya kusanidi Bitwarden, kidhibiti cha nenosiri la programu huria, na jinsi ya kusawazisha kitambulisho chako kwenye vifaa vyako vyote ili kurahisisha matumizi yako ya kila siku:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Kwa watumiaji wa hali ya juu zaidi, pia ninatoa mafunzo juu ya programu nyingine isiyolipishwa na huria ya kutumia ndani ya nchi kudhibiti manenosiri yako:
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ## Kulinda akaunti zako
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
@@ -445,6 +456,7 @@ Katika mafunzo haya mawili, ninakuongoza pia katika kulinda akaunti zako za mtan
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ## Mpangilio wa chelezo
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
@@ -452,9 +464,11 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Kulinda faili zako za kibinafsi pia ni hatua muhimu. Mafunzo haya yanakuonyesha jinsi ya kutekeleza mbinu bora ya kuhifadhi nakala kwa kutumia Proton Drive. Gundua jinsi ya kutumia suluhisho hili salama la wingu kutumia mbinu ya 3-2-1: nakala tatu za data yako kwenye midia mbili tofauti, na nakala moja nje ya tovuti. Hii inahakikisha ufikiaji na usalama wa faili zako nyeti:
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 Na ili kulinda faili zako zilizohifadhiwa kwenye midia inayoweza kutolewa kama vile hifadhi ya USB au kiendeshi cha nje cha Hard, pia ninakuonyesha jinsi ya kusimba kwa urahisi na kusimbua midia hii kwa kutumia VeraCrypt:
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 ## Mabadiliko ya kivinjari na VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -465,9 +479,11 @@ Ninapendekeza kugundua suluhisho mbili za kuaminika za VPN ambazo zinalipwa kati
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
 Pia, jifunze jinsi ya kutumia Tor Browser, kivinjari kilichoundwa mahususi kulinda faragha yako mtandaoni:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
 # Nenda zaidi
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>

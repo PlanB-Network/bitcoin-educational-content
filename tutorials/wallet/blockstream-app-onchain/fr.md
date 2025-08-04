@@ -1,6 +1,6 @@
 ---
-name: Blockstream Mobile - Onchain
-description: Configurer Blockstream Mobile et gérer les transactions onchain
+name: Blockstream App - Onchain
+description: Configurer Blockstream App sur mobile et gérer les transactions onchain
 ---
 ![cover](assets/cover.webp)
 ## 1. Introduction
@@ -9,7 +9,9 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 - Ce tutoriel explique comment utiliser l'application mobile **Blockstream App** pour gérer un portefeuille Bitcoin **onchain**, c'est-à-dire des transactions directement enregistrées sur la blockchain Bitcoin principale.
 - Il couvre les étapes d'installation, de configuration initiale, de création d'un portefeuille logiciel, et les opérations de réception et d'envoi de bitcoins.
 - Note : D'autres tutoriels fournis en Annexes couvrent les fonctionnalités Liquid, Watch-Only, et la version desktop.
+
 ![image](assets/fr/01.webp)
+
 ### 1.2 Public cible
 
 - **Débutants** : Utilisateurs souhaitant gérer leurs bitcoins avec une application mobile intuitive.
@@ -54,9 +56,13 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 ### 3.2. Configuration initiale
 
 - **Écran d'accueil** : À la première ouverture, l'application affiche un écran sans portefeuille configuré. Les portefeuilles créés ou importés apparaîtront ici par la suite.
+
 ![image](assets/fr/02.webp)
+
 - **Personnalisation des paramètres** : Cliquez sur "Paramètres de l'application", ajustez les options ci-dessous, cliquez sur "Sauvegarder", redémarrez l’application puis créez votre portefeuille.
+
 ![image](assets/fr/03.webp)
+
 #### 3.2.1. Confidentialité renforcée (Android uniquement)
 
 - **Fonction** : Désactive les captures d'écran, masque les aperçus d'application dans le gestionnaire de tâches, et verrouille l’accès dès que le téléphone est verrouillé.
@@ -88,28 +94,34 @@ description: Configurer Blockstream Mobile et gérer les transactions onchain
 
 - **Précaution** : Configurez votre portefeuille dans un environnement privé, sans caméras ni observateurs.
 - Depuis l’écran d’accueil, cliquez sur "Get Started" :
+
 ![image](assets/fr/04.webp)
-- Si vous voulez gérer un **cold wallet** (portefeuille hors ligne) : cliquez sur **"Connect Jade"** pour utiliser le hardware wallet Blockstream Jade ou d’autres cold wallets compatibles. 
+
+- Si vous voulez gérer un **cold wallet** (portefeuille hors ligne) : cliquez sur **"Connect Jade"** pour utiliser le hardware wallet Blockstream Jade ou d’autres cold wallets compatibles.
+
 ![image](assets/fr/05.webp)
 
-
 - Vous arrivez à l'écran suivant : 
+
 ![image](assets/fr/06.webp)
-	- (1) **"Setup Mobile Wallet"** : Créer un nouveau portefeuille chaud (hot wallet).
-	- (2) **"Restore from Backup"** : Importer un portefeuille existant via une phrase mnémonique (12 ou 24 mots).
-	  Attention : N’importez pas la phrase d’un cold wallet, car elle serait exposée sur un appareil connecté, annulant sa sécurité.
-	- (3) **"Watch-Only"** : Importer un portefeuille existant en lecture seule, afin de consulter le solde (par exemple de votre cold wallet) sans exposer la phrase mnémonique. Voir en annexe le tutoriel Watch Only.
+
+- (1) **"Setup Mobile Wallet"** : Créer un nouveau portefeuille chaud (hot wallet).
+- (2) **"Restore from Backup"** : Importer un portefeuille existant via une phrase mnémonique (12 ou 24 mots). Attention : N’importez pas la phrase d’un cold wallet, car elle serait exposée sur un appareil connecté, annulant sa sécurité.
+- (3) **"Watch-Only"** : Importer un portefeuille existant en lecture seule, afin de consulter le solde (par exemple de votre cold wallet) sans exposer la phrase mnémonique. Voir en annexe le tutoriel Watch Only.
 
 **Dans ce tutoriel** : Cliquez sur **"Setup Mobile Wallet"** pour créer un hot wallet. 
-Votre wallet est automatiquement créé et la page d'accueil du wallet, ici appelé "My Wallet 5", s'affiche : 
+Votre wallet est automatiquement créé et la page d'accueil du wallet, ici appelé "My Wallet 5", s'affiche :
+
 ![image](assets/fr/07.webp)
 
 **Important** : Blockstream App a simplifié la création d'un wallet en n’affichant pas automatiquement la seed phrase de 12 mots. *Même si le portefeuille est désormais créé en un clic, vous risquez de perdre l'accès à vos fonds si vous ne sauvegardez pas votre seed phrase*.
 
 ### 4.2. Sauvegarder la seed phrase
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Sécurité", puis sur l'invitation "Back Up" ou le menu "Phrase de récupération" : 
+- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Sécurité", puis sur l'invitation "Back Up" ou le menu "Phrase de récupération" :
+
 ![image](assets/fr/08.webp)
+
 La seed phrase de 12 mots sera affichée pour que vous la sauvegardiez.
 
 - Notez votre phrase de récupération avec le plus grand soin. Inscrivez-la sur du papier ou du métal et conservez-la dans un endroit sûr (coffre-fort, lieu hors ligne). Cette phrase est votre seul moyen pour accéder à vos bitcoins en cas de perte de votre appareil ou suppression de l'application.
@@ -126,11 +138,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. Confirmer la seed phrase
 
-Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous devez impérativement tester la sauvegarde de vos 12 mots. 
+Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous devez impérativement tester la sauvegarde de vos 12 mots.
+
 Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
+- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
+
 ![image](assets/fr/09.webp)
+
 Nota : une adresse zpub peut être importée dans votre application Blockstream pour la fonction "Watch Only" (voir en Annexe).
 
 - Supprimez l’application, puis restaurez le portefeuille via **"Restore from Backup"** en saisissant la phrase mnémonique, et vérifiez que la zpub est inchangée. Si oui, alors votre sauvegarde est correcte, et vous pouvez envoyer des fonds sur le wallet.
@@ -155,7 +170,8 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 
 ### 5.1. Recevoir des bitcoins
 
-- Depuis l’écran d’accueil du portefeuille, cliquez sur '"**Transact**" puis **"Recevoir"**.  
+- Depuis l’écran d’accueil du portefeuille, cliquez sur '"**Transact**" puis **"Recevoir"**.
+
 ![image](assets/fr/10.webp)
 
 - L’application affiche une **adresse de réception vierge** (format SegWit v0, commençant par `bc1q...`). Utiliser une nouvelle adresse pour chaque réception de Bitcoin améliore votre confidentialité.
@@ -164,7 +180,9 @@ Verrouillez l'accès à l'application par un code PIN robuste :
     - (1) "Bitcoin" : cliquez pour sélectionner un envoi onchain ou via Liquid, et choisir l'actif.
     - (2) Cliquez sur les flèches pour choisir une autre nouvelle adresse liée à cette seed phrase. 
     - (3) Vous pouvez aussi choisir une adresse parmi celles déjà utilisées / affichées, en cliquant sur les trois points en haut à droite puis sur "List of Adresses"
-    - (4) Pour demander un montant spécifique, cliquez sur les trois points en haut à droite, sélectionnez "Montant de la demande", et saisissez le montant souhaité. Le QR sera mis à jour, et l'adresse sera remplacée par un URI de paiement Bitcoin. 
+    - (4) Pour demander un montant spécifique, cliquez sur les trois points en haut à droite, sélectionnez "Montant de la demande", et saisissez le montant souhaité. Le QR sera mis à jour, et l'adresse sera remplacée par un URI de paiement Bitcoin.
+
+
 ![image](assets/fr/11.webp)
 
 - Partagez l’adresse/l'URI en cliquant sur "**Partager**", en copiant le texte ou en scannant le QR code.
@@ -173,6 +191,7 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 ### 5.2. Envoyer des bitcoins
 
 - Depuis l’écran d’accueil du portefeuille, cliquez sur "**Transact**" puis **"Envoyer"** :
+
 ![image](assets/fr/12.webp)
 
 - **Saisir les détails** :
@@ -182,22 +201,25 @@ Verrouillez l'accès à l'application par un code PIN robuste :
       Le montant minimal (dush limit) au 03/08/2025 est 546 sats.
     - (4) Sélectionnez les **frais de transaction** :
         - Choisissez parmi les options suggérées (ex. : rapide, moyen, lent) selon l’urgence, une durée de transfert approximative sera affichée.
-        - Pour des frais personnalisés, ajustez manuellement le nombre de satoshi par vbytes (consultez [Mempool.space](https://mempool.space/) pour les taux du marché).  
+        - Pour des frais personnalisés, ajustez manuellement le nombre de satoshi par vbytes (consultez [Mempool.space](https://mempool.space/) pour les taux du marché).
+
+
 ![image](assets/fr/13.webp)
 
 - **Vérification** :
     - Vérifiez l’adresse, le montant, et les frais sur l’écran de récapitulatif.
     - Une erreur d’adresse peut entraîner une perte irréversible des fonds. Méfiez-vous des malwares modifiant le presse-papiers.
+
 ![image](assets/fr/14.webp)
 
 - **Confirmation** : Faites glisser le bouton "Envoyer" pour signer et diffuser la transaction.
 - **Suivi** : Dans l'onglet "Transact" du wallet, la transaction apparaît comme "en attente" jusqu’à confirmation (1 à 6 confirmations) :
+
 ![image](assets/fr/15.webp)
 
-- Tant que la transaction n'est pas confirmée, la fonction "Replace by fee" (voir Annexe) vous permet d'accélérer sa prise en charge en augmentant les fees de transaction : 
+- Tant que la transaction n'est pas confirmée, la fonction "Replace by fee" (voir Annexe) vous permet d'accélérer sa prise en charge en augmentant les fees de transaction :
+
 ![image](assets/fr/16.webp)
-
-
 
 
 ## Annexes
@@ -205,12 +227,15 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 ### A1. Autres tutoriels Blockstream
 
 - Utilisation du réseau Liquid
+
 *En cours de révision*
 
 - Importer et suivre un wallet en "Watch Only"
+
 *En cours de révision*
 
-- Version Desktop (ordinateur)
+- Version ordinateur
+
 *En cours de révision*
 
 
@@ -220,7 +245,7 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 
 **Limites** :
 - RBF n’est pas disponible pour les transactions Liquid ou Lightning.
-* La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Blokstream App fait automatiquement.
+* La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Blockstream App fait automatiquement.
 
 **Plus d'info :** 
 - [Glossaire](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
@@ -231,7 +256,10 @@ Verrouillez l'accès à l'application par un code PIN robuste :
 Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ces recommandations. Elles vous aideront à protéger vos fonds, optimiser vos transactions, et préserver votre confidentialité sur les réseaux **Bitcoin (onchain)**, **Liquid**, et **Lightning**.
 
 * **Sécurisez votre phrase de récupération** :
-	* Tutoriel : [Sauvegarder sa phrase mnémonique](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 
+	* Tutoriel : Sauvegarder sa phrase mnémonique
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 	* Cours [La phrase mnémonique](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
 
 * **Utilisez l’authentification sécurisée** : 
@@ -261,9 +289,9 @@ Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ce
 ### A4. Ressources supplémentaires
 
 * **Liens officiels :** 
-	* **[Site officiel](https://blockstream.com/) 
+	* **[Site officiel](https://blockstream.com/)**
 	* **[Support pour l'application mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentation et tchat
-	- **[GitHub](https://github.com/Blockstream/green_android)
+	- **[GitHub](https://github.com/Blockstream/green_android)**
 
 * **Explorateurs de blocs :**
 	* On chain : **[Mempool.space](https://mempool.space/)**
@@ -275,17 +303,17 @@ Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ce
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-    * **Liquid Network** : 
-	    * **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
+ - **Liquid Network** : 
+	 - **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
-    * **Lightning Network** :
-	    * **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network** :
+	- **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 

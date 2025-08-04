@@ -69,7 +69,7 @@ Qu'est-ce qui rend Bitcoin unique ? Cette section révèle les valeurs fondament
 ### Bitcoin Gouvernance
 
 
-Naviguer dans le paysage complexe de la gouvernance du Bitcoin exige plus qu'une expertise technique, il faut comprendre l'approche unique du Bitcoin en matière de consensus et de prise de décision. Dans cette section, vous découvrirez les mécanismes et les philosophies qui sous-tendent les processus critiques tels que les mises à jour de protocole, la nécessité de la pensée contradictoire, la force de la collaboration open-source, les défis permanents de la mise à l'échelle et les stratégies nuancées requises lorsque les choses tournent inévitablement mal. Fort de ces connaissances, vous serez prêt non seulement à participer, mais aussi à façonner l'avenir de Bitcoin de manière efficace et responsable.
+Naviguer dans le paysage complexe de la gouvernance du Bitcoin exige plus qu'une expertise technique, il faut comprendre l'approche unique du Bitcoin en matière de consensus et de prise de décision. Dans cette section, vous découvrirez les mécanismes et les philosophies qui sous-tendent les processus critiques tels que les mises à jour de protocole, la nécessité de la pensée contradictoire, la force de la collaboration open-source, les défis permanents de la mise à l'échelle et les stratégies nuancées requises lorsque les choses tournent mal. Fort de ces connaissances, vous serez prêt non seulement à participer, mais aussi à façonner l'avenir de Bitcoin de manière efficace et responsable.
 
 
 Prêt à franchir la prochaine étape de votre parcours Bitcoin ? Commençons !

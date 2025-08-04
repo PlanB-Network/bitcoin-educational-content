@@ -227,13 +227,13 @@ Anaeleza kuwa, ili kufikia kutokuwa na ruhusa, mfumo huo kwa uwezekano mkubwa un
 
 > Watu wengi hupata ugumu kuelewa mifumo inayojiendesha yenyewe. Kuna mifumo mingi ya aina hiyo katika maisha yao — kama vile lugha ya Kiingereza — lakini watu huichukulia kawaida tu bila hata kuifikiria kama mifumo. Wanakwama katika mtazamo wa kimamlaka, ambapo kila kitu wanachokiona kama "kitu" lazima kiwe na mamlaka inayokidhibiti.
 
+
 > Bitcoin haina mkazo wa aina yoyote. Watu mbalimbali waliokumbatia Bitcoin walichagua kwa hiari yao kuieneza, na jinsi wanavyoamua kuifanya ni juu yao wenyewe. Watu waliobobea katika fikra za kimamlaka wanaweza kuona shughuli hizi na kudhani kuwa ni juhudi za mamlaka fulani ya Bitcoin — lakini mamlaka hiyo haipo.
 
 Jinsi Bitcoin inavyofanya kazi kupitia ugatuaji inafanana na akili ya pamoja isiyo ya kawaida inayopatikana kati ya spishi nyingi asilia. Mwanasayansi wa kompyuta Radhika Nagpal anazungumza katika [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) kuhusu tabia ya pamoja ya shule za samaki na jinsi wanasayansi wanajaribu kuiga kwa kutumia roboti.
 
 
 > Pili, na jambo ambalo bado naliona kuwa la kushangaza zaidi, ni kwamba tunajua hakuna viongozi wanaosimamia kundi hili la samaki. Badala yake, tabia hii ya kipekee ya akili ya pamoja inatokea kabisa kutokana na mwingiliano kati ya samaki mmoja na mwingine. Kwa namna fulani, kuna mwingiliano au kanuni za mawasiliano kati ya samaki wa karibu zinazofanya kila kitu kifanye kazi.
-
 
 > Kwa namna fulani, kuna mwingiliano huu au sheria za ushiriki kati ya samaki wa jirani ambazo hufanya yote yafanyike
 
@@ -296,6 +296,7 @@ Inaonekana kuwa hatuwezi kuwa na mfumo uliogatuliwa kwa msingi wa uaminifu, na n
 
 Ili kutumia Bitcoin kwa njia ya trustless, lazima uendeshe full node ya Bitcoin inayofanya uthibitishaji kamili. Hapo ndipo utaweza kuthibitisha kuwa block unazopokea kutoka kwa wengine zinafuata sheria za makubaliano — kwa mfano, kwamba ratiba ya utoaji wa sarafu inazingatiwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye blockchain. Ikiwa hutumii full node, unatoa jukumu la uthibitishaji wa block za Bitcoin kwa mtu mwingine na kumwamini akuambie ukweli, jambo linalomaanisha kuwa hutumii Bitcoin kwa njia ya trustless
 
+
 David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) akieleza jinsi kuendesha full node — au kutumia Bitcoin kwa njia ya trustless — kunakusaidia:
 
 
@@ -305,7 +306,8 @@ David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.or
 
 > Unapokubali bitcoins, una uwezo wa kutekeleza sheria za Bitcoin, kama vile kuzuia kutwaliwa kwa bitcoins za mtu yeyote bila kufikia funguo za faragha za mtu huyo.
 > Kwa bahati mbaya, watumiaji wengi hutoa nguvu zao za kutekeleza. Hii huacha ugatuaji wa Bitcoin katika hali dhaifu, ambapo miners wachache wanaweza kushirikiana na benki chache na huduma za bila malipo ili kubadilisha sheria za Bitcoin kwa niaba ya watumiaji wote wasiothibitisha waliokabidhi mamlaka yao kwa wengine.
->
+
+
 
 > Tofauti na wallet nyingine, Bitcoin Core hutekeleza sheria — kwa hivyo miners na benki wakibadilisha sheria kwa watumiaji wasiothibitisha, watumiaji hao hawataweza kulazimisha uthibitishaji kamili wa watumiaji wa Bitcoin Core kama wewe.
 
@@ -360,6 +362,7 @@ Kwa hivyo, mbali na kuendesha full node, unahitaji pia kuhakikisha kuwa unatekel
 Kifungu kinaeleza kuhusu viwango vitano vya uaminifu: kuamini tovuti, wajenzi wa programu, mkusanyaji wa msimbo (compiler), kokwa ya mfumo (kernel), na maunzi.
 
 
+
 Ili kuendeleza zaidi mada ya miundo inayoweza kurudiwa, Carl Dong [alitoa wasilisho kuhusu Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) akieleza kwa nini kuamini mfumo wa uendeshaji, maktaba, na vikusanyaji kunaweza kuwa tatizo, pamoja na mfumo unaotumiwa na GW-3 unaoitwa Guix, na jinsi ya kurekebisha GW-3 leo.
 
 > Kwa hivyo, tunaweza kufanya nini kuhusu ukweli kwamba chain yetu ya zana inaweza kuwa na jozi nyingi za vitu vinavyoaminika ambavyo vinaweza kuwa hasidi? Tunahitaji kwenda zaidi ya uwezo wa kujirudia. Tunahitaji kuwa bootstrappable. Hatuwezi kutegemea zana nyingi kama hizi ambazo tunalazimika kuzipakua na kuziamini kutoka kwa seva za nje zinazodhibitiwa na mashirika mengine.
@@ -392,7 +395,6 @@ Hata hivyo, watumiaji hawapaswi kuamini wengine kuwaweka salama, lakini wanapasw
 ### Hitimisho kuhusu trustlessness 
 
 
-
 Itifaki ya Bitcoin ni trustless kwa sababu inaruhusu watumiaji kuingiliana nayo bila kuamini mtu wa tatu. Kiutendaji, hata hivyo, watu wengi hawawezi kuthibitisha rundo kamili la programu na maunzi wanayotumia kwa Bitcoin. Watu wenye ujuzi wanaothibitisha programu au maunzi wanaweza kuwaonya watu wengine, wasio na ujuzi wa kutosha, wanapogundua msimbo au hitilafu hasidi.
 
 Bila trustlessness, hatuwezi kuwa na ugatuaji, kwa sababu uaminifu unahusisha sehemu kuu ya mamlaka. Unaweza kuunda mfumo unaoaminika juu ya mfumo wa trustless, lakini huwezi kuunda mfumo wa trustless juu ya mfumo unaoaminika.
@@ -415,7 +417,9 @@ Kisha, inazungumzia ukweli kwamba bitcoins zinapaswa kuwa fungible, yaani zinawe
 Bitcoin inaweza kuelezwa kama mfumo wa kificho majina (pseudonymous), ambapo watumiaji wana majina mengi ya utani kwa kutumia funguo za umma. Kwa mtazamo wa kwanza, hii inaonekana kama njia nzuri ya kulinda watumiaji wasitambuliwe, lakini kwa kweli ni rahisi sana kuvuja taarifa za kifedha binafsi bila kusudi.
 
 
+
 ### Nini maana ya faragha?
+
 Faragha inaweza kumaanisha mambo tofauti katika muktadha tofauti. Katika Bitcoin, kwa ujumla inamaanisha kuwa watumiaji hawahitaji kufichua taarifa zao za kifedha kwa wengine, isipokuwa wakifanya hivyo kwa hiari yao.
 
 Kuna njia nyingi ambazo unaweza kuvuja taarifa zako binafsi kwa wengine, iwe kwa kujua au bila kujua. Data inaweza kuvuja kutoka kwenye blockchain ya umma au kupitia njia nyingine, kwa mfano wakati wahalifu wanaposhika mawasiliano yako ya internet.
@@ -428,21 +432,21 @@ Kuna njia nyingi ambazo unaweza kuvujisha habari zako za kibinafsi kwa wengine, 
 
 Inaweza kuonekana wazi kwa nini faragha ni muhimu katika Bitcoin, lakini kuna baadhi ya vipengele vyake ambavyo mtu hawezi kufikiria mara moja. [Kwenye jukwaa la Bitcoin Talk](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell hutupitia sababu nyingi nzuri zinazomfanya afikirie kuwa faragha ni muhimu. Miongoni mwa hizo sababu ni soko huru, usalama, na heshima ya utu wa binadamu:
 
+
 > Faragha ya kifedha ni kipengele muhimu cha uendeshaji mzuri wa soko huru: ikiwa unafanya biashara, huwezi kuweka bei kwa ufanisi ikiwa wasambazaji na wateja wako wanaweza kuona miamala yako yote bila idhini yako.
 > Huwezi kushindana kwa ufanisi ikiwa mshindani wako anaweza kufuatilia mauzo yako. Binafsi, kiwango chako cha taarifa kinapotea katika shughuli zako za kibinafsi ikiwa huna faragha kwenye akaunti yako: kwa mfano, ikiwa utamlipa mwenye nyumba kwa Bitcoin bila faragha ya kutosha, mwenye nyumba ataona unavyopokea malipo mengine na anaweza kukulipa kodi zaidi.
 
 > Faragha ya kifedha ni muhimu kwa usalama wa kibinafsi: ikiwa wezi wanaweza kuona matumizi yako, mapato, na mali zako, wanaweza kutumia taarifa hizo kukulenga na kukunyonya. Bila faragha, watu wenye nia mbaya wana uwezo zaidi wa kuiba utambulisho wako, kunyang’anya ununuzi wako mkubwa moja kwa moja, au kuiga biashara unayofanya katika miamala yako... na hivyo kuelewa ni kiasi gani hasa cha kujaribu kukudanganya.
 > Faragha ya kifedha ni muhimu kwa heshima ya utu wa binadamu: hakuna mtu anayependa mhudumu mkali kwenye kahawa au majirani wavamizi wakasema kuhusu mapato yao au tabia za matumizi. Hakuna anayependa kuwa na familia mpendwa wanaouliza kwa nini wanununua viuatilifu au vitu vya ngono. Mwajiri wako hana haki ya kujua unagawia kanisa gani. Ni katika dunia yenye uelewa kamili na huru kutoka ubaguzi ambapo hakuna mtu anayeweza kudhibiti mwingine kupita kiasi ndipo tunaweza kudumisha heshima zetu na kufanya miamala yetu halali kwa uhuru bila kujizuia, ikiwa hatuna faragha.
 
-Maxwell pia anagusia juu ya uwezekano wa kufungika, ambayo itajadiliwa baadaye katika sura hii, na pia jinsi faragha na utekelezaji wa sheria haupingani.
 
+Maxwell pia anagusia juu ya uwezekano wa kufungika, ambayo itajadiliwa baadaye katika sura hii, na pia jinsi faragha na utekelezaji wa sheria haupingani.
 
 ### Jina bandia
 
 Tulitaja hapo juu kwamba Bitcoin ni mfumo wa kificho majina, na kwamba majina bandia ni funguo za umma. Katika vyombo vya habari mara nyingi husikia kwamba Bitcoin ni haijulikani, jambo ambalo si sahihi. Kuna tofauti kati ya kutokujulikana na mfumo wa kificho majina.
 
 Andrew Poelstra [anafafanua katika chapisho la Bitcoin Stack Exchange](https://Bitcoin.stackexchange.com/a/29473/69518) jinsi kutokujulikana kunavyoweza kuonekana katika miamala:
-
 
 > Kutokujulikana kwa jumla, kwa maana kwamba unapotumia pesa hakuna dalili za wapi zilipotoka au zinaelekea wapi, kinadharia inawezekana kufikiwa kwa kutumia mbinu ya kriptografia ya uthibitisho usio na maarifa.
 

@@ -1318,7 +1318,7 @@ Esempi: Ledger, Trezor, Coldcard, Jade, BitBox
 
 Ideale per: chi vuole detenere lungo termine e mettere in sicurezza importi elevati.
 
-#### wallet multi-firma
+#### Wallet multi-firma
 
 I wallet multi-firma (multisig) richiedono più di una chiave per approvare una transazione: immagina una cassaforte che necessita di due o tre combinazioni per essere aperta. Queste configurazioni sono ideali per gli utenti avanzati, per le aziende o per chiunque desideri una sicurezza di alto livello.
 

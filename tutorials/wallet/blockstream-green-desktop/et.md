@@ -18,7 +18,7 @@ Green on väga lihtsasti kasutatav rakendus, mis teeb selle eriti sobivaks algaj
 
 Selles õpetuses keskendume ainult tarkvara kasutamisele arvutis. Green'i muude kasutusvõimaluste uurimiseks vaadake meie teisi spetsiaalseid õpetusi:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -146,4 +146,5 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 
 Samuti soovitan teil vaadata seda teist põhjalikku õpetust Blockstream Green mobiilirakendusest kuuma rahakoti loomiseks:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

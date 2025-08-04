@@ -26,7 +26,7 @@ Green to bardzo łatwa w użyciu aplikacja, dzięki czemu jest szczególnie odpo
 W tym samouczku skoncentrujemy się wyłącznie na korzystaniu z oprogramowania na komputerze. Aby poznać inne zastosowania Green, zapoznaj się z naszymi innymi dedykowanymi samouczkami:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -216,4 +216,4 @@ Jeśli ten poradnik okazał się przydatny, będę wdzięczny za pozostawienie p
 Polecam również zapoznanie się z innym obszernym samouczkiem dotyczącym aplikacji mobilnej Blockstream Green w celu skonfigurowania Hot Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143

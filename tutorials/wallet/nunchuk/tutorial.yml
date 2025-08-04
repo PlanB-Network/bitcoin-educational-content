@@ -20,10 +20,10 @@ original_language: it
 proofreading:
   - language: it
     last_contribution_date: 2025-04-16
-    urgency:
+    urgency: 1
     contributor_names:
       - f205sats
-    reward: 1
+    reward: 0.51
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -119,3 +119,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 7.76
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.22

@@ -37,7 +37,7 @@ Llena este archivo con información relacionada con tu conferencia usando esta p
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -54,7 +54,7 @@ Por ejemplo, tu archivo YAML podría verse así:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, Francia
 language: 
   - fr
@@ -68,7 +68,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-Si aún no tienes un identificador de "*builder*" para tu organización, puedes agregarlo siguiendo este otro tutorial.
+Si aún no tienes un identificador de "*project*" para tu organización, puedes agregarlo siguiendo este otro tutorial.
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Una vez que hayas terminado de hacer cambios en este archivo, guárdalos haciendo clic en el botón `Commit changes...`:
@@ -209,3 +209,4 @@ Por favor, asegúrate de seguir el progreso de tu PR. Es posible que un administ
 ![conferencia](assets/46.webp)
 
 ¡Muchas gracias por tu valiosa contribución! :)
+

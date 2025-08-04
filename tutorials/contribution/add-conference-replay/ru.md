@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -54,7 +54,7 @@ tags:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language: 
   - fr
@@ -68,7 +68,7 @@ tags:
 ```
 
 ![conference](assets/09.webp)
-Если у вашей организации еще нет идентификатора "*builder*", вы можете добавить его, следуя этому другому учебному пособию.
+Если у вашей организации еще нет идентификатора "*project*", вы можете добавить его, следуя этому другому учебному пособию.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -207,3 +207,4 @@ description: Крупнейшая Биткоин конференция во Ф�
 ![конференция](assets/46.webp)
 
 Большое спасибо за ваш ценный вклад! :)
+

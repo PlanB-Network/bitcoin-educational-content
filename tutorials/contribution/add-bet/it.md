@@ -52,7 +52,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Compila questo file con le informazioni relative al tuo contenuto usando questo modello:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -64,7 +64,7 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: indica l'identificativo della tua azienda, o progetto su Plan ₿ Network. Se non hai ancora un identificativo, puoi crearne uno seguendo questo tutorial.
+- **`project`**: indica l'identificativo della tua azienda, o progetto su Plan ₿ Network. Se non hai ancora un identificativo, puoi crearne uno seguendo questo tutorial.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -92,7 +92,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
 ```yaml
-builder: Plan ₿ Network
+project: Plan ₿ Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -339,3 +339,4 @@ Assicurati di seguire il progresso della tua PR. Un admin potrebbe lasciare un c
 ![evento](assets/56.webp)
 
 Grazie mille per il tuo prezioso contributo! :)
+

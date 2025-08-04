@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - このテンプレートを使用して、関連するコンテンツの情報をファイルに記入します：
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -48,11 +48,11 @@ contributors:
 
 各フィールドに記入する詳細は次のとおりです：
 ```yaml
-builder: 組織の識別子をPlanB Network上で指定します。もしまだ会社用の「builder」識別子を持っていない場合は、このチュートリアルに従って作成することができます。
+project: 組織の識別子をPlanB Network上で指定します。もしまだ会社用の「project」識別子を持っていない場合は、このチュートリアルに従って作成することができます。
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
-もし持っていない場合は、builderプロファイルを作成せずに、あなたの名前、偽名、または会社の名前をそのまま使用できます。
+もし持っていない場合は、projectプロファイルを作成せずに、あなたの名前、偽名、または会社の名前をそのまま使用できます。
 type: コンテンツの性質を以下の二つのオプションから選択してください：
   - `Educational Content` 教育コンテンツ用。
   - `Visual Content` その他様々なタイプのコンテンツ用。
@@ -75,7 +75,7 @@ contributors: もし貢献者識別子を持っている場合は、それを記
 例えば、あなたのYAMLファイルは以下のようになるかもしれません：
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -202,3 +202,4 @@ https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resource
 PRの進行状況をフォローしてください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されるまで、PlanB Network GitHubリポジトリのPull requestsタブでそれを確認することができます：
 ![イベント](assets/56.webp)
 貴重な貢献をいただき、誠にありがとうございます！ :)
+

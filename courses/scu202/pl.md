@@ -972,11 +972,9 @@ Rodzina Arch Linux wyróżnia się filozofią radykalnie odmienną od tej, któr
 
 Podejście to opiera się na modelu *rolling release*, w którym pakiety są aktualizowane w sposób ciągły, bez konieczności ponownej instalacji systemu przy każdym większym wydaniu. Menedżer pakietów Pacman jest szybki i lekki, co ułatwia instalację i aktualizację oprogramowania, a AUR (*Arch User Repository*), repozytorium społeczności, zapewnia dostęp do szerokiej gamy nieoficjalnych i rozwojowych pakietów.
 
-
-
 Arch Linux jest skierowany przede wszystkim do zaawansowanych użytkowników, którzy chcą mieć pełną kontrolę nad swoim środowiskiem, jednocześnie akceptując pewną złożoność instalacji i konserwacji. Ten wymóg techniczny doprowadził do powstania kilku pochodnych dystrybucji mających na celu demokratyzację jego użytkowania.
 
-
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Najbardziej znanym jest Manjaro, który zachowuje bazę techniczną Arch, oferując jednocześnie uproszczoną instalację, wstępnie skonfigurowane środowiska graficzne i nieco opóźniony cykl wydawniczy w celu ustabilizowania aktualizacji.
 
@@ -1108,9 +1106,9 @@ Instalacja przebiega sprawnie, niezbędne oprogramowanie jest preinstalowane, a 
 
 - podstawowy system operacyjny**:
 
-
-
 Wprowadzony na rynek w 2011 roku, elementary OS jest dystrybucją opartą na Ubuntu, która skupia się przede wszystkim na designie i spójności Interface. Środowisko graficzne Pantheon, inspirowane systemem macOS, jest minimalistyczne, eleganckie i płynne. System pozostaje jednak mniej konfigurowalny niż inne dystrybucje, a niektórzy zaawansowani użytkownicy mogą czuć się ograniczeni wyborami Interface i jego celowo zablokowaną strukturą. Dobrze nadaje się dla wrażliwych estetycznie użytkowników szukających prostego, spójnego systemu do codziennego użytku.
+
+https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1210,15 +1208,11 @@ Arch Linux to minimalistyczna, stale aktualizowana dystrybucja, dostarczana bez 
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
 #### Dystrybucja specjalistyczna
 
-
-
-
-
 - Kali Linux**:
-
-
 
 Kali Linux to oparta na Debianie dystrybucja przeznaczona do testów penetracyjnych i audytów bezpieczeństwa. Zawiera setki narzędzi do pentestów. Dystrybucja ta nie nadaje się jako główny system do codziennego użytku.
 
@@ -4869,12 +4863,7 @@ W systemie macOS szyfrowanie dysku systemowego opiera się na *FileVault*, natyw
 
 Po aktywacji FileVault należy wybrać metodę odzyskiwania danych w przypadku utraty hasła: albo użyć konta *iCloud*, albo generate unikalnego klucza kopii zapasowej. Klucz ten musi być przechowywany w bezpiecznym miejscu, ponieważ jego utrata spowoduje, że dane będą trwale niedostępne.
 
-
-
 W przypadku zewnętrznych nośników pamięci (dyski Hard, pamięci USB itp.) szyfrowanie odbywa się za pomocą narzędzia dyskowego. Konieczne będzie całkowite ponowne sformatowanie woluminu:
-
-
-
 
 - Wybierz urządzenie i kliknij "*Usuń*"
 - Wybierz schemat "Tabela partycji GUID*"
@@ -4882,41 +4871,25 @@ W przypadku zewnętrznych nośników pamięci (dyski Hard, pamięci USB itp.) sz
 - Wybierz silne hasło
 - Kliknij "*Usuń*", a następnie "*OK*" i szyfrowanie jest zakończone
 
-
-
 Po zaszyfrowaniu dysk zewnętrzny można zamontować tylko po wprowadzeniu tego hasła. Następnie system odszyfruje go w locie.
-
-
 
 #### Kilka zaleceń dotyczących szyfrowanych kopii zapasowych
 
-
-
 Przed zaszyfrowaniem nośnika należy wykonać kopię zapasową wszystkich zawartych na nim danych (o ile oczywiście nie jest on pusty), ponieważ procedura szyfrowania zazwyczaj usuwa początkową zawartość.
-
-
 
 Wybór hasła jest również bardzo ważny: musi być długie, złożone i unikalne, ponieważ jest to jedyna ochrona między danymi a złośliwą stroną trzecią. Konieczne jest również tworzenie kopii zapasowych, na przykład w menedżerze haseł, ponieważ w przeciwieństwie do usług online nie ma mechanizmu odzyskiwania. Jeśli zapomnisz hasła, dane zostaną utracone na dobre.
 
-
-
 ### Selektywne szyfrowanie plików
-
-
 
 W niektórych przypadkach szyfrowanie całego dysku Hard lub nośnika zewnętrznego nie jest ani konieczne, ani praktyczne. W takich przypadkach można zdecydować się na szyfrowanie selektywne, które polega na zabezpieczeniu tylko niektórych plików lub katalogów zawierających poufne dane.
 
-
-
 Jedną z najbardziej znanych metod szyfrowania plików jest użycie GPG. Narzędzie to opiera się na kryptografii asymetrycznej: masz parę kluczy, jeden publiczny, który możesz swobodnie rozpowszechniać wśród swoich korespondentów, a drugi prywatny, który musi pozostać ściśle tajny. Pliki są szyfrowane przy użyciu klucza publicznego odbiorcy, ale można je odszyfrować tylko przy użyciu jego klucza prywatnego.
-
-
 
 Protokół ten jest idealny do bezpiecznej wymiany poufnych plików z innymi, bez udostępniania hasła. Do użytku osobistego lub okazjonalnego GPG umożliwia również szyfrowanie symetryczne: plik jest wtedy chroniony unikalnym hasłem znanym tylko użytkownikowi.
 
-
-
 Doskonałą alternatywą jest Cryptomator. To oprogramowanie typu open source umożliwia utworzenie sejfu: specjalnego katalogu, w którym wszystkie zdeponowane pliki są automatycznie szyfrowane. Sejf ten może być synchronizowany z usługami w chmurze, takimi jak Dropbox, Google Drive czy Nextcloud, bez dostępu dostawcy do niezaszyfrowanych danych. Aplikacja jest dostępna na wszystkie systemy operacyjne, w tym Android i iOS, i nie wymaga specjalnych umiejętności technicznych.
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4924,78 +4897,44 @@ Doskonałą alternatywą jest Cryptomator. To oprogramowanie typu open source um
 
 
 
+https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+
 Wreszcie, możliwe jest również użycie VeraCrypt w trybie kontenera, który tworzy plik działający jako zaszyfrowane archiwum, które można zamontować jak dysk.
-
-
 
 Teraz, gdy dowiedziałeś się, jak chronić swoje dane osobowe przed utratą i kradzieżą, w następnym rozdziale przyjrzymy się kolejnemu ważnemu aspektowi: jak zapobiec temu, by pliki osobiste stały się wektorami ataków poprzez ich metadane.
 
-
-
-
 ## Czyszczenie metadanych
-
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-
-
 Za każdym razem, gdy tworzysz plik cyfrowy, czy to zdjęcie, dokument biurowy, plik audio lub wideo, zawiera on metadane w tle. Informacje te nie są bezpośrednio widoczne po otwarciu pliku, ale tam są i mogą zawierać niezwykle wrażliwe Elements.
-
-
 
 ### Dlaczego metadane stanowią zagrożenie?
 
-
-
 Metadane to dane dołączone do pliku, których rolą jest dostarczenie kontekstowych informacji o treści. W przypadku obrazu może to obejmować datę i godzinę wykonania zdjęcia, dokładne współrzędne GPS, model używanego aparatu lub smartfona, a czasem nawet ustawienia techniczne. W przypadku dokumentu tekstowego może to być imię i nazwisko autora, nazwa firmy, identyfikator sesji użytkownika, znaczniki czasu utworzenia i modyfikacji, a nawet wewnętrzne komentarze pozostawione podczas edycji.
-
-
 
 Te metadane mogą wydawać się nieszkodliwe, ale mogą być wykorzystywane przez złośliwych aktorów do identyfikacji autora pliku, fizycznej lokalizacji osoby, rekonstrukcji zdarzeń lub nawyków, a nawet wykorzystywania błędów oprogramowania w oparciu o używaną wersję oprogramowania.
 
-
-
 Weźmy konkretny przykład: publikujesz rzekomo anonimowe zdjęcie na forum. Jeśli nie usunąłeś metadanych EXIF, jedno kliknięcie może ujawnić dokładne współrzędne GPS twojego domu, model telefonu i dokładną datę wykonania zdjęcia. Podobnie, dokument PDF wysłany anonimowo może zawierać pełne imię i nazwisko we właściwościach.
-
-
 
 Dlatego niektóre platformy do publikowania mediów i komunikacji automatycznie usuwają metadane ze zdjęć. Należą do nich X (Twitter), Instagram, Signal i Session. Z drugiej strony inne platformy w ogóle nie usuwają metadanych: tak jest w przypadku większości forów internetowych, wielu klientów poczty e-mail, a nawet podczas publikowania bezpośrednio na stronie internetowej.
 
-
-
 Jest to niezbędny odruch do przyjęcia: gdy tylko plik opuści sferę prywatną, musisz pomyśleć o wyczyszczeniu jego metadanych, aby uniknąć ujawnienia danych osobowych lub poufnych informacji bez Twojej wiedzy. Przyjrzyjmy się, jak to zrobić, w zależności od systemu operacyjnego.
-
-
 
 ### W systemie Linux (Debian)
 
-
-
 #### Korzystanie z narzędzia ExifTool
-
-
 
 Najbardziej kompletnym i niezawodnym narzędziem do zarządzania i usuwania metadanych jest ExifTool, opracowany przez Phila Harveya. Jest ono kompatybilne z wieloma formatami plików (JPG, PNG, PDF, MP3, DOCX...) i umożliwia zarówno wyświetlanie, jak i usuwanie metadanych.
 
-
-
-
-
 - Krok 1: Instalacja narzędzia ExifTool
 
-
-
 Aby zainstalować go w dystrybucji Debian (Ubuntu), otwórz terminal i wpisz polecenie:
-
-
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
-
-
 
 Pakiet ten instaluje `exiftool`, którego można następnie używać bezpośrednio z linii poleceń.
 
@@ -8611,34 +8550,26 @@ Narzędzia te działają jak mały serwer DNS wewnątrz sieci, blokując żądan
 
 ### Bezpieczny zdalny dostęp przez VPN
 
-
 W niektórych przypadkach przydatna jest możliwość dostępu do sieci domowej, gdy jesteś w ruchu: Przeglądać pliki na serwerze NAS, korzystać z Bitcoin i węzła Lightning, uzyskiwać dostęp do serwera hostowanego samodzielnie lub administrować siecią. Takie zdalne połączenie musi być jednak bezpieczne.
-
 
 Pierwszą wskazówką jest to, aby nigdy nie otwierać bezpośrednio portu na routerze w celu uzyskania dostępu do urządzenia (np. poprzez RDP, SSH lub FTP), ponieważ wystawia to tę usługę na cały Internet, co stanowi lukę w zabezpieczeniach. Istnieje wiele zautomatyzowanych ataków ukierunkowanych na otwarte porty.
 
-
 Rozwiązaniem, które polecam, jest korzystanie z VPN (*Virtual Private Network*), czyli szyfrowanego tunelu między urządzeniem zdalnym (komputerem, smartfonem itp.) a siecią lokalną. Po podłączeniu do VPN można uzyskać dostęp do zasobów domu tak, jakby się tam fizycznie znajdowało, i to w bezpieczny sposób.
 
-
 Dwa główne rozwiązania dla klientów prywatnych to:
-
-
 
 - WireGuard: Nowoczesny, szybki i lekki
 - OpenVPN: starsza, ale bardzo dojrzała i konfigurowalna sieć
 
+https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Oto kompletny samouczek dotyczący Tailscale, łatwego w konfiguracji rozwiązania VPN, które wykorzystuje WireGuard:
-
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Możesz hostować tę sieć VPN bezpośrednio na kompatybilnym routerze, na małym komputerze (takim jak Raspberry Pi) lub na dedykowanym serwerze w domu. Można również zainstalować ją jako klienta bezpośrednio na dowolnym urządzeniu.
 
-
 Ale VPN nie służy tylko do zdalnego dostępu. Możesz także użyć klasycznego klienta VPN na swoich urządzeniach, aby zaszyfrować cały ruch wychodzący, nawet gdy jesteś poza domem (publiczne Wi-Fi, hotel, uniwersytet itp.). W takim przypadku urządzenie łączy się z serwerem VPN innej firmy (komercyjnym lub hostowanym samodzielnie), który następnie przekazuje połączenia do Internetu. Ukrywa to prawdziwy adres IP Address przed dostawcą usług internetowych, chroni dane przed lokalnym szpiegowaniem i pozwala uniknąć niektórych form cenzury.
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8646,70 +8577,52 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Wreszcie, możliwe jest również skonfigurowanie VPN bezpośrednio na routerze, co pozwala chronić wszystkie urządzenia w domu bez konieczności instalowania klienta VPN na każdym z nich.
 
-
 ### Monitorowanie i wykrywanie
-
 
 Po prawidłowym skonfigurowaniu i podzieleniu sieci na segmenty, ważne jest, aby wyjść poza pasywne zabezpieczenia. Aktywne monitorowanie sieci lokalnej może wykryć nieprawidłowe zachowanie, nieautoryzowane połączenia lub oznaki włamania. Celem jest wczesne wykrycie problemów, zanim spowodują one szkody.
 
-
 Pierwszym krokiem jest scentralizowanie logów bezpieczeństwa. Każde urządzenie podłączone do sieci generuje dzienniki zawierające informacje o połączeniach, błędach lub podejrzanej aktywności. Zamiast przeglądać te dzienniki pojedynczo, zalecam wysłanie ich do serwera zdolnego do ich grupowania, sortowania i analizowania. Rozwiązania takie jak Graylog lub Elastic Stack (ELK) umożliwiają agregowanie tych dzienników w graficzny Interface, w którym można wyszukiwać określone zdarzenia, tworzyć alerty lub wizualizować aktywność sieci.
 
+https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Następnie należy regularnie przeprowadzać aktywne skanowanie sieci lokalnej, na przykład za pomocą Nmap. Zapewni to przegląd wszystkich urządzeń w sieci i otwartych przez nie portów. Jeśli zidentyfikujesz nieznane urządzenie lub nietypową usługę, może to być oznaką ataku.
 
-
+https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Aby pójść jeszcze dalej, można zainstalować IDS (*Intrusion Detection System*), a nawet IPS (*Intrusion Prevention System*). Narzędzia te, takie jak Suricata lub Snort, monitorują przepływy sieciowe w czasie rzeczywistym i wykrywają sygnatury znanych ataków (skanowanie portów, wstrzyknięcia, podejrzane połączenia itp.). IDS ostrzega, podczas gdy IPS może automatycznie blokować określone działania.
 
-
-
 Wreszcie, monitorowanie zużycia przepustowości jest również dobrym wskaźnikiem nietypowej aktywności. Jeśli urządzenie nagle zużywa dużo danych bez wyraźnego powodu, może to zdradzać nieautoryzowane pobieranie, wyciek danych lub nawet zainfekowane urządzenie. Narzędzia takie jak ntopng lub vnStat umożliwiają przeglądanie przychodzących i wychodzących przepływów według urządzenia.
-
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Kopia zapasowa i odporność
 
-
 Nawet w przypadku doskonale zabezpieczonej sieci awarie sprzętu, błędy konfiguracji lub nieprzewidziane zdarzenia (awaria zasilania, przepięcie, awaria dysku Hard itp.) mogą spowodować utratę danych lub przerwanie świadczenia usług. Aby zagwarantować ciągłość środowiska cyfrowego i uniknąć rozpoczynania od zera w przypadku wystąpienia problemu, ważne jest wdrożenie strategii tworzenia kopii zapasowych i odporności.
-
 
 Zacznij od regularnego tworzenia kopii zapasowych konfiguracji sprzętu sieciowego, zwłaszcza routera. Te pliki konfiguracyjne można często wyeksportować za pomocą administracyjnego Interface. Przechowywanie kopii umożliwia szybkie przywrócenie funkcjonalności systemu w przypadku resetu lub wymiany urządzenia. Zalecam również szyfrowanie tej kopii zapasowej.
 
-
 Wreszcie, aby zwiększyć odporność sieci w przypadku awarii zasilania, zainwestuj w zasilacz UPS. Urządzenie to zapewnia zapasowe zasilanie przez kilka minut w przypadku awarii zasilania, umożliwiając dalsze korzystanie z Internetu lub zapewniając, że krytyczne urządzenia (NAS, router, punkt dostępowy Wi-Fi itp.) wyłączą się w sposób czysty. Niektóre modele mogą również wysyłać polecenie automatycznego wyłączenia do podłączonych urządzeń, gdy wykryją niski poziom naładowania baterii.
-
 
 Postępując zgodnie z tymi kilkoma krokami, zbudujesz solidne, bezpieczne środowisko sieciowe, które szanuje Twoją prywatność.
 
-
 # Część końcowa
-
 
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>
 
-
 ## Recenzje i oceny
 
-
 <chapterId>9c71cd4c-ee07-422a-8cb0-757412e0202d</chapterId>
-
 
 <isCourseReview>true</isCourseReview>
 
 ## Egzamin końcowy
 
-
 <chapterId>1eb4578e-024a-4430-a997-e9faaf96ab28</chapterId>
-
 
 <isCourseExam>true</isCourseExam>
 
 ## Wnioski
 
-
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-
 
 <isCourseConclusion>true</isCourseConclusion>

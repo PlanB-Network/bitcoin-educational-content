@@ -30,7 +30,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.79
+    reward: 6.8
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -80,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.79
+    reward: 6.8
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -111,6 +111,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.68
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.56
 tags:
   - hardware
   - mining

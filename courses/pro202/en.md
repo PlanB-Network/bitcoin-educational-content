@@ -60,7 +60,7 @@ Enjoy your discovery!
 
 # Final Section
 
-<partId>ee9a7e68-6ba5-11f0-b313-43b0660e13eb</partId>
+<partId>5d5d98dc-6c7b-11f0-83b5-eb1625573c9d</partId>
 
 ## Reviews & Ratings
 
@@ -74,5 +74,5 @@ Enjoy your discovery!
 
 ## Conclusion
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>7fdf0d2c-6c7c-11f0-9a86-d308a341f341</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

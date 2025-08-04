@@ -2238,12 +2238,6 @@ Dla Hayeka niestabilność gospodarki rynkowej w przeszłości wynikała z faktu
 Hayek wierzył, że wolny rynek prywatnych walut doprowadzi do większej stabilności monetarnej. Prawie 50 lat później kryptowaluta taka jak Bitcoin ucieleśnia konkurencyjną wizję Hayeka, oferując zdecentralizowaną alternatywę dla monopolistycznego systemu banków centralnych. Bitcoin, z limitem emisji wynoszącym 21 milionów jednostek, jest gwarancją ochrony przed inflacją i arbitralnością organów regulacyjnych.
 
 
-## Recenzje i oceny
-
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 
 ## Podsumowanie: siła pomysłów
 

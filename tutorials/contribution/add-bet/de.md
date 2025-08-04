@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Füllen Sie diese Datei mit Informationen zu Ihrem Inhalt anhand dieser Vorlage aus:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -45,11 +45,11 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Geben Sie den Identifikator Ihrer Organisation im PlanB-Netzwerk an. Wenn Sie noch keinen "builder"-Identifikator für Ihr Unternehmen haben, können Sie einen mit diesem Tutorial erstellen.
+- **`project`**: Geben Sie den Identifikator Ihrer Organisation im PlanB-Netzwerk an. Wenn Sie noch keinen "project"-Identifikator für Ihr Unternehmen haben, können Sie einen mit diesem Tutorial erstellen.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
- Wenn Sie keinen haben, können Sie einfach Ihren Namen, Ihr Pseudonym oder den Namen Ihres Unternehmens verwenden, ohne ein Builder-Profil erstellt zu haben.
+ Wenn Sie keinen haben, können Sie einfach Ihren Namen, Ihr Pseudonym oder den Namen Ihres Unternehmens verwenden, ohne ein Project-Profil erstellt zu haben.
 - **`type`**: Wählen Sie die Art Ihres Inhalts aus den folgenden zwei Optionen aus:
 	- `Educational Content` für Bildungsinhalte.
 	- `Visual Content` für andere Arten von diversen Inhalten.
@@ -72,7 +72,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Zum Beispiel könnte Ihre YAML-Datei so aussehen:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -198,3 +198,4 @@ Herzlichen Glückwunsch! Ihr PR wurde erfolgreich erstellt. Ein Administrator wi
 Stellen Sie sicher, dass Sie den Fortschritt Ihres PR verfolgen. Ein Administrator kann einen Kommentar hinterlassen, der um zusätzliche Informationen bittet. Solange Ihr PR nicht validiert ist, können Sie ihn im Tab Pull requests im GitHub-Repository des PlanB-Netzwerks einsehen:
 ![event](assets/56.webp)
 Vielen Dank für Ihren wertvollen Beitrag! :)
+

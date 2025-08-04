@@ -104,7 +104,7 @@ Jaza maelezo yanayohitajika (tafadhali kumbuka kuwa maelezo haya yote yatakuwa h
 - Jina la faili yako ya mwalimu (tumia jina lako la kwanza na la mwisho au jina bandia, kwa herufi ndogo);
 - Jina lako au lakabu;
 - Tovuti yako na wasifu X (hiari);
-- Umeme Address kupokea michango kutoka kwa wasomaji (hiari);
+-Address ya Umeme kupokea michango kutoka kwa wasomaji (hiari);
 - Chagua vitambulisho 2 au 3 kutoka kwenye orodha;
 - Bofya kwenye "*Chagua Picha*" ili kuchagua picha ya wasifu kutoka kwa folda zako za karibu (jina na umbizo lolote linaweza kutumika kwa picha hiyo, na programu itairekebisha kiotomatiki. Hakikisha tu kwamba picha ni ya mraba);
 - Andika maelezo mafupi ya wasifu wako.

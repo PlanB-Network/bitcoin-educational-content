@@ -63,7 +63,7 @@ Umbrel integra ThunderHub en su **App Store**, lo que hace que la instalación s
 
 
 
-![Écran d'installation de ThunderHub via Umbrel] (assets/fr/01.webp)
+![Écran d'installation de ThunderHub via Umbrel](assets/fr/01.webp)
 
 
 
@@ -79,7 +79,7 @@ Umbrel integra ThunderHub en su **App Store**, lo que hace que la instalación s
 
 
 
-![Identifiants par défaut pour ThunderHub] (assets/fr/02.webp)
+![Identifiants par défaut pour ThunderHub](assets/fr/02.webp)
 
 
 
@@ -94,7 +94,7 @@ Umbrel integra ThunderHub en su **App Store**, lo que hace que la instalación s
 
 
 
-![Page de connexion de ThunderHub] (assets/fr/03.webp)
+![Page de connexion de ThunderHub](assets/fr/03.webp)
 
 
 
@@ -102,7 +102,7 @@ A continuación, accederás a la página de inicio de sesión, donde deberás in
 
 
 
-![Interface de connexion complète à ThunderHub] (assets/fr/04.webp)
+![Interface de connexion complète à ThunderHub](assets/fr/04.webp)
 
 
 
@@ -114,7 +114,7 @@ Umbrel se encarga de proporcionar a ThunderHub la información de conexión LND 
 
 
 
-Para usuarios externos a Umbrel (por ejemplo, en un servidor personal, una Raspberry Pi con RaspiBlitz o una instalación *stand-alone*), la instalación de ThunderHub requiere algunos pasos adicionales. A continuación describimos la instalación desde el código fuente y la configuración, según la [documentación oficial de ThunderHub] (https://docs.thunderhub.io).
+Para usuarios externos a Umbrel (por ejemplo, en un servidor personal, una Raspberry Pi con RaspiBlitz o una instalación *stand-alone*), la instalación de ThunderHub requiere algunos pasos adicionales. A continuación describimos la instalación desde el código fuente y la configuración, según la [documentación oficial de ThunderHub](https://docs.thunderhub.io).
 
 
 
@@ -122,7 +122,7 @@ Para usuarios externos a Umbrel (por ejemplo, en un servidor personal, una Raspb
 
 
 
-**Requisitos previos:** Asegúrate de que tu sistema cumple los requisitos mínimos según [documentation setup] (https://docs.thunderhub.io/setup):
+**Requisitos previos:** Asegúrate de que tu sistema cumple los requisitos mínimos según [documentation setup](https://docs.thunderhub.io/setup):
 
 
 
@@ -136,7 +136,7 @@ Para usuarios externos a Umbrel (por ejemplo, en un servidor personal, una Raspb
 
 
 
-**1. Recuperar código ThunderHub:** Clonar el repositorio GitHub del proyecto tal y como se describe en la [documentación de instalación] (https://docs.thunderhub.io/installation):
+**1. Recuperar código ThunderHub:** Clonar el repositorio GitHub del proyecto tal y como se describe en la [documentación de instalación](https://docs.thunderhub.io/installation):
 
 
 
@@ -304,8 +304,8 @@ Aparecerá la página de inicio de sesión de ThunderHub. Selecciona la cuenta c
 
 
 
-- **Instalación:** [docs.thunderhub.io/installation] (https://docs.thunderhub.io/installation)
-- **Configuración:** [docs.thunderhub.io/setup] (https://docs.thunderhub.io/setup)
+- **Instalación:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Configuración:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -354,7 +354,7 @@ La pestaña **Inicio** de ThunderHub es la página de inicio que aparece despué
 
 
 
-![Tableau de bord principal de ThunderHub] (assets/fr/05.webp)
+![Tableau de bord principal de ThunderHub](assets/fr/05.webp)
 
 
 
@@ -411,7 +411,7 @@ La sección **Panel de control** está separada de la pestaña Inicio y ofrece u
 
 
 
-![Dashboard sans widgets activés] (assets/fr/06.webp)
+![Dashboard sans widgets activés](assets/fr/06.webp)
 
 
 
@@ -419,7 +419,7 @@ Si no hay widgets habilitados, verás un mensaje "¡No hay widgets habilitados!"
 
 
 
-![Paramètres des widgets du Dashboard] (assets/fr/07.webp)
+![Paramètres des widgets du Dashboard](assets/fr/07.webp)
 
 
 
@@ -427,7 +427,7 @@ En los ajustes, puedes elegir entre una amplia gama de widgets organizados en ca
 
 
 
-![Bas de la page des paramètres] (assets/fr/08.webp)
+![Bas de la page des paramètres](assets/fr/08.webp)
 
 
 
@@ -435,7 +435,7 @@ En la parte inferior de la configuración, encontrarás el botón "Al panel" par
 
 
 
-![Dashboard personnalisé avec widgets] (assets/fr/09.webp)
+![Dashboard personnalisé avec widgets](assets/fr/09.webp)
 
 
 
@@ -473,7 +473,7 @@ La sección **Peers** enumera todos los nodos Lightning conectados actualmente a
 
 
 
-![Vue de l'onglet Peers avec les pairs connectés] (assets/fr/10.webp)
+![Vue de l'onglet Peers avec les pairs connectés](assets/fr/10.webp)
 
 
 
@@ -496,7 +496,7 @@ La pestaña **Canales** es el corazón de la gestión de canales de Lightning. P
 
 
 
-![Vue d'ensemble des channels ouverts] (assets/fr/11.webp)
+![Vue d'ensemble des channels ouverts](assets/fr/11.webp)
 
 
 
@@ -534,7 +534,7 @@ Esto es lo que encontrarás en la página Canales:
 
 
 
-![Actions de gestion des canaux - Modifier et Fermer] (assets/fr/12.webp)
+![Actions de gestion des canaux - Modifier et Fermer](assets/fr/12.webp)
 
 
 
@@ -558,7 +558,7 @@ La pestaña **Reequilibrio** está dedicada al **equilibrio de canales**. Equili
 
 
 
-![Interface de rebalance des canaux] (assets/fr/13.webp)
+![Interface de rebalance des canaux](assets/fr/13.webp)
 
 
 
@@ -656,7 +656,7 @@ La sección **Transacciones** de ThunderHub corresponde al historial de transacc
 
 
 
-![Historique des transactions Lightning] (assets/fr/14.webp)
+![Historique des transactions Lightning](assets/fr/14.webp)
 
 
 
@@ -698,7 +698,7 @@ La pestaña **Envíos** está dedicada a la actividad de **enrutamiento** de tu 
 
 
 
-![Statistiques de routage Lightning] (assets/fr/15.webp)
+![Statistiques de routage Lightning](assets/fr/15.webp)
 
 
 
@@ -752,7 +752,7 @@ La sección **Cadena** corresponde a la gestión de la billetera Bitcoin On-Chai
 
 
 
-![Gestion du portefeuille on-chain] (assets/fr/16.webp)
+![Gestion du portefeuille on-chain](assets/fr/16.webp)
 
 
 
@@ -786,7 +786,7 @@ ThunderHub se integra con la plataforma **Amboss** (amboss.space), que ofrece in
 
 
 
-![Intégration Amboss avec ses options] (assets/fr/17.webp)
+![Intégration Amboss avec ses options](assets/fr/17.webp)
 
 
 
@@ -830,7 +830,7 @@ La sección **Herramientas** agrupa varias herramientas avanzadas para gestionar
 
 
 
-![Interface des outils disponibles] (assets/fr/18.webp)
+![Interface des outils disponibles](assets/fr/18.webp)
 
 
 
@@ -861,7 +861,7 @@ La pestaña **Swap** de ThunderHub permite intercambiar satoshis Lightning a Bit
 
 
 
-![Interface de swap via Boltz] (assets/fr/19.webp)
+![Interface de swap via Boltz](assets/fr/19.webp)
 
 
 
@@ -900,7 +900,7 @@ La sección **Stats** de ThunderHub ofrece **estadísticas avanzadas** de tu nod
 
 
 
-![Statistiques du nœud via Amboss] (assets/fr/20.webp)
+![Statistiques du nœud via Amboss](assets/fr/20.webp)
 
 
 
@@ -940,6 +940,6 @@ ThunderHub democratiza la gestión avanzada de nodos Lightning, haciendo accesib
 
 
 
-- **Página web oficial:** [thunderhub.io] (https://thunderhub.io)
-- **Documentación:** [docs.thunderhub.io] (https://docs.thunderhub.io)
-- **Código fuente GitHub:** [github.com/apotdevin/thunderhub] (https://github.com/apotdevin/thunderhub)
+- **Página web oficial:** [thunderhub.io](https://thunderhub.io)
+- **Documentación:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **Código fuente GitHub:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

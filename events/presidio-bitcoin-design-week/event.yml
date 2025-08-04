@@ -5,16 +5,15 @@ timezone: America/Los_Angeles
 address_city_country: San Francisco, USA
 name: Presidio Bitcoin Design Week
 type: conference
-description: "Join us for the Presidio Bitcoin Design Week from September 15 to
+description: |
+  Join us for the Presidio Bitcoin Design Week from September 15 to
   19 for one or more days of learning, thinking, and workshopping around
-  Designing Future Money.\r
-
-  \r
+  Designing Future Money.
 
   We’ll dig into the biggest design challenges in bitcoin today, see how to
   build creative new experiences that use bitcoin, look at bitcoin-powered
   payments, come together to helpfully critique some real bitcoin products and
-  explore the opportunities for remixing bitcoin with big tech."
+  explore the opportunities for remixing bitcoin with big tech.
 language:
   - en
 links:
@@ -22,4 +21,3 @@ links:
 tags:
   - consensus
   - proof-of-work
-  - ""

@@ -9,13 +9,11 @@ objectives:
   - Utiliser les principaux outils de diagnostic pour analyser et résoudre des problèmes réseau
 ---
 
-# L’essentiel pour naviguer dans l’univers IP
+# L’essentiel pour naviguer au sein de l'IP
 
 Plongez au cœur de l’univers IP et donnez-vous les moyens de comprendre et d’administrer efficacement vos réseaux. Dans ce cours, vous découvrirez de manière claire et concrète tout ce qu’il faut savoir sur les réseaux informatiques.
 
-Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vous apprendrez également à distinguer IPv4 et IPv6, à identifier et utiliser les différentes catégories d’adresses (publiques, privées, unicast, broadcast…), et à saisir toute l’importance du protocole TCP/IP et des liens qu’il tisse entre adresses IP, adresses physiques et noms DNS.
-
-Pour aller plus loin, vous découvrirez en fin de cours les principaux outils de diagnostic réseau : analyser, auditer, ajuster… vous saurez enfin agir avec méthode et précision sur vos équipements.
+Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vous apprendrez également à distinguer IPv4 et IPv6, à identifier et utiliser les différentes catégories d’adresses, et à saisir toute l’importance du protocole TCP/IP et des liens qu’il tisse entre adresses IP, adresses physiques et noms DNS.
 
 NET 302 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions de base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
 
@@ -868,7 +866,7 @@ ip addr show dev eth2
 ip addr add 172.18.2.39/24 dev eth2
 ```
 
-### Scripts d’activation : `ifup` / `ifdown`
+### Scripts d’activation : ifup / ifdown
 
 Les utilitaires `ifup` et `ifdown` lisent les fichiers statiques de `/etc/sysconfig/network-scripts/` (sur RHEL, CentOS, Rocky Linux, AlmaLinux…) ou `/etc/network/interfaces` (sur Debian/Ubuntu) afin d'activer ou de désactiver proprement les interfaces.
 
@@ -1047,7 +1045,7 @@ Enfin, IPv6 a été conçu pour coexister avec les protocoles historiques. S’i
 
 L’un des changements majeurs avec IPv6 est le format même de l’adresse IP. Pour résoudre la pénurie chronique d’adresses IPv4, la longueur de l’adresse a été portée à 128 bits, soit 16 octets, contre seulement 32 bits pour IPv4. En théorie, cela ouvre un champ d'adresses possibles de :
 
-$$3,4 \times 10^{38}$$
+$$3.4 \times 10^{38}$$
 
 Cela garantit ainsi une capacité quasi illimitée pour accueillir tous les équipements actuels et futurs.
 

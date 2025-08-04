@@ -92,12 +92,10 @@ Prêt à franchir la prochaine étape de votre parcours Bitcoin ? Commençons !
 
 
 
-Ce document analyse ce qu'est la décentralisation et pourquoi elle est essentielle au fonctionnement de Bitcoin. Nous faisons la distinction entre la
-
-et la décentralisation des mineurs et celle des nœuds complets, et discuter de ce qu'ils apportent à la résistance à la censure, l'une des propriétés les plus importantes du Bitcoin.
+Ce document analyse ce qu'est la décentralisation et pourquoi elle est essentielle au fonctionnement de Bitcoin. Nous faisons la distinction entre la décentralisation des mineurs et celle des nœuds complets, et discuter de ce qu'ils apportent à la résistance à la censure, l'une des propriétés les plus importantes du Bitcoin.
 
 
-La discussion s'oriente ensuite vers la compréhension de la neutralité - ou l'absence de permission envers les utilisateurs, les mineurs et les développeurs - qui est une propriété nécessaire de tout système décentralisé. Enfin, nous abordons la question de savoir à quel point il peut être difficile de comprendre un système décentralisé tel que le Bitcoin, et nous présentons quelques modèles mentaux qui pourraient vous aider à le comprendre.
+La discussion s'oriente ensuite vers la compréhension de la neutralité, ou l'absence de permission envers les utilisateurs, les mineurs et les développeurs, qui est une propriété nécessaire de tout système décentralisé. Enfin, nous abordons la question de savoir à quel point il peut être difficile de comprendre un système décentralisé tel que le Bitcoin, et nous présentons quelques modèles mentaux qui pourraient vous aider à le comprendre.
 
 
 Un système sans point de contrôle central est dit *décentralisé*. Bitcoin est conçu pour éviter d'avoir un point central de contrôle, ou plus précisément un *point central de censure*.
@@ -106,45 +104,45 @@ Un système sans point de contrôle central est dit *décentralisé*. Bitcoin es
 La décentralisation est un moyen de parvenir à une *résistance à la censure*.
 
 
-Il y a deux aspects majeurs de la décentralisation dans le Bitcoin : La décentralisation de la Miner et la décentralisation de la Full node.
+Il y a deux aspects majeurs de la décentralisation dans le Bitcoin : La décentralisation des mineurs et celle des noeuds complets.
 
 
-La décentralisation Miner fait référence au fait que le traitement des transactions n'est ni effectué ni coordonné par une entité centrale. La décentralisation Full node fait référence au fait que la validation des blocs, c'est-à-dire les données produites par les mineurs, est effectuée à la périphérie du réseau, en fin de compte par ses utilisateurs, et non par quelques autorités de confiance.
+La décentralisation des mineurs fait référence au fait que le traitement des transactions n'est ni effectué ni coordonné par une entité centrale. La décentralisation des noeuds complets fait référence au fait que la validation des blocs, c'est-à-dire les données produites par les mineurs, est effectuée à la périphérie du réseau, en fin de compte par ses utilisateurs, et non par quelques autorités de confiance.
 
 
 ![](assets/decentralization-banner.webp)
 
 
-### Miner décentralisation
+### La décentralisation des mineurs
 
 
 
-Il y a eu des tentatives de création de monnaies numériques avant le Bitcoin, mais la plupart d'entre elles ont échoué en raison d'un manque de décentralisation de la gouvernance et d'une résistance à la censure.
+Il y a eu des tentatives de création de monnaies numériques avant le Bitcoin, mais la plupart d'entre elles ont échoué en raison d'un manque de décentralisation de la gouvernance et d'un manque de résistance à la censure.
 
 
-La décentralisation de Miner dans Bitcoin signifie que l'"ordre des transactions" n'est pas effectué par une seule entité ou un ensemble fixe d'entités. Il est effectué collectivement par tous les acteurs qui veulent y participer ; ce collectif de mineurs est un ensemble dynamique d'utilisateurs. Chacun peut s'y joindre ou le quitter à sa guise. Cette propriété rend Bitcoin résistant à la censure.
+La décentralisation des mineurs dans Bitcoin signifie que l'"ordre des transactions" n'est pas effectué par une seule entité ou un ensemble fixe d'entités. Il est effectué collectivement par tous les acteurs qui veulent y participer ; ce collectif de mineurs est un ensemble dynamique d'utilisateurs. Chacun peut s'y joindre ou le quitter à sa guise. Cette propriété rend Bitcoin résistant à la censure.
 
 
-Si le Bitcoin était centralisé, il serait vulnérable à ceux qui voudraient le censurer, comme les gouvernements. Il connaîtrait le même sort que les précédentes tentatives de création de monnaie numérique. Dans l'introduction d'un [document](https://www.blockstream.com/sidechains.pdf) intitulé "Enabling Blockchain Innovations with Pegged Sidechains", les auteurs expliquent que les premières versions de la monnaie numérique n'étaient pas équipées pour un environnement contradictoire (voir également le chapitre sur la pensée contradictoire dans la partie suivante).
+Si Bitcoin était centralisé, il serait vulnérable à ceux qui voudraient le censurer, comme les gouvernements. Il connaîtrait le même sort que les précédentes tentatives de création de monnaie numérique. Dans l'introduction d'un [document](https://www.blockstream.com/sidechains.pdf) intitulé "Enabling Blockchain Innovations with Pegged Sidechains", les auteurs expliquent que les premières versions de monnaies numériques n'étaient pas adaptées pour un environnement contradictoire (voir également le chapitre sur la pensée contradictoire dans la partie suivante).
 
 
-David Chaum a présenté l'argent numérique comme un sujet de recherche en 1983, dans un contexte où un serveur central est chargé d'empêcher le Double-spending. Afin d'atténuer le risque de violation de la vie privée par cette partie centrale de confiance et d'assurer la fongibilité, Chaum a introduit la signature aveugle, qu'il a utilisée pour fournir un moyen cryptographique d'empêcher la liaison des signatures du serveur central (qui représentent des pièces de monnaie), tout en permettant au serveur central d'empêcher les doubles dépenses.
+David Chaum a présenté la monnaie numérique comme un sujet de recherche en 1983, dans un contexte où un serveur central est chargé d'empêcher la double-dépense. Afin d'atténuer le risque de violation de la vie privée par cette partie centrale de confiance et d'assurer la fongibilité, Chaum a introduit la signature aveugle, qu'il a utilisée pour fournir un moyen cryptographique d'empêcher la liaison des signatures du serveur central (qui représentent des pièces de monnaie), tout en permettant au serveur central d'empêcher les doubles dépenses.
 
 La nécessité d'un serveur central est devenue le talon d'Achille de l'argent liquide numérique [Gri99]. Bien qu'il soit possible de répartir ce point de défaillance unique en remplaçant la signature du serveur central par une signature de seuil de plusieurs signataires, il est important pour l'auditabilité que les signataires soient distincts et identifiables. Le système reste donc vulnérable aux pannes, puisque chaque signataire peut tomber en panne, ou être mis en panne, un par un.
 
 
-Il est apparu clairement que l'utilisation d'un serveur central pour ordonner les transactions n'était pas une option viable en raison du risque élevé de censure. Même si l'on remplaçait le serveur central par une fédération d'un ensemble fixe de n serveurs, dont au moins m doivent approuver une commande, des difficultés subsisteraient. Le problème se déplacerait en effet vers une situation où les utilisateurs devraient se mettre d'accord sur cet ensemble de n serveurs ainsi que sur la manière de remplacer les serveurs malveillants par de bons serveurs sans dépendre d'une autorité centrale.
+Il est clairement apparu que l'utilisation d'un serveur central pour ordonner les transactions n'était pas une option viable en raison du risque élevé de censure. Même si l'on remplaçait le serveur central par une fédération d'un ensemble fixe de n serveurs, dont au moins m doivent approuver une commande, des difficultés subsisteraient. Le problème se déplacerait en effet vers une situation où les utilisateurs devraient se mettre d'accord sur cet ensemble de n serveurs ainsi que sur la manière de remplacer les serveurs malveillants par de bons serveurs sans dépendre d'une autorité centrale.
 
 
-Imaginons ce qui pourrait se passer si la Bitcoin était censurable. Le censeur pourrait obliger les utilisateurs à s'identifier, à déclarer d'où vient leur argent ou ce qu'ils achètent avec avant d'autoriser leurs transactions à entrer dans la Blockchain.
+Imaginons ce qui pourrait se passer si Bitcoin était censurable. Le censeur pourrait obliger les utilisateurs à s'identifier, à déclarer d'où vient leur argent ou ce qu'ils achètent avec avant d'autoriser leurs transactions à entrer dans la Blockchain.
 
 
-De plus, l'absence de résistance à la censure permettrait au censeur de contraindre les utilisateurs à adopter de nouvelles règles du système. Par exemple, il pourrait imposer un changement qui lui permettrait de gonfler le montant de l'argent Supply, s'enrichissant ainsi lui-même. Dans ce cas, un utilisateur vérifiant les blocs aurait trois options pour gérer les nouvelles règles :
+De plus, l'absence de résistance à la censure permettrait au censeur de contraindre les utilisateurs à adopter de nouvelles règles du système. Par exemple, il pourrait imposer un changement qui lui permettrait de gonfler la masse monétaire, s'enrichissant ainsi lui-même. Dans ce cas, un utilisateur vérifiant les blocs aurait trois options pour gérer les nouvelles règles :
 
 
 
-- Adopter : Accepter les modifications et les intégrer dans leur Full node.
-- Rejeter : Refuser d'adopter les modifications ; l'utilisateur se retrouve alors avec un système qui ne traite plus les transactions, car les blocages du censeur sont désormais considérés comme non valables par le Full node de l'utilisateur.
+- Adopter : Accepter les modifications et les intégrer dans leur noeud complet.
+- Rejeter : Refuser d'adopter les modifications ; l'utilisateur se retrouve alors avec un système qui ne traite plus les transactions, car les blocages du censeur sont désormais considérés comme non valables par le noeud complet de l'utilisateur.
 - Déplacement : désigner un nouveau point central de contrôle ; tous les utilisateurs doivent déterminer comment se coordonner et se mettre d'accord sur le nouveau point central de contrôle.
 
 
@@ -154,24 +152,24 @@ S'ils y parviennent, les mêmes problèmes referont probablement surface à l'av
 Aucune de ces options n'est bénéfique pour l'utilisateur.
 
 
-La résistance à la censure grâce à la décentralisation est ce qui différencie le Bitcoin des autres systèmes monétaires, mais ce n'est pas une chose facile à accomplir en raison du *problème du Double-spending*. Il s'agit de s'assurer que personne ne peut dépenser deux fois la même pièce, un problème que de nombreuses personnes pensaient impossible à résoudre de manière décentralisée. Satoshi Nakamoto écrit dans son [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) comment résoudre le problème Double-spending :
+La résistance à la censure grâce à la décentralisation est ce qui différencie le Bitcoin des autres systèmes monétaires, mais ce n'est pas une chose facile à accomplir en raison du *problème de la double-dépense*. Il s'agit de s'assurer que personne ne peut dépenser deux fois la même pièce, un problème que de nombreuses personnes pensaient impossible à résoudre de manière décentralisée. Satoshi Nakamoto écrit dans son [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) comment résoudre le problème de la double-dépense :
 
 
-> Dans cet article, nous proposons une solution au problème Double-spending en utilisant un serveur distribué peer-to-peer Timestamp pour generate la preuve informatique de l'ordre chronologique des transactions.
+> Dans cet article, nous proposons une solution au problème de la double-dépense en utilisant un serveur distribué d'horodatage pair-à-pair pour générer la preuve informatique de l'ordre chronologique des transactions.
 
 
-Il utilise ici l'expression étrange de "serveur Timestamp distribué de pair à pair". Le mot clé est ici *distribué*, ce qui, dans ce contexte, signifie qu'il n'y a pas de point de contrôle central. Nakamoto explique ensuite comment le Proof-of-Work est la solution.
+Il utilise ici l'expression étrange de "serveur distribué d'horodatage pair à pair". Le mot clé est ici *distribué*, ce qui, dans ce contexte, signifie qu'il n'y a pas de point de contrôle central. Nakamoto explique ensuite comment la preuve de travail est la solution.
 
 Pourtant, personne ne l'explique mieux que
 
-[Gregory Maxwell sur Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), où il répond à quelqu'un qui propose de limiter la puissance Hash des mineurs pour éviter les attaques potentielles de 51 % :
+[Gregory Maxwell sur Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), où il répond à quelqu'un qui propose de limiter la puissance de Hash des mineurs pour éviter les attaques potentielles de 51 % :
 
 
 > Un système décentralisé comme Bitcoin utilise une élection publique. Mais on ne peut pas se contenter d'un vote des "gens" dans un système décentralisé, car il faudrait alors qu'une partie centralisée autorise les gens à voter. Bitcoin utilise plutôt un vote de puissance informatique, car il est possible de vérifier la puissance informatique sans l'aide d'un système centralisé
 tiers.
 
 
-Le billet explique comment le réseau décentralisé Bitcoin peut parvenir à un accord sur l'ordre des transactions grâce à l'utilisation de Proof-of-Work.
+La publication explique comment le réseau décentralisé Bitcoin peut parvenir à un accord sur l'ordre des transactions grâce à l'utilisation de la preuve de travail.
 
 
 Il conclut en disant que l'attaque des 51% n'est pas particulièrement inquiétante, comparée au fait que les gens ne se soucient pas des propriétés de décentralisation de Bitcoin ou ne les comprennent pas :
@@ -179,35 +177,33 @@ Il conclut en disant que l'attaque des 51% n'est pas particulièrement inquiéta
 
 > Le risque le plus important pour Bitcoin est que le public qui l'utilise ne comprenne pas, ne se préoccupe pas et ne protège pas les propriétés de décentralisation qui lui confèrent sa valeur par rapport aux alternatives centralisées.
 
-La conclusion est importante. Si les gens ne protègent pas la décentralisation de Bitcoin, qui est une approximation de sa résistance à la censure, Bitcoin pourrait être victime de pouvoirs centralisateurs, jusqu'à ce qu'il soit tellement centralisé que la censure devienne une réalité. Dans ce cas, la plupart, sinon la totalité, de sa proposition de valeur disparaît. Ceci nous amène à la section suivante sur la décentralisation de Full node.
+La conclusion est importante. Si les gens ne protègent pas la décentralisation de Bitcoin, qui est une approximation de sa résistance à la censure, Bitcoin pourrait être victime de pouvoirs centralisateurs, jusqu'à ce qu'il soit tellement centralisé que la censure devienne une réalité. Dans ce cas, la plupart, sinon la totalité, de sa proposition de valeur disparaît. Ceci nous amène à la section suivante sur la décentralisation des noeuds complets.
 
 
-### Full node décentralisation
+### La décentralisation des noeuds complets
 
 
 
-Dans les paragraphes ci-dessus, nous avons surtout parlé de la décentralisation Miner et de la façon dont la centralisation des mineurs peut permettre la censure. Mais il existe également un autre aspect de la décentralisation, à savoir la *décentralisation Full node*.
+Dans les paragraphes ci-dessus, nous avons surtout parlé de la décentralisation des mineurs et de la façon dont la centralisation des mineurs peut permettre la censure. Mais il existe également un autre aspect de la décentralisation, à savoir la *décentralisation noeuds complets*.
 
 
-L'importance de la décentralisation de la Full node est liée à l'absence de confiance. Supposons qu'un utilisateur cesse d'exploiter sa propre Full node en raison, par exemple, d'une augmentation prohibitive du coût d'exploitation. Dans ce cas, il doit interagir avec le réseau Bitcoin d'une autre manière, éventuellement en utilisant des portefeuilles web ou des portefeuilles légers, ce qui nécessite un certain niveau de confiance dans les fournisseurs de ces services.
+L'importance de la décentralisation des noeuds complets est liée à l'absence de confiance. Supposons qu'un utilisateur cesse d'exploiter son propre noeud complet en raison, par exemple, d'une augmentation prohibitive du coût d'exploitation. Dans ce cas, il doit interagir avec le réseau Bitcoin d'une autre manière, éventuellement en utilisant des portefeuilles web ou des portefeuilles légers, ce qui nécessite un certain niveau de confiance dans les fournisseurs de ces services.
 
 
 L'utilisateur passe de l'application directe des règles de consensus du réseau à la confiance en quelqu'un d'autre. Supposons maintenant que la plupart des utilisateurs délèguent l'application du consensus à une entité de confiance. Dans ce cas, le réseau peut rapidement tomber dans la spirale de la centralisation et les règles du réseau peuvent être modifiées par des acteurs malveillants conspirateurs.
 
 
-Dans [a
-
-Bitcoin Magazine article](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interroge les développeurs de Bitcoin sur leur point de vue concernant la décentralisation et les risques liés à l'augmentation de la taille maximale des blocs de Bitcoin. Cette discussion a été un sujet de Hot pendant la période 2014-2017, lorsque de nombreuses personnes se sont opposées à l'augmentation de la limite de la taille des blocs pour permettre un plus grand débit de transactions.
+Dans [Bitcoin Magazine article](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interroge les développeurs de Bitcoin sur leur point de vue concernant la décentralisation et les risques liés à l'augmentation de la taille maximale des blocs de Bitcoin. Cette discussion a été un sujet de Hot pendant la période 2014-2017, lorsque de nombreuses personnes se sont opposées à l'augmentation de la limite de la taille des blocs pour permettre un plus grand débit de transactions.
 
 
 Un argument de poids contre l'augmentation de la taille des blocs est qu'elle augmente le coût de la vérification. Si le coût de la vérification augmente, cela poussera certains utilisateurs à cesser d'exploiter leurs nœuds complets. De ce fait, davantage de personnes ne seront pas en mesure d'utiliser le système d'une manière conforme à la norme Trustless.
 
 
-Pieter Wuille est cité dans l'article, où il explique les risques de la centralisation Full node :
+Pieter Wuille est cité dans l'article, où il explique les risques de la centralisation noeud complet :
 
 
-> Si de nombreuses entreprises gèrent une Full node, cela signifie qu'elles doivent toutes être convaincues de mettre en œuvre un ensemble de règles différent. En d'autres termes, la décentralisation de la validation des blocs est ce qui donne du poids aux règles de consensus.
-> Mais si le nombre de Full node tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, bourses et SPV ou portefeuilles mobiles, la réglementation pourrait devenir une réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin Bitcoin. Même la limite de 21 millions de Bitcoin.
+> Si de nombreuses entreprises gèrent une noeud complet, cela signifie qu'elles doivent toutes être convaincues de mettre en œuvre un ensemble de règles différent. En d'autres termes, la décentralisation de la validation des blocs est ce qui donne du poids aux règles de consensus.
+> Mais si le nombre de noeud complet tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, bourses et SPV ou portefeuilles mobiles, la réglementation pourrait devenir une réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin Bitcoin. Même la limite de 21 millions de Bitcoin.
 
 Nous y voilà. Les utilisateurs de Bitcoin devraient gérer leurs propres nœuds complets afin de dissuader les régulateurs et les grandes entreprises d'essayer de changer les règles du consensus.
 
@@ -287,7 +283,7 @@ Quelle que soit votre opinion sur le Bitcoin, sa nature décentralisée le rend 
 ### Conclusion sur la décentralisation
 
 
-Nous faisons la distinction entre la décentralisation Full node et la décentralisation Mining. La décentralisation Mining est un moyen de résister à la censure, tandis que la décentralisation Full node est ce qui empêche les règles consensuelles du réseau Hard d'être modifiées sans un large soutien de la part des utilisateurs.
+Nous faisons la distinction entre la décentralisation noeud complet et la décentralisation Mining. La décentralisation Mining est un moyen de résister à la censure, tandis que la décentralisation noeud complet est ce qui empêche les règles consensuelles du réseau Hard d'être modifiées sans un large soutien de la part des utilisateurs.
 
 
 La nature décentralisée du Bitcoin permet une neutralité vis-à-vis des développeurs, des utilisateurs et des mineurs. Tout le monde est libre de participer sans demander la permission.
@@ -307,7 +303,7 @@ Les systèmes décentralisés peuvent être difficiles à comprendre, mais il ex
 
 Ce chapitre analyse le concept d'absence de confiance, ce qu'il signifie du point de vue de l'informatique et pourquoi Bitcoin doit être Trustless pour conserver sa proposition de valeur.
 
-Nous discuterons ensuite de ce que signifie utiliser Bitcoin d'une manière Trustless, et du type de garanties qu'une Full node peut ou ne peut pas vous donner.
+Nous discuterons ensuite de ce que signifie utiliser Bitcoin d'une manière Trustless, et du type de garanties qu'une noeud complet peut ou ne peut pas vous donner.
 
 Dans la dernière section, nous examinons l'interaction réelle entre Bitcoin et les logiciels ou les utilisateurs réels, ainsi que la nécessité de faire des compromis entre la commodité et l'absence de confiance pour obtenir quoi que ce soit.
 
@@ -333,10 +329,10 @@ Dans les systèmes centralisés, nous nous appuyons sur la réputation d'un acte
 Il semble que nous ne puissions pas avoir un système décentralisé basé sur la confiance, et c'est pourquoi l'absence de confiance est importante dans Bitcoin.
 
 
-Pour utiliser la Bitcoin à la manière de la Trustless, vous devez faire fonctionner un nœud Bitcoin à validation complète. Ce n'est qu'alors que vous pourrez vérifier que les blocs que vous recevez des autres suivent les règles du consensus ; par exemple, que le calendrier d'émission des pièces est respecté et qu'il n'y a pas de double dépense sur la Blockchain. Si vous ne gérez pas de Full node, vous confiez la vérification des blocs Bitcoin à quelqu'un d'autre et vous lui faites confiance pour vous dire la vérité, ce qui signifie que vous n'utilisez pas la Bitcoin sans confiance.
+Pour utiliser la Bitcoin à la manière de la Trustless, vous devez faire fonctionner un nœud Bitcoin à validation complète. Ce n'est qu'alors que vous pourrez vérifier que les blocs que vous recevez des autres suivent les règles du consensus ; par exemple, que le calendrier d'émission des pièces est respecté et qu'il n'y a pas de double dépense sur la Blockchain. Si vous ne gérez pas de noeud complet, vous confiez la vérification des blocs Bitcoin à quelqu'un d'autre et vous lui faites confiance pour vous dire la vérité, ce qui signifie que vous n'utilisez pas la Bitcoin sans confiance.
 
 
-David Harding a rédigé [un article sur le site web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) expliquant comment la gestion d'une Full node - ou l'utilisation sans confiance de la Bitcoin - vous aide réellement :
+David Harding a rédigé [un article sur le site web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) expliquant comment la gestion d'une noeud complet - ou l'utilisation sans confiance de la Bitcoin - vous aide réellement :
 
 
 > La monnaie Bitcoin ne fonctionne que lorsque les gens acceptent des bitcoins en Exchange contre d'autres choses de valeur. En d'autres termes, ce sont les personnes qui acceptent des bitcoins qui lui donnent de la valeur et qui décident du fonctionnement de la Bitcoin.
@@ -351,7 +347,7 @@ David Harding a rédigé [un article sur le site web Bitcoin.org](https://Bitcoi
 > Contrairement à d'autres portefeuilles, Bitcoin Core applique les règles - ainsi, si les mineurs et les banques changent les règles pour leurs utilisateurs qui ne vérifient pas, ces utilisateurs ne pourront pas payer les utilisateurs de Bitcoin Core qui ont une validation complète, comme vous.
 
 
-Il affirme que l'utilisation d'une Full node vous aidera à vérifier tous les aspects de la Blockchain sans faire confiance à personne d'autre, afin de garantir que les pièces que vous recevez des autres sont authentiques. C'est très bien, mais il y a une chose importante qu'une Full node ne peut pas faire : elle ne peut pas empêcher la double dépense par la réécriture de la chaîne :
+Il affirme que l'utilisation d'une noeud complet vous aidera à vérifier tous les aspects de la Blockchain sans faire confiance à personne d'autre, afin de garantir que les pièces que vous recevez des autres sont authentiques. C'est très bien, mais il y a une chose importante qu'une noeud complet ne peut pas faire : elle ne peut pas empêcher la double dépense par la réécriture de la chaîne :
 
 
 > Notez que bien que tous les programmes - y compris le Bitcoin Core - soient vulnérables aux réécritures de chaîne, le Bitcoin fournit un mécanisme de défense : plus vos transactions ont de confirmations, plus vous êtes en sécurité. Il n'y a pas de meilleure défense décentralisée connue que celle-là.
@@ -359,7 +355,7 @@ Il affirme que l'utilisation d'une Full node vous aidera à vérifier tous les a
 Quel que soit le degré d'avancement de votre logiciel, vous devez toujours être certain que les blocs contenant vos pièces ne seront pas réécrits. Toutefois, comme le souligne Harding, vous pouvez attendre un certain nombre de confirmations, après quoi vous considérez que la probabilité d'une réécriture de la chaîne est suffisamment faible pour être acceptable.
 
 
-Les incitations à utiliser Bitcoin d'une manière Trustless s'alignent sur le besoin de décentralisation Full node du système. Plus il y a de personnes qui utilisent leurs propres nœuds complets, plus la décentralisation Full node est importante, et donc plus la Bitcoin est résistante aux modifications malveillantes du protocole. Malheureusement, comme nous l'avons expliqué dans la section sur la décentralisation Full node, les utilisateurs optent souvent pour des services de confiance en raison de l'inévitable compromis entre l'absence de confiance et la commodité.
+Les incitations à utiliser Bitcoin d'une manière Trustless s'alignent sur le besoin de décentralisation noeud complet du système. Plus il y a de personnes qui utilisent leurs propres nœuds complets, plus la décentralisation noeud complet est importante, et donc plus la Bitcoin est résistante aux modifications malveillantes du protocole. Malheureusement, comme nous l'avons expliqué dans la section sur la décentralisation noeud complet, les utilisateurs optent souvent pour des services de confiance en raison de l'inévitable compromis entre l'absence de confiance et la commodité.
 
 
 L'absence de confiance de Bitcoin est absolument impérative du point de vue du système. En 2018, Matt Corallo a [parlé de l'absence de confiance](https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/) lors de la conférence Baltic Honeybadger à Riga.
@@ -396,7 +392,7 @@ Bitcoin fonctionne en toute confiance, mais vous devez toujours faire confiance 
 - Bitcoin Core pourrait avoir inséré un code qui enverra vos clés privées à un acteur malveillant.
 
 
-Donc, en plus d'utiliser un Full node, vous devez également vous assurer que vous utilisez ce que vous avez l'intention d'utiliser. L'utilisateur de Reddit brianddk [a écrit un article](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) sur les différents niveaux de confiance que vous pouvez choisir lors de la vérification de votre logiciel. Dans la section "Trusting the builders", il parle des constructions reproductibles :
+Donc, en plus d'utiliser un noeud complet, vous devez également vous assurer que vous utilisez ce que vous avez l'intention d'utiliser. L'utilisateur de Reddit brianddk [a écrit un article](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) sur les différents niveaux de confiance que vous pouvez choisir lors de la vérification de votre logiciel. Dans la section "Trusting the builders", il parle des constructions reproductibles :
 
 
 > Les versions reproductibles sont un moyen de concevoir un logiciel de façon à ce que de nombreux développeurs de la communauté puissent chacun construire le logiciel et s'assurer que l'installateur final construit est identique à ce que les autres développeurs produisent. Dans le cas d'un projet très public et reproductible comme Bitcoin, il n'est pas nécessaire de faire entièrement confiance à un seul développeur. De nombreux développeurs peuvent tous effectuer la construction et attester qu'ils ont produit le même fichier que celui signé numériquement par le développeur d'origine.
@@ -420,7 +416,7 @@ Il existe un mantra auquel souscrivent de nombreux bitcoiners et qui résume bie
 
 > Ne faites pas confiance, vérifiez.
 
-Cela fait référence à la phrase "[trust, but verify](https://en.wikipedia.org/wiki/Trust,_but_verify)" que l'ancien président américain Ronald Reagan a utilisée dans le contexte du désarmement nucléaire. les [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) l'ont inversée pour souligner le rejet de la confiance et l'importance d'exécuter une Full node.
+Cela fait référence à la phrase "[trust, but verify](https://en.wikipedia.org/wiki/Trust,_but_verify)" que l'ancien président américain Ronald Reagan a utilisée dans le contexte du désarmement nucléaire. les [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) l'ont inversée pour souligner le rejet de la confiance et l'importance d'exécuter une noeud complet.
 
 
 Il appartient aux utilisateurs de décider dans quelle mesure ils souhaitent vérifier le logiciel qu'ils utilisent et les données Blockchain qu'ils reçoivent. Comme pour beaucoup d'autres choses dans le Bitcoin, il y a un compromis entre la commodité et la confiance. Il est presque toujours plus pratique d'utiliser un Wallet dont on a la garde que d'exécuter le Bitcoin Core sur son propre matériel. Cependant, comme le logiciel Bitcoin mûrit et que les interfaces utilisateur s'améliorent, il devrait, avec le temps, mieux supporter les utilisateurs désireux de travailler sans confiance. En outre, au fur et à mesure que les utilisateurs acquièrent des connaissances, ils devraient être en mesure d'éliminer progressivement la confiance de l'équation.
@@ -613,7 +609,7 @@ pour chaque transaction, mais il en existe plusieurs autres. Nous n'allons pas v
 L'article énumère également certaines mesures directement liées à Bitcoin :
 
 
-- Full node : Si vous n'utilisez pas votre propre Full node, vous ferez fuir beaucoup d'informations sur votre Wallet vers des serveurs sur Internet. L'utilisation d'un Full node est une excellente première étape.
+- noeud complet : Si vous n'utilisez pas votre propre noeud complet, vous ferez fuir beaucoup d'informations sur votre Wallet vers des serveurs sur Internet. L'utilisation d'un noeud complet est une excellente première étape.
 - Lightning Network : Plusieurs protocoles existent au-dessus du Bitcoin, par exemple le Lightning Network et le Liquid de Blockstream Sidechain.
 - CoinJoin : Un moyen pour plusieurs personnes de fusionner leurs transactions en une seule, ce qui rend plus difficile l'analyse en chaîne.
 
@@ -652,7 +648,7 @@ Pour limiter les risques de divulgation de vos données personnelles, il convien
 L'article suggère d'éviter d'utiliser les bourses qui exigent un KYC/AML et d'effectuer plutôt des transactions en privé, ou d'utiliser des bourses décentralisées comme [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.network/en/tutorials/exchange/pair-à-pair/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Pour une lecture plus approfondie des contre-mesures, reportez-vous à l'[article wiki sur la vie privée](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), à partir de "Méthodes d'amélioration de la vie privée (non-Blockchain)".
 
@@ -1028,7 +1024,7 @@ Pour préserver l'harmonie de Bitcoin, les fourches Soft se sont avérées être
 ![](assets/adversarialthinking-banner.webp)
 
 
-Ce chapitre traite de la *pensée contradictoire*, un état d'esprit qui se concentre sur ce qui pourrait mal tourner et sur la façon dont les adversaires pourraient agir. Nous commençons par discuter des hypothèses et du modèle de sécurité de Bitcoin, après quoi nous expliquons comment les utilisateurs ordinaires peuvent améliorer leur souveraineté personnelle et la décentralisation Full node de Bitcoin en pensant de manière contradictoire. Ensuite, nous examinons quelques menaces réelles pour Bitcoin ainsi que l'esprit de l'adversaire. Enfin, nous parlerons de l'"axiome de résistance" qui peut vous aider à comprendre pourquoi les gens travaillent sur Bitcoin en premier lieu.
+Ce chapitre traite de la *pensée contradictoire*, un état d'esprit qui se concentre sur ce qui pourrait mal tourner et sur la façon dont les adversaires pourraient agir. Nous commençons par discuter des hypothèses et du modèle de sécurité de Bitcoin, après quoi nous expliquons comment les utilisateurs ordinaires peuvent améliorer leur souveraineté personnelle et la décentralisation noeud complet de Bitcoin en pensant de manière contradictoire. Ensuite, nous examinons quelques menaces réelles pour Bitcoin ainsi que l'esprit de l'adversaire. Enfin, nous parlerons de l'"axiome de résistance" qui peut vous aider à comprendre pourquoi les gens travaillent sur Bitcoin en premier lieu.
 
 
 Lorsque l'on discute de la sécurité dans différents systèmes, il est important de comprendre quelles sont les hypothèses de sécurité. Une hypothèse de sécurité typique dans Bitcoin est que "le problème du logarithme discret est Hard à résoudre", ce qui, en termes simples, signifie qu'il est pratiquement impossible de trouver une clé privée qui corresponde à une clé publique particulière. Une autre hypothèse de sécurité assez forte est qu'une majorité de la puissance du réseau est honnête, ce qui signifie qu'elle respecte les règles. Si ces hypothèses s'avèrent fausses, Bitcoin est en difficulté.
@@ -1226,7 +1222,7 @@ Lombrozo parle également du processus qui entoure les changements de consensus,
 
 
 
-Nous avons établi que n'importe qui peut écrire du code pour Bitcoin Core sans demander de permission, mais pas nécessairement le faire fusionner dans le dépôt Git principal. Ceci affecte toute modification, depuis le changement des couleurs de l'utilisateur graphique Interface, jusqu'à la façon dont les messages peer-to-peer sont formatés, et même les règles de consensus, c'est-à-dire l'ensemble des règles qui définissent un Blockchain valide.
+Nous avons établi que n'importe qui peut écrire du code pour Bitcoin Core sans demander de permission, mais pas nécessairement le faire fusionner dans le dépôt Git principal. Ceci affecte toute modification, depuis le changement des couleurs de l'utilisateur graphique Interface, jusqu'à la façon dont les messages pair-à-pair sont formatés, et même les règles de consensus, c'est-à-dire l'ensemble des règles qui définissent un Blockchain valide.
 
 
 Il est probablement tout aussi important que les utilisateurs soient libres de développer des systèmes à partir de Bitcoin, sans demander aucune permission. Nous avons vu d'innombrables projets logiciels réussis qui ont été construits sur la base de Bitcoin, tels que :
@@ -1455,7 +1451,7 @@ les changements peuvent être de plusieurs ordres, par exemple :
 
 - Réduire le nombre d'octets utilisés pour les entrées de transaction
 - Améliorer les performances de la vérification des signatures
-- Faire en sorte que le réseau peer-to-peer utilise moins de bande passante
+- Faire en sorte que le réseau pair-à-pair utilise moins de bande passante
 - Mise en lots des transactions
 - Architecture en couches
 
@@ -1473,7 +1469,7 @@ La mise à l'échelle a été un point central de discussion depuis la Genesis d
 > Satoshi Nakamoto a écrit :
 >
 
-> "J'ai travaillé sur un nouveau système de monnaie électronique qui est entièrement peer-to-peer, sans tiers de confiance.  Le document est disponible à l'adresse suivante : http://www.Bitcoin.org/Bitcoin.pdf"
+> "J'ai travaillé sur un nouveau système de monnaie électronique qui est entièrement pair-à-pair, sans tiers de confiance.  Le document est disponible à l'adresse suivante : http://www.Bitcoin.org/Bitcoin.pdf"
 >
 
 > Nous avons vraiment besoin d'un tel système, mais d'après ce que je comprends de votre proposition, il ne semble pas pouvoir s'adapter à la taille requise.
@@ -1517,7 +1513,7 @@ La mise à l'échelle verticale est le processus d'augmentation des ressources i
 La technique la plus couramment évoquée pour la mise à l'échelle verticale dans le Bitcoin est l'augmentation de la taille limite des blocs. Cela nécessiterait que certains nœuds complets mettent à niveau leur matériel pour répondre à l'augmentation des demandes de calcul. L'inconvénient est que cela se fait au détriment de la centralisation.
 
 
-Outre les effets négatifs sur la décentralisation Full node, la mise à l'échelle verticale pourrait également avoir un impact négatif sur la décentralisation et la sécurité Mining de Bitcoin de manière moins évidente. Voyons comment les mineurs "devraient" fonctionner. Supposons qu'un Miner mine un bloc à la hauteur 7 et publie ce bloc sur le réseau Bitcoin. Il faudra un certain temps pour que ce bloc soit largement accepté, ce qui est principalement dû à deux facteurs :
+Outre les effets négatifs sur la décentralisation noeud complet, la mise à l'échelle verticale pourrait également avoir un impact négatif sur la décentralisation et la sécurité Mining de Bitcoin de manière moins évidente. Voyons comment les mineurs "devraient" fonctionner. Supposons qu'un Miner mine un bloc à la hauteur 7 et publie ce bloc sur le réseau Bitcoin. Il faudra un certain temps pour que ce bloc soit largement accepté, ce qui est principalement dû à deux facteurs :
 
 
 - Le transfert du bloc entre les pairs prend du temps en raison des limitations de la bande passante.
@@ -1543,7 +1539,7 @@ scénario. Les mesures qu'ils peuvent prendre sont les suivantes :
 - Connexion à un Mining pool avec une plus grande largeur de bande et une meilleure connectivité.
 
 
-La Mining sans validation affaiblit encore la décentralisation de la Full node, car la Miner se contente de faire confiance aux blocs entrants, au moins temporairement. Elle nuit également à la sécurité dans une certaine mesure, car une partie de la puissance de calcul du réseau est potentiellement construite sur une Blockchain invalide, au lieu de construire sur la chaîne la plus forte et la plus valide.
+La Mining sans validation affaiblit encore la décentralisation de la noeud complet, car la Miner se contente de faire confiance aux blocs entrants, au moins temporairement. Elle nuit également à la sécurité dans une certaine mesure, car une partie de la puissance de calcul du réseau est potentiellement construite sur une Blockchain invalide, au lieu de construire sur la chaîne la plus forte et la plus valide.
 
 
 Le deuxième point a un effet négatif sur la décentralisation de Miner, car les pools disposant de la meilleure connectivité réseau et de la meilleure bande passante sont aussi les plus grands, ce qui incite les mineurs à graviter autour de quelques grands pools.
@@ -1556,10 +1552,10 @@ Le deuxième point a un effet négatif sur la décentralisation de Miner, car le
 La mise à l'échelle horizontale fait référence aux techniques qui divisent la charge de travail entre plusieurs machines. Bien qu'il s'agisse d'une approche de mise à l'échelle très répandue sur les sites web et les bases de données populaires, elle n'est pas facile à mettre en œuvre dans Bitcoin.
 
 
-De nombreuses personnes appellent cette approche de mise à l'échelle du Bitcoin *sharding*. Fondamentalement, elle consiste à laisser chaque Full node vérifier une partie seulement de la Blockchain. Peter Todd a beaucoup réfléchi au concept de sharding. Il a écrit un [billet de blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) expliquant le sharding en termes généraux, et présentant également sa propre idée appelée *treechains*. L'article est difficile à lire, mais Todd soulève des points qui sont tout à fait digestes :
+De nombreuses personnes appellent cette approche de mise à l'échelle du Bitcoin *sharding*. Fondamentalement, elle consiste à laisser chaque noeud complet vérifier une partie seulement de la Blockchain. Peter Todd a beaucoup réfléchi au concept de sharding. Il a écrit un [billet de blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) expliquant le sharding en termes généraux, et présentant également sa propre idée appelée *treechains*. L'article est difficile à lire, mais Todd soulève des points qui sont tout à fait digestes :
 
 
-> Dans les systèmes partagés, la "défense Full node" ne fonctionne pas, du moins directement. L'idée est que tout le monde ne dispose pas de toutes les données, et qu'il faut donc décider de ce qui se passe lorsqu'elles ne sont pas disponibles.
+> Dans les systèmes partagés, la "défense noeud complet" ne fonctionne pas, du moins directement. L'idée est que tout le monde ne dispose pas de toutes les données, et qu'il faut donc décider de ce qui se passe lorsqu'elles ne sont pas disponibles.
 
 Il présente ensuite plusieurs idées sur la manière d'aborder le sharding, ou la mise à l'échelle horizontale. Vers la fin de son billet, il conclut :
 
@@ -1623,7 +1619,7 @@ Gain de place pour les différents types de dépenses, Taproot et anciennes vers
 Une Multisig 2 sur 3 utilisant la SegWit native nécessiterait un total de 104,5+43 vB = 147,5 vB, alors que l'utilisation la plus prudente de la Taproot ne nécessiterait que 57,5+43 vB = 100,5 vB dans le cas d'utilisation standard. Dans le pire des cas et dans des cas rares, comme lorsqu'un signataire standard n'est pas disponible pour une raison quelconque, Taproot utiliserait 107,5+43 vB = 150,5 vB. Il n'est pas nécessaire de comprendre tous les détails, mais cela devrait vous donner une idée de la façon dont les développeurs pensent à économiser de l'espace - chaque petit octet compte.
 
 
-Outre l'élargissement vers l'intérieur du logiciel Bitcoin, les utilisateurs peuvent également contribuer à l'élargissement vers l'intérieur de certaines manières. Ils peuvent effectuer leurs transactions de manière plus intelligente afin d'économiser les frais de transaction tout en réduisant leur empreinte sur les exigences de la Full node. Deux techniques couramment utilisées pour atteindre cet objectif sont la mise en lots des transactions et la consolidation des sorties.
+Outre l'élargissement vers l'intérieur du logiciel Bitcoin, les utilisateurs peuvent également contribuer à l'élargissement vers l'intérieur de certaines manières. Ils peuvent effectuer leurs transactions de manière plus intelligente afin d'économiser les frais de transaction tout en réduisant leur empreinte sur les exigences de la noeud complet. Deux techniques couramment utilisées pour atteindre cet objectif sont la mise en lots des transactions et la consolidation des sorties.
 
 
 L'idée de la mise en lot des transactions est de combiner plusieurs paiements en une seule transaction, au lieu d'effectuer une transaction par paiement. Cela peut vous permettre d'économiser beaucoup de frais, tout en réduisant la charge de l'espace de bloc.
@@ -2169,7 +2165,7 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 - L'absence de confiance est souvent un spectre, et non une brique. Quels sont les aspects de Bitcoin qui sont plutôt Trustless, et quels sont ceux qui impliquent généralement un niveau de confiance plus élevé ? Peut-on les atténuer ?
-- Vous souhaitez exécuter un Full node pour pouvoir valider entièrement toutes les transactions. Vous téléchargez Bitcoin Core à partir de https://Bitcoin.org/en/download. Où avez-vous placé votre confiance et où en êtes-vous avec Trustless ?
+- Vous souhaitez exécuter un noeud complet pour pouvoir valider entièrement toutes les transactions. Vous téléchargez Bitcoin Core à partir de https://Bitcoin.org/en/download. Où avez-vous placé votre confiance et où en êtes-vous avec Trustless ?
 - Est-il possible de construire un système Trustless au-dessus d'un système de confiance ?
 
 

@@ -1062,7 +1062,7 @@ Desarrollada por Canonical y lanzada en 2004, Ubuntu es una de las distribucione
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Lanzada en 2006, Linux Mint es una distribución derivada de Ubuntu, diseñada p
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint destaca por su sencillez, la presencia por defecto de códecs multimedia y una herramienta de actualización bien diseñada. Por otro lado, depende en gran medida de la infraestructura de Ubuntu, lo que le hace dependiente de las decisiones técnicas de Ubuntu (sobre todo a nivel de kernel y repositorios). Mint se adapta especialmente bien a los usuarios no técnicos, o a los que quieren un sistema listo para usar que no requiera demasiado aprendizaje.
 
@@ -1246,7 +1246,7 @@ Tails es una distribución en vivo basada en Debian y centrada en la privacidad.
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Nota:** Una distribución en vivo es un sistema operativo Linux que puede utilizarse directamente desde una memoria USB o CD, sin instalación en el disco Hard.
 
@@ -6659,7 +6659,7 @@ GrapheneOS no integra componentes propietarios. Eres libre de añadir o no servi
 Graphene solo es compatible con los Google Pixel recientes (Pixel 6, 7, 8 y 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

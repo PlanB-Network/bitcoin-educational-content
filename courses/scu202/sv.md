@@ -1062,7 +1062,7 @@ Ubuntu, som utvecklades av Canonical och lanserades 2004, är en av världens me
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint lanserades 2006 och är en distribution som härrör från Ubuntu, ut
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint utmärker sig genom sin enkelhet, att multimedia-codecs finns med som standard och ett väldesignat uppdateringsverktyg. Å andra sidan är det starkt beroende av Ubuntus infrastruktur, vilket gör det beroende av Ubuntus tekniska val (särskilt på kärn- och arkivnivå). Mint är särskilt väl lämpat för icke-tekniska användare, eller för dem som vill ha ett färdigt system som inte kräver alltför mycket inlärning.
 
@@ -1246,7 +1246,7 @@ Tails är en Debian-baserad, integritetsfokuserad live-distribution. Allt passer
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Anmärkning:** En live-distribution är ett Linux-operativsystem som kan användas direkt från ett USB-minne eller en CD, utan installation på Hard-disken.
 
@@ -6659,7 +6659,7 @@ GrapheneOS integrerar inga proprietära komponenter. Det står dig fritt att lä
 Graphene är endast kompatibel med de senaste Google Pixels (Pixel 6, 7, 8 och 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

@@ -1062,7 +1062,7 @@ Razvijen od strane Canonical-a i lansiran 2004. godine, Ubuntu je jedna od najpo
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Pokrenut 2006. godine, Linux Mint je distribucija izvedena iz Ubuntu-a, dizajnir
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint se ističe svojom jednostavnošću, prisustvom multimedijalnih kodeka po defaultu i dobro dizajniranim alatom za ažuriranje. S druge strane, u velikoj meri se oslanja na Ubuntu infrastrukturu, što ga čini zavisnim od Ubuntu-ovih tehničkih izbora (posebno na nivou kernela i repozitorijuma). Mint je posebno pogodan za netehničke korisnike, ili one koji žele sistem spreman za upotrebu koji ne zahteva previše učenja.
 
@@ -1246,7 +1246,7 @@ Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolaz
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Napomena:** Živa distribucija je Linux operativni sistem koji se može koristiti direktno sa USB stika ili CD-a, bez instalacije na Hard disk.
 
@@ -6659,7 +6659,7 @@ GrapheneOS integriše bez vlasničkih komponenti. Slobodni ste da dodate Google 
 Grafen je kompatibilan samo sa novijim Google Pixelima (Pixel 6, 7, 8 i 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

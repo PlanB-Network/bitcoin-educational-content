@@ -1062,7 +1062,7 @@ Iliyoundwa na Canonical na kuzinduliwa mnamo 2004, Ubuntu ni moja ya usambazaji 
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Ilizinduliwa mnamo 2006, Linux Mint ni usambazaji unaotokana na Ubuntu, iliyound
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint inasimama kwa unyenyekevu wake, uwepo kwa chaguo-msingi wa kodeki za media titika na zana iliyoundwa vizuri ya kusasisha. Kwa upande mwingine, inategemea sana miundombinu ya Ubuntu, na kuifanya kutegemea chaguzi za kiufundi za Ubuntu (haswa katika kiwango cha kernel na hazina). Mint inafaa haswa kwa watumiaji wasio wa kiufundi, au wale wanaotaka mfumo ulio tayari kutumia ambao hauhitaji kujifunza sana.
 
@@ -1246,7 +1246,7 @@ Mikia ni usambazaji wa moja kwa moja unaozingatia Debian, unaozingatia faragha. 
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Kumbuka:** Usambazaji wa moja kwa moja ni mfumo wa uendeshaji wa Linux ambao unaweza kutumika moja kwa moja kutoka kwa vijiti vya USB au CD, bila kusakinishwa kwenye diski ya Hard.
 
@@ -6659,7 +6659,7 @@ GrapheneOS haijumuishi vipengele vya umiliki. Una uhuru wa kuongeza huduma za Go
 Graphene inatumika tu na Google Pixels za hivi majuzi (Pixel 6, 7, 8 na 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

@@ -1062,7 +1062,7 @@ Dikembangkan oleh Canonical dan diluncurkan pada tahun 2004, Ubuntu adalah salah
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Diluncurkan pada tahun 2006, Linux Mint adalah distribusi turunan dari Ubuntu, y
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint menonjol karena kesederhanaannya, kehadiran codec multimedia secara default dan alat pembaruan yang dirancang dengan baik. Di sisi lain, Mint sangat bergantung pada infrastruktur Ubuntu, membuatnya bergantung pada pilihan teknis Ubuntu (terutama pada tingkat kernel dan repositori). Mint sangat cocok untuk pengguna non-teknis, atau mereka yang menginginkan sistem siap pakai yang tidak membutuhkan banyak pembelajaran.
 
@@ -1246,7 +1246,7 @@ Tails adalah distribusi langsung berbasis Debian yang berfokus pada privasi. Sem
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Catatan:** Distribusi langsung adalah sistem operasi Linux yang dapat digunakan langsung dari stik USB atau CD, tanpa instalasi pada disk Hard.
 
@@ -6659,7 +6659,7 @@ GrapheneOS tidak mengintegrasikan komponen berpemilik. Anda bebas untuk menambah
 Graphene hanya kompatibel dengan Google Pixel terbaru (Pixel 6, 7, 8, dan 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

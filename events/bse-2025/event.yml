@@ -5,15 +5,16 @@ timezone: Europe/London
 address_city_country: Bury St Edmunds, England
 name: BSE 2025
 type: conference
-description: "Full details will be released as the agenda is developed and final
-  speaker list is confirmed. Please visit bsebtc.co.uk or @BSEConf on X.\r
+description: |
+  Full details will be released as the agenda is developed and final
+  speaker list is confirmed. Please visit bsebtc.co.uk or @BSEConf on X.
 
   BSE is a Bitcoin-only conference in the beautiful market town of Bury St.
   Edmunds, Suffolk.\r
 
   Although this is a more formal event it will still retain a 'meet up vibe'.
   There will be opportunities to spend time with attendees, but it won't be a
-  stuffy conference when you sit down and get spoken to"
+  stuffy conference when you sit down and get spoken to.
 language:
   - en
 links:

@@ -33,7 +33,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Fyll denne filen med informasjon relatert til ditt innhold ved å bruke denne malen:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -48,10 +48,10 @@ contributors:
 
 Her er detaljene du må fylle ut for hvert felt:
 ```yaml
-builder: Indiker din organisasjons identifikator på PlanB Network. Hvis du ikke allerede har en "builder" identifikator for ditt firma, kan du opprette en ved å følge denne veiledningen.
+project: Indiker din organisasjons identifikator på PlanB Network. Hvis du ikke allerede har en "project" identifikator for ditt firma, kan du opprette en ved å følge denne veiledningen.
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
-Hvis du ikke har en, kan du enkelt bruke ditt navn, ditt pseudonym, eller navnet på din bedrift uten å ha opprettet en builder-profil.
+Hvis du ikke har en, kan du enkelt bruke ditt navn, ditt pseudonym, eller navnet på din bedrift uten å ha opprettet en project-profil.
 
 type: Velg naturen til ditt innhold blant de følgende to alternativene:
   - `Educational Content` for utdanningsinnhold.
@@ -75,7 +75,7 @@ contributors: Nevn din bidragsyter identifikator hvis du har en.
 For eksempel, din YAML-fil kunne se slik ut:
 
 ```yaml
-builder: DecouvreBitcoin
+project: DecouvreBitcoin
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

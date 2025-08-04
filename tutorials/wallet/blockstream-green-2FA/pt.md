@@ -4,6 +4,12 @@ description: Configurar um multisig 2/2 na Carteira Verde
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Observação:** A partir de maio de 2025, não será mais possível ativar novas contas protegidas com autenticação de dois fatores (2FA). Este recurso está disponível apenas para usuários que já haviam ativado esse tipo de conta anteriormente.*
+
+___
+
 Uma carteira de software é uma aplicação instalada num computador, smartphone ou outro dispositivo ligado à Internet, que lhe permite gerir e proteger as chaves da sua carteira Bitcoin. Ao contrário das carteiras de hardware, que isolam as chaves privadas, as carteiras "quentes" funcionam, portanto, num ambiente potencialmente exposto a ciberataques, aumentando o risco de pirataria e roubo.
 
 As carteiras de software devem ser utilizadas para gerir quantidades razoáveis de bitcoins, especialmente para transacções diárias. Podem também ser uma opção interessante para pessoas com activos bitcoin limitados, para quem o investimento numa carteira de hardware pode parecer desproporcionado. No entanto, a sua exposição constante à Internet torna-as menos seguras para armazenar as suas poupanças a longo prazo ou grandes fundos. Para estes últimos, é melhor optar por soluções mais seguras, como as carteiras de hardware.

@@ -4,6 +4,12 @@ description: 2/2 multisigi seadistamine Green Wallet'ile
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Märkus:** Alates 2025. aasta maist ei ole enam võimalik aktiveerida uusi kaheastmelise autentimisega (2FA) kontosid. See funktsioon on saadaval ainult kasutajatele, kes olid sellise konto juba varem aktiveerinud.*
+
+___
+
 Tarkvaraline rahakott on arvutisse, nutitelefoni või muusse internetiühendusega seadmesse paigaldatud rakendus, mis võimaldab teil hallata ja kaitsta oma Bitcoini rahakoti võtmeid. Erinevalt riistvaralistest rahakottidest, mis isoleerivad privaatseid võtmeid, töötavad "kuumad" rahakotid seega keskkonnas, mis on potentsiaalselt avatud küberrünnakutele, suurendades piraatluse ja varguse ohtu.
 
 Tarkvara rahakotte tuleks kasutada mõistlike bitcoinide koguste haldamiseks, eriti igapäevaste tehingute tegemiseks. Samuti võivad need olla huvitav valik piiratud bitcoin-vara omavate inimeste jaoks, kelle jaoks investeeringud riistvara rahakotti võivad tunduda ebaproportsionaalselt suured. Nende pidev kokkupuude internetiga muudab need aga vähem turvaliseks pikaajaliste säästude või suurte rahaliste vahendite hoidmiseks. Viimaste puhul on parem valida turvalisemad lahendused, näiteks riistvaralised rahakotid.

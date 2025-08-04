@@ -5,7 +5,7 @@ description: Unawezaje kushiriki katika tafsiri ya Elements tuli kwenye planb.ne
 ![cover](assets/cover.webp)
 
 
-Dhamira ya Plan ₿ Network ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusahihisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
+Dhamira ya Plan ₿ Network ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusasisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
 
 
 Katika somo hili, tutakuonyesha jinsi ya kuchangia kwa urahisi katika tafsiri ya tuli ya Elements kwenye tovuti yetu. Data kwenye jukwaa imegawanywa katika makundi mawili makuu:
@@ -55,7 +55,7 @@ Ukiwa tayari kuanza kutafsiri, rudi kwenye somo hili na upitie mambo yafuatayo.
 ![weblate](assets/03.webp)
 
 
-- Ingiza barua pepe yako Address, pamoja na jina la mtumiaji na jina kamili (unaweza kutumia jina bandia), kisha ubofye `Register`:
+- Ingiza barua pepe yako na Address, pamoja na jina la mtumiaji na jina kamili (unaweza kutumia jina bandia), kisha ubofye `Register`:
 
 ![weblate](assets/04.webp)
 

@@ -19,9 +19,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - ProfEduStream
-    reward: 0
-
-
+    reward: 29.23
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 58.47
 tags:
   - guides
   - case-studies

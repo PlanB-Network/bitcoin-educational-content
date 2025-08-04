@@ -1,0 +1,28 @@
+id: 408aa9b8-1198-4cbc-b450-5213409e14b0
+type: Educational Content # shall be changed by "games"
+links:
+  download: https://workspace.planb.network/s/MowCNyKS4jQ5EJT
+  view:
+    - it: https://workspace.planb.network/s/ebFDDmaTeYTYo5i
+contributor_names:
+  - PaoloFoti
+
+# Proofreading metadata
+# project_id:
+original_language: it
+proofreading:
+  - language: en
+    last_contribution_date: 2025-07-05
+    urgency: 1
+    contributor_names: PaoloFoti
+    reward: 0
+  - language: it
+    last_contribution_date: 2025-07-05
+    urgency: 1
+    contributor_names: PaoloFoti
+    reward: 0
+
+tags:
+  - adoption
+  - use-case
+  - mining

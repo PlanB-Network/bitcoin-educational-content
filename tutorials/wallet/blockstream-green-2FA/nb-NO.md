@@ -4,6 +4,12 @@ description: Sette opp en 2/2 multisig på Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Merk:** Fra og med mai 2025 vil det ikke lenger være mulig å aktivere nye kontoer beskyttet med tofaktorautentisering (2FA). Denne funksjonen er kun tilgjengelig for brukere som tidligere har aktivert denne typen konto.*
+
+___
+
 En programvarelommebok er et program som installeres på en datamaskin, smarttelefon eller annen Internett-tilkoblet enhet, slik at du kan administrere og sikre Bitcoin-lommeboknøklene dine. I motsetning til maskinvarelommebøker, som isolerer private nøkler, opererer "hot"-lommebøker derfor i et miljø som potensielt er utsatt for dataangrep, noe som øker risikoen for piratkopiering og tyveri.
 
 Programvarelommebøker bør brukes til å håndtere rimelige mengder bitcoins, spesielt for dagligdagse transaksjoner. De kan også være et interessant alternativ for personer med begrensede bitcoin-eiendeler, for hvem investeringen i en maskinvarelommebok kan virke uforholdsmessig stor. Den konstante eksponeringen mot Internett gjør dem imidlertid mindre sikre når det gjelder lagring av langsiktige sparepenger eller store midler. For sistnevnte er det best å velge sikrere løsninger, for eksempel maskinvare-lommebøker.

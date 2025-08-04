@@ -57,7 +57,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ```yaml
 year:
 name:
-builder:
+project:
 location:
 language:
 -
@@ -74,7 +74,7 @@ tags:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language:
 - fr

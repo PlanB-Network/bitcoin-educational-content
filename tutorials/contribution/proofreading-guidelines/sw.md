@@ -15,7 +15,7 @@ Kwanza kabisa, kuchangia kwenye Plan ₿ Network [hadhi ya umma](https://github.
 Mafunzo ya sasa yametolewa kwa wachangiaji ambao wanataka kusahihisha maudhui. Wengi wao hawajui mengi kuhusu [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) au [Lugha ya Markdown](https://icde.org/use//tumia lugha ya Markdown). hazina, kwa hivyo ni muhimu kushiriki maarifa fulani juu ya vipengele muhimu vinavyohusika katika kazi hii.
 
 
-Hapa chini, nilikusanya masuala ya kawaida ambayo wasahihishaji hukutana nayo. Jisikie huru kupendekeza zaidi, kwani inaweza kusaidia wengine kuboresha.
+Hapa chini, nilikusanya masuala ya kawaida ambayo wasahihishaji hukutana nayo. Jisikie huru kupendekeza zaidi, kwani yanaweza kusaidia wengine kuboresha.
 
 
 Kabla ya kupiga mbizi katika maalum, jambo la kwanza kufanya ni kusoma mafunzo haya juu ya vitendo vya kufuata kwenye Github, kwa kugawa hazina ya Plan ₿ Network, kufanya mabadiliko na kutuma PRs:

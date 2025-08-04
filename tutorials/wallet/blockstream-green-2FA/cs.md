@@ -4,6 +4,12 @@ description: Nastavení multisignu 2/2 na zelené peněžence
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Poznámka:** Od května 2025 již nebude možné aktivovat nové účty chráněné dvoufázovým ověřováním (2FA). Tato funkce je dostupná pouze pro uživatele, kteří již tento typ účtu dříve aktivovali.*
+
+___
+
 Softwarová peněženka je aplikace nainstalovaná v počítači, chytrém telefonu nebo jiném zařízení připojeném k internetu, která umožňuje spravovat a zabezpečit klíče k bitcoinovým peněženkám. Na rozdíl od hardwarových peněženek, které izolují soukromé klíče, proto "horké" peněženky fungují v prostředí potenciálně vystaveném kybernetickým útokům, což zvyšuje riziko pirátství a krádeže.
 
 Softwarové peněženky by měly sloužit ke správě rozumného množství bitcoinů, zejména pro každodenní transakce. Mohou být také zajímavou možností pro lidi s omezeným majetkem v bitcoinech, kterým se investice do hardwarové peněženky může zdát neúměrná. Jejich neustálé vystavení působení internetu je však činí méně bezpečnými pro ukládání vašich dlouhodobých úspor nebo velkých finančních prostředků. Pro ty je lepší zvolit bezpečnější řešení, například hardwarové peněženky.

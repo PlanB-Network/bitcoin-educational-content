@@ -2,7 +2,7 @@
 name: Ride The Lightning (RTL)
 description: Utiliza Ride The Lightning (RTL) para gestionar tu nodo Lightning
 ---
-![cover] (assets/cover.webp)
+![cover](assets/cover.webp)
 
 
 ## 1. Introducción
@@ -253,7 +253,11 @@ sudo systemctl status RTL
 
 
 
-Si utilizas [Umbrel] (https://getumbrel.com), la instalación RTL es mucho más sencilla:
+Si utilizas 
+
+![Umbrel](https://getumbrel.com)
+
+la instalación RTL es mucho más sencilla:
 
 
 
@@ -279,7 +283,7 @@ Si utilizas [Umbrel] (https://getumbrel.com), la instalación RTL es mucho más 
 
 
 
-![Fiche de l'application Ride The Lightning dans Umbrel : présentation de l'app avec captures d'écran et bouton violet "Install" en haut à droite] (assets/fr/02.webp)
+![Fiche de l'application Ride The Lightning dans Umbrel : présentation de l'app avec captures d'écran et bouton violet "Install" en haut à droite](assets/fr/02.webp)
 
 
 
@@ -289,7 +293,7 @@ Si utilizas [Umbrel] (https://getumbrel.com), la instalación RTL es mucho más 
 
 
 
-![Fenêtre d'affichage du mot de passe par défaut après installation de RTL dans Umbrel, avec bouton "Open Ride The Lightning"] (assets/fr/03.webp)
+![Fenêtre d'affichage du mot de passe par défaut après installation de RTL dans Umbrel, avec bouton "Open Ride The Lightning"](assets/fr/03.webp)
 
 
 
@@ -313,7 +317,7 @@ Una vez instalada, la aplicación aparece en el menú *Aplicaciones* de Umbrel. 
 
 
 
-![Écran de connexion RTL via Umbrel : champ de mot de passe avec logo du cheval en haut à gauche, bouton "Login"] (assets/fr/04.webp)
+![Écran de connexion RTL via Umbrel : champ de mot de passe avec logo du cheval en haut à gauche, bouton "Login"](assets/fr/04.webp)
 
 
 
@@ -333,7 +337,7 @@ Ahora que RTL está en marcha, vamos a explorar su interfaz web y sus principale
 
 
 
-![Tableau de bord RTL : solde Lightning, solde on-chain, capacité de liquidité entrante/sortante et création de facture] (assets/fr/05.webp)
+![Tableau de bord RTL : solde Lightning, solde on-chain, capacité de liquidité entrante/sortante et création de facture](assets/fr/05.webp)
 
 
 
@@ -353,7 +357,7 @@ En cuanto te conectes, accederás al **panel de control principal**, que te ofre
 
 
 
-![Onglet "On-chain" actif dans RTL : solde Bitcoin (en sats, BTC, USD), et liste des transactions avec type d'adresse Taproot] (assets/fr/06.webp)
+![Onglet "On-chain" actif dans RTL : solde Bitcoin (en sats, BTC, USD), et liste des transactions avec type d'adresse Taproot](assets/fr/06.webp)
 
 
 
@@ -381,7 +385,7 @@ La Interfaz de RTL dispone de un menú lateral dedicado a Lightning Network, que
 
 
 
-![Vue de gestion des canaux Lightning (onglet "Peers/Channels" ouvert)] (assets/fr/07.webp)
+![Vue de gestion des canaux Lightning (onglet "Peers/Channels" ouvert)](assets/fr/07.webp)
 
 
 
@@ -401,7 +405,7 @@ Este submenú te permite:
 
 
 
-![Historique des transactions Lightning (onglet "Transactions" > "Payments")] (assets/fr/08.webp)
+![Historique des transactions Lightning (onglet "Transactions" > "Payments")](assets/fr/08.webp)
 
 
 
@@ -494,7 +498,7 @@ Este submenú está dedicado a las copias de seguridad:
 
 
 
-![Vue d'ensemble du nœud Lightning (onglet "Node/Network")] (assets/fr/09.webp)
+![Vue d'ensemble du nœud Lightning (onglet "Node/Network")](assets/fr/09.webp)
 
 
 
@@ -513,7 +517,7 @@ En este submenú encontrarás:
 
 
 
-![Interface de gestion des swaps avec Boltz (onglet "Services" > "Boltz")] (assets/fr/10.webp)
+![Interface de gestion des swaps avec Boltz (onglet "Services" > "Boltz")](assets/fr/10.webp)
 
 
 
@@ -540,7 +544,7 @@ Swap Out convierte los Satss disponibles en Lightning Network en Bitcoin On-Chai
 Se trata de un proceso sin custodia, en el que Boltz nunca retiene los fondos del usuario.
 
 
-![Double capture des étapes de configuration d'un swap-out] (assets/fr/11.webp)
+![Double capture des étapes de configuration d'un swap-out](assets/fr/11.webp)
 
 
 
@@ -559,7 +563,7 @@ Swap In, por su parte, permite reinyectar fondos de On-Chain en Lightning Networ
 
 
 
-![Configuration d'un swap-in] (assets/fr/12.webp)
+![Configuration d'un swap-in](assets/fr/12.webp)
 
 
 
@@ -571,7 +575,7 @@ Estos dos mecanismos permiten gestionar eficazmente la liquidez del canal Lightn
 
 
 
-![Écran de configuration du nœud (onglet "Node Config")] (assets/fr/13.webp)
+![Écran de configuration du nœud (onglet "Node Config")](assets/fr/13.webp)
 
 
 
@@ -591,11 +595,11 @@ La pestaña **Configuración de nodo** te permite personalizar tu experiencia:
 
 
 
-![Section d'aide de RTL (onglet "Help")] (assets/fr/14.webp)
+![Section d'aide de RTL (onglet "Help")](assets/fr/14.webp)
 
 
 
-Por último, la sección **Ayuda** ofrece documentación completa sobre :
+Por último, la sección **Ayuda** ofrece documentación completa sobre:
 
 
 

@@ -5,11 +5,10 @@ timezone: America/Asuncion
 address_city_country: Asuncion, Paraguay
 name: Accelerating Bitcoin Paraguay 2025
 type: conference
-description: "The first Bitcoin-only conference in Paraguay is here! \r
-
-  Join us September 29–30 at Paseo La Galería, Asunción.\r
-
-  Two days, three languages, one mission: accelerate hyperbitcoinization. "
+description: |
+  The first Bitcoin-only conference in Paraguay is here! 
+  Join us September 29–30 at Paseo La Galería, Asunción.
+  Two days, three languages, one mission: accelerate hyperbitcoinization.
 language:
   - en
   - es

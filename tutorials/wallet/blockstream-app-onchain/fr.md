@@ -260,7 +260,8 @@ Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ce
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-	* Cours [La phrase mnémonique](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/la-phrase-mnemonique-8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 
 * **Utilisez l’authentification sécurisée** : 
 	* Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.
@@ -306,8 +307,8 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
- - **Liquid Network** : 
-	 - **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
+- **Liquid Network** :
+	- **[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)**
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 

@@ -5,19 +5,18 @@ timezone: Europe/Riga
 address_city_country: Riga, Latvia
 name: Bitcoin++ Riga 2025 Privacy Edition
 type: workshop
-description: "Bitcoin++ is heading to Riga, Latvia on August 7–8, 2025, just
+description: |
+  Bitcoin++ is heading to Riga, Latvia on August 7–8, 2025, just
   before the renowned Baltic Honeybadger conference. As part of Riga Bitcoin
   Week 2025, this edition of Bitcoin++ offers a focused and immersive event
   centered on privacy-preserving technologies and peer-to-peer exchange
-  practices—both on-chain and off-chain.\r
-
-  \r
+  practices—both on-chain and off-chain.
 
   Set in the heart of the Baltics, Bitcoin++ Riga is your chance to sharpen your
   opsec, meet fellow freedom-minded builders, and dive deep into the tools and
   techniques that make sovereign Bitcoin usage possible. As regulatory pressures
   rise and surveillance expands, learning to transact privately isn’t just
-  technical—it’s essential."
+  technical—it’s essential.
 language:
   - en
 links:
@@ -25,4 +24,3 @@ links:
 tags:
   - education
   - development
-  - ""

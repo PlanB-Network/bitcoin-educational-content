@@ -1,5 +1,5 @@
 question: Su quale processo si basa il modello di moneta elettronica eCash?
-answer: Firme cieche
+answer: Firma cieca
 wrong_answers:
   - Firme di gruppo
   - Firme ad anello

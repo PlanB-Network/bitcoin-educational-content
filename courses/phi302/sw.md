@@ -143,11 +143,11 @@ Bado, hakuna mtu anayeielezea vizuri zaidi kuliko
 
 [Gregory Maxwell kwenye Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), ambapo anajibu mtu anayependekeza kuwawekea kikomo miners wa nishati ya *hash* ili kuepuka mashambulizi yanayoweza kutokea kwa 51%:
 
+
 > Mfumo uliogatuliwa kama vile Bitcoin hutumia uchaguzi wa umma. Lakini huwezi tu kuwa na kura ya 'watu' katika mfumo wa ugatuzi kwa sababu hiyo itahitaji chama cha serikali kuu kuidhinisha watu kupiga kura. Badala yake, Bitcoin hutumia kura ya nguvu ya kompyuta kwa sababu inawezekana kuthibitisha nguvu za kompyuta bila usaidizi wa serikali kuu au mtu wa tatu.
 
 
 Chapisho hilo linaeleza jinsi mtandao uliogatuliwa wa Bitcoin unavyoweza kufikia makubaliano ya kuagiza miamala kupitia matumizi ya *Proof-of-Work*.
-
 
 Kisha anahitimisha kwa kusema kwamba shambulio la 51% sio la kutisha sana, ikilinganishwa na watu wasiojali au kutoelewa sifa za ugatuaji za Bitcoin:
 
@@ -164,8 +164,8 @@ Katika aya zilizo hapo juu, tumezungumza zaidi juu ya ugatuaji wa *miner* na jin
 
 Umuhimu wa ugatuaji wa *full node* unahusiana na kutokuwa na uaminifu. Tuseme mtumiaji ataacha kuendesha *full node* yake mwenyewe kutokana na, kwa mfano, ongezeko la marufuku la gharama ya uendeshaji. Katika hali hiyo, wanapaswa kuingiliana na mtandao wa Bitcoin kwa njia nyingine, ikiwezekana kwa kutumia *wallets* za mtandao au *wallets* nyepesi, ambayo inahitaji kiwango fulani cha uaminifu kwa watoa huduma hizi.
 
-Mtumiaji huenda kutoka kwa kutekeleza moja kwa moja sheria za makubaliano ya mtandao hadi kuamini kuwa mtu mwingine atafanya hivyo. Sasa chukulia kuwa watumiaji wengi wanakabidhi utekelezaji wa makubaliano kwa huluki inayoaminika. Katika hali hiyo, mtandao unaweza kuzunguka haraka katika *centralization*, na sheria za mtandao zinaweza kubadilishwa kwa kula njama watendaji wabaya.
 
+Mtumiaji huenda kutoka kwa kutekeleza moja kwa moja sheria za makubaliano ya mtandao hadi kuamini kuwa mtu mwingine atafanya hivyo. Sasa chukulia kuwa watumiaji wengi wanakabidhi utekelezaji wa makubaliano kwa huluki inayoaminika. Katika hali hiyo, mtandao unaweza kuzunguka haraka katika *centralization*, na sheria za mtandao zinaweza kubadilishwa kwa kula njama watendaji wabaya.
 
 Katika makala ya [*Bitcoin Magazine*](https://bitcoinmagazine.com), Aaron van Wirdum anawahoji watengenezaji wa Bitcoin kuhusu mitazamo yao juu ya ugatuaji (decentralization) na hatari zinazohusiana na kuongeza block size. Majadiliano haya yalikuwa mada moto katika kipindi cha 2014–2017, wakati ambapo watu wengi walibishana kuhusu kuongeza kikomo cha block size ili kuruhusu ongezeko la muamala kwa wakati mmoja (transaction throughput).
 
@@ -188,8 +188,6 @@ Bitcoin haina upande wowote, au haina ruhusa, kama watu wanapenda kuiita. Hii in
 
 
 Bitcoin ni neutral, ambayo ni jambo jema, na njia pekee inayoweza kufanya kazi. Iwapo ingedhibitiwa na shirika, ingekuwa tu aina nyingine ya kitu pepe na nisingependezwa nayo.
-
-
 
 Mradi tu unafuata sheria, uko huru kuitumia utakavyo bila kuomba ruhusa kutoka kwa yeyote. Hii inajumuisha mining, kufanya miamala, na kujenga itifaki na huduma juu ya Bitcoin:
 
@@ -218,8 +216,6 @@ Anahitimisha:
 
 Anaeleza kuwa, ili kufikia kutokuwa na ruhusa, mfumo huo kwa uwezekano mkubwa unahitaji sarafu yake yenyewe, na hivyo “kupunguza kesi za utumiaji kwa kiasi kikubwa hadi sarafu-fiche pekee”. Hii ni kwa sababu ushiriki usiohitaji ruhusa, au mining, unahitaji motisha za kiuchumi zilizojengewa moja kwa moja ndani ya mfumo.
 
-
-
 ### Ugatuaji wa Grokking 
 
 . Hakuna kamati au watendaji katika Bitcoin. Gregory Maxwell, tena [kwenye subreddit ya Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), analinganisha hii na lugha ya Kiingereza kwa njia ya kushangaza:
@@ -227,14 +223,11 @@ Anaeleza kuwa, ili kufikia kutokuwa na ruhusa, mfumo huo kwa uwezekano mkubwa un
 
 > Watu wengi hupata ugumu kuelewa mifumo inayojiendesha yenyewe. Kuna mifumo mingi ya aina hiyo katika maisha yao — kama vile lugha ya Kiingereza — lakini watu huichukulia kawaida tu bila hata kuifikiria kama mifumo. Wanakwama katika mtazamo wa kimamlaka, ambapo kila kitu wanachokiona kama "kitu" lazima kiwe na mamlaka inayokidhibiti.
 
-
 > Bitcoin haina mkazo wa aina yoyote. Watu mbalimbali waliokumbatia Bitcoin walichagua kwa hiari yao kuieneza, na jinsi wanavyoamua kuifanya ni juu yao wenyewe. Watu waliobobea katika fikra za kimamlaka wanaweza kuona shughuli hizi na kudhani kuwa ni juhudi za mamlaka fulani ya Bitcoin — lakini mamlaka hiyo haipo.
 
 Jinsi Bitcoin inavyofanya kazi kupitia ugatuaji inafanana na akili ya pamoja isiyo ya kawaida inayopatikana kati ya spishi nyingi asilia. Mwanasayansi wa kompyuta Radhika Nagpal anazungumza katika [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) kuhusu tabia ya pamoja ya shule za samaki na jinsi wanasayansi wanajaribu kuiga kwa kutumia roboti.
 
-
-> Pili, na jambo ambalo bado naliona kuwa la kushangaza zaidi, ni kwamba tunajua hakuna viongozi wanaosimamia kundi hili la samaki. Badala yake, tabia hii ya kipekee ya akili ya pamoja inatokea kabisa kutokana na mwingiliano kati ya samaki mmoja na mwingine. Kwa namna fulani, kuna mwingiliano au kanuni za mawasiliano kati ya samaki wa karibu zinazofanya kila kitu kifanye kazi.
-
+> Pili, na jambo ambalo bado naliona kuwa la kushangaza zaidi, ni kwamba tunajua hakuna viongozi wanaosimamia kundi hili la samaki. Badala yake, tabia hii ya kipekee ya akili ya pamoja inatokea kabisa kutokana na mwingiliano kati ya samaki mmoja na mwingine.
 > Kwa namna fulani, kuna mwingiliano huu au sheria za ushiriki kati ya samaki wa jirani ambazo hufanya yote yafanyike
 
 
@@ -297,17 +290,16 @@ Inaonekana kuwa hatuwezi kuwa na mfumo uliogatuliwa kwa msingi wa uaminifu, na n
 Ili kutumia Bitcoin kwa njia ya trustless, lazima uendeshe full node ya Bitcoin inayofanya uthibitishaji kamili. Hapo ndipo utaweza kuthibitisha kuwa block unazopokea kutoka kwa wengine zinafuata sheria za makubaliano — kwa mfano, kwamba ratiba ya utoaji wa sarafu inazingatiwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye blockchain. Ikiwa hutumii full node, unatoa jukumu la uthibitishaji wa block za Bitcoin kwa mtu mwingine na kumwamini akuambie ukweli, jambo linalomaanisha kuwa hutumii Bitcoin kwa njia ya trustless
 
 
-David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) akieleza jinsi kuendesha full node — au kutumia Bitcoin kwa njia ya trustless — kunakusaidia:
 
+David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) akieleza jinsi kuendesha full node — au kutumia Bitcoin kwa njia ya trustless — kunakusaidia:
 
 
 > Sarafu ya Bitcoin inafanya kazi tu wakati watu wanakubali bitcoins katika Exchange kwa vitu vingine vya thamani. Hiyo ina maana ni watu wanaokubali bitcoins ambao wanaipa thamani na ambao wanapata kuamua jinsi Bitcoin inapaswa kufanya kazi.
 >
 
 > Unapokubali bitcoins, una uwezo wa kutekeleza sheria za Bitcoin, kama vile kuzuia kutwaliwa kwa bitcoins za mtu yeyote bila kufikia funguo za faragha za mtu huyo.
+
 > Kwa bahati mbaya, watumiaji wengi hutoa nguvu zao za kutekeleza. Hii huacha ugatuaji wa Bitcoin katika hali dhaifu, ambapo miners wachache wanaweza kushirikiana na benki chache na huduma za bila malipo ili kubadilisha sheria za Bitcoin kwa niaba ya watumiaji wote wasiothibitisha waliokabidhi mamlaka yao kwa wengine.
-
-
 
 > Tofauti na wallet nyingine, Bitcoin Core hutekeleza sheria — kwa hivyo miners na benki wakibadilisha sheria kwa watumiaji wasiothibitisha, watumiaji hao hawataweza kulazimisha uthibitishaji kamili wa watumiaji wa Bitcoin Core kama wewe.
 
@@ -361,8 +353,6 @@ Kwa hivyo, mbali na kuendesha full node, unahitaji pia kuhakikisha kuwa unatekel
 
 Kifungu kinaeleza kuhusu viwango vitano vya uaminifu: kuamini tovuti, wajenzi wa programu, mkusanyaji wa msimbo (compiler), kokwa ya mfumo (kernel), na maunzi.
 
-
-
 Ili kuendeleza zaidi mada ya miundo inayoweza kurudiwa, Carl Dong [alitoa wasilisho kuhusu Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) akieleza kwa nini kuamini mfumo wa uendeshaji, maktaba, na vikusanyaji kunaweza kuwa tatizo, pamoja na mfumo unaotumiwa na GW-3 unaoitwa Guix, na jinsi ya kurekebisha GW-3 leo.
 
 > Kwa hivyo, tunaweza kufanya nini kuhusu ukweli kwamba chain yetu ya zana inaweza kuwa na jozi nyingi za vitu vinavyoaminika ambavyo vinaweza kuwa hasidi? Tunahitaji kwenda zaidi ya uwezo wa kujirudia. Tunahitaji kuwa bootstrappable. Hatuwezi kutegemea zana nyingi kama hizi ambazo tunalazimika kuzipakua na kuziamini kutoka kwa seva za nje zinazodhibitiwa na mashirika mengine.
@@ -398,8 +388,6 @@ Hata hivyo, watumiaji hawapaswi kuamini wengine kuwaweka salama, lakini wanapasw
 Itifaki ya Bitcoin ni trustless kwa sababu inaruhusu watumiaji kuingiliana nayo bila kuamini mtu wa tatu. Kiutendaji, hata hivyo, watu wengi hawawezi kuthibitisha rundo kamili la programu na maunzi wanayotumia kwa Bitcoin. Watu wenye ujuzi wanaothibitisha programu au maunzi wanaweza kuwaonya watu wengine, wasio na ujuzi wa kutosha, wanapogundua msimbo au hitilafu hasidi.
 
 Bila trustlessness, hatuwezi kuwa na ugatuaji, kwa sababu uaminifu unahusisha sehemu kuu ya mamlaka. Unaweza kuunda mfumo unaoaminika juu ya mfumo wa trustless, lakini huwezi kuunda mfumo wa trustless juu ya mfumo unaoaminika.
-
-
 ## Faragha
 
 <chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
@@ -414,18 +402,18 @@ Sura hii inahusu jinsi ya kuweka taarifa zako za kibinafsi za kifedha kwako. Ina
 
 Kisha, inazungumzia ukweli kwamba bitcoins zinapaswa kuwa fungible, yaani zinaweza kubadilishwa kwa bitcoins nyingine yoyote, na jinsi fungibility na faragha zinavyohusiana kwa karibu. Mwishowe, sura hii inatambulisha baadhi ya hatua unazoweza kuchukua ili kuboresha faragha yako na ya wengine.
 
+
 Bitcoin inaweza kuelezwa kama mfumo wa kificho majina (pseudonymous), ambapo watumiaji wana majina mengi ya utani kwa kutumia funguo za umma. Kwa mtazamo wa kwanza, hii inaonekana kama njia nzuri ya kulinda watumiaji wasitambuliwe, lakini kwa kweli ni rahisi sana kuvuja taarifa za kifedha binafsi bila kusudi.
 
 
-
 ### Nini maana ya faragha?
+
 
 Faragha inaweza kumaanisha mambo tofauti katika muktadha tofauti. Katika Bitcoin, kwa ujumla inamaanisha kuwa watumiaji hawahitaji kufichua taarifa zao za kifedha kwa wengine, isipokuwa wakifanya hivyo kwa hiari yao.
 
 Kuna njia nyingi ambazo unaweza kuvuja taarifa zako binafsi kwa wengine, iwe kwa kujua au bila kujua. Data inaweza kuvuja kutoka kwenye blockchain ya umma au kupitia njia nyingine, kwa mfano wakati wahalifu wanaposhika mawasiliano yako ya internet.
 
 Kuna njia nyingi ambazo unaweza kuvujisha habari zako za kibinafsi kwa wengine, kwa kujua au bila kujua. Data inaweza kuvuja kutoka kwa blockchain ya umma au kupitia njia zingine, kwa mfano wakati watendaji hasidi wanapoingilia mawasiliano yako ya mtandao.
-
 
 ### Kwa nini faragha ni muhimu?
 
@@ -437,6 +425,7 @@ Inaweza kuonekana wazi kwa nini faragha ni muhimu katika Bitcoin, lakini kuna ba
 > Huwezi kushindana kwa ufanisi ikiwa mshindani wako anaweza kufuatilia mauzo yako. Binafsi, kiwango chako cha taarifa kinapotea katika shughuli zako za kibinafsi ikiwa huna faragha kwenye akaunti yako: kwa mfano, ikiwa utamlipa mwenye nyumba kwa Bitcoin bila faragha ya kutosha, mwenye nyumba ataona unavyopokea malipo mengine na anaweza kukulipa kodi zaidi.
 
 > Faragha ya kifedha ni muhimu kwa usalama wa kibinafsi: ikiwa wezi wanaweza kuona matumizi yako, mapato, na mali zako, wanaweza kutumia taarifa hizo kukulenga na kukunyonya. Bila faragha, watu wenye nia mbaya wana uwezo zaidi wa kuiba utambulisho wako, kunyang’anya ununuzi wako mkubwa moja kwa moja, au kuiga biashara unayofanya katika miamala yako... na hivyo kuelewa ni kiasi gani hasa cha kujaribu kukudanganya.
+
 > Faragha ya kifedha ni muhimu kwa heshima ya utu wa binadamu: hakuna mtu anayependa mhudumu mkali kwenye kahawa au majirani wavamizi wakasema kuhusu mapato yao au tabia za matumizi. Hakuna anayependa kuwa na familia mpendwa wanaouliza kwa nini wanununua viuatilifu au vitu vya ngono. Mwajiri wako hana haki ya kujua unagawia kanisa gani. Ni katika dunia yenye uelewa kamili na huru kutoka ubaguzi ambapo hakuna mtu anayeweza kudhibiti mwingine kupita kiasi ndipo tunaweza kudumisha heshima zetu na kufanya miamala yetu halali kwa uhuru bila kujizuia, ikiwa hatuna faragha.
 
 
@@ -444,8 +433,8 @@ Maxwell pia anagusia juu ya uwezekano wa kufungika, ambayo itajadiliwa baadaye k
 
 ### Jina bandia
 
-Tulitaja hapo juu kwamba Bitcoin ni mfumo wa kificho majina, na kwamba majina bandia ni funguo za umma. Katika vyombo vya habari mara nyingi husikia kwamba Bitcoin ni haijulikani, jambo ambalo si sahihi. Kuna tofauti kati ya kutokujulikana na mfumo wa kificho majina.
 
+Tulitaja hapo juu kwamba Bitcoin ni mfumo wa kificho majina, na kwamba majina bandia ni funguo za umma. Katika vyombo vya habari mara nyingi husikia kwamba Bitcoin ni haijulikani, jambo ambalo si sahihi. Kuna tofauti kati ya kutokujulikana na mfumo wa kificho majina.
 Andrew Poelstra [anafafanua katika chapisho la Bitcoin Stack Exchange](https://Bitcoin.stackexchange.com/a/29473/69518) jinsi kutokujulikana kunavyoweza kuonekana katika miamala:
 
 > Kutokujulikana kwa jumla, kwa maana kwamba unapotumia pesa hakuna dalili za wapi zilipotoka au zinaelekea wapi, kinadharia inawezekana kufikiwa kwa kutumia mbinu ya kriptografia ya uthibitisho usio na maarifa.
@@ -464,8 +453,8 @@ Kwa kutumia anwani, au funguo za umma, tunafanikisha malengo muhimu kama kuondoa
 
 ### Faragha ya Blockchain 
 
-Faragha ya blockchain inarejelea taarifa unazofichua unapofanya miamala kwenye blockchain. Inahusiana na miamala yote, ile unayotuma pamoja na ile unayopokea.
 
+Faragha ya blockchain inarejelea taarifa unazofichua unapofanya miamala kwenye blockchain. Inahusiana na miamala yote, ile unayotuma pamoja na ile unayopokea.
 
 Satoshi Nakamoto inatafakari kuhusu faragha ya On-Chain katika sehemu ya 7 ya [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
 
@@ -483,14 +472,12 @@ Uvujaji wa kawaida wa faragha kwenye Blockchain
 
 Chris Belcher [aliandika kwa kina](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) kuhusu aina tofauti za uvujaji wa faragha unaoweza kutokea kwenye Bitcoin blockchain. Tunapendekeza usome angalau vifungu vichache vya kwanza chini ya sehemu ya "Blockchain mashambulizi dhidi ya faragha."
 
-
 Jambo la kuchukua ni kwamba faragha katika Bitcoin sio kamili. Inahitaji juhudi kubwa kufanya miamala yenye faragha. Watu wengi hawako tayari kwenda mbali kiasi hicho kwa ajili ya faragha. Inaonekana kuna biashara wazi kati ya faragha na urahisi wa matumizi.
 
 Kipengele kingine muhimu cha faragha ni kwamba hatua unazochukua kulinda faragha yako huathiri watumiaji wengine pia. Ikiwa huna makini na faragha yako mwenyewe, wengine wanaweza pia kupungukiwa faragha. Gregory Maxwell anafafanua hili kwa uwazi sana kwenye mjadala uleule wa Bitcoin Talk [uliounganisha hapo juu](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), na anahitimisha kwa mfano:
 
 
 > Hii pia hufanya kazi katika vitendo... Mchunguzi mwema wa usalama (whitehat hacker) kwenye IRC alijaribu kuvunjika kwa brainwallet na akagundua maneno yaliyo na takriban BTC 250 ndani yake. Tuliweza kumtambua mmiliki kutokana na anwani tu, kwa sababu alilipwa na huduma ya Bitcoin iliyotumia anwani moja mara nyingi, na mchunguzi huyo aliweza kuwahamasisha kutoa taarifa za mawasiliano za mtumiaji. Kwa kweli alipata mtumiaji kwa simu, walishangaa na kuchanganyikiwa—lakini walifurahia kutopoteza sarafu zao. Hapo ilikuwa mwisho mzuri wa hadithi. (Hii siyo mfano pekee, lakini ni mojawapo ya za kufurahisha zaidi).
-
 
 Katika kesi hii, yote yalienda vizuri kwa sababu mdukuzi alikuwa na nia ya kusaidia, lakini usitegemee bahati kama hiyo wakati mwingine.
 
@@ -582,7 +569,6 @@ Ili kupunguza hatari za kuwa na data yako ya kibinafsi kufichuliwa ni kutoitoa m
 
 > Kwa bahati nzuri, kuna chaguzi kadhaa za kununua Bitcoin kupitia vyanzo visivyo na KYC. Haya yote ni mabadilishano ya P2P (yaani, kufanya biashara moja kwa moja na mtu mwingine kwa kutumia programu fulani) ambapo unafanya biashara bila mtu wa kati. Kwa bahati mbaya, wengine huuza. cryptocurrency nyingine pamoja na Bitcoin, kwa hivyo tunakusihi uwe mwangalifu.
 
-
 Makala inapendekeza kuepuka kutumia exchange zinazohitaji KYC/AML, na badala yake kufanya biashara kwa faragha, au kutumia exchange za kidisentralishaji kama Bisq. 
 (https://bisq.network/).
 
@@ -645,17 +631,16 @@ Muhimu zaidi kuliko idadi kamili ya sarafu katika mzunguko ni jinsi kikomo cha S
 
 Hata kama baadhi ya full node zitageukia upande wa giza na kuamua kukubali blocks zilivyo na miamala ya thamani ya juu ya coinbase, nodes zote zilizosalia zitazipuuza tu na kuendelea kufanya biashara kama kawaida. Baadhi ya full node zinaweza, kwa kukusudia au bila kukusudia, kuendesha programu mbovu, lakini kundi litalinda kwa uthabiti Blockchain. Kwa kumalizia, unaweza kuchagua kuamini mfumo bila kulazimika kumwamini mtu yeyote.
 
-
 ### block  rewards na ada za muamala
+
 
 Block reward inaundwa na block reward pamoja na ada za miamala. Block reward inahitaji kulipia gharama za usalama za Bitcoin. Tunaweza kusema kwa uhakika kwamba chini ya masharti ya leo kuhusu block reward, ada za miamala, bei ya Bitcoin, saizi ya Mempool, nguvu ya Hash, kiwango cha ugatuaji, n.k., motisha kwa kila mchezaji kufuata sheria ni kubwa vya kutosha kuhifadhi mfumo salama wa pesa.
 
 
-
 Ni nini hufanyika wakati block reward inakaribia sifuri? Ili kuweka mambo rahisi, hebu tuchukulie kuwa ni sawa na sifuri. Katika hatua hii, gharama ya usalama ya mfumo italipwa kupitia ada za muamala pekee. Nini wakati ujao unatuwekea wakati hili litatokea, hatuwezi kujua. Sababu za kutokuwa na uhakika ni nyingi, na tumeachwa kwenye uvumi. Kwa mfano, mchango wa Paul Sztorc kwa mada katika blogu yake ya Truthcoin mara nyingi ni wa kiuvumi, lakini ana angalau nukta moja thabiti (tafadhali kumbuka kuwa M2, kama inavyorejelewa na Sztorc, ni kipimo cha pesa supply):
 
-> Ingawa hizi mbili zimeunganishwa katika "bajeti ya usalama", block reward na ada za muamala ni vitu tofauti kabisa. Ni tofauti kabisa, kama ilivyo "jumla ya faida ya VISA mnamo 2017" ikilinganishwa na "ongezeko la jumla la M2 mnamo 2017".
 
+> Ingawa hizi mbili zimeunganishwa katika "bajeti ya usalama", block reward na ada za muamala ni vitu tofauti kabisa. Ni tofauti kabisa, kama ilivyo "jumla ya faida ya VISA mnamo 2017" ikilinganishwa na "ongezeko la jumla la M2 mnamo 2017".
 
 Leo, ni wamiliki ambao hulipa usalama (kupitia mfumuko wa bei wa fedha). Kesho itakuwa zamu ya watumiaji kubeba mzigo huu kwa namna fulani, kama inavyoonyeshwa hapa chini.
 
@@ -688,8 +673,8 @@ Haiwezekani kusema, lakini tunajua mambo machache:
 - Kwa block reward ya sifuri na Mempool iliyo tupu au karibu tupu, mambo yanaweza kutetereka kwa sababu ya udukuzi wa ada.
 
 
-Kwa kuwa mabadiliko ya kuelekea kwenye block reward inayotegemea ada pekee ni jambo la siku zijazo, inaweza kuwa busara kuepuka kufikia hitimisho mapema na badala yake kujaribu kushughulikia matatizo yanayoweza kutokea kadri muda unavyoruhusu. Kwa mfano, Peter Todd anaamini kuwa kuna hatari halisi kwamba bajeti ya usalama ya Bitcoin haitatosha katika siku zijazo, na kwa hivyo anapendekeza wazo la kuwepo kwa mfumuko mdogo wa bei wa kudumu katika Bitcoin. Hata hivyo, pia anaamini kwamba si wazo zuri kujadili suala hilo kwa sasa, kama alisema kwenye podcast ya What Bitcoin Did:
 
+Kwa kuwa mabadiliko ya kuelekea kwenye block reward inayotegemea ada pekee ni jambo la siku zijazo, inaweza kuwa busara kuepuka kufikia hitimisho mapema na badala yake kujaribu kushughulikia matatizo yanayoweza kutokea kadri muda unavyoruhusu. Kwa mfano, Peter Todd anaamini kuwa kuna hatari halisi kwamba bajeti ya usalama ya Bitcoin haitatosha katika siku zijazo, na kwa hivyo anapendekeza wazo la kuwepo kwa mfumuko mdogo wa bei wa kudumu katika Bitcoin. Hata hivyo, pia anaamini kwamba si wazo zuri kujadili suala hilo kwa sasa, kama alisema kwenye podcast ya What Bitcoin Did:
 
 
 > Lakini, hiyo ni hatari kama miaka 10, 20 katika siku zijazo. Hiyo ni muda mrefu sana. Na, kwa wakati huo, ni nani kuzimu anajua hatari ni nini?
@@ -748,8 +733,7 @@ Kiwango kinatumia uoanifu wa mbele ikiwa bidhaa inayotii matoleo ya awali inawez
 Kinyume chake, [upatanifu wa nyuma](https://en.wikipedia.org/wiki/Backward_compatibility) inarejelea wakati data kutoka kwa programu ya zamani inaweza kutumika kwenye programu mpya zaidi. Mabadiliko yanasemekana kuendana kikamilifu ikiwa yanaoana mbele na nyuma.
 
 
-Mabadiliko ya sheria za makubaliano ya Bitcoin huitwa **Soft Fork** ikiwa yanaoana kikamilifu.
-Hii ndiyo njia ya kawaida ya kuboresha Bitcoin, kwa sababu kadhaa ambazo tutajadili zaidi katika sura hii.
+Mabadiliko ya sheria za makubaliano ya Bitcoin huitwa **Soft Fork** ikiwa yanaoana kikamilifu.Hii ndiyo njia ya kawaida ya kuboresha Bitcoin, kwa sababu kadhaa ambazo tutajadili zaidi katika sura hii.
 Ikiwa mabadiliko ya sheria za makubaliano ya Bitcoin yanapakana na matoleo ya awali na hayalingani na matoleo mapya, huitwa Hard Fork.
 
 
@@ -765,8 +749,7 @@ Bitcoin haiko sawa leo na jinsi ilivyokuwa wakati block ya Genesis iliundwa. Mab
 
 > Kwa kweli kulikuwa na Hard Fork katika Bitcoin ambayo Satoshi alifanya, na ambayo hatungewahi kuifanya hivi — ni njia mbaya sana ya kufanya hivyo. Ukiangalia maelezo ya ahadi ya git hapa [757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446), anasema kitu kuhusu toleo la 6x-configed make. Sawa. Hiyo ndiyo yote inasema; hakuna dalili kwamba inavunja utaratibu wowote. Kimsingi alikuwa ameificha ndani. Pia [alichapisha kwenye bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) akisema, tafadhali pata toleo jipya la 0.3.6 ASAP. Tulirekebisha hitilafu ya utekelezaji ambapo miamala ya uwongo inaweza kuonyeshwa kama inavyokubaliwa. Usikubali malipo ya Bitcoin hadi upate toleo jipya la 0.3.6. Ikiwa huwezi kuboresha mara moja, basi itakuwa bora kuzima nodi yako ya Bitcoin hadi utakapoweza. Na kisha, sijui kwa nini aliamua kufanya hivi pia; aliamua kuongeza uboreshaji katika nambari hiyo hiyo. Rekebisha hitilafu na uongeze uboreshaji fulani.
 
-Anasema kuwa, iwe kwa kukusudia au la, Hard Fork hii iliunda fursa za Soft Fork zijazo, yaani waendeshaji Hati (opcodes) OP\_NOP1–OP\_NOP10.
-Tutaangalia zaidi mabadiliko haya ya nambari katika CVE-2010-5141.
+Anasema kuwa, iwe kwa kukusudia au la, Hard Fork hii iliunda fursa za Soft Fork zijazo, yaani waendeshaji Hati (opcodes) OP\_NOP1–OP\_NOP10.Tutaangalia zaidi mabadiliko haya ya nambari katika CVE-2010-5141.
 Opcodes hizi zimetumika kwa Soft Fork mbili hadi sasa:
 
 
@@ -774,82 +757,55 @@ Opcodes hizi zimetumika kwa Soft Fork mbili hadi sasa:
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo pia hutoa muhtasari wa jinsi mifumo ya uboreshaji imebadilika kwa miaka yote, hadi 2017.
-Tangu wakati huo, uboreshaji mwingine mkubwa pekee, Taproot, umetumika.
-Mchakato mrefu na changamano wa kuwezesha umetusaidia kupata maarifa zaidi kuhusu mbinu za kuboresha katika Bitcoin.
+Lombrozo pia hutoa muhtasari wa jinsi mifumo ya uboreshaji imebadilika kwa miaka yote, hadi 2017.Tangu wakati huo, uboreshaji mwingine mkubwa pekee, Taproot, umetumika.Mchakato mrefu na changamano wa kuwezesha umetusaidia kupata maarifa zaidi kuhusu mbinu za kuboresha katika Bitcoin.
 
 
 #### Uboreshaji wa SegWit
 
 
-Ingawa visasisho vyote vilivyotangulia SegWit vilikuwa visivyo na maumivu, hii ilikuwa tofauti.
-Wakati msimbo wa uanzishaji wa SegWit ulipotolewa mnamo Oktoba 2016, ilionekana kuwa na usaidizi mkubwa kutoka kwa watumiaji wa Bitcoin, lakini kwa sababu fulani wachimbaji hawakuonyesha msaada kwa uboreshaji huu, jambo lililozuia uanzishaji bila azimio lolote la mbele.
+
+Ingawa visasisho vyote vilivyotangulia SegWit vilikuwa visivyo na maumivu, hii ilikuwa tofauti.Wakati msimbo wa uanzishaji wa SegWit ulipotolewa mnamo Oktoba 2016, ilionekana kuwa na usaidizi mkubwa kutoka kwa watumiaji wa Bitcoin, lakini kwa sababu fulani wachimbaji hawakuonyesha msaada kwa uboreshaji huu, jambo lililozuia uanzishaji bila azimio lolote la mbele.
+
+Aaron van Wirdum anaelezea barabara hii yenye kupindapinda katika makala yake ya Jarida la Bitcoin [Njia Ndefu ya kwenda SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality).Anaanza kwa kueleza SegWit ni nini na jinsi hiyo inavyoingia kwenye mjadala wa ukubwa wa block.Van Wirdum kisha anaelezea zamu ya matukio zilizosababisha uanzishaji wake wa mwisho.Katikati ya mchakato huu kulikuwa na utaratibu wa kuboresha uitwao user activated Soft Fork, au UASF kwa ufupi, ambao ulipendekezwa na mtumiaji Shaolinfry:
 
 
-Aaron van Wirdum anaelezea barabara hii yenye kupindapinda katika makala yake ya Jarida la Bitcoin [Njia Ndefu ya kwenda SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality).
-Anaanza kwa kueleza SegWit ni nini na jinsi hiyo inavyoingia kwenye mjadala wa ukubwa wa block.
-Van Wirdum kisha anaelezea zamu ya matukio zilizosababisha uanzishaji wake wa mwisho.
-Katikati ya mchakato huu kulikuwa na utaratibu wa kuboresha uitwao user activated Soft Fork, au UASF kwa ufupi, ambao ulipendekezwa na mtumiaji Shaolinfry:
+> Shaolinfry alipendekeza mbadala: mtumiaji aliyeamsha Soft Fork (UASF).Badala ya kutumia hash, mtumiaji aliyeamsha Soft Fork atapanga siku ya bendera ambapo nodi zitaanza kutekeleza sheria kwa wakati uliotangazwa siku zijazo.Ilimradi UASF hiyo itatekelezwa na wengi wa kiuchumi, inapaswa kuwafanya wachimbaji wengi kufuata (au kuwezesha) Soft Fork.
+
+Miongoni mwa mambo mengine, anataja barua pepe ya Shaolinfry kwa orodha ya barua pepe ya Bitcoin‑dev.Katika hafla hiyo, Shaolinfry [alibishana dhidi ya Miner‑activated Soft Forks](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), akiorodhesha shida kadhaa:
 
 
-> Shaolinfry alipendekeza mbadala: mtumiaji aliyeamsha Soft Fork (UASF).
-Badala ya kutumia hash, mtumiaji aliyeamsha Soft Fork atapanga siku ya bendera ambapo nodi zitaanza kutekeleza sheria kwa wakati uliotangazwa siku zijazo.
-Ilimradi UASF hiyo itatekelezwa na wengi wa kiuchumi, inapaswa kuwafanya wachimbaji wengi kufuata (au kuwezesha) Soft Fork.
-
-Miongoni mwa mambo mengine, anataja barua pepe ya Shaolinfry kwa orodha ya barua pepe ya Bitcoin‑dev.
-Katika hafla hiyo, Shaolinfry [alibishana dhidi ya Miner‑activated Soft Forks](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), akiorodhesha shida kadhaa:
-
-
-> Kwanza, inahitaji kuamini kwamba nguvu ya Hash itathibitishwa baada ya kuwezesha Soft Fork.
-BIP66 Soft Fork ilikuwa kesi ambapo 95% ya Hashrate ilionyesha utayari, lakini kwa kweli karibu nusu haikuithibitisha sheria iliyoboreeshwa na ilichimbwa kwenye block batili kwa makosa.
+> Kwanza, inahitaji kuamini kwamba nguvu ya Hash itathibitishwa baada ya kuwezesha Soft Fork.BIP66 Soft Fork ilikuwa kesi ambapo 95% ya Hashrate ilionyesha utayari, lakini kwa kweli karibu nusu haikuithibitisha sheria iliyoboreeshwa na ilichimbwa kwenye block batili kwa makosa.
 >
 
-> Pili, kuashiria kwa Miner ni aina ya kura ya turufu inayoruhusu asilimia ndogo ya hashrate kuamsha veto node ya uboreshaji kwa wote.
-Hadi sasa, Soft Forks zimechukua fursa ya mazingira ya kati kati ya Mining, ambapo kuna madimbwi machache ya Mining yanayojenga Blocks halali; tunapoelekea katika mgawanyiko mkubwa zaidi wa hashrate, kuna uwezekano tutakabiliana na “inertia ya kuboresha” itakayopinga masasisho zaidi.
+> Pili, kuashiria kwa Miner ni aina ya kura ya turufu inayoruhusu asilimia ndogo ya hashrate kuamsha veto node ya uboreshaji kwa wote. Hadi sasa, Soft Forks zimechukua fursa ya mazingira ya kati kati ya Mining, ambapo kuna madimbwi machache ya Mining yanayojenga Blocks halali; tunapoelekea katika mgawanyiko mkubwa zaidi wa hashrate, kuna uwezekano tutakabiliana na “inertia ya kuboresha” itakayopinga masasisho zaidi.
 
-Shaolinfry pia aliangazia tafsiri potofu ya kawaida ya kuashiria Miner: watu kwa ujumla walidhani kuwa ilikuwa njia ambayo wachimbaji wangeweza kuamua juu ya uboreshaji wa itifaki, badala ya hatua iliyokusudiwa kusaidia kuratibu uboreshaji.
-Kutokana na kutokuelewana huku, wachimbaji walihisi kulazimika kutangaza maoni yao hadharani kuhusu Soft Fork fulani, kana kwamba hiyo iliongezea uzito pendekezo hilo.
+Shaolinfry pia aliangazia tafsiri potofu ya kawaida ya kuashiria Miner: watu kwa ujumla walidhani kuwa ilikuwa njia ambayo wachimbaji wangeweza kuamua juu ya uboreshaji wa itifaki, badala ya hatua iliyokusudiwa kusaidia kuratibu uboreshaji.Kutokana na kutokuelewana huku, wachimbaji walihisi kulazimika kutangaza maoni yao hadharani kuhusu Soft Fork fulani, kana kwamba hiyo iliongezea uzito pendekezo hilo.
 
 
-Pendekezo la UASF ni, kwa ufupi, “Siku ya Bendera” ambapo nodi huanza kutekeleza sheria mpya maalum.
-Kwa njia hiyo, wachimbaji hawahitaji kufanya juhudi za pamoja kuratibu uboreshaji, lakini inaweza kuchochea kuwezesha mapema kabla ya Siku ya Bendera ikiwa msaada wa vitalu vya kutosha hautazuia utekelezaji.
+Pendekezo la UASF ni, kwa ufupi, “Siku ya Bendera” ambapo nodi huanza kutekeleza sheria mpya maalum.Kwa njia hiyo, wachimbaji hawahitaji kufanya juhudi za pamoja kuratibu uboreshaji, lakini inaweza kuchochea kuwezesha mapema kabla ya Siku ya Bendera ikiwa msaada wa vitalu vya kutosha hautazuia utekelezaji.
 
 
 > Maoni yangu ni kwamba ulimwengu uwe bora zaidi. Kwa kuwa mtumiaji aliyeamsha Soft Fork anahitaji muda mrefu kabla ya kuwezesha, tunaweza kuchanganya na BIP9 ili kutoa chaguo la kuwezesha kupitia uratibu wa nguvu ya Hash au kuwezesha ifikapo Siku ya Bendera, chaguo lolote litakaloanza kwanza.
-
-> Katika visa vyote viwili,
-tunaweza kutumia mifumo ya maonyo katika BIP9. Mabadiliko hayo ni rahisi kiasi, na kuongeza kigezo cha muda wa kuwezesha ambacho kitabadilisha hali ya BIP9 hadi LOCKED_IN kabla ya mwisho wa muda wa BIP9 wa utumiaji kuisha.
+> Katika visa vyote viwili,tunaweza kutumia mifumo ya maonyo katika BIP9. Mabadiliko hayo ni rahisi kiasi, na kuongeza kigezo cha muda wa kuwezesha ambacho kitabadilisha hali ya BIP9 hadi LOCKED_IN kabla ya mwisho wa muda wa BIP9 wa utumiaji kuisha.
 
 Wazo hili lilivutia watu wengi, lakini halikuweza kupata usaidizi wa pamoja, jambo lililosababisha wasiwasi juu ya uwezekano wa mgawanyiko wa mnyororo. Makala ya Aaron van Wirdum inaeleza jinsi hili hatimaye lilivyotatuliwa kutokana na BIP91, iliyoandikwa na James Hilliard:
 
 
-> Hilliard alipendekeza suluhisho changamano lakini la busara ambalo lingengeuza kila kitu kuwa sawa: pamoja na Uwezeshaji wa Mashahidi waliotengwa kama ilivyopendekezwa na timu ya ukuzaji ya Bitcoin Core, BIP148 UASF, na utaratibu wa kuwezesha Makubaliano ya New York.
-BIP91 inaweza kuweka Bitcoin nzima — angalau linapokuja suala la kuwezesha SegWit.
+> Hilliard alipendekeza suluhisho changamano lakini la busara ambalo lingengeuza kila kitu kuwa sawa: pamoja na Uwezeshaji wa Mashahidi waliotengwa kama ilivyopendekezwa na timu ya ukuzaji ya Bitcoin Core, BIP148 UASF, na utaratibu wa kuwezesha Makubaliano ya New York.BIP91 inaweza kuweka Bitcoin nzima — angalau linapokuja suala la kuwezesha SegWit.
 
-Kulikuwa na mambo mengine magumu zaidi yaliyohusishwa (k.m. yale yanayoitwa "Mkataba wa New York"), ambayo BIP hii ilibidi izingatiwe.
-Tunakuhimiza usome makala ya Van Wirdum kikamilifu ili ujifunze kuhusu maelezo mengi ya kuvutia katika hadithi hii.
+Kulikuwa na mambo mengine magumu zaidi yaliyohusishwa (k.m. yale yanayoitwa "Mkataba wa New York"), ambayo BIP hii ilibidi izingatiwe.Tunakuhimiza usome makala ya Van Wirdum kikamilifu ili ujifunze kuhusu maelezo mengi ya kuvutia katika hadithi hii.
 
 #### Majadiliano ya baada ya SegWit
 
 
-Baada ya utekelezaji wa SegWit, mjadala kuhusu mbinu za utekelezaji uliibuka.
-Kama ilivyobainishwa na Eric Lombrozo katika [mazungumzo yake kwenye mkutano wa Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) na Shaolinfry, Miner-activated Soft Fork bora ingetekelezwa kwa utaratibu ulioamilishwa na Miner:
+Baada ya utekelezaji wa SegWit, mjadala kuhusu mbinu za utekelezaji uliibuka.Kama ilivyobainishwa na Eric Lombrozo katika [mazungumzo yake kwenye mkutano wa Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) na Shaolinfry, Miner-activated Soft Fork bora ingetekelezwa kwa utaratibu ulioamilishwa na Miner:
 
 
-> Wakati mwingine pengine tutahitaji kuongeza vipengele zaidi kwenye itifaki ya Bitcoin.
-Hili ni swali kubwa la kifalsafa la kujiuliza.
-Je, tutatumia UASF ijayo?
-Vipi kuhusu mbinu ya mseto?
-Mbinu ya Miner-activated imeondolewa kabisa.
-Hatutatumia tena BIP9.
+> Wakati mwingine pengine tutahitaji kuongeza vipengele zaidi kwenye itifaki ya Bitcoin.Hili ni swali kubwa la kifalsafa la kujiuliza.Je, tutatumia UASF ijayo?Vipi kuhusu mbinu ya mseto?Mbinu ya Miner-activated imeondolewa kabisa.Hatutatumia tena BIP9.
 
 Mnamo Januari 2020, Matt Corallo alituma barua pepe kwa orodha ya barua pepe ya [Bitcoin‑dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html), ambayo ilizindua mjadala kuhusu mbinu za uanzishaji wa Soft Fork za siku zijazo.Aliorodhesha malengo matano aliyoyaona kuwa muhimu katika sasisho.David Harding ameifupisha katika jarida la [Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) kama ifuatavyo:
 
-> Uwezo wa kukomesha uanzishaji ikiwa kuna pingamizi makali dhidi ya sheria mpya za makubaliano zinazopendekezwa.
-Ugawaji wa muda wa kutosha baada ya kuachiliwa kwa programu iliyosasishwa ili kuhakikisha kuwa nodi nyingi za kiuchumi zimesasishwa na toleo jipya ili kutekeleza sheria hizo.
-Matarajio kwamba kiwango cha Hashrate ya mtandao kitabakia sawa kabla na baada ya mabadiliko, pamoja na wakati wowote wa mpito.
-Uzuiaji, inapowezekana, wa kuundwa kwa vitalu vinavyokiuka sheria mpya, jambo ambalo linaweza kusababisha uthibitisho wa uongo katika nodes zisizoboreshwa na wateja wa SPV.
-Uhakikisho kwamba mbinu za kukomesha uanzishaji haziwezi kutumiwa vibaya na wapinzani au wafuasi kuzuia uboreshaji unaohitajika bila matatizo yoyote yanayojulikana.
+> Uwezo wa kukomesha uanzishaji ikiwa kuna pingamizi makali dhidi ya sheria mpya za makubaliano zinazopendekezwa.Ugawaji wa muda wa kutosha baada ya kuachiliwa kwa programu iliyosasishwa ili kuhakikisha kuwa nodi nyingi za kiuchumi zimesasishwa na toleo jipya ili kutekeleza sheria hizo.Matarajio kwamba kiwango cha Hashrate ya mtandao kitabakia sawa kabla na baada ya mabadiliko, pamoja na wakati wowote wa mpito.Uzuiaji, inapowezekana, wa kuundwa kwa vitalu vinavyokiuka sheria mpya, jambo ambalo linaweza kusababisha uthibitisho wa uongo katika nodes zisizoboreshwa na wateja wa SPV.Uhakikisho kwamba mbinu za kukomesha uanzishaji haziwezi kutumiwa vibaya na wapinzani au wafuasi kuzuia uboreshaji unaohitajika bila matatizo yoyote yanayojulikana.
 
 Kile ambacho Corallo anapendekeza ni mchanganyiko wa Miner iliyoamilishwa Soft Fork na mtumiaji aliyeamilishwa Soft Fork:
 
@@ -886,9 +842,7 @@ BIP8 bila kuwezesha kulazimishwa ni sawa na BIP9 biti za utekelezaji za muda na 
 Mpangilio hili huruhusu jaribio kushindwa (lakini linaweza kujaribiwa tena baadaye).
 
 
-BIP8 yenye uanzishaji wa kulazimishwa inahitimisha kwa kipindi cha lazima cha kuashiria, ambapo vitalu vyote vilivyozalishwa kwa kuzingatia sheria zake lazima visaidie kuashiria utayari kwa Soft Fork kwa njia itakayochochea uanzishaji katika utekelezaji wa awali wa Soft Fork hiyo usiolazimishwa.
-Kwa maneno mengine, ikiwa toleo la node x litatolewa bila uanzishaji wa kulazimishwa na, baadaye, toleo la y litatolewa ambalo linafanikiwa kulazimisha wachimbaji kuanza kuashiria utayari katika kipindi hicho hicho, matoleo yote mawili yataanza kutekeleza sheria mpya za makubaliano kwa wakati mmoja.
-
+BIP8 yenye uanzishaji wa kulazimishwa inahitimisha kwa kipindi cha lazima cha kuashiria, ambapo vitalu vyote vilivyozalishwa kwa kuzingatia sheria zake lazima visaidie kuashiria utayari kwa Soft Fork kwa njia itakayochochea uanzishaji katika utekelezaji wa awali wa Soft Fork hiyo usiolazimishwa.Kwa maneno mengine, ikiwa toleo la node x litatolewa bila uanzishaji wa kulazimishwa na, baadaye, toleo la y litatolewa ambalo linafanikiwa kulazimisha wachimbaji kuanza kuashiria utayari katika kipindi hicho hicho, matoleo yote mawili yataanza kutekeleza sheria mpya za makubaliano kwa wakati mmoja.
 Unyumbufu huu wa pendekezo lililorekebishwa la BIP8 huwezesha kufafanua mawazo mengine kulingana na jinsi yanavyoweza kuonekana kwa BIP8.
 Hii inatoa msingi wa pamoja wa matumizi kwa kuainisha mapendekezo mengi tofauti.
 
@@ -939,7 +893,6 @@ Kwa kuzingatia matatizo ya uma za hivi majuzi za Soft, SegWit na Taproot, haijul
 Wakati wa uanzishaji wa fork yoyote, iwe ni hard au soft, iwe imeanzishwa na miners au watumiaji, kuna hatari ya kutokea kwa mgawanyiko wa mnyororo wa muda mrefu. Mgawanyiko unaodumu kwa zaidi ya blocks chache unaweza kuleta madhara makubwa kwa mtazamo kuhusu Bitcoin na hata kwa bei yake. Lakini zaidi ya yote, unaweza kusababisha mkanganyiko mkubwa kuhusu nini hasa ni Bitcoin. Je, Bitcoin ni mnyororo huu au ule?
 
 Hatari ya user activated soft fork ni kwamba sheria mpya zinaweza kuanza kutumika hata kama sehemu kubwa ya hash power haiungi mkono. Hali kama hii inaweza kusababisha mgawanyiko wa mnyororo wa muda mrefu, ambao utaendelea hadi wakati ambapo sehemu kubwa ya hash power itakubali kutumia sheria mpya. Itakuwa vigumu zaidi kuwashawishi miners kuhamia kwenye mnyororo mpya ikiwa tayari wamechimba blocks baada ya mgawanyiko katika mnyororo wa zamani, kwa sababu kwa kufanya hivyo wangeacha rewards zao wenyewe. Hata hivyo, inafaa kutaja tukio la kipekee: mnamo Machi 2013 kulikuwa na mgawanyiko wa muda mrefu uliotokana na hard fork isiyokusudiwa, na kinyume na msukumo wa maslahi binafsi, pools mbili kubwa za mining ziliamua kuacha tawi lao la mgawanyiko ili kurejesha makubaliano.
-
 Kwa upande mwingine, hatari ya miner activated soft fork inatokana na ukweli kwamba miners wanaweza kutoa ishara ya uongo, ikimaanisha kuwa kiwango halisi cha hash power kinachounga mkono mabadiliko kinaweza kuwa kidogo kuliko inavyoonekana. Ikiwa uungwaji mkono halisi haujafikia wingi wa hash power, kuna uwezekano mkubwa wa kuona mgawanyiko wa mnyororo wa muda mrefu kama ulioelezwa katika aya iliyopita. Tatizo hili, au linalofanana nalo, liliwahi kutokea wakati BIP66 ilipowekwa, lakini lilitatuliwa ndani ya blocks kama sita.
 
 #### Gharama za kugawanyika
@@ -954,8 +907,8 @@ Katika muktadha wa Bitcoin, anatoa mfano wa hali hasi za nje kwa kutumia Bitcoin
 Miongoni mwa mifano mingi ya gharama za wakati mmoja, anataja zile zinazotokana na exchanges:
 
 > Kwa hivyo tuna rundo la exchanges na walikuwa na gharama nyingi za wakati mmoja ambazo walipaswa kulipa. Jambo la kwanza lililotokea ni kwamba amana na uondoaji ulilazimika kusimamishwa kwa siku moja au mbili kwa exchanges hizi kwa sababu hawakujua nini kitatokea. Mengi ya exchanges haya yalilazimika kutumbukiza kwenye hifadhi ya Cold kwa sababu watumiaji wao walikuwa wakidai bcash. Ni sehemu ya wajibu wao wa uaminifu, wanapaswa kufanya hivyo. Pia unapaswa kukagua programu mpya. Hili ni jambo ambalo tulipaswa kufanya wakati wa itbit. Tunataka kutumia bcash – tunafanyaje? Je, tunapaswa kupakua fedha za elektroni? Je, ina programu hasidi? Inabidi twende tukakague. Tulikuwa na kama siku 10 kubaini kama hii ilikuwa sawa au la. Na kisha unapaswa kuamua, je, tutaruhusu tu uondoaji wa mara moja, au tutaorodhesha sarafu hii mpya? Kwa exchange ili kuorodhesha sarafu mpya, si rahisi – kuna kila aina ya taratibu mpya za kuhifadhi, kusaini, kuweka na kutoa pesa za Cold. Au unaweza kuwa na tukio hili la mara moja ambapo unawapa bcash yao wakati fulani na kisha hutafikiria tena juu yake. Lakini hiyo ina matatizo yake pia. Na hatimaye, na kwa njia yoyote ile, uondoaji au uorodheshaji – utahitaji miundombinu mipya ili kufanya kazi na token hii kwa njia fulani, hata ikiwa ni kujiondoa mara moja. Unahitaji njia fulani ya kutoa tokeni hizi kwa watumiaji wako. Tena, taarifa fupi. Kweli? Hakuna wakati wa kufanya hivi, lazima ufanyike haraka.
-Pia anaorodhesha gharama za mara moja zinazoletwa na wafanyabiashara, wasindikaji wa malipo, wallet, miners na watumiaji, pamoja na baadhi ya gharama za kudumu, kwa mfano upotevu wa faragha na hatari kubwa ya kupanga upya.
 
+Pia anaorodhesha gharama za mara moja zinazoletwa na wafanyabiashara, wasindikaji wa malipo, wallet, miners na watumiaji, pamoja na baadhi ya gharama za kudumu, kwa mfano upotevu wa faragha na hatari kubwa ya kupanga upya.
 
 Hakika, wakati mgawanyiko unatokea na mlolongo ulio na sheria za jumla zaidi unakuwa na nguvu zaidi kuliko mnyororo na sheria kali, reorg itatokea. Hii itakuwa na athari kali kwa shughuli zote zinazofanywa katika tawi lililofutwa. Kwa sababu hizi ni muhimu sana kujaribu kuzuia mgawanyiko wa minyororo wakati wote.
 
@@ -977,9 +930,7 @@ Ili kuweka Bitcoin katika maelewano, uma za Soft zimethibitishwa kuwa njia ya ku
 ![](assets/adversarialthinking-banner.webp)
 
 
-Sura hii inazungumzia fikra za kiulinzi dhidi ya wapinzani, mtazamo unaolenga kile kinachoweza kwenda vibaya na jinsi wapinzani wanaweza kutenda. Tunaanza kwa kujadili dhana za usalama wa Bitcoin na mfumo wake wa usalama, kisha tunaeleza jinsi watumiaji wa kawaida wanaweza kuboresha mamlaka yao binafsi na usanifu wa nodi kamili wa Bitcoin kwa kufikiri kwa mtazamo wa kiulinzi. Kisha tunaangazia baadhi ya vitisho halisi kwa Bitcoin pamoja na kuingia katika mawazo ya mpinzani. Hatimaye, tunazungumza kuhusu kanuni ya upinzani ambayo inaweza kukusaidia kuelewa kwa nini watu wanafanyia kazi Bitcoin tangu awali.
-
-Wakati wa kujadili usalama ndani ya mifumo mbalimbali, ni muhimu kuelewa mawazo ya usalama ni nini. Dhana ya kawaida ya usalama katika Bitcoin ni "tatizo la logarithm ya kipekee ni ngumu kusuluhisha", ambayo, kwa maneno rahisi, inamaanisha kuwa haiwezekani kupata ufunguo wa kibinafsi unaolingana na ufunguo fulani wa umma. Dhana nyingine nzuri ya usalama ni kwamba nguvu nyingi za mtandao ni za uaminifu, kumaanisha kuwa wanacheza kwa sheria. Ikiwa mawazo haya yamethibitishwa kuwa sio sawa, basi Bitcoin iko kwenye shida.
+Sura hii inazungumzia fikra za kiulinzi dhidi ya wapinzani, mtazamo unaolenga kile kinachoweza kwenda vibaya na jinsi wapinzani wanaweza kutenda. Tunaanza kwa kujadili dhana za usalama wa Bitcoin na mfumo wake wa usalama, kisha tunaeleza jinsi watumiaji wa kawaida wanaweza kuboresha mamlaka yao binafsi na usanifu wa nodi kamili wa Bitcoin kwa kufikiri kwa mtazamo wa kiulinzi. Kisha tunaangazia baadhi ya vitisho halisi kwa Bitcoin pamoja na kuingia katika mawazo ya mpinzani. Hatimaye, tunazungumza kuhusu kanuni ya upinzani ambayo inaweza kukusaidia kuelewa kwa nini watu wanafanyia kazi Bitcoin tangu awali.Wakati wa kujadili usalama ndani ya mifumo mbalimbali, ni muhimu kuelewa mawazo ya usalama ni nini. Dhana ya kawaida ya usalama katika Bitcoin ni "tatizo la logarithm ya kipekee ni ngumu kusuluhisha", ambayo, kwa maneno rahisi, inamaanisha kuwa haiwezekani kupata ufunguo wa kibinafsi unaolingana na ufunguo fulani wa umma. Dhana nyingine nzuri ya usalama ni kwamba nguvu nyingi za mtandao ni za uaminifu, kumaanisha kuwa wanacheza kwa sheria. Ikiwa mawazo haya yamethibitishwa kuwa sio sawa, basi Bitcoin iko kwenye shida.
 
 Mnamo 2015 Andrew Poelstra [alitoa hotuba](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) katika mkutano wa Kuongeza Bitcoin huko Hong Kong, ambapo alichambua mawazo ya usalama ya Bitcoin. Anaanza kwa kuona kwamba mifumo mingi huwapuuza wapinzani kwa kiasi fulani; kwa mfano, ni kweli Hard kulinda jengo dhidi ya aina zote za matukio ya uhasama. Badala yake, kwa ujumla tunakubali uwezekano kwamba mtu anaweza kuchoma jengo, na kwa kiasi fulani kuzuia tabia hii na tabia nyingine potofu kupitia utekelezaji wa sheria n.k.
 
@@ -1017,7 +968,6 @@ Umuhimu wa fikra pinzani pia unaenea kwa watumiaji wa kila siku wa Bitcoin kwa k
 
 
 > Ili kufanya Bitcoin na sisi wenyewe kuwa na nguvu tunahitaji kufikiria kama wahandisi wa programu wanaochangia Bitcoin. Wanakagua rika, wakitafuta dosari bila huruma. Katika hafla zao za teknolojia wanazungumza juu ya kila njia ambayo pendekezo linaweza kutofaulu. Wanafikiri kinyume. Wao ni wahafidhina
-
 
 Anarejelea masimulizi haya sahili kama monomania. Kupitia ufafanuzi huu anasema kwamba kwa kuangazia jambo moja – kwa mfano, "HODL tu" – una hatari ya kupuuza mambo muhimu zaidi, kama vile kuweka Bitcoin yako salama au kufanya uwezavyo kutumia Bitcoin kwa njia ya Trustless.
 
@@ -1162,9 +1112,7 @@ Msanidi wa Bitcoin Core Eric Lombrozo anazungumza zaidi kuhusu mchakato wa ukuza
 >Iwapo mtu anataka kuunganisha mabadiliko aliyoyafanya kwenye hazina yake ndani ya Bitcoin Core, anaweza kuwasilisha pull request. Mara tu inapowasilishwa, mtu yeyote anaweza kupitia mabadiliko hayo na kutoa maoni, bila kujali kama ana ruhusa ya commit kwenye Bitcoin Core au la.
 
 Ni muhimu kutambua kwamba pull requests zinaweza kuchukua muda mrefu sana kabla ya kuunganishwa kwenye hazina na waendelezaji wanaosimamia, na mara nyingi hii husababishwa na ukosefu wa mapitio, ambao nao hutokana na ukosefu wa wakaguzi wa msimbo.
-
 Lombrozo pia anazungumzia kuhusu mchakato unaohusiana na mabadiliko ya consensus, lakini hilo linazidi upeo wa sura hii. Tazama Sura iliyotangulia ya "Upgrading" kwa maelezo zaidi kuhusu jinsi protocol ya Bitcoin huboreshwa.
-
 ### Maendeleo Yasiyohitaji Ruhusa  
 Tumeweka wazi kwamba mtu yeyote anaweza kuandika msimbo kwa ajili ya Bitcoin Core bila kuhitaji ruhusa yoyote, ingawa si lazima mabadiliko hayo yaunganishwe kwenye hazina kuu ya Git. Hii inahusiana na aina yoyote ya marekebisho, kuanzia kubadilisha rangi za muonekano wa kiolesura cha picha, hadi namna ujumbe wa peer-to-peer unavyopangwa, na hata sheria za consensus, yaani seti ya sheria zinazofafanua blockchain halali.
 
@@ -1246,7 +1194,7 @@ Kwa kutumia mifano halisi, anaonyesha jinsi selection cryptography inaweza kwend
 Ingawa huu sio mwongozo wa mwisho wa mafanikio, inaweza kusaidia sana kupitia vidokezo hivi wakati wa kuchagua kriptografia.
 
 
-Kwa sababu ya changamoto zilizotajwa hapo juu na Maxwell, Bitcoin Core hujitahidi sana kupunguza utegemezi wake kwa maktaba kutoka kwa wahusika wa tatu. Bila shaka, huwezi kuondoa utegemezi wote wa nje kabisa, la sivyo ingebidi uandike kila kitu mwenyewe, kuanzia uonyeshaji wa fonti hadi utekelezaji wa system calls.
+Kwa sababu ya changamoto zilizotajwa hapo juu na Maxwell, Bitcoin Core hujitahidi sana kupunguza utegemezi wake kwa maktaba kutoka kwa wahusika wa tatu.](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md).Bila shaka, huwezi kuondoa utegemezi wote wa nje kabisa, la sivyo ingebidi uandike kila kitu mwenyewe, kuanzia uonyeshaji wa fonti hadi utekelezaji wa system calls.
 
 
 ### Mapitio
@@ -1379,9 +1327,7 @@ Hivi karibuni tutaingia katika mbinu mbalimbali za Scaling, lakini hebu tuanze n
 ### Historia ya Scaling 
 
 
-
 Scaling imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwanza kabisa ya [barua pepe ya kwanza](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) iliyojibu tangazo la Satoshi kuhusu karatasi nyeupe ya Bitcoin kwenye orodha ya barua pepe ya Cryptography kwa hakika ilikuwa inahusu Scaling:
-
 
 > Satoshi Nakamoto aliandika:
 >

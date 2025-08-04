@@ -848,7 +848,7 @@ Aangezien Bitcoin functioneert als een medium van Exchange, is het mogelijk om e
 Dit houdt in dat je beloningen verdient met het bedienen van Mining machines. Voor niet-gespecialiseerde bedrijven blijft dit relatief marginaal. Je kunt deelnemen via tussenpersonen die je de computers, het netwerk en het onderhoud verkopen of verhuren. Als je de machines bezit, kun je ze boeken als afschrijfbare activa. Op grote schaal moet je de return on investment zorgvuldig berekenen omdat de markt zeer concurrerend is en een goede anticipatie op de kosten vereist, met name elektriciteit.
 
 
-Om meer te weten te komen over de Mining methodes, kun je [de "Mining" sectie in onze tutorials raadplegen](https://planb.network/tutorials/Mining).
+Om meer te weten te komen over de Mining methodes, kun je [de "Mining" sectie in onze tutorials raadplegen](https://planb.network/tutorials/mining).
 
 
 
@@ -864,7 +864,7 @@ https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Om meer te weten te komen over methodes voor het verkrijgen van bitcoins via een Exchange of peer-to-peer, kun je [de "Exchange" sectie in onze tutorials raadplegen](https://planb.network/tutorials/Exchange).
+Om meer te weten te komen over methodes voor het verkrijgen van bitcoins via een Exchange of peer-to-peer, kun je [de "Exchange" sectie in onze tutorials raadplegen](https://planb.network/tutorials/exchange).
 
 
 ![BIZ101](assets/en/16.webp)

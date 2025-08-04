@@ -67,7 +67,7 @@ To je příležitost připomenout těm, kteří by chtěli platit za své dárko
 
 
 
-Výběr výukových programů pro hlavní portfolia Lightning (Phoenix, Breez, BitKit, Zeus...) najdete zde: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Výběr výukových programů pro hlavní portfolia Lightning (Phoenix, Breez, BitKit, Zeus...) najdete zde: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

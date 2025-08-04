@@ -67,7 +67,7 @@ Esta es una oportunidad para recordar a quienes deseen pagar sus tarjetas regalo
 
 
 
-Aquí se puede encontrar una selección de tutoriales sobre las principales carteras de Lightning (Phoenix, Breez, BitKit, Zeus...): [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Aquí se puede encontrar una selección de tutoriales sobre las principales carteras de Lightning (Phoenix, Breez, BitKit, Zeus...): [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

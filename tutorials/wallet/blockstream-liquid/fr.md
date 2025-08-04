@@ -1,6 +1,6 @@
 ---
-name: 
-description: 
+name: Blockstream - Liquid
+description: Comment configurer Blockstream App et utiliser le réseau Liquid
 ---
 ![cover](assets/cover.webp)
 ## 1. Introduction
@@ -64,6 +64,7 @@ Liquid repose sur une **fédération** de participants de confiance (exchanges, 
 - **Interface** : Intuitive pour les débutants, avec des options avancées pour les experts.
 - **Note** : Ce guide se concentre sur l'utilisation onchain. D'autres tutoriels fournis en Annexes couvrent les fonctionnalités Onchain, Watch-Only, et la version desktop.
 
+
 ## 3. Installer et paramétrer l'application Blockstream App
 
 ### 3.1. Téléchargement
@@ -116,7 +117,6 @@ Liquid repose sur une **fédération** de participants de confiance (exchanges, 
 - Si vous voulez gérer un **cold wallet** (portefeuille hors ligne) : cliquez sur **"Connect Jade"** pour utiliser le hardware wallet Blockstream Jade ou d’autres cold wallets compatibles. 
 ![image](assets/fr/05.webp)
 
-
 - Vous arrivez à l'écran suivant : 
 ![image](assets/fr/06.webp)
 	- (1) **"Setup Mobile Wallet"** : Créer un nouveau portefeuille chaud (hot wallet).
@@ -148,7 +148,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-### 4.3. Confirmer la seed phrase
+### 4.3. Vérifier la seed phrase
 
 Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous devez impérativement tester la sauvegarde de vos 12 mots. 
 Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
@@ -163,7 +163,7 @@ Nota : une adresse zpub peut être importée dans votre application Blockstream 
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-### 4.5. Sécuriser l'accès à l'application
+### 4.4. Sécuriser l'accès à l'application
 
 Verrouillez l'accès à l'application par un code PIN robuste :
 - Depuis l’écran d’accueil du wallet, allez dans **"Sécurité"** puis cliquez sur **"PIN"**
@@ -218,7 +218,7 @@ Alternativement, échangez vos bitcoins onchain ou via le réseau Lightning cont
 - **Suivi** : Dans l'onglet "Transact" du wallet, la transaction apparaît comme "Non confirmée", puis "Confirmée", puis "Complétée" : 
 ![image](assets/fr/25.webp)
 
-- Le temps entre 2 blocks est de 1 minute sur Liquid, la transaction doit donc être rapidement confirmée puis complétée.
+- Le temps entre 2 blocks est de 1 minute sur Liquid, la transaction est donc être rapidement confirmée puis complétée.
 
 
 

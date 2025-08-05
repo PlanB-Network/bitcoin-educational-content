@@ -114,7 +114,7 @@ In gedecentraliseerde systemen worden transacties geverifieerd door een wereldwi
 
 **De evolutie van valutanetwerken**
 
-Elke fase in de evolutie van geldnetwerken heeft belangrijke verbeteringen teweeg gebracht: draagbaarheid, schaalbaarheid, toegankelijkheid, snelheid, veiligheid en vertrouwen. Munten maakten plaats voor papiergeld voor betere overdraagbaarheid en efficiëntie. Papier evolueerde naar elektronisch geld, dat wereldwijde toegang en directe transacties mogelijk maakte. Nu herdefinieert Bitcoin vertrouwen en veiligheid door een open en veerkrachtig monetair systeem te creëren. Deze historische progressie benadrukt de voortdurende drang van de mensheid om betere netwerken voor waarde-uitwisseling te creëren, waarbij elke stap voortbouwt op de beperkingen van de vorige en deze overtreft.
+Elke fase in de evolutie van geldnetwerken heeft belangrijke verbeteringen teweeg gebracht: draagbaarheid, schaalbaarheid, toegankelijkheid, snelheid, veiligheid en vertrouwen. Munten maakten plaats voor papiergeld vanwege betere draagbaarheid en efficiëntie. Papier evolueerde naar elektronisch geld, wat wereldwijde toegang en directe transacties mogelijk maakte. Nu herdefinieert Bitcoin vertrouwen en veiligheid, en creëert het een open en veerkrachtig monetair systeem. Deze historische ontwikkeling benadrukt de voortdurende drang van de mensheid om betere netwerken voor waarde-uitwisseling te creëren, waarbij elke stap voortbouwt op en de beperkingen van de vorige overstijgt.
 
 Het beste netwerk zal waarschijnlijk winnen.
 
@@ -126,75 +126,70 @@ Betalingssystemen zijn methoden en infrastructuren die de overdracht van geld tu
 
 ### Gebruikelijke betaalmethoden
 
-1. **Cash:** Fysieke valuta die rechtstreeks tussen twee partijen wordt uitgewisseld.
-
-2. **Checks:** Papieren documenten die een bank opdracht geven om een bepaald bedrag van de rekening van de betaler aan de begunstigde te betalen.
-
-3. **Wire Transfers:** Elektronische overdracht van geld tussen banken, vaak gebruikt voor grotere bedragen en grensoverschrijdende betalingen.
-
-4. **Betaalkaarten (Credit/Debit):** Plastic of digitale kaarten die verbonden zijn met een kaartnetwerk, waarmee geld kan worden overgemaakt van de bankrekening (of kredietlijn) van de kaarthouder naar een handelaar.
-
-5. **Digital Wallets & Mobile Payments:** Toepassingen of apparaten die betalingsinformatie opslaan (bijv. Apple Pay, WeChatPay, AliPay, PayPal), waardoor snelle en vaak contactloze overschrijvingen mogelijk zijn.
+1. **Contant geld:** Fysiek geld dat rechtstreeks tussen twee partijen wordt uitgewisseld.
+2. **Cheques:** Papieren documenten die een bank de opdracht geven om een bepaald bedrag van de rekening van de betaler aan de begunstigde te betalen.
+3. **Overschrijvingen (Wire Transfers):** Elektronische overdracht van geld tussen banken, vaak gebruikt voor grotere bedragen en grensoverschrijdende betalingen.
+4. **Betaalkaarten (Creditcard/Debetkaart):** Plastic of digitale kaarten die verbonden zijn met een kaartnetwerk, waarmee geld van de bankrekening (of kredietlijn) van de kaarthouder naar een handelaar of winkelier wordt overgemaakt.
+5. **Digitale Wallets & Mobiele Betalingen:** Toepassingen of apparaten die betalingsinformatie opslaan (bijv. Apple Pay, WeChatPay, AliPay, PayPal), waardoor snelle en vaak contactloze overschrijvingen mogelijk zijn.
 
 **Gebruik in B2C en B2B:**
 
-- B2C (Business-to-Consumer):**
-    - Consumenten gebruiken vaak contant geld, kaarten en digitale portemonnees voor alledaagse aankopen, zoals boodschappen, online winkelen of diensten zoals ride-hailing.
+- **B2C (Business-to-Consumer):**
+    - Consumenten gebruiken vaak contant geld, kaarten en digitale wallets voor alledaagse aankopen, zoals boodschappen, online winkelen of diensten zoals ride-hailing.
     - Snelheid, gemak en lage kosten (voor de consument) zijn vaak belangrijke prioriteiten.
     - Contactloze en mobiele betalingen worden steeds populairder vanwege hun gebruiksgemak.
 
-- B2B (Business-to-Business):**
+- **B2B (Business-to-Business):**
     - Bedrijven vertrouwen vaak op overschrijvingen, cheques en facturatiesystemen om leveranciers te betalen, grote rekeningen te vereffenen of terugkerende betalingen af te handelen.
     - De focus ligt vaak op traceerbaarheid, documentatie en de mogelijkheid om grotere transactiewaarden te verwerken.
     - Kaarten worden wel gebruikt, maar minder vaak vanwege de hogere kosten en transactielimieten. Digitale oplossingen zoals geïntegreerde betalingsplatforms zijn in opkomst om debiteuren- en crediteurenprocessen te stroomlijnen en te automatiseren.
 
 ![BIZ101](assets/en/01.webp)
-
-*Grafisch: Global Trends in Point-of-Sale (POS) Betaalmethoden (2023-2027), The Global Payments Report 2024, Worldpay.*
+*Afbeelding: Global Trends in Point-of-Sale (POS) Payment Methods (2023-2027), The Global Payments Report 2024, Worldpay.*
 
 ### De complexiteit achter een eenvoudige kaartbetaling
 
-Wanneer een klant een creditcard gebruikt in een winkel, wordt de kaart gelezen door de betaalterminal, die de transactiegegevens veilig doorstuurt naar de wervende bank van de winkelier. De wervende bank stuurt deze informatie door naar het relevante kaartnetwerk (bijv. Visa of Mastercard), die het verzoek vervolgens doorstuurt naar de uitgever - de bank die de kaart van de klant heeft verstrekt. De emittent controleert de rekening of kredietlijn van de klant en stuurt een autorisatie terug via het netwerk en de wervende bank, zodat de winkelier de betaling kan accepteren.
+Wanneer een klant een creditcard gebruikt in een winkel, wordt de kaart gelezen door de betaalterminal, die de transactiegegevens veilig doorstuurt naar de wervende bank van de winkelier. De wervende bank stuurt deze informatie door naar het relevante kaartnetwerk (bijv. Visa of Mastercard), die het verzoek vervolgens doorstuurt naar de uitgever - de bank die de kaart van de klant heeft verstrekt. De uitgever controleert de rekening of kredietlijn van de klant en stuurt een autorisatie terug via het netwerk en de wervende bank, zodat de winkelier de betaling kan accepteren.
 
 ![BIZ101](assets/en/02.webp)
 
-Deze ogenschijnlijk eenvoudige transactie omvat in werkelijkheid meer dan 15 stappen, 7 tussenpersonen en het duurt gemiddeld 48 uur tot 5 dagen voordat de merchant het geld ontvangt. In de daaropvolgende dagen vindt een clearing- en afwikkelingsproces plaats. Het kaartnetwerk verzamelt de transacties van de dag en coördineert de uitwisseling van fondsen tussen de acquirer en de emittent. Een centrale bank zorgt voor de nauwkeurigheid en stabiliteit van deze interbancaire verrekeningen. Uiteindelijk ontvangt de bankrekening van de winkelier het nettobedrag (minus vergoedingen) gecrediteerd van de acquirer, waarmee de levenscyclus van de transactie is voltooid.
+Deze ogenschijnlijk eenvoudige transactie omvat in werkelijkheid meer dan 15 stappen, 7 tussenpersonen en het duurt gemiddeld 48 uur tot 5 dagen voordat de handelaar of winkelier het geld ontvangt. In de daaropvolgende dagen vindt een clearing- en afwikkelingsproces plaats. Het kaartnetwerk bundelt de transacties van de dag en coördineert de uitwisseling van geld tussen de acquirer en de issuer. Een centrale bank bewaakt de nauwkeurigheid en stabiliteit van deze interbancaire afwikkelingen. Uiteindelijk wort het nettobedrag (na aftrek van kosten) door de acquirer bijgeschreven op de bankrekening van de handelaar, waarmee de transactieketen wordt voltooid.
 
-Over het geheel genomen is dit proces ingewikkeld, tijdrovend en kostbaar voor wat de eenvoudige handeling van het verplaatsen van waarde van de ene partij naar de andere zou moeten zijn.
+Over het geheel genomen is dit proces complex, tijdrovend en kostbaar voor wat eigenlijk een eenvoudige handeling zou moeten zijn: het overdragen van waarde van de ene partij naar de andere.
 
-### Vergelijking betaalmethoden
+### Vergelijking tussen betaalmethoden
 
-| Payment Method                 | Authorization Needed?           | Transaction Approval Time (Merchant View) | Settlement Speed (Funds Fully Settled)         | Finality (Ease of Reversal)              | Number of Intermediaries       | Typical Fees (to Payee)            |
+| Betaalmethode                 | Authorisatie vereist?           | Goedkeuringstijd transactie (voor handelaar) | Afwikkelingssnelheid (volledig verwerkt)         | Finaliteit (mogelijkheid tot terugdraaien)              | Aantal tussenpersonen       | Typische kosten (voor ontvanger)            |
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-| **Cash**                       | No                              | Immediate (Physical Exchange)             | Immediate (No Settlement Delay)                | High (Irreversible Once Paid)            | None                           | None                               |
-| **Checks**                     | Yes (Bank Clearing)             | Acceptance at Deposit (Not Guaranteed)    | Several Days (Check Clearing Process)          | Medium (Can Bounce/Stop Before Clearing) | Bank                           | **Low to Medium** (Bank Fees)      |
-| **Wire Transfers**             | Yes (Bank/Network)              | Confirmation Within Hours                 | Same-Day or Next-Day (Domestic)                | High (Usually Irreversible Once Sent)    | Banks, Payment Networks        | **Medium**(Fixed/Percentage)       |
-| **Payment Cards**              | Yes (Card Issuer Authorization) | Seconds to Minutes (Authorization Code)   | A Few Days (Interbank Settlement)              | Medium (Chargebacks Possible)            | Issuer, Acquirer, Card Network | **Variable (1-3% of Transaction)** |
-| **Digital Wallets/Mobile Pay** | Yes (Wallet Provider/Bank)      | Seconds (Instant Confirmation)            | Typically 1-2 Days (Depends on Funding Source) | Medium (Refund/Dispute Possible)         | Banks, Wallet Operators        | **Low to Medium (Varies)**         |
+| **Contant geld**                       | Nee                              | Direct (Fysieke uitwisseling)             | Direct (Geen vertraging bij afwikkeling)                | Hoog (Onomkeerbaar zodra betaald)            | Geen                           | Geen                               |
+| **Cheques**                     | Ja (Bank clearing)             | Bij storting geaccepteerd (Niet gegarandeerd)    | Enkele dagen (Clearingproces)          | Middelmatig (Kan bouncen of worden gestopt) | Bank                           | **Laag tot middelmatig** (bankkosten)      |
+| **Overschrijvingen (Wire Transfers)**             | Ja (Bank/Netwerk)              | Bevestiging binnen enkele uren                 | Zelfde dag of volgende dag (binnenlands)                | Hoog (Meestal onomkeerbaar zodra verzonden)    | Banks, betalingsnetwerken        | **Middelmatig**(Vast bedrag of percentage)       |
+| **Betaalkaarten**              | Ja (Autorisatie door kaartuitgever) | Seconden tot minuten (Autorisatiecode)   | Enkele dagen (interbancaire afwikkeling)              | Middelmatig (Terugboekingen mogelijk)            | Uitgever, acquirer, kaartnetwerk | **Variabel (1-3% van transactiebedrag)** |
+| **Digitale wallets / mobiele betalen** | Ja (Wallet provider/Bank)      | Seconden (Directe bevestiging)            | Meestal binnen 1-2 dagen (afhankelijk van de bron) | Middelmatig (Terugbetaling/geschil mogelijk)         | Banken, Wallet-aanbieders        | **Laag tot middelmatig (varieert)**         |
 
 ### Beperkingen van bestaande oplossingen
 
-De traditionele betalingsindustrie vertegenwoordigt een jaarlijkse economie van ongeveer 2.200 miljard dollar, ruwweg een tiende van het BBP van de Verenigde Staten of gelijk aan het BBP van Frankrijk. Omdat valuta's functioneren als netwerken waarvoor toestemming is gegeven, is er beperkte concurrentie, waardoor deze "dienst" meer lijkt op een belasting die wordt opgelegd aan de productieve economie. Naast de kosten die het met zich meebrengt, zijn er nog verschillende andere beperkingen, zoals hieronder beschreven.
+De traditionele betalingsindustrie vertegenwoordigt een jaarlijkse economie van ongeveer 2.200 miljard dollar, ongeveer een tiende van het BBP van de Verenigde Staten, of gelijk aan het BBP van Frankrijk. Omdat valuta's functioneren als gesloten (permissioned) netwerken, is er beperkte concurrentie, waardoor deze "dienst" meer lijkt op een belasting die wordt opgelegd aan de productieve economie. Naast de kosten die het met zich meebrengt, zijn er nog verschillende andere beperkingen, zoals hieronder uiteengezet.
 
-| Limitation                       | Explanation                                                                                                                                                                                                                        | Impact                                                                                               |
+| Beperking                       | Toelichting                                                                                                                                                                                                                        | Impact                                                                                               |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| High Card Fees                   | Interchange fees (~0.3%), network fees (fixed or 0.3%-1%), terminal/PSP subscriptions, and bank margins (0.5%-1.7%) add up to a substantial cost—like a global “tax” on productive sectors, amounting to trillions of dollars.     | Raises merchant costs, reducing margins and potentially driving up consumer prices.                  |
-| Very Slow Final Settlement       | Settlement of funds can take up to 5 days, slowing the flow of money and overall economic activity.                                                                                                                                | Delays liquidity for merchants and reduces the speed of economic circulation.                        |
-| Fraud                            | E-commerce channels are heavily targeted by fraud, contributing to significant losses (e.g., $28 billion). Chargebacks could reach ~$174 billion globally by 2024. Managing these disputes consumes time and causes mental strain. | Increased operational costs, complex fraud prevention measures, and diminished customer trust.       |
-| Cart Abandonment                 | Additional security steps (one-time codes, two-factor authentication under PSD2) introduce friction at checkout.                                                                                                                   | Higher checkout complexity leads to increased cart abandonment and lost sales.                       |
-| High Minimum Transaction Amounts | Minimum spend thresholds on cards can force merchants and consumers into inconvenient pricing or purchase conditions, discouraging small-value transactions.                                                                       | Reduced customer satisfaction and flexibility, potentially limiting impulse or low-value purchases.  |
-| Slow Pre-Authorization           | Current systems cannot handle transactions at millisecond speeds or support continuous, real-time payment flows.                                                                                                                   | Limits use cases that require instant or streaming payments, restricting innovation and scalability. |
-| Need for a Bank/Card Account     | Access to these payment methods requires a linked bank or card account, automatically excluding those without such accounts.                                                                                                       | Limits financial inclusion, reducing access for unbanked or underbanked populations.                 |
-| Repeated Online Account Creation | Users often must create multiple online accounts, leading to fatigue, reduced convenience, and increased exposure of personal data.                                                                                                | Deteriorates user experience, raises privacy concerns, and increases risk of data breaches.          |
-| Foreign Exchange (FX) Fees       | Lack of a universal unit of account forces costly currency conversions for cross-border transactions.                                                                                                                              | Adds extra costs for international commerce, making global transactions less affordable.             |
+| Hoge kaartkosten                   | Interchangekosten (~0.3%), netwerkkosten (vast of 0.3%-1%), terminal-/PSP-abonnementen en bankmarges (0.5%-1.7%) stapelen zich op tot een aanzienlijke kost, vergelijkbaar met een wereldwijde "belasting" op productieve sectoren.     | Verhoogt de kosten voor handelaren en winkeliers, verlaagt de marges en kan consumentenprijzen opdrijven.                  |
+| Zeer trage definitieve afwikkeling       | Het afwikkelen van transacties kan tot 5 dagen duren, wat de geldstroom en economische activiteit vertraagt.  | Vertraging van liquiditeit voor handelaren en winkeliers en zorgt voor tragere economische circulatie.  |
+| Fraude                            | E-commercekanalen zijn een belangrijk doelwit voor fraude, wat leidt tot grote verliezen (bijv. $28 miljard). Terugboekingen zouden wereldwijd ~174 miljard kunnen bereiken tegen 2024. Het beheer van geschillen kost tijd en energie. | Hogere operationele kosten, complexe fraudepreventie en verminderd klantvertrouwen.       |
+| Verlaten winkelwagentjes                 | Extra beveiligingsstappen (eenmalige codes, tweefactorauthenticatie onder PSD2) zorgen voor frictie tijdens het afrekenen.     | Hogere complexiteit leidt to meer afgebroken aankopen en omzetverlies.    |
+| Hoge minimumtransactiebedragen | Minimumbestedingen op kaarten kunnen handelaren, winkeliers en klanten dwingen tot ongemakkelijke prijs- of aankoopvoorwaarden, wat kleine transacties ontmoedigt.    | Verminderde klanttevredenheid en minder flexibiliteit, wat impulsaankopen beperkt.  |
+| Langzame pre-autorisatie           | Huidige systemen kunnen geen transacties op milliseconde-snelheid verwerken of continue, realtime betalingsstromen ondersteunen.    | Beperkte toepassingen die directe of gestreamde betalingen vereisen, wat innovatie en schaalbaarheid belemmert. |
+| Noodzaak van een bank-/kaartrekening     | Toegang tot deze betaalmethoden vereist een gekoppelde bank- of kaartrekening, wat auomatisch mensen zonder dergelijke accounts uitsluit.    | Beperkte financiële inclusie en sluit niet- of onderbankte mensen uit.        |
+| Herhaaldelijk online accounts aanmaken | Gebruikers moeten vaak meerdere online accounts aanmaken, wat leidt tot vermoeidheid, lager gebruiksgemak en meer blootstelling van persoonlijke gegevens.    | Slechte gebruikservaring, privacyzorgen en hoger risico op datalekken.          |
+| Valutawisselkosten (FX)       | Door het ontbreken van een universele rekeneenheid zijn dure valutaomrekeningen nodig bij grensoverstijgende transacties.    | Verhoogt kosten van internationale handel en maakt wereldwijde transacties minder betaalbaar.          |
 
-Net zoals we zijn overgestapt van het betalen per minuut voor telefoongesprekken naar het gebruik van bijna gratis IP-gebaseerde communicatie, kan de opkomst van meer open en efficiënte netwerken betalingen herdefiniëren, kosten en tussenpersonen verminderen en nieuwe bedrijfsmodellen aanmoedigen.
+Net zoals we zijn overgestapt van het betalen per minuut voor telefoongesprekken naar het gebruik van bijna gratis IP-gebaseerde communicatie, kan de opkomst van meer open en efficiënte netwerken betalingen herdefiniëren, wat kosten kan verminderen, het aantal tussenpersonen kan verlagen, en nieuwe bedrijfsmodellen aanmoedigen.
 
-## Bitcoin voor bedrijven: een opkomende valuta
+## Bitcoin voor bedrijven: een opkomende vorm van geld
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**WAT IS Bitcoin?
+**WAT IS BITCOIN?**
 
 Bitcoin is een **peer-to-peer digitaal geld Exchange systeem** (elektronisch geld). De term "Bitcoin" verwijst naar de volgende componenten:
 

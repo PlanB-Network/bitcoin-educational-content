@@ -253,19 +253,20 @@ Alternativement, échangez vos bitcoins onchain ou via le réseau Lightning cont
 
 ## Annexes
 
-### A1. Autres tutoriels Blockstream
+### A1. Autres tutoriels Blockstream App
 
-- Utilisation du réseau Onchain
+Utilisation du réseau Onchain
 
-*En cours de révision*
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-- Importer et suivre un wallet en "Watch Only"
+Importer et suivre un wallet en "Watch Only"
 
-*En cours de révision*
+https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
-- Version Desktop (ordinateur)
+Version Desktop (ordinateur)
 
-*En cours de révision*
+https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+
 
 
 ### A2. Bonnes pratiques

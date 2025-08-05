@@ -284,11 +284,13 @@ Pour ce qui concerne les règles de relais, l’essentiel réside dans le simple
 
 Prenons l’exemple où vous estimez que les transactions dont les frais sont inférieurs à 1 sat/vB devraient être acceptées sur Bitcoin : vous pouvez alors ajuster cette règle sur votre nœud pour qu’il diffuse ces transactions, ce qui facilite ainsi leur propagation sur le réseau jusqu’à ce qu’un mineur les inclue éventuellement dans un bloc valide. Il s’agit donc essentiellement d’un pouvoir sur la diffusion des transactions : chaque nœud détient un pouvoir décisionnel, car accepter de relayer un type de transaction revient à en favoriser l’acceptation sur le réseau Bitcoin. Par conséquent, si vous exploitez plusieurs nœuds, vous bénéficiez d’une influence accrue sur la politique de relais, chaque nœud ayant ses propres connexions et zones d’impact sur le réseau.
 
-En effet, posséder un ou plusieurs nœuds configurés avec des règles de relais spécifiques revient à déterminer quelle part du réseau accepte de propager un type donné de transaction. La diffusion d’un message dans un graphe pair-à-pair, comme c’est le cas pour les transactions sur Bitcoin, suit la logique de la théorie de la percolation. Imaginez chaque nœud comme un site qui peut être actif (`p` = il relaie) ou inactif (`1 – p`). Dès lors que la proportion `p` franchit un seuil critique (`p_c`), une composante géante émerge : la transaction parvient à traverser le réseau et a toutes les chances d’atteindre un mineur. Dans un réseau où chaque nœud entretient en moyenne 8 connexions sortantes, le seuil `p_c` s’établit généralement autour de quelques pourcents seulement, d’autant plus bas si certains nœuds disposent de connexions très nombreuses.
+En effet, posséder un ou plusieurs nœuds configurés avec des règles de relais spécifiques revient à déterminer quelle part du réseau accepte de propager un type donné de transaction. La diffusion d’un message dans un graphe pair-à-pair, comme c’est le cas pour les transactions sur Bitcoin, suit la logique de la théorie de la percolation. Imaginez chaque nœud comme un site qui peut être actif (`p` = il relaie) ou inactif (`1 – p`). Dès lors que la proportion `p` franchit un seuil critique (`p_c`), une composante géante émerge : la transaction parvient à traverser le réseau et a toutes les chances d’atteindre un mineur. Dans un réseau comme Bitcoin où chaque nœud entretient en moyenne 8 connexions sortantes, le seuil `p_c` s’établit généralement autour de quelques pourcents seulement, d’autant plus bas si certains nœuds disposent de connexions très nombreuses.
 
 Le rapport de force autour des règles de relais ne relève donc pas d’un principe "un nœud = un vote", mais bien de la capacité à faire franchir au réseau ce seuil de percolation : tant que `p` demeure inférieur à `p_c`, une transaction reste confinée à des poches isolées et n’atteint pas un mineur ; dès que ce seuil est dépassé, elle se propage presque instantanément à l’ensemble du réseau.
 
-Ajouter quelques nœuds supplémentaires n’aura donc qu’un impact marginal si le réseau est déjà en phase percolante, mais cela peut s’avérer décisif à l’approche du seuil de percolation. Détenir ou influencer plusieurs nœuds, en particulier s’ils sont bien connectés, permet ainsi d’augmenter ou de réduire la valeur de `p` et, par conséquent, d’orienter de facto les règles de relais qui détermineront les transactions vues et acceptées par les mineurs.
+In fine, ce sont toujours les mineurs qui décident d’inclure ou non une transaction dans un bloc. Toutefois, les nœuds interviennent en amont, en influençant la diffusion des transactions : ils déterminent si les mineurs auront connaissance ou non d’une transaction donnée. Si une transaction n’est pas relayée jusqu’aux mineurs, il leur est évidemment impossible de l’intégrer à un bloc.
+
+Ajouter quelques nœuds supplémentaires n’aura donc qu’un impact marginal si le réseau est déjà en phase percolante pour un type de transaction donné, mais cela peut s’avérer décisif à l’approche du seuil de percolation. Détenir ou influencer plusieurs nœuds, en particulier s’ils sont bien connectés, permet ainsi d’augmenter ou de réduire la valeur de `p` et, par conséquent, d’orienter de facto les règles de relais qui détermineront les transactions vues et éventuellement acceptées par les mineurs.
 
 #### Pour les règles de consensus
 
@@ -299,6 +301,8 @@ Prenons l’exemple d’un village où de nombreux commerçants acceptent l’or
 Cette notion est fondamentale pour appréhender les rapports de force à l’œuvre dans le système Bitcoin. Satoshi le précise : Bitcoin est un système de cash électronique, autrement dit il rend le service de proposer une forme de monnaie, le bitcoin (ou BTC). Lorsque les règles du protocole sont modifiées de façon non rétrocompatible (hard fork), cela revient à créer un nouveau système et donc une nouvelle monnaie. Le succès ou l’échec de ce fork dépend alors de la taille de son économie, qui est elle-même déterminée par le nombre de commerçants acceptant cette nouvelle forme de monnaie.
 
 Prenons un exemple : supposons que Bitcoin subisse un hard fork. Il existerait alors deux formes de monnaies distinctes : BTC-1 (la version originelle, inchangée) et BTC-2 (la nouvelle monnaie avec des règles de consensus différentes). Si l’ensemble des commerçants qui acceptaient BTC-1 continuent à le faire, mais refusent le BTC-2, alors ce dernier n’aura, en théorie, qu’une utilité monétaire très limitée. En tant qu’utilisateur, je n’aurais aucun intérêt à conserver et utiliser du BTC-2, sachant qu’aucun commerçant n’en voudra en échange de biens ou de services. À l’inverse, si 50 % des commerçants choisissent d’accepter exclusivement le BTC-2 et les 50 % restants ne prennent que le BTC-1, alors l'utilité du BTC-1 aura, en théorie, diminué de moitié. J’emploie le terme "en théorie", car l’utilité demeure subjective au niveau individuel, et dépend d’une multitude de facteurs (territoire, habitudes de consommation, etc.) difficiles à appréhender au cas par cas.
+
+Sur Bitcoin, le rôle de "commerçant", entendu comme toute entité disposant d’un certain poids économique, englobe bien sûr les commerces (boutiques physiques, sites de vente en ligne, prestataires de services…), mais aussi les plateformes d’échange, puisqu’elles acceptent le bitcoin en contrepartie d’autres monnaies, ainsi que les mineurs, car ils acceptent le bitcoin via les frais en échange du service d’inclure une transaction dans un bloc.
 
 Concernant les règles de consensus, votre nœud vous permet donc d’orienter votre activité économique vers telle ou telle monnaie. Par exemple, si vous possédez 10 nœuds complets chez vous, mais n’exercez aucune activité économique significative, votre influence lors d’un fork sera quasi nulle. À l’inverse, un seul nœud utilisé pour gérer une chaîne de 50 magasins qui acceptent le bitcoin confère un poids économique important.
 
@@ -420,6 +424,199 @@ Lancez Balena Etcher et sélectionnez le fichier ISO `umbrelos-amd64-usb-install
 Une fois l’opération terminée, vous disposerez d’une clé USB bootable contenant UmbrelOS, prête à être utilisée pour démarrer et installer Umbrel sur votre machine.
 
 005
+
+### Étape 3 : Démarrer l'ordinateur depuis la clé USB
+
+Maintenant que votre clé USB bootable contenant UmbrelOS est prête, vous allez pouvoir démarrer votre ordinateur dessus pour lancer l’installation du système. Débranchez la clé USB de votre ordinateur principal et insérez-la dans l’appareil sur lequel vous souhaitez installer Umbrel.
+
+Comme expliqué au début de ce chapitre, pour effectuer l’installation, vous aurez besoin d’un affichage et d’un périphérique d’entrée. Branchez un écran via HDMI (ou autre port en fonction de votre PC) et connectez un clavier en USB à votre machine. Ces périphériphériques sont uniquementn nécessaires pour l'instlation, vous n'en n'aurez plus besoin après puisque nous nous connecterons à Umbrel à distance depuis un autre PC. Branchez ces 2 périphériques à votre PC.
+
+**Conseil :** Si vous ne disposez pas d'écran périphérique chez vous, vous pouvez utiliser votre téléviseur. Avec son entrée HDMI (ou autre), il peut parfaitement faire office d’écran temporaire le temps d'installer le système d’exploitation.
+
+Umbrel nécessite évidemment une connexion internet. Branchez donc le câble Ethernet RJ45 entre votre appareil et votre routeur.
+
+006
+
+Allumez votre machine. Dans la majorité des cas, celle-ci devrait automatiquement détecter la clé USB et démarrer dessus. Vous verrez alors l’interface d’installation d’UmbrelOS apparaître à l’écran.
+
+Si l’appareil démarre sur un autre système ou affiche un message d’erreur, cela signifie probablement qu’il ne boote pas automatiquement depuis la clé USB. Dans ce cas, redémarrez-le et entrez dans les paramètres du BIOS/UEFI (généralement en appuyant sur `DEL`, `F2`, `F12` ou `ESC` selon le fabricant de l'ordinateur), puis modifiez l’ordre de démarrage pour donner la priorité à la clé USB. Redémarrez ensuite l’appareil pour lancer UmbrelOS.
+
+### Étape 4 : Installer UmbrelOS sur l'ordinateur
+
+Une fois que l’appareil a démarré depuis la clé USB, vous allez être accueilli par l’interface d’installation d’UmbrelOS. Cette étape consiste à installer le système directement sur le disque interne de votre machine.
+
+L’écran qui s’affiche liste tous les périphériques de stockage internes détectés par l’ordinateur. Chaque disque est accompagné d’un numéro, d’un nom et d’une capacité de stockage. Repérez le disque sur lequel vous souhaitez installer Umbrel. **Attention : tous les fichiers présents sur ce disque seront définitivement effacés.**
+
+007
+
+Une fois que vous avez identifié le bon disque (normalement, c'est celui qui dispose de la plus grande capacité pour accueillir la blockchain), notez le chiffre qui lui est associé. Par exemple, si le disque que vous avez choisi est listé sous le numéro `2`, tapez simplement `2`, puis appuyez sur la touche `Enter` du clavier.
+
+008
+
+Le programme va formater le disque sélectionné, y installer UmbrelOS et configurer automatiquement le système. Cette étape peut durer quelques minutes. Laissez le processus se dérouler sans interruption.
+
+009
+
+Lorsque l’installation est terminée, un message vous invite à éteindre l’appareil. Appuyez sur n’importe quelle touche pour arrêter l’ordinateur.
+
+010
+
+Vous pouvez maintenant retirer la clé USB, le clavier et l’écran. Vous n’en aurez plus besoin pour utiliser Umbrel. Votre noeud ne doit donc avoir en connexion plus que l'alimentation électrique et le cable ethernet RJ45.
+
+011
+
+Avant de redémarrer l’appareil, vérifiez les deux points suivants :
+
+- **La clé USB est bien débranchée** : si elle reste connectée, le système pourrait redémarrer dessus au lieu du disque interne ;
+- **Le câble Ethernet est branché** : l’appareil doit être connecté à votre routeur pour fonctionner.
+
+Appuyez sur le bouton d’alimentation. Le système démarre automatiquement depuis le disque interne où UmbrelOS a été installé. Le premier démarrage peut prendre environ **5 minutes**. Pendant ce temps, Umbrel initialise ses services et son interface.
+
+Depuis un autre ordinateur (votre PC du quotidien) connecté au **même réseau local**, ouvrez un navigateur web (firefox, chrome...) et rendez-vous sur :
+
+```
+http://umbrel.local
+```
+
+Cette adresse permet d’accéder à l’interface graphique d’Umbrel à distance pour commencer la configuration.
+
+Si l’adresse `http://umbrel.local` ne fonctionne pas sur votre navigateur après avoir attendu au moins 5 minutes, essayez simplement :
+
+```
+http://umbrel
+```
+
+Si cela ne fonctionne toujours pas, vous pouvez entrer l’adresse IP locale de votre Umbrel directement dans le navigateur, par exemple (remplacez `42` par le numéro de votre machine qui héberge Umbrel sur votre réseau local) :
+
+```
+http://192.168.1.42
+```
+
+Pour trouver l'adresse IP de votre Umbrel, il y a plusieurs solutions (de la plus simple à la plus complexe) :
+
+- Ouvrir l’interface d’administration de votre routeur et chercher l’adresse IP de l’appareil Umbrel sur le réseau local.
+
+- Utiliser un logiciel de scan réseau comme Angry IP Scanner pour détecter les appareils connectés au réseau et trouver l'adresse IP de votre Umbrel.
+
+012
+
+https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+
+- En dernier recours, rebranchez un écran et un clavier sur l’appareil, connectez-vous (identifiant par défaut : `umbrel`, mot de passe : `umbrel`), puis tapez la commande suivante :
+
+```
+hostname -I
+```
+
+Vous êtes maintenant prêt à utiliser Umbrel !
+
+### Étape 5 : prise en main d'Umbrel
+
+Pour commencer la configuration de votre Umbrel, cliquez sur le bouton "*Start*".
+
+013
+
+#### Créer un compte
+
+Choisissez un pseudo ou bien renseignez votre nom, puis choisissez un mot de passe fort. Attention, ce mot de passe est le seul rempart bloquant l'accès à votre Umbrel depuis votre réseau (et donc potentiellement à vos bitcoins si vous utilisez un noeud Lightning). Il bloque également l'accès à distance via Tor ou VPN si activé.
+
+Choisissez donc un mot de passe fort, et surtout, faites en une ou plusieurs sauvegardes (gestionnaire de mot de passe).
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
+Un fois le mot de passe renseigné, cliquez sur le bouton "*Create*".
+
+014
+
+La configuration de votre Umbrel est terminée.
+
+015
+
+#### Découverte de l'interface
+
+L'interface d'Umbrel est relativement simple :
+
+- Sur la page d'accueil, vous trouverez vos applications installées et vos widgets ;
+
+016
+
+- L'"*App Store*" vous permet d'installer de nouvelles applications ;
+
+017
+
+- Dans le menu "*Files*", vous retrouverez tous les documents stockés sur votre Umbrel ;
+
+018
+
+- Le menu "*Settings*" vous permet de modifier les paramètres de votre Umbrel et de voir ses informations, notamment :
+	- Mettre à jour, Redémarrer ou arrêter Umbrel ;
+	- Voir le stockage disponible, l'utilisaiotn de la RAM ou encore la température du processeur ;
+	- Changer le fond d'écran ;
+	- Vous pouvez également gérer ici l'accès à distance via Tor, activer le Wi-Fi ou encore activer le 2FA.
+
+019
+
+#### Paramètres de sécurité et de connexion
+
+Avant de commencer, je vous conseille fortement d'activer le 2FA. Cela vous permettra d'ajouter une couche supplémentaire de sécurité en plus de votre mot de passe. Cette étape est presque indispensable si vous prévoyez d'utiliser votre Umbrel pour stocker des fichiers personnels, pour faire tourner un noeud Lightning, ou toute autre utilisation sensible.
+
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+Pour ce faire, cliquez sur la coche correspodnante dans les apramètres.
+
+020
+
+Puis scannez le QR code affiché à l'aide de votre application. Enfin, renseignez le code dynamique à 6 chiffres dans les cases correpsodnantes sur votre Umbrel.
+
+Dorénavant, à chaque nouvelle connexion à votre Umbrel, vous devrez renseigner à la fois le mot de passe et le code à 6 chiffres affiché sur votre application de 2FA.
+
+021
+
+Ensuite, en ce qui concerne l'accès à distance via Tor, si vous n'en n'avez pas besoin, je vous conseille de le laisser désactiver pour réduire la surface d'attaque de votre Umbrel. En effet, pour le moment, votre noeud est uniquement accessible via une machine connectée au même réseau. Activer l'accès via Tor vous permet de gérer votre Umbrel si vous êtes en déplacement.
+
+Si vous activez cette option, il sera possible pour n'importe quelle machine dans le monde de tenter de se connecter à votre noeud, pourvue qu'elle connaisse l'adresse Tor, mais vous serez toujours protégé par votre mot de passe et votre 2FA.
+
+Si vous activez cette option, vérifiez que vous avez bien activé le 2FA, que vous disposez d'un mot de passe fort, et ne divulguez à personne l'adresse Tor de connexion.
+
+Ensuite, il vous suffira de rentrez l'adresse Tor de connexion sur Tor Browser, et vous pourrez accéder à votre interface Umbrel depuis n'importe quel réseau.
+
+.... Image Tor + conneixon wifi
+
+
+### Étape 6 : installer un nœud Bitcoin sur Umbrel
+
+MAintenant qu'UmbrelOS est bien installé et configuré sur votre machine, vous allez pouvoir installer votre noeud Bitcoin. Pour ce faire, c'est très simple, rendez-vous sur l'App Store, dans le menu "*Bitcoin*", et cliquez sur l'application "*Bitcoin Node*" (qui en réalité est Bitcoin Core).
+
+022
+
+Puis, cliquez sur le bouton "*Install*".
+
+023
+
+Une fois l'instaltion terminée, votre noeud Bitcoin va commencer son IBD (*Initial Block Download*), c'est à dire qu'il va télécharger et vérifier toutes les transactions et tous les blocks depuis le lancement de Bitcoin en 2009.
+
+024
+
+Cette étape est très longue. Sa durée va dépendre de plusieurs paramètres, notamment la RAM que vous allouez au cache du noeud, la vitesse de votre disque, votre connexion internet ou encore la performance de votre processeur. La fourchette est donc très large. Si vous avez un PC très performant avec un SSD NVMe 32 Go de RAM et un CPU puissant, l'IBD peut se faire en une grosse dizaine d'heure. Si vous avez un vieux processeur peu performant, peu de RAM, ou encore pire, un HDD (vivement déconseillé) cela peut prendre plusieurs semaines.
+
+Si comme moi, vous avez juste un PC normal, avec un processeur pas trop vieux mais pas ultra puissant, 8 à 16 Go de RAM et un SSD, comptez environ 3 à 7 jours.
+
+Si vous souhaitez accélérer légèrement l'IBD et que vous avez suffisament de RAM, vous pouvez allouer plus de RAM au cache de votre noeud (notamment l'UTXO set), via le paramètre `dbcache`. Sur Umbrel pour le modifier, il suffit de se rendre dans les apramètre du noeud dans l'onglet "Optimization".
+
+025
+
+Par défaut, la valeur de Bitcoin Core est de 450 MiB, ce qui équivaut à environ 472 Mo. En augmentant cette valeur, vous pouvez légèrement accélérer l'IBD. Toutefois, je ne vous conseille pas forcément de le faire, car même en passant ce paramètre à 4 Go, la synchronisation serait seulement 10% plus rapide, mais cela peut vous faire perdre plus de temps en cas d'intéruption durant l'IBD.
+
+Attention également à ne pas mettre ce paramètre trop haut, car votre noeud pourrait crash si jamais la RAM disponible pour UmbrelOS n'est plus suffisante, et dans ce cas, votre IBD serait intérompue et devrait être relancée manuellement, ce qui peut vous faire perdre beaucoup de temps.
+
+
+
+
+
+
+
 
 
 

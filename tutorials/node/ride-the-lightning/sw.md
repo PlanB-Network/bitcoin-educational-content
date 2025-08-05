@@ -9,35 +9,35 @@ description: Tumia Ride The Lightning (RTL) kudhibiti eneo lako la Umeme
 
 
 
-**Ride The Lightning (RTL)** ni programu kamili ya wavuti ya Interface ya kudhibiti nodi ya Lightning Network. Programu hii ya wavuti inayojiendesha yenyewe hutoa "cockpit" ya Umeme** inayopatikana kutoka kwa kivinjari chako. RTL hufanya kazi na utekelezaji wote mkuu wa Umeme (LND, Core Lightning/CLN na Eclair) na hukupa udhibiti kamili wa nodi na chaneli zako. Chanzo-wazi (leseni ya MIT) na bila malipo, RTL imeunganishwa kwa chaguo-msingi katika suluhu nyingi za nodi za turnkey (RaspiBlitz, MyNode, Umbrel, nk.).
+**Ride The Lightning (RTL)** ni programu kamili ya wavuti ya Interface ya kudhibiti nodi ya Lightning Network. Programu hii ya wavuti inayojiendesha yenyewe hutoa **"cockpit" ya Umeme** inayopatikana kutoka kwa kivinjari chako. RTL hufanya kazi na utekelezaji wote mkuu wa Umeme (LND, Core Lightning/CLN na Eclair) na hukupa udhibiti kamili wa nodi na chaneli zako. Chanzo-wazi (leseni ya MIT) na bila malipo, RTL imeunganishwa kwa chaguo-msingi katika suluhu nyingi za nodi za turnkey (RaspiBlitz, MyNode, Umbrel, nk.).
 
 
 
-**Bila Interface ya picha, nodi za Umeme zinaweza kudhibitiwa tu kupitia amri za CLI zinazofaa mtumiaji. RTL hurahisisha shughuli hizi kwa kutumia Interface ya ergonomic. Hapa kuna **matumizi makuu**:
-
-
-
-
-
-- Tazama vituo na nodi zako** - Dashibodi inaonyesha salio la On-Chain, ukwasi wa umeme (ya karibu/mbali), hali ya ulandanishi, lakabu za nodi na zaidi. Unaweza kutazama orodha ya kituo chako, uwezo, usambazaji wa ndani/mbali na hali. RTL hutoa dashibodi zinazozingatia muktadha ili kuchanganua shughuli kutoka pembe tofauti.
+**Bila Interface ya picha**, nodi za Umeme zinaweza kudhibitiwa tu kupitia amri za CLI zinazofaa mtumiaji. RTL hurahisisha shughuli hizi kwa kutumia Interface ya ergonomic. Hapa kuna **matumizi makuu**:
 
 
 
 
 
-- Udhibiti wa njia za umeme** - Fungua/funga chaneli kwa mibofyo michache. RTL hukuruhusu kuungana na mwenzi wako na kufungua kituo bila amri. Unaweza kurekebisha ada za uelekezaji, kuangalia alama ya salio, au kuanzisha salio la mduara ili kusawazisha fedha kati ya vituo.
+- **Tazama vituo na nodi zako** - Dashibodi inaonyesha salio la On-Chain, ukwasi wa umeme (ya karibu/mbali), hali ya ulandanishi, lakabu za nodi na zaidi. Unaweza kutazama orodha ya kituo chako, uwezo, usambazaji wa ndani/mbali na hali. RTL hutoa dashibodi zinazozingatia muktadha ili kuchanganua shughuli kutoka pembe tofauti.
 
 
 
 
 
-- Fuatilia na ufanye malipo** - RTL hudhibiti miamala ya umeme: tuma malipo kupitia ankara, ankara za generate za kupokea, fuatilia miamala (malipo, uelekezaji) na historia ya kina. Interface pia huchanganua uelekezaji ili kuona ni malipo gani yanapitia nodi yako.
+- **Udhibiti wa njia za umeme** - Fungua/funga chaneli kwa mibofyo michache. RTL hukuruhusu kuungana na mwenzi wako na kufungua kituo bila amri. Unaweza kurekebisha ada za uelekezaji, kuangalia alama ya salio, au kuanzisha salio la mduara ili kusawazisha fedha kati ya vituo.
 
 
 
 
 
-- Usimamizi na uhifadhi wa Wallet On-Chain** - Kichupo cha On-Chain hukuwezesha anwani za generate na kutuma miamala. RTL hurahisisha kuhifadhi chaneli kwa kusafirisha faili ya SCB ya LND, ikiwa na sasisho la kiotomatiki kwa kila urekebishaji wa kituo.
+- **Fuatilia na ufanye malipo** - RTL hudhibiti miamala ya umeme: tuma malipo kupitia ankara, ankara za generate za kupokea, fuatilia miamala (malipo, uelekezaji) na historia ya kina. Interface pia huchanganua uelekezaji ili kuona ni malipo gani yanapitia nodi yako.
+
+
+
+
+
+- **Usimamizi na uhifadhi wa Wallet On-Chain** - Kichupo cha On-Chain hukuwezesha anwani za generate na kutuma miamala. RTL hurahisisha kuhifadhi chaneli kwa kusafirisha faili ya SCB ya LND, ikiwa na sasisho la kiotomatiki kwa kila urekebishaji wa kituo.
 
 
 
@@ -103,7 +103,7 @@ Usakinishaji wa kibinafsi unafaa ikiwa ungependa kuweka udhibiti ulioboreshwa, a
 
 
 
-**Sharti:** hakikisha kuwa una nodi **iliyosawazishwa** ya Bitcoin na nodi ya Umeme inayofanya kazi (LND, CLN au Eclair) kwenye mashine. RTL haina nodi ya Umeme kwa kila sekunde, inaunganisha kwa nodi iliyopo. Pia unahitaji **Node.js** kusakinishwa (toleo la 14+ linapendekezwa). Unaweza kuangalia na `node -v` au kusakinisha Node kutoka kwa tovuti rasmi (https://nodejs.org/en/download/) au msimamizi wa kifurushi chako.
+**Sharti:** hakikisha kuwa una nodi **iliyosawazishwa** ya Bitcoin na nodi ya Umeme inayofanya kazi (LND, CLN au Eclair) kwenye mashine. RTL haina nodi ya Umeme kwa kila sekunde, inayounganisha kwa nodi iliyopo. Pia unahitaji **Node.js** kusakinishwa (toleo la 14+ linapendekezwa). Unaweza kuangalia na `node -v` au kusakinisha Node kutoka kwa tovuti rasmi (https://nodejs.org/en/download/) au msimamizi wa kifurushi chako.
 
 
 
@@ -142,9 +142,9 @@ Amri hii husakinisha vifurushi muhimu vya NPM (kupuuza utegemezi wa maendeleo). 
 
 
 
-   - Nenosiri la UI**: chagua nenosiri salama na uliweke katika `multiPass` (badala ya `"nenosiri"` chaguo-msingi).
-   - Mlango**: chaguo-msingi `3000`. Unaweza kuibadilisha ikiwa mlango huu tayari umechukuliwa kwenye mashine yako.
-   - Nodi**: katika sehemu ya `nodi[0]`, rekebisha vigezo vya nodi yako:
+   - **Nenosiri la UI**: chagua nenosiri salama na uliweke katika `multiPass` (badala ya `"nenosiri"` chaguo-msingi).
+   - **Mlango**: chaguo-msingi `3000`. Unaweza kuibadilisha ikiwa mlango huu tayari umechukuliwa kwenye mashine yako.
+   - **Nodi**: katika sehemu ya `nodi[0]`, rekebisha vigezo vya nodi yako:
      - `lnNode`: jina la maelezo la nodi yako (k.m. `"LND Node Maison"`).
      - lnUtekelezaji`: `"LND"` (au `"CLN"`/`"ECL"` inavyofaa).
      - Chini ya `uthibitishaji`:
@@ -270,8 +270,8 @@ Ukitumia [Umbrel](https://getumbrel.com), usakinishaji wa RTL ni rahisi zaidi:
 
 
 
-- Ride The Lightning** (kwa LND): kwa matumizi na nodi chaguo-msingi ya Umeme ya Umbrel (LND).
-- Panda Umeme (Umeme wa Msingi)**: tumia tu ikiwa umesakinisha programu ya *Umeme wa Msingi* kwenye Umbrel na ungependa kudhibiti nodi hii kwa RTL.
+- **Ride The Lightning** (kwa LND): kwa matumizi na nodi chaguo-msingi ya Umeme ya Umbrel (LND).
+- **Panda Umeme (Umeme wa Msingi)**: tumia tu ikiwa umesakinisha programu ya *Umeme wa Msingi* kwenye Umbrel na ungependa kudhibiti nodi hii kwa RTL.
 
 
 
@@ -548,7 +548,7 @@ Mchakato huu hauzuiliwi, huku Boltz akiwa hashiki pesa za mtumiaji.
 
 
 
-Swap In, kwa upande mwingine, inaruhusu fedha za On-Chain kurejeshwa kwenye Lightning Network. Hii ni muhimu sana kwa kurejesha uwezo wa kutoa matokeo kwenye chaneli zako. Utaratibu ni kama ifuatavyo:
+Swap In, kwa upande mwingine, inaruhusu fedha za On-Chain kurejeshwa kwenye Lightning Network. Hii ni muhimu sana kwa kurejesha uwezo wa kutoa matokeo kwenye chaneli zako. Utaratibu ni kama ufuatao:
 
 
 
@@ -639,9 +639,9 @@ Usiwahi kufichua RTL moja kwa moja kwenye Mtandao. Toa upendeleo kwa:
 
 
 
-- VPN** (k.m. Tailscale) kwa ufikiaji wa faragha, uliosimbwa
-- Tor** kwa ufikiaji salama, usiojulikana
-- Badilisha HTTPS ya seva mbadala** (Nginx/Caddy) ikiwa tu unajua jinsi ya kuisanidi
+- **VPN** (k.m. Tailscale) kwa ufikiaji wa faragha, uliosimbwa
+- **Tor** kwa ufikiaji salama, usiojulikana
+- **Badilisha HTTPS ya seva mbadala** (Nginx/Caddy) ikiwa tu unajua jinsi ya kuisanidi
 
 
 
@@ -653,11 +653,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Linda ufikiaji wako**: usishiriki kamwe admin.macaroon au nenosiri lako la RTL. Weka kikomo ruhusa kwenye faili nyeti.
-- Hifadhi rudufu za mara kwa mara**: hamisha faili ya chelezo ya kituo (SCB) baada ya kila urekebishaji na uihifadhi nje ya nodi.
-- Masasisho**: sasisha RTL, nodi yako na Umbrel na masahihisho mapya zaidi ya usalama.
-- Usiri**: ficha kumbukumbu na picha za skrini kabla ya kuzishiriki. Kamwe usishiriki salio lako au orodha za wenzako hadharani.
-- Ufikiaji mmoja**: RTL sio watumiaji wengi. Usishiriki ufikiaji wa msimamizi. Kwa ufikiaji wa kusoma tu, tumia macaroon maalum ikiwa ni lazima.
+- **Linda ufikiaji wako**: usishiriki kamwe admin.macaroon au nenosiri lako la RTL. Weka kikomo ruhusa kwenye faili nyeti.
+- **Hifadhi rudufu za mara kwa mara**: hamisha faili ya chelezo ya kituo (SCB) baada ya kila urekebishaji na uihifadhi nje ya nodi.
+- **Masasisho**: sasisha RTL, nodi yako na Umbrel na masahihisho mapya zaidi ya usalama.
+- **Usiri**: ficha kumbukumbu na picha za skrini kabla ya kuzishiriki. Kamwe usishiriki salio lako au orodha za wenzako hadharani.
+- **Ufikiaji mmoja**: RTL sio watumiaji wengi. Usishiriki ufikiaji wa msimamizi. Kwa ufikiaji wa kusoma tu, tumia macaroon maalum ikiwa ni lazima.
 
 
 

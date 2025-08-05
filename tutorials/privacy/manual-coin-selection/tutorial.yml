@@ -1,0 +1,27 @@
+id: 83dceab4-6615-4b09-b284-05f413fad1ab
+
+# Project
+# Write the project name
+# project_id: uuid_of_the_project_author_of_tutorial
+
+level: intermediate
+
+category: on-chain
+
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
+tags:
+  - cypherpunk
+  - personal-security
+  - onchain
+
+credit_link: https://officinebitcoin.it/lezioni/coinco/
+
+original_language: en
+proofreading:
+  - language: it
+    last_contribution_date: 2025-07-21
+    urgency: 1 # default value
+    contributor_names:
+      - f205sats
+    reward: 1 # default value

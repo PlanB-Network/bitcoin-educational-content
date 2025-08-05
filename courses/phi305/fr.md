@@ -134,7 +134,6 @@ Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est 
 
 :::video id=065c5091-69e1-412f-acce-c763ec31d3b1:::
 
-
 Je vous propose dans ce chapitre de découvrir à présent l’œuvre majeure de Spinoza, intitulée Éthique, publiée à titre posthume, en 1677.
 
 ![image](./assets/fr/2.1.1.webp)
@@ -190,6 +189,7 @@ Autrement dit, « à lutter pour leur servitude comme s’ils luttaient pour l
 
 
 Après l’Éthique, je souhaite dans ce chapitre vous présenter une autre œuvre majeure pour comprendre toute l’influence philosophique et politique de Spinoza, notamment sur les Lumières à venir et sur les courants libéraux et, pour ce qui nous concerne, libertariens. 
+
 Il s’agit du Traité théologico-politique, dit le TTP, publié anonymement en 1670. 
 
 ![image](./assets/fr/2.2.1.webp)
@@ -243,7 +243,6 @@ C’est pourquoi le 18e siècle des Lumières, grâce à l’exercice de la rais
 
 :::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
 
-
 Je vous propose à présent dans ce chapitre de faire un peu d’histoire des idées et de comprendre pourquoi le spinozisme est considéré comme une véritable révolution copernicienne des idées.
 
 Grâce à ce nouveau mode de compréhension de Dieu, autrement dit de la Nature, que lui offraient les mathématiques et dont la pensée enthousiaste est au fond le résultat de son époque, Spinoza (1632-1670) a établi un profond changement de paradigme, de modèle, avec des implications indirectes sur la vision religieuse du monde et la place de l’homme dans celui-ci. 
@@ -289,7 +288,6 @@ Autrement dit qu’ils seraient doués du libre arbitre, une croyance illusoire 
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
 
 :::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
-
 
 Dans ce cours, nous allons à présent évoquer la question délicate du libre arbitre afin de mieux saisir ce qu’est la liberté pour Spinoza, pour les Lumières et les premiers philosophes libéraux.
 
@@ -401,13 +399,10 @@ Or, il apparaît très clairement qu’à partir du moment où un religieux ou u
 Merci de votre attention et je vous retrouve dans le prochain chapitre.
 
 
-
-
 ## L’illusion théologique
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
 
 :::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
-
 
 Dans ce dernier chapitre sur la nouvelle vision copernicienne des idées que nous offre le spinozisme, nous allons enfin évoquer la troisième illusion que présente Spinoza (1632-1677) dans son œuvre, l’Éthique.
 

@@ -671,7 +671,7 @@ Một ví nóng cho việc tích lũy nhanh chóng
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
@@ -689,7 +689,7 @@ Một sàn giao dịch hỗ trợ DCA để tích lũy bitcoin.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 Những người theo chiến lược này cũng có thể, tất nhiên, sử dụng một môi giới để mua số lượng lớn trong một lần như một hodler, nhưng nói chung, stacking là khái niệm về việc thường xuyên thêm sats vào ví của họ. Một cách tiếp cận phổ biến hơn sẽ là học cách sử dụng Bitcoin theo cách ngang hàng và do đó mua bitcoin trực tiếp bằng tiền mặt với bạn bè hoặc các thành viên của cộng đồng Bitcoin.
 
@@ -1042,4 +1042,5 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 

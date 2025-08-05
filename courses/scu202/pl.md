@@ -1062,7 +1062,7 @@ Opracowany przez Canonical i wprowadzony na rynek w 2004 roku, Ubuntu jest jedn�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Wprowadzony na rynek w 2006 roku Linux Mint to dystrybucja wywodząca się z Ubu
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint wyróżnia się prostotą, domyślną obecnością kodeków multimedialnych i dobrze zaprojektowanym narzędziem do aktualizacji. Z drugiej strony, w dużym stopniu opiera się na infrastrukturze Ubuntu, co czyni ją zależną od technicznych wyborów Ubuntu (szczególnie na poziomie jądra i repozytorium). Mint jest szczególnie odpowiedni dla użytkowników nietechnicznych lub tych, którzy chcą gotowego do użycia systemu, który nie wymaga zbyt wiele nauki.
 
@@ -1246,7 +1246,7 @@ Tails to oparta na Debianie dystrybucja live skoncentrowana na prywatności. Wsz
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → Uwaga:** Dystrybucja Live to system operacyjny Linux, który może być używany bezpośrednio z pamięci USB lub płyty CD, bez instalacji na dysku Hard.
 
@@ -6659,7 +6659,7 @@ GrapheneOS nie zawiera żadnych zastrzeżonych komponentów. Możesz dodawać us
 Graphene jest kompatybilny tylko z najnowszymi Google Pixel (Pixel 6, 7, 8 i 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

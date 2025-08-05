@@ -49,7 +49,7 @@ Blockstream Green obsługuje również Liquid Network i właśnie tego dowiemy s
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -320,4 +320,4 @@ Jeśli ten poradnik okazał się przydatny, będę wdzięczny za pozostawienie p
 Polecam również zapoznanie się z innym obszernym samouczkiem na temat aplikacji mobilnej Blockstream Green, aby skonfigurować onchain Bitcoin Hot Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143

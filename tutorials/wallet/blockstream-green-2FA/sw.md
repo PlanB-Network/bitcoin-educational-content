@@ -4,12 +4,15 @@ description: Kuweka 2/2 Multisig kwenye Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Kumbuka:** Kuanzia Mei 2025, haitakuwa tena inawezekana kuanzisha akaunti mpya zilizo na ulinzi wa uthibitishaji wa hatua mbili (2FA). Kipengele hiki kinapatikana tu kwa watumiaji waliokuwa tayari wamewasha aina hii ya akaunti awali.*
+
+___
 
 Software Wallet ni programu iliyosakinishwa kwenye kompyuta, simu mahiri au kifaa kingine kilichounganishwa kwenye Mtandao, kukuwezesha kudhibiti na kulinda funguo zako za Bitcoin Wallet. Tofauti na pochi za vifaa, ambazo hutenga funguo za kibinafsi, pochi za "Hot" kwa hivyo hufanya kazi katika mazingira ambayo yanaweza kukabiliwa na mashambulizi ya mtandao, na hivyo kuongeza hatari ya uharamia na wizi.
 
-
 Pochi za programu zinapaswa kutumiwa kudhibiti viwango vya kuridhisha vya bitcoins, haswa kwa shughuli za kila siku. Wanaweza pia kuwa chaguo la kuvutia kwa watu walio na mali chache za Bitcoin, ambao uwekezaji wao katika Hardware Wallet unaweza kuonekana usio na uwiano. Hata hivyo, utumiaji wao wa mara kwa mara kwenye Mtandao huwafanya wasiwe na usalama mdogo wa kuhifadhi akiba yako ya muda mrefu au pesa nyingi. Kwa hili la mwisho, ni bora kuchagua suluhu zilizo salama zaidi, kama vile pochi za maunzi.
-
 
 Katika somo hili, nitakuonyesha jinsi ya kuboresha usalama wa Hot Wallet kwa kutumia chaguo la "*2FA*" kwenye Blockstream Green.
 

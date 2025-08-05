@@ -49,7 +49,7 @@ Blockstream Green, Liquid Network को भी सपोर्ट करता 
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -320,4 +320,4 @@ Green तब आपके Wallet में पहला रिक्त प्�
 मैं यह भी सुझाव देता हूं कि आप ऑनचेन Bitcoin Hot Wallet सेट अप करने के लिए Blockstream Green मोबाइल ऐप पर इस अन्य व्यापक ट्यूटोरियल को देखें:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143

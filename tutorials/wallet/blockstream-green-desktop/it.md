@@ -18,7 +18,7 @@ Green è un'applicazione molto semplice da usare, particolarmente adatta ai prin
 
 In questo tutorial ci concentreremo esclusivamente sull'utilizzo del software sul computer. Per esplorare altri usi di Green, consultate le altre esercitazioni dedicate:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -146,4 +146,5 @@ Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verd
 
 Vi consiglio anche di dare un'occhiata a quest'altro tutorial completo sull'applicazione mobile Blockstream Green per la creazione di un portafoglio caldo:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+

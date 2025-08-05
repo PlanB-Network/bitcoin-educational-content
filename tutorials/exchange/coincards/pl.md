@@ -67,7 +67,7 @@ Jest to okazja, aby przypomnieć tym, którzy chcieliby zapłacić za swoje kart
 
 
 
-Wybór samouczków dotyczących głównych portfeli Lightning (Phoenix, Breez, BitKit, Zeus...) można znaleźć tutaj: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Wybór samouczków dotyczących głównych portfeli Lightning (Phoenix, Breez, BitKit, Zeus...) można znaleźć tutaj: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

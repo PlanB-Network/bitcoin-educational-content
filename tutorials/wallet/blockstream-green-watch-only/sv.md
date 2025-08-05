@@ -43,7 +43,7 @@ I den här handledningen koncentrerar vi oss enbart på att skapa en Watch-only 
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ## Installera och konfigurera Blockstream Green-applikationen
 
@@ -181,4 +181,4 @@ Om du tyckte att den här handledningen var användbar skulle jag vara tacksam o
 Jag rekommenderar också att du kollar in den här andra omfattande handledningen om Blockstream Green-applikationen för att ställa in en Hot Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143

@@ -67,7 +67,7 @@ See on võimalus tuletada neile, kes soovivad maksta oma kinkekaartide eest Bitc
 
 
 
-Valik õpetusi peamiste Lightning portfellide (Phoenix, Breez, BitKit, Zeus...) kohta leiate siit: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Valik õpetusi peamiste Lightning portfellide (Phoenix, Breez, BitKit, Zeus...) kohta leiate siit: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

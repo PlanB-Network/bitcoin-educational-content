@@ -67,7 +67,7 @@ Ini adalah kesempatan untuk mengingatkan mereka yang ingin membayar kartu hadiah
 
 
 
-Pilihan tutorial tentang portofolio utama Lightning (Phoenix, Breez, BitKit, Zeus...) dapat ditemukan di sini: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Pilihan tutorial tentang portofolio utama Lightning (Phoenix, Breez, BitKit, Zeus...) dapat ditemukan di sini: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

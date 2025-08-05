@@ -1062,7 +1062,7 @@ Canonicalin kehittämä ja vuonna 2004 julkaistu Ubuntu on yksi maailman suositu
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Vuonna 2006 lanseerattu Linux Mint on Ubuntusta johdettu jakelu, joka on suunnit
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint erottuu edukseen yksinkertaisuudellaan, multimediakoodekkien oletusarvoisella läsnäololla ja hyvin suunnitellulla päivitystyökalulla. Toisaalta se tukeutuu vahvasti Ubuntun infrastruktuuriin, mikä tekee siitä riippuvaisen Ubuntun teknisistä valinnoista (erityisesti ytimen ja arkistojen tasolla). Mint sopii erityisen hyvin ei-teknisille käyttäjille tai niille, jotka haluavat käyttövalmiin järjestelmän, joka ei vaadi liikaa opettelua.
 
@@ -1246,7 +1246,7 @@ Tails on Debian-pohjainen, yksityisyyteen keskittyvä live-jakelu. Kaikki kulkee
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Huomautus:** Live-jakelu on Linux-käyttöjärjestelmä, jota voidaan käyttää suoraan USB-tikulta tai CD-levyltä ilman asennusta Hard-levylle.
 
@@ -6659,7 +6659,7 @@ GrapheneOS ei sisällä omia komponentteja. Voit vapaasti lisätä Googlen palve
 Graphene on yhteensopiva vain viimeisimpien Google Pixeleiden (Pixel 6, 7, 8 ja 9) kanssa.
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

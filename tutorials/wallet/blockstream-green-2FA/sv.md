@@ -4,12 +4,15 @@ description: Ställer upp en 2/2 Multisig på Green Wallet
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Observera:** Från och med maj 2025 kommer det inte längre vara möjligt att aktivera nya konton skyddade med tvåfaktorsautentisering (2FA). Denna funktion är endast tillgänglig för användare som tidigare har aktiverat denna typ av konto.*
+
+___
 
 En Software Wallet är en applikation som installeras på en dator, smartphone eller annan internetansluten enhet och som gör att du kan hantera och säkra dina Bitcoin Wallet-nycklar. Till skillnad från hårdvaruplånböcker, som isolerar privata nycklar, fungerar "Hot"-plånböcker därför i en miljö som potentiellt är utsatt för cyberattacker, vilket ökar risken för piratkopiering och stöld.
 
-
 Mjukvaruplånböcker bör användas för att hantera rimliga mängder bitcoins, särskilt för vardagliga transaktioner. De kan också vara ett intressant alternativ för personer med begränsade Bitcoin-tillgångar, för vilka en investering i en Hardware Wallet kan verka oproportionerlig. Deras ständiga exponering mot internet gör dem dock mindre säkra för att lagra dina långsiktiga besparingar eller stora fonder. För det senare är det bäst att välja säkrare lösningar, till exempel hårdvaruplånböcker.
-
 
 I den här handledningen visar jag hur du kan förbättra säkerheten för en Hot Wallet med hjälp av alternativet "*2FA*" på Blockstream Green.
 

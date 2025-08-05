@@ -2,31 +2,31 @@
 name: Добавление строителя
 description: Как предложить добавление нового строителя в сеть PlanB?
 ---
-![builder](assets/cover.webp)
+![project](assets/cover.webp)
 
 Миссия PlanB - предоставлять образовательные ресурсы высшего качества о Bitcoin на максимально возможном количестве языков. Все контент, опубликованный на сайте, является открытым и размещается на GitHub, что позволяет любому желающему участвовать в обогащении платформы.
 
 Хотите добавить нового "строителя" Bitcoin на сайт сети PlanB и дать видимость вашей компании или программному обеспечению, но не знаете как? Этот учебник для вас!
-![builder](assets/01.webp)
+![project](assets/01.webp)
 - Во-первых, вам нужен аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который вас направит.
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders) в раздел `resources/builder/`:
-![builder](assets/02.webp)
+- Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) в раздел `resources/project/`:
+![project](assets/02.webp)
 - Нажмите в верхнем правом углу на кнопку `Add file`, затем на `Create new file`:
-![builder](assets/03.webp)
+![project](assets/03.webp)
 - Если вы никогда ранее не вносили вклад в содержание сети PlanB, вам нужно будет создать вашу собственную копию оригинального репозитория. Создание копии репозитория означает создание копии этого репозитория на вашем собственном аккаунте GitHub, что позволяет вам работать над проектом, не влияя на оригинальный репозиторий. Нажмите на кнопку `Fork this repository`:
-![builder](assets/04.webp)
+![project](assets/04.webp)
 - Затем вы попадете на страницу редактирования GitHub:
-![builder](assets/05.webp)
+![project](assets/05.webp)
 - Создайте папку для вашей компании. Для этого в поле `Name your file...` напишите название вашей компании строчными буквами с дефисами вместо пробелов. Например, если ваша компания называется "Bitcoin Baguette", вы должны написать `bitcoin-baguette`:
-![builder](assets/06.webp)
+![project](assets/06.webp)
 - Чтобы подтвердить создание папки, просто добавьте слэш после вашего имени в том же поле, например: `bitcoin-baguette/`. Добавление слэша автоматически создает папку, а не файл:
-![builder](assets/07.webp)
-- В этой папке вы создадите первый YAML файл с именем `builder.yml`:
-![builder](assets/08.webp)
+![project](assets/07.webp)
+- В этой папке вы создадите первый YAML файл с именем `project.yml`:
+![project](assets/08.webp)
 - Заполните этот файл информацией о вашей компании, используя этот шаблон:
 
 ```yaml
@@ -99,59 +99,59 @@ tags:
 category: образование
 ```
 
-![builder](assets/09.webp)
+![project](assets/09.webp)
 - Как только вы закончите вносить изменения в этот файл, сохраните их, нажав на кнопку `Commit changes...`:
-![builder](assets/10.webp)
+![project](assets/10.webp)
 - Добавьте заголовок для ваших изменений вместе с кратким описанием:
-![builder](assets/11.webp)
+![project](assets/11.webp)
 - Нажмите на зеленую кнопку `Propose changes`:
-![builder](assets/12.webp)
+![project](assets/12.webp)
 - Затем вы попадете на страницу, где будут суммированы все ваши изменения:
-![builder](assets/13.webp)
+![project](assets/13.webp)
 - Нажмите на изображение вашего профиля GitHub в правом верхнем углу, затем на `Your Repositories`:
-![builder](assets/14.webp)
+![project](assets/14.webp)
 - Выберите ваш форк репозитория PlanB Network:
-![builder](assets/15.webp)
+![project](assets/15.webp)
 - Вы должны увидеть уведомление в верхней части окна с вашей новой веткой. Вероятно, она называется `patch-1`. Нажмите на нее:
-![builder](assets/16.webp)
+![project](assets/16.webp)
 - Теперь вы находитесь в своей рабочей ветке (**убедитесь, что вы находитесь в той же ветке, что и ваши предыдущие изменения, это важно!**):
-![builder](assets/17.webp)
-- Вернитесь в папку `resources/builders/` и выберите папку вашего бизнеса, которую вы только что создали в предыдущем коммите:
-![builder](assets/18.webp)
+![project](assets/17.webp)
+- Вернитесь в папку `resources/projects/` и выберите папку вашего бизнеса, которую вы только что создали в предыдущем коммите:
+![project](assets/18.webp)
 - В папке вашего бизнеса нажмите на кнопку `Add file`, затем на `Create new file`:
-![builder](assets/19.webp)
+![project](assets/19.webp)
 - Назовите эту новую папку `assets` и подтвердите ее создание, поставив слэш `/` в конце:
-![builder](assets/20.webp)
+![project](assets/20.webp)
 - В этой папке `assets` создайте файл с именем `.gitkeep`:
-![builder](assets/21.webp)
+![project](assets/21.webp)
 - Нажмите на кнопку `Commit changes...`:
-![builder](assets/22.webp)
-- Оставьте заголовок коммита по умолчанию и убедитесь, что отмечен флажок `Commit directly to the patch-1 branch`, затем нажмите на `Commit changes`: ![builder](assets/23.webp)
+![project](assets/22.webp)
+- Оставьте заголовок коммита по умолчанию и убедитесь, что отмечен флажок `Commit directly to the patch-1 branch`, затем нажмите на `Commit changes`: ![project](assets/23.webp)
 - Вернитесь в папку `assets`:
-![builder](assets/24.webp)
+![project](assets/24.webp)
 - Нажмите на кнопку `Add file`, затем на `Upload files`:
-![builder](assets/25.webp)
+![project](assets/25.webp)
 - Откроется новая страница. Перетащите изображение вашей компании или вашего программного обеспечения в область. Это изображение будет отображаться на сайте PlanB Network:
-![builder](assets/26.webp)
+![project](assets/26.webp)
 - Это может быть логотип или иконка:
-![builder](assets/27.webp)
+![project](assets/27.webp)
 - Как только изображение будет загружено, убедитесь, что отмечен флажок `Commit directly to the patch-1 branch`, затем нажмите на `Commit changes`:
-![builder](assets/28.webp)
+![project](assets/28.webp)
 - Будьте внимательны, ваше изображение должно быть квадратным, должно быть названо `logo`, и должно быть в формате `.webp`. Полное имя файла, следовательно, должно быть: `logo.webp`:
-![builder](assets/29.webp)
+![project](assets/29.webp)
 - Вернитесь в вашу папку `assets` и нажмите на промежуточный файл `.gitkeep`:
-![builder](assets/30.webp)- Перейдите к файлу, нажмите на три маленькие точки в верхнем правом углу, затем на `Delete file` (Удалить файл):
-![builder](assets/31.webp)
+![project](assets/30.webp)- Перейдите к файлу, нажмите на три маленькие точки в верхнем правом углу, затем на `Delete file` (Удалить файл):
+![project](assets/31.webp)
 - Убедитесь, что вы находитесь на той же рабочей ветке, затем нажмите на кнопку `Commit changes` (Подтвердить изменения):
-![builder](assets/32.webp)
+![project](assets/32.webp)
 - Добавьте заголовок и описание к вашему коммиту, затем нажмите на `Commit changes` (Подтвердить изменения):
-![builder](assets/33.webp)
+![project](assets/33.webp)
 - Вернитесь в папку вашей компании:
-![builder](assets/34.webp)
+![project](assets/34.webp)
 - Нажмите на кнопку `Add file` (Добавить файл), затем на `Create new file` (Создать новый файл):
-![builder](assets/35.webp)
+![project](assets/35.webp)
 - Создайте новый YAML файл, назвав его индикатором вашего родного языка. Этот файл будет использоваться для описания конструктора. Например, если я хочу написать мое описание на английском, я назову этот файл `en.yml`:
-![builder](assets/36.webp)
+![project](assets/36.webp)
 - Заполните этот YAML файл, используя этот шаблон:
 ```yaml
 description: |
@@ -169,23 +169,24 @@ description: |
 contributors:
 - 
 ```
-![builder](assets/37.webp)
+![project](assets/37.webp)
 - Нажмите на кнопку `Commit changes` (Подтвердить изменения):
-![builder](assets/38.webp)
+![project](assets/38.webp)
 - Убедитесь, что отмечен пункт `Commit directly to the patch-1 branch` (Прямой коммит в ветку patch-1), добавьте заголовок, затем нажмите на `Commit changes` (Подтвердить изменения):
-![builder](assets/39.webp)
+![project](assets/39.webp)
 - Теперь папка вашей компании должна выглядеть так:
-![builder](assets/40.webp)
+![project](assets/40.webp)
 - Если все устраивает, вернитесь к корню вашего форка:
-![builder](assets/41.webp)
+![project](assets/41.webp)
 - Вы должны увидеть сообщение, указывающее на то, что ваша ветка претерпела изменения. Нажмите на кнопку `Compare & pull request` (Сравнить и создать запрос на включение изменений):
-![builder](assets/42.webp)
+![project](assets/42.webp)
 - Добавьте четкий заголовок и описание к вашему PR:
-![builder](assets/43.webp)
+![project](assets/43.webp)
 - Нажмите на кнопку `Create pull request` (Создать запрос на включение изменений):
-![builder](assets/44.webp)
+![project](assets/44.webp)
 Поздравляем! Ваш PR был успешно создан. Теперь администратор рассмотрит его и, если все в порядке, интегрирует в основной репозиторий сети PlanB. Ваш профиль конструктора появится на сайте через несколько дней.
 
 Обязательно следите за ходом вашего PR. Администратор может оставить комментарий с просьбой предоставить дополнительную информацию. Пока ваш PR не будет подтвержден, вы можете просматривать его во вкладке `Pull requests` (Запросы на включение изменений) на репозитории GitHub сети PlanB:
-![builder](assets/45.webp)
+![project](assets/45.webp)
 Большое спасибо за ваш ценный вклад! :)
+

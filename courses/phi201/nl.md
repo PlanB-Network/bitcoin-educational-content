@@ -2240,12 +2240,6 @@ Voor Hayek komt de instabiliteit van de markteconomie in het verleden voort uit 
 Hayek geloofde dat een vrije markt van privévaluta's zou leiden tot grotere monetaire stabiliteit. Bijna 50 jaar later belichaamt een cryptocurrency als Bitcoin Hayeks concurrerende visie door een gedecentraliseerd alternatief te bieden voor het monopolistische systeem van centrale banken. Bitcoin, met een vaste emissielimiet van 21 miljoen eenheden, dient als bescherming tegen inflatie en de willekeur van toezichthouders.
 
 
-## Beoordelingen
-
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 
 ## Conclusie: de kracht van ideeën
 

@@ -438,7 +438,7 @@ Wacha tubonyeze kitufe cha kutuma tena na inapaswa kujibu kwa data ile ile tuliy
 ## Unda Invoice
 
 
-Njia ambayo inatekelezwa wakati mtumiaji anaunda chapisho inapaswa generate Invoice, kisha kuunda rekodi katika hifadhidata inayoiunganisha na Invoice, na kurudisha Invoice kwa mtumiaji ili aweze kuilipa.
+Njia ambayo inatekelezwa wakati mtumiaji anaunda chapisho inapaswa kugenerate Invoice, kisha kuunda rekodi katika hifadhidata inayoiunganisha na Invoice, na kurudisha Invoice kwa mtumiaji ili aweze kuilipa.
 
 
 ```markdown
@@ -477,7 +477,7 @@ console.log(e);
 ```
 
 
-Ikiwa tutapokea kitu cha chapisho kama jibu baada ya kubonyeza tuma, kama hii, kila kitu kimeenda sawa. Sasa tunahitaji kuonyesha maandishi ili mtumiaji aweze kulipa.
+Ikiwa tutapokea kitu cha chapisho kama jibu baada ya kubonyeza tuma, kama hivi, kila kitu kimeenda sawa. Sasa tunahitaji kuonyesha maandishi ili mtumiaji aweze kulipa.
 
 
 ```markdown

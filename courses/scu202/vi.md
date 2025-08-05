@@ -1062,7 +1062,7 @@ Việc lựa chọn bản phân phối Linux phụ thuộc vào nhu cầu cụ t
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Ra mắt năm 2006, Linux Mint là một bản phân phối bắt nguồn từ U
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint nổi bật nhờ tính đơn giản, mặc định tích hợp sẵn codec đa phương tiện và công cụ cập nhật được thiết kế tốt. Mặt khác, nó phụ thuộc rất nhiều vào cơ sở hạ tầng của Ubuntu, khiến nó phụ thuộc vào các lựa chọn kỹ thuật của Ubuntu (đặc biệt là ở cấp độ kernel và kho lưu trữ). Mint đặc biệt phù hợp với người dùng không chuyên về kỹ thuật hoặc những người muốn có một hệ thống sẵn sàng sử dụng mà không cần quá nhiều kiến thức.
 
@@ -1246,7 +1246,7 @@ Tails là một bản phân phối trực tiếp dựa trên Debian, tập trung
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Lưu ý:** Bản phân phối trực tiếp là hệ điều hành Linux có thể sử dụng trực tiếp từ ổ USB hoặc CD mà không cần cài đặt trên đĩa Hard.
 
@@ -6659,7 +6659,7 @@ GrapheneOS không tích hợp bất kỳ thành phần độc quyền nào. Bạ
 Graphene chỉ tương thích với các mẫu Google Pixel mới nhất (Pixel 6, 7, 8 và 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

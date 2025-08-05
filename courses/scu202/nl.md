@@ -1062,7 +1062,7 @@ Ubuntu, ontwikkeld door Canonical en gelanceerd in 2004, is een van de populairs
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint werd gelanceerd in 2006 en is een van Ubuntu afgeleide distributie, o
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint onderscheidt zich door zijn eenvoud, de standaard aanwezigheid van multimediacodecs en een goed ontworpen updatetool. Aan de andere kant leunt het zwaar op de infrastructuur van Ubuntu, waardoor het afhankelijk is van Ubuntu's technische keuzes (met name op kernel- en repository-niveau). Mint is vooral geschikt voor niet-technische gebruikers, of mensen die een kant-en-klaar systeem willen dat niet te veel hoeft te leren.
 
@@ -1246,7 +1246,7 @@ Tails is een Debian-gebaseerde, privacy-gerichte live-distributie. Alles gaat do
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Noot:** Een live distributie is een Linux besturingssysteem dat direct vanaf een USB-stick of CD kan worden gebruikt, zonder installatie op de Hard schijf.
 
@@ -6659,7 +6659,7 @@ GrapheneOS integreert geen propriëtaire componenten. Je bent vrij om Google-die
 Graphene is alleen compatibel met recente Google Pixels (Pixel 6, 7, 8 en 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 

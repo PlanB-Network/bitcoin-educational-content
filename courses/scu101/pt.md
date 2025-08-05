@@ -331,7 +331,9 @@ Esta segunda etapa pode ser:
 - Um código temporário enviado por SMS.
 - Um código gerado por um aplicativo como o Google Authenticator ou o Authy.
 - Uma chave de segurança física que você insere no seu computador.
+
   ![](assets/notext/19.webp)
+
   Com o 2FA, mesmo que um hacker obtenha sua senha, ele não poderá acessar sua conta sem esse segundo fator de verificação. Isso torna o 2FA essencial para proteger suas contas online contra acessos não autorizados.
 
 ### Qual opção escolher?
@@ -343,6 +345,8 @@ As diferentes opções para autenticação forte oferecem níveis variáveis de 
 - Tokens físicos, como chaves USB ou cartões inteligentes, oferecem segurança ideal gerando uma chave privada única para cada site e verificando a URL antes de autorizar a conexão.
 
 Para uma segurança ideal com autenticação forte, é recomendado usar um e-mail seguro, um gerenciador de senhas seguro e adotar o 2FA usando YubiKeys. Também é aconselhável comprar duas YubiKeys para prever perda ou roubo, por exemplo, mantendo uma cópia de backup em casa e outra consigo.
+
+Quanto às ameaças potenciais à autenticação de dois fatores (2FA) via SIM, um exemplo comum é o ataque de troca de SIM, onde um atacante rouba o número de telefone de um usuário vinculando-o a um cartão SIM controlado pelo atacante. Existem várias maneiras pelas quais um atacante pode realizar o ataque; no entanto, essa ameaça geralmente é uma preocupação significativa apenas para indivíduos de alto perfil e pessoas de interesse.
 
 A biometria pode ser usada como substituto, mas é menos segura do que a combinação de conhecimento e posse. Os dados biométricos devem permanecer no dispositivo de autenticação e não devem ser divulgados online. É importante levar em consideração o modelo de ameaça associado aos diferentes métodos de autenticação e adaptar sua prática de acordo.
 

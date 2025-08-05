@@ -38,16 +38,16 @@ Le site détecte automatiquement votre système et propose le lien adapté :
 ### Installation étape par étape
 
 **Sur Windows :**
-1. Téléchargez le fichier .exe
-2. Exécutez l'installeur (si SmartScreen alerte, cliquez "Informations complémentaires" puis "Exécuter quand même")
-3. Choisissez le répertoire d'installation
-4. Laissez "Lancer Zen Browser" coché pour démarrer immédiatement
+- Téléchargez le fichier .exe
+- Exécutez l'installeur (si SmartScreen alerte, cliquez "Informations complémentaires" puis "Exécuter quand même")
+- Choisissez le répertoire d'installation
+- Laissez "Lancer Zen Browser" coché pour démarrer immédiatement
 
 **Sur macOS :**
-1. Téléchargez le fichier .dmg
-2. Montez l'image disque
-3. Glissez Zen Browser dans le dossier Applications
-4. Au premier lancement : clic droit > "Ouvrir" pour passer Gatekeeper
+- Téléchargez le fichier .dmg
+- Montez l'image disque
+- Glissez Zen Browser dans le dossier Applications
+- Au premier lancement : clic droit > "Ouvrir" pour passer Gatekeeper
 
 **Sur Linux :**
 - **Flatpak :** Installation automatique via le gestionnaire de paquets
@@ -114,18 +114,18 @@ Zen propose un écosystème de personnalisation unique avec les **Zen Mods** : u
 - **Transparent Zen** : Effets de transparence élégants avec animations fluides
 
 **Installation d'un Zen Mod :**
-1. Accédez au menu Zen (☰) > Zen Mods
-2. Parcourez la galerie des thèmes disponibles
+- Accédez à la [galerie officielle Zen Mods](https://zen-browser.app/mods)
+- Parcourez la galerie des thèmes disponibles
 
 ![Galerie Zen Mods](assets/fr/12.webp)
 
-3. Cliquez sur "Install" pour le mod souhaité
+- Cliquez sur "Install" pour le mod souhaité
 
 ![Installation SuperPins](assets/fr/13.webp)
 *Exemple : Installation du mod populaire SuperPins*
 
-4. Le thème s'applique instantanément
-5. Vous pouvez le désactiver ou en essayer d'autres à tout moment
+- Le thème s'applique instantanément
+- Vous pouvez le désactiver ou en essayer d'autres à tout moment
 
 Les Zen Mods ne se limitent pas aux thèmes visuels : certains modifient le comportement de l'interface (animations, disposition des éléments, raccourcis personnalisés). Cette approche modulaire permet à chaque utilisateur de créer son environnement de navigation idéal.
 
@@ -335,11 +335,11 @@ YouTube gratuit, Twitch, Vimeo, sites d'actualités, réseaux sociaux, podcasts
 
 ### Bonnes pratiques
 
-1. **Organisez vos espaces** : Créez des espaces thématiques (Travail, Veille, Personnel)
-2. **Utilisez les onglets épinglés** : Pour vos sites les plus consultés
-3. **Exploitez Split View** : Idéal sur grands écrans pour le multitâche
-4. **Maintenez à jour** : Vérifiez régulièrement les mises à jour
-5. **Explorez les Zen Mods** : Personnalisez l'apparence selon vos goûts
+- **Organisez vos espaces** : Créez des espaces thématiques (Travail, Veille, Personnel)
+- **Utilisez les onglets épinglés** : Pour vos sites les plus consultés
+- **Exploitez Split View** : Idéal sur grands écrans pour le multitâche
+- **Maintenez à jour** : Vérifiez régulièrement les mises à jour
+- **Explorez les Zen Mods** : Personnalisez l'apparence selon vos goûts
 
 ## Conclusion
 
@@ -358,7 +358,6 @@ Pour les bitcoiners et utilisateurs tech qui valorisent à la fois la productivi
 - [Documentation complète](https://docs.zen-browser.app)
 - [Code source GitHub](https://github.com/zen-browser/desktop)
 - [Page de téléchargement](https://zen-browser.app/download)
-
 ### Communauté et support
 - [Discord officiel](https://discord.gg/zen-browser)
 - [Reddit r/zen_browser](https://reddit.com/r/zen_browser)

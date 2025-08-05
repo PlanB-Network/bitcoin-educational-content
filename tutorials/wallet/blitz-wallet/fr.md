@@ -53,7 +53,7 @@ L'une des particularités de Blitz Wallet est qu'il supporte différents réseau
 
 - **Liquid Network** : Une chaîne parallèle au Bitcoin Mainnet développé par BlockStream qui utilise des Liquid Bitcoin pour effectuer des transactions rapides et confidentielles.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Par défaut, toutes vos transactions seront sur le Liquid Network mais Blitz vous permet de définir le réseau sur lequel vous souhaitez recevoir des satoshis en cliquant sur le buton **Choisir le format**.
 
@@ -134,3 +134,4 @@ Dans le menu **Paramètres>Point-of-sale**, vous pouvez paramétrer l'identifian
 Si ce tutoriel vous a été utile pour votre prise en main de Blitz, nous sommes convaincus que celui sur le portefeuille Muun vous plaira tout autant. Découvrez Muun, un portefeuille simple et tout aussi puissant comme Bitcoin.
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+

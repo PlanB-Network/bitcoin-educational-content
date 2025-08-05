@@ -1,0 +1,9 @@
+question: Bản phân phối nào sử dụng môi trường máy tính để bàn Cinnamon theo mặc định?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon được nhóm Linux Mint phát triển nhằm cung cấp một Interface hiện đại, cổ điển, gần giống với Windows.
+reviewed: false

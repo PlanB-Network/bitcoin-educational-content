@@ -1,0 +1,11 @@
+question: Waarom is het aan te raden om uw Bitcoins niet achter te laten op Exchange-platforms?
+answer: Ze kunnen gevoelig zijn voor aanvallen van hackers.
+wrong_answers:
+  - Exchange platformen brengen willekeurige kosten in rekening.
+  - Bitcoin verliest waarde op Exchange platforms.
+  - Exchange platforms zijn geen gereguleerde instelling.
+explanation: |
+  Het is aan te raden om uw Bitcoins niet achter te laten op Exchange
+  platformen omdat ze gevoelig kunnen zijn voor hacker
+  aanvallen.
+reviewed: true

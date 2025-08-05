@@ -1,0 +1,9 @@
+question: Mida on pärast kriitilise operatsioonisüsteemi uuenduse installimist sageli vaja teha, et parandusi täielikult rakendada?
+answer: Arvuti taaskäivitamine
+wrong_answers:
+  - Parooli lähtestamine
+  - Lahutage Wi-Fi-võrk
+  - Kustutage ajutised failid
+explanation: |
+  Mõned operatsioonisüsteemi uuendused, näiteks tuuma või kriitiliste raamatukogude uuendused, jõustuvad alles pärast masina taaskäivitamist.
+reviewed: false

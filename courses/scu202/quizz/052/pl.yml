@@ -1,0 +1,9 @@
+question: Jaka praktyka jest zalecana przed udostępnieniem pliku online lub przez e-mail?
+answer: Wyczyść wszystkie metadane
+wrong_answers:
+  - Szyfrowanie wszystkich metadanych
+  - Uwierzytelnianie wszystkich metadanych
+  - Zmień nazwę wszystkich metadanych
+explanation: |
+  Czyszczenie metadanych zapobiega przypadkowemu ujawnieniu poufnych informacji podczas udostępniania plików.
+reviewed: false

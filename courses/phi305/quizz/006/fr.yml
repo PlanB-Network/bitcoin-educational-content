@@ -1,0 +1,9 @@
+question: Emmanuel Kant est-il un philosophe ?
+answer: Allemand.
+wrong_answers:
+- Anglais.
+- Polonais.
+- Hollandais.
+explanation: |
+  Emmanuel Kant (1724-1804) était un philosophe allemand, considéré comme l'un des plus importants penseurs des Lumières. Il a développé une philosophie critique qui cherchait à réconcilier le rationalisme et l'empirisme.
+reviewed: false

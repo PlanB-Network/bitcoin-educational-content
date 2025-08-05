@@ -1,0 +1,9 @@
+question: L'Éthique a-t-il été publié ?
+answer: À titre posthume.
+wrong_answers:
+- De son vivant.
+- Est un recueil d'articles de presse.
+- Avec à la correspondance de l'auteur.
+explanation: |
+  L'Éthique, l'œuvre majeure de Spinoza, a été publiée à titre posthume en 1677, quelques mois après sa mort. L'ouvrage était trop controversé pour être publié de son vivant sans risquer la persécution.
+reviewed: false

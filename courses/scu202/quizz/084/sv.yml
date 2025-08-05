@@ -1,0 +1,9 @@
+question: Vad är Signals största brist när det gäller anonymitet?
+answer: Det kräver användning av ett telefonnummer
+wrong_answers:
+  - Det är inte öppen källkod
+  - Den lagrar meddelanden på en central server
+  - Det krypterar inte utbytta filer
+explanation: |
+  Signal kräver ett telefonnummer för att registreras, vilket innebär en potentiell spårbarhet även om protokollet garanterar stark kryptering.
+reviewed: false

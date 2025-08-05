@@ -1,0 +1,9 @@
+question: システムディスクの完全暗号化を可能にするmacOSのツールは？
+answer: ファイルボールト
+wrong_answers:
+  - ディスクユーティリティ
+  - iCloudキーチェーン
+  - ビットロッカー
+explanation: |
+  FileVaultはmacOSに統合されたネイティブのディスク暗号化ソリューションです。
+reviewed: false

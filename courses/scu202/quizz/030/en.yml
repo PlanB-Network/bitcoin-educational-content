@@ -1,0 +1,9 @@
+question: Which open source tool can fully encrypt a disk under Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) is the standard solution on Linux for full disk encryption during installation.
+reviewed: false

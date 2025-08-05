@@ -1,0 +1,9 @@
+question: 哪种不支持 Interface 图形或 JavaScript 的文本浏览器历史最悠久？
+answer: 山猫
+wrong_answers:
+  - Mullvad 浏览器
+  - 聚氨酯
+  - 维瓦尔第
+explanation: |
+  Lynx 出现于 1992 年，以文本模式运行，不支持 JavaScript，目前仍用于非常特殊的用途。
+reviewed: false

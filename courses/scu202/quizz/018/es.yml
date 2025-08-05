@@ -1,0 +1,9 @@
+question: ¿Cuál es el gestor de paquetes utilizado por Debian y Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian y Ubuntu utilizan el gestor de paquetes APT, basado en el formato .deb, para gestionar la instalación y actualización del software.
+reviewed: false

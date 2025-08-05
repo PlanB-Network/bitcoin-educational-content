@@ -1,0 +1,9 @@
+question: Quel est le principal rôle du DNS dans l’architecture Internet ?
+answer: Associer les noms de domaine à des adresses IP
+wrong_answers:
+  - Chiffrer les communications entre les routeurs
+  - Attribuer dynamiquement des adresses MAC aux équipements
+  - Contrôler l’accès aux serveurs web
+explanation: |
+  Le DNS (Domain Name System) sert à traduire des noms de domaine lisibles par l’humain en adresses IP numériques nécessaires au routage.
+reviewed: false

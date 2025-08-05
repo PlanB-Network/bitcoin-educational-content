@@ -745,7 +745,7 @@ None nigiki kiba iyo umuntu ashoboye kwiyumvira urutonde rwacu rw'amajambo 12 ca
 Gutyo, amahirwe yogushobora kwiba ingodo yawe y'ama Bitcoin nintoyicane gose iyo wakwirikiye neza uburyo bwokwikingira, ivyo duhva tudondangura ido n'indo mugace gakwirikira.
 
 
-Ugumane kumuzirikanyi guhitamwo ingodo ibereye kuvyo ukeneye n'ivyo ukoresha: Ivyigwa kiramvuye cerekeye ugukoresha no gukingira ingodo zitandukanye birahari hano : [gice ci'ivyigwa vya kaminuza yacu](https://planb.network/tutorials/Wallet).
+Ugumane kumuzirikanyi guhitamwo ingodo ibereye kuvyo ukeneye n'ivyo ukoresha: Ivyigwa kiramvuye cerekeye ugukoresha no gukingira ingodo zitandukanye birahari hano : [gice ci'ivyigwa vya kaminuza yacu](https://planb.network/tutorials/wallet).
 
 
 Niba, mu rugendo rwawe rwo kwiga vyimbitse, ushaka kumenya vyinshi ku bijanye no kwubaka ingodo za Bitcoin, kuva kuntango gushika kuronka amerekezo, turaguhimiriza icigwa ca CYP 201 cerekeye gusa ino nyigisho : 
@@ -929,7 +929,7 @@ Cokimwe n’ubutunzi bwose, ama bitcoins yawe ategerezwa kurindwa gutakaza, kwib
 Uburyo bumwe bwo gukingira ama bitcoins yawe mukiringo kirekire ni gucapa ijambo Mnemonic ku kintu kiramba ca nk'icuma. Gukora bino bituma imfunguruzo zawe zigira ububiko bufadika bushobora kuguma bukomeye hatera amazi canke umuriro. Ivyo bituma imfunguruzo zawe zigira ububiko bw’umubiri bushobora guhangana n’amazi n’umuriro.
 
 
-Inyishu zitandukanye zirahari: zimwe murizo zirazimbutse cane, nka "Blockmit", mugihe izindi zishobora gusaba ibikoresho vyihariwe. Ushobora gukwirikirana imbere kino cigwa mugace k' [inyigisho](https://planb.network/ru/inyigisho/Wallet) ka kaminuza yacu.
+Inyishu zitandukanye zirahari: zimwe murizo zirazimbutse cane, nka "Blockmit", mugihe izindi zishobora gusaba ibikoresho vyihariwe. Ushobora gukwirikirana imbere kino cigwa mugace k' [inyigisho](https://planb.network/ru/inyigisho/wallet) ka kaminuza yacu.
 
 
 ![image](assets/en/37.webp)
@@ -1655,7 +1655,7 @@ Ubwo buryo buhorobuhoro bujanye n’ugusubiramwo, bisigura kugura uduce tw'amahe
 **Iyubare ama UTXO**: Nimwibuke gushiramwo ama UTXO yanyu mungodo zanyu burimwanya. Ivyo ni ngombwa kugira ngo ushobore gucunga neza amafaranga yawe ya bitcoins no kwirinda amahera adakenewe mu gihe c’ugucuruza.
 
 
-[UTXO](https://planb.network/ru/resources/glossary/UTXO) ni igisohoka c’isoko ry’irungika n'irungikwa ritarakoreshwa, bisigura ko ritakoreshejwe nk’inyungu y’isoko rishasha. Kuzifatanya bisigura gufatanya ama UTXO mato mato menshi mu yindi nini, kugira ngo "uburemere" bw'ugucuruza bugabanuke, gutyo umuntu yishure amahera make.
+[UTXO](https://planb.network/ru/resources/glossary/utxo) ni igisohoka c’isoko ry’irungika n'irungikwa ritarakoreshwa, bisigura ko ritakoreshejwe nk’inyungu y’isoko rishasha. Kuzifatanya bisigura gufatanya ama UTXO mato mato menshi mu yindi nini, kugira ngo "uburemere" bw'ugucuruza bugabanuke, gutyo umuntu yishure amahera make.
 
 
 
@@ -1678,7 +1678,7 @@ Hari uburyo bwinshi bwo kuronka ama bitcoins, buri bumwe bushingiye ku mategeko 
 - Imbuga za DCA
 
 
-Nk’uko twabimenyesheje haruguru, uburyo busanzwe bwo kwegeranya ama Bitcoin ni ugupima igiciro c’amadolari (DCA), ivyo bkaba bisaba kugura burikanya amafaranga makeyi burigihe. Imbuga nyinshi ziratanga bunobufasha, nkibiri kuri runorutonde rwacu [paji yihariye](https://planb.network/inyigisho/Exchange). Ivyiyongerako kuri DCA vyoroshe, gukura amahera mungondo yawe muri rusangi biroroshe, bisigurako uzokwama ugenzura umutungo wawe.
+Nk’uko twabimenyesheje haruguru, uburyo busanzwe bwo kwegeranya ama Bitcoin ni ugupima igiciro c’amadolari (DCA), ivyo bkaba bisaba kugura burikanya amafaranga makeyi burigihe. Imbuga nyinshi ziratanga bunobufasha, nkibiri kuri runorutonde rwacu [paji yihariye](https://planb.network/inyigisho/exchange). Ivyiyongerako kuri DCA vyoroshe, gukura amahera mungondo yawe muri rusangi biroroshe, bisigurako uzokwama ugenzura umutungo wawe.
 
 
 murikino gihe, hafi inyishu zose za DCA zirakora neza kandi zifise amahera hafi asa, rero uguhitamwo kuzovana cane n’ukuntu ziboneka mu gihugu cawe.
@@ -1717,7 +1717,7 @@ Ni ngirakamaro kwemera ko KYC ari ikiganiro gihambaye mu bijanye muruganda rwa B
 ### Inyishu zitari iza KYC
 
 
-Ikindi, hariho [amasoko menshi](https://planb.network/inyigisho/Exchange) aho wogura ukagurisha ama Bitcoin kurubuga rw'ukuvunja ruri kubuhinga bwa bushingiye kubantu babiri. Muri rusangi, urashobora gufata ibi bikwirikira:
+Ikindi, hariho [amasoko menshi](https://planb.network/inyigisho/exchange) aho wogura ukagurisha ama Bitcoin kurubuga rw'ukuvunja ruri kubuhinga bwa bushingiye kubantu babiri. Muri rusangi, urashobora gufata ibi bikwirikira:
 
 
 

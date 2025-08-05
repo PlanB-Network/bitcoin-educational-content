@@ -322,7 +322,9 @@ Kaksivaiheinen tunnistautuminen (2FA) on lisäkerroksen turvatoimi, jota käytet
 - Väliaikainen koodi, joka lähetetään SMS-viestinä.
 - Sovelluksen, kuten Google Authenticatorin tai Authyn, generoima koodi.
 - Fyysinen turva-avain, jonka liität tietokoneeseesi.
+
   ![](assets/notext/19.webp)
+
   2FA:n avulla, vaikka hakkeri saisi salasanasi, he eivät pystyisi pääsemään tilillesi ilman tätä toista vahvistustekijää. Tämä tekee 2FA:sta olennaisen suojaamaan verkkotilejäsi luvattomalta pääsyltä.
 
 ### Minkä vaihtoehdon valita?
@@ -334,6 +336,8 @@ Eri vahvan tunnistautumisen vaihtoehdot tarjoavat vaihtelevia turvallisuustasoja
 - Laitetokenit, kuten USB-avaimet tai älykortit, tarjoavat optimaalisen turvallisuuden generoimalla uniikin yksityisen avaimen jokaiselle sivustolle ja varmistamalla URL-osoitteen ennen yhteyden sallimista.
 
 Optimaalisen turvallisuuden saavuttamiseksi vahvalla tunnistautumisella suositellaan turvallisen sähköpostiosoitteen, turvallisen salasananhallintaohjelman käyttöä ja 2FA:n käyttöönottoa YubiKeyn avulla. On myös suositeltavaa hankkia kaksi YubiKeytä varautuaksesi katoamiseen tai varkauteen, esimerkiksi säilyttämällä varakopiota sekä kotona että mukanasi.
+
+SIM-kortin kaksivaiheisen tunnistautumisen (2FA) mahdollisiin uhkiin liittyen yleinen esimerkki on SIM-kortin vaihto-isku, jossa hyökkääjä varastaa käyttäjän puhelinnumeron liittämällä sen hyökkääjän hallitsemaan SIM-korttiin. Hyökkääjällä on useita tapoja toteuttaa hyökkäys; kuitenkin tämä uhka on yleensä merkittävä huolenaihe vain korkean profiilin henkilöille ja kiinnostaville henkilöille.
 
 Biometriikkaa voidaan käyttää korvikkeena, mutta se on vähemmän turvallinen kuin tiedon ja hallussapidon yhdistelmä. Biometriset tiedot tulisi säilyttää tunnistuslaitteessa eikä niitä tulisi paljastaa verkossa. On tärkeää harkita eri tunnistautumismenetelmiin liittyvää uhkamallia ja säätää käytäntöjä sen mukaisesti.
 

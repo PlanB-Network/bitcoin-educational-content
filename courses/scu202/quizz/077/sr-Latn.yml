@@ -1,0 +1,9 @@
+question: Šta je aplikacija Shelter za Android?
+answer: Kreiraj izolovani profil za particionisanje upotrebe
+wrong_answers:
+  - Automatski šifruj sve podatke na telefonu
+  - Blokirajte neželjene pozive
+  - Instaliranje aplikacija van Play Store-a
+explanation: |
+  Shelter vam omogućava da koristite funkciju Work Profile za odvajanje aplikacija i podataka u izolovanom prostoru.
+reviewed: false

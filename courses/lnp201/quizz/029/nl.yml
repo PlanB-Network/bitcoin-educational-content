@@ -1,0 +1,9 @@
+question: In welke situatie wordt een geforceerde afsluiting van een kanaal gebruikt?
+answer: Wanneer een van de partijen niet meer reageert
+wrong_answers:
+  - Wanneer de capaciteit van het kanaal moet worden verhoogd
+  - Wanneer het tijdslot onvoldoende is
+  - Wanneer de transactiekosten te hoog zijn
+explanation: |
+  Gedwongen sluiting wordt gebruikt als laatste redmiddel als een van de partijen, bijvoorbeeld door een technisch probleem, niet meer reageert op de berichten van de ander.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Waarom is het aan te raden om het aantal extensies dat op je browser is geïnstalleerd te beperken?
+answer: Om potentiële beveiligings- en prestatieproblemen te vermijden.
+wrong_answers:
+  - Om opslagruimte op je apparaat te besparen.
+  - Om te voorkomen dat de browser vastloopt.
+  - Om te voorkomen dat u wordt gevolgd door sites van derden.
+explanation: |
+  Hoewel browserextensies nuttige
+  functionaliteiten bieden, kunnen ze ook veiligheidsrisico's met zich meebrengen omdat ze
+  toegang kunnen krijgen tot je gegevens en surfactiviteiten. Bovendien
+  kunnen te veel extensies uw browser vertragen en
+  de prestaties beïnvloeden.
+reviewed: true

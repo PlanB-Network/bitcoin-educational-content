@@ -1,0 +1,9 @@
+question: Какой компонент Android остается полностью открытым и проверяется сообществом?
+answer: AOSP
+wrong_answers:
+  - Мобильные сервисы Google
+  - Play Store
+  - IOSP
+explanation: |
+  Только база Android AOSP является бесплатной. Широко используемые мобильные сервисы Google являются проприетарными и не подлежат аудиту.
+reviewed: false

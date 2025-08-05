@@ -345,7 +345,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Обратите внимание, что в отличие от Wallet, например [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), в Zeus маршрут рассчитывается локально, а не передается третьей стороне (ACINQ в случае с Phoenix). Таким образом, только вы знаете получателя платежа. Мы немного теряем в эффективности (платежи проходят немного дольше, но зато много выигрываем в плане конфиденциальности).
+Обратите внимание, что в отличие от Wallet, например [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), в Zeus маршрут рассчитывается локально, а не передается третьей стороне (ACINQ в случае с Phoenix). Таким образом, только вы знаете получателя платежа. Мы немного теряем в эффективности (платежи проходят немного дольше, но зато много выигрываем в плане конфиденциальности).
 
 
 

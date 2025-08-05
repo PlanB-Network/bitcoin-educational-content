@@ -1,0 +1,9 @@
+question: Welk probleem ontstaat er als Jim's Sporting Goods hetzelfde sleutelpaar gebruikt voor alle klanten?
+answer: Elke klant heeft toegang tot de communicatie van anderen
+wrong_answers:
+  - De sleutel zou te groot worden
+  - Communicatie zou worden vertraagd
+  - Klanten zouden bij elke aankoop van sleutel moeten wisselen
+explanation: |
+  Door dezelfde sleutel voor iedereen te gebruiken, zou Jim's Sporting Goods de vertrouwelijkheid en integriteit in gevaar brengen, omdat elke klant mogelijk toegang zou hebben tot de gegevens van andere klanten.
+reviewed: false

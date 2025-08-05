@@ -1,0 +1,9 @@
+question: 在這些桌面環境中，哪一種特別建議用於較舊或功能較弱的機器？
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - 肉桂
+  - KDE Plasma
+explanation: |
+  LXQt 和 Xfce 一樣，只消耗很少的資源，而且是為了在低效能硬體上有效率地執行而設計的。
+reviewed: false

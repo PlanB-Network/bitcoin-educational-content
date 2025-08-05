@@ -6,6 +6,10 @@ description: How to set up your Ledger Nano S device
 
 ![image](assets/cover.webp)
 
+*Ledger has announced the end of software support for the classic Nano S as of June 25, 2025: this device will no longer receive security updates or be compatible with new features, exposing its users to potential vulnerabilities and future incompatibility. However, funds remain accessible via the recovery phrase, but it is strongly recommended to migrate to a newer model to ensure the security and long-term accessibility of your bitcoins. Please note, this concerns the **old Nano S**, not the **Nano S Plus**, which will continue to be supported.*
+
+___
+
 Cold physical wallet – €60 – Beginner – To secure €2,000 to €50,000
 
 Ledger is the French solution for securing bitcoins in a simple way.

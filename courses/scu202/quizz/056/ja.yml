@@ -1,0 +1,9 @@
+question: サファリに搭載するためにKHTMLのForkから作られたレンダリングエンジンは？
+answer: ウェブキット
+wrong_answers:
+  - トライデント
+  - ヤモリ
+  - 瞬き
+explanation: |
+  WebKitはKHTMLのForkで、2003年以降アップルがサファリに採用し、その後多くのブラウザに採用された。
+reviewed: false

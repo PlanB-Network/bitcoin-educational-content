@@ -1,0 +1,9 @@
+question: Quelle opération le protocole IP effectue-t-il si un datagramme dépasse la MTU d’un réseau traversé ?
+answer: Il le fragmente en plusieurs morceaux
+wrong_answers:
+  - Il le chiffre intégralement avant l’envoi
+  - Il le rejette systématiquement et envoie un message d'erreur
+  - Il le compresse avant de le diffuser
+explanation: |
+  Si la taille du datagramme excède la MTU, le routeur le fragmente en plusieurs paquets plus petits adaptés au réseau cible.
+reviewed: false

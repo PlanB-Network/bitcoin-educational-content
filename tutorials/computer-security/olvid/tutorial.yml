@@ -118,3 +118,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.14
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74

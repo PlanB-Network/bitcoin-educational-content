@@ -1,0 +1,9 @@
+question: Qui est Saint-Augustin ?
+answer: Un des pères de l'Église.
+wrong_answers:
+- Un philosophe des Lumières.
+- Un astronome.
+- Un inventeur.
+explanation: |
+  Saint Augustin (354-430) est l'un des Pères de l'Église. Philosophe et théologien, il a profondément influencé la pensée chrétienne occidentale avec des œuvres comme 'Les Confessions' et 'La Cité de Dieu'.
+reviewed: false

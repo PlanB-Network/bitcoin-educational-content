@@ -1,0 +1,9 @@
+question: Apa risiko utama dari smartphone yang tidak diperbarui?
+answer: Ini menjadi rentan terhadap kerentanan yang diketahui
+wrong_answers:
+  - Menggunakan lebih banyak daya baterai
+  - Dia kehilangan koneksi Wi-Fi
+  - Menjadi lebih rentan terhadap phishing
+explanation: |
+  Ponsel cerdas yang tidak diperbarui terpapar pada kerentanan yang telah diperbaiki secara publik yang dapat dengan mudah dieksploitasi oleh penyerang.
+reviewed: false

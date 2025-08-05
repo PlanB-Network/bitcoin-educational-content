@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste beperking van Telegram als het gaat om vertrouwelijkheid van berichten?
+answer: Alleen geheime uitwisselingen zijn standaard end-to-end versleuteld
+wrong_answers:
+  - Het legt een anonieme registratievergoeding op
+  - Het garandeert de authenticiteit van ontvangen bestanden niet
+  - Geen open source client beschikbaar
+explanation: |
+  Standaard worden Telegram-berichten opgeslagen op bedrijfsservers, waarbij alleen geheime chats profiteren van end-to-end-encryptie.
+reviewed: false

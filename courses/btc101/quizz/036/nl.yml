@@ -1,0 +1,12 @@
+question: Wat betekent de term fiduciair in de context van valuta?
+answer: Het verwijst naar munteenheden die alleen waardevol zijn vanwege het vertrouwen in de centrale instelling die ze reguleert.
+wrong_answers:
+  - Het verwijst naar munteenheden die gedekt worden door goud en uitgegeven worden door kleine commerciële banken.
+  - Het verwijst naar valuta die alleen waardevol zijn voor fiduciaire transacties.
+  - Het verwijst naar munteenheden die alleen binnen een specifieke instelling worden gebruikt.
+explanation: |
+  Fiduciaire valuta's worden niet gedekt door een fysieke grondstof
+  zoals goud of zilver. Hun waarde komt voort uit het vertrouwen
+  en vertrouwen dat mensen hebben in de instellingen die ze uitgeven
+  uitgeven en reguleren.
+reviewed: true

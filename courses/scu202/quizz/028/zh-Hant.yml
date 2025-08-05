@@ -1,0 +1,9 @@
+question: 哪個指令可用於從 Ubuntu 官方套件庫安裝軟體？
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - 安裝軟體
+explanation: |
+  sudo apt install」指令透過 APT 套件管理員安裝軟體套件，這是 Ubuntu 的原生方法。
+reviewed: false

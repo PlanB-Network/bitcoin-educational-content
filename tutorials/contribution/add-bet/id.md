@@ -29,7 +29,7 @@ Apakah Anda ingin berpartisipasi dalam memperkaya database ini, tetapi tidak tah
 - Isi file ini dengan informasi terkait konten Anda menggunakan template ini:
 
 ```yaml
-builder: 
+project: 
 type: 
 links:
   download: 
@@ -41,7 +41,7 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Tunjukkan pengenal organisasi Anda di Jaringan PlanB. Jika Anda belum memiliki pengenal "builder" untuk perusahaan Anda, Anda dapat membuatnya [dengan mengikuti tutorial ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Jika Anda tidak memilikinya, Anda dapat menggunakan nama Anda, pseudonim Anda, atau nama perusahaan Anda tanpa harus membuat profil builder.
+- **`project`**: Tunjukkan pengenal organisasi Anda di Jaringan PlanB. Jika Anda belum memiliki pengenal "project" untuk perusahaan Anda, Anda dapat membuatnya [dengan mengikuti tutorial ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Jika Anda tidak memilikinya, Anda dapat menggunakan nama Anda, pseudonim Anda, atau nama perusahaan Anda tanpa harus membuat profil project.
 - **`type`**: Pilih jenis konten Anda dari dua opsi berikut:
 	- `Educational Content` untuk konten pendidikan.
 	- `Visual Content` untuk jenis konten beragam lainnya.
@@ -64,7 +64,7 @@ contributors:
 Sebagai contoh, file YAML Anda bisa terlihat seperti ini:
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -190,3 +190,4 @@ Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meni
 Pastikan untuk mengikuti perkembangan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat mengkonsultasikannya di tab Pull requests pada repositori GitHub Jaringan PlanB:
 ![event](assets/56.webp)
 Terima kasih banyak atas kontribusi berharga Anda! :)
+

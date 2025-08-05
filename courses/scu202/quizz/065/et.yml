@@ -1,0 +1,9 @@
+question: Milline väide kirjeldab kõige paremini privaatse sirvimise režiimi?
+answer: See piirab kohalike jälgede salvestamist
+wrong_answers:
+  - See muudab internetis surfamise anonüümseks
+  - Blokeerib kõik pahatahtlikud jälgimisseadmed ja skriptid
+  - See kustutab aktiivsed laiendused
+explanation: |
+  Privaatne režiim lihtsalt takistab ajaloo ja küpsiste kohalikku logimist, kuid ei taga anonüümsust Internetis.
+reviewed: false

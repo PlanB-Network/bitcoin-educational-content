@@ -1,0 +1,9 @@
+question: Welche wesentlichen Vorkehrungen müssen bei der Automatisierung Ihrer Backups regelmäßig getroffen werden?
+answer: Wiederherstellung testen
+wrong_answers:
+  - Wechseln Sie Ihren Internetdienstanbieter
+  - Urlaubs-Backups deaktivieren
+  - Prüfung der Verschlüsselung
+explanation: |
+  Es ist wichtig, regelmäßig eine Sicherungskopie wiederherzustellen, um sicherzustellen, dass die Dateien nicht beschädigt oder unzugänglich sind, wenn sie benötigt werden.
+reviewed: false

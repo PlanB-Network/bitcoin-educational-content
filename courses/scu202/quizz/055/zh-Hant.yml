@@ -1,0 +1,9 @@
+question: 哪種呈現引擎是目前最普遍的，並為大多數的現代瀏覽器提供動力？
+answer: 閃爍
+wrong_answers:
+  - 壁虎
+  - 三叉戟
+  - WebKit
+explanation: |
+  Blink 是 Google 從 WebKit Fork 開發出來的，如今已成為主流的渲染引擎，為 Chrome、Edge、Opera、Brave、Vivaldi 等提供動力。
+reviewed: false

@@ -17,7 +17,36 @@ Untuk self-hosting, Tailscale menetapkan setiap perangkat IP pribadi tetap dalam
 - Akses aman ke Raspberry Pi atau NAS
 - Terhubung ke layanan Anda melalui SSH atau HTTP tanpa konfigurasi jaringan yang rumit
 
-Pendekatan yang berfokus pada kesederhanaan ini memungkinkan para self-hoster untuk mengakses layanan mereka dengan aman, menghindari masalah yang sering muncul pada VPN tradisional.
+Tailscale adalah VPN generasi berikutnya yang menciptakan jaringan mesh terenkripsi di antara perangkat-perangkat Anda. VPN ini memungkinkan Anda menyambungkan mesin-mesin jarak jauh seolah-olah mereka berada di jaringan lokal yang sama, tanpa konfigurasi yang rumit atau pembukaan port.
+
+
+
+Untuk hosting mandiri, Tailscale memberikan setiap perangkat IP pribadi tetap dalam jaringan virtual, menawarkan akses stabil ke layanan Anda bahkan ketika IP publik Anda berubah. Ini berarti Anda bisa mengelola server Anda dari jarak jauh, tanpa mengekspos layanan Anda secara langsung ke Internet.
+
+
+
+**Aplikasi utama:**
+
+
+
+
+- Mengelola server pribadi dari luar
+- Mengelola node Umbrel/Lightning lebih cepat daripada Tor
+- Akses aman ke Raspberry Pi atau NAS
+- Terhubung ke layanan Anda melalui SSH atau HTTP tanpa konfigurasi jaringan yang rumit
+
+
+
+Pendekatan yang berfokus pada kesederhanaan ini memungkinkan para penyelenggara sendiri untuk mengakses layanan mereka dengan aman, menghindari jebakan-jebakan VPN tradisional.
+
+
+
+## 2. Bagaimana Tailscale bekerja
+
+
+
+Tidak seperti VPN tradisional, yang merutekan semua lalu lintas melalui server pusat, Tailscale menciptakan jaringan mesh di mana perangkat berkomunikasi secara langsung satu sama lain. Server pusat hanya menangani autentikasi dan distribusi kunci, tanpa melihat data pengguna.
+
 
 ## 2. Bagaimana Tailscale bekerja
 
@@ -26,7 +55,14 @@ Tidak seperti VPN tradisional yang mengarahkan semua lalu lintas melalui server 
 
 *Gambar 1: VPN tradisional dengan arsitektur hub-and-spoke di mana semua lalu lintas melewati server pusat*
 
-Berbasis pada WireGuard, setiap perangkat membuat kunci kriptografinya sendiri. Server koordinasi mendistribusikan kunci publik ke node, yang kemudian membangun sambungan terenkripsi end-to-end secara langsung satu sama lain. Untuk menembus firewall, Tailscale menggunakan NAT traversal, dan sebagai upaya terakhir, relai DERP yang tetap menjaga enkripsi.
+*Gambar 1: VPN tradisional dengan arsitektur hub-and-spoke di mana semua lalu lintas melewati server pusat*
+
+
+
+Berdasarkan WireGuard, setiap perangkat menghasilkan kunci kriptografinya sendiri. Server koordinasi mendistribusikan kunci publik ke node, yang kemudian membuat terowongan terenkripsi ujung ke ujung secara langsung di antara mereka sendiri. Untuk melewati firewall, Tailscale menggunakan NAT traversal dan, sebagai upaya terakhir, relay DERP yang mempertahankan enkripsi.
+
+
+
 ![VPN maillé (mesh)](assets/fr/02.webp)
 
 *Gambar 2: Jaringan mesh Tailscale memungkinkan perangkat-perangkat berkomunikasi secara langsung satu sama lain.*

@@ -1,0 +1,9 @@
+question: Wanneer was de daadwerkelijke lancering van het Bitcoin prototype netwerk in 2009?
+answer: 9 januari 2009, om 02:54:25 UTC
+wrong_answers:
+  - 3 januari 2009, om 18:15:05 UTC
+  - 8 januari 2009, om 19:27:40 UTC
+  - 12 januari 2009, om 03:30:25 UTC
+explanation: |
+  Dit is de Timestamp van blok 1 van de Blockchain, gemined door Satoshi Nakamoto nadat hij de softwarecode een paar uur eerder had gepubliceerd op de mailinglijst. Het Genesis blok (0) werd gecreëerd tussen 3 en 8 januari, maar er was geen echt netwerk.
+reviewed: true

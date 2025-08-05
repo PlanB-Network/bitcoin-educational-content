@@ -1,0 +1,9 @@
+question: 为什么大多数安卓设备都预装了谷歌移动服务？
+answer: 制造商必须与谷歌签署许可协议
+wrong_answers:
+  - 欧洲立法要求的服务
+  - GMS 源代码免费
+  - 所有 Linux 设备都必须安装 GMS
+explanation: |
+  要从旗舰应用程序（Play Store、地图等）中获益，制造商必须集成 GMS，这意味着要与谷歌签订严格的许可协议。
+reviewed: false

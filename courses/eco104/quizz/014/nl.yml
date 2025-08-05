@@ -1,0 +1,11 @@
+question: Wat is de rol van private sleutels in Bitcoin transacties?
+answer: Ze worden gebruikt om transacties te ondertekenen en autoriseren.
+wrong_answers:
+  - Ze worden gebruikt om de echtheid van transacties te verifiëren.
+  - Ze worden gebruikt om de transactiegegevens te versleutelen.
+  - Ze worden openbaar gedeeld voor transparantie.
+explanation: |
+  Privé sleutels zijn een essentieel onderdeel van Bitcoin transacties.
+  Ze worden gebruikt om transacties te ondertekenen en autoriseren, als bewijs
+  van Ownership en zorgen ervoor dat alleen de eigenaar zijn Bitcoin kan uitgeven.
+reviewed: true

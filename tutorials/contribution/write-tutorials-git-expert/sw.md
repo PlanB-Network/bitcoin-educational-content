@@ -144,7 +144,7 @@ Ikiwa ungependa kuifanya kwa mikono, fuata hatua hizi:
     - Folda ndogo inayoitwa `assets` iliyo na :
         - Picha mbili za `.webp`:
             - `logo.webp`: Nembo ya mafunzo (umbizo la mraba lenye usuli). Nembo hii lazima iwakilishe programu au zana iliyowasilishwa. Ikiwa mafunzo si mahususi kwa zana (k.m.: mwongozo wa jumla wa kutengeneza maneno ya Mnemonic), unaweza kuchagua taswira inayofaa (k.m.: ikoni ya jumla).
-            - `cover.webp`: Picha ya jalada iliyoonyeshwa mwanzoni mwa mafunzo.
+            - `cover.webp`: Picha ya jalada lililoonyeshwa mwanzoni mwa mafunzo.
         - Folda ndogo iliyo na msimbo wa lugha asili ya mafunzo. Kwa mfano, ikiwa somo limeandikwa kwa Kiingereza, folda hii inapaswa kupewa jina `en'. Weka taswira zote za mafunzo (michoro, picha, picha za skrini, n.k.) kwenye folda hii.
     - Faili ya `tutorial.yml` iliyo na metadata (mwandishi, lebo, kitengo, kiwango cha ugumu, n.k.).
     - Faili ya Markdown iliyo na mafunzo, iliyopewa jina kulingana na msimbo wa lugha (k.m. `fr.md`, `en.md`, n.k.).
@@ -209,23 +209,23 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- id** : UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
+- **id** : UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
 
 
 
-- project_id** : UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id** : UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- tags** : Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags** : Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategoria** : Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
+- **kategoria** : Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
 
 
 
-- kiwango** : Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
+- **kiwango** : Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
     - `Mwanzo`
     - `katikati`
     - `advanced`
@@ -233,20 +233,20 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- professor_id** : `professor_id` (UUID) yako kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id** : `professor_id` (UUID) yako kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- lugha_asilia** : Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
+- **lugha_asilia** : Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
 
 
 
-- kusahihisha** : Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
-    - lugha** : Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
-    - tarehe_ya_mwisho_mchango** : Tarehe ya siku.
-    - dharura** : 1
-    - contributor_names** : Kitambulisho chako cha GitHub.
-    - malipo** : 0
+- **kusahihisha** : Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
+    - **lugha** : Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
+    - **tarehe_ya_mwisho_mchango** : Tarehe ya siku.
+    - **dharura** : 1
+    - **contributor_names** : Kitambulisho chako cha GitHub.
+    - **malipo** : 0
 
 
 Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana :
@@ -361,7 +361,7 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Uumbizaji unatumika kwenye jukwaa** :
+- **Uumbizaji unatumika kwenye jukwaa** :
     - Classic Markdown: orodha, viungo, picha, quotes, ujasiri, italiki, nk.
     - LaTeX (zuia pekee, sio ndani): imetengwa na `$$`.
     - Msimbo wa ndani: Sintaksia yenye tiki moja.
@@ -374,13 +374,13 @@ print("Hello, Bitcoin!")
 
 
 
-- Vielelezo na michoro** :
+- **Vielelezo na michoro** :
     - Picha zote lazima ziwe katika umbizo la WebP. Tumia zana hii isiyolipishwa ili kuzibadilisha ikihitajika: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Taja taswira zenye tarakimu 2 au 3 (k.m. `001.webp`, `002.webp`).
     - Kwa mafunzo ya simu au Hardware Wallet, tumia dhihaka.
     - Tumia taswira zilizoundwa mwenyewe au zisizo na mrabaha pekee.
     - Hakikisha yanafaa na ya ubora wa juu.
-- Hati ya picha** :
+- **Hati ya picha** :
     - Fonti: [Rubik](https://fonts.google.com/specimen/Rubik).
     - Rangi Plan ₿ Network :
         - Chungwa: `#FF5C00`

@@ -1,0 +1,9 @@
+question: Jaká jsou nejdůležitější kritéria, která je třeba ověřit před výběrem aplikace pro zasílání zpráv?
+answer: Šifrování end-to-end a otevřený zdrojový kód
+wrong_answers:
+  - Silné ověřování a otevřený zdrojový kód
+  - Koncové šifrování a decentralizované servery
+  - Silné ověřování a decentralizované servery
+explanation: |
+  Koncové šifrování zajišťuje důvěrnost výměn a otevřený zdrojový kód umožňuje ověřit správnou implementaci tohoto zabezpečení.
+reviewed: false

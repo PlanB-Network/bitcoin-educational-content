@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,7 +79,7 @@ Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
 
-- `builder`**: Wskaż identyfikator swojej organizacji w PlanB Network. Jeśli nie masz jeszcze identyfikatora "builder" dla swojej firmy, możesz go utworzyć, postępując zgodnie z tym samouczkiem.
+- `project`**: Wskaż identyfikator swojej organizacji w PlanB Network. Jeśli nie masz jeszcze identyfikatora "project" dla swojej firmy, możesz go utworzyć, postępując zgodnie z tym samouczkiem.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -118,7 +118,7 @@ Przykładowo, plik YAML może wyglądać następująco:
 
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

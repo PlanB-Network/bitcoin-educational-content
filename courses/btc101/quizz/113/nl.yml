@@ -1,0 +1,13 @@
+question: Wat weerhoudt iedereen ervan om dezelfde Bitcoin Wallet te gebruiken?
+answer: Verschillende individuen hebben verschillende use-cases nodig.
+wrong_answers:
+  - Het is duur om een Bitcoin Wallet te gebruiken.
+  - Het is illegaal om een Bitcoin Wallet te gebruiken.
+  - Mensen zullen het nooit eens worden over de naam van zo'n Wallet.
+explanation: |
+  Terwijl de ene persoon veiligheid belangrijk vindt, kan een ander
+  waarde hechten aan gebruiksvriendelijkheid of specifieke functies. Een
+  enkele Bitcoin Wallet misschien niet aan ieders
+  eisen, waardoor er meerdere Wallet
+  opties bestaan.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni aina gani ya programu inapendekezwa kwa upakuaji wa uwazi?
+answer: Programu ya bure
+wrong_answers:
+  - Programu ya umiliki
+  - Programu katika toleo la beta
+  - Programu iliyo na utangazaji jumuishi
+explanation: |
+  Programu huria inapendekezwa kwa sababu msimbo wake unaweza kukaguliwa na jumuiya, na hivyo kuimarisha usalama na uwazi.
+reviewed: false

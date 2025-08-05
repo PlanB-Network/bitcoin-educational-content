@@ -1,0 +1,9 @@
+question: Minkä viestipalvelun avulla voit rekisteröityä täysin anonyymisti, ilman puhelinnumeroa tai pysyvää kirjautumista?
+answer: SimpleX Chat
+wrong_answers:
+  - Signaali
+  - Telegrammi
+  - WhatsApp
+explanation: |
+  SimpleX Chatissa ei tarvita yksilöivää tunnusta: yhteystiedot lisätään lyhytaikaisten linkkien tai QR-koodien avulla, eikä henkilötietoja tarvita.
+reviewed: false

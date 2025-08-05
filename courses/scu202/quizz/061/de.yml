@@ -1,0 +1,9 @@
+question: Welcher Browser bietet Werbe- und Tracker-Blockierung, Fingerabdruckschutz und basiert auf Chromium?
+answer: Mutig
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrom
+explanation: |
+  Brave bietet standardmäßig Werbeblocker, Tracker und einen erweiterten Schutz vor Fingerabdrücken, die alle auf Chromium basieren.
+reviewed: false

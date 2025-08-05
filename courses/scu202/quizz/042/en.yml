@@ -1,0 +1,9 @@
+question: Why should you always check the integrity and authenticity of software downloaded from the Internet?
+answer: To avoid installing malware
+wrong_answers:
+  - To improve system performance
+  - To save bandwidth
+  - To speed up installation
+explanation: |
+  Verifying integrity and authenticity helps to prevent the installation of corrupted, infected or non-legitimate software.
+reviewed: false

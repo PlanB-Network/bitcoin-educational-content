@@ -1,0 +1,9 @@
+question: Mikä työkalu voi analysoida järjestelmän tietoturvaa Linux-koneessa ja laatia yksityiskohtaisen raportin suosituksineen?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Synaptinen
+explanation: |
+  Lynis on kattava Linuxin tietoturvatarkastustyökalu, joka etsii järjestelmästä haavoittuvuuksia ja virheellisiä asetuksia.
+reviewed: false

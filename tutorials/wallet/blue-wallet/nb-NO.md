@@ -11,7 +11,7 @@ description: Bitcoin Radikalt enkel og kraftfull portefølje
 
 
 
-I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært effektiv Bitcoin Wallet som lar deg administrere bitcoinsene dine personlig og også opprette forvaltningskooperativer basert på [Multisig] (https://planb.network/resources/glossary/Multisig) (ikke bekymre deg, vi kommer tilbake til det).
+I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært effektiv Bitcoin Wallet som lar deg administrere bitcoinsene dine personlig og også opprette forvaltningskooperativer basert på [Multisig] (https://planb.network/resources/glossary/multisig) (ikke bekymre deg, vi kommer tilbake til det).
 
 
 
@@ -264,7 +264,7 @@ Når du validerer transaksjonen din, trenger du en andre signatur for å godkjen
 
 
 
-Den andre Wallet-signatøren, hvis han eller hun også er en bruker, kan signere transaksjonen selv om han eller hun ikke er på Internett (ingen Wi-Fi, ingen mobildata) ved å skanne QR-koden til den [delvis signerte transaksjonen] (https://planb.network/resources/glossary/PSBT) du nettopp har opprettet.
+Den andre Wallet-signatøren, hvis han eller hun også er en bruker, kan signere transaksjonen selv om han eller hun ikke er på Internett (ingen Wi-Fi, ingen mobildata) ved å skanne QR-koden til den [delvis signerte transaksjonen] (https://planb.network/resources/glossary/psbt) du nettopp har opprettet.
 
 
 

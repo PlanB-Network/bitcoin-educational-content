@@ -1,0 +1,9 @@
+question: Jakie jest główne ryzyko związane z nieaktualizowanym smartfonem?
+answer: Staje się podatny na znane luki w zabezpieczeniach
+wrong_answers:
+  - Zużywa więcej energii baterii
+  - Traci połączenie Wi-Fi
+  - Staje się bardziej podatny na phishing
+explanation: |
+  Niezaktualizowany smartfon jest narażony na publicznie poprawione luki, które mogą być łatwo wykorzystane przez atakujących.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Welk land heeft Bitcoin uitgeroepen tot wettig betaalmiddel?
+answer: El Salvador.
+wrong_answers:
+  - Verenigde Staten.
+  - China.
+  - India.
+explanation: >-
+reviewed: true

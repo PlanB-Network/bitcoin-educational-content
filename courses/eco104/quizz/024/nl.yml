@@ -1,0 +1,11 @@
+question: Wat is Halving in de context van Bitcoin?
+answer: Een functie in de code van Bitcoin die de beloning voor Mining elke vier jaar halveert
+wrong_answers:
+  - Een proces om de wereldwijde toepassing van Bitcoin te vergroten
+  - Een mechanisme dat voorkomt dat de waarde van Bitcoin instort
+  - Een term die gebruikt wordt om te beschrijven wanneer de prijs van Bitcoin omhoog schiet
+explanation: |
+  De Halving is een functie in de code van Bitcoin die de Mining beloning ongeveer elke vier jaar met de helft vermindert
+  ongeveer elke vier jaar halveert. Deze gebeurtenis heeft
+  de inkomsten van mijnwerkers en oefent opwaartse druk uit op de prijs van Bitcoin.
+reviewed: true

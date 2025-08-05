@@ -1,0 +1,9 @@
+question: Pour Spinoza Dieu est ?
+answer: La Nature.
+wrong_answers:
+- Un être doué d'intention.
+- Un horloger.
+- Une fiction.
+explanation: |
+  Pour Spinoza, Dieu est la Nature (Deus sive Natura). Il ne s'agit pas d'un être transcendant et personnel, mais de la substance unique et infinie dont tout ce qui existe est un mode ou une manifestation.
+reviewed: false

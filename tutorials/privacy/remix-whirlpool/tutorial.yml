@@ -112,6 +112,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.98
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.6
 tags:
   - privacy
   - good-practice

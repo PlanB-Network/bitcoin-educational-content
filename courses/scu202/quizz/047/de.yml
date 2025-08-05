@@ -1,0 +1,9 @@
+question: Welche kostenlose, plattformübergreifende Software kann verwendet werden, um eine verschlüsselte Containerdatei zu erstellen, die wie eine virtuelle Festplatte gemountet werden kann?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  Mit VeraCrypt können Sie verschlüsselte Container erstellen, auf die als virtuelle Festplatten unter allen gängigen Betriebssystemen zugegriffen werden kann.
+reviewed: false

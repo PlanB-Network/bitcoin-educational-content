@@ -129,7 +129,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 Pokyny k instalaci a nastavení aplikace Blockstream Green naleznete v první části tohoto dalšího návodu:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 V aplikaci Blockstream Green klikněte na tlačítko "*Konfigurace nového portfolia*".
 
@@ -300,3 +300,4 @@ Gratulujeme, nyní víte, jak nastavit a používat zařízení Jade Plus s mobi
 Chcete-li se posunout o krok dál, doporučuji tento návod na Jade Plus, kde jej konfigurujeme pomocí softwaru Sparrow Wallet v režimu QR. Dozvíte se také, jak používat pokročilá nastavení hardwarové peněženky:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

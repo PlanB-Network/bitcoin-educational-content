@@ -1,0 +1,9 @@
+question: Vilken är kernelns huvudsakliga funktion i ett operativsystem?
+answer: Hantera tillgång till utrustning
+wrong_answers:
+  - Visa annonser
+  - Hantera användarkonton
+  - Installera program automatiskt
+explanation: |
+  Kärnan styr hårdvaruåtkomst, samtidig exekvering av processer och säkerhet, samtidigt som kretskomplexiteten döljs för användaren.
+reviewed: false

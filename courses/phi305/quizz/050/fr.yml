@@ -1,0 +1,9 @@
+question: Emmanuel Kant était-il ?
+answer: Un philosophe allemand des Lumières.
+wrong_answers:
+- Un philosophe anglais disciple de Newton
+- Un philosophe du 17e siècle.
+- Un philosophe chrétien.
+explanation: |
+  Emmanuel Kant (1724-1804) était un philosophe allemand des Lumières. Il a développé une philosophie critique qui a profondément influencé la pensée moderne, notamment avec sa 'Critique de la raison pure'.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke Cold opslagoplossing wordt aanbevolen voor de paranoïde gebruiker?
+answer: Afgesloten met lucht of doe-het-zelf Hardware Wallet
+wrong_answers:
+  - Mobiel Hot Wallet
+  - Bewakingsdienst op een Exchange platform
+  - Gesloten Hardware Wallet voor algemene doeleinden
+explanation: |
+  De paranoïde gebruiker geeft de voorkeur aan offline opslag met open-source oplossingen om het risico op blootstelling te minimaliseren.
+reviewed: false

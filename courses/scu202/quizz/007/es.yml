@@ -1,0 +1,9 @@
+question: ¿Qué sistema destaca por su modelo comunitario y de código abierto?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux es libre y desarrollado por una comunidad mundial, lo que garantiza transparencia, seguridad y flexibilidad para el usuario.
+reviewed: false

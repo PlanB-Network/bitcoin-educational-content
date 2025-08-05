@@ -1,0 +1,9 @@
+question: Který nástroj s otevřeným zdrojovým kódem dokáže plně zašifrovat disk pod Linuxem?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) je v systému Linux standardním řešením pro šifrování celého disku během instalace.
+reviewed: false

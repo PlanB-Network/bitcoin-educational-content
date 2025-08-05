@@ -129,7 +129,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 Blockstream Green'i rakenduse paigaldamise ja seadistamise juhiseid leiate selle teise õpetuse esimesest osast:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Kui olete Blockstream Green'i rakenduses, klõpsake nupule "*Uue portfelli konfigureerimine*".
 
@@ -300,3 +300,4 @@ Palju õnne, te teate nüüd, kuidas seadistada ja kasutada Jade Plus'i koos Blo
 Et minna sammu võrra kaugemale, soovitan seda Jade Plus'i õpetust, kus me seadistame selle koos Sparrow Wallet'i tarkvaraga QR-režiimis. Samuti saate teada, kuidas kasutada oma riistvaralise rahakoti täiustatud seadeid:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

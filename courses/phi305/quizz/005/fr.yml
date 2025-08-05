@@ -1,0 +1,10 @@
+question: Quel est le scientifique qui considère que les mathématiques sont le langage
+  de l'univers ?
+answer: Galilée.
+wrong_answers:
+- Kepler.
+- Newton.
+- Copernic.
+explanation: |
+  Galilée est célèbre pour avoir affirmé que "le livre de la nature est écrit en langage mathématique". Cette vision a profondément influencé la science moderne et la philosophie rationaliste, incluant celle de Spinoza.
+reviewed: false

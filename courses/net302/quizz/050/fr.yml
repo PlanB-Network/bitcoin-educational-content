@@ -1,0 +1,9 @@
+question: Que faut-il impérativement compléter au NAT pour sécuriser réellement un réseau ?
+answer: Un pare-feu
+wrong_answers:
+  - Un serveur DNS local
+  - Un proxy HTTP
+  - Un antivirus
+explanation: |
+  Le NAT ne suffit pas à filtrer les flux malveillants : il doit être complété par des règles de pare-feu pour contrôler finement le trafic.
+reviewed: false

@@ -11,7 +11,7 @@ Začít používat Bitcoin se zdá být velkou výzvou pro lidi, kteří jsou sk
 
 
 
-V tomto tutoriálu se podíváme na Blue Wallet, jednoduchý, ale velmi efektivní Bitcoin Wallet, který vám umožní spravovat bitcoiny osobně a také vytvářet správcovská družstva založená na [Multisig](https://planb.network/resources/glossary/Multisig) (nebojte se, ještě se k němu vrátíme).
+V tomto tutoriálu se podíváme na Blue Wallet, jednoduchý, ale velmi efektivní Bitcoin Wallet, který vám umožní spravovat bitcoiny osobně a také vytvářet správcovská družstva založená na [Multisig](https://planb.network/resources/glossary/multisig) (nebojte se, ještě se k němu vrátíme).
 
 
 
@@ -264,7 +264,7 @@ Při ověřování transakce budete potřebovat druhý podpis, který schválí 
 
 
 
-Druhý signatář Wallet, pokud je také uživatelem, může transakci podepsat, i když je mimo internet (bez Wi-Fi, bez mobilních dat), a to naskenováním QR kódu právě vytvořené [částečně podepsané transakce](https://planb.network/resources/glossary/PSBT).
+Druhý signatář Wallet, pokud je také uživatelem, může transakci podepsat, i když je mimo internet (bez Wi-Fi, bez mobilních dat), a to naskenováním QR kódu právě vytvořené [částečně podepsané transakce](https://planb.network/resources/glossary/psbt).
 
 
 

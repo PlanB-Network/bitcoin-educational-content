@@ -1,0 +1,9 @@
+question: Je, ni kauli gani inayofafanua vyema hali ya kuvinjari ya faragha?
+answer: Inapunguza kurekodi kwa athari za ndani
+wrong_answers:
+  - Hufanya kutumia mtandao kusiwe na jina
+  - Huzuia vifuatiliaji na hati zote hasidi
+  - Inafuta viendelezi vinavyotumika
+explanation: |
+  Hali ya faragha huzuia tu uwekaji kumbukumbu wa ndani wa historia na vidakuzi, lakini haitoi hakikisho la kutokujulikana kwenye Mtandao.
+reviewed: false

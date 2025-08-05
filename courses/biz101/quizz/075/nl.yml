@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van Enterprise-level Bitcoin betalingsimplementaties?
+answer: Bitcoin betalingen volledig integreren in de kernprocessen van de organisatie
+wrong_answers:
+  - Om op kleine schaal te experimenteren met Bitcoin
+  - Bitcoin gebruiken voor marketingdoeleinden
+  - Bitcoin accepteren zonder integratie in andere systemen
+explanation: |
+  Enterprise-oplossingen zijn erop gericht om Bitcoin-betalingen af te stemmen op de belangrijkste zakelijke workflows en systemen.
+reviewed: false

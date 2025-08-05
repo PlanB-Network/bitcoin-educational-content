@@ -1,0 +1,9 @@
+question: 瀏覽公共 Wi-Fi 網路時，使用 VPN 的主要目的是什麼？
+answer: 加密裝置與 VPN 伺服器之間的流量
+wrong_answers:
+  - 匿名您的網際網路連線
+  - 自動安裝更新
+  - generate 強大的密碼
+explanation: |
+  VPN 會加密所有網路流量，保護您的資料在公共 Wi-Fi 等不安全的網路中不受攔截。
+reviewed: false

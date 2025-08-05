@@ -1,0 +1,9 @@
+question: Ni programu gani inatoa usanifu uliogatuliwa kwa kiasi kikubwa bila seva kuu ya uelekezaji wa ujumbe?
+answer: Keet
+wrong_answers:
+  - Telegramu
+  - Mawimbi
+  - Threema
+explanation: |
+  Keet inatokana na muundo wa rika-kwa-rika ambapo mawasiliano yote hupita moja kwa moja kati ya watumiaji, bila seva kuu, inayohakikisha uthabiti wa hali ya juu na usiri.
+reviewed: false
